@@ -1,4 +1,6 @@
-# Generated files are prebuilt at commit time. CI only checks that nobody skipped this hook.
+# Each commit is prebuilt: the version moves one patch step and the generated files are built again.
+# CI only checks that nobody skipped this hook.
+npm version patch --no-git-tag-version
 npm run typecheck
 npm run build
-git add graph skills README.md
+git add package.json package-lock.json graph skills README.md

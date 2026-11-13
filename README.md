@@ -222,7 +222,7 @@ data/<domain>/styles/*.json     the source of truth, one file for each style
         └─ npm run build:skills  skills/<id>/SKILL.md + tokens.css + pack/*.svg + SKILL_INDEX.md + index.json
 ```
 
-- **Deterministic.** The same data gives the same bytes. A husky pre-commit hook builds the generated files, so each commit is prebuilt. CI only checks that a generated file does not differ from the commit.
+- **Deterministic.** The same data gives the same bytes. A husky pre-commit hook moves the package version one patch step and builds the generated files, so each commit is prebuilt. CI only checks that a generated file does not differ from the commit.
 - **Generated files are in the repository** on purpose, so that a raw URL is all an agent needs.
 - **No runtime.** The output is Markdown, CSS and JSON. The scripts are about 1,300 lines of TypeScript with two dependencies, `ajv` and `handlebars`.
 
