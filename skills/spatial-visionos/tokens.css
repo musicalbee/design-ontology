@@ -1,0 +1,60 @@
+/*
+ * Spatial UI (visionOS) — tokens
+ * Generated from data/design/styles/spatial-visionos.json by design-ontology. Do not edit.
+ * Use: put data-style="spatial-visionos" on <html> or on any container.
+ */
+[data-style="spatial-visionos"] {
+  --color-bg: #0F0F14;
+  --color-surface: rgba(255, 255, 255, 0.15);
+  --color-text: #FFFFFF;
+  --color-muted: rgba(255, 255, 255, 0.6);
+  --color-primary: #0A84FF;
+  --color-accent: #0A84FF;
+  --color-border: rgba(255, 255, 255, 0.25);
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
+  --border-radius: 32px;
+  --border-width: 1px;
+  --shadow-elevation: 0 20px 60px rgba(0, 0, 0, 0.35);
+  --backdrop-filter: blur(40px) saturate(180%);
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --duration: 400ms;
+  --target-min: 60px;
+  --hover-fill: rgba(255, 255, 255, 0.2);
+  --color-on-primary: #000000;
+}
+
+/* Reference rules. They show how the tokens combine; replace them with your own components. */
+[data-style="spatial-visionos"] {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
+[data-style="spatial-visionos"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+}
+[data-style="spatial-visionos"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="spatial-visionos"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary, var(--color-bg));
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  transition: all var(--duration) var(--ease);
+}
+[data-style="spatial-visionos"] :where(.muted) {
+  color: var(--color-muted);
+}
+[data-style="spatial-visionos"] :where(a) {
+  color: var(--color-accent);
+}

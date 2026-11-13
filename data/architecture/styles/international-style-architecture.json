@@ -1,0 +1,112 @@
+{
+  "$schema": "../../../schema/domains/architecture.schema.json",
+  "id": "international-style-architecture",
+  "domain": "architecture",
+  "name": "International Style",
+  "aliases": ["Modern Movement", "Neues Bauen", "Functionalism"],
+  "era_id": "modern-movement",
+  "time_period": { "start": 1922, "end": 1970, "label": "1920s–1960s" },
+  "building_types": ["residential", "commercial", "civic"],
+  "summary": "Light rectilinear volumes of steel, glass and white render, with flat roofs, ribbon windows and free plans. The Bauhaus, Le Corbusier and Mies van der Rohe defined it in the 1920s, and it became the global language of the office tower.",
+  "philosophy": {
+    "core_thesis": "A building is a volume enclosed by a thin skin, and industrial methods make one rational form valid in every place.",
+    "design_principles": [
+      "Treat the building as volume, not mass: wrap a structural frame in a thin, flat skin of glass or render.",
+      "Carry the loads on a regular grid of slender columns, so that walls are free partitions and the plan is open.",
+      "Order the facade by the regularity of the structural bay, not by axial symmetry.",
+      "Use horizontal ribbon windows or full-height glazing set flush with the wall plane.",
+      "Keep the roof flat and usable, and keep the eaves line free of cornices.",
+      "Remove applied ornament and rely on proportion and the precision of standard parts."
+    ],
+    "anti_patterns": [
+      "Pitched roofs, gables, cornices or dormers",
+      "Applied ornament, classical orders or regional motifs",
+      "Thick load-bearing walls with small punched windows",
+      "Symmetric compositions around a ceremonial central axis",
+      "Rough, hand-made or strongly textured surfaces",
+      "Curved or free-form volumes that ignore the structural grid"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "structural_expression": 3,
+    "geometric_rigidity": 5,
+    "material_rawness": 2,
+    "monumentality": 3
+  },
+  "massing": {
+    "form": "Simple orthogonal prisms, single or intersecting, with smooth planes and sharp arrises.",
+    "proportion": "Long horizontal bodies for houses and slabs; a regular bay of 4 to 7m repeated without a central emphasis.",
+    "roof": "Flat roof, often a terrace or roof garden, with a parapet that is level with the wall plane.",
+    "relation_to_ground": "The volume stands free on pilotis or on a recessed glass ground floor, so that the ground continues under it."
+  },
+  "structure": {
+    "system": "A steel or reinforced-concrete skeleton with non-load-bearing curtain walls and partitions.",
+    "span_and_module": "A column grid of 4 to 9m, set back from the facade so that the skin runs past the columns without a break.",
+    "expression": "The grid is legible but restrained: slim mullions, expressed slab edges or steel I-sections mark the module."
+  },
+  "materials": {
+    "primary": ["plate glass", "painted steel", "white render on concrete"],
+    "secondary": ["travertine", "chrome", "glass block", "polished stone veneer"],
+    "finish": "Smooth, precise and machine-made; surfaces are painted, polished or glazed and show no trace of the hand.",
+    "palette": [
+      { "name": "White render", "hex": "#F4F3EE", "role": "primary wall planes" },
+      { "name": "Black steel", "hex": "#1C1C1C", "role": "frames and mullions" },
+      { "name": "Glass", "hex": "#A9C1C9", "role": "curtain wall" },
+      { "name": "Travertine", "hex": "#D8CDB8", "role": "floors and podium" },
+      { "name": "Primary red", "hex": "#C8281E", "role": "one accent plane or door" }
+    ]
+  },
+  "facade": {
+    "composition": "A flat taut skin divided by a regular module; no part of the elevation projects more than the depth of a mullion.",
+    "openings": "Continuous ribbon windows, corner glazing or a full curtain wall, with frames as thin as the technology allows.",
+    "solid_to_void": "Void dominates on later work: 50–90% glass; early white villas hold about 30–40% glass in long bands."
+  },
+  "light_and_space": {
+    "daylight": "Even, abundant daylight from floor-to-ceiling glazing; the interior reads as bright and shadowless.",
+    "spatial_sequence": "A free plan: space flows between screens and cores without closed corridors, and the inside continues to the outside through glass.",
+    "interior_character": "White planes, exposed slender columns, built-in storage and tubular-steel furniture; few objects, placed with precision."
+  },
+  "ornament": {
+    "attitude": "Ornament is rejected; the quality of proportion, joints and materials replaces it.",
+    "details": ["cruciform chrome columns", "flush joints", "cantilevered slab edges", "book-matched stone", "tubular steel handrails"]
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": ["bauhaus", "swiss-international"]
+  },
+  "emotion": {
+    "target_response": "Clarity and progress: the viewer feels a rational, weightless order that belongs to no single place.",
+    "keywords": ["rational", "light", "universal", "precise", "optimistic"],
+    "brand_archetypes": ["sage", "ruler"]
+  },
+  "agent": {
+    "triggers": ["international style", "modernist architecture", "miesian", "glass box", "white villa", "pilotis", "less is more", "curtain wall"],
+    "use_cases": ["concept renders", "office buildings", "private villas", "gallery interiors", "product showrooms"],
+    "avoid_when": [
+      "The brief asks for local character, craft or a strong response to climate.",
+      "The site needs heavy thermal mass or small openings."
+    ],
+    "modifiers": [
+      { "request": "heavier", "toward": "brutalist-architecture", "how": "Thicken the frame, leave the concrete raw and set the windows deep; keep the flat roof and the regular bay." }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "white rectilinear volumes", "flat roof", "ribbon windows", "glass curtain wall", "slender steel columns",
+      "pilotis", "open free plan", "crisp shadows", "minimal detailing"
+    ],
+    "negative": ["ornament", "pitched roof", "rough concrete", "arches", "brick detailing", "symmetry around a portico"],
+    "canonical_works": [
+      { "work": "Bauhaus Building, Dessau", "architect": "Walter Gropius", "year": 1926 },
+      { "work": "Barcelona Pavilion", "architect": "Ludwig Mies van der Rohe", "year": 1929 },
+      { "work": "Villa Savoye, Poissy", "architect": "Le Corbusier", "year": 1931 },
+      { "work": "Seagram Building, New York", "architect": "Ludwig Mies van der Rohe", "year": 1958 }
+    ]
+  },
+  "sources": [
+    { "title": "Henry-Russell Hitchcock and Philip Johnson, The International Style (W. W. Norton, 1932)" }
+  ]
+}

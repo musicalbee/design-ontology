@@ -1,0 +1,62 @@
+/*
+ * Swiss International Style — tokens
+ * Generated from data/design/styles/swiss-international.json by design-ontology. Do not edit.
+ * Use: put data-style="swiss-international" on <html> or on any container.
+ */
+[data-style="swiss-international"] {
+  --color-bg: #FFFFFF;
+  --color-surface: #F2F2F0;
+  --color-text: #111111;
+  --color-muted: #5E5E5E;
+  --color-primary: #111111;
+  --color-accent: #E30613;
+  --color-border: #111111;
+  --font-sans: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: "Inter Tight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --border-radius: 0px;
+  --border-width: 1px;
+  --shadow-elevation: none;
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+  --duration: 150ms;
+  --grid-columns: 12;
+  --grid-gutter: 24px;
+  --tracking-display: -0.03em;
+  --leading-body: 1.5;
+  --color-on-primary: #FFFFFF;
+}
+
+/* Reference rules. They show how the tokens combine; replace them with your own components. */
+[data-style="swiss-international"] {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
+[data-style="swiss-international"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+}
+[data-style="swiss-international"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="swiss-international"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary, var(--color-bg));
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  transition: all var(--duration) var(--ease);
+}
+[data-style="swiss-international"] :where(.muted) {
+  color: var(--color-muted);
+}
+[data-style="swiss-international"] :where(a) {
+  color: var(--color-accent);
+}

@@ -1,0 +1,60 @@
+/*
+ * Bento Grid UI — tokens
+ * Generated from data/design/styles/bento-grid-ui.json by design-ontology. Do not edit.
+ * Use: put data-style="bento-grid-ui" on <html> or on any container.
+ */
+[data-style="bento-grid-ui"] {
+  --color-bg: #F5F5F7;
+  --color-surface: #FFFFFF;
+  --color-text: #1D1D1F;
+  --color-muted: #6E6E73;
+  --color-primary: #1D1D1F;
+  --color-accent: #0071E3;
+  --color-border: rgba(0, 0, 0, 0.06);
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Inter Tight", "Inter", system-ui, sans-serif;
+  --border-radius: 24px;
+  --border-width: 1px;
+  --shadow-elevation: 0 1px 2px rgba(0, 0, 0, 0.06);
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --duration: 350ms;
+  --grid-gap: 16px;
+  --cell-padding: 24px;
+  --color-on-primary: #FFFFFF;
+}
+
+/* Reference rules. They show how the tokens combine; replace them with your own components. */
+[data-style="bento-grid-ui"] {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
+[data-style="bento-grid-ui"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+}
+[data-style="bento-grid-ui"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="bento-grid-ui"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary, var(--color-bg));
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  transition: all var(--duration) var(--ease);
+}
+[data-style="bento-grid-ui"] :where(.muted) {
+  color: var(--color-muted);
+}
+[data-style="bento-grid-ui"] :where(a) {
+  color: var(--color-accent);
+}

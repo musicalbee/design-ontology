@@ -1,0 +1,61 @@
+/*
+ * Y2K Aesthetic — tokens
+ * Generated from data/design/styles/y2k-aesthetic.json by design-ontology. Do not edit.
+ * Use: put data-style="y2k-aesthetic" on <html> or on any container.
+ */
+[data-style="y2k-aesthetic"] {
+  --color-bg: #EAF4FF;
+  --color-surface: #C7CDD6;
+  --color-text: #0B1A3A;
+  --color-muted: #4A5B7A;
+  --color-primary: #1E6BFF;
+  --color-accent: #00D9FF;
+  --color-border: #9AA7BA;
+  --font-sans: "Exo 2", "Nunito Sans", Verdana, Tahoma, sans-serif;
+  --font-display: "Orbitron", "Audiowide", "Arial Black", sans-serif;
+  --border-radius: 999px;
+  --border-width: 1px;
+  --shadow-elevation: 0 6px 16px rgba(30, 107, 255, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --backdrop-filter: blur(6px);
+  --space-unit: 4px;
+  --ease: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration: 320ms;
+  --gradient-chrome: linear-gradient(180deg, #FFFFFF 0%, #C7CDD6 48%, #8F9AAD 52%, #E3E8F0 100%);
+  --gradient-gloss: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0) 45%), linear-gradient(180deg, #4D8DFF, #1E6BFF);
+  --glow-cyan: 0 0 16px rgba(0, 217, 255, 0.8);
+  --color-on-primary: #000000;
+}
+
+/* Reference rules. They show how the tokens combine; replace them with your own components. */
+[data-style="y2k-aesthetic"] {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
+[data-style="y2k-aesthetic"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+}
+[data-style="y2k-aesthetic"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="y2k-aesthetic"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary, var(--color-bg));
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  transition: all var(--duration) var(--ease);
+}
+[data-style="y2k-aesthetic"] :where(.muted) {
+  color: var(--color-muted);
+}
+[data-style="y2k-aesthetic"] :where(a) {
+  color: var(--color-accent);
+}

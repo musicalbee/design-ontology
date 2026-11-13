@@ -1,0 +1,210 @@
+---
+name: grunge-editorial
+description: "Apply the Grunge Editorial style (1990s) when generating UI or graphic layouts. Load when the user asks for: grunge, david carson, ray gun, emigre, distressed type, 90s magazine."
+domain: design
+era: postmodern-early-digital
+triggers:
+  - "grunge"
+  - "david carson"
+  - "ray gun"
+  - "emigre"
+  - "distressed type"
+  - "90s magazine"
+  - "deconstructed"
+  - "photocopy"
+  - "zine"
+  - "overprint"
+  - "anti-design"
+vector_profile:
+  ornamentation: 4
+  dimensionality: 2
+  grid_rigidity: 1
+  skeuomorphic_realism: 2
+  typographic_expressiveness: 5
+---
+
+# Grunge Editorial
+
+> Legibility is not the same as communication, and a page can carry the mood of its content by looking as rough as the content feels.
+
+Layered, distressed type, overprinted photographs and broken columns, set by hand in early Macintosh software. David Carson at Ray Gun and the Emigre studio made it the look of 1990s alternative music and youth magazines.
+
+**Period:** 1990s · **Era:** Postmodern & Early Digital · **Domain:** Graphic & UI Design · **Also called:** Grunge Typography, Deconstructivist Typography, Ray Gun Style, New Typography of the 90s
+
+## When to load this skill
+
+Load it when the user asks for: "grunge", "david carson", "ray gun", "emigre", "distressed type", "90s magazine", "deconstructed", "photocopy", "zine", "overprint", "anti-design".
+
+Good for: music magazines, zines, event posters, skate and street brands, album art, editorial features.
+
+Do not use it when:
+- The user must read long passages or complete a task with forms and tables.
+- The brand needs a calm, institutional or medical tone.
+- The page must meet a strict accessibility audit, since overlaps cut legibility below 4.5:1.
+
+## System directives
+
+When generating UI or graphic layouts in Grunge Editorial, you MUST:
+
+1. Layer type over type and type over photographs with 2 to 4 overlapping text layers, and let the overlaps cut the legibility by 10% to 30%.
+2. Mix 3 to 5 typefaces on one spread, at least one of them a distressed or bitmap face, and change size by a ratio of 3 or more.
+3. Break the column grid: set one text block at an angle of 90 degrees, or one block with a line length of 12 characters, or one at 120 characters.
+4. Add texture to every surface: scanner noise, photocopy grain, torn paper edges and halftone dots at 4px to 8px pitch.
+5. Crop photographs hard, blur or posterise them, and print them at 60% to 100% contrast over a flat dark field.
+6. Treat the page number, folio and caption as display type, at 48px to 200px.
+7. Hold the palette to black, off-white and one or two dirty hues, and leave ink edges uneven.
+
+## Guardrails
+
+Each line below breaks the style. Check your output against the list before you return it.
+
+- **NEVER:** A single neutral sans serif with one weight.
+- **NEVER:** Perfect modular grids with equal gutters.
+- **NEVER:** Glossy gradients and polished vector shadows.
+- **NEVER:** Stock photography on a white field.
+- **NEVER:** Generous empty margins with a centred headline.
+- **NEVER:** Pastel colour schemes.
+- **NEVER:** Pixel-perfect alignment across all elements.
+
+## Vector profile
+
+| Axis | Score | 1 means | 5 means |
+|---|---|---|---|
+| Ornamentation | `■■■■□` 4/5 | pure minimal | maximalist |
+| Dimensionality | `■■□□□` 2/5 | strictly 2D | full 3D / spatial |
+| Grid rigidity | `■□□□□` 1/5 | chaotic / organic | strict mathematical grid |
+| Skeuomorphic realism | `■■□□□` 2/5 | abstract digital | photorealistic material |
+| Typographic expressiveness | `■■■■■` 5/5 | neutral / invisible | experimental / illustrative |
+
+Hold these scores. If a request moves an axis by 2 points or more, you have left the style: go to "Lineage fallbacks".
+
+## Spatial & grid logic
+
+- **Grid mechanics:** A nominal 3-column grid with 12px gutters that the content breaks on purpose; 1 in 3 blocks sits off the column by 16px to 120px or rotates by 90 degrees.
+- **Whitespace ratio:** Only 5% to 15% of the surface stays empty; the spacing scale is 4, 12, 28, 60px and gaps vary within a page.
+- **Alignment rules:** Mix flush-left, flush-right, rotated and justified blocks on one page; overlap text blocks by 8px to 40px and bleed photographs off at least two page edges.
+- **Container geometry:** Rectangles with 0px radius and torn or cropped edges; panels are photograph crops and taped paper strips, with no card chrome.
+
+## Typography
+
+- **Classifications:** distressed grotesque · bitmap and pixel type · transitional serif · typewriter mono
+- **Tracking:** Display sizes range from -0.06em to +0.3em within one page; body stays between 0em and +0.05em.
+- **Leading:** Display 0.8 to 1.0 with overlapping lines; body 1.2 to 1.4; captions 1.0.
+- **Hierarchy rules:**
+  - Use 3 to 5 sizes with jumps of 3x or more, from 9px captions to 180px display words.
+  - Mix upper case, lower case and small caps in one headline, and set one word 3x larger than the rest.
+  - Rotate or stack one text block per spread at 90 degrees, and keep body paragraphs horizontal.
+  - Keep body text at 11px to 14px in mono or serif and let headlines break the text frame.
+
+**Font pairings**
+
+| Display | Body | Note |
+|---|---|---|
+| Rubik Glitch | Space Mono | Broken display letters over a typewriter text face. |
+| Special Elite | IBM Plex Mono | A worn typewriter display with a clean mono for captions. |
+| Bowlby One | Libre Baskerville | A heavy blunt sans against a transitional serif. |
+| VT323 | Courier Prime | Bitmap display type with a typewriter body. |
+
+## Colour & lighting
+
+- **Palette structure:** Black and warm off-white carry 70% of the surface; one or two muddy hues cover 20% as overprint, and one acid accent covers under 5%.
+- **Contrast rules:** Body text holds 7:1 or better; display type may fall to 2:1 where it overlaps an image, and then a body-size caption must repeat the words at 7:1.
+- **Surface treatment:** Textured, uneven and ink-heavy: grain at 15% to 30% opacity, multiply blend for overprint and a 1px to 3px misregistration offset between colour layers.
+- **Light and shadow:** No coherent light source; depth comes from overlap order and multiply blending, and shadows, where present, are hard offsets of 2px to 4px in a darker ink.
+
+**Palette**
+
+| Name | Hex | Role |
+|---|---|---|
+| Newsprint | `#E8E2D0` | background |
+| Toner Black | `#141414` | text and photo field |
+| Rust | `#8C3B1E` | overprint hue |
+| Swamp | `#4B5A3C` | second overprint hue |
+| Photocopy Grey | `#8A8A84` | secondary text and grain |
+| Acid Yellow | `#E6FF00` | rare accent |
+
+## Materiality & texture
+
+- **Surface simulation:** Photocopied newsprint and cheap offset stock, with scanner dust, tape, staples and torn edges.
+- **Border rules:** Rough ink rules of 1px to 6px that break or fade at one end; boxes are drawn by hand or omitted.
+- **Blur and elevation:** Blur is used on photographs only, at a radius of 2px to 6px, and elevation is a single paper layer with a 3px hard shadow.
+
+## Ornamentation & iconography
+
+- **Iconography:** Crude hand-cut marks, arrows and crosses with a 2px to 5px uneven stroke and no consistent corner style; few of them.
+- **Illustration:** Collage of scanned photographs, hand lettering, found type and scribbles; images are posterised, blurred or cut into strips.
+- **Decorative elements:** halftone dots · photocopy grain · torn paper edges · tape strips · hand-drawn scribbles · oversized folios
+
+## Motion & interactivity
+
+- **Born on screen:** no — the values here translate a print style for screen
+- **Transition physics:** Translation for screen: layers cut in with a stutter, shift by 2px to 6px and flicker between two states, like a photocopy that is fed through twice.
+- **Easing:** steps(3, end)
+- **Duration (ms):** 180
+- **Hover and active:** Hover offsets the colour layer by 3px and swaps the face to a distressed cut; active inverts black and newsprint and rotates the block by 1 degree.
+
+## Code & token primer
+
+Set `data-style="grunge-editorial"` on the root element and paste the tokens. The file [`tokens.css`](./tokens.css) has the same tokens and a set of reference rules.
+
+```css
+[data-style="grunge-editorial"] {
+  --color-bg: #E8E2D0;
+  --color-surface: #141414;
+  --color-text: #141414;
+  --color-muted: #8A8A84;
+  --color-primary: #8C3B1E;
+  --color-accent: #E6FF00;
+  --color-border: #141414;
+  --font-sans: "Space Mono", "IBM Plex Mono", "Courier New", monospace;
+  --font-display: "Rubik Glitch", "Bowlby One", Impact, sans-serif;
+  --border-radius: 0px;
+  --border-width: 2px;
+  --shadow-elevation: 3px 3px 0 rgba(20, 20, 20, 0.85);
+  --backdrop-filter: none;
+  --space-unit: 4px;
+  --ease: steps(3, end);
+  --duration: 180ms;
+  --texture-grain: radial-gradient(rgba(20, 20, 20, 0.25) 1px, transparent 1.5px) 0 0 / 4px 4px;
+  --blend-overprint: multiply;
+  --tracking-display: -0.06em;
+  --color-on-primary: #FFFFFF;
+}
+```
+
+Tailwind patterns:
+
+| Element | Classes |
+|---|---|
+| page | `bg-[#E8E2D0] text-[#141414] font-mono text-[13px] leading-[1.3] overflow-x-hidden` |
+| heading | `font-black uppercase text-8xl md:text-[12rem] leading-[0.8] tracking-[-0.06em] mix-blend-multiply -rotate-1` |
+| rotated label | `text-xs uppercase tracking-[0.3em] [writing-mode:vertical-rl] rotate-180` |
+| photo | `grayscale contrast-150 mix-blend-multiply blur-[2px] -mx-6` |
+| button | `border-2 border-[#141414] bg-[#E6FF00] px-5 py-2 text-sm font-bold uppercase shadow-[3px_3px_0_#141414] transition-transform duration-[180ms] ease-[steps(3,end)] hover:translate-x-[3px] hover:rotate-1 active:bg-[#141414] active:text-[#E8E2D0]` |
+
+## Lineage fallbacks
+
+When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
+
+- If the user asks for **cleaner**: move toward [`swiss-international`](../swiss-international/SKILL.md) (Swiss International Style). Snap blocks to a 12-column grid, drop overlaps and texture, and keep one oversized headline and the black and off-white palette.
+- If the user asks for **more digital**: move toward [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md) (Y2K Aesthetic). Replace paper grain with chrome and gloss gradients, and keep the layered type and the mixed faces; use clean vector edges.
+- If the user asks for **more raw**: move toward [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md) (Neo-Brutalism UI). Add 3px black borders and hard offset shadows to the blocks and flatten the texture; keep the overlaps and the mono body.
+
+- **Rejects (the opposite pole; do not blend):** [`swiss-international`](../swiss-international/SKILL.md)
+- **Was rejected by:** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
+- **Nearest by vector profile:** [`psychedelic`](../psychedelic/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
+
+## Emotional target
+
+Raw immediacy: the viewer feels close to an unpolished, noisy scene and reads the page as a document made by people, not by a brand.
+
+**Keywords:** raw, noisy, rebellious, cynical, tactile, chaotic · **Brand archetypes:** outlaw, creator
+
+## Sources
+
+- David Carson and Lewis Blackwell, The End of Print: The Grafik Design of David Carson (Chronicle Books, 1995)
+- Rudy VanderLans and Zuzana Licko, Emigre: Graphic Design into the Digital Realm (Van Nostrand Reinhold, 1993)
+
+---
+
+Generated from [`data/design/styles/grunge-editorial.json`](../../data/design/styles/grunge-editorial.json) by [design-ontology](../../README.md). Do not edit this file; change the data and run `npm run build`.

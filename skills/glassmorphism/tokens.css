@@ -1,0 +1,60 @@
+/*
+ * Glassmorphism — tokens
+ * Generated from data/design/styles/glassmorphism.json by design-ontology. Do not edit.
+ * Use: put data-style="glassmorphism" on <html> or on any container.
+ */
+[data-style="glassmorphism"] {
+  --color-bg: #6C5CE7;
+  --color-surface: rgba(255, 255, 255, 0.18);
+  --color-text: #FFFFFF;
+  --color-muted: rgba(255, 255, 255, 0.72);
+  --color-primary: #74B9FF;
+  --color-accent: #FD79A8;
+  --color-border: rgba(255, 255, 255, 0.3);
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
+  --border-radius: 20px;
+  --border-width: 1px;
+  --shadow-elevation: 0 8px 32px rgba(31, 38, 135, 0.2);
+  --backdrop-filter: blur(20px) saturate(160%);
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration: 300ms;
+  --surface-hover: rgba(255, 255, 255, 0.28);
+  --background-gradient: linear-gradient(135deg, #6C5CE7 0%, #FD79A8 100%);
+  --color-on-primary: #000000;
+}
+
+/* Reference rules. They show how the tokens combine; replace them with your own components. */
+[data-style="glassmorphism"] {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
+[data-style="glassmorphism"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+}
+[data-style="glassmorphism"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="glassmorphism"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary, var(--color-bg));
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  transition: all var(--duration) var(--ease);
+}
+[data-style="glassmorphism"] :where(.muted) {
+  color: var(--color-muted);
+}
+[data-style="glassmorphism"] :where(a) {
+  color: var(--color-accent);
+}

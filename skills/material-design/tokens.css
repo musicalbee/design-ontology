@@ -1,0 +1,62 @@
+/*
+ * Material Design — tokens
+ * Generated from data/design/styles/material-design.json by design-ontology. Do not edit.
+ * Use: put data-style="material-design" on <html> or on any container.
+ */
+[data-style="material-design"] {
+  --color-bg: #FAFAFA;
+  --color-surface: #FFFFFF;
+  --color-text: rgba(0, 0, 0, 0.87);
+  --color-muted: rgba(0, 0, 0, 0.54);
+  --color-primary: #3F51B5;
+  --color-accent: #FF4081;
+  --color-border: rgba(0, 0, 0, 0.12);
+  --font-sans: "Roboto", "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Roboto", "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+  --border-radius: 2px;
+  --border-width: 1px;
+  --shadow-elevation: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration: 300ms;
+  --color-primary-dark: #303F9F;
+  --shadow-1dp: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
+  --shadow-24dp: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
+  --touch-target: 48px;
+  --color-on-primary: #FFFFFF;
+}
+
+/* Reference rules. They show how the tokens combine; replace them with your own components. */
+[data-style="material-design"] {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
+[data-style="material-design"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+}
+[data-style="material-design"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="material-design"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary, var(--color-bg));
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  transition: all var(--duration) var(--ease);
+}
+[data-style="material-design"] :where(.muted) {
+  color: var(--color-muted);
+}
+[data-style="material-design"] :where(a) {
+  color: var(--color-accent);
+}

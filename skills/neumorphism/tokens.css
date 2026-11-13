@@ -1,0 +1,60 @@
+/*
+ * Neumorphism — tokens
+ * Generated from data/design/styles/neumorphism.json by design-ontology. Do not edit.
+ * Use: put data-style="neumorphism" on <html> or on any container.
+ */
+[data-style="neumorphism"] {
+  --color-bg: #E0E5EC;
+  --color-surface: #E0E5EC;
+  --color-text: #2D3748;
+  --color-muted: #5A6A80;
+  --color-primary: #3B6FE0;
+  --color-accent: #3B6FE0;
+  --color-border: rgba(255, 255, 255, 0.5);
+  --font-sans: "Nunito Sans", "Inter", system-ui, sans-serif;
+  --font-display: "Poppins", "Nunito Sans", system-ui, sans-serif;
+  --border-radius: 24px;
+  --border-width: 1px;
+  --shadow-elevation: 8px 8px 16px #A3B1C6, -8px -8px 16px #FFFFFF;
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration: 200ms;
+  --shadow-pressed: inset 4px 4px 8px #A3B1C6, inset -4px -4px 8px #FFFFFF;
+  --shadow-small: 4px 4px 8px #A3B1C6, -4px -4px 8px #FFFFFF;
+  --color-on-primary: #FFFFFF;
+}
+
+/* Reference rules. They show how the tokens combine; replace them with your own components. */
+[data-style="neumorphism"] {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
+[data-style="neumorphism"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+}
+[data-style="neumorphism"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="neumorphism"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary, var(--color-bg));
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  transition: all var(--duration) var(--ease);
+}
+[data-style="neumorphism"] :where(.muted) {
+  color: var(--color-muted);
+}
+[data-style="neumorphism"] :where(a) {
+  color: var(--color-accent);
+}

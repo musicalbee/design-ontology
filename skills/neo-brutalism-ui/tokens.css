@@ -1,0 +1,60 @@
+/*
+ * Neo-Brutalism UI — tokens
+ * Generated from data/design/styles/neo-brutalism-ui.json by design-ontology. Do not edit.
+ * Use: put data-style="neo-brutalism-ui" on <html> or on any container.
+ */
+[data-style="neo-brutalism-ui"] {
+  --color-bg: #FFF8E7;
+  --color-surface: #FFFFFF;
+  --color-text: #000000;
+  --color-muted: #3A3A3A;
+  --color-primary: #FFE14D;
+  --color-accent: #FF5DA2;
+  --color-border: #000000;
+  --font-sans: "DM Sans", "Work Sans", system-ui, sans-serif;
+  --font-display: "Space Grotesk", "DM Sans", system-ui, sans-serif;
+  --border-radius: 4px;
+  --border-width: 3px;
+  --shadow-elevation: 4px 4px 0 0 #000000;
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+  --duration: 120ms;
+  --shadow-large: 8px 8px 0 0 #000000;
+  --accent-blue: #4D7CFF;
+  --color-on-primary: #000000;
+}
+
+/* Reference rules. They show how the tokens combine; replace them with your own components. */
+[data-style="neo-brutalism-ui"] {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
+[data-style="neo-brutalism-ui"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+}
+[data-style="neo-brutalism-ui"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="neo-brutalism-ui"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary, var(--color-bg));
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  transition: all var(--duration) var(--ease);
+}
+[data-style="neo-brutalism-ui"] :where(.muted) {
+  color: var(--color-muted);
+}
+[data-style="neo-brutalism-ui"] :where(a) {
+  color: var(--color-accent);
+}

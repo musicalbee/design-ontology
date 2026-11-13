@@ -1,0 +1,61 @@
+/*
+ * Grunge Editorial — tokens
+ * Generated from data/design/styles/grunge-editorial.json by design-ontology. Do not edit.
+ * Use: put data-style="grunge-editorial" on <html> or on any container.
+ */
+[data-style="grunge-editorial"] {
+  --color-bg: #E8E2D0;
+  --color-surface: #141414;
+  --color-text: #141414;
+  --color-muted: #8A8A84;
+  --color-primary: #8C3B1E;
+  --color-accent: #E6FF00;
+  --color-border: #141414;
+  --font-sans: "Space Mono", "IBM Plex Mono", "Courier New", monospace;
+  --font-display: "Rubik Glitch", "Bowlby One", Impact, sans-serif;
+  --border-radius: 0px;
+  --border-width: 2px;
+  --shadow-elevation: 3px 3px 0 rgba(20, 20, 20, 0.85);
+  --backdrop-filter: none;
+  --space-unit: 4px;
+  --ease: steps(3, end);
+  --duration: 180ms;
+  --texture-grain: radial-gradient(rgba(20, 20, 20, 0.25) 1px, transparent 1.5px) 0 0 / 4px 4px;
+  --blend-overprint: multiply;
+  --tracking-display: -0.06em;
+  --color-on-primary: #FFFFFF;
+}
+
+/* Reference rules. They show how the tokens combine; replace them with your own components. */
+[data-style="grunge-editorial"] {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
+[data-style="grunge-editorial"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+}
+[data-style="grunge-editorial"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="grunge-editorial"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary, var(--color-bg));
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  transition: all var(--duration) var(--ease);
+}
+[data-style="grunge-editorial"] :where(.muted) {
+  color: var(--color-muted);
+}
+[data-style="grunge-editorial"] :where(a) {
+  color: var(--color-accent);
+}

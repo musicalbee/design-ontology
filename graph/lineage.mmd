@@ -1,0 +1,66 @@
+flowchart LR
+  subgraph design_modernist["Modernist · 1919–1975"]
+    bauhaus["Bauhaus"]
+    mid_century_modern["Mid-Century Modern"]
+    swiss_international["Swiss International Style"]
+    psychedelic["Psychedelic"]
+  end
+  subgraph design_postmodern_early_digital["Postmodern & Early Digital · 1976–2006"]
+    memphis_design["Memphis Design"]
+    grunge_editorial["Grunge Editorial"]
+    y2k_aesthetic["Y2K Aesthetic"]
+    frutiger_aero["Frutiger Aero"]
+  end
+  subgraph design_touchscreen["Touchscreen · 2007–2018"]
+    skeuomorphism["Skeuomorphism"]
+    flat_design["Flat Design"]
+    material_design["Material Design"]
+    corporate_memphis["Corporate Memphis"]
+  end
+  subgraph design_contemporary_spatial["Contemporary & Spatial · 2019–now"]
+    neumorphism["Neumorphism"]
+    glassmorphism["Glassmorphism"]
+    neo_brutalism_ui["Neo-Brutalism UI"]
+    bento_grid_ui["Bento Grid UI"]
+    spatial_visionos["Spatial UI (visionOS)"]
+  end
+  subgraph architecture_modern_movement["Architecture · Modern Movement · 1919–1975"]
+    international_style_architecture["International Style"]
+    brutalist_architecture["Brutalism"]
+  end
+  bauhaus <-. echoes .-> international_style_architecture
+  brutalist_architecture <-. echoes .-> neo_brutalism_ui
+  international_style_architecture <-. echoes .-> swiss_international
+  flat_design --> bento_grid_ui
+  swiss_international --> bento_grid_ui
+  international_style_architecture --> brutalist_architecture
+  flat_design --> corporate_memphis
+  memphis_design --> corporate_memphis
+  swiss_international --> flat_design
+  y2k_aesthetic --> frutiger_aero
+  frutiger_aero --> glassmorphism
+  flat_design --> material_design
+  bauhaus --> mid_century_modern
+  flat_design --> neo_brutalism_ui
+  skeuomorphism --> neumorphism
+  glassmorphism --> spatial_visionos
+  bauhaus --> swiss_international
+  flat_design -. rejects .-> skeuomorphism
+  grunge_editorial -. rejects .-> swiss_international
+  memphis_design -. rejects .-> swiss_international
+  neo_brutalism_ui -. rejects .-> corporate_memphis
+  neo_brutalism_ui -. rejects .-> material_design
+  neumorphism -. rejects .-> flat_design
+  psychedelic -. rejects .-> swiss_international
+  y2k_aesthetic -. rejects .-> grunge_editorial
+  linkStyle 0 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 1 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 2 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 17 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 18 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 19 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 20 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 21 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 22 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 23 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 24 stroke:#E5484D,stroke-width:1.5px

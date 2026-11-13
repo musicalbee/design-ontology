@@ -1,0 +1,208 @@
+---
+name: neumorphism
+description: "Apply the Neumorphism style (2019–2021) when generating UI or graphic layouts. Load when the user asks for: neumorphism, neumorphic, soft ui, extruded, embossed buttons, inset shadows."
+domain: design
+era: contemporary-spatial
+triggers:
+  - "neumorphism"
+  - "neumorphic"
+  - "soft ui"
+  - "extruded"
+  - "embossed buttons"
+  - "inset shadows"
+  - "pressed button"
+  - "soft shadows both sides"
+  - "monochrome soft"
+vector_profile:
+  ornamentation: 1
+  dimensionality: 3
+  grid_rigidity: 3
+  skeuomorphic_realism: 3
+  typographic_expressiveness: 1
+---
+
+# Neumorphism
+
+> An interface can be tactile without imitating objects, if every control is moulded from the same material as the page behind it.
+
+Monochrome surfaces that look extruded from or pressed into the background, made with a light shadow and a dark shadow on opposite corners. It appeared on Dribbble in late 2019 as a soft answer to flat design.
+
+**Period:** 2019–2021 · **Era:** Contemporary & Spatial · **Domain:** Graphic & UI Design · **Also called:** Soft UI, New Skeuomorphism
+
+## When to load this skill
+
+Load it when the user asks for: "neumorphism", "neumorphic", "soft ui", "extruded", "embossed buttons", "inset shadows", "pressed button", "soft shadows both sides", "monochrome soft".
+
+Good for: smart home controls, music players, calculators, fintech concept screens, wearable dashboards.
+
+Do not use it when:
+- Accessibility compliance is required, because the shadow-only boundary gives under 3:1 contrast and fails WCAG 1.4.11.
+- The interface is dense with data, because each element needs 16px of free space for its shadow.
+- The product is used in sunlight or on low-contrast displays, where soft shadows disappear.
+
+## System directives
+
+When generating UI or graphic layouts in Neumorphism, you MUST:
+
+1. Give the background and every surface the same fill, so that shadows alone define the shape.
+2. Pair two shadows on each raised element: a dark one at 8px 8px 16px and a light one at -8px -8px 16px, with a light source at the top left.
+3. Invert both shadows with the inset keyword to show a pressed, selected or input state.
+4. Keep the corner radius between 16px and 32px on cards and 999px on pills, so that the edges catch the shadow evenly.
+5. Limit the palette to one mid-light neutral, a darker and a lighter tint of it, and one saturated accent used on less than 5% of the surface.
+6. Use only three elevation levels: flat, raised at 8px offset and pressed at inset 4px offset.
+7. Put the accent on the icon, the label or a thin indicator, because the shadow already marks the shape.
+
+## Guardrails
+
+Each line below breaks the style. Check your output against the list before you return it.
+
+- **NEVER:** Hard black borders or 1px outlines around raised elements.
+- **NEVER:** Pure white or pure black backgrounds that cancel one of the two shadows.
+- **NEVER:** Raised and pressed elements that use different background colours.
+- **NEVER:** Light grey text on a light grey surface below 4.5:1 contrast.
+- **NEVER:** More than three elevation levels on one screen.
+- **NEVER:** Shadow offsets that disagree about the light direction.
+- **NEVER:** Saturated gradients on the surface itself.
+
+## Vector profile
+
+| Axis | Score | 1 means | 5 means |
+|---|---|---|---|
+| Ornamentation | `■□□□□` 1/5 | pure minimal | maximalist |
+| Dimensionality | `■■■□□` 3/5 | strictly 2D | full 3D / spatial |
+| Grid rigidity | `■■■□□` 3/5 | chaotic / organic | strict mathematical grid |
+| Skeuomorphic realism | `■■■□□` 3/5 | abstract digital | photorealistic material |
+| Typographic expressiveness | `■□□□□` 1/5 | neutral / invisible | experimental / illustrative |
+
+Hold these scores. If a request moves an axis by 2 points or more, you have left the style: go to "Lineage fallbacks".
+
+## Spatial & grid logic
+
+- **Grid mechanics:** A 4 or 12 column grid with 24px to 32px gutters, because each raised element needs about 16px of free space on every side for its shadow.
+- **Whitespace ratio:** 50–65% of the surface stays empty; the spacing scale is 8, 16, 24, 32, 48 and 64px, and a shadow blur never overlaps a neighbour.
+- **Alignment rules:** Centre-aligned controls inside symmetric cards; text is left-aligned in cards; groups of controls sit on one shared baseline row.
+- **Container geometry:** Cards use a 24px radius, buttons a 12px to 16px radius, toggles and sliders a full pill radius of 999px; wells are inset containers with the same radius as the cards.
+
+## Typography
+
+- **Classifications:** geometric sans · humanist sans
+- **Tracking:** Display sizes take -0.01em; body stays at 0; small labels take +0.04em to stay legible on a low-contrast surface.
+- **Leading:** Display 1.2; body 1.5; labels 1.3.
+- **Hierarchy rules:**
+  - Use weights 500 and 700 for headings and 400 for body; light weights below 400 vanish on the soft surface.
+  - Use text sizes of 14px or more, because contrast is already limited.
+  - Set the primary text in a dark tint of the surface hue at 7:1 contrast, not in pure black.
+  - Mark the active item with the accent colour and a pressed shadow together, never with colour alone.
+
+**Font pairings**
+
+| Display | Body | Note |
+|---|---|---|
+| Poppins | Nunito Sans | Round geometric display with a soft body face that matches the 24px corners. |
+| DM Sans | DM Sans | A single family at weights 500 and 400. |
+| Quicksand | Inter | Rounded terminals on headings, neutral text below 16px. |
+
+## Colour & lighting
+
+- **Palette structure:** One mid-light neutral for page and surface, a lighter and a darker tint of it for the two shadows, one dark text colour and one accent below 5% of the surface.
+- **Contrast rules:** Text holds at least 4.5:1 against Clay, which Slate gives at about 9:1; the shadow edge alone gives under 1.5:1, so it fails the WCAG 3:1 rule for component boundaries and needs a label, icon or accent to mark the control.
+- **Surface treatment:** Opaque matte fields of one colour with no texture; at most a 145-degree linear gradient between two tints within 4% lightness for a convex face.
+- **Light and shadow:** One light source at the top left; each raised element casts a dark shadow to the bottom right and a light shadow to the top left, and pressed elements swap both to inset.
+
+**Palette**
+
+| Name | Hex | Role |
+|---|---|---|
+| Clay | `#E0E5EC` | background and surface |
+| Highlight | `#FFFFFF` | light shadow |
+| Shade | `#A3B1C6` | dark shadow |
+| Slate | `#2D3748` | text |
+| Steel | `#5A6A80` | secondary text |
+| Signal Blue | `#3B6FE0` | accent |
+
+## Materiality & texture
+
+- **Surface simulation:** Matte moulded plastic or clay, extruded from a single sheet, with no gloss and no visible seams.
+- **Border rules:** No borders in the default state; an optional 1px solid rgba(255, 255, 255, 0.5) edge on raised elements; focus uses a 2px accent outline offset by 2px.
+- **Blur and elevation:** Raised: 8px 8px 16px dark and -8px -8px 16px light; small: 4px 4px 8px and -4px -4px 8px; pressed: inset 4px 4px 8px dark and inset -4px -4px 8px light.
+
+## Ornamentation & iconography
+
+- **Iconography:** Outline icons with a 2px stroke and round caps and joins at 24px, set in the secondary text colour and in the accent when active.
+- **Illustration:** Soft 3D renders or abstract shapes in the same neutral tint, with the same top-left light; no outlined line art.
+- **Decorative elements:** inset wells · pill toggles · circular dials · progress rings with an inset track
+
+## Motion & interactivity
+
+- **Born on screen:** yes
+- **Transition physics:** Press animates the shadow pair from raised to inset over a short eased move, as if a key travels 4px into the surface; nothing slides or bounces.
+- **Easing:** cubic-bezier(0.4, 0, 0.2, 1)
+- **Duration (ms):** 200
+- **Hover and active:** Hover grows the raised shadow offset from 8px to 10px; active switches to the inset pair; focus adds a 2px accent outline.
+
+## Code & token primer
+
+Set `data-style="neumorphism"` on the root element and paste the tokens. The file [`tokens.css`](./tokens.css) has the same tokens and a set of reference rules.
+
+```css
+[data-style="neumorphism"] {
+  --color-bg: #E0E5EC;
+  --color-surface: #E0E5EC;
+  --color-text: #2D3748;
+  --color-muted: #5A6A80;
+  --color-primary: #3B6FE0;
+  --color-accent: #3B6FE0;
+  --color-border: rgba(255, 255, 255, 0.5);
+  --font-sans: "Nunito Sans", "Inter", system-ui, sans-serif;
+  --font-display: "Poppins", "Nunito Sans", system-ui, sans-serif;
+  --border-radius: 24px;
+  --border-width: 1px;
+  --shadow-elevation: 8px 8px 16px #A3B1C6, -8px -8px 16px #FFFFFF;
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration: 200ms;
+  --shadow-pressed: inset 4px 4px 8px #A3B1C6, inset -4px -4px 8px #FFFFFF;
+  --shadow-small: 4px 4px 8px #A3B1C6, -4px -4px 8px #FFFFFF;
+  --color-on-primary: #FFFFFF;
+}
+```
+
+Tailwind patterns:
+
+| Element | Classes |
+|---|---|
+| page | `bg-[#E0E5EC] text-[#2D3748] font-sans antialiased p-8` |
+| card | `rounded-3xl bg-[#E0E5EC] p-8 shadow-[8px_8px_16px_#A3B1C6,-8px_-8px_16px_#FFFFFF]` |
+| button | `rounded-2xl bg-[#E0E5EC] px-6 py-3 font-medium text-[#2D3748] shadow-[4px_4px_8px_#A3B1C6,-4px_-4px_8px_#FFFFFF] transition-shadow duration-200 active:shadow-[inset_4px_4px_8px_#A3B1C6,inset_-4px_-4px_8px_#FFFFFF]` |
+| input | `rounded-2xl bg-[#E0E5EC] px-4 py-3 text-[#2D3748] shadow-[inset_4px_4px_8px_#A3B1C6,inset_-4px_-4px_8px_#FFFFFF] outline-none focus:outline-2 focus:outline-offset-2 focus:outline-[#3B6FE0]` |
+| heading | `font-bold text-3xl leading-tight tracking-[-0.01em] text-[#2D3748]` |
+
+## Lineage fallbacks
+
+When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
+
+- If the user asks for **more accessible**: move toward [`flat-design`](../flat-design/SKILL.md) (Flat Design). Add a 1px border at 3:1 contrast and shrink both shadows to 2px; keep the radius and the single neutral surface.
+- If the user asks for **more depth**: move toward [`skeuomorphism`](../skeuomorphism/SKILL.md) (Skeuomorphism). Add a 145-degree gradient of 8% lightness and a 1px inner highlight; keep the top-left light.
+- If the user asks for **glassier**: move toward [`glassmorphism`](../glassmorphism/SKILL.md) (Glassmorphism). Replace the surface with rgba(255, 255, 255, 0.4) and backdrop-filter blur(16px); keep the radius and drop the dual shadow.
+- If the user asks for **bolder**: move toward [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md) (Neo-Brutalism UI). Replace both soft shadows with one 4px 4px 0 0 #000000 shadow and add a 2px black border; keep the layout.
+
+- **Came from (go here for a more orthodox version):** [`skeuomorphism`](../skeuomorphism/SKILL.md)
+- **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
+- **Mixes well with:** [`glassmorphism`](../glassmorphism/SKILL.md)
+- **Nearest by vector profile:** [`glassmorphism`](../glassmorphism/SKILL.md), [`material-design`](../material-design/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md)
+
+## Emotional target
+
+Calm tactility: the viewer feels that the controls are soft, safe to touch and made of one material.
+
+**Keywords:** soft, tactile, calm, quiet, cohesive, futuristic · **Brand archetypes:** caregiver, creator
+
+## Sources
+
+- Alexander Plyuto, Skeuomorph Mobile Banking concept, Dribbble (2019)
+- WCAG 2.1, Success Criterion 1.4.11 Non-text Contrast, W3C (2018)
+
+---
+
+Generated from [`data/design/styles/neumorphism.json`](../../data/design/styles/neumorphism.json) by [design-ontology](../../README.md). Do not edit this file; change the data and run `npm run build`.

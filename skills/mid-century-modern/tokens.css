@@ -1,0 +1,62 @@
+/*
+ * Mid-Century Modern — tokens
+ * Generated from data/design/styles/mid-century-modern.json by design-ontology. Do not edit.
+ * Use: put data-style="mid-century-modern" on <html> or on any container.
+ */
+[data-style="mid-century-modern"] {
+  --color-bg: #F6EEDC;
+  --color-surface: #FFF9EA;
+  --color-text: #3B2A20;
+  --color-muted: #6B5646;
+  --color-primary: #1F7A7A;
+  --color-accent: #D2602B;
+  --color-border: #3B2A20;
+  --font-sans: "Source Sans 3", "Nunito Sans", "Gill Sans", "Helvetica Neue", sans-serif;
+  --font-display: "Josefin Sans", "Zilla Slab", "Futura", Georgia, serif;
+  --border-radius: 12px;
+  --border-width: 2px;
+  --shadow-elevation: 4px 4px 0 rgba(59, 42, 32, 0.15);
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.34, 1.2, 0.64, 1);
+  --duration: 280ms;
+  --color-highlight: #E0A526;
+  --grid-columns: 6;
+  --grid-gutter: 24px;
+  --leading-body: 1.55;
+  --color-on-primary: #FFFFFF;
+}
+
+/* Reference rules. They show how the tokens combine; replace them with your own components. */
+[data-style="mid-century-modern"] {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
+[data-style="mid-century-modern"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+}
+[data-style="mid-century-modern"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="mid-century-modern"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary, var(--color-bg));
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  transition: all var(--duration) var(--ease);
+}
+[data-style="mid-century-modern"] :where(.muted) {
+  color: var(--color-muted);
+}
+[data-style="mid-century-modern"] :where(a) {
+  color: var(--color-accent);
+}

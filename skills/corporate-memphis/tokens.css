@@ -1,0 +1,63 @@
+/*
+ * Corporate Memphis — tokens
+ * Generated from data/design/styles/corporate-memphis.json by design-ontology. Do not edit.
+ * Use: put data-style="corporate-memphis" on <html> or on any container.
+ */
+[data-style="corporate-memphis"] {
+  --color-bg: #FFFFFF;
+  --color-surface: #FFE3E3;
+  --color-text: #1F2A5C;
+  --color-muted: #5B6490;
+  --color-primary: #7C5CFC;
+  --color-accent: #FF6B6B;
+  --color-border: #E5E7F0;
+  --font-sans: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: "Poppins", "DM Sans", "Helvetica Neue", Arial, sans-serif;
+  --border-radius: 16px;
+  --border-width: 1px;
+  --shadow-elevation: 0 8px 24px rgba(31, 42, 92, 0.08);
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration: 400ms;
+  --color-highlight: #FFC145;
+  --color-secondary: #3DD6A6;
+  --radius-pill: 999px;
+  --grid-columns: 12;
+  --grid-gutter: 24px;
+  --color-on-primary: #000000;
+}
+
+/* Reference rules. They show how the tokens combine; replace them with your own components. */
+[data-style="corporate-memphis"] {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
+[data-style="corporate-memphis"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+}
+[data-style="corporate-memphis"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="corporate-memphis"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary, var(--color-bg));
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  transition: all var(--duration) var(--ease);
+}
+[data-style="corporate-memphis"] :where(.muted) {
+  color: var(--color-muted);
+}
+[data-style="corporate-memphis"] :where(a) {
+  color: var(--color-accent);
+}

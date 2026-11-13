@@ -1,0 +1,164 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-ontology.dev/schema/core.schema.json",
+  "title": "Core style definitions",
+  "description": "Definitions that every domain shares. A domain schema refers to these with $ref. A style id is unique across all domains.",
+  "$defs": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "minLength": 2,
+      "maxLength": 48,
+      "description": "Kebab-case id. It is equal to the file name without the extension."
+    },
+    "sentence": { "type": "string", "minLength": 12, "maxLength": 400 },
+    "shortText": { "type": "string", "minLength": 2, "maxLength": 80 },
+    "score": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "An ordinal position on a 1 to 5 axis. The domain manifest names the two poles."
+    },
+    "refList": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/slug" },
+      "uniqueItems": true,
+      "default": []
+    },
+    "time_period": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["start", "end", "label"],
+      "properties": {
+        "start": { "type": "integer", "minimum": 1800, "maximum": 2100, "description": "First year of wide use." },
+        "end": {
+          "type": ["integer", "null"],
+          "minimum": 1800,
+          "maximum": 2100,
+          "description": "Last year of the peak. null = still in active use."
+        },
+        "label": { "$ref": "#/$defs/shortText", "description": "Human label, for example \"1950s–1970s\"." }
+      }
+    },
+    "philosophy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["core_thesis", "design_principles", "anti_patterns"],
+      "properties": {
+        "core_thesis": {
+          "$ref": "#/$defs/sentence",
+          "description": "One sentence. The claim about the world that this style makes."
+        },
+        "design_principles": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 10,
+          "items": { "$ref": "#/$defs/sentence" },
+          "description": "Imperative rules that an agent can execute. Each rule names a concrete property or measure."
+        },
+        "anti_patterns": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 10,
+          "items": { "$ref": "#/$defs/sentence" },
+          "description": "What breaks the style. Written as the thing to avoid, without a leading \"never\" or \"do not\". These become the NEVER guardrails."
+        }
+      }
+    },
+    "lineage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["evolved_from", "rebelled_against", "hybridized_with"],
+      "properties": {
+        "evolved_from": { "$ref": "#/$defs/refList", "description": "Direct ancestors in the same domain." },
+        "rebelled_against": { "$ref": "#/$defs/refList", "description": "Styles that this style rejects." },
+        "hybridized_with": { "$ref": "#/$defs/refList", "description": "Styles that this style mixes with in practice. The graph makes this edge symmetric." },
+        "echoes": { "$ref": "#/$defs/refList", "description": "Kin in a DIFFERENT domain (for example a UI style and an architecture style that share a thesis)." }
+      }
+    },
+    "emotion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["target_response", "keywords", "brand_archetypes"],
+      "properties": {
+        "target_response": { "$ref": "#/$defs/sentence", "description": "What the viewer feels." },
+        "keywords": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 8,
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/shortText" }
+        },
+        "brand_archetypes": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 4,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "innocent", "sage", "explorer", "outlaw", "magician", "hero",
+              "lover", "jester", "everyman", "caregiver", "ruler", "creator"
+            ]
+          }
+        }
+      }
+    },
+    "agent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["triggers", "use_cases", "avoid_when", "modifiers"],
+      "description": "Routing data. An orchestrator reads this to decide when to load the skill and where to go when the user asks for a variation.",
+      "properties": {
+        "triggers": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 14,
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/shortText" },
+          "description": "Lower-case words and phrases a user says when they want this style."
+        },
+        "use_cases": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 6,
+          "items": { "$ref": "#/$defs/shortText" },
+          "description": "Products or artefacts where the style works well."
+        },
+        "avoid_when": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 5,
+          "items": { "$ref": "#/$defs/sentence" },
+          "description": "Conditions where the style is the wrong choice."
+        },
+        "modifiers": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["request", "toward", "how"],
+            "properties": {
+              "request": { "$ref": "#/$defs/shortText", "description": "The variation the user asks for: \"softer\", \"bolder\", \"more corporate\"." },
+              "toward": { "$ref": "#/$defs/slug", "description": "The style to blend toward." },
+              "how": { "$ref": "#/$defs/sentence", "description": "Which properties to change, and which to keep." }
+            }
+          }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["title"],
+        "properties": {
+          "title": { "type": "string", "minLength": 3, "maxLength": 200 },
+          "url": { "type": "string", "pattern": "^https://" }
+        }
+      }
+    }
+  }
+}

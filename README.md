@@ -1,0 +1,236 @@
+<div align="center">
+
+# design-ontology
+
+### Your agent has no taste. Give it a style it can execute.
+
+**19 design styles as data. Each one compiles into a skill that any coding agent can load.**<br>
+Bauhaus to visionOS. JSON in, `SKILL.md` + `tokens.css` out. No runtime, no API key, no lock-in.
+
+[![validate](https://github.com/musicalbee/design-ontology/actions/workflows/validate.yml/badge.svg)](https://github.com/musicalbee/design-ontology/actions/workflows/validate.yml)
+![styles](https://img.shields.io/badge/styles-19-111111)
+![domains](https://img.shields.io/badge/domains-design%20%C2%B7%20architecture-111111)
+![code](https://img.shields.io/badge/code-MIT-111111)
+![data](https://img.shields.io/badge/data-CC%20BY%204.0-111111)
+![PRs](https://img.shields.io/badge/PRs-one%20JSON%20file-E30613)
+
+[**Live demo**](https://musicalbee.github.io/design-ontology/demo/) · [Skill index](skills/SKILL_INDEX.md) · [Add a style](#add-a-style) · [The schema](schema/domains/design.schema.json)
+
+</div>
+
+---
+
+Ask an agent for "a neo-brutalist landing page" and you get rounded cards, a soft grey shadow and a purple gradient. The model knows the word. It does not know the rules.
+
+This repository holds the rules. A style here is not a mood board and not a paragraph of adjectives. It is a record with a thesis, numbered directives, a list of things that break it, five scores, a palette, a type system and a set of CSS tokens. A compiler turns each record into a file your agent reads before it writes a line of code.
+
+```text
+- **NEVER:** Blurred drop shadows with a blur radius above 0px.
+- **NEVER:** Subtle grey gradients or glossy highlights on surfaces.
+- **NEVER:** Pastel, low-saturation fills with grey text.
+```
+
+That is three lines of [`skills/neo-brutalism-ui/SKILL.md`](skills/neo-brutalism-ui/SKILL.md). The agent gets them, plus `--shadow-elevation: 4px 4px 0 0 #000000`, plus the Tailwind classes for a button that presses into the page.
+
+## Try it in 30 seconds
+
+No install. Take one file.
+
+**Claude Code**
+
+```bash
+mkdir -p .claude/skills/neo-brutalism-ui && curl -fsSL https://raw.githubusercontent.com/musicalbee/design-ontology/main/skills/neo-brutalism-ui/SKILL.md -o .claude/skills/neo-brutalism-ui/SKILL.md
+```
+
+**Cursor**
+
+```bash
+mkdir -p .cursor/rules && curl -fsSL https://raw.githubusercontent.com/musicalbee/design-ontology/main/skills/neo-brutalism-ui/SKILL.md -o .cursor/rules/neo-brutalism-ui.mdc
+```
+
+**Any other agent** (Windsurf, Cline, Codex, a LangGraph node, a system prompt): paste the contents of a `SKILL.md` into the context. Each file stands alone and needs no other file.
+
+Then say: *"Build a pricing page in neo-brutalism."*
+
+**Let the agent choose.** Give it [`skills/SKILL_INDEX.md`](skills/SKILL_INDEX.md). That one small table routes a request to a style by trigger words, use case, mood and vector score. The agent loads the full skill only after it has picked.
+
+## What is in a style
+
+| Section | What the agent gets |
+|---|---|
+| **Philosophy** | One thesis, 4 to 10 directives it can execute, 4 to 10 anti-patterns it must not ship |
+| **Vectors** | Five integer scores, 1 to 5: ornamentation, dimensionality, grid rigidity, skeuomorphic realism, typographic expressiveness |
+| **Layout** | Grid mechanics, whitespace ratio, alignment, container geometry, with numbers |
+| **Typography** | Type classes, open-source font pairings, tracking, leading, hierarchy rules |
+| **Colour** | Palette with hex and role, contrast rules, surface treatment, light and shadow |
+| **Materiality** | What the surface imitates, border rules, blur and elevation in px |
+| **Ornament** | Icon stroke, illustration rules, decorative elements |
+| **Motion** | Physics, a CSS easing function, a duration, hover and active states |
+| **Lineage** | Where it came from, what it rejects, what it mixes with |
+| **Emotion** | Target response, keywords, brand archetypes |
+| **Agent routing** | Trigger words, use cases, when not to use it, and where to go for "softer" or "bolder" |
+| **Tokens** | 16 required CSS custom properties and Tailwind patterns for common elements |
+
+Every style fills the same 16 tokens. So a style is a drop-in replacement for another style: change `data-style="flat-design"` to `data-style="glassmorphism"` and the page changes its skin. The [live demo](https://musicalbee.github.io/design-ontology/demo/) is that one trick, 17 times.
+
+## The lineage graph
+
+Styles do not appear from nowhere. Flat design rejects skeuomorphism. Neumorphism rejects flat design. Neo-brutalism rejects the friendly corporate look that flat design became. The graph records these edges, so that an agent asked for "the same, but softer" moves to a named neighbour and does not improvise.
+
+Solid arrows show descent. Red dotted arrows show rejection. Grey dotted arrows show kinship across domains.
+
+<!-- lineage:start -->
+```mermaid
+flowchart LR
+  subgraph design_modernist["Modernist · 1919–1975"]
+    bauhaus["Bauhaus"]
+    mid_century_modern["Mid-Century Modern"]
+    swiss_international["Swiss International Style"]
+    psychedelic["Psychedelic"]
+  end
+  subgraph design_postmodern_early_digital["Postmodern & Early Digital · 1976–2006"]
+    memphis_design["Memphis Design"]
+    grunge_editorial["Grunge Editorial"]
+    y2k_aesthetic["Y2K Aesthetic"]
+    frutiger_aero["Frutiger Aero"]
+  end
+  subgraph design_touchscreen["Touchscreen · 2007–2018"]
+    skeuomorphism["Skeuomorphism"]
+    flat_design["Flat Design"]
+    material_design["Material Design"]
+    corporate_memphis["Corporate Memphis"]
+  end
+  subgraph design_contemporary_spatial["Contemporary & Spatial · 2019–now"]
+    neumorphism["Neumorphism"]
+    glassmorphism["Glassmorphism"]
+    neo_brutalism_ui["Neo-Brutalism UI"]
+    bento_grid_ui["Bento Grid UI"]
+    spatial_visionos["Spatial UI (visionOS)"]
+  end
+  subgraph architecture_modern_movement["Architecture · Modern Movement · 1919–1975"]
+    international_style_architecture["International Style"]
+    brutalist_architecture["Brutalism"]
+  end
+  bauhaus <-. echoes .-> international_style_architecture
+  brutalist_architecture <-. echoes .-> neo_brutalism_ui
+  international_style_architecture <-. echoes .-> swiss_international
+  flat_design --> bento_grid_ui
+  swiss_international --> bento_grid_ui
+  international_style_architecture --> brutalist_architecture
+  flat_design --> corporate_memphis
+  memphis_design --> corporate_memphis
+  swiss_international --> flat_design
+  y2k_aesthetic --> frutiger_aero
+  frutiger_aero --> glassmorphism
+  flat_design --> material_design
+  bauhaus --> mid_century_modern
+  flat_design --> neo_brutalism_ui
+  skeuomorphism --> neumorphism
+  glassmorphism --> spatial_visionos
+  bauhaus --> swiss_international
+  flat_design -. rejects .-> skeuomorphism
+  grunge_editorial -. rejects .-> swiss_international
+  memphis_design -. rejects .-> swiss_international
+  neo_brutalism_ui -. rejects .-> corporate_memphis
+  neo_brutalism_ui -. rejects .-> material_design
+  neumorphism -. rejects .-> flat_design
+  psychedelic -. rejects .-> swiss_international
+  y2k_aesthetic -. rejects .-> grunge_editorial
+  linkStyle 0 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 1 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 2 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 17 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 18 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 19 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 20 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 21 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 22 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 23 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 24 stroke:#E5484D,stroke-width:1.5px
+```
+<!-- lineage:end -->
+
+The same graph, for machines: [`graph/lineage.json`](graph/lineage.json). It has nodes, typed edges, an adjacency list that you can walk in both directions, and the three nearest neighbours of each style by vector distance.
+
+## Query it
+
+```bash
+git clone https://github.com/musicalbee/design-ontology && cd design-ontology && npm install
+```
+
+```bash
+npm run query -- where "grid_rigidity>=4" "ornamentation<=2"
+```
+
+```text
+bauhaus                            design        2 2 4 1 3  Bauhaus
+swiss-international                design        1 1 5 1 2  Swiss International Style
+flat-design                        design        1 1 4 1 2  Flat Design
+material-design                    design        2 3 4 2 2  Material Design
+bento-grid-ui                      design        2 2 5 2 3  Bento Grid UI
+```
+
+```bash
+npm run query -- path spatial-visionos bauhaus
+```
+
+```text
+spatial-visionos —EVOLVED_FROM→ glassmorphism ←HYBRIDIZED_WITH— bento-grid-ui —EVOLVED_FROM→ swiss-international —EVOLVED_FROM→ bauhaus
+```
+
+Other commands: `list`, `show <id>`, `near <id>`, `match "<free text>"`.
+
+## Not only screens
+
+The ontology has domains. A domain is one manifest ([`domains/`](domains/)) and one schema ([`schema/domains/`](schema/domains/)). It brings its own vector axes and its own facets, and it shares identity, philosophy, lineage, emotion and agent routing with every other domain. The compiler reads the manifest, so a new domain needs no new code.
+
+**Architecture** is the second domain. It has two seed styles, [International Style](skills/international-style-architecture/SKILL.md) and [Brutalism](skills/brutalist-architecture/SKILL.md), with axes such as structural expression, material rawness and monumentality. Its implementation layer is a vocabulary primer for briefs, image prompts and 3D scenes, in the place where a UI style has CSS tokens.
+
+Domains connect. An `echoes` edge joins kin across domains: Brutalism ↔ Neo-Brutalism UI, International Style ↔ Swiss International Style. Ask for a website that feels like the Barbican, and the graph has an answer.
+
+Next domains under discussion: interior, type design, motion, sound.
+
+## Add a style
+
+A contribution is one JSON file. CI does the rest.
+
+1. Copy [`data/design/styles/swiss-international.json`](data/design/styles/swiss-international.json) to `data/design/styles/<your-id>.json`.
+2. Fill each field. Give numbers: px, em, ratios, hex. "Clean and modern" is not a rule.
+3. Write anti-patterns as the thing to avoid ("Rounded corners on containers"). The compiler adds `NEVER`.
+4. Connect the style to the graph with at least one lineage edge.
+5. Run `npm run build`. It validates, builds the graph and compiles the skills.
+6. Commit the data file and the generated files, then open a pull request.
+
+The validator checks more than the schema. It refuses a lineage edge that points at nothing, a style that descends from a later style, an id that exists in two domains and a font pairing field that is empty. The full rules are in [CONTRIBUTING.md](CONTRIBUTING.md). An agent that contributes reads [AGENTS.md](AGENTS.md).
+
+**Wanted:** Art Nouveau, Art Deco, Constructivism, De Stijl, Dieter Rams functionalism, Pop Art, punk zine, vaporwave, brutalist web (the 2014 kind), Apple Aqua, Metro, dark-mode developer tool, claymorphism, editorial serif revival, anti-design. In architecture: almost everything.
+
+## How it is built
+
+```text
+data/<domain>/styles/*.json     the source of truth, one file for each style
+        │
+        ├─ npm run validate      JSON Schema 2020-12 + lineage and chronology checks
+        ├─ npm run build:graph   graph/lineage.json + the diagram in this README
+        └─ npm run build:skills  skills/<id>/SKILL.md + tokens.css + SKILL_INDEX.md + index.json
+```
+
+- **Deterministic.** The same data gives the same bytes. CI runs the build and fails if a generated file differs from the commit.
+- **Generated files are in the repository** on purpose, so that a raw URL is all an agent needs.
+- **No runtime.** The output is Markdown, CSS and JSON. The scripts are about 700 lines of TypeScript with two dependencies, `ajv` and `handlebars`.
+
+## Principles
+
+1. **A rule names a property and a number.** If an agent cannot check it, it is not a rule.
+2. **The anti-patterns matter most.** A model drifts to the average of the web. A style is mostly a list of refusals.
+3. **A style is a position, not a preset.** Each one has a thesis and an opponent. The graph keeps both.
+4. **Open-source fonts only.** Every pairing is on Google Fonts under SIL OFL or Apache.
+5. **Honest about limits.** Neumorphism and glassmorphism have real accessibility costs, and their records say so.
+
+## Status
+
+Version 0.1. The schema can still change before 1.0. The seed styles are a first edition: the scores are editorial judgements, and a pull request with a better-argued score is welcome. Open an issue to disagree with a lineage edge. That argument is the purpose of the project.
+
+## Licence
+
+Code (`scripts/`, `schema/`, `demo/`): [MIT](LICENSE). Data and generated skills (`data/`, `domains/`, `graph/`, `skills/`): [CC BY 4.0](LICENSE-DATA.md). Use the skills in commercial work; credit the project when you redistribute the data.

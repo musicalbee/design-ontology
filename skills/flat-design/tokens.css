@@ -1,0 +1,62 @@
+/*
+ * Flat Design — tokens
+ * Generated from data/design/styles/flat-design.json by design-ontology. Do not edit.
+ * Use: put data-style="flat-design" on <html> or on any container.
+ */
+[data-style="flat-design"] {
+  --color-bg: #ECF0F1;
+  --color-surface: #FFFFFF;
+  --color-text: #2C3E50;
+  --color-muted: #7F8C8D;
+  --color-primary: #1ABC9C;
+  --color-accent: #E74C3C;
+  --color-border: #BDC3C7;
+  --font-sans: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --border-radius: 4px;
+  --border-width: 0px;
+  --shadow-elevation: none;
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --duration: 200ms;
+  --color-primary-hover: #16A085;
+  --grid-columns: 12;
+  --grid-gutter: 30px;
+  --leading-body: 1.5;
+  --color-on-primary: #000000;
+}
+
+/* Reference rules. They show how the tokens combine; replace them with your own components. */
+[data-style="flat-design"] {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
+[data-style="flat-design"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+}
+[data-style="flat-design"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="flat-design"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary, var(--color-bg));
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  transition: all var(--duration) var(--ease);
+}
+[data-style="flat-design"] :where(.muted) {
+  color: var(--color-muted);
+}
+[data-style="flat-design"] :where(a) {
+  color: var(--color-accent);
+}

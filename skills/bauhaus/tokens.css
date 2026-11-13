@@ -1,0 +1,62 @@
+/*
+ * Bauhaus — tokens
+ * Generated from data/design/styles/bauhaus.json by design-ontology. Do not edit.
+ * Use: put data-style="bauhaus" on <html> or on any container.
+ */
+[data-style="bauhaus"] {
+  --color-bg: #F2EBDD;
+  --color-surface: #FFFFFF;
+  --color-text: #1A1A1A;
+  --color-muted: #4A4A4A;
+  --color-primary: #D62A1F;
+  --color-accent: #1D4E9E;
+  --color-border: #1A1A1A;
+  --font-sans: "Jost", "Futura", "Century Gothic", "Trebuchet MS", sans-serif;
+  --font-display: "Josefin Sans", "Futura", "Century Gothic", sans-serif;
+  --border-radius: 0px;
+  --border-width: 4px;
+  --shadow-elevation: none;
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration: 200ms;
+  --color-highlight: #F2B705;
+  --grid-columns: 8;
+  --grid-gutter: 16px;
+  --leading-body: 1.5;
+  --color-on-primary: #FFFFFF;
+}
+
+/* Reference rules. They show how the tokens combine; replace them with your own components. */
+[data-style="bauhaus"] {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
+[data-style="bauhaus"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+}
+[data-style="bauhaus"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="bauhaus"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary, var(--color-bg));
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  transition: all var(--duration) var(--ease);
+}
+[data-style="bauhaus"] :where(.muted) {
+  color: var(--color-muted);
+}
+[data-style="bauhaus"] :where(a) {
+  color: var(--color-accent);
+}

@@ -1,0 +1,61 @@
+/*
+ * Frutiger Aero — tokens
+ * Generated from data/design/styles/frutiger-aero.json by design-ontology. Do not edit.
+ * Use: put data-style="frutiger-aero" on <html> or on any container.
+ */
+[data-style="frutiger-aero"] {
+  --color-bg: #7CC8F2;
+  --color-surface: #F4FAFF;
+  --color-text: #1F3A4D;
+  --color-muted: #4F6C80;
+  --color-primary: #2BB7D8;
+  --color-accent: #5DBB3F;
+  --color-border: rgba(255, 255, 255, 0.7);
+  --font-sans: "Open Sans", "Segoe UI", Frutiger, "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Nunito", "Segoe UI", Frutiger, Arial, sans-serif;
+  --border-radius: 10px;
+  --border-width: 1px;
+  --shadow-elevation: 0 6px 14px rgba(10, 60, 100, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --backdrop-filter: blur(10px) saturate(140%);
+  --space-unit: 4px;
+  --ease: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --duration: 280ms;
+  --gradient-sky: linear-gradient(180deg, #7CC8F2 0%, #BFE8F7 55%, #5DBB3F 100%);
+  --gradient-glass-button: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0) 51%), linear-gradient(180deg, #4FD0EA, #2BB7D8);
+  --glow-aqua: 0 0 6px rgba(43, 183, 216, 0.8);
+  --color-on-primary: #000000;
+}
+
+/* Reference rules. They show how the tokens combine; replace them with your own components. */
+[data-style="frutiger-aero"] {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
+[data-style="frutiger-aero"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+}
+[data-style="frutiger-aero"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="frutiger-aero"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary, var(--color-bg));
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  transition: all var(--duration) var(--ease);
+}
+[data-style="frutiger-aero"] :where(.muted) {
+  color: var(--color-muted);
+}
+[data-style="frutiger-aero"] :where(a) {
+  color: var(--color-accent);
+}

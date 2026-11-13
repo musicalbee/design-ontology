@@ -1,0 +1,113 @@
+{
+  "$schema": "../../../schema/domains/architecture.schema.json",
+  "id": "brutalist-architecture",
+  "domain": "architecture",
+  "name": "Brutalism",
+  "aliases": ["New Brutalism", "Béton brut"],
+  "era_id": "modern-movement",
+  "time_period": { "start": 1950, "end": 1979, "label": "1950s–1970s" },
+  "building_types": ["civic", "cultural", "residential"],
+  "summary": "Heavy masses of board-marked concrete with the structure, the services and the circulation shown on the outside. It grew from Le Corbusier's late work and from British post-war housing, and it built the universities and town halls of the welfare state.",
+  "philosophy": {
+    "core_thesis": "A building is honest when its material, its structure and its use are legible from the street.",
+    "design_principles": [
+      "Leave the primary material unfinished: cast concrete keeps the marks of its timber formwork, and brick stays unrendered.",
+      "Show the structure: express frames, cross-walls, beams and cantilevers as the main image of the facade.",
+      "Compose with a few large repeated masses, and let each mass state one function such as a stair tower or an auditorium.",
+      "Set windows deep in the wall, at least 300mm behind the face, so that shadow and not glass draws the elevation.",
+      "Put services, stair cores and walkways on the outside of the volume where a visitor can read them.",
+      "Use one dominant material for more than 70% of the visible surface."
+    ],
+    "anti_patterns": [
+      "Smooth render, paint or cladding panels over the concrete",
+      "Curtain walls of flush glass that hide the floor slabs",
+      "Applied ornament, mouldings or historical motifs",
+      "Thin, light profiles that make the building look weightless",
+      "A hidden entrance or a structure that cannot be read from outside",
+      "Bright decorative colour on the primary mass"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "structural_expression": 5,
+    "geometric_rigidity": 4,
+    "material_rawness": 5,
+    "monumentality": 5
+  },
+  "massing": {
+    "form": "Blocky interlocked volumes with deep cantilevers and top-heavy silhouettes; the upper floors often project 2 to 6m beyond the base.",
+    "proportion": "Horizontal bands dominate, and vertical stair or service towers punctuate them at regular intervals.",
+    "roof": "Flat roofs with heavy parapets; plant rooms and lift overruns stand as sculpted volumes on top.",
+    "relation_to_ground": "The mass sits on pilotis, a podium or a raised deck, and ramps or bridges carry pedestrians above the street."
+  },
+  "structure": {
+    "system": "In-situ reinforced concrete frames and cross-walls, with precast panels on later and larger schemes.",
+    "span_and_module": "A repeated structural bay of 3 to 7m sets the rhythm of the facade and the size of each room.",
+    "expression": "Beams, columns, corbels and waffle slabs stay visible inside and outside, and joints between pours are drawn as lines."
+  },
+  "materials": {
+    "primary": ["board-marked in-situ concrete", "bush-hammered concrete"],
+    "secondary": ["dark brick", "rough timber", "steel-framed glazing", "quarry tile"],
+    "finish": "Unfinished and matt; the surface keeps formwork grain, tie holes and weather stains, and nothing is polished or painted.",
+    "palette": [
+      { "name": "Raw concrete", "hex": "#8C8A84", "role": "primary mass" },
+      { "name": "Weathered concrete", "hex": "#5F5D58", "role": "shadow and stain" },
+      { "name": "Engineering brick", "hex": "#4A332B", "role": "infill walls" },
+      { "name": "Timber", "hex": "#7A5A3A", "role": "handrails and doors" },
+      { "name": "Signal orange", "hex": "#D9541E", "role": "small accents on doors and signs" }
+    ]
+  },
+  "facade": {
+    "composition": "A deep relief of repeated modules such as egg-crate grids, projecting window boxes or ribbed panels, without a decorative skin.",
+    "openings": "Recessed strip or punched windows in dark frames, shaded by concrete fins or brise-soleil.",
+    "solid_to_void": "Solid dominates: 60–80% of the elevation is opaque wall."
+  },
+  "light_and_space": {
+    "daylight": "Light arrives from clerestories, deep slots and rooflights, and rakes across rough surfaces to show their texture.",
+    "spatial_sequence": "A low compressed entrance opens to a tall central hall; ramps, bridges and open stairs make the route a visible event.",
+    "interior_character": "The interior repeats the exterior materials: exposed concrete soffits, brick floors, built-in timber benches and little applied finish."
+  },
+  "ornament": {
+    "attitude": "No applied ornament; the texture of the formwork and the pattern of the structure do the work of decoration.",
+    "details": ["board-marked surfaces", "exposed tie holes", "concrete gargoyles and spouts", "cast-in signage", "ribbed corduroy panels"]
+  },
+  "lineage": {
+    "evolved_from": ["international-style-architecture"],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": ["neo-brutalism-ui"]
+  },
+  "emotion": {
+    "target_response": "Weight and permanence: the viewer feels a civic institution that will not move and has nothing to hide.",
+    "keywords": ["monumental", "honest", "severe", "protective", "uncompromising"],
+    "brand_archetypes": ["ruler", "outlaw"]
+  },
+  "agent": {
+    "triggers": ["brutalist", "brutalism", "béton brut", "raw concrete", "barbican", "monolithic", "fortress-like", "concrete megastructure"],
+    "use_cases": ["concept renders", "cultural buildings", "university campuses", "set and game environments", "interior moodboards"],
+    "avoid_when": [
+      "The brief asks for lightness, transparency or a domestic welcome.",
+      "The climate is wet and the budget has no allowance for concrete detailing that sheds water."
+    ],
+    "modifiers": [
+      { "request": "lighter", "toward": "international-style-architecture", "how": "Thin the frame, raise the glazing share above 50% and smooth the concrete; keep the flat roof and the repeated module." }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "board-marked raw concrete", "massive cantilevered volumes", "deep recessed windows", "exposed structural frame",
+      "repeating modular facade", "elevated walkways", "overcast diffuse light", "weathered matt surfaces", "monumental civic scale"
+    ],
+    "negative": ["glass curtain wall", "polished surfaces", "classical ornament", "pitched tiled roof", "pastel paint", "thin steel filigree"],
+    "canonical_works": [
+      { "work": "Unité d'Habitation, Marseille", "architect": "Le Corbusier", "year": 1952 },
+      { "work": "Hunstanton School", "architect": "Alison and Peter Smithson", "year": 1954 },
+      { "work": "Yale Art and Architecture Building", "architect": "Paul Rudolph", "year": 1963 },
+      { "work": "Barbican Estate, London", "architect": "Chamberlin, Powell and Bon", "year": 1976 },
+      { "work": "National Theatre, London", "architect": "Denys Lasdun", "year": 1976 }
+    ]
+  },
+  "sources": [
+    { "title": "Reyner Banham, The New Brutalism: Ethic or Aesthetic? (Architectural Press, 1966)" }
+  ]
+}

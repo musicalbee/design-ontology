@@ -1,0 +1,154 @@
+{
+  "$schema": "../../../schema/domains/design.schema.json",
+  "id": "neumorphism",
+  "domain": "design",
+  "name": "Neumorphism",
+  "aliases": ["Soft UI", "New Skeuomorphism"],
+  "era_id": "contemporary-spatial",
+  "time_period": { "start": 2019, "end": 2021, "label": "2019–2021" },
+  "primary_mediums": ["web", "mobile"],
+  "summary": "Monochrome surfaces that look extruded from or pressed into the background, made with a light shadow and a dark shadow on opposite corners. It appeared on Dribbble in late 2019 as a soft answer to flat design.",
+  "philosophy": {
+    "core_thesis": "An interface can be tactile without imitating objects, if every control is moulded from the same material as the page behind it.",
+    "design_principles": [
+      "Give the background and every surface the same fill, so that shadows alone define the shape.",
+      "Pair two shadows on each raised element: a dark one at 8px 8px 16px and a light one at -8px -8px 16px, with a light source at the top left.",
+      "Invert both shadows with the inset keyword to show a pressed, selected or input state.",
+      "Keep the corner radius between 16px and 32px on cards and 999px on pills, so that the edges catch the shadow evenly.",
+      "Limit the palette to one mid-light neutral, a darker and a lighter tint of it, and one saturated accent used on less than 5% of the surface.",
+      "Use only three elevation levels: flat, raised at 8px offset and pressed at inset 4px offset.",
+      "Put the accent on the icon, the label or a thin indicator, because the shadow already marks the shape."
+    ],
+    "anti_patterns": [
+      "Hard black borders or 1px outlines around raised elements",
+      "Pure white or pure black backgrounds that cancel one of the two shadows",
+      "Raised and pressed elements that use different background colours",
+      "Light grey text on a light grey surface below 4.5:1 contrast",
+      "More than three elevation levels on one screen",
+      "Shadow offsets that disagree about the light direction",
+      "Saturated gradients on the surface itself"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "dimensionality": 3,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 1
+  },
+  "layout": {
+    "grid_mechanics": "A 4 or 12 column grid with 24px to 32px gutters, because each raised element needs about 16px of free space on every side for its shadow.",
+    "whitespace_ratio": "50–65% of the surface stays empty; the spacing scale is 8, 16, 24, 32, 48 and 64px, and a shadow blur never overlaps a neighbour.",
+    "alignment_rules": "Centre-aligned controls inside symmetric cards; text is left-aligned in cards; groups of controls sit on one shared baseline row.",
+    "container_geometry": "Cards use a 24px radius, buttons a 12px to 16px radius, toggles and sliders a full pill radius of 999px; wells are inset containers with the same radius as the cards."
+  },
+  "typography": {
+    "classifications": ["geometric sans", "humanist sans"],
+    "font_pairings": [
+      { "display": "Poppins", "body": "Nunito Sans", "note": "Round geometric display with a soft body face that matches the 24px corners." },
+      { "display": "DM Sans", "body": "DM Sans", "note": "A single family at weights 500 and 400." },
+      { "display": "Quicksand", "body": "Inter", "note": "Rounded terminals on headings, neutral text below 16px." }
+    ],
+    "tracking": "Display sizes take -0.01em; body stays at 0; small labels take +0.04em to stay legible on a low-contrast surface.",
+    "leading": "Display 1.2; body 1.5; labels 1.3.",
+    "hierarchy_rules": [
+      "Use weights 500 and 700 for headings and 400 for body; light weights below 400 vanish on the soft surface.",
+      "Use text sizes of 14px or more, because contrast is already limited.",
+      "Set the primary text in a dark tint of the surface hue at 7:1 contrast, not in pure black.",
+      "Mark the active item with the accent colour and a pressed shadow together, never with colour alone."
+    ]
+  },
+  "color": {
+    "palette_structure": "One mid-light neutral for page and surface, a lighter and a darker tint of it for the two shadows, one dark text colour and one accent below 5% of the surface.",
+    "palette": [
+      { "name": "Clay", "hex": "#E0E5EC", "role": "background and surface" },
+      { "name": "Highlight", "hex": "#FFFFFF", "role": "light shadow" },
+      { "name": "Shade", "hex": "#A3B1C6", "role": "dark shadow" },
+      { "name": "Slate", "hex": "#2D3748", "role": "text" },
+      { "name": "Steel", "hex": "#5A6A80", "role": "secondary text" },
+      { "name": "Signal Blue", "hex": "#3B6FE0", "role": "accent" }
+    ],
+    "contrast_rules": "Text holds at least 4.5:1 against Clay, which Slate gives at about 9:1; the shadow edge alone gives under 1.5:1, so it fails the WCAG 3:1 rule for component boundaries and needs a label, icon or accent to mark the control.",
+    "surface_treatment": "Opaque matte fields of one colour with no texture; at most a 145-degree linear gradient between two tints within 4% lightness for a convex face.",
+    "light_and_shadow": "One light source at the top left; each raised element casts a dark shadow to the bottom right and a light shadow to the top left, and pressed elements swap both to inset."
+  },
+  "materiality": {
+    "surface_simulation": "Matte moulded plastic or clay, extruded from a single sheet, with no gloss and no visible seams.",
+    "border_rules": "No borders in the default state; an optional 1px solid rgba(255, 255, 255, 0.5) edge on raised elements; focus uses a 2px accent outline offset by 2px.",
+    "blur_and_elevation": "Raised: 8px 8px 16px dark and -8px -8px 16px light; small: 4px 4px 8px and -4px -4px 8px; pressed: inset 4px 4px 8px dark and inset -4px -4px 8px light."
+  },
+  "ornamentation_details": {
+    "iconography": "Outline icons with a 2px stroke and round caps and joins at 24px, set in the secondary text colour and in the accent when active.",
+    "illustration": "Soft 3D renders or abstract shapes in the same neutral tint, with the same top-left light; no outlined line art.",
+    "decorative_elements": ["inset wells", "pill toggles", "circular dials", "progress rings with an inset track"]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Press animates the shadow pair from raised to inset over a short eased move, as if a key travels 4px into the surface; nothing slides or bounces.",
+    "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "duration_ms": 200,
+    "hover_and_active": "Hover grows the raised shadow offset from 8px to 10px; active switches to the inset pair; focus adds a 2px accent outline."
+  },
+  "lineage": {
+    "evolved_from": ["skeuomorphism"],
+    "rebelled_against": ["flat-design"],
+    "hybridized_with": ["glassmorphism"],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Calm tactility: the viewer feels that the controls are soft, safe to touch and made of one material.",
+    "keywords": ["soft", "tactile", "calm", "quiet", "cohesive", "futuristic"],
+    "brand_archetypes": ["caregiver", "creator"]
+  },
+  "agent": {
+    "triggers": [
+      "neumorphism", "neumorphic", "soft ui", "extruded", "embossed buttons", "inset shadows",
+      "pressed button", "soft shadows both sides", "monochrome soft"
+    ],
+    "use_cases": ["smart home controls", "music players", "calculators", "fintech concept screens", "wearable dashboards"],
+    "avoid_when": [
+      "Accessibility compliance is required, because the shadow-only boundary gives under 3:1 contrast and fails WCAG 1.4.11.",
+      "The interface is dense with data, because each element needs 16px of free space for its shadow.",
+      "The product is used in sunlight or on low-contrast displays, where soft shadows disappear."
+    ],
+    "modifiers": [
+      { "request": "more accessible", "toward": "flat-design", "how": "Add a 1px border at 3:1 contrast and shrink both shadows to 2px; keep the radius and the single neutral surface." },
+      { "request": "more depth", "toward": "skeuomorphism", "how": "Add a 145-degree gradient of 8% lightness and a 1px inner highlight; keep the top-left light." },
+      { "request": "glassier", "toward": "glassmorphism", "how": "Replace the surface with rgba(255, 255, 255, 0.4) and backdrop-filter blur(16px); keep the radius and drop the dual shadow." },
+      { "request": "bolder", "toward": "neo-brutalism-ui", "how": "Replace both soft shadows with one 4px 4px 0 0 #000000 shadow and add a 2px black border; keep the layout." }
+    ]
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#E0E5EC",
+      "--color-surface": "#E0E5EC",
+      "--color-text": "#2D3748",
+      "--color-muted": "#5A6A80",
+      "--color-primary": "#3B6FE0",
+      "--color-accent": "#3B6FE0",
+      "--color-border": "rgba(255, 255, 255, 0.5)",
+      "--font-sans": "\"Nunito Sans\", \"Inter\", system-ui, sans-serif",
+      "--font-display": "\"Poppins\", \"Nunito Sans\", system-ui, sans-serif",
+      "--border-radius": "24px",
+      "--border-width": "1px",
+      "--shadow-elevation": "8px 8px 16px #A3B1C6, -8px -8px 16px #FFFFFF",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "--duration": "200ms",
+      "--shadow-pressed": "inset 4px 4px 8px #A3B1C6, inset -4px -4px 8px #FFFFFF",
+      "--shadow-small": "4px 4px 8px #A3B1C6, -4px -4px 8px #FFFFFF"
+    },
+    "tailwind": [
+      { "element": "page", "classes": "bg-[#E0E5EC] text-[#2D3748] font-sans antialiased p-8" },
+      { "element": "card", "classes": "rounded-3xl bg-[#E0E5EC] p-8 shadow-[8px_8px_16px_#A3B1C6,-8px_-8px_16px_#FFFFFF]" },
+      { "element": "button", "classes": "rounded-2xl bg-[#E0E5EC] px-6 py-3 font-medium text-[#2D3748] shadow-[4px_4px_8px_#A3B1C6,-4px_-4px_8px_#FFFFFF] transition-shadow duration-200 active:shadow-[inset_4px_4px_8px_#A3B1C6,inset_-4px_-4px_8px_#FFFFFF]" },
+      { "element": "input", "classes": "rounded-2xl bg-[#E0E5EC] px-4 py-3 text-[#2D3748] shadow-[inset_4px_4px_8px_#A3B1C6,inset_-4px_-4px_8px_#FFFFFF] outline-none focus:outline-2 focus:outline-offset-2 focus:outline-[#3B6FE0]" },
+      { "element": "heading", "classes": "font-bold text-3xl leading-tight tracking-[-0.01em] text-[#2D3748]" }
+    ]
+  },
+  "sources": [
+    { "title": "Alexander Plyuto, Skeuomorph Mobile Banking concept, Dribbble (2019)" },
+    { "title": "WCAG 2.1, Success Criterion 1.4.11 Non-text Contrast, W3C (2018)" }
+  ]
+}

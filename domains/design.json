@@ -1,0 +1,22 @@
+{
+  "id": "design",
+  "order": 1,
+  "name": "Graphic & UI Design",
+  "schema": "schema/domains/design.schema.json",
+  "task": "generating UI or graphic layouts",
+  "vectors": [
+    { "key": "ornamentation", "label": "Ornamentation", "abbr": "ORN", "low": "pure minimal", "high": "maximalist" },
+    { "key": "dimensionality", "label": "Dimensionality", "abbr": "DIM", "low": "strictly 2D", "high": "full 3D / spatial" },
+    { "key": "grid_rigidity", "label": "Grid rigidity", "abbr": "GRID", "low": "chaotic / organic", "high": "strict mathematical grid" },
+    { "key": "skeuomorphic_realism", "label": "Skeuomorphic realism", "abbr": "REAL", "low": "abstract digital", "high": "photorealistic material" },
+    { "key": "typographic_expressiveness", "label": "Typographic expressiveness", "abbr": "TYPE", "low": "neutral / invisible", "high": "experimental / illustrative" }
+  ],
+  "facets": [
+    { "key": "layout", "title": "Spatial & grid logic" },
+    { "key": "typography", "title": "Typography" },
+    { "key": "color", "title": "Colour & lighting" },
+    { "key": "materiality", "title": "Materiality & texture" },
+    { "key": "ornamentation_details", "title": "Ornamentation & iconography" },
+    { "key": "motion", "title": "Motion & interactivity" }
+  ]
+}

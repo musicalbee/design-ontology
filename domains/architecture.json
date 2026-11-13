@@ -1,0 +1,22 @@
+{
+  "id": "architecture",
+  "order": 2,
+  "name": "Architecture",
+  "schema": "schema/domains/architecture.schema.json",
+  "task": "designing, describing or rendering buildings and interiors",
+  "vectors": [
+    { "key": "ornamentation", "label": "Ornamentation", "abbr": "ORN", "low": "no applied ornament", "high": "ornament covers the surface" },
+    { "key": "structural_expression", "label": "Structural expression", "abbr": "STRUC", "low": "structure hidden", "high": "structure is the image" },
+    { "key": "geometric_rigidity", "label": "Geometric rigidity", "abbr": "GEOM", "low": "organic / free-form", "high": "strict orthogonal module" },
+    { "key": "material_rawness", "label": "Material rawness", "abbr": "RAW", "low": "finished and coated", "high": "raw and unfinished" },
+    { "key": "monumentality", "label": "Monumentality", "abbr": "MONU", "low": "domestic human scale", "high": "monumental" }
+  ],
+  "facets": [
+    { "key": "massing", "title": "Massing & form" },
+    { "key": "structure", "title": "Structure" },
+    { "key": "materials", "title": "Materials" },
+    { "key": "facade", "title": "Facade" },
+    { "key": "light_and_space", "title": "Light & space" },
+    { "key": "ornament", "title": "Ornament" }
+  ]
+}
