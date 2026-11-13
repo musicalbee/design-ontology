@@ -22,21 +22,46 @@
   --duration: 300ms;
   --surface-hover: rgba(255, 255, 255, 0.28);
   --background-gradient: linear-gradient(135deg, #6C5CE7 0%, #FD79A8 100%);
+  --color-on-bg: #FFFFFF;
+  --color-on-surface: #000000;
   --color-on-primary: #000000;
+  --color-on-accent: #000000;
+  --color-muted-on-bg: #FFFFFF;
+  --color-muted-on-surface: #1B182F;
+  --color-link: #FFFFFF;
+  --color-link-on-surface: #000000;
+  --display-weight: 700;
+  --display-tracking: -0.02em;
+  --display-leading: 1.05;
+  --display-case: none;
+  --body-leading: 1.55;
+  --body-size: 16px;
+  --icon-stroke: 1.5;
 }
 
-/* Reference rules. They show how the tokens combine; replace them with your own components. */
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
 [data-style="glassmorphism"] {
   background: var(--color-bg);
-  color: var(--color-text);
+  color: var(--color-on-bg);
   font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  line-height: var(--body-leading, 1.5);
 }
 [data-style="glassmorphism"] :where(h1, h2, h3) {
   font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
 }
 [data-style="glassmorphism"] :where(.surface) {
   padding: calc(var(--space-unit) * 3);
   background: var(--color-surface);
+  color: var(--color-on-surface);
   border: var(--border-width) solid var(--color-border);
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-elevation);
@@ -46,15 +71,26 @@
 [data-style="glassmorphism"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
   background: var(--color-primary);
-  color: var(--color-on-primary, var(--color-bg));
+  color: var(--color-on-primary);
   border: var(--border-width) solid var(--color-border);
   border-radius: var(--border-radius);
   font: inherit;
   transition: all var(--duration) var(--ease);
 }
 [data-style="glassmorphism"] :where(.muted) {
-  color: var(--color-muted);
+  color: var(--color-muted-on-bg);
 }
-[data-style="glassmorphism"] :where(a) {
-  color: var(--color-accent);
+[data-style="glassmorphism"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="glassmorphism"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="glassmorphism"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="glassmorphism"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
 }

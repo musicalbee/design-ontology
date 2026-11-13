@@ -164,7 +164,21 @@ Set `data-style="spatial-visionos"` on the root element and paste the tokens. Th
   --duration: 400ms;
   --target-min: 60px;
   --hover-fill: rgba(255, 255, 255, 0.2);
-  --color-on-primary: #000000;
+  --color-on-bg: #FFFFFF;
+  --color-on-surface: #FFFFFF;
+  --color-on-primary: #0F0F14;
+  --color-on-accent: #0F0F14;
+  --color-muted-on-bg: #9F9FA1;
+  --color-muted-on-surface: #ADADAF;
+  --color-link: #0A84FF;
+  --color-link-on-surface: #FFFFFF;
+  --display-weight: 600;
+  --display-tracking: -0.02em;
+  --display-leading: 1.1;
+  --display-case: none;
+  --body-leading: 1.5;
+  --body-size: 17px;
+  --icon-stroke: 1.5;
 }
 ```
 
@@ -177,6 +191,22 @@ Tailwind patterns:
 | button | `h-[60px] rounded-full bg-white/15 px-8 text-[17px] font-semibold text-white transition duration-[150ms] hover:scale-105 hover:bg-white/20 active:scale-[0.97] active:bg-white/30` |
 | ornament | `flex gap-4 rounded-full border border-white/25 bg-white/15 p-3 shadow-[0_12px_40px_rgba(0,0,0,0.3)] backdrop-blur-[40px]` |
 | heading | `font-bold text-5xl leading-[1.15] text-white` |
+
+## Visual pack
+
+The pictures and icons of this style are files. Use them as they are, or read them as a specification and draw your own in the same language.
+
+| File | Content |
+|---|---|
+| [`pack/hero.svg`](./pack/hero.svg) | Hero plate, 800 by 600. An abstract picture in the visual language of the style. |
+| [`pack/pattern.svg`](./pack/pattern.svg) | Pattern tile, 80 by 80. It repeats in both directions. |
+| [`pack/icons.svg`](./pack/icons.svg) | Icon sprite: home, search, heart, star, bell, user, mail, calendar, image, bolt, play, check, close, sliders. |
+
+- **Icons:** outline, stroke 1.5 on a 24px field, round caps, round joins, container: circle. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
+- **Display type:** weight 600, tracking -0.02em, leading 1.1, case: none.
+- **Body type:** 17px, leading 1.5.
+- **Page:** hero stacked, center aligned, airy density, accent tilt 0°.
+- **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ## Lineage fallbacks
 

@@ -164,7 +164,21 @@ Set `data-style="glassmorphism"` on the root element and paste the tokens. The f
   --duration: 300ms;
   --surface-hover: rgba(255, 255, 255, 0.28);
   --background-gradient: linear-gradient(135deg, #6C5CE7 0%, #FD79A8 100%);
+  --color-on-bg: #FFFFFF;
+  --color-on-surface: #000000;
   --color-on-primary: #000000;
+  --color-on-accent: #000000;
+  --color-muted-on-bg: #FFFFFF;
+  --color-muted-on-surface: #1B182F;
+  --color-link: #FFFFFF;
+  --color-link-on-surface: #000000;
+  --display-weight: 700;
+  --display-tracking: -0.02em;
+  --display-leading: 1.05;
+  --display-case: none;
+  --body-leading: 1.55;
+  --body-size: 16px;
+  --icon-stroke: 1.5;
 }
 ```
 
@@ -177,6 +191,22 @@ Tailwind patterns:
 | button | `rounded-xl border border-white/30 bg-white/20 px-5 py-3 font-semibold text-white backdrop-blur-md transition duration-300 hover:-translate-y-0.5 hover:bg-white/30` |
 | input | `rounded-xl border border-white/30 bg-white/10 px-4 py-3 text-white placeholder:text-white/70 backdrop-blur-md focus:outline-2 focus:outline-white` |
 | heading | `font-extrabold text-4xl leading-tight tracking-[-0.02em]` |
+
+## Visual pack
+
+The pictures and icons of this style are files. Use them as they are, or read them as a specification and draw your own in the same language.
+
+| File | Content |
+|---|---|
+| [`pack/hero.svg`](./pack/hero.svg) | Hero plate, 800 by 600. An abstract picture in the visual language of the style. |
+| [`pack/pattern.svg`](./pack/pattern.svg) | Pattern tile, 80 by 80. It repeats in both directions. |
+| [`pack/icons.svg`](./pack/icons.svg) | Icon sprite: home, search, heart, star, bell, user, mail, calendar, image, bolt, play, check, close, sliders. |
+
+- **Icons:** outline, stroke 1.5 on a 24px field, round caps, round joins, container: rounded. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
+- **Display type:** weight 700, tracking -0.02em, leading 1.05, case: none.
+- **Body type:** 16px, leading 1.55.
+- **Page:** hero stacked, center aligned, regular density, accent tilt 0°.
+- **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ## Lineage fallbacks
 

@@ -22,21 +22,46 @@
   --duration: 350ms;
   --grid-gap: 16px;
   --cell-padding: 24px;
-  --color-on-primary: #FFFFFF;
+  --color-on-bg: #1D1D1F;
+  --color-on-surface: #1D1D1F;
+  --color-on-primary: #F5F5F7;
+  --color-on-accent: #FFFFFF;
+  --color-muted-on-bg: #6E6E73;
+  --color-muted-on-surface: #6E6E73;
+  --color-link: #1D1D1F;
+  --color-link-on-surface: #0071E3;
+  --display-weight: 600;
+  --display-tracking: -0.03em;
+  --display-leading: 1.05;
+  --display-case: none;
+  --body-leading: 1.5;
+  --body-size: 16px;
+  --icon-stroke: 1.75;
 }
 
-/* Reference rules. They show how the tokens combine; replace them with your own components. */
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
 [data-style="bento-grid-ui"] {
   background: var(--color-bg);
-  color: var(--color-text);
+  color: var(--color-on-bg);
   font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  line-height: var(--body-leading, 1.5);
 }
 [data-style="bento-grid-ui"] :where(h1, h2, h3) {
   font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
 }
 [data-style="bento-grid-ui"] :where(.surface) {
   padding: calc(var(--space-unit) * 3);
   background: var(--color-surface);
+  color: var(--color-on-surface);
   border: var(--border-width) solid var(--color-border);
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-elevation);
@@ -46,15 +71,26 @@
 [data-style="bento-grid-ui"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
   background: var(--color-primary);
-  color: var(--color-on-primary, var(--color-bg));
+  color: var(--color-on-primary);
   border: var(--border-width) solid var(--color-border);
   border-radius: var(--border-radius);
   font: inherit;
   transition: all var(--duration) var(--ease);
 }
 [data-style="bento-grid-ui"] :where(.muted) {
-  color: var(--color-muted);
+  color: var(--color-muted-on-bg);
 }
-[data-style="bento-grid-ui"] :where(a) {
-  color: var(--color-accent);
+[data-style="bento-grid-ui"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="bento-grid-ui"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="bento-grid-ui"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="bento-grid-ui"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
 }

@@ -167,7 +167,21 @@ Set `data-style="swiss-international"` on the root element and paste the tokens.
   --grid-gutter: 24px;
   --tracking-display: -0.03em;
   --leading-body: 1.5;
+  --color-on-bg: #111111;
+  --color-on-surface: #111111;
   --color-on-primary: #FFFFFF;
+  --color-on-accent: #FFFFFF;
+  --color-muted-on-bg: #5E5E5E;
+  --color-muted-on-surface: #5E5E5E;
+  --color-link: #E30613;
+  --color-link-on-surface: #111111;
+  --display-weight: 700;
+  --display-tracking: -0.03em;
+  --display-leading: 0.95;
+  --display-case: none;
+  --body-leading: 1.45;
+  --body-size: 16px;
+  --icon-stroke: 1.5;
 }
 ```
 
@@ -181,6 +195,22 @@ Tailwind patterns:
 | section | `col-span-12 border-t-2 border-neutral-900 pt-4 mt-24` |
 | button | `rounded-none border border-neutral-900 bg-neutral-900 px-6 py-3 text-sm font-bold text-white transition-colors duration-150 hover:bg-white hover:text-neutral-900` |
 | label | `text-xs font-bold uppercase tracking-[0.06em] text-neutral-600` |
+
+## Visual pack
+
+The pictures and icons of this style are files. Use them as they are, or read them as a specification and draw your own in the same language.
+
+| File | Content |
+|---|---|
+| [`pack/hero.svg`](./pack/hero.svg) | Hero plate, 800 by 600. An abstract picture in the visual language of the style. |
+| [`pack/pattern.svg`](./pack/pattern.svg) | Pattern tile, 80 by 80. It repeats in both directions. |
+| [`pack/icons.svg`](./pack/icons.svg) | Icon sprite: home, search, heart, star, bell, user, mail, calendar, image, bolt, play, check, close, sliders. |
+
+- **Icons:** outline, stroke 1.5 on a 24px field, butt caps, miter joins, container: none. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
+- **Display type:** weight 700, tracking -0.03em, leading 0.95, case: none.
+- **Body type:** 16px, leading 1.45.
+- **Page:** hero split, left aligned, airy density, accent tilt 0°.
+- **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ## Lineage fallbacks
 

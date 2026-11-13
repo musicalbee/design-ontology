@@ -1,12 +1,13 @@
 /**
- * Compiles every style into skills/<id>/SKILL.md (and tokens.css where the domain has
- * tokens), then writes the router: skills/SKILL_INDEX.md and skills/index.json.
+ * Compiles every style into skills/<id>/SKILL.md (and tokens.css and a visual pack where the
+ * domain has them), then writes the router: skills/SKILL_INDEX.md and skills/index.json.
  * Output is deterministic: the same data gives the same bytes.
  */
 import Handlebars from "handlebars";
 import { existsSync, readFileSync, readdirSync, rmSync } from "node:fs";
 import { join } from "node:path";
 import { ROOT, loadAll, readJson, write, type Domain, type Style } from "./lib.js";
+import { ICONS, derivedTokens, heroSvg, iconSprite, patternSvg, typeTokens, type Visual } from "./pack.js";
 
 const { domains, eras, styles } = loadAll();
 const byId = new Map(styles.map((s) => [s.id, s]));
@@ -58,29 +59,19 @@ function renderFacet(facet: Record<string, unknown>): string {
 
 const bar = (n: number) => "■".repeat(n) + "□".repeat(5 - n);
 
-// ── derived tokens ──────────────────────────────────────────────────────────
-const HEX = /^#[0-9a-f]{6}$/i;
-function luminance(hex: string): number {
-  const [r, g, b] = [1, 3, 5].map((i) => {
-    const c = parseInt(hex.slice(i, i + 2), 16) / 255;
-    return c <= 0.03928 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4;
-  });
-  return 0.2126 * r + 0.7152 * g + 0.0722 * b;
-}
-const contrast = (a: string, b: string) => {
-  const [hi, lo] = [luminance(a), luminance(b)].sort((x, y) => y - x);
-  return (hi + 0.05) / (lo + 0.05);
-};
-/** The tokens of a style, plus --color-on-primary when the author did not set it: the most legible of text, bg, black, white. */
+// ── tokens ──────────────────────────────────────────────────────────────────
+const visualOf = (style: Style) => style.visual as Visual | undefined;
+/** The authored tokens of a style, then the tokens that the compiler derives: legible text colours for each field, and type values. */
 function cssTokens(style: Style): [string, string][] {
-  const css = { ...style.tokens!.css };
-  const primary = css["--color-primary"];
-  if (!css["--color-on-primary"] && HEX.test(primary)) {
-    const candidates = [css["--color-text"], css["--color-bg"], "#000000", "#FFFFFF"].filter((c) => HEX.test(c));
-    css["--color-on-primary"] = candidates.sort((a, b) => contrast(b, primary) - contrast(a, primary))[0];
-  }
-  return Object.entries(css);
+  const css = style.tokens!.css;
+  const v = visualOf(style);
+  return Object.entries({ ...css, ...derivedTokens(css), ...(v ? typeTokens(v) : {}) });
 }
+const PACK_FILES = [
+  { file: "hero.svg", what: "Hero plate, 800 by 600. An abstract picture in the visual language of the style." },
+  { file: "pattern.svg", what: "Pattern tile, 80 by 80. It repeats in both directions." },
+  { file: "icons.svg", what: `Icon sprite: ${Object.keys(ICONS).join(", ")}.` },
+];
 
 // ── SKILL.md ────────────────────────────────────────────────────────────────
 Handlebars.registerHelper("json", (v: unknown) => JSON.stringify(v));
@@ -117,6 +108,13 @@ function view(style: Style, domain: Domain) {
     tokens: style.tokens && {
       css: cssTokens(style).map(([name, value]) => ({ name, value })),
       tailwind: style.tokens.tailwind,
+    },
+    pack: visualOf(style) && {
+      files: PACK_FILES,
+      icon: visualOf(style)!.icon,
+      type: visualOf(style)!.type,
+      layout: visualOf(style)!.layout,
+      first_icon: Object.keys(ICONS)[0],
     },
     primer: style.primer && {
       positive: style.primer.positive.join(", "),
@@ -158,18 +156,29 @@ ${sel} {
 ${vars}
 }
 
-/* Reference rules. They show how the tokens combine; replace them with your own components. */
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
 ${sel} {
   background: var(--color-bg);
-  color: var(--color-text);
+  color: var(--color-on-bg);
   font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  line-height: var(--body-leading, 1.5);
 }
 ${sel} :where(h1, h2, h3) {
   font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
 }
 ${sel} :where(.surface) {
   padding: calc(var(--space-unit) * 3);
   background: var(--color-surface);
+  color: var(--color-on-surface);
   border: var(--border-width) solid var(--color-border);
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-elevation);
@@ -179,17 +188,28 @@ ${sel} :where(.surface) {
 ${sel} :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
   background: var(--color-primary);
-  color: var(--color-on-primary, var(--color-bg));
+  color: var(--color-on-primary);
   border: var(--border-width) solid var(--color-border);
   border-radius: var(--border-radius);
   font: inherit;
   transition: all var(--duration) var(--ease);
 }
 ${sel} :where(.muted) {
-  color: var(--color-muted);
+  color: var(--color-muted-on-bg);
 }
-${sel} :where(a) {
-  color: var(--color-accent);
+${sel} :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+${sel} :where(a:not(.action)) {
+  color: var(--color-link);
+}
+${sel} :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+${sel} :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
 }
 `;
 }
@@ -205,6 +225,12 @@ for (const style of styles) {
   const domain = domains.find((d) => d.id === style.domain)!;
   write(`skills/${style.id}/SKILL.md`, template(view(style, domain)).replace(/\n{3,}/g, "\n\n"));
   if (style.tokens) write(`skills/${style.id}/tokens.css`, tokensCss(style));
+  const v = visualOf(style);
+  if (v) {
+    write(`skills/${style.id}/pack/hero.svg`, heroSvg(style, v));
+    write(`skills/${style.id}/pack/pattern.svg`, patternSvg(style, v));
+    write(`skills/${style.id}/pack/icons.svg`, iconSprite(style, v));
+  }
 }
 
 // ── router ──────────────────────────────────────────────────────────────────
@@ -258,6 +284,8 @@ write(
         summary: s.summary,
         path: `skills/${s.id}/SKILL.md`,
         tokens: s.tokens ? `skills/${s.id}/tokens.css` : null,
+        pack: s.visual ? `skills/${s.id}/pack/` : null,
+        visual: s.visual ?? null,
         triggers: s.agent.triggers,
         use_cases: s.agent.use_cases,
         emotion: s.emotion.keywords,

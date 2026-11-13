@@ -15,12 +15,14 @@
     "build": "npm run validate && npm run build:graph && npm run build:skills",
     "check": "npm run build && git diff --exit-code -- graph skills README.md",
     "query": "tsx scripts/query.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@types/node": "^26.6.6",
     "ajv": "^8.20.0",
     "handlebars": "^4.7.10",
+    "husky": "^9.1.7",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   }

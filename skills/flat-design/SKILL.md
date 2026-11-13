@@ -168,7 +168,21 @@ Set `data-style="flat-design"` on the root element and paste the tokens. The fil
   --grid-columns: 12;
   --grid-gutter: 30px;
   --leading-body: 1.5;
-  --color-on-primary: #000000;
+  --color-on-bg: #2C3E50;
+  --color-on-surface: #2C3E50;
+  --color-on-primary: #2C3E50;
+  --color-on-accent: #000000;
+  --color-muted-on-bg: #526270;
+  --color-muted-on-surface: #6B7885;
+  --color-link: #2C3E50;
+  --color-link-on-surface: #2C3E50;
+  --display-weight: 700;
+  --display-tracking: 0.01em;
+  --display-leading: 1.1;
+  --display-case: none;
+  --body-leading: 1.6;
+  --body-size: 16px;
+  --icon-stroke: 2;
 }
 ```
 
@@ -181,6 +195,22 @@ Tailwind patterns:
 | card | `rounded bg-white p-6 shadow-none` |
 | button | `rounded bg-[#1ABC9C] px-6 py-3 text-base font-bold text-white transition-colors duration-200 hover:bg-[#16A085] active:bg-[#138D75]` |
 | input | `rounded bg-white px-4 py-3 text-base text-[#2C3E50] border-2 border-transparent focus:border-[#1ABC9C] focus:outline-none` |
+
+## Visual pack
+
+The pictures and icons of this style are files. Use them as they are, or read them as a specification and draw your own in the same language.
+
+| File | Content |
+|---|---|
+| [`pack/hero.svg`](./pack/hero.svg) | Hero plate, 800 by 600. An abstract picture in the visual language of the style. |
+| [`pack/pattern.svg`](./pack/pattern.svg) | Pattern tile, 80 by 80. It repeats in both directions. |
+| [`pack/icons.svg`](./pack/icons.svg) | Icon sprite: home, search, heart, star, bell, user, mail, calendar, image, bolt, play, check, close, sliders. |
+
+- **Icons:** solid, stroke 2 on a 24px field, butt caps, miter joins, container: circle. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
+- **Display type:** weight 700, tracking 0.01em, leading 1.1, case: none.
+- **Body type:** 16px, leading 1.6.
+- **Page:** hero stacked, center aligned, airy density, accent tilt 0°.
+- **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ## Lineage fallbacks
 

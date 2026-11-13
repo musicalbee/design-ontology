@@ -170,7 +170,21 @@ Set `data-style="y2k-aesthetic"` on the root element and paste the tokens. The f
   --gradient-chrome: linear-gradient(180deg, #FFFFFF 0%, #C7CDD6 48%, #8F9AAD 52%, #E3E8F0 100%);
   --gradient-gloss: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0) 45%), linear-gradient(180deg, #4D8DFF, #1E6BFF);
   --glow-cyan: 0 0 16px rgba(0, 217, 255, 0.8);
+  --color-on-bg: #0B1A3A;
+  --color-on-surface: #0B1A3A;
   --color-on-primary: #000000;
+  --color-on-accent: #0B1A3A;
+  --color-muted-on-bg: #4A5B7A;
+  --color-muted-on-surface: #435069;
+  --color-link: #0B1A3A;
+  --color-link-on-surface: #0B1A3A;
+  --display-weight: 800;
+  --display-tracking: 0.04em;
+  --display-leading: 1.05;
+  --display-case: uppercase;
+  --body-leading: 1.55;
+  --body-size: 16px;
+  --icon-stroke: 1.5;
 }
 ```
 
@@ -184,6 +198,22 @@ Tailwind patterns:
 | card | `rounded-3xl border border-white/80 bg-white/70 p-6 backdrop-blur-[6px] shadow-[0_8px_24px_rgba(11,26,58,0.18),inset_0_1px_0_#fff]` |
 | label | `text-[10px] font-bold uppercase tracking-[0.1em] text-[#4A5B7A]` |
 | tag | `rounded-full bg-[#B6FF00] px-3 py-1 text-[10px] font-bold uppercase tracking-[0.1em] text-[#0B1A3A]` |
+
+## Visual pack
+
+The pictures and icons of this style are files. Use them as they are, or read them as a specification and draw your own in the same language.
+
+| File | Content |
+|---|---|
+| [`pack/hero.svg`](./pack/hero.svg) | Hero plate, 800 by 600. An abstract picture in the visual language of the style. |
+| [`pack/pattern.svg`](./pack/pattern.svg) | Pattern tile, 80 by 80. It repeats in both directions. |
+| [`pack/icons.svg`](./pack/icons.svg) | Icon sprite: home, search, heart, star, bell, user, mail, calendar, image, bolt, play, check, close, sliders. |
+
+- **Icons:** duotone, stroke 1.5 on a 24px field, round caps, round joins, container: circle. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
+- **Display type:** weight 800, tracking 0.04em, leading 1.05, case: uppercase.
+- **Body type:** 16px, leading 1.55.
+- **Page:** hero stacked, center aligned, regular density, accent tilt 0°.
+- **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ## Lineage fallbacks
 

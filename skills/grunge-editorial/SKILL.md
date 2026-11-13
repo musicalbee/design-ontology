@@ -168,7 +168,21 @@ Set `data-style="grunge-editorial"` on the root element and paste the tokens. Th
   --texture-grain: radial-gradient(rgba(20, 20, 20, 0.25) 1px, transparent 1.5px) 0 0 / 4px 4px;
   --blend-overprint: multiply;
   --tracking-display: -0.06em;
-  --color-on-primary: #FFFFFF;
+  --color-on-bg: #141414;
+  --color-on-surface: #E8E2D0;
+  --color-on-primary: #E8E2D0;
+  --color-on-accent: #141414;
+  --color-muted-on-bg: #54524C;
+  --color-muted-on-surface: #8A8A84;
+  --color-link: #8C3B1E;
+  --color-link-on-surface: #E6FF00;
+  --display-weight: 400;
+  --display-tracking: -0.02em;
+  --display-leading: 0.9;
+  --display-case: uppercase;
+  --body-leading: 1.5;
+  --body-size: 15px;
+  --icon-stroke: 2;
 }
 ```
 
@@ -181,6 +195,22 @@ Tailwind patterns:
 | rotated label | `text-xs uppercase tracking-[0.3em] [writing-mode:vertical-rl] rotate-180` |
 | photo | `grayscale contrast-150 mix-blend-multiply blur-[2px] -mx-6` |
 | button | `border-2 border-[#141414] bg-[#E6FF00] px-5 py-2 text-sm font-bold uppercase shadow-[3px_3px_0_#141414] transition-transform duration-[180ms] ease-[steps(3,end)] hover:translate-x-[3px] hover:rotate-1 active:bg-[#141414] active:text-[#E8E2D0]` |
+
+## Visual pack
+
+The pictures and icons of this style are files. Use them as they are, or read them as a specification and draw your own in the same language.
+
+| File | Content |
+|---|---|
+| [`pack/hero.svg`](./pack/hero.svg) | Hero plate, 800 by 600. An abstract picture in the visual language of the style. |
+| [`pack/pattern.svg`](./pack/pattern.svg) | Pattern tile, 80 by 80. It repeats in both directions. |
+| [`pack/icons.svg`](./pack/icons.svg) | Icon sprite: home, search, heart, star, bell, user, mail, calendar, image, bolt, play, check, close, sliders. |
+
+- **Icons:** outline, stroke 2 on a 24px field, butt caps, miter joins, container: none. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
+- **Display type:** weight 400, tracking -0.02em, leading 0.9, case: uppercase.
+- **Body type:** 15px, leading 1.5.
+- **Page:** hero poster, left aligned, compact density, accent tilt 1.2°.
+- **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ## Lineage fallbacks
 

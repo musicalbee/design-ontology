@@ -165,7 +165,21 @@ Set `data-style="bauhaus"` on the root element and paste the tokens. The file [`
   --grid-columns: 8;
   --grid-gutter: 16px;
   --leading-body: 1.5;
+  --color-on-bg: #1A1A1A;
+  --color-on-surface: #1A1A1A;
   --color-on-primary: #FFFFFF;
+  --color-on-accent: #F2EBDD;
+  --color-muted-on-bg: #4A4A4A;
+  --color-muted-on-surface: #4A4A4A;
+  --color-link: #1D4E9E;
+  --color-link-on-surface: #1D4E9E;
+  --display-weight: 700;
+  --display-tracking: 0.02em;
+  --display-leading: 1;
+  --display-case: lowercase;
+  --body-leading: 1.5;
+  --body-size: 17px;
+  --icon-stroke: 2;
 }
 ```
 
@@ -179,6 +193,22 @@ Tailwind patterns:
 | card | `rounded-none border-4 border-[#1A1A1A] bg-white p-6` |
 | button | `rounded-none border-4 border-[#1A1A1A] bg-[#F2B705] px-6 py-3 text-sm font-bold uppercase tracking-[0.1em] text-[#1A1A1A] transition-colors duration-200 hover:bg-[#D62A1F] hover:text-white` |
 | label | `text-xs font-bold uppercase tracking-[0.1em] text-[#1D4E9E]` |
+
+## Visual pack
+
+The pictures and icons of this style are files. Use them as they are, or read them as a specification and draw your own in the same language.
+
+| File | Content |
+|---|---|
+| [`pack/hero.svg`](./pack/hero.svg) | Hero plate, 800 by 600. An abstract picture in the visual language of the style. |
+| [`pack/pattern.svg`](./pack/pattern.svg) | Pattern tile, 80 by 80. It repeats in both directions. |
+| [`pack/icons.svg`](./pack/icons.svg) | Icon sprite: home, search, heart, star, bell, user, mail, calendar, image, bolt, play, check, close, sliders. |
+
+- **Icons:** solid, stroke 2 on a 24px field, butt caps, miter joins, container: circle. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
+- **Display type:** weight 700, tracking 0.02em, leading 1, case: lowercase.
+- **Body type:** 17px, leading 1.5.
+- **Page:** hero split, left aligned, regular density, accent tilt 0°.
+- **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ## Lineage fallbacks
 

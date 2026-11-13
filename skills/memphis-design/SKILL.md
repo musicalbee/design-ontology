@@ -168,7 +168,21 @@ Set `data-style="memphis-design"` on the root element and paste the tokens. The 
   --pattern-stripes: repeating-linear-gradient(45deg, #111111 0 4px, #FFFFFF 4px 8px);
   --pattern-dots: radial-gradient(#111111 3px, transparent 3.5px) 0 0 / 16px 16px;
   --tilt-headline: -8deg;
-  --color-on-primary: #000000;
+  --color-on-bg: #111111;
+  --color-on-surface: #111111;
+  --color-on-primary: #111111;
+  --color-on-accent: #111111;
+  --color-muted-on-bg: #2B3FD6;
+  --color-muted-on-surface: #2B3FD6;
+  --color-link: #111111;
+  --color-link-on-surface: #111111;
+  --display-weight: 400;
+  --display-tracking: 0em;
+  --display-leading: 1;
+  --display-case: uppercase;
+  --body-leading: 1.5;
+  --body-size: 16px;
+  --icon-stroke: 2.5;
 }
 ```
 
@@ -181,6 +195,22 @@ Tailwind patterns:
 | card | `bg-[#FFD600] border-[3px] border-[#111111] rounded-tr-[48px] shadow-[6px_6px_0_#111111] p-6 rotate-2` |
 | button | `bg-[#00B2A9] border-[3px] border-[#111111] px-6 py-3 font-extrabold uppercase shadow-[6px_6px_0_#111111] transition-transform duration-[240ms] ease-[steps(4,end)] hover:-translate-x-1 hover:-translate-y-1 active:translate-x-0 active:translate-y-0 active:shadow-none` |
 | pattern band | `h-6 w-full bg-[repeating-linear-gradient(45deg,#111111_0_4px,#FFFFFF_4px_8px)]` |
+
+## Visual pack
+
+The pictures and icons of this style are files. Use them as they are, or read them as a specification and draw your own in the same language.
+
+| File | Content |
+|---|---|
+| [`pack/hero.svg`](./pack/hero.svg) | Hero plate, 800 by 600. An abstract picture in the visual language of the style. |
+| [`pack/pattern.svg`](./pack/pattern.svg) | Pattern tile, 80 by 80. It repeats in both directions. |
+| [`pack/icons.svg`](./pack/icons.svg) | Icon sprite: home, search, heart, star, bell, user, mail, calendar, image, bolt, play, check, close, sliders. |
+
+- **Icons:** duotone, stroke 2.5 on a 24px field, square caps, miter joins, container: square. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
+- **Display type:** weight 400, tracking 0em, leading 1, case: uppercase.
+- **Body type:** 16px, leading 1.5.
+- **Page:** hero stacked, left aligned, compact density, accent tilt -1.5°.
+- **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ## Lineage fallbacks
 

@@ -168,7 +168,21 @@ Set `data-style="psychedelic"` on the root element and paste the tokens. The fil
   --color-lime: #9AFF00;
   --tracking-display: -0.04em;
   --leading-body: 1.5;
-  --color-on-primary: #000000;
+  --color-on-bg: #FFE600;
+  --color-on-surface: #2B0A4D;
+  --color-on-primary: #2B0A4D;
+  --color-on-accent: #2B0A4D;
+  --color-muted-on-bg: #BFA417;
+  --color-muted-on-surface: #5A2A8A;
+  --color-link: #FF1493;
+  --color-link-on-surface: #2B0A4D;
+  --display-weight: 400;
+  --display-tracking: -0.02em;
+  --display-leading: 0.95;
+  --display-case: none;
+  --body-leading: 1.5;
+  --body-size: 18px;
+  --icon-stroke: 3;
 }
 ```
 
@@ -182,6 +196,22 @@ Tailwind patterns:
 | button | `rounded-full border-[3px] border-[#2B0A4D] bg-[#9AFF00] px-8 py-3 text-base font-bold text-[#2B0A4D] transition-transform duration-[600ms] hover:-skew-x-2 hover:bg-[#FF1493] hover:text-white` |
 | divider | `h-3 w-full rounded-full border-[3px] border-[#2B0A4D] bg-[repeating-linear-gradient(90deg,#FF6A00_0_12px,#1B3BFF_12px_24px)]` |
 | label | `text-xs font-bold uppercase tracking-[0.04em] text-[#2B0A4D]` |
+
+## Visual pack
+
+The pictures and icons of this style are files. Use them as they are, or read them as a specification and draw your own in the same language.
+
+| File | Content |
+|---|---|
+| [`pack/hero.svg`](./pack/hero.svg) | Hero plate, 800 by 600. An abstract picture in the visual language of the style. |
+| [`pack/pattern.svg`](./pack/pattern.svg) | Pattern tile, 80 by 80. It repeats in both directions. |
+| [`pack/icons.svg`](./pack/icons.svg) | Icon sprite: home, search, heart, star, bell, user, mail, calendar, image, bolt, play, check, close, sliders. |
+
+- **Icons:** solid, stroke 3 on a 24px field, round caps, round joins, container: none. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
+- **Display type:** weight 400, tracking -0.02em, leading 0.95, case: none.
+- **Body type:** 18px, leading 1.5.
+- **Page:** hero poster, center aligned, compact density, accent tilt -2°.
+- **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ## Lineage fallbacks
 

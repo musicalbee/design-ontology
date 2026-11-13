@@ -8,6 +8,7 @@
  */
 import { Ajv2020 } from "ajv/dist/2020.js";
 import { join } from "node:path";
+import { RECIPE_NAMES } from "./pack.js";
 import { ROOT, loadDomains, loadEras, loadStyleFiles, readJson, type Style } from "./lib.js";
 
 const schemaOnly = process.argv.includes("--schema-only");
@@ -39,6 +40,10 @@ for (const domain of domains) {
     const axisKeys = domain.vectors.map((v) => v.key).sort().join(",");
     if (Object.keys(style.vectors).sort().join(",") !== axisKeys)
       errors.push(`${file}: vectors do not match the axes in domains/${domain.id}.json`);
+
+    const recipe = (style.visual as { art: { recipe: string } } | undefined)?.art.recipe;
+    if (recipe && !RECIPE_NAMES.includes(recipe))
+      errors.push(`${file}: visual.art.recipe "${recipe}" is not in scripts/pack.ts. Known: ${RECIPE_NAMES.join(", ")}`);
 
     for (const p of style.philosophy.anti_patterns)
       if (/^(never|do not|don't|avoid)\b/i.test(p))

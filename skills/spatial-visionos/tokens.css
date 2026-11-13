@@ -22,21 +22,46 @@
   --duration: 400ms;
   --target-min: 60px;
   --hover-fill: rgba(255, 255, 255, 0.2);
-  --color-on-primary: #000000;
+  --color-on-bg: #FFFFFF;
+  --color-on-surface: #FFFFFF;
+  --color-on-primary: #0F0F14;
+  --color-on-accent: #0F0F14;
+  --color-muted-on-bg: #9F9FA1;
+  --color-muted-on-surface: #ADADAF;
+  --color-link: #0A84FF;
+  --color-link-on-surface: #FFFFFF;
+  --display-weight: 600;
+  --display-tracking: -0.02em;
+  --display-leading: 1.1;
+  --display-case: none;
+  --body-leading: 1.5;
+  --body-size: 17px;
+  --icon-stroke: 1.5;
 }
 
-/* Reference rules. They show how the tokens combine; replace them with your own components. */
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
 [data-style="spatial-visionos"] {
   background: var(--color-bg);
-  color: var(--color-text);
+  color: var(--color-on-bg);
   font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  line-height: var(--body-leading, 1.5);
 }
 [data-style="spatial-visionos"] :where(h1, h2, h3) {
   font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
 }
 [data-style="spatial-visionos"] :where(.surface) {
   padding: calc(var(--space-unit) * 3);
   background: var(--color-surface);
+  color: var(--color-on-surface);
   border: var(--border-width) solid var(--color-border);
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-elevation);
@@ -46,15 +71,26 @@
 [data-style="spatial-visionos"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
   background: var(--color-primary);
-  color: var(--color-on-primary, var(--color-bg));
+  color: var(--color-on-primary);
   border: var(--border-width) solid var(--color-border);
   border-radius: var(--border-radius);
   font: inherit;
   transition: all var(--duration) var(--ease);
 }
 [data-style="spatial-visionos"] :where(.muted) {
-  color: var(--color-muted);
+  color: var(--color-muted-on-bg);
 }
-[data-style="spatial-visionos"] :where(a) {
-  color: var(--color-accent);
+[data-style="spatial-visionos"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="spatial-visionos"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="spatial-visionos"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="spatial-visionos"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
 }

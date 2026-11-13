@@ -3,10 +3,21 @@
   "id": "skeuomorphism",
   "domain": "design",
   "name": "Skeuomorphism",
-  "aliases": ["Skeuomorphic UI", "iOS 6 style", "Real-object interface"],
+  "aliases": [
+    "Skeuomorphic UI",
+    "iOS 6 style",
+    "Real-object interface"
+  ],
   "era_id": "touchscreen",
-  "time_period": { "start": 2007, "end": 2013, "label": "2007–2013" },
-  "primary_mediums": ["mobile", "web"],
+  "time_period": {
+    "start": 2007,
+    "end": 2013,
+    "label": "2007–2013"
+  },
+  "primary_mediums": [
+    "mobile",
+    "web"
+  ],
   "summary": "Interfaces that copy real objects: leather, linen, wood, felt, glass and brushed metal, lit from above with gradients and layered shadows. It has roots in 1980s desktop icons and peaked in iOS 1 to 6, until iOS 7 replaced it in 2013.",
   "philosophy": {
     "core_thesis": "A screen control is easier to learn when it looks and behaves like a physical object that the user already knows.",
@@ -43,11 +54,27 @@
     "container_geometry": "Rounded rectangles with a 5 to 10px radius, grouped table cells with a 10px radius on the outer corners, and 44px high bars with a 1px bevel."
   },
   "typography": {
-    "classifications": ["humanist sans serif", "slab serif", "script"],
+    "classifications": [
+      "humanist sans serif",
+      "slab serif",
+      "script"
+    ],
     "font_pairings": [
-      { "display": "Roboto Slab", "body": "Open Sans", "note": "A slab for object labels with a humanist text face, close to the Marker Felt and Helvetica mix of iOS 6 notes." },
-      { "display": "Arvo", "body": "Lato", "note": "A slab for leather and wood panels with a rounded sans for legible controls." },
-      { "display": "Caveat", "body": "Source Sans 3", "note": "A handwriting face for notepad and journal metaphors, with a neutral sans for UI text." }
+      {
+        "display": "Roboto Slab",
+        "body": "Open Sans",
+        "note": "A slab for object labels with a humanist text face, close to the Marker Felt and Helvetica mix of iOS 6 notes."
+      },
+      {
+        "display": "Arvo",
+        "body": "Lato",
+        "note": "A slab for leather and wood panels with a rounded sans for legible controls."
+      },
+      {
+        "display": "Caveat",
+        "body": "Source Sans 3",
+        "note": "A handwriting face for notepad and journal metaphors, with a neutral sans for UI text."
+      }
     ],
     "tracking": "Display sizes sit at 0em to 0.01em; body stays at 0; button labels take +0.02em.",
     "leading": "Display 1.1; body 1.3 to 1.4; table rows hold a 44px height with a single 17px line.",
@@ -61,12 +88,36 @@
   "color": {
     "palette_structure": "Three to five material colours with 60% of the surface in the dominant material, plus a glossy blue accent for primary controls on 10 to 15% of the surface.",
     "palette": [
-      { "name": "Linen", "hex": "#D8D4CC", "role": "background texture base" },
-      { "name": "Leather Brown", "hex": "#6B4A2F", "role": "panel surface" },
-      { "name": "Glass Blue", "hex": "#2F7BE0", "role": "primary control gradient" },
-      { "name": "Chrome", "hex": "#C9CDD3", "role": "metal bar and bezel" },
-      { "name": "Felt Green", "hex": "#1E5B3A", "role": "table surface" },
-      { "name": "Stamp Ink", "hex": "#2B2118", "role": "text on light material" }
+      {
+        "name": "Linen",
+        "hex": "#D8D4CC",
+        "role": "background texture base"
+      },
+      {
+        "name": "Leather Brown",
+        "hex": "#6B4A2F",
+        "role": "panel surface"
+      },
+      {
+        "name": "Glass Blue",
+        "hex": "#2F7BE0",
+        "role": "primary control gradient"
+      },
+      {
+        "name": "Chrome",
+        "hex": "#C9CDD3",
+        "role": "metal bar and bezel"
+      },
+      {
+        "name": "Felt Green",
+        "hex": "#1E5B3A",
+        "role": "table surface"
+      },
+      {
+        "name": "Stamp Ink",
+        "hex": "#2B2118",
+        "role": "text on light material"
+      }
     ],
     "contrast_rules": "Text on material surfaces holds at least 4.5:1; light text on leather brown and felt green reaches about 8:1, and text on glossy blue reaches 4.5:1.",
     "surface_treatment": "Photographic textures, linear gradients with a 50% hard split for gloss, and noise at 3 to 6% opacity; glass uses a white 30% highlight over the upper half.",
@@ -80,7 +131,15 @@
   "ornamentation_details": {
     "iconography": "Glossy filled icons of 57 by 57px with a 12px radius, a top gloss highlight over 50% of the height, a 1px bevel and a reflected shadow below.",
     "illustration": "Rendered object illustrations with lighting, such as bookshelves, microphones, film reels and tape decks, drawn from a 3/4 top view.",
-    "decorative_elements": ["stitching", "page curl", "wood shelf", "torn paper edge", "gloss highlight", "chrome bezel", "reflection below icon"]
+    "decorative_elements": [
+      "stitching",
+      "page curl",
+      "wood shelf",
+      "torn paper edge",
+      "gloss highlight",
+      "chrome bezel",
+      "reflection below icon"
+    ]
   },
   "motion": {
     "native": true,
@@ -92,31 +151,104 @@
   "lineage": {
     "evolved_from": [],
     "rebelled_against": [],
-    "hybridized_with": ["frutiger-aero"],
+    "hybridized_with": [
+      "frutiger-aero"
+    ],
     "echoes": []
   },
   "emotion": {
     "target_response": "Familiarity and tactile comfort: the user feels that the app is an object that can be picked up and used without instruction.",
-    "keywords": ["tactile", "familiar", "warm", "crafted", "literal", "nostalgic"],
-    "brand_archetypes": ["everyman", "caregiver", "creator"]
+    "keywords": [
+      "tactile",
+      "familiar",
+      "warm",
+      "crafted",
+      "literal",
+      "nostalgic"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "caregiver",
+      "creator"
+    ]
   },
   "agent": {
     "triggers": [
-      "skeuomorphic", "skeuomorphism", "ios 6", "real-world textures", "leather texture", "tactile interface",
-      "realistic buttons", "glossy buttons", "wood and linen", "retro ios", "page curl", "stitched leather"
+      "skeuomorphic",
+      "skeuomorphism",
+      "ios 6",
+      "real-world textures",
+      "leather texture",
+      "tactile interface",
+      "realistic buttons",
+      "glossy buttons",
+      "wood and linen",
+      "retro ios",
+      "page curl",
+      "stitched leather"
     ],
-    "use_cases": ["music and audio apps", "notes and journal apps", "games with a table or board", "novelty and nostalgia sites", "onboarding for first-time smartphone users"],
+    "use_cases": [
+      "music and audio apps",
+      "notes and journal apps",
+      "games with a table or board",
+      "novelty and nostalgia sites",
+      "onboarding for first-time smartphone users"
+    ],
     "avoid_when": [
       "The product is data-dense and every pixel of chrome costs reading space.",
       "The brand must feel abstract, minimal or software-native.",
       "The design must scale across many densities and run on low-power devices where 5 shadow layers cost frame rate."
     ],
     "modifiers": [
-      { "request": "flatter", "toward": "flat-design", "how": "Remove all gradients, textures and shadows, set solid fills, and keep the colours and 5 to 10px radius of the original." },
-      { "request": "more layered", "toward": "material-design", "how": "Replace textures with solid surfaces, use 1 to 24dp elevation shadows with a top-left key light, and keep the paper metaphor." },
-      { "request": "glossier", "toward": "frutiger-aero", "how": "Replace material textures with aqua gradients and glass highlights, add bokeh nature imagery, and keep the top light source." },
-      { "request": "more futuristic", "toward": "y2k-aesthetic", "how": "Swap natural materials for chrome, translucent plastic and cyan with 24px blur glows; keep the bevels and the gloss." }
+      {
+        "request": "flatter",
+        "toward": "flat-design",
+        "how": "Remove all gradients, textures and shadows, set solid fills, and keep the colours and 5 to 10px radius of the original."
+      },
+      {
+        "request": "more layered",
+        "toward": "material-design",
+        "how": "Replace textures with solid surfaces, use 1 to 24dp elevation shadows with a top-left key light, and keep the paper metaphor."
+      },
+      {
+        "request": "glossier",
+        "toward": "frutiger-aero",
+        "how": "Replace material textures with aqua gradients and glass highlights, add bokeh nature imagery, and keep the top light source."
+      },
+      {
+        "request": "more futuristic",
+        "toward": "y2k-aesthetic",
+        "how": "Swap natural materials for chrome, translucent plastic and cyan with 24px blur glows; keep the bevels and the gloss."
+      }
     ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "display_tracking": "0em",
+      "display_leading": 1.1,
+      "display_case": "none",
+      "body_leading": 1.55,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "rounded"
+    },
+    "art": {
+      "recipe": "skeuo",
+      "pattern": "noise",
+      "seed": 9
+    },
+    "layout": {
+      "hero": "split",
+      "align": "left",
+      "density": "regular",
+      "tilt_deg": 0
+    }
   },
   "tokens": {
     "css": {
@@ -142,15 +274,34 @@
       "--touch-target": "44px"
     },
     "tailwind": [
-      { "element": "page", "classes": "min-h-screen bg-[#D8D4CC] bg-[url('/textures/linen.png')] font-sans text-[#2B2118] [text-shadow:0_1px_0_rgba(255,255,255,0.6)]" },
-      { "element": "heading", "classes": "font-serif text-[17px] font-bold leading-tight [text-shadow:0_1px_0_rgba(255,255,255,0.6)]" },
-      { "element": "panel", "classes": "rounded-lg border border-black/50 bg-[#6B4A2F] bg-[url('/textures/leather.png')] p-5 shadow-[0_4px_10px_rgba(0,0,0,0.5),inset_0_1px_0_rgba(255,255,255,0.3)]" },
-      { "element": "button", "classes": "h-11 rounded-lg border border-[#1B4F9E] bg-gradient-to-b from-[#6FA8F5] via-[#2F7BE0] to-[#1F5FC0] px-5 text-sm font-bold text-white shadow-[0_1px_2px_rgba(0,0,0,0.4),inset_0_1px_0_rgba(255,255,255,0.5)] active:from-[#1F5FC0] active:to-[#6FA8F5] [text-shadow:0_-1px_0_rgba(0,0,0,0.5)]" },
-      { "element": "input", "classes": "h-11 rounded-md border border-black/40 bg-white px-3 text-[17px] shadow-[inset_0_1px_3px_rgba(0,0,0,0.35)]" }
+      {
+        "element": "page",
+        "classes": "min-h-screen bg-[#D8D4CC] bg-[url('/textures/linen.png')] font-sans text-[#2B2118] [text-shadow:0_1px_0_rgba(255,255,255,0.6)]"
+      },
+      {
+        "element": "heading",
+        "classes": "font-serif text-[17px] font-bold leading-tight [text-shadow:0_1px_0_rgba(255,255,255,0.6)]"
+      },
+      {
+        "element": "panel",
+        "classes": "rounded-lg border border-black/50 bg-[#6B4A2F] bg-[url('/textures/leather.png')] p-5 shadow-[0_4px_10px_rgba(0,0,0,0.5),inset_0_1px_0_rgba(255,255,255,0.3)]"
+      },
+      {
+        "element": "button",
+        "classes": "h-11 rounded-lg border border-[#1B4F9E] bg-gradient-to-b from-[#6FA8F5] via-[#2F7BE0] to-[#1F5FC0] px-5 text-sm font-bold text-white shadow-[0_1px_2px_rgba(0,0,0,0.4),inset_0_1px_0_rgba(255,255,255,0.5)] active:from-[#1F5FC0] active:to-[#6FA8F5] [text-shadow:0_-1px_0_rgba(0,0,0,0.5)]"
+      },
+      {
+        "element": "input",
+        "classes": "h-11 rounded-md border border-black/40 bg-white px-3 text-[17px] shadow-[inset_0_1px_3px_rgba(0,0,0,0.35)]"
+      }
     ]
   },
   "sources": [
-    { "title": "Apple, iOS Human Interface Guidelines for iOS 6 (Apple Inc., 2012)" },
-    { "title": "Apple Human Interface Guidelines: Macintosh (Addison-Wesley, 1992)" }
+    {
+      "title": "Apple, iOS Human Interface Guidelines for iOS 6 (Apple Inc., 2012)"
+    },
+    {
+      "title": "Apple Human Interface Guidelines: Macintosh (Addison-Wesley, 1992)"
+    }
   ]
 }

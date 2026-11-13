@@ -3,10 +3,21 @@
   "id": "bento-grid-ui",
   "domain": "design",
   "name": "Bento Grid UI",
-  "aliases": ["Bento Layout", "Bento Box Grid", "Modular Card Grid"],
+  "aliases": [
+    "Bento Layout",
+    "Bento Box Grid",
+    "Modular Card Grid"
+  ],
   "era_id": "contemporary-spatial",
-  "time_period": { "start": 2022, "end": null, "label": "2022–present" },
-  "primary_mediums": ["web", "mobile"],
+  "time_period": {
+    "start": 2022,
+    "end": null,
+    "label": "2022–present"
+  },
+  "primary_mediums": [
+    "web",
+    "mobile"
+  ],
   "summary": "A rectangular grid of rounded cells of mixed spans, each holding one idea, with equal small gaps between them. Apple feature pages made it the default product layout from 2022.",
   "philosophy": {
     "core_thesis": "A page is easiest to scan when every idea sits in its own compartment and the compartments tile one tight, regular grid.",
@@ -43,11 +54,26 @@
     "container_geometry": "Cells are rounded rectangles with a 24px radius and no outer margin; the cell aspect ratios are 1:1, 2:1 and 1:2, and the visuals inside are clipped to the same radius."
   },
   "typography": {
-    "classifications": ["neo-grotesque sans", "geometric sans"],
+    "classifications": [
+      "neo-grotesque sans",
+      "geometric sans"
+    ],
     "font_pairings": [
-      { "display": "Inter Tight", "body": "Inter", "note": "Tight display sizes for short cell headlines." },
-      { "display": "Geist", "body": "Geist", "note": "A single family at weights 400, 500 and 600." },
-      { "display": "Plus Jakarta Sans", "body": "Inter", "note": "A warmer display face for consumer products." }
+      {
+        "display": "Inter Tight",
+        "body": "Inter",
+        "note": "Tight display sizes for short cell headlines."
+      },
+      {
+        "display": "Geist",
+        "body": "Geist",
+        "note": "A single family at weights 400, 500 and 600."
+      },
+      {
+        "display": "Plus Jakarta Sans",
+        "body": "Inter",
+        "note": "A warmer display face for consumer products."
+      }
     ],
     "tracking": "Display sizes take -0.03em; body stays at 0; small captions take +0.01em.",
     "leading": "Display 1.05 to 1.15; body 1.45; captions 1.3.",
@@ -61,13 +87,41 @@
   "color": {
     "palette_structure": "A neutral page, cells in two to four tints of one family at low saturation, and one or two accent cells that cover about 15% of the grid.",
     "palette": [
-      { "name": "Page", "hex": "#F5F5F7", "role": "page background" },
-      { "name": "Cell", "hex": "#FFFFFF", "role": "default cell fill" },
-      { "name": "Cell Tint", "hex": "#E8E8ED", "role": "secondary cell fill" },
-      { "name": "Ink", "hex": "#1D1D1F", "role": "text" },
-      { "name": "Graphite", "hex": "#6E6E73", "role": "secondary text" },
-      { "name": "Accent Blue", "hex": "#0071E3", "role": "accent cell and links" },
-      { "name": "Night", "hex": "#000000", "role": "dark cell fill" }
+      {
+        "name": "Page",
+        "hex": "#F5F5F7",
+        "role": "page background"
+      },
+      {
+        "name": "Cell",
+        "hex": "#FFFFFF",
+        "role": "default cell fill"
+      },
+      {
+        "name": "Cell Tint",
+        "hex": "#E8E8ED",
+        "role": "secondary cell fill"
+      },
+      {
+        "name": "Ink",
+        "hex": "#1D1D1F",
+        "role": "text"
+      },
+      {
+        "name": "Graphite",
+        "hex": "#6E6E73",
+        "role": "secondary text"
+      },
+      {
+        "name": "Accent Blue",
+        "hex": "#0071E3",
+        "role": "accent cell and links"
+      },
+      {
+        "name": "Night",
+        "hex": "#000000",
+        "role": "dark cell fill"
+      }
     ],
     "contrast_rules": "Ink on Cell gives about 17:1 and Graphite on Cell gives about 5:1; white text on Accent Blue gives about 4.7:1, which passes WCAG AA for body text; keep every cell pair at 4.5:1 or better.",
     "surface_treatment": "Flat or near-flat fills; cells may hold a photograph, a product render or a gradient of two close tints, and a cell never mixes more than one surface type.",
@@ -81,7 +135,13 @@
   "ornamentation_details": {
     "iconography": "Simple icons with a 1.5px to 2px stroke and round caps at 24px to 32px, in Ink or in white on accent cells; one icon at most per cell.",
     "illustration": "Product renders, UI screenshots and large numbers, cropped to the cell radius; abstract gradients fill empty cells.",
-    "decorative_elements": ["feature cell at 2 by 2", "oversized metric numerals", "UI screenshot crops", "pill tags", "gradient cells"]
+    "decorative_elements": [
+      "feature cell at 2 by 2",
+      "oversized metric numerals",
+      "UI screenshot crops",
+      "pill tags",
+      "gradient cells"
+    ]
   },
   "motion": {
     "native": true,
@@ -91,33 +151,105 @@
     "hover_and_active": "Hover scales the cell to 1.02 and adds a 0 12px 32px rgba(0, 0, 0, 0.12) shadow; active scales to 0.98; focus adds a 2px Accent Blue ring offset by 2px."
   },
   "lineage": {
-    "evolved_from": ["swiss-international", "flat-design"],
+    "evolved_from": [
+      "swiss-international",
+      "flat-design"
+    ],
     "rebelled_against": [],
-    "hybridized_with": ["glassmorphism"],
+    "hybridized_with": [
+      "glassmorphism"
+    ],
     "echoes": []
   },
   "emotion": {
     "target_response": "Ordered curiosity: the viewer feels that the product is organised, compact and easy to scan in seconds.",
-    "keywords": ["organised", "compact", "scannable", "tidy", "product-led", "friendly"],
-    "brand_archetypes": ["creator", "sage"]
+    "keywords": [
+      "organised",
+      "compact",
+      "scannable",
+      "tidy",
+      "product-led",
+      "friendly"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "sage"
+    ]
   },
   "agent": {
     "triggers": [
-      "bento", "bento grid", "bento box layout", "card grid", "feature grid", "modular cards",
-      "apple-style features", "tiled layout", "dashboard tiles"
+      "bento",
+      "bento grid",
+      "bento box layout",
+      "card grid",
+      "feature grid",
+      "modular cards",
+      "apple-style features",
+      "tiled layout",
+      "dashboard tiles"
     ],
-    "use_cases": ["product feature pages", "SaaS landing pages", "personal portfolios", "app dashboards", "release notes pages"],
+    "use_cases": [
+      "product feature pages",
+      "SaaS landing pages",
+      "personal portfolios",
+      "app dashboards",
+      "release notes pages"
+    ],
     "avoid_when": [
       "The content is long-form prose, because cells of at most 30 words break an argument into fragments.",
       "The items have a strict order or a ranking that a reader must follow from top to bottom.",
       "The content is uneven or sparse, because a grid with fewer than 5 cells leaves visible holes."
     ],
     "modifiers": [
-      { "request": "more orderly", "toward": "swiss-international", "how": "Set the radius to 0px, remove cell fills and divide cells with 1px rules; keep the 12-column grid and the type scale." },
-      { "request": "glassier", "toward": "glassmorphism", "how": "Fill cells with rgba(255, 255, 255, 0.18) and backdrop-filter blur(20px) over a gradient page; keep the gaps and the radius." },
-      { "request": "bolder", "toward": "neo-brutalism-ui", "how": "Add a 3px black border and a 4px 4px 0 0 #000000 shadow, and fill cells with loud flat hues; keep the grid and the 16px gap." },
-      { "request": "flatter", "toward": "flat-design", "how": "Remove the shadows and borders, and use solid cell fills with no photography; keep the 24px radius and the gap." }
+      {
+        "request": "more orderly",
+        "toward": "swiss-international",
+        "how": "Set the radius to 0px, remove cell fills and divide cells with 1px rules; keep the 12-column grid and the type scale."
+      },
+      {
+        "request": "glassier",
+        "toward": "glassmorphism",
+        "how": "Fill cells with rgba(255, 255, 255, 0.18) and backdrop-filter blur(20px) over a gradient page; keep the gaps and the radius."
+      },
+      {
+        "request": "bolder",
+        "toward": "neo-brutalism-ui",
+        "how": "Add a 3px black border and a 4px 4px 0 0 #000000 shadow, and fill cells with loud flat hues; keep the grid and the 16px gap."
+      },
+      {
+        "request": "flatter",
+        "toward": "flat-design",
+        "how": "Remove the shadows and borders, and use solid cell fills with no photography; keep the 24px radius and the gap."
+      }
     ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 600,
+      "display_tracking": "-0.03em",
+      "display_leading": 1.05,
+      "display_case": "none",
+      "body_leading": 1.5,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.75,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "rounded"
+    },
+    "art": {
+      "recipe": "bento",
+      "pattern": "grid",
+      "seed": 16
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": 0
+    }
   },
   "tokens": {
     "css": {
@@ -141,15 +273,34 @@
       "--cell-padding": "24px"
     },
     "tailwind": [
-      { "element": "page", "classes": "bg-[#F5F5F7] text-[#1D1D1F] font-sans antialiased p-4 md:p-8" },
-      { "element": "grid", "classes": "mx-auto grid max-w-6xl grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 auto-rows-[240px]" },
-      { "element": "card", "classes": "rounded-3xl border border-black/[0.06] bg-white p-6 shadow-[0_1px_2px_rgba(0,0,0,0.06)] transition duration-[350ms] hover:scale-[1.02] hover:shadow-[0_12px_32px_rgba(0,0,0,0.12)]" },
-      { "element": "feature card", "classes": "rounded-3xl bg-[#0071E3] p-8 text-white sm:col-span-2 sm:row-span-2" },
-      { "element": "heading", "classes": "font-semibold text-2xl leading-[1.1] tracking-[-0.03em]" }
+      {
+        "element": "page",
+        "classes": "bg-[#F5F5F7] text-[#1D1D1F] font-sans antialiased p-4 md:p-8"
+      },
+      {
+        "element": "grid",
+        "classes": "mx-auto grid max-w-6xl grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 auto-rows-[240px]"
+      },
+      {
+        "element": "card",
+        "classes": "rounded-3xl border border-black/[0.06] bg-white p-6 shadow-[0_1px_2px_rgba(0,0,0,0.06)] transition duration-[350ms] hover:scale-[1.02] hover:shadow-[0_12px_32px_rgba(0,0,0,0.12)]"
+      },
+      {
+        "element": "feature card",
+        "classes": "rounded-3xl bg-[#0071E3] p-8 text-white sm:col-span-2 sm:row-span-2"
+      },
+      {
+        "element": "heading",
+        "classes": "font-semibold text-2xl leading-[1.1] tracking-[-0.03em]"
+      }
     ]
   },
   "sources": [
-    { "title": "Apple product pages, Apple Inc. (2022)" },
-    { "title": "Bento Grids, Bentogrids.com gallery, curated by Daniel Gao (2023)" }
+    {
+      "title": "Apple product pages, Apple Inc. (2022)"
+    },
+    {
+      "title": "Bento Grids, Bentogrids.com gallery, curated by Daniel Gao (2023)"
+    }
   ]
 }

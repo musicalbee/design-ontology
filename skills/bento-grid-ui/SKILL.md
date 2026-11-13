@@ -165,7 +165,21 @@ Set `data-style="bento-grid-ui"` on the root element and paste the tokens. The f
   --duration: 350ms;
   --grid-gap: 16px;
   --cell-padding: 24px;
-  --color-on-primary: #FFFFFF;
+  --color-on-bg: #1D1D1F;
+  --color-on-surface: #1D1D1F;
+  --color-on-primary: #F5F5F7;
+  --color-on-accent: #FFFFFF;
+  --color-muted-on-bg: #6E6E73;
+  --color-muted-on-surface: #6E6E73;
+  --color-link: #1D1D1F;
+  --color-link-on-surface: #0071E3;
+  --display-weight: 600;
+  --display-tracking: -0.03em;
+  --display-leading: 1.05;
+  --display-case: none;
+  --body-leading: 1.5;
+  --body-size: 16px;
+  --icon-stroke: 1.75;
 }
 ```
 
@@ -178,6 +192,22 @@ Tailwind patterns:
 | card | `rounded-3xl border border-black/[0.06] bg-white p-6 shadow-[0_1px_2px_rgba(0,0,0,0.06)] transition duration-[350ms] hover:scale-[1.02] hover:shadow-[0_12px_32px_rgba(0,0,0,0.12)]` |
 | feature card | `rounded-3xl bg-[#0071E3] p-8 text-white sm:col-span-2 sm:row-span-2` |
 | heading | `font-semibold text-2xl leading-[1.1] tracking-[-0.03em]` |
+
+## Visual pack
+
+The pictures and icons of this style are files. Use them as they are, or read them as a specification and draw your own in the same language.
+
+| File | Content |
+|---|---|
+| [`pack/hero.svg`](./pack/hero.svg) | Hero plate, 800 by 600. An abstract picture in the visual language of the style. |
+| [`pack/pattern.svg`](./pack/pattern.svg) | Pattern tile, 80 by 80. It repeats in both directions. |
+| [`pack/icons.svg`](./pack/icons.svg) | Icon sprite: home, search, heart, star, bell, user, mail, calendar, image, bolt, play, check, close, sliders. |
+
+- **Icons:** outline, stroke 1.75 on a 24px field, round caps, round joins, container: rounded. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
+- **Display type:** weight 600, tracking -0.03em, leading 1.05, case: none.
+- **Body type:** 16px, leading 1.5.
+- **Page:** hero stacked, left aligned, compact density, accent tilt 0°.
+- **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ## Lineage fallbacks
 

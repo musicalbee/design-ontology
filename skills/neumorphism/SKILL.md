@@ -164,7 +164,21 @@ Set `data-style="neumorphism"` on the root element and paste the tokens. The fil
   --duration: 200ms;
   --shadow-pressed: inset 4px 4px 8px #A3B1C6, inset -4px -4px 8px #FFFFFF;
   --shadow-small: 4px 4px 8px #A3B1C6, -4px -4px 8px #FFFFFF;
+  --color-on-bg: #2D3748;
+  --color-on-surface: #2D3748;
   --color-on-primary: #FFFFFF;
+  --color-on-accent: #FFFFFF;
+  --color-muted-on-bg: #515A69;
+  --color-muted-on-surface: #515A69;
+  --color-link: #2D3748;
+  --color-link-on-surface: #2D3748;
+  --display-weight: 600;
+  --display-tracking: -0.01em;
+  --display-leading: 1.15;
+  --display-case: none;
+  --body-leading: 1.6;
+  --body-size: 16px;
+  --icon-stroke: 1.75;
 }
 ```
 
@@ -177,6 +191,22 @@ Tailwind patterns:
 | button | `rounded-2xl bg-[#E0E5EC] px-6 py-3 font-medium text-[#2D3748] shadow-[4px_4px_8px_#A3B1C6,-4px_-4px_8px_#FFFFFF] transition-shadow duration-200 active:shadow-[inset_4px_4px_8px_#A3B1C6,inset_-4px_-4px_8px_#FFFFFF]` |
 | input | `rounded-2xl bg-[#E0E5EC] px-4 py-3 text-[#2D3748] shadow-[inset_4px_4px_8px_#A3B1C6,inset_-4px_-4px_8px_#FFFFFF] outline-none focus:outline-2 focus:outline-offset-2 focus:outline-[#3B6FE0]` |
 | heading | `font-bold text-3xl leading-tight tracking-[-0.01em] text-[#2D3748]` |
+
+## Visual pack
+
+The pictures and icons of this style are files. Use them as they are, or read them as a specification and draw your own in the same language.
+
+| File | Content |
+|---|---|
+| [`pack/hero.svg`](./pack/hero.svg) | Hero plate, 800 by 600. An abstract picture in the visual language of the style. |
+| [`pack/pattern.svg`](./pack/pattern.svg) | Pattern tile, 80 by 80. It repeats in both directions. |
+| [`pack/icons.svg`](./pack/icons.svg) | Icon sprite: home, search, heart, star, bell, user, mail, calendar, image, bolt, play, check, close, sliders. |
+
+- **Icons:** outline, stroke 1.75 on a 24px field, round caps, round joins, container: circle. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
+- **Display type:** weight 600, tracking -0.01em, leading 1.15, case: none.
+- **Body type:** 16px, leading 1.6.
+- **Page:** hero stacked, center aligned, airy density, accent tilt 0°.
+- **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ## Lineage fallbacks
 

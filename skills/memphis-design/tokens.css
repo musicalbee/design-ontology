@@ -23,21 +23,46 @@
   --pattern-stripes: repeating-linear-gradient(45deg, #111111 0 4px, #FFFFFF 4px 8px);
   --pattern-dots: radial-gradient(#111111 3px, transparent 3.5px) 0 0 / 16px 16px;
   --tilt-headline: -8deg;
-  --color-on-primary: #000000;
+  --color-on-bg: #111111;
+  --color-on-surface: #111111;
+  --color-on-primary: #111111;
+  --color-on-accent: #111111;
+  --color-muted-on-bg: #2B3FD6;
+  --color-muted-on-surface: #2B3FD6;
+  --color-link: #111111;
+  --color-link-on-surface: #111111;
+  --display-weight: 400;
+  --display-tracking: 0em;
+  --display-leading: 1;
+  --display-case: uppercase;
+  --body-leading: 1.5;
+  --body-size: 16px;
+  --icon-stroke: 2.5;
 }
 
-/* Reference rules. They show how the tokens combine; replace them with your own components. */
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
 [data-style="memphis-design"] {
   background: var(--color-bg);
-  color: var(--color-text);
+  color: var(--color-on-bg);
   font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  line-height: var(--body-leading, 1.5);
 }
 [data-style="memphis-design"] :where(h1, h2, h3) {
   font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
 }
 [data-style="memphis-design"] :where(.surface) {
   padding: calc(var(--space-unit) * 3);
   background: var(--color-surface);
+  color: var(--color-on-surface);
   border: var(--border-width) solid var(--color-border);
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-elevation);
@@ -47,15 +72,26 @@
 [data-style="memphis-design"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
   background: var(--color-primary);
-  color: var(--color-on-primary, var(--color-bg));
+  color: var(--color-on-primary);
   border: var(--border-width) solid var(--color-border);
   border-radius: var(--border-radius);
   font: inherit;
   transition: all var(--duration) var(--ease);
 }
 [data-style="memphis-design"] :where(.muted) {
-  color: var(--color-muted);
+  color: var(--color-muted-on-bg);
 }
-[data-style="memphis-design"] :where(a) {
-  color: var(--color-accent);
+[data-style="memphis-design"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="memphis-design"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="memphis-design"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="memphis-design"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
 }

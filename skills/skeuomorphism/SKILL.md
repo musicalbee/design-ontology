@@ -169,7 +169,21 @@ Set `data-style="skeuomorphism"` on the root element and paste the tokens. The f
   --gradient-bar: linear-gradient(to bottom, #E2E5EA 0%, #C9CDD3 50%, #B6BBC3 100%);
   --text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
   --touch-target: 44px;
+  --color-on-bg: #2B2118;
+  --color-on-surface: #D8D4CC;
   --color-on-primary: #000000;
+  --color-on-accent: #2B2118;
+  --color-muted-on-bg: #5F574E;
+  --color-muted-on-surface: #CDC6BC;
+  --color-link: #2B2118;
+  --color-link-on-surface: #D8D4CC;
+  --display-weight: 700;
+  --display-tracking: 0em;
+  --display-leading: 1.1;
+  --display-case: none;
+  --body-leading: 1.55;
+  --body-size: 16px;
+  --icon-stroke: 2;
 }
 ```
 
@@ -182,6 +196,22 @@ Tailwind patterns:
 | panel | `rounded-lg border border-black/50 bg-[#6B4A2F] bg-[url('/textures/leather.png')] p-5 shadow-[0_4px_10px_rgba(0,0,0,0.5),inset_0_1px_0_rgba(255,255,255,0.3)]` |
 | button | `h-11 rounded-lg border border-[#1B4F9E] bg-gradient-to-b from-[#6FA8F5] via-[#2F7BE0] to-[#1F5FC0] px-5 text-sm font-bold text-white shadow-[0_1px_2px_rgba(0,0,0,0.4),inset_0_1px_0_rgba(255,255,255,0.5)] active:from-[#1F5FC0] active:to-[#6FA8F5] [text-shadow:0_-1px_0_rgba(0,0,0,0.5)]` |
 | input | `h-11 rounded-md border border-black/40 bg-white px-3 text-[17px] shadow-[inset_0_1px_3px_rgba(0,0,0,0.35)]` |
+
+## Visual pack
+
+The pictures and icons of this style are files. Use them as they are, or read them as a specification and draw your own in the same language.
+
+| File | Content |
+|---|---|
+| [`pack/hero.svg`](./pack/hero.svg) | Hero plate, 800 by 600. An abstract picture in the visual language of the style. |
+| [`pack/pattern.svg`](./pack/pattern.svg) | Pattern tile, 80 by 80. It repeats in both directions. |
+| [`pack/icons.svg`](./pack/icons.svg) | Icon sprite: home, search, heart, star, bell, user, mail, calendar, image, bolt, play, check, close, sliders. |
+
+- **Icons:** solid, stroke 2 on a 24px field, round caps, round joins, container: rounded. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
+- **Display type:** weight 700, tracking 0em, leading 1.1, case: none.
+- **Body type:** 16px, leading 1.55.
+- **Page:** hero split, left aligned, regular density, accent tilt 0°.
+- **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ## Lineage fallbacks
 

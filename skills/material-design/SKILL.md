@@ -168,7 +168,21 @@ Set `data-style="material-design"` on the root element and paste the tokens. The
   --shadow-1dp: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
   --shadow-24dp: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
   --touch-target: 48px;
-  --color-on-primary: #FFFFFF;
+  --color-on-bg: #212121;
+  --color-on-surface: #212121;
+  --color-on-primary: #FAFAFA;
+  --color-on-accent: #212121;
+  --color-muted-on-bg: #737373;
+  --color-muted-on-surface: #757575;
+  --color-link: #3F51B5;
+  --color-link-on-surface: #3F51B5;
+  --display-weight: 500;
+  --display-tracking: 0em;
+  --display-leading: 1.15;
+  --display-case: none;
+  --body-leading: 1.5;
+  --body-size: 16px;
+  --icon-stroke: 2;
 }
 ```
 
@@ -181,6 +195,22 @@ Tailwind patterns:
 | card | `rounded-sm bg-white p-4 shadow-[0_1px_3px_0_rgba(0,0,0,0.2),0_1px_1px_0_rgba(0,0,0,0.14),0_2px_1px_-1px_rgba(0,0,0,0.12)]` |
 | button | `h-9 min-w-[64px] rounded-sm bg-[#3F51B5] px-4 text-sm font-medium uppercase tracking-[0.09em] text-white shadow-md transition-shadow duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] hover:shadow-lg active:shadow-xl` |
 | fab | `h-14 w-14 rounded-full bg-[#FF4081] text-white shadow-[0_3px_5px_-1px_rgba(0,0,0,0.2),0_6px_10px_0_rgba(0,0,0,0.14),0_1px_18px_0_rgba(0,0,0,0.12)]` |
+
+## Visual pack
+
+The pictures and icons of this style are files. Use them as they are, or read them as a specification and draw your own in the same language.
+
+| File | Content |
+|---|---|
+| [`pack/hero.svg`](./pack/hero.svg) | Hero plate, 800 by 600. An abstract picture in the visual language of the style. |
+| [`pack/pattern.svg`](./pack/pattern.svg) | Pattern tile, 80 by 80. It repeats in both directions. |
+| [`pack/icons.svg`](./pack/icons.svg) | Icon sprite: home, search, heart, star, bell, user, mail, calendar, image, bolt, play, check, close, sliders. |
+
+- **Icons:** solid, stroke 2 on a 24px field, butt caps, round joins, container: none. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
+- **Display type:** weight 500, tracking 0em, leading 1.15, case: none.
+- **Body type:** 16px, leading 1.5.
+- **Page:** hero split, left aligned, regular density, accent tilt 0°.
+- **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ## Lineage fallbacks
 

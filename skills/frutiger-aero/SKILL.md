@@ -168,7 +168,21 @@ Set `data-style="frutiger-aero"` on the root element and paste the tokens. The f
   --gradient-sky: linear-gradient(180deg, #7CC8F2 0%, #BFE8F7 55%, #5DBB3F 100%);
   --gradient-glass-button: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0) 51%), linear-gradient(180deg, #4FD0EA, #2BB7D8);
   --glow-aqua: 0 0 6px rgba(43, 183, 216, 0.8);
-  --color-on-primary: #000000;
+  --color-on-bg: #1F3A4D;
+  --color-on-surface: #1F3A4D;
+  --color-on-primary: #1F3A4D;
+  --color-on-accent: #1F3A4D;
+  --color-muted-on-bg: #28485E;
+  --color-muted-on-surface: #4F6C80;
+  --color-link: #1F3A4D;
+  --color-link-on-surface: #1F3A4D;
+  --display-weight: 700;
+  --display-tracking: -0.01em;
+  --display-leading: 1.1;
+  --display-case: none;
+  --body-leading: 1.6;
+  --body-size: 17px;
+  --icon-stroke: 2;
 }
 ```
 
@@ -182,6 +196,22 @@ Tailwind patterns:
 | button | `rounded-full border border-white/70 bg-gradient-to-b from-[#4FD0EA] to-[#2BB7D8] px-7 py-2.5 text-sm font-bold text-white shadow-[0_4px_10px_rgba(10,60,100,0.3),inset_0_1px_0_rgba(255,255,255,0.8)] transition-all duration-[280ms] ease-[cubic-bezier(0.25,0.1,0.25,1)] hover:brightness-110 hover:shadow-[0_0_6px_#2BB7D8] active:brightness-90 active:translate-y-0.5` |
 | input | `rounded-md border border-white/70 bg-white/80 px-3 py-2 text-sm text-[#1F3A4D] shadow-[inset_0_1px_3px_rgba(10,60,100,0.25)] focus:outline-none focus:ring-2 focus:ring-[#0A7BD5]` |
 | icon tile | `grid h-12 w-12 place-items-center rounded-xl border border-white/80 bg-gradient-to-b from-white to-[#BFE8F7] shadow-[0_4px_8px_rgba(10,60,100,0.25)]` |
+
+## Visual pack
+
+The pictures and icons of this style are files. Use them as they are, or read them as a specification and draw your own in the same language.
+
+| File | Content |
+|---|---|
+| [`pack/hero.svg`](./pack/hero.svg) | Hero plate, 800 by 600. An abstract picture in the visual language of the style. |
+| [`pack/pattern.svg`](./pack/pattern.svg) | Pattern tile, 80 by 80. It repeats in both directions. |
+| [`pack/icons.svg`](./pack/icons.svg) | Icon sprite: home, search, heart, star, bell, user, mail, calendar, image, bolt, play, check, close, sliders. |
+
+- **Icons:** solid, stroke 2 on a 24px field, round caps, round joins, container: circle. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
+- **Display type:** weight 700, tracking -0.01em, leading 1.1, case: none.
+- **Body type:** 17px, leading 1.6.
+- **Page:** hero split, left aligned, airy density, accent tilt 0°.
+- **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ## Lineage fallbacks
 

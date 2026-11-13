@@ -167,7 +167,21 @@ Set `data-style="neo-brutalism-ui"` on the root element and paste the tokens. Th
   --duration: 120ms;
   --shadow-large: 8px 8px 0 0 #000000;
   --accent-blue: #4D7CFF;
+  --color-on-bg: #000000;
+  --color-on-surface: #000000;
   --color-on-primary: #000000;
+  --color-on-accent: #000000;
+  --color-muted-on-bg: #3A3A3A;
+  --color-muted-on-surface: #3A3A3A;
+  --color-link: #000000;
+  --color-link-on-surface: #000000;
+  --display-weight: 700;
+  --display-tracking: -0.03em;
+  --display-leading: 0.95;
+  --display-case: none;
+  --body-leading: 1.5;
+  --body-size: 17px;
+  --icon-stroke: 2.5;
 }
 ```
 
@@ -181,6 +195,22 @@ Tailwind patterns:
 | input | `rounded border-[3px] border-black bg-white px-4 py-3 text-black shadow-[4px_4px_0_0_#000000] outline-none focus:outline-[3px] focus:outline-offset-2 focus:outline-[#4D7CFF]` |
 | heading | `font-extrabold text-5xl md:text-7xl leading-none tracking-[-0.03em] text-black` |
 | tag | `inline-block rounded-full border-2 border-black bg-[#6EE7B7] px-3 py-1 text-xs font-bold uppercase shadow-[2px_2px_0_0_#000000]` |
+
+## Visual pack
+
+The pictures and icons of this style are files. Use them as they are, or read them as a specification and draw your own in the same language.
+
+| File | Content |
+|---|---|
+| [`pack/hero.svg`](./pack/hero.svg) | Hero plate, 800 by 600. An abstract picture in the visual language of the style. |
+| [`pack/pattern.svg`](./pack/pattern.svg) | Pattern tile, 80 by 80. It repeats in both directions. |
+| [`pack/icons.svg`](./pack/icons.svg) | Icon sprite: home, search, heart, star, bell, user, mail, calendar, image, bolt, play, check, close, sliders. |
+
+- **Icons:** outline, stroke 2.5 on a 24px field, square caps, miter joins, container: square. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
+- **Display type:** weight 700, tracking -0.03em, leading 0.95, case: none.
+- **Body type:** 17px, leading 1.5.
+- **Page:** hero split, left aligned, compact density, accent tilt -1°.
+- **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ## Lineage fallbacks
 

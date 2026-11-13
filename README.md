@@ -69,9 +69,15 @@ Then say: *"Build a pricing page in neo-brutalism."*
 | **Lineage** | Where it came from, what it rejects, what it mixes with |
 | **Emotion** | Target response, keywords, brand archetypes |
 | **Agent routing** | Trigger words, use cases, when not to use it, and where to go for "softer" or "bolder" |
+| **Visual** | Type treatment, icon treatment, a hero picture recipe, a pattern and a page layout |
 | **Tokens** | 16 required CSS custom properties and Tailwind patterns for common elements |
 
-Every style fills the same 16 tokens. So a style is a drop-in replacement for another style: change `data-style="flat-design"` to `data-style="glassmorphism"` and the page changes its skin. The [live demo](https://musicalbee.github.io/design-ontology/demo/) is that one trick, 17 times.
+Every style fills the same 16 tokens. So a style is a drop-in replacement for another style: change `data-style="flat-design"` to `data-style="glassmorphism"` and the page changes its skin. The [live demo](https://musicalbee.github.io/design-ontology/demo/) is that one trick, 17 times: one landing page, "Grow your taste", that wears each style in turn.
+
+The compiler adds two things to each style:
+
+- **A text colour for each field.** An author writes `--color-text` for the main field only. The compiler derives `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`, two muted colours and two link colours. Each one reaches 4.5 to 1 on its field, or the compiler replaces it.
+- **A visual pack.** `skills/<id>/pack/hero.svg` is a hero picture in the style. `pattern.svg` is a tile that repeats. `icons.svg` is a sprite of 14 icons in the stroke, the cap and the fill of the style.
 
 ## The lineage graph
 
@@ -192,14 +198,15 @@ Next domains under discussion: interior, type design, motion, sound.
 
 ## Add a style
 
-A contribution is one JSON file. CI does the rest.
+A contribution is one JSON file. The build does the rest.
 
 1. Copy [`data/design/styles/swiss-international.json`](data/design/styles/swiss-international.json) to `data/design/styles/<your-id>.json`.
 2. Fill each field. Give numbers: px, em, ratios, hex. "Clean and modern" is not a rule.
 3. Write anti-patterns as the thing to avoid ("Rounded corners on containers"). The compiler adds `NEVER`.
 4. Connect the style to the graph with at least one lineage edge.
 5. Run `npm run build`. It validates, builds the graph and compiles the skills.
-6. Commit the data file and the generated files, then open a pull request.
+6. Commit the data file. A pre-commit hook builds again and adds the generated files to the commit.
+7. Open a pull request.
 
 The validator checks more than the schema. It refuses a lineage edge that points at nothing, a style that descends from a later style, an id that exists in two domains and a font pairing field that is empty. The full rules are in [CONTRIBUTING.md](CONTRIBUTING.md). An agent that contributes reads [AGENTS.md](AGENTS.md).
 
@@ -212,12 +219,12 @@ data/<domain>/styles/*.json     the source of truth, one file for each style
         │
         ├─ npm run validate      JSON Schema 2020-12 + lineage and chronology checks
         ├─ npm run build:graph   graph/lineage.json + the diagram in this README
-        └─ npm run build:skills  skills/<id>/SKILL.md + tokens.css + SKILL_INDEX.md + index.json
+        └─ npm run build:skills  skills/<id>/SKILL.md + tokens.css + pack/*.svg + SKILL_INDEX.md + index.json
 ```
 
-- **Deterministic.** The same data gives the same bytes. CI runs the build and fails if a generated file differs from the commit.
+- **Deterministic.** The same data gives the same bytes. A husky pre-commit hook builds the generated files, so each commit is prebuilt. CI only checks that a generated file does not differ from the commit.
 - **Generated files are in the repository** on purpose, so that a raw URL is all an agent needs.
-- **No runtime.** The output is Markdown, CSS and JSON. The scripts are about 700 lines of TypeScript with two dependencies, `ajv` and `handlebars`.
+- **No runtime.** The output is Markdown, CSS and JSON. The scripts are about 1,300 lines of TypeScript with two dependencies, `ajv` and `handlebars`.
 
 ## Principles
 

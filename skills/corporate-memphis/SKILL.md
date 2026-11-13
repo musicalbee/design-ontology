@@ -168,7 +168,21 @@ Set `data-style="corporate-memphis"` on the root element and paste the tokens. T
   --radius-pill: 999px;
   --grid-columns: 12;
   --grid-gutter: 24px;
+  --color-on-bg: #1F2A5C;
+  --color-on-surface: #1F2A5C;
   --color-on-primary: #000000;
+  --color-on-accent: #1F2A5C;
+  --color-muted-on-bg: #5B6490;
+  --color-muted-on-surface: #5B6490;
+  --color-link: #1F2A5C;
+  --color-link-on-surface: #1F2A5C;
+  --display-weight: 700;
+  --display-tracking: -0.02em;
+  --display-leading: 1.1;
+  --display-case: none;
+  --body-leading: 1.6;
+  --body-size: 17px;
+  --icon-stroke: 2;
 }
 ```
 
@@ -181,6 +195,22 @@ Tailwind patterns:
 | card | `rounded-2xl border border-[#E5E7F0] bg-white p-8 shadow-[0_8px_24px_rgba(31,42,92,0.08)]` |
 | button | `rounded-full bg-[#7C5CFC] px-8 py-3 text-base font-semibold text-white transition-all duration-[400ms] ease-[cubic-bezier(0.34,1.56,0.64,1)] hover:-translate-y-0.5 hover:bg-[#6844F0] active:translate-y-0` |
 | hero-blob | `absolute -z-10 h-[480px] w-[480px] rounded-[48%_52%_61%_39%/45%_38%_62%_55%] bg-[#FFE3E3]` |
+
+## Visual pack
+
+The pictures and icons of this style are files. Use them as they are, or read them as a specification and draw your own in the same language.
+
+| File | Content |
+|---|---|
+| [`pack/hero.svg`](./pack/hero.svg) | Hero plate, 800 by 600. An abstract picture in the visual language of the style. |
+| [`pack/pattern.svg`](./pack/pattern.svg) | Pattern tile, 80 by 80. It repeats in both directions. |
+| [`pack/icons.svg`](./pack/icons.svg) | Icon sprite: home, search, heart, star, bell, user, mail, calendar, image, bolt, play, check, close, sliders. |
+
+- **Icons:** duotone, stroke 2 on a 24px field, round caps, round joins, container: none. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
+- **Display type:** weight 700, tracking -0.02em, leading 1.1, case: none.
+- **Body type:** 17px, leading 1.6.
+- **Page:** hero split, left aligned, airy density, accent tilt 0°.
+- **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ## Lineage fallbacks
 

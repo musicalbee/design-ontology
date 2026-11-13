@@ -86,6 +86,24 @@ Tailwind patterns:
 {{/each}}
 
 {{/if}}
+{{#if pack}}
+## Visual pack
+
+The pictures and icons of this style are files. Use them as they are, or read them as a specification and draw your own in the same language.
+
+| File | Content |
+|---|---|
+{{#each pack.files}}
+| [`pack/{{file}}`](./pack/{{file}}) | {{what}} |
+{{/each}}
+
+- **Icons:** {{pack.icon.mode}}, stroke {{pack.icon.stroke_width}} on a 24px field, {{pack.icon.linecap}} caps, {{pack.icon.linejoin}} joins, container: {{pack.icon.container}}. Use: `<svg class="icon"><use href="pack/icons.svg#{{pack.first_icon}}"/></svg>`. An icon takes `currentColor`.
+- **Display type:** weight {{pack.type.display_weight}}, tracking {{pack.type.display_tracking}}, leading {{pack.type.display_leading}}, case: {{pack.type.display_case}}.
+- **Body type:** {{pack.type.body_size}}, leading {{pack.type.body_leading}}.
+- **Page:** hero {{pack.layout.hero}}, {{pack.layout.align}} aligned, {{pack.layout.density}} density, accent tilt {{pack.layout.tilt_deg}}°.
+- **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
+
+{{/if}}
 {{#if primer}}
 ## Vocabulary primer
 

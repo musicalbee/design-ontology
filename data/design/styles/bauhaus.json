@@ -3,10 +3,21 @@
   "id": "bauhaus",
   "domain": "design",
   "name": "Bauhaus",
-  "aliases": ["Bauhaus Typography", "New Typography", "Neue Typographie"],
+  "aliases": [
+    "Bauhaus Typography",
+    "New Typography",
+    "Neue Typographie"
+  ],
   "era_id": "modernist",
-  "time_period": { "start": 1919, "end": 1933, "label": "1919–1933" },
-  "primary_mediums": ["print", "web"],
+  "time_period": {
+    "start": 1919,
+    "end": 1933,
+    "label": "1919–1933"
+  },
+  "primary_mediums": [
+    "print",
+    "web"
+  ],
   "summary": "Primary-colour geometry, sans-serif lower-case type and strict horizontal and vertical axes with bold diagonals. It came from the Bauhaus school in Weimar, Dessau and Berlin, and it fused craft with industrial production.",
   "philosophy": {
     "core_thesis": "Form follows function, and a small kit of circle, square and triangle in three primary colours is enough to make any object for mass production.",
@@ -43,11 +54,27 @@
     "container_geometry": "Sharp rectangles, perfect circles and right triangles with a 0px radius on rectangles; bars have a 2:1 to 8:1 aspect ratio."
   },
   "typography": {
-    "classifications": ["geometric sans serif", "stencil display", "slab sans serif"],
+    "classifications": [
+      "geometric sans serif",
+      "stencil display",
+      "slab sans serif"
+    ],
     "font_pairings": [
-      { "display": "Josefin Sans", "body": "Jost", "note": "Geometric forms in the manner of Futura and Bayer's Universal." },
-      { "display": "Jost", "body": "Jost", "note": "A single-family setting based on Futura proportions." },
-      { "display": "Bungee", "body": "Work Sans", "note": "A heavy signage face for poster-scale headlines only." }
+      {
+        "display": "Josefin Sans",
+        "body": "Jost",
+        "note": "Geometric forms in the manner of Futura and Bayer's Universal."
+      },
+      {
+        "display": "Jost",
+        "body": "Jost",
+        "note": "A single-family setting based on Futura proportions."
+      },
+      {
+        "display": "Bungee",
+        "body": "Work Sans",
+        "note": "A heavy signage face for poster-scale headlines only."
+      }
     ],
     "tracking": "Display sizes take 0 to +0.02em; body stays at 0; small upper-case labels take +0.1em.",
     "leading": "Display 1.0; body 1.5; line-heights are multiples of the 8px baseline.",
@@ -61,11 +88,31 @@
   "color": {
     "palette_structure": "Three primaries plus black and off-white; one primary leads at 15–25% of the surface and the others appear in small blocks.",
     "palette": [
-      { "name": "Paper", "hex": "#F2EBDD", "role": "background" },
-      { "name": "Bauhaus Black", "hex": "#1A1A1A", "role": "text and bars" },
-      { "name": "Bauhaus Red", "hex": "#D62A1F", "role": "primary accent" },
-      { "name": "Bauhaus Blue", "hex": "#1D4E9E", "role": "secondary accent" },
-      { "name": "Bauhaus Yellow", "hex": "#F2B705", "role": "tertiary accent" }
+      {
+        "name": "Paper",
+        "hex": "#F2EBDD",
+        "role": "background"
+      },
+      {
+        "name": "Bauhaus Black",
+        "hex": "#1A1A1A",
+        "role": "text and bars"
+      },
+      {
+        "name": "Bauhaus Red",
+        "hex": "#D62A1F",
+        "role": "primary accent"
+      },
+      {
+        "name": "Bauhaus Blue",
+        "hex": "#1D4E9E",
+        "role": "secondary accent"
+      },
+      {
+        "name": "Bauhaus Yellow",
+        "hex": "#F2B705",
+        "role": "tertiary accent"
+      }
     ],
     "contrast_rules": "Body text holds at least 10:1 against paper; yellow carries only black type, at a ratio of 11:1 or more, and never white type.",
     "surface_treatment": "Flat matte fields of solid colour with a faint paper tone; no gradient and no transparency.",
@@ -79,7 +126,13 @@
   "ornamentation_details": {
     "iconography": "Solid geometric pictograms built from circle, square and triangle, with square terminals and no outline stroke.",
     "illustration": "Photomontage, abstract compositions of primary shapes and high-contrast photography cropped to rectangles.",
-    "decorative_elements": ["thick structural bars", "overlapping circles and squares", "45-degree diagonals", "oversized lower-case letters", "stencil lettering"]
+    "decorative_elements": [
+      "thick structural bars",
+      "overlapping circles and squares",
+      "45-degree diagonals",
+      "oversized lower-case letters",
+      "stencil lettering"
+    ]
   },
   "motion": {
     "native": false,
@@ -91,31 +144,100 @@
   "lineage": {
     "evolved_from": [],
     "rebelled_against": [],
-    "hybridized_with": ["swiss-international"],
+    "hybridized_with": [
+      "swiss-international"
+    ],
     "echoes": []
   },
   "emotion": {
     "target_response": "Energy with discipline: the viewer feels that the object is deliberate, rational and built for use.",
-    "keywords": ["geometric", "functional", "constructive", "primary", "industrial", "pioneering"],
-    "brand_archetypes": ["creator", "explorer"]
+    "keywords": [
+      "geometric",
+      "functional",
+      "constructive",
+      "primary",
+      "industrial",
+      "pioneering"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "explorer"
+    ]
   },
   "agent": {
     "triggers": [
-      "bauhaus", "primary colours", "geometric shapes", "form follows function", "dessau", "herbert bayer",
-      "constructivist poster", "red blue yellow", "futura-style"
+      "bauhaus",
+      "primary colours",
+      "geometric shapes",
+      "form follows function",
+      "dessau",
+      "herbert bayer",
+      "constructivist poster",
+      "red blue yellow",
+      "futura-style"
     ],
-    "use_cases": ["posters", "design school sites", "museum and exhibition pages", "architecture studios", "furniture brands"],
+    "use_cases": [
+      "posters",
+      "design school sites",
+      "museum and exhibition pages",
+      "architecture studios",
+      "furniture brands"
+    ],
     "avoid_when": [
       "The brand must feel luxurious, soft or ornate.",
       "The product needs long-form reading in dense body text on a coloured field.",
       "The audience expects photorealistic product rendering."
     ],
     "modifiers": [
-      { "request": "more neutral", "toward": "swiss-international", "how": "Drop yellow and blue, keep one red accent under 10% of the surface, and set all text flush left in one neo-grotesque; keep the grid." },
-      { "request": "warmer", "toward": "mid-century-modern", "how": "Swap the primaries for mustard, teal and orange, add organic shapes with a 50% radius; keep the asymmetric axes." },
-      { "request": "bolder", "toward": "neo-brutalism-ui", "how": "Raise the bars to 4px black borders and add a hard 6px offset shadow; keep the flat primaries and the 0px radius." },
-      { "request": "more app-like", "toward": "flat-design", "how": "Turn the bars into 1px dividers, use 4px radius buttons filled with one primary; keep the geometric type and the flat fields." }
+      {
+        "request": "more neutral",
+        "toward": "swiss-international",
+        "how": "Drop yellow and blue, keep one red accent under 10% of the surface, and set all text flush left in one neo-grotesque; keep the grid."
+      },
+      {
+        "request": "warmer",
+        "toward": "mid-century-modern",
+        "how": "Swap the primaries for mustard, teal and orange, add organic shapes with a 50% radius; keep the asymmetric axes."
+      },
+      {
+        "request": "bolder",
+        "toward": "neo-brutalism-ui",
+        "how": "Raise the bars to 4px black borders and add a hard 6px offset shadow; keep the flat primaries and the 0px radius."
+      },
+      {
+        "request": "more app-like",
+        "toward": "flat-design",
+        "how": "Turn the bars into 1px dividers, use 4px radius buttons filled with one primary; keep the geometric type and the flat fields."
+      }
     ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "display_tracking": "0.02em",
+      "display_leading": 1.0,
+      "display_case": "lowercase",
+      "body_leading": 1.5,
+      "body_size": "17px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "butt",
+      "linejoin": "miter",
+      "container": "circle"
+    },
+    "art": {
+      "recipe": "bauhaus",
+      "pattern": "diagonal",
+      "seed": 1
+    },
+    "layout": {
+      "hero": "split",
+      "align": "left",
+      "density": "regular",
+      "tilt_deg": 0
+    }
   },
   "tokens": {
     "css": {
@@ -141,16 +263,38 @@
       "--leading-body": "1.5"
     },
     "tailwind": [
-      { "element": "page", "classes": "bg-[#F2EBDD] text-[#1A1A1A] font-sans antialiased grid grid-cols-8 gap-x-4 px-4 md:px-12" },
-      { "element": "heading", "classes": "col-span-8 md:col-span-6 text-6xl md:text-8xl font-bold lowercase leading-none tracking-normal" },
-      { "element": "bar", "classes": "col-span-8 h-4 bg-[#D62A1F] mt-8" },
-      { "element": "card", "classes": "rounded-none border-4 border-[#1A1A1A] bg-white p-6" },
-      { "element": "button", "classes": "rounded-none border-4 border-[#1A1A1A] bg-[#F2B705] px-6 py-3 text-sm font-bold uppercase tracking-[0.1em] text-[#1A1A1A] transition-colors duration-200 hover:bg-[#D62A1F] hover:text-white" },
-      { "element": "label", "classes": "text-xs font-bold uppercase tracking-[0.1em] text-[#1D4E9E]" }
+      {
+        "element": "page",
+        "classes": "bg-[#F2EBDD] text-[#1A1A1A] font-sans antialiased grid grid-cols-8 gap-x-4 px-4 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "col-span-8 md:col-span-6 text-6xl md:text-8xl font-bold lowercase leading-none tracking-normal"
+      },
+      {
+        "element": "bar",
+        "classes": "col-span-8 h-4 bg-[#D62A1F] mt-8"
+      },
+      {
+        "element": "card",
+        "classes": "rounded-none border-4 border-[#1A1A1A] bg-white p-6"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border-4 border-[#1A1A1A] bg-[#F2B705] px-6 py-3 text-sm font-bold uppercase tracking-[0.1em] text-[#1A1A1A] transition-colors duration-200 hover:bg-[#D62A1F] hover:text-white"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-bold uppercase tracking-[0.1em] text-[#1D4E9E]"
+      }
     ]
   },
   "sources": [
-    { "title": "Magdalena Droste, Bauhaus 1919–1933 (Taschen, 2019)" },
-    { "title": "Jan Tschichold, Die neue Typographie (Brinkmann & Bose, 1928)" }
+    {
+      "title": "Magdalena Droste, Bauhaus 1919–1933 (Taschen, 2019)"
+    },
+    {
+      "title": "Jan Tschichold, Die neue Typographie (Brinkmann & Bose, 1928)"
+    }
   ]
 }

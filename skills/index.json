@@ -11,6 +11,35 @@
       "summary": "Primary-colour geometry, sans-serif lower-case type and strict horizontal and vertical axes with bold diagonals. It came from the Bauhaus school in Weimar, Dessau and Berlin, and it fused craft with industrial production.",
       "path": "skills/bauhaus/SKILL.md",
       "tokens": "skills/bauhaus/tokens.css",
+      "pack": "skills/bauhaus/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 700,
+          "display_tracking": "0.02em",
+          "display_leading": 1,
+          "display_case": "lowercase",
+          "body_leading": 1.5,
+          "body_size": "17px"
+        },
+        "icon": {
+          "mode": "solid",
+          "stroke_width": 2,
+          "linecap": "butt",
+          "linejoin": "miter",
+          "container": "circle"
+        },
+        "art": {
+          "recipe": "bauhaus",
+          "pattern": "diagonal",
+          "seed": 1
+        },
+        "layout": {
+          "hero": "split",
+          "align": "left",
+          "density": "regular",
+          "tilt_deg": 0
+        }
+      },
       "triggers": [
         "bauhaus",
         "primary colours",
@@ -59,6 +88,35 @@
       "summary": "Organic and geometric shapes in mustard, teal, orange and walnut, with slab and geometric type and wide margins. It grew from Bauhaus in postwar America and Scandinavia, and it added warmth and play to modernist order.",
       "path": "skills/mid-century-modern/SKILL.md",
       "tokens": "skills/mid-century-modern/tokens.css",
+      "pack": "skills/mid-century-modern/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 600,
+          "display_tracking": "0.01em",
+          "display_leading": 1.05,
+          "display_case": "none",
+          "body_leading": 1.6,
+          "body_size": "17px"
+        },
+        "icon": {
+          "mode": "solid",
+          "stroke_width": 2,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "none"
+        },
+        "art": {
+          "recipe": "midcentury",
+          "pattern": "starburst",
+          "seed": 3
+        },
+        "layout": {
+          "hero": "split",
+          "align": "left",
+          "density": "regular",
+          "tilt_deg": 0
+        }
+      },
       "triggers": [
         "mid-century",
         "mid century modern",
@@ -109,6 +167,35 @@
       "summary": "Asymmetric layouts on a mathematical grid, one neo-grotesque sans serif, flush-left text and objective photography. It came out of Zurich and Basel in the 1950s and became the default language of corporate modernism.",
       "path": "skills/swiss-international/SKILL.md",
       "tokens": "skills/swiss-international/tokens.css",
+      "pack": "skills/swiss-international/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 700,
+          "display_tracking": "-0.03em",
+          "display_leading": 0.95,
+          "display_case": "none",
+          "body_leading": 1.45,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 1.5,
+          "linecap": "butt",
+          "linejoin": "miter",
+          "container": "none"
+        },
+        "art": {
+          "recipe": "swiss",
+          "pattern": "grid",
+          "seed": 2
+        },
+        "layout": {
+          "hero": "split",
+          "align": "left",
+          "density": "airy",
+          "tilt_deg": 0
+        }
+      },
       "triggers": [
         "swiss",
         "swiss style",
@@ -160,6 +247,35 @@
       "summary": "Vibrating complementary colours, melting hand-drawn lettering and symmetrical swirls that fill the whole sheet. It came from San Francisco concert posters of 1966 to 1968, and it set out to reject the order of Swiss modernism.",
       "path": "skills/psychedelic/SKILL.md",
       "tokens": "skills/psychedelic/tokens.css",
+      "pack": "skills/psychedelic/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 400,
+          "display_tracking": "-0.02em",
+          "display_leading": 0.95,
+          "display_case": "none",
+          "body_leading": 1.5,
+          "body_size": "18px"
+        },
+        "icon": {
+          "mode": "solid",
+          "stroke_width": 3,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "none"
+        },
+        "art": {
+          "recipe": "psychedelic",
+          "pattern": "waves",
+          "seed": 4
+        },
+        "layout": {
+          "hero": "poster",
+          "align": "center",
+          "density": "compact",
+          "tilt_deg": -2
+        }
+      },
       "triggers": [
         "psychedelic",
         "60s poster",
@@ -210,6 +326,35 @@
       "summary": "Clashing primary and pastel fields, squiggles, confetti dots and black-and-white pattern on irregular geometric forms. Ettore Sottsass and the Memphis group launched it in Milan in 1981 as a joke against good taste.",
       "path": "skills/memphis-design/SKILL.md",
       "tokens": "skills/memphis-design/tokens.css",
+      "pack": "skills/memphis-design/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 400,
+          "display_tracking": "0em",
+          "display_leading": 1,
+          "display_case": "uppercase",
+          "body_leading": 1.5,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "duotone",
+          "stroke_width": 2.5,
+          "linecap": "square",
+          "linejoin": "miter",
+          "container": "square"
+        },
+        "art": {
+          "recipe": "memphis",
+          "pattern": "squiggle",
+          "seed": 5
+        },
+        "layout": {
+          "hero": "stacked",
+          "align": "left",
+          "density": "compact",
+          "tilt_deg": -1.5
+        }
+      },
       "triggers": [
         "memphis",
         "memphis design",
@@ -260,6 +405,35 @@
       "summary": "Layered, distressed type, overprinted photographs and broken columns, set by hand in early Macintosh software. David Carson at Ray Gun and the Emigre studio made it the look of 1990s alternative music and youth magazines.",
       "path": "skills/grunge-editorial/SKILL.md",
       "tokens": "skills/grunge-editorial/tokens.css",
+      "pack": "skills/grunge-editorial/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 400,
+          "display_tracking": "-0.02em",
+          "display_leading": 0.9,
+          "display_case": "uppercase",
+          "body_leading": 1.5,
+          "body_size": "15px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 2,
+          "linecap": "butt",
+          "linejoin": "miter",
+          "container": "none"
+        },
+        "art": {
+          "recipe": "grunge",
+          "pattern": "noise",
+          "seed": 6
+        },
+        "layout": {
+          "hero": "poster",
+          "align": "left",
+          "density": "compact",
+          "tilt_deg": 1.2
+        }
+      },
       "triggers": [
         "grunge",
         "david carson",
@@ -311,6 +485,35 @@
       "summary": "Chrome and translucent plastic, bubble shapes, silver and electric blue, and small pixel and tech type on cold gradients. It came from the dot-com boom and the first iMac in 1998, and it pictured the year 2000 as a clean, shiny future.",
       "path": "skills/y2k-aesthetic/SKILL.md",
       "tokens": "skills/y2k-aesthetic/tokens.css",
+      "pack": "skills/y2k-aesthetic/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 800,
+          "display_tracking": "0.04em",
+          "display_leading": 1.05,
+          "display_case": "uppercase",
+          "body_leading": 1.55,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "duotone",
+          "stroke_width": 1.5,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "circle"
+        },
+        "art": {
+          "recipe": "y2k",
+          "pattern": "grid",
+          "seed": 7
+        },
+        "layout": {
+          "hero": "stacked",
+          "align": "center",
+          "density": "regular",
+          "tilt_deg": 0
+        }
+      },
       "triggers": [
         "y2k",
         "2000s",
@@ -362,6 +565,35 @@
       "summary": "Glossy glass buttons, aqua and grass-green gradients, water, sky and bubble imagery and humanist sans type. It grew from Y2K gloss into the Windows Vista, Mac OS X Aqua and Web 2.0 look of the late 2000s.",
       "path": "skills/frutiger-aero/SKILL.md",
       "tokens": "skills/frutiger-aero/tokens.css",
+      "pack": "skills/frutiger-aero/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 700,
+          "display_tracking": "-0.01em",
+          "display_leading": 1.1,
+          "display_case": "none",
+          "body_leading": 1.6,
+          "body_size": "17px"
+        },
+        "icon": {
+          "mode": "solid",
+          "stroke_width": 2,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "circle"
+        },
+        "art": {
+          "recipe": "aero",
+          "pattern": "dots",
+          "seed": 8
+        },
+        "layout": {
+          "hero": "split",
+          "align": "left",
+          "density": "airy",
+          "tilt_deg": 0
+        }
+      },
       "triggers": [
         "frutiger aero",
         "aero",
@@ -412,6 +644,35 @@
       "summary": "Interfaces that copy real objects: leather, linen, wood, felt, glass and brushed metal, lit from above with gradients and layered shadows. It has roots in 1980s desktop icons and peaked in iOS 1 to 6, until iOS 7 replaced it in 2013.",
       "path": "skills/skeuomorphism/SKILL.md",
       "tokens": "skills/skeuomorphism/tokens.css",
+      "pack": "skills/skeuomorphism/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 700,
+          "display_tracking": "0em",
+          "display_leading": 1.1,
+          "display_case": "none",
+          "body_leading": 1.55,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "solid",
+          "stroke_width": 2,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "rounded"
+        },
+        "art": {
+          "recipe": "skeuo",
+          "pattern": "noise",
+          "seed": 9
+        },
+        "layout": {
+          "hero": "split",
+          "align": "left",
+          "density": "regular",
+          "tilt_deg": 0
+        }
+      },
       "triggers": [
         "skeuomorphic",
         "skeuomorphism",
@@ -464,6 +725,35 @@
       "summary": "Interfaces of solid colour fields, simple geometric shapes, bold sans-serif type and no gradients or shadows. It followed Microsoft Metro in 2010 and Windows 8 in 2012, and became the default after iOS 7 in 2013.",
       "path": "skills/flat-design/SKILL.md",
       "tokens": "skills/flat-design/tokens.css",
+      "pack": "skills/flat-design/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 700,
+          "display_tracking": "0.01em",
+          "display_leading": 1.1,
+          "display_case": "none",
+          "body_leading": 1.6,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "solid",
+          "stroke_width": 2,
+          "linecap": "butt",
+          "linejoin": "miter",
+          "container": "circle"
+        },
+        "art": {
+          "recipe": "flat",
+          "pattern": "diagonal",
+          "seed": 10
+        },
+        "layout": {
+          "hero": "stacked",
+          "align": "center",
+          "density": "airy",
+          "tilt_deg": 0
+        }
+      },
       "triggers": [
         "flat design",
         "flat ui",
@@ -515,6 +805,35 @@
       "summary": "A system of flat coloured surfaces that sit at defined elevations and cast shadows from a top-left key light, with bold colour, an 8dp grid and purposeful motion. Google announced it at I/O in June 2014.",
       "path": "skills/material-design/SKILL.md",
       "tokens": "skills/material-design/tokens.css",
+      "pack": "skills/material-design/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 500,
+          "display_tracking": "0em",
+          "display_leading": 1.15,
+          "display_case": "none",
+          "body_leading": 1.5,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "solid",
+          "stroke_width": 2,
+          "linecap": "butt",
+          "linejoin": "round",
+          "container": "none"
+        },
+        "art": {
+          "recipe": "material",
+          "pattern": "dots",
+          "seed": 11
+        },
+        "layout": {
+          "hero": "split",
+          "align": "left",
+          "density": "regular",
+          "tilt_deg": 0
+        }
+      },
       "triggers": [
         "material design",
         "material ui",
@@ -566,6 +885,35 @@
       "summary": "Flat vector illustrations of people with oversized limbs and tiny heads, drawn in a bright palette of 4 to 6 hues with no outlines. Facebook's Alegria system set it in 2017, and many software firms copied it.",
       "path": "skills/corporate-memphis/SKILL.md",
       "tokens": "skills/corporate-memphis/tokens.css",
+      "pack": "skills/corporate-memphis/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 700,
+          "display_tracking": "-0.02em",
+          "display_leading": 1.1,
+          "display_case": "none",
+          "body_leading": 1.6,
+          "body_size": "17px"
+        },
+        "icon": {
+          "mode": "duotone",
+          "stroke_width": 2,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "none"
+        },
+        "art": {
+          "recipe": "corporate",
+          "pattern": "dots",
+          "seed": 12
+        },
+        "layout": {
+          "hero": "split",
+          "align": "left",
+          "density": "airy",
+          "tilt_deg": 0
+        }
+      },
       "triggers": [
         "corporate memphis",
         "alegria",
@@ -615,6 +963,35 @@
       "summary": "Monochrome surfaces that look extruded from or pressed into the background, made with a light shadow and a dark shadow on opposite corners. It appeared on Dribbble in late 2019 as a soft answer to flat design.",
       "path": "skills/neumorphism/SKILL.md",
       "tokens": "skills/neumorphism/tokens.css",
+      "pack": "skills/neumorphism/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 600,
+          "display_tracking": "-0.01em",
+          "display_leading": 1.15,
+          "display_case": "none",
+          "body_leading": 1.6,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 1.75,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "circle"
+        },
+        "art": {
+          "recipe": "neumorph",
+          "pattern": "none",
+          "seed": 13
+        },
+        "layout": {
+          "hero": "stacked",
+          "align": "center",
+          "density": "airy",
+          "tilt_deg": 0
+        }
+      },
       "triggers": [
         "neumorphism",
         "neumorphic",
@@ -663,6 +1040,35 @@
       "summary": "Translucent panels that blur the colourful shapes behind them, edged with a thin light border. It spread after macOS Big Sur in 2020 and revives the glass of Frutiger Aero with real backdrop blur.",
       "path": "skills/glassmorphism/SKILL.md",
       "tokens": "skills/glassmorphism/tokens.css",
+      "pack": "skills/glassmorphism/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 700,
+          "display_tracking": "-0.02em",
+          "display_leading": 1.05,
+          "display_case": "none",
+          "body_leading": 1.55,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 1.5,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "rounded"
+        },
+        "art": {
+          "recipe": "glass",
+          "pattern": "none",
+          "seed": 14
+        },
+        "layout": {
+          "hero": "stacked",
+          "align": "center",
+          "density": "regular",
+          "tilt_deg": 0
+        }
+      },
       "triggers": [
         "glassmorphism",
         "frosted glass",
@@ -711,6 +1117,35 @@
       "summary": "Flat, loud colour fields with thick black borders and hard, unblurred offset shadows. It grew from product sites such as Gumroad and from Figma community kits as a deliberate reply to corporate softness.",
       "path": "skills/neo-brutalism-ui/SKILL.md",
       "tokens": "skills/neo-brutalism-ui/tokens.css",
+      "pack": "skills/neo-brutalism-ui/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 700,
+          "display_tracking": "-0.03em",
+          "display_leading": 0.95,
+          "display_case": "none",
+          "body_leading": 1.5,
+          "body_size": "17px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 2.5,
+          "linecap": "square",
+          "linejoin": "miter",
+          "container": "square"
+        },
+        "art": {
+          "recipe": "neobrutal",
+          "pattern": "checks",
+          "seed": 15
+        },
+        "layout": {
+          "hero": "split",
+          "align": "left",
+          "density": "compact",
+          "tilt_deg": -1
+        }
+      },
       "triggers": [
         "neo-brutalism",
         "neubrutalism",
@@ -761,6 +1196,35 @@
       "summary": "A rectangular grid of rounded cells of mixed spans, each holding one idea, with equal small gaps between them. Apple feature pages made it the default product layout from 2022.",
       "path": "skills/bento-grid-ui/SKILL.md",
       "tokens": "skills/bento-grid-ui/tokens.css",
+      "pack": "skills/bento-grid-ui/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 600,
+          "display_tracking": "-0.03em",
+          "display_leading": 1.05,
+          "display_case": "none",
+          "body_leading": 1.5,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 1.75,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "rounded"
+        },
+        "art": {
+          "recipe": "bento",
+          "pattern": "grid",
+          "seed": 16
+        },
+        "layout": {
+          "hero": "stacked",
+          "align": "left",
+          "density": "compact",
+          "tilt_deg": 0
+        }
+      },
       "triggers": [
         "bento",
         "bento grid",
@@ -809,6 +1273,35 @@
       "summary": "Translucent glass windows that float in the user's room at a set distance, lit by the surrounding scene and controlled by eye gaze and hand pinch. Apple introduced it with Vision Pro in 2023.",
       "path": "skills/spatial-visionos/SKILL.md",
       "tokens": "skills/spatial-visionos/tokens.css",
+      "pack": "skills/spatial-visionos/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 600,
+          "display_tracking": "-0.02em",
+          "display_leading": 1.1,
+          "display_case": "none",
+          "body_leading": 1.5,
+          "body_size": "17px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 1.5,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "circle"
+        },
+        "art": {
+          "recipe": "spatial",
+          "pattern": "none",
+          "seed": 17
+        },
+        "layout": {
+          "hero": "stacked",
+          "align": "center",
+          "density": "airy",
+          "tilt_deg": 0
+        }
+      },
       "triggers": [
         "visionos",
         "vision pro",
@@ -857,6 +1350,8 @@
       "summary": "Light rectilinear volumes of steel, glass and white render, with flat roofs, ribbon windows and free plans. The Bauhaus, Le Corbusier and Mies van der Rohe defined it in the 1920s, and it became the global language of the office tower.",
       "path": "skills/international-style-architecture/SKILL.md",
       "tokens": null,
+      "pack": null,
+      "visual": null,
       "triggers": [
         "international style",
         "modernist architecture",
@@ -903,6 +1398,8 @@
       "summary": "Heavy masses of board-marked concrete with the structure, the services and the circulation shown on the outside. It grew from Le Corbusier's late work and from British post-war housing, and it built the universities and town halls of the welfare state.",
       "path": "skills/brutalist-architecture/SKILL.md",
       "tokens": null,
+      "pack": null,
+      "visual": null,
       "triggers": [
         "brutalist",
         "brutalism",

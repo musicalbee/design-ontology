@@ -24,21 +24,46 @@
   --shadow-1dp: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
   --shadow-24dp: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
   --touch-target: 48px;
-  --color-on-primary: #FFFFFF;
+  --color-on-bg: #212121;
+  --color-on-surface: #212121;
+  --color-on-primary: #FAFAFA;
+  --color-on-accent: #212121;
+  --color-muted-on-bg: #737373;
+  --color-muted-on-surface: #757575;
+  --color-link: #3F51B5;
+  --color-link-on-surface: #3F51B5;
+  --display-weight: 500;
+  --display-tracking: 0em;
+  --display-leading: 1.15;
+  --display-case: none;
+  --body-leading: 1.5;
+  --body-size: 16px;
+  --icon-stroke: 2;
 }
 
-/* Reference rules. They show how the tokens combine; replace them with your own components. */
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
 [data-style="material-design"] {
   background: var(--color-bg);
-  color: var(--color-text);
+  color: var(--color-on-bg);
   font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  line-height: var(--body-leading, 1.5);
 }
 [data-style="material-design"] :where(h1, h2, h3) {
   font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
 }
 [data-style="material-design"] :where(.surface) {
   padding: calc(var(--space-unit) * 3);
   background: var(--color-surface);
+  color: var(--color-on-surface);
   border: var(--border-width) solid var(--color-border);
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-elevation);
@@ -48,15 +73,26 @@
 [data-style="material-design"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
   background: var(--color-primary);
-  color: var(--color-on-primary, var(--color-bg));
+  color: var(--color-on-primary);
   border: var(--border-width) solid var(--color-border);
   border-radius: var(--border-radius);
   font: inherit;
   transition: all var(--duration) var(--ease);
 }
 [data-style="material-design"] :where(.muted) {
-  color: var(--color-muted);
+  color: var(--color-muted-on-bg);
 }
-[data-style="material-design"] :where(a) {
-  color: var(--color-accent);
+[data-style="material-design"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="material-design"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="material-design"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="material-design"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
 }
