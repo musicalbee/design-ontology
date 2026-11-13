@@ -177,6 +177,10 @@ Set `data-style="mid-century-modern"` on the root element and paste the tokens. 
   --color-link: #3B2A20;
   --color-link-on-surface: #1F7A7A;
   --display-weight: 600;
+  --subhead-weight: 600;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 700;
   --display-tracking: 0.01em;
   --display-leading: 1.05;
   --display-case: none;
@@ -210,6 +214,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Icons:** solid, stroke 2 on a 24px field, round caps, round joins, container: none. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
 - **Icon family:** the sprite is cut from MingCute (Fill) by MingCute Design, licence Apache 2.0. Reason: Solid forms with soft corners: the organic silhouette of the period, with no outline. It is an open-source stand-in for a demo. For a product, use the icon library of the brand and choose the family by the rules below.
 - **Display type:** weight 600, tracking 0.01em, leading 1.05, case: none.
+- **Weights:** display 600, subhead 600, body 400, bold in text 700, labels and buttons 700. The style uses 3 weights (400, 600, 700) and no other. The display is 200 heavier than the body. The accent is colour: one coloured word or field is the accent, so the weights stay quiet.
 - **Body type:** 17px, leading 1.6.
 - **Page:** hero split, left aligned, regular density, accent tilt 0°.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.

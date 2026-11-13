@@ -35,6 +35,10 @@
   .flow { display: grid; gap: var(--flow); align-content: start; min-width: 0; }
   .flow > * { min-width: 0; }
   .stage h1, .stage h2, .stage h3, .stage p { margin: 0; }
+  .stage { font-weight: var(--body-weight, 400); }
+  .stage h3, .stage .fact .v { font-weight: var(--subhead-weight, 600); }
+  .stage :where(strong, b, th) { font-weight: var(--strong-weight, 700); }
+  .stage :where(.nav .l, .badge, .chip, label, button, input[type="submit"]) { font-weight: var(--label-weight, 600); }
   .stage h1 { font-size: calc(clamp(2.5rem, 7.2vw, 6rem) * var(--h1-scale, 1)); overflow-wrap: anywhere; text-wrap: balance; }
   .stage h2 { font-size: calc(clamp(1.7rem, 3.6vw, 2.9rem) * var(--h1-scale, 1)); overflow-wrap: break-word; text-wrap: balance; }
   .stage h3 { font-size: 1.2rem; margin-bottom: var(--flow-tight); }
@@ -47,7 +51,7 @@
   .stage .surface { min-width: 0; padding: max(calc(var(--space-unit) * 3), calc(var(--gap) * 1.25)); }
   .stage.switching, .stage.switching * { transition: none !important; }
   .stage .action { padding: max(calc(var(--space-unit) * 1.5), .6em) max(calc(var(--space-unit) * 3), 1.15em); }
-  .action { cursor: pointer; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: .5em; }
+  .action { cursor: pointer; font-weight: var(--label-weight, 700); text-decoration: none; display: inline-flex; align-items: center; gap: .5em; }
   .action:hover { filter: brightness(1.06); transform: translateY(-1px); }
   .action.quiet { background: transparent; color: var(--color-on-bg); box-shadow: none; }
   .surface .action.quiet { color: var(--color-on-surface); }
@@ -335,11 +339,12 @@ const lum = (c) => { const [r, g, b] = c.map((v) => { v /= 255; return v <= 0.03
 const ratio = (a, b) => { const [hi, lo] = [lum(a), lum(b)].sort((x, y) => y - x); return (hi + 0.05) / (lo + 0.05); };
 
 const sheets = {};   // font stylesheet id -> promise that settles when the sheet is in
-function loadFonts(cs, weight) {
-  return Promise.all([["--font-display", weight], ["--font-sans", "400;700"]].map(([v, w]) => {
+function loadFonts(cs, t) {
+  const list = (...w) => [...new Set(w)].sort((a, b) => a - b).join(";");
+  return Promise.all([["--font-display", list(t.display_weight, t.subhead_weight)], ["--font-sans", list(t.body_weight, t.strong_weight, t.label_weight)]].map(([v, w]) => {
     const f = cs.getPropertyValue(v).split(",")[0].trim().replace(/^["']|["']$/g, "");
     if (!f || /^(system-ui|sans-serif|serif|monospace|-apple-system|ui-)/.test(f)) return null;
-    const id = "font-" + f.replace(/\s+/g, "-") + "-" + w.replace(";", "-");
+    const id = "font-" + f.replace(/\s+/g, "-") + "-" + w.replaceAll(";", "-");
     if (sheets[id]) return sheets[id];
     const base = "https://fonts.googleapis.com/css2?display=swap&family=" + f.replace(/\s+/g, "+");
     const link = Object.assign(document.createElement("link"), { id, rel: "stylesheet", href: `${base}:wght@${w}` });
@@ -399,7 +404,7 @@ async function show(i) {
   stage.style.setProperty("--h1-scale", v.type.display_case === "uppercase" ? 0.68 : 1);
   stage.style.removeProperty("--display-leading");
   const cs = getComputedStyle(stage);
-  loadFonts(cs, String(v.type.display_weight)).then(() => fit(v, cs, mine));
+  loadFonts(cs, v.type).then(() => fit(v, cs, mine));
   document.body.style.background = cs.getPropertyValue("--color-bg");
   document.title = `${s.name}: grow your taste, one style at a time`;
 
@@ -422,7 +427,7 @@ async function show(i) {
   const first = (t) => cs.getPropertyValue(t).split(",")[0].trim().replace(/^["']|["']$/g, "");
   $("t-summary").textContent = data.summary;
   $("t-values").innerHTML = [
-    ["Display face", first("--font-display")], ["Body face", first("--font-sans")], ["Display weight", v.type.display_weight],
+    ["Display face", first("--font-display")], ["Body face", first("--font-sans")], ["Weights", `display ${v.type.display_weight}, subhead ${v.type.subhead_weight}, body ${v.type.body_weight}, bold ${v.type.strong_weight}, labels ${v.type.label_weight}`], ["Accent by", v.type.accent],
     ["Display tracking", v.type.display_tracking], ["Display leading", v.type.display_leading], ["Leading in use", ""], ["Display case", v.type.display_case],
     ["Body", `${v.type.body_size}, leading ${v.type.body_leading}`],
   ].map(([k, val]) => `<tr><th>${k}</th><td${k === "Leading in use" ? ' id="t-lead"' : ""}>${esc(val)}</td></tr>`).join("");

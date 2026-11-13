@@ -176,6 +176,10 @@ Set `data-style="swiss-international"` on the root element and paste the tokens.
   --color-link: #E30613;
   --color-link-on-surface: #111111;
   --display-weight: 700;
+  --subhead-weight: 400;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 400;
   --display-tracking: -0.03em;
   --display-leading: 0.95;
   --display-case: none;
@@ -209,6 +213,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Icons:** outline, stroke 1.5 on a 24px field, butt caps, miter joins, container: none. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
 - **Icon family:** the sprite is cut from Carbon (Regular) by IBM, licence Apache 2.0. Reason: A thin, even line on a strict grid with butt terminals: the icon as neutral information. It is an open-source stand-in for a demo. For a product, use the icon library of the brand and choose the family by the rules below.
 - **Display type:** weight 700, tracking -0.03em, leading 0.95, case: none.
+- **Weights:** display 700, subhead 400, body 400, bold in text 700, labels and buttons 400. The style uses 2 weights (400, 700) and no other. The display is 300 heavier than the body. The accent is size: a larger word is the accent, so the weights stay few.
 - **Body type:** 16px, leading 1.45.
 - **Page:** hero split, left aligned, airy density, accent tilt 0°.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.

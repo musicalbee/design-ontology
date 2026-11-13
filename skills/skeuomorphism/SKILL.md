@@ -178,6 +178,10 @@ Set `data-style="skeuomorphism"` on the root element and paste the tokens. The f
   --color-link: #2B2118;
   --color-link-on-surface: #D8D4CC;
   --display-weight: 700;
+  --subhead-weight: 700;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 700;
   --display-tracking: 0em;
   --display-leading: 1.1;
   --display-case: none;
@@ -210,6 +214,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Icons:** solid, stroke 2 on a 24px field, round caps, round joins, container: rounded. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
 - **Icon family:** the sprite is cut from Phosphor (Fill) by Phosphor Icons, licence MIT. Reason: Full solid silhouettes of real objects. The container supplies the material and the light. It is an open-source stand-in for a demo. For a product, use the icon library of the brand and choose the family by the rules below.
 - **Display type:** weight 700, tracking 0em, leading 1.1, case: none.
+- **Weights:** display 700, subhead 700, body 400, bold in text 700, labels and buttons 700. The style uses 2 weights (400, 700) and no other. The display is 300 heavier than the body. The accent is weight: a heavier word is the accent, so the steps between the weights are clear.
 - **Body type:** 16px, leading 1.55.
 - **Page:** hero split, left aligned, regular density, accent tilt 0°.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.

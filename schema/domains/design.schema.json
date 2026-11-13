@@ -366,7 +366,12 @@
             "display_leading",
             "display_case",
             "body_leading",
-            "body_size"
+            "body_size",
+            "subhead_weight",
+            "body_weight",
+            "strong_weight",
+            "label_weight",
+            "accent"
           ],
           "properties": {
             "display_weight": {
@@ -399,6 +404,43 @@
             "body_size": {
               "type": "string",
               "pattern": "^\\d{2}px$"
+            },
+            "subhead_weight": {
+              "type": "integer",
+              "minimum": 100,
+              "maximum": 900,
+              "multipleOf": 100,
+              "description": "Weight of a secondary heading, in the display face. The face must have this weight."
+            },
+            "body_weight": {
+              "type": "integer",
+              "minimum": 100,
+              "maximum": 900,
+              "multipleOf": 100,
+              "description": "Weight of running text, in the text face."
+            },
+            "strong_weight": {
+              "type": "integer",
+              "minimum": 100,
+              "maximum": 900,
+              "multipleOf": 100,
+              "description": "Weight of a bold word inside running text."
+            },
+            "label_weight": {
+              "type": "integer",
+              "minimum": 100,
+              "maximum": 900,
+              "multipleOf": 100,
+              "description": "Weight of a button, a label and a navigation item."
+            },
+            "accent": {
+              "enum": [
+                "weight",
+                "size",
+                "case",
+                "colour"
+              ],
+              "description": "Where the style puts its emphasis. A style that accents by size, case or colour keeps few weights and a small step between them."
             }
           }
         },

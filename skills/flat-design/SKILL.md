@@ -176,7 +176,11 @@ Set `data-style="flat-design"` on the root element and paste the tokens. The fil
   --color-muted-on-surface: #6B7885;
   --color-link: #2C3E50;
   --color-link-on-surface: #2C3E50;
-  --display-weight: 700;
+  --display-weight: 300;
+  --subhead-weight: 400;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 700;
   --display-tracking: 0.01em;
   --display-leading: 1.1;
   --display-case: none;
@@ -208,7 +212,8 @@ The pictures and icons of this style are files. Use them as they are, or read th
 
 - **Icons:** solid, stroke 2 on a 24px field, butt caps, miter joins, container: circle. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
 - **Icon family:** the sprite is cut from Ionicons (Filled) by Ben Sperry, licence MIT. Reason: Solid glyphs with no depth and no detail: the form alone carries the meaning. It is an open-source stand-in for a demo. For a product, use the icon library of the brand and choose the family by the rules below.
-- **Display type:** weight 700, tracking 0.01em, leading 1.1, case: none.
+- **Display type:** weight 300, tracking 0.01em, leading 1.1, case: none.
+- **Weights:** display 300, subhead 400, body 400, bold in text 700, labels and buttons 700. The style uses 3 weights (300, 400, 700) and no other. The display is 100 lighter than the body, so size carries the hierarchy. The accent is colour: one coloured word or field is the accent, so the weights stay quiet.
 - **Body type:** 16px, leading 1.6.
 - **Page:** hero stacked, center aligned, airy density, accent tilt 0°.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.

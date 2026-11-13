@@ -176,6 +176,10 @@ Set `data-style="neo-brutalism-ui"` on the root element and paste the tokens. Th
   --color-link: #000000;
   --color-link-on-surface: #000000;
   --display-weight: 700;
+  --subhead-weight: 700;
+  --body-weight: 500;
+  --strong-weight: 700;
+  --label-weight: 700;
   --display-tracking: -0.03em;
   --display-leading: 0.95;
   --display-case: none;
@@ -209,6 +213,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Icons:** outline, stroke 2.5 on a 24px field, square caps, miter joins, container: square. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
 - **Icon family:** the sprite is cut from Phosphor (Bold) by Phosphor Icons, licence MIT. Reason: A heavy line with a blunt weight that matches the thick borders. It is an open-source stand-in for a demo. For a product, use the icon library of the brand and choose the family by the rules below.
 - **Display type:** weight 700, tracking -0.03em, leading 0.95, case: none.
+- **Weights:** display 700, subhead 700, body 500, bold in text 700, labels and buttons 700. The style uses 2 weights (500, 700) and no other. The display is 200 heavier than the body. The accent is weight: a heavier word is the accent, so the steps between the weights are clear.
 - **Body type:** 17px, leading 1.5.
 - **Page:** hero split, left aligned, compact density, accent tilt -1°.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.

@@ -172,7 +172,11 @@ Set `data-style="spatial-visionos"` on the root element and paste the tokens. Th
   --color-muted-on-surface: #ADADAF;
   --color-link: #0A84FF;
   --color-link-on-surface: #FFFFFF;
-  --display-weight: 600;
+  --display-weight: 700;
+  --subhead-weight: 600;
+  --body-weight: 500;
+  --strong-weight: 700;
+  --label-weight: 600;
   --display-tracking: -0.02em;
   --display-leading: 1.1;
   --display-case: none;
@@ -204,7 +208,8 @@ The pictures and icons of this style are files. Use them as they are, or read th
 
 - **Icons:** outline, stroke 1.5 on a 24px field, round caps, round joins, container: circle. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
 - **Icon family:** the sprite is cut from Framework7 Icons (Regular) by Vladimir Kharlampidi, licence MIT. Reason: Thin, round system glyphs in the platform manner, made for a round glass container. It is an open-source stand-in for a demo. For a product, use the icon library of the brand and choose the family by the rules below.
-- **Display type:** weight 600, tracking -0.02em, leading 1.1, case: none.
+- **Display type:** weight 700, tracking -0.02em, leading 1.1, case: none.
+- **Weights:** display 700, subhead 600, body 500, bold in text 700, labels and buttons 600. The style uses 3 weights (500, 600, 700) and no other. The display is 200 heavier than the body. The accent is weight: a heavier word is the accent, so the steps between the weights are clear.
 - **Body type:** 17px, leading 1.5.
 - **Page:** hero stacked, center aligned, airy density, accent tilt 0°.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.

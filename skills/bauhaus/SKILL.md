@@ -174,6 +174,10 @@ Set `data-style="bauhaus"` on the root element and paste the tokens. The file [`
   --color-link: #1D4E9E;
   --color-link-on-surface: #1D4E9E;
   --display-weight: 700;
+  --subhead-weight: 400;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 700;
   --display-tracking: 0.02em;
   --display-leading: 1;
   --display-case: lowercase;
@@ -207,6 +211,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Icons:** solid, stroke 2 on a 24px field, butt caps, miter joins, container: circle. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
 - **Icon family:** the sprite is cut from Material Symbols (Sharp, filled) by Google, licence Apache 2.0. Reason: Solid forms with square corners and no round terminal: the cut-paper geometry of the workshop. It is an open-source stand-in for a demo. For a product, use the icon library of the brand and choose the family by the rules below.
 - **Display type:** weight 700, tracking 0.02em, leading 1, case: lowercase.
+- **Weights:** display 700, subhead 400, body 400, bold in text 700, labels and buttons 700. The style uses 2 weights (400, 700) and no other. The display is 300 heavier than the body. The accent is size: a larger word is the accent, so the weights stay few.
 - **Body type:** 17px, leading 1.5.
 - **Page:** hero split, left aligned, regular density, accent tilt 0°.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.

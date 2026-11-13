@@ -172,7 +172,11 @@ Set `data-style="neumorphism"` on the root element and paste the tokens. The fil
   --color-muted-on-surface: #515A69;
   --color-link: #2D3748;
   --color-link-on-surface: #2D3748;
-  --display-weight: 600;
+  --display-weight: 700;
+  --subhead-weight: 500;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 500;
   --display-tracking: -0.01em;
   --display-leading: 1.15;
   --display-case: none;
@@ -204,7 +208,8 @@ The pictures and icons of this style are files. Use them as they are, or read th
 
 - **Icons:** outline, stroke 1.75 on a 24px field, round caps, round joins, container: circle. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
 - **Icon family:** the sprite is cut from Iconoir (Regular) by Luca Burgio, licence MIT. Reason: A thin round line that does not compete with the soft relief of the surface. It is an open-source stand-in for a demo. For a product, use the icon library of the brand and choose the family by the rules below.
-- **Display type:** weight 600, tracking -0.01em, leading 1.15, case: none.
+- **Display type:** weight 700, tracking -0.01em, leading 1.15, case: none.
+- **Weights:** display 700, subhead 500, body 400, bold in text 700, labels and buttons 500. The style uses 3 weights (400, 500, 700) and no other. The display is 300 heavier than the body. The accent is colour: one coloured word or field is the accent, so the weights stay quiet.
 - **Body type:** 16px, leading 1.6.
 - **Page:** hero stacked, center aligned, airy density, accent tilt 0°.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.

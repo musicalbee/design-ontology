@@ -173,6 +173,10 @@ Set `data-style="glassmorphism"` on the root element and paste the tokens. The f
   --color-link: #FFFFFF;
   --color-link-on-surface: #000000;
   --display-weight: 700;
+  --subhead-weight: 600;
+  --body-weight: 500;
+  --strong-weight: 700;
+  --label-weight: 600;
   --display-tracking: -0.02em;
   --display-leading: 1.05;
   --display-case: none;
@@ -205,6 +209,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Icons:** outline, stroke 1.5 on a 24px field, round caps, round joins, container: rounded. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
 - **Icon family:** the sprite is cut from Solar (Linear) by 480 Design, licence CC BY 4.0. Reason: A light round line that stays legible on a blurred, bright surface. It is an open-source stand-in for a demo. For a product, use the icon library of the brand and choose the family by the rules below.
 - **Display type:** weight 700, tracking -0.02em, leading 1.05, case: none.
+- **Weights:** display 700, subhead 600, body 500, bold in text 700, labels and buttons 600. The style uses 3 weights (500, 600, 700) and no other. The display is 200 heavier than the body. The accent is weight: a heavier word is the accent, so the steps between the weights are clear.
 - **Body type:** 16px, leading 1.55.
 - **Page:** hero stacked, center aligned, regular density, accent tilt 0°.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.

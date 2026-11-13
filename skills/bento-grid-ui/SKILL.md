@@ -174,6 +174,10 @@ Set `data-style="bento-grid-ui"` on the root element and paste the tokens. The f
   --color-link: #1D1D1F;
   --color-link-on-surface: #0071E3;
   --display-weight: 600;
+  --subhead-weight: 500;
+  --body-weight: 400;
+  --strong-weight: 600;
+  --label-weight: 500;
   --display-tracking: -0.03em;
   --display-leading: 1.05;
   --display-case: none;
@@ -206,6 +210,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Icons:** outline, stroke 1.75 on a 24px field, round caps, round joins, container: rounded. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
 - **Icon family:** the sprite is cut from Lucide (Regular) by Lucide Contributors, licence ISC. Reason: A plain round line at one weight: quiet in a cell, the default of current product interfaces. It is an open-source stand-in for a demo. For a product, use the icon library of the brand and choose the family by the rules below.
 - **Display type:** weight 600, tracking -0.03em, leading 1.05, case: none.
+- **Weights:** display 600, subhead 500, body 400, bold in text 600, labels and buttons 500. The style uses 3 weights (400, 500, 600) and no other. The display is 200 heavier than the body. The accent is size: a larger word is the accent, so the weights stay few.
 - **Body type:** 16px, leading 1.5.
 - **Page:** hero stacked, left aligned, compact density, accent tilt 0°.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.

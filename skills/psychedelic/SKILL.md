@@ -177,6 +177,10 @@ Set `data-style="psychedelic"` on the root element and paste the tokens. The fil
   --color-link: #FF1493;
   --color-link-on-surface: #2B0A4D;
   --display-weight: 400;
+  --subhead-weight: 400;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 700;
   --display-tracking: -0.02em;
   --display-leading: 0.95;
   --display-case: none;
@@ -210,6 +214,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Icons:** solid, stroke 3 on a 24px field, round caps, round joins, container: none. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
 - **Icon family:** the sprite is cut from Solar (Bold) by 480 Design, licence CC BY 4.0. Reason: Heavy, swollen solid forms with no straight terminal: the weight of the poster lettering. It is an open-source stand-in for a demo. For a product, use the icon library of the brand and choose the family by the rules below.
 - **Display type:** weight 400, tracking -0.02em, leading 0.95, case: none.
+- **Weights:** display 400, subhead 400, body 400, bold in text 700, labels and buttons 700. The style uses 2 weights (400, 700) and no other. The display has the weight of the body, so size and face carry the hierarchy. The accent is size: a larger word is the accent, so the weights stay few.
 - **Body type:** 18px, leading 1.5.
 - **Page:** hero poster, center aligned, compact density, accent tilt -2°.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.

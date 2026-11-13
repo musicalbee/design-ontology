@@ -32,7 +32,11 @@
   --color-muted-on-surface: #757575;
   --color-link: #3F51B5;
   --color-link-on-surface: #3F51B5;
-  --display-weight: 500;
+  --display-weight: 300;
+  --subhead-weight: 500;
+  --body-weight: 400;
+  --strong-weight: 500;
+  --label-weight: 500;
   --display-tracking: 0em;
   --display-leading: 1.15;
   --display-case: none;
@@ -51,6 +55,7 @@
   color: var(--color-on-bg);
   font-family: var(--font-sans);
   font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
   line-height: var(--body-leading, 1.5);
 }
 [data-style="material-design"] :where(h1, h2, h3) {
@@ -59,6 +64,15 @@
   letter-spacing: var(--display-tracking, 0);
   line-height: var(--display-leading, 1.1);
   text-transform: var(--display-case, none);
+}
+[data-style="material-design"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="material-design"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="material-design"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
 }
 [data-style="material-design"] :where(.surface) {
   padding: calc(var(--space-unit) * 3);
@@ -77,6 +91,7 @@
   border: var(--border-width) solid var(--color-border);
   border-radius: var(--border-radius);
   font: inherit;
+  font-weight: var(--label-weight, 600);
   transition: all var(--duration) var(--ease);
 }
 [data-style="material-design"] :where(.muted) {

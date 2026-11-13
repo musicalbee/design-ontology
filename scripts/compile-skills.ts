@@ -81,6 +81,23 @@ function iconPack(style: Style): IconPack {
   return iconPacks.get(id)!;
 }
 const iconRules = JSON.parse(readFileSync(join(ROOT, "icons", "principles.json"), "utf8")) as { title: string; intro: string; rules: { rule: string; test: string }[] };
+const ACCENT: Record<string, string> = {
+  weight: "weight: a heavier word is the accent, so the steps between the weights are clear",
+  size: "size: a larger word is the accent, so the weights stay few",
+  case: "case and tracking: an upper-case label is the accent, so the weights stay few",
+  colour: "colour: one coloured word or field is the accent, so the weights stay quiet",
+};
+function weightView(v: Visual) {
+  const t = v.type;
+  const set = [...new Set([t.display_weight, t.subhead_weight, t.body_weight, t.strong_weight, t.label_weight])].sort((a, b) => a - b);
+  const step = t.display_weight - t.body_weight;
+  return {
+    list: set.join(", "),
+    count: set.length,
+    step: step === 0 ? "The display has the weight of the body, so size and face carry the hierarchy" : step > 0 ? `The display is ${step} heavier than the body` : `The display is ${-step} lighter than the body, so size carries the hierarchy`,
+    accent: ACCENT[t.accent],
+  };
+}
 const PACK_FILES = [
   { file: "hero.svg", what: "Hero plate, 800 by 600. An abstract picture in the visual language of the style." },
   { file: "pattern.svg", what: "Pattern tile, 80 by 80. It repeats in both directions." },
@@ -127,6 +144,7 @@ function view(style: Style, domain: Domain) {
       files: PACK_FILES,
       icon: visualOf(style)!.icon,
       type: visualOf(style)!.type,
+      weights: weightView(visualOf(style)!),
       layout: visualOf(style)!.layout,
       first_icon: ICON_NAMES[0],
       icon_pack: { ...iconPack(style), why: visualOf(style)!.icon.pack.why },
@@ -182,6 +200,7 @@ ${sel} {
   color: var(--color-on-bg);
   font-family: var(--font-sans);
   font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
   line-height: var(--body-leading, 1.5);
 }
 ${sel} :where(h1, h2, h3) {
@@ -190,6 +209,15 @@ ${sel} :where(h1, h2, h3) {
   letter-spacing: var(--display-tracking, 0);
   line-height: var(--display-leading, 1.1);
   text-transform: var(--display-case, none);
+}
+${sel} :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+${sel} :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+${sel} :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
 }
 ${sel} :where(.surface) {
   padding: calc(var(--space-unit) * 3);
@@ -208,6 +236,7 @@ ${sel} :where(.action) {
   border: var(--border-width) solid var(--color-border);
   border-radius: var(--border-radius);
   font: inherit;
+  font-weight: var(--label-weight, 600);
   transition: all var(--duration) var(--ease);
 }
 ${sel} :where(.muted) {

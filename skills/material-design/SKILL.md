@@ -176,7 +176,11 @@ Set `data-style="material-design"` on the root element and paste the tokens. The
   --color-muted-on-surface: #757575;
   --color-link: #3F51B5;
   --color-link-on-surface: #3F51B5;
-  --display-weight: 500;
+  --display-weight: 300;
+  --subhead-weight: 500;
+  --body-weight: 400;
+  --strong-weight: 500;
+  --label-weight: 500;
   --display-tracking: 0em;
   --display-leading: 1.15;
   --display-case: none;
@@ -208,7 +212,8 @@ The pictures and icons of this style are files. Use them as they are, or read th
 
 - **Icons:** solid, stroke 2 on a 24px field, butt caps, round joins, container: none. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
 - **Icon family:** the sprite is cut from Material Symbols (Baseline, filled) by Google, licence Apache 2.0. Reason: The filled system set of the style itself, on its 24dp grid. It is an open-source stand-in for a demo. For a product, use the icon library of the brand and choose the family by the rules below.
-- **Display type:** weight 500, tracking 0em, leading 1.15, case: none.
+- **Display type:** weight 300, tracking 0em, leading 1.15, case: none.
+- **Weights:** display 300, subhead 500, body 400, bold in text 500, labels and buttons 500. The style uses 3 weights (300, 400, 500) and no other. The display is 100 lighter than the body, so size carries the hierarchy. The accent is weight: a heavier word is the accent, so the steps between the weights are clear.
 - **Body type:** 16px, leading 1.5.
 - **Page:** hero split, left aligned, regular density, accent tilt 0°.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.

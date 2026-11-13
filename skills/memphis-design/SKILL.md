@@ -177,6 +177,10 @@ Set `data-style="memphis-design"` on the root element and paste the tokens. The 
   --color-link: #111111;
   --color-link-on-surface: #111111;
   --display-weight: 400;
+  --subhead-weight: 400;
+  --body-weight: 400;
+  --strong-weight: 800;
+  --label-weight: 800;
   --display-tracking: 0em;
   --display-leading: 1;
   --display-case: uppercase;
@@ -209,6 +213,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Icons:** duotone, stroke 2.5 on a 24px field, square caps, miter joins, container: square. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
 - **Icon family:** the sprite is cut from Pepicons (Pop) by CyCraft, licence CC BY 4.0. Reason: Bold forms with a hard offset tone: the flat pop geometry of the laminate. It is an open-source stand-in for a demo. For a product, use the icon library of the brand and choose the family by the rules below.
 - **Display type:** weight 400, tracking 0em, leading 1, case: uppercase.
+- **Weights:** display 400, subhead 400, body 400, bold in text 800, labels and buttons 800. The style uses 2 weights (400, 800) and no other. The display has the weight of the body, so size and face carry the hierarchy. The accent is size: a larger word is the accent, so the weights stay few.
 - **Body type:** 16px, leading 1.5.
 - **Page:** hero stacked, left aligned, compact density, accent tilt -1.5°.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.

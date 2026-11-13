@@ -6,7 +6,7 @@
 import type { Style } from "./lib.js";
 
 export interface Visual {
-  type: { display_weight: number; display_tracking: string; display_leading: number; display_case: string; body_leading: number; body_size: string };
+  type: { display_weight: number; subhead_weight: number; body_weight: number; strong_weight: number; label_weight: number; accent: string; display_tracking: string; display_leading: number; display_case: string; body_leading: number; body_size: string };
   icon: { mode: "outline" | "solid" | "duotone"; stroke_width: number; linecap: string; linejoin: string; container: string; pack: { id: string; why: string } };
   art: { recipe: string; pattern: string; seed: number };
   layout: { hero: string; align: string; density: string; tilt_deg: number };
@@ -93,6 +93,10 @@ export function derivedTokens(css: Record<string, string>): Record<string, strin
 export function typeTokens(v: Visual): Record<string, string> {
   return {
     "--display-weight": String(v.type.display_weight),
+    "--subhead-weight": String(v.type.subhead_weight),
+    "--body-weight": String(v.type.body_weight),
+    "--strong-weight": String(v.type.strong_weight),
+    "--label-weight": String(v.type.label_weight),
     "--display-tracking": v.type.display_tracking,
     "--display-leading": String(v.type.display_leading),
     "--display-case": v.type.display_case,

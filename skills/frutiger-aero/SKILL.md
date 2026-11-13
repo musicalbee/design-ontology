@@ -176,7 +176,11 @@ Set `data-style="frutiger-aero"` on the root element and paste the tokens. The f
   --color-muted-on-surface: #4F6C80;
   --color-link: #1F3A4D;
   --color-link-on-surface: #1F3A4D;
-  --display-weight: 700;
+  --display-weight: 300;
+  --subhead-weight: 400;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 700;
   --display-tracking: -0.01em;
   --display-leading: 1.1;
   --display-case: none;
@@ -209,7 +213,8 @@ The pictures and icons of this style are files. Use them as they are, or read th
 
 - **Icons:** solid, stroke 2 on a 24px field, round caps, round joins, container: circle. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
 - **Icon family:** the sprite is cut from Fluent UI System Icons (Filled, 24) by Microsoft Corporation, licence MIT. Reason: Soft, filled forms with round corners that sit well in a glossy round container. It is an open-source stand-in for a demo. For a product, use the icon library of the brand and choose the family by the rules below.
-- **Display type:** weight 700, tracking -0.01em, leading 1.1, case: none.
+- **Display type:** weight 300, tracking -0.01em, leading 1.1, case: none.
+- **Weights:** display 300, subhead 400, body 400, bold in text 700, labels and buttons 700. The style uses 3 weights (300, 400, 700) and no other. The display is 100 lighter than the body, so size carries the hierarchy. The accent is colour: one coloured word or field is the accent, so the weights stay quiet.
 - **Body type:** 17px, leading 1.6.
 - **Page:** hero split, left aligned, airy density, accent tilt 0°.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.

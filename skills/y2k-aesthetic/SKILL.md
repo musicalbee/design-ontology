@@ -179,6 +179,10 @@ Set `data-style="y2k-aesthetic"` on the root element and paste the tokens. The f
   --color-link: #0B1A3A;
   --color-link-on-surface: #0B1A3A;
   --display-weight: 800;
+  --subhead-weight: 700;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 700;
   --display-tracking: 0.04em;
   --display-leading: 1.05;
   --display-case: uppercase;
@@ -212,6 +216,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Icons:** duotone, stroke 1.5 on a 24px field, round caps, round joins, container: circle. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
 - **Icon family:** the sprite is cut from Pixelarticons (Regular) by Gerrit Halfmann, licence MIT. Reason: Pixel-grid forms: the screen technology of the period shows in the icon. It is an open-source stand-in for a demo. For a product, use the icon library of the brand and choose the family by the rules below.
 - **Display type:** weight 800, tracking 0.04em, leading 1.05, case: uppercase.
+- **Weights:** display 800, subhead 700, body 400, bold in text 700, labels and buttons 700. The style uses 3 weights (400, 700, 800) and no other. The display is 400 heavier than the body. The accent is case and tracking: an upper-case label is the accent, so the weights stay few.
 - **Body type:** 16px, leading 1.55.
 - **Page:** hero stacked, center aligned, regular density, accent tilt 0°.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
