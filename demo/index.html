@@ -24,15 +24,21 @@
   .picker a { color: #f4f4f5; white-space: nowrap; }
 
   /* ── Stage. Each visual value below is a token of the current style. ── */
-  .stage { --gap: calc(1rem * var(--density, 1)); --tilt: 0deg; min-height: 100vh; overflow-x: clip; position: relative; }
+  .stage { --gap: calc(1rem * var(--density, 1)); --flow: calc(var(--gap) * 1.25); --flow-tight: calc(var(--gap) * .5); --tilt: 0deg; min-height: 100vh; overflow-x: clip; position: relative; }
   .stage[data-density="compact"] { --density: .8; }
   .stage[data-density="airy"] { --density: 1.3; }
   .wrap { max-width: 1160px; margin: 0 auto; padding: 0 clamp(16px, 4vw, 48px); }
-  .stage section { padding: calc(var(--gap) * 3.5) 0; }
+  /* One rhythm. --flow is the distance from a heading to its body and between blocks; --flow-tight sits inside a block. No block sets its own margin. */
+  .stage section { padding: calc(var(--gap) * 2.5) 0; }
+  .stage section > .wrap { display: grid; gap: var(--flow); }
+  .stage section > .wrap > * { min-width: 0; }
+  .flow { display: grid; gap: var(--flow); align-content: start; min-width: 0; }
+  .flow > * { min-width: 0; }
   .stage h1, .stage h2, .stage h3, .stage p { margin: 0; }
   .stage h1 { font-size: calc(clamp(2.5rem, 7.2vw, 6rem) * var(--h1-scale, 1)); overflow-wrap: anywhere; text-wrap: balance; }
-  .stage h2 { font-size: calc(clamp(1.7rem, 3.6vw, 2.9rem) * var(--h1-scale, 1)); margin-bottom: calc(var(--gap) * 1.5); text-wrap: balance; }
-  .stage h3 { font-size: 1.2rem; margin-bottom: .4rem; }
+  .stage h2 { font-size: calc(clamp(1.7rem, 3.6vw, 2.9rem) * var(--h1-scale, 1)); overflow-wrap: break-word; text-wrap: balance; }
+  .stage h3 { font-size: 1.2rem; margin-bottom: var(--flow-tight); }
+  .stage h3.next { margin-top: var(--flow); }
   .stage p { max-width: 62ch; }
   .lede { font-size: clamp(1.1rem, 1.7vw, 1.35rem); }
   .small { font-size: .875rem; }
@@ -98,7 +104,7 @@
   .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: var(--gap); }
   .fact { display: grid; gap: .35rem; align-content: start; }
   .fact .k { font-size: .82rem; }
-  .fact .v { font-family: var(--font-display); font-weight: var(--display-weight); text-transform: var(--display-case); letter-spacing: var(--display-tracking); font-size: 1.35rem; line-height: 1.15; }
+  .fact .v { font-family: var(--font-display); font-weight: var(--display-weight); text-transform: var(--display-case); letter-spacing: var(--display-tracking); font-size: 1.35rem; line-height: max(var(--display-leading), 1.15); }
   .axes { display: grid; gap: .3rem; font-size: .82rem; }
   .axis { display: grid; grid-template-columns: 1fr auto; gap: .75rem; align-items: center; }
   .pips { display: flex; gap: 3px; }
@@ -114,11 +120,13 @@
 
   /* type */
   .specimen { display: grid; gap: calc(var(--gap) * 1.5); }
+  .specimen > * { min-width: 0; }
   @media (min-width: 860px) { .specimen { grid-template-columns: 1.4fr 1fr; align-items: start; } }
   .glyphs { font-family: var(--font-display); font-weight: var(--display-weight); letter-spacing: var(--display-tracking); text-transform: var(--display-case);
-    font-size: calc(clamp(4.5rem, 15vw, 12rem) * var(--h1-scale, 1)); line-height: .9; overflow-wrap: anywhere; }
+    font-size: calc(clamp(4rem, 13vw, 10.5rem) * var(--h1-scale, 1)); line-height: var(--display-leading); overflow-wrap: anywhere; }
   .sample { font-family: var(--font-display); font-weight: var(--display-weight); letter-spacing: var(--display-tracking); text-transform: var(--display-case);
-    line-height: var(--display-leading); font-size: calc(clamp(1.5rem, 3vw, 2.4rem) * var(--h1-scale, 1)); margin: 1rem 0; overflow-wrap: anywhere; }
+    line-height: var(--display-leading); font-size: calc(clamp(1.5rem, 3vw, 2.4rem) * var(--h1-scale, 1)); overflow-wrap: break-word; }
+  .anatomy { display: grid; gap: var(--flow-tight); }
   table.kv { width: 100%; border-collapse: collapse; font-size: .9rem; }
   table.kv th, table.kv td { text-align: left; padding: .45rem .5rem .45rem 0; border-bottom: 1px solid color-mix(in srgb, currentColor 25%, transparent); vertical-align: top; font-weight: 400; }
   table.kv th { white-space: nowrap; padding-right: 1.25rem; }
@@ -130,9 +138,9 @@
   .sw { min-height: 9rem; padding: .8rem; display: flex; flex-direction: column; justify-content: flex-end; gap: .15rem;
     border: var(--border-width) solid var(--color-border); border-radius: min(var(--border-radius), 28px); font-size: .82rem; }
   .sw b { font-size: 1rem; }
-  .pairs { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: var(--gap); margin-top: calc(var(--gap) * 1.5); }
+  .pairs { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: var(--gap); }
   .pair { padding: 1rem; border: var(--border-width) solid var(--color-border); border-radius: min(var(--border-radius), 28px); display: grid; gap: .2rem; }
-  .pair .r { font-family: var(--font-display); font-weight: var(--display-weight); font-size: 2rem; line-height: 1; font-variant-numeric: tabular-nums; }
+  .pair .r { font-family: var(--font-display); font-weight: var(--display-weight); font-size: calc(2rem * var(--h1-scale, 1)); line-height: var(--display-leading); font-variant-numeric: tabular-nums; }
 
   /* icons and components */
   .iconset { display: grid; grid-template-columns: repeat(auto-fill, minmax(92px, 1fr)); gap: var(--gap); }
@@ -162,7 +170,6 @@
   .kin button { font: inherit; font-size: .9rem; cursor: pointer; padding: .35rem .8rem; background: transparent; color: inherit;
     border: var(--border-width) solid currentColor; border-radius: var(--border-radius); }
   .kin button:hover { background: var(--color-primary); color: var(--color-on-primary); border-color: var(--color-border); }
-  .shifts { margin-top: calc(var(--gap) * 1.5); }
 
   /* install */
   .install pre { margin: 0; padding: 1rem; overflow-x: auto; white-space: pre-wrap; word-break: break-all; background: var(--color-on-bg); color: var(--color-bg); border-radius: min(var(--border-radius), 12px); }
@@ -228,14 +235,18 @@
   <section id="type"><div class="wrap">
     <h2>Type carries the voice.</h2>
     <div class="specimen">
-      <div>
+      <div class="flow">
         <div class="glyphs" aria-hidden="true">Aa Rg 49</div>
         <p class="sample">Good taste is a set of decisions that you can name.</p>
         <p id="t-summary"></p>
+        <div class="anatomy">
+          <p class="sample" lang="nb">jiggly pygmy guppy yoga<br>ÅLBÉ Hõlft Kildt Åbðêy</p>
+          <p class="small muted">Anatomy test. Line 1 has descenders. Line 2 has ascenders, capitals and accents. The display leading must keep the two lines apart.</p>
+        </div>
       </div>
       <div class="surface">
         <table class="kv" id="t-values"></table>
-        <h3 style="margin-top:1.25rem">Pairings</h3>
+        <h3 class="next">Pairings</h3>
         <table class="kv" id="t-pairs"></table>
       </div>
     </div>
@@ -243,25 +254,25 @@
 
   <section id="colour"><div class="wrap">
     <h2>Colour has roles, not favourites.</h2>
-    <p id="c-structure" style="margin-bottom:1.5rem"></p>
+    <p id="c-structure"></p>
     <div class="swatches" id="c-swatches"></div>
     <div class="pairs" id="c-pairs"></div>
-    <p class="small muted" style="margin-top:1rem">The compiler derives a text colour for each field. If the authored colour does not reach 4.5 to 1, the compiler replaces it.</p>
+    <p class="small muted">The compiler derives a text colour for each field. If the authored colour does not reach 4.5 to 1, the compiler replaces it.</p>
   </div></section>
 
   <section id="icons"><div class="wrap">
     <h2>Icons and parts speak the same dialect.</h2>
     <div class="two">
-      <div>
+      <div class="flow">
         <div class="iconset" id="i-set"></div>
-        <p class="small muted" id="i-spec" style="margin-top:1.25rem"></p>
+        <p class="small muted" id="i-spec"></p>
       </div>
       <div class="kit">
         <div class="surface">
           <h3>Start a taste log</h3>
           <p class="small">Write one style that you saw today and one rule that it keeps.</p>
-          <div class="row" style="margin-top:1rem"><input class="field" placeholder="you@example.com" aria-label="Email, sample field"><button class="action">Start the log</button></div>
-          <div class="row" style="margin-top:1rem"><span class="tag">New</span><span class="tag">17 styles</span><a href="#lineage">See the family tree</a></div>
+          <div class="row" style="margin-top:var(--flow)"><input class="field" placeholder="you@example.com" aria-label="Email, sample field"><button class="action">Start the log</button></div>
+          <div class="row" style="margin-top:var(--flow-tight)"><span class="tag">New</span><span class="tag">17 styles</span><a href="#lineage">See the family tree</a></div>
         </div>
         <div class="surface scroll"><h3>Tailwind classes</h3><table class="kv" id="i-tw"></table></div>
       </div>
@@ -321,17 +332,48 @@ const over = (top, under) => { const [t, u] = [rgba(top), rgba(under)]; return [
 const lum = (c) => { const [r, g, b] = c.map((v) => { v /= 255; return v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4; }); return 0.2126 * r + 0.7152 * g + 0.0722 * b; };
 const ratio = (a, b) => { const [hi, lo] = [lum(a), lum(b)].sort((x, y) => y - x); return (hi + 0.05) / (lo + 0.05); };
 
+const sheets = {};   // font stylesheet id -> promise that settles when the sheet is in
 function loadFonts(cs, weight) {
-  [["--font-display", weight], ["--font-sans", "400;700"]].forEach(([v, w]) => {
+  return Promise.all([["--font-display", weight], ["--font-sans", "400;700"]].map(([v, w]) => {
     const f = cs.getPropertyValue(v).split(",")[0].trim().replace(/^["']|["']$/g, "");
-    if (!f || /^(system-ui|sans-serif|serif|monospace|-apple-system|ui-)/.test(f)) return;
+    if (!f || /^(system-ui|sans-serif|serif|monospace|-apple-system|ui-)/.test(f)) return null;
     const id = "font-" + f.replace(/\s+/g, "-") + "-" + w.replace(";", "-");
-    if (document.getElementById(id)) return;
+    if (sheets[id]) return sheets[id];
     const base = "https://fonts.googleapis.com/css2?display=swap&family=" + f.replace(/\s+/g, "+");
     const link = Object.assign(document.createElement("link"), { id, rel: "stylesheet", href: `${base}:wght@${w}` });
-    link.onerror = () => { link.onerror = null; link.href = base; };   // a family that does not have this weight
+    sheets[id] = new Promise((ok) => {
+      link.onload = ok;
+      link.onerror = () => { link.onerror = ok; link.href = base; };   // a family that does not have this weight
+    });
     document.head.append(link);
-  });
+    return sheets[id];
+  }));
+}
+
+// Fit the display type to the face that loaded. The authored leading is a floor, not a promise:
+// if the ink of a descender line and an accent line is taller than it, the leading grows to the ink.
+// The size follows the width of the face, and each display block moves left by the side bearing of its first letter.
+const INK = "jgpqy\u00C5\u00C9", WIDTH = "Good taste is a set of decisions";
+async function fit(v, cs, mine) {
+  const stack = cs.getPropertyValue("--font-display").trim(), weight = v.type.display_weight, px = 200;
+  const cased = { uppercase: (t) => t.toUpperCase(), lowercase: (t) => t.toLowerCase() }[v.type.display_case] || ((t) => t);
+  const face = `${weight} ${px}px ${stack}`;
+  try { await Promise.race([document.fonts.load(face, cased(INK + WIDTH)), new Promise((ok) => setTimeout(ok, 3000))]); } catch {}
+  if (mine !== turn) return;
+  const ctx = fit.ctx || (fit.ctx = document.createElement("canvas").getContext("2d"));
+  ctx.font = face;
+  const ink = ctx.measureText(cased(INK));
+  const need = Math.ceil(((ink.actualBoundingBoxAscent + ink.actualBoundingBoxDescent) / px + 0.06) * 100) / 100;   // the ink, and a hair of air
+  const leading = Math.max(v.type.display_leading, need, 1.05);   // 1.05 is the floor for a face with no descenders
+  const advance = ctx.measureText(cased(WIDTH)).width / (px * WIDTH.length) + (parseFloat(v.type.display_tracking) || 0);
+  stage.style.setProperty("--display-leading", leading);
+  stage.style.setProperty("--h1-scale", Math.min(1, Math.max(0.6, 0.5 / advance)).toFixed(3));
+  for (const el of stage.querySelectorAll("h1, h2, .glyphs, .sample")) {
+    const centred = getComputedStyle(el).textAlign === "center";
+    const bearing = -ctx.measureText(cased(el.textContent.trim()[0] || "")).actualBoundingBoxLeft / px;
+    el.style.marginInlineStart = centred ? "" : `${(-bearing).toFixed(3)}em`;
+  }
+  $("t-lead").textContent = leading === v.type.display_leading ? `${leading}, as authored` : `${leading}, raised from ${v.type.display_leading} to clear the ink of this face`;
 }
 
 async function show(i) {
@@ -352,8 +394,9 @@ async function show(i) {
   Object.assign(stage.dataset, { style: s.id, hero: v.layout.hero, align: v.layout.align, density: v.layout.density, container: v.icon.container });
   stage.style.setProperty("--tilt", v.layout.tilt_deg + "deg");
   stage.style.setProperty("--h1-scale", v.type.display_case === "uppercase" ? 0.68 : 1);
+  stage.style.removeProperty("--display-leading");
   const cs = getComputedStyle(stage);
-  loadFonts(cs, String(v.type.display_weight));
+  loadFonts(cs, String(v.type.display_weight)).then(() => fit(v, cs, mine));
   document.body.style.background = cs.getPropertyValue("--color-bg");
   document.title = `${s.name}: grow your taste, one style at a time`;
 
@@ -377,9 +420,9 @@ async function show(i) {
   $("t-summary").textContent = data.summary;
   $("t-values").innerHTML = [
     ["Display face", first("--font-display")], ["Body face", first("--font-sans")], ["Display weight", v.type.display_weight],
-    ["Display tracking", v.type.display_tracking], ["Display leading", v.type.display_leading], ["Display case", v.type.display_case],
+    ["Display tracking", v.type.display_tracking], ["Display leading", v.type.display_leading], ["Leading in use", ""], ["Display case", v.type.display_case],
     ["Body", `${v.type.body_size}, leading ${v.type.body_leading}`],
-  ].map(([k, val]) => `<tr><th>${k}</th><td>${esc(val)}</td></tr>`).join("");
+  ].map(([k, val]) => `<tr><th>${k}</th><td${k === "Leading in use" ? ' id="t-lead"' : ""}>${esc(val)}</td></tr>`).join("");
   $("t-pairs").innerHTML = data.typography.font_pairings.map((p) => `<tr><th>${esc(p.display)}<br>${esc(p.body)}</th><td>${esc(p.note)}</td></tr>`).join("");
 
   // colour
