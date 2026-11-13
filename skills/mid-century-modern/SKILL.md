@@ -208,10 +208,24 @@ The pictures and icons of this style are files. Use them as they are, or read th
 | [`pack/icons.svg`](./pack/icons.svg) | Icon sprite: home, search, heart, star, bell, user, mail, calendar, image, bolt, play, check, close, sliders. |
 
 - **Icons:** solid, stroke 2 on a 24px field, round caps, round joins, container: none. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
+- **Icon family:** the sprite is cut from MingCute (Fill) by MingCute Design, licence Apache 2.0. Reason: Solid forms with soft corners: the organic silhouette of the period, with no outline. It is an open-source stand-in for a demo. For a product, use the icon library of the brand and choose the family by the rules below.
 - **Display type:** weight 600, tracking 0.01em, leading 1.05, case: none.
 - **Body type:** 17px, leading 1.6.
 - **Page:** hero split, left aligned, regular density, accent tilt 0°.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
+
+### How to choose an icon pack
+
+An icon pack is a typeface for pictures. Choose it with the same care as the text face. These rules hold for an open-source set and for a licensed library.
+
+1. **The stroke matches the stem.** Set an icon next to the body text at text size. The line of the icon and the stem of a letter have the same weight.
+2. **Terminals and corners follow the radius token.** Butt caps and mitre joins go with a radius of zero. Round caps and round joins go with a soft radius.
+3. **The fill mode follows the technology of the era.** Print eras cut solid forms. Screen eras with depth fill and shade the form. Current product interfaces draw an outline.
+4. **The metaphors are not younger than the style.** Each picture is an object that the era knew. An icon with a later metaphor breaks the period.
+5. **One family, one grid.** All icons come from one family and one variant, drawn on one field. Do not mix families on one surface.
+6. **The family covers the product.** List each concept that the product needs before you commit. A family that has no icon for one of them is the wrong family.
+7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
+8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
 ## Lineage fallbacks
 

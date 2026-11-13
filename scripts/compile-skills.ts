@@ -7,7 +7,7 @@ import Handlebars from "handlebars";
 import { existsSync, readFileSync, readdirSync, rmSync } from "node:fs";
 import { join } from "node:path";
 import { ROOT, loadAll, readJson, write, type Domain, type Style } from "./lib.js";
-import { ICONS, derivedTokens, heroSvg, iconSprite, patternSvg, typeTokens, type Visual } from "./pack.js";
+import { ICON_NAMES, derivedTokens, heroSvg, iconSprite, patternSvg, typeTokens, type IconPack, type Visual } from "./pack.js";
 
 const { domains, eras, styles } = loadAll();
 const byId = new Map(styles.map((s) => [s.id, s]));
@@ -67,10 +67,24 @@ function cssTokens(style: Style): [string, string][] {
   const v = visualOf(style);
   return Object.entries({ ...css, ...derivedTokens(css), ...(v ? typeTokens(v) : {}) });
 }
+const iconPacks = new Map<string, IconPack>();
+function iconPack(style: Style): IconPack {
+  const id = visualOf(style)!.icon.pack.id;
+  if (!iconPacks.has(id)) {
+    const file = join(ROOT, "icons", "packs", `${id}.json`);
+    if (!existsSync(file)) throw new Error(`${style.id}: visual.icon.pack.id "${id}" has no file in icons/packs/. Add it to icons/sources.json and run "npm run icons".`);
+    const pack = JSON.parse(readFileSync(file, "utf8")) as IconPack;
+    const missing = ICON_NAMES.filter((n) => !pack.icons[n]);
+    if (missing.length) throw new Error(`icons/packs/${id}.json has no icon for: ${missing.join(", ")}`);
+    iconPacks.set(id, pack);
+  }
+  return iconPacks.get(id)!;
+}
+const iconRules = JSON.parse(readFileSync(join(ROOT, "icons", "principles.json"), "utf8")) as { title: string; intro: string; rules: { rule: string; test: string }[] };
 const PACK_FILES = [
   { file: "hero.svg", what: "Hero plate, 800 by 600. An abstract picture in the visual language of the style." },
   { file: "pattern.svg", what: "Pattern tile, 80 by 80. It repeats in both directions." },
-  { file: "icons.svg", what: `Icon sprite: ${Object.keys(ICONS).join(", ")}.` },
+  { file: "icons.svg", what: `Icon sprite: ${ICON_NAMES.join(", ")}.` },
 ];
 
 // ── SKILL.md ────────────────────────────────────────────────────────────────
@@ -114,7 +128,9 @@ function view(style: Style, domain: Domain) {
       icon: visualOf(style)!.icon,
       type: visualOf(style)!.type,
       layout: visualOf(style)!.layout,
-      first_icon: Object.keys(ICONS)[0],
+      first_icon: ICON_NAMES[0],
+      icon_pack: { ...iconPack(style), why: visualOf(style)!.icon.pack.why },
+      icon_rules: iconRules,
     },
     primer: style.primer && {
       positive: style.primer.positive.join(", "),
@@ -229,7 +245,7 @@ for (const style of styles) {
   if (v) {
     write(`skills/${style.id}/pack/hero.svg`, heroSvg(style, v));
     write(`skills/${style.id}/pack/pattern.svg`, patternSvg(style, v));
-    write(`skills/${style.id}/pack/icons.svg`, iconSprite(style, v));
+    write(`skills/${style.id}/pack/icons.svg`, iconSprite(style, v, iconPack(style)));
   }
 }
 

@@ -410,7 +410,8 @@
             "stroke_width",
             "linecap",
             "linejoin",
-            "container"
+            "container",
+            "pack"
           ],
           "properties": {
             "mode": {
@@ -448,6 +449,25 @@
                 "square"
               ],
               "description": "The tile behind an icon."
+            },
+            "pack": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "why"
+              ],
+              "description": "The open-source icon family that stands in for this style in the demo, and the reason for the choice. The id names a file in icons/packs/.",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9-]+$"
+                },
+                "why": {
+                  "type": "string",
+                  "minLength": 20
+                }
+              }
             }
           }
         },

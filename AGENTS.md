@@ -16,7 +16,7 @@ You are in `design-ontology`: design styles as data, compiled into agent skills.
 - Before you commit, run `npm run typecheck` if you changed a script.
 - Commit the data and the generated files together. The pre-commit hook does this for you and moves the package version one patch step. Do not edit the patch number by hand; do not skip it with `--no-verify`.
 - In a page, set text with the derived tokens: `--color-on-bg` on the background, `--color-on-surface` on a surface, `--color-on-primary` on a primary button. Do not put `--color-text` on a surface.
-- Each skill has a visual pack in `skills/<id>/pack/`: `hero.svg`, `pattern.svg`, `icons.svg`. Use them before you draw your own.
+- Each skill has a visual pack in `skills/<id>/pack/`: `hero.svg`, `pattern.svg`, `icons.svg`. Use them before you draw your own. The sprite is an open-source stand-in: for a product, use the icon library of the brand and choose the family by the rules in the skill.
 - The content rules are in `CONTRIBUTING.md`. Read them before you write a style.
 
 ## Commands

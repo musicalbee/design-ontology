@@ -266,6 +266,7 @@
       <div class="flow">
         <div class="iconset" id="i-set"></div>
         <p class="small muted" id="i-spec"></p>
+        <p class="small muted" id="i-pack"></p>
       </div>
       <div class="kit">
         <div class="surface">
@@ -315,6 +316,7 @@ const RAW = "https://raw.githubusercontent.com/musicalbee/design-ontology/main/"
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const stage = $("stage");
+let packIndex;
 const ico = (name) => `<svg class="icon"><use href="#${name}"/></svg>`;
 let skills = [], graph = null, axes = [], at = 0, turn = 0;
 const names = () => Object.fromEntries(skills.map((s) => [s.id, s.name]));
@@ -380,9 +382,10 @@ async function show(i) {
   at = (i + skills.length) % skills.length;
   const mine = ++turn;
   const s = skills[at], dir = `../skills/${s.id}/`;
-  const [data, sprite] = await Promise.all([
+  const [data, sprite, packs] = await Promise.all([
     fetch(`../data/${s.domain}/styles/${s.id}.json`).then((r) => r.json()),
     fetch(dir + "pack/icons.svg").then((r) => r.text()),
+    (packIndex ??= fetch("../icons/packs/index.json").then((r) => r.json())),
     new Promise((ok) => { const l = $("tokens"); l.onload = l.onerror = ok; l.href = dir + "tokens.css"; }),
   ]);
   if (mine !== turn) return;
@@ -444,6 +447,8 @@ async function show(i) {
   const ids = [...$("sprite").querySelectorAll("symbol")].map((n) => n.id);
   $("i-set").innerHTML = ids.map((n) => `<div><span class="tile">${ico(n)}</span>${n}</div>`).join("");
   $("i-spec").textContent = `Icon treatment: ${v.icon.mode}, stroke ${v.icon.stroke_width} on a 24px field, ${v.icon.linecap} caps, ${v.icon.linejoin} joins, container: ${v.icon.container}. ${data.ornamentation_details.iconography}`;
+  const pk = packs[v.icon.pack.id];
+  $("i-pack").innerHTML = `Family: <a href="${esc(pk.author_url)}">${esc(pk.name)}</a>, ${esc(pk.variant)}, by ${esc(pk.author)}. Licence: <a href="${esc(pk.license_url)}">${esc(pk.license)}</a>. ${esc(v.icon.pack.why)} The family is an open-source stand-in. A product uses the icon library of its brand, chosen by the same rules.`;
   $("i-tw").innerHTML = data.tokens.tailwind.map((t) => `<tr><th>${esc(t.element)}</th><td><code>${esc(t.classes)}</code></td></tr>`).join("");
 
   // pack

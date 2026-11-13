@@ -98,10 +98,19 @@ The pictures and icons of this style are files. Use them as they are, or read th
 {{/each}}
 
 - **Icons:** {{pack.icon.mode}}, stroke {{pack.icon.stroke_width}} on a 24px field, {{pack.icon.linecap}} caps, {{pack.icon.linejoin}} joins, container: {{pack.icon.container}}. Use: `<svg class="icon"><use href="pack/icons.svg#{{pack.first_icon}}"/></svg>`. An icon takes `currentColor`.
+- **Icon family:** the sprite is cut from {{pack.icon_pack.name}} ({{pack.icon_pack.variant}}) by {{pack.icon_pack.author}}, licence {{pack.icon_pack.license}}. Reason: {{pack.icon_pack.why}} It is an open-source stand-in for a demo. For a product, use the icon library of the brand and choose the family by the rules below.
 - **Display type:** weight {{pack.type.display_weight}}, tracking {{pack.type.display_tracking}}, leading {{pack.type.display_leading}}, case: {{pack.type.display_case}}.
 - **Body type:** {{pack.type.body_size}}, leading {{pack.type.body_leading}}.
 - **Page:** hero {{pack.layout.hero}}, {{pack.layout.align}} aligned, {{pack.layout.density}} density, accent tilt {{pack.layout.tilt_deg}}°.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
+
+### {{pack.icon_rules.title}}
+
+{{pack.icon_rules.intro}}
+
+{{#each pack.icon_rules.rules}}
+{{inc @index}}. **{{rule}}** {{test}}
+{{/each}}
 
 {{/if}}
 {{#if primer}}

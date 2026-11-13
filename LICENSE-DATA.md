@@ -9,5 +9,8 @@ You can copy, change and redistribute this material for any purpose, commercial 
 When you redistribute the data or a work derived from it, give credit: name "design-ontology"
 and link to https://github.com/musicalbee/design-ontology.
 
+The icon files in `icons/packs/` and `skills/<id>/pack/icons.svg` are not covered by this licence.
+Each family keeps the licence of its author. See `icons/README.md`.
+
 A website, an app or a design that an agent makes with a skill from this repository is your
 work. It needs no credit.

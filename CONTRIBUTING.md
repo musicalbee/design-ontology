@@ -18,7 +18,7 @@ A contribution is one JSON file in `data/<domain>/styles/`. The build makes all 
 - **Numbers.** Each rule names a property and a measure: px, em, a ratio, a column count, a hex value.
 - **Anti-patterns name the thing.** Write "Rounded corners on containers". Do not start with "Never", "Do not" or "Avoid"; the compiler adds `NEVER`.
 - **One text colour.** Write `--color-text` for the main field. Do not write `--color-on-*`, `--color-muted-on-*` or `--color-link*`; the compiler derives them and holds each one at 4.5 to 1.
-- **The `visual` block.** Set the type treatment, the icon treatment, the layout and `art.recipe`. A recipe is a function in `scripts/pack.ts`. If no recipe fits your style, add one there.
+- **The `visual` block.** Set the type treatment, the icon treatment, the layout and `art.recipe`. In `visual.icon.pack`, name an open-source icon family from `icons/packs/` and give the reason by the rules in `icons/principles.json`. For a new family, add it to `icons/sources.json` and run `npm run icons`. The licence must be MIT, ISC, Apache 2.0 or CC BY 4.0. A recipe is a function in `scripts/pack.ts`. If no recipe fits your style, add one there.
 - **Scores are relative.** Before you set a vector, run `npm run query -- list` and compare with the styles that have the same score.
 - **Lineage is a claim.** `evolved_from` and `rebelled_against` point only at styles that started earlier or in the same year. `hybridized_with` has no year rule. `echoes` points only at a style in a different domain.
 - **Fonts are open source.** SIL OFL or Apache, available on Google Fonts.
