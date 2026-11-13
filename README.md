@@ -14,6 +14,8 @@ Bauhaus to visionOS. JSON in, `SKILL.md` + `tokens.css` out. No runtime, no API 
 ![data](https://img.shields.io/badge/data-CC%20BY%204.0-111111)
 ![PRs](https://img.shields.io/badge/PRs-one%20JSON%20file-E30613)
 
+<a href="https://musicalbee.github.io/design-ontology/demo/"><img src="assets/showreel.gif" width="880" alt="One landing page that wears 17 design styles in turn, from Bauhaus to visionOS"></a>
+
 [**Live demo**](https://musicalbee.github.io/design-ontology/demo/) · [Skill index](skills/SKILL_INDEX.md) · [Add a style](#add-a-style) · [The schema](schema/domains/design.schema.json)
 
 </div>
