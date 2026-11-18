@@ -207,9 +207,12 @@ function plan(s) {
   out.push(`<text x="${W * 0.83}" y="${D + 34}" text-anchor="middle" fill="#5d5d66">door</text><text x="-34" y="${D * 0.47}" text-anchor="middle" fill="#5d5d66" transform="rotate(-90 -34 ${D * 0.47})">window</text>`);
 
   // group centre: on the axis (bilateral), on a third (asymmetric) or loose (free)
-  const gx = bil ? W / 2 : free ? W * 0.46 : (c.focal_wall === "back" ? fx : W * 0.42);
-  const gy = c.focal_wall === "left" || c.focal_wall === "window" ? D * 0.5 : D * 0.5;
-  const faceLeft = c.focal_wall === "left" || c.focal_wall === "window";
+  const faceRight = c.focal_wall === "right";
+  const gx = faceRight ? W * 0.58 : bil ? W / 2 : free ? W * 0.46 : (c.focal_wall === "back" ? fx : W * 0.42);
+  const gy = faceRight ? fy : D * 0.5;
+  // a side focal wall turns the group: the seats face the left (window) or the right wall
+  const faceLeft = c.focal_wall === "left" || c.focal_wall === "window" || faceRight;
+  const side = faceRight ? -1 : 1;
   const sofaW = 190 + v.formality * 18, sofaD = 85 + (5 - v.density) * 3;
   const tW = 100 + v.formality * 8, tD = c.symmetry === "free" ? tW : 60;
   const gap = z.seat_to_table_cm;
@@ -228,18 +231,22 @@ function plan(s) {
     if (bil) items.push(chair(-1), chair(1));
     else items.push(chair(free ? -1 : (gx > W / 2 ? -1 : 1)));
   } else {
-    const sx = gx + tW / 2 + gap + sofaD / 2;
-    const rL = gx - tD / 2 - 45, rR = sx + sofaD / 2 + 15;
-    items.push(["rug", (rL + rR) / 2, gy, rR - rL, sofaW + rugPad * 2, pick(cols, "secondary"), rot(-8), 4]);
+    const sx = gx + side * (tW / 2 + gap + sofaD / 2);
+    const rL = gx - side * (tD / 2 + 45), rR = sx + side * (sofaD / 2 + 15);
+    items.push(["rug", (rL + rR) / 2, gy, Math.abs(rR - rL), sofaW + rugPad * 2, pick(cols, "secondary"), rot(-8), 4]);
     items.push(["table", gx, gy, tD, tW, pick(cols, "wood", "accent"), rot(10), free ? tW / 2 : 6]);
     items.push(["sofa", sx, gy, sofaD, sofaW, soft, rot(-18), 10]);
     items.push(["chair", gx, gy - tW / 2 - gap - 40, 75, 75, soft2, 0, 8]);
     if (bil) items.push(["chair", gx, gy + tW / 2 + gap + 40, 75, 75, soft2, 0, 8]);
   }
   // wall storage and focal piece; more pieces as density grows
-  if (c.focal_wall !== "window" && c.focal_wall !== "left") items.push(["focal piece", fx, c.focal_wall === "centre" ? fy : 28, c.focal_wall === "centre" ? 60 : 160, c.focal_wall === "centre" ? 60 : 40, acc[0] ?? dark, rot(-22), c.focal_wall === "centre" ? 30 : 2]);
-  if (v.density >= 2) items.push(["sideboard", W - 30, D * 0.55, 45, 170, pick(cols, "wood", "secondary"), 0, 2]);
-  if (v.density >= 3) items.push(["side table", gx - sofaW / 2 - 35, (faceLeft ? gy : gy + tD / 2 + gap + sofaD / 2), 40, 40, acc[1] ?? dark, rot(15), 20]);
+  if (c.focal_wall === "centre") items.push(["focal piece", fx, fy, 60, 60, acc[0] ?? dark, rot(-22), 30]);
+  else if (faceRight) items.push(["focal piece", W - 28, fy, 40, 160, acc[0] ?? dark, 0, 2]);
+  else if (c.focal_wall === "back") items.push(["focal piece", fx, 28, 160, 40, acc[0] ?? dark, rot(-22), 2]);
+  // storage stands on the right wall, or on the back wall when the right wall holds the focal point
+  if (v.density >= 2) items.push(faceRight ? ["sideboard", W * 0.25, 30, 170, 45, pick(cols, "wood", "secondary"), 0, 2] : ["sideboard", W - 30, D * 0.55, 45, 170, pick(cols, "wood", "secondary"), 0, 2]);
+  // the side table stands at the end of the sofa
+  if (v.density >= 3) items.push(faceLeft ? ["side table", gx + side * (tW / 2 + gap + sofaD / 2), gy - sofaW / 2 - 35, 40, 40, acc[1] ?? dark, rot(15), 20] : ["side table", gx - sofaW / 2 - 35, gy + tD / 2 + gap + sofaD / 2, 40, 40, acc[1] ?? dark, rot(15), 20]);
   if (bil && !faceLeft) items.push(["side table", gx + sofaW / 2 + 35, gy + tD / 2 + gap + sofaD / 2, 40, 40, acc[1] ?? dark, 0, 20]);
   if (v.density >= 4) items.push(["plant", 45, D - 45, 50, 50, "#6b8f5a", 0, 25], ["chair", W * 0.2, D * 0.82, 70, 70, acc[2] ?? soft2, rot(30), 35]);
   // the rug is a translucent field, so the pieces on it stay readable

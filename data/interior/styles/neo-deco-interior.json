@@ -1,0 +1,383 @@
+{
+  "$schema": "../../../schema/domains/interior.schema.json",
+  "domain": "interior",
+  "id": "neo-deco-interior",
+  "name": "Neo-deco",
+  "aliases": [
+    "Art Deco revival",
+    "New Deco",
+    "Modern Deco"
+  ],
+  "identity": {
+    "wikidata": "Q125739188"
+  },
+  "era_id": "networked-home",
+  "time_period": {
+    "start": 2020,
+    "end": null,
+    "label": "2020–present"
+  },
+  "room_types": [
+    "living",
+    "dining",
+    "bedroom",
+    "hospitality",
+    "retail"
+  ],
+  "summary": "Art Deco after a century, made soft. Curved bouclé and velvet seats, fluted wood, arches, ribbed glass and brushed brass keep the geometry and the glamour of the 1920s, but in warm, muted colours and rounded forms.",
+  "philosophy": {
+    "core_thesis": "Deco glamour without the hard edges: curves, ribs and warm metal make luxury feel soft and personal.",
+    "design_principles": [
+      "Round every form: curved sofas, arched mirrors and doorways, pill-shaped tables.",
+      "Use ribs and flutes as the main ornament: fluted wood, reeded glass, ribbed plaster.",
+      "Keep the palette warm and muted: terracotta, sage, ochre, burgundy and cream with brushed brass.",
+      "Place one curved seat group in the centre of the room, not against the walls.",
+      "Use one or two glamorous materials, such as velvet and brass, with matt plaster.",
+      "Light with globe and mushroom lamps and with arched niches lit from inside."
+    ],
+    "anti_patterns": [
+      "Sharp-cornered, rectilinear furniture",
+      "High-gloss black lacquer on large walls",
+      "Cold blue light",
+      "Rustic, raw finishes",
+      "Saturated primary colours"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "density": 3,
+    "formality": 3,
+    "material_naturalness": 3,
+    "chromatic_intensity": 3
+  },
+  "composition": {
+    "plan_logic": "An open room with a curved seat group that floats in the centre on a round rug. Arched niches and a fluted wall frame it; the rest stays calm.",
+    "focal_point": "A curved velvet sofa and a round fluted table on a round rug in the centre of the room.",
+    "symmetry": "radial",
+    "axis_count": 1,
+    "focal_wall": "centre",
+    "focal_position": 0.5,
+    "rhythm_module_cm": 4,
+    "depth_layers": 2,
+    "rules": [
+      {
+        "principle": "focal-point",
+        "rule": "Float a curved seat group in the centre of the room on a round rug.",
+        "value": "1 centre group"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Repeat flutes and ribs on wood, glass and plaster at a fine pitch.",
+        "value": "4 cm flute pitch"
+      },
+      {
+        "principle": "unity-variety",
+        "rule": "Repeat the arch and the circle at 3 scales: doorway, mirror and table.",
+        "value": "1 motif, 3 scales"
+      },
+      {
+        "principle": "symmetry-axis",
+        "rule": "Centre the arched niches or the mirror on the seat group, but let the loose pieces stay free.",
+        "value": "1 axis"
+      },
+      {
+        "principle": "contrast",
+        "rule": "Keep contrast medium: warm muted tones with brass highlights.",
+        "value": "LRV difference 30–40"
+      },
+      {
+        "principle": "framing",
+        "rule": "Frame doors, mirrors and shelves with arches.",
+        "value": "semicircular head, radius = 1/2 width"
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Give a warm plaster tone the walls, one muted colour the upholstery and brass and dark wood the accents.",
+        "value": "60/30/10"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Use globe and mushroom lamps and light the niches from inside; keep the ceiling quiet.",
+        "value": "120 lux ambient, 300 lux task, 2700 K"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Keep a ring route around the centre group.",
+        "value": "100 cm main, 75 cm secondary"
+      }
+    ]
+  },
+  "zoning": {
+    "zones": [
+      "curved centre seat group",
+      "arched niche with bar or shelves",
+      "dining table",
+      "reading chair"
+    ],
+    "circulation": "A ring route around the round rug.",
+    "main_path_clear_cm": 100,
+    "secondary_path_clear_cm": 75,
+    "seat_to_table_cm": 40,
+    "conversation_diameter_cm": 260,
+    "floor_coverage_pct": 45,
+    "wall_coverage_pct": 30
+  },
+  "palette": {
+    "distribution": "Warm plaster walls; terracotta, sage or burgundy velvet and bouclé; fluted walnut; brushed brass in lamps and trims.",
+    "dominant_pct": 60,
+    "secondary_pct": 30,
+    "accent_pct": 10,
+    "colours": [
+      {
+        "name": "Warm plaster",
+        "hex": "#E8D8C4",
+        "role": "dominant",
+        "surface": "walls and arches"
+      },
+      {
+        "name": "Terracotta",
+        "hex": "#B5654A",
+        "role": "secondary",
+        "surface": "sofa, chairs"
+      },
+      {
+        "name": "Sage",
+        "hex": "#9AA585",
+        "role": "secondary",
+        "surface": "bouclé chairs, niches"
+      },
+      {
+        "name": "Fluted walnut",
+        "hex": "#5E3F2A",
+        "role": "wood",
+        "surface": "table, wall panels"
+      },
+      {
+        "name": "Brushed brass",
+        "hex": "#B39253",
+        "role": "metal",
+        "surface": "lamps, trims, legs"
+      },
+      {
+        "name": "Burgundy",
+        "hex": "#6F2B33",
+        "role": "accent",
+        "surface": "cushions, glass"
+      }
+    ]
+  },
+  "lighting": {
+    "strategy": "Soft globe light and lit niches; brass and ribbed glass make warm, diffuse sparkle.",
+    "daylight": "Daylight through linen sheers on a curved track; reeded glass screens soften it further.",
+    "ambient_lux": 120,
+    "task_lux": 300,
+    "accent_ratio": 3,
+    "cct_k": 2700,
+    "cct_evening_k": 2400,
+    "cri_min": 95,
+    "layers": [
+      {
+        "layer": "decorative",
+        "source": "opal glass globe pendant with brass",
+        "position": "over the centre group"
+      },
+      {
+        "layer": "task",
+        "source": "mushroom table lamp in ribbed glass",
+        "position": "on side tables"
+      },
+      {
+        "layer": "accent",
+        "source": "LED strip inside the arched niches",
+        "position": "niches on the back wall"
+      },
+      {
+        "layer": "daylight",
+        "source": "linen sheers on a curved track",
+        "position": "window wall"
+      }
+    ]
+  },
+  "materials": {
+    "primary": [
+      "lime or Venetian plaster",
+      "fluted walnut",
+      "velvet and bouclé"
+    ],
+    "secondary": [
+      "brushed brass",
+      "reeded glass",
+      "travertine",
+      "terrazzo"
+    ],
+    "finish": "Matt plaster, satin wood, brushed metal; no high gloss on large surfaces.",
+    "texture_contrast": "Soft bouclé and velvet against ribbed wood and smooth plaster, at about 1:1."
+  },
+  "furniture": {
+    "silhouette": "Curved and rounded pieces: crescent sofas, barrel chairs, pill and drum tables, all low and soft.",
+    "arrangement": "One curved group floats in the centre on a round rug; arched shelves line one wall.",
+    "seat_height_cm": 42,
+    "key_pieces": [
+      "curved velvet sofa",
+      "bouclé barrel chairs",
+      "round fluted coffee table",
+      "arched mirror",
+      "globe pendant",
+      "travertine side table"
+    ]
+  },
+  "textiles": {
+    "fabrics": [
+      "velvet",
+      "bouclé",
+      "mohair",
+      "linen"
+    ],
+    "pattern": "Few patterns: a fan or arch motif on a rug, or a quiet geometric in one tone.",
+    "windows": "Linen sheers on a curved track, floor to ceiling."
+  },
+  "objects": {
+    "approach": "A few sculptural pieces: ribbed glass, brass, travertine and one deco-style print.",
+    "grouping": "Groups of 3 on niche shelves, curved and straight forms mixed.",
+    "max_per_surface": 3,
+    "hang_centre_cm": 150,
+    "items": [
+      "ribbed glass vase",
+      "brass bowl",
+      "travertine sculpture",
+      "deco poster print",
+      "coffee-table books"
+    ]
+  },
+  "implementation": {
+    "brief": "A warm plaster room with arched niches and a fluted walnut wall. A curved terracotta velvet sofa, two sage bouclé barrel chairs and a round fluted table float on a round rug under an opal globe pendant.",
+    "image_prompt": "Neo-deco living room, warm plaster walls, arched lit niches, fluted walnut wall panel, curved terracotta velvet sofa, two sage boucle barrel chairs, round fluted wood coffee table on a round rug, opal glass globe pendant with brushed brass, ribbed glass mushroom lamp, arched mirror, travertine side table, warm muted palette, soft glamorous light, contemporary Art Deco revival, interior photograph",
+    "negative_prompt": "Sharp corners, black lacquer walls, cold light, rustic, primary colours, clutter.",
+    "camera": "28 mm lens at 120 cm, three-quarter view on the centre group with an arch behind it.",
+    "scene_3d": "Room 600 x 500 cm, ceiling 280 cm. 2700 K globe pendant at 210 cm; 2400 K strips in 3 niches; velvet and bouclé with sheen 0.3.",
+    "furniture_list": [
+      "curved sofa 260 x 100 x 75 cm, seat 42 cm",
+      "2 barrel chairs 75 x 75 x 70 cm",
+      "fluted table 100 cm round x 38 cm",
+      "round rug 300 cm",
+      "arched mirror 90 x 180 cm"
+    ],
+    "material_list": [
+      "lime plaster, warm",
+      "walnut, fluted",
+      "terracotta velvet",
+      "sage bouclé",
+      "brushed brass",
+      "reeded glass",
+      "travertine"
+    ],
+    "references": []
+  },
+  "lineage": {
+    "evolved_from": [
+      "art-deco-interior"
+    ],
+    "rebelled_against": [
+      "minimalist-interior"
+    ],
+    "hybridized_with": [
+      "quiet-luxury-interior"
+    ],
+    "echoes": [
+      "art-deco-web",
+      "art-deco-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Soft glamour: the viewer feels pampered and a little elegant, in a warm and rounded room.",
+    "keywords": [
+      "curved",
+      "warm",
+      "glamorous",
+      "soft",
+      "elegant",
+      "nostalgic"
+    ],
+    "brand_archetypes": [
+      "lover",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "neo deco",
+      "new deco",
+      "modern art deco",
+      "curved sofa",
+      "fluted wood",
+      "arched niche",
+      "boucle",
+      "deco revival"
+    ],
+    "use_cases": [
+      "restaurants and bars",
+      "boutique hotels",
+      "beauty salons",
+      "living rooms",
+      "fashion retail"
+    ],
+    "avoid_when": [
+      "The brief asks for a rustic or technical room.",
+      "The budget does not allow curved custom upholstery."
+    ],
+    "modifiers": [
+      {
+        "request": "bolder and original",
+        "toward": "art-deco-interior",
+        "how": "Add black lacquer, macassar ebony, chrome and a strict symmetric plan; sharpen the contrast."
+      },
+      {
+        "request": "quieter",
+        "toward": "quiet-luxury-interior",
+        "how": "Remove the colour, keep the curves in greige bouclé and travertine, and reduce the brass."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "neo-deco interior",
+      "curved velvet sofa",
+      "fluted walnut",
+      "arched niches",
+      "boucle barrel chairs",
+      "opal globe pendant",
+      "brushed brass",
+      "ribbed glass",
+      "terracotta and sage",
+      "round rug"
+    ],
+    "negative": [
+      "sharp corners",
+      "black lacquer",
+      "cold light",
+      "rustic",
+      "primary colours"
+    ],
+    "canonical_works": [
+      {
+        "work": "Pierre Yovanovitch furniture",
+        "architect": "Pierre Yovanovitch",
+        "year": 2017
+      },
+      {
+        "work": "India Mahdavi interiors",
+        "architect": "India Mahdavi",
+        "year": 2014
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Trend evidence, cite only: design press and image platforms describe a deco revival from about 2020, a century after 1920"
+    },
+    {
+      "title": "Wikidata Q125739188: Art Deco Revival",
+      "url": "https://www.wikidata.org/wiki/Q125739188"
+    }
+  ]
+}

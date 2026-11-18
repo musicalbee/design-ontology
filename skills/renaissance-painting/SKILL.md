@@ -171,6 +171,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`baroque-painting`](../baroque-painting/SKILL.md)
 - **Was rejected by:** [`cubism-painting`](../cubism-painting/SKILL.md)
+- **Kin in another domain:** [`georgian-interior`](../georgian-interior/SKILL.md)
 - **Nearest by vector profile:** [`baroque-painting`](../baroque-painting/SKILL.md), [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md)
 
 ## Emotional target
