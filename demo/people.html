@@ -37,6 +37,7 @@
   .life.unknown { stroke-dasharray: 2 3; stroke-width: 1.5; }
   .fade { stroke: var(--ink); stroke-width: 2; stroke-opacity: .25; stroke-dasharray: 1 3; }
   .ms { fill: var(--paper); stroke: var(--ink); stroke-width: 1.2; }
+  .ms.post { stroke-dasharray: 1.5 1.5; }
   .row { cursor: pointer; }
   .row .hit { fill: transparent; }
   .row:hover .hit { fill: var(--band); fill-opacity: .55; }
@@ -74,7 +75,7 @@
 <main>
   <header>
     <h1>People and their styles</h1>
-    <p class="lede">Each row is one life on the same time line as the styles. The line runs from birth to death. Before 1840 the scale is compressed. The pale band behind it is the period of each style that the person started, shaped or spread, so you can see if a person came before a style, lived through it or outlived it. Dots are dated milestones. A dotted line means that no open source gives the year of birth: it covers only the dated milestones.</p>
+    <p class="lede">Each row is one life on the same time line as the styles. The line runs from birth to death. Before 1840 the scale is compressed. The pale band behind it is the period of each style that the person started, shaped or spread, so you can see if a person came before a style, lived through it or outlived it. Dots are dated milestones; a dashed dot is an event after death. A dotted line means that no open source gives the year of birth: it covers only the dated milestones.</p>
   </header>
   <div class="controls" id="controls">
     <span id="domains"></span>
@@ -142,7 +143,7 @@ function draw() {
       r += `</g>`;
       r += `<line class="life ${s.kind}" x1="${x(s.a)}" x2="${x(s.b)}" y1="${y}" y2="${y}"/>`;
       if (s.kind === "alive") r += `<line class="fade" x1="${x(s.b)}" x2="${x(s.b) + 14}" y1="${y}" y2="${y}"/>`;
-      for (const m of p.milestones) r += `<circle class="ms" cx="${x(m.year)}" cy="${y}" r="2.6"><title>${m.year}: ${esc(m.event)}</title></circle>`;
+      for (const m of p.milestones) r += `<circle class="ms${m.posthumous ? " post" : ""}" cx="${x(m.year)}" cy="${y}" r="2.6"><title>${m.year}${m.posthumous ? " (after death)" : ""}: ${esc(m.event)}</title></circle>`;
       r += `<text class="name" x="${x(s.a) - 6}" y="${y + 4}" text-anchor="end">${esc(p.name)}</text>`;
       const yrs = s.kind === "unknown" ? `active ${s.a}${s.b > s.a ? "–" + s.b : ""}` : `${s.a}–${p.died ?? ""}`;
       r += `<text class="yrs" x="${x(Math.max(s.b, ...p.styles.map((t) => styleById[t.style]?.end ?? NOW))) + (s.kind === "alive" ? 18 : 6)}" y="${y + 4}">${yrs}</text>`;
@@ -192,14 +193,14 @@ function panel(id) {
     : "";
   $("panel").innerHTML = `${photo}<h2>${esc(p.name)}</h2><p class="meta">${yrs}${p.nationality.length ? " · " + esc(p.nationality.join(", ")) : ""}</p><p>${esc(p.bio)}</p>` +
     (p.styles.length ? `<h3>Styles</h3><ul>${p.styles.map((s) => { const sn = styleById[s.style]; return `<li><a href="graph.html#${esc(s.style)}">${esc(sn?.name ?? s.style)}</a> <span class="role">${esc(ROLE[s.role])}${sn ? ` · ${sn.start}–${sn.end ?? "now"}` : ""}</span></li>`; }).join("")}</ul>` : "") +
-    (p.milestones.length ? `<h3>Milestones</h3><ol class="ms-list">${p.milestones.map((m) => `<li><b>${m.year}</b><span>${esc(m.event)}</span></li>`).join("")}</ol>` : "") +
+    (p.milestones.length ? `<h3>Milestones</h3><ol class="ms-list">${p.milestones.map((m) => `<li><b>${m.year}</b><span>${esc(m.event)}${m.posthumous ? ' <span class="role">after death</span>' : ""}</span></li>`).join("")}</ol>` : "") +
     (p.wikidata ? `<h3>Open data</h3><ul><li><a href="https://www.wikidata.org/wiki/${esc(p.wikidata)}">Wikidata ${esc(p.wikidata)}</a></li></ul>` : "");
 }
 
 Promise.all([fetch("../graph/people.json").then((r) => r.json()), fetch("../graph/lineage.json").then((r) => r.json())]).then(([people, lineage]) => {
   P = people; S = lineage;
   styleById = Object.fromEntries(S.nodes.map((n) => [n.id, n]));
-  for (const p of P.people) domainOf[p.id] = styleById[p.styles[0]?.style]?.domain ?? "unplaced";
+  for (const p of P.people) domainOf[p.id] = p.domain;
   $("domains").innerHTML = [["all", "All"], ...S.domains.map((d) => [d.id, d.name])]
     .map(([id, name]) => `<label><input type="radio" name="dom" value="${esc(id)}"${id === "all" ? " checked" : ""}>${esc(name)}</label>`).join(" ");
   draw();

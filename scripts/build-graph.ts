@@ -104,9 +104,11 @@ const people = loadPeople()
       died: p.died,
       // The first and the last dated milestone. The time line uses it when no born year is known.
       active: years.length ? [Math.min(...years), Math.max(...years)] : null,
+      // The lane on the time line: the domain of the first style. Unplaced when there is no style.
+      domain: byId.get(p.styles[0]?.style ?? "")?.domain ?? "unplaced",
       nationality: p.nationality ?? [],
       bio: p.bio,
-      photo: p.photo ? { url: p.photo.url, page: p.photo.page ?? null, licence: p.photo.licence, credit: p.photo.credit } : null,
+      photo: p.photo ? { url: p.photo.url, page: p.photo.page, licence: p.photo.licence, credit: p.photo.credit } : null,
       wikidata: p.identity?.wikidata ?? null,
       styles: p.styles,
       milestones: [...p.milestones].sort((a, b) => a.year - b.year),

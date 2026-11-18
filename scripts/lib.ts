@@ -107,7 +107,7 @@ export interface Person {
   nationality?: string[];
   bio: string;
   styles: { style: string; role: "founder" | "key-figure" | "forerunner" | "populariser" | "trend-setter" | "rebel" }[];
-  milestones: { year: number; event: string; style?: string }[];
+  milestones: { year: number; event: string; style?: string; posthumous?: boolean }[];
   photo: { file: string; url: string; page?: string; licence: string; licence_url?: string; credit: string } | null;
   sources: { title: string; url?: string }[];
   found_in?: string[];

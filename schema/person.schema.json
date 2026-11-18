@@ -44,7 +44,7 @@
     "styles": {
       "type": "array",
       "uniqueItems": true,
-      "description": "The styles this person is tied to. Empty is permitted for a person who works across styles (a trend-setter from a source with no style match yet).",
+      "description": "The styles this person is tied to. The first one is the style the person is filed under on the time line: its domain is the lane. Empty is permitted for a person who works across styles (a trend-setter from a source with no style match yet).",
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -68,14 +68,15 @@
         "properties": {
           "year": { "type": "integer", "minimum": 1200, "maximum": 2030 },
           "event": { "$ref": "core.schema.json#/$defs/sentence" },
-          "style": { "$ref": "core.schema.json#/$defs/slug" }
+          "style": { "$ref": "core.schema.json#/$defs/slug" },
+          "posthumous": { "const": true, "description": "Set it on an event after the year of death (a building completed or a chapel opened after the person died). A milestone after died without it is an error." }
         }
       }
     },
     "photo": {
       "type": ["object", "null"],
       "additionalProperties": false,
-      "required": ["file", "url", "licence", "credit"],
+      "required": ["file", "url", "page", "licence", "credit"],
       "description": "A portrait on Wikimedia Commons, linked, not copied. Null when Commons has no free portrait.",
       "properties": {
         "file": { "type": "string", "minLength": 5, "description": "The Commons file name." },

@@ -123,6 +123,7 @@ if (!schemaOnly && errors.length === 0) {
 // The people layer: one schema, ids equal to file names, style references that resolve, years in order.
 const validatePerson = ajv.compile(readJson<object>(join(ROOT, "schema", "person.schema.json")));
 const people = loadPeople();
+const wikidataSeen = new Map<string, string>();
 const covered = new Set<string>();
 for (const { file, slug, person } of people) {
   if (!validatePerson(person)) {
@@ -130,6 +131,9 @@ for (const { file, slug, person } of people) {
     continue;
   }
   if (person.id !== slug) errors.push(`${file}: id "${person.id}" is not equal to the file name`);
+  const qid = person.identity?.wikidata;
+  if (qid && wikidataSeen.has(qid)) errors.push(`${file}: Wikidata ${qid} is also in ${wikidataSeen.get(qid)}`);
+  if (qid) wikidataSeen.set(qid, file);
   if (person.born !== null && person.died !== null && person.died < person.born)
     errors.push(`${file}: died (${person.died}) is before born (${person.born})`);
   const own = new Set(person.styles.map((s) => s.style));
@@ -140,6 +144,9 @@ for (const { file, slug, person } of people) {
   }
   for (const m of person.milestones) {
     if (person.born !== null && m.year < person.born) errors.push(`${file}: milestone ${m.year} is before born (${person.born})`);
+    const after = person.died !== null && m.year > person.died;
+    if (after && !m.posthumous) errors.push(`${file}: milestone ${m.year} is after died (${person.died}); mark it "posthumous": true if that is correct`);
+    if (!after && m.posthumous) errors.push(`${file}: milestone ${m.year} is marked posthumous, but it is not after died`);
     if (m.style && !own.has(m.style)) errors.push(`${file}: milestone ${m.year} names style "${m.style}", which is not in styles`);
   }
   if (person.born === null && !person.milestones.length)
