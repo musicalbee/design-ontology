@@ -376,7 +376,7 @@ A pen with a flat, square-cut tip held at a fixed angle, so the width of a strok
 Used by: [`blackletter`](./blackletter/SKILL.md), [`garalde-old-style`](./garalde-old-style/SKILL.md), [`humanist-sans`](./humanist-sans/SKILL.md).
 
 - Hold the nib edge at 30–45° to the baseline and keep that angle for every stroke.
-- Make the stem width 4–5 nib widths of the x-height in a book hand and 3–4 in a broken hand.
+- Make the x-height about 4 nib widths in a round book hand and about 5 in textura; a stem is one nib width wide.
 - Let the thin parts fall on the diagonal of the nib angle, so the o has its thinnest points at about 11 and 5 o'clock.
 
 Sources: [Blackletter (Wikipedia)](https://en.wikipedia.org/wiki/Blackletter); [Calligraphy (Wikipedia)](https://en.wikipedia.org/wiki/Calligraphy); [Edward Johnston (Wikipedia)](https://en.wikipedia.org/wiki/Edward_Johnston).
