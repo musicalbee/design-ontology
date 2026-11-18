@@ -141,6 +141,14 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
 
+### Broad-nib pen (tool)
+
+A pen with a flat, square-cut tip held at a fixed angle, so the width of a stroke changes with its direction and the stress of the letter is diagonal. Origin: typeface, Mainz, c. 1454.
+
+- Hold the nib edge at 30–45° to the baseline and keep that angle for every stroke.
+- Make the x-height about 4 nib widths in a round book hand and about 5 in textura; a stem is one nib width wide.
+- Let the thin parts fall on the diagonal of the nib angle, so the o has its thinnest points at about 11 and 5 o'clock.
+
 ### Roman capital proportions (motif)
 
 Capital letters with the proportions of Roman stone inscriptions: some letters wide and round, some narrow, and each one built for the eye, not for one measure. Origin: architecture, Rome, 113.
@@ -158,9 +166,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more modern**: move toward [`humanist-sans`](../humanist-sans/SKILL.md) (Humanist sans). Keep the pen-based skeleton and the open apertures; drop the serifs and bring the contrast down to 1.3:1.
 
 - **Led to (go here for a newer version):** [`humanist-sans`](../humanist-sans/SKILL.md), [`transitional-serif`](../transitional-serif/SKILL.md)
+- **Rejects (the opposite pole; do not blend):** [`blackletter`](../blackletter/SKILL.md)
 - **Was rejected by:** [`didone-serif`](../didone-serif/SKILL.md), [`geometric-sans`](../geometric-sans/SKILL.md)
 - **Kin in another domain:** [`renaissance-architecture`](../renaissance-architecture/SKILL.md), [`renaissance-painting`](../renaissance-painting/SKILL.md)
-- **Nearest by vector profile:** [`transitional-serif`](../transitional-serif/SKILL.md), [`humanist-sans`](../humanist-sans/SKILL.md), [`grotesque-sans`](../grotesque-sans/SKILL.md)
+- **Nearest by vector profile:** [`transitional-serif`](../transitional-serif/SKILL.md), [`formal-script`](../formal-script/SKILL.md), [`humanist-sans`](../humanist-sans/SKILL.md)
 
 ## Emotional target
 

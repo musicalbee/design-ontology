@@ -216,7 +216,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 300, subhead 300, body 400, bold in text 600, labels and buttons 600. The style uses 3 weights (300, 400, 600) and no other. The display is 100 lighter than the body, so size carries the hierarchy. The accent is size: a larger word is the accent, so the weights stay few.
 - **Body type:** 16px, leading 1.45.
 - **Page:** hero poster, left aligned, compact density, accent tilt 0°.
-- **Ground:** tiles. Metro is a wall of flat live tiles in solid colour on a black field. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** tiles. Metro is a wall of flat live tiles in solid colour on a black field. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack

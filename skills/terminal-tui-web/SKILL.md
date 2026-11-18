@@ -216,7 +216,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 700, subhead 700, body 400, bold in text 700, labels and buttons 400. The style uses 2 weights (400, 700) and no other. The display is 300 heavier than the body. The accent is case and tracking: an upper-case label is the accent, so the weights stay few.
 - **Body type:** 16px, leading 1.5.
 - **Page:** hero stacked, left aligned, compact density, accent tilt 0°.
-- **Ground:** scanlines. A terminal is a phosphor screen: scan lines, a green glow and a dark bezel. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** scanlines. A terminal is a phosphor screen: scan lines, a green glow and a dark bezel. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack
@@ -232,6 +232,18 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Fixed-pitch grid (process)
+
+Every character takes one cell of the same width, so text forms columns without a separate grid and a position is a count of characters. Origin: typeface, Ilion, New York, 1874.
+
+- Give every glyph one advance width, 0.60 em in most fonts, or 10 or 12 characters an inch on a typewriter.
+- Align columns with spaces and set tables, code and forms on the cell grid.
+- On a screen, size the layout in cells: 80 columns by 24 rows is the classic terminal.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -242,6 +254,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`material-design`](../material-design/SKILL.md)
 - **Mixes well with:** [`brutalist-web`](../brutalist-web/SKILL.md), [`cybercore-web`](../cybercore-web/SKILL.md), [`cyberpunk-web`](../cyberpunk-web/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`pixel-art-web`](../pixel-art-web/SKILL.md)
+- **Kin in another domain:** [`monospace`](../monospace/SKILL.md)
 - **Nearest by vector profile:** [`bauhaus`](../bauhaus/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md)
 
 ## Emotional target

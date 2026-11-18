@@ -216,7 +216,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 600, subhead 600, body 400, bold in text 700, labels and buttons 700. The style uses 3 weights (400, 600, 700) and no other. The display is 200 heavier than the body. The accent is size: a larger word is the accent, so the weights stay few.
 - **Body type:** 18px, leading 1.6.
 - **Page:** hero split, left aligned, airy density, accent tilt 2°.
-- **Ground:** orbs. Blob world places soft round masses of colour behind the content. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** orbs. Blob world places soft round masses of colour behind the content. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack

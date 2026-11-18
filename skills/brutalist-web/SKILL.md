@@ -209,7 +209,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 700, subhead 700, body 400, bold in text 700, labels and buttons 400. The style uses 2 weights (400, 700) and no other. The display is 300 heavier than the body. The accent is size: a larger word is the accent, so the weights stay few.
 - **Body type:** 16px, leading 1.4.
 - **Page:** hero stacked, left aligned, compact density, accent tilt 0°.
-- **Ground:** raw. Brutalist pages show their structure: a default blue rule and a plain ruler at the edge. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** raw. Brutalist pages show their structure: a default blue rule and a plain ruler at the edge. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack
@@ -236,7 +236,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md), [`material-design`](../material-design/SKILL.md)
 - **Was rejected by:** [`ethereal-web`](../ethereal-web/SKILL.md)
 - **Mixes well with:** [`anti-design`](../anti-design/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`terminal-tui-web`](../terminal-tui-web/SKILL.md)
-- **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md)
+- **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`monospace`](../monospace/SKILL.md)
 - **Nearest by vector profile:** [`ai-chat-ui`](../ai-chat-ui/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md)
 
 ## Emotional target

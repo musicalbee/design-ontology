@@ -1,0 +1,255 @@
+{
+  "$schema": "../../../schema/domains/typeface.schema.json",
+  "id": "monospace",
+  "domain": "typeface",
+  "name": "Monospace",
+  "aliases": [
+    "Monospaced",
+    "Fixed-pitch",
+    "Typewriter type",
+    "Code font"
+  ],
+  "era_id": "industrial",
+  "time_period": {
+    "start": 1874,
+    "end": null,
+    "label": "1874–present"
+  },
+  "region": "United States",
+  "summary": "Every character takes the same width, as on a typewriter or a terminal. The narrow letters get serifs or wide arms and the wide letters are squeezed. It is the voice of code, data, forms and the typewritten document.",
+  "philosophy": {
+    "core_thesis": "When every character has the same width, columns align without a grid and each character is a unit the reader can count.",
+    "design_principles": [
+      "Give every glyph the same advance width, 0.50–0.62 em; 0.60 em is the common value.",
+      "Widen the narrow letters (i, l, j, r, f, t) with long serifs or arms, so they fill their cell.",
+      "Squeeze the wide letters (m, w, M, W) and lighten their joins, so they do not look darker than the rest.",
+      "Make look-alike characters different: 0 with a slash or a dot, l with a tail, 1 with a flag and a foot, and a clear I.",
+      "Hold a large x-height, 0.70–0.80 of the cap height, for small sizes on screens.",
+      "Keep the stroke contrast low, 1.0–1.4:1."
+    ],
+    "anti_patterns": [
+      "Proportional figures or kerning in a code font",
+      "An O and a 0 that look the same",
+      "Ligatures that hide the real characters from a reader who copies the code",
+      "Monospace for long reading prose",
+      "Justified text"
+    ]
+  },
+  "vectors": {
+    "stroke_contrast": 1,
+    "construction": 4,
+    "x_height": 5,
+    "width": 4,
+    "serif_mass": 3
+  },
+  "classification": {
+    "vox_atypi": "No class: fixed pitch cuts across the classes",
+    "din_16518": "No group: typewriter faces are filed under Gruppe V or VI",
+    "note": "Monospace is a rule of spacing, not of form: Courier is a slab serif, IBM Plex Mono is a grotesque with slab arms, JetBrains Mono is a neo-grotesque."
+  },
+  "anatomy": {
+    "contrast": "Low: the thin parts are 0.7–1.0 of the stem.",
+    "stress": "Vertical or none.",
+    "serifs": "Slab serifs on the narrow letters (i, l, j, r) in most faces; full slabs in typewriter faces such as Courier.",
+    "terminals": "Flat or round cuts; the ends of c, e and s are cut horizontal in code fonts.",
+    "aperture": "Moderate to open, so the c and e stay clear at small sizes.",
+    "key_letters": "A zero with a slash or a dot, an l with a tail, an i with long serifs, and a squeezed m and w."
+  },
+  "metrics": {
+    "x_height_min": 0.7,
+    "x_height_max": 0.8,
+    "contrast_min": 1.0,
+    "contrast_max": 1.4,
+    "x_height": "The x-height is 0.70–0.80 of the cap height and about 0.50–0.55 of the em.",
+    "contrast": "The side of the o is 1.0 to 1.4 times as thick as its top.",
+    "width": "Every glyph has one advance width, 0.50–0.62 em; the mean advance of a to z equals it.",
+    "figures": "Tabular lining figures only, with a slashed or dotted zero."
+  },
+  "setting": {
+    "text_sizes": "Set code at 12–14 px on screen and 8–10 pt in print, about 0.85–0.9 of the size of the text face beside it.",
+    "display_sizes": "Set titles at 24–64 px for a technical or typewritten look.",
+    "leading": "Set the leading at 1.4–1.6 for code blocks.",
+    "tracking": "Set 0 em; never track or kern a monospace, or the columns break.",
+    "measure": "Set 80–100 characters a line for code; 60–70 for typewritten prose.",
+    "case_and_features": "Turn off ligatures for code that readers copy, and turn on the slashed zero if the font has it as a feature."
+  },
+  "pairing": {
+    "rule": "Pair the monospace with a proportional sans of the same family or skeleton, and use the monospace only for code, data and labels.",
+    "pairs": [
+      {
+        "with": "Neo-grotesque sans (Inter)",
+        "role": "sans for the interface and prose",
+        "why": "Both have a large x-height and low contrast, so code and prose sit well on one line."
+      },
+      {
+        "with": "Humanist sans (Fira Sans)",
+        "role": "sans for documentation text",
+        "why": "Fira Sans and Fira Code come from one family, so the x-heights and weights match."
+      }
+    ]
+  },
+  "reference_faces": {
+    "faces": [
+      {
+        "face": "Sholes and Glidden typewriter type",
+        "designer": "E. Remington and Sons",
+        "year": 1874,
+        "status": "historic metal"
+      },
+      {
+        "face": "Courier",
+        "designer": "Howard Kettler for IBM",
+        "year": 1955,
+        "status": "proprietary"
+      },
+      {
+        "face": "IBM Plex Mono",
+        "designer": "Mike Abbink and Bold Monday",
+        "year": 2017,
+        "status": "open revival"
+      },
+      {
+        "face": "Courier Prime",
+        "designer": "Alan Dague-Greene",
+        "year": 2013,
+        "status": "open revival"
+      },
+      {
+        "face": "JetBrains Mono",
+        "designer": "Philipp Nurullin, Konstantin Bulenkov",
+        "year": 2020,
+        "status": "open revival"
+      }
+    ],
+    "note": "Courier Prime is an open redraw of the Courier model for screenplays; the original Courier design is not protected, but its digital fonts carry vendor licences."
+  },
+  "prompt_primer": {
+    "positive": [
+      "monospace font",
+      "typewriter text",
+      "code editor",
+      "terminal output",
+      "fixed-width columns",
+      "slashed zero",
+      "technical documentation",
+      "data table"
+    ],
+    "negative": [
+      "script",
+      "calligraphy",
+      "high contrast serif",
+      "decorative display type",
+      "justified text"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "IBM Plex Mono",
+      "kind": "font",
+      "maker": "Mike Abbink, Bold Monday",
+      "year": 2017,
+      "credit": "google/fonts repository, ofl/ibmplexmono",
+      "licence": "OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "url": "https://fonts.google.com/specimen/IBM+Plex+Mono",
+      "file": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Regular.ttf"
+    },
+    {
+      "title": "Courier Prime",
+      "kind": "font",
+      "maker": "Alan Dague-Greene",
+      "year": 2013,
+      "credit": "google/fonts repository, ofl/courierprime",
+      "licence": "OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "url": "https://fonts.google.com/specimen/Courier+Prime",
+      "file": "https://raw.githubusercontent.com/google/fonts/main/ofl/courierprime/CourierPrime-Regular.ttf"
+    },
+    {
+      "title": "JetBrains Mono",
+      "kind": "font",
+      "maker": "Philipp Nurullin, Konstantin Bulenkov",
+      "year": 2020,
+      "credit": "google/fonts repository, ofl/jetbrainsmono",
+      "licence": "OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "url": "https://fonts.google.com/specimen/JetBrains+Mono",
+      "file": "https://raw.githubusercontent.com/google/fonts/main/ofl/jetbrainsmono/JetBrainsMono%5Bwght%5D.ttf"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "slab-serif"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "neo-grotesque-sans"
+    ],
+    "echoes": [
+      "terminal-tui-web",
+      "dark-devtool-ui",
+      "brutalist-web"
+    ]
+  },
+  "emotion": {
+    "target_response": "Precision and candour: the reader feels raw data, a machine or a typed document with nothing hidden.",
+    "keywords": [
+      "technical",
+      "raw",
+      "precise",
+      "utilitarian",
+      "honest"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "creator",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "monospace",
+      "code font",
+      "typewriter font",
+      "courier",
+      "terminal font",
+      "fixed width",
+      "developer font"
+    ],
+    "use_cases": [
+      "code blocks and editors",
+      "data tables and logs",
+      "screenplays and typewritten documents",
+      "brands for developer tools"
+    ],
+    "avoid_when": [
+      "The text is long prose for general readers.",
+      "The brief asks for elegance or warmth."
+    ],
+    "modifiers": [
+      {
+        "request": "more readable prose",
+        "toward": "neo-grotesque-sans",
+        "how": "Set the prose in a proportional sans with the same x-height, and keep the monospace for code only."
+      },
+      {
+        "request": "more vintage",
+        "toward": "slab-serif",
+        "how": "Use a typewriter face with full slabs, such as Courier Prime, and a slightly rough print texture."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Monospaced font (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Monospaced_font"
+    },
+    {
+      "title": "Courier (typeface) (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Courier_(typeface)"
+    },
+    {
+      "title": "Robert Bringhurst, The Elements of Typographic Style (Hartley & Marks, 4th ed. 2012)"
+    }
+  ]
+}

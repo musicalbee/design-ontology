@@ -624,6 +624,24 @@ Used by: [`shaker-interior`](./shaker-interior/SKILL.md), [`arts-and-crafts-inte
 
 Sources: [Wikipedia, Mortise and tenon](https://en.wikipedia.org/wiki/Mortise_and_tenon); [Wikipedia, Gamble House](https://en.wikipedia.org/wiki/Gamble_House_(Pasadena,_California)).
 
+### Fixed-pitch grid
+
+Every character takes one cell of the same width, so text forms columns without a separate grid and a position is a count of characters.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Typeface | 1874 | — | Ilion, New York: The Sholes and Glidden typewriter by E. Remington and Sons moves the carriage one fixed step for each key, so its type must be monospaced. | |
+| 1 | Typeface | 1874 | +0 years | Typewriter faces, then Courier for IBM in 1955. | [`monospace`](./monospace/SKILL.md) |
+| 2 | Graphic & UI Design | 1978 | +104 years | Video terminals such as the DEC VT100 draw the whole screen as a grid of 80 by 24 character cells. | [`terminal-tui-web`](./terminal-tui-web/SKILL.md), [`dark-devtool-ui`](./dark-devtool-ui/SKILL.md) |
+
+Used by: [`monospace`](./monospace/SKILL.md), [`terminal-tui-web`](./terminal-tui-web/SKILL.md), [`dark-devtool-ui`](./dark-devtool-ui/SKILL.md).
+
+- Give every glyph one advance width, 0.60 em in most fonts, or 10 or 12 characters an inch on a typewriter.
+- Align columns with spaces and set tables, code and forms on the cell grid.
+- On a screen, size the layout in cells: 80 columns by 24 rows is the classic terminal.
+
+Sources: [Monospaced font (Wikipedia)](https://en.wikipedia.org/wiki/Monospaced_font); [Sholes and Glidden typewriter (Wikipedia)](https://en.wikipedia.org/wiki/Sholes_and_Glidden_typewriter); [VT100 (Wikipedia)](https://en.wikipedia.org/wiki/VT100).
+
 ### Glitch
 
 A fault in a signal, kept as an image: torn lines, split colour channels and repeated frames.
@@ -705,11 +723,13 @@ Lines cut into a metal plate with a burin; thin hairlines and swelling strokes g
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Painting | c. 1430 | — | Upper Rhine: Goldsmiths engrave copper plates and print them as pictures; the method then spreads across Europe. | |
-| 1 | Typeface | 1757 | +327 years | John Baskerville cuts sharp, high-contrast roman type in Birmingham, and prints it on smooth wove paper. | [`transitional-serif`](./transitional-serif/SKILL.md) |
-| 2 | Typeface | 1784 | +354 years | Firmin Didot cuts roman type with hairline serifs and a vertical stress; Giambattista Bodoni follows in Parma. | [`didone-serif`](./didone-serif/SKILL.md) |
-| 3 | Logo | 1875 | +445 years | The UK Trade Marks Registration Act starts a register, and firms file engraved vignettes, banners and shaded figures. | [`victorian-trademark`](./victorian-trademark/SKILL.md) |
+| 1 | Typeface | 1741 | +311 years | George Bickham engraves the copperplate hands of The Universal Penman (1741) on copper. | [`formal-script`](./formal-script/SKILL.md) |
+| 2 | Typeface | 1757 | +327 years | John Baskerville cuts sharp, high-contrast roman type in Birmingham, and prints it on smooth wove paper. | [`transitional-serif`](./transitional-serif/SKILL.md) |
+| 3 | Typeface | 1784 | +354 years | Firmin Didot cuts roman type with hairline serifs and a vertical stress; Giambattista Bodoni follows in Parma. | [`didone-serif`](./didone-serif/SKILL.md) |
+| 4 | Typeface | c. 1810 | +380 years | Robert Thorne cuts fat faces that push the engraved contrast of the Didones to an extreme. | [`fat-face-display`](./fat-face-display/SKILL.md) |
+| 5 | Logo | 1875 | +445 years | The UK Trade Marks Registration Act starts a register, and firms file engraved vignettes, banners and shaded figures. | [`victorian-trademark`](./victorian-trademark/SKILL.md) |
 
-Used by: [`transitional-serif`](./transitional-serif/SKILL.md), [`didone-serif`](./didone-serif/SKILL.md), [`victorian-trademark`](./victorian-trademark/SKILL.md).
+Used by: [`transitional-serif`](./transitional-serif/SKILL.md), [`didone-serif`](./didone-serif/SKILL.md), [`victorian-trademark`](./victorian-trademark/SKILL.md), [`formal-script`](./formal-script/SKILL.md), [`fat-face-display`](./fat-face-display/SKILL.md).
 
 - Cut a hairline of 0.1 to 0.2mm for light areas; swell the line to 0.5mm or more for dark areas.
 - Build shade with parallel lines or cross hatching, and keep the lines at 30° to 45° to each other.
@@ -854,6 +874,25 @@ Used by: [`colour-field-painting`](./colour-field-painting/SKILL.md).
 
 Sources: [Wikipedia: Helen Frankenthaler](https://en.wikipedia.org/wiki/Helen_Frankenthaler); Helen Frankenthaler, Mountains and Sea (1952).
 
+### Wood type
+
+Large display letters routed from end-grain wood instead of cast in metal, so posters and bills can use letters 5–50 cm high at a low cost.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Typeface | 1828 | — | New York: Darius Wells makes wood type in quantity with a routing machine, and the poster printers take it up at once. | |
+| 1 | Typeface | 1828 | +0 years | The first wood type lines are fat faces copied from the London founders. | [`fat-face-display`](./fat-face-display/SKILL.md) |
+| 2 | Typeface | c. 1834 | +6 years | Wood type founders add Egyptian slabs and condensed letters for posters. | [`slab-serif`](./slab-serif/SKILL.md), [`grotesque-sans`](./grotesque-sans/SKILL.md) |
+| 3 | Logo | c. 1875 | +47 years | Trade cards and shop signs set the name of the firm in heavy wood letters. | [`victorian-trademark`](./victorian-trademark/SKILL.md) |
+
+Used by: [`fat-face-display`](./fat-face-display/SKILL.md), [`slab-serif`](./slab-serif/SKILL.md), [`grotesque-sans`](./grotesque-sans/SKILL.md), [`victorian-trademark`](./victorian-trademark/SKILL.md).
+
+- Use wood type for letters above about 72 pt, where metal is too heavy and too expensive.
+- Draw the faces to be loud at a distance: fat face, slab and condensed grotesque, in one weight per line.
+- Mix several faces and sizes on one bill and centre each line, as the job printers did.
+
+Sources: [Wood type (Wikipedia)](https://en.wikipedia.org/wiki/Wood_type); [Fat face (Wikipedia)](https://en.wikipedia.org/wiki/Fat_face).
+
 ### Woodcut
 
 A print from a block of wood with the white parts cut away; the result is flat colour, hard edges and visible grain.
@@ -898,6 +937,25 @@ Used by: [`airbrush-surrealism`](./airbrush-surrealism/SKILL.md), [`cyberdelia`]
 
 Sources: Seng-gye Tombs Curtis and Christopher Hunt, The Airbrush Book (1980).
 
+### Broad-nib pen
+
+A pen with a flat, square-cut tip held at a fixed angle, so the width of a stroke changes with its direction and the stress of the letter is diagonal.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Typeface | c. 1454 | — | Mainz: The pen is older than print; Gutenberg cut his textura from the broad-nib book hand of the scribes, the first record of the pen in type. | |
+| 1 | Typeface | c. 1454 | +0 years | Gutenberg's textura for the 42-line Bible copies the broken broad-nib hand. | [`blackletter`](./blackletter/SKILL.md) |
+| 2 | Typeface | 1470 | +16 years | Nicolas Jenson cuts a roman with the diagonal stress of the humanist broad-nib hand. | [`garalde-old-style`](./garalde-old-style/SKILL.md) |
+| 3 | Typeface | 1916 | +462 years | Edward Johnston, a calligrapher, draws the London Underground sans from broad-nib proportions. | [`humanist-sans`](./humanist-sans/SKILL.md) |
+
+Used by: [`blackletter`](./blackletter/SKILL.md), [`garalde-old-style`](./garalde-old-style/SKILL.md), [`humanist-sans`](./humanist-sans/SKILL.md).
+
+- Hold the nib edge at 30–45° to the baseline and keep that angle for every stroke.
+- Make the x-height about 4 nib widths in a round book hand and about 5 in textura; a stem is one nib width wide.
+- Let the thin parts fall on the diagonal of the nib angle, so the o has its thinnest points at about 11 and 5 o'clock.
+
+Sources: [Blackletter (Wikipedia)](https://en.wikipedia.org/wiki/Blackletter); [Calligraphy (Wikipedia)](https://en.wikipedia.org/wiki/Calligraphy); [Edward Johnston (Wikipedia)](https://en.wikipedia.org/wiki/Edward_Johnston).
+
 ### Diffusion model
 
 A model that learns to turn noise into an image step by step, and makes a new image from a text prompt.
@@ -940,6 +998,24 @@ Used by: [`french-new-wave`](./french-new-wave/SKILL.md), [`documentary-verite`]
 - Shoot long takes of 30 seconds or more, so that the camera seems to live in the room.
 
 Sources: Richard Neupert, A History of the French New Wave Cinema (University of Wisconsin Press, 2002); Dogme 95 Vow of Chastity (1995).
+
+### Pointed pen
+
+A sharp, flexible steel or quill nib: pressure spreads the two tines for a swelling downstroke, and no pressure gives a hairline upstroke.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Typeface | 1741 | — | London: George Bickham's The Universal Penman engraves the roundhand of the English writing masters, the model for every later formal script. | |
+| 1 | Typeface | 1741 | +0 years | Engraved copybooks of the writing masters, then metal scripts that copy the plates. | [`formal-script`](./formal-script/SKILL.md) |
+| 2 | Logo | 1886 | +145 years | Frank Mason Robinson writes the Coca-Cola wordmark in Spencerian, a pointed-pen hand. | [`victorian-trademark`](./victorian-trademark/SKILL.md) |
+
+Used by: [`formal-script`](./formal-script/SKILL.md), [`victorian-trademark`](./victorian-trademark/SKILL.md).
+
+- Slope the letters 50–55° from the baseline and keep one slope for the line.
+- Press only on the downstrokes, to 3–8 times the hairline width, and release on the upstrokes and the joins.
+- Join each lower-case letter to the next with a hairline from the baseline or the x-height.
+
+Sources: [Copperplate script (Wikipedia)](https://en.wikipedia.org/wiki/Copperplate_script); [Spencerian script (Wikipedia)](https://en.wikipedia.org/wiki/Spencerian_script).
 
 ### Tilt-shift
 
