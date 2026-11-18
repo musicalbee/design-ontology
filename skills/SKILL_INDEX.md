@@ -41,8 +41,15 @@ Vector axes, each 1 to 5: **ORN** ornamentation (no applied ornament → ornamen
 
 | Skill | Era | Load when | Good for | Feels | ORN | STRUC | GEOM | RAW | MONU |
 |---|---|---|---|---|:-:|:-:|:-:|:-:|:-:|
+| [`art-nouveau-architecture`](./art-nouveau-architecture/SKILL.md) | Fin de Siècle | art nouveau, jugendstil, whiplash curve, horta, guimard | townhouse and hotel renders, metro and rail entrances, cafés and shopfronts | organic, sinuous, crafted | 5 | 3 | 1 | 2 | 2 |
+| [`bauhaus-architecture`](./bauhaus-architecture/SKILL.md) | Modern Movement | bauhaus architecture, bauhaus building, dessau, gropius, hannes meyer | school and campus renders, social housing studies, workshop and studio buildings | functional, asymmetric, didactic | 1 | 4 | 5 | 2 | 2 |
+| [`art-deco-architecture`](./art-deco-architecture/SKILL.md) | Modern Movement | art deco, stepped skyscraper, zigzag moderne, chevron relief, chrysler building | hotel and cinema renders, office towers, lobby and entrance design | glamorous, symmetric, vertical | 4 | 2 | 4 | 1 | 4 |
 | [`international-style-architecture`](./international-style-architecture/SKILL.md) | Modern Movement | international style, modernist architecture, miesian, glass box, white villa | concept renders, office buildings, private villas | rational, light, universal | 1 | 3 | 5 | 2 | 3 |
+| [`mid-century-modern-architecture`](./mid-century-modern-architecture/SKILL.md) | Modern Movement | mid-century modern, mid century house, case study house, post and beam, eichler | house and villa renders, real-estate staging, residential interiors | warm, horizontal, open | 1 | 3 | 4 | 3 | 1 |
 | [`brutalist-architecture`](./brutalist-architecture/SKILL.md) | Modern Movement | brutalist, brutalism, béton brut, raw concrete, barbican | concept renders, cultural buildings, university campuses | monumental, honest, severe | 1 | 5 | 4 | 5 | 5 |
+| [`postmodern-architecture`](./postmodern-architecture/SKILL.md) | Postmodern and After | postmodern architecture, postmodernism, michael graves, venturi, broken pediment | office and civic building renders, retail and hospitality fronts, game and film sets | playful, ironic, colourful | 4 | 1 | 3 | 1 | 3 |
+| [`high-tech-architecture`](./high-tech-architecture/SKILL.md) | Postmodern and After | high-tech architecture, pompidou, rogers and piano, norman foster, hsbc building | museum and library renders, corporate headquarters, airport and station design | technical, transparent, flexible | 1 | 5 | 4 | 2 | 3 |
+| [`deconstructivist-architecture`](./deconstructivist-architecture/SKILL.md) | Postmodern and After | deconstructivism, deconstructivist architecture, frank gehry, zaha hadid early, libeskind | museum and gallery renders, landmark concept art, film and game environments | fractured, dynamic, unstable | 2 | 3 | 1 | 3 | 3 |
 
 ---
 

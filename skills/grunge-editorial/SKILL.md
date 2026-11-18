@@ -241,6 +241,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`swiss-international`](../swiss-international/SKILL.md)
 - **Was rejected by:** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
+- **Kin in another domain:** [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md)
 - **Nearest by vector profile:** [`psychedelic`](../psychedelic/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
 
 ## Emotional target

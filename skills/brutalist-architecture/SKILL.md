@@ -142,8 +142,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **lighter**: move toward [`international-style-architecture`](../international-style-architecture/SKILL.md) (International Style). Thin the frame, raise the glazing share above 50% and smooth the concrete; keep the flat roof and the repeated module.
 
 - **Came from (go here for a more orthodox version):** [`international-style-architecture`](../international-style-architecture/SKILL.md)
+- **Was rejected by:** [`postmodern-architecture`](../postmodern-architecture/SKILL.md)
 - **Kin in another domain:** [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
-- **Nearest by vector profile:** [`international-style-architecture`](../international-style-architecture/SKILL.md)
+- **Nearest by vector profile:** [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md)
 
 ## Emotional target
 

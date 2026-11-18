@@ -1,0 +1,115 @@
+{
+  "$schema": "../../../schema/domains/architecture.schema.json",
+  "id": "art-nouveau-architecture",
+  "domain": "architecture",
+  "name": "Art Nouveau",
+  "aliases": ["Jugendstil", "Modernisme", "Style Nouille", "Stile Liberty"],
+  "era_id": "fin-de-siecle",
+  "time_period": { "start": 1893, "end": 1914, "label": "1890s–1910s" },
+  "building_types": ["residential", "commercial", "cultural"],
+  "summary": "Whiplash curves, plant forms and exposed iron on the street front and in the stair hall. Horta in Brussels, Guimard in Paris and Gaudí in Barcelona made the total work of art: one line from the facade to the door handle.",
+  "philosophy": {
+    "core_thesis": "A building should grow like a plant: structure, ornament and furniture follow one organic line, and iron and glass are shown as the new materials of the age.",
+    "design_principles": [
+      "Draw one continuous line, a whiplash curve, through the facade, the railing, the window bars and the interior fittings.",
+      "Show wrought iron and glass as structure: columns, stair stringers and roof ribs stay slender, 150 to 250mm in section, and are left visible.",
+      "Take ornament from plants, stems, tendrils and insects, and let it grow out of the structure instead of sitting on it.",
+      "Break the facade into asymmetric bays: bay widths differ, and the window heads are arched or ogee, not straight.",
+      "Design the whole room as one work: floor mosaic, ceiling, lamp, balustrade and wall paint share one motif.",
+      "Light the stair hall from above through a stained-glass rooflight, so that the stair is the main space of the house."
+    ],
+    "anti_patterns": [
+      "Straight, rigid orthogonal grids that ignore the curve",
+      "Classical orders, pediments or symmetrical portico fronts",
+      "Plain unornamented walls with no plant or line motif",
+      "Raw concrete or unfinished surfaces",
+      "Ornament cut in plaster and bought as stock, not drawn for the building",
+      "Heavy dark colour schemes that hide the glass and iron"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 5,
+    "structural_expression": 3,
+    "geometric_rigidity": 1,
+    "material_rawness": 2,
+    "monumentality": 2
+  },
+  "massing": {
+    "form": "Narrow townhouse or apartment block with a soft, bulging front; bay windows and balconies swell out 0.5 to 1.2m from the wall plane.",
+    "proportion": "Vertical, on a plot 6 to 9m wide; storey heights of 3.2 to 4m, with the tallest floor at the piano nobile.",
+    "roof": "A pitched or mansard roof with a wavy parapet, dormers and chimneys shaped as part of the sculpture; flat roofs only behind a curved parapet.",
+    "relation_to_ground": "The ground floor is a shopfront or a rusticated base in stone; the entrance is marked by an iron canopy or a tall arched door."
+  },
+  "structure": {
+    "system": "A cast-iron or steel frame with brick infill, and stone or stucco cladding on the street front.",
+    "span_and_module": "Irregular bays of 3 to 6m; the iron frame lets interior spans reach 6 to 8m and frees the plan from cross-walls.",
+    "expression": "Iron columns and beams stay visible in halls and stairs, and bend into the ornament; on the facade the frame is hidden, but its lines run through the window bars."
+  },
+  "materials": {
+    "primary": ["wrought and cast iron", "glazed brick and ceramic tile", "stained and etched glass", "carved stone"],
+    "secondary": ["stucco", "oak and walnut joinery", "mosaic", "copper"],
+    "finish": "Crafted and polished: glaze, enamel, lacquer and patina. Every surface shows the hand of the maker.",
+    "palette": [
+      { "name": "Cream stone", "hex": "#E6DCC3", "role": "facade walls" },
+      { "name": "Verdigris", "hex": "#5E8B7E", "role": "iron and copper" },
+      { "name": "Moss green", "hex": "#6B7A3A", "role": "tile and glass" },
+      { "name": "Amber glass", "hex": "#D69A2D", "role": "rooflight and lamps" },
+      { "name": "Oxblood", "hex": "#6E2A2A", "role": "joinery and doors" }
+    ]
+  },
+  "facade": {
+    "composition": "An asymmetric front with a curved line that links the windows, balconies and door; the eye follows the line, not a grid.",
+    "openings": "Arched, horseshoe or ogee windows with curved iron or timber bars; the window-to-wall ratio is 25 to 40% and the largest window sits off the axis.",
+    "solid_to_void": "Balanced: 60–75% solid, with ornamented panels between the windows."
+  },
+  "light_and_space": {
+    "daylight": "Light falls from a stained-glass rooflight down the stair well, and the colour of the glass tints the walls.",
+    "spatial_sequence": "A small entrance opens to a stair hall of two to four storeys; rooms flow into each other without a strict axis.",
+    "interior_character": "Curved partitions, built-in furniture, mosaic floors and one plant motif repeated in each fitting."
+  },
+  "ornament": {
+    "attitude": "Ornament is the structure made visible as a living line: it is drawn for the building and never added from a catalogue.",
+    "details": ["whiplash iron railings", "stained-glass rooflights", "ceramic tile friezes", "floral mosaic floors", "curved stair stringers", "ogee window heads"]
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Delight and intimacy: the viewer feels a living, crafted object that belongs to a city of artists.",
+    "keywords": ["organic", "sinuous", "crafted", "decorative", "romantic"],
+    "brand_archetypes": ["creator", "lover"]
+  },
+  "agent": {
+    "triggers": ["art nouveau", "jugendstil", "whiplash curve", "horta", "guimard", "gaudí", "modernisme", "organic ironwork", "stained-glass stair hall"],
+    "use_cases": ["townhouse and hotel renders", "metro and rail entrances", "cafés and shopfronts", "period set design"],
+    "avoid_when": [
+      "The brief asks for a repeatable, low-cost grid or industrial production.",
+      "The budget does not allow craft work in iron, glass and tile."
+    ],
+    "modifiers": [
+      { "request": "more geometric", "toward": "art-deco-architecture", "how": "Replace the curve with the zigzag and the chevron, keep the rich materials and the total-work idea, and add a stepped silhouette." }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "whiplash curved ironwork", "organic plant motifs", "stained glass rooflight", "asymmetric facade", "ogee arched windows",
+      "glazed ceramic tile", "bulging bay window", "mosaic floor", "carved stone tendrils"
+    ],
+    "negative": ["straight orthogonal grid", "classical portico", "raw concrete", "flat unornamented wall", "pastel paint", "plain glass curtain wall"],
+    "canonical_works": [
+      { "work": "Hôtel Tassel, Brussels", "architect": "Victor Horta", "year": 1893 },
+      { "work": "Castel Béranger, Paris", "architect": "Hector Guimard", "year": 1898 },
+      { "work": "Majolikahaus, Vienna", "architect": "Otto Wagner", "year": 1899 },
+      { "work": "Palau de la Música Catalana, Barcelona", "architect": "Lluís Domènech i Montaner", "year": 1908 },
+      { "work": "Casa Batlló, Barcelona", "architect": "Antoni Gaudí", "year": 1906 }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q1295040, Art Nouveau architecture (CC0)", "url": "https://www.wikidata.org/wiki/Q1295040" },
+    { "title": "Getty AAT 300021430, Art Nouveau (ODC-By 1.0)", "url": "https://vocab.getty.edu/page/aat/300021430" },
+    { "title": "Frank Russell (ed.), Art Nouveau in Architecture (Arcade, 1979)" }
+  ]
+}

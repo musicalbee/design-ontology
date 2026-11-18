@@ -24,13 +24,29 @@ flowchart LR
     bento_grid_ui["Bento Grid UI"]
     spatial_visionos["Spatial UI (visionOS)"]
   end
+  subgraph architecture_fin_de_siecle["Architecture · Fin de Siècle · 1885–1914"]
+    art_nouveau_architecture["Art Nouveau"]
+  end
   subgraph architecture_modern_movement["Architecture · Modern Movement · 1919–1975"]
+    bauhaus_architecture["Bauhaus Architecture"]
+    art_deco_architecture["Art Deco"]
     international_style_architecture["International Style"]
+    mid_century_modern_architecture["Mid-century Modern"]
     brutalist_architecture["Brutalism"]
   end
+  subgraph architecture_postmodern_and_after["Architecture · Postmodern and After · 1966–present"]
+    postmodern_architecture["Postmodernism"]
+    high_tech_architecture["High-tech"]
+    deconstructivist_architecture["Deconstructivism"]
+  end
+  bauhaus <-. echoes .-> bauhaus_architecture
   bauhaus <-. echoes .-> international_style_architecture
   brutalist_architecture <-. echoes .-> neo_brutalism_ui
+  deconstructivist_architecture <-. echoes .-> grunge_editorial
   international_style_architecture <-. echoes .-> swiss_international
+  memphis_design <-. echoes .-> postmodern_architecture
+  mid_century_modern <-. echoes .-> mid_century_modern_architecture
+  art_nouveau_architecture --> art_deco_architecture
   flat_design --> bento_grid_ui
   swiss_international --> bento_grid_ui
   international_style_architecture --> brutalist_architecture
@@ -39,28 +55,42 @@ flowchart LR
   swiss_international --> flat_design
   y2k_aesthetic --> frutiger_aero
   frutiger_aero --> glassmorphism
+  international_style_architecture --> high_tech_architecture
   flat_design --> material_design
   bauhaus --> mid_century_modern
+  international_style_architecture --> mid_century_modern_architecture
   flat_design --> neo_brutalism_ui
   skeuomorphism --> neumorphism
   glassmorphism --> spatial_visionos
   bauhaus --> swiss_international
+  deconstructivist_architecture -. rejects .-> international_style_architecture
+  deconstructivist_architecture -. rejects .-> postmodern_architecture
   flat_design -. rejects .-> skeuomorphism
   grunge_editorial -. rejects .-> swiss_international
   memphis_design -. rejects .-> swiss_international
   neo_brutalism_ui -. rejects .-> corporate_memphis
   neo_brutalism_ui -. rejects .-> material_design
   neumorphism -. rejects .-> flat_design
+  postmodern_architecture -. rejects .-> brutalist_architecture
+  postmodern_architecture -. rejects .-> international_style_architecture
   psychedelic -. rejects .-> swiss_international
   y2k_aesthetic -. rejects .-> grunge_editorial
   linkStyle 0 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 1 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 2 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 17 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 18 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 19 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 20 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 21 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 22 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 23 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 3 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 4 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 5 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 6 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 24 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 25 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 26 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 27 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 28 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 29 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 30 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 31 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 32 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 33 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 34 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 35 stroke:#E5484D,stroke-width:1.5px

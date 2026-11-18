@@ -1,0 +1,114 @@
+{
+  "$schema": "../../../schema/domains/architecture.schema.json",
+  "id": "bauhaus-architecture",
+  "domain": "architecture",
+  "name": "Bauhaus Architecture",
+  "aliases": ["Bauhaus building", "Neues Bauen (Bauhaus strand)"],
+  "era_id": "modern-movement",
+  "time_period": { "start": 1919, "end": 1933, "label": "1919–1933" },
+  "building_types": ["residential", "cultural", "civic"],
+  "summary": "A functional building of asymmetric wings, each wing sized by its use, joined by bridges and glazed on the work side. Gropius and Meyer taught building as the last step of a workshop education that joined art, craft and industry.",
+  "philosophy": {
+    "core_thesis": "Form follows use: each function gets its own volume, and the plan is the generator of the building, not the facade.",
+    "design_principles": [
+      "Divide the programme into separate wings by function, and size each wing by its use: workshop, studio, school, dwelling.",
+      "Arrange the wings in a pinwheel or an L around a pivot, with no central axis and no principal front.",
+      "Glaze the work side: a full-height curtain wall of 3 to 4 storeys on the workshop wing, and ribbon windows on the dwelling wing.",
+      "Keep the frame in concrete or steel, with infill walls in white render and a flat roof with an internal drain.",
+      "Set the module by use: a 1.1 to 1.25m grid for dwelling cells, and 5 to 6m bays for workshops.",
+      "Use primary colour only to mark function, in flat planes inside the building: red, yellow and blue, plus black, white and grey."
+    ],
+    "anti_patterns": [
+      "A symmetric front on one ceremonial axis",
+      "Pitched roofs, gables or dormers",
+      "Applied ornament, mouldings or decorative tile",
+      "Wings or rooms sized by the facade and not by use",
+      "Plan forms that hide the function of each volume",
+      "Rough, hand-textured or historicist surfaces"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "structural_expression": 4,
+    "geometric_rigidity": 5,
+    "material_rawness": 2,
+    "monumentality": 2
+  },
+  "massing": {
+    "form": "Interlocking cuboid wings of different heights, 2 to 5 storeys, linked by a bridge or a covered passage.",
+    "proportion": "Long horizontal bars cross each other at right angles; the tallest wing is at most 2.5 times the lowest.",
+    "roof": "Flat roof, 0 to 3° fall to an inner gutter; roof terraces for dwelling wings.",
+    "relation_to_ground": "The building sits on the ground or on a low plinth; a bridge may span a public road at first-floor level."
+  },
+  "structure": {
+    "system": "A reinforced-concrete frame with mushroom columns in the workshop wing, and brick infill rendered white.",
+    "span_and_module": "Bays of 4.5 to 6m in the workshop wing; room cells based on a 1.1 to 1.25m planning grid.",
+    "expression": "The glass wall hangs in front of the slab edges, so the frame is clear at the corners and the plan is legible from outside."
+  },
+  "materials": {
+    "primary": ["white-rendered brick and concrete", "steel-framed glazing", "plate glass"],
+    "secondary": ["linoleum", "tubular steel furniture", "painted steel balconies", "clinker brick on the base"],
+    "finish": "Smooth and flat; render is white or light grey, and every surface is free of moulding or texture.",
+    "palette": [
+      { "name": "White render", "hex": "#F2F1EC", "role": "walls" },
+      { "name": "Bauhaus red", "hex": "#C0392B", "role": "doors and interior function planes" },
+      { "name": "Bauhaus yellow", "hex": "#E8B923", "role": "signage and accents" },
+      { "name": "Bauhaus blue", "hex": "#1F4E8C", "role": "interior planes" },
+      { "name": "Steel black", "hex": "#1A1A1A", "role": "frames and lettering" }
+    ]
+  },
+  "facade": {
+    "composition": "Asymmetric: a glass curtain wall on one wing, ribbon windows and balcony slabs on another, and plain white wall on the third.",
+    "openings": "Full-height glazing in the work wing, 2 to 3m ribbon windows in the dwelling wing; the window-to-wall ratio is 40 to 90% by wing.",
+    "solid_to_void": "Varies by function: 15–30% solid on the glass wing and 60–70% solid on the dwelling wing."
+  },
+  "light_and_space": {
+    "daylight": "Workshop wings are lit on one side by the full curtain wall; the north side is kept for studios.",
+    "spatial_sequence": "A pinwheel route: bridge, hall, then workshop or studio; corridors are short and have a window at the end.",
+    "interior_character": "White walls, coloured function planes, tubular-steel furniture, built-in storage and bare bulbs; nothing is hung only for decoration."
+  },
+  "ornament": {
+    "attitude": "No ornament. Typography, colour planes and the precision of joints carry the identity of the building.",
+    "details": ["sans-serif building lettering", "primary-colour interior planes", "tubular steel railings", "glazed stair towers", "bridge links"]
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": ["international-style-architecture"],
+    "echoes": ["bauhaus"]
+  },
+  "emotion": {
+    "target_response": "Purpose and openness: the viewer feels a place where every part has a reason.",
+    "keywords": ["functional", "asymmetric", "didactic", "rational", "open"],
+    "brand_archetypes": ["creator", "sage"]
+  },
+  "agent": {
+    "triggers": ["bauhaus architecture", "bauhaus building", "dessau", "gropius", "hannes meyer", "pinwheel plan", "form follows function", "glass workshop wing"],
+    "use_cases": ["school and campus renders", "social housing studies", "workshop and studio buildings", "didactic design diagrams"],
+    "avoid_when": [
+      "The brief asks for a ceremonial, symmetric or monumental front.",
+      "The programme is a single hall, which gives no functions to separate into wings."
+    ],
+    "modifiers": [
+      { "request": "more corporate", "toward": "international-style-architecture", "how": "Merge the wings into one slab on a 7.2m grid, run the curtain wall around all sides, and drop the colour planes." }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "asymmetric wings", "pinwheel plan", "glass curtain wall workshop", "white rendered walls", "flat roof",
+      "bridge link between wings", "ribbon windows", "primary colour accents", "sans-serif lettering"
+    ],
+    "negative": ["symmetric portico", "pitched roof", "ornament", "brick detailing", "rustic stone", "arches"],
+    "canonical_works": [
+      { "work": "Bauhaus Building, Dessau", "architect": "Walter Gropius", "year": 1926 },
+      { "work": "Masters' Houses, Dessau", "architect": "Walter Gropius", "year": 1926 },
+      { "work": "Törten Estate, Dessau", "architect": "Walter Gropius", "year": 1928 },
+      { "work": "ADGB Trade Union School, Bernau", "architect": "Hannes Meyer and Hans Wittwer", "year": 1930 }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q124354, Bauhaus (CC0)", "url": "https://www.wikidata.org/wiki/Q124354" },
+    { "title": "Getty AAT 300021432, Bauhaus (ODC-By 1.0)", "url": "https://vocab.getty.edu/page/aat/300021432" },
+    { "title": "Walter Gropius, Bauhausbauten Dessau (Bauhausbücher 12, 1930)" }
+  ]
+}

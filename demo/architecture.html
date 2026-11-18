@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>One massing in every architectural style</title>
+<meta name="description" content="One box and one facade grid, 6 bays by 5 storeys, drawn in SVG and dressed by the rules of each architecture style.">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  body { margin: 0; font: 15px/1.5 system-ui, sans-serif; background: #17171a; color: #f4f4f5; }
+  header, main { max-width: 1160px; margin: 0 auto; padding: 24px clamp(16px, 4vw, 48px); }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; }
+  p { margin: 0 0 8px; color: #c9c9d0; max-width: 62ch; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+  figure { margin: 0; background: #202026; border: 1px solid #34343a; border-radius: 8px; overflow: hidden; }
+  figure svg { display: block; width: 100%; height: auto; }
+  figcaption { padding: 10px 14px 14px; }
+  figcaption b { display: block; font-size: 1rem; }
+  figcaption span { color: #a9a9b3; font-size: .85rem; }
+  .sw { display: flex; gap: 4px; margin-top: 8px; }
+  .sw i { width: 22px; height: 12px; border-radius: 2px; border: 1px solid #0006; }
+</style>
+</head>
+<body>
+<header>
+  <h1>One massing, every style</h1>
+  <p>The same box: 6 bays wide, 5 storeys high, one front elevation. Each style changes only what its rules change: base, bay, opening, roof, ornament and colour.</p>
+  <p>Colours come from the palette of each record in <code>data/architecture/styles/</code>. Reference photographs are not copied here; see the sources in each record.</p>
+</header>
+<main><div class="grid" id="grid"></div></main>
+<script>
+const W = 480, H = 360, G = 320, X0 = 80, BW = 320, N = 6, S = 5, SH = 48, BAY = BW / N;
+const R = (x, y, w, h, f, extra = "") => `<rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${w.toFixed(1)}" height="${h.toFixed(1)}" fill="${f}" ${extra}/>`;
+const P = (d, f, extra = "") => `<path d="${d}" fill="${f}" ${extra}/>`;
+// Each style is a function of its colours. It draws the same box: X0..X0+BW wide, S storeys of SH, ground at G.
+const styles = {
+  "international-style-architecture": (c) => {
+    let s = R(X0, G - S * SH, BW, (S - 1) * SH, c.wall) + R(X0, G - S * SH, BW, 3, c.frame);
+    for (let i = 0; i < S - 1; i++) s += R(X0, G - (S - i) * SH + 12, BW, 26, c.glass) + R(X0, G - (S - i) * SH + 10, BW, 2, c.frame);
+    for (let j = 0; j <= N; j++) s += R(X0 + j * BAY - 1, G - S * SH, 2, (S - 1) * SH, c.frame);
+    s += R(X0 + 14, G - SH, BW - 28, SH, c.glass, 'opacity=".55"');
+    for (let j = 0; j <= N; j++) s += R(X0 + 14 + j * (BW - 28) / N - 2, G - SH, 4, SH, c.frame);
+    return s;
+  },
+  "brutalist-architecture": (c) => {
+    let s = R(X0 - 10, G - S * SH, BW + 20, S * SH - 34, c.wall);
+    for (let i = 0; i < S - 1; i++) for (let j = 0; j < N; j++) {
+      const x = X0 + j * BAY + 6, y = G - (S - i) * SH + 8;
+      s += R(x, y, BAY - 12, 30, c.dark) + R(x - 2, y - 4, BAY - 8, 6, c.shadow) + R(x + (BAY - 12) / 2 - 2, y, 4, 30, c.shadow);
+    }
+    for (let i = 1; i < S; i++) s += R(X0 - 10, G - i * SH - 30, BW + 20, 4, c.shadow);
+    for (const j of [0, 3, 5]) s += R(X0 + 10 + j * BAY - 4, G - 34, 26, 34, c.shadow);
+    return s + R(X0 - 10, G - 34, BW + 20, 4, c.shadow);
+  },
+  "art-nouveau-architecture": (c) => {
+    const top = G - S * SH;
+    let s = R(X0, top, BW, S * SH, c.wall);
+    for (let i = 0; i < S; i++) for (let j = 0; j < N; j++) {
+      const x = X0 + j * BAY + 10 + (j % 2) * 3, y = top + i * SH + 8, w = BAY - 20 - (j % 2) * 6, h = 34;
+      s += P(`M${x} ${y + h} V${y + 12} Q${x + w / 2} ${y - 12} ${x + w} ${y + 12} V${y + h} Z`, c.glass, `stroke="${c.iron}" stroke-width="2"`);
+    }
+    s += P(`M${X0 - 6} ${top + 14} Q${X0 + BW * .25} ${top - 22} ${X0 + BW * .5} ${top + 8} T${X0 + BW + 6} ${top + 14} V${top - 4} H${X0 - 6} Z`, c.roof);
+    return s + R(X0, G - 8, BW, 8, c.iron);
+  },
+  "art-deco-architecture": (c) => {
+    const top = G - S * SH;
+    let s = R(X0, top, BW, S * SH, c.wall) + R(X0 + BAY, top - 30, BW - 2 * BAY, 30, c.wall) + R(X0 + 2 * BAY, top - 54, BW - 4 * BAY, 24, c.wall) + R(X0 + 2.6 * BAY, top - 72, BW - 5.2 * BAY, 18, c.wall);
+    s += R(X0 + BW / 2 - 2, top - 108, 4, 36, c.gold);
+    for (let j = 0; j <= N; j++) s += R(X0 + j * BAY - 4, top, 8, S * SH, c.pier);
+    for (let i = 0; i < S - 1; i++) for (let j = 0; j < N; j++) s += R(X0 + j * BAY + 10, top + i * SH + 6, BAY - 20, SH - 12, c.glass) + R(X0 + j * BAY + 10, top + i * SH + SH - 6, BAY - 20, 6, c.gold);
+    s += R(X0, G - SH, BW, SH, c.dark) + R(X0 + BW / 2 - 20, G - SH + 4, 40, SH - 4, c.gold);
+    return s + P(`M${X0 + BW / 2 - 28} ${G - SH} l28 -14 l28 14 Z`, c.gold);
+  },
+  "bauhaus-architecture": (c) => {
+    let s = R(X0, G - S * SH, 2 * BAY, S * SH, c.glass) + R(X0 + 2 * BAY, G - (S - 1) * SH, BAY, (S - 1) * SH, c.wall) + R(X0 + 3 * BAY, G - S * SH, 3 * BAY, S * SH, c.wall);
+    for (let i = 0; i <= S; i++) s += R(X0, G - i * SH - 1, 2 * BAY, 2, c.frame);
+    for (let j = 0; j <= 2; j++) s += R(X0 + j * BAY - 1, G - S * SH, 2, S * SH, c.frame);
+    s += R(X0 + 2 * BAY, G - 3 * SH, BAY, 14, c.wall) + R(X0 + 2 * BAY, G - 3 * SH + 14, BAY, 3, c.red);
+    for (let i = 0; i < S; i++) s += R(X0 + 3 * BAY + 8, G - (S - i) * SH + 12, 3 * BAY - 16, 20, c.glass) + R(X0 + 3 * BAY + 8, G - (S - i) * SH + 32, 3 * BAY - 16, 2, c.frame);
+    return s + R(X0 + 5.6 * BAY, G - SH, 10, SH, c.red);
+  },
+  "mid-century-modern-architecture": (c) => {
+    let s = "";
+    for (let i = 0; i < S; i++) {
+      const y = G - (S - i) * SH;
+      s += R(X0 - 14, y, BW + 28, 7, c.dark) + R(X0, y + 7, BW, SH - 7, c.wall);
+      for (let j = 0; j < N; j++) {
+        if (j === 2 && i % 2 === 0) s += R(X0 + j * BAY, y + 7, BAY * 1.5, SH - 7, c.brick);
+        else s += R(X0 + j * BAY + 3, y + 12, BAY - 6, SH - 15, j < 2 ? c.wood : c.glass);
+      }
+      for (let j = 0; j <= N; j++) s += R(X0 + j * BAY - 1.5, y + 7, 3, SH - 7, c.dark);
+    }
+    return s;
+  },
+  "postmodern-architecture": (c) => {
+    const top = G - S * SH;
+    let s = R(X0, top, BW, S * SH, c.wall) + R(X0, G - SH * 1.2, BW, SH * 1.2, c.base);
+    for (let i = 0; i < S - 1; i++) for (let j = 0; j < N; j++) {
+      const x = X0 + j * BAY + 12, y = top + 14 + i * SH, w = BAY - 24;
+      s += R(x, y, w, 26, c.glass, `stroke="${c.trim}" stroke-width="3"`);
+      if (i === 0) s += P(`M${x - 2} ${y - 2} h${w + 4} l-${(w + 4) / 2} -10 Z`, c.trim);
+    }
+    s += P(`M${X0 - 6} ${top} H${X0 + BW / 2 - 18} L${X0 + BW / 2 - 6} ${top - 24} H${X0 + BW / 2 + 6} L${X0 + BW / 2 + 18} ${top} H${X0 + BW + 6} V${top - 10} L${X0 + BW / 2} ${top - 54} L${X0 - 6} ${top - 10} Z`, c.trim);
+    s += R(X0 + BW / 2 - 26, G - 70, 52, 70, c.accent);
+    return s + P(`M${X0 + BW / 2 - 18} ${G - 8} V${G - 44} A18 18 0 0 1 ${X0 + BW / 2 + 18} ${G - 44} V${G - 8} Z`, c.trim);
+  },
+  "high-tech-architecture": (c) => {
+    let s = R(X0, G - S * SH, BW, S * SH, c.glass, 'opacity=".5"');
+    for (let i = 0; i <= S; i++) s += R(X0 - 4, G - i * SH - 2, BW + 8, 4, c.steel);
+    for (let j = 0; j <= N; j++) s += R(X0 + j * BAY - 3, G - S * SH, 6, S * SH, c.steel);
+    for (let j = 0; j < N; j++) for (let i = 0; i < S; i += 2) s += P(`M${X0 + j * BAY} ${G - i * SH} L${X0 + (j + 1) * BAY} ${G - (i + 1) * SH} M${X0 + (j + 1) * BAY} ${G - i * SH} L${X0 + j * BAY} ${G - (i + 1) * SH}`, "none", `stroke="${c.steel}" stroke-width="2"`);
+    s += R(X0 + BW + 8, G - S * SH, 12, S * SH, c.blue) + R(X0 + BW + 24, G - S * SH, 12, S * SH, c.green) + R(X0 - 24, G - S * SH, 14, S * SH, c.red);
+    s += P(`M${X0 - 10} ${G - SH} L${X0 + 60} ${G - S * SH + 10}`, "none", `stroke="${c.red}" stroke-width="6"`);
+    for (let j = 0; j <= N; j += 2) s += R(X0 + j * BAY - 1, G - S * SH - 40, 2, 38, c.steel);
+    return s + R(X0 - 4, G - S * SH - 20, BW + 8, 3, c.steel);
+  },
+  "deconstructivist-architecture": (c) => {
+    const t = G - S * SH;
+    let s = P(`M${X0} ${G} V${t + 40} L${X0 + 150} ${t} V${G} Z`, c.zinc) + P(`M${X0 + 130} ${G} L${X0 + 170} ${t - 20} L${X0 + BW - 30} ${t + 30} V${G} Z`, c.titanium) + P(`M${X0 + 220} ${G} L${X0 + BW + 30} ${t + 60} V${G} Z`, c.zinc);
+    s += P(`M${X0 + 150} ${G - 10} L${X0 + 300} ${t - 30} L${X0 + 318} ${t - 4} L${X0 + 170} ${G - 10} Z`, c.zinc, 'opacity=".85"');
+    for (let k = 0; k < 7; k++) s += P(`M${X0 + 30 + k * 40} ${G - 30 - (k % 3) * 40} l${46 + k * 3} -${20 + k * 4} l4 8 l-${46 + k * 3} ${20 + k * 4} Z`, c.dark);
+    return s + P(`M${X0 + 150} ${t} L${X0 + 170} ${t - 20} L${X0 + 250} ${G} L${X0 + 232} ${G} Z`, c.red, 'opacity=".9"');
+  }
+};
+const colour = {
+  "international-style-architecture": { wall: "#F4F3EE", frame: "#1C1C1C", glass: "#A9C1C9" },
+  "brutalist-architecture": { wall: "#8C8A84", shadow: "#5F5D58", dark: "#4A332B" },
+  "art-nouveau-architecture": { wall: "#E6DCC3", iron: "#5E8B7E", glass: "#D69A2D", roof: "#6B7A3A" },
+  "art-deco-architecture": { wall: "#D9D0BC", pier: "#C9BFA6", dark: "#1E1E22", gold: "#C9A24B", glass: "#2F7F6A" },
+  "bauhaus-architecture": { wall: "#F2F1EC", frame: "#1A1A1A", glass: "#9CB7C4", red: "#C0392B" },
+  "mid-century-modern-architecture": { wall: "#EBE3D0", dark: "#2D2D2D", wood: "#9A6B3F", glass: "#A9C1C9", brick: "#B8553A" },
+  "postmodern-architecture": { wall: "#E3A48F", base: "#B8553A", trim: "#F1E6C8", glass: "#2E8B8B", accent: "#2E8B8B" },
+  "high-tech-architecture": { steel: "#9AA3A8", glass: "#B8D4DD", red: "#D62D20", blue: "#1B6EC2", green: "#1E9E5A" },
+  "deconstructivist-architecture": { zinc: "#8A9097", titanium: "#B7BCC2", dark: "#141414", red: "#C8281E" }
+};
+Promise.all(Object.keys(styles).map((id) => fetch(`../data/architecture/styles/${id}.json`).then((r) => r.json()))).then((all) => {
+  const grid = document.getElementById("grid");
+  for (const d of all) {
+    const fig = document.createElement("figure");
+    const wwr = (d.facade.openings.match(/\d+(?:\s*to\s*\d+)?%/) || ["see record"])[0];
+    fig.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${d.name}: the same 6 by 5 bay box in this style">${R(0, 0, W, H, "#dcdde0")}${R(0, G, W, H - G, "#6d6f73")}${styles[d.id](colour[d.id])}</svg>
+      <figcaption><b>${d.name}</b><span>${d.time_period.label} · window-to-wall: ${wwr}</span>
+      <div class="sw">${d.materials.palette.map((p) => `<i title="${p.name}" style="background:${p.hex}"></i>`).join("")}</div></figcaption>`;
+    grid.append(fig);
+  }
+});
+</script>
+</body>
+</html>

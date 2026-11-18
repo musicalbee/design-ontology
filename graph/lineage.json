@@ -287,6 +287,51 @@
       }
     },
     {
+      "id": "art-nouveau-architecture",
+      "domain": "architecture",
+      "name": "Art Nouveau",
+      "era": "fin-de-siecle",
+      "start": 1893,
+      "end": 1914,
+      "vectors": {
+        "ornamentation": 5,
+        "structural_expression": 3,
+        "geometric_rigidity": 1,
+        "material_rawness": 2,
+        "monumentality": 2
+      }
+    },
+    {
+      "id": "bauhaus-architecture",
+      "domain": "architecture",
+      "name": "Bauhaus Architecture",
+      "era": "modern-movement",
+      "start": 1919,
+      "end": 1933,
+      "vectors": {
+        "ornamentation": 1,
+        "structural_expression": 4,
+        "geometric_rigidity": 5,
+        "material_rawness": 2,
+        "monumentality": 2
+      }
+    },
+    {
+      "id": "art-deco-architecture",
+      "domain": "architecture",
+      "name": "Art Deco",
+      "era": "modern-movement",
+      "start": 1920,
+      "end": 1939,
+      "vectors": {
+        "ornamentation": 4,
+        "structural_expression": 2,
+        "geometric_rigidity": 4,
+        "material_rawness": 1,
+        "monumentality": 4
+      }
+    },
+    {
       "id": "international-style-architecture",
       "domain": "architecture",
       "name": "International Style",
@@ -299,6 +344,21 @@
         "geometric_rigidity": 5,
         "material_rawness": 2,
         "monumentality": 3
+      }
+    },
+    {
+      "id": "mid-century-modern-architecture",
+      "domain": "architecture",
+      "name": "Mid-century Modern",
+      "era": "modern-movement",
+      "start": 1940,
+      "end": 1969,
+      "vectors": {
+        "ornamentation": 1,
+        "structural_expression": 3,
+        "geometric_rigidity": 4,
+        "material_rawness": 3,
+        "monumentality": 1
       }
     },
     {
@@ -315,9 +375,59 @@
         "material_rawness": 5,
         "monumentality": 5
       }
+    },
+    {
+      "id": "postmodern-architecture",
+      "domain": "architecture",
+      "name": "Postmodernism",
+      "era": "postmodern-and-after",
+      "start": 1966,
+      "end": 1992,
+      "vectors": {
+        "ornamentation": 4,
+        "structural_expression": 1,
+        "geometric_rigidity": 3,
+        "material_rawness": 1,
+        "monumentality": 3
+      }
+    },
+    {
+      "id": "high-tech-architecture",
+      "domain": "architecture",
+      "name": "High-tech",
+      "era": "postmodern-and-after",
+      "start": 1970,
+      "end": 1999,
+      "vectors": {
+        "ornamentation": 1,
+        "structural_expression": 5,
+        "geometric_rigidity": 4,
+        "material_rawness": 2,
+        "monumentality": 3
+      }
+    },
+    {
+      "id": "deconstructivist-architecture",
+      "domain": "architecture",
+      "name": "Deconstructivism",
+      "era": "postmodern-and-after",
+      "start": 1982,
+      "end": 2005,
+      "vectors": {
+        "ornamentation": 2,
+        "structural_expression": 3,
+        "geometric_rigidity": 1,
+        "material_rawness": 3,
+        "monumentality": 3
+      }
     }
   ],
   "edges": [
+    {
+      "from": "bauhaus",
+      "to": "bauhaus-architecture",
+      "type": "ECHOES"
+    },
     {
       "from": "bauhaus",
       "to": "international-style-architecture",
@@ -329,9 +439,29 @@
       "type": "ECHOES"
     },
     {
+      "from": "deconstructivist-architecture",
+      "to": "grunge-editorial",
+      "type": "ECHOES"
+    },
+    {
       "from": "international-style-architecture",
       "to": "swiss-international",
       "type": "ECHOES"
+    },
+    {
+      "from": "memphis-design",
+      "to": "postmodern-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "mid-century-modern",
+      "to": "mid-century-modern-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "art-deco-architecture",
+      "to": "art-nouveau-architecture",
+      "type": "EVOLVED_FROM"
     },
     {
       "from": "bento-grid-ui",
@@ -374,6 +504,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "high-tech-architecture",
+      "to": "international-style-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "material-design",
       "to": "flat-design",
       "type": "EVOLVED_FROM"
@@ -381,6 +516,11 @@
     {
       "from": "mid-century-modern",
       "to": "bauhaus",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "mid-century-modern-architecture",
+      "to": "international-style-architecture",
       "type": "EVOLVED_FROM"
     },
     {
@@ -409,6 +549,11 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "bauhaus-architecture",
+      "to": "international-style-architecture",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "bento-grid-ui",
       "to": "glassmorphism",
       "type": "HYBRIDIZED_WITH"
@@ -421,6 +566,11 @@
     {
       "from": "corporate-memphis",
       "to": "memphis-design",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "deconstructivist-architecture",
+      "to": "high-tech-architecture",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -459,6 +609,16 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "deconstructivist-architecture",
+      "to": "international-style-architecture",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "deconstructivist-architecture",
+      "to": "postmodern-architecture",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "flat-design",
       "to": "skeuomorphism",
       "type": "REBELLED_AGAINST"
@@ -489,6 +649,16 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "postmodern-architecture",
+      "to": "brutalist-architecture",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "postmodern-architecture",
+      "to": "international-style-architecture",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "psychedelic",
       "to": "swiss-international",
       "type": "REBELLED_AGAINST"
@@ -512,6 +682,7 @@
         "swiss-international"
       ],
       "echoes": [
+        "bauhaus-architecture",
         "international-style-architecture"
       ],
       "nearest_by_vector": [
@@ -539,7 +710,9 @@
       "hybridized_with": [
         "swiss-international"
       ],
-      "echoes": [],
+      "echoes": [
+        "mid-century-modern-architecture"
+      ],
       "nearest_by_vector": [
         {
           "id": "neo-brutalism-ui",
@@ -629,7 +802,9 @@
       "hybridized_with": [
         "corporate-memphis"
       ],
-      "echoes": [],
+      "echoes": [
+        "postmodern-architecture"
+      ],
       "nearest_by_vector": [
         {
           "id": "psychedelic",
@@ -655,7 +830,9 @@
         "y2k-aesthetic"
       ],
       "hybridized_with": [],
-      "echoes": [],
+      "echoes": [
+        "deconstructivist-architecture"
+      ],
       "nearest_by_vector": [
         {
           "id": "psychedelic",
@@ -990,22 +1167,137 @@
         }
       ]
     },
-    "international-style-architecture": {
+    "art-nouveau-architecture": {
       "evolved_from": [],
       "evolved_into": [
-        "brutalist-architecture"
+        "art-deco-architecture"
       ],
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "deconstructivist-architecture",
+          "distance": 3.32
+        },
+        {
+          "id": "postmodern-architecture",
+          "distance": 3.32
+        },
+        {
+          "id": "art-deco-architecture",
+          "distance": 4
+        }
+      ]
+    },
+    "bauhaus-architecture": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "international-style-architecture"
+      ],
+      "echoes": [
+        "bauhaus"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "international-style-architecture",
+          "distance": 1.41
+        },
+        {
+          "id": "high-tech-architecture",
+          "distance": 1.73
+        },
+        {
+          "id": "mid-century-modern-architecture",
+          "distance": 2
+        }
+      ]
+    },
+    "art-deco-architecture": {
+      "evolved_from": [
+        "art-nouveau-architecture"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "postmodern-architecture",
+          "distance": 1.73
+        },
+        {
+          "id": "international-style-architecture",
+          "distance": 3.61
+        },
+        {
+          "id": "art-nouveau-architecture",
+          "distance": 4
+        }
+      ]
+    },
+    "international-style-architecture": {
+      "evolved_from": [],
+      "evolved_into": [
+        "brutalist-architecture",
+        "high-tech-architecture",
+        "mid-century-modern-architecture"
+      ],
+      "rebelled_against": [],
+      "provoked": [
+        "deconstructivist-architecture",
+        "postmodern-architecture"
+      ],
+      "hybridized_with": [
+        "bauhaus-architecture"
+      ],
       "echoes": [
         "bauhaus",
         "swiss-international"
       ],
       "nearest_by_vector": [
         {
-          "id": "brutalist-architecture",
-          "distance": 4.24
+          "id": "bauhaus-architecture",
+          "distance": 1.41
+        },
+        {
+          "id": "high-tech-architecture",
+          "distance": 2.24
+        },
+        {
+          "id": "mid-century-modern-architecture",
+          "distance": 2.45
+        }
+      ]
+    },
+    "mid-century-modern-architecture": {
+      "evolved_from": [
+        "international-style-architecture"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "mid-century-modern"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "bauhaus-architecture",
+          "distance": 2
+        },
+        {
+          "id": "international-style-architecture",
+          "distance": 2.45
+        },
+        {
+          "id": "high-tech-architecture",
+          "distance": 3
         }
       ]
     },
@@ -1015,15 +1307,109 @@
       ],
       "evolved_into": [],
       "rebelled_against": [],
-      "provoked": [],
+      "provoked": [
+        "postmodern-architecture"
+      ],
       "hybridized_with": [],
       "echoes": [
         "neo-brutalism-ui"
       ],
       "nearest_by_vector": [
         {
+          "id": "high-tech-architecture",
+          "distance": 3.61
+        },
+        {
           "id": "international-style-architecture",
           "distance": 4.24
+        },
+        {
+          "id": "bauhaus-architecture",
+          "distance": 4.47
+        }
+      ]
+    },
+    "postmodern-architecture": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "brutalist-architecture",
+        "international-style-architecture"
+      ],
+      "provoked": [
+        "deconstructivist-architecture"
+      ],
+      "hybridized_with": [],
+      "echoes": [
+        "memphis-design"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "art-deco-architecture",
+          "distance": 1.73
+        },
+        {
+          "id": "art-nouveau-architecture",
+          "distance": 3.32
+        },
+        {
+          "id": "deconstructivist-architecture",
+          "distance": 4
+        }
+      ]
+    },
+    "high-tech-architecture": {
+      "evolved_from": [
+        "international-style-architecture"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "deconstructivist-architecture"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "bauhaus-architecture",
+          "distance": 1.73
+        },
+        {
+          "id": "international-style-architecture",
+          "distance": 2.24
+        },
+        {
+          "id": "mid-century-modern-architecture",
+          "distance": 3
+        }
+      ]
+    },
+    "deconstructivist-architecture": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "international-style-architecture",
+        "postmodern-architecture"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "high-tech-architecture"
+      ],
+      "echoes": [
+        "grunge-editorial"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "art-nouveau-architecture",
+          "distance": 3.32
+        },
+        {
+          "id": "mid-century-modern-architecture",
+          "distance": 3.74
+        },
+        {
+          "id": "high-tech-architecture",
+          "distance": 3.87
         }
       ]
     }

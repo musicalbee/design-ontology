@@ -1,0 +1,115 @@
+{
+  "$schema": "../../../schema/domains/architecture.schema.json",
+  "id": "high-tech-architecture",
+  "domain": "architecture",
+  "name": "High-tech",
+  "aliases": ["Structural Expressionism", "Late Modernism (technological)"],
+  "era_id": "postmodern-and-after",
+  "time_period": { "start": 1970, "end": 1999, "label": "1970s–1990s" },
+  "building_types": ["cultural", "commercial", "industrial"],
+  "summary": "A lightweight steel frame, with the services, the bracing and the lifts shown in colour on the outside. Rogers, Piano and Foster made the machine aesthetic of the 1920s into a flexible, kit-of-parts building.",
+  "philosophy": {
+    "core_thesis": "A building is a machine of parts: structure, services and circulation are tools to see and to change, and open floors let the use change.",
+    "design_principles": [
+      "Free the floor plate: span 12 to 48m with trusses or tension rods, so that the interior has no columns in the use area.",
+      "Put services outside, on the facade or the roof: ducts, pipes, lifts and stairs, coloured by function (blue air, green water, yellow power, red escape).",
+      "Build from a kit of prefabricated parts: steel members, pins, castings and glass panels that are bolted, not welded on site.",
+      "Show the joints: bolts, pins, cast gerberettes and tension rods are the detail that carries the elevation.",
+      "Wrap the frame in a thin skin of glass or metal panel, with a window-to-wall ratio of 60 to 100%.",
+      "Plan for change: a regular bay of 6 to 12m, a raised floor of 150 to 600mm, and walls that move."
+    ],
+    "anti_patterns": [
+      "Services hidden in a ceiling void and a cladded riser",
+      "Massive concrete or masonry walls",
+      "Applied historical ornament or quotation",
+      "Welded smooth joints that hide how the part is fixed",
+      "Fixed plans with load-bearing partitions",
+      "Rough, unfinished, hand-made surfaces"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "structural_expression": 5,
+    "geometric_rigidity": 4,
+    "material_rawness": 2,
+    "monumentality": 3
+  },
+  "massing": {
+    "form": "A clear rectangular box of 3 to 8 storeys, with the stairs, lifts and ducts in separate bands or towers beside it.",
+    "proportion": "Wide and low: 2:1 to 4:1 length to height; the long front is a screen of frame and glass.",
+    "roof": "A flat roof with plant, masts and tension-rod trusses; the roof edge is a thin line.",
+    "relation_to_ground": "A raised public plaza or a ground floor open on all sides, so that the building sits like a machine on a platform."
+  },
+  "structure": {
+    "system": "A steel frame with trusses, tension members and cast steel joints, on a 6 to 12m module.",
+    "span_and_module": "Floor spans of 12 to 48m; the frame bay of 6 to 12.8m; floors are 3.5 to 4.2m storey to storey.",
+    "expression": "All members are visible, from the cross-bracing to the pins; the structure is the main decoration."
+  },
+  "materials": {
+    "primary": ["painted structural steel", "glass", "stainless steel", "aluminium panels"],
+    "secondary": ["tensile fabric", "cast steel", "perforated metal", "raised access floor"],
+    "finish": "Factory-made and exact: paint in primary colours, brushed stainless, clear glass, and bolted joints.",
+    "palette": [
+      { "name": "Steel grey", "hex": "#9AA3A8", "role": "frame and bracing" },
+      { "name": "Signal red", "hex": "#D62D20", "role": "circulation and escape" },
+      { "name": "Duct blue", "hex": "#1B6EC2", "role": "air services" },
+      { "name": "Pipe green", "hex": "#1E9E5A", "role": "water services" },
+      { "name": "Glass", "hex": "#B8D4DD", "role": "skin" }
+    ]
+  },
+  "facade": {
+    "composition": "A frame of columns, bracing and floors in front of glass, with a coloured layer of services and a glazed outside escalator or stair.",
+    "openings": "Full-height glazing; the window-to-wall ratio is 60 to 100%, with solid panels only at the cores.",
+    "solid_to_void": "Void leads: 0–40% opaque, mostly as steel members and panels."
+  },
+  "light_and_space": {
+    "daylight": "Light reaches deep plans through full glass fronts, rooflights and atrium; the structure casts a fine line of shadow.",
+    "spatial_sequence": "A free open floor reached by a long glazed escalator or a lift on the outside; the plan is a field, not a sequence.",
+    "interior_character": "Bare steel soffits, raised floors, movable partitions and visible services in the ceiling."
+  },
+  "ornament": {
+    "attitude": "No applied ornament; the detail of the joint, the colour code of the services and the structure are the image.",
+    "details": ["cast steel gerberettes", "tension rod bracing", "colour-coded ducts", "glazed external escalators", "exposed bolts and pins"]
+  },
+  "lineage": {
+    "evolved_from": ["international-style-architecture"],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Energy and openness: the viewer feels a machine that works in public and welcomes change.",
+    "keywords": ["technical", "transparent", "flexible", "precise", "energetic"],
+    "brand_archetypes": ["explorer", "creator"]
+  },
+  "agent": {
+    "triggers": ["high-tech architecture", "pompidou", "rogers and piano", "norman foster", "hsbc building", "exposed services", "steel and glass machine", "bolted steel"],
+    "use_cases": ["museum and library renders", "corporate headquarters", "airport and station design", "science and lab buildings"],
+    "avoid_when": [
+      "The brief asks for domestic warmth, traditional craft or a heavy masonry building.",
+      "The site has strong rules on a historic roofline or a quiet street front."
+    ],
+    "modifiers": [
+      { "request": "heavier", "toward": "brutalist-architecture", "how": "Replace the steel frame with cast concrete members of the same grid, show services in a concrete tower, and reduce the glazing to 40%." }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "exposed steel structure", "colour-coded service ducts", "tension rod bracing", "glass curtain wall", "external escalator",
+      "bolted cast steel joints", "column-free open floor", "atrium", "kit of parts"
+    ],
+    "negative": ["masonry wall", "classical ornament", "pitched roof", "hidden services", "rustic timber", "pastel stucco"],
+    "canonical_works": [
+      { "work": "Centre Pompidou, Paris", "architect": "Renzo Piano and Richard Rogers", "year": 1977 },
+      { "work": "Lloyd's Building, London", "architect": "Richard Rogers", "year": 1986 },
+      { "work": "HSBC Main Building, Hong Kong", "architect": "Norman Foster", "year": 1985 },
+      { "work": "Sainsbury Centre, Norwich", "architect": "Norman Foster", "year": 1978 },
+      { "work": "Inmos Microprocessor Factory, Newport", "architect": "Richard Rogers", "year": 1982 }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q845318, high-tech architecture (CC0)", "url": "https://www.wikidata.org/wiki/Q845318" },
+    { "title": "Getty AAT 300060022, High-Tech (ODC-By 1.0)", "url": "https://vocab.getty.edu/page/aat/300060022" },
+    { "title": "Colin Davies, High Tech Architecture (Thames & Hudson, 1988)" }
+  ]
+}

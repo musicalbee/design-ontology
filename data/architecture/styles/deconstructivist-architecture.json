@@ -1,0 +1,115 @@
+{
+  "$schema": "../../../schema/domains/architecture.schema.json",
+  "id": "deconstructivist-architecture",
+  "domain": "architecture",
+  "name": "Deconstructivism",
+  "aliases": ["Deconstruction", "Deconstructivist architecture"],
+  "era_id": "postmodern-and-after",
+  "time_period": { "start": 1982, "end": 2005, "label": "1980s–2000s" },
+  "building_types": ["cultural", "commercial", "civic"],
+  "summary": "Skewed, fractured volumes that collide at sharp angles, with a facade that seems to tear itself apart. Gehry, Hadid, Libeskind and Coop Himmelb(l)au used distortion to disturb the pure box of the Modern Movement from inside.",
+  "philosophy": {
+    "core_thesis": "The pure form is already flawed: distort the grid, collide the volumes and let the building show that order is unstable.",
+    "design_principles": [
+      "Collide two or more orthogonal volumes at 10 to 40° skews, so that no wall is parallel to its neighbour.",
+      "Fragment the form into 5 to 15 shards or bars that overlap, tilt and cantilever.",
+      "Tilt walls and floors off the vertical by 3 to 15°, and let beams and columns slope.",
+      "Cut slot windows and sharp gashes at angles that do not follow the floor levels.",
+      "Show the stress: bracing, folded planes and structure that seems to carry the load without a clear path.",
+      "Wrap the shards in one material, usually metal sheet, zinc or titanium, and let the joints draw the geometry."
+    ],
+    "anti_patterns": [
+      "Regular orthogonal grids and repeated bays",
+      "Symmetric compositions around an axis",
+      "Soft rounded blob forms with no hard edges",
+      "Historical quotation or applied ornament",
+      "A plain box with one decorative sloped wall",
+      "Windows aligned with floor levels and a clear horizontal order"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "structural_expression": 3,
+    "geometric_rigidity": 1,
+    "material_rawness": 3,
+    "monumentality": 3
+  },
+  "massing": {
+    "form": "Shards, bars and planes that cross and cantilever 3 to 12m; two or more volumes at skewed angles in one composition.",
+    "proportion": "Long thin elements, with a ratio of 1:6 or more, crossing short stout ones; the silhouette has no clear centre.",
+    "roof": "A tilted, folded or broken roof that continues the wall; no flat roof with a clear edge line.",
+    "relation_to_ground": "The mass crashes into or lifts off the ground: a splayed base, a cut-in plaza or a slab that is propped on one point."
+  },
+  "structure": {
+    "system": "A steel frame or space-frame, often designed with 3D software, with a concrete core and a sheet-metal skin.",
+    "span_and_module": "No regular module: spans vary from 4 to 30m and members are cut to a unique length and angle.",
+    "expression": "The structure is shown as a tangle: raking columns, trusses and braces cross the interior and the skin."
+  },
+  "materials": {
+    "primary": ["zinc and titanium sheet", "stainless steel", "glass", "exposed steel"],
+    "secondary": ["raw concrete", "plywood", "perforated metal", "plaster"],
+    "finish": "Mixed: bright metal on the shards, raw or plain finish on the inside, and joints that are visible and unaligned.",
+    "palette": [
+      { "name": "Zinc grey", "hex": "#8A9097", "role": "main skin" },
+      { "name": "Titanium", "hex": "#B7BCC2", "role": "highlight planes" },
+      { "name": "Raw concrete", "hex": "#7D7B76", "role": "base and interior" },
+      { "name": "Black", "hex": "#141414", "role": "slot windows and shadow" },
+      { "name": "Signal red", "hex": "#C8281E", "role": "one accent plane" }
+    ]
+  },
+  "facade": {
+    "composition": "Overlapping planes at different angles; the window pattern ignores floor levels and the front has no clear base, middle and top.",
+    "openings": "Slots, triangles and wedges cut at skewed angles, 3 to 20% of a plane at a time; the window-to-wall ratio is 20 to 50%.",
+    "solid_to_void": "Solid leads at 50–80%, cut by sharp voids."
+  },
+  "light_and_space": {
+    "daylight": "Light enters through slashes, skylights and tilted glass; it makes sharp, moving bars and wedges across the floor.",
+    "spatial_sequence": "A route with no straight line: slanted halls, split stairs and bridges lead through the shards and show a new view at each turn.",
+    "interior_character": "Tilted walls, sloped floors, exposed bracing and few right angles; the room has no clear centre."
+  },
+  "ornament": {
+    "attitude": "No ornament in the classical sense; the distortion and the fracture are the only expression.",
+    "details": ["skewed slot windows", "folded metal panels", "cantilevered shards", "exposed raking columns", "sloped walls"]
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": ["international-style-architecture", "postmodern-architecture"],
+    "hybridized_with": ["high-tech-architecture"],
+    "echoes": ["grunge-editorial"]
+  },
+  "emotion": {
+    "target_response": "Unease and thrill: the viewer feels a stable order break up and finds beauty in the break.",
+    "keywords": ["fractured", "dynamic", "unstable", "sculptural", "disruptive"],
+    "brand_archetypes": ["outlaw", "explorer"]
+  },
+  "agent": {
+    "triggers": ["deconstructivism", "deconstructivist architecture", "frank gehry", "zaha hadid early", "libeskind", "coop himmelb(l)au", "fractured shards", "skewed volumes", "collision of volumes"],
+    "use_cases": ["museum and gallery renders", "landmark concept art", "film and game environments", "exhibition pavilions"],
+    "avoid_when": [
+      "The brief asks for a low-cost, repeatable or fast-to-build building.",
+      "The programme needs clear, regular rooms, as in housing or a hospital."
+    ],
+    "modifiers": [
+      { "request": "more ordered", "toward": "high-tech-architecture", "how": "Return the shards to a 6 to 12m grid, keep the exposed structure and the glass, and cut the skew angles to 0° and 90°." }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "skewed colliding volumes", "fractured shards", "tilted walls", "slash windows", "zinc sheet cladding",
+      "cantilevered bars", "exposed raking columns", "sharp angles", "dramatic shadows"
+    ],
+    "negative": ["symmetry", "regular grid", "classical ornament", "pastel render", "soft round blob", "pitched roof"],
+    "canonical_works": [
+      { "work": "Frank Gehry House, Santa Monica", "architect": "Frank Gehry", "year": 1978 },
+      { "work": "Parc de la Villette follies, Paris", "architect": "Bernard Tschumi", "year": 1987 },
+      { "work": "Vitra Fire Station, Weil am Rhein", "architect": "Zaha Hadid", "year": 1993 },
+      { "work": "Jewish Museum, Berlin", "architect": "Daniel Libeskind", "year": 1999 },
+      { "work": "Guggenheim Museum, Bilbao", "architect": "Frank Gehry", "year": 1997 }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q238255, deconstructivism (CC0)", "url": "https://www.wikidata.org/wiki/Q238255" },
+    { "title": "Getty AAT 300112407, Deconstructivist (ODC-By 1.0)", "url": "https://vocab.getty.edu/page/aat/300112407" },
+    { "title": "Philip Johnson and Mark Wigley, Deconstructivist Architecture (Museum of Modern Art, 1988)" }
+  ]
+}

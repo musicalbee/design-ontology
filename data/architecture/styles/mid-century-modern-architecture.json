@@ -1,0 +1,115 @@
+{
+  "$schema": "../../../schema/domains/architecture.schema.json",
+  "id": "mid-century-modern-architecture",
+  "domain": "architecture",
+  "name": "Mid-century Modern",
+  "aliases": ["Californian Modern", "Case Study House style", "Usonian-influenced modern"],
+  "era_id": "modern-movement",
+  "time_period": { "start": 1940, "end": 1969, "label": "1940s–1960s" },
+  "building_types": ["residential", "commercial", "cultural"],
+  "summary": "A low house of post-and-beam timber or steel, with glass walls to the garden, a flat or low-pitched roof and a warm palette. It made the International Style domestic and suited it to climate, family and the car.",
+  "philosophy": {
+    "core_thesis": "Modern architecture can be warm: the free plan and the glass wall serve everyday life, and the house belongs to its garden.",
+    "design_principles": [
+      "Build on a post-and-beam frame with a module of 1.2m (4ft) or 1.5m, so that walls, doors and glass fit the grid.",
+      "Keep the house low: one storey, or two with a split level, with a ceiling height of 2.4 to 2.7m.",
+      "Open one long side to the garden with floor-to-ceiling glass or sliding doors, 50 to 80% of that wall.",
+      "Run the roof as a wide overhang, 0.9 to 1.5m, with a flat or low-pitch form of 1:12 to 3:12, so that the shade is part of the glass wall.",
+      "Use warm natural materials inside and outside: wood ceilings, brick or stone feature walls, and slate or terrazzo floors.",
+      "Place a solid core, the fireplace and the service block, at the centre, and let the living spaces wrap round it."
+    ],
+    "anti_patterns": [
+      "Steep pitched roofs with small gables",
+      "Applied historical ornament or colonial trim",
+      "Closed, compartmented rooms with no view of the garden",
+      "Cold, all-white and all-glass surfaces with no timber or stone",
+      "Heavy raw concrete at monumental scale",
+      "Tall, narrow, vertical proportions"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "structural_expression": 3,
+    "geometric_rigidity": 4,
+    "material_rawness": 3,
+    "monumentality": 1
+  },
+  "massing": {
+    "form": "Low horizontal pavilions, L- or U-shaped around a court, often with a detached carport or a split-level section.",
+    "proportion": "The building is 3 to 6 times longer than its height; ceiling height 2.4 to 2.7m, with a higher ceiling in the living room.",
+    "roof": "Flat or low-pitched butterfly or shed roof with deep eaves of 0.9 to 1.5m; clerestory strips sit between roof planes.",
+    "relation_to_ground": "The floor is at ground level or 0.3 to 0.6m above it, so that terraces and patios continue the room outdoors."
+  },
+  "structure": {
+    "system": "A timber post-and-beam frame or a light steel frame, with a concrete slab on grade.",
+    "span_and_module": "Posts at 3.6 to 4.8m centres on a 1.2m module; glass panels, doors and ceiling boards are sized to the module.",
+    "expression": "Exposed beams carry through the glass line to the eaves, so the frame is the one decoration of the house."
+  },
+  "materials": {
+    "primary": ["timber (redwood, cedar, walnut)", "plate glass", "brick or stone feature wall"],
+    "secondary": ["painted steel", "terrazzo and slate", "plywood", "cork"],
+    "finish": "Natural and satin: oiled wood, matte paint, honed stone. Surfaces show the grain but they are not rough.",
+    "palette": [
+      { "name": "Teak", "hex": "#9A6B3F", "role": "ceilings, panelling and furniture" },
+      { "name": "Cream plaster", "hex": "#EBE3D0", "role": "walls" },
+      { "name": "Olive", "hex": "#6F6B2F", "role": "doors and accent walls" },
+      { "name": "Burnt orange", "hex": "#C8622A", "role": "accent doors and furniture" },
+      { "name": "Charcoal steel", "hex": "#2D2D2D", "role": "frame and fireplace" }
+    ]
+  },
+  "facade": {
+    "composition": "A horizontal plane of roof, glass and solid wall; a closed, private street front and an open garden front.",
+    "openings": "Floor-to-ceiling sliding glass on the garden side, high clerestories and a small number of windows to the street; the window-to-wall ratio is 15% at the street and 50 to 80% at the garden.",
+    "solid_to_void": "Street side 85% solid; garden side 20–50% solid."
+  },
+  "light_and_space": {
+    "daylight": "Light enters from the garden side and from clerestories; deep eaves cut the summer sun and let in the winter sun.",
+    "spatial_sequence": "A low, narrow entrance leads to an open living, dining and kitchen space centred on a fireplace; bedrooms are in a wing.",
+    "interior_character": "Wood ceilings, a brick or stone fireplace wall, built-in storage, and furniture by Eames, Nelson and Saarinen in simple, curved forms."
+  },
+  "ornament": {
+    "attitude": "No applied ornament; the grain of the wood, the pattern of the structure and one piece of art carry the interest.",
+    "details": ["exposed post-and-beam joints", "brick or stone fireplace wall", "breeze-block screens", "slatted wood screens", "sunken conversation pit"]
+  },
+  "lineage": {
+    "evolved_from": ["international-style-architecture"],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": ["mid-century-modern"]
+  },
+  "emotion": {
+    "target_response": "Ease and optimism: the viewer feels a modern home that is calm, sunny and made for a family.",
+    "keywords": ["warm", "horizontal", "open", "optimistic", "domestic"],
+    "brand_archetypes": ["everyman", "creator"]
+  },
+  "agent": {
+    "triggers": ["mid-century modern", "mid century house", "case study house", "post and beam", "eichler", "butterfly roof", "californian modern", "palm springs modernism"],
+    "use_cases": ["house and villa renders", "real-estate staging", "residential interiors", "film and set design"],
+    "avoid_when": [
+      "The climate is cold and wet and the budget cannot hold a high glass share and a thin envelope.",
+      "The brief asks for density, high-rise or monumental scale."
+    ],
+    "modifiers": [
+      { "request": "more austere", "toward": "international-style-architecture", "how": "Whiten the walls, thin the frame, drop the timber and the brick feature wall, and keep the flat roof and the glass wall." }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "low horizontal pavilion", "post and beam frame", "floor to ceiling glass wall", "deep roof overhang", "butterfly roof",
+      "brick fireplace wall", "wood ceiling", "breeze block screen", "garden courtyard", "warm afternoon light"
+    ],
+    "negative": ["pitched gable roof", "colonial trim", "heavy raw concrete", "ornate moulding", "dark closed rooms", "high-rise tower"],
+    "canonical_works": [
+      { "work": "Farnsworth House, Plano", "architect": "Ludwig Mies van der Rohe", "year": 1951 },
+      { "work": "Eames House (Case Study House 8), Pacific Palisades", "architect": "Charles and Ray Eames", "year": 1949 },
+      { "work": "Kaufmann Desert House, Palm Springs", "architect": "Richard Neutra", "year": 1946 },
+      { "work": "Stahl House (Case Study House 22), Los Angeles", "architect": "Pierre Koenig", "year": 1960 },
+      { "work": "Glass House, New Canaan", "architect": "Philip Johnson", "year": 1949 }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q6840667, mid-century modern (CC0)", "url": "https://www.wikidata.org/wiki/Q6840667" },
+    { "title": "Getty AAT 300343610, mid-century modern (ODC-By 1.0)", "url": "https://vocab.getty.edu/page/aat/300343610" },
+    { "title": "Elizabeth A. T. Smith (ed.), Blueprints for Modern Living: History and Legacy of the Case Study Houses (MIT Press, 1989)" }
+  ]
+}
