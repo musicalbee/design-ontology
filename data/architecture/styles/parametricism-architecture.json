@@ -1,0 +1,272 @@
+{
+  "$schema": "../../../schema/domains/architecture.schema.json",
+  "id": "parametricism-architecture",
+  "domain": "architecture",
+  "name": "Parametricism",
+  "aliases": [
+    "Parametric architecture",
+    "Algorithmic architecture",
+    "Digital fluidity"
+  ],
+  "era_id": "postmodern-and-after",
+  "time_period": {
+    "start": 2008,
+    "end": null,
+    "label": "2008–present"
+  },
+  "building_types": [
+    "cultural",
+    "commercial",
+    "civic"
+  ],
+  "summary": "Buildings drawn by algorithm: continuous curved skins, smooth transitions and no repeated part. Zaha Hadid Architects and Patrik Schumacher made one flowing field of the façade, roof and floor, built with digital fabrication.",
+  "philosophy": {
+    "core_thesis": "A design is a system of linked parameters, so every part can differ and follow the others in a smooth gradient: one fluid field replaces the rigid, repeated element.",
+    "design_principles": [
+      "Replace the rigid, repeated element with a continuous surface: roof, wall and floor fold into one another without an edge.",
+      "Drive the form by parameters: structure, daylight, flow of people and fabrication limits set the shape by script.",
+      "Differentiate the parts in a smooth gradient, so each panel, mullion and node differs a little from its neighbour.",
+      "Use a double-curved skin of panels with a typical size of 1.5 to 3m, and a hidden steel space frame under it.",
+      "Make the plan a field: paths, rooms and the landscape flow together, and the route has no sharp corner.",
+      "Design with digital tools from first sketch to fabrication, so the model is also the shop drawing."
+    ],
+    "anti_patterns": [
+      "Orthogonal boxes, repeated identical bays and flat facades",
+      "Applied historical ornament or a symbolic pastiche",
+      "Sharp, unrelated shards with no continuity of surface",
+      "Random blob forms with no link to a parameter",
+      "A single repeated module over the whole skin",
+      "Visible joints and edges that break the flow of the surface"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "structural_expression": 2,
+    "geometric_rigidity": 1,
+    "material_rawness": 1,
+    "monumentality": 4
+  },
+  "massing": {
+    "form": "A single flowing volume that rises from the ground plane and folds into wall and roof, with no clear division between them.",
+    "proportion": "Free: the shape follows the field; typical plan spans of 60 to 200m with a height of 20 to 50m.",
+    "roof": "The roof is part of the skin: it curves down into the walls and into the plaza without a parapet or eave.",
+    "relation_to_ground": "The ground plane lifts and folds to become the building; plazas and ramps are part of one surface."
+  },
+  "structure": {
+    "system": "A steel space frame or a shell of glass-fibre-reinforced concrete, with a free double-curved skin carried on a hidden frame.",
+    "span_and_module": "Column-free spans of 40 to 90m; skin panels of 1.5 to 3m, each one different; columns are few and leaning.",
+    "expression": "The structure is hidden to keep the surface pure; the form itself shows the flow of forces."
+  },
+  "materials": {
+    "primary": [
+      "glass-fibre-reinforced concrete (GFRC)",
+      "glass-fibre-reinforced plastic (GFRP)",
+      "steel space frame",
+      "glass"
+    ],
+    "secondary": [
+      "aluminium cladding",
+      "white paint or gel coat",
+      "polished concrete",
+      "laminated timber"
+    ],
+    "finish": "Seamless and smooth: white, joint-free surfaces, or a glass skin with fine, even mullions.",
+    "palette": [
+      {
+        "name": "Gel white",
+        "hex": "#F4F4F2",
+        "role": "skin and walls"
+      },
+      {
+        "name": "Fluid grey",
+        "hex": "#B8BCC2",
+        "role": "ground plane and shadows"
+      },
+      {
+        "name": "Glass blue",
+        "hex": "#8FB4D1",
+        "role": "glazed bands"
+      },
+      {
+        "name": "Polished concrete",
+        "hex": "#9A9A96",
+        "role": "floors"
+      },
+      {
+        "name": "Signal accent",
+        "hex": "#E34A33",
+        "role": "interior highlight"
+      }
+    ]
+  },
+  "facade": {
+    "composition": "One continuous double-curved surface with a gradient of panels; the glazed zones open and close along the curve.",
+    "openings": "Windows are cut as slits or gradient bands inside the skin; the window-to-wall ratio is 20 to 50%.",
+    "solid_to_void": "Variable: 50–80% opaque, changing along the surface."
+  },
+  "light_and_space": {
+    "daylight": "Light enters through cuts and slits in the skin and gives soft gradients over the curved white walls.",
+    "spatial_sequence": "A continuous flow: the plaza lifts into the entry, then a vast curved atrium with ramps and stairs and no hard threshold.",
+    "interior_character": "White curving walls and soffits, floating stairs, long smooth ramps and indirect, even light."
+  },
+  "ornament": {
+    "attitude": "Form is the ornament: the pattern comes from the algorithm and the gradient of the surface, not from applied decoration.",
+    "details": [
+      "gradient panel patterns",
+      "double-curved skin",
+      "ribbed shell lines",
+      "continuous ramps",
+      "folded plane edges",
+      "slit windows"
+    ]
+  },
+  "identity": {
+    "wikidata": "Q25052076"
+  },
+  "composition": {
+    "symmetry": "free",
+    "axis_count": 0,
+    "rhythm_module_m": 2.0,
+    "rules": [
+      {
+        "principle": "unity-variety",
+        "rule": "Vary every panel in a smooth gradient inside one continuous skin.",
+        "value": "1 skin, 1000s of panels"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Make the route a continuous flow with no sharp corner and no hard threshold.",
+        "value": "min. radius 3m"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Fold the ground, wall and roof into one surface.",
+        "value": "1 surface"
+      },
+      {
+        "principle": "scale",
+        "rule": "Span 40 to 90m without columns to give a vast, open interior.",
+        "value": "span 40–90m"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Let the rhythm be a gradient, not a fixed beat: the panel size changes slowly.",
+        "value": "panel 1.5–3m"
+      }
+    ]
+  },
+  "references": [
+    {
+      "title": "Heydar Aliyev Center, Baku",
+      "credit": "Fanti Salms",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Heydar_Aliyev_International_Conference_Center_Baku_Azerbaijan.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "deconstructivist-architecture"
+    ],
+    "rebelled_against": [
+      "international-style-architecture"
+    ],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Fluid futurism: the viewer feels a building in motion, without edges, from a digital age.",
+    "keywords": [
+      "fluid",
+      "seamless",
+      "futuristic",
+      "sculptural",
+      "computational"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "parametricism",
+      "parametric architecture",
+      "zaha hadid",
+      "patrik schumacher",
+      "heydar aliyev center",
+      "algorithmic design",
+      "double-curved facade",
+      "generative architecture",
+      "fluid form building"
+    ],
+    "use_cases": [
+      "cultural buildings and stadiums",
+      "airport and station terminals",
+      "pavilions and installations",
+      "concept renders and game environments"
+    ],
+    "avoid_when": [
+      "The brief asks for a low budget or a simple, buildable box.",
+      "The setting is historic and asks for a quiet, contextual infill."
+    ],
+    "modifiers": [
+      {
+        "request": "more fragmented",
+        "toward": "deconstructivist-architecture",
+        "how": "Break the continuous skin into colliding, angular shards and show the joints."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "flowing curved white skin",
+      "continuous surface folding from ground to roof",
+      "double-curved facade",
+      "gradient panels",
+      "no sharp corners",
+      "ramp and floating stair",
+      "slit windows",
+      "smooth plaza that lifts into the building"
+    ],
+    "negative": [
+      "rectangular box",
+      "repeated identical bays",
+      "classical ornament",
+      "sharp jagged shards",
+      "exposed joints",
+      "brick"
+    ],
+    "canonical_works": [
+      {
+        "work": "Guangzhou Opera House",
+        "architect": "Zaha Hadid Architects",
+        "year": 2010
+      },
+      {
+        "work": "Galaxy Soho, Beijing",
+        "architect": "Zaha Hadid Architects",
+        "year": 2012
+      },
+      {
+        "work": "Heydar Aliyev Center, Baku",
+        "architect": "Zaha Hadid Architects",
+        "year": 2012
+      },
+      {
+        "work": "Beijing Daxing International Airport",
+        "architect": "Zaha Hadid Architects with ADP Ingénierie",
+        "year": 2019
+      },
+      {
+        "work": "Morpheus Hotel, Macau",
+        "architect": "Zaha Hadid Architects",
+        "year": 2018
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Patrik Schumacher, The Autopoiesis of Architecture, vol. 2 (Wiley, 2012)"
+    }
+  ]
+}

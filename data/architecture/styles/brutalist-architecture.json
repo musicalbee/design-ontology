@@ -3,10 +3,21 @@
   "id": "brutalist-architecture",
   "domain": "architecture",
   "name": "Brutalism",
-  "aliases": ["New Brutalism", "Béton brut"],
+  "aliases": [
+    "New Brutalism",
+    "Béton brut"
+  ],
   "era_id": "modern-movement",
-  "time_period": { "start": 1950, "end": 1979, "label": "1950s–1970s" },
-  "building_types": ["civic", "cultural", "residential"],
+  "time_period": {
+    "start": 1950,
+    "end": 1979,
+    "label": "1950s–1970s"
+  },
+  "building_types": [
+    "civic",
+    "cultural",
+    "residential"
+  ],
   "summary": "Heavy masses of board-marked concrete with the structure, the services and the circulation shown on the outside. It grew from Le Corbusier's late work and from British post-war housing, and it built the universities and town halls of the welfare state.",
   "philosophy": {
     "core_thesis": "A building is honest when its material, its structure and its use are legible from the street.",
@@ -46,15 +57,43 @@
     "expression": "Beams, columns, corbels and waffle slabs stay visible inside and outside, and joints between pours are drawn as lines."
   },
   "materials": {
-    "primary": ["board-marked in-situ concrete", "bush-hammered concrete"],
-    "secondary": ["dark brick", "rough timber", "steel-framed glazing", "quarry tile"],
+    "primary": [
+      "board-marked in-situ concrete",
+      "bush-hammered concrete"
+    ],
+    "secondary": [
+      "dark brick",
+      "rough timber",
+      "steel-framed glazing",
+      "quarry tile"
+    ],
     "finish": "Unfinished and matt; the surface keeps formwork grain, tie holes and weather stains, and nothing is polished or painted.",
     "palette": [
-      { "name": "Raw concrete", "hex": "#8C8A84", "role": "primary mass" },
-      { "name": "Weathered concrete", "hex": "#5F5D58", "role": "shadow and stain" },
-      { "name": "Engineering brick", "hex": "#4A332B", "role": "infill walls" },
-      { "name": "Timber", "hex": "#7A5A3A", "role": "handrails and doors" },
-      { "name": "Signal orange", "hex": "#D9541E", "role": "small accents on doors and signs" }
+      {
+        "name": "Raw concrete",
+        "hex": "#8C8A84",
+        "role": "primary mass"
+      },
+      {
+        "name": "Weathered concrete",
+        "hex": "#5F5D58",
+        "role": "shadow and stain"
+      },
+      {
+        "name": "Engineering brick",
+        "hex": "#4A332B",
+        "role": "infill walls"
+      },
+      {
+        "name": "Timber",
+        "hex": "#7A5A3A",
+        "role": "handrails and doors"
+      },
+      {
+        "name": "Signal orange",
+        "hex": "#D9541E",
+        "role": "small accents on doors and signs"
+      }
     ]
   },
   "facade": {
@@ -69,45 +108,163 @@
   },
   "ornament": {
     "attitude": "No applied ornament; the texture of the formwork and the pattern of the structure do the work of decoration.",
-    "details": ["board-marked surfaces", "exposed tie holes", "concrete gargoyles and spouts", "cast-in signage", "ribbed corduroy panels"]
+    "details": [
+      "board-marked surfaces",
+      "exposed tie holes",
+      "concrete gargoyles and spouts",
+      "cast-in signage",
+      "ribbed corduroy panels"
+    ]
   },
+  "identity": {
+    "wikidata": "Q994776",
+    "aat": "300112048"
+  },
+  "composition": {
+    "symmetry": "asymmetric",
+    "axis_count": 0,
+    "rhythm_module_m": 3.0,
+    "rules": [
+      {
+        "principle": "scale",
+        "rule": "Make the mass large and heavy, and show it.",
+        "value": "mass 10–40m"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Repeat the cast bay of the concrete form as a strong beat.",
+        "value": "module 3–6m"
+      },
+      {
+        "principle": "contrast",
+        "rule": "Set rough concrete against deep shadow and a few openings.",
+        "value": "shadow depth 0.5–1m"
+      },
+      {
+        "principle": "grouping",
+        "rule": "Stack the blocks into a stepped, cliff-like group.",
+        "value": "4–8 blocks"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Link the blocks by walkways and bridges that show the route.",
+        "value": "1 elevated route"
+      }
+    ]
+  },
+  "references": [
+    {
+      "title": "Barbican Estate, London",
+      "credit": "Julian Herzog",
+      "licence": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Barbican_Estate_City_of_London_2026_01.jpg"
+    }
+  ],
   "lineage": {
-    "evolved_from": ["international-style-architecture"],
+    "evolved_from": [
+      "international-style-architecture"
+    ],
     "rebelled_against": [],
     "hybridized_with": [],
-    "echoes": ["neo-brutalism-ui"]
+    "echoes": [
+      "neo-brutalism-ui"
+    ]
   },
   "emotion": {
     "target_response": "Weight and permanence: the viewer feels a civic institution that will not move and has nothing to hide.",
-    "keywords": ["monumental", "honest", "severe", "protective", "uncompromising"],
-    "brand_archetypes": ["ruler", "outlaw"]
+    "keywords": [
+      "monumental",
+      "honest",
+      "severe",
+      "protective",
+      "uncompromising"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "outlaw"
+    ]
   },
   "agent": {
-    "triggers": ["brutalist", "brutalism", "béton brut", "raw concrete", "barbican", "monolithic", "fortress-like", "concrete megastructure"],
-    "use_cases": ["concept renders", "cultural buildings", "university campuses", "set and game environments", "interior moodboards"],
+    "triggers": [
+      "brutalist",
+      "brutalism",
+      "béton brut",
+      "raw concrete",
+      "barbican",
+      "monolithic",
+      "fortress-like",
+      "concrete megastructure"
+    ],
+    "use_cases": [
+      "concept renders",
+      "cultural buildings",
+      "university campuses",
+      "set and game environments",
+      "interior moodboards"
+    ],
     "avoid_when": [
       "The brief asks for lightness, transparency or a domestic welcome.",
       "The climate is wet and the budget has no allowance for concrete detailing that sheds water."
     ],
     "modifiers": [
-      { "request": "lighter", "toward": "international-style-architecture", "how": "Thin the frame, raise the glazing share above 50% and smooth the concrete; keep the flat roof and the repeated module." }
+      {
+        "request": "lighter",
+        "toward": "international-style-architecture",
+        "how": "Thin the frame, raise the glazing share above 50% and smooth the concrete; keep the flat roof and the repeated module."
+      }
     ]
   },
   "primer": {
     "positive": [
-      "board-marked raw concrete", "massive cantilevered volumes", "deep recessed windows", "exposed structural frame",
-      "repeating modular facade", "elevated walkways", "overcast diffuse light", "weathered matt surfaces", "monumental civic scale"
+      "board-marked raw concrete",
+      "massive cantilevered volumes",
+      "deep recessed windows",
+      "exposed structural frame",
+      "repeating modular facade",
+      "elevated walkways",
+      "overcast diffuse light",
+      "weathered matt surfaces",
+      "monumental civic scale"
     ],
-    "negative": ["glass curtain wall", "polished surfaces", "classical ornament", "pitched tiled roof", "pastel paint", "thin steel filigree"],
+    "negative": [
+      "glass curtain wall",
+      "polished surfaces",
+      "classical ornament",
+      "pitched tiled roof",
+      "pastel paint",
+      "thin steel filigree"
+    ],
     "canonical_works": [
-      { "work": "Unité d'Habitation, Marseille", "architect": "Le Corbusier", "year": 1952 },
-      { "work": "Hunstanton School", "architect": "Alison and Peter Smithson", "year": 1954 },
-      { "work": "Yale Art and Architecture Building", "architect": "Paul Rudolph", "year": 1963 },
-      { "work": "Barbican Estate, London", "architect": "Chamberlin, Powell and Bon", "year": 1976 },
-      { "work": "National Theatre, London", "architect": "Denys Lasdun", "year": 1976 }
+      {
+        "work": "Unité d'Habitation, Marseille",
+        "architect": "Le Corbusier",
+        "year": 1952
+      },
+      {
+        "work": "Hunstanton School",
+        "architect": "Alison and Peter Smithson",
+        "year": 1954
+      },
+      {
+        "work": "Yale Art and Architecture Building",
+        "architect": "Paul Rudolph",
+        "year": 1963
+      },
+      {
+        "work": "Barbican Estate, London",
+        "architect": "Chamberlin, Powell and Bon",
+        "year": 1976
+      },
+      {
+        "work": "National Theatre, London",
+        "architect": "Denys Lasdun",
+        "year": 1976
+      }
     ]
   },
   "sources": [
-    { "title": "Reyner Banham, The New Brutalism: Ethic or Aesthetic? (Architectural Press, 1966)" }
+    {
+      "title": "Reyner Banham, The New Brutalism: Ethic or Aesthetic? (Architectural Press, 1966)"
+    }
   ]
 }

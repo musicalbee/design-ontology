@@ -1,0 +1,272 @@
+{
+  "$schema": "../../../schema/domains/architecture.schema.json",
+  "id": "gothic-architecture",
+  "domain": "architecture",
+  "name": "Gothic",
+  "aliases": [
+    "High Gothic",
+    "Rayonnant",
+    "Perpendicular"
+  ],
+  "era_id": "medieval",
+  "time_period": {
+    "start": 1200,
+    "end": 1520,
+    "label": "13th–early 16th century"
+  },
+  "building_types": [
+    "religious",
+    "civic"
+  ],
+  "summary": "Pointed arches, ribbed vaults and flying buttresses turn the stone wall into a skeleton, and the freed walls become coloured glass. Chartres, Reims and Amiens set the height record that every later cathedral tried to beat.",
+  "philosophy": {
+    "core_thesis": "A building is a stone skeleton that lifts the eye to heaven: the thrust of each vault is caught by a buttress, so that walls can dissolve into light.",
+    "design_principles": [
+      "Draw every opening as a pointed arch, with a rise of 1.0 to 1.5 times the span, so that the thrust goes down and not out.",
+      "Cover each bay with a rib vault, and carry the ribs down on clustered shafts so that the vault line reaches the floor.",
+      "Catch the thrust of the high vault with flying buttresses outside the aisle roof, at about 45° to the wall.",
+      "Raise the nave to a height of 2 to 3.5 times its width, from 30 to 48m under the vault, in three tiers: arcade, triforium, clerestory.",
+      "Give the upper wall to glass: windows fill 60 to 80% of the clerestory wall, divided by stone tracery.",
+      "Repeat the bay at 5 to 7m along the whole nave, so that the eye is led to the altar by the rhythm of the piers."
+    ],
+    "anti_patterns": [
+      "Round arches and heavy plain walls with small openings",
+      "Flat ceilings or timber trusses left open over the nave",
+      "Classical orders, pediments or symmetrical Roman porticos",
+      "Wide, low proportions that stop the vertical lift",
+      "Smooth, bare stone with no moulding or tracery",
+      "Clear plain glass with no tracery or colour"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "structural_expression": 5,
+    "geometric_rigidity": 3,
+    "material_rawness": 3,
+    "monumentality": 5
+  },
+  "massing": {
+    "form": "A long cross-shaped plan with a high nave, lower aisles and a polygonal apse; twin west towers of 60 to 120m and a crossing spire.",
+    "proportion": "Strongly vertical: the nave is 2 to 3.5 times higher than wide, and spires add a further 1 to 2 times the tower width.",
+    "roof": "A steep timber roof of 50 to 60° under lead or slate, with pinnacles, gables and a lead-covered spire.",
+    "relation_to_ground": "The building sits on a stepped plinth in the town square; three deep portals open the west front, with a rose window above."
+  },
+  "structure": {
+    "system": "Load-bearing stone masonry with rib vaults, pointed arches and external flying buttresses.",
+    "span_and_module": "A nave bay of 5 to 7m wide and 6 to 8m long under a rib vault; the nave span is 12 to 16m.",
+    "expression": "Every thrust path is shown: ribs, shafts, buttresses and pinnacles are the structure and the decoration at once."
+  },
+  "materials": {
+    "primary": [
+      "limestone ashlar",
+      "stained and painted glass",
+      "oak roof timber"
+    ],
+    "secondary": [
+      "lead sheeting",
+      "polychrome paint",
+      "wrought iron ties",
+      "tile floor"
+    ],
+    "finish": "Carved by hand and weathered: sharp tracery in pale stone, and glass in deep reds and blues.",
+    "palette": [
+      {
+        "name": "Pale limestone",
+        "hex": "#CFC6B2",
+        "role": "walls and tracery"
+      },
+      {
+        "name": "Weathered grey",
+        "hex": "#8E8A80",
+        "role": "buttresses and shadow"
+      },
+      {
+        "name": "Cobalt glass",
+        "hex": "#27479B",
+        "role": "stained glass"
+      },
+      {
+        "name": "Ruby glass",
+        "hex": "#9B1F2B",
+        "role": "stained glass"
+      },
+      {
+        "name": "Lead grey",
+        "hex": "#5C6168",
+        "role": "roofs and spires"
+      }
+    ]
+  },
+  "facade": {
+    "composition": "A west front in three vertical bays with three portals, a gallery of kings and a rose window, framed by two towers.",
+    "openings": "Pointed lancets, rose windows and traceried windows, with the glass share of the upper wall at 60 to 80%.",
+    "solid_to_void": "On the nave wall, 25–40% solid; on the west front, 55–70% solid."
+  },
+  "light_and_space": {
+    "daylight": "Coloured light falls from the clerestory and the rose window, and fills the dim nave with moving patches of red and blue.",
+    "spatial_sequence": "A dark narthex opens to a tall nave, then the crossing, the choir and the bright apse: the route runs east, to the light.",
+    "interior_character": "Clustered columns, rib vaults, a triforium gallery, carved capitals and a stone floor; the eye goes up."
+  },
+  "ornament": {
+    "attitude": "Ornament is structure made visible and made holy: tracery, crockets and carved figures grow out of the load path.",
+    "details": [
+      "window tracery",
+      "crocketed pinnacles",
+      "gargoyles",
+      "portal sculpture",
+      "ribbed vault bosses",
+      "rose windows"
+    ]
+  },
+  "identity": {
+    "wikidata": "Q176483"
+  },
+  "composition": {
+    "symmetry": "bilateral",
+    "axis_count": 1,
+    "rhythm_module_m": 3.0,
+    "rules": [
+      {
+        "principle": "proportion",
+        "rule": "Make the nave height 2 to 3 times its width, and set the bay on a ratio of 1:2 in plan.",
+        "value": "nave 1:2.5 to 1:3"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Repeat the bay, with its pier, arch and window, along the nave at a fixed module.",
+        "value": "bay 6–7m"
+      },
+      {
+        "principle": "symmetry-axis",
+        "rule": "Put the portal, the nave and the high altar on one east–west axis, with a twin-tower west front.",
+        "value": "1 axis"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Fill the clerestory and the rose window with stained glass, and keep the aisles dim.",
+        "value": "glass 30–50% of the wall"
+      },
+      {
+        "principle": "hierarchy",
+        "rule": "Rank the central portal and rose above the side portals, and the nave above the aisles.",
+        "value": "3 portals, central 1.5×"
+      },
+      {
+        "principle": "scale",
+        "rule": "Make the interior tower over the person: vault heights of 30 to 48m.",
+        "value": "vault 30–48m"
+      }
+    ]
+  },
+  "references": [
+    {
+      "title": "Chartres Cathedral, central portal of the west façade",
+      "credit": "Anne C. Richardson, Jim Womack (Vanderbilt ACT)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Chartres_Cathedral;_Christ_in_Majesty;_central_portal,_west_facade_-_Vanderbilt_ACT_-_00000043.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Awe and elevation: the viewer feels small under a stone sky that is full of coloured light.",
+    "keywords": [
+      "soaring",
+      "luminous",
+      "intricate",
+      "sacred",
+      "vertical"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "gothic architecture",
+      "gothic cathedral",
+      "pointed arch",
+      "rib vault",
+      "flying buttress",
+      "rose window",
+      "tracery",
+      "chartres",
+      "medieval cathedral"
+    ],
+    "use_cases": [
+      "cathedral and church renders",
+      "fantasy and game environments",
+      "university and library buildings",
+      "period film sets"
+    ],
+    "avoid_when": [
+      "The brief asks for a low, light, modern building or a flat roof.",
+      "The budget cannot pay for hand-carved stone and stained glass."
+    ],
+    "modifiers": [
+      {
+        "request": "more classical",
+        "toward": "renaissance-architecture",
+        "how": "Swap the pointed arch for a semicircle, the rib vault for a barrel or dome, and the tracery for orders on a ratio of 1:2 or 2:3."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "pointed arches",
+      "ribbed vault",
+      "flying buttresses",
+      "stained glass rose window",
+      "tall slender piers",
+      "traceried windows",
+      "twin west towers",
+      "pale limestone",
+      "light falling through coloured glass"
+    ],
+    "negative": [
+      "round arch",
+      "flat roof",
+      "classical portico",
+      "plain glass curtain wall",
+      "low horizontal massing",
+      "smooth render"
+    ],
+    "canonical_works": [
+      {
+        "work": "Chartres Cathedral",
+        "architect": "unknown master masons",
+        "year": 1220
+      },
+      {
+        "work": "Sainte-Chapelle, Paris",
+        "architect": "attributed to Pierre de Montreuil",
+        "year": 1248
+      },
+      {
+        "work": "Amiens Cathedral",
+        "architect": "Robert de Luzarches",
+        "year": 1270
+      },
+      {
+        "work": "Salisbury Cathedral",
+        "architect": "Elias of Dereham",
+        "year": 1258
+      },
+      {
+        "work": "King's College Chapel, Cambridge",
+        "architect": "Reginald Ely and John Wastell",
+        "year": 1515
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Paul Frankl, Gothic Architecture (Yale University Press, 2000; rev. Paul Crossley)"
+    }
+  ]
+}

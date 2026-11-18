@@ -3,10 +3,21 @@
   "id": "bauhaus-architecture",
   "domain": "architecture",
   "name": "Bauhaus Architecture",
-  "aliases": ["Bauhaus building", "Neues Bauen (Bauhaus strand)"],
+  "aliases": [
+    "Bauhaus building",
+    "Neues Bauen (Bauhaus strand)"
+  ],
   "era_id": "modern-movement",
-  "time_period": { "start": 1919, "end": 1933, "label": "1919–1933" },
-  "building_types": ["residential", "cultural", "civic"],
+  "time_period": {
+    "start": 1919,
+    "end": 1933,
+    "label": "1919–1933"
+  },
+  "building_types": [
+    "residential",
+    "cultural",
+    "civic"
+  ],
   "summary": "A functional building of asymmetric wings, each wing sized by its use, joined by bridges and glazed on the work side. Gropius and Meyer taught building as the last step of a workshop education that joined art, craft and industry.",
   "philosophy": {
     "core_thesis": "Form follows use: each function gets its own volume, and the plan is the generator of the building, not the facade.",
@@ -46,15 +57,44 @@
     "expression": "The glass wall hangs in front of the slab edges, so the frame is clear at the corners and the plan is legible from outside."
   },
   "materials": {
-    "primary": ["white-rendered brick and concrete", "steel-framed glazing", "plate glass"],
-    "secondary": ["linoleum", "tubular steel furniture", "painted steel balconies", "clinker brick on the base"],
+    "primary": [
+      "white-rendered brick and concrete",
+      "steel-framed glazing",
+      "plate glass"
+    ],
+    "secondary": [
+      "linoleum",
+      "tubular steel furniture",
+      "painted steel balconies",
+      "clinker brick on the base"
+    ],
     "finish": "Smooth and flat; render is white or light grey, and every surface is free of moulding or texture.",
     "palette": [
-      { "name": "White render", "hex": "#F2F1EC", "role": "walls" },
-      { "name": "Bauhaus red", "hex": "#C0392B", "role": "doors and interior function planes" },
-      { "name": "Bauhaus yellow", "hex": "#E8B923", "role": "signage and accents" },
-      { "name": "Bauhaus blue", "hex": "#1F4E8C", "role": "interior planes" },
-      { "name": "Steel black", "hex": "#1A1A1A", "role": "frames and lettering" }
+      {
+        "name": "White render",
+        "hex": "#F2F1EC",
+        "role": "walls"
+      },
+      {
+        "name": "Bauhaus red",
+        "hex": "#C0392B",
+        "role": "doors and interior function planes"
+      },
+      {
+        "name": "Bauhaus yellow",
+        "hex": "#E8B923",
+        "role": "signage and accents"
+      },
+      {
+        "name": "Bauhaus blue",
+        "hex": "#1F4E8C",
+        "role": "interior planes"
+      },
+      {
+        "name": "Steel black",
+        "hex": "#1A1A1A",
+        "role": "frames and lettering"
+      }
     ]
   },
   "facade": {
@@ -69,46 +109,166 @@
   },
   "ornament": {
     "attitude": "No ornament. Typography, colour planes and the precision of joints carry the identity of the building.",
-    "details": ["sans-serif building lettering", "primary-colour interior planes", "tubular steel railings", "glazed stair towers", "bridge links"]
+    "details": [
+      "sans-serif building lettering",
+      "primary-colour interior planes",
+      "tubular steel railings",
+      "glazed stair towers",
+      "bridge links"
+    ]
   },
+  "identity": {
+    "wikidata": "Q124354",
+    "aat": "300021432"
+  },
+  "composition": {
+    "symmetry": "asymmetric",
+    "axis_count": 0,
+    "rhythm_module_m": 3.0,
+    "rules": [
+      {
+        "principle": "balance",
+        "rule": "Balance the wings of different volumes about a pivot, not about a mirror axis.",
+        "value": "asymmetric, 3 wings"
+      },
+      {
+        "principle": "grouping",
+        "rule": "Group the functions in separate blocks linked by a bridge.",
+        "value": "3–4 blocks"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Use a regular structural grid and a ribbon window band.",
+        "value": "module 3m"
+      },
+      {
+        "principle": "negative-space",
+        "rule": "Keep the white wall plain and unornamented.",
+        "value": "0 applied ornament"
+      },
+      {
+        "principle": "zoning",
+        "rule": "Place each function in its own volume: workshops, studios, living.",
+        "value": "function per block"
+      }
+    ]
+  },
+  "references": [
+    {
+      "title": "Bauhaus building, Dessau",
+      "credit": "Gunnar Klack (see file page)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Bauhaus-Dessau_main_building.jpg"
+    }
+  ],
   "lineage": {
     "evolved_from": [],
     "rebelled_against": [],
-    "hybridized_with": ["international-style-architecture"],
-    "echoes": ["bauhaus"]
+    "hybridized_with": [
+      "international-style-architecture"
+    ],
+    "echoes": [
+      "bauhaus",
+      "bauhaus-interior"
+    ]
   },
   "emotion": {
     "target_response": "Purpose and openness: the viewer feels a place where every part has a reason.",
-    "keywords": ["functional", "asymmetric", "didactic", "rational", "open"],
-    "brand_archetypes": ["creator", "sage"]
+    "keywords": [
+      "functional",
+      "asymmetric",
+      "didactic",
+      "rational",
+      "open"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "sage"
+    ]
   },
   "agent": {
-    "triggers": ["bauhaus architecture", "bauhaus building", "dessau", "gropius", "hannes meyer", "pinwheel plan", "form follows function", "glass workshop wing"],
-    "use_cases": ["school and campus renders", "social housing studies", "workshop and studio buildings", "didactic design diagrams"],
+    "triggers": [
+      "bauhaus architecture",
+      "bauhaus building",
+      "dessau",
+      "gropius",
+      "hannes meyer",
+      "pinwheel plan",
+      "form follows function",
+      "glass workshop wing"
+    ],
+    "use_cases": [
+      "school and campus renders",
+      "social housing studies",
+      "workshop and studio buildings",
+      "didactic design diagrams"
+    ],
     "avoid_when": [
       "The brief asks for a ceremonial, symmetric or monumental front.",
       "The programme is a single hall, which gives no functions to separate into wings."
     ],
     "modifiers": [
-      { "request": "more corporate", "toward": "international-style-architecture", "how": "Merge the wings into one slab on a 7.2m grid, run the curtain wall around all sides, and drop the colour planes." }
+      {
+        "request": "more corporate",
+        "toward": "international-style-architecture",
+        "how": "Merge the wings into one slab on a 7.2m grid, run the curtain wall around all sides, and drop the colour planes."
+      }
     ]
   },
   "primer": {
     "positive": [
-      "asymmetric wings", "pinwheel plan", "glass curtain wall workshop", "white rendered walls", "flat roof",
-      "bridge link between wings", "ribbon windows", "primary colour accents", "sans-serif lettering"
+      "asymmetric wings",
+      "pinwheel plan",
+      "glass curtain wall workshop",
+      "white rendered walls",
+      "flat roof",
+      "bridge link between wings",
+      "ribbon windows",
+      "primary colour accents",
+      "sans-serif lettering"
     ],
-    "negative": ["symmetric portico", "pitched roof", "ornament", "brick detailing", "rustic stone", "arches"],
+    "negative": [
+      "symmetric portico",
+      "pitched roof",
+      "ornament",
+      "brick detailing",
+      "rustic stone",
+      "arches"
+    ],
     "canonical_works": [
-      { "work": "Bauhaus Building, Dessau", "architect": "Walter Gropius", "year": 1926 },
-      { "work": "Masters' Houses, Dessau", "architect": "Walter Gropius", "year": 1926 },
-      { "work": "Törten Estate, Dessau", "architect": "Walter Gropius", "year": 1928 },
-      { "work": "ADGB Trade Union School, Bernau", "architect": "Hannes Meyer and Hans Wittwer", "year": 1930 }
+      {
+        "work": "Bauhaus Building, Dessau",
+        "architect": "Walter Gropius",
+        "year": 1926
+      },
+      {
+        "work": "Masters' Houses, Dessau",
+        "architect": "Walter Gropius",
+        "year": 1926
+      },
+      {
+        "work": "Törten Estate, Dessau",
+        "architect": "Walter Gropius",
+        "year": 1928
+      },
+      {
+        "work": "ADGB Trade Union School, Bernau",
+        "architect": "Hannes Meyer and Hans Wittwer",
+        "year": 1930
+      }
     ]
   },
   "sources": [
-    { "title": "Wikidata Q124354, Bauhaus (CC0)", "url": "https://www.wikidata.org/wiki/Q124354" },
-    { "title": "Getty AAT 300021432, Bauhaus (ODC-By 1.0)", "url": "https://vocab.getty.edu/page/aat/300021432" },
-    { "title": "Walter Gropius, Bauhausbauten Dessau (Bauhausbücher 12, 1930)" }
+    {
+      "title": "Wikidata Q124354, Bauhaus (CC0)",
+      "url": "https://www.wikidata.org/wiki/Q124354"
+    },
+    {
+      "title": "Getty AAT 300021432, Bauhaus (ODC-By 1.0)",
+      "url": "https://vocab.getty.edu/page/aat/300021432"
+    },
+    {
+      "title": "Walter Gropius, Bauhausbauten Dessau (Bauhausbücher 12, 1930)"
+    }
   ]
 }

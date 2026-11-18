@@ -3,10 +3,23 @@
   "id": "art-nouveau-architecture",
   "domain": "architecture",
   "name": "Art Nouveau",
-  "aliases": ["Jugendstil", "Modernisme", "Style Nouille", "Stile Liberty"],
+  "aliases": [
+    "Jugendstil",
+    "Modernisme",
+    "Style Nouille",
+    "Stile Liberty"
+  ],
   "era_id": "fin-de-siecle",
-  "time_period": { "start": 1893, "end": 1914, "label": "1890s–1910s" },
-  "building_types": ["residential", "commercial", "cultural"],
+  "time_period": {
+    "start": 1893,
+    "end": 1914,
+    "label": "1890s–1910s"
+  },
+  "building_types": [
+    "residential",
+    "commercial",
+    "cultural"
+  ],
   "summary": "Whiplash curves, plant forms and exposed iron on the street front and in the stair hall. Horta in Brussels, Guimard in Paris and Gaudí in Barcelona made the total work of art: one line from the facade to the door handle.",
   "philosophy": {
     "core_thesis": "A building should grow like a plant: structure, ornament and furniture follow one organic line, and iron and glass are shown as the new materials of the age.",
@@ -46,15 +59,45 @@
     "expression": "Iron columns and beams stay visible in halls and stairs, and bend into the ornament; on the facade the frame is hidden, but its lines run through the window bars."
   },
   "materials": {
-    "primary": ["wrought and cast iron", "glazed brick and ceramic tile", "stained and etched glass", "carved stone"],
-    "secondary": ["stucco", "oak and walnut joinery", "mosaic", "copper"],
+    "primary": [
+      "wrought and cast iron",
+      "glazed brick and ceramic tile",
+      "stained and etched glass",
+      "carved stone"
+    ],
+    "secondary": [
+      "stucco",
+      "oak and walnut joinery",
+      "mosaic",
+      "copper"
+    ],
     "finish": "Crafted and polished: glaze, enamel, lacquer and patina. Every surface shows the hand of the maker.",
     "palette": [
-      { "name": "Cream stone", "hex": "#E6DCC3", "role": "facade walls" },
-      { "name": "Verdigris", "hex": "#5E8B7E", "role": "iron and copper" },
-      { "name": "Moss green", "hex": "#6B7A3A", "role": "tile and glass" },
-      { "name": "Amber glass", "hex": "#D69A2D", "role": "rooflight and lamps" },
-      { "name": "Oxblood", "hex": "#6E2A2A", "role": "joinery and doors" }
+      {
+        "name": "Cream stone",
+        "hex": "#E6DCC3",
+        "role": "facade walls"
+      },
+      {
+        "name": "Verdigris",
+        "hex": "#5E8B7E",
+        "role": "iron and copper"
+      },
+      {
+        "name": "Moss green",
+        "hex": "#6B7A3A",
+        "role": "tile and glass"
+      },
+      {
+        "name": "Amber glass",
+        "hex": "#D69A2D",
+        "role": "rooflight and lamps"
+      },
+      {
+        "name": "Oxblood",
+        "hex": "#6E2A2A",
+        "role": "joinery and doors"
+      }
     ]
   },
   "facade": {
@@ -69,47 +112,170 @@
   },
   "ornament": {
     "attitude": "Ornament is the structure made visible as a living line: it is drawn for the building and never added from a catalogue.",
-    "details": ["whiplash iron railings", "stained-glass rooflights", "ceramic tile friezes", "floral mosaic floors", "curved stair stringers", "ogee window heads"]
+    "details": [
+      "whiplash iron railings",
+      "stained-glass rooflights",
+      "ceramic tile friezes",
+      "floral mosaic floors",
+      "curved stair stringers",
+      "ogee window heads"
+    ]
   },
+  "identity": {
+    "wikidata": "Q34636",
+    "aat": "300021430"
+  },
+  "composition": {
+    "symmetry": "asymmetric",
+    "axis_count": 0,
+    "rhythm_module_m": 1.5,
+    "rules": [
+      {
+        "principle": "rhythm",
+        "rule": "Let the whiplash curve repeat in ironwork, plaster and glass, with a varied beat.",
+        "value": "curve radius 0.3–1m"
+      },
+      {
+        "principle": "unity-variety",
+        "rule": "Design the whole house as one work, with one plant motif.",
+        "value": "1 motif"
+      },
+      {
+        "principle": "leading-lines",
+        "rule": "Run the stair rail and the ceiling line in one flowing curve.",
+        "value": "1 flowing line"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Light the stair hall from a skylight and tint it with coloured glass.",
+        "value": "1 skylight"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Make the stair the spine and the vertical centre of the plan.",
+        "value": "1 stair spine"
+      }
+    ]
+  },
+  "references": [
+    {
+      "title": "Stairway of the Hôtel Tassel, Brussels",
+      "credit": "Henry Townsend",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Tassel_House_stairway.JPG"
+    }
+  ],
   "lineage": {
     "evolved_from": [],
     "rebelled_against": [],
     "hybridized_with": [],
-    "echoes": []
+    "echoes": [
+      "art-nouveau-web"
+    ]
   },
   "emotion": {
     "target_response": "Delight and intimacy: the viewer feels a living, crafted object that belongs to a city of artists.",
-    "keywords": ["organic", "sinuous", "crafted", "decorative", "romantic"],
-    "brand_archetypes": ["creator", "lover"]
+    "keywords": [
+      "organic",
+      "sinuous",
+      "crafted",
+      "decorative",
+      "romantic"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "lover"
+    ]
   },
   "agent": {
-    "triggers": ["art nouveau", "jugendstil", "whiplash curve", "horta", "guimard", "gaudí", "modernisme", "organic ironwork", "stained-glass stair hall"],
-    "use_cases": ["townhouse and hotel renders", "metro and rail entrances", "cafés and shopfronts", "period set design"],
+    "triggers": [
+      "art nouveau",
+      "jugendstil",
+      "whiplash curve",
+      "horta",
+      "guimard",
+      "gaudí",
+      "modernisme",
+      "organic ironwork",
+      "stained-glass stair hall"
+    ],
+    "use_cases": [
+      "townhouse and hotel renders",
+      "metro and rail entrances",
+      "cafés and shopfronts",
+      "period set design"
+    ],
     "avoid_when": [
       "The brief asks for a repeatable, low-cost grid or industrial production.",
       "The budget does not allow craft work in iron, glass and tile."
     ],
     "modifiers": [
-      { "request": "more geometric", "toward": "art-deco-architecture", "how": "Replace the curve with the zigzag and the chevron, keep the rich materials and the total-work idea, and add a stepped silhouette." }
+      {
+        "request": "more geometric",
+        "toward": "art-deco-architecture",
+        "how": "Replace the curve with the zigzag and the chevron, keep the rich materials and the total-work idea, and add a stepped silhouette."
+      }
     ]
   },
   "primer": {
     "positive": [
-      "whiplash curved ironwork", "organic plant motifs", "stained glass rooflight", "asymmetric facade", "ogee arched windows",
-      "glazed ceramic tile", "bulging bay window", "mosaic floor", "carved stone tendrils"
+      "whiplash curved ironwork",
+      "organic plant motifs",
+      "stained glass rooflight",
+      "asymmetric facade",
+      "ogee arched windows",
+      "glazed ceramic tile",
+      "bulging bay window",
+      "mosaic floor",
+      "carved stone tendrils"
     ],
-    "negative": ["straight orthogonal grid", "classical portico", "raw concrete", "flat unornamented wall", "pastel paint", "plain glass curtain wall"],
+    "negative": [
+      "straight orthogonal grid",
+      "classical portico",
+      "raw concrete",
+      "flat unornamented wall",
+      "pastel paint",
+      "plain glass curtain wall"
+    ],
     "canonical_works": [
-      { "work": "Hôtel Tassel, Brussels", "architect": "Victor Horta", "year": 1893 },
-      { "work": "Castel Béranger, Paris", "architect": "Hector Guimard", "year": 1898 },
-      { "work": "Majolikahaus, Vienna", "architect": "Otto Wagner", "year": 1899 },
-      { "work": "Palau de la Música Catalana, Barcelona", "architect": "Lluís Domènech i Montaner", "year": 1908 },
-      { "work": "Casa Batlló, Barcelona", "architect": "Antoni Gaudí", "year": 1906 }
+      {
+        "work": "Hôtel Tassel, Brussels",
+        "architect": "Victor Horta",
+        "year": 1893
+      },
+      {
+        "work": "Castel Béranger, Paris",
+        "architect": "Hector Guimard",
+        "year": 1898
+      },
+      {
+        "work": "Majolikahaus, Vienna",
+        "architect": "Otto Wagner",
+        "year": 1899
+      },
+      {
+        "work": "Palau de la Música Catalana, Barcelona",
+        "architect": "Lluís Domènech i Montaner",
+        "year": 1908
+      },
+      {
+        "work": "Casa Batlló, Barcelona",
+        "architect": "Antoni Gaudí",
+        "year": 1906
+      }
     ]
   },
   "sources": [
-    { "title": "Wikidata Q1295040, Art Nouveau architecture (CC0)", "url": "https://www.wikidata.org/wiki/Q1295040" },
-    { "title": "Getty AAT 300021430, Art Nouveau (ODC-By 1.0)", "url": "https://vocab.getty.edu/page/aat/300021430" },
-    { "title": "Frank Russell (ed.), Art Nouveau in Architecture (Arcade, 1979)" }
+    {
+      "title": "Wikidata Q1295040, Art Nouveau architecture (CC0)",
+      "url": "https://www.wikidata.org/wiki/Q1295040"
+    },
+    {
+      "title": "Getty AAT 300021430, Art Nouveau (ODC-By 1.0)",
+      "url": "https://vocab.getty.edu/page/aat/300021430"
+    },
+    {
+      "title": "Frank Russell (ed.), Art Nouveau in Architecture (Arcade, 1979)"
+    }
   ]
 }

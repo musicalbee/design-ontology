@@ -3,10 +3,21 @@
   "id": "high-tech-architecture",
   "domain": "architecture",
   "name": "High-tech",
-  "aliases": ["Structural Expressionism", "Late Modernism (technological)"],
+  "aliases": [
+    "Structural Expressionism",
+    "Late Modernism (technological)"
+  ],
   "era_id": "postmodern-and-after",
-  "time_period": { "start": 1970, "end": 1999, "label": "1970s–1990s" },
-  "building_types": ["cultural", "commercial", "industrial"],
+  "time_period": {
+    "start": 1970,
+    "end": 1999,
+    "label": "1970s–1990s"
+  },
+  "building_types": [
+    "cultural",
+    "commercial",
+    "industrial"
+  ],
   "summary": "A lightweight steel frame, with the services, the bracing and the lifts shown in colour on the outside. Rogers, Piano and Foster made the machine aesthetic of the 1920s into a flexible, kit-of-parts building.",
   "philosophy": {
     "core_thesis": "A building is a machine of parts: structure, services and circulation are tools to see and to change, and open floors let the use change.",
@@ -46,15 +57,45 @@
     "expression": "All members are visible, from the cross-bracing to the pins; the structure is the main decoration."
   },
   "materials": {
-    "primary": ["painted structural steel", "glass", "stainless steel", "aluminium panels"],
-    "secondary": ["tensile fabric", "cast steel", "perforated metal", "raised access floor"],
+    "primary": [
+      "painted structural steel",
+      "glass",
+      "stainless steel",
+      "aluminium panels"
+    ],
+    "secondary": [
+      "tensile fabric",
+      "cast steel",
+      "perforated metal",
+      "raised access floor"
+    ],
     "finish": "Factory-made and exact: paint in primary colours, brushed stainless, clear glass, and bolted joints.",
     "palette": [
-      { "name": "Steel grey", "hex": "#9AA3A8", "role": "frame and bracing" },
-      { "name": "Signal red", "hex": "#D62D20", "role": "circulation and escape" },
-      { "name": "Duct blue", "hex": "#1B6EC2", "role": "air services" },
-      { "name": "Pipe green", "hex": "#1E9E5A", "role": "water services" },
-      { "name": "Glass", "hex": "#B8D4DD", "role": "skin" }
+      {
+        "name": "Steel grey",
+        "hex": "#9AA3A8",
+        "role": "frame and bracing"
+      },
+      {
+        "name": "Signal red",
+        "hex": "#D62D20",
+        "role": "circulation and escape"
+      },
+      {
+        "name": "Duct blue",
+        "hex": "#1B6EC2",
+        "role": "air services"
+      },
+      {
+        "name": "Pipe green",
+        "hex": "#1E9E5A",
+        "role": "water services"
+      },
+      {
+        "name": "Glass",
+        "hex": "#B8D4DD",
+        "role": "skin"
+      }
     ]
   },
   "facade": {
@@ -69,47 +110,167 @@
   },
   "ornament": {
     "attitude": "No applied ornament; the detail of the joint, the colour code of the services and the structure are the image.",
-    "details": ["cast steel gerberettes", "tension rod bracing", "colour-coded ducts", "glazed external escalators", "exposed bolts and pins"]
+    "details": [
+      "cast steel gerberettes",
+      "tension rod bracing",
+      "colour-coded ducts",
+      "glazed external escalators",
+      "exposed bolts and pins"
+    ]
   },
+  "identity": {
+    "wikidata": "Q845318"
+  },
+  "composition": {
+    "symmetry": "bilateral",
+    "axis_count": 1,
+    "rhythm_module_m": 6.0,
+    "rules": [
+      {
+        "principle": "rhythm",
+        "rule": "Repeat the structural bay and the tube at an exact module.",
+        "value": "bay 12.8m"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Hang the services and the bracing outside the glass as a visible layer.",
+        "value": "1 outer layer"
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Code each service by colour: air blue, water green, circulation red.",
+        "value": "4–5 codes"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Run the escalator tube on the face as a visible diagonal.",
+        "value": "1 façade route"
+      },
+      {
+        "principle": "zoning",
+        "rule": "Keep the floor plates free of columns for flexible use.",
+        "value": "clear span 44m"
+      }
+    ]
+  },
+  "references": [
+    {
+      "title": "Centre Pompidou, Paris",
+      "credit": "Alf van Beem",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Centre_Pompidou,_seen_from_Tour_Montparnasse.jpg"
+    }
+  ],
   "lineage": {
-    "evolved_from": ["international-style-architecture"],
+    "evolved_from": [
+      "international-style-architecture"
+    ],
     "rebelled_against": [],
     "hybridized_with": [],
     "echoes": []
   },
   "emotion": {
     "target_response": "Energy and openness: the viewer feels a machine that works in public and welcomes change.",
-    "keywords": ["technical", "transparent", "flexible", "precise", "energetic"],
-    "brand_archetypes": ["explorer", "creator"]
+    "keywords": [
+      "technical",
+      "transparent",
+      "flexible",
+      "precise",
+      "energetic"
+    ],
+    "brand_archetypes": [
+      "explorer",
+      "creator"
+    ]
   },
   "agent": {
-    "triggers": ["high-tech architecture", "pompidou", "rogers and piano", "norman foster", "hsbc building", "exposed services", "steel and glass machine", "bolted steel"],
-    "use_cases": ["museum and library renders", "corporate headquarters", "airport and station design", "science and lab buildings"],
+    "triggers": [
+      "high-tech architecture",
+      "pompidou",
+      "rogers and piano",
+      "norman foster",
+      "hsbc building",
+      "exposed services",
+      "steel and glass machine",
+      "bolted steel"
+    ],
+    "use_cases": [
+      "museum and library renders",
+      "corporate headquarters",
+      "airport and station design",
+      "science and lab buildings"
+    ],
     "avoid_when": [
       "The brief asks for domestic warmth, traditional craft or a heavy masonry building.",
       "The site has strong rules on a historic roofline or a quiet street front."
     ],
     "modifiers": [
-      { "request": "heavier", "toward": "brutalist-architecture", "how": "Replace the steel frame with cast concrete members of the same grid, show services in a concrete tower, and reduce the glazing to 40%." }
+      {
+        "request": "heavier",
+        "toward": "brutalist-architecture",
+        "how": "Replace the steel frame with cast concrete members of the same grid, show services in a concrete tower, and reduce the glazing to 40%."
+      }
     ]
   },
   "primer": {
     "positive": [
-      "exposed steel structure", "colour-coded service ducts", "tension rod bracing", "glass curtain wall", "external escalator",
-      "bolted cast steel joints", "column-free open floor", "atrium", "kit of parts"
+      "exposed steel structure",
+      "colour-coded service ducts",
+      "tension rod bracing",
+      "glass curtain wall",
+      "external escalator",
+      "bolted cast steel joints",
+      "column-free open floor",
+      "atrium",
+      "kit of parts"
     ],
-    "negative": ["masonry wall", "classical ornament", "pitched roof", "hidden services", "rustic timber", "pastel stucco"],
+    "negative": [
+      "masonry wall",
+      "classical ornament",
+      "pitched roof",
+      "hidden services",
+      "rustic timber",
+      "pastel stucco"
+    ],
     "canonical_works": [
-      { "work": "Centre Pompidou, Paris", "architect": "Renzo Piano and Richard Rogers", "year": 1977 },
-      { "work": "Lloyd's Building, London", "architect": "Richard Rogers", "year": 1986 },
-      { "work": "HSBC Main Building, Hong Kong", "architect": "Norman Foster", "year": 1985 },
-      { "work": "Sainsbury Centre, Norwich", "architect": "Norman Foster", "year": 1978 },
-      { "work": "Inmos Microprocessor Factory, Newport", "architect": "Richard Rogers", "year": 1982 }
+      {
+        "work": "Centre Pompidou, Paris",
+        "architect": "Renzo Piano and Richard Rogers",
+        "year": 1977
+      },
+      {
+        "work": "Lloyd's Building, London",
+        "architect": "Richard Rogers",
+        "year": 1986
+      },
+      {
+        "work": "HSBC Main Building, Hong Kong",
+        "architect": "Norman Foster",
+        "year": 1985
+      },
+      {
+        "work": "Sainsbury Centre, Norwich",
+        "architect": "Norman Foster",
+        "year": 1978
+      },
+      {
+        "work": "Inmos Microprocessor Factory, Newport",
+        "architect": "Richard Rogers",
+        "year": 1982
+      }
     ]
   },
   "sources": [
-    { "title": "Wikidata Q845318, high-tech architecture (CC0)", "url": "https://www.wikidata.org/wiki/Q845318" },
-    { "title": "Getty AAT 300060022, High-Tech (ODC-By 1.0)", "url": "https://vocab.getty.edu/page/aat/300060022" },
-    { "title": "Colin Davies, High Tech Architecture (Thames & Hudson, 1988)" }
+    {
+      "title": "Wikidata Q845318, high-tech architecture (CC0)",
+      "url": "https://www.wikidata.org/wiki/Q845318"
+    },
+    {
+      "title": "Getty AAT 300060022, High-Tech (ODC-By 1.0)",
+      "url": "https://vocab.getty.edu/page/aat/300060022"
+    },
+    {
+      "title": "Colin Davies, High Tech Architecture (Thames & Hudson, 1988)"
+    }
   ]
 }

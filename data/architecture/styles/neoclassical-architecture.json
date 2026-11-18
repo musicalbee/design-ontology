@@ -1,0 +1,275 @@
+{
+  "$schema": "../../../schema/domains/architecture.schema.json",
+  "id": "neoclassical-architecture",
+  "domain": "architecture",
+  "name": "Neoclassicism",
+  "aliases": [
+    "Greek Revival",
+    "Federal style",
+    "Adam style"
+  ],
+  "era_id": "revival-and-academy",
+  "time_period": {
+    "start": 1750,
+    "end": 1840,
+    "label": "1750s–1840s"
+  },
+  "building_types": [
+    "civic",
+    "cultural",
+    "residential"
+  ],
+  "summary": "A clear, pure classicism drawn from Greek and Roman ruins: a temple front, plain wall surfaces and a strong cube. It answered the excess of the Baroque with reason, and gave the new states their museums, parliaments and banks.",
+  "philosophy": {
+    "core_thesis": "Architecture should be reasoned: build from the first principles of the Greek temple, and let the plain wall and a true order carry the dignity of the state.",
+    "design_principles": [
+      "Put a temple front, a portico of 4 to 8 columns with a pediment, on a plain rectangular block.",
+      "Use the orders in their correct Greek or Roman form, with the column height at 6 to 10 diameters.",
+      "Keep the wall flat and smooth: ashlar or stucco without projections beyond 150mm except the portico.",
+      "Compose symmetrically about one axis, with a calm rhythm of equal bays and no curved fronts.",
+      "Use simple geometric solids: the cube, the cylinder and the hemisphere, and put the dome on a drum.",
+      "Use ornament sparingly, and take it from antique sources only: the anthemion, the egg and dart, the key."
+    ],
+    "anti_patterns": [
+      "Curved, broken or twisting fronts and pediments",
+      "Dense gilded ornament and illusionistic fresco",
+      "Pointed arches, turrets or picturesque asymmetry",
+      "Orders in the wrong proportion or applied without a reason",
+      "Bright saturated colour on the main walls",
+      "Many small projections and bays that break the plain wall"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "structural_expression": 2,
+    "geometric_rigidity": 5,
+    "material_rawness": 2,
+    "monumentality": 4
+  },
+  "massing": {
+    "form": "A clear rectangular or cubic block, with a projecting temple portico and a low dome or a pediment on the axis.",
+    "proportion": "A front of 2:1 to 3:1 width to height for a museum; the portico occupies the central third to a half of the front.",
+    "roof": "A low hipped or gabled roof hidden behind a cornice, and a shallow dome on a drum above the central hall.",
+    "relation_to_ground": "A raised podium of 1.5 to 4m, and a broad flight of steps up to the portico."
+  },
+  "structure": {
+    "system": "Load-bearing masonry with timber or iron roofs; the orders are in stone or in stuccoed brick.",
+    "span_and_module": "Columns at 2 to 3 diameters apart; bays of 4 to 6m; the central hall spans 12 to 25m.",
+    "expression": "The column and the entablature show the load; the wall is a plain screen between them."
+  },
+  "materials": {
+    "primary": [
+      "ashlar limestone",
+      "white marble",
+      "stucco on brick"
+    ],
+    "secondary": [
+      "granite",
+      "cast iron",
+      "slate",
+      "mahogany"
+    ],
+    "finish": "Smooth, pale and matt; joints are fine and flush, and the wall is a clear surface.",
+    "palette": [
+      {
+        "name": "Pale stone",
+        "hex": "#E2DCCB",
+        "role": "walls and orders"
+      },
+      {
+        "name": "White marble",
+        "hex": "#F4F2EC",
+        "role": "portico and steps"
+      },
+      {
+        "name": "Slate",
+        "hex": "#4F5660",
+        "role": "roof"
+      },
+      {
+        "name": "Pompeian red",
+        "hex": "#8E3B32",
+        "role": "interior walls"
+      },
+      {
+        "name": "Antique green",
+        "hex": "#4E6B57",
+        "role": "doors and railings"
+      }
+    ]
+  },
+  "facade": {
+    "composition": "A calm symmetric front: a temple portico on the axis, and plain wings with equal bays and a simple cornice.",
+    "openings": "Rectangular windows with a plain architrave, set evenly in a plain wall; the window-to-wall ratio is 15 to 25%.",
+    "solid_to_void": "Solid leads: 75–85% opaque."
+  },
+  "light_and_space": {
+    "daylight": "Even daylight from rooflights and a central oculus; each room is a clear shape.",
+    "spatial_sequence": "A clear axial route: portico, vestibule, a domed rotunda or stair hall, then the rooms in rows on each side.",
+    "interior_character": "Pale walls with a few painted panels, coffered domes, white marble columns and a geometric floor."
+  },
+  "ornament": {
+    "attitude": "Ornament is restrained and archaeological: it appears only where an antique building would have it.",
+    "details": [
+      "Greek key frieze",
+      "egg-and-dart moulding",
+      "anthemion",
+      "fluted columns",
+      "coffered dome",
+      "relief panels in the pediment"
+    ]
+  },
+  "identity": {
+    "wikidata": "Q54111"
+  },
+  "composition": {
+    "symmetry": "bilateral",
+    "axis_count": 1,
+    "rhythm_module_m": 5.0,
+    "rules": [
+      {
+        "principle": "symmetry-axis",
+        "rule": "Place the portico on the one axis of a symmetric front.",
+        "value": "1 axis"
+      },
+      {
+        "principle": "proportion",
+        "rule": "Build the order to its canon: column height 6 to 10 diameters.",
+        "value": "6–10 diameters"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Space the columns and windows at an even, calm interval.",
+        "value": "bay 4–6m"
+      },
+      {
+        "principle": "negative-space",
+        "rule": "Leave the wall plain around the portico, with nothing beyond the cornice.",
+        "value": "wall 75–85% plain"
+      },
+      {
+        "principle": "unity-variety",
+        "rule": "Use one order and one material over the whole front.",
+        "value": "1 order"
+      },
+      {
+        "principle": "balance",
+        "rule": "Weigh the wings equally on both sides of the central block.",
+        "value": "wings equal"
+      }
+    ]
+  },
+  "references": [
+    {
+      "title": "Altes Museum, Berlin",
+      "credit": "Ansgar Koreng",
+      "licence": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Altes_Museum,_Berlin-Mitte,_170117,_ako.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "baroque-architecture"
+    ],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Dignity and reason: the viewer feels a calm, lasting state that rests on law and not on show.",
+    "keywords": [
+      "rational",
+      "dignified",
+      "pure",
+      "civic",
+      "calm"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "neoclassical",
+      "neoclassicism",
+      "greek revival",
+      "temple front",
+      "portico",
+      "schinkel",
+      "federal style",
+      "capitol building",
+      "pantheon"
+    ],
+    "use_cases": [
+      "museum and parliament renders",
+      "banks and courthouses",
+      "university halls",
+      "historic residential"
+    ],
+    "avoid_when": [
+      "The brief asks for informality, movement or a playful tone.",
+      "The programme needs large glazing or a free plan."
+    ],
+    "modifiers": [
+      {
+        "request": "more ornate",
+        "toward": "beaux-arts-architecture",
+        "how": "Add sculpture groups, a mansard roof and paired columns; keep the symmetry and the axis."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "temple front portico",
+      "pediment",
+      "fluted columns",
+      "plain smooth wall",
+      "symmetric facade",
+      "low shallow dome",
+      "broad stone steps",
+      "pale ashlar",
+      "rotunda hall"
+    ],
+    "negative": [
+      "curved baroque front",
+      "gold ornament",
+      "asymmetry",
+      "pointed arch",
+      "bright colour",
+      "glass curtain wall"
+    ],
+    "canonical_works": [
+      {
+        "work": "Panthéon, Paris",
+        "architect": "Jacques-Germain Soufflot",
+        "year": 1790
+      },
+      {
+        "work": "Brandenburg Gate, Berlin",
+        "architect": "Carl Gotthard Langhans",
+        "year": 1791
+      },
+      {
+        "work": "Virginia State Capitol, Richmond",
+        "architect": "Thomas Jefferson",
+        "year": 1788
+      },
+      {
+        "work": "Altes Museum, Berlin",
+        "architect": "Karl Friedrich Schinkel",
+        "year": 1830
+      },
+      {
+        "work": "British Museum, London",
+        "architect": "Robert Smirke",
+        "year": 1852
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Robin Middleton and David Watkin, Neoclassical and 19th Century Architecture (Abrams, 1980)"
+    }
+  ]
+}

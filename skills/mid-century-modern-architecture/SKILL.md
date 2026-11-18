@@ -118,6 +118,36 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Attitude:** No applied ornament; the grain of the wood, the pattern of the structure and one piece of art carry the interest.
 - **Details:** exposed post-and-beam joints · brick or stone fireplace wall · breeze-block screens · slatted wood screens · sunken conversation pit
 
+## Composition rules
+
+- **Symmetry:** asymmetric
+- **Axis count:** 1
+- **Rhythm module m:** 1.2
+
+**Rules**
+
+| Principle | Rule | Value |
+|---|---|---|
+| sightlines | Let the glass wall give a view from the living room to the garden. | glass wall 50%+ |
+| zoning | Split the plan into living, sleeping and service zones around a core. | 3 zones |
+| leading-lines | Run a low flat roof and a deep eave as a strong horizontal line. | roof pitch 0–5° |
+| circulation | Flow the open plan from entry to patio without a corridor. | open plan |
+| scale | Keep the house low, with a ceiling height of 2.4 to 2.7m. | 2.4–2.7m |
+
+## Reference images
+
+## Composition principles
+
+The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
+
+| Id | Principle | Definition | Measure: typical range |
+|---|---|---|---|
+| `sightlines` | Sightlines | The line from an eye position, such as an entrance or a seat, to a target. A clear sightline joins the viewer to the focal point. | standing eye height (cm): 150–165; seated eye height (cm): 110–120; obstruction on the main sightline (cm of height): 0, or below 75 for low furniture |
+| `zoning` | Zoning | A space divides into areas with one activity each. A rug, a light, a ceiling change or a group of furniture marks a zone without a wall. | zones in one open room (count): 2 to 4; zone marker (kind): rug, pendant, floor level, ceiling level, furniture back |
+| `leading-lines` | Leading lines | Lines in the view, such as edges, rows, beams or paths, point the eye to the focal point. | lines that converge on the focal point (count): 1 to 4; angle from the frame edge (degrees): 15–60 for a diagonal |
+| `circulation` | Circulation | The routes through a space and the clear widths that they keep free of furniture. | main route clear width (cm): 90–120; secondary route clear width (cm): 60–75; seat edge to low table (cm): 35–50; wheelchair route (cm): 90 or more; 150 turning circle |
+| `scale` | Scale | The size of an element in relation to the human body, to the space around it and to the other elements. A style chooses a reference body and holds the elements in a range around it. | seat height (cm): 38–46; largest piece to room width (ratio): 0.3–0.6; ceiling height to door height (ratio): 1.2–1.5 |
+
 ## Vocabulary primer
 
 Use these terms in a brief, an image prompt or a 3D scene description.
@@ -141,9 +171,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - If the user asks for **more austere**: move toward [`international-style-architecture`](../international-style-architecture/SKILL.md) (International Style). Whiten the walls, thin the frame, drop the timber and the brick feature wall, and keep the flat roof and the glass wall.
 
-- **Came from (go here for a more orthodox version):** [`international-style-architecture`](../international-style-architecture/SKILL.md)
-- **Kin in another domain:** [`mid-century-modern`](../mid-century-modern/SKILL.md)
-- **Nearest by vector profile:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md)
+- **Came from (go here for a more orthodox version):** [`international-style-architecture`](../international-style-architecture/SKILL.md), [`prairie-school-architecture`](../prairie-school-architecture/SKILL.md)
+- **Kin in another domain:** [`mid-century-modern`](../mid-century-modern/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md)
+- **Nearest by vector profile:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`prairie-school-architecture`](../prairie-school-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md)
 
 ## Emotional target
 

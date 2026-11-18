@@ -3,10 +3,22 @@
   "id": "art-deco-architecture",
   "domain": "architecture",
   "name": "Art Deco",
-  "aliases": ["Style Moderne", "Streamline Moderne (late phase)", "Zigzag Moderne"],
+  "aliases": [
+    "Style Moderne",
+    "Streamline Moderne (late phase)",
+    "Zigzag Moderne"
+  ],
   "era_id": "modern-movement",
-  "time_period": { "start": 1920, "end": 1939, "label": "1920s–1930s" },
-  "building_types": ["commercial", "cultural", "civic"],
+  "time_period": {
+    "start": 1920,
+    "end": 1939,
+    "label": "1920s–1930s"
+  },
+  "building_types": [
+    "commercial",
+    "cultural",
+    "civic"
+  ],
   "summary": "Stepped towers, zigzag and chevron relief, and rich materials in a symmetric frame. It came from the Paris exhibition of 1925 and made the skyscraper and the cinema into the pictures of the machine age.",
   "philosophy": {
     "core_thesis": "Modern technology deserves luxury: the machine age should look glamorous, symmetric and expensive.",
@@ -46,15 +58,45 @@
     "expression": "The frame is hidden. The vertical piers express the lift of the tower, but they are cladding and not structure."
   },
   "materials": {
-    "primary": ["limestone and polished granite", "glazed terracotta", "chromed and stainless steel", "aluminium"],
-    "secondary": ["bronze", "marble", "etched glass", "exotic veneers"],
+    "primary": [
+      "limestone and polished granite",
+      "glazed terracotta",
+      "chromed and stainless steel",
+      "aluminium"
+    ],
+    "secondary": [
+      "bronze",
+      "marble",
+      "etched glass",
+      "exotic veneers"
+    ],
     "finish": "Polished and lustrous: metal gleams, stone is honed, and each surface is machine-cut with sharp edges.",
     "palette": [
-      { "name": "Limestone", "hex": "#D9D0BC", "role": "wall planes" },
-      { "name": "Black marble", "hex": "#1E1E22", "role": "base and lobby" },
-      { "name": "Brushed gold", "hex": "#C9A24B", "role": "metal ornament and crown" },
-      { "name": "Jade", "hex": "#2F7F6A", "role": "terracotta and tile accents" },
-      { "name": "Deco red", "hex": "#9C2A2A", "role": "doors and lobby details" }
+      {
+        "name": "Limestone",
+        "hex": "#D9D0BC",
+        "role": "wall planes"
+      },
+      {
+        "name": "Black marble",
+        "hex": "#1E1E22",
+        "role": "base and lobby"
+      },
+      {
+        "name": "Brushed gold",
+        "hex": "#C9A24B",
+        "role": "metal ornament and crown"
+      },
+      {
+        "name": "Jade",
+        "hex": "#2F7F6A",
+        "role": "terracotta and tile accents"
+      },
+      {
+        "name": "Deco red",
+        "hex": "#9C2A2A",
+        "role": "doors and lobby details"
+      }
     ]
   },
   "facade": {
@@ -69,47 +111,172 @@
   },
   "ornament": {
     "attitude": "Ornament is geometric, repeated and machine-made; it celebrates speed, light and luxury.",
-    "details": ["zigzag and chevron bands", "sunburst motifs", "fluted piers", "stylised frieze panels", "chromed doors and grilles", "stepped crowns"]
+    "details": [
+      "zigzag and chevron bands",
+      "sunburst motifs",
+      "fluted piers",
+      "stylised frieze panels",
+      "chromed doors and grilles",
+      "stepped crowns"
+    ]
   },
+  "identity": {
+    "wikidata": "Q173782",
+    "aat": "300021426"
+  },
+  "composition": {
+    "symmetry": "bilateral",
+    "axis_count": 1,
+    "rhythm_module_m": 3.0,
+    "rules": [
+      {
+        "principle": "symmetry-axis",
+        "rule": "Hold the front on one axis with a stepped central mass.",
+        "value": "1 axis"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Repeat piers and zigzag bands in a strict vertical beat.",
+        "value": "bay 3–4m"
+      },
+      {
+        "principle": "hierarchy",
+        "rule": "Step the massing back in setbacks toward the crown.",
+        "value": "3–5 setbacks"
+      },
+      {
+        "principle": "leading-lines",
+        "rule": "Use vertical piers to lift the eye to the spire.",
+        "value": "piers full height"
+      },
+      {
+        "principle": "scale",
+        "rule": "Build the lobby with a double height and a rich finish.",
+        "value": "lobby 6–10m"
+      }
+    ]
+  },
+  "references": [
+    {
+      "title": "Chrysler Building, New York",
+      "credit": "David Shankbone",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Chrysler_Building_by_David_Shankbone_Retouched.jpg"
+    }
+  ],
   "lineage": {
-    "evolved_from": ["art-nouveau-architecture"],
+    "evolved_from": [
+      "art-nouveau-architecture"
+    ],
     "rebelled_against": [],
     "hybridized_with": [],
-    "echoes": []
+    "echoes": [
+      "art-deco-web"
+    ]
   },
   "emotion": {
     "target_response": "Glamour and ambition: the viewer feels a confident city of speed, wealth and progress.",
-    "keywords": ["glamorous", "symmetric", "vertical", "lustrous", "ambitious"],
-    "brand_archetypes": ["ruler", "magician"]
+    "keywords": [
+      "glamorous",
+      "symmetric",
+      "vertical",
+      "lustrous",
+      "ambitious"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "magician"
+    ]
   },
   "agent": {
-    "triggers": ["art deco", "stepped skyscraper", "zigzag moderne", "chevron relief", "chrysler building", "deco lobby", "streamline moderne", "gatsby", "sunburst"],
-    "use_cases": ["hotel and cinema renders", "office towers", "lobby and entrance design", "period film and game sets"],
+    "triggers": [
+      "art deco",
+      "stepped skyscraper",
+      "zigzag moderne",
+      "chevron relief",
+      "chrysler building",
+      "deco lobby",
+      "streamline moderne",
+      "gatsby",
+      "sunburst"
+    ],
+    "use_cases": [
+      "hotel and cinema renders",
+      "office towers",
+      "lobby and entrance design",
+      "period film and game sets"
+    ],
     "avoid_when": [
       "The brief asks for a quiet, domestic or low-cost building.",
       "The design needs a free plan or an informal, asymmetric composition."
     ],
     "modifiers": [
-      { "request": "plainer", "toward": "international-style-architecture", "how": "Remove the relief and the setbacks, flatten the piers into a grid of 4 to 7m, and keep the polished materials." }
+      {
+        "request": "plainer",
+        "toward": "international-style-architecture",
+        "how": "Remove the relief and the setbacks, flatten the piers into a grid of 4 to 7m, and keep the polished materials."
+      }
     ]
   },
   "primer": {
     "positive": [
-      "stepped setback tower", "vertical piers", "zigzag chevron relief", "sunburst ornament", "polished black marble base",
-      "chrome and brass details", "symmetric facade", "glowing lobby", "crown spire"
+      "stepped setback tower",
+      "vertical piers",
+      "zigzag chevron relief",
+      "sunburst ornament",
+      "polished black marble base",
+      "chrome and brass details",
+      "symmetric facade",
+      "glowing lobby",
+      "crown spire"
     ],
-    "negative": ["whiplash curves", "raw concrete", "asymmetric composition", "plain flat roof box", "rustic brick", "pastel paint"],
+    "negative": [
+      "whiplash curves",
+      "raw concrete",
+      "asymmetric composition",
+      "plain flat roof box",
+      "rustic brick",
+      "pastel paint"
+    ],
     "canonical_works": [
-      { "work": "Chrysler Building, New York", "architect": "William Van Alen", "year": 1930 },
-      { "work": "Empire State Building, New York", "architect": "Shreve, Lamb and Harmon", "year": 1931 },
-      { "work": "Rockefeller Center, New York", "architect": "Raymond Hood and others", "year": 1933 },
-      { "work": "Hoover Building, London", "architect": "Wallis, Gilbert and Partners", "year": 1933 },
-      { "work": "Eastern Columbia Building, Los Angeles", "architect": "Claud Beelman", "year": 1930 }
+      {
+        "work": "Chrysler Building, New York",
+        "architect": "William Van Alen",
+        "year": 1930
+      },
+      {
+        "work": "Empire State Building, New York",
+        "architect": "Shreve, Lamb and Harmon",
+        "year": 1931
+      },
+      {
+        "work": "Rockefeller Center, New York",
+        "architect": "Raymond Hood and others",
+        "year": 1933
+      },
+      {
+        "work": "Hoover Building, London",
+        "architect": "Wallis, Gilbert and Partners",
+        "year": 1933
+      },
+      {
+        "work": "Eastern Columbia Building, Los Angeles",
+        "architect": "Claud Beelman",
+        "year": 1930
+      }
     ]
   },
   "sources": [
-    { "title": "Wikidata Q12720942, Art Deco architecture (CC0)", "url": "https://www.wikidata.org/wiki/Q12720942" },
-    { "title": "Getty AAT 300021426, Art Deco (ODC-By 1.0)", "url": "https://vocab.getty.edu/page/aat/300021426" },
-    { "title": "Bevis Hillier, Art Deco of the 20s and 30s (Studio Vista, 1968)" }
+    {
+      "title": "Wikidata Q12720942, Art Deco architecture (CC0)",
+      "url": "https://www.wikidata.org/wiki/Q12720942"
+    },
+    {
+      "title": "Getty AAT 300021426, Art Deco (ODC-By 1.0)",
+      "url": "https://vocab.getty.edu/page/aat/300021426"
+    },
+    {
+      "title": "Bevis Hillier, Art Deco of the 20s and 30s (Studio Vista, 1968)"
+    }
   ]
 }
