@@ -237,7 +237,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`art-nouveau-web`](../art-nouveau-web/SKILL.md)
 - **Mixes well with:** [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md)
 - **Kin in another domain:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md)
-- **Nearest by vector profile:** [`japanese-dense-web`](../japanese-dense-web/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md)
+- **Nearest by vector profile:** [`cybercore-web`](../cybercore-web/SKILL.md), [`pixel-art-web`](../pixel-art-web/SKILL.md), [`synthwave-web`](../synthwave-web/SKILL.md)
 
 ## Emotional target
 

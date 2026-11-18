@@ -1,0 +1,109 @@
+/*
+ * Wabi-Sabi Web — tokens
+ * Generated from data/design/styles/wabi-sabi-web.json by design-ontology. Do not edit.
+ * Use: put data-style="wabi-sabi-web" on <html> or on any container.
+ */
+[data-style="wabi-sabi-web"] {
+  --color-bg: #EAE4D8;
+  --color-surface: #D9D1C1;
+  --color-text: #3B3833;
+  --color-muted: #7C7466;
+  --color-primary: #9B5B3C;
+  --color-accent: #7A8564;
+  --color-border: #C9C1B0;
+  --font-sans: "Zen Kaku Gothic New", system-ui, sans-serif;
+  --font-display: "Shippori Mincho", "Cormorant Garamond", serif;
+  --border-radius: 6px;
+  --border-width: 1px;
+  --shadow-elevation: 0 6px 20px rgba(59,56,51,0.08);
+  --backdrop-filter: none;
+  --space-unit: 16px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration: 1000ms;
+  --color-on-bg: #3B3833;
+  --color-on-surface: #3B3833;
+  --color-on-primary: #FFFFFF;
+  --color-on-accent: #000000;
+  --color-muted-on-bg: #5E5A54;
+  --color-muted-on-surface: #5B574F;
+  --color-link: #3B3833;
+  --color-link-on-surface: #3B3833;
+  --display-weight: 300;
+  --subhead-weight: 300;
+  --body-weight: 300;
+  --strong-weight: 400;
+  --label-weight: 400;
+  --display-tracking: 0.04em;
+  --display-leading: 1.3;
+  --display-case: none;
+  --body-leading: 1.8;
+  --body-size: 16px;
+  --icon-stroke: 1.25;
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="wabi-sabi-web"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="wabi-sabi-web"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="wabi-sabi-web"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="wabi-sabi-web"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="wabi-sabi-web"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="wabi-sabi-web"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="wabi-sabi-web"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="wabi-sabi-web"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="wabi-sabi-web"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="wabi-sabi-web"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="wabi-sabi-web"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="wabi-sabi-web"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

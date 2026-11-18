@@ -1,0 +1,308 @@
+{
+  "$schema": "../../../schema/domains/design.schema.json",
+  "id": "conceptual-sketch-ui",
+  "domain": "design",
+  "name": "Conceptual Sketch UI",
+  "aliases": [
+    "Wireframe aesthetic",
+    "Sketchbook web",
+    "Hand-drawn blueprint"
+  ],
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2015,
+    "end": null,
+    "label": "2015–now"
+  },
+  "primary_mediums": [
+    "web",
+    "mobile"
+  ],
+  "summary": "Pencil and ink lines, rough outlines, margin notes, arrows and annotations on a pale ground. It shows an idea before it is finished, and feels like a designer's notebook.",
+  "philosophy": {
+    "core_thesis": "The page shows thinking: a rough line says the idea is open and honest.",
+    "design_principles": [
+      "Draw every shape with a wobbly line: a stroke of 1.5px to 2.5px with a roughness of 1px to 2px and no perfect curve.",
+      "Use a paper ground (#FAF8F2) with a grid of 24px at 6% opacity, or a dot grid of 24px.",
+      "Colour in ink (#1D2A44) and add 1 highlighter accent (#FFE066) at 60% opacity for no more than 8% of the surface.",
+      "Add margin notes in a hand face at 18px to 22px with an arrow (a curved line of 2px) to the part they explain.",
+      "Hatch shadows with 3 to 6 diagonal lines at 45° and 4px gap instead of a soft shadow.",
+      "Number steps in circles of 28px to 36px and link them with dashed lines of 2px (6px dash, 4px gap).",
+      "Leave 2 or more boxes as empty placeholders with a cross, as in a wireframe."
+    ],
+    "anti_patterns": [
+      "Polished gradients and glass",
+      "Perfectly straight vector lines",
+      "Photographic hero images",
+      "Soft blurred shadows",
+      "Saturated brand colour fills",
+      "Dense stock icon sets",
+      "Pixel-perfect alignment with no notes"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "dimensionality": 3,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 5
+  },
+  "layout": {
+    "grid_mechanics": "A loose page on a 24px grid; blocks sit as boxes with rough outlines; notes and arrows overlap the edges.",
+    "whitespace_ratio": "30% to 40% of the surface is empty; gaps are 16px to 48px.",
+    "alignment_rules": "Flush left blocks; notes slightly rotated by -3° to +3°; arrows join items.",
+    "container_geometry": "Hand-drawn rectangles with 4px to 12px wobble; circles for steps; dashed frames for placeholders."
+  },
+  "typography": {
+    "classifications": [
+      "handwriting script",
+      "humanist sans serif"
+    ],
+    "font_pairings": [
+      {
+        "display": "Patrick Hand",
+        "body": "Nunito",
+        "note": "A clean hand for notes."
+      },
+      {
+        "display": "Reenie Beanie",
+        "body": "Nunito",
+        "note": "A fast pen for margin notes."
+      },
+      {
+        "display": "Architects Daughter",
+        "body": "Nunito",
+        "note": "An architect's lettering for titles."
+      }
+    ],
+    "tracking": "Hand faces take 0.",
+    "leading": "Display 1.2; body 1.5.",
+    "hierarchy_rules": [
+      "Use one weight (400) in the hand face and 400 and 700 in the sans.",
+      "Use sizes 16, 20, 32 and 56px.",
+      "Set titles in the hand face and body in the sans.",
+      "Set annotations at 18px in the ink colour."
+    ]
+  },
+  "color": {
+    "palette_structure": "Pale paper, blue-black ink and one highlighter.",
+    "palette": [
+      {
+        "name": "Paper",
+        "hex": "#FAF8F2",
+        "role": "background"
+      },
+      {
+        "name": "Ink",
+        "hex": "#1D2A44",
+        "role": "text"
+      },
+      {
+        "name": "Graphite",
+        "hex": "#6B7280",
+        "role": "secondary text"
+      },
+      {
+        "name": "Highlighter",
+        "hex": "#FFE066",
+        "role": "primary"
+      },
+      {
+        "name": "Red Pen",
+        "hex": "#D64545",
+        "role": "accent"
+      },
+      {
+        "name": "Grid",
+        "hex": "#E3E0D6",
+        "role": "border"
+      }
+    ],
+    "contrast_rules": "Ink on paper holds 13:1; the highlighter is a background only, with ink text on it.",
+    "surface_treatment": "Flat paper with a faint grid at 6% and no gradient.",
+    "light_and_shadow": "Hatch: lines at 45° with a 4px gap in the ink colour at 40%; no soft shadow."
+  },
+  "materiality": {
+    "surface_simulation": "Paper, pencil and ink in a notebook.",
+    "border_rules": "A wobbly 2px ink line; dashed for ideas that are not final.",
+    "blur_and_elevation": "No blur; hatch shadows; no elevation."
+  },
+  "ornamentation_details": {
+    "iconography": "Hand-drawn 2px icons with round caps and a slight wobble; arrows, stars and circled numbers.",
+    "illustration": "Wireframes, doodles, arrows, boxes with crosses and sketched products.",
+    "decorative_elements": [
+      "wobbly outline",
+      "margin note",
+      "hatch shadow",
+      "placeholder cross"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Drawn: lines draw in with a stroke animation over 600ms to 900ms; notes appear with a 4px jitter; no springs.",
+    "easing": "cubic-bezier(0, 0, 0.2, 1)",
+    "duration_ms": 600,
+    "hover_and_active": "Hover re-draws the outline in 300ms and shades the box with a highlighter at 40%; active state fills it."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "flat-design"
+    ],
+    "hybridized_with": [
+      "scrapbook-ui",
+      "swiss-international"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels invited into an idea that is still being made.",
+    "keywords": [
+      "honest",
+      "thoughtful",
+      "open",
+      "creative",
+      "light",
+      "human"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "sketch",
+      "wireframe",
+      "hand drawn",
+      "notebook",
+      "blueprint",
+      "annotations",
+      "pencil",
+      "doodle"
+    ],
+    "use_cases": [
+      "design and strategy studios",
+      "process and case-study pages",
+      "education and workshop sites",
+      "early-stage product and pitch pages",
+      "documentation with diagrams"
+    ],
+    "avoid_when": [
+      "The brand must look finished and premium.",
+      "The page needs precise product photography.",
+      "The audience expects a corporate tone."
+    ],
+    "modifiers": [
+      {
+        "request": "cleaner",
+        "toward": "swiss-international",
+        "how": "Straighten lines, use a grid of 8px and a neo-grotesque; keep the ink and one accent."
+      },
+      {
+        "request": "more crafted",
+        "toward": "scrapbook-ui",
+        "how": "Add tape, photos and a coloured paper ground."
+      },
+      {
+        "request": "more formal",
+        "toward": "flat-design",
+        "how": "Replace the sketch lines by solid fills of 2px radius."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 400,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 400,
+      "accent": "colour",
+      "display_tracking": "0em",
+      "display_leading": 1.2,
+      "display_case": "none",
+      "body_leading": 1.5,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "pepicons-print",
+        "why": "A hand-drawn line family with a slight wobble that matches pencil lines."
+      }
+    },
+    "art": {
+      "recipe": "swiss",
+      "pattern": "grid",
+      "seed": 55
+    },
+    "layout": {
+      "hero": "split",
+      "align": "left",
+      "density": "airy",
+      "tilt_deg": 0
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#FAF8F2",
+      "--color-surface": "#FFFFFF",
+      "--color-text": "#1D2A44",
+      "--color-muted": "#6B7280",
+      "--color-primary": "#FFE066",
+      "--color-accent": "#D64545",
+      "--color-border": "#1D2A44",
+      "--font-sans": "\"Nunito\", system-ui, sans-serif",
+      "--font-display": "\"Patrick Hand\", \"Architects Daughter\", cursive",
+      "--border-radius": "6px",
+      "--border-width": "2px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0, 0, 0.2, 1)",
+      "--duration": "600ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#FAF8F2] text-[#1D2A44] font-sans antialiased"
+      },
+      {
+        "element": "heading",
+        "classes": "text-4xl md:text-6xl leading-[1.2] tracking-normal"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.5]"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-md border-2 border-[#1D2A44] bg-white p-4"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-md border-2 border-[#1D2A44] bg-[#FFE066] px-5 py-2 font-bold text-[#1D2A44] transition-colors duration-300 hover:bg-[#FFD21F]"
+      },
+      {
+        "element": "label",
+        "classes": "text-lg text-[#6B7280]"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Example: Excalidraw and tldraw sites (2020–2025)"
+    },
+    {
+      "title": "Example: Balsamiq product site (2008–2025)"
+    },
+    {
+      "title": "Example: Hand-drawn portfolios in the Awwwards sketch category (2016–2024)"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+/*
+ * Ethereal Web — tokens
+ * Generated from data/design/styles/ethereal-web.json by design-ontology. Do not edit.
+ * Use: put data-style="ethereal-web" on <html> or on any container.
+ */
+[data-style="ethereal-web"] {
+  --color-bg: #FDF7FF;
+  --color-surface: #FFFFFF;
+  --color-text: #4A4A5E;
+  --color-muted: #7A7A90;
+  --color-primary: #C9B6FF;
+  --color-accent: #FFC9DE;
+  --color-border: #E8E0F5;
+  --font-sans: "Jost", system-ui, sans-serif;
+  --font-display: "Cormorant Garamond", "Fraunces", serif;
+  --border-radius: 32px;
+  --border-width: 1px;
+  --shadow-elevation: 0 20px 60px rgba(150,120,220,0.10);
+  --backdrop-filter: blur(24px);
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration: 1000ms;
+  --color-on-bg: #4A4A5E;
+  --color-on-surface: #4A4A5E;
+  --color-on-primary: #4A4A5E;
+  --color-on-accent: #4A4A5E;
+  --color-muted-on-bg: #6E6D7E;
+  --color-muted-on-surface: #6E6E7E;
+  --color-link: #4A4A5E;
+  --color-link-on-surface: #4A4A5E;
+  --display-weight: 300;
+  --subhead-weight: 300;
+  --body-weight: 400;
+  --strong-weight: 500;
+  --label-weight: 500;
+  --display-tracking: 0.02em;
+  --display-leading: 1.15;
+  --display-case: none;
+  --body-leading: 1.7;
+  --body-size: 17px;
+  --icon-stroke: 1.25;
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="ethereal-web"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="ethereal-web"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="ethereal-web"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="ethereal-web"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="ethereal-web"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="ethereal-web"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="ethereal-web"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="ethereal-web"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="ethereal-web"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="ethereal-web"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="ethereal-web"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="ethereal-web"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

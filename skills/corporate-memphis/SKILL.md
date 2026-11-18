@@ -241,6 +241,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more structure**: move toward [`material-design`](../material-design/SKILL.md) (Material Design). Place the illustration in cards with 1 to 4dp elevation and a coloured app bar; keep the flat vector figures.
 
 - **Came from (go here for a more orthodox version):** [`flat-design`](../flat-design/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md)
+- **Led to (go here for a newer version):** [`scrapbook-ui`](../scrapbook-ui/SKILL.md)
 - **Was rejected by:** [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
 - **Mixes well with:** [`claymorphism`](../claymorphism/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md)
 - **Nearest by vector profile:** [`japanese-dense-web`](../japanese-dense-web/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md), [`ai-chat-ui`](../ai-chat-ui/SKILL.md)

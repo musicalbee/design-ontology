@@ -1,0 +1,109 @@
+/*
+ * Scrapbook UI — tokens
+ * Generated from data/design/styles/scrapbook-ui.json by design-ontology. Do not edit.
+ * Use: put data-style="scrapbook-ui" on <html> or on any container.
+ */
+[data-style="scrapbook-ui"] {
+  --color-bg: #F4ECD8;
+  --color-surface: #FFFFFF;
+  --color-text: #2B2A33;
+  --color-muted: #6B6558;
+  --color-primary: #E4572E;
+  --color-accent: #F3B700;
+  --color-border: #C8A97E;
+  --font-sans: "Nunito", system-ui, sans-serif;
+  --font-display: "Caveat", "Nunito", cursive;
+  --border-radius: 2px;
+  --border-width: 1px;
+  --shadow-elevation: 0 4px 8px rgba(0,0,0,0.18);
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration: 400ms;
+  --color-on-bg: #2B2A33;
+  --color-on-surface: #2B2A33;
+  --color-on-primary: #000000;
+  --color-on-accent: #2B2A33;
+  --color-muted-on-bg: #6B6558;
+  --color-muted-on-surface: #6B6558;
+  --color-link: #2B2A33;
+  --color-link-on-surface: #2B2A33;
+  --display-weight: 700;
+  --subhead-weight: 700;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 700;
+  --display-tracking: 0em;
+  --display-leading: 1.1;
+  --display-case: none;
+  --body-leading: 1.55;
+  --body-size: 16px;
+  --icon-stroke: 2.5;
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="scrapbook-ui"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="scrapbook-ui"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="scrapbook-ui"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="scrapbook-ui"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="scrapbook-ui"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="scrapbook-ui"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="scrapbook-ui"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="scrapbook-ui"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="scrapbook-ui"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="scrapbook-ui"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="scrapbook-ui"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="scrapbook-ui"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

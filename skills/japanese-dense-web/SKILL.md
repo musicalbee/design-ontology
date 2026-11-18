@@ -230,7 +230,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more playful**: move toward [`memphis-design`](../memphis-design/SKILL.md) (Memphis Design). Add pastel fills and squiggle patterns to the header bars.
 
 - **Rejects (the opposite pole; do not blend):** [`swiss-international`](../swiss-international/SKILL.md)
-- **Nearest by vector profile:** [`corporate-memphis`](../corporate-memphis/SKILL.md), [`art-deco-web`](../art-deco-web/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md)
+- **Nearest by vector profile:** [`pixel-art-web`](../pixel-art-web/SKILL.md), [`corporate-memphis`](../corporate-memphis/SKILL.md), [`cybercore-web`](../cybercore-web/SKILL.md)
 
 ## Emotional target
 

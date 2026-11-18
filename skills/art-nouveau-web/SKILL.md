@@ -234,8 +234,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more geometric**: move toward [`art-deco-web`](../art-deco-web/SKILL.md) (Art Deco (web)). Replace the curves with arcs and straight lines and add a gold on black palette.
 - If the user asks for **more modern**: move toward [`flat-design`](../flat-design/SKILL.md) (Flat Design). Keep the leaf palette as flat fills; remove the borders and patterns.
 
+- **Led to (go here for a newer version):** [`bohemian-web`](../bohemian-web/SKILL.md)
 - **Was rejected by:** [`art-deco-web`](../art-deco-web/SKILL.md), [`constructivism-web`](../constructivism-web/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md)
-- **Mixes well with:** [`art-deco-web`](../art-deco-web/SKILL.md)
+- **Mixes well with:** [`art-deco-web`](../art-deco-web/SKILL.md), [`victorian-web`](../victorian-web/SKILL.md)
 - **Kin in another domain:** [`art-nouveau-architecture`](../art-nouveau-architecture/SKILL.md)
 - **Nearest by vector profile:** [`memphis-design`](../memphis-design/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md)
 
