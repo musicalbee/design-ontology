@@ -1,0 +1,330 @@
+{
+  "$schema": "../../../schema/domains/film.schema.json",
+  "id": "planimetric-symmetry",
+  "name": "Planimetric symmetry",
+  "aliases": [
+    "Dollhouse frame",
+    "Centred tableau",
+    "Flat staging"
+  ],
+  "era_id": "digital-cinema",
+  "time_period": {
+    "start": 1996,
+    "end": null,
+    "label": "1996–today"
+  },
+  "capture": [
+    "photochemical",
+    "digital-cinema"
+  ],
+  "summary": "A frame built like a diagram: one central axis, a flat back wall, pastel colour blocks and a camera that tracks or pans at right angles. Every object is placed. The look is a miniature world with a dry joke.",
+  "philosophy": {
+    "core_thesis": "A film is a constructed object, so the frame is composed as a flat, symmetrical tableau and the camera moves only at right angles to it.",
+    "design_principles": [
+      "Put the key subject on the vertical axis of the frame and mirror the set about it, so that 90% or more of the visual weight is balanced left to right.",
+      "Shoot head-on to the back wall, with the lens axis at 90° to it, and keep the horizon and all verticals true.",
+      "Move the camera only on the three right-angle axes: a track along the wall at 0.5 to 1.5 m/s, a pan of 90° or 180° at a steady rate, or a straight push-in over 3 to 6 s.",
+      "Limit the palette to 4 to 6 flat colours, one dominant at 40% to 50% of the frame, with the rest in blocks of 5% to 15%.",
+      "Stage the actors in a line or a pyramid on one or two planes, facing the lens, and give a deadpan line with no overlap.",
+      "Cut at an average shot length of 3 to 5 s and use a whip pan or a title card of 1 to 3 s as a chapter break.",
+      "Fix the frame size in advance for each part: 1.37:1, 1.85:1 or 2.39:1, and change it only at a chapter."
+    ],
+    "anti_patterns": [
+      "A handheld camera that follows the actor",
+      "An off-axis, canted or random angle",
+      "A natural, un-graded, muddy colour palette",
+      "A cluttered frame with unplaced objects",
+      "Overlapping, naturalistic dialogue",
+      "Shallow depth of field with a blurred background",
+      "A lens flare or a bokeh effect for mood"
+    ]
+  },
+  "vectors": {
+    "camera_mobility": 2,
+    "cutting_rate": 3,
+    "staging": 5,
+    "grade_stylisation": 4,
+    "frame_width": 3
+  },
+  "composition": {
+    "framing": "A centred, flat frame: the back wall fills the picture at 90° to the lens, and the set repeats left and right of the axis.",
+    "staging_in_depth": "2 to 3 planes parallel to the lens, 1 to 3 m apart: a front prop, the actors on one line and a flat set or wall behind.",
+    "subject_placement": "On the centre axis, or in a pair about it; the eyes sit on the upper third line and look into or across the lens.",
+    "principles": [
+      {
+        "principle": "symmetry-axis",
+        "rule": "Place the subject on the vertical axis and mirror the set about it, with doors, windows and props in pairs.",
+        "value": "bilateral, 90% to 100% mirrored mass, 1 axis"
+      },
+      {
+        "principle": "framing",
+        "rule": "Square the lens to the back wall and keep every vertical plumb, so that the frame reads as a flat plan.",
+        "value": "lens axis at 90° to the wall, 0° tilt"
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Fill the frame with one dominant flat colour and 3 to 5 accents in small blocks.",
+        "value": "40% to 50% dominant, accents 5% to 15% each"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Stage the actors on one or two planes parallel to the lens, with a flat wall behind.",
+        "value": "2 to 3 planes, 1 to 3 m apart"
+      },
+      {
+        "principle": "leading-lines",
+        "rule": "Let floor lines, rails and shelves run at right angles to the lens axis, and meet at the central axis.",
+        "value": "lines at 0° or 90° only"
+      }
+    ]
+  },
+  "camera_and_movement": {
+    "movement": "Right-angle moves only: a lateral track along the wall, a 90° or 180° pan, a straight push-in or a pull-out. No handheld follow, no diagonal.",
+    "support": "Dolly on rails, tripod with a fluid head, cable cam for a cross-section shot",
+    "camera_height": "1.2 to 1.5 m, at the actors' chest and eye level",
+    "move_speed": "Track 0.5 to 1.5 m/s; pan 20° to 40° per second; push-in over 3 to 6 s"
+  },
+  "lens_and_format": {
+    "aspect_ratio": "1.37:1, 1.85:1 or 2.39:1, fixed for each chapter",
+    "frame_rate": "24 fps; 12 fps or 24 fps stop-motion for the miniature set",
+    "shutter_angle": "180° (1/48 s)",
+    "focal_length": "25mm to 40mm (35mm format); a wide lens at a distance for flat planes",
+    "aperture": "f/4 to f/8 for deep, even focus across the planes",
+    "resolution": "35mm or 4K digital; a clean, sharp image",
+    "focus": "Deep focus on all planes; the front prop and the back wall are both sharp.",
+    "equipment": [
+      "rail dolly",
+      "wide prime set",
+      "cable cam",
+      "miniature and scale models"
+    ]
+  },
+  "light": {
+    "quality": "Soft, even and frontal, with a low contrast and a bright fill, as in a storybook illustration.",
+    "direction": "From the front and above, close to the lens axis; no deep shadows on the back wall.",
+    "key_to_fill_ratio": "2:1 (1 stop)",
+    "colour_temperature": "Daylight 5600K or warm tungsten 3200K, with a gel to match the set",
+    "source": "Large soft boxes and bounce at the camera"
+  },
+  "colour_and_grade": {
+    "treatment": "A pastel, flat palette in blocks. Skin stays warm, blacks are lifted, and one dominant hue colours each chapter.",
+    "palette": [
+      {
+        "name": "Dollhouse pink",
+        "hex": "#E8A9B5",
+        "role": "dominant set colour"
+      },
+      {
+        "name": "Butter yellow",
+        "hex": "#F2D16B",
+        "role": "accent and costume"
+      },
+      {
+        "name": "Mint",
+        "hex": "#9CCFB8",
+        "role": "wall and prop"
+      },
+      {
+        "name": "Rust red",
+        "hex": "#B5482F",
+        "role": "contrast accent"
+      },
+      {
+        "name": "Cream",
+        "hex": "#F4EBD9",
+        "role": "highlights and skin"
+      }
+    ],
+    "grade_recipe": [
+      "Lift the black point to 6% to 8% so that the shadows read as flat colour.",
+      "Set the highlights at 92% to 95% and keep a low contrast of −10% with a soft S-curve.",
+      "Push saturation of the dominant hue by +20% and mute the other hues by −10%.",
+      "Warm the whites to 5200K and add a 3% to 5% pink in the midtones.",
+      "Keep grain at 5% to 8%; do not add a vignette or a flare."
+    ],
+    "texture": "Fine grain at 5% to 8%, clean flat colour with no digital noise"
+  },
+  "editing_and_rhythm": {
+    "average_shot_length": "3 to 5 s (estimate; check Cinemetrics for each title)",
+    "shot_length_range": "1 s for an insert to 12 s for a long lateral track",
+    "cutting_logic": "Cut between flat tableaux on the beat of the line. Hold the frame until the joke lands, then whip or cut to the next.",
+    "transitions": "Hard cut, whip pan of 0.2 to 0.4 s, a title card as a chapter break of 1 to 3 s, an iris in or out.",
+    "runtime": "90 to 110 min"
+  },
+  "sound": {
+    "approach": "Clean, close dialogue with exact foley for each prop. Rooms are quiet, and the sound of an object is a gag.",
+    "dialogue": "Deadpan, a line at a time, with no overlap and a pause of 0.5 to 1 s before the reply.",
+    "music": "A pop or classical song picked for each chapter, and a harpsichord or marimba theme; each cue starts on a cut.",
+    "loudness": "−23 LUFS integrated, with dialogue peaks at −6 dBFS"
+  },
+  "titles_and_graphics": {
+    "treatment": "Chapter cards and a narrator's text in a centred block on a flat colour, with an inset or a drawn map as a graphic.",
+    "type": "A geometric or slab serif in upper case, centred, one colour from the palette; each card stays for 1 to 3 s."
+  },
+  "shot_primer": {
+    "opening": "Open on a centred, symmetrical establishing shot of a facade or a room; hold for 3 to 5 s before the first move.",
+    "shot_list": [
+      {
+        "shot": "Facade tableau",
+        "size": "wide",
+        "lens": "27mm",
+        "movement": "locked off",
+        "seconds": 4
+      },
+      {
+        "shot": "Lateral track along the rooms",
+        "size": "wide",
+        "lens": "32mm",
+        "movement": "dolly track 1.0 m/s",
+        "seconds": 10
+      },
+      {
+        "shot": "Centred portrait",
+        "size": "medium",
+        "lens": "35mm",
+        "movement": "locked off",
+        "seconds": 3
+      },
+      {
+        "shot": "Whip pan to the next room",
+        "size": "wide",
+        "lens": "27mm",
+        "movement": "whip pan 90°",
+        "seconds": 1
+      },
+      {
+        "shot": "Overhead of a table",
+        "size": "medium",
+        "lens": "25mm",
+        "movement": "locked off, 90° down",
+        "seconds": 3
+      },
+      {
+        "shot": "Chapter card",
+        "size": "card",
+        "lens": "n/a",
+        "movement": "none",
+        "seconds": 2
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "centred symmetrical composition",
+      "flat planimetric frame",
+      "pastel colour palette",
+      "dollhouse set",
+      "one-point perspective",
+      "deadpan actors facing the camera",
+      "lateral tracking shot",
+      "soft frontal light",
+      "title card in a slab serif",
+      "35mm film still",
+      "anamorphic 2.39:1 frame",
+      "whip pan"
+    ],
+    "negative": [
+      "handheld camera",
+      "dutch angle",
+      "shallow depth of field",
+      "lens flare",
+      "dark moody grade",
+      "off-centre framing",
+      "messy background",
+      "naturalistic overlap"
+    ],
+    "canonical_works": [
+      {
+        "work": "The Royal Tenenbaums",
+        "maker": "Wes Anderson",
+        "year": 2001
+      },
+      {
+        "work": "Moonrise Kingdom",
+        "maker": "Wes Anderson",
+        "year": 2012
+      },
+      {
+        "work": "The Grand Budapest Hotel",
+        "maker": "Wes Anderson",
+        "year": 2014
+      },
+      {
+        "work": "Isle of Dogs",
+        "maker": "Wes Anderson",
+        "year": 2018
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "dogme-95"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "renaissance-painting",
+      "new-topographics"
+    ]
+  },
+  "emotion": {
+    "target_response": "Dry, melancholy charm: the viewer sees a small, orderly world in which feeling is held back and shown by arrangement.",
+    "keywords": [
+      "whimsical",
+      "orderly",
+      "deadpan",
+      "nostalgic",
+      "stylised"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "innocent"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "wes anderson",
+      "symmetrical shot",
+      "planimetric",
+      "centred composition",
+      "dollhouse look",
+      "pastel film",
+      "grand budapest",
+      "one-point symmetry"
+    ],
+    "use_cases": [
+      "brand films and fashion campaigns",
+      "title sequences",
+      "video prompts for a boutique or a hotel",
+      "music video with a built set"
+    ],
+    "avoid_when": [
+      "The brief needs a documentary or an observed, unplanned moment.",
+      "The shot needs a depth of field and a hard, dramatic light."
+    ],
+    "modifiers": [
+      {
+        "request": "less staged",
+        "toward": "french-new-wave",
+        "how": "Keep the 1.37:1 frame and the deadpan face; leave the set for a street, shoot handheld at eye level and let the passers-by cross the frame."
+      },
+      {
+        "request": "more rhythm",
+        "toward": "music-video",
+        "how": "Keep the symmetry; cut every 1 to 2 s on the beat and add a lateral track on each chorus."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Matt Zoller Seitz, The Wes Anderson Collection (Abrams, 2013)"
+    },
+    {
+      "title": "David Bordwell, Figures Traced in Light: On Cinematic Staging (University of California Press, 2005)"
+    },
+    {
+      "title": "David Bordwell, Poetics of Cinema (Routledge, 2008), chapter on staging and planar composition"
+    }
+  ],
+  "domain": "film"
+}

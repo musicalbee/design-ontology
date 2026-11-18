@@ -3472,6 +3472,100 @@
       }
     },
     {
+      "id": "classical-hollywood",
+      "name": "Classical Hollywood",
+      "domain": "film",
+      "era": "studio-system",
+      "period": "1930–1960",
+      "thesis": "A film serves its story, so every device (light, angle, cut and score) is invisible and keeps the viewer's eye on the character and the action.",
+      "summary": "A studio craft in which the camera, the light and the cut serve a clear story. Three-point light, a master shot with coverage and a smooth match cut. The style hides itself.",
+      "path": "skills/classical-hollywood/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "classical hollywood",
+        "golden age hollywood",
+        "studio era film",
+        "three-point lighting film",
+        "technicolor look",
+        "1940s movie",
+        "continuity editing",
+        "old hollywood glamour"
+      ],
+      "use_cases": [
+        "period films and pastiche",
+        "fashion and fragrance films",
+        "video prompts for a studio-era scene",
+        "title sequences with a glamour tone"
+      ],
+      "emotion": [
+        "polished",
+        "romantic",
+        "clear",
+        "glamorous",
+        "absorbing"
+      ],
+      "archetypes": [
+        "hero",
+        "lover"
+      ],
+      "vectors": {
+        "camera_mobility": 3,
+        "cutting_rate": 3,
+        "staging": 5,
+        "grade_stylisation": 3,
+        "frame_width": 2
+      }
+    },
+    {
+      "id": "italian-neorealism",
+      "name": "Italian Neorealism",
+      "domain": "film",
+      "era": "studio-system",
+      "period": "1943–1952",
+      "thesis": "A film earns its truth by going out of the studio and showing ordinary lives in the real place, at the real pace, with no star and no neat plot.",
+      "summary": "Ruined streets, ordinary people and a story with no hero. Real places, non-professional actors and light that the day provides. The camera stays at human height and records the time a thing takes.",
+      "path": "skills/italian-neorealism/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "neorealism",
+        "italian neorealism",
+        "bicycle thieves",
+        "de sica",
+        "rossellini",
+        "postwar italian film",
+        "non-professional actors",
+        "street realism film"
+      ],
+      "use_cases": [
+        "social documentary and charity films",
+        "independent short films on location",
+        "period films of poverty and work",
+        "video prompts for a postwar street scene"
+      ],
+      "emotion": [
+        "humane",
+        "plain",
+        "poor",
+        "honest",
+        "patient"
+      ],
+      "archetypes": [
+        "everyman",
+        "caregiver"
+      ],
+      "vectors": {
+        "camera_mobility": 3,
+        "cutting_rate": 2,
+        "staging": 1,
+        "grade_stylisation": 1,
+        "frame_width": 2
+      }
+    },
+    {
       "id": "french-new-wave",
       "name": "French New Wave",
       "domain": "film",
@@ -3514,6 +3608,241 @@
         "camera_mobility": 4,
         "cutting_rate": 3,
         "staging": 2,
+        "grade_stylisation": 1,
+        "frame_width": 3
+      }
+    },
+    {
+      "id": "documentary-verite",
+      "name": "Direct cinema and vérité",
+      "domain": "film",
+      "era": "new-waves",
+      "period": "1960–1975",
+      "thesis": "Light gear and sync sound let the camera watch people in real time, so the film is made of what happens and not of what is staged.",
+      "summary": "A handheld 16mm camera and a synchronised tape recorder stay with real people. No script, no set and no lamps. The camera sits in the room and waits. The picture is rough, and the sound is complete.",
+      "path": "skills/documentary-verite/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "cinema verite",
+        "direct cinema",
+        "observational documentary",
+        "fly on the wall",
+        "handheld 16mm",
+        "maysles",
+        "pennebaker",
+        "rouch"
+      ],
+      "use_cases": [
+        "documentary and brand-story interviews",
+        "concert and backstage films",
+        "video prompts for a real-event look",
+        "oral-history and campaign films"
+      ],
+      "emotion": [
+        "raw",
+        "present",
+        "unscripted",
+        "intimate",
+        "urgent"
+      ],
+      "archetypes": [
+        "everyman",
+        "explorer"
+      ],
+      "vectors": {
+        "camera_mobility": 4,
+        "cutting_rate": 2,
+        "staging": 1,
+        "grade_stylisation": 1,
+        "frame_width": 2
+      }
+    },
+    {
+      "id": "new-hollywood",
+      "name": "New Hollywood",
+      "domain": "film",
+      "era": "new-waves",
+      "period": "1967–1980",
+      "thesis": "The studio picture is used for a director's personal, sceptical view, so the heroes are flawed, the places are real and the endings stay open.",
+      "summary": "A director's cinema inside the studios: location shooting, long lenses, a zoom, a wide anamorphic frame and flawed heroes. A story that ends without a lesson. The style looks lived in and tough.",
+      "path": "skills/new-hollywood/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "new hollywood",
+        "1970s film look",
+        "american new wave",
+        "scorsese look",
+        "anamorphic 70s",
+        "gritty seventies",
+        "long lens street",
+        "zoom lens film"
+      ],
+      "use_cases": [
+        "crime and drama films",
+        "music video with a 1970s tone",
+        "period pieces",
+        "video prompts for a car and street scene"
+      ],
+      "emotion": [
+        "gritty",
+        "sceptical",
+        "lived-in",
+        "tough",
+        "open-ended"
+      ],
+      "archetypes": [
+        "outlaw",
+        "explorer"
+      ],
+      "vectors": {
+        "camera_mobility": 4,
+        "cutting_rate": 3,
+        "staging": 2,
+        "grade_stylisation": 2,
+        "frame_width": 5
+      }
+    },
+    {
+      "id": "music-video",
+      "name": "Music video",
+      "domain": "film",
+      "era": "tape-and-cable",
+      "period": "1981–today",
+      "thesis": "The song is the script, so images are cut to its beat and structure and a loud, memorable look sells the artist.",
+      "summary": "A picture built to a song. The cut falls on the beat, the set is a stage, and the grade is loud. Story and place are cues that give way to a hook, a dance and a look.",
+      "path": "skills/music-video/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "music video",
+        "mtv style",
+        "pop video",
+        "clip on the beat",
+        "lip-sync video",
+        "dance video",
+        "promo video",
+        "visualiser"
+      ],
+      "use_cases": [
+        "music releases and lyric videos",
+        "fashion and brand films",
+        "short-form vertical clips on a track",
+        "video prompts for a dance or a performance"
+      ],
+      "emotion": [
+        "loud",
+        "glossy",
+        "rhythmic",
+        "stylised",
+        "catchy"
+      ],
+      "archetypes": [
+        "jester",
+        "creator"
+      ],
+      "vectors": {
+        "camera_mobility": 4,
+        "cutting_rate": 5,
+        "staging": 5,
+        "grade_stylisation": 5,
+        "frame_width": 3
+      }
+    },
+    {
+      "id": "hong-kong-action",
+      "name": "Hong Kong action",
+      "domain": "film",
+      "era": "tape-and-cable",
+      "period": "1984–1997",
+      "thesis": "An action scene is a piece of choreography shot and cut for its rhythm, so the stunt is shown whole and the cut gives it speed and weight.",
+      "summary": "Action built in the cut and in the body: slow motion, wide anamorphic frames and a stunt shot in full view. Gunfights are choreographed like dance, and fights are made of clear, fast phrases.",
+      "path": "skills/hong-kong-action/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "hong kong action",
+        "john woo",
+        "heroic bloodshed",
+        "gun fu",
+        "wire fu",
+        "jackie chan stunt",
+        "slow motion gunfight",
+        "kung fu film"
+      ],
+      "use_cases": [
+        "action trailers and title sequences",
+        "music video with a fight scene",
+        "game cinematics",
+        "video prompts for a duel or a chase"
+      ],
+      "emotion": [
+        "kinetic",
+        "stylish",
+        "heroic",
+        "operatic",
+        "fast"
+      ],
+      "archetypes": [
+        "hero",
+        "outlaw"
+      ],
+      "vectors": {
+        "camera_mobility": 4,
+        "cutting_rate": 5,
+        "staging": 4,
+        "grade_stylisation": 3,
+        "frame_width": 4
+      }
+    },
+    {
+      "id": "slow-cinema",
+      "name": "Slow cinema",
+      "domain": "film",
+      "era": "digital-cinema",
+      "period": "1994–today",
+      "thesis": "Time is the material of film, so a shot is held until the viewer sees the place and the person and feels the hours pass.",
+      "summary": "A cinema of duration. Few cuts, a still or slow camera, ordinary tasks shown in real time and little plot. The viewer's attention does the work that the cut usually does.",
+      "path": "skills/slow-cinema/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "slow cinema",
+        "long take",
+        "contemplative film",
+        "béla tarr",
+        "tsai ming-liang",
+        "apichatpong",
+        "real time film",
+        "art house long shot"
+      ],
+      "use_cases": [
+        "festival short films",
+        "gallery and installation video",
+        "video prompts for a quiet scene",
+        "ambient and meditative product films"
+      ],
+      "emotion": [
+        "still",
+        "patient",
+        "austere",
+        "meditative",
+        "ordinary"
+      ],
+      "archetypes": [
+        "sage",
+        "explorer"
+      ],
+      "vectors": {
+        "camera_mobility": 2,
+        "cutting_rate": 1,
+        "staging": 3,
         "grade_stylisation": 1,
         "frame_width": 3
       }
@@ -3563,6 +3892,53 @@
         "staging": 1,
         "grade_stylisation": 1,
         "frame_width": 2
+      }
+    },
+    {
+      "id": "planimetric-symmetry",
+      "name": "Planimetric symmetry",
+      "domain": "film",
+      "era": "digital-cinema",
+      "period": "1996–today",
+      "thesis": "A film is a constructed object, so the frame is composed as a flat, symmetrical tableau and the camera moves only at right angles to it.",
+      "summary": "A frame built like a diagram: one central axis, a flat back wall, pastel colour blocks and a camera that tracks or pans at right angles. Every object is placed. The look is a miniature world with a dry joke.",
+      "path": "skills/planimetric-symmetry/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "wes anderson",
+        "symmetrical shot",
+        "planimetric",
+        "centred composition",
+        "dollhouse look",
+        "pastel film",
+        "grand budapest",
+        "one-point symmetry"
+      ],
+      "use_cases": [
+        "brand films and fashion campaigns",
+        "title sequences",
+        "video prompts for a boutique or a hotel",
+        "music video with a built set"
+      ],
+      "emotion": [
+        "whimsical",
+        "orderly",
+        "deadpan",
+        "nostalgic",
+        "stylised"
+      ],
+      "archetypes": [
+        "creator",
+        "innocent"
+      ],
+      "vectors": {
+        "camera_mobility": 2,
+        "cutting_rate": 3,
+        "staging": 5,
+        "grade_stylisation": 4,
+        "frame_width": 3
       }
     },
     {

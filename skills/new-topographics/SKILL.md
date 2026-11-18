@@ -152,7 +152,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`straight-photography`](../straight-photography/SKILL.md)
 - **Mixes well with:** [`new-colour`](../new-colour/SKILL.md)
-- **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md)
+- **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`planimetric-symmetry`](../planimetric-symmetry/SKILL.md), [`slow-cinema`](../slow-cinema/SKILL.md)
 - **Nearest by vector profile:** [`straight-photography`](../straight-photography/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md), [`pictorialism`](../pictorialism/SKILL.md)
 
 ## Emotional target

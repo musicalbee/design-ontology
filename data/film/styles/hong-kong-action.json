@@ -1,0 +1,333 @@
+{
+  "$schema": "../../../schema/domains/film.schema.json",
+  "id": "hong-kong-action",
+  "name": "Hong Kong action",
+  "aliases": [
+    "Heroic bloodshed",
+    "Gun fu",
+    "Kung fu comedy action"
+  ],
+  "era_id": "tape-and-cable",
+  "time_period": {
+    "start": 1984,
+    "end": 1997,
+    "label": "1984–1997"
+  },
+  "capture": [
+    "photochemical"
+  ],
+  "summary": "Action built in the cut and in the body: slow motion, wide anamorphic frames and a stunt shot in full view. Gunfights are choreographed like dance, and fights are made of clear, fast phrases.",
+  "philosophy": {
+    "core_thesis": "An action scene is a piece of choreography shot and cut for its rhythm, so the stunt is shown whole and the cut gives it speed and weight.",
+    "design_principles": [
+      "Shoot the stunt in a wide or medium shot that shows the whole body, and keep the performer's head and feet in frame for 60% or more of the fight.",
+      "Cut at an average shot length of 1.5 to 3 s and build a fight from 4 to 8 short phrases of 2 to 5 s each.",
+      "Use slow motion at 48 to 96 fps for 1 to 3 s at the peak of a leap, a fall or a shot, then return to 24 fps.",
+      "Frame in 2.35:1 anamorphic with a 28mm to 50mm lens, and keep the camera at 0.5 to 1.5 m, moving at 1 to 3 m/s in a push, a whip or a spin.",
+      "Light with hard, coloured sources: a blue-green or sodium key at 4:1, with a smoke haze and neon in the back.",
+      "Do the dangerous stunt on set, with wire work or a real fall, and repeat the strike from two angles at 0.3 to 0.5 s apart.",
+      "Score with a synthesizer and a guitar theme, and add a punch, a whoosh and a shell casing to every hit."
+    ],
+    "anti_patterns": [
+      "A static, wide master shot of a fight with no cut",
+      "A shaky, blurred close-up that hides the stunt",
+      "A stunt double hidden by an edit",
+      "A fight with no rhythm or slow-motion peak",
+      "A realistic, quiet sound track with no foley",
+      "A single, drab, desaturated grade",
+      "A hero with no code of honour"
+    ]
+  },
+  "vectors": {
+    "camera_mobility": 4,
+    "cutting_rate": 5,
+    "staging": 4,
+    "grade_stylisation": 3,
+    "frame_width": 4
+  },
+  "composition": {
+    "framing": "A wide 2.35:1 frame in which the whole body and the weapon are readable; the fighters are on the lines of the frame.",
+    "staging_in_depth": "3 planes: a foreground edge or a falling object, the fighters in the middle and a neon or a smoky back wall.",
+    "subject_placement": "Two fighters on opposite thirds; a hero in a long coat or a suit, in the centre third in the pause before a draw.",
+    "principles": [
+      {
+        "principle": "rhythm",
+        "rule": "Build the fight from short phrases of strike and reply, and make the slow-motion peak the longest beat.",
+        "value": "1.5 to 3 s average shot, 2 to 5 s per phrase"
+      },
+      {
+        "principle": "leading-lines",
+        "rule": "Aim a strike, a blade or a gun along a diagonal that crosses the 2.35:1 frame.",
+        "value": "diagonals of 30° to 60°"
+      },
+      {
+        "principle": "rule-of-thirds",
+        "rule": "Put the two fighters on the opposite third lines and leave the centre for the clash.",
+        "value": "fighters at 33% and 67%"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Throw an object, a bottle or a shell casing through the foreground plane to give 3 layers.",
+        "value": "3 planes, foreground object at 1 to 2 m"
+      },
+      {
+        "principle": "contrast",
+        "rule": "Set a hard coloured key against smoke and dark to make a clear silhouette.",
+        "value": "key to fill 4:1, haze 10% to 20%"
+      }
+    ]
+  },
+  "camera_and_movement": {
+    "movement": "Push in on the draw, whip between fighters, spin 360° around a duel and follow a fall with a drop. Moves are fast and finish on a still beat.",
+    "support": "Handheld, dolly, jib and a car or a boat mount; a wire rig for the performer",
+    "camera_height": "0.5 to 1.5 m; low for a leap, high for a fall",
+    "move_speed": "1 to 3 m/s for a push or a spin; whip pan 180° per second"
+  },
+  "lens_and_format": {
+    "aspect_ratio": "2.35:1 (anamorphic)",
+    "frame_rate": "24 fps; 48 to 96 fps for slow motion",
+    "shutter_angle": "180° (1/48 s); 90° for a sharp, strobed strike",
+    "focal_length": "28mm to 50mm (35mm format) for the body; 100mm for a gun close-up",
+    "aperture": "f/2.8 to f/5.6",
+    "resolution": "35mm negative; scan at 2K or 4K",
+    "focus": "A deep focus for a fight and a rack focus from a gun to a face over 0.5 to 1 s.",
+    "equipment": [
+      "anamorphic lenses",
+      "a high-speed 35mm camera",
+      "wire and harness rig",
+      "squibs and breakaway props"
+    ]
+  },
+  "light": {
+    "quality": "Hard and coloured, with haze to show the beams, and a back light to rim the hero.",
+    "direction": "From the side and behind, with a neon or a sodium lamp in the frame; a top light for the interrogation.",
+    "key_to_fill_ratio": "4:1 (2 stops)",
+    "colour_temperature": "Tungsten 3200K with blue gels at 7000K to 9000K and sodium at 2000K",
+    "source": "Neon signs, sodium and tungsten with a haze machine"
+  },
+  "colour_and_grade": {
+    "treatment": "A saturated, slightly cool night look with blue-green shadows and amber neon; warm skin; clean, crisp blacks.",
+    "palette": [
+      {
+        "name": "Smoke black",
+        "hex": "#0E1114",
+        "role": "blacks"
+      },
+      {
+        "name": "Neon blue",
+        "hex": "#2E6FD0",
+        "role": "gel and sky"
+      },
+      {
+        "name": "Jade green",
+        "hex": "#2F8F78",
+        "role": "shadows"
+      },
+      {
+        "name": "Sodium amber",
+        "hex": "#E39A2B",
+        "role": "lamps and neon"
+      },
+      {
+        "name": "Blood red",
+        "hex": "#B02A2A",
+        "role": "accent and hit"
+      },
+      {
+        "name": "Skin warm",
+        "hex": "#D9A27E",
+        "role": "skin"
+      }
+    ],
+    "grade_recipe": [
+      "Set the black point at 3% and keep deep, clean shadows.",
+      "Tint the shadows toward blue-green hue 190° at 20% to 30% strength.",
+      "Warm the highlights and skin to amber hue 35° at 10% strength.",
+      "Add a contrast curve of +25% and push saturation by +15% on neon and red.",
+      "Add grain at 10% and a halation of 4% to 6% around lamps."
+    ],
+    "texture": "Medium grain at 10%, with halation and haze in the highlights"
+  },
+  "editing_and_rhythm": {
+    "average_shot_length": "1.5 to 3 s in a fight (estimate; check Cinemetrics for each title)",
+    "shot_length_range": "0.3 s for a hit to 8 s for a long take of a gunfight",
+    "cutting_logic": "Cut on the impact and on the peak of a move. Show a strike from two angles at 0.3 to 0.5 s apart, and let a slow-motion beat stretch the climax.",
+    "transitions": "Hard cut on impact, a speed ramp from 24 to 96 fps, a freeze frame of 1 s and a fast dissolve.",
+    "runtime": "90 to 120 min"
+  },
+  "sound": {
+    "approach": "A post-dubbed track with large foley: each punch, whoosh, shell and bullet is a clear, loud event.",
+    "dialogue": "Dubbed, short and clipped, with a code-of-honour line before each fight.",
+    "music": "A synthesizer or a guitar theme with a strong melody, and a strings cue for a death; the music cuts at the strike.",
+    "loudness": "−20 LUFS integrated, with peaks at −2 dBFS for effects"
+  },
+  "titles_and_graphics": {
+    "treatment": "Bold titles that flash or slide on a freeze frame or a night skyline; credits roll over outtakes of the stunts.",
+    "type": "A bold gold or red sans-serif or a brush script in Chinese and English, 2 to 4 s on screen."
+  },
+  "shot_primer": {
+    "opening": "Open on a hero in a long coat in a night street or a teahouse; the first strike or draw comes within 20 s.",
+    "shot_list": [
+      {
+        "shot": "Hero walks in",
+        "size": "wide",
+        "lens": "28mm",
+        "movement": "dolly 1.0 m/s",
+        "seconds": 6
+      },
+      {
+        "shot": "Draw in slow motion",
+        "size": "medium",
+        "lens": "50mm",
+        "movement": "push-in, 96 fps",
+        "seconds": 3
+      },
+      {
+        "shot": "Gunfight in a corridor",
+        "size": "wide",
+        "lens": "35mm",
+        "movement": "handheld 2 m/s",
+        "seconds": 8
+      },
+      {
+        "shot": "Leap and fall",
+        "size": "wide",
+        "lens": "28mm",
+        "movement": "drop 3 m/s",
+        "seconds": 3
+      },
+      {
+        "shot": "Close-up of the eyes",
+        "size": "close-up",
+        "lens": "100mm",
+        "movement": "locked off",
+        "seconds": 1
+      },
+      {
+        "shot": "Aftermath, shell casings",
+        "size": "medium",
+        "lens": "50mm",
+        "movement": "locked off, 96 fps",
+        "seconds": 4
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1980s Hong Kong action film",
+      "anamorphic 2.35:1 frame",
+      "slow motion gunfight",
+      "wire work leap",
+      "neon and sodium light",
+      "smoke haze",
+      "whole-body wide shot",
+      "fast cut at 2 s",
+      "synth score",
+      "dove and shell casings in slow motion"
+    ],
+    "negative": [
+      "shaky blurred close-up",
+      "stunt hidden by cuts",
+      "drab desaturated grade",
+      "quiet realistic sound",
+      "static master shot",
+      "clean digital look",
+      "gimbal glide"
+    ],
+    "canonical_works": [
+      {
+        "work": "Police Story",
+        "maker": "Jackie Chan",
+        "year": 1985
+      },
+      {
+        "work": "A Better Tomorrow",
+        "maker": "John Woo",
+        "year": 1986
+      },
+      {
+        "work": "Once Upon a Time in China",
+        "maker": "Tsui Hark",
+        "year": 1991
+      },
+      {
+        "work": "Hard Boiled",
+        "maker": "John Woo",
+        "year": 1992
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "new-hollywood"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Thrill and admiration: the viewer sees the whole body in motion and feels the weight of each hit.",
+    "keywords": [
+      "kinetic",
+      "stylish",
+      "heroic",
+      "operatic",
+      "fast"
+    ],
+    "brand_archetypes": [
+      "hero",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "hong kong action",
+      "john woo",
+      "heroic bloodshed",
+      "gun fu",
+      "wire fu",
+      "jackie chan stunt",
+      "slow motion gunfight",
+      "kung fu film"
+    ],
+    "use_cases": [
+      "action trailers and title sequences",
+      "music video with a fight scene",
+      "game cinematics",
+      "video prompts for a duel or a chase"
+    ],
+    "avoid_when": [
+      "The brief needs a quiet, observed or contemplative tone.",
+      "The piece cannot show the whole body, or has no space for a fight."
+    ],
+    "modifiers": [
+      {
+        "request": "more realism",
+        "toward": "documentary-verite",
+        "how": "Keep the speed of the action; shoot handheld at 24 fps with no slow motion, and let the camera lag behind the movement."
+      },
+      {
+        "request": "slower",
+        "toward": "slow-cinema",
+        "how": "Keep the wide frame and the choreography; hold each fight in a single take of 60 s or more with no cut."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q845641: Cinema of Hong Kong",
+      "url": "https://www.wikidata.org/wiki/Q845641"
+    },
+    {
+      "title": "Wikidata Q947446: Once Upon a Time in China",
+      "url": "https://www.wikidata.org/wiki/Q947446"
+    },
+    {
+      "title": "David Bordwell, Planet Hong Kong: Popular Cinema and the Art of Entertainment (Harvard University Press, 2000)"
+    },
+    {
+      "title": "Stephen Teo, Hong Kong Cinema: The Extra Dimensions (BFI, 1997)"
+    }
+  ],
+  "domain": "film"
+}

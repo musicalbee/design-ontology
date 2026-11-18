@@ -159,7 +159,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`new-topographics`](../new-topographics/SKILL.md), [`street-photography`](../street-photography/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`pictorialism`](../pictorialism/SKILL.md)
-- **Kin in another domain:** [`international-style-architecture`](../international-style-architecture/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
+- **Kin in another domain:** [`dogme-95`](../dogme-95/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
 - **Nearest by vector profile:** [`street-photography`](../street-photography/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md), [`party-flash`](../party-flash/SKILL.md)
 
 ## Emotional target

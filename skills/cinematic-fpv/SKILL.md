@@ -80,6 +80,16 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Staging in depth:** A layered path: foreground obstacle at 1 to 3 m, subject at 5 to 20 m and the open space beyond.
 - **Subject placement:** On a third line; the path leads from the bottom corner to the subject on a curve.
 
+**Principles**
+
+| Principle | Rule | Value |
+|---|---|---|
+| leading-lines | Fly along a line in the scene, such as a ridge, a stair or a rail, and let it lead the eye through the shot. | 1 leading line per shot |
+| layering-depth | Pass an object in the foreground to give a 3-plane parallax: near, mid and far. | 3 planes, near pass at 0.5 to 2 m |
+| scale | Fly through an opening that is only a little wider than the drone to show size by tension. | gap 1.2 to 2 times the drone width |
+| rhythm | Hold one fast flight line of 15 to 40 s with one cut, and avoid cutting inside the dive. | 1 to 3 cuts per 60 s |
+| focal-point | Aim the nose at the target and keep it on the third line as the camera dives. | target on the upper or lower third |
+
 ## Camera & movement
 
 - **Movement:** A single flight line with dives, banks, flips and gap threads; the speed changes by 3 to 5 times along the path.
@@ -175,6 +185,18 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | Drive 2 Extremes: Taycan Cross Turismo | Johnny FPV for Porsche | 2021 |
 | Red Bull FPV drone at the Las Vegas Grand Prix | Johnny FPV | 2023 |
 
+## Composition principles
+
+The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
+
+| Id | Principle | Definition | Measure: typical range |
+|---|---|---|---|
+| `leading-lines` | Leading lines | Lines in the view, such as edges, rows, beams or paths, point the eye to the focal point. | lines that converge on the focal point (count): 1 to 4; angle from the frame edge (degrees): 15–60 for a diagonal |
+| `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
+| `scale` | Scale | The size of an element in relation to the human body, to the space around it and to the other elements. A style chooses a reference body and holds the elements in a range around it. | seat height (cm): 38–46; largest piece to room width (ratio): 0.3–0.6; ceiling height to door height (ratio): 1.2–1.5 |
+| `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repeated interval (cm or px): style module; repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive |
+| `focal-point` | Focal point | The one place in a view that the eye finds first and comes back to. A composition has one primary focal point and at most two secondary ones. | focal points in one view (count): 1 primary, 0 to 2 secondary; luminance of the focal point to its surround (ratio): 3:1 to 10:1; position (fraction of width): 0.5 on an axis, or 0.33 / 0.67 on a third |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -183,7 +205,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **shorter**: move toward [`vertical-short-form`](../vertical-short-form/SKILL.md) (Vertical short-form). Keep the dive; cut the flight to 15 to 30 s in 9:16 and add a caption hook in the first 2 s.
 
 - **Mixes well with:** [`vertical-short-form`](../vertical-short-form/SKILL.md)
-- **Nearest by vector profile:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md), [`creator-vlog`](../creator-vlog/SKILL.md)
+- **Nearest by vector profile:** [`new-hollywood`](../new-hollywood/SKILL.md), [`camcorder-revival`](../camcorder-revival/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md)
 
 ## Emotional target
 

@@ -856,6 +856,36 @@
       }
     },
     {
+      "id": "classical-hollywood",
+      "domain": "film",
+      "name": "Classical Hollywood",
+      "era": "studio-system",
+      "start": 1930,
+      "end": 1960,
+      "vectors": {
+        "camera_mobility": 3,
+        "cutting_rate": 3,
+        "staging": 5,
+        "grade_stylisation": 3,
+        "frame_width": 2
+      }
+    },
+    {
+      "id": "italian-neorealism",
+      "domain": "film",
+      "name": "Italian Neorealism",
+      "era": "studio-system",
+      "start": 1943,
+      "end": 1952,
+      "vectors": {
+        "camera_mobility": 3,
+        "cutting_rate": 2,
+        "staging": 1,
+        "grade_stylisation": 1,
+        "frame_width": 2
+      }
+    },
+    {
       "id": "french-new-wave",
       "domain": "film",
       "name": "French New Wave",
@@ -866,6 +896,81 @@
         "camera_mobility": 4,
         "cutting_rate": 3,
         "staging": 2,
+        "grade_stylisation": 1,
+        "frame_width": 3
+      }
+    },
+    {
+      "id": "documentary-verite",
+      "domain": "film",
+      "name": "Direct cinema and vérité",
+      "era": "new-waves",
+      "start": 1960,
+      "end": 1975,
+      "vectors": {
+        "camera_mobility": 4,
+        "cutting_rate": 2,
+        "staging": 1,
+        "grade_stylisation": 1,
+        "frame_width": 2
+      }
+    },
+    {
+      "id": "new-hollywood",
+      "domain": "film",
+      "name": "New Hollywood",
+      "era": "new-waves",
+      "start": 1967,
+      "end": 1980,
+      "vectors": {
+        "camera_mobility": 4,
+        "cutting_rate": 3,
+        "staging": 2,
+        "grade_stylisation": 2,
+        "frame_width": 5
+      }
+    },
+    {
+      "id": "music-video",
+      "domain": "film",
+      "name": "Music video",
+      "era": "tape-and-cable",
+      "start": 1981,
+      "end": null,
+      "vectors": {
+        "camera_mobility": 4,
+        "cutting_rate": 5,
+        "staging": 5,
+        "grade_stylisation": 5,
+        "frame_width": 3
+      }
+    },
+    {
+      "id": "hong-kong-action",
+      "domain": "film",
+      "name": "Hong Kong action",
+      "era": "tape-and-cable",
+      "start": 1984,
+      "end": 1997,
+      "vectors": {
+        "camera_mobility": 4,
+        "cutting_rate": 5,
+        "staging": 4,
+        "grade_stylisation": 3,
+        "frame_width": 4
+      }
+    },
+    {
+      "id": "slow-cinema",
+      "domain": "film",
+      "name": "Slow cinema",
+      "era": "digital-cinema",
+      "start": 1994,
+      "end": null,
+      "vectors": {
+        "camera_mobility": 2,
+        "cutting_rate": 1,
+        "staging": 3,
         "grade_stylisation": 1,
         "frame_width": 3
       }
@@ -883,6 +988,21 @@
         "staging": 1,
         "grade_stylisation": 1,
         "frame_width": 2
+      }
+    },
+    {
+      "id": "planimetric-symmetry",
+      "domain": "film",
+      "name": "Planimetric symmetry",
+      "era": "digital-cinema",
+      "start": 1996,
+      "end": null,
+      "vectors": {
+        "camera_mobility": 2,
+        "cutting_rate": 3,
+        "staging": 5,
+        "grade_stylisation": 4,
+        "frame_width": 3
       }
     },
     {
@@ -1073,6 +1193,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "art-deco-architecture",
+      "to": "classical-hollywood",
+      "type": "ECHOES"
+    },
+    {
       "from": "bauhaus",
       "to": "bauhaus-architecture",
       "type": "ECHOES"
@@ -1124,7 +1249,22 @@
     },
     {
       "from": "camcorder-revival",
+      "to": "party-flash",
+      "type": "ECHOES"
+    },
+    {
+      "from": "camcorder-revival",
       "to": "y2k-aesthetic",
+      "type": "ECHOES"
+    },
+    {
+      "from": "camcorder-revival",
+      "to": "y2k-digicam",
+      "type": "ECHOES"
+    },
+    {
+      "from": "constructivism-web",
+      "to": "soviet-montage",
       "type": "ECHOES"
     },
     {
@@ -1148,6 +1288,16 @@
       "type": "ECHOES"
     },
     {
+      "from": "documentary-verite",
+      "to": "street-photography",
+      "type": "ECHOES"
+    },
+    {
+      "from": "dogme-95",
+      "to": "straight-photography",
+      "type": "ECHOES"
+    },
+    {
       "from": "dopamine-decor",
       "to": "memphis-design",
       "type": "ECHOES"
@@ -1155,6 +1305,11 @@
     {
       "from": "flat-design",
       "to": "ukiyo-e",
+      "type": "ECHOES"
+    },
+    {
+      "from": "french-new-wave",
+      "to": "street-photography",
       "type": "ECHOES"
     },
     {
@@ -1193,8 +1348,18 @@
       "type": "ECHOES"
     },
     {
+      "from": "italian-neorealism",
+      "to": "street-photography",
+      "type": "ECHOES"
+    },
+    {
       "from": "memphis-design",
       "to": "memphis-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "memphis-design",
+      "to": "music-video",
       "type": "ECHOES"
     },
     {
@@ -1213,8 +1378,33 @@
       "type": "ECHOES"
     },
     {
+      "from": "music-video",
+      "to": "y2k-aesthetic",
+      "type": "ECHOES"
+    },
+    {
+      "from": "new-hollywood",
+      "to": "street-photography",
+      "type": "ECHOES"
+    },
+    {
+      "from": "new-topographics",
+      "to": "planimetric-symmetry",
+      "type": "ECHOES"
+    },
+    {
+      "from": "new-topographics",
+      "to": "slow-cinema",
+      "type": "ECHOES"
+    },
+    {
       "from": "party-flash",
       "to": "y2k-aesthetic",
+      "type": "ECHOES"
+    },
+    {
+      "from": "planimetric-symmetry",
+      "to": "renaissance-painting",
       "type": "ECHOES"
     },
     {
@@ -1263,6 +1453,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "classical-hollywood",
+      "to": "german-expressionist-cinema",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "corporate-memphis",
       "to": "flat-design",
       "type": "EVOLVED_FROM"
@@ -1278,6 +1473,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "documentary-verite",
+      "to": "soviet-montage",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "dopamine-decor",
       "to": "memphis-interior",
       "type": "EVOLVED_FROM"
@@ -1285,6 +1485,11 @@
     {
       "from": "flat-design",
       "to": "swiss-international",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "french-new-wave",
+      "to": "italian-neorealism",
       "type": "EVOLVED_FROM"
     },
     {
@@ -1305,6 +1510,11 @@
     {
       "from": "high-tech-architecture",
       "to": "international-style-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "hong-kong-action",
+      "to": "new-hollywood",
       "type": "EVOLVED_FROM"
     },
     {
@@ -1348,6 +1558,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "new-hollywood",
+      "to": "french-new-wave",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "new-topographics",
       "to": "straight-photography",
       "type": "EVOLVED_FROM"
@@ -1380,6 +1595,11 @@
     {
       "from": "scandinavian-interior",
       "to": "shaker-interior",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "slow-cinema",
+      "to": "italian-neorealism",
       "type": "EVOLVED_FROM"
     },
     {
@@ -1493,6 +1713,11 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "documentary-verite",
+      "to": "french-new-wave",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "flat-design",
       "to": "rams-functionalism-ui",
       "type": "HYBRIDIZED_WITH"
@@ -1555,6 +1780,11 @@
     {
       "from": "mid-century-modern-interior",
       "to": "scandinavian-interior",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "music-video",
+      "to": "vertical-short-form",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -1648,6 +1878,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "italian-neorealism",
+      "to": "classical-hollywood",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "memphis-design",
       "to": "swiss-international",
       "type": "REBELLED_AGAINST"
@@ -1663,6 +1898,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "music-video",
+      "to": "classical-hollywood",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "neo-brutalism-ui",
       "to": "corporate-memphis",
       "type": "REBELLED_AGAINST"
@@ -1675,6 +1915,16 @@
     {
       "from": "neumorphism",
       "to": "flat-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "new-hollywood",
+      "to": "classical-hollywood",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "planimetric-symmetry",
+      "to": "dogme-95",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -1705,6 +1955,11 @@
     {
       "from": "quiet-luxury-interior",
       "to": "dopamine-decor",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "slow-cinema",
+      "to": "classical-hollywood",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -1824,7 +2079,8 @@
         "de-stijl-web"
       ],
       "echoes": [
-        "brutalist-architecture"
+        "brutalist-architecture",
+        "soviet-montage"
       ],
       "nearest_by_vector": [
         {
@@ -2068,6 +2324,7 @@
       "echoes": [
         "dopamine-decor",
         "memphis-interior",
+        "music-video",
         "postmodern-architecture"
       ],
       "nearest_by_vector": [
@@ -2133,6 +2390,7 @@
       ],
       "echoes": [
         "camcorder-revival",
+        "music-video",
         "party-flash",
         "y2k-digicam"
       ],
@@ -2530,7 +2788,9 @@
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [],
-      "echoes": [],
+      "echoes": [
+        "classical-hollywood"
+      ],
       "nearest_by_vector": [
         {
           "id": "postmodern-architecture",
@@ -2993,6 +3253,7 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
+        "dogme-95",
         "international-style-architecture",
         "swiss-international"
       ],
@@ -3024,7 +3285,11 @@
         "party-flash"
       ],
       "echoes": [
-        "grunge-editorial"
+        "documentary-verite",
+        "french-new-wave",
+        "grunge-editorial",
+        "italian-neorealism",
+        "new-hollywood"
       ],
       "nearest_by_vector": [
         {
@@ -3082,7 +3347,9 @@
       ],
       "echoes": [
         "brutalist-architecture",
-        "international-style-architecture"
+        "international-style-architecture",
+        "planimetric-symmetry",
+        "slow-cinema"
       ],
       "nearest_by_vector": [
         {
@@ -3112,6 +3379,7 @@
         "party-flash"
       ],
       "echoes": [
+        "camcorder-revival",
         "y2k-aesthetic"
       ],
       "nearest_by_vector": [
@@ -3165,6 +3433,7 @@
         "y2k-digicam"
       ],
       "echoes": [
+        "camcorder-revival",
         "grunge-editorial",
         "y2k-aesthetic"
       ],
@@ -3185,73 +3454,284 @@
     },
     "german-expressionist-cinema": {
       "evolved_from": [],
-      "evolved_into": [],
+      "evolved_into": [
+        "classical-hollywood"
+      ],
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [],
       "echoes": [],
       "nearest_by_vector": [
         {
-          "id": "soviet-montage",
+          "id": "planimetric-symmetry",
+          "distance": 1.41
+        },
+        {
+          "id": "classical-hollywood",
+          "distance": 1.73
+        },
+        {
+          "id": "music-video",
           "distance": 3.87
-        },
-        {
-          "id": "cinematic-fpv",
-          "distance": 4.36
-        },
-        {
-          "id": "vertical-short-form",
-          "distance": 4.36
         }
       ]
     },
     "soviet-montage": {
       "evolved_from": [],
       "evolved_into": [
+        "documentary-verite",
         "french-new-wave"
       ],
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [],
-      "echoes": [],
+      "echoes": [
+        "constructivism-web"
+      ],
       "nearest_by_vector": [
         {
           "id": "vertical-short-form",
           "distance": 2
         },
         {
-          "id": "creator-vlog",
-          "distance": 3.16
+          "id": "classical-hollywood",
+          "distance": 2.45
+        },
+        {
+          "id": "hong-kong-action",
+          "distance": 2.45
+        }
+      ]
+    },
+    "classical-hollywood": {
+      "evolved_from": [
+        "german-expressionist-cinema"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [
+        "italian-neorealism",
+        "music-video",
+        "new-hollywood",
+        "slow-cinema"
+      ],
+      "hybridized_with": [],
+      "echoes": [
+        "art-deco-architecture"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "german-expressionist-cinema",
+          "distance": 1.73
+        },
+        {
+          "id": "planimetric-symmetry",
+          "distance": 1.73
+        },
+        {
+          "id": "soviet-montage",
+          "distance": 2.45
+        }
+      ]
+    },
+    "italian-neorealism": {
+      "evolved_from": [],
+      "evolved_into": [
+        "french-new-wave",
+        "slow-cinema"
+      ],
+      "rebelled_against": [
+        "classical-hollywood"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "street-photography"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "documentary-verite",
+          "distance": 1
         },
         {
           "id": "french-new-wave",
-          "distance": 3.32
+          "distance": 2
+        },
+        {
+          "id": "dogme-95",
+          "distance": 2.24
         }
       ]
     },
     "french-new-wave": {
       "evolved_from": [
+        "italian-neorealism",
         "soviet-montage"
       ],
-      "evolved_into": [],
+      "evolved_into": [
+        "new-hollywood"
+      ],
       "rebelled_against": [],
       "provoked": [
         "dogme-95"
       ],
-      "hybridized_with": [],
-      "echoes": [],
+      "hybridized_with": [
+        "documentary-verite"
+      ],
+      "echoes": [
+        "street-photography"
+      ],
       "nearest_by_vector": [
         {
           "id": "creator-vlog",
           "distance": 1.73
         },
         {
-          "id": "dogme-95",
+          "id": "documentary-verite",
           "distance": 1.73
         },
         {
+          "id": "dogme-95",
+          "distance": 1.73
+        }
+      ]
+    },
+    "documentary-verite": {
+      "evolved_from": [
+        "soviet-montage"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "french-new-wave"
+      ],
+      "echoes": [
+        "street-photography"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "italian-neorealism",
+          "distance": 1
+        },
+        {
+          "id": "dogme-95",
+          "distance": 1.41
+        },
+        {
+          "id": "french-new-wave",
+          "distance": 1.73
+        }
+      ]
+    },
+    "new-hollywood": {
+      "evolved_from": [
+        "french-new-wave"
+      ],
+      "evolved_into": [
+        "hong-kong-action"
+      ],
+      "rebelled_against": [
+        "classical-hollywood"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "street-photography"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "creator-vlog",
+          "distance": 1.41
+        },
+        {
+          "id": "french-new-wave",
+          "distance": 2.24
+        },
+        {
           "id": "cinematic-fpv",
-          "distance": 3.32
+          "distance": 2.83
+        }
+      ]
+    },
+    "music-video": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "classical-hollywood"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "vertical-short-form"
+      ],
+      "echoes": [
+        "memphis-design",
+        "y2k-aesthetic"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "hong-kong-action",
+          "distance": 2.45
+        },
+        {
+          "id": "planimetric-symmetry",
+          "distance": 3
+        },
+        {
+          "id": "classical-hollywood",
+          "distance": 3.16
+        }
+      ]
+    },
+    "hong-kong-action": {
+      "evolved_from": [
+        "new-hollywood"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "creator-vlog",
+          "distance": 2.45
+        },
+        {
+          "id": "music-video",
+          "distance": 2.45
+        },
+        {
+          "id": "soviet-montage",
+          "distance": 2.45
+        }
+      ]
+    },
+    "slow-cinema": {
+      "evolved_from": [
+        "italian-neorealism"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "classical-hollywood"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "new-topographics"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "italian-neorealism",
+          "distance": 2.65
+        },
+        {
+          "id": "french-new-wave",
+          "distance": 3
+        },
+        {
+          "id": "documentary-verite",
+          "distance": 3.16
         }
       ]
     },
@@ -3261,25 +3741,55 @@
       "rebelled_against": [
         "french-new-wave"
       ],
-      "provoked": [],
+      "provoked": [
+        "planimetric-symmetry"
+      ],
       "hybridized_with": [
         "camcorder-revival"
       ],
       "echoes": [
-        "brutalist-architecture"
+        "brutalist-architecture",
+        "straight-photography"
       ],
       "nearest_by_vector": [
+        {
+          "id": "documentary-verite",
+          "distance": 1.41
+        },
         {
           "id": "french-new-wave",
           "distance": 1.73
         },
         {
-          "id": "creator-vlog",
-          "distance": 2.83
+          "id": "italian-neorealism",
+          "distance": 2.24
+        }
+      ]
+    },
+    "planimetric-symmetry": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "dogme-95"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "new-topographics",
+        "renaissance-painting"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "german-expressionist-cinema",
+          "distance": 1.41
         },
         {
-          "id": "camcorder-revival",
-          "distance": 3.32
+          "id": "classical-hollywood",
+          "distance": 1.73
+        },
+        {
+          "id": "music-video",
+          "distance": 3
         }
       ]
     },
@@ -3297,16 +3807,16 @@
       "echoes": [],
       "nearest_by_vector": [
         {
+          "id": "new-hollywood",
+          "distance": 1.41
+        },
+        {
           "id": "french-new-wave",
           "distance": 1.73
         },
         {
-          "id": "dogme-95",
-          "distance": 2.83
-        },
-        {
-          "id": "soviet-montage",
-          "distance": 3.16
+          "id": "hong-kong-action",
+          "distance": 2.45
         }
       ]
     },
@@ -3320,7 +3830,8 @@
       "hybridized_with": [
         "camcorder-revival",
         "cinematic-fpv",
-        "creator-vlog"
+        "creator-vlog",
+        "music-video"
       ],
       "echoes": [],
       "nearest_by_vector": [
@@ -3329,12 +3840,12 @@
           "distance": 2
         },
         {
-          "id": "creator-vlog",
-          "distance": 3.46
+          "id": "classical-hollywood",
+          "distance": 3.16
         },
         {
-          "id": "french-new-wave",
-          "distance": 3.61
+          "id": "hong-kong-action",
+          "distance": 3.16
         }
       ]
     },
@@ -3349,16 +3860,16 @@
       "echoes": [],
       "nearest_by_vector": [
         {
+          "id": "new-hollywood",
+          "distance": 2.83
+        },
+        {
           "id": "camcorder-revival",
           "distance": 3.32
         },
         {
           "id": "french-new-wave",
           "distance": 3.32
-        },
-        {
-          "id": "creator-vlog",
-          "distance": 3.46
         }
       ]
     },
@@ -3374,20 +3885,22 @@
       ],
       "echoes": [
         "grunge-editorial",
-        "y2k-aesthetic"
+        "party-flash",
+        "y2k-aesthetic",
+        "y2k-digicam"
       ],
       "nearest_by_vector": [
         {
+          "id": "documentary-verite",
+          "distance": 3
+        },
+        {
+          "id": "italian-neorealism",
+          "distance": 3.16
+        },
+        {
           "id": "cinematic-fpv",
           "distance": 3.32
-        },
-        {
-          "id": "dogme-95",
-          "distance": 3.32
-        },
-        {
-          "id": "french-new-wave",
-          "distance": 3.46
         }
       ]
     },
@@ -3401,7 +3914,9 @@
         "cubism-painting"
       ],
       "hybridized_with": [],
-      "echoes": [],
+      "echoes": [
+        "planimetric-symmetry"
+      ],
       "nearest_by_vector": [
         {
           "id": "baroque-painting",

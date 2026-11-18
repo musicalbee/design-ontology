@@ -158,7 +158,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`straight-photography`](../straight-photography/SKILL.md)
 - **Led to (go here for a newer version):** [`new-colour`](../new-colour/SKILL.md)
 - **Mixes well with:** [`party-flash`](../party-flash/SKILL.md)
-- **Kin in another domain:** [`grunge-editorial`](../grunge-editorial/SKILL.md)
+- **Kin in another domain:** [`documentary-verite`](../documentary-verite/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`italian-neorealism`](../italian-neorealism/SKILL.md), [`new-hollywood`](../new-hollywood/SKILL.md)
 - **Nearest by vector profile:** [`straight-photography`](../straight-photography/SKILL.md), [`party-flash`](../party-flash/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
 
 ## Emotional target

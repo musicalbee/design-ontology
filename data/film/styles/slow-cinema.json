@@ -1,0 +1,334 @@
+{
+  "$schema": "../../../schema/domains/film.schema.json",
+  "id": "slow-cinema",
+  "name": "Slow cinema",
+  "aliases": [
+    "Contemplative cinema",
+    "Long-take cinema"
+  ],
+  "era_id": "digital-cinema",
+  "time_period": {
+    "start": 1994,
+    "end": null,
+    "label": "1994–today"
+  },
+  "capture": [
+    "photochemical",
+    "digital-cinema"
+  ],
+  "summary": "A cinema of duration. Few cuts, a still or slow camera, ordinary tasks shown in real time and little plot. The viewer's attention does the work that the cut usually does.",
+  "philosophy": {
+    "core_thesis": "Time is the material of film, so a shot is held until the viewer sees the place and the person and feels the hours pass.",
+    "design_principles": [
+      "Hold each shot for 30 to 180 s and cut at an average shot length of 30 s or more, with a whole scene in one take.",
+      "Lock the camera on a tripod, or move it at a walking pace of 0.2 to 0.5 m/s along a path that the person sets.",
+      "Frame in a wide shot with 40% to 70% of the picture left to a landscape, a room or a sky, and keep the person at 10% to 30% of the height.",
+      "Use the available light, a key-to-fill ratio of 2:1 or lower, with long daylight shots from dawn to dusk.",
+      "Shoot ordinary work, such as a walk, a meal or a wait, in real time and leave no plot reason for it.",
+      "Record the sound of the place, with wind, rain and an engine, at a level that carries the scene, and use little music or none.",
+      "Keep the dialogue under 10 lines in a scene and let a pause run 5 to 15 s."
+    ],
+    "anti_patterns": [
+      "Fast cutting under 5 s average shot length",
+      "A score that tells the viewer how to feel",
+      "A shot and reverse shot coverage of each line",
+      "An expository line that explains the plot",
+      "A hero with a clear goal and a finish",
+      "A camera move for spectacle",
+      "A cutaway that releases the tension of a long wait"
+    ]
+  },
+  "vectors": {
+    "camera_mobility": 2,
+    "cutting_rate": 1,
+    "staging": 3,
+    "grade_stylisation": 1,
+    "frame_width": 3
+  },
+  "composition": {
+    "framing": "A wide, level frame with the horizon at the lower or upper third; the person is small and the place is large.",
+    "staging_in_depth": "A deep, still space of 3 planes: a foreground edge, the person in the middle ground and a distant line of land or a wall.",
+    "subject_placement": "Small, off centre, often seen from behind or from the side; a figure walks into the depth along a diagonal or a straight line.",
+    "principles": [
+      {
+        "principle": "negative-space",
+        "rule": "Leave most of the frame to the sky, the field or the room, and keep the person small in it.",
+        "value": "40% to 70% of the frame empty"
+      },
+      {
+        "principle": "scale",
+        "rule": "Show the person at a small share of the frame height so that the place outweighs the figure.",
+        "value": "10% to 30% of the frame height"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Hold each shot well past its plot point, and cut only when the viewer's attention has settled.",
+        "value": "30 to 180 s per shot"
+      },
+      {
+        "principle": "rule-of-thirds",
+        "rule": "Set the horizon on the lower or the upper third line, and the figure on a vertical third.",
+        "value": "horizon at 33% or 67% of the height"
+      },
+      {
+        "principle": "framing",
+        "rule": "Keep the frame level and fixed, with no cut-in, for the whole of a scene.",
+        "value": "locked off for 90% or more of the shots"
+      }
+    ]
+  },
+  "camera_and_movement": {
+    "movement": "Locked-off for most shots. A slow track or a pan, at 0.2 to 0.5 m/s, follows a person through a space, or a long push-in over 60 to 120 s.",
+    "support": "Tripod or a slow dolly; a long-take rig on a car or a track",
+    "camera_height": "1.2 to 1.6 m, eye level; a low tripod at 0.8 m in a field",
+    "move_speed": "Track 0.2 to 0.5 m/s; pan 2° to 5° per second"
+  },
+  "lens_and_format": {
+    "aspect_ratio": "1.66:1, 1.85:1 or 2.39:1; 1.37:1 for a few titles",
+    "frame_rate": "24 fps",
+    "shutter_angle": "180° (1/48 s)",
+    "focal_length": "28mm to 50mm (35mm format); a wide lens for a long shot",
+    "aperture": "f/5.6 to f/11 for deep focus",
+    "resolution": "35mm negative, 16mm or 4K digital; scan at 2K or 4K",
+    "focus": "Deep focus: the person, the room and the far land are all readable.",
+    "equipment": [
+      "tripod",
+      "slow dolly",
+      "prime lens set",
+      "natural-light shoot, no lamp"
+    ]
+  },
+  "light": {
+    "quality": "Soft, natural and low in contrast, as the day and the weather give it; a lamp or a window in the frame.",
+    "direction": "From the window or the sky; the light changes slowly in a long shot and is kept.",
+    "key_to_fill_ratio": "2:1 or lower (1 stop or lower)",
+    "colour_temperature": "Daylight 5600K, or a window and a tungsten lamp 3200K left uncorrected",
+    "source": "The sun, the sky, windows and practical lamps"
+  },
+  "colour_and_grade": {
+    "treatment": "A natural, muted colour or black and white. Greys and earth tones; no stylised grade, and the light is allowed to change.",
+    "palette": [
+      {
+        "name": "Shadow grey",
+        "hex": "#2B2D2C",
+        "role": "shadows"
+      },
+      {
+        "name": "Mud brown",
+        "hex": "#6B5A45",
+        "role": "earth and wood"
+      },
+      {
+        "name": "Overcast grey",
+        "hex": "#A9ADAB",
+        "role": "sky and walls"
+      },
+      {
+        "name": "Field green",
+        "hex": "#6C7A55",
+        "role": "fields"
+      },
+      {
+        "name": "Pale sky",
+        "hex": "#D8DCD8",
+        "role": "highlights"
+      }
+    ],
+    "grade_recipe": [
+      "Set the black point at 4% and the white point at 94% with a gentle contrast of +5%.",
+      "Keep saturation at 80% to 90% of the original; do not tint.",
+      "Hold the skin at the natural 12% to 14% to the vectorscope skin line.",
+      "Add grain at 8% to 12% to match 16mm or 35mm.",
+      "Do not add a vignette, a flare or a LUT."
+    ],
+    "texture": "Fine grain at 8% to 12%, with natural noise in the dark"
+  },
+  "editing_and_rhythm": {
+    "average_shot_length": "30 to 180 s (Sátántangó is reported at about 150 shots in 7 h, check Cinemetrics for each title)",
+    "shot_length_range": "10 s for a short shot to 10 min for a long take",
+    "cutting_logic": "Cut only to change the place or the time. Let the action run out, and hold the empty frame for 3 to 10 s after the person has left.",
+    "transitions": "Hard cut, a long fade of 2 to 4 s to black and no effect.",
+    "runtime": "120 to 450 min"
+  },
+  "sound": {
+    "approach": "The sound of the place at its real level, with wind, rain, an engine, a clock, and an off-screen voice.",
+    "dialogue": "Sparse and flat, fewer than 10 lines in a scene, with pauses of 5 to 15 s.",
+    "music": "Almost none: one diegetic song or a low drone, used once or twice in the whole film.",
+    "loudness": "−26 to −23 LUFS integrated, with a wide dynamic range"
+  },
+  "titles_and_graphics": {
+    "treatment": "A bare title card in white on black, a short credit list; subtitles in a plain white sans-serif.",
+    "type": "A plain sans-serif or serif in white lower case, 4 to 6 s for the title."
+  },
+  "shot_primer": {
+    "opening": "Open on a wide, still shot of a landscape or a room and let it run 60 s or more before a person enters.",
+    "shot_list": [
+      {
+        "shot": "Empty landscape",
+        "size": "wide",
+        "lens": "35mm",
+        "movement": "locked off",
+        "seconds": 90
+      },
+      {
+        "shot": "Person walks away",
+        "size": "wide",
+        "lens": "28mm",
+        "movement": "locked off",
+        "seconds": 75
+      },
+      {
+        "shot": "Meal in a kitchen",
+        "size": "medium",
+        "lens": "40mm",
+        "movement": "locked off",
+        "seconds": 120
+      },
+      {
+        "shot": "Long track along a road",
+        "size": "wide",
+        "lens": "35mm",
+        "movement": "dolly 0.3 m/s",
+        "seconds": 150
+      },
+      {
+        "shot": "Waiting at a window",
+        "size": "medium",
+        "lens": "50mm",
+        "movement": "locked off",
+        "seconds": 60
+      },
+      {
+        "shot": "Empty room after",
+        "size": "wide",
+        "lens": "28mm",
+        "movement": "locked off",
+        "seconds": 20
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "slow cinema long take",
+      "locked-off wide shot",
+      "ordinary person in a vast landscape",
+      "natural light",
+      "real-time scene",
+      "no music",
+      "deep focus",
+      "2.39:1 frame",
+      "muted natural colour",
+      "60 second take",
+      "film grain"
+    ],
+    "negative": [
+      "fast cuts",
+      "dramatic score",
+      "shot reverse shot",
+      "camera shake",
+      "teal and orange grade",
+      "explanatory dialogue",
+      "lens flare",
+      "spectacle"
+    ],
+    "canonical_works": [
+      {
+        "work": "Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles",
+        "maker": "Chantal Akerman",
+        "year": 1975
+      },
+      {
+        "work": "Sátántangó",
+        "maker": "Béla Tarr",
+        "year": 1994
+      },
+      {
+        "work": "Goodbye, Dragon Inn",
+        "maker": "Tsai Ming-liang",
+        "year": 2003
+      },
+      {
+        "work": "Uncle Boonmee Who Can Recall His Past Lives",
+        "maker": "Apichatpong Weerasethakul",
+        "year": 2010
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "italian-neorealism"
+    ],
+    "rebelled_against": [
+      "classical-hollywood"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "new-topographics"
+    ]
+  },
+  "emotion": {
+    "target_response": "Stillness and attention: the viewer slows down, notices small things and feels time as a weight.",
+    "keywords": [
+      "still",
+      "patient",
+      "austere",
+      "meditative",
+      "ordinary"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "slow cinema",
+      "long take",
+      "contemplative film",
+      "béla tarr",
+      "tsai ming-liang",
+      "apichatpong",
+      "real time film",
+      "art house long shot"
+    ],
+    "use_cases": [
+      "festival short films",
+      "gallery and installation video",
+      "video prompts for a quiet scene",
+      "ambient and meditative product films"
+    ],
+    "avoid_when": [
+      "The piece must hold a viewer under 15 s on a feed.",
+      "The brief needs a clear plot, a hook or a call to action."
+    ],
+    "modifiers": [
+      {
+        "request": "more event",
+        "toward": "hong-kong-action",
+        "how": "Keep the wide frame and the single take; add a choreographed fight or a chase inside the take, with a move of 1 to 3 m/s."
+      },
+      {
+        "request": "more observation",
+        "toward": "documentary-verite",
+        "how": "Keep the long take and the sound of the place; drop the staging, shoot handheld on location and let the subject address the camera."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q7542092: Slow cinema",
+      "url": "https://www.wikidata.org/wiki/Q7542092"
+    },
+    {
+      "title": "Matthew Flanagan, Towards an Aesthetic of Slow in Contemporary Cinema (16:9, 2008)"
+    },
+    {
+      "title": "Tiago de Luca and Nuno Barradas Jorge (eds.), Slow Cinema (Edinburgh University Press, 2016)"
+    },
+    {
+      "title": "Cinemetrics: shot-length database",
+      "url": "https://www.cinemetrics.lv/"
+    }
+  ],
+  "domain": "film"
+}
