@@ -18,6 +18,7 @@ flowchart LR
     memphis_design["Memphis Design"]
     grunge_editorial["Grunge Editorial"]
     y2k_aesthetic["Y2K Aesthetic"]
+    japanese_dense_web["Japanese Dense Web"]
     apple_aqua["Apple Aqua"]
     frutiger_aero["Frutiger Aero"]
   end
@@ -31,6 +32,8 @@ flowchart LR
     anti_design["Anti-Design"]
     dark_devtool_ui["Dark-Mode Developer Tool"]
     corporate_memphis["Corporate Memphis"]
+    terminal_tui_web["Terminal / TUI Web"]
+    aurora_gradient_ui["Aurora Gradient UI"]
   end
   subgraph design_contemporary_spatial["Contemporary & Spatial · 2019–now"]
     neumorphism["Neumorphism"]
@@ -38,8 +41,10 @@ flowchart LR
     neo_brutalism_ui["Neo-Brutalism UI"]
     claymorphism["Claymorphism"]
     editorial_serif_revival["Editorial Serif Revival"]
+    ai_chat_ui["AI Chat Interface"]
     bento_grid_ui["Bento Grid UI"]
     spatial_visionos["Spatial UI (visionOS)"]
+    liquid_glass_ui["Liquid Glass"]
   end
   subgraph architecture_medieval["Architecture · Medieval · 1200–1520"]
     gothic_architecture["Gothic"]
@@ -283,10 +288,12 @@ flowchart LR
   y2k_aesthetic <-. echoes .-> y2k_digicam
   cubism_painting --> abstract_expressionism
   surrealism_painting --> abstract_expressionism
+  flat_design --> ai_chat_ui
   y2k_aesthetic --> apple_aqua
   art_nouveau_architecture --> art_deco_architecture
   arts_and_crafts_interior --> art_nouveau_interior
   shaker_interior --> arts_and_crafts_interior
+  flat_design --> aurora_gradient_ui
   renaissance_architecture --> baroque_architecture
   renaissance_painting --> baroque_painting
   baroque_architecture --> beaux_arts_architecture
@@ -328,6 +335,8 @@ flowchart LR
   realism_painting --> impressionism
   bauhaus_interior --> industrial_loft_interior
   scandinavian_interior --> japandi_interior
+  glassmorphism --> liquid_glass_ui
+  spatial_visionos --> liquid_glass_ui
   renaissance_painting --> mannerism_painting
   flat_design --> material_design
   swiss_international --> metro_ui
@@ -392,6 +401,8 @@ flowchart LR
   grandmillennial_interior -. rejects .-> scandinavian_interior
   grunge_editorial -. rejects .-> swiss_international
   italian_neorealism -. rejects .-> classical_hollywood
+  japanese_dense_web -. rejects .-> swiss_international
+  liquid_glass_ui -. rejects .-> flat_design
   memphis_design -. rejects .-> swiss_international
   memphis_interior -. rejects .-> bauhaus_interior
   memphis_interior -. rejects .-> mid_century_modern_interior
@@ -421,6 +432,7 @@ flowchart LR
   romanticism_painting -. rejects .-> rococo_painting
   slow_cinema -. rejects .-> classical_hollywood
   straight_photography -. rejects .-> pictorialism
+  terminal_tui_web -. rejects .-> material_design
   y2k_aesthetic -. rejects .-> grunge_editorial
   linkStyle 0 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 1 stroke:#8E8E93,stroke-width:1.5px
@@ -527,10 +539,6 @@ flowchart LR
   linkStyle 102 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 103 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 104 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 186 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 187 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 188 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 189 stroke:#E5484D,stroke-width:1.5px
   linkStyle 190 stroke:#E5484D,stroke-width:1.5px
   linkStyle 191 stroke:#E5484D,stroke-width:1.5px
   linkStyle 192 stroke:#E5484D,stroke-width:1.5px
@@ -587,3 +595,10 @@ flowchart LR
   linkStyle 243 stroke:#E5484D,stroke-width:1.5px
   linkStyle 244 stroke:#E5484D,stroke-width:1.5px
   linkStyle 245 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 246 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 247 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 248 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 249 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 250 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 251 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 252 stroke:#E5484D,stroke-width:1.5px

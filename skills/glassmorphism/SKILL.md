@@ -237,9 +237,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **bolder**: move toward [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md) (Neo-Brutalism UI). Replace the blur and the soft border with a solid fill, a 3px black border and a 4px 4px 0 0 #000000 shadow.
 
 - **Came from (go here for a more orthodox version):** [`frutiger-aero`](../frutiger-aero/SKILL.md)
-- **Led to (go here for a newer version):** [`spatial-visionos`](../spatial-visionos/SKILL.md)
-- **Mixes well with:** [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`neumorphism`](../neumorphism/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
-- **Nearest by vector profile:** [`material-design`](../material-design/SKILL.md), [`neumorphism`](../neumorphism/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md)
+- **Led to (go here for a newer version):** [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md), [`spatial-visionos`](../spatial-visionos/SKILL.md)
+- **Mixes well with:** [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`neumorphism`](../neumorphism/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
+- **Nearest by vector profile:** [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md), [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`material-design`](../material-design/SKILL.md)
 
 ## Emotional target
 

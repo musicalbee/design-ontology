@@ -234,8 +234,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more airy**: move toward [`frutiger-aero`](../frutiger-aero/SKILL.md) (Frutiger Aero). Add sky and grass backgrounds, bubbles and a lighter palette.
 
 - **Came from (go here for a more orthodox version):** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
-- **Mixes well with:** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`skeuomorphism`](../skeuomorphism/SKILL.md)
-- **Nearest by vector profile:** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`spatial-visionos`](../spatial-visionos/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md)
+- **Mixes well with:** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md), [`skeuomorphism`](../skeuomorphism/SKILL.md)
+- **Nearest by vector profile:** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md), [`spatial-visionos`](../spatial-visionos/SKILL.md)
 
 ## Emotional target
 

@@ -236,7 +236,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`neumorphism`](../neumorphism/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
 - **Mixes well with:** [`corporate-memphis`](../corporate-memphis/SKILL.md)
-- **Nearest by vector profile:** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
+- **Nearest by vector profile:** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
 
 ## Emotional target
 

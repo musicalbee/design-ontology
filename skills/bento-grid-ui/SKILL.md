@@ -238,8 +238,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **flatter**: move toward [`flat-design`](../flat-design/SKILL.md) (Flat Design). Remove the shadows and borders, and use solid cell fills with no photography; keep the 24px radius and the gap.
 
 - **Came from (go here for a more orthodox version):** [`flat-design`](../flat-design/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
-- **Mixes well with:** [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
-- **Nearest by vector profile:** [`bauhaus`](../bauhaus/SKILL.md), [`metro-ui`](../metro-ui/SKILL.md), [`material-design`](../material-design/SKILL.md)
+- **Mixes well with:** [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
+- **Nearest by vector profile:** [`bauhaus`](../bauhaus/SKILL.md), [`metro-ui`](../metro-ui/SKILL.md), [`terminal-tui-web`](../terminal-tui-web/SKILL.md)
 
 ## Emotional target
 

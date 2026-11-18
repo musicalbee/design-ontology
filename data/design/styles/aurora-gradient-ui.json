@@ -1,0 +1,308 @@
+{
+  "$schema": "../../../schema/domains/design.schema.json",
+  "id": "aurora-gradient-ui",
+  "domain": "design",
+  "name": "Aurora Gradient UI",
+  "aliases": [
+    "Mesh gradient UI",
+    "Gradient glow web",
+    "Aurora background"
+  ],
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2018,
+    "end": null,
+    "label": "2018–now"
+  },
+  "primary_mediums": [
+    "web",
+    "mobile"
+  ],
+  "summary": "Soft, blurred mesh gradients in 3 to 5 hues behind clean sans-serif type, with glowing edges and grain. It came from fintech and AI product pages and replaced the flat hero.",
+  "philosophy": {
+    "core_thesis": "Colour is atmosphere: a blurred field of light makes a product feel alive without any picture of it.",
+    "design_principles": [
+      "Build the hero ground from 3 to 5 radial colour blobs of 400px to 900px, blurred by 80px to 160px, on a base of #0A0A14 or white.",
+      "Pick hues that sit within 90° to 150° on the colour wheel and keep saturation of 60% to 90%.",
+      "Add a grain overlay of 3% to 6% opacity at 1px to 2px noise to prevent banding.",
+      "Set headings in a clean sans at 56px to 96px, weight 500 to 600, and keep body text white at 80% opacity or ink on pale tints.",
+      "Outline cards with a 1px gradient border (white at 20% to 0%) and fill with white at 4% to 8%.",
+      "Animate the blobs: drift 40px to 120px over 12s to 30s, with ease-in-out and an alternate loop.",
+      "Limit the glow: one glow behind the hero object and one behind the primary button, each blur 24px to 60px at 30% to 50% opacity."
+    ],
+    "anti_patterns": [
+      "Flat solid hero backgrounds",
+      "Hard-edged linear gradients with visible bands",
+      "More than 5 hues in one field",
+      "Thick black borders and hard shadows",
+      "Gradient text for every heading",
+      "Fast, flashing gradient animation under 4s per loop",
+      "Low-contrast text on bright blobs"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "dimensionality": 3,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "A centred 12-column grid with 24px gutters; the hero spans the viewport, content sits in columns 3 to 10; colour blobs ignore the grid.",
+    "whitespace_ratio": "35% to 50% of the surface stays empty; the spacing scale is 8, 16, 32, 64 and 128px.",
+    "alignment_rules": "Centred hero and flush-left sections; blobs bleed off the edges by 10% to 30%.",
+    "container_geometry": "Cards with a 16px to 24px radius, a 1px gradient border and a glass-like fill; pills at 999px for tags and buttons."
+  },
+  "typography": {
+    "classifications": [
+      "geometric sans serif"
+    ],
+    "font_pairings": [
+      {
+        "display": "Manrope",
+        "body": "Inter",
+        "note": "A modern geometric display with a neutral text face."
+      },
+      {
+        "display": "Plus Jakarta Sans",
+        "body": "Inter",
+        "note": "A soft geometric with clear numerals."
+      },
+      {
+        "display": "Sora",
+        "body": "Inter",
+        "note": "A wide, tech-friendly display."
+      }
+    ],
+    "tracking": "Display takes -0.03em; body stays at 0.",
+    "leading": "Display 1.05; body 1.6.",
+    "hierarchy_rules": [
+      "Use three weights: regular (400), medium (500) and semibold (600).",
+      "Use sizes 16, 20, 40 and 80px.",
+      "Set headings in sentence case.",
+      "Set body at 80% opacity of the text colour on dark grounds."
+    ]
+  },
+  "color": {
+    "palette_structure": "A dark or pale base with 3 to 5 blended hues.",
+    "palette": [
+      {
+        "name": "Midnight",
+        "hex": "#0A0A14",
+        "role": "background"
+      },
+      {
+        "name": "Violet",
+        "hex": "#7C5CFF",
+        "role": "blob and primary"
+      },
+      {
+        "name": "Cyan",
+        "hex": "#2DD4FF",
+        "role": "blob and accent"
+      },
+      {
+        "name": "Magenta",
+        "hex": "#FF4DA6",
+        "role": "blob"
+      },
+      {
+        "name": "Mist",
+        "hex": "#ECE9FF",
+        "role": "text"
+      },
+      {
+        "name": "Smoke",
+        "hex": "#A7A3C7",
+        "role": "secondary text"
+      }
+    ],
+    "contrast_rules": "Text holds at least 12:1 on midnight; never place body text over a blob below 4.5:1.",
+    "surface_treatment": "Blurred radial blobs over a dark base, with grain of 3% to 6%; no hard stops.",
+    "light_and_shadow": "Light is colour: glows of 24px to 60px blur around key objects; no hard shadows."
+  },
+  "materiality": {
+    "surface_simulation": "Light itself: a blurred gradient field with film grain.",
+    "border_rules": "1px gradient border from white at 20% to white at 0%.",
+    "blur_and_elevation": "Blob blur 80px to 160px; glow blur 24px to 60px at 30% to 50%; cards have no shadow."
+  },
+  "ornamentation_details": {
+    "iconography": "Thin 1.5px outline icons in white at 80% with round caps; glowing dot for status.",
+    "illustration": "Abstract gradient fields, orbs and soft 3D shapes; product UI screenshots inside glass frames.",
+    "decorative_elements": [
+      "gradient mesh",
+      "grain overlay",
+      "glow",
+      "gradient border"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Slow drift: the blobs move 40px to 120px over 12s to 30s; content fades up 12px in 500ms.",
+    "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "duration_ms": 400,
+    "hover_and_active": "Hover raises the glow of a button by 20% and lifts it 2px; active state dims it by 10%."
+  },
+  "lineage": {
+    "evolved_from": [
+      "flat-design"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "glassmorphism",
+      "dark-devtool-ui",
+      "bento-grid-ui"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels a calm, futuristic glow and a sense of intelligence.",
+    "keywords": [
+      "glowing",
+      "futuristic",
+      "calm",
+      "intelligent",
+      "ambient",
+      "premium"
+    ],
+    "brand_archetypes": [
+      "magician",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "aurora gradient",
+      "mesh gradient",
+      "gradient background",
+      "stripe style",
+      "ai landing page",
+      "glow",
+      "blurred blobs",
+      "ambient gradient"
+    ],
+    "use_cases": [
+      "fintech and payments landing pages",
+      "AI product pages",
+      "app launch and waitlist pages",
+      "SaaS hero sections",
+      "event and conference sites"
+    ],
+    "avoid_when": [
+      "The brand must feel earthy, serious or print-like.",
+      "The page must print or run on low-power devices.",
+      "The audience needs high-contrast, plain reading."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "swiss-international",
+        "how": "Replace the blobs by one flat accent and a white ground."
+      },
+      {
+        "request": "more glass",
+        "toward": "liquid-glass-ui",
+        "how": "Add blur of 28px, a specular rim and capsule controls over the gradient."
+      },
+      {
+        "request": "more technical",
+        "toward": "dark-devtool-ui",
+        "how": "Reduce the blobs to one faint glow and add hairlines and a mono face."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 600,
+      "subhead_weight": 500,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 500,
+      "accent": "colour",
+      "display_tracking": "-0.03em",
+      "display_leading": 1.05,
+      "display_case": "none",
+      "body_leading": 1.6,
+      "body_size": "17px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "solar-linear",
+        "why": "A thin, round line that stays light on a glowing, blurred ground."
+      }
+    },
+    "art": {
+      "recipe": "glass",
+      "pattern": "none",
+      "seed": 42
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "airy",
+      "tilt_deg": 0
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#0A0A14",
+      "--color-surface": "#14142A",
+      "--color-text": "#ECE9FF",
+      "--color-muted": "#A7A3C7",
+      "--color-primary": "#7C5CFF",
+      "--color-accent": "#2DD4FF",
+      "--color-border": "#2A2A48",
+      "--font-sans": "\"Inter\", system-ui, sans-serif",
+      "--font-display": "\"Manrope\", \"Inter\", system-ui, sans-serif",
+      "--border-radius": "20px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 0 40px rgba(124,92,255,0.4)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "--duration": "400ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#0A0A14] text-[#ECE9FF] font-sans antialiased px-6 md:px-16"
+      },
+      {
+        "element": "heading",
+        "classes": "text-5xl md:text-8xl font-semibold tracking-[-0.03em] leading-[1.05] text-center"
+      },
+      {
+        "element": "body",
+        "classes": "text-[17px] leading-[1.6] text-[#ECE9FF]/80"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-[20px] border border-white/20 bg-white/5 p-6"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-full bg-[#7C5CFF] px-7 py-3 text-base font-medium text-[#0A0A14] shadow-[0_0_40px_rgba(124,92,255,0.4)] transition duration-[400ms] hover:shadow-[0_0_56px_rgba(124,92,255,0.6)] hover:-translate-y-0.5"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-medium text-[#A7A3C7]"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Example: stripe.com home page gradient (2018–2025)"
+    },
+    {
+      "title": "Example: linear.app and vercel.com launch pages (2023–2025)"
+    },
+    {
+      "title": "Example: Arc and Raycast product sites (2022–2025)"
+    }
+  ]
+}
