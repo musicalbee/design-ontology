@@ -28,8 +28,27 @@ flowchart LR
     international_style_architecture["International Style"]
     brutalist_architecture["Brutalism"]
   end
+  subgraph film_silent_era["Film & Video · The silent era · 1895–1929"]
+    german_expressionist_cinema["German Expressionist cinema"]
+    soviet_montage["Soviet montage"]
+  end
+  subgraph film_new_waves["Film & Video · Portable cameras and the new waves · 1958–1975"]
+    french_new_wave["French New Wave"]
+  end
+  subgraph film_digital_cinema["Film & Video · Lightweight digital and the manifesto · 1995–2009"]
+    dogme_95["Dogme 95"]
+  end
+  subgraph film_platform_video["Film & Video · Platform and creator video · 2005–today"]
+    creator_vlog["Creator vlog"]
+    vertical_short_form["Vertical short-form"]
+    cinematic_fpv["Cinematic FPV"]
+    camcorder_revival["Camcorder revival"]
+  end
   bauhaus <-. echoes .-> international_style_architecture
+  brutalist_architecture <-. echoes .-> dogme_95
   brutalist_architecture <-. echoes .-> neo_brutalism_ui
+  camcorder_revival <-. echoes .-> grunge_editorial
+  camcorder_revival <-. echoes .-> y2k_aesthetic
   international_style_architecture <-. echoes .-> swiss_international
   flat_design --> bento_grid_ui
   swiss_international --> bento_grid_ui
@@ -37,6 +56,7 @@ flowchart LR
   flat_design --> corporate_memphis
   memphis_design --> corporate_memphis
   swiss_international --> flat_design
+  soviet_montage --> french_new_wave
   y2k_aesthetic --> frutiger_aero
   frutiger_aero --> glassmorphism
   flat_design --> material_design
@@ -45,6 +65,9 @@ flowchart LR
   skeuomorphism --> neumorphism
   glassmorphism --> spatial_visionos
   bauhaus --> swiss_international
+  creator_vlog --> vertical_short_form
+  camcorder_revival -. rejects .-> dogme_95
+  dogme_95 -. rejects .-> french_new_wave
   flat_design -. rejects .-> skeuomorphism
   grunge_editorial -. rejects .-> swiss_international
   memphis_design -. rejects .-> swiss_international
@@ -56,11 +79,16 @@ flowchart LR
   linkStyle 0 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 1 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 2 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 17 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 18 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 19 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 20 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 21 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 3 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 4 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 5 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 22 stroke:#E5484D,stroke-width:1.5px
   linkStyle 23 stroke:#E5484D,stroke-width:1.5px
   linkStyle 24 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 25 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 26 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 27 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 28 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 29 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 30 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 31 stroke:#E5484D,stroke-width:1.5px

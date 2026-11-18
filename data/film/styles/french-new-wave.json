@@ -1,0 +1,298 @@
+{
+  "$schema": "../../../schema/domains/film.schema.json",
+  "id": "french-new-wave",
+  "name": "French New Wave",
+  "aliases": [
+    "Nouvelle Vague"
+  ],
+  "era_id": "new-waves",
+  "time_period": {
+    "start": 1959,
+    "end": 1967,
+    "label": "1959–1967"
+  },
+  "capture": [
+    "photochemical"
+  ],
+  "summary": "Light 35mm cameras, fast black-and-white stock and real streets. A handheld camera, a jump cut and a director who shows the hand. The film talks about film.",
+  "philosophy": {
+    "core_thesis": "A film is a personal essay shot on location with light gear, so the director's eye and the street replace the studio and the script department.",
+    "design_principles": [
+      "Shoot on location with a handheld or wheelchair-dolly 35mm camera, at 24 fps and a 180° shutter (1/48 s).",
+      "Use available light with a bounce from a ceiling or a wall, at a key-to-fill ratio of about 2:1, on stock pushed 1 to 2 stops (ISO 400 to 1600 equivalent).",
+      "Frame at 1.37:1 or 1.66:1 with a 28mm to 50mm lens, and keep the camera at eye level, 1.4 to 1.7 m.",
+      "Cut at an average shot length of 5 to 8 s (estimate; check Cinemetrics for each title) and use a jump cut that removes 1 to 2 s inside one shot.",
+      "Let one tracking shot run 20 to 60 s along a street or a corridor, and let the actor look into the lens for 1 to 2 s.",
+      "Record sound on location or post-dub it, and let the music stop or switch in mid-bar, with no fade.",
+      "Cite a film or a book in a shot or a line, and break the fourth wall once in each sequence."
+    ],
+    "anti_patterns": [
+      "A studio set with a lit back wall",
+      "Invisible continuity editing that hides every cut",
+      "Three-point lighting at 4:1 on a star",
+      "A score that swells under each emotion",
+      "A tidy, literary plot with all questions closed",
+      "A camera on a crane for decoration",
+      "A glossy, saturated colour grade"
+    ]
+  },
+  "vectors": {
+    "camera_mobility": 4,
+    "cutting_rate": 3,
+    "staging": 2,
+    "grade_stylisation": 1,
+    "frame_width": 3
+  },
+  "composition": {
+    "framing": "A loose 1.37:1 or 1.66:1 frame; the street, a room and a face are all in view, and the frame can cut a head at the edge.",
+    "staging_in_depth": "Two planes: a face or a back in front of 3 to 6 m of the street; passers-by cross the frame and are not cleared.",
+    "subject_placement": "Off centre, walking or turning; a two-shot of 2 faces at 0.5 to 1 m apart."
+  },
+  "camera_and_movement": {
+    "movement": "Handheld follow and long tracking shots from a wheelchair, a cart or a car. Pans are quick, with a whip at 90° per second.",
+    "support": "Handheld, wheelchair or mail-cart dolly, car mount",
+    "camera_height": "1.4 to 1.7 m, eye level",
+    "move_speed": "1.0 to 1.5 m/s, walking pace; whip pan 90° per second"
+  },
+  "lens_and_format": {
+    "aspect_ratio": "1.37:1 or 1.66:1; 2.35:1 for some colour titles",
+    "frame_rate": "24 fps",
+    "shutter_angle": "180° (1/48 s)",
+    "focal_length": "28mm to 50mm (35mm format)",
+    "aperture": "f/2.8 to f/5.6 with the stock pushed",
+    "resolution": "35mm negative; scan at 2K or 4K",
+    "focus": "Zone focus at 2 to 4 m; the background stays readable.",
+    "equipment": [
+      "lightweight 35mm camera",
+      "fast black-and-white stock",
+      "wheelchair dolly",
+      "portable tape recorder"
+    ]
+  },
+  "light": {
+    "quality": "Available light, with a bounce for the face; mixed street and window light.",
+    "direction": "From the window or the street; a photoflood bounced off the ceiling gives a flat top light.",
+    "key_to_fill_ratio": "2:1 (1 stop)",
+    "colour_temperature": "Daylight 5600K or street tungsten 3200K",
+    "source": "Window, street lamp and a bounced photoflood"
+  },
+  "colour_and_grade": {
+    "treatment": "Natural black and white with a full grey scale and visible grain. Colour titles keep primaries but stay un-graded.",
+    "palette": [
+      {
+        "name": "Newsprint black",
+        "hex": "#141414",
+        "role": "blacks"
+      },
+      {
+        "name": "Street grey",
+        "hex": "#7A7A78",
+        "role": "midtones"
+      },
+      {
+        "name": "Pale grey",
+        "hex": "#C8C8C4",
+        "role": "skin and walls"
+      },
+      {
+        "name": "Paper white",
+        "hex": "#EFEDE6",
+        "role": "highlights"
+      }
+    ],
+    "grade_recipe": [
+      "Convert to black and white and set the black point at 5% and the white point at 95%.",
+      "Keep a gentle S-curve of +15% contrast and a visible midtone of 18% grey.",
+      "Let the highlights burn: roll off only the top 3% and allow window light to clip.",
+      "Add grain at 18% to 25% to match stock pushed 2 stops.",
+      "Do not add a vignette, a tint or a LUT."
+    ],
+    "texture": "Visible silver grain, amount 18% to 25%"
+  },
+  "editing_and_rhythm": {
+    "average_shot_length": "5 to 8 s (estimate; check Cinemetrics for each title)",
+    "shot_length_range": "0.5 s for a jump cut to 60 s for a long track",
+    "cutting_logic": "Cut for the beat of the scene, not for continuity. Drop 1 to 2 s from the middle of a take and let the jump show.",
+    "transitions": "Hard cut, jump cut, iris, a freeze frame of 1 to 3 s, a title card as a cut.",
+    "runtime": "80 to 100 min"
+  },
+  "sound": {
+    "approach": "Location sound or post-dubbed sound, with room noise and traffic. The track can drop out for 1 to 3 s.",
+    "dialogue": "Quick, overlapping, often off camera; subtitles are not a part of the style.",
+    "music": "Jazz or a piano theme in short bursts; the music cuts in and out with no fade.",
+    "loudness": "−23 LUFS integrated, with dialogue peaks at −6 dBFS"
+  },
+  "titles_and_graphics": {
+    "treatment": "Plain white capitals on black or on a street sign; sparse credits, a title card that cuts in on a beat.",
+    "type": "Sans-serif upper case, 1 to 2 s on screen, no animation."
+  },
+  "shot_primer": {
+    "opening": "Open on a person in a street already in motion; no establishing shot, and the first cut comes by 6 s.",
+    "shot_list": [
+      {
+        "shot": "Walk and talk",
+        "size": "medium",
+        "lens": "35mm",
+        "movement": "handheld follow 1.2 m/s",
+        "seconds": 25
+      },
+      {
+        "shot": "Jump cut in the car",
+        "size": "medium close-up",
+        "lens": "35mm",
+        "movement": "handheld",
+        "seconds": 3
+      },
+      {
+        "shot": "Look into the lens",
+        "size": "close-up",
+        "lens": "50mm",
+        "movement": "locked off",
+        "seconds": 2
+      },
+      {
+        "shot": "Street track",
+        "size": "wide",
+        "lens": "28mm",
+        "movement": "wheelchair dolly 1.2 m/s",
+        "seconds": 30
+      },
+      {
+        "shot": "Freeze frame",
+        "size": "close-up",
+        "lens": "50mm",
+        "movement": "freeze",
+        "seconds": 2
+      },
+      {
+        "shot": "Title card",
+        "size": "card",
+        "lens": "n/a",
+        "movement": "none",
+        "seconds": 1.5
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1960s French New Wave film",
+      "black and white 35mm pushed stock",
+      "handheld tracking shot on a Paris street",
+      "jump cut",
+      "available light",
+      "1.37:1 frame",
+      "visible film grain",
+      "actor looks into the camera",
+      "freeze frame",
+      "jazz piano sting"
+    ],
+    "negative": [
+      "studio lighting",
+      "colour grade",
+      "crane shot",
+      "smooth gimbal",
+      "orchestral score",
+      "invisible edit",
+      "glossy skin"
+    ],
+    "canonical_works": [
+      {
+        "work": "The 400 Blows",
+        "maker": "François Truffaut",
+        "year": 1959
+      },
+      {
+        "work": "Breathless",
+        "maker": "Jean-Luc Godard",
+        "year": 1960
+      },
+      {
+        "work": "Cléo from 5 to 7",
+        "maker": "Agnès Varda",
+        "year": 1962
+      },
+      {
+        "work": "Band of Outsiders",
+        "maker": "Jean-Luc Godard",
+        "year": 1964
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "soviet-montage"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Freedom and a restless, witty intimacy: the viewer walks with the person in the street.",
+    "keywords": [
+      "restless",
+      "cool",
+      "free",
+      "witty",
+      "urban"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "french new wave",
+      "nouvelle vague",
+      "godard",
+      "truffaut",
+      "jump cut",
+      "breathless look",
+      "handheld black and white",
+      "90s arthouse street"
+    ],
+    "use_cases": [
+      "fashion and lifestyle films",
+      "music video on location",
+      "independent short film",
+      "video prompts for a city walk"
+    ],
+    "avoid_when": [
+      "The brief needs polish, a hero product shot or controlled colour.",
+      "The piece needs a clear, closed story arc of 3 acts."
+    ],
+    "modifiers": [
+      {
+        "request": "more manifesto",
+        "toward": "dogme-95",
+        "how": "Keep the handheld camera and the available light; drop the black and white, accept 4:3 video and add rules for sound and props."
+      },
+      {
+        "request": "more rhythm",
+        "toward": "soviet-montage",
+        "how": "Keep the black and white; shorten the average shot to 2 to 3 s and join shots by collision, not by the beat of the scene."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q193541: French New Wave",
+      "url": "https://www.wikidata.org/wiki/Q193541"
+    },
+    {
+      "title": "Wikidata Q86427: Breathless",
+      "url": "https://www.wikidata.org/wiki/Q86427"
+    },
+    {
+      "title": "Wikidata Q162331: The 400 Blows",
+      "url": "https://www.wikidata.org/wiki/Q162331"
+    },
+    {
+      "title": "David Bordwell and Kristin Thompson, Film History: An Introduction (McGraw-Hill)"
+    },
+    {
+      "title": "Richard Neupert, A History of the French New Wave Cinema (University of Wisconsin Press, 2nd ed., 2007)"
+    }
+  ],
+  "domain": "film"
+}

@@ -1,0 +1,315 @@
+{
+  "$schema": "../../../schema/domains/film.schema.json",
+  "id": "soviet-montage",
+  "name": "Soviet montage",
+  "aliases": [
+    "Montage theory",
+    "Intellectual montage",
+    "Kino-Eye"
+  ],
+  "era_id": "silent-era",
+  "time_period": {
+    "start": 1924,
+    "end": 1930,
+    "label": "1924–1930"
+  },
+  "capture": [
+    "photochemical"
+  ],
+  "summary": "A cinema made in the cutting room. Two shots meet and a third meaning appears. Fast cuts, steep angles and typed faces drive the argument of the film.",
+  "philosophy": {
+    "core_thesis": "Meaning comes from the collision of shots, not from the content of a single shot, so the edit is the author of the film.",
+    "design_principles": [
+      "Cut at an average shot length of 2 to 3 s (Man with a Movie Camera 2.1 s, Battleship Potemkin 2.8 s on Cinemetrics) and shorten the shots toward a climax.",
+      "Join two shots so that their collision makes a third idea: pair the image with its opposite and hold each for 1 to 3 s.",
+      "Choose the cut by one of five methods: metric (fixed frame count), rhythmic, tonal, overtonal or intellectual, and keep one method for each sequence.",
+      "Shoot from low or high angles of 20° to 45° off level, with diagonals that cross the 1.33:1 frame, and fill the frame with a type, not an individual.",
+      "Build a sequence from 8 to 20 shots of a single action seen from many angles, and cut on the peak of the movement.",
+      "Use hard daylight on location at high contrast, and print on black and white stock with deep blacks.",
+      "Limit the intertitles to 2 to 4 words in a large heavy sans-serif face, 1 to 2 s on screen."
+    ],
+    "anti_patterns": [
+      "Long takes of over 8 s with no inner cut",
+      "Invisible continuity cuts that hide the edit",
+      "A star actor as a psychological individual",
+      "Eye-level, centred, symmetrical coverage",
+      "Studio sets built for naturalistic depth",
+      "Soft, diffused light",
+      "A story with no social class or crowd"
+    ]
+  },
+  "vectors": {
+    "camera_mobility": 3,
+    "cutting_rate": 5,
+    "staging": 4,
+    "grade_stylisation": 2,
+    "frame_width": 2
+  },
+  "composition": {
+    "framing": "Steep angles and strong diagonals in a 1.33:1 frame; a face or a machine fills 50% to 80% of the height.",
+    "staging_in_depth": "A foreground of 2 to 3 m with a machine, a crowd or a stair behind; the layers show a class or a force.",
+    "subject_placement": "Off centre on a diagonal; the second shot answers the first on the opposite side of the frame."
+  },
+  "camera_and_movement": {
+    "movement": "Static for the core of a sequence. Dynamic moves are for a documentary rush: moving vehicle, tracking, split screen, slow and fast motion.",
+    "support": "Tripod, car and tram mounts, crane",
+    "camera_height": "Low from 0.3 m or high from above 3 m; avoid eye level",
+    "move_speed": "Tram or car speed, 5 to 10 m/s, for a rush shot"
+  },
+  "lens_and_format": {
+    "aspect_ratio": "1.33:1 (silent aperture)",
+    "frame_rate": "16 to 18 fps capture; project at 18 to 24 fps",
+    "shutter_angle": "About 170° (1/38 s at 16 fps)",
+    "focal_length": "28mm to 75mm (35mm format); a long lens for a compressed crowd",
+    "aperture": "f/5.6 to f/8 for sharp faces and machines",
+    "resolution": "35mm negative; scan at 2K or 4K",
+    "focus": "Deep focus on the faces and the machine; no soft background.",
+    "equipment": [
+      "35mm hand-crank camera",
+      "wide and long lens set",
+      "trick-shot rig for double exposure"
+    ]
+  },
+  "light": {
+    "quality": "Hard, high-contrast daylight, steel and water glare, and few filler lamps.",
+    "direction": "Side and back light that rims a face or a machine against a dark ground.",
+    "key_to_fill_ratio": "6:1 (2.6 stops)",
+    "colour_temperature": "Daylight 5600K, outdoor",
+    "source": "Sun and sky on location"
+  },
+  "colour_and_grade": {
+    "treatment": "Black and white with deep blacks and a clean white. The only colour is a rare hand-painted red.",
+    "palette": [
+      {
+        "name": "Ink black",
+        "hex": "#0A0A0A",
+        "role": "blacks"
+      },
+      {
+        "name": "Steel grey",
+        "hex": "#6B7076",
+        "role": "metal and sea"
+      },
+      {
+        "name": "Silver",
+        "hex": "#C9CCCF",
+        "role": "highlights"
+      },
+      {
+        "name": "Paper white",
+        "hex": "#E9E4D4",
+        "role": "sky and cards"
+      },
+      {
+        "name": "Flag red",
+        "hex": "#C1121F",
+        "role": "hand-painted accent, 1 to 2 shots"
+      }
+    ],
+    "grade_recipe": [
+      "Convert to black and white with a red filter look: red channel at +40%, blue at −30%.",
+      "Set the black point at 3% and the white point at 96%.",
+      "Add an S-curve of +30% contrast, and keep the midtone at 18% grey.",
+      "Hand-paint one accent, such as a flag, at hue 355° in 1 to 3 shots only.",
+      "Add grain at 10% and keep the frame edge sharp, with no vignette."
+    ],
+    "texture": "Silver grain, amount 10%"
+  },
+  "editing_and_rhythm": {
+    "average_shot_length": "2 to 3 s (Cinemetrics: Man with a Movie Camera 2.1 s, Battleship Potemkin 2.8 s)",
+    "shot_length_range": "0.3 s for a flash cut to 12 s for a held mass shot",
+    "cutting_logic": "Join by collision, graphic match or rhythm. Shorten the shots by 20% to 50% toward a climax.",
+    "transitions": "Hard cut, a flash cut of 4 to 8 frames, a double exposure, a split screen.",
+    "runtime": "60 to 90 min in five reels"
+  },
+  "sound": {
+    "approach": "The film is silent. The score is built to the rhythm of the cut.",
+    "dialogue": "Intertitle cards, 2 to 4 words, 1 to 2 s.",
+    "music": "A percussive, mechanical orchestral score at the pulse of the cut; modern releases use a new score.",
+    "loudness": "None: silent. A new score for a release sits at −23 LUFS."
+  },
+  "titles_and_graphics": {
+    "treatment": "Bold slogans and diagonal type that act as one more shot.",
+    "type": "Heavy grotesque sans-serif, upper case, on a diagonal at 8° to 15°; white on black or black on red."
+  },
+  "shot_primer": {
+    "opening": "Open on a machine or a crowd at a steep angle; the first cut comes inside 2 s.",
+    "shot_list": [
+      {
+        "shot": "Crowd on stair",
+        "size": "wide",
+        "lens": "28mm",
+        "movement": "locked off, high angle",
+        "seconds": 3
+      },
+      {
+        "shot": "Face of a worker",
+        "size": "close-up",
+        "lens": "75mm",
+        "movement": "locked off",
+        "seconds": 2
+      },
+      {
+        "shot": "Machine detail",
+        "size": "extreme close-up",
+        "lens": "50mm",
+        "movement": "locked off",
+        "seconds": 1.5
+      },
+      {
+        "shot": "Raised fist",
+        "size": "medium",
+        "lens": "35mm",
+        "movement": "low angle, locked off",
+        "seconds": 2
+      },
+      {
+        "shot": "Moving tram",
+        "size": "wide",
+        "lens": "35mm",
+        "movement": "tracking 8 m/s",
+        "seconds": 3
+      },
+      {
+        "shot": "Eye and lens",
+        "size": "extreme close-up",
+        "lens": "75mm",
+        "movement": "double exposure",
+        "seconds": 1.5
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1920s Soviet montage film",
+      "rapid collision cuts",
+      "steep low-angle shot",
+      "diagonal composition",
+      "black and white 35mm grain",
+      "1.33:1 frame",
+      "heavy constructivist intertitle",
+      "crowd as a mass",
+      "machine close-ups",
+      "double exposure and split screen"
+    ],
+    "negative": [
+      "continuity editing",
+      "long take",
+      "soft focus",
+      "centred symmetrical frame",
+      "star close-up with a soft glow",
+      "colour grade",
+      "spoken dialogue"
+    ],
+    "canonical_works": [
+      {
+        "work": "Strike",
+        "maker": "Sergei Eisenstein",
+        "year": 1925
+      },
+      {
+        "work": "Battleship Potemkin",
+        "maker": "Sergei Eisenstein",
+        "year": 1925
+      },
+      {
+        "work": "Man with a Movie Camera",
+        "maker": "Dziga Vertov",
+        "year": 1929
+      },
+      {
+        "work": "Mother",
+        "maker": "Vsevolod Pudovkin",
+        "year": 1926
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Urgency and collective force: the viewer feels a crowd, a machine and a push to act.",
+    "keywords": [
+      "urgent",
+      "rhythmic",
+      "political",
+      "mechanical",
+      "kinetic"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "hero"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "soviet montage",
+      "eisenstein",
+      "kuleshov",
+      "intellectual montage",
+      "propaganda film look",
+      "rapid montage",
+      "kino-eye",
+      "constructivist film"
+    ],
+    "use_cases": [
+      "manifesto and campaign films",
+      "music video with a hard rhythm",
+      "brand film about industry or labour",
+      "trailers and title montages"
+    ],
+    "avoid_when": [
+      "The brief needs a quiet, character-led scene or a slow mood.",
+      "The audience reads a hard political reference as a threat to the brand."
+    ],
+    "modifiers": [
+      {
+        "request": "more human",
+        "toward": "french-new-wave",
+        "how": "Keep the cut rhythm at 3 to 5 s and the hard black and white; move to a street, a handheld camera and one named person."
+      },
+      {
+        "request": "more mood",
+        "toward": "german-expressionist-cinema",
+        "how": "Keep the black and white and the low angles; cut to an average of 6 to 10 s, add one hard key and painted shadows."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q3321104: Soviet montage theory",
+      "url": "https://www.wikidata.org/wiki/Q3321104"
+    },
+    {
+      "title": "Wikidata Q152350: Battleship Potemkin",
+      "url": "https://www.wikidata.org/wiki/Q152350"
+    },
+    {
+      "title": "Wikidata Q829250: Man with a Movie Camera",
+      "url": "https://www.wikidata.org/wiki/Q829250"
+    },
+    {
+      "title": "Wikidata Q2377326: Kuleshov effect",
+      "url": "https://www.wikidata.org/wiki/Q2377326"
+    },
+    {
+      "title": "Cinemetrics (Yuri Tsivian, University of Chicago): shot length of Man with a Movie Camera and Battleship Potemkin",
+      "url": "https://cinemetrics.uchicago.edu/"
+    },
+    {
+      "title": "Internet Archive: Man with a Movie Camera (1929), public domain mark",
+      "url": "https://archive.org/details/man-with-a-movie-camera-1929-by-dziga-vertov"
+    },
+    {
+      "title": "Internet Archive: Battleship Potemkin (1925), public domain mark",
+      "url": "https://archive.org/details/battleship-potemkin-1925-by-sergei-m.-eisenstein"
+    },
+    {
+      "title": "Sergei Eisenstein, Film Form (Harcourt, 1949)"
+    }
+  ],
+  "domain": "film"
+}

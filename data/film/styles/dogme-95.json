@@ -1,0 +1,297 @@
+{
+  "$schema": "../../../schema/domains/film.schema.json",
+  "id": "dogme-95",
+  "name": "Dogme 95",
+  "aliases": [
+    "Dogma 95",
+    "Vow of Chastity"
+  ],
+  "era_id": "digital-cinema",
+  "time_period": {
+    "start": 1995,
+    "end": 2005,
+    "label": "1995–2005"
+  },
+  "capture": [
+    "digital-cinema"
+  ],
+  "summary": "A film made under a written vow: handheld camera, real locations, available light and the sound of the scene. The rules remove the tools that fake the world, so the actors and the room carry the film.",
+  "philosophy": {
+    "core_thesis": "A fixed set of prohibitions removes illusion, polish and the director's taste, so that the truth of the scene remains.",
+    "design_principles": [
+      "Shoot on location with the props that are already there; bring in no set piece.",
+      "Hold the camera in the hand for every shot; keep the camera at 1.4 to 1.7 m and let it search, with reframes every 3 to 8 s.",
+      "Light only with the available light; if the room is too dark, fix one lamp to the camera and nothing else.",
+      "Shoot in colour at 4:3 or Academy 1.37:1, at 25 fps (PAL) or 24 fps, with a 180° shutter and no filter.",
+      "Record sound with the picture; add no music unless it plays in the room where the scene is shot.",
+      "Cut at an average shot length of 4 to 8 s (estimate; check Cinemetrics for each title) with jump cuts that stay in the film.",
+      "Use no genre and no superficial action: no murder, no weapon; keep the time and place of the story in the here and now.",
+      "Leave the director out of the credits."
+    ],
+    "anti_patterns": [
+      "A tripod, a dolly or a crane",
+      "Added music or sound effects laid under a scene",
+      "Studio lighting, a lit set or a coloured filter",
+      "Optical effects and a post-produced colour grade",
+      "A genre film with set-piece action",
+      "A director credit and a signature style",
+      "A period setting"
+    ]
+  },
+  "vectors": {
+    "camera_mobility": 5,
+    "cutting_rate": 3,
+    "staging": 1,
+    "grade_stylisation": 1,
+    "frame_width": 2
+  },
+  "composition": {
+    "framing": "A loose 4:3 frame; a head can touch the edge and a back can block the view for 1 to 3 s.",
+    "staging_in_depth": "The camera moves through the room among 3 to 8 people; the foreground is often an obstruction.",
+    "subject_placement": "Wherever the actor stands; the frame follows, late by 0.2 to 0.5 s, and then corrects."
+  },
+  "camera_and_movement": {
+    "movement": "Handheld at all times, with a visible search for the action: a late pan, a jerk, a reframe. No stabiliser.",
+    "support": "Handheld; shoulder or hand",
+    "camera_height": "1.4 to 1.7 m, eye level",
+    "move_speed": "Walking pace, 1.0 to 1.5 m/s; reframe pans of 30° to 90° in under 1 s"
+  },
+  "lens_and_format": {
+    "aspect_ratio": "4:3 (video) or Academy 1.37:1",
+    "frame_rate": "25 fps (PAL) or 24 fps",
+    "shutter_angle": "180° (1/50 s at 25 fps)",
+    "focal_length": "Zoom on a small camcorder, about 35mm to 60mm (35mm format) at the wide-to-mid end",
+    "aperture": "Auto, f/2.0 to f/4",
+    "resolution": "Standard-definition DV, 720 × 576 px",
+    "focus": "Autofocus that hunts; focus loss is part of the film.",
+    "equipment": [
+      "consumer MiniDV camcorder",
+      "camera-mounted lamp (one)",
+      "on-camera microphone"
+    ]
+  },
+  "light": {
+    "quality": "Available light only: window, lamp and street. Faces drop into shadow and highlights clip.",
+    "direction": "Wherever the room puts it; the actor can be against the window.",
+    "key_to_fill_ratio": "Uncontrolled, 2:1 to 8:1",
+    "colour_temperature": "Mixed 3200K tungsten and 5600K daylight, left uncorrected",
+    "source": "Room lights, windows, one lamp fixed to the camera"
+  },
+  "colour_and_grade": {
+    "treatment": "Un-graded colour. Mixed white balance and the limits of the DV sensor are the look.",
+    "palette": [
+      {
+        "name": "Tungsten amber",
+        "hex": "#B9803F",
+        "role": "room lamps"
+      },
+      {
+        "name": "Window blue",
+        "hex": "#8FA3B8",
+        "role": "daylight spill"
+      },
+      {
+        "name": "Skin",
+        "hex": "#C99A7C",
+        "role": "faces"
+      },
+      {
+        "name": "Wall beige",
+        "hex": "#CDBFA6",
+        "role": "interiors"
+      },
+      {
+        "name": "Shadow",
+        "hex": "#2A2622",
+        "role": "dark room"
+      }
+    ],
+    "grade_recipe": [
+      "Keep the camera white balance; set no LUT.",
+      "Correct only exposure: set the black point at 5% and the white point at 100%.",
+      "Leave the mixed colour temperature: 3200K and 5600K in one frame.",
+      "Keep the noise and the compression; add no grain.",
+      "Add no vignette and no sharpening beyond the camera default."
+    ],
+    "texture": "DV compression blocks and sensor noise, amount 8% to 12%"
+  },
+  "editing_and_rhythm": {
+    "average_shot_length": "4 to 8 s (estimate; check Cinemetrics for each title)",
+    "shot_length_range": "1 s to 90 s for a long scene take",
+    "cutting_logic": "Cut on the performance. Cover a scene with 1 to 3 takes and keep the lost focus and the shake.",
+    "transitions": "Hard cut and jump cut only; no dissolve, no fade, no effect.",
+    "runtime": "90 to 110 min"
+  },
+  "sound": {
+    "approach": "Sound and picture are recorded together; no sound is made apart from the image.",
+    "dialogue": "Overlapping, natural, with room tone; no post-dubbing.",
+    "music": "Only music that plays in the room, such as a radio or a band at a party.",
+    "loudness": "−23 LUFS integrated (EBU R128), no limiter pumping"
+  },
+  "titles_and_graphics": {
+    "treatment": "A plain card with the title and the Dogme certificate number; no director credit.",
+    "type": "White sans-serif on black, 1 to 3 s, no animation."
+  },
+  "shot_primer": {
+    "opening": "Open inside the room with the camera already moving; no establishing shot and no music.",
+    "shot_list": [
+      {
+        "shot": "Arrival in the hall",
+        "size": "medium",
+        "lens": "35mm",
+        "movement": "handheld follow 1.2 m/s",
+        "seconds": 8
+      },
+      {
+        "shot": "Table speech",
+        "size": "medium close-up",
+        "lens": "50mm",
+        "movement": "handheld, reframe every 4 s",
+        "seconds": 45
+      },
+      {
+        "shot": "Reaction",
+        "size": "close-up",
+        "lens": "50mm",
+        "movement": "handheld",
+        "seconds": 3
+      },
+      {
+        "shot": "Corridor argument",
+        "size": "medium",
+        "lens": "35mm",
+        "movement": "handheld follow 1.3 m/s",
+        "seconds": 30
+      },
+      {
+        "shot": "Window face",
+        "size": "close-up",
+        "lens": "50mm",
+        "movement": "handheld",
+        "seconds": 6
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Dogme 95 film",
+      "handheld camera",
+      "available light only",
+      "4:3 standard-definition video look",
+      "real location with no set dressing",
+      "natural overlapping dialogue",
+      "no music, room tone only",
+      "DV noise and compression",
+      "jump cut",
+      "focus hunting"
+    ],
+    "negative": [
+      "tripod or dolly",
+      "dramatic lighting",
+      "film score",
+      "colour grade or LUT",
+      "visual effects",
+      "genre action",
+      "smooth gimbal"
+    ],
+    "canonical_works": [
+      {
+        "work": "Festen (The Celebration)",
+        "maker": "Thomas Vinterberg",
+        "year": 1998
+      },
+      {
+        "work": "The Idiots",
+        "maker": "Lars von Trier",
+        "year": 1998
+      },
+      {
+        "work": "Mifune",
+        "maker": "Søren Kragh-Jacobsen",
+        "year": 1999
+      },
+      {
+        "work": "Julien Donkey-Boy",
+        "maker": "Harmony Korine",
+        "year": 1999
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "french-new-wave"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "brutalist-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Discomfort and honesty: the viewer is in the room and cannot look away.",
+    "keywords": [
+      "raw",
+      "honest",
+      "uncomfortable",
+      "intimate",
+      "unpolished"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "dogme",
+      "dogme 95",
+      "vow of chastity",
+      "handheld naturalism",
+      "no lighting",
+      "raw handheld drama",
+      "festen look",
+      "von trier"
+    ],
+    "use_cases": [
+      "a drama on one location",
+      "documentary-style brand story",
+      "actor-led short film",
+      "video prompts for a raw family scene"
+    ],
+    "avoid_when": [
+      "The brief needs a polished product or a hero shot.",
+      "The piece must look good at a glance on a phone feed."
+    ],
+    "modifiers": [
+      {
+        "request": "more polished",
+        "toward": "french-new-wave",
+        "how": "Keep the handheld camera and the location; move to 35mm black and white at 24 fps, add a bounce light and allow a music cue."
+      },
+      {
+        "request": "more everyday",
+        "toward": "creator-vlog",
+        "how": "Keep the handheld camera and the room tone; address the lens, shoot 16:9 and allow cuts to remove every pause."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q211481: Dogme 95",
+      "url": "https://www.wikidata.org/wiki/Q211481"
+    },
+    {
+      "title": "Wikidata Q841958: The Celebration",
+      "url": "https://www.wikidata.org/wiki/Q841958"
+    },
+    {
+      "title": "Dogme 95 manifesto and Vow of Chastity (Lars von Trier and Thomas Vinterberg, 1995)",
+      "url": "https://en.wikipedia.org/wiki/Dogme_95"
+    },
+    {
+      "title": "Danish Film Institute: Dogme Revisited",
+      "url": "https://www.dfi.dk/en/node/43387"
+    }
+  ],
+  "domain": "film"
+}

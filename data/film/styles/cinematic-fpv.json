@@ -1,0 +1,299 @@
+{
+  "$schema": "../../../schema/domains/film.schema.json",
+  "id": "cinematic-fpv",
+  "name": "Cinematic FPV",
+  "aliases": [
+    "FPV drone",
+    "Drone dive",
+    "Cinewhoop and freestyle FPV"
+  ],
+  "era_id": "platform-video",
+  "time_period": {
+    "start": 2019,
+    "end": null,
+    "label": "2019–today"
+  },
+  "capture": [
+    "drone",
+    "action-camera"
+  ],
+  "summary": "One continuous flight through a place: a small drone with an ultra-wide camera dives, banks and threads gaps at 15 to 35 m/s. The camera moves like a bird, and the cut hides inside a wipe.",
+  "philosophy": {
+    "core_thesis": "A camera that can go anywhere should not cut: one unbroken flight turns space itself into the story.",
+    "design_principles": [
+      "Fly one continuous shot of 20 to 60 s and hide each cut in a wipe: pass behind a pillar, a tree or a wall at 0 to 2 frames of black.",
+      "Shoot at 4K 60 fps with a 180° shutter (1/120 s) and conform to 24 or 30 fps for a slow-motion drift of 40% to 50% speed in the slow parts.",
+      "Use an ultra-wide lens of 150° to 170° field of view (about 14mm equivalent) and hold a subject at 3 to 10 m from the lens for scale.",
+      "Fly at 15 to 35 m/s on a dive and at 3 to 8 m/s for a reveal, and keep the camera uptilt at 25° to 45°.",
+      "Fit an ND filter of ND8 to ND16 in daylight so that the shutter stays at 180°.",
+      "Shoot in a flat log profile and grade with one LUT at a gain of 60% to 80%, saturation +10%.",
+      "Match each speed change to the music on a beat of 90 to 130 bpm and mix at −14 LUFS."
+    ],
+    "anti_patterns": [
+      "A cut every 2 s on a rapid-fire montage",
+      "A slow, high-altitude orbit at 5 m/s",
+      "A shaky, unstabilised shot with a rolling-shutter wobble",
+      "A shutter faster than 1/500 s that makes the flight look stuttered",
+      "A flat, eye-level pan with no change of altitude",
+      "A flight that ignores the subject and only shows the sky",
+      "A clip with the on-screen display left in"
+    ]
+  },
+  "vectors": {
+    "camera_mobility": 5,
+    "cutting_rate": 1,
+    "staging": 3,
+    "grade_stylisation": 3,
+    "frame_width": 4
+  },
+  "composition": {
+    "framing": "A wide 16:9 or 2.39:1 crop; the subject or the gap fills 15% to 30% of the frame, and the horizon tilts with the bank.",
+    "staging_in_depth": "A layered path: foreground obstacle at 1 to 3 m, subject at 5 to 20 m and the open space beyond.",
+    "subject_placement": "On a third line; the path leads from the bottom corner to the subject on a curve."
+  },
+  "camera_and_movement": {
+    "movement": "A single flight line with dives, banks, flips and gap threads; the speed changes by 3 to 5 times along the path.",
+    "support": "5-inch or 3-inch FPV drone with an action camera or a cinema camera",
+    "camera_height": "0.5 to 50 m, changing along the path",
+    "move_speed": "Dive 25 to 35 m/s; cruise 15 m/s; reveal 3 to 8 m/s"
+  },
+  "lens_and_format": {
+    "aspect_ratio": "16:9 (3840 × 2160 px); crop to 2.39:1 for a cinema piece",
+    "frame_rate": "60 fps capture, conform to 24 or 30 fps",
+    "shutter_angle": "180° (1/120 s at 60 fps)",
+    "focal_length": "Ultra-wide, about 14mm (35mm format), 150° to 170° field of view",
+    "aperture": "f/2.5 to f/2.8 with ND8 to ND16",
+    "resolution": "4K at 60 fps, 10-bit where the camera allows",
+    "focus": "Fixed, deep focus from 1 m to infinity; no focus pulls in flight.",
+    "equipment": [
+      "FPV drone",
+      "action camera or compact cinema camera",
+      "ND filter set",
+      "goggles and a spotter"
+    ]
+  },
+  "light": {
+    "quality": "Natural light at golden hour or in soft overcast; a hard noon sun is allowed when a shadow gives scale.",
+    "direction": "Side or back light on the subject, so that edges and spray glow; keep the sun out of the lens by 30° or more.",
+    "key_to_fill_ratio": "Natural, 3:1 to 5:1",
+    "colour_temperature": "Daylight 5600K; golden hour 3500K to 4500K",
+    "source": "Sun and sky"
+  },
+  "colour_and_grade": {
+    "treatment": "A clean log-to-LUT grade. Saturation and contrast are up a little, so that sky and speed read at once.",
+    "palette": [
+      {
+        "name": "Sky blue",
+        "hex": "#4F8FD6",
+        "role": "sky"
+      },
+      {
+        "name": "Deep shadow",
+        "hex": "#10161F",
+        "role": "shadow and tunnels"
+      },
+      {
+        "name": "Golden light",
+        "hex": "#F0B35A",
+        "role": "sun and edges"
+      },
+      {
+        "name": "Concrete grey",
+        "hex": "#8A8F95",
+        "role": "buildings"
+      },
+      {
+        "name": "Foliage green",
+        "hex": "#4C7A3E",
+        "role": "trees"
+      }
+    ],
+    "grade_recipe": [
+      "Set the base to the flat log profile and add a conversion LUT at 70% strength.",
+      "Set the black point at 3% and the white point at 98%.",
+      "Add an S-curve of +20% contrast and a highlight roll-off from 85%.",
+      "Raise saturation by +10% and pull the sky to hue 215°, a little deeper.",
+      "Add motion-matched sharpening at 10% and no grain."
+    ],
+    "texture": "Clean 10-bit image; mild sharpening of 10%"
+  },
+  "editing_and_rhythm": {
+    "average_shot_length": "20 to 60 s for a one-take; 6 to 12 s in a sequence of linked flights",
+    "shot_length_range": "4 s to 120 s",
+    "cutting_logic": "Cut only on a wipe: match the object that fills the frame, and join the flights by that object and by the beat of the music.",
+    "transitions": "Object wipe of 0 to 2 frames, speed ramp of 0.5 to 1 s, match on a flip or a dive.",
+    "runtime": "60 to 180 s"
+  },
+  "sound": {
+    "approach": "Music leads. The prop and wind noise of the drone mix in at −20 to −26 dB under the score for a feel of speed.",
+    "dialogue": "None, or a short voice-over of 1 to 2 lines.",
+    "music": "A driving electronic or cinematic score at 90 to 130 bpm; each speed ramp lands on a beat.",
+    "loudness": "−14 LUFS integrated, −1 dBTP true peak"
+  },
+  "titles_and_graphics": {
+    "treatment": "None in the flight. A lower-third place name or a title card of 1.5 to 2 s at the end.",
+    "type": "Light, wide-tracked sans-serif, white, at 4% of frame height."
+  },
+  "shot_primer": {
+    "opening": "Open on a fast move toward a gap or a drop in the first 2 s; no hold on a static frame.",
+    "shot_list": [
+      {
+        "shot": "Gap approach",
+        "size": "wide",
+        "lens": "14mm",
+        "movement": "flight 15 m/s, uptilt 30°",
+        "seconds": 6
+      },
+      {
+        "shot": "Dive down a face",
+        "size": "wide",
+        "lens": "14mm",
+        "movement": "dive 30 m/s",
+        "seconds": 8
+      },
+      {
+        "shot": "Pass behind a pillar (wipe)",
+        "size": "wide",
+        "lens": "14mm",
+        "movement": "flight 12 m/s",
+        "seconds": 3
+      },
+      {
+        "shot": "Orbit the subject",
+        "size": "wide",
+        "lens": "14mm",
+        "movement": "banking arc 8 m/s",
+        "seconds": 10
+      },
+      {
+        "shot": "Slow reveal",
+        "size": "wide",
+        "lens": "14mm",
+        "movement": "flight 4 m/s, 2x slow motion",
+        "seconds": 8
+      },
+      {
+        "shot": "Pull up to the sky",
+        "size": "wide",
+        "lens": "14mm",
+        "movement": "climb 15 m/s",
+        "seconds": 5
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "FPV drone shot",
+      "single continuous take",
+      "ultra-wide 150 degree lens",
+      "fast dive and bank",
+      "threading a gap",
+      "golden hour light",
+      "speed ramp on the beat",
+      "smooth stabilised footage",
+      "motion blur at 180 degree shutter",
+      "object wipe transition"
+    ],
+    "negative": [
+      "static tripod shot",
+      "slow orbit at height",
+      "fast cuts every two seconds",
+      "shaky rolling shutter",
+      "on-screen display",
+      "flat grey sky",
+      "fish-eye distortion with no horizon"
+    ],
+    "canonical_works": [
+      {
+        "work": "Burj Khalifa FPV dive",
+        "maker": "Johnny FPV",
+        "year": 2020
+      },
+      {
+        "work": "Drive 2 Extremes: Taycan Cross Turismo",
+        "maker": "Johnny FPV for Porsche",
+        "year": 2021
+      },
+      {
+        "work": "Red Bull FPV drone at the Las Vegas Grand Prix",
+        "maker": "Johnny FPV",
+        "year": 2023
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "vertical-short-form"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Exhilaration and weightlessness: the viewer flies through a space no camera could reach.",
+    "keywords": [
+      "exhilarating",
+      "fluid",
+      "immersive",
+      "kinetic",
+      "vertiginous"
+    ],
+    "brand_archetypes": [
+      "explorer",
+      "hero"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "fpv",
+      "fpv drone",
+      "drone dive",
+      "one take flight",
+      "cinewhoop",
+      "flythrough",
+      "first person view",
+      "oner"
+    ],
+    "use_cases": [
+      "automotive and sport launch films",
+      "real estate and travel flythroughs",
+      "music video with a one-take flight",
+      "video prompts for a drone fly-through"
+    ],
+    "avoid_when": [
+      "The brief needs a still, formal frame or a face at close range.",
+      "The site is indoors with people and no flight permission or safety plan."
+    ],
+    "modifiers": [
+      {
+        "request": "more stable",
+        "toward": "french-new-wave",
+        "how": "Replace the flight with a handheld follow at 1.2 m/s and keep the single long take of 20 to 60 s."
+      },
+      {
+        "request": "shorter",
+        "toward": "vertical-short-form",
+        "how": "Keep the dive; cut the flight to 15 to 30 s in 9:16 and add a caption hook in the first 2 s."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q22907956: drone racing",
+      "url": "https://www.wikidata.org/wiki/Q22907956"
+    },
+    {
+      "title": "Wikidata Q25212003: one-shot film",
+      "url": "https://www.wikidata.org/wiki/Q25212003"
+    },
+    {
+      "title": "Porsche Newsroom: Drive 2 Extremes, Taycan Cross Turismo with Johnny FPV (2021)",
+      "url": "https://newsroom.porsche.com/christophorus/ja/2021/399/drive-2-extremes-taycan-cross-turismo-johnny-fpv.html"
+    },
+    {
+      "title": "DroneDJ: FPV dive the Burj Khalifa (2021 report on the 2020 video)",
+      "url": "https://dronedj.com/2021/01/12/fpv-dive-the-burj-khalifa-the-tallest-building-in-the-world/"
+    }
+  ],
+  "domain": "film"
+}

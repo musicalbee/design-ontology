@@ -1,0 +1,309 @@
+{
+  "$schema": "../../../schema/domains/film.schema.json",
+  "id": "camcorder-revival",
+  "name": "Camcorder revival",
+  "aliases": [
+    "VHS look",
+    "Tape look",
+    "Home-video look",
+    "Y2K camcorder"
+  ],
+  "era_id": "platform-video",
+  "time_period": {
+    "start": 2020,
+    "end": null,
+    "label": "2020–today"
+  },
+  "capture": [
+    "analogue-video",
+    "digital-cinema",
+    "phone"
+  ],
+  "summary": "A 4:3 picture with tape noise, a date stamp and a shaky hand. It looks like a home video from 1985 to 2005. Creators shoot on old Hi8 and MiniDV or add the look in post, to look near and unpolished.",
+  "philosophy": {
+    "core_thesis": "A flawed, low-resolution tape image looks like a real memory, so the defect is the proof of the moment.",
+    "design_principles": [
+      "Frame in 4:3 at 640 × 480 px (SD) and keep the 4:3 on a vertical feed with a blurred side fill.",
+      "Shoot at 29.97 fps (NTSC) or 25 fps (PAL) in 60i or 50i, with a fixed 1/60 s or 1/50 s shutter and an auto-exposure that pumps by 0.5 to 1 stop.",
+      "Add a date stamp or a REC and battery icon in the corner, for example 'NOV 18 2003', at 5% of frame height in orange or white.",
+      "Raise the black level to 8% to 10%, clip the highlights at 100% with a bloom of 5 to 10 px, and set saturation at +25%.",
+      "Add chroma bleed of 2 to 4 px to the right of red edges, 8% to 15% noise and a tracking glitch of 4 to 12 frames, no more than once a minute.",
+      "Hold takes of 8 to 30 s with a handheld, on a wide lens of 35mm to 40mm equivalent, and let the zoom hunt once in a take.",
+      "Record the sound on the camera microphone, mono, at about −18 LUFS integrated, with wind and 3 to 6 dB of auto-gain pumping."
+    ],
+    "anti_patterns": [
+      "A crisp 4K picture with a flat overlay",
+      "A smooth gimbal move",
+      "A 2.39:1 crop",
+      "A studio-clean voice-over mix",
+      "A teal and orange grade",
+      "A stack of effects on every shot",
+      "An even filter with no handheld shake"
+    ]
+  },
+  "vectors": {
+    "camera_mobility": 4,
+    "cutting_rate": 2,
+    "staging": 1,
+    "grade_stylisation": 4,
+    "frame_width": 2
+  },
+  "composition": {
+    "framing": "A casual 4:3 frame with the subject centred and the head cut off at times; the horizon is slightly off level, by 2° to 5°.",
+    "staging_in_depth": "A subject at 1 to 3 m in a lived-in room or a street; no staged layers.",
+    "subject_placement": "Centred or wherever the person stands; the operator follows late, by 0.2 to 0.5 s."
+  },
+  "camera_and_movement": {
+    "movement": "Handheld, with a sudden zoom, a pan to a laugh and a walk. The operator talks off camera.",
+    "support": "Handheld by the strap or the grip",
+    "camera_height": "Chest or eye level, 1.2 to 1.7 m",
+    "move_speed": "Walking pace, 1.0 to 1.5 m/s; zoom hunt of 1 to 2 s"
+  },
+  "lens_and_format": {
+    "aspect_ratio": "4:3 (640 × 480 px)",
+    "frame_rate": "29.97 fps (60i) or 25 fps (50i)",
+    "shutter_angle": "180° (1/60 s at 29.97 fps; 1/50 s at 25 fps)",
+    "focal_length": "Wide end, about 40mm (35mm format); optical zoom 10× to 20×",
+    "aperture": "Auto, f/1.8 to f/4",
+    "resolution": "VHS about 240 lines; Hi8 about 400 lines; MiniDV 720 × 480 px",
+    "focus": "Autofocus that hunts, with a soft, low-contrast picture.",
+    "equipment": [
+      "Hi8, VHS-C or MiniDV camcorder",
+      "on-camera microphone",
+      "tape-look plug-in"
+    ]
+  },
+  "light": {
+    "quality": "Whatever is in the room: ceiling light, a flash-like on-camera lamp, the daylight at a window.",
+    "direction": "From above or the front; the face has red-eye or a shine, and the window blows out.",
+    "key_to_fill_ratio": "Uncontrolled, 2:1 to 6:1",
+    "colour_temperature": "Auto white balance that drifts between 3200K and 5600K",
+    "source": "Room lights, windows and on-camera lamp"
+  },
+  "colour_and_grade": {
+    "treatment": "Warm, faded and slightly oversaturated, with lifted blacks, soft detail and a colour smear at edges.",
+    "palette": [
+      {
+        "name": "Tape black",
+        "hex": "#1A1816",
+        "role": "lifted blacks"
+      },
+      {
+        "name": "Faded red",
+        "hex": "#C2453A",
+        "role": "reds with bleed"
+      },
+      {
+        "name": "Warm skin",
+        "hex": "#D6A184",
+        "role": "faces"
+      },
+      {
+        "name": "Wall cream",
+        "hex": "#D8C9A9",
+        "role": "interiors"
+      },
+      {
+        "name": "Cyan cast",
+        "hex": "#6BA3A8",
+        "role": "shadow cast"
+      },
+      {
+        "name": "Date orange",
+        "hex": "#F28C28",
+        "role": "timestamp"
+      }
+    ],
+    "grade_recipe": [
+      "Scale to 640 × 480 px and back to the delivery size with a soft filter.",
+      "Lift the black point to 8% to 10% and clip the white point at 100% with a bloom of 5 to 10 px.",
+      "Raise saturation by +25%, add a slight green-cyan cast in the shadows of 5% and a warm cast in the highlights of 5%.",
+      "Add horizontal chroma bleed of 2 to 4 px and noise of 8% to 15%.",
+      "Add scanlines at 10% opacity and a tracking glitch of 4 to 12 frames at most once a minute.",
+      "Burn in the date stamp and a REC icon at 5% of frame height."
+    ],
+    "texture": "Tape noise, amount 8% to 15%, with scanlines at 10% opacity"
+  },
+  "editing_and_rhythm": {
+    "average_shot_length": "8 to 20 s",
+    "shot_length_range": "2 s to 60 s",
+    "cutting_logic": "Cut as if the operator stopped and started the tape: in-camera cuts, a hard start of the next scene, no cut on action.",
+    "transitions": "Hard cut with a 2 to 4 frame glitch; a tape rewind or a record flash for a joke.",
+    "runtime": "30 s to 5 min; clips on a feed run 15 to 45 s"
+  },
+  "sound": {
+    "approach": "Camera microphone only: mono, near and noisy, with a voice off camera and room tone.",
+    "dialogue": "Casual and overlapping; the operator speaks and laughs.",
+    "music": "A song that plays in the room, or a radio or a cheap loop; no score.",
+    "loudness": "−18 LUFS integrated, with 3 to 6 dB of auto-gain pumping"
+  },
+  "titles_and_graphics": {
+    "treatment": "On-screen camera display: REC dot, battery bar, PLAY arrow and a date stamp; blue screen at tape start.",
+    "type": "Pixel or monospace display face, white or orange, 4% to 5% of frame height."
+  },
+  "shot_primer": {
+    "opening": "Open on a blue tape-start screen for 0.5 s, then a handheld shot with the REC icon and the date stamp.",
+    "shot_list": [
+      {
+        "shot": "Walk into the room",
+        "size": "medium",
+        "lens": "40mm",
+        "movement": "handheld follow 1.2 m/s",
+        "seconds": 15
+      },
+      {
+        "shot": "Zoom to a face",
+        "size": "close-up",
+        "lens": "40 to 120mm",
+        "movement": "handheld, zoom 2 s",
+        "seconds": 6
+      },
+      {
+        "shot": "Window blow-out",
+        "size": "wide",
+        "lens": "40mm",
+        "movement": "handheld",
+        "seconds": 8
+      },
+      {
+        "shot": "Cut to next day",
+        "size": "medium",
+        "lens": "40mm",
+        "movement": "handheld, tape glitch 6 frames",
+        "seconds": 12
+      },
+      {
+        "shot": "Operator turns the lens",
+        "size": "close-up",
+        "lens": "40mm",
+        "movement": "handheld flip",
+        "seconds": 3
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1990s camcorder footage",
+      "VHS tape look",
+      "4:3 frame",
+      "date stamp in the corner",
+      "handheld home video",
+      "chroma bleed and scanlines",
+      "tracking glitch",
+      "on-camera microphone sound",
+      "faded warm colour",
+      "autofocus hunting"
+    ],
+    "negative": [
+      "crisp 4K",
+      "smooth gimbal",
+      "2.39:1 letterbox",
+      "teal and orange grade",
+      "studio audio",
+      "perfect exposure",
+      "clean digital image"
+    ],
+    "canonical_works": [
+      {
+        "work": "The Blair Witch Project",
+        "maker": "Daniel Myrick and Eduardo Sánchez",
+        "year": 1999
+      },
+      {
+        "work": "Tarnation",
+        "maker": "Jonathan Caouette",
+        "year": 2003
+      },
+      {
+        "work": "Cloverfield",
+        "maker": "Matt Reeves",
+        "year": 2008
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "dogme-95"
+    ],
+    "hybridized_with": [
+      "creator-vlog",
+      "vertical-short-form"
+    ],
+    "echoes": [
+      "y2k-aesthetic",
+      "grunge-editorial"
+    ]
+  },
+  "emotion": {
+    "target_response": "Nostalgia and trust: the viewer feels a real, imperfect memory, not an ad.",
+    "keywords": [
+      "nostalgic",
+      "raw",
+      "intimate",
+      "lo-fi",
+      "imperfect"
+    ],
+    "brand_archetypes": [
+      "innocent",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "camcorder",
+      "vhs look",
+      "home video",
+      "tape look",
+      "y2k camcorder",
+      "90s home video",
+      "lo-fi video",
+      "date stamp"
+    ],
+    "use_cases": [
+      "music video and artist content",
+      "fashion and youth brand campaigns",
+      "found-footage horror",
+      "video prompts for a memory or a party"
+    ],
+    "avoid_when": [
+      "The brief needs a premium product shot or accurate colour.",
+      "The viewer must read small text or detail on a phone."
+    ],
+    "modifiers": [
+      {
+        "request": "cleaner",
+        "toward": "creator-vlog",
+        "how": "Keep the handheld address and the warm light; move to 16:9 4K with clean audio, and drop the tape noise and the date stamp."
+      },
+      {
+        "request": "more vertical",
+        "toward": "vertical-short-form",
+        "how": "Keep the tape colour and the date stamp; move to 9:16, cut at 2 to 4 s and burn in captions."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q335234: camcorder",
+      "url": "https://www.wikidata.org/wiki/Q335234"
+    },
+    {
+      "title": "Wikidata Q183976: VHS",
+      "url": "https://www.wikidata.org/wiki/Q183976"
+    },
+    {
+      "title": "Wikidata Q120776065: Shot-on-video film",
+      "url": "https://www.wikidata.org/wiki/Q120776065"
+    },
+    {
+      "title": "Wikidata Q3272147: found footage film",
+      "url": "https://www.wikidata.org/wiki/Q3272147"
+    },
+    {
+      "title": "Digital Camera World: From obsolete to obsession, TikTok's retro camcorder boom",
+      "url": "https://www.digitalcameraworld.com/cameras/camcorders/from-obsolete-to-obsession-tiktoks-retro-camcorder-boom"
+    }
+  ],
+  "domain": "film"
+}

@@ -28,6 +28,17 @@
         "material_rawness",
         "monumentality"
       ]
+    },
+    {
+      "id": "film",
+      "name": "Film & Video",
+      "axes": [
+        "camera_mobility",
+        "cutting_rate",
+        "staging",
+        "grade_stylisation",
+        "frame_width"
+      ]
     }
   ],
   "nodes": [
@@ -315,6 +326,126 @@
         "material_rawness": 5,
         "monumentality": 5
       }
+    },
+    {
+      "id": "german-expressionist-cinema",
+      "domain": "film",
+      "name": "German Expressionist cinema",
+      "era": "silent-era",
+      "start": 1920,
+      "end": 1927,
+      "vectors": {
+        "camera_mobility": 2,
+        "cutting_rate": 2,
+        "staging": 5,
+        "grade_stylisation": 4,
+        "frame_width": 2
+      }
+    },
+    {
+      "id": "soviet-montage",
+      "domain": "film",
+      "name": "Soviet montage",
+      "era": "silent-era",
+      "start": 1924,
+      "end": 1930,
+      "vectors": {
+        "camera_mobility": 3,
+        "cutting_rate": 5,
+        "staging": 4,
+        "grade_stylisation": 2,
+        "frame_width": 2
+      }
+    },
+    {
+      "id": "french-new-wave",
+      "domain": "film",
+      "name": "French New Wave",
+      "era": "new-waves",
+      "start": 1959,
+      "end": 1967,
+      "vectors": {
+        "camera_mobility": 4,
+        "cutting_rate": 3,
+        "staging": 2,
+        "grade_stylisation": 1,
+        "frame_width": 3
+      }
+    },
+    {
+      "id": "dogme-95",
+      "domain": "film",
+      "name": "Dogme 95",
+      "era": "digital-cinema",
+      "start": 1995,
+      "end": 2005,
+      "vectors": {
+        "camera_mobility": 5,
+        "cutting_rate": 3,
+        "staging": 1,
+        "grade_stylisation": 1,
+        "frame_width": 2
+      }
+    },
+    {
+      "id": "creator-vlog",
+      "domain": "film",
+      "name": "Creator vlog",
+      "era": "platform-video",
+      "start": 2005,
+      "end": null,
+      "vectors": {
+        "camera_mobility": 4,
+        "cutting_rate": 4,
+        "staging": 2,
+        "grade_stylisation": 2,
+        "frame_width": 4
+      }
+    },
+    {
+      "id": "vertical-short-form",
+      "domain": "film",
+      "name": "Vertical short-form",
+      "era": "platform-video",
+      "start": 2016,
+      "end": null,
+      "vectors": {
+        "camera_mobility": 4,
+        "cutting_rate": 5,
+        "staging": 3,
+        "grade_stylisation": 3,
+        "frame_width": 1
+      }
+    },
+    {
+      "id": "cinematic-fpv",
+      "domain": "film",
+      "name": "Cinematic FPV",
+      "era": "platform-video",
+      "start": 2019,
+      "end": null,
+      "vectors": {
+        "camera_mobility": 5,
+        "cutting_rate": 1,
+        "staging": 3,
+        "grade_stylisation": 3,
+        "frame_width": 4
+      }
+    },
+    {
+      "id": "camcorder-revival",
+      "domain": "film",
+      "name": "Camcorder revival",
+      "era": "platform-video",
+      "start": 2020,
+      "end": null,
+      "vectors": {
+        "camera_mobility": 4,
+        "cutting_rate": 2,
+        "staging": 1,
+        "grade_stylisation": 4,
+        "frame_width": 2
+      }
     }
   ],
   "edges": [
@@ -325,7 +456,22 @@
     },
     {
       "from": "brutalist-architecture",
+      "to": "dogme-95",
+      "type": "ECHOES"
+    },
+    {
+      "from": "brutalist-architecture",
       "to": "neo-brutalism-ui",
+      "type": "ECHOES"
+    },
+    {
+      "from": "camcorder-revival",
+      "to": "grunge-editorial",
+      "type": "ECHOES"
+    },
+    {
+      "from": "camcorder-revival",
+      "to": "y2k-aesthetic",
       "type": "ECHOES"
     },
     {
@@ -361,6 +507,11 @@
     {
       "from": "flat-design",
       "to": "swiss-international",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "french-new-wave",
+      "to": "soviet-montage",
       "type": "EVOLVED_FROM"
     },
     {
@@ -404,6 +555,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "vertical-short-form",
+      "to": "creator-vlog",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "bauhaus",
       "to": "swiss-international",
       "type": "HYBRIDIZED_WITH"
@@ -419,8 +575,28 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "camcorder-revival",
+      "to": "creator-vlog",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "camcorder-revival",
+      "to": "vertical-short-form",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "cinematic-fpv",
+      "to": "vertical-short-form",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "corporate-memphis",
       "to": "memphis-design",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "creator-vlog",
+      "to": "vertical-short-form",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -457,6 +633,16 @@
       "from": "skeuomorphism",
       "to": "spatial-visionos",
       "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "camcorder-revival",
+      "to": "dogme-95",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "dogme-95",
+      "to": "french-new-wave",
+      "type": "REBELLED_AGAINST"
     },
     {
       "from": "flat-design",
@@ -655,7 +841,9 @@
         "y2k-aesthetic"
       ],
       "hybridized_with": [],
-      "echoes": [],
+      "echoes": [
+        "camcorder-revival"
+      ],
       "nearest_by_vector": [
         {
           "id": "psychedelic",
@@ -683,7 +871,9 @@
       "hybridized_with": [
         "glassmorphism"
       ],
-      "echoes": [],
+      "echoes": [
+        "camcorder-revival"
+      ],
       "nearest_by_vector": [
         {
           "id": "mid-century-modern",
@@ -1018,12 +1208,222 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
+        "dogme-95",
         "neo-brutalism-ui"
       ],
       "nearest_by_vector": [
         {
           "id": "international-style-architecture",
           "distance": 4.24
+        }
+      ]
+    },
+    "german-expressionist-cinema": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "soviet-montage",
+          "distance": 3.87
+        },
+        {
+          "id": "cinematic-fpv",
+          "distance": 4.36
+        },
+        {
+          "id": "vertical-short-form",
+          "distance": 4.36
+        }
+      ]
+    },
+    "soviet-montage": {
+      "evolved_from": [],
+      "evolved_into": [
+        "french-new-wave"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "vertical-short-form",
+          "distance": 2
+        },
+        {
+          "id": "creator-vlog",
+          "distance": 3.16
+        },
+        {
+          "id": "french-new-wave",
+          "distance": 3.32
+        }
+      ]
+    },
+    "french-new-wave": {
+      "evolved_from": [
+        "soviet-montage"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [
+        "dogme-95"
+      ],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "creator-vlog",
+          "distance": 1.73
+        },
+        {
+          "id": "dogme-95",
+          "distance": 1.73
+        },
+        {
+          "id": "cinematic-fpv",
+          "distance": 3.32
+        }
+      ]
+    },
+    "dogme-95": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "french-new-wave"
+      ],
+      "provoked": [
+        "camcorder-revival"
+      ],
+      "hybridized_with": [],
+      "echoes": [
+        "brutalist-architecture"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "french-new-wave",
+          "distance": 1.73
+        },
+        {
+          "id": "creator-vlog",
+          "distance": 2.83
+        },
+        {
+          "id": "camcorder-revival",
+          "distance": 3.32
+        }
+      ]
+    },
+    "creator-vlog": {
+      "evolved_from": [],
+      "evolved_into": [
+        "vertical-short-form"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "camcorder-revival",
+        "vertical-short-form"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "french-new-wave",
+          "distance": 1.73
+        },
+        {
+          "id": "dogme-95",
+          "distance": 2.83
+        },
+        {
+          "id": "soviet-montage",
+          "distance": 3.16
+        }
+      ]
+    },
+    "vertical-short-form": {
+      "evolved_from": [
+        "creator-vlog"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "camcorder-revival",
+        "cinematic-fpv",
+        "creator-vlog"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "soviet-montage",
+          "distance": 2
+        },
+        {
+          "id": "creator-vlog",
+          "distance": 3.46
+        },
+        {
+          "id": "french-new-wave",
+          "distance": 3.61
+        }
+      ]
+    },
+    "cinematic-fpv": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "vertical-short-form"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "camcorder-revival",
+          "distance": 3.32
+        },
+        {
+          "id": "french-new-wave",
+          "distance": 3.32
+        },
+        {
+          "id": "creator-vlog",
+          "distance": 3.46
+        }
+      ]
+    },
+    "camcorder-revival": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "dogme-95"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "creator-vlog",
+        "vertical-short-form"
+      ],
+      "echoes": [
+        "grunge-editorial",
+        "y2k-aesthetic"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "cinematic-fpv",
+          "distance": 3.32
+        },
+        {
+          "id": "dogme-95",
+          "distance": 3.32
+        },
+        {
+          "id": "french-new-wave",
+          "distance": 3.46
         }
       ]
     }

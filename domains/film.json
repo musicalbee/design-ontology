@@ -1,0 +1,26 @@
+{
+  "id": "film",
+  "order": 6,
+  "name": "Film & Video",
+  "schema": "schema/domains/film.schema.json",
+  "task": "planning, shooting, prompting, editing or grading moving images",
+  "vectors": [
+    { "key": "camera_mobility", "label": "Camera mobility", "abbr": "CAM", "low": "locked off, tripod", "high": "handheld, gimbal or free flight" },
+    { "key": "cutting_rate", "label": "Cutting rate", "abbr": "CUT", "low": "long take, average shot over 20 s", "high": "rapid montage, average shot under 2 s" },
+    { "key": "staging", "label": "Staging", "abbr": "STAGE", "low": "found, unplanned", "high": "fully constructed" },
+    { "key": "grade_stylisation", "label": "Grade stylisation", "abbr": "GRADE", "low": "natural, neutral colour", "high": "heavily stylised colour" },
+    { "key": "frame_width", "label": "Frame width", "abbr": "FRAME", "low": "vertical 9:16", "high": "anamorphic 2.39:1 or wider" }
+  ],
+  "facets": [
+    { "key": "composition", "title": "Composition" },
+    { "key": "camera_and_movement", "title": "Camera & movement" },
+    { "key": "lens_and_format", "title": "Lens & format" },
+    { "key": "light", "title": "Light" },
+    { "key": "colour_and_grade", "title": "Colour & grade" },
+    { "key": "editing_and_rhythm", "title": "Editing & rhythm" },
+    { "key": "sound", "title": "Sound" },
+    { "key": "titles_and_graphics", "title": "Titles & graphics" },
+    { "key": "shot_primer", "title": "Shot primer" },
+    { "key": "prompt_primer", "title": "Video prompt primer" }
+  ]
+}

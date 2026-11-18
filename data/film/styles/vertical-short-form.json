@@ -1,0 +1,305 @@
+{
+  "$schema": "../../../schema/domains/film.schema.json",
+  "id": "vertical-short-form",
+  "name": "Vertical short-form",
+  "aliases": [
+    "TikTok style",
+    "Reels style",
+    "Shorts style",
+    "9:16 video"
+  ],
+  "era_id": "platform-video",
+  "time_period": {
+    "start": 2016,
+    "end": null,
+    "label": "2016–today"
+  },
+  "capture": [
+    "phone"
+  ],
+  "summary": "A full-screen 9:16 clip of 15 to 45 s, shot on a phone and cut every 1.5 to 3 s. A hook in the first second, burned-in captions and a sound that can loop. The feed decides each rule.",
+  "philosophy": {
+    "core_thesis": "A viewer swipes in 1 to 2 s, so every second must earn the next: the hook, the cut and the caption are the whole design.",
+    "design_principles": [
+      "Frame in 9:16 at 1080 × 1920 px, 30 fps (24 or 60 allowed), 180° shutter, and fill the screen edge to edge.",
+      "Put the hook in the first 1 to 2 s: a face, a movement or a text line; the first cut comes by 3 s.",
+      "Cut or change the picture every 1.5 to 3 s: new angle, new scale, a punch-in of 10% to 20% or a new caption.",
+      "Keep faces and captions inside the safe zone: leave the bottom 20% and the top 7% of the height and the right 12% of the width clear for the interface.",
+      "Burn in captions of 1 to 6 words for each beat, at 48 px or larger on a 1080 px wide frame, 2 lines at most.",
+      "Shoot the main camera at 24mm (35mm format) at 0.3 to 1.5 m from the subject, with a ring light or a window at 5600K.",
+      "End so the clip loops: match the last frame to the first, and keep the run time at 15 to 45 s.",
+      "Mix to −14 LUFS integrated with the voice over a trending or looped sound."
+    ],
+    "anti_patterns": [
+      "A horizontal 16:9 clip with black bars above and below",
+      "A slow intro or a logo before the hook",
+      "Captions under the platform interface or in the safe-zone margin",
+      "A wide establishing shot held for more than 3 s",
+      "A cinematic letterbox with a 2.39:1 crop",
+      "A voice with no captions on a feed that plays muted",
+      "A clip longer than 60 s with no change of angle"
+    ]
+  },
+  "vectors": {
+    "camera_mobility": 4,
+    "cutting_rate": 5,
+    "staging": 3,
+    "grade_stylisation": 3,
+    "frame_width": 1
+  },
+  "composition": {
+    "framing": "A full-screen 9:16 frame; the subject fills 40% to 70% of the height, with the face in the upper half.",
+    "staging_in_depth": "The subject within 0.3 to 1.5 m, a simple background at 2 to 3 m; one layer of text on top.",
+    "subject_placement": "Centred or on the vertical axis, with the eyes at 30% to 40% of the height from the top."
+  },
+  "camera_and_movement": {
+    "movement": "Handheld selfie arm, a push-in, a whip pan or a spin as a transition; the phone is a part of the act.",
+    "support": "Handheld selfie arm, phone gimbal or a tripod with a clip",
+    "camera_height": "At the eye or slightly above, 1.5 to 1.8 m; low for dance",
+    "move_speed": "Whip pan 180° per second; push-in 0.5 m/s"
+  },
+  "lens_and_format": {
+    "aspect_ratio": "9:16 (1080 × 1920 px)",
+    "frame_rate": "30 fps (24 or 60 fps allowed)",
+    "shutter_angle": "180° (1/60 s at 30 fps)",
+    "focal_length": "Phone main camera, 24mm (35mm format); ultra-wide 13mm for movement",
+    "aperture": "Fixed, f/1.6 to f/1.9",
+    "resolution": "4K capture, 1080 × 1920 px delivery",
+    "focus": "Face autofocus; the phone gives a soft, computed background in portrait mode.",
+    "equipment": [
+      "smartphone",
+      "ring light",
+      "phone tripod or gimbal"
+    ]
+  },
+  "light": {
+    "quality": "Soft and frontal: a ring light, a window or a screen, with an even face.",
+    "direction": "From the front and slightly above, with a bright face on a darker ground.",
+    "key_to_fill_ratio": "1.5:1 to 2:1",
+    "colour_temperature": "5600K daylight or a 5000K to 5600K ring light",
+    "source": "Ring light, window or LED panel"
+  },
+  "colour_and_grade": {
+    "treatment": "Bright and punchy, with a clear face and a high-contrast, saturated image that survives compression.",
+    "palette": [
+      {
+        "name": "Bright skin",
+        "hex": "#E8B99B",
+        "role": "face"
+      },
+      {
+        "name": "Clean white",
+        "hex": "#F6F4EF",
+        "role": "backgrounds"
+      },
+      {
+        "name": "Pop colour",
+        "hex": "#FF3D6E",
+        "role": "caption and accent"
+      },
+      {
+        "name": "Deep ground",
+        "hex": "#1B1B24",
+        "role": "dark background"
+      },
+      {
+        "name": "Electric blue",
+        "hex": "#2D6BFF",
+        "role": "accent"
+      }
+    ],
+    "grade_recipe": [
+      "Set the black point at 4% and the white point at 98%.",
+      "Add contrast of +15% and keep skin at 60% to 75% luma.",
+      "Raise saturation by +15% and vibrance by +20%; the colour must survive heavy compression.",
+      "Sharpen at 20% and apply a built-in filter at no more than 50% strength.",
+      "Add no grain and no letterbox."
+    ],
+    "texture": "Clean phone image with sharpening; noise under 3%"
+  },
+  "editing_and_rhythm": {
+    "average_shot_length": "1.5 to 3 s",
+    "shot_length_range": "0.3 s for a beat cut to 6 s for a payoff",
+    "cutting_logic": "Cut on the beat of the sound and on each new line. Change the picture at least every 3 s, and cut on movement.",
+    "transitions": "Hard cut, a whip, a spin or an object wipe of 4 to 8 frames; no slow dissolve.",
+    "runtime": "15 to 45 s; loop at the end"
+  },
+  "sound": {
+    "approach": "The sound leads the edit: a trending track, a voice-over or a sound bite. Captions cover the muted viewer.",
+    "dialogue": "Direct address of 150 to 200 words per minute, or lip-sync to a sound.",
+    "music": "A looped track of 15 to 30 s with a drop at 2 to 5 s; keep it under the voice by 12 to 18 dB.",
+    "loudness": "−14 LUFS integrated, −1 dBTP true peak"
+  },
+  "titles_and_graphics": {
+    "treatment": "Burned-in captions with one highlighted word, stickers and arrows, and a text hook at 0 to 2 s.",
+    "type": "Bold sans-serif at 48 px or larger on a 1080 px frame, white with a 3 px outline or on a colour bar; inside the safe zone."
+  },
+  "shot_primer": {
+    "opening": "A face or a movement fills the frame at 0 s with a text hook in 6 words or fewer; the first cut comes by 3 s.",
+    "shot_list": [
+      {
+        "shot": "Hook to camera",
+        "size": "close-up",
+        "lens": "24mm",
+        "movement": "handheld arm",
+        "seconds": 2
+      },
+      {
+        "shot": "Punch-in beat",
+        "size": "close-up",
+        "lens": "24mm",
+        "movement": "15% punch-in",
+        "seconds": 2
+      },
+      {
+        "shot": "Detail or demo",
+        "size": "close-up",
+        "lens": "24mm",
+        "movement": "static",
+        "seconds": 2.5
+      },
+      {
+        "shot": "Whip transition",
+        "size": "medium",
+        "lens": "13mm",
+        "movement": "whip pan 180°/s",
+        "seconds": 0.5
+      },
+      {
+        "shot": "Payoff",
+        "size": "medium",
+        "lens": "24mm",
+        "movement": "handheld",
+        "seconds": 3
+      },
+      {
+        "shot": "Loop frame",
+        "size": "close-up",
+        "lens": "24mm",
+        "movement": "handheld arm",
+        "seconds": 2
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "vertical 9:16 short video",
+      "phone footage",
+      "hook in the first second",
+      "fast cuts every two seconds",
+      "burned-in captions",
+      "ring light on the face",
+      "punch-in zoom",
+      "whip pan transition",
+      "bright saturated colour",
+      "loopable ending"
+    ],
+    "negative": [
+      "horizontal letterbox",
+      "slow intro",
+      "long establishing shot",
+      "cinematic 2.39:1",
+      "film grain",
+      "muted colour",
+      "captions in the interface zone"
+    ],
+    "canonical_works": [
+      {
+        "work": "Renegade dance clip",
+        "maker": "Jalaiah Harmon",
+        "year": 2019
+      },
+      {
+        "work": "Wordless life-hack reaction clips",
+        "maker": "Khaby Lame",
+        "year": 2020
+      },
+      {
+        "work": "M to the B",
+        "maker": "Bella Poarch",
+        "year": 2020
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "creator-vlog"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "camcorder-revival",
+      "cinematic-fpv"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "A quick hit of surprise and belonging: the viewer is in on the joke inside 3 s.",
+    "keywords": [
+      "fast",
+      "punchy",
+      "playful",
+      "immediate",
+      "social"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "tiktok",
+      "reels",
+      "shorts",
+      "vertical video",
+      "9:16",
+      "short form",
+      "hook",
+      "phone video"
+    ],
+    "use_cases": [
+      "social ads and paid creative",
+      "creator and brand channels",
+      "product demos under 30 s",
+      "video prompts for a vertical clip"
+    ],
+    "avoid_when": [
+      "The brief needs a cinema screen, a wide frame or a slow mood.",
+      "The piece must hold a long argument of over 60 s."
+    ],
+    "modifiers": [
+      {
+        "request": "more cinematic",
+        "toward": "cinematic-fpv",
+        "how": "Keep the vertical frame only if needed; move to one long flowing shot of 20 s or more and a graded look."
+      },
+      {
+        "request": "more lo-fi",
+        "toward": "camcorder-revival",
+        "how": "Keep the hook and the 9:16 frame; add a tape look, a date stamp and on-camera sound, and slow the cut to 3 to 6 s."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q59688552: vertical video",
+      "url": "https://www.wikidata.org/wiki/Q59688552"
+    },
+    {
+      "title": "Wikidata Q48938223: TikTok",
+      "url": "https://www.wikidata.org/wiki/Q48938223"
+    },
+    {
+      "title": "Wikidata Q125420621: Instagram reel",
+      "url": "https://www.wikidata.org/wiki/Q125420621"
+    },
+    {
+      "title": "Loudness reference: ITU-R BS.1770 and EBU R128 (levels in LUFS)",
+      "url": "https://tech.ebu.ch/loudness"
+    },
+    {
+      "title": "Platform creative guides (TikTok, Instagram, YouTube): safe zones change by app version, so check the current guide"
+    }
+  ],
+  "domain": "film"
+}

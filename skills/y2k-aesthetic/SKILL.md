@@ -246,6 +246,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`frutiger-aero`](../frutiger-aero/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`grunge-editorial`](../grunge-editorial/SKILL.md)
 - **Mixes well with:** [`glassmorphism`](../glassmorphism/SKILL.md)
+- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md)
 - **Nearest by vector profile:** [`mid-century-modern`](../mid-century-modern/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md)
 
 ## Emotional target
