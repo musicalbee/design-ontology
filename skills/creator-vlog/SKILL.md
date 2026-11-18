@@ -80,6 +80,16 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Staging in depth:** The face at 0.5 m, the room at 1 to 3 m behind it; the background is a lived-in room, not a set.
 - **Subject placement:** Eyes on the upper third line, centred or off centre by up to 15%; the lens is the second person in the room.
 
+**Principles**
+
+| Principle | Rule | Value |
+|---|---|---|
+| focal-point | Put the face on the upper third and fill the frame with it, so that the first frame is a person. | face 30% to 50% of frame height |
+| sightlines | Look at the lens, not at the screen, for the direct address, and look away on the cut. | eye contact 70% of the time |
+| rhythm | Remove every pause and breath with a jump cut so that the cut rate sets the pace. | 2 to 4 s average shot |
+| hierarchy | Give the text card one size above all others and show it for the time of one read. | 1 caption at a time, 1 to 2 s |
+| rule-of-thirds | Place the eyes on the upper third line and leave head room. | eyes at 33% from the top |
+
 ## Camera & movement
 
 - **Movement:** Handheld at arm's length or on a gimbal grip; the camera walks with the creator. Cut-aways are static or on a slow slider.
@@ -175,6 +185,18 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | Daily vlog series | Casey Neistat | 2015 |
 | Jump-cut vlogs | Emma Chamberlain | 2017 |
 
+## Composition principles
+
+The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
+
+| Id | Principle | Definition | Measure: typical range |
+|---|---|---|---|
+| `focal-point` | Focal point | The one place in a view that the eye finds first and comes back to. A composition has one primary focal point and at most two secondary ones. | focal points in one view (count): 1 primary, 0 to 2 secondary; luminance of the focal point to its surround (ratio): 3:1 to 10:1; position (fraction of width): 0.5 on an axis, or 0.33 / 0.67 on a third |
+| `sightlines` | Sightlines | The line from an eye position, such as an entrance or a seat, to a target. A clear sightline joins the viewer to the focal point. | camera height (cm): 120–170 at eye level; under 100 for a low angle; crossings of the line of action in one scene (count): 0 |
+| `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive; average shot length (seconds): 1.5–3 fast; 5–12 moderate; 30 or more for a long take |
+| `hierarchy` | Hierarchy | The elements of a composition rank by importance through size, position, contrast or isolation. The viewer reads them in that order. | levels of rank (count): 2 to 3; size ratio between adjacent levels (ratio): 1.5:1 or more |
+| `rule-of-thirds` | Rule of thirds | Two horizontal and two vertical lines divide the view into nine equal parts. The focal point sits on one of the four crossings, and a horizon sits on one of the two horizontal lines. | focal point position (fraction of width and height): 0.33 or 0.67, tolerance 0.05; horizon position (fraction of height): 0.33 or 0.67 |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -184,7 +206,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`vertical-short-form`](../vertical-short-form/SKILL.md)
 - **Mixes well with:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`vertical-short-form`](../vertical-short-form/SKILL.md)
-- **Nearest by vector profile:** [`french-new-wave`](../french-new-wave/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md), [`soviet-montage`](../soviet-montage/SKILL.md)
+- **Nearest by vector profile:** [`new-hollywood`](../new-hollywood/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md), [`hong-kong-action`](../hong-kong-action/SKILL.md)
 
 ## Emotional target
 

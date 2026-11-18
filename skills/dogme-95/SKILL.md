@@ -81,6 +81,16 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Staging in depth:** The camera moves through the room among 3 to 8 people; the foreground is often an obstruction.
 - **Subject placement:** Wherever the actor stands; the frame follows, late by 0.2 to 0.5 s, and then corrects.
 
+**Principles**
+
+| Principle | Rule | Value |
+|---|---|---|
+| framing | Shoot a 4:3 frame by hand and let the head or the back cut the frame for 1 to 3 s. | head or back cuts 10% to 25% of the frame for 1 to 3 s |
+| focal-point | Let the frame follow the actor late by 0.2 to 0.5 s and then correct, so the subject is never fixed. | 0.2 to 0.5 s lag |
+| layering-depth | Put the camera in the room among the people, with the foreground as an obstruction. | 3 to 8 people in frame |
+| lighting-layers | Use only the light in the room: no added lamp, no filter. | 0 added lamps |
+| unity-variety | Hold one handheld, un-graded look for the whole film, with no optical effect. | 0 optical effects |
+
 ## Camera & movement
 
 - **Movement:** Handheld at all times, with a visible search for the action: a late pan, a jerk, a reframe. No stabiliser.
@@ -164,7 +174,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Video prompt primer
 
-- **Positive:** Dogme 95 film · handheld camera · available light only · 4:3 standard-definition video look · real location with no set dressing · natural overlapping dialogue · no music, room tone only · DV noise and compression · jump cut · focus hunting
+- **Positive:** Dogme 95 film · handheld camera · available light only · 4:3 standard-definition video look · real location with no set dressing · jump cut · focus hunting
 - **Negative:** tripod or dolly · dramatic lighting · film score · colour grade or LUT · visual effects · genre action · smooth gimbal
 
 **Canonical works**
@@ -176,6 +186,18 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | Mifune | Søren Kragh-Jacobsen | 1999 |
 | Julien Donkey-Boy | Harmony Korine | 1999 |
 
+## Composition principles
+
+The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
+
+| Id | Principle | Definition | Measure: typical range |
+|---|---|---|---|
+| `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | frame area (% of the view): 10–35; frame planes (count): 1 to 2 |
+| `focal-point` | Focal point | The one place in a view that the eye finds first and comes back to. A composition has one primary focal point and at most two secondary ones. | focal points in one view (count): 1 primary, 0 to 2 secondary; luminance of the focal point to its surround (ratio): 3:1 to 10:1; position (fraction of width): 0.5 on an axis, or 0.33 / 0.67 on a third |
+| `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
+| `lighting-layers` | Lighting layers | Light comes from separate layers with separate jobs: ambient light for the whole space, task light for work, accent light for the focal point. In photography the same split is key, fill and accent light. | key to fill (ratio): 2:1 flat and natural; 4:1 glamour; 8:1 or more for deep shadow |
+| `unity-variety` | Unity and variety | Repeated materials, colours and shapes join the parts into one whole. A small, planned number of deviations keeps the whole alive. | materials or hues that repeat (count): 2 to 4; deliberate deviations (count): 1 to 2 |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -184,9 +206,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more everyday**: move toward [`creator-vlog`](../creator-vlog/SKILL.md) (Creator vlog). Keep the handheld camera and the room tone; address the lens, shoot 16:9 and allow cuts to remove every pause.
 
 - **Rejects (the opposite pole; do not blend):** [`french-new-wave`](../french-new-wave/SKILL.md)
+- **Was rejected by:** [`planimetric-symmetry`](../planimetric-symmetry/SKILL.md)
 - **Mixes well with:** [`camcorder-revival`](../camcorder-revival/SKILL.md)
-- **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`documentary-photography`](../documentary-photography/SKILL.md)
-- **Nearest by vector profile:** [`french-new-wave`](../french-new-wave/SKILL.md), [`creator-vlog`](../creator-vlog/SKILL.md), [`camcorder-revival`](../camcorder-revival/SKILL.md)
+- **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`documentary-photography`](../documentary-photography/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md)
+- **Nearest by vector profile:** [`documentary-verite`](../documentary-verite/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md), [`italian-neorealism`](../italian-neorealism/SKILL.md)
 
 ## Emotional target
 

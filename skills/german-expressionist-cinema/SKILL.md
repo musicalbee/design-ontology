@@ -80,6 +80,16 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Staging in depth:** Painted perspective stacks flats at 3 to 5 depths; a shadow or a stair leads the eye from the lit figure to a dark point in the upper third.
 - **Subject placement:** Low in the frame, off centre by 15% to 25%, with the looming shape above and behind the figure.
 
+**Principles**
+
+| Principle | Rule | Value |
+|---|---|---|
+| contrast | Set one hard key against a near-black set, and let the lit face be the only bright mass in each shot. | 8:1 key to fill (3 stops) |
+| focal-point | Put the lit figure low in the frame and let a looming shadow or stair take the upper third. | figure in the lower 33% of the frame |
+| leading-lines | Paint stairs, walls and shadows as diagonals that run from the edge of the frame to the figure. | 5° to 20° off the vertical |
+| layering-depth | Stack painted flats at several depths so that perspective is false but deep. | 3 to 5 painted depth planes |
+| negative-space | Leave a large dark mass above or beside the figure as the main shape of the frame. | 50% or more of the frame dark |
+
 ## Camera & movement
 
 - **Movement:** Mostly locked-off. Where the camera moves, it moves with a purpose: a slow tracking shot toward a face or a dolly through a set.
@@ -164,7 +174,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Video prompt primer
 
-- **Positive:** 1920s German Expressionist silent film · black and white with amber tint · painted sets with skewed perspective · hard single-source light · long shadow on the wall · 1.33:1 frame · iris-in transition · jagged intertitle lettering · stylised acting with wide eyes · 35mm film grain · deep shadow at 8:1
+- **Positive:** 1920s German Expressionist silent film · black and white with amber tint · painted sets with skewed perspective · hard single-source light · long shadow on the wall · 1.33:1 frame · iris-in transition · stylised acting with wide eyes · 35mm film grain · deep shadow at 8:1
 - **Negative:** naturalistic location · soft even light · modern colour grade · straight right-angle walls · handheld shake · fast cuts · spoken dialogue
 
 **Canonical works**
@@ -176,6 +186,18 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | The Last Laugh | F. W. Murnau | 1924 |
 | Metropolis | Fritz Lang | 1927 |
 
+## Composition principles
+
+The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
+
+| Id | Principle | Definition | Measure: typical range |
+|---|---|---|---|
+| `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | brightest mass to deepest shadow in one image (stops): 3–4 flat; 5–8 hard, 8 or more for expressionist |
+| `focal-point` | Focal point | The one place in a view that the eye finds first and comes back to. A composition has one primary focal point and at most two secondary ones. | focal points in one view (count): 1 primary, 0 to 2 secondary; luminance of the focal point to its surround (ratio): 3:1 to 10:1; position (fraction of width): 0.5 on an axis, or 0.33 / 0.67 on a third |
+| `leading-lines` | Leading lines | Lines in the view, such as edges, rows, beams or paths, point the eye to the focal point. | lines that converge on the focal point (count): 1 to 4; angle from the frame edge (degrees): 15–60 for a diagonal |
+| `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
+| `negative-space` | Negative space | The empty area around and between elements. It is a part of the composition, not a remainder. | empty frame area (% of image): 30–70 |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -183,8 +205,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **less theatrical**: move toward [`french-new-wave`](../french-new-wave/SKILL.md) (French New Wave). Keep the hard light and the black and white; leave the studio for a real street, drop the iris and the tint, and shoot handheld at 24 fps.
 - If the user asks for **more rhythm**: move toward [`soviet-montage`](../soviet-montage/SKILL.md) (Soviet montage). Keep the 1.33:1 frame and the hard light; cut to an average of 2 to 3 s and join shots by graphic match.
 
+- **Led to (go here for a newer version):** [`classical-hollywood`](../classical-hollywood/SKILL.md)
 - **Kin in another domain:** [`baroque-painting`](../baroque-painting/SKILL.md), [`film-noir-still`](../film-noir-still/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md)
-- **Nearest by vector profile:** [`soviet-montage`](../soviet-montage/SKILL.md), [`cinematic-fpv`](../cinematic-fpv/SKILL.md), [`vertical-short-form`](../vertical-short-form/SKILL.md)
+- **Nearest by vector profile:** [`planimetric-symmetry`](../planimetric-symmetry/SKILL.md), [`classical-hollywood`](../classical-hollywood/SKILL.md), [`music-video`](../music-video/SKILL.md)
 
 ## Emotional target
 
