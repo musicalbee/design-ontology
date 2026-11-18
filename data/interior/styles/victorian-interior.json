@@ -1,0 +1,426 @@
+{
+  "$schema": "../../../schema/domains/interior.schema.json",
+  "domain": "interior",
+  "id": "victorian-interior",
+  "name": "Victorian",
+  "aliases": [
+    "Victorian interior",
+    "Victorian parlour",
+    "High Victorian"
+  ],
+  "identity": {
+    "wikidata": "Q2865875",
+    "aat": "300021232"
+  },
+  "era_id": "industrial-century",
+  "time_period": {
+    "start": 1837,
+    "end": 1901,
+    "label": "1837–1901"
+  },
+  "room_types": [
+    "living",
+    "dining",
+    "bedroom",
+    "hospitality"
+  ],
+  "summary": "The middle-class room of the industrial century. Machine-made pattern covers walls, floors and furniture; dark, saturated colours, heavy curtains and many objects make a dense, enclosed parlour around the hearth.",
+  "philosophy": {
+    "core_thesis": "A home shows the taste, the travels and the respectability of its family; more objects and more pattern mean more comfort.",
+    "design_principles": [
+      "Divide the wall into dado, filling and frieze, each with its own paper or paint.",
+      "Use deep, saturated colours: crimson, bottle green, plum and brown, with gold.",
+      "Layer textiles: a fitted carpet, a rug on it, a tablecloth on the table and a fringed cover on the mantel.",
+      "Group chairs in several conversation circles, not one; the room holds many zones.",
+      "Display collections on the mantel, on whatnots and in cabinets.",
+      "Hang pictures close together on a picture rail, frame to frame.",
+      "Filter the daylight through three layers at the window: blind, lace and heavy drapes."
+    ],
+    "anti_patterns": [
+      "Bare walls with no pattern",
+      "White or pale walls in the main rooms",
+      "A single centred group of furniture with empty floor around it",
+      "Bright, unfiltered daylight",
+      "Thin, low modern furniture"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 5,
+    "density": 5,
+    "formality": 4,
+    "material_naturalness": 3,
+    "chromatic_intensity": 4
+  },
+  "composition": {
+    "plan_logic": "A closed room with the hearth on a side wall. Several furniture groups fill the floor; a centre table stands under a gasolier.",
+    "focal_point": "The hearth with an overmantel mirror and a crowded mantelpiece on the left wall.",
+    "symmetry": "bilateral",
+    "axis_count": 1,
+    "focal_wall": "left",
+    "focal_position": 0.5,
+    "rhythm_module_cm": 30,
+    "depth_layers": 4,
+    "rules": [
+      {
+        "principle": "focal-point",
+        "rule": "Make the hearth the focal point and frame it with an overmantel and a dense mantel display.",
+        "value": "1 hearth, mantel of 7–15 objects"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Layer the window in 3 textiles and the floor in 2; set furniture in front of furniture.",
+        "value": "4 depth planes"
+      },
+      {
+        "principle": "unity-variety",
+        "rule": "Mix many patterns, but keep them in one family of deep colours.",
+        "value": "3–5 patterns, 1 colour family"
+      },
+      {
+        "principle": "hierarchy",
+        "rule": "Divide the wall into dado, filling and frieze, each with a different paper.",
+        "value": "3 horizontal bands"
+      },
+      {
+        "principle": "grouping",
+        "rule": "Group chairs in several small circles and objects in dense clusters.",
+        "value": "2–4 groups of seats"
+      },
+      {
+        "principle": "symmetry-axis",
+        "rule": "Mirror the overmantel, the vases and the chairs about the hearth only.",
+        "value": "1 local axis"
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Give the walls a deep pattern, the woodwork and furniture brown, and gold and crimson the accents.",
+        "value": "55/30/15"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Light pools from a gasolier over the centre table and from shaded lamps; leave the corners dim.",
+        "value": "60 lux ambient, 300 lux task, 2200 K"
+      },
+      {
+        "principle": "scale",
+        "rule": "Use large, heavy furniture with deep upholstery; chairs are broad and button-backed.",
+        "value": "seat 44 cm, depth 60 cm"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Leave narrow routes between the groups.",
+        "value": "75 cm main, 55 cm secondary"
+      }
+    ]
+  },
+  "zoning": {
+    "zones": [
+      "hearth group",
+      "centre table",
+      "window seat",
+      "piano or cabinet corner"
+    ],
+    "circulation": "Narrow, curved routes between dense furniture groups.",
+    "main_path_clear_cm": 75,
+    "secondary_path_clear_cm": 55,
+    "seat_to_table_cm": 40,
+    "conversation_diameter_cm": 220,
+    "floor_coverage_pct": 70,
+    "wall_coverage_pct": 75
+  },
+  "palette": {
+    "distribution": "Deep patterned wallpaper on the filling, dark wood on the dado and furniture, and crimson, gold and green in textiles and frames.",
+    "dominant_pct": 55,
+    "secondary_pct": 30,
+    "accent_pct": 15,
+    "colours": [
+      {
+        "name": "Bottle green",
+        "hex": "#2F4A3A",
+        "role": "dominant",
+        "surface": "wallpaper filling"
+      },
+      {
+        "name": "Oxblood",
+        "hex": "#6E1F23",
+        "role": "secondary",
+        "surface": "carpet, curtains, upholstery"
+      },
+      {
+        "name": "Burnt umber",
+        "hex": "#5A3D2B",
+        "role": "wood",
+        "surface": "dado, furniture, doors"
+      },
+      {
+        "name": "Old gold",
+        "hex": "#B08D3E",
+        "role": "metal",
+        "surface": "frames, gasolier, fringes"
+      },
+      {
+        "name": "Plum",
+        "hex": "#5B3050",
+        "role": "accent",
+        "surface": "cushions, glass"
+      },
+      {
+        "name": "Ivory lace",
+        "hex": "#E7DFC8",
+        "role": "accent",
+        "surface": "lace curtains, antimacassars"
+      }
+    ]
+  },
+  "lighting": {
+    "strategy": "A low, warm interior. A central gasolier and many shaded lamps give separate pools of light; the walls and corners stay dark.",
+    "daylight": "Daylight passes a roller blind, lace and heavy drapes; the room is dim by day.",
+    "ambient_lux": 60,
+    "task_lux": 300,
+    "accent_ratio": 5,
+    "cct_k": 2200,
+    "cct_evening_k": 1900,
+    "cri_min": 90,
+    "layers": [
+      {
+        "layer": "decorative",
+        "source": "brass gasolier with glass shades",
+        "position": "over the centre table"
+      },
+      {
+        "layer": "task",
+        "source": "oil-style table lamp with a fringed shade",
+        "position": "on side tables beside chairs"
+      },
+      {
+        "layer": "accent",
+        "source": "picture lights or candle sconces",
+        "position": "either side of the overmantel"
+      },
+      {
+        "layer": "daylight",
+        "source": "bay window behind lace and drapes",
+        "position": "window wall"
+      }
+    ]
+  },
+  "materials": {
+    "primary": [
+      "walnut and mahogany",
+      "patterned wallpaper",
+      "wool carpet"
+    ],
+    "secondary": [
+      "velvet",
+      "plush",
+      "marble",
+      "brass",
+      "cast iron",
+      "lace",
+      "stained glass"
+    ],
+    "finish": "Polished dark wood, glossy tiles in the hearth, deep-pile textiles.",
+    "texture_contrast": "Soft, deep-pile textiles against polished wood and glazed tile, at about 1:1."
+  },
+  "furniture": {
+    "silhouette": "Heavy, curved and carved pieces with deep button upholstery, turned legs and fringes.",
+    "arrangement": "Several groups across the floor; small tables, footstools and whatnots fill the gaps.",
+    "seat_height_cm": 44,
+    "key_pieces": [
+      "button-back chesterfield or chaise",
+      "balloon-back chairs",
+      "round centre table with a cloth",
+      "overmantel mirror",
+      "whatnot",
+      "upright piano",
+      "glass-fronted display cabinet"
+    ]
+  },
+  "textiles": {
+    "fabrics": [
+      "velvet",
+      "plush",
+      "wool damask",
+      "lace",
+      "chenille"
+    ],
+    "pattern": "Dense florals, damask and Turkey carpets; pattern on pattern in one colour family.",
+    "windows": "Three layers: a roller blind, lace curtains and heavy velvet drapes with a pelmet and tie-backs."
+  },
+  "objects": {
+    "approach": "Many objects show the family's taste and travels: collections, souvenirs, plants and portraits.",
+    "grouping": "Dense clusters on the mantel, on shelves and on tables; pictures frame to frame.",
+    "max_per_surface": 15,
+    "hang_centre_cm": 170,
+    "items": [
+      "overmantel mirror",
+      "mantel clock under a glass dome",
+      "pair of Staffordshire figures",
+      "aspidistra or fern",
+      "portrait photographs",
+      "shell or fern collection"
+    ]
+  },
+  "implementation": {
+    "brief": "A dim parlour with bottle-green damask paper above a dark wood dado. A marble hearth with an overmantel mirror and a crowded mantel stands on the left wall; a button-back sofa, balloon-back chairs and a round clothed table sit on a Turkey carpet under a brass gasolier.",
+    "image_prompt": "Victorian parlour, dark bottle green damask wallpaper above a brown wood dado, black marble fireplace with a tall gilt overmantel mirror and crowded mantelpiece, button-back crimson velvet sofa, balloon-back chairs, round table with a fringed cloth, Turkey carpet, brass gasolier with glass shades, lace and heavy velvet curtains, ferns, framed pictures close together, warm dim light, rich and cluttered, interior photograph",
+    "negative_prompt": "White walls, minimal, empty floor, bright daylight, modern furniture, chrome.",
+    "camera": "28 mm lens at 140 cm, three-quarter view from the door toward the hearth.",
+    "scene_3d": "Room 500 x 450 cm, ceiling 330 cm. Daylight through lace at transmission 0.3; one 2200 K gasolier at 230 cm and three 1900 K table lamps.",
+    "furniture_list": [
+      "chesterfield 200 x 90 x 75 cm, seat 44 cm",
+      "2 balloon-back chairs",
+      "round table 110 cm",
+      "overmantel mirror 120 x 150 cm",
+      "display cabinet 100 x 40 x 190 cm",
+      "Turkey carpet 300 x 400 cm"
+    ],
+    "material_list": [
+      "damask wallpaper, bottle green",
+      "walnut, polished",
+      "black marble",
+      "velvet, oxblood",
+      "brass",
+      "wool carpet"
+    ],
+    "references": [
+      {
+        "title": "Gothic Library (1859)",
+        "credit": "The Metropolitan Museum of Art, Gift of Mrs. Hamilton Fish, 1977",
+        "licence": "CC0",
+        "url": "https://www.metmuseum.org/art/collection/search/4136"
+      },
+      {
+        "title": "Secretary from the Jay Gould House, Herter Brothers (1882)",
+        "credit": "The Metropolitan Museum of Art, Gift of Paul Martini, 1969",
+        "licence": "CC0",
+        "url": "https://www.metmuseum.org/art/collection/search/7366"
+      },
+      {
+        "title": "Laminated rosewood sofa, John Henry Belter (1850–60)",
+        "credit": "The Metropolitan Museum of Art, Purchase, Friends of the American Wing Fund and Lila Acheson Wallace Gift, 1999",
+        "licence": "CC0",
+        "url": "https://www.metmuseum.org/art/collection/search/7586"
+      },
+      {
+        "title": "Dining Room Elevation in a Simplified Third Pompeian Style (ca. 1870–90)",
+        "credit": "The Metropolitan Museum of Art, Dodge and Fletcher Funds, 1967",
+        "licence": "CC0",
+        "url": "https://www.metmuseum.org/art/collection/search/363532"
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "georgian-interior"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "pictorialism"
+    ]
+  },
+  "emotion": {
+    "target_response": "Enclosure: the viewer feels sheltered and a little overwhelmed, inside a warm, dim, crowded room.",
+    "keywords": [
+      "opulent",
+      "dense",
+      "enclosed",
+      "sentimental",
+      "dark",
+      "layered"
+    ],
+    "brand_archetypes": [
+      "caregiver",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "victorian",
+      "victorian parlour",
+      "victorian interior",
+      "gothic parlour",
+      "dark academia room",
+      "19th century interior",
+      "cluttered antique room"
+    ],
+    "use_cases": [
+      "period restoration",
+      "bars and members clubs",
+      "themed hotels",
+      "film and stage sets",
+      "libraries"
+    ],
+    "avoid_when": [
+      "The room is small and dark already.",
+      "The brief asks for calm, air or rooms that are easy to clean."
+    ],
+    "modifiers": [
+      {
+        "request": "lighter and simpler",
+        "toward": "arts-and-crafts-interior",
+        "how": "Remove most objects, replace the damask with one handmade pattern, show the oak structure; keep the hearth."
+      },
+      {
+        "request": "today and playful",
+        "toward": "grandmillennial-interior",
+        "how": "Lighten the walls to a soft colour, keep the chintz and the collections, add skirted tables and humour."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "Victorian parlour",
+      "damask wallpaper",
+      "overmantel mirror",
+      "button-back sofa",
+      "Turkey carpet",
+      "brass gasolier",
+      "heavy velvet drapes",
+      "crowded mantelpiece",
+      "ferns and aspidistra",
+      "dark polished wood"
+    ],
+    "negative": [
+      "minimal",
+      "white walls",
+      "empty floor",
+      "bright light",
+      "chrome"
+    ],
+    "canonical_works": [
+      {
+        "work": "Leighton House Arab Hall",
+        "architect": "George Aitchison",
+        "year": 1881
+      },
+      {
+        "work": "18 Stafford Terrace",
+        "architect": "Edward Linley Sambourne",
+        "year": 1875
+      },
+      {
+        "work": "The Grammar of Ornament",
+        "architect": "Owen Jones",
+        "year": 1856
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Charles Eastlake, Hints on Household Taste (London, 1868)"
+    },
+    {
+      "title": "Judith Flanders, The Victorian House (HarperCollins, 2003)"
+    },
+    {
+      "title": "Wikidata Q2865875: Victorian decorative arts",
+      "url": "https://www.wikidata.org/wiki/Q2865875"
+    },
+    {
+      "title": "Getty AAT 300021232",
+      "url": "https://vocab.getty.edu/page/aat/300021232"
+    }
+  ]
+}

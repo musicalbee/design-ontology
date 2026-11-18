@@ -155,6 +155,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **sharper**: move toward [`straight-photography`](../straight-photography/SKILL.md) (Straight photography). Close the aperture to f/64, drop the diffusion and the hand work, and keep the large format and the tonal range wide; the print becomes crisp and cool.
 
 - **Was rejected by:** [`straight-photography`](../straight-photography/SKILL.md)
+- **Kin in another domain:** [`victorian-interior`](../victorian-interior/SKILL.md)
 - **Nearest by vector profile:** [`cinematic-teal-orange`](../cinematic-teal-orange/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
 
 ## Emotional target

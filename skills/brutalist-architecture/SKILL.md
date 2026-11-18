@@ -179,7 +179,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`international-style-architecture`](../international-style-architecture/SKILL.md)
 - **Was rejected by:** [`postmodern-architecture`](../postmodern-architecture/SKILL.md)
-- **Kin in another domain:** [`abstract-expressionism`](../abstract-expressionism/SKILL.md), [`constructivism-web`](../constructivism-web/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md)
+- **Kin in another domain:** [`abstract-expressionism`](../abstract-expressionism/SKILL.md), [`constructivism-web`](../constructivism-web/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md)
 - **Nearest by vector profile:** [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`gothic-architecture`](../gothic-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md)
 
 ## Emotional target

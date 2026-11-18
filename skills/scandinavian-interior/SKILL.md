@@ -235,10 +235,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`shaker-interior`](../shaker-interior/SKILL.md)
 - **Led to (go here for a newer version):** [`japandi-interior`](../japandi-interior/SKILL.md)
-- **Was rejected by:** [`dopamine-decor`](../dopamine-decor/SKILL.md)
+- **Was rejected by:** [`dopamine-decor`](../dopamine-decor/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md)
 - **Mixes well with:** [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md)
 - **Kin in another domain:** [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md)
-- **Nearest by vector profile:** [`japandi-interior`](../japandi-interior/SKILL.md), [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md), [`shaker-interior`](../shaker-interior/SKILL.md)
+- **Nearest by vector profile:** [`japandi-interior`](../japandi-interior/SKILL.md), [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md)
 
 ## Emotional target
 

@@ -179,7 +179,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **plainer**: move toward [`international-style-architecture`](../international-style-architecture/SKILL.md) (International Style). Remove the relief and the setbacks, flatten the piers into a grid of 4 to 7m, and keep the polished materials.
 
 - **Came from (go here for a more orthodox version):** [`art-nouveau-architecture`](../art-nouveau-architecture/SKILL.md)
-- **Kin in another domain:** [`art-deco-web`](../art-deco-web/SKILL.md)
+- **Kin in another domain:** [`art-deco-interior`](../art-deco-interior/SKILL.md), [`art-deco-web`](../art-deco-web/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md)
 - **Nearest by vector profile:** [`beaux-arts-architecture`](../beaux-arts-architecture/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md), [`renaissance-architecture`](../renaissance-architecture/SKILL.md)
 
 ## Emotional target

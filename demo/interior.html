@@ -81,6 +81,11 @@
     <p class="thesis" id="h-thesis"></p>
   </header>
 
+  <figure class="shot" id="shot" hidden>
+    <img id="shot-img" alt="" width="1152" height="768" decoding="async">
+    <figcaption id="shot-cap"></figcaption>
+  </figure>
+
   <div class="toggles" role="group" aria-label="Overlays">
     <label><input type="checkbox" data-ov="axis" checked><span class="sw" style="background:var(--overlay)"></span>Axis and symmetry</label>
     <label><input type="checkbox" data-ov="focal" checked><span class="sw" style="background:var(--overlay)"></span>Focal point</label>
@@ -88,11 +93,6 @@
     <label><input type="checkbox" data-ov="route" checked><span class="sw" style="background:var(--route)"></span>Clear routes</label>
     <label><input type="checkbox" data-ov="light" checked><span class="sw" style="background:var(--light)"></span>Light layers</label>
   </div>
-
-  <figure class="shot" id="shot" hidden>
-    <img id="shot-img" alt="" width="1152" height="768" decoding="async">
-    <figcaption id="shot-cap"></figcaption>
-  </figure>
 
   <div class="views">
     <figure>
@@ -177,7 +177,7 @@ function focalXY(c) {
   switch (c.focal_wall) {
     case "left": case "window": return [0, p * D];
     case "right": return [W, p * D];
-    case "centre": return [p * W, D * 0.42];
+    case "centre": return [p * W, D * 0.5];
     default: return [p * W, 0];
   }
 }
@@ -186,7 +186,8 @@ function plan(s) {
   const c = s.composition, z = s.zoning, L = s.lighting, cols = s.palette.colours, v = s.vectors;
   const wall = pick(cols, "dominant"), floor = pick(cols, "wood", "dominant"), soft = pick(cols, "secondary");
   const soft2 = all(cols, "secondary")[1] ?? soft, dark = pick(cols, "accent", "metal"), acc = all(cols, "accent");
-  const free = c.symmetry === "free", bil = c.symmetry === "bilateral";
+  // radial counts as bilateral: the group sits on the axis around a centre piece
+  const free = c.symmetry === "free", bil = c.symmetry === "bilateral" || c.symmetry === "radial", centre = c.focal_wall === "centre";
   const [fx, fy] = focalXY(c);
   const out = [];
 
@@ -200,9 +201,12 @@ function plan(s) {
   out.push(`<text x="${W * 0.83}" y="${D + 34}" text-anchor="middle" fill="#5d5d66">door</text><text x="-34" y="${D * 0.47}" text-anchor="middle" fill="#5d5d66" transform="rotate(-90 -34 ${D * 0.47})">window</text>`);
 
   // group centre: on the axis (bilateral), on a third (asymmetric) or loose (free)
-  const gx = bil ? W / 2 : free ? W * 0.46 : (c.focal_wall === "back" ? fx : W * 0.42);
-  const gy = c.focal_wall === "left" || c.focal_wall === "window" ? D * 0.5 : D * 0.5;
-  const faceLeft = c.focal_wall === "left" || c.focal_wall === "window";
+  const faceRight = c.focal_wall === "right";
+  const gx = faceRight ? W * 0.58 : bil ? W / 2 : free ? W * 0.46 : (c.focal_wall === "back" ? fx : W * 0.42);
+  const gy = faceRight ? fy : D * 0.5;
+  // a side focal wall turns the group: the seats face the left (window) or the right wall
+  const faceLeft = c.focal_wall === "left" || c.focal_wall === "window" || faceRight;
+  const side = faceRight ? -1 : 1;
   const sofaW = 190 + v.formality * 18, sofaD = 85 + (5 - v.density) * 3;
   const tW = 100 + v.formality * 8, tD = c.symmetry === "free" ? tW : 60;
   const gap = z.seat_to_table_cm;
@@ -215,24 +219,29 @@ function plan(s) {
     const sy = gy + tD / 2 + gap + sofaD / 2;
     const rTop = gy - tD / 2 - 45, rBot = sy + sofaD / 2 + 15;
     items.push(["rug", gx, (rTop + rBot) / 2, sofaW + rugPad * 2, rBot - rTop, pick(cols, "secondary"), rot(-8), 4]);
-    items.push(["table", gx, gy, tW, tD, pick(cols, "wood", "accent"), rot(10), free ? tW / 2 : 6]);
+    // a centre focal piece takes the place of the table
+    if (!centre) items.push(["table", gx, gy, tW, tD, pick(cols, "wood", "accent"), rot(10), free ? tW / 2 : 6]);
     items.push(["sofa", gx, sy, sofaW, sofaD, soft, rot(-18), free ? 40 : 10]);
     const chair = (side) => ["chair", gx + side * (tW / 2 + gap + 40), gy - 10, 75, 78, soft2, rot(side * 25) || (free ? 0 : 0), free ? 37 : 8];
     if (bil) items.push(chair(-1), chair(1));
     else items.push(chair(free ? -1 : (gx > W / 2 ? -1 : 1)));
   } else {
-    const sx = gx + tW / 2 + gap + sofaD / 2;
-    const rL = gx - tD / 2 - 45, rR = sx + sofaD / 2 + 15;
-    items.push(["rug", (rL + rR) / 2, gy, rR - rL, sofaW + rugPad * 2, pick(cols, "secondary"), rot(-8), 4]);
+    const sx = gx + side * (tW / 2 + gap + sofaD / 2);
+    const rL = gx - side * (tD / 2 + 45), rR = sx + side * (sofaD / 2 + 15);
+    items.push(["rug", (rL + rR) / 2, gy, Math.abs(rR - rL), sofaW + rugPad * 2, pick(cols, "secondary"), rot(-8), 4]);
     items.push(["table", gx, gy, tD, tW, pick(cols, "wood", "accent"), rot(10), free ? tW / 2 : 6]);
     items.push(["sofa", sx, gy, sofaD, sofaW, soft, rot(-18), 10]);
     items.push(["chair", gx, gy - tW / 2 - gap - 40, 75, 75, soft2, 0, 8]);
     if (bil) items.push(["chair", gx, gy + tW / 2 + gap + 40, 75, 75, soft2, 0, 8]);
   }
   // wall storage and focal piece; more pieces as density grows
-  if (c.focal_wall !== "window" && c.focal_wall !== "left") items.push(["focal piece", fx, c.focal_wall === "centre" ? fy : 28, c.focal_wall === "centre" ? 60 : 160, c.focal_wall === "centre" ? 60 : 40, acc[0] ?? dark, rot(-22), c.focal_wall === "centre" ? 30 : 2]);
-  if (v.density >= 2) items.push(["sideboard", W - 30, D * 0.55, 45, 170, pick(cols, "wood", "secondary"), 0, 2]);
-  if (v.density >= 3) items.push(["side table", gx - sofaW / 2 - 35, (faceLeft ? gy : gy + tD / 2 + gap + sofaD / 2), 40, 40, acc[1] ?? dark, rot(15), 20]);
+  if (c.focal_wall === "centre") items.push(["focal piece", fx, fy, 60, 60, acc[0] ?? dark, rot(-22), 30]);
+  else if (faceRight) items.push(["focal piece", W - 28, fy, 40, 160, acc[0] ?? dark, 0, 2]);
+  else if (c.focal_wall === "back") items.push(["focal piece", fx, 28, 160, 40, acc[0] ?? dark, rot(-22), 2]);
+  // storage stands on the right wall, or on the back wall when the right wall holds the focal point
+  if (v.density >= 2) items.push(faceRight ? ["sideboard", W * 0.25, 30, 170, 45, pick(cols, "wood", "secondary"), 0, 2] : ["sideboard", W - 30, D * 0.55, 45, 170, pick(cols, "wood", "secondary"), 0, 2]);
+  // the side table stands at the end of the sofa, away from the back wall
+  if (v.density >= 3) items.push(faceLeft ? ["side table", gx + side * (tW / 2 + gap + sofaD / 2), gy + (gy < D / 2 ? 1 : -1) * (sofaW / 2 + 35), 40, 40, acc[1] ?? dark, rot(15), 20] : ["side table", gx - sofaW / 2 - 35, gy + tD / 2 + gap + sofaD / 2, 40, 40, acc[1] ?? dark, rot(15), 20]);
   if (bil && !faceLeft) items.push(["side table", gx + sofaW / 2 + 35, gy + tD / 2 + gap + sofaD / 2, 40, 40, acc[1] ?? dark, 0, 20]);
   if (v.density >= 4) items.push(["plant", 45, D - 45, 50, 50, "#6b8f5a", 0, 25], ["chair", W * 0.2, D * 0.82, 70, 70, acc[2] ?? soft2, rot(30), 35]);
   // the rug is a translucent field, so the pieces on it stay readable
@@ -275,6 +284,8 @@ function elevation(s) {
   const wall = pick(cols, "dominant"), floor = pick(cols, "wood", "dominant"), soft = pick(cols, "secondary");
   const acc = all(cols, "accent"), dark = pick(cols, "accent", "metal");
   const y = (cm) => H - cm; // elevation: y down from the ceiling
+  const hang = o.hang_centre_cm; // null: the style hangs no art
+  const focusAt = hang ?? 120; // the focal marker sits at eye height when there is no art
   const focalOnWall = !["left", "window"].includes(c.focal_wall);
   const fxp = (focalOnWall ? c.focal_position : 0.5) * W;
   const out = [];
@@ -291,9 +302,9 @@ function elevation(s) {
   if (c.focal_wall === "back" || c.focal_wall === "window") out.push(rect(fxp - 80, y(seat + 30), 160, seat + 30, pick(cols, "wood", "secondary"), 'stroke="#00000044"'));
   if (c.focal_wall === "centre") out.push(rect(fxp - 45, y(190), 90, 190, acc[0] ?? dark, 'stroke="#00000044"'), rect(fxp - 45, y(130), 90, 8, acc[1] ?? dark), rect(fxp - 45, y(70), 90, 8, acc[2] ?? dark));
   // art at the hang centre
-  if (o.hang_centre_cm > 0 && c.focal_wall !== "window") {
+  if (hang != null && c.focal_wall !== "window") {
     const aw = 60 + v.ornamentation * 12, ah = aw * 0.75;
-    out.push(rect(fxp - aw / 2, y(o.hang_centre_cm + ah / 2), aw, ah, acc[0] ?? soft, 'stroke="#00000066" stroke-width="3"'));
+    out.push(rect(fxp - aw / 2, y(hang + ah / 2), aw, ah, acc[0] ?? soft, 'stroke="#00000066" stroke-width="3"'));
   }
   // seats seen from the side of the room, at their seat height
   out.push(rect(W * 0.08, y(seat + 30), 120, seat + 30, soft, 'rx="6" stroke="#00000044"'), rect(W * 0.08, y(seat), 120, 6, "#00000018"));
@@ -303,15 +314,15 @@ function elevation(s) {
   const ov = [];
   ov.push(`<g class="ov-thirds" stroke="#868e96" stroke-dasharray="2 6" stroke-width="1.5">${[1, 2].map((i) => `<line x1="${(W * i) / 3}" y1="0" x2="${(W * i) / 3}" y2="${H}"/><line x1="0" y1="${(H * i) / 3}" x2="${W}" y2="${(H * i) / 3}"/>`).join("")}</g>`);
   if (c.axis_count >= 1 && c.symmetry !== "free") ov.push(`<line class="ov-axis" x1="${c.symmetry === "bilateral" ? W / 2 : fxp}" y1="-20" x2="${c.symmetry === "bilateral" ? W / 2 : fxp}" y2="${H + 18}" stroke="var(--overlay)" stroke-width="2.5" stroke-dasharray="14 6 3 6"/>`);
-  ov.push(`<g class="ov-focal"><circle cx="${fxp}" cy="${y(o.hang_centre_cm || 120)}" r="26" fill="none" stroke="var(--overlay)" stroke-width="3"/><text x="${fxp + 32}" y="${y(o.hang_centre_cm || 120) - 18}" fill="var(--overlay)" font-weight="650">focal</text></g>`);
-  if (o.hang_centre_cm > 0) ov.push(`<g class="ov-focal"><line x1="-50" y1="${y(o.hang_centre_cm)}" x2="${W}" y2="${y(o.hang_centre_cm)}" stroke="var(--overlay)" stroke-dasharray="3 4"/><text x="-8" y="${y(o.hang_centre_cm) + 4}" text-anchor="end" fill="var(--overlay)">${o.hang_centre_cm}</text></g>`);
+  ov.push(`<g class="ov-focal"><circle cx="${fxp}" cy="${y(focusAt)}" r="26" fill="none" stroke="var(--overlay)" stroke-width="3"/><text x="${fxp + 32}" y="${y(focusAt) - 18}" fill="var(--overlay)" font-weight="650">focal</text></g>`);
+  if (hang != null) ov.push(`<g class="ov-focal"><line x1="-50" y1="${y(hang)}" x2="${W}" y2="${y(hang)}" stroke="var(--overlay)" stroke-dasharray="3 4"/><text x="-8" y="${y(hang) + 4}" text-anchor="end" fill="var(--overlay)">${hang}</text></g>`);
   ov.push(`<g class="ov-route"><line x1="-50" y1="${y(seat)}" x2="${W * 0.08}" y2="${y(seat)}" stroke="var(--route)" stroke-dasharray="3 4"/><text x="-8" y="${y(seat) + 4}" text-anchor="end" fill="var(--route)">seat ${seat}</text></g>`);
   const tint = kelvin(L.cct_k);
-  ov.push(`<g class="ov-light" style="mix-blend-mode:multiply"><ellipse cx="${W / 2}" cy="${y(150)}" rx="${Math.sqrt(L.ambient_lux) * 18}" ry="${Math.sqrt(L.ambient_lux) * 10}" fill="url(#eglow)"/><path d="M${fxp - 20} -2 L${fxp - 20 - 9 * L.accent_ratio} ${y(o.hang_centre_cm || 120) + 60} L${fxp + 20 + 9 * L.accent_ratio} ${y(o.hang_centre_cm || 120) + 60} L${fxp + 20} -2 Z" fill="${tint}" opacity="${Math.min(0.55, 0.08 * L.accent_ratio)}"/></g>`);
+  ov.push(`<g class="ov-light" style="mix-blend-mode:multiply"><ellipse cx="${W / 2}" cy="${y(150)}" rx="${Math.sqrt(L.ambient_lux) * 18}" ry="${Math.sqrt(L.ambient_lux) * 10}" fill="url(#eglow)"/><path d="M${fxp - 20} -2 L${fxp - 20 - 9 * L.accent_ratio} ${y(focusAt) + 60} L${fxp + 20 + 9 * L.accent_ratio} ${y(focusAt) + 60} L${fxp + 20} -2 Z" fill="${tint}" opacity="${Math.min(0.55, 0.08 * L.accent_ratio)}"/></g>`);
   ov.push(`<text class="ov-light" x="${W}" y="-12" text-anchor="end" fill="var(--light)" font-weight="650">accent ${L.accent_ratio}:1 on the focal point</text>`);
   out.push(`<text x="-8" y="${y(0) + 4}" text-anchor="end" fill="#5d5d66">0 cm</text><text x="-8" y="${y(H) + 10}" text-anchor="end" fill="#5d5d66">${H} cm</text>`);
   $("elev").innerHTML = `<defs><radialGradient id="eglow"><stop offset="0" stop-color="${tint}" stop-opacity=".7"/><stop offset="1" stop-color="${tint}" stop-opacity="0"/></radialGradient></defs>${out.join("")}${ov.join("")}`;
-  $("elev-cap").textContent = `${c.focal_point} Art centre at ${o.hang_centre_cm || "—"} cm, seat at ${seat} cm, rhythm module ${m} cm, ${c.depth_layers} depth layers.`;
+  $("elev-cap").textContent = `${c.focal_point} ${hang == null ? "No hung art" : `Art centre at ${hang} cm`}, seat at ${seat} cm, rhythm module ${m} cm, ${c.depth_layers} depth layers.`;
 }
 
 function palette(s) {
