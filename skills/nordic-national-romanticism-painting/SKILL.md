@@ -157,7 +157,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 | Id | Principle | Definition | Measure: typical range |
 |---|---|---|---|
-| `negative-space` | Negative space | The empty area around and between elements. It is a part of the composition, not a remainder. | empty floor area (% of floor): 40–80 in a room; empty wall area (% of wall): 50–95; empty frame area (% of image): 30–70 |
+| `negative-space` | Negative space | The empty area around and between elements. It is a part of the composition, not a remainder. | empty frame area (% of image): 30–70 |
 | `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repeated interval (cm or px): style module; repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive |
 | `colour-distribution` | Colour distribution | Each colour takes a planned share of the visible area: a dominant colour, a secondary colour and an accent. | dominant / secondary / accent share (% of visible surface): 60/30/10 as the default; 70/25/5 calm; 40/35/25 bold; accents (count): 1 to 3 |
 | `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
@@ -170,8 +170,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more luminous**: move toward [`impressionism`](../impressionism/SKILL.md) (Impressionism). Keep the northern landscape and the cool key; drop the contour, break the sky and water into touches of 5–15mm, and raise the value of the shadows.
 
 - **Mixes well with:** [`impressionism`](../impressionism/SKILL.md)
-- **Kin in another domain:** [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md)
-- **Nearest by vector profile:** [`baroque-painting`](../baroque-painting/SKILL.md), [`cubism-painting`](../cubism-painting/SKILL.md), [`impressionism`](../impressionism/SKILL.md)
+- **Kin in another domain:** [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
+- **Nearest by vector profile:** [`rococo-painting`](../rococo-painting/SKILL.md), [`realism-painting`](../realism-painting/SKILL.md), [`mannerism-painting`](../mannerism-painting/SKILL.md)
 
 ## Emotional target
 

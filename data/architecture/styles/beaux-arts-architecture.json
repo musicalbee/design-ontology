@@ -1,0 +1,278 @@
+{
+  "$schema": "../../../schema/domains/architecture.schema.json",
+  "id": "beaux-arts-architecture",
+  "domain": "architecture",
+  "name": "Beaux-Arts",
+  "aliases": [
+    "Second Empire",
+    "Academic classicism",
+    "American Renaissance"
+  ],
+  "era_id": "revival-and-academy",
+  "time_period": {
+    "start": 1860,
+    "end": 1920,
+    "label": "1860s–1910s"
+  },
+  "building_types": [
+    "civic",
+    "cultural",
+    "commercial"
+  ],
+  "summary": "A grand classical system taught at the École des Beaux-Arts in Paris: a clear plan on axes, a rich sculpted front with paired columns and a mansard roof. It made the opera house, the station and the city hall into public palaces.",
+  "philosophy": {
+    "core_thesis": "A great building is planned first: the parti is a clear sequence of axes, rooms and routes, and classical ornament and sculpture crown the plan.",
+    "design_principles": [
+      "Start from the plan: a main axis, one or two cross axes, and rooms in a hierarchy of size from the entrance hall to the grand salon.",
+      "Compose the front as a symmetric tripartite order: a base, a colonnade or giant order, and an attic or mansard roof.",
+      "Mark the central pavilion and the end pavilions by projecting 0.5 to 2m and by a higher roof.",
+      "Use paired columns and a rich classical entablature on the main storey, with sculpture groups on the attic.",
+      "Make a grand stair or hall of 15 to 25m height as the climax of the plan, in marble and gilding.",
+      "Join the building to the city: a front on a square or an avenue, with the axis continued by the street."
+    ],
+    "anti_patterns": [
+      "Plans without an axis or a clear hierarchy of rooms",
+      "Bare undecorated walls and flat roofs without sculpture",
+      "Asymmetric, picturesque compositions",
+      "Exposed steel frames and visible industrial structure on the front",
+      "Gothic or Romanesque motifs in the main order",
+      "Small, modest rooms in the main sequence"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "structural_expression": 1,
+    "geometric_rigidity": 4,
+    "material_rawness": 1,
+    "monumentality": 5
+  },
+  "massing": {
+    "form": "A symmetric block with a central pavilion, end pavilions and a long colonnade between, on a raised base.",
+    "proportion": "A front of 3:1 to 5:1; the central pavilion is 1.3 to 1.6 times the height of the wings.",
+    "roof": "A mansard roof in slate or copper with sculpted dormers, or a low dome over the central hall, and a balustrade with statues.",
+    "relation_to_ground": "A rusticated base of one storey, a wide flight of steps, and a forecourt on the axis of an avenue."
+  },
+  "structure": {
+    "system": "A steel or iron frame with a stone cladding, or load-bearing masonry; the orders and the sculpture are stone.",
+    "span_and_module": "Bays of 4.5 to 6m; the central hall spans 18 to 30m; the storey height of the piano nobile is 5 to 8m.",
+    "expression": "The frame is hidden under the stone; the orders state the order of the plan, not the load."
+  },
+  "materials": {
+    "primary": [
+      "limestone",
+      "marble",
+      "slate and copper roofing"
+    ],
+    "secondary": [
+      "gilded bronze",
+      "granite",
+      "cast iron and glass (hidden skylights)",
+      "mosaic"
+    ],
+    "finish": "Polished and carved: pale cut stone with rich marble, bronze and gilding inside.",
+    "palette": [
+      {
+        "name": "Cream limestone",
+        "hex": "#E4D9BD",
+        "role": "front and orders"
+      },
+      {
+        "name": "Slate",
+        "hex": "#4B515C",
+        "role": "mansard roof"
+      },
+      {
+        "name": "Verdigris copper",
+        "hex": "#6C9A8B",
+        "role": "domes and cresting"
+      },
+      {
+        "name": "Gilt",
+        "hex": "#C9A227",
+        "role": "sculpture and interior details"
+      },
+      {
+        "name": "Rouge marble",
+        "hex": "#7A2B2B",
+        "role": "stair and columns"
+      }
+    ]
+  },
+  "facade": {
+    "composition": "A symmetric front in three vertical tiers and three horizontal parts, with central and end pavilions, and sculpture groups.",
+    "openings": "Tall round-headed arches on the base, tall pedimented windows on the main floor; the window-to-wall ratio is 20 to 35%.",
+    "solid_to_void": "Solid leads: 65–80% opaque."
+  },
+  "light_and_space": {
+    "daylight": "Light enters from roof-lights and tall windows; the grand hall is lit from above by a glass dome.",
+    "spatial_sequence": "A planned sequence on the axis: vestibule, grand stair, foyer, then the main hall; the cross axis links the side halls.",
+    "interior_character": "Marble stairs, gilded balustrades, painted ceilings, sculpture in niches and a mosaic floor."
+  },
+  "ornament": {
+    "attitude": "Ornament is a rich public language: classical orders, sculpture and allegory tell the city what the building is for.",
+    "details": [
+      "paired columns",
+      "sculpture groups on the attic",
+      "carved keystones",
+      "swags and garlands",
+      "mansard dormers",
+      "gilded balustrades"
+    ]
+  },
+  "identity": {
+    "wikidata": "Q1268134"
+  },
+  "composition": {
+    "symmetry": "bilateral",
+    "axis_count": 2,
+    "rhythm_module_m": 5.0,
+    "rules": [
+      {
+        "principle": "symmetry-axis",
+        "rule": "Plan on a main axis and a cross axis, and continue the axis into the street.",
+        "value": "2 axes"
+      },
+      {
+        "principle": "hierarchy",
+        "rule": "Rank rooms by size from the vestibule to the grand salon.",
+        "value": "3–4 ranks"
+      },
+      {
+        "principle": "zoning",
+        "rule": "Group the public halls on the piano nobile and the services below and behind.",
+        "value": "public / service"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Lead the visitor along the axis by a grand stair to the main hall.",
+        "value": "1 ceremonial route"
+      },
+      {
+        "principle": "grouping",
+        "rule": "Group the front in a central pavilion and two end pavilions with a colonnade between.",
+        "value": "3 pavilions"
+      },
+      {
+        "principle": "focal-point",
+        "rule": "End the axis in the great hall under a glass dome.",
+        "value": "1 hall, 18–30m"
+      }
+    ]
+  },
+  "references": {
+    "images": [
+      {
+        "title": "Façade of the Opéra Garnier, Paris",
+        "credit": "Jastrow",
+        "licence": "Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Facade_opera_Garnier.jpg"
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "neoclassical-architecture",
+      "baroque-architecture"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Civic pride and grandeur: the viewer feels that the city offers a palace to every citizen.",
+    "keywords": [
+      "grand",
+      "ceremonial",
+      "symmetric",
+      "opulent",
+      "civic"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "beaux-arts",
+      "beaux arts architecture",
+      "opera garnier",
+      "grand central terminal",
+      "mansard roof",
+      "paired columns",
+      "gilded age",
+      "city hall",
+      "grand staircase hall"
+    ],
+    "use_cases": [
+      "opera house and station renders",
+      "city halls and libraries",
+      "grand hotels and banks",
+      "period film and game sets"
+    ],
+    "avoid_when": [
+      "The brief asks for a minimal, modern or low-key building.",
+      "The plan has no room for a main axis and a grand hall."
+    ],
+    "modifiers": [
+      {
+        "request": "plainer",
+        "toward": "neoclassical-architecture",
+        "how": "Strip the mansard, the sculpture groups and the paired columns; keep the symmetry, the portico and the pale stone."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "symmetric grand facade",
+      "paired columns",
+      "mansard roof",
+      "sculpture groups",
+      "central pavilion",
+      "grand marble staircase",
+      "glass dome",
+      "limestone and copper",
+      "avenue axis"
+    ],
+    "negative": [
+      "asymmetry",
+      "bare plain wall",
+      "flat roof",
+      "exposed steel frame",
+      "neon colour",
+      "informal composition"
+    ],
+    "canonical_works": [
+      {
+        "work": "Palais Garnier, Paris",
+        "architect": "Charles Garnier",
+        "year": 1875
+      },
+      {
+        "work": "Boston Public Library, McKim Building",
+        "architect": "McKim, Mead and White",
+        "year": 1895
+      },
+      {
+        "work": "Library of Congress, Jefferson Building",
+        "architect": "John L. Smithmeyer and Paul J. Pelz",
+        "year": 1897
+      },
+      {
+        "work": "Petit Palais, Paris",
+        "architect": "Charles Girault",
+        "year": 1900
+      },
+      {
+        "work": "Grand Central Terminal, New York",
+        "architect": "Reed and Stem; Warren and Wetmore",
+        "year": 1913
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Arthur Drexler (ed.), The Architecture of the École des Beaux-Arts (Museum of Modern Art, 1977)"
+    }
+  ]
+}

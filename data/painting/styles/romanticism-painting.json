@@ -1,0 +1,117 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "romanticism-painting",
+  "domain": "painting",
+  "name": "Romanticism",
+  "aliases": ["Romantic painting", "The Sublime"],
+  "era_id": "nineteenth-century",
+  "time_period": { "start": 1790, "end": 1863, "label": "1790–1860s" },
+  "region": "France, Britain and Germany",
+  "media": ["oil on canvas", "watercolour"],
+  "summary": "Pictures of storm, sea, ruin, passion and distant lands, in which feeling comes before rule. Nature is vast and the person is small; colour and brush carry the mood.",
+  "philosophy": {
+    "core_thesis": "A picture should move the viewer by emotion and by awe, and so the painter puts feeling, nature and imagination above the cool rules of the academy.",
+    "design_principles": [
+      "Make nature large and the figure small: a person at 5–15% of the picture height against a sky, a sea or a peak.",
+      "Open a deep space with a strong diagonal or a vortex, and lead the eye to a glowing horizon or a storm centre.",
+      "Use a dark, heavy foreground and a bright, burning distance: a value jump of 50% or more between them.",
+      "Choose a strong, warm and cold colour pair: a red or gold fire against a blue-green storm.",
+      "Show the hand: loose, wet strokes of 10–40mm in the sky and sea, and a hard edge only at the main figure.",
+      "Add a back-turned figure (Rückenfigur) or a wreck, so that the viewer stands inside the feeling.",
+      "Take the subject from history, literature, the exotic or the weather, and show the moment of peak action or loss."
+    ],
+    "anti_patterns": [
+      "Cool, rational order with a calm, balanced layout",
+      "Smooth, hidden brushwork and a polished finish",
+      "A bright, even light with no drama",
+      "Everyday, small and comfortable subjects",
+      "Figures that dominate and block the landscape",
+      "A narrow, low-contrast colour range"
+    ]
+  },
+  "vectors": { "abstraction": 2, "brushwork_visibility": 4, "chromatic_intensity": 4, "depth_illusion": 5, "line_dominance": 2 },
+  "composition": {
+    "layout": "A deep space with a strong diagonal or a swirl, a dark mass in the foreground, and a burning or stormy light near the horizon at 35–45% of the height.",
+    "focal_point": "A small figure, a wreck or a flare of light, set at one third from an edge, where the diagonal and the brightest value meet.",
+    "format": "A wide or square canvas at 4:3 to 3:2; large for a history scene, small for a mood piece; the sky takes 40–60% of the height.",
+    "principles": [
+      { "principle": "scale", "rule": "Set a figure at 5–15% of the picture height against a sky, a wave or a peak that fills 50% or more of the picture." },
+      { "principle": "contrast", "rule": "Make a jump of 50% or more in value between the dark foreground and the bright centre of light, and set warm against cold." },
+      { "principle": "leading-lines", "rule": "Lead the eye by one strong diagonal or a vortex at 30–50° from the horizontal to the point of light." },
+      { "principle": "focal-point", "rule": "Place the one bright flare or small figure at the third line, and keep the rest of the picture under value 60%." },
+      { "principle": "layering-depth", "rule": "Build 3 to 4 layers of depth: a dark front, a middle ground, and a far, hazy light, with a strong loss of detail at each step." },
+      { "principle": "colour-distribution", "rule": "Spend 60–70% of the area on a dark or stormy key, 20–30% on one glowing warm area, and 5–10% on a small accent." }
+    ]
+  },
+  "palette": {
+    "strategy": "A dark, stormy key of brown, grey-blue and green, with one burning area of gold, orange or red; strong contrast of warm against cold.",
+    "distribution": "Dark and mid-tone mass 60–70%, glowing light area 20–30%, accent colour under 10%.",
+    "ground": "A warm brown or red-brown ground that shows through the dark areas.",
+    "colours": [
+      { "name": "Storm grey-blue", "hex": "#4B5B6E", "pigment": "ultramarine, black and white", "role": "sky and sea" },
+      { "name": "Bitumen brown", "hex": "#3B2A1E", "pigment": "bitumen and umber", "role": "dark foreground" },
+      { "name": "Burning gold", "hex": "#E2A43A", "pigment": "Naples yellow and chrome yellow", "role": "light at the horizon" },
+      { "name": "Fire orange", "hex": "#D9602A", "pigment": "vermilion and orange", "role": "flame and sunset" },
+      { "name": "Crimson", "hex": "#9D2434", "pigment": "madder lake", "role": "cloth and blood" },
+      { "name": "Sea green", "hex": "#3E6B66", "pigment": "viridian and umber", "role": "water and shadow" },
+      { "name": "Cloud white", "hex": "#E8E2D4", "pigment": "lead white", "role": "high light" }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Oil paint with glazes and scumbles, and watercolour for rapid sketches of weather.",
+    "support": "Canvas, often large, on a warm brown ground.",
+    "brushwork": "Broad, wet strokes of 10–40mm in the sky and the sea, thicker dabs for the light, and fine strokes of 1–3mm at the figure.",
+    "paint_handling": "Thin dark glazes in the shadow, thick impasto of 2–5mm in the highlights; wet-in-wet blending of the sky.",
+    "edges": "Soft and lost edges in the sky, mist and sea; a hard edge at the main figure and the wreck."
+  },
+  "light_and_modelling": {
+    "light": "A dramatic, low or burning source: a sunset, a storm gap, a fire or moonlight, set deep in the picture.",
+    "modelling": "Strong, with 5–7 steps from dark to light; the form is shaped by the glow and loses detail in the dark.",
+    "shadow": "Deep and large, 40–60% of the picture, with warm browns; the dark area is a mass with little detail.",
+    "temperature": "A warm glow set against a cold storm; the warm area is small and the cold area is large."
+  },
+  "subject": {
+    "typical": "Storm and wreck at sea, mountain and ruin, a lone wanderer, a lion hunt, a battle, a poem or a myth, and the east as an exotic scene.",
+    "figure_scale": "Small, at 5–15% of the picture height; in a history scene, large figures at 50–80%.",
+    "treatment": "Emotional, vast and personal; nature is a force and the person feels small and moved."
+  },
+  "surface": {
+    "finish": "Semi-gloss with a rich varnish; the dark areas are deep.",
+    "texture": "Visible strokes in sky and sea, with thick, ridged light and smooth, thin shadow."
+  },
+  "reference_works": {
+    "works": [
+      { "work": "Fishing Boats with Hucksters Bargaining for Fish", "artist": "J. M. W. Turner", "date": "1837–38", "museum": "Art Institute of Chicago", "object_id": "4796", "public_domain": true },
+      { "work": "Valley of Aosta: Snowstorm, Avalanche, and Thunderstorm", "artist": "J. M. W. Turner", "date": "1836–37", "museum": "Art Institute of Chicago", "object_id": "109938", "public_domain": true },
+      { "work": "Lion Hunt", "artist": "Eugène Delacroix", "date": "1860–61", "museum": "Art Institute of Chicago", "object_id": "81505", "public_domain": true }
+    ],
+    "note": "Object ids were checked against the Art Institute of Chicago API (CC0 data). The Lion Hunt is a late work and the style at its most active. Look at the museum page for the image and its licence."
+  },
+  "prompt_primer": {
+    "positive": ["romantic painting", "sublime landscape", "stormy sky", "small figure against vast nature", "burning sunset light", "dramatic chiaroscuro", "loose wet brushwork", "shipwreck and sea", "turner and delacroix style", "warm glow against cold storm"],
+    "negative": ["calm symmetry", "polished smooth surface", "flat even light", "everyday domestic scene", "pastel colour", "tiny low-contrast palette"]
+  },
+  "lineage": { "evolved_from": [], "rebelled_against": ["rococo-painting"], "hybridized_with": [], "echoes": [] },
+  "emotion": {
+    "target_response": "Awe and longing: the viewer feels small before a great force, and stirred by it.",
+    "keywords": ["sublime", "stormy", "passionate", "vast", "melancholic"],
+    "brand_archetypes": ["explorer", "outlaw", "hero"]
+  },
+  "agent": {
+    "triggers": ["romanticism", "romantic painting", "turner", "delacroix", "friedrich", "sublime", "stormy sea", "wanderer", "gothic landscape"],
+    "use_cases": ["book and game cover art", "film poster for epic or sea stories", "travel, outdoor and expedition identity", "music and festival art"],
+    "avoid_when": [
+      "The brief needs a calm, technical or minimal mood.",
+      "The picture must show a small product in clear, even light."
+    ],
+    "modifiers": [
+      { "request": "more realistic", "toward": "realism-painting", "how": "Drop the storm and the flare; use a flat grey day, plain figures at work, and a brown, earthy key with no glow." },
+      { "request": "lighter and more broken", "toward": "impressionism", "how": "Keep the sky and the water; raise the key to value 60% or more, break the stroke into dabs of 10–20mm, and remove the dark foreground." }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q37068 (Romanticism)", "url": "https://www.wikidata.org/wiki/Q37068" },
+    { "title": "Art Institute of Chicago API (CC0 data)", "url": "https://api.artic.edu/docs/" },
+    { "title": "Edmund Burke, A Philosophical Enquiry into the Origin of Our Ideas of the Sublime and Beautiful (1757)" }
+  ]
+}

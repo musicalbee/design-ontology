@@ -158,7 +158,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 | Id | Principle | Definition | Measure: typical range |
 |---|---|---|---|
-| `negative-space` | Negative space | The empty area around and between elements. It is a part of the composition, not a remainder. | empty floor area (% of floor): 40–80 in a room; empty wall area (% of wall): 50–95; empty frame area (% of image): 30–70 |
+| `negative-space` | Negative space | The empty area around and between elements. It is a part of the composition, not a remainder. | empty frame area (% of image): 30–70 |
 | `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | frame area (% of the view): 10–35; frame planes (count): 1 to 2 |
 | `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
 | `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repeated interval (cm or px): style module; repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive |
@@ -172,8 +172,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **painterly**: move toward [`impressionism`](../impressionism/SKILL.md) (Impressionism). Keep the high horizon and the cropped foreground; replace the contour with visible strokes of 5–15mm and let the colour fields break into touches.
 
 - **Mixes well with:** [`impressionism`](../impressionism/SKILL.md)
-- **Kin in another domain:** [`flat-design`](../flat-design/SKILL.md)
-- **Nearest by vector profile:** [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`cubism-painting`](../cubism-painting/SKILL.md), [`de-stijl-painting`](../de-stijl-painting/SKILL.md)
+- **Kin in another domain:** [`flat-design`](../flat-design/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md)
+- **Nearest by vector profile:** [`mannerism-painting`](../mannerism-painting/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md), [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md)
 
 ## Emotional target
 

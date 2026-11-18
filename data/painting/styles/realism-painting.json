@@ -1,0 +1,117 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "realism-painting",
+  "domain": "painting",
+  "name": "Realism",
+  "aliases": ["Courbet realism", "Naturalism"],
+  "era_id": "nineteenth-century",
+  "time_period": { "start": 1848, "end": 1880, "label": "1848–1880" },
+  "region": "France",
+  "media": ["oil on canvas"],
+  "summary": "Ordinary people, work and country in plain light and earth colour. The painter shows life as it is, at life size, with no myth, no ideal and no sweetness.",
+  "philosophy": {
+    "core_thesis": "A picture should record the real world of its own time, and ordinary work and ordinary people are as worthy a subject as a king or a god.",
+    "design_principles": [
+      "Choose a subject from daily life: a peasant, a worker, a stonebreaker, a farm, a road.",
+      "Paint the figures at life size, or large against the picture, at 60–100% of its height.",
+      "Keep the light plain and from one side: an overcast day or a window, with no divine beam.",
+      "Hold the palette to earth colour: brown, ochre, grey, olive and a dull black, with one muted red or blue.",
+      "Build the form with a palette knife or a heavy brush in thick, matt paint, and leave rough edges.",
+      "Compose with the figures in a plain, near-frieze arrangement, off-centre, and cut by the edge as in life.",
+      "Add no moral, no idealised body and no story; show weight, dirt, wear and posture."
+    ],
+    "anti_patterns": [
+      "Gods, saints, heroes and exotic fantasy",
+      "Idealised, smooth and graceful bodies",
+      "Theatrical light and a dramatic sky",
+      "Bright, sweet or pastel colour",
+      "A tidy, symmetrical, heroic layout",
+      "Sentimental poses and a moral message"
+    ]
+  },
+  "vectors": { "abstraction": 1, "brushwork_visibility": 3, "chromatic_intensity": 2, "depth_illusion": 3, "line_dominance": 2 },
+  "composition": {
+    "layout": "A plain, frieze-like arrangement of life-size figures on a shallow stage, with a low horizon at 25–35% of the height and no central axis.",
+    "focal_point": "The main figure or tool, set off-centre at one third from an edge, in the lightest value of the picture.",
+    "format": "A large, wide canvas at 4:3 to 2:1 for a group scene, or a vertical canvas for a single figure; the edge cuts the figures and the land as in a snapshot.",
+    "principles": [
+      { "principle": "scale", "rule": "Paint the figures at 60–100% of the picture height, close to life size, so that the viewer stands among them." },
+      { "principle": "grouping", "rule": "Gather 2–5 figures into one tight cluster of 30–40% of the picture width, and leave a plain ground around it." },
+      { "principle": "balance", "rule": "Place the heavy figure mass off-centre and balance it with the large, plain land or sky at 40–50% of the area." },
+      { "principle": "colour-distribution", "rule": "Spend 70–80% of the area on earth browns, ochres and greys, and keep a muted accent of red or blue at 5–10%." },
+      { "principle": "lighting-layers", "rule": "Use one plain light from one side with a pale fill, and keep the shadow at value 25–40% with soft edges." },
+      { "principle": "hierarchy", "rule": "Make 2 levels: one lit figure or tool as the focus, and the rest in half-tone at 15–20% darker." }
+    ]
+  },
+  "palette": {
+    "strategy": "Earth colour in a low key: brown, ochre, olive and grey, with a dull black and one muted accent.",
+    "distribution": "Brown and ochre ground 40–50%, olive and grey land and sky 30–40%, black 10%, muted accent 5–10%.",
+    "ground": "A mid-brown or red-brown ground, painted over in thick, matt colour.",
+    "colours": [
+      { "name": "Raw umber", "hex": "#5C4733", "pigment": "raw umber", "role": "earth, cloth and shadow" },
+      { "name": "Yellow ochre", "hex": "#B88F4B", "pigment": "yellow ochre", "role": "lit ground and skin" },
+      { "name": "Olive green", "hex": "#5E6140", "pigment": "terre verte and ochre", "role": "field and leaf" },
+      { "name": "Slate grey", "hex": "#7A7F82", "pigment": "black and white with blue", "role": "overcast sky" },
+      { "name": "Dull black", "hex": "#22201D", "pigment": "ivory black", "role": "coat and deep shadow" },
+      { "name": "Muted red", "hex": "#9A4535", "pigment": "red ochre", "role": "a small accent" },
+      { "name": "Chalk white", "hex": "#DCD5C3", "pigment": "lead white", "role": "shirt and cloud" }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Oil paint, thick and stiff, bound with little oil.",
+    "support": "Large canvas on a brown or red-brown ground.",
+    "brushwork": "Broad, flat strokes of 10–30mm and a palette knife for land and rock; the touch is heavy and plain.",
+    "paint_handling": "2–3 layers of opaque, thick paint of 1–3mm, with dark glazes only in the deepest shadows.",
+    "edges": "Soft to middling edges; a hard edge only on a tool and a face, and the land has a rough, torn edge."
+  },
+  "light_and_modelling": {
+    "light": "Plain daylight from one side or a window: overcast and even, with no beam and no halo.",
+    "modelling": "Solid and weighty, with 4–5 steps; the form is built by value and not by line.",
+    "shadow": "Dark brown and soft, at value 25–40%, on one side of the form, with a pale reflected light.",
+    "temperature": "A neutral to warm-brown key with a cool grey sky; no strong warm and cool split."
+  },
+  "subject": {
+    "typical": "Peasants at work in the field, stonebreakers, washerwomen, a country burial, a farm, a road and a bourgeois portrait.",
+    "figure_scale": "Life size or large: 60–100% of the picture height.",
+    "treatment": "Plain, direct and unflattering; the work, the weight and the wear of the body are shown."
+  },
+  "surface": {
+    "finish": "Matt to satin, with no gloss.",
+    "texture": "Rough and thick: knife marks, ridges and a coarse canvas grain stay in view."
+  },
+  "reference_works": {
+    "works": [
+      { "work": "Mère Grégoire", "artist": "Gustave Courbet", "date": "1855, reworked 1857–59", "museum": "Art Institute of Chicago", "object_id": "4428", "public_domain": true },
+      { "work": "Peasants Going to Work", "artist": "Jean François Millet", "date": "1863", "museum": "Art Institute of Chicago", "object_id": "7733", "public_domain": true },
+      { "work": "Peasants Bringing Home a Calf Born in the Fields", "artist": "Jean François Millet", "date": "1864", "museum": "Art Institute of Chicago", "object_id": "111648", "public_domain": true }
+    ],
+    "note": "Object ids were checked against the Art Institute of Chicago API (CC0 data). Look at the museum page for the image and its licence."
+  },
+  "prompt_primer": {
+    "positive": ["realist painting", "peasant at work", "earth colour palette", "life size figures", "plain overcast light", "thick matt paint", "palette knife", "Courbet and Millet style", "ordinary daily life", "unidealised figure"],
+    "negative": ["gods and heroes", "idealised body", "dramatic sky", "pastel colour", "symmetric heroic layout", "sentimental pose"]
+  },
+  "lineage": { "evolved_from": [], "rebelled_against": ["romanticism-painting", "rococo-painting"], "hybridized_with": [], "echoes": ["straight-photography"] },
+  "emotion": {
+    "target_response": "Honest gravity: the viewer meets real work and real people, with respect and no comfort.",
+    "keywords": ["plain", "honest", "earthy", "weighty", "unsentimental"],
+    "brand_archetypes": ["everyman", "sage", "caregiver"]
+  },
+  "agent": {
+    "triggers": ["realism", "realist painting", "courbet", "millet", "daumier", "peasant painting", "stonebreakers", "social realism", "plain life"],
+    "use_cases": ["farm, craft and food provenance identity", "editorial on work, labour and the land", "documentary book and film cover", "portrait with a plain, honest tone"],
+    "avoid_when": [
+      "The brief needs glamour, fantasy or a bright, playful mood.",
+      "The picture must be abstract, stylised or ornamental."
+    ],
+    "modifiers": [
+      { "request": "lighter and fleeting", "toward": "impressionism", "how": "Keep the everyday subject; raise the key to value 60% or more, break the stroke into dabs of 10–20mm, and move the scene into open air." },
+      { "request": "more dramatic", "toward": "romanticism-painting", "how": "Keep the weight of the figure; add a stormy sky, a burning horizon at 35–45% of the height, and a strong warm and cold split." }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q10857409 (Realism)", "url": "https://www.wikidata.org/wiki/Q10857409" },
+    { "title": "Art Institute of Chicago API (CC0 data)", "url": "https://api.artic.edu/docs/" },
+    { "title": "Gustave Courbet, Manifesto of Realism (1855)" }
+  ]
+}
