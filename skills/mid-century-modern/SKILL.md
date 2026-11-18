@@ -242,6 +242,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **bolder**: move toward [`memphis-design`](../memphis-design/SKILL.md) (Memphis Design). Add pink and black with squiggle and confetti patterns on 3px outlines; keep the flat fills and the tilted blocks.
 
 - **Came from (go here for a more orthodox version):** [`bauhaus`](../bauhaus/SKILL.md)
+- **Led to (go here for a newer version):** [`pop-art-web`](../pop-art-web/SKILL.md)
+- **Was rejected by:** [`punk-zine`](../punk-zine/SKILL.md)
 - **Mixes well with:** [`swiss-international`](../swiss-international/SKILL.md)
 - **Kin in another domain:** [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md)
 - **Nearest by vector profile:** [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md), [`corporate-memphis`](../corporate-memphis/SKILL.md)

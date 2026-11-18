@@ -243,7 +243,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Led to (go here for a newer version):** [`glassmorphism`](../glassmorphism/SKILL.md)
-- **Mixes well with:** [`skeuomorphism`](../skeuomorphism/SKILL.md)
+- **Mixes well with:** [`skeuomorphism`](../skeuomorphism/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
 - **Nearest by vector profile:** [`spatial-visionos`](../spatial-visionos/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md), [`skeuomorphism`](../skeuomorphism/SKILL.md)
 
 ## Emotional target

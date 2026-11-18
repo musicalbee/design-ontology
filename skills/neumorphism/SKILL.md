@@ -239,7 +239,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`skeuomorphism`](../skeuomorphism/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
 - **Mixes well with:** [`glassmorphism`](../glassmorphism/SKILL.md)
-- **Nearest by vector profile:** [`glassmorphism`](../glassmorphism/SKILL.md), [`material-design`](../material-design/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md)
+- **Nearest by vector profile:** [`glassmorphism`](../glassmorphism/SKILL.md), [`material-design`](../material-design/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md)
 
 ## Emotional target
 

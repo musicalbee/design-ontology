@@ -109,13 +109,22 @@ Solid arrows show descent. Red dotted arrows show rejection. Grey dotted arrows 
 <!-- lineage:start -->
 ```mermaid
 flowchart LR
+  subgraph design_fin_de_siecle["Fin de Siècle · 1880–1918"]
+    art_nouveau_web["Art Nouveau (web)"]
+  end
   subgraph design_modernist["Modernist · 1919–1975"]
+    de_stijl_web["De Stijl (web)"]
     bauhaus["Bauhaus"]
+    constructivism_web["Constructivism (web)"]
+    art_deco_web["Art Deco (web)"]
     mid_century_modern["Mid-Century Modern"]
     swiss_international["Swiss International Style"]
+    rams_functionalism_ui["Rams Functionalism (UI)"]
+    pop_art_web["Pop Art (web)"]
     psychedelic["Psychedelic"]
   end
   subgraph design_postmodern_early_digital["Postmodern & Early Digital · 1976–2006"]
+    punk_zine["Punk Zine"]
     memphis_design["Memphis Design"]
     grunge_editorial["Grunge Editorial"]
     y2k_aesthetic["Y2K Aesthetic"]
@@ -124,6 +133,7 @@ flowchart LR
   subgraph design_touchscreen["Touchscreen · 2007–2018"]
     skeuomorphism["Skeuomorphism"]
     flat_design["Flat Design"]
+    vaporwave["Vaporwave"]
     material_design["Material Design"]
     corporate_memphis["Corporate Memphis"]
   end
@@ -157,9 +167,12 @@ flowchart LR
   bauhaus <-. echoes .-> bauhaus_interior
   bauhaus <-. echoes .-> international_style_architecture
   bauhaus_interior <-. echoes .-> international_style_architecture
+  brutalist_architecture <-. echoes .-> constructivism_web
   brutalist_architecture <-. echoes .-> neo_brutalism_ui
+  de_stijl_web <-. echoes .-> international_style_architecture
   dopamine_decor <-. echoes .-> memphis_design
   international_style_architecture <-. echoes .-> mid_century_modern_interior
+  international_style_architecture <-. echoes .-> rams_functionalism_ui
   international_style_architecture <-. echoes .-> swiss_international
   memphis_design <-. echoes .-> memphis_interior
   mid_century_modern <-. echoes .-> mid_century_modern_interior
@@ -178,10 +191,17 @@ flowchart LR
   bauhaus_interior --> mid_century_modern_interior
   flat_design --> neo_brutalism_ui
   skeuomorphism --> neumorphism
+  mid_century_modern --> pop_art_web
   japandi_interior --> quiet_luxury_interior
+  bauhaus --> rams_functionalism_ui
+  swiss_international --> rams_functionalism_ui
   shaker_interior --> scandinavian_interior
   glassmorphism --> spatial_visionos
   bauhaus --> swiss_international
+  y2k_aesthetic --> vaporwave
+  art_deco_web -. rejects .-> art_nouveau_web
+  constructivism_web -. rejects .-> art_nouveau_web
+  de_stijl_web -. rejects .-> art_nouveau_web
   dopamine_decor -. rejects .-> japandi_interior
   dopamine_decor -. rejects .-> scandinavian_interior
   flat_design -. rejects .-> skeuomorphism
@@ -193,6 +213,8 @@ flowchart LR
   neo_brutalism_ui -. rejects .-> material_design
   neumorphism -. rejects .-> flat_design
   psychedelic -. rejects .-> swiss_international
+  punk_zine -. rejects .-> mid_century_modern
+  punk_zine -. rejects .-> swiss_international
   quiet_luxury_interior -. rejects .-> dopamine_decor
   y2k_aesthetic -. rejects .-> grunge_editorial
   linkStyle 0 stroke:#8E8E93,stroke-width:1.5px
@@ -204,19 +226,27 @@ flowchart LR
   linkStyle 6 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 7 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 8 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 28 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 29 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 30 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 31 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 32 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 33 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 34 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 9 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 10 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 11 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 35 stroke:#E5484D,stroke-width:1.5px
   linkStyle 36 stroke:#E5484D,stroke-width:1.5px
   linkStyle 37 stroke:#E5484D,stroke-width:1.5px
   linkStyle 38 stroke:#E5484D,stroke-width:1.5px
   linkStyle 39 stroke:#E5484D,stroke-width:1.5px
   linkStyle 40 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 41 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 42 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 43 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 44 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 45 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 46 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 47 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 48 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 49 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 50 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 51 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 52 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 

@@ -1,0 +1,109 @@
+/*
+ * Rams Functionalism (UI) — tokens
+ * Generated from data/design/styles/rams-functionalism-ui.json by design-ontology. Do not edit.
+ * Use: put data-style="rams-functionalism-ui" on <html> or on any container.
+ */
+[data-style="rams-functionalism-ui"] {
+  --color-bg: #E9E7E2;
+  --color-surface: #D5D2CB;
+  --color-text: #2B2B2A;
+  --color-muted: #6B6A66;
+  --color-primary: #2B2B2A;
+  --color-accent: #E8590C;
+  --color-border: #C4C1BA;
+  --font-sans: "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --border-radius: 3px;
+  --border-width: 1px;
+  --shadow-elevation: none;
+  --backdrop-filter: none;
+  --space-unit: 4px;
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+  --duration: 120ms;
+  --color-on-bg: #2B2B2A;
+  --color-on-surface: #2B2B2A;
+  --color-on-primary: #E9E7E2;
+  --color-on-accent: #000000;
+  --color-muted-on-bg: #646361;
+  --color-muted-on-surface: #4D4C4A;
+  --color-link: #2B2B2A;
+  --color-link-on-surface: #2B2B2A;
+  --display-weight: 500;
+  --subhead-weight: 500;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 500;
+  --display-tracking: -0.01em;
+  --display-leading: 1.1;
+  --display-case: none;
+  --body-leading: 1.5;
+  --body-size: 16px;
+  --icon-stroke: 1.5;
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="rams-functionalism-ui"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="rams-functionalism-ui"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="rams-functionalism-ui"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="rams-functionalism-ui"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="rams-functionalism-ui"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="rams-functionalism-ui"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="rams-functionalism-ui"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="rams-functionalism-ui"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="rams-functionalism-ui"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="rams-functionalism-ui"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="rams-functionalism-ui"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="rams-functionalism-ui"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}
