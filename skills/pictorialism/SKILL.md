@@ -86,7 +86,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | negative-space | Leave 40–60% of the frame as quiet tone: mist, water or sky. |
 | rule-of-thirds | Set the figure on a third line, within 0.05 of 0.33 or 0.67 of the width. |
 | contrast | Keep the luminance step between figure and ground at 15–25% of the tonal range, so that edges melt. |
-| unity-variety | Use one toning hue for the whole print, and add no second hue. |
+| unity-variety | Use 1 toning hue for the whole print and 0 second hues; vary only tone, in 3 to 5 steps. |
 
 ## Light
 

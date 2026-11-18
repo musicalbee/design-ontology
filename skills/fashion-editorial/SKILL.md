@@ -85,7 +85,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 |---|---|
 | focal-point | Let 1 figure take 40–60% of the height; the eye goes to the face and then to the garment. |
 | negative-space | Leave 40–60% of the page empty for a title or a pull quote. |
-| balance | Use asymmetric balance: figure on one third, an object or a shadow on the other. |
+| balance | Use asymmetric balance: the figure on one third of the width, an object or a shadow on the opposite third, at a weight ratio of 0.6–0.8. |
 | leading-lines | Use 1 to 3 diagonals, a leg, an arm or a train, that run to the face. |
 | colour-distribution | Set 60% in one field, 30% in the garment hue and 10% in an accent such as lip or shoe. |
 
