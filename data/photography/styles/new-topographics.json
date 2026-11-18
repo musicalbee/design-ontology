@@ -1,0 +1,245 @@
+{
+  "$schema": "../../../schema/domains/photography.schema.json",
+  "id": "new-topographics",
+  "name": "New Topographics",
+  "aliases": [
+    "Deadpan landscape",
+    "Man-altered landscape"
+  ],
+  "era_id": "colour-and-topography",
+  "time_period": {
+    "start": 1975,
+    "end": 1985,
+    "label": "1975–1985"
+  },
+  "process": [
+    "analogue-bw"
+  ],
+  "summary": "Flat, neutral, frontal views of suburbs, car parks and industrial sites, with no drama and no opinion. It shows the built landscape as a catalogue of facts, in a cool, exact, almost clerical style.",
+  "philosophy": {
+    "core_thesis": "The ordinary, man-made landscape deserves the formal care that the sublime wilderness once received, and the photographer's voice should stay out of it.",
+    "design_principles": [
+      "Shoot frontally from a fixed height of 1.5m with the camera level, so that verticals stay parallel.",
+      "Wait for flat overcast or hazy light at a ratio of 2:1 or less, so that no shadow leads the eye.",
+      "Stand 10 to 50m from the subject, and fill 60% of the frame with ordinary built structure.",
+      "Use a view camera at f/22 to f/45 so that everything from the kerb to the horizon is sharp.",
+      "Keep the tonal scale narrow and neutral: black point at 5%, white point at 95%, with no toning.",
+      "Treat the subject as a type: photograph the same kind of object in a series, from the same distance and angle."
+    ],
+    "anti_patterns": [
+      "Dramatic skies, golden hour and sunset colour",
+      "Wide-angle distortion and tilted horizons",
+      "Picturesque framing that prettifies a car park or a tract house",
+      "Human emotion or an ironic gesture inside the frame",
+      "Heavy burning and dodging that adds mood",
+      "Saturated colour and decorative texture"
+    ]
+  },
+  "vectors": {
+    "staging": 2,
+    "tonal_contrast": 2,
+    "colour_saturation": 1,
+    "depth_of_field": 1,
+    "proximity": 1
+  },
+  "composition": {
+    "framing": "A calm, horizontal 4×5 or 8×10 frame; the subject sits in the middle band and the sky takes under 30%.",
+    "viewpoint": "Frontal, at 1.5m height, 10 to 50m from the subject, with level verticals.",
+    "geometry": "Orthogonal grids of houses, signs, lots and wires; the horizon runs at the same height in each picture of a series.",
+    "subject_placement": "Centred or evenly balanced; no subject is the hero, so the eye scans the whole frame."
+  },
+  "light": {
+    "quality": "Flat and shadowless: overcast, haze or open shade.",
+    "direction": "From everywhere; if the sun is out, it comes from behind the camera and does not draw a shadow edge.",
+    "key_to_fill_ratio": "2:1 or lower (1 stop or less)",
+    "colour_temperature": "6500K (overcast)",
+    "time_of_day": "Overcast day, or late morning haze"
+  },
+  "lens_and_camera": {
+    "format": "4×5 in or 8×10 in view camera; 6×7 medium format as a modern equivalent",
+    "focal_length": "150–210mm on 4×5 (about 40–55mm in 35mm format)",
+    "aperture": "f/22 to f/45",
+    "shutter": "1/15s to 1s on a tripod",
+    "film_speed": "ISO 100–125",
+    "focus": "Set the plane of sharp focus with a little front tilt to cover the kerb to the horizon.",
+    "support": "Tripod with a spirit level",
+    "equipment": [
+      "view camera with rising front",
+      "dark cloth",
+      "spirit level"
+    ]
+  },
+  "colour_and_grade": {
+    "treatment": "Neutral black and white with a narrow, even scale, or restrained, desaturated colour; no tone.",
+    "palette": [
+      {
+        "name": "Print black",
+        "hex": "#1D1E20",
+        "role": "deep shadows"
+      },
+      {
+        "name": "Asphalt grey",
+        "hex": "#55585B",
+        "role": "ground"
+      },
+      {
+        "name": "Overcast grey",
+        "hex": "#B4B7B9",
+        "role": "sky and stucco"
+      },
+      {
+        "name": "Paper white",
+        "hex": "#EFEFEC",
+        "role": "highlights"
+      }
+    ],
+    "grade_recipe": [
+      "Convert to monochrome with a neutral mix (R 33, G 33, B 33).",
+      "Set the black point at 5% and the white point at 95%.",
+      "Keep midtone contrast flat: a straight curve, with −10% contrast.",
+      "Match the exposure of each picture in a series to within 0.3 stop.",
+      "Apply no dodging, burning, vignette or tone.",
+      "Sharpen at radius 0.5px, amount 60%."
+    ],
+    "grain": "ISO 100 fine grain; not visible at 20 × 25 cm"
+  },
+  "subject_and_staging": {
+    "subjects": [
+      "tract houses",
+      "car parks",
+      "mobile homes",
+      "industrial parks",
+      "water towers",
+      "road edges"
+    ],
+    "staging": "None; the photographer chooses a spot and a time, and records the site as it is.",
+    "direction": "No people, or people small and incidental; no pose."
+  },
+  "post_processing": {
+    "workflow": [
+      "Develop normally and print on a neutral paper, grade 2.",
+      "Print each series to the same density and the same size.",
+      "Hang as a set in even rows of 20 to 40 pictures.",
+      "Add a plain caption of place and date."
+    ],
+    "output": "A small, quiet, grey print, about 20 × 25 cm, in a series with a plain caption."
+  },
+  "prompt_primer": {
+    "positive": [
+      "new topographics",
+      "deadpan",
+      "flat overcast light",
+      "frontal view",
+      "large format 4x5",
+      "suburban landscape",
+      "neutral grey print",
+      "everything in focus",
+      "level horizon",
+      "typological series"
+    ],
+    "negative": [
+      "dramatic sky",
+      "golden hour",
+      "wide angle distortion",
+      "HDR",
+      "vignette",
+      "saturated colour"
+    ],
+    "canonical_works": [
+      {
+        "work": "Mobile Homes, Jefferson County, Colorado",
+        "maker": "Robert Adams",
+        "year": 1973
+      },
+      {
+        "work": "The New Industrial Parks near Irvine, California",
+        "maker": "Lewis Baltz",
+        "year": 1974
+      },
+      {
+        "work": "New Topographics: Photographs of a Man-Altered Landscape",
+        "maker": "William Jenkins (curator)",
+        "year": 1975
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "straight-photography"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "new-colour"
+    ],
+    "echoes": [
+      "brutalist-architecture",
+      "international-style-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Cool attention: the viewer feels the plainness of a place and starts to read it, not to feel about it.",
+    "keywords": [
+      "deadpan",
+      "neutral",
+      "exact",
+      "quiet",
+      "typological"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "new topographics",
+      "deadpan",
+      "typology",
+      "suburban landscape",
+      "flat light",
+      "bernd and hilla becher",
+      "lewis baltz",
+      "robert adams"
+    ],
+    "use_cases": [
+      "architecture and real estate documentation",
+      "urban research",
+      "catalogue and archive imagery",
+      "brutalist and modernist building studies"
+    ],
+    "avoid_when": [
+      "The brief wants drama, glamour or emotional warmth.",
+      "The subject is a person and not a place."
+    ],
+    "modifiers": [
+      {
+        "request": "in colour",
+        "toward": "new-colour",
+        "how": "Switch to colour negative film at ISO 100; keep the frontal view, the level horizon and the flat light, and let the colour of signs and paint in."
+      },
+      {
+        "request": "more dramatic",
+        "toward": "straight-photography",
+        "how": "Wait for side light at 4:1, widen the tonal scale to a true black and white, and keep the large format and the f/45 aperture."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q655820: New Topographics",
+      "url": "https://www.wikidata.org/wiki/Q655820"
+    },
+    {
+      "title": "Getty AAT 300411288: New Topographics (ODC-By 1.0)",
+      "url": "https://vocab.getty.edu/aat/300411288"
+    },
+    {
+      "title": "Wikidata Q76188811: New Topographics: Photographs of a Man-Altered Landscape (SFMOMA 2010 exhibition)",
+      "url": "https://www.wikidata.org/wiki/Q76188811"
+    },
+    {
+      "title": "William Jenkins, New Topographics: Photographs of a Man-Altered Landscape (George Eastman House, 1975)"
+    }
+  ],
+  "domain": "photography"
+}

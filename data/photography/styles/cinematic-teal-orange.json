@@ -1,0 +1,250 @@
+{
+  "$schema": "../../../schema/domains/photography.schema.json",
+  "id": "cinematic-teal-orange",
+  "name": "Cinematic teal and orange",
+  "aliases": [
+    "Blockbuster grade",
+    "Orange and teal"
+  ],
+  "era_id": "digital-and-grade",
+  "time_period": {
+    "start": 2000,
+    "end": null,
+    "label": "2000–today"
+  },
+  "process": [
+    "digital",
+    "hybrid"
+  ],
+  "summary": "A staged, shallow-focus frame with warm orange skin against cool teal shadows, graded like a film still. It is a colour recipe from the digital intermediate, and it is now a default look of films, ads and image prompts.",
+  "philosophy": {
+    "core_thesis": "Two opposed hues, the warm skin and the cool environment, give a frame instant depth and a sense of cinema.",
+    "design_principles": [
+      "Light with a warm key at 3200 to 3500K and a cool fill or ambient at 5600 to 6500K, at a key-to-fill ratio of 4:1.",
+      "Shoot at 35 to 85mm (35mm format), f/1.8 to f/2.8, so the subject separates from the background by at least 2 stops of blur.",
+      "Grade the shadows to teal (hue 185° to 195°) and the skin and highlights to orange (hue 20° to 30°).",
+      "Reduce the other hues by 20 to 40% in saturation, so that the pair carries the image.",
+      "Frame at 2.39:1 or 16:9 with a subject on a third line and negative space with a leading line.",
+      "Add atmosphere: haze, backlight, practical lights and a vignette of −15%."
+    ],
+    "anti_patterns": [
+      "Even, neutral white balance on skin and shadow",
+      "Saturated greens, magentas and yellows that compete with the pair",
+      "Flat front light and a deep-focus background",
+      "Casual snapshot framing with no staging",
+      "Teal skin or orange sky from a heavy-handed hue shift",
+      "A uniform tint over the whole frame, with no separation"
+    ]
+  },
+  "vectors": {
+    "staging": 5,
+    "tonal_contrast": 4,
+    "colour_saturation": 4,
+    "depth_of_field": 4,
+    "proximity": 3
+  },
+  "composition": {
+    "framing": "A wide 2.39:1 or 16:9 frame with a controlled foreground and background.",
+    "viewpoint": "Eye level or slightly low, at 2 to 5m, with a lens of 35 to 85mm.",
+    "geometry": "Leading lines, a rim light and layered depth: foreground blur, subject, lit background.",
+    "subject_placement": "On a third line with look space; the subject takes 20–40% of the frame."
+  },
+  "light": {
+    "quality": "Controlled: a soft or semi-hard key, practicals and a haze that shows beams.",
+    "direction": "Three-quarter key from the side, rim light from behind, cool fill from the opposite side.",
+    "key_to_fill_ratio": "4:1 (2 stops)",
+    "colour_temperature": "Key 3200–3500K (warm); fill and ambient 5600–6500K (cool)",
+    "time_of_day": "Golden hour, blue hour or a lit night set"
+  },
+  "lens_and_camera": {
+    "format": "Full-frame or Super 35 sensor, 2.39:1 crop",
+    "focal_length": "35mm to 85mm (35mm format)",
+    "aperture": "f/1.8 to f/2.8",
+    "shutter": "1/50s at 24 fps (180° shutter); 1/125s for stills",
+    "film_speed": "ISO 400–800 (native)",
+    "focus": "Focus pulled to the eyes; the background falls into blur with oval bokeh from an anamorphic lens if used.",
+    "support": "Tripod, gimbal or dolly",
+    "equipment": [
+      "cinema prime lens",
+      "anamorphic adapter",
+      "haze machine",
+      "LED key and fill"
+    ]
+  },
+  "colour_and_grade": {
+    "treatment": "Complementary split: orange skin and highlights against teal shadows and background, with other hues pulled down.",
+    "palette": [
+      {
+        "name": "Teal shadow",
+        "hex": "#0F3B44",
+        "role": "shadows and background"
+      },
+      {
+        "name": "Cool mid",
+        "hex": "#2F7A83",
+        "role": "midtone ambient"
+      },
+      {
+        "name": "Orange skin",
+        "hex": "#D9894A",
+        "role": "skin and key highlights"
+      },
+      {
+        "name": "Warm highlight",
+        "hex": "#F3C48E",
+        "role": "rim and practicals"
+      },
+      {
+        "name": "Ink black",
+        "hex": "#06151A",
+        "role": "deep blacks"
+      }
+    ],
+    "grade_recipe": [
+      "Set the black point at 4% and a soft shoulder at 92% in a log or flat base.",
+      "Add an S-curve of +25% contrast around the midpoint of 18% grey.",
+      "Push shadows toward teal: hue 190°, saturation +30%, strength 35%.",
+      "Push highlights and skin toward orange: hue 25°, saturation +20%, strength 30%.",
+      "Lower the saturation of greens and magentas by −30% and of yellows by −20%.",
+      "Add a vignette of −15%, a halation glow at 8% and a 2.39:1 crop."
+    ],
+    "grain": "Fine film-emulation grain, amount 10%, size 20%"
+  },
+  "subject_and_staging": {
+    "subjects": [
+      "lead actor in portrait",
+      "city at night",
+      "desert road",
+      "car interior",
+      "rooftop",
+      "industrial set"
+    ],
+    "staging": "The scene is designed: costume, set colour and practical lights are chosen to land in the teal or orange family.",
+    "direction": "Posed with intent: a look off camera, a lit profile or a slow walk; the pose reads as a still from a story."
+  },
+  "post_processing": {
+    "workflow": [
+      "Shoot flat or in log with a neutral white balance.",
+      "Build a primary grade: exposure, contrast and white point.",
+      "Add the split: teal in the shadows and orange in the highlights with a hue-versus-hue curve.",
+      "Use a skin-tone qualifier to keep faces at hue 20°–30°.",
+      "Add halation, grain and a vignette, then crop to 2.39:1."
+    ],
+    "output": "A 2.39:1 still or a 16:9 frame in Rec. 709, with a look that holds when it is resized for a poster."
+  },
+  "prompt_primer": {
+    "positive": [
+      "cinematic still",
+      "teal and orange colour grade",
+      "anamorphic 2.39:1",
+      "shallow depth of field",
+      "85mm f/1.8",
+      "warm key light and cool fill",
+      "rim light",
+      "atmospheric haze",
+      "film grain",
+      "blockbuster look",
+      "teal shadows and orange skin"
+    ],
+    "negative": [
+      "flat lighting",
+      "snapshot",
+      "neutral white balance",
+      "deep focus",
+      "oversaturated greens",
+      "cartoon look"
+    ],
+    "canonical_works": [
+      {
+        "work": "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "maker": "Gore Verbinski",
+        "year": 2003
+      },
+      {
+        "work": "Transformers",
+        "maker": "Michael Bay",
+        "year": 2007
+      },
+      {
+        "work": "Skyfall",
+        "maker": "Sam Mendes",
+        "year": 2012
+      },
+      {
+        "work": "Mad Max: Fury Road",
+        "maker": "George Miller",
+        "year": 2015
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "new-colour"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Drama and scale: the viewer feels a story and a hero in a cool, large world.",
+    "keywords": [
+      "cinematic",
+      "dramatic",
+      "polished",
+      "moody",
+      "epic"
+    ],
+    "brand_archetypes": [
+      "hero",
+      "magician"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "teal and orange",
+      "orange and teal",
+      "cinematic",
+      "film still",
+      "blockbuster grade",
+      "movie look",
+      "anamorphic",
+      "colour grade"
+    ],
+    "use_cases": [
+      "film and trailer stills",
+      "automotive and tech campaigns",
+      "thumbnails and key art",
+      "image prompts for cinematic scenes"
+    ],
+    "avoid_when": [
+      "The brief needs documentary honesty or accurate product colour.",
+      "The look is already a cliché for the audience and a fresh grade is wanted."
+    ],
+    "modifiers": [
+      {
+        "request": "more natural",
+        "toward": "new-colour",
+        "how": "Remove the split toning, set white balance at 5500K and shoot at f/8; keep the saturation of the colour and the deep focus."
+      },
+      {
+        "request": "more raw",
+        "toward": "party-flash",
+        "how": "Replace the lit set with one on-camera flash at 8:1, drop the shallow focus and the vignette; keep the warm skin."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q1396390: color grading",
+      "url": "https://www.wikidata.org/wiki/Q1396390"
+    },
+    {
+      "title": "Wikidata Q166509: color photography",
+      "url": "https://www.wikidata.org/wiki/Q166509"
+    },
+    {
+      "title": "Steve Hullfish, The Art and Technique of Digital Color Correction (Focal Press, 2nd ed., 2012)"
+    }
+  ],
+  "domain": "photography"
+}

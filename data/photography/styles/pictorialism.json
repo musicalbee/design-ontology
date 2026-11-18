@@ -1,0 +1,246 @@
+{
+  "$schema": "../../../schema/domains/photography.schema.json",
+  "id": "pictorialism",
+  "name": "Pictorialism",
+  "aliases": [
+    "Photo-Secession look",
+    "Soft-focus art photography"
+  ],
+  "era_id": "art-photography",
+  "time_period": {
+    "start": 1885,
+    "end": 1914,
+    "label": "1885–1914"
+  },
+  "process": [
+    "analogue-bw"
+  ],
+  "summary": "Photography that borrows the look of drawing and etching. Soft-focus lenses, hand-worked pigment prints and warm toning blur the line between a photograph and a painting, to claim the status of art.",
+  "philosophy": {
+    "core_thesis": "A photograph is art when the maker's hand shows in the image, so the print must look made and not recorded.",
+    "design_principles": [
+      "Soften the image with a soft-focus lens or a diffusion filter so that edge sharpness falls to about 60% of a sharp lens.",
+      "Hold the tonal range narrow: lift the black point to 12–18% and roll the highlights off at 92–95%.",
+      "Tone the print warm: shadows near #3A2E26 and highlights near #E8DCC6, as in platinum or gum bichromate.",
+      "Light the subject from a large soft source, such as a north window or overcast sky, at a key-to-fill ratio of 2:1.",
+      "Compose like a picture: a few big tonal masses, a low horizon and a figure or object set slightly off centre.",
+      "Choose subjects with a mood, such as mist, evening, a pool, a woman in a loose dress or a bare tree, over a record of fact."
+    ],
+    "anti_patterns": [
+      "Crisp edge-to-edge sharpness and visible lens detail",
+      "Hard specular highlights and pure white paper",
+      "Saturated colour or a cool neutral grey print",
+      "Modern subjects shown without atmosphere, such as signs, cars and screens",
+      "Digital sharpening halos and clean clinical noise reduction",
+      "A flat documentary viewpoint at eye level with no tonal design"
+    ]
+  },
+  "vectors": {
+    "staging": 4,
+    "tonal_contrast": 2,
+    "colour_saturation": 2,
+    "depth_of_field": 4,
+    "proximity": 2
+  },
+  "composition": {
+    "framing": "A vertical or square-ish plate with generous empty space; the subject fills at most 40% of the frame.",
+    "viewpoint": "Eye level or slightly low, at 3 to 10m, with no wide-angle distortion.",
+    "geometry": "Big simple masses: a diagonal of mist, a curve of a bank, a single vertical tree; no sharp crossing lines.",
+    "subject_placement": "Off centre on a third line, with a quiet area of tone on the other side."
+  },
+  "light": {
+    "quality": "Soft and diffused, from window light, shade, mist or overcast sky, with no hard shadow edge.",
+    "direction": "From the side and slightly above, or behind the subject for a rim of haze.",
+    "key_to_fill_ratio": "2:1 (1 stop)",
+    "colour_temperature": "6500–7500K (overcast and shade); the warmth comes from the print, not the light",
+    "time_of_day": "Dusk, dawn or overcast day"
+  },
+  "lens_and_camera": {
+    "format": "Large format glass plate or sheet film, 5×7 in or 8×10 in, printed by contact",
+    "focal_length": "305–406mm on 8×10 (about 38–50mm in 35mm format)",
+    "aperture": "f/4.5 to f/8 with a soft-focus lens; f/16 with a pinhole or a plain lens and a diffusion filter",
+    "shutter": "1/4s to 2s, on a tripod",
+    "film_speed": "ISO 10–25 (orthochromatic plates)",
+    "focus": "Focus on the subject and let the soft-focus lens spread the spherical aberration; the eye falls on one small sharp area.",
+    "support": "Heavy tripod",
+    "equipment": [
+      "soft-focus portrait lens",
+      "gauze or silk diffusion",
+      "pinhole lens"
+    ]
+  },
+  "colour_and_grade": {
+    "treatment": "Monochrome with a warm or cool single-hue tone. The tone belongs to the paper and the pigment, so colour does not vary inside the image.",
+    "palette": [
+      {
+        "name": "Platinum black",
+        "hex": "#3A2E26",
+        "role": "shadows"
+      },
+      {
+        "name": "Warm mid-grey",
+        "hex": "#8A7B6A",
+        "role": "midtones"
+      },
+      {
+        "name": "Cream paper",
+        "hex": "#E8DCC6",
+        "role": "highlights"
+      },
+      {
+        "name": "Cyanotype blue",
+        "hex": "#2F4F6F",
+        "role": "alternative tone"
+      }
+    ],
+    "grade_recipe": [
+      "Convert to monochrome with a gentle red filter mix (R 60, G 40, B 0) to calm skin.",
+      "Lift the black point to 15% and cap the white point at 94%.",
+      "Lower midtone contrast by 20% with a long, flat S-curve.",
+      "Split-tone: shadows #3A2E26 at 30% strength, highlights #E8DCC6 at 20%.",
+      "Add a soft-focus layer: Gaussian blur of 1% of the long edge, 40% opacity, in Screen mode.",
+      "Add paper texture at 8% opacity and a vignette of −12%."
+    ],
+    "grain": "No film grain; a fine paper-fibre texture instead"
+  },
+  "subject_and_staging": {
+    "subjects": [
+      "woman in loose drapery",
+      "misty park",
+      "tree in fog",
+      "pool at evening",
+      "harbour in haze",
+      "bare winter branch"
+    ],
+    "staging": "The photographer arranges the figure, the costume and the setting, as a painter would, before the exposure.",
+    "direction": "Quiet, introspective poses, with the head turned away or the gaze lowered."
+  },
+  "post_processing": {
+    "workflow": [
+      "Develop the negative, then retouch it with pencil or etching knife by hand.",
+      "Print by contact in platinum, or in gum bichromate over platinum in two or three layers.",
+      "Brush the pigment to remove detail in the areas that should stay soft.",
+      "Mount on a tinted board with a wide margin."
+    ],
+    "output": "A small, tactile print, 20 to 30 cm on the long side, in a wide mount."
+  },
+  "prompt_primer": {
+    "positive": [
+      "soft focus",
+      "platinum print",
+      "gum bichromate",
+      "warm sepia tone",
+      "misty atmosphere",
+      "painterly",
+      "low contrast",
+      "1900s fine-art photograph",
+      "diffused window light",
+      "hand-worked print"
+    ],
+    "negative": [
+      "sharp detail",
+      "HDR",
+      "saturated colour",
+      "digital noise reduction",
+      "hard flash",
+      "modern clothing"
+    ],
+    "canonical_works": [
+      {
+        "work": "The Flatiron",
+        "maker": "Edward Steichen",
+        "year": 1904
+      },
+      {
+        "work": "Blessed Art Thou Among Women",
+        "maker": "Gertrude Käsebier",
+        "year": 1899
+      },
+      {
+        "work": "The Hand of Man",
+        "maker": "Alfred Stieglitz",
+        "year": 1902
+      },
+      {
+        "work": "The Soul of the Blasted Pine",
+        "maker": "Anne Brigman",
+        "year": 1908
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Reverie and quiet: the viewer feels a remembered scene, not a recorded one.",
+    "keywords": [
+      "dreamy",
+      "soft",
+      "wistful",
+      "painterly",
+      "hushed"
+    ],
+    "brand_archetypes": [
+      "lover",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "pictorialism",
+      "pictorialist",
+      "soft focus",
+      "platinum print",
+      "gum print",
+      "1900s portrait",
+      "painterly photo",
+      "fine-art sepia"
+    ],
+    "use_cases": [
+      "period portraits",
+      "heritage and archive brands",
+      "book covers",
+      "film stills set before 1920"
+    ],
+    "avoid_when": [
+      "The brief needs factual detail, product accuracy or legible small text.",
+      "The subject is a modern device or a fast action scene."
+    ],
+    "modifiers": [
+      {
+        "request": "sharper",
+        "toward": "straight-photography",
+        "how": "Close the aperture to f/64, drop the diffusion and the hand work, and keep the large format and the tonal range wide; the print becomes crisp and cool."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q851869: pictorialism",
+      "url": "https://www.wikidata.org/wiki/Q851869"
+    },
+    {
+      "title": "Getty AAT 300111559: Pictorialist (ODC-By 1.0)",
+      "url": "https://vocab.getty.edu/aat/300111559"
+    },
+    {
+      "title": "Getty AAT 300053501: gum bichromate process (ODC-By 1.0)",
+      "url": "https://vocab.getty.edu/aat/300053501"
+    },
+    {
+      "title": "Wikidata Q592156: Camera Work (quarterly journal)",
+      "url": "https://www.wikidata.org/wiki/Q592156"
+    },
+    {
+      "title": "Met Open Access 267838: Edward Steichen, The Flatiron, 1904 (cite only: the Met does not mark this object public domain)",
+      "url": "https://www.metmuseum.org/art/collection/search/267838"
+    },
+    {
+      "title": "Robert Doty, Photo-Secession: Stieglitz and the Fine-Art Movement in Photography (Dover, 1978)"
+    }
+  ],
+  "domain": "photography"
+}

@@ -1,0 +1,251 @@
+{
+  "$schema": "../../../schema/domains/photography.schema.json",
+  "id": "street-photography",
+  "name": "Street photography",
+  "aliases": [
+    "Candid street",
+    "Decisive moment"
+  ],
+  "era_id": "documentary-century",
+  "time_period": {
+    "start": 1930,
+    "end": null,
+    "label": "1930s–today"
+  },
+  "process": [
+    "analogue-bw",
+    "digital"
+  ],
+  "summary": "Unposed pictures of public life, made with a small camera, a wide lens and quick reflexes. The photographer finds the frame and waits for the moment when gesture, light and geometry agree.",
+  "philosophy": {
+    "core_thesis": "Public life holds pictures that nobody can stage, and the photographer's job is to be in the right place and to see them in time.",
+    "design_principles": [
+      "Use a 28mm or 35mm lens (35mm format) and stand 1 to 3m from the subject, so that context and person share the frame.",
+      "Zone-focus at f/8 to f/11 on a set distance of 2 to 3m, and keep the shutter at 1/250s or faster.",
+      "Shoot in found light: hard sun and deep shadow at a ratio of 8:1 or more, or the mixed light of a street at night.",
+      "Layer the frame: put at least three planes (foreground, subject, background) in it, and let edges and shadows cut figures.",
+      "Wait for the gesture: release when the hand, the gaze or the step is at its peak, within a 1/250s window.",
+      "Print with a hard grade: true black, bright highlights and visible grain."
+    ],
+    "anti_patterns": [
+      "Posed subjects who look at the lens and smile",
+      "Shallow depth of field that isolates a single face from the street",
+      "Telephoto compression from a hidden distance",
+      "Heavy retouching, cloning or removal of distracting people",
+      "Flat, even light with no shadow geometry",
+      "Staged scenes with props or hired models"
+    ]
+  },
+  "vectors": {
+    "staging": 1,
+    "tonal_contrast": 4,
+    "colour_saturation": 1,
+    "depth_of_field": 2,
+    "proximity": 4
+  },
+  "composition": {
+    "framing": "Tight and often tilted; the edges cut figures on purpose, and the frame is full.",
+    "viewpoint": "Eye or chest height, handheld, 1 to 3m from the subject.",
+    "geometry": "Diagonals, shadows and doorways make a stage; several small events share one frame.",
+    "subject_placement": "Off centre, in a pocket of light or against a clean wall, with a second figure or sign in balance."
+  },
+  "light": {
+    "quality": "Found light: hard direct sun or the mixed lights of the night street.",
+    "direction": "Low side light and backlight give long shadows and rim light.",
+    "key_to_fill_ratio": "8:1 or more (3 stops or more)",
+    "colour_temperature": "5500K (daylight); 2800–4000K for tungsten at night",
+    "time_of_day": "Early morning or late afternoon, when shadows are long"
+  },
+  "lens_and_camera": {
+    "format": "35mm rangefinder or compact SLR; digital full frame as a modern equivalent",
+    "focal_length": "28mm to 35mm (up to 50mm)",
+    "aperture": "f/8 to f/11 (f/2 only at night)",
+    "shutter": "1/250s to 1/1000s",
+    "film_speed": "ISO 400 (800–1600 pushed); at night ISO 1600–3200",
+    "focus": "Zone focus: set the distance to 2–3m at f/8 and do not refocus; the depth of field covers 1.5 to 6m.",
+    "support": "Handheld",
+    "equipment": [
+      "35mm rangefinder",
+      "28mm or 35mm prime",
+      "neck strap, no bag"
+    ]
+  },
+  "colour_and_grade": {
+    "treatment": "High-contrast black and white with a strong grain, or restrained colour that keeps the tone of the scene.",
+    "palette": [
+      {
+        "name": "Tri-X black",
+        "hex": "#0E0E0F",
+        "role": "deep shadows"
+      },
+      {
+        "name": "Concrete grey",
+        "hex": "#6F7173",
+        "role": "midtones"
+      },
+      {
+        "name": "Sunlit wall",
+        "hex": "#D8D6CF",
+        "role": "highlights"
+      },
+      {
+        "name": "Newsprint white",
+        "hex": "#F2F0EA",
+        "role": "clipped highlights"
+      }
+    ],
+    "grade_recipe": [
+      "Convert to monochrome with a yellow-orange filter mix (R 50, G 50, B 0).",
+      "Set the black point at 1% and the white point at 98%.",
+      "Apply +30% midtone contrast with a steep S-curve.",
+      "Burn the corners by −0.5 stop and dodge the face by +0.3 stop.",
+      "Add film grain, amount 25%, size 40%, as for Tri-X pushed one stop.",
+      "Keep the full frame; crop by no more than 5%."
+    ],
+    "grain": "Tri-X 400 at EI 800: coarse and visible at A4"
+  },
+  "subject_and_staging": {
+    "subjects": [
+      "pedestrians",
+      "shopfronts and signs",
+      "children at play",
+      "commuters",
+      "cafe terraces",
+      "market stalls"
+    ],
+    "staging": "None. The photographer picks a place with good light and waits, or walks and reacts.",
+    "direction": "Nobody is asked to pose; subjects are unaware of the camera or ignore it."
+  },
+  "post_processing": {
+    "workflow": [
+      "Develop in a standard developer; push by one stop when the light is low.",
+      "Make a work print of every frame on a contact sheet and mark the best moment.",
+      "Print on grade 3 to 4 paper with burning at the edges.",
+      "Keep the black frame edge visible to show the full frame."
+    ],
+    "output": "A grainy, high-contrast 8×10 in print, or a 4:5 digital file with the frame edge visible."
+  },
+  "prompt_primer": {
+    "positive": [
+      "candid street photograph",
+      "35mm Leica",
+      "28mm lens",
+      "Tri-X 400 pushed",
+      "harsh midday shadows",
+      "decisive moment",
+      "layered foreground and background",
+      "handheld",
+      "high contrast black and white",
+      "visible film grain"
+    ],
+    "negative": [
+      "posed portrait",
+      "shallow depth of field",
+      "studio lighting",
+      "HDR",
+      "smooth skin",
+      "telephoto compression"
+    ],
+    "canonical_works": [
+      {
+        "work": "Behind the Gare Saint-Lazare",
+        "maker": "Henri Cartier-Bresson",
+        "year": 1932
+      },
+      {
+        "work": "Meudon",
+        "maker": "André Kertész",
+        "year": 1928
+      },
+      {
+        "work": "Trolley—New Orleans",
+        "maker": "Robert Frank",
+        "year": 1955
+      },
+      {
+        "work": "New York World's Fair",
+        "maker": "Garry Winogrand",
+        "year": 1964
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "straight-photography"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "grunge-editorial"
+    ]
+  },
+  "emotion": {
+    "target_response": "Alertness and recognition: the viewer feels a moment that was nearly missed and is real.",
+    "keywords": [
+      "candid",
+      "urgent",
+      "witty",
+      "urban",
+      "unposed"
+    ],
+    "brand_archetypes": [
+      "explorer",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "street photography",
+      "candid",
+      "decisive moment",
+      "cartier-bresson",
+      "leica",
+      "tri-x",
+      "documentary street",
+      "gritty city photo"
+    ],
+    "use_cases": [
+      "editorial city stories",
+      "campaign imagery with a raw feel",
+      "photo books",
+      "image prompts for urban scenes"
+    ],
+    "avoid_when": [
+      "The brief needs a controlled product shot or a clean studio portrait.",
+      "The subject cannot appear in public, for reasons of consent or law."
+    ],
+    "modifiers": [
+      {
+        "request": "more polished and controlled",
+        "toward": "straight-photography",
+        "how": "Move to a tripod and a view camera, stop down to f/32, and wait for the light; keep the black and white and the strong tonal range."
+      },
+      {
+        "request": "in colour",
+        "toward": "new-colour",
+        "how": "Switch to colour slide film at ISO 64, f/8, 1/250s, and keep the found subject and the low angle; make colour the subject."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q1851397: street photography",
+      "url": "https://www.wikidata.org/wiki/Q1851397"
+    },
+    {
+      "title": "Wikidata Q156567: Henri Cartier-Bresson",
+      "url": "https://www.wikidata.org/wiki/Q156567"
+    },
+    {
+      "title": "Getty AAT 300134547: documentary photography (ODC-By 1.0)",
+      "url": "https://vocab.getty.edu/aat/300134547"
+    },
+    {
+      "title": "Henri Cartier-Bresson, The Decisive Moment (Simon & Schuster, 1952)"
+    },
+    {
+      "title": "Colin Westerbeck and Joel Meyerowitz, Bystander: A History of Street Photography (Bulfinch, 1994)"
+    }
+  ],
+  "domain": "photography"
+}

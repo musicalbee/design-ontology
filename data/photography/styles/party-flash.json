@@ -1,0 +1,262 @@
+{
+  "$schema": "../../../schema/domains/photography.schema.json",
+  "id": "party-flash",
+  "name": "Party flash",
+  "aliases": [
+    "Flash snapshot",
+    "Direct flash",
+    "On-camera flash"
+  ],
+  "era_id": "digital-and-grade",
+  "time_period": {
+    "start": 2008,
+    "end": null,
+    "label": "2008–today"
+  },
+  "process": [
+    "analogue-colour",
+    "digital"
+  ],
+  "summary": "A night-out picture lit by one hard flash on the camera. The subject glows against a falling-off, dark background, skin shines and colour is bold; the image looks candid, tipsy and slightly rude.",
+  "philosophy": {
+    "core_thesis": "The harsh direct flash is the honest light of a real night, and an image that looks unplanned and unflattering reads as truthful and as cool.",
+    "design_principles": [
+      "Put one flash on the camera axis, at 1.5 to 3m from the subject, with the flash at full or one stop under.",
+      "Let the background fall off by 2 to 3 stops, so that it drops to black or to a dark ambient colour.",
+      "Shoot at 28mm to 35mm (35mm format), f/2.8 to f/4, 1/60s or 1/30s to let some ambient light in (slow sync).",
+      "Keep the flash at 5500K against a warm tungsten ambient of 2800 to 3200K, and let the orange and blue split stay.",
+      "Frame the moment loosely: tilted, cut-off, with a friend half in and red eyes allowed.",
+      "Grade for punch: clip the highlights at 100%, crush the shadows to 0–5% and raise contrast by +30%."
+    ],
+    "anti_patterns": [
+      "Bounce flash, softboxes and diffused fill",
+      "A clean, even exposure of the room",
+      "Perfect skin, retouched shine and corrected red eye",
+      "Careful composition with a clear subject on a third",
+      "Pastel or low-contrast grading",
+      "A tripod or a posed group in rows"
+    ]
+  },
+  "vectors": {
+    "staging": 2,
+    "tonal_contrast": 5,
+    "colour_saturation": 3,
+    "depth_of_field": 2,
+    "proximity": 4
+  },
+  "composition": {
+    "framing": "Tight, tilted, in a 3:2 or 4:5 frame; people crowd the edges.",
+    "viewpoint": "Handheld at chest or face height, 1.5 to 3m, sometimes from the hip.",
+    "geometry": "Flat plane of lit faces against a dark void; a hard shadow on the wall behind the subject.",
+    "subject_placement": "Centred or off centre by chance; faces take 30–60% of the frame."
+  },
+  "light": {
+    "quality": "Hard direct flash, small source, strong specular shine on skin and glass.",
+    "direction": "From the camera axis, slightly above the lens; the shadow falls behind the subject.",
+    "key_to_fill_ratio": "8:1 or more (3 stops or more), flash to ambient",
+    "colour_temperature": "Flash 5500K; ambient 2800–3200K (tungsten) or coloured club light",
+    "time_of_day": "Night"
+  },
+  "lens_and_camera": {
+    "format": "35mm film compact or a digital compact or phone with a flash",
+    "focal_length": "28mm to 35mm (35mm format)",
+    "aperture": "f/2.8 to f/4",
+    "shutter": "1/60s to 1/30s (slow sync)",
+    "film_speed": "ISO 400 (film); 200 to 800 (digital)",
+    "focus": "Autofocus on the nearest face; the depth of field is 1 to 4m and the rest falls into the dark.",
+    "support": "Handheld",
+    "equipment": [
+      "35mm point-and-shoot with flash",
+      "digital compact",
+      "phone with flash"
+    ]
+  },
+  "colour_and_grade": {
+    "treatment": "High-contrast, warm-skin, with a black background and bold colours of clothes and lights; some blue-orange split from mixed light.",
+    "palette": [
+      {
+        "name": "Flash highlight",
+        "hex": "#FFF4E6",
+        "role": "shiny skin"
+      },
+      {
+        "name": "Skin under flash",
+        "hex": "#E3A48B",
+        "role": "faces"
+      },
+      {
+        "name": "Club black",
+        "hex": "#0B0A10",
+        "role": "background"
+      },
+      {
+        "name": "Tungsten orange",
+        "hex": "#C86B2A",
+        "role": "ambient spill"
+      },
+      {
+        "name": "Neon magenta",
+        "hex": "#C2307A",
+        "role": "colour accent"
+      }
+    ],
+    "grade_recipe": [
+      "Set the white point at 100% with 3% of the highlights clipped on skin.",
+      "Crush the black point to 3% and let the background fall to #0B0A10.",
+      "Add +30% contrast with a hard S-curve.",
+      "Raise saturation by +10% and keep the flash at 5500K against warm ambient.",
+      "Add film grain, amount 20%, size 30%, or JPEG noise of 8%.",
+      "Add a soft red-eye glow only when it is in the original."
+    ],
+    "grain": "ISO 400 colour film or sensor noise at ISO 800"
+  },
+  "subject_and_staging": {
+    "subjects": [
+      "friends at a club",
+      "house party",
+      "backstage",
+      "street at night",
+      "kitchen at 2 am",
+      "dance floor"
+    ],
+    "staging": "None; the photographer shoots in the crowd and the subject often grabs the camera.",
+    "direction": "Subjects lean in, laugh, pose in a messy group and look at the lens; nobody is directed."
+  },
+  "post_processing": {
+    "workflow": [
+      "Shoot the whole night; take 300 frames and keep 10.",
+      "Scan the film or import the JPEG; make no skin retouching.",
+      "Apply a single contrast and saturation preset to the set.",
+      "Post as an unedited carousel with the original crop."
+    ],
+    "output": "A square or 4:5 image on a screen, or a 4×6 in lab print with a white border."
+  },
+  "prompt_primer": {
+    "positive": [
+      "direct flash photography",
+      "on-camera flash",
+      "party snapshot",
+      "harsh flash shadows on the wall",
+      "dark background falloff",
+      "shiny skin",
+      "35mm point and shoot",
+      "red eye",
+      "night out",
+      "candid friends",
+      "slow sync flash"
+    ],
+    "negative": [
+      "softbox",
+      "bounce flash",
+      "retouched skin",
+      "studio lighting",
+      "even exposure",
+      "tripod"
+    ],
+    "canonical_works": [
+      {
+        "work": "The Critic",
+        "maker": "Weegee",
+        "year": 1943
+      },
+      {
+        "work": "The Ballad of Sexual Dependency",
+        "maker": "Nan Goldin",
+        "year": 1986
+      },
+      {
+        "work": "Go-Sees",
+        "maker": "Juergen Teller",
+        "year": 1999
+      },
+      {
+        "work": "The Kids Are Alright",
+        "maker": "Ryan McGinley",
+        "year": 2003
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "y2k-digicam"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "street-photography"
+    ],
+    "echoes": [
+      "grunge-editorial",
+      "y2k-aesthetic"
+    ]
+  },
+  "emotion": {
+    "target_response": "Immediacy and nerve: the viewer feels the heat of a crowded night and the thrill of being in the picture.",
+    "keywords": [
+      "raw",
+      "rowdy",
+      "intimate",
+      "unfiltered",
+      "nocturnal"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "party flash",
+      "flash photography",
+      "direct flash",
+      "on-camera flash",
+      "snapshot",
+      "nightlife photo",
+      "indie sleaze",
+      "disposable camera look"
+    ],
+    "use_cases": [
+      "fashion and music campaigns",
+      "nightlife and event coverage",
+      "social media content",
+      "image prompts for night scenes"
+    ],
+    "avoid_when": [
+      "The brief needs a flattering or premium product image.",
+      "Faces must look soft, calm or formal."
+    ],
+    "modifiers": [
+      {
+        "request": "more polished",
+        "toward": "cinematic-teal-orange",
+        "how": "Add a key light and a fill at 4:1, light the background, and grade to teal and orange; keep the night setting."
+      },
+      {
+        "request": "more documentary",
+        "toward": "street-photography",
+        "how": "Drop the flash, shoot in found light at ISO 1600, f/2 and 1/250s, and convert to grainy black and white."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q7547374: snapshot aesthetic",
+      "url": "https://www.wikidata.org/wiki/Q7547374"
+    },
+    {
+      "title": "Getty AAT 300134745: snapshots (ODC-By 1.0)",
+      "url": "https://vocab.getty.edu/aat/300134745"
+    },
+    {
+      "title": "Getty AAT 300181382: electronic flashes (ODC-By 1.0)",
+      "url": "https://vocab.getty.edu/aat/300181382"
+    },
+    {
+      "title": "Wikidata Q173095: digital photography",
+      "url": "https://www.wikidata.org/wiki/Q173095"
+    },
+    {
+      "title": "Nan Goldin, The Ballad of Sexual Dependency (Aperture, 1986)"
+    }
+  ],
+  "domain": "photography"
+}

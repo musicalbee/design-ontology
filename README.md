@@ -138,12 +138,37 @@ flowchart LR
     international_style_architecture["International Style"]
     brutalist_architecture["Brutalism"]
   end
+  subgraph photography_art_photography["Photography · Photography as art · 1885–1950"]
+    pictorialism["Pictorialism"]
+    straight_photography["Straight photography"]
+  end
+  subgraph photography_documentary_century["Photography · The small camera · 1930–today"]
+    street_photography["Street photography"]
+  end
+  subgraph photography_colour_and_topography["Photography · Colour and the topographic turn · 1970–1990"]
+    new_colour["New Colour"]
+    new_topographics["New Topographics"]
+  end
+  subgraph photography_digital_and_grade["Photography · Digital and the grade · 1999–today"]
+    y2k_digicam["Y2K digicam"]
+    cinematic_teal_orange["Cinematic teal and orange"]
+    party_flash["Party flash"]
+  end
   bauhaus <-. echoes .-> international_style_architecture
   brutalist_architecture <-. echoes .-> neo_brutalism_ui
+  brutalist_architecture <-. echoes .-> new_topographics
+  grunge_editorial <-. echoes .-> party_flash
+  grunge_editorial <-. echoes .-> street_photography
+  international_style_architecture <-. echoes .-> new_topographics
+  international_style_architecture <-. echoes .-> straight_photography
   international_style_architecture <-. echoes .-> swiss_international
+  party_flash <-. echoes .-> y2k_aesthetic
+  straight_photography <-. echoes .-> swiss_international
+  y2k_aesthetic <-. echoes .-> y2k_digicam
   flat_design --> bento_grid_ui
   swiss_international --> bento_grid_ui
   international_style_architecture --> brutalist_architecture
+  new_colour --> cinematic_teal_orange
   flat_design --> corporate_memphis
   memphis_design --> corporate_memphis
   swiss_international --> flat_design
@@ -153,8 +178,13 @@ flowchart LR
   bauhaus --> mid_century_modern
   flat_design --> neo_brutalism_ui
   skeuomorphism --> neumorphism
+  street_photography --> new_colour
+  straight_photography --> new_topographics
+  y2k_digicam --> party_flash
   glassmorphism --> spatial_visionos
+  straight_photography --> street_photography
   bauhaus --> swiss_international
+  new_colour --> y2k_digicam
   flat_design -. rejects .-> skeuomorphism
   grunge_editorial -. rejects .-> swiss_international
   memphis_design -. rejects .-> swiss_international
@@ -162,18 +192,28 @@ flowchart LR
   neo_brutalism_ui -. rejects .-> material_design
   neumorphism -. rejects .-> flat_design
   psychedelic -. rejects .-> swiss_international
+  straight_photography -. rejects .-> pictorialism
   y2k_aesthetic -. rejects .-> grunge_editorial
   linkStyle 0 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 1 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 2 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 17 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 18 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 19 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 20 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 21 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 22 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 23 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 24 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 3 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 4 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 5 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 6 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 7 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 8 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 9 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 10 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 31 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 32 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 33 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 34 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 35 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 36 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 37 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 38 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 39 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 

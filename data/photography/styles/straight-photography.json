@@ -1,0 +1,262 @@
+{
+  "$schema": "../../../schema/domains/photography.schema.json",
+  "id": "straight-photography",
+  "name": "Straight photography",
+  "aliases": [
+    "Pure photography",
+    "Group f/64 look"
+  ],
+  "era_id": "art-photography",
+  "time_period": {
+    "start": 1915,
+    "end": 1950,
+    "label": "1915–1950"
+  },
+  "process": [
+    "analogue-bw"
+  ],
+  "summary": "A sharp, unmanipulated print of a real thing, made on a large camera at a small aperture. The beauty comes from the medium itself: fine detail, a long tonal scale and exact focus from front to back.",
+  "philosophy": {
+    "core_thesis": "Photography is an art of its own when it shows the world with the full detail and tonal range that only a camera can record.",
+    "design_principles": [
+      "Stop down to f/32–f/64 on a view camera so that detail is sharp from the front to the horizon.",
+      "Previsualise the print: place the deepest shadow with detail on Zone III and the brightest textured highlight on Zone VII.",
+      "Fill the range: the print holds a true black (Dmax) and a clean paper white, with 8 to 10 steps between.",
+      "Choose a form that has its own pattern, such as a pepper, a dune or a shell, and fill the frame with it.",
+      "Print at full frame by contact, with no cropping, dodging beyond 1 stop or retouching.",
+      "Light the subject with clear, directional daylight at a ratio of 4:1 to 8:1 to model form."
+    ],
+    "anti_patterns": [
+      "Soft-focus lenses, diffusion or brushed pigment",
+      "Tricks of the darkroom that change the scene, such as montage",
+      "Cropping a negative to rescue a weak composition",
+      "Muddy mid-grey prints with no true black or white",
+      "Sentimental or anecdotal subjects",
+      "Warm sepia toning that hides the silver"
+    ]
+  },
+  "vectors": {
+    "staging": 2,
+    "tonal_contrast": 4,
+    "colour_saturation": 1,
+    "depth_of_field": 1,
+    "proximity": 3
+  },
+  "composition": {
+    "framing": "Full-frame contact print; the format is 8×10 and the crop is the edge of the negative.",
+    "viewpoint": "Close and frontal on natural forms, or a clean distant view of a landscape at eye or tripod height.",
+    "geometry": "Strong patterns and repeated textures; edge-to-edge tonal balance, with no empty sky.",
+    "subject_placement": "Centred or filling the frame for objects; on a third for landscapes, with a clear foreground."
+  },
+  "light": {
+    "quality": "Hard to medium, directional daylight that models form and shows texture.",
+    "direction": "Side light at 45° to 90°, or soft light from a north window for still life.",
+    "key_to_fill_ratio": "4:1 to 8:1 (2 to 3 stops)",
+    "colour_temperature": "5500K (daylight)",
+    "time_of_day": "Morning or late afternoon; midday only for still life in shade"
+  },
+  "lens_and_camera": {
+    "format": "8×10 in or 4×5 in view camera, contact or enlarged print",
+    "focal_length": "210–360mm on 8×10 (about 28–47mm in 35mm format)",
+    "aperture": "f/32 to f/64",
+    "shutter": "1s to 8s on a tripod",
+    "film_speed": "ISO 25–100",
+    "focus": "Tilt and swing to put the plane of sharp focus through the nearest and the farthest detail.",
+    "support": "Heavy wooden tripod",
+    "equipment": [
+      "view camera",
+      "orange or red filter for skies",
+      "cable release",
+      "spot meter"
+    ]
+  },
+  "colour_and_grade": {
+    "treatment": "Neutral to slightly cool black-and-white on glossy silver gelatin paper, with a long scale and a true black.",
+    "palette": [
+      {
+        "name": "Silver black",
+        "hex": "#0B0B0C",
+        "role": "Zone 0–I shadow"
+      },
+      {
+        "name": "Deep grey",
+        "hex": "#3B3C3E",
+        "role": "Zone III"
+      },
+      {
+        "name": "Mid grey",
+        "hex": "#808284",
+        "role": "Zone V"
+      },
+      {
+        "name": "Light grey",
+        "hex": "#C9CBCC",
+        "role": "Zone VII"
+      },
+      {
+        "name": "Paper white",
+        "hex": "#F4F4F2",
+        "role": "Zone IX"
+      }
+    ],
+    "grade_recipe": [
+      "Convert to monochrome with an orange filter mix (R 70, G 30, B 0) to darken skies.",
+      "Set the black point at 2% and the white point at 97%.",
+      "Apply an S-curve of +25% midtone contrast.",
+      "Keep each of the zones from III to VII visible as a separate step.",
+      "Sharpen at radius 0.6px, amount 80%, once, at the output size.",
+      "Add no vignette, no tone and no texture."
+    ],
+    "grain": "ISO 50–100 fine grain; invisible at 8×10 contact size"
+  },
+  "subject_and_staging": {
+    "subjects": [
+      "pepper or shell",
+      "dune",
+      "tree trunk",
+      "rock face",
+      "industrial detail",
+      "portrait in daylight"
+    ],
+    "staging": "Pick and place the subject with care; do not alter it. Clear the frame of anything that breaks the pattern.",
+    "direction": "Still and unposed; portraits face the lens with a plain gaze."
+  },
+  "post_processing": {
+    "workflow": [
+      "Develop each negative by the Zone System, with N−1, N or N+1 times to fit the light.",
+      "Make a contact print on glossy or semi-matt silver gelatin paper.",
+      "Spot dust only; do not retouch the content.",
+      "Print to a clean white border, with the edge of the negative visible."
+    ],
+    "output": "A glossy, high-resolution print at 20 × 25 cm, shown flat in a plain white mat."
+  },
+  "prompt_primer": {
+    "positive": [
+      "straight photography",
+      "large format 8x10",
+      "f/64",
+      "sharp from front to back",
+      "silver gelatin print",
+      "Zone System",
+      "rich tonal range",
+      "true blacks and clean whites",
+      "natural form close up",
+      "contact print"
+    ],
+    "negative": [
+      "soft focus",
+      "sepia tone",
+      "vignette",
+      "HDR",
+      "oversharpened halo",
+      "motion blur"
+    ],
+    "canonical_works": [
+      {
+        "work": "Wall Street",
+        "maker": "Paul Strand",
+        "year": 1915
+      },
+      {
+        "work": "Blind",
+        "maker": "Paul Strand",
+        "year": 1916
+      },
+      {
+        "work": "Pepper No. 30",
+        "maker": "Edward Weston",
+        "year": 1930
+      },
+      {
+        "work": "Two Callas",
+        "maker": "Imogen Cunningham",
+        "year": 1929
+      },
+      {
+        "work": "Moonrise, Hernandez, New Mexico",
+        "maker": "Ansel Adams",
+        "year": 1941
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "pictorialism"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "international-style-architecture",
+      "swiss-international"
+    ]
+  },
+  "emotion": {
+    "target_response": "Clarity and respect: the viewer feels that the thing is shown as it is, and that it is worth looking at closely.",
+    "keywords": [
+      "precise",
+      "clear",
+      "monumental",
+      "austere",
+      "sensual detail"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "straight photography",
+      "f/64",
+      "large format",
+      "zone system",
+      "ansel adams",
+      "edward weston",
+      "sharp black and white",
+      "fine art landscape"
+    ],
+    "use_cases": [
+      "landscape and nature prints",
+      "still life and product art",
+      "book and gallery imagery",
+      "architecture detail"
+    ],
+    "avoid_when": [
+      "The brief needs a candid, moving subject or a quick snapshot feel.",
+      "Colour is the message."
+    ],
+    "modifiers": [
+      {
+        "request": "softer and more romantic",
+        "toward": "pictorialism",
+        "how": "Open the aperture to f/8, add diffusion and a warm tone, and lift the black point to 15%; keep the large format and the quiet light."
+      },
+      {
+        "request": "more casual",
+        "toward": "street-photography",
+        "how": "Switch to a 35mm camera at f/8, shoot handheld and let the frame be found; keep the black and white and the strong light."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q1886249: straight photography",
+      "url": "https://www.wikidata.org/wiki/Q1886249"
+    },
+    {
+      "title": "Wikidata Q309961: Group f/64",
+      "url": "https://www.wikidata.org/wiki/Q309961"
+    },
+    {
+      "title": "Wikidata Q313055: Alfred Stieglitz",
+      "url": "https://www.wikidata.org/wiki/Q313055"
+    },
+    {
+      "title": "Ansel Adams, The Negative (Little, Brown, 1981): the Zone System"
+    },
+    {
+      "title": "Beaumont Newhall, The History of Photography (MoMA, 1982)"
+    }
+  ],
+  "domain": "photography"
+}
