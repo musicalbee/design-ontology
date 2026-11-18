@@ -152,7 +152,14 @@ function view(style: Style, domain: Domain) {
     principles: style.philosophy.design_principles,
     anti_patterns: style.philosophy.anti_patterns.map((p) => p.replace(/[.\s]+$/, "")),
     vectors: domain.vectors.map((v) => ({ ...v, score: style.vectors[v.key], bar: bar(style.vectors[v.key]) })),
-    facets: domain.facets.map((f) => ({ title: f.title, body: renderFacet(style[f.key] as Record<string, unknown>) })),
+    facets: domain.facets.map((f) => {
+      const data = style[f.key] as Record<string, unknown> | undefined;
+      const body = renderFacet(data ?? {});
+      // A facet with data must render. An array or an unknown shape renders nothing and the skill loses the facet.
+      if (!body && data && Object.values(data).some((v) => v != null && !(Array.isArray(v) && !v.length)))
+        throw new Error(`${style.id}: facet "${f.key}" has data, but renderFacet gave an empty body. Make the facet an object of known value shapes.`);
+      return { title: f.title, body };
+    }),
     tokens: style.tokens && {
       css: cssTokens(style).map(([name, value]) => ({ name, value })),
       tailwind: style.tokens.tailwind,
@@ -169,7 +176,7 @@ function view(style: Style, domain: Domain) {
     },
     composition_principles: principleRefs(style).map((id) => {
       const p = principles.get(id)!;
-      return { id, name: p.name, definition: p.definition, measures: p.measures.map((m) => `${m.measure} (${m.unit}): ${m.reference}`).join("; ") };
+      return { id, name: p.name, definition: p.definition, measures: p.measures.filter((m) => !m.domains || m.domains.includes(domain.id)).map((m) => `${m.measure} (${m.unit}): ${m.reference}`).join("; ") };
     }),
     primer: style.primer && {
       positive: style.primer.positive.join(", "),

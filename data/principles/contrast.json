@@ -11,12 +11,27 @@
     {
       "measure": "light reflectance value difference between adjacent planes",
       "unit": "LRV points",
-      "reference": "30 or more for a visible edge"
+      "reference": "30 or more for a visible edge",
+      "domains": [
+        "architecture",
+        "interior"
+      ]
     },
     {
       "measure": "text on its field",
       "unit": "luminance ratio",
-      "reference": "4.5:1 or more"
+      "reference": "4.5:1 or more",
+      "domains": [
+        "design"
+      ]
+    },
+    {
+      "measure": "brightest mass to deepest shadow in one frame",
+      "unit": "stops",
+      "reference": "3–4 flat; 5–8 hard, 8 or more for expressionist",
+      "domains": [
+        "film"
+      ]
     }
   ],
   "applies_to": [
@@ -24,7 +39,8 @@
     "architecture",
     "interior",
     "photography",
-    "painting"
+    "painting",
+    "film"
   ],
   "related": [
     "focal-point",
