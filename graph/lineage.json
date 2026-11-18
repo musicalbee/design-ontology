@@ -481,6 +481,21 @@
       }
     },
     {
+      "id": "minimalism-web",
+      "domain": "design",
+      "name": "Minimalism Web",
+      "era": "touchscreen",
+      "start": 2012,
+      "end": null,
+      "vectors": {
+        "ornamentation": 1,
+        "dimensionality": 1,
+        "grid_rigidity": 4,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 2
+      }
+    },
+    {
       "id": "vaporwave",
       "domain": "design",
       "name": "Vaporwave",
@@ -493,6 +508,21 @@
         "grid_rigidity": 2,
         "skeuomorphic_realism": 3,
         "typographic_expressiveness": 4
+      }
+    },
+    {
+      "id": "cyberpunk-web",
+      "domain": "design",
+      "name": "Cyberpunk Web",
+      "era": "touchscreen",
+      "start": 2013,
+      "end": null,
+      "vectors": {
+        "ornamentation": 4,
+        "dimensionality": 3,
+        "grid_rigidity": 3,
+        "skeuomorphic_realism": 2,
+        "typographic_expressiveness": 5
       }
     },
     {
@@ -523,6 +553,21 @@
         "grid_rigidity": 2,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 2
+      }
+    },
+    {
+      "id": "luxury-typography-web",
+      "domain": "design",
+      "name": "Luxury Typography Web",
+      "era": "touchscreen",
+      "start": 2014,
+      "end": null,
+      "vectors": {
+        "ornamentation": 3,
+        "dimensionality": 1,
+        "grid_rigidity": 4,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 5
       }
     },
     {
@@ -613,6 +658,21 @@
         "grid_rigidity": 4,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 2
+      }
+    },
+    {
+      "id": "surrealism-web",
+      "domain": "design",
+      "name": "Surrealism Web",
+      "era": "touchscreen",
+      "start": 2016,
+      "end": null,
+      "vectors": {
+        "ornamentation": 3,
+        "dimensionality": 4,
+        "grid_rigidity": 2,
+        "skeuomorphic_realism": 3,
+        "typographic_expressiveness": 3
       }
     },
     {
@@ -2288,6 +2348,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "airbrush-surrealism",
+      "to": "surrealism-web",
+      "type": "ECHOES"
+    },
+    {
       "from": "anti-design",
       "to": "deconstructivist-architecture",
       "type": "ECHOES"
@@ -2528,6 +2593,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "cyberpunk-web",
+      "to": "film-noir-still",
+      "type": "ECHOES"
+    },
+    {
       "from": "de-stijl-painting",
       "to": "de-stijl-web",
       "type": "ECHOES"
@@ -2753,6 +2823,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "luxury-typography-web",
+      "to": "quiet-luxury-interior",
+      "type": "ECHOES"
+    },
+    {
       "from": "memphis-design",
       "to": "memphis-interior",
       "type": "ECHOES"
@@ -2800,6 +2875,11 @@
     {
       "from": "mid-century-modern-interior",
       "to": "space-age",
+      "type": "ECHOES"
+    },
+    {
+      "from": "minimalism-web",
+      "to": "minimalist-interior",
       "type": "ECHOES"
     },
     {
@@ -2880,6 +2960,11 @@
     {
       "from": "straight-photography",
       "to": "swiss-international",
+      "type": "ECHOES"
+    },
+    {
+      "from": "surrealism-painting",
+      "to": "surrealism-web",
       "type": "ECHOES"
     },
     {
@@ -3238,6 +3323,16 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "luxury-typography-web",
+      "to": "art-deco-web",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "luxury-typography-web",
+      "to": "swiss-international",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "mannerism-painting",
       "to": "renaissance-painting",
       "type": "EVOLVED_FROM"
@@ -3270,6 +3365,16 @@
     {
       "from": "mid-century-modern-interior",
       "to": "bauhaus-interior",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "minimalism-web",
+      "to": "flat-design",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "minimalism-web",
+      "to": "swiss-international",
       "type": "EVOLVED_FROM"
     },
     {
@@ -3425,6 +3530,11 @@
     {
       "from": "street-photography",
       "to": "straight-photography",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "surrealism-web",
+      "to": "vaporwave",
       "type": "EVOLVED_FROM"
     },
     {
@@ -3669,6 +3779,11 @@
     },
     {
       "from": "cybercore-web",
+      "to": "cyberpunk-web",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "cybercore-web",
       "to": "synthwave-web",
       "type": "HYBRIDIZED_WITH"
     },
@@ -3685,6 +3800,21 @@
     {
       "from": "cyberdelia",
       "to": "y2k-aesthetic",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "cyberpunk-web",
+      "to": "dark-devtool-ui",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "cyberpunk-web",
+      "to": "synthwave-web",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "cyberpunk-web",
+      "to": "terminal-tui-web",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -3728,6 +3858,16 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "editorial-serif-revival",
+      "to": "luxury-typography-web",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "editorial-serif-revival",
+      "to": "minimalism-web",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "ethereal-web",
       "to": "frutiger-aero",
       "type": "HYBRIDIZED_WITH"
@@ -3735,6 +3875,11 @@
     {
       "from": "ethereal-web",
       "to": "liquid-glass-ui",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "ethereal-web",
+      "to": "surrealism-web",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -3833,6 +3978,11 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "luxury-typography-web",
+      "to": "minimalism-web",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "material-design",
       "to": "skeuomorphism",
       "type": "HYBRIDIZED_WITH"
@@ -3850,6 +4000,11 @@
     {
       "from": "mid-century-modern-interior",
       "to": "scandinavian-interior",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "minimalism-web",
+      "to": "surrealism-web",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -4013,6 +4168,16 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "cyberpunk-web",
+      "to": "flat-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "cyberpunk-web",
+      "to": "minimalism-web",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "de-stijl-web",
       "to": "art-nouveau-web",
       "type": "REBELLED_AGAINST"
@@ -4118,6 +4283,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "luxury-typography-web",
+      "to": "flat-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "memphis-design",
       "to": "swiss-international",
       "type": "REBELLED_AGAINST"
@@ -4139,6 +4309,11 @@
     },
     {
       "from": "metro-ui",
+      "to": "skeuomorphism",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "minimalism-web",
       "to": "skeuomorphism",
       "type": "REBELLED_AGAINST"
     },
@@ -4280,6 +4455,11 @@
     {
       "from": "straight-photography",
       "to": "pictorialism",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "surrealism-web",
+      "to": "flat-design",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -5078,8 +5258,8 @@
           "distance": 1
         },
         {
-          "id": "dark-devtool-ui",
-          "distance": 1.41
+          "id": "minimalism-web",
+          "distance": 1
         }
       ],
       "techniques": []
@@ -5144,11 +5324,11 @@
           "distance": 1
         },
         {
-          "id": "editorial-serif-revival",
-          "distance": 1.73
+          "id": "luxury-typography-web",
+          "distance": 1.41
         },
         {
-          "id": "pop-art-web",
+          "id": "cyberpunk-web",
           "distance": 1.73
         }
       ],
@@ -5158,7 +5338,9 @@
     },
     "art-deco-web": {
       "evolved_from": [],
-      "evolved_into": [],
+      "evolved_into": [
+        "luxury-typography-web"
+      ],
       "rebelled_against": [
         "art-nouveau-web"
       ],
@@ -5235,7 +5417,9 @@
         "editorial-serif-revival",
         "flat-design",
         "japanese-graphic-modernism",
+        "luxury-typography-web",
         "metro-ui",
+        "minimalism-web",
         "rams-functionalism-ui",
         "wabi-sabi-web"
       ],
@@ -5270,8 +5454,8 @@
           "distance": 1
         },
         {
-          "id": "dark-devtool-ui",
-          "distance": 1.41
+          "id": "minimalism-web",
+          "distance": 1
         }
       ],
       "techniques": []
@@ -5398,11 +5582,11 @@
           "distance": 1.41
         },
         {
-          "id": "mid-century-modern",
+          "id": "cyberpunk-web",
           "distance": 1.41
         },
         {
-          "id": "neo-brutalism-ui",
+          "id": "mid-century-modern",
           "distance": 1.41
         }
       ],
@@ -5760,7 +5944,8 @@
       "rebelled_against": [],
       "provoked": [
         "flat-design",
-        "metro-ui"
+        "metro-ui",
+        "minimalism-web"
       ],
       "hybridized_with": [
         "apple-aqua",
@@ -5883,6 +6068,7 @@
         "corporate-memphis",
         "dark-devtool-ui",
         "material-design",
+        "minimalism-web",
         "neo-brutalism-ui"
       ],
       "rebelled_against": [
@@ -5895,10 +6081,13 @@
         "claymorphism",
         "conceptual-sketch-ui",
         "cybercore-web",
+        "cyberpunk-web",
         "editorial-serif-revival",
         "liquid-glass-ui",
+        "luxury-typography-web",
         "neumorphism",
         "scrapbook-ui",
+        "surrealism-web",
         "synthwave-web",
         "wabi-sabi-web"
       ],
@@ -5913,15 +6102,15 @@
       ],
       "nearest_by_vector": [
         {
+          "id": "minimalism-web",
+          "distance": 0
+        },
+        {
           "id": "ai-chat-ui",
           "distance": 1
         },
         {
           "id": "dark-devtool-ui",
-          "distance": 1
-        },
-        {
-          "id": "de-stijl-web",
           "distance": 1
         }
       ],
@@ -5930,11 +6119,48 @@
         "squash-and-stretch"
       ]
     },
+    "minimalism-web": {
+      "evolved_from": [
+        "flat-design",
+        "swiss-international"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "skeuomorphism"
+      ],
+      "provoked": [
+        "cyberpunk-web"
+      ],
+      "hybridized_with": [
+        "editorial-serif-revival",
+        "luxury-typography-web",
+        "surrealism-web"
+      ],
+      "echoes": [
+        "minimalist-interior"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "flat-design",
+          "distance": 0
+        },
+        {
+          "id": "ai-chat-ui",
+          "distance": 1
+        },
+        {
+          "id": "dark-devtool-ui",
+          "distance": 1
+        }
+      ],
+      "techniques": []
+    },
     "vaporwave": {
       "evolved_from": [
         "y2k-aesthetic"
       ],
       "evolved_into": [
+        "surrealism-web",
         "synthwave-web"
       ],
       "rebelled_against": [],
@@ -5966,6 +6192,39 @@
         "perspective-grid"
       ]
     },
+    "cyberpunk-web": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "flat-design",
+        "minimalism-web"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "cybercore-web",
+        "dark-devtool-ui",
+        "synthwave-web",
+        "terminal-tui-web"
+      ],
+      "echoes": [
+        "film-noir-still"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "conceptual-sketch-ui",
+          "distance": 1.41
+        },
+        {
+          "id": "space-age",
+          "distance": 1.41
+        },
+        {
+          "id": "constructivism-web",
+          "distance": 1.73
+        }
+      ],
+      "techniques": []
+    },
     "synthwave-web": {
       "evolved_from": [
         "vaporwave",
@@ -5977,7 +6236,8 @@
       ],
       "provoked": [],
       "hybridized_with": [
-        "cybercore-web"
+        "cybercore-web",
+        "cyberpunk-web"
       ],
       "echoes": [
         "neon-noir"
@@ -6026,8 +6286,41 @@
           "distance": 2
         },
         {
-          "id": "corporate-memphis",
-          "distance": 2.24
+          "id": "minimalism-web",
+          "distance": 2
+        }
+      ],
+      "techniques": []
+    },
+    "luxury-typography-web": {
+      "evolved_from": [
+        "art-deco-web",
+        "swiss-international"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "flat-design"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "editorial-serif-revival",
+        "minimalism-web"
+      ],
+      "echoes": [
+        "quiet-luxury-interior"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "constructivism-web",
+          "distance": 1.41
+        },
+        {
+          "id": "editorial-serif-revival",
+          "distance": 1.73
+        },
+        {
+          "id": "neo-brutalism-ui",
+          "distance": 1.73
         }
       ],
       "techniques": []
@@ -6085,11 +6378,11 @@
           "distance": 1.41
         },
         {
-          "id": "frutiger-aero",
-          "distance": 2.24
+          "id": "surrealism-web",
+          "distance": 1.41
         },
         {
-          "id": "vaporwave",
+          "id": "frutiger-aero",
           "distance": 2.24
         }
       ],
@@ -6111,15 +6404,15 @@
       "echoes": [],
       "nearest_by_vector": [
         {
+          "id": "cyberpunk-web",
+          "distance": 1.41
+        },
+        {
           "id": "space-age",
           "distance": 1.41
         },
         {
           "id": "synthwave-web",
-          "distance": 1.73
-        },
-        {
-          "id": "vaporwave",
           "distance": 1.73
         }
       ],
@@ -6200,6 +6493,7 @@
         "ai-chat-ui",
         "aurora-gradient-ui",
         "bento-grid-ui",
+        "cyberpunk-web",
         "glassmorphism",
         "terminal-tui-web"
       ],
@@ -6210,12 +6504,45 @@
           "distance": 1
         },
         {
+          "id": "minimalism-web",
+          "distance": 1
+        },
+        {
           "id": "ai-chat-ui",
+          "distance": 1.41
+        }
+      ],
+      "techniques": []
+    },
+    "surrealism-web": {
+      "evolved_from": [
+        "vaporwave"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "flat-design"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "ethereal-web",
+        "minimalism-web"
+      ],
+      "echoes": [
+        "airbrush-surrealism",
+        "surrealism-painting"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "claymorphism",
+          "distance": 0
+        },
+        {
+          "id": "blob-world",
           "distance": 1.41
         },
         {
-          "id": "bauhaus",
-          "distance": 1.41
+          "id": "frutiger-aero",
+          "distance": 1.73
         }
       ],
       "techniques": []
@@ -6267,6 +6594,7 @@
       "hybridized_with": [
         "brutalist-web",
         "cybercore-web",
+        "cyberpunk-web",
         "dark-devtool-ui",
         "pixel-art-web"
       ],
@@ -6393,6 +6721,7 @@
       ],
       "provoked": [],
       "hybridized_with": [
+        "cyberpunk-web",
         "synthwave-web",
         "terminal-tui-web",
         "vaporwave"
@@ -6501,15 +6830,15 @@
       "echoes": [],
       "nearest_by_vector": [
         {
+          "id": "surrealism-web",
+          "distance": 0
+        },
+        {
           "id": "blob-world",
           "distance": 1.41
         },
         {
           "id": "frutiger-aero",
-          "distance": 1.73
-        },
-        {
-          "id": "liquid-glass-ui",
           "distance": 1.73
         }
       ],
@@ -6526,7 +6855,9 @@
       ],
       "provoked": [],
       "hybridized_with": [
-        "ai-chat-ui"
+        "ai-chat-ui",
+        "luxury-typography-web",
+        "minimalism-web"
       ],
       "echoes": [],
       "nearest_by_vector": [
@@ -6557,7 +6888,8 @@
       "provoked": [],
       "hybridized_with": [
         "frutiger-aero",
-        "liquid-glass-ui"
+        "liquid-glass-ui",
+        "surrealism-web"
       ],
       "echoes": [],
       "nearest_by_vector": [
@@ -6598,8 +6930,8 @@
           "distance": 1
         },
         {
-          "id": "dark-devtool-ui",
-          "distance": 1.41
+          "id": "minimalism-web",
+          "distance": 1
         }
       ],
       "techniques": []
@@ -7633,6 +7965,7 @@
       "echoes": [
         "flat-design",
         "international-style-architecture",
+        "minimalism-web",
         "rams-functionalism-ui"
       ],
       "nearest_by_vector": [
@@ -7802,7 +8135,8 @@
         "neo-deco-interior"
       ],
       "echoes": [
-        "fashion-editorial"
+        "fashion-editorial",
+        "luxury-typography-web"
       ],
       "nearest_by_vector": [
         {
@@ -8369,6 +8703,7 @@
       ],
       "echoes": [
         "baroque-painting",
+        "cyberpunk-web",
         "film-noir",
         "german-expressionist-cinema"
       ],
@@ -9588,6 +9923,7 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
+        "surrealism-web",
         "vaporwave"
       ],
       "nearest_by_vector": [
@@ -9675,7 +10011,8 @@
       "echoes": [
         "pop-art-web",
         "psychedelic",
-        "space-age"
+        "space-age",
+        "surrealism-web"
       ],
       "nearest_by_vector": [
         {

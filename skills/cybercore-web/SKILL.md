@@ -235,7 +235,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
-- **Mixes well with:** [`synthwave-web`](../synthwave-web/SKILL.md), [`terminal-tui-web`](../terminal-tui-web/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
+- **Mixes well with:** [`cyberpunk-web`](../cyberpunk-web/SKILL.md), [`synthwave-web`](../synthwave-web/SKILL.md), [`terminal-tui-web`](../terminal-tui-web/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
 - **Nearest by vector profile:** [`art-deco-web`](../art-deco-web/SKILL.md), [`pixel-art-web`](../pixel-art-web/SKILL.md), [`synthwave-web`](../synthwave-web/SKILL.md)
 
 ## Emotional target

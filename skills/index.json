@@ -2172,7 +2172,7 @@
           }
         },
         "art": {
-          "recipe": "y2k",
+          "recipe": "pixel",
           "pattern": "checks",
           "seed": 53
         },
@@ -2401,6 +2401,92 @@
       ]
     },
     {
+      "id": "minimalism-web",
+      "name": "Minimalism Web",
+      "domain": "design",
+      "era": "touchscreen",
+      "period": "2012–now",
+      "thesis": "Remove until only the need is left: space and restraint carry the message.",
+      "summary": "A page with one idea per screen: few elements, much space, one type family and one accent. Every part must earn its place; what stays is clear, calm and fast.",
+      "path": "skills/minimalism-web/SKILL.md",
+      "tokens": "skills/minimalism-web/tokens.css",
+      "pack": "skills/minimalism-web/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 600,
+          "subhead_weight": 600,
+          "body_weight": 400,
+          "strong_weight": 600,
+          "label_weight": 500,
+          "accent": "weight",
+          "display_tracking": "-0.02em",
+          "display_leading": 1.1,
+          "display_case": "none",
+          "body_leading": 1.6,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 1.5,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "none",
+          "pack": {
+            "id": "lucide",
+            "why": "A thin, neutral outline family that stays quiet next to plain type."
+          }
+        },
+        "art": {
+          "recipe": "plain",
+          "pattern": "none",
+          "seed": 12
+        },
+        "layout": {
+          "hero": "stacked",
+          "align": "left",
+          "density": "airy",
+          "tilt_deg": 0
+        }
+      },
+      "triggers": [
+        "minimal",
+        "minimalism",
+        "clean",
+        "simple",
+        "white space",
+        "less is more",
+        "restrained",
+        "quiet"
+      ],
+      "use_cases": [
+        "product and software landing pages",
+        "portfolios and studio sites",
+        "documentation and writing sites",
+        "fintech and tools that need trust",
+        "single-purpose apps"
+      ],
+      "emotion": [
+        "calm",
+        "clear",
+        "focused",
+        "honest",
+        "light",
+        "precise"
+      ],
+      "archetypes": [
+        "sage",
+        "creator"
+      ],
+      "vectors": {
+        "ornamentation": 1,
+        "dimensionality": 1,
+        "grid_rigidity": 4,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 2
+      },
+      "techniques": []
+    },
+    {
       "id": "vaporwave",
       "name": "Vaporwave",
       "domain": "design",
@@ -2491,6 +2577,92 @@
       ]
     },
     {
+      "id": "cyberpunk-web",
+      "name": "Cyberpunk Web",
+      "domain": "design",
+      "era": "touchscreen",
+      "period": "2013–now",
+      "thesis": "The future is crowded, dirty and bright: neon on dark, data everywhere.",
+      "summary": "A wet, neon city at night: dark ground, magenta, cyan and yellow signs, glitch, scan lines, grime, dense HUD panels and kanji or code on every edge. High tech with low life.",
+      "path": "skills/cyberpunk-web/SKILL.md",
+      "tokens": "skills/cyberpunk-web/tokens.css",
+      "pack": "skills/cyberpunk-web/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 700,
+          "subhead_weight": 600,
+          "body_weight": 400,
+          "strong_weight": 700,
+          "label_weight": 600,
+          "accent": "colour",
+          "display_tracking": "0.04em",
+          "display_leading": 1,
+          "display_case": "uppercase",
+          "body_leading": 1.5,
+          "body_size": "15px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 1.5,
+          "linecap": "square",
+          "linejoin": "miter",
+          "container": "none",
+          "pack": {
+            "id": "pixelarticons",
+            "why": "A sharp, pixel-edged family that suits chamfered panels and HUD marks."
+          }
+        },
+        "art": {
+          "recipe": "synthwave",
+          "pattern": "grid",
+          "seed": 88
+        },
+        "layout": {
+          "hero": "poster",
+          "align": "left",
+          "density": "compact",
+          "tilt_deg": 0
+        }
+      },
+      "triggers": [
+        "cyberpunk",
+        "neon",
+        "dystopia",
+        "glitch",
+        "hud",
+        "blade runner",
+        "night city",
+        "hacker"
+      ],
+      "use_cases": [
+        "game and film sites",
+        "music and event pages",
+        "security and hacker tools",
+        "fashion and tech drops",
+        "esports and streaming brands"
+      ],
+      "emotion": [
+        "electric",
+        "gritty",
+        "tense",
+        "futuristic",
+        "rebellious",
+        "dense"
+      ],
+      "archetypes": [
+        "outlaw",
+        "explorer"
+      ],
+      "vectors": {
+        "ornamentation": 4,
+        "dimensionality": 3,
+        "grid_rigidity": 3,
+        "skeuomorphic_realism": 2,
+        "typographic_expressiveness": 5
+      },
+      "techniques": []
+    },
+    {
       "id": "synthwave-web",
       "name": "Synthwave Web",
       "domain": "design",
@@ -2527,7 +2699,7 @@
           }
         },
         "art": {
-          "recipe": "y2k",
+          "recipe": "synthwave",
           "pattern": "grid",
           "seed": 54
         },
@@ -2613,7 +2785,7 @@
           }
         },
         "art": {
-          "recipe": "swiss",
+          "recipe": "plain",
           "pattern": "none",
           "seed": 31
         },
@@ -2659,6 +2831,92 @@
         "grid_rigidity": 2,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 2
+      },
+      "techniques": []
+    },
+    {
+      "id": "luxury-typography-web",
+      "name": "Luxury Typography Web",
+      "domain": "design",
+      "era": "touchscreen",
+      "period": "2014–now",
+      "thesis": "Luxury is restraint and craft: fine type, wide space and few words.",
+      "summary": "Large, high-contrast serif type on a calm ground, wide tracking on small caps, thin rules and few words. The letter is the main image, and space signals price and care.",
+      "path": "skills/luxury-typography-web/SKILL.md",
+      "tokens": "skills/luxury-typography-web/tokens.css",
+      "pack": "skills/luxury-typography-web/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 400,
+          "subhead_weight": 400,
+          "body_weight": 400,
+          "strong_weight": 600,
+          "label_weight": 500,
+          "accent": "case",
+          "display_tracking": "-0.02em",
+          "display_leading": 1,
+          "display_case": "none",
+          "body_leading": 1.7,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 1,
+          "linecap": "butt",
+          "linejoin": "miter",
+          "container": "none",
+          "pack": {
+            "id": "iconoir",
+            "why": "A thin outline family that matches hairline rules and fine serifs."
+          }
+        },
+        "art": {
+          "recipe": "swiss",
+          "pattern": "none",
+          "seed": 77
+        },
+        "layout": {
+          "hero": "stacked",
+          "align": "center",
+          "density": "airy",
+          "tilt_deg": 0
+        }
+      },
+      "triggers": [
+        "luxury",
+        "fashion",
+        "high-end",
+        "didone",
+        "editorial",
+        "premium",
+        "jewellery",
+        "couture"
+      ],
+      "use_cases": [
+        "fashion and couture houses",
+        "jewellery and watches",
+        "hotels and fine dining",
+        "perfume and beauty brands",
+        "art and auction sites"
+      ],
+      "emotion": [
+        "refined",
+        "rare",
+        "calm",
+        "exact",
+        "timeless",
+        "exclusive"
+      ],
+      "archetypes": [
+        "ruler",
+        "lover"
+      ],
+      "vectors": {
+        "ornamentation": 3,
+        "dimensionality": 1,
+        "grid_rigidity": 4,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 5
       },
       "techniques": []
     },
@@ -3191,6 +3449,93 @@
       "techniques": []
     },
     {
+      "id": "surrealism-web",
+      "name": "Surrealism Web",
+      "domain": "design",
+      "era": "touchscreen",
+      "period": "2016–now",
+      "thesis": "Put the impossible on a quiet page: strange images, clear controls.",
+      "summary": "Impossible scenes with plain, calm rendering: floating objects, odd scale, melting forms, clouds in rooms and shadows that disagree. Logic bends while the interface stays usable.",
+      "path": "skills/surrealism-web/SKILL.md",
+      "tokens": "skills/surrealism-web/tokens.css",
+      "pack": "skills/surrealism-web/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 500,
+          "subhead_weight": 500,
+          "body_weight": 400,
+          "strong_weight": 600,
+          "label_weight": 500,
+          "accent": "size",
+          "display_tracking": "-0.01em",
+          "display_leading": 1.1,
+          "display_case": "none",
+          "body_leading": 1.6,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 1.5,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "none",
+          "pack": {
+            "id": "ph-bold",
+            "why": "A friendly outline family that stays plain over strange scenes."
+          }
+        },
+        "art": {
+          "recipe": "spatial",
+          "pattern": "none",
+          "seed": 33
+        },
+        "layout": {
+          "hero": "poster",
+          "align": "center",
+          "density": "airy",
+          "tilt_deg": 0
+        }
+      },
+      "triggers": [
+        "surreal",
+        "surrealism",
+        "dream",
+        "impossible",
+        "floating",
+        "magritte",
+        "odd",
+        "strange"
+      ],
+      "use_cases": [
+        "creative studios and portfolios",
+        "music and art campaigns",
+        "editorial and magazine features",
+        "game and film launches",
+        "brands that tell a story"
+      ],
+      "emotion": [
+        "dreamlike",
+        "curious",
+        "strange",
+        "calm",
+        "poetic",
+        "playful"
+      ],
+      "archetypes": [
+        "magician",
+        "creator",
+        "explorer"
+      ],
+      "vectors": {
+        "ornamentation": 3,
+        "dimensionality": 4,
+        "grid_rigidity": 2,
+        "skeuomorphic_realism": 3,
+        "typographic_expressiveness": 3
+      },
+      "techniques": []
+    },
+    {
       "id": "corporate-memphis",
       "name": "Corporate Memphis",
       "domain": "design",
@@ -3317,7 +3662,7 @@
           }
         },
         "art": {
-          "recipe": "y2k",
+          "recipe": "terminal",
           "pattern": "grid",
           "seed": 44
         },
