@@ -231,6 +231,26 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Multiplane parallax (animation)
+
+Flat layers move at different speeds by their distance, so that a flat picture gets depth. Origin: film & video, The Old Mill, 1937.
+
+- Move each layer at a speed in proportion to its distance: a far layer at 20% to 50% of the speed of the front layer.
+- Use 3 to 5 layers; more layers add load and no depth.
+- Give a reduced-motion setting that stops the shift of the layers.
+
+### Squash and stretch (animation)
+
+A moving form changes shape but keeps its volume: it stretches along its path at speed and squashes on impact. Origin: film & video, Disney studio, Los Angeles, c. 1930.
+
+- Keep the volume constant: when the height grows by a factor k, scale the width by 1/k.
+- Stretch along the path by 10% to 30% at the highest speed and squash by the same amount on impact.
+- In an interface, use a spring with a damping ratio of 0.6 to 0.8, so that an element overshoots once and settles.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -243,7 +263,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`swiss-international`](../swiss-international/SKILL.md)
 - **Led to (go here for a newer version):** [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`corporate-memphis`](../corporate-memphis/SKILL.md), [`material-design`](../material-design/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`skeuomorphism`](../skeuomorphism/SKILL.md)
-- **Was rejected by:** [`neumorphism`](../neumorphism/SKILL.md)
+- **Was rejected by:** [`blob-world`](../blob-world/SKILL.md), [`neumorphism`](../neumorphism/SKILL.md)
 - **Mixes well with:** [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
 - **Kin in another domain:** [`minimalist-interior`](../minimalist-interior/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md)
 - **Nearest by vector profile:** [`de-stijl-web`](../de-stijl-web/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md)

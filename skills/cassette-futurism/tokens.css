@@ -1,0 +1,109 @@
+/*
+ * Cassette Futurism — tokens
+ * Generated from data/design/styles/cassette-futurism.json by design-ontology. Do not edit.
+ * Use: put data-style="cassette-futurism" on <html> or on any container.
+ */
+[data-style="cassette-futurism"] {
+  --color-bg: #14130F;
+  --color-surface: #2A2822;
+  --color-text: #F3E9C8;
+  --color-muted: #B8B09A;
+  --color-primary: #FFB000;
+  --color-accent: #33FF66;
+  --color-border: #9A9A8E;
+  --font-sans: "IBM Plex Mono", "Share Tech Mono", monospace;
+  --font-display: "Chakra Petch", "Orbitron", sans-serif;
+  --border-radius: 4px;
+  --border-width: 2px;
+  --shadow-elevation: 0 2px 0 #000000, 0 0 12px rgba(255, 176, 0, 0.25);
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: steps(4);
+  --duration: 240ms;
+  --color-on-bg: #F3E9C8;
+  --color-on-surface: #F3E9C8;
+  --color-on-primary: #14130F;
+  --color-on-accent: #14130F;
+  --color-muted-on-bg: #B8B09A;
+  --color-muted-on-surface: #B8B09A;
+  --color-link: #33FF66;
+  --color-link-on-surface: #33FF66;
+  --display-weight: 700;
+  --subhead-weight: 600;
+  --body-weight: 400;
+  --strong-weight: 600;
+  --label-weight: 600;
+  --display-tracking: 0.06em;
+  --display-leading: 1.1;
+  --display-case: uppercase;
+  --body-leading: 1.5;
+  --body-size: 16px;
+  --icon-stroke: 2;
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="cassette-futurism"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="cassette-futurism"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="cassette-futurism"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="cassette-futurism"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="cassette-futurism"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="cassette-futurism"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="cassette-futurism"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="cassette-futurism"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="cassette-futurism"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="cassette-futurism"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="cassette-futurism"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="cassette-futurism"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

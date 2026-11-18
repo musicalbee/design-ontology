@@ -1,0 +1,312 @@
+{
+  "$schema": "../../../schema/domains/design.schema.json",
+  "id": "cyberdelia",
+  "domain": "design",
+  "name": "Cyberdelia",
+  "aliases": [
+    "Cyber-psychedelia",
+    "Cyberdelic",
+    "Rave cyberpunk"
+  ],
+  "era_id": "postmodern-early-digital",
+  "time_period": {
+    "start": 1988,
+    "end": 1996,
+    "label": "1988–1996"
+  },
+  "primary_mediums": [
+    "print",
+    "web"
+  ],
+  "summary": "The psychedelic side of early cyberculture. It joins cyberpunk with acid colour: fractals, kaleidoscopes, posterised Photoshop collage, early 3D type and rave flyers. It takes its name from the club in the film Hackers (1995).",
+  "philosophy": {
+    "core_thesis": "The computer is a consciousness machine: use acid colour, fractal repetition and raw early software effects to show a mind that has gone into the network.",
+    "design_principles": [
+      "Fill the ground with a fractal or kaleidoscope tile that repeats 6 or 8 times around a centre, at 40% to 60% opacity.",
+      "Set a palette of 4 acid hues (#FF2BD6, #19F0FF, #B6FF1A, #FF8A00) on a deep violet ground (#12002B).",
+      "Use gradients with hard bands: posterise to 5 to 7 steps, and never blend smoothly.",
+      "Set display type in extended, outlined or 3D-extruded letters at 72px or larger, with a 4px offset copy in a second hue.",
+      "Collage cut-out photographs with a 2px white keyline and a posterised colour wash at 60% opacity.",
+      "Rotate accent elements by 3° to 12° and overlap layers by 16px to 48px.",
+      "Keep body text on a solid dark block of 90% opacity at 16px with contrast of 7:1 or more."
+    ],
+    "anti_patterns": [
+      "Muted, balanced palettes",
+      "Smooth photographic gradients",
+      "Strict symmetric grids with wide margins",
+      "Corporate sans-serif display type",
+      "Flat vector icons with 1px strokes",
+      "Calm, minimal pages with one image",
+      "Beige and grey hardware panels"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 5,
+    "dimensionality": 3,
+    "grid_rigidity": 1,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 5
+  },
+  "layout": {
+    "grid_mechanics": "A loose 12-column grid that layers break on purpose; blocks of text sit on dark panels over a full-bleed pattern.",
+    "whitespace_ratio": "5% to 15% of the surface stays empty; the spacing scale is 8, 16, 32 and 64px.",
+    "alignment_rules": "Centred hero with a radial focus; text blocks rotate by 3° to 12°; elements overlap by 16px to 48px.",
+    "container_geometry": "Panels with a 0px radius and a 3px border in a neon hue; circles and starbursts for accents; a 4px offset shadow in a second hue."
+  },
+  "typography": {
+    "classifications": [
+      "extended display",
+      "geometric sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Audiowide",
+        "body": "Space Grotesk",
+        "note": "A wide, rounded techno display face with a clear text face."
+      },
+      {
+        "display": "Monoton",
+        "body": "Space Mono",
+        "note": "A multi-line display face for flyer headlines with a mono text face."
+      },
+      {
+        "display": "Bungee Shade",
+        "body": "Space Grotesk",
+        "note": "A shaded, 3D-looking face that echoes early extruded type."
+      }
+    ],
+    "tracking": "Display +0.02em; body 0em.",
+    "leading": "Display 1.0; body 1.55.",
+    "hierarchy_rules": [
+      "Use weights 400 and 700 for text and 400 for display.",
+      "Use sizes 14, 18, 40 and 88px.",
+      "Set display in a wide face, and mix 2 sizes in one headline.",
+      "Put each key word in a second acid hue."
+    ]
+  },
+  "color": {
+    "palette_structure": "Four acid hues on a deep violet ground, with white as the one neutral.",
+    "palette": [
+      {
+        "name": "Deep Violet",
+        "hex": "#12002B",
+        "role": "background"
+      },
+      {
+        "name": "Acid Magenta",
+        "hex": "#FF2BD6",
+        "role": "primary"
+      },
+      {
+        "name": "Electric Cyan",
+        "hex": "#19F0FF",
+        "role": "accent"
+      },
+      {
+        "name": "Acid Lime",
+        "hex": "#B6FF1A",
+        "role": "second accent"
+      },
+      {
+        "name": "Rave Orange",
+        "hex": "#FF8A00",
+        "role": "highlight"
+      },
+      {
+        "name": "Panel Plum",
+        "hex": "#2B0A5E",
+        "role": "surface"
+      }
+    ],
+    "contrast_rules": "Text on deep violet holds 12:1 or more; neon hues carry headlines, borders and shapes, not long text.",
+    "surface_treatment": "Posterised gradients in 5 to 7 hard bands; fractal and kaleidoscope tiles; a noise grain of 6%.",
+    "light_and_shadow": "Hard offset shadows of 4px in a second hue; a glow of 8px to 16px on neon type; no soft cast shadow."
+  },
+  "materiality": {
+    "surface_simulation": "Screen-born: raster filters, posterised layers, printed flyer stock with halftone grain.",
+    "border_rules": "A 3px solid border in a neon hue on panels; a 2px white keyline on cut-outs.",
+    "blur_and_elevation": "No backdrop blur; hard 4px offset shadows; glow of 8px to 16px on type."
+  },
+  "ornamentation_details": {
+    "iconography": "Bold solid glyphs at 24px with a thick 3px edge; eyes, spirals, circuit lines and lightning.",
+    "illustration": "Fractals, kaleidoscopes, wireframe heads, chrome and early 3D renders, posterised collage of faces and circuit boards.",
+    "decorative_elements": [
+      "fractal tile",
+      "kaleidoscope mandala",
+      "wireframe head",
+      "starburst",
+      "circuit line",
+      "rave flyer badge"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Looping and hypnotic: kaleidoscopes rotate 360° in 30s; colour bands cycle at 6s; headlines jump in with a 4px glitch shift for 120ms.",
+    "easing": "cubic-bezier(0.7, 0, 0.3, 1)",
+    "duration_ms": 320,
+    "hover_and_active": "Hover shifts the hue by 60° and the offset shadow by 4px; active inverts the panel colours."
+  },
+  "lineage": {
+    "evolved_from": [
+      "psychedelic"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "y2k-aesthetic",
+      "cassette-futurism"
+    ],
+    "echoes": [
+      "party-flash"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels a dizzy, joyful rush: the network is alive and the mind is in it.",
+    "keywords": [
+      "psychedelic",
+      "hypnotic",
+      "digital",
+      "euphoric",
+      "chaotic",
+      "acid"
+    ],
+    "brand_archetypes": [
+      "magician",
+      "explorer",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "cyberdelia",
+      "cyberdelic",
+      "cyber psychedelic",
+      "rave flyer",
+      "fractal",
+      "hackers 1995",
+      "acid colours",
+      "kaleidoscope",
+      "early cyberspace"
+    ],
+    "use_cases": [
+      "club, festival and music event pages",
+      "game and demoscene tributes",
+      "art and zine projects",
+      "fashion and culture drops",
+      "book and album covers"
+    ],
+    "avoid_when": [
+      "The audience is conservative, medical or financial.",
+      "The page needs fast reading of dense content.",
+      "The product needs a quiet, neutral tone."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "vaporwave",
+        "how": "Reduce the palette to pink, cyan and violet; replace fractals with a grid floor and one statue; keep the glow."
+      },
+      {
+        "request": "more analogue",
+        "toward": "psychedelic",
+        "how": "Replace the posterised digital effects with hand-drawn lettering and warm poster colour; keep the repeated patterns."
+      },
+      {
+        "request": "cleaner",
+        "toward": "y2k-aesthetic",
+        "how": "Switch to silver and baby blue on a light ground with pill shapes; keep one chrome headline."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 400,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "colour",
+      "display_tracking": "0.02em",
+      "display_leading": 1.0,
+      "display_case": "uppercase",
+      "body_leading": 1.55,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 3,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "solar-bold",
+        "why": "Heavy solid forms with a thick edge match the loud shapes of a rave flyer."
+      }
+    },
+    "art": {
+      "recipe": "psychedelic",
+      "pattern": "starburst",
+      "seed": 88
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "center",
+      "density": "compact",
+      "tilt_deg": -3
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#12002B",
+      "--color-surface": "#2B0A5E",
+      "--color-text": "#FFF4FF",
+      "--color-muted": "#C9B3F2",
+      "--color-primary": "#FF2BD6",
+      "--color-accent": "#19F0FF",
+      "--color-border": "#19F0FF",
+      "--font-sans": "\"Space Grotesk\", \"Space Mono\", sans-serif",
+      "--font-display": "\"Audiowide\", \"Monoton\", sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "3px",
+      "--shadow-elevation": "4px 4px 0 #B6FF1A",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.7, 0, 0.3, 1)",
+      "--duration": "320ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#12002B] text-[#FFF4FF] font-sans antialiased px-4 md:px-10"
+      },
+      {
+        "element": "heading",
+        "classes": "font-normal uppercase tracking-[0.02em] leading-none text-5xl md:text-8xl text-[#FF2BD6] [text-shadow:4px_4px_0_#19F0FF]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.55] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border-[3px] border-[#19F0FF] bg-[#2B0A5E] shadow-[4px_4px_0_#B6FF1A]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border-[3px] border-[#19F0FF] bg-[#FF2BD6] px-6 py-3 text-sm font-bold uppercase text-[#12002B] shadow-[4px_4px_0_#B6FF1A] transition-transform duration-[320ms] hover:-translate-y-0.5"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-bold uppercase tracking-[0.1em] text-[#B6FF1A]"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "CARI, Consumer Aesthetics Research Institute: Cyberdelia",
+      "url": "https://cari.institute/aesthetics/cyberdelia"
+    },
+    {
+      "title": "Iain Softley (dir.), Hackers (United Artists, 1995)"
+    }
+  ]
+}

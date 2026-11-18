@@ -227,6 +227,18 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Easing (animation)
+
+A move speeds up from rest and slows down before it stops, as a real mass does, instead of a constant speed. Origin: film & video, Disney studio, Los Angeles, c. 1930.
+
+- Give a move of 200 to 400ms an ease-out curve when an element enters and an ease-in curve when it leaves.
+- Use cubic-bezier(0.4, 0, 0.2, 1) as the standard curve for a move inside the screen.
+- Put more frames at the two ends of a move than in the middle: 2 to 3 times the density.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -238,7 +250,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`frutiger-aero`](../frutiger-aero/SKILL.md)
 - **Led to (go here for a newer version):** [`spatial-visionos`](../spatial-visionos/SKILL.md)
-- **Mixes well with:** [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`neumorphism`](../neumorphism/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
+- **Mixes well with:** [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`blob-world`](../blob-world/SKILL.md), [`neumorphism`](../neumorphism/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Nearest by vector profile:** [`material-design`](../material-design/SKILL.md), [`neumorphism`](../neumorphism/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md)
 
 ## Emotional target

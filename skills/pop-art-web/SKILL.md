@@ -225,6 +225,17 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Halftone (process)
+
+Tone printed as dots of different size or spacing; at a distance the dots merge into grey or colour. Origin: graphic & ui design, New York, 1879.
+
+- Set the screen at 10 to 30 lines per cm for a print grain, or enlarge the dots to 4 to 8mm for a Pop effect.
+- Turn each colour screen to its own angle: cyan 15°, magenta 75°, yellow 0°, black 45°.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -234,7 +245,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more chaotic**: move toward [`memphis-design`](../memphis-design/SKILL.md) (Memphis Design). Add squiggles and confetti patterns and rotate elements by up to 3°.
 
 - **Came from (go here for a more orthodox version):** [`mid-century-modern`](../mid-century-modern/SKILL.md)
-- **Mixes well with:** [`memphis-design`](../memphis-design/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md)
+- **Mixes well with:** [`japanese-graphic-modernism`](../japanese-graphic-modernism/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md), [`space-age`](../space-age/SKILL.md)
+- **Kin in another domain:** [`airbrush-surrealism`](../airbrush-surrealism/SKILL.md)
 - **Nearest by vector profile:** [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
 
 ## Emotional target

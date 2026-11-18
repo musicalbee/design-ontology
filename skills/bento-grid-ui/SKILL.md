@@ -228,6 +228,17 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Isometric projection (process)
+
+A drawing with three axes at equal angles and one scale, with no vanishing point, so that sizes can be measured. Origin: architecture, Cambridge, 1822.
+
+- Draw the three axes at 120° to each other; on a pixel grid, use a 2:1 slope (26.57°).
+- Keep one scale on all three axes and draw no vanishing point.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -239,7 +250,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`flat-design`](../flat-design/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
 - **Mixes well with:** [`glassmorphism`](../glassmorphism/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
-- **Nearest by vector profile:** [`bauhaus`](../bauhaus/SKILL.md), [`material-design`](../material-design/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md)
+- **Nearest by vector profile:** [`bauhaus`](../bauhaus/SKILL.md), [`japanese-graphic-modernism`](../japanese-graphic-modernism/SKILL.md), [`material-design`](../material-design/SKILL.md)
 
 ## Emotional target
 

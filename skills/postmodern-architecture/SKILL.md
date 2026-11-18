@@ -136,6 +136,18 @@ Reference works:
 | Portland Building, Portland | Michael Graves | 1982 |
 | Neue Staatsgalerie, Stuttgart | James Stirling | 1984 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Arch (motif)
+
+A curved head over an opening that carries load as compression; inside, a soft frame for a door, a mirror or a niche. Origin: architecture, Rome, c. 200 BCE.
+
+- Use a semicircular head: the rise is half the span.
+- Keep the ratio of height to width of the opening at 1.6:1 to 2:1.
+- In a room, repeat the arch in 2 or 3 places, for example a door, a mirror and a niche, and no more.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

@@ -241,9 +241,11 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **louder**: move toward [`memphis-design`](../memphis-design/SKILL.md) (Memphis Design). Replace swirls with squiggles, terrazzo and 3px black outlines on pink and teal; keep the saturation and the tilted shapes.
 - If the user asks for **more modern web**: move toward [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md) (Y2K Aesthetic). Swap hand-drawn lettering for chrome gradients and translucent blobs; keep the saturated hues and the full-bleed fields.
 
+- **Led to (go here for a newer version):** [`cyberdelia`](../cyberdelia/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`swiss-international`](../swiss-international/SKILL.md)
-- **Mixes well with:** [`pop-art-web`](../pop-art-web/SKILL.md)
-- **Nearest by vector profile:** [`memphis-design`](../memphis-design/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md)
+- **Mixes well with:** [`japanese-graphic-modernism`](../japanese-graphic-modernism/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md), [`space-age`](../space-age/SKILL.md)
+- **Kin in another domain:** [`airbrush-surrealism`](../airbrush-surrealism/SKILL.md)
+- **Nearest by vector profile:** [`memphis-design`](../memphis-design/SKILL.md), [`cyberdelia`](../cyberdelia/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md)
 
 ## Emotional target
 

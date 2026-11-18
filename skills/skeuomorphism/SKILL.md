@@ -243,8 +243,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`neumorphism`](../neumorphism/SKILL.md)
 - **Was rejected by:** [`flat-design`](../flat-design/SKILL.md)
-- **Mixes well with:** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`material-design`](../material-design/SKILL.md), [`spatial-visionos`](../spatial-visionos/SKILL.md)
-- **Nearest by vector profile:** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md), [`spatial-visionos`](../spatial-visionos/SKILL.md)
+- **Mixes well with:** [`cassette-futurism`](../cassette-futurism/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`material-design`](../material-design/SKILL.md), [`spatial-visionos`](../spatial-visionos/SKILL.md)
+- **Nearest by vector profile:** [`cassette-futurism`](../cassette-futurism/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 
 ## Emotional target
 

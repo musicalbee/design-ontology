@@ -232,6 +232,26 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Airbrush (tool)
+
+A pen-sized spray gun that lays paint in soft, even tones; with masks, it makes hard edges and smooth gradients side by side. Origin: photography, United States, 1879.
+
+- Build tone in 3 to 6 thin passes; each pass adds 20% to 40% of the final density.
+- Cut a hard mask for each edge that must stay sharp; leave the light soft.
+- Put one specular highlight of pure white on each chrome form.
+
+### Easing (animation)
+
+A move speeds up from rest and slows down before it stops, as a real mass does, instead of a constant speed. Origin: film & video, Disney studio, Los Angeles, c. 1930.
+
+- Give a move of 200 to 400ms an ease-out curve when an element enters and an ease-in curve when it leaves.
+- Use cubic-bezier(0.4, 0, 0.2, 1) as the standard curve for a move inside the screen.
+- Put more frames at the two ends of a move than in the middle: 2 to 3 times the density.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -244,7 +264,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Led to (go here for a newer version):** [`glassmorphism`](../glassmorphism/SKILL.md)
 - **Mixes well with:** [`skeuomorphism`](../skeuomorphism/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
-- **Nearest by vector profile:** [`spatial-visionos`](../spatial-visionos/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md), [`skeuomorphism`](../skeuomorphism/SKILL.md)
+- **Nearest by vector profile:** [`cassette-futurism`](../cassette-futurism/SKILL.md), [`spatial-visionos`](../spatial-visionos/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md)
 
 ## Emotional target
 

@@ -213,6 +213,33 @@ Reference works:
 | Pierre Yovanovitch furniture | Pierre Yovanovitch | 2017 |
 | India Mahdavi interiors | India Mahdavi | 2014 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Checkerboard (motif)
+
+A grid of squares in two alternate colours, on a floor, in a picture or on a surface. Origin: architecture, Italy, c. 1300.
+
+- Use squares of one size: 300 to 600mm on a floor, or 1/8 to 1/16 of the width of a picture.
+- Lay the grid at 45° to make a small room look wider, or at 0° to show the vanishing point.
+
+### Fluting and reeding (motif)
+
+Parallel grooves (flutes) or ridges (reeds) on a column, a panel, a leg or a sheet of glass. Origin: architecture, Greece, c. 600 BCE.
+
+- Cut 16 to 24 flutes round a column, or set the grooves at 15 to 40mm centres on a flat panel.
+- Run the flutes vertical to make a surface look taller.
+- Use one fluted surface in each room as an accent.
+
+### Sunburst (motif)
+
+Rays from a disc or a half disc: a sign of light and of the new, on a facade, a gate, a mirror or a clock. Origin: architecture, Paris, 1925.
+
+- Draw 12 to 36 rays from one centre; alternate long and short rays, or two finishes.
+- Keep the centre disc at 15% to 30% of the full diameter.
+- In a room, use one sunburst as the focal point of one wall.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

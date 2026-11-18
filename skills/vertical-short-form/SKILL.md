@@ -176,6 +176,17 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | Wordless life-hack reaction clips | Khaby Lame | 2020 |
 | M to the B | Bella Poarch | 2020 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Jump cut (montage)
+
+A cut inside one continuous shot that removes time and leaves the jump in view. Origin: film & video, Paris, 1960.
+
+- Remove 0.3 to 2 seconds inside one shot and keep the framing within 10% of the frame width, so that the jump shows.
+- In a talk to camera, cut on the word and not on the action: one cut every 2 to 4 seconds.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

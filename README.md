@@ -124,13 +124,17 @@ flowchart LR
     art_deco_web["Art Deco (web)"]
     mid_century_modern["Mid-Century Modern"]
     swiss_international["Swiss International Style"]
+    japanese_graphic_modernism["Japanese Graphic Modernism"]
     rams_functionalism_ui["Rams Functionalism (UI)"]
     pop_art_web["Pop Art (web)"]
+    space_age["Space Age Design"]
     psychedelic["Psychedelic"]
   end
   subgraph design_postmodern_early_digital["Postmodern & Early Digital · 1976–2006"]
+    cassette_futurism["Cassette Futurism"]
     punk_zine["Punk Zine"]
     memphis_design["Memphis Design"]
+    cyberdelia["Cyberdelia"]
     grunge_editorial["Grunge Editorial"]
     y2k_aesthetic["Y2K Aesthetic"]
     frutiger_aero["Frutiger Aero"]
@@ -140,6 +144,7 @@ flowchart LR
     flat_design["Flat Design"]
     vaporwave["Vaporwave"]
     material_design["Material Design"]
+    blob_world["Blob World"]
     corporate_memphis["Corporate Memphis"]
   end
   subgraph design_contemporary_spatial["Contemporary & Spatial · 2019–now"]
@@ -239,8 +244,12 @@ flowchart LR
     cubism_painting["Cubism"]
     de_stijl_painting["De Stijl painting"]
     abstract_expressionism["Abstract Expressionism"]
+    airbrush_surrealism["Airbrush Surrealism"]
   end
   abstract_expressionism <-. echoes .-> brutalist_architecture
+  airbrush_surrealism <-. echoes .-> pop_art_web
+  airbrush_surrealism <-. echoes .-> psychedelic
+  airbrush_surrealism <-. echoes .-> space_age
   art_deco_architecture <-. echoes .-> art_deco_interior
   art_deco_architecture <-. echoes .-> neo_deco_interior
   art_deco_interior <-. echoes .-> art_deco_web
@@ -261,6 +270,8 @@ flowchart LR
   brutalist_architecture <-. echoes .-> new_topographics
   camcorder_revival <-. echoes .-> grunge_editorial
   camcorder_revival <-. echoes .-> y2k_aesthetic
+  cassette_futurism <-. echoes .-> high_tech_architecture
+  cyberdelia <-. echoes .-> party_flash
   de_stijl_painting <-. echoes .-> international_style_architecture
   de_stijl_painting <-. echoes .-> swiss_international
   de_stijl_web <-. echoes .-> international_style_architecture
@@ -273,6 +284,7 @@ flowchart LR
   grunge_editorial <-. echoes .-> party_flash
   grunge_editorial <-. echoes .-> street_photography
   high_tech_architecture <-. echoes .-> industrial_loft_interior
+  high_tech_architecture <-. echoes .-> space_age
   industrial_loft_interior <-. echoes .-> new_topographics
   international_style_architecture <-. echoes .-> mid_century_modern_interior
   international_style_architecture <-. echoes .-> minimalist_interior
@@ -280,10 +292,13 @@ flowchart LR
   international_style_architecture <-. echoes .-> rams_functionalism_ui
   international_style_architecture <-. echoes .-> straight_photography
   international_style_architecture <-. echoes .-> swiss_international
+  japanese_graphic_modernism <-. echoes .-> ukiyo_e
   memphis_design <-. echoes .-> memphis_interior
   memphis_design <-. echoes .-> postmodern_architecture
   mid_century_modern <-. echoes .-> mid_century_modern_architecture
   mid_century_modern <-. echoes .-> mid_century_modern_interior
+  mid_century_modern_architecture <-. echoes .-> space_age
+  mid_century_modern_interior <-. echoes .-> space_age
   minimalist_interior <-. echoes .-> rams_functionalism_ui
   party_flash <-. echoes .-> y2k_aesthetic
   pictorialism <-. echoes .-> victorian_interior
@@ -297,9 +312,11 @@ flowchart LR
   flat_design --> bento_grid_ui
   swiss_international --> bento_grid_ui
   international_style_architecture --> brutalist_architecture
+  rams_functionalism_ui --> cassette_futurism
   new_colour --> cinematic_teal_orange
   flat_design --> corporate_memphis
   memphis_design --> corporate_memphis
+  psychedelic --> cyberdelia
   cubism_painting --> de_stijl_painting
   memphis_interior --> dopamine_decor
   swiss_international --> flat_design
@@ -313,6 +330,8 @@ flowchart LR
   georgian_interior --> hollywood_regency_interior
   bauhaus_interior --> industrial_loft_interior
   scandinavian_interior --> japandi_interior
+  bauhaus --> japanese_graphic_modernism
+  swiss_international --> japanese_graphic_modernism
   flat_design --> material_design
   bauhaus --> mid_century_modern
   international_style_architecture --> mid_century_modern_architecture
@@ -329,6 +348,7 @@ flowchart LR
   bauhaus --> rams_functionalism_ui
   swiss_international --> rams_functionalism_ui
   shaker_interior --> scandinavian_interior
+  mid_century_modern --> space_age
   glassmorphism --> spatial_visionos
   straight_photography --> street_photography
   bauhaus --> swiss_international
@@ -341,6 +361,7 @@ flowchart LR
   art_deco_web -. rejects .-> art_nouveau_web
   art_nouveau_interior -. rejects .-> victorian_interior
   arts_and_crafts_interior -. rejects .-> victorian_interior
+  blob_world -. rejects .-> flat_design
   constructivism_web -. rejects .-> art_nouveau_web
   cubism_painting -. rejects .-> impressionism
   cubism_painting -. rejects .-> renaissance_painting
@@ -419,20 +440,15 @@ flowchart LR
   linkStyle 46 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 47 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 48 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 96 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 97 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 98 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 99 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 100 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 101 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 102 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 103 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 104 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 105 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 106 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 107 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 108 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 109 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 49 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 50 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 51 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 52 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 53 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 54 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 55 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 56 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 57 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 110 stroke:#E5484D,stroke-width:1.5px
   linkStyle 111 stroke:#E5484D,stroke-width:1.5px
   linkStyle 112 stroke:#E5484D,stroke-width:1.5px
@@ -453,6 +469,21 @@ flowchart LR
   linkStyle 127 stroke:#E5484D,stroke-width:1.5px
   linkStyle 128 stroke:#E5484D,stroke-width:1.5px
   linkStyle 129 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 130 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 131 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 132 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 133 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 134 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 135 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 136 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 137 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 138 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 139 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 140 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 141 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 142 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 143 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 144 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 
@@ -506,6 +537,12 @@ The ontology has domains. A domain is one manifest ([`domains/`](domains/)) and 
 Domains connect. An `echoes` edge joins kin across domains: Brutalism ↔ Neo-Brutalism UI, International Style ↔ Swiss International Style, Dogme 95 ↔ Brutalism. Ask for a website that feels like the Barbican, and the graph has an answer.
 
 Next domains under discussion: type design, motion, sound.
+
+## Techniques that cross domains
+
+A technique starts in one domain and moves into others, often decades later. The sunburst went from Art Deco facades in 1925 to mid-century wall clocks in 1949. The breeze block went from screen walls in Recife in 1929 into room dividers about 89 years later. [`data/techniques/`](data/techniques/) holds 17 records: cuts (photomontage, jump cut, match cut), motion rules (squash and stretch, easing, multiplane parallax), motifs and materials (sunburst, terrazzo, arch, fluting, breeze block, checkerboard) and processes and tools (airbrush, halftone, isometric projection, perspective grid).
+
+Each record gives the origin, each adoption with its lag in years, and 2 to 6 rules with numbers. Each style that uses a technique carries its rules in a "Techniques" section. The catalogue is [`skills/TECHNIQUES.md`](skills/TECHNIQUES.md).
 
 ## Add a style
 

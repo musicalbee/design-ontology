@@ -187,6 +187,7 @@ Light and ease: the viewer feels a warm day, a passing mood and a pleasure in lo
 - [Getty AAT 300021503 (Impressionism)](https://vocab.getty.edu/page/aat/300021503)
 - [Art Institute of Chicago API (CC0 data)](https://api.artic.edu/docs/)
 - John Rewald, The History of Impressionism (MoMA, 1946)
+- [Artvee: public-domain paintings, sorted by artist](https://artvee.com)
 
 ---
 

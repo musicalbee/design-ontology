@@ -237,7 +237,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Was rejected by:** [`art-deco-web`](../art-deco-web/SKILL.md), [`constructivism-web`](../constructivism-web/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md)
 - **Mixes well with:** [`art-deco-web`](../art-deco-web/SKILL.md)
 - **Kin in another domain:** [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md)
-- **Nearest by vector profile:** [`memphis-design`](../memphis-design/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md)
+- **Nearest by vector profile:** [`memphis-design`](../memphis-design/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md), [`cyberdelia`](../cyberdelia/SKILL.md)
 
 ## Emotional target
 

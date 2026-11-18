@@ -1,0 +1,109 @@
+/*
+ * Cyberdelia — tokens
+ * Generated from data/design/styles/cyberdelia.json by design-ontology. Do not edit.
+ * Use: put data-style="cyberdelia" on <html> or on any container.
+ */
+[data-style="cyberdelia"] {
+  --color-bg: #12002B;
+  --color-surface: #2B0A5E;
+  --color-text: #FFF4FF;
+  --color-muted: #C9B3F2;
+  --color-primary: #FF2BD6;
+  --color-accent: #19F0FF;
+  --color-border: #19F0FF;
+  --font-sans: "Space Grotesk", "Space Mono", sans-serif;
+  --font-display: "Audiowide", "Monoton", sans-serif;
+  --border-radius: 0px;
+  --border-width: 3px;
+  --shadow-elevation: 4px 4px 0 #B6FF1A;
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.7, 0, 0.3, 1);
+  --duration: 320ms;
+  --color-on-bg: #FFF4FF;
+  --color-on-surface: #FFF4FF;
+  --color-on-primary: #12002B;
+  --color-on-accent: #12002B;
+  --color-muted-on-bg: #C9B3F2;
+  --color-muted-on-surface: #C9B3F2;
+  --color-link: #19F0FF;
+  --color-link-on-surface: #19F0FF;
+  --display-weight: 400;
+  --subhead-weight: 400;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 700;
+  --display-tracking: 0.02em;
+  --display-leading: 1;
+  --display-case: uppercase;
+  --body-leading: 1.55;
+  --body-size: 16px;
+  --icon-stroke: 3;
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="cyberdelia"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="cyberdelia"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="cyberdelia"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="cyberdelia"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="cyberdelia"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="cyberdelia"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="cyberdelia"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="cyberdelia"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="cyberdelia"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="cyberdelia"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="cyberdelia"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="cyberdelia"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

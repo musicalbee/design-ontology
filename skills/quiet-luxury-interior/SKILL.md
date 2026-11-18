@@ -224,6 +224,18 @@ Reference works:
 | Salon of the Hôtel de Noailles, Paris | Jean-Michel Frank | 1926 |
 | Kanaal, Wijnegem | Axel Vervoordt | 2017 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Fluting and reeding (motif)
+
+Parallel grooves (flutes) or ridges (reeds) on a column, a panel, a leg or a sheet of glass. Origin: architecture, Greece, c. 600 BCE.
+
+- Cut 16 to 24 flutes round a column, or set the grooves at 15 to 40mm centres on a flat panel.
+- Run the flutes vertical to make a surface look taller.
+- Use one fluted surface in each room as an accent.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

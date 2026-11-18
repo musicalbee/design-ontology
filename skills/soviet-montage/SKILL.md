@@ -176,6 +176,18 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | Man with a Movie Camera | Dziga Vertov | 1929 |
 | Mother | Vsevolod Pudovkin | 1926 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Photomontage (montage)
+
+Fragments of photographs, cut and joined on one sheet, so that the joins make a statement that no single photograph makes. Origin: graphic & ui design, Berlin, 1918.
+
+- Join 3 to 12 photographic fragments on one ground and keep the cut edges hard and visible.
+- Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.
+- Set type as one more fragment, turned 0° to 30°, in the same stack of layers.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

@@ -136,6 +136,34 @@ Reference works:
 | Hoover Building, London | Wallis, Gilbert and Partners | 1933 |
 | Eastern Columbia Building, Los Angeles | Claud Beelman | 1930 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Fluting and reeding (motif)
+
+Parallel grooves (flutes) or ridges (reeds) on a column, a panel, a leg or a sheet of glass. Origin: architecture, Greece, c. 600 BCE.
+
+- Cut 16 to 24 flutes round a column, or set the grooves at 15 to 40mm centres on a flat panel.
+- Run the flutes vertical to make a surface look taller.
+- Use one fluted surface in each room as an accent.
+
+### Sunburst (motif)
+
+Rays from a disc or a half disc: a sign of light and of the new, on a facade, a gate, a mirror or a clock. Origin: architecture, Paris, 1925.
+
+- Draw 12 to 36 rays from one centre; alternate long and short rays, or two finishes.
+- Keep the centre disc at 15% to 30% of the full diameter.
+- In a room, use one sunburst as the focal point of one wall.
+
+### Terrazzo (material)
+
+Chips of marble or glass set in a binder and ground flat, so that each chip shows as a cut section. Origin: architecture, Venice, c. 1500.
+
+- Set chips of 5 to 25mm in a binder; the chips cover 40% to 60% of the surface.
+- Use 2 to 4 chip colours on one ground colour.
+- Grind and polish the surface flat, so that the chip edges show as cut sections.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
