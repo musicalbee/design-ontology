@@ -6,12 +6,15 @@
 // The "Styles" button shows only when #chips has buttons, so a page with no styles shows the bar only.
 (() => {
   const DOMAINS = [
-    ["index.html", "Design"], ["architecture.html", "Architecture"], ["interior.html", "Interior"], ["moodboard.html", "Moodboards"],
+    ["index.html", "Design"], ["architecture.html", "Architecture"], ["interior.html", "Interior"],
     ["photography.html", "Photography"], ["film.html", "Film and video"], ["painting.html", "Painting"],
     ["logo.html", "Logo"], ["icon.html", "Icons"], ["typeface.html", "Typefaces"],
     ["graph.html", "Lineage graph"], ["techniques.html", "Techniques"], ["people.html", "People"],
   ];
-  const here = location.pathname.split("/").pop() || "index.html";
+  // A sub-page marks its parent domain as current: the moodboards are part of Interior.
+  const PARENT = { "moodboard.html": "interior.html" };
+  const file = location.pathname.split("/").pop() || "index.html";
+  const here = PARENT[file] || file;
   const WIDE = matchMedia("(min-width: 1100px)");
   const KEY = "do-drawer-open";
   const store = { get: () => { try { return localStorage.getItem(KEY); } catch { return null; } },
@@ -39,8 +42,9 @@
   .do-btn[aria-expanded="true"] { background: var(--hv-accent); color: #fff; border-color: var(--hv-accent); }
   .do-btn[aria-expanded="true"]:hover { background: var(--hv-accent-hover); border-color: var(--hv-accent-hover); }
   .do-btn svg { width: 16px; height: 16px; flex: none; }
-  .do-styles { max-width: 300px; }
-  .do-styles .do-cur { overflow: hidden; text-overflow: ellipsis; }
+  /* A fixed width: the arrows after the button stay in one place for every style name. */
+  .do-styles { width: 280px; flex: none; }
+  .do-styles .do-cur { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; text-align: left; }
   .do-styles .do-n { color: var(--hv-ink-muted); font-weight: 400; font-variant-numeric: tabular-nums; }
   .do-btn[aria-expanded="true"] .do-n { color: rgb(255 255 255 / .8); }
   .do-step { width: 36px; padding: 0; justify-content: center; font-size: 18px; line-height: 1; }
@@ -77,7 +81,9 @@
   .do-domains { display: none; padding: 8px; border-bottom: 1px solid var(--hv-line); flex-wrap: wrap; gap: 4px; }
   .do-domains a { color: var(--hv-ink-muted); text-decoration: none; padding: 5px 10px; border-radius: 999px; }
   .do-domains a[aria-current="page"] { color: var(--hv-accent); background: var(--hv-muted-bg); font-weight: 600; }
-  @media (max-width: 760px) { .do-bar { padding: 0 8px; } .do-links { display: none; } .do-domains { display: flex; } .do-brand { display: none; }
+  .do-step { flex: none; }
+  .do-links { min-width: 0; }
+  @media (max-width: 760px) { .do-bar { padding: 0 8px; } .do-styles { width: min(280px, calc(100vw - 190px)); } .do-links { display: none; } .do-domains { display: flex; } .do-brand { display: none; }
     .do-bar.do-bare .do-links { display: flex; margin-left: 0; } }
   @media (prefers-reduced-motion: reduce) { .do-drawer, .do-drawer.open, .do-btn { transition: none; } }`;
   if (!document.querySelector('link[href*="family=Onest"]')) {
@@ -89,6 +95,11 @@
   const style = document.createElement("style");
   style.textContent = css;
   document.head.append(style);
+  if (!document.querySelector('script[src$="zoom.js"]')) {
+    const zoom = document.createElement("script");
+    zoom.src = new URL("zoom.js", document.currentScript?.src || location.href).href;
+    document.head.append(zoom);
+  }
 
   const links = DOMAINS.map(([href, name]) => `<a href="${href}"${href === here ? ' aria-current="page"' : ""}>${name}</a>`).join("");
   const icon = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><rect x="1.8" y="2.5" width="12.4" height="11" rx="2"/><path d="M6 2.5v11M8.5 6h3.5M8.5 9h2.5"/></svg>`;
