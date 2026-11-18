@@ -132,8 +132,8 @@
     ]
   },
   "motion": {
-    "native": false,
-    "transition_physics": "Translation for screen: no motion; state changes are immediate with 0ms transition.",
+    "native": true,
+    "transition_physics": "No motion; state changes are immediate with 0ms transition.",
     "easing": "linear",
     "duration_ms": 0,
     "hover_and_active": "Hover keeps the default pointer and underline; active state shows the default red (#EE0000) link."
@@ -233,7 +233,7 @@
       }
     },
     "art": {
-      "recipe": "neobrutal",
+      "recipe": "flat",
       "pattern": "none",
       "seed": 31
     },
@@ -254,7 +254,7 @@
       "--color-accent": "#0000EE",
       "--color-border": "#000000",
       "--font-sans": "\"Tinos\", \"Times New Roman\", Times, serif",
-      "--font-display": "\"Space Mono\", \"Courier New\", monospace",
+      "--font-display": "\"Tinos\", \"Times New Roman\", serif",
       "--border-radius": "0px",
       "--border-width": "1px",
       "--shadow-elevation": "none",

@@ -191,7 +191,7 @@ Tailwind patterns:
 | heading | `text-3xl md:text-4xl font-semibold tracking-[-0.01em] leading-[1.2] text-center` |
 | body | `w-full max-w-[720px] px-4 text-base leading-[1.6]` |
 | section | `rounded-xl border border-[#E4E4E7] p-3` |
-| button | `rounded-full bg-[#1F1F23] p-2 text-white transition-colors duration-200 hover:bg-[#D97757]` |
+| button | `rounded-full bg-[#1F1F23] p-2 text-white transition-colors duration-200 hover:bg-[#3A3A40]` |
 | label | `text-[13px] font-medium text-[#6B6B76]` |
 
 ## Visual pack

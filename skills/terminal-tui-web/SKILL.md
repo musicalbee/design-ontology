@@ -2,7 +2,7 @@
 name: terminal-tui-web
 description: "Apply the Terminal / TUI Web style (2017–now) when generating UI or graphic layouts. Load when the user asks for: terminal, tui, command line, cli aesthetic, monospace ui, hacker style."
 domain: design
-era: contemporary-spatial
+era: touchscreen
 triggers:
   - "terminal"
   - "tui"
@@ -27,7 +27,7 @@ vector_profile:
 
 A monospace grid, box-drawing borders, a dark or phosphor ground and keyboard hints. It borrows from command-line tools and text user interfaces to make web pages that feel like a terminal.
 
-**Period:** 2017–now · **Era:** Contemporary & Spatial · **Domain:** Graphic & UI Design · **Also called:** Terminal UI, TUI aesthetic, Console web
+**Period:** 2017–now · **Era:** Touchscreen · **Domain:** Graphic & UI Design · **Also called:** Terminal UI, TUI aesthetic, Console web
 
 ## When to load this skill
 

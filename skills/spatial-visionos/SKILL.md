@@ -239,7 +239,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`glassmorphism`](../glassmorphism/SKILL.md)
 - **Led to (go here for a newer version):** [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md)
 - **Mixes well with:** [`skeuomorphism`](../skeuomorphism/SKILL.md)
-- **Nearest by vector profile:** [`apple-aqua`](../apple-aqua/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md)
+- **Nearest by vector profile:** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md), [`apple-aqua`](../apple-aqua/SKILL.md)
 
 ## Emotional target
 

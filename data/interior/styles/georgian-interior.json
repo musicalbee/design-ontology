@@ -1,0 +1,435 @@
+{
+  "$schema": "../../../schema/domains/interior.schema.json",
+  "domain": "interior",
+  "id": "georgian-interior",
+  "name": "Georgian",
+  "aliases": [
+    "Georgian interior",
+    "Palladian interior",
+    "Adam style"
+  ],
+  "identity": {
+    "wikidata": "Q1125300",
+    "aat": "300021048"
+  },
+  "era_id": "classical-house",
+  "time_period": {
+    "start": 1714,
+    "end": 1830,
+    "label": "1714–1830"
+  },
+  "room_types": [
+    "living",
+    "dining",
+    "bedroom",
+    "hospitality",
+    "public"
+  ],
+  "summary": "The British and colonial room of the four Georges. Walls follow a classical order of dado, field and cornice; a chimneypiece on the centre line, paired doors and sash windows set one axis; mahogany furniture stands against the walls, and the centre of the floor stays clear.",
+  "philosophy": {
+    "core_thesis": "A room is good when its proportions obey the classical rules and each wall answers the wall opposite it.",
+    "design_principles": [
+      "Divide each wall into dado, field and frieze in the proportions of a column: dado at about one fifth of the wall height.",
+      "Put the chimneypiece on the centre of the main wall and match doors, windows and pier glasses about that axis.",
+      "Give the room simple whole-number ratios: a single cube, a double cube or 2:3.",
+      "Stand furniture against the walls when the room is not in use; move chairs to the centre only for an event.",
+      "Use one main wall colour in a soft mineral tone and pick out mouldings in white or a lighter tint.",
+      "Keep ornament on the architecture: plaster ceiling, cornice, chimneypiece and door cases; keep the walls plain between them.",
+      "Hang pictures in pairs and in symmetric sets about the chimneypiece."
+    ],
+    "anti_patterns": [
+      "Furniture that floats at an angle in the room",
+      "Walls with no dado or cornice",
+      "A focal point off the centre line of a wall",
+      "Saturated synthetic colour",
+      "Open shelves full of small objects",
+      "Modern recessed downlights in a decorated ceiling"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "density": 2,
+    "formality": 5,
+    "material_naturalness": 4,
+    "chromatic_intensity": 2
+  },
+  "composition": {
+    "plan_logic": "A rectangular room on two axes. The long axis runs from the door to the window wall; the cross axis runs through the chimneypiece. Furniture lines the walls and the centre stays open.",
+    "focal_point": "The chimneypiece on the centre of the back wall, with a pier glass or a large painting above it.",
+    "symmetry": "bilateral",
+    "axis_count": 2,
+    "focal_wall": "back",
+    "focal_position": 0.5,
+    "rhythm_module_cm": 90,
+    "depth_layers": 2,
+    "rules": [
+      {
+        "principle": "symmetry-axis",
+        "rule": "Set the chimneypiece on the centre line of the back wall and mirror every door, window, chair and picture about it.",
+        "value": "2 axes, mirror pairs"
+      },
+      {
+        "principle": "proportion",
+        "rule": "Give the room and its panels simple classical ratios.",
+        "value": "1:1, 1:2 or 2:3; dado at 1/5 of the wall height"
+      },
+      {
+        "principle": "hierarchy",
+        "rule": "Make the chimneypiece the richest element; door cases come second; the field of the wall stays plain.",
+        "value": "3 levels"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Space windows and pier glasses at one bay width along the window wall.",
+        "value": "90 cm bay"
+      },
+      {
+        "principle": "balance",
+        "rule": "Balance each object with its twin on the opposite side of the axis.",
+        "value": "moment ratio 1.0"
+      },
+      {
+        "principle": "focal-point",
+        "rule": "Show one focal point per room on the main axis.",
+        "value": "1 focal point at 0.5"
+      },
+      {
+        "principle": "negative-space",
+        "rule": "Keep the centre of the floor open; furniture stands against the walls.",
+        "value": "60% bare floor"
+      },
+      {
+        "principle": "unity-variety",
+        "rule": "Repeat one moulding profile in the cornice, the dado rail and the door case.",
+        "value": "1 profile family"
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Give the wall field the main tone, the woodwork white or a lighter tint, and mahogany and gilt the accents.",
+        "value": "65/25/10"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Light the room from the windows by day and from candles on the chimneypiece and the pier tables by night; use warm low light today.",
+        "value": "100 lux ambient, 2400 K"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Keep the route from the door to the chimneypiece straight and clear.",
+        "value": "120 cm main route"
+      },
+      {
+        "principle": "framing",
+        "rule": "Frame the views with door cases and window architraves of the same width.",
+        "value": "architrave 1/6 of the opening width"
+      }
+    ]
+  },
+  "zoning": {
+    "zones": [
+      "chimneypiece group",
+      "window piers with tables",
+      "centre table for an event"
+    ],
+    "circulation": "One straight route on the long axis and one on the cross axis; the centre of the room is free.",
+    "main_path_clear_cm": 120,
+    "secondary_path_clear_cm": 90,
+    "seat_to_table_cm": 45,
+    "conversation_diameter_cm": 300,
+    "floor_coverage_pct": 40,
+    "wall_coverage_pct": 35
+  },
+  "palette": {
+    "distribution": "A soft mineral wall tone in the field, white or stone mouldings and ceiling, mahogany furniture and floorboards, and gilt on frames and glasses.",
+    "dominant_pct": 65,
+    "secondary_pct": 25,
+    "accent_pct": 10,
+    "colours": [
+      {
+        "name": "Pea green",
+        "hex": "#A9B48E",
+        "role": "dominant",
+        "surface": "wall field"
+      },
+      {
+        "name": "Stone white",
+        "hex": "#EAE4D6",
+        "role": "secondary",
+        "surface": "mouldings, ceiling, cornice"
+      },
+      {
+        "name": "Drab",
+        "hex": "#B7A88A",
+        "role": "secondary",
+        "surface": "dado and shutters"
+      },
+      {
+        "name": "Mahogany",
+        "hex": "#5C2E1E",
+        "role": "wood",
+        "surface": "furniture and doors"
+      },
+      {
+        "name": "Oak boards",
+        "hex": "#9C7A52",
+        "role": "wood",
+        "surface": "floor"
+      },
+      {
+        "name": "Gilt",
+        "hex": "#B8913A",
+        "role": "metal",
+        "surface": "frames, pier glasses"
+      }
+    ]
+  },
+  "lighting": {
+    "strategy": "Daylight from tall sash windows on one or two walls; at night, low warm points of light on the chimneypiece, the pier tables and the centre chandelier.",
+    "daylight": "Tall sash windows with shutters give even side light; the shutters fold into the window reveals.",
+    "ambient_lux": 100,
+    "task_lux": 300,
+    "accent_ratio": 3,
+    "cct_k": 2400,
+    "cct_evening_k": 2000,
+    "cri_min": 95,
+    "layers": [
+      {
+        "layer": "daylight",
+        "source": "tall sash windows with fold-back shutters",
+        "position": "window wall"
+      },
+      {
+        "layer": "decorative",
+        "source": "crystal or brass chandelier",
+        "position": "centre of the ceiling on both axes"
+      },
+      {
+        "layer": "accent",
+        "source": "pairs of candlesticks or candle-bulb sconces",
+        "position": "either side of the chimneypiece and the pier glasses"
+      },
+      {
+        "layer": "task",
+        "source": "a shaded table lamp",
+        "position": "on a side table near a chair"
+      }
+    ]
+  },
+  "materials": {
+    "primary": [
+      "painted timber panelling",
+      "lime plaster",
+      "mahogany"
+    ],
+    "secondary": [
+      "marble",
+      "gilt wood",
+      "brass",
+      "oak boards",
+      "silk damask"
+    ],
+    "finish": "Flat or eggshell paint on walls and woodwork; French-polished mahogany; honed marble.",
+    "texture_contrast": "Smooth paint and polish against carved and moulded relief, at about 3:1."
+  },
+  "furniture": {
+    "silhouette": "Light, upright pieces with straight or cabriole legs and serpentine fronts; carved but restrained.",
+    "arrangement": "Chairs and tables stand in pairs against the walls; a sofa faces the chimneypiece only in the later period.",
+    "seat_height_cm": 45,
+    "key_pieces": [
+      "chimneypiece in marble",
+      "pier glass and pier table",
+      "mahogany side chairs",
+      "sofa table",
+      "bureau bookcase",
+      "drop-leaf dining table"
+    ]
+  },
+  "textiles": {
+    "fabrics": [
+      "silk damask",
+      "wool moreen",
+      "printed cotton",
+      "linen"
+    ],
+    "pattern": "One damask or a small repeat at most; most surfaces stay plain.",
+    "windows": "Festoon or pull-up curtains, or simple paired curtains under a pelmet, with shutters that close."
+  },
+  "objects": {
+    "approach": "A few fine objects in symmetric sets: a garniture of vases, a pair of candlesticks, portraits in gilt frames.",
+    "grouping": "Odd-numbered garnitures on the chimneypiece, centred on the axis.",
+    "max_per_surface": 5,
+    "hang_centre_cm": 165,
+    "items": [
+      "garniture of 3 or 5 vases",
+      "pair of candlesticks",
+      "portrait in a gilt frame",
+      "bracket clock",
+      "porcelain bowl"
+    ]
+  },
+  "implementation": {
+    "brief": "A double-cube drawing room with a pea-green wall field above a painted dado, a white cornice and a marble chimneypiece on the centre of the back wall. Mahogany chairs stand in pairs against the walls, a gilt pier glass hangs between two tall sash windows, and the centre of the floor is clear.",
+    "image_prompt": "Georgian drawing room, symmetrical, white marble chimneypiece centred on the back wall, gilt pier glass above it, pea green painted wall panels above a white dado rail, white cornice and plaster ceiling rose, tall sash windows with folding shutters, mahogany chairs in pairs against the walls, polished oak floorboards, soft daylight from the side, calm classical proportion, architectural interior photograph",
+    "negative_prompt": "Clutter, modern furniture, downlights, saturated colour, asymmetric layout, plastic, chrome.",
+    "camera": "24 mm shift lens at 150 cm, frontal view on the chimneypiece axis, verticals parallel.",
+    "scene_3d": "Room 800 x 400 cm, ceiling 400 cm (double cube). Side daylight from two sash windows 120 x 280 cm; 2400 K candle bulbs at 180 cm.",
+    "furniture_list": [
+      "chimneypiece 180 x 140 cm",
+      "pier glass 90 x 200 cm",
+      "pier table 110 x 55 x 80 cm",
+      "6 side chairs, seat 45 cm",
+      "sofa 200 x 75 x 90 cm"
+    ],
+    "material_list": [
+      "eggshell paint, pea green",
+      "flat paint, stone white",
+      "white statuary marble",
+      "French-polished mahogany",
+      "oiled oak boards",
+      "gilt gesso"
+    ],
+    "references": [
+      {
+        "title": "Dining room from Kirtlington Park (1748)",
+        "credit": "The Metropolitan Museum of Art, Fletcher Fund, 1931",
+        "licence": "CC0",
+        "url": "https://www.metmuseum.org/art/collection/search/196917"
+      },
+      {
+        "title": "Dining room from Lansdowne House (1766–69)",
+        "credit": "The Metropolitan Museum of Art, Rogers Fund, 1931",
+        "licence": "CC0",
+        "url": "https://www.metmuseum.org/art/collection/search/196910"
+      },
+      {
+        "title": "Tapestry Room from Croome Court (1763–71)",
+        "credit": "The Metropolitan Museum of Art, Gift of Samuel H. Kress Foundation, 1958",
+        "licence": "CC0",
+        "url": "https://www.metmuseum.org/art/collection/search/209329"
+      },
+      {
+        "title": "Room from the Powel House, Philadelphia (1765–66, remodeled 1769–71)",
+        "credit": "The Metropolitan Museum of Art, Rogers Fund, 1918",
+        "licence": "CC0",
+        "url": "https://www.metmuseum.org/art/collection/search/6889"
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "renaissance-painting"
+    ]
+  },
+  "emotion": {
+    "target_response": "Composure: the viewer feels order and calm dignity, as in a room that is right in every measure.",
+    "keywords": [
+      "ordered",
+      "dignified",
+      "proportioned",
+      "calm",
+      "formal",
+      "classical"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "georgian",
+      "georgian interior",
+      "palladian",
+      "regency drawing room",
+      "adam style",
+      "period townhouse",
+      "classical interior",
+      "federal style"
+    ],
+    "use_cases": [
+      "period house restoration",
+      "formal dining rooms",
+      "boutique hotels in old buildings",
+      "embassies and clubs",
+      "heritage retail"
+    ],
+    "avoid_when": [
+      "The brief asks for an informal, open-plan family room.",
+      "The room has low ceilings below 240 cm and no symmetry."
+    ],
+    "modifiers": [
+      {
+        "request": "cosier and more layered",
+        "toward": "victorian-interior",
+        "how": "Add pattern on walls and textiles, more chairs and objects, and darker colour; keep the chimneypiece axis."
+      },
+      {
+        "request": "for a young family today",
+        "toward": "grandmillennial-interior",
+        "how": "Keep the mouldings and the pairs, add chintz, skirted tables and a cheerful colour; let objects collect."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "Georgian interior",
+      "symmetrical drawing room",
+      "marble chimneypiece",
+      "dado rail and cornice",
+      "pea green panelling",
+      "tall sash windows",
+      "mahogany furniture",
+      "gilt pier glass",
+      "plaster ceiling rose",
+      "classical proportion"
+    ],
+    "negative": [
+      "clutter",
+      "asymmetry",
+      "downlights",
+      "saturated colour",
+      "modern furniture"
+    ],
+    "canonical_works": [
+      {
+        "work": "Kirtlington Park dining room",
+        "architect": "William Smith and John Sanderson",
+        "year": 1748
+      },
+      {
+        "work": "Lansdowne House dining room",
+        "architect": "Robert Adam",
+        "year": 1766
+      },
+      {
+        "work": "Osterley Park interiors",
+        "architect": "Robert Adam",
+        "year": 1773
+      },
+      {
+        "work": "The Gentleman and Cabinet-Maker's Director",
+        "architect": "Thomas Chippendale",
+        "year": 1754
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "John Cornforth, Early Georgian Interiors (Yale University Press, 2004)"
+    },
+    {
+      "title": "Isaac Ware, A Complete Body of Architecture (London, 1756)"
+    },
+    {
+      "title": "Wikidata Q1125300: Georgian architecture",
+      "url": "https://www.wikidata.org/wiki/Q1125300"
+    },
+    {
+      "title": "Getty AAT 300021048",
+      "url": "https://vocab.getty.edu/page/aat/300021048"
+    }
+  ]
+}
