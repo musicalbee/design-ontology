@@ -21,5 +21,16 @@
     { "key": "textiles", "title": "Textiles" },
     { "key": "objects", "title": "Objects & decor" },
     { "key": "implementation", "title": "Implementation primer: brief, image prompt, 3D scene" }
+  ],
+  "assets": [
+    {"type": "room-view", "purpose": "One living room seen from a corner at eye height, with level verticals.", "made_by": "model", "file": "demo/previews/interior/{id}.webp", "manifest": "demo/previews/interior/manifest.json", "entry": "images.{id}", "generator": "scripts/render-previews.ts", "canvas": [{"width": 1152, "height": 768}]},
+    {"type": "moodboard", "purpose": "Six tiles for a client brief: room, materials, furniture, textiles, light and objects.", "made_by": "model", "file": "demo/moodboards/interior/{id}/{part}.webp", "parts": ["room", "materials", "furniture", "textiles", "light", "objects"], "manifest": "demo/moodboards/interior/manifest.json", "entry": "boards.{id}.{part}", "generator": "scripts/render-moodboards.ts", "canvas": []}
+  ],
+  "knobs": [
+    {"key": "base_colour", "label": "Base colour", "kind": "colour", "description": "The colour of the walls and the large planes.", "drives": ["palette"]},
+    {"key": "accent_colour", "label": "Accent colour", "kind": "colour", "description": "The colour of the textiles and the objects.", "drives": ["palette", "textiles", "objects"]},
+    {"key": "ceiling_height", "label": "Ceiling height", "kind": "number", "unit": "m", "min": 2.2, "max": 6, "description": "The clear height of the room.", "drives": ["composition", "lighting"]},
+    {"key": "light_temperature", "label": "Light temperature", "kind": "integer", "unit": "K", "min": 1800, "max": 6500, "description": "The colour of the artificial light.", "drives": ["lighting"]},
+    {"key": "object_density", "label": "Object density", "kind": "number", "min": 0, "max": 1, "description": "How full the surfaces are, from bare to full.", "drives": ["objects", "furniture"]}
   ]
 }

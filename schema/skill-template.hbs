@@ -162,7 +162,7 @@ Reference works:
 These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
 
 {{#each techniques}}
-### {{name}} ({{kind}})
+### {{name}} ({{kind}}{{#if invented}}, invented here{{/if}})
 
 {{summary}} Origin: {{origin}}.
 
@@ -171,6 +171,28 @@ These techniques started in one domain and moved into this style. Apply the rule
 {{/each}}
 
 {{/each}}
+{{/if}}
+{{#if media}}
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+{{#each media}}
+- **{{name}}** ({{kind}}, {{place}}, {{years}}), {{part}} the style. {{summary}}
+{{/each}}
+
+{{/if}}
+{{#if knobs}}
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+{{#each knobs}}
+| {{label}} (`{{key}}`) | {{default}} | {{range}} | {{drives}} |
+{{/each}}
+
 {{/if}}
 ## Lineage fallbacks
 

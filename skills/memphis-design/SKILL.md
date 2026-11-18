@@ -168,6 +168,11 @@ Set `data-style="memphis-design"` on the root element and paste the tokens. The 
   --pattern-stripes: repeating-linear-gradient(45deg, #111111 0 4px, #FFFFFF 4px 8px);
   --pattern-dots: radial-gradient(#111111 3px, transparent 3.5px) 0 0 / 16px 16px;
   --tilt-headline: -8deg;
+  --type-ratio: 1.5;
+  --size-small: 10.67px;
+  --size-h3: 36px;
+  --size-h2: 54px;
+  --size-h1: 81px;
   --color-on-bg: #111111;
   --color-on-surface: #111111;
   --color-on-primary: #111111;
@@ -240,6 +245,23 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 6. **The family covers the product.** List each concept that the product needs before you commit. A family that has no icon for one of them is the wrong family.
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
+
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Memphis Group** (studio, Milan, 1980–1987), launched the style. A collective of designers round Ettore Sottsass that showed bold laminate furniture and objects. Its first show in 1981 launched the Memphis style.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #FF5FA2 | #FF5FA2, #00B2A9, #111111 | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #00B2A9 | #00B2A9, #FF5FA2 | --color-accent, --color-on-accent, --color-link |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.5 | 1.414–1.618 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

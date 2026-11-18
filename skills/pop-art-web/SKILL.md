@@ -161,6 +161,11 @@ Set `data-style="pop-art-web"` on the root element and paste the tokens. The fil
   --space-unit: 8px;
   --ease: cubic-bezier(0.34, 1.56, 0.64, 1);
   --duration: 180ms;
+  --type-ratio: 1.5;
+  --size-small: 10.67px;
+  --size-h3: 36px;
+  --size-h2: 54px;
+  --size-h1: 81px;
   --color-on-bg: #111111;
   --color-on-surface: #111111;
   --color-on-primary: #000000;
@@ -240,6 +245,18 @@ Tone printed as dots of different size or spacing; at a distance the dots merge 
 
 - Set the screen at 10 to 30 lines per cm for a print grain, or enlarge the dots to 4 to 8mm for a Pop effect.
 - Turn each colour screen to its own angle: cyan 15°, magenta 75°, yellow 0°, black 45°.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #E8272B | #E8272B, #1E6FD9, #111111 | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #1E6FD9 | #1E6FD9, #E8272B | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 6px | 3–9 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.5 | 1.414–1.618 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

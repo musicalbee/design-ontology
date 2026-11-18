@@ -163,6 +163,11 @@ Set `data-style="dark-devtool-ui"` on the root element and paste the tokens. The
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
   --duration: 150ms;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --type-ratio: 1.25;
+  --size-small: 11.2px;
+  --size-h3: 21.88px;
+  --size-h2: 27.34px;
+  --size-h1: 34.18px;
   --color-on-bg: #E6E6EB;
   --color-on-surface: #E6E6EB;
   --color-on-primary: #FFFFFF;
@@ -243,6 +248,18 @@ Every character takes one cell of the same width, so text forms columns without 
 - Give every glyph one advance width, 0.60 em in most fonts, or 10 or 12 characters an inch on a typewriter.
 - Align columns with spaces and set tables, code and forms on the cell grid.
 - On a screen, size the layout in cells: 80 columns by 24 rows is the classic terminal.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #5A66E8 | #5A66E8, #E6E6EB | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #5A66E8 | #5A66E8, #E6E6EB | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 6px | 3–9 px | --border-radius |
+| Grid step (`grid_step`) | 4px | 2–6 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.25 | 1.2–1.333 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

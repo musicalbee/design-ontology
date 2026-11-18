@@ -162,6 +162,11 @@ Set `data-style="blob-world"` on the root element and paste the tokens. The file
   --space-unit: 8px;
   --ease: cubic-bezier(0.34, 1.56, 0.64, 1);
   --duration: 500ms;
+  --type-ratio: 1.333;
+  --size-small: 13.5px;
+  --size-h3: 31.98px;
+  --size-h2: 42.63px;
+  --size-h1: 56.83px;
   --color-on-bg: #2A1740;
   --color-on-surface: #2A1740;
   --color-on-primary: #2A1740;
@@ -243,6 +248,18 @@ A moving form changes shape but keeps its volume: it stretches along its path at
 - Keep the volume constant: when the height grows by a factor k, scale the width by 1/k.
 - Stretch along the path by 10% to 30% at the highest speed and squash by the same amount on impact.
 - In an interface, use a spring with a damping ratio of 0.6 to 0.8, so that an element overshoots once and settles.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #FF5A4D | #FF5A4D, #7A5CFF, #2A1740 | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #7A5CFF | #7A5CFF, #FF5A4D | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 32px | 16–48 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.333 | 1.25–1.414 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

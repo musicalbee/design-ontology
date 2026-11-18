@@ -158,6 +158,11 @@ Set `data-style="luxury-typography-web"` on the root element and paste the token
   --space-unit: 8px;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
   --duration: 900ms;
+  --type-ratio: 1.618;
+  --size-small: 9.89px;
+  --size-h3: 41.89px;
+  --size-h2: 67.77px;
+  --size-h1: 109.66px;
   --color-on-bg: #16140F;
   --color-on-surface: #16140F;
   --color-on-primary: #F6F1E8;
@@ -246,6 +251,18 @@ Capital letters set with wide space between them, so that a short word reads as 
 - Set the size small, at 11 to 14px on screen, in a light weight.
 - Use roman capitals with strong serifs or a clean geometric sans.
 - Keep the line to one to four words.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #16140F | #16140F, #836320 | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #836320 | #836320, #16140F | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 0px | 0–0 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.618 | 1.5–1.618 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

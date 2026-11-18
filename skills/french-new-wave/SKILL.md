@@ -217,6 +217,12 @@ A cut inside one continuous shot that removes time and leaves the jump in view. 
 - Remove 0.3 to 2 seconds inside one shot and keep the framing within 10% of the frame width, so that the jump shows.
 - In a talk to camera, cut on the word and not on the action: one cut every 2 to 4 seconds.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Cahiers du cinéma** (magazine, Paris, 1951–now), published the style. A film magazine whose young critics argued for the director as author. Several of them went on to make the first films of the French New Wave.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

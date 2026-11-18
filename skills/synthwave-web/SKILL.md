@@ -157,6 +157,11 @@ Set `data-style="synthwave-web"` on the root element and paste the tokens. The f
   --space-unit: 8px;
   --ease: linear;
   --duration: 1200ms;
+  --type-ratio: 1.618;
+  --size-small: 9.89px;
+  --size-h3: 41.89px;
+  --size-h2: 67.77px;
+  --size-h1: 109.66px;
   --color-on-bg: #F3E8FF;
   --color-on-surface: #F3E8FF;
   --color-on-primary: #12062B;
@@ -241,6 +246,18 @@ Light as a line of coloured gas, with a soft halo that spills onto the dark grou
 - Add a halo of 10 to 40px at 30% to 60% opacity in the same hue.
 - Set the sign on a ground darker than 10% lightness, so that the halo shows.
 - Keep a bright, near-white core inside the line.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #FF2975 | #FF2975, #00F0FF, #F3E8FF | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #00F0FF | #00F0FF, #FF2975 | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 8px | 4–12 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.618 | 1.5–1.618 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

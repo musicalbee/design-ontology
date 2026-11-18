@@ -14,13 +14,44 @@ export interface Domain {
   task: string;
   vectors: VectorAxis[];
   facets: Facet[];
+  assets: AssetType[];
+  knobs: Knob[];
 }
+/** One asset type that each style of a domain must have (rule 5 of the curation rules). */
+export interface AssetType {
+  type: string;
+  purpose: string;
+  made_by: "model" | "code";
+  file: string;
+  parts?: string[];
+  manifest?: string;
+  entry?: string;
+  generator: string;
+  input?: string;
+  canvas: { width: number; height: number }[];
+}
+/** One knob that varies a style of a domain (rule 6 of the curation rules). */
+export interface Knob {
+  key: string;
+  label: string;
+  kind: "colour" | "length" | "number" | "integer" | "enum";
+  unit?: string;
+  min?: number;
+  max?: number;
+  options?: string[];
+  token?: string;
+  description: string;
+  drives: string[];
+}
+/** The range of one knob for one style. */
+export interface KnobRange { default?: number | string; min?: number; max?: number; options?: (number | string)[]; note?: string }
 export interface Era { id: string; domain: string; name: string; order: number; period: string; summary: string }
 export interface Lineage {
   evolved_from: string[];
   rebelled_against: string[];
   hybridized_with: string[];
   echoes?: string[];
+  root?: string;
 }
 export interface Style {
   id: string;
@@ -41,6 +72,7 @@ export interface Style {
     modifiers: { request: string; toward: string; how: string }[];
   };
   tokens?: { css: Record<string, string>; tailwind: { element: string; classes: string }[] };
+  permutations?: Record<string, KnobRange>;
   primer?: { positive: string[]; negative: string[]; canonical_works: { work: string; architect: string; year: number }[] };
   [facet: string]: unknown;
 }
@@ -61,11 +93,11 @@ export interface Technique {
   id: string;
   name: string;
   aliases: string[];
-  kind: "montage" | "animation" | "motif" | "material" | "process" | "tool";
+  kind: "montage" | "animation" | "motif" | "material" | "process" | "tool" | "skill" | "technology";
   identity?: { wikidata?: string; aat?: string };
   summary: string;
   how: string[];
-  origin: { domain: string; year: number; circa?: boolean; where: string; note: string };
+  origin: { domain: string; year: number; circa?: boolean; where: string; note: string; styles?: string[] };
   adoptions: { domain: string; year: number; circa?: boolean; via: string; styles?: string[] }[];
   styles: string[];
   principles?: string[];
@@ -121,11 +153,51 @@ export interface Person {
   died: number | null;
   nationality?: string[];
   bio: string;
-  styles: { style: string; role: "founder" | "key-figure" | "forerunner" | "populariser" | "trend-setter" | "rebel" }[];
+  styles: { style: string; role: PersonRole }[];
   milestones: { year: number; event: string; style?: string; posthumous?: boolean }[];
   photo: { file: string; url: string; page?: string; licence: string; licence_url?: string; credit: string } | null;
   sources: { title: string; url?: string }[];
   found_in?: string[];
+}
+
+export type PersonRole = "founder" | "key-figure" | "forerunner" | "populariser" | "trend-setter" | "rebel" | "patron" | "artisan";
+/** The four classes of rule 2 of the curation rules. Each role is in one class. */
+export type RoleClass = "pioneer" | "artisan" | "influencer" | "patron";
+export const ROLE_CLASS: Record<PersonRole, RoleClass> = {
+  founder: "pioneer",
+  forerunner: "pioneer",
+  "key-figure": "artisan",
+  artisan: "artisan",
+  populariser: "influencer",
+  "trend-setter": "influencer",
+  rebel: "influencer",
+  patron: "patron",
+};
+
+/** A salon, a club, a workshop, a school, a magazine, a publisher, a gallery, an auction house or a platform round a style. */
+export interface Medium {
+  id: string;
+  name: string;
+  aliases?: string[];
+  kind: "salon" | "club" | "workshop" | "school" | "studio" | "magazine" | "publisher" | "gallery" | "exhibition" | "auction-house" | "platform";
+  identity?: { wikidata?: string };
+  founded: number | null;
+  closed: number | null;
+  place: string;
+  summary: string;
+  styles: { style: string; part: "launched" | "exhibited" | "published" | "taught" | "made" | "sold" | "gathered" }[];
+  people?: string[];
+  sources: { title: string; url?: string }[];
+}
+
+/** The media layer in data/media/, by file. */
+export function loadMedia(): { file: string; slug: string; medium: Medium }[] {
+  const dir = join(ROOT, "data", "media");
+  return jsonFiles(dir).map((f) => ({
+    file: join("data", "media", f),
+    slug: f.replace(/\.json$/, ""),
+    medium: readJson<Medium>(join(dir, f)),
+  }));
 }
 
 /** The people layer in data/people/, by file. */

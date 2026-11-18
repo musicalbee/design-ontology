@@ -308,6 +308,13 @@
       }
     ]
   },
+  "permutations": {
+    "base_colour": {"options": ["#3F51B5", "#FF4081"]},
+    "accent_colour": {"options": ["#FF4081", "#3F51B5"]},
+    "corner_radius": {"min": 1, "max": 3},
+    "grid_step": {"min": 4, "max": 12},
+    "type_scale_ratio": {"default": 1.25, "min": 1.2, "max": 1.333}
+  },
   "sources": [
     {
       "title": "Google, Material Design specification (Google, 2014)"

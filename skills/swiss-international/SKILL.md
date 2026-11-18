@@ -167,6 +167,11 @@ Set `data-style="swiss-international"` on the root element and paste the tokens.
   --grid-gutter: 24px;
   --tracking-display: -0.03em;
   --leading-body: 1.5;
+  --type-ratio: 1.25;
+  --size-small: 12.8px;
+  --size-h3: 25px;
+  --size-h2: 31.25px;
+  --size-h1: 39.06px;
   --color-on-bg: #111111;
   --color-on-surface: #111111;
   --color-on-primary: #FFFFFF;
@@ -258,6 +263,24 @@ A page or screen divided into equal columns and rows; each element fits a cell o
 - Cut the page into rows of the same module height; align each image and text block to the lines.
 - Set text on a baseline grid of one line height, and use 1 to 2 type sizes for each level.
 - Scale an image by a whole number of modules.
+
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Neue Grafik** (magazine, Zürich, 1958–1965), published the style. A trilingual review of graphic design, set on a strict grid, that four Swiss designers edited. It made the case for the International Typographic Style.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #111111 | #111111, #E30613 | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #E30613 | #E30613, #111111 | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 0px | 0–0 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.25 | 1.2–1.333 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

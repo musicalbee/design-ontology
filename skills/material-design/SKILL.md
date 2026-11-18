@@ -168,6 +168,11 @@ Set `data-style="material-design"` on the root element and paste the tokens. The
   --shadow-1dp: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
   --shadow-24dp: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
   --touch-target: 48px;
+  --type-ratio: 1.25;
+  --size-small: 12.8px;
+  --size-h3: 25px;
+  --size-h2: 31.25px;
+  --size-h1: 39.06px;
   --color-on-bg: #212121;
   --color-on-surface: #212121;
   --color-on-primary: #FAFAFA;
@@ -254,6 +259,18 @@ A cut between two shots whose main forms have the same shape, position or moveme
 
 - Match the shape, the position and the scale of the main form across the cut within 10% of the frame width.
 - In an interface, move the shared element from its old box to its new box in 250 to 350ms while the rest of the screen fades.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #3F51B5 | #3F51B5, #FF4081 | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #FF4081 | #FF4081, #3F51B5 | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 2px | 1–3 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.25 | 1.2–1.333 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

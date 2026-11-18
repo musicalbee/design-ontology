@@ -251,6 +251,12 @@ A joint that stays in view, so that the way of making is part of the look. Origi
 - Peg the joint with a wooden pin of 8 to 12mm; do not hide it with filler or paint.
 - Use one joint type in a room or a building; repeat it at each corner.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Kelmscott Press** (publisher, Hammersmith, London, 1891–1898), published the style. A private press that William Morris started to print books by hand in the manner of the early printers. It made the book a model of the Arts and Crafts ideal.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

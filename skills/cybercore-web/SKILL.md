@@ -161,6 +161,11 @@ Set `data-style="cybercore-web"` on the root element and paste the tokens. The f
   --space-unit: 4px;
   --ease: cubic-bezier(0.2, 0, 0, 1);
   --duration: 160ms;
+  --type-ratio: 1.5;
+  --size-small: 9.33px;
+  --size-h3: 31.5px;
+  --size-h2: 47.25px;
+  --size-h1: 70.88px;
   --color-on-bg: #C9D1D9;
   --color-on-surface: #C9D1D9;
   --color-on-primary: #05070A;
@@ -232,6 +237,18 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 6. **The family covers the product.** List each concept that the product needs before you commit. A family that has no icon for one of them is the wrong family.
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #C6FF00 | #C6FF00, #00F0FF, #C9D1D9 | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #00F0FF | #00F0FF, #C6FF00 | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 0px | 0–0 px | --border-radius |
+| Grid step (`grid_step`) | 4px | 2–6 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.5 | 1.414–1.618 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

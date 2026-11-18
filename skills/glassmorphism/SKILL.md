@@ -164,6 +164,11 @@ Set `data-style="glassmorphism"` on the root element and paste the tokens. The f
   --duration: 300ms;
   --surface-hover: rgba(255, 255, 255, 0.28);
   --background-gradient: linear-gradient(135deg, #6C5CE7 0%, #FD79A8 100%);
+  --type-ratio: 1.25;
+  --size-small: 12.8px;
+  --size-h3: 25px;
+  --size-h2: 31.25px;
+  --size-h1: 39.06px;
   --color-on-bg: #FFFFFF;
   --color-on-surface: #000000;
   --color-on-primary: #000000;
@@ -244,6 +249,18 @@ A move speeds up from rest and slows down before it stops, as a real mass does, 
 - Give a move of 200 to 400ms an ease-out curve when an element enters and an ease-in curve when it leaves.
 - Use cubic-bezier(0.4, 0, 0.2, 1) as the standard curve for a move inside the screen.
 - Put more frames at the two ends of a move than in the middle: 2 to 3 times the density.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #74B9FF | #74B9FF, #FD79A8, #FFFFFF | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #FD79A8 | #FD79A8, #74B9FF | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 20px | 10–30 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.25 | 1.2–1.333 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

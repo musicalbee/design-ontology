@@ -11,6 +11,7 @@
     "reference_faces", "prompt_primer", "evidence", "lineage", "emotion", "agent", "sources"
   ],
   "properties": {
+    "permutations": { "$ref": "../core.schema.json#/$defs/permutations" },
     "$schema": { "type": "string" },
     "id": { "$ref": "../core.schema.json#/$defs/slug" },
     "domain": { "const": "typeface" },

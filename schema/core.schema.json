@@ -73,7 +73,8 @@
         "evolved_from": { "$ref": "#/$defs/refList", "description": "Direct ancestors in the same domain." },
         "rebelled_against": { "$ref": "#/$defs/refList", "description": "Styles that this style rejects." },
         "hybridized_with": { "$ref": "#/$defs/refList", "description": "Styles that this style mixes with in practice. The graph makes this edge symmetric." },
-        "echoes": { "$ref": "#/$defs/refList", "description": "Kin in a DIFFERENT domain (for example a UI style and an architecture style that share a thesis)." }
+        "echoes": { "$ref": "#/$defs/refList", "description": "Kin in a DIFFERENT domain (for example a UI style and an architecture style that share a thesis)." },
+        "root": { "$ref": "#/$defs/sentence", "description": "Only for a style with no edge: the reason why it has no ancestor in the data. Rule 1 of the curation rules needs an edge or this reason." }
       }
     },
     "emotion": {
@@ -144,6 +145,24 @@
               "toward": { "$ref": "#/$defs/slug", "description": "The style to blend toward." },
               "how": { "$ref": "#/$defs/sentence", "description": "Which properties to change, and which to keep." }
             }
+          }
+        }
+      }
+    },
+    "permutations": {
+      "type": "object",
+      "description": "Rule 6 of the curation rules. The range of each knob of the domain (domains/<domain>.json `knobs`) inside which the style stays itself. A key is a knob key. If the knob reads its default from a token, leave out `default`.",
+      "additionalProperties": false,
+      "patternProperties": {
+        "^[a-z][a-z0-9_]*$": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "default": { "type": ["number", "string"] },
+            "min": { "type": "number" },
+            "max": { "type": "number" },
+            "options": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": ["number", "string"] } },
+            "note": { "$ref": "#/$defs/sentence" }
           }
         }
       }

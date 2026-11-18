@@ -162,6 +162,11 @@ Set `data-style="cassette-futurism"` on the root element and paste the tokens. T
   --space-unit: 8px;
   --ease: steps(4);
   --duration: 240ms;
+  --type-ratio: 1.333;
+  --size-small: 12px;
+  --size-h3: 28.43px;
+  --size-h2: 37.9px;
+  --size-h1: 50.52px;
   --color-on-bg: #F3E9C8;
   --color-on-surface: #F3E9C8;
   --color-on-primary: #14130F;
@@ -242,6 +247,18 @@ Lines that run to one vanishing point on a horizon, so that a flat surface reads
 
 - Put the horizon at 50% to 65% of the height and draw 12 to 24 lines to one vanishing point.
 - Space the cross lines so that each gap is about 0.8 of the gap in front of it.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #FFB000 | #FFB000, #33FF66, #F3E9C8 | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #33FF66 | #33FF66, #FFB000 | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 4px | 2–6 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.333 | 1.25–1.414 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 
