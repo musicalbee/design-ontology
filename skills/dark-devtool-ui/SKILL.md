@@ -243,6 +243,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`flat-design`](../flat-design/SKILL.md)
 - **Led to (go here for a newer version):** [`cybercore-web`](../cybercore-web/SKILL.md)
 - **Mixes well with:** [`ai-chat-ui`](../ai-chat-ui/SKILL.md), [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`cyberpunk-web`](../cyberpunk-web/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md), [`terminal-tui-web`](../terminal-tui-web/SKILL.md)
+- **Kin in another domain:** [`monospace`](../monospace/SKILL.md)
 - **Nearest by vector profile:** [`flat-design`](../flat-design/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md), [`ai-chat-ui`](../ai-chat-ui/SKILL.md)
 
 ## Emotional target

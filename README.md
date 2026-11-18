@@ -372,14 +372,18 @@ flowchart LR
   subgraph icon_post_flat["Icons · Post-flat · 2019–present"]
     clay_3d_icon["3D clay icon"]
   end
-  subgraph typeface_hand_press["Typeface · Hand press · 1465–1820"]
+  subgraph typeface_hand_press["Typeface · Hand press · 1450–1820"]
+    blackletter["Blackletter"]
     garalde_old_style["Garalde old-style serif"]
+    formal_script["Formal script"]
     transitional_serif["Transitional serif"]
     didone_serif["Didone"]
   end
-  subgraph typeface_industrial["Typeface · Industrial · 1815–1914"]
+  subgraph typeface_industrial["Typeface · Industrial · 1810–1914"]
+    fat_face_display["Fat face display"]
     slab_serif["Slab serif"]
     grotesque_sans["Grotesque sans"]
+    monospace["Monospace"]
   end
   subgraph typeface_modernist["Typeface · Modernist · 1914–1975"]
     humanist_sans["Humanist sans"]
@@ -433,6 +437,8 @@ flowchart LR
   bauhaus_architecture <-. echoes .-> new_objectivity
   bauhaus_interior <-. echoes .-> de_stijl_painting
   bauhaus_interior <-. echoes .-> international_style_architecture
+  blackletter <-. echoes .-> gothic_architecture
+  blackletter <-. echoes .-> punk_zine
   brutalist_architecture <-. echoes .-> brutalist_web
   brutalist_architecture <-. echoes .-> constructivism_web
   brutalist_architecture <-. echoes .-> dogme_95
@@ -440,6 +446,7 @@ flowchart LR
   brutalist_architecture <-. echoes .-> industrial_loft_interior
   brutalist_architecture <-. echoes .-> neo_brutalism_ui
   brutalist_architecture <-. echoes .-> new_topographics
+  brutalist_web <-. echoes .-> monospace
   camcorder_revival <-. echoes .-> film_grain_revival
   camcorder_revival <-. echoes .-> grunge_editorial
   camcorder_revival <-. echoes .-> party_flash
@@ -457,6 +464,7 @@ flowchart LR
   cubism_painting <-. echoes .-> deconstructivist_architecture
   cyberdelia <-. echoes .-> party_flash
   cyberpunk_web <-. echoes .-> film_noir_still
+  dark_devtool_ui <-. echoes .-> monospace
   de_stijl_painting <-. echoes .-> de_stijl_web
   de_stijl_painting <-. echoes .-> geometric_symbol
   de_stijl_painting <-. echoes .-> international_style_architecture
@@ -479,6 +487,8 @@ flowchart LR
   expressionist_architecture <-. echoes .-> german_expressionist_cinema
   fashion_editorial <-. echoes .-> grunge_editorial
   fashion_editorial <-. echoes .-> quiet_luxury_interior
+  fat_face_display <-. echoes .-> victorian_trademark
+  fat_face_display <-. echoes .-> victorian_web
   fauvism <-. echoes .-> new_colour
   film_grain_revival <-. echoes .-> impressionism
   film_noir <-. echoes .-> film_noir_still
@@ -490,6 +500,8 @@ flowchart LR
   flat_icon <-. echoes .-> metro_ui
   flat_logo <-. echoes .-> material_design
   flat_logo <-. echoes .-> metro_ui
+  formal_script <-. echoes .-> hollywood_regency_interior
+  formal_script <-. echoes .-> rococo_painting
   found_footage <-. echoes .-> y2k_digicam
   french_new_wave <-. echoes .-> street_photography
   frutiger_aero <-. echoes .-> glossy_3d_logo
@@ -547,6 +559,7 @@ flowchart LR
   minimalism_painting <-. echoes .-> swiss_international
   minimalism_web <-. echoes .-> minimalist_interior
   minimalist_interior <-. echoes .-> rams_functionalism_ui
+  monospace <-. echoes .-> terminal_tui_web
   music_video <-. echoes .-> y2k_aesthetic
   neo_grotesque_sans <-. echoes .-> swiss_international
   neoclassical_architecture <-. echoes .-> transitional_serif
@@ -633,6 +646,7 @@ flowchart LR
   art_nouveau_architecture --> expressionist_architecture
   pictorialism --> fashion_editorial
   straight_photography --> fashion_editorial
+  didone_serif --> fat_face_display
   pointillism --> fauvism
   new_colour --> film_grain_revival
   street_photography --> film_grain_revival
@@ -683,6 +697,7 @@ flowchart LR
   flat_design --> minimalism_web
   swiss_international --> minimalism_web
   bauhaus_interior --> minimalist_interior
+  slab_serif --> monospace
   dogme_95 --> mumblecore
   flat_design --> neo_brutalism_ui
   art_deco_interior --> neo_deco_interior
@@ -777,6 +792,8 @@ flowchart LR
   flat_design -. rejects .-> skeuomorphism
   flat_icon -. rejects .-> skeuomorphic_icon
   flat_logo -. rejects .-> glossy_3d_logo
+  formal_script -. rejects .-> blackletter
+  garalde_old_style -. rejects .-> blackletter
   geometric_sans -. rejects .-> garalde_old_style
   geometric_sans -. rejects .-> grotesque_sans
   glossy_3d_logo -. rejects .-> swiss_modernist_mark
@@ -1031,17 +1048,15 @@ flowchart LR
   linkStyle 190 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 191 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 192 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 349 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 350 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 351 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 352 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 353 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 354 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 355 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 356 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 357 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 358 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 359 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 193 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 194 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 195 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 196 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 197 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 198 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 199 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 200 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 201 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 360 stroke:#E5484D,stroke-width:1.5px
   linkStyle 361 stroke:#E5484D,stroke-width:1.5px
   linkStyle 362 stroke:#E5484D,stroke-width:1.5px
@@ -1134,6 +1149,19 @@ flowchart LR
   linkStyle 449 stroke:#E5484D,stroke-width:1.5px
   linkStyle 450 stroke:#E5484D,stroke-width:1.5px
   linkStyle 451 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 452 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 453 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 454 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 455 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 456 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 457 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 458 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 459 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 460 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 461 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 462 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 463 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 464 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 

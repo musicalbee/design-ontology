@@ -143,6 +143,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`garalde-old-style`](../garalde-old-style/SKILL.md)
 - **Led to (go here for a newer version):** [`didone-serif`](../didone-serif/SKILL.md)
+- **Mixes well with:** [`formal-script`](../formal-script/SKILL.md)
 - **Kin in another domain:** [`georgian-interior`](../georgian-interior/SKILL.md), [`neoclassical-architecture`](../neoclassical-architecture/SKILL.md)
 - **Nearest by vector profile:** [`garalde-old-style`](../garalde-old-style/SKILL.md), [`didone-serif`](../didone-serif/SKILL.md), [`grotesque-sans`](../grotesque-sans/SKILL.md)
 

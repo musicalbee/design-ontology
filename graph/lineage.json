@@ -2839,6 +2839,21 @@
       }
     },
     {
+      "id": "blackletter",
+      "domain": "typeface",
+      "name": "Blackletter",
+      "era": "hand-press",
+      "start": 1454,
+      "end": null,
+      "vectors": {
+        "stroke_contrast": 3,
+        "construction": 1,
+        "x_height": 4,
+        "width": 1,
+        "serif_mass": 2
+      }
+    },
+    {
       "id": "garalde-old-style",
       "domain": "typeface",
       "name": "Garalde old-style serif",
@@ -2851,6 +2866,21 @@
         "x_height": 1,
         "width": 3,
         "serif_mass": 3
+      }
+    },
+    {
+      "id": "formal-script",
+      "domain": "typeface",
+      "name": "Formal script",
+      "era": "hand-press",
+      "start": 1740,
+      "end": null,
+      "vectors": {
+        "stroke_contrast": 4,
+        "construction": 1,
+        "x_height": 1,
+        "width": 2,
+        "serif_mass": 1
       }
     },
     {
@@ -2884,6 +2914,21 @@
       }
     },
     {
+      "id": "fat-face-display",
+      "domain": "typeface",
+      "name": "Fat face display",
+      "era": "industrial",
+      "start": 1810,
+      "end": null,
+      "vectors": {
+        "stroke_contrast": 5,
+        "construction": 4,
+        "x_height": 4,
+        "width": 4,
+        "serif_mass": 2
+      }
+    },
+    {
       "id": "slab-serif",
       "domain": "typeface",
       "name": "Slab serif",
@@ -2911,6 +2956,21 @@
         "x_height": 3,
         "width": 3,
         "serif_mass": 1
+      }
+    },
+    {
+      "id": "monospace",
+      "domain": "typeface",
+      "name": "Monospace",
+      "era": "industrial",
+      "start": 1874,
+      "end": null,
+      "vectors": {
+        "stroke_contrast": 1,
+        "construction": 4,
+        "x_height": 5,
+        "width": 4,
+        "serif_mass": 3
       }
     },
     {
@@ -3196,6 +3256,16 @@
       "type": "ECHOES"
     },
     {
+      "from": "blackletter",
+      "to": "gothic-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "blackletter",
+      "to": "punk-zine",
+      "type": "ECHOES"
+    },
+    {
       "from": "brutalist-architecture",
       "to": "brutalist-web",
       "type": "ECHOES"
@@ -3228,6 +3298,11 @@
     {
       "from": "brutalist-architecture",
       "to": "new-topographics",
+      "type": "ECHOES"
+    },
+    {
+      "from": "brutalist-web",
+      "to": "monospace",
       "type": "ECHOES"
     },
     {
@@ -3313,6 +3388,11 @@
     {
       "from": "cyberpunk-web",
       "to": "film-noir-still",
+      "type": "ECHOES"
+    },
+    {
+      "from": "dark-devtool-ui",
+      "to": "monospace",
       "type": "ECHOES"
     },
     {
@@ -3426,6 +3506,16 @@
       "type": "ECHOES"
     },
     {
+      "from": "fat-face-display",
+      "to": "victorian-trademark",
+      "type": "ECHOES"
+    },
+    {
+      "from": "fat-face-display",
+      "to": "victorian-web",
+      "type": "ECHOES"
+    },
+    {
       "from": "fauvism",
       "to": "new-colour",
       "type": "ECHOES"
@@ -3478,6 +3568,16 @@
     {
       "from": "flat-logo",
       "to": "metro-ui",
+      "type": "ECHOES"
+    },
+    {
+      "from": "formal-script",
+      "to": "hollywood-regency-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "formal-script",
+      "to": "rococo-painting",
       "type": "ECHOES"
     },
     {
@@ -3763,6 +3863,11 @@
     {
       "from": "minimalist-interior",
       "to": "rams-functionalism-ui",
+      "type": "ECHOES"
+    },
+    {
+      "from": "monospace",
+      "to": "terminal-tui-web",
       "type": "ECHOES"
     },
     {
@@ -4196,6 +4301,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "fat-face-display",
+      "to": "didone-serif",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "fauvism",
       "to": "pointillism",
       "type": "EVOLVED_FROM"
@@ -4443,6 +4553,11 @@
     {
       "from": "minimalist-interior",
       "to": "bauhaus-interior",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "monospace",
+      "to": "slab-serif",
       "type": "EVOLVED_FROM"
     },
     {
@@ -5051,6 +5166,11 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "fat-face-display",
+      "to": "slab-serif",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "film-grain-revival",
       "to": "party-flash",
       "type": "HYBRIDIZED_WITH"
@@ -5083,6 +5203,11 @@
     {
       "from": "flat-logo",
       "to": "minimal-wordmark",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "formal-script",
+      "to": "transitional-serif",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -5183,6 +5308,11 @@
     {
       "from": "minimalism-web",
       "to": "surrealism-web",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "monospace",
+      "to": "neo-grotesque-sans",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -5473,6 +5603,16 @@
     {
       "from": "flat-logo",
       "to": "glossy-3d-logo",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "formal-script",
+      "to": "blackletter",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "garalde-old-style",
+      "to": "blackletter",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -6479,6 +6619,7 @@
         "punk-zine"
       ],
       "echoes": [
+        "fat-face-display",
         "slab-serif",
         "victorian-trademark"
       ],
@@ -6995,7 +7136,9 @@
         "grunge-editorial",
         "victorian-web"
       ],
-      "echoes": [],
+      "echoes": [
+        "blackletter"
+      ],
       "nearest_by_vector": [
         {
           "id": "anti-design",
@@ -7611,7 +7754,8 @@
         "terminal-tui-web"
       ],
       "echoes": [
-        "brutalist-architecture"
+        "brutalist-architecture",
+        "monospace"
       ],
       "nearest_by_vector": [
         {
@@ -7837,7 +7981,9 @@
         "glassmorphism",
         "terminal-tui-web"
       ],
-      "echoes": [],
+      "echoes": [
+        "monospace"
+      ],
       "nearest_by_vector": [
         {
           "id": "flat-design",
@@ -7938,7 +8084,9 @@
         "dark-devtool-ui",
         "pixel-art-web"
       ],
-      "echoes": [],
+      "echoes": [
+        "monospace"
+      ],
       "nearest_by_vector": [
         {
           "id": "bauhaus",
@@ -8384,7 +8532,9 @@
         "renaissance-architecture"
       ],
       "hybridized_with": [],
-      "echoes": [],
+      "echoes": [
+        "blackletter"
+      ],
       "nearest_by_vector": [
         {
           "id": "adaptive-reuse-architecture",
@@ -9335,7 +9485,8 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
-        "art-deco-web"
+        "art-deco-web",
+        "formal-script"
       ],
       "nearest_by_vector": [
         {
@@ -11240,7 +11391,8 @@
       ],
       "hybridized_with": [],
       "echoes": [
-        "art-nouveau-architecture"
+        "art-nouveau-architecture",
+        "formal-script"
       ],
       "nearest_by_vector": [
         {
@@ -11873,6 +12025,7 @@
         "emblem-badge"
       ],
       "echoes": [
+        "fat-face-display",
         "victorian-interior",
         "victorian-web"
       ],
@@ -12408,13 +12561,44 @@
       ],
       "techniques": []
     },
+    "blackletter": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [
+        "formal-script",
+        "garalde-old-style"
+      ],
+      "hybridized_with": [],
+      "echoes": [
+        "gothic-architecture",
+        "punk-zine"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "humanist-sans",
+          "distance": 2.65
+        },
+        {
+          "id": "formal-script",
+          "distance": 3.46
+        },
+        {
+          "id": "transitional-serif",
+          "distance": 3.61
+        }
+      ],
+      "techniques": []
+    },
     "garalde-old-style": {
       "evolved_from": [],
       "evolved_into": [
         "humanist-sans",
         "transitional-serif"
       ],
-      "rebelled_against": [],
+      "rebelled_against": [
+        "blackletter"
+      ],
       "provoked": [
         "didone-serif",
         "geometric-sans"
@@ -12430,12 +12614,42 @@
           "distance": 2.45
         },
         {
-          "id": "humanist-sans",
-          "distance": 3.74
+          "id": "formal-script",
+          "distance": 3
         },
         {
-          "id": "grotesque-sans",
-          "distance": 4.12
+          "id": "humanist-sans",
+          "distance": 3.74
+        }
+      ],
+      "techniques": []
+    },
+    "formal-script": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "blackletter"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "transitional-serif"
+      ],
+      "echoes": [
+        "hollywood-regency-interior",
+        "rococo-painting"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "garalde-old-style",
+          "distance": 3
+        },
+        {
+          "id": "transitional-serif",
+          "distance": 3.32
+        },
+        {
+          "id": "blackletter",
+          "distance": 3.46
         }
       ],
       "techniques": []
@@ -12449,7 +12663,9 @@
       ],
       "rebelled_against": [],
       "provoked": [],
-      "hybridized_with": [],
+      "hybridized_with": [
+        "formal-script"
+      ],
       "echoes": [
         "georgian-interior",
         "neoclassical-architecture"
@@ -12475,6 +12691,7 @@
         "transitional-serif"
       ],
       "evolved_into": [
+        "fat-face-display",
         "slab-serif"
       ],
       "rebelled_against": [
@@ -12494,12 +12711,42 @@
           "distance": 2.65
         },
         {
-          "id": "grotesque-sans",
-          "distance": 3.74
+          "id": "fat-face-display",
+          "distance": 3.16
         },
         {
-          "id": "garalde-old-style",
-          "distance": 4.36
+          "id": "formal-script",
+          "distance": 3.46
+        }
+      ],
+      "techniques": []
+    },
+    "fat-face-display": {
+      "evolved_from": [
+        "didone-serif"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "slab-serif"
+      ],
+      "echoes": [
+        "victorian-trademark",
+        "victorian-web"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "didone-serif",
+          "distance": 3.16
+        },
+        {
+          "id": "transitional-serif",
+          "distance": 3.32
+        },
+        {
+          "id": "grotesque-sans",
+          "distance": 3.46
         }
       ],
       "techniques": []
@@ -12508,10 +12755,13 @@
       "evolved_from": [
         "didone-serif"
       ],
-      "evolved_into": [],
+      "evolved_into": [
+        "monospace"
+      ],
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [
+        "fat-face-display",
         "grotesque-sans"
       ],
       "echoes": [
@@ -12520,16 +12770,16 @@
       ],
       "nearest_by_vector": [
         {
+          "id": "monospace",
+          "distance": 3
+        },
+        {
           "id": "transitional-serif",
           "distance": 3.16
         },
         {
           "id": "grotesque-sans",
           "distance": 4.12
-        },
-        {
-          "id": "garalde-old-style",
-          "distance": 4.24
         }
       ],
       "techniques": []
@@ -12568,6 +12818,37 @@
       ],
       "techniques": []
     },
+    "monospace": {
+      "evolved_from": [
+        "slab-serif"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "neo-grotesque-sans"
+      ],
+      "echoes": [
+        "brutalist-web",
+        "dark-devtool-ui",
+        "terminal-tui-web"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "neo-grotesque-sans",
+          "distance": 2.24
+        },
+        {
+          "id": "slab-serif",
+          "distance": 3
+        },
+        {
+          "id": "grotesque-sans",
+          "distance": 3.16
+        }
+      ],
+      "techniques": []
+    },
     "humanist-sans": {
       "evolved_from": [
         "garalde-old-style"
@@ -12594,8 +12875,8 @@
           "distance": 2.45
         },
         {
-          "id": "transitional-serif",
-          "distance": 3.16
+          "id": "blackletter",
+          "distance": 2.65
         }
       ],
       "techniques": []
@@ -12638,7 +12919,9 @@
         "humanist-sans"
       ],
       "provoked": [],
-      "hybridized_with": [],
+      "hybridized_with": [
+        "monospace"
+      ],
       "echoes": [
         "international-style-architecture",
         "swiss-international"
@@ -12649,12 +12932,12 @@
           "distance": 2.24
         },
         {
-          "id": "humanist-sans",
-          "distance": 2.45
+          "id": "monospace",
+          "distance": 2.24
         },
         {
-          "id": "geometric-sans",
-          "distance": 3.32
+          "id": "humanist-sans",
+          "distance": 2.45
         }
       ],
       "techniques": []

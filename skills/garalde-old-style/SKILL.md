@@ -145,9 +145,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more modern**: move toward [`humanist-sans`](../humanist-sans/SKILL.md) (Humanist sans). Keep the pen-based skeleton and the open apertures; drop the serifs and bring the contrast down to 1.3:1.
 
 - **Led to (go here for a newer version):** [`humanist-sans`](../humanist-sans/SKILL.md), [`transitional-serif`](../transitional-serif/SKILL.md)
+- **Rejects (the opposite pole; do not blend):** [`blackletter`](../blackletter/SKILL.md)
 - **Was rejected by:** [`didone-serif`](../didone-serif/SKILL.md), [`geometric-sans`](../geometric-sans/SKILL.md)
 - **Kin in another domain:** [`renaissance-architecture`](../renaissance-architecture/SKILL.md), [`renaissance-painting`](../renaissance-painting/SKILL.md)
-- **Nearest by vector profile:** [`transitional-serif`](../transitional-serif/SKILL.md), [`humanist-sans`](../humanist-sans/SKILL.md), [`grotesque-sans`](../grotesque-sans/SKILL.md)
+- **Nearest by vector profile:** [`transitional-serif`](../transitional-serif/SKILL.md), [`formal-script`](../formal-script/SKILL.md), [`humanist-sans`](../humanist-sans/SKILL.md)
 
 ## Emotional target
 

@@ -242,6 +242,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`material-design`](../material-design/SKILL.md)
 - **Mixes well with:** [`brutalist-web`](../brutalist-web/SKILL.md), [`cybercore-web`](../cybercore-web/SKILL.md), [`cyberpunk-web`](../cyberpunk-web/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`pixel-art-web`](../pixel-art-web/SKILL.md)
+- **Kin in another domain:** [`monospace`](../monospace/SKILL.md)
 - **Nearest by vector profile:** [`bauhaus`](../bauhaus/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md)
 
 ## Emotional target

@@ -147,7 +147,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`grotesque-sans`](../grotesque-sans/SKILL.md)
 - **Was rejected by:** [`neo-grotesque-sans`](../neo-grotesque-sans/SKILL.md)
 - **Kin in another domain:** [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
-- **Nearest by vector profile:** [`grotesque-sans`](../grotesque-sans/SKILL.md), [`neo-grotesque-sans`](../neo-grotesque-sans/SKILL.md), [`transitional-serif`](../transitional-serif/SKILL.md)
+- **Nearest by vector profile:** [`grotesque-sans`](../grotesque-sans/SKILL.md), [`neo-grotesque-sans`](../neo-grotesque-sans/SKILL.md), [`blackletter`](../blackletter/SKILL.md)
 
 ## Emotional target
 

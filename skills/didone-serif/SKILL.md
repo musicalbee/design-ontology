@@ -146,11 +146,11 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **louder**: move toward [`slab-serif`](../slab-serif/SKILL.md) (Slab serif). Make the hairlines heavy and the serifs square, as in the fat faces and Egyptians that came next.
 
 - **Came from (go here for a more orthodox version):** [`transitional-serif`](../transitional-serif/SKILL.md)
-- **Led to (go here for a newer version):** [`slab-serif`](../slab-serif/SKILL.md)
+- **Led to (go here for a newer version):** [`fat-face-display`](../fat-face-display/SKILL.md), [`slab-serif`](../slab-serif/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`garalde-old-style`](../garalde-old-style/SKILL.md)
 - **Was rejected by:** [`grotesque-sans`](../grotesque-sans/SKILL.md)
 - **Kin in another domain:** [`fashion-editorial`](../fashion-editorial/SKILL.md), [`neoclassical-architecture`](../neoclassical-architecture/SKILL.md)
-- **Nearest by vector profile:** [`transitional-serif`](../transitional-serif/SKILL.md), [`grotesque-sans`](../grotesque-sans/SKILL.md), [`garalde-old-style`](../garalde-old-style/SKILL.md)
+- **Nearest by vector profile:** [`transitional-serif`](../transitional-serif/SKILL.md), [`fat-face-display`](../fat-face-display/SKILL.md), [`formal-script`](../formal-script/SKILL.md)
 
 ## Emotional target
 

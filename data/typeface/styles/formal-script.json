@@ -1,0 +1,257 @@
+{
+  "$schema": "../../../schema/domains/typeface.schema.json",
+  "id": "formal-script",
+  "domain": "typeface",
+  "name": "Formal script",
+  "aliases": [
+    "Copperplate script",
+    "English roundhand",
+    "Script typeface",
+    "Engraver's script"
+  ],
+  "era_id": "hand-press",
+  "time_period": {
+    "start": 1740,
+    "end": null,
+    "label": "1740–present"
+  },
+  "region": "London",
+  "summary": "Joined, sloped letters from the pointed pen of the eighteenth-century writing master. Pressure makes the downstrokes swell and the upstrokes become hairlines. It speaks of invitations, ceremony and romance, and reads well only in short lines.",
+  "philosophy": {
+    "core_thesis": "A letter is one movement of a flexible pointed pen: pressure on the downstroke, a hairline on the upstroke, and every letter joined to the next.",
+    "design_principles": [
+      "Slope the letters 50–55° from the baseline, at one constant angle.",
+      "Swell the downstrokes and keep the upstrokes and the joins as hairlines.",
+      "Join each lower-case letter to the next with a hairline that leaves from the baseline or the x-height.",
+      "Keep the x-height small, 0.40–0.60 of the cap height, so the loops of the ascenders and descenders have room.",
+      "Make the capitals large, with oval loops and one or two flourishes, and never set a word in them.",
+      "Set the text with no letter spacing, so the joins meet."
+    ],
+    "anti_patterns": [
+      "Words set in all capitals",
+      "Positive tracking that breaks the joins",
+      "Long paragraphs of body text",
+      "Fake slope made by the software on an upright face",
+      "Script and blackletter in one line"
+    ]
+  },
+  "vectors": {
+    "stroke_contrast": 4,
+    "construction": 1,
+    "x_height": 1,
+    "width": 2,
+    "serif_mass": 1
+  },
+  "classification": {
+    "vox_atypi": "Script",
+    "din_16518": "Gruppe VIII: Schreibschriften",
+    "note": "Vox-ATypI puts joined, formal scripts here; unjoined hand letters go to Manual (Graphic) or to DIN Gruppe IX, Handschriftliche Antiqua."
+  },
+  "anatomy": {
+    "contrast": "Strong: the downstrokes swell to 3–8 times the hairline upstrokes.",
+    "stress": "Along the slope of the letter, 50–55° from the baseline.",
+    "serifs": "No serifs: the strokes start and end in hairlines, loops or small ball terminals.",
+    "terminals": "Hairline entry and exit strokes, loops on b, d, h, k and l, and ball ends on capitals.",
+    "aperture": "Closed, oval counters along the slope.",
+    "key_letters": "A looped l and h, an r with a shoulder hook, an s with a closed loop, and capitals with large oval flourishes."
+  },
+  "metrics": {
+    "x_height_min": 0.4,
+    "x_height_max": 0.6,
+    "contrast_min": 1.0,
+    "contrast_max": 2.0,
+    "x_height": "The x-height is 0.40–0.60 of the cap height; the loops above and below take most of the line.",
+    "contrast": "The o test gives only 1.0–2.0, because it measures on the vertical and the horizontal while the stress follows the slope of the letter.",
+    "width": "Narrow: the mean advance of a to z is 0.30–0.42 em, because the letters lean and overlap.",
+    "figures": "Old-style or lining figures with the same slope and hairlines."
+  },
+  "setting": {
+    "text_sizes": "Do not use it below 18 pt or 24 px; the hairlines break up.",
+    "display_sizes": "Set names, titles and short phrases at 28–120 pt.",
+    "leading": "Set the leading at 1.3–1.6, so the loops of one line do not hit the next.",
+    "tracking": "Set 0 em; never letter-space a joined script.",
+    "measure": "Keep each line to 1–8 words.",
+    "case_and_features": "Use upper and lower case, and the contextual alternates and swashes of the font for the first and last letters."
+  },
+  "pairing": {
+    "rule": "Use the script for one line only and pair it with an upright face of high contrast or with spaced capitals of a serif.",
+    "pairs": [
+      {
+        "with": "Didone (Bodoni Moda)",
+        "role": "upright serif for details and text",
+        "why": "Both have strong thick and thin contrast from the same engraved tradition."
+      },
+      {
+        "with": "Transitional serif (Baskervville)",
+        "role": "spaced capitals for names and dates",
+        "why": "Baskerville was a writing master too, so the forms agree."
+      }
+    ]
+  },
+  "reference_faces": {
+    "faces": [
+      {
+        "face": "The Universal Penman (engraved hands)",
+        "designer": "George Bickham",
+        "year": 1741,
+        "status": "historic metal"
+      },
+      {
+        "face": "English Roundhand type",
+        "designer": "Firmin Didot",
+        "year": 1809,
+        "status": "historic metal"
+      },
+      {
+        "face": "Snell Roundhand",
+        "designer": "Matthew Carter",
+        "year": 1965,
+        "status": "proprietary"
+      },
+      {
+        "face": "Pinyon Script",
+        "designer": "Nicole Fally",
+        "year": 2011,
+        "status": "open revival"
+      },
+      {
+        "face": "Great Vibes",
+        "designer": "Robert Leuschke",
+        "year": 2012,
+        "status": "open revival"
+      }
+    ],
+    "note": "The Universal Penman is a book of engraved copperplates, not metal type; the first metal scripts tried to copy those plates."
+  },
+  "prompt_primer": {
+    "positive": [
+      "formal script",
+      "copperplate calligraphy",
+      "pointed pen",
+      "swelling downstrokes",
+      "hairline joins",
+      "wedding invitation",
+      "engraved stationery",
+      "flourished capital"
+    ],
+    "negative": [
+      "sans-serif",
+      "block capitals",
+      "monoline handwriting",
+      "brush marker",
+      "slab serif"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Pinyon Script",
+      "kind": "font",
+      "maker": "Nicole Fally",
+      "year": 2011,
+      "credit": "google/fonts repository, ofl/pinyonscript",
+      "licence": "OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "url": "https://fonts.google.com/specimen/Pinyon+Script",
+      "file": "https://raw.githubusercontent.com/google/fonts/main/ofl/pinyonscript/PinyonScript-Regular.ttf"
+    },
+    {
+      "title": "Great Vibes",
+      "kind": "font",
+      "maker": "Robert Leuschke",
+      "year": 2012,
+      "credit": "google/fonts repository, ofl/greatvibes",
+      "licence": "OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "url": "https://fonts.google.com/specimen/Great+Vibes",
+      "file": "https://raw.githubusercontent.com/google/fonts/main/ofl/greatvibes/GreatVibes-Regular.ttf"
+    },
+    {
+      "title": "The Universal Penman, a plate of engraved roundhand",
+      "kind": "image",
+      "maker": "George Bickham",
+      "year": 1741,
+      "credit": "Engraved by George Bickham; scan on Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:The_universal_penman._Engrav%27d_by_George_Bickham._Fleuron_T086160-4.png",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/The_universal_penman._Engrav%27d_by_George_Bickham._Fleuron_T086160-4.png/960px-The_universal_penman._Engrav%27d_by_George_Bickham._Fleuron_T086160-4.png"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "blackletter"
+    ],
+    "hybridized_with": [
+      "transitional-serif"
+    ],
+    "echoes": [
+      "rococo-painting",
+      "hollywood-regency-interior"
+    ]
+  },
+  "emotion": {
+    "target_response": "Grace and ceremony: the reader feels a personal, formal occasion.",
+    "keywords": [
+      "elegant",
+      "romantic",
+      "ceremonial",
+      "graceful",
+      "personal"
+    ],
+    "brand_archetypes": [
+      "lover",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "script font",
+      "copperplate",
+      "calligraphy font",
+      "wedding font",
+      "cursive",
+      "roundhand",
+      "invitation lettering"
+    ],
+    "use_cases": [
+      "wedding and event invitations",
+      "certificates",
+      "perfume, wine and cosmetics labels",
+      "one signature line in a brand"
+    ],
+    "avoid_when": [
+      "The text is longer than one or two lines.",
+      "The text is under 18 pt or 24 px.",
+      "The brief asks for a technical or neutral voice."
+    ],
+    "modifiers": [
+      {
+        "request": "more legible",
+        "toward": "transitional-serif",
+        "how": "Set the line in the italic of a transitional serif; keep the slope and the contrast, drop the joins."
+      },
+      {
+        "request": "more dramatic",
+        "toward": "didone-serif",
+        "how": "Pair the script with a Didone title in capitals and widen the white space."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Script typeface (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Script_typeface"
+    },
+    {
+      "title": "Copperplate script (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Copperplate_script"
+    },
+    {
+      "title": "Vox-ATypI classification (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Vox-ATypI_classification"
+    },
+    {
+      "title": "Robert Bringhurst, The Elements of Typographic Style (Hartley & Marks, 4th ed. 2012)"
+    }
+  ]
+}
