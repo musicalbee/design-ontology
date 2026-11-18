@@ -34,6 +34,8 @@ const TEXTLESS: [RegExp, string][] = [
   [/gallery wall of ([0-9–-]+) frames/gi, "gallery wall of $1 frames that hold abstract colour prints with no words"],
   [/(colour-sorted |art |stacked )?books\b(?! with blank)/gi, "$1books with plain cloth covers and spines, no titles"],
 ];
+// The clause that names a neon or a sign goes in only when the style has one; else the word adds a neon.
+const NOTEXT = (t: string, item: RegExp, clause: string) => (item.test(t) ? `${clause}, no readable text` : "no readable text");
 const textless = (t: string) => TEXTLESS.reduce((a, [re, to]) => a.replace(re, to), t);
 const evening = (s: any) => (s.lighting?.layers ?? []).filter((l: any) => l.layer !== "daylight").map((l: any) => `${l.source} ${l.position}`).join("; ");
 
@@ -57,11 +59,17 @@ export const TILES: { id: string; label: string; size: typeof SQUARE; prompt: (s
   },
   {
     id: "light", label: "Light", size: PORTRAIT,
-    prompt: (s) => s.lighting && textless(`corner of a room at dusk, the lamps on: ${evening(s)}, ${s.lighting.strategy}, warm ${s.lighting.cct_evening_k ?? s.lighting.cct_k ?? 2700} K light, pools of light and soft shadow`) + ", interior photograph, a neon or a sign is a plain shape with no letters, no readable text",
+    prompt: (s) => s.lighting && (() => {
+      const t = `corner of a room at dusk, the lamps on: ${evening(s)}, ${s.lighting.strategy}, warm ${s.lighting.cct_evening_k ?? s.lighting.cct_k ?? 2700} K light, pools of light and soft shadow`;
+      return `${textless(t)}, interior photograph, ${NOTEXT(t, /neon|\bsigns?\b/i, "a neon or a sign is a plain shape with no letters")}`;
+    })(),
   },
   {
     id: "objects", label: "Objects", size: SQUARE,
-    prompt: (s) => s.objects && textless(`still life on a sideboard against a ${colours(s, ["dominant"]) || "plain"} wall: ${list(s.objects.items)}, ${s.objects.grouping}, ${s.objects.approach}`) + ", interior styling photograph, signs, posters and book spines are blank with no letters, no readable text",
+    prompt: (s) => s.objects && (() => {
+      const t = `still life on a sideboard against a ${colours(s, ["dominant"]).replace(/lime white/g, "warm off-white limewash") || "plain"} wall: ${list(s.objects.items)}, ${s.objects.grouping}, ${s.objects.approach}`;
+      return `${textless(t)}, interior styling photograph, ${NOTEXT(t, /\bsigns?\b|poster|books?\b/i, "signs, posters and book spines are blank with no letters")}`;
+    })(),
   },
 ];
 
