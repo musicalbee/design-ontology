@@ -241,9 +241,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more minimal**: move toward [`swiss-international`](../swiss-international/SKILL.md) (Swiss International Style). Remove the app bar colour, the floating button and the shadows; set one typeface flush left on a 12-column grid with one accent.
 
 - **Came from (go here for a more orthodox version):** [`flat-design`](../flat-design/SKILL.md)
-- **Was rejected by:** [`anti-design`](../anti-design/SKILL.md), [`brutalist-web`](../brutalist-web/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
+- **Was rejected by:** [`anti-design`](../anti-design/SKILL.md), [`brutalist-web`](../brutalist-web/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`terminal-tui-web`](../terminal-tui-web/SKILL.md)
 - **Mixes well with:** [`skeuomorphism`](../skeuomorphism/SKILL.md)
-- **Nearest by vector profile:** [`glassmorphism`](../glassmorphism/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md)
+- **Nearest by vector profile:** [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md)
 
 ## Emotional target
 

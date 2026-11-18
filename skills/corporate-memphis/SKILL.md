@@ -243,7 +243,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`flat-design`](../flat-design/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md)
 - **Was rejected by:** [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
 - **Mixes well with:** [`claymorphism`](../claymorphism/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md)
-- **Nearest by vector profile:** [`mid-century-modern`](../mid-century-modern/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md), [`brutalist-web`](../brutalist-web/SKILL.md)
+- **Nearest by vector profile:** [`japanese-dense-web`](../japanese-dense-web/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md), [`ai-chat-ui`](../ai-chat-ui/SKILL.md)
 
 ## Emotional target
 

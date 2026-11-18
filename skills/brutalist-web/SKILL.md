@@ -229,9 +229,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more rebellious**: move toward [`anti-design`](../anti-design/SKILL.md) (Anti-Design). Break the alignment, overlap blocks and mix 3 faces.
 
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md), [`material-design`](../material-design/SKILL.md)
-- **Mixes well with:** [`anti-design`](../anti-design/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
+- **Mixes well with:** [`anti-design`](../anti-design/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`terminal-tui-web`](../terminal-tui-web/SKILL.md)
 - **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md)
-- **Nearest by vector profile:** [`flat-design`](../flat-design/SKILL.md), [`corporate-memphis`](../corporate-memphis/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md)
+- **Nearest by vector profile:** [`ai-chat-ui`](../ai-chat-ui/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`corporate-memphis`](../corporate-memphis/SKILL.md)
 
 ## Emotional target
 

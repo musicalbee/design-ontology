@@ -286,6 +286,21 @@
       }
     },
     {
+      "id": "japanese-dense-web",
+      "domain": "design",
+      "name": "Japanese Dense Web",
+      "era": "postmodern-early-digital",
+      "start": 1999,
+      "end": null,
+      "vectors": {
+        "ornamentation": 4,
+        "dimensionality": 1,
+        "grid_rigidity": 4,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 3
+      }
+    },
+    {
       "id": "apple-aqua",
       "domain": "design",
       "name": "Apple Aqua",
@@ -451,6 +466,36 @@
       }
     },
     {
+      "id": "terminal-tui-web",
+      "domain": "design",
+      "name": "Terminal / TUI Web",
+      "era": "contemporary-spatial",
+      "start": 2017,
+      "end": null,
+      "vectors": {
+        "ornamentation": 2,
+        "dimensionality": 1,
+        "grid_rigidity": 5,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 3
+      }
+    },
+    {
+      "id": "aurora-gradient-ui",
+      "domain": "design",
+      "name": "Aurora Gradient UI",
+      "era": "contemporary-spatial",
+      "start": 2018,
+      "end": null,
+      "vectors": {
+        "ornamentation": 3,
+        "dimensionality": 3,
+        "grid_rigidity": 3,
+        "skeuomorphic_realism": 2,
+        "typographic_expressiveness": 2
+      }
+    },
+    {
       "id": "neumorphism",
       "domain": "design",
       "name": "Neumorphism",
@@ -526,6 +571,21 @@
       }
     },
     {
+      "id": "ai-chat-ui",
+      "domain": "design",
+      "name": "AI Chat Interface",
+      "era": "contemporary-spatial",
+      "start": 2022,
+      "end": null,
+      "vectors": {
+        "ornamentation": 1,
+        "dimensionality": 1,
+        "grid_rigidity": 3,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 2
+      }
+    },
+    {
       "id": "bento-grid-ui",
       "domain": "design",
       "name": "Bento Grid UI",
@@ -552,6 +612,21 @@
         "dimensionality": 5,
         "grid_rigidity": 3,
         "skeuomorphic_realism": 4,
+        "typographic_expressiveness": 2
+      }
+    },
+    {
+      "id": "liquid-glass-ui",
+      "domain": "design",
+      "name": "Liquid Glass",
+      "era": "contemporary-spatial",
+      "start": 2025,
+      "end": null,
+      "vectors": {
+        "ornamentation": 2,
+        "dimensionality": 4,
+        "grid_rigidity": 3,
+        "skeuomorphic_realism": 3,
         "typographic_expressiveness": 2
       }
     },
@@ -1373,6 +1448,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "ai-chat-ui",
+      "to": "flat-design",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "apple-aqua",
       "to": "y2k-aesthetic",
       "type": "EVOLVED_FROM"
@@ -1380,6 +1460,11 @@
     {
       "from": "art-deco-architecture",
       "to": "art-nouveau-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "aurora-gradient-ui",
+      "to": "flat-design",
       "type": "EVOLVED_FROM"
     },
     {
@@ -1470,6 +1555,16 @@
     {
       "from": "japandi-interior",
       "to": "scandinavian-interior",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "liquid-glass-ui",
+      "to": "glassmorphism",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "liquid-glass-ui",
+      "to": "spatial-visionos",
       "type": "EVOLVED_FROM"
     },
     {
@@ -1578,6 +1673,16 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "ai-chat-ui",
+      "to": "dark-devtool-ui",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "ai-chat-ui",
+      "to": "editorial-serif-revival",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "anti-design",
       "to": "brutalist-web",
       "type": "HYBRIDIZED_WITH"
@@ -1599,6 +1704,11 @@
     },
     {
       "from": "apple-aqua",
+      "to": "liquid-glass-ui",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "apple-aqua",
       "to": "skeuomorphism",
       "type": "HYBRIDIZED_WITH"
     },
@@ -1610,6 +1720,21 @@
     {
       "from": "art-deco-web",
       "to": "bauhaus",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "aurora-gradient-ui",
+      "to": "bento-grid-ui",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "aurora-gradient-ui",
+      "to": "dark-devtool-ui",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "aurora-gradient-ui",
+      "to": "glassmorphism",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -1650,6 +1775,11 @@
     {
       "from": "brutalist-web",
       "to": "neo-brutalism-ui",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "brutalist-web",
+      "to": "terminal-tui-web",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -1695,6 +1825,11 @@
     {
       "from": "dark-devtool-ui",
       "to": "glassmorphism",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "dark-devtool-ui",
+      "to": "terminal-tui-web",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -1903,6 +2038,16 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "japanese-dense-web",
+      "to": "swiss-international",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "liquid-glass-ui",
+      "to": "flat-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "memphis-design",
       "to": "swiss-international",
       "type": "REBELLED_AGAINST"
@@ -1975,6 +2120,11 @@
     {
       "from": "straight-photography",
       "to": "pictorialism",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "terminal-tui-web",
+      "to": "material-design",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -2126,15 +2276,15 @@
       ],
       "nearest_by_vector": [
         {
+          "id": "japanese-dense-web",
+          "distance": 2
+        },
+        {
           "id": "bento-grid-ui",
           "distance": 2.24
         },
         {
           "id": "mid-century-modern",
-          "distance": 2.45
-        },
-        {
-          "id": "neo-brutalism-ui",
           "distance": 2.45
         }
       ]
@@ -2159,15 +2309,15 @@
       ],
       "nearest_by_vector": [
         {
+          "id": "aurora-gradient-ui",
+          "distance": 1.41
+        },
+        {
           "id": "neo-brutalism-ui",
           "distance": 1.41
         },
         {
           "id": "bauhaus",
-          "distance": 1.73
-        },
-        {
-          "id": "corporate-memphis",
           "distance": 1.73
         }
       ]
@@ -2187,6 +2337,7 @@
       "provoked": [
         "anti-design",
         "grunge-editorial",
+        "japanese-dense-web",
         "memphis-design",
         "psychedelic",
         "punk-zine"
@@ -2418,12 +2569,36 @@
           "distance": 1.41
         },
         {
-          "id": "claymorphism",
+          "id": "aurora-gradient-ui",
           "distance": 1.73
         },
         {
-          "id": "mid-century-modern",
+          "id": "claymorphism",
           "distance": 1.73
+        }
+      ]
+    },
+    "japanese-dense-web": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "swiss-international"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "corporate-memphis",
+          "distance": 1.73
+        },
+        {
+          "id": "art-deco-web",
+          "distance": 2
+        },
+        {
+          "id": "mid-century-modern",
+          "distance": 2
         }
       ]
     },
@@ -2436,6 +2611,7 @@
       "provoked": [],
       "hybridized_with": [
         "frutiger-aero",
+        "liquid-glass-ui",
         "skeuomorphism"
       ],
       "echoes": [],
@@ -2445,12 +2621,12 @@
           "distance": 0
         },
         {
-          "id": "spatial-visionos",
+          "id": "liquid-glass-ui",
           "distance": 1.41
         },
         {
-          "id": "claymorphism",
-          "distance": 1.73
+          "id": "spatial-visionos",
+          "distance": 1.41
         }
       ]
     },
@@ -2477,12 +2653,12 @@
           "distance": 0
         },
         {
-          "id": "spatial-visionos",
+          "id": "liquid-glass-ui",
           "distance": 1.41
         },
         {
-          "id": "claymorphism",
-          "distance": 1.73
+          "id": "spatial-visionos",
+          "distance": 1.41
         }
       ]
     },
@@ -2552,6 +2728,8 @@
         "swiss-international"
       ],
       "evolved_into": [
+        "ai-chat-ui",
+        "aurora-gradient-ui",
         "bento-grid-ui",
         "corporate-memphis",
         "dark-devtool-ui",
@@ -2566,6 +2744,7 @@
         "brutalist-web",
         "claymorphism",
         "editorial-serif-revival",
+        "liquid-glass-ui",
         "neumorphism"
       ],
       "hybridized_with": [
@@ -2578,15 +2757,15 @@
       ],
       "nearest_by_vector": [
         {
+          "id": "ai-chat-ui",
+          "distance": 1
+        },
+        {
           "id": "dark-devtool-ui",
           "distance": 1
         },
         {
           "id": "de-stijl-web",
-          "distance": 1
-        },
-        {
-          "id": "swiss-international",
           "distance": 1
         }
       ]
@@ -2629,22 +2808,23 @@
       "provoked": [],
       "hybridized_with": [
         "anti-design",
-        "neo-brutalism-ui"
+        "neo-brutalism-ui",
+        "terminal-tui-web"
       ],
       "echoes": [
         "brutalist-architecture"
       ],
       "nearest_by_vector": [
         {
+          "id": "ai-chat-ui",
+          "distance": 1
+        },
+        {
           "id": "flat-design",
           "distance": 2
         },
         {
           "id": "corporate-memphis",
-          "distance": 2.24
-        },
-        {
-          "id": "dark-devtool-ui",
           "distance": 2.24
         }
       ]
@@ -2658,7 +2838,8 @@
       "provoked": [
         "anti-design",
         "brutalist-web",
-        "neo-brutalism-ui"
+        "neo-brutalism-ui",
+        "terminal-tui-web"
       ],
       "hybridized_with": [
         "skeuomorphism"
@@ -2666,15 +2847,15 @@
       "echoes": [],
       "nearest_by_vector": [
         {
+          "id": "aurora-gradient-ui",
+          "distance": 1.41
+        },
+        {
           "id": "glassmorphism",
           "distance": 1.41
         },
         {
           "id": "bauhaus",
-          "distance": 1.73
-        },
-        {
-          "id": "bento-grid-ui",
           "distance": 1.73
         }
       ]
@@ -2697,16 +2878,16 @@
       "echoes": [],
       "nearest_by_vector": [
         {
+          "id": "japanese-dense-web",
+          "distance": 1.73
+        },
+        {
           "id": "mid-century-modern",
           "distance": 1.73
         },
         {
-          "id": "bauhaus",
+          "id": "ai-chat-ui",
           "distance": 2
-        },
-        {
-          "id": "brutalist-web",
-          "distance": 2.24
         }
       ]
     },
@@ -2750,8 +2931,11 @@
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [
+        "ai-chat-ui",
+        "aurora-gradient-ui",
         "bento-grid-ui",
-        "glassmorphism"
+        "glassmorphism",
+        "terminal-tui-web"
       ],
       "echoes": [],
       "nearest_by_vector": [
@@ -2760,11 +2944,66 @@
           "distance": 1
         },
         {
+          "id": "ai-chat-ui",
+          "distance": 1.41
+        },
+        {
+          "id": "bauhaus",
+          "distance": 1.41
+        }
+      ]
+    },
+    "terminal-tui-web": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "material-design"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "brutalist-web",
+        "dark-devtool-ui"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
           "id": "bauhaus",
           "distance": 1.41
         },
         {
+          "id": "bento-grid-ui",
+          "distance": 1.41
+        },
+        {
           "id": "de-stijl-web",
+          "distance": 1.41
+        }
+      ]
+    },
+    "aurora-gradient-ui": {
+      "evolved_from": [
+        "flat-design"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "bento-grid-ui",
+        "dark-devtool-ui",
+        "glassmorphism"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "glassmorphism",
+          "distance": 1.41
+        },
+        {
+          "id": "material-design",
+          "distance": 1.41
+        },
+        {
+          "id": "mid-century-modern",
           "distance": 1.41
         }
       ]
@@ -2790,12 +3029,12 @@
           "distance": 1.41
         },
         {
-          "id": "material-design",
-          "distance": 2
+          "id": "liquid-glass-ui",
+          "distance": 1.73
         },
         {
-          "id": "rams-functionalism-ui",
-          "distance": 2.45
+          "id": "material-design",
+          "distance": 2
         }
       ]
     },
@@ -2804,11 +3043,13 @@
         "frutiger-aero"
       ],
       "evolved_into": [
+        "liquid-glass-ui",
         "spatial-visionos"
       ],
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [
+        "aurora-gradient-ui",
         "bento-grid-ui",
         "dark-devtool-ui",
         "neumorphism",
@@ -2817,16 +3058,16 @@
       "echoes": [],
       "nearest_by_vector": [
         {
+          "id": "liquid-glass-ui",
+          "distance": 1
+        },
+        {
+          "id": "aurora-gradient-ui",
+          "distance": 1.41
+        },
+        {
           "id": "material-design",
           "distance": 1.41
-        },
-        {
-          "id": "neumorphism",
-          "distance": 1.41
-        },
-        {
-          "id": "apple-aqua",
-          "distance": 1.73
         }
       ]
     },
@@ -2885,7 +3126,7 @@
           "distance": 1.73
         },
         {
-          "id": "vaporwave",
+          "id": "liquid-glass-ui",
           "distance": 1.73
         }
       ]
@@ -2900,7 +3141,9 @@
         "flat-design"
       ],
       "provoked": [],
-      "hybridized_with": [],
+      "hybridized_with": [
+        "ai-chat-ui"
+      ],
       "echoes": [],
       "nearest_by_vector": [
         {
@@ -2917,6 +3160,33 @@
         }
       ]
     },
+    "ai-chat-ui": {
+      "evolved_from": [
+        "flat-design"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "dark-devtool-ui",
+        "editorial-serif-revival"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "brutalist-web",
+          "distance": 1
+        },
+        {
+          "id": "flat-design",
+          "distance": 1
+        },
+        {
+          "id": "dark-devtool-ui",
+          "distance": 1.41
+        }
+      ]
+    },
     "bento-grid-ui": {
       "evolved_from": [
         "flat-design",
@@ -2926,6 +3196,7 @@
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [
+        "aurora-gradient-ui",
         "dark-devtool-ui",
         "glassmorphism",
         "swiss-international"
@@ -2941,8 +3212,8 @@
           "distance": 1.41
         },
         {
-          "id": "material-design",
-          "distance": 1.73
+          "id": "terminal-tui-web",
+          "distance": 1.41
         }
       ]
     },
@@ -2950,7 +3221,9 @@
       "evolved_from": [
         "glassmorphism"
       ],
-      "evolved_into": [],
+      "evolved_into": [
+        "liquid-glass-ui"
+      ],
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [
@@ -2967,8 +3240,37 @@
           "distance": 1.41
         },
         {
-          "id": "claymorphism",
-          "distance": 2.24
+          "id": "liquid-glass-ui",
+          "distance": 1.41
+        }
+      ]
+    },
+    "liquid-glass-ui": {
+      "evolved_from": [
+        "glassmorphism",
+        "spatial-visionos"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "flat-design"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "apple-aqua"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "glassmorphism",
+          "distance": 1
+        },
+        {
+          "id": "apple-aqua",
+          "distance": 1.41
+        },
+        {
+          "id": "frutiger-aero",
+          "distance": 1.41
         }
       ]
     },

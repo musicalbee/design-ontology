@@ -1218,6 +1218,91 @@
       }
     },
     {
+      "id": "japanese-dense-web",
+      "name": "Japanese Dense Web",
+      "domain": "design",
+      "era": "postmodern-early-digital",
+      "period": "1999–now",
+      "thesis": "Density is hospitality: show all the options at once, so the visitor never has to search.",
+      "summary": "Dense pages with many links, small type, bright accent colours, banners, ranking lists and tight grids. It grew from portals such as Yahoo! JAPAN and Rakuten and makes a page rich in choice.",
+      "path": "skills/japanese-dense-web/SKILL.md",
+      "tokens": "skills/japanese-dense-web/tokens.css",
+      "pack": "skills/japanese-dense-web/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 700,
+          "subhead_weight": 700,
+          "body_weight": 400,
+          "strong_weight": 700,
+          "label_weight": 700,
+          "accent": "colour",
+          "display_tracking": "0em",
+          "display_leading": 1.4,
+          "display_case": "none",
+          "body_leading": 1.6,
+          "body_size": "14px"
+        },
+        "icon": {
+          "mode": "solid",
+          "stroke_width": 1.5,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "square",
+          "pack": {
+            "id": "mingcute-fill",
+            "why": "A compact, solid family that stays clear at 16px beside 12px to 14px text."
+          }
+        },
+        "art": {
+          "recipe": "corporate",
+          "pattern": "grid",
+          "seed": 45
+        },
+        "layout": {
+          "hero": "split",
+          "align": "left",
+          "density": "compact",
+          "tilt_deg": 0
+        }
+      },
+      "triggers": [
+        "japanese web",
+        "japanese portal",
+        "dense layout",
+        "yahoo japan",
+        "rakuten",
+        "information dense",
+        "banner rows",
+        "ranking list"
+      ],
+      "use_cases": [
+        "commerce and marketplace portals",
+        "news and media portals",
+        "price and review comparison sites",
+        "campaign and sale pages",
+        "local-service directories"
+      ],
+      "emotion": [
+        "abundant",
+        "convenient",
+        "busy",
+        "friendly",
+        "practical",
+        "lively"
+      ],
+      "archetypes": [
+        "everyman",
+        "caregiver"
+      ],
+      "vectors": {
+        "ornamentation": 4,
+        "dimensionality": 1,
+        "grid_rigidity": 4,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 3
+      }
+    },
+    {
       "id": "apple-aqua",
       "name": "Apple Aqua",
       "domain": "design",
@@ -2174,6 +2259,177 @@
       }
     },
     {
+      "id": "terminal-tui-web",
+      "name": "Terminal / TUI Web",
+      "domain": "design",
+      "era": "contemporary-spatial",
+      "period": "2017–now",
+      "thesis": "The terminal is the honest interface: a fixed character grid, text only and a keyboard make a tool fast and trustworthy.",
+      "summary": "A monospace grid, box-drawing borders, a dark or phosphor ground and keyboard hints. It borrows from command-line tools and text user interfaces to make web pages that feel like a terminal.",
+      "path": "skills/terminal-tui-web/SKILL.md",
+      "tokens": "skills/terminal-tui-web/tokens.css",
+      "pack": "skills/terminal-tui-web/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 700,
+          "subhead_weight": 700,
+          "body_weight": 400,
+          "strong_weight": 700,
+          "label_weight": 400,
+          "accent": "case",
+          "display_tracking": "0em",
+          "display_leading": 1.5,
+          "display_case": "uppercase",
+          "body_leading": 1.5,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "solid",
+          "stroke_width": 2,
+          "linecap": "butt",
+          "linejoin": "miter",
+          "container": "none",
+          "pack": {
+            "id": "pixelarticons",
+            "why": "A pixel family made on a strict square grid that fits a character-cell page."
+          }
+        },
+        "art": {
+          "recipe": "y2k",
+          "pattern": "grid",
+          "seed": 44
+        },
+        "layout": {
+          "hero": "stacked",
+          "align": "left",
+          "density": "compact",
+          "tilt_deg": 0
+        }
+      },
+      "triggers": [
+        "terminal",
+        "tui",
+        "command line",
+        "cli aesthetic",
+        "monospace ui",
+        "hacker style",
+        "ascii",
+        "retro terminal",
+        "phosphor"
+      ],
+      "use_cases": [
+        "CLI and developer tool sites",
+        "documentation for command-line tools",
+        "hacker, security and CTF pages",
+        "indie games and tools",
+        "personal sites of engineers"
+      ],
+      "emotion": [
+        "technical",
+        "fast",
+        "honest",
+        "nostalgic",
+        "hacker",
+        "focused"
+      ],
+      "archetypes": [
+        "sage",
+        "explorer"
+      ],
+      "vectors": {
+        "ornamentation": 2,
+        "dimensionality": 1,
+        "grid_rigidity": 5,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 3
+      }
+    },
+    {
+      "id": "aurora-gradient-ui",
+      "name": "Aurora Gradient UI",
+      "domain": "design",
+      "era": "contemporary-spatial",
+      "period": "2018–now",
+      "thesis": "Colour is atmosphere: a blurred field of light makes a product feel alive without any picture of it.",
+      "summary": "Soft, blurred mesh gradients in 3 to 5 hues behind clean sans-serif type, with glowing edges and grain. It came from fintech and AI product pages and replaced the flat hero.",
+      "path": "skills/aurora-gradient-ui/SKILL.md",
+      "tokens": "skills/aurora-gradient-ui/tokens.css",
+      "pack": "skills/aurora-gradient-ui/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 600,
+          "subhead_weight": 500,
+          "body_weight": 400,
+          "strong_weight": 600,
+          "label_weight": 500,
+          "accent": "colour",
+          "display_tracking": "-0.03em",
+          "display_leading": 1.05,
+          "display_case": "none",
+          "body_leading": 1.6,
+          "body_size": "17px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 1.5,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "none",
+          "pack": {
+            "id": "solar-linear",
+            "why": "A thin, round line that stays light on a glowing, blurred ground."
+          }
+        },
+        "art": {
+          "recipe": "glass",
+          "pattern": "none",
+          "seed": 42
+        },
+        "layout": {
+          "hero": "stacked",
+          "align": "center",
+          "density": "airy",
+          "tilt_deg": 0
+        }
+      },
+      "triggers": [
+        "aurora gradient",
+        "mesh gradient",
+        "gradient background",
+        "stripe style",
+        "ai landing page",
+        "glow",
+        "blurred blobs",
+        "ambient gradient"
+      ],
+      "use_cases": [
+        "fintech and payments landing pages",
+        "AI product pages",
+        "app launch and waitlist pages",
+        "SaaS hero sections",
+        "event and conference sites"
+      ],
+      "emotion": [
+        "glowing",
+        "futuristic",
+        "calm",
+        "intelligent",
+        "ambient",
+        "premium"
+      ],
+      "archetypes": [
+        "magician",
+        "creator"
+      ],
+      "vectors": {
+        "ornamentation": 3,
+        "dimensionality": 3,
+        "grid_rigidity": 3,
+        "skeuomorphic_realism": 2,
+        "typographic_expressiveness": 2
+      }
+    },
+    {
       "id": "neumorphism",
       "name": "Neumorphism",
       "domain": "design",
@@ -2605,6 +2861,91 @@
       }
     },
     {
+      "id": "ai-chat-ui",
+      "name": "AI Chat Interface",
+      "domain": "design",
+      "era": "contemporary-spatial",
+      "period": "2022–now",
+      "thesis": "The interface is a conversation: one box to speak into, and everything else appears in the reply.",
+      "summary": "A single centred column, one large input at the bottom, streaming text, suggestion chips and almost no chrome. It came with ChatGPT in 2022 and makes language the main control.",
+      "path": "skills/ai-chat-ui/SKILL.md",
+      "tokens": "skills/ai-chat-ui/tokens.css",
+      "pack": "skills/ai-chat-ui/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 600,
+          "subhead_weight": 600,
+          "body_weight": 400,
+          "strong_weight": 600,
+          "label_weight": 500,
+          "accent": "colour",
+          "display_tracking": "-0.01em",
+          "display_leading": 1.2,
+          "display_case": "none",
+          "body_leading": 1.6,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 1.5,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "none",
+          "pack": {
+            "id": "lucide",
+            "why": "A thin, neutral 1.5px line at 16px to 20px that stays quiet next to running text."
+          }
+        },
+        "art": {
+          "recipe": "flat",
+          "pattern": "none",
+          "seed": 43
+        },
+        "layout": {
+          "hero": "stacked",
+          "align": "center",
+          "density": "airy",
+          "tilt_deg": 0
+        }
+      },
+      "triggers": [
+        "chat ui",
+        "chatbot",
+        "ai assistant",
+        "llm interface",
+        "prompt box",
+        "chatgpt style",
+        "conversation ui",
+        "copilot"
+      ],
+      "use_cases": [
+        "AI assistants and copilots",
+        "support and onboarding chat",
+        "search with answers",
+        "agent and tool consoles",
+        "knowledge-base front ends"
+      ],
+      "emotion": [
+        "calm",
+        "conversational",
+        "focused",
+        "helpful",
+        "minimal",
+        "personal"
+      ],
+      "archetypes": [
+        "sage",
+        "caregiver"
+      ],
+      "vectors": {
+        "ornamentation": 1,
+        "dimensionality": 1,
+        "grid_rigidity": 3,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 2
+      }
+    },
+    {
       "id": "bento-grid-ui",
       "name": "Bento Grid UI",
       "domain": "design",
@@ -2773,6 +3114,91 @@
         "dimensionality": 5,
         "grid_rigidity": 3,
         "skeuomorphic_realism": 4,
+        "typographic_expressiveness": 2
+      }
+    },
+    {
+      "id": "liquid-glass-ui",
+      "name": "Liquid Glass",
+      "domain": "design",
+      "era": "contemporary-spatial",
+      "period": "2025–now",
+      "thesis": "Controls are a transparent lens above the content: the interface floats, refracts the page and stays out of the way.",
+      "summary": "Clear, curved glass that bends the content behind it, with specular edges, tint that adapts to the ground and floating controls. Apple introduced it in 2025 and it goes beyond frosted glass.",
+      "path": "skills/liquid-glass-ui/SKILL.md",
+      "tokens": "skills/liquid-glass-ui/tokens.css",
+      "pack": "skills/liquid-glass-ui/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 700,
+          "subhead_weight": 600,
+          "body_weight": 400,
+          "strong_weight": 600,
+          "label_weight": 600,
+          "accent": "weight",
+          "display_tracking": "-0.02em",
+          "display_leading": 1.1,
+          "display_case": "none",
+          "body_leading": 1.45,
+          "body_size": "17px"
+        },
+        "icon": {
+          "mode": "solid",
+          "stroke_width": 2,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "none",
+          "pack": {
+            "id": "f7",
+            "why": "An iOS-style family with round forms and a medium weight that matches a system sans on glass."
+          }
+        },
+        "art": {
+          "recipe": "glass",
+          "pattern": "none",
+          "seed": 41
+        },
+        "layout": {
+          "hero": "stacked",
+          "align": "center",
+          "density": "airy",
+          "tilt_deg": 0
+        }
+      },
+      "triggers": [
+        "liquid glass",
+        "ios 26",
+        "apple glass",
+        "refractive",
+        "frosted glass new",
+        "floating toolbar",
+        "visionos glass",
+        "tahoe"
+      ],
+      "use_cases": [
+        "mobile and OS-style apps",
+        "media, photo and map apps",
+        "product pages of premium hardware",
+        "floating navigation and toolbars",
+        "spatial and visionOS apps"
+      ],
+      "emotion": [
+        "fluid",
+        "light",
+        "refractive",
+        "alive",
+        "premium",
+        "floating"
+      ],
+      "archetypes": [
+        "magician",
+        "creator"
+      ],
+      "vectors": {
+        "ornamentation": 2,
+        "dimensionality": 4,
+        "grid_rigidity": 3,
+        "skeuomorphic_realism": 3,
         "typographic_expressiveness": 2
       }
     },

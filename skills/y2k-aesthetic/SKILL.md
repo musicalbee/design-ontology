@@ -247,7 +247,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`grunge-editorial`](../grunge-editorial/SKILL.md)
 - **Mixes well with:** [`glassmorphism`](../glassmorphism/SKILL.md)
 - **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`party-flash`](../party-flash/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
-- **Nearest by vector profile:** [`vaporwave`](../vaporwave/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md)
+- **Nearest by vector profile:** [`vaporwave`](../vaporwave/SKILL.md), [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md)
 
 ## Emotional target
 

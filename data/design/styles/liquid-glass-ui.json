@@ -1,0 +1,311 @@
+{
+  "$schema": "../../../schema/domains/design.schema.json",
+  "id": "liquid-glass-ui",
+  "domain": "design",
+  "name": "Liquid Glass",
+  "aliases": [
+    "Apple Liquid Glass",
+    "Refractive glass UI",
+    "iOS 26 design"
+  ],
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2025,
+    "end": null,
+    "label": "2025–now"
+  },
+  "primary_mediums": [
+    "web",
+    "mobile",
+    "spatial"
+  ],
+  "summary": "Clear, curved glass that bends the content behind it, with specular edges, tint that adapts to the ground and floating controls. Apple introduced it in 2025 and it goes beyond frosted glass.",
+  "philosophy": {
+    "core_thesis": "Controls are a transparent lens above the content: the interface floats, refracts the page and stays out of the way.",
+    "design_principles": [
+      "Make a glass layer with backdrop blur of 16px to 40px, saturation of 160% to 200% and a tint of white or ground colour at 8% to 20% opacity.",
+      "Draw a specular edge: a 1px inner border of white at 40% to 60% on the top and left, and white at 10% on the bottom and right.",
+      "Nest corners in concentric order: the inner radius equals the outer radius minus the padding (for example 28px outer, 12px padding, 16px inner).",
+      "Float navigation and toolbars as pills of 56px to 64px height, with a 12px to 16px margin from the screen edge and no full-width bar.",
+      "Let glass shrink and expand: a bar of 64px collapses to 40px on scroll in 250ms with a spring.",
+      "Place glass only over rich content (photo, video, map); no more than 2 glass layers may overlap.",
+      "Use a solid fill for content cards and a glass fill for controls only, so that glass marks what you can act on."
+    ],
+    "anti_patterns": [
+      "Glass on glass stacked more than 2 layers",
+      "Full-width opaque top bars",
+      "Hard borders of 2px or more and flat outlines",
+      "Glass behind long body text with low contrast",
+      "Heavy drop shadows that make the control look like a card",
+      "Square corners on floating controls",
+      "Tinted glass that hides the content behind it"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 4,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "Content fills the full screen; controls float as pills and circles on a 4px grid with 12px to 16px margins; a safe-area inset of 16px.",
+    "whitespace_ratio": "Content is edge to edge; 20% to 30% of the surface is clear glass over content; the spacing scale is 4, 8, 12, 16 and 24px.",
+    "alignment_rules": "Controls cluster at the bottom or top, centred or flush to the thumb zone; text inside glass is centred in pills and flush left in lists.",
+    "container_geometry": "Capsules and circles with radius 999px; cards at 24px to 36px; inner radius equals outer radius minus padding."
+  },
+  "typography": {
+    "classifications": [
+      "neo-grotesque sans serif",
+      "system sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Inter",
+        "body": "Inter",
+        "note": "A close open match to the San Francisco system face."
+      },
+      {
+        "display": "Inter Tight",
+        "body": "Inter",
+        "note": "A tighter display for large titles."
+      },
+      {
+        "display": "Geist",
+        "body": "Geist",
+        "note": "A neutral single family that holds up on glass."
+      }
+    ],
+    "tracking": "Display takes -0.02em; body stays at 0; labels take +0.01em.",
+    "leading": "Display 1.1; body 1.45.",
+    "hierarchy_rules": [
+      "Use weights 400 for body, 600 for labels and 700 for titles.",
+      "Use sizes 13, 17, 28 and 34px.",
+      "Set text on glass in semibold with a 1px shadow of black at 12% for contrast.",
+      "Set tab and button labels at 10px to 13px in medium weight."
+    ]
+  },
+  "color": {
+    "palette_structure": "The palette is the content behind the glass, with white as the glass tint and one system accent.",
+    "palette": [
+      {
+        "name": "Ground",
+        "hex": "#F2F2F7",
+        "role": "background"
+      },
+      {
+        "name": "Ink",
+        "hex": "#111114",
+        "role": "text"
+      },
+      {
+        "name": "Glass White",
+        "hex": "#FFFFFF",
+        "role": "glass tint"
+      },
+      {
+        "name": "Azure",
+        "hex": "#0A84FF",
+        "role": "accent"
+      },
+      {
+        "name": "Slate",
+        "hex": "#5C5C66",
+        "role": "secondary text"
+      },
+      {
+        "name": "Dusk",
+        "hex": "#1C1C22",
+        "role": "dark ground"
+      }
+    ],
+    "contrast_rules": "Text on glass holds at least 4.5:1 against the worst-case content behind it; add a 20% scrim where it does not.",
+    "surface_treatment": "Transparent, refractive glass: blur, saturation boost and a specular rim; no flat fill on controls.",
+    "light_and_shadow": "Light comes from the top; the top-left edge shows a bright rim and the bottom-right edge a soft dark rim; a shadow of 0 8px 24px at 12% sits under floating controls."
+  },
+  "materiality": {
+    "surface_simulation": "Clear, thick curved glass that refracts what is behind it.",
+    "border_rules": "A 1px specular rim: white at 40% to 60% on the lit edge; no solid border.",
+    "blur_and_elevation": "Backdrop blur 16px to 40px; saturate 160% to 200%; shadow 0 8px 24px at 12%; two elevation levels only."
+  },
+  "ornamentation_details": {
+    "iconography": "Solid or 2px-stroke icons with round caps in white or ink at 24px; icons sit on glass with no extra tile.",
+    "illustration": "Full-bleed photography and colour fields behind the glass.",
+    "decorative_elements": [
+      "glass capsule",
+      "specular rim",
+      "concentric corner",
+      "floating toolbar"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Fluid and spring-like: glass morphs between shapes over 250ms to 400ms; controls expand and merge as a liquid; a highlight follows the pointer.",
+    "easing": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+    "duration_ms": 300,
+    "hover_and_active": "Hover brightens the specular rim by 20% and lifts the capsule by 2px; active state compresses it to scale 0.96 and shows the tint."
+  },
+  "lineage": {
+    "evolved_from": [
+      "glassmorphism",
+      "spatial-visionos"
+    ],
+    "rebelled_against": [
+      "flat-design"
+    ],
+    "hybridized_with": [
+      "apple-aqua"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels that the interface is light, alive and almost a physical lens.",
+    "keywords": [
+      "fluid",
+      "light",
+      "refractive",
+      "alive",
+      "premium",
+      "floating"
+    ],
+    "brand_archetypes": [
+      "magician",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "liquid glass",
+      "ios 26",
+      "apple glass",
+      "refractive",
+      "frosted glass new",
+      "floating toolbar",
+      "visionos glass",
+      "tahoe"
+    ],
+    "use_cases": [
+      "mobile and OS-style apps",
+      "media, photo and map apps",
+      "product pages of premium hardware",
+      "floating navigation and toolbars",
+      "spatial and visionOS apps"
+    ],
+    "avoid_when": [
+      "The content is long text with a plain background.",
+      "The product must run on low-power or old browsers.",
+      "Accessibility needs high contrast and reduced transparency."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "glassmorphism",
+        "how": "Return to a plain frost: blur 12px, one layer, a 1px white border at 20%; no specular rim."
+      },
+      {
+        "request": "flatter",
+        "toward": "flat-design",
+        "how": "Replace glass with solid fills and drop blur, rim and shadow."
+      },
+      {
+        "request": "more depth",
+        "toward": "spatial-visionos",
+        "how": "Add 3D tilt, a shadow on the ground plane and a 12px parallax."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 600,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 600,
+      "accent": "weight",
+      "display_tracking": "-0.02em",
+      "display_leading": 1.1,
+      "display_case": "none",
+      "body_leading": 1.45,
+      "body_size": "17px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "f7",
+        "why": "An iOS-style family with round forms and a medium weight that matches a system sans on glass."
+      }
+    },
+    "art": {
+      "recipe": "glass",
+      "pattern": "none",
+      "seed": 41
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "airy",
+      "tilt_deg": 0
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#F2F2F7",
+      "--color-surface": "#FFFFFF",
+      "--color-text": "#111114",
+      "--color-muted": "#5C5C66",
+      "--color-primary": "#0A84FF",
+      "--color-accent": "#0A84FF",
+      "--color-border": "#FFFFFF",
+      "--font-sans": "\"Inter\", -apple-system, system-ui, sans-serif",
+      "--font-display": "\"Inter Tight\", \"Inter\", -apple-system, system-ui, sans-serif",
+      "--border-radius": "28px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 8px 24px rgba(0,0,0,0.12)",
+      "--backdrop-filter": "blur(28px) saturate(180%)",
+      "--space-unit": "4px",
+      "--ease": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+      "--duration": "300ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#F2F2F7] text-[#111114] font-sans antialiased"
+      },
+      {
+        "element": "heading",
+        "classes": "text-5xl md:text-7xl font-bold tracking-[-0.02em] leading-[1.1] text-center"
+      },
+      {
+        "element": "body",
+        "classes": "text-[17px] leading-[1.45]"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-[28px] border border-white/50 bg-white/15 p-3 backdrop-blur-[28px] backdrop-saturate-[180%] shadow-[0_8px_24px_rgba(0,0,0,0.12)]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-full border border-white/50 bg-white/20 px-6 py-3 text-[15px] font-semibold text-[#111114] backdrop-blur-[28px] backdrop-saturate-[180%] transition-transform duration-300 active:scale-95"
+      },
+      {
+        "element": "label",
+        "classes": "text-[11px] font-semibold"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Example: Apple Newsroom, \"Apple introduces a delightful and elegant new software design\" (9 June 2025)"
+    },
+    {
+      "title": "Example: Apple Human Interface Guidelines, Materials and Liquid Glass"
+    },
+    {
+      "title": "Example: apple.com iOS 26 and macOS Tahoe product pages (2025)"
+    }
+  ]
+}

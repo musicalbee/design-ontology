@@ -236,8 +236,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more playful**: move toward [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md) (Neo-Brutalism UI). Replace hairlines with 3px black borders and hard shadows; keep the density.
 
 - **Came from (go here for a more orthodox version):** [`flat-design`](../flat-design/SKILL.md)
-- **Mixes well with:** [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md)
-- **Nearest by vector profile:** [`flat-design`](../flat-design/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md)
+- **Mixes well with:** [`ai-chat-ui`](../ai-chat-ui/SKILL.md), [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md), [`terminal-tui-web`](../terminal-tui-web/SKILL.md)
+- **Nearest by vector profile:** [`flat-design`](../flat-design/SKILL.md), [`ai-chat-ui`](../ai-chat-ui/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md)
 
 ## Emotional target
 

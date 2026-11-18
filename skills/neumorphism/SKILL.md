@@ -240,7 +240,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`claymorphism`](../claymorphism/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
 - **Mixes well with:** [`glassmorphism`](../glassmorphism/SKILL.md)
-- **Nearest by vector profile:** [`glassmorphism`](../glassmorphism/SKILL.md), [`material-design`](../material-design/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md)
+- **Nearest by vector profile:** [`glassmorphism`](../glassmorphism/SKILL.md), [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md), [`material-design`](../material-design/SKILL.md)
 
 ## Emotional target
 

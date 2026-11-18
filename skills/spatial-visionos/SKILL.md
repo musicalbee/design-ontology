@@ -237,8 +237,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more modular**: move toward [`bento-grid-ui`](../bento-grid-ui/SKILL.md) (Bento Grid UI). Divide the window into rounded cells with a 16pt gap and a 24pt radius; keep the glass fill and the 60pt targets.
 
 - **Came from (go here for a more orthodox version):** [`glassmorphism`](../glassmorphism/SKILL.md)
+- **Led to (go here for a newer version):** [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md)
 - **Mixes well with:** [`skeuomorphism`](../skeuomorphism/SKILL.md)
-- **Nearest by vector profile:** [`apple-aqua`](../apple-aqua/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md)
+- **Nearest by vector profile:** [`apple-aqua`](../apple-aqua/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md)
 
 ## Emotional target
 
