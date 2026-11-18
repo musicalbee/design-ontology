@@ -232,7 +232,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`corporate-memphis`](../corporate-memphis/SKILL.md), [`punk-zine`](../punk-zine/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
 - **Mixes well with:** [`bohemian-web`](../bohemian-web/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md), [`conceptual-sketch-ui`](../conceptual-sketch-ui/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md)
-- **Nearest by vector profile:** [`bohemian-web`](../bohemian-web/SKILL.md), [`conceptual-sketch-ui`](../conceptual-sketch-ui/SKILL.md), [`synthwave-web`](../synthwave-web/SKILL.md)
+- **Nearest by vector profile:** [`bohemian-web`](../bohemian-web/SKILL.md), [`cassette-futurism`](../cassette-futurism/SKILL.md), [`conceptual-sketch-ui`](../conceptual-sketch-ui/SKILL.md)
 
 ## Emotional target
 

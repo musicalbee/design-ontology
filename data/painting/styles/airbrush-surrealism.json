@@ -1,0 +1,290 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "airbrush-surrealism",
+  "domain": "painting",
+  "name": "Airbrush Surrealism",
+  "aliases": [
+    "Airbrush fantasy",
+    "Airbrush illustration",
+    "Chrome-and-lightning airbrush"
+  ],
+  "era_id": "avant-garde",
+  "time_period": {
+    "start": 1968,
+    "end": 1985,
+    "label": "Late 1960s – Mid 1980s"
+  },
+  "region": "United States, Britain and Japan",
+  "media": [
+    "acrylic",
+    "gouache",
+    "mixed media"
+  ],
+  "summary": "Surreal airbrushed illustration: supersaturated colour, floating or juxtaposed objects, chrome surfaces, lightning and X-ray cut-aways. It lived on album covers, pulp science fiction and fantasy, and pin-up chrome robots.",
+  "philosophy": {
+    "core_thesis": "A dream can be rendered as a polished object: the airbrush gives an impossible scene the smooth, lit surface of a photograph.",
+    "design_principles": [
+      "Build every form with airbrushed gradients and no visible stroke: a sphere or a tube holds a smooth tonal run of 8 to 12 steps from highlight to core shadow.",
+      "Render chrome and metal with a sharp horizon line in the reflection: a sky band over a dark ground band, split at 50% of the form height.",
+      "Place 2 to 4 unrelated objects in one scene, juxtaposed or floating, with a clear gap of 5 to 15% of the picture between them.",
+      "Raise saturation to the top of the range in the sky and in glows: use 3 to 5 hues, such as electric blue, magenta and orange, at full chroma.",
+      "Cut hard edges with masking film: each shape has a crisp edge of 0.5mm or less, and each glow has a soft edge of 20 to 60mm.",
+      "Add one light effect, such as a lightning bolt, a lens flare or a halo, that crosses 30 to 50% of the picture.",
+      "Show the inside of a body or a machine in one X-ray cut-away, with the outer skin stopped at a clean line.",
+      "Set the horizon at 1/3 from the bottom, in a flat plain or a sea, so that the objects stand in a deep, empty space."
+    ],
+    "anti_patterns": [
+      "Visible brush strokes and impasto in the paint",
+      "Muted, earthy or tonal palettes",
+      "Soft, hazy focus with no crisp mask edge",
+      "A single, realistic scene with no impossible element",
+      "Neon grid, wireframe and digital glow from later computer imagery",
+      "Hand-drawn contour lines of uniform weight around each form",
+      "Flat poster colour with no gradient on the forms"
+    ]
+  },
+  "vectors": {
+    "abstraction": 2,
+    "brushwork_visibility": 1,
+    "chromatic_intensity": 5,
+    "depth_illusion": 4,
+    "line_dominance": 2
+  },
+  "composition": {
+    "layout": "A centred or slightly off-centre hero object on a deep plain or sea horizon, with secondary objects floating in the sky at 2 to 3 scales.",
+    "focal_point": "The brightest highlight or the lightning strike, placed at 1/3 from the top and 1/3 from one side.",
+    "format": "A square 30 by 30cm album sleeve (1:1), a pulp cover of 2:3, or a landscape 3:2; the main object may be cut by the edge by up to 10%.",
+    "principles": [
+      {
+        "principle": "focal-point",
+        "rule": "Put the highest contrast and the sharpest highlight on one object, which fills 25 to 40% of the picture."
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Show 3 to 4 planes: a foreground object, a mid-ground object, a horizon band and a sky gradient of 40% of the height."
+      },
+      {
+        "principle": "contrast",
+        "rule": "Set a dark core shadow (below 15% lightness) against a specular highlight (above 90%) on the same form."
+      },
+      {
+        "principle": "negative-space",
+        "rule": "Leave 25 to 35% of the picture as open sky or sea, filled by a smooth gradient and not by detail."
+      },
+      {
+        "principle": "scale",
+        "rule": "Make the scale wrong on purpose: an object at 3 to 10 times its natural size next to a small one."
+      }
+    ]
+  },
+  "palette": {
+    "strategy": "Supersaturated gradients: a deep ultramarine or black sky that glows into magenta, orange and cyan at the horizon, with chrome that reflects the same hues.",
+    "distribution": "Dark sky and ground 40–50%, saturated gradient glow 25–30%, chrome and highlight neutrals 15–20%, one hot accent under 10%.",
+    "ground": "Smooth white illustration board or a gessoed panel, sealed so that the spray lies flat and even.",
+    "colours": [
+      {
+        "name": "Night ultramarine",
+        "hex": "#0B1140",
+        "pigment": "ultramarine with black",
+        "role": "sky and shadow"
+      },
+      {
+        "name": "Electric blue",
+        "hex": "#1E6BFF",
+        "pigment": "phthalo blue",
+        "role": "mid-sky and chrome reflection"
+      },
+      {
+        "name": "Hot magenta",
+        "hex": "#E0189B",
+        "pigment": "quinacridone magenta",
+        "role": "horizon glow"
+      },
+      {
+        "name": "Sunset orange",
+        "hex": "#FF7A1A",
+        "pigment": "cadmium orange",
+        "role": "glow and light"
+      },
+      {
+        "name": "Chrome white",
+        "hex": "#F2F6FA",
+        "pigment": "titanium white",
+        "role": "specular highlight"
+      },
+      {
+        "name": "Cyan flash",
+        "hex": "#22D3EE",
+        "pigment": "cyan",
+        "role": "lightning and rim light"
+      },
+      {
+        "name": "Steel shadow",
+        "hex": "#2A3144",
+        "pigment": "payne's grey",
+        "role": "metal core shadow"
+      }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Liquid acrylic, gouache and dye, sprayed through an airbrush at 20 to 40 psi, with masking film and frisket to hold the edges.",
+    "support": "Illustration board or gessoed hardboard, from 30 by 30cm to 60 by 90cm; a final fix with a clear varnish.",
+    "brushwork": "No brush stroke shows. The spray builds in thin layers of 10 to 30 passes; a fine brush adds only specular dots of 1 to 2mm.",
+    "paint_handling": "Paint goes on thin and transparent, and each mask is cut, sprayed and removed in turn; tone builds by repeat passes and not by thick paint.",
+    "edges": "Crisp, knife-cut edges on solid objects and soft, 20 to 60mm spray edges on glow, cloud and haze; the two meet in each picture."
+  },
+  "light_and_modelling": {
+    "light": "A strong, single key light with a rim light of a second colour; the highlights are specular and clipped at white.",
+    "modelling": "Form comes from smooth gradients, with a sharp reflection line on metal and a glossy highlight on every curved surface.",
+    "shadow": "Core shadows run to near black; cast shadows are soft ovals under floating objects at 20 to 30% opacity.",
+    "temperature": "Cool blues in the sky and shadows against warm orange and magenta in glows; chrome picks up both."
+  },
+  "subject": {
+    "typical": "Album covers, pulp science fiction and fantasy, pin-up chrome robots, floating eyes and planets, lightning, skulls, spacecraft and technical cut-aways.",
+    "figure_scale": "The hero object fills 25–50% of the height; a figure or robot may reach 70–90% on a pin-up or a pulp cover.",
+    "treatment": "Idealised and polished: bodies and machines are smooth, symmetrical and glossy, with no wear and no visible texture."
+  },
+  "surface": {
+    "finish": "Glossy and seamless, as a photograph; varnish adds a uniform sheen.",
+    "texture": "No texture: a fine spray grain visible only at 10 times magnification."
+  },
+  "reference_works": {
+    "works": [
+      {
+        "work": "The Eye That Sees Everything",
+        "artist": "Man Ray",
+        "date": "1919",
+        "museum": "Art Institute of Chicago",
+        "object_id": "113495",
+        "public_domain": false
+      },
+      {
+        "work": "Sideways Eye No. 18 (1)",
+        "artist": "Rodolfo Abularach",
+        "date": "1970–80s",
+        "museum": "Art Institute of Chicago",
+        "object_id": "280365",
+        "public_domain": false
+      },
+      {
+        "work": "Untitled",
+        "artist": "Rodolfo Abularach",
+        "date": "c. 1970",
+        "museum": "Art Institute of Chicago",
+        "object_id": "275785",
+        "public_domain": false
+      },
+      {
+        "work": "Hanging Mist",
+        "artist": "Dominick Generoso Di Meo",
+        "date": "1970",
+        "museum": "Art Institute of Chicago",
+        "object_id": "38160",
+        "public_domain": false
+      }
+    ],
+    "note": "The museum catalogue holds few airbrush works of the period; these ids were checked against the Art Institute of Chicago API. Man Ray's 1919 aerograph is the earliest ancestor. Look at the museum page for the image and its licence; none is flagged public domain."
+  },
+  "prompt_primer": {
+    "positive": [
+      "airbrushed illustration",
+      "supersaturated colour",
+      "chrome surface with horizon reflection",
+      "floating objects",
+      "lightning bolt",
+      "X-ray cut-away",
+      "smooth gradient sky",
+      "masked crisp edges",
+      "1970s album cover",
+      "pulp science fiction cover",
+      "specular highlight"
+    ],
+    "negative": [
+      "visible brush strokes",
+      "impasto",
+      "muted palette",
+      "soft focus",
+      "film grain",
+      "wireframe grid",
+      "flat vector shapes"
+    ]
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "psychedelic",
+      "pop-art-web",
+      "space-age"
+    ]
+  },
+  "emotion": {
+    "target_response": "Glossy wonder with a hint of menace: the viewer looks at an impossible object that seems real enough to touch.",
+    "keywords": [
+      "glossy",
+      "uncanny",
+      "electric",
+      "polished",
+      "dreamlike",
+      "dramatic"
+    ],
+    "brand_archetypes": [
+      "magician",
+      "explorer",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "airbrush",
+      "airbrush surrealism",
+      "airbrushed illustration",
+      "chrome robot",
+      "sorayama",
+      "album cover art",
+      "70s sci-fi cover",
+      "pulp fantasy",
+      "lightning and chrome",
+      "surreal illustration",
+      "x-ray cut-away"
+    ],
+    "use_cases": [
+      "music covers and posters",
+      "science fiction and fantasy book covers",
+      "game and film key art",
+      "editorial and merch illustration"
+    ],
+    "avoid_when": [
+      "The brief asks for a loose, painterly or hand-made look.",
+      "The subject is a quiet, realistic scene with no impossible element."
+    ],
+    "modifiers": [
+      {
+        "request": "flatter and more graphic",
+        "toward": "pop-art-web",
+        "how": "Cut the gradients to 3 flat steps, add a 3px outline and halftone dots; keep the saturated palette and the floating objects."
+      },
+      {
+        "request": "darker and more theatrical",
+        "toward": "baroque-painting",
+        "how": "Reduce the glow to one warm light source, deepen the shadows to near black, and drop the chrome; keep the smooth surface and the single focal object."
+      },
+      {
+        "request": "more painterly",
+        "toward": "impressionism",
+        "how": "Replace the sprayed gradients with visible touches of 5–15mm and let the edges break; keep the colour heat of the sky."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "CARI, Consumer Aesthetics Research Institute: Airbrush Surrealism",
+      "url": "https://cari.institute/aesthetics/airbrush-surrealism"
+    },
+    {
+      "title": "Art Institute of Chicago API (CC0 data)",
+      "url": "https://api.artic.edu/docs/"
+    }
+  ]
+}

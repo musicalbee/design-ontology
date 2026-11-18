@@ -7,10 +7,11 @@ You are in `design-ontology`: design styles as data, compiled into agent skills.
 1. Read `skills/SKILL_INDEX.md`.
 2. Pick one row. Load `skills/<id>/SKILL.md`. Load one skill at a time.
 3. Obey its "System directives" and "Guardrails". If the user asks for a variation, follow its "Lineage fallbacks".
+4. If the skill has a "Techniques" section, apply those rules as they are written. If the user names a technique (a jump cut, a sunburst, terrazzo), find it in `skills/TECHNIQUES.md`.
 
 ## To change the repository
 
-- The source of truth is `data/<domain>/styles/*.json`, `data/<domain>/eras/*.json` and `domains/*.json`.
+- The source of truth is `data/<domain>/styles/*.json`, `data/<domain>/eras/*.json`, `data/principles/*.json`, `data/techniques/*.json` and `domains/*.json`.
 - Do not edit `skills/`, `graph/` or the lineage block in `README.md` by hand. They are generated.
 - After each change to the data, run `npm run build`. It must report 0 errors.
 - Before you commit, run `npm run typecheck` if you changed a script.

@@ -84,7 +84,8 @@
         "grid_rigidity": 2,
         "skeuomorphic_realism": 5,
         "typographic_expressiveness": 5
-      }
+      },
+      "techniques": []
     },
     {
       "id": "art-nouveau-web",
@@ -170,7 +171,8 @@
         "grid_rigidity": 2,
         "skeuomorphic_realism": 2,
         "typographic_expressiveness": 4
-      }
+      },
+      "techniques": []
     },
     {
       "id": "de-stijl-web",
@@ -254,7 +256,8 @@
         "grid_rigidity": 5,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "bauhaus",
@@ -340,7 +343,8 @@
         "grid_rigidity": 4,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "constructivism-web",
@@ -425,7 +429,10 @@
         "grid_rigidity": 3,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 5
-      }
+      },
+      "techniques": [
+        "photomontage"
+      ]
     },
     {
       "id": "art-deco-web",
@@ -512,7 +519,10 @@
         "grid_rigidity": 5,
         "skeuomorphic_realism": 2,
         "typographic_expressiveness": 4
-      }
+      },
+      "techniques": [
+        "sunburst"
+      ]
     },
     {
       "id": "mid-century-modern",
@@ -600,7 +610,8 @@
         "grid_rigidity": 3,
         "skeuomorphic_realism": 2,
         "typographic_expressiveness": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "swiss-international",
@@ -689,7 +700,98 @@
         "grid_rigidity": 5,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 2
-      }
+      },
+      "techniques": []
+    },
+    {
+      "id": "japanese-graphic-modernism",
+      "name": "Japanese Graphic Modernism",
+      "domain": "design",
+      "era": "modernist",
+      "period": "1951–1980s",
+      "thesis": "A single symbolic form on a quiet grid carries the whole message, and Japanese and Latin letters share the page as equal graphic material.",
+      "summary": "Flat geometric forms in red and black, symbolic circles and triangles, soft colour bands, and dense kanji and katakana set against Latin type. It grew from the Japan Advertising Artists Club of 1951 and the Tokyo 1964 Olympic posters.",
+      "path": "skills/japanese-graphic-modernism/SKILL.md",
+      "tokens": "skills/japanese-graphic-modernism/tokens.css",
+      "pack": "skills/japanese-graphic-modernism/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 900,
+          "subhead_weight": 700,
+          "body_weight": 400,
+          "strong_weight": 700,
+          "label_weight": 500,
+          "accent": "colour",
+          "display_tracking": "0.01em",
+          "display_leading": 1.2,
+          "display_case": "none",
+          "body_leading": 1.8,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "solid",
+          "stroke_width": 2,
+          "linecap": "butt",
+          "linejoin": "miter",
+          "container": "none",
+          "pack": {
+            "id": "material-symbols-sharp",
+            "why": "Solid forms with square terminals and mitre corners: the circle, bar and triangle of a Gothic grid, with no soft edge."
+          }
+        },
+        "art": {
+          "recipe": "bauhaus",
+          "pattern": "diagonal",
+          "seed": 6
+        },
+        "layout": {
+          "hero": "poster",
+          "align": "left",
+          "density": "airy",
+          "tilt_deg": 0
+        }
+      },
+      "triggers": [
+        "japanese graphic design",
+        "kamekura",
+        "ikko tanaka",
+        "tokyo 1964",
+        "olympic poster",
+        "gurafiku",
+        "katakana",
+        "showa graphic",
+        "nihon modern",
+        "japanese poster",
+        "japanese 80s"
+      ],
+      "use_cases": [
+        "posters and exhibition identities",
+        "cultural venues and theatres",
+        "editorial and book covers",
+        "sports events",
+        "music and lighting brands"
+      ],
+      "emotion": [
+        "precise",
+        "symbolic",
+        "bold",
+        "quiet",
+        "witty",
+        "graphic"
+      ],
+      "archetypes": [
+        "creator",
+        "sage",
+        "ruler"
+      ],
+      "vectors": {
+        "ornamentation": 2,
+        "dimensionality": 2,
+        "grid_rigidity": 4,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 3
+      },
+      "techniques": []
     },
     {
       "id": "rams-functionalism-ui",
@@ -775,7 +877,8 @@
         "grid_rigidity": 5,
         "skeuomorphic_realism": 2,
         "typographic_expressiveness": 1
-      }
+      },
+      "techniques": []
     },
     {
       "id": "pop-art-web",
@@ -860,7 +963,103 @@
         "grid_rigidity": 2,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 4
-      }
+      },
+      "techniques": [
+        "halftone"
+      ]
+    },
+    {
+      "id": "space-age",
+      "name": "Space Age Design",
+      "domain": "design",
+      "era": "modernist",
+      "period": "1957–1972",
+      "thesis": "The future is a place that people will visit, and a clean, rounded, machine-made form shows that the trip is safe and near.",
+      "summary": "White rounded forms, orbit rings, starbursts and wide extended type in cobalt, orange and silver. It started with Sputnik and peaked at Expo 67 Montreal and EXPO '70 Osaka, and it shows a confident future of monorails and rockets.",
+      "path": "skills/space-age/SKILL.md",
+      "tokens": "skills/space-age/tokens.css",
+      "pack": "skills/space-age/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 400,
+          "subhead_weight": 400,
+          "body_weight": 400,
+          "strong_weight": 600,
+          "label_weight": 600,
+          "accent": "case",
+          "display_tracking": "0.06em",
+          "display_leading": 1.1,
+          "display_case": "uppercase",
+          "body_leading": 1.55,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "solid",
+          "stroke_width": 2,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "circle",
+          "pack": {
+            "id": "ph-fill",
+            "why": "Solid forms with round terminals on a circle tile: the moulded plastic of a capsule window, and metaphors (rocket, planet, satellite) that the era knew."
+          }
+        },
+        "art": {
+          "recipe": "psychedelic",
+          "pattern": "starburst",
+          "seed": 5
+        },
+        "layout": {
+          "hero": "poster",
+          "align": "left",
+          "density": "regular",
+          "tilt_deg": 3
+        }
+      },
+      "triggers": [
+        "space age",
+        "space race",
+        "sputnik",
+        "expo 67",
+        "expo 70",
+        "retro futurism",
+        "1960s futurism",
+        "orbit",
+        "eurostile",
+        "jetsons",
+        "monorail",
+        "world's fair"
+      ],
+      "use_cases": [
+        "science and technology events",
+        "museum and exhibition posters",
+        "aerospace and travel heritage",
+        "music and podcast covers",
+        "product launches with a playful future theme"
+      ],
+      "emotion": [
+        "optimistic",
+        "futuristic",
+        "clean",
+        "orbital",
+        "confident",
+        "nostalgic"
+      ],
+      "archetypes": [
+        "explorer",
+        "magician",
+        "hero"
+      ],
+      "vectors": {
+        "ornamentation": 3,
+        "dimensionality": 3,
+        "grid_rigidity": 3,
+        "skeuomorphic_realism": 2,
+        "typographic_expressiveness": 4
+      },
+      "techniques": [
+        "sunburst"
+      ]
     },
     {
       "id": "psychedelic",
@@ -948,7 +1147,98 @@
         "grid_rigidity": 1,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 5
-      }
+      },
+      "techniques": []
+    },
+    {
+      "id": "cassette-futurism",
+      "name": "Cassette Futurism",
+      "domain": "design",
+      "era": "postmodern-early-digital",
+      "period": "1976–1989",
+      "thesis": "The future is a machine with visible switches: every function has a physical control, a label and a status light, and the casing shows the wear of use.",
+      "summary": "Bulky hardware from a future imagined on tape: CRT monitors, membrane keys, toggle switches and beige casings, with amber or green phosphor text. It draws on Syd Mead's industrial futures and Japanese bubble-era electronics. The look is functional, worn and a little cramped.",
+      "path": "skills/cassette-futurism/SKILL.md",
+      "tokens": "skills/cassette-futurism/tokens.css",
+      "pack": "skills/cassette-futurism/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 700,
+          "subhead_weight": 600,
+          "body_weight": 400,
+          "strong_weight": 600,
+          "label_weight": 600,
+          "accent": "colour",
+          "display_tracking": "0.06em",
+          "display_leading": 1.1,
+          "display_case": "uppercase",
+          "body_leading": 1.5,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "solid",
+          "stroke_width": 2,
+          "linecap": "butt",
+          "linejoin": "miter",
+          "container": "square",
+          "pack": {
+            "id": "pixelarticons",
+            "why": "Square, blocky glyphs match the panel symbols and the pixel screens of the period."
+          }
+        },
+        "art": {
+          "recipe": "skeuo",
+          "pattern": "grid",
+          "seed": 76
+        },
+        "layout": {
+          "hero": "split",
+          "align": "left",
+          "density": "compact",
+          "tilt_deg": 0
+        }
+      },
+      "triggers": [
+        "cassette futurism",
+        "retro futurism",
+        "crt terminal",
+        "amber terminal",
+        "1980s hardware",
+        "tape deck",
+        "syd mead",
+        "used future",
+        "control panel"
+      ],
+      "use_cases": [
+        "science-fiction game and film sites",
+        "hardware and synthesiser product pages",
+        "developer tools with a terminal character",
+        "audio and music gear",
+        "interactive fiction"
+      ],
+      "emotion": [
+        "analogue",
+        "industrial",
+        "tactile",
+        "worn",
+        "technical",
+        "nostalgic"
+      ],
+      "archetypes": [
+        "explorer",
+        "creator",
+        "sage"
+      ],
+      "vectors": {
+        "ornamentation": 3,
+        "dimensionality": 4,
+        "grid_rigidity": 4,
+        "skeuomorphic_realism": 4,
+        "typographic_expressiveness": 3
+      },
+      "techniques": [
+        "perspective-grid"
+      ]
     },
     {
       "id": "punk-zine",
@@ -1034,7 +1324,11 @@
         "grid_rigidity": 1,
         "skeuomorphic_realism": 2,
         "typographic_expressiveness": 5
-      }
+      },
+      "techniques": [
+        "halftone",
+        "photomontage"
+      ]
     },
     {
       "id": "memphis-design",
@@ -1122,7 +1416,99 @@
         "grid_rigidity": 1,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 4
-      }
+      },
+      "techniques": []
+    },
+    {
+      "id": "cyberdelia",
+      "name": "Cyberdelia",
+      "domain": "design",
+      "era": "postmodern-early-digital",
+      "period": "1988–1996",
+      "thesis": "The computer is a consciousness machine: use acid colour, fractal repetition and raw early software effects to show a mind that has gone into the network.",
+      "summary": "The psychedelic side of early cyberculture. It joins cyberpunk with acid colour: fractals, kaleidoscopes, posterised Photoshop collage, early 3D type and rave flyers. It takes its name from the club in the film Hackers (1995).",
+      "path": "skills/cyberdelia/SKILL.md",
+      "tokens": "skills/cyberdelia/tokens.css",
+      "pack": "skills/cyberdelia/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 400,
+          "subhead_weight": 400,
+          "body_weight": 400,
+          "strong_weight": 700,
+          "label_weight": 700,
+          "accent": "colour",
+          "display_tracking": "0.02em",
+          "display_leading": 1,
+          "display_case": "uppercase",
+          "body_leading": 1.55,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "solid",
+          "stroke_width": 3,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "none",
+          "pack": {
+            "id": "solar-bold",
+            "why": "Heavy solid forms with a thick edge match the loud shapes of a rave flyer."
+          }
+        },
+        "art": {
+          "recipe": "psychedelic",
+          "pattern": "starburst",
+          "seed": 88
+        },
+        "layout": {
+          "hero": "poster",
+          "align": "center",
+          "density": "compact",
+          "tilt_deg": -3
+        }
+      },
+      "triggers": [
+        "cyberdelia",
+        "cyberdelic",
+        "cyber psychedelic",
+        "rave flyer",
+        "fractal",
+        "hackers 1995",
+        "acid colours",
+        "kaleidoscope",
+        "early cyberspace"
+      ],
+      "use_cases": [
+        "club, festival and music event pages",
+        "game and demoscene tributes",
+        "art and zine projects",
+        "fashion and culture drops",
+        "book and album covers"
+      ],
+      "emotion": [
+        "psychedelic",
+        "hypnotic",
+        "digital",
+        "euphoric",
+        "chaotic",
+        "acid"
+      ],
+      "archetypes": [
+        "magician",
+        "explorer",
+        "jester"
+      ],
+      "vectors": {
+        "ornamentation": 5,
+        "dimensionality": 3,
+        "grid_rigidity": 1,
+        "skeuomorphic_realism": 2,
+        "typographic_expressiveness": 5
+      },
+      "techniques": [
+        "airbrush",
+        "photomontage"
+      ]
     },
     {
       "id": "grunge-editorial",
@@ -1211,7 +1597,10 @@
         "grid_rigidity": 1,
         "skeuomorphic_realism": 2,
         "typographic_expressiveness": 5
-      }
+      },
+      "techniques": [
+        "photomontage"
+      ]
     },
     {
       "id": "y2k-aesthetic",
@@ -1300,7 +1689,10 @@
         "grid_rigidity": 3,
         "skeuomorphic_realism": 3,
         "typographic_expressiveness": 3
-      }
+      },
+      "techniques": [
+        "airbrush"
+      ]
     },
     {
       "id": "japanese-dense-web",
@@ -1385,7 +1777,8 @@
         "grid_rigidity": 4,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "apple-aqua",
@@ -1470,7 +1863,8 @@
         "grid_rigidity": 4,
         "skeuomorphic_realism": 4,
         "typographic_expressiveness": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "frutiger-aero",
@@ -1558,7 +1952,11 @@
         "grid_rigidity": 3,
         "skeuomorphic_realism": 4,
         "typographic_expressiveness": 2
-      }
+      },
+      "techniques": [
+        "airbrush",
+        "easing"
+      ]
     },
     {
       "id": "skeuomorphism",
@@ -1648,7 +2046,8 @@
         "grid_rigidity": 3,
         "skeuomorphic_realism": 5,
         "typographic_expressiveness": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "metro-ui",
@@ -1733,7 +2132,8 @@
         "grid_rigidity": 5,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "pixel-art-web",
@@ -1818,7 +2218,8 @@
         "grid_rigidity": 4,
         "skeuomorphic_realism": 2,
         "typographic_expressiveness": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "bohemian-web",
@@ -1903,7 +2304,8 @@
         "grid_rigidity": 4,
         "skeuomorphic_realism": 5,
         "typographic_expressiveness": 4
-      }
+      },
+      "techniques": []
     },
     {
       "id": "flat-design",
@@ -1992,7 +2394,11 @@
         "grid_rigidity": 4,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 2
-      }
+      },
+      "techniques": [
+        "multiplane-parallax",
+        "squash-and-stretch"
+      ]
     },
     {
       "id": "vaporwave",
@@ -2079,7 +2485,10 @@
         "grid_rigidity": 2,
         "skeuomorphic_realism": 3,
         "typographic_expressiveness": 4
-      }
+      },
+      "techniques": [
+        "perspective-grid"
+      ]
     },
     {
       "id": "synthwave-web",
@@ -2164,7 +2573,8 @@
         "grid_rigidity": 4,
         "skeuomorphic_realism": 3,
         "typographic_expressiveness": 5
-      }
+      },
+      "techniques": []
     },
     {
       "id": "brutalist-web",
@@ -2249,7 +2659,8 @@
         "grid_rigidity": 2,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "material-design",
@@ -2338,7 +2749,101 @@
         "grid_rigidity": 4,
         "skeuomorphic_realism": 2,
         "typographic_expressiveness": 2
-      }
+      },
+      "techniques": [
+        "easing",
+        "match-cut"
+      ]
+    },
+    {
+      "id": "blob-world",
+      "name": "Blob World",
+      "domain": "design",
+      "era": "touchscreen",
+      "period": "2015–present",
+      "thesis": "Make the screen a toy world: soft, over-lit 3D bodies with odd textures carry the brand, and the interface stays plain around them.",
+      "summary": "Motion design and illustration made from strange 3D renders: soft blobs, surreal rooms, clay, fur, jelly and inflatable textures, sometimes uncanny. It is an illustration world, not a component style: glassmorphism and 3D UI style the controls; Blob World fills the picture.",
+      "path": "skills/blob-world/SKILL.md",
+      "tokens": "skills/blob-world/tokens.css",
+      "pack": "skills/blob-world/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 600,
+          "subhead_weight": 600,
+          "body_weight": 400,
+          "strong_weight": 700,
+          "label_weight": 700,
+          "accent": "size",
+          "display_tracking": "-0.01em",
+          "display_leading": 1.05,
+          "display_case": "none",
+          "body_leading": 1.6,
+          "body_size": "18px"
+        },
+        "icon": {
+          "mode": "solid",
+          "stroke_width": 2,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "circle",
+          "pack": {
+            "id": "ph-fill",
+            "why": "Soft, filled forms with round terminals match the volume of the renders."
+          }
+        },
+        "art": {
+          "recipe": "aero",
+          "pattern": "dots",
+          "seed": 15
+        },
+        "layout": {
+          "hero": "split",
+          "align": "left",
+          "density": "airy",
+          "tilt_deg": 2
+        }
+      },
+      "triggers": [
+        "blob world",
+        "3d blob",
+        "soft 3d",
+        "clay render",
+        "inflatable",
+        "3d illustration",
+        "surreal 3d",
+        "jelly",
+        "spline scene"
+      ],
+      "use_cases": [
+        "landing-page hero scenes",
+        "motion design and brand films",
+        "app onboarding illustration",
+        "music and culture covers",
+        "creative-tool and NFT-era marketing"
+      ],
+      "emotion": [
+        "playful",
+        "soft",
+        "surreal",
+        "tactile",
+        "uncanny",
+        "inflated"
+      ],
+      "archetypes": [
+        "jester",
+        "creator",
+        "innocent"
+      ],
+      "vectors": {
+        "ornamentation": 4,
+        "dimensionality": 5,
+        "grid_rigidity": 2,
+        "skeuomorphic_realism": 3,
+        "typographic_expressiveness": 3
+      },
+      "techniques": [
+        "squash-and-stretch"
+      ]
     },
     {
       "id": "conceptual-sketch-ui",
@@ -2423,7 +2928,8 @@
         "grid_rigidity": 3,
         "skeuomorphic_realism": 3,
         "typographic_expressiveness": 5
-      }
+      },
+      "techniques": []
     },
     {
       "id": "wabi-sabi-web",
@@ -2508,7 +3014,8 @@
         "grid_rigidity": 3,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 1
-      }
+      },
+      "techniques": []
     },
     {
       "id": "anti-design",
@@ -2593,7 +3100,8 @@
         "grid_rigidity": 1,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 5
-      }
+      },
+      "techniques": []
     },
     {
       "id": "dark-devtool-ui",
@@ -2679,7 +3187,8 @@
         "grid_rigidity": 4,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "corporate-memphis",
@@ -2766,7 +3275,10 @@
         "grid_rigidity": 3,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 2
-      }
+      },
+      "techniques": [
+        "isometric-projection"
+      ]
     },
     {
       "id": "terminal-tui-web",
@@ -2852,7 +3364,8 @@
         "grid_rigidity": 5,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "aurora-gradient-ui",
@@ -2937,7 +3450,8 @@
         "grid_rigidity": 3,
         "skeuomorphic_realism": 2,
         "typographic_expressiveness": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "scrapbook-ui",
@@ -3022,7 +3536,8 @@
         "grid_rigidity": 5,
         "skeuomorphic_realism": 5,
         "typographic_expressiveness": 5
-      }
+      },
+      "techniques": []
     },
     {
       "id": "neumorphism",
@@ -3108,7 +3623,8 @@
         "grid_rigidity": 3,
         "skeuomorphic_realism": 3,
         "typographic_expressiveness": 1
-      }
+      },
+      "techniques": []
     },
     {
       "id": "cybercore-web",
@@ -3193,7 +3709,8 @@
         "grid_rigidity": 4,
         "skeuomorphic_realism": 2,
         "typographic_expressiveness": 4
-      }
+      },
+      "techniques": []
     },
     {
       "id": "glassmorphism",
@@ -3279,7 +3796,10 @@
         "grid_rigidity": 3,
         "skeuomorphic_realism": 3,
         "typographic_expressiveness": 2
-      }
+      },
+      "techniques": [
+        "easing"
+      ]
     },
     {
       "id": "neo-brutalism-ui",
@@ -3367,7 +3887,8 @@
         "grid_rigidity": 3,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 4
-      }
+      },
+      "techniques": []
     },
     {
       "id": "claymorphism",
@@ -3452,7 +3973,8 @@
         "grid_rigidity": 2,
         "skeuomorphic_realism": 3,
         "typographic_expressiveness": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "editorial-serif-revival",
@@ -3538,7 +4060,8 @@
         "grid_rigidity": 3,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 4
-      }
+      },
+      "techniques": []
     },
     {
       "id": "ethereal-web",
@@ -3623,7 +4146,8 @@
         "grid_rigidity": 3,
         "skeuomorphic_realism": 2,
         "typographic_expressiveness": 1
-      }
+      },
+      "techniques": []
     },
     {
       "id": "ai-chat-ui",
@@ -3708,7 +4232,8 @@
         "grid_rigidity": 3,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "bento-grid-ui",
@@ -3794,7 +4319,10 @@
         "grid_rigidity": 5,
         "skeuomorphic_realism": 2,
         "typographic_expressiveness": 3
-      }
+      },
+      "techniques": [
+        "isometric-projection"
+      ]
     },
     {
       "id": "spatial-visionos",
@@ -3880,7 +4408,11 @@
         "grid_rigidity": 3,
         "skeuomorphic_realism": 4,
         "typographic_expressiveness": 2
-      }
+      },
+      "techniques": [
+        "match-cut",
+        "multiplane-parallax"
+      ]
     },
     {
       "id": "liquid-glass-ui",
@@ -3965,7 +4497,8 @@
         "grid_rigidity": 3,
         "skeuomorphic_realism": 3,
         "typographic_expressiveness": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "gothic-architecture",
@@ -4013,7 +4546,8 @@
         "geometric_rigidity": 3,
         "material_rawness": 3,
         "monumentality": 5
-      }
+      },
+      "techniques": []
     },
     {
       "id": "renaissance-architecture",
@@ -4061,7 +4595,8 @@
         "geometric_rigidity": 5,
         "material_rawness": 2,
         "monumentality": 4
-      }
+      },
+      "techniques": []
     },
     {
       "id": "baroque-architecture",
@@ -4109,7 +4644,8 @@
         "geometric_rigidity": 2,
         "material_rawness": 1,
         "monumentality": 5
-      }
+      },
+      "techniques": []
     },
     {
       "id": "neoclassical-architecture",
@@ -4157,7 +4693,8 @@
         "geometric_rigidity": 5,
         "material_rawness": 2,
         "monumentality": 4
-      }
+      },
+      "techniques": []
     },
     {
       "id": "beaux-arts-architecture",
@@ -4205,7 +4742,8 @@
         "geometric_rigidity": 4,
         "material_rawness": 1,
         "monumentality": 5
-      }
+      },
+      "techniques": []
     },
     {
       "id": "art-nouveau-architecture",
@@ -4253,7 +4791,8 @@
         "geometric_rigidity": 1,
         "material_rawness": 2,
         "monumentality": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "prairie-school-architecture",
@@ -4301,7 +4840,8 @@
         "geometric_rigidity": 4,
         "material_rawness": 3,
         "monumentality": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "bauhaus-architecture",
@@ -4348,7 +4888,8 @@
         "geometric_rigidity": 5,
         "material_rawness": 2,
         "monumentality": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "art-deco-architecture",
@@ -4396,7 +4937,12 @@
         "geometric_rigidity": 4,
         "material_rawness": 1,
         "monumentality": 4
-      }
+      },
+      "techniques": [
+        "fluting",
+        "sunburst",
+        "terrazzo"
+      ]
     },
     {
       "id": "international-style-architecture",
@@ -4444,7 +4990,8 @@
         "geometric_rigidity": 5,
         "material_rawness": 2,
         "monumentality": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "nordic-modernism-architecture",
@@ -4492,7 +5039,8 @@
         "geometric_rigidity": 2,
         "material_rawness": 3,
         "monumentality": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "mid-century-modern-architecture",
@@ -4539,7 +5087,10 @@
         "geometric_rigidity": 4,
         "material_rawness": 3,
         "monumentality": 1
-      }
+      },
+      "techniques": [
+        "breeze-block"
+      ]
     },
     {
       "id": "brutalist-architecture",
@@ -4587,7 +5138,8 @@
         "geometric_rigidity": 4,
         "material_rawness": 5,
         "monumentality": 5
-      }
+      },
+      "techniques": []
     },
     {
       "id": "postmodern-architecture",
@@ -4635,7 +5187,10 @@
         "geometric_rigidity": 3,
         "material_rawness": 1,
         "monumentality": 3
-      }
+      },
+      "techniques": [
+        "arch"
+      ]
     },
     {
       "id": "high-tech-architecture",
@@ -4682,7 +5237,8 @@
         "geometric_rigidity": 4,
         "material_rawness": 2,
         "monumentality": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "deconstructivist-architecture",
@@ -4730,7 +5286,8 @@
         "geometric_rigidity": 1,
         "material_rawness": 3,
         "monumentality": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "parametricism-architecture",
@@ -4778,7 +5335,8 @@
         "geometric_rigidity": 1,
         "material_rawness": 1,
         "monumentality": 4
-      }
+      },
+      "techniques": []
     },
     {
       "id": "georgian-interior",
@@ -4827,7 +5385,11 @@
         "formality": 5,
         "material_naturalness": 4,
         "chromatic_intensity": 2
-      }
+      },
+      "techniques": [
+        "arch",
+        "fluting"
+      ]
     },
     {
       "id": "shaker-interior",
@@ -4876,7 +5438,8 @@
         "formality": 4,
         "material_naturalness": 5,
         "chromatic_intensity": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "victorian-interior",
@@ -4924,7 +5487,8 @@
         "formality": 4,
         "material_naturalness": 3,
         "chromatic_intensity": 4
-      }
+      },
+      "techniques": []
     },
     {
       "id": "arts-and-crafts-interior",
@@ -4972,7 +5536,8 @@
         "formality": 2,
         "material_naturalness": 5,
         "chromatic_intensity": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "art-nouveau-interior",
@@ -5021,7 +5586,8 @@
         "formality": 3,
         "material_naturalness": 4,
         "chromatic_intensity": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "bauhaus-interior",
@@ -5069,7 +5635,8 @@
         "formality": 2,
         "material_naturalness": 2,
         "chromatic_intensity": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "art-deco-interior",
@@ -5118,7 +5685,12 @@
         "formality": 5,
         "material_naturalness": 2,
         "chromatic_intensity": 3
-      }
+      },
+      "techniques": [
+        "checkerboard",
+        "fluting",
+        "sunburst"
+      ]
     },
     {
       "id": "hollywood-regency-interior",
@@ -5166,7 +5738,8 @@
         "formality": 4,
         "material_naturalness": 2,
         "chromatic_intensity": 4
-      }
+      },
+      "techniques": []
     },
     {
       "id": "mid-century-modern-interior",
@@ -5215,7 +5788,12 @@
         "formality": 2,
         "material_naturalness": 3,
         "chromatic_intensity": 3
-      }
+      },
+      "techniques": [
+        "breeze-block",
+        "sunburst",
+        "terrazzo"
+      ]
     },
     {
       "id": "scandinavian-interior",
@@ -5265,7 +5843,8 @@
         "formality": 3,
         "material_naturalness": 4,
         "chromatic_intensity": 1
-      }
+      },
+      "techniques": []
     },
     {
       "id": "industrial-loft-interior",
@@ -5314,7 +5893,8 @@
         "formality": 1,
         "material_naturalness": 4,
         "chromatic_intensity": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "memphis-interior",
@@ -5363,7 +5943,10 @@
         "formality": 1,
         "material_naturalness": 1,
         "chromatic_intensity": 5
-      }
+      },
+      "techniques": [
+        "terrazzo"
+      ]
     },
     {
       "id": "minimalist-interior",
@@ -5412,7 +5995,8 @@
         "formality": 4,
         "material_naturalness": 3,
         "chromatic_intensity": 1
-      }
+      },
+      "techniques": []
     },
     {
       "id": "japandi-interior",
@@ -5461,7 +6045,8 @@
         "formality": 3,
         "material_naturalness": 5,
         "chromatic_intensity": 1
-      }
+      },
+      "techniques": []
     },
     {
       "id": "grandmillennial-interior",
@@ -5510,7 +6095,8 @@
         "formality": 3,
         "material_naturalness": 3,
         "chromatic_intensity": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "neo-deco-interior",
@@ -5559,7 +6145,12 @@
         "formality": 4,
         "material_naturalness": 2,
         "chromatic_intensity": 3
-      }
+      },
+      "techniques": [
+        "checkerboard",
+        "fluting",
+        "sunburst"
+      ]
     },
     {
       "id": "dopamine-decor",
@@ -5608,7 +6199,13 @@
         "formality": 1,
         "material_naturalness": 2,
         "chromatic_intensity": 5
-      }
+      },
+      "techniques": [
+        "arch",
+        "breeze-block",
+        "checkerboard",
+        "terrazzo"
+      ]
     },
     {
       "id": "quiet-luxury-interior",
@@ -5658,7 +6255,10 @@
         "formality": 4,
         "material_naturalness": 4,
         "chromatic_intensity": 1
-      }
+      },
+      "techniques": [
+        "fluting"
+      ]
     },
     {
       "id": "pictorialism",
@@ -5705,7 +6305,8 @@
         "colour_saturation": 2,
         "depth_of_field": 4,
         "proximity": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "straight-photography",
@@ -5752,7 +6353,8 @@
         "colour_saturation": 1,
         "depth_of_field": 1,
         "proximity": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "new-objectivity",
@@ -5798,7 +6400,8 @@
         "colour_saturation": 1,
         "depth_of_field": 1,
         "proximity": 5
-      }
+      },
+      "techniques": []
     },
     {
       "id": "street-photography",
@@ -5845,7 +6448,8 @@
         "colour_saturation": 1,
         "depth_of_field": 2,
         "proximity": 4
-      }
+      },
+      "techniques": []
     },
     {
       "id": "documentary-photography",
@@ -5891,7 +6495,8 @@
         "colour_saturation": 2,
         "depth_of_field": 2,
         "proximity": 4
-      }
+      },
+      "techniques": []
     },
     {
       "id": "new-colour",
@@ -5938,7 +6543,8 @@
         "colour_saturation": 4,
         "depth_of_field": 2,
         "proximity": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "new-topographics",
@@ -5985,7 +6591,8 @@
         "colour_saturation": 1,
         "depth_of_field": 1,
         "proximity": 1
-      }
+      },
+      "techniques": []
     },
     {
       "id": "duesseldorf-school",
@@ -6031,7 +6638,8 @@
         "colour_saturation": 3,
         "depth_of_field": 1,
         "proximity": 1
-      }
+      },
+      "techniques": []
     },
     {
       "id": "y2k-digicam",
@@ -6078,7 +6686,8 @@
         "colour_saturation": 3,
         "depth_of_field": 1,
         "proximity": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "cinematic-teal-orange",
@@ -6125,7 +6734,8 @@
         "colour_saturation": 4,
         "depth_of_field": 4,
         "proximity": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "party-flash",
@@ -6172,7 +6782,8 @@
         "colour_saturation": 3,
         "depth_of_field": 2,
         "proximity": 4
-      }
+      },
+      "techniques": []
     },
     {
       "id": "film-grain-revival",
@@ -6218,7 +6829,8 @@
         "colour_saturation": 3,
         "depth_of_field": 3,
         "proximity": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "fashion-editorial",
@@ -6265,7 +6877,8 @@
         "colour_saturation": 4,
         "depth_of_field": 3,
         "proximity": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "film-noir-still",
@@ -6311,7 +6924,8 @@
         "colour_saturation": 1,
         "depth_of_field": 3,
         "proximity": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "food-photography",
@@ -6357,7 +6971,8 @@
         "colour_saturation": 4,
         "depth_of_field": 4,
         "proximity": 4
-      }
+      },
+      "techniques": []
     },
     {
       "id": "scandinavian-interior-photography",
@@ -6403,7 +7018,8 @@
         "colour_saturation": 2,
         "depth_of_field": 1,
         "proximity": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "german-expressionist-cinema",
@@ -6450,7 +7066,8 @@
         "staging": 5,
         "grade_stylisation": 4,
         "frame_width": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "soviet-montage",
@@ -6497,7 +7114,10 @@
         "staging": 4,
         "grade_stylisation": 2,
         "frame_width": 2
-      }
+      },
+      "techniques": [
+        "photomontage"
+      ]
     },
     {
       "id": "classical-hollywood",
@@ -6544,7 +7164,8 @@
         "staging": 5,
         "grade_stylisation": 3,
         "frame_width": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "italian-neorealism",
@@ -6591,7 +7212,8 @@
         "staging": 1,
         "grade_stylisation": 1,
         "frame_width": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "french-new-wave",
@@ -6638,7 +7260,10 @@
         "staging": 2,
         "grade_stylisation": 1,
         "frame_width": 3
-      }
+      },
+      "techniques": [
+        "jump-cut"
+      ]
     },
     {
       "id": "documentary-verite",
@@ -6685,7 +7310,8 @@
         "staging": 1,
         "grade_stylisation": 1,
         "frame_width": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "new-hollywood",
@@ -6732,7 +7358,8 @@
         "staging": 2,
         "grade_stylisation": 2,
         "frame_width": 5
-      }
+      },
+      "techniques": []
     },
     {
       "id": "music-video",
@@ -6779,7 +7406,8 @@
         "staging": 5,
         "grade_stylisation": 5,
         "frame_width": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "hong-kong-action",
@@ -6826,7 +7454,8 @@
         "staging": 4,
         "grade_stylisation": 3,
         "frame_width": 4
-      }
+      },
+      "techniques": []
     },
     {
       "id": "slow-cinema",
@@ -6873,7 +7502,8 @@
         "staging": 3,
         "grade_stylisation": 1,
         "frame_width": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "dogme-95",
@@ -6920,7 +7550,8 @@
         "staging": 1,
         "grade_stylisation": 1,
         "frame_width": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "planimetric-symmetry",
@@ -6967,7 +7598,8 @@
         "staging": 5,
         "grade_stylisation": 4,
         "frame_width": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "creator-vlog",
@@ -7014,7 +7646,11 @@
         "staging": 2,
         "grade_stylisation": 2,
         "frame_width": 4
-      }
+      },
+      "techniques": [
+        "jump-cut",
+        "ken-burns-effect"
+      ]
     },
     {
       "id": "vertical-short-form",
@@ -7061,7 +7697,10 @@
         "staging": 3,
         "grade_stylisation": 3,
         "frame_width": 1
-      }
+      },
+      "techniques": [
+        "jump-cut"
+      ]
     },
     {
       "id": "cinematic-fpv",
@@ -7108,7 +7747,8 @@
         "staging": 3,
         "grade_stylisation": 3,
         "frame_width": 4
-      }
+      },
+      "techniques": []
     },
     {
       "id": "camcorder-revival",
@@ -7155,7 +7795,8 @@
         "staging": 1,
         "grade_stylisation": 4,
         "frame_width": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "renaissance-painting",
@@ -7203,7 +7844,11 @@
         "chromatic_intensity": 3,
         "depth_illusion": 5,
         "line_dominance": 4
-      }
+      },
+      "techniques": [
+        "checkerboard",
+        "perspective-grid"
+      ]
     },
     {
       "id": "mannerism-painting",
@@ -7252,7 +7897,8 @@
         "chromatic_intensity": 4,
         "depth_illusion": 3,
         "line_dominance": 4
-      }
+      },
+      "techniques": []
     },
     {
       "id": "baroque-painting",
@@ -7302,7 +7948,8 @@
         "chromatic_intensity": 2,
         "depth_illusion": 5,
         "line_dominance": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "ukiyo-e",
@@ -7351,7 +7998,8 @@
         "chromatic_intensity": 3,
         "depth_illusion": 2,
         "line_dominance": 5
-      }
+      },
+      "techniques": []
     },
     {
       "id": "rococo-painting",
@@ -7400,7 +8048,8 @@
         "chromatic_intensity": 2,
         "depth_illusion": 3,
         "line_dominance": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "romanticism-painting",
@@ -7449,7 +8098,8 @@
         "chromatic_intensity": 4,
         "depth_illusion": 5,
         "line_dominance": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "realism-painting",
@@ -7498,7 +8148,8 @@
         "chromatic_intensity": 2,
         "depth_illusion": 3,
         "line_dominance": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "impressionism",
@@ -7546,7 +8197,8 @@
         "chromatic_intensity": 4,
         "depth_illusion": 3,
         "line_dominance": 1
-      }
+      },
+      "techniques": []
     },
     {
       "id": "nordic-national-romanticism-painting",
@@ -7595,7 +8247,8 @@
         "chromatic_intensity": 3,
         "depth_illusion": 3,
         "line_dominance": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "pointillism",
@@ -7643,7 +8296,8 @@
         "chromatic_intensity": 5,
         "depth_illusion": 3,
         "line_dominance": 1
-      }
+      },
+      "techniques": []
     },
     {
       "id": "fauvism",
@@ -7692,7 +8346,8 @@
         "chromatic_intensity": 5,
         "depth_illusion": 2,
         "line_dominance": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "cubism-painting",
@@ -7741,7 +8396,8 @@
         "chromatic_intensity": 2,
         "depth_illusion": 2,
         "line_dominance": 4
-      }
+      },
+      "techniques": []
     },
     {
       "id": "de-stijl-painting",
@@ -7788,7 +8444,8 @@
         "chromatic_intensity": 4,
         "depth_illusion": 1,
         "line_dominance": 5
-      }
+      },
+      "techniques": []
     },
     {
       "id": "surrealism-painting",
@@ -7838,7 +8495,8 @@
         "chromatic_intensity": 3,
         "depth_illusion": 5,
         "line_dominance": 3
-      }
+      },
+      "techniques": []
     },
     {
       "id": "abstract-expressionism",
@@ -7887,7 +8545,8 @@
         "chromatic_intensity": 3,
         "depth_illusion": 2,
         "line_dominance": 2
-      }
+      },
+      "techniques": []
     },
     {
       "id": "pop-art-painting",
@@ -7936,7 +8595,796 @@
         "chromatic_intensity": 5,
         "depth_illusion": 1,
         "line_dominance": 4
-      }
+      },
+      "techniques": []
+    },
+    {
+      "id": "airbrush-surrealism",
+      "name": "Airbrush Surrealism",
+      "domain": "painting",
+      "era": "avant-garde",
+      "period": "Late 1960s – Mid 1980s",
+      "thesis": "A dream can be rendered as a polished object: the airbrush gives an impossible scene the smooth, lit surface of a photograph.",
+      "summary": "Surreal airbrushed illustration: supersaturated colour, floating or juxtaposed objects, chrome surfaces, lightning and X-ray cut-aways. It lived on album covers, pulp science fiction and fantasy, and pin-up chrome robots.",
+      "path": "skills/airbrush-surrealism/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "airbrush",
+        "airbrush surrealism",
+        "airbrushed illustration",
+        "chrome robot",
+        "sorayama",
+        "album cover art",
+        "70s sci-fi cover",
+        "pulp fantasy",
+        "lightning and chrome",
+        "surreal illustration",
+        "x-ray cut-away"
+      ],
+      "use_cases": [
+        "music covers and posters",
+        "science fiction and fantasy book covers",
+        "game and film key art",
+        "editorial and merch illustration"
+      ],
+      "emotion": [
+        "glossy",
+        "uncanny",
+        "electric",
+        "polished",
+        "dreamlike",
+        "dramatic"
+      ],
+      "archetypes": [
+        "magician",
+        "explorer",
+        "outlaw"
+      ],
+      "vectors": {
+        "abstraction": 2,
+        "brushwork_visibility": 1,
+        "chromatic_intensity": 5,
+        "depth_illusion": 4,
+        "line_dominance": 2
+      },
+      "techniques": [
+        "airbrush"
+      ]
+    }
+  ],
+  "techniques": [
+    {
+      "id": "airbrush",
+      "name": "Airbrush",
+      "kind": "tool",
+      "origin": {
+        "domain": "photography",
+        "year": 1879,
+        "where": "United States",
+        "note": "Abner Peeler patents a paint distributor; the airbrush of Charles Burdick (1893) goes into photo studios for retouch."
+      },
+      "adoptions": [
+        {
+          "domain": "design",
+          "year": 1930,
+          "circa": true,
+          "via": "Streamline posters and car advertisements use airbrushed gradients and chrome.",
+          "lag_years": 51
+        },
+        {
+          "domain": "painting",
+          "year": 1968,
+          "circa": true,
+          "via": "Illustrators airbrush surreal chrome, lightning and X-ray cut-aways for album covers and magazines.",
+          "styles": [
+            "airbrush-surrealism"
+          ],
+          "lag_years": 89
+        },
+        {
+          "domain": "design",
+          "year": 1990,
+          "via": "Photoshop 1.0 ships with an airbrush tool, and the soft spray becomes digital.",
+          "styles": [
+            "cyberdelia"
+          ],
+          "lag_years": 111
+        },
+        {
+          "domain": "design",
+          "year": 2004,
+          "circa": true,
+          "via": "Glossy interface gradients and highlights take the airbrush look to the screen.",
+          "styles": [
+            "frutiger-aero"
+          ],
+          "lag_years": 125
+        }
+      ],
+      "styles": [
+        "airbrush-surrealism",
+        "cyberdelia",
+        "frutiger-aero",
+        "y2k-aesthetic"
+      ]
+    },
+    {
+      "id": "arch",
+      "name": "Arch",
+      "kind": "motif",
+      "origin": {
+        "domain": "architecture",
+        "year": -200,
+        "circa": true,
+        "where": "Rome",
+        "note": "Roman builders use the semicircular masonry arch at large scale in aqueducts, bridges and gates; the arch itself is older."
+      },
+      "adoptions": [
+        {
+          "domain": "interior",
+          "year": 1720,
+          "circa": true,
+          "via": "Palladian arched windows and niches frame Georgian rooms.",
+          "styles": [
+            "georgian-interior"
+          ],
+          "lag_years": 1920
+        },
+        {
+          "domain": "architecture",
+          "year": 1978,
+          "circa": true,
+          "via": "Postmodern facades quote the round arch as a sign, not as a structure.",
+          "styles": [
+            "postmodern-architecture"
+          ],
+          "lag_years": 2178
+        },
+        {
+          "domain": "interior",
+          "year": 2019,
+          "circa": true,
+          "via": "Arched mirrors, headboards, doorways and painted arches become a room motif.",
+          "styles": [
+            "dopamine-decor"
+          ],
+          "lag_years": 2219
+        }
+      ],
+      "styles": [
+        "georgian-interior",
+        "postmodern-architecture",
+        "dopamine-decor"
+      ]
+    },
+    {
+      "id": "breeze-block",
+      "name": "Breeze block",
+      "kind": "material",
+      "origin": {
+        "domain": "architecture",
+        "year": 1929,
+        "where": "Recife, Brazil",
+        "note": "Three engineers in Recife patent the cobogó, a hollow concrete block for screen walls in a hot climate."
+      },
+      "adoptions": [
+        {
+          "domain": "architecture",
+          "year": 1955,
+          "circa": true,
+          "via": "Tropical modernism and desert houses in the United States use screen walls; Edward Durell Stone wraps the US Embassy in New Delhi (1959) in a pierced screen.",
+          "styles": [
+            "mid-century-modern-architecture"
+          ],
+          "lag_years": 26
+        },
+        {
+          "domain": "interior",
+          "year": 2018,
+          "circa": true,
+          "via": "Breeze-block room dividers, bar fronts and planters move inside the house.",
+          "styles": [
+            "mid-century-modern-interior",
+            "dopamine-decor"
+          ],
+          "lag_years": 89
+        }
+      ],
+      "styles": [
+        "mid-century-modern-architecture",
+        "mid-century-modern-interior",
+        "dopamine-decor"
+      ]
+    },
+    {
+      "id": "checkerboard",
+      "name": "Checkerboard",
+      "kind": "motif",
+      "origin": {
+        "domain": "architecture",
+        "year": 1300,
+        "circa": true,
+        "where": "Italy",
+        "note": "Squares of two colours of marble pave Italian church floors and palace halls."
+      },
+      "adoptions": [
+        {
+          "domain": "painting",
+          "year": 1435,
+          "via": "Leon Battista Alberti builds the perspective of a picture on a squared pavement in De pictura.",
+          "styles": [
+            "renaissance-painting"
+          ],
+          "lag_years": 135
+        },
+        {
+          "domain": "interior",
+          "year": 1925,
+          "circa": true,
+          "via": "Black and white floors pave Art Deco halls, bars and bathrooms.",
+          "styles": [
+            "art-deco-interior"
+          ],
+          "lag_years": 625
+        },
+        {
+          "domain": "interior",
+          "year": 2020,
+          "circa": true,
+          "via": "Checker rugs, tiles and painted floors become a motif of colourful rooms.",
+          "styles": [
+            "dopamine-decor"
+          ],
+          "lag_years": 720
+        }
+      ],
+      "styles": [
+        "renaissance-painting",
+        "art-deco-interior",
+        "dopamine-decor",
+        "neo-deco-interior"
+      ]
+    },
+    {
+      "id": "easing",
+      "name": "Easing",
+      "kind": "animation",
+      "origin": {
+        "domain": "film",
+        "year": 1930,
+        "circa": true,
+        "where": "Disney studio, Los Angeles",
+        "note": "Animators draw more frames at the start and the end of a move; Thomas and Johnston name it slow in and slow out."
+      },
+      "adoptions": [
+        {
+          "domain": "design",
+          "year": 2001,
+          "via": "Robert Penner publishes easing equations for Flash, and web motion takes them up.",
+          "styles": [
+            "frutiger-aero"
+          ],
+          "lag_years": 71
+        },
+        {
+          "domain": "design",
+          "year": 2009,
+          "circa": true,
+          "via": "CSS transitions define timing functions such as ease-in-out and cubic-bezier().",
+          "styles": [
+            "material-design"
+          ],
+          "lag_years": 79
+        }
+      ],
+      "styles": [
+        "frutiger-aero",
+        "material-design",
+        "glassmorphism"
+      ]
+    },
+    {
+      "id": "fluting",
+      "name": "Fluting and reeding",
+      "kind": "motif",
+      "origin": {
+        "domain": "architecture",
+        "year": -600,
+        "circa": true,
+        "where": "Greece",
+        "note": "Greek Doric and Ionic columns carry vertical concave grooves; a Doric shaft has 20 flutes."
+      },
+      "adoptions": [
+        {
+          "domain": "interior",
+          "year": 1790,
+          "circa": true,
+          "via": "Neoclassical and Regency furniture takes fluted and reeded legs and friezes.",
+          "styles": [
+            "georgian-interior"
+          ],
+          "lag_years": 2390
+        },
+        {
+          "domain": "interior",
+          "year": 1925,
+          "circa": true,
+          "via": "Art Deco rooms use fluted pilasters, fluted glass and fluted wood panels.",
+          "styles": [
+            "art-deco-interior"
+          ],
+          "lag_years": 2525
+        },
+        {
+          "domain": "interior",
+          "year": 2018,
+          "circa": true,
+          "via": "Reeded glass and fluted wood or stone cover cabinets, islands and walls.",
+          "styles": [
+            "quiet-luxury-interior",
+            "neo-deco-interior"
+          ],
+          "lag_years": 2618
+        }
+      ],
+      "styles": [
+        "art-deco-architecture",
+        "georgian-interior",
+        "art-deco-interior",
+        "quiet-luxury-interior",
+        "neo-deco-interior"
+      ]
+    },
+    {
+      "id": "halftone",
+      "name": "Halftone",
+      "kind": "process",
+      "origin": {
+        "domain": "design",
+        "year": 1879,
+        "where": "New York",
+        "note": "Benjamin Day patents a mechanical tint of dots for printers; photographic halftone screens follow in the 1880s."
+      },
+      "adoptions": [
+        {
+          "domain": "photography",
+          "year": 1880,
+          "via": "The Daily Graphic of New York prints a photograph as a halftone.",
+          "lag_years": 1
+        },
+        {
+          "domain": "painting",
+          "year": 1961,
+          "via": "Roy Lichtenstein paints enlarged Ben-Day dots by hand in Look Mickey.",
+          "lag_years": 82
+        },
+        {
+          "domain": "design",
+          "year": 1976,
+          "circa": true,
+          "via": "Punk zines photocopy halftones until the dots break up.",
+          "styles": [
+            "punk-zine"
+          ],
+          "lag_years": 97
+        }
+      ],
+      "styles": [
+        "pop-art-web",
+        "punk-zine"
+      ]
+    },
+    {
+      "id": "isometric-projection",
+      "name": "Isometric projection",
+      "kind": "process",
+      "origin": {
+        "domain": "architecture",
+        "year": 1822,
+        "where": "Cambridge",
+        "note": "William Farish publishes isometrical perspective as a method for engineering drawing."
+      },
+      "adoptions": [
+        {
+          "domain": "architecture",
+          "year": 1923,
+          "via": "Theo van Doesburg and Cornelis van Eesteren show houses in axonometric drawings.",
+          "lag_years": 101
+        },
+        {
+          "domain": "design",
+          "year": 2015,
+          "circa": true,
+          "via": "Isometric illustrations show products, data and offices on tech pages.",
+          "styles": [
+            "corporate-memphis"
+          ],
+          "lag_years": 193
+        }
+      ],
+      "styles": [
+        "corporate-memphis",
+        "bento-grid-ui"
+      ]
+    },
+    {
+      "id": "jump-cut",
+      "name": "Jump cut",
+      "kind": "montage",
+      "origin": {
+        "domain": "film",
+        "year": 1960,
+        "where": "Paris",
+        "note": "Jean-Luc Godard cuts inside continuous shots in À bout de souffle and does not hide the jump."
+      },
+      "adoptions": [
+        {
+          "domain": "film",
+          "year": 2006,
+          "circa": true,
+          "via": "Video bloggers on YouTube cut the pauses out of a talk to the camera.",
+          "styles": [
+            "creator-vlog"
+          ],
+          "lag_years": 46
+        },
+        {
+          "domain": "film",
+          "year": 2018,
+          "circa": true,
+          "via": "Vertical short-form apps make the fast jump cut the default rhythm of a clip.",
+          "styles": [
+            "vertical-short-form"
+          ],
+          "lag_years": 58
+        }
+      ],
+      "styles": [
+        "french-new-wave",
+        "creator-vlog",
+        "vertical-short-form"
+      ]
+    },
+    {
+      "id": "ken-burns-effect",
+      "name": "Ken Burns effect",
+      "kind": "animation",
+      "origin": {
+        "domain": "film",
+        "year": 1990,
+        "where": "The Civil War (PBS)",
+        "note": "Ken Burns pans and zooms over still photographs in a documentary series; rostrum-camera moves are older."
+      },
+      "adoptions": [
+        {
+          "domain": "design",
+          "year": 2003,
+          "circa": true,
+          "via": "Apple names the pan-and-zoom setting after Burns in its photo and video software.",
+          "lag_years": 13
+        }
+      ],
+      "styles": [
+        "creator-vlog"
+      ]
+    },
+    {
+      "id": "match-cut",
+      "name": "Match cut",
+      "kind": "montage",
+      "origin": {
+        "domain": "film",
+        "year": 1968,
+        "where": "2001: A Space Odyssey",
+        "note": "Graphic matches are older; the reference case is Stanley Kubrick's cut from a thrown bone to a satellite in orbit."
+      },
+      "adoptions": [
+        {
+          "domain": "design",
+          "year": 2014,
+          "via": "Material motion in Android 5.0 carries one element from screen to screen as a shared-element transition.",
+          "styles": [
+            "material-design"
+          ],
+          "lag_years": 46
+        }
+      ],
+      "styles": [
+        "material-design",
+        "spatial-visionos"
+      ]
+    },
+    {
+      "id": "multiplane-parallax",
+      "name": "Multiplane parallax",
+      "kind": "animation",
+      "origin": {
+        "domain": "film",
+        "year": 1937,
+        "where": "The Old Mill",
+        "note": "Disney's multiplane camera moves painted glass layers at different speeds; The Old Mill (1937) is its first film."
+      },
+      "adoptions": [
+        {
+          "domain": "design",
+          "year": 2011,
+          "circa": true,
+          "via": "Parallax scroll pages move the background layers slower than the page.",
+          "styles": [
+            "flat-design"
+          ],
+          "lag_years": 74
+        },
+        {
+          "domain": "design",
+          "year": 2015,
+          "via": "Layered app icons on tvOS, and later visionOS, tilt their layers with parallax.",
+          "styles": [
+            "spatial-visionos"
+          ],
+          "lag_years": 78
+        }
+      ],
+      "styles": [
+        "flat-design",
+        "spatial-visionos"
+      ]
+    },
+    {
+      "id": "perspective-grid",
+      "name": "Perspective grid",
+      "kind": "process",
+      "origin": {
+        "domain": "painting",
+        "year": 1415,
+        "circa": true,
+        "where": "Florence",
+        "note": "Filippo Brunelleschi demonstrates linear perspective; Alberti writes the method down in De pictura (1435)."
+      },
+      "adoptions": [
+        {
+          "domain": "design",
+          "year": 1980,
+          "circa": true,
+          "via": "Cassette Futurism screens and sleeves draw wireframe floors to a horizon.",
+          "styles": [
+            "cassette-futurism"
+          ],
+          "lag_years": 565
+        },
+        {
+          "domain": "film",
+          "year": 1982,
+          "via": "Tron draws vector grids that run to a horizon.",
+          "lag_years": 567
+        },
+        {
+          "domain": "design",
+          "year": 2012,
+          "via": "Vaporwave draws neon grid floors under a sunset.",
+          "styles": [
+            "vaporwave"
+          ],
+          "lag_years": 597
+        }
+      ],
+      "styles": [
+        "renaissance-painting",
+        "cassette-futurism",
+        "vaporwave"
+      ]
+    },
+    {
+      "id": "photomontage",
+      "name": "Photomontage",
+      "kind": "montage",
+      "origin": {
+        "domain": "design",
+        "year": 1918,
+        "where": "Berlin",
+        "note": "Raoul Hausmann and Hannah Höch of Berlin Dada cut press photographs and paste them into one sheet."
+      },
+      "adoptions": [
+        {
+          "domain": "design",
+          "year": 1924,
+          "via": "Alexander Rodchenko and El Lissitzky use photomontage in Constructivist posters and books.",
+          "styles": [
+            "constructivism-web"
+          ],
+          "lag_years": 6
+        },
+        {
+          "domain": "film",
+          "year": 1925,
+          "via": "Sergei Eisenstein carries the collision of fragments into the cut of Strike and Battleship Potemkin.",
+          "styles": [
+            "soviet-montage"
+          ],
+          "lag_years": 7
+        },
+        {
+          "domain": "design",
+          "year": 1976,
+          "via": "Punk zines and record sleeves cut up newspapers with scissors and glue.",
+          "styles": [
+            "punk-zine"
+          ],
+          "lag_years": 58
+        },
+        {
+          "domain": "design",
+          "year": 1990,
+          "circa": true,
+          "via": "Photoshop makes the cut and the layer digital; early cyberculture prints dense photo-illustration.",
+          "styles": [
+            "cyberdelia"
+          ],
+          "lag_years": 72
+        }
+      ],
+      "styles": [
+        "constructivism-web",
+        "soviet-montage",
+        "punk-zine",
+        "cyberdelia",
+        "grunge-editorial"
+      ]
+    },
+    {
+      "id": "squash-and-stretch",
+      "name": "Squash and stretch",
+      "kind": "animation",
+      "origin": {
+        "domain": "film",
+        "year": 1930,
+        "circa": true,
+        "where": "Disney studio, Los Angeles",
+        "note": "Disney animators exaggerate the volume of a ball and a face; Frank Thomas and Ollie Johnston name it the first of twelve principles in 1981."
+      },
+      "adoptions": [
+        {
+          "domain": "film",
+          "year": 1986,
+          "via": "John Lasseter applies it to computer animation in Luxo Jr. and in his SIGGRAPH paper of 1987.",
+          "lag_years": 56
+        },
+        {
+          "domain": "design",
+          "year": 2013,
+          "via": "Spring-damped animation in iOS 7 lets interface elements overshoot and settle.",
+          "styles": [
+            "flat-design"
+          ],
+          "lag_years": 83
+        },
+        {
+          "domain": "design",
+          "year": 2015,
+          "circa": true,
+          "via": "3D motion design renders soft bodies that wobble, inflate and bounce.",
+          "styles": [
+            "blob-world"
+          ],
+          "lag_years": 85
+        }
+      ],
+      "styles": [
+        "flat-design",
+        "blob-world"
+      ]
+    },
+    {
+      "id": "sunburst",
+      "name": "Sunburst",
+      "kind": "motif",
+      "origin": {
+        "domain": "architecture",
+        "year": 1925,
+        "where": "Paris",
+        "note": "Rays from a half disc appear on Art Deco facades, gates and lift doors around the Paris exposition of decorative arts in 1925."
+      },
+      "adoptions": [
+        {
+          "domain": "interior",
+          "year": 1928,
+          "circa": true,
+          "via": "Art Deco furniture, screens and mirrors take the ray motif inside.",
+          "styles": [
+            "art-deco-interior"
+          ],
+          "lag_years": 3
+        },
+        {
+          "domain": "interior",
+          "year": 1949,
+          "via": "George Nelson Associates design ray-form wall clocks for Howard Miller; the starburst mirror follows in the 1950s.",
+          "styles": [
+            "mid-century-modern-interior"
+          ],
+          "lag_years": 24
+        },
+        {
+          "domain": "design",
+          "year": 1957,
+          "circa": true,
+          "via": "Space Age signs, packaging and posters use starbursts as a sign of the future.",
+          "styles": [
+            "space-age"
+          ],
+          "lag_years": 32
+        },
+        {
+          "domain": "interior",
+          "year": 2015,
+          "circa": true,
+          "via": "Neo-deco rooms bring back the fan and the sunburst in brass and glass.",
+          "styles": [
+            "neo-deco-interior"
+          ],
+          "lag_years": 90
+        }
+      ],
+      "styles": [
+        "art-deco-architecture",
+        "art-deco-interior",
+        "mid-century-modern-interior",
+        "space-age",
+        "art-deco-web",
+        "neo-deco-interior"
+      ]
+    },
+    {
+      "id": "terrazzo",
+      "name": "Terrazzo",
+      "kind": "material",
+      "origin": {
+        "domain": "architecture",
+        "year": 1500,
+        "circa": true,
+        "where": "Venice",
+        "note": "Venetian workers set marble offcuts in lime and polish the floor of palaces: terrazzo alla veneziana."
+      },
+      "adoptions": [
+        {
+          "domain": "architecture",
+          "year": 1925,
+          "circa": true,
+          "via": "Poured terrazzo with brass strips paves Art Deco lobbies.",
+          "styles": [
+            "art-deco-architecture"
+          ],
+          "lag_years": 425
+        },
+        {
+          "domain": "interior",
+          "year": 1950,
+          "circa": true,
+          "via": "Poured terrazzo floors go into mid-century homes, schools and airports.",
+          "styles": [
+            "mid-century-modern-interior"
+          ],
+          "lag_years": 450
+        },
+        {
+          "domain": "interior",
+          "year": 2016,
+          "circa": true,
+          "via": "Terrazzo moves from the floor to tables, tiles, lamps and small objects.",
+          "styles": [
+            "dopamine-decor"
+          ],
+          "lag_years": 516
+        }
+      ],
+      "styles": [
+        "art-deco-architecture",
+        "mid-century-modern-interior",
+        "dopamine-decor",
+        "memphis-interior"
+      ]
     }
   ]
 }

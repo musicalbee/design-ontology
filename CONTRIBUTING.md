@@ -28,6 +28,17 @@ A contribution is one JSON file in `data/<domain>/styles/`. The build makes all 
 - **Sources.** Give one or two references that a reader can find. Add a URL only if it is stable.
 - **Language.** British spelling, short sentences, no marketing words.
 
+## A technique
+
+A technique is a cut, a motion rule, a motif, a material, a process or a tool that started in one domain and moved into others. A style does not own it. The technique names the styles that use it.
+
+1. Write `data/techniques/<id>.json`. The schema is `schema/technique.schema.json`.
+2. Set `origin` to the first year with a firm record. Set `circa` to `true` if the year is an estimate.
+3. Add one item to `adoptions` for each move into a domain, in order of year. Give the person, work, tool or medium that carried it in `via`.
+4. In `adoptions[].styles`, name only styles of that adoption's domain. Put each of them in `styles` too.
+5. Write 2 to 6 rules in `how`. Each rule names a property and a measure.
+6. Run `npm run build`. The compiler adds a "Techniques" section to each style that the technique names, and writes `skills/TECHNIQUES.md`.
+
 ## A disagreement with a score or an edge
 
 Open an issue or a pull request with the argument and a source. Scores and edges are editorial judgements. A better argument wins.

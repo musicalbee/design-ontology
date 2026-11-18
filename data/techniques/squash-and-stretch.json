@@ -1,0 +1,62 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "squash-and-stretch",
+  "name": "Squash and stretch",
+  "aliases": [
+    "Elastic deformation",
+    "Spring motion"
+  ],
+  "kind": "animation",
+  "summary": "A moving form changes shape but keeps its volume: it stretches along its path at speed and squashes on impact.",
+  "how": [
+    "Keep the volume constant: when the height grows by a factor k, scale the width by 1/k.",
+    "Stretch along the path by 10% to 30% at the highest speed and squash by the same amount on impact.",
+    "In an interface, use a spring with a damping ratio of 0.6 to 0.8, so that an element overshoots once and settles."
+  ],
+  "origin": {
+    "domain": "film",
+    "year": 1930,
+    "circa": true,
+    "where": "Disney studio, Los Angeles",
+    "note": "Disney animators exaggerate the volume of a ball and a face; Frank Thomas and Ollie Johnston name it the first of twelve principles in 1981."
+  },
+  "adoptions": [
+    {
+      "domain": "film",
+      "year": 1986,
+      "via": "John Lasseter applies it to computer animation in Luxo Jr. and in his SIGGRAPH paper of 1987."
+    },
+    {
+      "domain": "design",
+      "year": 2013,
+      "via": "Spring-damped animation in iOS 7 lets interface elements overshoot and settle.",
+      "styles": [
+        "flat-design"
+      ]
+    },
+    {
+      "domain": "design",
+      "year": 2015,
+      "circa": true,
+      "via": "3D motion design renders soft bodies that wobble, inflate and bounce.",
+      "styles": [
+        "blob-world"
+      ]
+    }
+  ],
+  "styles": [
+    "flat-design",
+    "blob-world"
+  ],
+  "principles": [
+    "rhythm"
+  ],
+  "sources": [
+    {
+      "title": "Frank Thomas and Ollie Johnston, The Illusion of Life: Disney Animation (1981)"
+    },
+    {
+      "title": "John Lasseter, Principles of Traditional Animation Applied to 3D Computer Animation (SIGGRAPH, 1987)"
+    }
+  ]
+}

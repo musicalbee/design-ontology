@@ -1,0 +1,53 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "jump-cut",
+  "name": "Jump cut",
+  "aliases": [
+    "Jump edit"
+  ],
+  "kind": "montage",
+  "summary": "A cut inside one continuous shot that removes time and leaves the jump in view.",
+  "how": [
+    "Remove 0.3 to 2 seconds inside one shot and keep the framing within 10% of the frame width, so that the jump shows.",
+    "In a talk to camera, cut on the word and not on the action: one cut every 2 to 4 seconds."
+  ],
+  "origin": {
+    "domain": "film",
+    "year": 1960,
+    "where": "Paris",
+    "note": "Jean-Luc Godard cuts inside continuous shots in À bout de souffle and does not hide the jump."
+  },
+  "adoptions": [
+    {
+      "domain": "film",
+      "year": 2006,
+      "circa": true,
+      "via": "Video bloggers on YouTube cut the pauses out of a talk to the camera.",
+      "styles": [
+        "creator-vlog"
+      ]
+    },
+    {
+      "domain": "film",
+      "year": 2018,
+      "circa": true,
+      "via": "Vertical short-form apps make the fast jump cut the default rhythm of a clip.",
+      "styles": [
+        "vertical-short-form"
+      ]
+    }
+  ],
+  "styles": [
+    "french-new-wave",
+    "creator-vlog",
+    "vertical-short-form"
+  ],
+  "principles": [
+    "rhythm"
+  ],
+  "sources": [
+    {
+      "title": "Richard Neupert, A History of the French New Wave Cinema (University of Wisconsin Press, 2002)"
+    }
+  ]
+}

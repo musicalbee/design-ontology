@@ -9,7 +9,7 @@ How to pick:
 3. If two rows match, compare the vector scores with the request ("minimal" = low ORN, "3D" = high DIM) and take the nearer row.
 4. If the user asks for a variation of a style ("softer", "bolder"), load that style and follow its "Lineage fallbacks" section.
 
-A machine-readable copy of this table is in [`index.json`](./index.json). The relations between styles are in [`../graph/lineage.json`](../graph/lineage.json).
+A machine-readable copy of this table is in [`index.json`](./index.json). The relations between styles are in [`../graph/lineage.json`](../graph/lineage.json). Techniques that cross domains (cuts, motion rules, motifs, materials) are in [`TECHNIQUES.md`](./TECHNIQUES.md).
 
 ## Graphic & UI Design
 
@@ -25,11 +25,15 @@ Vector axes, each 1 to 5: **ORN** ornamentation (pure minimal → maximalist) ·
 | [`art-deco-web`](./art-deco-web/SKILL.md) | Modernist | art deco, gatsby, 1920s, jazz age, gold and black | luxury hotels and bars, event and gala sites, jewellery and watches | glamorous, luxurious, symmetric | 4 | 2 | 5 | 2 | 4 |
 | [`mid-century-modern`](./mid-century-modern/SKILL.md) | Modernist | mid-century, mid century modern, mcm, atomic age, 1950s modern | lifestyle brands, furniture and home stores, cafes and restaurants | warm, optimistic, playful | 3 | 2 | 3 | 2 | 3 |
 | [`swiss-international`](./swiss-international/SKILL.md) | Modernist | swiss, swiss style, international style, helvetica, grid-based | editorial sites, documentation, annual reports | objective, precise, calm | 1 | 1 | 5 | 1 | 2 |
+| [`japanese-graphic-modernism`](./japanese-graphic-modernism/SKILL.md) | Modernist | japanese graphic design, kamekura, ikko tanaka, tokyo 1964, olympic poster | posters and exhibition identities, cultural venues and theatres, editorial and book covers | precise, symbolic, bold | 2 | 2 | 4 | 1 | 3 |
 | [`rams-functionalism-ui`](./rams-functionalism-ui/SKILL.md) | Modernist | dieter rams, braun, less but better, good design, functionalism | audio and hardware product pages, smart home and device apps, calculators and tools | honest, quiet, functional | 1 | 2 | 5 | 2 | 1 |
 | [`pop-art-web`](./pop-art-web/SKILL.md) | Modernist | pop art, warhol, lichtenstein, halftone, comic style | campaign and launch pages, fashion and music brands, kids and snack products | loud, ironic, playful | 4 | 2 | 2 | 1 | 4 |
+| [`space-age`](./space-age/SKILL.md) | Modernist | space age, space race, sputnik, expo 67, expo 70 | science and technology events, museum and exhibition posters, aerospace and travel heritage | optimistic, futuristic, clean | 3 | 3 | 3 | 2 | 4 |
 | [`psychedelic`](./psychedelic/SKILL.md) | Modernist | psychedelic, 60s poster, acid, trippy, tie-dye | music festival posters, album covers, event and club sites | trippy, liberated, vibrating | 5 | 2 | 1 | 1 | 5 |
+| [`cassette-futurism`](./cassette-futurism/SKILL.md) | Postmodern & Early Digital | cassette futurism, retro futurism, crt terminal, amber terminal, 1980s hardware | science-fiction game and film sites, hardware and synthesiser product pages, developer tools with a terminal character | analogue, industrial, tactile | 3 | 4 | 4 | 4 | 3 |
 | [`punk-zine`](./punk-zine/SKILL.md) | Postmodern & Early Digital | punk, zine, xerox, cut and paste, ransom note | music and gig sites, independent publishers, protest and activist pages | raw, defiant, DIY | 4 | 1 | 1 | 2 | 5 |
 | [`memphis-design`](./memphis-design/SKILL.md) | Postmodern & Early Digital | memphis, memphis design, memphis milano, 80s, eighties | music and event posters, youth brands, landing pages for creative tools | playful, loud, irreverent | 5 | 2 | 1 | 1 | 4 |
+| [`cyberdelia`](./cyberdelia/SKILL.md) | Postmodern & Early Digital | cyberdelia, cyberdelic, cyber psychedelic, rave flyer, fractal | club, festival and music event pages, game and demoscene tributes, art and zine projects | psychedelic, hypnotic, digital | 5 | 3 | 1 | 2 | 5 |
 | [`grunge-editorial`](./grunge-editorial/SKILL.md) | Postmodern & Early Digital | grunge, david carson, ray gun, emigre, distressed type | music magazines, zines, event posters | raw, noisy, rebellious | 4 | 2 | 1 | 2 | 5 |
 | [`y2k-aesthetic`](./y2k-aesthetic/SKILL.md) | Postmodern & Early Digital | y2k, 2000s, millennium, chrome, cyber | music and fashion sites, tech product launches, nostalgia campaigns | futuristic, glossy, optimistic | 4 | 3 | 3 | 3 | 3 |
 | [`japanese-dense-web`](./japanese-dense-web/SKILL.md) | Postmodern & Early Digital | japanese web, japanese portal, dense layout, yahoo japan, rakuten | commerce and marketplace portals, news and media portals, price and review comparison sites | abundant, convenient, busy | 4 | 1 | 4 | 1 | 3 |
@@ -44,6 +48,7 @@ Vector axes, each 1 to 5: **ORN** ornamentation (pure minimal → maximalist) ·
 | [`synthwave-web`](./synthwave-web/SKILL.md) | Touchscreen | synthwave, outrun, retrowave, neon sunset, 80s | music and album pages, game and film promos, event and club nights | nostalgic, neon, dreamy | 4 | 2 | 4 | 3 | 5 |
 | [`brutalist-web`](./brutalist-web/SKILL.md) | Touchscreen | brutalist website, brutalist web, raw html, default browser style, anti-design web | personal sites and blogs, art and archive projects, documentation with no frills | raw, honest, austere | 1 | 1 | 2 | 1 | 2 |
 | [`material-design`](./material-design/SKILL.md) | Touchscreen | material design, material ui, google material, elevation, floating action button | Android applications, admin dashboards, web apps with many components | bold, layered, responsive | 2 | 3 | 4 | 2 | 2 |
+| [`blob-world`](./blob-world/SKILL.md) | Touchscreen | blob world, 3d blob, soft 3d, clay render, inflatable | landing-page hero scenes, motion design and brand films, app onboarding illustration | playful, soft, surreal | 4 | 5 | 2 | 3 | 3 |
 | [`conceptual-sketch-ui`](./conceptual-sketch-ui/SKILL.md) | Touchscreen | sketch, wireframe, hand drawn, notebook, blueprint | design and strategy studios, process and case-study pages, education and workshop sites | honest, thoughtful, open | 3 | 3 | 3 | 3 | 5 |
 | [`wabi-sabi-web`](./wabi-sabi-web/SKILL.md) | Touchscreen | wabi-sabi, wabi sabi, imperfect, earth tones, japanese minimal | ceramics, tea and craft brands, slow-living, home and hospitality sites, architecture and interior studios | calm, humble, quiet | 1 | 4 | 3 | 1 | 1 |
 | [`anti-design`](./anti-design/SKILL.md) | Touchscreen | anti-design, ugly design, broken grid, chaotic layout, clashing type | creative studios and portfolios, music and fashion brands, art and festival sites | rebellious, chaotic, loud | 4 | 1 | 1 | 1 | 5 |
@@ -181,6 +186,7 @@ Vector axes, each 1 to 5: **ABS** abstraction (illusionistic depiction → pure 
 | [`surrealism-painting`](./surrealism-painting/SKILL.md) | Avant-garde | surrealism, surrealist, dali, magritte, max ernst | album, book and film cover art, advertising with a visual paradox, editorial illustration of a concept or a mind | uncanny, dreamlike, enigmatic | 2 | 1 | 3 | 5 | 3 |
 | [`abstract-expressionism`](./abstract-expressionism/SKILL.md) | Avant-garde | abstract expressionism, action painting, pollock, rothko, de kooning | album and festival art, editorial backgrounds and textures, cultural and gallery identity | raw, energetic, monumental | 5 | 5 | 3 | 2 | 2 |
 | [`pop-art-painting`](./pop-art-painting/SKILL.md) | Avant-garde | pop art, warhol, lichtenstein, ben-day dots, comic book style | poster, campaign and packaging with a loud, playful voice, merchandise and apparel graphics, editorial and music cover art | bold, playful, commercial | 2 | 1 | 5 | 1 | 4 |
+| [`airbrush-surrealism`](./airbrush-surrealism/SKILL.md) | Avant-garde | airbrush, airbrush surrealism, airbrushed illustration, chrome robot, sorayama | music covers and posters, science fiction and fantasy book covers, game and film key art | glossy, uncanny, electric | 2 | 1 | 5 | 4 | 2 |
 
 ---
 

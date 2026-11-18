@@ -223,6 +223,41 @@ Reference works:
 | The Gallery at Sketch, London (pink scheme) | India Mahdavi | 2014 |
 | Memphis collection, Milan | Ettore Sottsass and Memphis Group | 1981 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Arch (motif)
+
+A curved head over an opening that carries load as compression; inside, a soft frame for a door, a mirror or a niche. Origin: architecture, Rome, c. 200 BCE.
+
+- Use a semicircular head: the rise is half the span.
+- Keep the ratio of height to width of the opening at 1.6:1 to 2:1.
+- In a room, repeat the arch in 2 or 3 places, for example a door, a mirror and a niche, and no more.
+
+### Breeze block (material)
+
+A hollow concrete block with a pierced pattern; a wall of them shades and lets air and light through. Origin: architecture, Recife, Brazil, 1929.
+
+- Use blocks of 300 to 400mm square with 40% to 60% open area.
+- Stack the blocks in one grid of one pattern; mix no more than 2 patterns in one wall.
+- Inside, use the screen to divide zones while it keeps light and air.
+
+### Checkerboard (motif)
+
+A grid of squares in two alternate colours, on a floor, in a picture or on a surface. Origin: architecture, Italy, c. 1300.
+
+- Use squares of one size: 300 to 600mm on a floor, or 1/8 to 1/16 of the width of a picture.
+- Lay the grid at 45° to make a small room look wider, or at 0° to show the vanishing point.
+
+### Terrazzo (material)
+
+Chips of marble or glass set in a binder and ground flat, so that each chip shows as a cut section. Origin: architecture, Venice, c. 1500.
+
+- Set chips of 5 to 25mm in a binder; the chips cover 40% to 60% of the surface.
+- Use 2 to 4 chip colours on one ground colour.
+- Grind and polish the surface flat, so that the chip edges show as cut sections.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

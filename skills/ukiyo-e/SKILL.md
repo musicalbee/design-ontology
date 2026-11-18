@@ -172,7 +172,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **painterly**: move toward [`impressionism`](../impressionism/SKILL.md) (Impressionism). Keep the high horizon and the cropped foreground; replace the contour with visible strokes of 5–15mm and let the colour fields break into touches.
 
 - **Mixes well with:** [`impressionism`](../impressionism/SKILL.md)
-- **Kin in another domain:** [`flat-design`](../flat-design/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md)
+- **Kin in another domain:** [`flat-design`](../flat-design/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md), [`japanese-graphic-modernism`](../japanese-graphic-modernism/SKILL.md)
 - **Nearest by vector profile:** [`mannerism-painting`](../mannerism-painting/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md), [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md)
 
 ## Emotional target
@@ -187,6 +187,7 @@ Poise and the passing moment: the viewer sees a clear, graphic image of an every
 - [Getty AAT 300106769 (ukiyo-e)](https://vocab.getty.edu/page/aat/300106769)
 - [The Met Open Access API (CC0)](https://metmuseum.github.io/)
 - [Art Institute of Chicago API (CC0 data)](https://api.artic.edu/docs/)
+- [Artvee: public-domain paintings, sorted by artist](https://artvee.com)
 
 ---
 

@@ -173,7 +173,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more dramatic**: move toward [`baroque-painting`](../baroque-painting/SKILL.md) (Baroque painting). Keep the twist and the figure scale; cut the acid colour, add one strong beam of light and a dark ground at 50% of the area.
 
 - **Came from (go here for a more orthodox version):** [`renaissance-painting`](../renaissance-painting/SKILL.md)
-- **Nearest by vector profile:** [`ukiyo-e`](../ukiyo-e/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md), [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md)
+- **Nearest by vector profile:** [`ukiyo-e`](../ukiyo-e/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md), [`airbrush-surrealism`](../airbrush-surrealism/SKILL.md)
 
 ## Emotional target
 
