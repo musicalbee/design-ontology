@@ -138,14 +138,36 @@ flowchart LR
     international_style_architecture["International Style"]
     brutalist_architecture["Brutalism"]
   end
+  subgraph painting_early_modern["Painting · Early modern · 1400–1860"]
+    renaissance_painting["Renaissance painting"]
+    baroque_painting["Baroque painting"]
+    ukiyo_e["Ukiyo-e"]
+  end
+  subgraph painting_nineteenth_century["Painting · Nineteenth century · 1840–1910"]
+    impressionism["Impressionism"]
+    nordic_national_romanticism_painting["Nordic national romanticism"]
+  end
+  subgraph painting_avant_garde["Painting · Avant-garde · 1905–1970"]
+    cubism_painting["Cubism"]
+    de_stijl_painting["De Stijl painting"]
+    abstract_expressionism["Abstract Expressionism"]
+  end
+  abstract_expressionism <-. echoes .-> brutalist_architecture
+  bauhaus <-. echoes .-> de_stijl_painting
   bauhaus <-. echoes .-> international_style_architecture
   brutalist_architecture <-. echoes .-> neo_brutalism_ui
+  de_stijl_painting <-. echoes .-> international_style_architecture
+  de_stijl_painting <-. echoes .-> swiss_international
+  flat_design <-. echoes .-> ukiyo_e
   international_style_architecture <-. echoes .-> swiss_international
+  cubism_painting --> abstract_expressionism
+  renaissance_painting --> baroque_painting
   flat_design --> bento_grid_ui
   swiss_international --> bento_grid_ui
   international_style_architecture --> brutalist_architecture
   flat_design --> corporate_memphis
   memphis_design --> corporate_memphis
+  cubism_painting --> de_stijl_painting
   swiss_international --> flat_design
   y2k_aesthetic --> frutiger_aero
   frutiger_aero --> glassmorphism
@@ -155,6 +177,9 @@ flowchart LR
   skeuomorphism --> neumorphism
   glassmorphism --> spatial_visionos
   bauhaus --> swiss_international
+  abstract_expressionism -. rejects .-> de_stijl_painting
+  cubism_painting -. rejects .-> impressionism
+  cubism_painting -. rejects .-> renaissance_painting
   flat_design -. rejects .-> skeuomorphism
   grunge_editorial -. rejects .-> swiss_international
   memphis_design -. rejects .-> swiss_international
@@ -166,14 +191,22 @@ flowchart LR
   linkStyle 0 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 1 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 2 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 17 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 18 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 19 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 20 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 21 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 22 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 23 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 24 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 3 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 4 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 5 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 6 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 7 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 25 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 26 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 27 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 28 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 29 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 30 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 31 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 32 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 33 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 34 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 35 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 

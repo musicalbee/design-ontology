@@ -1,0 +1,116 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "de-stijl-painting",
+  "domain": "painting",
+  "name": "De Stijl painting",
+  "aliases": ["Neoplasticism", "Mondrian grid"],
+  "era_id": "avant-garde",
+  "time_period": { "start": 1917, "end": 1931, "label": "1917–1931" },
+  "region": "the Netherlands",
+  "media": ["oil on canvas"],
+  "summary": "A picture reduced to straight black lines, rectangles of primary colour and white or grey, in asymmetric balance. Mondrian and van Doesburg wanted a universal language of pure relations that could also order a room or a city.",
+  "philosophy": {
+    "core_thesis": "A picture shows universal order when it uses only the horizontal and the vertical, the three primaries and the three non-colours, balanced without symmetry.",
+    "design_principles": [
+      "Use only horizontal and vertical lines, with no diagonal and no curve.",
+      "Limit colour to red, yellow and blue, plus white, black and grey.",
+      "Draw black lines of 1–3% of the picture width, and extend each line to the edge or to another line.",
+      "Let white or grey cover 60–75% of the area, so that the colour is rare and strong.",
+      "Make each colour field a rectangle, and make no two fields the same size.",
+      "Balance the picture asymmetrically: a large red field against several small fields of blue, yellow and grey.",
+      "Hold the lines and fields flat and opaque, so that the picture is a plane with no space behind it."
+    ],
+    "anti_patterns": [
+      "Diagonal or curved lines, except in the rotated lozenge format",
+      "Secondary colours, tints and gradients",
+      "Symmetric, centred compositions",
+      "Depth, shadow, texture or visible brush gesture",
+      "Recognisable objects, figures or landscape",
+      "Ornament and decorative pattern"
+    ]
+  },
+  "vectors": { "abstraction": 5, "brushwork_visibility": 1, "chromatic_intensity": 4, "depth_illusion": 1, "line_dominance": 5 },
+  "composition": {
+    "layout": "An orthogonal grid of 4–8 black lines that cross unevenly and divide the canvas into 8–16 rectangles of different sizes; lines run to or past the edge.",
+    "focal_point": "One large colour field, usually red, at 15–25% of the area, set off-centre in the upper left or lower right quadrant.",
+    "format": "A square canvas, or a square rotated 45° (the lozenge); a rectangle is allowed at ratios close to 1:1.",
+    "principles": [
+      { "principle": "balance", "rule": "Balance the picture asymmetrically: weight of the large red field equals the weight of 3–4 small colour fields and the black line mass." },
+      { "principle": "proportion", "rule": "Divide the canvas in unequal proportions near 1:2, 2:3 or 3:5, and avoid the exact half." },
+      { "principle": "negative-space", "rule": "Set white and grey fields at 60–75% of the area as the quiet ground against which colour acts." },
+      { "principle": "hierarchy", "rule": "Use three levels: one dominant colour field, 2–3 secondary fields, and many white cells." },
+      { "principle": "colour-distribution", "rule": "Spend the primaries at 10–25% of the area in total, in the ratio of about 3 red to 2 blue to 1 yellow." }
+    ]
+  },
+  "palette": {
+    "strategy": "Three primaries, three non-colours and nothing else; each colour is pure, flat and opaque, and the white is slightly warm.",
+    "distribution": "White and pale grey 60–75%, primaries together 10–25%, black lines 5–10%.",
+    "ground": "A white-primed canvas, painted with an off-white (not pure white) for the ground cells.",
+    "colours": [
+      { "name": "Primary red", "hex": "#D3202A", "pigment": "cadmium red", "role": "the dominant colour field" },
+      { "name": "Primary blue", "hex": "#1D3F8C", "pigment": "cobalt or ultramarine", "role": "small and mid colour field" },
+      { "name": "Primary yellow", "hex": "#F2C300", "pigment": "cadmium yellow", "role": "small colour field" },
+      { "name": "Off-white", "hex": "#F4F1E6", "pigment": "zinc and lead white", "role": "the main ground cells" },
+      { "name": "Pale grey", "hex": "#CFCFCB", "pigment": "mixed grey", "role": "alternate ground cell" },
+      { "name": "Black", "hex": "#151515", "pigment": "ivory black", "role": "the grid lines" }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Oil paint, applied in thin, even layers.",
+    "support": "Square, tightly stretched canvas on a plain stretcher.",
+    "brushwork": "No stroke shows; all marks run in one direction in each field, and the painter masks the lines for a sharp edge.",
+    "paint_handling": "2–4 layers of flat, opaque colour; the black lines are laid last or between the fields, with 1–3mm width.",
+    "edges": "Perfectly hard edges, straight to within 0.5mm."
+  },
+  "light_and_modelling": {
+    "light": "No depicted light; the picture itself is bright and even.",
+    "modelling": "None. Each field is a single flat value.",
+    "shadow": "None. A slight difference between two whites or greys is the only tonal step.",
+    "temperature": "Warm red and yellow against cool blue and neutral white, balanced by area."
+  },
+  "subject": {
+    "typical": "No subject; a relation of lines and fields. Early studies abstract a tree, a pier or a church tower.",
+    "figure_scale": "Not applicable: the unit is the field, from 2% to 25% of the area.",
+    "treatment": "Pure, impersonal and rule-bound; the hand of the artist is hidden."
+  },
+  "surface": {
+    "finish": "Matt to satin, perfectly even.",
+    "texture": "Smooth, with a faint canvas weave; the paint edge may stand a fraction of a millimetre above the next field."
+  },
+  "reference_works": {
+    "works": [
+      { "work": "Lozenge Composition with Yellow, Black, Blue, Red, and Gray", "artist": "Piet Mondrian", "date": "1921", "museum": "Art Institute of Chicago", "object_id": "109819", "public_domain": true },
+      { "work": "Composition (No. 1) Gray-Red", "artist": "Piet Mondrian", "date": "1935", "museum": "Art Institute of Chicago", "object_id": "65821", "public_domain": true },
+      { "work": "Farm near Duivendrecht", "artist": "Piet Mondrian", "date": "c. 1916", "museum": "Art Institute of Chicago", "object_id": "144467", "public_domain": true }
+    ],
+    "note": "Object ids were checked against the Art Institute of Chicago API (CC0 data). The Farm near Duivendrecht is a pre-De Stijl work and shows the path to abstraction. Look at the museum page for the image and its licence."
+  },
+  "prompt_primer": {
+    "positive": ["De Stijl neoplasticism", "Mondrian grid", "black horizontal and vertical lines", "flat primary red blue yellow fields", "white and grey cells", "asymmetric balance", "square canvas", "hard straight edges", "no brush texture", "pure geometric abstraction"],
+    "negative": ["diagonal lines", "curves", "gradient", "shadow", "texture", "recognisable objects", "symmetry"]
+  },
+  "lineage": { "evolved_from": ["cubism-painting"], "rebelled_against": [], "hybridized_with": [], "echoes": ["bauhaus", "swiss-international", "international-style-architecture"] },
+  "emotion": {
+    "target_response": "Clarity and rational calm: the viewer feels a system in balance, with nothing to add or remove.",
+    "keywords": ["rational", "pure", "balanced", "geometric", "precise"],
+    "brand_archetypes": ["sage", "creator"]
+  },
+  "agent": {
+    "triggers": ["de stijl", "mondrian", "neoplasticism", "primary colours grid", "geometric abstraction", "rietveld", "red blue yellow", "black grid lines"],
+    "use_cases": ["identity and packaging graphics", "layout and dashboard grid inspiration", "poster and album art", "textile and tile pattern"],
+    "avoid_when": [
+      "The brief asks for emotion, a story or a human subject.",
+      "The brief needs a soft, organic or ornamental mood."
+    ],
+    "modifiers": [
+      { "request": "more expressive", "toward": "abstract-expressionism", "how": "Keep the flat colour and the large fields; drop the straight line and the grid, loosen the edges, and make the stroke visible at 50–150mm." },
+      { "request": "less strict", "toward": "cubism-painting", "how": "Keep the flat planes and the narrow palette; allow the diagonal and the tilted plane, and bring back an object clue such as a guitar or a bottle." }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q207445 (De Stijl)", "url": "https://www.wikidata.org/wiki/Q207445" },
+    { "title": "Getty AAT 300021259 (De Stijl) and 300021262 (Neoplasticism)", "url": "https://vocab.getty.edu/page/aat/300021259" },
+    { "title": "Art Institute of Chicago API (CC0 data)", "url": "https://api.artic.edu/docs/" },
+    { "title": "Piet Mondrian, Neo-Plasticism: the General Principle of Plastic Equivalence (1920)" }
+  ]
+}

@@ -245,6 +245,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`skeuomorphism`](../skeuomorphism/SKILL.md)
 - **Was rejected by:** [`neumorphism`](../neumorphism/SKILL.md)
 - **Mixes well with:** [`swiss-international`](../swiss-international/SKILL.md)
+- **Kin in another domain:** [`ukiyo-e`](../ukiyo-e/SKILL.md)
 - **Nearest by vector profile:** [`swiss-international`](../swiss-international/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md)
 
 ## Emotional target

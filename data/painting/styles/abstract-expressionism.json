@@ -1,0 +1,117 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "abstract-expressionism",
+  "domain": "painting",
+  "name": "Abstract Expressionism",
+  "aliases": ["Action painting", "New York School", "Colour Field (early)"],
+  "era_id": "avant-garde",
+  "time_period": { "start": 1943, "end": 1965, "label": "1940s–1960s" },
+  "region": "New York, United States",
+  "media": ["oil on canvas", "enamel"],
+  "summary": "Large abstract paintings in which the act of painting is the subject: gesture, drip and slash in one camp, large soft fields of colour in the other. The canvas is an arena for an event, and it is big enough to surround the viewer.",
+  "philosophy": {
+    "core_thesis": "A painting is the record of an act, and its scale, its marks and its colour put the viewer inside the feeling and not in front of an image.",
+    "design_principles": [
+      "Paint at a scale of 2 to 5m on the long side, so that the canvas fills the field of view at a distance of 1–2m.",
+      "Show every mark: stroke, drip, splash and scrape at 20–200mm, laid by the whole arm and not by the wrist.",
+      "Cover the canvas edge to edge in an all-over composition, with no single focal point and a similar density at the edges and the centre.",
+      "Drop the object entirely; the picture refers to nothing outside its own marks.",
+      "Hold a deliberate tension between a few opposed forces: black against white, thick against thin, order against chance.",
+      "In the colour-field branch, replace the mark with 2–4 large, soft-edged fields of thin colour stacked vertically.",
+      "Keep the first mark visible: show corrections, drips and the traces of the process."
+    ],
+    "anti_patterns": [
+      "Recognisable objects, figures or landscape",
+      "Hard, ruled edges and mechanical straight lines",
+      "A small format that can be read as a vignette",
+      "A smooth, even surface that hides the process",
+      "A central focal point with a framed, symmetric layout",
+      "Cute, decorative or pretty colour harmony"
+    ]
+  },
+  "vectors": { "abstraction": 5, "brushwork_visibility": 5, "chromatic_intensity": 3, "depth_illusion": 2, "line_dominance": 2 },
+  "composition": {
+    "layout": "An all-over field of marks with no central focus, or in the colour-field branch 2–4 stacked horizontal fields that float on a ground.",
+    "focal_point": "None: the eye travels across the whole canvas; any accent sits within a field of equal density.",
+    "format": "A very large canvas, 2 to 5m wide, at ratios from 1:1 to 2:1; the work reaches past the edge on all four sides.",
+    "principles": [
+      { "principle": "scale", "rule": "Make the work 2–5m on the long side so that a viewer at 1–2m sees it as an environment." },
+      { "principle": "rhythm", "rule": "Lay a gestural mark 50–200 times at changing speed and length, with no regular beat." },
+      { "principle": "balance", "rule": "Reach an informal balance across the field by equal density at the four edges within 15%." },
+      { "principle": "contrast", "rule": "Use a single strong tension: black against white, or one saturated field against a deep neighbour." },
+      { "principle": "negative-space", "rule": "In the colour-field branch, leave 20–40% of the canvas as an open ground between the fields." }
+    ]
+  },
+  "palette": {
+    "strategy": "A restricted palette of 3–5 colours, used at full strength: black and white for gesture; deep red, ochre, blue and black for colour field.",
+    "distribution": "Gesture: a dominant ground 50–60%, a contrasting mark colour 30–40%, accent 5–10%. Colour field: 2–4 fields each 20–40%.",
+    "ground": "Raw or white-primed canvas; sometimes a coloured stain on raw duck canvas.",
+    "colours": [
+      { "name": "Mars black", "hex": "#141414", "pigment": "enamel or oil black", "role": "gesture and deep field" },
+      { "name": "Titanium white", "hex": "#F3F0E8", "pigment": "titanium white", "role": "ground and counter-gesture" },
+      { "name": "Alizarin crimson", "hex": "#8E1B2C", "pigment": "alizarin or cadmium red deep", "role": "deep red field" },
+      { "name": "Yellow ochre", "hex": "#C99A3A", "pigment": "ochre", "role": "warm accent field" },
+      { "name": "Prussian blue", "hex": "#14305A", "pigment": "Prussian blue", "role": "deep cool field" },
+      { "name": "Aluminium silver", "hex": "#A9AAA8", "pigment": "aluminium paint", "role": "drip and splash accent" },
+      { "name": "Raw canvas", "hex": "#CBB98F", "pigment": "unprimed duck", "role": "bare ground" }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Oil paint and house enamel, thinned for the drip and used thick for the slash.",
+    "support": "Very large stretched or unstretched canvas, often on the floor or on a wall.",
+    "brushwork": "Broad, fast strokes of 50–200mm with a house brush, a stick or a trowel; drips of 2–10mm in a free line.",
+    "paint_handling": "Wet-in-wet, with layers of 3–10 passes; thick impasto of 5–20mm against thin stain; drips are left, never wiped.",
+    "edges": "Ragged, torn or soft-bled edges between marks; in the colour-field branch, the edge is a soft halo of 20–50mm."
+  },
+  "light_and_modelling": {
+    "light": "No depicted light; the colour field glows by chroma and by the thin paint over a light ground.",
+    "modelling": "None. Value change comes from the density and overlap of marks, not from a lit form.",
+    "shadow": "None. Darkness is a black mark or a deep field with its own weight.",
+    "temperature": "Gesture: a cool black and white with one warm accent. Colour field: warm and cool fields next to each other, with a vibration at the edge."
+  },
+  "subject": {
+    "typical": "No subject; the title may allude to myth, nature or a date, as in an 'Untitled' or a 'Number 19'.",
+    "figure_scale": "No figure; the human body is the measure of the scale of the canvas.",
+    "treatment": "Direct, serious and personal: the mark is a trace of the artist's body and decision."
+  },
+  "surface": {
+    "finish": "Matt to semi-gloss, with no varnish; the raw state of the paint is kept.",
+    "texture": "Rough and thick: drips, ridges, canvas weave and stains remain in view."
+  },
+  "reference_works": {
+    "works": [
+      { "work": "The Key", "artist": "Jackson Pollock", "date": "1946", "museum": "Art Institute of Chicago", "object_id": "70125", "public_domain": false },
+      { "work": "Number 19", "artist": "Mark Rothko", "date": "1949", "museum": "Art Institute of Chicago", "object_id": "6010", "public_domain": false },
+      { "work": "Excavation", "artist": "Willem de Kooning", "date": "1950", "museum": "Art Institute of Chicago", "object_id": "76244", "public_domain": false }
+    ],
+    "note": "These works are in copyright and the museum does not flag them as public domain. The ids identify the works only. Look at the museum page for the image and its licence; do not copy it."
+  },
+  "prompt_primer": {
+    "positive": ["abstract expressionist painting", "gestural brush strokes", "drip and splash", "all-over composition", "monumental canvas", "thick impasto and thin stain", "black and white tension", "colour field with soft edges", "raw canvas ground", "visible process"],
+    "negative": ["recognisable figure", "landscape", "hard ruled edges", "smooth polished surface", "symmetric layout", "decorative pattern"]
+  },
+  "lineage": { "evolved_from": ["cubism-painting"], "rebelled_against": ["de-stijl-painting"], "hybridized_with": [], "echoes": ["brutalist-architecture"] },
+  "emotion": {
+    "target_response": "Intensity and immersion: the viewer feels the energy of a body at work, and the weight of a feeling without a name.",
+    "keywords": ["raw", "energetic", "monumental", "emotional", "unfiltered"],
+    "brand_archetypes": ["outlaw", "creator", "magician"]
+  },
+  "agent": {
+    "triggers": ["abstract expressionism", "action painting", "pollock", "rothko", "de kooning", "drip painting", "gestural abstraction", "colour field", "new york school"],
+    "use_cases": ["album and festival art", "editorial backgrounds and textures", "cultural and gallery identity", "large wall pieces for hospitality"],
+    "avoid_when": [
+      "The brief needs clarity, precision or a clear information hierarchy.",
+      "The picture must carry a recognisable subject or a product."
+    ],
+    "modifiers": [
+      { "request": "more controlled", "toward": "de-stijl-painting", "how": "Keep the flat colour and the abstraction; replace the gesture with straight black lines, set the fields as rectangles, and hide every stroke." },
+      { "request": "more structure", "toward": "cubism-painting", "how": "Keep the shallow space and the earth palette; bring back the faceted plane, a hidden grid and a faint object clue." }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q177725 (abstract expressionism)", "url": "https://www.wikidata.org/wiki/Q177725" },
+    { "title": "Getty AAT 300022099 (Abstract Expressionism)", "url": "https://vocab.getty.edu/page/aat/300022099" },
+    { "title": "Art Institute of Chicago API (CC0 data)", "url": "https://api.artic.edu/docs/" },
+    { "title": "Clement Greenberg, American-Type Painting (Partisan Review, 1955)" }
+  ]
+}

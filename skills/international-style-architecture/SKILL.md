@@ -141,7 +141,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **heavier**: move toward [`brutalist-architecture`](../brutalist-architecture/SKILL.md) (Brutalism). Thicken the frame, leave the concrete raw and set the windows deep; keep the flat roof and the regular bay.
 
 - **Led to (go here for a newer version):** [`brutalist-architecture`](../brutalist-architecture/SKILL.md)
-- **Kin in another domain:** [`bauhaus`](../bauhaus/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
+- **Kin in another domain:** [`bauhaus`](../bauhaus/SKILL.md), [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
 - **Nearest by vector profile:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md)
 
 ## Emotional target
