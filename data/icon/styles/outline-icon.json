@@ -1,0 +1,251 @@
+{
+  "$schema": "../../../schema/domains/icon.schema.json",
+  "id": "outline-icon",
+  "domain": "icon",
+  "name": "Outline icon",
+  "aliases": [
+    "Line icon",
+    "Stroke icon",
+    "Feather-style icon"
+  ],
+  "era_id": "vector-system",
+  "time_period": {
+    "start": 2013,
+    "end": null,
+    "label": "2013–present"
+  },
+  "region": "Apple iOS 7, then open sets Feather, Lucide and Tabler",
+  "formats": [
+    "svg",
+    "icon font"
+  ],
+  "summary": "Icons drawn as one even stroke on a 24 px grid, with round caps and joins and no fill. The set reads like a light typeface: the same line weight, the same corner radius and the same live area for every glyph.",
+  "philosophy": {
+    "core_thesis": "An icon set is a typeface of objects: one stroke, one grid and one corner radius make hundreds of glyphs read as one family.",
+    "design_principles": [
+      "Draw on a 24 × 24 px grid with a live area of 20 × 20 px and 2 px of padding on each side.",
+      "Use one stroke width for the whole set: 2 px at 24 px (1.5 px for a light set).",
+      "Set round caps and round joins on every path.",
+      "Give rectangles a corner radius of 2 px; circles and arcs keep the same stroke.",
+      "Keep a gap of at least 2 px between two parallel strokes.",
+      "Align strokes to the pixel grid so that a 2 px line covers whole pixels at 1× and 2×."
+    ],
+    "anti_patterns": [
+      "Mixed stroke widths in one set",
+      "Solid fills inside the glyph",
+      "Square caps next to round caps",
+      "Detail closer than 2 px at 24 px",
+      "Colour inside a UI glyph"
+    ]
+  },
+  "vectors": {
+    "realism": 1,
+    "fill": 1,
+    "corner_softness": 4,
+    "detail_density": 1,
+    "colour_count": 1
+  },
+  "grid": {
+    "sizes_px": [
+      16,
+      20,
+      24,
+      32
+    ],
+    "base_px": 24,
+    "live_area_px": 20,
+    "padding_px": 2,
+    "keylines": "A circle of 20 px, a square of 18 px, a portrait rectangle of 16 × 20 px and a landscape rectangle of 20 × 16 px."
+  },
+  "stroke": {
+    "width_px": 2,
+    "caps": "round",
+    "joins": "round",
+    "rule": "One 2 px stroke for the full set at 24 px; scale the stroke with the icon, and use 1.5 px at 16 px when hinted."
+  },
+  "shape": {
+    "corner_radius_px": 2,
+    "primitives": "Lines, arcs, circles and rounded rectangles; angles at 0°, 45° and 90° where possible.",
+    "optical_size": "At 16 px, remove inner parts and keep the silhouette; the stroke stays 1.5–2 px."
+  },
+  "colour": {
+    "count_max": 1,
+    "gradients": false,
+    "strategy": "One colour: currentColor, so that the icon takes the colour of the text next to it.",
+    "colours": [
+      {
+        "name": "Ink",
+        "hex": "#1F2328",
+        "role": "stroke on light ground"
+      },
+      {
+        "name": "Paper",
+        "hex": "#FFFFFF",
+        "role": "ground"
+      },
+      {
+        "name": "Muted ink",
+        "hex": "#6E7781",
+        "role": "inactive state"
+      }
+    ]
+  },
+  "perspective_and_light": {
+    "view": "front orthographic",
+    "light": "No light model.",
+    "shadow": "No shadow; the glyph is flat on the ground."
+  },
+  "metaphor": {
+    "typical": "A house, an envelope, a camera, a calendar, a gear, a bell, a magnifier, a heart and a folder.",
+    "treatment": "Reduced to the outline of the object plus 1 or 2 inner lines; no texture."
+  },
+  "prompt_primer": {
+    "positive": [
+      "outline icon set",
+      "line icons",
+      "2px stroke",
+      "round line caps",
+      "24 by 24 grid",
+      "monoline glyphs",
+      "minimal UI icons",
+      "Feather icon style"
+    ],
+    "negative": [
+      "filled shapes",
+      "gradients",
+      "multiple colours",
+      "drop shadows",
+      "variable line width"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Feather: home",
+      "kind": "icon-set",
+      "maker": "Cole Bemis",
+      "year": 2017,
+      "credit": "Feather icons 4.29.2",
+      "licence": "MIT",
+      "licence_url": "https://github.com/feathericons/feather/blob/main/LICENSE",
+      "url": "https://github.com/feathericons/feather",
+      "file": "https://cdn.jsdelivr.net/npm/feather-icons@4.29.2/dist/icons/home.svg"
+    },
+    {
+      "title": "Lucide: house",
+      "kind": "icon-set",
+      "maker": "Lucide contributors",
+      "credit": "Lucide, a community fork of Feather; lucide-static 0.460.0",
+      "licence": "ISC",
+      "licence_url": "https://github.com/lucide-icons/lucide/blob/main/LICENSE",
+      "url": "https://lucide.dev",
+      "file": "https://cdn.jsdelivr.net/npm/lucide-static@0.460.0/icons/house.svg"
+    },
+    {
+      "title": "Lucide: camera",
+      "kind": "icon-set",
+      "maker": "Lucide contributors",
+      "credit": "Lucide; lucide-static 0.460.0",
+      "licence": "ISC",
+      "licence_url": "https://github.com/lucide-icons/lucide/blob/main/LICENSE",
+      "url": "https://lucide.dev",
+      "file": "https://cdn.jsdelivr.net/npm/lucide-static@0.460.0/icons/camera.svg"
+    },
+    {
+      "title": "Tabler Icons: home (outline)",
+      "kind": "icon-set",
+      "maker": "Paweł Kuna",
+      "credit": "Tabler Icons 3.24.0, outline set",
+      "licence": "MIT",
+      "licence_url": "https://github.com/tabler/tabler-icons/blob/main/LICENSE",
+      "url": "https://github.com/tabler/tabler-icons",
+      "file": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.24.0/icons/outline/home.svg"
+    },
+    {
+      "title": "Heroicons: home (24 outline)",
+      "kind": "icon-set",
+      "maker": "Tailwind Labs",
+      "credit": "Heroicons 2.1.5, 24 px outline",
+      "licence": "MIT",
+      "licence_url": "https://github.com/tailwindlabs/heroicons/blob/master/LICENSE",
+      "url": "https://github.com/tailwindlabs/heroicons",
+      "file": "https://cdn.jsdelivr.net/npm/heroicons@2.1.5/24/outline/home.svg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "flat-icon"
+    ],
+    "rebelled_against": [
+      "skeuomorphic-icon"
+    ],
+    "hybridized_with": [
+      "solid-glyph-icon"
+    ],
+    "echoes": [
+      "rams-functionalism-ui",
+      "swiss-international"
+    ]
+  },
+  "emotion": {
+    "target_response": "Calm precision: the UI feels light, ordered and quiet.",
+    "keywords": [
+      "minimal",
+      "light",
+      "precise",
+      "calm",
+      "neutral"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "outline icon",
+      "line icon",
+      "stroke icon",
+      "feather icons",
+      "lucide",
+      "tabler icons",
+      "thin icons",
+      "minimal icons"
+    ],
+    "use_cases": [
+      "web and app UI",
+      "dashboards and admin tools",
+      "documentation sites",
+      "navigation bars"
+    ],
+    "avoid_when": [
+      "The icon must read at 12 px or less.",
+      "The brand is loud and colourful."
+    ],
+    "modifiers": [
+      {
+        "request": "bolder and heavier",
+        "toward": "solid-glyph-icon",
+        "how": "Keep the 24 px grid and the shapes; fill the closed shapes and cut inner details as 2 px gaps."
+      },
+      {
+        "request": "two tones",
+        "toward": "duotone-icon",
+        "how": "Keep the 2 px stroke; add a fill at 20% opacity in the same colour inside the main shape."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Feather icons repository",
+      "url": "https://github.com/feathericons/feather"
+    },
+    {
+      "title": "Lucide icon design guide",
+      "url": "https://lucide.dev/guide/design/icon-design-guide"
+    },
+    {
+      "title": "Tabler Icons repository",
+      "url": "https://github.com/tabler/tabler-icons"
+    }
+  ]
+}

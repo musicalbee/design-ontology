@@ -1,0 +1,227 @@
+{
+  "$schema": "../../../schema/domains/typeface.schema.json",
+  "id": "neo-grotesque-sans",
+  "domain": "typeface",
+  "name": "Neo-grotesque sans",
+  "aliases": [
+    "Neo-grotesk",
+    "Swiss sans",
+    "Realist sans",
+    "Helvetica style"
+  ],
+  "era_id": "modernist",
+  "time_period": {
+    "start": 1957,
+    "end": null,
+    "label": "1957–present"
+  },
+  "region": "Switzerland",
+  "summary": "The neutral sans of the grid: even widths, horizontal terminals, closed apertures, a large x-height and almost no contrast. It lets the layout speak and is the default voice of interfaces and corporate systems.",
+  "philosophy": {
+    "core_thesis": "A typeface is a neutral vessel: it carries the message and adds nothing of its own.",
+    "design_principles": [
+      "Keep the stroke contrast at 1.0–1.4:1, measured on the o.",
+      "Cut the terminals of c, e, s and a horizontal, so the apertures close.",
+      "Even the widths: the capitals are close to one width, and the round letters are wide.",
+      "Hold the x-height at 0.70–0.78 of the cap height.",
+      "Use a single-storey g and a two-storey a; the R has a vertical or curved leg.",
+      "Track tighter as the size grows: 0 em at 16 px, −0.02 em at 48 px, −0.03 em above 96 px."
+    ],
+    "anti_patterns": [
+      "Visible calligraphic stress",
+      "Quirky, uneven letter widths",
+      "Decorative swashes or alternates",
+      "Wide positive tracking on lower-case headlines",
+      "Mixing more than two families with it"
+    ]
+  },
+  "vectors": {
+    "stroke_contrast": 1,
+    "construction": 4,
+    "x_height": 5,
+    "width": 3,
+    "serif_mass": 1
+  },
+  "classification": {
+    "vox_atypi": "Lineale: Neo-grotesque",
+    "din_16518": "Gruppe VI: Serifenlose Linear-Antiqua",
+    "note": "The neo-grotesque is a grotesque made even: horizontal terminals, uniform widths, less contrast. Some lists call it Realist."
+  },
+  "anatomy": {
+    "contrast": "Almost none: the thin parts are 0.75–1.0 of the stem.",
+    "stress": "Vertical, or none.",
+    "serifs": "None: the strokes end clean, with no serif.",
+    "terminals": "Horizontal on c, e, s, a and t.",
+    "aperture": "Closed: the ends of c, e and s turn in toward each other.",
+    "key_letters": "A two-storey a with a curved tail, a single-storey g, an R with a vertical leg, and a square-ish dot on i."
+  },
+  "metrics": {
+    "x_height_min": 0.7,
+    "x_height_max": 0.78,
+    "contrast_min": 1.0,
+    "contrast_max": 1.4,
+    "x_height": "The x-height is 0.70–0.78 of the cap height and about 0.50–0.55 of the em.",
+    "contrast": "The side of the o is 1.0 to 1.4 times as thick as its top.",
+    "width": "Even widths; the mean advance of a to z is 0.50–0.56 em.",
+    "figures": "Lining figures; tabular figures (tnum) for tables and interfaces."
+  },
+  "setting": {
+    "text_sizes": "Set text at 9–11 pt in print and 14–17 px on screen; the large x-height allows the smaller sizes.",
+    "display_sizes": "Set titles at 32–160 px in medium to bold weights.",
+    "leading": "Set the leading at 1.4–1.55 for text, 1.1–1.2 for subheads and 0.95–1.05 for large titles.",
+    "tracking": "Set 0 em at 16 px, −0.01 to −0.02 em at 24–48 px, −0.03 em above 96 px, and +0.06 em for capitals.",
+    "measure": "Set 50–75 characters a line; a grid column sets the measure.",
+    "case_and_features": "Use tabular figures in tables, contextual alternates where the family has them, and the slashed zero for code."
+  },
+  "pairing": {
+    "rule": "Use one family alone, in two or three weights; if you add a second face, make it a clear contrast.",
+    "pairs": [
+      {
+        "with": "Transitional serif (Baskervville)",
+        "role": "serif for long reading",
+        "why": "Both have a vertical, rational build, so the page stays in one order."
+      },
+      {
+        "with": "Didone (Bodoni Moda)",
+        "role": "serif for a few large titles",
+        "why": "The high contrast gives the neutral page one point of drama."
+      }
+    ]
+  },
+  "reference_faces": {
+    "faces": [
+      {
+        "face": "Helvetica (Neue Haas Grotesk)",
+        "designer": "Max Miedinger and Eduard Hoffmann",
+        "year": 1957,
+        "status": "proprietary"
+      },
+      {
+        "face": "Univers",
+        "designer": "Adrian Frutiger",
+        "year": 1957,
+        "status": "proprietary"
+      },
+      {
+        "face": "Arial",
+        "designer": "Robin Nicholas and Patricia Saunders",
+        "year": 1982,
+        "status": "proprietary"
+      },
+      {
+        "face": "Inter",
+        "designer": "Rasmus Andersson",
+        "year": 2017,
+        "status": "open revival"
+      }
+    ],
+    "note": "Inter is not a copy of Helvetica; it is an open neo-grotesque drawn for screens, with a tall x-height (about 0.75)."
+  },
+  "prompt_primer": {
+    "positive": [
+      "neo-grotesque sans-serif",
+      "helvetica style",
+      "swiss grid",
+      "neutral typography",
+      "flush left ragged right",
+      "tight tracking on headlines",
+      "black and white",
+      "clean interface type"
+    ],
+    "negative": [
+      "serifs",
+      "calligraphic stroke",
+      "decorative letters",
+      "grunge",
+      "script",
+      "wide letter spacing on lower case"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Inter",
+      "kind": "font",
+      "maker": "Rasmus Andersson",
+      "year": 2017,
+      "credit": "google/fonts repository, ofl/inter",
+      "licence": "OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "url": "https://fonts.google.com/specimen/Inter",
+      "file": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter%5Bopsz,wght%5D.ttf"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "grotesque-sans"
+    ],
+    "rebelled_against": [
+      "humanist-sans"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "swiss-international",
+      "international-style-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Order and neutrality: the reader feels a clear system and no personal voice.",
+    "keywords": [
+      "neutral",
+      "clean",
+      "efficient",
+      "corporate",
+      "objective"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "neo-grotesque",
+      "helvetica",
+      "swiss type",
+      "neutral sans",
+      "inter",
+      "interface font",
+      "corporate sans",
+      "univers"
+    ],
+    "use_cases": [
+      "user interfaces and dashboards",
+      "corporate identity",
+      "signage and wayfinding",
+      "posters on a grid"
+    ],
+    "avoid_when": [
+      "The brand needs warmth or a personal voice.",
+      "Small text must read well for readers with low vision; a humanist sans with open apertures reads better."
+    ],
+    "modifiers": [
+      {
+        "request": "warmer",
+        "toward": "humanist-sans",
+        "how": "Open the apertures, angle the terminals, and add a little stroke modulation; keep the x-height."
+      },
+      {
+        "request": "more character",
+        "toward": "grotesque-sans",
+        "how": "Bring back the uneven widths, the spurred G and some contrast in the joins."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Neo-grotesque (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Neo-grotesque"
+    },
+    {
+      "title": "Vox-ATypI classification (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Vox-ATypI_classification"
+    },
+    {
+      "title": "Robert Bringhurst, The Elements of Typographic Style (Hartley & Marks, 4th ed. 2012)"
+    }
+  ]
+}

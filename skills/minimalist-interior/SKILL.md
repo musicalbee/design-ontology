@@ -96,6 +96,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | colour-distribution | Give white the walls and ceiling, pale stone or wood the floor, and one dark tone a single piece. | 80/18/2 |
 | lighting-layers | Light the walls from hidden slots and coves; no visible fitting. | 150 lux ambient, 400 lux task, 3000 K |
 | circulation | Keep wide, straight routes with no furniture in them. | 120 cm main, 90 cm secondary |
+| camera-station | Shoot the room level, with a frontal view with the window on the right third, verticals parallel. | 24 mm shift at 130 cm, level |
 
 ## Zoning & circulation
 
@@ -198,6 +199,7 @@ The rules above name these shared principles by id. The definition is the same i
 | `colour-distribution` | Colour distribution | Each colour takes a planned share of the visible area: a dominant colour, a secondary colour and an accent. | dominant / secondary / accent share (% of visible surface): 60/30/10 as the default; 70/25/5 calm; 40/35/25 bold; accents (count): 1 to 3 |
 | `lighting-layers` | Lighting layers | Light comes from separate layers with separate jobs: ambient light for the whole space, task light for work, accent light for the focal point. In photography the same split is key, fill and accent light. | ambient illuminance (lux): 50–300 in a home; task illuminance (lux): 300–750; accent to ambient (ratio): 3:1 to 10:1; correlated colour temperature (kelvin): 2200–4000 in a home |
 | `circulation` | Circulation | The routes through a space and the clear widths that they keep free of furniture. | main route clear width (cm): 90–120; secondary route clear width (cm): 60–75; seat edge to low table (cm): 35–50; wheelchair route (cm): 90 or more; 150 turning circle |
+| `camera-station` | Camera station | The position, height, lens and aim of the camera for one view. It sets the perspective of the room in the image: the horizon, the fall of the verticals and the shares of floor, wall and ceiling in the frame. | lens focal length (mm, full-frame equivalent): 24–35; 17–20 only in a room narrower than 2.5 m; camera height (cm above the floor): 100–150; 100–120 for a seated view; vertical convergence (degrees): 0: the camera is level, and lens shift (not tilt) moves the frame; ceiling share of the frame (% of the frame height): 20 or less, unless the ceiling is the subject; object cut by the frame edge (% of the object inside the frame): 66 or more, or the object is out of the frame |
 
 ## Vocabulary primer
 
@@ -225,6 +227,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`bauhaus-interior`](../bauhaus-interior/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`memphis-interior`](../memphis-interior/SKILL.md)
 - **Was rejected by:** [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md)
+- **Mixes well with:** [`coastal-interior`](../coastal-interior/SKILL.md)
 - **Kin in another domain:** [`flat-design`](../flat-design/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`minimal-wordmark`](../minimal-wordmark/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md)
 - **Nearest by vector profile:** [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md)
 

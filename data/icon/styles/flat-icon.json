@@ -1,0 +1,232 @@
+{
+  "$schema": "../../../schema/domains/icon.schema.json",
+  "id": "flat-icon",
+  "domain": "icon",
+  "name": "Flat icon",
+  "aliases": [
+    "Flat colour icon",
+    "Long-shadow icon",
+    "Flat design icon"
+  ],
+  "era_id": "vector-system",
+  "time_period": {
+    "start": 2010,
+    "end": null,
+    "label": "2010–present"
+  },
+  "region": "Microsoft Metro (Windows Phone 7), then Google and Apple iOS 7",
+  "formats": [
+    "svg",
+    "png"
+  ],
+  "summary": "Icons in flat, solid colour shapes with no gradient, no texture and no light model. A simple object sits on a coloured ground, often a circle or a rounded square. Flat icons replaced skeuomorphic icons in the early 2010s.",
+  "philosophy": {
+    "core_thesis": "An icon is a sign, not a picture, and flat shapes in clear colour carry the meaning faster than material and light.",
+    "design_principles": [
+      "Build each icon from basic shapes: circles, rectangles and rounded rectangles.",
+      "Fill each shape with one flat colour; no gradient and no texture.",
+      "Use 2 to 5 colours in one icon, from a palette of 8 to 12 hues for the set.",
+      "Use a front or a pure side view; no perspective.",
+      "Place the object on a coloured circle or rounded square that fills 100% of the grid, with the object at 50–65%.",
+      "If a shadow is used, make it a flat long shadow at 45° in a 10–20% darker tone of the ground."
+    ],
+    "anti_patterns": [
+      "Gradients and glossy highlights",
+      "Soft drop shadows",
+      "Texture of leather, wood or metal",
+      "Perspective views",
+      "Outlines around every shape"
+    ]
+  },
+  "vectors": {
+    "realism": 2,
+    "fill": 5,
+    "corner_softness": 3,
+    "detail_density": 2,
+    "colour_count": 4
+  },
+  "grid": {
+    "sizes_px": [
+      24,
+      32,
+      48,
+      64
+    ],
+    "base_px": 48,
+    "live_area_px": 44,
+    "padding_px": 2,
+    "keylines": "A circle of 44 px and a rounded square of 40 px with a radius of 8 px."
+  },
+  "stroke": {
+    "width_px": null,
+    "caps": "none",
+    "joins": "none",
+    "rule": "No stroke. Shapes meet edge to edge, and a gap of 1–2 px separates two parts of the same colour."
+  },
+  "shape": {
+    "corner_radius_px": 4,
+    "primitives": "Circles, rectangles and rounded rectangles; angles at 0°, 45° and 90°.",
+    "optical_size": "At 24 px, drop the ground shape and keep the object; at 64 px, add one more part."
+  },
+  "colour": {
+    "count_max": 5,
+    "gradients": false,
+    "strategy": "Flat, bright and medium-saturation hues; each icon takes 2 to 5 of them.",
+    "colours": [
+      {
+        "name": "Flat red",
+        "hex": "#E74C3C",
+        "role": "alert and heart"
+      },
+      {
+        "name": "Flat orange",
+        "hex": "#E67E22",
+        "role": "accent"
+      },
+      {
+        "name": "Flat yellow",
+        "hex": "#F1C40F",
+        "role": "highlight"
+      },
+      {
+        "name": "Flat green",
+        "hex": "#2ECC71",
+        "role": "success"
+      },
+      {
+        "name": "Flat blue",
+        "hex": "#3498DB",
+        "role": "ground and link"
+      },
+      {
+        "name": "Midnight",
+        "hex": "#2C3E50",
+        "role": "dark part"
+      },
+      {
+        "name": "Cloud",
+        "hex": "#ECF0F1",
+        "role": "light part"
+      }
+    ]
+  },
+  "perspective_and_light": {
+    "view": "front orthographic",
+    "light": "No light model; all faces have their own flat colour.",
+    "shadow": "None, or a flat long shadow at 45° in a 10–20% darker tone."
+  },
+  "metaphor": {
+    "typical": "A house, an envelope, a camera, a calendar, a gear, a bell and a folder.",
+    "treatment": "Reduced objects: the silhouette plus 1 to 3 inner parts."
+  },
+  "prompt_primer": {
+    "positive": [
+      "flat design icon",
+      "flat colour shapes",
+      "no gradients",
+      "circle background",
+      "long shadow",
+      "simple geometric shapes",
+      "bright flat palette",
+      "vector app icon"
+    ],
+    "negative": [
+      "gradients",
+      "glossy highlights",
+      "soft drop shadows",
+      "realistic texture",
+      "perspective"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Fluent Emoji: house (flat)",
+      "kind": "icon-set",
+      "maker": "Microsoft",
+      "credit": "Fluent Emoji at commit 1ffb34c, flat set",
+      "licence": "MIT",
+      "licence_url": "https://github.com/microsoft/fluentui-emoji/blob/main/LICENSE",
+      "url": "https://github.com/microsoft/fluentui-emoji",
+      "file": "https://cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/House/Flat/house_flat.svg"
+    },
+    {
+      "title": "Tabler Icons: home (filled)",
+      "kind": "icon-set",
+      "maker": "Paweł Kuna",
+      "credit": "Tabler Icons 3.24.0, filled set",
+      "licence": "MIT",
+      "licence_url": "https://github.com/tabler/tabler-icons/blob/main/LICENSE",
+      "url": "https://github.com/tabler/tabler-icons",
+      "file": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.24.0/icons/filled/home.svg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "skeuomorphic-icon"
+    ],
+    "hybridized_with": [
+      "isometric-icon"
+    ],
+    "echoes": [
+      "flat-design",
+      "metro-ui"
+    ]
+  },
+  "emotion": {
+    "target_response": "Quick, cheerful clarity: the user reads the icon at once and the screen feels light.",
+    "keywords": [
+      "clean",
+      "bright",
+      "simple",
+      "friendly",
+      "modern"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "innocent"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "flat icon",
+      "flat design icon",
+      "flat colour icon",
+      "long shadow icon",
+      "metro icon",
+      "ios 7 icon"
+    ],
+    "use_cases": [
+      "marketing pages and feature lists",
+      "onboarding screens",
+      "app icons for simple tools",
+      "presentations and infographics"
+    ],
+    "avoid_when": [
+      "The icon must sit in a dense UI in one colour.",
+      "The brand needs a tactile or luxury tone."
+    ],
+    "modifiers": [
+      {
+        "request": "thinner and calmer",
+        "toward": "outline-icon",
+        "how": "Keep the shapes; remove the fills and draw the edges as a 2 px stroke on a 24 px grid."
+      },
+      {
+        "request": "more depth",
+        "toward": "clay-3d-icon",
+        "how": "Keep the colours and the shapes; add soft volume, a matte material and a soft shadow."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Flat design, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Flat_design"
+    },
+    {
+      "title": "Metro (design language), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Metro_(design_language)"
+    }
+  ]
+}

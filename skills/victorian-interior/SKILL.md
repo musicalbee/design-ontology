@@ -96,6 +96,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | lighting-layers | Light pools from a gasolier over the centre table and from shaded lamps; leave the corners dim. | 60 lux ambient, 300 lux task, 2200 K |
 | scale | Use large, heavy furniture with deep upholstery; chairs are broad and button-backed. | seat 44 cm, depth 60 cm |
 | circulation | Leave narrow routes between the groups. | 75 cm main, 55 cm secondary |
+| camera-station | Shoot the room level, with a three-quarter view from the door toward the hearth. | 28 mm at 140 cm, level |
 
 ## Zoning & circulation
 
@@ -209,6 +210,7 @@ The rules above name these shared principles by id. The definition is the same i
 | `lighting-layers` | Lighting layers | Light comes from separate layers with separate jobs: ambient light for the whole space, task light for work, accent light for the focal point. In photography the same split is key, fill and accent light. | ambient illuminance (lux): 50–300 in a home; task illuminance (lux): 300–750; accent to ambient (ratio): 3:1 to 10:1; correlated colour temperature (kelvin): 2200–4000 in a home |
 | `scale` | Scale | The size of an element in relation to the human body, to the space around it and to the other elements. A style chooses a reference body and holds the elements in a range around it. | seat height (cm): 38–46; largest piece to room width (ratio): 0.3–0.6; ceiling height to door height (ratio): 1.2–1.5 |
 | `circulation` | Circulation | The routes through a space and the clear widths that they keep free of furniture. | main route clear width (cm): 90–120; secondary route clear width (cm): 60–75; seat edge to low table (cm): 35–50; wheelchair route (cm): 90 or more; 150 turning circle |
+| `camera-station` | Camera station | The position, height, lens and aim of the camera for one view. It sets the perspective of the room in the image: the horizon, the fall of the verticals and the shares of floor, wall and ceiling in the frame. | lens focal length (mm, full-frame equivalent): 24–35; 17–20 only in a room narrower than 2.5 m; camera height (cm above the floor): 100–150; 100–120 for a seated view; vertical convergence (degrees): 0: the camera is level, and lens shift (not tilt) moves the frame; ceiling share of the frame (% of the frame height): 20 or less, unless the ceiling is the subject; object cut by the frame edge (% of the object inside the frame): 66 or more, or the object is out of the frame |
 
 ## Vocabulary primer
 
@@ -235,7 +237,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`georgian-interior`](../georgian-interior/SKILL.md)
 - **Led to (go here for a newer version):** [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md)
 - **Was rejected by:** [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md), [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md)
-- **Kin in another domain:** [`pictorialism`](../pictorialism/SKILL.md), [`victorian-trademark`](../victorian-trademark/SKILL.md)
+- **Kin in another domain:** [`pictorialism`](../pictorialism/SKILL.md), [`slab-serif`](../slab-serif/SKILL.md), [`victorian-trademark`](../victorian-trademark/SKILL.md)
 - **Nearest by vector profile:** [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md), [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md)
 
 ## Emotional target

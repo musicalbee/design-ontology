@@ -1,0 +1,227 @@
+{
+  "$schema": "../../../schema/domains/icon.schema.json",
+  "id": "clay-3d-icon",
+  "domain": "icon",
+  "name": "3D clay icon",
+  "aliases": [
+    "3D icon",
+    "Soft 3D icon",
+    "Fluent 3D emoji style"
+  ],
+  "era_id": "post-flat",
+  "time_period": {
+    "start": 2020,
+    "end": null,
+    "label": "2020–present"
+  },
+  "region": "3D illustration on the web, then Microsoft Fluent Emoji 3D",
+  "formats": [
+    "3d render",
+    "png"
+  ],
+  "summary": "Icons rendered in 3D with soft, matte, clay-like materials, large round corners and a soft shadow. They bring depth back after the flat years, but with toy-like simplicity and no real texture.",
+  "philosophy": {
+    "core_thesis": "After a decade of flat glyphs, an icon can have volume again if the forms stay simple, round and soft like a toy.",
+    "design_principles": [
+      "Model each object from simple volumes with large fillets: a radius of 15–25% of the object size.",
+      "Use a matte or satin material with soft subsurface light; no hard gloss.",
+      "Light the object with one large soft key light from the top left and a fill light at 30–50%.",
+      "Use a three-quarter view from 15–30° above.",
+      "Use 3 to 6 saturated pastel hues per icon, with gentle gradients from the light.",
+      "Ship each icon as a PNG at 256 px or more, with a transparent ground."
+    ],
+    "anti_patterns": [
+      "Hard, sharp edges",
+      "Photographic texture and dirt",
+      "Glossy chrome reflections",
+      "Flat front views",
+      "Thin line strokes"
+    ]
+  },
+  "vectors": {
+    "realism": 4,
+    "fill": 5,
+    "corner_softness": 5,
+    "detail_density": 3,
+    "colour_count": 5
+  },
+  "grid": {
+    "sizes_px": [
+      64,
+      128,
+      256
+    ],
+    "base_px": 256,
+    "live_area_px": 224,
+    "padding_px": 16,
+    "keylines": "The object fits a circle of 224 px; the shadow may extend 8 px below the live area."
+  },
+  "stroke": {
+    "width_px": null,
+    "caps": "none",
+    "joins": "none",
+    "rule": "No stroke. Edges come from light and the fillet, not from a line."
+  },
+  "shape": {
+    "corner_radius_px": 48,
+    "primitives": "Rounded boxes, spheres, cylinders and tori with fillets of 15–25% of the object size.",
+    "optical_size": "Below 64 px, swap to a flat or glyph version; the 3D form loses its read under 48 px."
+  },
+  "colour": {
+    "count_max": 24,
+    "gradients": true,
+    "strategy": "Saturated pastel hues with soft light gradients from the key light.",
+    "colours": [
+      {
+        "name": "Clay coral",
+        "hex": "#FF8A73",
+        "role": "main body"
+      },
+      {
+        "name": "Clay sky",
+        "hex": "#7CC6FE",
+        "role": "main body"
+      },
+      {
+        "name": "Clay mint",
+        "hex": "#7EDDB0",
+        "role": "secondary part"
+      },
+      {
+        "name": "Clay butter",
+        "hex": "#FFD66B",
+        "role": "accent"
+      },
+      {
+        "name": "Clay lilac",
+        "hex": "#B49CF5",
+        "role": "accent"
+      },
+      {
+        "name": "Soft shadow",
+        "hex": "#5B4E7A",
+        "role": "shadow tint"
+      }
+    ]
+  },
+  "perspective_and_light": {
+    "view": "three-quarter perspective",
+    "light": "One large soft key light from the top left and a fill light at 30–50%; soft ambient occlusion in the creases.",
+    "shadow": "A soft contact shadow under the object at 20–30% opacity, tinted with the main hue."
+  },
+  "metaphor": {
+    "typical": "A house, a camera, a folder, a rocket, a gift and a chat bubble.",
+    "treatment": "Literal objects simplified into toy-like volumes."
+  },
+  "prompt_primer": {
+    "positive": [
+      "3D clay icon",
+      "soft matte 3D render",
+      "rounded toy-like shapes",
+      "pastel colours",
+      "soft studio light",
+      "three-quarter view",
+      "transparent background",
+      "Fluent 3D emoji style"
+    ],
+    "negative": [
+      "flat vector",
+      "line icon",
+      "photorealistic texture",
+      "glossy chrome",
+      "sharp edges"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Fluent Emoji: house (3D)",
+      "kind": "icon-set",
+      "maker": "Microsoft",
+      "credit": "Fluent Emoji at commit 1ffb34c, 3D set",
+      "licence": "MIT",
+      "licence_url": "https://github.com/microsoft/fluentui-emoji/blob/main/LICENSE",
+      "url": "https://github.com/microsoft/fluentui-emoji",
+      "file": "https://cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/House/3D/house_3d.png"
+    },
+    {
+      "title": "Fluent Emoji: camera (3D)",
+      "kind": "icon-set",
+      "maker": "Microsoft",
+      "credit": "Fluent Emoji at commit 1ffb34c, 3D set",
+      "licence": "MIT",
+      "licence_url": "https://github.com/microsoft/fluentui-emoji/blob/main/LICENSE",
+      "url": "https://github.com/microsoft/fluentui-emoji",
+      "file": "https://cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Camera/3D/camera_3d.png"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "skeuomorphic-icon"
+    ],
+    "rebelled_against": [
+      "flat-icon"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "claymorphism"
+    ]
+  },
+  "emotion": {
+    "target_response": "Delight and warmth: the icon looks soft enough to pick up.",
+    "keywords": [
+      "playful",
+      "soft",
+      "warm",
+      "tactile",
+      "friendly"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "innocent",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "3d icon",
+      "clay icon",
+      "soft 3d icon",
+      "3d emoji",
+      "fluent emoji 3d",
+      "claymorphism icon",
+      "toy icon"
+    ],
+    "use_cases": [
+      "landing page heroes and feature cards",
+      "onboarding and empty states",
+      "consumer and fintech apps with a soft voice",
+      "social and messaging stickers"
+    ],
+    "avoid_when": [
+      "The icon must work in one colour or at 24 px.",
+      "The UI is a dense professional tool."
+    ],
+    "modifiers": [
+      {
+        "request": "flatter",
+        "toward": "flat-icon",
+        "how": "Keep the hues and the simple shapes; remove the volume, the light and the shadow."
+      },
+      {
+        "request": "more realistic",
+        "toward": "skeuomorphic-icon",
+        "how": "Keep the 3D view; replace clay with real materials, sharper fillets and a glossy highlight."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Fluent Emoji repository",
+      "url": "https://github.com/microsoft/fluentui-emoji"
+    },
+    {
+      "title": "Claymorphism, as described in the Smashing Magazine article (2022)",
+      "url": "https://www.smashingmagazine.com/2022/03/claymorphism-css-ui-design-trend/"
+    }
+  ]
+}

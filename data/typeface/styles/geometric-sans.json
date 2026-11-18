@@ -1,0 +1,241 @@
+{
+  "$schema": "../../../schema/domains/typeface.schema.json",
+  "id": "geometric-sans",
+  "domain": "typeface",
+  "name": "Geometric sans",
+  "aliases": [
+    "Geometric lineale",
+    "Bauhaus type",
+    "Futura style"
+  ],
+  "era_id": "modernist",
+  "time_period": {
+    "start": 1927,
+    "end": null,
+    "label": "1927–present"
+  },
+  "region": "Germany",
+  "summary": "A sans serif built from the circle, the square and the triangle: a round o, a single-storey a, pointed apexes and almost no contrast. It is the type of the modernist programme, clean and optimistic, with a small x-height in the classic cuts.",
+  "philosophy": {
+    "core_thesis": "A letter is a construction of pure forms, free of the hand and of history.",
+    "design_principles": [
+      "Draw the o, c, e and the bowls of b, d, p and q from a near-perfect circle.",
+      "Keep the stroke contrast at 1.0–1.3:1, measured on the o.",
+      "Use a single-storey a and g, and pointed apexes on A, M, N, V and W.",
+      "Hold the x-height at 0.58–0.70 of the cap height in the classic cuts, so the ascenders are long.",
+      "Give the capitals the widths of their figures: a circular O, a square-wide M, a narrow E and S.",
+      "Set headlines with tight tracking (−0.02 to −0.04 em) and short lines."
+    ],
+    "anti_patterns": [
+      "Calligraphic stress or angled pen terminals",
+      "A two-storey a or g",
+      "Narrow, oval o and c",
+      "Strong stroke contrast",
+      "Old-style figures with swash forms"
+    ]
+  },
+  "vectors": {
+    "stroke_contrast": 1,
+    "construction": 5,
+    "x_height": 2,
+    "width": 4,
+    "serif_mass": 1
+  },
+  "classification": {
+    "vox_atypi": "Lineale: Geometric",
+    "din_16518": "Gruppe VI: Serifenlose Linear-Antiqua",
+    "note": "Many modern faces mix geometric capitals with a humanist or neo-grotesque lower case; the test is the round o and the single-storey a."
+  },
+  "anatomy": {
+    "contrast": "None or almost none: the thin parts are 0.8–1.0 of the stem.",
+    "stress": "None: the strokes keep one weight round the o.",
+    "serifs": "None: the strokes end clean, with no serif.",
+    "terminals": "Cut straight, at a right angle to the stroke.",
+    "aperture": "Moderate: the c is a circle with a wedge removed.",
+    "key_letters": "A circular o, a single-storey a, pointed apexes on A, M and N, and a t without a hook in the classic cuts."
+  },
+  "metrics": {
+    "x_height_min": 0.58,
+    "x_height_max": 0.7,
+    "contrast_min": 1.0,
+    "contrast_max": 1.3,
+    "x_height": "The x-height is 0.58–0.70 of the cap height in the classic cuts; screen faces such as Poppins go higher.",
+    "contrast": "The side of the o is 1.0 to 1.3 times as thick as its top.",
+    "width": "Round letters are wide and others narrow; the mean advance of a to z is 0.42–0.52 em.",
+    "figures": "Lining figures with circular 0, 6 and 9."
+  },
+  "setting": {
+    "text_sizes": "Set text at 10–12 pt in print and 16–19 px on screen; the small x-height needs the larger sizes.",
+    "display_sizes": "Set titles at 32–200 px, often in bold or in capitals.",
+    "leading": "Set the leading at 1.4–1.6 for text and 1.0–1.1 for titles.",
+    "tracking": "Set 0 to +0.01 em in text, −0.02 to −0.04 em in large titles, +0.1 em for capital labels.",
+    "measure": "Set 45–65 characters a line; the round letters make lines feel long.",
+    "case_and_features": "Use capitals for short labels and logos; use the alternates of the family for a circular a only if all a forms agree."
+  },
+  "pairing": {
+    "rule": "Pair it with a serif of strong contrast for titles or a quiet serif for long text; avoid a second sans.",
+    "pairs": [
+      {
+        "with": "Didone (Bodoni Moda)",
+        "role": "serif for display titles",
+        "why": "Both are constructed faces; the contrast of the Didone sets off the even sans."
+      },
+      {
+        "with": "Garalde old-style serif (EB Garamond)",
+        "role": "serif for long reading",
+        "why": "The Garalde carries text better at small sizes, and the geometric sans carries headings and labels."
+      }
+    ]
+  },
+  "reference_faces": {
+    "faces": [
+      {
+        "face": "Futura",
+        "designer": "Paul Renner",
+        "year": 1927,
+        "status": "proprietary"
+      },
+      {
+        "face": "Kabel",
+        "designer": "Rudolf Koch",
+        "year": 1927,
+        "status": "proprietary"
+      },
+      {
+        "face": "Avant Garde Gothic",
+        "designer": "Herb Lubalin and Tom Carnase",
+        "year": 1970,
+        "status": "proprietary"
+      },
+      {
+        "face": "Jost",
+        "designer": "Owen Earl",
+        "year": 2017,
+        "status": "open revival"
+      },
+      {
+        "face": "League Spartan",
+        "designer": "Micah Rich, Tyler Finck",
+        "year": 2014,
+        "status": "open revival"
+      }
+    ],
+    "note": "Jost takes its forms from the German geometric sans of the 1920s. The default instance of League Spartan in google/fonts is Thin, so the specimen uses Jost."
+  },
+  "prompt_primer": {
+    "positive": [
+      "geometric sans-serif",
+      "futura style",
+      "bauhaus typography",
+      "circular o",
+      "single-storey a",
+      "pointed apex",
+      "modernist poster",
+      "primary colours",
+      "clean geometric layout"
+    ],
+    "negative": [
+      "serifs",
+      "calligraphic stroke",
+      "two-storey a",
+      "condensed grotesque",
+      "ornament",
+      "grunge"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Jost",
+      "kind": "font",
+      "maker": "Owen Earl",
+      "credit": "google/fonts repository, ofl/jost",
+      "licence": "OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "url": "https://fonts.google.com/specimen/Jost",
+      "file": "https://raw.githubusercontent.com/google/fonts/main/ofl/jost/Jost%5Bwght%5D.ttf"
+    },
+    {
+      "title": "League Spartan",
+      "kind": "font",
+      "maker": "Micah Rich, Tyler Finck",
+      "credit": "google/fonts repository, ofl/leaguespartan",
+      "licence": "OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "url": "https://fonts.google.com/specimen/League+Spartan",
+      "file": "https://raw.githubusercontent.com/google/fonts/main/ofl/leaguespartan/LeagueSpartan%5Bwght%5D.ttf"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "garalde-old-style",
+      "grotesque-sans"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "bauhaus",
+      "bauhaus-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Optimism and order: the reader feels a clean, forward-looking modern voice.",
+    "keywords": [
+      "modern",
+      "clean",
+      "optimistic",
+      "geometric",
+      "confident"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "explorer",
+      "magician"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "geometric sans",
+      "futura",
+      "bauhaus font",
+      "avant garde gothic",
+      "circular sans",
+      "modernist type",
+      "jost"
+    ],
+    "use_cases": [
+      "logos and brand marks",
+      "fashion and lifestyle titles",
+      "posters",
+      "architecture and design studios"
+    ],
+    "avoid_when": [
+      "Long text must read well at small sizes on a screen.",
+      "The brief asks for warmth from the hand or a bookish voice."
+    ],
+    "modifiers": [
+      {
+        "request": "more readable",
+        "toward": "humanist-sans",
+        "how": "Open the forms to classical widths, use a two-storey a, and raise the x-height to 0.70."
+      },
+      {
+        "request": "more neutral",
+        "toward": "neo-grotesque-sans",
+        "how": "Make the o oval, even the widths and raise the x-height to 0.74."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Geometric sans-serif (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Geometric_sans-serif"
+    },
+    {
+      "title": "Vox-ATypI classification (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Vox-ATypI_classification"
+    },
+    {
+      "title": "Robert Bringhurst, The Elements of Typographic Style (Hartley & Marks, 4th ed. 2012)"
+    }
+  ]
+}

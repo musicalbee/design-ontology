@@ -6595,6 +6595,57 @@
       ]
     },
     {
+      "id": "coastal-interior",
+      "name": "Coastal interior",
+      "domain": "interior",
+      "era": "global-minimal",
+      "period": "1990s–present",
+      "thesis": "A house by the sea takes its colours from sand, water and weathered wood, and its comfort from loose, washable fabric.",
+      "summary": "The airy summer-house room by the sea. White and sand-coloured walls, white-washed or grey-oiled wood, linen slipcovers and woven rope or rattan; one sea blue carries the accents, and the room opens to the water and the light.",
+      "path": "skills/coastal-interior/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "coastal",
+        "coastal style",
+        "beach house",
+        "summer house",
+        "sommerhus",
+        "hytte by the sea",
+        "hamptons",
+        "nautical",
+        "seaside interior"
+      ],
+      "use_cases": [
+        "holiday homes",
+        "flats near the water",
+        "hotels and guest houses",
+        "show flats in coastal developments"
+      ],
+      "emotion": [
+        "airy",
+        "relaxed",
+        "bright",
+        "fresh",
+        "natural",
+        "light"
+      ],
+      "archetypes": [
+        "innocent",
+        "explorer",
+        "everyman"
+      ],
+      "vectors": {
+        "ornamentation": 1,
+        "density": 2,
+        "formality": 2,
+        "material_naturalness": 4,
+        "chromatic_intensity": 2
+      },
+      "techniques": []
+    },
+    {
       "id": "minimalist-interior",
       "name": "Minimalist",
       "domain": "interior",
@@ -10582,6 +10633,806 @@
         "ornament": 1,
         "letter_dominance": 2,
         "dimensionality": 1
+      },
+      "techniques": []
+    },
+    {
+      "id": "pixel-icon",
+      "name": "Pixel icon",
+      "domain": "icon",
+      "era": "bitmap",
+      "period": "1981–present (revival from 2015)",
+      "thesis": "An icon is a set of square pixels on a fixed grid, and the grid is part of the look, not a limit to hide.",
+      "summary": "Icons drawn on a hard pixel grid, one square at a time. Each pixel is on or off, edges are stairs, and the set has 1 to 16 colours. The style began with low screen resolution and returns now as a retro choice.",
+      "path": "skills/pixel-icon/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "pixel icon",
+        "bitmap icon",
+        "8-bit icon",
+        "pixel art icons",
+        "retro os icons",
+        "1-bit icon",
+        "16px pixel"
+      ],
+      "use_cases": [
+        "retro games and game UI",
+        "developer tools with a playful voice",
+        "pixel-art brand campaigns",
+        "terminal and indie web pages"
+      ],
+      "emotion": [
+        "retro",
+        "exact",
+        "playful",
+        "nerdy",
+        "honest"
+      ],
+      "archetypes": [
+        "jester",
+        "creator"
+      ],
+      "vectors": {
+        "realism": 2,
+        "fill": 4,
+        "corner_softness": 1,
+        "detail_density": 2,
+        "colour_count": 2
+      },
+      "techniques": []
+    },
+    {
+      "id": "isometric-icon",
+      "name": "Isometric icon",
+      "domain": "icon",
+      "era": "rendered",
+      "period": "1995–present",
+      "thesis": "An icon can show an object as a solid in space and keep it exact, because parallel projection keeps every edge at a true angle.",
+      "summary": "Icons drawn as small objects in a parallel isometric view: three faces at once, edges at 30° to the horizontal, no vanishing point. Flat colour fills give each face its own tone.",
+      "path": "skills/isometric-icon/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "isometric icon",
+        "isometric",
+        "2.5d icon",
+        "3d flat icon",
+        "axonometric icon",
+        "infographic icon"
+      ],
+      "use_cases": [
+        "cloud and infrastructure diagrams",
+        "landing page feature illustrations",
+        "infographics and explainers",
+        "game and simulation UI"
+      ],
+      "emotion": [
+        "technical",
+        "ordered",
+        "dimensional",
+        "clear"
+      ],
+      "archetypes": [
+        "sage",
+        "creator"
+      ],
+      "vectors": {
+        "realism": 3,
+        "fill": 4,
+        "corner_softness": 2,
+        "detail_density": 3,
+        "colour_count": 4
+      },
+      "techniques": []
+    },
+    {
+      "id": "skeuomorphic-icon",
+      "name": "Skeuomorphic icon",
+      "domain": "icon",
+      "era": "rendered",
+      "period": "2001–2013",
+      "thesis": "An icon is a small picture of a real object, and the material tells the user what the function is.",
+      "summary": "Icons that look like small real objects: leather, glass, metal and paper, with light from the top, gradients and a soft cast shadow. The style peaked with Mac OS X Aqua and iOS 1 to 6, and Tango gave it an open, semi-realistic form.",
+      "path": "skills/skeuomorphic-icon/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "skeuomorphic icon",
+        "realistic icon",
+        "aqua icon",
+        "ios 6 icon",
+        "tango icon",
+        "glossy icon",
+        "photoreal app icon"
+      ],
+      "use_cases": [
+        "retro or nostalgic app icons",
+        "desktop application icons",
+        "games and toys",
+        "brand illustrations with a tactile feel"
+      ],
+      "emotion": [
+        "tactile",
+        "rich",
+        "familiar",
+        "glossy",
+        "friendly"
+      ],
+      "archetypes": [
+        "caregiver",
+        "everyman",
+        "magician"
+      ],
+      "vectors": {
+        "realism": 5,
+        "fill": 5,
+        "corner_softness": 4,
+        "detail_density": 5,
+        "colour_count": 5
+      },
+      "techniques": []
+    },
+    {
+      "id": "flat-icon",
+      "name": "Flat icon",
+      "domain": "icon",
+      "era": "vector-system",
+      "period": "2010–present",
+      "thesis": "An icon is a sign, not a picture, and flat shapes in clear colour carry the meaning faster than material and light.",
+      "summary": "Icons in flat, solid colour shapes with no gradient, no texture and no light model. A simple object sits on a coloured ground, often a circle or a rounded square. Flat icons replaced skeuomorphic icons in the early 2010s.",
+      "path": "skills/flat-icon/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "flat icon",
+        "flat design icon",
+        "flat colour icon",
+        "long shadow icon",
+        "metro icon",
+        "ios 7 icon"
+      ],
+      "use_cases": [
+        "marketing pages and feature lists",
+        "onboarding screens",
+        "app icons for simple tools",
+        "presentations and infographics"
+      ],
+      "emotion": [
+        "clean",
+        "bright",
+        "simple",
+        "friendly",
+        "modern"
+      ],
+      "archetypes": [
+        "everyman",
+        "innocent"
+      ],
+      "vectors": {
+        "realism": 2,
+        "fill": 5,
+        "corner_softness": 3,
+        "detail_density": 2,
+        "colour_count": 4
+      },
+      "techniques": []
+    },
+    {
+      "id": "solid-glyph-icon",
+      "name": "Solid glyph icon",
+      "domain": "icon",
+      "era": "vector-system",
+      "period": "2012–present",
+      "thesis": "An icon is a single solid mark, and a silhouette with cut-out details reads best at small sizes and on any ground.",
+      "summary": "Icons as solid, one-colour silhouettes, like the glyphs of a bold typeface. Inner details are cut out of the fill as gaps. The style began with icon fonts and stays the default for small, high-contrast UI.",
+      "path": "skills/solid-glyph-icon/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "solid icon",
+        "filled icon",
+        "glyph icon",
+        "font awesome",
+        "icon font",
+        "heroicons solid",
+        "bold icon"
+      ],
+      "use_cases": [
+        "toolbars and tab bars",
+        "buttons and small UI at 12–16 px",
+        "maps and wayfinding pictograms",
+        "active state of an outline set"
+      ],
+      "emotion": [
+        "bold",
+        "clear",
+        "direct",
+        "solid"
+      ],
+      "archetypes": [
+        "hero",
+        "everyman"
+      ],
+      "vectors": {
+        "realism": 1,
+        "fill": 5,
+        "corner_softness": 3,
+        "detail_density": 2,
+        "colour_count": 1
+      },
+      "techniques": []
+    },
+    {
+      "id": "outline-icon",
+      "name": "Outline icon",
+      "domain": "icon",
+      "era": "vector-system",
+      "period": "2013–present",
+      "thesis": "An icon set is a typeface of objects: one stroke, one grid and one corner radius make hundreds of glyphs read as one family.",
+      "summary": "Icons drawn as one even stroke on a 24 px grid, with round caps and joins and no fill. The set reads like a light typeface: the same line weight, the same corner radius and the same live area for every glyph.",
+      "path": "skills/outline-icon/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "outline icon",
+        "line icon",
+        "stroke icon",
+        "feather icons",
+        "lucide",
+        "tabler icons",
+        "thin icons",
+        "minimal icons"
+      ],
+      "use_cases": [
+        "web and app UI",
+        "dashboards and admin tools",
+        "documentation sites",
+        "navigation bars"
+      ],
+      "emotion": [
+        "minimal",
+        "light",
+        "precise",
+        "calm",
+        "neutral"
+      ],
+      "archetypes": [
+        "sage",
+        "everyman"
+      ],
+      "vectors": {
+        "realism": 1,
+        "fill": 1,
+        "corner_softness": 4,
+        "detail_density": 1,
+        "colour_count": 1
+      },
+      "techniques": []
+    },
+    {
+      "id": "material-symbols-icon",
+      "name": "Material Symbols",
+      "domain": "icon",
+      "era": "vector-system",
+      "period": "2014–present",
+      "thesis": "An icon system is a set of tokens: one grid and four variable axes let one glyph serve every size, weight and state.",
+      "summary": "Google's open icon system: geometric glyphs on a 24 dp grid with keyline shapes. Material Icons (2014) gave five themes; Material Symbols (2022) is a variable font with axes for fill, weight, grade and optical size.",
+      "path": "skills/material-symbols-icon/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "material icons",
+        "material symbols",
+        "google icons",
+        "android icons",
+        "material design icon",
+        "variable icon font"
+      ],
+      "use_cases": [
+        "Android and Material web apps",
+        "admin and back-office tools",
+        "design systems that need fill and weight states",
+        "prototypes"
+      ],
+      "emotion": [
+        "systematic",
+        "consistent",
+        "neutral",
+        "clear"
+      ],
+      "archetypes": [
+        "sage",
+        "ruler"
+      ],
+      "vectors": {
+        "realism": 1,
+        "fill": 3,
+        "corner_softness": 3,
+        "detail_density": 1,
+        "colour_count": 1
+      },
+      "techniques": []
+    },
+    {
+      "id": "duotone-icon",
+      "name": "Duotone icon",
+      "domain": "icon",
+      "era": "vector-system",
+      "period": "2019–present",
+      "thesis": "One colour in two strengths gives an icon a figure and a ground, so the meaning reads first and the detail second.",
+      "summary": "Icons in two tones of one colour: a main shape at full strength and a secondary layer at 20–40% opacity. The second tone gives hierarchy and a little depth, but the icon stays a flat glyph.",
+      "path": "skills/duotone-icon/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "duotone icon",
+        "two tone icon",
+        "bicolour icon",
+        "phosphor duotone",
+        "soft fill icon",
+        "two layer icon"
+      ],
+      "use_cases": [
+        "SaaS marketing pages",
+        "empty states and feature cards",
+        "dashboards with a soft brand",
+        "settings and onboarding"
+      ],
+      "emotion": [
+        "soft",
+        "layered",
+        "friendly",
+        "polished"
+      ],
+      "archetypes": [
+        "caregiver",
+        "creator"
+      ],
+      "vectors": {
+        "realism": 1,
+        "fill": 3,
+        "corner_softness": 4,
+        "detail_density": 2,
+        "colour_count": 2
+      },
+      "techniques": []
+    },
+    {
+      "id": "clay-3d-icon",
+      "name": "3D clay icon",
+      "domain": "icon",
+      "era": "post-flat",
+      "period": "2020–present",
+      "thesis": "After a decade of flat glyphs, an icon can have volume again if the forms stay simple, round and soft like a toy.",
+      "summary": "Icons rendered in 3D with soft, matte, clay-like materials, large round corners and a soft shadow. They bring depth back after the flat years, but with toy-like simplicity and no real texture.",
+      "path": "skills/clay-3d-icon/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "3d icon",
+        "clay icon",
+        "soft 3d icon",
+        "3d emoji",
+        "fluent emoji 3d",
+        "claymorphism icon",
+        "toy icon"
+      ],
+      "use_cases": [
+        "landing page heroes and feature cards",
+        "onboarding and empty states",
+        "consumer and fintech apps with a soft voice",
+        "social and messaging stickers"
+      ],
+      "emotion": [
+        "playful",
+        "soft",
+        "warm",
+        "tactile",
+        "friendly"
+      ],
+      "archetypes": [
+        "jester",
+        "innocent",
+        "caregiver"
+      ],
+      "vectors": {
+        "realism": 4,
+        "fill": 5,
+        "corner_softness": 5,
+        "detail_density": 3,
+        "colour_count": 5
+      },
+      "techniques": []
+    },
+    {
+      "id": "garalde-old-style",
+      "name": "Garalde old-style serif",
+      "domain": "typeface",
+      "era": "hand-press",
+      "period": "1495–1750",
+      "thesis": "A text letter keeps the rhythm of the hand that wrote it, so the eye reads a page without effort.",
+      "summary": "The roman of the Renaissance book: moderate contrast, a diagonal stress from the broad-nib pen, bracketed serifs and a small x-height. It is the default text face of the long tradition and reads well for hours.",
+      "path": "skills/garalde-old-style/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "old-style serif",
+        "garamond",
+        "caslon",
+        "garalde",
+        "book typography",
+        "classic serif",
+        "literary type",
+        "renaissance type"
+      ],
+      "use_cases": [
+        "books and long-form reading",
+        "literary magazines",
+        "academic and museum publishing",
+        "wine, food and heritage brands"
+      ],
+      "emotion": [
+        "literary",
+        "warm",
+        "classical",
+        "humane",
+        "timeless"
+      ],
+      "archetypes": [
+        "sage",
+        "caregiver"
+      ],
+      "vectors": {
+        "stroke_contrast": 2,
+        "construction": 1,
+        "x_height": 1,
+        "width": 3,
+        "serif_mass": 3
+      },
+      "techniques": []
+    },
+    {
+      "id": "transitional-serif",
+      "name": "Transitional serif",
+      "domain": "typeface",
+      "era": "hand-press",
+      "period": "1757–1800",
+      "thesis": "A letter can be drawn by reason and still serve the reader: the pen gives way to the engraver's line, but not yet to the extreme.",
+      "summary": "The Enlightenment roman between the old style and the Didone: the stress turns nearly vertical, the contrast rises, and the serifs become flatter and sharper. It is precise but still warm, and it reads well in text.",
+      "path": "skills/transitional-serif/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "transitional serif",
+        "baskerville",
+        "times style",
+        "georgian type",
+        "enlightenment serif",
+        "formal book face"
+      ],
+      "use_cases": [
+        "books and reports",
+        "university and legal publishing",
+        "newspaper text",
+        "formal invitations"
+      ],
+      "emotion": [
+        "rational",
+        "elegant",
+        "authoritative",
+        "clear",
+        "composed"
+      ],
+      "archetypes": [
+        "ruler",
+        "sage"
+      ],
+      "vectors": {
+        "stroke_contrast": 3,
+        "construction": 3,
+        "x_height": 2,
+        "width": 3,
+        "serif_mass": 3
+      },
+      "techniques": []
+    },
+    {
+      "id": "didone-serif",
+      "name": "Didone",
+      "domain": "typeface",
+      "era": "hand-press",
+      "period": "1784–1830",
+      "thesis": "A letter is a geometric figure of thick and thin, cut as fine as the metal and the paper allow.",
+      "summary": "The extreme of the roman: a vertical stress, hairline serifs with no bracket, and a strong contrast between stem and hairline. At display sizes it is the voice of fashion and luxury; in small text it sparkles and tires the eye.",
+      "path": "skills/didone-serif/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "didone",
+        "bodoni",
+        "didot",
+        "fashion serif",
+        "luxury type",
+        "high contrast serif",
+        "vogue style masthead",
+        "modern serif"
+      ],
+      "use_cases": [
+        "fashion and beauty mastheads",
+        "luxury brand titles",
+        "editorial covers",
+        "perfume and jewellery packaging"
+      ],
+      "emotion": [
+        "glamorous",
+        "luxurious",
+        "sharp",
+        "dramatic",
+        "aristocratic"
+      ],
+      "archetypes": [
+        "ruler",
+        "lover"
+      ],
+      "vectors": {
+        "stroke_contrast": 5,
+        "construction": 4,
+        "x_height": 1,
+        "width": 3,
+        "serif_mass": 2
+      },
+      "techniques": []
+    },
+    {
+      "id": "slab-serif",
+      "name": "Slab serif",
+      "domain": "typeface",
+      "era": "industrial",
+      "period": "1815–present",
+      "thesis": "A letter for a loud and busy world must be heavy, square and hard to break.",
+      "summary": "Heavy, square serifs on a sturdy letter with low contrast. Born on the poster in industrial Britain, it carries a loud, solid and practical voice, and modern text cuts serve screens and typewriters as well.",
+      "path": "skills/slab-serif/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "slab serif",
+        "egyptian type",
+        "clarendon",
+        "rockwell style",
+        "wild west poster",
+        "typewriter serif",
+        "sturdy serif"
+      ],
+      "use_cases": [
+        "posters and headlines",
+        "food, beer and craft brands",
+        "news and data interfaces",
+        "packaging"
+      ],
+      "emotion": [
+        "sturdy",
+        "bold",
+        "practical",
+        "honest",
+        "industrial"
+      ],
+      "archetypes": [
+        "everyman",
+        "hero"
+      ],
+      "vectors": {
+        "stroke_contrast": 1,
+        "construction": 4,
+        "x_height": 3,
+        "width": 3,
+        "serif_mass": 5
+      },
+      "techniques": []
+    },
+    {
+      "id": "grotesque-sans",
+      "name": "Grotesque sans",
+      "domain": "typeface",
+      "era": "industrial",
+      "period": "1816–1930",
+      "thesis": "A letter without serifs is plain, and the plain letter is the strongest one at a distance.",
+      "summary": "The first sans serifs: plain, heavy letters for posters, with a little contrast, some quirks of width and a two-storey g. Later text cuts such as Akzidenz-Grotesk and Franklin Gothic gave the class a sober, workmanlike voice.",
+      "path": "skills/grotesque-sans/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "grotesque",
+        "grotesk",
+        "akzidenz",
+        "franklin gothic",
+        "news gothic",
+        "early sans serif",
+        "industrial sans"
+      ],
+      "use_cases": [
+        "posters and headlines",
+        "news and magazine headings",
+        "signage",
+        "brands with a workmanlike voice"
+      ],
+      "emotion": [
+        "direct",
+        "industrial",
+        "sturdy",
+        "unpretentious",
+        "loud"
+      ],
+      "archetypes": [
+        "everyman",
+        "outlaw",
+        "hero"
+      ],
+      "vectors": {
+        "stroke_contrast": 2,
+        "construction": 4,
+        "x_height": 3,
+        "width": 3,
+        "serif_mass": 1
+      },
+      "techniques": []
+    },
+    {
+      "id": "humanist-sans",
+      "name": "Humanist sans",
+      "domain": "typeface",
+      "era": "modernist",
+      "period": "1916–present",
+      "thesis": "A sans serif reads best when it keeps the proportions and the open forms of the written roman.",
+      "summary": "A sans serif on the skeleton of the Renaissance roman: open apertures, varied widths, a little stroke modulation and an angled cut on the terminals. It reads well at small sizes and in poor conditions, and sounds warm.",
+      "path": "skills/humanist-sans/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "humanist sans",
+        "gill sans",
+        "frutiger",
+        "fira sans",
+        "open sans",
+        "friendly sans",
+        "readable sans",
+        "wayfinding font"
+      ],
+      "use_cases": [
+        "wayfinding and public signage",
+        "health, education and public services",
+        "long text on screens",
+        "product interfaces with a warm voice"
+      ],
+      "emotion": [
+        "friendly",
+        "humane",
+        "clear",
+        "approachable",
+        "civic"
+      ],
+      "archetypes": [
+        "caregiver",
+        "everyman",
+        "sage"
+      ],
+      "vectors": {
+        "stroke_contrast": 2,
+        "construction": 2,
+        "x_height": 4,
+        "width": 3,
+        "serif_mass": 1
+      },
+      "techniques": []
+    },
+    {
+      "id": "geometric-sans",
+      "name": "Geometric sans",
+      "domain": "typeface",
+      "era": "modernist",
+      "period": "1927–present",
+      "thesis": "A letter is a construction of pure forms, free of the hand and of history.",
+      "summary": "A sans serif built from the circle, the square and the triangle: a round o, a single-storey a, pointed apexes and almost no contrast. It is the type of the modernist programme, clean and optimistic, with a small x-height in the classic cuts.",
+      "path": "skills/geometric-sans/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "geometric sans",
+        "futura",
+        "bauhaus font",
+        "avant garde gothic",
+        "circular sans",
+        "modernist type",
+        "jost"
+      ],
+      "use_cases": [
+        "logos and brand marks",
+        "fashion and lifestyle titles",
+        "posters",
+        "architecture and design studios"
+      ],
+      "emotion": [
+        "modern",
+        "clean",
+        "optimistic",
+        "geometric",
+        "confident"
+      ],
+      "archetypes": [
+        "creator",
+        "explorer",
+        "magician"
+      ],
+      "vectors": {
+        "stroke_contrast": 1,
+        "construction": 5,
+        "x_height": 2,
+        "width": 4,
+        "serif_mass": 1
+      },
+      "techniques": []
+    },
+    {
+      "id": "neo-grotesque-sans",
+      "name": "Neo-grotesque sans",
+      "domain": "typeface",
+      "era": "modernist",
+      "period": "1957–present",
+      "thesis": "A typeface is a neutral vessel: it carries the message and adds nothing of its own.",
+      "summary": "The neutral sans of the grid: even widths, horizontal terminals, closed apertures, a large x-height and almost no contrast. It lets the layout speak and is the default voice of interfaces and corporate systems.",
+      "path": "skills/neo-grotesque-sans/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "neo-grotesque",
+        "helvetica",
+        "swiss type",
+        "neutral sans",
+        "inter",
+        "interface font",
+        "corporate sans",
+        "univers"
+      ],
+      "use_cases": [
+        "user interfaces and dashboards",
+        "corporate identity",
+        "signage and wayfinding",
+        "posters on a grid"
+      ],
+      "emotion": [
+        "neutral",
+        "clean",
+        "efficient",
+        "corporate",
+        "objective"
+      ],
+      "archetypes": [
+        "ruler",
+        "everyman"
+      ],
+      "vectors": {
+        "stroke_contrast": 1,
+        "construction": 4,
+        "x_height": 5,
+        "width": 3,
+        "serif_mass": 1
       },
       "techniques": []
     }

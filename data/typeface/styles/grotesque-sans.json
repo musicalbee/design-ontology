@@ -1,0 +1,261 @@
+{
+  "$schema": "../../../schema/domains/typeface.schema.json",
+  "id": "grotesque-sans",
+  "domain": "typeface",
+  "name": "Grotesque sans",
+  "aliases": [
+    "Grotesk",
+    "Gothic",
+    "Early sans serif",
+    "Lineale grotesque"
+  ],
+  "era_id": "industrial",
+  "time_period": {
+    "start": 1816,
+    "end": 1930,
+    "label": "1816–1930"
+  },
+  "region": "London, then Germany and the United States",
+  "summary": "The first sans serifs: plain, heavy letters for posters, with a little contrast, some quirks of width and a two-storey g. Later text cuts such as Akzidenz-Grotesk and Franklin Gothic gave the class a sober, workmanlike voice.",
+  "philosophy": {
+    "core_thesis": "A letter without serifs is plain, and the plain letter is the strongest one at a distance.",
+    "design_principles": [
+      "Keep the stroke contrast at 1.1–1.6:1, with a slight thinning where curves meet stems.",
+      "Use a two-storey g or a g with a spur, a spurred G and an R with a straight or curved leg.",
+      "Let the widths vary: a wide M and W, a narrow S and E, with no strict rule.",
+      "Cut the terminals of c, e and s at an angle or close to horizontal, with a moderate aperture.",
+      "Hold the x-height at 0.68–0.78 of the cap height.",
+      "Set headlines in bold or condensed bold; the grotesque is at its best in heavy weights."
+    ],
+    "anti_patterns": [
+      "Pure geometric circles and triangles in the letters",
+      "Calligraphic stress or swelling strokes",
+      "A uniform, optically perfect width for all capitals",
+      "Light hairline weights for text",
+      "Serifs or slabs on any letter"
+    ]
+  },
+  "vectors": {
+    "stroke_contrast": 2,
+    "construction": 4,
+    "x_height": 3,
+    "width": 3,
+    "serif_mass": 1
+  },
+  "classification": {
+    "vox_atypi": "Lineale: Grotesque",
+    "din_16518": "Gruppe VI: Serifenlose Linear-Antiqua",
+    "note": "The Vox Lineale class has four sub-classes: grotesque, neo-grotesque, geometric and humanist. The grotesque shows more contrast and more quirks than the neo-grotesque."
+  },
+  "anatomy": {
+    "contrast": "Low but visible: the thin parts are 0.6–0.9 of the stem; the joins of n and m thin out.",
+    "stress": "Vertical, where the joins show any thinning at all.",
+    "serifs": "None: the strokes end clean, with no serif.",
+    "terminals": "Cut at an angle or close to horizontal on c, e, s and the bowl of a.",
+    "aperture": "Moderate: smaller than in a humanist sans, larger than in a neo-grotesque.",
+    "key_letters": "A two-storey g (often with an ear), a G with a spur, an R with a straight leg, and a square-shouldered a."
+  },
+  "metrics": {
+    "x_height_min": 0.68,
+    "x_height_max": 0.78,
+    "contrast_min": 1.1,
+    "contrast_max": 1.6,
+    "x_height": "The x-height is 0.68–0.78 of the cap height and about 0.47–0.53 of the em.",
+    "contrast": "The side of the o is 1.1 to 1.6 times as thick as its top.",
+    "width": "Medium, with uneven widths between letters; condensed cuts are common.",
+    "figures": "Lining figures; tabular in news and timetable cuts."
+  },
+  "setting": {
+    "text_sizes": "Set text at 9–11 pt in print and 15–18 px on screen.",
+    "display_sizes": "Set headlines at 24–144 pt in bold or condensed bold.",
+    "leading": "Set the leading at 1.35–1.5 for text and 0.95–1.1 for headlines.",
+    "tracking": "Set 0 to +0.01 em in text, −0.01 to −0.03 em in large headlines, +0.05 em for capitals.",
+    "measure": "Set 50–70 characters a line.",
+    "case_and_features": "Use capitals and condensed cuts for posters; tabular figures for data."
+  },
+  "pairing": {
+    "rule": "Pair it with a serif of the same century, or use one grotesque family in several widths and weights.",
+    "pairs": [
+      {
+        "with": "Slab serif (Roboto Slab)",
+        "role": "slab for headlines",
+        "why": "The two classes came from the same posters, so the pair feels historically true."
+      },
+      {
+        "with": "Transitional serif (Libre Baskerville)",
+        "role": "serif for long text",
+        "why": "The serif carries the reading, and the grotesque carries the headings and the data."
+      }
+    ]
+  },
+  "reference_faces": {
+    "faces": [
+      {
+        "face": "Two Lines English Egyptian",
+        "designer": "William Caslon IV",
+        "year": 1816,
+        "status": "historic metal"
+      },
+      {
+        "face": "Akzidenz-Grotesk",
+        "designer": "H. Berthold AG",
+        "year": 1898,
+        "status": "proprietary"
+      },
+      {
+        "face": "Franklin Gothic",
+        "designer": "Morris Fuller Benton",
+        "year": 1902,
+        "status": "historic metal"
+      },
+      {
+        "face": "Work Sans",
+        "designer": "Wei Huang",
+        "year": 2015,
+        "status": "open revival"
+      },
+      {
+        "face": "Libre Franklin",
+        "designer": "Pablo Impallari, Rodrigo Fuenzalida, Nhung Nguyen",
+        "year": 2015,
+        "status": "open revival"
+      }
+    ],
+    "note": "Work Sans takes its forms from early grotesques. The default instance of Libre Franklin in google/fonts is the Thin weight, so the specimen uses Work Sans."
+  },
+  "prompt_primer": {
+    "positive": [
+      "grotesque sans-serif",
+      "akzidenz style",
+      "bold condensed headline",
+      "early twentieth-century poster",
+      "two-storey g",
+      "industrial signage",
+      "plain black letters",
+      "newsprint"
+    ],
+    "negative": [
+      "serifs",
+      "geometric circles",
+      "script",
+      "calligraphic stress",
+      "thin hairline type"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Work Sans",
+      "kind": "font",
+      "maker": "Wei Huang",
+      "year": 2015,
+      "credit": "google/fonts repository, ofl/worksans",
+      "licence": "OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "url": "https://fonts.google.com/specimen/Work+Sans",
+      "file": "https://raw.githubusercontent.com/google/fonts/main/ofl/worksans/WorkSans%5Bwght%5D.ttf"
+    },
+    {
+      "title": "Libre Franklin",
+      "kind": "font",
+      "maker": "Pablo Impallari, Rodrigo Fuenzalida, Nhung Nguyen",
+      "credit": "google/fonts repository, ofl/librefranklin",
+      "licence": "OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "url": "https://fonts.google.com/specimen/Libre+Franklin",
+      "file": "https://raw.githubusercontent.com/google/fonts/main/ofl/librefranklin/LibreFranklin%5Bwght%5D.ttf"
+    },
+    {
+      "title": "Two Lines English Egyptian, the first sans serif type",
+      "kind": "image",
+      "maker": "William Caslon IV",
+      "year": 1816,
+      "credit": "Specimen in Columbia University; scan on Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Caslon_Two_Lines_English_Egyptian_(cropped).jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Caslon_Two_Lines_English_Egyptian_%28cropped%29.jpg/960px-Caslon_Two_Lines_English_Egyptian_%28cropped%29.jpg"
+    },
+    {
+      "title": "Figgins sans-serif specimen",
+      "kind": "image",
+      "maker": "Figgins Foundry of London",
+      "year": 1845,
+      "credit": "Figgins specimen book; scan on Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Figgins_sans-serif_specimen_(cropped).jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Figgins_sans-serif_specimen_%28cropped%29.jpg/960px-Figgins_sans-serif_specimen_%28cropped%29.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "didone-serif"
+    ],
+    "hybridized_with": [
+      "slab-serif"
+    ],
+    "echoes": [
+      "constructivism-web"
+    ]
+  },
+  "emotion": {
+    "target_response": "Plain strength: the reader feels a direct, honest voice with some character left in it.",
+    "keywords": [
+      "direct",
+      "industrial",
+      "sturdy",
+      "unpretentious",
+      "loud"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "outlaw",
+      "hero"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "grotesque",
+      "grotesk",
+      "akzidenz",
+      "franklin gothic",
+      "news gothic",
+      "early sans serif",
+      "industrial sans"
+    ],
+    "use_cases": [
+      "posters and headlines",
+      "news and magazine headings",
+      "signage",
+      "brands with a workmanlike voice"
+    ],
+    "avoid_when": [
+      "The brief asks for a perfectly neutral, systematic face.",
+      "The brief asks for warmth or a handwritten feel."
+    ],
+    "modifiers": [
+      {
+        "request": "more neutral",
+        "toward": "neo-grotesque-sans",
+        "how": "Even the widths, close the apertures to horizontal terminals, and bring the contrast down to 1.1:1."
+      },
+      {
+        "request": "more vintage",
+        "toward": "slab-serif",
+        "how": "Add square slabs and keep the weight; set the headline in capitals."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Grotesque sans-serif (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Grotesque_sans-serif"
+    },
+    {
+      "title": "Vox-ATypI classification (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Vox-ATypI_classification"
+    },
+    {
+      "title": "Robert Bringhurst, The Elements of Typographic Style (Hartley & Marks, 4th ed. 2012)"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "$schema": "../../../schema/domains/icon.schema.json",
+  "id": "solid-glyph-icon",
+  "domain": "icon",
+  "name": "Solid glyph icon",
+  "aliases": [
+    "Filled icon",
+    "Glyph icon",
+    "Icon font glyph"
+  ],
+  "era_id": "vector-system",
+  "time_period": {
+    "start": 2012,
+    "end": null,
+    "label": "2012–present"
+  },
+  "region": "Icon fonts on the web: Glyphicons and Font Awesome",
+  "formats": [
+    "svg",
+    "icon font"
+  ],
+  "summary": "Icons as solid, one-colour silhouettes, like the glyphs of a bold typeface. Inner details are cut out of the fill as gaps. The style began with icon fonts and stays the default for small, high-contrast UI.",
+  "philosophy": {
+    "core_thesis": "An icon is a single solid mark, and a silhouette with cut-out details reads best at small sizes and on any ground.",
+    "design_principles": [
+      "Draw a solid silhouette on a 24 × 24 px grid, or on the em square of an icon font.",
+      "Cut inner details out of the fill as gaps of 1.5–2 px at 24 px.",
+      "Use one colour per icon; the icon takes the text colour.",
+      "Keep the visual weight even: each icon covers 40–60% of its live area.",
+      "Give rectangles a corner radius of 1–2 px at 24 px.",
+      "Align the glyph to the text baseline when it is set in a line of text."
+    ],
+    "anti_patterns": [
+      "Thin outlines next to solid shapes",
+      "More than one colour in a UI glyph",
+      "Gradients and shadows",
+      "Gaps under 1 px at 24 px",
+      "Uneven visual weight across the set"
+    ]
+  },
+  "vectors": {
+    "realism": 1,
+    "fill": 5,
+    "corner_softness": 3,
+    "detail_density": 2,
+    "colour_count": 1
+  },
+  "grid": {
+    "sizes_px": [
+      12,
+      14,
+      16,
+      20,
+      24
+    ],
+    "base_px": 24,
+    "live_area_px": 20,
+    "padding_px": 2,
+    "keylines": "A circle of 20 px and a square of 18 px; for a font, the glyph fills the em height with a sidebearing of 1/16 em."
+  },
+  "stroke": {
+    "width_px": null,
+    "caps": "none",
+    "joins": "none",
+    "rule": "No stroke. The form is the fill; inner lines are negative gaps of 1.5–2 px."
+  },
+  "shape": {
+    "corner_radius_px": 1.5,
+    "primitives": "Solid silhouettes from circles, rectangles and rounded rectangles; gaps cut at 0°, 45° or 90°.",
+    "optical_size": "At 12–16 px, close small gaps and keep the outer silhouette; at 24 px and above, open the gaps."
+  },
+  "colour": {
+    "count_max": 1,
+    "gradients": false,
+    "strategy": "One colour, currentColor; the ground gives the contrast.",
+    "colours": [
+      {
+        "name": "Ink",
+        "hex": "#1A1A1A",
+        "role": "glyph on light ground"
+      },
+      {
+        "name": "Paper",
+        "hex": "#FFFFFF",
+        "role": "ground and gap"
+      },
+      {
+        "name": "Brand accent",
+        "hex": "#2563EB",
+        "role": "active state"
+      }
+    ]
+  },
+  "perspective_and_light": {
+    "view": "front orthographic",
+    "light": "No light model.",
+    "shadow": "No shadow; the glyph is flat on the ground."
+  },
+  "metaphor": {
+    "typical": "A house, a bell, a user, a trash can, a star, a heart and a magnifier.",
+    "treatment": "The silhouette of the object with 1 or 2 cut-out details."
+  },
+  "prompt_primer": {
+    "positive": [
+      "solid filled icon",
+      "glyph icon",
+      "single colour silhouette",
+      "icon font style",
+      "cut-out details",
+      "bold UI icons",
+      "Font Awesome style",
+      "high contrast pictogram"
+    ],
+    "negative": [
+      "outlines only",
+      "gradients",
+      "multiple colours",
+      "3D shading",
+      "thin hairlines"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Font Awesome Free: house (solid)",
+      "kind": "icon-set",
+      "maker": "Fonticons",
+      "credit": "Font Awesome Free 6.7.2; icons under CC BY 4.0",
+      "licence": "CC BY 4.0",
+      "licence_url": "https://fontawesome.com/license/free",
+      "url": "https://github.com/FortAwesome/Font-Awesome",
+      "file": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/svgs/solid/house.svg"
+    },
+    {
+      "title": "Font Awesome Free: bell (solid)",
+      "kind": "icon-set",
+      "maker": "Fonticons",
+      "credit": "Font Awesome Free 6.7.2; icons under CC BY 4.0",
+      "licence": "CC BY 4.0",
+      "licence_url": "https://fontawesome.com/license/free",
+      "url": "https://github.com/FortAwesome/Font-Awesome",
+      "file": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/svgs/solid/bell.svg"
+    },
+    {
+      "title": "Heroicons: home (24 solid)",
+      "kind": "icon-set",
+      "maker": "Tailwind Labs",
+      "credit": "Heroicons 2.1.5, 24 px solid",
+      "licence": "MIT",
+      "licence_url": "https://github.com/tailwindlabs/heroicons/blob/master/LICENSE",
+      "url": "https://github.com/tailwindlabs/heroicons",
+      "file": "https://cdn.jsdelivr.net/npm/heroicons@2.1.5/24/solid/home.svg"
+    },
+    {
+      "title": "Phosphor: house (fill)",
+      "kind": "icon-set",
+      "maker": "Helena Zhang and Tobias Fried",
+      "credit": "Phosphor Icons core 2.1.1, fill weight",
+      "licence": "MIT",
+      "licence_url": "https://github.com/phosphor-icons/core/blob/main/LICENSE",
+      "url": "https://github.com/phosphor-icons/core",
+      "file": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/fill/house-fill.svg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "pixel-icon",
+      "flat-icon"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "outline-icon"
+    ],
+    "echoes": [
+      "swiss-international"
+    ]
+  },
+  "emotion": {
+    "target_response": "Firm and clear: the user finds the action at once.",
+    "keywords": [
+      "bold",
+      "clear",
+      "direct",
+      "solid"
+    ],
+    "brand_archetypes": [
+      "hero",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "solid icon",
+      "filled icon",
+      "glyph icon",
+      "font awesome",
+      "icon font",
+      "heroicons solid",
+      "bold icon"
+    ],
+    "use_cases": [
+      "toolbars and tab bars",
+      "buttons and small UI at 12–16 px",
+      "maps and wayfinding pictograms",
+      "active state of an outline set"
+    ],
+    "avoid_when": [
+      "The UI is light and airy and the icons must recede.",
+      "The icon is the hero of a page and needs depth."
+    ],
+    "modifiers": [
+      {
+        "request": "lighter",
+        "toward": "outline-icon",
+        "how": "Keep the silhouette and the grid; draw the edge as a 2 px stroke with round caps, and drop the fill."
+      },
+      {
+        "request": "more nuanced",
+        "toward": "duotone-icon",
+        "how": "Keep the solid main shape; set the secondary parts at 20–40% opacity of the same colour."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Font Awesome repository",
+      "url": "https://github.com/FortAwesome/Font-Awesome"
+    },
+    {
+      "title": "Heroicons repository",
+      "url": "https://github.com/tailwindlabs/heroicons"
+    }
+  ]
+}

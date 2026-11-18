@@ -121,6 +121,7 @@ Vector axes, each 1 to 5: **ORN** ornamentation (plain surfaces, no applied deco
 | [`scandinavian-interior`](./scandinavian-interior/SKILL.md) | Post-war modern | scandinavian, scandi, nordic, danish design, hygge | family homes, small flats, cafés | bright, calm, natural | 1 | 2 | 3 | 4 | 1 |
 | [`industrial-loft-interior`](./industrial-loft-interior/SKILL.md) | Post-war modern | industrial, loft, warehouse, exposed brick, factory style | coffee shops and restaurants, co-working spaces, creative studios | raw, spacious, urban | 1 | 3 | 1 | 4 | 2 |
 | [`memphis-interior`](./memphis-interior/SKILL.md) | Post-war modern | memphis, memphis milano, sottsass, 1980s postmodern, squiggle pattern | retail and pop-up stores, creative offices, bars and cafés | playful, ironic, loud | 5 | 3 | 1 | 1 | 5 |
+| [`coastal-interior`](./coastal-interior/SKILL.md) | Global minimal | coastal, coastal style, beach house, summer house, sommerhus | holiday homes, flats near the water, hotels and guest houses | airy, relaxed, bright | 1 | 2 | 2 | 4 | 2 |
 | [`minimalist-interior`](./minimalist-interior/SKILL.md) | Global minimal | minimalist, minimal interior, white minimalism, pawson, less is more | galleries and showrooms, luxury retail, spa bathrooms | pure, calm, precise | 1 | 1 | 4 | 3 | 1 |
 | [`japandi-interior`](./japandi-interior/SKILL.md) | Networked home | japandi, japanese scandinavian, japanordic, zen minimal, wabi-sabi light | bedrooms, living rooms, spas and wellness | serene, grounded, natural | 1 | 1 | 3 | 5 | 1 |
 | [`grandmillennial-interior`](./grandmillennial-interior/SKILL.md) | Networked home | grandmillennial, granny chic, new traditional, chintz, blue and white porcelain | family living rooms, bedrooms and guest rooms, country hotels and B&Bs | nostalgic, cheerful, cosy | 4 | 4 | 3 | 3 | 3 |
@@ -231,6 +232,37 @@ Vector axes, each 1 to 5: **ABS** abstraction (a literal picture of a thing → 
 | [`minimal-wordmark`](./minimal-wordmark/SKILL.md) | Modernist identity | wordmark, logotype, text logo, type-only logo, minimal logo | fashion and retail, software and services, media titles | clean, assured, modern | 3 | 4 | 1 | 5 | 1 |
 | [`glossy-3d-logo`](./glossy-3d-logo/SKILL.md) | Screen identity | web 2.0 logo, glossy logo, 3d logo, aqua, glass orb | nostalgic web and game projects, Y2K revival merchandise, app icons with a retro theme | shiny, optimistic, techy | 3 | 3 | 2 | 2 | 5 |
 | [`flat-logo`](./flat-logo/SKILL.md) | Screen identity | flat logo, flat design, app icon logo, material design logo, colourful simple logo | apps and software products, start-ups and platforms, favicons and app icons | friendly, clear, bright | 4 | 5 | 1 | 2 | 1 |
+
+## Icons
+
+Vector axes, each 1 to 5: **REA** realism (abstract glyph → rendered object with material and light) · **FIL** fill (stroke only → solid fill only) · **COR** corner softness (square, sharp corners → round, soft corners) · **DET** detail density (one idea in few strokes → many parts, texture and highlights) · **COL** colour count (one colour → full colour with gradients).
+
+| Skill | Era | Load when | Good for | Feels | REA | FIL | COR | DET | COL |
+|---|---|---|---|---|:-:|:-:|:-:|:-:|:-:|
+| [`pixel-icon`](./pixel-icon/SKILL.md) | Bitmap | pixel icon, bitmap icon, 8-bit icon, pixel art icons, retro os icons | retro games and game UI, developer tools with a playful voice, pixel-art brand campaigns | retro, exact, playful | 2 | 4 | 1 | 2 | 2 |
+| [`isometric-icon`](./isometric-icon/SKILL.md) | Rendered | isometric icon, isometric, 2.5d icon, 3d flat icon, axonometric icon | cloud and infrastructure diagrams, landing page feature illustrations, infographics and explainers | technical, ordered, dimensional | 3 | 4 | 2 | 3 | 4 |
+| [`skeuomorphic-icon`](./skeuomorphic-icon/SKILL.md) | Rendered | skeuomorphic icon, realistic icon, aqua icon, ios 6 icon, tango icon | retro or nostalgic app icons, desktop application icons, games and toys | tactile, rich, familiar | 5 | 5 | 4 | 5 | 5 |
+| [`flat-icon`](./flat-icon/SKILL.md) | Vector system | flat icon, flat design icon, flat colour icon, long shadow icon, metro icon | marketing pages and feature lists, onboarding screens, app icons for simple tools | clean, bright, simple | 2 | 5 | 3 | 2 | 4 |
+| [`solid-glyph-icon`](./solid-glyph-icon/SKILL.md) | Vector system | solid icon, filled icon, glyph icon, font awesome, icon font | toolbars and tab bars, buttons and small UI at 12–16 px, maps and wayfinding pictograms | bold, clear, direct | 1 | 5 | 3 | 2 | 1 |
+| [`outline-icon`](./outline-icon/SKILL.md) | Vector system | outline icon, line icon, stroke icon, feather icons, lucide | web and app UI, dashboards and admin tools, documentation sites | minimal, light, precise | 1 | 1 | 4 | 1 | 1 |
+| [`material-symbols-icon`](./material-symbols-icon/SKILL.md) | Vector system | material icons, material symbols, google icons, android icons, material design icon | Android and Material web apps, admin and back-office tools, design systems that need fill and weight states | systematic, consistent, neutral | 1 | 3 | 3 | 1 | 1 |
+| [`duotone-icon`](./duotone-icon/SKILL.md) | Vector system | duotone icon, two tone icon, bicolour icon, phosphor duotone, soft fill icon | SaaS marketing pages, empty states and feature cards, dashboards with a soft brand | soft, layered, friendly | 1 | 3 | 4 | 2 | 2 |
+| [`clay-3d-icon`](./clay-3d-icon/SKILL.md) | Post-flat | 3d icon, clay icon, soft 3d icon, 3d emoji, fluent emoji 3d | landing page heroes and feature cards, onboarding and empty states, consumer and fintech apps with a soft voice | playful, soft, warm | 4 | 5 | 5 | 3 | 5 |
+
+## Typeface
+
+Vector axes, each 1 to 5: **CON** stroke contrast (monoline, thick and thin strokes equal → hairlines against heavy stems, 5:1 or more) · **CST** construction (written: broad-nib pen, diagonal stress, open forms → constructed: ruler and compass, vertical or no stress) · **XHT** x-height (small, under 0.62 of the cap height → large, 0.74 of the cap height or more) · **WID** width (condensed → extended) · **SER** serif mass (no serifs → heavy, square, unbracketed slab).
+
+| Skill | Era | Load when | Good for | Feels | CON | CST | XHT | WID | SER |
+|---|---|---|---|---|:-:|:-:|:-:|:-:|:-:|
+| [`garalde-old-style`](./garalde-old-style/SKILL.md) | Hand press | old-style serif, garamond, caslon, garalde, book typography | books and long-form reading, literary magazines, academic and museum publishing | literary, warm, classical | 2 | 1 | 1 | 3 | 3 |
+| [`transitional-serif`](./transitional-serif/SKILL.md) | Hand press | transitional serif, baskerville, times style, georgian type, enlightenment serif | books and reports, university and legal publishing, newspaper text | rational, elegant, authoritative | 3 | 3 | 2 | 3 | 3 |
+| [`didone-serif`](./didone-serif/SKILL.md) | Hand press | didone, bodoni, didot, fashion serif, luxury type | fashion and beauty mastheads, luxury brand titles, editorial covers | glamorous, luxurious, sharp | 5 | 4 | 1 | 3 | 2 |
+| [`slab-serif`](./slab-serif/SKILL.md) | Industrial | slab serif, egyptian type, clarendon, rockwell style, wild west poster | posters and headlines, food, beer and craft brands, news and data interfaces | sturdy, bold, practical | 1 | 4 | 3 | 3 | 5 |
+| [`grotesque-sans`](./grotesque-sans/SKILL.md) | Industrial | grotesque, grotesk, akzidenz, franklin gothic, news gothic | posters and headlines, news and magazine headings, signage | direct, industrial, sturdy | 2 | 4 | 3 | 3 | 1 |
+| [`humanist-sans`](./humanist-sans/SKILL.md) | Modernist | humanist sans, gill sans, frutiger, fira sans, open sans | wayfinding and public signage, health, education and public services, long text on screens | friendly, humane, clear | 2 | 2 | 4 | 3 | 1 |
+| [`geometric-sans`](./geometric-sans/SKILL.md) | Modernist | geometric sans, futura, bauhaus font, avant garde gothic, circular sans | logos and brand marks, fashion and lifestyle titles, posters | modern, clean, optimistic | 1 | 5 | 2 | 4 | 1 |
+| [`neo-grotesque-sans`](./neo-grotesque-sans/SKILL.md) | Modernist | neo-grotesque, helvetica, swiss type, neutral sans, inter | user interfaces and dashboards, corporate identity, signage and wayfinding | neutral, clean, efficient | 1 | 4 | 5 | 3 | 1 |
 
 ---
 
