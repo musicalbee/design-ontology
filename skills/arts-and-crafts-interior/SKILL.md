@@ -237,7 +237,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`victorian-interior`](../victorian-interior/SKILL.md)
 - **Kin in another domain:** [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md)
-- **Nearest by vector profile:** [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md), [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md)
+- **Nearest by vector profile:** [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md)
 
 ## Emotional target
 

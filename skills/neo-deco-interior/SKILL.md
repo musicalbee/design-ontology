@@ -13,10 +13,10 @@ triggers:
   - "boucle"
   - "deco revival"
 vector_profile:
-  ornamentation: 3
+  ornamentation: 4
   density: 3
-  formality: 3
-  material_naturalness: 3
+  formality: 4
+  material_naturalness: 2
   chromatic_intensity: 3
 ---
 
@@ -63,10 +63,10 @@ Each line below breaks the style. Check your output against the list before you 
 
 | Axis | Score | 1 means | 5 means |
 |---|---|---|---|
-| Ornamentation | `■■■□□` 3/5 | plain surfaces, no applied decoration | pattern and ornament on every surface |
+| Ornamentation | `■■■■□` 4/5 | plain surfaces, no applied decoration | pattern and ornament on every surface |
 | Density | `■■■□□` 3/5 | few objects, wide empty floor | full floor, full walls, layered objects |
-| Formality | `■■■□□` 3/5 | free asymmetric placement | axial, mirrored placement |
-| Material naturalness | `■■■□□` 3/5 | synthetic, lacquered, plastic | raw wood, stone, linen, clay |
+| Formality | `■■■■□` 4/5 | free asymmetric placement | axial, mirrored placement |
+| Material naturalness | `■■□□□` 2/5 | synthetic, lacquered, plastic | raw wood, stone, linen, clay |
 | Chromatic intensity | `■■■□□` 3/5 | neutral, low chroma | saturated colour fields |
 
 Hold these scores. If a request moves an axis by 2 points or more, you have left the style: go to "Lineage fallbacks".
@@ -224,7 +224,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`minimalist-interior`](../minimalist-interior/SKILL.md)
 - **Mixes well with:** [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md)
 - **Kin in another domain:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`art-deco-web`](../art-deco-web/SKILL.md)
-- **Nearest by vector profile:** [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md)
+- **Nearest by vector profile:** [`art-deco-interior`](../art-deco-interior/SKILL.md), [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md)
 
 ## Emotional target
 

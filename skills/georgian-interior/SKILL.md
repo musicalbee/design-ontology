@@ -241,7 +241,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md), [`victorian-interior`](../victorian-interior/SKILL.md)
 - **Kin in another domain:** [`renaissance-painting`](../renaissance-painting/SKILL.md)
-- **Nearest by vector profile:** [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md), [`art-deco-interior`](../art-deco-interior/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md)
+- **Nearest by vector profile:** [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md), [`art-deco-interior`](../art-deco-interior/SKILL.md), [`shaker-interior`](../shaker-interior/SKILL.md)
 
 ## Emotional target
 

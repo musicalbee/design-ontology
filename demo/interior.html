@@ -169,7 +169,7 @@ function focalXY(c) {
   switch (c.focal_wall) {
     case "left": case "window": return [0, p * D];
     case "right": return [W, p * D];
-    case "centre": return [p * W, D * 0.42];
+    case "centre": return [p * W, D * 0.5];
     default: return [p * W, 0];
   }
 }
@@ -178,7 +178,8 @@ function plan(s) {
   const c = s.composition, z = s.zoning, L = s.lighting, cols = s.palette.colours, v = s.vectors;
   const wall = pick(cols, "dominant"), floor = pick(cols, "wood", "dominant"), soft = pick(cols, "secondary");
   const soft2 = all(cols, "secondary")[1] ?? soft, dark = pick(cols, "accent", "metal"), acc = all(cols, "accent");
-  const free = c.symmetry === "free", bil = c.symmetry === "bilateral";
+  // radial counts as bilateral: the group sits on the axis around a centre piece
+  const free = c.symmetry === "free", bil = c.symmetry === "bilateral" || c.symmetry === "radial", centre = c.focal_wall === "centre";
   const [fx, fy] = focalXY(c);
   const out = [];
 
@@ -210,7 +211,8 @@ function plan(s) {
     const sy = gy + tD / 2 + gap + sofaD / 2;
     const rTop = gy - tD / 2 - 45, rBot = sy + sofaD / 2 + 15;
     items.push(["rug", gx, (rTop + rBot) / 2, sofaW + rugPad * 2, rBot - rTop, pick(cols, "secondary"), rot(-8), 4]);
-    items.push(["table", gx, gy, tW, tD, pick(cols, "wood", "accent"), rot(10), free ? tW / 2 : 6]);
+    // a centre focal piece takes the place of the table
+    if (!centre) items.push(["table", gx, gy, tW, tD, pick(cols, "wood", "accent"), rot(10), free ? tW / 2 : 6]);
     items.push(["sofa", gx, sy, sofaW, sofaD, soft, rot(-18), free ? 40 : 10]);
     const chair = (side) => ["chair", gx + side * (tW / 2 + gap + 40), gy - 10, 75, 78, soft2, rot(side * 25) || (free ? 0 : 0), free ? 37 : 8];
     if (bil) items.push(chair(-1), chair(1));
@@ -230,8 +232,8 @@ function plan(s) {
   else if (c.focal_wall === "back") items.push(["focal piece", fx, 28, 160, 40, acc[0] ?? dark, rot(-22), 2]);
   // storage stands on the right wall, or on the back wall when the right wall holds the focal point
   if (v.density >= 2) items.push(faceRight ? ["sideboard", W * 0.25, 30, 170, 45, pick(cols, "wood", "secondary"), 0, 2] : ["sideboard", W - 30, D * 0.55, 45, 170, pick(cols, "wood", "secondary"), 0, 2]);
-  // the side table stands at the end of the sofa
-  if (v.density >= 3) items.push(faceLeft ? ["side table", gx + side * (tW / 2 + gap + sofaD / 2), gy - sofaW / 2 - 35, 40, 40, acc[1] ?? dark, rot(15), 20] : ["side table", gx - sofaW / 2 - 35, gy + tD / 2 + gap + sofaD / 2, 40, 40, acc[1] ?? dark, rot(15), 20]);
+  // the side table stands at the end of the sofa, away from the back wall
+  if (v.density >= 3) items.push(faceLeft ? ["side table", gx + side * (tW / 2 + gap + sofaD / 2), gy + (gy < D / 2 ? 1 : -1) * (sofaW / 2 + 35), 40, 40, acc[1] ?? dark, rot(15), 20] : ["side table", gx - sofaW / 2 - 35, gy + tD / 2 + gap + sofaD / 2, 40, 40, acc[1] ?? dark, rot(15), 20]);
   if (bil && !faceLeft) items.push(["side table", gx + sofaW / 2 + 35, gy + tD / 2 + gap + sofaD / 2, 40, 40, acc[1] ?? dark, 0, 20]);
   if (v.density >= 4) items.push(["plant", 45, D - 45, 50, 50, "#6b8f5a", 0, 25], ["chair", W * 0.2, D * 0.82, 70, 70, acc[2] ?? soft2, rot(30), 35]);
   // the rug is a translucent field, so the pieces on it stay readable

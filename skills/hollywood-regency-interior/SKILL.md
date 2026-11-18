@@ -2,7 +2,7 @@
 name: hollywood-regency-interior
 description: "Apply the Hollywood Regency style (1935–1965; revival from 2005) when planning, describing or rendering a room. Load when the user asks for: hollywood regency, regency moderne, dorothy draper, old hollywood, glam interior, lacquered walls."
 domain: interior
-era: modern-reform
+era: post-war-modern
 triggers:
   - "hollywood regency"
   - "regency moderne"
@@ -25,7 +25,7 @@ vector_profile:
 
 The decorator's room of the film stars. Regency and neoclassical forms meet lacquer colour, bold stripes and mirror; a symmetric plan around a centre piece, white plaster and gilt make each room ready for a camera.
 
-**Period:** 1935–1965; revival from 2005 · **Era:** Modern reform · **Domain:** Interior · **Also called:** Hollywood Regency, Regency moderne, Hollywood glamour
+**Period:** 1935–1965; revival from 2005 · **Era:** Post-war modern · **Domain:** Interior · **Also called:** Hollywood Regency, Regency moderne, Hollywood glamour
 
 ## When to load this skill
 
@@ -231,7 +231,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`art-deco-interior`](../art-deco-interior/SKILL.md), [`georgian-interior`](../georgian-interior/SKILL.md)
 - **Kin in another domain:** [`art-deco-web`](../art-deco-web/SKILL.md)
-- **Nearest by vector profile:** [`art-deco-interior`](../art-deco-interior/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md)
+- **Nearest by vector profile:** [`neo-deco-interior`](../neo-deco-interior/SKILL.md), [`art-deco-interior`](../art-deco-interior/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md)
 
 ## Emotional target
 
