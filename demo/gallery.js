@@ -27,7 +27,7 @@ document.head.insertAdjacentHTML("beforeend", `<style>
   h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; margin: 0 0 8px; color: var(--muted); font-weight: 650; }
   .shot { aspect-ratio: 3 / 2; width: 100%; border-radius: 6px; overflow: hidden; background: #eee; display: grid; }
   .shot img { width: 100%; height: 100%; object-fit: cover; display: block; }
-  .shot.tall { background: #111; }
+  .shot.tall { background: #111; grid-template-rows: minmax(0, 1fr); }
   .shot.tall img { object-fit: contain; }
   .shot .ph { display: flex; }
   .shot .ph span { flex: 1; }
