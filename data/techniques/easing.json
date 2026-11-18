@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "easing",
+  "name": "Easing",
+  "aliases": [
+    "Slow in and slow out",
+    "Timing function"
+  ],
+  "kind": "animation",
+  "summary": "A move speeds up from rest and slows down before it stops, as a real mass does, instead of a constant speed.",
+  "how": [
+    "Give a move of 200 to 400ms an ease-out curve when an element enters and an ease-in curve when it leaves.",
+    "Use cubic-bezier(0.4, 0, 0.2, 1) as the standard curve for a move inside the screen.",
+    "Put more frames at the two ends of a move than in the middle: 2 to 3 times the density."
+  ],
+  "origin": {
+    "domain": "film",
+    "year": 1930,
+    "circa": true,
+    "where": "Disney studio, Los Angeles",
+    "note": "Animators draw more frames at the start and the end of a move; Thomas and Johnston name it slow in and slow out."
+  },
+  "adoptions": [
+    {
+      "domain": "design",
+      "year": 2001,
+      "via": "Robert Penner publishes easing equations for Flash, and web motion takes them up.",
+      "styles": [
+        "frutiger-aero"
+      ]
+    },
+    {
+      "domain": "design",
+      "year": 2009,
+      "circa": true,
+      "via": "CSS transitions define timing functions such as ease-in-out and cubic-bezier().",
+      "styles": [
+        "material-design"
+      ]
+    }
+  ],
+  "styles": [
+    "frutiger-aero",
+    "material-design",
+    "glassmorphism"
+  ],
+  "principles": [
+    "rhythm"
+  ],
+  "sources": [
+    {
+      "title": "Frank Thomas and Ollie Johnston, The Illusion of Life: Disney Animation (1981)"
+    },
+    {
+      "title": "Robert Penner, Programming Macromedia Flash MX (2002)"
+    }
+  ]
+}

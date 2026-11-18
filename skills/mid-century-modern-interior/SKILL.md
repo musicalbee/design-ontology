@@ -228,6 +228,34 @@ Reference works:
 | Miller House, Columbus, Indiana | Eero Saarinen and Alexander Girard | 1957 |
 | Stahl House (Case Study House No. 22), Los Angeles | Pierre Koenig | 1960 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Breeze block (material)
+
+A hollow concrete block with a pierced pattern; a wall of them shades and lets air and light through. Origin: architecture, Recife, Brazil, 1929.
+
+- Use blocks of 300 to 400mm square with 40% to 60% open area.
+- Stack the blocks in one grid of one pattern; mix no more than 2 patterns in one wall.
+- Inside, use the screen to divide zones while it keeps light and air.
+
+### Sunburst (motif)
+
+Rays from a disc or a half disc: a sign of light and of the new, on a facade, a gate, a mirror or a clock. Origin: architecture, Paris, 1925.
+
+- Draw 12 to 36 rays from one centre; alternate long and short rays, or two finishes.
+- Keep the centre disc at 15% to 30% of the full diameter.
+- In a room, use one sunburst as the focal point of one wall.
+
+### Terrazzo (material)
+
+Chips of marble or glass set in a binder and ground flat, so that each chip shows as a cut section. Origin: architecture, Venice, c. 1500.
+
+- Set chips of 5 to 25mm in a binder; the chips cover 40% to 60% of the surface.
+- Use 2 to 4 chip colours on one ground colour.
+- Grind and polish the surface flat, so that the chip edges show as cut sections.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -239,7 +267,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`bauhaus-interior`](../bauhaus-interior/SKILL.md)
 - **Was rejected by:** [`memphis-interior`](../memphis-interior/SKILL.md)
 - **Mixes well with:** [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
-- **Kin in another domain:** [`international-style-architecture`](../international-style-architecture/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md)
+- **Kin in another domain:** [`international-style-architecture`](../international-style-architecture/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md), [`space-age`](../space-age/SKILL.md)
 - **Nearest by vector profile:** [`bauhaus-interior`](../bauhaus-interior/SKILL.md), [`coastal-interior`](../coastal-interior/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md)
 
 ## Emotional target

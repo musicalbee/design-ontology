@@ -241,9 +241,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more app-like**: move toward [`bento-grid-ui`](../bento-grid-ui/SKILL.md) (Bento Grid UI). Close the open sections into cells with a 1px border; keep the type scale and the monochrome palette.
 
 - **Came from (go here for a more orthodox version):** [`bauhaus`](../bauhaus/SKILL.md)
-- **Led to (go here for a newer version):** [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`metro-ui`](../metro-ui/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md)
-- **Was rejected by:** [`anti-design`](../anti-design/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md), [`punk-zine`](../punk-zine/SKILL.md)
-- **Mixes well with:** [`bauhaus`](../bauhaus/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md)
+- **Led to (go here for a newer version):** [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`japanese-graphic-modernism`](../japanese-graphic-modernism/SKILL.md), [`metro-ui`](../metro-ui/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`wabi-sabi-web`](../wabi-sabi-web/SKILL.md)
+- **Was rejected by:** [`anti-design`](../anti-design/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`japanese-dense-web`](../japanese-dense-web/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md), [`punk-zine`](../punk-zine/SKILL.md)
+- **Mixes well with:** [`bauhaus`](../bauhaus/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`conceptual-sketch-ui`](../conceptual-sketch-ui/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md)
 - **Kin in another domain:** [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md)
 - **Nearest by vector profile:** [`de-stijl-web`](../de-stijl-web/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md)
 
@@ -257,6 +257,7 @@ Trust through order: the viewer feels that the information is objective, complet
 
 - Josef Müller-Brockmann, Grid Systems in Graphic Design (Niggli, 1981)
 - Richard Hollis, Swiss Graphic Design: The Origins and Growth of an International Style (Yale, 2006)
+- [eMuseum, Museum für Gestaltung Zürich: poster and graphic design collection](https://www.emuseum.ch)
 
 ---
 

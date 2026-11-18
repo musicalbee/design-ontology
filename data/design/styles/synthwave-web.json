@@ -1,0 +1,309 @@
+{
+  "$schema": "../../../schema/domains/design.schema.json",
+  "id": "synthwave-web",
+  "domain": "design",
+  "name": "Synthwave Web",
+  "aliases": [
+    "Outrun",
+    "Retrowave",
+    "80s neon web"
+  ],
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2013,
+    "end": null,
+    "label": "2013–now"
+  },
+  "primary_mediums": [
+    "web"
+  ],
+  "summary": "A neon sunset, a perspective grid, chrome type, pink and cyan on deep violet, and scanlines. It recalls the 1980s as film and games sold it, and it feels like a night drive.",
+  "philosophy": {
+    "core_thesis": "The 1980s as a dream: neon, chrome and a road to the horizon.",
+    "design_principles": [
+      "Set the ground as a gradient from #12062B at the top to #3A0A5C at the horizon.",
+      "Draw a sun of 240px to 480px with a gradient from #FFD319 to #FF2975 and 5 to 8 horizontal cuts that grow from 2px to 10px.",
+      "Draw a perspective grid on the floor with lines of 1px to 2px in #FF2975 or #00F0FF, 12 to 20 lines, with a vanishing point at 50% width.",
+      "Give headlines a chrome gradient (white to pink to violet) and a glow of 8px to 24px in pink at 60%.",
+      "Use only 3 neon hues: pink (#FF2975), cyan (#00F0FF) and yellow (#FFD319) on violet.",
+      "Overlay scanlines of 2px at 8% opacity and a vignette at 30%.",
+      "Slide the grid toward the viewer at 1 grid cell per 2s in a loop."
+    ],
+    "anti_patterns": [
+      "Pastel and earth palettes",
+      "Flat daylight backgrounds",
+      "Thin light text with no glow",
+      "Hand-drawn texture",
+      "Rounded friendly illustration",
+      "More than 3 neon hues",
+      "Serif body text"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "dimensionality": 2,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 5
+  },
+  "layout": {
+    "grid_mechanics": "A centred stage: sun and horizon at 40% to 60% height, a grid floor beneath, headline above the sun; sections stack in dark panels.",
+    "whitespace_ratio": "30% to 50% of the surface is empty sky and floor; the spacing scale is 8, 16, 32 and 64px.",
+    "alignment_rules": "Centred hero; text in panels flush left; stats in neon columns.",
+    "container_geometry": "Panels with a 2px neon border and 8px radius or none; pills for buttons at 999px."
+  },
+  "typography": {
+    "classifications": [
+      "wide display sans serif",
+      "retro script"
+    ],
+    "font_pairings": [
+      {
+        "display": "Orbitron",
+        "body": "Inter",
+        "note": "A wide techno display for headlines."
+      },
+      {
+        "display": "Audiowide",
+        "body": "Inter",
+        "note": "A rounded wide display with an 80s voice."
+      },
+      {
+        "display": "Monoton",
+        "body": "Inter",
+        "note": "A line-cut display for logos and short words."
+      }
+    ],
+    "tracking": "Display takes +0.04em; body stays at 0.",
+    "leading": "Display 1.1; body 1.6.",
+    "hierarchy_rules": [
+      "Use weights 400 and 700 for display and 400 for body.",
+      "Use sizes 16, 20, 48 and 96px.",
+      "Set headlines in upper case with chrome fill.",
+      "Set body at 16px in a plain sans for reading."
+    ]
+  },
+  "color": {
+    "palette_structure": "Deep violet with hot pink, cyan and a sun yellow.",
+    "palette": [
+      {
+        "name": "Night",
+        "hex": "#12062B",
+        "role": "background"
+      },
+      {
+        "name": "Dusk",
+        "hex": "#3A0A5C",
+        "role": "surface"
+      },
+      {
+        "name": "Neon Pink",
+        "hex": "#FF2975",
+        "role": "primary"
+      },
+      {
+        "name": "Neon Cyan",
+        "hex": "#00F0FF",
+        "role": "accent"
+      },
+      {
+        "name": "Sun",
+        "hex": "#FFD319",
+        "role": "highlight"
+      },
+      {
+        "name": "Mist",
+        "hex": "#F3E8FF",
+        "role": "text"
+      }
+    ],
+    "contrast_rules": "Mist on night holds 15:1; neon pink and cyan hold at least 4.5:1 on night for 18px and larger.",
+    "surface_treatment": "Vertical gradients, a sun disc, a vignette and scanlines.",
+    "light_and_shadow": "Emissive: glows of 8px to 24px blur in pink or cyan at 40% to 60%."
+  },
+  "materiality": {
+    "surface_simulation": "Neon tube, chrome and a CRT screen at night.",
+    "border_rules": "2px neon border in pink or cyan with a 8px glow.",
+    "blur_and_elevation": "Glow 8px to 24px; vignette at 30%; no soft grey shadow."
+  },
+  "ornamentation_details": {
+    "iconography": "Neon line icons of 2px with a glow; chrome stars and palm trees.",
+    "illustration": "Sun disc, perspective grid, mountains, palm silhouettes and retro cars.",
+    "decorative_elements": [
+      "sun with cuts",
+      "perspective grid",
+      "chrome text",
+      "neon glow"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Smooth and endless: the grid flows toward the viewer; the sun pulses by 4% every 4s; text glows flicker for 80ms.",
+    "easing": "linear",
+    "duration_ms": 1200,
+    "hover_and_active": "Hover raises the glow of a neon item by 30% and shifts it up 2px; active state dims it by 10%."
+  },
+  "lineage": {
+    "evolved_from": [
+      "vaporwave",
+      "y2k-aesthetic"
+    ],
+    "rebelled_against": [
+      "flat-design"
+    ],
+    "hybridized_with": [
+      "cybercore-web"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels a nostalgic night drive and a bright, synthetic future.",
+    "keywords": [
+      "nostalgic",
+      "neon",
+      "dreamy",
+      "energetic",
+      "retro-futuristic",
+      "cool"
+    ],
+    "brand_archetypes": [
+      "explorer",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "synthwave",
+      "outrun",
+      "retrowave",
+      "neon sunset",
+      "80s",
+      "perspective grid",
+      "chrome text",
+      "neon"
+    ],
+    "use_cases": [
+      "music and album pages",
+      "game and film promos",
+      "event and club nights",
+      "retro tech and merchandise",
+      "streamers and creators"
+    ],
+    "avoid_when": [
+      "The brand needs a calm, serious tone.",
+      "The page has long text.",
+      "The audience needs high contrast with no glow."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "dark-devtool-ui",
+        "how": "Keep the violet ground and one cyan accent; remove sun, grid and glow."
+      },
+      {
+        "request": "more clean",
+        "toward": "vaporwave",
+        "how": "Use pastel pink and teal with statues and a sans label."
+      },
+      {
+        "request": "more cold",
+        "toward": "cybercore-web",
+        "how": "Replace pink with acid green and add HUD frames."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 700,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "colour",
+      "display_tracking": "0.04em",
+      "display_leading": 1.1,
+      "display_case": "uppercase",
+      "body_leading": 1.6,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "iconoir",
+        "why": "A smooth 2px line that takes a neon glow well."
+      }
+    },
+    "art": {
+      "recipe": "y2k",
+      "pattern": "grid",
+      "seed": 54
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "airy",
+      "tilt_deg": 0
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#12062B",
+      "--color-surface": "#3A0A5C",
+      "--color-text": "#F3E8FF",
+      "--color-muted": "#B9A4D9",
+      "--color-primary": "#FF2975",
+      "--color-accent": "#00F0FF",
+      "--color-border": "#FF2975",
+      "--font-sans": "\"Inter\", system-ui, sans-serif",
+      "--font-display": "\"Orbitron\", \"Audiowide\", sans-serif",
+      "--border-radius": "8px",
+      "--border-width": "2px",
+      "--shadow-elevation": "0 0 16px rgba(255,41,117,0.6)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "linear",
+      "--duration": "1200ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-gradient-to-b from-[#12062B] to-[#3A0A5C] text-[#F3E8FF] font-sans antialiased"
+      },
+      {
+        "element": "heading",
+        "classes": "font-bold uppercase text-5xl md:text-8xl tracking-[0.04em] leading-[1.1] text-center bg-gradient-to-b from-white via-[#FF9AC4] to-[#FF2975] bg-clip-text text-transparent"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6]"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-lg border-2 border-[#00F0FF] bg-[#12062B]/70 p-5 shadow-[0_0_16px_rgba(0,240,255,0.5)]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-full border-2 border-[#FF2975] bg-transparent px-7 py-3 font-bold uppercase tracking-[0.1em] text-[#FF2975] shadow-[0_0_16px_rgba(255,41,117,0.6)] hover:bg-[#FF2975] hover:text-[#12062B]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs uppercase tracking-[0.1em] text-[#B9A4D9]"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Example: Kavinsky and The Midnight album sites (2013–2020)"
+    },
+    {
+      "title": "Example: Hotline Miami and Far Cry 3: Blood Dragon pages (2012–2013)"
+    },
+    {
+      "title": "Example: Stranger Things season 3 promo pages (2019)"
+    }
+  ]
+}

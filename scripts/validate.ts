@@ -9,7 +9,7 @@
 import { Ajv2020 } from "ajv/dist/2020.js";
 import { join } from "node:path";
 import { RECIPE_NAMES } from "./pack.js";
-import { ROOT, loadDomains, loadEras, loadPrinciples, loadStyleFiles, principleRefs, readJson, type Style } from "./lib.js";
+import { ROOT, loadDomains, loadEras, loadPeople, loadPrinciples, loadStyleFiles, loadTechniques, principleRefs, readJson, type Style } from "./lib.js";
 
 const schemaOnly = process.argv.includes("--schema-only");
 const errors: string[] = [];
@@ -87,7 +87,38 @@ for (const domain of domains) {
   }
 }
 
+// Cross-domain techniques: one schema, ids equal to file names, years in order, references that resolve.
+const validateTechnique = ajv.compile(readJson<object>(join(ROOT, "schema", "technique.schema.json")));
+const techniques = loadTechniques();
+const techniqueChecks: (() => void)[] = [];
+for (const { file, slug, technique: t } of techniques) {
+  if (!validateTechnique(t)) {
+    for (const e of validateTechnique.errors ?? []) errors.push(`${file}: ${e.instancePath || "/"} ${e.message}`);
+    continue;
+  }
+  if (t.id !== slug) errors.push(`${file}: id "${t.id}" is not equal to the file name`);
+  for (const d of [t.origin.domain, ...t.adoptions.map((a) => a.domain)])
+    if (!domains.some((x) => x.id === d)) errors.push(`${file}: domain "${d}" is not in domains/`);
+  t.adoptions.forEach((a, i) => {
+    if (a.year < t.origin.year) errors.push(`${file}: adoption ${i + 1} (${a.year}) is before the origin (${t.origin.year})`);
+    if (i > 0 && a.year < t.adoptions[i - 1].year) errors.push(`${file}: adoptions are not in order of year`);
+  });
+  for (const p of t.principles ?? []) if (!principleIds.has(p)) errors.push(`${file}: principle "${p}" is not in data/principles/`);
+  techniqueChecks.push(() => {
+    for (const ref of t.styles) if (!byId.has(ref)) errors.push(`${file}: styles → "${ref}" does not exist`);
+    t.adoptions.forEach((a, i) => {
+      for (const ref of a.styles ?? []) {
+        const s = byId.get(ref);
+        if (!s) errors.push(`${file}: adoption ${i + 1} styles → "${ref}" does not exist`);
+        else if (s.domain !== a.domain) errors.push(`${file}: adoption ${i + 1} is in "${a.domain}", but "${ref}" is in "${s.domain}"`);
+        if (!t.styles.includes(ref)) errors.push(`${file}: adoption ${i + 1} names "${ref}", which is not in styles`);
+      }
+    });
+  });
+}
+
 if (!schemaOnly && errors.length === 0) {
+  for (const c of techniqueChecks) c();
   for (const style of byId.values()) {
     const where = `data/${style.domain}/styles/${style.id}.json`;
     const check = (field: string, ids: string[], rule: "same" | "other" | "any") => {
@@ -120,10 +151,45 @@ if (!schemaOnly && errors.length === 0) {
   }
 }
 
+// The people layer: one schema, ids equal to file names, style references that resolve, years in order.
+const validatePerson = ajv.compile(readJson<object>(join(ROOT, "schema", "person.schema.json")));
+const people = loadPeople();
+const wikidataSeen = new Map<string, string>();
+const covered = new Set<string>();
+for (const { file, slug, person } of people) {
+  if (!validatePerson(person)) {
+    for (const e of validatePerson.errors ?? []) errors.push(`${file}: ${e.instancePath || "/"} ${e.message}`);
+    continue;
+  }
+  if (person.id !== slug) errors.push(`${file}: id "${person.id}" is not equal to the file name`);
+  const qid = person.identity?.wikidata;
+  if (qid && wikidataSeen.has(qid)) errors.push(`${file}: Wikidata ${qid} is also in ${wikidataSeen.get(qid)}`);
+  if (qid) wikidataSeen.set(qid, file);
+  if (person.born !== null && person.died !== null && person.died < person.born)
+    errors.push(`${file}: died (${person.died}) is before born (${person.born})`);
+  const own = new Set(person.styles.map((s) => s.style));
+  if (own.size !== person.styles.length) errors.push(`${file}: a style is listed more than once`);
+  for (const s of own) {
+    if (!schemaOnly && !byId.has(s)) errors.push(`${file}: style "${s}" does not exist`);
+    covered.add(s);
+  }
+  for (const m of person.milestones) {
+    if (person.born !== null && m.year < person.born) errors.push(`${file}: milestone ${m.year} is before born (${person.born})`);
+    const after = person.died !== null && m.year > person.died;
+    if (after && !m.posthumous) errors.push(`${file}: milestone ${m.year} is after died (${person.died}); mark it "posthumous": true if that is correct`);
+    if (!after && m.posthumous) errors.push(`${file}: milestone ${m.year} is marked posthumous, but it is not after died`);
+    if (m.style && !own.has(m.style)) errors.push(`${file}: milestone ${m.year} names style "${m.style}", which is not in styles`);
+  }
+  if (person.born === null && !person.milestones.length)
+    errors.push(`${file}: no born year and no milestones, so the person has no place on the time line`);
+}
+const lonely = [...byId.keys()].filter((id) => !covered.has(id)).sort();
+if (!schemaOnly && lonely.length) warnings.push(`${lonely.length} styles have no person in data/people/: ${lonely.join(", ")}`);
+
 for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`error ${e}`);
 console.log(
-  `${count} styles in ${domains.length} domains · ${principles.length} principles · ${errors.length} errors · ${warnings.length} warnings` +
+  `${count} styles in ${domains.length} domains · ${principles.length} principles · ${techniques.length} techniques · ${people.length} people · ${errors.length} errors · ${warnings.length} warnings` +
     (schemaOnly ? " · schema only" : ""),
 );
 process.exit(errors.length ? 1 : 0);

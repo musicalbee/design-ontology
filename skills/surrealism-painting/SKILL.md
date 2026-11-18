@@ -175,7 +175,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`abstract-expressionism`](../abstract-expressionism/SKILL.md)
 - **Kin in another domain:** [`vaporwave`](../vaporwave/SKILL.md)
-- **Nearest by vector profile:** [`renaissance-painting`](../renaissance-painting/SKILL.md), [`mannerism-painting`](../mannerism-painting/SKILL.md), [`baroque-painting`](../baroque-painting/SKILL.md)
+- **Nearest by vector profile:** [`renaissance-painting`](../renaissance-painting/SKILL.md), [`airbrush-surrealism`](../airbrush-surrealism/SKILL.md), [`mannerism-painting`](../mannerism-painting/SKILL.md)
 
 ## Emotional target
 

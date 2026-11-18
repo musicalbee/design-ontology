@@ -171,6 +171,18 @@ Reference works:
 | Stahl House (Case Study House 22), Los Angeles | Pierre Koenig | 1960 |
 | Glass House, New Canaan | Philip Johnson | 1949 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Breeze block (material)
+
+A hollow concrete block with a pierced pattern; a wall of them shades and lets air and light through. Origin: architecture, Recife, Brazil, 1929.
+
+- Use blocks of 300 to 400mm square with 40% to 60% open area.
+- Stack the blocks in one grid of one pattern; mix no more than 2 patterns in one wall.
+- Inside, use the screen to divide zones while it keeps light and air.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -178,7 +190,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more austere**: move toward [`international-style-architecture`](../international-style-architecture/SKILL.md) (International Style). Whiten the walls, thin the frame, drop the timber and the brick feature wall, and keep the flat roof and the glass wall.
 
 - **Came from (go here for a more orthodox version):** [`international-style-architecture`](../international-style-architecture/SKILL.md), [`prairie-school-architecture`](../prairie-school-architecture/SKILL.md)
-- **Kin in another domain:** [`mid-century-modern`](../mid-century-modern/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md)
+- **Kin in another domain:** [`mid-century-modern`](../mid-century-modern/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`space-age`](../space-age/SKILL.md)
 - **Nearest by vector profile:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`prairie-school-architecture`](../prairie-school-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md)
 
 ## Emotional target

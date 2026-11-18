@@ -231,6 +231,25 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Easing (animation)
+
+A move speeds up from rest and slows down before it stops, as a real mass does, instead of a constant speed. Origin: film & video, Disney studio, Los Angeles, c. 1930.
+
+- Give a move of 200 to 400ms an ease-out curve when an element enters and an ease-in curve when it leaves.
+- Use cubic-bezier(0.4, 0, 0.2, 1) as the standard curve for a move inside the screen.
+- Put more frames at the two ends of a move than in the middle: 2 to 3 times the density.
+
+### Match cut (montage)
+
+A cut between two shots whose main forms have the same shape, position or movement, so that the eye carries one form across the cut. Origin: film & video, 2001: A Space Odyssey, 1968.
+
+- Match the shape, the position and the scale of the main form across the cut within 10% of the frame width.
+- In an interface, move the shared element from its old box to its new box in 250 to 350ms while the rest of the screen fades.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -241,9 +260,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more minimal**: move toward [`swiss-international`](../swiss-international/SKILL.md) (Swiss International Style). Remove the app bar colour, the floating button and the shadows; set one typeface flush left on a 12-column grid with one accent.
 
 - **Came from (go here for a more orthodox version):** [`flat-design`](../flat-design/SKILL.md)
-- **Was rejected by:** [`anti-design`](../anti-design/SKILL.md), [`brutalist-web`](../brutalist-web/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
+- **Was rejected by:** [`anti-design`](../anti-design/SKILL.md), [`brutalist-web`](../brutalist-web/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`terminal-tui-web`](../terminal-tui-web/SKILL.md)
 - **Mixes well with:** [`skeuomorphism`](../skeuomorphism/SKILL.md)
-- **Nearest by vector profile:** [`glassmorphism`](../glassmorphism/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md)
+- **Nearest by vector profile:** [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md)
 
 ## Emotional target
 

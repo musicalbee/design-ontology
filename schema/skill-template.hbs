@@ -153,6 +153,22 @@ Reference works:
 {{/each}}
 
 {{/if}}
+{{#if techniques}}
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+{{#each techniques}}
+### {{name}} ({{kind}})
+
+{{summary}} Origin: {{origin}}.
+
+{{#each how}}
+- {{this}}
+{{/each}}
+
+{{/each}}
+{{/if}}
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

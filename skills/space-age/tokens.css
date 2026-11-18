@@ -1,0 +1,114 @@
+/*
+ * Space Age Design — tokens
+ * Generated from data/design/styles/space-age.json by design-ontology. Do not edit.
+ * Use: put data-style="space-age" on <html> or on any container.
+ */
+[data-style="space-age"] {
+  --color-bg: #F7F9FB;
+  --color-surface: #E6ECF3;
+  --color-text: #0B2A5B;
+  --color-muted: #4A5B73;
+  --color-primary: #0B2A5B;
+  --color-accent: #F26B1D;
+  --color-border: #B9C3CF;
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Michroma", "Eurostile", "Microgramma", "Helvetica Neue", sans-serif;
+  --border-radius: 24px;
+  --border-width: 1px;
+  --shadow-elevation: 0 8px 24px rgba(11, 42, 91, 0.12);
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.22, 0.8, 0.3, 1);
+  --duration: 360ms;
+  --color-highlight: #2D5BE3;
+  --grid-columns: 12;
+  --grid-gutter: 24px;
+  --tracking-display: 0.06em;
+  --leading-body: 1.55;
+  --color-on-bg: #0B2A5B;
+  --color-on-surface: #0B2A5B;
+  --color-on-primary: #F7F9FB;
+  --color-on-accent: #0B2A5B;
+  --color-muted-on-bg: #4A5B73;
+  --color-muted-on-surface: #4A5B73;
+  --color-link: #0B2A5B;
+  --color-link-on-surface: #0B2A5B;
+  --display-weight: 400;
+  --subhead-weight: 400;
+  --body-weight: 400;
+  --strong-weight: 600;
+  --label-weight: 600;
+  --display-tracking: 0.06em;
+  --display-leading: 1.1;
+  --display-case: uppercase;
+  --body-leading: 1.55;
+  --body-size: 16px;
+  --icon-stroke: 2;
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="space-age"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="space-age"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="space-age"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="space-age"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="space-age"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="space-age"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="space-age"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="space-age"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="space-age"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="space-age"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="space-age"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="space-age"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

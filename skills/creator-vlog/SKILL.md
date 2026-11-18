@@ -197,6 +197,24 @@ The rules above name these shared principles by id. The definition is the same i
 | `hierarchy` | Hierarchy | The elements of a composition rank by importance through size, position, contrast or isolation. The viewer reads them in that order. | levels of rank (count): 2 to 3; size ratio between adjacent levels (ratio): 1.5:1 or more |
 | `rule-of-thirds` | Rule of thirds | Two horizontal and two vertical lines divide the view into nine equal parts. The focal point sits on one of the four crossings, and a horizon sits on one of the two horizontal lines. | focal point position (fraction of width and height): 0.33 or 0.67, tolerance 0.05; horizon position (fraction of height): 0.33 or 0.67 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Jump cut (montage)
+
+A cut inside one continuous shot that removes time and leaves the jump in view. Origin: film & video, Paris, 1960.
+
+- Remove 0.3 to 2 seconds inside one shot and keep the framing within 10% of the frame width, so that the jump shows.
+- In a talk to camera, cut on the word and not on the action: one cut every 2 to 4 seconds.
+
+### Ken Burns effect (animation)
+
+A slow pan and zoom across a still image, so that a photograph moves in a film. Origin: film & video, The Civil War (PBS), 1990.
+
+- Move 5% to 15% of the frame over 4 to 8 seconds on each still.
+- Start or end each move on a face or on the key detail.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

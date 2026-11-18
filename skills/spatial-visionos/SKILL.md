@@ -227,6 +227,25 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Match cut (montage)
+
+A cut between two shots whose main forms have the same shape, position or movement, so that the eye carries one form across the cut. Origin: film & video, 2001: A Space Odyssey, 1968.
+
+- Match the shape, the position and the scale of the main form across the cut within 10% of the frame width.
+- In an interface, move the shared element from its old box to its new box in 250 to 350ms while the rest of the screen fades.
+
+### Multiplane parallax (animation)
+
+Flat layers move at different speeds by their distance, so that a flat picture gets depth. Origin: film & video, The Old Mill, 1937.
+
+- Move each layer at a speed in proportion to its distance: a far layer at 20% to 50% of the speed of the front layer.
+- Use 3 to 5 layers; more layers add load and no depth.
+- Give a reduced-motion setting that stops the shift of the layers.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -237,8 +256,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more modular**: move toward [`bento-grid-ui`](../bento-grid-ui/SKILL.md) (Bento Grid UI). Divide the window into rounded cells with a 16pt gap and a 24pt radius; keep the glass fill and the 60pt targets.
 
 - **Came from (go here for a more orthodox version):** [`glassmorphism`](../glassmorphism/SKILL.md)
+- **Led to (go here for a newer version):** [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md)
 - **Mixes well with:** [`skeuomorphism`](../skeuomorphism/SKILL.md)
-- **Nearest by vector profile:** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`apple-aqua`](../apple-aqua/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md)
+- **Nearest by vector profile:** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md), [`apple-aqua`](../apple-aqua/SKILL.md)
 
 ## Emotional target
 

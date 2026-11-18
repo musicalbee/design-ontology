@@ -1,6 +1,6 @@
 # Contributing
 
-A contribution is one JSON file in `data/<domain>/styles/`. The build makes all other files.
+A contribution is one JSON file in `data/<domain>/styles/` or in `data/people/`. The build makes all other files.
 
 ## Procedure
 
@@ -27,6 +27,27 @@ A contribution is one JSON file in `data/<domain>/styles/`. The build makes all 
 - **Print styles have motion too.** Set `motion.native` to `false` and give a faithful translation for screen.
 - **Sources.** Give one or two references that a reader can find. Add a URL only if it is stable.
 - **Language.** British spelling, short sentences, no marketing words.
+
+## A new person
+
+1. Copy `data/people/dieter-rams.json` to `data/people/<id>.json`. The id is the file name.
+2. Take the years of birth and death from Wikidata. If no open source gives a year, write null. Do not guess.
+3. Write the bio and the milestones in your own words. Do not copy text from Wikipedia.
+4. Put the main style first in `styles`. Its domain is the lane of the person on the time line.
+5. If a milestone is after the year of death, set `"posthumous": true` on it.
+6. Link a portrait on Wikimedia Commons with a free licence, and copy its credit. If there is none, write null.
+7. Run `npm run build`.
+
+## A technique
+
+A technique is a cut, a motion rule, a motif, a material, a process or a tool that started in one domain and moved into others. A style does not own it. The technique names the styles that use it.
+
+1. Write `data/techniques/<id>.json`. The schema is `schema/technique.schema.json`.
+2. Set `origin` to the first year with a firm record. Set `circa` to `true` if the year is an estimate.
+3. Add one item to `adoptions` for each move into a domain, in order of year. Give the person, work, tool or medium that carried it in `via`.
+4. In `adoptions[].styles`, name only styles of that adoption's domain. Put each of them in `styles` too.
+5. Write 2 to 6 rules in `how`. Each rule names a property and a measure.
+6. Run `npm run build`. The compiler adds a "Techniques" section to each style that the technique names, and writes `skills/TECHNIQUES.md`.
 
 ## A disagreement with a score or an edge
 

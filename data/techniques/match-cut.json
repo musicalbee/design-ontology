@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "match-cut",
+  "name": "Match cut",
+  "aliases": [
+    "Graphic match",
+    "Shared-element transition"
+  ],
+  "kind": "montage",
+  "summary": "A cut between two shots whose main forms have the same shape, position or movement, so that the eye carries one form across the cut.",
+  "how": [
+    "Match the shape, the position and the scale of the main form across the cut within 10% of the frame width.",
+    "In an interface, move the shared element from its old box to its new box in 250 to 350ms while the rest of the screen fades."
+  ],
+  "origin": {
+    "domain": "film",
+    "year": 1968,
+    "where": "2001: A Space Odyssey",
+    "note": "Graphic matches are older; the reference case is Stanley Kubrick's cut from a thrown bone to a satellite in orbit."
+  },
+  "adoptions": [
+    {
+      "domain": "design",
+      "year": 2014,
+      "via": "Material motion in Android 5.0 carries one element from screen to screen as a shared-element transition.",
+      "styles": [
+        "material-design"
+      ]
+    }
+  ],
+  "styles": [
+    "material-design",
+    "spatial-visionos"
+  ],
+  "principles": [
+    "focal-point"
+  ],
+  "sources": [
+    {
+      "title": "David Bordwell and Kristin Thompson, Film Art: An Introduction (McGraw-Hill)"
+    }
+  ]
+}
