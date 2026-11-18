@@ -2,8 +2,8 @@
   "$comment": "One fixed subject for each image domain, so that the previews compare styles and not scenes. No real persons, no brands. 'suffix' is added to each prompt of the domain. 'drop' removes primer words that make the model draw text or frames that do not belong on the page. A style override changes the subject or the frame only where the domain subject cannot show the style. A style override can also give 'drop' for primer words of that style only.",
   "domains": {
     "photography": {
-      "subject": "a corner of a small-town street with a parked car, a shop front and one person who walks past",
-      "suffix": "no readable text on signs, no logos"
+      "subject": "a corner of a small-town street with a parked car, plain house fronts with windows and doors, a bare brick wall, and one person who walks past",
+      "suffix": "no shop fronts, no shop signs, no signboards, no posters, no readable text, no logos"
     },
     "film": {
       "subject": "a still frame from a film: two people talk across a kitchen table at night, with a window behind them",
@@ -28,7 +28,7 @@
       "suffix": "architectural photograph, no readable text on the facade, no logos"
     },
     "icon": {
-      "subject": "a 3 by 3 sheet of nine app icons: house, envelope, camera, calendar, gear, bell, search, heart, folder, on a plain ground",
+      "subject": "a 3 by 3 sheet of nine different app icons, each glyph used once: top row house, envelope, camera; middle row calendar, gear, bell; bottom row magnifying glass, heart, folder; on a plain ground",
       "suffix": "no letters, no text, no labels, no logos",
       "drop": "label|caption|text|letter|typograph|logo|wordmark"
     }
@@ -63,8 +63,8 @@
       "drop": "ribbon|gilt"
     },
     "painting/ukiyo-e": {
-      "subject": "a full-bleed crop from the inside of a ukiyo-e woodblock print: a small harbour with fishing boats, a stone quay, a row of houses and one figure on the quay, the image is cropped inside the print so no paper edge, no margin, no border line, no seal and no inscription are visible",
-      "drop": "cartouche|seal|washi"
+      "subject": "a Japanese ukiyo-e style image of a small Edo-period harbour with wooden fishing boats, a stone quay, a row of wooden houses with tiled roofs and one figure in a kimono on the quay, flat colour areas with bold outlines, the scene fills the whole frame edge to edge, no modern buildings, no power lines, no paper, no margin, no border, no seal, no inscription",
+      "drop": "cartouche|seal|washi|woodblock|paper|print|margin"
     },
     "logo/flat-logo": {
       "subject": "a flat logo mark for a fictional coffee roaster: one coffee cup with a rising steam curve, drawn from three flat solid shapes in two colours, on a plain ground, centred, not a grid of squares",
@@ -76,6 +76,33 @@
     "logo/victorian-trademark": {
       "subject": "a Victorian trademark device for a fictional coffee roaster: one pictorial animal emblem inside an oval frame with engraved scroll ornament, on a plain cream ground, centred, the frame and the scrolls are blank with no letters, no words and no banners",
       "drop": "ribbon|banner|label"
+    },
+    "logo/geometric-symbol": {
+      "subject": "an abstract geometric symbol for a fictional coffee roaster: one circle cut by one triangle, in two flat colours, warm brown and orange, on a plain ground, centred",
+      "drop": "square|diagonal|deep blue"
+    },
+    "painting/fauvism": {
+      "subject": "a fauvist painting of a small harbour with fishing boats, a stone quay, a row of houses and one figure on the quay, the colour patches cover the whole canvas to all four edges, no white margin, no vignette",
+      "drop": "bare white ground"
+    },
+    "painting/symbolism-painting": {
+      "subject": "a symbolist painting of a small harbour at dusk with fishing boats, a stone quay, a row of houses and one veiled figure on the quay, the scene fills the whole image, no ornament, no scroll corners, no border",
+      "drop": "gold leaf"
+    },
+    "painting/realism-painting": {
+      "subject": "a realist painting of a small harbour with fishing boats with plain unpainted hulls, a stone quay, a row of houses and one fisherman at work on the quay, no names or numbers on the boats"
+    },
+    "painting/photorealism": {
+      "subject": "a photorealist painting of a small harbour with fishing boats with plain hulls, a stone quay, a row of houses and one figure on the quay, no names or numbers on the boats, no shop signs",
+      "drop": "shop window|urban street"
+    },
+    "film/camcorder-revival": {
+      "subject": "a still frame from home video: two people talk across a kitchen table at night, with a window behind them, no date stamp, no timecode, no digits",
+      "drop": "stamp"
+    },
+    "film/found-footage": {
+      "subject": "a still frame from a found-footage film: two people talk across a kitchen table at night in torch light, with a dark window behind them, no timestamp, no timecode, no digits",
+      "drop": "stamp|forest"
     }
   }
 }

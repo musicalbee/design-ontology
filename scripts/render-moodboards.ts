@@ -24,6 +24,17 @@ const SQUARE = { width: 896, height: 896 };
 const list = (xs: unknown, n = 6) => (Array.isArray(xs) ? xs.slice(0, n).join(", ") : "");
 const colours = (s: any, roles?: string[]) =>
   (s.palette?.colours ?? []).filter((c: any) => !roles || roles.includes(c.role)).map((c: any) => c.name.toLowerCase()).join(", ");
+// Nouns that make the model draw letters. The data keeps the real item; the prompt asks for a shape with no text.
+const TEXTLESS: [RegExp, string][] = [
+  [/neon sign/gi, "neon tube bent into one wavy line"],
+  [/(vintage )?enamel sign/gi, "plain enamel panel in one colour"],
+  [/(vintage )?\bsigns\b/gi, "plain metal panels"],
+  [/(pop |deco )?poster( print)?( in a carved frame)?/gi, "abstract print of flat shapes$3"],
+  [/coffee-table books/gi, "a low stack of books lying flat, seen from the front so only the cream page edges show"],
+  [/gallery wall of ([0-9–-]+) frames/gi, "gallery wall of $1 frames that hold abstract colour prints with no words"],
+  [/(colour-sorted |art |stacked )?books\b(?! with blank)/gi, "$1books with plain cloth covers and spines, no titles"],
+];
+const textless = (t: string) => TEXTLESS.reduce((a, [re, to]) => a.replace(re, to), t);
 const evening = (s: any) => (s.lighting?.layers ?? []).filter((l: any) => l.layer !== "daylight").map((l: any) => `${l.source} ${l.position}`).join("; ");
 
 // One tile for each facet. A tile with no data is left out of the board.
@@ -38,7 +49,7 @@ export const TILES: { id: string; label: string; size: typeof SQUARE; prompt: (s
   },
   {
     id: "furniture", label: "Furniture", size: PORTRAIT,
-    prompt: (s) => s.furniture && `studio photograph of a ${list(s.furniture.key_pieces, 2).replace(", ", " and a ")}, ${s.furniture.silhouette} on a plain ${colours(s, ["dominant"]) || "pale"} ground, soft shadow, furniture catalogue photograph`,
+    prompt: (s) => s.furniture && `studio photograph of a ${list(s.furniture.key_pieces, 2).replace(", ", " and a ")}, ${s.furniture.silhouette} on a plain ${colours(s, ["dominant"]) || "pale"} ground, soft shadow, furniture photograph, no caption, no text, no labels`,
   },
   {
     id: "textiles", label: "Textiles", size: SQUARE,
@@ -46,11 +57,11 @@ export const TILES: { id: string; label: string; size: typeof SQUARE; prompt: (s
   },
   {
     id: "light", label: "Light", size: PORTRAIT,
-    prompt: (s) => s.lighting && `corner of a room at dusk, the lamps on: ${evening(s)}, ${s.lighting.strategy}, warm ${s.lighting.cct_evening_k ?? s.lighting.cct_k ?? 2700} K light, pools of light and soft shadow, interior photograph`,
+    prompt: (s) => s.lighting && textless(`corner of a room at dusk, the lamps on: ${evening(s)}, ${s.lighting.strategy}, warm ${s.lighting.cct_evening_k ?? s.lighting.cct_k ?? 2700} K light, pools of light and soft shadow`) + ", interior photograph, a neon or a sign is a plain shape with no letters, no readable text",
   },
   {
     id: "objects", label: "Objects", size: SQUARE,
-    prompt: (s) => s.objects && `still life on a sideboard against a ${colours(s, ["dominant"]) || "plain"} wall: ${list(s.objects.items)}, ${s.objects.grouping}, ${s.objects.approach}, interior styling photograph`,
+    prompt: (s) => s.objects && textless(`still life on a sideboard against a ${colours(s, ["dominant"]) || "plain"} wall: ${list(s.objects.items)}, ${s.objects.grouping}, ${s.objects.approach}`) + ", interior styling photograph, signs, posters and book spines are blank with no letters, no readable text",
   },
 ];
 
