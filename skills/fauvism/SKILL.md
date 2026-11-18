@@ -175,7 +175,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`pointillism`](../pointillism/SKILL.md)
 - **Kin in another domain:** [`new-colour`](../new-colour/SKILL.md)
-- **Nearest by vector profile:** [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`pointillism`](../pointillism/SKILL.md), [`impressionism`](../impressionism/SKILL.md)
+- **Nearest by vector profile:** [`expressionism-painting`](../expressionism-painting/SKILL.md), [`post-impressionism`](../post-impressionism/SKILL.md), [`futurism-painting`](../futurism-painting/SKILL.md)
 
 ## Emotional target
 
@@ -186,6 +186,7 @@ Exhilaration and heat: the viewer is struck by colour first and feels the joy of
 ## Sources
 
 - [Wikidata Q166593 (Fauvism)](https://www.wikidata.org/wiki/Q166593)
+- [Getty AAT 300021300 (Fauvism)](https://vocab.getty.edu/page/aat/300021300)
 - [Art Institute of Chicago API (CC0 data)](https://api.artic.edu/docs/)
 - Henri Matisse, Notes of a Painter (La Grande Revue, 1908)
 
