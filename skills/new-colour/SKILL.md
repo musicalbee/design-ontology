@@ -178,6 +178,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`street-photography`](../street-photography/SKILL.md)
 - **Led to (go here for a newer version):** [`cinematic-teal-orange`](../cinematic-teal-orange/SKILL.md), [`film-grain-revival`](../film-grain-revival/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
 - **Mixes well with:** [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md)
+- **Kin in another domain:** [`fauvism`](../fauvism/SKILL.md)
 - **Nearest by vector profile:** [`film-grain-revival`](../film-grain-revival/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md), [`documentary-photography`](../documentary-photography/SKILL.md)
 
 ## Emotional target

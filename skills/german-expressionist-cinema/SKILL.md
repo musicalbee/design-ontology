@@ -183,7 +183,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **less theatrical**: move toward [`french-new-wave`](../french-new-wave/SKILL.md) (French New Wave). Keep the hard light and the black and white; leave the studio for a real street, drop the iris and the tint, and shoot handheld at 24 fps.
 - If the user asks for **more rhythm**: move toward [`soviet-montage`](../soviet-montage/SKILL.md) (Soviet montage). Keep the 1.33:1 frame and the hard light; cut to an average of 2 to 3 s and join shots by graphic match.
 
-- **Kin in another domain:** [`film-noir-still`](../film-noir-still/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md)
+- **Kin in another domain:** [`baroque-painting`](../baroque-painting/SKILL.md), [`film-noir-still`](../film-noir-still/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md)
 - **Nearest by vector profile:** [`soviet-montage`](../soviet-montage/SKILL.md), [`cinematic-fpv`](../cinematic-fpv/SKILL.md), [`vertical-short-form`](../vertical-short-form/SKILL.md)
 
 ## Emotional target

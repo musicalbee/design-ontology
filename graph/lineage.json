@@ -451,6 +451,81 @@
       }
     },
     {
+      "id": "gothic-architecture",
+      "domain": "architecture",
+      "name": "Gothic",
+      "era": "medieval",
+      "start": 1200,
+      "end": 1520,
+      "vectors": {
+        "ornamentation": 4,
+        "structural_expression": 5,
+        "geometric_rigidity": 3,
+        "material_rawness": 3,
+        "monumentality": 5
+      }
+    },
+    {
+      "id": "renaissance-architecture",
+      "domain": "architecture",
+      "name": "Renaissance",
+      "era": "early-modern",
+      "start": 1420,
+      "end": 1600,
+      "vectors": {
+        "ornamentation": 3,
+        "structural_expression": 2,
+        "geometric_rigidity": 5,
+        "material_rawness": 2,
+        "monumentality": 4
+      }
+    },
+    {
+      "id": "baroque-architecture",
+      "domain": "architecture",
+      "name": "Baroque",
+      "era": "early-modern",
+      "start": 1600,
+      "end": 1750,
+      "vectors": {
+        "ornamentation": 5,
+        "structural_expression": 2,
+        "geometric_rigidity": 2,
+        "material_rawness": 1,
+        "monumentality": 5
+      }
+    },
+    {
+      "id": "neoclassical-architecture",
+      "domain": "architecture",
+      "name": "Neoclassicism",
+      "era": "revival-and-academy",
+      "start": 1750,
+      "end": 1840,
+      "vectors": {
+        "ornamentation": 2,
+        "structural_expression": 2,
+        "geometric_rigidity": 5,
+        "material_rawness": 2,
+        "monumentality": 4
+      }
+    },
+    {
+      "id": "beaux-arts-architecture",
+      "domain": "architecture",
+      "name": "Beaux-Arts",
+      "era": "revival-and-academy",
+      "start": 1860,
+      "end": 1920,
+      "vectors": {
+        "ornamentation": 4,
+        "structural_expression": 1,
+        "geometric_rigidity": 4,
+        "material_rawness": 1,
+        "monumentality": 5
+      }
+    },
+    {
       "id": "art-nouveau-architecture",
       "domain": "architecture",
       "name": "Art Nouveau",
@@ -462,6 +537,21 @@
         "structural_expression": 3,
         "geometric_rigidity": 1,
         "material_rawness": 2,
+        "monumentality": 2
+      }
+    },
+    {
+      "id": "prairie-school-architecture",
+      "domain": "architecture",
+      "name": "Prairie School",
+      "era": "fin-de-siecle",
+      "start": 1900,
+      "end": 1917,
+      "vectors": {
+        "ornamentation": 3,
+        "structural_expression": 3,
+        "geometric_rigidity": 4,
+        "material_rawness": 3,
         "monumentality": 2
       }
     },
@@ -508,6 +598,21 @@
         "geometric_rigidity": 5,
         "material_rawness": 2,
         "monumentality": 3
+      }
+    },
+    {
+      "id": "nordic-modernism-architecture",
+      "domain": "architecture",
+      "name": "Nordic Modernism",
+      "era": "modern-movement",
+      "start": 1930,
+      "end": 1975,
+      "vectors": {
+        "ornamentation": 2,
+        "structural_expression": 3,
+        "geometric_rigidity": 2,
+        "material_rawness": 3,
+        "monumentality": 2
       }
     },
     {
@@ -583,6 +688,21 @@
         "geometric_rigidity": 1,
         "material_rawness": 3,
         "monumentality": 3
+      }
+    },
+    {
+      "id": "parametricism-architecture",
+      "domain": "architecture",
+      "name": "Parametricism",
+      "era": "postmodern-and-after",
+      "start": 2008,
+      "end": null,
+      "vectors": {
+        "ornamentation": 3,
+        "structural_expression": 2,
+        "geometric_rigidity": 1,
+        "material_rawness": 1,
+        "monumentality": 4
       }
     },
     {
@@ -1231,6 +1351,21 @@
       }
     },
     {
+      "id": "mannerism-painting",
+      "domain": "painting",
+      "name": "Mannerism",
+      "era": "early-modern",
+      "start": 1520,
+      "end": 1600,
+      "vectors": {
+        "abstraction": 2,
+        "brushwork_visibility": 1,
+        "chromatic_intensity": 4,
+        "depth_illusion": 3,
+        "line_dominance": 4
+      }
+    },
+    {
       "id": "baroque-painting",
       "domain": "painting",
       "name": "Baroque painting",
@@ -1261,6 +1396,51 @@
       }
     },
     {
+      "id": "rococo-painting",
+      "domain": "painting",
+      "name": "Rococo",
+      "era": "early-modern",
+      "start": 1720,
+      "end": 1780,
+      "vectors": {
+        "abstraction": 1,
+        "brushwork_visibility": 3,
+        "chromatic_intensity": 2,
+        "depth_illusion": 3,
+        "line_dominance": 3
+      }
+    },
+    {
+      "id": "romanticism-painting",
+      "domain": "painting",
+      "name": "Romanticism",
+      "era": "nineteenth-century",
+      "start": 1790,
+      "end": 1863,
+      "vectors": {
+        "abstraction": 2,
+        "brushwork_visibility": 4,
+        "chromatic_intensity": 4,
+        "depth_illusion": 5,
+        "line_dominance": 2
+      }
+    },
+    {
+      "id": "realism-painting",
+      "domain": "painting",
+      "name": "Realism",
+      "era": "nineteenth-century",
+      "start": 1848,
+      "end": 1880,
+      "vectors": {
+        "abstraction": 1,
+        "brushwork_visibility": 3,
+        "chromatic_intensity": 2,
+        "depth_illusion": 3,
+        "line_dominance": 2
+      }
+    },
+    {
       "id": "impressionism",
       "domain": "painting",
       "name": "Impressionism",
@@ -1287,6 +1467,36 @@
         "brushwork_visibility": 3,
         "chromatic_intensity": 3,
         "depth_illusion": 3,
+        "line_dominance": 3
+      }
+    },
+    {
+      "id": "pointillism",
+      "domain": "painting",
+      "name": "Pointillism",
+      "era": "nineteenth-century",
+      "start": 1884,
+      "end": 1891,
+      "vectors": {
+        "abstraction": 2,
+        "brushwork_visibility": 5,
+        "chromatic_intensity": 5,
+        "depth_illusion": 3,
+        "line_dominance": 1
+      }
+    },
+    {
+      "id": "fauvism",
+      "domain": "painting",
+      "name": "Fauvism",
+      "era": "avant-garde",
+      "start": 1905,
+      "end": 1908,
+      "vectors": {
+        "abstraction": 3,
+        "brushwork_visibility": 4,
+        "chromatic_intensity": 5,
+        "depth_illusion": 2,
         "line_dominance": 3
       }
     },
@@ -1321,6 +1531,21 @@
       }
     },
     {
+      "id": "surrealism-painting",
+      "domain": "painting",
+      "name": "Surrealism",
+      "era": "avant-garde",
+      "start": 1924,
+      "end": 1966,
+      "vectors": {
+        "abstraction": 2,
+        "brushwork_visibility": 1,
+        "chromatic_intensity": 3,
+        "depth_illusion": 5,
+        "line_dominance": 3
+      }
+    },
+    {
       "id": "abstract-expressionism",
       "domain": "painting",
       "name": "Abstract Expressionism",
@@ -1334,6 +1559,21 @@
         "depth_illusion": 2,
         "line_dominance": 2
       }
+    },
+    {
+      "id": "pop-art-painting",
+      "domain": "painting",
+      "name": "Pop Art",
+      "era": "avant-garde",
+      "start": 1956,
+      "end": 1975,
+      "vectors": {
+        "abstraction": 2,
+        "brushwork_visibility": 1,
+        "chromatic_intensity": 5,
+        "depth_illusion": 1,
+        "line_dominance": 4
+      }
     }
   ],
   "edges": [
@@ -1345,6 +1585,11 @@
     {
       "from": "art-deco-architecture",
       "to": "art-deco-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "art-deco-architecture",
+      "to": "art-deco-web",
       "type": "ECHOES"
     },
     {
@@ -1373,6 +1618,16 @@
       "type": "ECHOES"
     },
     {
+      "from": "art-nouveau-architecture",
+      "to": "art-nouveau-web",
+      "type": "ECHOES"
+    },
+    {
+      "from": "art-nouveau-architecture",
+      "to": "rococo-painting",
+      "type": "ECHOES"
+    },
+    {
       "from": "art-nouveau-interior",
       "to": "art-nouveau-web",
       "type": "ECHOES"
@@ -1383,6 +1638,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "baroque-architecture",
+      "to": "baroque-painting",
+      "type": "ECHOES"
+    },
+    {
       "from": "baroque-painting",
       "to": "film-noir-still",
       "type": "ECHOES"
@@ -1390,6 +1650,11 @@
     {
       "from": "baroque-painting",
       "to": "food-photography",
+      "type": "ECHOES"
+    },
+    {
+      "from": "baroque-painting",
+      "to": "german-expressionist-cinema",
       "type": "ECHOES"
     },
     {
@@ -1414,7 +1679,17 @@
     },
     {
       "from": "bauhaus-architecture",
+      "to": "bauhaus-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "bauhaus-architecture",
       "to": "new-objectivity",
+      "type": "ECHOES"
+    },
+    {
+      "from": "bauhaus-interior",
+      "to": "de-stijl-painting",
       "type": "ECHOES"
     },
     {
@@ -1478,8 +1753,28 @@
       "type": "ECHOES"
     },
     {
+      "from": "constructivism-web",
+      "to": "cubism-painting",
+      "type": "ECHOES"
+    },
+    {
+      "from": "cubism-painting",
+      "to": "deconstructivist-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "de-stijl-painting",
+      "to": "de-stijl-web",
+      "type": "ECHOES"
+    },
+    {
       "from": "de-stijl-painting",
       "to": "international-style-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "de-stijl-painting",
+      "to": "prairie-school-architecture",
       "type": "ECHOES"
     },
     {
@@ -1490,6 +1785,11 @@
     {
       "from": "de-stijl-web",
       "to": "international-style-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "de-stijl-web",
+      "to": "prairie-school-architecture",
       "type": "ECHOES"
     },
     {
@@ -1525,6 +1825,11 @@
     {
       "from": "fashion-editorial",
       "to": "quiet-luxury-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "fauvism",
+      "to": "new-colour",
       "type": "ECHOES"
     },
     {
@@ -1628,12 +1933,27 @@
       "type": "ECHOES"
     },
     {
+      "from": "japandi-interior",
+      "to": "ukiyo-e",
+      "type": "ECHOES"
+    },
+    {
       "from": "memphis-design",
       "to": "memphis-interior",
       "type": "ECHOES"
     },
     {
       "from": "memphis-design",
+      "to": "pop-art-painting",
+      "type": "ECHOES"
+    },
+    {
+      "from": "memphis-design",
+      "to": "postmodern-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "memphis-interior",
       "to": "postmodern-architecture",
       "type": "ECHOES"
     },
@@ -1648,8 +1968,23 @@
       "type": "ECHOES"
     },
     {
+      "from": "mid-century-modern-architecture",
+      "to": "mid-century-modern-interior",
+      "type": "ECHOES"
+    },
+    {
       "from": "minimalist-interior",
       "to": "rams-functionalism-ui",
+      "type": "ECHOES"
+    },
+    {
+      "from": "nordic-modernism-architecture",
+      "to": "scandinavian-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "nordic-national-romanticism-painting",
+      "to": "scandinavian-interior",
       "type": "ECHOES"
     },
     {
@@ -1663,6 +1998,21 @@
       "type": "ECHOES"
     },
     {
+      "from": "pop-art-painting",
+      "to": "pop-art-web",
+      "type": "ECHOES"
+    },
+    {
+      "from": "realism-painting",
+      "to": "straight-photography",
+      "type": "ECHOES"
+    },
+    {
+      "from": "renaissance-architecture",
+      "to": "renaissance-painting",
+      "type": "ECHOES"
+    },
+    {
       "from": "scandinavian-interior",
       "to": "scandinavian-interior-photography",
       "type": "ECHOES"
@@ -1673,6 +2023,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "surrealism-painting",
+      "to": "vaporwave",
+      "type": "ECHOES"
+    },
+    {
       "from": "y2k-aesthetic",
       "to": "y2k-digicam",
       "type": "ECHOES"
@@ -1680,6 +2035,11 @@
     {
       "from": "abstract-expressionism",
       "to": "cubism-painting",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "abstract-expressionism",
+      "to": "surrealism-painting",
       "type": "EVOLVED_FROM"
     },
     {
@@ -1698,8 +2058,23 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "baroque-architecture",
+      "to": "renaissance-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "baroque-painting",
       "to": "renaissance-painting",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "beaux-arts-architecture",
+      "to": "baroque-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "beaux-arts-architecture",
+      "to": "neoclassical-architecture",
       "type": "EVOLVED_FROM"
     },
     {
@@ -1768,6 +2143,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "fauvism",
+      "to": "pointillism",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "film-grain-revival",
       "to": "new-colour",
       "type": "EVOLVED_FROM"
@@ -1833,6 +2213,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "impressionism",
+      "to": "realism-painting",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "industrial-loft-interior",
       "to": "bauhaus-interior",
       "type": "EVOLVED_FROM"
@@ -1840,6 +2225,11 @@
     {
       "from": "japandi-interior",
       "to": "scandinavian-interior",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "mannerism-painting",
+      "to": "renaissance-painting",
       "type": "EVOLVED_FROM"
     },
     {
@@ -1855,6 +2245,11 @@
     {
       "from": "mid-century-modern-architecture",
       "to": "international-style-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "mid-century-modern-architecture",
+      "to": "prairie-school-architecture",
       "type": "EVOLVED_FROM"
     },
     {
@@ -1898,8 +2293,23 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "nordic-modernism-architecture",
+      "to": "international-style-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "parametricism-architecture",
+      "to": "deconstructivist-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "party-flash",
       "to": "y2k-digicam",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "pointillism",
+      "to": "impressionism",
       "type": "EVOLVED_FROM"
     },
     {
@@ -1920,6 +2330,11 @@
     {
       "from": "rams-functionalism-ui",
       "to": "swiss-international",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "rococo-painting",
+      "to": "baroque-painting",
       "type": "EVOLVED_FROM"
     },
     {
@@ -2318,6 +2733,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "neoclassical-architecture",
+      "to": "baroque-architecture",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "neumorphism",
       "to": "flat-design",
       "type": "REBELLED_AGAINST"
@@ -2325,6 +2745,16 @@
     {
       "from": "new-objectivity",
       "to": "pictorialism",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "parametricism-architecture",
+      "to": "international-style-architecture",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "pop-art-painting",
+      "to": "abstract-expressionism",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -2358,6 +2788,26 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "realism-painting",
+      "to": "rococo-painting",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "realism-painting",
+      "to": "romanticism-painting",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "renaissance-architecture",
+      "to": "gothic-architecture",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "romanticism-painting",
+      "to": "rococo-painting",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "straight-photography",
       "to": "pictorialism",
       "type": "REBELLED_AGAINST"
@@ -2382,6 +2832,7 @@
         "art-deco-web"
       ],
       "echoes": [
+        "art-nouveau-architecture",
         "art-nouveau-interior"
       ],
       "nearest_by_vector": [
@@ -2411,7 +2862,9 @@
         "constructivism-web"
       ],
       "echoes": [
-        "international-style-architecture"
+        "de-stijl-painting",
+        "international-style-architecture",
+        "prairie-school-architecture"
       ],
       "nearest_by_vector": [
         {
@@ -2476,7 +2929,8 @@
         "de-stijl-web"
       ],
       "echoes": [
-        "brutalist-architecture"
+        "brutalist-architecture",
+        "cubism-painting"
       ],
       "nearest_by_vector": [
         {
@@ -2505,6 +2959,7 @@
         "bauhaus"
       ],
       "echoes": [
+        "art-deco-architecture",
         "art-deco-interior",
         "hollywood-regency-interior",
         "neo-deco-interior"
@@ -2640,7 +3095,9 @@
         "memphis-design",
         "psychedelic"
       ],
-      "echoes": [],
+      "echoes": [
+        "pop-art-painting"
+      ],
       "nearest_by_vector": [
         {
           "id": "art-nouveau-web",
@@ -2725,6 +3182,7 @@
       "echoes": [
         "dopamine-decor",
         "memphis-interior",
+        "pop-art-painting",
         "postmodern-architecture"
       ],
       "nearest_by_vector": [
@@ -2917,7 +3375,9 @@
       "hybridized_with": [
         "frutiger-aero"
       ],
-      "echoes": [],
+      "echoes": [
+        "surrealism-painting"
+      ],
       "nearest_by_vector": [
         {
           "id": "y2k-aesthetic",
@@ -3131,6 +3591,139 @@
         }
       ]
     },
+    "gothic-architecture": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [
+        "renaissance-architecture"
+      ],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "brutalist-architecture",
+          "distance": 3.74
+        },
+        {
+          "id": "art-deco-architecture",
+          "distance": 3.87
+        },
+        {
+          "id": "baroque-architecture",
+          "distance": 3.87
+        }
+      ]
+    },
+    "renaissance-architecture": {
+      "evolved_from": [],
+      "evolved_into": [
+        "baroque-architecture"
+      ],
+      "rebelled_against": [
+        "gothic-architecture"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "renaissance-painting"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "neoclassical-architecture",
+          "distance": 1
+        },
+        {
+          "id": "art-deco-architecture",
+          "distance": 1.73
+        },
+        {
+          "id": "beaux-arts-architecture",
+          "distance": 2.24
+        }
+      ]
+    },
+    "baroque-architecture": {
+      "evolved_from": [
+        "renaissance-architecture"
+      ],
+      "evolved_into": [
+        "beaux-arts-architecture"
+      ],
+      "rebelled_against": [],
+      "provoked": [
+        "neoclassical-architecture"
+      ],
+      "hybridized_with": [],
+      "echoes": [
+        "baroque-painting"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "art-deco-architecture",
+          "distance": 2.45
+        },
+        {
+          "id": "beaux-arts-architecture",
+          "distance": 2.45
+        },
+        {
+          "id": "parametricism-architecture",
+          "distance": 2.45
+        }
+      ]
+    },
+    "neoclassical-architecture": {
+      "evolved_from": [],
+      "evolved_into": [
+        "beaux-arts-architecture"
+      ],
+      "rebelled_against": [
+        "baroque-architecture"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "renaissance-architecture",
+          "distance": 1
+        },
+        {
+          "id": "international-style-architecture",
+          "distance": 1.73
+        },
+        {
+          "id": "art-deco-architecture",
+          "distance": 2.45
+        }
+      ]
+    },
+    "beaux-arts-architecture": {
+      "evolved_from": [
+        "baroque-architecture",
+        "neoclassical-architecture"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "art-deco-architecture",
+          "distance": 1.41
+        },
+        {
+          "id": "postmodern-architecture",
+          "distance": 2.24
+        },
+        {
+          "id": "renaissance-architecture",
+          "distance": 2.24
+        }
+      ]
+    },
     "art-nouveau-architecture": {
       "evolved_from": [],
       "evolved_into": [
@@ -3140,20 +3733,49 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
-        "art-nouveau-interior"
+        "art-nouveau-interior",
+        "art-nouveau-web",
+        "rococo-painting"
       ],
       "nearest_by_vector": [
+        {
+          "id": "parametricism-architecture",
+          "distance": 3.16
+        },
         {
           "id": "deconstructivist-architecture",
           "distance": 3.32
         },
         {
-          "id": "postmodern-architecture",
+          "id": "nordic-modernism-architecture",
           "distance": 3.32
+        }
+      ]
+    },
+    "prairie-school-architecture": {
+      "evolved_from": [],
+      "evolved_into": [
+        "mid-century-modern-architecture"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "de-stijl-painting",
+        "de-stijl-web"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "mid-century-modern-architecture",
+          "distance": 2.24
         },
         {
-          "id": "art-deco-architecture",
-          "distance": 4
+          "id": "nordic-modernism-architecture",
+          "distance": 2.24
+        },
+        {
+          "id": "bauhaus-architecture",
+          "distance": 2.65
         }
       ]
     },
@@ -3167,6 +3789,7 @@
       ],
       "echoes": [
         "bauhaus",
+        "bauhaus-interior",
         "new-objectivity"
       ],
       "nearest_by_vector": [
@@ -3194,20 +3817,21 @@
       "hybridized_with": [],
       "echoes": [
         "art-deco-interior",
+        "art-deco-web",
         "neo-deco-interior"
       ],
       "nearest_by_vector": [
+        {
+          "id": "beaux-arts-architecture",
+          "distance": 1.41
+        },
         {
           "id": "postmodern-architecture",
           "distance": 1.73
         },
         {
-          "id": "international-style-architecture",
-          "distance": 3.61
-        },
-        {
-          "id": "art-nouveau-architecture",
-          "distance": 4
+          "id": "renaissance-architecture",
+          "distance": 1.73
         }
       ]
     },
@@ -3216,11 +3840,13 @@
       "evolved_into": [
         "brutalist-architecture",
         "high-tech-architecture",
-        "mid-century-modern-architecture"
+        "mid-century-modern-architecture",
+        "nordic-modernism-architecture"
       ],
       "rebelled_against": [],
       "provoked": [
         "deconstructivist-architecture",
+        "parametricism-architecture",
         "postmodern-architecture"
       ],
       "hybridized_with": [
@@ -3245,7 +3871,33 @@
           "distance": 1.41
         },
         {
+          "id": "neoclassical-architecture",
+          "distance": 1.73
+        },
+        {
           "id": "high-tech-architecture",
+          "distance": 2.24
+        }
+      ]
+    },
+    "nordic-modernism-architecture": {
+      "evolved_from": [
+        "international-style-architecture"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "scandinavian-interior"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "deconstructivist-architecture",
+          "distance": 1.41
+        },
+        {
+          "id": "prairie-school-architecture",
           "distance": 2.24
         },
         {
@@ -3256,14 +3908,16 @@
     },
     "mid-century-modern-architecture": {
       "evolved_from": [
-        "international-style-architecture"
+        "international-style-architecture",
+        "prairie-school-architecture"
       ],
       "evolved_into": [],
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
-        "mid-century-modern"
+        "mid-century-modern",
+        "mid-century-modern-interior"
       ],
       "nearest_by_vector": [
         {
@@ -3271,12 +3925,12 @@
           "distance": 2
         },
         {
-          "id": "international-style-architecture",
-          "distance": 2.45
+          "id": "prairie-school-architecture",
+          "distance": 2.24
         },
         {
-          "id": "high-tech-architecture",
-          "distance": 3
+          "id": "international-style-architecture",
+          "distance": 2.45
         }
       ]
     },
@@ -3305,12 +3959,12 @@
           "distance": 3.61
         },
         {
-          "id": "international-style-architecture",
-          "distance": 4.24
+          "id": "gothic-architecture",
+          "distance": 3.74
         },
         {
-          "id": "bauhaus-architecture",
-          "distance": 4.47
+          "id": "international-style-architecture",
+          "distance": 4.24
         }
       ]
     },
@@ -3326,7 +3980,8 @@
       ],
       "hybridized_with": [],
       "echoes": [
-        "memphis-design"
+        "memphis-design",
+        "memphis-interior"
       ],
       "nearest_by_vector": [
         {
@@ -3334,12 +3989,12 @@
           "distance": 1.73
         },
         {
-          "id": "art-nouveau-architecture",
-          "distance": 3.32
+          "id": "beaux-arts-architecture",
+          "distance": 2.24
         },
         {
-          "id": "deconstructivist-architecture",
-          "distance": 4
+          "id": "baroque-architecture",
+          "distance": 2.65
         }
       ]
     },
@@ -3373,7 +4028,9 @@
     },
     "deconstructivist-architecture": {
       "evolved_from": [],
-      "evolved_into": [],
+      "evolved_into": [
+        "parametricism-architecture"
+      ],
       "rebelled_against": [
         "international-style-architecture",
         "postmodern-architecture"
@@ -3383,20 +4040,47 @@
         "high-tech-architecture"
       ],
       "echoes": [
+        "cubism-painting",
         "grunge-editorial"
       ],
       "nearest_by_vector": [
         {
+          "id": "nordic-modernism-architecture",
+          "distance": 1.41
+        },
+        {
+          "id": "parametricism-architecture",
+          "distance": 2.65
+        },
+        {
           "id": "art-nouveau-architecture",
           "distance": 3.32
+        }
+      ]
+    },
+    "parametricism-architecture": {
+      "evolved_from": [
+        "deconstructivist-architecture"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "international-style-architecture"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "baroque-architecture",
+          "distance": 2.45
         },
         {
-          "id": "mid-century-modern-architecture",
-          "distance": 3.74
+          "id": "deconstructivist-architecture",
+          "distance": 2.65
         },
         {
-          "id": "high-tech-architecture",
-          "distance": 3.87
+          "id": "postmodern-architecture",
+          "distance": 2.65
         }
       ]
     },
@@ -3559,6 +4243,8 @@
       "hybridized_with": [],
       "echoes": [
         "bauhaus",
+        "bauhaus-architecture",
+        "de-stijl-painting",
         "international-style-architecture"
       ],
       "nearest_by_vector": [
@@ -3647,7 +4333,8 @@
       ],
       "echoes": [
         "international-style-architecture",
-        "mid-century-modern"
+        "mid-century-modern",
+        "mid-century-modern-architecture"
       ],
       "nearest_by_vector": [
         {
@@ -3680,6 +4367,8 @@
         "mid-century-modern-interior"
       ],
       "echoes": [
+        "nordic-modernism-architecture",
+        "nordic-national-romanticism-painting",
         "scandinavian-interior-photography"
       ],
       "nearest_by_vector": [
@@ -3739,7 +4428,8 @@
       ],
       "hybridized_with": [],
       "echoes": [
-        "memphis-design"
+        "memphis-design",
+        "postmodern-architecture"
       ],
       "nearest_by_vector": [
         {
@@ -3802,7 +4492,8 @@
       ],
       "hybridized_with": [],
       "echoes": [
-        "scandinavian-interior-photography"
+        "scandinavian-interior-photography",
+        "ukiyo-e"
       ],
       "nearest_by_vector": [
         {
@@ -3991,6 +4682,7 @@
       "hybridized_with": [],
       "echoes": [
         "international-style-architecture",
+        "realism-painting",
         "swiss-international"
       ],
       "nearest_by_vector": [
@@ -4121,7 +4813,9 @@
         "duesseldorf-school",
         "new-topographics"
       ],
-      "echoes": [],
+      "echoes": [
+        "fauvism"
+      ],
       "nearest_by_vector": [
         {
           "id": "film-grain-revival",
@@ -4449,6 +5143,7 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
+        "baroque-painting",
         "film-noir-still",
         "new-objectivity"
       ],
@@ -4662,7 +5357,8 @@
     "renaissance-painting": {
       "evolved_from": [],
       "evolved_into": [
-        "baroque-painting"
+        "baroque-painting",
+        "mannerism-painting"
       ],
       "rebelled_against": [],
       "provoked": [
@@ -4670,24 +5366,25 @@
       ],
       "hybridized_with": [],
       "echoes": [
-        "georgian-interior"
+        "georgian-interior",
+        "renaissance-architecture"
       ],
       "nearest_by_vector": [
         {
+          "id": "surrealism-painting",
+          "distance": 1.41
+        },
+        {
+          "id": "mannerism-painting",
+          "distance": 2.45
+        },
+        {
           "id": "baroque-painting",
           "distance": 3
-        },
-        {
-          "id": "nordic-national-romanticism-painting",
-          "distance": 3.16
-        },
-        {
-          "id": "ukiyo-e",
-          "distance": 3.32
         }
       ]
     },
-    "baroque-painting": {
+    "mannerism-painting": {
       "evolved_from": [
         "renaissance-painting"
       ],
@@ -4695,22 +5392,50 @@
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "ukiyo-e",
+          "distance": 1.73
+        },
+        {
+          "id": "pop-art-painting",
+          "distance": 2.24
+        },
+        {
+          "id": "nordic-national-romanticism-painting",
+          "distance": 2.45
+        }
+      ]
+    },
+    "baroque-painting": {
+      "evolved_from": [
+        "renaissance-painting"
+      ],
+      "evolved_into": [
+        "rococo-painting"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
       "echoes": [
+        "baroque-architecture",
         "film-noir-still",
-        "food-photography"
+        "food-photography",
+        "german-expressionist-cinema"
       ],
       "nearest_by_vector": [
         {
-          "id": "nordic-national-romanticism-painting",
-          "distance": 2.65
+          "id": "realism-painting",
+          "distance": 2
         },
         {
-          "id": "renaissance-painting",
-          "distance": 3
+          "id": "rococo-painting",
+          "distance": 2.24
         },
         {
-          "id": "impressionism",
-          "distance": 3.74
+          "id": "romanticism-painting",
+          "distance": 2.45
         }
       ]
     },
@@ -4723,26 +5448,115 @@
         "impressionism"
       ],
       "echoes": [
-        "flat-design"
+        "flat-design",
+        "japandi-interior"
       ],
       "nearest_by_vector": [
         {
+          "id": "mannerism-painting",
+          "distance": 1.73
+        },
+        {
+          "id": "pop-art-painting",
+          "distance": 2.45
+        },
+        {
           "id": "nordic-national-romanticism-painting",
           "distance": 3
+        }
+      ]
+    },
+    "rococo-painting": {
+      "evolved_from": [
+        "baroque-painting"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [
+        "realism-painting",
+        "romanticism-painting"
+      ],
+      "hybridized_with": [],
+      "echoes": [
+        "art-nouveau-architecture"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "realism-painting",
+          "distance": 1
         },
         {
-          "id": "cubism-painting",
-          "distance": 3.16
+          "id": "nordic-national-romanticism-painting",
+          "distance": 1.41
         },
         {
-          "id": "de-stijl-painting",
-          "distance": 3.32
+          "id": "baroque-painting",
+          "distance": 2.24
+        }
+      ]
+    },
+    "romanticism-painting": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "rococo-painting"
+      ],
+      "provoked": [
+        "realism-painting"
+      ],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "baroque-painting",
+          "distance": 2.45
+        },
+        {
+          "id": "impressionism",
+          "distance": 2.45
+        },
+        {
+          "id": "nordic-national-romanticism-painting",
+          "distance": 2.65
+        }
+      ]
+    },
+    "realism-painting": {
+      "evolved_from": [],
+      "evolved_into": [
+        "impressionism"
+      ],
+      "rebelled_against": [
+        "rococo-painting",
+        "romanticism-painting"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "straight-photography"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "rococo-painting",
+          "distance": 1
+        },
+        {
+          "id": "nordic-national-romanticism-painting",
+          "distance": 1.73
+        },
+        {
+          "id": "baroque-painting",
+          "distance": 2
         }
       ]
     },
     "impressionism": {
-      "evolved_from": [],
-      "evolved_into": [],
+      "evolved_from": [
+        "realism-painting"
+      ],
+      "evolved_into": [
+        "pointillism"
+      ],
       "rebelled_against": [],
       "provoked": [
         "cubism-painting"
@@ -4758,16 +5572,16 @@
       ],
       "nearest_by_vector": [
         {
-          "id": "nordic-national-romanticism-painting",
-          "distance": 3
+          "id": "pointillism",
+          "distance": 1
         },
         {
-          "id": "abstract-expressionism",
-          "distance": 3.46
+          "id": "romanticism-painting",
+          "distance": 2.45
         },
         {
-          "id": "baroque-painting",
-          "distance": 3.74
+          "id": "fauvism",
+          "distance": 2.83
         }
       ]
     },
@@ -4780,20 +5594,73 @@
         "impressionism"
       ],
       "echoes": [
-        "arts-and-crafts-interior"
+        "arts-and-crafts-interior",
+        "scandinavian-interior"
       ],
       "nearest_by_vector": [
         {
-          "id": "baroque-painting",
+          "id": "rococo-painting",
+          "distance": 1.41
+        },
+        {
+          "id": "realism-painting",
+          "distance": 1.73
+        },
+        {
+          "id": "mannerism-painting",
+          "distance": 2.45
+        }
+      ]
+    },
+    "pointillism": {
+      "evolved_from": [
+        "impressionism"
+      ],
+      "evolved_into": [
+        "fauvism"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "impressionism",
+          "distance": 1
+        },
+        {
+          "id": "fauvism",
           "distance": 2.65
         },
         {
-          "id": "cubism-painting",
+          "id": "romanticism-painting",
+          "distance": 2.65
+        }
+      ]
+    },
+    "fauvism": {
+      "evolved_from": [
+        "pointillism"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "new-colour"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "nordic-national-romanticism-painting",
+          "distance": 2.65
+        },
+        {
+          "id": "pointillism",
           "distance": 2.65
         },
         {
           "id": "impressionism",
-          "distance": 3
+          "distance": 2.83
         }
       ]
     },
@@ -4809,7 +5676,10 @@
       ],
       "provoked": [],
       "hybridized_with": [],
-      "echoes": [],
+      "echoes": [
+        "constructivism-web",
+        "deconstructivist-architecture"
+      ],
       "nearest_by_vector": [
         {
           "id": "nordic-national-romanticism-painting",
@@ -4837,7 +5707,10 @@
       "hybridized_with": [],
       "echoes": [
         "bauhaus",
+        "bauhaus-interior",
+        "de-stijl-web",
         "international-style-architecture",
+        "prairie-school-architecture",
         "swiss-international"
       ],
       "nearest_by_vector": [
@@ -4846,24 +5719,53 @@
           "distance": 3.32
         },
         {
-          "id": "ukiyo-e",
+          "id": "pop-art-painting",
           "distance": 3.32
         },
         {
-          "id": "nordic-national-romanticism-painting",
-          "distance": 4.69
+          "id": "ukiyo-e",
+          "distance": 3.32
+        }
+      ]
+    },
+    "surrealism-painting": {
+      "evolved_from": [],
+      "evolved_into": [
+        "abstract-expressionism"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "vaporwave"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "renaissance-painting",
+          "distance": 1.41
+        },
+        {
+          "id": "mannerism-painting",
+          "distance": 2.45
+        },
+        {
+          "id": "baroque-painting",
+          "distance": 2.65
         }
       ]
     },
     "abstract-expressionism": {
       "evolved_from": [
-        "cubism-painting"
+        "cubism-painting",
+        "surrealism-painting"
       ],
       "evolved_into": [],
       "rebelled_against": [
         "de-stijl-painting"
       ],
-      "provoked": [],
+      "provoked": [
+        "pop-art-painting"
+      ],
       "hybridized_with": [],
       "echoes": [
         "brutalist-architecture"
@@ -4874,12 +5776,39 @@
           "distance": 3.16
         },
         {
-          "id": "impressionism",
-          "distance": 3.46
+          "id": "fauvism",
+          "distance": 3.16
         },
         {
-          "id": "nordic-national-romanticism-painting",
-          "distance": 3.87
+          "id": "impressionism",
+          "distance": 3.46
+        }
+      ]
+    },
+    "pop-art-painting": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "abstract-expressionism"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "memphis-design",
+        "pop-art-web"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "mannerism-painting",
+          "distance": 2.24
+        },
+        {
+          "id": "ukiyo-e",
+          "distance": 2.45
+        },
+        {
+          "id": "de-stijl-painting",
+          "distance": 3.32
         }
       ]
     }

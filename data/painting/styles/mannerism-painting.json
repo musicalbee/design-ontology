@@ -1,0 +1,117 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "mannerism-painting",
+  "domain": "painting",
+  "name": "Mannerism",
+  "aliases": ["Late Renaissance", "Maniera"],
+  "era_id": "early-modern",
+  "time_period": { "start": 1520, "end": 1600, "label": "1520–1600" },
+  "region": "Florence, Rome and Spain",
+  "media": ["oil on canvas", "oil on panel", "fresco"],
+  "summary": "Elongated, twisting figures in crowded, unstable space, in acid colour. The painters took the Renaissance rules and bent them on purpose: grace and artifice replace calm balance.",
+  "philosophy": {
+    "core_thesis": "A picture is most beautiful when it shows skill and invention, so the painter stretches, twists and crowds the ideal body past nature.",
+    "design_principles": [
+      "Draw the figure 9 to 10 heads tall, with a small head and long limbs and neck.",
+      "Twist each figure in a serpentine line (figura serpentinata) that spirals up through 180° or more.",
+      "Fill the picture to the edges with 5–15 figures, and leave no calm floor to stand on.",
+      "Tilt the space: raise the horizon and push the ground up the picture plane so that figures climb and stack.",
+      "Use acid, shifting colour: a cold pink, lemon, green and blue that change hue inside one drape (cangiante).",
+      "Light the figure from a cold, unclear source, and keep the faces smooth and enamel-like.",
+      "Put the main action off to one side or far back, and place a large decorative figure in front."
+    ],
+    "anti_patterns": [
+      "Calm, symmetric balance around a central axis",
+      "Figures of natural proportion, 7 to 8 heads tall",
+      "Clear, deep perspective with an open floor",
+      "Warm, earthy colour that stays one hue in each drape",
+      "Empty space around the main figure",
+      "Rough, visible brush strokes"
+    ]
+  },
+  "vectors": { "abstraction": 2, "brushwork_visibility": 1, "chromatic_intensity": 4, "depth_illusion": 3, "line_dominance": 4 },
+  "composition": {
+    "layout": "A crowded, vertical stack of twisting figures that climb the picture plane, with a raised horizon and a small, tilted window of deep space far behind.",
+    "focal_point": "A group of figures off-centre, at about one third from an edge; the eye is led there by a spiral of limbs and drapery.",
+    "format": "A tall panel or canvas at ratios of 2:3 to 1:2; the figures reach and are cut by the top and side edges.",
+    "principles": [
+      { "principle": "proportion", "rule": "Draw figures 9 to 10 heads tall, with the head at one tenth of the height, against 7 to 8 heads in the earlier ideal." },
+      { "principle": "rhythm", "rule": "Repeat a spiral of limb and drapery 3–5 times from the base to the top, each turn 90° to 180° from the last." },
+      { "principle": "layering-depth", "rule": "Compress the space to 3 tight layers with a high horizon at 20–30% from the top, and a small deep gap behind." },
+      { "principle": "balance", "rule": "Hold an unstable balance: put 60–70% of the figure mass on one side, and counter it with a small, far, bright figure." },
+      { "principle": "colour-distribution", "rule": "Spread 4–5 acid hues across the figures in patches of 5–15% each, and keep no hue as a dominant field." },
+      { "principle": "focal-point", "rule": "Place the main group at one third from the edge, and make it the only area where three or more diagonals meet." }
+    ]
+  },
+  "palette": {
+    "strategy": "Cold, acid and shifting colour: a pink, lemon, sea-green and lapis blue, with a changing hue inside one fold of cloth, on a dark, cool ground.",
+    "distribution": "Flesh and pale drapery 35–45%, acid colour patches 30–40%, dark ground and shadow 20–30%.",
+    "ground": "A dark grey-green or brown ground, glazed with thin colour over a light underpainting.",
+    "colours": [
+      { "name": "Lapis blue", "hex": "#2A4E96", "pigment": "natural ultramarine", "role": "cloak and sky" },
+      { "name": "Cold rose", "hex": "#D98A9B", "pigment": "lake and lead white", "role": "drapery that shifts hue" },
+      { "name": "Acid yellow", "hex": "#E0D260", "pigment": "lead-tin yellow", "role": "shot-silk highlight" },
+      { "name": "Sea green", "hex": "#5E9E87", "pigment": "verdigris and white", "role": "drape and sky" },
+      { "name": "Ivory flesh", "hex": "#E6D5C3", "pigment": "lead white and ochre", "role": "smooth skin" },
+      { "name": "Cool shadow", "hex": "#3A3F47", "pigment": "umber and black", "role": "dark ground" },
+      { "name": "Vermilion", "hex": "#C73B26", "pigment": "vermilion", "role": "a sharp accent" }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Oil paint with glazes over a pale tempera underpainting; in a wall picture, fresco.",
+    "support": "Panel or fine-weave canvas with a smooth, pale ground.",
+    "brushwork": "Fine strokes of 1–3mm, blended away; the hand does not show.",
+    "paint_handling": "4–8 thin layers with smooth glazes; the flesh is polished and the drapery is crisp and sharp.",
+    "edges": "Hard, clean contours on the figures, with a soft edge only inside the hair and the far haze."
+  },
+  "light_and_modelling": {
+    "light": "A cool, even or unclear light from a high side; it shows no warm sun and no strong beam.",
+    "modelling": "Smooth, enamel-like skin with 4–6 steps from light to dark; the limbs read as cool marble.",
+    "shadow": "Dark, cool and clean, kept to 15–25% of a figure; it does not blur the contour.",
+    "temperature": "A cool key overall, with the warm tones kept to a small flesh or a red accent."
+  },
+  "subject": {
+    "typical": "Religious scenes, myth and allegory, and long-necked portraits of court figures in stiff, rich dress.",
+    "figure_scale": "The figures fill 70–90% of the picture height and press the edges.",
+    "treatment": "Elegant, cool and artificial; the sitter or saint is poised, with no plain emotion on the face."
+  },
+  "surface": {
+    "finish": "Smooth and glossy, polished like enamel.",
+    "texture": "No visible brush texture; a fine, even surface."
+  },
+  "reference_works": {
+    "works": [
+      { "work": "The Assumption of the Virgin", "artist": "El Greco", "date": "1577–79", "museum": "Art Institute of Chicago", "object_id": "87479", "public_domain": true },
+      { "work": "Venus with Cupid and Putto", "artist": "Parmigianino", "date": "1527/30", "museum": "Art Institute of Chicago", "object_id": "12124", "public_domain": true },
+      { "work": "Group of Nine Standing Figures", "artist": "Parmigianino", "date": "1524/27", "museum": "Art Institute of Chicago", "object_id": "52668", "public_domain": true }
+    ],
+    "note": "Object ids were checked against the Art Institute of Chicago API (CC0 data). The third work is a drawing and shows the stretched figure. Look at the museum page for the image and its licence."
+  },
+  "prompt_primer": {
+    "positive": ["mannerist painting", "elongated figures", "serpentine pose", "crowded composition", "acid pink and lemon colour", "shot silk drapery", "cool enamel skin", "raised horizon", "figura serpentinata", "late renaissance artifice"],
+    "negative": ["natural proportion", "calm symmetry", "deep clear perspective", "warm earthy palette", "visible brush strokes", "empty space"]
+  },
+  "lineage": { "evolved_from": ["renaissance-painting"], "rebelled_against": [], "hybridized_with": [], "echoes": [] },
+  "emotion": {
+    "target_response": "Unease and admiration: the viewer sees great skill and feels a cool, tense elegance that is not at rest.",
+    "keywords": ["elongated", "artificial", "tense", "elegant", "cool"],
+    "brand_archetypes": ["creator", "magician", "ruler"]
+  },
+  "agent": {
+    "triggers": ["mannerism", "mannerist", "el greco", "parmigianino", "pontormo", "bronzino", "elongated figures", "serpentine figure", "late renaissance"],
+    "use_cases": ["fashion editorial and costume art", "book and album covers with a strange, cold grace", "fantasy and myth illustration", "portrait with a stylised, courtly look"],
+    "avoid_when": [
+      "The brief needs calm, plain clarity or a friendly mood.",
+      "The picture needs natural body proportion or a clear, open space."
+    ],
+    "modifiers": [
+      { "request": "calmer and more classical", "toward": "renaissance-painting", "how": "Reset the figure to 7 to 8 heads, bring back a central axis and an open floor, and use warm, one-hue drapery." },
+      { "request": "more dramatic", "toward": "baroque-painting", "how": "Keep the twist and the figure scale; cut the acid colour, add one strong beam of light and a dark ground at 50% of the area." }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q131808 (Mannerism)", "url": "https://www.wikidata.org/wiki/Q131808" },
+    { "title": "Art Institute of Chicago API (CC0 data)", "url": "https://api.artic.edu/docs/" },
+    { "title": "Giorgio Vasari, Lives of the Most Excellent Painters, Sculptors and Architects (1550)" }
+  ]
+}

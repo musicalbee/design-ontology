@@ -181,7 +181,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`documentary-photography`](../documentary-photography/SKILL.md), [`fashion-editorial`](../fashion-editorial/SKILL.md), [`film-noir-still`](../film-noir-still/SKILL.md), [`food-photography`](../food-photography/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md), [`street-photography`](../street-photography/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`pictorialism`](../pictorialism/SKILL.md)
-- **Kin in another domain:** [`international-style-architecture`](../international-style-architecture/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
+- **Kin in another domain:** [`international-style-architecture`](../international-style-architecture/SKILL.md), [`realism-painting`](../realism-painting/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
 - **Nearest by vector profile:** [`street-photography`](../street-photography/SKILL.md), [`documentary-photography`](../documentary-photography/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md)
 
 ## Emotional target

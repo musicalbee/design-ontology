@@ -235,7 +235,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md)
 - **Was rejected by:** [`memphis-interior`](../memphis-interior/SKILL.md)
-- **Kin in another domain:** [`bauhaus`](../bauhaus/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md)
+- **Kin in another domain:** [`bauhaus`](../bauhaus/SKILL.md), [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md)
 - **Nearest by vector profile:** [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
 
 ## Emotional target
