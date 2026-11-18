@@ -136,6 +136,18 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Positive:** slab serif · egyptian type · heavy square serifs · victorian wood-type poster · bold headline · low contrast strokes · letterpress on newsprint · typewriter feel
 - **Negative:** hairline serifs · thin elegant letters · script · calligraphic stress · pastel softness
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Wood type (process)
+
+Large display letters routed from end-grain wood instead of cast in metal, so posters and bills can use letters 5–50 cm high at a low cost. Origin: typeface, New York, 1828.
+
+- Use wood type for letters above about 72 pt, where metal is too heavy and too expensive.
+- Draw the faces to be loud at a distance: fat face, slab and condensed grotesque, in one weight per line.
+- Mix several faces and sizes on one bill and centre each line, as the job printers did.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -144,9 +156,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **cleaner**: move toward [`grotesque-sans`](../grotesque-sans/SKILL.md) (Grotesque sans). Remove the slabs; keep the low contrast, the weight and the industrial voice.
 
 - **Came from (go here for a more orthodox version):** [`didone-serif`](../didone-serif/SKILL.md)
-- **Mixes well with:** [`grotesque-sans`](../grotesque-sans/SKILL.md)
+- **Led to (go here for a newer version):** [`monospace`](../monospace/SKILL.md)
+- **Mixes well with:** [`fat-face-display`](../fat-face-display/SKILL.md), [`grotesque-sans`](../grotesque-sans/SKILL.md)
 - **Kin in another domain:** [`victorian-interior`](../victorian-interior/SKILL.md), [`victorian-web`](../victorian-web/SKILL.md)
-- **Nearest by vector profile:** [`transitional-serif`](../transitional-serif/SKILL.md), [`grotesque-sans`](../grotesque-sans/SKILL.md), [`garalde-old-style`](../garalde-old-style/SKILL.md)
+- **Nearest by vector profile:** [`monospace`](../monospace/SKILL.md), [`transitional-serif`](../transitional-serif/SKILL.md), [`grotesque-sans`](../grotesque-sans/SKILL.md)
 
 ## Emotional target
 

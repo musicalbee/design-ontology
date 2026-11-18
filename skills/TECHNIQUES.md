@@ -251,6 +251,24 @@ Sources: Getty Art & Architecture Thesaurus, entry: terrazzo.
 
 ## Process
 
+### Fixed-pitch grid
+
+Every character takes one cell of the same width, so text forms columns without a separate grid and a position is a count of characters.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Typeface | 1874 | — | Ilion, New York: The Sholes and Glidden typewriter by E. Remington and Sons moves the carriage one fixed step for each key, so its type must be monospaced. | |
+| 1 | Typeface | 1874 | +0 years | Typewriter faces, then Courier for IBM in 1955. | [`monospace`](./monospace/SKILL.md) |
+| 2 | Graphic & UI Design | 1978 | +104 years | Video terminals such as the DEC VT100 draw the whole screen as a grid of 80 by 24 character cells. | [`terminal-tui-web`](./terminal-tui-web/SKILL.md), [`dark-devtool-ui`](./dark-devtool-ui/SKILL.md) |
+
+Used by: [`monospace`](./monospace/SKILL.md), [`terminal-tui-web`](./terminal-tui-web/SKILL.md), [`dark-devtool-ui`](./dark-devtool-ui/SKILL.md).
+
+- Give every glyph one advance width, 0.60 em in most fonts, or 10 or 12 characters an inch on a typewriter.
+- Align columns with spaces and set tables, code and forms on the cell grid.
+- On a screen, size the layout in cells: 80 columns by 24 rows is the classic terminal.
+
+Sources: [Monospaced font (Wikipedia)](https://en.wikipedia.org/wiki/Monospaced_font); [Sholes and Glidden typewriter (Wikipedia)](https://en.wikipedia.org/wiki/Sholes_and_Glidden_typewriter); [VT100 (Wikipedia)](https://en.wikipedia.org/wiki/VT100).
+
 ### Halftone
 
 Tone printed as dots of different size or spacing; at a distance the dots merge into grey or colour.
@@ -304,6 +322,24 @@ Used by: [`renaissance-painting`](./renaissance-painting/SKILL.md), [`cassette-f
 
 Sources: Leon Battista Alberti, De pictura (1435).
 
+### Wood type
+
+Large display letters routed from end-grain wood instead of cast in metal, so posters and bills can use letters 5–50 cm high at a low cost.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Typeface | 1828 | — | New York: Darius Wells makes wood type in quantity with a routing machine, and the poster printers take it up at once. | |
+| 1 | Typeface | 1828 | +0 years | The first wood type lines are fat faces copied from the London founders. | [`fat-face-display`](./fat-face-display/SKILL.md) |
+| 2 | Typeface | c. 1834 | +6 years | Wood type founders add Egyptian slabs and condensed letters for posters. | [`slab-serif`](./slab-serif/SKILL.md) |
+
+Used by: [`fat-face-display`](./fat-face-display/SKILL.md), [`slab-serif`](./slab-serif/SKILL.md).
+
+- Use wood type for letters above about 72 pt, where metal is too heavy and too expensive.
+- Draw the faces to be loud at a distance: fat face, slab and condensed grotesque, in one weight per line.
+- Mix several faces and sizes on one bill and centre each line, as the job printers did.
+
+Sources: [Wood type (Wikipedia)](https://en.wikipedia.org/wiki/Wood_type); [Fat face (Wikipedia)](https://en.wikipedia.org/wiki/Fat_face).
+
 ## Tool
 
 ### Airbrush
@@ -325,6 +361,43 @@ Used by: [`airbrush-surrealism`](./airbrush-surrealism/SKILL.md), [`cyberdelia`]
 - Put one specular highlight of pure white on each chrome form.
 
 Sources: Seng-gye Tombs Curtis and Christopher Hunt, The Airbrush Book (1980).
+
+### Broad-nib pen
+
+A pen with a flat, square-cut tip held at a fixed angle, so the width of a stroke changes with its direction and the stress of the letter is diagonal.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Typeface | c. 1454 | — | Mainz: The pen is older than print; Gutenberg cut his textura from the broad-nib book hand of the scribes, the first record of the pen in type. | |
+| 1 | Typeface | c. 1454 | +0 years | Gutenberg's textura for the 42-line Bible copies the broken broad-nib hand. | [`blackletter`](./blackletter/SKILL.md) |
+| 2 | Typeface | 1470 | +16 years | Nicolas Jenson cuts a roman with the diagonal stress of the humanist broad-nib hand. | [`garalde-old-style`](./garalde-old-style/SKILL.md) |
+| 3 | Typeface | 1916 | +462 years | Edward Johnston, a calligrapher, draws the London Underground sans from broad-nib proportions. | [`humanist-sans`](./humanist-sans/SKILL.md) |
+
+Used by: [`blackletter`](./blackletter/SKILL.md), [`garalde-old-style`](./garalde-old-style/SKILL.md), [`humanist-sans`](./humanist-sans/SKILL.md).
+
+- Hold the nib edge at 30–45° to the baseline and keep that angle for every stroke.
+- Make the x-height about 4 nib widths in a round book hand and about 5 in textura; a stem is one nib width wide.
+- Let the thin parts fall on the diagonal of the nib angle, so the o has its thinnest points at about 11 and 5 o'clock.
+
+Sources: [Blackletter (Wikipedia)](https://en.wikipedia.org/wiki/Blackletter); [Calligraphy (Wikipedia)](https://en.wikipedia.org/wiki/Calligraphy); [Edward Johnston (Wikipedia)](https://en.wikipedia.org/wiki/Edward_Johnston).
+
+### Pointed pen
+
+A sharp, flexible steel or quill nib: pressure spreads the two tines for a swelling downstroke, and no pressure gives a hairline upstroke.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Typeface | 1741 | — | London: George Bickham's The Universal Penman engraves the roundhand of the English writing masters, the model for every later formal script. | |
+| 1 | Typeface | 1741 | +0 years | Engraved copybooks of the writing masters, then metal scripts that copy the plates. | [`formal-script`](./formal-script/SKILL.md) |
+| 2 | Logo | 1886 | +145 years | Frank Mason Robinson writes the Coca-Cola wordmark in Spencerian, a pointed-pen hand. | [`victorian-trademark`](./victorian-trademark/SKILL.md) |
+
+Used by: [`formal-script`](./formal-script/SKILL.md), [`victorian-trademark`](./victorian-trademark/SKILL.md).
+
+- Slope the letters 50–55° from the baseline and keep one slope for the line.
+- Press only on the downstrokes, to 3–8 times the hairline width, and release on the upstrokes and the joins.
+- Join each lower-case letter to the next with a hairline from the baseline or the x-height.
+
+Sources: [Copperplate script (Wikipedia)](https://en.wikipedia.org/wiki/Copperplate_script); [Spencerian script (Wikipedia)](https://en.wikipedia.org/wiki/Spencerian_script).
 
 ---
 

@@ -1,0 +1,272 @@
+{
+  "$schema": "../../../schema/domains/typeface.schema.json",
+  "id": "fat-face-display",
+  "domain": "typeface",
+  "name": "Fat face display",
+  "aliases": [
+    "Fat face",
+    "Display face",
+    "Poster Didone",
+    "Ultra-bold modern"
+  ],
+  "era_id": "industrial",
+  "time_period": {
+    "start": 1810,
+    "end": null,
+    "label": "1810–present"
+  },
+  "region": "London",
+  "summary": "The first type made only for display: a Didone pushed to extreme weight, with stems as thick as half the letter and hairlines kept fine. It shouts from posters and covers, and it fails in text.",
+  "philosophy": {
+    "core_thesis": "A letter for a poster is as black as the stem can be while the hairlines keep it readable.",
+    "design_principles": [
+      "Make the stems 0.35–0.5 of the cap height wide and keep the hairlines and serifs fine.",
+      "Keep the stroke contrast at 6:1 or more, measured on the o.",
+      "Set the stress vertical, as in a Didone, with ball terminals on a, c, f, r and y.",
+      "Make the counters small and the round letters wide.",
+      "Use it only at 30 pt and more, for a few words.",
+      "Set tight: −0.01 to −0.03 em at large sizes, so the black stems form one shape."
+    ],
+    "anti_patterns": [
+      "Running text in a fat face",
+      "Bracketed or slab serifs",
+      "Wide tracking on the lower case",
+      "Two fat faces on one page",
+      "Light weights from the same family in place of a text face"
+    ]
+  },
+  "vectors": {
+    "stroke_contrast": 5,
+    "construction": 4,
+    "x_height": 4,
+    "width": 4,
+    "serif_mass": 2
+  },
+  "classification": {
+    "vox_atypi": "Didone (display)",
+    "din_16518": "Gruppe IV: Klassizistische Antiqua",
+    "note": "The canon files fat faces with the Didones; this record keeps them apart because their use and setting rules are those of display type."
+  },
+  "anatomy": {
+    "contrast": "Extreme: the hairlines are 0.05–0.15 of the stem.",
+    "stress": "Vertical, 0°, as in a Didone.",
+    "serifs": "Flat hairline serifs with no bracket or a very small one.",
+    "terminals": "Large ball terminals on a, c, f, g, j, r and y.",
+    "aperture": "Closed: the counters of a, e and s are small slots.",
+    "key_letters": "An a with a large ball and a tiny bowl, a g with a ball ear, and an R with a heavy, straight leg."
+  },
+  "metrics": {
+    "x_height_min": 0.62,
+    "x_height_max": 0.84,
+    "contrast_min": 6.0,
+    "contrast_max": 16.0,
+    "x_height": "The x-height is 0.62–0.84 of the cap height; modern display cuts sit high.",
+    "contrast": "The side of the o is 6 to 16 times as thick as its top.",
+    "width": "Wide: the mean advance of a to z is 0.52–0.66 em.",
+    "figures": "Lining figures with large ball terminals."
+  },
+  "setting": {
+    "text_sizes": "Do not use it for text; below 24 pt or 32 px the counters fill in.",
+    "display_sizes": "Set headlines, covers and posters at 36–300 pt.",
+    "leading": "Set the leading at 0.9–1.05 for headlines.",
+    "tracking": "Set −0.01 to −0.03 em at large sizes; capitals at 0 to +0.02 em.",
+    "measure": "Keep each line to 1–5 words.",
+    "case_and_features": "Use upper and lower case for warmth or all capitals for a poster; one size and one weight on the page."
+  },
+  "pairing": {
+    "rule": "Pair the fat face with a quiet text face of moderate contrast, and give the text much more space than the headline.",
+    "pairs": [
+      {
+        "with": "Transitional serif (Libre Baskerville)",
+        "role": "serif for running text",
+        "why": "It comes from the same vertical-stress family and holds up in small sizes."
+      },
+      {
+        "with": "Grotesque sans (Work Sans)",
+        "role": "sans for subheads and captions",
+        "why": "The grotesque came from the same posters and keeps the page plain beside the headline."
+      }
+    ]
+  },
+  "reference_faces": {
+    "faces": [
+      {
+        "face": "Fat face roman",
+        "designer": "Robert Thorne",
+        "year": 1810,
+        "status": "historic metal"
+      },
+      {
+        "face": "Thorowgood fat face",
+        "designer": "William Thorowgood",
+        "year": 1821,
+        "status": "historic metal"
+      },
+      {
+        "face": "Poster Bodoni",
+        "designer": "Chauncey H. Griffith",
+        "year": 1929,
+        "status": "proprietary"
+      },
+      {
+        "face": "Abril Fatface",
+        "designer": "TypeTogether",
+        "year": 2011,
+        "status": "open revival"
+      },
+      {
+        "face": "Rozha One",
+        "designer": "Indian Type Foundry",
+        "year": 2014,
+        "status": "open revival"
+      },
+      {
+        "face": "Chonburi",
+        "designer": "Cadson Demak",
+        "year": 2015,
+        "status": "open revival"
+      }
+    ],
+    "note": "Abril Fatface keeps the classic proportions; Rozha One and Chonburi are fat faces drawn with Devanagari and Thai companions."
+  },
+  "prompt_primer": {
+    "positive": [
+      "fat face",
+      "ultra-bold didone",
+      "extreme thick-thin contrast",
+      "ball terminals",
+      "victorian poster headline",
+      "magazine cover",
+      "black ink on cream paper",
+      "big tight headline"
+    ],
+    "negative": [
+      "thin type",
+      "sans-serif",
+      "slab serif",
+      "script",
+      "long body text",
+      "wide letter spacing"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Abril Fatface",
+      "kind": "font",
+      "maker": "TypeTogether",
+      "year": 2011,
+      "credit": "google/fonts repository, ofl/abrilfatface",
+      "licence": "OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "url": "https://fonts.google.com/specimen/Abril+Fatface",
+      "file": "https://raw.githubusercontent.com/google/fonts/main/ofl/abrilfatface/AbrilFatface-Regular.ttf"
+    },
+    {
+      "title": "Rozha One",
+      "kind": "font",
+      "maker": "Indian Type Foundry",
+      "year": 2014,
+      "credit": "google/fonts repository, ofl/rozhaone",
+      "licence": "OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "url": "https://fonts.google.com/specimen/Rozha+One",
+      "file": "https://raw.githubusercontent.com/google/fonts/main/ofl/rozhaone/RozhaOne-Regular.ttf"
+    },
+    {
+      "title": "Chonburi",
+      "kind": "font",
+      "maker": "Cadson Demak",
+      "year": 2015,
+      "credit": "google/fonts repository, ofl/chonburi",
+      "licence": "OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "url": "https://fonts.google.com/specimen/Chonburi",
+      "file": "https://raw.githubusercontent.com/google/fonts/main/ofl/chonburi/Chonburi-Regular.ttf"
+    },
+    {
+      "title": "Thorowgood fold-out specimen of a fat face, 1825",
+      "kind": "image",
+      "maker": "William Thorowgood, Fann Street Foundry",
+      "year": 1825,
+      "credit": "Photo by James Puckett (Flickr); Wikimedia Commons",
+      "licence": "CC BY 2.0",
+      "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Thorowgood_1825_Fold_Out_Specimen_(7439948324).jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Thorowgood_1825_Fold_Out_Specimen_%287439948324%29.jpg/960px-Thorowgood_1825_Fold_Out_Specimen_%287439948324%29.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "didone-serif"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "slab-serif"
+    ],
+    "echoes": [
+      "victorian-web",
+      "victorian-trademark"
+    ]
+  },
+  "emotion": {
+    "target_response": "Impact with style: the reader stops at a loud headline that still feels classic and editorial.",
+    "keywords": [
+      "bold",
+      "dramatic",
+      "editorial",
+      "theatrical",
+      "confident"
+    ],
+    "brand_archetypes": [
+      "hero",
+      "jester",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "fat face",
+      "abril fatface",
+      "poster bodoni",
+      "ultra bold serif",
+      "display serif",
+      "headline serif",
+      "victorian poster type"
+    ],
+    "use_cases": [
+      "magazine covers and headlines",
+      "posters and theatre bills",
+      "food and drink packaging",
+      "editorial hero titles on the web"
+    ],
+    "avoid_when": [
+      "The text is longer than a headline.",
+      "The page already has a loud display face."
+    ],
+    "modifiers": [
+      {
+        "request": "more elegant",
+        "toward": "didone-serif",
+        "how": "Bring the weight down to a regular Didone and add white space around the title."
+      },
+      {
+        "request": "more rugged",
+        "toward": "slab-serif",
+        "how": "Make the serifs heavy and square, as the Egyptian posters of the same years did."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Fat face (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Fat_face"
+    },
+    {
+      "title": "Display typeface (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Display_typeface"
+    },
+    {
+      "title": "Robert Bringhurst, The Elements of Typographic Style (Hartley & Marks, 4th ed. 2012)"
+    }
+  ]
+}

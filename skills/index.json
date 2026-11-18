@@ -3602,7 +3602,9 @@
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 2
       },
-      "techniques": []
+      "techniques": [
+        "fixed-pitch-grid"
+      ]
     },
     {
       "id": "surrealism-web",
@@ -3878,7 +3880,9 @@
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 3
       },
-      "techniques": []
+      "techniques": [
+        "fixed-pitch-grid"
+      ]
     },
     {
       "id": "aurora-gradient-ui",
@@ -10523,7 +10527,9 @@
         "letter_dominance": 3,
         "dimensionality": 4
       },
-      "techniques": []
+      "techniques": [
+        "pointed-pen"
+      ]
     },
     {
       "id": "art-nouveau-monogram",
@@ -11275,6 +11281,56 @@
       "techniques": []
     },
     {
+      "id": "blackletter",
+      "name": "Blackletter",
+      "domain": "typeface",
+      "era": "hand-press",
+      "period": "1454–present",
+      "thesis": "A letter written with a broad nib held at a steep angle breaks each curve into straight strokes and makes a dark, even texture on the page.",
+      "summary": "The broken letter of the Gothic book hand: narrow, dark, with strokes that turn at sharp angles instead of curves. Gutenberg printed his Bible in textura; Fraktur stayed the German text face until 1941. Today it carries tradition, heraldry, metal and rebellion.",
+      "path": "skills/blackletter/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "blackletter",
+        "fraktur",
+        "gothic font",
+        "old english font",
+        "textura",
+        "metal band logo",
+        "newspaper masthead",
+        "tattoo lettering"
+      ],
+      "use_cases": [
+        "newspaper mastheads",
+        "certificates and diplomas",
+        "beer, spirits and heritage labels",
+        "music and street-wear brands"
+      ],
+      "emotion": [
+        "traditional",
+        "dark",
+        "ceremonial",
+        "rebellious",
+        "dense"
+      ],
+      "archetypes": [
+        "ruler",
+        "outlaw"
+      ],
+      "vectors": {
+        "stroke_contrast": 3,
+        "construction": 1,
+        "x_height": 4,
+        "width": 1,
+        "serif_mass": 2
+      },
+      "techniques": [
+        "broad-nib-pen"
+      ]
+    },
+    {
       "id": "garalde-old-style",
       "name": "Garalde old-style serif",
       "domain": "typeface",
@@ -11320,7 +11376,58 @@
         "width": 3,
         "serif_mass": 3
       },
-      "techniques": []
+      "techniques": [
+        "broad-nib-pen"
+      ]
+    },
+    {
+      "id": "formal-script",
+      "name": "Formal script",
+      "domain": "typeface",
+      "era": "hand-press",
+      "period": "1740–present",
+      "thesis": "A letter is one movement of a flexible pointed pen: pressure on the downstroke, a hairline on the upstroke, and every letter joined to the next.",
+      "summary": "Joined, sloped letters from the pointed pen of the eighteenth-century writing master. Pressure makes the downstrokes swell and the upstrokes become hairlines. It speaks of invitations, ceremony and romance, and reads well only in short lines.",
+      "path": "skills/formal-script/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "script font",
+        "copperplate",
+        "calligraphy font",
+        "wedding font",
+        "cursive",
+        "roundhand",
+        "invitation lettering"
+      ],
+      "use_cases": [
+        "wedding and event invitations",
+        "certificates",
+        "perfume, wine and cosmetics labels",
+        "one signature line in a brand"
+      ],
+      "emotion": [
+        "elegant",
+        "romantic",
+        "ceremonial",
+        "graceful",
+        "personal"
+      ],
+      "archetypes": [
+        "lover",
+        "caregiver"
+      ],
+      "vectors": {
+        "stroke_contrast": 4,
+        "construction": 1,
+        "x_height": 1,
+        "width": 2,
+        "serif_mass": 1
+      },
+      "techniques": [
+        "pointed-pen"
+      ]
     },
     {
       "id": "transitional-serif",
@@ -11417,6 +11524,56 @@
       "techniques": []
     },
     {
+      "id": "fat-face-display",
+      "name": "Fat face display",
+      "domain": "typeface",
+      "era": "industrial",
+      "period": "1810–present",
+      "thesis": "A letter for a poster is as black as the stem can be while the hairlines keep it readable.",
+      "summary": "The first type made only for display: a Didone pushed to extreme weight, with stems as thick as half the letter and hairlines kept fine. It shouts from posters and covers, and it fails in text.",
+      "path": "skills/fat-face-display/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "fat face",
+        "abril fatface",
+        "poster bodoni",
+        "ultra bold serif",
+        "display serif",
+        "headline serif",
+        "victorian poster type"
+      ],
+      "use_cases": [
+        "magazine covers and headlines",
+        "posters and theatre bills",
+        "food and drink packaging",
+        "editorial hero titles on the web"
+      ],
+      "emotion": [
+        "bold",
+        "dramatic",
+        "editorial",
+        "theatrical",
+        "confident"
+      ],
+      "archetypes": [
+        "hero",
+        "jester",
+        "ruler"
+      ],
+      "vectors": {
+        "stroke_contrast": 5,
+        "construction": 4,
+        "x_height": 4,
+        "width": 4,
+        "serif_mass": 2
+      },
+      "techniques": [
+        "wood-type"
+      ]
+    },
+    {
       "id": "slab-serif",
       "name": "Slab serif",
       "domain": "typeface",
@@ -11461,7 +11618,9 @@
         "width": 3,
         "serif_mass": 5
       },
-      "techniques": []
+      "techniques": [
+        "wood-type"
+      ]
     },
     {
       "id": "grotesque-sans",
@@ -11512,6 +11671,56 @@
       "techniques": []
     },
     {
+      "id": "monospace",
+      "name": "Monospace",
+      "domain": "typeface",
+      "era": "industrial",
+      "period": "1874–present",
+      "thesis": "When every character has the same width, columns align without a grid and each character is a unit the reader can count.",
+      "summary": "Every character takes the same width, as on a typewriter or a terminal. The narrow letters get serifs or wide arms and the wide letters are squeezed. It is the voice of code, data, forms and the typewritten document.",
+      "path": "skills/monospace/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "monospace",
+        "code font",
+        "typewriter font",
+        "courier",
+        "terminal font",
+        "fixed width",
+        "developer font"
+      ],
+      "use_cases": [
+        "code blocks and editors",
+        "data tables and logs",
+        "screenplays and typewritten documents",
+        "brands for developer tools"
+      ],
+      "emotion": [
+        "technical",
+        "raw",
+        "precise",
+        "utilitarian",
+        "honest"
+      ],
+      "archetypes": [
+        "sage",
+        "creator",
+        "outlaw"
+      ],
+      "vectors": {
+        "stroke_contrast": 1,
+        "construction": 4,
+        "x_height": 5,
+        "width": 4,
+        "serif_mass": 3
+      },
+      "techniques": [
+        "fixed-pitch-grid"
+      ]
+    },
+    {
       "id": "humanist-sans",
       "name": "Humanist sans",
       "domain": "typeface",
@@ -11558,7 +11767,9 @@
         "width": 3,
         "serif_mass": 1
       },
-      "techniques": []
+      "techniques": [
+        "broad-nib-pen"
+      ]
     },
     {
       "id": "geometric-sans",
@@ -11802,6 +12013,53 @@
       ]
     },
     {
+      "id": "broad-nib-pen",
+      "name": "Broad-nib pen",
+      "kind": "tool",
+      "origin": {
+        "domain": "typeface",
+        "year": 1454,
+        "circa": true,
+        "where": "Mainz",
+        "note": "The pen is older than print; Gutenberg cut his textura from the broad-nib book hand of the scribes, the first record of the pen in type."
+      },
+      "adoptions": [
+        {
+          "domain": "typeface",
+          "year": 1454,
+          "circa": true,
+          "via": "Gutenberg's textura for the 42-line Bible copies the broken broad-nib hand.",
+          "styles": [
+            "blackletter"
+          ],
+          "lag_years": 0
+        },
+        {
+          "domain": "typeface",
+          "year": 1470,
+          "via": "Nicolas Jenson cuts a roman with the diagonal stress of the humanist broad-nib hand.",
+          "styles": [
+            "garalde-old-style"
+          ],
+          "lag_years": 16
+        },
+        {
+          "domain": "typeface",
+          "year": 1916,
+          "via": "Edward Johnston, a calligrapher, draws the London Underground sans from broad-nib proportions.",
+          "styles": [
+            "humanist-sans"
+          ],
+          "lag_years": 462
+        }
+      ],
+      "styles": [
+        "blackletter",
+        "garalde-old-style",
+        "humanist-sans"
+      ]
+    },
+    {
       "id": "checkerboard",
       "name": "Checkerboard",
       "kind": "motif",
@@ -11886,6 +12144,43 @@
         "frutiger-aero",
         "material-design",
         "glassmorphism"
+      ]
+    },
+    {
+      "id": "fixed-pitch-grid",
+      "name": "Fixed-pitch grid",
+      "kind": "process",
+      "origin": {
+        "domain": "typeface",
+        "year": 1874,
+        "where": "Ilion, New York",
+        "note": "The Sholes and Glidden typewriter by E. Remington and Sons moves the carriage one fixed step for each key, so its type must be monospaced."
+      },
+      "adoptions": [
+        {
+          "domain": "typeface",
+          "year": 1874,
+          "via": "Typewriter faces, then Courier for IBM in 1955.",
+          "styles": [
+            "monospace"
+          ],
+          "lag_years": 0
+        },
+        {
+          "domain": "design",
+          "year": 1978,
+          "via": "Video terminals such as the DEC VT100 draw the whole screen as a grid of 80 by 24 character cells.",
+          "styles": [
+            "terminal-tui-web",
+            "dark-devtool-ui"
+          ],
+          "lag_years": 104
+        }
+      ],
+      "styles": [
+        "monospace",
+        "terminal-tui-web",
+        "dark-devtool-ui"
       ]
     },
     {
@@ -12237,6 +12532,41 @@
       ]
     },
     {
+      "id": "pointed-pen",
+      "name": "Pointed pen",
+      "kind": "tool",
+      "origin": {
+        "domain": "typeface",
+        "year": 1741,
+        "where": "London",
+        "note": "George Bickham's The Universal Penman engraves the roundhand of the English writing masters, the model for every later formal script."
+      },
+      "adoptions": [
+        {
+          "domain": "typeface",
+          "year": 1741,
+          "via": "Engraved copybooks of the writing masters, then metal scripts that copy the plates.",
+          "styles": [
+            "formal-script"
+          ],
+          "lag_years": 0
+        },
+        {
+          "domain": "logo",
+          "year": 1886,
+          "via": "Frank Mason Robinson writes the Coca-Cola wordmark in Spencerian, a pointed-pen hand.",
+          "styles": [
+            "victorian-trademark"
+          ],
+          "lag_years": 145
+        }
+      ],
+      "styles": [
+        "formal-script",
+        "victorian-trademark"
+      ]
+    },
+    {
       "id": "squash-and-stretch",
       "name": "Squash and stretch",
       "kind": "animation",
@@ -12387,6 +12717,42 @@
         "mid-century-modern-interior",
         "dopamine-decor",
         "memphis-interior"
+      ]
+    },
+    {
+      "id": "wood-type",
+      "name": "Wood type",
+      "kind": "process",
+      "origin": {
+        "domain": "typeface",
+        "year": 1828,
+        "where": "New York",
+        "note": "Darius Wells makes wood type in quantity with a routing machine, and the poster printers take it up at once."
+      },
+      "adoptions": [
+        {
+          "domain": "typeface",
+          "year": 1828,
+          "via": "The first wood type lines are fat faces copied from the London founders.",
+          "styles": [
+            "fat-face-display"
+          ],
+          "lag_years": 0
+        },
+        {
+          "domain": "typeface",
+          "year": 1834,
+          "circa": true,
+          "via": "Wood type founders add Egyptian slabs and condensed letters for posters.",
+          "styles": [
+            "slab-serif"
+          ],
+          "lag_years": 6
+        }
+      ],
+      "styles": [
+        "fat-face-display",
+        "slab-serif"
       ]
     }
   ]

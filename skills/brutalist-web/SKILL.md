@@ -236,7 +236,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md), [`material-design`](../material-design/SKILL.md)
 - **Was rejected by:** [`ethereal-web`](../ethereal-web/SKILL.md)
 - **Mixes well with:** [`anti-design`](../anti-design/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`terminal-tui-web`](../terminal-tui-web/SKILL.md)
-- **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md)
+- **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`monospace`](../monospace/SKILL.md)
 - **Nearest by vector profile:** [`ai-chat-ui`](../ai-chat-ui/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md)
 
 ## Emotional target
