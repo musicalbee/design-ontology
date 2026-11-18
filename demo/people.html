@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>People and their styles</title>
+<meta name="description" content="The people layer of the design ontology: each life on the same time line as the styles that the person started, shaped or spread.">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  :root {
+    /* Hive light tokens, as in graph.html. One accent (royal) marks the selected person and their styles. */
+    --paper: #fff; --ink: #1F1F45; --muted: #50527A; --line: #DEE3F2; --band: #EFF2FB; --accent: #264FCC; --accent-bg: #E8F2FF;
+  }
+  html, body { margin: 0; }
+  body { font: 15px/1.5 system-ui, sans-serif; background: var(--paper); color: var(--ink); }
+  main { max-width: 1400px; margin: 0 auto; padding: 24px 16px 64px; display: grid; gap: 16px; }
+  h1 { margin: 0; font-size: clamp(26px, 4vw, 40px); line-height: 1.1; letter-spacing: -.01em; }
+  .lede { margin: 6px 0 0; max-width: 75ch; color: var(--muted); }
+  .controls { display: flex; flex-wrap: wrap; gap: 4px 16px; align-items: center; font-size: 13px; color: var(--muted); }
+  .controls label { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+  .controls input[type="radio"], .controls input[type="checkbox"] { margin: 0; accent-color: var(--ink); }
+  .controls input[type="search"] { font: inherit; font-size: 13px; color: var(--ink); padding: 4px 0; border: 0; border-bottom: 1px solid var(--line); background: transparent; min-width: 180px; }
+  .controls input[type="search"]:focus-visible { outline: none; border-bottom-color: var(--accent); }
+  .key svg { overflow: visible; }
+  .layout { display: grid; gap: 16px; grid-template-columns: 1fr; }
+  @media (min-width: 1100px) { .layout { grid-template-columns: 1fr 320px; } }
+  .scroll { overflow-x: auto; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  svg { display: block; }
+  svg text { font: 11px system-ui, sans-serif; fill: var(--ink); }
+  .lane-label { font-weight: 650; font-size: 11px; fill: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+  .lane-rule, .grid { stroke: var(--line); stroke-width: 1; }
+  .grid.break { stroke-dasharray: 2 3; stroke: var(--muted); stroke-opacity: .5; }
+  .tick { fill: var(--muted); font-size: 10px; font-variant-numeric: tabular-nums; }
+  .band { fill: var(--band); }
+  .life { stroke: var(--ink); stroke-width: 2; stroke-linecap: round; }
+  .life.alive { stroke-dasharray: none; }
+  .life.unknown { stroke-dasharray: 2 3; stroke-width: 1.5; }
+  .fade { stroke: var(--ink); stroke-width: 2; stroke-opacity: .25; stroke-dasharray: 1 3; }
+  .ms { fill: var(--paper); stroke: var(--ink); stroke-width: 1.2; }
+  .ms.post { stroke-dasharray: 1.5 1.5; }
+  .row { cursor: pointer; }
+  .row .hit { fill: transparent; }
+  .row:hover .hit { fill: var(--band); fill-opacity: .55; }
+  .row text.name { paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
+  .row text.yrs { fill: var(--muted); font-size: 10px; font-variant-numeric: tabular-nums; }
+  .row.off { display: none; }
+  svg.focus .row { opacity: .25; }
+  svg.focus .row.me { opacity: 1; }
+  .row.me .band { fill: var(--accent-bg); }
+  .row.me .life, .row.me .fade { stroke: var(--accent); }
+  .row.me .ms { stroke: var(--accent); }
+  .row.me text.name { fill: var(--accent); font-weight: 700; }
+  .row .blabel { display: none; fill: var(--accent); font-size: 10px; }
+  .row.me .blabel { display: inline; }
+  .row.hit-q text.name { fill: var(--accent); font-weight: 700; }
+  aside { border-left: 1px solid var(--line); padding: 0 0 0 16px; font-size: 14px; align-self: start; position: sticky; top: 68px; max-height: calc(100vh - 80px); overflow-y: auto; }
+  @media (max-width: 1099px) { aside { position: static; border-left: 0; padding: 0; max-height: none; } }
+  aside h2 { margin: 0; font-size: 20px; line-height: 1.2; }
+  aside .meta { color: var(--muted); font-size: 13px; margin: 2px 0 8px; }
+  aside h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 14px 0 4px; font-weight: 650; }
+  aside ul { margin: 0; padding-left: 18px; }
+  aside ol.ms-list { list-style: none; margin: 0; padding: 0; }
+  aside ol.ms-list li { display: grid; grid-template-columns: 44px 1fr; gap: 6px; }
+  aside ol.ms-list b { font-variant-numeric: tabular-nums; font-weight: 600; }
+  aside figure { margin: 8px 0 4px; }
+  aside figure img { display: block; width: 100%; max-width: 220px; height: auto; border-radius: 4px; background: var(--band); }
+  aside figcaption { font-size: 11px; color: var(--muted); margin-top: 4px; }
+  aside a { color: inherit; }
+  .role { color: var(--muted); font-size: 12px; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+</style>
+</head>
+<body>
+<script src="nav.js"></script>
+<main>
+  <header>
+    <h1>People and their styles</h1>
+    <p class="lede">Each row is one life on the same time line as the styles. The line runs from birth to death. Before 1840 the scale is compressed. The pale band behind it is the period of each style that the person started, shaped or spread, so you can see if a person came before a style, lived through it or outlived it. Dots are dated milestones; a dashed dot is an event after death. A dotted line means that no open source gives the year of birth: it covers only the dated milestones.</p>
+  </header>
+  <div class="controls" id="controls">
+    <span id="domains"></span>
+    <label class="key"><input type="checkbox" id="bands" checked>Style periods</label>
+    <input type="search" id="q" placeholder="Find a person or a style" aria-label="Find a person or a style">
+  </div>
+  <div class="layout">
+    <div class="scroll"><svg id="g" role="img" aria-label="Life spans of people next to the periods of their styles"></svg></div>
+    <aside id="panel" aria-live="polite"></aside>
+  </div>
+</main>
+<script>
+const ROLE = { founder: "founder", "key-figure": "key figure", forerunner: "forerunner", populariser: "populariser", "trend-setter": "trend-setter", rebel: "turned against it" };
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+const $ = (id) => document.getElementById(id);
+const NOW = new Date().getFullYear();
+
+// Two linear scales: 1440–1840 is compressed (0.8 px a year), 1840–2030 is wide (5 px a year), because most
+// people in the data live after 1840. Inside each part, a life of 80 years has one length, so lives compare directly.
+const X0 = 190, Y_MIN = 1440, BREAK = 1840, Y_MAX = 2030, PX_EARLY = 0.8, PX = 5;
+const x = (y) => { y = Math.min(Math.max(y, Y_MIN), Y_MAX); return y < BREAK ? X0 + (y - Y_MIN) * PX_EARLY : X0 + (BREAK - Y_MIN) * PX_EARLY + (y - BREAK) * PX; };
+const ROW = 22, LANE_HEAD = 26;
+let P, S, styleById, domainOf = {}, selected = null, domain = "all";
+
+function rows() {
+  const order = S.domains.map((d) => d.id).concat("unplaced");
+  const groups = Object.fromEntries(order.map((d) => [d, []]));
+  for (const p of P.people) groups[domainOf[p.id]].push(p);
+  return order.map((d) => ({ id: d, name: S.domains.find((x) => x.id === d)?.name ?? "No style yet", people: groups[d] })).filter((g) => g.people.length);
+}
+
+function span(p) {
+  if (p.born != null) return { a: p.born, b: p.died ?? NOW, kind: p.died == null ? "alive" : "dead" };
+  return { a: p.active[0], b: p.active[1], kind: "unknown" };
+}
+
+function draw() {
+  const groups = rows().filter((g) => domain === "all" || g.id === domain);
+  const n = groups.reduce((k, g) => k + g.people.length, 0);
+  const width = x(Y_MAX) + 40, height = 30 + groups.length * LANE_HEAD + n * ROW + 10;
+  const svg = $("g");
+  svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+  svg.setAttribute("width", width);
+  svg.setAttribute("height", height);
+  let h = "";
+  for (const yr of [1450, 1550, 1650, 1750, 1840, 1860, 1880, 1900, 1920, 1940, 1960, 1980, 2000, 2020])
+    h += `<line class="grid${yr === BREAK ? " break" : ""}" x1="${x(yr)}" x2="${x(yr)}" y1="22" y2="${height - 4}"/><text class="tick" x="${x(yr)}" y="16" text-anchor="middle">${yr}</text>`;
+  h += `<text class="tick" x="${(x(Y_MIN) + x(BREAK)) / 2}" y="${height - 1}" text-anchor="middle">compressed scale</text>`;
+  let top = 30;
+  for (const g of groups) {
+    h += `<line class="lane-rule" x1="0" x2="${width}" y1="${top}" y2="${top}"/><text class="lane-label" x="8" y="${top + 17}">${esc(g.name)}</text>`;
+    top += LANE_HEAD;
+    for (const p of g.people) {
+      const y = top + ROW / 2, s = span(p);
+      let r = `<g class="row" data-id="${esc(p.id)}" tabindex="0" role="button" aria-label="${esc(p.name)}">`;
+      r += `<rect class="hit" x="0" y="${top}" width="${width}" height="${ROW}"/>`;
+      r += `<g class="bands">`;
+      for (const st of p.styles) {
+        const sn = styleById[st.style];
+        if (!sn) continue;
+        const a = x(sn.start), b = x(sn.end ?? NOW);
+        r += `<rect class="band" x="${a}" y="${top + 3}" width="${Math.max(2, b - a)}" height="${ROW - 6}"><title>${esc(sn.name)} ${sn.start}–${sn.end ?? "now"} · ${esc(ROLE[st.role])}</title></rect>`;
+        r += `<text class="blabel" x="${b + 3}" y="${top + 7}">${esc(sn.name)}</text>`;
+      }
+      r += `</g>`;
+      r += `<line class="life ${s.kind}" x1="${x(s.a)}" x2="${x(s.b)}" y1="${y}" y2="${y}"/>`;
+      if (s.kind === "alive") r += `<line class="fade" x1="${x(s.b)}" x2="${x(s.b) + 14}" y1="${y}" y2="${y}"/>`;
+      for (const m of p.milestones) r += `<circle class="ms${m.posthumous ? " post" : ""}" cx="${x(m.year)}" cy="${y}" r="2.6"><title>${m.year}${m.posthumous ? " (after death)" : ""}: ${esc(m.event)}</title></circle>`;
+      r += `<text class="name" x="${x(s.a) - 6}" y="${y + 4}" text-anchor="end">${esc(p.name)}</text>`;
+      const yrs = s.kind === "unknown" ? `active ${s.a}${s.b > s.a ? "–" + s.b : ""}` : `${s.a}–${p.died ?? ""}`;
+      r += `<text class="yrs" x="${x(Math.max(s.b, ...p.styles.map((t) => styleById[t.style]?.end ?? NOW))) + (s.kind === "alive" ? 18 : 6)}" y="${y + 4}">${yrs}</text>`;
+      h += r + `</g>`;
+      top += ROW;
+    }
+  }
+  svg.innerHTML = h;
+  applyBands();
+  focus(selected, false);
+}
+
+// Put the life of one person in the middle of the chart; with no person, show the recent end.
+function centre(id) {
+  const sc = document.querySelector(".scroll"), p = P.people.find((q) => q.id === id);
+  if (!p) { sc.scrollLeft = sc.scrollWidth; return; }
+  const a = p.born ?? p.active?.[0] ?? 2000, b = p.died ?? p.active?.[1] ?? 2026;
+  sc.scrollLeft = Math.max(0, (x(a) + x(b)) / 2 - sc.clientWidth / 2);
+}
+
+function applyBands() { for (const b of $("g").querySelectorAll(".bands")) b.style.display = $("bands").checked ? "" : "none"; }
+
+function focus(id, scroll = true) {
+  selected = id && P.people.some((p) => p.id === id) ? id : null;
+  const svg = $("g");
+  svg.classList.toggle("focus", !!selected);
+  for (const r of svg.querySelectorAll(".row")) r.classList.toggle("me", r.dataset.id === selected);
+  if (selected) {
+    if (location.hash.slice(1) !== selected) history.replaceState(null, "", "#" + selected);
+    const el = svg.querySelector(`.row[data-id="${CSS.escape(selected)}"]`);
+    if (scroll) { el?.scrollIntoView({ block: "nearest", behavior: "smooth" }); centre(selected); }
+    panel(selected);
+  } else panelEmpty();
+}
+
+function panelEmpty() {
+  const lonely = Object.entries(P.by_style).filter(([, v]) => !v.length).map(([k]) => styleById[k]?.name ?? k);
+  $("panel").innerHTML = `<h2>Select a person</h2><p class="meta">Click a row. Click it again to clear.</p>` +
+    `<p class="meta">${P.people.length} people across ${S.nodes.length} styles. ${lonely.length ? `${lonely.length} styles have no person yet: ${lonely.map(esc).join(", ")}.` : "Each style has at least one person."}</p>`;
+}
+
+function panel(id) {
+  const p = P.people.find((q) => q.id === id);
+  const yrs = p.born != null ? `${p.born}–${p.died ?? ""}` : "year of birth not in open data";
+  const photo = p.photo
+    ? `<figure><img src="${esc(p.photo.url)}" alt="Portrait of ${esc(p.name)}" loading="lazy"><figcaption>${esc(p.photo.credit)} · <a href="${esc(p.photo.page)}">${esc(p.photo.licence)}</a>, via Wikimedia Commons</figcaption></figure>`
+    : "";
+  $("panel").innerHTML = `${photo}<h2>${esc(p.name)}</h2><p class="meta">${yrs}${p.nationality.length ? " · " + esc(p.nationality.join(", ")) : ""}</p><p>${esc(p.bio)}</p>` +
+    (p.styles.length ? `<h3>Styles</h3><ul>${p.styles.map((s) => { const sn = styleById[s.style]; return `<li><a href="graph.html#${esc(s.style)}">${esc(sn?.name ?? s.style)}</a> <span class="role">${esc(ROLE[s.role])}${sn ? ` · ${sn.start}–${sn.end ?? "now"}` : ""}</span></li>`; }).join("")}</ul>` : "") +
+    (p.milestones.length ? `<h3>Milestones</h3><ol class="ms-list">${p.milestones.map((m) => `<li><b>${m.year}</b><span>${esc(m.event)}${m.posthumous ? ' <span class="role">after death</span>' : ""}</span></li>`).join("")}</ol>` : "") +
+    (p.wikidata ? `<h3>Open data</h3><ul><li><a href="https://www.wikidata.org/wiki/${esc(p.wikidata)}">Wikidata ${esc(p.wikidata)}</a></li></ul>` : "");
+}
+
+Promise.all([fetch("../graph/people.json").then((r) => r.json()), fetch("../graph/lineage.json").then((r) => r.json())]).then(([people, lineage]) => {
+  P = people; S = lineage;
+  styleById = Object.fromEntries(S.nodes.map((n) => [n.id, n]));
+  for (const p of P.people) domainOf[p.id] = p.domain;
+  $("domains").innerHTML = [["all", "All"], ...S.domains.map((d) => [d.id, d.name])]
+    .map(([id, name]) => `<label><input type="radio" name="dom" value="${esc(id)}"${id === "all" ? " checked" : ""}>${esc(name)}</label>`).join(" ");
+  draw();
+  focus(location.hash.slice(1) || null);
+  if (!selected) centre(null);
+});
+
+$("g").addEventListener("click", (e) => { const r = e.target.closest(".row"); focus(r && r.dataset.id !== selected ? r.dataset.id : null, false); });
+$("g").addEventListener("keydown", (e) => { const r = e.target.closest(".row"); if (r && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); focus(r.dataset.id, false); } });
+$("domains").addEventListener("change", (e) => { domain = e.target.value; draw(); });
+$("bands").addEventListener("change", applyBands);
+$("q").addEventListener("input", (e) => {
+  const q = e.target.value.trim().toLowerCase();
+  let first = null;
+  for (const r of $("g").querySelectorAll(".row")) {
+    const p = P.people.find((x) => x.id === r.dataset.id);
+    const hit = q && (p.name.toLowerCase().includes(q) || p.styles.some((s) => (styleById[s.style]?.name ?? "").toLowerCase().includes(q)));
+    r.classList.toggle("hit-q", !!hit);
+    if (hit && !first) first = r;
+  }
+  if (first) { first.scrollIntoView({ block: "nearest", behavior: "smooth" }); centre(first.dataset.id); }
+});
+addEventListener("hashchange", () => { const id = location.hash.slice(1); if (id !== selected) focus(id); });
+</script>
+</body>
+</html>

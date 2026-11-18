@@ -1,6 +1,6 @@
 # Contributing
 
-A contribution is one JSON file in `data/<domain>/styles/`. The build makes all other files.
+A contribution is one JSON file in `data/<domain>/styles/` or in `data/people/`. The build makes all other files.
 
 ## Procedure
 
@@ -27,6 +27,16 @@ A contribution is one JSON file in `data/<domain>/styles/`. The build makes all 
 - **Print styles have motion too.** Set `motion.native` to `false` and give a faithful translation for screen.
 - **Sources.** Give one or two references that a reader can find. Add a URL only if it is stable.
 - **Language.** British spelling, short sentences, no marketing words.
+
+## A new person
+
+1. Copy `data/people/dieter-rams.json` to `data/people/<id>.json`. The id is the file name.
+2. Take the years of birth and death from Wikidata. If no open source gives a year, write null. Do not guess.
+3. Write the bio and the milestones in your own words. Do not copy text from Wikipedia.
+4. Put the main style first in `styles`. Its domain is the lane of the person on the time line.
+5. If a milestone is after the year of death, set `"posthumous": true` on it.
+6. Link a portrait on Wikimedia Commons with a free licence, and copy its credit. If there is none, write null.
+7. Run `npm run build`.
 
 ## A technique
 

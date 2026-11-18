@@ -881,6 +881,14 @@ data/<domain>/styles/*.json     the source of truth, one file for each style
 4. **Open-source fonts only.** Every pairing is on Google Fonts under SIL OFL or Apache.
 5. **Honest about limits.** Neumorphism and glassmorphism have real accessibility costs, and their records say so.
 
+## People
+
+A style has people behind it. `data/people/` has one file for each person: the years of birth and death, a short bio, the styles with a role (founder, key figure, forerunner, populariser, trend-setter, rebel), dated milestones, and a portrait on Wikimedia Commons. The schema is `schema/person.schema.json`. `npm run build:graph` writes `graph/people.json`, with an index from each style to its people.
+
+`demo/people.html` puts each life on the same time line as the styles, so you can see if a person came before a style, lived through it, or outlived it.
+
+The facts come from open data (Wikidata, Wikimedia Commons). The bios and milestones are our own words. Portraits are linked, not copied, and each one keeps its credit and its licence. When no open source gives a year of birth, the field is null: we do not guess.
+
 ## Status
 
 Version 0.1. The schema can still change before 1.0. The seed styles are a first edition: the scores are editorial judgements, and a pull request with a better-argued score is welcome. Open an issue to disagree with a lineage edge. That argument is the purpose of the project.
