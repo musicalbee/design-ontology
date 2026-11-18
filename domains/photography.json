@@ -1,0 +1,23 @@
+{
+  "id": "photography",
+  "order": 3,
+  "name": "Photography",
+  "schema": "schema/domains/photography.schema.json",
+  "task": "making, briefing, prompting or grading photographs",
+  "vectors": [
+    { "key": "staging", "label": "Staging", "abbr": "STAGE", "low": "found, unplanned", "high": "fully constructed" },
+    { "key": "tonal_contrast", "label": "Tonal contrast", "abbr": "TONE", "low": "flat, narrow range", "high": "hard, black to white" },
+    { "key": "colour_saturation", "label": "Colour saturation", "abbr": "CHROMA", "low": "monochrome or muted", "high": "saturated" },
+    { "key": "depth_of_field", "label": "Depth of field", "abbr": "DOF", "low": "deep, all sharp", "high": "shallow, subject isolated" },
+    { "key": "proximity", "label": "Proximity", "abbr": "PROX", "low": "distant, context first", "high": "intimate, close to the subject" }
+  ],
+  "facets": [
+    { "key": "composition", "title": "Composition" },
+    { "key": "light", "title": "Light" },
+    { "key": "lens_and_camera", "title": "Lens & camera" },
+    { "key": "colour_and_grade", "title": "Colour & grade" },
+    { "key": "subject_and_staging", "title": "Subject & staging" },
+    { "key": "post_processing", "title": "Post-processing" },
+    { "key": "prompt_primer", "title": "Prompt primer" }
+  ]
+}

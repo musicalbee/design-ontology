@@ -143,7 +143,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md)
 - **Was rejected by:** [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md)
 - **Mixes well with:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md)
-- **Kin in another domain:** [`bauhaus`](../bauhaus/SKILL.md), [`bauhaus-interior`](../bauhaus-interior/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
+- **Kin in another domain:** [`bauhaus`](../bauhaus/SKILL.md), [`bauhaus-interior`](../bauhaus-interior/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
 - **Nearest by vector profile:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md)
 
 ## Emotional target

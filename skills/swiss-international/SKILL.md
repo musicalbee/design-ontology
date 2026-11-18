@@ -244,7 +244,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md)
 - **Was rejected by:** [`grunge-editorial`](../grunge-editorial/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md), [`punk-zine`](../punk-zine/SKILL.md)
 - **Mixes well with:** [`bauhaus`](../bauhaus/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md)
-- **Kin in another domain:** [`international-style-architecture`](../international-style-architecture/SKILL.md)
+- **Kin in another domain:** [`international-style-architecture`](../international-style-architecture/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md)
 - **Nearest by vector profile:** [`de-stijl-web`](../de-stijl-web/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md)
 
 ## Emotional target

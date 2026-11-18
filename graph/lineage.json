@@ -39,6 +39,17 @@
         "material_naturalness",
         "chromatic_intensity"
       ]
+    },
+    {
+      "id": "photography",
+      "name": "Photography",
+      "axes": [
+        "staging",
+        "tonal_contrast",
+        "colour_saturation",
+        "depth_of_field",
+        "proximity"
+      ]
     }
   ],
   "nodes": [
@@ -671,6 +682,126 @@
         "material_naturalness": 4,
         "chromatic_intensity": 1
       }
+    },
+    {
+      "id": "pictorialism",
+      "domain": "photography",
+      "name": "Pictorialism",
+      "era": "art-photography",
+      "start": 1885,
+      "end": 1914,
+      "vectors": {
+        "staging": 4,
+        "tonal_contrast": 2,
+        "colour_saturation": 2,
+        "depth_of_field": 4,
+        "proximity": 2
+      }
+    },
+    {
+      "id": "straight-photography",
+      "domain": "photography",
+      "name": "Straight photography",
+      "era": "art-photography",
+      "start": 1915,
+      "end": 1950,
+      "vectors": {
+        "staging": 2,
+        "tonal_contrast": 4,
+        "colour_saturation": 1,
+        "depth_of_field": 1,
+        "proximity": 3
+      }
+    },
+    {
+      "id": "street-photography",
+      "domain": "photography",
+      "name": "Street photography",
+      "era": "documentary-century",
+      "start": 1930,
+      "end": null,
+      "vectors": {
+        "staging": 1,
+        "tonal_contrast": 4,
+        "colour_saturation": 1,
+        "depth_of_field": 2,
+        "proximity": 4
+      }
+    },
+    {
+      "id": "new-colour",
+      "domain": "photography",
+      "name": "New Colour",
+      "era": "colour-and-topography",
+      "start": 1970,
+      "end": 1985,
+      "vectors": {
+        "staging": 1,
+        "tonal_contrast": 3,
+        "colour_saturation": 4,
+        "depth_of_field": 2,
+        "proximity": 3
+      }
+    },
+    {
+      "id": "new-topographics",
+      "domain": "photography",
+      "name": "New Topographics",
+      "era": "colour-and-topography",
+      "start": 1975,
+      "end": 1985,
+      "vectors": {
+        "staging": 2,
+        "tonal_contrast": 2,
+        "colour_saturation": 1,
+        "depth_of_field": 1,
+        "proximity": 1
+      }
+    },
+    {
+      "id": "y2k-digicam",
+      "domain": "photography",
+      "name": "Y2K digicam",
+      "era": "digital-and-grade",
+      "start": 1999,
+      "end": 2009,
+      "vectors": {
+        "staging": 2,
+        "tonal_contrast": 3,
+        "colour_saturation": 3,
+        "depth_of_field": 1,
+        "proximity": 3
+      }
+    },
+    {
+      "id": "cinematic-teal-orange",
+      "domain": "photography",
+      "name": "Cinematic teal and orange",
+      "era": "digital-and-grade",
+      "start": 2000,
+      "end": null,
+      "vectors": {
+        "staging": 5,
+        "tonal_contrast": 4,
+        "colour_saturation": 4,
+        "depth_of_field": 4,
+        "proximity": 3
+      }
+    },
+    {
+      "id": "party-flash",
+      "domain": "photography",
+      "name": "Party flash",
+      "era": "digital-and-grade",
+      "start": 2008,
+      "end": null,
+      "vectors": {
+        "staging": 2,
+        "tonal_contrast": 5,
+        "colour_saturation": 3,
+        "depth_of_field": 2,
+        "proximity": 4
+      }
     }
   ],
   "edges": [
@@ -705,6 +836,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "brutalist-architecture",
+      "to": "new-topographics",
+      "type": "ECHOES"
+    },
+    {
       "from": "de-stijl-web",
       "to": "international-style-architecture",
       "type": "ECHOES"
@@ -720,13 +856,33 @@
       "type": "ECHOES"
     },
     {
+      "from": "grunge-editorial",
+      "to": "party-flash",
+      "type": "ECHOES"
+    },
+    {
+      "from": "grunge-editorial",
+      "to": "street-photography",
+      "type": "ECHOES"
+    },
+    {
       "from": "international-style-architecture",
       "to": "mid-century-modern-interior",
       "type": "ECHOES"
     },
     {
       "from": "international-style-architecture",
+      "to": "new-topographics",
+      "type": "ECHOES"
+    },
+    {
+      "from": "international-style-architecture",
       "to": "rams-functionalism-ui",
+      "type": "ECHOES"
+    },
+    {
+      "from": "international-style-architecture",
+      "to": "straight-photography",
       "type": "ECHOES"
     },
     {
@@ -755,6 +911,21 @@
       "type": "ECHOES"
     },
     {
+      "from": "party-flash",
+      "to": "y2k-aesthetic",
+      "type": "ECHOES"
+    },
+    {
+      "from": "straight-photography",
+      "to": "swiss-international",
+      "type": "ECHOES"
+    },
+    {
+      "from": "y2k-aesthetic",
+      "to": "y2k-digicam",
+      "type": "ECHOES"
+    },
+    {
       "from": "art-deco-architecture",
       "to": "art-nouveau-architecture",
       "type": "EVOLVED_FROM"
@@ -772,6 +943,11 @@
     {
       "from": "brutalist-architecture",
       "to": "international-style-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "cinematic-teal-orange",
+      "to": "new-colour",
       "type": "EVOLVED_FROM"
     },
     {
@@ -845,6 +1021,21 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "new-colour",
+      "to": "street-photography",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "new-topographics",
+      "to": "straight-photography",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "party-flash",
+      "to": "y2k-digicam",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "pop-art-web",
       "to": "mid-century-modern",
       "type": "EVOLVED_FROM"
@@ -875,6 +1066,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "street-photography",
+      "to": "straight-photography",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "swiss-international",
       "to": "bauhaus",
       "type": "EVOLVED_FROM"
@@ -882,6 +1078,11 @@
     {
       "from": "vaporwave",
       "to": "y2k-aesthetic",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "y2k-digicam",
+      "to": "new-colour",
       "type": "EVOLVED_FROM"
     },
     {
@@ -992,6 +1193,21 @@
     {
       "from": "mid-century-modern-interior",
       "to": "scandinavian-interior",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "new-colour",
+      "to": "new-topographics",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "party-flash",
+      "to": "street-photography",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "party-flash",
+      "to": "y2k-digicam",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -1107,6 +1323,11 @@
     {
       "from": "quiet-luxury-interior",
       "to": "dopamine-decor",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "straight-photography",
+      "to": "pictorialism",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -1320,7 +1541,8 @@
         "mid-century-modern"
       ],
       "echoes": [
-        "international-style-architecture"
+        "international-style-architecture",
+        "straight-photography"
       ],
       "nearest_by_vector": [
         {
@@ -1492,7 +1714,9 @@
         "punk-zine"
       ],
       "echoes": [
-        "deconstructivist-architecture"
+        "deconstructivist-architecture",
+        "party-flash",
+        "street-photography"
       ],
       "nearest_by_vector": [
         {
@@ -1522,7 +1746,10 @@
       "hybridized_with": [
         "glassmorphism"
       ],
-      "echoes": [],
+      "echoes": [
+        "party-flash",
+        "y2k-digicam"
+      ],
       "nearest_by_vector": [
         {
           "id": "vaporwave",
@@ -1951,7 +2178,9 @@
         "bauhaus-interior",
         "de-stijl-web",
         "mid-century-modern-interior",
+        "new-topographics",
         "rams-functionalism-ui",
+        "straight-photography",
         "swiss-international"
       ],
       "nearest_by_vector": [
@@ -2007,7 +2236,8 @@
       "hybridized_with": [],
       "echoes": [
         "constructivism-web",
-        "neo-brutalism-ui"
+        "neo-brutalism-ui",
+        "new-topographics"
       ],
       "nearest_by_vector": [
         {
@@ -2333,6 +2563,232 @@
         {
           "id": "shaker-interior",
           "distance": 2
+        }
+      ]
+    },
+    "pictorialism": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [
+        "straight-photography"
+      ],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "cinematic-teal-orange",
+          "distance": 3.16
+        },
+        {
+          "id": "new-topographics",
+          "distance": 3.87
+        },
+        {
+          "id": "y2k-digicam",
+          "distance": 4
+        }
+      ]
+    },
+    "straight-photography": {
+      "evolved_from": [],
+      "evolved_into": [
+        "new-topographics",
+        "street-photography"
+      ],
+      "rebelled_against": [
+        "pictorialism"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "international-style-architecture",
+        "swiss-international"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "street-photography",
+          "distance": 1.73
+        },
+        {
+          "id": "y2k-digicam",
+          "distance": 2.24
+        },
+        {
+          "id": "party-flash",
+          "distance": 2.65
+        }
+      ]
+    },
+    "street-photography": {
+      "evolved_from": [
+        "straight-photography"
+      ],
+      "evolved_into": [
+        "new-colour"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "party-flash"
+      ],
+      "echoes": [
+        "grunge-editorial"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "straight-photography",
+          "distance": 1.73
+        },
+        {
+          "id": "party-flash",
+          "distance": 2.45
+        },
+        {
+          "id": "y2k-digicam",
+          "distance": 2.83
+        }
+      ]
+    },
+    "new-colour": {
+      "evolved_from": [
+        "street-photography"
+      ],
+      "evolved_into": [
+        "cinematic-teal-orange",
+        "y2k-digicam"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "new-topographics"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "y2k-digicam",
+          "distance": 1.73
+        },
+        {
+          "id": "party-flash",
+          "distance": 2.65
+        },
+        {
+          "id": "street-photography",
+          "distance": 3.32
+        }
+      ]
+    },
+    "new-topographics": {
+      "evolved_from": [
+        "straight-photography"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "new-colour"
+      ],
+      "echoes": [
+        "brutalist-architecture",
+        "international-style-architecture"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "straight-photography",
+          "distance": 2.83
+        },
+        {
+          "id": "y2k-digicam",
+          "distance": 3
+        },
+        {
+          "id": "pictorialism",
+          "distance": 3.87
+        }
+      ]
+    },
+    "y2k-digicam": {
+      "evolved_from": [
+        "new-colour"
+      ],
+      "evolved_into": [
+        "party-flash"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "party-flash"
+      ],
+      "echoes": [
+        "y2k-aesthetic"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "new-colour",
+          "distance": 1.73
+        },
+        {
+          "id": "straight-photography",
+          "distance": 2.24
+        },
+        {
+          "id": "party-flash",
+          "distance": 2.45
+        }
+      ]
+    },
+    "cinematic-teal-orange": {
+      "evolved_from": [
+        "new-colour"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "pictorialism",
+          "distance": 3.16
+        },
+        {
+          "id": "party-flash",
+          "distance": 4
+        },
+        {
+          "id": "y2k-digicam",
+          "distance": 4.47
+        }
+      ]
+    },
+    "party-flash": {
+      "evolved_from": [
+        "y2k-digicam"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "street-photography",
+        "y2k-digicam"
+      ],
+      "echoes": [
+        "grunge-editorial",
+        "y2k-aesthetic"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "street-photography",
+          "distance": 2.45
+        },
+        {
+          "id": "y2k-digicam",
+          "distance": 2.45
+        },
+        {
+          "id": "new-colour",
+          "distance": 2.65
         }
       ]
     }

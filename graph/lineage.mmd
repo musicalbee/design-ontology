@@ -65,26 +65,51 @@ flowchart LR
     dopamine_decor["Dopamine decor"]
     quiet_luxury_interior["Quiet luxury"]
   end
+  subgraph photography_art_photography["Photography · Photography as art · 1885–1950"]
+    pictorialism["Pictorialism"]
+    straight_photography["Straight photography"]
+  end
+  subgraph photography_documentary_century["Photography · The small camera · 1930–today"]
+    street_photography["Street photography"]
+  end
+  subgraph photography_colour_and_topography["Photography · Colour and the topographic turn · 1970–1990"]
+    new_colour["New Colour"]
+    new_topographics["New Topographics"]
+  end
+  subgraph photography_digital_and_grade["Photography · Digital and the grade · 1999–today"]
+    y2k_digicam["Y2K digicam"]
+    cinematic_teal_orange["Cinematic teal and orange"]
+    party_flash["Party flash"]
+  end
   bauhaus <-. echoes .-> bauhaus_architecture
   bauhaus <-. echoes .-> bauhaus_interior
   bauhaus <-. echoes .-> international_style_architecture
   bauhaus_interior <-. echoes .-> international_style_architecture
   brutalist_architecture <-. echoes .-> constructivism_web
   brutalist_architecture <-. echoes .-> neo_brutalism_ui
+  brutalist_architecture <-. echoes .-> new_topographics
   de_stijl_web <-. echoes .-> international_style_architecture
   deconstructivist_architecture <-. echoes .-> grunge_editorial
   dopamine_decor <-. echoes .-> memphis_design
+  grunge_editorial <-. echoes .-> party_flash
+  grunge_editorial <-. echoes .-> street_photography
   international_style_architecture <-. echoes .-> mid_century_modern_interior
+  international_style_architecture <-. echoes .-> new_topographics
   international_style_architecture <-. echoes .-> rams_functionalism_ui
+  international_style_architecture <-. echoes .-> straight_photography
   international_style_architecture <-. echoes .-> swiss_international
   memphis_design <-. echoes .-> memphis_interior
   memphis_design <-. echoes .-> postmodern_architecture
   mid_century_modern <-. echoes .-> mid_century_modern_architecture
   mid_century_modern <-. echoes .-> mid_century_modern_interior
+  party_flash <-. echoes .-> y2k_aesthetic
+  straight_photography <-. echoes .-> swiss_international
+  y2k_aesthetic <-. echoes .-> y2k_digicam
   art_nouveau_architecture --> art_deco_architecture
   flat_design --> bento_grid_ui
   swiss_international --> bento_grid_ui
   international_style_architecture --> brutalist_architecture
+  new_colour --> cinematic_teal_orange
   flat_design --> corporate_memphis
   memphis_design --> corporate_memphis
   memphis_interior --> dopamine_decor
@@ -99,14 +124,19 @@ flowchart LR
   bauhaus_interior --> mid_century_modern_interior
   flat_design --> neo_brutalism_ui
   skeuomorphism --> neumorphism
+  street_photography --> new_colour
+  straight_photography --> new_topographics
+  y2k_digicam --> party_flash
   mid_century_modern --> pop_art_web
   japandi_interior --> quiet_luxury_interior
   bauhaus --> rams_functionalism_ui
   swiss_international --> rams_functionalism_ui
   shaker_interior --> scandinavian_interior
   glassmorphism --> spatial_visionos
+  straight_photography --> street_photography
   bauhaus --> swiss_international
   y2k_aesthetic --> vaporwave
+  new_colour --> y2k_digicam
   art_deco_web -. rejects .-> art_nouveau_web
   constructivism_web -. rejects .-> art_nouveau_web
   de_stijl_web -. rejects .-> art_nouveau_web
@@ -128,6 +158,7 @@ flowchart LR
   punk_zine -. rejects .-> mid_century_modern
   punk_zine -. rejects .-> swiss_international
   quiet_luxury_interior -. rejects .-> dopamine_decor
+  straight_photography -. rejects .-> pictorialism
   y2k_aesthetic -. rejects .-> grunge_editorial
   linkStyle 0 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 1 stroke:#8E8E93,stroke-width:1.5px
@@ -145,20 +176,14 @@ flowchart LR
   linkStyle 13 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 14 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 15 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 42 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 43 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 44 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 45 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 46 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 47 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 48 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 49 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 50 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 51 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 52 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 53 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 54 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 55 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 16 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 17 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 18 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 19 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 20 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 21 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 22 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 23 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 56 stroke:#E5484D,stroke-width:1.5px
   linkStyle 57 stroke:#E5484D,stroke-width:1.5px
   linkStyle 58 stroke:#E5484D,stroke-width:1.5px
@@ -167,3 +192,18 @@ flowchart LR
   linkStyle 61 stroke:#E5484D,stroke-width:1.5px
   linkStyle 62 stroke:#E5484D,stroke-width:1.5px
   linkStyle 63 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 64 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 65 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 66 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 67 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 68 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 69 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 70 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 71 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 72 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 73 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 74 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 75 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 76 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 77 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 78 stroke:#E5484D,stroke-width:1.5px

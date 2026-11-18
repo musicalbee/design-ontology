@@ -1,0 +1,256 @@
+{
+  "$schema": "../../../schema/domains/photography.schema.json",
+  "id": "new-colour",
+  "name": "New Colour",
+  "aliases": [
+    "New Color",
+    "Colour as subject",
+    "Dye-transfer vernacular"
+  ],
+  "era_id": "colour-and-topography",
+  "time_period": {
+    "start": 1970,
+    "end": 1985,
+    "label": "1970s–early 1980s"
+  },
+  "process": [
+    "analogue-colour"
+  ],
+  "summary": "Colour photography of the plain American scene: a car park, a kitchen, a tricycle. Saturated dye-transfer and slide colour carries the picture, and the composition looks casual and exact at the same time.",
+  "philosophy": {
+    "core_thesis": "Colour is the subject and not a decoration, and the everyday world is rich enough to need no drama.",
+    "design_principles": [
+      "Choose the subject for its colour relationships, and keep to three or four dominant hues in the frame.",
+      "Shoot on slide or dye-transfer stock at ISO 25 to 64 for deep, saturated colour with a fine grain.",
+      "Use a 35mm to 50mm lens at f/5.6 to f/11 and a low or oblique viewpoint at 1 to 3m.",
+      "Accept the light as found: midday sun, shop windows and fluorescent tubes, and let the mixed colour casts show.",
+      "Keep the composition casual but exact: put the subject off centre, with a strong colour mass in balance.",
+      "Show the ordinary: cars, diners, kitchens and car parks, with no hero and no punchline."
+    ],
+    "anti_patterns": [
+      "Black and white conversion or desaturated grading",
+      "Golden hour glow and a colour cast added in the lab",
+      "Centred hero subjects with a clear message",
+      "Picture-postcard scenery",
+      "Shallow depth of field that blurs the colour of the background",
+      "A uniform filter look over the whole frame"
+    ]
+  },
+  "vectors": {
+    "staging": 1,
+    "tonal_contrast": 3,
+    "colour_saturation": 4,
+    "depth_of_field": 2,
+    "proximity": 3
+  },
+  "composition": {
+    "framing": "Square or 3:2 frame, with the subject cropped slightly by the edge and a large colour field in the frame.",
+    "viewpoint": "Low, tilted or at eye height, 1 to 3m from the subject; the camera looks at the thing as an equal.",
+    "geometry": "Colour blocks and horizon lines; a single diagonal of a car or a cable.",
+    "subject_placement": "Off centre, with a colour mass of 30–40% of the frame as a counterweight."
+  },
+  "light": {
+    "quality": "Found light, as it is: hard sun or the flat light of a shop and a kitchen.",
+    "direction": "Any; often overhead sun for saturated colour with short shadows.",
+    "key_to_fill_ratio": "3:1 (1.6 stops)",
+    "colour_temperature": "5500K (daylight); 3200–4300K for tungsten and fluorescent mix",
+    "time_of_day": "Midday or afternoon"
+  },
+  "lens_and_camera": {
+    "format": "35mm slide or colour negative; 8×10 in for dye-transfer prints",
+    "focal_length": "35mm to 50mm (35mm format)",
+    "aperture": "f/5.6 to f/11",
+    "shutter": "1/125s to 1/250s",
+    "film_speed": "ISO 25–64 (Kodachrome), ISO 100 (Kodacolor)",
+    "focus": "Sharp on the subject with the background held to a depth of 3m to infinity.",
+    "support": "Handheld",
+    "equipment": [
+      "35mm rangefinder or SLR",
+      "standard prime",
+      "slide film"
+    ]
+  },
+  "colour_and_grade": {
+    "treatment": "Deep, dense dye colours with clean whites: reds and cyans are the strongest, and shadows keep a rich colour.",
+    "palette": [
+      {
+        "name": "Dye red",
+        "hex": "#B3262B",
+        "role": "strong accent"
+      },
+      {
+        "name": "Kodachrome blue",
+        "hex": "#2C5C9A",
+        "role": "sky and paint"
+      },
+      {
+        "name": "Formica yellow",
+        "hex": "#D9B43F",
+        "role": "surface"
+      },
+      {
+        "name": "Mid grey",
+        "hex": "#7B7D7A",
+        "role": "neutral reference"
+      },
+      {
+        "name": "Cream",
+        "hex": "#EDE5D0",
+        "role": "highlights"
+      }
+    ],
+    "grade_recipe": [
+      "Set the white point at 94% and the black point at 3%, with 18% grey at the midpoint.",
+      "Raise saturation by +25% and vibrance by +10%.",
+      "Push red hue by +4° and cyan by −3° to match dye-transfer.",
+      "Add a gentle S-curve of +15% contrast; keep shadows coloured and not black.",
+      "Keep the colour casts of mixed light; do not set a neutral white balance.",
+      "Add film grain, amount 12%, size 25%."
+    ],
+    "grain": "Kodachrome 64: very fine, visible only at 40 × 50 cm"
+  },
+  "subject_and_staging": {
+    "subjects": [
+      "car park",
+      "diner",
+      "kitchen interior",
+      "tricycle",
+      "gas station",
+      "shop sign"
+    ],
+    "staging": "None; the photographer uses the world as it is and the first frame is often the best.",
+    "direction": "People are casual and look away, or are absent."
+  },
+  "post_processing": {
+    "workflow": [
+      "Process the slide film in E-6 or K-14 at standard time.",
+      "Make an 8×10 dye-transfer print from the slide or negative, with a deep, glossy surface.",
+      "Keep the print true to the film; make no local colour corrections.",
+      "Mount unframed, in small sets."
+    ],
+    "output": "A glossy dye-transfer or chromogenic print at 30 × 40 cm with a dense, saturated surface."
+  },
+  "prompt_primer": {
+    "positive": [
+      "new colour photography",
+      "dye transfer print",
+      "Kodachrome 64",
+      "saturated primary colours",
+      "1970s American vernacular",
+      "found composition",
+      "low angle",
+      "mixed fluorescent and daylight",
+      "car park at noon",
+      "fine grain slide film"
+    ],
+    "negative": [
+      "black and white",
+      "teal and orange grade",
+      "golden hour glow",
+      "HDR",
+      "shallow depth of field",
+      "studio lighting"
+    ],
+    "canonical_works": [
+      {
+        "work": "Memphis (Tricycle)",
+        "maker": "William Eggleston",
+        "year": 1970
+      },
+      {
+        "work": "Beverly Boulevard and La Brea Avenue, Los Angeles, California",
+        "maker": "Stephen Shore",
+        "year": 1975
+      },
+      {
+        "work": "Cape Light",
+        "maker": "Joel Meyerowitz",
+        "year": 1978
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "street-photography"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "new-topographics"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Quiet delight in the ordinary: the viewer sees that a plain place has colour that a painter would envy.",
+    "keywords": [
+      "vivid",
+      "ordinary",
+      "deadpan",
+      "americana",
+      "saturated"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "new colour",
+      "new color",
+      "eggleston",
+      "stephen shore",
+      "dye transfer",
+      "kodachrome",
+      "1970s colour photo",
+      "vernacular colour"
+    ],
+    "use_cases": [
+      "lifestyle and fashion backdrops",
+      "editorial colour stories",
+      "retro campaign imagery",
+      "image prompts for 1970s scenes"
+    ],
+    "avoid_when": [
+      "The brief needs monochrome or a cinematic, graded look.",
+      "The scene is a controlled studio set."
+    ],
+    "modifiers": [
+      {
+        "request": "more neutral and cool",
+        "toward": "new-topographics",
+        "how": "Switch to flat overcast light, set the camera level and frontal on a tripod, and desaturate by 60%; keep the plain subject."
+      },
+      {
+        "request": "more cinematic",
+        "toward": "cinematic-teal-orange",
+        "how": "Light and stage the scene, then grade shadows to teal and skin to orange; drop the casual composition."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q166509: color photography",
+      "url": "https://www.wikidata.org/wiki/Q166509"
+    },
+    {
+      "title": "Getty AAT 300134530: color photography (ODC-By 1.0)",
+      "url": "https://vocab.getty.edu/aat/300134530"
+    },
+    {
+      "title": "Wikidata Q389912: William Eggleston",
+      "url": "https://www.wikidata.org/wiki/Q389912"
+    },
+    {
+      "title": "Wikidata Q586141: Stephen Shore",
+      "url": "https://www.wikidata.org/wiki/Q586141"
+    },
+    {
+      "title": "Wikidata Q110891000: Color Photography (MoMA 1950 exhibition)",
+      "url": "https://www.wikidata.org/wiki/Q110891000"
+    },
+    {
+      "title": "John Szarkowski, William Eggleston's Guide (MoMA, 1976)"
+    }
+  ],
+  "domain": "photography"
+}
