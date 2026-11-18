@@ -1,0 +1,238 @@
+{
+  "$schema": "../../../schema/domains/icon.schema.json",
+  "id": "material-symbols-icon",
+  "domain": "icon",
+  "name": "Material Symbols",
+  "aliases": [
+    "Material Icons",
+    "Google Material icon system"
+  ],
+  "era_id": "vector-system",
+  "time_period": {
+    "start": 2014,
+    "end": null,
+    "label": "2014–present"
+  },
+  "region": "Google, Material Design",
+  "formats": [
+    "svg",
+    "png",
+    "icon font",
+    "variable icon font"
+  ],
+  "summary": "Google's open icon system: geometric glyphs on a 24 dp grid with keyline shapes. Material Icons (2014) gave five themes; Material Symbols (2022) is a variable font with axes for fill, weight, grade and optical size.",
+  "philosophy": {
+    "core_thesis": "An icon system is a set of tokens: one grid and four variable axes let one glyph serve every size, weight and state.",
+    "design_principles": [
+      "Draw on a 24 × 24 dp grid with a live area of 20 × 20 dp and 2 dp of padding.",
+      "Fit each glyph to a keyline: a circle of 20 dp, a square of 18 dp, a portrait rectangle of 16 × 20 dp or a landscape rectangle of 20 × 16 dp.",
+      "Set the stroke at 2 dp for weight 400, from 100 to 700 on the weight axis.",
+      "Use the fill axis (0 or 1) for state: outline for inactive, filled for active.",
+      "Set the optical size axis to the render size (20, 24, 40 or 48 dp).",
+      "Use a corner radius of 2 dp for the rounded style and 0 dp for the sharp style; the outlined style uses 0–1 dp."
+    ],
+    "anti_patterns": [
+      "Glyphs off the keyline shapes",
+      "Stroke weights that differ inside one screen",
+      "Decorative colour inside a system glyph",
+      "Perspective or 3D effects",
+      "Fill state changes without meaning"
+    ]
+  },
+  "vectors": {
+    "realism": 1,
+    "fill": 3,
+    "corner_softness": 3,
+    "detail_density": 1,
+    "colour_count": 1
+  },
+  "grid": {
+    "sizes_px": [
+      20,
+      24,
+      40,
+      48
+    ],
+    "base_px": 24,
+    "live_area_px": 20,
+    "padding_px": 2,
+    "keylines": "Circle 20 dp, square 18 dp, portrait 16 × 20 dp, landscape 20 × 16 dp."
+  },
+  "stroke": {
+    "width_px": 2,
+    "caps": "butt",
+    "joins": "miter",
+    "rule": "2 dp at weight 400; outlined and sharp styles use butt caps and miter joins, the rounded style uses round caps and joins."
+  },
+  "shape": {
+    "corner_radius_px": 2,
+    "primitives": "Geometric primitives on the keylines; angles at 0°, 45° and 90°.",
+    "optical_size": "The optical size axis thickens the stroke and opens counters at 20 dp, and thins it at 48 dp."
+  },
+  "colour": {
+    "count_max": 1,
+    "gradients": false,
+    "strategy": "One colour from the theme: on-surface for default, primary for active.",
+    "colours": [
+      {
+        "name": "On surface",
+        "hex": "#1D1B20",
+        "role": "default glyph"
+      },
+      {
+        "name": "Primary",
+        "hex": "#6750A4",
+        "role": "active glyph"
+      },
+      {
+        "name": "Surface",
+        "hex": "#FEF7FF",
+        "role": "ground"
+      },
+      {
+        "name": "On surface variant",
+        "hex": "#49454F",
+        "role": "inactive glyph"
+      }
+    ]
+  },
+  "perspective_and_light": {
+    "view": "front orthographic",
+    "light": "No light model.",
+    "shadow": "No shadow; the glyph is flat on the ground."
+  },
+  "metaphor": {
+    "typical": "A home, a mail, a photo camera, a calendar, a settings gear, a notification bell, a search glass, a favourite heart and a folder.",
+    "treatment": "Reduced, geometric metaphors with the standard Google names, one per action."
+  },
+  "prompt_primer": {
+    "positive": [
+      "Material Symbols icon",
+      "Material Design icons",
+      "24 dp grid",
+      "keyline shapes",
+      "geometric glyph",
+      "outlined and filled states",
+      "Google system icons",
+      "2 dp stroke"
+    ],
+    "negative": [
+      "skeuomorphic detail",
+      "gradients",
+      "hand drawn lines",
+      "multicolour glyphs",
+      "perspective"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Material Symbols: home (outlined, weight 400)",
+      "kind": "icon-set",
+      "maker": "Google",
+      "credit": "Material Symbols; npm package @material-symbols/svg-400 0.25.0",
+      "licence": "Apache-2.0",
+      "licence_url": "https://github.com/google/material-design-icons/blob/master/LICENSE",
+      "url": "https://github.com/google/material-design-icons",
+      "file": "https://cdn.jsdelivr.net/npm/@material-symbols/svg-400@0.25.0/outlined/home.svg"
+    },
+    {
+      "title": "Material Symbols: home (rounded, fill 1)",
+      "kind": "icon-set",
+      "maker": "Google",
+      "credit": "Material Symbols; npm package @material-symbols/svg-400 0.25.0",
+      "licence": "Apache-2.0",
+      "licence_url": "https://github.com/google/material-design-icons/blob/master/LICENSE",
+      "url": "https://github.com/google/material-design-icons",
+      "file": "https://cdn.jsdelivr.net/npm/@material-symbols/svg-400@0.25.0/rounded/home-fill.svg"
+    },
+    {
+      "title": "Material Symbols: home (sharp)",
+      "kind": "icon-set",
+      "maker": "Google",
+      "credit": "Material Symbols; npm package @material-symbols/svg-400 0.25.0",
+      "licence": "Apache-2.0",
+      "licence_url": "https://github.com/google/material-design-icons/blob/master/LICENSE",
+      "url": "https://github.com/google/material-design-icons",
+      "file": "https://cdn.jsdelivr.net/npm/@material-symbols/svg-400@0.25.0/sharp/home.svg"
+    },
+    {
+      "title": "Material Icons: home (filled)",
+      "kind": "icon-set",
+      "maker": "Google",
+      "year": 2014,
+      "credit": "Material Icons, google/material-design-icons at commit 10ecc14",
+      "licence": "Apache-2.0",
+      "licence_url": "https://github.com/google/material-design-icons/blob/master/LICENSE",
+      "url": "https://github.com/google/material-design-icons",
+      "file": "https://raw.githubusercontent.com/google/material-design-icons/10ecc14790612ca8fd164e3f4ffe9c16fc50d5b7/src/action/home/materialicons/24px.svg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "flat-icon",
+      "solid-glyph-icon"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "outline-icon"
+    ],
+    "echoes": [
+      "material-design"
+    ]
+  },
+  "emotion": {
+    "target_response": "Systematic confidence: the UI feels consistent and familiar to any Android user.",
+    "keywords": [
+      "systematic",
+      "consistent",
+      "neutral",
+      "clear"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "material icons",
+      "material symbols",
+      "google icons",
+      "android icons",
+      "material design icon",
+      "variable icon font"
+    ],
+    "use_cases": [
+      "Android and Material web apps",
+      "admin and back-office tools",
+      "design systems that need fill and weight states",
+      "prototypes"
+    ],
+    "avoid_when": [
+      "The brand must not look like Google or Android.",
+      "The design needs a hand-made or retro voice."
+    ],
+    "modifiers": [
+      {
+        "request": "rounder and friendlier",
+        "toward": "outline-icon",
+        "how": "Keep the 24 px grid; use round caps and joins and a 2 px corner radius on every shape."
+      },
+      {
+        "request": "bolder",
+        "toward": "solid-glyph-icon",
+        "how": "Set fill 1 and weight 600–700, and keep the keylines."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Material Symbols guide, Google Fonts",
+      "url": "https://developers.google.com/fonts/docs/material_symbols"
+    },
+    {
+      "title": "google/material-design-icons repository",
+      "url": "https://github.com/google/material-design-icons"
+    }
+  ]
+}

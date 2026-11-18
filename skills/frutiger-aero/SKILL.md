@@ -265,6 +265,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`glassmorphism`](../glassmorphism/SKILL.md)
 - **Was rejected by:** [`metro-ui`](../metro-ui/SKILL.md)
 - **Mixes well with:** [`apple-aqua`](../apple-aqua/SKILL.md), [`ethereal-web`](../ethereal-web/SKILL.md), [`skeuomorphism`](../skeuomorphism/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
+- **Kin in another domain:** [`skeuomorphic-icon`](../skeuomorphic-icon/SKILL.md)
 - **Nearest by vector profile:** [`apple-aqua`](../apple-aqua/SKILL.md), [`cassette-futurism`](../cassette-futurism/SKILL.md), [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md)
 
 ## Emotional target

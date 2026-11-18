@@ -72,6 +72,17 @@
         "depth_illusion",
         "line_dominance"
       ]
+    },
+    {
+      "id": "icon",
+      "name": "Icons",
+      "axes": [
+        "realism",
+        "fill",
+        "corner_softness",
+        "detail_density",
+        "colour_count"
+      ]
     }
   ],
   "nodes": [
@@ -2549,6 +2560,141 @@
         "depth_illusion": 4,
         "line_dominance": 2
       }
+    },
+    {
+      "id": "pixel-icon",
+      "domain": "icon",
+      "name": "Pixel icon",
+      "era": "bitmap",
+      "start": 1981,
+      "end": null,
+      "vectors": {
+        "realism": 2,
+        "fill": 4,
+        "corner_softness": 1,
+        "detail_density": 2,
+        "colour_count": 2
+      }
+    },
+    {
+      "id": "isometric-icon",
+      "domain": "icon",
+      "name": "Isometric icon",
+      "era": "rendered",
+      "start": 1995,
+      "end": null,
+      "vectors": {
+        "realism": 3,
+        "fill": 4,
+        "corner_softness": 2,
+        "detail_density": 3,
+        "colour_count": 4
+      }
+    },
+    {
+      "id": "skeuomorphic-icon",
+      "domain": "icon",
+      "name": "Skeuomorphic icon",
+      "era": "rendered",
+      "start": 2001,
+      "end": 2013,
+      "vectors": {
+        "realism": 5,
+        "fill": 5,
+        "corner_softness": 4,
+        "detail_density": 5,
+        "colour_count": 5
+      }
+    },
+    {
+      "id": "flat-icon",
+      "domain": "icon",
+      "name": "Flat icon",
+      "era": "vector-system",
+      "start": 2010,
+      "end": null,
+      "vectors": {
+        "realism": 2,
+        "fill": 5,
+        "corner_softness": 3,
+        "detail_density": 2,
+        "colour_count": 4
+      }
+    },
+    {
+      "id": "solid-glyph-icon",
+      "domain": "icon",
+      "name": "Solid glyph icon",
+      "era": "vector-system",
+      "start": 2012,
+      "end": null,
+      "vectors": {
+        "realism": 1,
+        "fill": 5,
+        "corner_softness": 3,
+        "detail_density": 2,
+        "colour_count": 1
+      }
+    },
+    {
+      "id": "outline-icon",
+      "domain": "icon",
+      "name": "Outline icon",
+      "era": "vector-system",
+      "start": 2013,
+      "end": null,
+      "vectors": {
+        "realism": 1,
+        "fill": 1,
+        "corner_softness": 4,
+        "detail_density": 1,
+        "colour_count": 1
+      }
+    },
+    {
+      "id": "material-symbols-icon",
+      "domain": "icon",
+      "name": "Material Symbols",
+      "era": "vector-system",
+      "start": 2014,
+      "end": null,
+      "vectors": {
+        "realism": 1,
+        "fill": 3,
+        "corner_softness": 3,
+        "detail_density": 1,
+        "colour_count": 1
+      }
+    },
+    {
+      "id": "duotone-icon",
+      "domain": "icon",
+      "name": "Duotone icon",
+      "era": "vector-system",
+      "start": 2019,
+      "end": null,
+      "vectors": {
+        "realism": 1,
+        "fill": 3,
+        "corner_softness": 4,
+        "detail_density": 2,
+        "colour_count": 2
+      }
+    },
+    {
+      "id": "clay-3d-icon",
+      "domain": "icon",
+      "name": "3D clay icon",
+      "era": "post-flat",
+      "start": 2020,
+      "end": null,
+      "vectors": {
+        "realism": 4,
+        "fill": 5,
+        "corner_softness": 5,
+        "detail_density": 3,
+        "colour_count": 5
+      }
     }
   ],
   "edges": [
@@ -2585,6 +2731,11 @@
     {
       "from": "anti-design",
       "to": "deconstructivist-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "apple-aqua",
+      "to": "skeuomorphic-icon",
       "type": "ECHOES"
     },
     {
@@ -2818,6 +2969,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "clay-3d-icon",
+      "to": "claymorphism",
+      "type": "ECHOES"
+    },
+    {
       "from": "constructivism-web",
       "to": "cubism-painting",
       "type": "ECHOES"
@@ -2959,12 +3115,22 @@
     },
     {
       "from": "flat-design",
+      "to": "flat-icon",
+      "type": "ECHOES"
+    },
+    {
+      "from": "flat-design",
       "to": "minimalist-interior",
       "type": "ECHOES"
     },
     {
       "from": "flat-design",
       "to": "ukiyo-e",
+      "type": "ECHOES"
+    },
+    {
+      "from": "flat-icon",
+      "to": "metro-ui",
       "type": "ECHOES"
     },
     {
@@ -2975,6 +3141,11 @@
     {
       "from": "french-new-wave",
       "to": "street-photography",
+      "type": "ECHOES"
+    },
+    {
+      "from": "frutiger-aero",
+      "to": "skeuomorphic-icon",
       "type": "ECHOES"
     },
     {
@@ -3108,6 +3279,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "material-design",
+      "to": "material-symbols-icon",
+      "type": "ECHOES"
+    },
+    {
       "from": "memphis-design",
       "to": "memphis-interior",
       "type": "ECHOES"
@@ -3223,6 +3399,16 @@
       "type": "ECHOES"
     },
     {
+      "from": "outline-icon",
+      "to": "rams-functionalism-ui",
+      "type": "ECHOES"
+    },
+    {
+      "from": "outline-icon",
+      "to": "swiss-international",
+      "type": "ECHOES"
+    },
+    {
       "from": "party-flash",
       "to": "y2k-aesthetic",
       "type": "ECHOES"
@@ -3230,6 +3416,11 @@
     {
       "from": "pictorialism",
       "to": "victorian-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "pixel-art-web",
+      "to": "pixel-icon",
       "type": "ECHOES"
     },
     {
@@ -3255,6 +3446,16 @@
     {
       "from": "scandinavian-interior",
       "to": "scandinavian-interior-photography",
+      "type": "ECHOES"
+    },
+    {
+      "from": "skeuomorphic-icon",
+      "to": "skeuomorphism",
+      "type": "ECHOES"
+    },
+    {
+      "from": "solid-glyph-icon",
+      "to": "swiss-international",
       "type": "ECHOES"
     },
     {
@@ -3403,6 +3604,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "clay-3d-icon",
+      "to": "skeuomorphic-icon",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "claymorphism",
       "to": "neumorphism",
       "type": "EVOLVED_FROM"
@@ -3480,6 +3686,16 @@
     {
       "from": "duesseldorf-school",
       "to": "new-topographics",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "duotone-icon",
+      "to": "outline-icon",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "duotone-icon",
+      "to": "solid-glyph-icon",
       "type": "EVOLVED_FROM"
     },
     {
@@ -3633,6 +3849,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "isometric-icon",
+      "to": "pixel-icon",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "japandi-interior",
       "to": "scandinavian-interior",
       "type": "EVOLVED_FROM"
@@ -3675,6 +3896,16 @@
     {
       "from": "material-design",
       "to": "flat-design",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "material-symbols-icon",
+      "to": "flat-icon",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "material-symbols-icon",
+      "to": "solid-glyph-icon",
       "type": "EVOLVED_FROM"
     },
     {
@@ -3793,6 +4024,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "outline-icon",
+      "to": "flat-icon",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "parametricism-architecture",
       "to": "deconstructivist-architecture",
       "type": "EVOLVED_FROM"
@@ -3878,8 +4114,23 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "skeuomorphic-icon",
+      "to": "pixel-icon",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "slow-cinema",
       "to": "italian-neorealism",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "solid-glyph-icon",
+      "to": "flat-icon",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "solid-glyph-icon",
+      "to": "pixel-icon",
       "type": "EVOLVED_FROM"
     },
     {
@@ -4243,6 +4494,11 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "duotone-icon",
+      "to": "flat-icon",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "editorial-serif-revival",
       "to": "luxury-typography-web",
       "type": "HYBRIDIZED_WITH"
@@ -4308,6 +4564,11 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "flat-icon",
+      "to": "isometric-icon",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "frutiger-aero",
       "to": "skeuomorphism",
       "type": "HYBRIDIZED_WITH"
@@ -4353,6 +4614,11 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "isometric-icon",
+      "to": "skeuomorphic-icon",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "japanese-graphic-modernism",
       "to": "pop-art-web",
       "type": "HYBRIDIZED_WITH"
@@ -4370,6 +4636,11 @@
     {
       "from": "material-design",
       "to": "skeuomorphism",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "material-symbols-icon",
+      "to": "outline-icon",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -4415,6 +4686,11 @@
     {
       "from": "one-take-oner",
       "to": "slow-cinema",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "outline-icon",
+      "to": "solid-glyph-icon",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -4530,6 +4806,11 @@
     {
       "from": "brutalist-web",
       "to": "material-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "clay-3d-icon",
+      "to": "flat-icon",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -4655,6 +4936,11 @@
     {
       "from": "flat-design",
       "to": "skeuomorphism",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "flat-icon",
+      "to": "skeuomorphic-icon",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -4790,6 +5076,11 @@
     {
       "from": "one-take-oner",
       "to": "soviet-montage",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "outline-icon",
+      "to": "skeuomorphic-icon",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -5876,6 +6167,8 @@
         "de-stijl-painting",
         "international-style-architecture",
         "minimalism-painting",
+        "outline-icon",
+        "solid-glyph-icon",
         "straight-photography"
       ],
       "nearest_by_vector": [
@@ -5941,7 +6234,8 @@
       "echoes": [
         "international-style-architecture",
         "minimalism-painting",
-        "minimalist-interior"
+        "minimalist-interior",
+        "outline-icon"
       ],
       "nearest_by_vector": [
         {
@@ -6317,7 +6611,9 @@
         "liquid-glass-ui",
         "skeuomorphism"
       ],
-      "echoes": [],
+      "echoes": [
+        "skeuomorphic-icon"
+      ],
       "nearest_by_vector": [
         {
           "id": "cassette-futurism",
@@ -6351,7 +6647,9 @@
         "skeuomorphism",
         "vaporwave"
       ],
-      "echoes": [],
+      "echoes": [
+        "skeuomorphic-icon"
+      ],
       "nearest_by_vector": [
         {
           "id": "apple-aqua",
@@ -6389,7 +6687,9 @@
         "material-design",
         "spatial-visionos"
       ],
-      "echoes": [],
+      "echoes": [
+        "skeuomorphic-icon"
+      ],
       "nearest_by_vector": [
         {
           "id": "cassette-futurism",
@@ -6419,7 +6719,9 @@
       "hybridized_with": [
         "flat-design"
       ],
-      "echoes": [],
+      "echoes": [
+        "flat-icon"
+      ],
       "nearest_by_vector": [
         {
           "id": "bauhaus",
@@ -6447,7 +6749,9 @@
         "terminal-tui-web",
         "vaporwave"
       ],
-      "echoes": [],
+      "echoes": [
+        "pixel-icon"
+      ],
       "nearest_by_vector": [
         {
           "id": "japanese-dense-web",
@@ -6532,6 +6836,7 @@
         "swiss-international"
       ],
       "echoes": [
+        "flat-icon",
         "minimalist-interior",
         "ukiyo-e"
       ],
@@ -6775,7 +7080,9 @@
       "hybridized_with": [
         "skeuomorphism"
       ],
-      "echoes": [],
+      "echoes": [
+        "material-symbols-icon"
+      ],
       "nearest_by_vector": [
         {
           "id": "aurora-gradient-ui",
@@ -7262,7 +7569,9 @@
         "corporate-memphis",
         "scrapbook-ui"
       ],
-      "echoes": [],
+      "echoes": [
+        "clay-3d-icon"
+      ],
       "nearest_by_vector": [
         {
           "id": "surrealism-web",
@@ -10933,6 +11242,291 @@
       "techniques": [
         "airbrush"
       ]
+    },
+    "pixel-icon": {
+      "evolved_from": [],
+      "evolved_into": [
+        "isometric-icon",
+        "skeuomorphic-icon",
+        "solid-glyph-icon"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "pixel-art-web"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "isometric-icon",
+          "distance": 2.65
+        },
+        {
+          "id": "solid-glyph-icon",
+          "distance": 2.65
+        },
+        {
+          "id": "material-symbols-icon",
+          "distance": 2.83
+        }
+      ],
+      "techniques": []
+    },
+    "isometric-icon": {
+      "evolved_from": [
+        "pixel-icon"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "flat-icon",
+        "skeuomorphic-icon"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "flat-icon",
+          "distance": 2
+        },
+        {
+          "id": "pixel-icon",
+          "distance": 2.65
+        },
+        {
+          "id": "clay-3d-icon",
+          "distance": 3.46
+        }
+      ],
+      "techniques": []
+    },
+    "skeuomorphic-icon": {
+      "evolved_from": [
+        "pixel-icon"
+      ],
+      "evolved_into": [
+        "clay-3d-icon"
+      ],
+      "rebelled_against": [],
+      "provoked": [
+        "flat-icon",
+        "outline-icon"
+      ],
+      "hybridized_with": [
+        "isometric-icon"
+      ],
+      "echoes": [
+        "apple-aqua",
+        "frutiger-aero",
+        "skeuomorphism"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "clay-3d-icon",
+          "distance": 2.45
+        },
+        {
+          "id": "isometric-icon",
+          "distance": 3.74
+        },
+        {
+          "id": "flat-icon",
+          "distance": 4.47
+        }
+      ],
+      "techniques": []
+    },
+    "flat-icon": {
+      "evolved_from": [],
+      "evolved_into": [
+        "material-symbols-icon",
+        "outline-icon",
+        "solid-glyph-icon"
+      ],
+      "rebelled_against": [
+        "skeuomorphic-icon"
+      ],
+      "provoked": [
+        "clay-3d-icon"
+      ],
+      "hybridized_with": [
+        "duotone-icon",
+        "isometric-icon"
+      ],
+      "echoes": [
+        "flat-design",
+        "metro-ui"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "isometric-icon",
+          "distance": 2
+        },
+        {
+          "id": "pixel-icon",
+          "distance": 3
+        },
+        {
+          "id": "clay-3d-icon",
+          "distance": 3.16
+        }
+      ],
+      "techniques": []
+    },
+    "solid-glyph-icon": {
+      "evolved_from": [
+        "flat-icon",
+        "pixel-icon"
+      ],
+      "evolved_into": [
+        "duotone-icon",
+        "material-symbols-icon"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "outline-icon"
+      ],
+      "echoes": [
+        "swiss-international"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "material-symbols-icon",
+          "distance": 2.24
+        },
+        {
+          "id": "duotone-icon",
+          "distance": 2.45
+        },
+        {
+          "id": "pixel-icon",
+          "distance": 2.65
+        }
+      ],
+      "techniques": []
+    },
+    "outline-icon": {
+      "evolved_from": [
+        "flat-icon"
+      ],
+      "evolved_into": [
+        "duotone-icon"
+      ],
+      "rebelled_against": [
+        "skeuomorphic-icon"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "material-symbols-icon",
+        "solid-glyph-icon"
+      ],
+      "echoes": [
+        "rams-functionalism-ui",
+        "swiss-international"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "material-symbols-icon",
+          "distance": 2.24
+        },
+        {
+          "id": "duotone-icon",
+          "distance": 2.45
+        },
+        {
+          "id": "solid-glyph-icon",
+          "distance": 4.24
+        }
+      ],
+      "techniques": []
+    },
+    "material-symbols-icon": {
+      "evolved_from": [
+        "flat-icon",
+        "solid-glyph-icon"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "outline-icon"
+      ],
+      "echoes": [
+        "material-design"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "duotone-icon",
+          "distance": 1.73
+        },
+        {
+          "id": "outline-icon",
+          "distance": 2.24
+        },
+        {
+          "id": "solid-glyph-icon",
+          "distance": 2.24
+        }
+      ],
+      "techniques": []
+    },
+    "duotone-icon": {
+      "evolved_from": [
+        "outline-icon",
+        "solid-glyph-icon"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "flat-icon"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "material-symbols-icon",
+          "distance": 1.73
+        },
+        {
+          "id": "outline-icon",
+          "distance": 2.45
+        },
+        {
+          "id": "solid-glyph-icon",
+          "distance": 2.45
+        }
+      ],
+      "techniques": []
+    },
+    "clay-3d-icon": {
+      "evolved_from": [
+        "skeuomorphic-icon"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "flat-icon"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "claymorphism"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "skeuomorphic-icon",
+          "distance": 2.45
+        },
+        {
+          "id": "flat-icon",
+          "distance": 3.16
+        },
+        {
+          "id": "isometric-icon",
+          "distance": 3.46
+        }
+      ],
+      "techniques": []
     }
   }
 }
