@@ -1,0 +1,117 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "renaissance-painting",
+  "domain": "painting",
+  "name": "Renaissance painting",
+  "aliases": ["Quattrocento", "Early and High Renaissance", "Italian Renaissance painting"],
+  "era_id": "early-modern",
+  "time_period": { "start": 1400, "end": 1520, "label": "1400–1520" },
+  "region": "Italy and Flanders",
+  "media": ["tempera", "oil on panel", "fresco"],
+  "summary": "A picture as a measured window onto the world: linear perspective, modelled figures, a stable geometry and a calm, idealised body. Florentine and Venetian workshops and Flemish oil painters set the rules.",
+  "philosophy": {
+    "core_thesis": "A picture is a window onto a measured space, and the ideal human body is the measure of that space.",
+    "design_principles": [
+      "Set one vanishing point on the horizon line, at 40–50% of the picture height, and make every orthogonal converge on it.",
+      "Arrange the main figures in a triangle or pyramid, with the apex on the centre axis in the upper third.",
+      "Model each form with a smooth gradation from light to shade in 6–8 steps, with no drawn outline on the flesh.",
+      "Build colour in thin glazes over a drawn underlayer, and level the surface until no stroke is visible.",
+      "Put a calm landscape or a piece of architecture behind the figures, and make it cooler, paler and bluer with each step of distance.",
+      "Place the horizon, the focal figure and the architecture on the golden section or on a 2:3 ratio.",
+      "Pose figures in contrapposto with the head turned 10–30° from the shoulders, and give the hands a meaning."
+    ],
+    "anti_patterns": [
+      "Visible brush strokes on figures or faces",
+      "Flat colour fields without modelling",
+      "Diagonal compositions with a single hard beam of light",
+      "Elongated limbs, twisted poses or a stretched neck",
+      "Figures cropped by the picture edge",
+      "Fully saturated colour over more than a robe or two"
+    ]
+  },
+  "vectors": { "abstraction": 1, "brushwork_visibility": 1, "chromatic_intensity": 3, "depth_illusion": 5, "line_dominance": 4 },
+  "composition": {
+    "layout": "A pyramid of figures on a symmetric or near-symmetric plan, inside a perspective box with a visible floor grid of 8–12 squares.",
+    "focal_point": "The head of the central figure sits on the vertical centre axis or within 10% of it, at 30–40% of the height from the top.",
+    "format": "Portrait panels at 2:3 or 3:4 for devotional work; landscape 3:2 for narrative. Figures stay 5–10% inside the edges.",
+    "principles": [
+      { "principle": "symmetry-axis", "rule": "Hold a central axis with a bilateral balance within 10% of equal visual weight left and right." },
+      { "principle": "proportion", "rule": "Use the golden section (1:1.618) for the horizon, the focal head and the main architectural division." },
+      { "principle": "layering-depth", "rule": "Use three planes: figures in the front 40%, architecture or terrace in the middle, a pale blue landscape in the last 20%." },
+      { "principle": "focal-point", "rule": "Direct every gaze, gesture and orthogonal toward one head or one hand." }
+    ]
+  },
+  "palette": {
+    "strategy": "Local colour that is rich but controlled: one great blue, one red, earth tones and a pale sky; harmony from glazed transparency, not from contrast.",
+    "distribution": "Earth and flesh tones 45%, muted green and sky 30%, white and gold 15%, the strong blue and red together under 10%.",
+    "ground": "White gesso on poplar panel with a thin warm imprimatura of 5–10% umber.",
+    "colours": [
+      { "name": "Ultramarine", "hex": "#1F3F8F", "pigment": "lapis lazuli", "role": "robe of the Virgin, the strongest chroma" },
+      { "name": "Vermilion", "hex": "#C8321E", "pigment": "cinnabar", "role": "drapery, one red field" },
+      { "name": "Lead-tin yellow", "hex": "#D9B44A", "pigment": "lead-tin yellow", "role": "gold trim and highlights" },
+      { "name": "Green earth", "hex": "#7C8C5A", "pigment": "terre verte", "role": "shadow under flesh, landscape" },
+      { "name": "Lead white", "hex": "#EFE8D8", "pigment": "lead white", "role": "linen, highlights" },
+      { "name": "Flesh ochre", "hex": "#C9996B", "pigment": "ochre and vermilion", "role": "skin mid-tone" },
+      { "name": "Raw umber", "hex": "#5B4331", "pigment": "umber", "role": "deep shadow, tree trunks" },
+      { "name": "Azurite sky", "hex": "#6D93B8", "pigment": "azurite", "role": "distant sky and hills" }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Egg tempera for the underpainting, then oil glazes; or oil alone in Flanders.",
+    "support": "Poplar panel with gesso, 10–40mm thick; later canvas in Venice.",
+    "brushwork": "Small, hidden strokes; no visible stroke wider than 3mm inside a figure.",
+    "paint_handling": "Thin layers of 10–30 microns, built from a drawn underpainting by hatching and glaze; impasto only in jewellery and gold highlights.",
+    "edges": "Soft edges inside forms and a firm edge only at the contour of the main figure; the faces are blended by sfumato."
+  },
+  "light_and_modelling": {
+    "light": "One soft source from the upper left at about 45°, diffuse, as in a room with a north window.",
+    "modelling": "Smooth gradation from light to dark in 6–8 steps; highlights small, cool and placed on the forehead, nose and knuckles.",
+    "shadow": "Transparent shadows in brown-green; no black, and shadow covers 25–35% of each form.",
+    "temperature": "Warm flesh and drapery in the foreground against cool blue-green distance."
+  },
+  "subject": {
+    "typical": "Madonna and Child, saints, three-quarter portraits, mythological allegory, the ideal city.",
+    "figure_scale": "Figures fill 50–70% of the picture height; the head is 1/7 to 1/8 of the body height.",
+    "treatment": "Idealised faces and bodies with calm expressions; narrative shown at its quietest moment."
+  },
+  "surface": {
+    "finish": "Smooth and glossy, like enamel, with all brush marks levelled and a clear resin varnish.",
+    "texture": "Fine, even panel without visible grain; at most a hairline craquelure."
+  },
+  "reference_works": {
+    "works": [
+      { "work": "Virgin and Child with an Angel", "artist": "Sandro Botticelli", "date": "1475–85", "museum": "Art Institute of Chicago", "object_id": "80530", "public_domain": true },
+      { "work": "Virgin and Child with Two Angels", "artist": "Sandro Botticelli", "date": "1485–95", "museum": "Art Institute of Chicago", "object_id": "80526", "public_domain": true },
+      { "work": "Virgin and Child", "artist": "Giovanni Bellini", "date": "undated", "museum": "Art Institute of Chicago", "object_id": "117816", "public_domain": true }
+    ],
+    "note": "Object ids were checked against the Art Institute of Chicago API (CC0 data). Look at the museum page for the image and its licence."
+  },
+  "prompt_primer": {
+    "positive": ["linear perspective", "sfumato modelling", "triangular figure composition", "egg tempera and oil glazes", "gesso panel", "atmospheric perspective", "idealised contrapposto figures", "lapis lazuli blue robe", "calm pale landscape", "soft diffuse north light"],
+    "negative": ["visible brush strokes", "dramatic chiaroscuro", "flat colour fields", "elongated limbs", "neon saturation", "cropped figures"]
+  },
+  "lineage": { "evolved_from": [], "rebelled_against": [], "hybridized_with": [], "echoes": [] },
+  "emotion": {
+    "target_response": "Calm and order: the viewer trusts a world that someone has measured and found harmonious.",
+    "keywords": ["serene", "ordered", "ideal", "harmonious", "balanced"],
+    "brand_archetypes": ["sage", "ruler"]
+  },
+  "agent": {
+    "triggers": ["renaissance", "quattrocento", "italian renaissance", "madonna and child", "sfumato", "linear perspective", "oil glaze", "botticelli", "classical portrait"],
+    "use_cases": ["allegorical illustration", "book and album covers", "image prompts for classical portraits", "concept art for historical settings"],
+    "avoid_when": [
+      "The brief asks for motion, drama or visible gesture.",
+      "The subject is modern urban life, or the picture must read as flat graphic design."
+    ],
+    "modifiers": [
+      { "request": "more dramatic", "toward": "baroque-painting", "how": "Keep the perspective and the modelled figures; replace the diffuse light with one hard source, move the focal point off the axis, and darken the shadows to 50–60% of the area." },
+      { "request": "looser, more modern", "toward": "impressionism", "how": "Keep the outdoor setting and the cool distance; drop the underdrawing, break each form into visible strokes 5–15mm wide and remove the outline." }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q4692 (Renaissance)", "url": "https://www.wikidata.org/wiki/Q4692" },
+    { "title": "Getty AAT 300021140 (Renaissance)", "url": "https://vocab.getty.edu/page/aat/300021140" },
+    { "title": "Leon Battista Alberti, De pictura (1435)" },
+    { "title": "Art Institute of Chicago API (CC0 data)", "url": "https://api.artic.edu/docs/" }
+  ]
+}

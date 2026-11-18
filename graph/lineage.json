@@ -50,6 +50,17 @@
         "depth_of_field",
         "proximity"
       ]
+    },
+    {
+      "id": "painting",
+      "name": "Painting",
+      "axes": [
+        "abstraction",
+        "brushwork_visibility",
+        "chromatic_intensity",
+        "depth_illusion",
+        "line_dominance"
+      ]
     }
   ],
   "nodes": [
@@ -802,9 +813,134 @@
         "depth_of_field": 2,
         "proximity": 4
       }
+    },
+    {
+      "id": "renaissance-painting",
+      "domain": "painting",
+      "name": "Renaissance painting",
+      "era": "early-modern",
+      "start": 1400,
+      "end": 1520,
+      "vectors": {
+        "abstraction": 1,
+        "brushwork_visibility": 1,
+        "chromatic_intensity": 3,
+        "depth_illusion": 5,
+        "line_dominance": 4
+      }
+    },
+    {
+      "id": "baroque-painting",
+      "domain": "painting",
+      "name": "Baroque painting",
+      "era": "early-modern",
+      "start": 1600,
+      "end": 1720,
+      "vectors": {
+        "abstraction": 1,
+        "brushwork_visibility": 3,
+        "chromatic_intensity": 2,
+        "depth_illusion": 5,
+        "line_dominance": 2
+      }
+    },
+    {
+      "id": "ukiyo-e",
+      "domain": "painting",
+      "name": "Ukiyo-e",
+      "era": "early-modern",
+      "start": 1680,
+      "end": 1860,
+      "vectors": {
+        "abstraction": 2,
+        "brushwork_visibility": 1,
+        "chromatic_intensity": 3,
+        "depth_illusion": 2,
+        "line_dominance": 5
+      }
+    },
+    {
+      "id": "impressionism",
+      "domain": "painting",
+      "name": "Impressionism",
+      "era": "nineteenth-century",
+      "start": 1872,
+      "end": 1886,
+      "vectors": {
+        "abstraction": 2,
+        "brushwork_visibility": 5,
+        "chromatic_intensity": 4,
+        "depth_illusion": 3,
+        "line_dominance": 1
+      }
+    },
+    {
+      "id": "nordic-national-romanticism-painting",
+      "domain": "painting",
+      "name": "Nordic national romanticism",
+      "era": "nineteenth-century",
+      "start": 1880,
+      "end": 1910,
+      "vectors": {
+        "abstraction": 2,
+        "brushwork_visibility": 3,
+        "chromatic_intensity": 3,
+        "depth_illusion": 3,
+        "line_dominance": 3
+      }
+    },
+    {
+      "id": "cubism-painting",
+      "domain": "painting",
+      "name": "Cubism",
+      "era": "avant-garde",
+      "start": 1907,
+      "end": 1922,
+      "vectors": {
+        "abstraction": 4,
+        "brushwork_visibility": 3,
+        "chromatic_intensity": 2,
+        "depth_illusion": 2,
+        "line_dominance": 4
+      }
+    },
+    {
+      "id": "de-stijl-painting",
+      "domain": "painting",
+      "name": "De Stijl painting",
+      "era": "avant-garde",
+      "start": 1917,
+      "end": 1931,
+      "vectors": {
+        "abstraction": 5,
+        "brushwork_visibility": 1,
+        "chromatic_intensity": 4,
+        "depth_illusion": 1,
+        "line_dominance": 5
+      }
+    },
+    {
+      "id": "abstract-expressionism",
+      "domain": "painting",
+      "name": "Abstract Expressionism",
+      "era": "avant-garde",
+      "start": 1943,
+      "end": 1965,
+      "vectors": {
+        "abstraction": 5,
+        "brushwork_visibility": 5,
+        "chromatic_intensity": 3,
+        "depth_illusion": 2,
+        "line_dominance": 2
+      }
     }
   ],
   "edges": [
+    {
+      "from": "abstract-expressionism",
+      "to": "brutalist-architecture",
+      "type": "ECHOES"
+    },
     {
       "from": "bauhaus",
       "to": "bauhaus-architecture",
@@ -813,6 +949,11 @@
     {
       "from": "bauhaus",
       "to": "bauhaus-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "bauhaus",
+      "to": "de-stijl-painting",
       "type": "ECHOES"
     },
     {
@@ -841,6 +982,16 @@
       "type": "ECHOES"
     },
     {
+      "from": "de-stijl-painting",
+      "to": "international-style-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "de-stijl-painting",
+      "to": "swiss-international",
+      "type": "ECHOES"
+    },
+    {
       "from": "de-stijl-web",
       "to": "international-style-architecture",
       "type": "ECHOES"
@@ -853,6 +1004,11 @@
     {
       "from": "dopamine-decor",
       "to": "memphis-design",
+      "type": "ECHOES"
+    },
+    {
+      "from": "flat-design",
+      "to": "ukiyo-e",
       "type": "ECHOES"
     },
     {
@@ -926,8 +1082,18 @@
       "type": "ECHOES"
     },
     {
+      "from": "abstract-expressionism",
+      "to": "cubism-painting",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "art-deco-architecture",
       "to": "art-nouveau-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "baroque-painting",
+      "to": "renaissance-painting",
       "type": "EVOLVED_FROM"
     },
     {
@@ -958,6 +1124,11 @@
     {
       "from": "corporate-memphis",
       "to": "memphis-design",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "de-stijl-painting",
+      "to": "cubism-painting",
       "type": "EVOLVED_FROM"
     },
     {
@@ -1176,6 +1347,16 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "impressionism",
+      "to": "nordic-national-romanticism-painting",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "impressionism",
+      "to": "ukiyo-e",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "material-design",
       "to": "skeuomorphism",
       "type": "HYBRIDIZED_WITH"
@@ -1221,6 +1402,11 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "abstract-expressionism",
+      "to": "de-stijl-painting",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "art-deco-web",
       "to": "art-nouveau-web",
       "type": "REBELLED_AGAINST"
@@ -1228,6 +1414,16 @@
     {
       "from": "constructivism-web",
       "to": "art-nouveau-web",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "cubism-painting",
+      "to": "impressionism",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "cubism-painting",
+      "to": "renaissance-painting",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -1412,6 +1608,7 @@
       "echoes": [
         "bauhaus-architecture",
         "bauhaus-interior",
+        "de-stijl-painting",
         "international-style-architecture"
       ],
       "nearest_by_vector": [
@@ -1541,6 +1738,7 @@
         "mid-century-modern"
       ],
       "echoes": [
+        "de-stijl-painting",
         "international-style-architecture",
         "straight-photography"
       ],
@@ -1844,7 +2042,9 @@
         "rams-functionalism-ui",
         "swiss-international"
       ],
-      "echoes": [],
+      "echoes": [
+        "ukiyo-e"
+      ],
       "nearest_by_vector": [
         {
           "id": "de-stijl-web",
@@ -2176,6 +2376,7 @@
       "echoes": [
         "bauhaus",
         "bauhaus-interior",
+        "de-stijl-painting",
         "de-stijl-web",
         "mid-century-modern-interior",
         "new-topographics",
@@ -2235,6 +2436,7 @@
       ],
       "hybridized_with": [],
       "echoes": [
+        "abstract-expressionism",
         "constructivism-web",
         "neo-brutalism-ui",
         "new-topographics"
@@ -2789,6 +2991,219 @@
         {
           "id": "new-colour",
           "distance": 2.65
+        }
+      ]
+    },
+    "renaissance-painting": {
+      "evolved_from": [],
+      "evolved_into": [
+        "baroque-painting"
+      ],
+      "rebelled_against": [],
+      "provoked": [
+        "cubism-painting"
+      ],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "baroque-painting",
+          "distance": 3
+        },
+        {
+          "id": "nordic-national-romanticism-painting",
+          "distance": 3.16
+        },
+        {
+          "id": "ukiyo-e",
+          "distance": 3.32
+        }
+      ]
+    },
+    "baroque-painting": {
+      "evolved_from": [
+        "renaissance-painting"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "nordic-national-romanticism-painting",
+          "distance": 2.65
+        },
+        {
+          "id": "renaissance-painting",
+          "distance": 3
+        },
+        {
+          "id": "impressionism",
+          "distance": 3.74
+        }
+      ]
+    },
+    "ukiyo-e": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "impressionism"
+      ],
+      "echoes": [
+        "flat-design"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "nordic-national-romanticism-painting",
+          "distance": 3
+        },
+        {
+          "id": "cubism-painting",
+          "distance": 3.16
+        },
+        {
+          "id": "de-stijl-painting",
+          "distance": 3.32
+        }
+      ]
+    },
+    "impressionism": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [
+        "cubism-painting"
+      ],
+      "hybridized_with": [
+        "nordic-national-romanticism-painting",
+        "ukiyo-e"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "nordic-national-romanticism-painting",
+          "distance": 3
+        },
+        {
+          "id": "abstract-expressionism",
+          "distance": 3.46
+        },
+        {
+          "id": "baroque-painting",
+          "distance": 3.74
+        }
+      ]
+    },
+    "nordic-national-romanticism-painting": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "impressionism"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "baroque-painting",
+          "distance": 2.65
+        },
+        {
+          "id": "cubism-painting",
+          "distance": 2.65
+        },
+        {
+          "id": "impressionism",
+          "distance": 3
+        }
+      ]
+    },
+    "cubism-painting": {
+      "evolved_from": [],
+      "evolved_into": [
+        "abstract-expressionism",
+        "de-stijl-painting"
+      ],
+      "rebelled_against": [
+        "impressionism",
+        "renaissance-painting"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "nordic-national-romanticism-painting",
+          "distance": 2.65
+        },
+        {
+          "id": "abstract-expressionism",
+          "distance": 3.16
+        },
+        {
+          "id": "ukiyo-e",
+          "distance": 3.16
+        }
+      ]
+    },
+    "de-stijl-painting": {
+      "evolved_from": [
+        "cubism-painting"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [
+        "abstract-expressionism"
+      ],
+      "hybridized_with": [],
+      "echoes": [
+        "bauhaus",
+        "international-style-architecture",
+        "swiss-international"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "cubism-painting",
+          "distance": 3.32
+        },
+        {
+          "id": "ukiyo-e",
+          "distance": 3.32
+        },
+        {
+          "id": "nordic-national-romanticism-painting",
+          "distance": 4.69
+        }
+      ]
+    },
+    "abstract-expressionism": {
+      "evolved_from": [
+        "cubism-painting"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "de-stijl-painting"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "brutalist-architecture"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "cubism-painting",
+          "distance": 3.16
+        },
+        {
+          "id": "impressionism",
+          "distance": 3.46
+        },
+        {
+          "id": "nordic-national-romanticism-painting",
+          "distance": 3.87
         }
       ]
     }

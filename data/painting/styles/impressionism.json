@@ -1,0 +1,118 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "impressionism",
+  "domain": "painting",
+  "name": "Impressionism",
+  "aliases": ["Plein-air painting", "Impressionist painting"],
+  "era_id": "nineteenth-century",
+  "time_period": { "start": 1872, "end": 1886, "label": "1872–1886" },
+  "region": "France",
+  "media": ["oil on canvas"],
+  "summary": "Painting of the first look: quick, broken strokes of pure colour that record changing light on a modern scene. The painters work outdoors, drop the outline and the black shadow, and let the viewer's eye mix the colour.",
+  "philosophy": {
+    "core_thesis": "A picture records the impression of light on a surface at one moment, not the object as it is known to be.",
+    "design_principles": [
+      "Paint the scene in one session of 2 hours or less, so that the light is the same across the canvas.",
+      "Apply colour in separate, visible touches of 5–20mm and let them mix in the eye at a distance.",
+      "Paint shadow in colour: use blue, violet or green at the same value as the lit ground, and use no black.",
+      "Set the value range narrow: most of the picture sits within 3 or 4 steps of a 10-step scale.",
+      "Put complementary pairs side by side (orange and blue, red and green) to make the vibration of light.",
+      "Crop as a snapshot: let the edge cut figures and objects, and place the horizon high or low.",
+      "Choose modern leisure as the subject: boulevards, rivers, gardens, stations and cafés."
+    ],
+    "anti_patterns": [
+      "Black outlines or hard contours around forms",
+      "Black or brown studio shadows",
+      "A smooth, blended, invisible surface",
+      "Dark, low-key ground and a single dramatic beam of light",
+      "Mythological or historical narrative subjects",
+      "Detailed, sharp rendering of faces and leaves"
+    ]
+  },
+  "vectors": { "abstraction": 2, "brushwork_visibility": 5, "chromatic_intensity": 4, "depth_illusion": 3, "line_dominance": 1 },
+  "composition": {
+    "layout": "An open, snapshot-like frame with an uneven weight; diagonal paths, rivers and rows of trees lead the eye, and there is no central pyramid.",
+    "focal_point": "A small area of the strongest contrast or the warmest colour, on a third line, at 15–25% of the picture area.",
+    "format": "Landscape canvas at 4:3 or 3:2; figures and objects are cropped by the edges; the horizon sits at 1/3 or 2/3.",
+    "principles": [
+      { "principle": "rule-of-thirds", "rule": "Place the horizon at 1/3 or 2/3 of the height, and the main accent near a third intersection." },
+      { "principle": "negative-space", "rule": "Let sky, water or a wall of bright light fill 30–50% of the canvas." },
+      { "principle": "leading-lines", "rule": "Use a road, a river bank or a row of trees as a diagonal that enters from a corner." },
+      { "principle": "colour-distribution", "rule": "Set 60% of the area in a dominant key (all warm or all cool), 30% in its neighbours, and 10% in the complement." },
+      { "principle": "framing", "rule": "Use an edge crop or a foreground branch to frame the view, as if the painter had no time to arrange it." }
+    ]
+  },
+  "palette": {
+    "strategy": "A bright, high-key palette of pure pigments, with shadows in complementary colour and a few mixed greys; the colour is optical, and mixing stays on the canvas.",
+    "distribution": "Light and mid values 70–80%, saturated touches 15–20%, dark accents under 10%.",
+    "ground": "A pale, light-grey or cream commercial ground, which shows through gaps between touches.",
+    "colours": [
+      { "name": "Cobalt blue", "hex": "#2F5FA8", "pigment": "cobalt blue", "role": "sky, water, shadow" },
+      { "name": "Cerulean", "hex": "#4C8DB5", "pigment": "cerulean blue", "role": "light sky and water" },
+      { "name": "Chrome yellow", "hex": "#E8B923", "pigment": "chrome yellow", "role": "sun and straw" },
+      { "name": "Viridian", "hex": "#2E8B6A", "pigment": "viridian", "role": "foliage" },
+      { "name": "Vermilion", "hex": "#E2452C", "pigment": "vermilion", "role": "small hot accents" },
+      { "name": "Violet shadow", "hex": "#7A68A8", "pigment": "cobalt violet", "role": "shadow colour" },
+      { "name": "Rose madder", "hex": "#D9748A", "pigment": "rose madder", "role": "skin and dusk" },
+      { "name": "Zinc white", "hex": "#F6F2E6", "pigment": "lead or zinc white", "role": "highlights and mixing" }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Oil paint from pre-made metal tubes, applied wet-in-wet.",
+    "support": "A portable canvas, 50 by 65cm or smaller, with a pale commercial ground.",
+    "brushwork": "Short, broken strokes of 5–20mm, laid in different directions for each element: horizontal for water, vertical for trees, a dab for flowers.",
+    "paint_handling": "Alla prima in one session; thick paint (impasto) in the lights and thin, dragged paint in the shadows; colours stay unmixed on the palette.",
+    "edges": "Lost or vibrating edges: a form dissolves into its neighbour; no outline anywhere."
+  },
+  "light_and_modelling": {
+    "light": "Natural daylight outdoors, which changes with the hour; the picture shows one hour and one weather.",
+    "modelling": "Form is built by a change of colour temperature and not by dark and light: a warm lit side against a cool shadow side at the same value.",
+    "shadow": "Coloured shadow in blue or violet with a value only 1–2 steps below the light; reflected colour from nearby surfaces.",
+    "temperature": "A dominant warm light against cool shadow, or the reverse at dusk; the contrast is the picture."
+  },
+  "subject": {
+    "typical": "Gardens, rivers and bridges, haystacks, boulevards in rain, cafés and railway stations, promenading figures.",
+    "figure_scale": "Figures are small and sketched (10–40% of the height), or they are cropped by the edge.",
+    "treatment": "Faces are suggested by 2–3 touches; modern life as it is, with no moral or myth."
+  },
+  "surface": {
+    "finish": "Matt to semi-matt, with no varnish on the first exhibitions.",
+    "texture": "Strong impasto ridges and a visible weave; the surface looks like fast work."
+  },
+  "reference_works": {
+    "works": [
+      { "work": "Stacks of Wheat (End of Summer)", "artist": "Claude Monet", "date": "1890–91", "museum": "Art Institute of Chicago", "object_id": "64818", "public_domain": true },
+      { "work": "Stacks of Wheat (End of Day, Autumn)", "artist": "Claude Monet", "date": "1890–91", "museum": "Art Institute of Chicago", "object_id": "14624", "public_domain": true },
+      { "work": "Paris Street; Rainy Day", "artist": "Gustave Caillebotte", "date": "1877", "museum": "Art Institute of Chicago", "object_id": "20684", "public_domain": true }
+    ],
+    "note": "Object ids were checked against the Art Institute of Chicago API (CC0 data). Look at the museum page for the image and its licence."
+  },
+  "prompt_primer": {
+    "positive": ["impressionist oil painting", "broken colour strokes", "plein-air light", "coloured shadows in violet and blue", "high-key palette", "visible impasto", "wet-in-wet alla prima", "shimmering water reflection", "snapshot crop", "soft dissolved edges"],
+    "negative": ["black outline", "black shadows", "smooth blended surface", "sharp detail", "studio lighting", "dark moody ground"]
+  },
+  "lineage": { "evolved_from": [], "rebelled_against": [], "hybridized_with": ["ukiyo-e"], "echoes": [] },
+  "emotion": {
+    "target_response": "Light and ease: the viewer feels a warm day, a passing mood and a pleasure in looking.",
+    "keywords": ["luminous", "fleeting", "airy", "joyful", "casual"],
+    "brand_archetypes": ["lover", "explorer", "innocent"]
+  },
+  "agent": {
+    "triggers": ["impressionism", "impressionist", "monet", "plein air", "broken colour", "water lilies", "pastel garden", "painterly landscape"],
+    "use_cases": ["landscape and garden illustration", "hospitality and wellness art direction", "wall art and greeting cards", "soft image-generation prompts"],
+    "avoid_when": [
+      "The brief needs exact detail: a product, a diagram, a face that must be recognised.",
+      "The brief asks for a hard graphic outline or a dark dramatic mood."
+    ],
+    "modifiers": [
+      { "request": "more structure", "toward": "cubism-painting", "how": "Keep the colour touches; make each one a faceted plane with a straight edge, narrow the palette to 3–4 hues, and drop the atmosphere." },
+      { "request": "more graphic", "toward": "ukiyo-e", "how": "Keep the cropped viewpoint and the high horizon; replace the touches with flat fields and a 1–2mm contour." }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q40415 (Impressionism)", "url": "https://www.wikidata.org/wiki/Q40415" },
+    { "title": "Getty AAT 300021503 (Impressionism)", "url": "https://vocab.getty.edu/page/aat/300021503" },
+    { "title": "Art Institute of Chicago API (CC0 data)", "url": "https://api.artic.edu/docs/" },
+    { "title": "John Rewald, The History of Impressionism (MoMA, 1946)" }
+  ]
+}

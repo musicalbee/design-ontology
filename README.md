@@ -191,16 +191,35 @@ flowchart LR
     cinematic_teal_orange["Cinematic teal and orange"]
     party_flash["Party flash"]
   end
+  subgraph painting_early_modern["Painting · Early modern · 1400–1860"]
+    renaissance_painting["Renaissance painting"]
+    baroque_painting["Baroque painting"]
+    ukiyo_e["Ukiyo-e"]
+  end
+  subgraph painting_nineteenth_century["Painting · Nineteenth century · 1840–1910"]
+    impressionism["Impressionism"]
+    nordic_national_romanticism_painting["Nordic national romanticism"]
+  end
+  subgraph painting_avant_garde["Painting · Avant-garde · 1905–1970"]
+    cubism_painting["Cubism"]
+    de_stijl_painting["De Stijl painting"]
+    abstract_expressionism["Abstract Expressionism"]
+  end
+  abstract_expressionism <-. echoes .-> brutalist_architecture
   bauhaus <-. echoes .-> bauhaus_architecture
   bauhaus <-. echoes .-> bauhaus_interior
+  bauhaus <-. echoes .-> de_stijl_painting
   bauhaus <-. echoes .-> international_style_architecture
   bauhaus_interior <-. echoes .-> international_style_architecture
   brutalist_architecture <-. echoes .-> constructivism_web
   brutalist_architecture <-. echoes .-> neo_brutalism_ui
   brutalist_architecture <-. echoes .-> new_topographics
+  de_stijl_painting <-. echoes .-> international_style_architecture
+  de_stijl_painting <-. echoes .-> swiss_international
   de_stijl_web <-. echoes .-> international_style_architecture
   deconstructivist_architecture <-. echoes .-> grunge_editorial
   dopamine_decor <-. echoes .-> memphis_design
+  flat_design <-. echoes .-> ukiyo_e
   grunge_editorial <-. echoes .-> party_flash
   grunge_editorial <-. echoes .-> street_photography
   international_style_architecture <-. echoes .-> mid_century_modern_interior
@@ -215,13 +234,16 @@ flowchart LR
   party_flash <-. echoes .-> y2k_aesthetic
   straight_photography <-. echoes .-> swiss_international
   y2k_aesthetic <-. echoes .-> y2k_digicam
+  cubism_painting --> abstract_expressionism
   art_nouveau_architecture --> art_deco_architecture
+  renaissance_painting --> baroque_painting
   flat_design --> bento_grid_ui
   swiss_international --> bento_grid_ui
   international_style_architecture --> brutalist_architecture
   new_colour --> cinematic_teal_orange
   flat_design --> corporate_memphis
   memphis_design --> corporate_memphis
+  cubism_painting --> de_stijl_painting
   memphis_interior --> dopamine_decor
   swiss_international --> flat_design
   y2k_aesthetic --> frutiger_aero
@@ -247,8 +269,11 @@ flowchart LR
   bauhaus --> swiss_international
   y2k_aesthetic --> vaporwave
   new_colour --> y2k_digicam
+  abstract_expressionism -. rejects .-> de_stijl_painting
   art_deco_web -. rejects .-> art_nouveau_web
   constructivism_web -. rejects .-> art_nouveau_web
+  cubism_painting -. rejects .-> impressionism
+  cubism_painting -. rejects .-> renaissance_painting
   de_stijl_web -. rejects .-> art_nouveau_web
   deconstructivist_architecture -. rejects .-> international_style_architecture
   deconstructivist_architecture -. rejects .-> postmodern_architecture
@@ -294,14 +319,11 @@ flowchart LR
   linkStyle 21 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 22 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 23 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 56 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 57 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 58 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 59 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 60 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 61 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 62 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 63 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 24 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 25 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 26 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 27 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 28 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 64 stroke:#E5484D,stroke-width:1.5px
   linkStyle 65 stroke:#E5484D,stroke-width:1.5px
   linkStyle 66 stroke:#E5484D,stroke-width:1.5px
@@ -317,6 +339,17 @@ flowchart LR
   linkStyle 76 stroke:#E5484D,stroke-width:1.5px
   linkStyle 77 stroke:#E5484D,stroke-width:1.5px
   linkStyle 78 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 79 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 80 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 81 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 82 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 83 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 84 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 85 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 86 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 87 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 88 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 89 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 

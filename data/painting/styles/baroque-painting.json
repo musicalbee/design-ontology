@@ -1,0 +1,118 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "baroque-painting",
+  "domain": "painting",
+  "name": "Baroque painting",
+  "aliases": ["Caravaggism", "Dutch Golden Age painting", "Tenebrism"],
+  "era_id": "early-modern",
+  "time_period": { "start": 1600, "end": 1720, "label": "1600–1720" },
+  "region": "Italy, Spain, Flanders and the Dutch Republic",
+  "media": ["oil on canvas"],
+  "summary": "Painting of the instant: strong chiaroscuro, diagonal movement, warm earth colour and a viewer who is pulled into the scene. It serves the church, the court and the new Dutch market for portraits and domestic life.",
+  "philosophy": {
+    "core_thesis": "A picture is a staged moment in which light decides what matters and the viewer feels the event.",
+    "design_principles": [
+      "Light one area of the picture at 3 to 5 times the brightness of the rest, and let the dark ground take 50–60% of the area.",
+      "Run the composition on a diagonal, with the main axis at 30–45° from the horizontal.",
+      "Place the figures off-centre, with the focal point on a third line and a gesture or a gaze that points through the picture.",
+      "Paint flesh and fabric with loaded, visible strokes in the light and thin, transparent paint in the dark.",
+      "Crop the scene close: figures fill 70–90% of the height and the nearest figure overlaps the picture edge.",
+      "Keep the palette warm and earthy, with one saturated red or blue as a single accent.",
+      "Show the texture of each material: satin, fur, bronze, skin and bread each get a different stroke."
+    ],
+    "anti_patterns": [
+      "Even, shadowless light across the whole picture",
+      "Symmetric, static compositions with figures in a row",
+      "Pale or pastel colour fields",
+      "Smooth, brushless surfaces on fabric and flesh",
+      "Idealised calm faces without a reaction",
+      "Visible outlines around figures"
+    ]
+  },
+  "vectors": { "abstraction": 1, "brushwork_visibility": 3, "chromatic_intensity": 2, "depth_illusion": 5, "line_dominance": 2 },
+  "composition": {
+    "layout": "A diagonal armature or an S-curve through the figures, inside a dark ground; the group makes an open, asymmetric triangle.",
+    "focal_point": "The brightest area sits on a third line, 33–40% from one side, and holds the face or the hands of the main figure.",
+    "format": "Canvas at 3:4 to 4:5 for altarpieces and portraits, 5:4 to 3:2 for interiors; the figures are cropped at the frame edge.",
+    "principles": [
+      { "principle": "contrast", "rule": "Set the lit area at 3 to 5 times the luminance of the dark ground, with a steep step of 1–2 stops across the form edge." },
+      { "principle": "rule-of-thirds", "rule": "Place the brightest face or hand on a third line, and place the second accent on the opposite third." },
+      { "principle": "leading-lines", "rule": "Use arms, a beam of light and a glance to make one diagonal that ends on the focal point." },
+      { "principle": "balance", "rule": "Balance a large dark mass on one side with a small bright accent on the other, not with a mirrored form." },
+      { "principle": "layering-depth", "rule": "Separate 3 planes by light: a dark foreground edge, the lit middle plane, a brown-black ground." }
+    ]
+  },
+  "palette": {
+    "strategy": "A warm, low-key earth palette in which light does the work of colour; one strong red or blue is spent on a single drapery.",
+    "distribution": "Dark browns and blacks 50–60%, warm mid-tones 25–30%, lit flesh and white linen 10–15%, the saturated accent under 5%.",
+    "ground": "A dark red-brown or grey-brown ground over canvas, which shows through the shadows.",
+    "colours": [
+      { "name": "Bitumen black", "hex": "#1B1410", "pigment": "bone black and bitumen", "role": "shadow ground" },
+      { "name": "Burnt umber", "hex": "#4A3022", "pigment": "burnt umber", "role": "deep mid-tone" },
+      { "name": "Red ochre", "hex": "#9A4B2A", "pigment": "red earth", "role": "warm shadow, drapery" },
+      { "name": "Flesh highlight", "hex": "#E3B98E", "pigment": "lead white and ochre", "role": "lit skin" },
+      { "name": "Lead white", "hex": "#F1E8D5", "pigment": "lead white", "role": "linen and the brightest light" },
+      { "name": "Lake crimson", "hex": "#A3202E", "pigment": "madder or cochineal lake", "role": "the one saturated accent" },
+      { "name": "Smalt blue", "hex": "#3B5B8C", "pigment": "smalt or ultramarine", "role": "alternative single accent" }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Oil paint, bound in linseed oil.",
+    "support": "Medium to coarse canvas with a dark red-brown ground; copper or oak panel for small work in the Netherlands.",
+    "brushwork": "Loaded strokes 5–15mm wide in the lights, along the direction of the form; thin scrubbed paint in the shadows.",
+    "paint_handling": "Dark to light: thin shadow, then opaque lights built up by 2–3 passes; impasto on highlights only.",
+    "edges": "Hard edge on the lit side of a form and a lost edge on the shadow side, where the figure melts into the ground."
+  },
+  "light_and_modelling": {
+    "light": "One hard source, often from the upper left at 30–60°, out of frame; it makes a clear beam and a cast shadow.",
+    "modelling": "Fast change from light to shade, in 3–4 steps; the form turns away into black.",
+    "shadow": "Deep, warm and transparent shadow; the darkest value is near black but keeps a brown tone.",
+    "temperature": "Warm lights and warm shadows with a single cool accent; no cool distance."
+  },
+  "subject": {
+    "typical": "Religious drama, martyrdom, portraits, still life with a dark ground, tavern and domestic scenes, group portraits.",
+    "figure_scale": "Figures fill 70–90% of the picture height; the viewer is at the edge of the scene.",
+    "treatment": "Physical, imperfect bodies with wrinkles, dirt and strong reaction; the most dramatic moment, not the calm one."
+  },
+  "surface": {
+    "finish": "Glossy varnish over a dark surface, with the highest sheen in the darks.",
+    "texture": "Visible canvas weave in the shadows and thick paint ridges in the lights."
+  },
+  "reference_works": {
+    "works": [
+      { "work": "Aristotle with a Bust of Homer", "artist": "Rembrandt", "date": "1653", "museum": "The Met", "object_id": "437394", "public_domain": true },
+      { "work": "Young Woman with a Water Pitcher", "artist": "Johannes Vermeer", "date": "c. 1662", "museum": "The Met", "object_id": "437881", "public_domain": true },
+      { "work": "The Night Watch", "artist": "Rembrandt", "date": "1642", "museum": "Rijksmuseum", "object_id": "SK-C-5", "public_domain": true },
+      { "work": "The Milkmaid", "artist": "Johannes Vermeer", "date": "c. 1660", "museum": "Rijksmuseum", "object_id": "SK-A-2344", "public_domain": true }
+    ],
+    "note": "The Met ids were checked against the Met Open Access API (CC0). The Rijksmuseum ids are the catalogue numbers in its public collection. Look at the museum page for the image and its licence."
+  },
+  "prompt_primer": {
+    "positive": ["chiaroscuro", "tenebrism", "single hard light source", "diagonal composition", "dark red-brown ground", "loaded impasto highlights", "warm earth palette", "dramatic gesture", "close-cropped figures", "satin and fur texture"],
+    "negative": ["even flat lighting", "pastel colour", "symmetric composition", "smooth airbrushed surface", "pale background", "visible outline"]
+  },
+  "lineage": { "evolved_from": ["renaissance-painting"], "rebelled_against": [], "hybridized_with": [], "echoes": [] },
+  "emotion": {
+    "target_response": "Drama and presence: the viewer feels a decisive moment, close and physical, and cannot look away.",
+    "keywords": ["dramatic", "intense", "theatrical", "sensual", "solemn"],
+    "brand_archetypes": ["hero", "ruler", "lover"]
+  },
+  "agent": {
+    "triggers": ["baroque", "chiaroscuro", "tenebrism", "caravaggio", "rembrandt", "dutch golden age", "dramatic lighting", "old master", "vanitas"],
+    "use_cases": ["moody portraits", "editorial illustration", "game and film concept art", "album covers", "still-life prompts"],
+    "avoid_when": [
+      "The brief asks for a bright, airy or friendly mood.",
+      "The picture must stay readable at icon size, where deep shadow turns to a black block."
+    ],
+    "modifiers": [
+      { "request": "calmer", "toward": "renaissance-painting", "how": "Keep the modelled figures; replace the hard source with diffuse light, centre the focal point on the axis, and lighten the ground to a mid-tone." },
+      { "request": "lighter and looser", "toward": "impressionism", "how": "Keep the visible stroke and the observed light; raise the ground to a light value and move the shadows to cool violet." }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q37853 (Baroque)", "url": "https://www.wikidata.org/wiki/Q37853" },
+    { "title": "Getty AAT 300021147 (Baroque)", "url": "https://vocab.getty.edu/page/aat/300021147" },
+    { "title": "Rijksmuseum collection (CC0 data)", "url": "https://www.rijksmuseum.nl/en/collection" },
+    { "title": "The Met Open Access API (CC0)", "url": "https://metmuseum.github.io/" }
+  ]
+}

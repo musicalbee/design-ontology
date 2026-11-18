@@ -1,0 +1,116 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "nordic-national-romanticism-painting",
+  "domain": "painting",
+  "name": "Nordic national romanticism",
+  "aliases": ["National Romantic painting", "Golden Age of Finnish Art", "Skagen and Gothenburg school"],
+  "era_id": "nineteenth-century",
+  "time_period": { "start": 1880, "end": 1910, "label": "1880s–1900s" },
+  "region": "Sweden, Finland and Norway",
+  "media": ["oil on canvas", "tempera", "watercolour"],
+  "summary": "Painting that builds a nation's image from its own land, myths and home life: pale northern light, lake and forest, folk legend and the farm room. Painters trained in Paris bring back plein-air method and apply it to Nordic subjects.",
+  "philosophy": {
+    "core_thesis": "A picture can give a young nation a face by painting its own land, light, legends and home with the best methods of Europe.",
+    "design_principles": [
+      "Paint the northern landscape in a cool, pale key: a long horizon, a low sun and a sky that covers 40–60% of the height.",
+      "Use a clear, decorative outline on figures and legends: a contour of 2–4mm and flat or lightly modelled fields of colour.",
+      "Simplify the scene into 3 to 5 large shapes (lake, forest wall, sky, a figure) and tilt the space slightly flat.",
+      "Draw on national material: epic poem, folk costume, farm interiors, birch, spruce and granite.",
+      "Paint the interior as a bright, tidy, white-and-red room with natural window light and a pattern of folk textiles.",
+      "Keep the colour restrained and cool, with one warm accent in red ochre, a wooden building or a costume.",
+      "Combine plein-air observation with a symbolist or decorative arrangement: the scene is true, and the layout is designed."
+    ],
+    "anti_patterns": [
+      "Tropical or Mediterranean colour and a warm golden sun",
+      "Classical gods, Roman ruins and Italianate scenery",
+      "Heavy dark chiaroscuro studio lighting",
+      "Busy ornate frames of detail without a clear silhouette",
+      "Urban, industrial or cosmopolitan modern-life subjects",
+      "Sentimental detail that hides the simple structure of the land"
+    ]
+  },
+  "vectors": { "abstraction": 2, "brushwork_visibility": 3, "chromatic_intensity": 3, "depth_illusion": 3, "line_dominance": 3 },
+  "composition": {
+    "layout": "Large, simple bands or masses: horizon at 40–60% of the height, a forest edge or lake shore as a decorative line, and the figures set as a frieze across the lower third.",
+    "focal_point": "A figure or a red building at 1/3 from the side, against the pale area of sky or water.",
+    "format": "Panoramic landscape at 3:2 to 2:1; a tall 1:2 format for legend and decorative panels.",
+    "principles": [
+      { "principle": "negative-space", "rule": "Keep 30–50% of the picture as calm sky, lake or snow, with almost no detail." },
+      { "principle": "rhythm", "rule": "Repeat trunk, wave or pattern shapes 6–15 times in a regular beat, with a small change of height and spacing." },
+      { "principle": "colour-distribution", "rule": "Set cool blue, green and grey at about 75% of the area, and a warm red or ochre accent at 5–10%." },
+      { "principle": "layering-depth", "rule": "Use 3 planes: a dark foreground edge, a middle band of trees or figures, and a pale distance." },
+      { "principle": "unity-variety", "rule": "Hold the picture to one dominant colour key and vary the shapes inside it." }
+    ]
+  },
+  "palette": {
+    "strategy": "A cool, light northern key of blue-grey, forest green and white, with one warm accent in red ochre and a touch of gold.",
+    "distribution": "Cool blues, greys and greens 60–70%, white and snow 15–20%, warm earth 10–15%, the red accent under 5%.",
+    "ground": "A pale grey or cream ground that keeps the picture light.",
+    "colours": [
+      { "name": "Fjord blue", "hex": "#3C6A8C", "pigment": "cobalt and ultramarine", "role": "water and distant hills" },
+      { "name": "Pale northern sky", "hex": "#BFD3DC", "pigment": "cerulean and white", "role": "sky near the horizon" },
+      { "name": "Spruce green", "hex": "#2F4F3F", "pigment": "viridian and umber", "role": "forest wall" },
+      { "name": "Birch white", "hex": "#EFEBE0", "pigment": "zinc white", "role": "snow, birch bark, linen" },
+      { "name": "Falu red", "hex": "#8E2F25", "pigment": "red ochre", "role": "timber house, one warm accent" },
+      { "name": "Granite grey", "hex": "#7A7F82", "pigment": "mixed grey", "role": "rock and shadow" },
+      { "name": "Midsummer gold", "hex": "#D5AE56", "pigment": "yellow ochre", "role": "late light and costume trim" }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Oil paint, with tempera and watercolour for decorative and folk subjects.",
+    "support": "Canvas, often large for public commission; paper for the watercolour sketch.",
+    "brushwork": "Broad, flat strokes of 10–30mm in sky and water, and a firm, drawn contour of 2–4mm on figures and trunks.",
+    "paint_handling": "Thin, matt layers with little impasto; the decorative pictures use flat, tempera-like fields.",
+    "edges": "Clear silhouette edges on figures and trunks against a soft sky; lost edges only in mist and snow."
+  },
+  "light_and_modelling": {
+    "light": "Low, long northern light: a midsummer night glow or a diffuse winter day, with a long cast shadow.",
+    "modelling": "Light modelling in 3–4 steps; the form reads as a clear shape against the sky more than as a volume.",
+    "shadow": "Cool blue and violet shadows, with snow as a light-blue plane.",
+    "temperature": "A cool overall key with a single warm window, timber wall or costume as the focal accent."
+  },
+  "subject": {
+    "typical": "Lake and forest, birch and pine, mid-winter and midsummer, folk legend and the epic Kalevala, farm interiors, peasant costume.",
+    "figure_scale": "Figures take 15–40% of the height in landscape and 60–90% in the decorative panel.",
+    "treatment": "A calm, solemn or dreamy mood; the nation and its home are shown as lasting and dignified."
+  },
+  "surface": {
+    "finish": "Matt, with a clear and dry surface.",
+    "texture": "Light canvas weave and visible broad strokes in the sky; flat and even in the decorative fields."
+  },
+  "reference_works": {
+    "works": [
+      { "work": "Little Lie-A-Bed's Sad Breakfast", "artist": "Carl Larsson", "date": "1900", "museum": "Art Institute of Chicago", "object_id": "31923", "public_domain": true },
+      { "work": "Little Girl in a Sandbox", "artist": "Carl Larsson", "date": "1901", "museum": "Art Institute of Chicago", "object_id": "151908", "public_domain": true },
+      { "work": "The Great Bather", "artist": "Anders Zorn", "date": "1895", "museum": "Art Institute of Chicago", "object_id": "41720", "public_domain": true }
+    ],
+    "note": "Object ids were checked against the Art Institute of Chicago API (CC0 data). The Nationalmuseum (Stockholm) catalogue holds the central works; add its object ids in wave 2, once each licence is read."
+  },
+  "prompt_primer": {
+    "positive": ["Nordic national romantic painting", "pale northern light", "lake and spruce forest", "birch and granite", "folk costume and legend", "Falu red timber house", "decorative flat outline", "cool blue-green key", "long summer-night glow", "bright farm interior"],
+    "negative": ["Mediterranean sun", "classical ruins", "heavy chiaroscuro", "neon colour", "urban modern scene", "photorealism"]
+  },
+  "lineage": { "evolved_from": [], "rebelled_against": [], "hybridized_with": ["impressionism"], "echoes": [] },
+  "emotion": {
+    "target_response": "Belonging and quiet pride: the viewer feels a home landscape that is old, calm and theirs.",
+    "keywords": ["quiet", "northern", "homely", "mythic", "cool"],
+    "brand_archetypes": ["caregiver", "explorer", "innocent"]
+  },
+  "agent": {
+    "triggers": ["national romanticism", "nordic painting", "carl larsson", "gallen-kallela", "kalevala", "scandinavian folk", "midsummer", "northern landscape", "swedish interior"],
+    "use_cases": ["Nordic heritage and tourism art direction", "book illustration for myth and legend", "calm interior and home brands", "landscape image prompts"],
+    "avoid_when": [
+      "The brief asks for urban energy, glamour or a hot, saturated palette.",
+      "The subject comes from a culture other than the Nordic one, where the folk symbols would be borrowed."
+    ],
+    "modifiers": [
+      { "request": "more luminous", "toward": "impressionism", "how": "Keep the northern landscape and the cool key; drop the contour, break the sky and water into touches of 5–15mm, and raise the value of the shadows." }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q11895126 (Golden Age of Finnish Art)", "url": "https://www.wikidata.org/wiki/Q11895126" },
+    { "title": "Wikidata Q263985 (romantic nationalism)", "url": "https://www.wikidata.org/wiki/Q263985" },
+    { "title": "Nationalmuseum, Stockholm: collection", "url": "https://collection.nationalmuseum.se/en" },
+    { "title": "Art Institute of Chicago API (CC0 data)", "url": "https://api.artic.edu/docs/" }
+  ]
+}

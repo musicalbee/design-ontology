@@ -1,0 +1,117 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "cubism-painting",
+  "domain": "painting",
+  "name": "Cubism",
+  "aliases": ["Analytic Cubism", "Synthetic Cubism"],
+  "era_id": "avant-garde",
+  "time_period": { "start": 1907, "end": 1922, "label": "1907–1920s" },
+  "region": "Paris, France",
+  "media": ["oil on canvas", "mixed media"],
+  "summary": "A picture that shows an object from several sides at once. Analytic Cubism breaks the subject into faceted planes in a narrow brown-grey key; Synthetic Cubism rebuilds it from flat shapes, pasted paper and brighter colour.",
+  "philosophy": {
+    "core_thesis": "A picture is an object in its own right, and it shows what a thing is by combining several viewpoints on one flat surface.",
+    "design_principles": [
+      "Break the subject into 20–60 planes with mostly straight edges, and show each plane from a different viewpoint.",
+      "Keep the space shallow: stack planes in 2–4 layers that lean forward and never open a deep perspective.",
+      "In the analytic phase, limit the palette to 3–4 hues of ochre, grey, brown and olive.",
+      "Make the contour pass through the form: let edges open, so that figure and ground exchange places.",
+      "Set a grid of verticals and horizontals as the armature, and tilt the planes 5–20° from it.",
+      "In the synthetic phase, use flat shapes in solid colour, and add real texture: pasted paper, sand, a stencilled letter.",
+      "Choose a plain, close subject that stands on a table: a guitar, a bottle, a glass, a newspaper, a head."
+    ],
+    "anti_patterns": [
+      "Deep single-point perspective with a receding floor",
+      "Smooth modelling that turns a form as one solid volume",
+      "Soft atmospheric edges and blended colour",
+      "A single viewpoint and a full, undistorted face",
+      "Strong cast shadows from one light source",
+      "Sentimental or narrative subjects that need a story"
+    ]
+  },
+  "vectors": { "abstraction": 4, "brushwork_visibility": 3, "chromatic_intensity": 2, "depth_illusion": 2, "line_dominance": 4 },
+  "composition": {
+    "layout": "A central, pyramidal mass of faceted planes that fades out toward the edges, on a hidden grid of verticals and horizontals with the planes tilted 5–20° off it.",
+    "focal_point": "The densest cluster of small planes and the strongest value contrast, within the centre 40% of the canvas.",
+    "format": "A vertical canvas of 4:5 to 2:3, or an oval; the subject floats inside with a 10–15% margin of lighter ground.",
+    "principles": [
+      { "principle": "rhythm", "rule": "Repeat the same angled facet 10–20 times, with each repeat shifted or rotated by 5–20°." },
+      { "principle": "layering-depth", "rule": "Compress depth to 2–4 shallow planes with no more than 10% value change between neighbours." },
+      { "principle": "focal-point", "rule": "Concentrate detail and contrast at the centre; let the facets thin out toward the edges." },
+      { "principle": "unity-variety", "rule": "Hold the key to 3–4 hues and one value range; vary the facet size from 10 to 100mm." },
+      { "principle": "balance", "rule": "Balance the mass by an informal offset: a heavy cluster left of centre against open facets on the right." }
+    ]
+  },
+  "palette": {
+    "strategy": "Analytic: a near-monochrome of ochre, grey and brown. Synthetic: flat, brighter local colour, with black, white and one or two primaries.",
+    "distribution": "Analytic: one hue family 80–90%, near-white highlights 5–10%, near-black lines under 5%. Synthetic: 4–6 flat colours, each 10–25% of the area.",
+    "ground": "A pale ochre or warm grey ground that shows between the planes.",
+    "colours": [
+      { "name": "Ochre", "hex": "#B58B4C", "pigment": "yellow ochre", "role": "dominant mid-tone" },
+      { "name": "Burnt umber", "hex": "#5E4632", "pigment": "umber", "role": "dark planes" },
+      { "name": "Warm grey", "hex": "#8C867B", "pigment": "mixed grey", "role": "shifting planes" },
+      { "name": "Olive", "hex": "#6B6B3A", "pigment": "terre verte and ochre", "role": "second hue" },
+      { "name": "Bone white", "hex": "#E9E2D0", "pigment": "lead white", "role": "highlight planes, paper" },
+      { "name": "Ivory black", "hex": "#1E1C1A", "pigment": "ivory black", "role": "edges and lettering" },
+      { "name": "Synthetic red", "hex": "#B83A2A", "pigment": "vermilion", "role": "synthetic accent field" }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Oil paint, thinly bound; later with sand, wallpaper, newsprint and charcoal.",
+    "support": "Canvas, medium weave, with a pale ground.",
+    "brushwork": "Small, flat strokes of 5–15mm laid in parallel within each plane, and directed along the facet; a tiny, dabbed 'passage' at plane joins.",
+    "paint_handling": "Thin, dry and matt in the analytic phase; flat, opaque fields with sanded or collaged areas in the synthetic phase.",
+    "edges": "Alternating hard and lost edges along the same contour, so that a plane breaks into its neighbour (passage)."
+  },
+  "light_and_modelling": {
+    "light": "No single source; light is a pattern of lighter and darker planes spread over the whole object.",
+    "modelling": "Each plane has a flat or lightly graded value, 2–3 steps; the solid form is implied by the sequence of planes.",
+    "shadow": "Shadow is a dark plane in its own right, not a cast shadow; the darkest value stays inside the figure.",
+    "temperature": "One warm-earth family in the analytic phase; in the synthetic phase, warm and cool are set by flat fields side by side."
+  },
+  "subject": {
+    "typical": "Still life with guitar, violin, bottle and newspaper; heads and half-figures; café tables; a few landscapes.",
+    "figure_scale": "The subject fills 60–85% of the canvas and is seen close.",
+    "treatment": "Everyday, unheroic objects; an exact likeness is lost, and the identity is kept by a few clues such as a sound-hole, a letter or a scroll."
+  },
+  "surface": {
+    "finish": "Matt and dry; sometimes a gloss field against matt planes.",
+    "texture": "Flat canvas grain, with sand, paper edge or wood-grain print in the synthetic phase."
+  },
+  "reference_works": {
+    "works": [
+      { "work": "Abstraction (Guitar and Glass)", "artist": "Juan Gris", "date": "1913", "museum": "Art Institute of Chicago", "object_id": "12874", "public_domain": false },
+      { "work": "The Checkerboard", "artist": "Juan Gris", "date": "1915", "museum": "Art Institute of Chicago", "object_id": "86246", "public_domain": false },
+      { "work": "Daniel-Henry Kahnweiler", "artist": "Pablo Picasso", "date": "1910", "museum": "Art Institute of Chicago", "object_id": "111060", "public_domain": false }
+    ],
+    "note": "These works are not flagged as public domain by the museum. The ids identify the works only. Look at the museum page for the image and its licence; do not copy it."
+  },
+  "prompt_primer": {
+    "positive": ["analytic cubism", "faceted planes", "multiple viewpoints", "shallow stacked space", "ochre grey brown key", "synthetic cubism collage", "pasted newsprint", "tilted grid armature", "guitar and bottle still life", "lost and found edges"],
+    "negative": ["deep perspective", "smooth modelling", "soft atmosphere", "bright rainbow colour", "single viewpoint", "cast shadows"]
+  },
+  "lineage": { "evolved_from": [], "rebelled_against": ["renaissance-painting", "impressionism"], "hybridized_with": [], "echoes": [] },
+  "emotion": {
+    "target_response": "Intellectual alertness: the viewer reads the picture as a puzzle and sees one object from several sides.",
+    "keywords": ["analytical", "fragmented", "modern", "restrained", "structural"],
+    "brand_archetypes": ["creator", "sage", "magician"]
+  },
+  "agent": {
+    "triggers": ["cubism", "cubist", "picasso", "braque", "analytic cubism", "faceted", "fragmented planes", "multiple viewpoints", "collage"],
+    "use_cases": ["editorial and cultural poster art", "album and book covers", "portrait illustration with a modern edge", "abstract pattern and textile"],
+    "avoid_when": [
+      "The brief needs a clear, friendly face or a recognisable likeness at a glance.",
+      "The subject needs a soft, warm or calm mood."
+    ],
+    "modifiers": [
+      { "request": "bolder and brighter", "toward": "de-stijl-painting", "how": "Keep the flat planes and the grid; reduce the shapes to rectangles, set a primary palette with black bars, and drop the object." },
+      { "request": "more expressive", "toward": "abstract-expressionism", "how": "Keep the shallow space; make the planes loose and large, show each stroke of 50–150mm, and drop the subject entirely." }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q42934 (cubism)", "url": "https://www.wikidata.org/wiki/Q42934" },
+    { "title": "Getty AAT 300021495 (Cubism)", "url": "https://vocab.getty.edu/page/aat/300021495" },
+    { "title": "Art Institute of Chicago API (CC0 data)", "url": "https://api.artic.edu/docs/" },
+    { "title": "Daniel-Henry Kahnweiler, The Rise of Cubism (1920)" }
+  ]
+}

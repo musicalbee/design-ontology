@@ -1,0 +1,24 @@
+{
+  "id": "painting",
+  "order": 5,
+  "name": "Painting",
+  "schema": "schema/domains/painting.schema.json",
+  "task": "making, prompting or art-directing a picture: a painting, an illustration, an image-generation prompt or a cover",
+  "vectors": [
+    { "key": "abstraction", "label": "Abstraction", "abbr": "ABS", "low": "illusionistic depiction", "high": "pure abstraction" },
+    { "key": "brushwork_visibility", "label": "Brushwork visibility", "abbr": "BRU", "low": "no trace of the hand", "high": "each stroke and gesture shown" },
+    { "key": "chromatic_intensity", "label": "Chromatic intensity", "abbr": "CHR", "low": "muted, tonal", "high": "saturated, high-key" },
+    { "key": "depth_illusion", "label": "Depth illusion", "abbr": "DEP", "low": "flat picture plane", "high": "deep perspectival space" },
+    { "key": "line_dominance", "label": "Line dominance", "abbr": "LIN", "low": "colour and mass carry the image", "high": "line carries the image" }
+  ],
+  "facets": [
+    { "key": "composition", "title": "Composition" },
+    { "key": "palette", "title": "Palette" },
+    { "key": "brushwork_and_medium", "title": "Brushwork & medium" },
+    { "key": "light_and_modelling", "title": "Light & modelling" },
+    { "key": "subject", "title": "Subject" },
+    { "key": "surface", "title": "Surface" },
+    { "key": "reference_works", "title": "Reference works" },
+    { "key": "prompt_primer", "title": "Prompt primer" }
+  ]
+}

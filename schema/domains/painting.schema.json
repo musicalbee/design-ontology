@@ -1,0 +1,196 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-ontology.dev/schema/domains/painting.schema.json",
+  "title": "Painting style",
+  "description": "One painting style: a set of rules for a picture surface. It shares identity, philosophy, lineage, emotion and agent routing with every other domain, and has its own vectors and facets.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "domain", "name", "aliases", "era_id", "time_period", "region", "media", "summary",
+    "philosophy", "vectors", "composition", "palette", "brushwork_and_medium",
+    "light_and_modelling", "subject", "surface", "reference_works", "prompt_primer",
+    "lineage", "emotion", "agent", "sources"
+  ],
+  "$defs": {
+    "time_period": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["start", "end", "label"],
+      "description": "Like the core time_period, but it reaches back to 1200 because painting styles start before 1800. This is a request for a core change: see the PR body.",
+      "properties": {
+        "start": { "type": "integer", "minimum": 1200, "maximum": 2100, "description": "First year of wide use." },
+        "end": { "type": ["integer", "null"], "minimum": 1200, "maximum": 2100, "description": "Last year of the peak. null = still in active use." },
+        "label": { "$ref": "../core.schema.json#/$defs/shortText" }
+      }
+    },
+    "hex": { "type": "string", "pattern": "^#[0-9A-F]{6}$" }
+  },
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": { "$ref": "../core.schema.json#/$defs/slug" },
+    "domain": { "const": "painting" },
+    "name": { "$ref": "../core.schema.json#/$defs/shortText" },
+    "aliases": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "$ref": "../core.schema.json#/$defs/shortText" }
+    },
+    "era_id": { "$ref": "../core.schema.json#/$defs/slug", "description": "An id from data/painting/eras/." },
+    "time_period": { "$ref": "#/$defs/time_period" },
+    "region": { "$ref": "../core.schema.json#/$defs/shortText", "description": "Where the style began or is centred." },
+    "media": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "enum": ["oil on canvas", "oil on panel", "tempera", "fresco", "watercolour", "gouache", "acrylic", "enamel", "woodblock print", "ink", "mixed media"] }
+    },
+    "summary": { "type": "string", "minLength": 40, "maxLength": 320 },
+    "philosophy": { "$ref": "../core.schema.json#/$defs/philosophy" },
+    "vectors": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["abstraction", "brushwork_visibility", "chromatic_intensity", "depth_illusion", "line_dominance"],
+      "properties": {
+        "abstraction": { "$ref": "../core.schema.json#/$defs/score", "description": "1 = illusionistic depiction, 5 = pure abstraction." },
+        "brushwork_visibility": { "$ref": "../core.schema.json#/$defs/score", "description": "1 = no trace of the hand, 5 = each stroke and gesture shown." },
+        "chromatic_intensity": { "$ref": "../core.schema.json#/$defs/score", "description": "1 = muted and tonal, 5 = saturated and high-key." },
+        "depth_illusion": { "$ref": "../core.schema.json#/$defs/score", "description": "1 = flat picture plane, 5 = deep perspectival space." },
+        "line_dominance": { "$ref": "../core.schema.json#/$defs/score", "description": "1 = colour and mass carry the image, 5 = line carries the image." }
+      }
+    },
+    "composition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["layout", "focal_point", "format", "principles"],
+      "description": "The composition schema: the layout rule, the focal point, the format, and the shared principles that the style uses with its own numbers.",
+      "properties": {
+        "layout": { "$ref": "../core.schema.json#/$defs/sentence", "description": "The armature of the picture, with a measure." },
+        "focal_point": { "$ref": "../core.schema.json#/$defs/sentence", "description": "Where the eye lands, as a position or a fraction of the picture." },
+        "format": { "$ref": "../core.schema.json#/$defs/sentence", "description": "Aspect ratios and the way the edges treat the subject." },
+        "principles": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["principle", "rule"],
+            "properties": {
+              "principle": { "$ref": "../core.schema.json#/$defs/slug", "description": "An id from data/principles/ (issue #7)." },
+              "rule": { "$ref": "../core.schema.json#/$defs/sentence", "description": "How this style applies the principle, with a number." }
+            }
+          }
+        }
+      }
+    },
+    "palette": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["strategy", "distribution", "ground", "colours"],
+      "properties": {
+        "strategy": { "$ref": "../core.schema.json#/$defs/sentence" },
+        "distribution": { "$ref": "../core.schema.json#/$defs/sentence", "description": "Share of area for each colour group." },
+        "ground": { "$ref": "../core.schema.json#/$defs/sentence", "description": "The colour and kind of the ground or support." },
+        "colours": {
+          "type": "array",
+          "minItems": 5,
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "hex", "pigment", "role"],
+            "properties": {
+              "name": { "$ref": "../core.schema.json#/$defs/shortText" },
+              "hex": { "$ref": "#/$defs/hex" },
+              "pigment": { "$ref": "../core.schema.json#/$defs/shortText", "description": "The period pigment or the modern equivalent." },
+              "role": { "$ref": "../core.schema.json#/$defs/shortText" }
+            }
+          }
+        }
+      }
+    },
+    "brushwork_and_medium": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["medium", "support", "brushwork", "paint_handling", "edges"],
+      "properties": {
+        "medium": { "$ref": "../core.schema.json#/$defs/sentence" },
+        "support": { "$ref": "../core.schema.json#/$defs/sentence" },
+        "brushwork": { "$ref": "../core.schema.json#/$defs/sentence", "description": "Stroke size, direction and visibility, with a measure." },
+        "paint_handling": { "$ref": "../core.schema.json#/$defs/sentence", "description": "Layers, thickness, blending." },
+        "edges": { "$ref": "../core.schema.json#/$defs/sentence", "description": "Hard, soft or lost edges, and where each is used." }
+      }
+    },
+    "light_and_modelling": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["light", "modelling", "shadow", "temperature"],
+      "properties": {
+        "light": { "$ref": "../core.schema.json#/$defs/sentence" },
+        "modelling": { "$ref": "../core.schema.json#/$defs/sentence" },
+        "shadow": { "$ref": "../core.schema.json#/$defs/sentence" },
+        "temperature": { "$ref": "../core.schema.json#/$defs/sentence", "description": "How warm and cool colours are distributed." }
+      }
+    },
+    "subject": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["typical", "figure_scale", "treatment"],
+      "properties": {
+        "typical": { "$ref": "../core.schema.json#/$defs/sentence" },
+        "figure_scale": { "$ref": "../core.schema.json#/$defs/sentence", "description": "The size of a figure or object against the picture, with a fraction." },
+        "treatment": { "$ref": "../core.schema.json#/$defs/sentence" }
+      }
+    },
+    "surface": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["finish", "texture"],
+      "properties": {
+        "finish": { "$ref": "../core.schema.json#/$defs/sentence" },
+        "texture": { "$ref": "../core.schema.json#/$defs/sentence" }
+      }
+    },
+    "reference_works": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["works", "note"],
+      "description": "Identifiers of public-domain or openly catalogued works. The repository stores metadata and ids, never an image.",
+      "properties": {
+        "works": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["work", "artist", "date", "museum", "object_id", "public_domain"],
+            "properties": {
+              "work": { "$ref": "../core.schema.json#/$defs/shortText" },
+              "artist": { "$ref": "../core.schema.json#/$defs/shortText" },
+              "date": { "$ref": "../core.schema.json#/$defs/shortText" },
+              "museum": { "enum": ["Art Institute of Chicago", "The Met", "Rijksmuseum", "Nationalmuseum"] },
+              "object_id": { "$ref": "../core.schema.json#/$defs/shortText", "description": "The id in the museum's catalogue." },
+              "public_domain": { "type": "boolean", "description": "true = the museum flags the image as public domain. false = look it up; do not copy it." }
+            }
+          }
+        },
+        "note": { "$ref": "../core.schema.json#/$defs/sentence" }
+      }
+    },
+    "prompt_primer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["positive", "negative"],
+      "description": "The implementation layer: vocabulary for an image prompt or an art brief.",
+      "properties": {
+        "positive": { "type": "array", "minItems": 6, "maxItems": 14, "items": { "$ref": "../core.schema.json#/$defs/shortText" } },
+        "negative": { "type": "array", "minItems": 3, "maxItems": 10, "items": { "$ref": "../core.schema.json#/$defs/shortText" } }
+      }
+    },
+    "lineage": { "$ref": "../core.schema.json#/$defs/lineage" },
+    "emotion": { "$ref": "../core.schema.json#/$defs/emotion" },
+    "agent": { "$ref": "../core.schema.json#/$defs/agent" },
+    "sources": { "type": "array", "minItems": 2, "items": { "$ref": "../core.schema.json#/$defs/sources/items" } }
+  }
+}
