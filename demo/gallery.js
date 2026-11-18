@@ -35,11 +35,7 @@ document.head.insertAdjacentHTML("beforeend", `<style>
   .shot img { width: 100%; height: 100%; object-fit: cover; display: block; }
   .shot .ph { display: flex; }
   .shot .ph span { flex: 1; }
-  .vec { display: grid; grid-template-columns: 120px 1fr; gap: 6px 10px; align-items: center; font-size: 13px; }
-  .vec .t { display: flex; gap: 3px; }
-  .vec .t i { flex: 1; height: 10px; border-radius: 2px; background: var(--line); }
-  .vec .t i.on { background: var(--ink); }
-  .vec small { grid-column: 2; color: var(--muted); margin-top: -4px; }
+  .vec { font-size: 14px; }
   .sw { display: flex; flex-wrap: wrap; gap: 10px; font-size: 12px; margin-top: 12px; }
   .sw span { display: inline-flex; align-items: center; gap: 6px; }
   .sw i { width: 14px; height: 14px; border-radius: 3px; border: 1px solid rgb(0 0 0 / .15); }
@@ -99,6 +95,21 @@ function walk(v, out = { hex: [], principles: new Set() }) {
   return out;
 }
 
+// The most saturated colour that is not too dark or too light to read as a fill.
+function vivid(hexes) {
+  let best = null, top = -1;
+  for (const h of hexes) {
+    const m = /^#?([0-9a-f]{6})$/i.exec(h || "");
+    if (!m) continue;
+    const [r, g, b] = [0, 2, 4].map((i) => parseInt(m[1].slice(i, i + 2), 16) / 255);
+    const max = Math.max(r, g, b), min = Math.min(r, g, b), l = (max + min) / 2;
+    const sat = max === min ? 0 : (max - min) / (1 - Math.abs(2 * l - 1));
+    const score = sat * (l > 0.15 && l < 0.8 ? 1 : 0.3);
+    if (score > top) { top = score; best = h; }
+  }
+  return best;
+}
+
 function shot(s, found) {
   const p = previews[s.id];
   if (p) {
@@ -121,10 +132,10 @@ function show(i) {
     $("h-meta").textContent = [s.time_period?.label, (s.aliases || []).join(", ")].filter(Boolean).join(" · ");
     $("h-thesis").textContent = s.philosophy?.core_thesis || s.summary;
     shot(s, found);
-    $("vec").innerHTML = domain.vectors.map((v) => {
-      const n = s.vectors?.[v.key] ?? 0;
-      return `<span>${esc(v.label)}</span><span class="t" aria-label="${n} of 5">${[1, 2, 3, 4, 5].map((k) => `<i class="${k <= n ? "on" : ""}"></i>`).join("")}</span><small>${esc(v.low)} → ${esc(v.high)}</small>`;
-    }).join("");
+    // The meter takes the style's own colour: the most saturated colour of its palette fills it.
+    const vec = $("vec"), lead = vivid(found.hex.map((c) => c.hex));
+    vec.style.setProperty("--color-primary", lead || "#1d1d1f");
+    vec.innerHTML = VectorMeter.html(domain.vectors, s.vectors, { poles: true });
     $("sw").innerHTML = found.hex.slice(0, 10).map((c) => `<span><i style="background:${esc(c.hex)}"></i>${esc(c.name)} <code>${esc(c.hex)}</code></span>`).join("");
     const pp = s.prompt_primer || {};
     $("p-pos").textContent = (pp.positive || []).join(", ");
