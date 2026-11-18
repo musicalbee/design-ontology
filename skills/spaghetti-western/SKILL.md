@@ -202,7 +202,6 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more speed**: move toward [`hong-kong-action`](../hong-kong-action/SKILL.md) (Hong Kong action). Keep the stylised duel; cut to 1 to 2 s per shot, add wire work and a camera that moves in the fight.
 - If the user asks for **more truth**: move toward [`new-hollywood`](../new-hollywood/SKILL.md) (New Hollywood). Keep the wide frame; move to real locations, dull colour and a hero without a myth.
 
-- **Came from (go here for a more orthodox version):** [`classical-hollywood`](../classical-hollywood/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`classical-hollywood`](../classical-hollywood/SKILL.md)
 - **Mixes well with:** [`giallo`](../giallo/SKILL.md)
 - **Nearest by vector profile:** [`neon-noir`](../neon-noir/SKILL.md), [`giallo`](../giallo/SKILL.md), [`planimetric-symmetry`](../planimetric-symmetry/SKILL.md)

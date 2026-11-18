@@ -539,7 +539,6 @@ flowchart LR
   punk_zine --> scrapbook_ui
   italian_neorealism --> slow_cinema
   mid_century_modern --> space_age
-  classical_hollywood --> spaghetti_western
   glassmorphism --> spatial_visionos
   straight_photography --> street_photography
   bauhaus --> swiss_international
@@ -744,6 +743,7 @@ flowchart LR
   linkStyle 117 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 118 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 119 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 230 stroke:#E5484D,stroke-width:1.5px
   linkStyle 231 stroke:#E5484D,stroke-width:1.5px
   linkStyle 232 stroke:#E5484D,stroke-width:1.5px
   linkStyle 233 stroke:#E5484D,stroke-width:1.5px
@@ -817,7 +817,6 @@ flowchart LR
   linkStyle 301 stroke:#E5484D,stroke-width:1.5px
   linkStyle 302 stroke:#E5484D,stroke-width:1.5px
   linkStyle 303 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 304 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 
