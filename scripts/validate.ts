@@ -26,6 +26,7 @@ let count = 0;
 const validatePrinciple = ajv.compile(readJson<object>(join(ROOT, "schema", "principle.schema.json")));
 const principles = loadPrinciples();
 const principleIds = new Set(principles.map((p) => p.slug));
+const principleById = new Map(principles.map((p) => [p.slug, p.principle]));
 for (const { file, slug, principle } of principles) {
   if (!validatePrinciple(principle)) {
     for (const e of validatePrinciple.errors ?? []) errors.push(`${file}: ${e.instancePath || "/"} ${e.message}`);
@@ -33,6 +34,9 @@ for (const { file, slug, principle } of principles) {
   }
   if (principle.id !== slug) errors.push(`${file}: id "${principle.id}" is not equal to the file name`);
   for (const r of principle.related) if (!principleIds.has(r) || r === slug) errors.push(`${file}: related → "${r}" is not another principle`);
+  for (const m of principle.measures)
+    for (const d of m.domains ?? [])
+      if (!principle.applies_to.includes(d)) errors.push(`${file}: measure "${m.measure}" names domain "${d}", which is not in applies_to`);
 }
 
 for (const domain of domains) {
@@ -68,6 +72,13 @@ for (const domain of domains) {
 
     for (const ref of principleRefs(style))
       if (!principleIds.has(ref)) errors.push(`${file}: principle "${ref}" is not in data/principles/`);
+      else if (!principleById.get(ref)!.applies_to.includes(domain.id))
+        errors.push(`${file}: principle "${ref}" does not list "${domain.id}" in applies_to. Add the domain and its measures to data/principles/${ref}.json`);
+
+    // One citation for each principle in composition.principles: a second one prints the principle twice in the skill.
+    const cited = ((style as { composition?: { principles?: { principle: string }[] } }).composition?.principles ?? []).map((p) => p.principle);
+    for (const id of new Set(cited.filter((id, i) => cited.indexOf(id) !== i)))
+      errors.push(`${file}: composition.principles cites "${id}" more than once`);
 
     for (const p of style.philosophy.anti_patterns)
       if (/^(never|do not|don't|avoid)\b/i.test(p))

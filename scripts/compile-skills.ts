@@ -176,7 +176,7 @@ function view(style: Style, domain: Domain) {
     },
     composition_principles: principleRefs(style).map((id) => {
       const p = principles.get(id)!;
-      return { id, name: p.name, definition: p.definition, measures: p.measures.map((m) => `${m.measure} (${m.unit}): ${m.reference}`).join("; ") };
+      return { id, name: p.name, definition: p.definition, measures: p.measures.filter((m) => !m.domains || m.domains.includes(domain.id)).map((m) => `${m.measure} (${m.unit}): ${m.reference}`).join("; ") };
     }),
     primer: style.primer && {
       positive: style.primer.positive.join(", "),
