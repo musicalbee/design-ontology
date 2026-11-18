@@ -104,6 +104,11 @@ The open-source families are a stand-in for the demo. A product with a brand use
 
 Styles do not appear from nowhere. Flat design rejects skeuomorphism. Neumorphism rejects flat design. Neo-brutalism rejects the friendly corporate look that flat design became. The graph records these edges, so that an agent asked for "the same, but softer" moves to a named neighbour and does not improvise.
 
+**[Open the interactive lineage graph](https://musicalbee.github.io/design-ontology/demo/graph.html)**: all styles on one time line, a lane for each domain. Select a style to see its edges and open it in its domain demo.
+
+<details>
+<summary>The same graph as Mermaid (wide)</summary>
+
 Solid arrows show descent. Red dotted arrows show rejection. Grey dotted arrows show kinship across domains.
 
 <!-- lineage:start -->
@@ -379,6 +384,8 @@ flowchart LR
 ```
 <!-- lineage:end -->
 
+</details>
+
 The same graph, for machines: [`graph/lineage.json`](graph/lineage.json). It has nodes, typed edges, an adjacency list that you can walk in both directions, and the three nearest neighbours of each style by vector distance.
 
 ## Query it
@@ -418,9 +425,9 @@ The ontology has domains. A domain is one manifest ([`domains/`](domains/)) and 
 | Design | 25 | 16 CSS tokens, Tailwind patterns, a visual pack | [landing page](demo/index.html) |
 | Architecture | 9 | vocabulary primer for briefs, image prompts and 3D scenes | [massing](demo/architecture.html) |
 | Interior | 8 | composition rules in cm, lux and K, and a scene primer | [one room, each style](demo/interior.html) |
-| Photography | 8 | camera numbers (mm, f-stop, shutter, ISO, K) and a grade recipe | |
-| Film and video | 8 | shot primer (aspect, fps, shutter angle, shot length) and a video-prompt primer | |
-| Painting | 8 | palette in hex, brushwork and medium rules, a composition schema | |
+| Photography | 8 | camera numbers (mm, f-stop, shutter, ISO, K) and a grade recipe | [gallery](demo/photography.html) |
+| Film and video | 8 | shot primer (aspect, fps, shutter angle, shot length) and a video-prompt primer | [gallery](demo/film.html) |
+| Painting | 8 | palette in hex, brushwork and medium rules, a composition schema | [gallery](demo/painting.html) |
 
 **Composition principles** are shared. [`data/principles/`](data/principles/) holds 20 records, such as focal point, symmetry and axis, rhythm, rule of thirds, layering in depth and colour distribution. Each record has a definition and a measure with a typical range. A style in any domain names a principle by id and gives its own number. The validator refuses an id that does not exist.
 
