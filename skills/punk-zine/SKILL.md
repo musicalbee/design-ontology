@@ -157,6 +157,11 @@ Set `data-style="punk-zine"` on the root element and paste the tokens. The file 
   --space-unit: 6px;
   --ease: steps(3);
   --duration: 150ms;
+  --type-ratio: 1.618;
+  --size-small: 9.89px;
+  --size-h3: 41.89px;
+  --size-h2: 67.77px;
+  --size-h1: 109.66px;
   --color-on-bg: #111111;
   --color-on-surface: #111111;
   --color-on-primary: #F1EEE4;
@@ -246,6 +251,18 @@ Fragments of photographs, cut and joined on one sheet, so that the joins make a 
 - Join 3 to 12 photographic fragments on one ground and keep the cut edges hard and visible.
 - Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.
 - Set type as one more fragment, turned 0° to 30°, in the same stack of layers.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #111111 | #111111, #FF2E88 | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #FF2E88 | #FF2E88, #111111 | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 0px | 0–0 px | --border-radius |
+| Grid step (`grid_step`) | 6px | 3–9 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.618 | 1.5–1.618 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

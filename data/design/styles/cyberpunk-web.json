@@ -309,6 +309,13 @@
       }
     ]
   },
+  "permutations": {
+    "base_colour": {"options": ["#FF2E88", "#19E3F5", "#E8ECFF"]},
+    "accent_colour": {"options": ["#19E3F5", "#FF2E88"]},
+    "corner_radius": {"min": 1, "max": 3},
+    "grid_step": {"min": 4, "max": 12},
+    "type_scale_ratio": {"default": 1.618, "min": 1.5, "max": 1.618}
+  },
   "sources": [
     {
       "title": "Example: Blade Runner (1982) and Akira (1988) screen design"

@@ -158,6 +158,11 @@ Set `data-style="cyberpunk-web"` on the root element and paste the tokens. The f
   --space-unit: 8px;
   --ease: steps(4, end);
   --duration: 240ms;
+  --type-ratio: 1.618;
+  --size-small: 9.27px;
+  --size-h3: 39.27px;
+  --size-h2: 63.54px;
+  --size-h1: 102.8px;
   --color-on-bg: #E8ECFF;
   --color-on-surface: #E8ECFF;
   --color-on-primary: #0A0B14;
@@ -251,6 +256,18 @@ Light as a line of coloured gas, with a soft halo that spills onto the dark grou
 - Add a halo of 10 to 40px at 30% to 60% opacity in the same hue.
 - Set the sign on a ground darker than 10% lightness, so that the halo shows.
 - Keep a bright, near-white core inside the line.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #FF2E88 | #FF2E88, #19E3F5, #E8ECFF | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #19E3F5 | #19E3F5, #FF2E88 | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 2px | 1–3 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.618 | 1.5–1.618 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

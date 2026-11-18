@@ -162,6 +162,11 @@ Set `data-style="terminal-tui-web"` on the root element and paste the tokens. Th
   --space-unit: 8px;
   --ease: steps(1);
   --duration: 0ms;
+  --type-ratio: 1.333;
+  --size-small: 12px;
+  --size-h3: 28.43px;
+  --size-h2: 37.9px;
+  --size-h1: 50.52px;
   --color-on-bg: #33FF66;
   --color-on-surface: #33FF66;
   --color-on-primary: #0C0C0C;
@@ -243,6 +248,18 @@ Every character takes one cell of the same width, so text forms columns without 
 - Give every glyph one advance width, 0.60 em in most fonts, or 10 or 12 characters an inch on a typewriter.
 - Align columns with spaces and set tables, code and forms on the cell grid.
 - On a screen, size the layout in cells: 80 columns by 24 rows is the classic terminal.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #33FF66 | #33FF66, #FFB000 | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #FFB000 | #FFB000, #33FF66 | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 0px | 0–0 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.333 | 1.25–1.414 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

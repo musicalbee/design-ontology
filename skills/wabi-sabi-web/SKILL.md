@@ -161,6 +161,11 @@ Set `data-style="wabi-sabi-web"` on the root element and paste the tokens. The f
   --space-unit: 16px;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
   --duration: 1000ms;
+  --type-ratio: 1.2;
+  --size-small: 13.33px;
+  --size-h3: 23.04px;
+  --size-h2: 27.65px;
+  --size-h1: 33.18px;
   --color-on-bg: #3B3833;
   --color-on-surface: #3B3833;
   --color-on-primary: #FFFFFF;
@@ -232,6 +237,18 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 6. **The family covers the product.** List each concept that the product needs before you commit. A family that has no icon for one of them is the wrong family.
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #9B5B3C | #9B5B3C, #7A8564, #3B3833 | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #7A8564 | #7A8564, #9B5B3C | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 6px | 3–9 px | --border-radius |
+| Grid step (`grid_step`) | 16px | 8–16 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.2 | 1.125–1.25 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

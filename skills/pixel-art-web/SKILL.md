@@ -157,6 +157,11 @@ Set `data-style="pixel-art-web"` on the root element and paste the tokens. The f
   --space-unit: 8px;
   --ease: steps(4);
   --duration: 120ms;
+  --type-ratio: 1.333;
+  --size-small: 12px;
+  --size-h3: 28.43px;
+  --size-h2: 37.9px;
+  --size-h1: 50.52px;
   --color-on-bg: #F4F4F4;
   --color-on-surface: #F4F4F4;
   --color-on-primary: #1A1C2C;
@@ -245,6 +250,18 @@ A picture or a letter built from square cells that are each on or off, or one fl
 - Limit the palette to 1 to 16 colours; do not blend two colours inside one cell.
 - Draw a diagonal as a stair of equal steps, for example 2 cells across for each 1 cell up.
 - Show the image at an integer scale (2x, 3x, 4x) so that no cell blurs.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #EF7D57 | #EF7D57, #38B764, #F4F4F4 | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #38B764 | #38B764, #EF7D57 | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 0px | 0–0 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.333 | 1.25–1.414 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

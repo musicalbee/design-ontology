@@ -10,7 +10,8 @@ import { Ajv2020 } from "ajv/dist/2020.js";
 import { join } from "node:path";
 import { RECIPE_NAMES } from "./pack.js";
 import { GROUND_KINDS } from "./ground.js";
-import { ROOT, loadDomains, loadEras, loadPeople, loadPrinciples, loadStyleFiles, loadTechniques, principleRefs, readJson, type Style } from "./lib.js";
+import { RULES, gate, curate, type Rule } from "./curation.js";
+import { ROOT, loadDomains, loadEras, loadMedia, loadPeople, loadPrinciples, loadStyleFiles, loadTechniques, principleRefs, readJson, type Style } from "./lib.js";
 
 const schemaOnly = process.argv.includes("--schema-only");
 const errors: string[] = [];
@@ -20,6 +21,15 @@ const ajv = new Ajv2020({ allErrors: true, strict: true, strictRequired: false, 
 ajv.addSchema(readJson<object>(join(ROOT, "schema", "core.schema.json")));
 
 const domains = loadDomains();
+// Domain manifests: one schema, with the asset library (rule 5) and the knobs (rule 6) of each domain.
+const validateDomain = ajv.compile(readJson<object>(join(ROOT, "schema", "domain.schema.json")));
+for (const d of domains) {
+  if (!validateDomain(d as unknown)) for (const e of validateDomain.errors ?? []) errors.push(`domains/${d.id}.json: ${e.instancePath || "/"} ${e.message}`);
+  for (const k of d.knobs ?? []) if (k.min !== undefined && k.max !== undefined && k.min > k.max) errors.push(`domains/${d.id}.json: knob ${k.key} has min above max`);
+  if (new Set((d.knobs ?? []).map((k) => k.key)).size !== (d.knobs ?? []).length) errors.push(`domains/${d.id}.json: a knob key is used twice`);
+  if (new Set((d.assets ?? []).map((a) => a.type)).size !== (d.assets ?? []).length) errors.push(`domains/${d.id}.json: an asset type is used twice`);
+}
+const eraIdsByDomain = new Map<string, Set<string>>();
 const byId = new Map<string, Style>();
 let count = 0;
 
@@ -45,6 +55,7 @@ for (const domain of domains) {
   const validate = ajv.compile(readJson<object>(join(ROOT, domain.schema)));
   const eras = loadEras(domain.id);
   const eraIds = new Set(eras.map((e) => e.id));
+  eraIdsByDomain.set(domain.id, eraIds);
 
   for (const { file, slug, style } of loadStyleFiles(domain.id)) {
     count++;
@@ -116,7 +127,12 @@ for (const { file, slug, technique: t } of techniques) {
     if (i > 0 && a.year < t.adoptions[i - 1].year) errors.push(`${file}: adoptions are not in order of year`);
   });
   for (const p of t.principles ?? []) if (!principleIds.has(p)) errors.push(`${file}: principle "${p}" is not in data/principles/`);
+  for (const ref of t.origin.styles ?? []) if (!t.styles.includes(ref)) errors.push(`${file}: origin.styles names "${ref}", which is not in styles`);
   techniqueChecks.push(() => {
+    for (const ref of t.origin.styles ?? []) {
+      const s = byId.get(ref);
+      if (s && s.domain !== t.origin.domain) errors.push(`${file}: origin.styles → "${ref}" is in "${s.domain}", not in the origin domain "${t.origin.domain}"`);
+    }
     for (const ref of t.styles) if (!byId.has(ref)) errors.push(`${file}: styles → "${ref}" does not exist`);
     t.adoptions.forEach((a, i) => {
       for (const ref of a.styles ?? []) {
@@ -182,7 +198,6 @@ if (!schemaOnly && errors.length === 0) {
 const validatePerson = ajv.compile(readJson<object>(join(ROOT, "schema", "person.schema.json")));
 const people = loadPeople();
 const wikidataSeen = new Map<string, string>();
-const covered = new Set<string>();
 for (const { file, slug, person } of people) {
   if (!validatePerson(person)) {
     for (const e of validatePerson.errors ?? []) errors.push(`${file}: ${e.instancePath || "/"} ${e.message}`);
@@ -198,7 +213,6 @@ for (const { file, slug, person } of people) {
   if (own.size !== person.styles.length) errors.push(`${file}: a style is listed more than once`);
   for (const s of own) {
     if (!schemaOnly && !byId.has(s)) errors.push(`${file}: style "${s}" does not exist`);
-    covered.add(s);
   }
   for (const m of person.milestones) {
     if (person.born !== null && m.year < person.born) errors.push(`${file}: milestone ${m.year} is before born (${person.born})`);
@@ -210,18 +224,48 @@ for (const { file, slug, person } of people) {
   if (person.born === null && !person.milestones.length)
     errors.push(`${file}: no born year and no milestones, so the person has no place on the time line`);
 }
-const lonely = [...byId.keys()].filter((id) => !covered.has(id)).sort();
-if (!schemaOnly && lonely.length) warnings.push(`${lonely.length} styles have no person in data/people/: ${lonely.join(", ")}`);
 
-// Each style names its top techniques: a style with none gives an agent no method to apply across domains.
-const withTechnique = new Set(techniques.flatMap(({ technique: t }) => t.styles ?? []));
-const bare = [...byId.keys()].filter((id) => !withTechnique.has(id)).sort();
-if (!schemaOnly && bare.length) warnings.push(`${bare.length} styles have no technique in data/techniques/: ${bare.join(", ")}`);
+
+// The media layer: salons, clubs, workshops, magazines, publishers, galleries, auction houses, platforms.
+const validateMedium = ajv.compile(readJson<object>(join(ROOT, "schema", "medium.schema.json")));
+const media = loadMedia();
+const personIds = new Set(people.map((p) => p.slug));
+for (const { file, slug, medium: m } of media) {
+  if (!validateMedium(m)) {
+    for (const e of validateMedium.errors ?? []) errors.push(`${file}: ${e.instancePath || "/"} ${e.message}`);
+    continue;
+  }
+  if (m.id !== slug) errors.push(`${file}: id "${m.id}" is not equal to the file name`);
+  if (m.founded !== null && m.closed !== null && m.closed < m.founded) errors.push(`${file}: closed (${m.closed}) is before founded (${m.founded})`);
+  if (new Set(m.styles.map((s) => s.style)).size !== m.styles.length) errors.push(`${file}: a style is listed more than once`);
+  for (const s of m.styles) if (!schemaOnly && !byId.has(s.style)) errors.push(`${file}: style "${s.style}" does not exist`);
+  for (const p of m.people ?? []) if (!personIds.has(p)) errors.push(`${file}: person "${p}" is not in data/people/`);
+}
+
+// The curation gate (CONTRIBUTING.md, "The six curation rules"). A miss is an error. The only
+// exception is a style on data/curation-allowlist.json, which can only shrink.
+let curation = "";
+if (!schemaOnly && errors.length === 0) {
+  const layers = { people: people.map((p) => p.person), techniques: techniques.map((t) => t.technique), media: media.map((m) => m.medium) };
+  const missesById = new Map<string, Map<Rule, string>>();
+  for (const style of byId.values()) {
+    const domain = domains.find((d) => d.id === style.domain)!;
+    const r = curate(style, domain, eraIdsByDomain.get(domain.id)!, layers);
+    missesById.set(style.id, r.misses);
+    for (const e of r.errors) errors.push(`data/${style.domain}/styles/${style.id}.json: ${e}`);
+  }
+  const g = gate(missesById);
+  errors.push(...g.errors);
+  for (const n of g.notes) warnings.push(n);
+  const pass = [...missesById.values()].filter((m) => m.size === 0).length;
+  const byRule = RULES.map((r) => `${r} ${[...missesById.values()].filter((m) => m.has(r)).length}`).join(", ");
+  curation = ` · curation: ${pass} of ${missesById.size} styles pass all six rules; allowlist ${g.size.styles} styles, ${g.size.misses} misses (${byRule})`;
+}
 
 for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`error ${e}`);
 console.log(
   `${count} styles in ${domains.length} domains · ${principles.length} principles · ${techniques.length} techniques · ${people.length} people · ${errors.length} errors · ${warnings.length} warnings` +
-    (schemaOnly ? " · schema only" : ""),
+    ` · ${media.length} media` + curation + (schemaOnly ? " · schema only" : ""),
 );
 process.exit(errors.length ? 1 : 0);

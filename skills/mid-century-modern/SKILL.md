@@ -168,6 +168,11 @@ Set `data-style="mid-century-modern"` on the root element and paste the tokens. 
   --grid-columns: 6;
   --grid-gutter: 24px;
   --leading-body: 1.55;
+  --type-ratio: 1.333;
+  --size-small: 12.75px;
+  --size-h3: 30.21px;
+  --size-h2: 40.27px;
+  --size-h1: 53.67px;
   --color-on-bg: #3B2A20;
   --color-on-surface: #3B2A20;
   --color-on-primary: #FFFFFF;
@@ -239,6 +244,18 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 6. **The family covers the product.** List each concept that the product needs before you commit. A family that has no icon for one of them is the wrong family.
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #1F7A7A | #1F7A7A, #D2602B, #3B2A20 | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #D2602B | #D2602B, #1F7A7A | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 12px | 6–18 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.333 | 1.25–1.414 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

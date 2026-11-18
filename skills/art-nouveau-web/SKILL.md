@@ -162,6 +162,11 @@ Set `data-style="art-nouveau-web"` on the root element and paste the tokens. The
   --space-unit: 12px;
   --ease: cubic-bezier(0.4, 0, 0.2, 1);
   --duration: 400ms;
+  --type-ratio: 1.5;
+  --size-small: 11.33px;
+  --size-h3: 38.25px;
+  --size-h2: 57.38px;
+  --size-h1: 86.06px;
   --color-on-bg: #2F3F2C;
   --color-on-surface: #2F3F2C;
   --color-on-primary: #F4ECD8;
@@ -250,6 +255,18 @@ A print from a flat stone or plate on which a greasy drawing takes ink and water
 - Pull the print in a press at a run of 20 to 200 copies for an artist print, or more for a poster.
 - Use one stone for each colour; 3 to 5 stones give a poster.
 - Keep the soft crayon grain and the dark, velvet black.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #3E5B3A | #3E5B3A, #C58B2A, #2F3F2C | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #C58B2A | #C58B2A, #3E5B3A | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 32px | 16–48 px | --border-radius |
+| Grid step (`grid_step`) | 12px | 6–16 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.5 | 1.414–1.618 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

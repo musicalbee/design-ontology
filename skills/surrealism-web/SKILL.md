@@ -158,6 +158,11 @@ Set `data-style="surrealism-web"` on the root element and paste the tokens. The 
   --space-unit: 8px;
   --ease: cubic-bezier(0.4, 0, 0.2, 1);
   --duration: 900ms;
+  --type-ratio: 1.333;
+  --size-small: 12px;
+  --size-h3: 28.43px;
+  --size-h2: 37.9px;
+  --size-h1: 50.52px;
   --color-on-bg: #14213F;
   --color-on-surface: #14213F;
   --color-on-primary: #FFFFFF;
@@ -251,6 +256,18 @@ Fragments of photographs, cut and joined on one sheet, so that the joins make a 
 - Join 3 to 12 photographic fragments on one ground and keep the cut edges hard and visible.
 - Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.
 - Set type as one more fragment, turned 0° to 30°, in the same stack of layers.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #C2381A | #C2381A, #1B2A55, #14213F | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #1B2A55 | #1B2A55, #C2381A | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 20px | 10–30 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.333 | 1.25–1.414 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

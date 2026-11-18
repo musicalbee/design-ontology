@@ -158,6 +158,11 @@ Set `data-style="minimalism-web"` on the root element and paste the tokens. The 
   --space-unit: 8px;
   --ease: cubic-bezier(0.2, 0, 0, 1);
   --duration: 200ms;
+  --type-ratio: 1.25;
+  --size-small: 12.8px;
+  --size-h3: 25px;
+  --size-h2: 31.25px;
+  --size-h1: 39.06px;
   --color-on-bg: #161616;
   --color-on-surface: #161616;
   --color-on-primary: #FAFAF8;
@@ -239,6 +244,18 @@ A page or screen divided into equal columns and rows; each element fits a cell o
 - Cut the page into rows of the same module height; align each image and text block to the lines.
 - Set text on a baseline grid of one line height, and use 1 to 2 type sizes for each level.
 - Scale an image by a whole number of modules.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #2F5BEA | #2F5BEA, #1E3FB0, #161616 | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #1E3FB0 | #1E3FB0, #2F5BEA | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 4px | 2–6 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.25 | 1.2–1.333 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

@@ -165,6 +165,11 @@ Set `data-style="bento-grid-ui"` on the root element and paste the tokens. The f
   --duration: 350ms;
   --grid-gap: 16px;
   --cell-padding: 24px;
+  --type-ratio: 1.333;
+  --size-small: 12px;
+  --size-h3: 28.43px;
+  --size-h2: 37.9px;
+  --size-h1: 50.52px;
   --color-on-bg: #1D1D1F;
   --color-on-surface: #1D1D1F;
   --color-on-primary: #F5F5F7;
@@ -252,6 +257,18 @@ A page or screen divided into equal columns and rows; each element fits a cell o
 - Cut the page into rows of the same module height; align each image and text block to the lines.
 - Set text on a baseline grid of one line height, and use 1 to 2 type sizes for each level.
 - Scale an image by a whole number of modules.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #1D1D1F | #1D1D1F, #0071E3 | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #0071E3 | #0071E3, #1D1D1F | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 24px | 12–36 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.333 | 1.25–1.414 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

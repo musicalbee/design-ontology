@@ -162,6 +162,11 @@ Set `data-style="vaporwave"` on the root element and paste the tokens. The file 
   --space-unit: 8px;
   --ease: cubic-bezier(0.4, 0, 0.2, 1);
   --duration: 400ms;
+  --type-ratio: 1.5;
+  --size-small: 10.67px;
+  --size-h3: 36px;
+  --size-h2: 54px;
+  --size-h1: 81px;
   --color-on-bg: #F5EEFF;
   --color-on-surface: #F5EEFF;
   --color-on-primary: #2A1B5C;
@@ -253,6 +258,18 @@ Lines that run to one vanishing point on a horizon, so that a flat surface reads
 
 - Put the horizon at 50% to 65% of the height and draw 12 to 24 lines to one vanishing point.
 - Space the cross lines so that each gap is about 0.8 of the gap in front of it.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #FF71CE | #FF71CE, #01CDFE, #F5EEFF | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #01CDFE | #01CDFE, #FF71CE | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 0px | 0–0 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.5 | 1.414–1.618 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

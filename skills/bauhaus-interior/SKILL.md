@@ -251,6 +251,12 @@ A beam or slab fixed at one end that carries load beyond its support, so that it
 - Keep the free end thin; a depth of 1/8 to 1/10 of the span suits steel and concrete.
 - Repeat the horizontal line in a run of 2 or 3 projecting planes to give a strong shadow.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Bauhaus** (school, Weimar, Dessau, Berlin, 1919–1933), made the style. A school of art, craft and design that joined the workshop to the studio. Its teachers and students set the forms of modern design, interiors and building.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

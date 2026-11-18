@@ -19,5 +19,15 @@
     { "key": "subject_and_staging", "title": "Subject & staging" },
     { "key": "post_processing", "title": "Post-processing" },
     { "key": "prompt_primer", "title": "Prompt primer" }
+  ],
+  "assets": [
+    {"type": "frame", "purpose": "One photograph of a fixed scene in the process and the light of the style.", "made_by": "model", "file": "demo/previews/photography/{id}.webp", "manifest": "demo/previews/photography/manifest.json", "entry": "images.{id}", "generator": "scripts/render-previews.ts", "canvas": [{"width": 1152, "height": 768}, {"width": 768, "height": 1152}]}
+  ],
+  "knobs": [
+    {"key": "colour_temperature", "label": "Colour temperature", "kind": "integer", "unit": "K", "min": 2000, "max": 10000, "description": "The white balance of the grade.", "drives": ["colour_and_grade", "light"]},
+    {"key": "contrast", "label": "Contrast", "kind": "number", "min": 0.5, "max": 2, "description": "The slope of the tone curve at middle grey.", "drives": ["colour_and_grade", "post_processing"]},
+    {"key": "grain", "label": "Grain", "kind": "integer", "unit": "ISO", "min": 25, "max": 6400, "description": "The film speed or the sensor gain that sets the grain.", "drives": ["process", "post_processing"]},
+    {"key": "focal_length", "label": "Focal length", "kind": "integer", "unit": "mm", "min": 8, "max": 800, "description": "The lens, as the 35 mm equivalent.", "drives": ["lens_and_camera", "composition"]},
+    {"key": "aspect_ratio", "label": "Aspect ratio", "kind": "enum", "options": ["1:1", "4:5", "3:4", "2:3", "16:9", "6:17"], "description": "The frame, as width to height.", "drives": ["composition"]}
   ]
 }

@@ -15,6 +15,7 @@
     "hex": { "type": "string", "pattern": "^#[0-9A-F]{6}$" }
   },
   "properties": {
+    "permutations": { "$ref": "../core.schema.json#/$defs/permutations" },
     "$schema": { "type": "string" },
     "id": { "$ref": "../core.schema.json#/$defs/slug" },
     "domain": { "const": "painting" },

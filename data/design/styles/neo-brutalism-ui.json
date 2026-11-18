@@ -322,6 +322,13 @@
       }
     ]
   },
+  "permutations": {
+    "base_colour": {"options": ["#FFE14D", "#FF5DA2", "#000000"]},
+    "accent_colour": {"options": ["#FF5DA2", "#FFE14D"]},
+    "corner_radius": {"min": 2, "max": 6},
+    "grid_step": {"min": 4, "max": 12},
+    "type_scale_ratio": {"default": 1.5, "min": 1.414, "max": 1.618}
+  },
   "sources": [
     {
       "title": "Neubrutalism UI components, Figma Community (2022)"
