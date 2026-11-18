@@ -174,6 +174,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`impressionism`](../impressionism/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`rococo-painting`](../rococo-painting/SKILL.md), [`romanticism-painting`](../romanticism-painting/SKILL.md)
+- **Was rejected by:** [`symbolism-painting`](../symbolism-painting/SKILL.md)
 - **Kin in another domain:** [`straight-photography`](../straight-photography/SKILL.md)
 - **Nearest by vector profile:** [`rococo-painting`](../rococo-painting/SKILL.md), [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`baroque-painting`](../baroque-painting/SKILL.md)
 
@@ -186,6 +187,7 @@ Honest gravity: the viewer meets real work and real people, with respect and no 
 ## Sources
 
 - [Wikidata Q10857409 (Realism)](https://www.wikidata.org/wiki/Q10857409)
+- [Getty AAT 300056550 (Realism)](https://vocab.getty.edu/page/aat/300056550)
 - [Art Institute of Chicago API (CC0 data)](https://api.artic.edu/docs/)
 - Gustave Courbet, Manifesto of Realism (1855)
 

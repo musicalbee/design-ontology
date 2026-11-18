@@ -171,7 +171,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Mixes well with:** [`impressionism`](../impressionism/SKILL.md)
 - **Kin in another domain:** [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
-- **Nearest by vector profile:** [`rococo-painting`](../rococo-painting/SKILL.md), [`realism-painting`](../realism-painting/SKILL.md), [`mannerism-painting`](../mannerism-painting/SKILL.md)
+- **Nearest by vector profile:** [`rococo-painting`](../rococo-painting/SKILL.md), [`realism-painting`](../realism-painting/SKILL.md), [`symbolism-painting`](../symbolism-painting/SKILL.md)
 
 ## Emotional target
 

@@ -961,6 +961,21 @@
       }
     },
     {
+      "id": "arts-and-crafts-architecture",
+      "domain": "architecture",
+      "name": "Arts and Crafts",
+      "era": "revival-and-academy",
+      "start": 1859,
+      "end": 1914,
+      "vectors": {
+        "ornamentation": 3,
+        "structural_expression": 3,
+        "geometric_rigidity": 2,
+        "material_rawness": 4,
+        "monumentality": 2
+      }
+    },
+    {
       "id": "beaux-arts-architecture",
       "domain": "architecture",
       "name": "Beaux-Arts",
@@ -1003,6 +1018,36 @@
         "geometric_rigidity": 4,
         "material_rawness": 3,
         "monumentality": 2
+      }
+    },
+    {
+      "id": "organic-architecture",
+      "domain": "architecture",
+      "name": "Organic Architecture",
+      "era": "fin-de-siecle",
+      "start": 1905,
+      "end": null,
+      "vectors": {
+        "ornamentation": 3,
+        "structural_expression": 4,
+        "geometric_rigidity": 2,
+        "material_rawness": 4,
+        "monumentality": 2
+      }
+    },
+    {
+      "id": "expressionist-architecture",
+      "domain": "architecture",
+      "name": "Expressionist Architecture",
+      "era": "fin-de-siecle",
+      "start": 1910,
+      "end": 1925,
+      "vectors": {
+        "ornamentation": 3,
+        "structural_expression": 3,
+        "geometric_rigidity": 1,
+        "material_rawness": 4,
+        "monumentality": 4
       }
     },
     {
@@ -1096,6 +1141,21 @@
       }
     },
     {
+      "id": "adaptive-reuse-architecture",
+      "domain": "architecture",
+      "name": "Adaptive Reuse",
+      "era": "modern-movement",
+      "start": 1964,
+      "end": null,
+      "vectors": {
+        "ornamentation": 2,
+        "structural_expression": 4,
+        "geometric_rigidity": 3,
+        "material_rawness": 5,
+        "monumentality": 4
+      }
+    },
+    {
       "id": "postmodern-architecture",
       "domain": "architecture",
       "name": "Postmodernism",
@@ -1126,6 +1186,21 @@
       }
     },
     {
+      "id": "critical-regionalism-architecture",
+      "domain": "architecture",
+      "name": "Critical Regionalism",
+      "era": "postmodern-and-after",
+      "start": 1981,
+      "end": null,
+      "vectors": {
+        "ornamentation": 2,
+        "structural_expression": 4,
+        "geometric_rigidity": 4,
+        "material_rawness": 4,
+        "monumentality": 3
+      }
+    },
+    {
       "id": "deconstructivist-architecture",
       "domain": "architecture",
       "name": "Deconstructivism",
@@ -1137,6 +1212,21 @@
         "structural_expression": 3,
         "geometric_rigidity": 1,
         "material_rawness": 3,
+        "monumentality": 3
+      }
+    },
+    {
+      "id": "mass-timber-architecture",
+      "domain": "architecture",
+      "name": "Mass Timber",
+      "era": "postmodern-and-after",
+      "start": 1995,
+      "end": null,
+      "vectors": {
+        "ornamentation": 1,
+        "structural_expression": 5,
+        "geometric_rigidity": 4,
+        "material_rawness": 4,
         "monumentality": 3
       }
     },
@@ -2221,6 +2311,51 @@
       }
     },
     {
+      "id": "post-impressionism",
+      "domain": "painting",
+      "name": "Post-Impressionism",
+      "era": "nineteenth-century",
+      "start": 1886,
+      "end": 1905,
+      "vectors": {
+        "abstraction": 2,
+        "brushwork_visibility": 5,
+        "chromatic_intensity": 4,
+        "depth_illusion": 2,
+        "line_dominance": 3
+      }
+    },
+    {
+      "id": "symbolism-painting",
+      "domain": "painting",
+      "name": "Symbolism",
+      "era": "nineteenth-century",
+      "start": 1886,
+      "end": 1910,
+      "vectors": {
+        "abstraction": 3,
+        "brushwork_visibility": 2,
+        "chromatic_intensity": 3,
+        "depth_illusion": 2,
+        "line_dominance": 4
+      }
+    },
+    {
+      "id": "expressionism-painting",
+      "domain": "painting",
+      "name": "Expressionism",
+      "era": "avant-garde",
+      "start": 1905,
+      "end": 1925,
+      "vectors": {
+        "abstraction": 3,
+        "brushwork_visibility": 5,
+        "chromatic_intensity": 5,
+        "depth_illusion": 2,
+        "line_dominance": 4
+      }
+    },
+    {
       "id": "fauvism",
       "domain": "painting",
       "name": "Fauvism",
@@ -2248,6 +2383,36 @@
         "chromatic_intensity": 2,
         "depth_illusion": 2,
         "line_dominance": 4
+      }
+    },
+    {
+      "id": "futurism-painting",
+      "domain": "painting",
+      "name": "Futurism",
+      "era": "avant-garde",
+      "start": 1909,
+      "end": 1918,
+      "vectors": {
+        "abstraction": 3,
+        "brushwork_visibility": 3,
+        "chromatic_intensity": 4,
+        "depth_illusion": 2,
+        "line_dominance": 5
+      }
+    },
+    {
+      "id": "suprematism",
+      "domain": "painting",
+      "name": "Suprematism",
+      "era": "avant-garde",
+      "start": 1915,
+      "end": 1935,
+      "vectors": {
+        "abstraction": 5,
+        "brushwork_visibility": 1,
+        "chromatic_intensity": 3,
+        "depth_illusion": 1,
+        "line_dominance": 3
       }
     },
     {
@@ -2296,6 +2461,21 @@
       }
     },
     {
+      "id": "colour-field-painting",
+      "domain": "painting",
+      "name": "Colour Field Painting",
+      "era": "avant-garde",
+      "start": 1948,
+      "end": 1975,
+      "vectors": {
+        "abstraction": 5,
+        "brushwork_visibility": 2,
+        "chromatic_intensity": 5,
+        "depth_illusion": 1,
+        "line_dominance": 1
+      }
+    },
+    {
       "id": "pop-art-painting",
       "domain": "painting",
       "name": "Pop Art",
@@ -2308,6 +2488,36 @@
         "chromatic_intensity": 5,
         "depth_illusion": 1,
         "line_dominance": 4
+      }
+    },
+    {
+      "id": "minimalism-painting",
+      "domain": "painting",
+      "name": "Minimalism",
+      "era": "avant-garde",
+      "start": 1959,
+      "end": 1975,
+      "vectors": {
+        "abstraction": 5,
+        "brushwork_visibility": 1,
+        "chromatic_intensity": 2,
+        "depth_illusion": 1,
+        "line_dominance": 4
+      }
+    },
+    {
+      "id": "photorealism",
+      "domain": "painting",
+      "name": "Photorealism",
+      "era": "avant-garde",
+      "start": 1966,
+      "end": 1980,
+      "vectors": {
+        "abstraction": 1,
+        "brushwork_visibility": 1,
+        "chromatic_intensity": 3,
+        "depth_illusion": 4,
+        "line_dominance": 2
       }
     },
     {
@@ -2330,6 +2540,11 @@
     {
       "from": "abstract-expressionism",
       "to": "brutalist-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "adaptive-reuse-architecture",
+      "to": "industrial-loft-interior",
       "type": "ECHOES"
     },
     {
@@ -2428,8 +2643,23 @@
       "type": "ECHOES"
     },
     {
+      "from": "art-nouveau-architecture",
+      "to": "symbolism-painting",
+      "type": "ECHOES"
+    },
+    {
       "from": "art-nouveau-interior",
       "to": "art-nouveau-web",
+      "type": "ECHOES"
+    },
+    {
+      "from": "art-nouveau-web",
+      "to": "symbolism-painting",
+      "type": "ECHOES"
+    },
+    {
+      "from": "arts-and-crafts-architecture",
+      "to": "arts-and-crafts-interior",
       "type": "ECHOES"
     },
     {
@@ -2579,7 +2809,17 @@
     },
     {
       "from": "constructivism-web",
+      "to": "futurism-painting",
+      "type": "ECHOES"
+    },
+    {
+      "from": "constructivism-web",
       "to": "soviet-montage",
+      "type": "ECHOES"
+    },
+    {
+      "from": "constructivism-web",
+      "to": "suprematism",
       "type": "ECHOES"
     },
     {
@@ -2663,6 +2903,16 @@
       "type": "ECHOES"
     },
     {
+      "from": "expressionism-painting",
+      "to": "german-expressionist-cinema",
+      "type": "ECHOES"
+    },
+    {
+      "from": "expressionist-architecture",
+      "to": "german-expressionist-cinema",
+      "type": "ECHOES"
+    },
+    {
       "from": "fashion-editorial",
       "to": "grunge-editorial",
       "type": "ECHOES"
@@ -2710,6 +2960,11 @@
     {
       "from": "french-new-wave",
       "to": "street-photography",
+      "type": "ECHOES"
+    },
+    {
+      "from": "futurism-painting",
+      "to": "soviet-montage",
       "type": "ECHOES"
     },
     {
@@ -2804,6 +3059,11 @@
     },
     {
       "from": "japandi-interior",
+      "to": "minimalism-painting",
+      "type": "ECHOES"
+    },
+    {
+      "from": "japandi-interior",
       "to": "scandinavian-interior-photography",
       "type": "ECHOES"
     },
@@ -2825,6 +3085,11 @@
     {
       "from": "luxury-typography-web",
       "to": "quiet-luxury-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "mass-timber-architecture",
+      "to": "scandinavian-interior",
       "type": "ECHOES"
     },
     {
@@ -2878,6 +3143,16 @@
       "type": "ECHOES"
     },
     {
+      "from": "minimalism-painting",
+      "to": "rams-functionalism-ui",
+      "type": "ECHOES"
+    },
+    {
+      "from": "minimalism-painting",
+      "to": "swiss-international",
+      "type": "ECHOES"
+    },
+    {
       "from": "minimalism-web",
       "to": "minimalist-interior",
       "type": "ECHOES"
@@ -2904,6 +3179,11 @@
     },
     {
       "from": "new-topographics",
+      "to": "photorealism",
+      "type": "ECHOES"
+    },
+    {
+      "from": "new-topographics",
       "to": "planimetric-symmetry",
       "type": "ECHOES"
     },
@@ -2919,6 +3199,11 @@
     },
     {
       "from": "nordic-national-romanticism-painting",
+      "to": "scandinavian-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "organic-architecture",
       "to": "scandinavian-interior",
       "type": "ECHOES"
     },
@@ -3028,6 +3313,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "arts-and-crafts-architecture",
+      "to": "gothic-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "arts-and-crafts-interior",
       "to": "shaker-interior",
       "type": "EVOLVED_FROM"
@@ -3103,6 +3393,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "colour-field-painting",
+      "to": "abstract-expressionism",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "corporate-memphis",
       "to": "flat-design",
       "type": "EVOLVED_FROM"
@@ -3110,6 +3405,11 @@
     {
       "from": "corporate-memphis",
       "to": "memphis-design",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "critical-regionalism-architecture",
+      "to": "nordic-modernism-architecture",
       "type": "EVOLVED_FROM"
     },
     {
@@ -3178,6 +3478,16 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "expressionism-painting",
+      "to": "post-impressionism",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "expressionist-architecture",
+      "to": "art-nouveau-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "fashion-editorial",
       "to": "pictorialism",
       "type": "EVOLVED_FROM"
@@ -3240,6 +3550,11 @@
     {
       "from": "frutiger-aero",
       "to": "y2k-aesthetic",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "futurism-painting",
+      "to": "cubism-painting",
       "type": "EVOLVED_FROM"
     },
     {
@@ -3368,6 +3683,16 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "minimalism-painting",
+      "to": "de-stijl-painting",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "minimalism-painting",
+      "to": "suprematism",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "minimalism-web",
       "to": "flat-design",
       "type": "EVOLVED_FROM"
@@ -3438,6 +3763,16 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "organic-architecture",
+      "to": "art-nouveau-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "organic-architecture",
+      "to": "prairie-school-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "parametricism-architecture",
       "to": "deconstructivist-architecture",
       "type": "EVOLVED_FROM"
@@ -3458,6 +3793,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "photorealism",
+      "to": "pop-art-painting",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "pixel-art-web",
       "to": "y2k-aesthetic",
       "type": "EVOLVED_FROM"
@@ -3470,6 +3810,11 @@
     {
       "from": "pop-art-web",
       "to": "mid-century-modern",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "post-impressionism",
+      "to": "impressionism",
       "type": "EVOLVED_FROM"
     },
     {
@@ -3530,6 +3875,16 @@
     {
       "from": "street-photography",
       "to": "straight-photography",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "suprematism",
+      "to": "cubism-painting",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "suprematism",
+      "to": "futurism-painting",
       "type": "EVOLVED_FROM"
     },
     {
@@ -4088,6 +4443,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "adaptive-reuse-architecture",
+      "to": "international-style-architecture",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "anti-design",
       "to": "flat-design",
       "type": "REBELLED_AGAINST"
@@ -4115,6 +4475,11 @@
     {
       "from": "art-nouveau-interior",
       "to": "victorian-interior",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "arts-and-crafts-architecture",
+      "to": "neoclassical-architecture",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -4150,6 +4515,16 @@
     {
       "from": "constructivism-web",
       "to": "art-nouveau-web",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "critical-regionalism-architecture",
+      "to": "international-style-architecture",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "critical-regionalism-architecture",
+      "to": "postmodern-architecture",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -4228,6 +4603,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "expressionist-architecture",
+      "to": "beaux-arts-architecture",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "fashion-editorial",
       "to": "new-objectivity",
       "type": "REBELLED_AGAINST"
@@ -4288,6 +4668,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "mass-timber-architecture",
+      "to": "brutalist-architecture",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "memphis-design",
       "to": "swiss-international",
       "type": "REBELLED_AGAINST"
@@ -4310,6 +4695,11 @@
     {
       "from": "metro-ui",
       "to": "skeuomorphism",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "minimalism-painting",
+      "to": "abstract-expressionism",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -4375,6 +4765,11 @@
     {
       "from": "parametricism-architecture",
       "to": "international-style-architecture",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "photorealism",
+      "to": "abstract-expressionism",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -4460,6 +4855,11 @@
     {
       "from": "surrealism-web",
       "to": "flat-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "symbolism-painting",
+      "to": "realism-painting",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -5214,7 +5614,8 @@
       ],
       "echoes": [
         "art-nouveau-architecture",
-        "art-nouveau-interior"
+        "art-nouveau-interior",
+        "symbolism-painting"
       ],
       "nearest_by_vector": [
         {
@@ -5316,7 +5717,9 @@
       "echoes": [
         "brutalist-architecture",
         "cubism-painting",
-        "soviet-montage"
+        "futurism-painting",
+        "soviet-montage",
+        "suprematism"
       ],
       "nearest_by_vector": [
         {
@@ -5442,6 +5845,7 @@
       "echoes": [
         "de-stijl-painting",
         "international-style-architecture",
+        "minimalism-painting",
         "straight-photography"
       ],
       "nearest_by_vector": [
@@ -5506,6 +5910,7 @@
       ],
       "echoes": [
         "international-style-architecture",
+        "minimalism-painting",
         "minimalist-interior"
       ],
       "nearest_by_vector": [
@@ -7034,7 +7439,9 @@
     },
     "gothic-architecture": {
       "evolved_from": [],
-      "evolved_into": [],
+      "evolved_into": [
+        "arts-and-crafts-architecture"
+      ],
       "rebelled_against": [],
       "provoked": [
         "renaissance-architecture"
@@ -7043,16 +7450,16 @@
       "echoes": [],
       "nearest_by_vector": [
         {
-          "id": "brutalist-architecture",
-          "distance": 3.74
+          "id": "adaptive-reuse-architecture",
+          "distance": 3.16
         },
         {
-          "id": "art-deco-architecture",
-          "distance": 3.87
+          "id": "critical-regionalism-architecture",
+          "distance": 3.32
         },
         {
-          "id": "baroque-architecture",
-          "distance": 3.87
+          "id": "expressionist-architecture",
+          "distance": 3.32
         }
       ],
       "techniques": []
@@ -7125,7 +7532,9 @@
       "rebelled_against": [
         "baroque-architecture"
       ],
-      "provoked": [],
+      "provoked": [
+        "arts-and-crafts-architecture"
+      ],
       "hybridized_with": [],
       "echoes": [],
       "nearest_by_vector": [
@@ -7144,6 +7553,35 @@
       ],
       "techniques": []
     },
+    "arts-and-crafts-architecture": {
+      "evolved_from": [
+        "gothic-architecture"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "neoclassical-architecture"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "arts-and-crafts-interior"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "organic-architecture",
+          "distance": 1
+        },
+        {
+          "id": "nordic-modernism-architecture",
+          "distance": 1.41
+        },
+        {
+          "id": "deconstructivist-architecture",
+          "distance": 2
+        }
+      ],
+      "techniques": []
+    },
     "beaux-arts-architecture": {
       "evolved_from": [
         "baroque-architecture",
@@ -7151,7 +7589,9 @@
       ],
       "evolved_into": [],
       "rebelled_against": [],
-      "provoked": [],
+      "provoked": [
+        "expressionist-architecture"
+      ],
       "hybridized_with": [],
       "echoes": [],
       "nearest_by_vector": [
@@ -7173,7 +7613,9 @@
     "art-nouveau-architecture": {
       "evolved_from": [],
       "evolved_into": [
-        "art-deco-architecture"
+        "art-deco-architecture",
+        "expressionist-architecture",
+        "organic-architecture"
       ],
       "rebelled_against": [],
       "provoked": [],
@@ -7181,20 +7623,21 @@
       "echoes": [
         "art-nouveau-interior",
         "art-nouveau-web",
-        "rococo-painting"
+        "rococo-painting",
+        "symbolism-painting"
       ],
       "nearest_by_vector": [
         {
-          "id": "parametricism-architecture",
+          "id": "arts-and-crafts-architecture",
+          "distance": 3
+        },
+        {
+          "id": "organic-architecture",
           "distance": 3.16
         },
         {
-          "id": "deconstructivist-architecture",
-          "distance": 3.32
-        },
-        {
-          "id": "nordic-modernism-architecture",
-          "distance": 3.32
+          "id": "parametricism-architecture",
+          "distance": 3.16
         }
       ],
       "techniques": []
@@ -7202,7 +7645,8 @@
     "prairie-school-architecture": {
       "evolved_from": [],
       "evolved_into": [
-        "mid-century-modern-architecture"
+        "mid-century-modern-architecture",
+        "organic-architecture"
       ],
       "rebelled_against": [],
       "provoked": [],
@@ -7213,16 +7657,73 @@
       ],
       "nearest_by_vector": [
         {
+          "id": "critical-regionalism-architecture",
+          "distance": 2
+        },
+        {
+          "id": "arts-and-crafts-architecture",
+          "distance": 2.24
+        },
+        {
           "id": "mid-century-modern-architecture",
           "distance": 2.24
+        }
+      ],
+      "techniques": []
+    },
+    "organic-architecture": {
+      "evolved_from": [
+        "art-nouveau-architecture",
+        "prairie-school-architecture"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "scandinavian-interior"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "arts-and-crafts-architecture",
+          "distance": 1
         },
         {
           "id": "nordic-modernism-architecture",
+          "distance": 1.73
+        },
+        {
+          "id": "deconstructivist-architecture",
+          "distance": 2.24
+        }
+      ],
+      "techniques": []
+    },
+    "expressionist-architecture": {
+      "evolved_from": [
+        "art-nouveau-architecture"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "beaux-arts-architecture"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "german-expressionist-cinema"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "deconstructivist-architecture",
+          "distance": 1.73
+        },
+        {
+          "id": "arts-and-crafts-architecture",
           "distance": 2.24
         },
         {
-          "id": "bauhaus-architecture",
-          "distance": 2.65
+          "id": "organic-architecture",
+          "distance": 2.45
         }
       ],
       "techniques": []
@@ -7301,6 +7802,8 @@
       ],
       "rebelled_against": [],
       "provoked": [
+        "adaptive-reuse-architecture",
+        "critical-regionalism-architecture",
         "deconstructivist-architecture",
         "parametricism-architecture",
         "postmodern-architecture"
@@ -7343,7 +7846,9 @@
       "evolved_from": [
         "international-style-architecture"
       ],
-      "evolved_into": [],
+      "evolved_into": [
+        "critical-regionalism-architecture"
+      ],
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [],
@@ -7352,16 +7857,16 @@
       ],
       "nearest_by_vector": [
         {
+          "id": "arts-and-crafts-architecture",
+          "distance": 1.41
+        },
+        {
           "id": "deconstructivist-architecture",
           "distance": 1.41
         },
         {
-          "id": "prairie-school-architecture",
-          "distance": 2.24
-        },
-        {
-          "id": "mid-century-modern-architecture",
-          "distance": 2.45
+          "id": "organic-architecture",
+          "distance": 1.73
         }
       ],
       "techniques": []
@@ -7406,6 +7911,7 @@
       "evolved_into": [],
       "rebelled_against": [],
       "provoked": [
+        "mass-timber-architecture",
         "postmodern-architecture"
       ],
       "hybridized_with": [],
@@ -7422,16 +7928,43 @@
       ],
       "nearest_by_vector": [
         {
-          "id": "high-tech-architecture",
-          "distance": 3.61
+          "id": "adaptive-reuse-architecture",
+          "distance": 2
         },
         {
-          "id": "gothic-architecture",
-          "distance": 3.74
+          "id": "mass-timber-architecture",
+          "distance": 2.24
         },
         {
-          "id": "international-style-architecture",
-          "distance": 4.24
+          "id": "critical-regionalism-architecture",
+          "distance": 2.65
+        }
+      ],
+      "techniques": []
+    },
+    "adaptive-reuse-architecture": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "international-style-architecture"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "industrial-loft-interior"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "critical-regionalism-architecture",
+          "distance": 1.73
+        },
+        {
+          "id": "brutalist-architecture",
+          "distance": 2
+        },
+        {
+          "id": "mass-timber-architecture",
+          "distance": 2.24
         }
       ],
       "techniques": []
@@ -7444,6 +7977,7 @@
         "international-style-architecture"
       ],
       "provoked": [
+        "critical-regionalism-architecture",
         "deconstructivist-architecture"
       ],
       "hybridized_with": [],
@@ -7490,12 +8024,40 @@
           "distance": 1.73
         },
         {
-          "id": "international-style-architecture",
-          "distance": 2.24
+          "id": "mass-timber-architecture",
+          "distance": 2
         },
         {
-          "id": "mid-century-modern-architecture",
-          "distance": 3
+          "id": "international-style-architecture",
+          "distance": 2.24
+        }
+      ],
+      "techniques": []
+    },
+    "critical-regionalism-architecture": {
+      "evolved_from": [
+        "nordic-modernism-architecture"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "international-style-architecture",
+        "postmodern-architecture"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "mass-timber-architecture",
+          "distance": 1.41
+        },
+        {
+          "id": "adaptive-reuse-architecture",
+          "distance": 1.73
+        },
+        {
+          "id": "prairie-school-architecture",
+          "distance": 2
         }
       ],
       "techniques": []
@@ -7524,12 +8086,39 @@
           "distance": 1.41
         },
         {
-          "id": "parametricism-architecture",
-          "distance": 2.65
+          "id": "expressionist-architecture",
+          "distance": 1.73
         },
         {
-          "id": "art-nouveau-architecture",
-          "distance": 3.32
+          "id": "arts-and-crafts-architecture",
+          "distance": 2
+        }
+      ],
+      "techniques": []
+    },
+    "mass-timber-architecture": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "brutalist-architecture"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "scandinavian-interior"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "critical-regionalism-architecture",
+          "distance": 1.41
+        },
+        {
+          "id": "high-tech-architecture",
+          "distance": 2
+        },
+        {
+          "id": "adaptive-reuse-architecture",
+          "distance": 2.24
         }
       ],
       "techniques": []
@@ -7664,6 +8253,7 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
+        "arts-and-crafts-architecture",
         "nordic-national-romanticism-painting"
       ],
       "nearest_by_vector": [
@@ -7865,8 +8455,10 @@
         "mid-century-modern-interior"
       ],
       "echoes": [
+        "mass-timber-architecture",
         "nordic-modernism-architecture",
         "nordic-national-romanticism-painting",
+        "organic-architecture",
         "scandinavian-interior-photography"
       ],
       "nearest_by_vector": [
@@ -7894,6 +8486,7 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
+        "adaptive-reuse-architecture",
         "brutalist-architecture",
         "high-tech-architecture",
         "new-topographics"
@@ -7997,6 +8590,7 @@
       ],
       "hybridized_with": [],
       "echoes": [
+        "minimalism-painting",
         "scandinavian-interior-photography",
         "ukiyo-e",
         "wabi-sabi-web"
@@ -8413,6 +9007,7 @@
         "brutalist-architecture",
         "industrial-loft-interior",
         "international-style-architecture",
+        "photorealism",
         "planimetric-symmetry",
         "slow-cinema"
       ],
@@ -8796,6 +9391,8 @@
       "hybridized_with": [],
       "echoes": [
         "baroque-painting",
+        "expressionism-painting",
+        "expressionist-architecture",
         "film-noir-still",
         "new-objectivity"
       ],
@@ -8827,7 +9424,8 @@
       ],
       "hybridized_with": [],
       "echoes": [
-        "constructivism-web"
+        "constructivism-web",
+        "futurism-painting"
       ],
       "nearest_by_vector": [
         {
@@ -9544,12 +10142,12 @@
           "distance": 1.41
         },
         {
-          "id": "mannerism-painting",
-          "distance": 2.45
+          "id": "photorealism",
+          "distance": 2.24
         },
         {
-          "id": "baroque-painting",
-          "distance": 3
+          "id": "mannerism-painting",
+          "distance": 2.45
         }
       ],
       "techniques": [
@@ -9572,12 +10170,12 @@
           "distance": 1.73
         },
         {
-          "id": "pop-art-painting",
-          "distance": 2.24
+          "id": "symbolism-painting",
+          "distance": 2
         },
         {
-          "id": "airbrush-surrealism",
-          "distance": 2.45
+          "id": "pop-art-painting",
+          "distance": 2.24
         }
       ],
       "techniques": []
@@ -9608,7 +10206,7 @@
           "distance": 2.24
         },
         {
-          "id": "romanticism-painting",
+          "id": "photorealism",
           "distance": 2.45
         }
       ],
@@ -9633,12 +10231,12 @@
           "distance": 1.73
         },
         {
-          "id": "pop-art-painting",
-          "distance": 2.45
+          "id": "symbolism-painting",
+          "distance": 1.73
         },
         {
-          "id": "nordic-national-romanticism-painting",
-          "distance": 3
+          "id": "futurism-painting",
+          "distance": 2.45
         }
       ],
       "techniques": []
@@ -9709,7 +10307,9 @@
         "rococo-painting",
         "romanticism-painting"
       ],
-      "provoked": [],
+      "provoked": [
+        "symbolism-painting"
+      ],
       "hybridized_with": [],
       "echoes": [
         "straight-photography"
@@ -9735,7 +10335,8 @@
         "realism-painting"
       ],
       "evolved_into": [
-        "pointillism"
+        "pointillism",
+        "post-impressionism"
       ],
       "rebelled_against": [],
       "provoked": [
@@ -9756,12 +10357,12 @@
           "distance": 1
         },
         {
-          "id": "romanticism-painting",
-          "distance": 2.45
+          "id": "post-impressionism",
+          "distance": 2.24
         },
         {
-          "id": "fauvism",
-          "distance": 2.83
+          "id": "romanticism-painting",
+          "distance": 2.45
         }
       ],
       "techniques": []
@@ -9788,8 +10389,8 @@
           "distance": 1.73
         },
         {
-          "id": "mannerism-painting",
-          "distance": 2.45
+          "id": "symbolism-painting",
+          "distance": 2
         }
       ],
       "techniques": []
@@ -9811,12 +10412,94 @@
           "distance": 1
         },
         {
-          "id": "fauvism",
-          "distance": 2.65
+          "id": "post-impressionism",
+          "distance": 2.45
         },
         {
-          "id": "romanticism-painting",
+          "id": "fauvism",
           "distance": 2.65
+        }
+      ],
+      "techniques": []
+    },
+    "post-impressionism": {
+      "evolved_from": [
+        "impressionism"
+      ],
+      "evolved_into": [
+        "expressionism-painting"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "expressionism-painting",
+          "distance": 1.73
+        },
+        {
+          "id": "fauvism",
+          "distance": 1.73
+        },
+        {
+          "id": "impressionism",
+          "distance": 2.24
+        }
+      ],
+      "techniques": []
+    },
+    "symbolism-painting": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "realism-painting"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "art-nouveau-architecture",
+        "art-nouveau-web"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "cubism-painting",
+          "distance": 1.73
+        },
+        {
+          "id": "futurism-painting",
+          "distance": 1.73
+        },
+        {
+          "id": "ukiyo-e",
+          "distance": 1.73
+        }
+      ],
+      "techniques": []
+    },
+    "expressionism-painting": {
+      "evolved_from": [
+        "post-impressionism"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "german-expressionist-cinema"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "fauvism",
+          "distance": 1.41
+        },
+        {
+          "id": "post-impressionism",
+          "distance": 1.73
+        },
+        {
+          "id": "futurism-painting",
+          "distance": 2.45
         }
       ],
       "techniques": []
@@ -9834,16 +10517,16 @@
       ],
       "nearest_by_vector": [
         {
-          "id": "nordic-national-romanticism-painting",
-          "distance": 2.65
+          "id": "expressionism-painting",
+          "distance": 1.41
         },
         {
-          "id": "pointillism",
-          "distance": 2.65
+          "id": "post-impressionism",
+          "distance": 1.73
         },
         {
-          "id": "impressionism",
-          "distance": 2.83
+          "id": "futurism-painting",
+          "distance": 2.45
         }
       ],
       "techniques": []
@@ -9852,7 +10535,9 @@
       "evolved_from": [],
       "evolved_into": [
         "abstract-expressionism",
-        "de-stijl-painting"
+        "de-stijl-painting",
+        "futurism-painting",
+        "suprematism"
       ],
       "rebelled_against": [
         "impressionism",
@@ -9866,16 +10551,76 @@
       ],
       "nearest_by_vector": [
         {
-          "id": "nordic-national-romanticism-painting",
+          "id": "symbolism-painting",
+          "distance": 1.73
+        },
+        {
+          "id": "futurism-painting",
+          "distance": 2.45
+        },
+        {
+          "id": "minimalism-painting",
+          "distance": 2.45
+        }
+      ],
+      "techniques": []
+    },
+    "futurism-painting": {
+      "evolved_from": [
+        "cubism-painting"
+      ],
+      "evolved_into": [
+        "suprematism"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "constructivism-web",
+        "soviet-montage"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "symbolism-painting",
+          "distance": 1.73
+        },
+        {
+          "id": "cubism-painting",
+          "distance": 2.45
+        },
+        {
+          "id": "expressionism-painting",
+          "distance": 2.45
+        }
+      ],
+      "techniques": []
+    },
+    "suprematism": {
+      "evolved_from": [
+        "cubism-painting",
+        "futurism-painting"
+      ],
+      "evolved_into": [
+        "minimalism-painting"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "constructivism-web"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "minimalism-painting",
+          "distance": 1.41
+        },
+        {
+          "id": "de-stijl-painting",
+          "distance": 2.24
+        },
+        {
+          "id": "symbolism-painting",
           "distance": 2.65
-        },
-        {
-          "id": "abstract-expressionism",
-          "distance": 3.16
-        },
-        {
-          "id": "ukiyo-e",
-          "distance": 3.16
         }
       ],
       "techniques": []
@@ -9884,7 +10629,9 @@
       "evolved_from": [
         "cubism-painting"
       ],
-      "evolved_into": [],
+      "evolved_into": [
+        "minimalism-painting"
+      ],
       "rebelled_against": [],
       "provoked": [
         "abstract-expressionism"
@@ -9900,16 +10647,16 @@
       ],
       "nearest_by_vector": [
         {
-          "id": "cubism-painting",
-          "distance": 3.32
+          "id": "minimalism-painting",
+          "distance": 2.24
         },
         {
-          "id": "pop-art-painting",
-          "distance": 3.32
+          "id": "suprematism",
+          "distance": 2.24
         },
         {
-          "id": "ukiyo-e",
-          "distance": 3.32
+          "id": "symbolism-painting",
+          "distance": 2.83
         }
       ],
       "techniques": []
@@ -9932,11 +10679,11 @@
           "distance": 1.41
         },
         {
-          "id": "airbrush-surrealism",
-          "distance": 2.45
+          "id": "photorealism",
+          "distance": 1.73
         },
         {
-          "id": "mannerism-painting",
+          "id": "airbrush-surrealism",
           "distance": 2.45
         }
       ],
@@ -9947,11 +10694,15 @@
         "cubism-painting",
         "surrealism-painting"
       ],
-      "evolved_into": [],
+      "evolved_into": [
+        "colour-field-painting"
+      ],
       "rebelled_against": [
         "de-stijl-painting"
       ],
       "provoked": [
+        "minimalism-painting",
+        "photorealism",
         "pop-art-painting"
       ],
       "hybridized_with": [],
@@ -9968,15 +10719,42 @@
           "distance": 3.16
         },
         {
-          "id": "impressionism",
-          "distance": 3.46
+          "id": "post-impressionism",
+          "distance": 3.32
+        }
+      ],
+      "techniques": []
+    },
+    "colour-field-painting": {
+      "evolved_from": [
+        "abstract-expressionism"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "suprematism",
+          "distance": 3
+        },
+        {
+          "id": "fauvism",
+          "distance": 3.61
+        },
+        {
+          "id": "abstract-expressionism",
+          "distance": 3.87
         }
       ],
       "techniques": []
     },
     "pop-art-painting": {
       "evolved_from": [],
-      "evolved_into": [],
+      "evolved_into": [
+        "photorealism"
+      ],
       "rebelled_against": [
         "abstract-expressionism"
       ],
@@ -9996,8 +10774,69 @@
           "distance": 2.45
         },
         {
+          "id": "symbolism-painting",
+          "distance": 2.65
+        }
+      ],
+      "techniques": []
+    },
+    "minimalism-painting": {
+      "evolved_from": [
+        "de-stijl-painting",
+        "suprematism"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "abstract-expressionism"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "japandi-interior",
+        "rams-functionalism-ui",
+        "swiss-international"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "suprematism",
+          "distance": 1.41
+        },
+        {
           "id": "de-stijl-painting",
-          "distance": 3.32
+          "distance": 2.24
+        },
+        {
+          "id": "cubism-painting",
+          "distance": 2.45
+        }
+      ],
+      "techniques": []
+    },
+    "photorealism": {
+      "evolved_from": [
+        "pop-art-painting"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "abstract-expressionism"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "new-topographics"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "surrealism-painting",
+          "distance": 1.73
+        },
+        {
+          "id": "airbrush-surrealism",
+          "distance": 2.24
+        },
+        {
+          "id": "renaissance-painting",
+          "distance": 2.24
         }
       ],
       "techniques": []
@@ -10016,16 +10855,16 @@
       ],
       "nearest_by_vector": [
         {
+          "id": "photorealism",
+          "distance": 2.24
+        },
+        {
           "id": "mannerism-painting",
           "distance": 2.45
         },
         {
           "id": "surrealism-painting",
           "distance": 2.45
-        },
-        {
-          "id": "nordic-national-romanticism-painting",
-          "distance": 3.16
         }
       ],
       "techniques": [

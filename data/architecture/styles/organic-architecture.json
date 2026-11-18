@@ -1,0 +1,289 @@
+{
+  "$schema": "../../../schema/domains/architecture.schema.json",
+  "id": "organic-architecture",
+  "domain": "architecture",
+  "name": "Organic Architecture",
+  "aliases": [
+    "Organic design",
+    "Wrightian organic",
+    "Usonian organic"
+  ],
+  "era_id": "fin-de-siecle",
+  "time_period": {
+    "start": 1905,
+    "end": null,
+    "label": "1905–present"
+  },
+  "building_types": [
+    "residential",
+    "cultural",
+    "landscape",
+    "religious"
+  ],
+  "summary": "A building grows from its site like a plant. Wright, Aalto and Goff set the plan, the structure and the material in one flowing whole that opens to the land, with no fixed façade or box.",
+  "philosophy": {
+    "core_thesis": "A building should grow from its site and its use as a living form: the whole and the parts belong together, and the plan flows with the land.",
+    "design_principles": [
+      "Fit the building to the site: set the floor levels to the slope and let rocks, trees and water keep their place.",
+      "Plan as a continuous flow with few doors, and open each room to 2 or more sides of the landscape.",
+      "Use the cantilever, the curve and the spiral, in spans of 3 to 6m, to make the structure and the form one thing.",
+      "Use few materials, 3 or 4, left in their natural state, and run them from the inside to the outside.",
+      "Compress the entry to 2.0 to 2.3m, then release it into a space of 3.5 to 5m.",
+      "Design the built-in furniture, the light and the garden as parts of the same form."
+    ],
+    "anti_patterns": [
+      "A closed box set on a levelled site",
+      "Applied historical ornament",
+      "A rigid orthogonal grid that ignores the site",
+      "Glossy synthetic surfaces and painted-over materials",
+      "Rooms cut off by corridors and doors",
+      "A building that dominates the landscape"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "structural_expression": 4,
+    "geometric_rigidity": 2,
+    "material_rawness": 4,
+    "monumentality": 2
+  },
+  "massing": {
+    "form": "Interlocking horizontal and curved volumes that step down the site and reach out in terraces and cantilevers.",
+    "proportion": "Low and wide: 3 to 6 times longer than high, with the main living room open to the view.",
+    "roof": "Flat or gently sloping roof planes with deep cantilevers of 2 to 5m, or a roof that follows the hill.",
+    "relation_to_ground": "Anchored to the ground: a rock outcrop, a stone chimney or a terrace ties the house to the land."
+  },
+  "structure": {
+    "system": "Masonry, reinforced concrete and timber; cantilevered slabs and stone piers tie the house to the site.",
+    "span_and_module": "Cantilevers of 3 to 6m; a planning grid of 1.0 to 1.2m; slab depth of 0.15 to 0.25m.",
+    "expression": "The cantilever, the stone pier and the curve of the plan state the structure and the form together."
+  },
+  "materials": {
+    "primary": [
+      "local stone",
+      "reinforced concrete",
+      "timber",
+      "brick"
+    ],
+    "secondary": [
+      "copper",
+      "glass",
+      "cork",
+      "leather"
+    ],
+    "finish": "Natural and unpainted: rough stone, board-formed concrete and stained timber, left to age.",
+    "palette": [
+      {
+        "name": "Quarry stone",
+        "hex": "#A39B88",
+        "role": "walls and piers"
+      },
+      {
+        "name": "Cherokee red",
+        "hex": "#9B3B22",
+        "role": "accent and steel"
+      },
+      {
+        "name": "Stained cypress",
+        "hex": "#6C4A2F",
+        "role": "timber and joinery"
+      },
+      {
+        "name": "Moss green",
+        "hex": "#667B45",
+        "role": "planting"
+      },
+      {
+        "name": "Warm concrete",
+        "hex": "#C9C0AE",
+        "role": "slabs and terraces"
+      }
+    ]
+  },
+  "facade": {
+    "composition": "A layered front of terraces, parapets and glass: horizontal slabs and stone piers, with no single flat wall.",
+    "openings": "Corner windows, glass walls and clerestories; the window-to-wall ratio is 30 to 60%.",
+    "solid_to_void": "Balanced and open: 40–65% solid."
+  },
+  "light_and_space": {
+    "daylight": "Light enters from several sides, low under the eaves and high through clerestories, and the garden extends into the room.",
+    "spatial_sequence": "A compressed entry gives way to a flowing living space, with a hearth or a water view as the end of the sequence.",
+    "interior_character": "A free plan with a ceiling of 2.4 to 3.6m, built-in seats and shelves, a stone hearth and natural materials."
+  },
+  "ornament": {
+    "attitude": "Ornament is structural and natural: the grain, the stone course and the patterned block carry it, and no applied motif.",
+    "details": [
+      "patterned textile block",
+      "built-in furniture",
+      "stone hearth",
+      "planters and terraces",
+      "spiral ramps",
+      "natural timber grain"
+    ]
+  },
+  "identity": {
+    "wikidata": "Q36118"
+  },
+  "composition": {
+    "symmetry": "asymmetric",
+    "axis_count": 0,
+    "rhythm_module_m": 1.2,
+    "rules": [
+      {
+        "principle": "circulation",
+        "rule": "Compress the entry, then release it into a flowing living space.",
+        "value": "entry 2.0–2.3m"
+      },
+      {
+        "principle": "leading-lines",
+        "rule": "Extend the cantilevered slabs and terraces along the line of the slope.",
+        "value": "cantilever 2–5m"
+      },
+      {
+        "principle": "sightlines",
+        "rule": "Open each main room to a view on 2 or more sides.",
+        "value": "2+ views"
+      },
+      {
+        "principle": "zoning",
+        "rule": "Merge living, dining and hearth into one space, with the services at the edge.",
+        "value": "1 open core"
+      },
+      {
+        "principle": "unity-variety",
+        "rule": "Use 3 or 4 materials in every part of the building.",
+        "value": "3–4 materials"
+      },
+      {
+        "principle": "negative-space",
+        "rule": "Hold terraces and courts open between the volumes.",
+        "value": "terrace 30–50%"
+      }
+    ]
+  },
+  "references": {
+    "images": [
+      {
+        "title": "Fallingwater, Mill Run",
+        "credit": "Carol M. Highsmith",
+        "licence": "Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Fallingwater_2007.jpg"
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "prairie-school-architecture",
+      "art-nouveau-architecture"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "scandinavian-interior"
+    ]
+  },
+  "emotion": {
+    "target_response": "Harmony and calm: the viewer feels part of the land and sheltered in a flowing home.",
+    "keywords": [
+      "organic",
+      "flowing",
+      "rooted",
+      "sheltering",
+      "natural",
+      "integrated"
+    ],
+    "brand_archetypes": [
+      "caregiver",
+      "creator",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "organic architecture",
+      "organic design",
+      "frank lloyd wright",
+      "fallingwater",
+      "usonian",
+      "bruce goff",
+      "grows from its site",
+      "cantilevered terrace",
+      "architecture in harmony with nature"
+    ],
+    "use_cases": [
+      "houses in a landscape",
+      "museums and chapels",
+      "hotel and resort concepts",
+      "landscape architecture studies"
+    ],
+    "avoid_when": [
+      "The site is flat and urban and the brief asks for a tall repeating block.",
+      "The brief asks for a strict modular grid."
+    ],
+    "modifiers": [
+      {
+        "request": "more geometric",
+        "toward": "prairie-school-architecture",
+        "how": "Pull the plan back to horizontal bands under a deep eave, in brick, with a central hearth."
+      },
+      {
+        "request": "more rational",
+        "toward": "international-style-architecture",
+        "how": "Straighten the plan into a regular grid, white render and ribbon glass."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "house over a waterfall",
+      "cantilevered terrace",
+      "local stone piers",
+      "board-formed concrete",
+      "flowing open plan",
+      "clerestory light",
+      "stained timber",
+      "spiral ramp",
+      "integrated landscape"
+    ],
+    "negative": [
+      "closed white box",
+      "classical columns",
+      "symmetric front",
+      "curtain wall",
+      "flat levelled site",
+      "glossy plastic cladding"
+    ],
+    "canonical_works": [
+      {
+        "work": "Fallingwater, Mill Run",
+        "architect": "Frank Lloyd Wright",
+        "year": 1937
+      },
+      {
+        "work": "Taliesin West, Scottsdale",
+        "architect": "Frank Lloyd Wright",
+        "year": 1937
+      },
+      {
+        "work": "Villa Mairea, Noormarkku",
+        "architect": "Alvar Aalto",
+        "year": 1939
+      },
+      {
+        "work": "Bavinger House, Norman",
+        "architect": "Bruce Goff",
+        "year": 1955
+      },
+      {
+        "work": "Solomon R. Guggenheim Museum, New York",
+        "architect": "Frank Lloyd Wright",
+        "year": 1959
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Frank Lloyd Wright, An Organic Architecture (Lund Humphries, 1939)"
+    }
+  ]
+}

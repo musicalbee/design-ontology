@@ -191,7 +191,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more serious**: move toward [`international-style-architecture`](../international-style-architecture/SKILL.md) (International Style). Drop the pastel fields and the quotations, keep the layering of base, middle and top, and set the module to a regular 4 to 7m grid.
 
 - **Rejects (the opposite pole; do not blend):** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md)
-- **Was rejected by:** [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md)
+- **Was rejected by:** [`critical-regionalism-architecture`](../critical-regionalism-architecture/SKILL.md), [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md)
 - **Kin in another domain:** [`memphis-design`](../memphis-design/SKILL.md), [`memphis-interior`](../memphis-interior/SKILL.md)
 - **Nearest by vector profile:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`beaux-arts-architecture`](../beaux-arts-architecture/SKILL.md), [`baroque-architecture`](../baroque-architecture/SKILL.md)
 

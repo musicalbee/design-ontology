@@ -1,0 +1,118 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "futurism-painting",
+  "domain": "painting",
+  "name": "Futurism",
+  "aliases": ["Italian Futurism", "Dynamism"],
+  "era_id": "avant-garde",
+  "time_period": { "start": 1909, "end": 1918, "label": "1909–1918" },
+  "region": "Italy",
+  "media": ["oil on canvas"],
+  "summary": "Pictures of speed, noise and the machine city. Forms repeat and break into lines of force, so that a dog, a train or a crowd seems to move through the picture.",
+  "philosophy": {
+    "core_thesis": "Modern life is speed and energy, so a picture should show movement itself: the form is cut and repeated in time and fused with its setting.",
+    "design_principles": [
+      "Repeat the moving form 5–20 times along its path, with a step of 3–10% of the width.",
+      "Draw lines of force: long diagonals and arcs that run through the form and out to the edge.",
+      "Break the object into shards and let the shards cross the ground, so that no edge holds the body.",
+      "Choose the subject from the modern world: a train, a car, a street, a factory, a crowd, a light.",
+      "Use a bright, divided colour, with a hard complementary pair in the shards, and keep the key high.",
+      "Give each form a hard, facet-like edge of 2–6mm and let the colour run between the shapes.",
+      "Fuse the figure and the space so that the street enters the head and the head enters the street."
+    ],
+    "anti_patterns": [
+      "A still, posed figure in a calm, closed space",
+      "Soft, blended, atmospheric haze",
+      "A single viewpoint at a single moment",
+      "A pastoral, historical or sentimental subject",
+      "Muted earth colours with no energy",
+      "A symmetric, balanced layout"
+    ]
+  },
+  "vectors": { "abstraction": 3, "brushwork_visibility": 3, "chromatic_intensity": 4, "depth_illusion": 2, "line_dominance": 5 },
+  "composition": {
+    "layout": "A burst of diagonals and arcs through the picture, with a repeated form along a path and shards that cross the ground.",
+    "focal_point": "The head of the repeated form, at the start of the path, at one third from an edge, where the lines of force meet.",
+    "format": "A wide canvas at 3:2 to 2:1, so that the path has room; the figure is 30–60% of the height.",
+    "principles": [
+      { "principle": "leading-lines", "rule": "Run 6–12 force lines at 15–60° from the horizontal across the picture and into one or two meeting points." },
+      { "principle": "rhythm", "rule": "Repeat the moving form 5–20 times along one path, and shrink or stretch each copy by 5–15%." },
+      { "principle": "balance", "rule": "Hold an uneven balance: the mass at one third from the edge and the force lines pulling toward the far side." },
+      { "principle": "layering-depth", "rule": "Reduce the depth to 1–2 layers; the shards of the form and the ground cross, with no clear front or back." },
+      { "principle": "contrast", "rule": "Set warm against cool in the shards, with a hue shift of 120° or more and a value gap of 40% or more." },
+      { "principle": "unity-variety", "rule": "Keep one shard angle family of 3–4 directions across the picture, and vary only the size and colour." }
+    ]
+  },
+  "palette": {
+    "strategy": "A bright, divided colour: warm reds and oranges against cool blues, with white light and a dark grey for the machine.",
+    "distribution": "Two main hues 50–60%, a third hue 20–25%, white light 10–15%, dark grey 5–10%.",
+    "ground": "A pale ground that shows between the shards.",
+    "colours": [
+      { "name": "Electric blue", "hex": "#2B6CD6", "pigment": "cobalt and ultramarine", "role": "lines of force and sky" },
+      { "name": "Signal red", "hex": "#D8321F", "pigment": "vermilion", "role": "motion, flame and accent" },
+      { "name": "Lamp yellow", "hex": "#F2CF3C", "pigment": "cadmium yellow", "role": "light and speed" },
+      { "name": "Machine grey", "hex": "#5B6068", "pigment": "grey and black", "role": "metal and road" },
+      { "name": "Acid orange", "hex": "#EA7A21", "pigment": "cadmium orange", "role": "glow" },
+      { "name": "Cool violet", "hex": "#6C4FA0", "pigment": "cobalt violet", "role": "shadow shards" },
+      { "name": "Paper white", "hex": "#F1EEE6", "pigment": "zinc white", "role": "light and rest" }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Oil paint, fairly thin and flat, with some divided touches.",
+    "support": "Canvas on a pale ground.",
+    "brushwork": "Short, directed dashes of 5–15mm that follow the force lines; flat, hard-edged shards of 20–80mm.",
+    "paint_handling": "1–2 layers; flat, opaque shards with a few divided dashes; little blending.",
+    "edges": "Hard and faceted at the shards; a soft vibration at the repeated copies."
+  },
+  "light_and_modelling": {
+    "light": "Electric and diffuse: the light is part of the motion and fuses with the form.",
+    "modelling": "By colour and shard: a form is built from 3–5 flat planes, not by a gradient.",
+    "shadow": "A coloured shard of blue or violet; no cast shadow on the ground.",
+    "temperature": "Warm against cool shards set side by side, with a hard hue jump."
+  },
+  "subject": {
+    "typical": "A train, a car, a street at night, a crowd, a dancer, a cyclist, an animal on a lead, a factory and a city light.",
+    "figure_scale": "The moving form fills 30–60% of the picture height, repeated along its path.",
+    "treatment": "Fast, loud and modern; the subject is speed, and the title says what moves."
+  },
+  "surface": {
+    "finish": "Matt to satin, with a clean, hard look.",
+    "texture": "Flat shards with a few ridged dashes."
+  },
+  "reference_works": {
+    "works": [
+      { "work": "Festival in Montmartre", "artist": "Gino Severini", "date": "1913", "museum": "Art Institute of Chicago", "object_id": "185766", "public_domain": false },
+      { "work": "Still Life (Centrifugal Expansion of Colors)", "artist": "Gino Severini", "date": "1916", "museum": "Art Institute of Chicago", "object_id": "66031", "public_domain": false },
+      { "work": "Reclining Woman + Lines of Space", "artist": "Giacomo Balla", "date": "1911/13", "museum": "Art Institute of Chicago", "object_id": "185814", "public_domain": false }
+    ],
+    "note": "Object ids were checked against the Art Institute of Chicago API. None of the three works is flagged as public domain by the museum: the ids identify them only. Look at the museum page for the image and its licence; do not copy it."
+  },
+  "prompt_primer": {
+    "positive": ["futurist painting", "dynamism of motion", "repeated moving form", "lines of force", "shattered shards", "electric blue and signal red", "machine city", "speed and noise", "Balla and Severini style", "fused figure and street"],
+    "negative": ["still pose", "soft haze", "single viewpoint", "pastoral subject", "muted earth colour", "symmetric balance"]
+  },
+  "lineage": { "evolved_from": ["cubism-painting"], "rebelled_against": [], "hybridized_with": [], "echoes": ["constructivism-web", "soviet-montage"] },
+  "emotion": {
+    "target_response": "Rush and excitement: the viewer feels speed and noise and the pull of the machine age.",
+    "keywords": ["fast", "loud", "mechanical", "energetic", "dynamic"],
+    "brand_archetypes": ["hero", "outlaw", "explorer"]
+  },
+  "agent": {
+    "triggers": ["futurism", "futurist", "boccioni", "balla", "severini", "speed lines", "dynamism", "lines of force", "motion painting"],
+    "use_cases": ["sport, transport and tech campaign art", "event and festival posters about speed", "motion-led title art", "editorial art on the modern city"],
+    "avoid_when": [
+      "The brief needs a still, quiet or traditional mood.",
+      "The picture must show a clear product or a readable face."
+    ],
+    "modifiers": [
+      { "request": "more still and analytic", "toward": "cubism-painting", "how": "Keep the facets; stop the repeat, hold the object still, cut the palette to 3–4 earth hues, and show several viewpoints at one moment." },
+      { "request": "more pure and abstract", "toward": "suprematism", "how": "Drop the machine and the street; keep the diagonals and reduce the form to 3–5 flat geometric shapes on a white field." }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q131221 (Futurism)", "url": "https://www.wikidata.org/wiki/Q131221" },
+    { "title": "Getty AAT 300021374 (Futurism)", "url": "https://vocab.getty.edu/page/aat/300021374" },
+    { "title": "Art Institute of Chicago API (CC0 data)", "url": "https://api.artic.edu/docs/" },
+    { "title": "F. T. Marinetti, The Founding and Manifesto of Futurism (Le Figaro, 1909)" }
+  ]
+}

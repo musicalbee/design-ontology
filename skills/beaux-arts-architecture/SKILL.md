@@ -181,6 +181,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **plainer**: move toward [`neoclassical-architecture`](../neoclassical-architecture/SKILL.md) (Neoclassicism). Strip the mansard, the sculpture groups and the paired columns; keep the symmetry, the portico and the pale stone.
 
 - **Came from (go here for a more orthodox version):** [`baroque-architecture`](../baroque-architecture/SKILL.md), [`neoclassical-architecture`](../neoclassical-architecture/SKILL.md)
+- **Was rejected by:** [`expressionist-architecture`](../expressionist-architecture/SKILL.md)
 - **Nearest by vector profile:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md), [`renaissance-architecture`](../renaissance-architecture/SKILL.md)
 
 ## Emotional target

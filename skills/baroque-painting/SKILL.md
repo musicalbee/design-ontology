@@ -174,7 +174,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`renaissance-painting`](../renaissance-painting/SKILL.md)
 - **Led to (go here for a newer version):** [`rococo-painting`](../rococo-painting/SKILL.md)
 - **Kin in another domain:** [`baroque-architecture`](../baroque-architecture/SKILL.md), [`film-noir-still`](../film-noir-still/SKILL.md), [`food-photography`](../food-photography/SKILL.md), [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md)
-- **Nearest by vector profile:** [`realism-painting`](../realism-painting/SKILL.md), [`rococo-painting`](../rococo-painting/SKILL.md), [`romanticism-painting`](../romanticism-painting/SKILL.md)
+- **Nearest by vector profile:** [`realism-painting`](../realism-painting/SKILL.md), [`rococo-painting`](../rococo-painting/SKILL.md), [`photorealism`](../photorealism/SKILL.md)
 
 ## Emotional target
 
