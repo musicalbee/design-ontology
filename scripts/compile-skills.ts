@@ -211,6 +211,9 @@ function view(style: Style, domain: Domain) {
       keywords: style.emotion.keywords.join(", "),
       archetypes: style.emotion.brand_archetypes.join(", "),
     },
+    evidence: ((style.evidence as { title: string; kind: string; maker?: string; year?: number; credit: string; licence: string; url: string }[] | undefined) ?? []).map((e) =>
+      `[${e.title}](${e.url})${e.maker ? ` (${e.maker}${e.year != null ? `, ${e.year}` : ""})` : ""}: ${e.kind}, ${e.licence}. ${e.credit}`,
+    ),
     sources: ((style.sources as { title: string; url?: string }[] | undefined) ?? []).map((s) =>
       s.url ? `[${s.title}](${s.url})` : s.title,
     ),
