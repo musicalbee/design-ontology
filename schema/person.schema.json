@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-ontology.dev/schema/person.schema.json",
+  "title": "Person",
+  "description": "One person who started, shaped or spread a style. The people layer puts a life next to the time line of the styles. Facts come from open data (Wikidata, Wikimedia Commons); the bio and the milestones are our own words.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "born", "died", "bio", "styles", "milestones", "photo", "sources"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": { "$ref": "core.schema.json#/$defs/slug" },
+    "name": { "$ref": "core.schema.json#/$defs/shortText" },
+    "aliases": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "$ref": "core.schema.json#/$defs/shortText" }
+    },
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "wikidata": { "type": "string", "pattern": "^Q[0-9]+$" },
+        "wikipedia": { "type": "string", "pattern": "^https://en\\.wikipedia\\.org/wiki/" }
+      }
+    },
+    "born": {
+      "type": ["integer", "null"],
+      "minimum": 1200,
+      "maximum": 2030,
+      "description": "Year of birth. Null when no open source gives it. Do not guess a year."
+    },
+    "died": {
+      "type": ["integer", "null"],
+      "minimum": 1200,
+      "maximum": 2030,
+      "description": "Year of death. Null for a living person, or when no open source gives it."
+    },
+    "nationality": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "$ref": "core.schema.json#/$defs/shortText" }
+    },
+    "bio": { "$ref": "core.schema.json#/$defs/sentence" },
+    "styles": {
+      "type": "array",
+      "uniqueItems": true,
+      "description": "The styles this person is tied to. Empty is permitted for a person who works across styles (a trend-setter from a source with no style match yet).",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["style", "role"],
+        "properties": {
+          "style": { "$ref": "core.schema.json#/$defs/slug" },
+          "role": {
+            "enum": ["founder", "key-figure", "forerunner", "populariser", "trend-setter", "rebel"],
+            "description": "founder: started the style. key-figure: made its canonical works. forerunner: came before it and prepared it. populariser: made it common. trend-setter: set a current trend inside it. rebel: led the turn away from it."
+          }
+        }
+      }
+    },
+    "milestones": {
+      "type": "array",
+      "description": "Dated events that put the person on the time line. Simple past tense, one event each.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["year", "event"],
+        "properties": {
+          "year": { "type": "integer", "minimum": 1200, "maximum": 2030 },
+          "event": { "$ref": "core.schema.json#/$defs/sentence" },
+          "style": { "$ref": "core.schema.json#/$defs/slug" }
+        }
+      }
+    },
+    "photo": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["file", "url", "licence", "credit"],
+      "description": "A portrait on Wikimedia Commons, linked, not copied. Null when Commons has no free portrait.",
+      "properties": {
+        "file": { "type": "string", "minLength": 5, "description": "The Commons file name." },
+        "url": { "type": "string", "pattern": "^https://(upload|thumb)\\.wikimedia\\.org/", "description": "A thumbnail URL on the Commons server." },
+        "page": { "type": "string", "pattern": "^https://commons\\.wikimedia\\.org/" },
+        "licence": { "type": "string", "minLength": 2, "maxLength": 80 },
+        "licence_url": { "type": "string", "pattern": "^https?://" },
+        "credit": { "type": "string", "minLength": 1, "maxLength": 300 }
+      }
+    },
+    "sources": { "$ref": "core.schema.json#/$defs/sources" },
+    "found_in": {
+      "type": "array",
+      "description": "Where we found this person (a video, a list, an article), when that is not one of the sources.",
+      "items": { "type": "string", "minLength": 3, "maxLength": 300 }
+    }
+  }
+}

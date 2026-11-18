@@ -97,6 +97,32 @@ export function principleRefs(value: unknown, out: string[] = []): string[] {
   return out;
 }
 
+export interface Person {
+  id: string;
+  name: string;
+  aliases?: string[];
+  identity?: { wikidata?: string; wikipedia?: string };
+  born: number | null;
+  died: number | null;
+  nationality?: string[];
+  bio: string;
+  styles: { style: string; role: "founder" | "key-figure" | "forerunner" | "populariser" | "trend-setter" | "rebel" }[];
+  milestones: { year: number; event: string; style?: string }[];
+  photo: { file: string; url: string; page?: string; licence: string; licence_url?: string; credit: string } | null;
+  sources: { title: string; url?: string }[];
+  found_in?: string[];
+}
+
+/** The people layer in data/people/, by file. */
+export function loadPeople(): { file: string; slug: string; person: Person }[] {
+  const dir = join(ROOT, "data", "people");
+  return jsonFiles(dir).map((f) => ({
+    file: join("data", "people", f),
+    slug: f.replace(/\.json$/, ""),
+    person: readJson<Person>(join(dir, f)),
+  }));
+}
+
 export interface StyleFile { file: string; slug: string; style: Style }
 
 export function loadStyleFiles(domain: string): StyleFile[] {
