@@ -127,7 +127,7 @@ Use these terms in a brief, an image prompt or a 3D scene description.
 
 Reference works:
 
-| Work | Architect | Year |
+| Work | Maker | Year |
 |---|---|---|
 | Bauhaus Building, Dessau | Walter Gropius | 1926 |
 | Barcelona Pavilion | Ludwig Mies van der Rohe | 1929 |

@@ -128,7 +128,7 @@ Use these terms in a brief, an image prompt or a 3D scene description.
 
 Reference works:
 
-| Work | Architect | Year |
+| Work | Maker | Year |
 |---|---|---|
 | Vanna Venturi House, Philadelphia | Robert Venturi | 1964 |
 | Piazza d'Italia, New Orleans | Charles Moore | 1978 |

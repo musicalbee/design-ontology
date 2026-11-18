@@ -128,7 +128,7 @@ Use these terms in a brief, an image prompt or a 3D scene description.
 
 Reference works:
 
-| Work | Architect | Year |
+| Work | Maker | Year |
 |---|---|---|
 | Chrysler Building, New York | William Van Alen | 1930 |
 | Empire State Building, New York | Shreve, Lamb and Harmon | 1931 |

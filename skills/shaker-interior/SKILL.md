@@ -227,7 +227,7 @@ Use these terms in a brief, an image prompt or a 3D scene description.
 
 Reference works:
 
-| Work | Architect | Year |
+| Work | Maker | Year |
 |---|---|---|
 | Retiring room, North Family Dwelling, Mount Lebanon, New York | Shaker community | 1830 |
 | Centre Family Dwelling, Pleasant Hill, Kentucky | Micajah Burnett | 1834 |

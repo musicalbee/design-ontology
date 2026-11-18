@@ -89,21 +89,6 @@ Vector axes, each 1 to 5: **STAGE** staging (found, unplanned → fully construc
 | [`cinematic-teal-orange`](./cinematic-teal-orange/SKILL.md) | Digital and the grade | teal and orange, orange and teal, cinematic, film still, blockbuster grade | film and trailer stills, automotive and tech campaigns, thumbnails and key art | cinematic, dramatic, polished | 5 | 4 | 4 | 4 | 3 |
 | [`party-flash`](./party-flash/SKILL.md) | Digital and the grade | party flash, flash photography, direct flash, on-camera flash, snapshot | fashion and music campaigns, nightlife and event coverage, social media content | raw, rowdy, intimate | 2 | 5 | 3 | 2 | 4 |
 
-## Painting
-
-Vector axes, each 1 to 5: **ABS** abstraction (illusionistic depiction → pure abstraction) · **BRU** brushwork visibility (no trace of the hand → each stroke and gesture shown) · **CHR** chromatic intensity (muted, tonal → saturated, high-key) · **DEP** depth illusion (flat picture plane → deep perspectival space) · **LIN** line dominance (colour and mass carry the image → line carries the image).
-
-| Skill | Era | Load when | Good for | Feels | ABS | BRU | CHR | DEP | LIN |
-|---|---|---|---|---|:-:|:-:|:-:|:-:|:-:|
-| [`renaissance-painting`](./renaissance-painting/SKILL.md) | Early modern | renaissance, quattrocento, italian renaissance, madonna and child, sfumato | allegorical illustration, book and album covers, image prompts for classical portraits | serene, ordered, ideal | 1 | 1 | 3 | 5 | 4 |
-| [`baroque-painting`](./baroque-painting/SKILL.md) | Early modern | baroque, chiaroscuro, tenebrism, caravaggio, rembrandt | moody portraits, editorial illustration, game and film concept art | dramatic, intense, theatrical | 1 | 3 | 2 | 5 | 2 |
-| [`ukiyo-e`](./ukiyo-e/SKILL.md) | Early modern | ukiyo-e, japanese woodblock, hokusai, hiroshige, great wave | posters and packaging, travel and food branding, editorial and book illustration | graphic, elegant, fleeting | 2 | 1 | 3 | 2 | 5 |
-| [`impressionism`](./impressionism/SKILL.md) | Nineteenth century | impressionism, impressionist, monet, plein air, broken colour | landscape and garden illustration, hospitality and wellness art direction, wall art and greeting cards | luminous, fleeting, airy | 2 | 5 | 4 | 3 | 1 |
-| [`nordic-national-romanticism-painting`](./nordic-national-romanticism-painting/SKILL.md) | Nineteenth century | national romanticism, nordic painting, carl larsson, gallen-kallela, kalevala | Nordic heritage and tourism art direction, book illustration for myth and legend, calm interior and home brands | quiet, northern, homely | 2 | 3 | 3 | 3 | 3 |
-| [`cubism-painting`](./cubism-painting/SKILL.md) | Avant-garde | cubism, cubist, picasso, braque, analytic cubism | editorial and cultural poster art, album and book covers, portrait illustration with a modern edge | analytical, fragmented, modern | 4 | 3 | 2 | 2 | 4 |
-| [`de-stijl-painting`](./de-stijl-painting/SKILL.md) | Avant-garde | de stijl, mondrian, neoplasticism, primary colours grid, geometric abstraction | identity and packaging graphics, layout and dashboard grid inspiration, poster and album art | rational, pure, balanced | 5 | 1 | 4 | 1 | 5 |
-| [`abstract-expressionism`](./abstract-expressionism/SKILL.md) | Avant-garde | abstract expressionism, action painting, pollock, rothko, de kooning | album and festival art, editorial backgrounds and textures, cultural and gallery identity | raw, energetic, monumental | 5 | 5 | 3 | 2 | 2 |
-
 ## Film & Video
 
 Vector axes, each 1 to 5: **CAM** camera mobility (locked off, tripod → handheld, gimbal or free flight) · **CUT** cutting rate (long take, average shot over 20 s → rapid montage, average shot under 2 s) · **STAGE** staging (found, unplanned → fully constructed) · **GRADE** grade stylisation (natural, neutral colour → heavily stylised colour) · **FRAME** frame width (vertical 9:16 → anamorphic 2.39:1 or wider).
@@ -118,6 +103,21 @@ Vector axes, each 1 to 5: **CAM** camera mobility (locked off, tripod → handhe
 | [`vertical-short-form`](./vertical-short-form/SKILL.md) | Platform and creator video | tiktok, reels, shorts, vertical video, 9:16 | social ads and paid creative, creator and brand channels, product demos under 30 s | fast, punchy, playful | 4 | 5 | 3 | 3 | 1 |
 | [`cinematic-fpv`](./cinematic-fpv/SKILL.md) | Platform and creator video | fpv, fpv drone, drone dive, one take flight, cinewhoop | automotive and sport launch films, real estate and travel flythroughs, music video with a one-take flight | exhilarating, fluid, immersive | 5 | 1 | 3 | 3 | 4 |
 | [`camcorder-revival`](./camcorder-revival/SKILL.md) | Platform and creator video | camcorder, vhs look, home video, tape look, y2k camcorder | music video and artist content, fashion and youth brand campaigns, found-footage horror | nostalgic, raw, intimate | 4 | 2 | 1 | 4 | 2 |
+
+## Painting
+
+Vector axes, each 1 to 5: **ABS** abstraction (illusionistic depiction → pure abstraction) · **BRU** brushwork visibility (no trace of the hand → each stroke and gesture shown) · **CHR** chromatic intensity (muted, tonal → saturated, high-key) · **DEP** depth illusion (flat picture plane → deep perspectival space) · **LIN** line dominance (colour and mass carry the image → line carries the image).
+
+| Skill | Era | Load when | Good for | Feels | ABS | BRU | CHR | DEP | LIN |
+|---|---|---|---|---|:-:|:-:|:-:|:-:|:-:|
+| [`renaissance-painting`](./renaissance-painting/SKILL.md) | Early modern | renaissance, quattrocento, italian renaissance, madonna and child, sfumato | allegorical illustration, book and album covers, image prompts for classical portraits | serene, ordered, ideal | 1 | 1 | 3 | 5 | 4 |
+| [`baroque-painting`](./baroque-painting/SKILL.md) | Early modern | baroque, chiaroscuro, tenebrism, caravaggio, rembrandt | moody portraits, editorial illustration, game and film concept art | dramatic, intense, theatrical | 1 | 3 | 2 | 5 | 2 |
+| [`ukiyo-e`](./ukiyo-e/SKILL.md) | Early modern | ukiyo-e, japanese woodblock, hokusai, hiroshige, great wave | posters and packaging, travel and food branding, editorial and book illustration | graphic, elegant, fleeting | 2 | 1 | 3 | 2 | 5 |
+| [`impressionism`](./impressionism/SKILL.md) | Nineteenth century | impressionism, impressionist, monet, plein air, broken colour | landscape and garden illustration, hospitality and wellness art direction, wall art and greeting cards | luminous, fleeting, airy | 2 | 5 | 4 | 3 | 1 |
+| [`nordic-national-romanticism-painting`](./nordic-national-romanticism-painting/SKILL.md) | Nineteenth century | national romanticism, nordic painting, carl larsson, gallen-kallela, kalevala | Nordic heritage and tourism art direction, book illustration for myth and legend, calm interior and home brands | quiet, northern, homely | 2 | 3 | 3 | 3 | 3 |
+| [`cubism-painting`](./cubism-painting/SKILL.md) | Avant-garde | cubism, cubist, picasso, braque, analytic cubism | editorial and cultural poster art, album and book covers, portrait illustration with a modern edge | analytical, fragmented, modern | 4 | 3 | 2 | 2 | 4 |
+| [`de-stijl-painting`](./de-stijl-painting/SKILL.md) | Avant-garde | de stijl, mondrian, neoplasticism, primary colours grid, geometric abstraction | identity and packaging graphics, layout and dashboard grid inspiration, poster and album art | rational, pure, balanced | 5 | 1 | 4 | 1 | 5 |
+| [`abstract-expressionism`](./abstract-expressionism/SKILL.md) | Avant-garde | abstract expressionism, action painting, pollock, rothko, de kooning | album and festival art, editorial backgrounds and textures, cultural and gallery identity | raw, energetic, monumental | 5 | 5 | 3 | 2 | 2 |
 
 ---
 

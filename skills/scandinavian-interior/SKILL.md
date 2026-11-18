@@ -218,7 +218,7 @@ Use these terms in a brief, an image prompt or a 3D scene description.
 
 Reference works:
 
-| Work | Architect | Year |
+| Work | Maker | Year |
 |---|---|---|
 | Villa Mairea, Noormarkku | Alvar and Aino Aalto | 1939 |
 | Finn Juhl's House, Ordrup | Finn Juhl | 1942 |

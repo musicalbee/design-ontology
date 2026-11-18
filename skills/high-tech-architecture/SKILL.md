@@ -127,7 +127,7 @@ Use these terms in a brief, an image prompt or a 3D scene description.
 
 Reference works:
 
-| Work | Architect | Year |
+| Work | Maker | Year |
 |---|---|---|
 | Centre Pompidou, Paris | Renzo Piano and Richard Rogers | 1977 |
 | Lloyd's Building, London | Richard Rogers | 1986 |

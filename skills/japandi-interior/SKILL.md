@@ -218,7 +218,7 @@ Use these terms in a brief, an image prompt or a 3D scene description.
 
 Reference works:
 
-| Work | Architect | Year |
+| Work | Maker | Year |
 |---|---|---|
 | Akari light sculptures | Isamu Noguchi | 1951 |
 | Hiroshima armchair | Naoto Fukasawa | 2008 |

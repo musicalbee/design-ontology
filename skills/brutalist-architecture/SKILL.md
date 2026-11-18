@@ -127,7 +127,7 @@ Use these terms in a brief, an image prompt or a 3D scene description.
 
 Reference works:
 
-| Work | Architect | Year |
+| Work | Maker | Year |
 |---|---|---|
 | Unité d'Habitation, Marseille | Le Corbusier | 1952 |
 | Hunstanton School | Alison and Peter Smithson | 1954 |

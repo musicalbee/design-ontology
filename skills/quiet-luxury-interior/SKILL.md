@@ -219,7 +219,7 @@ Use these terms in a brief, an image prompt or a 3D scene description.
 
 Reference works:
 
-| Work | Architect | Year |
+| Work | Maker | Year |
 |---|---|---|
 | Salon of the Hôtel de Noailles, Paris | Jean-Michel Frank | 1926 |
 | Kanaal, Wijnegem | Axel Vervoordt | 2017 |

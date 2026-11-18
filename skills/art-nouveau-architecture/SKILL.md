@@ -128,7 +128,7 @@ Use these terms in a brief, an image prompt or a 3D scene description.
 
 Reference works:
 
-| Work | Architect | Year |
+| Work | Maker | Year |
 |---|---|---|
 | Hôtel Tassel, Brussels | Victor Horta | 1893 |
 | Castel Béranger, Paris | Hector Guimard | 1898 |

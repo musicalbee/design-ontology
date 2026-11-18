@@ -219,7 +219,7 @@ Use these terms in a brief, an image prompt or a 3D scene description.
 
 Reference works:
 
-| Work | Architect | Year |
+| Work | Maker | Year |
 |---|---|---|
 | First Memphis exhibition, Arc '74 showroom, Milan | Memphis Group | 1981 |
 | Carlton room divider | Ettore Sottsass | 1981 |

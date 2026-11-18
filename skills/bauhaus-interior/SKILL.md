@@ -219,7 +219,7 @@ Use these terms in a brief, an image prompt or a 3D scene description.
 
 Reference works:
 
-| Work | Architect | Year |
+| Work | Maker | Year |
 |---|---|---|
 | Haus am Horn, Weimar | Georg Muche and the Bauhaus workshops | 1923 |
 | Club chair B3 | Marcel Breuer | 1925 |

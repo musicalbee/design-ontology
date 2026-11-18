@@ -219,7 +219,7 @@ Use these terms in a brief, an image prompt or a 3D scene description.
 
 Reference works:
 
-| Work | Architect | Year |
+| Work | Maker | Year |
 |---|---|---|
 | Eames House (Case Study House No. 8), Pacific Palisades | Charles and Ray Eames | 1949 |
 | Lounge chair and ottoman | Charles and Ray Eames | 1956 |

@@ -127,7 +127,7 @@ Use these terms in a brief, an image prompt or a 3D scene description.
 
 Reference works:
 
-| Work | Architect | Year |
+| Work | Maker | Year |
 |---|---|---|
 | Farnsworth House, Plano | Ludwig Mies van der Rohe | 1951 |
 | Eames House (Case Study House 8), Pacific Palisades | Charles and Ray Eames | 1949 |

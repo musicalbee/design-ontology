@@ -218,7 +218,7 @@ Use these terms in a brief, an image prompt or a 3D scene description.
 
 Reference works:
 
-| Work | Architect | Year |
+| Work | Maker | Year |
 |---|---|---|
 | The Gallery at Sketch, London (pink scheme) | India Mahdavi | 2014 |
 | Memphis collection, Milan | Ettore Sottsass and Memphis Group | 1981 |

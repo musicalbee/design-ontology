@@ -30,10 +30,10 @@
       "additionalProperties": false,
       "required": ["start", "end", "label"],
       "properties": {
-        "start": { "type": "integer", "minimum": 1800, "maximum": 2100, "description": "First year of wide use." },
+        "start": { "type": "integer", "minimum": 1200, "maximum": 2100, "description": "First year of wide use." },
         "end": {
           "type": ["integer", "null"],
-          "minimum": 1800,
+          "minimum": 1200,
           "maximum": 2100,
           "description": "Last year of the peak. null = still in active use."
         },

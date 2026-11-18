@@ -12,17 +12,6 @@
     "lineage", "emotion", "agent", "sources"
   ],
   "$defs": {
-    "time_period": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["start", "end", "label"],
-      "description": "Like the core time_period, but it reaches back to 1200 because painting styles start before 1800. This is a request for a core change: see the PR body.",
-      "properties": {
-        "start": { "type": "integer", "minimum": 1200, "maximum": 2100, "description": "First year of wide use." },
-        "end": { "type": ["integer", "null"], "minimum": 1200, "maximum": 2100, "description": "Last year of the peak. null = still in active use." },
-        "label": { "$ref": "../core.schema.json#/$defs/shortText" }
-      }
-    },
     "hex": { "type": "string", "pattern": "^#[0-9A-F]{6}$" }
   },
   "properties": {
@@ -36,7 +25,7 @@
       "items": { "$ref": "../core.schema.json#/$defs/shortText" }
     },
     "era_id": { "$ref": "../core.schema.json#/$defs/slug", "description": "An id from data/painting/eras/." },
-    "time_period": { "$ref": "#/$defs/time_period" },
+    "time_period": { "$ref": "../core.schema.json#/$defs/time_period" },
     "region": { "$ref": "../core.schema.json#/$defs/shortText", "description": "Where the style began or is centred." },
     "media": {
       "type": "array",

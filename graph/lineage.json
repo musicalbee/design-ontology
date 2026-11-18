@@ -52,17 +52,6 @@
       ]
     },
     {
-      "id": "painting",
-      "name": "Painting",
-      "axes": [
-        "abstraction",
-        "brushwork_visibility",
-        "chromatic_intensity",
-        "depth_illusion",
-        "line_dominance"
-      ]
-    },
-    {
       "id": "film",
       "name": "Film & Video",
       "axes": [
@@ -71,6 +60,17 @@
         "staging",
         "grade_stylisation",
         "frame_width"
+      ]
+    },
+    {
+      "id": "painting",
+      "name": "Painting",
+      "axes": [
+        "abstraction",
+        "brushwork_visibility",
+        "chromatic_intensity",
+        "depth_illusion",
+        "line_dominance"
       ]
     }
   ],
@@ -826,126 +826,6 @@
       }
     },
     {
-      "id": "renaissance-painting",
-      "domain": "painting",
-      "name": "Renaissance painting",
-      "era": "early-modern",
-      "start": 1400,
-      "end": 1520,
-      "vectors": {
-        "abstraction": 1,
-        "brushwork_visibility": 1,
-        "chromatic_intensity": 3,
-        "depth_illusion": 5,
-        "line_dominance": 4
-      }
-    },
-    {
-      "id": "baroque-painting",
-      "domain": "painting",
-      "name": "Baroque painting",
-      "era": "early-modern",
-      "start": 1600,
-      "end": 1720,
-      "vectors": {
-        "abstraction": 1,
-        "brushwork_visibility": 3,
-        "chromatic_intensity": 2,
-        "depth_illusion": 5,
-        "line_dominance": 2
-      }
-    },
-    {
-      "id": "ukiyo-e",
-      "domain": "painting",
-      "name": "Ukiyo-e",
-      "era": "early-modern",
-      "start": 1680,
-      "end": 1860,
-      "vectors": {
-        "abstraction": 2,
-        "brushwork_visibility": 1,
-        "chromatic_intensity": 3,
-        "depth_illusion": 2,
-        "line_dominance": 5
-      }
-    },
-    {
-      "id": "impressionism",
-      "domain": "painting",
-      "name": "Impressionism",
-      "era": "nineteenth-century",
-      "start": 1872,
-      "end": 1886,
-      "vectors": {
-        "abstraction": 2,
-        "brushwork_visibility": 5,
-        "chromatic_intensity": 4,
-        "depth_illusion": 3,
-        "line_dominance": 1
-      }
-    },
-    {
-      "id": "nordic-national-romanticism-painting",
-      "domain": "painting",
-      "name": "Nordic national romanticism",
-      "era": "nineteenth-century",
-      "start": 1880,
-      "end": 1910,
-      "vectors": {
-        "abstraction": 2,
-        "brushwork_visibility": 3,
-        "chromatic_intensity": 3,
-        "depth_illusion": 3,
-        "line_dominance": 3
-      }
-    },
-    {
-      "id": "cubism-painting",
-      "domain": "painting",
-      "name": "Cubism",
-      "era": "avant-garde",
-      "start": 1907,
-      "end": 1922,
-      "vectors": {
-        "abstraction": 4,
-        "brushwork_visibility": 3,
-        "chromatic_intensity": 2,
-        "depth_illusion": 2,
-        "line_dominance": 4
-      }
-    },
-    {
-      "id": "de-stijl-painting",
-      "domain": "painting",
-      "name": "De Stijl painting",
-      "era": "avant-garde",
-      "start": 1917,
-      "end": 1931,
-      "vectors": {
-        "abstraction": 5,
-        "brushwork_visibility": 1,
-        "chromatic_intensity": 4,
-        "depth_illusion": 1,
-        "line_dominance": 5
-      }
-    },
-    {
-      "id": "abstract-expressionism",
-      "domain": "painting",
-      "name": "Abstract Expressionism",
-      "era": "avant-garde",
-      "start": 1943,
-      "end": 1965,
-      "vectors": {
-        "abstraction": 5,
-        "brushwork_visibility": 5,
-        "chromatic_intensity": 3,
-        "depth_illusion": 2,
-        "line_dominance": 2
-      }
-    },
-    {
       "id": "german-expressionist-cinema",
       "domain": "film",
       "name": "German Expressionist cinema",
@@ -1063,6 +943,126 @@
         "staging": 1,
         "grade_stylisation": 4,
         "frame_width": 2
+      }
+    },
+    {
+      "id": "renaissance-painting",
+      "domain": "painting",
+      "name": "Renaissance painting",
+      "era": "early-modern",
+      "start": 1400,
+      "end": 1520,
+      "vectors": {
+        "abstraction": 1,
+        "brushwork_visibility": 1,
+        "chromatic_intensity": 3,
+        "depth_illusion": 5,
+        "line_dominance": 4
+      }
+    },
+    {
+      "id": "baroque-painting",
+      "domain": "painting",
+      "name": "Baroque painting",
+      "era": "early-modern",
+      "start": 1600,
+      "end": 1720,
+      "vectors": {
+        "abstraction": 1,
+        "brushwork_visibility": 3,
+        "chromatic_intensity": 2,
+        "depth_illusion": 5,
+        "line_dominance": 2
+      }
+    },
+    {
+      "id": "ukiyo-e",
+      "domain": "painting",
+      "name": "Ukiyo-e",
+      "era": "early-modern",
+      "start": 1680,
+      "end": 1860,
+      "vectors": {
+        "abstraction": 2,
+        "brushwork_visibility": 1,
+        "chromatic_intensity": 3,
+        "depth_illusion": 2,
+        "line_dominance": 5
+      }
+    },
+    {
+      "id": "impressionism",
+      "domain": "painting",
+      "name": "Impressionism",
+      "era": "nineteenth-century",
+      "start": 1872,
+      "end": 1886,
+      "vectors": {
+        "abstraction": 2,
+        "brushwork_visibility": 5,
+        "chromatic_intensity": 4,
+        "depth_illusion": 3,
+        "line_dominance": 1
+      }
+    },
+    {
+      "id": "nordic-national-romanticism-painting",
+      "domain": "painting",
+      "name": "Nordic national romanticism",
+      "era": "nineteenth-century",
+      "start": 1880,
+      "end": 1910,
+      "vectors": {
+        "abstraction": 2,
+        "brushwork_visibility": 3,
+        "chromatic_intensity": 3,
+        "depth_illusion": 3,
+        "line_dominance": 3
+      }
+    },
+    {
+      "id": "cubism-painting",
+      "domain": "painting",
+      "name": "Cubism",
+      "era": "avant-garde",
+      "start": 1907,
+      "end": 1922,
+      "vectors": {
+        "abstraction": 4,
+        "brushwork_visibility": 3,
+        "chromatic_intensity": 2,
+        "depth_illusion": 2,
+        "line_dominance": 4
+      }
+    },
+    {
+      "id": "de-stijl-painting",
+      "domain": "painting",
+      "name": "De Stijl painting",
+      "era": "avant-garde",
+      "start": 1917,
+      "end": 1931,
+      "vectors": {
+        "abstraction": 5,
+        "brushwork_visibility": 1,
+        "chromatic_intensity": 4,
+        "depth_illusion": 1,
+        "line_dominance": 5
+      }
+    },
+    {
+      "id": "abstract-expressionism",
+      "domain": "painting",
+      "name": "Abstract Expressionism",
+      "era": "avant-garde",
+      "start": 1943,
+      "end": 1965,
+      "vectors": {
+        "abstraction": 5,
+        "brushwork_visibility": 5,
+        "chromatic_intensity": 3,
+        "depth_illusion": 2,
+        "line_dominance": 2
       }
     }
   ],
@@ -3183,6 +3183,214 @@
         }
       ]
     },
+    "german-expressionist-cinema": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "soviet-montage",
+          "distance": 3.87
+        },
+        {
+          "id": "cinematic-fpv",
+          "distance": 4.36
+        },
+        {
+          "id": "vertical-short-form",
+          "distance": 4.36
+        }
+      ]
+    },
+    "soviet-montage": {
+      "evolved_from": [],
+      "evolved_into": [
+        "french-new-wave"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "vertical-short-form",
+          "distance": 2
+        },
+        {
+          "id": "creator-vlog",
+          "distance": 3.16
+        },
+        {
+          "id": "french-new-wave",
+          "distance": 3.32
+        }
+      ]
+    },
+    "french-new-wave": {
+      "evolved_from": [
+        "soviet-montage"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [
+        "dogme-95"
+      ],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "creator-vlog",
+          "distance": 1.73
+        },
+        {
+          "id": "dogme-95",
+          "distance": 1.73
+        },
+        {
+          "id": "cinematic-fpv",
+          "distance": 3.32
+        }
+      ]
+    },
+    "dogme-95": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "french-new-wave"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "camcorder-revival"
+      ],
+      "echoes": [
+        "brutalist-architecture"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "french-new-wave",
+          "distance": 1.73
+        },
+        {
+          "id": "creator-vlog",
+          "distance": 2.83
+        },
+        {
+          "id": "camcorder-revival",
+          "distance": 3.32
+        }
+      ]
+    },
+    "creator-vlog": {
+      "evolved_from": [],
+      "evolved_into": [
+        "vertical-short-form"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "camcorder-revival",
+        "vertical-short-form"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "french-new-wave",
+          "distance": 1.73
+        },
+        {
+          "id": "dogme-95",
+          "distance": 2.83
+        },
+        {
+          "id": "soviet-montage",
+          "distance": 3.16
+        }
+      ]
+    },
+    "vertical-short-form": {
+      "evolved_from": [
+        "creator-vlog"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "camcorder-revival",
+        "cinematic-fpv",
+        "creator-vlog"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "soviet-montage",
+          "distance": 2
+        },
+        {
+          "id": "creator-vlog",
+          "distance": 3.46
+        },
+        {
+          "id": "french-new-wave",
+          "distance": 3.61
+        }
+      ]
+    },
+    "cinematic-fpv": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "vertical-short-form"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "camcorder-revival",
+          "distance": 3.32
+        },
+        {
+          "id": "french-new-wave",
+          "distance": 3.32
+        },
+        {
+          "id": "creator-vlog",
+          "distance": 3.46
+        }
+      ]
+    },
+    "camcorder-revival": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "creator-vlog",
+        "dogme-95",
+        "vertical-short-form"
+      ],
+      "echoes": [
+        "grunge-editorial",
+        "y2k-aesthetic"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "cinematic-fpv",
+          "distance": 3.32
+        },
+        {
+          "id": "dogme-95",
+          "distance": 3.32
+        },
+        {
+          "id": "french-new-wave",
+          "distance": 3.46
+        }
+      ]
+    },
     "renaissance-painting": {
       "evolved_from": [],
       "evolved_into": [
@@ -3393,214 +3601,6 @@
         {
           "id": "nordic-national-romanticism-painting",
           "distance": 3.87
-        }
-      ]
-    },
-    "german-expressionist-cinema": {
-      "evolved_from": [],
-      "evolved_into": [],
-      "rebelled_against": [],
-      "provoked": [],
-      "hybridized_with": [],
-      "echoes": [],
-      "nearest_by_vector": [
-        {
-          "id": "soviet-montage",
-          "distance": 3.87
-        },
-        {
-          "id": "cinematic-fpv",
-          "distance": 4.36
-        },
-        {
-          "id": "vertical-short-form",
-          "distance": 4.36
-        }
-      ]
-    },
-    "soviet-montage": {
-      "evolved_from": [],
-      "evolved_into": [
-        "french-new-wave"
-      ],
-      "rebelled_against": [],
-      "provoked": [],
-      "hybridized_with": [],
-      "echoes": [],
-      "nearest_by_vector": [
-        {
-          "id": "vertical-short-form",
-          "distance": 2
-        },
-        {
-          "id": "creator-vlog",
-          "distance": 3.16
-        },
-        {
-          "id": "french-new-wave",
-          "distance": 3.32
-        }
-      ]
-    },
-    "french-new-wave": {
-      "evolved_from": [
-        "soviet-montage"
-      ],
-      "evolved_into": [],
-      "rebelled_against": [],
-      "provoked": [
-        "dogme-95"
-      ],
-      "hybridized_with": [],
-      "echoes": [],
-      "nearest_by_vector": [
-        {
-          "id": "creator-vlog",
-          "distance": 1.73
-        },
-        {
-          "id": "dogme-95",
-          "distance": 1.73
-        },
-        {
-          "id": "cinematic-fpv",
-          "distance": 3.32
-        }
-      ]
-    },
-    "dogme-95": {
-      "evolved_from": [],
-      "evolved_into": [],
-      "rebelled_against": [
-        "french-new-wave"
-      ],
-      "provoked": [],
-      "hybridized_with": [
-        "camcorder-revival"
-      ],
-      "echoes": [
-        "brutalist-architecture"
-      ],
-      "nearest_by_vector": [
-        {
-          "id": "french-new-wave",
-          "distance": 1.73
-        },
-        {
-          "id": "creator-vlog",
-          "distance": 2.83
-        },
-        {
-          "id": "camcorder-revival",
-          "distance": 3.32
-        }
-      ]
-    },
-    "creator-vlog": {
-      "evolved_from": [],
-      "evolved_into": [
-        "vertical-short-form"
-      ],
-      "rebelled_against": [],
-      "provoked": [],
-      "hybridized_with": [
-        "camcorder-revival",
-        "vertical-short-form"
-      ],
-      "echoes": [],
-      "nearest_by_vector": [
-        {
-          "id": "french-new-wave",
-          "distance": 1.73
-        },
-        {
-          "id": "dogme-95",
-          "distance": 2.83
-        },
-        {
-          "id": "soviet-montage",
-          "distance": 3.16
-        }
-      ]
-    },
-    "vertical-short-form": {
-      "evolved_from": [
-        "creator-vlog"
-      ],
-      "evolved_into": [],
-      "rebelled_against": [],
-      "provoked": [],
-      "hybridized_with": [
-        "camcorder-revival",
-        "cinematic-fpv",
-        "creator-vlog"
-      ],
-      "echoes": [],
-      "nearest_by_vector": [
-        {
-          "id": "soviet-montage",
-          "distance": 2
-        },
-        {
-          "id": "creator-vlog",
-          "distance": 3.46
-        },
-        {
-          "id": "french-new-wave",
-          "distance": 3.61
-        }
-      ]
-    },
-    "cinematic-fpv": {
-      "evolved_from": [],
-      "evolved_into": [],
-      "rebelled_against": [],
-      "provoked": [],
-      "hybridized_with": [
-        "vertical-short-form"
-      ],
-      "echoes": [],
-      "nearest_by_vector": [
-        {
-          "id": "camcorder-revival",
-          "distance": 3.32
-        },
-        {
-          "id": "french-new-wave",
-          "distance": 3.32
-        },
-        {
-          "id": "creator-vlog",
-          "distance": 3.46
-        }
-      ]
-    },
-    "camcorder-revival": {
-      "evolved_from": [],
-      "evolved_into": [],
-      "rebelled_against": [],
-      "provoked": [],
-      "hybridized_with": [
-        "creator-vlog",
-        "dogme-95",
-        "vertical-short-form"
-      ],
-      "echoes": [
-        "grunge-editorial",
-        "y2k-aesthetic"
-      ],
-      "nearest_by_vector": [
-        {
-          "id": "cinematic-fpv",
-          "distance": 3.32
-        },
-        {
-          "id": "dogme-95",
-          "distance": 3.32
-        },
-        {
-          "id": "french-new-wave",
-          "distance": 3.46
         }
       ]
     }

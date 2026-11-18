@@ -128,7 +128,7 @@ Use these terms in a brief, an image prompt or a 3D scene description.
 
 Reference works:
 
-| Work | Architect | Year |
+| Work | Maker | Year |
 |---|---|---|
 | Frank Gehry House, Santa Monica | Frank Gehry | 1978 |
 | Parc de la Villette follies, Paris | Bernard Tschumi | 1987 |
