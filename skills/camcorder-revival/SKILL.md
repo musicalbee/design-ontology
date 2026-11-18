@@ -207,7 +207,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Mixes well with:** [`creator-vlog`](../creator-vlog/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md), [`vertical-short-form`](../vertical-short-form/SKILL.md)
 - **Kin in another domain:** [`film-grain-revival`](../film-grain-revival/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`party-flash`](../party-flash/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
-- **Nearest by vector profile:** [`documentary-verite`](../documentary-verite/SKILL.md), [`italian-neorealism`](../italian-neorealism/SKILL.md), [`cinematic-fpv`](../cinematic-fpv/SKILL.md)
+- **Nearest by vector profile:** [`documentary-verite`](../documentary-verite/SKILL.md), [`italian-neorealism`](../italian-neorealism/SKILL.md), [`phone-cinema`](../phone-cinema/SKILL.md)
 
 ## Emotional target
 

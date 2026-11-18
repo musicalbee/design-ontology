@@ -208,9 +208,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more raw**: move toward [`camcorder-revival`](../camcorder-revival/SKILL.md) (Camcorder revival). Keep the song and the cut; shoot on a camcorder in 4:3, drop the gel light and let the focus hunt.
 
 - **Rejects (the opposite pole; do not blend):** [`classical-hollywood`](../classical-hollywood/SKILL.md)
-- **Mixes well with:** [`vertical-short-form`](../vertical-short-form/SKILL.md)
+- **Mixes well with:** [`neon-noir`](../neon-noir/SKILL.md), [`vertical-short-form`](../vertical-short-form/SKILL.md)
 - **Kin in another domain:** [`memphis-design`](../memphis-design/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
-- **Nearest by vector profile:** [`hong-kong-action`](../hong-kong-action/SKILL.md), [`planimetric-symmetry`](../planimetric-symmetry/SKILL.md), [`classical-hollywood`](../classical-hollywood/SKILL.md)
+- **Nearest by vector profile:** [`giallo`](../giallo/SKILL.md), [`hong-kong-action`](../hong-kong-action/SKILL.md), [`neon-noir`](../neon-noir/SKILL.md)
 
 ## Emotional target
 
