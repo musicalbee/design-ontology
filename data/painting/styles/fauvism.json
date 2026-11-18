@@ -1,0 +1,118 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "fauvism",
+  "domain": "painting",
+  "name": "Fauvism",
+  "aliases": ["Les Fauves", "The wild beasts"],
+  "era_id": "avant-garde",
+  "time_period": { "start": 1905, "end": 1908, "label": "1905–1908" },
+  "region": "Paris and the south coast of France",
+  "media": ["oil on canvas"],
+  "summary": "Colour at full strength and not true to nature: a green face, an orange sky. Flat patches, bold contours and quick strokes make the picture an arrangement of colour first.",
+  "philosophy": {
+    "core_thesis": "Colour is free from the object: the painter chooses a hue for its force and its relations, and so builds the picture and the feeling by colour alone.",
+    "design_principles": [
+      "Choose each hue for its force and not for its likeness: a green shadow, a red tree, a blue face.",
+      "Apply the colour pure, straight from the tube, in large flat patches of 30–200mm.",
+      "Set strong contrasts of complementary pairs at full saturation: red against green, orange against blue.",
+      "Outline the forms in a dark or coloured contour of 3–10mm, and leave the area inside flat.",
+      "Flatten the space: reduce the depth to 1–2 layers and let the colour carry the distance.",
+      "Paint fast, with a visible brush stroke, and leave bare ground between patches.",
+      "Take plain subjects, such as a landscape, a port, a portrait and a bather, and show them in bold, simple shapes."
+    ],
+    "anti_patterns": [
+      "True-to-life local colour and tone",
+      "Blended, graded modelling that makes a round form",
+      "Deep perspective and atmospheric haze",
+      "Muted, grey and brown palettes",
+      "Fine, fussy detail and a polished surface",
+      "Dots or a scientific system of colour"
+    ]
+  },
+  "vectors": { "abstraction": 3, "brushwork_visibility": 4, "chromatic_intensity": 5, "depth_illusion": 2, "line_dominance": 3 },
+  "composition": {
+    "layout": "Large flat colour shapes with a bold contour, in a shallow space of 1–2 layers; the shapes divide the picture into 5–12 patches.",
+    "focal_point": "The strongest colour contrast, a complementary pair, at about one third from an edge, in a patch at 10–20% of the area.",
+    "format": "A canvas at 4:5 to 3:2, with the subject cut by the edge; a figure fills 50–80% of the height.",
+    "principles": [
+      { "principle": "contrast", "rule": "Set one complementary pair, such as red against green, at full saturation in the main patch, with a hue shift of 150° or more." },
+      { "principle": "colour-distribution", "rule": "Divide the picture in 4–6 pure hue patches of 10–25% each, with no hue lower than 5% and none above 30%." },
+      { "principle": "layering-depth", "rule": "Reduce the depth to 1–2 layers, and show distance by colour temperature, not by size or haze." },
+      { "principle": "rhythm", "rule": "Repeat a stroke or a curve 8–15 times at 20–60mm, so that the colour patches move across the picture." },
+      { "principle": "unity-variety", "rule": "Hold one contour weight of 3–10mm and one stroke width, and let the hue vary from patch to patch." },
+      { "principle": "focal-point", "rule": "Make the face or the main shape the largest, brightest patch at one third from an edge, and keep the rest 10–15% lower in value." }
+    ]
+  },
+  "palette": {
+    "strategy": "Pure, saturated hues used for force and not for likeness, in strong complementary pairs, with a dark contour and bare ground.",
+    "distribution": "4–6 hue patches at 10–25% each, bare or white ground 5–15%, dark contour under 10%.",
+    "ground": "A white ground that is left bare in places and lifts the colour.",
+    "colours": [
+      { "name": "Vermilion", "hex": "#E2412A", "pigment": "vermilion", "role": "hot field and accent" },
+      { "name": "Emerald green", "hex": "#1F9E64", "pigment": "emerald or viridian", "role": "complement of the red; a face shadow" },
+      { "name": "Cobalt blue", "hex": "#2547A8", "pigment": "cobalt or ultramarine", "role": "sea, sky and contour" },
+      { "name": "Cadmium orange", "hex": "#F08A1C", "pigment": "cadmium orange", "role": "sky and ground" },
+      { "name": "Rose madder", "hex": "#D95C84", "pigment": "rose madder", "role": "flesh and a bright patch" },
+      { "name": "Lemon yellow", "hex": "#F4DE3A", "pigment": "cadmium lemon", "role": "light and sand" },
+      { "name": "Violet", "hex": "#6A3E8C", "pigment": "cobalt violet", "role": "shadow and contour" },
+      { "name": "Bare white", "hex": "#F5F2EA", "pigment": "bare ground", "role": "rest between patches" }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Oil paint straight from the tube, thick, with little or no thinner.",
+    "support": "Canvas with a white ground, in small and medium sizes.",
+    "brushwork": "Broad, quick strokes of 15–40mm, short, straight or curved, with a few thin lines of 3–10mm for contour.",
+    "paint_handling": "One layer, rarely two; the patches are flat and opaque, with a gap of bare ground between them.",
+    "edges": "A hard, dark or coloured contour at 3–10mm on the main forms; the colour patches meet with a ragged edge."
+  },
+  "light_and_modelling": {
+    "light": "No single source: the light is in the colour, and a patch of high-key colour is the light.",
+    "modelling": "Little or none; a form turns by a change of hue from warm to cool, in 1–2 steps.",
+    "shadow": "A colour and not a dark: green, violet or blue patch at the same value as its neighbour.",
+    "temperature": "Chosen for feeling and for contrast; warm patches next to cool ones, with a hue shift of 150° or more."
+  },
+  "subject": {
+    "typical": "Port and harbour scenes, a sunlit landscape, a portrait, a bather, a still life and an interior with a window.",
+    "figure_scale": "A figure fills 50–80% of the picture height, or a landscape fills the whole canvas.",
+    "treatment": "Direct, joyful and simple; the subject is a reason for colour, and the face is a patch like any other."
+  },
+  "surface": {
+    "finish": "Matt to semi-gloss with a bare, raw look.",
+    "texture": "Flat patches with a visible brush ridge, and bare canvas that shows between."
+  },
+  "reference_works": {
+    "works": [
+      { "work": "Bathers by a River", "artist": "Henri Matisse", "date": "1909–10, 1913, and 1916–17", "museum": "Art Institute of Chicago", "object_id": "79307", "public_domain": false },
+      { "work": "Forest at Martigues", "artist": "André Derain", "date": "1908", "museum": "Art Institute of Chicago", "object_id": "8975", "public_domain": false },
+      { "work": "Landscape", "artist": "André Derain", "date": "n.d.", "museum": "Art Institute of Chicago", "object_id": "3117", "public_domain": false }
+    ],
+    "note": "These works are not flagged as public domain by the museum. The ids identify the works only. The Bathers by a River is a later, larger work that came from the Fauve start. Look at the museum page for the image and its licence; do not copy it."
+  },
+  "prompt_primer": {
+    "positive": ["fauvism", "wild pure colour", "non-naturalistic hue", "complementary red and green", "flat colour patches", "bold dark contour", "quick visible brush strokes", "bare white ground", "Matisse and Derain style", "joyful saturated landscape"],
+    "negative": ["realistic colour", "soft gradient modelling", "deep perspective", "muted grey palette", "fine detail", "dots"]
+  },
+  "lineage": { "evolved_from": ["pointillism"], "rebelled_against": [], "hybridized_with": [], "echoes": ["new-colour"] },
+  "emotion": {
+    "target_response": "Exhilaration and heat: the viewer is struck by colour first and feels the joy of a bright day.",
+    "keywords": ["vivid", "wild", "joyful", "bold", "saturated"],
+    "brand_archetypes": ["jester", "creator", "outlaw"]
+  },
+  "agent": {
+    "triggers": ["fauvism", "fauve", "matisse", "derain", "vlaminck", "wild colour", "expressive colour", "pure colour", "non-naturalistic colour"],
+    "use_cases": ["poster, festival and summer campaign art", "packaging for drinks, food and sport", "children and creative-learning identity", "editorial illustration with a bold palette"],
+    "avoid_when": [
+      "The brief needs a muted, serious or luxury calm.",
+      "The picture must show true product colour."
+    ],
+    "modifiers": [
+      { "request": "more controlled and scientific", "toward": "pointillism", "how": "Keep the pure hue and the complementary pairs; break each patch into dots of 2–5mm, add a still frieze layout and a painted border." },
+      { "request": "more abstract and structural", "toward": "cubism-painting", "how": "Keep the flat patches; cut the palette to 3–4 earth hues, break the subject into tilted planes, and show more than one viewpoint." }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q166593 (Fauvism)", "url": "https://www.wikidata.org/wiki/Q166593" },
+    { "title": "Art Institute of Chicago API (CC0 data)", "url": "https://api.artic.edu/docs/" },
+    { "title": "Henri Matisse, Notes of a Painter (La Grande Revue, 1908)" }
+  ]
+}

@@ -209,23 +209,34 @@ flowchart LR
   end
   subgraph painting_early_modern["Painting · Early modern · 1400–1860"]
     renaissance_painting["Renaissance painting"]
+    mannerism_painting["Mannerism"]
     baroque_painting["Baroque painting"]
     ukiyo_e["Ukiyo-e"]
+    rococo_painting["Rococo"]
   end
   subgraph painting_nineteenth_century["Painting · Nineteenth century · 1840–1910"]
+    romanticism_painting["Romanticism"]
+    realism_painting["Realism"]
     impressionism["Impressionism"]
     nordic_national_romanticism_painting["Nordic national romanticism"]
+    pointillism["Pointillism"]
   end
   subgraph painting_avant_garde["Painting · Avant-garde · 1905–1970"]
+    fauvism["Fauvism"]
     cubism_painting["Cubism"]
     de_stijl_painting["De Stijl painting"]
+    surrealism_painting["Surrealism"]
     abstract_expressionism["Abstract Expressionism"]
+    pop_art_painting["Pop Art"]
   end
   abstract_expressionism <-. echoes .-> brutalist_architecture
+  art_nouveau_architecture <-. echoes .-> rococo_painting
+  baroque_painting <-. echoes .-> german_expressionist_cinema
   bauhaus <-. echoes .-> bauhaus_architecture
   bauhaus <-. echoes .-> bauhaus_interior
   bauhaus <-. echoes .-> de_stijl_painting
   bauhaus <-. echoes .-> international_style_architecture
+  bauhaus_interior <-. echoes .-> de_stijl_painting
   bauhaus_interior <-. echoes .-> international_style_architecture
   brutalist_architecture <-. echoes .-> constructivism_web
   brutalist_architecture <-. echoes .-> dogme_95
@@ -233,27 +244,39 @@ flowchart LR
   brutalist_architecture <-. echoes .-> new_topographics
   camcorder_revival <-. echoes .-> grunge_editorial
   camcorder_revival <-. echoes .-> y2k_aesthetic
+  constructivism_web <-. echoes .-> cubism_painting
+  cubism_painting <-. echoes .-> deconstructivist_architecture
+  de_stijl_painting <-. echoes .-> de_stijl_web
   de_stijl_painting <-. echoes .-> international_style_architecture
   de_stijl_painting <-. echoes .-> swiss_international
   de_stijl_web <-. echoes .-> international_style_architecture
   deconstructivist_architecture <-. echoes .-> grunge_editorial
   dopamine_decor <-. echoes .-> memphis_design
+  fauvism <-. echoes .-> new_colour
   flat_design <-. echoes .-> ukiyo_e
   grunge_editorial <-. echoes .-> party_flash
   grunge_editorial <-. echoes .-> street_photography
+  impressionism <-. echoes .-> pictorialism
   international_style_architecture <-. echoes .-> mid_century_modern_interior
   international_style_architecture <-. echoes .-> new_topographics
   international_style_architecture <-. echoes .-> rams_functionalism_ui
   international_style_architecture <-. echoes .-> straight_photography
   international_style_architecture <-. echoes .-> swiss_international
+  japandi_interior <-. echoes .-> ukiyo_e
   memphis_design <-. echoes .-> memphis_interior
+  memphis_design <-. echoes .-> pop_art_painting
   memphis_design <-. echoes .-> postmodern_architecture
   mid_century_modern <-. echoes .-> mid_century_modern_architecture
   mid_century_modern <-. echoes .-> mid_century_modern_interior
+  nordic_national_romanticism_painting <-. echoes .-> scandinavian_interior
   party_flash <-. echoes .-> y2k_aesthetic
+  pop_art_painting <-. echoes .-> pop_art_web
+  realism_painting <-. echoes .-> straight_photography
   straight_photography <-. echoes .-> swiss_international
+  surrealism_painting <-. echoes .-> vaporwave
   y2k_aesthetic <-. echoes .-> y2k_digicam
   cubism_painting --> abstract_expressionism
+  surrealism_painting --> abstract_expressionism
   art_nouveau_architecture --> art_deco_architecture
   renaissance_painting --> baroque_painting
   flat_design --> bento_grid_ui
@@ -264,12 +287,15 @@ flowchart LR
   memphis_design --> corporate_memphis
   cubism_painting --> de_stijl_painting
   memphis_interior --> dopamine_decor
+  pointillism --> fauvism
   swiss_international --> flat_design
   soviet_montage --> french_new_wave
   y2k_aesthetic --> frutiger_aero
   frutiger_aero --> glassmorphism
   international_style_architecture --> high_tech_architecture
+  realism_painting --> impressionism
   scandinavian_interior --> japandi_interior
+  renaissance_painting --> mannerism_painting
   flat_design --> material_design
   bauhaus --> mid_century_modern
   international_style_architecture --> mid_century_modern_architecture
@@ -279,10 +305,12 @@ flowchart LR
   street_photography --> new_colour
   straight_photography --> new_topographics
   y2k_digicam --> party_flash
+  impressionism --> pointillism
   mid_century_modern --> pop_art_web
   japandi_interior --> quiet_luxury_interior
   bauhaus --> rams_functionalism_ui
   swiss_international --> rams_functionalism_ui
+  baroque_painting --> rococo_painting
   shaker_interior --> scandinavian_interior
   glassmorphism --> spatial_visionos
   straight_photography --> street_photography
@@ -309,12 +337,16 @@ flowchart LR
   neo_brutalism_ui -. rejects .-> corporate_memphis
   neo_brutalism_ui -. rejects .-> material_design
   neumorphism -. rejects .-> flat_design
+  pop_art_painting -. rejects .-> abstract_expressionism
   postmodern_architecture -. rejects .-> brutalist_architecture
   postmodern_architecture -. rejects .-> international_style_architecture
   psychedelic -. rejects .-> swiss_international
   punk_zine -. rejects .-> mid_century_modern
   punk_zine -. rejects .-> swiss_international
   quiet_luxury_interior -. rejects .-> dopamine_decor
+  realism_painting -. rejects .-> rococo_painting
+  realism_painting -. rejects .-> romanticism_painting
+  romanticism_painting -. rejects .-> rococo_painting
   straight_photography -. rejects .-> pictorialism
   y2k_aesthetic -. rejects .-> grunge_editorial
   linkStyle 0 stroke:#8E8E93,stroke-width:1.5px
@@ -349,26 +381,20 @@ flowchart LR
   linkStyle 29 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 30 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 31 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 69 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 70 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 71 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 72 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 73 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 74 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 75 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 76 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 77 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 78 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 79 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 80 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 81 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 82 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 83 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 84 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 85 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 86 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 87 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 88 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 32 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 33 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 34 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 35 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 36 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 37 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 38 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 39 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 40 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 41 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 42 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 43 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 44 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 45 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 89 stroke:#E5484D,stroke-width:1.5px
   linkStyle 90 stroke:#E5484D,stroke-width:1.5px
   linkStyle 91 stroke:#E5484D,stroke-width:1.5px
@@ -376,6 +402,30 @@ flowchart LR
   linkStyle 93 stroke:#E5484D,stroke-width:1.5px
   linkStyle 94 stroke:#E5484D,stroke-width:1.5px
   linkStyle 95 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 96 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 97 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 98 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 99 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 100 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 101 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 102 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 103 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 104 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 105 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 106 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 107 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 108 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 109 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 110 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 111 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 112 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 113 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 114 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 115 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 116 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 117 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 118 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 119 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 
@@ -420,7 +470,7 @@ The ontology has domains. A domain is one manifest ([`domains/`](domains/)) and 
 | Interior | 8 | composition rules in cm, lux and K, and a scene primer | [one room, each style](demo/interior.html) |
 | Photography | 8 | camera numbers (mm, f-stop, shutter, ISO, K) and a grade recipe | |
 | Film and video | 8 | shot primer (aspect, fps, shutter angle, shot length) and a video-prompt primer | |
-| Painting | 8 | palette in hex, brushwork and medium rules, a composition schema | |
+| Painting | 16 | palette in hex, brushwork and medium rules, a composition schema | [one composition, each style](demo/painting.html) |
 
 **Composition principles** are shared. [`data/principles/`](data/principles/) holds 20 records, such as focal point, symmetry and axis, rhythm, rule of thirds, layering in depth and colour distribution. Each record has a definition and a measure with a typical range. A style in any domain names a principle by id and gives its own number. The validator refuses an id that does not exist.
 

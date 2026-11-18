@@ -170,7 +170,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more luminous**: move toward [`impressionism`](../impressionism/SKILL.md) (Impressionism). Keep the northern landscape and the cool key; drop the contour, break the sky and water into touches of 5–15mm, and raise the value of the shadows.
 
 - **Mixes well with:** [`impressionism`](../impressionism/SKILL.md)
-- **Nearest by vector profile:** [`baroque-painting`](../baroque-painting/SKILL.md), [`cubism-painting`](../cubism-painting/SKILL.md), [`impressionism`](../impressionism/SKILL.md)
+- **Kin in another domain:** [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
+- **Nearest by vector profile:** [`rococo-painting`](../rococo-painting/SKILL.md), [`realism-painting`](../realism-painting/SKILL.md), [`mannerism-painting`](../mannerism-painting/SKILL.md)
 
 ## Emotional target
 

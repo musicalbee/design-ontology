@@ -1,0 +1,117 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "pointillism",
+  "domain": "painting",
+  "name": "Pointillism",
+  "aliases": ["Divisionism", "Neo-Impressionism", "Chromoluminarism"],
+  "era_id": "nineteenth-century",
+  "time_period": { "start": 1886, "end": 1891, "label": "1886–1891" },
+  "region": "Paris, France",
+  "media": ["oil on canvas"],
+  "summary": "A picture made of small, separate dots of pure colour that the eye mixes at a distance. The scene is still and ordered, built by colour theory and not by blending.",
+  "philosophy": {
+    "core_thesis": "Colour is a science: pure dots set side by side mix in the eye with more light than a mix on the palette, and a picture can be built by rule.",
+    "design_principles": [
+      "Lay each dot as a separate touch of pure colour, 2–5mm across, with a ground that shows between them.",
+      "Mix by juxtaposition: set complementary pairs, such as orange and blue, next to each other, so that the eye fuses them.",
+      "Build each area from 3 elements: local colour, light (warm) and shadow (cool complement), plus a reflected colour.",
+      "Hold the scene in still, simple masses: a frieze of figures in profile and in full face, in a clear, ordered space.",
+      "Plan the picture on a grid or a golden-section armature, with strong verticals and horizontals.",
+      "Add a painted border in the colour that contrasts with the edge of the scene.",
+      "Use a matt, chalky surface so that the dots stay pure and bright."
+    ],
+    "anti_patterns": [
+      "Blended or glazed colour that hides the dot",
+      "Spontaneous, quick and uneven strokes",
+      "Dark, black or brown shadows",
+      "Soft, lost edges that run into the next form",
+      "Movement, blur and a fleeting moment",
+      "Large flat areas of one mixed colour"
+    ]
+  },
+  "vectors": { "abstraction": 2, "brushwork_visibility": 5, "chromatic_intensity": 4, "depth_illusion": 3, "line_dominance": 1 },
+  "composition": {
+    "layout": "A still, ordered arrangement of simple masses on a hidden grid of verticals and horizontals, with a frieze of figures at the front and a horizon at 40–50% of the height.",
+    "focal_point": "A figure or a mass at one third from an edge, set by the golden section at 0.62 of the width or the height.",
+    "format": "A wide canvas at 3:2 to 2:1; a painted border of 20–60mm in a dot-built contrast colour closes the picture.",
+    "principles": [
+      { "principle": "proportion", "rule": "Divide the canvas by the golden section at 0.62, and set the main vertical and the horizon on those lines." },
+      { "principle": "rhythm", "rule": "Repeat a small unit, such as a figure, a tree or a parasol, 6–10 times at a regular step of 8–12% of the picture width." },
+      { "principle": "symmetry-axis", "rule": "Use a quiet, formal pose: figures in strict profile or full face, with a vertical axis in each figure and none for the whole picture." },
+      { "principle": "colour-distribution", "rule": "Split every area into 3 dot colours: a local hue at 60%, a warm light hue at 25%, and a cool shadow hue at 15%." },
+      { "principle": "unity-variety", "rule": "Hold the dot size to 2–5mm across the whole picture, and vary only the hue and value of the dot." },
+      { "principle": "framing", "rule": "Close the picture with a painted border of 20–60mm, in a hue that is the complement of the nearby edge." }
+    ]
+  },
+  "palette": {
+    "strategy": "Pure spectral hues set in dots, with complementary pairs in contact; no black and no earth, and the mix happens in the eye.",
+    "distribution": "A broad light and sky area 30–40%, local colour of the subject 30–40%, a cool shadow colour 15–20%, and a warm light colour 10–15%.",
+    "ground": "A white or very pale ground that shows between the dots and lifts the colour.",
+    "colours": [
+      { "name": "Cobalt blue", "hex": "#2F58A3", "pigment": "cobalt blue", "role": "cool shadow and water" },
+      { "name": "Cadmium orange", "hex": "#E8832B", "pigment": "cadmium orange", "role": "warm light, the complement of blue" },
+      { "name": "Viridian", "hex": "#2E8B6E", "pigment": "viridian", "role": "grass and shade" },
+      { "name": "Vermilion", "hex": "#D4432E", "pigment": "vermilion", "role": "dress and accent" },
+      { "name": "Cadmium yellow", "hex": "#F1CC3A", "pigment": "cadmium yellow", "role": "sun and light" },
+      { "name": "Violet", "hex": "#7B4B94", "pigment": "cobalt violet", "role": "shadow, the complement of yellow" },
+      { "name": "Zinc white", "hex": "#F3F1EA", "pigment": "zinc white", "role": "ground and highlight" }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Oil paint, thick and matt, used straight from the tube with little medium.",
+    "support": "A fine canvas with a white ground.",
+    "brushwork": "Small, round dots or short touches of 2–5mm, laid in regular rows, one dab at a time; 10 000 or more dots on a large canvas.",
+    "paint_handling": "One layer of dots, with a second pass of 1–2 corrections; no blending and no glaze.",
+    "edges": "A hard form edge made by a change in the dot hue; a slight vibration, with no line drawn."
+  },
+  "light_and_modelling": {
+    "light": "A bright, even daylight, shown by warm yellow-orange dots in the lit areas and cool blue-violet dots in the shadow.",
+    "modelling": "By the change of the dot hue and value in 3–4 steps; the form is built by colour and not by line.",
+    "shadow": "A cool, coloured shadow of blue, violet or green dots at value 40–60%; no black.",
+    "temperature": "A warm lit area against a cool shadow, with the complement set side by side so that the edge vibrates."
+  },
+  "subject": {
+    "typical": "Leisure in a park or on a river, a harbour, a bather, a circus, a seaside and a town scene.",
+    "figure_scale": "Small to medium figures at 15–45% of the picture height, seen in profile or full face.",
+    "treatment": "Calm, frozen and modern; people stand and sit as in a frieze, with no story and no sign of emotion."
+  },
+  "surface": {
+    "finish": "Matt and chalky.",
+    "texture": "A fine, regular grain of dots across the whole picture, with the canvas weave in view."
+  },
+  "reference_works": {
+    "works": [
+      { "work": "A Sunday on La Grande Jatte — 1884", "artist": "Georges Seurat", "date": "1884–86, border added 1888–89", "museum": "Art Institute of Chicago", "object_id": "27992", "public_domain": true },
+      { "work": "Oil Sketch for \"A Sunday on La Grande Jatte — 1884\"", "artist": "Georges Seurat", "date": "1884", "museum": "Art Institute of Chicago", "object_id": "61616", "public_domain": true },
+      { "work": "Les Andelys, Côte d'Aval", "artist": "Paul Signac", "date": "1886", "museum": "Art Institute of Chicago", "object_id": "122130", "public_domain": true }
+    ],
+    "note": "Object ids were checked against the Art Institute of Chicago API (CC0 data). The oil sketch shows the dot method at a small size. Look at the museum page for the image and its licence."
+  },
+  "prompt_primer": {
+    "positive": ["pointillism", "neo-impressionist dots", "divisionism", "pure colour dots", "complementary colour pairs", "Seurat La Grande Jatte style", "still frieze of figures", "painted border", "chalky matt surface", "optical colour mixing"],
+    "negative": ["blended colour", "smooth gradient", "black shadow", "loose fast brush strokes", "soft lost edges", "motion blur"]
+  },
+  "lineage": { "evolved_from": ["impressionism"], "rebelled_against": [], "hybridized_with": [], "echoes": [] },
+  "emotion": {
+    "target_response": "Calm, clear attention: the viewer sees a quiet, ordered scene that shimmers as the eye mixes the dots.",
+    "keywords": ["ordered", "luminous", "still", "scientific", "shimmering"],
+    "brand_archetypes": ["sage", "creator"]
+  },
+  "agent": {
+    "triggers": ["pointillism", "pointillist", "seurat", "signac", "divisionism", "neo-impressionism", "dots of colour", "la grande jatte", "optical mixing"],
+    "use_cases": ["poster and cover with a luminous, dotted texture", "print and halftone-inspired illustration", "leisure, travel and park identity", "educational material on colour theory"],
+    "avoid_when": [
+      "The brief needs a fast, loose or spontaneous mood.",
+      "The picture must show sharp fine detail, such as a face or a product label."
+    ],
+    "modifiers": [
+      { "request": "looser and more spontaneous", "toward": "impressionism", "how": "Keep the bright colour and the open-air light; make the touch a quick dab or dash of 10–20mm, allow blending at the edges, and drop the grid." },
+      { "request": "bolder and wilder colour", "toward": "fauvism", "how": "Keep the pure hue; enlarge the dot to a patch of 20–60mm, allow a hue that is not true to nature, and add a dark contour." }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q200034 (Pointillism)", "url": "https://www.wikidata.org/wiki/Q200034" },
+    { "title": "Art Institute of Chicago API (CC0 data)", "url": "https://api.artic.edu/docs/" },
+    { "title": "Paul Signac, D'Eugène Delacroix au néo-impressionnisme (1899)" }
+  ]
+}
