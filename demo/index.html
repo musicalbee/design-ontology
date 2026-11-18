@@ -12,16 +12,7 @@
   body { font-family: system-ui, sans-serif; background: #17171a; }
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; animation: none !important; } }
 
-  /* ── Picker. It sits outside [data-style], so no style can change it. ── */
-  .picker { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; gap: 10px; padding: 8px 12px;
-    background: #17171a; color: #f4f4f5; font: 13px/1.2 system-ui, sans-serif; border-bottom: 1px solid #34343a; }
-  .picker b { white-space: nowrap; font-weight: 650; }
-  .picker button { font: inherit; color: #f4f4f5; background: #2a2a30; border: 1px solid #44444c; border-radius: 6px; padding: 6px 10px; cursor: pointer; white-space: nowrap; }
-  .picker button:hover { background: #3a3a42; }
-  .picker button[aria-pressed="true"] { background: #f4f4f5; color: #17171a; border-color: #f4f4f5; }
-  .picker :focus-visible, .stage :focus-visible { outline: 3px solid #6aa8ff; outline-offset: 2px; }
-  .chips { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: thin; padding: 2px; flex: 1; }
-  .picker a { color: #f4f4f5; white-space: nowrap; }
+  .stage :focus-visible { outline: 3px solid #6aa8ff; outline-offset: 2px; }
 
   /* ── Stage. Each visual value below is a token of the current style. ── */
   .stage { --gap: calc(1rem * var(--density, 1)); --flow: calc(var(--gap) * 1.25); --flow-tight: calc(var(--gap) * .5); --tilt: 0deg; min-height: 100vh; overflow-x: clip; position: relative; }
@@ -110,10 +101,6 @@
   .fact .k { font-size: .82rem; }
   .fact .v { font-family: var(--font-display); font-weight: var(--display-weight); text-transform: var(--display-case); letter-spacing: var(--display-tracking); font-size: 1.35rem; line-height: max(var(--display-leading), 1.15); }
   .axes { display: grid; gap: .3rem; font-size: .82rem; }
-  .axis { display: grid; grid-template-columns: 1fr auto; gap: .75rem; align-items: center; }
-  .pips { display: flex; gap: 3px; }
-  .pips i { width: 14px; height: 10px; border: 1.5px solid currentColor; }
-  .pips i.on { background: currentColor; }
 
   /* rules */
   .two { display: grid; gap: calc(var(--gap) * 1.5); }
@@ -185,12 +172,9 @@
 <link id="tokens" rel="stylesheet" href="">
 </head>
 <body>
+<script src="nav.js"></script>
+<script src="meter.js"></script>
 
-<div class="picker">
-  <b>design-ontology</b>
-  <button id="prev" aria-label="Previous style">Prev</button>
-  <button id="next" aria-label="Next style">Next</button>
-  <div class="chips" id="chips" role="group" aria-label="Style"></div>
   <a href="https://github.com/musicalbee/design-ontology">GitHub</a>
 </div>
 <div id="sprite" hidden></div>
@@ -416,8 +400,7 @@ async function show(i) {
   $("f-feels").textContent = data.emotion.keywords.slice(0, 3).join(", ");
   $("f-arch").textContent = `Brand archetypes: ${data.emotion.brand_archetypes.join(", ")}.`;
   $("f-uses").textContent = data.agent.use_cases.join(", ") + ".";
-  $("f-axes").innerHTML = axes.map((a) => `<div class="axis"><span title="${esc(a.low)} to ${esc(a.high)}">${esc(a.label)}</span><span class="pips" role="img" aria-label="${s.vectors[a.key]} of 5">${
-    [1, 2, 3, 4, 5].map((n) => `<i class="${n <= s.vectors[a.key] ? "on" : ""}"></i>`).join("")}</span></div>`).join("");
+  $("f-axes").innerHTML = VectorMeter.html(axes, s.vectors);
 
   // rules
   $("r-keep").innerHTML = data.philosophy.design_principles.map((p) => `<li>${ico("check")}<span>${esc(p)}</span></li>`).join("");
@@ -476,7 +459,7 @@ async function show(i) {
   $("n-copy").textContent = "Copy the command";
 
   for (const b of $("chips").children) b.setAttribute("aria-pressed", b.dataset.go === s.id);
-  $("chips").querySelector('[aria-pressed="true"]')?.scrollIntoView({ block: "nearest", inline: "center" });
+  $("chips").querySelector('[aria-pressed="true"]')?.scrollIntoView({ block: "nearest" });
   if (location.hash.slice(1) !== s.id) history.replaceState(null, "", "#" + s.id);
 }
 
