@@ -220,8 +220,8 @@ A form broken into flat planes that meet at sharp angles, so that it reads as a 
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Painting | c. 1909 | — | Paris and Horta de Ebro: Picasso and Braque break objects into small flat planes in the first Cubist paintings. | |
-| 1 | Painting | c. 1909 | +0 years | Picasso and Braque paint objects as flat planes in the Horta de Ebro landscapes and the Paris still lifes. | [`cubism-painting`](./cubism-painting/SKILL.md) |
+| Origin | Painting | c. 1909 | — | Horta de Ebro, La Roche-Guyon and Paris: Picasso and Braque break objects into small flat planes in the first Cubist paintings. | |
+| 1 | Painting | c. 1909 | +0 years | Picasso and Braque paint objects as flat planes in landscapes, Picasso at Horta de Ebro and Braque at La Roche-Guyon, and in the Paris still lifes. | [`cubism-painting`](./cubism-painting/SKILL.md) |
 | 2 | Architecture | c. 1912 | +3 years | Pavel Janak and Josef Gocar design Czech Cubist buildings with faceted walls, such as the House of the Black Madonna in Prague. |  |
 | 3 | Architecture | 1914 | +5 years | Bruno Taut builds the Glass Pavilion for the Werkbund exhibition in Cologne as a crystal dome of glass prisms. | [`expressionist-architecture`](./expressionist-architecture/SKILL.md) |
 | 4 | Film & Video | 1920 | +11 years | Hermann Warm, Walter Reimann and Walter Roehrig build the angled, painted sets of The Cabinet of Dr. Caligari. | [`german-expressionist-cinema`](./german-expressionist-cinema/SKILL.md) |
@@ -343,7 +343,7 @@ A form shown as one solid shape with no inner line, read only from its outer edg
 |---|---|---|---|---|---|
 | Origin | Painting | c. 700 BCE | — | Corinth: Greek vase painters fill figures with black slip and scratch the detail. | |
 | 1 | Graphic & UI Design | c. 1759 | +2459 years | Cut black paper profiles become a fashion in France and take the name of the minister Etienne de Silhouette. |  |
-| 2 | Film & Video | 1923 | +2623 years | Lotte Reiniger shows The Adventures of Prince Achmed, a feature film of cut paper silhouettes. |  |
+| 2 | Film & Video | 1926 | +2626 years | Lotte Reiniger shows The Adventures of Prince Achmed, a feature film of cut paper silhouettes. |  |
 | 3 | Icons | 1972 | +2672 years | Otl Aicher draws the Munich Olympic pictograms as white-on-colour figure silhouettes. |  |
 | 4 | Icons | 2012 | +2712 years | Font Awesome 1.0 gives the web a free set of solid glyphs in an icon font. | [`solid-glyph-icon`](./solid-glyph-icon/SKILL.md), [`flat-icon`](./flat-icon/SKILL.md) |
 
@@ -383,7 +383,7 @@ A long S-shaped line whose curve changes along its length, drawn from a plant st
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Architecture | c. 1893 | — | Brussels: Victor Horta uses curved iron stems on the stair and the ceiling of the Hotel Tassel. | |
-| 1 | Graphic & UI Design | 1894 | +1 years | Hermann Obrist shows the Cyclamen wall hanging, an embroidery of one long curved stem. |  |
+| 1 | Graphic & UI Design | c. 1894 | +1 years | Hermann Obrist shows the Cyclamen wall hanging, an embroidery of one long curved stem. |  |
 | 2 | Logo | c. 1896 | +3 years | Jugend and Pan magazines print initials and vignettes in interlaced curved lines. | [`art-nouveau-monogram`](./art-nouveau-monogram/SKILL.md) |
 | 3 | Typeface | 1900 | +7 years | Otto Eckmann draws the Eckmann-Schrift with brush-like curved strokes. |  |
 | 4 | Architecture | 1900 | +7 years | Hector Guimard designs the iron entrances of the Paris Metro with plant-like curves. | [`art-nouveau-architecture`](./art-nouveau-architecture/SKILL.md) |
@@ -444,10 +444,10 @@ A thin wash of slaked lime that dries to a soft, matt white with a faint cloud o
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Architecture | c. 3000 BCE | — | Near East: Builders in the Near East coat floors and walls with burnt lime plaster; the oldest traces, at Ain Ghazal and Catalhoyuk, are older still. | |
-| 1 | Architecture | 1911 | +4911 years | Le Corbusier records the white lime-washed houses of the Aegean on his Journey to the East. |  |
-| 2 | Architecture | c. 1960 | +4960 years | Geoffrey Bawa builds white-plastered houses in Sri Lanka. | [`critical-regionalism-architecture`](./critical-regionalism-architecture/SKILL.md) |
-| 3 | Interior | c. 1990 | +4990 years | Beach houses in the USA put white-washed walls and boards in summer rooms. | [`coastal-interior`](./coastal-interior/SKILL.md) |
+| Origin | Architecture | c. 7200 BCE | — | Levant: Builders at Ain Ghazal coat floors and walls with burnt lime plaster; Catalhoyuk later paints its plastered walls. | |
+| 1 | Architecture | 1911 | +9111 years | Le Corbusier records the white lime-washed houses of the Aegean on his Journey to the East. |  |
+| 2 | Architecture | c. 1960 | +9160 years | Geoffrey Bawa builds white-plastered houses in Sri Lanka. | [`critical-regionalism-architecture`](./critical-regionalism-architecture/SKILL.md) |
+| 3 | Interior | c. 1990 | +9190 years | Beach houses in the USA put white-washed walls and boards in summer rooms. | [`coastal-interior`](./coastal-interior/SKILL.md) |
 
 Used by: [`critical-regionalism-architecture`](./critical-regionalism-architecture/SKILL.md), [`coastal-interior`](./coastal-interior/SKILL.md).
 
@@ -724,7 +724,7 @@ Lines cut into a metal plate with a burin; thin hairlines and swelling strokes g
 |---|---|---|---|---|---|
 | Origin | Painting | c. 1430 | — | Upper Rhine: Goldsmiths engrave copper plates and print them as pictures; the method then spreads across Europe. | |
 | 1 | Typeface | 1741 | +311 years | George Bickham engraves the copperplate hands of The Universal Penman (1741) on copper. | [`formal-script`](./formal-script/SKILL.md) |
-| 2 | Typeface | 1757 | +327 years | John Baskerville cuts sharp, high-contrast roman type in Birmingham, and prints it on smooth wove paper. | [`transitional-serif`](./transitional-serif/SKILL.md) |
+| 2 | Typeface | 1757 | +327 years | John Baskerville has John Handy cut sharp, high-contrast roman type in Birmingham, and prints it on smooth wove paper. | [`transitional-serif`](./transitional-serif/SKILL.md) |
 | 3 | Typeface | 1784 | +354 years | Firmin Didot cuts roman type with hairline serifs and a vertical stress; Giambattista Bodoni follows in Parma. | [`didone-serif`](./didone-serif/SKILL.md) |
 | 4 | Typeface | c. 1810 | +380 years | Robert Thorne cuts fat faces that push the engraved contrast of the Didones to an extreme. | [`fat-face-display`](./fat-face-display/SKILL.md) |
 | 5 | Logo | 1875 | +445 years | The UK Trade Marks Registration Act starts a register, and firms file engraved vignettes, banners and shaded figures. | [`victorian-trademark`](./victorian-trademark/SKILL.md) |
@@ -766,7 +766,7 @@ A page or screen divided into equal columns and rows; each element fits a cell o
 | Origin | Graphic & UI Design | c. 1958 | — | Zurich: Josef Mueller-Brockmann and the journal Neue Grafik (1958) spread the modular grid for posters and print. | |
 | 1 | Logo | c. 1962 | +4 years | Otl Aicher builds the corporate design of Lufthansa on a fixed grid of marks, type and colour. | [`swiss-modernist-mark`](./swiss-modernist-mark/SKILL.md) |
 | 2 | Graphic & UI Design | 1970 | +12 years | Unimark issues the New York City Transit Graphics Standards Manual, with sign grids for the whole system. | [`swiss-international`](./swiss-international/SKILL.md) |
-| 3 | Graphic & UI Design | 2011 | +53 years | Bootstrap ships a 12 column grid for web pages. | [`bento-grid-ui`](./bento-grid-ui/SKILL.md), [`minimalism-web`](./minimalism-web/SKILL.md) |
+| 3 | Graphic & UI Design | 2012 | +54 years | Bootstrap 2.0 ships a 12 column fluid grid for web pages. | [`bento-grid-ui`](./bento-grid-ui/SKILL.md), [`minimalism-web`](./minimalism-web/SKILL.md) |
 
 Used by: [`swiss-international`](./swiss-international/SKILL.md), [`swiss-modernist-mark`](./swiss-modernist-mark/SKILL.md), [`bento-grid-ui`](./bento-grid-ui/SKILL.md), [`minimalism-web`](./minimalism-web/SKILL.md).
 
@@ -863,7 +863,7 @@ Thin paint is poured on raw, unprimed canvas that lies on the floor; the cloth d
 |---|---|---|---|---|---|
 | Origin | Painting | 1952 | — | New York: Helen Frankenthaler pours thinned oil on raw canvas in Mountains and Sea. | |
 | 1 | Painting | 1953 | +1 years | Morris Louis and Kenneth Noland visit the studio of Frankenthaler and take up the stain method; Louis turns it into his Veils from 1954. | [`colour-field-painting`](./colour-field-painting/SKILL.md) |
-| 2 | Painting | c. 1960 | +8 years | Louis and Noland switch to thin acrylic, which stains the cloth with no halo. | [`colour-field-painting`](./colour-field-painting/SKILL.md) |
+| 2 | Painting | c. 1960 | +8 years | Noland moves from oil to thinned acrylic, which stains the cloth with no halo; Louis stains with thinned Magna acrylic from the first Veils in 1954. | [`colour-field-painting`](./colour-field-painting/SKILL.md) |
 
 Used by: [`colour-field-painting`](./colour-field-painting/SKILL.md).
 

@@ -188,7 +188,7 @@ A joint that stays in view, so that the way of making is part of the look. Origi
 
 ### Limewash (material)
 
-A thin wash of slaked lime that dries to a soft, matt white with a faint cloud of brush marks. Origin: architecture, Near East, c. 3000 BCE.
+A thin wash of slaked lime that dries to a soft, matt white with a faint cloud of brush marks. Origin: architecture, Levant, c. 7200 BCE.
 
 - Mix slaked lime with water to a thin milk, and apply 2 to 3 coats with a wide brush.
 - Cross the brush strokes between coats, and let each coat dry for 4 to 24 hours.

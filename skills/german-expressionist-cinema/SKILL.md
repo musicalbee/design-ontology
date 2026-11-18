@@ -213,7 +213,7 @@ A hard contrast of light and dark that models form: one strong source, deep shad
 
 ### Crystal facet (motif)
 
-A form broken into flat planes that meet at sharp angles, so that it reads as a crystal or a shard. Origin: painting, Paris and Horta de Ebro, c. 1909.
+A form broken into flat planes that meet at sharp angles, so that it reads as a crystal or a shard. Origin: painting, Horta de Ebro, La Roche-Guyon and Paris, c. 1909.
 
 - Cut each mass into flat planes; most planes meet at angles between 30° and 120°.
 - Use one plane size family: 3 to 5 sizes, with no curve.
