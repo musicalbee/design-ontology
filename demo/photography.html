@@ -3,87 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>One scene in every photography style</title>
-<meta name="description" content="One street scene drawn in SVG and set by the camera numbers of each photography style: depth of field, tonal contrast, saturation and distance.">
-<style>
-  *, *::before, *::after { box-sizing: border-box; }
-  body { margin: 0; font: 15px/1.5 system-ui, sans-serif; background: #17171a; color: #f4f4f5; }
-  header, main { max-width: 1160px; margin: 0 auto; padding: 24px clamp(16px, 4vw, 48px); }
-  h1 { font-size: 1.5rem; margin: 0 0 4px; }
-  p { margin: 0 0 8px; color: #c9c9d0; max-width: 64ch; }
-  code { background: #26262c; padding: 1px 5px; border-radius: 4px; }
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px; }
-  figure { margin: 0; background: #202026; border: 1px solid #34343a; border-radius: 8px; overflow: hidden; }
-  figure svg { display: block; width: 100%; height: auto; }
-  figcaption { padding: 10px 14px 14px; }
-  figcaption b { display: block; font-size: 1rem; }
-  figcaption span { color: #a9a9b3; font-size: .82rem; display: block; }
-  .num { font-variant-numeric: tabular-nums; margin-top: 4px; }
-  .sw { display: flex; gap: 4px; margin-top: 8px; }
-  .sw i { width: 22px; height: 12px; border-radius: 2px; border: 1px solid #0006; }
-</style>
+<title>Photography styles</title>
+<meta name="description" content="Photography styles as data: composition, light, lens, grade and a prompt primer, with one generated preview for each.">
 </head>
-<body>
-<header>
-  <h1>One scene, every photography style</h1>
-  <p>The same street: a wall, a figure and a plant in the foreground. Each style sets only what its record sets: distance, depth of field, tonal contrast, colour saturation and grain.</p>
-  <p>The numbers and colours come from <code>data/photography/styles/</code>. The scene is a schematic drawing. No photograph is copied; see the sources in each record.</p>
-</header>
-<main><div class="grid" id="grid"></div></main>
-<script>
-const IDS = ["pictorialism","straight-photography","new-objectivity","documentary-photography","street-photography","new-topographics","new-colour","duesseldorf-school","fashion-editorial","film-noir-still","scandinavian-interior-photography","food-photography","y2k-digicam","party-flash","cinematic-teal-orange","film-grain-revival"];
-const W = 320, H = 240;
-const lum = (h) => { const n = parseInt(h.slice(1), 16); return 0.2126 * (n >> 16) + 0.7152 * ((n >> 8) & 255) + 0.0722 * (n & 255); };
-const sat = (h) => { const n = parseInt(h.slice(1), 16), r = n >> 16, g = (n >> 8) & 255, b = n & 255; return Math.max(r, g, b) - Math.min(r, g, b); };
-function scene(d, i) {
-  const v = d.vectors, pal = d.colour_and_grade.palette.map(p => p.hex);
-  const byL = [...pal].sort((a, b) => lum(a) - lum(b));
-  const dark = byL[0], light = byL[byL.length - 1], mid = byL[Math.floor(byL.length / 2)], accent = [...pal].sort((a, b) => sat(b) - sat(a))[0];
-  const blur = (v.depth_of_field - 1) * 2.2;            // 0 to 8.8 px
-  const zoom = 1 + (v.proximity - 1) * 0.22;           // 1.0 to 1.88
-  const contrast = 0.75 + v.tonal_contrast * 0.14;     // 0.89 to 1.45
-  const chroma = v.colour_saturation === 1 ? 0 : 0.5 + v.colour_saturation * 0.25;
-  const analogue = d.process.some(p => p.startsWith("analogue")) || d.process.includes("hybrid");
-  const grain = analogue ? 0.22 : 0.06;
-  const id = "s" + i;
-  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${d.name}: schematic street scene">
-  <defs>
-    <filter id="${id}b"><feGaussianBlur stdDeviation="${blur.toFixed(1)}"/></filter>
-    <filter id="${id}f"><feGaussianBlur stdDeviation="${(blur * 1.6).toFixed(1)}"/></filter>
-    <filter id="${id}g" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="${i + 3}"/><feColorMatrix type="saturate" values="0"/></filter>
-    <clipPath id="${id}c"><rect width="${W}" height="${H}"/></clipPath>
-  </defs>
-  <g clip-path="url(#${id}c)" style="filter:contrast(${contrast.toFixed(2)}) saturate(${chroma.toFixed(2)})">
-    <g transform="translate(${W / 2} ${H * 0.62}) scale(${zoom.toFixed(2)}) translate(${-W / 2} ${-H * 0.62})">
-      <rect width="${W}" height="${H}" fill="${light}"/>
-      <g filter="url(#${id}b)">
-        <rect x="0" y="40" width="${W}" height="120" fill="${mid}"/>
-        ${[0, 1, 2, 3, 4].map(k => `<rect x="${14 + k * 62}" y="${64 + (k % 2) * 14}" width="30" height="40" fill="${dark}" opacity=".55"/>`).join("")}
-        <rect x="0" y="160" width="${W}" height="80" fill="${dark}" opacity=".85"/>
-      </g>
-      <g>
-        <ellipse cx="170" cy="150" rx="26" ry="5" fill="#000" opacity=".25"/>
-        <rect x="156" y="104" width="28" height="48" rx="5" fill="${accent}"/>
-        <circle cx="170" cy="92" r="11" fill="${light}" stroke="${dark}" stroke-width="2"/>
-      </g>
-      <g filter="url(#${id}f)">
-        <path d="M-10 250 Q30 150 70 250 Z" fill="${dark}"/>
-        <path d="M20 250 Q60 170 100 250 Z" fill="${mid}"/>
-      </g>
-    </g>
-    <rect width="${W}" height="${H}" filter="url(#${id}g)" opacity="${grain}" style="mix-blend-mode:overlay"/>
-  </g></svg>`;
-}
-Promise.all(IDS.map(id => fetch(`../data/photography/styles/${id}.json`).then(r => r.json()))).then(all => {
-  document.getElementById("grid").innerHTML = all.map((d, i) => {
-    const l = d.lens_and_camera;
-    return `<figure>${scene(d, i)}<figcaption><b>${d.name}</b>
-      <span>${d.time_period.label}</span>
-      <span class="num">${l.focal_length} · ${l.aperture} · ${l.shutter}</span>
-      <span class="num">STAGE ${d.vectors.staging} · TONE ${d.vectors.tonal_contrast} · CHROMA ${d.vectors.colour_saturation} · DOF ${d.vectors.depth_of_field} · PROX ${d.vectors.proximity}</span>
-      <div class="sw">${d.colour_and_grade.palette.map(p => `<i style="background:${p.hex}" title="${p.name}"></i>`).join("")}</div></figcaption></figure>`;
-  }).join("");
-});
-</script>
+<body data-domain="photography">
+<script src="nav.js"></script>
+<script src="meter.js"></script>
+<script src="gallery.js"></script>
 </body>
 </html>
