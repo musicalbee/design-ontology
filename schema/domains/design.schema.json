@@ -337,7 +337,9 @@
         }
       }
     },
-    "evidence": { "$ref": "../core.schema.json#/$defs/evidence" },
+    "evidence": {
+      "$ref": "../core.schema.json#/$defs/evidence"
+    },
     "lineage": {
       "$ref": "../core.schema.json#/$defs/lineage"
     },
@@ -355,7 +357,8 @@
         "type",
         "icon",
         "art",
-        "layout"
+        "layout",
+        "ground"
       ],
       "properties": {
         "type": {
@@ -582,6 +585,25 @@
               "minimum": -4,
               "maximum": 4,
               "description": "The rotation of accent elements. 0 for a style with a strict grid."
+            }
+          }
+        },
+        "ground": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "why"
+          ],
+          "description": "The ground behind the first screen of a page. The compiler writes it as the --ground token: a stack of gradients that reads the colour tokens of the style.",
+          "properties": {
+            "kind": {
+              "$ref": "../core.schema.json#/$defs/slug",
+              "description": "A ground recipe in scripts/ground.ts. The validator checks that it exists."
+            },
+            "why": {
+              "$ref": "../core.schema.json#/$defs/sentence",
+              "description": "The source of the ground in the history or the materials of the style."
             }
           }
         }

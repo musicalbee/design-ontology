@@ -10,6 +10,7 @@ export interface Visual {
   icon: { mode: "outline" | "solid" | "duotone"; stroke_width: number; linecap: string; linejoin: string; container: string; pack: { id: string; why: string } };
   art: { recipe: string; pattern: string; seed: number };
   layout: { hero: string; align: string; density: string; tilt_deg: number };
+  ground: { kind: string; why: string };
 }
 
 // ── colour ──────────────────────────────────────────────────────────────────

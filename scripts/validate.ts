@@ -9,6 +9,7 @@
 import { Ajv2020 } from "ajv/dist/2020.js";
 import { join } from "node:path";
 import { RECIPE_NAMES } from "./pack.js";
+import { GROUND_KINDS } from "./ground.js";
 import { ROOT, loadDomains, loadEras, loadPeople, loadPrinciples, loadStyleFiles, loadTechniques, principleRefs, readJson, type Style } from "./lib.js";
 
 const schemaOnly = process.argv.includes("--schema-only");
@@ -78,6 +79,9 @@ for (const domain of domains) {
     const recipe = (style.visual as { art: { recipe: string } } | undefined)?.art.recipe;
     if (recipe && !RECIPE_NAMES.includes(recipe))
       errors.push(`${file}: visual.art.recipe "${recipe}" is not in scripts/pack.ts. Known: ${RECIPE_NAMES.join(", ")}`);
+    const ground = (style.visual as { ground?: { kind: string } } | undefined)?.ground?.kind;
+    if (ground && !(GROUND_KINDS as readonly string[]).includes(ground))
+      errors.push(`${file}: visual.ground.kind "${ground}" is not in scripts/ground.ts. Known: ${GROUND_KINDS.join(", ")}`);
 
     for (const ref of principleRefs(style))
       if (!principleIds.has(ref)) errors.push(`${file}: principle "${ref}" is not in data/principles/`);

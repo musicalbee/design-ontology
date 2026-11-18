@@ -184,6 +184,12 @@ Set `data-style="bauhaus"` on the root element and paste the tokens. The file [`
   --body-leading: 1.5;
   --body-size: 17px;
   --icon-stroke: 2;
+  --ground: radial-gradient(circle at 100% 0%, var(--color-accent) 0 26vmin, transparent calc(26vmin + 1px)),
+    linear-gradient(-28deg, transparent calc(50% - .8vmin), var(--color-on-bg) calc(50% - .8vmin) calc(50% + .8vmin), transparent calc(50% + .8vmin)) 100% 100% / 70vmin 40vmin no-repeat,
+    radial-gradient(circle at 86% 82%, var(--color-primary) 0 24vmin, transparent calc(24vmin + 1px)),
+    linear-gradient(to top right, var(--color-highlight) 50%, transparent 50.5%) 58% 100% / 22vmin 22vmin no-repeat,
+    url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'220'%20height%3D'220'%3E%3Cfilter%20id%3D'n'%3E%3CfeTurbulence%20type%3D'fractalNoise'%20baseFrequency%3D'.8'%20numOctaves%3D'3'%20stitchTiles%3D'stitch'%2F%3E%3CfeColorMatrix%20values%3D'0%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200.13%200%200%200%200'%2F%3E%3C%2Ffilter%3E%3Crect%20width%3D'100%25'%20height%3D'100%25'%20filter%3D'url(%23n)'%2F%3E%3C%2Fsvg%3E") 0 0 / 220px 220px repeat,
+    var(--color-bg);
 }
 ```
 
@@ -214,6 +220,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 700, subhead 400, body 400, bold in text 700, labels and buttons 700. The style uses 2 weights (400, 700) and no other. The display is 300 heavier than the body. The accent is size: a larger word is the accent, so the weights stay few.
 - **Body type:** 17px, leading 1.5.
 - **Page:** hero split, left aligned, regular density, accent tilt 0°.
+- **Ground:** primaries. The workshop kit is circle, square and triangle in the three primaries, with one black bar for direction. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack

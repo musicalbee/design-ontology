@@ -39,6 +39,14 @@
   --body-leading: 1.6;
   --body-size: 16px;
   --icon-stroke: 1.5;
+  --ground: radial-gradient(9vmin 5vmin at 78% 24%, rgba(255,255,255,.95) 98%, transparent),
+    radial-gradient(7vmin 4.5vmin at 84% 21%, rgba(255,255,255,.95) 98%, transparent),
+    radial-gradient(11vmin 4vmin at 72% 27%, rgba(255,255,255,.95) 98%, transparent),
+    radial-gradient(6vmin 3.5vmin at 93% 58%, rgba(255,255,255,.85) 98%, transparent),
+    radial-gradient(8vmin 3vmin at 88% 61%, rgba(255,255,255,.85) 98%, transparent),
+    linear-gradient(to bottom, transparent 78%, color-mix(in oklab, var(--color-accent) 55%, transparent) 78% calc(78% + 2px), color-mix(in oklab, var(--color-primary) 18%, transparent) calc(78% + 2px)),
+    linear-gradient(to bottom, color-mix(in oklab, var(--color-accent) 18%, transparent), transparent 78%),
+    var(--color-bg);
 }
 
 /*
@@ -79,6 +87,10 @@
   box-shadow: var(--shadow-elevation);
   -webkit-backdrop-filter: var(--backdrop-filter);
   backdrop-filter: var(--backdrop-filter);
+}
+[data-style="surrealism-web"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
 }
 [data-style="surrealism-web"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

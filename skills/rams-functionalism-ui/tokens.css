@@ -39,6 +39,11 @@
   --body-leading: 1.5;
   --body-size: 16px;
   --icon-stroke: 1.5;
+  --ground: radial-gradient(circle at 88% 18%, var(--color-accent) 0 2.4vmin, transparent calc(2.4vmin + 1px)),
+    radial-gradient(circle, color-mix(in oklab, var(--color-on-bg) 26%, transparent) 30%, transparent 34%) 82% 62% / 2.2vmin 2.2vmin,
+    linear-gradient(90deg, var(--color-bg) 0 60%, transparent 60%),
+    linear-gradient(to bottom, var(--color-bg) 0 36%, transparent 36% 92%, var(--color-bg) 92%),
+    var(--color-bg);
 }
 
 /*
@@ -79,6 +84,10 @@
   box-shadow: var(--shadow-elevation);
   -webkit-backdrop-filter: var(--backdrop-filter);
   backdrop-filter: var(--backdrop-filter);
+}
+[data-style="rams-functionalism-ui"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
 }
 [data-style="rams-functionalism-ui"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

@@ -41,6 +41,12 @@
   --body-leading: 1.5;
   --body-size: 17px;
   --icon-stroke: 1.5;
+  --ground: radial-gradient(40% 55% at 78% 30%, color-mix(in oklab, var(--color-primary) 55%, transparent), transparent 70%),
+    radial-gradient(45% 50% at 95% 75%, color-mix(in oklab, var(--color-accent) 45%, transparent), transparent 70%),
+    radial-gradient(35% 45% at 55% 95%, color-mix(in oklab, var(--color-primary) 35%, transparent), transparent 70%),
+    radial-gradient(30% 35% at 10% 0%, color-mix(in oklab, var(--color-accent) 18%, transparent), transparent 70%),
+    url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'220'%20height%3D'220'%3E%3Cfilter%20id%3D'n'%3E%3CfeTurbulence%20type%3D'fractalNoise'%20baseFrequency%3D'.8'%20numOctaves%3D'3'%20stitchTiles%3D'stitch'%2F%3E%3CfeColorMatrix%20values%3D'0%200%200%200%201%200%200%200%200%201%200%200%200%200%201%200.09%200%200%200%200'%2F%3E%3C%2Ffilter%3E%3Crect%20width%3D'100%25'%20height%3D'100%25'%20filter%3D'url(%23n)'%2F%3E%3C%2Fsvg%3E") 0 0 / 220px 220px repeat,
+    var(--color-bg);
 }
 
 /*
@@ -81,6 +87,10 @@
   box-shadow: var(--shadow-elevation);
   -webkit-backdrop-filter: var(--backdrop-filter);
   backdrop-filter: var(--backdrop-filter);
+}
+[data-style="spatial-visionos"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
 }
 [data-style="spatial-visionos"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

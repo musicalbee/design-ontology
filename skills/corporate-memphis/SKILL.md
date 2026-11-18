@@ -187,6 +187,15 @@ Set `data-style="corporate-memphis"` on the root element and paste the tokens. T
   --body-leading: 1.6;
   --body-size: 17px;
   --icon-stroke: 2;
+  --ground: linear-gradient(100deg, var(--color-bg) 30%, transparent 56%),
+    radial-gradient(circle at 66% 22%, var(--color-primary) 0 3.4vmin, transparent calc(3.4vmin + 1px)),
+    radial-gradient(circle at 92% 64%, transparent 0 4vmin, var(--color-accent) 4vmin 5.6vmin, transparent 5.8vmin),
+    linear-gradient(to top right, var(--color-highlight) 50%, transparent 51%) 80% 12% / 7vmin 7vmin no-repeat,
+    repeating-linear-gradient(45deg, var(--color-on-bg) 0 3px, transparent 3px 12px) 86% 88% / 14vmin 5vmin no-repeat,
+    radial-gradient(circle at 56% 78%, var(--color-accent) 0 1.8vmin, transparent calc(1.8vmin + 1px)),
+    linear-gradient(var(--color-primary), var(--color-primary)) 97% 36% / 3vmin 12vmin no-repeat,
+    radial-gradient(circle, color-mix(in oklab, var(--color-on-bg) 22%, transparent) 1.6px, transparent 2px) 0 0 / 26px 26px,
+    var(--color-bg);
 }
 ```
 
@@ -216,6 +225,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 700, subhead 600, body 400, bold in text 600, labels and buttons 600. The style uses 3 weights (400, 600, 700) and no other. The display is 300 heavier than the body. The accent is weight: a heavier word is the accent, so the steps between the weights are clear.
 - **Body type:** 17px, leading 1.6.
 - **Page:** hero split, left aligned, airy density, accent tilt 0°.
+- **Ground:** confetti. Corporate Memphis decorates the page with small floating shapes in friendly colours. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack

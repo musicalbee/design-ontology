@@ -180,6 +180,12 @@ Set `data-style="apple-aqua"` on the root element and paste the tokens. The file
   --body-leading: 1.45;
   --body-size: 16px;
   --icon-stroke: 2;
+  --ground: radial-gradient(circle at 80% 40%, rgba(255,255,255,.75) 0 2vmin, transparent 6vmin),
+    radial-gradient(circle at 84% 46%, color-mix(in oklab, var(--color-primary) 70%, transparent) 0 15vmin, color-mix(in oklab, var(--color-primary) 25%, transparent) 21vmin, transparent 22vmin),
+    radial-gradient(80% 45% at 70% 100%, color-mix(in oklab, var(--color-primary) 40%, transparent), transparent 70%),
+    linear-gradient(to bottom, rgba(255,255,255,.55), transparent 40%),
+    repeating-linear-gradient(0deg, color-mix(in oklab, var(--color-on-bg) 9%, transparent) 0 2px, transparent 2px 4px),
+    var(--color-bg);
 }
 ```
 
@@ -210,6 +216,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 400, subhead 400, body 400, bold in text 700, labels and buttons 700. The style uses 2 weights (400, 700) and no other. The display has the weight of the body, so size and face carry the hierarchy. The accent is colour: one coloured word or field is the accent, so the weights stay quiet.
 - **Body type:** 16px, leading 1.45.
 - **Page:** hero split, center aligned, regular density, accent tilt 0°.
+- **Ground:** pinstripe. Aqua windows sit on fine grey pinstripes, with a glow of blue light under them. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack

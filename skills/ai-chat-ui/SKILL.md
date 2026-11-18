@@ -180,6 +180,10 @@ Set `data-style="ai-chat-ui"` on the root element and paste the tokens. The file
   --body-leading: 1.6;
   --body-size: 16px;
   --icon-stroke: 1.5;
+  --ground: linear-gradient(100deg, var(--color-bg) 18%, transparent 52%),
+    radial-gradient(circle, color-mix(in oklab, var(--color-on-bg) 30%, transparent) 1.1px, transparent 1.6px) 0 0 / 24px 24px,
+    radial-gradient(55% 60% at 82% 40%, color-mix(in oklab, var(--color-primary) 26%, transparent), transparent 70%),
+    var(--color-bg);
 }
 ```
 
@@ -210,6 +214,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 600, subhead 600, body 400, bold in text 600, labels and buttons 500. The style uses 3 weights (400, 500, 600) and no other. The display is 200 heavier than the body. The accent is colour: one coloured word or field is the accent, so the weights stay quiet.
 - **Body type:** 16px, leading 1.6.
 - **Page:** hero stacked, center aligned, airy density, accent tilt 0°.
+- **Ground:** dot-grid. Chat interfaces keep a calm field with one warm light at the top. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack

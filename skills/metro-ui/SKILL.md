@@ -180,6 +180,12 @@ Set `data-style="metro-ui"` on the root element and paste the tokens. The file [
   --body-leading: 1.45;
   --body-size: 16px;
   --icon-stroke: 2;
+  --ground: linear-gradient(var(--color-primary), var(--color-primary)) 100% 0 / 17vmin 17vmin no-repeat,
+    linear-gradient(var(--color-accent), var(--color-accent)) calc(100% - 18vmin) 0 / 17vmin 17vmin no-repeat,
+    linear-gradient(color-mix(in oklab, var(--color-primary) 70%, transparent), color-mix(in oklab, var(--color-primary) 70%, transparent)) 100% 18vmin / 35vmin 17vmin no-repeat,
+    linear-gradient(color-mix(in oklab, var(--color-accent) 60%, transparent), color-mix(in oklab, var(--color-accent) 60%, transparent)) calc(100% - 18vmin) 36vmin / 17vmin 35vmin no-repeat,
+    linear-gradient(var(--color-surface), var(--color-surface)) 100% 36vmin / 17vmin 17vmin no-repeat,
+    var(--color-bg);
 }
 ```
 
@@ -210,6 +216,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 300, subhead 300, body 400, bold in text 600, labels and buttons 600. The style uses 3 weights (300, 400, 600) and no other. The display is 100 lighter than the body, so size carries the hierarchy. The accent is size: a larger word is the accent, so the weights stay few.
 - **Body type:** 16px, leading 1.45.
 - **Page:** hero poster, left aligned, compact density, accent tilt 0°.
+- **Ground:** tiles. Metro is a wall of flat live tiles in solid colour on a black field. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack

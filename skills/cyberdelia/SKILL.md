@@ -177,6 +177,9 @@ Set `data-style="cyberdelia"` on the root element and paste the tokens. The file
   --body-leading: 1.55;
   --body-size: 16px;
   --icon-stroke: 3;
+  --ground: linear-gradient(100deg, var(--color-bg) 26%, transparent 58%),
+    repeating-conic-gradient(from 0deg at 82% 62%, var(--color-primary) 0 12deg, var(--color-accent) 12deg 24deg, var(--color-primary) 24deg 36deg),
+    var(--color-bg);
 }
 ```
 
@@ -207,6 +210,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 400, subhead 400, body 400, bold in text 700, labels and buttons 700. The style uses 2 weights (400, 700) and no other. The display has the weight of the body, so size and face carry the hierarchy. The accent is colour: one coloured word or field is the accent, so the weights stay quiet.
 - **Body type:** 16px, leading 1.55.
 - **Page:** hero poster, center aligned, compact density, accent tilt -3°.
+- **Ground:** swirl. Cyberdelia mixes rave flyer spirals with screen colour in one turning field. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack

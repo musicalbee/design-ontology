@@ -176,6 +176,13 @@ Set `data-style="japanese-dense-web"` on the root element and paste the tokens. 
   --body-leading: 1.6;
   --body-size: 14px;
   --icon-stroke: 1.5;
+  --ground: linear-gradient(var(--color-primary), var(--color-primary)) 0 0 / 100% 6px no-repeat,
+    linear-gradient(var(--color-accent), var(--color-accent)) 0 8px / 100% 2px no-repeat,
+    linear-gradient(var(--color-accent), var(--color-accent)) 66% 0 / 2px 100% no-repeat,
+    linear-gradient(color-mix(in oklab, var(--color-primary) 8%, transparent), color-mix(in oklab, var(--color-primary) 8%, transparent)) 100% 0 / 34% 100% no-repeat,
+    repeating-linear-gradient(0deg, color-mix(in oklab, var(--color-on-bg) 12%, transparent) 0 1px, transparent 1px 1.6rem),
+    repeating-linear-gradient(90deg, color-mix(in oklab, var(--color-on-bg) 10%, transparent) 0 1px, transparent 1px 25%),
+    var(--color-bg);
 }
 ```
 
@@ -206,6 +213,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 700, subhead 700, body 400, bold in text 700, labels and buttons 700. The style uses 2 weights (400, 700) and no other. The display is 300 heavier than the body. The accent is colour: one coloured word or field is the accent, so the weights stay quiet.
 - **Body type:** 14px, leading 1.6.
 - **Page:** hero split, left aligned, compact density, accent tilt 0°.
+- **Ground:** rules. Dense Japanese portals sit on a ruled grid with a colour bar across the top. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack

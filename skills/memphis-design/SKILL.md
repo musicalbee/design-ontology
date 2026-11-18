@@ -187,6 +187,15 @@ Set `data-style="memphis-design"` on the root element and paste the tokens. The 
   --body-leading: 1.5;
   --body-size: 16px;
   --icon-stroke: 2.5;
+  --ground: linear-gradient(100deg, var(--color-bg) 30%, transparent 56%),
+    radial-gradient(circle at 66% 22%, var(--color-primary) 0 3.4vmin, transparent calc(3.4vmin + 1px)),
+    radial-gradient(circle at 92% 64%, transparent 0 4vmin, var(--color-accent) 4vmin 5.6vmin, transparent 5.8vmin),
+    linear-gradient(to top right, var(--color-primary) 50%, transparent 51%) 80% 12% / 7vmin 7vmin no-repeat,
+    repeating-linear-gradient(45deg, var(--color-on-bg) 0 3px, transparent 3px 12px) 86% 88% / 14vmin 5vmin no-repeat,
+    radial-gradient(circle at 56% 78%, var(--color-accent) 0 1.8vmin, transparent calc(1.8vmin + 1px)),
+    linear-gradient(var(--color-primary), var(--color-primary)) 97% 36% / 3vmin 12vmin no-repeat,
+    radial-gradient(circle, color-mix(in oklab, var(--color-on-bg) 22%, transparent) 1.6px, transparent 2px) 0 0 / 26px 26px,
+    var(--color-bg);
 }
 ```
 
@@ -216,6 +225,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 400, subhead 400, body 400, bold in text 800, labels and buttons 800. The style uses 2 weights (400, 800) and no other. The display has the weight of the body, so size and face carry the hierarchy. The accent is size: a larger word is the accent, so the weights stay few.
 - **Body type:** 16px, leading 1.5.
 - **Page:** hero stacked, left aligned, compact density, accent tilt -1.5°.
+- **Ground:** confetti. Memphis scatters small loud shapes, squiggles and dot fields over a white ground. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack
