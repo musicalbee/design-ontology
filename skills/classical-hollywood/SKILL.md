@@ -174,7 +174,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Video prompt primer
 
-- **Positive:** 1940s Hollywood studio film · three-point lighting · glamour close-up with soft diffusion · 1.37:1 frame · black and white 35mm · Technicolor saturated red and blue · smooth dolly move · match cut on action · orchestral score · studio back lot
+- **Positive:** 1940s Hollywood studio film · three-point lighting · glamour close-up with soft diffusion · 1.37:1 frame · black and white 35mm · Technicolor saturated red and blue · smooth dolly move · match cut on action · studio back lot
 - **Negative:** handheld shake · jump cut · open ending · available light only · teal and orange grade · fast cuts · shallow bokeh
 
 **Canonical works**

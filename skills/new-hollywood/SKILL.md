@@ -174,7 +174,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Video prompt primer
 
-- **Positive:** 1970s American film · anamorphic 2.35:1 frame · grainy 35mm · practical lamps in the frame · slow zoom into a face · long lens compression · desaturated earth tones · source music from a car radio · handheld in a street · freeze frame ending
+- **Positive:** 1970s American film · anamorphic 2.35:1 frame · grainy 35mm · practical lamps in the frame · slow zoom into a face · long lens compression · desaturated earth tones · handheld in a street · freeze frame ending
 - **Negative:** studio back lot · glamour key · teal and orange · clean digital look · orchestral swell · happy ending · gimbal
 
 **Canonical works**

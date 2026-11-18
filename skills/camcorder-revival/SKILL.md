@@ -175,7 +175,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Video prompt primer
 
-- **Positive:** 1990s camcorder footage · VHS tape look · 4:3 frame · date stamp in the corner · handheld home video · chroma bleed and scanlines · tracking glitch · on-camera microphone sound · faded warm colour · autofocus hunting
+- **Positive:** 1990s camcorder footage · VHS tape look · 4:3 frame · date stamp in the corner · handheld home video · chroma bleed and scanlines · tracking glitch · faded warm colour · autofocus hunting
 - **Negative:** crisp 4K · smooth gimbal · 2.39:1 letterbox · teal and orange grade · studio audio · perfect exposure · clean digital image
 
 **Canonical works**

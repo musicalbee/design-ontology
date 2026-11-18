@@ -175,7 +175,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Video prompt primer
 
-- **Positive:** music video · cut on the beat · saturated coloured light · wide lens dance shot · shallow depth of field close-up · hazy beams of light · dancers in formation · speed ramp · signature visual · glossy stylised grade · neon gel light
+- **Positive:** cut on the beat · saturated coloured light · wide lens dance shot · shallow depth of field close-up · hazy beams of light · dancers in formation · speed ramp · signature visual · glossy stylised grade · neon gel light
 - **Negative:** static single take · muted documentary grade · dialogue scene · natural light · slow pacing · plain location · no concept
 
 **Canonical works**

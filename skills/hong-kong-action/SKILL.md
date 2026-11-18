@@ -175,7 +175,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Video prompt primer
 
-- **Positive:** 1980s Hong Kong action film · anamorphic 2.35:1 frame · slow motion gunfight · wire work leap · neon and sodium light · smoke haze · whole-body wide shot · fast cut at 2 s · synth score · dove and shell casings in slow motion
+- **Positive:** 1980s Hong Kong action film · anamorphic 2.35:1 frame · slow motion gunfight · wire work leap · neon and sodium light · smoke haze · whole-body wide shot · fast cut at 2 s · dove and shell casings in slow motion
 - **Negative:** shaky blurred close-up · stunt hidden by cuts · drab desaturated grade · quiet realistic sound · static master shot · clean digital look · gimbal glide
 
 **Canonical works**

@@ -173,7 +173,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Video prompt primer
 
-- **Positive:** 1960s French New Wave film · black and white 35mm pushed stock · handheld tracking shot on a Paris street · jump cut · available light · 1.37:1 frame · visible film grain · actor looks into the camera · freeze frame · jazz piano sting
+- **Positive:** 1960s French New Wave film · black and white 35mm pushed stock · handheld tracking shot on a Paris street · jump cut · available light · 1.37:1 frame · visible film grain · actor looks into the camera · freeze frame
 - **Negative:** studio lighting · colour grade · crane shot · smooth gimbal · orchestral score · invisible edit · glossy skin
 
 **Canonical works**

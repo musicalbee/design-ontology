@@ -174,7 +174,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Video prompt primer
 
-- **Positive:** slow cinema long take · locked-off wide shot · ordinary person in a vast landscape · natural light · real-time scene · no music · deep focus · 2.39:1 frame · muted natural colour · 60 second take · film grain
+- **Positive:** slow cinema long take · locked-off wide shot · ordinary person in a vast landscape · natural light · real-time scene · deep focus · 2.39:1 frame · muted natural colour · 60 second take · film grain
 - **Negative:** fast cuts · dramatic score · shot reverse shot · camera shake · teal and orange grade · explanatory dialogue · lens flare · spectacle
 
 **Canonical works**

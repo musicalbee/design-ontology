@@ -173,7 +173,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Video prompt primer
 
-- **Positive:** 1960s observational documentary · handheld 16mm · available light · sync sound on location · grainy black and white · 1.33:1 frame · zoom to find a face · unscripted conversation · burned-out window · flash frame at a roll change
+- **Positive:** 1960s observational documentary · handheld 16mm · available light · grainy black and white · 1.33:1 frame · zoom to find a face · unscripted conversation · burned-out window · flash frame at a roll change
 - **Negative:** staged scene · studio lighting · voice-of-god narration · score · tripod · colour grade · smooth gimbal
 
 **Canonical works**

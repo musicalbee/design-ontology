@@ -174,7 +174,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Video prompt primer
 
-- **Positive:** Dogme 95 film · handheld camera · available light only · 4:3 standard-definition video look · real location with no set dressing · natural overlapping dialogue · no music, room tone only · DV noise and compression · jump cut · focus hunting
+- **Positive:** Dogme 95 film · handheld camera · available light only · 4:3 standard-definition video look · real location with no set dressing · jump cut · focus hunting
 - **Negative:** tripod or dolly · dramatic lighting · film score · colour grade or LUT · visual effects · genre action · smooth gimbal
 
 **Canonical works**

@@ -174,7 +174,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Video prompt primer
 
-- **Positive:** 1920s German Expressionist silent film · black and white with amber tint · painted sets with skewed perspective · hard single-source light · long shadow on the wall · 1.33:1 frame · iris-in transition · jagged intertitle lettering · stylised acting with wide eyes · 35mm film grain · deep shadow at 8:1
+- **Positive:** 1920s German Expressionist silent film · black and white with amber tint · painted sets with skewed perspective · hard single-source light · long shadow on the wall · 1.33:1 frame · iris-in transition · stylised acting with wide eyes · 35mm film grain · deep shadow at 8:1
 - **Negative:** naturalistic location · soft even light · modern colour grade · straight right-angle walls · handheld shake · fast cuts · spoken dialogue
 
 **Canonical works**
