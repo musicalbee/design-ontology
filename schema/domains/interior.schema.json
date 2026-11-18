@@ -72,7 +72,7 @@
         "symmetry": { "enum": ["bilateral", "radial", "asymmetric", "free"], "description": "bilateral = mirrored about an axis; asymmetric = balanced by unequal masses; free = no balance rule." },
         "axis_count": { "type": "integer", "minimum": 0, "maximum": 3, "description": "Number of ordering axes in the plan." },
         "focal_wall": { "enum": ["back", "left", "right", "window", "centre"], "description": "Where the focal point sits in a room seen from its entrance. centre = a free-standing piece in the middle of the floor." },
-        "focal_position": { "type": "number", "minimum": 0, "maximum": 1, "description": "Position of the focal point along its wall, 0 = left end, 1 = right end. 0.5 = on the axis, 0.33 or 0.67 = on a third." },
+        "focal_position": { "type": "number", "minimum": 0, "maximum": 1, "description": "Position of the focal point along its wall, 0 = left end, 1 = right end. 0.5 = on the axis, 0.33 or 0.67 = on a third. For focal_wall centre, the focal point stands free in the room, and the value is a fraction of the room width, seen from the entrance." },
         "rhythm_module_cm": { "$ref": "#/$defs/cm", "description": "The interval that repeats: a bay, a panel, a shelf, a peg rail." },
         "depth_layers": { "type": "integer", "minimum": 1, "maximum": 5, "description": "Number of planes in depth from the entrance view: foreground, middle ground, back wall and so on." },
         "rules": {
@@ -204,7 +204,7 @@
         "approach": { "$ref": "../core.schema.json#/$defs/sentence" },
         "grouping": { "$ref": "../core.schema.json#/$defs/sentence" },
         "max_per_surface": { "type": "integer", "minimum": 0, "maximum": 30, "description": "Most objects on one shelf, table top or sill." },
-        "hang_centre_cm": { "$ref": "#/$defs/cm", "description": "Height of the centre of hung art above the floor. 0 = the style hangs no art." },
+        "hang_centre_cm": { "type": ["integer", "null"], "minimum": 50, "maximum": 300, "description": "Height of the centre of hung art above the floor. null = the style hangs no art." },
         "items": { "$ref": "#/$defs/words" }
       }
     },

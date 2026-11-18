@@ -164,19 +164,33 @@ flowchart LR
     high_tech_architecture["High-tech"]
     deconstructivist_architecture["Deconstructivism"]
   end
+  subgraph interior_classical_house["Interior · Classical house · 1700–1830"]
+    georgian_interior["Georgian"]
+  end
   subgraph interior_industrial_century["Interior · Industrial century · 1800–1890"]
     shaker_interior["Shaker"]
+    victorian_interior["Victorian"]
+    arts_and_crafts_interior["Arts and Crafts"]
   end
   subgraph interior_modern_reform["Interior · Modern reform · 1890–1940"]
+    art_nouveau_interior["Art Nouveau"]
     bauhaus_interior["Bauhaus interior"]
+    art_deco_interior["Art Deco"]
   end
   subgraph interior_post_war_modern["Interior · Post-war modern · 1940–1990"]
+    hollywood_regency_interior["Hollywood Regency"]
     mid_century_modern_interior["Mid-century modern interior"]
     scandinavian_interior["Scandinavian interior"]
+    industrial_loft_interior["Industrial loft"]
     memphis_interior["Memphis interior"]
+  end
+  subgraph interior_global_minimal["Interior · Global minimal · 1990–2010"]
+    minimalist_interior["Minimalist"]
   end
   subgraph interior_networked_home["Interior · Networked home · 2010–present"]
     japandi_interior["Japandi"]
+    grandmillennial_interior["Grandmillennial"]
+    neo_deco_interior["Neo-deco"]
     dopamine_decor["Dopamine decor"]
     quiet_luxury_interior["Quiet luxury"]
   end
@@ -235,7 +249,15 @@ flowchart LR
     pop_art_painting["Pop Art"]
   end
   abstract_expressionism <-. echoes .-> brutalist_architecture
+  art_deco_architecture <-. echoes .-> art_deco_interior
+  art_deco_architecture <-. echoes .-> neo_deco_interior
+  art_deco_interior <-. echoes .-> art_deco_web
+  art_deco_web <-. echoes .-> hollywood_regency_interior
+  art_deco_web <-. echoes .-> neo_deco_interior
+  art_nouveau_architecture <-. echoes .-> art_nouveau_interior
   art_nouveau_architecture <-. echoes .-> rococo_painting
+  art_nouveau_interior <-. echoes .-> art_nouveau_web
+  arts_and_crafts_interior <-. echoes .-> nordic_national_romanticism_painting
   baroque_painting <-. echoes .-> german_expressionist_cinema
   bauhaus <-. echoes .-> bauhaus_architecture
   bauhaus <-. echoes .-> bauhaus_interior
@@ -245,6 +267,7 @@ flowchart LR
   bauhaus_interior <-. echoes .-> international_style_architecture
   brutalist_architecture <-. echoes .-> constructivism_web
   brutalist_architecture <-. echoes .-> dogme_95
+  brutalist_architecture <-. echoes .-> industrial_loft_interior
   brutalist_architecture <-. echoes .-> neo_brutalism_ui
   brutalist_architecture <-. echoes .-> new_topographics
   camcorder_revival <-. echoes .-> grunge_editorial
@@ -258,11 +281,17 @@ flowchart LR
   deconstructivist_architecture <-. echoes .-> grunge_editorial
   dopamine_decor <-. echoes .-> memphis_design
   fauvism <-. echoes .-> new_colour
+  flat_design <-. echoes .-> minimalist_interior
   flat_design <-. echoes .-> ukiyo_e
+  georgian_interior <-. echoes .-> renaissance_painting
+  grandmillennial_interior <-. echoes .-> impressionism
   grunge_editorial <-. echoes .-> party_flash
   grunge_editorial <-. echoes .-> street_photography
+  high_tech_architecture <-. echoes .-> industrial_loft_interior
   impressionism <-. echoes .-> pictorialism
+  industrial_loft_interior <-. echoes .-> new_topographics
   international_style_architecture <-. echoes .-> mid_century_modern_interior
+  international_style_architecture <-. echoes .-> minimalist_interior
   international_style_architecture <-. echoes .-> new_topographics
   international_style_architecture <-. echoes .-> rams_functionalism_ui
   international_style_architecture <-. echoes .-> straight_photography
@@ -273,8 +302,10 @@ flowchart LR
   memphis_design <-. echoes .-> postmodern_architecture
   mid_century_modern <-. echoes .-> mid_century_modern_architecture
   mid_century_modern <-. echoes .-> mid_century_modern_interior
+  minimalist_interior <-. echoes .-> rams_functionalism_ui
   nordic_national_romanticism_painting <-. echoes .-> scandinavian_interior
   party_flash <-. echoes .-> y2k_aesthetic
+  pictorialism <-. echoes .-> victorian_interior
   pop_art_painting <-. echoes .-> pop_art_web
   realism_painting <-. echoes .-> straight_photography
   straight_photography <-. echoes .-> swiss_international
@@ -283,6 +314,8 @@ flowchart LR
   cubism_painting --> abstract_expressionism
   surrealism_painting --> abstract_expressionism
   art_nouveau_architecture --> art_deco_architecture
+  arts_and_crafts_interior --> art_nouveau_interior
+  shaker_interior --> arts_and_crafts_interior
   renaissance_painting --> baroque_painting
   flat_design --> bento_grid_ui
   swiss_international --> bento_grid_ui
@@ -297,15 +330,22 @@ flowchart LR
   soviet_montage --> french_new_wave
   y2k_aesthetic --> frutiger_aero
   frutiger_aero --> glassmorphism
+  georgian_interior --> grandmillennial_interior
+  victorian_interior --> grandmillennial_interior
   international_style_architecture --> high_tech_architecture
+  art_deco_interior --> hollywood_regency_interior
+  georgian_interior --> hollywood_regency_interior
   realism_painting --> impressionism
+  bauhaus_interior --> industrial_loft_interior
   scandinavian_interior --> japandi_interior
   renaissance_painting --> mannerism_painting
   flat_design --> material_design
   bauhaus --> mid_century_modern
   international_style_architecture --> mid_century_modern_architecture
   bauhaus_interior --> mid_century_modern_interior
+  bauhaus_interior --> minimalist_interior
   flat_design --> neo_brutalism_ui
+  art_deco_interior --> neo_deco_interior
   skeuomorphism --> neumorphism
   street_photography --> new_colour
   straight_photography --> new_topographics
@@ -322,9 +362,13 @@ flowchart LR
   bauhaus --> swiss_international
   y2k_aesthetic --> vaporwave
   creator_vlog --> vertical_short_form
+  georgian_interior --> victorian_interior
   new_colour --> y2k_digicam
   abstract_expressionism -. rejects .-> de_stijl_painting
+  art_deco_interior -. rejects .-> art_nouveau_interior
   art_deco_web -. rejects .-> art_nouveau_web
+  art_nouveau_interior -. rejects .-> victorian_interior
+  arts_and_crafts_interior -. rejects .-> victorian_interior
   constructivism_web -. rejects .-> art_nouveau_web
   cubism_painting -. rejects .-> impressionism
   cubism_painting -. rejects .-> renaissance_painting
@@ -335,12 +379,16 @@ flowchart LR
   dopamine_decor -. rejects .-> japandi_interior
   dopamine_decor -. rejects .-> scandinavian_interior
   flat_design -. rejects .-> skeuomorphism
+  grandmillennial_interior -. rejects .-> minimalist_interior
+  grandmillennial_interior -. rejects .-> scandinavian_interior
   grunge_editorial -. rejects .-> swiss_international
   memphis_design -. rejects .-> swiss_international
   memphis_interior -. rejects .-> bauhaus_interior
   memphis_interior -. rejects .-> mid_century_modern_interior
+  minimalist_interior -. rejects .-> memphis_interior
   neo_brutalism_ui -. rejects .-> corporate_memphis
   neo_brutalism_ui -. rejects .-> material_design
+  neo_deco_interior -. rejects .-> minimalist_interior
   neumorphism -. rejects .-> flat_design
   pop_art_painting -. rejects .-> abstract_expressionism
   postmodern_architecture -. rejects .-> brutalist_architecture
@@ -400,37 +448,61 @@ flowchart LR
   linkStyle 43 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 44 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 45 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 89 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 90 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 91 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 92 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 93 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 94 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 95 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 96 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 97 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 98 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 99 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 100 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 101 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 102 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 103 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 104 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 105 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 106 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 107 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 108 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 109 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 110 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 111 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 112 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 113 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 114 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 115 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 46 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 47 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 48 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 49 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 50 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 51 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 52 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 53 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 54 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 55 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 56 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 57 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 58 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 59 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 60 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 61 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 62 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 116 stroke:#E5484D,stroke-width:1.5px
   linkStyle 117 stroke:#E5484D,stroke-width:1.5px
   linkStyle 118 stroke:#E5484D,stroke-width:1.5px
   linkStyle 119 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 120 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 121 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 122 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 123 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 124 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 125 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 126 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 127 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 128 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 129 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 130 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 131 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 132 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 133 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 134 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 135 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 136 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 137 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 138 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 139 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 140 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 141 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 142 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 143 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 144 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 145 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 146 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 147 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 148 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 149 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 150 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 151 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 152 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 153 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 
