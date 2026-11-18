@@ -219,6 +219,17 @@ The rules above name these shared principles by id. The definition is the same i
 | `unity-variety` | Unity and variety | Repeated materials, colours and shapes join the parts into one whole. A small, planned number of deviations keeps the whole alive. | materials or hues that repeat (count): 2 to 4; deliberate deviations (count): 1 to 2 |
 | `camera-station` | Camera station | The position, height, lens and aim of the camera for one view. It sets the perspective of the room in the image: the horizon, the fall of the verticals and the shares of floor, wall and ceiling in the frame. | lens focal length (mm, full-frame equivalent): 24–35; 17–20 only in a room narrower than 2.5 m; camera height (cm above the floor): 100–150; 100–120 for a seated view; vertical convergence (degrees): 0: the camera is level, and lens shift (not tilt) moves the frame; ceiling share of the frame (% of the frame height): 20 or less, unless the ceiling is the subject; object cut by the frame edge (% of the object inside the frame): 66 or more, or the object is out of the frame |
 
+## Moodboard
+
+6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (FLUX.2 [klein] 4B, Apache-2.0, seed 1955, 4 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#shaker-interior).
+
+![Room](../../demo/moodboards/interior/shaker-interior/room.webp)
+![Materials](../../demo/moodboards/interior/shaker-interior/materials.webp)
+![Furniture](../../demo/moodboards/interior/shaker-interior/furniture.webp)
+![Textiles](../../demo/moodboards/interior/shaker-interior/textiles.webp)
+![Light](../../demo/moodboards/interior/shaker-interior/light.webp)
+![Objects](../../demo/moodboards/interior/shaker-interior/objects.webp)
+
 ## Vocabulary primer
 
 Use these terms in a brief, an image prompt or a 3D scene description.

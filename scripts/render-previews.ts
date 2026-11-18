@@ -19,7 +19,7 @@ const force = args.includes("--force");
 const dry = args.includes("--dry-run");
 if (!domain) throw new Error("Give --domain photography|film|painting|interior|architecture");
 
-type Override = { subject?: string; size?: keyof typeof SIZES };
+type Override = { subject?: string; size?: keyof typeof SIZES; drop?: string };
 const subjects = JSON.parse(readFileSync("scripts/previews/subjects.json", "utf8")) as {
   domains: Record<string, { subject: string; suffix?: string; drop?: string }>;
   styles?: Record<string, Override>;
@@ -44,8 +44,10 @@ const positive = (s: any): string[] =>
   s.prompt_primer?.positive ?? s.primer?.positive ?? (s.implementation?.image_prompt ? [s.implementation.image_prompt] : []);
 const subjectFor = (s: any) => override(s).subject ?? dom.subject;
 const sizeFor = (s: any) => SIZES[override(s).size ?? "landscape"];
+// A style override can also drop primer words that only that style has (a frame motif, a shaped canvas).
+const keep = (s: any) => { const own = override(s).drop ? new RegExp(override(s).drop!, "i") : null; return (w: string) => !drop?.test(w) && !own?.test(w); };
 const promptFor = (s: any) =>
-  [subjectFor(s), ...positive(s).filter((w) => !drop?.test(w)), ...(dom.suffix ? [dom.suffix] : [])].join(", ");
+  [subjectFor(s), ...positive(s).filter(keep(s)), ...(dom.suffix ? [dom.suffix] : [])].join(", ");
 
 async function render(s: any) {
   const prompt = promptFor(s);

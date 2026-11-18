@@ -1,5 +1,5 @@
 {
-  "$comment": "One fixed subject for each image domain, so that the previews compare styles and not scenes. No real persons, no brands. 'suffix' is added to each prompt of the domain. 'drop' removes primer words that make the model draw text or frames that do not belong on the page. A style override changes the subject or the frame only where the domain subject cannot show the style.",
+  "$comment": "One fixed subject for each image domain, so that the previews compare styles and not scenes. No real persons, no brands. 'suffix' is added to each prompt of the domain. 'drop' removes primer words that make the model draw text or frames that do not belong on the page. A style override changes the subject or the frame only where the domain subject cannot show the style. A style override can also give 'drop' for primer words of that style only.",
   "domains": {
     "photography": {
       "subject": "a corner of a small-town street with a parked car, a shop front and one person who walks past",
@@ -27,15 +27,20 @@
       "subject": "a public building on a city square, seen from across the square at eye height, two-point view with level verticals, the whole building in the frame with sky above, a few small people for scale",
       "suffix": "architectural photograph, no readable text on the facade, no logos"
     },
-    "icon": { "subject": "a 3 by 3 sheet of nine app icons: house, envelope, camera, calendar, gear, bell, search, heart, folder, on a plain ground", "suffix": "no letters, no text, no labels, no logos", "drop": "label|caption|text|letter|typograph|logo|wordmark" }
+    "icon": {
+      "subject": "a 3 by 3 sheet of nine app icons: house, envelope, camera, calendar, gear, bell, search, heart, folder, on a plain ground",
+      "suffix": "no letters, no text, no labels, no logos",
+      "drop": "label|caption|text|letter|typograph|logo|wordmark"
+    }
   },
   "styles": {
     "film/creator-vlog": {
       "subject": "a vlog frame: one person holds the camera at arm's length and talks to it in a kitchen at night, a second person sits at the table behind"
     },
     "film/vertical-short-form": {
-      "subject": "a vertical phone video frame: one person talks to the camera in a kitchen at night, a second person at the table behind, ring light on the face",
-      "size": "portrait"
+      "subject": "one single uninterrupted vertical phone video frame, not a split screen: one person talks to the camera in a kitchen at night, a second person at the table behind, ring light on the face, no app interface, no timestamps, no music note, no watermark",
+      "size": "portrait",
+      "drop": "cuts|transition|zoom|loop|hook"
     },
     "film/cinematic-fpv": {
       "subject": "an FPV drone shot that dives low past a house toward a lit kitchen window where two people sit at a table, level horizon"
@@ -44,10 +49,33 @@
       "subject": "a vignette mark for a fictional coffee roaster: one coffee branch with leaves and berries inside a frame of plant stems, on a plain ground, centred"
     },
     "logo/minimal-wordmark": {
-      "subject": "a minimal mark for a fictional coffee roaster: one coffee bean drawn from two monoline arcs with one cut in the stroke, on a plain ground, centred"
+      "subject": "a minimal mark for a fictional coffee roaster: one oval coffee bean seen from above, outline drawn in one monoline stroke, with the centre crease as one S-curve line, on a plain ground, centred"
     },
     "painting/abstract-expressionism": {
       "subject": "an abstract expressionist painting of a harbour at dusk, where the boats, the quay and the houses dissolve into gestural fields of colour and drips"
+    },
+    "painting/minimalism-painting": {
+      "subject": "a minimalist painting of a small harbour reduced to a few flat fields of colour: sea, quay, a row of houses, two boats, the flat colour fields run to all four edges of the image, no white margin, no wall, no canvas edge",
+      "drop": "shaped canvas|plain object|stripes|grid"
+    },
+    "painting/rococo-painting": {
+      "subject": "a rococo painting of a small harbour with fishing boats, a stone quay, a row of houses and one figure in pastel dress on the quay, the scene fills the whole image, no ornamental border, no cartouche, no flower garland frame, no ribbons at the edges",
+      "drop": "ribbon|gilt"
+    },
+    "painting/ukiyo-e": {
+      "subject": "a full-bleed crop from the inside of a ukiyo-e woodblock print: a small harbour with fishing boats, a stone quay, a row of houses and one figure on the quay, the image is cropped inside the print so no paper edge, no margin, no border line, no seal and no inscription are visible",
+      "drop": "cartouche|seal|washi"
+    },
+    "logo/flat-logo": {
+      "subject": "a flat logo mark for a fictional coffee roaster: one coffee cup with a rising steam curve, drawn from three flat solid shapes in two colours, on a plain ground, centred, not a grid of squares",
+      "drop": "four|squares|app icon|tech"
+    },
+    "logo/glossy-3d-logo": {
+      "subject": "a glossy 3D logo mark for a fictional coffee roaster: one coffee bean with a shiny bevelled surface and a soft reflection, on a plain ground, centred"
+    },
+    "logo/victorian-trademark": {
+      "subject": "a Victorian trademark device for a fictional coffee roaster: one pictorial animal emblem inside an oval frame with engraved scroll ornament, on a plain cream ground, centred, the frame and the scrolls are blank with no letters, no words and no banners",
+      "drop": "ribbon|banner|label"
     }
   }
 }
