@@ -126,10 +126,20 @@ const manifest = fetch("moodboards/interior/manifest.json").then((r) => (r.ok ? 
 const TILES = [["room", "Room"], ["furniture", "Furniture"], ["materials", "Materials"], ["textiles", "Textiles"], ["light", "Light"], ["objects", "Objects"]];
 const cache = {};
 
-function tile(id, label, rec, prompt) {
+// What the style record says for a facet, shown on a tile that is not rendered yet.
+const words = (v) => typeof v === "string" ? [v] : Array.isArray(v) ? v.flatMap(words) : v && typeof v === "object" ? Object.values(v).flatMap(words) : [];
+const cut = (t, n = 180) => (t.length > n ? `${t.slice(0, n - 1).trimEnd()}…` : t);
+function facet(s, id) {
+  const f = { room: s.summary, furniture: s.furniture?.key_pieces ?? s.furniture, materials: s.materials, textiles: s.textiles?.fabrics ?? s.textiles,
+    light: s.lighting?.strategy, objects: s.objects?.items ?? s.objects }[id];
+  const w = words(f);
+  return w.length ? cut(w.join(", ")) : "";
+}
+
+function tile(id, label, rec, text) {
   const body = rec
     ? `<img src="moodboards/interior/${esc(rec.file)}" alt="${esc(label)}: ${esc(rec.prompt)}" loading="lazy" decoding="async">`
-    : `<div class="missing"><b>Not rendered yet</b>${esc(prompt ?? "No data for this facet.")}</div>`;
+    : `<div class="missing"><b>Not rendered yet</b>${esc(text)}</div>`;
   return `<figure class="tile" data-t="${id}">${body}<figcaption>${esc(label)}</figcaption></figure>`;
 }
 
@@ -141,7 +151,7 @@ async function show(id, push) {
   $("title").innerHTML = `<h2>${esc(s.name)}</h2><p>${esc(s.summary)}</p>`;
 
   const board = m.boards?.[id] ?? {};
-  const t = Object.fromEntries(TILES.map(([k, l]) => [k, tile(k, l, board[k])]));
+  const t = Object.fromEntries(TILES.map(([k, l]) => [k, tile(k, l, board[k], facet(s, k))]));
   $("board").innerHTML = `<div class="top">${t.room}${t.furniture}</div><div class="row">${t.materials}${t.textiles}${t.light}${t.objects}</div>`;
   const done = Object.keys(board).length;
   const any = Object.values(board)[0];
@@ -172,8 +182,9 @@ fetch("../skills/index.json").then((r) => r.json()).then((index) => {
   const styles = index.skills.filter((s) => s.domain === "interior").sort((a, b) => a.name.localeCompare(b.name));
   $("pills").innerHTML = styles.map((s) => `<button type="button" data-id="${esc(s.id)}" aria-pressed="false">${esc(s.name)}</button>`).join("");
   $("pills").onclick = (e) => { const b = e.target.closest("button"); if (b) show(b.dataset.id, true); };
-  const want = location.hash.slice(1);
-  show(styles.some((s) => s.id === want) ? want : "japandi-interior", false);
+  const pick = () => { const want = location.hash.slice(1); show(styles.some((s) => s.id === want) ? want : "japandi-interior", false); };
+  addEventListener("hashchange", pick);
+  pick();
 });
 </script>
 </body>

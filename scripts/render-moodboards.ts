@@ -46,11 +46,11 @@ export const TILES: { id: string; label: string; size: typeof SQUARE; prompt: (s
   },
   {
     id: "light", label: "Light", size: PORTRAIT,
-    prompt: (s) => s.lighting && `corner of a room at dusk, the lamps on: ${evening(s)}, ${s.lighting.strategy} warm ${s.lighting.cct_evening_k ?? s.lighting.cct_k ?? 2700} K light, pools of light and soft shadow, interior photograph`,
+    prompt: (s) => s.lighting && `corner of a room at dusk, the lamps on: ${evening(s)}, ${s.lighting.strategy}, warm ${s.lighting.cct_evening_k ?? s.lighting.cct_k ?? 2700} K light, pools of light and soft shadow, interior photograph`,
   },
   {
     id: "objects", label: "Objects", size: SQUARE,
-    prompt: (s) => s.objects && `still life on a sideboard against a ${colours(s, ["dominant"]) || "plain"} wall: ${list(s.objects.items)}, ${s.objects.grouping} ${s.objects.approach} interior styling photograph`,
+    prompt: (s) => s.objects && `still life on a sideboard against a ${colours(s, ["dominant"]) || "plain"} wall: ${list(s.objects.items)}, ${s.objects.grouping}, ${s.objects.approach}, interior styling photograph`,
   },
 ];
 

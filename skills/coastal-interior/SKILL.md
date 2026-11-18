@@ -1,6 +1,6 @@
 ---
 name: coastal-interior
-description: "Apply the Coastal interior style (1980s–present) when planning, describing or rendering a room. Load when the user asks for: coastal, coastal style, beach house, summer house, sommerhus, hytte by the sea."
+description: "Apply the Coastal interior style (1990s–present) when planning, describing or rendering a room. Load when the user asks for: coastal, coastal style, beach house, summer house, sommerhus, hytte by the sea."
 domain: interior
 era: global-minimal
 triggers:
@@ -27,7 +27,7 @@ vector_profile:
 
 The airy summer-house room by the sea. White and sand-coloured walls, white-washed or grey-oiled wood, linen slipcovers and woven rope or rattan; one sea blue carries the accents, and the room opens to the water and the light.
 
-**Period:** 1980s–present · **Era:** Global minimal · **Domain:** Interior · **Also called:** Coastal style, Nordic coastal, Summer-house style, Hamptons style
+**Period:** 1990s–present · **Era:** Global minimal · **Domain:** Interior · **Also called:** Coastal style, Nordic coastal, Summer-house style, Hamptons style
 
 ## When to load this skill
 
