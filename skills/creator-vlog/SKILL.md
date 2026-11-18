@@ -88,7 +88,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | sightlines | Look at the lens, not at the screen, for the direct address, and look away on the cut. | eye contact 70% of the time |
 | rhythm | Remove every pause and breath with a jump cut so that the cut rate sets the pace. | 2 to 4 s average shot |
 | hierarchy | Give the text card one size above all others and show it for the time of one read. | 1 caption at a time, 1 to 2 s |
-| rule-of-thirds | Place the eyes on the upper third line and leave head room. | eyes on the upper third line |
+| rule-of-thirds | Place the eyes on the upper third line and leave head room. | eyes at 33% from the top |
 
 ## Camera & movement
 

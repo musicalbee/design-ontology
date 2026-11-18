@@ -85,7 +85,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | Principle | Rule | Value |
 |---|---|---|
 | contrast | Set one hard key against a near-black set, and let the lit face be the only bright mass in each shot. | 8:1 key to fill (3 stops) |
-| focal-point | Put the lit figure low in the frame and let a looming shadow or stair take the upper third. | figure in the lower third |
+| focal-point | Put the lit figure low in the frame and let a looming shadow or stair take the upper third. | figure in the lower 33% of the frame |
 | leading-lines | Paint stairs, walls and shadows as diagonals that run from the edge of the frame to the figure. | 5° to 20° off the vertical |
 | layering-depth | Stack painted flats at several depths so that perspective is false but deep. | 3 to 5 painted depth planes |
 | negative-space | Leave a large dark mass above or beside the figure as the main shape of the frame. | 50% or more of the frame dark |

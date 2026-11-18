@@ -88,7 +88,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | layering-depth | Pass an object in the foreground to give a 3-plane parallax: near, mid and far. | 3 planes, near pass at 0.5 to 2 m |
 | scale | Fly through an opening that is only a little wider than the drone to show size by tension. | gap 1.2 to 2 times the drone width |
 | rhythm | Hold one fast flight line of 15 to 40 s with one cut, and avoid cutting inside the dive. | 1 to 3 cuts per 60 s |
-| focal-point | Aim the nose at the target and keep it on the third line as the camera dives. | target on the upper or lower third |
+| focal-point | Aim the nose at the target and keep it on the third line as the camera dives. | target at 33% or 67% of the frame height |
 
 ## Camera & movement
 
