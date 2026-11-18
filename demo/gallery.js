@@ -135,6 +135,7 @@ function show(i) {
     const vec = $("vec"), lead = vivid(found.hex.map((c) => c.hex));
     vec.style.setProperty("--color-primary", lead || "#1d1d1f");
     vec.innerHTML = VectorMeter.html(domain.vectors, s.vectors, { poles: true });
+    VectorMeter.fit(vec);
     $("sw").innerHTML = found.hex.slice(0, 10).map((c) => `<span><i style="background:${esc(c.hex)}"></i>${esc(c.name)} <code>${esc(c.hex)}</code></span>`).join("");
     const pp = s.prompt_primer || {};
     $("p-pos").textContent = (pp.positive || []).join(", ");

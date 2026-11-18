@@ -27,11 +27,11 @@
   table.flow thead th { text-align: center; font-weight: 600; }
   table.flow td { padding: 0; text-align: center; border: 1px solid var(--paper); }
   table.flow td button { all: unset; box-sizing: border-box; display: grid; place-items: center; width: 64px; height: 38px; cursor: pointer; line-height: 1.1; }
-  table.flow td button:disabled { cursor: default; color: var(--line); }
+  table.flow td button:disabled { cursor: default; color: var(--muted); }
   table.flow td button b { font-size: 14px; }
-  table.flow td button small { color: var(--muted); font-size: 10px; }
+  table.flow td button small { color: var(--ink); font-size: 10px; }
   table.flow td button[aria-pressed="true"] { outline: 2px solid var(--accent); outline-offset: -2px; }
-  table.flow td.self button { color: var(--muted); }
+  table.flow td.self button { color: var(--ink); font-style: italic; }
   .controls { display: flex; flex-wrap: wrap; gap: 4px 16px; align-items: center; font-size: 13px; color: var(--muted); }
   .controls label { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
   .controls input[type="radio"] { margin: 0; accent-color: var(--ink); }
@@ -157,7 +157,7 @@ function flowTable() {
     h += `<tr><th style="color:${col(f)}">${esc(domains.find((x) => x.id === f).name)}</th>`;
     for (const to of ds) {
       const v = cells[`${f}|${to}`];
-      const a = v ? 0.12 + 0.55 * (v.length / max) : 0;
+      const a = v ? 0.1 + 0.3 * (v.length / max) : 0; // capped, so the ink numbers keep 4.5:1 on the darkest cell
       const on = cellFilter && cellFilter[0] === f && cellFilter[1] === to;
       h += `<td class="${f === to ? "self" : ""}" style="background:${v ? `color-mix(in srgb, ${col(to)} ${Math.round(a * 100)}%, white)` : "var(--band)"}">` +
         `<button data-f="${f}" data-t="${to}" aria-pressed="${!!on}" ${v ? "" : "disabled"} aria-label="${v ? `${v.length} ${v.length === 1 ? "move" : "moves"} from ${f} to ${to}, median lag ${med(v)} years` : `no move from ${f} to ${to}`}">` +
