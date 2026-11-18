@@ -39,6 +39,10 @@
   --body-leading: 1.6;
   --body-size: 16px;
   --icon-stroke: 1.5;
+  --ground: linear-gradient(100deg, var(--color-bg) 18%, transparent 52%),
+    radial-gradient(circle, color-mix(in oklab, var(--color-on-bg) 30%, transparent) 1.1px, transparent 1.6px) 0 0 / 24px 24px,
+    radial-gradient(55% 60% at 82% 40%, color-mix(in oklab, var(--color-primary) 26%, transparent), transparent 70%),
+    var(--color-bg);
 }
 
 /*
@@ -79,6 +83,10 @@
   box-shadow: var(--shadow-elevation);
   -webkit-backdrop-filter: var(--backdrop-filter);
   backdrop-filter: var(--backdrop-filter);
+}
+[data-style="ai-chat-ui"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
 }
 [data-style="ai-chat-ui"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

@@ -44,6 +44,10 @@
   --body-leading: 1.55;
   --body-size: 16px;
   --icon-stroke: 2;
+  --ground: radial-gradient(70% 60% at 50% 105%, transparent 30%, var(--color-bg) 75%),
+    repeating-conic-gradient(from -90deg at 50% 108%, color-mix(in oklab, var(--color-primary) 34%, transparent) 0 4deg, transparent 4deg 9deg),
+    repeating-radial-gradient(circle at 50% 108%, transparent 0 18vmin, color-mix(in oklab, var(--color-primary) 40%, transparent) 18vmin calc(18vmin + 2px), transparent calc(18vmin + 2px) 24vmin),
+    var(--color-bg);
 }
 
 /*
@@ -84,6 +88,10 @@
   box-shadow: var(--shadow-elevation);
   -webkit-backdrop-filter: var(--backdrop-filter);
   backdrop-filter: var(--backdrop-filter);
+}
+[data-style="space-age"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
 }
 [data-style="space-age"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

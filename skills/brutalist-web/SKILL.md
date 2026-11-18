@@ -175,6 +175,10 @@ Set `data-style="brutalist-web"` on the root element and paste the tokens. The f
   --body-leading: 1.4;
   --body-size: 16px;
   --icon-stroke: 1;
+  --ground: linear-gradient(var(--color-accent), var(--color-accent)) 0 0 / 100% 6px no-repeat,
+    repeating-linear-gradient(0deg, var(--color-on-bg) 0 1px, transparent 1px 2.5rem) 100% 0 / 14px 100% no-repeat,
+    repeating-linear-gradient(0deg, var(--color-on-bg) 0 2px, transparent 2px 10rem) 100% 0 / 28px 100% no-repeat,
+    var(--color-bg);
 }
 ```
 
@@ -205,6 +209,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 700, subhead 700, body 400, bold in text 700, labels and buttons 400. The style uses 2 weights (400, 700) and no other. The display is 300 heavier than the body. The accent is size: a larger word is the accent, so the weights stay few.
 - **Body type:** 16px, leading 1.4.
 - **Page:** hero stacked, left aligned, compact density, accent tilt 0°.
+- **Ground:** raw. Brutalist pages show their structure: a default blue rule and a plain ruler at the edge. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack

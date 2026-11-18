@@ -95,6 +95,74 @@
   .stage[data-align="center"][data-hero="stacked"] .hero h1 { margin-inline: auto; }
   .stage[data-align="center"] .hero .cta { justify-content: center; }
 
+  /* fold: the first screen below the shared header. It stands on --ground, the ground of the style. */
+  .fold { min-height: calc(100svh - 56px); display: grid; grid-template-rows: auto minmax(0, 1fr) auto; position: relative; isolation: isolate; overflow: clip;
+    background: var(--ground, var(--color-bg)); color: var(--color-on-bg); border-bottom: var(--border-width) solid var(--color-border); }
+  @media (max-width: 899px) {
+    .fold.ground { background: linear-gradient(to bottom, color-mix(in oklab, var(--color-bg) 90%, transparent) 0 52%, transparent 78%), var(--ground, var(--color-bg)); }
+    .fold.ground[data-ground="swirl"]::after { background: linear-gradient(to bottom, color-mix(in oklab, var(--color-bg) 92%, transparent) 0 55%, transparent 80%); }
+  }
+  .fold > * { width: 100%; }
+  .fold > .hero, .fold > .hero > .wrap { display: grid; }
+  .fold .hero .grid { align-content: center; }
+  .stage[data-hero="stacked"] .fold .hero .grid { grid-template-rows: auto minmax(140px, 1fr); align-content: stretch; }
+  .stage[data-hero="stacked"] .fold figure { min-height: 0; position: relative; align-self: stretch; }
+  .stage[data-hero="stacked"] .fold .plate { aspect-ratio: auto; position: absolute; inset: 0; height: 100%; }
+  @media (min-width: 900px) {
+    .stage[data-hero="poster"] .fold .hero .grid { grid-template-rows: minmax(340px, 1fr); align-content: stretch; }
+    .stage[data-hero="poster"] .fold figure { min-height: 0; position: relative; align-self: stretch; margin-bottom: 3.5rem; padding: 0; }
+    .stage[data-hero="poster"] .fold .plate { aspect-ratio: auto; position: absolute; inset: 0; height: 100%; }
+    .stage[data-hero="poster"] .fold .hero figure, .stage[data-hero="poster"] .fold .hero .copy { grid-area: 1 / 1; }
+    .stage[data-hero="poster"] .fold .hero .copy { position: relative; left: auto; bottom: auto; align-self: end; justify-self: start; margin-left: clamp(16px, 4vw, 56px); }
+  }
+  .stage .fold section.hero { padding-block: var(--gap); }
+  .stage .fold h1 { font-size: calc(clamp(2.4rem, min(6.4vw, 8.5svh), 6rem) * var(--h1-scale, 1)); }
+  .fold .hero .copy { gap: var(--gap); }
+  @media (max-height: 1000px) and (min-width: 900px) { .fold .hero .copy > .muted { display: none; } }
+  .stage[data-hero="stacked"] .fold h1 { font-size: calc(clamp(2.4rem, min(6vw, 6.8svh), 5rem) * var(--h1-scale, 1)); }
+  .stage[data-hero="split"] .fold h1 { font-size: calc(clamp(2.4rem, min(5.2vw, 7.6svh), 5.4rem) * var(--h1-scale, 1)); }
+  .fold .copy > *, .fold figure { animation: rise .7s cubic-bezier(.2,.7,.2,1) both; }
+  .fold .copy > :nth-child(2) { animation-delay: .06s; } .fold .copy > :nth-child(3) { animation-delay: .12s; }
+  .fold .copy > :nth-child(4) { animation-delay: .18s; } .fold .copy > :nth-child(5) { animation-delay: .24s; } .fold figure { animation-delay: .2s; }
+  @keyframes rise { from { opacity: 0; translate: 0 18px; } }
+  @media (min-width: 900px) { .stage[data-hero="split"] .fold .plate { max-height: calc(100svh - 300px); } }
+  .explore { padding: 0 0 calc(var(--gap) * 1.25); }
+  .explore .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; }
+  .explore .muted { margin-right: .5rem; }
+  .explore a { display: inline-flex; align-items: baseline; gap: .45em; padding: .45em .95em; font-size: .92rem; text-decoration: none; color: var(--color-on-surface);
+    background: color-mix(in oklab, var(--color-surface) 82%, transparent); border: var(--border-width) solid var(--color-border);
+    border-radius: min(var(--border-radius), 999px); -webkit-backdrop-filter: var(--backdrop-filter); backdrop-filter: var(--backdrop-filter);
+    transition: translate .2s, background .2s; }
+  .explore a b { font-family: var(--font-display); font-weight: var(--display-weight); color: var(--color-link-on-surface); font-size: .8em; }
+  .explore a:hover { translate: 0 -2px; background: var(--color-surface); }
+  .explore a.down { margin-left: auto; padding: .45em; align-items: center; animation: nudge 2.4s ease-in-out infinite; }
+  .explore a.down .icon { width: 1.2rem; height: 1.2rem; }
+  @keyframes nudge { 50% { translate: 0 5px; } }
+  @media (max-width: 720px) { .explore a:not(.down) { font-size: .82rem; } .explore .muted { flex-basis: 100%; } }
+
+  /* Motion layers. The ground is still; some kinds add one slow movement on top of it. */
+  .fold::before, .fold::after { content: ""; position: absolute; z-index: -1; pointer-events: none; }
+  .fold[data-ground="horizon"]::before { left: -50%; right: -50%; bottom: 0; height: 45%; transform-origin: 50% 0; transform: perspective(38vh) rotateX(62deg);
+    background: repeating-linear-gradient(90deg, color-mix(in oklab, var(--color-primary) 60%, transparent) 0 2px, transparent 2px 72px),
+      repeating-linear-gradient(0deg, color-mix(in oklab, var(--color-primary) 60%, transparent) 0 2px, transparent 2px 72px),
+      linear-gradient(to bottom, color-mix(in oklab, var(--color-primary) 22%, var(--color-bg)), var(--color-bg));
+    animation: floor 1.6s linear infinite; }
+  @keyframes floor { to { background-position: 0 72px, 0 72px, 0 0; } }
+  .fold[data-ground="aurora"]::before, .fold[data-ground="orbs"]::before { inset: -10%; filter: blur(48px); opacity: .55; animation: drift 22s ease-in-out infinite alternate;
+    background: radial-gradient(30% 35% at 70% 30%, var(--color-accent), transparent 70%), radial-gradient(28% 32% at 90% 80%, var(--color-primary), transparent 70%); }
+  .fold[data-ground="orbs"]::before { opacity: .35; }
+  @keyframes drift { 50% { transform: translate(-6%, 4%) scale(1.08); } to { transform: translate(3%, -5%) scale(.96); } }
+  .fold[data-ground="rays"]::before { left: 50%; bottom: -8%; width: 260vmax; height: 260vmax; margin-left: -130vmax; margin-bottom: -130vmax; opacity: .5;
+    background: repeating-conic-gradient(color-mix(in oklab, var(--color-accent) 30%, transparent) 0 3deg, transparent 3deg 11deg); animation: turn 160s linear infinite;
+    -webkit-mask: radial-gradient(closest-side, #000 20%, transparent 45%); mask: radial-gradient(closest-side, #000 20%, transparent 45%); }
+  .fold[data-ground="swirl"]::before { left: 82%; top: 62%; width: 300vmax; height: 300vmax; margin: -150vmax 0 0 -150vmax;
+    background: repeating-conic-gradient(var(--color-primary) 0 12deg, var(--color-accent) 12deg 24deg, var(--color-highlight, var(--color-primary)) 24deg 36deg); animation: turn 90s linear infinite; }
+  .fold[data-ground="swirl"]::after { inset: 0; background: linear-gradient(100deg, var(--color-bg) 26%, transparent 58%); }
+  @keyframes turn { to { rotate: 1turn; } }
+  .fold[data-ground="scanlines"]::after { left: 0; right: 0; top: 0; height: 18%; animation: roll 7s linear infinite;
+    background: linear-gradient(to bottom, transparent, color-mix(in oklab, var(--color-primary) 9%, transparent), transparent); }
+  @keyframes roll { from { translate: 0 -100%; } to { translate: 0 650%; } }
+
   /* fact strip */
   .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: var(--gap); }
   .fact { display: grid; gap: .35rem; align-content: start; }
@@ -178,6 +246,7 @@
 <div id="sprite" hidden></div>
 
 <main class="stage" id="stage">
+ <div class="fold ground" id="fold">
   <div class="wrap">
     <nav class="nav" aria-label="Page">
       <a class="brand" href="#top"><span class="tile"><svg class="icon"><use href="#bolt"/></svg></span>Taste, grown</a>
@@ -202,6 +271,13 @@
       <img class="plate" id="h-plate" alt="" width="800" height="600">
     </figure>
   </div></div></section>
+  <nav class="explore" aria-label="Explore the style"><div class="wrap">
+    <span class="small muted">Explore the style</span>
+    <a href="#rules"><b>01</b>Rules</a><a href="#type"><b>02</b>Type</a><a href="#colour"><b>03</b>Colour</a>
+    <a href="#icons"><b>04</b>Icons</a><a href="#pack"><b>05</b>Pack</a><a href="#lineage"><b>06</b>Lineage</a>
+    <a class="down" href="#facts" aria-label="Scroll to the facts"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v15M6 13l6 6 6-6"/></svg></a>
+  </div></nav>
+ </div>
 
   <section id="facts"><div class="wrap"><div class="facts">
     <div class="surface fact"><span class="k muted">Period and era</span><span class="v" id="f-period"></span><span class="small" id="f-era"></span></div>
@@ -381,6 +457,7 @@ async function show(i) {
   stage.classList.add("switching");
   setTimeout(() => stage.classList.remove("switching"), 120);
   $("sprite").innerHTML = sprite.replace(/<!--[\s\S]*?-->/, "");
+  $("fold").dataset.ground = v.ground ? v.ground.kind : "";
   Object.assign(stage.dataset, { style: s.id, hero: v.layout.hero, align: v.layout.align, density: v.layout.density, container: v.icon.container });
   stage.style.setProperty("--tilt", v.layout.tilt_deg + "deg");
   stage.style.setProperty("--h1-scale", v.type.display_case === "uppercase" ? 0.68 : 1);

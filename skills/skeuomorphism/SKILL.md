@@ -188,6 +188,14 @@ Set `data-style="skeuomorphism"` on the root element and paste the tokens. The f
   --body-leading: 1.55;
   --body-size: 16px;
   --icon-stroke: 2;
+  --ground: repeating-linear-gradient(90deg, color-mix(in oklab, var(--color-on-bg) 40%, transparent) 0 8px, transparent 8px 14px) 0 16px / 100% 1px no-repeat,
+    repeating-linear-gradient(90deg, color-mix(in oklab, var(--color-on-bg) 40%, transparent) 0 8px, transparent 8px 14px) 0 calc(100% - 16px) / 100% 1px no-repeat,
+    linear-gradient(to bottom, rgba(255,255,255,.4), transparent 30%, rgba(0,0,0,.14)),
+    radial-gradient(50% 60% at 82% 45%, color-mix(in oklab, var(--color-primary) 18%, transparent), transparent 70%),
+    repeating-linear-gradient(0deg, color-mix(in oklab, var(--color-on-bg) 9%, transparent) 0 1px, transparent 1px 3px),
+    repeating-linear-gradient(90deg, color-mix(in oklab, var(--color-on-bg) 7%, transparent) 0 1px, transparent 1px 3px),
+    url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'220'%20height%3D'220'%3E%3Cfilter%20id%3D'n'%3E%3CfeTurbulence%20type%3D'fractalNoise'%20baseFrequency%3D'.8'%20numOctaves%3D'3'%20stitchTiles%3D'stitch'%2F%3E%3CfeColorMatrix%20values%3D'0%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200.15%200%200%200%200'%2F%3E%3C%2Ffilter%3E%3Crect%20width%3D'100%25'%20height%3D'100%25'%20filter%3D'url(%23n)'%2F%3E%3C%2Fsvg%3E") 0 0 / 220px 220px repeat,
+    var(--color-bg);
 }
 ```
 
@@ -217,6 +225,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 700, subhead 700, body 400, bold in text 700, labels and buttons 700. The style uses 2 weights (400, 700) and no other. The display is 300 heavier than the body. The accent is weight: a heavier word is the accent, so the steps between the weights are clear.
 - **Body type:** 16px, leading 1.55.
 - **Page:** hero split, left aligned, regular density, accent tilt 0°.
+- **Ground:** linen. Skeuomorphic apps put their panels on a woven linen texture with a top light. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack

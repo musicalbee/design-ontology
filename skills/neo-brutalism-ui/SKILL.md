@@ -186,6 +186,12 @@ Set `data-style="neo-brutalism-ui"` on the root element and paste the tokens. Th
   --body-leading: 1.5;
   --body-size: 17px;
   --icon-stroke: 2.5;
+  --ground: linear-gradient(var(--color-primary), var(--color-primary)) 86% 22% / 26vmin 26vmin no-repeat,
+    linear-gradient(var(--color-on-bg), var(--color-on-bg)) calc(86% + 14px) calc(22% + 14px) / 26vmin 26vmin no-repeat,
+    linear-gradient(var(--color-accent), var(--color-accent)) 68% 82% / 18vmin 14vmin no-repeat,
+    linear-gradient(var(--color-on-bg), var(--color-on-bg)) calc(68% + 10px) calc(82% + 10px) / 18vmin 14vmin no-repeat,
+    repeating-linear-gradient(-45deg, color-mix(in oklab, var(--color-on-bg) 8%, transparent) 0 2px, transparent 2px 14px),
+    var(--color-bg);
 }
 ```
 
@@ -216,6 +222,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 700, subhead 700, body 500, bold in text 700, labels and buttons 700. The style uses 2 weights (500, 700) and no other. The display is 200 heavier than the body. The accent is weight: a heavier word is the accent, so the steps between the weights are clear.
 - **Body type:** 17px, leading 1.5.
 - **Page:** hero split, left aligned, compact density, accent tilt -1°.
+- **Ground:** blocks. Neo-brutalism uses flat colour blocks with a thick border and a hard black shadow. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack

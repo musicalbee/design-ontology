@@ -180,6 +180,10 @@ Set `data-style="pop-art-web"` on the root element and paste the tokens. The fil
   --body-leading: 1.5;
   --body-size: 16px;
   --icon-stroke: 3;
+  --ground: linear-gradient(100deg, var(--color-bg) 28%, transparent 60%),
+    radial-gradient(circle, var(--color-accent) 34%, transparent 36%) 0 0 / 22px 22px,
+    repeating-conic-gradient(from 0deg at 84% 30%, color-mix(in oklab, var(--color-primary) 70%, transparent) 0 9deg, transparent 9deg 18deg),
+    var(--color-bg);
 }
 ```
 
@@ -210,6 +214,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 400, subhead 400, body 400, bold in text 700, labels and buttons 700. The style uses 2 weights (400, 700) and no other. The display has the weight of the body, so size and face carry the hierarchy. The accent is colour: one coloured word or field is the accent, so the weights stay quiet.
 - **Body type:** 16px, leading 1.5.
 - **Page:** hero poster, center aligned, compact density, accent tilt 2°.
+- **Ground:** halftone. Pop art enlarges the Ben-Day dots of comic print until the dots become the picture. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack

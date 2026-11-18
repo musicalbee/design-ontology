@@ -39,6 +39,11 @@
   --body-leading: 1.5;
   --body-size: 16px;
   --icon-stroke: 2;
+  --ground: repeating-linear-gradient(0deg, color-mix(in oklab, var(--color-primary) 7%, transparent) 0 1px, transparent 1px 3px),
+    radial-gradient(120% 90% at 50% 50%, transparent 55%, rgba(0,0,0,.55)),
+    radial-gradient(50% 55% at 72% 40%, color-mix(in oklab, var(--color-primary) 16%, transparent), transparent 70%),
+    radial-gradient(35% 40% at 20% 85%, color-mix(in oklab, var(--color-accent) 10%, transparent), transparent 70%),
+    var(--color-bg);
 }
 
 /*
@@ -79,6 +84,10 @@
   box-shadow: var(--shadow-elevation);
   -webkit-backdrop-filter: var(--backdrop-filter);
   backdrop-filter: var(--backdrop-filter);
+}
+[data-style="terminal-tui-web"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
 }
 [data-style="terminal-tui-web"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

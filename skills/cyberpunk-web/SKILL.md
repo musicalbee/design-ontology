@@ -177,6 +177,13 @@ Set `data-style="cyberpunk-web"` on the root element and paste the tokens. The f
   --body-leading: 1.5;
   --body-size: 15px;
   --icon-stroke: 1.5;
+  --ground: repeating-linear-gradient(to bottom, transparent 0 1.6vmin, var(--color-bg) 1.6vmin 2.2vmin) 76% 46% / 34vmin 15vmin no-repeat,
+    radial-gradient(circle at 50% 100%, var(--color-accent) 0 16vmin, transparent calc(16vmin + 1px)) 76% 46% / 34vmin 17vmin no-repeat,
+    linear-gradient(to bottom, transparent 0 55%, color-mix(in oklab, var(--color-primary) 55%, transparent) 55% calc(55% + 2px), transparent calc(55% + 2px)),
+    repeating-linear-gradient(90deg, color-mix(in oklab, var(--color-primary) 28%, transparent) 0 1px, transparent 1px 7vmin) 0 100% / 100% 45% no-repeat,
+    repeating-linear-gradient(0deg, color-mix(in oklab, var(--color-primary) 28%, transparent) 0 1px, transparent 1px 5vmin) 0 100% / 100% 45% no-repeat,
+    linear-gradient(to bottom, var(--color-bg) 10%, color-mix(in oklab, var(--color-primary) 30%, transparent) 55%, var(--color-bg) 55%),
+    var(--color-bg);
 }
 ```
 
@@ -207,6 +214,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 700, subhead 600, body 400, bold in text 700, labels and buttons 600. The style uses 3 weights (400, 600, 700) and no other. The display is 300 heavier than the body. The accent is colour: one coloured word or field is the accent, so the weights stay quiet.
 - **Body type:** 15px, leading 1.5.
 - **Page:** hero poster, left aligned, compact density, accent tilt 0°.
+- **Ground:** horizon. Cyberpunk takes the neon grid floor and the city sky from eighties film posters. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack

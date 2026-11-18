@@ -7,6 +7,7 @@ import Handlebars from "handlebars";
 import { existsSync, readFileSync, readdirSync, rmSync } from "node:fs";
 import { join } from "node:path";
 import { ROOT, loadAll, loadPrinciples, loadTechniques, principleRefs, readJson, write, yearLabel, type Domain, type Style, type Technique } from "./lib.js";
+import { groundCss, type GroundKind } from "./ground.js";
 import { ICON_NAMES, derivedTokens, heroSvg, iconSprite, patternSvg, typeTokens, type IconPack, type Visual } from "./pack.js";
 
 const { domains, eras, styles } = loadAll();
@@ -92,7 +93,8 @@ const warnOnce = (id: string) => (m: string) => {
 function cssTokens(style: Style): [string, string][] {
   const css = style.tokens!.css;
   const v = visualOf(style);
-  return Object.entries({ ...css, ...derivedTokens(css, warnOnce(style.id)), ...(v ? typeTokens(v) : {}) });
+  const ground = v?.ground ? { "--ground": groundCss(v.ground.kind as GroundKind, css) } : {};
+  return Object.entries({ ...css, ...derivedTokens(css, warnOnce(style.id)), ...(v ? typeTokens(v) : {}), ...ground });
 }
 const iconPacks = new Map<string, IconPack>();
 function iconPack(style: Style): IconPack {
@@ -192,6 +194,7 @@ function view(style: Style, domain: Domain) {
       type: visualOf(style)!.type,
       weights: weightView(visualOf(style)!),
       layout: visualOf(style)!.layout,
+      ground: visualOf(style)!.ground,
       first_icon: ICON_NAMES[0],
       icon_pack: { ...iconPack(style), why: visualOf(style)!.icon.pack.why },
       icon_rules: iconRules,
@@ -292,6 +295,10 @@ ${sel} :where(.surface) {
   box-shadow: var(--shadow-elevation);
   -webkit-backdrop-filter: var(--backdrop-filter);
   backdrop-filter: var(--backdrop-filter);
+}
+${sel} :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
 }
 ${sel} :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

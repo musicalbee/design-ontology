@@ -180,6 +180,11 @@ Set `data-style="conceptual-sketch-ui"` on the root element and paste the tokens
   --body-leading: 1.5;
   --body-size: 16px;
   --icon-stroke: 2;
+  --ground: linear-gradient(var(--color-accent), var(--color-accent)) 100% 0 / 8.33% 38% no-repeat,
+    linear-gradient(var(--color-on-bg), var(--color-on-bg)) 0 100% / 100% 3px no-repeat,
+    repeating-linear-gradient(90deg, color-mix(in oklab, var(--color-on-bg) 9%, transparent) 0 1px, transparent 1px 8.333%),
+    repeating-linear-gradient(0deg, color-mix(in oklab, var(--color-on-bg) 5%, transparent) 0 1px, transparent 1px 24px),
+    var(--color-bg);
 }
 ```
 
@@ -210,6 +215,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 400, subhead 400, body 400, bold in text 700, labels and buttons 400. The style uses 2 weights (400, 700) and no other. The display has the weight of the body, so size and face carry the hierarchy. The accent is colour: one coloured word or field is the accent, so the weights stay quiet.
 - **Body type:** 16px, leading 1.5.
 - **Page:** hero split, left aligned, airy density, accent tilt 0°.
+- **Ground:** swiss-grid. A sketch page is drawn on grid paper, with one marker stroke of colour. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack

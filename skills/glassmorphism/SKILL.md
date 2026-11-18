@@ -183,6 +183,11 @@ Set `data-style="glassmorphism"` on the root element and paste the tokens. The f
   --body-leading: 1.55;
   --body-size: 16px;
   --icon-stroke: 1.5;
+  --ground: radial-gradient(circle at 84% 26%, color-mix(in oklab, var(--color-accent) 92%, transparent) 0 17vmin, transparent calc(17vmin + 1px)),
+    radial-gradient(circle at 62% 86%, color-mix(in oklab, var(--color-primary) 85%, transparent) 0 12vmin, transparent calc(12vmin + 1px)),
+    radial-gradient(circle at 98% 82%, color-mix(in oklab, var(--color-primary) 90%, transparent) 0 22vmin, transparent calc(22vmin + 1px)),
+    radial-gradient(60% 70% at 80% 50%, color-mix(in oklab, var(--color-primary) 30%, transparent), transparent 70%),
+    var(--color-bg);
 }
 ```
 
@@ -212,6 +217,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 700, subhead 600, body 500, bold in text 700, labels and buttons 600. The style uses 3 weights (500, 600, 700) and no other. The display is 200 heavier than the body. The accent is weight: a heavier word is the accent, so the steps between the weights are clear.
 - **Body type:** 16px, leading 1.55.
 - **Page:** hero stacked, center aligned, regular density, accent tilt 0°.
+- **Ground:** orbs. Frosted glass needs bright orbs of colour behind it, or the blur has nothing to show. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack

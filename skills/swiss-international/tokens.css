@@ -43,6 +43,11 @@
   --body-leading: 1.45;
   --body-size: 16px;
   --icon-stroke: 1.5;
+  --ground: linear-gradient(var(--color-accent), var(--color-accent)) 100% 0 / 8.33% 38% no-repeat,
+    linear-gradient(var(--color-on-bg), var(--color-on-bg)) 0 100% / 100% 3px no-repeat,
+    repeating-linear-gradient(90deg, color-mix(in oklab, var(--color-on-bg) 9%, transparent) 0 1px, transparent 1px 8.333%),
+    repeating-linear-gradient(0deg, color-mix(in oklab, var(--color-on-bg) 5%, transparent) 0 1px, transparent 1px 24px),
+    var(--color-bg);
 }
 
 /*
@@ -83,6 +88,10 @@
   box-shadow: var(--shadow-elevation);
   -webkit-backdrop-filter: var(--backdrop-filter);
   backdrop-filter: var(--backdrop-filter);
+}
+[data-style="swiss-international"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
 }
 [data-style="swiss-international"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

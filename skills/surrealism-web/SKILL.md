@@ -177,6 +177,14 @@ Set `data-style="surrealism-web"` on the root element and paste the tokens. The 
   --body-leading: 1.6;
   --body-size: 16px;
   --icon-stroke: 1.5;
+  --ground: radial-gradient(9vmin 5vmin at 78% 24%, rgba(255,255,255,.95) 98%, transparent),
+    radial-gradient(7vmin 4.5vmin at 84% 21%, rgba(255,255,255,.95) 98%, transparent),
+    radial-gradient(11vmin 4vmin at 72% 27%, rgba(255,255,255,.95) 98%, transparent),
+    radial-gradient(6vmin 3.5vmin at 93% 58%, rgba(255,255,255,.85) 98%, transparent),
+    radial-gradient(8vmin 3vmin at 88% 61%, rgba(255,255,255,.85) 98%, transparent),
+    linear-gradient(to bottom, transparent 78%, color-mix(in oklab, var(--color-accent) 55%, transparent) 78% calc(78% + 2px), color-mix(in oklab, var(--color-primary) 18%, transparent) calc(78% + 2px)),
+    linear-gradient(to bottom, color-mix(in oklab, var(--color-accent) 18%, transparent), transparent 78%),
+    var(--color-bg);
 }
 ```
 
@@ -207,6 +215,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 500, subhead 500, body 400, bold in text 600, labels and buttons 500. The style uses 3 weights (400, 500, 600) and no other. The display is 100 heavier than the body. The accent is size: a larger word is the accent, so the weights stay few.
 - **Body type:** 16px, leading 1.6.
 - **Page:** hero poster, center aligned, airy density, accent tilt 0°.
+- **Ground:** sky. Surrealist painting puts calm clouds in a clear sky over a flat horizon. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack

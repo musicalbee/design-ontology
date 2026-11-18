@@ -115,6 +115,9 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display {{pack.type.display_weight}}, subhead {{pack.type.subhead_weight}}, body {{pack.type.body_weight}}, bold in text {{pack.type.strong_weight}}, labels and buttons {{pack.type.label_weight}}. The style uses {{pack.weights.count}} weights ({{pack.weights.list}}) and no other. {{pack.weights.step}}. The accent is {{pack.weights.accent}}.
 - **Body type:** {{pack.type.body_size}}, leading {{pack.type.body_leading}}.
 - **Page:** hero {{pack.layout.hero}}, {{pack.layout.align}} aligned, {{pack.layout.density}} density, accent tilt {{pack.layout.tilt_deg}}°.
+{{#if pack.ground}}
+- **Ground:** {{pack.ground.kind}}. {{pack.ground.why}} Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+{{/if}}
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### {{pack.icon_rules.title}}

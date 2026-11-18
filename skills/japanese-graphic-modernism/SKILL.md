@@ -189,6 +189,10 @@ Set `data-style="japanese-graphic-modernism"` on the root element and paste the 
   --body-leading: 1.8;
   --body-size: 16px;
   --icon-stroke: 2;
+  --ground: repeating-radial-gradient(circle at 78% 42%, transparent 0 33vmin, color-mix(in oklab, var(--color-accent) 30%, transparent) 33vmin calc(33vmin + 1px), transparent calc(33vmin + 1px) 37vmin),
+    radial-gradient(circle at 78% 42%, var(--color-primary) 0 28vmin, transparent calc(28vmin + 1px)),
+    url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'220'%20height%3D'220'%3E%3Cfilter%20id%3D'n'%3E%3CfeTurbulence%20type%3D'fractalNoise'%20baseFrequency%3D'.8'%20numOctaves%3D'3'%20stitchTiles%3D'stitch'%2F%3E%3CfeColorMatrix%20values%3D'0%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200.11%200%200%200%200'%2F%3E%3C%2Ffilter%3E%3Crect%20width%3D'100%25'%20height%3D'100%25'%20filter%3D'url(%23n)'%2F%3E%3C%2Fsvg%3E") 0 0 / 220px 220px repeat,
+    var(--color-bg);
 }
 ```
 
@@ -219,6 +223,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 900, subhead 700, body 400, bold in text 700, labels and buttons 500. The style uses 4 weights (400, 500, 700, 900) and no other. The display is 500 heavier than the body. The accent is colour: one coloured word or field is the accent, so the weights stay quiet.
 - **Body type:** 16px, leading 1.8.
 - **Page:** hero poster, left aligned, airy density, accent tilt 0°.
+- **Ground:** sun. Japanese post-war posters use one large disc of red as the whole composition. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack

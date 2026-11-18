@@ -43,6 +43,9 @@
   --body-leading: 1.5;
   --body-size: 18px;
   --icon-stroke: 3;
+  --ground: linear-gradient(100deg, var(--color-bg) 26%, transparent 58%),
+    repeating-conic-gradient(from 0deg at 82% 62%, var(--color-primary) 0 12deg, var(--color-accent) 12deg 24deg, var(--color-primary) 24deg 36deg),
+    var(--color-bg);
 }
 
 /*
@@ -83,6 +86,10 @@
   box-shadow: var(--shadow-elevation);
   -webkit-backdrop-filter: var(--backdrop-filter);
   backdrop-filter: var(--backdrop-filter);
+}
+[data-style="psychedelic"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
 }
 [data-style="psychedelic"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

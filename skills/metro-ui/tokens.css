@@ -39,6 +39,12 @@
   --body-leading: 1.45;
   --body-size: 16px;
   --icon-stroke: 2;
+  --ground: linear-gradient(var(--color-primary), var(--color-primary)) 100% 0 / 17vmin 17vmin no-repeat,
+    linear-gradient(var(--color-accent), var(--color-accent)) calc(100% - 18vmin) 0 / 17vmin 17vmin no-repeat,
+    linear-gradient(color-mix(in oklab, var(--color-primary) 70%, transparent), color-mix(in oklab, var(--color-primary) 70%, transparent)) 100% 18vmin / 35vmin 17vmin no-repeat,
+    linear-gradient(color-mix(in oklab, var(--color-accent) 60%, transparent), color-mix(in oklab, var(--color-accent) 60%, transparent)) calc(100% - 18vmin) 36vmin / 17vmin 35vmin no-repeat,
+    linear-gradient(var(--color-surface), var(--color-surface)) 100% 36vmin / 17vmin 17vmin no-repeat,
+    var(--color-bg);
 }
 
 /*
@@ -79,6 +85,10 @@
   box-shadow: var(--shadow-elevation);
   -webkit-backdrop-filter: var(--backdrop-filter);
   backdrop-filter: var(--backdrop-filter);
+}
+[data-style="metro-ui"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
 }
 [data-style="metro-ui"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

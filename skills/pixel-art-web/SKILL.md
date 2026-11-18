@@ -176,6 +176,17 @@ Set `data-style="pixel-art-web"` on the root element and paste the tokens. The f
   --body-leading: 1.6;
   --body-size: 16px;
   --icon-stroke: 2;
+  --ground: radial-gradient(2px 2px at 12% 18%, var(--color-primary) 99%, transparent),
+    radial-gradient(2px 2px at 64% 12%, var(--color-on-bg) 99%, transparent),
+    radial-gradient(2px 2px at 82% 34%, var(--color-primary) 99%, transparent),
+    radial-gradient(2px 2px at 44% 28%, var(--color-on-bg) 99%, transparent),
+    radial-gradient(2px 2px at 92% 8%, var(--color-on-bg) 99%, transparent),
+    linear-gradient(var(--color-accent), var(--color-accent)) 0 100% / 100% 6vh no-repeat,
+    linear-gradient(var(--color-accent), var(--color-accent)) 70% calc(100% - 6vh) / 24% 6vh no-repeat,
+    linear-gradient(var(--color-accent), var(--color-accent)) 75% calc(100% - 12vh) / 12% 6vh no-repeat,
+    linear-gradient(var(--color-primary), var(--color-primary)) 92% 26% / 8vmin 8vmin no-repeat,
+    conic-gradient(color-mix(in oklab, var(--color-on-bg) 4%, transparent) 25%, transparent 0 50%, color-mix(in oklab, var(--color-on-bg) 4%, transparent) 0 75%, transparent 0) 0 0 / 32px 32px,
+    var(--color-bg);
 }
 ```
 
@@ -206,6 +217,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 400, subhead 400, body 400, bold in text 400, labels and buttons 400. The style uses 1 weights (400) and no other. The display has the weight of the body, so size and face carry the hierarchy. The accent is case and tracking: an upper-case label is the accent, so the weights stay few.
 - **Body type:** 16px, leading 1.6.
 - **Page:** hero stacked, left aligned, regular density, accent tilt 0°.
+- **Ground:** pixel. Pixel art draws a night sky of single pixels over stepped hills on a coarse grid. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack

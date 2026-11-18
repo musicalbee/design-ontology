@@ -181,6 +181,11 @@ Set `data-style="rams-functionalism-ui"` on the root element and paste the token
   --body-leading: 1.5;
   --body-size: 16px;
   --icon-stroke: 1.5;
+  --ground: radial-gradient(circle at 88% 18%, var(--color-accent) 0 2.4vmin, transparent calc(2.4vmin + 1px)),
+    radial-gradient(circle, color-mix(in oklab, var(--color-on-bg) 26%, transparent) 30%, transparent 34%) 82% 62% / 2.2vmin 2.2vmin,
+    linear-gradient(90deg, var(--color-bg) 0 60%, transparent 60%),
+    linear-gradient(to bottom, var(--color-bg) 0 36%, transparent 36% 92%, var(--color-bg) 92%),
+    var(--color-bg);
 }
 ```
 
@@ -211,6 +216,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 500, subhead 500, body 400, bold in text 700, labels and buttons 500. The style uses 3 weights (400, 500, 700) and no other. The display is 100 heavier than the body. The accent is colour: one coloured word or field is the accent, so the weights stay quiet.
 - **Body type:** 16px, leading 1.5.
 - **Page:** hero split, left aligned, regular density, accent tilt 0°.
+- **Ground:** grille. The Braun product face is a field of speaker holes and one orange control. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack

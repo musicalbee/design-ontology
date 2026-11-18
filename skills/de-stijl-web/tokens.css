@@ -39,6 +39,14 @@
   --body-leading: 1.5;
   --body-size: 16px;
   --icon-stroke: 2;
+  --ground: linear-gradient(var(--color-on-bg), var(--color-on-bg)) 62% 0 / 1.2vmin 100% no-repeat,
+    linear-gradient(var(--color-on-bg), var(--color-on-bg)) 88% 0 / 1.2vmin 100% no-repeat,
+    linear-gradient(var(--color-on-bg), var(--color-on-bg)) 100% 34% / calc(38% + 1vmin) 1.2vmin no-repeat,
+    linear-gradient(var(--color-on-bg), var(--color-on-bg)) 100% 78% / calc(38% + 1vmin) 1.2vmin no-repeat,
+    linear-gradient(var(--color-accent), var(--color-accent)) 100% 0 / 12% 34% no-repeat,
+    linear-gradient(var(--color-primary), var(--color-primary)) 75% 100% / 26% 22% no-repeat,
+    linear-gradient(var(--color-primary), var(--color-primary)) 100% 100% / 12% 22% no-repeat,
+    var(--color-bg);
 }
 
 /*
@@ -79,6 +87,10 @@
   box-shadow: var(--shadow-elevation);
   -webkit-backdrop-filter: var(--backdrop-filter);
   backdrop-filter: var(--backdrop-filter);
+}
+[data-style="de-stijl-web"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
 }
 [data-style="de-stijl-web"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
