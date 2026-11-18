@@ -16,56 +16,75 @@
   const store = { get: () => { try { return localStorage.getItem(KEY); } catch { return null; } },
     set: (v) => { try { localStorage.setItem(KEY, v); } catch {} } };
 
+  // Tokens from the Hive design system, light theme, toned down for an open-source tool:
+  // one royal accent, navy ink, a pale ground, pill controls, Onest. No mark, no amber, no gradient.
   const css = `
-  .do-bar, .do-drawer { --c-bg: #0d0d0f; --c-2: #1f1f24; --c-3: #2e2e35; --c-line: #34343b; --c-ink: #f4f4f5; --c-mute: #a1a1aa;
-    font: 13px/1.3 system-ui, -apple-system, "Segoe UI", sans-serif; letter-spacing: 0; text-transform: none; color: var(--c-ink); }
-  .do-bar { position: sticky; top: 0; z-index: 1000; display: flex; align-items: center; gap: 8px; height: 48px; padding: 0 10px;
-    background: var(--c-bg); border-bottom: 1px solid var(--c-line); }
-  .do-bar * , .do-drawer * { box-sizing: border-box; font: inherit; }
-  .do-brand { font-weight: 650; white-space: nowrap; color: var(--c-ink); text-decoration: none; padding: 0 6px; }
-  .do-btn { display: inline-flex; align-items: center; gap: 8px; height: 32px; padding: 0 12px; border-radius: 8px; cursor: pointer;
-    color: var(--c-ink); background: var(--c-2); border: 1px solid var(--c-line); white-space: nowrap; font-weight: 500; }
-  .do-btn:hover { background: var(--c-3); }
-  .do-btn[aria-expanded="true"] { background: var(--c-ink); color: var(--c-bg); border-color: var(--c-ink); }
+  .do-bar, .do-drawer { --hv-bg: #F8F9FD; --hv-surface: #FFFFFF; --hv-subtle: #EFF2FB; --hv-muted-bg: #E8F2FF;
+    --hv-ink: #1F1F45; --hv-ink-muted: #50527A; --hv-heading: #232266; --hv-accent: #264FCC; --hv-accent-hover: #1C3A99;
+    --hv-line: #DEE3F2; --hv-line-strong: #7F87AE; --hv-focus: #2589FF; --hv-lift: 0 18px 44px rgba(31, 31, 69, .10);
+    --hv-ease: cubic-bezier(.16, 1, .3, 1);
+    font: 14.4px/1.3 "Onest", "Helvetica Neue", Arial, sans-serif; letter-spacing: 0; text-transform: none; color: var(--hv-ink); }
+  .do-bar { position: sticky; top: 0; z-index: 1000; display: flex; align-items: center; gap: 8px; height: 56px; padding: 0 16px;
+    background: rgb(248 249 253 / .92); backdrop-filter: saturate(1.4) blur(10px); -webkit-backdrop-filter: saturate(1.4) blur(10px);
+    border-bottom: 1px solid var(--hv-line); }
+  .do-bar *, .do-drawer * { box-sizing: border-box; font: inherit; }
+  .do-brand { font-weight: 700; white-space: nowrap; color: var(--hv-heading); text-decoration: none; padding: 0 8px 0 2px; letter-spacing: -.01em; }
+  .do-brand::before { content: ""; display: inline-block; width: 8px; height: 8px; margin-right: 8px; border-radius: 2px;
+    background: var(--hv-accent); transform: rotate(45deg) translateY(-2px); }
+  .do-btn { display: inline-flex; align-items: center; gap: 8px; height: 36px; padding: 0 14px; border-radius: 999px; cursor: pointer;
+    color: var(--hv-heading); background: var(--hv-surface); border: 1.5px solid var(--hv-line); white-space: nowrap; font-weight: 600;
+    transition: background-color .2s var(--hv-ease), border-color .2s var(--hv-ease), color .2s var(--hv-ease); }
+  .do-btn:hover { border-color: var(--hv-line-strong); }
+  .do-btn[aria-expanded="true"] { background: var(--hv-accent); color: #fff; border-color: var(--hv-accent); }
+  .do-btn[aria-expanded="true"]:hover { background: var(--hv-accent-hover); border-color: var(--hv-accent-hover); }
   .do-btn svg { width: 16px; height: 16px; flex: none; }
-  .do-styles { max-width: 280px; }
+  .do-styles { max-width: 300px; }
   .do-styles .do-cur { overflow: hidden; text-overflow: ellipsis; }
-  .do-styles .do-n { color: var(--c-mute); font-variant-numeric: tabular-nums; }
-  .do-btn[aria-expanded="true"] .do-n { color: #52525b; }
-  .do-step { width: 32px; padding: 0; justify-content: center; }
+  .do-styles .do-n { color: var(--hv-ink-muted); font-weight: 400; font-variant-numeric: tabular-nums; }
+  .do-btn[aria-expanded="true"] .do-n { color: rgb(255 255 255 / .8); }
+  .do-step { width: 36px; padding: 0; justify-content: center; font-size: 18px; line-height: 1; }
   .do-styles[hidden], .do-step[hidden] { display: none; }
-  .do-links { display: flex; align-items: stretch; height: 100%; margin-left: 8px; overflow-x: auto; scrollbar-width: none; }
-  .do-links a, .do-gh { color: var(--c-mute); text-decoration: none; padding: 0 10px; white-space: nowrap; display: flex; align-items: center;
-    border-bottom: 2px solid transparent; }
-  .do-links a:hover, .do-gh:hover { color: #fff; }
-  .do-links a[aria-current="page"] { color: #fff; border-bottom-color: #fff; }
+  .do-links { display: flex; align-items: center; gap: 2px; margin-left: 12px; overflow-x: auto; scrollbar-width: none; }
+  .do-links a, .do-gh { color: var(--hv-ink-muted); text-decoration: none; padding: 7px 12px; border-radius: 999px; white-space: nowrap; }
+  .do-links a:hover, .do-gh:hover { color: var(--hv-heading); background: var(--hv-subtle); }
+  .do-links a[aria-current="page"] { color: var(--hv-accent); background: var(--hv-muted-bg); font-weight: 600; }
   .do-gh { margin-left: auto; }
-  .do-bar :focus-visible, .do-drawer :focus-visible { outline: 3px solid #6aa8ff; outline-offset: 1px; }
+  .do-bar :focus-visible, .do-drawer :focus-visible { outline: 3px solid var(--hv-focus); outline-offset: 3px; }
 
-  .do-drawer { position: fixed; z-index: 999; top: 56px; left: 8px; bottom: 8px; width: min(300px, calc(100vw - 16px));
-    display: flex; flex-direction: column; background: var(--c-bg); border: 1px solid var(--c-line); border-radius: 12px;
-    box-shadow: 0 12px 40px rgb(0 0 0 / .35), 0 2px 6px rgb(0 0 0 / .2);
-    transform: translateX(calc(-100% - 16px)); visibility: hidden; transition: transform .22s ease, visibility 0s linear .22s; }
-  .do-drawer.open { transform: none; visibility: visible; transition: transform .22s ease; }
-  .do-head { display: flex; align-items: center; gap: 8px; padding: 10px 10px 8px; border-bottom: 1px solid var(--c-line); }
-  .do-head input { flex: 1; min-width: 0; height: 32px; padding: 0 10px; border-radius: 8px; border: 1px solid var(--c-line);
-    background: var(--c-2); color: var(--c-ink); }
-  .do-head input::placeholder { color: var(--c-mute); }
-  .do-x { width: 32px; padding: 0; justify-content: center; }
-  .do-list { flex: 1; overflow-y: auto; padding: 6px; display: flex; flex-direction: column; gap: 2px; scrollbar-width: thin; }
-  .do-list button { all: unset; box-sizing: border-box; display: block; width: 100%; padding: 8px 10px; border-radius: 7px; cursor: pointer;
-    color: var(--c-ink); font: 13px/1.3 system-ui, -apple-system, "Segoe UI", sans-serif; }
-  .do-list button:hover { background: var(--c-2); }
-  .do-list button[aria-pressed="true"] { background: var(--c-ink); color: var(--c-bg); font-weight: 600; }
-  .do-list button:focus-visible { outline: 3px solid #6aa8ff; outline-offset: -3px; }
+  .do-drawer { position: fixed; z-index: 999; top: 64px; left: 8px; bottom: 8px; width: min(300px, calc(100vw - 16px));
+    display: flex; flex-direction: column; background: var(--hv-surface); border: 1px solid var(--hv-line); border-radius: 14px;
+    box-shadow: var(--hv-lift); transform: translateX(calc(-100% - 16px)); visibility: hidden;
+    transition: transform .3s var(--hv-ease), visibility 0s linear .3s; }
+  .do-drawer.open { transform: none; visibility: visible; transition: transform .3s var(--hv-ease); }
+  .do-head { display: flex; align-items: center; gap: 8px; padding: 12px 12px 10px; border-bottom: 1px solid var(--hv-line); }
+  .do-head input { flex: 1; min-width: 0; height: 36px; padding: 0 12px; border-radius: 10px; border: 1.5px solid var(--hv-line-strong);
+    background: var(--hv-surface); color: var(--hv-ink); }
+  .do-head input:focus-visible { outline-offset: 1px; }
+  .do-head input::placeholder { color: var(--hv-ink-muted); }
+  .do-x { width: 36px; padding: 0; justify-content: center; }
+  .do-list { flex: 1; overflow-y: auto; padding: 8px; display: flex; flex-direction: column; gap: 2px; scrollbar-width: thin; }
+  .do-list button { all: unset; box-sizing: border-box; display: block; width: 100%; padding: 8px 12px; border-radius: 10px; cursor: pointer;
+    color: var(--hv-ink); font: 14.4px/1.35 "Onest", "Helvetica Neue", Arial, sans-serif; }
+  .do-list button:hover { background: var(--hv-subtle); color: var(--hv-heading); }
+  .do-list button[aria-pressed="true"] { background: var(--hv-muted-bg); color: var(--hv-accent); font-weight: 600; }
+  .do-list button:focus-visible { outline: 3px solid var(--hv-focus); outline-offset: -3px; }
   .do-list button.do-miss { display: none; }
-  .do-foot { padding: 8px 12px; border-top: 1px solid var(--c-line); color: var(--c-mute); font-size: 12px; }
-  .do-foot kbd { font: 11px ui-monospace, monospace; padding: 1px 5px; border: 1px solid var(--c-line); border-radius: 4px; }
-  .do-domains { display: none; padding: 6px; border-bottom: 1px solid var(--c-line); flex-wrap: wrap; gap: 4px; }
-  .do-domains a { color: var(--c-mute); text-decoration: none; padding: 4px 8px; border-radius: 6px; }
-  .do-domains a[aria-current="page"] { color: var(--c-bg); background: var(--c-ink); }
-  @media (max-width: 760px) { .do-links { display: none; } .do-domains { display: flex; } .do-brand { display: none; } .do-bar.do-bare .do-links { display: flex; margin-left: 0; } }
-  @media (prefers-reduced-motion: reduce) { .do-drawer, .do-drawer.open { transition: none; } }`;
+  .do-foot { padding: 10px 14px; border-top: 1px solid var(--hv-line); background: var(--hv-bg); border-radius: 0 0 14px 14px;
+    color: var(--hv-ink-muted); font-size: 12.5px; }
+  .do-foot kbd { font: 11px ui-monospace, SFMono-Regular, Menlo, monospace; padding: 1px 6px; border: 1px solid var(--hv-line-strong);
+    border-radius: 6px; background: var(--hv-surface); color: var(--hv-ink); }
+  .do-domains { display: none; padding: 8px; border-bottom: 1px solid var(--hv-line); flex-wrap: wrap; gap: 4px; }
+  .do-domains a { color: var(--hv-ink-muted); text-decoration: none; padding: 5px 10px; border-radius: 999px; }
+  .do-domains a[aria-current="page"] { color: var(--hv-accent); background: var(--hv-muted-bg); font-weight: 600; }
+  @media (max-width: 760px) { .do-bar { padding: 0 8px; } .do-links { display: none; } .do-domains { display: flex; } .do-brand { display: none; }
+    .do-bar.do-bare .do-links { display: flex; margin-left: 0; } }
+  @media (prefers-reduced-motion: reduce) { .do-drawer, .do-drawer.open, .do-btn { transition: none; } }`;
+  if (!document.querySelector('link[href*="family=Onest"]')) {
+    const font = document.createElement("link");
+    font.rel = "stylesheet";
+    font.href = "https://fonts.googleapis.com/css2?family=Onest:wght@400;600;700&display=swap";
+    document.head.append(font);
+  }
   const style = document.createElement("style");
   style.textContent = css;
   document.head.append(style);
@@ -76,8 +95,8 @@
   bar.className = "do-bar do-bare";
   bar.innerHTML = `<a class="do-brand" href="index.html">Design Ontology</a>` +
     `<button class="do-btn do-styles" id="do-open" aria-expanded="false" aria-controls="do-drawer" hidden>${icon}<span class="do-cur">Styles</span><span class="do-n"></span></button>` +
-    `<button class="do-btn do-step" id="prev" aria-label="Previous style" hidden>‹</button>` +
-    `<button class="do-btn do-step" id="next" aria-label="Next style" hidden>›</button>` +
+    `<button class="do-btn do-step" id="prev" aria-label="Previous style" hidden>←</button>` +
+    `<button class="do-btn do-step" id="next" aria-label="Next style" hidden>→</button>` +
     `<nav class="do-links" aria-label="Domains">${links}</nav>` +
     `<a class="do-gh" href="https://github.com/musicalbee/design-ontology">GitHub</a>`;
 
