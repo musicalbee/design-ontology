@@ -117,6 +117,34 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Positive:** Victorian trademark label · engraved cross-hatch shading · oval cartouche frame · ribbon banners · pictorial animal device · chromolithograph colours · deep red and dark blue with gold · cream paper ground · ornate scroll corners · 1880s printed label
 - **Negative:** letters · text · words · slogan · watermark · flat vector · minimal · gradient mesh
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Line engraving (process)
+
+Lines cut into a metal plate with a burin; thin hairlines and swelling strokes give tone, and the print keeps a sharp, even edge. Origin: painting, Upper Rhine, c. 1430.
+
+- Cut a hairline of 0.1 to 0.2mm for light areas; swell the line to 0.5mm or more for dark areas.
+- Build shade with parallel lines or cross hatching, and keep the lines at 30° to 45° to each other.
+- Print on smooth paper so the hairlines stay clean.
+
+### Pointed pen (tool)
+
+A sharp, flexible steel or quill nib: pressure spreads the two tines for a swelling downstroke, and no pressure gives a hairline upstroke. Origin: typeface, London, 1741.
+
+- Slope the letters 50–55° from the baseline and keep one slope for the line.
+- Press only on the downstrokes, to 3–8 times the hairline width, and release on the upstrokes and the joins.
+- Join each lower-case letter to the next with a hairline from the baseline or the x-height.
+
+### Wood type (process)
+
+Large display letters routed from end-grain wood instead of cast in metal, so posters and bills can use letters 5–50 cm high at a low cost. Origin: typeface, New York, 1828.
+
+- Use wood type for letters above about 72 pt, where metal is too heavy and too expensive.
+- Draw the faces to be loud at a distance: fat face, slab and condensed grotesque, in one weight per line.
+- Mix several faces and sizes on one bill and centre each line, as the job printers did.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -127,7 +155,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`art-nouveau-monogram`](../art-nouveau-monogram/SKILL.md), [`emblem-badge`](../emblem-badge/SKILL.md)
 - **Was rejected by:** [`swiss-modernist-mark`](../swiss-modernist-mark/SKILL.md)
 - **Mixes well with:** [`emblem-badge`](../emblem-badge/SKILL.md)
-- **Kin in another domain:** [`victorian-interior`](../victorian-interior/SKILL.md), [`victorian-web`](../victorian-web/SKILL.md)
+- **Kin in another domain:** [`fat-face-display`](../fat-face-display/SKILL.md), [`victorian-interior`](../victorian-interior/SKILL.md), [`victorian-web`](../victorian-web/SKILL.md)
 - **Nearest by vector profile:** [`emblem-badge`](../emblem-badge/SKILL.md), [`art-nouveau-monogram`](../art-nouveau-monogram/SKILL.md), [`glossy-3d-logo`](../glossy-3d-logo/SKILL.md)
 
 ## Emotional target

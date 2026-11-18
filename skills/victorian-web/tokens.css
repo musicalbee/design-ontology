@@ -20,6 +20,11 @@
   --space-unit: 8px;
   --ease: cubic-bezier(0.4, 0, 0.2, 1);
   --duration: 500ms;
+  --type-ratio: 1.618;
+  --size-small: 11.12px;
+  --size-h3: 47.12px;
+  --size-h2: 76.24px;
+  --size-h1: 123.36px;
   --color-on-bg: #1E1612;
   --color-on-surface: #1E1612;
   --color-on-primary: #F1E5C8;
@@ -94,6 +99,12 @@
 [data-style="victorian-web"] :where(.ground) {
   background: var(--ground, var(--color-bg));
   color: var(--color-on-bg);
+}
+[data-style="victorian-web"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
 }
 [data-style="victorian-web"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

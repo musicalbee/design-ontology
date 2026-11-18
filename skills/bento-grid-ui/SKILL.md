@@ -165,6 +165,11 @@ Set `data-style="bento-grid-ui"` on the root element and paste the tokens. The f
   --duration: 350ms;
   --grid-gap: 16px;
   --cell-padding: 24px;
+  --type-ratio: 1.333;
+  --size-small: 12px;
+  --size-h3: 28.43px;
+  --size-h2: 37.9px;
+  --size-h1: 50.52px;
   --color-on-bg: #1D1D1F;
   --color-on-surface: #1D1D1F;
   --color-on-primary: #F5F5F7;
@@ -217,7 +222,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 600, subhead 500, body 400, bold in text 600, labels and buttons 500. The style uses 3 weights (400, 500, 600) and no other. The display is 200 heavier than the body. The accent is size: a larger word is the accent, so the weights stay few.
 - **Body type:** 16px, leading 1.5.
 - **Page:** hero stacked, left aligned, compact density, accent tilt 0°.
-- **Ground:** dot-grid. Bento layouts sit on a quiet grid, and the cells give all the structure. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** dot-grid. Bento layouts sit on a quiet grid, and the cells give all the structure. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack
@@ -243,6 +248,27 @@ A drawing with three axes at equal angles and one scale, with no vanishing point
 
 - Draw the three axes at 120° to each other; on a pixel grid, use a 2:1 slope (26.57°).
 - Keep one scale on all three axes and draw no vanishing point.
+
+### Modular grid (process)
+
+A page or screen divided into equal columns and rows; each element fits a cell or a block of cells, so that the whole layout repeats one measure. Origin: graphic & ui design, Zurich, c. 1958.
+
+- Divide the page into 4 to 12 equal columns with a gutter of 1/10 to 1/5 of a column width.
+- Cut the page into rows of the same module height; align each image and text block to the lines.
+- Set text on a baseline grid of one line height, and use 1 to 2 type sizes for each level.
+- Scale an image by a whole number of modules.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #1D1D1F | #1D1D1F, #0071E3 | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #0071E3 | #0071E3, #1D1D1F | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 24px | 12–36 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.333 | 1.25–1.414 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

@@ -20,5 +20,15 @@
     { "key": "ornament", "title": "Ornament" },
     { "key": "composition", "title": "Composition rules" },
     { "key": "references", "title": "Reference images" }
+  ],
+  "assets": [
+    {"type": "hero-view", "purpose": "One public building seen from across a square at eye height, with level verticals.", "made_by": "model", "file": "demo/previews/architecture/{id}.webp", "manifest": "demo/previews/architecture/manifest.json", "entry": "images.{id}", "generator": "scripts/render-previews.ts", "canvas": [{"width": 1152, "height": 768}]}
+  ],
+  "knobs": [
+    {"key": "storey_height", "label": "Storey height", "kind": "number", "unit": "m", "min": 2.4, "max": 8, "description": "The floor-to-floor height.", "drives": ["massing", "facade"]},
+    {"key": "structural_grid", "label": "Structural grid", "kind": "number", "unit": "m", "min": 3, "max": 30, "description": "The span between columns or walls.", "drives": ["structure"]},
+    {"key": "glazing_ratio", "label": "Glazing ratio", "kind": "number", "unit": "%", "min": 0, "max": 100, "description": "The glass part of the facade.", "drives": ["facade", "light_and_space"]},
+    {"key": "roof_pitch", "label": "Roof pitch", "kind": "number", "unit": "deg", "min": 0, "max": 70, "description": "The slope of the main roof.", "drives": ["massing"]},
+    {"key": "base_material", "label": "Base material", "kind": "enum", "options": ["stone", "brick", "timber", "concrete", "steel", "glass", "earth"], "description": "The material that carries the facade.", "drives": ["materials"]}
   ]
 }

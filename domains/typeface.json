@@ -19,5 +19,15 @@
     { "key": "pairing", "title": "Pairing" },
     { "key": "reference_faces", "title": "Reference faces" },
     { "key": "prompt_primer", "title": "Prompt primer" }
+  ],
+  "assets": [
+    {"type": "specimen", "purpose": "A type specimen: Hamburgefonstiv, the alphabet, the figures and a pangram, drawn from the open font file.", "made_by": "code", "file": "demo/previews/typeface/{id}.svg", "manifest": "demo/previews/typeface/manifest.json", "entry": "images.{id}", "generator": "scripts/render-type-specimens.ts", "canvas": [{"width": 1152, "height": 768}]}
+  ],
+  "knobs": [
+    {"key": "weight", "label": "Weight", "kind": "integer", "min": 100, "max": 900, "description": "The wght axis of a variable font.", "drives": ["metrics", "setting"]},
+    {"key": "width", "label": "Width", "kind": "number", "unit": "%", "min": 50, "max": 200, "description": "The wdth axis: the set width against the normal width.", "drives": ["metrics"]},
+    {"key": "x_height_ratio", "label": "x-height ratio", "kind": "number", "min": 0.35, "max": 0.6, "description": "The x-height divided by the em.", "drives": ["metrics", "anatomy"]},
+    {"key": "stroke_contrast", "label": "Stroke contrast", "kind": "number", "min": 1, "max": 20, "description": "The thick stroke divided by the thin stroke.", "drives": ["anatomy"]},
+    {"key": "tracking", "label": "Tracking", "kind": "number", "unit": "em", "min": -0.05, "max": 0.2, "description": "The letter space for display sizes.", "drives": ["setting"]}
   ]
 }

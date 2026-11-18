@@ -1,0 +1,65 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "fixed-pitch-grid",
+  "name": "Fixed-pitch grid",
+  "aliases": [
+    "Monospacing",
+    "Character cell grid",
+    "Typewriter pitch"
+  ],
+  "kind": "process",
+  "summary": "Every character takes one cell of the same width, so text forms columns without a separate grid and a position is a count of characters.",
+  "how": [
+    "Give every glyph one advance width, 0.60 em in most fonts, or 10 or 12 characters an inch on a typewriter.",
+    "Align columns with spaces and set tables, code and forms on the cell grid.",
+    "On a screen, size the layout in cells: 80 columns by 24 rows is the classic terminal."
+  ],
+  "origin": {
+    "domain": "typeface",
+    "year": 1874,
+    "where": "Ilion, New York",
+    "note": "The Sholes and Glidden typewriter by E. Remington and Sons moves the carriage one fixed step for each key, so its type must be monospaced."
+  },
+  "adoptions": [
+    {
+      "domain": "typeface",
+      "year": 1874,
+      "via": "Typewriter faces, then Courier for IBM in 1955.",
+      "styles": [
+        "monospace"
+      ]
+    },
+    {
+      "domain": "design",
+      "year": 1978,
+      "via": "Video terminals such as the DEC VT100 draw the whole screen as a grid of 80 by 24 character cells.",
+      "styles": [
+        "terminal-tui-web",
+        "dark-devtool-ui"
+      ]
+    }
+  ],
+  "styles": [
+    "monospace",
+    "terminal-tui-web",
+    "dark-devtool-ui"
+  ],
+  "principles": [
+    "rhythm",
+    "grouping"
+  ],
+  "sources": [
+    {
+      "title": "Monospaced font (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Monospaced_font"
+    },
+    {
+      "title": "Sholes and Glidden typewriter (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Sholes_and_Glidden_typewriter"
+    },
+    {
+      "title": "VT100 (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/VT100"
+    }
+  ]
+}

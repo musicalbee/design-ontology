@@ -162,6 +162,11 @@ Set `data-style="cassette-futurism"` on the root element and paste the tokens. T
   --space-unit: 8px;
   --ease: steps(4);
   --duration: 240ms;
+  --type-ratio: 1.333;
+  --size-small: 12px;
+  --size-h3: 28.43px;
+  --size-h2: 37.9px;
+  --size-h1: 50.52px;
   --color-on-bg: #F3E9C8;
   --color-on-surface: #F3E9C8;
   --color-on-primary: #14130F;
@@ -216,7 +221,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 700, subhead 600, body 400, bold in text 600, labels and buttons 600. The style uses 3 weights (400, 600, 700) and no other. The display is 300 heavier than the body. The accent is colour: one coloured word or field is the accent, so the weights stay quiet.
 - **Body type:** 16px, leading 1.5.
 - **Page:** hero split, left aligned, compact density, accent tilt 0°.
-- **Ground:** scanlines. Cassette futurism lives on a phosphor screen with visible scan lines and a dark bezel. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** scanlines. Cassette futurism lives on a phosphor screen with visible scan lines and a dark bezel. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack
@@ -242,6 +247,18 @@ Lines that run to one vanishing point on a horizon, so that a flat surface reads
 
 - Put the horizon at 50% to 65% of the height and draw 12 to 24 lines to one vanishing point.
 - Space the cross lines so that each gap is about 0.8 of the gap in front of it.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #FFB000 | #FFB000, #33FF66, #F3E9C8 | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #33FF66 | #33FF66, #FFB000 | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 4px | 2–6 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.333 | 1.25–1.414 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

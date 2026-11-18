@@ -20,6 +20,11 @@
   --space-unit: 6px;
   --ease: steps(4);
   --duration: 120ms;
+  --type-ratio: 1.618;
+  --size-small: 9.27px;
+  --size-h3: 39.27px;
+  --size-h2: 63.54px;
+  --size-h1: 102.8px;
   --color-on-bg: #0A0A0A;
   --color-on-surface: #0A0A0A;
   --color-on-primary: #F2F0E8;
@@ -89,6 +94,12 @@
 [data-style="anti-design"] :where(.ground) {
   background: var(--ground, var(--color-bg));
   color: var(--color-on-bg);
+}
+[data-style="anti-design"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
 }
 [data-style="anti-design"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

@@ -174,6 +174,18 @@ Reference works:
 | Frederick C. Robie House, Chicago | Frank Lloyd Wright | 1910 |
 | Merchants National Bank, Winona | Purcell and Elmslie | 1914 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Cantilever (process)
+
+A beam or slab fixed at one end that carries load beyond its support, so that it seems to hang in the air. Origin: architecture, Northern Europe, c. 1300.
+
+- Fix the beam at one end and anchor it with a back span of at least 1 part to every 2 parts of the overhang.
+- Keep the free end thin; a depth of 1/8 to 1/10 of the span suits steel and concrete.
+- Repeat the horizontal line in a run of 2 or 3 projecting planes to give a strong shadow.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

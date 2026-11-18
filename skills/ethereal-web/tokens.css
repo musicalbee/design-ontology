@@ -20,6 +20,11 @@
   --space-unit: 8px;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
   --duration: 1000ms;
+  --type-ratio: 1.2;
+  --size-small: 14.17px;
+  --size-h3: 24.48px;
+  --size-h2: 29.38px;
+  --size-h1: 35.25px;
   --color-on-bg: #4A4A5E;
   --color-on-surface: #4A4A5E;
   --color-on-primary: #4A4A5E;
@@ -89,6 +94,12 @@
 [data-style="ethereal-web"] :where(.ground) {
   background: var(--ground, var(--color-bg));
   color: var(--color-on-bg);
+}
+[data-style="ethereal-web"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
 }
 [data-style="ethereal-web"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

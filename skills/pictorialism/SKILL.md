@@ -168,6 +168,12 @@ The rules above name these shared principles by id. The definition is the same i
 | `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | brightest mass to deepest shadow in one image (stops): 3–4 flat; 5–8 hard, 8 or more for expressionist |
 | `unity-variety` | Unity and variety | Repeated materials, colours and shapes join the parts into one whole. A small, planned number of deviations keeps the whole alive. | materials or hues that repeat (count): 2 to 4; deliberate deviations (count): 1 to 2 |
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Camera Work** (magazine, New York, 1903–1917), published the style. A quarterly of photography that Alfred Stieglitz edited and published, with fine photogravure plates. It argued for photography as a fine art.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

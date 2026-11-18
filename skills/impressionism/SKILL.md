@@ -163,6 +163,25 @@ The rules above name these shared principles by id. The definition is the same i
 | `colour-distribution` | Colour distribution | Each colour takes a planned share of the visible area: a dominant colour, a secondary colour and an accent. | dominant / secondary / accent share (% of visible surface): 60/30/10 as the default; 70/25/5 calm; 40/35/25 bold; accents (count): 1 to 3 |
 | `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | frame area (% of the view): 10–35; frame planes (count): 1 to 2 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Serial repetition (process)
+
+One motif or one frame, repeated with small changes in a set of works, so that the viewer reads the change and not the object. Origin: painting, Paris, 1891.
+
+- Fix the motif, the format and the viewpoint; change one variable only, such as the hour, the colour or the stripe width.
+- Make at least 5 works in the set and show them in one row at one height.
+- Keep the spacing between works equal to a fixed unit, such as 10 cm or one panel width.
+- Remove the hand: use a mechanical edge, a stencil or a plain lens.
+
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Salon des Refusés** (exhibition, Paris, 1863–1863), exhibited the style. An official show of the works that the jury of the Paris Salon rejected in 1863. It put the new painting of modern life in front of a large public.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

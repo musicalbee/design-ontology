@@ -144,8 +144,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`grotesque-sans`](../grotesque-sans/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`humanist-sans`](../humanist-sans/SKILL.md)
+- **Mixes well with:** [`monospace`](../monospace/SKILL.md)
 - **Kin in another domain:** [`international-style-architecture`](../international-style-architecture/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
-- **Nearest by vector profile:** [`grotesque-sans`](../grotesque-sans/SKILL.md), [`humanist-sans`](../humanist-sans/SKILL.md), [`geometric-sans`](../geometric-sans/SKILL.md)
+- **Nearest by vector profile:** [`grotesque-sans`](../grotesque-sans/SKILL.md), [`monospace`](../monospace/SKILL.md), [`humanist-sans`](../humanist-sans/SKILL.md)
 
 ## Emotional target
 

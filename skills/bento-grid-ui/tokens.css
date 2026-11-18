@@ -22,6 +22,11 @@
   --duration: 350ms;
   --grid-gap: 16px;
   --cell-padding: 24px;
+  --type-ratio: 1.333;
+  --size-small: 12px;
+  --size-h3: 28.43px;
+  --size-h2: 37.9px;
+  --size-h1: 50.52px;
   --color-on-bg: #1D1D1F;
   --color-on-surface: #1D1D1F;
   --color-on-primary: #F5F5F7;
@@ -89,6 +94,12 @@
 [data-style="bento-grid-ui"] :where(.ground) {
   background: var(--ground, var(--color-bg));
   color: var(--color-on-bg);
+}
+[data-style="bento-grid-ui"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
 }
 [data-style="bento-grid-ui"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

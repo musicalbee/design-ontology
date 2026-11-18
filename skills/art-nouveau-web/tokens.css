@@ -20,6 +20,11 @@
   --space-unit: 12px;
   --ease: cubic-bezier(0.4, 0, 0.2, 1);
   --duration: 400ms;
+  --type-ratio: 1.5;
+  --size-small: 11.33px;
+  --size-h3: 38.25px;
+  --size-h2: 57.38px;
+  --size-h1: 86.06px;
   --color-on-bg: #2F3F2C;
   --color-on-surface: #2F3F2C;
   --color-on-primary: #F4ECD8;
@@ -94,6 +99,12 @@
 [data-style="art-nouveau-web"] :where(.ground) {
   background: var(--ground, var(--color-bg));
   color: var(--color-on-bg);
+}
+[data-style="art-nouveau-web"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
 }
 [data-style="art-nouveau-web"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

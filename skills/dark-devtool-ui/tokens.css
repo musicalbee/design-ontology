@@ -21,6 +21,11 @@
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
   --duration: 150ms;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --type-ratio: 1.25;
+  --size-small: 11.2px;
+  --size-h3: 21.88px;
+  --size-h2: 27.34px;
+  --size-h1: 34.18px;
   --color-on-bg: #E6E6EB;
   --color-on-surface: #E6E6EB;
   --color-on-primary: #FFFFFF;
@@ -88,6 +93,12 @@
 [data-style="dark-devtool-ui"] :where(.ground) {
   background: var(--ground, var(--color-bg));
   color: var(--color-on-bg);
+}
+[data-style="dark-devtool-ui"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
 }
 [data-style="dark-devtool-ui"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

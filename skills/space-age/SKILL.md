@@ -171,6 +171,11 @@ Set `data-style="space-age"` on the root element and paste the tokens. The file 
   --grid-gutter: 24px;
   --tracking-display: 0.06em;
   --leading-body: 1.55;
+  --type-ratio: 1.5;
+  --size-small: 10.67px;
+  --size-h3: 36px;
+  --size-h2: 54px;
+  --size-h1: 81px;
   --color-on-bg: #0B2A5B;
   --color-on-surface: #0B2A5B;
   --color-on-primary: #F7F9FB;
@@ -224,7 +229,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 400, subhead 400, body 400, bold in text 600, labels and buttons 600. The style uses 2 weights (400, 600) and no other. The display has the weight of the body, so size and face carry the hierarchy. The accent is case and tracking: an upper-case label is the accent, so the weights stay few.
 - **Body type:** 16px, leading 1.55.
 - **Page:** hero poster, left aligned, regular density, accent tilt 3°.
-- **Ground:** rays. Space-age graphics show a launch: rays and orbits that leave one point on the horizon. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** rays. Space-age graphics show a launch: rays and orbits that leave one point on the horizon. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack
@@ -251,6 +256,18 @@ Rays from a disc or a half disc: a sign of light and of the new, on a facade, a 
 - Draw 12 to 36 rays from one centre; alternate long and short rays, or two finishes.
 - Keep the centre disc at 15% to 30% of the full diameter.
 - In a room, use one sunburst as the focal point of one wall.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #0B2A5B | #0B2A5B, #F26B1D | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #F26B1D | #F26B1D, #0B2A5B | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 24px | 12–36 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.5 | 1.414–1.618 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

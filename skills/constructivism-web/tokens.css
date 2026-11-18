@@ -20,6 +20,11 @@
   --space-unit: 8px;
   --ease: cubic-bezier(0.7, 0, 0.3, 1);
   --duration: 200ms;
+  --type-ratio: 1.618;
+  --size-small: 9.89px;
+  --size-h3: 41.89px;
+  --size-h2: 67.77px;
+  --size-h1: 109.66px;
   --color-on-bg: #111111;
   --color-on-surface: #111111;
   --color-on-primary: #FFFFFF;
@@ -88,6 +93,12 @@
 [data-style="constructivism-web"] :where(.ground) {
   background: var(--ground, var(--color-bg));
   color: var(--color-on-bg);
+}
+[data-style="constructivism-web"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
 }
 [data-style="constructivism-web"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

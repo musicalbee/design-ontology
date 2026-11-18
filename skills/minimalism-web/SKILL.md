@@ -158,6 +158,11 @@ Set `data-style="minimalism-web"` on the root element and paste the tokens. The 
   --space-unit: 8px;
   --ease: cubic-bezier(0.2, 0, 0, 1);
   --duration: 200ms;
+  --type-ratio: 1.25;
+  --size-small: 12.8px;
+  --size-h3: 25px;
+  --size-h2: 31.25px;
+  --size-h1: 39.06px;
   --color-on-bg: #161616;
   --color-on-surface: #161616;
   --color-on-primary: #FAFAF8;
@@ -211,7 +216,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 600, subhead 600, body 400, bold in text 600, labels and buttons 500. The style uses 3 weights (400, 500, 600) and no other. The display is 200 heavier than the body. The accent is weight: a heavier word is the accent, so the steps between the weights are clear.
 - **Body type:** 16px, leading 1.6.
 - **Page:** hero stacked, left aligned, airy density, accent tilt 0°.
-- **Ground:** dot-grid. Minimalism keeps the field almost empty: a faint dot grid and one small light of colour. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** dot-grid. Minimalism keeps the field almost empty: a faint dot grid and one small light of colour. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack
@@ -226,6 +231,31 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 6. **The family covers the product.** List each concept that the product needs before you commit. A family that has no icon for one of them is the wrong family.
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
+
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Modular grid (process)
+
+A page or screen divided into equal columns and rows; each element fits a cell or a block of cells, so that the whole layout repeats one measure. Origin: graphic & ui design, Zurich, c. 1958.
+
+- Divide the page into 4 to 12 equal columns with a gutter of 1/10 to 1/5 of a column width.
+- Cut the page into rows of the same module height; align each image and text block to the lines.
+- Set text on a baseline grid of one line height, and use 1 to 2 type sizes for each level.
+- Scale an image by a whole number of modules.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #2F5BEA | #2F5BEA, #1E3FB0, #161616 | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #1E3FB0 | #1E3FB0, #2F5BEA | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 4px | 2–6 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.25 | 1.2–1.333 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

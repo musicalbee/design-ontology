@@ -1,0 +1,56 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "diffusion-model",
+  "name": "Diffusion model",
+  "aliases": [
+    "Latent diffusion",
+    "Text-to-image model"
+  ],
+  "kind": "tool",
+  "summary": "A model that learns to turn noise into an image step by step, and makes a new image from a text prompt.",
+  "how": [
+    "Start from pure noise and remove it over 20 to 50 steps.",
+    "Steer the result with a text prompt and a guidance scale of 5 to 10.",
+    "Expect smooth skin, even light and a glossy, over-detailed finish when the prompt gives no flaw.",
+    "Add a concrete flaw to the prompt, such as grain, a lens fault or a cluttered ground, to break the sheen."
+  ],
+  "origin": {
+    "domain": "photography",
+    "year": 2015,
+    "where": "Stanford and Berkeley",
+    "note": "Jascha Sohl-Dickstein and co-authors publish the first diffusion method for images; it is a paper in machine learning."
+  },
+  "adoptions": [
+    {
+      "domain": "photography",
+      "year": 2020,
+      "via": "Jonathan Ho, Ajay Jain and Pieter Abbeel publish Denoising Diffusion Probabilistic Models."
+    },
+    {
+      "domain": "design",
+      "year": 2022,
+      "via": "Midjourney and DALL-E 2 put text-to-image models in the hands of illustrators and designers."
+    },
+    {
+      "domain": "photography",
+      "year": 2022,
+      "via": "Stable Diffusion releases its weights in August, and its glossy default look spreads as a recognisable image style.",
+      "styles": [
+        "ai-hyperreal"
+      ]
+    }
+  ],
+  "styles": [
+    "ai-hyperreal"
+  ],
+  "sources": [
+    {
+      "title": "Sohl-Dickstein et al., Deep Unsupervised Learning using Nonequilibrium Thermodynamics (ICML 2015)",
+      "url": "https://arxiv.org/abs/1503.03585"
+    },
+    {
+      "title": "Ho, Jain and Abbeel, Denoising Diffusion Probabilistic Models (2020)",
+      "url": "https://arxiv.org/abs/2006.11239"
+    }
+  ]
+}

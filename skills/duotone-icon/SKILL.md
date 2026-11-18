@@ -128,6 +128,17 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Positive:** duotone icon · two tone icon · outline with soft fill · primary and secondary layer · 30 percent opacity fill · single hue · 24 px grid · Phosphor duotone style
 - **Negative:** two clashing colours · gradients · drop shadows · photorealistic detail · offset print layers
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Halftone (process)
+
+Tone printed as dots of different size or spacing; at a distance the dots merge into grey or colour. Origin: graphic & ui design, New York, 1879.
+
+- Set the screen at 10 to 30 lines per cm for a print grain, or enlarge the dots to 4 to 8mm for a Pop effect.
+- Turn each colour screen to its own angle: cyan 15°, magenta 75°, yellow 0°, black 45°.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

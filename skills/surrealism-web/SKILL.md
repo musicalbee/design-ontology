@@ -158,6 +158,11 @@ Set `data-style="surrealism-web"` on the root element and paste the tokens. The 
   --space-unit: 8px;
   --ease: cubic-bezier(0.4, 0, 0.2, 1);
   --duration: 900ms;
+  --type-ratio: 1.333;
+  --size-small: 12px;
+  --size-h3: 28.43px;
+  --size-h2: 37.9px;
+  --size-h1: 50.52px;
   --color-on-bg: #14213F;
   --color-on-surface: #14213F;
   --color-on-primary: #FFFFFF;
@@ -215,7 +220,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 500, subhead 500, body 400, bold in text 600, labels and buttons 500. The style uses 3 weights (400, 500, 600) and no other. The display is 100 heavier than the body. The accent is size: a larger word is the accent, so the weights stay few.
 - **Body type:** 16px, leading 1.6.
 - **Page:** hero poster, center aligned, airy density, accent tilt 0°.
-- **Ground:** sky. Surrealist painting puts calm clouds in a clear sky over a flat horizon. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** sky. Surrealist painting puts calm clouds in a clear sky over a flat horizon. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack
@@ -230,6 +235,39 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 6. **The family covers the product.** List each concept that the product needs before you commit. A family that has no icon for one of them is the wrong family.
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
+
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Long shadow (motif)
+
+A shadow far longer than its object, cast by a low sun, so that a still scene feels strange and charged. Origin: painting, Paris, 1914.
+
+- Cast the shadow at a low angle: the shadow is 2 to 5 times the height of the object.
+- Keep one light direction in the whole scene.
+- Leave the shadow flat and dark, at 40% to 70% opacity.
+- Show the shadow of something outside the frame, to hint at an unseen presence.
+
+### Photomontage (montage)
+
+Fragments of photographs, cut and joined on one sheet, so that the joins make a statement that no single photograph makes. Origin: graphic & ui design, Berlin, 1918.
+
+- Join 3 to 12 photographic fragments on one ground and keep the cut edges hard and visible.
+- Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.
+- Set type as one more fragment, turned 0° to 30°, in the same stack of layers.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #C2381A | #C2381A, #1B2A55, #14213F | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #1B2A55 | #1B2A55, #C2381A | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 20px | 10–30 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.333 | 1.25–1.414 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

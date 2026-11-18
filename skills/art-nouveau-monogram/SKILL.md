@@ -117,6 +117,19 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Positive:** Art Nouveau vignette · whiplash curves · interlaced plant tendrils · one ink on toned paper · sage green and black · symmetrical frame · line block print · 1900 book ornament · flowing organic line
 - **Negative:** letters · text · words · slogan · watermark · hatching · photographic · gradient · geometric grid
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Whiplash line (motif)
+
+A long S-shaped line whose curve changes along its length, drawn from a plant stem; it joins structure and ornament in one stroke. Origin: architecture, Brussels, c. 1893.
+
+- Draw each line as an S-curve with a radius that changes along its length.
+- Swell the stroke from 1 to 4 units along the curve, as a stem thickens at the base.
+- Join letters, frame and plant forms with the same line; leave no straight edge to break the flow.
+- Use few colours, 2 to 4, in muted tones.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

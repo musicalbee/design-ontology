@@ -1,0 +1,67 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "neon-glow",
+  "name": "Neon glow",
+  "aliases": [
+    "Neon sign",
+    "Light glow"
+  ],
+  "kind": "material",
+  "summary": "Light as a line of coloured gas, with a soft halo that spills onto the dark ground around it.",
+  "how": [
+    "Draw the tube as a line of 2 to 6mm in one saturated colour; use no more than 2 colours in one sign.",
+    "Add a halo of 10 to 40px at 30% to 60% opacity in the same hue.",
+    "Set the sign on a ground darker than 10% lightness, so that the halo shows.",
+    "Keep a bright, near-white core inside the line."
+  ],
+  "origin": {
+    "domain": "design",
+    "year": 1912,
+    "where": "Paris",
+    "note": "Georges Claude shows his neon tube at the Paris Motor Show in 1910, and a Paris hairdresser installs a neon sign in 1912."
+  },
+  "adoptions": [
+    {
+      "domain": "architecture",
+      "year": 1972,
+      "via": "Venturi, Scott Brown and Izenour study the neon signs of the Las Vegas Strip in Learning from Las Vegas.",
+      "styles": [
+        "postmodern-architecture"
+      ]
+    },
+    {
+      "domain": "film",
+      "year": 1982,
+      "via": "Ridley Scott fills the wet night streets of Blade Runner with neon signs.",
+      "styles": [
+        "neon-noir"
+      ]
+    },
+    {
+      "domain": "design",
+      "year": 2010,
+      "circa": true,
+      "via": "Web designers fake neon with layered text-shadow and box-shadow glows once browsers support CSS3.",
+      "styles": [
+        "cyberpunk-web",
+        "synthwave-web"
+      ]
+    }
+  ],
+  "styles": [
+    "postmodern-architecture",
+    "neon-noir",
+    "cyberpunk-web",
+    "synthwave-web"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia, Neon lighting",
+      "url": "https://en.wikipedia.org/wiki/Neon_lighting"
+    },
+    {
+      "title": "Wikipedia, Blade Runner",
+      "url": "https://en.wikipedia.org/wiki/Blade_Runner"
+    }
+  ]
+}

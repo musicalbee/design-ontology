@@ -25,6 +25,11 @@
   --grid-gutter: 16px;
   --tracking-display: 0.01em;
   --leading-body: 1.8;
+  --type-ratio: 1.333;
+  --size-small: 12px;
+  --size-h3: 28.43px;
+  --size-h2: 37.9px;
+  --size-h1: 50.52px;
   --color-on-bg: #111111;
   --color-on-surface: #111111;
   --color-on-primary: #F7F3EA;
@@ -92,6 +97,12 @@
 [data-style="japanese-graphic-modernism"] :where(.ground) {
   background: var(--ground, var(--color-bg));
   color: var(--color-on-bg);
+}
+[data-style="japanese-graphic-modernism"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
 }
 [data-style="japanese-graphic-modernism"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

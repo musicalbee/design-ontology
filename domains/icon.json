@@ -19,5 +19,15 @@
     { "key": "perspective_and_light", "title": "Perspective & light" },
     { "key": "metaphor", "title": "Metaphor" },
     { "key": "prompt_primer", "title": "Prompt primer" }
+  ],
+  "assets": [
+    {"type": "icon-sheet", "purpose": "A 3 by 3 sheet of nine app icons with one glyph each, in the style.", "made_by": "model", "file": "demo/previews/icon/{id}.webp", "manifest": "demo/previews/icon/manifest.json", "entry": "images.{id}", "generator": "scripts/render-previews.ts", "canvas": [{"width": 1152, "height": 768}]}
+  ],
+  "knobs": [
+    {"key": "grid_size", "label": "Grid size", "kind": "integer", "unit": "px", "min": 12, "max": 512, "description": "The edge of the icon grid.", "drives": ["grid"]},
+    {"key": "stroke_width", "label": "Stroke width", "kind": "number", "unit": "px", "min": 0, "max": 4, "description": "The stroke at the grid size.", "drives": ["stroke"]},
+    {"key": "corner_radius", "label": "Corner radius", "kind": "number", "unit": "px", "min": 0, "max": 16, "description": "The radius of the outer corners at the grid size.", "drives": ["shape"]},
+    {"key": "fill_mode", "label": "Fill mode", "kind": "enum", "options": ["outline", "solid", "duotone", "gradient", "render"], "description": "How the glyph takes colour.", "drives": ["colour", "shape"]},
+    {"key": "base_colour", "label": "Base colour", "kind": "colour", "description": "The main colour of the glyph.", "drives": ["colour"]}
   ]
 }

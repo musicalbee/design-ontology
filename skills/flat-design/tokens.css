@@ -24,6 +24,11 @@
   --grid-columns: 12;
   --grid-gutter: 30px;
   --leading-body: 1.5;
+  --type-ratio: 1.25;
+  --size-small: 12.8px;
+  --size-h3: 25px;
+  --size-h2: 31.25px;
+  --size-h1: 39.06px;
   --color-on-bg: #2C3E50;
   --color-on-surface: #2C3E50;
   --color-on-primary: #2C3E50;
@@ -93,6 +98,12 @@
 [data-style="flat-design"] :where(.ground) {
   background: var(--ground, var(--color-bg));
   color: var(--color-on-bg);
+}
+[data-style="flat-design"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
 }
 [data-style="flat-design"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

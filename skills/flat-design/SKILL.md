@@ -168,6 +168,11 @@ Set `data-style="flat-design"` on the root element and paste the tokens. The fil
   --grid-columns: 12;
   --grid-gutter: 30px;
   --leading-body: 1.5;
+  --type-ratio: 1.25;
+  --size-small: 12.8px;
+  --size-h3: 25px;
+  --size-h2: 31.25px;
+  --size-h1: 39.06px;
   --color-on-bg: #2C3E50;
   --color-on-surface: #2C3E50;
   --color-on-primary: #2C3E50;
@@ -222,7 +227,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 300, subhead 400, body 400, bold in text 700, labels and buttons 700. The style uses 3 weights (300, 400, 700) and no other. The display is 100 lighter than the body, so size carries the hierarchy. The accent is colour: one coloured word or field is the accent, so the weights stay quiet.
 - **Body type:** 16px, leading 1.6.
 - **Page:** hero stacked, center aligned, airy density, accent tilt 0°.
-- **Ground:** blocks. Flat design uses solid blocks of colour; the long hard shadow gives depth with no gradient. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** blocks. Flat design uses solid blocks of colour; the long hard shadow gives depth with no gradient. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack
@@ -242,6 +247,15 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 
 These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
 
+### Long shadow (motif)
+
+A shadow far longer than its object, cast by a low sun, so that a still scene feels strange and charged. Origin: painting, Paris, 1914.
+
+- Cast the shadow at a low angle: the shadow is 2 to 5 times the height of the object.
+- Keep one light direction in the whole scene.
+- Leave the shadow flat and dark, at 40% to 70% opacity.
+- Show the shadow of something outside the frame, to hint at an unseen presence.
+
 ### Multiplane parallax (animation)
 
 Flat layers move at different speeds by their distance, so that a flat picture gets depth. Origin: film & video, The Old Mill, 1937.
@@ -257,6 +271,18 @@ A moving form changes shape but keeps its volume: it stretches along its path at
 - Keep the volume constant: when the height grows by a factor k, scale the width by 1/k.
 - Stretch along the path by 10% to 30% at the highest speed and squash by the same amount on impact.
 - In an interface, use a spring with a damping ratio of 0.6 to 0.8, so that an element overshoots once and settles.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #1ABC9C | #1ABC9C, #E74C3C, #2C3E50 | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #E74C3C | #E74C3C, #1ABC9C | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 4px | 2–6 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.25 | 1.2–1.333 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

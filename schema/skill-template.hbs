@@ -116,7 +116,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Body type:** {{pack.type.body_size}}, leading {{pack.type.body_leading}}.
 - **Page:** hero {{pack.layout.hero}}, {{pack.layout.align}} aligned, {{pack.layout.density}} density, accent tilt {{pack.layout.tilt_deg}}°.
 {{#if pack.ground}}
-- **Ground:** {{pack.ground.kind}}. {{pack.ground.why}} Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** {{pack.ground.kind}}. {{pack.ground.why}} Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 {{/if}}
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
@@ -162,7 +162,7 @@ Reference works:
 These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
 
 {{#each techniques}}
-### {{name}} ({{kind}})
+### {{name}} ({{kind}}{{#if invented}}, invented here{{/if}})
 
 {{summary}} Origin: {{origin}}.
 
@@ -171,6 +171,28 @@ These techniques started in one domain and moved into this style. Apply the rule
 {{/each}}
 
 {{/each}}
+{{/if}}
+{{#if media}}
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+{{#each media}}
+- **{{name}}** ({{kind}}, {{place}}, {{years}}), {{part}} the style. {{summary}}
+{{/each}}
+
+{{/if}}
+{{#if knobs}}
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+{{#each knobs}}
+| {{label}} (`{{key}}`) | {{default}} | {{range}} | {{drives}} |
+{{/each}}
+
 {{/if}}
 ## Lineage fallbacks
 

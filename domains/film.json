@@ -22,5 +22,15 @@
     { "key": "titles_and_graphics", "title": "Titles & graphics" },
     { "key": "shot_primer", "title": "Shot primer" },
     { "key": "prompt_primer", "title": "Video prompt primer" }
+  ],
+  "assets": [
+    {"type": "still", "purpose": "One still frame of a fixed scene in the camera, the light and the grade of the style.", "made_by": "model", "file": "demo/previews/film/{id}.webp", "manifest": "demo/previews/film/manifest.json", "entry": "images.{id}", "generator": "scripts/render-previews.ts", "canvas": [{"width": 1152, "height": 768}, {"width": 768, "height": 1152}]}
+  ],
+  "knobs": [
+    {"key": "aspect_ratio", "label": "Aspect ratio", "kind": "enum", "options": ["1.33:1", "1.37:1", "1.66:1", "1.85:1", "2.39:1", "9:16"], "description": "The frame, as width to height.", "drives": ["lens_and_format", "composition"]},
+    {"key": "frame_rate", "label": "Frame rate", "kind": "number", "unit": "fps", "min": 12, "max": 120, "description": "The capture rate.", "drives": ["capture", "camera_and_movement"]},
+    {"key": "average_shot_length", "label": "Average shot length", "kind": "number", "unit": "s", "min": 0.5, "max": 600, "description": "The mean length of a shot.", "drives": ["editing_and_rhythm"]},
+    {"key": "colour_temperature", "label": "Colour temperature", "kind": "integer", "unit": "K", "min": 2000, "max": 10000, "description": "The white balance of the grade.", "drives": ["colour_and_grade", "light"]},
+    {"key": "grain", "label": "Grain", "kind": "number", "min": 0, "max": 1, "description": "The grain or the noise of the image, from clean to heavy.", "drives": ["colour_and_grade"]}
   ]
 }

@@ -164,6 +164,19 @@ The rules above name these shared principles by id. The definition is the same i
 | `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | brightest mass to deepest shadow in one image (stops): 3–4 flat; 5–8 hard, 8 or more for expressionist |
 | `proportion` | Proportion | The ratio of one dimension to another, and of a part to the whole. A style holds one ratio or one series of ratios through the room, the facade or the picture. | governing ratio (ratio): 1:1, 2:3, 1:1.414, 1:1.618, 1:2; module series (series): Modulor, tatami 91 x 182 cm, 60 cm kitchen module |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Serial repetition (process)
+
+One motif or one frame, repeated with small changes in a set of works, so that the viewer reads the change and not the object. Origin: painting, Paris, 1891.
+
+- Fix the motif, the format and the viewpoint; change one variable only, such as the hour, the colour or the stripe width.
+- Make at least 5 works in the set and show them in one row at one height.
+- Keep the spacing between works equal to a fixed unit, such as 10 cm or one panel width.
+- Remove the hand: use a mechanical edge, a stencil or a plain lens.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

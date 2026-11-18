@@ -20,6 +20,11 @@
   --space-unit: 4px;
   --ease: linear;
   --duration: 150ms;
+  --type-ratio: 1.333;
+  --size-small: 10.5px;
+  --size-h3: 24.88px;
+  --size-h2: 33.16px;
+  --size-h1: 44.2px;
   --color-on-bg: #222222;
   --color-on-surface: #222222;
   --color-on-primary: #FFFFFF;
@@ -90,6 +95,12 @@
 [data-style="japanese-dense-web"] :where(.ground) {
   background: var(--ground, var(--color-bg));
   color: var(--color-on-bg);
+}
+[data-style="japanese-dense-web"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
 }
 [data-style="japanese-dense-web"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

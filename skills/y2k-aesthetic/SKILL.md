@@ -170,6 +170,11 @@ Set `data-style="y2k-aesthetic"` on the root element and paste the tokens. The f
   --gradient-chrome: linear-gradient(180deg, #FFFFFF 0%, #C7CDD6 48%, #8F9AAD 52%, #E3E8F0 100%);
   --gradient-gloss: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0) 45%), linear-gradient(180deg, #4D8DFF, #1E6BFF);
   --glow-cyan: 0 0 16px rgba(0, 217, 255, 0.8);
+  --type-ratio: 1.333;
+  --size-small: 12px;
+  --size-h3: 28.43px;
+  --size-h2: 37.9px;
+  --size-h1: 50.52px;
   --color-on-bg: #0B1A3A;
   --color-on-surface: #0B1A3A;
   --color-on-primary: #000000;
@@ -224,7 +229,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 800, subhead 700, body 400, bold in text 700, labels and buttons 700. The style uses 3 weights (400, 700, 800) and no other. The display is 400 heavier than the body. The accent is case and tracking: an upper-case label is the accent, so the weights stay few.
 - **Body type:** 16px, leading 1.55.
 - **Page:** hero stacked, center aligned, regular density, accent tilt 0°.
-- **Ground:** orbs. Y2K screens float glossy colour spheres behind frosted panels. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** orbs. Y2K screens float glossy colour spheres behind frosted panels. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack
@@ -251,6 +256,18 @@ A pen-sized spray gun that lays paint in soft, even tones; with masks, it makes 
 - Build tone in 3 to 6 thin passes; each pass adds 20% to 40% of the final density.
 - Cut a hard mask for each edge that must stay sharp; leave the light soft.
 - Put one specular highlight of pure white on each chrome form.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #1E6BFF | #1E6BFF, #00D9FF, #0B1A3A | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #00D9FF | #00D9FF, #1E6BFF | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 999px | 500–999 px | --border-radius |
+| Grid step (`grid_step`) | 4px | 2–6 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.333 | 1.25–1.414 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

@@ -161,6 +161,11 @@ Set `data-style="liquid-glass-ui"` on the root element and paste the tokens. The
   --space-unit: 4px;
   --ease: cubic-bezier(0.34, 1.56, 0.64, 1);
   --duration: 300ms;
+  --type-ratio: 1.25;
+  --size-small: 13.6px;
+  --size-h3: 26.56px;
+  --size-h2: 33.2px;
+  --size-h1: 41.5px;
   --color-on-bg: #111114;
   --color-on-surface: #111114;
   --color-on-primary: #111114;
@@ -215,7 +220,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 700, subhead 600, body 400, bold in text 600, labels and buttons 600. The style uses 3 weights (400, 600, 700) and no other. The display is 300 heavier than the body. The accent is weight: a heavier word is the accent, so the steps between the weights are clear.
 - **Body type:** 17px, leading 1.45.
 - **Page:** hero stacked, center aligned, airy density, accent tilt 0°.
-- **Ground:** orbs. Liquid glass bends the colour behind it, so the ground holds bright shapes for the lens. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** orbs. Liquid glass bends the colour behind it, so the ground holds bright shapes for the lens. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack
@@ -230,6 +235,18 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 6. **The family covers the product.** List each concept that the product needs before you commit. A family that has no icon for one of them is the wrong family.
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #0A84FF | #0A84FF, #111114 | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #0A84FF | #0A84FF, #111114 | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 28px | 14–42 px | --border-radius |
+| Grid step (`grid_step`) | 4px | 2–6 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.25 | 1.2–1.333 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

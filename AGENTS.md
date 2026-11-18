@@ -7,7 +7,8 @@ You are in `design-ontology`: design styles as data, compiled into agent skills.
 1. Read `skills/SKILL_INDEX.md`.
 2. Pick one row. Load `skills/<id>/SKILL.md`. Load one skill at a time.
 3. Obey its "System directives" and "Guardrails". If the user asks for a variation, follow its "Lineage fallbacks".
-4. If the skill has a "Techniques" section, apply those rules as they are written. If the user names a technique (a jump cut, a sunburst, terrazzo), find it in `skills/TECHNIQUES.md`.
+4. If the skill has a "Permutations" section, keep each knob in its range. For other token values, run `npm run permute -- <id> key=value`.
+5. If the skill has a "Techniques" section, apply those rules as they are written. If the user names a technique (a jump cut, a sunburst, terrazzo), find it in `skills/TECHNIQUES.md`.
 
 ## To change the repository
 
@@ -20,6 +21,8 @@ You are in `design-ontology`: design styles as data, compiled into agent skills.
 - In a page, set text with the derived tokens: `--color-on-bg` on the background, `--color-on-surface` on a surface, `--color-on-primary` on a primary button. Do not put `--color-text` on a surface.
 - Each skill has a visual pack in `skills/<id>/pack/`: `hero.svg`, `pattern.svg`, `icons.svg`. Use them before you draw your own. The sprite is an open-source stand-in: for a product, use the icon library of the brand and choose the family by the rules in the skill.
 - The content rules are in `CONTRIBUTING.md`. Read them before you write a style.
+- Each style must pass the six curation rules in `CONTRIBUTING.md`: identity, people, techniques, media, assets and permutations. The build fails on each miss. A new style cannot go on `data/curation-allowlist.json`; the list can only shrink. A brief for a new style names all six.
+- A medium (salon, school, magazine, publisher, gallery, auction house, platform) is `data/media/*.json` (schema `schema/medium.schema.json`). Like a person or a technique, it names its styles.
 
 ## Commands
 
@@ -31,3 +34,4 @@ You are in `design-ontology`: design styles as data, compiled into agent skills.
 | `npm run query -- list` | list all styles with their vectors |
 | `npm run query -- near <id>` | nearest styles by vector distance |
 | `npm run query -- path <a> <b>` | shortest lineage path |
+| `npm run permute -- <id> [key=value…]` | the tokens of a design style at other knob values; `--list` shows the knobs |

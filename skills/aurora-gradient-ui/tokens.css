@@ -20,6 +20,11 @@
   --space-unit: 8px;
   --ease: cubic-bezier(0.4, 0, 0.2, 1);
   --duration: 400ms;
+  --type-ratio: 1.25;
+  --size-small: 13.6px;
+  --size-h3: 26.56px;
+  --size-h2: 33.2px;
+  --size-h1: 41.5px;
   --color-on-bg: #ECE9FF;
   --color-on-surface: #ECE9FF;
   --color-on-primary: #0A0A14;
@@ -89,6 +94,12 @@
 [data-style="aurora-gradient-ui"] :where(.ground) {
   background: var(--ground, var(--color-bg));
   color: var(--color-on-bg);
+}
+[data-style="aurora-gradient-ui"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
 }
 [data-style="aurora-gradient-ui"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

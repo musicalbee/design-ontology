@@ -164,6 +164,11 @@ Set `data-style="spatial-visionos"` on the root element and paste the tokens. Th
   --duration: 400ms;
   --target-min: 60px;
   --hover-fill: rgba(255, 255, 255, 0.2);
+  --type-ratio: 1.25;
+  --size-small: 13.6px;
+  --size-h3: 26.56px;
+  --size-h2: 33.2px;
+  --size-h1: 41.5px;
   --color-on-bg: #FFFFFF;
   --color-on-surface: #FFFFFF;
   --color-on-primary: #0F0F14;
@@ -218,7 +223,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 700, subhead 600, body 500, bold in text 700, labels and buttons 600. The style uses 3 weights (500, 600, 700) and no other. The display is 200 heavier than the body. The accent is weight: a heavier word is the accent, so the steps between the weights are clear.
 - **Body type:** 17px, leading 1.5.
 - **Page:** hero stacked, center aligned, airy density, accent tilt 0°.
-- **Ground:** aurora. Spatial interfaces float glass panels in front of a soft, lit room. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** aurora. Spatial interfaces float glass panels in front of a soft, lit room. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack
@@ -252,6 +257,18 @@ Flat layers move at different speeds by their distance, so that a flat picture g
 - Move each layer at a speed in proportion to its distance: a far layer at 20% to 50% of the speed of the front layer.
 - Use 3 to 5 layers; more layers add load and no depth.
 - Give a reduced-motion setting that stops the shift of the layers.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #0A84FF | #0A84FF, #FFFFFF | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #0A84FF | #0A84FF, #FFFFFF | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 32px | 16–48 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.25 | 1.2–1.333 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

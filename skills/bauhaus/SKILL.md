@@ -165,6 +165,11 @@ Set `data-style="bauhaus"` on the root element and paste the tokens. The file [`
   --grid-columns: 8;
   --grid-gutter: 16px;
   --leading-body: 1.5;
+  --type-ratio: 1.333;
+  --size-small: 12.75px;
+  --size-h3: 30.21px;
+  --size-h2: 40.27px;
+  --size-h1: 53.67px;
   --color-on-bg: #1A1A1A;
   --color-on-surface: #1A1A1A;
   --color-on-primary: #FFFFFF;
@@ -220,7 +225,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 700, subhead 400, body 400, bold in text 700, labels and buttons 700. The style uses 2 weights (400, 700) and no other. The display is 300 heavier than the body. The accent is size: a larger word is the accent, so the weights stay few.
 - **Body type:** 17px, leading 1.5.
 - **Page:** hero split, left aligned, regular density, accent tilt 0°.
-- **Ground:** primaries. The workshop kit is circle, square and triangle in the three primaries, with one black bar for direction. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** primaries. The workshop kit is circle, square and triangle in the three primaries, with one black bar for direction. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack
@@ -235,6 +240,24 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 6. **The family covers the product.** List each concept that the product needs before you commit. A family that has no icon for one of them is the wrong family.
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
+
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Bauhaus** (school, Weimar, Dessau, Berlin, 1919–1933), taught the style. A school of art, craft and design that joined the workshop to the studio. Its teachers and students set the forms of modern design, interiors and building.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #D62A1F | #D62A1F, #1D4E9E, #1A1A1A | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #1D4E9E | #1D4E9E, #D62A1F | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 0px | 0–0 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.333 | 1.25–1.414 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

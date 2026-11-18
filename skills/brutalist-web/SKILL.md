@@ -156,6 +156,11 @@ Set `data-style="brutalist-web"` on the root element and paste the tokens. The f
   --space-unit: 8px;
   --ease: linear;
   --duration: 0ms;
+  --type-ratio: 1.25;
+  --size-small: 12.8px;
+  --size-h3: 25px;
+  --size-h2: 31.25px;
+  --size-h1: 39.06px;
   --color-on-bg: #000000;
   --color-on-surface: #000000;
   --color-on-primary: #FFFFFF;
@@ -209,7 +214,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 700, subhead 700, body 400, bold in text 700, labels and buttons 400. The style uses 2 weights (400, 700) and no other. The display is 300 heavier than the body. The accent is size: a larger word is the accent, so the weights stay few.
 - **Body type:** 16px, leading 1.4.
 - **Page:** hero stacked, left aligned, compact density, accent tilt 0°.
-- **Ground:** raw. Brutalist pages show their structure: a default blue rule and a plain ruler at the edge. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** raw. Brutalist pages show their structure: a default blue rule and a plain ruler at the edge. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack
@@ -225,6 +230,18 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #000000 | #000000, #0000EE | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #0000EE | #0000EE, #000000 | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 0px | 0–0 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.25 | 1.2–1.333 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -236,7 +253,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md), [`material-design`](../material-design/SKILL.md)
 - **Was rejected by:** [`ethereal-web`](../ethereal-web/SKILL.md)
 - **Mixes well with:** [`anti-design`](../anti-design/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`terminal-tui-web`](../terminal-tui-web/SKILL.md)
-- **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md)
+- **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`monospace`](../monospace/SKILL.md)
 - **Nearest by vector profile:** [`ai-chat-ui`](../ai-chat-ui/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md)
 
 ## Emotional target

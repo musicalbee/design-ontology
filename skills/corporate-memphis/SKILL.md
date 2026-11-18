@@ -168,6 +168,11 @@ Set `data-style="corporate-memphis"` on the root element and paste the tokens. T
   --radius-pill: 999px;
   --grid-columns: 12;
   --grid-gutter: 24px;
+  --type-ratio: 1.25;
+  --size-small: 13.6px;
+  --size-h3: 26.56px;
+  --size-h2: 33.2px;
+  --size-h1: 41.5px;
   --color-on-bg: #1F2A5C;
   --color-on-surface: #1F2A5C;
   --color-on-primary: #000000;
@@ -225,7 +230,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 700, subhead 600, body 400, bold in text 600, labels and buttons 600. The style uses 3 weights (400, 600, 700) and no other. The display is 300 heavier than the body. The accent is weight: a heavier word is the accent, so the steps between the weights are clear.
 - **Body type:** 17px, leading 1.6.
 - **Page:** hero split, left aligned, airy density, accent tilt 0°.
-- **Ground:** confetti. Corporate Memphis decorates the page with small floating shapes in friendly colours. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** confetti. Corporate Memphis decorates the page with small floating shapes in friendly colours. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack
@@ -251,6 +256,18 @@ A drawing with three axes at equal angles and one scale, with no vanishing point
 
 - Draw the three axes at 120° to each other; on a pixel grid, use a 2:1 slope (26.57°).
 - Keep one scale on all three axes and draw no vanishing point.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #7C5CFC | #7C5CFC, #FF6B6B, #1F2A5C | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #FF6B6B | #FF6B6B, #7C5CFC | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 16px | 8–24 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.25 | 1.2–1.333 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

@@ -23,6 +23,11 @@
   --texture-grain: radial-gradient(rgba(20, 20, 20, 0.25) 1px, transparent 1.5px) 0 0 / 4px 4px;
   --blend-overprint: multiply;
   --tracking-display: -0.06em;
+  --type-ratio: 1.618;
+  --size-small: 9.27px;
+  --size-h3: 39.27px;
+  --size-h2: 63.54px;
+  --size-h1: 102.8px;
   --color-on-bg: #141414;
   --color-on-surface: #E8E2D0;
   --color-on-primary: #E8E2D0;
@@ -92,6 +97,12 @@
 [data-style="grunge-editorial"] :where(.ground) {
   background: var(--ground, var(--color-bg));
   color: var(--color-on-bg);
+}
+[data-style="grunge-editorial"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
 }
 [data-style="grunge-editorial"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

@@ -157,6 +157,11 @@ Set `data-style="victorian-web"` on the root element and paste the tokens. The f
   --space-unit: 8px;
   --ease: cubic-bezier(0.4, 0, 0.2, 1);
   --duration: 500ms;
+  --type-ratio: 1.618;
+  --size-small: 11.12px;
+  --size-h3: 47.12px;
+  --size-h2: 76.24px;
+  --size-h1: 123.36px;
   --color-on-bg: #1E1612;
   --color-on-surface: #1E1612;
   --color-on-primary: #F1E5C8;
@@ -217,7 +222,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 700, subhead 700, body 400, bold in text 700, labels and buttons 600. The style uses 3 weights (400, 600, 700) and no other. The display is 300 heavier than the body. The accent is case and tracking: an upper-case label is the accent, so the weights stay few.
 - **Body type:** 18px, leading 1.6.
 - **Page:** hero stacked, center aligned, compact density, accent tilt 0°.
-- **Ground:** frame. Victorian print put each page inside ruled borders, and the double rule in two inks is that frame. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** frame. Victorian print put each page inside ruled borders, and the double rule in two inks is that frame. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack
@@ -233,6 +238,18 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #6D1A2B | #6D1A2B, #B8860B, #1E1612 | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #B8860B | #B8860B, #6D1A2B | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 4px | 2–6 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.618 | 1.5–1.618 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -242,7 +259,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more punk**: move toward [`punk-zine`](../punk-zine/SKILL.md) (Punk Zine). Cut the engravings and set them in black and white with torn edges.
 
 - **Mixes well with:** [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`punk-zine`](../punk-zine/SKILL.md)
-- **Kin in another domain:** [`slab-serif`](../slab-serif/SKILL.md), [`victorian-trademark`](../victorian-trademark/SKILL.md)
+- **Kin in another domain:** [`fat-face-display`](../fat-face-display/SKILL.md), [`slab-serif`](../slab-serif/SKILL.md), [`victorian-trademark`](../victorian-trademark/SKILL.md)
 - **Nearest by vector profile:** [`skeuomorphism`](../skeuomorphism/SKILL.md), [`blob-world`](../blob-world/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md)
 
 ## Emotional target

@@ -1,0 +1,63 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "cantilever",
+  "name": "Cantilever",
+  "aliases": [
+    "Projecting beam",
+    "Jetty"
+  ],
+  "kind": "process",
+  "summary": "A beam or slab fixed at one end that carries load beyond its support, so that it seems to hang in the air.",
+  "how": [
+    "Fix the beam at one end and anchor it with a back span of at least 1 part to every 2 parts of the overhang.",
+    "Keep the free end thin; a depth of 1/8 to 1/10 of the span suits steel and concrete.",
+    "Repeat the horizontal line in a run of 2 or 3 projecting planes to give a strong shadow."
+  ],
+  "origin": {
+    "domain": "architecture",
+    "year": 1300,
+    "circa": true,
+    "where": "Northern Europe",
+    "note": "Builders in northern Europe project the upper floors of timber houses beyond the lower floor on jetties."
+  },
+  "adoptions": [
+    {
+      "domain": "architecture",
+      "year": 1909,
+      "via": "Frank Lloyd Wright carries the roofs of the Robie House 6 m past the wall on steel beams.",
+      "styles": [
+        "prairie-school-architecture"
+      ]
+    },
+    {
+      "domain": "interior",
+      "year": 1926,
+      "via": "Mart Stam and then Marcel Breuer bend steel tube into a chair that has no back legs.",
+      "styles": [
+        "bauhaus-interior"
+      ]
+    },
+    {
+      "domain": "architecture",
+      "year": 1935,
+      "via": "Wright cantilevers the concrete terraces of Fallingwater over a stream in Pennsylvania.",
+      "styles": [
+        "organic-architecture"
+      ]
+    }
+  ],
+  "styles": [
+    "prairie-school-architecture",
+    "bauhaus-interior",
+    "organic-architecture"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia, Cantilever"
+    },
+    {
+      "title": "Wikipedia, Fallingwater",
+      "url": "https://en.wikipedia.org/wiki/Fallingwater"
+    }
+  ]
+}

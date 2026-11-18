@@ -164,6 +164,11 @@ Set `data-style="glassmorphism"` on the root element and paste the tokens. The f
   --duration: 300ms;
   --surface-hover: rgba(255, 255, 255, 0.28);
   --background-gradient: linear-gradient(135deg, #6C5CE7 0%, #FD79A8 100%);
+  --type-ratio: 1.25;
+  --size-small: 12.8px;
+  --size-h3: 25px;
+  --size-h2: 31.25px;
+  --size-h1: 39.06px;
   --color-on-bg: #FFFFFF;
   --color-on-surface: #000000;
   --color-on-primary: #000000;
@@ -217,7 +222,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 700, subhead 600, body 500, bold in text 700, labels and buttons 600. The style uses 3 weights (500, 600, 700) and no other. The display is 200 heavier than the body. The accent is weight: a heavier word is the accent, so the steps between the weights are clear.
 - **Body type:** 16px, leading 1.55.
 - **Page:** hero stacked, center aligned, regular density, accent tilt 0°.
-- **Ground:** orbs. Frosted glass needs bright orbs of colour behind it, or the blur has nothing to show. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** orbs. Frosted glass needs bright orbs of colour behind it, or the blur has nothing to show. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack
@@ -244,6 +249,18 @@ A move speeds up from rest and slows down before it stops, as a real mass does, 
 - Give a move of 200 to 400ms an ease-out curve when an element enters and an ease-in curve when it leaves.
 - Use cubic-bezier(0.4, 0, 0.2, 1) as the standard curve for a move inside the screen.
 - Put more frames at the two ends of a move than in the middle: 2 to 3 times the density.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #74B9FF | #74B9FF, #FD79A8, #FFFFFF | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #FD79A8 | #FD79A8, #74B9FF | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 20px | 10–30 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.25 | 1.2–1.333 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

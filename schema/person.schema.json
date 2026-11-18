@@ -52,8 +52,8 @@
         "properties": {
           "style": { "$ref": "core.schema.json#/$defs/slug" },
           "role": {
-            "enum": ["founder", "key-figure", "forerunner", "populariser", "trend-setter", "rebel"],
-            "description": "founder: started the style. key-figure: made its canonical works. forerunner: came before it and prepared it. populariser: made it common. trend-setter: set a current trend inside it. rebel: led the turn away from it."
+            "enum": ["founder", "key-figure", "forerunner", "populariser", "trend-setter", "rebel", "patron", "artisan"],
+            "description": "founder: started the style. key-figure: made its canonical works. forerunner: came before it and prepared it. populariser: made it common. trend-setter: set a current trend inside it. rebel: led the turn away from it. patron: paid for it, commissioned it or invested in it. artisan: made its objects by hand or by machine for others (a cabinetmaker, a printer, a type founder, a colourist). Each role is in one of four classes (rule 2 of the curation rules): pioneer = founder, forerunner; artisan = key-figure, artisan; influencer = populariser, trend-setter, rebel; patron = patron."
           }
         }
       }

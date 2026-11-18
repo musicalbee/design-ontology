@@ -2839,6 +2839,21 @@
       }
     },
     {
+      "id": "blackletter",
+      "domain": "typeface",
+      "name": "Blackletter",
+      "era": "hand-press",
+      "start": 1454,
+      "end": null,
+      "vectors": {
+        "stroke_contrast": 3,
+        "construction": 1,
+        "x_height": 4,
+        "width": 1,
+        "serif_mass": 2
+      }
+    },
+    {
       "id": "garalde-old-style",
       "domain": "typeface",
       "name": "Garalde old-style serif",
@@ -2851,6 +2866,21 @@
         "x_height": 1,
         "width": 3,
         "serif_mass": 3
+      }
+    },
+    {
+      "id": "formal-script",
+      "domain": "typeface",
+      "name": "Formal script",
+      "era": "hand-press",
+      "start": 1740,
+      "end": null,
+      "vectors": {
+        "stroke_contrast": 4,
+        "construction": 1,
+        "x_height": 1,
+        "width": 2,
+        "serif_mass": 1
       }
     },
     {
@@ -2884,6 +2914,21 @@
       }
     },
     {
+      "id": "fat-face-display",
+      "domain": "typeface",
+      "name": "Fat face display",
+      "era": "industrial",
+      "start": 1810,
+      "end": null,
+      "vectors": {
+        "stroke_contrast": 5,
+        "construction": 4,
+        "x_height": 4,
+        "width": 4,
+        "serif_mass": 2
+      }
+    },
+    {
       "id": "slab-serif",
       "domain": "typeface",
       "name": "Slab serif",
@@ -2911,6 +2956,21 @@
         "x_height": 3,
         "width": 3,
         "serif_mass": 1
+      }
+    },
+    {
+      "id": "monospace",
+      "domain": "typeface",
+      "name": "Monospace",
+      "era": "industrial",
+      "start": 1874,
+      "end": null,
+      "vectors": {
+        "stroke_contrast": 1,
+        "construction": 4,
+        "x_height": 5,
+        "width": 4,
+        "serif_mass": 3
       }
     },
     {
@@ -3196,6 +3256,16 @@
       "type": "ECHOES"
     },
     {
+      "from": "blackletter",
+      "to": "gothic-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "blackletter",
+      "to": "punk-zine",
+      "type": "ECHOES"
+    },
+    {
       "from": "brutalist-architecture",
       "to": "brutalist-web",
       "type": "ECHOES"
@@ -3228,6 +3298,11 @@
     {
       "from": "brutalist-architecture",
       "to": "new-topographics",
+      "type": "ECHOES"
+    },
+    {
+      "from": "brutalist-web",
+      "to": "monospace",
       "type": "ECHOES"
     },
     {
@@ -3313,6 +3388,11 @@
     {
       "from": "cyberpunk-web",
       "to": "film-noir-still",
+      "type": "ECHOES"
+    },
+    {
+      "from": "dark-devtool-ui",
+      "to": "monospace",
       "type": "ECHOES"
     },
     {
@@ -3426,6 +3506,16 @@
       "type": "ECHOES"
     },
     {
+      "from": "fat-face-display",
+      "to": "victorian-trademark",
+      "type": "ECHOES"
+    },
+    {
+      "from": "fat-face-display",
+      "to": "victorian-web",
+      "type": "ECHOES"
+    },
+    {
       "from": "fauvism",
       "to": "new-colour",
       "type": "ECHOES"
@@ -3478,6 +3568,16 @@
     {
       "from": "flat-logo",
       "to": "metro-ui",
+      "type": "ECHOES"
+    },
+    {
+      "from": "formal-script",
+      "to": "hollywood-regency-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "formal-script",
+      "to": "rococo-painting",
       "type": "ECHOES"
     },
     {
@@ -3763,6 +3863,11 @@
     {
       "from": "minimalist-interior",
       "to": "rams-functionalism-ui",
+      "type": "ECHOES"
+    },
+    {
+      "from": "monospace",
+      "to": "terminal-tui-web",
       "type": "ECHOES"
     },
     {
@@ -4196,6 +4301,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "fat-face-display",
+      "to": "didone-serif",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "fauvism",
       "to": "pointillism",
       "type": "EVOLVED_FROM"
@@ -4443,6 +4553,11 @@
     {
       "from": "minimalist-interior",
       "to": "bauhaus-interior",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "monospace",
+      "to": "slab-serif",
       "type": "EVOLVED_FROM"
     },
     {
@@ -5051,6 +5166,11 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "fat-face-display",
+      "to": "slab-serif",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "film-grain-revival",
       "to": "party-flash",
       "type": "HYBRIDIZED_WITH"
@@ -5083,6 +5203,11 @@
     {
       "from": "flat-logo",
       "to": "minimal-wordmark",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "formal-script",
+      "to": "transitional-serif",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -5183,6 +5308,11 @@
     {
       "from": "minimalism-web",
       "to": "surrealism-web",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "monospace",
+      "to": "neo-grotesque-sans",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -5473,6 +5603,11 @@
     {
       "from": "flat-logo",
       "to": "glossy-3d-logo",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "garalde-old-style",
+      "to": "blackletter",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -5805,7 +5940,8 @@
           "circa": true,
           "lag_years": 89,
           "styles": [
-            "airbrush-surrealism"
+            "airbrush-surrealism",
+            "photorealism"
           ]
         },
         {
@@ -5815,6 +5951,24 @@
           "lag_years": 111,
           "styles": [
             "cyberdelia"
+          ]
+        },
+        {
+          "domain": "logo",
+          "year": 2001,
+          "circa": true,
+          "lag_years": 122,
+          "styles": [
+            "glossy-3d-logo"
+          ]
+        },
+        {
+          "domain": "icon",
+          "year": 2001,
+          "circa": false,
+          "lag_years": 122,
+          "styles": [
+            "skeuomorphic-icon"
           ]
         },
         {
@@ -5831,7 +5985,10 @@
         "airbrush-surrealism",
         "cyberdelia",
         "frutiger-aero",
-        "y2k-aesthetic"
+        "y2k-aesthetic",
+        "glossy-3d-logo",
+        "skeuomorphic-icon",
+        "photorealism"
       ]
     },
     {
@@ -5915,6 +6072,94 @@
       ]
     },
     {
+      "id": "broad-nib-pen",
+      "name": "Broad-nib pen",
+      "kind": "tool",
+      "origin": {
+        "domain": "typeface",
+        "year": 1454,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "typeface",
+          "year": 1454,
+          "circa": true,
+          "lag_years": 0,
+          "styles": [
+            "blackletter"
+          ]
+        },
+        {
+          "domain": "typeface",
+          "year": 1470,
+          "circa": false,
+          "lag_years": 16,
+          "styles": [
+            "garalde-old-style"
+          ]
+        },
+        {
+          "domain": "typeface",
+          "year": 1916,
+          "circa": false,
+          "lag_years": 462,
+          "styles": [
+            "humanist-sans"
+          ]
+        }
+      ],
+      "styles": [
+        "blackletter",
+        "garalde-old-style",
+        "humanist-sans"
+      ]
+    },
+    {
+      "id": "cantilever",
+      "name": "Cantilever",
+      "kind": "process",
+      "origin": {
+        "domain": "architecture",
+        "year": 1300,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "architecture",
+          "year": 1909,
+          "circa": false,
+          "lag_years": 609,
+          "styles": [
+            "prairie-school-architecture"
+          ]
+        },
+        {
+          "domain": "interior",
+          "year": 1926,
+          "circa": false,
+          "lag_years": 626,
+          "styles": [
+            "bauhaus-interior"
+          ]
+        },
+        {
+          "domain": "architecture",
+          "year": 1935,
+          "circa": false,
+          "lag_years": 635,
+          "styles": [
+            "organic-architecture"
+          ]
+        }
+      ],
+      "styles": [
+        "prairie-school-architecture",
+        "bauhaus-interior",
+        "organic-architecture"
+      ]
+    },
+    {
       "id": "checkerboard",
       "name": "Checkerboard",
       "kind": "motif",
@@ -5960,6 +6205,376 @@
       ]
     },
     {
+      "id": "chiaroscuro",
+      "name": "Chiaroscuro",
+      "kind": "process",
+      "origin": {
+        "domain": "painting",
+        "year": 1500,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "painting",
+          "year": 1600,
+          "circa": true,
+          "lag_years": 100,
+          "styles": [
+            "baroque-painting"
+          ]
+        },
+        {
+          "domain": "film",
+          "year": 1915,
+          "circa": false,
+          "lag_years": 415,
+          "styles": []
+        },
+        {
+          "domain": "film",
+          "year": 1920,
+          "circa": false,
+          "lag_years": 420,
+          "styles": [
+            "german-expressionist-cinema"
+          ]
+        },
+        {
+          "domain": "film",
+          "year": 1941,
+          "circa": false,
+          "lag_years": 441,
+          "styles": [
+            "film-noir"
+          ]
+        },
+        {
+          "domain": "photography",
+          "year": 1946,
+          "circa": true,
+          "lag_years": 446,
+          "styles": [
+            "film-noir-still"
+          ]
+        },
+        {
+          "domain": "film",
+          "year": 1982,
+          "circa": false,
+          "lag_years": 482,
+          "styles": [
+            "neon-noir"
+          ]
+        }
+      ],
+      "styles": [
+        "baroque-painting",
+        "german-expressionist-cinema",
+        "film-noir",
+        "film-noir-still",
+        "neon-noir"
+      ]
+    },
+    {
+      "id": "chronophotography",
+      "name": "Chronophotography",
+      "kind": "process",
+      "origin": {
+        "domain": "photography",
+        "year": 1878,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "photography",
+          "year": 1882,
+          "circa": false,
+          "lag_years": 4,
+          "styles": []
+        },
+        {
+          "domain": "photography",
+          "year": 1911,
+          "circa": false,
+          "lag_years": 33,
+          "styles": []
+        },
+        {
+          "domain": "painting",
+          "year": 1912,
+          "circa": false,
+          "lag_years": 34,
+          "styles": [
+            "futurism-painting"
+          ]
+        },
+        {
+          "domain": "painting",
+          "year": 1912,
+          "circa": false,
+          "lag_years": 34,
+          "styles": [
+            "cubism-painting"
+          ]
+        }
+      ],
+      "styles": [
+        "futurism-painting",
+        "cubism-painting"
+      ]
+    },
+    {
+      "id": "coloured-gel-lighting",
+      "name": "Coloured gel lighting",
+      "kind": "process",
+      "origin": {
+        "domain": "film",
+        "year": 1964,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "film",
+          "year": 1964,
+          "circa": false,
+          "lag_years": 0,
+          "styles": [
+            "giallo"
+          ]
+        },
+        {
+          "domain": "film",
+          "year": 1977,
+          "circa": false,
+          "lag_years": 13,
+          "styles": [
+            "giallo"
+          ]
+        },
+        {
+          "domain": "film",
+          "year": 2013,
+          "circa": false,
+          "lag_years": 49,
+          "styles": [
+            "neon-noir"
+          ]
+        }
+      ],
+      "styles": [
+        "giallo",
+        "neon-noir"
+      ]
+    },
+    {
+      "id": "construction-grid",
+      "name": "Construction grid",
+      "kind": "process",
+      "origin": {
+        "domain": "typeface",
+        "year": 1525,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "typeface",
+          "year": 1692,
+          "circa": false,
+          "lag_years": 167,
+          "styles": []
+        },
+        {
+          "domain": "typeface",
+          "year": 1927,
+          "circa": false,
+          "lag_years": 402,
+          "styles": [
+            "geometric-sans"
+          ]
+        },
+        {
+          "domain": "icon",
+          "year": 1972,
+          "circa": false,
+          "lag_years": 447,
+          "styles": [
+            "outline-icon"
+          ]
+        },
+        {
+          "domain": "logo",
+          "year": 2012,
+          "circa": false,
+          "lag_years": 487,
+          "styles": [
+            "geometric-symbol",
+            "swiss-modernist-mark",
+            "flat-logo"
+          ]
+        },
+        {
+          "domain": "icon",
+          "year": 2014,
+          "circa": false,
+          "lag_years": 489,
+          "styles": [
+            "material-symbols-icon"
+          ]
+        }
+      ],
+      "styles": [
+        "outline-icon",
+        "material-symbols-icon",
+        "geometric-symbol",
+        "swiss-modernist-mark",
+        "geometric-sans",
+        "flat-logo"
+      ]
+    },
+    {
+      "id": "crystal-facet",
+      "name": "Crystal facet",
+      "kind": "motif",
+      "origin": {
+        "domain": "painting",
+        "year": 1909,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "painting",
+          "year": 1909,
+          "circa": true,
+          "lag_years": 0,
+          "styles": [
+            "cubism-painting"
+          ]
+        },
+        {
+          "domain": "architecture",
+          "year": 1912,
+          "circa": true,
+          "lag_years": 3,
+          "styles": []
+        },
+        {
+          "domain": "architecture",
+          "year": 1914,
+          "circa": false,
+          "lag_years": 5,
+          "styles": [
+            "expressionist-architecture"
+          ]
+        },
+        {
+          "domain": "film",
+          "year": 1920,
+          "circa": false,
+          "lag_years": 11,
+          "styles": [
+            "german-expressionist-cinema"
+          ]
+        }
+      ],
+      "styles": [
+        "cubism-painting",
+        "expressionist-architecture",
+        "german-expressionist-cinema"
+      ]
+    },
+    {
+      "id": "diagonal-composition",
+      "name": "Diagonal composition",
+      "kind": "motif",
+      "origin": {
+        "domain": "painting",
+        "year": 1915,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "design",
+          "year": 1919,
+          "circa": false,
+          "lag_years": 4,
+          "styles": [
+            "constructivism-web"
+          ]
+        },
+        {
+          "domain": "design",
+          "year": 1924,
+          "circa": true,
+          "lag_years": 9,
+          "styles": [
+            "constructivism-web"
+          ]
+        },
+        {
+          "domain": "film",
+          "year": 1925,
+          "circa": true,
+          "lag_years": 10,
+          "styles": [
+            "soviet-montage"
+          ]
+        },
+        {
+          "domain": "design",
+          "year": 1928,
+          "circa": true,
+          "lag_years": 13,
+          "styles": [
+            "swiss-international"
+          ]
+        }
+      ],
+      "styles": [
+        "suprematism",
+        "constructivism-web",
+        "soviet-montage",
+        "swiss-international"
+      ]
+    },
+    {
+      "id": "diffusion-model",
+      "name": "Diffusion model",
+      "kind": "tool",
+      "origin": {
+        "domain": "photography",
+        "year": 2015,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "photography",
+          "year": 2020,
+          "circa": false,
+          "lag_years": 5,
+          "styles": []
+        },
+        {
+          "domain": "design",
+          "year": 2022,
+          "circa": false,
+          "lag_years": 7,
+          "styles": []
+        },
+        {
+          "domain": "photography",
+          "year": 2022,
+          "circa": false,
+          "lag_years": 7,
+          "styles": [
+            "ai-hyperreal"
+          ]
+        }
+      ],
+      "styles": [
+        "ai-hyperreal"
+      ]
+    },
+    {
       "id": "easing",
       "name": "Easing",
       "kind": "animation",
@@ -5992,6 +6607,137 @@
         "frutiger-aero",
         "material-design",
         "glassmorphism"
+      ]
+    },
+    {
+      "id": "exposed-joinery",
+      "name": "Exposed joinery",
+      "kind": "process",
+      "origin": {
+        "domain": "interior",
+        "year": -2500,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "interior",
+          "year": 1790,
+          "circa": true,
+          "lag_years": 4290,
+          "styles": [
+            "shaker-interior"
+          ]
+        },
+        {
+          "domain": "interior",
+          "year": 1900,
+          "circa": false,
+          "lag_years": 4400,
+          "styles": [
+            "arts-and-crafts-interior"
+          ]
+        },
+        {
+          "domain": "architecture",
+          "year": 1908,
+          "circa": false,
+          "lag_years": 4408,
+          "styles": [
+            "arts-and-crafts-architecture"
+          ]
+        },
+        {
+          "domain": "architecture",
+          "year": 1996,
+          "circa": true,
+          "lag_years": 4496,
+          "styles": [
+            "critical-regionalism-architecture"
+          ]
+        }
+      ],
+      "styles": [
+        "shaker-interior",
+        "arts-and-crafts-interior",
+        "arts-and-crafts-architecture",
+        "critical-regionalism-architecture"
+      ]
+    },
+    {
+      "id": "extreme-close-up",
+      "name": "Extreme close-up",
+      "kind": "montage",
+      "origin": {
+        "domain": "film",
+        "year": 1900,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "film",
+          "year": 1928,
+          "circa": false,
+          "lag_years": 28,
+          "styles": []
+        },
+        {
+          "domain": "film",
+          "year": 1964,
+          "circa": false,
+          "lag_years": 64,
+          "styles": [
+            "spaghetti-western"
+          ]
+        },
+        {
+          "domain": "painting",
+          "year": 1967,
+          "circa": false,
+          "lag_years": 67,
+          "styles": [
+            "photorealism"
+          ]
+        }
+      ],
+      "styles": [
+        "spaghetti-western",
+        "photorealism"
+      ]
+    },
+    {
+      "id": "fixed-pitch-grid",
+      "name": "Fixed-pitch grid",
+      "kind": "process",
+      "origin": {
+        "domain": "typeface",
+        "year": 1874,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "typeface",
+          "year": 1874,
+          "circa": false,
+          "lag_years": 0,
+          "styles": [
+            "monospace"
+          ]
+        },
+        {
+          "domain": "design",
+          "year": 1978,
+          "circa": false,
+          "lag_years": 104,
+          "styles": [
+            "terminal-tui-web",
+            "dark-devtool-ui"
+          ]
+        }
+      ],
+      "styles": [
+        "monospace",
+        "terminal-tui-web",
+        "dark-devtool-ui"
       ]
     },
     {
@@ -6042,6 +6788,63 @@
       ]
     },
     {
+      "id": "glitch",
+      "name": "Glitch",
+      "kind": "process",
+      "origin": {
+        "domain": "film",
+        "year": 1963,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "design",
+          "year": 2010,
+          "circa": true,
+          "lag_years": 47,
+          "styles": [
+            "cyberpunk-web",
+            "vaporwave"
+          ]
+        }
+      ],
+      "styles": [
+        "cyberpunk-web",
+        "vaporwave"
+      ]
+    },
+    {
+      "id": "grid-transfer",
+      "name": "Grid transfer",
+      "kind": "process",
+      "origin": {
+        "domain": "painting",
+        "year": 1435,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "painting",
+          "year": 1525,
+          "circa": false,
+          "lag_years": 90,
+          "styles": []
+        },
+        {
+          "domain": "painting",
+          "year": 1967,
+          "circa": false,
+          "lag_years": 532,
+          "styles": [
+            "photorealism"
+          ]
+        }
+      ],
+      "styles": [
+        "photorealism"
+      ]
+    },
+    {
       "id": "halftone",
       "name": "Halftone",
       "kind": "process",
@@ -6073,11 +6876,95 @@
           "styles": [
             "punk-zine"
           ]
+        },
+        {
+          "domain": "icon",
+          "year": 2019,
+          "circa": false,
+          "lag_years": 140,
+          "styles": [
+            "duotone-icon"
+          ]
         }
       ],
       "styles": [
         "pop-art-web",
-        "punk-zine"
+        "punk-zine",
+        "duotone-icon"
+      ]
+    },
+    {
+      "id": "handheld-camera",
+      "name": "Handheld camera",
+      "kind": "tool",
+      "origin": {
+        "domain": "film",
+        "year": 1960,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "film",
+          "year": 1960,
+          "circa": true,
+          "lag_years": 0,
+          "styles": [
+            "french-new-wave"
+          ]
+        },
+        {
+          "domain": "film",
+          "year": 1960,
+          "circa": true,
+          "lag_years": 0,
+          "styles": [
+            "documentary-verite"
+          ]
+        },
+        {
+          "domain": "film",
+          "year": 1995,
+          "circa": false,
+          "lag_years": 35,
+          "styles": [
+            "dogme-95"
+          ]
+        },
+        {
+          "domain": "film",
+          "year": 1999,
+          "circa": false,
+          "lag_years": 39,
+          "styles": [
+            "found-footage"
+          ]
+        },
+        {
+          "domain": "film",
+          "year": 2002,
+          "circa": false,
+          "lag_years": 42,
+          "styles": [
+            "mumblecore"
+          ]
+        },
+        {
+          "domain": "film",
+          "year": 2015,
+          "circa": false,
+          "lag_years": 55,
+          "styles": [
+            "phone-cinema"
+          ]
+        }
+      ],
+      "styles": [
+        "french-new-wave",
+        "documentary-verite",
+        "dogme-95",
+        "found-footage",
+        "mumblecore",
+        "phone-cinema"
       ]
     },
     {
@@ -6105,11 +6992,21 @@
           "styles": [
             "corporate-memphis"
           ]
+        },
+        {
+          "domain": "icon",
+          "year": 2015,
+          "circa": true,
+          "lag_years": 193,
+          "styles": [
+            "isometric-icon"
+          ]
         }
       ],
       "styles": [
         "corporate-memphis",
-        "bento-grid-ui"
+        "bento-grid-ui",
+        "isometric-icon"
       ]
     },
     {
@@ -6170,6 +7067,362 @@
       ]
     },
     {
+      "id": "laminated-timber",
+      "name": "Laminated timber",
+      "kind": "material",
+      "origin": {
+        "domain": "architecture",
+        "year": 1906,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "interior",
+          "year": 1932,
+          "circa": true,
+          "lag_years": 26,
+          "styles": [
+            "scandinavian-interior"
+          ]
+        },
+        {
+          "domain": "interior",
+          "year": 1946,
+          "circa": false,
+          "lag_years": 40,
+          "styles": [
+            "mid-century-modern-interior"
+          ]
+        },
+        {
+          "domain": "architecture",
+          "year": 1995,
+          "circa": true,
+          "lag_years": 89,
+          "styles": []
+        },
+        {
+          "domain": "architecture",
+          "year": 2009,
+          "circa": false,
+          "lag_years": 103,
+          "styles": [
+            "mass-timber-architecture"
+          ]
+        }
+      ],
+      "styles": [
+        "scandinavian-interior",
+        "mid-century-modern-interior",
+        "mass-timber-architecture"
+      ]
+    },
+    {
+      "id": "letterspaced-capitals",
+      "name": "Letterspaced capitals",
+      "kind": "motif",
+      "origin": {
+        "domain": "typeface",
+        "year": 113,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "logo",
+          "year": 1970,
+          "circa": true,
+          "lag_years": 1857,
+          "styles": [
+            "minimal-wordmark"
+          ]
+        },
+        {
+          "domain": "typeface",
+          "year": 1989,
+          "circa": false,
+          "lag_years": 1876,
+          "styles": []
+        },
+        {
+          "domain": "design",
+          "year": 2010,
+          "circa": true,
+          "lag_years": 1897,
+          "styles": [
+            "luxury-typography-web"
+          ]
+        }
+      ],
+      "styles": [
+        "minimal-wordmark",
+        "luxury-typography-web"
+      ]
+    },
+    {
+      "id": "limewash",
+      "name": "Limewash",
+      "kind": "material",
+      "origin": {
+        "domain": "architecture",
+        "year": -7200,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "architecture",
+          "year": 1911,
+          "circa": false,
+          "lag_years": 9111,
+          "styles": []
+        },
+        {
+          "domain": "architecture",
+          "year": 1960,
+          "circa": true,
+          "lag_years": 9160,
+          "styles": [
+            "critical-regionalism-architecture"
+          ]
+        },
+        {
+          "domain": "interior",
+          "year": 1990,
+          "circa": true,
+          "lag_years": 9190,
+          "styles": [
+            "coastal-interior"
+          ]
+        }
+      ],
+      "styles": [
+        "critical-regionalism-architecture",
+        "coastal-interior"
+      ]
+    },
+    {
+      "id": "line-engraving",
+      "name": "Line engraving",
+      "kind": "process",
+      "origin": {
+        "domain": "painting",
+        "year": 1430,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "typeface",
+          "year": 1741,
+          "circa": false,
+          "lag_years": 311,
+          "styles": [
+            "formal-script"
+          ]
+        },
+        {
+          "domain": "typeface",
+          "year": 1757,
+          "circa": false,
+          "lag_years": 327,
+          "styles": [
+            "transitional-serif"
+          ]
+        },
+        {
+          "domain": "typeface",
+          "year": 1784,
+          "circa": false,
+          "lag_years": 354,
+          "styles": [
+            "didone-serif"
+          ]
+        },
+        {
+          "domain": "typeface",
+          "year": 1810,
+          "circa": true,
+          "lag_years": 380,
+          "styles": [
+            "fat-face-display"
+          ]
+        },
+        {
+          "domain": "logo",
+          "year": 1875,
+          "circa": false,
+          "lag_years": 445,
+          "styles": [
+            "victorian-trademark"
+          ]
+        }
+      ],
+      "styles": [
+        "transitional-serif",
+        "didone-serif",
+        "victorian-trademark",
+        "formal-script",
+        "fat-face-display"
+      ]
+    },
+    {
+      "id": "lithography",
+      "name": "Lithography",
+      "kind": "process",
+      "origin": {
+        "domain": "design",
+        "year": 1796,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "painting",
+          "year": 1879,
+          "circa": false,
+          "lag_years": 83,
+          "styles": [
+            "symbolism-painting"
+          ]
+        },
+        {
+          "domain": "design",
+          "year": 1891,
+          "circa": false,
+          "lag_years": 95,
+          "styles": [
+            "art-nouveau-web"
+          ]
+        },
+        {
+          "domain": "painting",
+          "year": 1895,
+          "circa": false,
+          "lag_years": 99,
+          "styles": [
+            "expressionism-painting"
+          ]
+        }
+      ],
+      "styles": [
+        "symbolism-painting",
+        "art-nouveau-web",
+        "expressionism-painting"
+      ]
+    },
+    {
+      "id": "long-shadow",
+      "name": "Long shadow",
+      "kind": "motif",
+      "origin": {
+        "domain": "painting",
+        "year": 1914,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "film",
+          "year": 1922,
+          "circa": false,
+          "lag_years": 8,
+          "styles": [
+            "german-expressionist-cinema"
+          ]
+        },
+        {
+          "domain": "painting",
+          "year": 1924,
+          "circa": true,
+          "lag_years": 10,
+          "styles": [
+            "surrealism-painting"
+          ]
+        },
+        {
+          "domain": "design",
+          "year": 2013,
+          "circa": true,
+          "lag_years": 99,
+          "styles": [
+            "flat-design"
+          ]
+        },
+        {
+          "domain": "design",
+          "year": 2020,
+          "circa": true,
+          "lag_years": 106,
+          "styles": [
+            "surrealism-web"
+          ]
+        }
+      ],
+      "styles": [
+        "surrealism-painting",
+        "german-expressionist-cinema",
+        "flat-design",
+        "surrealism-web"
+      ]
+    },
+    {
+      "id": "long-take",
+      "name": "Long take",
+      "kind": "montage",
+      "origin": {
+        "domain": "film",
+        "year": 1948,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "film",
+          "year": 1958,
+          "circa": true,
+          "lag_years": 10,
+          "styles": [
+            "one-take-oner"
+          ]
+        },
+        {
+          "domain": "film",
+          "year": 1994,
+          "circa": false,
+          "lag_years": 46,
+          "styles": [
+            "slow-cinema"
+          ]
+        },
+        {
+          "domain": "film",
+          "year": 2002,
+          "circa": false,
+          "lag_years": 54,
+          "styles": [
+            "one-take-oner"
+          ]
+        },
+        {
+          "domain": "film",
+          "year": 2014,
+          "circa": false,
+          "lag_years": 66,
+          "styles": [
+            "one-take-oner"
+          ]
+        },
+        {
+          "domain": "film",
+          "year": 2019,
+          "circa": false,
+          "lag_years": 71,
+          "styles": [
+            "one-take-oner"
+          ]
+        }
+      ],
+      "styles": [
+        "one-take-oner",
+        "slow-cinema"
+      ]
+    },
+    {
       "id": "match-cut",
       "name": "Match cut",
       "kind": "montage",
@@ -6192,6 +7445,52 @@
       "styles": [
         "material-design",
         "spatial-visionos"
+      ]
+    },
+    {
+      "id": "modular-grid",
+      "name": "Modular grid",
+      "kind": "process",
+      "origin": {
+        "domain": "design",
+        "year": 1958,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "logo",
+          "year": 1962,
+          "circa": true,
+          "lag_years": 4,
+          "styles": [
+            "swiss-modernist-mark"
+          ]
+        },
+        {
+          "domain": "design",
+          "year": 1970,
+          "circa": false,
+          "lag_years": 12,
+          "styles": [
+            "swiss-international"
+          ]
+        },
+        {
+          "domain": "design",
+          "year": 2012,
+          "circa": false,
+          "lag_years": 54,
+          "styles": [
+            "bento-grid-ui",
+            "minimalism-web"
+          ]
+        }
+      ],
+      "styles": [
+        "swiss-international",
+        "swiss-modernist-mark",
+        "bento-grid-ui",
+        "minimalism-web"
       ]
     },
     {
@@ -6226,6 +7525,52 @@
       "styles": [
         "flat-design",
         "spatial-visionos"
+      ]
+    },
+    {
+      "id": "neon-glow",
+      "name": "Neon glow",
+      "kind": "material",
+      "origin": {
+        "domain": "design",
+        "year": 1912,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "architecture",
+          "year": 1972,
+          "circa": false,
+          "lag_years": 60,
+          "styles": [
+            "postmodern-architecture"
+          ]
+        },
+        {
+          "domain": "film",
+          "year": 1982,
+          "circa": false,
+          "lag_years": 70,
+          "styles": [
+            "neon-noir"
+          ]
+        },
+        {
+          "domain": "design",
+          "year": 2010,
+          "circa": true,
+          "lag_years": 98,
+          "styles": [
+            "cyberpunk-web",
+            "synthwave-web"
+          ]
+        }
+      ],
+      "styles": [
+        "postmodern-architecture",
+        "neon-noir",
+        "cyberpunk-web",
+        "synthwave-web"
       ]
     },
     {
@@ -6315,6 +7660,15 @@
           "styles": [
             "cyberdelia"
           ]
+        },
+        {
+          "domain": "design",
+          "year": 2012,
+          "circa": true,
+          "lag_years": 94,
+          "styles": [
+            "surrealism-web"
+          ]
         }
       ],
       "styles": [
@@ -6322,7 +7676,304 @@
         "soviet-montage",
         "punk-zine",
         "cyberdelia",
-        "grunge-editorial"
+        "grunge-editorial",
+        "surrealism-web"
+      ]
+    },
+    {
+      "id": "pixel-grid",
+      "name": "Pixel grid",
+      "kind": "process",
+      "origin": {
+        "domain": "film",
+        "year": 1963,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "icon",
+          "year": 1973,
+          "circa": true,
+          "lag_years": 10,
+          "styles": []
+        },
+        {
+          "domain": "icon",
+          "year": 1984,
+          "circa": false,
+          "lag_years": 21,
+          "styles": [
+            "pixel-icon"
+          ]
+        },
+        {
+          "domain": "typeface",
+          "year": 1985,
+          "circa": false,
+          "lag_years": 22,
+          "styles": []
+        },
+        {
+          "domain": "design",
+          "year": 1998,
+          "circa": true,
+          "lag_years": 35,
+          "styles": [
+            "pixel-art-web"
+          ]
+        }
+      ],
+      "styles": [
+        "pixel-icon",
+        "pixel-art-web"
+      ]
+    },
+    {
+      "id": "pointed-pen",
+      "name": "Pointed pen",
+      "kind": "tool",
+      "origin": {
+        "domain": "typeface",
+        "year": 1741,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "typeface",
+          "year": 1741,
+          "circa": false,
+          "lag_years": 0,
+          "styles": [
+            "formal-script"
+          ]
+        },
+        {
+          "domain": "logo",
+          "year": 1886,
+          "circa": false,
+          "lag_years": 145,
+          "styles": [
+            "victorian-trademark"
+          ]
+        }
+      ],
+      "styles": [
+        "formal-script",
+        "victorian-trademark"
+      ]
+    },
+    {
+      "id": "roman-capital-proportions",
+      "name": "Roman capital proportions",
+      "kind": "motif",
+      "origin": {
+        "domain": "architecture",
+        "year": 113,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "typeface",
+          "year": 1470,
+          "circa": false,
+          "lag_years": 1357,
+          "styles": [
+            "garalde-old-style"
+          ]
+        },
+        {
+          "domain": "typeface",
+          "year": 1916,
+          "circa": false,
+          "lag_years": 1803,
+          "styles": [
+            "humanist-sans"
+          ]
+        },
+        {
+          "domain": "typeface",
+          "year": 1958,
+          "circa": false,
+          "lag_years": 1845,
+          "styles": [
+            "humanist-sans"
+          ]
+        }
+      ],
+      "styles": [
+        "garalde-old-style",
+        "humanist-sans"
+      ]
+    },
+    {
+      "id": "serial-repetition",
+      "name": "Serial repetition",
+      "kind": "process",
+      "origin": {
+        "domain": "painting",
+        "year": 1891,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "painting",
+          "year": 1958,
+          "circa": false,
+          "lag_years": 67,
+          "styles": [
+            "minimalism-painting"
+          ]
+        },
+        {
+          "domain": "photography",
+          "year": 1959,
+          "circa": true,
+          "lag_years": 68,
+          "styles": [
+            "duesseldorf-school",
+            "new-topographics"
+          ]
+        },
+        {
+          "domain": "painting",
+          "year": 1962,
+          "circa": false,
+          "lag_years": 71,
+          "styles": [
+            "pop-art-painting"
+          ]
+        }
+      ],
+      "styles": [
+        "impressionism",
+        "minimalism-painting",
+        "duesseldorf-school",
+        "new-topographics",
+        "pop-art-painting"
+      ]
+    },
+    {
+      "id": "shadow-gap",
+      "name": "Shadow gap",
+      "kind": "process",
+      "origin": {
+        "domain": "architecture",
+        "year": 1958,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "architecture",
+          "year": 1964,
+          "circa": false,
+          "lag_years": 6,
+          "styles": [
+            "adaptive-reuse-architecture"
+          ]
+        },
+        {
+          "domain": "interior",
+          "year": 1990,
+          "circa": true,
+          "lag_years": 32,
+          "styles": [
+            "minimalist-interior"
+          ]
+        },
+        {
+          "domain": "architecture",
+          "year": 1996,
+          "circa": true,
+          "lag_years": 38,
+          "styles": [
+            "critical-regionalism-architecture"
+          ]
+        }
+      ],
+      "styles": [
+        "adaptive-reuse-architecture",
+        "minimalist-interior",
+        "critical-regionalism-architecture"
+      ]
+    },
+    {
+      "id": "silhouette",
+      "name": "Silhouette",
+      "kind": "motif",
+      "origin": {
+        "domain": "painting",
+        "year": -700,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "design",
+          "year": 1759,
+          "circa": true,
+          "lag_years": 2459,
+          "styles": []
+        },
+        {
+          "domain": "film",
+          "year": 1926,
+          "circa": false,
+          "lag_years": 2626,
+          "styles": []
+        },
+        {
+          "domain": "icon",
+          "year": 1972,
+          "circa": false,
+          "lag_years": 2672,
+          "styles": []
+        },
+        {
+          "domain": "icon",
+          "year": 2012,
+          "circa": false,
+          "lag_years": 2712,
+          "styles": [
+            "solid-glyph-icon",
+            "flat-icon"
+          ]
+        }
+      ],
+      "styles": [
+        "solid-glyph-icon",
+        "flat-icon"
+      ]
+    },
+    {
+      "id": "soak-stain",
+      "name": "Soak-stain",
+      "kind": "process",
+      "origin": {
+        "domain": "painting",
+        "year": 1952,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "painting",
+          "year": 1953,
+          "circa": false,
+          "lag_years": 1,
+          "styles": [
+            "colour-field-painting"
+          ]
+        },
+        {
+          "domain": "painting",
+          "year": 1960,
+          "circa": true,
+          "lag_years": 8,
+          "styles": [
+            "colour-field-painting"
+          ]
+        }
+      ],
+      "styles": [
+        "colour-field-painting"
       ]
     },
     {
@@ -6466,6 +8117,194 @@
         "dopamine-decor",
         "memphis-interior"
       ]
+    },
+    {
+      "id": "tilt-shift",
+      "name": "Tilt-shift",
+      "kind": "tool",
+      "origin": {
+        "domain": "photography",
+        "year": 1904,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "photography",
+          "year": 1932,
+          "circa": true,
+          "lag_years": 28,
+          "styles": [
+            "group-f64"
+          ]
+        },
+        {
+          "domain": "photography",
+          "year": 1960,
+          "circa": true,
+          "lag_years": 56,
+          "styles": [
+            "architectural-photography"
+          ]
+        },
+        {
+          "domain": "photography",
+          "year": 1961,
+          "circa": false,
+          "lag_years": 57,
+          "styles": [
+            "architectural-photography"
+          ]
+        },
+        {
+          "domain": "design",
+          "year": 2012,
+          "circa": false,
+          "lag_years": 108,
+          "styles": []
+        }
+      ],
+      "styles": [
+        "group-f64",
+        "architectural-photography"
+      ]
+    },
+    {
+      "id": "whiplash-line",
+      "name": "Whiplash line",
+      "kind": "motif",
+      "origin": {
+        "domain": "architecture",
+        "year": 1893,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "design",
+          "year": 1894,
+          "circa": true,
+          "lag_years": 1,
+          "styles": []
+        },
+        {
+          "domain": "logo",
+          "year": 1896,
+          "circa": true,
+          "lag_years": 3,
+          "styles": [
+            "art-nouveau-monogram"
+          ]
+        },
+        {
+          "domain": "typeface",
+          "year": 1900,
+          "circa": false,
+          "lag_years": 7,
+          "styles": []
+        },
+        {
+          "domain": "architecture",
+          "year": 1900,
+          "circa": false,
+          "lag_years": 7,
+          "styles": [
+            "art-nouveau-architecture"
+          ]
+        }
+      ],
+      "styles": [
+        "art-nouveau-architecture",
+        "art-nouveau-monogram"
+      ]
+    },
+    {
+      "id": "wood-type",
+      "name": "Wood type",
+      "kind": "process",
+      "origin": {
+        "domain": "typeface",
+        "year": 1828,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "typeface",
+          "year": 1828,
+          "circa": false,
+          "lag_years": 0,
+          "styles": [
+            "fat-face-display"
+          ]
+        },
+        {
+          "domain": "typeface",
+          "year": 1834,
+          "circa": true,
+          "lag_years": 6,
+          "styles": [
+            "slab-serif",
+            "grotesque-sans"
+          ]
+        },
+        {
+          "domain": "logo",
+          "year": 1875,
+          "circa": true,
+          "lag_years": 47,
+          "styles": [
+            "victorian-trademark"
+          ]
+        }
+      ],
+      "styles": [
+        "fat-face-display",
+        "slab-serif",
+        "grotesque-sans",
+        "victorian-trademark"
+      ]
+    },
+    {
+      "id": "woodcut",
+      "name": "Woodcut",
+      "kind": "process",
+      "origin": {
+        "domain": "design",
+        "year": 868,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "painting",
+          "year": 1765,
+          "circa": false,
+          "lag_years": 897,
+          "styles": [
+            "ukiyo-e"
+          ]
+        },
+        {
+          "domain": "painting",
+          "year": 1894,
+          "circa": true,
+          "lag_years": 1026,
+          "styles": [
+            "post-impressionism"
+          ]
+        },
+        {
+          "domain": "painting",
+          "year": 1905,
+          "circa": false,
+          "lag_years": 1037,
+          "styles": [
+            "expressionism-painting"
+          ]
+        }
+      ],
+      "styles": [
+        "ukiyo-e",
+        "post-impressionism",
+        "expressionism-painting"
+      ]
     }
   ],
   "adjacency": {
@@ -6479,6 +8318,7 @@
         "punk-zine"
       ],
       "echoes": [
+        "fat-face-display",
         "slab-serif",
         "victorian-trademark"
       ],
@@ -6533,7 +8373,9 @@
           "distance": 1.73
         }
       ],
-      "techniques": []
+      "techniques": [
+        "lithography"
+      ]
     },
     "de-stijl-web": {
       "evolved_from": [],
@@ -6641,6 +8483,7 @@
         }
       ],
       "techniques": [
+        "diagonal-composition",
         "photomontage"
       ]
     },
@@ -6773,7 +8616,10 @@
           "distance": 1
         }
       ],
-      "techniques": []
+      "techniques": [
+        "diagonal-composition",
+        "modular-grid"
+      ]
     },
     "japanese-graphic-modernism": {
       "evolved_from": [
@@ -6995,7 +8841,9 @@
         "grunge-editorial",
         "victorian-web"
       ],
-      "echoes": [],
+      "echoes": [
+        "blackletter"
+      ],
       "nearest_by_vector": [
         {
           "id": "anti-design",
@@ -7362,7 +9210,9 @@
           "distance": 1.73
         }
       ],
-      "techniques": []
+      "techniques": [
+        "pixel-grid"
+      ]
     },
     "bohemian-web": {
       "evolved_from": [
@@ -7452,6 +9302,7 @@
         }
       ],
       "techniques": [
+        "long-shadow",
         "multiplane-parallax",
         "squash-and-stretch"
       ]
@@ -7490,7 +9341,9 @@
           "distance": 1
         }
       ],
-      "techniques": []
+      "techniques": [
+        "modular-grid"
+      ]
     },
     "vaporwave": {
       "evolved_from": [
@@ -7526,6 +9379,7 @@
         }
       ],
       "techniques": [
+        "glitch",
         "perspective-grid"
       ]
     },
@@ -7560,7 +9414,10 @@
           "distance": 1.73
         }
       ],
-      "techniques": []
+      "techniques": [
+        "glitch",
+        "neon-glow"
+      ]
     },
     "synthwave-web": {
       "evolved_from": [
@@ -7593,7 +9450,9 @@
           "distance": 1.73
         }
       ],
-      "techniques": []
+      "techniques": [
+        "neon-glow"
+      ]
     },
     "brutalist-web": {
       "evolved_from": [],
@@ -7611,7 +9470,8 @@
         "terminal-tui-web"
       ],
       "echoes": [
-        "brutalist-architecture"
+        "brutalist-architecture",
+        "monospace"
       ],
       "nearest_by_vector": [
         {
@@ -7660,7 +9520,9 @@
           "distance": 1.73
         }
       ],
-      "techniques": []
+      "techniques": [
+        "letterspaced-capitals"
+      ]
     },
     "material-design": {
       "evolved_from": [
@@ -7837,7 +9699,9 @@
         "glassmorphism",
         "terminal-tui-web"
       ],
-      "echoes": [],
+      "echoes": [
+        "monospace"
+      ],
       "nearest_by_vector": [
         {
           "id": "flat-design",
@@ -7852,7 +9716,9 @@
           "distance": 1.41
         }
       ],
-      "techniques": []
+      "techniques": [
+        "fixed-pitch-grid"
+      ]
     },
     "surrealism-web": {
       "evolved_from": [
@@ -7885,7 +9751,10 @@
           "distance": 1.73
         }
       ],
-      "techniques": []
+      "techniques": [
+        "long-shadow",
+        "photomontage"
+      ]
     },
     "corporate-memphis": {
       "evolved_from": [
@@ -7938,7 +9807,9 @@
         "dark-devtool-ui",
         "pixel-art-web"
       ],
-      "echoes": [],
+      "echoes": [
+        "monospace"
+      ],
       "nearest_by_vector": [
         {
           "id": "bauhaus",
@@ -7953,7 +9824,9 @@
           "distance": 1.41
         }
       ],
-      "techniques": []
+      "techniques": [
+        "fixed-pitch-grid"
+      ]
     },
     "aurora-gradient-ui": {
       "evolved_from": [
@@ -8308,7 +10181,8 @@
         }
       ],
       "techniques": [
-        "isometric-projection"
+        "isometric-projection",
+        "modular-grid"
       ]
     },
     "spatial-visionos": {
@@ -8384,7 +10258,9 @@
         "renaissance-architecture"
       ],
       "hybridized_with": [],
-      "echoes": [],
+      "echoes": [
+        "blackletter"
+      ],
       "nearest_by_vector": [
         {
           "id": "adaptive-reuse-architecture",
@@ -8521,7 +10397,9 @@
           "distance": 2
         }
       ],
-      "techniques": []
+      "techniques": [
+        "exposed-joinery"
+      ]
     },
     "beaux-arts-architecture": {
       "evolved_from": [
@@ -8582,7 +10460,9 @@
           "distance": 3.16
         }
       ],
-      "techniques": []
+      "techniques": [
+        "whiplash-line"
+      ]
     },
     "prairie-school-architecture": {
       "evolved_from": [],
@@ -8611,7 +10491,9 @@
           "distance": 2.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "cantilever"
+      ]
     },
     "organic-architecture": {
       "evolved_from": [
@@ -8639,7 +10521,9 @@
           "distance": 2.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "cantilever"
+      ]
     },
     "expressionist-architecture": {
       "evolved_from": [
@@ -8668,7 +10552,9 @@
           "distance": 2.45
         }
       ],
-      "techniques": []
+      "techniques": [
+        "crystal-facet"
+      ]
     },
     "bauhaus-architecture": {
       "evolved_from": [],
@@ -8912,7 +10798,9 @@
           "distance": 2.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "shadow-gap"
+      ]
     },
     "postmodern-architecture": {
       "evolved_from": [],
@@ -8945,7 +10833,8 @@
         }
       ],
       "techniques": [
-        "arch"
+        "arch",
+        "neon-glow"
       ]
     },
     "high-tech-architecture": {
@@ -9005,7 +10894,11 @@
           "distance": 2
         }
       ],
-      "techniques": []
+      "techniques": [
+        "exposed-joinery",
+        "limewash",
+        "shadow-gap"
+      ]
     },
     "deconstructivist-architecture": {
       "evolved_from": [],
@@ -9066,7 +10959,9 @@
           "distance": 2.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "laminated-timber"
+      ]
     },
     "parametricism-architecture": {
       "evolved_from": [
@@ -9154,7 +11049,9 @@
           "distance": 2
         }
       ],
-      "techniques": []
+      "techniques": [
+        "exposed-joinery"
+      ]
     },
     "victorian-interior": {
       "evolved_from": [
@@ -9221,7 +11118,9 @@
           "distance": 2.65
         }
       ],
-      "techniques": []
+      "techniques": [
+        "exposed-joinery"
+      ]
     },
     "art-nouveau-interior": {
       "evolved_from": [
@@ -9288,7 +11187,9 @@
           "distance": 2.65
         }
       ],
-      "techniques": []
+      "techniques": [
+        "cantilever"
+      ]
     },
     "art-deco-interior": {
       "evolved_from": [],
@@ -9335,7 +11236,8 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
-        "art-deco-web"
+        "art-deco-web",
+        "formal-script"
       ],
       "nearest_by_vector": [
         {
@@ -9387,6 +11289,7 @@
       ],
       "techniques": [
         "breeze-block",
+        "laminated-timber",
         "sunburst",
         "terrazzo"
       ]
@@ -9429,7 +11332,9 @@
           "distance": 1.41
         }
       ],
-      "techniques": []
+      "techniques": [
+        "laminated-timber"
+      ]
     },
     "industrial-loft-interior": {
       "evolved_from": [
@@ -9522,7 +11427,9 @@
           "distance": 1.73
         }
       ],
-      "techniques": []
+      "techniques": [
+        "limewash"
+      ]
     },
     "minimalist-interior": {
       "evolved_from": [
@@ -9560,7 +11467,9 @@
           "distance": 2.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "shadow-gap"
+      ]
     },
     "japandi-interior": {
       "evolved_from": [
@@ -9835,7 +11744,9 @@
           "distance": 2.45
         }
       ],
-      "techniques": []
+      "techniques": [
+        "tilt-shift"
+      ]
     },
     "new-objectivity": {
       "evolved_from": [
@@ -10010,7 +11921,9 @@
           "distance": 2.45
         }
       ],
-      "techniques": []
+      "techniques": [
+        "serial-repetition"
+      ]
     },
     "duesseldorf-school": {
       "evolved_from": [
@@ -10041,7 +11954,9 @@
           "distance": 2.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "serial-repetition"
+      ]
     },
     "y2k-digicam": {
       "evolved_from": [
@@ -10198,7 +12113,9 @@
           "distance": 1.41
         }
       ],
-      "techniques": []
+      "techniques": [
+        "diffusion-model"
+      ]
     },
     "architectural-photography": {
       "evolved_from": [
@@ -10231,7 +12148,9 @@
           "distance": 2.45
         }
       ],
-      "techniques": []
+      "techniques": [
+        "tilt-shift"
+      ]
     },
     "fashion-editorial": {
       "evolved_from": [
@@ -10302,7 +12221,9 @@
           "distance": 3.61
         }
       ],
-      "techniques": []
+      "techniques": [
+        "chiaroscuro"
+      ]
     },
     "food-photography": {
       "evolved_from": [
@@ -10396,7 +12317,11 @@
           "distance": 1.73
         }
       ],
-      "techniques": []
+      "techniques": [
+        "chiaroscuro",
+        "crystal-facet",
+        "long-shadow"
+      ]
     },
     "soviet-montage": {
       "evolved_from": [],
@@ -10428,6 +12353,7 @@
         }
       ],
       "techniques": [
+        "diagonal-composition",
         "photomontage"
       ]
     },
@@ -10497,7 +12423,9 @@
           "distance": 1.41
         }
       ],
-      "techniques": []
+      "techniques": [
+        "chiaroscuro"
+      ]
     },
     "italian-neorealism": {
       "evolved_from": [],
@@ -10556,7 +12484,9 @@
           "distance": 2.83
         }
       ],
-      "techniques": []
+      "techniques": [
+        "long-take"
+      ]
     },
     "french-new-wave": {
       "evolved_from": [
@@ -10591,6 +12521,7 @@
         }
       ],
       "techniques": [
+        "handheld-camera",
         "jump-cut"
       ]
     },
@@ -10624,7 +12555,9 @@
           "distance": 1.41
         }
       ],
-      "techniques": []
+      "techniques": [
+        "handheld-camera"
+      ]
     },
     "giallo": {
       "evolved_from": [
@@ -10653,7 +12586,9 @@
           "distance": 2.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "coloured-gel-lighting"
+      ]
     },
     "spaghetti-western": {
       "evolved_from": [],
@@ -10680,7 +12615,9 @@
           "distance": 2.45
         }
       ],
-      "techniques": []
+      "techniques": [
+        "extreme-close-up"
+      ]
     },
     "new-hollywood": {
       "evolved_from": [
@@ -10772,7 +12709,11 @@
           "distance": 2.45
         }
       ],
-      "techniques": []
+      "techniques": [
+        "chiaroscuro",
+        "coloured-gel-lighting",
+        "neon-glow"
+      ]
     },
     "hong-kong-action": {
       "evolved_from": [
@@ -10828,7 +12769,9 @@
           "distance": 3
         }
       ],
-      "techniques": []
+      "techniques": [
+        "long-take"
+      ]
     },
     "dogme-95": {
       "evolved_from": [],
@@ -10865,7 +12808,9 @@
           "distance": 1.41
         }
       ],
-      "techniques": []
+      "techniques": [
+        "handheld-camera"
+      ]
     },
     "planimetric-symmetry": {
       "evolved_from": [],
@@ -10922,7 +12867,9 @@
           "distance": 1.73
         }
       ],
-      "techniques": []
+      "techniques": [
+        "handheld-camera"
+      ]
     },
     "mumblecore": {
       "evolved_from": [
@@ -10953,7 +12900,9 @@
           "distance": 1.41
         }
       ],
-      "techniques": []
+      "techniques": [
+        "handheld-camera"
+      ]
     },
     "creator-vlog": {
       "evolved_from": [],
@@ -11012,7 +12961,9 @@
           "distance": 2.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "handheld-camera"
+      ]
     },
     "vertical-short-form": {
       "evolved_from": [
@@ -11197,7 +13148,9 @@
           "distance": 2.45
         }
       ],
-      "techniques": []
+      "techniques": [
+        "chiaroscuro"
+      ]
     },
     "ukiyo-e": {
       "evolved_from": [],
@@ -11226,7 +13179,9 @@
           "distance": 2.45
         }
       ],
-      "techniques": []
+      "techniques": [
+        "woodcut"
+      ]
     },
     "rococo-painting": {
       "evolved_from": [
@@ -11240,7 +13195,8 @@
       ],
       "hybridized_with": [],
       "echoes": [
-        "art-nouveau-architecture"
+        "art-nouveau-architecture",
+        "formal-script"
       ],
       "nearest_by_vector": [
         {
@@ -11352,7 +13308,9 @@
           "distance": 2.45
         }
       ],
-      "techniques": []
+      "techniques": [
+        "serial-repetition"
+      ]
     },
     "nordic-national-romanticism-painting": {
       "evolved_from": [],
@@ -11434,7 +13392,9 @@
           "distance": 2.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "woodcut"
+      ]
     },
     "symbolism-painting": {
       "evolved_from": [],
@@ -11462,7 +13422,9 @@
           "distance": 1.73
         }
       ],
-      "techniques": []
+      "techniques": [
+        "lithography"
+      ]
     },
     "expressionism-painting": {
       "evolved_from": [
@@ -11489,7 +13451,10 @@
           "distance": 2.45
         }
       ],
-      "techniques": []
+      "techniques": [
+        "lithography",
+        "woodcut"
+      ]
     },
     "fauvism": {
       "evolved_from": [
@@ -11550,7 +13515,10 @@
           "distance": 2.45
         }
       ],
-      "techniques": []
+      "techniques": [
+        "chronophotography",
+        "crystal-facet"
+      ]
     },
     "futurism-painting": {
       "evolved_from": [
@@ -11580,7 +13548,9 @@
           "distance": 2.45
         }
       ],
-      "techniques": []
+      "techniques": [
+        "chronophotography"
+      ]
     },
     "suprematism": {
       "evolved_from": [
@@ -11610,7 +13580,9 @@
           "distance": 2.65
         }
       ],
-      "techniques": []
+      "techniques": [
+        "diagonal-composition"
+      ]
     },
     "de-stijl-painting": {
       "evolved_from": [
@@ -11675,7 +13647,9 @@
           "distance": 2.45
         }
       ],
-      "techniques": []
+      "techniques": [
+        "long-shadow"
+      ]
     },
     "abstract-expressionism": {
       "evolved_from": [
@@ -11736,7 +13710,9 @@
           "distance": 3.87
         }
       ],
-      "techniques": []
+      "techniques": [
+        "soak-stain"
+      ]
     },
     "pop-art-painting": {
       "evolved_from": [],
@@ -11766,7 +13742,9 @@
           "distance": 2.65
         }
       ],
-      "techniques": []
+      "techniques": [
+        "serial-repetition"
+      ]
     },
     "minimalism-painting": {
       "evolved_from": [
@@ -11798,7 +13776,9 @@
           "distance": 2.45
         }
       ],
-      "techniques": []
+      "techniques": [
+        "serial-repetition"
+      ]
     },
     "photorealism": {
       "evolved_from": [
@@ -11827,7 +13807,11 @@
           "distance": 2.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "airbrush",
+        "extreme-close-up",
+        "grid-transfer"
+      ]
     },
     "airbrush-surrealism": {
       "evolved_from": [],
@@ -11873,6 +13857,7 @@
         "emblem-badge"
       ],
       "echoes": [
+        "fat-face-display",
         "victorian-interior",
         "victorian-web"
       ],
@@ -11890,7 +13875,11 @@
           "distance": 4
         }
       ],
-      "techniques": []
+      "techniques": [
+        "line-engraving",
+        "pointed-pen",
+        "wood-type"
+      ]
     },
     "art-nouveau-monogram": {
       "evolved_from": [
@@ -11919,7 +13908,9 @@
           "distance": 3.87
         }
       ],
-      "techniques": []
+      "techniques": [
+        "whiplash-line"
+      ]
     },
     "emblem-badge": {
       "evolved_from": [
@@ -11988,7 +13979,10 @@
           "distance": 3.32
         }
       ],
-      "techniques": []
+      "techniques": [
+        "construction-grid",
+        "modular-grid"
+      ]
     },
     "geometric-symbol": {
       "evolved_from": [
@@ -12020,7 +14014,9 @@
           "distance": 4.36
         }
       ],
-      "techniques": []
+      "techniques": [
+        "construction-grid"
+      ]
     },
     "minimal-wordmark": {
       "evolved_from": [
@@ -12052,7 +14048,9 @@
           "distance": 3.32
         }
       ],
-      "techniques": []
+      "techniques": [
+        "letterspaced-capitals"
+      ]
     },
     "glossy-3d-logo": {
       "evolved_from": [
@@ -12088,7 +14086,9 @@
           "distance": 4.69
         }
       ],
-      "techniques": []
+      "techniques": [
+        "airbrush"
+      ]
     },
     "flat-logo": {
       "evolved_from": [
@@ -12121,7 +14121,9 @@
           "distance": 3.32
         }
       ],
-      "techniques": []
+      "techniques": [
+        "construction-grid"
+      ]
     },
     "pixel-icon": {
       "evolved_from": [],
@@ -12150,7 +14152,9 @@
           "distance": 2.83
         }
       ],
-      "techniques": []
+      "techniques": [
+        "pixel-grid"
+      ]
     },
     "isometric-icon": {
       "evolved_from": [
@@ -12178,7 +14182,9 @@
           "distance": 3.46
         }
       ],
-      "techniques": []
+      "techniques": [
+        "isometric-projection"
+      ]
     },
     "skeuomorphic-icon": {
       "evolved_from": [
@@ -12214,7 +14220,9 @@
           "distance": 4.47
         }
       ],
-      "techniques": []
+      "techniques": [
+        "airbrush"
+      ]
     },
     "flat-icon": {
       "evolved_from": [],
@@ -12251,7 +14259,9 @@
           "distance": 3.16
         }
       ],
-      "techniques": []
+      "techniques": [
+        "silhouette"
+      ]
     },
     "solid-glyph-icon": {
       "evolved_from": [
@@ -12284,7 +14294,9 @@
           "distance": 2.65
         }
       ],
-      "techniques": []
+      "techniques": [
+        "silhouette"
+      ]
     },
     "outline-icon": {
       "evolved_from": [
@@ -12319,7 +14331,9 @@
           "distance": 4.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "construction-grid"
+      ]
     },
     "material-symbols-icon": {
       "evolved_from": [
@@ -12349,7 +14363,9 @@
           "distance": 2.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "construction-grid"
+      ]
     },
     "duotone-icon": {
       "evolved_from": [
@@ -12377,7 +14393,9 @@
           "distance": 2.45
         }
       ],
-      "techniques": []
+      "techniques": [
+        "halftone"
+      ]
     },
     "clay-3d-icon": {
       "evolved_from": [
@@ -12408,13 +14426,45 @@
       ],
       "techniques": []
     },
+    "blackletter": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [
+        "garalde-old-style"
+      ],
+      "hybridized_with": [],
+      "echoes": [
+        "gothic-architecture",
+        "punk-zine"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "humanist-sans",
+          "distance": 2.65
+        },
+        {
+          "id": "formal-script",
+          "distance": 3.46
+        },
+        {
+          "id": "transitional-serif",
+          "distance": 3.61
+        }
+      ],
+      "techniques": [
+        "broad-nib-pen"
+      ]
+    },
     "garalde-old-style": {
       "evolved_from": [],
       "evolved_into": [
         "humanist-sans",
         "transitional-serif"
       ],
-      "rebelled_against": [],
+      "rebelled_against": [
+        "blackletter"
+      ],
       "provoked": [
         "didone-serif",
         "geometric-sans"
@@ -12430,15 +14480,49 @@
           "distance": 2.45
         },
         {
-          "id": "humanist-sans",
-          "distance": 3.74
+          "id": "formal-script",
+          "distance": 3
         },
         {
-          "id": "grotesque-sans",
-          "distance": 4.12
+          "id": "humanist-sans",
+          "distance": 3.74
         }
       ],
-      "techniques": []
+      "techniques": [
+        "broad-nib-pen",
+        "roman-capital-proportions"
+      ]
+    },
+    "formal-script": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "transitional-serif"
+      ],
+      "echoes": [
+        "hollywood-regency-interior",
+        "rococo-painting"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "garalde-old-style",
+          "distance": 3
+        },
+        {
+          "id": "transitional-serif",
+          "distance": 3.32
+        },
+        {
+          "id": "blackletter",
+          "distance": 3.46
+        }
+      ],
+      "techniques": [
+        "line-engraving",
+        "pointed-pen"
+      ]
     },
     "transitional-serif": {
       "evolved_from": [
@@ -12449,7 +14533,9 @@
       ],
       "rebelled_against": [],
       "provoked": [],
-      "hybridized_with": [],
+      "hybridized_with": [
+        "formal-script"
+      ],
       "echoes": [
         "georgian-interior",
         "neoclassical-architecture"
@@ -12468,13 +14554,16 @@
           "distance": 2.65
         }
       ],
-      "techniques": []
+      "techniques": [
+        "line-engraving"
+      ]
     },
     "didone-serif": {
       "evolved_from": [
         "transitional-serif"
       ],
       "evolved_into": [
+        "fat-face-display",
         "slab-serif"
       ],
       "rebelled_against": [
@@ -12494,17 +14583,19 @@
           "distance": 2.65
         },
         {
-          "id": "grotesque-sans",
-          "distance": 3.74
+          "id": "fat-face-display",
+          "distance": 3.16
         },
         {
-          "id": "garalde-old-style",
-          "distance": 4.36
+          "id": "formal-script",
+          "distance": 3.46
         }
       ],
-      "techniques": []
+      "techniques": [
+        "line-engraving"
+      ]
     },
-    "slab-serif": {
+    "fat-face-display": {
       "evolved_from": [
         "didone-serif"
       ],
@@ -12512,6 +14603,42 @@
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [
+        "slab-serif"
+      ],
+      "echoes": [
+        "victorian-trademark",
+        "victorian-web"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "didone-serif",
+          "distance": 3.16
+        },
+        {
+          "id": "transitional-serif",
+          "distance": 3.32
+        },
+        {
+          "id": "grotesque-sans",
+          "distance": 3.46
+        }
+      ],
+      "techniques": [
+        "line-engraving",
+        "wood-type"
+      ]
+    },
+    "slab-serif": {
+      "evolved_from": [
+        "didone-serif"
+      ],
+      "evolved_into": [
+        "monospace"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "fat-face-display",
         "grotesque-sans"
       ],
       "echoes": [
@@ -12520,19 +14647,21 @@
       ],
       "nearest_by_vector": [
         {
+          "id": "monospace",
+          "distance": 3
+        },
+        {
           "id": "transitional-serif",
           "distance": 3.16
         },
         {
           "id": "grotesque-sans",
           "distance": 4.12
-        },
-        {
-          "id": "garalde-old-style",
-          "distance": 4.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "wood-type"
+      ]
     },
     "grotesque-sans": {
       "evolved_from": [],
@@ -12566,7 +14695,42 @@
           "distance": 2.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "wood-type"
+      ]
+    },
+    "monospace": {
+      "evolved_from": [
+        "slab-serif"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "neo-grotesque-sans"
+      ],
+      "echoes": [
+        "brutalist-web",
+        "dark-devtool-ui",
+        "terminal-tui-web"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "neo-grotesque-sans",
+          "distance": 2.24
+        },
+        {
+          "id": "slab-serif",
+          "distance": 3
+        },
+        {
+          "id": "grotesque-sans",
+          "distance": 3.16
+        }
+      ],
+      "techniques": [
+        "fixed-pitch-grid"
+      ]
     },
     "humanist-sans": {
       "evolved_from": [
@@ -12594,11 +14758,14 @@
           "distance": 2.45
         },
         {
-          "id": "transitional-serif",
-          "distance": 3.16
+          "id": "blackletter",
+          "distance": 2.65
         }
       ],
-      "techniques": []
+      "techniques": [
+        "broad-nib-pen",
+        "roman-capital-proportions"
+      ]
     },
     "geometric-sans": {
       "evolved_from": [],
@@ -12627,7 +14794,9 @@
           "distance": 3.61
         }
       ],
-      "techniques": []
+      "techniques": [
+        "construction-grid"
+      ]
     },
     "neo-grotesque-sans": {
       "evolved_from": [
@@ -12638,7 +14807,9 @@
         "humanist-sans"
       ],
       "provoked": [],
-      "hybridized_with": [],
+      "hybridized_with": [
+        "monospace"
+      ],
       "echoes": [
         "international-style-architecture",
         "swiss-international"
@@ -12649,12 +14820,12 @@
           "distance": 2.24
         },
         {
-          "id": "humanist-sans",
-          "distance": 2.45
+          "id": "monospace",
+          "distance": 2.24
         },
         {
-          "id": "geometric-sans",
-          "distance": 3.32
+          "id": "humanist-sans",
+          "distance": 2.45
         }
       ],
       "techniques": []

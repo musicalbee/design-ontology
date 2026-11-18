@@ -1,0 +1,272 @@
+{
+  "$schema": "../../../schema/domains/typeface.schema.json",
+  "id": "blackletter",
+  "domain": "typeface",
+  "name": "Blackletter",
+  "aliases": [
+    "Gothic script",
+    "Fraktur",
+    "Textura",
+    "Old English",
+    "Broken script"
+  ],
+  "era_id": "hand-press",
+  "time_period": {
+    "start": 1454,
+    "end": null,
+    "label": "1454–present"
+  },
+  "region": "Mainz, then the German-speaking lands",
+  "summary": "The broken letter of the Gothic book hand: narrow, dark, with strokes that turn at sharp angles instead of curves. Gutenberg printed his Bible in textura; Fraktur stayed the German text face until 1941. Today it carries tradition, heraldry, metal and rebellion.",
+  "philosophy": {
+    "core_thesis": "A letter written with a broad nib held at a steep angle breaks each curve into straight strokes and makes a dark, even texture on the page.",
+    "design_principles": [
+      "Break the round strokes into straight segments that meet at angles; the bowl of the o is a hexagon or a lozenge in textura.",
+      "Hold the nib at 30–45°, so the vertical stems are heavy and the diagonals and joins are hairlines.",
+      "Keep the letters narrow and the space inside them about equal to the stem, so the line is a dark, even band.",
+      "Give the stems diamond feet and heads (textura) or a forked or curved top (Fraktur).",
+      "Make the capitals rich and round, with spurs and hairline flourishes, and never set a full word in them.",
+      "Use the long s (ſ) and the ligatures ch, ck, tz and ſt in Fraktur text."
+    ],
+    "anti_patterns": [
+      "Words set in all capitals",
+      "Wide letter spacing or positive tracking",
+      "Smooth round bowls as in a roman",
+      "A blackletter for long text on a screen for a general reader",
+      "Blackletter mixed with a script in one line"
+    ]
+  },
+  "vectors": {
+    "stroke_contrast": 3,
+    "construction": 1,
+    "x_height": 4,
+    "width": 1,
+    "serif_mass": 2
+  },
+  "classification": {
+    "vox_atypi": "Blackletter",
+    "din_16518": "Gruppe X: Gebrochene Schriften",
+    "note": "DIN 16518 has five sub-groups: Gotisch (textura), Rundgotisch (rotunda), Schwabacher, Fraktur and Fraktur-Varianten. Vox (1954) put blackletter in the graphic class; ATypI added the class when it adopted the scheme in 1962."
+  },
+  "anatomy": {
+    "contrast": "Clear: the stems are heavy, and the diagonals and joins are hairlines of 0.1–0.3 of the stem.",
+    "stress": "Diagonal, from a nib held at 30–45°; the curves are broken into straight strokes.",
+    "serifs": "No true serifs: diamond-shaped feet and heads in textura, forked or split tops in Fraktur.",
+    "terminals": "Sharp, angled cuts and small hairline spurs at the ends of the strokes.",
+    "aperture": "Closed: the c, e and a are narrow and dark.",
+    "key_letters": "A long s (ſ), an a with a closed, angular bowl, an o made of straight strokes, and round, decorated capitals."
+  },
+  "metrics": {
+    "x_height_min": 0.66,
+    "x_height_max": 0.82,
+    "contrast_min": 1.0,
+    "contrast_max": 2.0,
+    "x_height": "The x-height is 0.66–0.82 of the cap height; the ascenders are short and the capitals are tall and broad.",
+    "contrast": "The o test gives 1.0–2.0: with a broad nib at angle θ, the side of the o is nib·cos θ wide and the top is nib·sin θ thick, so the ratio is cot θ, 1.73 at 30° and 1.0 at 45°. The real contrast is between the stems and the hairline diagonals.",
+    "width": "Narrow: the mean advance of a to z is 0.38–0.45 em.",
+    "figures": "Lining figures, drawn with the same broken strokes."
+  },
+  "setting": {
+    "text_sizes": "For text, set Fraktur at 11–14 pt or 18–22 px, and only for readers who know it.",
+    "display_sizes": "Set titles, mastheads and labels at 24–120 pt.",
+    "leading": "Set the leading at 1.2–1.35 for text and 1.0–1.1 for titles.",
+    "tracking": "Set 0 em; for emphasis, Fraktur uses letter spacing (Sperrsatz) of about 0.15 em on one word, not bold.",
+    "measure": "Set 40–60 characters a line; the narrow letters give more words a line than a roman.",
+    "case_and_features": "Use upper and lower case only, and turn on the ligatures and the long s if the font has them."
+  },
+  "pairing": {
+    "rule": "Use blackletter for one masthead or title and set all running text in a calm roman or a plain sans.",
+    "pairs": [
+      {
+        "with": "Garalde old-style serif (EB Garamond)",
+        "role": "roman for the text",
+        "why": "The roman grew out of a rejection of the Gothic hand, so the two give a clear historical contrast."
+      },
+      {
+        "with": "Grotesque sans (Work Sans)",
+        "role": "sans for labels and dates",
+        "why": "The plain grotesque does not compete with the texture of the broken letter."
+      }
+    ]
+  },
+  "reference_faces": {
+    "faces": [
+      {
+        "face": "B42 textura (Gutenberg Bible)",
+        "designer": "Johannes Gutenberg",
+        "year": 1454,
+        "status": "historic metal"
+      },
+      {
+        "face": "Theuerdank Fraktur",
+        "designer": "Vinzenz Rockner",
+        "year": 1517,
+        "status": "historic metal"
+      },
+      {
+        "face": "Breitkopf Fraktur",
+        "designer": "Johann Gottlob Immanuel Breitkopf",
+        "year": 1750,
+        "status": "historic metal"
+      },
+      {
+        "face": "UnifrakturMaguntia",
+        "designer": "J. M. Sloan",
+        "year": 2009,
+        "status": "open revival"
+      },
+      {
+        "face": "Pirata One",
+        "designer": "Rodrigo Fuenzalida, Nicolas Massi",
+        "year": 2012,
+        "status": "open revival"
+      },
+      {
+        "face": "Grenze Gotisch",
+        "designer": "Omnibus-Type",
+        "year": 2019,
+        "status": "open revival"
+      }
+    ],
+    "note": "UnifrakturMaguntia is a free Fraktur from a 1901 model. Pirata One and Grenze Gotisch are new display faces of the class, not revivals of one cut."
+  },
+  "prompt_primer": {
+    "positive": [
+      "blackletter",
+      "fraktur",
+      "gothic textura",
+      "broken strokes",
+      "broad-nib calligraphy",
+      "illuminated manuscript capital",
+      "dark even texture",
+      "heraldic title",
+      "vellum"
+    ],
+    "negative": [
+      "sans-serif",
+      "rounded letters",
+      "all capitals",
+      "pastel colours",
+      "wide letter spacing"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "UnifrakturMaguntia",
+      "kind": "font",
+      "maker": "J. M. Sloan",
+      "year": 2009,
+      "credit": "google/fonts repository, ofl/unifrakturmaguntia",
+      "licence": "OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "url": "https://fonts.google.com/specimen/UnifrakturMaguntia",
+      "file": "https://raw.githubusercontent.com/google/fonts/main/ofl/unifrakturmaguntia/UnifrakturMaguntia-Book.ttf"
+    },
+    {
+      "title": "Pirata One",
+      "kind": "font",
+      "maker": "Rodrigo Fuenzalida, Nicolas Massi",
+      "year": 2012,
+      "credit": "google/fonts repository, ofl/pirataone",
+      "licence": "OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "url": "https://fonts.google.com/specimen/Pirata+One",
+      "file": "https://raw.githubusercontent.com/google/fonts/main/ofl/pirataone/PirataOne-Regular.ttf"
+    },
+    {
+      "title": "Grenze Gotisch",
+      "kind": "font",
+      "maker": "Omnibus-Type",
+      "year": 2019,
+      "credit": "google/fonts repository, ofl/grenzegotisch",
+      "licence": "OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "url": "https://fonts.google.com/specimen/Grenze+Gotisch",
+      "file": "https://raw.githubusercontent.com/google/fonts/main/ofl/grenzegotisch/GrenzeGotisch%5Bwght%5D.ttf"
+    },
+    {
+      "title": "Gutenberg Bible (B42), the opening of Genesis",
+      "kind": "image",
+      "maker": "Johannes Gutenberg",
+      "year": 1454,
+      "credit": "Gutenberg Bible page; scan on Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Gutenberg_Bible_B42_Genesis.JPG",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Gutenberg_Bible_B42_Genesis.JPG/960px-Gutenberg_Bible_B42_Genesis.JPG"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "gothic-architecture",
+      "punk-zine"
+    ]
+  },
+  "emotion": {
+    "target_response": "Weight and tradition: the reader feels age, ritual and authority, or rebellion when the context is music or street culture.",
+    "keywords": [
+      "traditional",
+      "dark",
+      "ceremonial",
+      "rebellious",
+      "dense"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "blackletter",
+      "fraktur",
+      "gothic font",
+      "old english font",
+      "textura",
+      "metal band logo",
+      "newspaper masthead",
+      "tattoo lettering"
+    ],
+    "use_cases": [
+      "newspaper mastheads",
+      "certificates and diplomas",
+      "beer, spirits and heritage labels",
+      "music and street-wear brands"
+    ],
+    "avoid_when": [
+      "The text is longer than a title and the readers are not used to Fraktur.",
+      "The brand must look neutral or modern."
+    ],
+    "modifiers": [
+      {
+        "request": "more readable",
+        "toward": "garalde-old-style",
+        "how": "Use a roman with the same dark colour and a diagonal stress; keep blackletter only for the initial."
+      },
+      {
+        "request": "more modern",
+        "toward": "grotesque-sans",
+        "how": "Keep the narrow, dark band, but drop the broken strokes for a condensed bold grotesque."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Blackletter (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Blackletter"
+    },
+    {
+      "title": "Fraktur (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Fraktur"
+    },
+    {
+      "title": "Vox-ATypI classification (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Vox-ATypI_classification"
+    },
+    {
+      "title": "Robert Bringhurst, The Elements of Typographic Style (Hartley & Marks, 4th ed. 2012)"
+    }
+  ]
+}

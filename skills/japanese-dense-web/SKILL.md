@@ -157,6 +157,11 @@ Set `data-style="japanese-dense-web"` on the root element and paste the tokens. 
   --space-unit: 4px;
   --ease: linear;
   --duration: 150ms;
+  --type-ratio: 1.333;
+  --size-small: 10.5px;
+  --size-h3: 24.88px;
+  --size-h2: 33.16px;
+  --size-h1: 44.2px;
   --color-on-bg: #222222;
   --color-on-surface: #222222;
   --color-on-primary: #FFFFFF;
@@ -213,7 +218,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 700, subhead 700, body 400, bold in text 700, labels and buttons 700. The style uses 2 weights (400, 700) and no other. The display is 300 heavier than the body. The accent is colour: one coloured word or field is the accent, so the weights stay quiet.
 - **Body type:** 14px, leading 1.6.
 - **Page:** hero split, left aligned, compact density, accent tilt 0°.
-- **Ground:** rules. Dense Japanese portals sit on a ruled grid with a colour bar across the top. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** rules. Dense Japanese portals sit on a ruled grid with a colour bar across the top. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack
@@ -228,6 +233,18 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 6. **The family covers the product.** List each concept that the product needs before you commit. A family that has no icon for one of them is the wrong family.
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #E60012 | #E60012, #0A58CA, #222222 | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #0A58CA | #0A58CA, #E60012 | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 2px | 1–3 px | --border-radius |
+| Grid step (`grid_step`) | 4px | 2–6 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.333 | 1.25–1.414 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

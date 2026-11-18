@@ -20,6 +20,11 @@
   --space-unit: 4px;
   --ease: cubic-bezier(0.2, 0, 0, 1);
   --duration: 200ms;
+  --type-ratio: 1.25;
+  --size-small: 12.8px;
+  --size-h3: 25px;
+  --size-h2: 31.25px;
+  --size-h1: 39.06px;
   --color-on-bg: #1F1F23;
   --color-on-surface: #1F1F23;
   --color-on-primary: #FFFFFF;
@@ -87,6 +92,12 @@
 [data-style="ai-chat-ui"] :where(.ground) {
   background: var(--ground, var(--color-bg));
   color: var(--color-on-bg);
+}
+[data-style="ai-chat-ui"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
 }
 [data-style="ai-chat-ui"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

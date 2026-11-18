@@ -168,6 +168,11 @@ Set `data-style="frutiger-aero"` on the root element and paste the tokens. The f
   --gradient-sky: linear-gradient(180deg, #7CC8F2 0%, #BFE8F7 55%, #5DBB3F 100%);
   --gradient-glass-button: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0) 51%), linear-gradient(180deg, #4FD0EA, #2BB7D8);
   --glow-aqua: 0 0 6px rgba(43, 183, 216, 0.8);
+  --type-ratio: 1.25;
+  --size-small: 13.6px;
+  --size-h3: 26.56px;
+  --size-h2: 33.2px;
+  --size-h1: 41.5px;
   --color-on-bg: #1F3A4D;
   --color-on-surface: #1F3A4D;
   --color-on-primary: #1F3A4D;
@@ -225,7 +230,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 300, subhead 400, body 400, bold in text 700, labels and buttons 700. The style uses 3 weights (300, 400, 700) and no other. The display is 100 lighter than the body, so size carries the hierarchy. The accent is colour: one coloured word or field is the accent, so the weights stay quiet.
 - **Body type:** 17px, leading 1.6.
 - **Page:** hero split, left aligned, airy density, accent tilt 0°.
-- **Ground:** bubbles. Frutiger Aero shows clean water bubbles over a green hill and a bright sky. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** bubbles. Frutiger Aero shows clean water bubbles over a green hill and a bright sky. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack
@@ -260,6 +265,18 @@ A move speeds up from rest and slows down before it stops, as a real mass does, 
 - Give a move of 200 to 400ms an ease-out curve when an element enters and an ease-in curve when it leaves.
 - Use cubic-bezier(0.4, 0, 0.2, 1) as the standard curve for a move inside the screen.
 - Put more frames at the two ends of a move than in the middle: 2 to 3 times the density.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #2BB7D8 | #2BB7D8, #5DBB3F, #1F3A4D | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #5DBB3F | #5DBB3F, #2BB7D8 | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 10px | 5–15 px | --border-radius |
+| Grid step (`grid_step`) | 4px | 2–6 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.25 | 1.2–1.333 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

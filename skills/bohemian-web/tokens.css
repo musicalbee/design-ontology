@@ -20,6 +20,11 @@
   --space-unit: 8px;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
   --duration: 600ms;
+  --type-ratio: 1.5;
+  --size-small: 10.67px;
+  --size-h3: 36px;
+  --size-h2: 54px;
+  --size-h1: 81px;
   --color-on-bg: #3D2B24;
   --color-on-surface: #3D2B24;
   --color-on-primary: #FFFFFF;
@@ -90,6 +95,12 @@
 [data-style="bohemian-web"] :where(.ground) {
   background: var(--ground, var(--color-bg));
   color: var(--color-on-bg);
+}
+[data-style="bohemian-web"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
 }
 [data-style="bohemian-web"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

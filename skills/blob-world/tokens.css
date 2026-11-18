@@ -20,6 +20,11 @@
   --space-unit: 8px;
   --ease: cubic-bezier(0.34, 1.56, 0.64, 1);
   --duration: 500ms;
+  --type-ratio: 1.333;
+  --size-small: 13.5px;
+  --size-h3: 31.98px;
+  --size-h2: 42.63px;
+  --size-h1: 56.83px;
   --color-on-bg: #2A1740;
   --color-on-surface: #2A1740;
   --color-on-primary: #2A1740;
@@ -88,6 +93,12 @@
 [data-style="blob-world"] :where(.ground) {
   background: var(--ground, var(--color-bg));
   color: var(--color-on-bg);
+}
+[data-style="blob-world"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
 }
 [data-style="blob-world"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

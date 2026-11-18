@@ -22,6 +22,11 @@
   --duration: 200ms;
   --shadow-pressed: inset 4px 4px 8px #A3B1C6, inset -4px -4px 8px #FFFFFF;
   --shadow-small: 4px 4px 8px #A3B1C6, -4px -4px 8px #FFFFFF;
+  --type-ratio: 1.2;
+  --size-small: 13.33px;
+  --size-h3: 23.04px;
+  --size-h2: 27.65px;
+  --size-h1: 33.18px;
   --color-on-bg: #2D3748;
   --color-on-surface: #2D3748;
   --color-on-primary: #FFFFFF;
@@ -91,6 +96,12 @@
 [data-style="neumorphism"] :where(.ground) {
   background: var(--ground, var(--color-bg));
   color: var(--color-on-bg);
+}
+[data-style="neumorphism"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
 }
 [data-style="neumorphism"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

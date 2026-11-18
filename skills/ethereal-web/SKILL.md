@@ -161,6 +161,11 @@ Set `data-style="ethereal-web"` on the root element and paste the tokens. The fi
   --space-unit: 8px;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
   --duration: 1000ms;
+  --type-ratio: 1.2;
+  --size-small: 14.17px;
+  --size-h3: 24.48px;
+  --size-h2: 29.38px;
+  --size-h1: 35.25px;
   --color-on-bg: #4A4A5E;
   --color-on-surface: #4A4A5E;
   --color-on-primary: #4A4A5E;
@@ -216,7 +221,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 300, subhead 300, body 400, bold in text 500, labels and buttons 500. The style uses 3 weights (300, 400, 500) and no other. The display is 100 lighter than the body, so size carries the hierarchy. The accent is case and tracking: an upper-case label is the accent, so the weights stay few.
 - **Body type:** 17px, leading 1.7.
 - **Page:** hero stacked, center aligned, airy density, accent tilt 0°.
-- **Ground:** aurora. Ethereal pages sit in a pale haze of soft light in pastel colour. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** aurora. Ethereal pages sit in a pale haze of soft light in pastel colour. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack
@@ -231,6 +236,18 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 6. **The family covers the product.** List each concept that the product needs before you commit. A family that has no icon for one of them is the wrong family.
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #C9B6FF | #C9B6FF, #FFC9DE, #4A4A5E | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #FFC9DE | #FFC9DE, #C9B6FF | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 32px | 16–48 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.2 | 1.125–1.25 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

@@ -190,6 +190,19 @@ The rules above name these shared principles by id. The definition is the same i
 | `sightlines` | Sightlines | The line from an eye position, such as an entrance or a seat, to a target. A clear sightline joins the viewer to the focal point. | camera height (cm): 120–170 at eye level; under 100 for a low angle; crossings of the line of action in one scene (count): 0 |
 | `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive; average shot length (seconds): 1.5–3 fast; 5–12 moderate; 30 or more for a long take |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Coloured gel lighting (process)
+
+A white lamp covered with a sheet of coloured film, so that a set or a face is lit in red, blue or green with no natural cause. Origin: film & video, Rome, c. 1964.
+
+- Put a saturated gel (red, blue or green) over a hard source; use one colour for each zone of the set.
+- Light the face from the side in one colour and the wall behind it in a second colour from the opposite side.
+- Keep the key light at one stop or more above the fill so that the colour reads as shadow and as light.
+- Do not justify the colour with a lamp in the frame; the colour is the mood.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

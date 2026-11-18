@@ -20,6 +20,11 @@
   --space-unit: 8px;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
   --duration: 400ms;
+  --type-ratio: 1.5;
+  --size-small: 12px;
+  --size-h3: 40.5px;
+  --size-h2: 60.75px;
+  --size-h1: 91.13px;
   --color-on-bg: #1A1714;
   --color-on-surface: #1A1714;
   --color-on-primary: #F6F1E7;
@@ -90,6 +95,12 @@
 [data-style="editorial-serif-revival"] :where(.ground) {
   background: var(--ground, var(--color-bg));
   color: var(--color-on-bg);
+}
+[data-style="editorial-serif-revival"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
 }
 [data-style="editorial-serif-revival"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

@@ -157,6 +157,11 @@ Set `data-style="pixel-art-web"` on the root element and paste the tokens. The f
   --space-unit: 8px;
   --ease: steps(4);
   --duration: 120ms;
+  --type-ratio: 1.333;
+  --size-small: 12px;
+  --size-h3: 28.43px;
+  --size-h2: 37.9px;
+  --size-h1: 50.52px;
   --color-on-bg: #F4F4F4;
   --color-on-surface: #F4F4F4;
   --color-on-primary: #1A1C2C;
@@ -217,7 +222,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 400, subhead 400, body 400, bold in text 400, labels and buttons 400. The style uses 1 weights (400) and no other. The display has the weight of the body, so size and face carry the hierarchy. The accent is case and tracking: an upper-case label is the accent, so the weights stay few.
 - **Body type:** 16px, leading 1.6.
 - **Page:** hero stacked, left aligned, regular density, accent tilt 0°.
-- **Ground:** pixel. Pixel art draws a night sky of single pixels over stepped hills on a coarse grid. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** pixel. Pixel art draws a night sky of single pixels over stepped hills on a coarse grid. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack
@@ -232,6 +237,31 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 6. **The family covers the product.** List each concept that the product needs before you commit. A family that has no icon for one of them is the wrong family.
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
+
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Pixel grid (process)
+
+A picture or a letter built from square cells that are each on or off, or one flat colour, with no curve and no smooth edge. Origin: film & video, Bell Labs, New Jersey, c. 1963.
+
+- Draw an icon on a grid of 16 or 32 cells a side; fill each cell with one colour or leave it empty.
+- Limit the palette to 1 to 16 colours; do not blend two colours inside one cell.
+- Draw a diagonal as a stair of equal steps, for example 2 cells across for each 1 cell up.
+- Show the image at an integer scale (2x, 3x, 4x) so that no cell blurs.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #EF7D57 | #EF7D57, #38B764, #F4F4F4 | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #38B764 | #38B764, #EF7D57 | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 0px | 0–0 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.333 | 1.25–1.414 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

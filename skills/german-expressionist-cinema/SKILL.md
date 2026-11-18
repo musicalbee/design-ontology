@@ -198,6 +198,36 @@ The rules above name these shared principles by id. The definition is the same i
 | `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
 | `negative-space` | Negative space | The empty area around and between elements. It is a part of the composition, not a remainder. | empty frame area (% of image): 30–70 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Chiaroscuro (process)
+
+A hard contrast of light and dark that models form: one strong source, deep shadow and a small area of light. Origin: painting, Italy, c. 1500.
+
+- Light the subject from one hard source at 30° to 60° above and to the side; let the shadow side fall to near black.
+- Keep the light on 20% to 30% of the frame and let the rest sink into shadow.
+- Set the key light to fill light at a ratio of 8:1 or more for a dramatic mood.
+- Cut hard shapes into the light with blinds, grilles or foliage so that the shadow becomes a pattern.
+
+### Crystal facet (motif)
+
+A form broken into flat planes that meet at sharp angles, so that it reads as a crystal or a shard. Origin: painting, Horta de Ebro, La Roche-Guyon and Paris, c. 1909.
+
+- Cut each mass into flat planes; most planes meet at angles between 30° and 120°.
+- Use one plane size family: 3 to 5 sizes, with no curve.
+- Let the light break on each plane, so that adjacent planes differ in tone by one or two steps.
+
+### Long shadow (motif)
+
+A shadow far longer than its object, cast by a low sun, so that a still scene feels strange and charged. Origin: painting, Paris, 1914.
+
+- Cast the shadow at a low angle: the shadow is 2 to 5 times the height of the object.
+- Keep one light direction in the whole scene.
+- Leave the shadow flat and dark, at 40% to 70% opacity.
+- Show the shadow of something outside the frame, to hint at an unseen presence.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

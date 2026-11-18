@@ -136,6 +136,27 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Positive:** humanist sans-serif · gill sans style · open apertures · calligraphic proportions · friendly readable signage · warm modern typography · true italic · public transport lettering
 - **Negative:** geometric circles · closed apertures · serifs · condensed grotesque · decorative script
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Broad-nib pen (tool)
+
+A pen with a flat, square-cut tip held at a fixed angle, so the width of a stroke changes with its direction and the stress of the letter is diagonal. Origin: typeface, Mainz, c. 1454.
+
+- Hold the nib edge at 30–45° to the baseline and keep that angle for every stroke.
+- Make the x-height about 4 nib widths in a round book hand and about 5 in textura; a stem is one nib width wide.
+- Let the thin parts fall on the diagonal of the nib angle, so the o has its thinnest points at about 11 and 5 o'clock.
+
+### Roman capital proportions (motif)
+
+Capital letters with the proportions of Roman stone inscriptions: some letters wide and round, some narrow, and each one built for the eye, not for one measure. Origin: architecture, Rome, 113.
+
+- Draw O as a near circle, and M about as wide as the cap height.
+- Draw E, F, L and S at about half the width of O.
+- Set the stem at about one tenth of the cap height for a classical weight; for signs, increase it by up to half.
+- Cut serifs, or leave them out, but keep the width rules.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -147,7 +168,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`grotesque-sans`](../grotesque-sans/SKILL.md)
 - **Was rejected by:** [`neo-grotesque-sans`](../neo-grotesque-sans/SKILL.md)
 - **Kin in another domain:** [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
-- **Nearest by vector profile:** [`grotesque-sans`](../grotesque-sans/SKILL.md), [`neo-grotesque-sans`](../neo-grotesque-sans/SKILL.md), [`transitional-serif`](../transitional-serif/SKILL.md)
+- **Nearest by vector profile:** [`grotesque-sans`](../grotesque-sans/SKILL.md), [`neo-grotesque-sans`](../neo-grotesque-sans/SKILL.md), [`blackletter`](../blackletter/SKILL.md)
 
 ## Emotional target
 

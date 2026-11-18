@@ -236,6 +236,19 @@ Reference works:
 | Anchers Hus, Skagen | Anna and Michael Ancher | 1884 |
 | Le Cabanon, Roquebrune-Cap-Martin | Le Corbusier | 1952 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Limewash (material)
+
+A thin wash of slaked lime that dries to a soft, matt white with a faint cloud of brush marks. Origin: architecture, Levant, c. 7200 BCE.
+
+- Mix slaked lime with water to a thin milk, and apply 2 to 3 coats with a wide brush.
+- Cross the brush strokes between coats, and let each coat dry for 4 to 24 hours.
+- Keep the finish matt; the surface must take light with no sheen.
+- Use pale tints only: white, sand and chalk blue.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

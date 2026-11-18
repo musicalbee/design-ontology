@@ -118,6 +118,18 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Positive:** glossy 3D logo symbol · Web 2.0 style · aqua glass orb · top gloss highlight · vertical gradient · floor reflection · soft drop shadow · saturated blue and lime · white ground · 2000s software icon
 - **Negative:** letters · text · words · slogan · watermark · flat colour · engraving · muted palette
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Airbrush (tool)
+
+A pen-sized spray gun that lays paint in soft, even tones; with masks, it makes hard edges and smooth gradients side by side. Origin: photography, United States, 1879.
+
+- Build tone in 3 to 6 thin passes; each pass adds 20% to 40% of the final density.
+- Cut a hard mask for each edge that must stay sharp; leave the light soft.
+- Put one specular highlight of pure white on each chrome form.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

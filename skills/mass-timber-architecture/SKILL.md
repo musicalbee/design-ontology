@@ -175,6 +175,19 @@ Reference works:
 | Mjøstårnet, Brumunddal | Voll Arkitekter | 2019 |
 | HoHo Wien | RLP Rüdiger Lainer + Partner | 2020 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Laminated timber (material)
+
+Thin boards or veneers glued in layers, so that wood forms long spans, bent shapes and large panels. Origin: architecture, Weimar, 1906.
+
+- Glue boards of 20 to 45mm for glulam; set the grain of all layers in one direction.
+- Cross the layers at 90° for a panel (CLT); use 3, 5 or 7 layers.
+- Bend veneers of 1 to 3mm in a mould for furniture; glue 5 to 9 layers.
+- Leave the layered edge in view as a line pattern.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

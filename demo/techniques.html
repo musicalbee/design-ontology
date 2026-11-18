@@ -11,6 +11,7 @@
     /* Hive light tokens, as in graph.html and people.html. One colour for each domain; each mark also carries a letter. */
     --paper: #fff; --ink: #1F1F45; --muted: #50527A; --line: #DEE3F2; --band: #EFF2FB; --accent: #264FCC; --accent-bg: #E8F2FF;
     --d-design: #264FCC; --d-architecture: #B4532A; --d-interior: #1F7A5C; --d-photography: #7A4FBF; --d-film: #B8306E; --d-painting: #8A7314;
+    --d-logo: #2F6F8F; --d-icon: #C2410C; --d-typeface: #3F3F46; --d-other: #6B7280;
   }
   html, body { margin: 0; }
   body { font: 15px/1.5 system-ui, sans-serif; background: var(--paper); color: var(--ink); }
@@ -106,12 +107,16 @@
   </div>
 </main>
 <script>
-const PAGES = { design: "index.html", architecture: "architecture.html", interior: "interior.html", photography: "photography.html", film: "film.html", painting: "painting.html" };
-const LETTER = { design: "D", architecture: "A", interior: "I", photography: "Ph", film: "F", painting: "P" };
+// A domain with no entry here uses <id>.html, a letter from its name and the grey "other" colour, so a new domain never shows "undefined".
+const PAGES = { design: "index.html" };
+const page = (d) => PAGES[d] ?? `${d}.html`;
+const LETTER = { design: "D", architecture: "A", interior: "I", photography: "Ph", film: "F", painting: "P", logo: "L", icon: "Ic", typeface: "T" };
+const letter = (d) => LETTER[d] ?? d.slice(0, 2).replace(/^./, (c) => c.toUpperCase());
+const KNOWN = new Set(["design", "architecture", "interior", "photography", "film", "painting", "logo", "icon", "typeface"]);
 const KIND = { montage: "Montage", animation: "Animation", motif: "Motif", material: "Material", process: "Process", tool: "Tool" };
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 const $ = (id) => document.getElementById(id);
-const col = (d) => `var(--d-${d})`;
+const col = (d) => `var(--d-${KNOWN.has(d) ? d : "other"})`;
 const yl = (y, c) => `${c ? "c. " : ""}${y < 0 ? `${-y} BCE` : y}`;
 
 // Three linear scales. Most adoptions fall after 1840, so that part is wide; the classical origins (Doric flutes,
@@ -131,7 +136,8 @@ const steps = (t) => [{ ...t.origin, origin: true, lag_years: 0 }, ...t.adoption
 const inCell = (t) => !cellFilter || t.adoptions.some((a) => t.origin.domain === cellFilter[0] && a.domain === cellFilter[1]);
 
 function flowTable() {
-  const ds = domains.map((d) => d.id);
+  // A column only for a domain that takes up at least one technique, so the table stays narrow as domains grow.
+  const ds = domains.map((d) => d.id).filter((d) => T.some((t) => t.adoptions.some((a) => a.domain === d)));
   const cells = {};
   for (const t of T) for (const a of t.adoptions) (cells[`${t.origin.domain}|${a.domain}`] ??= []).push(a.lag_years);
   const med = (v) => { const s = [...v].sort((a, b) => a - b), m = s.length >> 1; return s.length % 2 ? s[m] : Math.round((s[m - 1] + s[m]) / 2); };
@@ -183,7 +189,7 @@ function draw() {
         if (lag > 0 && x(b.year) - x(st[i - 1].year) > 18) r += `<text class="lag" x="${(x(a.year) + x(b.year)) / 2}" y="${y - 7}" text-anchor="middle">+${lag}</text>`;
       }
       for (const s of st) {
-        const L = LETTER[s.domain] ?? "?", rad = L.length > 1 ? 8 : 7;
+        const L = letter(s.domain), rad = L.length > 1 ? 8 : 7;
         r += `<g class="step${s.origin ? " origin" : ""}${s.circa ? " circa" : ""}"><circle cx="${x(s.year)}" cy="${y}" r="${rad}" fill="${col(s.domain)}"><title>${yl(s.year, s.circa)} · ${esc(domains.find((d) => d.id === s.domain)?.name)}${s.origin ? " (origin)" : ` · +${s.lag_years} years`}</title></circle>` +
           `<text class="l" x="${x(s.year)}" y="${y + 3}" text-anchor="middle">${L}</text></g>`;
       }
@@ -232,7 +238,7 @@ function panel(id) {
       (s.origin ? "" : ` <span class="lagt">+${s.lag_years} yrs</span>`) +
       (d ? `<br>${esc(s.origin ? `${d.origin.where}: ${d.origin.note}` : d.adoptions[i - 1]?.via ?? "")}` : "") +
       (s.styles?.length ? `<br><span class="lagt">${s.styles.map(styleLink).join(", ")}</span>` : "") + `</span></li>`).join("") + `</ol>`;
-  const used = `<h3>Used by</h3><ul>${t.styles.map((s) => `<li>${styleLink(s)} <span class="lagt">${dn(byStyle[s]?.domain)}</span> · <a href="${PAGES[byStyle[s]?.domain] ?? "index.html"}#${esc(s)}">demo</a></li>`).join("")}</ul>`;
+  const used = `<h3>Used by</h3><ul>${t.styles.map((s) => `<li>${styleLink(s)} <span class="lagt">${dn(byStyle[s]?.domain)}</span> · <a href="${page(byStyle[s]?.domain)}#${esc(s)}">demo</a></li>`).join("")}</ul>`;
   $("panel").innerHTML = head + `<div id="detail"></div><div id="route">${route()}</div>` + used + `<div id="extra"></div>`;
   (cache[id] ??= fetch(`../data/techniques/${id}.json`).then((r) => r.json())).then((d) => {
     if (selected !== id) return;
@@ -254,7 +260,7 @@ fetch("../graph/lineage.json").then((r) => r.json()).then((g) => {
   byStyle = Object.fromEntries(g.nodes.map((n) => [n.id, n]));
   $("kinds").innerHTML = [["all", "All"], ...Object.entries(KIND).filter(([k]) => T.some((t) => t.kind === k))]
     .map(([id, name]) => `<label><input type="radio" name="kind" value="${esc(id)}"${id === "all" ? " checked" : ""}>${esc(name)}</label>`).join(" ");
-  $("key").innerHTML = domains.map((d) => `<span><i style="background:${col(d.id)}">${LETTER[d.id]}</i>${esc(d.name)}</span>`).join("");
+  $("key").innerHTML = domains.map((d) => `<span><i style="background:${col(d.id)}">${letter(d.id)}</i>${esc(d.name)}</span>`).join("");
   flowTable();
   draw();
   focus(location.hash.slice(1) || null);

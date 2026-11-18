@@ -134,6 +134,18 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Positive:** transitional serif · baskerville style · vertical stress · crisp bracketed serifs · ball terminals · eighteenth-century printing · wove paper · balanced classical page
 - **Negative:** sans-serif · slab serif · extreme hairlines · rounded geometric letters · grunge texture
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Line engraving (process)
+
+Lines cut into a metal plate with a burin; thin hairlines and swelling strokes give tone, and the print keeps a sharp, even edge. Origin: painting, Upper Rhine, c. 1430.
+
+- Cut a hairline of 0.1 to 0.2mm for light areas; swell the line to 0.5mm or more for dark areas.
+- Build shade with parallel lines or cross hatching, and keep the lines at 30° to 45° to each other.
+- Print on smooth paper so the hairlines stay clean.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -143,6 +155,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`garalde-old-style`](../garalde-old-style/SKILL.md)
 - **Led to (go here for a newer version):** [`didone-serif`](../didone-serif/SKILL.md)
+- **Mixes well with:** [`formal-script`](../formal-script/SKILL.md)
 - **Kin in another domain:** [`georgian-interior`](../georgian-interior/SKILL.md), [`neoclassical-architecture`](../neoclassical-architecture/SKILL.md)
 - **Nearest by vector profile:** [`garalde-old-style`](../garalde-old-style/SKILL.md), [`didone-serif`](../didone-serif/SKILL.md), [`grotesque-sans`](../grotesque-sans/SKILL.md)
 

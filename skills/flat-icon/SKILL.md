@@ -131,6 +131,19 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Positive:** flat design icon · flat colour shapes · no gradients · circle background · long shadow · simple geometric shapes · bright flat palette · vector app icon
 - **Negative:** gradients · glossy highlights · soft drop shadows · realistic texture · perspective
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Silhouette (motif)
+
+A form shown as one solid shape with no inner line, read only from its outer edge. Origin: painting, Corinth, c. 700 BCE.
+
+- Fill the shape with one colour on a plain ground.
+- Choose the most typical side view, so that the edge alone names the object.
+- Cut inner detail as gaps of at least 1/16 of the shape width, not as lines.
+- Keep the contrast between shape and ground high.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

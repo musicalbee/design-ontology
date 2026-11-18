@@ -164,6 +164,19 @@ The rules above name these shared principles by id. The definition is the same i
 | `negative-space` | Negative space | The empty area around and between elements. It is a part of the composition, not a remainder. | empty frame area (% of image): 30–70 |
 | `hierarchy` | Hierarchy | The elements of a composition rank by importance through size, position, contrast or isolation. The viewer reads them in that order. | levels of rank (count): 2 to 3; size ratio between adjacent levels (ratio): 1.5:1 or more |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Soak-stain (process)
+
+Thin paint is poured on raw, unprimed canvas that lies on the floor; the cloth drinks the colour and the colour and the weave become one. Origin: painting, New York, 1952.
+
+- Thin oil with turpentine, or acrylic with water, until it flows like ink.
+- Lay the canvas flat and unprimed on the floor; pour in pools and guide the paint with a sponge or a tilt of the cloth.
+- Leave 30% to 60% of the cloth bare so that the raw colour is part of the picture.
+- Work at a size of 2 metres or more so that the field is wider than the viewer's sight.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

@@ -201,12 +201,27 @@ The rules above name these shared principles by id. The definition is the same i
 
 These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
 
+### Handheld camera (tool)
+
+A camera that the operator carries on the body, with no tripod or dolly; the shake of the body shows in the frame. Origin: film & video, Paris, c. 1960.
+
+- Use a light camera and a wide lens of 18mm to 35mm so that the shake stays small in the frame.
+- Follow the action at the pace of a walking person and let the frame move 2% to 5% off the subject.
+- Do not stabilise in post; accept a late refocus and a missed frame as part of the take.
+- Shoot long takes of 30 seconds or more, so that the camera seems to live in the room.
+
 ### Jump cut (montage)
 
 A cut inside one continuous shot that removes time and leaves the jump in view. Origin: film & video, Paris, 1960.
 
 - Remove 0.3 to 2 seconds inside one shot and keep the framing within 10% of the frame width, so that the jump shows.
 - In a talk to camera, cut on the word and not on the action: one cut every 2 to 4 seconds.
+
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Cahiers du cinéma** (magazine, Paris, 1951–now), published the style. A film magazine whose young critics argued for the director as author. Several of them went on to make the first films of the French New Wave.
 
 ## Lineage fallbacks
 

@@ -162,6 +162,11 @@ Set `data-style="vaporwave"` on the root element and paste the tokens. The file 
   --space-unit: 8px;
   --ease: cubic-bezier(0.4, 0, 0.2, 1);
   --duration: 400ms;
+  --type-ratio: 1.5;
+  --size-small: 10.67px;
+  --size-h3: 36px;
+  --size-h2: 54px;
+  --size-h1: 81px;
   --color-on-bg: #F5EEFF;
   --color-on-surface: #F5EEFF;
   --color-on-primary: #2A1B5C;
@@ -218,7 +223,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 700, subhead 400, body 400, bold in text 700, labels and buttons 400. The style uses 2 weights (400, 700) and no other. The display is 300 heavier than the body. The accent is colour: one coloured word or field is the accent, so the weights stay quiet.
 - **Body type:** 16px, leading 1.6.
 - **Page:** hero stacked, center aligned, regular density, accent tilt 0°.
-- **Ground:** horizon. Vaporwave stands on a grid floor that runs to a striped sunset on the horizon. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** horizon. Vaporwave stands on a grid floor that runs to a striped sunset on the horizon. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack
@@ -238,12 +243,33 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 
 These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
 
+### Glitch (process)
+
+A fault in a signal, kept as an image: torn lines, split colour channels and repeated frames. Origin: film & video, Wuppertal, 1963.
+
+- Shift the red and blue channels by 2 to 8px in opposite directions.
+- Cut bands of 4 to 40px and move them sideways by 10 to 60px.
+- Run the effect in bursts of 2 to 6 frames at 24 fps, and leave the image clean between bursts.
+- Do not apply it to body text.
+
 ### Perspective grid (process)
 
 Lines that run to one vanishing point on a horizon, so that a flat surface reads as a floor in deep space. Origin: painting, Florence, c. 1415.
 
 - Put the horizon at 50% to 65% of the height and draw 12 to 24 lines to one vanishing point.
 - Space the cross lines so that each gap is about 0.8 of the gap in front of it.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #FF71CE | #FF71CE, #01CDFE, #F5EEFF | --color-primary, --color-on-primary, --color-link-on-surface |
+| Accent colour (`accent_colour`) | #01CDFE | #01CDFE, #FF71CE | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 0px | 0–0 px | --border-radius |
+| Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
+| Type scale ratio (`type_scale_ratio`) | 1.5 | 1.414–1.618 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
 ## Lineage fallbacks
 

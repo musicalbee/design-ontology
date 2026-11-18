@@ -23,6 +23,11 @@
   --gradient-sky: linear-gradient(180deg, #7CC8F2 0%, #BFE8F7 55%, #5DBB3F 100%);
   --gradient-glass-button: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0) 51%), linear-gradient(180deg, #4FD0EA, #2BB7D8);
   --glow-aqua: 0 0 6px rgba(43, 183, 216, 0.8);
+  --type-ratio: 1.25;
+  --size-small: 13.6px;
+  --size-h3: 26.56px;
+  --size-h2: 33.2px;
+  --size-h1: 41.5px;
   --color-on-bg: #1F3A4D;
   --color-on-surface: #1F3A4D;
   --color-on-primary: #1F3A4D;
@@ -94,6 +99,12 @@
 [data-style="frutiger-aero"] :where(.ground) {
   background: var(--ground, var(--color-bg));
   color: var(--color-on-bg);
+}
+[data-style="frutiger-aero"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
 }
 [data-style="frutiger-aero"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

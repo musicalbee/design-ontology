@@ -170,6 +170,12 @@ Reference works:
 | Törten Estate, Dessau | Walter Gropius | 1928 |
 | ADGB Trade Union School, Bernau | Hannes Meyer and Hans Wittwer | 1930 |
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Bauhaus** (school, Weimar, Dessau, Berlin, 1919–1933), taught the style. A school of art, craft and design that joined the workshop to the studio. Its teachers and students set the forms of modern design, interiors and building.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

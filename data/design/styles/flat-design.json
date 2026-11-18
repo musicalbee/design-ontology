@@ -307,6 +307,13 @@
       }
     ]
   },
+  "permutations": {
+    "base_colour": {"options": ["#1ABC9C", "#E74C3C", "#2C3E50"]},
+    "accent_colour": {"options": ["#E74C3C", "#1ABC9C"]},
+    "corner_radius": {"min": 2, "max": 6},
+    "grid_step": {"min": 4, "max": 12},
+    "type_scale_ratio": {"default": 1.25, "min": 1.2, "max": 1.333}
+  },
   "sources": [
     {
       "title": "Apple, iOS Human Interface Guidelines for iOS 7 (Apple Inc., 2013)"

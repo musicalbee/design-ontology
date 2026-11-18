@@ -164,6 +164,19 @@ The rules above name these shared principles by id. The definition is the same i
 | `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repeated interval (cm or px): style module; repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive |
 | `rule-of-thirds` | Rule of thirds | Two horizontal and two vertical lines divide the view into nine equal parts. The focal point sits on one of the four crossings, and a horizon sits on one of the two horizontal lines. | focal point position (fraction of width and height): 0.33 or 0.67, tolerance 0.05; horizon position (fraction of height): 0.33 or 0.67 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Woodcut (process)
+
+A print from a block of wood with the white parts cut away; the result is flat colour, hard edges and visible grain. Origin: graphic & ui design, Dunhuang, 868.
+
+- Cut the block along the grain with a knife and a gouge; leave a line of 1mm to 3mm for the black.
+- Use one block for each colour and register them within 1 mm.
+- Print with a flat, opaque ink and leave the grain and the knife marks visible.
+- Keep the shapes flat, with no more than 3 to 6 tones in a print.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

@@ -22,6 +22,11 @@
   --duration: 120ms;
   --shadow-large: 8px 8px 0 0 #000000;
   --accent-blue: #4D7CFF;
+  --type-ratio: 1.5;
+  --size-small: 11.33px;
+  --size-h3: 38.25px;
+  --size-h2: 57.38px;
+  --size-h1: 86.06px;
   --color-on-bg: #000000;
   --color-on-surface: #000000;
   --color-on-primary: #000000;
@@ -91,6 +96,12 @@
 [data-style="neo-brutalism-ui"] :where(.ground) {
   background: var(--ground, var(--color-bg));
   color: var(--color-on-bg);
+}
+[data-style="neo-brutalism-ui"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
 }
 [data-style="neo-brutalism-ui"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);

@@ -131,6 +131,17 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Positive:** isometric icon · 30 degree isometric grid · three visible faces · flat colour faces · three tones of one hue · 2.5D pictogram · clean vector illustration · no vanishing point
 - **Negative:** vanishing point perspective · photorealistic texture · front view only · soft gradients · hand-drawn lines
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Isometric projection (process)
+
+A drawing with three axes at equal angles and one scale, with no vanishing point, so that sizes can be measured. Origin: architecture, Cambridge, 1822.
+
+- Draw the three axes at 120° to each other; on a pixel grid, use a 2:1 slope (26.57°).
+- Keep one scale on all three axes and draw no vanishing point.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

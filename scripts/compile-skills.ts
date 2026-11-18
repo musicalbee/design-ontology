@@ -6,14 +6,16 @@
 import Handlebars from "handlebars";
 import { existsSync, readFileSync, readdirSync, rmSync } from "node:fs";
 import { join } from "node:path";
-import { ROOT, loadAll, loadPrinciples, loadTechniques, principleRefs, readJson, write, yearLabel, type Domain, type Style, type Technique } from "./lib.js";
-import { groundCss, type GroundKind } from "./ground.js";
-import { ICON_NAMES, derivedTokens, heroSvg, iconSprite, patternSvg, typeTokens, type IconPack, type Visual } from "./pack.js";
+import { ROOT, loadAll, loadMedia, loadPrinciples, loadTechniques, principleRefs, readJson, write, yearLabel, type Domain, type Style, type Technique } from "./lib.js";
+import { ICON_NAMES, heroSvg, iconSprite, patternSvg, type IconPack, type Visual } from "./pack.js";
+import { cssTokens as knobTokens } from "./permute.js";
 
 const { domains, eras, styles } = loadAll();
 const byId = new Map(styles.map((s) => [s.id, s]));
 const principles = new Map(loadPrinciples().map((p) => [p.principle.id, p.principle]));
 const techniques: Technique[] = loadTechniques().map((t) => t.technique);
+const media = loadMedia().map((m) => m.medium);
+const years = (a: number | null, b: number | null) => `${a ?? "?"}–${b ?? "now"}`;
 const domainName = (id: string) => domains.find((d) => d.id === id)?.name ?? id;
 const lagLabel = (t: Technique, year: number) => `+${year - t.origin.year} years`;
 
@@ -90,12 +92,7 @@ const warnOnce = (id: string) => (m: string) => {
   console.warn(`warn  ${id}: ${m}`);
 };
 
-function cssTokens(style: Style): [string, string][] {
-  const css = style.tokens!.css;
-  const v = visualOf(style);
-  const ground = v?.ground ? { "--ground": groundCss(v.ground.kind as GroundKind, css) } : {};
-  return Object.entries({ ...css, ...derivedTokens(css, warnOnce(style.id)), ...(v ? typeTokens(v) : {}), ...ground });
-}
+const cssTokens = (style: Style): [string, string][] => knobTokens(style, undefined, warnOnce(style.id));
 const iconPacks = new Map<string, IconPack>();
 function iconPack(style: Style): IconPack {
   const id = visualOf(style)!.icon.pack.id;
@@ -218,7 +215,22 @@ function view(style: Style, domain: Domain) {
         summary: t.summary,
         origin: `${domainName(t.origin.domain).toLowerCase()}, ${t.origin.where}, ${yearLabel(t.origin.year, t.origin.circa)}`,
         how: t.how,
+        invented: (t.origin.styles ?? []).includes(style.id),
       })),
+    media: media
+      .filter((m) => m.styles.some((x) => x.style === style.id))
+      .map((m) => ({ name: m.name, kind: m.kind.replace("-", " "), place: m.place, years: years(m.founded, m.closed), part: m.styles.find((x) => x.style === style.id)!.part, summary: m.summary })),
+    knobs: (() => {
+      const r = style.permutations;
+      if (!r) return null;
+      const domain = domains.find((d) => d.id === style.domain)!;
+      return domain.knobs.filter((k) => r[k.key]).map((k) => {
+        const x = r[k.key];
+        const def = k.token ? style.tokens?.css[k.token] : x.default;
+        const range = x.options ? x.options.join(", ") : `${x.min}–${x.max}${k.unit ? ` ${k.unit}` : ""}`;
+        return { key: k.key, label: k.label, default: def, range, drives: k.drives.join(", ") };
+      });
+    })(),
     modifiers: style.agent.modifiers.map((m) => ({ ...m, toward_name: byId.get(m.toward)!.name })),
     relations: [
       ...relation("Came from (go here for a more orthodox version)", adj.evolved_from),
@@ -300,6 +312,12 @@ ${sel} :where(.ground) {
   background: var(--ground, var(--color-bg));
   color: var(--color-on-bg);
 }
+${sel} :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
 ${sel} :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
   background: var(--color-primary);
@@ -350,7 +368,7 @@ for (const style of styles) {
 }
 
 // ── technique catalogue ─────────────────────────────────────────────────────
-const KINDS: Technique["kind"][] = ["montage", "animation", "motif", "material", "process", "tool"];
+const KINDS: Technique["kind"][] = ["montage", "animation", "motif", "material", "process", "tool", "skill", "technology"];
 const cat: string[] = [
   "# Technique catalogue",
   "",
@@ -437,6 +455,8 @@ write(
         archetypes: s.emotion.brand_archetypes,
         vectors: s.vectors,
         techniques: techniques.filter((t) => t.styles.includes(s.id)).map((t) => t.id),
+        media: media.filter((m) => m.styles.some((x) => x.style === s.id)).map((m) => m.id),
+        permutations: s.permutations ?? null,
       })),
       techniques: techniques.map((t) => ({
         id: t.id,

@@ -18,5 +18,14 @@
     { "key": "colour", "title": "Colour" },
     { "key": "reproduction", "title": "Reproduction" },
     { "key": "prompt_primer", "title": "Prompt primer" }
+  ],
+  "assets": [
+    {"type": "mark-set", "purpose": "A mark for a fictional company in the construction and the colours of the style.", "made_by": "model", "file": "demo/previews/logo/{id}.webp", "manifest": "demo/previews/logo/manifest.json", "entry": "images.{id}", "generator": "scripts/render-previews.ts", "canvas": [{"width": 1152, "height": 768}]}
+  ],
+  "knobs": [
+    {"key": "base_colour", "label": "Base colour", "kind": "colour", "description": "The main ink of the mark.", "drives": ["colour"]},
+    {"key": "colour_count", "label": "Colour count", "kind": "integer", "min": 1, "max": 6, "description": "The number of flat inks in the mark.", "drives": ["colour", "reproduction"]},
+    {"key": "stroke_weight", "label": "Stroke weight", "kind": "number", "unit": "% of mark height", "min": 1, "max": 20, "description": "The weight of the main stroke.", "drives": ["form"]},
+    {"key": "container", "label": "Container", "kind": "enum", "options": ["none", "circle", "square", "shield", "badge"], "description": "The shape that holds the mark.", "drives": ["construction"]}
   ]
 }

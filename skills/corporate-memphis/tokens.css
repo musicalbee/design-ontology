@@ -25,6 +25,11 @@
   --radius-pill: 999px;
   --grid-columns: 12;
   --grid-gutter: 24px;
+  --type-ratio: 1.25;
+  --size-small: 13.6px;
+  --size-h3: 26.56px;
+  --size-h2: 33.2px;
+  --size-h1: 41.5px;
   --color-on-bg: #1F2A5C;
   --color-on-surface: #1F2A5C;
   --color-on-primary: #000000;
@@ -97,6 +102,12 @@
 [data-style="corporate-memphis"] :where(.ground) {
   background: var(--ground, var(--color-bg));
   color: var(--color-on-bg);
+}
+[data-style="corporate-memphis"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
 }
 [data-style="corporate-memphis"] :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
