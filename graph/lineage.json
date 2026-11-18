@@ -76,6 +76,21 @@
   ],
   "nodes": [
     {
+      "id": "victorian-web",
+      "domain": "design",
+      "name": "Victorian Web",
+      "era": "fin-de-siecle",
+      "start": 1880,
+      "end": null,
+      "vectors": {
+        "ornamentation": 3,
+        "dimensionality": 5,
+        "grid_rigidity": 2,
+        "skeuomorphic_realism": 5,
+        "typographic_expressiveness": 5
+      }
+    },
+    {
       "id": "art-nouveau-web",
       "domain": "design",
       "name": "Art Nouveau (web)",
@@ -361,6 +376,36 @@
       }
     },
     {
+      "id": "pixel-art-web",
+      "domain": "design",
+      "name": "Pixel Art Web",
+      "era": "touchscreen",
+      "start": 2010,
+      "end": null,
+      "vectors": {
+        "ornamentation": 4,
+        "dimensionality": 1,
+        "grid_rigidity": 4,
+        "skeuomorphic_realism": 2,
+        "typographic_expressiveness": 3
+      }
+    },
+    {
+      "id": "bohemian-web",
+      "domain": "design",
+      "name": "Bohemian Web",
+      "era": "touchscreen",
+      "start": 2012,
+      "end": null,
+      "vectors": {
+        "ornamentation": 2,
+        "dimensionality": 3,
+        "grid_rigidity": 4,
+        "skeuomorphic_realism": 5,
+        "typographic_expressiveness": 4
+      }
+    },
+    {
       "id": "flat-design",
       "domain": "design",
       "name": "Flat Design",
@@ -391,6 +436,21 @@
       }
     },
     {
+      "id": "synthwave-web",
+      "domain": "design",
+      "name": "Synthwave Web",
+      "era": "touchscreen",
+      "start": 2013,
+      "end": null,
+      "vectors": {
+        "ornamentation": 4,
+        "dimensionality": 2,
+        "grid_rigidity": 4,
+        "skeuomorphic_realism": 3,
+        "typographic_expressiveness": 5
+      }
+    },
+    {
       "id": "brutalist-web",
       "domain": "design",
       "name": "Brutalist Web (2014)",
@@ -418,6 +478,36 @@
         "grid_rigidity": 4,
         "skeuomorphic_realism": 2,
         "typographic_expressiveness": 2
+      }
+    },
+    {
+      "id": "conceptual-sketch-ui",
+      "domain": "design",
+      "name": "Conceptual Sketch UI",
+      "era": "touchscreen",
+      "start": 2015,
+      "end": null,
+      "vectors": {
+        "ornamentation": 3,
+        "dimensionality": 3,
+        "grid_rigidity": 3,
+        "skeuomorphic_realism": 3,
+        "typographic_expressiveness": 5
+      }
+    },
+    {
+      "id": "wabi-sabi-web",
+      "domain": "design",
+      "name": "Wabi-Sabi Web",
+      "era": "touchscreen",
+      "start": 2015,
+      "end": null,
+      "vectors": {
+        "ornamentation": 1,
+        "dimensionality": 4,
+        "grid_rigidity": 3,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 1
       }
     },
     {
@@ -496,6 +586,21 @@
       }
     },
     {
+      "id": "scrapbook-ui",
+      "domain": "design",
+      "name": "Scrapbook UI",
+      "era": "touchscreen",
+      "start": 2018,
+      "end": null,
+      "vectors": {
+        "ornamentation": 2,
+        "dimensionality": 3,
+        "grid_rigidity": 5,
+        "skeuomorphic_realism": 5,
+        "typographic_expressiveness": 5
+      }
+    },
+    {
       "id": "neumorphism",
       "domain": "design",
       "name": "Neumorphism",
@@ -508,6 +613,21 @@
         "grid_rigidity": 3,
         "skeuomorphic_realism": 3,
         "typographic_expressiveness": 1
+      }
+    },
+    {
+      "id": "cybercore-web",
+      "domain": "design",
+      "name": "Cybercore Web",
+      "era": "contemporary-spatial",
+      "start": 2020,
+      "end": null,
+      "vectors": {
+        "ornamentation": 4,
+        "dimensionality": 2,
+        "grid_rigidity": 4,
+        "skeuomorphic_realism": 2,
+        "typographic_expressiveness": 4
       }
     },
     {
@@ -568,6 +688,21 @@
         "grid_rigidity": 3,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 4
+      }
+    },
+    {
+      "id": "ethereal-web",
+      "domain": "design",
+      "name": "Ethereal Web",
+      "era": "contemporary-spatial",
+      "start": 2021,
+      "end": null,
+      "vectors": {
+        "ornamentation": 2,
+        "dimensionality": 4,
+        "grid_rigidity": 3,
+        "skeuomorphic_realism": 2,
+        "typographic_expressiveness": 1
       }
     },
     {
@@ -2278,6 +2413,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "japandi-interior",
+      "to": "wabi-sabi-web",
+      "type": "ECHOES"
+    },
+    {
       "from": "memphis-design",
       "to": "memphis-interior",
       "type": "ECHOES"
@@ -2473,6 +2613,16 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "bohemian-web",
+      "to": "art-nouveau-web",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "bohemian-web",
+      "to": "psychedelic",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "brutalist-architecture",
       "to": "international-style-architecture",
       "type": "EVOLVED_FROM"
@@ -2500,6 +2650,16 @@
     {
       "from": "corporate-memphis",
       "to": "memphis-design",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "cybercore-web",
+      "to": "dark-devtool-ui",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "cybercore-web",
+      "to": "y2k-aesthetic",
       "type": "EVOLVED_FROM"
     },
     {
@@ -2540,6 +2700,16 @@
     {
       "from": "editorial-serif-revival",
       "to": "swiss-international",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "ethereal-web",
+      "to": "aurora-gradient-ui",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "ethereal-web",
+      "to": "glassmorphism",
       "type": "EVOLVED_FROM"
     },
     {
@@ -2748,6 +2918,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "pixel-art-web",
+      "to": "y2k-aesthetic",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "pointillism",
       "to": "impressionism",
       "type": "EVOLVED_FROM"
@@ -2788,6 +2963,16 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "scrapbook-ui",
+      "to": "corporate-memphis",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "scrapbook-ui",
+      "to": "punk-zine",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "slow-cinema",
       "to": "italian-neorealism",
       "type": "EVOLVED_FROM"
@@ -2808,6 +2993,16 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "synthwave-web",
+      "to": "vaporwave",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "synthwave-web",
+      "to": "y2k-aesthetic",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "vaporwave",
       "to": "y2k-aesthetic",
       "type": "EVOLVED_FROM"
@@ -2820,6 +3015,11 @@
     {
       "from": "victorian-interior",
       "to": "georgian-interior",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "wabi-sabi-web",
+      "to": "swiss-international",
       "type": "EVOLVED_FROM"
     },
     {
@@ -2878,6 +3078,11 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "art-nouveau-web",
+      "to": "victorian-web",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "aurora-gradient-ui",
       "to": "bento-grid-ui",
       "type": "HYBRIDIZED_WITH"
@@ -2928,6 +3133,11 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "bohemian-web",
+      "to": "scrapbook-ui",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "brutalist-web",
       "to": "neo-brutalism-ui",
       "type": "HYBRIDIZED_WITH"
@@ -2963,6 +3173,21 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "claymorphism",
+      "to": "scrapbook-ui",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "conceptual-sketch-ui",
+      "to": "scrapbook-ui",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "conceptual-sketch-ui",
+      "to": "swiss-international",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "constructivism-web",
       "to": "de-stijl-web",
       "type": "HYBRIDIZED_WITH"
@@ -2975,6 +3200,21 @@
     {
       "from": "creator-vlog",
       "to": "vertical-short-form",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "cybercore-web",
+      "to": "synthwave-web",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "cybercore-web",
+      "to": "terminal-tui-web",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "cybercore-web",
+      "to": "vaporwave",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -3005,6 +3245,16 @@
     {
       "from": "duesseldorf-school",
       "to": "new-colour",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "ethereal-web",
+      "to": "frutiger-aero",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "ethereal-web",
+      "to": "liquid-glass-ui",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -3073,6 +3323,11 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "grunge-editorial",
+      "to": "scrapbook-ui",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "impressionism",
       "to": "nordic-national-romanticism-painting",
       "type": "HYBRIDIZED_WITH"
@@ -3128,8 +3383,23 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "pixel-art-web",
+      "to": "terminal-tui-web",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "pixel-art-web",
+      "to": "vaporwave",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "pop-art-web",
       "to": "psychedelic",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "punk-zine",
+      "to": "victorian-web",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -3193,6 +3463,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "conceptual-sketch-ui",
+      "to": "flat-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "constructivism-web",
       "to": "art-nouveau-web",
       "type": "REBELLED_AGAINST"
@@ -3205,6 +3480,11 @@
     {
       "from": "cubism-painting",
       "to": "renaissance-painting",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "cybercore-web",
+      "to": "flat-design",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -3250,6 +3530,11 @@
     {
       "from": "editorial-serif-revival",
       "to": "flat-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "ethereal-web",
+      "to": "brutalist-web",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -3433,6 +3718,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "scrapbook-ui",
+      "to": "flat-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "slow-cinema",
       "to": "classical-hollywood",
       "type": "REBELLED_AGAINST"
@@ -3443,8 +3733,18 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "synthwave-web",
+      "to": "flat-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "terminal-tui-web",
       "to": "material-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "wabi-sabi-web",
+      "to": "flat-design",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -3454,9 +3754,36 @@
     }
   ],
   "adjacency": {
-    "art-nouveau-web": {
+    "victorian-web": {
       "evolved_from": [],
       "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "art-nouveau-web",
+        "punk-zine"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "skeuomorphism",
+          "distance": 2.65
+        },
+        {
+          "id": "claymorphism",
+          "distance": 3
+        },
+        {
+          "id": "conceptual-sketch-ui",
+          "distance": 3
+        }
+      ]
+    },
+    "art-nouveau-web": {
+      "evolved_from": [],
+      "evolved_into": [
+        "bohemian-web"
+      ],
       "rebelled_against": [],
       "provoked": [
         "art-deco-web",
@@ -3464,7 +3791,8 @@
         "de-stijl-web"
       ],
       "hybridized_with": [
-        "art-deco-web"
+        "art-deco-web",
+        "victorian-web"
       ],
       "echoes": [
         "art-nouveau-architecture",
@@ -3602,16 +3930,16 @@
       ],
       "nearest_by_vector": [
         {
-          "id": "japanese-dense-web",
-          "distance": 2
+          "id": "cybercore-web",
+          "distance": 1
         },
         {
-          "id": "bento-grid-ui",
-          "distance": 2.24
+          "id": "pixel-art-web",
+          "distance": 1.73
         },
         {
-          "id": "mid-century-modern",
-          "distance": 2.45
+          "id": "synthwave-web",
+          "distance": 1.73
         }
       ]
     },
@@ -3657,7 +3985,8 @@
         "editorial-serif-revival",
         "flat-design",
         "metro-ui",
-        "rams-functionalism-ui"
+        "rams-functionalism-ui",
+        "wabi-sabi-web"
       ],
       "rebelled_against": [],
       "provoked": [
@@ -3671,6 +4000,7 @@
       "hybridized_with": [
         "bauhaus",
         "bento-grid-ui",
+        "conceptual-sketch-ui",
         "flat-design",
         "mid-century-modern"
       ],
@@ -3755,7 +4085,9 @@
     },
     "psychedelic": {
       "evolved_from": [],
-      "evolved_into": [],
+      "evolved_into": [
+        "bohemian-web"
+      ],
       "rebelled_against": [
         "swiss-international"
       ],
@@ -3781,14 +4113,17 @@
     },
     "punk-zine": {
       "evolved_from": [],
-      "evolved_into": [],
+      "evolved_into": [
+        "scrapbook-ui"
+      ],
       "rebelled_against": [
         "mid-century-modern",
         "swiss-international"
       ],
       "provoked": [],
       "hybridized_with": [
-        "grunge-editorial"
+        "grunge-editorial",
+        "victorian-web"
       ],
       "echoes": [],
       "nearest_by_vector": [
@@ -3852,7 +4187,8 @@
       ],
       "hybridized_with": [
         "anti-design",
-        "punk-zine"
+        "punk-zine",
+        "scrapbook-ui"
       ],
       "echoes": [
         "camcorder-revival",
@@ -3880,7 +4216,10 @@
       "evolved_from": [],
       "evolved_into": [
         "apple-aqua",
+        "cybercore-web",
         "frutiger-aero",
+        "pixel-art-web",
+        "synthwave-web",
         "vaporwave"
       ],
       "rebelled_against": [
@@ -3922,16 +4261,16 @@
       "echoes": [],
       "nearest_by_vector": [
         {
+          "id": "pixel-art-web",
+          "distance": 1
+        },
+        {
           "id": "corporate-memphis",
           "distance": 1.73
         },
         {
-          "id": "art-deco-web",
-          "distance": 2
-        },
-        {
-          "id": "mid-century-modern",
-          "distance": 2
+          "id": "cybercore-web",
+          "distance": 1.73
         }
       ]
     },
@@ -3976,6 +4315,7 @@
       ],
       "hybridized_with": [
         "apple-aqua",
+        "ethereal-web",
         "skeuomorphism",
         "vaporwave"
       ],
@@ -4056,6 +4396,60 @@
         }
       ]
     },
+    "pixel-art-web": {
+      "evolved_from": [
+        "y2k-aesthetic"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "terminal-tui-web",
+        "vaporwave"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "japanese-dense-web",
+          "distance": 1
+        },
+        {
+          "id": "cybercore-web",
+          "distance": 1.41
+        },
+        {
+          "id": "art-deco-web",
+          "distance": 1.73
+        }
+      ]
+    },
+    "bohemian-web": {
+      "evolved_from": [
+        "art-nouveau-web",
+        "psychedelic"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "scrapbook-ui"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "scrapbook-ui",
+          "distance": 1.41
+        },
+        {
+          "id": "apple-aqua",
+          "distance": 2.65
+        },
+        {
+          "id": "conceptual-sketch-ui",
+          "distance": 2.65
+        }
+      ]
+    },
     "flat-design": {
       "evolved_from": [
         "swiss-international"
@@ -4076,9 +4470,14 @@
         "anti-design",
         "brutalist-web",
         "claymorphism",
+        "conceptual-sketch-ui",
+        "cybercore-web",
         "editorial-serif-revival",
         "liquid-glass-ui",
-        "neumorphism"
+        "neumorphism",
+        "scrapbook-ui",
+        "synthwave-web",
+        "wabi-sabi-web"
       ],
       "hybridized_with": [
         "metro-ui",
@@ -4108,11 +4507,15 @@
       "evolved_from": [
         "y2k-aesthetic"
       ],
-      "evolved_into": [],
+      "evolved_into": [
+        "synthwave-web"
+      ],
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [
-        "frutiger-aero"
+        "cybercore-web",
+        "frutiger-aero",
+        "pixel-art-web"
       ],
       "echoes": [
         "camcorder-revival",
@@ -4133,6 +4536,35 @@
         }
       ]
     },
+    "synthwave-web": {
+      "evolved_from": [
+        "vaporwave",
+        "y2k-aesthetic"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "flat-design"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "cybercore-web"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "cybercore-web",
+          "distance": 1.41
+        },
+        {
+          "id": "art-deco-web",
+          "distance": 1.73
+        },
+        {
+          "id": "conceptual-sketch-ui",
+          "distance": 1.73
+        }
+      ]
+    },
     "brutalist-web": {
       "evolved_from": [],
       "evolved_into": [],
@@ -4140,7 +4572,9 @@
         "flat-design",
         "material-design"
       ],
-      "provoked": [],
+      "provoked": [
+        "ethereal-web"
+      ],
       "hybridized_with": [
         "anti-design",
         "neo-brutalism-ui",
@@ -4195,6 +4629,61 @@
         }
       ]
     },
+    "conceptual-sketch-ui": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "flat-design"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "scrapbook-ui",
+        "swiss-international"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "synthwave-web",
+          "distance": 1.73
+        },
+        {
+          "id": "vaporwave",
+          "distance": 1.73
+        },
+        {
+          "id": "constructivism-web",
+          "distance": 2.24
+        }
+      ]
+    },
+    "wabi-sabi-web": {
+      "evolved_from": [
+        "swiss-international"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "flat-design"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "japandi-interior"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "ethereal-web",
+          "distance": 1.41
+        },
+        {
+          "id": "material-design",
+          "distance": 2.24
+        },
+        {
+          "id": "neumorphism",
+          "distance": 2.24
+        }
+      ]
+    },
     "anti-design": {
       "evolved_from": [],
       "evolved_into": [],
@@ -4231,7 +4720,9 @@
       "evolved_from": [
         "flat-design"
       ],
-      "evolved_into": [],
+      "evolved_into": [
+        "cybercore-web"
+      ],
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [
@@ -4262,7 +4753,9 @@
         "flat-design",
         "memphis-design"
       ],
-      "evolved_into": [],
+      "evolved_into": [
+        "scrapbook-ui"
+      ],
       "rebelled_against": [],
       "provoked": [
         "editorial-serif-revival",
@@ -4297,7 +4790,9 @@
       "provoked": [],
       "hybridized_with": [
         "brutalist-web",
-        "dark-devtool-ui"
+        "cybercore-web",
+        "dark-devtool-ui",
+        "pixel-art-web"
       ],
       "echoes": [],
       "nearest_by_vector": [
@@ -4319,7 +4814,9 @@
       "evolved_from": [
         "flat-design"
       ],
-      "evolved_into": [],
+      "evolved_into": [
+        "ethereal-web"
+      ],
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [
@@ -4340,6 +4837,38 @@
         {
           "id": "mid-century-modern",
           "distance": 1.41
+        }
+      ]
+    },
+    "scrapbook-ui": {
+      "evolved_from": [
+        "corporate-memphis",
+        "punk-zine"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "flat-design"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "bohemian-web",
+        "claymorphism",
+        "conceptual-sketch-ui",
+        "grunge-editorial"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "bohemian-web",
+          "distance": 1.41
+        },
+        {
+          "id": "conceptual-sketch-ui",
+          "distance": 3
+        },
+        {
+          "id": "synthwave-web",
+          "distance": 3.16
         }
       ]
     },
@@ -4364,12 +4893,43 @@
           "distance": 1.41
         },
         {
-          "id": "liquid-glass-ui",
+          "id": "ethereal-web",
           "distance": 1.73
         },
         {
-          "id": "material-design",
-          "distance": 2
+          "id": "liquid-glass-ui",
+          "distance": 1.73
+        }
+      ]
+    },
+    "cybercore-web": {
+      "evolved_from": [
+        "dark-devtool-ui",
+        "y2k-aesthetic"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "flat-design"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "synthwave-web",
+        "terminal-tui-web",
+        "vaporwave"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "art-deco-web",
+          "distance": 1
+        },
+        {
+          "id": "pixel-art-web",
+          "distance": 1.41
+        },
+        {
+          "id": "synthwave-web",
+          "distance": 1.41
         }
       ]
     },
@@ -4378,6 +4938,7 @@
         "frutiger-aero"
       ],
       "evolved_into": [
+        "ethereal-web",
         "liquid-glass-ui",
         "spatial-visionos"
       ],
@@ -4448,7 +5009,8 @@
       ],
       "provoked": [],
       "hybridized_with": [
-        "corporate-memphis"
+        "corporate-memphis",
+        "scrapbook-ui"
       ],
       "echoes": [],
       "nearest_by_vector": [
@@ -4491,6 +5053,36 @@
         },
         {
           "id": "constructivism-web",
+          "distance": 1.73
+        }
+      ]
+    },
+    "ethereal-web": {
+      "evolved_from": [
+        "aurora-gradient-ui",
+        "glassmorphism"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "brutalist-web"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "frutiger-aero",
+        "liquid-glass-ui"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "liquid-glass-ui",
+          "distance": 1.41
+        },
+        {
+          "id": "wabi-sabi-web",
+          "distance": 1.41
+        },
+        {
+          "id": "aurora-gradient-ui",
           "distance": 1.73
         }
       ]
@@ -4591,7 +5183,8 @@
       ],
       "provoked": [],
       "hybridized_with": [
-        "apple-aqua"
+        "apple-aqua",
+        "ethereal-web"
       ],
       "echoes": [],
       "nearest_by_vector": [
@@ -4600,11 +5193,11 @@
           "distance": 1
         },
         {
-          "id": "frutiger-aero",
+          "id": "ethereal-web",
           "distance": 1.41
         },
         {
-          "id": "spatial-visionos",
+          "id": "frutiger-aero",
           "distance": 1.41
         }
       ]
@@ -5514,7 +6107,8 @@
       "hybridized_with": [],
       "echoes": [
         "scandinavian-interior-photography",
-        "ukiyo-e"
+        "ukiyo-e",
+        "wabi-sabi-web"
       ],
       "nearest_by_vector": [
         {
