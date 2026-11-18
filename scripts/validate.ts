@@ -211,7 +211,17 @@ for (const { file, slug, person } of people) {
     errors.push(`${file}: no born year and no milestones, so the person has no place on the time line`);
 }
 const lonely = [...byId.keys()].filter((id) => !covered.has(id)).sort();
-if (!schemaOnly && lonely.length) warnings.push(`${lonely.length} styles have no person in data/people/: ${lonely.join(", ")}`);
+// Each style has at least one person. A new style comes with its person in the same pull request.
+// The only exception: data/people-gaps.json lists a style with the reason why no person is tied to it.
+const gapFile = readJson<{ styles: Record<string, string> }>(join(ROOT, "data", "people-gaps.json")).styles;
+for (const [id, reason] of Object.entries(gapFile)) {
+  if (!schemaOnly && !byId.has(id)) errors.push(`data/people-gaps.json: style "${id}" does not exist`);
+  if (covered.has(id)) errors.push(`data/people-gaps.json: style "${id}" has a person now; remove it from the list`);
+  if (reason.length < 12) errors.push(`data/people-gaps.json: style "${id}" needs a reason`);
+}
+const missing = lonely.filter((id) => !(id in gapFile));
+if (!schemaOnly && missing.length) errors.push(`${missing.length} styles have no person in data/people/ (add one, see CONTRIBUTING.md "A new person"): ${missing.join(", ")}`);
+if (!schemaOnly && lonely.length > missing.length) warnings.push(`${lonely.length - missing.length} styles have no person on purpose (data/people-gaps.json)`);
 
 for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`error ${e}`);

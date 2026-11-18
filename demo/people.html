@@ -93,9 +93,9 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "
 const $ = (id) => document.getElementById(id);
 const NOW = new Date().getFullYear();
 
-// Two linear scales: 1440–1840 is compressed (0.8 px a year), 1840–2030 is wide (5 px a year), because most
+// Two linear scales: 1080–1840 is compressed (0.8 px a year), 1840–2030 is wide (5 px a year), because most
 // people in the data live after 1840. Inside each part, a life of 80 years has one length, so lives compare directly.
-const X0 = 190, Y_MIN = 1440, BREAK = 1840, Y_MAX = 2030, PX_EARLY = 0.8, PX = 5;
+const X0 = 190, Y_MIN = 1080, BREAK = 1840, Y_MAX = 2030, PX_EARLY = 0.8, PX = 5;
 const x = (y) => { y = Math.min(Math.max(y, Y_MIN), Y_MAX); return y < BREAK ? X0 + (y - Y_MIN) * PX_EARLY : X0 + (BREAK - Y_MIN) * PX_EARLY + (y - BREAK) * PX; };
 const ROW = 22, LANE_HEAD = 26;
 let P, S, styleById, domainOf = {}, selected = null, domain = "all";
@@ -121,7 +121,7 @@ function draw() {
   svg.setAttribute("width", width);
   svg.setAttribute("height", height);
   let h = "";
-  for (const yr of [1450, 1550, 1650, 1750, 1840, 1860, 1880, 1900, 1920, 1940, 1960, 1980, 2000, 2020])
+  for (const yr of [1100, 1250, 1400, 1550, 1700, 1840, 1860, 1880, 1900, 1920, 1940, 1960, 1980, 2000, 2020])
     h += `<line class="grid${yr === BREAK ? " break" : ""}" x1="${x(yr)}" x2="${x(yr)}" y1="22" y2="${height - 4}"/><text class="tick" x="${x(yr)}" y="16" text-anchor="middle">${yr}</text>`;
   h += `<text class="tick" x="${(x(Y_MIN) + x(BREAK)) / 2}" y="${height - 1}" text-anchor="middle">compressed scale</text>`;
   let top = 30;
