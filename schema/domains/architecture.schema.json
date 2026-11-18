@@ -26,7 +26,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "items": { "enum": ["residential", "civic", "cultural", "commercial", "industrial", "religious", "landscape", "interior"] }
+      "items": { "enum": ["residential", "civic", "cultural", "commercial", "industrial", "religious", "landscape", "interior", "healthcare", "education", "infrastructure"] }
     },
     "summary": { "type": "string", "minLength": 40, "maxLength": 320 },
     "philosophy": { "$ref": "../core.schema.json#/$defs/philosophy" },
