@@ -2,7 +2,7 @@
 name: anti-design
 description: "Apply the Anti-Design style (2016–now) when generating UI or graphic layouts. Load when the user asks for: anti-design, ugly design, broken grid, chaotic layout, clashing type, experimental web."
 domain: design
-era: contemporary-spatial
+era: touchscreen
 triggers:
   - "anti-design"
   - "ugly design"
@@ -26,7 +26,7 @@ vector_profile:
 
 Broken grids, clashing type, overlap, odd colour and deliberate roughness. It answers the polish of templated product sites and asks the visitor to notice the design.
 
-**Period:** 2016–now · **Era:** Contemporary & Spatial · **Domain:** Graphic & UI Design · **Also called:** Anti-design web, Ugly design, Broken grid
+**Period:** 2016–now · **Era:** Touchscreen · **Domain:** Graphic & UI Design · **Also called:** Anti-design web, Ugly design, Broken grid
 
 ## When to load this skill
 
@@ -88,8 +88,8 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Tracking:** Display takes -0.04em to +0.1em, varied by word; body stays at 0.
 - **Leading:** Display 0.85 to 1.0; body 1.4.
 - **Hierarchy rules:**
-  - Use three weights: regular (400), bold (700) and black (900).
-  - Use at least 4 sizes with a jump of 3x: 12, 36, 120 and 200px.
+  - Use two weights: regular (400) and bold (700).
+  - Use at least 4 sizes with a jump of at least 3x between steps: 12, 36, 120 and 360px.
   - Mix upper case, lower case and italic in one headline.
   - Set at least one phrase as outline type with a 2px stroke.
 

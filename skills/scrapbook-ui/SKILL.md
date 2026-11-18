@@ -2,7 +2,7 @@
 name: scrapbook-ui
 description: "Apply the Scrapbook UI style (2018–now) when generating UI or graphic layouts. Load when the user asks for: scrapbook, collage, paper collage, tape, polaroid, journal."
 domain: design
-era: contemporary-spatial
+era: touchscreen
 triggers:
   - "scrapbook"
   - "collage"
@@ -26,7 +26,7 @@ vector_profile:
 
 Cut-out photos, tape, stickers, torn paper, handwritten notes and slight tilts on a paper ground. It makes a page feel like a handmade album and a personal object.
 
-**Period:** 2018–now · **Era:** Contemporary & Spatial · **Domain:** Graphic & UI Design · **Also called:** Collage web, Paper collage UI, Craft collage
+**Period:** 2018–now · **Era:** Touchscreen · **Domain:** Graphic & UI Design · **Also called:** Collage web, Paper collage UI, Craft collage
 
 ## When to load this skill
 
@@ -110,7 +110,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 |---|---|---|
 | Paper | `#F4ECD8` | background |
 | Ink | `#2B2A33` | text |
-| Tomato | `#E4572E` | primary |
+| Tomato | `#C8401C` | primary |
 | Mustard | `#F3B700` | accent |
 | Teal | `#2A9D8F` | accent two |
 | Kraft | `#C8A97E` | secondary surface |
@@ -145,7 +145,7 @@ Set `data-style="scrapbook-ui"` on the root element and paste the tokens. The fi
   --color-surface: #FFFFFF;
   --color-text: #2B2A33;
   --color-muted: #6B6558;
-  --color-primary: #E4572E;
+  --color-primary: #C8401C;
   --color-accent: #F3B700;
   --color-border: #C8A97E;
   --font-sans: "Nunito", system-ui, sans-serif;
@@ -159,12 +159,12 @@ Set `data-style="scrapbook-ui"` on the root element and paste the tokens. The fi
   --duration: 400ms;
   --color-on-bg: #2B2A33;
   --color-on-surface: #2B2A33;
-  --color-on-primary: #000000;
+  --color-on-primary: #FFFFFF;
   --color-on-accent: #2B2A33;
   --color-muted-on-bg: #6B6558;
   --color-muted-on-surface: #6B6558;
   --color-link: #2B2A33;
-  --color-link-on-surface: #2B2A33;
+  --color-link-on-surface: #C8401C;
   --display-weight: 700;
   --subhead-weight: 700;
   --body-weight: 400;
@@ -187,7 +187,7 @@ Tailwind patterns:
 | heading | `font-bold text-5xl md:text-7xl leading-[1.1] -rotate-2` |
 | body | `text-base leading-[1.55]` |
 | section | `bg-white p-3 pb-10 shadow-[0_4px_8px_rgba(0,0,0,0.18)] rotate-2` |
-| button | `rounded-sm bg-[#E4572E] px-5 py-3 font-bold text-white shadow-[0_4px_8px_rgba(0,0,0,0.18)] -rotate-1 transition-transform duration-[400ms] hover:-translate-y-1 hover:rotate-0` |
+| button | `rounded-sm bg-[#C8401C] px-5 py-3 font-bold text-white shadow-[0_4px_8px_rgba(0,0,0,0.18)] -rotate-1 transition-transform duration-[400ms] hover:-translate-y-1 hover:rotate-0` |
 | label | `text-xs text-[#6B6558]` |
 
 ## Visual pack

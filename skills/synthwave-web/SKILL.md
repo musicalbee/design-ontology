@@ -2,7 +2,7 @@
 name: synthwave-web
 description: "Apply the Synthwave Web style (2013–now) when generating UI or graphic layouts. Load when the user asks for: synthwave, outrun, retrowave, neon sunset, 80s, perspective grid."
 domain: design
-era: contemporary-spatial
+era: touchscreen
 triggers:
   - "synthwave"
   - "outrun"
@@ -26,7 +26,7 @@ vector_profile:
 
 A neon sunset, a perspective grid, chrome type, pink and cyan on deep violet, and scanlines. It recalls the 1980s as film and games sold it, and it feels like a night drive.
 
-**Period:** 2013–now · **Era:** Contemporary & Spatial · **Domain:** Graphic & UI Design · **Also called:** Outrun, Retrowave, 80s neon web
+**Period:** 2013–now · **Era:** Touchscreen · **Domain:** Graphic & UI Design · **Also called:** Outrun, Retrowave, 80s neon web
 
 ## When to load this skill
 
@@ -187,7 +187,7 @@ Tailwind patterns:
 | heading | `font-bold uppercase text-5xl md:text-8xl tracking-[0.04em] leading-[1.1] text-center bg-gradient-to-b from-white via-[#FF9AC4] to-[#FF2975] bg-clip-text text-transparent` |
 | body | `text-base leading-[1.6]` |
 | section | `rounded-lg border-2 border-[#00F0FF] bg-[#12062B]/70 p-5 shadow-[0_0_16px_rgba(0,240,255,0.5)]` |
-| button | `rounded-full border-2 border-[#FF2975] bg-transparent px-7 py-3 font-bold uppercase tracking-[0.1em] text-[#FF2975] shadow-[0_0_16px_rgba(255,41,117,0.6)] hover:bg-[#FF2975] hover:text-white` |
+| button | `rounded-full border-2 border-[#FF2975] bg-transparent px-7 py-3 font-bold uppercase tracking-[0.1em] text-[#FF2975] shadow-[0_0_16px_rgba(255,41,117,0.6)] hover:bg-[#FF2975] hover:text-[#12062B]` |
 | label | `text-xs uppercase tracking-[0.1em] text-[#B9A4D9]` |
 
 ## Visual pack

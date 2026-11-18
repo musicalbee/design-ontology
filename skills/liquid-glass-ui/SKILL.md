@@ -151,7 +151,7 @@ Set `data-style="liquid-glass-ui"` on the root element and paste the tokens. The
   --color-muted: #5C5C66;
   --color-primary: #0A84FF;
   --color-accent: #0A84FF;
-  --color-border: #FFFFFF;
+  --color-border: #C7C7CC;
   --font-sans: "Inter", -apple-system, system-ui, sans-serif;
   --font-display: "Inter Tight", "Inter", -apple-system, system-ui, sans-serif;
   --border-radius: 28px;
@@ -236,7 +236,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`glassmorphism`](../glassmorphism/SKILL.md), [`spatial-visionos`](../spatial-visionos/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
 - **Mixes well with:** [`apple-aqua`](../apple-aqua/SKILL.md), [`ethereal-web`](../ethereal-web/SKILL.md)
-- **Nearest by vector profile:** [`glassmorphism`](../glassmorphism/SKILL.md), [`apple-aqua`](../apple-aqua/SKILL.md), [`ethereal-web`](../ethereal-web/SKILL.md)
+- **Nearest by vector profile:** [`glassmorphism`](../glassmorphism/SKILL.md), [`ethereal-web`](../ethereal-web/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md)
 
 ## Emotional target
 

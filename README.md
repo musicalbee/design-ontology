@@ -104,6 +104,11 @@ The open-source families are a stand-in for the demo. A product with a brand use
 
 Styles do not appear from nowhere. Flat design rejects skeuomorphism. Neumorphism rejects flat design. Neo-brutalism rejects the friendly corporate look that flat design became. The graph records these edges, so that an agent asked for "the same, but softer" moves to a named neighbour and does not improvise.
 
+**[Open the interactive lineage graph](https://musicalbee.github.io/design-ontology/demo/graph.html)**: all styles on one time line, a lane for each domain. Select a style to see its edges and open it in its domain demo.
+
+<details>
+<summary>The same graph as Mermaid (wide)</summary>
+
 Solid arrows show descent. Red dotted arrows show rejection. Grey dotted arrows show kinship across domains.
 
 <!-- lineage:start -->
@@ -136,23 +141,23 @@ flowchart LR
   subgraph design_touchscreen["Touchscreen · 2007–2018"]
     skeuomorphism["Skeuomorphism"]
     metro_ui["Metro UI"]
-    flat_design["Flat Design"]
-    vaporwave["Vaporwave"]
-    brutalist_web["Brutalist Web (2014)"]
-    material_design["Material Design"]
-    corporate_memphis["Corporate Memphis"]
-  end
-  subgraph design_contemporary_spatial["Contemporary & Spatial · 2019–now"]
     pixel_art_web["Pixel Art Web"]
     bohemian_web["Bohemian Web"]
+    flat_design["Flat Design"]
+    vaporwave["Vaporwave"]
     synthwave_web["Synthwave Web"]
+    brutalist_web["Brutalist Web (2014)"]
+    material_design["Material Design"]
     conceptual_sketch_ui["Conceptual Sketch UI"]
     wabi_sabi_web["Wabi-Sabi Web"]
     anti_design["Anti-Design"]
     dark_devtool_ui["Dark-Mode Developer Tool"]
+    corporate_memphis["Corporate Memphis"]
     terminal_tui_web["Terminal / TUI Web"]
     aurora_gradient_ui["Aurora Gradient UI"]
     scrapbook_ui["Scrapbook UI"]
+  end
+  subgraph design_contemporary_spatial["Contemporary & Spatial · 2019–now"]
     neumorphism["Neumorphism"]
     cybercore_web["Cybercore Web"]
     glassmorphism["Glassmorphism"]
@@ -180,19 +185,33 @@ flowchart LR
     high_tech_architecture["High-tech"]
     deconstructivist_architecture["Deconstructivism"]
   end
+  subgraph interior_classical_house["Interior · Classical house · 1700–1830"]
+    georgian_interior["Georgian"]
+  end
   subgraph interior_industrial_century["Interior · Industrial century · 1800–1890"]
     shaker_interior["Shaker"]
+    victorian_interior["Victorian"]
+    arts_and_crafts_interior["Arts and Crafts"]
   end
   subgraph interior_modern_reform["Interior · Modern reform · 1890–1940"]
+    art_nouveau_interior["Art Nouveau"]
     bauhaus_interior["Bauhaus interior"]
+    art_deco_interior["Art Deco"]
   end
   subgraph interior_post_war_modern["Interior · Post-war modern · 1940–1990"]
+    hollywood_regency_interior["Hollywood Regency"]
     mid_century_modern_interior["Mid-century modern interior"]
     scandinavian_interior["Scandinavian interior"]
+    industrial_loft_interior["Industrial loft"]
     memphis_interior["Memphis interior"]
+  end
+  subgraph interior_global_minimal["Interior · Global minimal · 1990–2010"]
+    minimalist_interior["Minimalist"]
   end
   subgraph interior_networked_home["Interior · Networked home · 2010–present"]
     japandi_interior["Japandi"]
+    grandmillennial_interior["Grandmillennial"]
+    neo_deco_interior["Neo-deco"]
     dopamine_decor["Dopamine decor"]
     quiet_luxury_interior["Quiet luxury"]
   end
@@ -244,8 +263,16 @@ flowchart LR
   end
   abstract_expressionism <-. echoes .-> brutalist_architecture
   anti_design <-. echoes .-> deconstructivist_architecture
+  art_deco_architecture <-. echoes .-> art_deco_interior
   art_deco_architecture <-. echoes .-> art_deco_web
+  art_deco_architecture <-. echoes .-> neo_deco_interior
+  art_deco_interior <-. echoes .-> art_deco_web
+  art_deco_web <-. echoes .-> hollywood_regency_interior
+  art_deco_web <-. echoes .-> neo_deco_interior
+  art_nouveau_architecture <-. echoes .-> art_nouveau_interior
   art_nouveau_architecture <-. echoes .-> art_nouveau_web
+  art_nouveau_interior <-. echoes .-> art_nouveau_web
+  arts_and_crafts_interior <-. echoes .-> nordic_national_romanticism_painting
   bauhaus <-. echoes .-> bauhaus_architecture
   bauhaus <-. echoes .-> bauhaus_interior
   bauhaus <-. echoes .-> de_stijl_painting
@@ -254,6 +281,7 @@ flowchart LR
   brutalist_architecture <-. echoes .-> brutalist_web
   brutalist_architecture <-. echoes .-> constructivism_web
   brutalist_architecture <-. echoes .-> dogme_95
+  brutalist_architecture <-. echoes .-> industrial_loft_interior
   brutalist_architecture <-. echoes .-> neo_brutalism_ui
   brutalist_architecture <-. echoes .-> new_topographics
   camcorder_revival <-. echoes .-> grunge_editorial
@@ -266,10 +294,16 @@ flowchart LR
   de_stijl_web <-. echoes .-> international_style_architecture
   deconstructivist_architecture <-. echoes .-> grunge_editorial
   dopamine_decor <-. echoes .-> memphis_design
+  flat_design <-. echoes .-> minimalist_interior
   flat_design <-. echoes .-> ukiyo_e
+  georgian_interior <-. echoes .-> renaissance_painting
+  grandmillennial_interior <-. echoes .-> impressionism
   grunge_editorial <-. echoes .-> party_flash
   grunge_editorial <-. echoes .-> street_photography
+  high_tech_architecture <-. echoes .-> industrial_loft_interior
+  industrial_loft_interior <-. echoes .-> new_topographics
   international_style_architecture <-. echoes .-> mid_century_modern_interior
+  international_style_architecture <-. echoes .-> minimalist_interior
   international_style_architecture <-. echoes .-> new_topographics
   international_style_architecture <-. echoes .-> rams_functionalism_ui
   international_style_architecture <-. echoes .-> straight_photography
@@ -279,13 +313,17 @@ flowchart LR
   memphis_design <-. echoes .-> postmodern_architecture
   mid_century_modern <-. echoes .-> mid_century_modern_architecture
   mid_century_modern <-. echoes .-> mid_century_modern_interior
+  minimalist_interior <-. echoes .-> rams_functionalism_ui
   party_flash <-. echoes .-> y2k_aesthetic
+  pictorialism <-. echoes .-> victorian_interior
   straight_photography <-. echoes .-> swiss_international
   y2k_aesthetic <-. echoes .-> y2k_digicam
   cubism_painting --> abstract_expressionism
   flat_design --> ai_chat_ui
   y2k_aesthetic --> apple_aqua
   art_nouveau_architecture --> art_deco_architecture
+  arts_and_crafts_interior --> art_nouveau_interior
+  shaker_interior --> arts_and_crafts_interior
   flat_design --> aurora_gradient_ui
   renaissance_painting --> baroque_painting
   flat_design --> bento_grid_ui
@@ -309,7 +347,12 @@ flowchart LR
   soviet_montage --> french_new_wave
   y2k_aesthetic --> frutiger_aero
   frutiger_aero --> glassmorphism
+  georgian_interior --> grandmillennial_interior
+  victorian_interior --> grandmillennial_interior
   international_style_architecture --> high_tech_architecture
+  art_deco_interior --> hollywood_regency_interior
+  georgian_interior --> hollywood_regency_interior
+  bauhaus_interior --> industrial_loft_interior
   scandinavian_interior --> japandi_interior
   glassmorphism --> liquid_glass_ui
   spatial_visionos --> liquid_glass_ui
@@ -318,7 +361,9 @@ flowchart LR
   bauhaus --> mid_century_modern
   international_style_architecture --> mid_century_modern_architecture
   bauhaus_interior --> mid_century_modern_interior
+  bauhaus_interior --> minimalist_interior
   flat_design --> neo_brutalism_ui
+  art_deco_interior --> neo_deco_interior
   skeuomorphism --> neumorphism
   street_photography --> new_colour
   straight_photography --> new_topographics
@@ -338,13 +383,17 @@ flowchart LR
   y2k_aesthetic --> synthwave_web
   y2k_aesthetic --> vaporwave
   creator_vlog --> vertical_short_form
+  georgian_interior --> victorian_interior
   swiss_international --> wabi_sabi_web
   new_colour --> y2k_digicam
   abstract_expressionism -. rejects .-> de_stijl_painting
   anti_design -. rejects .-> flat_design
   anti_design -. rejects .-> material_design
   anti_design -. rejects .-> swiss_international
+  art_deco_interior -. rejects .-> art_nouveau_interior
   art_deco_web -. rejects .-> art_nouveau_web
+  art_nouveau_interior -. rejects .-> victorian_interior
+  arts_and_crafts_interior -. rejects .-> victorian_interior
   brutalist_web -. rejects .-> flat_design
   brutalist_web -. rejects .-> material_design
   claymorphism -. rejects .-> flat_design
@@ -363,6 +412,8 @@ flowchart LR
   editorial_serif_revival -. rejects .-> flat_design
   ethereal_web -. rejects .-> brutalist_web
   flat_design -. rejects .-> skeuomorphism
+  grandmillennial_interior -. rejects .-> minimalist_interior
+  grandmillennial_interior -. rejects .-> scandinavian_interior
   grunge_editorial -. rejects .-> swiss_international
   japanese_dense_web -. rejects .-> swiss_international
   liquid_glass_ui -. rejects .-> flat_design
@@ -371,8 +422,10 @@ flowchart LR
   memphis_interior -. rejects .-> mid_century_modern_interior
   metro_ui -. rejects .-> frutiger_aero
   metro_ui -. rejects .-> skeuomorphism
+  minimalist_interior -. rejects .-> memphis_interior
   neo_brutalism_ui -. rejects .-> corporate_memphis
   neo_brutalism_ui -. rejects .-> material_design
+  neo_deco_interior -. rejects .-> minimalist_interior
   neumorphism -. rejects .-> flat_design
   postmodern_architecture -. rejects .-> brutalist_architecture
   postmodern_architecture -. rejects .-> international_style_architecture
@@ -426,33 +479,23 @@ flowchart LR
   linkStyle 37 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 38 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 39 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 98 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 99 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 100 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 101 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 102 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 103 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 104 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 105 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 106 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 107 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 108 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 109 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 110 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 111 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 112 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 113 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 114 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 115 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 116 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 117 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 118 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 119 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 120 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 121 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 122 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 123 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 124 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 40 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 41 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 42 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 43 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 44 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 45 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 46 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 47 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 48 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 49 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 50 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 51 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 52 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 53 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 54 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 55 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 56 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 125 stroke:#E5484D,stroke-width:1.5px
   linkStyle 126 stroke:#E5484D,stroke-width:1.5px
   linkStyle 127 stroke:#E5484D,stroke-width:1.5px
@@ -472,8 +515,44 @@ flowchart LR
   linkStyle 141 stroke:#E5484D,stroke-width:1.5px
   linkStyle 142 stroke:#E5484D,stroke-width:1.5px
   linkStyle 143 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 144 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 145 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 146 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 147 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 148 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 149 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 150 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 151 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 152 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 153 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 154 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 155 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 156 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 157 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 158 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 159 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 160 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 161 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 162 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 163 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 164 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 165 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 166 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 167 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 168 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 169 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 170 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 171 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 172 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 173 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 174 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 175 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 176 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 177 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
+
+</details>
 
 The same graph, for machines: [`graph/lineage.json`](graph/lineage.json). It has nodes, typed edges, an adjacency list that you can walk in both directions, and the three nearest neighbours of each style by vector distance.
 
@@ -514,9 +593,9 @@ The ontology has domains. A domain is one manifest ([`domains/`](domains/)) and 
 | Design | 25 | 16 CSS tokens, Tailwind patterns, a visual pack | [landing page](demo/index.html) |
 | Architecture | 9 | vocabulary primer for briefs, image prompts and 3D scenes | [massing](demo/architecture.html) |
 | Interior | 8 | composition rules in cm, lux and K, and a scene primer | [one room, each style](demo/interior.html) |
-| Photography | 8 | camera numbers (mm, f-stop, shutter, ISO, K) and a grade recipe | |
-| Film and video | 8 | shot primer (aspect, fps, shutter angle, shot length) and a video-prompt primer | |
-| Painting | 8 | palette in hex, brushwork and medium rules, a composition schema | |
+| Photography | 8 | camera numbers (mm, f-stop, shutter, ISO, K) and a grade recipe | [gallery](demo/photography.html) |
+| Film and video | 8 | shot primer (aspect, fps, shutter angle, shot length) and a video-prompt primer | [gallery](demo/film.html) |
+| Painting | 8 | palette in hex, brushwork and medium rules, a composition schema | [gallery](demo/painting.html) |
 
 **Composition principles** are shared. [`data/principles/`](data/principles/) holds 20 records, such as focal point, symmetry and axis, rhythm, rule of thirds, layering in depth and colour distribution. Each record has a definition and a measure with a typical range. A style in any domain names a principle by id and gives its own number. The validator refuses an id that does not exist.
 

@@ -2,7 +2,7 @@
 name: conceptual-sketch-ui
 description: "Apply the Conceptual Sketch UI style (2015–now) when generating UI or graphic layouts. Load when the user asks for: sketch, wireframe, hand drawn, notebook, blueprint, annotations."
 domain: design
-era: contemporary-spatial
+era: touchscreen
 triggers:
   - "sketch"
   - "wireframe"
@@ -26,7 +26,7 @@ vector_profile:
 
 Pencil and ink lines, rough outlines, margin notes, arrows and annotations on a pale ground. It shows an idea before it is finished, and feels like a designer's notebook.
 
-**Period:** 2015–now · **Era:** Contemporary & Spatial · **Domain:** Graphic & UI Design · **Also called:** Wireframe aesthetic, Sketchbook web, Hand-drawn blueprint
+**Period:** 2015–now · **Era:** Touchscreen · **Domain:** Graphic & UI Design · **Also called:** Wireframe aesthetic, Sketchbook web, Hand-drawn blueprint
 
 ## When to load this skill
 

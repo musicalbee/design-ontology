@@ -2,7 +2,7 @@
 name: aurora-gradient-ui
 description: "Apply the Aurora Gradient UI style (2018–now) when generating UI or graphic layouts. Load when the user asks for: aurora gradient, mesh gradient, gradient background, stripe style, ai landing page, glow."
 domain: design
-era: contemporary-spatial
+era: touchscreen
 triggers:
   - "aurora gradient"
   - "mesh gradient"
@@ -26,7 +26,7 @@ vector_profile:
 
 Soft, blurred mesh gradients in 3 to 5 hues behind clean sans-serif type, with glowing edges and grain. It came from fintech and AI product pages and replaced the flat hero.
 
-**Period:** 2018–now · **Era:** Contemporary & Spatial · **Domain:** Graphic & UI Design · **Also called:** Mesh gradient UI, Gradient glow web, Aurora background
+**Period:** 2018–now · **Era:** Touchscreen · **Domain:** Graphic & UI Design · **Also called:** Mesh gradient UI, Gradient glow web, Aurora background
 
 ## When to load this skill
 
@@ -191,7 +191,7 @@ Tailwind patterns:
 | heading | `text-5xl md:text-8xl font-semibold tracking-[-0.03em] leading-[1.05] text-center` |
 | body | `text-[17px] leading-[1.6] text-[#ECE9FF]/80` |
 | section | `rounded-[20px] border border-white/20 bg-white/5 p-6` |
-| button | `rounded-full bg-[#7C5CFF] px-7 py-3 text-base font-medium text-white shadow-[0_0_40px_rgba(124,92,255,0.4)] transition duration-[400ms] hover:shadow-[0_0_56px_rgba(124,92,255,0.6)] hover:-translate-y-0.5` |
+| button | `rounded-full bg-[#7C5CFF] px-7 py-3 text-base font-medium text-[#0A0A14] shadow-[0_0_40px_rgba(124,92,255,0.4)] transition duration-[400ms] hover:shadow-[0_0_56px_rgba(124,92,255,0.6)] hover:-translate-y-0.5` |
 | label | `text-xs font-medium text-[#A7A3C7]` |
 
 ## Visual pack

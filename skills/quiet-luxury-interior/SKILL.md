@@ -233,7 +233,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`japandi-interior`](../japandi-interior/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`dopamine-decor`](../dopamine-decor/SKILL.md)
-- **Nearest by vector profile:** [`scandinavian-interior`](../scandinavian-interior/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md), [`shaker-interior`](../shaker-interior/SKILL.md)
+- **Mixes well with:** [`neo-deco-interior`](../neo-deco-interior/SKILL.md)
+- **Nearest by vector profile:** [`scandinavian-interior`](../scandinavian-interior/SKILL.md), [`georgian-interior`](../georgian-interior/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md)
 
 ## Emotional target
 

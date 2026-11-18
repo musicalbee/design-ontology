@@ -6,7 +6,7 @@
       "name": "Victorian Web",
       "domain": "design",
       "era": "fin-de-siecle",
-      "period": "1850–now",
+      "period": "1880–now",
       "thesis": "Ornament is value: every surface carries pattern, rule and flourish.",
       "summary": "Dense ornament, engraved borders, high-contrast serif type, deep jewel colours, gold, dark wood and old paper. It recalls the 19th century and gives a page a proud, collected and gothic mood.",
       "path": "skills/victorian-web/SKILL.md",
@@ -1467,7 +1467,7 @@
       "vectors": {
         "ornamentation": 3,
         "dimensionality": 4,
-        "grid_rigidity": 3,
+        "grid_rigidity": 4,
         "skeuomorphic_realism": 4,
         "typographic_expressiveness": 2
       }
@@ -1736,6 +1736,176 @@
       }
     },
     {
+      "id": "pixel-art-web",
+      "name": "Pixel Art Web",
+      "domain": "design",
+      "era": "touchscreen",
+      "period": "2010–now",
+      "thesis": "Limits are the style: few pixels, few colours and a hard grid make a clear, playful picture.",
+      "summary": "Blocky sprites, a limited palette, hard pixel edges, bitmap type and game-style panels. It borrows from 8-bit and 16-bit games and makes a page feel like a game screen.",
+      "path": "skills/pixel-art-web/SKILL.md",
+      "tokens": "skills/pixel-art-web/tokens.css",
+      "pack": "skills/pixel-art-web/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 400,
+          "subhead_weight": 400,
+          "body_weight": 400,
+          "strong_weight": 400,
+          "label_weight": 400,
+          "accent": "case",
+          "display_tracking": "0em",
+          "display_leading": 1.4,
+          "display_case": "uppercase",
+          "body_leading": 1.6,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "solid",
+          "stroke_width": 2,
+          "linecap": "butt",
+          "linejoin": "miter",
+          "container": "square",
+          "pack": {
+            "id": "pixelarticons",
+            "why": "A pixel family drawn on a strict 24px grid that fits bitmap type."
+          }
+        },
+        "art": {
+          "recipe": "y2k",
+          "pattern": "checks",
+          "seed": 53
+        },
+        "layout": {
+          "hero": "stacked",
+          "align": "left",
+          "density": "regular",
+          "tilt_deg": 0
+        }
+      },
+      "triggers": [
+        "pixel art",
+        "8-bit",
+        "16-bit",
+        "retro game",
+        "sprite",
+        "bitmap",
+        "pixelated",
+        "game ui"
+      ],
+      "use_cases": [
+        "indie game sites",
+        "developer and maker portfolios",
+        "community and Discord tools",
+        "nostalgia campaigns",
+        "education for children"
+      ],
+      "emotion": [
+        "playful",
+        "nostalgic",
+        "geeky",
+        "friendly",
+        "blocky",
+        "game"
+      ],
+      "archetypes": [
+        "jester",
+        "explorer"
+      ],
+      "vectors": {
+        "ornamentation": 4,
+        "dimensionality": 1,
+        "grid_rigidity": 4,
+        "skeuomorphic_realism": 2,
+        "typographic_expressiveness": 3
+      }
+    },
+    {
+      "id": "bohemian-web",
+      "name": "Bohemian Web",
+      "domain": "design",
+      "era": "touchscreen",
+      "period": "2012–now",
+      "thesis": "The page is a lived-in, free-spirited space: natural, layered and warm.",
+      "summary": "Earth tones, hand-drawn florals, macramé and woven patterns, arched shapes, warm photography and relaxed script type. It shows a free-spirited, natural and craft-based taste.",
+      "path": "skills/bohemian-web/SKILL.md",
+      "tokens": "skills/bohemian-web/tokens.css",
+      "pack": "skills/bohemian-web/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 400,
+          "subhead_weight": 400,
+          "body_weight": 400,
+          "strong_weight": 600,
+          "label_weight": 600,
+          "accent": "case",
+          "display_tracking": "0em",
+          "display_leading": 1.15,
+          "display_case": "none",
+          "body_leading": 1.65,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 2,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "none",
+          "pack": {
+            "id": "ph-duotone",
+            "why": "A soft, rounded family with a two-tone fill that suits warm, crafted layouts."
+          }
+        },
+        "art": {
+          "recipe": "psychedelic",
+          "pattern": "waves",
+          "seed": 57
+        },
+        "layout": {
+          "hero": "split",
+          "align": "center",
+          "density": "regular",
+          "tilt_deg": 0
+        }
+      },
+      "triggers": [
+        "boho",
+        "bohemian",
+        "earth tones",
+        "terracotta",
+        "macrame",
+        "arch",
+        "folk",
+        "natural"
+      ],
+      "use_cases": [
+        "wellness, yoga and retreat sites",
+        "handmade shops and marketplaces",
+        "wedding and event pages",
+        "travel and festival brands",
+        "home and plant stores"
+      ],
+      "emotion": [
+        "warm",
+        "free",
+        "earthy",
+        "relaxed",
+        "crafted",
+        "natural"
+      ],
+      "archetypes": [
+        "explorer",
+        "lover"
+      ],
+      "vectors": {
+        "ornamentation": 2,
+        "dimensionality": 3,
+        "grid_rigidity": 4,
+        "skeuomorphic_realism": 5,
+        "typographic_expressiveness": 4
+      }
+    },
+    {
       "id": "flat-design",
       "name": "Flat Design",
       "domain": "design",
@@ -1912,6 +2082,91 @@
       }
     },
     {
+      "id": "synthwave-web",
+      "name": "Synthwave Web",
+      "domain": "design",
+      "era": "touchscreen",
+      "period": "2013–now",
+      "thesis": "The 1980s as a dream: neon, chrome and a road to the horizon.",
+      "summary": "A neon sunset, a perspective grid, chrome type, pink and cyan on deep violet, and scanlines. It recalls the 1980s as film and games sold it, and it feels like a night drive.",
+      "path": "skills/synthwave-web/SKILL.md",
+      "tokens": "skills/synthwave-web/tokens.css",
+      "pack": "skills/synthwave-web/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 700,
+          "subhead_weight": 700,
+          "body_weight": 400,
+          "strong_weight": 700,
+          "label_weight": 700,
+          "accent": "colour",
+          "display_tracking": "0.04em",
+          "display_leading": 1.1,
+          "display_case": "uppercase",
+          "body_leading": 1.6,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 2,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "none",
+          "pack": {
+            "id": "iconoir",
+            "why": "A smooth 2px line that takes a neon glow well."
+          }
+        },
+        "art": {
+          "recipe": "y2k",
+          "pattern": "grid",
+          "seed": 54
+        },
+        "layout": {
+          "hero": "stacked",
+          "align": "center",
+          "density": "airy",
+          "tilt_deg": 0
+        }
+      },
+      "triggers": [
+        "synthwave",
+        "outrun",
+        "retrowave",
+        "neon sunset",
+        "80s",
+        "perspective grid",
+        "chrome text",
+        "neon"
+      ],
+      "use_cases": [
+        "music and album pages",
+        "game and film promos",
+        "event and club nights",
+        "retro tech and merchandise",
+        "streamers and creators"
+      ],
+      "emotion": [
+        "nostalgic",
+        "neon",
+        "dreamy",
+        "energetic",
+        "retro-futuristic",
+        "cool"
+      ],
+      "archetypes": [
+        "explorer",
+        "outlaw"
+      ],
+      "vectors": {
+        "ornamentation": 4,
+        "dimensionality": 2,
+        "grid_rigidity": 4,
+        "skeuomorphic_realism": 3,
+        "typographic_expressiveness": 5
+      }
+    },
+    {
       "id": "brutalist-web",
       "name": "Brutalist Web (2014)",
       "domain": "design",
@@ -1948,7 +2203,7 @@
           }
         },
         "art": {
-          "recipe": "neobrutal",
+          "recipe": "flat",
           "pattern": "none",
           "seed": 31
         },
@@ -2086,6 +2341,347 @@
       }
     },
     {
+      "id": "conceptual-sketch-ui",
+      "name": "Conceptual Sketch UI",
+      "domain": "design",
+      "era": "touchscreen",
+      "period": "2015–now",
+      "thesis": "The page shows thinking: a rough line says the idea is open and honest.",
+      "summary": "Pencil and ink lines, rough outlines, margin notes, arrows and annotations on a pale ground. It shows an idea before it is finished, and feels like a designer's notebook.",
+      "path": "skills/conceptual-sketch-ui/SKILL.md",
+      "tokens": "skills/conceptual-sketch-ui/tokens.css",
+      "pack": "skills/conceptual-sketch-ui/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 400,
+          "subhead_weight": 400,
+          "body_weight": 400,
+          "strong_weight": 700,
+          "label_weight": 400,
+          "accent": "colour",
+          "display_tracking": "0em",
+          "display_leading": 1.2,
+          "display_case": "none",
+          "body_leading": 1.5,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 2,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "none",
+          "pack": {
+            "id": "pepicons-print",
+            "why": "A hand-drawn line family with a slight wobble that matches pencil lines."
+          }
+        },
+        "art": {
+          "recipe": "swiss",
+          "pattern": "grid",
+          "seed": 55
+        },
+        "layout": {
+          "hero": "split",
+          "align": "left",
+          "density": "airy",
+          "tilt_deg": 0
+        }
+      },
+      "triggers": [
+        "sketch",
+        "wireframe",
+        "hand drawn",
+        "notebook",
+        "blueprint",
+        "annotations",
+        "pencil",
+        "doodle"
+      ],
+      "use_cases": [
+        "design and strategy studios",
+        "process and case-study pages",
+        "education and workshop sites",
+        "early-stage product and pitch pages",
+        "documentation with diagrams"
+      ],
+      "emotion": [
+        "honest",
+        "thoughtful",
+        "open",
+        "creative",
+        "light",
+        "human"
+      ],
+      "archetypes": [
+        "creator",
+        "sage"
+      ],
+      "vectors": {
+        "ornamentation": 3,
+        "dimensionality": 3,
+        "grid_rigidity": 3,
+        "skeuomorphic_realism": 3,
+        "typographic_expressiveness": 5
+      }
+    },
+    {
+      "id": "wabi-sabi-web",
+      "name": "Wabi-Sabi Web",
+      "domain": "design",
+      "era": "touchscreen",
+      "period": "2015–now",
+      "thesis": "Imperfection is beauty: a worn, quiet surface shows time and honest craft.",
+      "summary": "Muted earth tones, rough textures, uneven edges, much quiet space and small, calm type. It finds beauty in what is imperfect, old and incomplete, and it is the slow side of minimal design.",
+      "path": "skills/wabi-sabi-web/SKILL.md",
+      "tokens": "skills/wabi-sabi-web/tokens.css",
+      "pack": "skills/wabi-sabi-web/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 300,
+          "subhead_weight": 300,
+          "body_weight": 300,
+          "strong_weight": 400,
+          "label_weight": 400,
+          "accent": "case",
+          "display_tracking": "0.04em",
+          "display_leading": 1.3,
+          "display_case": "none",
+          "body_leading": 1.8,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 1.25,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "none",
+          "pack": {
+            "id": "iconoir",
+            "why": "A fine, calm line that adds little weight to a quiet page."
+          }
+        },
+        "art": {
+          "recipe": "swiss",
+          "pattern": "noise",
+          "seed": 59
+        },
+        "layout": {
+          "hero": "split",
+          "align": "left",
+          "density": "airy",
+          "tilt_deg": 0
+        }
+      },
+      "triggers": [
+        "wabi-sabi",
+        "wabi sabi",
+        "imperfect",
+        "earth tones",
+        "japanese minimal",
+        "slow design",
+        "ceramic",
+        "plaster"
+      ],
+      "use_cases": [
+        "ceramics, tea and craft brands",
+        "slow-living, home and hospitality sites",
+        "architecture and interior studios",
+        "wellness and mindfulness apps",
+        "journals and photography portfolios"
+      ],
+      "emotion": [
+        "calm",
+        "humble",
+        "quiet",
+        "natural",
+        "slow",
+        "honest"
+      ],
+      "archetypes": [
+        "sage",
+        "innocent"
+      ],
+      "vectors": {
+        "ornamentation": 1,
+        "dimensionality": 4,
+        "grid_rigidity": 3,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 1
+      }
+    },
+    {
+      "id": "anti-design",
+      "name": "Anti-Design",
+      "domain": "design",
+      "era": "touchscreen",
+      "period": "2016–now",
+      "thesis": "Polish is a lie: a page that breaks the rules on purpose shows that people made it.",
+      "summary": "Broken grids, clashing type, overlap, odd colour and deliberate roughness. It answers the polish of templated product sites and asks the visitor to notice the design.",
+      "path": "skills/anti-design/SKILL.md",
+      "tokens": "skills/anti-design/tokens.css",
+      "pack": "skills/anti-design/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 400,
+          "subhead_weight": 400,
+          "body_weight": 400,
+          "strong_weight": 700,
+          "label_weight": 700,
+          "accent": "size",
+          "display_tracking": "-0.04em",
+          "display_leading": 0.85,
+          "display_case": "uppercase",
+          "body_leading": 1.4,
+          "body_size": "15px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 3,
+          "linecap": "square",
+          "linejoin": "miter",
+          "container": "none",
+          "pack": {
+            "id": "pepicons-pop",
+            "why": "A loud, thick, slightly rough line that suits cut-out and sticker art."
+          }
+        },
+        "art": {
+          "recipe": "neobrutal",
+          "pattern": "checks",
+          "seed": 37
+        },
+        "layout": {
+          "hero": "poster",
+          "align": "left",
+          "density": "compact",
+          "tilt_deg": 3
+        }
+      },
+      "triggers": [
+        "anti-design",
+        "ugly design",
+        "broken grid",
+        "chaotic layout",
+        "clashing type",
+        "experimental web",
+        "anti-grid",
+        "awwwards experimental"
+      ],
+      "use_cases": [
+        "creative studios and portfolios",
+        "music and fashion brands",
+        "art and festival sites",
+        "launches that must stand out",
+        "student and agency showcases"
+      ],
+      "emotion": [
+        "rebellious",
+        "chaotic",
+        "loud",
+        "playful",
+        "raw",
+        "experimental"
+      ],
+      "archetypes": [
+        "outlaw",
+        "jester"
+      ],
+      "vectors": {
+        "ornamentation": 4,
+        "dimensionality": 1,
+        "grid_rigidity": 1,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 5
+      }
+    },
+    {
+      "id": "dark-devtool-ui",
+      "name": "Dark-Mode Developer Tool",
+      "domain": "design",
+      "era": "touchscreen",
+      "period": "2016–now",
+      "thesis": "A tool for experts is a dense, calm, dark instrument: show a lot, keep it quiet and make everything reachable from the keyboard.",
+      "summary": "Near-black surfaces, 1px hairline borders, one saturated accent, a monospace for data and keyboard hints on every action. It came from code editors and terminals and now defines software for engineers.",
+      "path": "skills/dark-devtool-ui/SKILL.md",
+      "tokens": "skills/dark-devtool-ui/tokens.css",
+      "pack": "skills/dark-devtool-ui/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 600,
+          "subhead_weight": 500,
+          "body_weight": 400,
+          "strong_weight": 600,
+          "label_weight": 500,
+          "accent": "weight",
+          "display_tracking": "-0.02em",
+          "display_leading": 1.15,
+          "display_case": "none",
+          "body_leading": 1.5,
+          "body_size": "14px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 1.5,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "none",
+          "pack": {
+            "id": "lucide",
+            "why": "A thin, even 1.5px line at 16px that sits beside 13px text without weight."
+          }
+        },
+        "art": {
+          "recipe": "bento",
+          "pattern": "grid",
+          "seed": 34
+        },
+        "layout": {
+          "hero": "stacked",
+          "align": "left",
+          "density": "compact",
+          "tilt_deg": 0
+        }
+      },
+      "triggers": [
+        "dark mode",
+        "developer tool",
+        "dev tool",
+        "linear style",
+        "command palette",
+        "vercel style",
+        "code editor",
+        "keyboard first",
+        "hairline borders"
+      ],
+      "use_cases": [
+        "developer tools and CLIs",
+        "SaaS for engineers",
+        "observability and infra dashboards",
+        "API and docs sites",
+        "issue and project trackers"
+      ],
+      "emotion": [
+        "focused",
+        "fast",
+        "precise",
+        "technical",
+        "calm",
+        "dense"
+      ],
+      "archetypes": [
+        "sage",
+        "creator"
+      ],
+      "vectors": {
+        "ornamentation": 1,
+        "dimensionality": 2,
+        "grid_rigidity": 4,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 2
+      }
+    },
+    {
       "id": "corporate-memphis",
       "name": "Corporate Memphis",
       "domain": "design",
@@ -2173,606 +2769,10 @@
       }
     },
     {
-      "id": "pixel-art-web",
-      "name": "Pixel Art Web",
-      "domain": "design",
-      "era": "contemporary-spatial",
-      "period": "2010–now",
-      "thesis": "Limits are the style: few pixels, few colours and a hard grid make a clear, playful picture.",
-      "summary": "Blocky sprites, a limited palette, hard pixel edges, bitmap type and game-style panels. It borrows from 8-bit and 16-bit games and makes a page feel like a game screen.",
-      "path": "skills/pixel-art-web/SKILL.md",
-      "tokens": "skills/pixel-art-web/tokens.css",
-      "pack": "skills/pixel-art-web/pack/",
-      "visual": {
-        "type": {
-          "display_weight": 400,
-          "subhead_weight": 400,
-          "body_weight": 400,
-          "strong_weight": 400,
-          "label_weight": 400,
-          "accent": "case",
-          "display_tracking": "0em",
-          "display_leading": 1.4,
-          "display_case": "uppercase",
-          "body_leading": 1.6,
-          "body_size": "16px"
-        },
-        "icon": {
-          "mode": "solid",
-          "stroke_width": 2,
-          "linecap": "butt",
-          "linejoin": "miter",
-          "container": "square",
-          "pack": {
-            "id": "pixelarticons",
-            "why": "A pixel family drawn on a strict 24px grid that fits bitmap type."
-          }
-        },
-        "art": {
-          "recipe": "y2k",
-          "pattern": "checks",
-          "seed": 53
-        },
-        "layout": {
-          "hero": "stacked",
-          "align": "left",
-          "density": "regular",
-          "tilt_deg": 0
-        }
-      },
-      "triggers": [
-        "pixel art",
-        "8-bit",
-        "16-bit",
-        "retro game",
-        "sprite",
-        "bitmap",
-        "pixelated",
-        "game ui"
-      ],
-      "use_cases": [
-        "indie game sites",
-        "developer and maker portfolios",
-        "community and Discord tools",
-        "nostalgia campaigns",
-        "education for children"
-      ],
-      "emotion": [
-        "playful",
-        "nostalgic",
-        "geeky",
-        "friendly",
-        "blocky",
-        "game"
-      ],
-      "archetypes": [
-        "jester",
-        "explorer"
-      ],
-      "vectors": {
-        "ornamentation": 4,
-        "dimensionality": 1,
-        "grid_rigidity": 4,
-        "skeuomorphic_realism": 2,
-        "typographic_expressiveness": 3
-      }
-    },
-    {
-      "id": "bohemian-web",
-      "name": "Bohemian Web",
-      "domain": "design",
-      "era": "contemporary-spatial",
-      "period": "2012–now",
-      "thesis": "The page is a lived-in, free-spirited space: natural, layered and warm.",
-      "summary": "Earth tones, hand-drawn florals, macramé and woven patterns, arched shapes, warm photography and relaxed script type. It shows a free-spirited, natural and craft-based taste.",
-      "path": "skills/bohemian-web/SKILL.md",
-      "tokens": "skills/bohemian-web/tokens.css",
-      "pack": "skills/bohemian-web/pack/",
-      "visual": {
-        "type": {
-          "display_weight": 400,
-          "subhead_weight": 400,
-          "body_weight": 400,
-          "strong_weight": 600,
-          "label_weight": 600,
-          "accent": "case",
-          "display_tracking": "0em",
-          "display_leading": 1.15,
-          "display_case": "none",
-          "body_leading": 1.65,
-          "body_size": "16px"
-        },
-        "icon": {
-          "mode": "outline",
-          "stroke_width": 2,
-          "linecap": "round",
-          "linejoin": "round",
-          "container": "none",
-          "pack": {
-            "id": "ph-duotone",
-            "why": "A soft, rounded family with a two-tone fill that suits warm, crafted layouts."
-          }
-        },
-        "art": {
-          "recipe": "psychedelic",
-          "pattern": "waves",
-          "seed": 57
-        },
-        "layout": {
-          "hero": "split",
-          "align": "center",
-          "density": "regular",
-          "tilt_deg": 0
-        }
-      },
-      "triggers": [
-        "boho",
-        "bohemian",
-        "earth tones",
-        "terracotta",
-        "macrame",
-        "arch",
-        "folk",
-        "natural"
-      ],
-      "use_cases": [
-        "wellness, yoga and retreat sites",
-        "handmade shops and marketplaces",
-        "wedding and event pages",
-        "travel and festival brands",
-        "home and plant stores"
-      ],
-      "emotion": [
-        "warm",
-        "free",
-        "earthy",
-        "relaxed",
-        "crafted",
-        "natural"
-      ],
-      "archetypes": [
-        "explorer",
-        "lover"
-      ],
-      "vectors": {
-        "ornamentation": 2,
-        "dimensionality": 3,
-        "grid_rigidity": 4,
-        "skeuomorphic_realism": 5,
-        "typographic_expressiveness": 4
-      }
-    },
-    {
-      "id": "synthwave-web",
-      "name": "Synthwave Web",
-      "domain": "design",
-      "era": "contemporary-spatial",
-      "period": "2013–now",
-      "thesis": "The 1980s as a dream: neon, chrome and a road to the horizon.",
-      "summary": "A neon sunset, a perspective grid, chrome type, pink and cyan on deep violet, and scanlines. It recalls the 1980s as film and games sold it, and it feels like a night drive.",
-      "path": "skills/synthwave-web/SKILL.md",
-      "tokens": "skills/synthwave-web/tokens.css",
-      "pack": "skills/synthwave-web/pack/",
-      "visual": {
-        "type": {
-          "display_weight": 700,
-          "subhead_weight": 700,
-          "body_weight": 400,
-          "strong_weight": 700,
-          "label_weight": 700,
-          "accent": "colour",
-          "display_tracking": "0.04em",
-          "display_leading": 1.1,
-          "display_case": "uppercase",
-          "body_leading": 1.6,
-          "body_size": "16px"
-        },
-        "icon": {
-          "mode": "outline",
-          "stroke_width": 2,
-          "linecap": "round",
-          "linejoin": "round",
-          "container": "none",
-          "pack": {
-            "id": "iconoir",
-            "why": "A smooth 2px line that takes a neon glow well."
-          }
-        },
-        "art": {
-          "recipe": "y2k",
-          "pattern": "grid",
-          "seed": 54
-        },
-        "layout": {
-          "hero": "stacked",
-          "align": "center",
-          "density": "airy",
-          "tilt_deg": 0
-        }
-      },
-      "triggers": [
-        "synthwave",
-        "outrun",
-        "retrowave",
-        "neon sunset",
-        "80s",
-        "perspective grid",
-        "chrome text",
-        "neon"
-      ],
-      "use_cases": [
-        "music and album pages",
-        "game and film promos",
-        "event and club nights",
-        "retro tech and merchandise",
-        "streamers and creators"
-      ],
-      "emotion": [
-        "nostalgic",
-        "neon",
-        "dreamy",
-        "energetic",
-        "retro-futuristic",
-        "cool"
-      ],
-      "archetypes": [
-        "explorer",
-        "outlaw"
-      ],
-      "vectors": {
-        "ornamentation": 4,
-        "dimensionality": 2,
-        "grid_rigidity": 4,
-        "skeuomorphic_realism": 3,
-        "typographic_expressiveness": 5
-      }
-    },
-    {
-      "id": "conceptual-sketch-ui",
-      "name": "Conceptual Sketch UI",
-      "domain": "design",
-      "era": "contemporary-spatial",
-      "period": "2015–now",
-      "thesis": "The page shows thinking: a rough line says the idea is open and honest.",
-      "summary": "Pencil and ink lines, rough outlines, margin notes, arrows and annotations on a pale ground. It shows an idea before it is finished, and feels like a designer's notebook.",
-      "path": "skills/conceptual-sketch-ui/SKILL.md",
-      "tokens": "skills/conceptual-sketch-ui/tokens.css",
-      "pack": "skills/conceptual-sketch-ui/pack/",
-      "visual": {
-        "type": {
-          "display_weight": 400,
-          "subhead_weight": 400,
-          "body_weight": 400,
-          "strong_weight": 700,
-          "label_weight": 400,
-          "accent": "colour",
-          "display_tracking": "0em",
-          "display_leading": 1.2,
-          "display_case": "none",
-          "body_leading": 1.5,
-          "body_size": "16px"
-        },
-        "icon": {
-          "mode": "outline",
-          "stroke_width": 2,
-          "linecap": "round",
-          "linejoin": "round",
-          "container": "none",
-          "pack": {
-            "id": "pepicons-print",
-            "why": "A hand-drawn line family with a slight wobble that matches pencil lines."
-          }
-        },
-        "art": {
-          "recipe": "swiss",
-          "pattern": "grid",
-          "seed": 55
-        },
-        "layout": {
-          "hero": "split",
-          "align": "left",
-          "density": "airy",
-          "tilt_deg": 0
-        }
-      },
-      "triggers": [
-        "sketch",
-        "wireframe",
-        "hand drawn",
-        "notebook",
-        "blueprint",
-        "annotations",
-        "pencil",
-        "doodle"
-      ],
-      "use_cases": [
-        "design and strategy studios",
-        "process and case-study pages",
-        "education and workshop sites",
-        "early-stage product and pitch pages",
-        "documentation with diagrams"
-      ],
-      "emotion": [
-        "honest",
-        "thoughtful",
-        "open",
-        "creative",
-        "light",
-        "human"
-      ],
-      "archetypes": [
-        "creator",
-        "sage"
-      ],
-      "vectors": {
-        "ornamentation": 3,
-        "dimensionality": 3,
-        "grid_rigidity": 3,
-        "skeuomorphic_realism": 3,
-        "typographic_expressiveness": 5
-      }
-    },
-    {
-      "id": "wabi-sabi-web",
-      "name": "Wabi-Sabi Web",
-      "domain": "design",
-      "era": "contemporary-spatial",
-      "period": "2015–now",
-      "thesis": "Imperfection is beauty: a worn, quiet surface shows time and honest craft.",
-      "summary": "Muted earth tones, rough textures, uneven edges, much quiet space and small, calm type. It finds beauty in what is imperfect, old and incomplete, and it is the slow side of minimal design.",
-      "path": "skills/wabi-sabi-web/SKILL.md",
-      "tokens": "skills/wabi-sabi-web/tokens.css",
-      "pack": "skills/wabi-sabi-web/pack/",
-      "visual": {
-        "type": {
-          "display_weight": 300,
-          "subhead_weight": 300,
-          "body_weight": 300,
-          "strong_weight": 400,
-          "label_weight": 400,
-          "accent": "case",
-          "display_tracking": "0.04em",
-          "display_leading": 1.3,
-          "display_case": "none",
-          "body_leading": 1.8,
-          "body_size": "16px"
-        },
-        "icon": {
-          "mode": "outline",
-          "stroke_width": 1.25,
-          "linecap": "round",
-          "linejoin": "round",
-          "container": "none",
-          "pack": {
-            "id": "iconoir",
-            "why": "A fine, calm line that adds little weight to a quiet page."
-          }
-        },
-        "art": {
-          "recipe": "swiss",
-          "pattern": "noise",
-          "seed": 59
-        },
-        "layout": {
-          "hero": "split",
-          "align": "left",
-          "density": "airy",
-          "tilt_deg": 0
-        }
-      },
-      "triggers": [
-        "wabi-sabi",
-        "wabi sabi",
-        "imperfect",
-        "earth tones",
-        "japanese minimal",
-        "slow design",
-        "ceramic",
-        "plaster"
-      ],
-      "use_cases": [
-        "ceramics, tea and craft brands",
-        "slow-living, home and hospitality sites",
-        "architecture and interior studios",
-        "wellness and mindfulness apps",
-        "journals and photography portfolios"
-      ],
-      "emotion": [
-        "calm",
-        "humble",
-        "quiet",
-        "natural",
-        "slow",
-        "honest"
-      ],
-      "archetypes": [
-        "sage",
-        "innocent"
-      ],
-      "vectors": {
-        "ornamentation": 1,
-        "dimensionality": 4,
-        "grid_rigidity": 3,
-        "skeuomorphic_realism": 1,
-        "typographic_expressiveness": 1
-      }
-    },
-    {
-      "id": "anti-design",
-      "name": "Anti-Design",
-      "domain": "design",
-      "era": "contemporary-spatial",
-      "period": "2016–now",
-      "thesis": "Polish is a lie: a page that breaks the rules on purpose shows that people made it.",
-      "summary": "Broken grids, clashing type, overlap, odd colour and deliberate roughness. It answers the polish of templated product sites and asks the visitor to notice the design.",
-      "path": "skills/anti-design/SKILL.md",
-      "tokens": "skills/anti-design/tokens.css",
-      "pack": "skills/anti-design/pack/",
-      "visual": {
-        "type": {
-          "display_weight": 400,
-          "subhead_weight": 400,
-          "body_weight": 400,
-          "strong_weight": 700,
-          "label_weight": 700,
-          "accent": "size",
-          "display_tracking": "-0.04em",
-          "display_leading": 0.85,
-          "display_case": "uppercase",
-          "body_leading": 1.4,
-          "body_size": "15px"
-        },
-        "icon": {
-          "mode": "outline",
-          "stroke_width": 3,
-          "linecap": "square",
-          "linejoin": "miter",
-          "container": "none",
-          "pack": {
-            "id": "pepicons-pop",
-            "why": "A loud, thick, slightly rough line that suits cut-out and sticker art."
-          }
-        },
-        "art": {
-          "recipe": "neobrutal",
-          "pattern": "checks",
-          "seed": 37
-        },
-        "layout": {
-          "hero": "poster",
-          "align": "left",
-          "density": "compact",
-          "tilt_deg": 3
-        }
-      },
-      "triggers": [
-        "anti-design",
-        "ugly design",
-        "broken grid",
-        "chaotic layout",
-        "clashing type",
-        "experimental web",
-        "anti-grid",
-        "awwwards experimental"
-      ],
-      "use_cases": [
-        "creative studios and portfolios",
-        "music and fashion brands",
-        "art and festival sites",
-        "launches that must stand out",
-        "student and agency showcases"
-      ],
-      "emotion": [
-        "rebellious",
-        "chaotic",
-        "loud",
-        "playful",
-        "raw",
-        "experimental"
-      ],
-      "archetypes": [
-        "outlaw",
-        "jester"
-      ],
-      "vectors": {
-        "ornamentation": 4,
-        "dimensionality": 1,
-        "grid_rigidity": 1,
-        "skeuomorphic_realism": 1,
-        "typographic_expressiveness": 5
-      }
-    },
-    {
-      "id": "dark-devtool-ui",
-      "name": "Dark-Mode Developer Tool",
-      "domain": "design",
-      "era": "contemporary-spatial",
-      "period": "2016–now",
-      "thesis": "A tool for experts is a dense, calm, dark instrument: show a lot, keep it quiet and make everything reachable from the keyboard.",
-      "summary": "Near-black surfaces, 1px hairline borders, one saturated accent, a monospace for data and keyboard hints on every action. It came from code editors and terminals and now defines software for engineers.",
-      "path": "skills/dark-devtool-ui/SKILL.md",
-      "tokens": "skills/dark-devtool-ui/tokens.css",
-      "pack": "skills/dark-devtool-ui/pack/",
-      "visual": {
-        "type": {
-          "display_weight": 600,
-          "subhead_weight": 500,
-          "body_weight": 400,
-          "strong_weight": 600,
-          "label_weight": 500,
-          "accent": "weight",
-          "display_tracking": "-0.02em",
-          "display_leading": 1.15,
-          "display_case": "none",
-          "body_leading": 1.5,
-          "body_size": "14px"
-        },
-        "icon": {
-          "mode": "outline",
-          "stroke_width": 1.5,
-          "linecap": "round",
-          "linejoin": "round",
-          "container": "none",
-          "pack": {
-            "id": "lucide",
-            "why": "A thin, even 1.5px line at 16px that sits beside 13px text without weight."
-          }
-        },
-        "art": {
-          "recipe": "bento",
-          "pattern": "grid",
-          "seed": 34
-        },
-        "layout": {
-          "hero": "stacked",
-          "align": "left",
-          "density": "compact",
-          "tilt_deg": 0
-        }
-      },
-      "triggers": [
-        "dark mode",
-        "developer tool",
-        "dev tool",
-        "linear style",
-        "command palette",
-        "vercel style",
-        "code editor",
-        "keyboard first",
-        "hairline borders"
-      ],
-      "use_cases": [
-        "developer tools and CLIs",
-        "SaaS for engineers",
-        "observability and infra dashboards",
-        "API and docs sites",
-        "issue and project trackers"
-      ],
-      "emotion": [
-        "focused",
-        "fast",
-        "precise",
-        "technical",
-        "calm",
-        "dense"
-      ],
-      "archetypes": [
-        "sage",
-        "creator"
-      ],
-      "vectors": {
-        "ornamentation": 1,
-        "dimensionality": 2,
-        "grid_rigidity": 4,
-        "skeuomorphic_realism": 1,
-        "typographic_expressiveness": 2
-      }
-    },
-    {
       "id": "terminal-tui-web",
       "name": "Terminal / TUI Web",
       "domain": "design",
-      "era": "contemporary-spatial",
+      "era": "touchscreen",
       "period": "2017–now",
       "thesis": "The terminal is the honest interface: a fixed character grid, text only and a keyboard make a tool fast and trustworthy.",
       "summary": "A monospace grid, box-drawing borders, a dark or phosphor ground and keyboard hints. It borrows from command-line tools and text user interfaces to make web pages that feel like a terminal.",
@@ -2858,7 +2858,7 @@
       "id": "aurora-gradient-ui",
       "name": "Aurora Gradient UI",
       "domain": "design",
-      "era": "contemporary-spatial",
+      "era": "touchscreen",
       "period": "2018–now",
       "thesis": "Colour is atmosphere: a blurred field of light makes a product feel alive without any picture of it.",
       "summary": "Soft, blurred mesh gradients in 3 to 5 hues behind clean sans-serif type, with glowing edges and grain. It came from fintech and AI product pages and replaced the flat hero.",
@@ -2943,7 +2943,7 @@
       "id": "scrapbook-ui",
       "name": "Scrapbook UI",
       "domain": "design",
-      "era": "contemporary-spatial",
+      "era": "touchscreen",
       "period": "2018–now",
       "thesis": "The page is a handmade album: warm, imperfect and made by a person.",
       "summary": "Cut-out photos, tape, stickers, torn paper, handwritten notes and slight tilts on a paper ground. It makes a page feel like a handmade album and a personal object.",
@@ -4397,6 +4397,55 @@
       }
     },
     {
+      "id": "georgian-interior",
+      "name": "Georgian",
+      "domain": "interior",
+      "era": "classical-house",
+      "period": "1714–1830",
+      "thesis": "A room is good when its proportions obey the classical rules and each wall answers the wall opposite it.",
+      "summary": "The British and colonial room of the four Georges. Walls follow a classical order of dado, field and cornice; a chimneypiece on the centre line, paired doors and sash windows set one axis; mahogany furniture stands against the walls, and the centre of the floor stays clear.",
+      "path": "skills/georgian-interior/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "georgian",
+        "georgian interior",
+        "palladian",
+        "regency drawing room",
+        "adam style",
+        "period townhouse",
+        "classical interior",
+        "federal style"
+      ],
+      "use_cases": [
+        "period house restoration",
+        "formal dining rooms",
+        "boutique hotels in old buildings",
+        "embassies and clubs",
+        "heritage retail"
+      ],
+      "emotion": [
+        "ordered",
+        "dignified",
+        "proportioned",
+        "calm",
+        "formal",
+        "classical"
+      ],
+      "archetypes": [
+        "ruler",
+        "sage"
+      ],
+      "vectors": {
+        "ornamentation": 3,
+        "density": 2,
+        "formality": 5,
+        "material_naturalness": 4,
+        "chromatic_intensity": 2
+      }
+    },
+    {
       "id": "shaker-interior",
       "name": "Shaker",
       "domain": "interior",
@@ -4446,6 +4495,151 @@
       }
     },
     {
+      "id": "victorian-interior",
+      "name": "Victorian",
+      "domain": "interior",
+      "era": "industrial-century",
+      "period": "1837–1901",
+      "thesis": "A home shows the taste, the travels and the respectability of its family; more objects and more pattern mean more comfort.",
+      "summary": "The middle-class room of the industrial century. Machine-made pattern covers walls, floors and furniture; dark, saturated colours, heavy curtains and many objects make a dense, enclosed parlour around the hearth.",
+      "path": "skills/victorian-interior/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "victorian",
+        "victorian parlour",
+        "victorian interior",
+        "gothic parlour",
+        "dark academia room",
+        "19th century interior",
+        "cluttered antique room"
+      ],
+      "use_cases": [
+        "period restoration",
+        "bars and members clubs",
+        "themed hotels",
+        "film and stage sets",
+        "libraries"
+      ],
+      "emotion": [
+        "opulent",
+        "dense",
+        "enclosed",
+        "sentimental",
+        "dark",
+        "layered"
+      ],
+      "archetypes": [
+        "caregiver",
+        "ruler"
+      ],
+      "vectors": {
+        "ornamentation": 5,
+        "density": 5,
+        "formality": 4,
+        "material_naturalness": 3,
+        "chromatic_intensity": 4
+      }
+    },
+    {
+      "id": "arts-and-crafts-interior",
+      "name": "Arts and Crafts",
+      "domain": "interior",
+      "era": "industrial-century",
+      "period": "1861–1920",
+      "thesis": "A room is honest when every piece is made by hand from local materials and shows how it is made.",
+      "summary": "The craft reform of the Victorian room. Handmade oak furniture shows its joints, a deep inglenook holds the hearth, and one stylised plant pattern runs on the walls or the textiles; low beams and built-in settles make the room honest and warm.",
+      "path": "skills/arts-and-crafts-interior/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "arts and crafts",
+        "craftsman",
+        "mission style",
+        "william morris",
+        "inglenook",
+        "bungalow interior",
+        "handmade oak"
+      ],
+      "use_cases": [
+        "bungalow restoration",
+        "libraries and studies",
+        "country inns",
+        "craft retail",
+        "pubs and cafés"
+      ],
+      "emotion": [
+        "handmade",
+        "honest",
+        "warm",
+        "sturdy",
+        "natural",
+        "hearth"
+      ],
+      "archetypes": [
+        "creator",
+        "caregiver"
+      ],
+      "vectors": {
+        "ornamentation": 3,
+        "density": 3,
+        "formality": 2,
+        "material_naturalness": 5,
+        "chromatic_intensity": 2
+      }
+    },
+    {
+      "id": "art-nouveau-interior",
+      "name": "Art Nouveau",
+      "domain": "interior",
+      "era": "modern-reform",
+      "period": "1890–1914",
+      "thesis": "Nature gives the only true line; one designer must draw every part of a room so that it grows as one plant.",
+      "summary": "The room as one living organism. Whiplash curves of plant stems run from the furniture into the panelling, the door frames and the light fittings; stained glass, carved fruitwood and bronze make each room a total work of art by one designer.",
+      "path": "skills/art-nouveau-interior/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "art nouveau",
+        "jugendstil",
+        "liberty style",
+        "whiplash curves",
+        "horta interior",
+        "guimard",
+        "tiffany lamp",
+        "organic ornament"
+      ],
+      "use_cases": [
+        "cafés and restaurants",
+        "boutique hotels",
+        "jewellery and perfume retail",
+        "theatres and foyers",
+        "period restoration"
+      ],
+      "emotion": [
+        "organic",
+        "flowing",
+        "sensual",
+        "crafted",
+        "dreamlike",
+        "total"
+      ],
+      "archetypes": [
+        "magician",
+        "lover"
+      ],
+      "vectors": {
+        "ornamentation": 5,
+        "density": 3,
+        "formality": 3,
+        "material_naturalness": 4,
+        "chromatic_intensity": 3
+      }
+    },
+    {
       "id": "bauhaus-interior",
       "name": "Bauhaus interior",
       "domain": "interior",
@@ -4491,6 +4685,103 @@
         "formality": 2,
         "material_naturalness": 2,
         "chromatic_intensity": 3
+      }
+    },
+    {
+      "id": "art-deco-interior",
+      "name": "Art Deco",
+      "domain": "interior",
+      "era": "modern-reform",
+      "period": "1925–1940",
+      "thesis": "Luxury and the machine meet in one bold geometric order of rare materials and high contrast.",
+      "summary": "The luxury room of the machine age. Symmetric plans, stepped and fan geometry, black lacquer, exotic veneers and polished chrome or brass give high contrast; a mirror or a mural on the axis and cove light in the ceiling make the room a stage.",
+      "path": "skills/art-deco-interior/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "art deco",
+        "deco interior",
+        "1920s interior",
+        "jazz age",
+        "gatsby",
+        "ruhlmann",
+        "streamline moderne",
+        "sunburst mirror"
+      ],
+      "use_cases": [
+        "cocktail bars",
+        "hotel lobbies",
+        "theatres and cinemas",
+        "luxury retail",
+        "dining rooms"
+      ],
+      "emotion": [
+        "glamorous",
+        "bold",
+        "geometric",
+        "luxurious",
+        "confident",
+        "polished"
+      ],
+      "archetypes": [
+        "ruler",
+        "lover"
+      ],
+      "vectors": {
+        "ornamentation": 4,
+        "density": 3,
+        "formality": 5,
+        "material_naturalness": 2,
+        "chromatic_intensity": 3
+      }
+    },
+    {
+      "id": "hollywood-regency-interior",
+      "name": "Hollywood Regency",
+      "domain": "interior",
+      "era": "post-war-modern",
+      "period": "1935–1965; revival from 2005",
+      "thesis": "A room is a stage set: bold colour, gloss and symmetry make the people in it look their best.",
+      "summary": "The decorator's room of the film stars. Regency and neoclassical forms meet lacquer colour, bold stripes and mirror; a symmetric plan around a centre piece, white plaster and gilt make each room ready for a camera.",
+      "path": "skills/hollywood-regency-interior/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "hollywood regency",
+        "regency moderne",
+        "dorothy draper",
+        "old hollywood",
+        "glam interior",
+        "lacquered walls",
+        "checkerboard floor"
+      ],
+      "use_cases": [
+        "hotel lobbies and bars",
+        "dressing rooms",
+        "beauty and fashion retail",
+        "restaurants",
+        "event spaces"
+      ],
+      "emotion": [
+        "glamorous",
+        "bold",
+        "theatrical",
+        "glossy",
+        "symmetric",
+        "witty"
+      ],
+      "archetypes": [
+        "lover",
+        "ruler"
+      ],
+      "vectors": {
+        "ornamentation": 4,
+        "density": 3,
+        "formality": 4,
+        "material_naturalness": 2,
+        "chromatic_intensity": 4
       }
     },
     {
@@ -4593,6 +4884,55 @@
       }
     },
     {
+      "id": "industrial-loft-interior",
+      "name": "Industrial loft",
+      "domain": "interior",
+      "era": "post-war-modern",
+      "period": "1970–present",
+      "thesis": "The building tells of its past as a factory; leave the structure and the services in view and live among them.",
+      "summary": "The converted factory floor. Exposed brick, concrete, steel columns and ducts stay in view; large steel windows light one open plan, and salvaged furniture of wood, leather and steel stands in zones on a bare floor.",
+      "path": "skills/industrial-loft-interior/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "industrial",
+        "loft",
+        "warehouse",
+        "exposed brick",
+        "factory style",
+        "concrete floor",
+        "steel windows",
+        "soho loft"
+      ],
+      "use_cases": [
+        "coffee shops and restaurants",
+        "co-working spaces",
+        "creative studios",
+        "urban apartments",
+        "craft breweries"
+      ],
+      "emotion": [
+        "raw",
+        "spacious",
+        "urban",
+        "honest",
+        "creative",
+        "rugged"
+      ],
+      "archetypes": [
+        "outlaw",
+        "creator"
+      ],
+      "vectors": {
+        "ornamentation": 1,
+        "density": 3,
+        "formality": 1,
+        "material_naturalness": 4,
+        "chromatic_intensity": 2
+      }
+    },
+    {
       "id": "memphis-interior",
       "name": "Memphis interior",
       "domain": "interior",
@@ -4642,6 +4982,55 @@
       }
     },
     {
+      "id": "minimalist-interior",
+      "name": "Minimalist",
+      "domain": "interior",
+      "era": "global-minimal",
+      "period": "1990–present",
+      "thesis": "Remove every thing that is not necessary, so that space, light and material can be seen.",
+      "summary": "The room reduced to space, light and surface. White or pale stone walls, one floor material throughout, hidden storage and flush details leave only one or two pieces in view; daylight on a plain wall is the main event.",
+      "path": "skills/minimalist-interior/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "minimalist",
+        "minimal interior",
+        "white minimalism",
+        "pawson",
+        "less is more",
+        "handleless",
+        "clean lines",
+        "empty room"
+      ],
+      "use_cases": [
+        "galleries and showrooms",
+        "luxury retail",
+        "spa bathrooms",
+        "hotel rooms",
+        "homes of collectors of one object"
+      ],
+      "emotion": [
+        "pure",
+        "calm",
+        "precise",
+        "empty",
+        "luminous",
+        "quiet"
+      ],
+      "archetypes": [
+        "sage",
+        "innocent"
+      ],
+      "vectors": {
+        "ornamentation": 1,
+        "density": 1,
+        "formality": 4,
+        "material_naturalness": 3,
+        "chromatic_intensity": 1
+      }
+    },
+    {
       "id": "japandi-interior",
       "name": "Japandi",
       "domain": "interior",
@@ -4688,6 +5077,104 @@
         "formality": 3,
         "material_naturalness": 5,
         "chromatic_intensity": 1
+      }
+    },
+    {
+      "id": "grandmillennial-interior",
+      "name": "Grandmillennial",
+      "domain": "interior",
+      "era": "networked-home",
+      "period": "2019–present",
+      "thesis": "Comfort and memory beat the cool, empty room: inherited, pretty and patterned things make a home.",
+      "summary": "A young generation takes back the rooms of its grandparents. Chintz, ruffles, needlepoint, skirted tables, wicker and blue-and-white porcelain return with a fresh, light palette and a sense of humour; pattern meets pattern and inherited pieces meet new ones.",
+      "path": "skills/grandmillennial-interior/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "grandmillennial",
+        "granny chic",
+        "new traditional",
+        "chintz",
+        "blue and white porcelain",
+        "skirted table",
+        "ruffles",
+        "pattern mix"
+      ],
+      "use_cases": [
+        "family living rooms",
+        "bedrooms and guest rooms",
+        "country hotels and B&Bs",
+        "tea rooms and cafés",
+        "gift and homeware retail"
+      ],
+      "emotion": [
+        "nostalgic",
+        "cheerful",
+        "cosy",
+        "pretty",
+        "patterned",
+        "witty"
+      ],
+      "archetypes": [
+        "caregiver",
+        "innocent"
+      ],
+      "vectors": {
+        "ornamentation": 4,
+        "density": 4,
+        "formality": 3,
+        "material_naturalness": 3,
+        "chromatic_intensity": 3
+      }
+    },
+    {
+      "id": "neo-deco-interior",
+      "name": "Neo-deco",
+      "domain": "interior",
+      "era": "networked-home",
+      "period": "2020–present",
+      "thesis": "Deco glamour without the hard edges: curves, ribs and warm metal make luxury feel soft and personal.",
+      "summary": "Art Deco after a century, made soft. Curved bouclé and velvet seats, fluted wood, arches, ribbed glass and brushed brass keep the geometry and the glamour of the 1920s, but in warm, muted colours and rounded forms.",
+      "path": "skills/neo-deco-interior/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "neo deco",
+        "new deco",
+        "modern art deco",
+        "curved sofa",
+        "fluted wood",
+        "arched niche",
+        "boucle",
+        "deco revival"
+      ],
+      "use_cases": [
+        "restaurants and bars",
+        "boutique hotels",
+        "beauty salons",
+        "living rooms",
+        "fashion retail"
+      ],
+      "emotion": [
+        "curved",
+        "warm",
+        "glamorous",
+        "soft",
+        "elegant",
+        "nostalgic"
+      ],
+      "archetypes": [
+        "lover",
+        "creator"
+      ],
+      "vectors": {
+        "ornamentation": 4,
+        "density": 3,
+        "formality": 4,
+        "material_naturalness": 2,
+        "chromatic_intensity": 3
       }
     },
     {

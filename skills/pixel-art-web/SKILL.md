@@ -2,7 +2,7 @@
 name: pixel-art-web
 description: "Apply the Pixel Art Web style (2010–now) when generating UI or graphic layouts. Load when the user asks for: pixel art, 8-bit, 16-bit, retro game, sprite, bitmap."
 domain: design
-era: contemporary-spatial
+era: touchscreen
 triggers:
   - "pixel art"
   - "8-bit"
@@ -26,7 +26,7 @@ vector_profile:
 
 Blocky sprites, a limited palette, hard pixel edges, bitmap type and game-style panels. It borrows from 8-bit and 16-bit games and makes a page feel like a game screen.
 
-**Period:** 2010–now · **Era:** Contemporary & Spatial · **Domain:** Graphic & UI Design · **Also called:** Pixel UI, 8-bit web, Retro game UI
+**Period:** 2010–now · **Era:** Touchscreen · **Domain:** Graphic & UI Design · **Also called:** Pixel UI, 8-bit web, Retro game UI
 
 ## When to load this skill
 

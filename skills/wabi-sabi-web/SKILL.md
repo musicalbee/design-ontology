@@ -2,7 +2,7 @@
 name: wabi-sabi-web
 description: "Apply the Wabi-Sabi Web style (2015–now) when generating UI or graphic layouts. Load when the user asks for: wabi-sabi, wabi sabi, imperfect, earth tones, japanese minimal, slow design."
 domain: design
-era: contemporary-spatial
+era: touchscreen
 triggers:
   - "wabi-sabi"
   - "wabi sabi"
@@ -26,7 +26,7 @@ vector_profile:
 
 Muted earth tones, rough textures, uneven edges, much quiet space and small, calm type. It finds beauty in what is imperfect, old and incomplete, and it is the slow side of minimal design.
 
-**Period:** 2015–now · **Era:** Contemporary & Spatial · **Domain:** Graphic & UI Design · **Also called:** Wabi-sabi, Imperfect minimal web, Japanese earth web
+**Period:** 2015–now · **Era:** Touchscreen · **Domain:** Graphic & UI Design · **Also called:** Wabi-sabi, Imperfect minimal web, Japanese earth web
 
 ## When to load this skill
 

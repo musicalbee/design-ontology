@@ -129,8 +129,8 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Motion & interactivity
 
-- **Born on screen:** no — the values here translate a print style for screen
-- **Transition physics:** Translation for screen: little motion; banners cycle every 5s with a 300ms slide; hover changes the link colour at once.
+- **Born on screen:** yes
+- **Transition physics:** Little motion; banners cycle every 5s with a 300ms slide; hover changes the link colour at once.
 - **Easing:** linear
 - **Duration (ms):** 150
 - **Hover and active:** Hover underlines a link and turns it red (#E60012); active state darkens a button by 10%.
@@ -240,7 +240,7 @@ The viewer feels abundance, convenience and a sense that everything is at hand.
 
 ## Sources
 
-- Example: Yahoo! JAPAN top page (1996–2025)
+- Example: Yahoo! JAPAN top page (1999–2025)
 - Example: Rakuten Ichiba (2000–2025)
 - Example: Kakaku.com and Livedoor-era portals
 

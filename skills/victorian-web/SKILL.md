@@ -1,6 +1,6 @@
 ---
 name: victorian-web
-description: "Apply the Victorian Web style (1850–now) when generating UI or graphic layouts. Load when the user asks for: victorian, victoriana, gothic, ornate, damask, engraving."
+description: "Apply the Victorian Web style (1880–now) when generating UI or graphic layouts. Load when the user asks for: victorian, victoriana, gothic, ornate, damask, engraving."
 domain: design
 era: fin-de-siecle
 triggers:
@@ -26,7 +26,7 @@ vector_profile:
 
 Dense ornament, engraved borders, high-contrast serif type, deep jewel colours, gold, dark wood and old paper. It recalls the 19th century and gives a page a proud, collected and gothic mood.
 
-**Period:** 1850–now · **Era:** Fin de Siècle · **Domain:** Graphic & UI Design · **Also called:** Victorian, Victoriana, Gothic ornamental web
+**Period:** 1880–now · **Era:** Fin de Siècle · **Domain:** Graphic & UI Design · **Also called:** Victorian, Victoriana, Gothic ornamental web
 
 ## When to load this skill
 

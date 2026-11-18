@@ -8,7 +8,7 @@
     "Linear style",
     "Code-editor UI"
   ],
-  "era_id": "contemporary-spatial",
+  "era_id": "touchscreen",
   "time_period": {
     "start": 2016,
     "end": null,
@@ -24,7 +24,7 @@
     "design_principles": [
       "Use a near-black ground (#0B0B0E) and 2 or 3 surface steps of 4% to 8% lightness each; no pure black and no pure white.",
       "Draw every border as a 1px hairline in white at 8% to 12% opacity; panels have a radius of 6px to 8px.",
-      "Set one accent colour (indigo #6E7BF2 or similar) and use it on less than 5% of the surface: focus, selection and the primary button.",
+      "Set one accent colour (indigo #5A66E8 or similar) and use it on less than 5% of the surface: focus, selection and the primary button.",
       "Set UI text at 13px to 14px in a neutral sans and all data, ids and code in a monospace at 12px to 13px.",
       "Show a keyboard hint in a 1px bordered key cap (radius 4px, 11px text) next to each main action; offer a command palette on Cmd+K.",
       "Give every row a height of 32px to 40px and keep lists dense; separate rows by hairline, not by space.",
@@ -61,8 +61,8 @@
     "font_pairings": [
       {
         "display": "Inter",
-        "body": "JetBrains Mono",
-        "note": "A neutral UI face with a code face for data."
+        "body": "Inter",
+        "note": "One neutral UI face for text; set data and code in JetBrains Mono through --font-mono."
       },
       {
         "display": "Geist",
@@ -114,7 +114,7 @@
       },
       {
         "name": "Indigo",
-        "hex": "#6E7BF2",
+        "hex": "#5A66E8",
         "role": "accent"
       }
     ],
@@ -256,8 +256,8 @@
       "--color-surface": "#141418",
       "--color-text": "#E6E6EB",
       "--color-muted": "#8A8A96",
-      "--color-primary": "#6E7BF2",
-      "--color-accent": "#6E7BF2",
+      "--color-primary": "#5A66E8",
+      "--color-accent": "#5A66E8",
       "--color-border": "#2A2A32",
       "--font-sans": "\"Inter\", system-ui, sans-serif",
       "--font-display": "\"Inter\", system-ui, sans-serif",
@@ -289,7 +289,7 @@
       },
       {
         "element": "button",
-        "classes": "rounded-md bg-[#6E7BF2] px-3 py-1.5 text-sm font-medium text-white transition-colors duration-150 hover:bg-[#8590F5]"
+        "classes": "rounded-md bg-[#5A66E8] px-3 py-1.5 text-sm font-medium text-white transition-colors duration-150 hover:bg-[#4853D6]"
       },
       {
         "element": "label",

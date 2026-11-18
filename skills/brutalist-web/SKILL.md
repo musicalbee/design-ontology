@@ -128,8 +128,8 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Motion & interactivity
 
-- **Born on screen:** no — the values here translate a print style for screen
-- **Transition physics:** Translation for screen: no motion; state changes are immediate with 0ms transition.
+- **Born on screen:** yes
+- **Transition physics:** No motion; state changes are immediate with 0ms transition.
 - **Easing:** linear
 - **Duration (ms):** 0
 - **Hover and active:** Hover keeps the default pointer and underline; active state shows the default red (#EE0000) link.
@@ -148,7 +148,7 @@ Set `data-style="brutalist-web"` on the root element and paste the tokens. The f
   --color-accent: #0000EE;
   --color-border: #000000;
   --font-sans: "Tinos", "Times New Roman", Times, serif;
-  --font-display: "Space Mono", "Courier New", monospace;
+  --font-display: "Tinos", "Times New Roman", serif;
   --border-radius: 0px;
   --border-width: 1px;
   --shadow-elevation: none;

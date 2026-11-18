@@ -116,8 +116,8 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | White | `#FFFFFF` | text |
 | Cobalt | `#0050EF` | primary tile |
 | Magenta | `#D80073` | accent tile |
-| Lime | `#60A917` | second tile |
-| Orange | `#FA6800` | third tile |
+| Lime | `#008A00` | second tile |
+| Orange | `#CC4A00` | third tile |
 
 ## Materiality & texture
 

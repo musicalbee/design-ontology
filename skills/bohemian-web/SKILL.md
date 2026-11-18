@@ -2,7 +2,7 @@
 name: bohemian-web
 description: "Apply the Bohemian Web style (2012–now) when generating UI or graphic layouts. Load when the user asks for: boho, bohemian, earth tones, terracotta, macrame, arch."
 domain: design
-era: contemporary-spatial
+era: touchscreen
 triggers:
   - "boho"
   - "bohemian"
@@ -26,7 +26,7 @@ vector_profile:
 
 Earth tones, hand-drawn florals, macramé and woven patterns, arched shapes, warm photography and relaxed script type. It shows a free-spirited, natural and craft-based taste.
 
-**Period:** 2012–now · **Era:** Contemporary & Spatial · **Domain:** Graphic & UI Design · **Also called:** Boho, Boho chic web, Earthy folk web
+**Period:** 2012–now · **Era:** Touchscreen · **Domain:** Graphic & UI Design · **Also called:** Boho, Boho chic web, Earthy folk web
 
 ## When to load this skill
 
@@ -109,7 +109,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | Name | Hex | Role |
 |---|---|---|
 | Sand | `#F5EBDD` | background |
-| Clay | `#C8553D` | primary |
+| Clay | `#B84A33` | primary |
 | Sage | `#8A9A7B` | accent |
 | Mustard | `#E1A730` | highlight |
 | Bark | `#3D2B24` | text |
@@ -145,7 +145,7 @@ Set `data-style="bohemian-web"` on the root element and paste the tokens. The fi
   --color-surface: #FFF9F0;
   --color-text: #3D2B24;
   --color-muted: #6F5B52;
-  --color-primary: #C8553D;
+  --color-primary: #B84A33;
   --color-accent: #8A9A7B;
   --color-border: #E2D2BC;
   --font-sans: "Nunito Sans", system-ui, sans-serif;
@@ -159,12 +159,12 @@ Set `data-style="bohemian-web"` on the root element and paste the tokens. The fi
   --duration: 600ms;
   --color-on-bg: #3D2B24;
   --color-on-surface: #3D2B24;
-  --color-on-primary: #000000;
+  --color-on-primary: #FFFFFF;
   --color-on-accent: #000000;
   --color-muted-on-bg: #6F5B52;
   --color-muted-on-surface: #6F5B52;
   --color-link: #3D2B24;
-  --color-link-on-surface: #3D2B24;
+  --color-link-on-surface: #B84A33;
   --display-weight: 400;
   --subhead-weight: 400;
   --body-weight: 400;
@@ -187,7 +187,7 @@ Tailwind patterns:
 | heading | `text-5xl md:text-7xl leading-[1.15] tracking-normal` |
 | body | `text-base leading-[1.65]` |
 | section | `rounded-3xl bg-[#FFF9F0] p-6 shadow-[0_8px_24px_rgba(61,43,36,0.12)]` |
-| button | `rounded-full bg-[#C8553D] px-7 py-3 font-semibold text-white transition duration-[600ms] hover:-translate-y-1` |
+| button | `rounded-full bg-[#B84A33] px-7 py-3 font-semibold text-white transition duration-[600ms] hover:-translate-y-1` |
 | label | `text-sm font-semibold text-[#6F5B52]` |
 
 ## Visual pack
@@ -231,7 +231,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md)
 - **Mixes well with:** [`scrapbook-ui`](../scrapbook-ui/SKILL.md)
-- **Nearest by vector profile:** [`scrapbook-ui`](../scrapbook-ui/SKILL.md), [`conceptual-sketch-ui`](../conceptual-sketch-ui/SKILL.md), [`skeuomorphism`](../skeuomorphism/SKILL.md)
+- **Nearest by vector profile:** [`scrapbook-ui`](../scrapbook-ui/SKILL.md), [`apple-aqua`](../apple-aqua/SKILL.md), [`conceptual-sketch-ui`](../conceptual-sketch-ui/SKILL.md)
 
 ## Emotional target
 

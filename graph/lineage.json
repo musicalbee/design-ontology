@@ -80,7 +80,7 @@
       "domain": "design",
       "name": "Victorian Web",
       "era": "fin-de-siecle",
-      "start": 1850,
+      "start": 1880,
       "end": null,
       "vectors": {
         "ornamentation": 3,
@@ -325,7 +325,7 @@
       "vectors": {
         "ornamentation": 3,
         "dimensionality": 4,
-        "grid_rigidity": 3,
+        "grid_rigidity": 4,
         "skeuomorphic_realism": 4,
         "typographic_expressiveness": 2
       }
@@ -376,6 +376,36 @@
       }
     },
     {
+      "id": "pixel-art-web",
+      "domain": "design",
+      "name": "Pixel Art Web",
+      "era": "touchscreen",
+      "start": 2010,
+      "end": null,
+      "vectors": {
+        "ornamentation": 4,
+        "dimensionality": 1,
+        "grid_rigidity": 4,
+        "skeuomorphic_realism": 2,
+        "typographic_expressiveness": 3
+      }
+    },
+    {
+      "id": "bohemian-web",
+      "domain": "design",
+      "name": "Bohemian Web",
+      "era": "touchscreen",
+      "start": 2012,
+      "end": null,
+      "vectors": {
+        "ornamentation": 2,
+        "dimensionality": 3,
+        "grid_rigidity": 4,
+        "skeuomorphic_realism": 5,
+        "typographic_expressiveness": 4
+      }
+    },
+    {
       "id": "flat-design",
       "domain": "design",
       "name": "Flat Design",
@@ -403,6 +433,21 @@
         "grid_rigidity": 2,
         "skeuomorphic_realism": 3,
         "typographic_expressiveness": 4
+      }
+    },
+    {
+      "id": "synthwave-web",
+      "domain": "design",
+      "name": "Synthwave Web",
+      "era": "touchscreen",
+      "start": 2013,
+      "end": null,
+      "vectors": {
+        "ornamentation": 4,
+        "dimensionality": 2,
+        "grid_rigidity": 4,
+        "skeuomorphic_realism": 3,
+        "typographic_expressiveness": 5
       }
     },
     {
@@ -436,6 +481,66 @@
       }
     },
     {
+      "id": "conceptual-sketch-ui",
+      "domain": "design",
+      "name": "Conceptual Sketch UI",
+      "era": "touchscreen",
+      "start": 2015,
+      "end": null,
+      "vectors": {
+        "ornamentation": 3,
+        "dimensionality": 3,
+        "grid_rigidity": 3,
+        "skeuomorphic_realism": 3,
+        "typographic_expressiveness": 5
+      }
+    },
+    {
+      "id": "wabi-sabi-web",
+      "domain": "design",
+      "name": "Wabi-Sabi Web",
+      "era": "touchscreen",
+      "start": 2015,
+      "end": null,
+      "vectors": {
+        "ornamentation": 1,
+        "dimensionality": 4,
+        "grid_rigidity": 3,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 1
+      }
+    },
+    {
+      "id": "anti-design",
+      "domain": "design",
+      "name": "Anti-Design",
+      "era": "touchscreen",
+      "start": 2016,
+      "end": null,
+      "vectors": {
+        "ornamentation": 4,
+        "dimensionality": 1,
+        "grid_rigidity": 1,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 5
+      }
+    },
+    {
+      "id": "dark-devtool-ui",
+      "domain": "design",
+      "name": "Dark-Mode Developer Tool",
+      "era": "touchscreen",
+      "start": 2016,
+      "end": null,
+      "vectors": {
+        "ornamentation": 1,
+        "dimensionality": 2,
+        "grid_rigidity": 4,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 2
+      }
+    },
+    {
       "id": "corporate-memphis",
       "domain": "design",
       "name": "Corporate Memphis",
@@ -451,115 +556,10 @@
       }
     },
     {
-      "id": "pixel-art-web",
-      "domain": "design",
-      "name": "Pixel Art Web",
-      "era": "contemporary-spatial",
-      "start": 2010,
-      "end": null,
-      "vectors": {
-        "ornamentation": 4,
-        "dimensionality": 1,
-        "grid_rigidity": 4,
-        "skeuomorphic_realism": 2,
-        "typographic_expressiveness": 3
-      }
-    },
-    {
-      "id": "bohemian-web",
-      "domain": "design",
-      "name": "Bohemian Web",
-      "era": "contemporary-spatial",
-      "start": 2012,
-      "end": null,
-      "vectors": {
-        "ornamentation": 2,
-        "dimensionality": 3,
-        "grid_rigidity": 4,
-        "skeuomorphic_realism": 5,
-        "typographic_expressiveness": 4
-      }
-    },
-    {
-      "id": "synthwave-web",
-      "domain": "design",
-      "name": "Synthwave Web",
-      "era": "contemporary-spatial",
-      "start": 2013,
-      "end": null,
-      "vectors": {
-        "ornamentation": 4,
-        "dimensionality": 2,
-        "grid_rigidity": 4,
-        "skeuomorphic_realism": 3,
-        "typographic_expressiveness": 5
-      }
-    },
-    {
-      "id": "conceptual-sketch-ui",
-      "domain": "design",
-      "name": "Conceptual Sketch UI",
-      "era": "contemporary-spatial",
-      "start": 2015,
-      "end": null,
-      "vectors": {
-        "ornamentation": 3,
-        "dimensionality": 3,
-        "grid_rigidity": 3,
-        "skeuomorphic_realism": 3,
-        "typographic_expressiveness": 5
-      }
-    },
-    {
-      "id": "wabi-sabi-web",
-      "domain": "design",
-      "name": "Wabi-Sabi Web",
-      "era": "contemporary-spatial",
-      "start": 2015,
-      "end": null,
-      "vectors": {
-        "ornamentation": 1,
-        "dimensionality": 4,
-        "grid_rigidity": 3,
-        "skeuomorphic_realism": 1,
-        "typographic_expressiveness": 1
-      }
-    },
-    {
-      "id": "anti-design",
-      "domain": "design",
-      "name": "Anti-Design",
-      "era": "contemporary-spatial",
-      "start": 2016,
-      "end": null,
-      "vectors": {
-        "ornamentation": 4,
-        "dimensionality": 1,
-        "grid_rigidity": 1,
-        "skeuomorphic_realism": 1,
-        "typographic_expressiveness": 5
-      }
-    },
-    {
-      "id": "dark-devtool-ui",
-      "domain": "design",
-      "name": "Dark-Mode Developer Tool",
-      "era": "contemporary-spatial",
-      "start": 2016,
-      "end": null,
-      "vectors": {
-        "ornamentation": 1,
-        "dimensionality": 2,
-        "grid_rigidity": 4,
-        "skeuomorphic_realism": 1,
-        "typographic_expressiveness": 2
-      }
-    },
-    {
       "id": "terminal-tui-web",
       "domain": "design",
       "name": "Terminal / TUI Web",
-      "era": "contemporary-spatial",
+      "era": "touchscreen",
       "start": 2017,
       "end": null,
       "vectors": {
@@ -574,7 +574,7 @@
       "id": "aurora-gradient-ui",
       "domain": "design",
       "name": "Aurora Gradient UI",
-      "era": "contemporary-spatial",
+      "era": "touchscreen",
       "start": 2018,
       "end": null,
       "vectors": {
@@ -589,7 +589,7 @@
       "id": "scrapbook-ui",
       "domain": "design",
       "name": "Scrapbook UI",
-      "era": "contemporary-spatial",
+      "era": "touchscreen",
       "start": 2018,
       "end": null,
       "vectors": {
@@ -901,6 +901,21 @@
       }
     },
     {
+      "id": "georgian-interior",
+      "domain": "interior",
+      "name": "Georgian",
+      "era": "classical-house",
+      "start": 1714,
+      "end": 1830,
+      "vectors": {
+        "ornamentation": 3,
+        "density": 2,
+        "formality": 5,
+        "material_naturalness": 4,
+        "chromatic_intensity": 2
+      }
+    },
+    {
       "id": "shaker-interior",
       "domain": "interior",
       "name": "Shaker",
@@ -916,6 +931,51 @@
       }
     },
     {
+      "id": "victorian-interior",
+      "domain": "interior",
+      "name": "Victorian",
+      "era": "industrial-century",
+      "start": 1837,
+      "end": 1901,
+      "vectors": {
+        "ornamentation": 5,
+        "density": 5,
+        "formality": 4,
+        "material_naturalness": 3,
+        "chromatic_intensity": 4
+      }
+    },
+    {
+      "id": "arts-and-crafts-interior",
+      "domain": "interior",
+      "name": "Arts and Crafts",
+      "era": "industrial-century",
+      "start": 1861,
+      "end": 1920,
+      "vectors": {
+        "ornamentation": 3,
+        "density": 3,
+        "formality": 2,
+        "material_naturalness": 5,
+        "chromatic_intensity": 2
+      }
+    },
+    {
+      "id": "art-nouveau-interior",
+      "domain": "interior",
+      "name": "Art Nouveau",
+      "era": "modern-reform",
+      "start": 1890,
+      "end": 1914,
+      "vectors": {
+        "ornamentation": 5,
+        "density": 3,
+        "formality": 3,
+        "material_naturalness": 4,
+        "chromatic_intensity": 3
+      }
+    },
+    {
       "id": "bauhaus-interior",
       "domain": "interior",
       "name": "Bauhaus interior",
@@ -928,6 +988,36 @@
         "formality": 2,
         "material_naturalness": 2,
         "chromatic_intensity": 3
+      }
+    },
+    {
+      "id": "art-deco-interior",
+      "domain": "interior",
+      "name": "Art Deco",
+      "era": "modern-reform",
+      "start": 1925,
+      "end": 1940,
+      "vectors": {
+        "ornamentation": 4,
+        "density": 3,
+        "formality": 5,
+        "material_naturalness": 2,
+        "chromatic_intensity": 3
+      }
+    },
+    {
+      "id": "hollywood-regency-interior",
+      "domain": "interior",
+      "name": "Hollywood Regency",
+      "era": "post-war-modern",
+      "start": 1935,
+      "end": 1965,
+      "vectors": {
+        "ornamentation": 4,
+        "density": 3,
+        "formality": 4,
+        "material_naturalness": 2,
+        "chromatic_intensity": 4
       }
     },
     {
@@ -961,6 +1051,21 @@
       }
     },
     {
+      "id": "industrial-loft-interior",
+      "domain": "interior",
+      "name": "Industrial loft",
+      "era": "post-war-modern",
+      "start": 1970,
+      "end": null,
+      "vectors": {
+        "ornamentation": 1,
+        "density": 3,
+        "formality": 1,
+        "material_naturalness": 4,
+        "chromatic_intensity": 2
+      }
+    },
+    {
       "id": "memphis-interior",
       "domain": "interior",
       "name": "Memphis interior",
@@ -976,6 +1081,21 @@
       }
     },
     {
+      "id": "minimalist-interior",
+      "domain": "interior",
+      "name": "Minimalist",
+      "era": "global-minimal",
+      "start": 1990,
+      "end": null,
+      "vectors": {
+        "ornamentation": 1,
+        "density": 1,
+        "formality": 4,
+        "material_naturalness": 3,
+        "chromatic_intensity": 1
+      }
+    },
+    {
       "id": "japandi-interior",
       "domain": "interior",
       "name": "Japandi",
@@ -988,6 +1108,36 @@
         "formality": 3,
         "material_naturalness": 5,
         "chromatic_intensity": 1
+      }
+    },
+    {
+      "id": "grandmillennial-interior",
+      "domain": "interior",
+      "name": "Grandmillennial",
+      "era": "networked-home",
+      "start": 2019,
+      "end": null,
+      "vectors": {
+        "ornamentation": 4,
+        "density": 4,
+        "formality": 3,
+        "material_naturalness": 3,
+        "chromatic_intensity": 3
+      }
+    },
+    {
+      "id": "neo-deco-interior",
+      "domain": "interior",
+      "name": "Neo-deco",
+      "era": "networked-home",
+      "start": 2020,
+      "end": null,
+      "vectors": {
+        "ornamentation": 4,
+        "density": 3,
+        "formality": 4,
+        "material_naturalness": 2,
+        "chromatic_intensity": 3
       }
     },
     {
@@ -1394,12 +1544,52 @@
     },
     {
       "from": "art-deco-architecture",
+      "to": "art-deco-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "art-deco-architecture",
       "to": "art-deco-web",
+      "type": "ECHOES"
+    },
+    {
+      "from": "art-deco-architecture",
+      "to": "neo-deco-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "art-deco-interior",
+      "to": "art-deco-web",
+      "type": "ECHOES"
+    },
+    {
+      "from": "art-deco-web",
+      "to": "hollywood-regency-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "art-deco-web",
+      "to": "neo-deco-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "art-nouveau-architecture",
+      "to": "art-nouveau-interior",
       "type": "ECHOES"
     },
     {
       "from": "art-nouveau-architecture",
       "to": "art-nouveau-web",
+      "type": "ECHOES"
+    },
+    {
+      "from": "art-nouveau-interior",
+      "to": "art-nouveau-web",
+      "type": "ECHOES"
+    },
+    {
+      "from": "arts-and-crafts-interior",
+      "to": "nordic-national-romanticism-painting",
       "type": "ECHOES"
     },
     {
@@ -1440,6 +1630,11 @@
     {
       "from": "brutalist-architecture",
       "to": "dogme-95",
+      "type": "ECHOES"
+    },
+    {
+      "from": "brutalist-architecture",
+      "to": "industrial-loft-interior",
       "type": "ECHOES"
     },
     {
@@ -1504,7 +1699,22 @@
     },
     {
       "from": "flat-design",
+      "to": "minimalist-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "flat-design",
       "to": "ukiyo-e",
+      "type": "ECHOES"
+    },
+    {
+      "from": "georgian-interior",
+      "to": "renaissance-painting",
+      "type": "ECHOES"
+    },
+    {
+      "from": "grandmillennial-interior",
+      "to": "impressionism",
       "type": "ECHOES"
     },
     {
@@ -1518,8 +1728,23 @@
       "type": "ECHOES"
     },
     {
+      "from": "high-tech-architecture",
+      "to": "industrial-loft-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "industrial-loft-interior",
+      "to": "new-topographics",
+      "type": "ECHOES"
+    },
+    {
       "from": "international-style-architecture",
       "to": "mid-century-modern-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "international-style-architecture",
+      "to": "minimalist-interior",
       "type": "ECHOES"
     },
     {
@@ -1568,8 +1793,18 @@
       "type": "ECHOES"
     },
     {
+      "from": "minimalist-interior",
+      "to": "rams-functionalism-ui",
+      "type": "ECHOES"
+    },
+    {
       "from": "party-flash",
       "to": "y2k-aesthetic",
+      "type": "ECHOES"
+    },
+    {
+      "from": "pictorialism",
+      "to": "victorian-interior",
       "type": "ECHOES"
     },
     {
@@ -1600,6 +1835,16 @@
     {
       "from": "art-deco-architecture",
       "to": "art-nouveau-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "art-nouveau-interior",
+      "to": "arts-and-crafts-interior",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "arts-and-crafts-interior",
+      "to": "shaker-interior",
       "type": "EVOLVED_FROM"
     },
     {
@@ -1718,8 +1963,33 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "grandmillennial-interior",
+      "to": "georgian-interior",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "grandmillennial-interior",
+      "to": "victorian-interior",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "high-tech-architecture",
       "to": "international-style-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "hollywood-regency-interior",
+      "to": "art-deco-interior",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "hollywood-regency-interior",
+      "to": "georgian-interior",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "industrial-loft-interior",
+      "to": "bauhaus-interior",
       "type": "EVOLVED_FROM"
     },
     {
@@ -1763,8 +2033,18 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "minimalist-interior",
+      "to": "bauhaus-interior",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "neo-brutalism-ui",
       "to": "flat-design",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "neo-deco-interior",
+      "to": "art-deco-interior",
       "type": "EVOLVED_FROM"
     },
     {
@@ -1860,6 +2140,11 @@
     {
       "from": "vertical-short-form",
       "to": "creator-vlog",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "victorian-interior",
+      "to": "georgian-interior",
       "type": "EVOLVED_FROM"
     },
     {
@@ -2163,6 +2448,11 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "neo-deco-interior",
+      "to": "quiet-luxury-interior",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "new-colour",
       "to": "new-topographics",
       "type": "HYBRIDIZED_WITH"
@@ -2223,8 +2513,23 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "art-deco-interior",
+      "to": "art-nouveau-interior",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "art-deco-web",
       "to": "art-nouveau-web",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "art-nouveau-interior",
+      "to": "victorian-interior",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "arts-and-crafts-interior",
+      "to": "victorian-interior",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -2318,6 +2623,16 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "grandmillennial-interior",
+      "to": "minimalist-interior",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "grandmillennial-interior",
+      "to": "scandinavian-interior",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "grunge-editorial",
       "to": "swiss-international",
       "type": "REBELLED_AGAINST"
@@ -2358,6 +2673,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "minimalist-interior",
+      "to": "memphis-interior",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "neo-brutalism-ui",
       "to": "corporate-memphis",
       "type": "REBELLED_AGAINST"
@@ -2365,6 +2685,11 @@
     {
       "from": "neo-brutalism-ui",
       "to": "material-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "neo-deco-interior",
+      "to": "minimalist-interior",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -2475,7 +2800,8 @@
         "victorian-web"
       ],
       "echoes": [
-        "art-nouveau-architecture"
+        "art-nouveau-architecture",
+        "art-nouveau-interior"
       ],
       "nearest_by_vector": [
         {
@@ -2600,7 +2926,10 @@
         "bauhaus"
       ],
       "echoes": [
-        "art-deco-architecture"
+        "art-deco-architecture",
+        "art-deco-interior",
+        "hollywood-regency-interior",
+        "neo-deco-interior"
       ],
       "nearest_by_vector": [
         {
@@ -2710,7 +3039,8 @@
         "flat-design"
       ],
       "echoes": [
-        "international-style-architecture"
+        "international-style-architecture",
+        "minimalist-interior"
       ],
       "nearest_by_vector": [
         {
@@ -2957,15 +3287,15 @@
       "nearest_by_vector": [
         {
           "id": "frutiger-aero",
-          "distance": 0
+          "distance": 1
         },
         {
           "id": "liquid-glass-ui",
-          "distance": 1.41
+          "distance": 1.73
         },
         {
           "id": "spatial-visionos",
-          "distance": 1.41
+          "distance": 1.73
         }
       ]
     },
@@ -2990,7 +3320,7 @@
       "nearest_by_vector": [
         {
           "id": "apple-aqua",
-          "distance": 0
+          "distance": 1
         },
         {
           "id": "liquid-glass-ui",
@@ -3021,12 +3351,12 @@
       "echoes": [],
       "nearest_by_vector": [
         {
-          "id": "apple-aqua",
+          "id": "frutiger-aero",
           "distance": 1.73
         },
         {
-          "id": "frutiger-aero",
-          "distance": 1.73
+          "id": "apple-aqua",
+          "distance": 2
         },
         {
           "id": "y2k-aesthetic",
@@ -3060,6 +3390,60 @@
         {
           "id": "dark-devtool-ui",
           "distance": 1.41
+        }
+      ]
+    },
+    "pixel-art-web": {
+      "evolved_from": [
+        "y2k-aesthetic"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "terminal-tui-web",
+        "vaporwave"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "japanese-dense-web",
+          "distance": 1
+        },
+        {
+          "id": "cybercore-web",
+          "distance": 1.41
+        },
+        {
+          "id": "art-deco-web",
+          "distance": 1.73
+        }
+      ]
+    },
+    "bohemian-web": {
+      "evolved_from": [
+        "art-nouveau-web",
+        "psychedelic"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "scrapbook-ui"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "scrapbook-ui",
+          "distance": 1.41
+        },
+        {
+          "id": "apple-aqua",
+          "distance": 2.65
+        },
+        {
+          "id": "conceptual-sketch-ui",
+          "distance": 2.65
         }
       ]
     },
@@ -3098,6 +3482,7 @@
         "swiss-international"
       ],
       "echoes": [
+        "minimalist-interior",
         "ukiyo-e"
       ],
       "nearest_by_vector": [
@@ -3143,6 +3528,35 @@
         },
         {
           "id": "claymorphism",
+          "distance": 1.73
+        }
+      ]
+    },
+    "synthwave-web": {
+      "evolved_from": [
+        "vaporwave",
+        "y2k-aesthetic"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "flat-design"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "cybercore-web"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "cybercore-web",
+          "distance": 1.41
+        },
+        {
+          "id": "art-deco-web",
+          "distance": 1.73
+        },
+        {
+          "id": "conceptual-sketch-ui",
           "distance": 1.73
         }
       ]
@@ -3207,122 +3621,6 @@
         },
         {
           "id": "bauhaus",
-          "distance": 1.73
-        }
-      ]
-    },
-    "corporate-memphis": {
-      "evolved_from": [
-        "flat-design",
-        "memphis-design"
-      ],
-      "evolved_into": [
-        "scrapbook-ui"
-      ],
-      "rebelled_against": [],
-      "provoked": [
-        "editorial-serif-revival",
-        "neo-brutalism-ui"
-      ],
-      "hybridized_with": [
-        "claymorphism",
-        "memphis-design"
-      ],
-      "echoes": [],
-      "nearest_by_vector": [
-        {
-          "id": "japanese-dense-web",
-          "distance": 1.73
-        },
-        {
-          "id": "mid-century-modern",
-          "distance": 1.73
-        },
-        {
-          "id": "ai-chat-ui",
-          "distance": 2
-        }
-      ]
-    },
-    "pixel-art-web": {
-      "evolved_from": [
-        "y2k-aesthetic"
-      ],
-      "evolved_into": [],
-      "rebelled_against": [],
-      "provoked": [],
-      "hybridized_with": [
-        "terminal-tui-web",
-        "vaporwave"
-      ],
-      "echoes": [],
-      "nearest_by_vector": [
-        {
-          "id": "japanese-dense-web",
-          "distance": 1
-        },
-        {
-          "id": "cybercore-web",
-          "distance": 1.41
-        },
-        {
-          "id": "art-deco-web",
-          "distance": 1.73
-        }
-      ]
-    },
-    "bohemian-web": {
-      "evolved_from": [
-        "art-nouveau-web",
-        "psychedelic"
-      ],
-      "evolved_into": [],
-      "rebelled_against": [],
-      "provoked": [],
-      "hybridized_with": [
-        "scrapbook-ui"
-      ],
-      "echoes": [],
-      "nearest_by_vector": [
-        {
-          "id": "scrapbook-ui",
-          "distance": 1.41
-        },
-        {
-          "id": "conceptual-sketch-ui",
-          "distance": 2.65
-        },
-        {
-          "id": "skeuomorphism",
-          "distance": 2.65
-        }
-      ]
-    },
-    "synthwave-web": {
-      "evolved_from": [
-        "vaporwave",
-        "y2k-aesthetic"
-      ],
-      "evolved_into": [],
-      "rebelled_against": [
-        "flat-design"
-      ],
-      "provoked": [],
-      "hybridized_with": [
-        "cybercore-web"
-      ],
-      "echoes": [],
-      "nearest_by_vector": [
-        {
-          "id": "cybercore-web",
-          "distance": 1.41
-        },
-        {
-          "id": "art-deco-web",
-          "distance": 1.73
-        },
-        {
-          "id": "conceptual-sketch-ui",
           "distance": 1.73
         }
       ]
@@ -3443,6 +3741,39 @@
         {
           "id": "bauhaus",
           "distance": 1.41
+        }
+      ]
+    },
+    "corporate-memphis": {
+      "evolved_from": [
+        "flat-design",
+        "memphis-design"
+      ],
+      "evolved_into": [
+        "scrapbook-ui"
+      ],
+      "rebelled_against": [],
+      "provoked": [
+        "editorial-serif-revival",
+        "neo-brutalism-ui"
+      ],
+      "hybridized_with": [
+        "claymorphism",
+        "memphis-design"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "japanese-dense-web",
+          "distance": 1.73
+        },
+        {
+          "id": "mid-century-modern",
+          "distance": 1.73
+        },
+        {
+          "id": "ai-chat-ui",
+          "distance": 2
         }
       ]
     },
@@ -3680,15 +4011,15 @@
       "echoes": [],
       "nearest_by_vector": [
         {
-          "id": "apple-aqua",
-          "distance": 1.73
-        },
-        {
           "id": "frutiger-aero",
           "distance": 1.73
         },
         {
           "id": "liquid-glass-ui",
+          "distance": 1.73
+        },
+        {
+          "id": "vaporwave",
           "distance": 1.73
         }
       ]
@@ -3824,16 +4155,16 @@
       "echoes": [],
       "nearest_by_vector": [
         {
-          "id": "apple-aqua",
-          "distance": 1.41
-        },
-        {
           "id": "frutiger-aero",
           "distance": 1.41
         },
         {
           "id": "liquid-glass-ui",
           "distance": 1.41
+        },
+        {
+          "id": "apple-aqua",
+          "distance": 1.73
         }
       ]
     },
@@ -3858,11 +4189,11 @@
           "distance": 1
         },
         {
-          "id": "apple-aqua",
+          "id": "ethereal-web",
           "distance": 1.41
         },
         {
-          "id": "ethereal-web",
+          "id": "frutiger-aero",
           "distance": 1.41
         }
       ]
@@ -3876,6 +4207,7 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
+        "art-nouveau-interior",
         "art-nouveau-web"
       ],
       "nearest_by_vector": [
@@ -3928,7 +4260,9 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
-        "art-deco-web"
+        "art-deco-interior",
+        "art-deco-web",
+        "neo-deco-interior"
       ],
       "nearest_by_vector": [
         {
@@ -3966,6 +4300,7 @@
         "de-stijl-painting",
         "de-stijl-web",
         "mid-century-modern-interior",
+        "minimalist-interior",
         "new-topographics",
         "rams-functionalism-ui",
         "straight-photography",
@@ -4027,6 +4362,7 @@
         "brutalist-web",
         "constructivism-web",
         "dogme-95",
+        "industrial-loft-interior",
         "neo-brutalism-ui",
         "new-topographics"
       ],
@@ -4084,7 +4420,9 @@
       "hybridized_with": [
         "deconstructivist-architecture"
       ],
-      "echoes": [],
+      "echoes": [
+        "industrial-loft-interior"
+      ],
       "nearest_by_vector": [
         {
           "id": "bauhaus-architecture",
@@ -4130,9 +4468,38 @@
         }
       ]
     },
+    "georgian-interior": {
+      "evolved_from": [],
+      "evolved_into": [
+        "grandmillennial-interior",
+        "hollywood-regency-interior",
+        "victorian-interior"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "renaissance-painting"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "quiet-luxury-interior",
+          "distance": 1.73
+        },
+        {
+          "id": "art-deco-interior",
+          "distance": 2.65
+        },
+        {
+          "id": "shaker-interior",
+          "distance": 2.65
+        }
+      ]
+    },
     "shaker-interior": {
       "evolved_from": [],
       "evolved_into": [
+        "arts-and-crafts-interior",
         "scandinavian-interior"
       ],
       "rebelled_against": [],
@@ -4154,10 +4521,104 @@
         }
       ]
     },
+    "victorian-interior": {
+      "evolved_from": [
+        "georgian-interior"
+      ],
+      "evolved_into": [
+        "grandmillennial-interior"
+      ],
+      "rebelled_against": [],
+      "provoked": [
+        "art-nouveau-interior",
+        "arts-and-crafts-interior"
+      ],
+      "hybridized_with": [],
+      "echoes": [
+        "pictorialism"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "grandmillennial-interior",
+          "distance": 2
+        },
+        {
+          "id": "hollywood-regency-interior",
+          "distance": 2.45
+        },
+        {
+          "id": "art-nouveau-interior",
+          "distance": 2.65
+        }
+      ]
+    },
+    "arts-and-crafts-interior": {
+      "evolved_from": [
+        "shaker-interior"
+      ],
+      "evolved_into": [
+        "art-nouveau-interior"
+      ],
+      "rebelled_against": [
+        "victorian-interior"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "nordic-national-romanticism-painting"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "industrial-loft-interior",
+          "distance": 2.45
+        },
+        {
+          "id": "art-nouveau-interior",
+          "distance": 2.65
+        },
+        {
+          "id": "mid-century-modern-interior",
+          "distance": 2.65
+        }
+      ]
+    },
+    "art-nouveau-interior": {
+      "evolved_from": [
+        "arts-and-crafts-interior"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "victorian-interior"
+      ],
+      "provoked": [
+        "art-deco-interior"
+      ],
+      "hybridized_with": [],
+      "echoes": [
+        "art-nouveau-architecture",
+        "art-nouveau-web"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "grandmillennial-interior",
+          "distance": 1.73
+        },
+        {
+          "id": "neo-deco-interior",
+          "distance": 2.45
+        },
+        {
+          "id": "arts-and-crafts-interior",
+          "distance": 2.65
+        }
+      ]
+    },
     "bauhaus-interior": {
       "evolved_from": [],
       "evolved_into": [
-        "mid-century-modern-interior"
+        "industrial-loft-interior",
+        "mid-century-modern-interior",
+        "minimalist-interior"
       ],
       "rebelled_against": [],
       "provoked": [
@@ -4174,12 +4635,69 @@
           "distance": 1.41
         },
         {
-          "id": "scandinavian-interior",
-          "distance": 3
+          "id": "industrial-loft-interior",
+          "distance": 2.65
         },
         {
-          "id": "quiet-luxury-interior",
-          "distance": 3.61
+          "id": "scandinavian-interior",
+          "distance": 3
+        }
+      ]
+    },
+    "art-deco-interior": {
+      "evolved_from": [],
+      "evolved_into": [
+        "hollywood-regency-interior",
+        "neo-deco-interior"
+      ],
+      "rebelled_against": [
+        "art-nouveau-interior"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "art-deco-architecture",
+        "art-deco-web"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "neo-deco-interior",
+          "distance": 1
+        },
+        {
+          "id": "hollywood-regency-interior",
+          "distance": 1.41
+        },
+        {
+          "id": "grandmillennial-interior",
+          "distance": 2.45
+        }
+      ]
+    },
+    "hollywood-regency-interior": {
+      "evolved_from": [
+        "art-deco-interior",
+        "georgian-interior"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "art-deco-web"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "neo-deco-interior",
+          "distance": 1
+        },
+        {
+          "id": "art-deco-interior",
+          "distance": 1.41
+        },
+        {
+          "id": "grandmillennial-interior",
+          "distance": 2
         }
       ]
     },
@@ -4205,12 +4723,12 @@
           "distance": 1.41
         },
         {
-          "id": "scandinavian-interior",
-          "distance": 2.65
+          "id": "industrial-loft-interior",
+          "distance": 2.24
         },
         {
-          "id": "quiet-luxury-interior",
-          "distance": 3
+          "id": "arts-and-crafts-interior",
+          "distance": 2.65
         }
       ]
     },
@@ -4223,7 +4741,8 @@
       ],
       "rebelled_against": [],
       "provoked": [
-        "dopamine-decor"
+        "dopamine-decor",
+        "grandmillennial-interior"
       ],
       "hybridized_with": [
         "mid-century-modern-interior"
@@ -4239,8 +4758,36 @@
           "distance": 1.41
         },
         {
-          "id": "shaker-interior",
-          "distance": 2
+          "id": "minimalist-interior",
+          "distance": 1.73
+        }
+      ]
+    },
+    "industrial-loft-interior": {
+      "evolved_from": [
+        "bauhaus-interior"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "brutalist-architecture",
+        "high-tech-architecture",
+        "new-topographics"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "mid-century-modern-interior",
+          "distance": 2.24
+        },
+        {
+          "id": "arts-and-crafts-interior",
+          "distance": 2.45
+        },
+        {
+          "id": "scandinavian-interior",
+          "distance": 2.45
         }
       ]
     },
@@ -4253,7 +4800,9 @@
         "bauhaus-interior",
         "mid-century-modern-interior"
       ],
-      "provoked": [],
+      "provoked": [
+        "minimalist-interior"
+      ],
       "hybridized_with": [],
       "echoes": [
         "memphis-design"
@@ -4264,12 +4813,45 @@
           "distance": 1.73
         },
         {
-          "id": "mid-century-modern-interior",
-          "distance": 4.36
+          "id": "hollywood-regency-interior",
+          "distance": 3.46
         },
         {
-          "id": "bauhaus-interior",
-          "distance": 4.8
+          "id": "grandmillennial-interior",
+          "distance": 3.74
+        }
+      ]
+    },
+    "minimalist-interior": {
+      "evolved_from": [
+        "bauhaus-interior"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "memphis-interior"
+      ],
+      "provoked": [
+        "grandmillennial-interior",
+        "neo-deco-interior"
+      ],
+      "hybridized_with": [],
+      "echoes": [
+        "flat-design",
+        "international-style-architecture",
+        "rams-functionalism-ui"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "quiet-luxury-interior",
+          "distance": 1.73
+        },
+        {
+          "id": "scandinavian-interior",
+          "distance": 1.73
+        },
+        {
+          "id": "japandi-interior",
+          "distance": 2.24
         }
       ]
     },
@@ -4303,6 +4885,67 @@
         }
       ]
     },
+    "grandmillennial-interior": {
+      "evolved_from": [
+        "georgian-interior",
+        "victorian-interior"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "minimalist-interior",
+        "scandinavian-interior"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "impressionism"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "art-nouveau-interior",
+          "distance": 1.73
+        },
+        {
+          "id": "neo-deco-interior",
+          "distance": 1.73
+        },
+        {
+          "id": "hollywood-regency-interior",
+          "distance": 2
+        }
+      ]
+    },
+    "neo-deco-interior": {
+      "evolved_from": [
+        "art-deco-interior"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "minimalist-interior"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "quiet-luxury-interior"
+      ],
+      "echoes": [
+        "art-deco-architecture",
+        "art-deco-web"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "art-deco-interior",
+          "distance": 1
+        },
+        {
+          "id": "hollywood-regency-interior",
+          "distance": 1
+        },
+        {
+          "id": "grandmillennial-interior",
+          "distance": 1.73
+        }
+      ]
+    },
     "dopamine-decor": {
       "evolved_from": [
         "memphis-interior"
@@ -4325,12 +4968,12 @@
           "distance": 1.73
         },
         {
-          "id": "mid-century-modern-interior",
-          "distance": 3.74
+          "id": "grandmillennial-interior",
+          "distance": 3
         },
         {
-          "id": "bauhaus-interior",
-          "distance": 4.24
+          "id": "hollywood-regency-interior",
+          "distance": 3.32
         }
       ]
     },
@@ -4343,7 +4986,9 @@
         "dopamine-decor"
       ],
       "provoked": [],
-      "hybridized_with": [],
+      "hybridized_with": [
+        "neo-deco-interior"
+      ],
       "echoes": [],
       "nearest_by_vector": [
         {
@@ -4351,12 +4996,12 @@
           "distance": 1.41
         },
         {
-          "id": "japandi-interior",
-          "distance": 2
+          "id": "georgian-interior",
+          "distance": 1.73
         },
         {
-          "id": "shaker-interior",
-          "distance": 2
+          "id": "minimalist-interior",
+          "distance": 1.73
         }
       ]
     },
@@ -4368,7 +5013,9 @@
         "straight-photography"
       ],
       "hybridized_with": [],
-      "echoes": [],
+      "echoes": [
+        "victorian-interior"
+      ],
       "nearest_by_vector": [
         {
           "id": "cinematic-teal-orange",
@@ -4485,6 +5132,7 @@
       ],
       "echoes": [
         "brutalist-architecture",
+        "industrial-loft-interior",
         "international-style-architecture"
       ],
       "nearest_by_vector": [
@@ -4807,7 +5455,9 @@
         "cubism-painting"
       ],
       "hybridized_with": [],
-      "echoes": [],
+      "echoes": [
+        "georgian-interior"
+      ],
       "nearest_by_vector": [
         {
           "id": "baroque-painting",
@@ -4884,7 +5534,9 @@
         "nordic-national-romanticism-painting",
         "ukiyo-e"
       ],
-      "echoes": [],
+      "echoes": [
+        "grandmillennial-interior"
+      ],
       "nearest_by_vector": [
         {
           "id": "nordic-national-romanticism-painting",
@@ -4908,7 +5560,9 @@
       "hybridized_with": [
         "impressionism"
       ],
-      "echoes": [],
+      "echoes": [
+        "arts-and-crafts-interior"
+      ],
       "nearest_by_vector": [
         {
           "id": "baroque-painting",
