@@ -4,7 +4,7 @@
 
 ### Your agent has no taste. Give it a style it can execute.
 
-**66 styles in six domains, as data. Each one compiles into a skill that any coding agent can load.**<br>
+**138 styles in six domains, as data. Each one compiles into a skill that any coding agent can load.**<br>
 Bauhaus to visionOS. JSON in, `SKILL.md` + `tokens.css` out. No runtime, no API key, no lock-in.
 
 [![validate](https://github.com/musicalbee/design-ontology/actions/workflows/validate.yml/badge.svg)](https://github.com/musicalbee/design-ontology/actions/workflows/validate.yml)
@@ -237,6 +237,7 @@ flowchart LR
   subgraph photography_art_photography["Photography · Photography as art · 1885–1950"]
     pictorialism["Pictorialism"]
     straight_photography["Straight photography"]
+    group_f64["Group f/64"]
   end
   subgraph photography_documentary_century["Photography · The small camera · 1930–today"]
     new_objectivity["New Objectivity photography"]
@@ -253,8 +254,10 @@ flowchart LR
     cinematic_teal_orange["Cinematic teal and orange"]
     party_flash["Party flash"]
     film_grain_revival["Film grain revival"]
+    ai_hyperreal["AI hyperreal image"]
   end
   subgraph photography_commercial_and_staged["Photography · Constructed images · 1930–today"]
+    architectural_photography["Architectural photography"]
     fashion_editorial["Fashion editorial photography"]
     film_noir_still["Film noir still photography"]
     food_photography["Food photography"]
@@ -316,6 +319,10 @@ flowchart LR
   airbrush_surrealism <-. echoes .-> psychedelic
   airbrush_surrealism <-. echoes .-> space_age
   anti_design <-. echoes .-> deconstructivist_architecture
+  architectural_photography <-. echoes .-> bauhaus_architecture
+  architectural_photography <-. echoes .-> brutalist_architecture
+  architectural_photography <-. echoes .-> international_style_architecture
+  architectural_photography <-. echoes .-> mid_century_modern_architecture
   art_deco_architecture <-. echoes .-> art_deco_interior
   art_deco_architecture <-. echoes .-> art_deco_web
   art_deco_architecture <-. echoes .-> classical_hollywood
@@ -382,6 +389,7 @@ flowchart LR
   georgian_interior <-. echoes .-> renaissance_painting
   german_expressionist_cinema <-. echoes .-> new_objectivity
   grandmillennial_interior <-. echoes .-> impressionism
+  group_f64 <-. echoes .-> international_style_architecture
   grunge_editorial <-. echoes .-> party_flash
   grunge_editorial <-. echoes .-> street_photography
   high_tech_architecture <-. echoes .-> industrial_loft_interior
@@ -429,7 +437,11 @@ flowchart LR
   cubism_painting --> abstract_expressionism
   surrealism_painting --> abstract_expressionism
   flat_design --> ai_chat_ui
+  cinematic_teal_orange --> ai_hyperreal
+  fashion_editorial --> ai_hyperreal
   y2k_aesthetic --> apple_aqua
+  new_objectivity --> architectural_photography
+  straight_photography --> architectural_photography
   art_nouveau_architecture --> art_deco_architecture
   arts_and_crafts_interior --> art_nouveau_interior
   shaker_interior --> arts_and_crafts_interior
@@ -476,6 +488,7 @@ flowchart LR
   frutiger_aero --> glassmorphism
   georgian_interior --> grandmillennial_interior
   victorian_interior --> grandmillennial_interior
+  straight_photography --> group_f64
   international_style_architecture --> high_tech_architecture
   art_deco_interior --> hollywood_regency_interior
   georgian_interior --> hollywood_regency_interior
@@ -560,6 +573,7 @@ flowchart LR
   flat_design -. rejects .-> skeuomorphism
   grandmillennial_interior -. rejects .-> minimalist_interior
   grandmillennial_interior -. rejects .-> scandinavian_interior
+  group_f64 -. rejects .-> pictorialism
   grunge_editorial -. rejects .-> swiss_international
   italian_neorealism -. rejects .-> classical_hollywood
   japanese_dense_web -. rejects .-> swiss_international
@@ -713,16 +727,11 @@ flowchart LR
   linkStyle 112 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 113 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 114 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 217 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 218 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 219 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 220 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 221 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 222 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 223 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 224 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 225 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 226 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 115 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 116 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 117 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 118 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 119 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 227 stroke:#E5484D,stroke-width:1.5px
   linkStyle 228 stroke:#E5484D,stroke-width:1.5px
   linkStyle 229 stroke:#E5484D,stroke-width:1.5px
@@ -783,6 +792,17 @@ flowchart LR
   linkStyle 284 stroke:#E5484D,stroke-width:1.5px
   linkStyle 285 stroke:#E5484D,stroke-width:1.5px
   linkStyle 286 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 287 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 288 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 289 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 290 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 291 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 292 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 293 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 294 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 295 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 296 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 297 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 
@@ -827,7 +847,7 @@ The ontology has domains. A domain is one manifest ([`domains/`](domains/)) and 
 | Design | 25 | 16 CSS tokens, Tailwind patterns, a visual pack | [landing page](demo/index.html) |
 | Architecture | 9 | vocabulary primer for briefs, image prompts and 3D scenes | [massing](demo/architecture.html) |
 | Interior | 8 | composition rules in cm, lux and K, and a scene primer | [one room, each style](demo/interior.html) |
-| Photography | 8 | camera numbers (mm, f-stop, shutter, ISO, K) and a grade recipe | [gallery](demo/photography.html) |
+| Photography | 19 | camera numbers (mm, f-stop, shutter, ISO, K) and a grade recipe | [gallery](demo/photography.html) |
 | Film and video | 8 | shot primer (aspect, fps, shutter angle, shot length) and a video-prompt primer | [gallery](demo/film.html) |
 | Painting | 8 | palette in hex, brushwork and medium rules, a composition schema | [gallery](demo/painting.html) |
 
