@@ -244,6 +244,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`neumorphism`](../neumorphism/SKILL.md)
 - **Was rejected by:** [`flat-design`](../flat-design/SKILL.md), [`metro-ui`](../metro-ui/SKILL.md)
 - **Mixes well with:** [`apple-aqua`](../apple-aqua/SKILL.md), [`cassette-futurism`](../cassette-futurism/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`material-design`](../material-design/SKILL.md), [`spatial-visionos`](../spatial-visionos/SKILL.md)
+- **Kin in another domain:** [`skeuomorphic-icon`](../skeuomorphic-icon/SKILL.md)
 - **Nearest by vector profile:** [`cassette-futurism`](../cassette-futurism/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`apple-aqua`](../apple-aqua/SKILL.md)
 
 ## Emotional target

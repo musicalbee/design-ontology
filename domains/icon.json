@@ -1,0 +1,23 @@
+{
+  "id": "icon",
+  "order": 8,
+  "name": "Icons",
+  "schema": "schema/domains/icon.schema.json",
+  "task": "drawing, choosing or prompting an icon or an icon set: a UI glyph, an app icon, a pictogram or a sprite",
+  "vectors": [
+    { "key": "realism", "label": "Realism", "abbr": "REA", "low": "abstract glyph", "high": "rendered object with material and light" },
+    { "key": "fill", "label": "Fill", "abbr": "FIL", "low": "stroke only", "high": "solid fill only" },
+    { "key": "corner_softness", "label": "Corner softness", "abbr": "COR", "low": "square, sharp corners", "high": "round, soft corners" },
+    { "key": "detail_density", "label": "Detail density", "abbr": "DET", "low": "one idea in few strokes", "high": "many parts, texture and highlights" },
+    { "key": "colour_count", "label": "Colour count", "abbr": "COL", "low": "one colour", "high": "full colour with gradients" }
+  ],
+  "facets": [
+    { "key": "grid", "title": "Grid & live area" },
+    { "key": "stroke", "title": "Stroke" },
+    { "key": "shape", "title": "Shape & corners" },
+    { "key": "colour", "title": "Colour" },
+    { "key": "perspective_and_light", "title": "Perspective & light" },
+    { "key": "metaphor", "title": "Metaphor" },
+    { "key": "prompt_primer", "title": "Prompt primer" }
+  ]
+}

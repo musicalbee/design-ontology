@@ -1,0 +1,237 @@
+{
+  "$schema": "../../../schema/domains/icon.schema.json",
+  "id": "skeuomorphic-icon",
+  "domain": "icon",
+  "name": "Skeuomorphic icon",
+  "aliases": [
+    "Photorealistic icon",
+    "Aqua-era app icon",
+    "Tango-style icon"
+  ],
+  "era_id": "rendered",
+  "time_period": {
+    "start": 2001,
+    "end": 2013,
+    "label": "2001–2013"
+  },
+  "region": "Apple Mac OS X Aqua, then iOS and the Tango Desktop Project",
+  "formats": [
+    "png",
+    "svg"
+  ],
+  "summary": "Icons that look like small real objects: leather, glass, metal and paper, with light from the top, gradients and a soft cast shadow. The style peaked with Mac OS X Aqua and iOS 1 to 6, and Tango gave it an open, semi-realistic form.",
+  "philosophy": {
+    "core_thesis": "An icon is a small picture of a real object, and the material tells the user what the function is.",
+    "design_principles": [
+      "Draw the master at 256 or 512 px and make hand-tuned copies at 16, 22, 32 and 48 px.",
+      "Light every object from the top or the top left, at 45°, with one highlight and one shade side.",
+      "Give each surface a material: a linear gradient of 2 to 5 stops for metal, glass, wood or paper.",
+      "Add a 1 px light inner edge on the top and a 1 px dark outline at 20–40% opacity around the object.",
+      "Cast a soft shadow under the object at 20–35% opacity, offset 1–3 px down at 32 px.",
+      "Use a three-quarter or slight top-down view so that the object shows depth."
+    ],
+    "anti_patterns": [
+      "Flat fills with no light model",
+      "One-colour glyphs",
+      "Uniform stroke width across the set",
+      "Abstract symbols with no real object",
+      "Hard pixel stairs"
+    ]
+  },
+  "vectors": {
+    "realism": 5,
+    "fill": 5,
+    "corner_softness": 4,
+    "detail_density": 5,
+    "colour_count": 5
+  },
+  "grid": {
+    "sizes_px": [
+      16,
+      22,
+      32,
+      48,
+      128,
+      256,
+      512
+    ],
+    "base_px": 48,
+    "live_area_px": 44,
+    "padding_px": 2,
+    "keylines": "A circle of 44 px, a square of 40 px and a three-quarter box; the object may break the keyline by 2 px."
+  },
+  "stroke": {
+    "width_px": 1,
+    "caps": "round",
+    "joins": "round",
+    "rule": "The outline is a 1 px edge in a darker tone of the fill at 20–40% opacity, not a drawn stroke."
+  },
+  "shape": {
+    "corner_radius_px": 6,
+    "primitives": "Real object outlines: rounded boxes, cylinders, sheets of paper and glass panes.",
+    "optical_size": "Redraw the 16 and 22 px sizes with fewer parts and a stronger outline; keep texture only at 48 px and above."
+  },
+  "colour": {
+    "count_max": 48,
+    "gradients": true,
+    "strategy": "A full colour palette from the Tango set, with each hue in 3 tones (light, mid, dark) and linear or radial gradients.",
+    "colours": [
+      {
+        "name": "Butter",
+        "hex": "#EDD400",
+        "role": "highlight and warning"
+      },
+      {
+        "name": "Orange",
+        "hex": "#F57900",
+        "role": "accent"
+      },
+      {
+        "name": "Sky blue",
+        "hex": "#3465A4",
+        "role": "glass and links"
+      },
+      {
+        "name": "Chameleon",
+        "hex": "#73D216",
+        "role": "status and nature"
+      },
+      {
+        "name": "Scarlet",
+        "hex": "#CC0000",
+        "role": "error and stop"
+      },
+      {
+        "name": "Aluminium",
+        "hex": "#BABDB6",
+        "role": "metal and frame"
+      },
+      {
+        "name": "Slate",
+        "hex": "#2E3436",
+        "role": "outline and shade"
+      }
+    ]
+  },
+  "perspective_and_light": {
+    "view": "three-quarter perspective",
+    "light": "One key light from the top left at 45°, with a specular highlight on glass and metal.",
+    "shadow": "A soft cast shadow at 20–35% opacity under the object, and a contact shadow at the base."
+  },
+  "metaphor": {
+    "typical": "A letter, a globe, a printer, a camera, a notepad and a house.",
+    "treatment": "Literal real objects with their material: a mail icon is an envelope with paper texture."
+  },
+  "prompt_primer": {
+    "positive": [
+      "skeuomorphic app icon",
+      "photorealistic icon",
+      "glossy highlight",
+      "soft drop shadow",
+      "brushed metal and glass",
+      "three-quarter view",
+      "Tango desktop icon style",
+      "Mac OS X Aqua era"
+    ],
+    "negative": [
+      "flat design",
+      "line icons",
+      "single colour glyph",
+      "pixel art",
+      "minimal abstract symbol"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Tango: internet-mail",
+      "kind": "icon-set",
+      "maker": "Jakub Steiner, Andreas Nilsson and the Tango Desktop Project",
+      "year": 2005,
+      "credit": "Tango Desktop Project, file on Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Internet-mail.svg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/5/54/Internet-mail.svg"
+    },
+    {
+      "title": "Tango: go-home",
+      "kind": "icon-set",
+      "maker": "The Tango Desktop Project",
+      "credit": "Tango Desktop Project, file on Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Go-home.svg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Go-home.svg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "pixel-icon"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "isometric-icon"
+    ],
+    "echoes": [
+      "skeuomorphism",
+      "apple-aqua",
+      "frutiger-aero"
+    ]
+  },
+  "emotion": {
+    "target_response": "Comfort and trust: the user sees a familiar object and knows what it does.",
+    "keywords": [
+      "tactile",
+      "rich",
+      "familiar",
+      "glossy",
+      "friendly"
+    ],
+    "brand_archetypes": [
+      "caregiver",
+      "everyman",
+      "magician"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "skeuomorphic icon",
+      "realistic icon",
+      "aqua icon",
+      "ios 6 icon",
+      "tango icon",
+      "glossy icon",
+      "photoreal app icon"
+    ],
+    "use_cases": [
+      "retro or nostalgic app icons",
+      "desktop application icons",
+      "games and toys",
+      "brand illustrations with a tactile feel"
+    ],
+    "avoid_when": [
+      "The icons must sit inline with text at 16–24 px.",
+      "The set needs hundreds of glyphs that stay the same."
+    ],
+    "modifiers": [
+      {
+        "request": "flatter and simpler",
+        "toward": "flat-icon",
+        "how": "Keep the object and the colours; drop the gradients, the highlight and the shadow, and use a front view."
+      },
+      {
+        "request": "softer and modern",
+        "toward": "clay-3d-icon",
+        "how": "Keep the depth; replace hard gloss with a matte, clay-like material and a larger corner radius of 12–16 px at 48 px."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Tango Desktop Project, Tango Icon Theme Guidelines",
+      "url": "https://en.wikipedia.org/wiki/Tango_Desktop_Project"
+    },
+    {
+      "title": "Apple Human Interface Guidelines for Mac OS X (2001–2012), as summarised in the Aqua article",
+      "url": "https://en.wikipedia.org/wiki/Aqua_(user_interface)"
+    }
+  ]
+}

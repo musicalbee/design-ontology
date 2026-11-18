@@ -1,0 +1,208 @@
+{
+  "$schema": "../../../schema/domains/icon.schema.json",
+  "id": "duotone-icon",
+  "domain": "icon",
+  "name": "Duotone icon",
+  "aliases": [
+    "Two-tone icon",
+    "Bicolour icon"
+  ],
+  "era_id": "vector-system",
+  "time_period": {
+    "start": 2019,
+    "end": null,
+    "label": "2019–present"
+  },
+  "region": "Open icon systems with a duotone weight, such as Phosphor",
+  "formats": [
+    "svg",
+    "icon font"
+  ],
+  "summary": "Icons in two tones of one colour: a main shape at full strength and a secondary layer at 20–40% opacity. The second tone gives hierarchy and a little depth, but the icon stays a flat glyph.",
+  "philosophy": {
+    "core_thesis": "One colour in two strengths gives an icon a figure and a ground, so the meaning reads first and the detail second.",
+    "design_principles": [
+      "Split each icon into a primary layer and a secondary layer.",
+      "Set the primary layer at 100% opacity and the secondary layer at 20–40% opacity of the same colour.",
+      "Make the secondary layer the larger, simpler area: a body, a ground or a fill under the outline.",
+      "Use the 24 px grid with a 2 px stroke or a solid primary shape; keep the weight of the base set.",
+      "Keep the two layers aligned; the secondary layer never offsets from the primary.",
+      "Use one hue for both layers; a second hue only as a deliberate brand choice."
+    ],
+    "anti_patterns": [
+      "Two unrelated hues in one icon",
+      "Secondary layer at more than 50% opacity",
+      "Gradients between the tones",
+      "Drop shadows",
+      "Secondary layer offset from the outline"
+    ]
+  },
+  "vectors": {
+    "realism": 1,
+    "fill": 3,
+    "corner_softness": 4,
+    "detail_density": 2,
+    "colour_count": 2
+  },
+  "grid": {
+    "sizes_px": [
+      16,
+      20,
+      24,
+      32
+    ],
+    "base_px": 24,
+    "live_area_px": 20,
+    "padding_px": 2,
+    "keylines": "The keylines of the base set: a circle of 20 px and a square of 18 px."
+  },
+  "stroke": {
+    "width_px": 2,
+    "caps": "round",
+    "joins": "round",
+    "rule": "The primary layer keeps the 2 px stroke of the base set; the secondary layer is a fill with no stroke."
+  },
+  "shape": {
+    "corner_radius_px": 2,
+    "primitives": "The shapes of the base outline set; the secondary fill follows the closed shapes.",
+    "optical_size": "At 16 px, drop the secondary layer if it adds noise; at 32 px and above, keep both layers."
+  },
+  "colour": {
+    "count_max": 2,
+    "gradients": false,
+    "strategy": "One hue in two strengths: 100% for the figure, 20–40% for the secondary layer.",
+    "colours": [
+      {
+        "name": "Primary",
+        "hex": "#1E3A8A",
+        "role": "outline and main shape"
+      },
+      {
+        "name": "Secondary",
+        "hex": "#93A8DD",
+        "role": "fill at 30% (shown flat)"
+      },
+      {
+        "name": "Paper",
+        "hex": "#FFFFFF",
+        "role": "ground"
+      }
+    ]
+  },
+  "perspective_and_light": {
+    "view": "front orthographic",
+    "light": "No light model; the light tone works as a soft fill, not as light.",
+    "shadow": "No shadow; the two layers are flat."
+  },
+  "metaphor": {
+    "typical": "A house, an envelope, a folder, a chart and a shield.",
+    "treatment": "The outline of the object plus a soft fill in the main body."
+  },
+  "prompt_primer": {
+    "positive": [
+      "duotone icon",
+      "two tone icon",
+      "outline with soft fill",
+      "primary and secondary layer",
+      "30 percent opacity fill",
+      "single hue",
+      "24 px grid",
+      "Phosphor duotone style"
+    ],
+    "negative": [
+      "two clashing colours",
+      "gradients",
+      "drop shadows",
+      "photorealistic detail",
+      "offset print layers"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Phosphor: house (duotone)",
+      "kind": "icon-set",
+      "maker": "Helena Zhang and Tobias Fried",
+      "credit": "Phosphor Icons core 2.1.1, duotone weight",
+      "licence": "MIT",
+      "licence_url": "https://github.com/phosphor-icons/core/blob/main/LICENSE",
+      "url": "https://github.com/phosphor-icons/core",
+      "file": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/duotone/house-duotone.svg"
+    },
+    {
+      "title": "Phosphor: envelope (duotone)",
+      "kind": "icon-set",
+      "maker": "Helena Zhang and Tobias Fried",
+      "credit": "Phosphor Icons core 2.1.1, duotone weight",
+      "licence": "MIT",
+      "licence_url": "https://github.com/phosphor-icons/core/blob/main/LICENSE",
+      "url": "https://github.com/phosphor-icons/core",
+      "file": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/duotone/envelope-duotone.svg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "outline-icon",
+      "solid-glyph-icon"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "flat-icon"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Friendly order: the icon feels soft and a little rich, and still calm.",
+    "keywords": [
+      "soft",
+      "layered",
+      "friendly",
+      "polished"
+    ],
+    "brand_archetypes": [
+      "caregiver",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "duotone icon",
+      "two tone icon",
+      "bicolour icon",
+      "phosphor duotone",
+      "soft fill icon",
+      "two layer icon"
+    ],
+    "use_cases": [
+      "SaaS marketing pages",
+      "empty states and feature cards",
+      "dashboards with a soft brand",
+      "settings and onboarding"
+    ],
+    "avoid_when": [
+      "The icon is a 12–16 px control in a dense UI.",
+      "The print process has one ink with no tint."
+    ],
+    "modifiers": [
+      {
+        "request": "plainer",
+        "toward": "outline-icon",
+        "how": "Keep the 2 px stroke; remove the secondary layer."
+      },
+      {
+        "request": "more colour",
+        "toward": "flat-icon",
+        "how": "Keep the two layers; give each its own flat hue at 100% and drop the stroke."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Phosphor Icons core repository",
+      "url": "https://github.com/phosphor-icons/core"
+    },
+    {
+      "title": "Phosphor Icons homepage",
+      "url": "https://phosphoricons.com"
+    }
+  ]
+}

@@ -21,7 +21,7 @@ const domain = opt("domain");
 const only = opt("only")?.split(",");
 const force = args.includes("--force");
 const dry = args.includes("--dry-run");
-if (!domain) throw new Error("Give --domain photography|film|painting|interior");
+if (!domain) throw new Error("Give --domain photography|film|painting|interior|icon");
 
 const subjects = JSON.parse(readFileSync("scripts/previews/subjects.json", "utf8")) as Record<string, string>;
 const subject = subjects[domain];
