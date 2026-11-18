@@ -1,0 +1,282 @@
+{
+  "$schema": "../../../schema/domains/architecture.schema.json",
+  "id": "adaptive-reuse-architecture",
+  "domain": "architecture",
+  "name": "Adaptive Reuse",
+  "aliases": [
+    "Building reuse",
+    "Conversion architecture",
+    "Retrofit and reuse"
+  ],
+  "era_id": "postmodern-and-after",
+  "time_period": {
+    "start": 1964,
+    "end": null,
+    "label": "1964–present"
+  },
+  "building_types": [
+    "cultural",
+    "commercial",
+    "residential",
+    "infrastructure"
+  ],
+  "summary": "Old buildings given a new use. Scarpa, Aulenti and Herzog and de Meuron keep the shell of a castle, station or power plant, and add a clear new layer that tells old from new.",
+  "philosophy": {
+    "core_thesis": "An existing building has value in its fabric and its memory, so keep it, change its use and let the new work be clearly new beside the old.",
+    "design_principles": [
+      "Keep the existing structure and shell, and record its condition before you plan the new use.",
+      "Show the old and the new as two layers, with a gap or a joint of 20 to 100mm between them.",
+      "Choose a new material that contrasts with the old in tone and finish: glass, steel, or pale timber against brick and stone.",
+      "Keep the big old volume, such as a hall, a nave or a turbine hall of 10 to 35m, and insert new floors inside it.",
+      "Cut new openings only where the use needs them, and frame them so the old wall stays readable.",
+      "Leave marks of the former use on show, such as rails, stains, crane beams and chimneys."
+    ],
+    "anti_patterns": [
+      "A complete demolition behind a retained front",
+      "A fake historical copy that blurs old and new",
+      "New work in the same material and style as the old",
+      "Covering the old fabric with thick cladding",
+      "A new use that needs the walls to be gutted",
+      "A sealed insertion that does not touch the old"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "structural_expression": 4,
+    "geometric_rigidity": 3,
+    "material_rawness": 5,
+    "monumentality": 4
+  },
+  "massing": {
+    "form": "The existing building stays as the main mass, and a new roof, stair or inserted volume sits inside or on top of it.",
+    "proportion": "The original proportions, often a tall hall of 10 to 35m, are kept, with 20 to 40% new floor area.",
+    "roof": "The old roof is kept or repaired, and a new lightweight addition of glass or steel rises 1 to 3 storeys on it.",
+    "relation_to_ground": "The old plinth and ground relation are kept, and a new entrance or ramp is added."
+  },
+  "structure": {
+    "system": "The old masonry, steel or concrete frame is kept, and a new steel or timber frame is added.",
+    "span_and_module": "The old module of 4 to 10m is kept; new floors span 6 to 12m; the new frame stands 20 to 100mm clear of the old.",
+    "expression": "The old and new structures read as two layers, and a joint, a reveal or a bracket tells them apart."
+  },
+  "materials": {
+    "primary": [
+      "existing brick",
+      "existing stone",
+      "steel",
+      "glass"
+    ],
+    "secondary": [
+      "timber",
+      "weathering steel",
+      "concrete",
+      "lime plaster"
+    ],
+    "finish": "Layered and honest: patinated old brick and stone next to clean steel, glass and pale timber.",
+    "palette": [
+      {
+        "name": "Old brick",
+        "hex": "#8F5B45",
+        "role": "existing walls"
+      },
+      {
+        "name": "Soot grey",
+        "hex": "#5B5A57",
+        "role": "existing steel and stone"
+      },
+      {
+        "name": "New steel",
+        "hex": "#9BA2A6",
+        "role": "insertions"
+      },
+      {
+        "name": "Pale timber",
+        "hex": "#D6BC91",
+        "role": "new floors and fittings"
+      },
+      {
+        "name": "Clear glass",
+        "hex": "#BFD6D9",
+        "role": "new glazing"
+      }
+    ]
+  },
+  "facade": {
+    "composition": "The old facade stays as it was; the new openings and the new layer are set in it and framed clearly.",
+    "openings": "Old openings are kept and new ones are cut; the window-to-wall ratio is 20 to 45%.",
+    "solid_to_void": "Mostly solid: 55–80% solid."
+  },
+  "light_and_space": {
+    "daylight": "The old tall windows and roof lights bring in light, and the new glass inserts bring it deep into the plan.",
+    "spatial_sequence": "A grand old hall, a new stair or bridge across it, then rooms of the new use.",
+    "interior_character": "A ceiling of 4 to 20m with old trusses and crane beams, exposed brick, and new floors and light fittings."
+  },
+  "ornament": {
+    "attitude": "The marks of use and age are the ornament: patina, scars and old fittings, and the new layer stays plain.",
+    "details": [
+      "exposed old brick",
+      "crane beams and rails",
+      "patina and stains",
+      "new steel stair",
+      "timber insert"
+    ]
+  },
+  "composition": {
+    "symmetry": "asymmetric",
+    "axis_count": 0,
+    "rhythm_module_m": 6.0,
+    "rules": [
+      {
+        "principle": "contrast",
+        "rule": "Set clean new steel and glass against old brick and stone.",
+        "value": "2 layers"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Hold a gap or a reveal between the old fabric and the new.",
+        "value": "gap 20–100mm"
+      },
+      {
+        "principle": "scale",
+        "rule": "Keep the old hall and set the human new floors inside it.",
+        "value": "hall 10–35m"
+      },
+      {
+        "principle": "focal-point",
+        "rule": "Make one new insertion, such as a stair, a bridge or a roof, the focus.",
+        "value": "1 insertion"
+      },
+      {
+        "principle": "sightlines",
+        "rule": "Keep the long view down the old hall open.",
+        "value": "1 long axis"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Lead the visitor through the old threshold into a new route.",
+        "value": "1 route"
+      }
+    ]
+  },
+  "references": {
+    "images": [
+      {
+        "title": "Tate Modern, London",
+        "credit": "King of Hearts",
+        "licence": "CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Tate_Modern_London_June_2016.jpg"
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "international-style-architecture"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "industrial-loft-interior"
+    ]
+  },
+  "emotion": {
+    "target_response": "Respect and curiosity: the viewer feels the memory of the old building and the energy of its new life.",
+    "keywords": [
+      "layered",
+      "memory",
+      "honest",
+      "reused",
+      "contrast"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "adaptive reuse",
+      "building conversion",
+      "converted warehouse",
+      "converted factory",
+      "tate modern",
+      "carlo scarpa castelvecchio",
+      "musée d'orsay",
+      "retrofit",
+      "reuse of old buildings"
+    ],
+    "use_cases": [
+      "museums in old industrial buildings",
+      "housing and offices from old factories",
+      "station and power-plant conversions",
+      "heritage extension briefs"
+    ],
+    "avoid_when": [
+      "The site is empty and the brief asks for a new landmark.",
+      "The old fabric is unsafe and cannot be kept."
+    ],
+    "modifiers": [
+      {
+        "request": "more industrial",
+        "toward": "industrial-loft-interior",
+        "how": "Strip the finishes back to brick, steel and concrete, and show the old services."
+      },
+      {
+        "request": "more contemporary",
+        "toward": "high-tech-architecture",
+        "how": "Make the new layer a light steel and glass frame with exposed services."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "converted power station",
+      "exposed old brick",
+      "new steel insertion",
+      "timber floor in a hall",
+      "old crane beams",
+      "glass roof extension",
+      "patina and stains",
+      "clear joint between old and new",
+      "turbine hall"
+    ],
+    "negative": [
+      "fake historical copy",
+      "full demolition",
+      "painted over brick",
+      "same style old and new",
+      "mirrored curtain wall",
+      "suburban pastiche"
+    ],
+    "canonical_works": [
+      {
+        "work": "Castelvecchio Museum, Verona",
+        "architect": "Carlo Scarpa",
+        "year": 1964
+      },
+      {
+        "work": "Musée d'Orsay, Paris",
+        "architect": "Gae Aulenti",
+        "year": 1986
+      },
+      {
+        "work": "Tate Modern, London",
+        "architect": "Herzog and de Meuron",
+        "year": 2000
+      },
+      {
+        "work": "High Line, New York",
+        "architect": "Diller Scofidio + Renfro",
+        "year": 2009
+      },
+      {
+        "work": "Zeitz Museum of Contemporary Art Africa, Cape Town",
+        "architect": "Heatherwick Studio",
+        "year": 2017
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Liliane Wong, Adaptive Reuse: Extending the Lives of Buildings (Birkhäuser, 2017)"
+    }
+  ]
+}
