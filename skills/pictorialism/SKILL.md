@@ -176,7 +176,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`fashion-editorial`](../fashion-editorial/SKILL.md)
 - **Was rejected by:** [`documentary-photography`](../documentary-photography/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md)
-- **Kin in another domain:** [`impressionism`](../impressionism/SKILL.md)
+- **Kin in another domain:** [`impressionism`](../impressionism/SKILL.md), [`victorian-interior`](../victorian-interior/SKILL.md)
 - **Nearest by vector profile:** [`film-grain-revival`](../film-grain-revival/SKILL.md), [`food-photography`](../food-photography/SKILL.md), [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md)
 
 ## Emotional target

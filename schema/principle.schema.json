@@ -5,25 +5,50 @@
   "description": "One composition principle that styles in all domains share. A style refers to it by id in a rule ({ \"principle\": \"<id>\", ... }) and gives its own number.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "name", "aliases", "definition", "measures", "applies_to", "related", "sources"],
+  "required": [
+    "id",
+    "name",
+    "aliases",
+    "definition",
+    "measures",
+    "applies_to",
+    "related",
+    "sources"
+  ],
   "properties": {
-    "$schema": { "type": "string" },
-    "id": { "$ref": "core.schema.json#/$defs/slug" },
-    "name": { "$ref": "core.schema.json#/$defs/shortText" },
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "$ref": "core.schema.json#/$defs/slug"
+    },
+    "name": {
+      "$ref": "core.schema.json#/$defs/shortText"
+    },
     "aliases": {
       "type": "array",
       "uniqueItems": true,
-      "items": { "$ref": "core.schema.json#/$defs/shortText" }
+      "items": {
+        "$ref": "core.schema.json#/$defs/shortText"
+      }
     },
     "identity": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "wikidata": { "type": "string", "pattern": "^Q[0-9]+$" },
-        "aat": { "type": "string", "pattern": "^3[0-9]{8}$" }
+        "wikidata": {
+          "type": "string",
+          "pattern": "^Q[0-9]+$"
+        },
+        "aat": {
+          "type": "string",
+          "pattern": "^3[0-9]{8}$"
+        }
       }
     },
-    "definition": { "$ref": "core.schema.json#/$defs/sentence" },
+    "definition": {
+      "$ref": "core.schema.json#/$defs/sentence"
+    },
     "measures": {
       "type": "array",
       "minItems": 1,
@@ -32,11 +57,32 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["measure", "unit", "reference"],
+        "required": [
+          "measure",
+          "unit",
+          "reference"
+        ],
         "properties": {
-          "measure": { "$ref": "core.schema.json#/$defs/shortText" },
-          "unit": { "$ref": "core.schema.json#/$defs/shortText" },
-          "reference": { "type": "string", "minLength": 1, "maxLength": 120 }
+          "measure": {
+            "$ref": "core.schema.json#/$defs/shortText"
+          },
+          "unit": {
+            "$ref": "core.schema.json#/$defs/shortText"
+          },
+          "reference": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120
+          },
+          "domains": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            },
+            "description": "The domains this measure fits. Leave it out when the measure fits every domain in applies_to. A skill prints only the measures that fit its domain."
+          }
         }
       }
     },
@@ -44,10 +90,17 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "items": { "$ref": "core.schema.json#/$defs/slug" },
+      "items": {
+        "$ref": "core.schema.json#/$defs/slug"
+      },
       "description": "Domain ids from domains/."
     },
-    "related": { "$ref": "core.schema.json#/$defs/refList", "description": "Other principle ids." },
-    "sources": { "$ref": "core.schema.json#/$defs/sources" }
+    "related": {
+      "$ref": "core.schema.json#/$defs/refList",
+      "description": "Other principle ids."
+    },
+    "sources": {
+      "$ref": "core.schema.json#/$defs/sources"
+    }
   }
 }

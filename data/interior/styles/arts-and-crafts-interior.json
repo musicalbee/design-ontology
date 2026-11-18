@@ -1,0 +1,428 @@
+{
+  "$schema": "../../../schema/domains/interior.schema.json",
+  "domain": "interior",
+  "id": "arts-and-crafts-interior",
+  "name": "Arts and Crafts",
+  "aliases": [
+    "Arts and Crafts interior",
+    "Craftsman interior",
+    "Mission style"
+  ],
+  "identity": {
+    "wikidata": "Q330369",
+    "aat": "300266319"
+  },
+  "era_id": "industrial-century",
+  "time_period": {
+    "start": 1861,
+    "end": 1920,
+    "label": "1861–1920"
+  },
+  "room_types": [
+    "living",
+    "dining",
+    "bedroom",
+    "workspace"
+  ],
+  "summary": "The craft reform of the Victorian room. Handmade oak furniture shows its joints, a deep inglenook holds the hearth, and one stylised plant pattern runs on the walls or the textiles; low beams and built-in settles make the room honest and warm.",
+  "philosophy": {
+    "core_thesis": "A room is honest when every piece is made by hand from local materials and shows how it is made.",
+    "design_principles": [
+      "Show the construction: exposed joints, pegs, beams and hand-wrought hardware.",
+      "Use one stylised plant or bird pattern per room, on the paper or on the textiles, not on both.",
+      "Build furniture into the room: settles, window seats, dressers and bookcases.",
+      "Make the hearth a room in the room: an inglenook with built-in seats.",
+      "Keep colours from nature: oak brown, sage green, ochre and madder red.",
+      "Run a high picture rail or a plate shelf at about 2/3 of the wall height, so that the ceiling feels low.",
+      "Use hammered copper, leaded glass and hand-thrown pottery for the accents."
+    ],
+    "anti_patterns": [
+      "Machine-carved ornament",
+      "Veneer or gloss lacquer that hides the wood",
+      "Many patterns on one wall",
+      "Saturated synthetic dyes",
+      "Mass-produced reproduction furniture"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "density": 3,
+    "formality": 2,
+    "material_naturalness": 5,
+    "chromatic_intensity": 2
+  },
+  "composition": {
+    "plan_logic": "A low room on a grid of exposed beams. The inglenook and built-in pieces form the walls; loose furniture is few and heavy.",
+    "focal_point": "The inglenook with its hearth, built-in settles and a copper hood on the right wall.",
+    "symmetry": "bilateral",
+    "axis_count": 1,
+    "focal_wall": "right",
+    "focal_position": 0.5,
+    "rhythm_module_cm": 45,
+    "depth_layers": 3,
+    "rules": [
+      {
+        "principle": "focal-point",
+        "rule": "Make the inglenook the focal point and set it under a lowered beam.",
+        "value": "1 hearth, recess 120–180 cm deep"
+      },
+      {
+        "principle": "proportion",
+        "rule": "Lower the visual ceiling with a picture rail or plate shelf.",
+        "value": "rail at 2/3 of the wall height"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Repeat beams and the slats of chairs and settles at one pitch.",
+        "value": "45 cm beams, 5 cm slats"
+      },
+      {
+        "principle": "unity-variety",
+        "rule": "Use one pattern per room and repeat the oak and the copper everywhere.",
+        "value": "1 pattern, 2 materials"
+      },
+      {
+        "principle": "hierarchy",
+        "rule": "Make the built-in pieces dominant and the loose furniture secondary.",
+        "value": "2 levels"
+      },
+      {
+        "principle": "framing",
+        "rule": "Frame the inglenook and the window seats with posts and beams.",
+        "value": "post 12–15 cm square"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Show depth through recesses: inglenook, bay and alcove.",
+        "value": "3 planes"
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Give oak and plain or patterned walls the main share, sage and ochre the textiles, and copper and madder the accents.",
+        "value": "55/35/10"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Light with lanterns that hang low and table lamps with mica or leaded shades.",
+        "value": "70 lux ambient, 300 lux task, 2400 K"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Keep the route clear from the door to the hearth and the window seat.",
+        "value": "90 cm main, 70 cm secondary"
+      }
+    ]
+  },
+  "zoning": {
+    "zones": [
+      "inglenook",
+      "window seat",
+      "dining table",
+      "writing desk"
+    ],
+    "circulation": "A clear route from the door to the inglenook along the beams.",
+    "main_path_clear_cm": 90,
+    "secondary_path_clear_cm": 70,
+    "seat_to_table_cm": 40,
+    "conversation_diameter_cm": 240,
+    "floor_coverage_pct": 50,
+    "wall_coverage_pct": 50
+  },
+  "palette": {
+    "distribution": "Oak panelling and a plain or patterned wall above it; sage, olive and ochre textiles; copper, madder red and indigo in the accents.",
+    "dominant_pct": 55,
+    "secondary_pct": 35,
+    "accent_pct": 10,
+    "colours": [
+      {
+        "name": "Fumed oak",
+        "hex": "#6B4A2B",
+        "role": "wood",
+        "surface": "panelling, beams, furniture"
+      },
+      {
+        "name": "Parchment",
+        "hex": "#E2D7BC",
+        "role": "dominant",
+        "surface": "plaster above the rail"
+      },
+      {
+        "name": "Sage",
+        "hex": "#8E9A73",
+        "role": "secondary",
+        "surface": "wallpaper, upholstery"
+      },
+      {
+        "name": "Ochre",
+        "hex": "#C2913E",
+        "role": "secondary",
+        "surface": "textiles, tiles"
+      },
+      {
+        "name": "Hammered copper",
+        "hex": "#B5653A",
+        "role": "metal",
+        "surface": "hood, lamps, trays"
+      },
+      {
+        "name": "Madder red",
+        "hex": "#8E3B2E",
+        "role": "accent",
+        "surface": "cushions, pottery"
+      }
+    ]
+  },
+  "lighting": {
+    "strategy": "Warm, low pools of light. Lanterns hang low over tables; leaded windows and lamps give coloured, filtered light.",
+    "daylight": "Small-paned casement or leaded windows give soft side light; window seats sit in the bays.",
+    "ambient_lux": 70,
+    "task_lux": 300,
+    "accent_ratio": 4,
+    "cct_k": 2400,
+    "cct_evening_k": 2100,
+    "cri_min": 90,
+    "layers": [
+      {
+        "layer": "daylight",
+        "source": "leaded casement windows",
+        "position": "bay with a window seat"
+      },
+      {
+        "layer": "ambient",
+        "source": "copper pendant lantern with mica panels",
+        "position": "low over the table"
+      },
+      {
+        "layer": "task",
+        "source": "table lamp with a mica or leaded shade",
+        "position": "on the desk and beside the settle"
+      },
+      {
+        "layer": "accent",
+        "source": "hearth fire or warm wall sconces",
+        "position": "in the inglenook"
+      }
+    ]
+  },
+  "materials": {
+    "primary": [
+      "quarter-sawn oak",
+      "lime plaster",
+      "brick or stone hearth"
+    ],
+    "secondary": [
+      "hammered copper",
+      "leaded glass",
+      "art pottery tiles",
+      "wool",
+      "linen",
+      "leather"
+    ],
+    "finish": "Fumed or wax-finished oak, hand-hammered metal, matt glazes.",
+    "texture_contrast": "Rough brick, hammered metal and handwoven wool against planed oak, at about 1:1."
+  },
+  "furniture": {
+    "silhouette": "Rectilinear, solid oak pieces with exposed tenons, slats and corbels; heavy and plain.",
+    "arrangement": "Built-in settles and dressers form the room; a few loose chairs and one table stand on a hand-knotted rug.",
+    "seat_height_cm": 44,
+    "key_pieces": [
+      "inglenook settle",
+      "Morris adjustable chair",
+      "oak trestle or refectory table",
+      "slatted armchair",
+      "built-in dresser",
+      "hammered copper lamp"
+    ]
+  },
+  "textiles": {
+    "fabrics": [
+      "handwoven wool",
+      "linen",
+      "printed cotton",
+      "leather"
+    ],
+    "pattern": "One stylised plant or bird pattern per room, block-printed or woven.",
+    "windows": "Plain linen curtains on iron or wood poles, often café curtains on the lower half."
+  },
+  "objects": {
+    "approach": "Handmade, useful objects: pottery, copper, books and woven baskets.",
+    "grouping": "Rows along a plate shelf or a mantel; groups of 3–5.",
+    "max_per_surface": 5,
+    "hang_centre_cm": 150,
+    "items": [
+      "art pottery vase",
+      "hammered copper tray",
+      "row of plates on a plate shelf",
+      "leaded glass lamp",
+      "books"
+    ]
+  },
+  "implementation": {
+    "brief": "A low beamed living room with fumed oak panelling to a plate shelf and parchment plaster above. A brick inglenook with two built-in settles and a copper hood stands on the right wall; a Morris chair, an oak table and a hand-knotted rug sit before it.",
+    "image_prompt": "Arts and Crafts living room, fumed oak wall panelling to a plate shelf, parchment plaster above, exposed oak ceiling beams, brick inglenook fireplace with built-in oak settles and a hammered copper hood, Morris chair with sage cushions, oak table, hand-knotted rug, leaded glass casement windows with a window seat, copper lantern, art pottery on the shelf, warm low light, handmade, interior photograph",
+    "negative_prompt": "Gloss, veneer, chrome, machine ornament, saturated colour, minimal white walls.",
+    "camera": "28 mm lens at 140 cm, three-quarter view toward the inglenook.",
+    "scene_3d": "Room 550 x 450 cm, ceiling 260 cm with 15 cm beams at 45 cm. Daylight through leaded glass; one 2400 K lantern at 190 cm; a fire light at 1900 K.",
+    "furniture_list": [
+      "inglenook 200 x 150 cm with 2 settles",
+      "Morris chair, seat 44 cm",
+      "oak table 160 x 80 x 74 cm",
+      "built-in dresser 180 x 45 x 200 cm",
+      "rug 200 x 300 cm"
+    ],
+    "material_list": [
+      "quarter-sawn oak, fumed",
+      "lime plaster, parchment",
+      "hand-made brick",
+      "hammered copper",
+      "leaded glass",
+      "handwoven wool"
+    ],
+    "references": [
+      {
+        "title": "Cabinet, The Backgammon Players, by Philip Webb and Edward Burne-Jones (1861)",
+        "credit": "The Metropolitan Museum of Art, Rogers Fund, 1926",
+        "licence": "CC0",
+        "url": "https://www.metmuseum.org/art/collection/search/195456"
+      },
+      {
+        "title": "Linen press, Byrdcliffe Colony (c. 1904)",
+        "credit": "The Metropolitan Museum of Art, Purchase, Friends of the American Wing Fund and Mr. and Mrs. Mark Willcox Jr. Gift, 1991",
+        "licence": "CC0",
+        "url": "https://www.metmuseum.org/art/collection/search/14336"
+      },
+      {
+        "title": "Trellis wallpaper, William Morris (1864)",
+        "credit": "The Metropolitan Museum of Art, Purchase, Edward C. Moore Jr. Gift, 1923",
+        "licence": "CC0",
+        "url": "https://www.metmuseum.org/art/collection/search/384020"
+      },
+      {
+        "title": "Willow Bough wallpaper, William Morris (1887)",
+        "credit": "The Metropolitan Museum of Art, Purchase, Edward C. Moore Jr. Gift, 1923",
+        "licence": "CC0",
+        "url": "https://www.metmuseum.org/art/collection/search/384022"
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "shaker-interior"
+    ],
+    "rebelled_against": [
+      "victorian-interior"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "nordic-national-romanticism-painting"
+    ]
+  },
+  "emotion": {
+    "target_response": "Honest warmth: the viewer feels at home in a room where each thing is made with care.",
+    "keywords": [
+      "handmade",
+      "honest",
+      "warm",
+      "sturdy",
+      "natural",
+      "hearth"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "arts and crafts",
+      "craftsman",
+      "mission style",
+      "william morris",
+      "inglenook",
+      "bungalow interior",
+      "handmade oak"
+    ],
+    "use_cases": [
+      "bungalow restoration",
+      "libraries and studies",
+      "country inns",
+      "craft retail",
+      "pubs and cafés"
+    ],
+    "avoid_when": [
+      "The brief asks for light, white or glossy surfaces.",
+      "The budget needs mass-produced furniture."
+    ],
+    "modifiers": [
+      {
+        "request": "more curved and decorative",
+        "toward": "art-nouveau-interior",
+        "how": "Curve the lines, add whiplash plant ornament and stained glass; keep the craft and the one-pattern rule."
+      },
+      {
+        "request": "simpler and lighter",
+        "toward": "shaker-interior",
+        "how": "Remove the pattern and the copper, paint the walls white and hang the chairs on a peg rail."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "Arts and Crafts interior",
+      "fumed oak panelling",
+      "inglenook fireplace",
+      "built-in settle",
+      "Morris chair",
+      "hammered copper",
+      "leaded glass windows",
+      "plate shelf",
+      "William Morris pattern",
+      "art pottery"
+    ],
+    "negative": [
+      "gloss",
+      "veneer",
+      "chrome",
+      "machine ornament",
+      "minimal"
+    ],
+    "canonical_works": [
+      {
+        "work": "Red House",
+        "architect": "Philip Webb and William Morris",
+        "year": 1860
+      },
+      {
+        "work": "Gamble House",
+        "architect": "Greene and Greene",
+        "year": 1908
+      },
+      {
+        "work": "Craftsman furniture",
+        "architect": "Gustav Stickley",
+        "year": 1901
+      },
+      {
+        "work": "Blackwell house",
+        "architect": "M. H. Baillie Scott",
+        "year": 1900
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "William Morris, Hopes and Fears for Art (London, 1882)"
+    },
+    {
+      "title": "Wendy Kaplan, The Arts and Crafts Movement in Europe and America (Thames and Hudson, 2004)"
+    },
+    {
+      "title": "Wikidata Q330369: Arts and Crafts movement",
+      "url": "https://www.wikidata.org/wiki/Q330369"
+    },
+    {
+      "title": "Getty AAT 300266319",
+      "url": "https://vocab.getty.edu/page/aat/300266319"
+    }
+  ]
+}

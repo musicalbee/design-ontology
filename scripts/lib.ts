@@ -50,7 +50,7 @@ export interface Principle {
   name: string;
   aliases: string[];
   definition: string;
-  measures: { measure: string; unit: string; reference: string }[];
+  measures: { measure: string; unit: string; reference: string; domains?: string[] }[];
   applies_to: string[];
   related: string[];
   identity?: { wikidata?: string; aat?: string };

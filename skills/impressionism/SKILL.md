@@ -172,7 +172,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Was rejected by:** [`cubism-painting`](../cubism-painting/SKILL.md)
 - **Mixes well with:** [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md)
-- **Kin in another domain:** [`film-grain-revival`](../film-grain-revival/SKILL.md), [`pictorialism`](../pictorialism/SKILL.md)
+- **Kin in another domain:** [`film-grain-revival`](../film-grain-revival/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`pictorialism`](../pictorialism/SKILL.md)
 - **Nearest by vector profile:** [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`abstract-expressionism`](../abstract-expressionism/SKILL.md), [`baroque-painting`](../baroque-painting/SKILL.md)
 
 ## Emotional target

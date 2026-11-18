@@ -175,7 +175,6 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Approach:** Only useful objects are on show: boxes, baskets, brooms and tools hang on the rail or stand on a shelf.
 - **Grouping:** Oval boxes stand in graduated stacks of 3 to 5. Tools and clothes hang in one row on the peg rail.
 - **Max per surface:** 3
-- **Hang centre (cm):** 0
 - **Items:** oval boxes · woven baskets · flat broom · wall sconce · chair on the peg rail
 
 ## Implementation primer: brief, image prompt, 3D scene
@@ -240,7 +239,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **warmer and more modern**: move toward [`scandinavian-interior`](../scandinavian-interior/SKILL.md) (Scandinavian interior). Change the wood to pale oak, add a wool rug, a sofa and 3–5 small lamps; keep the bare walls and the single focal wall.
 - If the user asks for **more minimal**: move toward [`japandi-interior`](../japandi-interior/SKILL.md) (Japandi). Lower the furniture to 38 cm seats, remove the peg rail, and add one stoneware vessel; keep one wood and the bare floor.
 
-- **Led to (go here for a newer version):** [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
+- **Led to (go here for a newer version):** [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
 - **Nearest by vector profile:** [`japandi-interior`](../japandi-interior/SKILL.md), [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
 
 ## Emotional target

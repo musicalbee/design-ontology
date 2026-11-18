@@ -1,0 +1,411 @@
+{
+  "$schema": "../../../schema/domains/interior.schema.json",
+  "domain": "interior",
+  "id": "hollywood-regency-interior",
+  "name": "Hollywood Regency",
+  "aliases": [
+    "Hollywood Regency",
+    "Regency moderne",
+    "Hollywood glamour"
+  ],
+  "identity": {
+    "wikidata": "Q25312912",
+    "aat": "300374864"
+  },
+  "era_id": "post-war-modern",
+  "time_period": {
+    "start": 1935,
+    "end": 1965,
+    "label": "1935–1965; revival from 2005"
+  },
+  "room_types": [
+    "living",
+    "bedroom",
+    "dining",
+    "hospitality",
+    "retail"
+  ],
+  "summary": "The decorator's room of the film stars. Regency and neoclassical forms meet lacquer colour, bold stripes and mirror; a symmetric plan around a centre piece, white plaster and gilt make each room ready for a camera.",
+  "philosophy": {
+    "core_thesis": "A room is a stage set: bold colour, gloss and symmetry make the people in it look their best.",
+    "design_principles": [
+      "Plan the room around one centre piece, such as a round table or an ottoman, with seats in pairs about it.",
+      "Use one saturated colour boldly, often lacquered, against white or black.",
+      "Add mirror and gilt for sparkle: mirrored furniture, gilt frames and brass fittings.",
+      "Use bold graphic pattern on one surface: wide stripes, trellis or a black and white floor.",
+      "Mix Regency and neoclassical forms, such as klismos chairs and pagodas, with modern comfort.",
+      "Make the room photogenic: warm light that flatters faces and a clear view of each pair."
+    ],
+    "anti_patterns": [
+      "Matt, rustic or raw surfaces",
+      "Muted earth palettes with no contrast",
+      "Asymmetric informal groups",
+      "Bare, cold light",
+      "Many small patterns at once"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "density": 3,
+    "formality": 4,
+    "material_naturalness": 2,
+    "chromatic_intensity": 4
+  },
+  "composition": {
+    "plan_logic": "A symmetric plan around a centre piece. Pairs of sofas, chairs and lamps face each other across it; a lacquer or mirror wall closes the axis.",
+    "focal_point": "A round centre table or tufted ottoman under a chandelier in the middle of the room.",
+    "symmetry": "radial",
+    "axis_count": 2,
+    "focal_wall": "centre",
+    "focal_position": 0.5,
+    "rhythm_module_cm": 40,
+    "depth_layers": 3,
+    "rules": [
+      {
+        "principle": "symmetry-axis",
+        "rule": "Arrange pairs of seats and lamps on two axes that cross at the centre piece.",
+        "value": "2 axes, mirror pairs"
+      },
+      {
+        "principle": "focal-point",
+        "rule": "Put the focal point in the centre of the floor under the chandelier.",
+        "value": "1 centre piece"
+      },
+      {
+        "principle": "contrast",
+        "rule": "Set one lacquered saturated colour against white plaster and black accents.",
+        "value": "LRV difference 50–70"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Repeat one bold stripe or trellis on one surface only.",
+        "value": "stripes 10–20 cm"
+      },
+      {
+        "principle": "balance",
+        "rule": "Balance each piece with its twin across the centre.",
+        "value": "moment ratio 1.0"
+      },
+      {
+        "principle": "hierarchy",
+        "rule": "Make the centre piece and the chandelier the richest; the walls stay plain.",
+        "value": "3 levels"
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Give white and the lacquer colour the main shares and gilt and black the accents.",
+        "value": "50/35/15"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Light the faces with warm lamps in pairs and a crystal chandelier; avoid downlight.",
+        "value": "150 lux ambient, 300 lux task, 2700 K"
+      },
+      {
+        "principle": "sightlines",
+        "rule": "Keep the view from the door to the centre piece open.",
+        "value": "furniture on the axis below 80 cm"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Keep a ring route around the centre group.",
+        "value": "100 cm main, 75 cm secondary"
+      }
+    ]
+  },
+  "zoning": {
+    "zones": [
+      "centre conversation group",
+      "bar cart",
+      "vanity or writing desk",
+      "window banquette"
+    ],
+    "circulation": "A ring route around the centre group and two straight routes on the axes.",
+    "main_path_clear_cm": 100,
+    "secondary_path_clear_cm": 75,
+    "seat_to_table_cm": 40,
+    "conversation_diameter_cm": 280,
+    "floor_coverage_pct": 50,
+    "wall_coverage_pct": 40
+  },
+  "palette": {
+    "distribution": "White plaster and one lacquered colour (emerald, coral or peacock blue) on walls or furniture; black on a floor or trim; gilt and mirror for the accents.",
+    "dominant_pct": 50,
+    "secondary_pct": 35,
+    "accent_pct": 15,
+    "colours": [
+      {
+        "name": "Plaster white",
+        "hex": "#F4F1EA",
+        "role": "dominant",
+        "surface": "walls, ceiling"
+      },
+      {
+        "name": "Emerald lacquer",
+        "hex": "#0F6B4F",
+        "role": "secondary",
+        "surface": "walls or cabinets"
+      },
+      {
+        "name": "Coral",
+        "hex": "#E2735E",
+        "role": "secondary",
+        "surface": "upholstery, lamps"
+      },
+      {
+        "name": "Gloss black",
+        "hex": "#111111",
+        "role": "accent",
+        "surface": "floor tiles, trims, frames"
+      },
+      {
+        "name": "Gilt",
+        "hex": "#C9A246",
+        "role": "metal",
+        "surface": "mirrors, frames, hardware"
+      },
+      {
+        "name": "Mirror",
+        "hex": "#D7DCDF",
+        "role": "metal",
+        "surface": "mirrored furniture and panels"
+      }
+    ]
+  },
+  "lighting": {
+    "strategy": "Warm light that flatters faces. Pairs of lamps at face height and a crystal chandelier give sparkle; mirrors double each source.",
+    "daylight": "Tall windows with full curtains on gilt poles; daylight reflects from mirror and lacquer.",
+    "ambient_lux": 150,
+    "task_lux": 300,
+    "accent_ratio": 3,
+    "cct_k": 2700,
+    "cct_evening_k": 2400,
+    "cri_min": 95,
+    "layers": [
+      {
+        "layer": "decorative",
+        "source": "crystal chandelier",
+        "position": "over the centre piece"
+      },
+      {
+        "layer": "task",
+        "source": "pairs of tall lamps with pleated shades",
+        "position": "on side tables at each end of the sofas"
+      },
+      {
+        "layer": "accent",
+        "source": "picture lights and mirrored sconces",
+        "position": "on the lacquer wall"
+      },
+      {
+        "layer": "daylight",
+        "source": "tall windows with full curtains",
+        "position": "window wall"
+      }
+    ]
+  },
+  "materials": {
+    "primary": [
+      "lacquer",
+      "plaster",
+      "mirror glass"
+    ],
+    "secondary": [
+      "gilt wood",
+      "brass",
+      "velvet",
+      "silk",
+      "marble",
+      "faux bamboo"
+    ],
+    "finish": "High-gloss lacquer, mirror and polished brass.",
+    "texture_contrast": "Gloss and mirror against tufted velvet, at about 2:1 in favour of gloss."
+  },
+  "furniture": {
+    "silhouette": "Neoclassical and Regency forms in clean, smooth lines: klismos chairs, tufted sofas, pagoda and faux-bamboo pieces.",
+    "arrangement": "Matched pairs face each other across a round centre table or ottoman.",
+    "seat_height_cm": 44,
+    "key_pieces": [
+      "tufted ottoman",
+      "pair of tufted sofas",
+      "klismos chairs",
+      "mirrored chest",
+      "lacquer étagère",
+      "crystal chandelier",
+      "pair of pagoda lamps"
+    ]
+  },
+  "textiles": {
+    "fabrics": [
+      "velvet",
+      "silk",
+      "satin",
+      "chinoiserie print"
+    ],
+    "pattern": "One bold graphic pattern: wide stripe, trellis or chinoiserie.",
+    "windows": "Full silk or satin curtains with a shaped pelmet, on gilt poles."
+  },
+  "objects": {
+    "approach": "Glamorous pieces in pairs: porcelain, gilt, crystal and framed portraits.",
+    "grouping": "Pairs and symmetric sets.",
+    "max_per_surface": 4,
+    "hang_centre_cm": 160,
+    "items": [
+      "pair of porcelain foo dogs",
+      "gilt sunburst mirror",
+      "crystal obelisks",
+      "framed portrait",
+      "lacquer tray"
+    ]
+  },
+  "implementation": {
+    "brief": "A white plaster room with an emerald lacquered back wall and a black and white floor. Two tufted coral sofas face each other across a round tufted ottoman under a crystal chandelier; pagoda lamps, a mirrored chest and gilt mirrors stand in pairs.",
+    "image_prompt": "Hollywood Regency living room, symmetrical, white plaster walls and an emerald green lacquered wall, black and white checkerboard floor, two coral velvet tufted sofas facing each other, round tufted ottoman in the centre, crystal chandelier, pair of pagoda lamps, mirrored chest, gilt sunburst mirrors, glossy and glamorous, 1950s Los Angeles, interior photograph",
+    "negative_prompt": "Rustic, matt earth tones, asymmetric, cold light, clutter, raw wood.",
+    "camera": "24 mm lens at 140 cm, frontal view on the cross axis through the centre piece.",
+    "scene_3d": "Room 650 x 550 cm, ceiling 300 cm. One 2700 K crystal chandelier at 220 cm; four 2700 K lamps at 130 cm; lacquer roughness 0.05.",
+    "furniture_list": [
+      "2 sofas 210 x 90 x 80 cm, seat 44 cm",
+      "round ottoman 110 cm",
+      "mirrored chest 90 x 45 x 80 cm",
+      "2 klismos chairs",
+      "chandelier 80 cm"
+    ],
+    "material_list": [
+      "emerald lacquer",
+      "white plaster",
+      "black and white marble tiles",
+      "coral velvet",
+      "gilt wood",
+      "mirror glass"
+    ],
+    "references": [
+      {
+        "title": "Regency source: gilded-wood bench designed by Thomas Hope (before 1807)",
+        "credit": "The Metropolitan Museum of Art, Purchase, The James Parker Charitable Foundation Gift, 2014",
+        "licence": "CC0",
+        "url": "https://www.metmuseum.org/art/collection/search/631133"
+      },
+      {
+        "title": "Regency source: Thomas Hope, Household Furniture and Interior Decoration (1807)",
+        "credit": "The Metropolitan Museum of Art, Harris Brisbane Dick Fund, 1930",
+        "licence": "CC0",
+        "url": "https://www.metmuseum.org/art/collection/search/351777"
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "art-deco-interior",
+      "georgian-interior"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "art-deco-web"
+    ]
+  },
+  "emotion": {
+    "target_response": "Delight: the viewer feels glamorous and on show, as on a film set.",
+    "keywords": [
+      "glamorous",
+      "bold",
+      "theatrical",
+      "glossy",
+      "symmetric",
+      "witty"
+    ],
+    "brand_archetypes": [
+      "lover",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "hollywood regency",
+      "regency moderne",
+      "dorothy draper",
+      "old hollywood",
+      "glam interior",
+      "lacquered walls",
+      "checkerboard floor"
+    ],
+    "use_cases": [
+      "hotel lobbies and bars",
+      "dressing rooms",
+      "beauty and fashion retail",
+      "restaurants",
+      "event spaces"
+    ],
+    "avoid_when": [
+      "The brief asks for calm or natural materials.",
+      "The room has no centre, such as a narrow corridor."
+    ],
+    "modifiers": [
+      {
+        "request": "darker and more geometric",
+        "toward": "art-deco-interior",
+        "how": "Replace the lacquer colour with black lacquer and veneer, add stepped and fan forms and cove light."
+      },
+      {
+        "request": "softer and today",
+        "toward": "neo-deco-interior",
+        "how": "Replace the gloss with fluted wood and bouclé, round all corners and warm the palette."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "Hollywood Regency interior",
+      "lacquered walls",
+      "checkerboard floor",
+      "tufted ottoman",
+      "crystal chandelier",
+      "pagoda lamps",
+      "mirrored furniture",
+      "gilt sunburst mirror",
+      "emerald and coral",
+      "symmetry"
+    ],
+    "negative": [
+      "rustic",
+      "earth tones",
+      "asymmetric",
+      "cold light",
+      "raw wood"
+    ],
+    "canonical_works": [
+      {
+        "work": "Greenbrier Hotel interiors",
+        "architect": "Dorothy Draper",
+        "year": 1948
+      },
+      {
+        "work": "Interiors for film stars in Los Angeles",
+        "architect": "William Haines",
+        "year": 1935
+      },
+      {
+        "work": "Carlyle Hotel interiors",
+        "architect": "Dorothy Draper",
+        "year": 1930
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Dorothy Draper, Decorating Is Fun! (Doubleday, 1939)"
+    },
+    {
+      "title": "Peter Schifando and Jean H. Mathison, Class Act: William Haines, Legendary Hollywood Decorator (Pointed Leaf Press, 2005)"
+    },
+    {
+      "title": "Wikidata Q25312912: Hollywood Regency",
+      "url": "https://www.wikidata.org/wiki/Q25312912"
+    },
+    {
+      "title": "Getty AAT 300374864",
+      "url": "https://vocab.getty.edu/page/aat/300374864"
+    }
+  ]
+}
