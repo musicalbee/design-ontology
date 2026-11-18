@@ -233,10 +233,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **warmer**: move toward [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md) (Mid-century modern interior). Change chrome to teak and moulded plywood, add a low sofa and warm 2700 K light; keep the asymmetric plan and the open frames.
 - If the user asks for **more playful**: move toward [`memphis-interior`](../memphis-interior/SKILL.md) (Memphis interior). Add pattern laminate and 4 or more saturated hues, rotate pieces off the grid; keep the primary solids.
 
-- **Led to (go here for a newer version):** [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md)
+- **Led to (go here for a newer version):** [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md)
 - **Was rejected by:** [`memphis-interior`](../memphis-interior/SKILL.md)
 - **Kin in another domain:** [`bauhaus`](../bauhaus/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md)
-- **Nearest by vector profile:** [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md), [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md)
+- **Nearest by vector profile:** [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
 
 ## Emotional target
 
