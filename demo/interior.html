@@ -16,15 +16,6 @@
   body { font: 15px/1.5 system-ui, sans-serif; background: var(--paper); color: var(--ink); }
   @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; } }
 
-  /* Picker: the same chrome as demo/index.html. */
-  .picker { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; gap: 10px; padding: 8px 12px;
-    background: var(--chrome); color: var(--chrome-ink); font: 13px/1.2 system-ui, sans-serif; border-bottom: 1px solid #34343a; }
-  .picker b { white-space: nowrap; font-weight: 650; }
-  .picker button { font: inherit; color: var(--chrome-ink); background: var(--chrome-2); border: 1px solid var(--chrome-line); border-radius: 6px; padding: 6px 10px; cursor: pointer; white-space: nowrap; }
-  .picker button:hover { background: #3a3a42; }
-  .picker button[aria-pressed="true"] { background: var(--chrome-ink); color: var(--chrome); border-color: var(--chrome-ink); }
-  .picker a { color: var(--chrome-ink); white-space: nowrap; }
-  .chips { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: thin; padding: 2px; flex: 1; }
   :focus-visible { outline: 3px solid #6aa8ff; outline-offset: 2px; }
 
   main { max-width: 1240px; margin: 0 auto; padding: 24px 16px 64px; display: grid; gap: 24px; }
@@ -78,13 +69,7 @@
 </style>
 </head>
 <body>
-<nav class="picker" aria-label="Styles">
-  <b>One room</b>
-  <button id="prev" aria-label="Previous style">←</button>
-  <div class="chips" id="chips"></div>
-  <button id="next" aria-label="Next style">→</button>
-  <a href="index.html">Landing page demo</a>
-</nav>
+<script src="nav.js"></script>
 
 <main id="stage">
   <header>
@@ -368,7 +353,7 @@ function show(i) {
     document.title = `${s.name}: one room in every style`;
   });
   for (const b of $("chips").children) b.setAttribute("aria-pressed", b.dataset.go === meta.id);
-  $("chips").querySelector('[aria-pressed="true"]')?.scrollIntoView({ block: "nearest", inline: "center" });
+  $("chips").querySelector('[aria-pressed="true"]')?.scrollIntoView({ block: "nearest" });
   if (location.hash.slice(1) !== meta.id) history.replaceState(null, "", "#" + meta.id);
 }
 
