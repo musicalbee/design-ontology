@@ -1,0 +1,383 @@
+{
+  "$schema": "../../../schema/domains/interior.schema.json",
+  "domain": "interior",
+  "id": "grandmillennial-interior",
+  "name": "Grandmillennial",
+  "aliases": [
+    "Granny chic",
+    "New traditional",
+    "Grandmillennial style"
+  ],
+  "era_id": "networked-home",
+  "time_period": {
+    "start": 2019,
+    "end": null,
+    "label": "2019–present"
+  },
+  "room_types": [
+    "living",
+    "bedroom",
+    "dining",
+    "hospitality"
+  ],
+  "summary": "A young generation takes back the rooms of its grandparents. Chintz, ruffles, needlepoint, skirted tables, wicker and blue-and-white porcelain return with a fresh, light palette and a sense of humour; pattern meets pattern and inherited pieces meet new ones.",
+  "philosophy": {
+    "core_thesis": "Comfort and memory beat the cool, empty room: inherited, pretty and patterned things make a home.",
+    "design_principles": [
+      "Mix 3–5 patterns in one room: a floral, a stripe or check, and a small print, held in one colour family.",
+      "Keep the walls light and fresh, or cover them in a small floral paper.",
+      "Use soft traditional forms: skirted tables, pleated lampshades, ruffled cushions and scalloped edges.",
+      "Mix inherited or vintage pieces with a few new ones.",
+      "Display collections: blue-and-white porcelain, plates on the wall, needlepoint cushions.",
+      "Keep the arrangement traditional and symmetric about the hearth or the bed, then break it with one witty piece."
+    ],
+    "anti_patterns": [
+      "Flat-pack furniture of one new range",
+      "Grey and white rooms with no pattern",
+      "Chrome or glass furniture",
+      "Bare walls and bare tables",
+      "Dark, heavy Victorian colours"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "density": 4,
+    "formality": 3,
+    "material_naturalness": 3,
+    "chromatic_intensity": 3
+  },
+  "composition": {
+    "plan_logic": "A traditional room with a chimneypiece or a bed on the main wall. Pairs of chairs and lamps frame it, and small skirted tables fill the corners.",
+    "focal_point": "A chintz sofa or a skirted bed under a group of plates or a gilt mirror on the back wall.",
+    "symmetry": "bilateral",
+    "axis_count": 1,
+    "focal_wall": "back",
+    "focal_position": 0.5,
+    "rhythm_module_cm": 20,
+    "depth_layers": 3,
+    "rules": [
+      {
+        "principle": "unity-variety",
+        "rule": "Mix patterns of 3 scales in one colour family.",
+        "value": "3–5 patterns, large/medium/small"
+      },
+      {
+        "principle": "symmetry-axis",
+        "rule": "Frame the sofa or the bed with pairs of lamps, chairs and pictures.",
+        "value": "1 axis, pairs"
+      },
+      {
+        "principle": "grouping",
+        "rule": "Group plates, porcelain and pictures in dense, symmetric sets.",
+        "value": "sets of 5–9"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Layer skirts, throws and cushions on each piece.",
+        "value": "3 textile layers per piece"
+      },
+      {
+        "principle": "focal-point",
+        "rule": "Make the sofa or the bed with the plate wall above it the focal point.",
+        "value": "1 focal wall"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Repeat scallops, ruffles and pleats as small edge rhythms.",
+        "value": "10–20 cm scallop"
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Give a light ground the main share, the floral colours the second, and green or coral the accents.",
+        "value": "50/35/15"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Light the room with many pleated-shade lamps, not with ceiling downlights.",
+        "value": "100 lux ambient, 300 lux task, 2700 K"
+      },
+      {
+        "principle": "balance",
+        "rule": "Balance a dense pattern on one wall with a plain field on the opposite wall.",
+        "value": "1 plain wall per room"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Keep moderate routes between the many small pieces.",
+        "value": "85 cm main, 65 cm secondary"
+      }
+    ]
+  },
+  "zoning": {
+    "zones": [
+      "sofa and chimneypiece",
+      "skirted side tables",
+      "writing desk",
+      "window seat"
+    ],
+    "circulation": "Moderate routes between small tables and chairs.",
+    "main_path_clear_cm": 85,
+    "secondary_path_clear_cm": 65,
+    "seat_to_table_cm": 40,
+    "conversation_diameter_cm": 240,
+    "floor_coverage_pct": 60,
+    "wall_coverage_pct": 55
+  },
+  "palette": {
+    "distribution": "A light ground of cream or a soft blue; chintz florals in pink, green and blue; blue-and-white porcelain; touches of coral and green.",
+    "dominant_pct": 50,
+    "secondary_pct": 35,
+    "accent_pct": 15,
+    "colours": [
+      {
+        "name": "Cream",
+        "hex": "#F3EBDD",
+        "role": "dominant",
+        "surface": "walls, ceiling"
+      },
+      {
+        "name": "Delft blue",
+        "hex": "#2F4F8A",
+        "role": "secondary",
+        "surface": "porcelain, print"
+      },
+      {
+        "name": "Chintz pink",
+        "hex": "#E3A6A4",
+        "role": "secondary",
+        "surface": "florals, upholstery"
+      },
+      {
+        "name": "Leaf green",
+        "hex": "#7A9A5B",
+        "role": "accent",
+        "surface": "florals, trims"
+      },
+      {
+        "name": "Wicker",
+        "hex": "#C6A273",
+        "role": "wood",
+        "surface": "chairs, baskets"
+      },
+      {
+        "name": "Coral",
+        "hex": "#E0745B",
+        "role": "accent",
+        "surface": "cushions, lampshades"
+      }
+    ]
+  },
+  "lighting": {
+    "strategy": "Many warm lamps with pleated or patterned shades at different heights; the ceiling light plays a small part.",
+    "daylight": "Daylight through floral curtains on poles and roman blinds; the room is bright and soft.",
+    "ambient_lux": 100,
+    "task_lux": 300,
+    "accent_ratio": 3,
+    "cct_k": 2700,
+    "cct_evening_k": 2400,
+    "cri_min": 95,
+    "layers": [
+      {
+        "layer": "task",
+        "source": "ginger-jar lamps with pleated shades",
+        "position": "pairs on the side tables"
+      },
+      {
+        "layer": "decorative",
+        "source": "small chandelier or a fabric pendant",
+        "position": "centre of the ceiling"
+      },
+      {
+        "layer": "accent",
+        "source": "picture lights",
+        "position": "over the plate wall or a portrait"
+      },
+      {
+        "layer": "daylight",
+        "source": "windows with floral curtains and roman blinds",
+        "position": "window wall"
+      }
+    ]
+  },
+  "materials": {
+    "primary": [
+      "chintz and printed cotton",
+      "painted wood",
+      "wicker and rattan"
+    ],
+    "secondary": [
+      "porcelain",
+      "needlepoint",
+      "brass",
+      "mahogany",
+      "linen"
+    ],
+    "finish": "Glazed chintz, painted and antique-polished wood, glazed porcelain.",
+    "texture_contrast": "Soft ruffles and needlepoint against glazed porcelain and wicker, at about 2:1 in favour of soft."
+  },
+  "furniture": {
+    "silhouette": "Traditional, soft forms: rolled arms, skirts, turned legs, scalloped edges, pleated shades.",
+    "arrangement": "A traditional symmetric group about the hearth or the bed; small skirted tables beside each seat.",
+    "seat_height_cm": 45,
+    "key_pieces": [
+      "chintz rolled-arm sofa",
+      "skirted round table",
+      "wicker chair",
+      "ginger-jar lamps",
+      "needlepoint footstool",
+      "antique chest of drawers"
+    ]
+  },
+  "textiles": {
+    "fabrics": [
+      "chintz",
+      "printed cotton",
+      "needlepoint",
+      "linen",
+      "gingham"
+    ],
+    "pattern": "Florals with stripes, checks and small prints; ruffles and scalloped trims.",
+    "windows": "Floral curtains with ruffled or pleated headings, over roman blinds."
+  },
+  "objects": {
+    "approach": "Collections and heirlooms: blue-and-white porcelain, plates on the wall, needlepoint, family pictures.",
+    "grouping": "Dense symmetric sets on walls and mantels.",
+    "max_per_surface": 7,
+    "hang_centre_cm": 155,
+    "items": [
+      "blue-and-white ginger jars",
+      "plate wall",
+      "needlepoint cushion",
+      "silver frames",
+      "fresh flowers in a vase"
+    ]
+  },
+  "implementation": {
+    "brief": "A light cream room with a chintz sofa under a symmetric wall of blue-and-white plates. Two skirted round tables with ginger-jar lamps frame the sofa; a wicker chair, a needlepoint footstool and floral curtains with ruffled headings complete the room.",
+    "image_prompt": "Grandmillennial living room, cream walls, chintz floral sofa with ruffled cushions, symmetric wall of blue and white plates above the sofa, two skirted round side tables with blue and white ginger jar lamps and pleated shades, wicker armchair, needlepoint footstool, floral curtains with ruffled headings, pattern mix of florals stripes and checks, pink green and blue, fresh flowers, soft daylight, cheerful and traditional, interior photograph",
+    "negative_prompt": "Grey minimal, chrome, glass furniture, bare walls, dark Victorian palette, flat-pack furniture.",
+    "camera": "28 mm lens at 140 cm, frontal view on the sofa axis.",
+    "scene_3d": "Room 500 x 420 cm, ceiling 270 cm. Daylight through floral cotton at transmission 0.5; two 2700 K lamps at 120 cm.",
+    "furniture_list": [
+      "chintz sofa 210 x 90 x 85 cm, seat 45 cm",
+      "2 skirted tables 60 cm round",
+      "wicker chair",
+      "footstool 60 x 40 x 40 cm",
+      "chest of drawers 100 x 50 x 85 cm"
+    ],
+    "material_list": [
+      "glazed chintz",
+      "printed cotton",
+      "wicker",
+      "blue-and-white porcelain",
+      "needlepoint wool",
+      "painted wood, cream"
+    ],
+    "references": []
+  },
+  "lineage": {
+    "evolved_from": [
+      "victorian-interior",
+      "georgian-interior"
+    ],
+    "rebelled_against": [
+      "minimalist-interior",
+      "scandinavian-interior"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "impressionism"
+    ]
+  },
+  "emotion": {
+    "target_response": "Nostalgic comfort: the viewer smiles and feels at home in a pretty, slightly funny room.",
+    "keywords": [
+      "nostalgic",
+      "cheerful",
+      "cosy",
+      "pretty",
+      "patterned",
+      "witty"
+    ],
+    "brand_archetypes": [
+      "caregiver",
+      "innocent"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "grandmillennial",
+      "granny chic",
+      "new traditional",
+      "chintz",
+      "blue and white porcelain",
+      "skirted table",
+      "ruffles",
+      "pattern mix"
+    ],
+    "use_cases": [
+      "family living rooms",
+      "bedrooms and guest rooms",
+      "country hotels and B&Bs",
+      "tea rooms and cafés",
+      "gift and homeware retail"
+    ],
+    "avoid_when": [
+      "The brief asks for calm, empty or technical rooms.",
+      "The client dislikes pattern."
+    ],
+    "modifiers": [
+      {
+        "request": "more formal",
+        "toward": "georgian-interior",
+        "how": "Remove most pattern and collections, paint the walls one soft colour and keep only the pairs on the axis."
+      },
+      {
+        "request": "darker and denser",
+        "toward": "victorian-interior",
+        "how": "Use deep colours, damask paper, heavy velvet drapes and dense collections."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "grandmillennial interior",
+      "chintz floral sofa",
+      "blue and white porcelain",
+      "plate wall",
+      "skirted table",
+      "pleated lampshade",
+      "ruffled cushions",
+      "wicker chair",
+      "needlepoint",
+      "pattern mix"
+    ],
+    "negative": [
+      "minimal",
+      "grey",
+      "chrome",
+      "bare walls",
+      "flat-pack"
+    ],
+    "canonical_works": [
+      {
+        "work": "Chintz-filled rooms for Colefax and Fowler",
+        "architect": "Sibyl Colefax and John Fowler",
+        "year": 1938
+      },
+      {
+        "work": "Interiors of the English country house style",
+        "architect": "Nancy Lancaster",
+        "year": 1950
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Emma Bazilian, 'Why Grandmillennial Style Is Here to Stay', House Beautiful, 2019; trend evidence, cite only"
+    },
+    {
+      "title": "John Cornforth, The Inspiration of the Past: Country House Taste in the Twentieth Century (Viking, 1985)"
+    }
+  ]
+}
