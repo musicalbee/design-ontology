@@ -1,0 +1,329 @@
+{
+  "$schema": "../../../schema/domains/film.schema.json",
+  "id": "italian-neorealism",
+  "name": "Italian Neorealism",
+  "aliases": [
+    "Neorealismo",
+    "Postwar Italian realism"
+  ],
+  "era_id": "studio-system",
+  "time_period": {
+    "start": 1943,
+    "end": 1952,
+    "label": "1943–1952"
+  },
+  "capture": [
+    "photochemical"
+  ],
+  "summary": "Ruined streets, ordinary people and a story with no hero. Real places, non-professional actors and light that the day provides. The camera stays at human height and records the time a thing takes.",
+  "philosophy": {
+    "core_thesis": "A film earns its truth by going out of the studio and showing ordinary lives in the real place, at the real pace, with no star and no neat plot.",
+    "design_principles": [
+      "Shoot on location in real streets, tenements and fields, with no built set and no back projection.",
+      "Cast non-professional actors for 50% or more of the roles and let them speak in their own dialect.",
+      "Light with daylight and a bounce, at a key-to-fill ratio of 2:1 to 3:1, and avoid a hard glamour key.",
+      "Frame in 1.37:1 at eye level with a 28mm to 50mm lens and keep depth in the shot, with deep focus at f/8 to f/11.",
+      "Hold a long take of 10 to 30 s on a walk or a wait, and cut at an average shot length of 8 to 12 s.",
+      "Use a slow pan or a short tracking shot of 0.5 to 1 m/s to follow a person through a street, with no crane.",
+      "Dub the sound after the shoot, and keep the score sparse: a theme of 20 to 60 s used 3 times at most."
+    ],
+    "anti_patterns": [
+      "A studio back lot and a painted backdrop",
+      "A star with a glamour key light",
+      "A tidy plot with a heroic resolution",
+      "Invisible continuity with a shot and reverse shot in every scene",
+      "A swelling score under each feeling",
+      "Back projection for the street",
+      "A soft, diffused, flattering grade"
+    ]
+  },
+  "vectors": {
+    "camera_mobility": 3,
+    "cutting_rate": 2,
+    "staging": 1,
+    "grade_stylisation": 1,
+    "frame_width": 2
+  },
+  "composition": {
+    "framing": "A 1.37:1 frame at eye level; the street or the room fills the frame, and the person is one part of it.",
+    "staging_in_depth": "Deep focus with 3 planes: a figure in front, a street or courtyard in the middle and a facade or a ruin behind.",
+    "subject_placement": "The figure is small to medium in the frame and off centre; a face is held in a close-up only for the key moment of the scene.",
+    "principles": [
+      {
+        "principle": "framing",
+        "rule": "Frame at eye level in 1.37:1 so that the place is as large as the person in the frame.",
+        "value": "place 60% to 80% of the frame area, person 20% to 40%"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Stage the action in three planes in deep focus: a person, a street and a facade.",
+        "value": "3 planes, f/8 to f/11"
+      },
+      {
+        "principle": "scale",
+        "rule": "Keep the figure small against the street, so that the surroundings press on the person.",
+        "value": "figure 20% to 40% of the frame height in a wide shot"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Use daylight as the key and a bounce or a window as the only fill.",
+        "value": "2:1 to 3:1 key to fill, daylight 5600K"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Let a walk or a wait run its real time before the cut.",
+        "value": "8 to 12 s average shot, 10 to 30 s for a walk"
+      }
+    ]
+  },
+  "camera_and_movement": {
+    "movement": "A slow pan or a short follow to keep a person in the street. The camera moves because the person moves, and it stops when they stop.",
+    "support": "Tripod, a light dolly or a car mount for the street",
+    "camera_height": "1.5 to 1.7 m, eye level",
+    "move_speed": "Walking pace, 0.5 to 1.5 m/s; pan 15° to 30° per second"
+  },
+  "lens_and_format": {
+    "aspect_ratio": "1.37:1 (Academy)",
+    "frame_rate": "24 fps",
+    "shutter_angle": "180° (1/48 s)",
+    "focal_length": "28mm to 50mm (35mm format)",
+    "aperture": "f/5.6 to f/11 for deep focus in daylight",
+    "resolution": "35mm negative; scan at 2K or 4K",
+    "focus": "Deep focus: the person, the street and the facade are all readable.",
+    "equipment": [
+      "35mm camera on a light tripod",
+      "orthochromatic or fast panchromatic stock",
+      "reflector boards",
+      "post-synchronised sound"
+    ]
+  },
+  "light": {
+    "quality": "Hard or soft daylight as it falls, with a bounce for the faces; no added glamour light.",
+    "direction": "Overhead or side daylight from the street; window light inside.",
+    "key_to_fill_ratio": "2:1 to 3:1 (1 to 1.6 stops)",
+    "colour_temperature": "Daylight 5600K",
+    "source": "The sun, the sky and a reflector"
+  },
+  "colour_and_grade": {
+    "treatment": "Natural black and white with a full grey scale. The print is plain, with grey stone and white linen, and the grain is part of the image.",
+    "palette": [
+      {
+        "name": "Soot black",
+        "hex": "#1A1A18",
+        "role": "blacks"
+      },
+      {
+        "name": "Wet stone grey",
+        "hex": "#6B6A66",
+        "role": "midtones"
+      },
+      {
+        "name": "Plaster grey",
+        "hex": "#B5B2A8",
+        "role": "walls and skin"
+      },
+      {
+        "name": "Linen white",
+        "hex": "#EAE6DA",
+        "role": "highlights"
+      }
+    ],
+    "grade_recipe": [
+      "Convert to black and white and set the black point at 4% and the white point at 96%.",
+      "Keep the contrast at +5% with a long, soft shoulder for the sky.",
+      "Hold midtones at 18% grey for skin and stone and keep the sky at 80% to 90%.",
+      "Add grain at 15% to 20% to match fast 35mm stock.",
+      "Do not add a tint, a vignette or a glow."
+    ],
+    "texture": "Visible silver grain, amount 15% to 20%, with a little gate weave of 0.3%"
+  },
+  "editing_and_rhythm": {
+    "average_shot_length": "8 to 12 s (estimate; check Cinemetrics for each title)",
+    "shot_length_range": "2 s for an insert to 60 s for a long walk",
+    "cutting_logic": "Cut when the action ends, not before. Let a walk or a wait take its time, and use a close-up for the one moment that the person cannot hide.",
+    "transitions": "Hard cut, a slow dissolve of 1 s for a time jump, and no wipe.",
+    "runtime": "85 to 110 min"
+  },
+  "sound": {
+    "approach": "Post-synchronised sound laid over real streets, with a bed of traffic, voices and bells.",
+    "dialogue": "Regional speech, non-professional voices, short and plain; speech sometimes overlaps and trails off.",
+    "music": "A spare orchestral or piano theme of 20 to 60 s; it enters on a few cues, and a long scene has none.",
+    "loudness": "−23 LUFS integrated for a restoration, with dialogue peaks at −6 dBFS"
+  },
+  "titles_and_graphics": {
+    "treatment": "A plain opening card, a white title on a black or a street background, and a short credit roll.",
+    "type": "A plain serif or sans-serif in upper case, white on black, 3 to 5 s for the title and 1 to 2 s for each credit."
+  },
+  "shot_primer": {
+    "opening": "Open on a street or a yard in daylight with people at work; the first cut comes by 8 to 12 s.",
+    "shot_list": [
+      {
+        "shot": "Street at dawn",
+        "size": "wide",
+        "lens": "28mm",
+        "movement": "locked off",
+        "seconds": 8
+      },
+      {
+        "shot": "Walk through the crowd",
+        "size": "medium",
+        "lens": "35mm",
+        "movement": "follow 1.0 m/s",
+        "seconds": 20
+      },
+      {
+        "shot": "Wait at a door",
+        "size": "medium",
+        "lens": "35mm",
+        "movement": "locked off",
+        "seconds": 12
+      },
+      {
+        "shot": "A face at a window",
+        "size": "close-up",
+        "lens": "50mm",
+        "movement": "locked off",
+        "seconds": 5
+      },
+      {
+        "shot": "Ruin and sky",
+        "size": "wide",
+        "lens": "28mm",
+        "movement": "slow pan 15° per second",
+        "seconds": 6
+      },
+      {
+        "shot": "End on the street",
+        "size": "wide",
+        "lens": "28mm",
+        "movement": "locked off",
+        "seconds": 8
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1940s Italian neorealist film",
+      "black and white 35mm",
+      "real street location",
+      "non-professional actors",
+      "deep focus daylight",
+      "1.37:1 frame",
+      "visible film grain",
+      "postwar ruins",
+      "long walk in a street",
+      "no studio"
+    ],
+    "negative": [
+      "studio set",
+      "glamour lighting",
+      "colour grade",
+      "crane shot",
+      "orchestral score swell",
+      "star actor",
+      "smooth gimbal",
+      "fast cuts"
+    ],
+    "canonical_works": [
+      {
+        "work": "Rome, Open City",
+        "maker": "Roberto Rossellini",
+        "year": 1945
+      },
+      {
+        "work": "Paisan",
+        "maker": "Roberto Rossellini",
+        "year": 1946
+      },
+      {
+        "work": "Bicycle Thieves",
+        "maker": "Vittorio De Sica",
+        "year": 1948
+      },
+      {
+        "work": "Umberto D.",
+        "maker": "Vittorio De Sica",
+        "year": 1952
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "classical-hollywood"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "street-photography"
+    ]
+  },
+  "emotion": {
+    "target_response": "Compassion and recognition: the viewer stays with a person in need and sees the place as it is.",
+    "keywords": [
+      "humane",
+      "plain",
+      "poor",
+      "honest",
+      "patient"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "neorealism",
+      "italian neorealism",
+      "bicycle thieves",
+      "de sica",
+      "rossellini",
+      "postwar italian film",
+      "non-professional actors",
+      "street realism film"
+    ],
+    "use_cases": [
+      "social documentary and charity films",
+      "independent short films on location",
+      "period films of poverty and work",
+      "video prompts for a postwar street scene"
+    ],
+    "avoid_when": [
+      "The brief needs a glossy product look or a star.",
+      "The piece needs a fast cut for a feed."
+    ],
+    "modifiers": [
+      {
+        "request": "more energy",
+        "toward": "french-new-wave",
+        "how": "Keep the location and the plain light; shoot handheld, cut a jump cut into long takes and let a character look into the lens."
+      },
+      {
+        "request": "more observation",
+        "toward": "documentary-verite",
+        "how": "Keep the street and the plain light; drop the script, shoot 16mm with a handheld camera and record the real sound on location."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q167776: Italian neorealism",
+      "url": "https://www.wikidata.org/wiki/Q167776"
+    },
+    {
+      "title": "Wikidata Q172837: Bicycle Thieves",
+      "url": "https://www.wikidata.org/wiki/Q172837"
+    },
+    {
+      "title": "Wikidata Q721146: Rome, Open City",
+      "url": "https://www.wikidata.org/wiki/Q721146"
+    },
+    {
+      "title": "André Bazin, What Is Cinema? vol. 2 (University of California Press, 1971)"
+    },
+    {
+      "title": "Peter Bondanella, Italian Cinema: From Neorealism to the Present (Continuum, 3rd ed., 2001)"
+    }
+  ],
+  "domain": "film"
+}

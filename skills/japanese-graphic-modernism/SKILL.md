@@ -246,7 +246,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`bauhaus`](../bauhaus/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
 - **Mixes well with:** [`pop-art-web`](../pop-art-web/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md)
 - **Kin in another domain:** [`ukiyo-e`](../ukiyo-e/SKILL.md)
-- **Nearest by vector profile:** [`bauhaus`](../bauhaus/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`flat-design`](../flat-design/SKILL.md)
+- **Nearest by vector profile:** [`bauhaus`](../bauhaus/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md)
 
 ## Emotional target
 

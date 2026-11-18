@@ -80,6 +80,16 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Staging in depth:** A subject at 1 to 3 m in a lived-in room or a street; no staged layers.
 - **Subject placement:** Centred or wherever the person stands; the operator follows late, by 0.2 to 0.5 s.
 
+**Principles**
+
+| Principle | Rule | Value |
+|---|---|---|
+| framing | Frame in 4:3 with a date stamp in the corner and a head that cuts the top of the frame. | head cuts the top 5% to 10%; 1 timestamp in a corner |
+| focal-point | Centre the person and let the autofocus hunt, so that the focus drifts for 0.5 to 1 s. | focus hunt 0.5 to 1 s |
+| negative-space | Leave dead headroom or a stray ceiling in the frame, as a hand-held amateur does. | 10% to 25% empty frame |
+| unity-variety | Hold one degraded signal look for the whole piece with tape noise, a timestamp and a soft grade. | 1 look, tape noise 5% to 10% |
+| rhythm | Hold shots for 6 to 20 s with no cutaway, and let the cut come late. | 6 to 20 s average shot |
+
 ## Camera & movement
 
 - **Movement:** Handheld, with a sudden zoom, a pan to a laugh and a walk. The operator talks off camera.
@@ -165,7 +175,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Video prompt primer
 
-- **Positive:** 1990s camcorder footage · VHS tape look · 4:3 frame · date stamp in the corner · handheld home video · chroma bleed and scanlines · tracking glitch · on-camera microphone sound · faded warm colour · autofocus hunting
+- **Positive:** 1990s camcorder footage · VHS tape look · 4:3 frame · date stamp in the corner · handheld home video · chroma bleed and scanlines · tracking glitch · faded warm colour · autofocus hunting
 - **Negative:** crisp 4K · smooth gimbal · 2.39:1 letterbox · teal and orange grade · studio audio · perfect exposure · clean digital image
 
 **Canonical works**
@@ -176,6 +186,18 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | Tarnation | Jonathan Caouette | 2003 |
 | Cloverfield | Matt Reeves | 2008 |
 
+## Composition principles
+
+The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
+
+| Id | Principle | Definition | Measure: typical range |
+|---|---|---|---|
+| `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | frame area (% of the view): 10–35; frame planes (count): 1 to 2 |
+| `focal-point` | Focal point | The one place in a view that the eye finds first and comes back to. A composition has one primary focal point and at most two secondary ones. | focal points in one view (count): 1 primary, 0 to 2 secondary; luminance of the focal point to its surround (ratio): 3:1 to 10:1; position (fraction of width): 0.5 on an axis, or 0.33 / 0.67 on a third |
+| `negative-space` | Negative space | The empty area around and between elements. It is a part of the composition, not a remainder. | empty frame area (% of image): 30–70 |
+| `unity-variety` | Unity and variety | Repeated materials, colours and shapes join the parts into one whole. A small, planned number of deviations keeps the whole alive. | materials or hues that repeat (count): 2 to 4; deliberate deviations (count): 1 to 2 |
+| `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive; average shot length (seconds): 1.5–3 fast; 5–12 moderate; 30 or more for a long take |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -184,8 +206,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more vertical**: move toward [`vertical-short-form`](../vertical-short-form/SKILL.md) (Vertical short-form). Keep the tape colour and the date stamp; move to 9:16, cut at 2 to 4 s and burn in captions.
 
 - **Mixes well with:** [`creator-vlog`](../creator-vlog/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md), [`vertical-short-form`](../vertical-short-form/SKILL.md)
-- **Kin in another domain:** [`grunge-editorial`](../grunge-editorial/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
-- **Nearest by vector profile:** [`cinematic-fpv`](../cinematic-fpv/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md)
+- **Kin in another domain:** [`film-grain-revival`](../film-grain-revival/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`party-flash`](../party-flash/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
+- **Nearest by vector profile:** [`documentary-verite`](../documentary-verite/SKILL.md), [`italian-neorealism`](../italian-neorealism/SKILL.md), [`cinematic-fpv`](../cinematic-fpv/SKILL.md)
 
 ## Emotional target
 

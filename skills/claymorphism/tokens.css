@@ -1,0 +1,109 @@
+/*
+ * Claymorphism — tokens
+ * Generated from data/design/styles/claymorphism.json by design-ontology. Do not edit.
+ * Use: put data-style="claymorphism" on <html> or on any container.
+ */
+[data-style="claymorphism"] {
+  --color-bg: #F4F1FF;
+  --color-surface: #FFFFFF;
+  --color-text: #2B2D54;
+  --color-muted: #5A5C86;
+  --color-primary: #FF9CC2;
+  --color-accent: #8FD3FF;
+  --color-border: #E2DCF5;
+  --font-sans: "Nunito", system-ui, sans-serif;
+  --font-display: "Fredoka", "Nunito", system-ui, sans-serif;
+  --border-radius: 32px;
+  --border-width: 0px;
+  --shadow-elevation: 0 16px 32px rgba(43,45,84,0.2), inset 8px 8px 16px rgba(255,255,255,0.6), inset -8px -8px 16px rgba(43,45,84,0.12);
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration: 300ms;
+  --color-on-bg: #2B2D54;
+  --color-on-surface: #2B2D54;
+  --color-on-primary: #2B2D54;
+  --color-on-accent: #2B2D54;
+  --color-muted-on-bg: #5A5C86;
+  --color-muted-on-surface: #5A5C86;
+  --color-link: #2B2D54;
+  --color-link-on-surface: #2B2D54;
+  --display-weight: 600;
+  --subhead-weight: 600;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 600;
+  --display-tracking: 0em;
+  --display-leading: 1.1;
+  --display-case: none;
+  --body-leading: 1.6;
+  --body-size: 16px;
+  --icon-stroke: 3;
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="claymorphism"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="claymorphism"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="claymorphism"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="claymorphism"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="claymorphism"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="claymorphism"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="claymorphism"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="claymorphism"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="claymorphism"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="claymorphism"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="claymorphism"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="claymorphism"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

@@ -238,7 +238,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`cassette-futurism`](../cassette-futurism/SKILL.md)
 - **Mixes well with:** [`flat-design`](../flat-design/SKILL.md)
 - **Kin in another domain:** [`international-style-architecture`](../international-style-architecture/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md)
-- **Nearest by vector profile:** [`de-stijl-web`](../de-stijl-web/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md), [`flat-design`](../flat-design/SKILL.md)
+- **Nearest by vector profile:** [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
 
 ## Emotional target
 

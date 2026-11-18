@@ -263,8 +263,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Led to (go here for a newer version):** [`glassmorphism`](../glassmorphism/SKILL.md)
-- **Mixes well with:** [`skeuomorphism`](../skeuomorphism/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
-- **Nearest by vector profile:** [`cassette-futurism`](../cassette-futurism/SKILL.md), [`spatial-visionos`](../spatial-visionos/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md)
+- **Was rejected by:** [`metro-ui`](../metro-ui/SKILL.md)
+- **Mixes well with:** [`apple-aqua`](../apple-aqua/SKILL.md), [`ethereal-web`](../ethereal-web/SKILL.md), [`skeuomorphism`](../skeuomorphism/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
+- **Nearest by vector profile:** [`apple-aqua`](../apple-aqua/SKILL.md), [`cassette-futurism`](../cassette-futurism/SKILL.md), [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md)
 
 ## Emotional target
 

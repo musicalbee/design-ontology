@@ -246,7 +246,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Was rejected by:** [`punk-zine`](../punk-zine/SKILL.md)
 - **Mixes well with:** [`swiss-international`](../swiss-international/SKILL.md)
 - **Kin in another domain:** [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md)
-- **Nearest by vector profile:** [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`space-age`](../space-age/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md)
+- **Nearest by vector profile:** [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`space-age`](../space-age/SKILL.md)
 
 ## Emotional target
 

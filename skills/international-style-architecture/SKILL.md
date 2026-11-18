@@ -118,6 +118,42 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Attitude:** Ornament is rejected; the quality of proportion, joints and materials replaces it.
 - **Details:** cruciform chrome columns · flush joints · cantilevered slab edges · book-matched stone · tubular steel handrails
 
+## Composition rules
+
+- **Symmetry:** asymmetric
+- **Axis count:** 0
+- **Rhythm module m:** 6
+
+**Rules**
+
+| Principle | Rule | Value |
+|---|---|---|
+| rhythm | Repeat a regular structural grid over the whole front. | grid 6m |
+| negative-space | Leave the wall plain and white, with no applied ornament. | 0 ornament |
+| proportion | Set the volume on a clean ratio, and lift it on pilotis. | pilotis 3m |
+| symmetry-axis | Balance the volumes without a mirror axis, and keep the front free. | 0 axes |
+| sightlines | Use the ribbon window to give a long horizontal view. | ribbon band 1:3 |
+
+## Reference images
+
+**Images**
+
+| Title | Credit | Licence | Url |
+|---|---|---|---|
+| Villa Savoye, Poissy | Wasily | CC0 | https://commons.wikimedia.org/wiki/File:Savoye_3.JPG |
+
+## Composition principles
+
+The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
+
+| Id | Principle | Definition | Measure: typical range |
+|---|---|---|---|
+| `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repeated interval (cm or px): style module; repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive |
+| `negative-space` | Negative space | The empty area around and between elements. It is a part of the composition, not a remainder. | empty floor area (% of floor): 40–80 in a room; empty wall area (% of wall): 50–95; empty frame area (% of image): 30–70 |
+| `proportion` | Proportion | The ratio of one dimension to another, and of a part to the whole. A style holds one ratio or one series of ratios through the room, the facade or the picture. | governing ratio (ratio): 1:1, 2:3, 1:1.414, 1:1.618, 1:2; module series (series): Modulor, tatami 91 x 182 cm, 60 cm kitchen module |
+| `symmetry-axis` | Symmetry and axis | An axis is a line that orders a composition. Symmetry places equal elements at equal distances on the two sides of the axis, or around a centre. | ordering axes (count): 0 to 3; mirrored mass about the axis (% of visual weight): 90–100 formal, 0–50 informal; type (kind): bilateral, radial, none |
+| `sightlines` | Sightlines | The line from an eye position, such as an entrance or a seat, to a target. A clear sightline joins the viewer to the focal point. | standing eye height (cm): 150–165; seated eye height (cm): 110–120; obstruction on the main sightline (cm of height): 0, or below 75 for low furniture |
+
 ## Vocabulary primer
 
 Use these terms in a brief, an image prompt or a 3D scene description.
@@ -140,11 +176,11 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - If the user asks for **heavier**: move toward [`brutalist-architecture`](../brutalist-architecture/SKILL.md) (Brutalism). Thicken the frame, leave the concrete raw and set the windows deep; keep the flat roof and the regular bay.
 
-- **Led to (go here for a newer version):** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md)
-- **Was rejected by:** [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md)
+- **Led to (go here for a newer version):** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md), [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md)
+- **Was rejected by:** [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md), [`parametricism-architecture`](../parametricism-architecture/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md)
 - **Mixes well with:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md)
-- **Kin in another domain:** [`bauhaus`](../bauhaus/SKILL.md), [`bauhaus-interior`](../bauhaus-interior/SKILL.md), [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
-- **Nearest by vector profile:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md)
+- **Kin in another domain:** [`bauhaus`](../bauhaus/SKILL.md), [`bauhaus-interior`](../bauhaus-interior/SKILL.md), [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md), [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
+- **Nearest by vector profile:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`neoclassical-architecture`](../neoclassical-architecture/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md)
 
 ## Emotional target
 

@@ -80,6 +80,16 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Staging in depth:** Two planes: a face or a back in front of 3 to 6 m of the street; passers-by cross the frame and are not cleared.
 - **Subject placement:** Off centre, walking or turning; a two-shot of 2 faces at 0.5 to 1 m apart.
 
+**Principles**
+
+| Principle | Rule | Value |
+|---|---|---|
+| framing | Use a loose frame in which a head may touch the edge and the street stays in view. | head cut at 1 edge by 5% to 10%; street 60% or more of the view |
+| rule-of-thirds | Place a walking or turning figure off centre, on the left or right third. | figure at 33% or 67% of the width |
+| layering-depth | Keep a face or a back in front of the street, and let passers-by cross the second plane. | 2 planes, 3 to 6 m of street |
+| rhythm | Drop 1 to 2 s from the middle of a take so that the jump shows, and cut on the beat of the scene. | 5 to 8 s average shot, jump cut 1 to 2 s |
+| sightlines | Let the actor look into the lens once, and keep the other eyelines at 0.5 to 1 m apart in a two-shot. | 1 to 2 s look into the lens |
+
 ## Camera & movement
 
 - **Movement:** Handheld follow and long tracking shots from a wheelchair, a cart or a car. Pans are quick, with a whip at 90° per second.
@@ -163,7 +173,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Video prompt primer
 
-- **Positive:** 1960s French New Wave film · black and white 35mm pushed stock · handheld tracking shot on a Paris street · jump cut · available light · 1.37:1 frame · visible film grain · actor looks into the camera · freeze frame · jazz piano sting
+- **Positive:** 1960s French New Wave film · black and white 35mm pushed stock · handheld tracking shot on a Paris street · jump cut · available light · 1.37:1 frame · visible film grain · actor looks into the camera · freeze frame
 - **Negative:** studio lighting · colour grade · crane shot · smooth gimbal · orchestral score · invisible edit · glossy skin
 
 **Canonical works**
@@ -174,6 +184,18 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | Breathless | Jean-Luc Godard | 1960 |
 | Cléo from 5 to 7 | Agnès Varda | 1962 |
 | Band of Outsiders | Jean-Luc Godard | 1964 |
+
+## Composition principles
+
+The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
+
+| Id | Principle | Definition | Measure: typical range |
+|---|---|---|---|
+| `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | frame area (% of the view): 10–35; frame planes (count): 1 to 2 |
+| `rule-of-thirds` | Rule of thirds | Two horizontal and two vertical lines divide the view into nine equal parts. The focal point sits on one of the four crossings, and a horizon sits on one of the two horizontal lines. | focal point position (fraction of width and height): 0.33 or 0.67, tolerance 0.05; horizon position (fraction of height): 0.33 or 0.67 |
+| `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
+| `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive; average shot length (seconds): 1.5–3 fast; 5–12 moderate; 30 or more for a long take |
+| `sightlines` | Sightlines | The line from an eye position, such as an entrance or a seat, to a target. A clear sightline joins the viewer to the focal point. | camera height (cm): 120–170 at eye level; under 100 for a low angle; crossings of the line of action in one scene (count): 0 |
 
 ## Techniques
 
@@ -193,9 +215,12 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more manifesto**: move toward [`dogme-95`](../dogme-95/SKILL.md) (Dogme 95). Keep the handheld camera and the available light; drop the black and white, accept 4:3 video and add rules for sound and props.
 - If the user asks for **more rhythm**: move toward [`soviet-montage`](../soviet-montage/SKILL.md) (Soviet montage). Keep the black and white; shorten the average shot to 2 to 3 s and join shots by collision, not by the beat of the scene.
 
-- **Came from (go here for a more orthodox version):** [`soviet-montage`](../soviet-montage/SKILL.md)
+- **Came from (go here for a more orthodox version):** [`italian-neorealism`](../italian-neorealism/SKILL.md), [`soviet-montage`](../soviet-montage/SKILL.md)
+- **Led to (go here for a newer version):** [`new-hollywood`](../new-hollywood/SKILL.md)
 - **Was rejected by:** [`dogme-95`](../dogme-95/SKILL.md)
-- **Nearest by vector profile:** [`creator-vlog`](../creator-vlog/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md), [`cinematic-fpv`](../cinematic-fpv/SKILL.md)
+- **Mixes well with:** [`documentary-verite`](../documentary-verite/SKILL.md)
+- **Kin in another domain:** [`street-photography`](../street-photography/SKILL.md)
+- **Nearest by vector profile:** [`creator-vlog`](../creator-vlog/SKILL.md), [`documentary-verite`](../documentary-verite/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md)
 
 ## Emotional target
 

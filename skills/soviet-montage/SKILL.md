@@ -80,6 +80,16 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Staging in depth:** A foreground of 2 to 3 m with a machine, a crowd or a stair behind; the layers show a class or a force.
 - **Subject placement:** Off centre on a diagonal; the second shot answers the first on the opposite side of the frame.
 
+**Principles**
+
+| Principle | Rule | Value |
+|---|---|---|
+| leading-lines | Cross the 1.33:1 frame with a diagonal from a steep angle, and answer it with a counter-diagonal in the next shot. | 20° to 45° off level |
+| contrast | Cut two opposed images together so that their collision makes a third idea. | 1 to 3 s per shot in a pair |
+| rhythm | Choose one cutting method for each sequence and shorten the shots toward the climax. | 2 to 3 s average, down to 0.5 s at the peak |
+| focal-point | Fill the frame with one type, a face or a machine, and give it most of the height. | 50% to 80% of the frame height |
+| scale | Show a machine or a crowd against a single face so that the size difference carries the class argument. | face 1 : crowd 20 or more |
+
 ## Camera & movement
 
 - **Movement:** Static for the core of a sequence. Dynamic moves are for a documentary rush: moving vehicle, tracking, split screen, slow and fast motion.
@@ -176,6 +186,18 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | Man with a Movie Camera | Dziga Vertov | 1929 |
 | Mother | Vsevolod Pudovkin | 1926 |
 
+## Composition principles
+
+The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
+
+| Id | Principle | Definition | Measure: typical range |
+|---|---|---|---|
+| `leading-lines` | Leading lines | Lines in the view, such as edges, rows, beams or paths, point the eye to the focal point. | lines that converge on the focal point (count): 1 to 4; angle from the frame edge (degrees): 15–60 for a diagonal |
+| `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | brightest mass to deepest shadow in one image (stops): 3–4 flat; 5–8 hard, 8 or more for expressionist |
+| `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive; average shot length (seconds): 1.5–3 fast; 5–12 moderate; 30 or more for a long take |
+| `focal-point` | Focal point | The one place in a view that the eye finds first and comes back to. A composition has one primary focal point and at most two secondary ones. | focal points in one view (count): 1 primary, 0 to 2 secondary; luminance of the focal point to its surround (ratio): 3:1 to 10:1; position (fraction of width): 0.5 on an axis, or 0.33 / 0.67 on a third |
+| `scale` | Scale | The size of an element in relation to the human body, to the space around it and to the other elements. A style chooses a reference body and holds the elements in a range around it. | subject height to frame or canvas height (% of frame height): 10–30 in a wide shot; 40–80 in a close-up |
+
 ## Techniques
 
 These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
@@ -195,8 +217,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more human**: move toward [`french-new-wave`](../french-new-wave/SKILL.md) (French New Wave). Keep the cut rhythm at 3 to 5 s and the hard black and white; move to a street, a handheld camera and one named person.
 - If the user asks for **more mood**: move toward [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md) (German Expressionist cinema). Keep the black and white and the low angles; cut to an average of 6 to 10 s, add one hard key and painted shadows.
 
-- **Led to (go here for a newer version):** [`french-new-wave`](../french-new-wave/SKILL.md)
-- **Nearest by vector profile:** [`vertical-short-form`](../vertical-short-form/SKILL.md), [`creator-vlog`](../creator-vlog/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md)
+- **Led to (go here for a newer version):** [`documentary-verite`](../documentary-verite/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md)
+- **Kin in another domain:** [`constructivism-web`](../constructivism-web/SKILL.md)
+- **Nearest by vector profile:** [`vertical-short-form`](../vertical-short-form/SKILL.md), [`classical-hollywood`](../classical-hollywood/SKILL.md), [`hong-kong-action`](../hong-kong-action/SKILL.md)
 
 ## Emotional target
 
