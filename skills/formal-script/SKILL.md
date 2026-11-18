@@ -155,7 +155,6 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more legible**: move toward [`transitional-serif`](../transitional-serif/SKILL.md) (Transitional serif). Set the line in the italic of a transitional serif; keep the slope and the contrast, drop the joins.
 - If the user asks for **more dramatic**: move toward [`didone-serif`](../didone-serif/SKILL.md) (Didone). Pair the script with a Didone title in capitals and widen the white space.
 
-- **Rejects (the opposite pole; do not blend):** [`blackletter`](../blackletter/SKILL.md)
 - **Mixes well with:** [`transitional-serif`](../transitional-serif/SKILL.md)
 - **Kin in another domain:** [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md), [`rococo-painting`](../rococo-painting/SKILL.md)
 - **Nearest by vector profile:** [`garalde-old-style`](../garalde-old-style/SKILL.md), [`transitional-serif`](../transitional-serif/SKILL.md), [`blackletter`](../blackletter/SKILL.md)

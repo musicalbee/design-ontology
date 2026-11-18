@@ -73,9 +73,9 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Classification
 
-- **Vox atypi:** Fractura (blackletter)
+- **Vox atypi:** Blackletter
 - **Din 16518:** Gruppe X: Gebrochene Schriften
-- **Note:** DIN 16518 has five sub-groups: Gotisch (textura), Rundgotisch (rotunda), Schwabacher, Fraktur and Fraktur-Varianten. Vox-ATypI added the class in 2010.
+- **Note:** DIN 16518 has five sub-groups: Gotisch (textura), Rundgotisch (rotunda), Schwabacher, Fraktur and Fraktur-Varianten. Vox (1954) put blackletter in the graphic class; ATypI added the class when it adopted the scheme in 1962.
 
 ## Anatomy
 
@@ -93,7 +93,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Contrast min:** 1
 - **Contrast max:** 2
 - **X height:** The x-height is 0.66–0.82 of the cap height; the ascenders are short and the capitals are tall and broad.
-- **Contrast:** The o test gives 1.0–2.0, because the nib makes the top of the broken o as thick as its sides; the real contrast is between the stems and the hairline diagonals.
+- **Contrast:** The o test gives 1.0–2.0: with a broad nib at angle θ, the side of the o is nib·cos θ wide and the top is nib·sin θ thick, so the ratio is cot θ, 1.73 at 30° and 1.0 at 45°. The real contrast is between the stems and the hairline diagonals.
 - **Width:** Narrow: the mean advance of a to z is 0.38–0.45 em.
 - **Figures:** Lining figures, drawn with the same broken strokes.
 
@@ -156,7 +156,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more readable**: move toward [`garalde-old-style`](../garalde-old-style/SKILL.md) (Garalde old-style serif). Use a roman with the same dark colour and a diagonal stress; keep blackletter only for the initial.
 - If the user asks for **more modern**: move toward [`grotesque-sans`](../grotesque-sans/SKILL.md) (Grotesque sans). Keep the narrow, dark band, but drop the broken strokes for a condensed bold grotesque.
 
-- **Was rejected by:** [`formal-script`](../formal-script/SKILL.md), [`garalde-old-style`](../garalde-old-style/SKILL.md)
+- **Was rejected by:** [`garalde-old-style`](../garalde-old-style/SKILL.md)
 - **Kin in another domain:** [`gothic-architecture`](../gothic-architecture/SKILL.md), [`punk-zine`](../punk-zine/SKILL.md)
 - **Nearest by vector profile:** [`humanist-sans`](../humanist-sans/SKILL.md), [`formal-script`](../formal-script/SKILL.md), [`transitional-serif`](../transitional-serif/SKILL.md)
 

@@ -792,7 +792,6 @@ flowchart LR
   flat_design -. rejects .-> skeuomorphism
   flat_icon -. rejects .-> skeuomorphic_icon
   flat_logo -. rejects .-> glossy_3d_logo
-  formal_script -. rejects .-> blackletter
   garalde_old_style -. rejects .-> blackletter
   geometric_sans -. rejects .-> garalde_old_style
   geometric_sans -. rejects .-> grotesque_sans
@@ -1161,7 +1160,6 @@ flowchart LR
   linkStyle 461 stroke:#E5484D,stroke-width:1.5px
   linkStyle 462 stroke:#E5484D,stroke-width:1.5px
   linkStyle 463 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 464 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 
