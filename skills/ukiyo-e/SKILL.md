@@ -173,7 +173,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Mixes well with:** [`impressionism`](../impressionism/SKILL.md)
 - **Kin in another domain:** [`flat-design`](../flat-design/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md), [`japanese-graphic-modernism`](../japanese-graphic-modernism/SKILL.md)
-- **Nearest by vector profile:** [`mannerism-painting`](../mannerism-painting/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md), [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md)
+- **Nearest by vector profile:** [`mannerism-painting`](../mannerism-painting/SKILL.md), [`symbolism-painting`](../symbolism-painting/SKILL.md), [`futurism-painting`](../futurism-painting/SKILL.md)
 
 ## Emotional target
 

@@ -1,0 +1,119 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "expressionism-painting",
+  "domain": "painting",
+  "name": "Expressionism",
+  "aliases": ["Die Brücke", "Der Blaue Reiter", "German Expressionism"],
+  "era_id": "avant-garde",
+  "time_period": { "start": 1905, "end": 1925, "label": "1905–1925" },
+  "region": "Germany and Austria",
+  "media": ["oil on canvas", "woodblock print"],
+  "summary": "Pictures that bend the world to show an inner state: harsh colour, jagged line, tilted space and mask-like faces. The city is a threat and the body is a nerve.",
+  "philosophy": {
+    "core_thesis": "A picture shows what the painter feels, not what the eye sees, so that form and colour are distorted until they carry the emotion.",
+    "design_principles": [
+      "Distort the figure and the space: a long neck, a sharp angle, a floor that tilts at 10–25°.",
+      "Choose colour for the mood: a green face, a red street, a yellow sky, at full or near full chroma.",
+      "Draw with a hard, dark, angular line of 4–12mm and let the contour break and cut.",
+      "Flatten the depth to 1–2 layers and push the figures to the front edge.",
+      "Paint fast and rough: broad strokes of 20–50mm, with the brush marks and the scrapes in view.",
+      "Show the city, the night, the crowd, the nude and the portrait with a tense or empty gaze.",
+      "Simplify the face to a mask with large eyes and a hard mouth."
+    ],
+    "anti_patterns": [
+      "A calm, true-to-life colour and light",
+      "Smooth, blended modelling and a polished surface",
+      "Deep, correct perspective and exact proportion",
+      "Soft, round, gentle contours",
+      "A cheerful, decorative mood",
+      "A neutral, detached view of the subject"
+    ]
+  },
+  "vectors": { "abstraction": 3, "brushwork_visibility": 5, "chromatic_intensity": 5, "depth_illusion": 2, "line_dominance": 4 },
+  "composition": {
+    "layout": "Figures pressed to the front, in a tilted, shallow space cut by sharp diagonals, with a dark contour and a few harsh colour fields.",
+    "focal_point": "The face or the pair of eyes, at one third from an edge, in the strongest colour clash.",
+    "format": "A canvas at 4:5 to 3:2; figures fill 60–90% of the height and are cut by the edge.",
+    "principles": [
+      { "principle": "contrast", "rule": "Set one clash of complementary hues at full chroma in the main area, with a value gap of 50% or more." },
+      { "principle": "leading-lines", "rule": "Cut the picture with 3–5 sharp diagonals at 20–60° from the horizontal, and let them point at the face." },
+      { "principle": "layering-depth", "rule": "Reduce the depth to 1–2 layers, and tilt the ground up so that the figures stand at the front edge." },
+      { "principle": "scale", "rule": "Enlarge the head or the figure to 60–90% of the picture height, and shrink the street behind it." },
+      { "principle": "focal-point", "rule": "Place the mask-like face at one third from an edge, with the darkest eyes and the hardest edge in the picture." },
+      { "principle": "rhythm", "rule": "Repeat a jagged angle or a thin figure 4–8 times at a step of 8–15% of the width, so that the crowd presses." }
+    ]
+  },
+  "palette": {
+    "strategy": "Harsh, saturated, unnatural colour set in clashes: acid green against red, yellow against violet, with a black or deep blue contour.",
+    "distribution": "2 clashing hues 50–60%, a third hue 20–25%, dark contour 10–15%, bare ground under 5%.",
+    "ground": "A bare or thin ground, often left in view between the strokes.",
+    "colours": [
+      { "name": "Acid green", "hex": "#7FB82E", "pigment": "viridian and cadmium yellow", "role": "face and shadow" },
+      { "name": "Street red", "hex": "#C8281E", "pigment": "vermilion", "role": "street, lip and alarm" },
+      { "name": "Sick yellow", "hex": "#E3C534", "pigment": "cadmium yellow", "role": "sky and lamp" },
+      { "name": "Ultramarine", "hex": "#2A3A9C", "pigment": "ultramarine", "role": "night and contour" },
+      { "name": "Violet", "hex": "#6B3F8F", "pigment": "cobalt violet", "role": "shadow, the complement of yellow" },
+      { "name": "Flesh pink", "hex": "#D98B7A", "pigment": "rose madder and white", "role": "skin" },
+      { "name": "Ink black", "hex": "#1B1717", "pigment": "ivory black", "role": "contour and mask" }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Oil paint, thick and rough, with little medium; woodcut for the hard, cut line.",
+    "support": "Canvas or board, often unprimed or thinly primed.",
+    "brushwork": "Broad, fast strokes of 20–50mm; angular dashes and scrapes; a dark contour of 4–12mm.",
+    "paint_handling": "1–2 layers; the paint is opaque in the clash areas and thin in the ground, and the marks are not blended.",
+    "edges": "Hard, angular and broken; the contour cuts across the colour."
+  },
+  "light_and_modelling": {
+    "light": "Harsh and artificial: a street lamp or a flat glare, with no clear daylight source.",
+    "modelling": "Minimal; a form turns by a jump of hue in 1–2 steps, and the face is a flat mask.",
+    "shadow": "A coloured patch of green, violet or blue; a hard edge and no gradient.",
+    "temperature": "A hot red or yellow against a cold green or blue, chosen for the mood."
+  },
+  "subject": {
+    "typical": "The city street, the cafe, the cabaret, the nude in a studio, the self-portrait, the portrait with a mask-like face, the crowd.",
+    "figure_scale": "Large, at 60–90% of the picture height, cut by the edge.",
+    "treatment": "Tense, raw and personal; the subject is an inner state shown by harsh colour and a hard line."
+  },
+  "surface": {
+    "finish": "Matt and raw.",
+    "texture": "Rough, scraped and ridged, with the canvas in view."
+  },
+  "reference_works": {
+    "works": [
+      { "work": "Improvisation No. 30 (Cannons)", "artist": "Vasily Kandinsky", "date": "1913", "museum": "Art Institute of Chicago", "object_id": "8991", "public_domain": true },
+      { "work": "Painting with Green Center", "artist": "Vasily Kandinsky", "date": "1913", "museum": "Art Institute of Chicago", "object_id": "8987", "public_domain": true },
+      { "work": "Portrait of Otto Mueller", "artist": "Ernst Ludwig Kirchner", "date": "1915", "museum": "Art Institute of Chicago", "object_id": "72726", "public_domain": false },
+      { "work": "Two Nudes", "artist": "Ernst Ludwig Kirchner", "date": "1905", "museum": "Art Institute of Chicago", "object_id": "17958", "public_domain": false }
+    ],
+    "note": "Object ids were checked against the Art Institute of Chicago API (CC0 data). Two works are not flagged as public domain by the museum: the ids identify them only. Look at the museum page for the image and its licence; do not copy it."
+  },
+  "prompt_primer": {
+    "positive": ["expressionist painting", "distorted figures", "harsh unnatural colour", "jagged dark contour", "tilted city street", "mask-like face", "acid green and red clash", "rough fast brush", "Kirchner and Kandinsky style", "tense inner mood"],
+    "negative": ["calm natural colour", "smooth blended surface", "correct perspective", "soft round contour", "cheerful decoration", "neutral detached view"]
+  },
+  "lineage": { "evolved_from": ["post-impressionism"], "rebelled_against": [], "hybridized_with": [], "echoes": ["german-expressionist-cinema"] },
+  "emotion": {
+    "target_response": "Anxiety and force: the viewer feels the nerves of the painter and the pressure of the city.",
+    "keywords": ["raw", "tense", "angular", "anxious", "urgent"],
+    "brand_archetypes": ["outlaw", "creator"]
+  },
+  "agent": {
+    "triggers": ["expressionism", "expressionist", "kirchner", "kandinsky", "schiele", "die brucke", "munch scream style", "distorted figure", "harsh colour"],
+    "use_cases": ["music, club and theatre posters", "editorial art on city life and anxiety", "album and book covers with a raw mood", "film titles with a tense look"],
+    "avoid_when": [
+      "The brief needs a calm, polite or luxury mood.",
+      "The picture must show true colour or fine product detail."
+    ],
+    "modifiers": [
+      { "request": "more calm and structural", "toward": "post-impressionism", "how": "Keep the thick stroke; return the colour to the palette of nature, soften the contour to 3–8mm, and rebuild the space from tilted planes." },
+      { "request": "more abstract", "toward": "abstract-expressionism", "how": "Drop the figure; enlarge the stroke to 100–300mm, work on a large canvas of 2m or more, and let the gesture be the subject." }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q80113 (Expressionism)", "url": "https://www.wikidata.org/wiki/Q80113" },
+    { "title": "Getty AAT 300021502 (Expressionism)", "url": "https://vocab.getty.edu/page/aat/300021502" },
+    { "title": "Art Institute of Chicago API (CC0 data)", "url": "https://api.artic.edu/docs/" },
+    { "title": "Ernst Ludwig Kirchner, Chronik der Brücke (1913)" }
+  ]
+}

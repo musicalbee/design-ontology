@@ -246,7 +246,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`art-nouveau-web`](../art-nouveau-web/SKILL.md)
 - **Mixes well with:** [`bauhaus`](../bauhaus/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md)
-- **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`cubism-painting`](../cubism-painting/SKILL.md), [`grotesque-sans`](../grotesque-sans/SKILL.md), [`soviet-montage`](../soviet-montage/SKILL.md)
+- **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`cubism-painting`](../cubism-painting/SKILL.md), [`futurism-painting`](../futurism-painting/SKILL.md), [`grotesque-sans`](../grotesque-sans/SKILL.md), [`soviet-montage`](../soviet-montage/SKILL.md), [`suprematism`](../suprematism/SKILL.md)
 - **Nearest by vector profile:** [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`luxury-typography-web`](../luxury-typography-web/SKILL.md), [`cyberpunk-web`](../cyberpunk-web/SKILL.md)
 
 ## Emotional target

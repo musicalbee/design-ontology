@@ -1,0 +1,117 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "minimalism-painting",
+  "domain": "painting",
+  "name": "Minimalism",
+  "aliases": ["Minimal art", "ABC art", "Hard-edge minimalism"],
+  "era_id": "avant-garde",
+  "time_period": { "start": 1959, "end": 1975, "label": "1959–1975" },
+  "region": "United States",
+  "media": ["oil on canvas", "acrylic", "enamel"],
+  "summary": "Flat, exact, repeated forms: stripes, grids and bare shapes in one or two colours. The picture is an object with no story and no hand, and the viewer sees what is there.",
+  "philosophy": {
+    "core_thesis": "A picture is a plain object: what you see is what is there, so that form is reduced to the fewest parts and no illusion, gesture or story remains.",
+    "design_principles": [
+      "Reduce the picture to 1–3 elements: a stripe, a grid, a bar or a single shape.",
+      "Repeat one unit, such as a stripe of 40–80mm, 8–40 times, in a strict order.",
+      "Paint flat, even coats with no stroke, and keep the edge sharp to under 1mm.",
+      "Limit the colour to 1–3 hues, or to black, grey and white, with no mixing and no gradient.",
+      "Let the shape of the canvas follow the pattern: a notched, shaped or very wide support is fine.",
+      "Fix the system before the painting starts, and follow it with no change by taste.",
+      "Give the picture no title that tells a story and no sign of the hand."
+    ],
+    "anti_patterns": [
+      "A gesture, a drip or a visible stroke",
+      "A figure, an object or a landscape",
+      "A soft, blended or glowing edge",
+      "A rich, many-hued or decorative palette",
+      "An off-centre, free, intuitive layout",
+      "A title that tells a story or a feeling"
+    ]
+  },
+  "vectors": { "abstraction": 5, "brushwork_visibility": 1, "chromatic_intensity": 2, "depth_illusion": 1, "line_dominance": 4 },
+  "composition": {
+    "layout": "A repeated stripe or grid on a flat support, in a fixed order, with an even spacing and no focal centre.",
+    "focal_point": "None: the field is even; the eye goes to the edge of the support and to the single change in the pattern.",
+    "format": "A square or very wide canvas, or a shaped support, of 1.5m or more on one side.",
+    "principles": [
+      { "principle": "rhythm", "rule": "Repeat one stripe or unit 8–40 times at an exact step, with a tolerance of 1mm." },
+      { "principle": "symmetry-axis", "rule": "Make the pattern symmetric about the centre axis, or repeat it with a shift of one step." },
+      { "principle": "unity-variety", "rule": "Hold 1 unit width and 1–2 hues across the picture, and allow a change of only one variable at a time." },
+      { "principle": "negative-space", "rule": "Leave 0–20% as bare ground, with an even strip of 5–20mm between the units." },
+      { "principle": "contrast", "rule": "Keep a value gap of 20% or less between neighbouring units, or 80% or more for a black and white pair." },
+      { "principle": "proportion", "rule": "Set the unit width to a simple ratio, such as 1:2 or 1:3, of the gap and of the canvas." }
+    ]
+  },
+  "palette": {
+    "strategy": "One to three flat hues or neutrals, used as they come, in strict order; grey, black and white are as strong as colour.",
+    "distribution": "1–2 main hues 80–95%, a ground or a gap 5–20%, no accent.",
+    "ground": "Primed white or raw canvas, left bare in the gap.",
+    "colours": [
+      { "name": "Flat black", "hex": "#1A1A1C", "pigment": "enamel black", "role": "stripe and band" },
+      { "name": "Mid grey", "hex": "#8A8D91", "pigment": "grey enamel", "role": "stripe and field" },
+      { "name": "Warm white", "hex": "#EFEDE6", "pigment": "zinc white", "role": "ground and gap" },
+      { "name": "Industrial red", "hex": "#B5302A", "pigment": "cadmium red", "role": "single hue" },
+      { "name": "Aluminium", "hex": "#B7BBC0", "pigment": "aluminium paint", "role": "metal stripe" },
+      { "name": "Pencil grey", "hex": "#6A6C70", "pigment": "graphite", "role": "fine grid line" }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Enamel, house paint, acrylic and thin oil; graphite for a fine grid.",
+    "support": "Primed canvas, a shaped stretcher or a flat panel, 1.5m or more wide.",
+    "brushwork": "None in view: flat, even coats with a roller or a brush, and masked edges.",
+    "paint_handling": "2–3 even coats; no texture, no glaze, no correction in view.",
+    "edges": "Sharp, masked, with a tolerance of 1mm; the edge of the stripe is the line."
+  },
+  "light_and_modelling": {
+    "light": "Even and neutral; the picture is lit like a wall.",
+    "modelling": "None; each unit is a flat colour.",
+    "shadow": "None; the shaped support may cast a real shadow on the wall.",
+    "temperature": "Neutral; a single warm or cool hue in the whole picture."
+  },
+  "subject": {
+    "typical": "Concentric stripes, parallel bands, a grid of fine pencil lines, a notched shape, a single bar.",
+    "figure_scale": "No figure; the unit is a stripe of 40–80mm repeated across the picture.",
+    "treatment": "Plain, exact and cool; the picture is an object, and the title is a number or a place."
+  },
+  "surface": {
+    "finish": "Matt to satin and even.",
+    "texture": "Smooth and flat; a faint grain of the canvas in view; graphite lines of 0.2mm."
+  },
+  "reference_works": {
+    "works": [
+      { "work": "De la nada vida a la nada muerte", "artist": "Frank Stella", "date": "1965", "museum": "Art Institute of Chicago", "object_id": "25671", "public_domain": false },
+      { "work": "Hatra I", "artist": "Frank Stella", "date": "1967", "museum": "Art Institute of Chicago", "object_id": "34852", "public_domain": false },
+      { "work": "Untitled", "artist": "Agnes Martin", "date": "1961", "museum": "Art Institute of Chicago", "object_id": "159982", "public_domain": false }
+    ],
+    "note": "Object ids were checked against the Art Institute of Chicago API. None of the three works is flagged as public domain by the museum: the ids identify them only. Look at the museum page for the image and its licence; do not copy it."
+  },
+  "prompt_primer": {
+    "positive": ["minimalist painting", "repeated stripes", "hard sharp edges", "flat even paint", "strict grid", "one or two flat colours", "shaped canvas", "Stella and Agnes Martin style", "no gesture", "plain object"],
+    "negative": ["gestural brush", "figure or landscape", "soft glowing edge", "rich decorative palette", "free intuitive layout", "story title"]
+  },
+  "lineage": { "evolved_from": ["suprematism", "de-stijl-painting"], "rebelled_against": ["abstract-expressionism"], "hybridized_with": [], "echoes": ["swiss-international", "rams-functionalism-ui", "japandi-interior"] },
+  "emotion": {
+    "target_response": "Stillness and clarity: the viewer sees the thing as it is, and feels order without a message.",
+    "keywords": ["exact", "reduced", "cool", "serial", "neutral"],
+    "brand_archetypes": ["sage", "ruler", "creator"]
+  },
+  "agent": {
+    "triggers": ["minimalism", "minimalist painting", "frank stella", "agnes martin", "stripes", "hard edge", "serial grid", "shaped canvas", "less is more"],
+    "use_cases": ["interface and brand systems built on grids", "architecture, furniture and gallery identity", "packaging with one hue and one rule", "wall graphics and print covers"],
+    "avoid_when": [
+      "The brief needs warmth, story, a figure or a hand-made touch.",
+      "The picture must show rich colour or texture."
+    ],
+    "modifiers": [
+      { "request": "more colour and glow", "toward": "colour-field-painting", "how": "Soften the edge to 20–60mm, enlarge the field to 2m or more, saturate the hue, and stain the paint into raw cloth." },
+      { "request": "more floating and spiritual", "toward": "suprematism", "how": "Drop the repeat; use 1–5 tilted shapes at 10–45° on a white field, and keep 50–70% of the picture empty." }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q173436 (Minimalism)", "url": "https://www.wikidata.org/wiki/Q173436" },
+    { "title": "Getty AAT 300065758 (Minimalism)", "url": "https://vocab.getty.edu/page/aat/300065758" },
+    { "title": "Art Institute of Chicago API (CC0 data)", "url": "https://api.artic.edu/docs/" },
+    { "title": "Donald Judd, Specific Objects (Arts Yearbook 8, 1965)" }
+  ]
+}

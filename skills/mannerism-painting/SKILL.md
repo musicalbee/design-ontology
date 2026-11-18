@@ -173,7 +173,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more dramatic**: move toward [`baroque-painting`](../baroque-painting/SKILL.md) (Baroque painting). Keep the twist and the figure scale; cut the acid colour, add one strong beam of light and a dark ground at 50% of the area.
 
 - **Came from (go here for a more orthodox version):** [`renaissance-painting`](../renaissance-painting/SKILL.md)
-- **Nearest by vector profile:** [`ukiyo-e`](../ukiyo-e/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md), [`airbrush-surrealism`](../airbrush-surrealism/SKILL.md)
+- **Nearest by vector profile:** [`ukiyo-e`](../ukiyo-e/SKILL.md), [`symbolism-painting`](../symbolism-painting/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md)
 
 ## Emotional target
 
@@ -184,6 +184,7 @@ Unease and admiration: the viewer sees great skill and feels a cool, tense elega
 ## Sources
 
 - [Wikidata Q131808 (Mannerism)](https://www.wikidata.org/wiki/Q131808)
+- [Getty AAT 300021144 (Mannerism)](https://vocab.getty.edu/page/aat/300021144)
 - [Art Institute of Chicago API (CC0 data)](https://api.artic.edu/docs/)
 - Giorgio Vasari, Lives of the Most Excellent Painters, Sculptors and Architects (1550)
 

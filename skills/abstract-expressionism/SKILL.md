@@ -171,10 +171,11 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more structure**: move toward [`cubism-painting`](../cubism-painting/SKILL.md) (Cubism). Keep the shallow space and the earth palette; bring back the faceted plane, a hidden grid and a faint object clue.
 
 - **Came from (go here for a more orthodox version):** [`cubism-painting`](../cubism-painting/SKILL.md), [`surrealism-painting`](../surrealism-painting/SKILL.md)
+- **Led to (go here for a newer version):** [`colour-field-painting`](../colour-field-painting/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`de-stijl-painting`](../de-stijl-painting/SKILL.md)
-- **Was rejected by:** [`pop-art-painting`](../pop-art-painting/SKILL.md)
+- **Was rejected by:** [`minimalism-painting`](../minimalism-painting/SKILL.md), [`photorealism`](../photorealism/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md)
 - **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md)
-- **Nearest by vector profile:** [`cubism-painting`](../cubism-painting/SKILL.md), [`fauvism`](../fauvism/SKILL.md), [`impressionism`](../impressionism/SKILL.md)
+- **Nearest by vector profile:** [`cubism-painting`](../cubism-painting/SKILL.md), [`fauvism`](../fauvism/SKILL.md), [`post-impressionism`](../post-impressionism/SKILL.md)
 
 ## Emotional target
 

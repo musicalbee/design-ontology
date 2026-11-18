@@ -1,0 +1,223 @@
+{
+  "$schema": "../../../schema/domains/icon.schema.json",
+  "id": "isometric-icon",
+  "domain": "icon",
+  "name": "Isometric icon",
+  "aliases": [
+    "Isometric pictogram",
+    "2.5D icon"
+  ],
+  "era_id": "rendered",
+  "time_period": {
+    "start": 1995,
+    "end": null,
+    "label": "1995–present"
+  },
+  "region": "Desktop operating systems of the 1990s, then infographic and web illustration",
+  "formats": [
+    "svg",
+    "png"
+  ],
+  "summary": "Icons drawn as small objects in a parallel isometric view: three faces at once, edges at 30° to the horizontal, no vanishing point. Flat colour fills give each face its own tone.",
+  "philosophy": {
+    "core_thesis": "An icon can show an object as a solid in space and keep it exact, because parallel projection keeps every edge at a true angle.",
+    "design_principles": [
+      "Draw on an isometric grid with edges at 30° and 150° to the horizontal and vertical edges at 90°.",
+      "Show three faces: a top face in the light tone, a left face in the mid tone and a right face in the dark tone.",
+      "Use 3 tones of one hue for each object, 15–25% apart in lightness.",
+      "Keep all parallel edges parallel; no vanishing point and no foreshortening.",
+      "Fit the object into a hexagonal keyline that fills 80–90% of the grid.",
+      "Use a 1–1.5 px stroke at 48 px only when the faces need separation."
+    ],
+    "anti_patterns": [
+      "Vanishing-point perspective",
+      "Front-only flat views",
+      "Faces that share one tone",
+      "Edges off the 30° grid",
+      "Photographic texture"
+    ]
+  },
+  "vectors": {
+    "realism": 3,
+    "fill": 4,
+    "corner_softness": 2,
+    "detail_density": 3,
+    "colour_count": 4
+  },
+  "grid": {
+    "sizes_px": [
+      32,
+      48,
+      64,
+      128
+    ],
+    "base_px": 64,
+    "live_area_px": 56,
+    "padding_px": 4,
+    "keylines": "A hexagon that holds an isometric cube of 56 px across, with its centre on the grid centre."
+  },
+  "stroke": {
+    "width_px": 1.5,
+    "caps": "round",
+    "joins": "round",
+    "rule": "An optional 1–1.5 px outline at 64 px, in the darkest tone of the object; the faces carry the form."
+  },
+  "shape": {
+    "corner_radius_px": 2,
+    "primitives": "Isometric boxes, cylinders and planes; edges at 30°, 90° and 150° only.",
+    "optical_size": "At 32 px, drop small parts and keep the three faces; at 128 px, add one level of detail such as a screen or a label."
+  },
+  "colour": {
+    "count_max": 9,
+    "gradients": false,
+    "strategy": "3 tones for each hue, with 2 to 3 hues in one icon; the top face is the lightest.",
+    "colours": [
+      {
+        "name": "Top face",
+        "hex": "#8FB8F2",
+        "role": "light face"
+      },
+      {
+        "name": "Left face",
+        "hex": "#4F86D9",
+        "role": "mid face"
+      },
+      {
+        "name": "Right face",
+        "hex": "#2D5BA8",
+        "role": "dark face"
+      },
+      {
+        "name": "Accent top",
+        "hex": "#FFC857",
+        "role": "second object, light"
+      },
+      {
+        "name": "Accent side",
+        "hex": "#E09F1F",
+        "role": "second object, dark"
+      },
+      {
+        "name": "Ground",
+        "hex": "#EEF1F6",
+        "role": "ground plane"
+      }
+    ]
+  },
+  "perspective_and_light": {
+    "view": "isometric",
+    "light": "A fixed light from the top; the light sets the tone of each face, not a gradient.",
+    "shadow": "A flat parallelogram on the ground plane in a darker tone at 10–20% opacity, or none."
+  },
+  "metaphor": {
+    "typical": "A server, a box, a laptop, a document stack, a building and a chart.",
+    "treatment": "Objects shown as small solids; a process is a group of solids on one ground plane."
+  },
+  "prompt_primer": {
+    "positive": [
+      "isometric icon",
+      "30 degree isometric grid",
+      "three visible faces",
+      "flat colour faces",
+      "three tones of one hue",
+      "2.5D pictogram",
+      "clean vector illustration",
+      "no vanishing point"
+    ],
+    "negative": [
+      "vanishing point perspective",
+      "photorealistic texture",
+      "front view only",
+      "soft gradients",
+      "hand-drawn lines"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "toicon isometric: search",
+      "kind": "icon-set",
+      "maker": "Jo Szczepanska",
+      "credit": "toicon.com; file on Wikimedia Commons",
+      "licence": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Toicon-icon-isometric-search.svg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/7/75/Toicon-icon-isometric-search.svg"
+    },
+    {
+      "title": "toicon isometric: save",
+      "kind": "icon-set",
+      "maker": "Jo Szczepanska",
+      "credit": "toicon.com; file on Wikimedia Commons",
+      "licence": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Toicon-icon-isometric-save.svg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Toicon-icon-isometric-save.svg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "pixel-icon"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "skeuomorphic-icon",
+      "flat-icon"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Clarity with depth: the viewer sees a system as a small, ordered model.",
+    "keywords": [
+      "technical",
+      "ordered",
+      "dimensional",
+      "clear"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "isometric icon",
+      "isometric",
+      "2.5d icon",
+      "3d flat icon",
+      "axonometric icon",
+      "infographic icon"
+    ],
+    "use_cases": [
+      "cloud and infrastructure diagrams",
+      "landing page feature illustrations",
+      "infographics and explainers",
+      "game and simulation UI"
+    ],
+    "avoid_when": [
+      "The icon sits inline with text at 16–24 px.",
+      "The brief asks for a flat, front-view system."
+    ],
+    "modifiers": [
+      {
+        "request": "flatter",
+        "toward": "flat-icon",
+        "how": "Keep the colours; turn the object to a front view and merge the three faces into one flat fill."
+      },
+      {
+        "request": "more realistic",
+        "toward": "skeuomorphic-icon",
+        "how": "Keep the solid form; add gradients, a highlight and a soft cast shadow."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Isometric projection, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Isometric_projection"
+    },
+    {
+      "title": "toicon isometric icons on Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Toicon-icon-isometric-search.svg"
+    }
+  ]
+}

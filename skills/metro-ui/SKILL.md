@@ -236,6 +236,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`swiss-international`](../swiss-international/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`skeuomorphism`](../skeuomorphism/SKILL.md)
 - **Mixes well with:** [`flat-design`](../flat-design/SKILL.md)
+- **Kin in another domain:** [`flat-icon`](../flat-icon/SKILL.md)
 - **Nearest by vector profile:** [`bauhaus`](../bauhaus/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md)
 
 ## Emotional target

@@ -1,0 +1,424 @@
+{
+  "$schema": "../../../schema/domains/interior.schema.json",
+  "id": "coastal-interior",
+  "domain": "interior",
+  "name": "Coastal interior",
+  "aliases": [
+    "Coastal style",
+    "Nordic coastal",
+    "Summer-house style",
+    "Hamptons style"
+  ],
+  "era_id": "global-minimal",
+  "time_period": {
+    "start": 1990,
+    "end": null,
+    "label": "1990s–present"
+  },
+  "room_types": [
+    "living",
+    "dining",
+    "bedroom",
+    "kitchen",
+    "hospitality"
+  ],
+  "summary": "The airy summer-house room by the sea. White and sand-coloured walls, white-washed or grey-oiled wood, linen slipcovers and woven rope or rattan; one sea blue carries the accents, and the room opens to the water and the light.",
+  "philosophy": {
+    "core_thesis": "A house by the sea takes its colours from sand, water and weathered wood, and its comfort from loose, washable fabric.",
+    "design_principles": [
+      "Paint walls in white or sand at a light reflectance value of 75 or more, and panel one wall or the ceiling in painted tongue-and-groove boards.",
+      "Use white-washed or grey-oiled oak or pine with a weathered, matt surface.",
+      "Cover seats in loose linen or cotton slipcovers in white, sand or pale blue.",
+      "Add woven texture: rattan, wicker, jute, sisal and rope, at most one piece of each in a group.",
+      "Keep one blue family for the accents, from pale sky to deep navy, at 10% of the surface or less.",
+      "Open the room to the view: low furniture in front of the window and light curtains that pull fully clear."
+    ],
+    "anti_patterns": [
+      "Theme objects: anchors, life rings, shells on every surface, 'beach' word signs",
+      "More than one blue family, or blue together with a second strong hue",
+      "Dark heavy wood and velvet",
+      "Glossy lacquer and chrome",
+      "Tall furniture that blocks the window view"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "density": 2,
+    "formality": 2,
+    "material_naturalness": 4,
+    "chromatic_intensity": 2
+  },
+  "composition": {
+    "plan_logic": "Seats face the water or the window wall. A large slipcovered sofa and two woven chairs stand on a jute rug; the dining table sits near the glass.",
+    "focal_point": "The window and the view of the water; inside the room, a white-painted panelled wall or a stone fireplace.",
+    "symmetry": "asymmetric",
+    "axis_count": 1,
+    "focal_wall": "window",
+    "focal_position": 0.5,
+    "rhythm_module_cm": 12,
+    "depth_layers": 3,
+    "rules": [
+      {
+        "principle": "focal-point",
+        "rule": "Make the view the focal point. Turn the sofa toward the window or set it at 90 degrees to it.",
+        "value": "1 focal point: the view"
+      },
+      {
+        "principle": "balance",
+        "rule": "Balance the sofa with two woven chairs and a floor lamp on the other side of the rug.",
+        "value": "moment ratio 0.8–1.25"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Show the repeat of the panel boards on one wall or the ceiling.",
+        "value": "board width 12 cm"
+      },
+      {
+        "principle": "contrast",
+        "rule": "Keep walls and floor close in value; give the edge with navy or with a dark rope line.",
+        "value": "wall to floor LRV difference 25 or less"
+      },
+      {
+        "principle": "grouping",
+        "rule": "Group objects in 3: a glass bottle, a stoneware jug and a piece of driftwood or coral.",
+        "value": "groups of 3"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Layer from the room to the water: seats, a low table, the window, the view.",
+        "value": "3 planes"
+      },
+      {
+        "principle": "negative-space",
+        "rule": "Leave the window wall and the floor in front of it free.",
+        "value": "50% bare floor, 80% bare wall"
+      },
+      {
+        "principle": "zoning",
+        "rule": "Mark each zone with a jute or flat-weave rug.",
+        "value": "2–3 zones"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Keep the route from the door to the terrace door clear.",
+        "value": "90 cm clear"
+      },
+      {
+        "principle": "sightlines",
+        "rule": "Keep every piece in front of the window below the sill.",
+        "value": "0 pieces above the sill on the window wall"
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Give white and sand the walls and large seats, weathered wood and natural fibre the secondary share, and one blue family the accents.",
+        "value": "65/25/10"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Let daylight lead; in the evening use woven or glass lamps at warm white.",
+        "value": "150 lux ambient, 400 lux task, 2700 K"
+      },
+      {
+        "principle": "unity-variety",
+        "rule": "Use one weathered wood and one blue family; vary only the weave of the fibres.",
+        "value": "1 wood, 1 blue, 3 weaves"
+      },
+      {
+        "principle": "camera-station",
+        "rule": "Shoot the room level, with a two-point view toward the window and the water.",
+        "value": "24 mm at 120 cm, level"
+      }
+    ]
+  },
+  "zoning": {
+    "zones": [
+      "sofa group",
+      "dining table by the window",
+      "reading chair"
+    ],
+    "circulation": "One route from the door to the terrace door, and a loop around the dining table.",
+    "main_path_clear_cm": 90,
+    "secondary_path_clear_cm": 70,
+    "seat_to_table_cm": 40,
+    "conversation_diameter_cm": 280,
+    "floor_coverage_pct": 45,
+    "wall_coverage_pct": 20
+  },
+  "palette": {
+    "distribution": "White and sand on walls, ceiling and the large seats; weathered wood, jute and rattan as the secondary share; one blue family on cushions, a stripe, glass and ceramics; brushed nickel or rope as the thin line.",
+    "dominant_pct": 65,
+    "secondary_pct": 25,
+    "accent_pct": 10,
+    "colours": [
+      {
+        "name": "Salt white",
+        "hex": "#F4F2EC",
+        "role": "dominant",
+        "surface": "walls, ceiling, panelling"
+      },
+      {
+        "name": "Sand",
+        "hex": "#DCCFB8",
+        "role": "dominant",
+        "surface": "sofa slipcover, curtains"
+      },
+      {
+        "name": "Driftwood",
+        "hex": "#B9AD9A",
+        "role": "wood",
+        "surface": "floor and furniture, white-washed"
+      },
+      {
+        "name": "Jute",
+        "hex": "#B8995F",
+        "role": "secondary",
+        "surface": "rug, baskets, rattan chairs"
+      },
+      {
+        "name": "Sea blue",
+        "hex": "#6F8FA6",
+        "role": "accent",
+        "surface": "cushions, glass, ceramics"
+      },
+      {
+        "name": "Navy",
+        "hex": "#2C3E57",
+        "role": "accent",
+        "surface": "stripe, frame, one chair"
+      },
+      {
+        "name": "Brushed nickel",
+        "hex": "#A7A9A6",
+        "role": "metal",
+        "surface": "lamp base, handles, taps"
+      }
+    ]
+  },
+  "lighting": {
+    "strategy": "Daylight from large windows leads. In the evening, woven and clear-glass lamps give low warm pools.",
+    "daylight": "Large windows and a glazed door to a terrace; linen curtains that pull fully clear. Window glass is 25% of the floor area.",
+    "ambient_lux": 150,
+    "task_lux": 400,
+    "accent_ratio": 2,
+    "cct_k": 2700,
+    "cct_evening_k": 2400,
+    "cri_min": 90,
+    "layers": [
+      {
+        "layer": "daylight",
+        "source": "large windows and a glazed terrace door",
+        "position": "the water side"
+      },
+      {
+        "layer": "ambient",
+        "source": "woven rattan pendant",
+        "position": "over the dining table"
+      },
+      {
+        "layer": "task",
+        "source": "floor lamp with a linen shade",
+        "position": "beside the reading chair"
+      },
+      {
+        "layer": "decorative",
+        "source": "clear-glass table lamps and lanterns",
+        "position": "sideboard, sill, terrace door"
+      }
+    ]
+  },
+  "materials": {
+    "primary": [
+      "white-washed oak",
+      "painted pine panelling",
+      "linen"
+    ],
+    "secondary": [
+      "rattan",
+      "jute",
+      "sisal",
+      "rope",
+      "stoneware",
+      "clear glass",
+      "brushed nickel"
+    ],
+    "finish": "Matt and weathered: white oil or lye on wood, matt paint, washed linen. Nothing is glossy.",
+    "texture_contrast": "Smooth painted boards against coarse fibre and loose linen, at about 1:1 by area."
+  },
+  "furniture": {
+    "silhouette": "Deep, low, slipcovered seats; light woven chairs; simple painted or weathered wood frames.",
+    "arrangement": "A large slipcovered sofa and two rattan chairs on a jute rug face the window; a long wood table with mixed chairs sits by the glass.",
+    "seat_height_cm": 43,
+    "key_pieces": [
+      "slipcovered linen sofa",
+      "rattan lounge chair",
+      "white-washed oak dining table",
+      "woven rattan pendant",
+      "jute rug",
+      "painted panelled wall",
+      "glass lantern"
+    ]
+  },
+  "textiles": {
+    "fabrics": [
+      "linen",
+      "cotton",
+      "jute",
+      "sisal",
+      "wool"
+    ],
+    "pattern": "Plain linen and one wide stripe or ticking in blue and white; no more than one pattern in a group.",
+    "windows": "Unlined white linen curtains on a simple rod, pulled fully clear of the glass by day."
+  },
+  "objects": {
+    "approach": "Few objects that come from the place: glass, stoneware, driftwood, one boat or sea print. No theme decor.",
+    "grouping": "Groups of 3 on a sill or a sideboard; one large print or painting of the sea, not a gallery wall.",
+    "max_per_surface": 4,
+    "hang_centre_cm": 145,
+    "items": [
+      "clear-glass bottles",
+      "stoneware jug",
+      "driftwood piece",
+      "woven baskets",
+      "one sea print",
+      "glass lantern"
+    ]
+  },
+  "implementation": {
+    "brief": "A white summer-house living room with painted panelling and white-washed oak floorboards. A sand linen sofa and two rattan chairs stand on a jute rug in front of large windows to the sea; a rattan pendant hangs over a long oak table.",
+    "image_prompt": "Coastal summer-house living room, white painted tongue-and-groove panelling, white-washed oak floorboards, large windows to the sea, sand linen slipcovered sofa, two rattan lounge chairs, jute rug, blue and white striped cushions, woven rattan pendant over a long white-washed oak table, clear glass bottles, soft bright daylight, airy, editorial photograph",
+    "negative_prompt": "Anchors, life rings, shell clutter, beach word signs, dark wood, velvet, gloss, chrome, several strong colours, tall furniture in front of the window.",
+    "camera": "24 mm lens, camera at 120 cm, two-point view toward the window and the water.",
+    "scene_3d": "Room 600 x 450 cm, ceiling 270 cm. Bright sky through two 220 x 200 cm windows and a glazed door; 3 point lights at 2700 K at 60, 140 and 200 cm.",
+    "furniture_list": [
+      "sofa 240 x 100 cm, slipcovered",
+      "2 rattan lounge chairs",
+      "low table 120 x 70 cm",
+      "dining table 220 x 95 cm",
+      "6 mixed chairs",
+      "jute rug 250 x 350 cm"
+    ],
+    "material_list": [
+      "white matt paint",
+      "painted pine panelling",
+      "oak boards, white lye",
+      "linen, sand",
+      "rattan",
+      "jute",
+      "brushed nickel"
+    ],
+    "references": []
+  },
+  "lineage": {
+    "evolved_from": [
+      "scandinavian-interior"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "minimalist-interior",
+      "shaker-interior"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Holiday calm: the viewer feels sea air, bare feet on wood and a house that does not mind sand.",
+    "keywords": [
+      "airy",
+      "relaxed",
+      "bright",
+      "fresh",
+      "natural",
+      "light"
+    ],
+    "brand_archetypes": [
+      "innocent",
+      "explorer",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "coastal",
+      "coastal style",
+      "beach house",
+      "summer house",
+      "sommerhus",
+      "hytte by the sea",
+      "hamptons",
+      "nautical",
+      "seaside interior"
+    ],
+    "use_cases": [
+      "holiday homes",
+      "flats near the water",
+      "hotels and guest houses",
+      "show flats in coastal developments"
+    ],
+    "avoid_when": [
+      "The brief asks for drama, luxury or a dark, enclosed mood.",
+      "The room has no daylight to lead the scheme."
+    ],
+    "modifiers": [
+      {
+        "request": "more Nordic",
+        "toward": "scandinavian-interior",
+        "how": "Change the blue accents to grey wool and black lines, drop the rattan to one piece, keep the pale wood and the white walls."
+      },
+      {
+        "request": "more luxury",
+        "toward": "quiet-luxury-interior",
+        "how": "Change the jute to a wool-silk rug and the slipcovers to tailored linen, add one stone surface; keep the sand and white palette."
+      },
+      {
+        "request": "more calm",
+        "toward": "japandi-interior",
+        "how": "Remove the stripe and the blue, add one dark wood and a low bench, reduce objects to 1–3 per surface."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "coastal living room",
+      "white painted panelling",
+      "white-washed oak floor",
+      "linen slipcovered sofa",
+      "rattan chair",
+      "jute rug",
+      "blue and white stripe",
+      "view of the sea",
+      "soft bright daylight"
+    ],
+    "negative": [
+      "anchors",
+      "life rings",
+      "shell clutter",
+      "dark wood",
+      "velvet",
+      "gloss",
+      "chrome"
+    ],
+    "canonical_works": [
+      {
+        "work": "Anchers Hus, Skagen",
+        "architect": "Anna and Michael Ancher",
+        "year": 1884
+      },
+      {
+        "work": "Le Cabanon, Roquebrune-Cap-Martin",
+        "architect": "Le Corbusier",
+        "year": 1952
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Ralph Lauren Home, Home Collection catalogues (1983 onward)"
+    },
+    {
+      "title": "India Hicks, Island Style (Rizzoli, 2005)"
+    },
+    {
+      "title": "Skagens Museum: Anchers Hus",
+      "url": "https://skagenskunstmuseer.dk/en/"
+    }
+  ]
+}

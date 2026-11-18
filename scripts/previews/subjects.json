@@ -1,7 +1,42 @@
 {
-  "$comment": "One fixed subject for each image domain, so that the previews compare styles and not scenes. No real persons, no brands.",
-  "photography": "a corner of a small-town street with a parked car, a shop front and one person who walks past",
-  "film": "a still frame from a film: two people talk across a kitchen table at night, with a window behind them",
-  "painting": "a small harbour with fishing boats, a stone quay, a row of houses and one figure on the quay",
-  "interior": "a living room seen from the doorway at eye height: a sofa, a low table, a rug, a window on one side and one pendant lamp, no people"
+  "$comment": "One fixed subject for each image domain, so that the previews compare styles and not scenes. No real persons, no brands. 'suffix' is added to each prompt of the domain. 'drop' removes primer words that make the model draw text or frames that do not belong on the page. A style override changes the subject or the frame only where the domain subject cannot show the style.",
+  "domains": {
+    "photography": {
+      "subject": "a corner of a small-town street with a parked car, a shop front and one person who walks past",
+      "suffix": "no readable text on signs, no logos"
+    },
+    "film": {
+      "subject": "a still frame from a film: two people talk across a kitchen table at night, with a window behind them",
+      "suffix": "a clean frame with no on-screen text, no captions, no titles, no interface, no logos",
+      "drop": "caption|intertitle|title|subtitle|on-screen|interface|logo"
+    },
+    "painting": {
+      "subject": "a small harbour with fishing boats, a stone quay, a row of houses and one figure on the quay",
+      "suffix": "the painted surface fills the whole image edge to edge, no picture frame, no wall, no gallery, no easel, no signature text"
+    },
+    "interior": {
+      "subject": "a living room seen from one corner at eye height, 24 mm lens with the camera at 120 cm, level verticals, two walls in view, a sofa, a low table, a rug, a window on one side and one pendant lamp, nothing cut at the frame edge, no door frame in the foreground, no people",
+      "suffix": "no readable text, no logos"
+    },
+    "architecture": {
+      "subject": "a public building on a city square, seen from across the square at eye height, two-point view with level verticals, the whole building in the frame with sky above, a few small people for scale",
+      "suffix": "architectural photograph, no readable text on the facade, no logos"
+    },
+    "icon": { "subject": "a 3 by 3 sheet of nine app icons: house, envelope, camera, calendar, gear, bell, search, heart, folder, on a plain ground", "suffix": "no letters, no text, no labels, no logos", "drop": "label|caption|text|letter|typograph|logo|wordmark" }
+  },
+  "styles": {
+    "film/creator-vlog": {
+      "subject": "a vlog frame: one person holds the camera at arm's length and talks to it in a kitchen at night, a second person sits at the table behind"
+    },
+    "film/vertical-short-form": {
+      "subject": "a vertical phone video frame: one person talks to the camera in a kitchen at night, a second person at the table behind, ring light on the face",
+      "size": "portrait"
+    },
+    "film/cinematic-fpv": {
+      "subject": "an FPV drone shot that dives low past a house toward a lit kitchen window where two people sit at a table, level horizon"
+    },
+    "painting/abstract-expressionism": {
+      "subject": "an abstract expressionist painting of a harbour at dusk, where the boats, the quay and the houses dissolve into gestural fields of colour and drips"
+    }
+  }
 }

@@ -219,7 +219,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`documentary-verite`](../documentary-verite/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md)
 - **Was rejected by:** [`one-take-oner`](../one-take-oner/SKILL.md)
-- **Kin in another domain:** [`constructivism-web`](../constructivism-web/SKILL.md)
+- **Kin in another domain:** [`constructivism-web`](../constructivism-web/SKILL.md), [`futurism-painting`](../futurism-painting/SKILL.md)
 - **Nearest by vector profile:** [`vertical-short-form`](../vertical-short-form/SKILL.md), [`classical-hollywood`](../classical-hollywood/SKILL.md), [`hong-kong-action`](../hong-kong-action/SKILL.md)
 
 ## Emotional target

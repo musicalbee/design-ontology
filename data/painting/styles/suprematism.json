@@ -1,0 +1,116 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "suprematism",
+  "domain": "painting",
+  "name": "Suprematism",
+  "aliases": ["Malevich's Suprematism", "Pure feeling"],
+  "era_id": "avant-garde",
+  "time_period": { "start": 1915, "end": 1935, "label": "1915–1935" },
+  "region": "Russia",
+  "media": ["oil on canvas"],
+  "summary": "Flat geometric shapes, such as a square, a bar, a circle and a cross, that float on a white field. The picture shows no object: it shows pure feeling and the sense of space.",
+  "philosophy": {
+    "core_thesis": "Art should free itself from the object: pure shapes in a limitless white field give the feeling of form and of space and nothing else.",
+    "design_principles": [
+      "Build the picture from 1–12 flat geometric shapes: a square, a rectangle, a circle, a cross, a bar.",
+      "Float the shapes on a white or pale field, and leave 50–70% of the picture empty.",
+      "Tilt the shapes at 10–45° from the vertical, so that they rise, fall or drift.",
+      "Limit the colour to 2–4 flat hues and black, with each shape in one flat colour.",
+      "Paint the shapes with a hard, clean edge and no brush texture in the colour.",
+      "Hold the weight in balance by size and position, not by symmetry.",
+      "Show no object, no horizon, no light source and no shadow."
+    ],
+    "anti_patterns": [
+      "A recognisable object, figure or landscape",
+      "Depth, perspective, shadow and modelling",
+      "Visible, expressive brush strokes",
+      "A symmetric, centred, formal layout",
+      "Many small, busy, decorative shapes",
+      "A rich, blended, naturalistic colour"
+    ]
+  },
+  "vectors": { "abstraction": 5, "brushwork_visibility": 1, "chromatic_intensity": 3, "depth_illusion": 1, "line_dominance": 3 },
+  "composition": {
+    "layout": "A few flat shapes, tilted and floating on an open white field, linked by diagonals; a large shape set off-centre and small shapes along its axis.",
+    "focal_point": "The largest shape, set at one third from an edge, with the strongest value contrast against the field.",
+    "format": "A canvas at 1:1 to 4:5; a size of 0.5 to 1m; the field is white and takes 50–70% of the area.",
+    "principles": [
+      { "principle": "negative-space", "rule": "Keep 50–70% of the picture as a white or pale field, with no shape closer than 8% of the width to the edge." },
+      { "principle": "balance", "rule": "Balance the large shape against 2–4 small shapes by area and distance, and hold the centre of mass within 10% of the picture centre." },
+      { "principle": "scale", "rule": "Set a ratio of 4:1 or more between the largest and the smallest shape." },
+      { "principle": "leading-lines", "rule": "Align the shapes along one diagonal axis at 20–45° from the horizontal." },
+      { "principle": "contrast", "rule": "Make the focal shape black or red on white, with a value gap of 70% or more." },
+      { "principle": "hierarchy", "rule": "Use 3 levels: one large shape, 2–3 medium shapes and 2–5 small shapes." }
+    ]
+  },
+  "palette": {
+    "strategy": "A white field with black and a few flat primary hues: red, blue, yellow, and sometimes a grey or a green.",
+    "distribution": "White field 55–70%, black 10–15%, one main hue 10–15%, other hues under 10% each.",
+    "ground": "A white or off-white ground, flat and unmodulated.",
+    "colours": [
+      { "name": "Field white", "hex": "#F2EFE6", "pigment": "zinc white", "role": "field" },
+      { "name": "Pure black", "hex": "#16161A", "pigment": "ivory black", "role": "main shape" },
+      { "name": "Suprematist red", "hex": "#C9302C", "pigment": "vermilion", "role": "focal shape" },
+      { "name": "Flat blue", "hex": "#2F4FA2", "pigment": "ultramarine", "role": "secondary shape" },
+      { "name": "Flat yellow", "hex": "#E6B72D", "pigment": "cadmium yellow", "role": "small accent" },
+      { "name": "Cool grey", "hex": "#8E939A", "pigment": "grey", "role": "quiet shape" }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Oil paint, thin and matt, brushed flat.",
+    "support": "A fine canvas with a white ground.",
+    "brushwork": "Flat, even fills with a stroke that does not show; the edge is drawn with a small brush of 3–8mm.",
+    "paint_handling": "2–3 thin, opaque coats; no impasto and no glaze; a slight crackle with age is accepted.",
+    "edges": "Hard and clean, with a small wobble of under 1mm from the hand."
+  },
+  "light_and_modelling": {
+    "light": "None: the field is even and the shapes carry no light.",
+    "modelling": "None; each shape is one flat colour.",
+    "shadow": "None; shapes cast no shadow on the field.",
+    "temperature": "Neutral white field; warm and cool shapes in contrast."
+  },
+  "subject": {
+    "typical": "A black square, a red square, a cross, a floating bar, a circle, a group of tilted rectangles and a white-on-white form.",
+    "figure_scale": "No figure; the largest shape fills 20–40% of the picture.",
+    "treatment": "Pure and silent; the shapes are a feeling of form and not a thing."
+  },
+  "surface": {
+    "finish": "Matt, even and flat.",
+    "texture": "Smooth, with a fine craquelure in old works."
+  },
+  "reference_works": {
+    "works": [
+      { "work": "Painterly Realism of a Football Player—Color Masses in the 4th Dimension", "artist": "Kasimir Malevich", "date": "1915", "museum": "Art Institute of Chicago", "object_id": "207293", "public_domain": false },
+      { "work": "From Cubism and Futurism to Suprematism", "artist": "Kasimir Malevich", "date": "1916", "museum": "Art Institute of Chicago", "object_id": "199128", "public_domain": false },
+      { "work": "Proun", "artist": "El Lissitzky", "date": "1920", "museum": "Art Institute of Chicago", "object_id": "150814", "public_domain": false }
+    ],
+    "note": "None of the three works is flagged as public domain by the museum: the ids identify them only. Look at the museum page for the image and its licence; do not copy it."
+  },
+  "prompt_primer": {
+    "positive": ["suprematist painting", "flat geometric shapes", "floating black square", "white field", "tilted rectangles", "red black white palette", "no object no horizon", "Malevich style", "pure form and space", "hard clean edges"],
+    "negative": ["recognisable object", "perspective and shadow", "visible brush strokes", "symmetric centred layout", "busy small shapes", "naturalistic colour"]
+  },
+  "lineage": { "evolved_from": ["futurism-painting", "cubism-painting"], "rebelled_against": [], "hybridized_with": [], "echoes": ["constructivism-web"] },
+  "emotion": {
+    "target_response": "Silence and release: the viewer feels space without an object, and rest in pure form.",
+    "keywords": ["pure", "silent", "geometric", "weightless", "radical"],
+    "brand_archetypes": ["sage", "creator", "magician"]
+  },
+  "agent": {
+    "triggers": ["suprematism", "suprematist", "malevich", "black square", "lissitzky", "floating geometry", "geometric abstraction", "white on white"],
+    "use_cases": ["poster and cover with bold geometry", "brand marks and icons from flat shapes", "gallery and book design", "layout studies with floating blocks"],
+    "avoid_when": [
+      "The brief needs a figure, a story or a literal scene.",
+      "The picture needs warm texture or a hand-made look."
+    ],
+    "modifiers": [
+      { "request": "more dynamic and machine-like", "toward": "futurism-painting", "how": "Keep the diagonals; add a repeat of the shape along a path 5–10 times, bring in a ground of shards and a bright, divided colour." },
+      { "request": "more grid-based and primary", "toward": "de-stijl-painting", "how": "Lock the shapes to a vertical and horizontal grid, add thick black lines of 10–20mm, and use only red, blue, yellow, white and black." }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q191970 (Suprematism)", "url": "https://www.wikidata.org/wiki/Q191970" },
+    { "title": "Getty AAT 300021405 (Suprematism)", "url": "https://vocab.getty.edu/page/aat/300021405" },
+    { "title": "Kazimir Malevich, The Non-Objective World (Bauhausbücher 11, 1927)" }
+  ]
+}
