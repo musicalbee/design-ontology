@@ -73,11 +73,14 @@ flowchart LR
   end
   subgraph architecture_revival_and_academy["Architecture · Revival and Academy · 1750–1914"]
     neoclassical_architecture["Neoclassicism"]
+    arts_and_crafts_architecture["Arts and Crafts"]
     beaux_arts_architecture["Beaux-Arts"]
   end
   subgraph architecture_fin_de_siecle["Architecture · Fin de Siècle · 1885–1914"]
     art_nouveau_architecture["Art Nouveau"]
     prairie_school_architecture["Prairie School"]
+    organic_architecture["Organic Architecture"]
+    expressionist_architecture["Expressionist Architecture"]
   end
   subgraph architecture_modern_movement["Architecture · Modern Movement · 1919–1975"]
     bauhaus_architecture["Bauhaus Architecture"]
@@ -86,11 +89,14 @@ flowchart LR
     nordic_modernism_architecture["Nordic Modernism"]
     mid_century_modern_architecture["Mid-century Modern"]
     brutalist_architecture["Brutalism"]
+    adaptive_reuse_architecture["Adaptive Reuse"]
   end
   subgraph architecture_postmodern_and_after["Architecture · Postmodern and After · 1966–present"]
     postmodern_architecture["Postmodernism"]
     high_tech_architecture["High-tech"]
+    critical_regionalism_architecture["Critical Regionalism"]
     deconstructivist_architecture["Deconstructivism"]
+    mass_timber_architecture["Mass Timber"]
     parametricism_architecture["Parametricism"]
   end
   subgraph interior_classical_house["Interior · Classical house · 1700–1830"]
@@ -212,6 +218,7 @@ flowchart LR
     airbrush_surrealism["Airbrush Surrealism"]
   end
   abstract_expressionism <-. echoes .-> brutalist_architecture
+  adaptive_reuse_architecture <-. echoes .-> industrial_loft_interior
   airbrush_surrealism <-. echoes .-> pop_art_web
   airbrush_surrealism <-. echoes .-> psychedelic
   airbrush_surrealism <-. echoes .-> space_age
@@ -232,6 +239,7 @@ flowchart LR
   art_nouveau_architecture <-. echoes .-> art_nouveau_web
   art_nouveau_architecture <-. echoes .-> rococo_painting
   art_nouveau_interior <-. echoes .-> art_nouveau_web
+  arts_and_crafts_architecture <-. echoes .-> arts_and_crafts_interior
   arts_and_crafts_interior <-. echoes .-> nordic_national_romanticism_painting
   baroque_architecture <-. echoes .-> baroque_painting
   baroque_painting <-. echoes .-> film_noir_still
@@ -278,6 +286,7 @@ flowchart LR
   dopamine_decor <-. echoes .-> food_photography
   dopamine_decor <-. echoes .-> memphis_design
   duesseldorf_school <-. echoes .-> international_style_architecture
+  expressionist_architecture <-. echoes .-> german_expressionist_cinema
   fashion_editorial <-. echoes .-> grunge_editorial
   fashion_editorial <-. echoes .-> quiet_luxury_interior
   fauvism <-. echoes .-> new_colour
@@ -311,6 +320,7 @@ flowchart LR
   japandi_interior <-. echoes .-> wabi_sabi_web
   japanese_graphic_modernism <-. echoes .-> ukiyo_e
   luxury_typography_web <-. echoes .-> quiet_luxury_interior
+  mass_timber_architecture <-. echoes .-> scandinavian_interior
   memphis_design <-. echoes .-> memphis_interior
   memphis_design <-. echoes .-> music_video
   memphis_design <-. echoes .-> pop_art_painting
@@ -330,6 +340,7 @@ flowchart LR
   new_topographics <-. echoes .-> slow_cinema
   nordic_modernism_architecture <-. echoes .-> scandinavian_interior
   nordic_national_romanticism_painting <-. echoes .-> scandinavian_interior
+  organic_architecture <-. echoes .-> scandinavian_interior
   party_flash <-. echoes .-> y2k_aesthetic
   pictorialism <-. echoes .-> victorian_interior
   planimetric_symmetry <-. echoes .-> renaissance_painting
@@ -351,6 +362,7 @@ flowchart LR
   straight_photography --> architectural_photography
   art_nouveau_architecture --> art_deco_architecture
   arts_and_crafts_interior --> art_nouveau_interior
+  gothic_architecture --> arts_and_crafts_architecture
   shaker_interior --> arts_and_crafts_interior
   flat_design --> aurora_gradient_ui
   renaissance_architecture --> baroque_architecture
@@ -368,6 +380,7 @@ flowchart LR
   neumorphism --> claymorphism
   flat_design --> corporate_memphis
   memphis_design --> corporate_memphis
+  nordic_modernism_architecture --> critical_regionalism_architecture
   dark_devtool_ui --> cybercore_web
   y2k_aesthetic --> cybercore_web
   psychedelic --> cyberdelia
@@ -381,6 +394,7 @@ flowchart LR
   swiss_international --> editorial_serif_revival
   aurora_gradient_ui --> ethereal_web
   glassmorphism --> ethereal_web
+  art_nouveau_architecture --> expressionist_architecture
   pictorialism --> fashion_editorial
   straight_photography --> fashion_editorial
   pointillism --> fauvism
@@ -433,6 +447,8 @@ flowchart LR
   straight_photography --> new_topographics
   international_style_architecture --> nordic_modernism_architecture
   classical_hollywood --> one_take_oner
+  art_nouveau_architecture --> organic_architecture
+  prairie_school_architecture --> organic_architecture
   deconstructivist_architecture --> parametricism_architecture
   y2k_digicam --> party_flash
   dogme_95 --> phone_cinema
@@ -462,12 +478,14 @@ flowchart LR
   swiss_international --> wabi_sabi_web
   new_colour --> y2k_digicam
   abstract_expressionism -. rejects .-> de_stijl_painting
+  adaptive_reuse_architecture -. rejects .-> international_style_architecture
   anti_design -. rejects .-> flat_design
   anti_design -. rejects .-> material_design
   anti_design -. rejects .-> swiss_international
   art_deco_interior -. rejects .-> art_nouveau_interior
   art_deco_web -. rejects .-> art_nouveau_web
   art_nouveau_interior -. rejects .-> victorian_interior
+  arts_and_crafts_architecture -. rejects .-> neoclassical_architecture
   arts_and_crafts_interior -. rejects .-> victorian_interior
   blob_world -. rejects .-> flat_design
   brutalist_web -. rejects .-> flat_design
@@ -475,6 +493,8 @@ flowchart LR
   claymorphism -. rejects .-> flat_design
   conceptual_sketch_ui -. rejects .-> flat_design
   constructivism_web -. rejects .-> art_nouveau_web
+  critical_regionalism_architecture -. rejects .-> international_style_architecture
+  critical_regionalism_architecture -. rejects .-> postmodern_architecture
   cubism_painting -. rejects .-> impressionism
   cubism_painting -. rejects .-> renaissance_painting
   cybercore_web -. rejects .-> flat_design
@@ -490,6 +510,7 @@ flowchart LR
   editorial_serif_revival -. rejects .-> corporate_memphis
   editorial_serif_revival -. rejects .-> flat_design
   ethereal_web -. rejects .-> brutalist_web
+  expressionist_architecture -. rejects .-> beaux_arts_architecture
   fashion_editorial -. rejects .-> new_objectivity
   film_grain_revival -. rejects .-> y2k_digicam
   film_noir -. rejects .-> classical_hollywood
@@ -502,6 +523,7 @@ flowchart LR
   japanese_dense_web -. rejects .-> swiss_international
   liquid_glass_ui -. rejects .-> flat_design
   luxury_typography_web -. rejects .-> flat_design
+  mass_timber_architecture -. rejects .-> brutalist_architecture
   memphis_design -. rejects .-> swiss_international
   memphis_interior -. rejects .-> bauhaus_interior
   memphis_interior -. rejects .-> mid_century_modern_interior
@@ -671,16 +693,11 @@ flowchart LR
   linkStyle 127 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 128 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 129 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 250 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 251 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 252 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 253 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 254 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 255 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 256 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 257 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 258 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 259 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 130 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 131 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 132 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 133 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 134 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 260 stroke:#E5484D,stroke-width:1.5px
   linkStyle 261 stroke:#E5484D,stroke-width:1.5px
   linkStyle 262 stroke:#E5484D,stroke-width:1.5px
@@ -751,3 +768,19 @@ flowchart LR
   linkStyle 327 stroke:#E5484D,stroke-width:1.5px
   linkStyle 328 stroke:#E5484D,stroke-width:1.5px
   linkStyle 329 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 330 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 331 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 332 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 333 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 334 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 335 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 336 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 337 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 338 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 339 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 340 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 341 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 342 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 343 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 344 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 345 stroke:#E5484D,stroke-width:1.5px

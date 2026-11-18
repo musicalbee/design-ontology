@@ -961,6 +961,21 @@
       }
     },
     {
+      "id": "arts-and-crafts-architecture",
+      "domain": "architecture",
+      "name": "Arts and Crafts",
+      "era": "revival-and-academy",
+      "start": 1859,
+      "end": 1914,
+      "vectors": {
+        "ornamentation": 3,
+        "structural_expression": 3,
+        "geometric_rigidity": 2,
+        "material_rawness": 4,
+        "monumentality": 2
+      }
+    },
+    {
       "id": "beaux-arts-architecture",
       "domain": "architecture",
       "name": "Beaux-Arts",
@@ -1003,6 +1018,36 @@
         "geometric_rigidity": 4,
         "material_rawness": 3,
         "monumentality": 2
+      }
+    },
+    {
+      "id": "organic-architecture",
+      "domain": "architecture",
+      "name": "Organic Architecture",
+      "era": "fin-de-siecle",
+      "start": 1905,
+      "end": null,
+      "vectors": {
+        "ornamentation": 3,
+        "structural_expression": 4,
+        "geometric_rigidity": 2,
+        "material_rawness": 4,
+        "monumentality": 2
+      }
+    },
+    {
+      "id": "expressionist-architecture",
+      "domain": "architecture",
+      "name": "Expressionist Architecture",
+      "era": "fin-de-siecle",
+      "start": 1910,
+      "end": 1925,
+      "vectors": {
+        "ornamentation": 3,
+        "structural_expression": 3,
+        "geometric_rigidity": 1,
+        "material_rawness": 4,
+        "monumentality": 4
       }
     },
     {
@@ -1096,6 +1141,21 @@
       }
     },
     {
+      "id": "adaptive-reuse-architecture",
+      "domain": "architecture",
+      "name": "Adaptive Reuse",
+      "era": "modern-movement",
+      "start": 1964,
+      "end": null,
+      "vectors": {
+        "ornamentation": 2,
+        "structural_expression": 4,
+        "geometric_rigidity": 3,
+        "material_rawness": 5,
+        "monumentality": 4
+      }
+    },
+    {
       "id": "postmodern-architecture",
       "domain": "architecture",
       "name": "Postmodernism",
@@ -1126,6 +1186,21 @@
       }
     },
     {
+      "id": "critical-regionalism-architecture",
+      "domain": "architecture",
+      "name": "Critical Regionalism",
+      "era": "postmodern-and-after",
+      "start": 1981,
+      "end": null,
+      "vectors": {
+        "ornamentation": 2,
+        "structural_expression": 4,
+        "geometric_rigidity": 4,
+        "material_rawness": 4,
+        "monumentality": 3
+      }
+    },
+    {
       "id": "deconstructivist-architecture",
       "domain": "architecture",
       "name": "Deconstructivism",
@@ -1137,6 +1212,21 @@
         "structural_expression": 3,
         "geometric_rigidity": 1,
         "material_rawness": 3,
+        "monumentality": 3
+      }
+    },
+    {
+      "id": "mass-timber-architecture",
+      "domain": "architecture",
+      "name": "Mass Timber",
+      "era": "postmodern-and-after",
+      "start": 1995,
+      "end": null,
+      "vectors": {
+        "ornamentation": 1,
+        "structural_expression": 5,
+        "geometric_rigidity": 4,
+        "material_rawness": 4,
         "monumentality": 3
       }
     },
@@ -2333,6 +2423,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "adaptive-reuse-architecture",
+      "to": "industrial-loft-interior",
+      "type": "ECHOES"
+    },
+    {
       "from": "airbrush-surrealism",
       "to": "pop-art-web",
       "type": "ECHOES"
@@ -2430,6 +2525,11 @@
     {
       "from": "art-nouveau-interior",
       "to": "art-nouveau-web",
+      "type": "ECHOES"
+    },
+    {
+      "from": "arts-and-crafts-architecture",
+      "to": "arts-and-crafts-interior",
       "type": "ECHOES"
     },
     {
@@ -2663,6 +2763,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "expressionist-architecture",
+      "to": "german-expressionist-cinema",
+      "type": "ECHOES"
+    },
+    {
       "from": "fashion-editorial",
       "to": "grunge-editorial",
       "type": "ECHOES"
@@ -2828,6 +2933,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "mass-timber-architecture",
+      "to": "scandinavian-interior",
+      "type": "ECHOES"
+    },
+    {
       "from": "memphis-design",
       "to": "memphis-interior",
       "type": "ECHOES"
@@ -2919,6 +3029,11 @@
     },
     {
       "from": "nordic-national-romanticism-painting",
+      "to": "scandinavian-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "organic-architecture",
       "to": "scandinavian-interior",
       "type": "ECHOES"
     },
@@ -3028,6 +3143,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "arts-and-crafts-architecture",
+      "to": "gothic-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "arts-and-crafts-interior",
       "to": "shaker-interior",
       "type": "EVOLVED_FROM"
@@ -3113,6 +3233,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "critical-regionalism-architecture",
+      "to": "nordic-modernism-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "cybercore-web",
       "to": "dark-devtool-ui",
       "type": "EVOLVED_FROM"
@@ -3175,6 +3300,11 @@
     {
       "from": "ethereal-web",
       "to": "glassmorphism",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "expressionist-architecture",
+      "to": "art-nouveau-architecture",
       "type": "EVOLVED_FROM"
     },
     {
@@ -3435,6 +3565,16 @@
     {
       "from": "one-take-oner",
       "to": "classical-hollywood",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "organic-architecture",
+      "to": "art-nouveau-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "organic-architecture",
+      "to": "prairie-school-architecture",
       "type": "EVOLVED_FROM"
     },
     {
@@ -4088,6 +4228,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "adaptive-reuse-architecture",
+      "to": "international-style-architecture",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "anti-design",
       "to": "flat-design",
       "type": "REBELLED_AGAINST"
@@ -4115,6 +4260,11 @@
     {
       "from": "art-nouveau-interior",
       "to": "victorian-interior",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "arts-and-crafts-architecture",
+      "to": "neoclassical-architecture",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -4150,6 +4300,16 @@
     {
       "from": "constructivism-web",
       "to": "art-nouveau-web",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "critical-regionalism-architecture",
+      "to": "international-style-architecture",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "critical-regionalism-architecture",
+      "to": "postmodern-architecture",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -4228,6 +4388,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "expressionist-architecture",
+      "to": "beaux-arts-architecture",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "fashion-editorial",
       "to": "new-objectivity",
       "type": "REBELLED_AGAINST"
@@ -4285,6 +4450,11 @@
     {
       "from": "luxury-typography-web",
       "to": "flat-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "mass-timber-architecture",
+      "to": "brutalist-architecture",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -7034,7 +7204,9 @@
     },
     "gothic-architecture": {
       "evolved_from": [],
-      "evolved_into": [],
+      "evolved_into": [
+        "arts-and-crafts-architecture"
+      ],
       "rebelled_against": [],
       "provoked": [
         "renaissance-architecture"
@@ -7043,16 +7215,16 @@
       "echoes": [],
       "nearest_by_vector": [
         {
-          "id": "brutalist-architecture",
-          "distance": 3.74
+          "id": "adaptive-reuse-architecture",
+          "distance": 3.16
         },
         {
-          "id": "art-deco-architecture",
-          "distance": 3.87
+          "id": "critical-regionalism-architecture",
+          "distance": 3.32
         },
         {
-          "id": "baroque-architecture",
-          "distance": 3.87
+          "id": "expressionist-architecture",
+          "distance": 3.32
         }
       ],
       "techniques": []
@@ -7125,7 +7297,9 @@
       "rebelled_against": [
         "baroque-architecture"
       ],
-      "provoked": [],
+      "provoked": [
+        "arts-and-crafts-architecture"
+      ],
       "hybridized_with": [],
       "echoes": [],
       "nearest_by_vector": [
@@ -7144,6 +7318,35 @@
       ],
       "techniques": []
     },
+    "arts-and-crafts-architecture": {
+      "evolved_from": [
+        "gothic-architecture"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "neoclassical-architecture"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "arts-and-crafts-interior"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "organic-architecture",
+          "distance": 1
+        },
+        {
+          "id": "nordic-modernism-architecture",
+          "distance": 1.41
+        },
+        {
+          "id": "deconstructivist-architecture",
+          "distance": 2
+        }
+      ],
+      "techniques": []
+    },
     "beaux-arts-architecture": {
       "evolved_from": [
         "baroque-architecture",
@@ -7151,7 +7354,9 @@
       ],
       "evolved_into": [],
       "rebelled_against": [],
-      "provoked": [],
+      "provoked": [
+        "expressionist-architecture"
+      ],
       "hybridized_with": [],
       "echoes": [],
       "nearest_by_vector": [
@@ -7173,7 +7378,9 @@
     "art-nouveau-architecture": {
       "evolved_from": [],
       "evolved_into": [
-        "art-deco-architecture"
+        "art-deco-architecture",
+        "expressionist-architecture",
+        "organic-architecture"
       ],
       "rebelled_against": [],
       "provoked": [],
@@ -7185,16 +7392,16 @@
       ],
       "nearest_by_vector": [
         {
-          "id": "parametricism-architecture",
+          "id": "arts-and-crafts-architecture",
+          "distance": 3
+        },
+        {
+          "id": "organic-architecture",
           "distance": 3.16
         },
         {
-          "id": "deconstructivist-architecture",
-          "distance": 3.32
-        },
-        {
-          "id": "nordic-modernism-architecture",
-          "distance": 3.32
+          "id": "parametricism-architecture",
+          "distance": 3.16
         }
       ],
       "techniques": []
@@ -7202,7 +7409,8 @@
     "prairie-school-architecture": {
       "evolved_from": [],
       "evolved_into": [
-        "mid-century-modern-architecture"
+        "mid-century-modern-architecture",
+        "organic-architecture"
       ],
       "rebelled_against": [],
       "provoked": [],
@@ -7213,16 +7421,73 @@
       ],
       "nearest_by_vector": [
         {
+          "id": "critical-regionalism-architecture",
+          "distance": 2
+        },
+        {
+          "id": "arts-and-crafts-architecture",
+          "distance": 2.24
+        },
+        {
           "id": "mid-century-modern-architecture",
           "distance": 2.24
+        }
+      ],
+      "techniques": []
+    },
+    "organic-architecture": {
+      "evolved_from": [
+        "art-nouveau-architecture",
+        "prairie-school-architecture"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "scandinavian-interior"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "arts-and-crafts-architecture",
+          "distance": 1
         },
         {
           "id": "nordic-modernism-architecture",
+          "distance": 1.73
+        },
+        {
+          "id": "deconstructivist-architecture",
+          "distance": 2.24
+        }
+      ],
+      "techniques": []
+    },
+    "expressionist-architecture": {
+      "evolved_from": [
+        "art-nouveau-architecture"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "beaux-arts-architecture"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "german-expressionist-cinema"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "deconstructivist-architecture",
+          "distance": 1.73
+        },
+        {
+          "id": "arts-and-crafts-architecture",
           "distance": 2.24
         },
         {
-          "id": "bauhaus-architecture",
-          "distance": 2.65
+          "id": "organic-architecture",
+          "distance": 2.45
         }
       ],
       "techniques": []
@@ -7301,6 +7566,8 @@
       ],
       "rebelled_against": [],
       "provoked": [
+        "adaptive-reuse-architecture",
+        "critical-regionalism-architecture",
         "deconstructivist-architecture",
         "parametricism-architecture",
         "postmodern-architecture"
@@ -7343,7 +7610,9 @@
       "evolved_from": [
         "international-style-architecture"
       ],
-      "evolved_into": [],
+      "evolved_into": [
+        "critical-regionalism-architecture"
+      ],
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [],
@@ -7352,16 +7621,16 @@
       ],
       "nearest_by_vector": [
         {
+          "id": "arts-and-crafts-architecture",
+          "distance": 1.41
+        },
+        {
           "id": "deconstructivist-architecture",
           "distance": 1.41
         },
         {
-          "id": "prairie-school-architecture",
-          "distance": 2.24
-        },
-        {
-          "id": "mid-century-modern-architecture",
-          "distance": 2.45
+          "id": "organic-architecture",
+          "distance": 1.73
         }
       ],
       "techniques": []
@@ -7406,6 +7675,7 @@
       "evolved_into": [],
       "rebelled_against": [],
       "provoked": [
+        "mass-timber-architecture",
         "postmodern-architecture"
       ],
       "hybridized_with": [],
@@ -7422,16 +7692,43 @@
       ],
       "nearest_by_vector": [
         {
-          "id": "high-tech-architecture",
-          "distance": 3.61
+          "id": "adaptive-reuse-architecture",
+          "distance": 2
         },
         {
-          "id": "gothic-architecture",
-          "distance": 3.74
+          "id": "mass-timber-architecture",
+          "distance": 2.24
         },
         {
-          "id": "international-style-architecture",
-          "distance": 4.24
+          "id": "critical-regionalism-architecture",
+          "distance": 2.65
+        }
+      ],
+      "techniques": []
+    },
+    "adaptive-reuse-architecture": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "international-style-architecture"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "industrial-loft-interior"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "critical-regionalism-architecture",
+          "distance": 1.73
+        },
+        {
+          "id": "brutalist-architecture",
+          "distance": 2
+        },
+        {
+          "id": "mass-timber-architecture",
+          "distance": 2.24
         }
       ],
       "techniques": []
@@ -7444,6 +7741,7 @@
         "international-style-architecture"
       ],
       "provoked": [
+        "critical-regionalism-architecture",
         "deconstructivist-architecture"
       ],
       "hybridized_with": [],
@@ -7490,12 +7788,40 @@
           "distance": 1.73
         },
         {
-          "id": "international-style-architecture",
-          "distance": 2.24
+          "id": "mass-timber-architecture",
+          "distance": 2
         },
         {
-          "id": "mid-century-modern-architecture",
-          "distance": 3
+          "id": "international-style-architecture",
+          "distance": 2.24
+        }
+      ],
+      "techniques": []
+    },
+    "critical-regionalism-architecture": {
+      "evolved_from": [
+        "nordic-modernism-architecture"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "international-style-architecture",
+        "postmodern-architecture"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "mass-timber-architecture",
+          "distance": 1.41
+        },
+        {
+          "id": "adaptive-reuse-architecture",
+          "distance": 1.73
+        },
+        {
+          "id": "prairie-school-architecture",
+          "distance": 2
         }
       ],
       "techniques": []
@@ -7524,12 +7850,39 @@
           "distance": 1.41
         },
         {
-          "id": "parametricism-architecture",
-          "distance": 2.65
+          "id": "expressionist-architecture",
+          "distance": 1.73
         },
         {
-          "id": "art-nouveau-architecture",
-          "distance": 3.32
+          "id": "arts-and-crafts-architecture",
+          "distance": 2
+        }
+      ],
+      "techniques": []
+    },
+    "mass-timber-architecture": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "brutalist-architecture"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "scandinavian-interior"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "critical-regionalism-architecture",
+          "distance": 1.41
+        },
+        {
+          "id": "high-tech-architecture",
+          "distance": 2
+        },
+        {
+          "id": "adaptive-reuse-architecture",
+          "distance": 2.24
         }
       ],
       "techniques": []
@@ -7664,6 +8017,7 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
+        "arts-and-crafts-architecture",
         "nordic-national-romanticism-painting"
       ],
       "nearest_by_vector": [
@@ -7865,8 +8219,10 @@
         "mid-century-modern-interior"
       ],
       "echoes": [
+        "mass-timber-architecture",
         "nordic-modernism-architecture",
         "nordic-national-romanticism-painting",
+        "organic-architecture",
         "scandinavian-interior-photography"
       ],
       "nearest_by_vector": [
@@ -7894,6 +8250,7 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
+        "adaptive-reuse-architecture",
         "brutalist-architecture",
         "high-tech-architecture",
         "new-topographics"
@@ -8796,6 +9153,7 @@
       "hybridized_with": [],
       "echoes": [
         "baroque-painting",
+        "expressionist-architecture",
         "film-noir-still",
         "new-objectivity"
       ],
