@@ -1,0 +1,434 @@
+{
+  "$schema": "../../../schema/domains/interior.schema.json",
+  "id": "mid-century-modern-interior",
+  "domain": "interior",
+  "name": "Mid-century modern interior",
+  "aliases": [
+    "MCM interior",
+    "Mid-century",
+    "Atomic-age interior"
+  ],
+  "identity": {
+    "wikidata": "Q6840667",
+    "aat": "300343610"
+  },
+  "era_id": "post-war-modern",
+  "time_period": {
+    "start": 1945,
+    "end": 1969,
+    "label": "1945–1969"
+  },
+  "room_types": [
+    "living",
+    "dining",
+    "bedroom",
+    "workspace"
+  ],
+  "summary": "The open-plan post-war home of the United States and Europe. Low teak and moulded-plywood furniture on tapered legs stands in front of a glass wall to the garden; a stone fireplace or the view is the focal point, and a few saturated accents warm a neutral room.",
+  "philosophy": {
+    "core_thesis": "The modern home joins the room to the landscape, and good design made in series can be warm as well as rational.",
+    "design_principles": [
+      "Keep furniture low: sofa backs at 70–75 cm and sideboards at 75 cm, so that one horizon line runs under the window sill.",
+      "Lift each piece on tapered splayed legs of 15–25 cm, so that the floor shows under it.",
+      "Make the glass wall to the garden or a stone fireplace the focal point, and face the main sofa toward it.",
+      "Group the seats on one area rug around a low table; the rug holds at least the front legs of each seat.",
+      "Repeat the structural bay of the house, near 240 cm, in the window mullions, the ceiling beams and the length of the sideboard.",
+      "Use warm wood for 25–35% of the visible surface, and set one rough plane of stone or brick against it.",
+      "Limit saturated colour to 10%: cushions, one chair, a lamp or a print in mustard, orange or teal."
+    ],
+    "anti_patterns": [
+      "Heavy furniture that sits on the floor without visible legs",
+      "Tall cabinets or high-back sofas in front of the windows",
+      "Historical mouldings, panelling or carved ornament",
+      "A formal mirrored layout about a centre line",
+      "Cold blue-white light above 4000 K",
+      "Gloss lacquer on large wood surfaces"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "density": 2,
+    "formality": 2,
+    "material_naturalness": 3,
+    "chromatic_intensity": 3
+  },
+  "composition": {
+    "plan_logic": "An open plan on a structural bay. Low furniture islands define the zones, and one long horizontal line ties the room to the glass wall.",
+    "focal_point": "The view through a full-height glass wall, or a stone fireplace, on a third of the long wall.",
+    "symmetry": "asymmetric",
+    "axis_count": 1,
+    "focal_wall": "window",
+    "focal_position": 0.67,
+    "rhythm_module_cm": 240,
+    "depth_layers": 3,
+    "rules": [
+      {
+        "principle": "focal-point",
+        "rule": "Face the main sofa toward the glass wall or the fireplace. Light the fireplace stone with an accent.",
+        "value": "1 focal point on a third"
+      },
+      {
+        "principle": "hierarchy",
+        "rule": "Keep every piece in front of the window below the sill, so the view ranks first and the furniture second.",
+        "value": "furniture under 75 cm"
+      },
+      {
+        "principle": "balance",
+        "rule": "Balance the long sofa with one heavy object on the opposite third: a fireplace, a lounge chair or a large plant.",
+        "value": "moment ratio 0.8–1.25"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Repeat the structural bay in mullions, beams and cabinet lengths.",
+        "value": "240 cm bay"
+      },
+      {
+        "principle": "proportion",
+        "rule": "Make long, low pieces: the length of a sofa or a sideboard is 3 or more times its height.",
+        "value": "length to height 3:1 or more"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Compose three planes from the seat: the furniture, the glass wall, the garden.",
+        "value": "3 planes"
+      },
+      {
+        "principle": "grouping",
+        "rule": "Put all seats of the group on one rug around the low table, with a smaller gap inside the group than between groups.",
+        "value": "gap ratio 2:1"
+      },
+      {
+        "principle": "sightlines",
+        "rule": "Keep seat backs below the seated eye, so that a seated person sees the garden over the furniture.",
+        "value": "backs under 80 cm, eye at 115 cm"
+      },
+      {
+        "principle": "negative-space",
+        "rule": "Leave the floor between the furniture islands bare; the legs show the floor under each piece.",
+        "value": "55% bare floor"
+      },
+      {
+        "principle": "zoning",
+        "rule": "Mark the sit, eat and work zones with a rug, a pendant and a low divider such as a sideboard.",
+        "value": "3 zones in one open room"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Keep the route along the glass wall open, between the furniture and the glass.",
+        "value": "100 cm clear"
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Give warm white or pale grey the walls, wood the secondary share, and saturated mustard, orange or teal the accents.",
+        "value": "60/30/10"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Use one sculptural lamp per zone: an arc floor lamp over the sofa, a paper or metal pendant over the table.",
+        "value": "150 lux ambient, 400 lux task, 2700 K"
+      }
+    ]
+  },
+  "zoning": {
+    "zones": [
+      "conversation group",
+      "dining",
+      "work or hi-fi wall"
+    ],
+    "circulation": "One route along the glass wall and one across the plan between the conversation group and the dining zone.",
+    "main_path_clear_cm": 100,
+    "secondary_path_clear_cm": 75,
+    "seat_to_table_cm": 40,
+    "conversation_diameter_cm": 280,
+    "floor_coverage_pct": 45,
+    "wall_coverage_pct": 20
+  },
+  "palette": {
+    "distribution": "Warm white walls and a light ceiling; teak or walnut furniture and one wood wall; charcoal or oatmeal upholstery; mustard, orange or teal on cushions, one chair and one print.",
+    "dominant_pct": 60,
+    "secondary_pct": 30,
+    "accent_pct": 10,
+    "colours": [
+      {
+        "name": "Warm white",
+        "hex": "#F3EFE6",
+        "role": "dominant",
+        "surface": "walls and ceiling"
+      },
+      {
+        "name": "Teak",
+        "hex": "#8B5A2B",
+        "role": "wood",
+        "surface": "sideboard, table, wall panel"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#4A4A48",
+        "role": "secondary",
+        "surface": "sofa upholstery"
+      },
+      {
+        "name": "Mustard",
+        "hex": "#D4A017",
+        "role": "accent",
+        "surface": "lounge chair or cushions"
+      },
+      {
+        "name": "Burnt orange",
+        "hex": "#C8642A",
+        "role": "accent",
+        "surface": "cushions, ceramics"
+      },
+      {
+        "name": "Teal",
+        "hex": "#2E7D7A",
+        "role": "accent",
+        "surface": "print, vase"
+      },
+      {
+        "name": "Brass",
+        "hex": "#B08D57",
+        "role": "metal",
+        "surface": "lamp, sabots"
+      }
+    ]
+  },
+  "lighting": {
+    "strategy": "Daylight from the glass wall by day. After dark, a sculptural lamp for each zone and an accent on the fireplace stone.",
+    "daylight": "A full-height glass wall to a garden or patio, with a roof overhang of 60–120 cm that cuts the high summer sun.",
+    "ambient_lux": 150,
+    "task_lux": 400,
+    "accent_ratio": 3,
+    "cct_k": 2700,
+    "cct_evening_k": 2400,
+    "cri_min": 90,
+    "layers": [
+      {
+        "layer": "daylight",
+        "source": "full-height glass wall",
+        "position": "long wall to the garden"
+      },
+      {
+        "layer": "ambient",
+        "source": "paper or spun-metal pendant",
+        "position": "over the dining table at 75 cm above it"
+      },
+      {
+        "layer": "task",
+        "source": "arc floor lamp",
+        "position": "over the sofa"
+      },
+      {
+        "layer": "accent",
+        "source": "adjustable spot",
+        "position": "aimed at the fireplace stone or a sculpture"
+      }
+    ]
+  },
+  "materials": {
+    "primary": [
+      "teak",
+      "walnut",
+      "moulded plywood"
+    ],
+    "secondary": [
+      "fibreglass",
+      "fieldstone",
+      "brick",
+      "terrazzo",
+      "brass",
+      "wool tweed"
+    ],
+    "finish": "Oiled teak and walnut at a satin sheen; moulded shells in satin or gloss; matt painted walls.",
+    "texture_contrast": "Smooth veneer against one rough plane of stone or brick, at about 4:1 by area."
+  },
+  "furniture": {
+    "silhouette": "Low and long pieces on tapered splayed legs; moulded organic shells; slim arms; open frames of wood or steel rod.",
+    "arrangement": "The sofa faces the glass wall or the fireplace, and two lounge chairs close the group at 90 degrees.",
+    "seat_height_cm": 41,
+    "key_pieces": [
+      "plywood and leather lounge chair",
+      "teak sideboard",
+      "low tapered-leg sofa",
+      "glass coffee table on a wood base",
+      "moulded plastic side chairs",
+      "arc floor lamp",
+      "paper lantern"
+    ]
+  },
+  "textiles": {
+    "fabrics": [
+      "wool tweed",
+      "bouclé",
+      "linen",
+      "leather"
+    ],
+    "pattern": "Abstract atomic prints of circles and boomerangs on one cushion set or one curtain; plain weaves elsewhere.",
+    "windows": "Full-height sheer curtains on a ceiling track, open by day, so the frame of the glass wall stays visible."
+  },
+  "objects": {
+    "approach": "A few sculptural objects: studio ceramics, a sunburst clock, a large plant in a planter on legs.",
+    "grouping": "Groups of 3 on the sideboard, in a rise from low to high toward the focal side.",
+    "max_per_surface": 3,
+    "hang_centre_cm": 145,
+    "items": [
+      "sunburst clock",
+      "studio ceramics",
+      "fiddle-leaf fig",
+      "abstract print",
+      "record player"
+    ]
+  },
+  "implementation": {
+    "brief": "An open living room with a full-height glass wall to a garden. A low charcoal sofa faces the view; two lounge chairs and a glass coffee table stand on a wool rug; a teak sideboard runs below a long abstract print.",
+    "image_prompt": "Mid-century modern living room 1958, full-height glass wall to a garden, low charcoal sofa on tapered teak legs, moulded plywood lounge chair, glass coffee table, long teak sideboard, fieldstone fireplace wall, arc floor lamp, mustard and burnt orange cushions, warm white walls, post-and-beam ceiling, late afternoon sun, Kodachrome photograph",
+    "negative_prompt": "Ornament, mouldings, tall cabinets in front of windows, heavy skirted sofas, cold blue light, gloss lacquer, clutter.",
+    "camera": "24 mm lens, camera at 110 cm (seated eye), two-point view from the room toward the glass wall at 30 degrees.",
+    "scene_3d": "Room 800 x 500 cm, ceiling 260 cm with beams at 240 cm centres. Sun at 35 degrees through the glass wall; one 2700 K arc lamp; one 2400 K pendant.",
+    "furniture_list": [
+      "sofa 220 x 85 x 72 cm",
+      "2 lounge chairs",
+      "coffee table 120 x 60 x 38 cm",
+      "sideboard 240 x 45 x 75 cm",
+      "dining table 180 x 90 cm",
+      "4 shell chairs"
+    ],
+    "material_list": [
+      "teak, oiled",
+      "walnut veneer",
+      "fieldstone",
+      "wool tweed, charcoal",
+      "brass",
+      "clear glass"
+    ],
+    "references": []
+  },
+  "lineage": {
+    "evolved_from": [
+      "bauhaus-interior"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "scandinavian-interior"
+    ],
+    "echoes": [
+      "mid-century-modern",
+      "international-style-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Optimistic ease: the viewer feels a modern, warm home where the garden comes into the room.",
+    "keywords": [
+      "optimistic",
+      "warm",
+      "relaxed",
+      "modern",
+      "open"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "explorer",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "mid-century modern",
+      "mid-century",
+      "mcm",
+      "1950s living room",
+      "eames",
+      "teak sideboard",
+      "atomic age",
+      "case study house"
+    ],
+    "use_cases": [
+      "living rooms",
+      "open-plan homes",
+      "boutique hotels",
+      "offices",
+      "film sets for the 1950s and 1960s"
+    ],
+    "avoid_when": [
+      "The room has no view and no fireplace to face.",
+      "The brief asks for a formal or traditional room."
+    ],
+    "modifiers": [
+      {
+        "request": "lighter and more Nordic",
+        "toward": "scandinavian-interior",
+        "how": "Change teak to pale oak and the accents to muted blue or sage, add textiles; keep the low pieces on legs."
+      },
+      {
+        "request": "more colour and fun",
+        "toward": "memphis-interior",
+        "how": "Raise the accent share to 25% and add pattern laminate; keep the free placement on one rug."
+      },
+      {
+        "request": "stricter",
+        "toward": "bauhaus-interior",
+        "how": "Change wood to chrome tube and glass, remove the rug and the cushions; keep the asymmetric plan."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "mid-century modern living room",
+      "full-height glass wall",
+      "low sofa on tapered legs",
+      "teak sideboard",
+      "moulded plywood lounge chair",
+      "fieldstone fireplace",
+      "arc floor lamp",
+      "post-and-beam ceiling",
+      "mustard and teal accents",
+      "indoor plant"
+    ],
+    "negative": [
+      "ornament",
+      "tall cabinets",
+      "skirted sofa",
+      "cold light",
+      "mouldings",
+      "gloss lacquer"
+    ],
+    "canonical_works": [
+      {
+        "work": "Eames House (Case Study House No. 8), Pacific Palisades",
+        "architect": "Charles and Ray Eames",
+        "year": 1949
+      },
+      {
+        "work": "Lounge chair and ottoman",
+        "architect": "Charles and Ray Eames",
+        "year": 1956
+      },
+      {
+        "work": "Miller House, Columbus, Indiana",
+        "architect": "Eero Saarinen and Alexander Girard",
+        "year": 1957
+      },
+      {
+        "work": "Stahl House (Case Study House No. 22), Los Angeles",
+        "architect": "Pierre Koenig",
+        "year": 1960
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Cara Greenberg, Mid-Century Modern: Furniture of the 1950s (Harmony Books, 1984)"
+    },
+    {
+      "title": "Elizabeth A. T. Smith, Case Study Houses (Taschen, 2002)"
+    },
+    {
+      "title": "Wikidata Q6840667: Mid-century modern",
+      "url": "https://www.wikidata.org/wiki/Q6840667"
+    },
+    {
+      "title": "Getty AAT 300343610",
+      "url": "https://vocab.getty.edu/page/aat/300343610"
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "$schema": "../../../schema/domains/interior.schema.json",
+  "id": "dopamine-decor",
+  "domain": "interior",
+  "name": "Dopamine decor",
+  "aliases": [
+    "Dopamine interior",
+    "Joyful maximalism",
+    "Colour drenching"
+  ],
+  "era_id": "networked-home",
+  "time_period": {
+    "start": 2021,
+    "end": null,
+    "label": "2021–present"
+  },
+  "room_types": [
+    "living",
+    "bedroom",
+    "hospitality",
+    "retail",
+    "workspace"
+  ],
+  "summary": "A room built for joy after the years at home of 2020 and 2021. Saturated hues drench walls, trim and ceiling; curved, inflated furniture in velvet and bouclé stands on patterned rugs; objects are personal and sorted by colour.",
+  "philosophy": {
+    "core_thesis": "Colour and play in the home lift the mood, and a room must show the joy of the person who lives in it.",
+    "design_principles": [
+      "Drench one wall plane, with its trim and its part of the ceiling, in one saturated hue.",
+      "Use 4–6 saturated hues and repeat each hue in at least 3 places in the room.",
+      "Choose curved, pill-shaped and inflated forms with corner radii of 10 cm or more.",
+      "Lay one patterned rug, checkerboard, wave or free blob, with a repeat of 20–40 cm.",
+      "Set the strongest hue on the wall in the sightline from the entrance.",
+      "Sort books and objects by hue on the shelves, in rainbow order.",
+      "Give the lamps colour too: candy-coloured glass, acrylic and mushroom shades."
+    ],
+    "anti_patterns": [
+      "Beige, grey and greige as the main palette",
+      "Straight-edged boxy furniture in neutral fabric",
+      "One accent colour on a neutral room",
+      "Bare walls without art or objects",
+      "Cool white light above 4000 K",
+      "Matching furniture sets from one range"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "density": 4,
+    "formality": 1,
+    "material_naturalness": 2,
+    "chromatic_intensity": 5
+  },
+  "composition": {
+    "plan_logic": "A colour-block plan: each zone takes its own saturated hue, and curved furniture breaks the orthogonal grid of the room.",
+    "focal_point": "A colour-drenched wall in the strongest hue, with a large curved sofa in a second hue in front of it.",
+    "symmetry": "free",
+    "axis_count": 0,
+    "focal_wall": "back",
+    "focal_position": 0.6,
+    "rhythm_module_cm": 30,
+    "depth_layers": 3,
+    "rules": [
+      {
+        "principle": "focal-point",
+        "rule": "Drench the back wall, its trim and its ceiling strip in the strongest hue, and set the main sofa in front of it.",
+        "value": "1 drenched wall"
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Give one hue the walls, a second hue the big furniture, and 3–4 more hues the accents.",
+        "value": "40/35/25"
+      },
+      {
+        "principle": "contrast",
+        "rule": "Combine hues far apart on the colour wheel at high chroma; use no neutral border.",
+        "value": "hue difference 90–180 degrees"
+      },
+      {
+        "principle": "unity-variety",
+        "rule": "Repeat each hue in at least 3 places, so that the room reads as one set.",
+        "value": "each hue 3 times or more"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Repeat a checkerboard or a wave on the rug, a cushion and a tile.",
+        "value": "20–40 cm repeat"
+      },
+      {
+        "principle": "scale",
+        "rule": "Choose oversized curved pieces: a sofa with 30 cm deep arms, a mushroom lamp 50 cm wide.",
+        "value": "corner radius 10 cm or more"
+      },
+      {
+        "principle": "balance",
+        "rule": "Balance by colour weight: a small hot-pink object balances a large lilac field.",
+        "value": "moment ratio 0.7–1.4"
+      },
+      {
+        "principle": "grouping",
+        "rule": "Group objects by hue on shelves and tables, in rainbow order.",
+        "value": "3–7 per shelf"
+      },
+      {
+        "principle": "sightlines",
+        "rule": "Put the strongest hue on the wall that the entrance faces.",
+        "value": "1 drenched wall on the entrance line"
+      },
+      {
+        "principle": "negative-space",
+        "rule": "Keep some floor free around the curved pieces; walls carry art and shelves.",
+        "value": "45% bare floor, 60% bare wall"
+      },
+      {
+        "principle": "zoning",
+        "rule": "Give each zone its own hue: a pink reading corner, a green desk, a blue sofa group.",
+        "value": "2–3 colour zones"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Keep a route around the floating sofa and the rug.",
+        "value": "90 cm main, 60 cm secondary"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Use coloured glass shades and one neon or coloured LED; keep the white light warm.",
+        "value": "200 lux ambient, 400 lux task, 3000 K"
+      }
+    ]
+  },
+  "zoning": {
+    "zones": [
+      "sofa group on the rug",
+      "reading corner",
+      "desk or bar"
+    ],
+    "circulation": "A loop around a floating sofa on a free-shaped rug; routes curve with the furniture.",
+    "main_path_clear_cm": 90,
+    "secondary_path_clear_cm": 60,
+    "seat_to_table_cm": 40,
+    "conversation_diameter_cm": 260,
+    "floor_coverage_pct": 55,
+    "wall_coverage_pct": 40
+  },
+  "palette": {
+    "distribution": "Lilac on the drenched walls, trim and ceiling strip; tangerine on the sofa and rug; cobalt, chartreuse, hot pink and sunflower on cushions, lamps, tiles and art.",
+    "dominant_pct": 40,
+    "secondary_pct": 35,
+    "accent_pct": 25,
+    "colours": [
+      {
+        "name": "Lilac",
+        "hex": "#C3A5E8",
+        "role": "dominant",
+        "surface": "walls, trim, ceiling strip"
+      },
+      {
+        "name": "Tangerine",
+        "hex": "#F28C28",
+        "role": "secondary",
+        "surface": "sofa, rug field"
+      },
+      {
+        "name": "Cobalt",
+        "hex": "#2350D6",
+        "role": "secondary",
+        "surface": "chair, cabinet"
+      },
+      {
+        "name": "Chartreuse",
+        "hex": "#C8E03A",
+        "role": "accent",
+        "surface": "side table, cushion"
+      },
+      {
+        "name": "Hot pink",
+        "hex": "#F2559A",
+        "role": "accent",
+        "surface": "lamp, art, cushion"
+      },
+      {
+        "name": "Sunflower",
+        "hex": "#FFC83D",
+        "role": "accent",
+        "surface": "vase, mirror frame"
+      }
+    ]
+  },
+  "lighting": {
+    "strategy": "Colour is in the lamps too. Glass and acrylic shades in candy colours glow; one neon or coloured strip adds a colour wash.",
+    "daylight": "Coloured curtains in the secondary hue, open by day; a saturated wall turns daylight warm or cool, so test paint at the window.",
+    "ambient_lux": 200,
+    "task_lux": 400,
+    "accent_ratio": 3,
+    "cct_k": 3000,
+    "cct_evening_k": 2700,
+    "cri_min": 90,
+    "layers": [
+      {
+        "layer": "ambient",
+        "source": "coloured glass pendant",
+        "position": "centre of the room"
+      },
+      {
+        "layer": "task",
+        "source": "mushroom table lamp",
+        "position": "side table and desk"
+      },
+      {
+        "layer": "decorative",
+        "source": "neon sign or coloured LED",
+        "position": "one wall or a shelf"
+      },
+      {
+        "layer": "accent",
+        "source": "picture light",
+        "position": "over the main art"
+      }
+    ]
+  },
+  "materials": {
+    "primary": [
+      "velvet",
+      "bouclé",
+      "lacquered MDF"
+    ],
+    "secondary": [
+      "acrylic",
+      "terrazzo",
+      "glazed ceramic tile",
+      "coloured glass",
+      "high-gloss paint",
+      "tufted wool"
+    ],
+    "finish": "Gloss paint on trim and furniture; velvet and bouclé on seats. Sheens mix freely.",
+    "texture_contrast": "Soft rounded textiles against gloss lacquer and glass, at about 1:1."
+  },
+  "furniture": {
+    "silhouette": "Curved, pill-shaped and inflated forms; chunky round legs; scalloped and wavy edges.",
+    "arrangement": "Pieces float in the room on a patterned rug; a curved sofa sits free of the wall, at an angle or on a curve.",
+    "seat_height_cm": 42,
+    "key_pieces": [
+      "curved velvet sofa",
+      "checkerboard rug",
+      "mushroom lamp",
+      "wavy mirror",
+      "gloss side table",
+      "tufted rug in a free shape",
+      "scalloped headboard"
+    ]
+  },
+  "textiles": {
+    "fabrics": [
+      "velvet",
+      "bouclé",
+      "tufted wool",
+      "printed cotton"
+    ],
+    "pattern": "Checkerboard, wavy stripes and free blobs at 20–40 cm repeats; 2–3 patterns in one room, each in the room hues.",
+    "windows": "Coloured curtains in the secondary hue, or bare windows with a painted frame."
+  },
+  "objects": {
+    "approach": "Personal and joyful: colourful ceramics, pop art prints, glass in candy colours, collected souvenirs.",
+    "grouping": "Group by hue in rainbow order; 3–7 objects per shelf; a gallery wall of 5–9 frames.",
+    "max_per_surface": 7,
+    "hang_centre_cm": 150,
+    "items": [
+      "coloured glass vase",
+      "pop art print",
+      "wavy mirror",
+      "ceramic fruit",
+      "colour-sorted books",
+      "neon sign"
+    ]
+  },
+  "implementation": {
+    "brief": "A lilac room, drenched from wall to trim to ceiling strip. A curved tangerine velvet sofa floats on a checkerboard rug; a cobalt chair, a chartreuse side table, a mushroom lamp and a wavy mirror complete the group.",
+    "image_prompt": "Dopamine decor living room, lilac colour-drenched walls and trim, curved tangerine velvet sofa, checkerboard rug in pink and orange, cobalt blue armchair, chartreuse gloss side table, glass mushroom lamp, wavy mirror with a sunflower frame, colour-sorted bookshelf, pop art prints, playful maximalist, bright warm light, editorial interior photograph",
+    "negative_prompt": "Beige, grey, greige, boxy neutral furniture, minimal empty room, cool white light, wood grain, matching set.",
+    "camera": "24 mm lens, camera at 130 cm, frontal view toward the drenched wall with the sofa on the right third.",
+    "scene_3d": "Room 550 x 450 cm, ceiling 260 cm. Warm 3000 K ambient from a glass pendant; 2 table lamps; one magenta emissive strip at 1500 nits; walls with saturated paint.",
+    "furniture_list": [
+      "curved sofa 240 cm",
+      "armchair",
+      "gloss side table 45 cm",
+      "checkerboard rug 200 x 300 cm",
+      "mushroom lamp 50 cm",
+      "wavy mirror 60 x 120 cm"
+    ],
+    "material_list": [
+      "velvet, tangerine",
+      "bouclé, white",
+      "gloss lacquer, chartreuse",
+      "acrylic",
+      "glazed tile",
+      "matt paint, lilac"
+    ],
+    "references": []
+  },
+  "lineage": {
+    "evolved_from": [
+      "memphis-interior"
+    ],
+    "rebelled_against": [
+      "scandinavian-interior",
+      "japandi-interior"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "memphis-design"
+    ]
+  },
+  "emotion": {
+    "target_response": "A lift of the mood: the viewer smiles and feels energy, play and permission to like colour.",
+    "keywords": [
+      "joyful",
+      "playful",
+      "bold",
+      "personal",
+      "energetic"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "creator",
+      "lover"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "dopamine decor",
+      "colourful interior",
+      "colorful room",
+      "colour drenching",
+      "joyful maximalism",
+      "bold colour",
+      "checkerboard rug",
+      "curvy furniture"
+    ],
+    "use_cases": [
+      "children's and teen rooms",
+      "creative offices",
+      "cafés and bars",
+      "pop-up stores",
+      "social media sets"
+    ],
+    "avoid_when": [
+      "The brief asks for rest, sleep or concentration.",
+      "The room must suit many users with unknown taste, such as a rental."
+    ],
+    "modifiers": [
+      {
+        "request": "more graphic and 80s",
+        "toward": "memphis-interior",
+        "how": "Change velvet to printed laminate, add squiggle and grid patterns and sharp primary solids; keep 4–6 saturated hues."
+      },
+      {
+        "request": "calmer",
+        "toward": "scandinavian-interior",
+        "how": "Paint the walls white, keep one hue for 5% accents, change velvet to wool; keep the curved forms."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "dopamine decor",
+      "colour-drenched walls",
+      "curved velvet sofa",
+      "checkerboard rug",
+      "mushroom lamp",
+      "wavy mirror",
+      "saturated candy colours",
+      "colour-sorted shelves",
+      "playful maximalism",
+      "gloss lacquer side table"
+    ],
+    "negative": [
+      "beige",
+      "greige",
+      "boxy furniture",
+      "minimal empty room",
+      "cool white light",
+      "matching set"
+    ],
+    "canonical_works": [
+      {
+        "work": "The Gallery at Sketch, London (pink scheme)",
+        "architect": "India Mahdavi",
+        "year": 2014
+      },
+      {
+        "work": "Memphis collection, Milan",
+        "architect": "Ettore Sottsass and Memphis Group",
+        "year": 1981
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Ingrid Fetell Lee, Joyful: The Surprising Power of Ordinary Things to Create Extraordinary Happiness (Little, Brown Spark, 2018)"
+    },
+    {
+      "title": "Trend evidence, cite only: the term spread on short-video and image platforms from 2021"
+    }
+  ]
+}

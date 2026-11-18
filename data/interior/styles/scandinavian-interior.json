@@ -1,0 +1,428 @@
+{
+  "$schema": "../../../schema/domains/interior.schema.json",
+  "id": "scandinavian-interior",
+  "domain": "interior",
+  "name": "Scandinavian interior",
+  "aliases": [
+    "Scandi",
+    "Nordic interior",
+    "Scandinavian Modern"
+  ],
+  "identity": {
+    "wikidata": "Q1793969",
+    "aat": "300266638"
+  },
+  "era_id": "post-war-modern",
+  "time_period": {
+    "start": 1950,
+    "end": null,
+    "label": "1950s–present"
+  },
+  "room_types": [
+    "living",
+    "dining",
+    "bedroom",
+    "kitchen",
+    "workspace",
+    "hospitality"
+  ],
+  "summary": "The bright, light-wood room of Denmark, Sweden, Norway and Finland. White walls and pale floors catch the short northern daylight; solid-wood furniture with visible joints and wool textiles stand in small groups, and many small lamps replace one ceiling light.",
+  "philosophy": {
+    "core_thesis": "A home for a long dark winter must be bright, warm in material and made of few good things that last.",
+    "design_principles": [
+      "Paint walls and ceiling white or pale grey at a light reflectance value of 80 or more, and lay a pale wood floor.",
+      "Use one light wood species, oak, ash or birch, for floor and furniture, oiled or soaped to a matt finish.",
+      "Light each room with 3–5 small sources at different heights, not one ceiling light: a pendant, a floor lamp, a table lamp and candles.",
+      "Keep window sills and the top 30 cm of the window free of curtains, so that the most daylight enters.",
+      "Group a sofa and two chairs around a round or oval table on one wool rug.",
+      "Add warmth with texture, not colour: wool, sheepskin, linen and a knitted throw on the seats.",
+      "Limit accents to 5% of the surface, in muted blue, sage, ochre or black."
+    ],
+    "anti_patterns": [
+      "Dark walls or dark floors that absorb the daylight",
+      "Heavy drapes that cover the window head",
+      "One bright ceiling light as the only source",
+      "Gloss lacquer, chrome and mirrored surfaces",
+      "Saturated colour on more than one large surface",
+      "Ornate or carved furniture"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "density": 2,
+    "formality": 3,
+    "material_naturalness": 4,
+    "chromatic_intensity": 1
+  },
+  "composition": {
+    "plan_logic": "Small furniture groups around low tables. The room stays open toward the windows, and the wall opposite the window holds the storage.",
+    "focal_point": "The window and its daylight, or a wood stove; the eye goes to the brightest plane of the room.",
+    "symmetry": "asymmetric",
+    "axis_count": 1,
+    "focal_wall": "window",
+    "focal_position": 0.5,
+    "rhythm_module_cm": 15,
+    "depth_layers": 2,
+    "rules": [
+      {
+        "principle": "focal-point",
+        "rule": "Make the window the focal point. Put the main seats so that they face it or stand at 90 degrees to it.",
+        "value": "1 focal point: daylight"
+      },
+      {
+        "principle": "balance",
+        "rule": "Balance a sofa on one side with two light chairs and a floor lamp on the other.",
+        "value": "moment ratio 0.8–1.25"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Show the repeat of the floorboards and of the wood battens or chair spindles.",
+        "value": "board width 15 cm"
+      },
+      {
+        "principle": "contrast",
+        "rule": "Keep the contrast between walls and floor low; one black line, such as a lamp or a frame, gives the edge.",
+        "value": "wall to floor LRV difference 30 or less"
+      },
+      {
+        "principle": "grouping",
+        "rule": "Group lamps, candles and plants in clusters of 3 at different heights.",
+        "value": "groups of 3"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Layer textiles on the seats: a throw, a cushion and a sheepskin in different weaves of one colour family.",
+        "value": "2 planes, 3 textile layers"
+      },
+      {
+        "principle": "negative-space",
+        "rule": "Leave the walls mostly bare and the floor open between the groups.",
+        "value": "60% bare floor, 85% bare wall"
+      },
+      {
+        "principle": "zoning",
+        "rule": "Mark each zone with a rug and a pendant: sit, eat, read.",
+        "value": "2–3 zones"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Keep the route from the door to the window clear.",
+        "value": "90 cm clear"
+      },
+      {
+        "principle": "sightlines",
+        "rule": "Keep the window wall free of tall furniture, so that the view from the door ends in daylight.",
+        "value": "0 tall pieces on the window wall"
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Give white and pale grey the walls, pale wood and grey wool the secondary share, and one muted colour the accents.",
+        "value": "70/25/5"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Use 3–5 low sources per room at warm white, with glare-free shades.",
+        "value": "100 lux ambient, 400 lux task, 2700 K"
+      },
+      {
+        "principle": "unity-variety",
+        "rule": "Use one wood species for floor and furniture; vary the textiles only.",
+        "value": "1 wood, 3–4 textiles"
+      }
+    ]
+  },
+  "zoning": {
+    "zones": [
+      "sofa group",
+      "dining table",
+      "reading chair"
+    ],
+    "circulation": "One route from the door to the window and a loop around the dining table.",
+    "main_path_clear_cm": 90,
+    "secondary_path_clear_cm": 70,
+    "seat_to_table_cm": 40,
+    "conversation_diameter_cm": 260,
+    "floor_coverage_pct": 40,
+    "wall_coverage_pct": 15
+  },
+  "palette": {
+    "distribution": "White walls and ceiling; pale oak floor and furniture; grey and off-white wool textiles; one muted accent on a cushion, a vase or a print; black in thin lines.",
+    "dominant_pct": 70,
+    "secondary_pct": 25,
+    "accent_pct": 5,
+    "colours": [
+      {
+        "name": "Snow white",
+        "hex": "#F6F5F1",
+        "role": "dominant",
+        "surface": "walls and ceiling"
+      },
+      {
+        "name": "Pale grey",
+        "hex": "#D9D8D3",
+        "role": "secondary",
+        "surface": "sofa, rug"
+      },
+      {
+        "name": "Light oak",
+        "hex": "#C8A97E",
+        "role": "wood",
+        "surface": "floor and furniture"
+      },
+      {
+        "name": "Black",
+        "hex": "#222222",
+        "role": "metal",
+        "surface": "lamp, frame, candle holder"
+      },
+      {
+        "name": "Dusty blue",
+        "hex": "#8DA3B4",
+        "role": "accent",
+        "surface": "cushion, ceramics"
+      },
+      {
+        "name": "Sage",
+        "hex": "#9CAF88",
+        "role": "accent",
+        "surface": "plants, throw"
+      }
+    ]
+  },
+  "lighting": {
+    "strategy": "Many small warm sources at different heights make pools of light. Shades hide the lamp and stop glare.",
+    "daylight": "Large windows with bare heads and white reveals; sheer linen at most. Window glass is 20% of the floor area.",
+    "ambient_lux": 100,
+    "task_lux": 400,
+    "accent_ratio": 2,
+    "cct_k": 2700,
+    "cct_evening_k": 2200,
+    "cri_min": 90,
+    "layers": [
+      {
+        "layer": "daylight",
+        "source": "large window, sheer linen",
+        "position": "one or two walls"
+      },
+      {
+        "layer": "ambient",
+        "source": "multi-shade glare-free pendant",
+        "position": "over the dining table"
+      },
+      {
+        "layer": "task",
+        "source": "floor lamp with a fabric shade",
+        "position": "beside the reading chair"
+      },
+      {
+        "layer": "decorative",
+        "source": "candles and a table lamp",
+        "position": "sill, sideboard, table"
+      }
+    ]
+  },
+  "materials": {
+    "primary": [
+      "oak",
+      "ash",
+      "birch"
+    ],
+    "secondary": [
+      "wool",
+      "linen",
+      "sheepskin",
+      "paper cord",
+      "white-painted brick",
+      "black steel"
+    ],
+    "finish": "White oil or soap on wood, matt paint on walls. Nothing is glossy.",
+    "texture_contrast": "Smooth pale wood against soft wool and knit, at about 2:1 by area."
+  },
+  "furniture": {
+    "silhouette": "Light frames of solid wood with rounded edges and visible joints; spindle and paper-cord seats; legs on show.",
+    "arrangement": "A sofa with two chairs around a round or oval low table on a wool rug; a dining table with mixed chairs under a pendant.",
+    "seat_height_cm": 42,
+    "key_pieces": [
+      "paper-cord wishbone chair",
+      "spindle-back dining chair",
+      "glare-free pendant",
+      "oak dining table",
+      "low oak bench",
+      "wool throw",
+      "sheepskin"
+    ]
+  },
+  "textiles": {
+    "fabrics": [
+      "wool",
+      "linen",
+      "sheepskin",
+      "cotton knit"
+    ],
+    "pattern": "Plain weaves and soft texture; one simple stripe or check on a rug or a throw at most.",
+    "windows": "Bare windows or light linen sheers that leave the window head free."
+  },
+  "objects": {
+    "approach": "Few, useful and hand-made objects: ceramics, candle holders, a plant, a stack of books.",
+    "grouping": "Groups of 3 at different heights on a sill or a sideboard; one leaning print on a picture ledge.",
+    "max_per_surface": 4,
+    "hang_centre_cm": 145,
+    "items": [
+      "candle holders",
+      "stoneware vase",
+      "plants",
+      "picture ledge with prints",
+      "wool throw"
+    ]
+  },
+  "implementation": {
+    "brief": "A white living room with a pale oak floor and a large window. A grey wool sofa and two paper-cord chairs stand around a round oak table on a pale rug; a glare-free pendant, a floor lamp and candles light the room.",
+    "image_prompt": "Scandinavian living room, white walls, pale oak floorboards, large window with bare head and sheer linen, light grey wool sofa, two wishbone chairs with paper-cord seats, round oak coffee table, pale wool rug, sheepskin, glare-free pendant lamp, candles on the sill, plants, soft northern daylight, calm, editorial photograph",
+    "negative_prompt": "Dark walls, heavy drapes, gloss, chrome, saturated colour, clutter, ornate furniture, single harsh ceiling light.",
+    "camera": "28 mm lens, camera at 130 cm, two-point view toward the window at 20–30 degrees.",
+    "scene_3d": "Room 550 x 420 cm, ceiling 260 cm. Overcast sky through one 200 x 180 cm window; 4 point lights at 2700 K at 45, 75, 140 and 180 cm.",
+    "furniture_list": [
+      "sofa 210 x 90 cm",
+      "2 paper-cord chairs",
+      "round coffee table 80 cm",
+      "dining table 180 x 90 cm",
+      "bench",
+      "rug 200 x 300 cm"
+    ],
+    "material_list": [
+      "white matt paint",
+      "oak boards, white oil",
+      "wool bouclé, grey",
+      "linen, natural",
+      "sheepskin",
+      "black steel"
+    ],
+    "references": []
+  },
+  "lineage": {
+    "evolved_from": [
+      "shaker-interior"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "mid-century-modern-interior"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Bright calm: the viewer feels a light, tidy home that is warm to touch and easy to live in.",
+    "keywords": [
+      "bright",
+      "calm",
+      "natural",
+      "cosy",
+      "honest",
+      "light"
+    ],
+    "brand_archetypes": [
+      "innocent",
+      "everyman",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "scandinavian",
+      "scandi",
+      "nordic",
+      "danish design",
+      "hygge",
+      "light wood",
+      "white and oak",
+      "scandinavian living room"
+    ],
+    "use_cases": [
+      "family homes",
+      "small flats",
+      "cafés",
+      "hotel rooms",
+      "rental interiors"
+    ],
+    "avoid_when": [
+      "The brief asks for drama, luxury or strong colour.",
+      "The room has hot direct sun all day and needs shade more than reflected light."
+    ],
+    "modifiers": [
+      {
+        "request": "more Japanese",
+        "toward": "japandi-interior",
+        "how": "Lower the furniture to 38 cm seats, add one dark wood and stoneware, reduce objects to 1–3 per surface; keep the pale walls and the natural textiles."
+      },
+      {
+        "request": "more retro",
+        "toward": "mid-century-modern-interior",
+        "how": "Change oak to teak, add a mustard or teal accent and an arc lamp; keep the legs on show."
+      },
+      {
+        "request": "more colour",
+        "toward": "dopamine-decor",
+        "how": "Paint one wall and its trim in a saturated hue and raise accents to 25%; keep the wood floor."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "Scandinavian living room",
+      "white walls",
+      "pale oak floor",
+      "paper-cord wishbone chair",
+      "grey wool sofa",
+      "sheepskin",
+      "glare-free pendant lamp",
+      "candles",
+      "soft northern daylight",
+      "plants"
+    ],
+    "negative": [
+      "dark walls",
+      "heavy drapes",
+      "gloss",
+      "chrome",
+      "saturated colour",
+      "ornate furniture"
+    ],
+    "canonical_works": [
+      {
+        "work": "Villa Mairea, Noormarkku",
+        "architect": "Alvar and Aino Aalto",
+        "year": 1939
+      },
+      {
+        "work": "Finn Juhl's House, Ordrup",
+        "architect": "Finn Juhl",
+        "year": 1942
+      },
+      {
+        "work": "Wishbone chair CH24",
+        "architect": "Hans J. Wegner",
+        "year": 1949
+      },
+      {
+        "work": "PH5 pendant",
+        "architect": "Poul Henningsen",
+        "year": 1958
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Charlotte and Peter Fiell, Scandinavian Design (Taschen, 2002)"
+    },
+    {
+      "title": "Design in Scandinavia: An Exhibition of Objects for the Home (travelling exhibition catalogue, United States and Canada, 1954–1957)"
+    },
+    {
+      "title": "Wikidata Q1793969: Scandinavian design",
+      "url": "https://www.wikidata.org/wiki/Q1793969"
+    },
+    {
+      "title": "Getty AAT 300266638",
+      "url": "https://vocab.getty.edu/page/aat/300266638"
+    }
+  ]
+}

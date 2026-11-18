@@ -1,0 +1,413 @@
+{
+  "$schema": "../../../schema/domains/interior.schema.json",
+  "id": "quiet-luxury-interior",
+  "domain": "interior",
+  "name": "Quiet luxury",
+  "aliases": [
+    "Stealth wealth interior",
+    "Old money interior",
+    "Understated luxury"
+  ],
+  "identity": {
+    "wikidata": "Q123452708"
+  },
+  "era_id": "networked-home",
+  "time_period": {
+    "start": 2022,
+    "end": null,
+    "label": "2022–present"
+  },
+  "room_types": [
+    "living",
+    "bedroom",
+    "dining",
+    "hospitality",
+    "retail"
+  ],
+  "summary": "A tonal room of costly materials and no logos. One hue family in cream, oatmeal, taupe and chocolate covers walls and seats; texture, not colour, gives the variety; pairs of chairs and lamps mirror about the fireplace, and hidden light washes the plaster.",
+  "philosophy": {
+    "core_thesis": "Real luxury is the quality of the material and the work, and it does not need to show a name.",
+    "design_principles": [
+      "Use one hue family in 3–5 values, from cream to chocolate; the accent is a darker value of the same hue, not a new hue.",
+      "Vary texture, not colour: put at least 4 textures, such as bouclé, cashmere, travertine and walnut, in the seating group.",
+      "Mirror pairs of chairs, lamps and side tables about one axis through the fireplace or the bed.",
+      "Choose few, large pieces: a deep low sofa of 260–300 cm and a rug of 300 x 400 cm that holds the whole group.",
+      "Hide the light sources: cove light, picture light and lamps with opaque shades; no bare bulb is in view.",
+      "Use honed, brushed and matt finishes; satin is the highest sheen.",
+      "Keep clear routes of 110 cm or more, so that the room never feels full."
+    ],
+    "anti_patterns": [
+      "Visible logos, monograms or branded objects",
+      "Saturated colour or a second hue family",
+      "Gloss lacquer, mirror chrome or high-shine marble",
+      "Many small objects and souvenirs on show",
+      "Bare bulbs or cool white light",
+      "Small, light furniture in a large room"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "density": 2,
+    "formality": 4,
+    "material_naturalness": 4,
+    "chromatic_intensity": 1
+  },
+  "composition": {
+    "plan_logic": "One axis through the fireplace or the bed. Pairs of pieces mirror about it, and one large rug holds the whole group.",
+    "focal_point": "A stone fireplace or a large abstract painting centred on the axis, lit by a hidden accent.",
+    "symmetry": "bilateral",
+    "axis_count": 1,
+    "focal_wall": "back",
+    "focal_position": 0.5,
+    "rhythm_module_cm": 60,
+    "depth_layers": 3,
+    "rules": [
+      {
+        "principle": "focal-point",
+        "rule": "Centre the fireplace or one large painting on the axis and light it with a hidden accent.",
+        "value": "1 focal point, accent 5:1"
+      },
+      {
+        "principle": "symmetry-axis",
+        "rule": "Mirror chairs, lamps and side tables about the axis on the focal wall.",
+        "value": "1 axis, 100% mirrored at the focal wall"
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Give cream the walls, oatmeal and taupe the seats and the rug, and chocolate the accents.",
+        "value": "70/25/5, one hue family"
+      },
+      {
+        "principle": "contrast",
+        "rule": "Step the values in small, even steps; no hard black edge.",
+        "value": "LRV steps of 10–20"
+      },
+      {
+        "principle": "unity-variety",
+        "rule": "Hold one hue family and vary the texture of each surface.",
+        "value": "1 hue, 4 or more textures"
+      },
+      {
+        "principle": "scale",
+        "rule": "Choose few, oversized, low pieces.",
+        "value": "sofa 260–300 cm, rug 300 x 400 cm"
+      },
+      {
+        "principle": "proportion",
+        "rule": "Divide the wall panels and the fireplace surround in golden rectangles.",
+        "value": "1:1.618"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Repeat a wall panel or a moulding at one module.",
+        "value": "60 cm panel"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Compose three planes: a pair of chairs in front, the sofa and table in the middle, the lit focal wall behind.",
+        "value": "3 planes"
+      },
+      {
+        "principle": "sightlines",
+        "rule": "Put the focal point on the axis of the entrance, so that the view from the door ends on it.",
+        "value": "door, axis and focal point on 1 line"
+      },
+      {
+        "principle": "negative-space",
+        "rule": "Leave wide floor around the group and bare wall around the one painting.",
+        "value": "55% bare floor, 85% bare wall"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Keep generous routes around the rug and behind the sofa.",
+        "value": "110 cm main, 80 cm secondary"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Wash the walls with a hidden cove, light the art with a picture light, and use a pair of lamps at the sofa; dim all layers.",
+        "value": "150 lux ambient, 400 lux task, accent 5:1, 2700 K"
+      }
+    ]
+  },
+  "zoning": {
+    "zones": [
+      "fireplace seating group",
+      "reading pair",
+      "dining or bar"
+    ],
+    "circulation": "A wide loop around the rug and behind the sofa; no route crosses the seating group.",
+    "main_path_clear_cm": 110,
+    "secondary_path_clear_cm": 80,
+    "seat_to_table_cm": 45,
+    "conversation_diameter_cm": 300,
+    "floor_coverage_pct": 45,
+    "wall_coverage_pct": 15
+  },
+  "palette": {
+    "distribution": "Cream plaster on walls and ceiling; oatmeal and taupe on the sofa, chairs and rug; walnut and brushed brass in small amounts; chocolate on one chair, a throw or a vessel.",
+    "dominant_pct": 70,
+    "secondary_pct": 25,
+    "accent_pct": 5,
+    "colours": [
+      {
+        "name": "Cream",
+        "hex": "#EFE8DC",
+        "role": "dominant",
+        "surface": "limewash walls and ceiling"
+      },
+      {
+        "name": "Oatmeal",
+        "hex": "#D6CBB8",
+        "role": "secondary",
+        "surface": "sofa, rug"
+      },
+      {
+        "name": "Taupe",
+        "hex": "#A39382",
+        "role": "secondary",
+        "surface": "chairs, curtains"
+      },
+      {
+        "name": "Chocolate",
+        "hex": "#4E3B2F",
+        "role": "accent",
+        "surface": "one chair, throw, vessel"
+      },
+      {
+        "name": "Walnut",
+        "hex": "#6B4A33",
+        "role": "wood",
+        "surface": "side tables, panels"
+      },
+      {
+        "name": "Brushed brass",
+        "hex": "#B39A6B",
+        "role": "metal",
+        "surface": "lamp bases, picture light"
+      }
+    ]
+  },
+  "lighting": {
+    "strategy": "Hidden sources wash the walls and pick out the art. All layers dim; no bulb is in view.",
+    "daylight": "Floor-to-ceiling linen sheers on a hidden ceiling track soften the daylight to an even glow.",
+    "ambient_lux": 150,
+    "task_lux": 400,
+    "accent_ratio": 5,
+    "cct_k": 2700,
+    "cct_evening_k": 2200,
+    "cri_min": 95,
+    "layers": [
+      {
+        "layer": "ambient",
+        "source": "concealed cove LED",
+        "position": "ceiling perimeter"
+      },
+      {
+        "layer": "accent",
+        "source": "brass picture light",
+        "position": "over the painting on the axis"
+      },
+      {
+        "layer": "task",
+        "source": "pair of ceramic table lamps",
+        "position": "side tables, mirrored"
+      },
+      {
+        "layer": "decorative",
+        "source": "alabaster pendant",
+        "position": "over the dining table"
+      },
+      {
+        "layer": "daylight",
+        "source": "linen sheers",
+        "position": "full window wall"
+      }
+    ]
+  },
+  "materials": {
+    "primary": [
+      "travertine",
+      "walnut",
+      "bouclé wool"
+    ],
+    "secondary": [
+      "cashmere",
+      "linen",
+      "suede",
+      "brushed brass",
+      "limewash plaster",
+      "alabaster"
+    ],
+    "finish": "Honed stone, brushed metal, oiled wood and limewash. Satin is the highest sheen; no gloss.",
+    "texture_contrast": "Smooth honed stone and wood against soft bouclé and cashmere, at about 1:2."
+  },
+  "furniture": {
+    "silhouette": "Low, deep pieces in rounded rectangles; plinth bases or short hidden legs; large sizes and soft edges.",
+    "arrangement": "Two sofas face each other across the axis of the fireplace, or one sofa faces it with two mirrored lounge chairs.",
+    "seat_height_cm": 42,
+    "key_pieces": [
+      "deep low sofa",
+      "travertine coffee table",
+      "pair of lounge chairs",
+      "pair of ceramic table lamps",
+      "wool rug 300 x 400 cm",
+      "large abstract painting",
+      "walnut side tables"
+    ]
+  },
+  "textiles": {
+    "fabrics": [
+      "bouclé",
+      "cashmere",
+      "linen",
+      "suede",
+      "wool"
+    ],
+    "pattern": "No prints. Texture only: bouclé, herringbone weave, rib knit.",
+    "windows": "Floor-to-ceiling linen sheers on a hidden ceiling track, with a fullness of 2 to 2.5 times the window width."
+  },
+  "objects": {
+    "approach": "Few and costly: one sculpture, art books, a large ceramic or stone vessel. No logos.",
+    "grouping": "Pairs on the axis; groups of 3 off the axis, low to high.",
+    "max_per_surface": 3,
+    "hang_centre_cm": 150,
+    "items": [
+      "large abstract painting",
+      "stone vessel",
+      "art books",
+      "small bronze sculpture",
+      "cashmere throw"
+    ]
+  },
+  "implementation": {
+    "brief": "A cream limewash room with a travertine fireplace on the axis. A deep oatmeal bouclé sofa faces it across a travertine table, with two taupe lounge chairs mirrored on the sides; a picture light shows one large abstract painting.",
+    "image_prompt": "Quiet luxury living room, cream limewash walls, travertine fireplace centred on the axis, deep low oatmeal bouclé sofa, travertine coffee table, pair of taupe lounge chairs mirrored, pair of ceramic table lamps, large wool rug, one large abstract painting with a brass picture light, floor-to-ceiling linen sheers, tonal palette, soft hidden cove light, architectural digest photograph",
+    "negative_prompt": "Logos, saturated colour, gloss, chrome, clutter, bare bulbs, cool light, small furniture, pattern.",
+    "camera": "35 mm lens, camera at 130 cm, one-point view on the axis from the entrance toward the fireplace.",
+    "scene_3d": "Room 700 x 550 cm, ceiling 300 cm. 2700 K cove light at the ceiling perimeter; 5:1 spot on the painting; 2 lamps at 2200 K; soft daylight through linen at transmission 0.4.",
+    "furniture_list": [
+      "sofa 280 x 105 x 70 cm",
+      "2 lounge chairs",
+      "travertine table 140 x 80 x 35 cm",
+      "2 walnut side tables",
+      "rug 300 x 400 cm",
+      "painting 150 x 120 cm"
+    ],
+    "material_list": [
+      "limewash, cream",
+      "travertine, honed",
+      "walnut, oiled",
+      "bouclé, oatmeal",
+      "cashmere",
+      "brushed brass"
+    ],
+    "references": []
+  },
+  "lineage": {
+    "evolved_from": [
+      "japandi-interior"
+    ],
+    "rebelled_against": [
+      "dopamine-decor"
+    ],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Assured calm: the viewer feels quality in every surface and the confidence of a room that does not need to impress.",
+    "keywords": [
+      "understated",
+      "refined",
+      "tonal",
+      "tactile",
+      "assured",
+      "calm"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "sage",
+      "lover"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "quiet luxury",
+      "stealth wealth",
+      "old money interior",
+      "understated luxury",
+      "tonal interior",
+      "travertine and bouclé",
+      "neutral luxury",
+      "the row aesthetic"
+    ],
+    "use_cases": [
+      "high-end residences",
+      "hotel suites",
+      "luxury retail",
+      "private members' clubs",
+      "show flats"
+    ],
+    "avoid_when": [
+      "The budget does not reach real stone, wool and solid wood; cheap copies break the style.",
+      "The brief asks for colour, personality or play."
+    ],
+    "modifiers": [
+      {
+        "request": "more natural and calm",
+        "toward": "japandi-interior",
+        "how": "Lower the furniture, change travertine to oak and plaster, break the mirror symmetry; keep the tonal palette and matt finishes."
+      },
+      {
+        "request": "more colour",
+        "toward": "dopamine-decor",
+        "how": "Drench one wall in a saturated hue and add 3 more hues as accents; keep the large, soft pieces."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "quiet luxury interior",
+      "tonal cream and taupe palette",
+      "travertine fireplace",
+      "deep bouclé sofa",
+      "mirrored pair of lounge chairs",
+      "limewash walls",
+      "linen sheers",
+      "hidden cove light",
+      "picture light on abstract art",
+      "walnut and brushed brass"
+    ],
+    "negative": [
+      "logos",
+      "saturated colour",
+      "gloss",
+      "chrome",
+      "clutter",
+      "bare bulbs"
+    ],
+    "canonical_works": [
+      {
+        "work": "Salon of the Hôtel de Noailles, Paris",
+        "architect": "Jean-Michel Frank",
+        "year": 1926
+      },
+      {
+        "work": "Kanaal, Wijnegem",
+        "architect": "Axel Vervoordt",
+        "year": 2017
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Pierre-Emmanuel Martin-Vivier, Jean-Michel Frank: The Strange and Subtle Luxury of the Parisian Haute-Monde in the Art Deco Period (Rizzoli, 2008)"
+    },
+    {
+      "title": "Trend evidence, cite only: fashion and interior press used the term from 2022 and 2023"
+    },
+    {
+      "title": "Wikidata Q123452708: Quiet luxury",
+      "url": "https://www.wikidata.org/wiki/Q123452708"
+    }
+  ]
+}

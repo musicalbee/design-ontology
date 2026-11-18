@@ -243,6 +243,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`bauhaus`](../bauhaus/SKILL.md)
 - **Mixes well with:** [`swiss-international`](../swiss-international/SKILL.md)
+- **Kin in another domain:** [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md)
 - **Nearest by vector profile:** [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md), [`corporate-memphis`](../corporate-memphis/SKILL.md)
 
 ## Emotional target
