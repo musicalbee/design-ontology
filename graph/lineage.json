@@ -1396,6 +1396,21 @@
       }
     },
     {
+      "id": "group-f64",
+      "domain": "photography",
+      "name": "Group f/64",
+      "era": "art-photography",
+      "start": 1932,
+      "end": 1935,
+      "vectors": {
+        "staging": 2,
+        "tonal_contrast": 5,
+        "colour_saturation": 1,
+        "depth_of_field": 1,
+        "proximity": 3
+      }
+    },
+    {
       "id": "new-objectivity",
       "domain": "photography",
       "name": "New Objectivity photography",
@@ -1543,6 +1558,36 @@
         "colour_saturation": 3,
         "depth_of_field": 3,
         "proximity": 3
+      }
+    },
+    {
+      "id": "ai-hyperreal",
+      "domain": "photography",
+      "name": "AI hyperreal image",
+      "era": "digital-and-grade",
+      "start": 2022,
+      "end": null,
+      "vectors": {
+        "staging": 5,
+        "tonal_contrast": 3,
+        "colour_saturation": 4,
+        "depth_of_field": 4,
+        "proximity": 3
+      }
+    },
+    {
+      "id": "architectural-photography",
+      "domain": "photography",
+      "name": "Architectural photography",
+      "era": "commercial-and-staged",
+      "start": 1930,
+      "end": null,
+      "vectors": {
+        "staging": 4,
+        "tonal_contrast": 3,
+        "colour_saturation": 2,
+        "depth_of_field": 1,
+        "proximity": 1
       }
     },
     {
@@ -2248,6 +2293,26 @@
       "type": "ECHOES"
     },
     {
+      "from": "architectural-photography",
+      "to": "bauhaus-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "architectural-photography",
+      "to": "brutalist-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "architectural-photography",
+      "to": "international-style-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "architectural-photography",
+      "to": "mid-century-modern-architecture",
+      "type": "ECHOES"
+    },
+    {
       "from": "art-deco-architecture",
       "to": "art-deco-interior",
       "type": "ECHOES"
@@ -2608,6 +2673,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "group-f64",
+      "to": "international-style-architecture",
+      "type": "ECHOES"
+    },
+    {
       "from": "grunge-editorial",
       "to": "party-flash",
       "type": "ECHOES"
@@ -2863,8 +2933,28 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "ai-hyperreal",
+      "to": "cinematic-teal-orange",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "ai-hyperreal",
+      "to": "fashion-editorial",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "apple-aqua",
       "to": "y2k-aesthetic",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "architectural-photography",
+      "to": "new-objectivity",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "architectural-photography",
+      "to": "straight-photography",
       "type": "EVOLVED_FROM"
     },
     {
@@ -3110,6 +3200,11 @@
     {
       "from": "grandmillennial-interior",
       "to": "victorian-interior",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "group-f64",
+      "to": "straight-photography",
       "type": "EVOLVED_FROM"
     },
     {
@@ -3440,6 +3535,11 @@
     {
       "from": "apple-aqua",
       "to": "skeuomorphism",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "architectural-photography",
+      "to": "scandinavian-interior-photography",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -3985,6 +4085,11 @@
     {
       "from": "grandmillennial-interior",
       "to": "scandinavian-interior",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "group-f64",
+      "to": "pictorialism",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -6797,6 +6902,7 @@
         "international-style-architecture"
       ],
       "echoes": [
+        "architectural-photography",
         "bauhaus",
         "bauhaus-interior",
         "new-objectivity"
@@ -6869,11 +6975,13 @@
         "bauhaus-architecture"
       ],
       "echoes": [
+        "architectural-photography",
         "bauhaus",
         "bauhaus-interior",
         "de-stijl-painting",
         "de-stijl-web",
         "duesseldorf-school",
+        "group-f64",
         "mid-century-modern-interior",
         "minimalist-interior",
         "new-topographics",
@@ -6934,6 +7042,7 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
+        "architectural-photography",
         "mid-century-modern",
         "mid-century-modern-interior",
         "space-age"
@@ -6968,6 +7077,7 @@
       "hybridized_with": [],
       "echoes": [
         "abstract-expressionism",
+        "architectural-photography",
         "brutalist-web",
         "constructivism-web",
         "dogme-95",
@@ -7719,6 +7829,7 @@
       "rebelled_against": [],
       "provoked": [
         "documentary-photography",
+        "group-f64",
         "new-objectivity",
         "straight-photography"
       ],
@@ -7729,15 +7840,15 @@
       ],
       "nearest_by_vector": [
         {
+          "id": "ai-hyperreal",
+          "distance": 2.65
+        },
+        {
           "id": "film-grain-revival",
           "distance": 2.83
         },
         {
           "id": "food-photography",
-          "distance": 3
-        },
-        {
-          "id": "scandinavian-interior-photography",
           "distance": 3
         }
       ],
@@ -7746,10 +7857,12 @@
     "straight-photography": {
       "evolved_from": [],
       "evolved_into": [
+        "architectural-photography",
         "documentary-photography",
         "fashion-editorial",
         "film-noir-still",
         "food-photography",
+        "group-f64",
         "new-objectivity",
         "new-topographics",
         "street-photography"
@@ -7767,16 +7880,45 @@
       ],
       "nearest_by_vector": [
         {
+          "id": "group-f64",
+          "distance": 1
+        },
+        {
           "id": "street-photography",
           "distance": 1.73
         },
         {
           "id": "documentary-photography",
           "distance": 2.24
+        }
+      ],
+      "techniques": []
+    },
+    "group-f64": {
+      "evolved_from": [
+        "straight-photography"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "pictorialism"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "international-style-architecture"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "straight-photography",
+          "distance": 1
         },
         {
-          "id": "new-objectivity",
-          "distance": 2.24
+          "id": "street-photography",
+          "distance": 2
+        },
+        {
+          "id": "party-flash",
+          "distance": 2.45
         }
       ],
       "techniques": []
@@ -7786,6 +7928,7 @@
         "straight-photography"
       ],
       "evolved_into": [
+        "architectural-photography",
         "duesseldorf-school",
         "scandinavian-interior-photography"
       ],
@@ -7848,7 +7991,7 @@
           "distance": 1.73
         },
         {
-          "id": "new-objectivity",
+          "id": "group-f64",
           "distance": 2
         }
       ],
@@ -7945,12 +8088,12 @@
           "distance": 2.24
         },
         {
-          "id": "scandinavian-interior-photography",
+          "id": "architectural-photography",
           "distance": 2.45
         },
         {
-          "id": "straight-photography",
-          "distance": 2.83
+          "id": "scandinavian-interior-photography",
+          "distance": 2.45
         }
       ],
       "techniques": []
@@ -7972,16 +8115,16 @@
       ],
       "nearest_by_vector": [
         {
+          "id": "architectural-photography",
+          "distance": 1.73
+        },
+        {
           "id": "scandinavian-interior-photography",
           "distance": 1.73
         },
         {
           "id": "new-topographics",
           "distance": 2.24
-        },
-        {
-          "id": "y2k-digicam",
-          "distance": 2.45
         }
       ],
       "techniques": []
@@ -8024,12 +8167,18 @@
       "evolved_from": [
         "new-colour"
       ],
-      "evolved_into": [],
+      "evolved_into": [
+        "ai-hyperreal"
+      ],
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [],
       "echoes": [],
       "nearest_by_vector": [
+        {
+          "id": "ai-hyperreal",
+          "distance": 1
+        },
         {
           "id": "fashion-editorial",
           "distance": 1
@@ -8037,10 +8186,6 @@
         {
           "id": "food-photography",
           "distance": 1.73
-        },
-        {
-          "id": "pictorialism",
-          "distance": 3.16
         }
       ],
       "techniques": []
@@ -8073,7 +8218,7 @@
           "distance": 2.45
         },
         {
-          "id": "street-photography",
+          "id": "group-f64",
           "distance": 2.45
         }
       ],
@@ -8112,12 +8257,73 @@
       ],
       "techniques": []
     },
+    "ai-hyperreal": {
+      "evolved_from": [
+        "cinematic-teal-orange",
+        "fashion-editorial"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "cinematic-teal-orange",
+          "distance": 1
+        },
+        {
+          "id": "fashion-editorial",
+          "distance": 1.41
+        },
+        {
+          "id": "food-photography",
+          "distance": 1.41
+        }
+      ],
+      "techniques": []
+    },
+    "architectural-photography": {
+      "evolved_from": [
+        "new-objectivity",
+        "straight-photography"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "scandinavian-interior-photography"
+      ],
+      "echoes": [
+        "bauhaus-architecture",
+        "brutalist-architecture",
+        "international-style-architecture",
+        "mid-century-modern-architecture"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "scandinavian-interior-photography",
+          "distance": 1.41
+        },
+        {
+          "id": "duesseldorf-school",
+          "distance": 1.73
+        },
+        {
+          "id": "new-topographics",
+          "distance": 2.45
+        }
+      ],
+      "techniques": []
+    },
     "fashion-editorial": {
       "evolved_from": [
         "pictorialism",
         "straight-photography"
       ],
-      "evolved_into": [],
+      "evolved_into": [
+        "ai-hyperreal"
+      ],
       "rebelled_against": [
         "new-objectivity"
       ],
@@ -8137,12 +8343,12 @@
           "distance": 1
         },
         {
-          "id": "food-photography",
-          "distance": 2
+          "id": "ai-hyperreal",
+          "distance": 1.41
         },
         {
-          "id": "film-noir-still",
-          "distance": 3.16
+          "id": "food-photography",
+          "distance": 2
         }
       ],
       "techniques": []
@@ -8172,7 +8378,7 @@
           "distance": 3.32
         },
         {
-          "id": "pictorialism",
+          "id": "group-f64",
           "distance": 3.61
         }
       ],
@@ -8194,16 +8400,16 @@
       ],
       "nearest_by_vector": [
         {
+          "id": "ai-hyperreal",
+          "distance": 1.41
+        },
+        {
           "id": "cinematic-teal-orange",
           "distance": 1.73
         },
         {
           "id": "fashion-editorial",
           "distance": 2
-        },
-        {
-          "id": "film-grain-revival",
-          "distance": 2.65
         }
       ],
       "techniques": []
@@ -8216,6 +8422,7 @@
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [
+        "architectural-photography",
         "fashion-editorial"
       ],
       "echoes": [
@@ -8224,16 +8431,16 @@
       ],
       "nearest_by_vector": [
         {
+          "id": "architectural-photography",
+          "distance": 1.41
+        },
+        {
           "id": "duesseldorf-school",
           "distance": 1.73
         },
         {
           "id": "new-topographics",
           "distance": 2.45
-        },
-        {
-          "id": "y2k-digicam",
-          "distance": 2.65
         }
       ],
       "techniques": []

@@ -180,7 +180,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more raw**: move toward [`party-flash`](../party-flash/SKILL.md) (Party flash). Replace the lit set with one on-camera flash at 8:1, drop the shallow focus and the vignette; keep the warm skin.
 
 - **Came from (go here for a more orthodox version):** [`new-colour`](../new-colour/SKILL.md)
-- **Nearest by vector profile:** [`fashion-editorial`](../fashion-editorial/SKILL.md), [`food-photography`](../food-photography/SKILL.md), [`pictorialism`](../pictorialism/SKILL.md)
+- **Led to (go here for a newer version):** [`ai-hyperreal`](../ai-hyperreal/SKILL.md)
+- **Nearest by vector profile:** [`ai-hyperreal`](../ai-hyperreal/SKILL.md), [`fashion-editorial`](../fashion-editorial/SKILL.md), [`food-photography`](../food-photography/SKILL.md)
 
 ## Emotional target
 
