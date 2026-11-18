@@ -3,33 +3,120 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>One massing in every architectural style</title>
-<meta name="description" content="One box and one facade grid, 6 bays by 5 storeys, drawn in SVG and dressed by the rules of each architecture style.">
+<title>One front in every style</title>
+<meta name="description" content="One parametric front elevation, 6 bays by 5 storeys, drawn in each architectural style of the design ontology, with its composition rules, key numbers, palette and reference images.">
 <style>
   *, *::before, *::after { box-sizing: border-box; }
-  body { margin: 0; font: 15px/1.5 system-ui, sans-serif; background: #17171a; color: #f4f4f5; }
-  header, main { max-width: 1160px; margin: 0 auto; padding: 24px clamp(16px, 4vw, 48px); }
-  h1 { font-size: 1.5rem; margin: 0 0 4px; }
-  p { margin: 0 0 8px; color: #c9c9d0; max-width: 62ch; }
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
-  figure { margin: 0; background: #202026; border: 1px solid #34343a; border-radius: 8px; overflow: hidden; }
-  figure svg { display: block; width: 100%; height: auto; }
-  figcaption { padding: 10px 14px 14px; }
-  figcaption b { display: block; font-size: 1rem; }
-  figcaption span { color: #a9a9b3; font-size: .85rem; }
-  .sw { display: flex; gap: 4px; margin-top: 8px; }
-  .sw i { width: 22px; height: 12px; border-radius: 2px; border: 1px solid #0006; }
+  :root {
+    --chrome: #17171a; --chrome-2: #2a2a30; --chrome-line: #44444c; --chrome-ink: #f4f4f5;
+    --paper: #f7f6f2; --ink: #1d1d1f; --muted: #5d5d66; --line: #d9d7d0;
+    --overlay: #d6336c; --bay: #1971c2;
+  }
+  html, body { margin: 0; }
+  body { font: 15px/1.5 system-ui, sans-serif; background: var(--paper); color: var(--ink); }
+  @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; } }
+  :focus-visible { outline: 3px solid #6aa8ff; outline-offset: 2px; }
+  main { max-width: 1240px; margin: 0 auto; padding: 24px 16px 64px; display: grid; gap: 24px; }
+  main > * { min-width: 0; }
+  header h1 { margin: 0; font-size: clamp(26px, 4vw, 40px); line-height: 1.1; letter-spacing: -.01em; }
+  header .meta { color: var(--muted); margin: 4px 0 0; }
+  header .thesis { margin: 12px 0 0; font-size: 18px; max-width: 70ch; }
+  .toggles { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .toggles label { display: inline-flex; gap: 6px; align-items: center; padding: 4px 10px; border: 1px solid var(--line); border-radius: 999px; background: #fff; cursor: pointer; font-size: 13px; }
+  .toggles .sw { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+  .views { display: grid; gap: 16px; grid-template-columns: 1fr; }
+  @media (min-width: 960px) { .views.has-shot { grid-template-columns: 3fr 2fr; } }
+  figure { margin: 0; background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 12px; min-width: 0; }
+  figcaption { font-size: 13px; color: var(--muted); margin-top: 8px; }
+  figure h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; margin: 0 0 8px; color: var(--muted); font-weight: 650; }
+  .shot { margin: 0; padding: 0; overflow: hidden; }
+  .shot img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; background: var(--line); }
+  .shot figcaption { padding: 8px 12px; font-size: 12px; color: var(--muted); margin: 0; }
+  svg { display: block; width: 100%; height: auto; }
+  svg text { font: 11px system-ui, sans-serif; }
+  [data-off~="axis"] .ov-axis, [data-off~="bays"] .ov-bays { display: none; }
+  .swatches { display: flex; flex-wrap: wrap; gap: 12px; font-size: 13px; }
+  .swatches span { display: inline-flex; align-items: center; gap: 6px; }
+  .swatches i { width: 18px; height: 18px; border-radius: 3px; border: 1px solid rgb(0 0 0 / .15); }
+  .facts { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+  .fact { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
+  .fact .k { font-size: 12px; color: var(--muted); }
+  .fact .v { font-size: 20px; font-weight: 650; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+  .cols { display: grid; gap: 16px; grid-template-columns: 1fr; }
+  @media (min-width: 960px) { .cols { grid-template-columns: 3fr 2fr; } }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; background: #fff; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+  th, td { text-align: left; vertical-align: top; padding: 7px 10px; border-top: 1px solid var(--line); }
+  thead th { border-top: 0; background: #f0efea; font-weight: 650; }
+  td code { font-size: 12px; }
+  td a { overflow-wrap: anywhere; }
+  .table-wrap { overflow-x: auto; }
+  h3 { margin: 0 0 8px; font-size: 16px; }
+  footer { color: var(--muted); font-size: 13px; }
+  footer a { color: inherit; }
 </style>
 </head>
 <body>
 <script src="nav.js"></script>
-<header>
-  <h1>One massing, every style</h1>
-  <p>The same box: 6 bays wide, 5 storeys high, one front elevation. Each style changes only what its rules change: base, bay, opening, roof, ornament and colour.</p>
-  <p>Colours come from the palette of each record in <code>data/architecture/styles/</code>. Reference photographs are not copied here; see the sources in each record.</p>
-</header>
-<main><div class="grid" id="grid"></div></main>
+
+<main id="stage">
+  <header>
+    <h1 id="h-name">…</h1>
+    <p class="meta" id="h-meta"></p>
+    <p class="thesis" id="h-thesis"></p>
+  </header>
+
+  <div class="toggles" role="group" aria-label="Overlays">
+    <label><input type="checkbox" data-ov="axis" checked><span class="sw" style="background:var(--overlay)"></span>Axis and symmetry</label>
+    <label><input type="checkbox" data-ov="bays" checked><span class="sw" style="background:var(--bay)"></span>Rhythm module</label>
+  </div>
+
+  <div class="views" id="views">
+    <figure>
+      <h2>Front elevation, 6 bays by 5 storeys</h2>
+      <svg id="elev" viewBox="0 0 480 360" role="img" aria-labelledby="elev-cap"></svg>
+      <figcaption id="elev-cap"></figcaption>
+    </figure>
+    <figure class="shot" id="shot" hidden>
+      <img id="shot-img" alt="" width="1152" height="768" decoding="async">
+      <figcaption id="shot-cap"></figcaption>
+    </figure>
+  </div>
+
+  <section>
+    <h3>Palette</h3>
+    <div class="swatches" id="swatches"></div>
+  </section>
+
+  <section class="facts" id="facts" aria-label="Key numbers"></section>
+
+  <div class="cols">
+    <section>
+      <h3>Composition rules</h3>
+      <div class="table-wrap"><table><thead><tr><th>Principle</th><th>Rule</th><th>Value</th></tr></thead><tbody id="rules"></tbody></table></div>
+    </section>
+    <section style="display:grid;gap:16px;align-content:start">
+      <div>
+        <h3>Reference works</h3>
+        <div class="table-wrap"><table><thead><tr><th>Work</th><th>Maker</th><th>Year</th></tr></thead><tbody id="works"></tbody></table></div>
+      </div>
+      <div id="refs-box" hidden>
+        <h3>Reference images</h3>
+        <div class="table-wrap"><table><thead><tr><th>Image</th><th>Credit</th><th>Licence</th></tr></thead><tbody id="refs"></tbody></table></div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    The front is a sketch built from the style record, not a picture of a real building.
+    Read <a id="f-data" href="#">the style record</a> and <a id="f-skill" href="#">the skill</a> for the full rules.
+  </footer>
+</main>
+
 <script>
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+let skills = [], at = 0;
+const cache = {};
 const W = 480, H = 360, G = 320, X0 = 80, BW = 320, N = 6, S = 5, SH = 48, BAY = BW / N;
 const R = (x, y, w, h, f, extra = "") => `<rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${w.toFixed(1)}" height="${h.toFixed(1)}" fill="${f}" ${extra}/>`;
 const P = (d, f, extra = "") => `<path d="${d}" fill="${f}" ${extra}/>`;
@@ -224,16 +311,101 @@ const colour = {
   "nordic-modernism-architecture": { wall: "#F1EFE8", brick: "#9A5B3D", wood: "#D8B885", glass: "#A9C1C9", roof: "#5C8F7E", stone: "#6D6D68" },
   "parametricism-architecture": { skin: "#F4F4F2", shade: "#B8BCC2", glass: "#8FB4D1" }
 };
-Promise.all(Object.keys(styles).map((id) => fetch(`../data/architecture/styles/${id}.json`).then((r) => r.json()))).then((all) => {
-  const grid = document.getElementById("grid");
-  for (const d of all) {
-    const fig = document.createElement("figure");
-    const wwr = (d.facade.openings.match(/\d+(?:\s*to\s*\d+)?%/) || ["see record"])[0];
-    fig.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${d.name}: the same 6 by 5 bay box in this style">${R(0, 0, W, H, "#dcdde0")}${R(0, G, W, H - G, "#6d6f73")}${styles[d.id](colour[d.id])}</svg>
-      <figcaption><b>${d.name}</b><span>${d.time_period.label} · window-to-wall: ${wwr}</span>
-      <div class="sw">${d.materials.palette.map((p) => `<i title="${p.name}" style="background:${p.hex}"></i>`).join("")}</div></figcaption>`;
-    grid.append(fig);
-  }
+
+// A style with no drawing function above still gets a neutral massing: a box on its own palette.
+const neutral = (c) => {
+  let s = R(X0, G - S * SH, BW, S * SH, c.wall);
+  for (let i = 0; i < S; i++) for (let j = 0; j < N; j++) s += R(X0 + j * BAY + 12, G - (S - i) * SH + 10, BAY - 24, SH - 20, c.glass);
+  return s + R(X0, G - 6, BW, 6, c.dark);
+};
+const lum = (h) => { const n = parseInt(h.slice(1), 16); return 0.2126 * (n >> 16) + 0.7152 * ((n >> 8) & 255) + 0.0722 * (n & 255); };
+const fallbackColours = (d) => {
+  const hs = d.materials.palette.map((p) => p.hex).sort((a, b) => lum(b) - lum(a));
+  return { wall: hs[0], glass: hs[Math.floor(hs.length / 2)], dark: hs[hs.length - 1] };
+};
+
+function elevation(d) {
+  const draw = styles[d.id] ?? neutral;
+  const c = colour[d.id] ?? fallbackColours(d);
+  const k = d.composition, wwr = (d.facade.openings.match(/\d+(?:\s*to\s*\d+)?%/) || ["see record"])[0];
+  let ov = "";
+  const mx = X0 + BW / 2;
+  if (k.axis_count >= 1) ov += `<g class="ov-axis"><line x1="${mx}" y1="14" x2="${mx}" y2="${G + 12}" stroke="var(--overlay)" stroke-width="2" stroke-dasharray="10 5 3 5"/><text x="8" y="${H - 8}" fill="var(--overlay)" font-weight="650">${k.symmetry} · ${k.axis_count} ${k.axis_count === 1 ? "axis" : "axes"}</text></g>`;
+  else ov += `<text class="ov-axis" x="8" y="${H - 8}" fill="var(--overlay)" font-weight="650">${k.symmetry} · no axis</text>`;
+  ov += `<g class="ov-bays">${Array.from({ length: N + 1 }, (_, j) => `<line x1="${X0 + j * BAY}" y1="${G}" x2="${X0 + j * BAY}" y2="${G + 14}" stroke="var(--bay)" stroke-width="2"/>`).join("")}<line x1="${X0}" y1="${G + 7}" x2="${X0 + BW}" y2="${G + 7}" stroke="var(--bay)"/><text x="${X0 + BW / 2}" y="${G + 30}" text-anchor="middle" fill="var(--bay)" font-weight="650">module ${k.rhythm_module_m} m</text></g>`;
+  $("elev").innerHTML = `${R(0, 0, W, H, "#ecebe4")}${R(0, G, W, H - G, "#cfcdc3")}${draw(c)}${ov}`;
+  $("elev").setAttribute("aria-label", `${d.name}: the same 6 by 5 bay front in this style`);
+  $("elev-cap").textContent = `${d.facade.composition} Window-to-wall: ${wwr}. The 6 by 5 box is the same for every style.`;
+}
+
+function facts(d) {
+  const v = d.vectors, k = d.composition;
+  const wwr = (d.facade.openings.match(/\d+(?:\s*to\s*\d+)?%/) || ["see record"])[0];
+  const f = [
+    ["Ornamentation", `${v.ornamentation}/5`], ["Structure shown", `${v.structural_expression}/5`], ["Geometric rigidity", `${v.geometric_rigidity}/5`],
+    ["Material rawness", `${v.material_rawness}/5`], ["Monumentality", `${v.monumentality}/5`],
+    ["Symmetry", k.symmetry], ["Axes", k.axis_count], ["Rhythm module", `${k.rhythm_module_m} m`], ["Window-to-wall", wwr],
+    ["Building types", d.building_types.join(", ")],
+  ];
+  $("facts").innerHTML = f.map(([a, b]) => `<div class="fact"><div class="k">${a}</div><div class="v">${esc(b)}</div></div>`).join("");
+}
+
+// A generated preview of this style, if the renderer made one.
+const previews = fetch("previews/architecture/manifest.json").then((r) => (r.ok ? r.json() : { images: {} })).catch(() => ({ images: {} }));
+function shot(d) {
+  previews.then((m) => {
+    const p = m.images?.[d.id];
+    if (skills[at].id !== d.id) return;
+    $("shot").hidden = !p;
+    $("views").classList.toggle("has-shot", !!p);
+    if (!p) return;
+    $("shot-img").src = `previews/architecture/${p.file}`;
+    $("shot-img").alt = `Generated preview: a building in the ${d.name} style`;
+    $("shot-cap").textContent = `Generated preview, not a real building. ${p.model}, ${p.licence}, seed ${p.seed}, ${p.steps} steps.`;
+  });
+}
+
+function show(i) {
+  at = (i + skills.length) % skills.length;
+  const meta = skills[at];
+  (cache[meta.id] ??= fetch(`../data/architecture/styles/${meta.id}.json`).then((r) => r.json())).then((d) => {
+    if (skills[at].id !== d.id) return;
+    $("h-name").textContent = d.name;
+    $("h-meta").textContent = `${d.time_period.label} · ${d.aliases.join(", ")}`;
+    $("h-thesis").textContent = d.philosophy.core_thesis;
+    elevation(d); facts(d); shot(d);
+    $("swatches").innerHTML = d.materials.palette.map((p) => `<span><i style="background:${p.hex}"></i>${esc(p.name)} <code>${p.hex}</code> · ${esc(p.role)}</span>`).join("");
+    $("rules").innerHTML = d.composition.rules.map((r) => `<tr><td><code>${esc(r.principle)}</code></td><td>${esc(r.rule)}</td><td>${esc(r.value)}</td></tr>`).join("");
+    $("works").innerHTML = d.primer.canonical_works.map((w) => `<tr><td>${esc(w.work)}</td><td>${esc(w.architect)}</td><td>${esc(w.year)}</td></tr>`).join("");
+    const refs = d.references?.images ?? [];
+    $("refs-box").hidden = !refs.length;
+    $("refs").innerHTML = refs.map((r) => `<tr><td><a href="${esc(r.url)}" rel="noopener">${esc(r.title)}</a></td><td>${esc(r.credit)}</td><td>${esc(r.licence)}</td></tr>`).join("");
+    $("f-data").href = `../data/architecture/styles/${d.id}.json`;
+    $("f-skill").href = `../skills/${d.id}/SKILL.md`;
+    document.title = `${d.name}: one front in every style`;
+  });
+  for (const b of $("chips").children) b.setAttribute("aria-pressed", b.dataset.go === meta.id);
+  $("chips").querySelector('[aria-pressed="true"]')?.scrollIntoView({ block: "nearest" });
+  if (location.hash.slice(1) !== meta.id) history.replaceState(null, "", "#" + meta.id);
+}
+
+const go = (id) => { const i = skills.findIndex((s) => s.id === id); if (i >= 0) show(i); return i >= 0; };
+fetch("../skills/index.json").then((r) => r.json()).then((index) => {
+  skills = index.skills.filter((s) => s.domain === "architecture");
+  $("chips").innerHTML = skills.map((s) => `<button data-go="${s.id}" aria-pressed="false">${esc(s.name)}</button>`).join("");
+  go(location.hash.slice(1)) || show(0);
+});
+document.addEventListener("click", (e) => { const b = e.target.closest("[data-go]"); if (b) go(b.dataset.go); });
+addEventListener("hashchange", () => go(location.hash.slice(1)));
+$("prev").onclick = () => show(at - 1);
+$("next").onclick = () => show(at + 1);
+for (const box of document.querySelectorAll("[data-ov]")) box.onchange = () => {
+  $("stage").dataset.off = [...document.querySelectorAll("[data-ov]")].filter((b) => !b.checked).map((b) => b.dataset.ov).join(" ");
+};
+addEventListener("keydown", (e) => {
+  if (e.target.matches("input, select, textarea") || e.metaKey || e.ctrlKey || e.altKey) return;
+  if (e.key === "ArrowLeft") show(at - 1);
+  if (e.key === "ArrowRight") show(at + 1);
 });
 </script>
 </body>
