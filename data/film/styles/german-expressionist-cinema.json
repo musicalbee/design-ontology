@@ -1,0 +1,306 @@
+{
+  "$schema": "../../../schema/domains/film.schema.json",
+  "id": "german-expressionist-cinema",
+  "name": "German Expressionist cinema",
+  "aliases": [
+    "Caligarism",
+    "Expressionist film"
+  ],
+  "era_id": "silent-era",
+  "time_period": {
+    "start": 1920,
+    "end": 1927,
+    "label": "1920–1927"
+  },
+  "capture": [
+    "photochemical"
+  ],
+  "summary": "A studio cinema of painted sets, hard single-source light and distorted perspective. The frame shows the mind of the character, not the street. Black-and-white prints are tinted by scene.",
+  "philosophy": {
+    "core_thesis": "The set, the light and the body show inner fear, so the picture is built as a state of mind and not recorded as a place.",
+    "design_principles": [
+      "Light each scene with one hard key at a key-to-fill ratio of 8:1 or more, and paint or cast shadows onto walls and floor so that the shadow is a shape in the set.",
+      "Build sets with no true right angle: lean walls, doors and stairs 5° to 20° off the vertical, and make doorways taper by 10% to 30%.",
+      "Frame in 1.33:1 and place the figure in the lower third, with 50% or more of the frame left to a looming shadow or a steep diagonal.",
+      "Cut at an average shot length of 6 to 10 s and hold a silhouette or a stare for 4 s or more before the cut.",
+      "Open and close scenes with an iris of 0.5 to 1 s, and use a slow dissolve of 1 to 2 s between a place and a memory.",
+      "Tint the print by scene: amber for lit interiors, blue for night, green for the uncanny, and keep each tint for the whole scene.",
+      "Direct the actor in held, stylised gesture: 1 to 2 s to a pose, hands and eyes wide, no naturalistic business."
+    ],
+    "anti_patterns": [
+      "Location photography of real streets and rooms",
+      "Even, soft studio light with fill above 3:1",
+      "Straight vertical walls and a level horizon",
+      "Naturalistic acting at everyday speed",
+      "Rapid cutting under 3 s average shot length",
+      "A single neutral grey grade over the whole film",
+      "Handheld camera shake"
+    ]
+  },
+  "vectors": {
+    "camera_mobility": 2,
+    "cutting_rate": 2,
+    "staging": 5,
+    "grade_stylisation": 4,
+    "frame_width": 2
+  },
+  "composition": {
+    "framing": "A 1.33:1 frame, tight on the figure, with the set pressing in from the edges.",
+    "staging_in_depth": "Painted perspective stacks flats at 3 to 5 depths; a shadow or a stair leads the eye from the lit figure to a dark point in the upper third.",
+    "subject_placement": "Low in the frame, off centre by 15% to 25%, with the looming shape above and behind the figure."
+  },
+  "camera_and_movement": {
+    "movement": "Mostly locked-off. Where the camera moves, it moves with a purpose: a slow tracking shot toward a face or a dolly through a set.",
+    "support": "Heavy tripod; studio dolly for the rare move",
+    "camera_height": "0.8 to 1.7 m; low angles under 1 m for a looming figure",
+    "move_speed": "0.2 to 0.5 m/s for a track or push-in"
+  },
+  "lens_and_format": {
+    "aspect_ratio": "1.33:1 (silent aperture)",
+    "frame_rate": "16 to 20 fps capture by hand crank; project at 18 to 20 fps",
+    "shutter_angle": "About 170° (1/40 s at 18 fps)",
+    "focal_length": "35mm to 50mm (35mm format)",
+    "aperture": "f/4 to f/5.6 for deep focus on the set",
+    "resolution": "35mm negative; scan at 2K or 4K",
+    "focus": "Deep focus on the whole set; a soft iris vignette closes on the face.",
+    "equipment": [
+      "35mm hand-crank camera",
+      "studio arc lamps",
+      "iris mask"
+    ]
+  },
+  "light": {
+    "quality": "Hard, from a single arc or tungsten source, with deep cast shadows and painted shadow shapes.",
+    "direction": "Low side or from below on the face; backlight to throw a long shadow up the wall.",
+    "key_to_fill_ratio": "8:1 or more (3 stops)",
+    "colour_temperature": "Tinted print: amber near 2800K, blue near 8000K for night",
+    "source": "Arc lamps and tungsten on a studio stage"
+  },
+  "colour_and_grade": {
+    "treatment": "Black and white with a flat tint for each scene. Blacks stay deep, and the highlights carry the tint.",
+    "palette": [
+      {
+        "name": "Ink black",
+        "hex": "#0B0B0F",
+        "role": "shadow and set"
+      },
+      {
+        "name": "Night blue",
+        "hex": "#1F3A5F",
+        "role": "night and fear tint"
+      },
+      {
+        "name": "Amber",
+        "hex": "#C98A2B",
+        "role": "lit interior tint"
+      },
+      {
+        "name": "Bone white",
+        "hex": "#E8DFC8",
+        "role": "face and highlights"
+      },
+      {
+        "name": "Sickly green",
+        "hex": "#5E7A4A",
+        "role": "uncanny scene tint"
+      }
+    ],
+    "grade_recipe": [
+      "Convert to black and white and set the black point at 2% and the white point at 94%.",
+      "Add a hard S-curve of +35% contrast around mid grey.",
+      "Tint by scene with a single-colour wash at 40% to 60% strength: amber hue 35°, blue hue 215°, green hue 100°.",
+      "Add film grain at 12% and a 3% to 5% flicker in exposure from frame to frame.",
+      "Add a corner iris vignette of −25% and keep it for the iris transitions."
+    ],
+    "texture": "Coarse silver grain, amount 12%, with gate weave of 0.5%"
+  },
+  "editing_and_rhythm": {
+    "average_shot_length": "6 to 10 s (silent films of the 1920s; check Cinemetrics for each title)",
+    "shot_length_range": "2 s for a shock cut to 25 s for a held stare",
+    "cutting_logic": "Cut on the entrance of a shadow or on a gaze. Each scene builds one mood, and the cut serves the scene.",
+    "transitions": "Iris in and out (0.5 to 1 s), slow dissolve (1 to 2 s), double exposure for a ghost or a dream.",
+    "runtime": "60 to 110 min in five or six acts"
+  },
+  "sound": {
+    "approach": "The film is silent. A live orchestra or a piano supplies the sound at the screening.",
+    "dialogue": "Intertitle cards, 2 to 4 s each, 6 to 12 words.",
+    "music": "Orchestral score with drones and a leitmotif for the monster; modern releases use a new score.",
+    "loudness": "None: silent. A new score for a release sits at −23 LUFS."
+  },
+  "titles_and_graphics": {
+    "treatment": "Intertitles in jagged, hand-drawn letters that lean and spike like the set.",
+    "type": "Display face with angular, uneven strokes; white on black; 5% to 10% of letters rotated 3° to 8°."
+  },
+  "shot_primer": {
+    "opening": "Open with an iris on a distorted street or a stair; hold the establishing shot for 4 to 6 s.",
+    "shot_list": [
+      {
+        "shot": "Establishing set",
+        "size": "wide",
+        "lens": "35mm",
+        "movement": "locked off",
+        "seconds": 5
+      },
+      {
+        "shot": "Figure enters",
+        "size": "medium",
+        "lens": "50mm",
+        "movement": "slow push-in",
+        "seconds": 7
+      },
+      {
+        "shot": "Shadow on the wall",
+        "size": "wide",
+        "lens": "35mm",
+        "movement": "locked off",
+        "seconds": 4
+      },
+      {
+        "shot": "Stare",
+        "size": "close-up",
+        "lens": "50mm",
+        "movement": "locked off, iris closing",
+        "seconds": 6
+      },
+      {
+        "shot": "Intertitle card",
+        "size": "card",
+        "lens": "n/a",
+        "movement": "none",
+        "seconds": 3
+      },
+      {
+        "shot": "Chase over roofs",
+        "size": "wide",
+        "lens": "35mm",
+        "movement": "tracking 0.4 m/s",
+        "seconds": 8
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1920s German Expressionist silent film",
+      "black and white with amber tint",
+      "painted sets with skewed perspective",
+      "hard single-source light",
+      "long shadow on the wall",
+      "1.33:1 frame",
+      "iris-in transition",
+      "jagged intertitle lettering",
+      "stylised acting with wide eyes",
+      "35mm film grain",
+      "deep shadow at 8:1"
+    ],
+    "negative": [
+      "naturalistic location",
+      "soft even light",
+      "modern colour grade",
+      "straight right-angle walls",
+      "handheld shake",
+      "fast cuts",
+      "spoken dialogue"
+    ],
+    "canonical_works": [
+      {
+        "work": "The Cabinet of Dr. Caligari",
+        "maker": "Robert Wiene",
+        "year": 1920
+      },
+      {
+        "work": "Nosferatu",
+        "maker": "F. W. Murnau",
+        "year": 1922
+      },
+      {
+        "work": "The Last Laugh",
+        "maker": "F. W. Murnau",
+        "year": 1924
+      },
+      {
+        "work": "Metropolis",
+        "maker": "Fritz Lang",
+        "year": 1927
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Dread and unease: the viewer is inside a mind that the world is bending.",
+    "keywords": [
+      "uncanny",
+      "gothic",
+      "anxious",
+      "theatrical",
+      "shadowed"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "magician"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "expressionist film",
+      "caligari",
+      "nosferatu",
+      "silent horror",
+      "german expressionism",
+      "painted sets",
+      "shadow film noir silent",
+      "uncanny silent look"
+    ],
+    "use_cases": [
+      "horror and thriller titles and trailers",
+      "music video with a gothic set",
+      "title sequences",
+      "video prompts for a haunted or dream scene"
+    ],
+    "avoid_when": [
+      "The brief needs a believable, real place or a documentary tone.",
+      "The piece must hold the viewer for under 10 s on a feed with a fast cut."
+    ],
+    "modifiers": [
+      {
+        "request": "less theatrical",
+        "toward": "french-new-wave",
+        "how": "Keep the hard light and the black and white; leave the studio for a real street, drop the iris and the tint, and shoot handheld at 24 fps."
+      },
+      {
+        "request": "more rhythm",
+        "toward": "soviet-montage",
+        "how": "Keep the 1.33:1 frame and the hard light; cut to an average of 2 to 3 s and join shots by graphic match."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q160476: German Expressionism",
+      "url": "https://www.wikidata.org/wiki/Q160476"
+    },
+    {
+      "title": "Wikidata Q153886: The Cabinet of Dr. Caligari",
+      "url": "https://www.wikidata.org/wiki/Q153886"
+    },
+    {
+      "title": "Wikidata Q151895: Nosferatu",
+      "url": "https://www.wikidata.org/wiki/Q151895"
+    },
+    {
+      "title": "Internet Archive: Der letzte Mann / The Last Laugh (1924), public domain mark",
+      "url": "https://archive.org/details/der-letzte-mann-the-last-laugh-1924-by-f.-w.-murnau"
+    },
+    {
+      "title": "Lotte Eisner, The Haunted Screen (University of California Press, 1969)"
+    },
+    {
+      "title": "Barry Salt, Film Style and Technology: History and Analysis (Starword, 3rd ed., 2009)"
+    }
+  ],
+  "domain": "film"
+}

@@ -1,0 +1,505 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-ontology.dev/schema/domains/film.schema.json",
+  "title": "Film and video style",
+  "description": "One film or video style: a set of rules for a camera, a cut and a grade. It shares identity, philosophy, lineage, emotion and agent routing with every other domain, and has its own vectors and facets. Photography owns the still frame; film owns time: movement, shot length, cutting, sound and frame rate. Numbers are exact: mm, fps, shutter angle in degrees, seconds, kelvin, LUFS, ratios.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "domain",
+    "name",
+    "aliases",
+    "era_id",
+    "time_period",
+    "capture",
+    "summary",
+    "philosophy",
+    "vectors",
+    "composition",
+    "camera_and_movement",
+    "lens_and_format",
+    "light",
+    "colour_and_grade",
+    "editing_and_rhythm",
+    "sound",
+    "titles_and_graphics",
+    "shot_primer",
+    "prompt_primer",
+    "lineage",
+    "emotion",
+    "agent",
+    "sources"
+  ],
+  "$defs": {
+    "spec": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 160,
+      "description": "A short value with its unit, for example \"24 fps\" or \"180° (1/48 s)\"."
+    }
+  },
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "$ref": "../core.schema.json#/$defs/slug"
+    },
+    "domain": {
+      "const": "film"
+    },
+    "name": {
+      "$ref": "../core.schema.json#/$defs/shortText"
+    },
+    "aliases": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "../core.schema.json#/$defs/shortText"
+      }
+    },
+    "era_id": {
+      "$ref": "../core.schema.json#/$defs/slug",
+      "description": "An id from data/film/eras/."
+    },
+    "time_period": {
+      "$ref": "../core.schema.json#/$defs/time_period"
+    },
+    "capture": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "photochemical",
+          "analogue-video",
+          "digital-cinema",
+          "phone",
+          "action-camera",
+          "drone"
+        ]
+      },
+      "description": "The device class that made the look. A style can move between devices."
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 40,
+      "maxLength": 320
+    },
+    "philosophy": {
+      "$ref": "../core.schema.json#/$defs/philosophy"
+    },
+    "vectors": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "camera_mobility",
+        "cutting_rate",
+        "staging",
+        "grade_stylisation",
+        "frame_width"
+      ],
+      "properties": {
+        "camera_mobility": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = locked off, tripod. 5 = handheld, gimbal or free flight."
+        },
+        "cutting_rate": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = long take, average shot length over 20 s. 5 = rapid montage, average shot length under 2 s."
+        },
+        "staging": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = found, unplanned. 5 = fully constructed."
+        },
+        "grade_stylisation": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = natural, neutral colour. 5 = heavily stylised colour."
+        },
+        "frame_width": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = vertical 9:16. 2 = 4:3 or 1.37:1. 3 = 1.66:1 to 1.85:1. 4 = 16:9. 5 = anamorphic 2.39:1 or wider."
+        }
+      }
+    },
+    "composition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "framing",
+        "staging_in_depth",
+        "subject_placement"
+      ],
+      "properties": {
+        "framing": {
+          "$ref": "../core.schema.json#/$defs/sentence"
+        },
+        "staging_in_depth": {
+          "$ref": "../core.schema.json#/$defs/sentence"
+        },
+        "subject_placement": {
+          "$ref": "../core.schema.json#/$defs/sentence"
+        },
+        "principles": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/slug"
+          },
+          "description": "Ids of shared composition principles in data/principles/."
+        }
+      }
+    },
+    "camera_and_movement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "movement",
+        "support",
+        "camera_height",
+        "move_speed"
+      ],
+      "properties": {
+        "movement": {
+          "$ref": "../core.schema.json#/$defs/sentence"
+        },
+        "support": {
+          "$ref": "../core.schema.json#/$defs/shortText"
+        },
+        "camera_height": {
+          "$ref": "#/$defs/spec"
+        },
+        "move_speed": {
+          "$ref": "#/$defs/spec",
+          "description": "How fast the camera moves, with a unit: m/s, degrees per second or seconds for a move."
+        }
+      }
+    },
+    "lens_and_format": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "aspect_ratio",
+        "frame_rate",
+        "shutter_angle",
+        "focal_length",
+        "aperture",
+        "resolution",
+        "focus"
+      ],
+      "properties": {
+        "aspect_ratio": {
+          "$ref": "#/$defs/spec",
+          "description": "For example \"2.39:1\" or \"9:16 (1080 × 1920 px)\"."
+        },
+        "frame_rate": {
+          "$ref": "#/$defs/spec",
+          "description": "Frames per second, for capture and for playback if they differ."
+        },
+        "shutter_angle": {
+          "$ref": "#/$defs/spec",
+          "description": "Degrees, with the shutter speed that results at the frame rate."
+        },
+        "focal_length": {
+          "$ref": "#/$defs/spec",
+          "description": "Millimetres. Give the 35mm-format equivalent when the sensor differs."
+        },
+        "aperture": {
+          "$ref": "#/$defs/spec"
+        },
+        "resolution": {
+          "$ref": "#/$defs/spec"
+        },
+        "focus": {
+          "$ref": "../core.schema.json#/$defs/sentence"
+        },
+        "equipment": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 6,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/shortText"
+          }
+        }
+      }
+    },
+    "light": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "quality",
+        "direction",
+        "key_to_fill_ratio",
+        "colour_temperature"
+      ],
+      "properties": {
+        "quality": {
+          "$ref": "../core.schema.json#/$defs/sentence"
+        },
+        "direction": {
+          "$ref": "../core.schema.json#/$defs/sentence"
+        },
+        "key_to_fill_ratio": {
+          "$ref": "#/$defs/spec",
+          "description": "A ratio such as \"3:1 (1.6 stops)\"."
+        },
+        "colour_temperature": {
+          "$ref": "#/$defs/spec",
+          "description": "Kelvin, for the light on the subject."
+        },
+        "source": {
+          "$ref": "../core.schema.json#/$defs/shortText"
+        }
+      }
+    },
+    "colour_and_grade": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "treatment",
+        "palette",
+        "grade_recipe",
+        "texture"
+      ],
+      "properties": {
+        "treatment": {
+          "$ref": "../core.schema.json#/$defs/sentence"
+        },
+        "palette": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "hex",
+              "role"
+            ],
+            "properties": {
+              "name": {
+                "$ref": "../core.schema.json#/$defs/shortText"
+              },
+              "hex": {
+                "type": "string",
+                "pattern": "^#[0-9A-F]{6}$"
+              },
+              "role": {
+                "$ref": "../core.schema.json#/$defs/shortText"
+              }
+            }
+          }
+        },
+        "grade_recipe": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 10,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/sentence"
+          },
+          "description": "Ordered steps with numbers: black point, white point, curve, saturation, hue shifts, LUT or tint, grain, halation."
+        },
+        "texture": {
+          "$ref": "#/$defs/spec",
+          "description": "Grain, tape noise or sensor noise, with an amount."
+        }
+      }
+    },
+    "editing_and_rhythm": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "average_shot_length",
+        "shot_length_range",
+        "cutting_logic",
+        "transitions"
+      ],
+      "properties": {
+        "average_shot_length": {
+          "$ref": "#/$defs/spec",
+          "description": "Seconds. Cite Cinemetrics or a study when the figure comes from one."
+        },
+        "shot_length_range": {
+          "$ref": "#/$defs/spec"
+        },
+        "cutting_logic": {
+          "$ref": "../core.schema.json#/$defs/sentence"
+        },
+        "transitions": {
+          "$ref": "../core.schema.json#/$defs/sentence"
+        },
+        "runtime": {
+          "$ref": "#/$defs/spec",
+          "description": "Typical length of one piece, in seconds or minutes."
+        }
+      }
+    },
+    "sound": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "approach",
+        "dialogue",
+        "music",
+        "loudness"
+      ],
+      "properties": {
+        "approach": {
+          "$ref": "../core.schema.json#/$defs/sentence"
+        },
+        "dialogue": {
+          "$ref": "../core.schema.json#/$defs/sentence"
+        },
+        "music": {
+          "$ref": "../core.schema.json#/$defs/sentence"
+        },
+        "loudness": {
+          "$ref": "#/$defs/spec",
+          "description": "Target level with a unit, for example \"−14 LUFS integrated, −1 dBTP peak\", or \"none: silent\"."
+        }
+      }
+    },
+    "titles_and_graphics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "treatment",
+        "type"
+      ],
+      "properties": {
+        "treatment": {
+          "$ref": "../core.schema.json#/$defs/sentence"
+        },
+        "type": {
+          "$ref": "../core.schema.json#/$defs/sentence"
+        }
+      }
+    },
+    "shot_primer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "opening",
+        "shot_list"
+      ],
+      "properties": {
+        "opening": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "The first 3 seconds or the first shot: what it shows and how long it lasts."
+        },
+        "shot_list": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "shot",
+              "size",
+              "lens",
+              "movement",
+              "seconds"
+            ],
+            "properties": {
+              "shot": {
+                "$ref": "../core.schema.json#/$defs/shortText"
+              },
+              "size": {
+                "$ref": "../core.schema.json#/$defs/shortText",
+                "description": "Shot size: wide, medium, close-up and so on."
+              },
+              "lens": {
+                "$ref": "../core.schema.json#/$defs/shortText",
+                "description": "Focal length in mm (35mm-format equivalent) or field of view."
+              },
+              "movement": {
+                "$ref": "../core.schema.json#/$defs/shortText"
+              },
+              "seconds": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 600,
+                "description": "Duration of the shot in seconds."
+              }
+            }
+          },
+          "description": "A short list of shots with numbers, in order. An agent can use it as a shot list or an edit plan."
+        }
+      }
+    },
+    "prompt_primer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "positive",
+        "negative",
+        "canonical_works"
+      ],
+      "properties": {
+        "positive": {
+          "type": "array",
+          "minItems": 5,
+          "maxItems": 16,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/shortText"
+          }
+        },
+        "negative": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 12,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/shortText"
+          }
+        },
+        "canonical_works": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "work",
+              "maker",
+              "year"
+            ],
+            "properties": {
+              "work": {
+                "$ref": "../core.schema.json#/$defs/shortText"
+              },
+              "maker": {
+                "$ref": "../core.schema.json#/$defs/shortText",
+                "description": "A director, a cinematographer or a creator."
+              },
+              "year": {
+                "type": "integer",
+                "minimum": 1800,
+                "maximum": 2100
+              }
+            }
+          }
+        }
+      }
+    },
+    "lineage": {
+      "$ref": "../core.schema.json#/$defs/lineage"
+    },
+    "emotion": {
+      "$ref": "../core.schema.json#/$defs/emotion"
+    },
+    "agent": {
+      "$ref": "../core.schema.json#/$defs/agent"
+    },
+    "sources": {
+      "$ref": "../core.schema.json#/$defs/sources"
+    }
+  }
+}

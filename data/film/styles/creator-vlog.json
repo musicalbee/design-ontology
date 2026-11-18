@@ -1,0 +1,295 @@
+{
+  "$schema": "../../../schema/domains/film.schema.json",
+  "id": "creator-vlog",
+  "name": "Creator vlog",
+  "aliases": [
+    "YouTube vlog",
+    "Jump-cut vlog",
+    "Talking-head vlog"
+  ],
+  "era_id": "platform-video",
+  "time_period": {
+    "start": 2005,
+    "end": null,
+    "label": "2005–today"
+  },
+  "capture": [
+    "digital-cinema",
+    "phone"
+  ],
+  "summary": "A person talks to the lens in a room or on the move. Every pause is cut out, and a title, a sound or a cut-away lands every few seconds. The creator is the set, the brand and the grade.",
+  "philosophy": {
+    "core_thesis": "A direct address from one person, tightened by the jump cut, builds more trust than a produced film, so the creator's pace is the style.",
+    "design_principles": [
+      "Frame the face at arm's length, 0.4 to 0.7 m, with a 16mm to 24mm lens (35mm format), in 16:9 at 24 or 30 fps, 180° shutter.",
+      "Hook inside the first 5 to 10 s with the promise of the video, and show the payoff before 30 s.",
+      "Cut out each pause longer than 0.3 s; keep an average shot length of 3 to 5 s with a jump cut or a punch-in of 10% to 20%.",
+      "Add a cut-away or a b-roll shot of 1 to 3 s every 6 to 10 s, and a text or a sound effect on each change of topic.",
+      "Light the face with a soft key at 45° and 5600K, at a key-to-fill ratio of 2:1, with a window or a panel at 1 m.",
+      "Record the voice at 0.3 m with a lavalier or a shotgun, mix at −14 LUFS integrated, and sit the music bed 18 to 24 dB below the voice.",
+      "Grade for warm, clean skin: saturation +10%, a gentle S-curve, a white balance of 5300K to 5600K."
+    ],
+    "anti_patterns": [
+      "Long pauses and filler words left in",
+      "A tripod shot with a dead static frame for 60 s",
+      "A cinematic letterbox with a heavy teal grade",
+      "A voice recorded on the camera microphone at 3 m",
+      "A slow intro with a logo before the hook",
+      "Music louder than the voice",
+      "A script read from a teleprompter with no eye contact"
+    ]
+  },
+  "vectors": {
+    "camera_mobility": 4,
+    "cutting_rate": 4,
+    "staging": 2,
+    "grade_stylisation": 2,
+    "frame_width": 4
+  },
+  "composition": {
+    "framing": "A close medium shot in 16:9, the face at 35% to 50% of the frame height, a wide-angle edge that bends the room.",
+    "staging_in_depth": "The face at 0.5 m, the room at 1 to 3 m behind it; the background is a lived-in room, not a set.",
+    "subject_placement": "Eyes on the upper third line, centred or off centre by up to 15%; the lens is the second person in the room."
+  },
+  "camera_and_movement": {
+    "movement": "Handheld at arm's length or on a gimbal grip; the camera walks with the creator. Cut-aways are static or on a slow slider.",
+    "support": "Handheld, selfie grip, small gimbal",
+    "camera_height": "At the eye or slightly above, 1.5 to 1.8 m",
+    "move_speed": "Walking pace, 1.0 to 1.5 m/s; a punch-in of 10% to 20% in 0.2 s on the edit"
+  },
+  "lens_and_format": {
+    "aspect_ratio": "16:9 (1920 × 1080 or 3840 × 2160 px)",
+    "frame_rate": "24 or 30 fps",
+    "shutter_angle": "180° (1/48 s at 24 fps; 1/60 s at 30 fps)",
+    "focal_length": "16mm to 24mm (35mm format)",
+    "aperture": "f/2.0 to f/2.8",
+    "resolution": "4K capture, 1080p or 4K delivery",
+    "focus": "Face-tracking autofocus on the eye; the background falls off softly at f/2.0.",
+    "equipment": [
+      "compact vlog camera or phone",
+      "clip-on lavalier microphone",
+      "small LED panel"
+    ]
+  },
+  "light": {
+    "quality": "Soft: a window or an LED panel with a diffuser, and the room lamps as a warm practical.",
+    "direction": "Key from 45° to the side and slightly above the eye line; a lamp in the background for depth.",
+    "key_to_fill_ratio": "2:1 (1 stop)",
+    "colour_temperature": "5600K key; 3200K practical in the background",
+    "source": "Window, LED panel and room lamps"
+  },
+  "colour_and_grade": {
+    "treatment": "Clean, bright, warm skin. The grade is light and consistent from video to video, so the channel has one look.",
+    "palette": [
+      {
+        "name": "Warm skin",
+        "hex": "#D9A68A",
+        "role": "face"
+      },
+      {
+        "name": "Room cream",
+        "hex": "#E6D8C3",
+        "role": "walls and highlights"
+      },
+      {
+        "name": "Lamp amber",
+        "hex": "#E2A04B",
+        "role": "practical lights"
+      },
+      {
+        "name": "Soft shadow",
+        "hex": "#4A3F3A",
+        "role": "shadows"
+      },
+      {
+        "name": "Accent teal",
+        "hex": "#3C8D93",
+        "role": "channel colour for titles"
+      }
+    ],
+    "grade_recipe": [
+      "Set the black point at 3% and the white point at 97%; the image is bright and open.",
+      "Add a gentle S-curve of +10% contrast and keep skin at 60% to 75% luma.",
+      "Set white balance at 5300K to 5600K and nudge tint by +3 toward magenta for skin.",
+      "Raise saturation by +10% and lift the shadows by 4%.",
+      "Sharpen at 15%, add no grain and no vignette."
+    ],
+    "texture": "Clean digital image, noise under 3%"
+  },
+  "editing_and_rhythm": {
+    "average_shot_length": "3 to 5 s",
+    "shot_length_range": "0.5 s for a sound-effect cut to 12 s for a story beat",
+    "cutting_logic": "Remove each pause and breath; cut on the first word of the next phrase and punch in by 10% to 20% on a second angle.",
+    "transitions": "Hard jump cut; a whoosh sound with a 4-frame zoom for a topic change; no dissolve.",
+    "runtime": "8 to 15 min"
+  },
+  "sound": {
+    "approach": "The voice leads at all times. Add a sound effect on each text or topic change and a music bed that ducks under speech.",
+    "dialogue": "Direct address, 150 to 190 words per minute, in a casual register.",
+    "music": "A looped instrumental bed at 18 to 24 dB below the voice; a stronger cue for b-roll.",
+    "loudness": "−14 LUFS integrated, −1 dBTP true peak"
+  },
+  "titles_and_graphics": {
+    "treatment": "A big, simple caption on key words, a lower third for 1.5 to 2 s, and a hand-drawn arrow or an emoji as a joke.",
+    "type": "Bold sans-serif at 5% to 8% of frame height, white with a 2 px dark outline; one accent colour."
+  },
+  "shot_primer": {
+    "opening": "Open on the face, mid-sentence, with the hook line in the first 5 s and no logo.",
+    "shot_list": [
+      {
+        "shot": "Hook to camera",
+        "size": "medium close-up",
+        "lens": "16mm",
+        "movement": "handheld at arm's length",
+        "seconds": 5
+      },
+      {
+        "shot": "Punch-in second angle",
+        "size": "close-up",
+        "lens": "24mm",
+        "movement": "handheld, 15% punch-in",
+        "seconds": 4
+      },
+      {
+        "shot": "B-roll of the place",
+        "size": "wide",
+        "lens": "24mm",
+        "movement": "gimbal walk 1.2 m/s",
+        "seconds": 3
+      },
+      {
+        "shot": "Detail cut-away",
+        "size": "close-up",
+        "lens": "35mm",
+        "movement": "static",
+        "seconds": 2
+      },
+      {
+        "shot": "Story beat to camera",
+        "size": "medium close-up",
+        "lens": "16mm",
+        "movement": "handheld",
+        "seconds": 8
+      },
+      {
+        "shot": "Outro to camera",
+        "size": "medium close-up",
+        "lens": "16mm",
+        "movement": "handheld",
+        "seconds": 6
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "YouTube vlog",
+      "handheld selfie shot at arm's length",
+      "wide-angle 16mm lens",
+      "jump cuts",
+      "bright natural window light",
+      "warm skin tones",
+      "bold captions on key words",
+      "b-roll cutaways",
+      "casual direct address",
+      "16:9 4K"
+    ],
+    "negative": [
+      "tripod static shot",
+      "cinematic letterbox",
+      "teal and orange grade",
+      "film grain",
+      "long pauses",
+      "orchestral score",
+      "camera microphone hiss"
+    ],
+    "canonical_works": [
+      {
+        "work": "Make It Count (Nike)",
+        "maker": "Casey Neistat and Max Joseph",
+        "year": 2012
+      },
+      {
+        "work": "Daily vlog series",
+        "maker": "Casey Neistat",
+        "year": 2015
+      },
+      {
+        "work": "Jump-cut vlogs",
+        "maker": "Emma Chamberlain",
+        "year": 2017
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "vertical-short-form",
+      "camcorder-revival"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Closeness and a sense of company: the viewer feels a friend is talking, fast and honest.",
+    "keywords": [
+      "personal",
+      "fast",
+      "casual",
+      "warm",
+      "direct"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "vlog",
+      "youtube vlog",
+      "jump cut",
+      "talking head",
+      "creator video",
+      "day in the life",
+      "selfie video",
+      "vlog style"
+    ],
+    "use_cases": [
+      "creator and influencer channels",
+      "brand explainers with a person",
+      "product reviews and unboxing",
+      "video prompts for a day-in-the-life clip"
+    ],
+    "avoid_when": [
+      "The brief needs a cinematic mood with no direct address.",
+      "The speaker has no personality to carry 8 to 15 min."
+    ],
+    "modifiers": [
+      {
+        "request": "shorter and louder",
+        "toward": "vertical-short-form",
+        "how": "Keep the direct address and the jump cut; move to 9:16, cut at 1.5 to 3 s and burn the captions in."
+      },
+      {
+        "request": "more raw",
+        "toward": "camcorder-revival",
+        "how": "Keep the handheld address; move to 4:3 tape look at 25 or 30 fps with on-camera audio and a date stamp."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q674926: vlog",
+      "url": "https://www.wikidata.org/wiki/Q674926"
+    },
+    {
+      "title": "Cinemetrics (Yuri Tsivian, University of Chicago): shot length statistics",
+      "url": "https://cinemetrics.uchicago.edu/"
+    },
+    {
+      "title": "Loudness reference: ITU-R BS.1770 and EBU R128 (levels in LUFS)",
+      "url": "https://tech.ebu.ch/loudness"
+    }
+  ],
+  "domain": "film"
+}

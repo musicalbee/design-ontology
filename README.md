@@ -205,6 +205,22 @@ flowchart LR
     de_stijl_painting["De Stijl painting"]
     abstract_expressionism["Abstract Expressionism"]
   end
+  subgraph film_silent_era["Film & Video · The silent era · 1895–1929"]
+    german_expressionist_cinema["German Expressionist cinema"]
+    soviet_montage["Soviet montage"]
+  end
+  subgraph film_new_waves["Film & Video · Portable cameras and the new waves · 1958–1975"]
+    french_new_wave["French New Wave"]
+  end
+  subgraph film_digital_cinema["Film & Video · Lightweight digital and the manifesto · 1995–2009"]
+    dogme_95["Dogme 95"]
+  end
+  subgraph film_platform_video["Film & Video · Platform and creator video · 2005–today"]
+    creator_vlog["Creator vlog"]
+    vertical_short_form["Vertical short-form"]
+    cinematic_fpv["Cinematic FPV"]
+    camcorder_revival["Camcorder revival"]
+  end
   abstract_expressionism <-. echoes .-> brutalist_architecture
   bauhaus <-. echoes .-> bauhaus_architecture
   bauhaus <-. echoes .-> bauhaus_interior
@@ -212,8 +228,11 @@ flowchart LR
   bauhaus <-. echoes .-> international_style_architecture
   bauhaus_interior <-. echoes .-> international_style_architecture
   brutalist_architecture <-. echoes .-> constructivism_web
+  brutalist_architecture <-. echoes .-> dogme_95
   brutalist_architecture <-. echoes .-> neo_brutalism_ui
   brutalist_architecture <-. echoes .-> new_topographics
+  camcorder_revival <-. echoes .-> grunge_editorial
+  camcorder_revival <-. echoes .-> y2k_aesthetic
   de_stijl_painting <-. echoes .-> international_style_architecture
   de_stijl_painting <-. echoes .-> swiss_international
   de_stijl_web <-. echoes .-> international_style_architecture
@@ -246,6 +265,7 @@ flowchart LR
   cubism_painting --> de_stijl_painting
   memphis_interior --> dopamine_decor
   swiss_international --> flat_design
+  soviet_montage --> french_new_wave
   y2k_aesthetic --> frutiger_aero
   frutiger_aero --> glassmorphism
   international_style_architecture --> high_tech_architecture
@@ -268,6 +288,7 @@ flowchart LR
   straight_photography --> street_photography
   bauhaus --> swiss_international
   y2k_aesthetic --> vaporwave
+  creator_vlog --> vertical_short_form
   new_colour --> y2k_digicam
   abstract_expressionism -. rejects .-> de_stijl_painting
   art_deco_web -. rejects .-> art_nouveau_web
@@ -277,6 +298,7 @@ flowchart LR
   de_stijl_web -. rejects .-> art_nouveau_web
   deconstructivist_architecture -. rejects .-> international_style_architecture
   deconstructivist_architecture -. rejects .-> postmodern_architecture
+  dogme_95 -. rejects .-> french_new_wave
   dopamine_decor -. rejects .-> japandi_interior
   dopamine_decor -. rejects .-> scandinavian_interior
   flat_design -. rejects .-> skeuomorphism
@@ -324,11 +346,9 @@ flowchart LR
   linkStyle 26 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 27 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 28 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 64 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 65 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 66 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 67 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 68 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 29 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 30 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 31 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 69 stroke:#E5484D,stroke-width:1.5px
   linkStyle 70 stroke:#E5484D,stroke-width:1.5px
   linkStyle 71 stroke:#E5484D,stroke-width:1.5px
@@ -350,6 +370,12 @@ flowchart LR
   linkStyle 87 stroke:#E5484D,stroke-width:1.5px
   linkStyle 88 stroke:#E5484D,stroke-width:1.5px
   linkStyle 89 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 90 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 91 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 92 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 93 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 94 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 95 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 
