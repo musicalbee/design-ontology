@@ -98,10 +98,11 @@
   /* fold: the first screen below the shared header. It stands on --ground, the ground of the style. */
   .fold { min-height: calc(100svh - 56px); display: grid; grid-template-rows: auto minmax(0, 1fr) auto; position: relative; isolation: isolate; overflow: clip;
     background: var(--ground, var(--color-bg)); color: var(--color-on-bg); border-bottom: var(--border-width) solid var(--color-border); }
-  @media (max-width: 899px) {
-    .fold.ground { background: linear-gradient(to bottom, color-mix(in oklab, var(--color-bg) 90%, transparent) 0 52%, transparent 78%), var(--ground, var(--color-bg)); }
-    .fold.ground[data-ground="swirl"]::after { background: linear-gradient(to bottom, color-mix(in oklab, var(--color-bg) 92%, transparent) 0 55%, transparent 80%); }
-  }
+  /* The copy stands on a backing in the field colour, not on the ground (class ground-copy in tokens.css). */
+  .fold .hero .copy > :not(.wearing, .cta), .fold .hero .cta .action.quiet, .explore .muted { width: fit-content; position: relative; z-index: 1; }
+  .stage[data-align="center"] .fold .hero .copy > * { margin-inline: auto; }
+  .fold .action.quiet.ground-copy { background: var(--color-bg); box-shadow: 0 0 1.25rem 1rem var(--color-bg); }
+  @media (min-width: 900px) { .stage[data-hero="poster"] .fold .copy .ground-copy { background: none; box-shadow: none; } }
   .fold > * { width: 100%; }
   .fold > .hero, .fold > .hero > .wrap { display: grid; }
   .fold .hero .grid { align-content: center; }
@@ -118,7 +119,8 @@
   .stage .fold section.hero { padding-block: var(--gap); }
   .stage .fold h1 { font-size: calc(clamp(2.4rem, min(6.4vw, 8.5svh), 6rem) * var(--h1-scale, 1)); }
   .fold .hero .copy { gap: var(--gap); }
-  @media (max-height: 1000px) and (min-width: 900px) { .fold .hero .copy > .muted { display: none; } }
+  @media (max-height: 1000px) and (min-width: 900px) { .fold .hero .copy { gap: calc(var(--gap) * .6); } .fold .hero .copy > .muted { font-size: .9em; }
+    .stage[data-hero="stacked"] .fold h1 { max-width: 20ch; } .stage[data-hero="poster"] .fold .hero .copy { max-width: min(42rem, 62%); } }
   .stage[data-hero="stacked"] .fold h1 { font-size: calc(clamp(2.4rem, min(6vw, 6.8svh), 5rem) * var(--h1-scale, 1)); }
   .stage[data-hero="split"] .fold h1 { font-size: calc(clamp(2.4rem, min(5.2vw, 7.6svh), 5.4rem) * var(--h1-scale, 1)); }
   .fold .copy > *, .fold figure { animation: rise .7s cubic-bezier(.2,.7,.2,1) both; }
@@ -130,7 +132,7 @@
   .explore .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; }
   .explore .muted { margin-right: .5rem; }
   .explore a { display: inline-flex; align-items: baseline; gap: .45em; padding: .45em .95em; font-size: .92rem; text-decoration: none; color: var(--color-on-surface);
-    background: color-mix(in oklab, var(--color-surface) 82%, transparent); border: var(--border-width) solid var(--color-border);
+    background: var(--color-surface); border: var(--border-width) solid var(--color-border);
     border-radius: min(var(--border-radius), 999px); -webkit-backdrop-filter: var(--backdrop-filter); backdrop-filter: var(--backdrop-filter);
     transition: translate .2s, background .2s; }
   .explore a b { font-family: var(--font-display); font-weight: var(--display-weight); color: var(--color-link-on-surface); font-size: .8em; }
@@ -259,12 +261,12 @@
   <section class="hero" id="top"><div class="wrap"><div class="grid">
     <div class="copy">
       <span class="surface wearing"><span class="dot"></span><span>This page wears <b id="h-name"></b>, <span id="h-period"></span></span></span>
-      <h1>Grow your taste, one style at a time.</h1>
-      <p class="lede" id="h-thesis"></p>
-      <p class="muted">The words on this page stay the same in each style. The type, the colour, the icons and the pictures change.</p>
+      <h1 class="ground-copy">Grow your taste, one style at a time.</h1>
+      <p class="lede ground-copy" id="h-thesis"></p>
+      <p class="muted ground-copy">The words on this page stay the same in each style. The type, the colour, the icons and the pictures change.</p>
       <div class="cta">
         <a class="action" href="#install"><svg class="icon"><use href="#bolt"/></svg>Get this style</a>
-        <button class="action quiet" id="h-next">Show the next style</button>
+        <button class="action quiet ground-copy" id="h-next">Show the next style</button>
       </div>
     </div>
     <figure>
@@ -272,7 +274,7 @@
     </figure>
   </div></div></section>
   <nav class="explore" aria-label="Explore the style"><div class="wrap">
-    <span class="small muted">Explore the style</span>
+    <span class="small muted ground-copy">Explore the style</span>
     <a href="#rules"><b>01</b>Rules</a><a href="#type"><b>02</b>Type</a><a href="#colour"><b>03</b>Colour</a>
     <a href="#icons"><b>04</b>Icons</a><a href="#pack"><b>05</b>Pack</a><a href="#lineage"><b>06</b>Lineage</a>
     <a class="down" href="#facts" aria-label="Scroll to the facts"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v15M6 13l6 6 6-6"/></svg></a>

@@ -216,7 +216,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 - **Weights:** display 700, subhead 700, body 400, bold in text 700, labels and buttons 400. The style uses 2 weights (400, 700) and no other. The display is 300 heavier than the body. The accent is case and tracking: an upper-case label is the accent, so the weights stay few.
 - **Body type:** 16px, leading 1.5.
 - **Page:** hero stacked, left aligned, compact density, accent tilt 0°.
-- **Ground:** scanlines. A terminal is a phosphor screen: scan lines, a green glow and a dark bezel. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. Keep the rest of the page on `--color-bg`.
+- **Ground:** scanlines. A terminal is a phosphor screen: scan lines, a green glow and a dark bezel. Put the class `ground` on the first screen of the page; it takes `--ground`, a stack of gradients built from the colour tokens. The ground can run behind the copy, so put the class `ground-copy` on each text block of that screen: the block gets `--color-bg` and a soft edge. Keep the rest of the page on `--color-bg`.
 - **Text colour:** `--color-text` is for the main reading field only. On each field, use its token: `--color-on-bg`, `--color-on-surface`, `--color-on-primary`, `--color-on-accent`.
 
 ### How to choose an icon pack

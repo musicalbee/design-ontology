@@ -300,6 +300,12 @@ ${sel} :where(.ground) {
   background: var(--ground, var(--color-bg));
   color: var(--color-on-bg);
 }
+${sel} :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
 ${sel} :where(.action) {
   padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
   background: var(--color-primary);

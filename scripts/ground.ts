@@ -2,7 +2,11 @@
  * The ground of a style: the field behind the first screen of a page.
  * Each kind is a stack of CSS gradients that reads the colour tokens of the style, so one recipe
  * gives a different ground for each palette. The compiler writes the result as the --ground token.
- * A ground keeps the left half and the top quarter quiet: the headline and the lede sit there.
+ * A ground does not keep any area quiet: shapes and textures can run behind the copy.
+ * The copy is legible because it stands on a backing, not on the ground. Put the class `ground-copy`
+ * on each text block of the first screen: it gives the block the field colour (--color-bg) and a soft
+ * edge. The compiler checks --color-on-bg and the muted text against --color-bg (4.5:1), so that check
+ * also covers the copy on a ground.
  */
 import { contrast, flat } from "./pack.js";
 
