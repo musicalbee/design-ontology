@@ -125,7 +125,8 @@
         "framing",
         "viewpoint",
         "geometry",
-        "subject_placement"
+        "subject_placement",
+        "principles"
       ],
       "properties": {
         "framing": {
@@ -142,12 +143,26 @@
         },
         "principles": {
           "type": "array",
-          "uniqueItems": true,
+          "minItems": 3,
+          "maxItems": 8,
           "items": {
-            "$ref": "../core.schema.json#/$defs/slug"
-          },
-          "minItems": 1,
-          "description": "Ids of shared composition principles in data/principles/."
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "principle",
+              "rule"
+            ],
+            "properties": {
+              "principle": {
+                "$ref": "../core.schema.json#/$defs/slug",
+                "description": "An id from data/principles/ (issue #7)."
+              },
+              "rule": {
+                "$ref": "../core.schema.json#/$defs/sentence",
+                "description": "How this style applies the principle, with its own number."
+              }
+            }
+          }
         }
       }
     },

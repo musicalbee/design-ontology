@@ -1,0 +1,280 @@
+{
+  "$schema": "../../../schema/domains/architecture.schema.json",
+  "id": "baroque-architecture",
+  "domain": "architecture",
+  "name": "Baroque",
+  "aliases": [
+    "Roman Baroque",
+    "High Baroque",
+    "Austrian Baroque"
+  ],
+  "era_id": "early-modern",
+  "time_period": {
+    "start": 1600,
+    "end": 1750,
+    "label": "17th–mid 18th century"
+  },
+  "building_types": [
+    "religious",
+    "civic",
+    "residential"
+  ],
+  "summary": "Classical orders bent into curves: oval plans, convex and concave fronts, doubled columns and light that drops from hidden windows. Bernini, Borromini and the court architects built it as theatre to move the viewer.",
+  "philosophy": {
+    "core_thesis": "Architecture should move the viewer: curve, depth, light and ornament make one dramatic effect, in the service of church and crown.",
+    "design_principles": [
+      "Replace the circle and the square by the oval, and the straight front by a convex or concave wall of 1 to 3m curve depth.",
+      "Use the giant order, a column or pilaster of 2 to 3 storeys, and double or group the columns in pairs.",
+      "Break the entablature and the pediment forward and back at each bay, so that the cornice casts a deep shadow.",
+      "Light the focal point from a hidden source: a lantern, a concealed window or a gilded burst above the altar.",
+      "Lead the eye on a strong axis, with a series of rooms or a stair that grows in richness toward a climax.",
+      "Unite architecture, sculpture and painting: a ceiling fresco, stucco figures and gilding in one surface."
+    ],
+    "anti_patterns": [
+      "Flat, calm fronts that keep every part in one plane",
+      "Plain unornamented walls with no sculpture or fresco",
+      "Pointed Gothic arches or thin skeletal structure",
+      "Strict small-module grids with no curve",
+      "Even, shadowless light from large plain windows",
+      "A single order stacked in equal bays with no central emphasis"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 5,
+    "structural_expression": 2,
+    "geometric_rigidity": 2,
+    "material_rawness": 1,
+    "monumentality": 5
+  },
+  "massing": {
+    "form": "A sculpted block with a curved front, a central dome or lantern, and projecting wings; plans use ovals and interlocking curves.",
+    "proportion": "A front of 1:1 to 3:2, with a central bay 1.5 to 2 times wider than its neighbours and rising above them.",
+    "roof": "A tall dome on a drum with a lantern, or a mansard roof with sculpted dormers and statues on the balustrade.",
+    "relation_to_ground": "A sweeping flight of steps, a piazza or a cour d'honneur that draws the visitor on to the central door."
+  },
+  "structure": {
+    "system": "Load-bearing masonry with brick and stone vaults and domes, hidden behind plaster and stucco.",
+    "span_and_module": "Bays of 4 to 6m, with piers of 1 to 1.5m; oval naves of 15 to 25m on the long axis.",
+    "expression": "The structure is hidden. Orders and curves express movement and not load."
+  },
+  "materials": {
+    "primary": [
+      "travertine and limestone",
+      "stucco and plaster",
+      "marble",
+      "gilded wood"
+    ],
+    "secondary": [
+      "fresco",
+      "bronze",
+      "scagliola",
+      "wrought iron"
+    ],
+    "finish": "Rich and sculpted: polished marble, gilding, painted ceilings and moulded stucco on every surface.",
+    "palette": [
+      {
+        "name": "Travertine",
+        "hex": "#D8C9A8",
+        "role": "walls and orders"
+      },
+      {
+        "name": "Gold leaf",
+        "hex": "#C9A227",
+        "role": "gilding"
+      },
+      {
+        "name": "Oxblood marble",
+        "hex": "#6F2A2E",
+        "role": "altars and floors"
+      },
+      {
+        "name": "Sky fresco",
+        "hex": "#7FA3C7",
+        "role": "ceiling paintings"
+      },
+      {
+        "name": "Stucco white",
+        "hex": "#F1ECE0",
+        "role": "mouldings and putti"
+      }
+    ]
+  },
+  "facade": {
+    "composition": "A front that swells and recedes in a convex or concave curve, with paired columns, a broken pediment and a central niche or window.",
+    "openings": "Windows framed by pediments of alternating triangle and arc, with deep reveals; the window-to-wall ratio is 15 to 30%.",
+    "solid_to_void": "Solid leads: 70–85% opaque, modelled by deep shadow."
+  },
+  "light_and_space": {
+    "daylight": "Light from hidden windows and the lantern falls on the altar or the stair, and the rest of the room stays in shadow.",
+    "spatial_sequence": "A sequence of growing richness: portal, oval nave, then the high altar or the state stair at the climax of the axis.",
+    "interior_character": "Fresco vaults that open to a painted sky, gilded stucco, curved galleries and polished coloured marble."
+  },
+  "ornament": {
+    "attitude": "Ornament is abundant and dramatic: sculpture, gilding and painting fuse with the structure to make one rich effect.",
+    "details": [
+      "broken pediments",
+      "paired and twisted columns",
+      "putti and stucco figures",
+      "illusionistic ceiling frescoes",
+      "gilded cartouches",
+      "scrolled volutes"
+    ]
+  },
+  "identity": {
+    "wikidata": "Q840829"
+  },
+  "composition": {
+    "symmetry": "bilateral",
+    "axis_count": 1,
+    "rhythm_module_m": 5.0,
+    "rules": [
+      {
+        "principle": "focal-point",
+        "rule": "Draw all lines to one climax, the altar or the central stair, and light it from a hidden source.",
+        "value": "1 focal point"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Hide the light source in a lantern or a concealed window, and keep the walls dim.",
+        "value": "1 hidden source"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Build the front in 3 to 5 planes that project and recede.",
+        "value": "3–5 planes"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Pair the columns and swell the bays to a strong beat.",
+        "value": "bay 4–6m"
+      },
+      {
+        "principle": "symmetry-axis",
+        "rule": "Hold bilateral symmetry on the axis, and bend the walls inside it.",
+        "value": "1 axis"
+      },
+      {
+        "principle": "scale",
+        "rule": "Use the giant order over 2 to 3 storeys to overwhelm the viewer.",
+        "value": "order 2–3 storeys"
+      }
+    ]
+  },
+  "references": {
+    "images": [
+      {
+        "title": "Karlskirche, Vienna",
+        "credit": "Martin Falbisoner",
+        "licence": "CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Karlskirche_Vienna,_September_2016.jpg"
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "renaissance-architecture"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "baroque-painting"
+    ]
+  },
+  "emotion": {
+    "target_response": "Wonder and awe: the viewer feels carried up and in by a staged, overflowing display of power and faith.",
+    "keywords": [
+      "dramatic",
+      "curved",
+      "opulent",
+      "theatrical",
+      "dynamic"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "magician"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "baroque architecture",
+      "bernini",
+      "borromini",
+      "oval church",
+      "broken pediment",
+      "gilded stucco",
+      "trompe l'oeil ceiling",
+      "grand staircase",
+      "palace of versailles"
+    ],
+    "use_cases": [
+      "church and palace renders",
+      "opera houses and theatres",
+      "grand hotel lobbies",
+      "fantasy and period environments"
+    ],
+    "avoid_when": [
+      "The brief asks for restraint, a low budget or a quiet, modest building.",
+      "The design needs a flat, repeatable and modular facade."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "neoclassical-architecture",
+        "how": "Straighten the front into one plane, replace the paired columns by a single portico, and cut the gilding and sculpture."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "curved convex concave facade",
+      "oval plan church",
+      "paired columns",
+      "broken pediment",
+      "gilded stucco",
+      "ceiling fresco open to the sky",
+      "dramatic light from a hidden lantern",
+      "grand staircase",
+      "travertine and marble"
+    ],
+    "negative": [
+      "flat plain wall",
+      "pointed arch",
+      "glass curtain wall",
+      "minimal detail",
+      "even flat light",
+      "thin steel frame"
+    ],
+    "canonical_works": [
+      {
+        "work": "San Carlo alle Quattro Fontane, Rome",
+        "architect": "Francesco Borromini",
+        "year": 1641
+      },
+      {
+        "work": "Sant'Andrea al Quirinale, Rome",
+        "architect": "Gian Lorenzo Bernini",
+        "year": 1658
+      },
+      {
+        "work": "Palace of Versailles, Hall of Mirrors",
+        "architect": "Jules Hardouin-Mansart",
+        "year": 1684
+      },
+      {
+        "work": "Würzburg Residence",
+        "architect": "Balthasar Neumann",
+        "year": 1744
+      },
+      {
+        "work": "Karlskirche, Vienna",
+        "architect": "Johann Bernhard Fischer von Erlach",
+        "year": 1737
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Rudolf Wittkower, Art and Architecture in Italy 1600–1750 (Yale University Press, 1958)"
+    }
+  ]
+}

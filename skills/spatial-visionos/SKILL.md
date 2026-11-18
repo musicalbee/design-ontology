@@ -238,7 +238,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`glassmorphism`](../glassmorphism/SKILL.md)
 - **Mixes well with:** [`skeuomorphism`](../skeuomorphism/SKILL.md)
-- **Nearest by vector profile:** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md), [`neumorphism`](../neumorphism/SKILL.md)
+- **Nearest by vector profile:** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`apple-aqua`](../apple-aqua/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md)
 
 ## Emotional target
 

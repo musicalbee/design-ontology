@@ -126,6 +126,18 @@ Handlebars.registerHelper("json", (v: unknown) => JSON.stringify(v));
 Handlebars.registerHelper("inc", (i: number) => i + 1);
 const template = Handlebars.compile(readFileSync(join(ROOT, "schema", "skill-template.hbs"), "utf8"), { noEscape: true });
 
+// The generated moodboard tiles (demo/moodboards/interior), if the renderer made them.
+const imageManifest = (path: string) => (existsSync(join(ROOT, path)) ? JSON.parse(readFileSync(join(ROOT, path), "utf8")) : {});
+const boards = imageManifest("demo/moodboards/interior/manifest.json") as { tiles?: { id: string; label: string }[]; boards?: Record<string, Record<string, { file: string; prompt: string; model: string; licence: string; seed: number; steps: number }>> };
+function moodboard(style: Style) {
+  const board = boards.boards?.[style.id];
+  if (!board) return undefined;
+  const tiles = (boards.tiles ?? []).filter((t) => board[t.id]).map((t) => ({ label: t.label, path: `../../demo/moodboards/interior/${board[t.id].file}`, prompt: board[t.id].prompt }));
+  if (!tiles.length) return undefined;
+  const any = board[Object.keys(board)[0]];
+  return { tiles, count: tiles.length, model: any.model, licence: any.licence, seed: any.seed, steps: any.steps, page: `../../demo/moodboard.html#${style.id}` };
+}
+
 function view(style: Style, domain: Domain) {
   const adj = adjacency[style.id];
   const sourcePath = `data/${style.domain}/styles/${style.id}.json`;
@@ -179,6 +191,7 @@ function view(style: Style, domain: Domain) {
       if (!p) throw new Error(`${style.id}: principle "${id}" is not in data/principles/. Run \`npm run validate\` first.`);
       return { id, name: p.name, definition: p.definition, measures: p.measures.filter((m) => !m.domains || m.domains.includes(domain.id)).map((m) => `${m.measure} (${m.unit}): ${m.reference}`).join("; ") };
     }),
+    moodboard: moodboard(style),
     primer: style.primer && {
       positive: style.primer.positive.join(", "),
       negative: style.primer.negative.join(", "),

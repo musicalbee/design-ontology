@@ -1,0 +1,345 @@
+{
+  "$schema": "../../../schema/domains/film.schema.json",
+  "id": "music-video",
+  "name": "Music video",
+  "aliases": [
+    "MTV style",
+    "Promo video",
+    "Pop clip"
+  ],
+  "era_id": "tape-and-cable",
+  "time_period": {
+    "start": 1981,
+    "end": null,
+    "label": "1981–today"
+  },
+  "capture": [
+    "photochemical",
+    "digital-cinema",
+    "analogue-video"
+  ],
+  "summary": "A picture built to a song. The cut falls on the beat, the set is a stage, and the grade is loud. Story and place are cues that give way to a hook, a dance and a look.",
+  "philosophy": {
+    "core_thesis": "The song is the script, so images are cut to its beat and structure and a loud, memorable look sells the artist.",
+    "design_principles": [
+      "Cut on the beat: at 120 bpm a beat lasts 0.5 s, so cut on every beat or every second beat, and change the shot on each chorus.",
+      "Build the clip in three layers: a performance, a story or a concept, and a graphic inset; keep each for 3 to 8 s.",
+      "Shoot the artist in a close-up for 30% or more of the runtime, with a lip-sync at 24 fps and the song at playback speed.",
+      "Use a strong key colour per section: one saturated hue at 40% or more of the frame, and swap it at the chorus.",
+      "Move the camera at the tempo: a push-in over 4 beats, a spin over 8 beats, a whip at the drop.",
+      "Use a wide lens of 14mm to 24mm for dance and a long lens of 85mm to 135mm for a face, with a shallow focus at f/1.8 to f/2.8.",
+      "Place one signature visual in the first 10 s and repeat it at the final chorus."
+    ],
+    "anti_patterns": [
+      "A static, single, long take with no reference to the beat",
+      "A realistic, un-graded, muted palette",
+      "A plain, unlit location with no concept",
+      "Dialogue and diegetic sound that mask the song",
+      "A scene that is cut for continuity and not for the music",
+      "A face that does not look into the lens",
+      "A look with no signature visual"
+    ]
+  },
+  "vectors": {
+    "camera_mobility": 4,
+    "cutting_rate": 5,
+    "staging": 5,
+    "grade_stylisation": 5,
+    "frame_width": 3
+  },
+  "composition": {
+    "framing": "A bold, wide-lens frame in 16:9 or 2.39:1, with the artist large and central, and a graphic shape or a colour wall behind.",
+    "staging_in_depth": "A stage of 3 planes: a foreground prop or a dancer, the artist in the middle and a coloured set or a screen behind.",
+    "subject_placement": "The artist on the centre or a third line; the dancers in a row or a ring about them, and the lens at a low or a Dutch angle.",
+    "principles": [
+      {
+        "principle": "rhythm",
+        "rule": "Cut or move the camera on the beat and change the picture at each section of the song.",
+        "value": "1 cut per 1 to 2 beats, 1.5 to 3 s average shot"
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Give each section one dominant saturated hue and swap it at the chorus.",
+        "value": "1 hue at 40% or more, swapped at each chorus"
+      },
+      {
+        "principle": "focal-point",
+        "rule": "Keep the artist's face or body as the brightest and largest mass of the frame.",
+        "value": "artist 40% to 80% of the frame height"
+      },
+      {
+        "principle": "contrast",
+        "rule": "Set a saturated coloured light against a dark ground for a hard, graphic image.",
+        "value": "key to fill 6:1, colour gels at full strength"
+      },
+      {
+        "principle": "symmetry-axis",
+        "rule": "Use a bilateral or a radial staging of dancers about the artist for the chorus.",
+        "value": "1 axis, 4 to 12 dancers"
+      }
+    ]
+  },
+  "camera_and_movement": {
+    "movement": "A push-in, a spin, a crane drop or a whip pan timed to the beat; the camera is a dancer of the piece.",
+    "support": "Steadicam, jib, crane, dolly and a motion-control rig",
+    "camera_height": "0.3 to 2.5 m; low for a power shot and high for a choreography",
+    "move_speed": "Push-in over 4 beats (about 2 s at 120 bpm); spin 180° to 360° over 8 beats; whip 180° per second"
+  },
+  "lens_and_format": {
+    "aspect_ratio": "16:9 (1.78:1) or 2.39:1; 4:3 for the 1980s clips; 9:16 for a platform version",
+    "frame_rate": "24 fps; 48 to 120 fps for slow motion; 30 fps for video",
+    "shutter_angle": "180° (1/48 s); 90° for a strobed, sharp look",
+    "focal_length": "14mm to 24mm (35mm format) for dance; 85mm to 135mm for a face",
+    "aperture": "f/1.8 to f/2.8 for a shallow face; f/5.6 for choreography",
+    "resolution": "35mm or 4K to 6K digital",
+    "focus": "A shallow focus on the artist, with a rack to the dancers on the drop.",
+    "equipment": [
+      "Steadicam",
+      "jib",
+      "motion control",
+      "a strobe and LED wall",
+      "green screen"
+    ]
+  },
+  "light": {
+    "quality": "Hard, coloured, theatrical light with a haze, beams, a strobe and a rim light on the artist.",
+    "direction": "A back light and side light for a rim, a top light for a hero shot and a flat front light for a pop face.",
+    "key_to_fill_ratio": "6:1 for a dramatic clip; 2:1 for a pop clip",
+    "colour_temperature": "A mix of 3200K and gels from 2000K to 9000K, with a coloured key",
+    "source": "LED panels, gelled spots, a strobe and a haze machine"
+  },
+  "colour_and_grade": {
+    "treatment": "A loud, saturated, stylised grade that changes by section: one dominant hue, deep blacks and a clean rim light.",
+    "palette": [
+      {
+        "name": "Stage black",
+        "hex": "#0A0A12",
+        "role": "blacks"
+      },
+      {
+        "name": "Hot magenta",
+        "hex": "#E0218A",
+        "role": "dominant hue A"
+      },
+      {
+        "name": "Electric blue",
+        "hex": "#2563EB",
+        "role": "dominant hue B"
+      },
+      {
+        "name": "Acid yellow",
+        "hex": "#F2E13A",
+        "role": "accent"
+      },
+      {
+        "name": "Neon green",
+        "hex": "#39D98A",
+        "role": "accent"
+      },
+      {
+        "name": "Flash white",
+        "hex": "#FFFFFF",
+        "role": "highlights"
+      }
+    ],
+    "grade_recipe": [
+      "Set the black point at 1% and keep the blacks deep and clean.",
+      "Push the saturation by +30% to +50% and shift the midtones to the section's hue by 10% to 20%.",
+      "Add a contrast curve of +30% with a hard shoulder at 92%.",
+      "Add a glow of 8% to 15% on the highlights and a chromatic split of 1 to 2 px at the edge.",
+      "Change the hue at each chorus, and keep one look for each section."
+    ],
+    "texture": "Clean or stylised: either a smooth digital image or a deliberate grain of 10% to 20%"
+  },
+  "editing_and_rhythm": {
+    "average_shot_length": "1.5 to 3 s (estimate; check Cinemetrics for each title)",
+    "shot_length_range": "0.2 s for a flash cut to 15 s for a performance shot",
+    "cutting_logic": "Cut to the beat and the lyric. Change the picture at each section of the song, and use a repeat or a loop at the chorus.",
+    "transitions": "Hard cut on the beat, a flash frame, a whip, a match cut on a movement and a speed ramp.",
+    "runtime": "3 to 5 min"
+  },
+  "sound": {
+    "approach": "The song is the only sound, in full range and at playback speed; effects are rare and added on the beat.",
+    "dialogue": "None, or a spoken intro of 5 to 15 s at the start of a clip.",
+    "music": "The full track, cut to a video version of 3 to 5 min, with an intro and an outro edit.",
+    "loudness": "−14 LUFS integrated, with a true peak of −1 dBTP for a platform release"
+  },
+  "titles_and_graphics": {
+    "treatment": "The artist and the song title in a lower third in the first 10 s; lyrics or graphics as a kinetic type on the beat.",
+    "type": "A bold display or a condensed sans-serif in a saturated colour, 2 to 5 s for the title card."
+  },
+  "shot_primer": {
+    "opening": "Open on the signature image in the first 3 s, with the hook of the song already playing.",
+    "shot_list": [
+      {
+        "shot": "Artist lip-sync",
+        "size": "close-up",
+        "lens": "85mm",
+        "movement": "push-in over 4 beats",
+        "seconds": 4
+      },
+      {
+        "shot": "Dance ensemble",
+        "size": "wide",
+        "lens": "16mm",
+        "movement": "Steadicam orbit 1.5 m/s",
+        "seconds": 6
+      },
+      {
+        "shot": "Concept scene",
+        "size": "medium",
+        "lens": "35mm",
+        "movement": "dolly 1.0 m/s",
+        "seconds": 4
+      },
+      {
+        "shot": "Colour-wall hero shot",
+        "size": "medium",
+        "lens": "24mm",
+        "movement": "locked off",
+        "seconds": 2
+      },
+      {
+        "shot": "Whip on the drop",
+        "size": "medium",
+        "lens": "24mm",
+        "movement": "whip pan 180° per second",
+        "seconds": 1
+      },
+      {
+        "shot": "Final chorus repeat",
+        "size": "wide",
+        "lens": "16mm",
+        "movement": "spin 360° over 8 beats",
+        "seconds": 8
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "cut on the beat",
+      "saturated coloured light",
+      "wide lens dance shot",
+      "shallow depth of field close-up",
+      "hazy beams of light",
+      "dancers in formation",
+      "speed ramp",
+      "signature visual",
+      "glossy stylised grade",
+      "neon gel light"
+    ],
+    "negative": [
+      "static single take",
+      "muted documentary grade",
+      "dialogue scene",
+      "natural light",
+      "slow pacing",
+      "plain location",
+      "no concept"
+    ],
+    "canonical_works": [
+      {
+        "work": "Thriller",
+        "maker": "John Landis",
+        "year": 1983
+      },
+      {
+        "work": "Take On Me",
+        "maker": "Steve Barron",
+        "year": 1985
+      },
+      {
+        "work": "Sledgehammer",
+        "maker": "Stephen R. Johnson",
+        "year": 1986
+      },
+      {
+        "work": "Praise You",
+        "maker": "Spike Jonze",
+        "year": 1998
+      },
+      {
+        "work": "Windowlicker",
+        "maker": "Chris Cunningham",
+        "year": 1999
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "classical-hollywood"
+    ],
+    "hybridized_with": [
+      "vertical-short-form"
+    ],
+    "echoes": [
+      "memphis-design",
+      "y2k-aesthetic"
+    ]
+  },
+  "emotion": {
+    "target_response": "Excitement and desire: the viewer is carried by the beat and wants to see the artist again.",
+    "keywords": [
+      "loud",
+      "glossy",
+      "rhythmic",
+      "stylised",
+      "catchy"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "music video",
+      "mtv style",
+      "pop video",
+      "clip on the beat",
+      "lip-sync video",
+      "dance video",
+      "promo video",
+      "visualiser"
+    ],
+    "use_cases": [
+      "music releases and lyric videos",
+      "fashion and brand films",
+      "short-form vertical clips on a track",
+      "video prompts for a dance or a performance"
+    ],
+    "avoid_when": [
+      "The brief needs a documentary tone or a quiet, long take.",
+      "The piece has no music track to cut to."
+    ],
+    "modifiers": [
+      {
+        "request": "more control",
+        "toward": "planimetric-symmetry",
+        "how": "Keep the colour and the beat; stage the artist on a central axis in a flat set, track at right angles and cut every 3 to 5 s."
+      },
+      {
+        "request": "more raw",
+        "toward": "camcorder-revival",
+        "how": "Keep the song and the cut; shoot on a camcorder in 4:3, drop the gel light and let the focus hunt."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q193977: Music video",
+      "url": "https://www.wikidata.org/wiki/Q193977"
+    },
+    {
+      "title": "E. Ann Kaplan, Rocking Around the Clock: Music Television, Postmodernism, and Consumer Culture (Methuen, 1987)"
+    },
+    {
+      "title": "Carol Vernallis, Experiencing Music Video: Aesthetics and Cultural Context (Columbia University Press, 2004)"
+    },
+    {
+      "title": "Andrew Goodwin, Dancing in the Distraction Factory: Music Television and Popular Culture (University of Minnesota Press, 1992)"
+    }
+  ],
+  "domain": "film"
+}

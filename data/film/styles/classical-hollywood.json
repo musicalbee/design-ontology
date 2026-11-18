@@ -1,0 +1,337 @@
+{
+  "$schema": "../../../schema/domains/film.schema.json",
+  "id": "classical-hollywood",
+  "name": "Classical Hollywood",
+  "aliases": [
+    "Studio-era Hollywood",
+    "Continuity style",
+    "Golden age Hollywood"
+  ],
+  "era_id": "studio-system",
+  "time_period": {
+    "start": 1930,
+    "end": 1960,
+    "label": "1930–1960"
+  },
+  "capture": [
+    "photochemical"
+  ],
+  "summary": "A studio craft in which the camera, the light and the cut serve a clear story. Three-point light, a master shot with coverage and a smooth match cut. The style hides itself.",
+  "philosophy": {
+    "core_thesis": "A film serves its story, so every device (light, angle, cut and score) is invisible and keeps the viewer's eye on the character and the action.",
+    "design_principles": [
+      "Light each face with a three-point setup at a key-to-fill ratio of 3:1 to 4:1, a back light at 1.5 to 2 times the key and a soft eye light.",
+      "Shoot a master shot and cover each scene with a medium shot and a close-up from 3 to 5 set-ups, and keep the 180° line.",
+      "Cut for continuity on action, at an average shot length of 8 to 12 s, with the match cut hidden inside a movement.",
+      "Frame in 1.37:1 (1.33:1 to 1.37:1) at eye level, a 40mm to 75mm lens, with the star in a medium close-up in the centre third.",
+      "Use a dolly or a crane move of 0.3 to 0.8 m/s only to follow a character, and finish it on a stop.",
+      "Score under the scene with a leitmotif per character at −18 to −22 dB below the dialogue, and a rising cue before an act break.",
+      "Resolve the plot in three acts of 25%, 50% and 25% of the runtime and end on a closed, legible image."
+    ],
+    "anti_patterns": [
+      "A jump cut that shows the edit",
+      "A handheld shake with no motive",
+      "An open ending with no resolution",
+      "Available light with no fill",
+      "A camera that looks into the lens",
+      "A shot that breaks the 180° line without a reason",
+      "A location sound track with unclear dialogue"
+    ]
+  },
+  "vectors": {
+    "camera_mobility": 3,
+    "cutting_rate": 3,
+    "staging": 5,
+    "grade_stylisation": 3,
+    "frame_width": 2
+  },
+  "composition": {
+    "framing": "A 1.37:1 frame at eye level with the star in the centre third; head room of 5% to 10% and a balanced two-shot.",
+    "staging_in_depth": "A foreground of 1 to 2 m, a middle of the actors and a back plane lit apart from them; the background is soft or lit lower.",
+    "subject_placement": "The star on a third line, facing 3/4 to the lens, and the other actor in the opposite third.",
+    "principles": [
+      {
+        "principle": "lighting-layers",
+        "rule": "Light each face with a key, a fill and a back light so that the figure separates from the set.",
+        "value": "3:1 to 4:1 key to fill, back light 1.5× key"
+      },
+      {
+        "principle": "focal-point",
+        "rule": "Give the star the brightest and sharpest mass of the frame, in a medium close-up.",
+        "value": "star on a third, 40% to 60% of the frame height"
+      },
+      {
+        "principle": "sightlines",
+        "rule": "Keep the eyelines and the 180° line stable across a scene so that the viewer always knows who looks at whom.",
+        "value": "1 line of action per scene, 0 crossings"
+      },
+      {
+        "principle": "rule-of-thirds",
+        "rule": "Place the eyes on the upper third line and balance a two-shot on both thirds.",
+        "value": "eyes at 33% from the top"
+      },
+      {
+        "principle": "balance",
+        "rule": "Balance a lit star on one side with a darker mass or a prop on the other.",
+        "value": "60:40 visual weight"
+      }
+    ]
+  },
+  "camera_and_movement": {
+    "movement": "A smooth dolly or crane move, motivated by a character, and ended on a stop. The pan follows the action and leads it by a little.",
+    "support": "Studio dolly, crane and tripod with a geared head",
+    "camera_height": "1.2 to 1.7 m, eye level; low for a villain, rarely above 2 m",
+    "move_speed": "Dolly 0.3 to 0.8 m/s; pan 10° to 25° per second"
+  },
+  "lens_and_format": {
+    "aspect_ratio": "1.37:1 (Academy), later 1.85:1 or 2.55:1 from 1953",
+    "frame_rate": "24 fps",
+    "shutter_angle": "170° to 180° (1/48 s)",
+    "focal_length": "40mm to 75mm (35mm format); 25mm to 35mm for deep-focus sets",
+    "aperture": "f/2.8 to f/5.6 with a soft background; f/8 for deep focus",
+    "resolution": "35mm negative; scan at 2K or 4K",
+    "focus": "Selective focus on the star; a diffusion filter on the close-up of a woman.",
+    "equipment": [
+      "studio arc and tungsten lamps",
+      "three-strip Technicolor camera",
+      "dolly and crane",
+      "diffusion gauze"
+    ]
+  },
+  "light": {
+    "quality": "Soft on faces through diffusion, hard on the set and hair; glamour light with a clean modelling shadow.",
+    "direction": "Key at 45° and above eye level, fill from the camera side, a back light from above and behind.",
+    "key_to_fill_ratio": "3:1 to 4:1 (1.6 to 2 stops); 8:1 for film noir",
+    "colour_temperature": "Tungsten 3200K, with Technicolor balanced to 3200K at high light levels",
+    "source": "Studio arcs, tungsten and a soft eye light"
+  },
+  "colour_and_grade": {
+    "treatment": "Rich black and white with a full tonal range, or three-strip Technicolor with saturated primaries and warm skin.",
+    "palette": [
+      {
+        "name": "Studio black",
+        "hex": "#101012",
+        "role": "blacks"
+      },
+      {
+        "name": "Silver grey",
+        "hex": "#8C8C8A",
+        "role": "midtones"
+      },
+      {
+        "name": "Glamour white",
+        "hex": "#F3F0E6",
+        "role": "highlights and skin"
+      },
+      {
+        "name": "Technicolor red",
+        "hex": "#B3262A",
+        "role": "saturated accent"
+      },
+      {
+        "name": "Technicolor blue",
+        "hex": "#1F4E8C",
+        "role": "saturated accent"
+      }
+    ],
+    "grade_recipe": [
+      "Set the black point at 2% and the white point at 97% for a full-range print.",
+      "Apply a medium S-curve of +20% contrast and a soft shoulder in the highlights.",
+      "For colour, push red and blue saturation by +25% and warm the skin to 5% to 8% magenta-yellow.",
+      "Add a diffusion glow of 5% to 10% on the highlights of a close-up.",
+      "Keep grain at 6% to 10%; no vignette and no teal cast."
+    ],
+    "texture": "Fine grain at 6% to 10%, clean blacks and a glow on the highlights"
+  },
+  "editing_and_rhythm": {
+    "average_shot_length": "8 to 12 s for the 1930s and 1940s (estimate from Salt and Cinemetrics; check each title)",
+    "shot_length_range": "1.5 s for an insert to 40 s for a long dialogue take",
+    "cutting_logic": "Cut on the action and on the eyeline so that the viewer does not see the edit. Start a scene wide, go to medium and then to the close-up on the key line.",
+    "transitions": "Hard cut on action, a dissolve of 1 to 2 s for a time jump, a fade to black of 1 s at an act, a wipe for a montage.",
+    "runtime": "90 to 120 min"
+  },
+  "sound": {
+    "approach": "Clean studio dialogue, a scored track and foley added in post; the room is silent.",
+    "dialogue": "Clear and quick, with sharp diction and no overlap, at a steady rate of 160 to 200 words per minute.",
+    "music": "A full orchestral score with a leitmotif for each character, under the dialogue and swelling at the act break.",
+    "loudness": "−23 LUFS integrated for a restoration, dialogue at −12 dBFS average"
+  },
+  "titles_and_graphics": {
+    "treatment": "A big title sequence on a painted or a live backdrop, with cast cards; the studio logo and the credits come before the story.",
+    "type": "A bold serif or a script in the title, a plain serif in the credits, 3 to 6 s per card, white on a painted ground."
+  },
+  "shot_primer": {
+    "opening": "Open on an establishing shot of a place, with a title or a pan that lands on the lead; hold 4 to 6 s.",
+    "shot_list": [
+      {
+        "shot": "Establishing shot",
+        "size": "wide",
+        "lens": "35mm",
+        "movement": "crane down 0.5 m/s",
+        "seconds": 5
+      },
+      {
+        "shot": "Master shot of the scene",
+        "size": "wide",
+        "lens": "40mm",
+        "movement": "dolly 0.3 m/s",
+        "seconds": 20
+      },
+      {
+        "shot": "Medium two-shot",
+        "size": "medium",
+        "lens": "50mm",
+        "movement": "locked off",
+        "seconds": 10
+      },
+      {
+        "shot": "Close-up on the key line",
+        "size": "close-up",
+        "lens": "75mm",
+        "movement": "locked off",
+        "seconds": 6
+      },
+      {
+        "shot": "Reverse close-up",
+        "size": "close-up",
+        "lens": "75mm",
+        "movement": "locked off",
+        "seconds": 5
+      },
+      {
+        "shot": "Dissolve to the next scene",
+        "size": "wide",
+        "lens": "35mm",
+        "movement": "dissolve 1.5 s",
+        "seconds": 2
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1940s Hollywood studio film",
+      "three-point lighting",
+      "glamour close-up with soft diffusion",
+      "1.37:1 frame",
+      "black and white 35mm",
+      "Technicolor saturated red and blue",
+      "smooth dolly move",
+      "match cut on action",
+      "studio back lot"
+    ],
+    "negative": [
+      "handheld shake",
+      "jump cut",
+      "open ending",
+      "available light only",
+      "teal and orange grade",
+      "fast cuts",
+      "shallow bokeh"
+    ],
+    "canonical_works": [
+      {
+        "work": "Stagecoach",
+        "maker": "John Ford",
+        "year": 1939
+      },
+      {
+        "work": "Casablanca",
+        "maker": "Michael Curtiz",
+        "year": 1942
+      },
+      {
+        "work": "Singin' in the Rain",
+        "maker": "Gene Kelly and Stanley Donen",
+        "year": 1952
+      },
+      {
+        "work": "Rear Window",
+        "maker": "Alfred Hitchcock",
+        "year": 1954
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "german-expressionist-cinema"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "art-deco-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Comfort and absorption: the viewer follows the story and the stars without noticing the craft.",
+    "keywords": [
+      "polished",
+      "romantic",
+      "clear",
+      "glamorous",
+      "absorbing"
+    ],
+    "brand_archetypes": [
+      "hero",
+      "lover"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "classical hollywood",
+      "golden age hollywood",
+      "studio era film",
+      "three-point lighting film",
+      "technicolor look",
+      "1940s movie",
+      "continuity editing",
+      "old hollywood glamour"
+    ],
+    "use_cases": [
+      "period films and pastiche",
+      "fashion and fragrance films",
+      "video prompts for a studio-era scene",
+      "title sequences with a glamour tone"
+    ],
+    "avoid_when": [
+      "The brief needs an observed, unplanned reality.",
+      "The piece must feel raw, current or amateur."
+    ],
+    "modifiers": [
+      {
+        "request": "more realism",
+        "toward": "italian-neorealism",
+        "how": "Keep the black and white and the 1.37:1 frame; leave the studio for a street, drop the glamour key and use daylight with a bounce."
+      },
+      {
+        "request": "more shadow",
+        "toward": "german-expressionist-cinema",
+        "how": "Keep the studio and the black and white; raise the key-to-fill ratio to 8:1 and let a shadow take 40% or more of the frame."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q2166646: Classical Hollywood cinema",
+      "url": "https://www.wikidata.org/wiki/Q2166646"
+    },
+    {
+      "title": "Wikidata Q50714: Stagecoach",
+      "url": "https://www.wikidata.org/wiki/Q50714"
+    },
+    {
+      "title": "Wikidata Q34414: Rear Window",
+      "url": "https://www.wikidata.org/wiki/Q34414"
+    },
+    {
+      "title": "Wikidata Q309153: Singin' in the Rain",
+      "url": "https://www.wikidata.org/wiki/Q309153"
+    },
+    {
+      "title": "David Bordwell, Janet Staiger and Kristin Thompson, The Classical Hollywood Cinema (Columbia University Press, 1985)"
+    },
+    {
+      "title": "Barry Salt, Film Style and Technology: History and Analysis (Starword, 3rd ed., 2009)"
+    }
+  ],
+  "domain": "film"
+}

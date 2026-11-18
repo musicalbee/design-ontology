@@ -1,0 +1,282 @@
+{
+  "$schema": "../../../schema/domains/architecture.schema.json",
+  "id": "renaissance-architecture",
+  "domain": "architecture",
+  "name": "Renaissance",
+  "aliases": [
+    "Italian Renaissance",
+    "Quattrocento architecture",
+    "Palladian (late phase)"
+  ],
+  "era_id": "early-modern",
+  "time_period": {
+    "start": 1420,
+    "end": 1600,
+    "label": "15th–16th century"
+  },
+  "building_types": [
+    "civic",
+    "residential",
+    "religious"
+  ],
+  "summary": "The Roman orders, the round arch and the dome return, set by number. Brunelleschi, Alberti and Palladio made proportion into a rule: each part is a simple fraction of the whole, and the building is a calm, symmetric order.",
+  "philosophy": {
+    "core_thesis": "Beauty is number: a building is right when each part is a simple ratio of the whole, as in the human body and in music.",
+    "design_principles": [
+      "Set every room and opening in a simple ratio: 1:1, 1:2, 2:3, 3:4 or 4:5, and use the same ratio again in the elevation.",
+      "Use the classical orders in their order of weight: Tuscan or Doric at the base, Ionic above, Corinthian at the top.",
+      "Compose the front on one central axis, with a bilateral balance and a central entrance or pediment.",
+      "Use the semicircular arch and the hemispherical dome; the dome diameter equals the height from the floor to the springing.",
+      "Make the column diameter the module, and set the bay at 3 to 5 modules; the storey height at 8 to 10 modules.",
+      "Rank the floors: a rusticated base, a tall piano nobile with the largest windows, and a shorter attic."
+    ],
+    "anti_patterns": [
+      "Pointed arches or ribbed vaults",
+      "Asymmetric fronts with no central axis",
+      "Curved, broken or twisting classical elements",
+      "Dense surface ornament that hides the order",
+      "Proportions chosen by eye with no ratio",
+      "Steel or glass skins with no orders and no wall"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "structural_expression": 2,
+    "geometric_rigidity": 5,
+    "material_rawness": 2,
+    "monumentality": 4
+  },
+  "massing": {
+    "form": "A compact cube or a square-plan palace around a courtyard; a central-plan church of a square or circle under a dome.",
+    "proportion": "A palace front of 2:1 to 3:2 width to height; a villa is a cube, with a central block and a portico.",
+    "roof": "A low hipped roof behind a cornice, or a hemispherical dome on a drum; a pediment marks the centre.",
+    "relation_to_ground": "A rusticated base of one storey, 4 to 6m high, a flight of steps to the portico, and an axial approach."
+  },
+  "structure": {
+    "system": "Load-bearing masonry in brick and stone, with barrel and groin vaults and domes on pendentives.",
+    "span_and_module": "The column diameter is the module; bays of 3 to 5 modules, rooms of 1:1 to 3:2 and spans of 5 to 9m.",
+    "expression": "The orders show the load: pilasters, entablatures and arches state where the wall carries its weight."
+  },
+  "materials": {
+    "primary": [
+      "stuccoed brick",
+      "pietra serena and limestone",
+      "marble"
+    ],
+    "secondary": [
+      "terracotta",
+      "fresco plaster",
+      "timber coffering",
+      "bronze"
+    ],
+    "finish": "Calm and matt: smooth stucco in warm white, with grey or white stone for the orders.",
+    "palette": [
+      {
+        "name": "Warm stucco",
+        "hex": "#E8DCC0",
+        "role": "wall fields"
+      },
+      {
+        "name": "Pietra serena",
+        "hex": "#8A8F8A",
+        "role": "orders and arches"
+      },
+      {
+        "name": "Terracotta",
+        "hex": "#B5603C",
+        "role": "roof tile"
+      },
+      {
+        "name": "Carrara white",
+        "hex": "#F2F0EA",
+        "role": "pediments and sculpture"
+      },
+      {
+        "name": "Fresco blue",
+        "hex": "#3E5C7E",
+        "role": "painted ceilings"
+      }
+    ]
+  },
+  "facade": {
+    "composition": "A flat, symmetric front in horizontal tiers, with an order for each tier and one central doorway or portico.",
+    "openings": "Round-headed or pedimented windows, 1:2 in ratio, in regular rows; the window-to-wall ratio is 15 to 25%.",
+    "solid_to_void": "Solid leads: 75–85% opaque wall."
+  },
+  "light_and_space": {
+    "daylight": "Even, soft daylight from regular windows and a central oculus or lantern.",
+    "spatial_sequence": "An axial route from the portico through the hall to a central domed room; each room is a simple solid.",
+    "interior_character": "Coffered ceilings, frescoed walls, pilasters and a marble floor in a geometric pattern."
+  },
+  "ornament": {
+    "attitude": "Ornament is the classical order itself: the column, the entablature and the pediment, used with measure and restraint.",
+    "details": [
+      "pilasters and entablatures",
+      "rusticated base",
+      "pedimented windows",
+      "coffered vaults",
+      "cornice with modillions"
+    ]
+  },
+  "identity": {
+    "wikidata": "Q236122",
+    "aat": "300021140"
+  },
+  "composition": {
+    "symmetry": "bilateral",
+    "axis_count": 1,
+    "rhythm_module_m": 5.0,
+    "rules": [
+      {
+        "principle": "proportion",
+        "rule": "Fix every dimension by simple ratios: 1:1, 1:2, 2:3, 3:4.",
+        "value": "ratios 1:1 to 3:4"
+      },
+      {
+        "principle": "symmetry-axis",
+        "rule": "Compose the plan and the front about one central axis.",
+        "value": "1 axis"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Set the bays at an equal interval, and use the column spacing as the module.",
+        "value": "bay 4–6m"
+      },
+      {
+        "principle": "hierarchy",
+        "rule": "Stack the orders by weight: Tuscan or Doric below, Ionic then Corinthian above.",
+        "value": "3 tiers"
+      },
+      {
+        "principle": "unity-variety",
+        "rule": "Derive the openings, the arcades and the rooms from one module.",
+        "value": "1 module"
+      },
+      {
+        "principle": "scale",
+        "rule": "Fit the height of the room to the human figure and the width of the room.",
+        "value": "room height = width"
+      }
+    ]
+  },
+  "references": {
+    "images": [
+      {
+        "title": "Tempietto of San Pietro in Montorio, Rome",
+        "credit": "Labicanense",
+        "licence": "CC BY 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Tempietto_di_San_Pietro_in_Montorio.jpg"
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "gothic-architecture"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "renaissance-painting"
+    ]
+  },
+  "emotion": {
+    "target_response": "Harmony and calm: the viewer feels a clear human order, measured and in balance.",
+    "keywords": [
+      "harmonious",
+      "symmetric",
+      "measured",
+      "humanist",
+      "serene"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "renaissance architecture",
+      "palladian",
+      "brunelleschi",
+      "alberti",
+      "palazzo",
+      "villa rotonda",
+      "classical orders",
+      "domed rotunda",
+      "tempietto"
+    ],
+    "use_cases": [
+      "villa and palace renders",
+      "civic and bank buildings",
+      "garden pavilions",
+      "period film sets"
+    ],
+    "avoid_when": [
+      "The brief asks for curves, drama or movement in the facade.",
+      "The programme needs a free plan or a glass skin."
+    ],
+    "modifiers": [
+      {
+        "request": "more dramatic",
+        "toward": "baroque-architecture",
+        "how": "Bend the front into convex and concave curves, break the pediment, double the columns and raise the light contrast."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "symmetric facade",
+      "classical orders",
+      "semicircular arch",
+      "hemispherical dome",
+      "rusticated base",
+      "pedimented portico",
+      "warm stucco with pale stone",
+      "coffered ceiling",
+      "central courtyard"
+    ],
+    "negative": [
+      "pointed arch",
+      "asymmetric composition",
+      "curved baroque front",
+      "glass curtain wall",
+      "exposed steel",
+      "neon colour"
+    ],
+    "canonical_works": [
+      {
+        "work": "Ospedale degli Innocenti, Florence",
+        "architect": "Filippo Brunelleschi",
+        "year": 1427
+      },
+      {
+        "work": "Palazzo Rucellai, Florence",
+        "architect": "Leon Battista Alberti",
+        "year": 1450
+      },
+      {
+        "work": "Tempietto, Rome",
+        "architect": "Donato Bramante",
+        "year": 1502
+      },
+      {
+        "work": "Villa Capra \"La Rotonda\", Vicenza",
+        "architect": "Andrea Palladio",
+        "year": 1570
+      },
+      {
+        "work": "Basilica of San Giorgio Maggiore, Venice",
+        "architect": "Andrea Palladio",
+        "year": 1610
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Rudolf Wittkower, Architectural Principles in the Age of Humanism (Warburg Institute, 1949)"
+    },
+    {
+      "title": "Andrea Palladio, I quattro libri dell'architettura (1570)"
+    }
+  ]
+}

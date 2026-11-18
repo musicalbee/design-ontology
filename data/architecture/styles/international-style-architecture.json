@@ -3,10 +3,22 @@
   "id": "international-style-architecture",
   "domain": "architecture",
   "name": "International Style",
-  "aliases": ["Modern Movement", "Neues Bauen", "Functionalism"],
+  "aliases": [
+    "Modern Movement",
+    "Neues Bauen",
+    "Functionalism"
+  ],
   "era_id": "modern-movement",
-  "time_period": { "start": 1922, "end": 1970, "label": "1920s–1960s" },
-  "building_types": ["residential", "commercial", "civic"],
+  "time_period": {
+    "start": 1922,
+    "end": 1970,
+    "label": "1920s–1960s"
+  },
+  "building_types": [
+    "residential",
+    "commercial",
+    "civic"
+  ],
   "summary": "Light rectilinear volumes of steel, glass and white render, with flat roofs, ribbon windows and free plans. The Bauhaus, Le Corbusier and Mies van der Rohe defined it in the 1920s, and it became the global language of the office tower.",
   "philosophy": {
     "core_thesis": "A building is a volume enclosed by a thin skin, and industrial methods make one rational form valid in every place.",
@@ -46,15 +58,44 @@
     "expression": "The grid is legible but restrained: slim mullions, expressed slab edges or steel I-sections mark the module."
   },
   "materials": {
-    "primary": ["plate glass", "painted steel", "white render on concrete"],
-    "secondary": ["travertine", "chrome", "glass block", "polished stone veneer"],
+    "primary": [
+      "plate glass",
+      "painted steel",
+      "white render on concrete"
+    ],
+    "secondary": [
+      "travertine",
+      "chrome",
+      "glass block",
+      "polished stone veneer"
+    ],
     "finish": "Smooth, precise and machine-made; surfaces are painted, polished or glazed and show no trace of the hand.",
     "palette": [
-      { "name": "White render", "hex": "#F4F3EE", "role": "primary wall planes" },
-      { "name": "Black steel", "hex": "#1C1C1C", "role": "frames and mullions" },
-      { "name": "Glass", "hex": "#A9C1C9", "role": "curtain wall" },
-      { "name": "Travertine", "hex": "#D8CDB8", "role": "floors and podium" },
-      { "name": "Primary red", "hex": "#C8281E", "role": "one accent plane or door" }
+      {
+        "name": "White render",
+        "hex": "#F4F3EE",
+        "role": "primary wall planes"
+      },
+      {
+        "name": "Black steel",
+        "hex": "#1C1C1C",
+        "role": "frames and mullions"
+      },
+      {
+        "name": "Glass",
+        "hex": "#A9C1C9",
+        "role": "curtain wall"
+      },
+      {
+        "name": "Travertine",
+        "hex": "#D8CDB8",
+        "role": "floors and podium"
+      },
+      {
+        "name": "Primary red",
+        "hex": "#C8281E",
+        "role": "one accent plane or door"
+      }
     ]
   },
   "facade": {
@@ -69,44 +110,159 @@
   },
   "ornament": {
     "attitude": "Ornament is rejected; the quality of proportion, joints and materials replaces it.",
-    "details": ["cruciform chrome columns", "flush joints", "cantilevered slab edges", "book-matched stone", "tubular steel handrails"]
+    "details": [
+      "cruciform chrome columns",
+      "flush joints",
+      "cantilevered slab edges",
+      "book-matched stone",
+      "tubular steel handrails"
+    ]
+  },
+  "identity": {
+    "wikidata": "Q162324",
+    "aat": "300021472"
+  },
+  "composition": {
+    "symmetry": "asymmetric",
+    "axis_count": 0,
+    "rhythm_module_m": 6.0,
+    "rules": [
+      {
+        "principle": "rhythm",
+        "rule": "Repeat a regular structural grid over the whole front.",
+        "value": "grid 6m"
+      },
+      {
+        "principle": "negative-space",
+        "rule": "Leave the wall plain and white, with no applied ornament.",
+        "value": "0 ornament"
+      },
+      {
+        "principle": "proportion",
+        "rule": "Set the volume on a clean ratio, and lift it on pilotis.",
+        "value": "pilotis 3m"
+      },
+      {
+        "principle": "symmetry-axis",
+        "rule": "Balance the volumes without a mirror axis, and keep the front free.",
+        "value": "0 axes"
+      },
+      {
+        "principle": "sightlines",
+        "rule": "Use the ribbon window to give a long horizontal view.",
+        "value": "ribbon band 1:3"
+      }
+    ]
+  },
+  "references": {
+    "images": [
+      {
+        "title": "Villa Savoye, Poissy",
+        "credit": "Wasily",
+        "licence": "CC0",
+        "url": "https://commons.wikimedia.org/wiki/File:Savoye_3.JPG"
+      }
+    ]
   },
   "lineage": {
     "evolved_from": [],
     "rebelled_against": [],
     "hybridized_with": [],
-    "echoes": ["bauhaus", "swiss-international"]
+    "echoes": [
+      "bauhaus",
+      "swiss-international"
+    ]
   },
   "emotion": {
     "target_response": "Clarity and progress: the viewer feels a rational, weightless order that belongs to no single place.",
-    "keywords": ["rational", "light", "universal", "precise", "optimistic"],
-    "brand_archetypes": ["sage", "ruler"]
+    "keywords": [
+      "rational",
+      "light",
+      "universal",
+      "precise",
+      "optimistic"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "ruler"
+    ]
   },
   "agent": {
-    "triggers": ["international style", "modernist architecture", "miesian", "glass box", "white villa", "pilotis", "less is more", "curtain wall"],
-    "use_cases": ["concept renders", "office buildings", "private villas", "gallery interiors", "product showrooms"],
+    "triggers": [
+      "international style",
+      "modernist architecture",
+      "miesian",
+      "glass box",
+      "white villa",
+      "pilotis",
+      "less is more",
+      "curtain wall"
+    ],
+    "use_cases": [
+      "concept renders",
+      "office buildings",
+      "private villas",
+      "gallery interiors",
+      "product showrooms"
+    ],
     "avoid_when": [
       "The brief asks for local character, craft or a strong response to climate.",
       "The site needs heavy thermal mass or small openings."
     ],
     "modifiers": [
-      { "request": "heavier", "toward": "brutalist-architecture", "how": "Thicken the frame, leave the concrete raw and set the windows deep; keep the flat roof and the regular bay." }
+      {
+        "request": "heavier",
+        "toward": "brutalist-architecture",
+        "how": "Thicken the frame, leave the concrete raw and set the windows deep; keep the flat roof and the regular bay."
+      }
     ]
   },
   "primer": {
     "positive": [
-      "white rectilinear volumes", "flat roof", "ribbon windows", "glass curtain wall", "slender steel columns",
-      "pilotis", "open free plan", "crisp shadows", "minimal detailing"
+      "white rectilinear volumes",
+      "flat roof",
+      "ribbon windows",
+      "glass curtain wall",
+      "slender steel columns",
+      "pilotis",
+      "open free plan",
+      "crisp shadows",
+      "minimal detailing"
     ],
-    "negative": ["ornament", "pitched roof", "rough concrete", "arches", "brick detailing", "symmetry around a portico"],
+    "negative": [
+      "ornament",
+      "pitched roof",
+      "rough concrete",
+      "arches",
+      "brick detailing",
+      "symmetry around a portico"
+    ],
     "canonical_works": [
-      { "work": "Bauhaus Building, Dessau", "architect": "Walter Gropius", "year": 1926 },
-      { "work": "Barcelona Pavilion", "architect": "Ludwig Mies van der Rohe", "year": 1929 },
-      { "work": "Villa Savoye, Poissy", "architect": "Le Corbusier", "year": 1931 },
-      { "work": "Seagram Building, New York", "architect": "Ludwig Mies van der Rohe", "year": 1958 }
+      {
+        "work": "Bauhaus Building, Dessau",
+        "architect": "Walter Gropius",
+        "year": 1926
+      },
+      {
+        "work": "Barcelona Pavilion",
+        "architect": "Ludwig Mies van der Rohe",
+        "year": 1929
+      },
+      {
+        "work": "Villa Savoye, Poissy",
+        "architect": "Le Corbusier",
+        "year": 1931
+      },
+      {
+        "work": "Seagram Building, New York",
+        "architect": "Ludwig Mies van der Rohe",
+        "year": 1958
+      }
     ]
   },
   "sources": [
-    { "title": "Henry-Russell Hitchcock and Philip Johnson, The International Style (W. W. Norton, 1932)" }
+    {
+      "title": "Henry-Russell Hitchcock and Philip Johnson, The International Style (W. W. Norton, 1932)"
+    }
   ]
 }
