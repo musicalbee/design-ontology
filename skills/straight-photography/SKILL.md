@@ -179,10 +179,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **softer and more romantic**: move toward [`pictorialism`](../pictorialism/SKILL.md) (Pictorialism). Open the aperture to f/8, add diffusion and a warm tone, and lift the black point to 15%; keep the large format and the quiet light.
 - If the user asks for **more casual**: move toward [`street-photography`](../street-photography/SKILL.md) (Street photography). Switch to a 35mm camera at f/8, shoot handheld and let the frame be found; keep the black and white and the strong light.
 
-- **Led to (go here for a newer version):** [`documentary-photography`](../documentary-photography/SKILL.md), [`fashion-editorial`](../fashion-editorial/SKILL.md), [`film-noir-still`](../film-noir-still/SKILL.md), [`food-photography`](../food-photography/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md), [`street-photography`](../street-photography/SKILL.md)
+- **Led to (go here for a newer version):** [`architectural-photography`](../architectural-photography/SKILL.md), [`documentary-photography`](../documentary-photography/SKILL.md), [`fashion-editorial`](../fashion-editorial/SKILL.md), [`film-noir-still`](../film-noir-still/SKILL.md), [`food-photography`](../food-photography/SKILL.md), [`group-f64`](../group-f64/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md), [`street-photography`](../street-photography/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`pictorialism`](../pictorialism/SKILL.md)
 - **Kin in another domain:** [`dogme-95`](../dogme-95/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`realism-painting`](../realism-painting/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
-- **Nearest by vector profile:** [`street-photography`](../street-photography/SKILL.md), [`documentary-photography`](../documentary-photography/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md)
+- **Nearest by vector profile:** [`group-f64`](../group-f64/SKILL.md), [`street-photography`](../street-photography/SKILL.md), [`documentary-photography`](../documentary-photography/SKILL.md)
 
 ## Emotional target
 

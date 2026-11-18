@@ -232,6 +232,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`vaporwave`](../vaporwave/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
 - **Mixes well with:** [`cybercore-web`](../cybercore-web/SKILL.md), [`cyberpunk-web`](../cyberpunk-web/SKILL.md)
+- **Kin in another domain:** [`neon-noir`](../neon-noir/SKILL.md)
 - **Nearest by vector profile:** [`cybercore-web`](../cybercore-web/SKILL.md), [`art-deco-web`](../art-deco-web/SKILL.md), [`conceptual-sketch-ui`](../conceptual-sketch-ui/SKILL.md)
 
 ## Emotional target

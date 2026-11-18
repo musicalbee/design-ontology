@@ -1,0 +1,325 @@
+{
+  "$schema": "../../../schema/domains/film.schema.json",
+  "id": "phone-cinema",
+  "name": "Phone cinema",
+  "aliases": [
+    "Shot on iPhone",
+    "Smartphone filmmaking",
+    "Mobile cinema"
+  ],
+  "era_id": "platform-video",
+  "time_period": {
+    "start": 2015,
+    "end": 2024,
+    "label": "2015–today"
+  },
+  "capture": [
+    "phone"
+  ],
+  "summary": "A feature film or a brand film shot on a phone. The lens is wide and close. The camera slips into places a big rig cannot reach. Gimbal, clip-on lens and app give a controlled look at small cost.",
+  "philosophy": {
+    "core_thesis": "A phone is light, cheap and always present, so a crew of 3 can shoot a feature in real streets and fix the look with an app and a grade.",
+    "design_principles": [
+      "Shoot on a phone with a fixed, manual setting: 24 fps, 1/48 s shutter, low ISO and a locked white balance.",
+      "Use the main lens at 24mm to 26mm equivalent, and a clip-on anamorphic adapter for a 2.39:1 crop.",
+      "Shoot in log or the highest bit-depth mode, and grade in post to match a cinema look.",
+      "Mount the phone on a gimbal at 0.5 to 1.5 m/s, or hold it still on a clamp.",
+      "Use available light and small LED panels, and avoid the night noise with a 0.5 to 1 stop push only.",
+      "Fix the focus and the exposure on the face and lock them before the take.",
+      "Record the sound on a separate lavalier or recorder, and sync it in post."
+    ],
+    "anti_patterns": [
+      "A phone at auto exposure",
+      "A shaky, unstabilised handheld clip",
+      "The default phone colour with a heavy sharpening",
+      "A vertical frame for a cinema release",
+      "A sensor crop that digital zooms",
+      "Phone microphone sound for the dialogue"
+    ]
+  },
+  "vectors": {
+    "camera_mobility": 4,
+    "cutting_rate": 3,
+    "staging": 3,
+    "grade_stylisation": 2,
+    "frame_width": 3
+  },
+  "composition": {
+    "framing": "A 16:9 or a 2.39:1 frame with a wide lens at 1 to 2 m from the subject; a street or a room fills the edges.",
+    "staging_in_depth": "3 planes: a close foreground, the figure and a street behind, with a wide lens that exaggerates depth.",
+    "subject_placement": "Off the centre at 1/3, with 10% to 20% headroom.",
+    "principles": [
+      {
+        "principle": "focal-point",
+        "rule": "Lock the focus and the exposure on the face.",
+        "value": "1 focal point, 3:1 over its surround"
+      },
+      {
+        "principle": "framing",
+        "rule": "Crop to 2.39:1 with a clip-on anamorphic lens or in post.",
+        "value": "frame area 100%, 2.39:1 crop"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Use the wide lens to put a close object in front of the figure.",
+        "value": "3 planes, 1 close object at 10% of the frame"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Use one practical source and one small LED fill.",
+        "value": "key to fill 3:1 to 4:1"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Cut at the pace of the scene and hold each take.",
+        "value": "4 to 8 s average shot"
+      }
+    ]
+  },
+  "camera_and_movement": {
+    "movement": "A gimbal follow, a low or a tight angle in a small space, a car mount and a handheld walk.",
+    "support": "Gimbal, clamp, small tripod and a car mount",
+    "camera_height": "0.3 to 1.7 m; low angles are easy",
+    "move_speed": "0.5 to 1.5 m/s on a gimbal"
+  },
+  "lens_and_format": {
+    "aspect_ratio": "16:9, 1.85:1 or 2.39:1 (a crop or an anamorphic adapter)",
+    "frame_rate": "24 fps",
+    "shutter_angle": "180° (1/48 s)",
+    "focal_length": "24mm to 26mm main lens equivalent; 48mm to 77mm for a close-up",
+    "aperture": "f/1.5 to f/2.8 (fixed on the phone)",
+    "resolution": "4K at 24 fps in a high bit-depth or log mode",
+    "focus": "Deep field on the main lens; a locked focus on the face",
+    "equipment": [
+      "a phone with a log or a pro-res mode",
+      "a clip-on anamorphic adapter",
+      "a gimbal",
+      "a small LED panel",
+      "a lavalier microphone"
+    ]
+  },
+  "light": {
+    "quality": "Soft, natural and practical light, with a small LED panel for the fill; a clean, even exposure.",
+    "direction": "From a window or a lamp, and from the front or the side for the face.",
+    "key_to_fill_ratio": "3:1 to 4:1",
+    "colour_temperature": "Daylight 5600K or 3200K lamps, locked on the phone",
+    "source": "Windows, practical lamps and a small LED panel"
+  },
+  "colour_and_grade": {
+    "treatment": "A clean cinema grade made in post: a neutral colour, a soft contrast and a film-like roll-off on the highlights.",
+    "palette": [
+      {
+        "name": "Shadow blue",
+        "hex": "#15202A",
+        "role": "shadow"
+      },
+      {
+        "name": "Street grey",
+        "hex": "#6C7076",
+        "role": "midtones"
+      },
+      {
+        "name": "Skin tone",
+        "hex": "#D3A98C",
+        "role": "faces"
+      },
+      {
+        "name": "Highlight cream",
+        "hex": "#F3EEE2",
+        "role": "highlights"
+      }
+    ],
+    "grade_recipe": [
+      "Convert from log to Rec.709 with a standard LUT.",
+      "Set the black point at 3% and roll off the highlights above 90%.",
+      "Reduce the sharpening by 50% to 100%.",
+      "Add grain at 10% to 15% to hide the phone noise.",
+      "Add a soft bloom of 5% to 8% on the highlights."
+    ],
+    "texture": "Light grain over a clean, small-sensor image"
+  },
+  "editing_and_rhythm": {
+    "average_shot_length": "4 to 8 s (estimate; check Cinemetrics for each title)",
+    "shot_length_range": "1 s for a cutaway to 2 min for a long gimbal take",
+    "cutting_logic": "Cut at the pace of the scene; use long gimbal takes and small camera positions that a big rig cannot reach.",
+    "transitions": "Hard cut, a short dissolve and a fade to black.",
+    "runtime": "85 to 120 min"
+  },
+  "sound": {
+    "approach": "Separate sound on a lavalier or a boom, synced in post; a clean room tone.",
+    "dialogue": "Natural and close; no phone microphone for the main take.",
+    "music": "A score or a licensed track; a source song in the scene.",
+    "loudness": "−23 LUFS integrated"
+  },
+  "titles_and_graphics": {
+    "treatment": "A clean title card and an end card; a small 'Shot on' line in a lower-left card for a brand film.",
+    "type": "A clean sans-serif in white, 2 to 4 s per card."
+  },
+  "shot_primer": {
+    "opening": "Open on a gimbal move or a close, wide-lens shot of a street within the first 10 s.",
+    "shot_list": [
+      {
+        "shot": "Walk on a street, gimbal",
+        "size": "wide",
+        "lens": "24mm",
+        "movement": "gimbal follow 1.2 m/s",
+        "seconds": 20
+      },
+      {
+        "shot": "Face in a car",
+        "size": "close-up",
+        "lens": "48mm",
+        "movement": "static clamp",
+        "seconds": 8
+      },
+      {
+        "shot": "Low angle on a stair",
+        "size": "wide",
+        "lens": "24mm",
+        "movement": "gimbal rise 0.5 m/s",
+        "seconds": 6
+      },
+      {
+        "shot": "Two people in a small room",
+        "size": "two-shot",
+        "lens": "24mm",
+        "movement": "static",
+        "seconds": 15
+      },
+      {
+        "shot": "A phone screen insert",
+        "size": "insert",
+        "lens": "24mm",
+        "movement": "static",
+        "seconds": 3
+      },
+      {
+        "shot": "Night street, push of 1 stop",
+        "size": "wide",
+        "lens": "24mm",
+        "movement": "handheld",
+        "seconds": 8
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "shot on a smartphone, cinema look",
+      "wide 24mm lens at close range",
+      "gimbal follow",
+      "2.39:1 anamorphic crop",
+      "soft natural light",
+      "locked exposure on the face",
+      "light film grain over a clean image",
+      "low angle in a tight space",
+      "neutral cinema grade"
+    ],
+    "negative": [
+      "vertical frame",
+      "auto exposure flicker",
+      "oversharpened phone image",
+      "digital zoom",
+      "shaky unstabilised clip",
+      "phone microphone sound"
+    ],
+    "canonical_works": [
+      {
+        "work": "Tangerine",
+        "maker": "Sean Baker",
+        "year": 2015
+      },
+      {
+        "work": "Unsane",
+        "maker": "Steven Soderbergh",
+        "year": 2018
+      },
+      {
+        "work": "High Flying Bird",
+        "maker": "Steven Soderbergh",
+        "year": 2019
+      },
+      {
+        "work": "Shot on iPhone (campaign)",
+        "maker": "Apple",
+        "year": 2015
+      },
+      {
+        "work": "Scary Fast (event film)",
+        "maker": "Apple",
+        "year": 2023
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "dogme-95",
+      "mumblecore"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "vertical-short-form"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Immediacy and intimacy: the viewer feels close to the street and the face, and sees how little gear a film needs.",
+    "keywords": [
+      "immediate",
+      "intimate",
+      "lightweight",
+      "street-level",
+      "accessible"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "shot on iphone",
+      "phone cinema",
+      "smartphone film",
+      "tangerine sean baker",
+      "mobile filmmaking",
+      "gimbal phone"
+    ],
+    "use_cases": [
+      "brand and product films that show a phone look",
+      "indie films and shorts on a low budget",
+      "street and travel films",
+      "video prompts for a close, wide-lens look"
+    ],
+    "avoid_when": [
+      "The brief needs a shallow, large-sensor depth of field.",
+      "The scene needs a long telephoto lens."
+    ],
+    "modifiers": [
+      {
+        "request": "more vertical",
+        "toward": "vertical-short-form",
+        "how": "Keep the phone; crop to 9:16, move the subject to the safe zone and cut at 2 to 4 s."
+      },
+      {
+        "request": "more cinema",
+        "toward": "dogme-95",
+        "how": "Keep the digital image and the real rooms; add a strict set of rules for light and sound."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Tangerine (2015 film)",
+      "url": "https://en.wikipedia.org/wiki/Tangerine_(film)"
+    },
+    {
+      "title": "Unsane",
+      "url": "https://en.wikipedia.org/wiki/Unsane"
+    },
+    {
+      "title": "Shot on iPhone (Apple campaign)",
+      "url": "https://www.apple.com/iphone/shot-on-iphone/"
+    }
+  ],
+  "domain": "film"
+}
