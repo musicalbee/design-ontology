@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interior moodboards</title>
+<meta name="description" content="A moodboard and a palette for each interior style of the design ontology. Every tile is rendered from one facet of the style record, so the board shows what the skill says.">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  :root {
+    --paper: #f7f6f2; --ink: #1d1d1f; --muted: #5d5d66; --line: #d9d7d0; --card: #fff; --well: #ecebe6;
+  }
+  html, body { margin: 0; }
+  body { font: 15px/1.5 system-ui, sans-serif; background: var(--paper); color: var(--ink); }
+  :focus-visible { outline: 3px solid #6aa8ff; outline-offset: 2px; }
+  main { max-width: 1240px; margin: 0 auto; padding: 24px 16px 64px; display: grid; gap: 24px; }
+  header h1 { margin: 0; font-size: clamp(26px, 4vw, 40px); line-height: 1.1; letter-spacing: -.01em; }
+  header .thesis { margin: 12px 0 0; font-size: 18px; max-width: 72ch; }
+  header .meta { color: var(--muted); margin: 6px 0 0; font-size: 13px; }
+
+  .pills { display: flex; flex-wrap: wrap; gap: 6px; }
+  .pills button { font: inherit; font-size: 13px; padding: 4px 11px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); color: var(--ink); cursor: pointer; }
+  .pills button[aria-pressed="true"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+
+  .title h2 { margin: 0; font-size: 26px; }
+  .title p { margin: 4px 0 0; color: var(--muted); max-width: 80ch; }
+
+  .board { display: grid; gap: 8px; grid-template-columns: 1fr; }
+  .board .top { display: grid; gap: 8px; grid-template-columns: 1fr; }
+  .board .row { display: grid; gap: 8px; grid-template-columns: repeat(2, 1fr); }
+  @media (min-width: 760px) {
+    .board .top { grid-template-columns: 2.25fr 1fr; }
+    .board .row { grid-template-columns: repeat(4, 1fr); }
+  }
+  .tile { position: relative; margin: 0; border-radius: 8px; overflow: hidden; background: var(--well); min-height: 0; }
+  .tile img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .top .tile[data-t="room"] { aspect-ratio: 3 / 2; }
+  .top .tile[data-t="furniture"] { aspect-ratio: 3 / 4; }
+  @media (min-width: 760px) { .top .tile[data-t="furniture"] { aspect-ratio: auto; } }
+  .row .tile { aspect-ratio: 1; }
+  .tile figcaption { position: absolute; left: 8px; bottom: 8px; font-size: 12px; padding: 2px 8px; border-radius: 4px; background: rgb(255 255 255 / .88); color: var(--ink); }
+  .tile .missing { position: absolute; inset: 0; padding: 12px 12px 36px; font-size: 12px; color: var(--muted); overflow: auto; }
+  .tile .missing b { display: block; color: var(--ink); margin-bottom: 4px; }
+
+  .strip { display: flex; height: 64px; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); }
+  .strip > span { display: block; min-width: 4px; }
+  .split { display: flex; gap: 16px; flex-wrap: wrap; font-size: 13px; color: var(--muted); margin-top: 6px; font-variant-numeric: tabular-nums; }
+
+  .cols { display: grid; gap: 16px; grid-template-columns: 1fr; }
+  @media (min-width: 960px) { .cols { grid-template-columns: 3fr 2fr; } }
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; background: var(--card); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+  th, td { text-align: left; vertical-align: top; padding: 7px 10px; border-top: 1px solid var(--line); }
+  thead th { border-top: 0; background: #f0efea; font-weight: 650; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  td i { display: inline-block; width: 14px; height: 14px; border-radius: 3px; border: 1px solid rgb(0 0 0 / .15); vertical-align: -2px; margin-right: 6px; }
+  h3 { margin: 0 0 8px; font-size: 16px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; display: grid; gap: 8px; }
+  .card p { margin: 0; font-size: 14px; }
+  .card dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; font-size: 13px; }
+  .card dt { color: var(--muted); }
+  .card dd { margin: 0; font-variant-numeric: tabular-nums; }
+  .card button { justify-self: start; font: inherit; font-size: 13px; padding: 6px 12px; border-radius: 6px; border: 1px solid var(--ink); background: var(--ink); color: #fff; cursor: pointer; }
+  .note { font-size: 12px; color: var(--muted); }
+  footer { color: var(--muted); font-size: 13px; }
+  footer a, .card a { color: inherit; }
+</style>
+</head>
+<body>
+<script src="nav.js"></script>
+<main>
+  <header>
+    <h1>Interior moodboards</h1>
+    <p class="thesis">A board and a palette for each interior style. Each tile comes from one facet of the style record (room, materials, furniture, textiles, light, objects), so a change in the data changes the board.</p>
+    <p class="meta" id="meta">Generated images, not real rooms.</p>
+  </header>
+
+  <nav class="pills" id="pills" aria-label="Interior styles"></nav>
+
+  <section class="title" id="title" aria-live="polite"></section>
+
+  <section class="board" id="board" aria-label="Moodboard"></section>
+
+  <section>
+    <h3>Palette and colour split</h3>
+    <div class="strip" id="strip" role="img"></div>
+    <div class="split" id="split"></div>
+  </section>
+
+  <section class="cols">
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Colour</th><th>Role</th><th>Surface</th><th>LRV</th></tr></thead>
+        <tbody id="colours"></tbody>
+      </table>
+      <p class="note">LRV here is the relative luminance of the sRGB value × 100. It is a screen estimate. A paint chip under the planned light is the reference.</p>
+    </div>
+    <div style="display:grid;gap:16px;align-content:start">
+      <div class="card" id="camera"></div>
+      <div class="card" id="reuse"></div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Images: FLUX.2 [klein] 4B (Apache-2.0), seed 1955, 4 steps, rendered locally. Prompts are built by <code>scripts/render-moodboards.ts</code> from <code>data/interior/styles/*.json</code>.</p>
+  </footer>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+
+// Relative luminance (WCAG) × 100: a screen estimate of the light reflectance value.
+const lrv = (hex) => {
+  const n = parseInt(hex.slice(1), 16), ch = [n >> 16, (n >> 8) & 255, n & 255].map((v) => { v /= 255; return v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4; });
+  return Math.round((0.2126 * ch[0] + 0.7152 * ch[1] + 0.0722 * ch[2]) * 100);
+};
+
+// The same split as the interior page: wood counts with the secondary share, metal with the accents.
+const groups = (p) => [
+  ["Dominant", p.dominant_pct, p.colours.filter((c) => c.role === "dominant")],
+  ["Secondary", p.secondary_pct, p.colours.filter((c) => c.role === "secondary" || c.role === "wood")],
+  ["Accent", p.accent_pct, p.colours.filter((c) => c.role === "accent" || c.role === "metal")],
+];
+
+const manifest = fetch("moodboards/interior/manifest.json").then((r) => (r.ok ? r.json() : { tiles: [], boards: {} })).catch(() => ({ tiles: [], boards: {} }));
+const TILES = [["room", "Room"], ["furniture", "Furniture"], ["materials", "Materials"], ["textiles", "Textiles"], ["light", "Light"], ["objects", "Objects"]];
+const cache = {};
+
+// What the style record says for a facet, shown on a tile that is not rendered yet.
+const words = (v) => typeof v === "string" ? [v] : Array.isArray(v) ? v.flatMap(words) : v && typeof v === "object" ? Object.values(v).flatMap(words) : [];
+const cut = (t, n = 180) => (t.length > n ? `${t.slice(0, n - 1).trimEnd()}…` : t);
+function facet(s, id) {
+  const f = { room: s.summary, furniture: s.furniture?.key_pieces ?? s.furniture, materials: s.materials, textiles: s.textiles?.fabrics ?? s.textiles,
+    light: s.lighting?.strategy, objects: s.objects?.items ?? s.objects }[id];
+  const w = words(f);
+  return w.length ? cut(w.join(", ")) : "";
+}
+
+function tile(id, label, rec, text) {
+  const body = rec
+    ? `<img src="moodboards/interior/${esc(rec.file)}" alt="${esc(label)}: ${esc(rec.prompt)}" loading="lazy" decoding="async">`
+    : `<div class="missing"><b>Not rendered yet</b>${esc(text)}</div>`;
+  return `<figure class="tile" data-t="${id}">${body}<figcaption>${esc(label)}</figcaption></figure>`;
+}
+
+async function show(id, push) {
+  for (const b of $("pills").querySelectorAll("button")) b.setAttribute("aria-pressed", String(b.dataset.id === id));
+  const [s, m] = await Promise.all([(cache[id] ??= fetch(`../data/interior/styles/${id}.json`).then((r) => r.json())), manifest]);
+  if (push) history.replaceState(null, "", `#${id}`);
+  document.title = `${s.name} moodboard`;
+  $("title").innerHTML = `<h2>${esc(s.name)}</h2><p>${esc(s.summary)}</p>`;
+
+  const board = m.boards?.[id] ?? {};
+  const t = Object.fromEntries(TILES.map(([k, l]) => [k, tile(k, l, board[k], facet(s, k))]));
+  $("board").innerHTML = `<div class="top">${t.room}${t.furniture}</div><div class="row">${t.materials}${t.textiles}${t.light}${t.objects}</div>`;
+  const done = Object.keys(board).length;
+  const any = Object.values(board)[0];
+  $("meta").textContent = done
+    ? `Generated images, not real rooms. ${done} of ${TILES.length} tiles · ${any.model}, ${any.licence}, seed ${any.seed}, ${any.steps} steps.`
+    : "Generated images, not real rooms. This board is not rendered yet.";
+
+  const p = s.palette;
+  $("strip").innerHTML = groups(p).flatMap(([, pct, cols]) => cols.map((c) => `<span style="flex:${pct / Math.max(cols.length, 1)};background:${c.hex}" title="${esc(c.name)} ${c.hex}"></span>`)).join("");
+  $("strip").setAttribute("aria-label", `Colour split ${p.dominant_pct}/${p.secondary_pct}/${p.accent_pct}: ${p.colours.map((c) => c.name).join(", ")}`);
+  $("split").innerHTML = groups(p).map(([n, pct, cols]) => `<span><b>${n} ${pct}%</b> · ${cols.map((c) => esc(c.name)).join(", ") || "none"}</span>`).join("") + `<span>${esc(p.distribution)}</span>`;
+  $("colours").innerHTML = p.colours.map((c) => `<tr><td><i style="background:${c.hex}"></i>${esc(c.name)} <code>${c.hex}</code></td><td>${esc(c.role)}</td><td>${esc(c.surface)}</td><td class="num">${lrv(c.hex)}</td></tr>`).join("");
+
+  const cam = s.composition.rules.find((r) => r.principle === "camera-station");
+  const light = s.lighting;
+  $("camera").innerHTML = `<h3>Camera and light</h3><p>${esc(s.implementation.camera)}</p><dl>` +
+    (cam ? `<dt>Station</dt><dd>${esc(cam.value)}</dd>` : "") +
+    `<dt>Ambient / task</dt><dd>${light.ambient_lux} / ${light.task_lux} lx</dd><dt>Colour temperature</dt><dd>${light.cct_k} K, evening ${light.cct_evening_k ?? light.cct_k} K</dd>` +
+    `<dt>Light layers</dt><dd>${light.layers.map((l) => esc(l.layer)).join(", ")}</dd></dl>` +
+    `<p class="note">Check a render against the station: level verticals, ceiling 20% of the frame or less, no object cut to less than two thirds at the frame edge.</p>`;
+
+  const reuse = { style: s.id, split: [p.dominant_pct, p.secondary_pct, p.accent_pct], colours: p.colours.map(({ name, hex, role, surface }) => ({ name, hex, role, surface, lrv: lrv(hex) })), camera: s.implementation.camera, cct_k: light.cct_k };
+  $("reuse").innerHTML = `<h3>Use it in a skill</h3><p>The skill <a href="../skills/${esc(s.id)}/SKILL.md"><code>${esc(s.id)}</code></a> holds the full canon. Copy the palette as JSON to check a scene against it.</p><button type="button" id="copy">Copy palette JSON</button>`;
+  $("copy").onclick = () => navigator.clipboard?.writeText(JSON.stringify(reuse, null, 2)).then(() => { $("copy").textContent = "Copied"; setTimeout(() => ($("copy").textContent = "Copy palette JSON"), 1500); });
+}
+
+fetch("../skills/index.json").then((r) => r.json()).then((index) => {
+  const styles = index.skills.filter((s) => s.domain === "interior").sort((a, b) => a.name.localeCompare(b.name));
+  $("pills").innerHTML = styles.map((s) => `<button type="button" data-id="${esc(s.id)}" aria-pressed="false">${esc(s.name)}</button>`).join("");
+  $("pills").onclick = (e) => { const b = e.target.closest("button"); if (b) show(b.dataset.id, true); };
+  const pick = () => { const want = location.hash.slice(1); show(styles.some((s) => s.id === want) ? want : "japandi-interior", false); };
+  addEventListener("hashchange", pick);
+  pick();
+});
+</script>
+</body>
+</html>

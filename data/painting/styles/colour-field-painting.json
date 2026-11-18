@@ -1,0 +1,117 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "colour-field-painting",
+  "domain": "painting",
+  "name": "Colour Field Painting",
+  "aliases": ["Colour field", "Post-painterly abstraction", "Stain painting"],
+  "era_id": "avant-garde",
+  "time_period": { "start": 1948, "end": 1975, "label": "1948–1975" },
+  "region": "United States",
+  "media": ["oil on canvas", "acrylic"],
+  "summary": "Very large canvases of broad, even fields of colour with soft edges. The colour is the subject; it is stained into the cloth or floated in layers, and it fills the sight of the viewer.",
+  "philosophy": {
+    "core_thesis": "Colour alone can carry feeling and space: a large, simple field of hue, with no gesture and no drawing, surrounds the viewer and acts at once.",
+    "design_principles": [
+      "Make the canvas large, 2m or more on one side, so that the field fills the view of a person at 1–2m.",
+      "Divide the picture into 1–3 broad fields of colour, with no drawn line.",
+      "Soak thin paint into raw or primed cloth, so that the colour is the cloth and no stroke shows.",
+      "Soften the edge of each field, with a feathered border of 20–60mm, so that the colour seems to glow.",
+      "Choose hues of close value and strong chroma, so that the fields pulse and hover.",
+      "Hold the layout simple and frontal, with fields stacked or spread on a plain rectangle.",
+      "Leave out the figure, the object, the horizon and the gesture."
+    ],
+    "anti_patterns": [
+      "A hard, drawn line and a sharp contour",
+      "Visible, thick, gestural brush strokes",
+      "A figure, an object or a landscape",
+      "A small canvas to hold at arm's length",
+      "Many small colour units in a busy pattern",
+      "Dark, muddy, heavy mixing of the colour"
+    ]
+  },
+  "vectors": { "abstraction": 5, "brushwork_visibility": 2, "chromatic_intensity": 5, "depth_illusion": 1, "line_dominance": 1 },
+  "composition": {
+    "layout": "One to three broad rectangles or stains of colour, stacked or spread across a large frontal canvas, with soft edges and a thin margin of ground.",
+    "focal_point": "The centre of the largest field, or the edge between two fields, at the middle third of the canvas.",
+    "format": "A large canvas of 2m or more, in a vertical or square format at 4:5 to 1:1; the colour reaches or passes the edge.",
+    "principles": [
+      { "principle": "scale", "rule": "Make the canvas 2m or more on one side, so that the field fills 90% or more of the view at a distance of 1.5m." },
+      { "principle": "colour-distribution", "rule": "Divide the area into 2–3 fields with a ratio of 3:2 or 2:1, and let one hue take 50–60%." },
+      { "principle": "contrast", "rule": "Set 2 hues of near value, within 15%, and a hue gap of 60° or more, so that the edge vibrates." },
+      { "principle": "balance", "rule": "Stack the fields in a loose vertical order, with the heaviest field in the lower half or the middle." },
+      { "principle": "negative-space", "rule": "Leave a thin margin of 5–10% of the width where the ground or a quiet hue frames the fields." },
+      { "principle": "hierarchy", "rule": "Make one field the main one at 40–60% of the area, and the others smaller and quieter." }
+    ]
+  },
+  "palette": {
+    "strategy": "Broad, saturated, luminous fields of one or two hues with a close value, and a quiet ground; the colour is the subject.",
+    "distribution": "Main field 40–60%, second field 25–35%, third field or ground 10–20%.",
+    "ground": "Raw, unprimed cloth or a thin white ground that the stain enters.",
+    "colours": [
+      { "name": "Deep red", "hex": "#9E2A2B", "pigment": "cadmium red and madder", "role": "main field" },
+      { "name": "Plum", "hex": "#5B2A4A", "pigment": "alizarin and ultramarine", "role": "dark field" },
+      { "name": "Orange glow", "hex": "#E26A2C", "pigment": "cadmium orange", "role": "field and glow" },
+      { "name": "Sky blue", "hex": "#6FA3D8", "pigment": "cerulean and white", "role": "stain and space" },
+      { "name": "Spring green", "hex": "#4FA86B", "pigment": "phthalo green and white", "role": "stain" },
+      { "name": "Pale yellow", "hex": "#F1E08A", "pigment": "cadmium lemon and white", "role": "light field" },
+      { "name": "Raw canvas", "hex": "#D9CFB6", "pigment": "bare cloth", "role": "margin" }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Thin oil or diluted acrylic, poured, rolled or sponged so that it soaks in.",
+    "support": "Raw or lightly primed cotton duck, stretched, 2m or more on a side.",
+    "brushwork": "No visible stroke; the paint is poured, stained or rolled; a soft brush or sponge blends the edge over 20–60mm.",
+    "paint_handling": "1–10 very thin layers of 0.1mm or less, with an even, matt, stained look; no impasto.",
+    "edges": "Soft, feathered or stained, with a slight bleed of 20–60mm at the field edge."
+  },
+  "light_and_modelling": {
+    "light": "The colour is the light: the fields glow from inside and have no outer source.",
+    "modelling": "None; the field is flat, with a slight change of tone over 3–5 layers.",
+    "shadow": "None; depth comes from the push and pull of near hues.",
+    "temperature": "Warm fields advance and cool fields recede; the pair vibrates at the edge."
+  },
+  "subject": {
+    "typical": "Stacked fields of colour, a stain on raw cloth, a hovering rectangle, a pour of colour.",
+    "figure_scale": "No figure; the field is larger than the viewer.",
+    "treatment": "Quiet, total and open; the viewer stands before the colour and takes it in as a place."
+  },
+  "surface": {
+    "finish": "Matt, with a soft stained look.",
+    "texture": "The weave of the cloth shows; the paint has no ridge."
+  },
+  "reference_works": {
+    "works": [
+      { "work": "Untitled (Purple, White, and Red)", "artist": "Mark Rothko", "date": "1953", "museum": "Art Institute of Chicago", "object_id": "100472", "public_domain": false },
+      { "work": "Earth", "artist": "Morris Louis", "date": "1959", "museum": "Art Institute of Chicago", "object_id": "31600", "public_domain": false },
+      { "work": "Air Frame, from New York Ten", "artist": "Helen Frankenthaler", "date": "1965", "museum": "Art Institute of Chicago", "object_id": "122558", "public_domain": false }
+    ],
+    "note": "Object ids were checked against the Art Institute of Chicago API. None of the three works is flagged as public domain by the museum: the ids identify them only. Look at the museum page for the image and its licence; do not copy it."
+  },
+  "prompt_primer": {
+    "positive": ["colour field painting", "large stained fields of colour", "soft feathered edges", "luminous saturated hue", "stacked rectangles", "raw canvas ground", "Rothko and Frankenthaler style", "no gesture no line", "immersive scale", "close value, strong chroma"],
+    "negative": ["hard drawn line", "thick gestural strokes", "figure or landscape", "small canvas", "busy pattern", "muddy colour"]
+  },
+  "lineage": { "evolved_from": ["abstract-expressionism"], "rebelled_against": [], "hybridized_with": [], "echoes": [] },
+  "emotion": {
+    "target_response": "Calm, awe and absorption: the viewer is wrapped in colour and feels a quiet, large presence.",
+    "keywords": ["immersive", "luminous", "contemplative", "open", "pure"],
+    "brand_archetypes": ["sage", "magician", "lover"]
+  },
+  "agent": {
+    "triggers": ["colour field", "color field", "rothko", "frankenthaler", "morris louis", "stain painting", "soft edged rectangles", "luminous colour block"],
+    "use_cases": ["backdrops and gradients for calm interfaces", "wellness, meditation and music cover art", "wall art and hotel and lobby identity", "title cards with one strong hue"],
+    "avoid_when": [
+      "The brief needs a clear figure, a product or a message in the image.",
+      "The picture must show drawing, texture or a gesture."
+    ],
+    "modifiers": [
+      { "request": "more gestural and loud", "toward": "abstract-expressionism", "how": "Add a stroke of 100–300mm, a drip and a scrape; harden some edges and let the paint show its weight." },
+      { "request": "harder and more exact", "toward": "minimalism-painting", "how": "Sharpen every edge to under 1mm, flatten each field to one even coat, and cut the palette to 1–2 hues in a strict, repeated order." }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q1164982 (Colour field)", "url": "https://www.wikidata.org/wiki/Q1164982" },
+    { "title": "Art Institute of Chicago API (CC0 data)", "url": "https://api.artic.edu/docs/" },
+    { "title": "Clement Greenberg, Post-Painterly Abstraction (Los Angeles County Museum of Art, 1964)" }
+  ]
+}

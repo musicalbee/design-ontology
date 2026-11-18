@@ -142,8 +142,8 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 | Work | Artist | Date | Museum | Object id | Public domain |
 |---|---|---|---|---|---|
-| Stacks of Wheat (End of Summer) | Claude Monet | 1890–91 | Art Institute of Chicago | 64818 | true |
-| Stacks of Wheat (End of Day, Autumn) | Claude Monet | 1890–91 | Art Institute of Chicago | 14624 | true |
+| Two Sisters (On the Terrace) | Pierre-Auguste Renoir | 1881 | Art Institute of Chicago | 14655 | true |
+| Cliff Walk at Pourville | Claude Monet | 1882 | Art Institute of Chicago | 14620 | true |
 | Paris Street; Rainy Day | Gustave Caillebotte | 1877 | Art Institute of Chicago | 20684 | true |
 
 ## Prompt primer
@@ -171,11 +171,11 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more graphic**: move toward [`ukiyo-e`](../ukiyo-e/SKILL.md) (Ukiyo-e). Keep the cropped viewpoint and the high horizon; replace the touches with flat fields and a 1–2mm contour.
 
 - **Came from (go here for a more orthodox version):** [`realism-painting`](../realism-painting/SKILL.md)
-- **Led to (go here for a newer version):** [`pointillism`](../pointillism/SKILL.md)
+- **Led to (go here for a newer version):** [`pointillism`](../pointillism/SKILL.md), [`post-impressionism`](../post-impressionism/SKILL.md)
 - **Was rejected by:** [`cubism-painting`](../cubism-painting/SKILL.md)
 - **Mixes well with:** [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md)
 - **Kin in another domain:** [`film-grain-revival`](../film-grain-revival/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`pictorialism`](../pictorialism/SKILL.md)
-- **Nearest by vector profile:** [`pointillism`](../pointillism/SKILL.md), [`romanticism-painting`](../romanticism-painting/SKILL.md), [`fauvism`](../fauvism/SKILL.md)
+- **Nearest by vector profile:** [`pointillism`](../pointillism/SKILL.md), [`post-impressionism`](../post-impressionism/SKILL.md), [`romanticism-painting`](../romanticism-painting/SKILL.md)
 
 ## Emotional target
 

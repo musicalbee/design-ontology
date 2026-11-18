@@ -1,0 +1,118 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "post-impressionism",
+  "domain": "painting",
+  "name": "Post-Impressionism",
+  "aliases": ["Cézanne's structure", "Synthetism", "Van Gogh and Gauguin"],
+  "era_id": "nineteenth-century",
+  "time_period": { "start": 1886, "end": 1905, "label": "1886–1905" },
+  "region": "France",
+  "media": ["oil on canvas"],
+  "summary": "Painters who kept the bright colour of Impressionism and gave it back structure, feeling and symbol. Cézanne builds solid form from planes of colour; Van Gogh and Gauguin use bold colour, thick stroke and flat shape for emotion.",
+  "philosophy": {
+    "core_thesis": "A picture should do more than record a glance: colour, line and stroke build lasting form and carry the feeling of the painter.",
+    "design_principles": [
+      "Build each form from small, parallel strokes of 5–15mm that follow its surface and turn it from warm to cool.",
+      "Show a still life or a landscape from two or more eye levels, so that the table tilts up and the plates seem to lean.",
+      "Choose colour for its force: a yellow of full chroma, a blue night, an orange ground, a green shadow.",
+      "Outline the main shapes in a dark blue or brown line of 3–8mm, and keep the colour inside flat or in rhythmic strokes.",
+      "Flatten the space: reduce the depth to 2–3 layers, and let the tilted ground rise toward the picture plane.",
+      "Lay thick, visible paint of 2–5mm in the strokes that move around the focal form, so that the stroke is a drawing.",
+      "Select a plain subject, such as a bedroom, an apple, a mountain, a field or a face, and hold it close."
+    ],
+    "anti_patterns": [
+      "A fleeting, blurred impression of light with soft, lost edges",
+      "Deep, single-point perspective with a receding floor",
+      "Blended, smooth modelling with no stroke in view",
+      "Grey and brown shadows that are a dead tone",
+      "A crowded, anecdotal scene that tells a story",
+      "Dots in a strict, scientific grid"
+    ]
+  },
+  "vectors": { "abstraction": 2, "brushwork_visibility": 5, "chromatic_intensity": 4, "depth_illusion": 2, "line_dominance": 3 },
+  "composition": {
+    "layout": "A solid central mass, built from tilted planes, set against a flattened or rising ground, with a dark contour and a rhythm of directed strokes.",
+    "focal_point": "The main form or face, at about one third from an edge, in the strongest contrast of colour and the thickest paint.",
+    "format": "A canvas at 4:5 to 3:2; the subject is large and close, and fills 50–80% of the picture.",
+    "principles": [
+      { "principle": "layering-depth", "rule": "Reduce the depth to 2–3 layers, and tilt the ground up so that the horizon sits at 15–30% from the top." },
+      { "principle": "rhythm", "rule": "Repeat a directed stroke of 5–15mm 200 or more times, with the angle changing by 10–30° from one plane to the next." },
+      { "principle": "contrast", "rule": "Set a complementary pair, such as yellow against blue, in the focal area at full chroma, with a value gap of 40% or more." },
+      { "principle": "focal-point", "rule": "Place the main form at one third from an edge and make it 50–80% of the height, with the thickest paint of 2–5mm." },
+      { "principle": "unity-variety", "rule": "Keep one stroke size and one contour weight of 3–8mm across the picture, and let the hue change from plane to plane." },
+      { "principle": "colour-distribution", "rule": "Split the area in 3 colour families: a dominant 50–60%, a contrast 25–35%, and a small accent under 10%." }
+    ]
+  },
+  "palette": {
+    "strategy": "Strong, pure colour chosen for structure and feeling: the warm yellow and orange against a deep blue and a green, with a dark blue contour.",
+    "distribution": "A dominant hue family 50–60%, its complement 25–35%, neutral or earth 10–15%, dark contour under 5%.",
+    "ground": "A pale or warm ground that shows between the strokes.",
+    "colours": [
+      { "name": "Chrome yellow", "hex": "#E9B91E", "pigment": "chrome yellow", "role": "light, field and sun" },
+      { "name": "Prussian blue", "hex": "#1F3E73", "pigment": "Prussian blue", "role": "contour, night and shadow" },
+      { "name": "Emerald green", "hex": "#2F8F5E", "pigment": "emerald green", "role": "foliage and a cool plane" },
+      { "name": "Vermilion", "hex": "#CF4129", "pigment": "vermilion", "role": "warm accent and roof" },
+      { "name": "Orange ochre", "hex": "#D98B2B", "pigment": "orange and yellow ochre", "role": "ground and warm plane" },
+      { "name": "Cobalt violet", "hex": "#7A5C9E", "pigment": "cobalt violet", "role": "shadow, the complement of yellow" },
+      { "name": "Cream", "hex": "#EDE3C8", "pigment": "lead white", "role": "wall, cloth and highlight" }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Oil paint, thick, used straight from the tube with little medium.",
+    "support": "Canvas on a pale ground, often a small to medium size.",
+    "brushwork": "Parallel, directed strokes of 5–15mm that follow the form; a longer, curved stroke of 20–40mm in sky and field.",
+    "paint_handling": "1–2 layers of thick, opaque paint, 2–5mm at the ridge; the stroke stays in view and the paint is not blended.",
+    "edges": "A dark blue or brown contour of 3–8mm around the main shapes; the planes meet with a hard, visible edge."
+  },
+  "light_and_modelling": {
+    "light": "Strong, simple light or a lamp; the light is shown by a warm yellow plane, not by a cast shadow.",
+    "modelling": "By a change from warm to cool across a plane in 3–4 steps of colour, not of grey.",
+    "shadow": "A coloured plane of blue, violet or green at the same value as its neighbour; not a black.",
+    "temperature": "Warm and cool planes set side by side to turn a form, with the complement in the shadow."
+  },
+  "subject": {
+    "typical": "Still life with fruit, a bedroom, a field and a village, a mountain, a portrait, a flat scene of people on a coast.",
+    "figure_scale": "A figure or an object fills 50–80% of the picture height.",
+    "treatment": "Plain, close and felt; the subject is a reason to build form and colour, and the mood is personal."
+  },
+  "surface": {
+    "finish": "Matt to satin; no varnish on the thick paint.",
+    "texture": "Ridged and thick: each stroke can be counted."
+  },
+  "reference_works": {
+    "works": [
+      { "work": "The Bedroom", "artist": "Vincent van Gogh", "date": "1889", "museum": "Art Institute of Chicago", "object_id": "28560", "public_domain": true },
+      { "work": "The Basket of Apples", "artist": "Paul Cézanne", "date": "c. 1893", "museum": "Art Institute of Chicago", "object_id": "111436", "public_domain": true },
+      { "work": "Mahana no atua (Day of the God)", "artist": "Paul Gauguin", "date": "1894", "museum": "Art Institute of Chicago", "object_id": "27943", "public_domain": true }
+    ],
+    "note": "Object ids were checked against the Art Institute of Chicago API (CC0 data). Look at the museum page for the image and its licence."
+  },
+  "prompt_primer": {
+    "positive": ["post-impressionist painting", "thick directed brush strokes", "tilted table and flattened space", "bold dark blue contour", "chrome yellow and Prussian blue", "complementary colour pair", "Cézanne planes", "Van Gogh impasto", "Gauguin flat colour", "close, simple subject"],
+    "negative": ["blurred impression", "deep perspective", "smooth blended modelling", "grey shadows", "crowded anecdote", "dot grid"]
+  },
+  "lineage": { "evolved_from": ["impressionism"], "rebelled_against": [], "hybridized_with": [], "echoes": [] },
+  "emotion": {
+    "target_response": "Intensity and closeness: the viewer feels the weight of the form and the pulse of the stroke.",
+    "keywords": ["expressive", "structural", "vivid", "personal", "textured"],
+    "brand_archetypes": ["creator", "explorer", "outlaw"]
+  },
+  "agent": {
+    "triggers": ["post-impressionism", "post-impressionist", "van gogh", "cezanne", "gauguin", "toulouse-lautrec", "starry night style", "impasto brush strokes", "synthetism"],
+    "use_cases": ["gallery and museum campaign art", "cafe, bistro and wine identity", "book and album covers with warm, thick texture", "landscape and still-life illustration"],
+    "avoid_when": [
+      "The brief needs a clean, smooth or photographic surface.",
+      "The picture must show fine detail or a clear technical diagram."
+    ],
+    "modifiers": [
+      { "request": "lighter and more fleeting", "toward": "impressionism", "how": "Keep the bright colour; shorten the stroke to a dab of 10–20mm, soften the edges, drop the dark contour, and show a passing light." },
+      { "request": "wilder colour", "toward": "fauvism", "how": "Keep the contour and the flat patch; set the hue free from nature, enlarge the patch to 30–200mm, and raise every colour to full chroma." }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q166713 (Post-impressionism)", "url": "https://www.wikidata.org/wiki/Q166713" },
+    { "title": "Getty AAT 300021508 (Post-Impressionism)", "url": "https://vocab.getty.edu/page/aat/300021508" },
+    { "title": "Art Institute of Chicago API (CC0 data)", "url": "https://api.artic.edu/docs/" },
+    { "title": "John Rewald, Post-Impressionism: From Van Gogh to Gauguin (Museum of Modern Art, 1956)" }
+  ]
+}

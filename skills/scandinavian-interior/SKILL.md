@@ -101,6 +101,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | colour-distribution | Give white and pale grey the walls, pale wood and grey wool the secondary share, and one muted colour the accents. | 70/25/5 |
 | lighting-layers | Use 3–5 low sources per room at warm white, with glare-free shades. | 100 lux ambient, 400 lux task, 2700 K |
 | unity-variety | Use one wood species for floor and furniture; vary the textiles only. | 1 wood, 3–4 textiles |
+| camera-station | Shoot the room level, with a two-point view toward the window at 20–30 degrees. | 28 mm at 130 cm, level |
 
 ## Zoning & circulation
 
@@ -208,6 +209,7 @@ The rules above name these shared principles by id. The definition is the same i
 | `colour-distribution` | Colour distribution | Each colour takes a planned share of the visible area: a dominant colour, a secondary colour and an accent. | dominant / secondary / accent share (% of visible surface): 60/30/10 as the default; 70/25/5 calm; 40/35/25 bold; accents (count): 1 to 3 |
 | `lighting-layers` | Lighting layers | Light comes from separate layers with separate jobs: ambient light for the whole space, task light for work, accent light for the focal point. In photography the same split is key, fill and accent light. | ambient illuminance (lux): 50–300 in a home; task illuminance (lux): 300–750; accent to ambient (ratio): 3:1 to 10:1; correlated colour temperature (kelvin): 2200–4000 in a home |
 | `unity-variety` | Unity and variety | Repeated materials, colours and shapes join the parts into one whole. A small, planned number of deviations keeps the whole alive. | materials or hues that repeat (count): 2 to 4; deliberate deviations (count): 1 to 2 |
+| `camera-station` | Camera station | The position, height, lens and aim of the camera for one view. It sets the perspective of the room in the image: the horizon, the fall of the verticals and the shares of floor, wall and ceiling in the frame. | lens focal length (mm, full-frame equivalent): 24–35; 17–20 only in a room narrower than 2.5 m; camera height (cm above the floor): 100–150; 100–120 for a seated view; vertical convergence (degrees): 0: the camera is level, and lens shift (not tilt) moves the frame; ceiling share of the frame (% of the frame height): 20 or less, unless the ceiling is the subject; object cut by the frame edge (% of the object inside the frame): 66 or more, or the object is out of the frame |
 
 ## Vocabulary primer
 
@@ -234,11 +236,11 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more colour**: move toward [`dopamine-decor`](../dopamine-decor/SKILL.md) (Dopamine decor). Paint one wall and its trim in a saturated hue and raise accents to 25%; keep the wood floor.
 
 - **Came from (go here for a more orthodox version):** [`shaker-interior`](../shaker-interior/SKILL.md)
-- **Led to (go here for a newer version):** [`japandi-interior`](../japandi-interior/SKILL.md)
+- **Led to (go here for a newer version):** [`coastal-interior`](../coastal-interior/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md)
 - **Was rejected by:** [`dopamine-decor`](../dopamine-decor/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md)
 - **Mixes well with:** [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md)
 - **Kin in another domain:** [`mass-timber-architecture`](../mass-timber-architecture/SKILL.md), [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md), [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`organic-architecture`](../organic-architecture/SKILL.md), [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md)
-- **Nearest by vector profile:** [`japandi-interior`](../japandi-interior/SKILL.md), [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md)
+- **Nearest by vector profile:** [`coastal-interior`](../coastal-interior/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md), [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md)
 
 ## Emotional target
 

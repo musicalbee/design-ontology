@@ -134,14 +134,14 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Reference works
 
-- **Note:** Object ids were checked against the Art Institute of Chicago API (CC0 data). The Farm near Duivendrecht is a pre-De Stijl work and shows the path to abstraction. Look at the museum page for the image and its licence.
+- **Note:** Object ids were checked against the Art Institute of Chicago API (CC0 data). The Farm near Duivendrecht is a pre-De Stijl work and shows the path to abstraction. Counter-Composition VIII is not flagged as public domain by the museum: the id identifies it only. Look at the museum page for the image and its licence; do not copy it.
 
 **Works**
 
 | Work | Artist | Date | Museum | Object id | Public domain |
 |---|---|---|---|---|---|
 | Lozenge Composition with Yellow, Black, Blue, Red, and Gray | Piet Mondrian | 1921 | Art Institute of Chicago | 109819 | true |
-| Composition (No. 1) Gray-Red | Piet Mondrian | 1935 | Art Institute of Chicago | 65821 | true |
+| Counter-Composition VIII | Theo van Doesburg | 1924 | Art Institute of Chicago | 64962 | false |
 | Farm near Duivendrecht | Piet Mondrian | c. 1916 | Art Institute of Chicago | 144467 | true |
 
 ## Prompt primer
@@ -169,9 +169,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **less strict**: move toward [`cubism-painting`](../cubism-painting/SKILL.md) (Cubism). Keep the flat planes and the narrow palette; allow the diagonal and the tilted plane, and bring back an object clue such as a guitar or a bottle.
 
 - **Came from (go here for a more orthodox version):** [`cubism-painting`](../cubism-painting/SKILL.md)
+- **Led to (go here for a newer version):** [`minimalism-painting`](../minimalism-painting/SKILL.md)
 - **Was rejected by:** [`abstract-expressionism`](../abstract-expressionism/SKILL.md)
 - **Kin in another domain:** [`bauhaus`](../bauhaus/SKILL.md), [`bauhaus-interior`](../bauhaus-interior/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`prairie-school-architecture`](../prairie-school-architecture/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
-- **Nearest by vector profile:** [`cubism-painting`](../cubism-painting/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md)
+- **Nearest by vector profile:** [`minimalism-painting`](../minimalism-painting/SKILL.md), [`suprematism`](../suprematism/SKILL.md), [`symbolism-painting`](../symbolism-painting/SKILL.md)
 
 ## Emotional target
 

@@ -1,0 +1,63 @@
+{
+  "$schema": "../../schema/principle.schema.json",
+  "id": "camera-station",
+  "name": "Camera station",
+  "aliases": [
+    "camera position",
+    "viewpoint",
+    "station point"
+  ],
+  "definition": "The position, height, lens and aim of the camera for one view. It sets the perspective of the room in the image: the horizon, the fall of the verticals and the shares of floor, wall and ceiling in the frame.",
+  "measures": [
+    {
+      "measure": "lens focal length",
+      "unit": "mm, full-frame equivalent",
+      "reference": "24–35; 17–20 only in a room narrower than 2.5 m",
+      "domains": ["interior", "architecture", "photography"]
+    },
+    {
+      "measure": "camera height",
+      "unit": "cm above the floor",
+      "reference": "100–150; 100–120 for a seated view",
+      "domains": ["interior", "architecture", "photography", "film"]
+    },
+    {
+      "measure": "vertical convergence",
+      "unit": "degrees",
+      "reference": "0: the camera is level, and lens shift (not tilt) moves the frame",
+      "domains": ["interior", "architecture", "photography"]
+    },
+    {
+      "measure": "ceiling share of the frame",
+      "unit": "% of the frame height",
+      "reference": "20 or less, unless the ceiling is the subject",
+      "domains": ["interior", "photography"]
+    },
+    {
+      "measure": "object cut by the frame edge",
+      "unit": "% of the object inside the frame",
+      "reference": "66 or more, or the object is out of the frame",
+      "domains": ["interior", "photography", "film"]
+    }
+  ],
+  "applies_to": [
+    "interior",
+    "architecture",
+    "photography",
+    "film"
+  ],
+  "related": [
+    "sightlines",
+    "rule-of-thirds",
+    "layering-depth",
+    "framing"
+  ],
+  "sources": [
+    {
+      "title": "Julius Shulman, Photographing Architecture and Interiors (Whitney Library of Design, 1962)"
+    },
+    {
+      "title": "Norman McGrath, Photographing Buildings Inside and Out (Whitney Library of Design, 2nd edition, 1993)"
+    }
+  ]
+}
