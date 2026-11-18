@@ -136,6 +136,12 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Reference images
 
+**Images**
+
+| Title | Credit | Licence | Url |
+|---|---|---|---|
+| Eames House, Case Study House No. 8 | Gunnar Klack | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Eames-House-Case-Study-House-No-8-Pacific-Palisades-California-04-2014b.jpg |
+
 ## Composition principles
 
 The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).

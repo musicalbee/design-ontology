@@ -137,6 +137,12 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Reference images
 
+**Images**
+
+| Title | Credit | Licence | Url |
+|---|---|---|---|
+| Chrysler Building, New York | David Shankbone | Public domain | https://commons.wikimedia.org/wiki/File:Chrysler_Building_by_David_Shankbone_Retouched.jpg |
+
 ## Composition principles
 
 The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).

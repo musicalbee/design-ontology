@@ -8,7 +8,7 @@
   "required": [
     "id", "domain", "name", "aliases", "era_id", "time_period", "building_types", "summary",
     "philosophy", "vectors", "massing", "structure", "materials", "facade",
-    "light_and_space", "ornament", "composition", "lineage", "emotion", "agent", "primer", "identity", "references"
+    "light_and_space", "ornament", "composition", "lineage", "emotion", "agent", "primer", "references"
   ],
   "properties": {
     "$schema": { "type": "string" },
@@ -123,6 +123,7 @@
     "identity": {
       "type": "object",
       "additionalProperties": false,
+      "minProperties": 1,
       "description": "Open identifiers. Store an id only when the record exists and matches the style.",
       "properties": {
         "wikidata": { "type": "string", "pattern": "^Q[0-9]+$" },
@@ -156,18 +157,26 @@
       }
     },
     "references": {
-      "type": "array",
-      "maxItems": 6,
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["images"],
       "description": "Reference images. The repository stores the link, the credit and the licence of each file, never the file.",
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": ["title", "credit", "licence", "url"],
-        "properties": {
-          "title": { "$ref": "../core.schema.json#/$defs/shortText" },
-          "credit": { "type": "string", "minLength": 3, "maxLength": 200 },
-          "licence": { "enum": ["CC0", "Public domain", "CC BY 4.0", "CC BY-SA 3.0", "CC BY-SA 4.0"] },
-          "url": { "type": "string", "pattern": "^https://" }
+      "properties": {
+        "images": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["title", "credit", "licence", "url"],
+            "properties": {
+              "title": { "$ref": "../core.schema.json#/$defs/shortText" },
+              "credit": { "type": "string", "minLength": 3, "maxLength": 200 },
+              "licence": { "enum": ["CC0", "Public domain", "CC BY 4.0", "CC BY-SA 3.0", "CC BY-SA 4.0"] },
+              "url": { "type": "string", "pattern": "^https://" }
+            }
+          }
         }
       }
     },

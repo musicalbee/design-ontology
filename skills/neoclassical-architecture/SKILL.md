@@ -138,6 +138,12 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Reference images
 
+**Images**
+
+| Title | Credit | Licence | Url |
+|---|---|---|---|
+| Altes Museum, Berlin | Ansgar Koreng | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Altes_Museum,_Berlin-Mitte,_170117,_ako.jpg |
+
 ## Composition principles
 
 The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).

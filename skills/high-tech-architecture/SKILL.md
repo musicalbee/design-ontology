@@ -122,7 +122,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 - **Symmetry:** bilateral
 - **Axis count:** 1
-- **Rhythm module m:** 6
+- **Rhythm module m:** 12.8
 
 **Rules**
 
@@ -135,6 +135,12 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | zoning | Keep the floor plates free of columns for flexible use. | clear span 44m |
 
 ## Reference images
+
+**Images**
+
+| Title | Credit | Licence | Url |
+|---|---|---|---|
+| Centre Pompidou, Paris | Alf van Beem | CC0 | https://commons.wikimedia.org/wiki/File:Centre_Pompidou,_seen_from_Tour_Montparnasse.jpg |
 
 ## Composition principles
 

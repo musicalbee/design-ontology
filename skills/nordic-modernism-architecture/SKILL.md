@@ -137,6 +137,12 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Reference images
 
+**Images**
+
+| Title | Credit | Licence | Url |
+|---|---|---|---|
+| Paimio Sanatorium, Alvar Aalto | V. K. Hietanen | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:The_Paimio_Sanatorium,_designed_by_Alvar_Aalto,_pictured_in_1961_(JOKAVKH2F01-5).tif |
+
 ## Composition principles
 
 The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).

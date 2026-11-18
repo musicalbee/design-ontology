@@ -123,7 +123,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 - **Symmetry:** bilateral
 - **Axis count:** 1
-- **Rhythm module m:** 3
+- **Rhythm module m:** 6.5
 
 **Rules**
 
@@ -137,6 +137,12 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | scale | Make the interior tower over the person: vault heights of 30 to 48m. | vault 30–48m |
 
 ## Reference images
+
+**Images**
+
+| Title | Credit | Licence | Url |
+|---|---|---|---|
+| Chartres Cathedral, central portal of the west façade | Anne C. Richardson, Jim Womack (Vanderbilt ACT) | Public domain | https://commons.wikimedia.org/wiki/File:Chartres_Cathedral;_Christ_in_Majesty;_central_portal,_west_facade_-_Vanderbilt_ACT_-_00000043.jpg |
 
 ## Composition principles
 

@@ -137,6 +137,12 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Reference images
 
+**Images**
+
+| Title | Credit | Licence | Url |
+|---|---|---|---|
+| Heydar Aliyev Center, Baku | Fanti Salms | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Heydar_Aliyev_International_Conference_Center_Baku_Azerbaijan.jpg |
+
 ## Composition principles
 
 The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).

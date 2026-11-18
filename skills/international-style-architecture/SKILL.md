@@ -120,9 +120,9 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Composition rules
 
-- **Symmetry:** bilateral
-- **Axis count:** 1
-- **Rhythm module m:** 3
+- **Symmetry:** asymmetric
+- **Axis count:** 0
+- **Rhythm module m:** 6
 
 **Rules**
 
@@ -131,10 +131,16 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | rhythm | Repeat a regular structural grid over the whole front. | grid 6m |
 | negative-space | Leave the wall plain and white, with no applied ornament. | 0 ornament |
 | proportion | Set the volume on a clean ratio, and lift it on pilotis. | pilotis 3m |
-| symmetry-axis | Balance the volumes, and keep the front free of an axis if the plan needs it. | free façade |
+| symmetry-axis | Balance the volumes without a mirror axis, and keep the front free. | 0 axes |
 | sightlines | Use the ribbon window to give a long horizontal view. | ribbon band 1:3 |
 
 ## Reference images
+
+**Images**
+
+| Title | Credit | Licence | Url |
+|---|---|---|---|
+| Villa Savoye, Poissy | Wasily | CC0 | https://commons.wikimedia.org/wiki/File:Savoye_3.JPG |
 
 ## Composition principles
 

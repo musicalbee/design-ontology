@@ -136,6 +136,12 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Reference images
 
+**Images**
+
+| Title | Credit | Licence | Url |
+|---|---|---|---|
+| Barbican Estate, London | Julian Herzog | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Barbican_Estate_City_of_London_2026_01.jpg |
+
 ## Composition principles
 
 The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
