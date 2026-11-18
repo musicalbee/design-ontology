@@ -206,7 +206,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more rhythm**: move toward [`soviet-montage`](../soviet-montage/SKILL.md) (Soviet montage). Keep the 1.33:1 frame and the hard light; cut to an average of 2 to 3 s and join shots by graphic match.
 
 - **Led to (go here for a newer version):** [`classical-hollywood`](../classical-hollywood/SKILL.md)
-- **Kin in another domain:** [`baroque-painting`](../baroque-painting/SKILL.md), [`film-noir-still`](../film-noir-still/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md)
+- **Kin in another domain:** [`baroque-painting`](../baroque-painting/SKILL.md), [`expressionism-painting`](../expressionism-painting/SKILL.md), [`film-noir-still`](../film-noir-still/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md)
 - **Nearest by vector profile:** [`planimetric-symmetry`](../planimetric-symmetry/SKILL.md), [`classical-hollywood`](../classical-hollywood/SKILL.md), [`music-video`](../music-video/SKILL.md)
 
 ## Emotional target

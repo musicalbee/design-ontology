@@ -186,6 +186,7 @@ Delight and ease: the viewer feels charmed, a little flirted with, and light.
 ## Sources
 
 - [Wikidata Q122960 (Rococo)](https://www.wikidata.org/wiki/Q122960)
+- [Getty AAT 300021155 (Rococo)](https://vocab.getty.edu/page/aat/300021155)
 - Katie Scott, The Rococo Interior (Yale University Press, 1995)
 - [Art Institute of Chicago API (CC0 data)](https://api.artic.edu/docs/)
 

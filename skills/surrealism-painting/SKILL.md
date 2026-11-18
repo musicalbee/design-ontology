@@ -175,7 +175,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`abstract-expressionism`](../abstract-expressionism/SKILL.md)
 - **Kin in another domain:** [`vaporwave`](../vaporwave/SKILL.md)
-- **Nearest by vector profile:** [`renaissance-painting`](../renaissance-painting/SKILL.md), [`airbrush-surrealism`](../airbrush-surrealism/SKILL.md), [`mannerism-painting`](../mannerism-painting/SKILL.md)
+- **Nearest by vector profile:** [`renaissance-painting`](../renaissance-painting/SKILL.md), [`photorealism`](../photorealism/SKILL.md), [`airbrush-surrealism`](../airbrush-surrealism/SKILL.md)
 
 ## Emotional target
 
@@ -186,6 +186,7 @@ Uncanny wonder: the viewer feels a calm, clear image that cannot be true, and ca
 ## Sources
 
 - [Wikidata Q39427 (Surrealism)](https://www.wikidata.org/wiki/Q39427)
+- [Getty AAT 300021512 (Surrealism)](https://vocab.getty.edu/page/aat/300021512)
 - [Art Institute of Chicago API (CC0 data)](https://api.artic.edu/docs/)
 - André Breton, Manifeste du surréalisme (1924)
 

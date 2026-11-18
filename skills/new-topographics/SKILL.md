@@ -175,7 +175,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`straight-photography`](../straight-photography/SKILL.md)
 - **Led to (go here for a newer version):** [`duesseldorf-school`](../duesseldorf-school/SKILL.md)
 - **Mixes well with:** [`new-colour`](../new-colour/SKILL.md)
-- **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`planimetric-symmetry`](../planimetric-symmetry/SKILL.md), [`slow-cinema`](../slow-cinema/SKILL.md)
+- **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`photorealism`](../photorealism/SKILL.md), [`planimetric-symmetry`](../planimetric-symmetry/SKILL.md), [`slow-cinema`](../slow-cinema/SKILL.md)
 - **Nearest by vector profile:** [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md)
 
 ## Emotional target

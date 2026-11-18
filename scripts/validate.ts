@@ -117,6 +117,7 @@ for (const { file, slug, technique: t } of techniques) {
   });
 }
 
+const vectorOwner = new Map<string, string>();
 if (!schemaOnly && errors.length === 0) {
   for (const c of techniqueChecks) c();
   for (const style of byId.values()) {
@@ -148,6 +149,20 @@ if (!schemaOnly && errors.length === 0) {
     if (overlap.length) warnings.push(`${where}: "${overlap.join(", ")}" is both an ancestor and a target of rebellion`);
     if (!l.evolved_from.length && !l.rebelled_against.length && !l.hybridized_with.length)
       warnings.push(`${where}: no lineage edges in its own domain (root node)`);
+
+    // Two styles of one domain with the same vector cannot be told apart by the vector.
+    const key = `${style.domain}:${JSON.stringify(Object.entries(style.vectors).sort())}`;
+    const twin = vectorOwner.get(key);
+    if (twin) warnings.push(`${where}: same vector as "${twin}" in "${style.domain}"`);
+    else vectorOwner.set(key, style.id);
+
+    // A reference work should come from the period of the style: at least one year of its date inside time_period.
+    const works = (style as { reference_works?: { works?: { work: string; date: string }[] } }).reference_works?.works ?? [];
+    for (const w of works) {
+      const years = (w.date.match(/\b\d{4}\b/g) ?? []).map(Number);
+      if (years.length && !years.some((y) => y >= style.time_period.start && y <= (style.time_period.end ?? 9999)))
+        warnings.push(`${where}: reference work "${w.work}" (${w.date}) is outside ${style.time_period.start}–${style.time_period.end ?? "now"}`);
+    }
   }
 }
 

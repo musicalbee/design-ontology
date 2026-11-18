@@ -301,14 +301,22 @@ flowchart LR
     impressionism["Impressionism"]
     nordic_national_romanticism_painting["Nordic national romanticism"]
     pointillism["Pointillism"]
+    post_impressionism["Post-Impressionism"]
+    symbolism_painting["Symbolism"]
   end
   subgraph painting_avant_garde["Painting · Avant-garde · 1905–1970"]
+    expressionism_painting["Expressionism"]
     fauvism["Fauvism"]
     cubism_painting["Cubism"]
+    futurism_painting["Futurism"]
+    suprematism["Suprematism"]
     de_stijl_painting["De Stijl painting"]
     surrealism_painting["Surrealism"]
     abstract_expressionism["Abstract Expressionism"]
+    colour_field_painting["Colour Field Painting"]
     pop_art_painting["Pop Art"]
+    minimalism_painting["Minimalism"]
+    photorealism["Photorealism"]
     airbrush_surrealism["Airbrush Surrealism"]
   end
   abstract_expressionism <-. echoes .-> brutalist_architecture
@@ -326,7 +334,9 @@ flowchart LR
   art_nouveau_architecture <-. echoes .-> art_nouveau_interior
   art_nouveau_architecture <-. echoes .-> art_nouveau_web
   art_nouveau_architecture <-. echoes .-> rococo_painting
+  art_nouveau_architecture <-. echoes .-> symbolism_painting
   art_nouveau_interior <-. echoes .-> art_nouveau_web
+  art_nouveau_web <-. echoes .-> symbolism_painting
   arts_and_crafts_interior <-. echoes .-> nordic_national_romanticism_painting
   baroque_architecture <-. echoes .-> baroque_painting
   baroque_painting <-. echoes .-> film_noir_still
@@ -355,7 +365,9 @@ flowchart LR
   camcorder_revival <-. echoes .-> y2k_digicam
   cassette_futurism <-. echoes .-> high_tech_architecture
   constructivism_web <-. echoes .-> cubism_painting
+  constructivism_web <-. echoes .-> futurism_painting
   constructivism_web <-. echoes .-> soviet_montage
+  constructivism_web <-. echoes .-> suprematism
   cubism_painting <-. echoes .-> deconstructivist_architecture
   cyberdelia <-. echoes .-> party_flash
   de_stijl_painting <-. echoes .-> de_stijl_web
@@ -371,6 +383,7 @@ flowchart LR
   dopamine_decor <-. echoes .-> food_photography
   dopamine_decor <-. echoes .-> memphis_design
   duesseldorf_school <-. echoes .-> international_style_architecture
+  expressionism_painting <-. echoes .-> german_expressionist_cinema
   fashion_editorial <-. echoes .-> grunge_editorial
   fashion_editorial <-. echoes .-> quiet_luxury_interior
   fauvism <-. echoes .-> new_colour
@@ -379,6 +392,7 @@ flowchart LR
   flat_design <-. echoes .-> minimalist_interior
   flat_design <-. echoes .-> ukiyo_e
   french_new_wave <-. echoes .-> street_photography
+  futurism_painting <-. echoes .-> soviet_montage
   georgian_interior <-. echoes .-> renaissance_painting
   german_expressionist_cinema <-. echoes .-> new_objectivity
   grandmillennial_interior <-. echoes .-> impressionism
@@ -395,6 +409,7 @@ flowchart LR
   international_style_architecture <-. echoes .-> straight_photography
   international_style_architecture <-. echoes .-> swiss_international
   italian_neorealism <-. echoes .-> street_photography
+  japandi_interior <-. echoes .-> minimalism_painting
   japandi_interior <-. echoes .-> scandinavian_interior_photography
   japandi_interior <-. echoes .-> ukiyo_e
   japandi_interior <-. echoes .-> wabi_sabi_web
@@ -409,9 +424,12 @@ flowchart LR
   mid_century_modern_architecture <-. echoes .-> mid_century_modern_interior
   mid_century_modern_architecture <-. echoes .-> space_age
   mid_century_modern_interior <-. echoes .-> space_age
+  minimalism_painting <-. echoes .-> rams_functionalism_ui
+  minimalism_painting <-. echoes .-> swiss_international
   minimalist_interior <-. echoes .-> rams_functionalism_ui
   music_video <-. echoes .-> y2k_aesthetic
   new_hollywood <-. echoes .-> street_photography
+  new_topographics <-. echoes .-> photorealism
   new_topographics <-. echoes .-> planimetric_symmetry
   new_topographics <-. echoes .-> slow_cinema
   nordic_modernism_architecture <-. echoes .-> scandinavian_interior
@@ -447,6 +465,7 @@ flowchart LR
   new_colour --> cinematic_teal_orange
   german_expressionist_cinema --> classical_hollywood
   neumorphism --> claymorphism
+  abstract_expressionism --> colour_field_painting
   flat_design --> corporate_memphis
   memphis_design --> corporate_memphis
   dark_devtool_ui --> cybercore_web
@@ -462,6 +481,7 @@ flowchart LR
   swiss_international --> editorial_serif_revival
   aurora_gradient_ui --> ethereal_web
   glassmorphism --> ethereal_web
+  post_impressionism --> expressionism_painting
   pictorialism --> fashion_editorial
   straight_photography --> fashion_editorial
   pointillism --> fauvism
@@ -473,6 +493,7 @@ flowchart LR
   italian_neorealism --> french_new_wave
   soviet_montage --> french_new_wave
   y2k_aesthetic --> frutiger_aero
+  cubism_painting --> futurism_painting
   frutiger_aero --> glassmorphism
   georgian_interior --> grandmillennial_interior
   victorian_interior --> grandmillennial_interior
@@ -494,6 +515,8 @@ flowchart LR
   international_style_architecture --> mid_century_modern_architecture
   prairie_school_architecture --> mid_century_modern_architecture
   bauhaus_interior --> mid_century_modern_interior
+  de_stijl_painting --> minimalism_painting
+  suprematism --> minimalism_painting
   bauhaus_interior --> minimalist_interior
   flat_design --> neo_brutalism_ui
   art_deco_interior --> neo_deco_interior
@@ -505,9 +528,11 @@ flowchart LR
   international_style_architecture --> nordic_modernism_architecture
   deconstructivist_architecture --> parametricism_architecture
   y2k_digicam --> party_flash
+  pop_art_painting --> photorealism
   y2k_aesthetic --> pixel_art_web
   impressionism --> pointillism
   mid_century_modern --> pop_art_web
+  impressionism --> post_impressionism
   japandi_interior --> quiet_luxury_interior
   bauhaus --> rams_functionalism_ui
   swiss_international --> rams_functionalism_ui
@@ -520,6 +545,8 @@ flowchart LR
   mid_century_modern --> space_age
   glassmorphism --> spatial_visionos
   straight_photography --> street_photography
+  cubism_painting --> suprematism
+  futurism_painting --> suprematism
   bauhaus --> swiss_international
   vaporwave --> synthwave_web
   y2k_aesthetic --> synthwave_web
@@ -569,6 +596,7 @@ flowchart LR
   memphis_interior -. rejects .-> mid_century_modern_interior
   metro_ui -. rejects .-> frutiger_aero
   metro_ui -. rejects .-> skeuomorphism
+  minimalism_painting -. rejects .-> abstract_expressionism
   minimalist_interior -. rejects .-> memphis_interior
   music_video -. rejects .-> classical_hollywood
   neo_brutalism_ui -. rejects .-> corporate_memphis
@@ -579,6 +607,7 @@ flowchart LR
   new_hollywood -. rejects .-> classical_hollywood
   new_objectivity -. rejects .-> pictorialism
   parametricism_architecture -. rejects .-> international_style_architecture
+  photorealism -. rejects .-> abstract_expressionism
   planimetric_symmetry -. rejects .-> dogme_95
   pop_art_painting -. rejects .-> abstract_expressionism
   postmodern_architecture -. rejects .-> brutalist_architecture
@@ -594,6 +623,7 @@ flowchart LR
   scrapbook_ui -. rejects .-> flat_design
   slow_cinema -. rejects .-> classical_hollywood
   straight_photography -. rejects .-> pictorialism
+  symbolism_painting -. rejects .-> realism_painting
   synthwave_web -. rejects .-> flat_design
   terminal_tui_web -. rejects .-> material_design
   wabi_sabi_web -. rejects .-> flat_design
@@ -713,25 +743,16 @@ flowchart LR
   linkStyle 112 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 113 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 114 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 217 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 218 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 219 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 220 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 221 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 222 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 223 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 224 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 225 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 226 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 227 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 228 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 229 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 230 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 231 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 232 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 233 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 234 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 235 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 115 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 116 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 117 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 118 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 119 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 120 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 121 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 122 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 123 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 124 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 236 stroke:#E5484D,stroke-width:1.5px
   linkStyle 237 stroke:#E5484D,stroke-width:1.5px
   linkStyle 238 stroke:#E5484D,stroke-width:1.5px
@@ -783,6 +804,28 @@ flowchart LR
   linkStyle 284 stroke:#E5484D,stroke-width:1.5px
   linkStyle 285 stroke:#E5484D,stroke-width:1.5px
   linkStyle 286 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 287 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 288 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 289 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 290 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 291 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 292 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 293 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 294 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 295 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 296 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 297 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 298 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 299 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 300 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 301 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 302 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 303 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 304 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 305 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 306 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 307 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 308 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 
@@ -829,7 +872,7 @@ The ontology has domains. A domain is one manifest ([`domains/`](domains/)) and 
 | Interior | 8 | composition rules in cm, lux and K, and a scene primer | [one room, each style](demo/interior.html) |
 | Photography | 8 | camera numbers (mm, f-stop, shutter, ISO, K) and a grade recipe | [gallery](demo/photography.html) |
 | Film and video | 8 | shot primer (aspect, fps, shutter angle, shot length) and a video-prompt primer | [gallery](demo/film.html) |
-| Painting | 8 | palette in hex, brushwork and medium rules, a composition schema | [gallery](demo/painting.html) |
+| Painting | 25 | palette in hex, brushwork and medium rules, a composition schema | [gallery](demo/painting.html) |
 
 **Composition principles** are shared. [`data/principles/`](data/principles/) holds 20 records, such as focal point, symmetry and axis, rhythm, rule of thirds, layering in depth and colour distribution. Each record has a definition and a measure with a typical range. A style in any domain names a principle by id and gives its own number. The validator refuses an id that does not exist.
 
