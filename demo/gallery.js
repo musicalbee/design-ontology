@@ -15,12 +15,6 @@ document.head.insertAdjacentHTML("beforeend", `<style>
     --paper: #f7f6f2; --ink: #1d1d1f; --muted: #5d5d66; --line: #d9d7d0; --accent: #d6336c; }
   html, body { margin: 0; }
   body { font: 15px/1.5 system-ui, sans-serif; background: var(--paper); color: var(--ink); }
-  .picker { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; gap: 10px; padding: 8px 12px;
-    background: var(--chrome); color: var(--chrome-ink); font: 13px/1.2 system-ui, sans-serif; border-bottom: 1px solid #34343a; }
-  .picker button { font: inherit; color: var(--chrome-ink); background: var(--chrome-2); border: 1px solid var(--chrome-line); border-radius: 6px; padding: 6px 10px; cursor: pointer; white-space: nowrap; }
-  .picker button:hover { background: #3a3a42; }
-  .picker button[aria-pressed="true"] { background: var(--chrome-ink); color: var(--chrome); border-color: var(--chrome-ink); }
-  .chips { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: thin; padding: 2px; flex: 1; }
   :focus-visible { outline: 3px solid #6aa8ff; outline-offset: 2px; }
   main { max-width: 1240px; margin: 0 auto; padding: 24px 16px 64px; display: grid; gap: 24px; }
   header h1 { margin: 0; font-size: clamp(26px, 4vw, 40px); line-height: 1.1; letter-spacing: -.01em; }
@@ -55,7 +49,6 @@ document.head.insertAdjacentHTML("beforeend", `<style>
 </style>`);
 
 document.body.insertAdjacentHTML("beforeend", `
-<div class="picker"><button id="prev" aria-label="Previous style">←</button><div class="chips" id="chips"></div><button id="next" aria-label="Next style">→</button></div>
 <main>
   <header><h1 id="h-name"></h1><p class="meta" id="h-meta"></p><p class="thesis" id="h-thesis"></p></header>
   <section class="hero">
@@ -152,7 +145,7 @@ function show(i) {
     document.title = `${s.name}: ${domain.name} styles`;
   });
   for (const b of $("chips").children) b.setAttribute("aria-pressed", b.dataset.go === meta.id);
-  $("chips").querySelector('[aria-pressed="true"]')?.scrollIntoView({ block: "nearest", inline: "center" });
+  $("chips").querySelector('[aria-pressed="true"]')?.scrollIntoView({ block: "nearest" });
   if (location.hash.slice(1) !== meta.id) history.replaceState(null, "", "#" + meta.id);
 }
 
