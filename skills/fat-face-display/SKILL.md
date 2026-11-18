@@ -181,6 +181,7 @@ Each item below has an open licence or is in the public domain, so you may show 
 - [Abril Fatface](https://fonts.google.com/specimen/Abril+Fatface) (TypeTogether, 2011): font, OFL-1.1. google/fonts repository, ofl/abrilfatface
 - [Rozha One](https://fonts.google.com/specimen/Rozha+One) (Indian Type Foundry, 2014): font, OFL-1.1. google/fonts repository, ofl/rozhaone
 - [Chonburi](https://fonts.google.com/specimen/Chonburi) (Cadson Demak, 2015): font, OFL-1.1. google/fonts repository, ofl/chonburi
+- [Yeseva One](https://fonts.google.com/specimen/Yeseva+One) (Jovanny Lemonad, 2011): font, OFL-1.1. google/fonts repository, ofl/yesevaone
 - [Thorowgood fold-out specimen of a fat face, 1825](https://commons.wikimedia.org/wiki/File:Thorowgood_1825_Fold_Out_Specimen_(7439948324).jpg) (William Thorowgood, Fann Street Foundry, 1825): image, CC BY 2.0. Photo by James Puckett (Flickr); Wikimedia Commons
 
 ## Sources
