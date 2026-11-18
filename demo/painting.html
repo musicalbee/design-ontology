@@ -3,61 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>One composition in every painting style</title>
-<meta name="description" content="One composition schema in SVG: a horizon, a diagonal, a focal point on the third line and a mass. Each painting style gives it its palette.">
-<style>
-  *, *::before, *::after { box-sizing: border-box; }
-  body { margin: 0; font: 15px/1.5 system-ui, sans-serif; background: #17171a; color: #f4f4f5; }
-  header, main { max-width: 1160px; margin: 0 auto; padding: 24px clamp(16px, 4vw, 48px); }
-  h1 { font-size: 1.5rem; margin: 0 0 4px; }
-  p { margin: 0 0 8px; color: #c9c9d0; max-width: 62ch; }
-  label { color: #c9c9d0; font-size: .9rem; }
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; margin-top: 12px; }
-  figure { margin: 0; background: #202026; border: 1px solid #34343a; border-radius: 8px; overflow: hidden; }
-  figure svg { display: block; width: 100%; height: auto; }
-  figcaption { padding: 10px 14px 14px; }
-  figcaption b { display: block; font-size: 1rem; }
-  figcaption span, figcaption li { color: #a9a9b3; font-size: .82rem; }
-  figcaption ul { margin: 8px 0 0; padding-left: 18px; }
-  .sw { display: flex; gap: 4px; margin-top: 8px; }
-  .sw i { width: 22px; height: 12px; border-radius: 2px; border: 1px solid #0006; }
-  .thirds line { stroke: #fff; stroke-opacity: .55; stroke-width: 1; stroke-dasharray: 4 4; }
-  .off .thirds { display: none; }
-</style>
+<title>Painting styles</title>
+<meta name="description" content="Painting styles as picture-surface rules: composition, palette, brushwork and surface, with one generated preview for each.">
 </head>
-<body>
-<header>
-  <h1>One composition, every painting style</h1>
-  <p>The same schema: a horizon at 40% of the height, a diagonal path, one focal point on the third line, one dark mass in front and one light mass behind. Each style supplies only its palette, ordered by lightness.</p>
-  <p>Colours come from the palette of each record in <code>data/painting/styles/</code>. No image of a painting is copied here. The reference works are listed by museum and id: a mark of PD means the museum flags the image as public domain.</p>
-  <label><input type="checkbox" id="t" checked> Show the thirds grid</label>
-</header>
-<main><div class="grid" id="grid"></div></main>
-<script>
-const STYLES = [{"id": "renaissance-painting", "name": "Renaissance painting", "start": 1400, "label": "1400–1520", "cols": ["#1F3F8F", "#C8321E", "#D9B44A", "#7C8C5A", "#EFE8D8", "#C9996B", "#5B4331", "#6D93B8"], "works": [["Virgin and Child with an Angel", "Sandro Botticelli", "1475–85", "Art Institute of Chicago", "80530", true], ["Virgin and Child with Two Angels", "Sandro Botticelli", "1485–95", "Art Institute of Chicago", "80526", true], ["Virgin and Child", "Giovanni Bellini", "undated", "Art Institute of Chicago", "117816", true]]}, {"id": "mannerism-painting", "name": "Mannerism", "start": 1520, "label": "1520–1600", "cols": ["#2A4E96", "#D98A9B", "#E0D260", "#5E9E87", "#E6D5C3", "#3A3F47", "#C73B26"], "works": [["The Assumption of the Virgin", "El Greco", "1577–79", "Art Institute of Chicago", "87479", true], ["Venus with Cupid and Putto", "Parmigianino", "1527/30", "Art Institute of Chicago", "12124", true], ["Group of Nine Standing Figures", "Parmigianino", "1524/27", "Art Institute of Chicago", "52668", true]]}, {"id": "baroque-painting", "name": "Baroque painting", "start": 1600, "label": "1600–1720", "cols": ["#1B1410", "#4A3022", "#9A4B2A", "#E3B98E", "#F1E8D5", "#A3202E", "#3B5B8C"], "works": [["Aristotle with a Bust of Homer", "Rembrandt", "1653", "The Met", "437394", true], ["Young Woman with a Water Pitcher", "Johannes Vermeer", "c. 1662", "The Met", "437881", true], ["The Night Watch", "Rembrandt", "1642", "Rijksmuseum", "SK-C-5", true], ["The Milkmaid", "Johannes Vermeer", "c. 1660", "Rijksmuseum", "SK-A-2344", true]]}, {"id": "ukiyo-e", "name": "Ukiyo-e", "start": 1680, "label": "1680s–1860s", "cols": ["#1C1A1F", "#17406E", "#2F4B7C", "#C9DDE6", "#D8452B", "#D9A93F", "#F1E9D4"], "works": [["Under the Wave off Kanagawa (The Great Wave)", "Katsushika Hokusai", "c. 1830–32", "The Met", "45434", true], ["Plum Garden at Kameido", "Utagawa Hiroshige", "1857", "Art Institute of Chicago", "26577", true], ["Mishima: Morning Mist", "Utagawa Hiroshige", "c. 1833–34", "Art Institute of Chicago", "10926", true], ["Hamamatsu (Fifty-three Stations of the Tokaido)", "Utagawa Hiroshige", "c. 1837–42", "Art Institute of Chicago", "4371", true]]}, {"id": "rococo-painting", "name": "Rococo", "start": 1720, "label": "1720–1780", "cols": ["#EBB7BC", "#A9C4DE", "#F4EBD8", "#9DB38B", "#D4AE5E", "#7A5E4A", "#B65A6E"], "works": [["Arbor with Two Children (Le Nid d'Amour)", "Jean Honoré Fragonard", "1760", "Art Institute of Chicago", "14766", true], ["The Letter, or The Spanish Conversation", "Jean Honoré Fragonard", "c. 1778", "Art Institute of Chicago", "52736", true], ["Boy with a Carrot", "François Boucher", "1738", "Art Institute of Chicago", "35692", true]]}, {"id": "romanticism-painting", "name": "Romanticism", "start": 1790, "label": "1790–1850", "cols": ["#4B5B6E", "#3B2A1E", "#E2A43A", "#D9602A", "#9D2434", "#3E6B66", "#E8E2D4"], "works": [["Fishing Boats with Hucksters Bargaining for Fish", "J. M. W. Turner", "1837–38", "Art Institute of Chicago", "4796", true], ["Valley of Aosta: Snowstorm, Avalanche, and Thunderstorm", "J. M. W. Turner", "1836–37", "Art Institute of Chicago", "109938", true], ["Lion Hunt", "Eugène Delacroix", "1860–61", "Art Institute of Chicago", "81505", true]]}, {"id": "realism-painting", "name": "Realism", "start": 1848, "label": "1848–1880", "cols": ["#5C4733", "#B88F4B", "#5E6140", "#7A7F82", "#22201D", "#9A4535", "#DCD5C3"], "works": [["Mère Grégoire", "Gustave Courbet", "1855, reworked 1857–59", "Art Institute of Chicago", "4428", true], ["Peasants Going to Work", "Jean François Millet", "1863", "Art Institute of Chicago", "7733", true], ["Peasants Bringing Home a Calf Born in the Fields", "Jean François Millet", "1864", "Art Institute of Chicago", "111648", true]]}, {"id": "impressionism", "name": "Impressionism", "start": 1872, "label": "1872–1886", "cols": ["#2F5FA8", "#4C8DB5", "#E8B923", "#2E8B6A", "#E2452C", "#7A68A8", "#D9748A", "#F6F2E6"], "works": [["Stacks of Wheat (End of Summer)", "Claude Monet", "1890–91", "Art Institute of Chicago", "64818", true], ["Stacks of Wheat (End of Day, Autumn)", "Claude Monet", "1890–91", "Art Institute of Chicago", "14624", true], ["Paris Street; Rainy Day", "Gustave Caillebotte", "1877", "Art Institute of Chicago", "20684", true]]}, {"id": "nordic-national-romanticism-painting", "name": "Nordic national romanticism", "start": 1880, "label": "1880s–1900s", "cols": ["#3C6A8C", "#BFD3DC", "#2F4F3F", "#EFEBE0", "#8E2F25", "#7A7F82", "#D5AE56"], "works": [["Little Lie-A-Bed's Sad Breakfast", "Carl Larsson", "1900", "Art Institute of Chicago", "31923", true], ["Little Girl in a Sandbox", "Carl Larsson", "1901", "Art Institute of Chicago", "151908", true], ["The Great Bather", "Anders Zorn", "1895", "Art Institute of Chicago", "41720", true]]}, {"id": "pointillism", "name": "Pointillism", "start": 1886, "label": "1886–1891", "cols": ["#2F58A3", "#E8832B", "#2E8B6E", "#D4432E", "#F1CC3A", "#7B4B94", "#F3F1EA"], "works": [["A Sunday on La Grande Jatte — 1884", "Georges Seurat", "1884–86, border added 1888–89", "Art Institute of Chicago", "27992", true], ["Oil Sketch for \"A Sunday on La Grande Jatte — 1884\"", "Georges Seurat", "1884", "Art Institute of Chicago", "61616", true], ["Les Andelys, Côte d'Aval", "Paul Signac", "1886", "Art Institute of Chicago", "122130", true]]}, {"id": "fauvism", "name": "Fauvism", "start": 1905, "label": "1905–1908", "cols": ["#E2412A", "#1F9E64", "#2547A8", "#F08A1C", "#D95C84", "#F4DE3A", "#6A3E8C", "#F5F2EA"], "works": [["Bathers by a River", "Henri Matisse", "1909–10, 1913, and 1916–17", "Art Institute of Chicago", "79307", false], ["Forest at Martigues", "André Derain", "1908", "Art Institute of Chicago", "8975", false], ["Landscape", "André Derain", "n.d.", "Art Institute of Chicago", "3117", false]]}, {"id": "cubism-painting", "name": "Cubism", "start": 1907, "label": "1907–1920s", "cols": ["#B58B4C", "#5E4632", "#8C867B", "#6B6B3A", "#E9E2D0", "#1E1C1A", "#B83A2A"], "works": [["Abstraction (Guitar and Glass)", "Juan Gris", "1913", "Art Institute of Chicago", "12874", false], ["The Checkerboard", "Juan Gris", "1915", "Art Institute of Chicago", "86246", false], ["Daniel-Henry Kahnweiler", "Pablo Picasso", "1910", "Art Institute of Chicago", "111060", false]]}, {"id": "de-stijl-painting", "name": "De Stijl painting", "start": 1917, "label": "1917–1931", "cols": ["#D3202A", "#1D3F8C", "#F2C300", "#F4F1E6", "#CFCFCB", "#151515"], "works": [["Lozenge Composition with Yellow, Black, Blue, Red, and Gray", "Piet Mondrian", "1921", "Art Institute of Chicago", "109819", true], ["Composition (No. 1) Gray-Red", "Piet Mondrian", "1935", "Art Institute of Chicago", "65821", true], ["Farm near Duivendrecht", "Piet Mondrian", "c. 1916", "Art Institute of Chicago", "144467", true]]}, {"id": "surrealism-painting", "name": "Surrealism", "start": 1924, "label": "1924–1960s", "cols": ["#5B7FA6", "#B9CFDB", "#C9A877", "#8A4B2E", "#6A7B66", "#2B2B35", "#E0B7A2"], "works": [["La durée poignardée (Time Transfixed)", "René Magritte", "1938", "Art Institute of Chicago", "34181", false], ["On the Threshold of Liberty", "René Magritte", "February–March 1937", "Art Institute of Chicago", "110970", false], ["Inventions of the Monsters", "Salvador Dalí", "1937", "Art Institute of Chicago", "151424", false]]}, {"id": "abstract-expressionism", "name": "Abstract Expressionism", "start": 1943, "label": "1940s–1960s", "cols": ["#141414", "#F3F0E8", "#8E1B2C", "#C99A3A", "#14305A", "#A9AAA8", "#CBB98F"], "works": [["The Key", "Jackson Pollock", "1946", "Art Institute of Chicago", "70125", false], ["Number 19", "Mark Rothko", "1949", "Art Institute of Chicago", "6010", false], ["Excavation", "Willem de Kooning", "1950", "Art Institute of Chicago", "76244", false]]}, {"id": "pop-art-painting", "name": "Pop Art", "start": 1956, "label": "1956–1975", "cols": ["#E3262E", "#FFD700", "#1E59C8", "#F0489B", "#1BB5D8", "#101010", "#F7F5EF"], "works": [["Alka Seltzer", "Roy Lichtenstein", "1966", "Art Institute of Chicago", "122054", false], ["Marilyn Monroe (Marilyn)", "Andy Warhol", "1967", "Art Institute of Chicago", "150044", false], ["Volunteer", "James Rosenquist", "1963/64", "Art Institute of Chicago", "132672", false]]}];
-const lum = (h) => { const n = parseInt(h.slice(1), 16); return 0.2126 * (n >> 16) + 0.7152 * ((n >> 8) & 255) + 0.0722 * (n & 255); };
-const W = 480, H = 360, HZ = H * 0.4;
-function schema(cols) {
-  const c = [...cols].sort((a, b) => lum(b) - lum(a));
-  const sky = c[0], haze = c[Math.min(1, c.length - 1)], ground = c[Math.floor(c.length / 2)], accent = cols[Math.min(3, cols.length - 1)], dark = c[c.length - 1], mid = c[c.length - 2];
-  const fx = W / 3, fy = H / 3;
-  return `<rect width="${W}" height="${H}" fill="${sky}"/>
-  <rect y="${HZ - 40}" width="${W}" height="40" fill="${haze}"/>
-  <path d="M0 ${HZ} L${W * 0.32} ${HZ - 22} L${W * 0.55} ${HZ - 8} L${W * 0.8} ${HZ - 30} L${W} ${HZ - 6} V${HZ} Z" fill="${mid}"/>
-  <rect y="${HZ}" width="${W}" height="${H - HZ}" fill="${ground}"/>
-  <path d="M${W * 0.55} ${H} L${W * 0.42} ${HZ + 20} L${W * 0.5} ${HZ + 20} L${W * 0.72} ${H} Z" fill="${haze}" opacity=".85"/>
-  <circle cx="${fx}" cy="${fy}" r="26" fill="${accent}"/>
-  <path d="M0 ${H} L0 ${H * 0.66} Q${W * 0.14} ${H * 0.58} ${W * 0.27} ${H * 0.72} L${W * 0.38} ${H} Z" fill="${dark}"/>
-  <ellipse cx="${W * 0.7}" cy="${H * 0.74}" rx="16" ry="38" fill="${dark}"/><circle cx="${W * 0.7}" cy="${H * 0.74 - 50}" r="11" fill="${dark}"/>
-  <g class="thirds"><line x1="${W / 3}" y1="0" x2="${W / 3}" y2="${H}"/><line x1="${2 * W / 3}" y1="0" x2="${2 * W / 3}" y2="${H}"/><line x1="0" y1="${H / 3}" x2="${W}" y2="${H / 3}"/><line x1="0" y1="${2 * H / 3}" x2="${W}" y2="${2 * H / 3}"/></g>`;
-}
-const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;");
-document.getElementById("grid").innerHTML = STYLES.map((s) => `<figure>
-  <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Composition schema in the palette of ${esc(s.name)}">${schema(s.cols)}</svg>
-  <figcaption><b>${esc(s.name)}</b><span>${esc(s.label)}</span>
-  <div class="sw">${s.cols.map((h) => `<i style="background:${h}" title="${h}"></i>`).join("")}</div>
-  <ul>${s.works.map((w) => `<li>${esc(w[1])}, <i>${esc(w[0])}</i>, ${esc(w[2])}. ${w[3]} ${w[4]}${w[5] ? " (PD)" : ""}</li>`).join("")}</ul></figcaption></figure>`).join("");
-document.getElementById("t").addEventListener("change", (e) => document.getElementById("grid").classList.toggle("off", !e.target.checked));
-</script>
+<body data-domain="painting">
+<script src="nav.js"></script>
+<script src="meter.js"></script>
+<script src="gallery.js"></script>
 </body>
 </html>
