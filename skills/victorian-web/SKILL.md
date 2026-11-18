@@ -201,7 +201,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 | [`pack/icons.svg`](./pack/icons.svg) | Icon sprite: home, search, heart, star, bell, user, mail, calendar, image, bolt, play, check, close, sliders. |
 
 - **Icons:** outline, stroke 1.5 on a 24px field, round caps, round joins, container: none. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
-- **Icon family:** the sprite is cut from Phosphor (Bold) by Phosphor Icons, licence MIT. Reason: A fine, thin family; use light weight and pair it with fleuron ornaments. It is an open-source stand-in for a demo. For a product, use the icon library of the brand and choose the family by the rules below.
+- **Icon family:** the sprite is cut from Solar (Linear) by 480 Design, licence CC BY 4.0. Reason: A thin, fine line family that pairs with fleuron ornaments. It is an open-source stand-in for a demo. For a product, use the icon library of the brand and choose the family by the rules below.
 - **Display type:** weight 700, tracking 0.02em, leading 1.1, case: uppercase.
 - **Weights:** display 700, subhead 700, body 400, bold in text 700, labels and buttons 600. The style uses 3 weights (400, 600, 700) and no other. The display is 300 heavier than the body. The accent is case and tracking: an upper-case label is the accent, so the weights stay few.
 - **Body type:** 18px, leading 1.6.

@@ -115,7 +115,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | Pearl | `#FDF7FF` | background |
 | Haze | `#EAF4FF` | surface |
 | Slate | `#4A4A5E` | text |
-| Mute | `#7A7A90` | secondary text |
+| Mute | `#6E6D7E` | secondary text |
 | Lilac | `#C9B6FF` | primary |
 | Blush | `#FFC9DE` | accent |
 
@@ -148,7 +148,7 @@ Set `data-style="ethereal-web"` on the root element and paste the tokens. The fi
   --color-bg: #FDF7FF;
   --color-surface: #FFFFFF;
   --color-text: #4A4A5E;
-  --color-muted: #7A7A90;
+  --color-muted: #6E6D7E;
   --color-primary: #C9B6FF;
   --color-accent: #FFC9DE;
   --color-border: #E8E0F5;
@@ -166,7 +166,7 @@ Set `data-style="ethereal-web"` on the root element and paste the tokens. The fi
   --color-on-primary: #4A4A5E;
   --color-on-accent: #4A4A5E;
   --color-muted-on-bg: #6E6D7E;
-  --color-muted-on-surface: #6E6E7E;
+  --color-muted-on-surface: #6E6D7E;
   --color-link: #4A4A5E;
   --color-link-on-surface: #4A4A5E;
   --display-weight: 300;
@@ -192,7 +192,7 @@ Tailwind patterns:
 | body | `text-[17px] leading-[1.7]` |
 | section | `rounded-[32px] border border-white/60 bg-white/50 p-8 backdrop-blur-[24px] shadow-[0_20px_60px_rgba(150,120,220,0.10)]` |
 | button | `rounded-full bg-[#C9B6FF] px-8 py-3 text-[#2E2A4A] transition duration-[400ms] hover:-translate-y-1 hover:brightness-105` |
-| label | `text-[11px] uppercase tracking-[0.12em] text-[#7A7A90]` |
+| label | `text-[11px] uppercase tracking-[0.12em] text-[#6E6D7E]` |
 
 ## Visual pack
 
@@ -205,7 +205,7 @@ The pictures and icons of this style are files. Use them as they are, or read th
 | [`pack/icons.svg`](./pack/icons.svg) | Icon sprite: home, search, heart, star, bell, user, mail, calendar, image, bolt, play, check, close, sliders. |
 
 - **Icons:** outline, stroke 1.25 on a 24px field, round caps, round joins, container: none. Use: `<svg class="icon"><use href="pack/icons.svg#home"/></svg>`. An icon takes `currentColor`.
-- **Icon family:** the sprite is cut from Phosphor (Bold) by Phosphor Icons, licence MIT. Reason: A fine round line; set the weight to light so icons stay quiet. It is an open-source stand-in for a demo. For a product, use the icon library of the brand and choose the family by the rules below.
+- **Icon family:** the sprite is cut from Solar (Linear) by 480 Design, licence CC BY 4.0. Reason: A thin, round line that stays quiet on a pale, soft ground. It is an open-source stand-in for a demo. For a product, use the icon library of the brand and choose the family by the rules below.
 - **Display type:** weight 300, tracking 0.02em, leading 1.15, case: none.
 - **Weights:** display 300, subhead 300, body 400, bold in text 500, labels and buttons 500. The style uses 3 weights (300, 400, 500) and no other. The display is 100 lighter than the body, so size carries the hierarchy. The accent is case and tracking: an upper-case label is the accent, so the weights stay few.
 - **Body type:** 17px, leading 1.7.

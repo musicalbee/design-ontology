@@ -116,7 +116,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | Acid | `#C6FF00` | primary |
 | Cyan | `#00F0FF` | accent |
 | Chrome | `#C9D1D9` | text |
-| Steel | `#6B7684` | secondary text |
+| Steel | `#8E949B` | secondary text |
 | Alarm | `#FF2D6F` | alert |
 
 ## Materiality & texture
@@ -148,7 +148,7 @@ Set `data-style="cybercore-web"` on the root element and paste the tokens. The f
   --color-bg: #05070A;
   --color-surface: #0C1117;
   --color-text: #C9D1D9;
-  --color-muted: #6B7684;
+  --color-muted: #8E949B;
   --color-primary: #C6FF00;
   --color-accent: #00F0FF;
   --color-border: #2B3A2A;
@@ -166,7 +166,7 @@ Set `data-style="cybercore-web"` on the root element and paste the tokens. The f
   --color-on-primary: #05070A;
   --color-on-accent: #05070A;
   --color-muted-on-bg: #8E949B;
-  --color-muted-on-surface: #90979F;
+  --color-muted-on-surface: #8E949B;
   --color-link: #00F0FF;
   --color-link-on-surface: #00F0FF;
   --display-weight: 700;
@@ -192,7 +192,7 @@ Tailwind patterns:
 | body | `text-sm leading-[1.5]` |
 | section | `border border-[#C6FF00]/40 bg-[#0C1117] p-4 [clip-path:polygon(0_0,calc(100%-12px)_0,100%_12px,100%_100%,12px_100%,0_calc(100%-12px))]` |
 | button | `bg-[#C6FF00] px-5 py-3 text-sm font-semibold uppercase tracking-[0.15em] text-[#05070A] hover:shadow-[0_0_16px_rgba(198,255,0,0.5)]` |
-| label | `text-[11px] uppercase tracking-[0.15em] text-[#6B7684]` |
+| label | `text-[11px] uppercase tracking-[0.15em] text-[#8E949B]` |
 
 ## Visual pack
 

@@ -115,7 +115,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | Washi | `#EAE4D8` | background |
 | Plaster | `#D9D1C1` | surface |
 | Charcoal | `#3B3833` | text |
-| Stone | `#7C7466` | secondary text |
+| Stone | `#5E5A54` | secondary text |
 | Moss | `#7A8564` | accent |
 | Rust | `#9B5B3C` | primary |
 
@@ -148,7 +148,7 @@ Set `data-style="wabi-sabi-web"` on the root element and paste the tokens. The f
   --color-bg: #EAE4D8;
   --color-surface: #D9D1C1;
   --color-text: #3B3833;
-  --color-muted: #7C7466;
+  --color-muted: #5E5A54;
   --color-primary: #9B5B3C;
   --color-accent: #7A8564;
   --color-border: #C9C1B0;
@@ -166,7 +166,7 @@ Set `data-style="wabi-sabi-web"` on the root element and paste the tokens. The f
   --color-on-primary: #FFFFFF;
   --color-on-accent: #000000;
   --color-muted-on-bg: #5E5A54;
-  --color-muted-on-surface: #5B574F;
+  --color-muted-on-surface: #5E5A54;
   --color-link: #3B3833;
   --color-link-on-surface: #3B3833;
   --display-weight: 300;
@@ -192,7 +192,7 @@ Tailwind patterns:
 | body | `text-base leading-[1.8] tracking-[0.02em]` |
 | section | `rounded-[2px_6px_14px_4px] bg-[#D9D1C1] p-8` |
 | button | `rounded-[2px_6px_14px_4px] border border-[#3B3833]/20 px-7 py-3 text-[#3B3833] transition duration-[600ms] hover:bg-[#3B3833] hover:text-[#EAE4D8]` |
-| label | `text-sm text-[#7C7466]` |
+| label | `text-sm text-[#5E5A54]` |
 
 ## Visual pack
 
