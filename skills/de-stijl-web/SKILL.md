@@ -230,7 +230,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`art-nouveau-web`](../art-nouveau-web/SKILL.md)
 - **Mixes well with:** [`bauhaus`](../bauhaus/SKILL.md), [`constructivism-web`](../constructivism-web/SKILL.md)
-- **Kin in another domain:** [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md)
+- **Kin in another domain:** [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`prairie-school-architecture`](../prairie-school-architecture/SKILL.md)
 - **Nearest by vector profile:** [`swiss-international`](../swiss-international/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md)
 
 ## Emotional target

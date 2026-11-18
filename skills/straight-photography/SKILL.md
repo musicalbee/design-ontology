@@ -79,6 +79,16 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Geometry:** Strong patterns and repeated textures; edge-to-edge tonal balance, with no empty sky.
 - **Subject placement:** Centred or filling the frame for objects; on a third for landscapes, with a clear foreground.
 
+**Principles**
+
+| Principle | Rule |
+|---|---|
+| focal-point | Let 1 primary form fill 60–90% of the frame; a second form takes under 15%. |
+| layering-depth | Hold 3 planes sharp at f/64: near 1m, middle 10m and far to infinity. |
+| contrast | Print the whole range: 8 to 10 zone steps between 0% and 100% reflectance. |
+| proportion | Keep the 4:5 ratio of the 8×10 negative, edge to edge, with no crop. |
+| rhythm | Repeat a leaf, a scale or a ripple at an interval of 1/8 to 1/12 of the frame width. |
+
 ## Light
 
 - **Quality:** Hard to medium, directional daylight that models form and shows texture.
@@ -150,6 +160,18 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | Two Callas | Imogen Cunningham | 1929 |
 | Moonrise, Hernandez, New Mexico | Ansel Adams | 1941 |
 
+## Composition principles
+
+The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
+
+| Id | Principle | Definition | Measure: typical range |
+|---|---|---|---|
+| `focal-point` | Focal point | The one place in a view that the eye finds first and comes back to. A composition has one primary focal point and at most two secondary ones. | focal points in one view (count): 1 primary, 0 to 2 secondary; luminance of the focal point to its surround (ratio): 3:1 to 10:1; position (fraction of width): 0.5 on an axis, or 0.33 / 0.67 on a third |
+| `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
+| `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | brightest mass to deepest shadow in one image (stops): 3–4 flat; 5–8 hard, 8 or more for expressionist |
+| `proportion` | Proportion | The ratio of one dimension to another, and of a part to the whole. A style holds one ratio or one series of ratios through the room, the facade or the picture. | governing ratio (ratio): 1:1, 2:3, 1:1.414, 1:1.618, 1:2; module series (series): Modulor, tatami 91 x 182 cm, 60 cm kitchen module |
+| `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repeated interval (cm or px): style module; repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -157,10 +179,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **softer and more romantic**: move toward [`pictorialism`](../pictorialism/SKILL.md) (Pictorialism). Open the aperture to f/8, add diffusion and a warm tone, and lift the black point to 15%; keep the large format and the quiet light.
 - If the user asks for **more casual**: move toward [`street-photography`](../street-photography/SKILL.md) (Street photography). Switch to a 35mm camera at f/8, shoot handheld and let the frame be found; keep the black and white and the strong light.
 
-- **Led to (go here for a newer version):** [`new-topographics`](../new-topographics/SKILL.md), [`street-photography`](../street-photography/SKILL.md)
+- **Led to (go here for a newer version):** [`documentary-photography`](../documentary-photography/SKILL.md), [`fashion-editorial`](../fashion-editorial/SKILL.md), [`film-noir-still`](../film-noir-still/SKILL.md), [`food-photography`](../food-photography/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md), [`street-photography`](../street-photography/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`pictorialism`](../pictorialism/SKILL.md)
-- **Kin in another domain:** [`international-style-architecture`](../international-style-architecture/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
-- **Nearest by vector profile:** [`street-photography`](../street-photography/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md), [`party-flash`](../party-flash/SKILL.md)
+- **Kin in another domain:** [`dogme-95`](../dogme-95/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`realism-painting`](../realism-painting/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
+- **Nearest by vector profile:** [`street-photography`](../street-photography/SKILL.md), [`documentary-photography`](../documentary-photography/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md)
 
 ## Emotional target
 

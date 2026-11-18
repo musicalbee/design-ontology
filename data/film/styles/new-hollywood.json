@@ -1,0 +1,338 @@
+{
+  "$schema": "../../../schema/domains/film.schema.json",
+  "id": "new-hollywood",
+  "name": "New Hollywood",
+  "aliases": [
+    "Hollywood Renaissance",
+    "American New Wave"
+  ],
+  "era_id": "new-waves",
+  "time_period": {
+    "start": 1967,
+    "end": 1980,
+    "label": "1967–1980"
+  },
+  "capture": [
+    "photochemical"
+  ],
+  "summary": "A director's cinema inside the studios: location shooting, long lenses, a zoom, a wide anamorphic frame and flawed heroes. A story that ends without a lesson. The style looks lived in and tough.",
+  "philosophy": {
+    "core_thesis": "The studio picture is used for a director's personal, sceptical view, so the heroes are flawed, the places are real and the endings stay open.",
+    "design_principles": [
+      "Shoot on real streets, roads and rooms, with practical lamps in the frame, and let the light fall off to dark in the corners.",
+      "Frame in 2.35:1 anamorphic or 1.85:1 and use a long lens of 85mm to 200mm to compress a street into a flat, crowded plane.",
+      "Use a slow zoom of 2 to 5 s into or out of a face, and a handheld follow of 1 to 1.5 m/s at a key moment.",
+      "Cut at an average shot length of 5 to 8 s and let a dialogue scene run in a single take of 30 to 90 s.",
+      "Print with a low-key grade, a lifted contrast of +20% and a desaturated palette of earth and brown.",
+      "Use source music from a car radio or a jukebox as the score, at −18 to −20 dB under the dialogue.",
+      "End on a freeze, an unresolved image or a bleak close, with no moral summing up."
+    ],
+    "anti_patterns": [
+      "A studio back lot with a painted sky",
+      "A glamour key with a soft filter on the star",
+      "A heroic, resolved ending",
+      "An orchestral score that tells the viewer what to feel",
+      "A clean, saturated Technicolor palette",
+      "Back projection in a car scene",
+      "A hero with no moral flaw"
+    ]
+  },
+  "vectors": {
+    "camera_mobility": 4,
+    "cutting_rate": 3,
+    "staging": 2,
+    "grade_stylisation": 2,
+    "frame_width": 5
+  },
+  "composition": {
+    "framing": "A wide 2.35:1 frame in which the character sits small in a compressed, crowded street or a long, empty road.",
+    "staging_in_depth": "A long-lens stack of 3 to 5 planes, compressed; practical lamps and signs fill the back, and a foreground edge cuts into the frame.",
+    "subject_placement": "Off centre by 20% to 30%, with the car, the door or the window as a frame inside the frame.",
+    "principles": [
+      {
+        "principle": "framing",
+        "rule": "Frame in a wide anamorphic ratio and use the door, the window or the car as a second frame inside it.",
+        "value": "inner frame 10% to 35% of the view, 1 to 2 frame planes"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Use a long lens to stack the planes of a street into a crowded, compressed picture.",
+        "value": "85mm to 200mm lens, 3 to 5 planes"
+      },
+      {
+        "principle": "negative-space",
+        "rule": "Leave the road, the desert or the dark room as a large empty mass beside the figure.",
+        "value": "40% to 60% of the frame empty"
+      },
+      {
+        "principle": "contrast",
+        "rule": "Let the practical lamps be the brightest points and let the rest fall to a low key.",
+        "value": "key to fill 4:1, lamps at +3 stops over the room"
+      },
+      {
+        "principle": "rule-of-thirds",
+        "rule": "Put the character on a third line and leave the other two thirds to the place.",
+        "value": "figure at 25% to 33% from the edge"
+      }
+    ]
+  },
+  "camera_and_movement": {
+    "movement": "A zoom, a handheld follow in the street and a locked-off wide for a long dialogue. Moves are motivated and a little rough.",
+    "support": "Handheld Panaflex or Arriflex, a dolly and a car mount",
+    "camera_height": "1.3 to 1.7 m, eye level; a low angle from a car seat at 0.8 m",
+    "move_speed": "Handheld follow 1.0 to 1.5 m/s; a zoom over 2 to 5 s"
+  },
+  "lens_and_format": {
+    "aspect_ratio": "2.35:1 (anamorphic) or 1.85:1",
+    "frame_rate": "24 fps",
+    "shutter_angle": "180° (1/48 s)",
+    "focal_length": "40mm to 200mm (35mm format); a zoom of 25mm to 250mm",
+    "aperture": "f/2 to f/4 in low light; f/5.6 outdoors",
+    "resolution": "35mm negative, grain and halation; scan at 2K or 4K",
+    "focus": "Selective focus on the character; a rack focus from a foreground to a face over 1 to 2 s.",
+    "equipment": [
+      "Panavision anamorphic lenses",
+      "a 25–250mm zoom",
+      "handheld Arriflex",
+      "fast stock, pushed 1 stop"
+    ]
+  },
+  "light": {
+    "quality": "Low, practical and often underexposed, with sodium and tungsten lamps; the shadows are black and the highlights burn.",
+    "direction": "From a window or a lamp in the frame; a bounce from the ceiling for the face.",
+    "key_to_fill_ratio": "4:1 to 6:1 (2 to 2.6 stops)",
+    "colour_temperature": "Tungsten 3200K lamps with daylight 5600K windows, left uncorrected",
+    "source": "Practical lamps, windows and a bounced photoflood"
+  },
+  "colour_and_grade": {
+    "treatment": "A desaturated palette of brown, olive and ochre, with deep blacks and a grainy, warm print.",
+    "palette": [
+      {
+        "name": "Tar black",
+        "hex": "#14110F",
+        "role": "blacks"
+      },
+      {
+        "name": "Dust brown",
+        "hex": "#5C4631",
+        "role": "shadows and wood"
+      },
+      {
+        "name": "Olive",
+        "hex": "#6A6B3E",
+        "role": "coats and cars"
+      },
+      {
+        "name": "Sodium amber",
+        "hex": "#C98A2E",
+        "role": "practical lamps"
+      },
+      {
+        "name": "Skin ochre",
+        "hex": "#C4966A",
+        "role": "skin and highlights"
+      }
+    ],
+    "grade_recipe": [
+      "Set the black point at 3% and let the shadows crush below 8%.",
+      "Desaturate to 70% of the original and push the midtones to warm brown by +8%.",
+      "Add a contrast curve of +20% and let the practical lamps burn to white.",
+      "Add grain at 15% to 20% and a halation of 3% around the lamps.",
+      "Do not add a teal cast; keep a single warm and earthy grade."
+    ],
+    "texture": "Heavy grain at 15% to 20%, with halation around highlights"
+  },
+  "editing_and_rhythm": {
+    "average_shot_length": "5 to 8 s (estimate; check Cinemetrics for each title)",
+    "shot_length_range": "1 s for a shock cut to 90 s for a long dialogue take",
+    "cutting_logic": "Cut on the rhythm of the talk, and let a scene run past its point. Cut to a hard shock at the break of violence, and cut away to the road.",
+    "transitions": "Hard cut, a freeze frame of 2 to 4 s at the close, a dissolve of 1 to 2 s, and a smash cut to black.",
+    "runtime": "100 to 150 min"
+  },
+  "sound": {
+    "approach": "Location sound with room tone, traffic and a car radio; a layered track in which voices overlap.",
+    "dialogue": "Naturalistic, overlapping, with a street idiom, and a mumble that the mix does not fix.",
+    "music": "Source music from a jukebox, a radio or a rock record; a score that is spare, with a solo guitar or a synthesizer.",
+    "loudness": "−23 LUFS integrated for a restoration, with dialogue peaks at −6 dBFS"
+  },
+  "titles_and_graphics": {
+    "treatment": "A plain title card over a location shot or black, with a pop song; credits in a plain list.",
+    "type": "A bold sans-serif or a grotesque in white upper case, 2 to 4 s for the title and 1 to 2 s for a credit."
+  },
+  "shot_primer": {
+    "opening": "Open on a location in motion, such as a road, a city street or a car, with source music; hold the first shot for 5 to 8 s.",
+    "shot_list": [
+      {
+        "shot": "Street from a car",
+        "size": "wide",
+        "lens": "40mm",
+        "movement": "handheld in a car",
+        "seconds": 8
+      },
+      {
+        "shot": "Long dialogue in a room",
+        "size": "medium",
+        "lens": "50mm",
+        "movement": "locked off",
+        "seconds": 45
+      },
+      {
+        "shot": "Zoom into a face",
+        "size": "close-up",
+        "lens": "25 to 250mm zoom",
+        "movement": "slow zoom over 4 s",
+        "seconds": 4
+      },
+      {
+        "shot": "Long-lens street",
+        "size": "wide",
+        "lens": "135mm",
+        "movement": "locked off",
+        "seconds": 6
+      },
+      {
+        "shot": "Shock of violence",
+        "size": "medium",
+        "lens": "40mm",
+        "movement": "handheld",
+        "seconds": 2
+      },
+      {
+        "shot": "Freeze frame at the end",
+        "size": "medium",
+        "lens": "50mm",
+        "movement": "freeze",
+        "seconds": 3
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1970s American film",
+      "anamorphic 2.35:1 frame",
+      "grainy 35mm",
+      "practical lamps in the frame",
+      "slow zoom into a face",
+      "long lens compression",
+      "desaturated earth tones",
+      "handheld in a street",
+      "freeze frame ending"
+    ],
+    "negative": [
+      "studio back lot",
+      "glamour key",
+      "teal and orange",
+      "clean digital look",
+      "orchestral swell",
+      "happy ending",
+      "gimbal"
+    ],
+    "canonical_works": [
+      {
+        "work": "Bonnie and Clyde",
+        "maker": "Arthur Penn",
+        "year": 1967
+      },
+      {
+        "work": "Easy Rider",
+        "maker": "Dennis Hopper",
+        "year": 1969
+      },
+      {
+        "work": "Five Easy Pieces",
+        "maker": "Bob Rafelson",
+        "year": 1970
+      },
+      {
+        "work": "Apocalypse Now",
+        "maker": "Francis Ford Coppola",
+        "year": 1979
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "french-new-wave"
+    ],
+    "rebelled_against": [
+      "classical-hollywood"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "street-photography"
+    ]
+  },
+  "emotion": {
+    "target_response": "Unease and recognition: the viewer is in a real, rough place with a person who might not win.",
+    "keywords": [
+      "gritty",
+      "sceptical",
+      "lived-in",
+      "tough",
+      "open-ended"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "new hollywood",
+      "1970s film look",
+      "american new wave",
+      "scorsese look",
+      "anamorphic 70s",
+      "gritty seventies",
+      "long lens street",
+      "zoom lens film"
+    ],
+    "use_cases": [
+      "crime and drama films",
+      "music video with a 1970s tone",
+      "period pieces",
+      "video prompts for a car and street scene"
+    ],
+    "avoid_when": [
+      "The brief needs a bright, clean, optimistic product look.",
+      "The piece must be a short vertical clip with a fast hook."
+    ],
+    "modifiers": [
+      {
+        "request": "more glamour",
+        "toward": "classical-hollywood",
+        "how": "Keep the 35mm and the story; use a three-point light at 3:1, a smooth dolly and a score under the scene."
+      },
+      {
+        "request": "more action",
+        "toward": "hong-kong-action",
+        "how": "Keep the anamorphic frame; add slow motion at 60 to 120 fps for the violence and cut at 2 to 3 s."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q377616: New Hollywood",
+      "url": "https://www.wikidata.org/wiki/Q377616"
+    },
+    {
+      "title": "Wikidata Q503638: Easy Rider",
+      "url": "https://www.wikidata.org/wiki/Q503638"
+    },
+    {
+      "title": "Wikidata Q1116991: Five Easy Pieces",
+      "url": "https://www.wikidata.org/wiki/Q1116991"
+    },
+    {
+      "title": "Wikidata Q182692: Apocalypse Now",
+      "url": "https://www.wikidata.org/wiki/Q182692"
+    },
+    {
+      "title": "Peter Biskind, Easy Riders, Raging Bulls (Simon & Schuster, 1998)"
+    },
+    {
+      "title": "David Cook, Lost Illusions: American Cinema in the Shadow of Watergate and Vietnam, 1970–1979 (University of California Press, 2000)"
+    }
+  ],
+  "domain": "film"
+}
