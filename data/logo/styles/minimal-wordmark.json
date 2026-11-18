@@ -1,0 +1,225 @@
+{
+  "$schema": "../../../schema/domains/logo.schema.json",
+  "id": "minimal-wordmark",
+  "domain": "logo",
+  "name": "Wordmark-led minimal",
+  "aliases": [
+    "Logotype",
+    "Minimal wordmark",
+    "Type-only logo"
+  ],
+  "era_id": "modernist-identity",
+  "time_period": {
+    "start": 1975,
+    "end": null,
+    "label": "1975–now"
+  },
+  "region": "the United States and Europe",
+  "summary": "The name alone, set or drawn in one weight of a sans, with a single detail that makes it own: a cut stroke, a hidden arrow, a joined pair of letters. No symbol and no frame.",
+  "philosophy": {
+    "core_thesis": "The name is the mark: one carefully spaced word, with one detail of its own, is clearer and more durable than any symbol.",
+    "design_principles": [
+      "Use the name in one line, in one weight of a sans or a custom monoline alphabet.",
+      "Make exactly one detail own the mark: a removed crossbar, a ligature, a cut stroke or a shape in the counter.",
+      "Space by eye: optical tracking of 0–5% for lower case, 5–20% for capitals.",
+      "Use one colour for the master; a second colour may mark one part of the word only.",
+      "Keep the height of the word at 15–25% of its width, so it fits a header and a narrow sign.",
+      "Define clear space as the height of one capital or one x-height on each side."
+    ],
+    "anti_patterns": [
+      "A symbol beside the word in the master mark",
+      "Two or more typefaces",
+      "Outline, shadow or bevel on the letters",
+      "A frame or a badge around the word",
+      "Distortion of letter widths to fit a box"
+    ]
+  },
+  "vectors": {
+    "abstraction": 3,
+    "geometry": 4,
+    "ornament": 1,
+    "letter_dominance": 5,
+    "dimensionality": 1
+  },
+  "construction": {
+    "grid": "The baseline, the x-height and the cap height of the alphabet; custom letters share one stroke width and one radius set.",
+    "geometry": "Monoline strokes; curves either from circles (a geometric sans) or from optical ovals (a grotesque).",
+    "stroke_contrast_ratio": 1.2,
+    "stroke_rule": "One stroke weight at 12–20% of the cap height; thin joins at 80–90% of it.",
+    "symmetry": "None; the balance comes from even spacing along the line.",
+    "detail_floor": "No counter or gap under 10% of the cap height, so the word reads at 16 px high."
+  },
+  "form": {
+    "mark_type": "wordmark",
+    "silhouette": "A horizontal bar from 3:1 to 8:1.",
+    "ornament": "None; one typographic detail replaces ornament.",
+    "letterforms": "A geometric or grotesque sans, or a custom monoline alphabet; all capitals or all lower case, rarely mixed."
+  },
+  "colour": {
+    "strategy": "One colour, black, or one brand colour on white; a second colour may mark one letter or one word.",
+    "colour_count_min": 1,
+    "colour_count_max": 2,
+    "one_colour_reversal": "yes",
+    "reversal_rule": "White on a dark ground is a standard version; open the tracking by 2–3% for small white text.",
+    "colours": [
+      {
+        "name": "Black",
+        "hex": "#111111",
+        "role": "master"
+      },
+      {
+        "name": "Brand red",
+        "hex": "#E03C31",
+        "role": "single-colour version"
+      },
+      {
+        "name": "Purple",
+        "hex": "#4D148C",
+        "role": "first half of a two-colour word"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600",
+        "role": "second half of a two-colour word"
+      }
+    ]
+  },
+  "reproduction": {
+    "min_size_px": 12,
+    "min_size_mm": 4,
+    "clear_space_ratio": 0.5,
+    "clear_space": "One cap height on each side, which is about half the mark height.",
+    "media": "Every medium: print, signs, packaging, screen headers and app splash screens."
+  },
+  "prompt_primer": {
+    "positive": [
+      "minimal brand mark",
+      "monoline geometry",
+      "one flat colour",
+      "white ground",
+      "single clever detail",
+      "precise spacing",
+      "horizontal bar format",
+      "clean vector",
+      "restrained and modern"
+    ],
+    "negative": [
+      "letters",
+      "text",
+      "words",
+      "slogan",
+      "watermark",
+      "ornament",
+      "gradient",
+      "shadow",
+      "badge frame"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "NASA logotype (the worm)",
+      "kind": "image",
+      "maker": "Danne & Blackburn",
+      "year": 1975,
+      "credit": "NASA Graphics Standards Manual, 1975; a work of the US federal government",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:NASA_Worm_logo.svg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/NASA_Worm_logo.svg/960px-NASA_Worm_logo.svg.png"
+    },
+    {
+      "title": "FedEx logotype",
+      "kind": "image",
+      "maker": "Lindon Leader, Landor Associates",
+      "year": 1994,
+      "credit": "FedEx; file on Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:FedEx_Express.svg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/FedEx_Express.svg/960px-FedEx_Express.svg.png"
+    },
+    {
+      "title": "Calvin Klein logotype, 2017",
+      "kind": "image",
+      "maker": "Peter Saville",
+      "year": 2017,
+      "credit": "Calvin Klein; file on Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Calvin_klein_logo.svg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Calvin_klein_logo.svg/960px-Calvin_klein_logo.svg.png"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "swiss-modernist-mark"
+    ],
+    "rebelled_against": [
+      "emblem-badge"
+    ],
+    "hybridized_with": [
+      "flat-logo"
+    ],
+    "echoes": [
+      "rams-functionalism-ui",
+      "minimalist-interior"
+    ]
+  },
+  "emotion": {
+    "target_response": "Quiet confidence: the viewer reads the name first and feels a brand that does not need to shout.",
+    "keywords": [
+      "clean",
+      "assured",
+      "modern",
+      "direct",
+      "restrained"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "wordmark",
+      "logotype",
+      "text logo",
+      "type-only logo",
+      "minimal logo",
+      "name as logo"
+    ],
+    "use_cases": [
+      "fashion and retail",
+      "software and services",
+      "media titles",
+      "logistics and transport"
+    ],
+    "avoid_when": [
+      "The name is long, over 12 letters, and must fit a square icon.",
+      "The audience reads a different script than the name."
+    ],
+    "modifiers": [
+      {
+        "request": "add a symbol",
+        "toward": "swiss-modernist-mark",
+        "how": "Keep the sans and the one colour; add a grid-built symbol to the left at 1–1.5 times the cap height."
+      },
+      {
+        "request": "warmer",
+        "toward": "art-nouveau-monogram",
+        "how": "Keep the one colour; draw the letters by hand with curved terminals and a shared stroke between two letters."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Wordmark",
+      "url": "https://en.wikipedia.org/wiki/Wordmark"
+    },
+    {
+      "title": "Wikipedia: NASA insignia",
+      "url": "https://en.wikipedia.org/wiki/NASA_insignia"
+    },
+    {
+      "title": "Wikimedia Commons API: licence read from imageinfo extmetadata, 2026-11",
+      "url": "https://commons.wikimedia.org/w/api.php"
+    }
+  ]
+}

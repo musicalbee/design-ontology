@@ -74,6 +74,17 @@
       ]
     },
     {
+      "id": "logo",
+      "name": "Logo",
+      "axes": [
+        "abstraction",
+        "geometry",
+        "ornament",
+        "letter_dominance",
+        "dimensionality"
+      ]
+    },
+    {
       "id": "icon",
       "name": "Icons",
       "axes": [
@@ -2573,6 +2584,126 @@
       }
     },
     {
+      "id": "victorian-trademark",
+      "domain": "logo",
+      "name": "Victorian trademark",
+      "era": "trademark-age",
+      "start": 1860,
+      "end": 1910,
+      "vectors": {
+        "abstraction": 1,
+        "geometry": 2,
+        "ornament": 5,
+        "letter_dominance": 3,
+        "dimensionality": 4
+      }
+    },
+    {
+      "id": "art-nouveau-monogram",
+      "domain": "logo",
+      "name": "Art Nouveau monogram",
+      "era": "trademark-age",
+      "start": 1890,
+      "end": 1914,
+      "vectors": {
+        "abstraction": 3,
+        "geometry": 2,
+        "ornament": 4,
+        "letter_dominance": 4,
+        "dimensionality": 1
+      }
+    },
+    {
+      "id": "emblem-badge",
+      "domain": "logo",
+      "name": "Emblem and badge",
+      "era": "trademark-age",
+      "start": 1900,
+      "end": null,
+      "vectors": {
+        "abstraction": 2,
+        "geometry": 4,
+        "ornament": 3,
+        "letter_dominance": 3,
+        "dimensionality": 2
+      }
+    },
+    {
+      "id": "swiss-modernist-mark",
+      "domain": "logo",
+      "name": "Swiss modernist corporate mark",
+      "era": "modernist-identity",
+      "start": 1955,
+      "end": 1985,
+      "vectors": {
+        "abstraction": 4,
+        "geometry": 5,
+        "ornament": 1,
+        "letter_dominance": 2,
+        "dimensionality": 1
+      }
+    },
+    {
+      "id": "geometric-symbol",
+      "domain": "logo",
+      "name": "Geometric abstract symbol",
+      "era": "modernist-identity",
+      "start": 1960,
+      "end": 1990,
+      "vectors": {
+        "abstraction": 5,
+        "geometry": 5,
+        "ornament": 1,
+        "letter_dominance": 1,
+        "dimensionality": 1
+      }
+    },
+    {
+      "id": "minimal-wordmark",
+      "domain": "logo",
+      "name": "Wordmark-led minimal",
+      "era": "modernist-identity",
+      "start": 1975,
+      "end": null,
+      "vectors": {
+        "abstraction": 3,
+        "geometry": 4,
+        "ornament": 1,
+        "letter_dominance": 5,
+        "dimensionality": 1
+      }
+    },
+    {
+      "id": "glossy-3d-logo",
+      "domain": "logo",
+      "name": "Gradient 3D and glass",
+      "era": "screen-identity",
+      "start": 2001,
+      "end": 2012,
+      "vectors": {
+        "abstraction": 3,
+        "geometry": 3,
+        "ornament": 2,
+        "letter_dominance": 2,
+        "dimensionality": 5
+      }
+    },
+    {
+      "id": "flat-logo",
+      "domain": "logo",
+      "name": "Flat 2010s mark",
+      "era": "screen-identity",
+      "start": 2012,
+      "end": null,
+      "vectors": {
+        "abstraction": 4,
+        "geometry": 5,
+        "ornament": 1,
+        "letter_dominance": 2,
+        "dimensionality": 1
+      }
+    },
+    {
       "id": "pixel-icon",
       "domain": "icon",
       "name": "Pixel icon",
@@ -2866,6 +2997,11 @@
     },
     {
       "from": "apple-aqua",
+      "to": "glossy-3d-logo",
+      "type": "ECHOES"
+    },
+    {
+      "from": "apple-aqua",
       "to": "skeuomorphic-icon",
       "type": "ECHOES"
     },
@@ -2931,6 +3067,11 @@
     },
     {
       "from": "art-nouveau-architecture",
+      "to": "art-nouveau-monogram",
+      "type": "ECHOES"
+    },
+    {
+      "from": "art-nouveau-architecture",
       "to": "art-nouveau-web",
       "type": "ECHOES"
     },
@@ -2946,6 +3087,16 @@
     },
     {
       "from": "art-nouveau-interior",
+      "to": "art-nouveau-monogram",
+      "type": "ECHOES"
+    },
+    {
+      "from": "art-nouveau-interior",
+      "to": "art-nouveau-web",
+      "type": "ECHOES"
+    },
+    {
+      "from": "art-nouveau-monogram",
       "to": "art-nouveau-web",
       "type": "ECHOES"
     },
@@ -3007,6 +3158,11 @@
     {
       "from": "bauhaus",
       "to": "geometric-sans",
+      "type": "ECHOES"
+    },
+    {
+      "from": "bauhaus",
+      "to": "geometric-symbol",
       "type": "ECHOES"
     },
     {
@@ -3166,6 +3322,11 @@
     },
     {
       "from": "de-stijl-painting",
+      "to": "geometric-symbol",
+      "type": "ECHOES"
+    },
+    {
+      "from": "de-stijl-painting",
       "to": "international-style-architecture",
       "type": "ECHOES"
     },
@@ -3235,6 +3396,16 @@
       "type": "ECHOES"
     },
     {
+      "from": "emblem-badge",
+      "to": "mid-century-modern",
+      "type": "ECHOES"
+    },
+    {
+      "from": "emblem-badge",
+      "to": "space-age",
+      "type": "ECHOES"
+    },
+    {
       "from": "expressionism-painting",
       "to": "german-expressionist-cinema",
       "type": "ECHOES"
@@ -3281,6 +3452,11 @@
     },
     {
       "from": "flat-design",
+      "to": "flat-logo",
+      "type": "ECHOES"
+    },
+    {
+      "from": "flat-design",
       "to": "minimalist-interior",
       "type": "ECHOES"
     },
@@ -3295,6 +3471,16 @@
       "type": "ECHOES"
     },
     {
+      "from": "flat-logo",
+      "to": "material-design",
+      "type": "ECHOES"
+    },
+    {
+      "from": "flat-logo",
+      "to": "metro-ui",
+      "type": "ECHOES"
+    },
+    {
       "from": "found-footage",
       "to": "y2k-digicam",
       "type": "ECHOES"
@@ -3302,6 +3488,11 @@
     {
       "from": "french-new-wave",
       "to": "street-photography",
+      "type": "ECHOES"
+    },
+    {
+      "from": "frutiger-aero",
+      "to": "glossy-3d-logo",
       "type": "ECHOES"
     },
     {
@@ -3325,6 +3516,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "geometric-symbol",
+      "to": "mid-century-modern",
+      "type": "ECHOES"
+    },
+    {
       "from": "georgian-interior",
       "to": "renaissance-painting",
       "type": "ECHOES"
@@ -3342,6 +3538,16 @@
     {
       "from": "giallo",
       "to": "psychedelic",
+      "type": "ECHOES"
+    },
+    {
+      "from": "glossy-3d-logo",
+      "to": "skeuomorphism",
+      "type": "ECHOES"
+    },
+    {
+      "from": "glossy-3d-logo",
+      "to": "y2k-aesthetic",
       "type": "ECHOES"
     },
     {
@@ -3425,6 +3631,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "international-style-architecture",
+      "to": "swiss-modernist-mark",
+      "type": "ECHOES"
+    },
+    {
       "from": "italian-neorealism",
       "to": "street-photography",
       "type": "ECHOES"
@@ -3447,6 +3658,11 @@
     {
       "from": "japandi-interior",
       "to": "wabi-sabi-web",
+      "type": "ECHOES"
+    },
+    {
+      "from": "japanese-graphic-modernism",
+      "to": "swiss-modernist-mark",
       "type": "ECHOES"
     },
     {
@@ -3517,6 +3733,16 @@
     {
       "from": "mid-century-modern-interior",
       "to": "space-age",
+      "type": "ECHOES"
+    },
+    {
+      "from": "minimal-wordmark",
+      "to": "minimalist-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "minimal-wordmark",
+      "to": "rams-functionalism-ui",
       "type": "ECHOES"
     },
     {
@@ -3680,6 +3906,21 @@
       "type": "ECHOES"
     },
     {
+      "from": "swiss-international",
+      "to": "swiss-modernist-mark",
+      "type": "ECHOES"
+    },
+    {
+      "from": "victorian-interior",
+      "to": "victorian-trademark",
+      "type": "ECHOES"
+    },
+    {
+      "from": "victorian-trademark",
+      "to": "victorian-web",
+      "type": "ECHOES"
+    },
+    {
       "from": "y2k-aesthetic",
       "to": "y2k-digicam",
       "type": "ECHOES"
@@ -3732,6 +3973,11 @@
     {
       "from": "art-nouveau-interior",
       "to": "arts-and-crafts-interior",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "art-nouveau-monogram",
+      "to": "victorian-trademark",
       "type": "EVOLVED_FROM"
     },
     {
@@ -3915,6 +4161,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "emblem-badge",
+      "to": "victorian-trademark",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "ethereal-web",
       "to": "aurora-gradient-ui",
       "type": "EVOLVED_FROM"
@@ -3975,6 +4226,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "flat-logo",
+      "to": "geometric-symbol",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "food-photography",
       "to": "straight-photography",
       "type": "EVOLVED_FROM"
@@ -4005,6 +4261,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "geometric-symbol",
+      "to": "swiss-modernist-mark",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "giallo",
       "to": "german-expressionist-cinema",
       "type": "EVOLVED_FROM"
@@ -4012,6 +4273,11 @@
     {
       "from": "glassmorphism",
       "to": "frutiger-aero",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "glossy-3d-logo",
+      "to": "geometric-symbol",
       "type": "EVOLVED_FROM"
     },
     {
@@ -4147,6 +4413,11 @@
     {
       "from": "mid-century-modern-interior",
       "to": "bauhaus-interior",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "minimal-wordmark",
+      "to": "swiss-modernist-mark",
       "type": "EVOLVED_FROM"
     },
     {
@@ -4740,6 +5011,16 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "emblem-badge",
+      "to": "glossy-3d-logo",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "emblem-badge",
+      "to": "victorian-trademark",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "ethereal-web",
       "to": "frutiger-aero",
       "type": "HYBRIDIZED_WITH"
@@ -4797,6 +5078,11 @@
     {
       "from": "flat-icon",
       "to": "isometric-icon",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "flat-logo",
+      "to": "minimal-wordmark",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -5185,6 +5471,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "flat-logo",
+      "to": "glossy-3d-logo",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "geometric-sans",
       "to": "garalde-old-style",
       "type": "REBELLED_AGAINST"
@@ -5192,6 +5483,11 @@
     {
       "from": "geometric-sans",
       "to": "grotesque-sans",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "glossy-3d-logo",
+      "to": "swiss-modernist-mark",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -5272,6 +5568,11 @@
     {
       "from": "metro-ui",
       "to": "skeuomorphism",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "minimal-wordmark",
+      "to": "emblem-badge",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -5442,6 +5743,16 @@
     {
       "from": "surrealism-web",
       "to": "flat-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "swiss-modernist-mark",
+      "to": "emblem-badge",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "swiss-modernist-mark",
+      "to": "victorian-trademark",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -6168,7 +6479,8 @@
         "punk-zine"
       ],
       "echoes": [
-        "slab-serif"
+        "slab-serif",
+        "victorian-trademark"
       ],
       "nearest_by_vector": [
         {
@@ -6204,6 +6516,7 @@
       "echoes": [
         "art-nouveau-architecture",
         "art-nouveau-interior",
+        "art-nouveau-monogram",
         "symbolism-painting"
       ],
       "nearest_by_vector": [
@@ -6275,6 +6588,7 @@
         "bauhaus-interior",
         "de-stijl-painting",
         "geometric-sans",
+        "geometric-symbol",
         "international-style-architecture"
       ],
       "nearest_by_vector": [
@@ -6383,6 +6697,8 @@
         "swiss-international"
       ],
       "echoes": [
+        "emblem-badge",
+        "geometric-symbol",
         "mid-century-modern-architecture",
         "mid-century-modern-interior"
       ],
@@ -6440,7 +6756,8 @@
         "neo-grotesque-sans",
         "outline-icon",
         "solid-glyph-icon",
-        "straight-photography"
+        "straight-photography",
+        "swiss-modernist-mark"
       ],
       "nearest_by_vector": [
         {
@@ -6471,6 +6788,7 @@
         "psychedelic"
       ],
       "echoes": [
+        "swiss-modernist-mark",
         "ukiyo-e"
       ],
       "nearest_by_vector": [
@@ -6504,6 +6822,7 @@
       ],
       "echoes": [
         "international-style-architecture",
+        "minimal-wordmark",
         "minimalism-painting",
         "minimalist-interior",
         "outline-icon"
@@ -6572,6 +6891,7 @@
       ],
       "echoes": [
         "airbrush-surrealism",
+        "emblem-badge",
         "high-tech-architecture",
         "mid-century-modern-architecture",
         "mid-century-modern-interior"
@@ -6823,6 +7143,7 @@
       ],
       "echoes": [
         "camcorder-revival",
+        "glossy-3d-logo",
         "music-video",
         "party-flash",
         "y2k-digicam"
@@ -6883,6 +7204,7 @@
         "skeuomorphism"
       ],
       "echoes": [
+        "glossy-3d-logo",
         "skeuomorphic-icon"
       ],
       "nearest_by_vector": [
@@ -6919,6 +7241,7 @@
         "vaporwave"
       ],
       "echoes": [
+        "glossy-3d-logo",
         "skeuomorphic-icon"
       ],
       "nearest_by_vector": [
@@ -6959,6 +7282,7 @@
         "spatial-visionos"
       ],
       "echoes": [
+        "glossy-3d-logo",
         "skeuomorphic-icon"
       ],
       "nearest_by_vector": [
@@ -6991,7 +7315,8 @@
         "flat-design"
       ],
       "echoes": [
-        "flat-icon"
+        "flat-icon",
+        "flat-logo"
       ],
       "nearest_by_vector": [
         {
@@ -7108,6 +7433,7 @@
       ],
       "echoes": [
         "flat-icon",
+        "flat-logo",
         "minimalist-interior",
         "ukiyo-e"
       ],
@@ -7352,6 +7678,7 @@
         "skeuomorphism"
       ],
       "echoes": [
+        "flat-logo",
         "material-symbols-icon"
       ],
       "nearest_by_vector": [
@@ -8236,6 +8563,7 @@
       "hybridized_with": [],
       "echoes": [
         "art-nouveau-interior",
+        "art-nouveau-monogram",
         "art-nouveau-web",
         "rococo-painting",
         "symbolism-painting"
@@ -8440,7 +8768,8 @@
         "new-topographics",
         "rams-functionalism-ui",
         "straight-photography",
-        "swiss-international"
+        "swiss-international",
+        "swiss-modernist-mark"
       ],
       "nearest_by_vector": [
         {
@@ -8842,7 +9171,8 @@
       "hybridized_with": [],
       "echoes": [
         "pictorialism",
-        "slab-serif"
+        "slab-serif",
+        "victorian-trademark"
       ],
       "nearest_by_vector": [
         {
@@ -8907,6 +9237,7 @@
       "hybridized_with": [],
       "echoes": [
         "art-nouveau-architecture",
+        "art-nouveau-monogram",
         "art-nouveau-web"
       ],
       "nearest_by_vector": [
@@ -9211,6 +9542,7 @@
       "echoes": [
         "flat-design",
         "international-style-architecture",
+        "minimal-wordmark",
         "minimalism-web",
         "rams-functionalism-ui"
       ],
@@ -11296,6 +11628,7 @@
         "bauhaus",
         "bauhaus-interior",
         "de-stijl-web",
+        "geometric-symbol",
         "international-style-architecture",
         "prairie-school-architecture",
         "swiss-international"
@@ -11525,6 +11858,270 @@
       "techniques": [
         "airbrush"
       ]
+    },
+    "victorian-trademark": {
+      "evolved_from": [],
+      "evolved_into": [
+        "art-nouveau-monogram",
+        "emblem-badge"
+      ],
+      "rebelled_against": [],
+      "provoked": [
+        "swiss-modernist-mark"
+      ],
+      "hybridized_with": [
+        "emblem-badge"
+      ],
+      "echoes": [
+        "victorian-interior",
+        "victorian-web"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "emblem-badge",
+          "distance": 3.61
+        },
+        {
+          "id": "art-nouveau-monogram",
+          "distance": 3.87
+        },
+        {
+          "id": "glossy-3d-logo",
+          "distance": 4
+        }
+      ],
+      "techniques": []
+    },
+    "art-nouveau-monogram": {
+      "evolved_from": [
+        "victorian-trademark"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "art-nouveau-architecture",
+        "art-nouveau-interior",
+        "art-nouveau-web"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "emblem-badge",
+          "distance": 2.83
+        },
+        {
+          "id": "minimal-wordmark",
+          "distance": 3.74
+        },
+        {
+          "id": "victorian-trademark",
+          "distance": 3.87
+        }
+      ],
+      "techniques": []
+    },
+    "emblem-badge": {
+      "evolved_from": [
+        "victorian-trademark"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [
+        "minimal-wordmark",
+        "swiss-modernist-mark"
+      ],
+      "hybridized_with": [
+        "glossy-3d-logo",
+        "victorian-trademark"
+      ],
+      "echoes": [
+        "mid-century-modern",
+        "space-age"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "art-nouveau-monogram",
+          "distance": 2.83
+        },
+        {
+          "id": "minimal-wordmark",
+          "distance": 3.16
+        },
+        {
+          "id": "flat-logo",
+          "distance": 3.32
+        }
+      ],
+      "techniques": []
+    },
+    "swiss-modernist-mark": {
+      "evolved_from": [],
+      "evolved_into": [
+        "geometric-symbol",
+        "minimal-wordmark"
+      ],
+      "rebelled_against": [
+        "emblem-badge",
+        "victorian-trademark"
+      ],
+      "provoked": [
+        "glossy-3d-logo"
+      ],
+      "hybridized_with": [],
+      "echoes": [
+        "international-style-architecture",
+        "japanese-graphic-modernism",
+        "swiss-international"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "flat-logo",
+          "distance": 0
+        },
+        {
+          "id": "geometric-symbol",
+          "distance": 1.41
+        },
+        {
+          "id": "emblem-badge",
+          "distance": 3.32
+        }
+      ],
+      "techniques": []
+    },
+    "geometric-symbol": {
+      "evolved_from": [
+        "swiss-modernist-mark"
+      ],
+      "evolved_into": [
+        "flat-logo",
+        "glossy-3d-logo"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "bauhaus",
+        "de-stijl-painting",
+        "mid-century-modern"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "flat-logo",
+          "distance": 1.41
+        },
+        {
+          "id": "swiss-modernist-mark",
+          "distance": 1.41
+        },
+        {
+          "id": "emblem-badge",
+          "distance": 4.36
+        }
+      ],
+      "techniques": []
+    },
+    "minimal-wordmark": {
+      "evolved_from": [
+        "swiss-modernist-mark"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "emblem-badge"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "flat-logo"
+      ],
+      "echoes": [
+        "minimalist-interior",
+        "rams-functionalism-ui"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "emblem-badge",
+          "distance": 3.16
+        },
+        {
+          "id": "flat-logo",
+          "distance": 3.32
+        },
+        {
+          "id": "swiss-modernist-mark",
+          "distance": 3.32
+        }
+      ],
+      "techniques": []
+    },
+    "glossy-3d-logo": {
+      "evolved_from": [
+        "geometric-symbol"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "swiss-modernist-mark"
+      ],
+      "provoked": [
+        "flat-logo"
+      ],
+      "hybridized_with": [
+        "emblem-badge"
+      ],
+      "echoes": [
+        "apple-aqua",
+        "frutiger-aero",
+        "skeuomorphism",
+        "y2k-aesthetic"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "emblem-badge",
+          "distance": 3.61
+        },
+        {
+          "id": "victorian-trademark",
+          "distance": 4
+        },
+        {
+          "id": "flat-logo",
+          "distance": 4.69
+        }
+      ],
+      "techniques": []
+    },
+    "flat-logo": {
+      "evolved_from": [
+        "geometric-symbol"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "glossy-3d-logo"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "minimal-wordmark"
+      ],
+      "echoes": [
+        "flat-design",
+        "material-design",
+        "metro-ui"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "swiss-modernist-mark",
+          "distance": 0
+        },
+        {
+          "id": "geometric-symbol",
+          "distance": 1.41
+        },
+        {
+          "id": "emblem-badge",
+          "distance": 3.32
+        }
+      ],
+      "techniques": []
     },
     "pixel-icon": {
       "evolved_from": [],

@@ -265,7 +265,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`skeuomorphism`](../skeuomorphism/SKILL.md)
 - **Was rejected by:** [`anti-design`](../anti-design/SKILL.md), [`blob-world`](../blob-world/SKILL.md), [`brutalist-web`](../brutalist-web/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md), [`conceptual-sketch-ui`](../conceptual-sketch-ui/SKILL.md), [`cybercore-web`](../cybercore-web/SKILL.md), [`cyberpunk-web`](../cyberpunk-web/SKILL.md), [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md), [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md), [`luxury-typography-web`](../luxury-typography-web/SKILL.md), [`neumorphism`](../neumorphism/SKILL.md), [`scrapbook-ui`](../scrapbook-ui/SKILL.md), [`surrealism-web`](../surrealism-web/SKILL.md), [`synthwave-web`](../synthwave-web/SKILL.md), [`wabi-sabi-web`](../wabi-sabi-web/SKILL.md)
 - **Mixes well with:** [`metro-ui`](../metro-ui/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
-- **Kin in another domain:** [`flat-icon`](../flat-icon/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md)
+- **Kin in another domain:** [`flat-icon`](../flat-icon/SKILL.md), [`flat-logo`](../flat-logo/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md)
 - **Nearest by vector profile:** [`minimalism-web`](../minimalism-web/SKILL.md), [`ai-chat-ui`](../ai-chat-ui/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md)
 
 ## Emotional target

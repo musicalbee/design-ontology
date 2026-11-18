@@ -1,0 +1,225 @@
+{
+  "$schema": "../../../schema/domains/logo.schema.json",
+  "id": "glossy-3d-logo",
+  "domain": "logo",
+  "name": "Gradient 3D and glass",
+  "aliases": [
+    "Web 2.0 logo",
+    "Glossy logo",
+    "Aqua logo",
+    "3D logo"
+  ],
+  "era_id": "screen-identity",
+  "time_period": {
+    "start": 2001,
+    "end": 2012,
+    "label": "2001–2012"
+  },
+  "region": "the United States, worldwide on the web",
+  "summary": "A mark lit like an object: top highlights, gradients from light to deep colour, a glass bevel, a reflection under it and a soft drop shadow. The screen was now the main medium, and the mark imitated a polished button or a globe.",
+  "philosophy": {
+    "core_thesis": "On a screen a mark can be a lit object: gloss, depth and reflection make it feel new, touchable and alive.",
+    "design_principles": [
+      "Light the mark from the top: a gradient from 20–30% lighter at the top to the base colour at 60% of the height.",
+      "Add a gloss highlight: a white shape at 40–70% opacity over the top 40–50% of the mark.",
+      "Model the volume with a bevel or a sphere: shading from the base colour to 30–40% darker at the edge.",
+      "Add a floor reflection: a mirrored copy at 20–30% opacity, faded over 30–40% of the mark height.",
+      "Use 2–4 hues of high saturation; a gradient counts as its two end colours.",
+      "Keep the silhouette simple, a globe, a bubble, a rounded square, so the lighting reads at 32 px."
+    ],
+    "anti_patterns": [
+      "A flat fill with no light",
+      "Fine line detail under 3% of the mark height",
+      "Engraved hatching",
+      "Muted, low-saturation colour",
+      "A mark that has no one-colour version in the manual"
+    ]
+  },
+  "vectors": {
+    "abstraction": 3,
+    "geometry": 3,
+    "ornament": 2,
+    "letter_dominance": 2,
+    "dimensionality": 5
+  },
+  "construction": {
+    "grid": "A rounded square or a circle as the base shape; the highlight is an ellipse at 80–90% of the width, set in the top half.",
+    "geometry": "Spheres, bubbles, rounded rectangles with corner radii of 20–25% of the height, and swooshes.",
+    "stroke_contrast_ratio": 1,
+    "stroke_rule": "No stroke as a line; forms are fills with a 1–2 px light rim at the top edge.",
+    "symmetry": "Mirror symmetry on the vertical axis for the base shape; light from the top or the top left.",
+    "detail_floor": "No detail under 3% of the mark height; the gloss shape is at least 25% of the height."
+  },
+  "form": {
+    "mark_type": "symbol",
+    "silhouette": "A sphere, a bubble, an orb or a rounded square at 1:1, often over a reflection that adds 30% to the height.",
+    "ornament": "Gloss highlights, a reflection, a soft shadow and sparkles; no line ornament.",
+    "letterforms": "Rounded sans in bold, lower case, often with the same gloss or a drop shadow; set apart from the orb."
+  },
+  "colour": {
+    "strategy": "Saturated blues, greens and oranges in vertical gradients, with white gloss and a soft grey shadow.",
+    "colour_count_min": 2,
+    "colour_count_max": 6,
+    "one_colour_reversal": "with a redraw",
+    "reversal_rule": "The manual must add a flat one-colour silhouette; the gloss, the reflection and the shadow drop out.",
+    "colours": [
+      {
+        "name": "Aqua blue",
+        "hex": "#1E90E8",
+        "role": "base colour"
+      },
+      {
+        "name": "Sky light",
+        "hex": "#9ED8FF",
+        "role": "top of the gradient"
+      },
+      {
+        "name": "Lime",
+        "hex": "#7CC242",
+        "role": "second hue"
+      },
+      {
+        "name": "Orange",
+        "hex": "#F7941D",
+        "role": "accent"
+      },
+      {
+        "name": "Shadow grey",
+        "hex": "#8A8F99",
+        "role": "drop shadow and reflection"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "role": "gloss and ground"
+      }
+    ]
+  },
+  "reproduction": {
+    "min_size_px": 32,
+    "min_size_mm": 12,
+    "clear_space_ratio": 0.25,
+    "clear_space": "A quarter of the orb height on each side, plus the reflection under it.",
+    "media": "Screens first: web headers, desktop and phone icons; print in CMYK with care for the gradients."
+  },
+  "prompt_primer": {
+    "positive": [
+      "glossy 3D logo symbol",
+      "Web 2.0 style",
+      "aqua glass orb",
+      "top gloss highlight",
+      "vertical gradient",
+      "floor reflection",
+      "soft drop shadow",
+      "saturated blue and lime",
+      "white ground",
+      "2000s software icon"
+    ],
+    "negative": [
+      "letters",
+      "text",
+      "words",
+      "slogan",
+      "watermark",
+      "flat colour",
+      "engraving",
+      "muted palette"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Wikipedia puzzle globe, version 2",
+      "kind": "image",
+      "maker": "Nohat and Paullusmagnus; Wikimedia Foundation",
+      "year": 2010,
+      "credit": "Version 1 by Nohat (concept by Paullusmagnus); Wikimedia Foundation",
+      "licence": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Wikipedia-logo-v2.svg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/960px-Wikipedia-logo-v2.svg.png"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "geometric-symbol"
+    ],
+    "rebelled_against": [
+      "swiss-modernist-mark"
+    ],
+    "hybridized_with": [
+      "emblem-badge"
+    ],
+    "echoes": [
+      "apple-aqua",
+      "frutiger-aero",
+      "skeuomorphism",
+      "y2k-aesthetic"
+    ]
+  },
+  "emotion": {
+    "target_response": "Shiny novelty: the viewer sees a polished, touchable object and feels the promise of new technology.",
+    "keywords": [
+      "shiny",
+      "optimistic",
+      "techy",
+      "playful",
+      "fresh"
+    ],
+    "brand_archetypes": [
+      "magician",
+      "explorer",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "web 2.0 logo",
+      "glossy logo",
+      "3d logo",
+      "aqua",
+      "glass orb",
+      "2000s logo",
+      "frutiger aero logo"
+    ],
+    "use_cases": [
+      "nostalgic web and game projects",
+      "Y2K revival merchandise",
+      "app icons with a retro theme",
+      "music and event graphics"
+    ],
+    "avoid_when": [
+      "The mark must print in one colour on paper or fabric.",
+      "The brief asks for a serious, durable or institutional tone."
+    ],
+    "modifiers": [
+      {
+        "request": "flatter",
+        "toward": "flat-logo",
+        "how": "Keep the silhouette and the hues; drop the gloss, the reflection and the shadow, and fill each part with one flat colour."
+      },
+      {
+        "request": "more official",
+        "toward": "emblem-badge",
+        "how": "Keep the orb; put it inside a closed ring with the name on the ring, and reduce the gloss to one highlight."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Web 2.0",
+      "url": "https://en.wikipedia.org/wiki/Web_2.0"
+    },
+    {
+      "title": "Wikipedia: Frutiger Aero",
+      "url": "https://en.wikipedia.org/wiki/Frutiger_Aero"
+    },
+    {
+      "title": "Wikipedia: Skeuomorph",
+      "url": "https://en.wikipedia.org/wiki/Skeuomorph"
+    },
+    {
+      "title": "Wikimedia Commons API: licence read from imageinfo extmetadata, 2026-11",
+      "url": "https://commons.wikimedia.org/w/api.php"
+    }
+  ]
+}

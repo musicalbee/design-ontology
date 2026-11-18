@@ -1,0 +1,226 @@
+{
+  "$schema": "../../../schema/domains/logo.schema.json",
+  "id": "art-nouveau-monogram",
+  "domain": "logo",
+  "name": "Art Nouveau monogram",
+  "aliases": [
+    "Jugendstil monogram",
+    "Nieuwe Kunst vignette",
+    "Secession monogram"
+  ],
+  "era_id": "trademark-age",
+  "time_period": {
+    "start": 1890,
+    "end": 1914,
+    "label": "1890–1914"
+  },
+  "region": "Belgium, the Netherlands, Austria and France",
+  "summary": "Interlaced initials and lettering drawn as one ornament, inside a frame of whiplash curves and plant forms. Publishers, societies and workshops used it as a vignette on books, journals and printed matter.",
+  "philosophy": {
+    "core_thesis": "The letters and the ornament are one drawing: a mark grows like a plant from one line, and the hand of the artist shows in each curve.",
+    "design_principles": [
+      "Interlace 1–3 initials so that their strokes share at least one stem or one bowl.",
+      "Draw each curve as a whiplash: an S-curve whose radius changes along the stroke by a factor of 3 or more.",
+      "Close the mark in a frame of plant stems or tendrils, with the frame line 1.5–2 times the letter stroke.",
+      "Draw custom capitals with small x-heights, high crossbars and open, rounded counters; no typeface from a foundry.",
+      "Keep stroke contrast low, 1.5:1 to 3:1, so that the mark prints in one ink as a block.",
+      "Fit the mark to a vertical rectangle near 3:4 or a square, centred on a vertical axis."
+    ],
+    "anti_patterns": [
+      "Straight-sided geometric letters from a typeface",
+      "Hatching and tonal shading",
+      "More than 2 printing inks",
+      "Rigid circles and squares as the only frame",
+      "Letters that float apart with no shared stroke"
+    ]
+  },
+  "vectors": {
+    "abstraction": 3,
+    "geometry": 2,
+    "ornament": 4,
+    "letter_dominance": 4,
+    "dimensionality": 1
+  },
+  "construction": {
+    "grid": "No modular grid. One vertical axis and a frame that fits a 3:4 or 1:1 rectangle; the lettering sits on 2–4 baselines inside it.",
+    "geometry": "Freehand curves of changing radius; few straight lines, and no arc from a compass.",
+    "stroke_contrast_ratio": 2,
+    "stroke_rule": "Letter strokes at 4–7% of the mark height; frame lines at 1.5–2 times the letter stroke.",
+    "symmetry": "Mirror symmetry for the frame; the interlaced initials break it in the centre.",
+    "detail_floor": "Gaps between interlaced strokes of at least 1.5% of the mark height, so that the interlace survives letterpress."
+  },
+  "form": {
+    "mark_type": "monogram",
+    "silhouette": "A vertical rectangle near 3:4, a square or a pointed oval, with tendrils that touch the frame corners.",
+    "ornament": "Whiplash tendrils, buds, leaves, dots in groups of three, and stylised water or flowers in the frame.",
+    "letterforms": "Hand-drawn capitals with high crossbars, bulging bowls and small serifs; letter spacing even and wide, often 10–20% of the cap height."
+  },
+  "colour": {
+    "strategy": "One dark ink on a toned paper; a second muted ink, sage, ochre or dull red, for the frame or the ground.",
+    "colour_count_min": 1,
+    "colour_count_max": 2,
+    "one_colour_reversal": "yes",
+    "reversal_rule": "The mark is drawn as one ink, so it reverses white on dark with no change; open the interlace gaps by 10% for a reversal.",
+    "colours": [
+      {
+        "name": "Ink black",
+        "hex": "#1C1A17",
+        "role": "letters and frame"
+      },
+      {
+        "name": "Sage green",
+        "hex": "#7C8B62",
+        "role": "second ink, ground"
+      },
+      {
+        "name": "Ochre",
+        "hex": "#B9893B",
+        "role": "second ink, accents"
+      },
+      {
+        "name": "Oxblood",
+        "hex": "#7A2E2A",
+        "role": "second ink, initials"
+      },
+      {
+        "name": "Toned paper",
+        "hex": "#EFE5CF",
+        "role": "ground"
+      }
+    ]
+  },
+  "reproduction": {
+    "min_size_px": 64,
+    "min_size_mm": 15,
+    "clear_space_ratio": 0.2,
+    "clear_space": "0.2 × the mark height on each side, measured from the outermost tendril.",
+    "media": "Letterpress line blocks, book covers, title pages, stamps for silver and ceramics."
+  },
+  "prompt_primer": {
+    "positive": [
+      "Art Nouveau vignette",
+      "whiplash curves",
+      "interlaced plant tendrils",
+      "one ink on toned paper",
+      "sage green and black",
+      "symmetrical frame",
+      "line block print",
+      "1900 book ornament",
+      "flowing organic line"
+    ],
+    "negative": [
+      "letters",
+      "text",
+      "words",
+      "slogan",
+      "watermark",
+      "hatching",
+      "photographic",
+      "gradient",
+      "geometric grid"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Vignette of the publisher L.J. Veen",
+      "kind": "image",
+      "credit": "Rijksmuseum, Amsterdam, RP-P-2016-1039; scan on Wikimedia Commons",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Vignet_van_uitgeversmaatschappij_L.J._Veen,_RP-P-2016-1039.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/7/71/Vignet_van_uitgeversmaatschappij_L.J._Veen%2C_RP-P-2016-1039.jpg"
+    },
+    {
+      "title": "Vignette for a society journal",
+      "kind": "image",
+      "credit": "Rijksmuseum, Amsterdam, RP-T-2015-41-1694, about 1901–1909; scan on Wikimedia Commons",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Vignet_van_het_Maandblad_der_Vereeniging_voor_verbetering_van_vrouwenkleeding,_RP-T-2015-41-1694.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Vignet_van_het_Maandblad_der_Vereeniging_voor_verbetering_van_vrouwenkleeding%2C_RP-T-2015-41-1694.jpg/960px-Vignet_van_het_Maandblad_der_Vereeniging_voor_verbetering_van_vrouwenkleeding%2C_RP-T-2015-41-1694.jpg"
+    },
+    {
+      "title": "Title vignette, Onder Neerlands vlag",
+      "kind": "image",
+      "year": 1899,
+      "credit": "Rijksmuseum, Amsterdam, RP-P-1969-337X-1; scan on Wikimedia Commons",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Vignet_voor_Onder_Neerlands_vlag,_1899,_RP-P-1969-337X-1.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Vignet_voor_Onder_Neerlands_vlag%2C_1899%2C_RP-P-1969-337X-1.jpg/960px-Vignet_voor_Onder_Neerlands_vlag%2C_1899%2C_RP-P-1969-337X-1.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "victorian-trademark"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "art-nouveau-web",
+      "art-nouveau-architecture",
+      "art-nouveau-interior"
+    ]
+  },
+  "emotion": {
+    "target_response": "Grace and craft: the viewer sees a hand-drawn, living line and feels care and taste.",
+    "keywords": [
+      "organic",
+      "graceful",
+      "crafted",
+      "literary",
+      "romantic"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "lover"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "art nouveau logo",
+      "jugendstil",
+      "monogram",
+      "whiplash",
+      "botanical monogram",
+      "ex libris",
+      "vignette"
+    ],
+    "use_cases": [
+      "publishers and bookshops",
+      "florists and perfumers",
+      "wedding and stationery marks",
+      "boutique hotels"
+    ],
+    "avoid_when": [
+      "The brief needs a technical, neutral or rational tone.",
+      "The mark must read at 16 px."
+    ],
+    "modifiers": [
+      {
+        "request": "more modern",
+        "toward": "minimal-wordmark",
+        "how": "Keep the custom letters and the even spacing; drop the frame and the tendrils, and set the letters in one weight on one baseline."
+      },
+      {
+        "request": "richer",
+        "toward": "victorian-trademark",
+        "how": "Keep the frame; add a pictorial device, banners and a second typeface."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Art Nouveau",
+      "url": "https://en.wikipedia.org/wiki/Art_Nouveau"
+    },
+    {
+      "title": "Wikipedia: Monogram",
+      "url": "https://en.wikipedia.org/wiki/Monogram"
+    },
+    {
+      "title": "Wikimedia Commons API: licence read from imageinfo extmetadata, 2026-11",
+      "url": "https://commons.wikimedia.org/w/api.php"
+    }
+  ]
+}

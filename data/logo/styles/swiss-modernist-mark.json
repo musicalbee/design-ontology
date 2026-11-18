@@ -1,0 +1,226 @@
+{
+  "$schema": "../../../schema/domains/logo.schema.json",
+  "id": "swiss-modernist-mark",
+  "domain": "logo",
+  "name": "Swiss modernist corporate mark",
+  "aliases": [
+    "International Style trademark",
+    "Corporate identity mark",
+    "Modernist logo"
+  ],
+  "era_id": "modernist-identity",
+  "time_period": {
+    "start": 1955,
+    "end": 1985,
+    "label": "1955–1985"
+  },
+  "region": "Switzerland, Germany, Britain and the United States",
+  "summary": "A mark for a whole organisation: a reduced symbol on a grid, one or two colours, a neo-grotesque or a custom sans logotype, and a manual that fixes every size, space and colour. Railways, airlines and state agencies led the style.",
+  "philosophy": {
+    "core_thesis": "A mark is a tool of a system: it must be objective, reproducible in any medium, and the same at 5 mm and at 5 m.",
+    "design_principles": [
+      "Draw the symbol on a square grid of 8–16 units; every edge lands on a unit line or on a 45° step.",
+      "Use strokes of one weight, at 12–20% of the symbol height, with no contrast.",
+      "Limit the mark to 1–2 flat colours: one strong brand colour and black or white.",
+      "Set the logotype in a neo-grotesque or a custom sans, with a cap height of 35–50% of the symbol height.",
+      "Fix the lock-up of symbol and logotype in a manual, with the gap between them equal to one grid unit times 2–4.",
+      "Define clear space as a module of the mark: often the stroke width times 2, or half the symbol height."
+    ],
+    "anti_patterns": [
+      "Pictorial or illustrative symbols",
+      "Ornament, shading or texture",
+      "More than 2 colours in the master mark",
+      "Serif or script lettering",
+      "A mark redrawn by hand for each use"
+    ]
+  },
+  "vectors": {
+    "abstraction": 4,
+    "geometry": 5,
+    "ornament": 1,
+    "letter_dominance": 2,
+    "dimensionality": 1
+  },
+  "construction": {
+    "grid": "A square grid of 8–16 units over the symbol; arcs have centres on grid points and radii of whole units.",
+    "geometry": "Straight lines at 0°, 45° and 90°, and arcs from a compass; no freehand curve.",
+    "stroke_contrast_ratio": 1,
+    "stroke_rule": "One stroke weight at 12–20% of the symbol height for all parts of the symbol.",
+    "symmetry": "Rotational or mirror symmetry is common; a directional mark uses two opposed arrows of equal weight.",
+    "detail_floor": "No gap under 6% of the symbol height, so the mark prints at 5 mm and on a rail car."
+  },
+  "form": {
+    "mark_type": "combination",
+    "silhouette": "A symbol that fits a square or a 2:1 rectangle, locked up left of or above a horizontal logotype.",
+    "ornament": "No ornament of any kind.",
+    "letterforms": "A neo-grotesque sans (Helvetica class) or a custom monoline sans in medium to bold weight, upper and lower case or all capitals, with tracking from 0 to 5%."
+  },
+  "colour": {
+    "strategy": "One saturated brand colour, red, blue or yellow, with black or white; the mark also works in one colour on any ground.",
+    "colour_count_min": 1,
+    "colour_count_max": 2,
+    "one_colour_reversal": "yes",
+    "reversal_rule": "The master mark is one colour, so white on the brand colour and black on white are both standard versions.",
+    "colours": [
+      {
+        "name": "Signal red",
+        "hex": "#EB0000",
+        "role": "brand colour"
+      },
+      {
+        "name": "Rail grey",
+        "hex": "#5F6B73",
+        "role": "secondary"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "role": "logotype"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "role": "ground or knock-out"
+      }
+    ]
+  },
+  "reproduction": {
+    "min_size_px": 16,
+    "min_size_mm": 5,
+    "clear_space_ratio": 0.5,
+    "clear_space": "Half the symbol height on each side, as fixed in the graphics manual.",
+    "media": "Offset print, signs, vehicle livery, uniforms and timetables; later the screen."
+  },
+  "prompt_primer": {
+    "positive": [
+      "Swiss modernist logo",
+      "geometric symbol on a grid",
+      "monoline strokes",
+      "one flat red colour",
+      "white ground",
+      "45 degree angles",
+      "reduced corporate mark",
+      "1960s graphic design",
+      "objective and precise"
+    ],
+    "negative": [
+      "letters",
+      "text",
+      "words",
+      "slogan",
+      "watermark",
+      "gradient",
+      "shadow",
+      "ornament",
+      "illustration"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "British Rail double arrow",
+      "kind": "image",
+      "maker": "Gerald Barney, Design Research Unit",
+      "year": 1965,
+      "credit": "Redrawn by Scaleboard99 on Wikimedia Commons",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:British_Rail_Emblem.png",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/British_Rail_Emblem.png/960px-British_Rail_Emblem.png"
+    },
+    {
+      "title": "Swiss Federal Railways mark",
+      "kind": "image",
+      "credit": "Swiss Federal Railways; file on Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:SBB_CFF_FFS_logo.svg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/SBB_CFF_FFS_logo.svg/960px-SBB_CFF_FFS_logo.svg.png"
+    },
+    {
+      "title": "Lufthansa logotype, 1964",
+      "kind": "image",
+      "year": 1964,
+      "credit": "Deutsche Lufthansa AG; file on Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Lufthansa_Logo_1964.svg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Lufthansa_Logo_1964.svg/960px-Lufthansa_Logo_1964.svg.png"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "victorian-trademark",
+      "emblem-badge"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "swiss-international",
+      "japanese-graphic-modernism",
+      "international-style-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Confidence in a system: the viewer trusts that the organisation runs on time and on rules.",
+    "keywords": [
+      "rational",
+      "reliable",
+      "public",
+      "precise",
+      "neutral"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "swiss logo",
+      "modernist logo",
+      "corporate identity",
+      "graphics standards manual",
+      "railway logo",
+      "1960s logo",
+      "grid logo"
+    ],
+    "use_cases": [
+      "transport and infrastructure",
+      "public agencies",
+      "engineering and industrial firms",
+      "wayfinding systems"
+    ],
+    "avoid_when": [
+      "The brief asks for warmth, craft or a personal voice.",
+      "The product sells on nostalgia or luxury."
+    ],
+    "modifiers": [
+      {
+        "request": "bolder",
+        "toward": "geometric-symbol",
+        "how": "Keep the grid and the flat colour; make the symbol one heavy abstract shape with no logotype beside it."
+      },
+      {
+        "request": "lighter",
+        "toward": "minimal-wordmark",
+        "how": "Keep the sans and the one colour; drop the symbol and let the word carry the mark."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: International Typographic Style",
+      "url": "https://en.wikipedia.org/wiki/International_Typographic_Style"
+    },
+    {
+      "title": "Wikipedia: Corporate identity",
+      "url": "https://en.wikipedia.org/wiki/Corporate_identity"
+    },
+    {
+      "title": "Wikipedia: Otl Aicher",
+      "url": "https://en.wikipedia.org/wiki/Otl_Aicher"
+    },
+    {
+      "title": "Wikimedia Commons API: licence read from imageinfo extmetadata, 2026-11",
+      "url": "https://commons.wikimedia.org/w/api.php"
+    }
+  ]
+}

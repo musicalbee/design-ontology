@@ -237,7 +237,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`bohemian-web`](../bohemian-web/SKILL.md)
 - **Was rejected by:** [`art-deco-web`](../art-deco-web/SKILL.md), [`constructivism-web`](../constructivism-web/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md)
 - **Mixes well with:** [`art-deco-web`](../art-deco-web/SKILL.md), [`victorian-web`](../victorian-web/SKILL.md)
-- **Kin in another domain:** [`art-nouveau-architecture`](../art-nouveau-architecture/SKILL.md), [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md), [`symbolism-painting`](../symbolism-painting/SKILL.md)
+- **Kin in another domain:** [`art-nouveau-architecture`](../art-nouveau-architecture/SKILL.md), [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md), [`art-nouveau-monogram`](../art-nouveau-monogram/SKILL.md), [`symbolism-painting`](../symbolism-painting/SKILL.md)
 - **Nearest by vector profile:** [`memphis-design`](../memphis-design/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md), [`cyberdelia`](../cyberdelia/SKILL.md)
 
 ## Emotional target

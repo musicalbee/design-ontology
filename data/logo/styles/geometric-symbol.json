@@ -1,0 +1,223 @@
+{
+  "$schema": "../../../schema/domains/logo.schema.json",
+  "id": "geometric-symbol",
+  "domain": "logo",
+  "name": "Geometric abstract symbol",
+  "aliases": [
+    "Abstract mark",
+    "Symbol mark",
+    "Geometric logo"
+  ],
+  "era_id": "modernist-identity",
+  "time_period": {
+    "start": 1960,
+    "end": 1990,
+    "label": "1960–1990"
+  },
+  "region": "Germany, the United States and Japan",
+  "summary": "One abstract shape, built from squares, circles, bars or loops, that stands for the organisation with no letters. The shape implies a direction, growth or a cycle, and is strong enough to stand alone on a sign or a coin.",
+  "philosophy": {
+    "core_thesis": "A pure form carries meaning by its structure alone: a square, a bar or a loop can say stability, growth or a cycle in every language.",
+    "design_principles": [
+      "Build the symbol from 1–3 primitive shapes: a square, a circle, a bar or a band.",
+      "Imply one idea with one move: a diagonal for growth, a loop for a cycle, a rotation for motion.",
+      "Fill the shapes solid; let negative space form a second figure when it can.",
+      "Keep the symbol in a square of 1:1, with the shapes at 80–95% of the square.",
+      "Use one colour for the master, often a deep blue, a green or black.",
+      "Test the symbol at 16 px and at 2 m: the idea must read at both sizes with no change."
+    ],
+    "anti_patterns": [
+      "Letters inside the symbol",
+      "A literal picture of the product",
+      "Thin lines under 6% of the symbol height",
+      "More than 2 colours",
+      "Texture, gloss or a shadow"
+    ]
+  },
+  "vectors": {
+    "abstraction": 5,
+    "geometry": 5,
+    "ornament": 1,
+    "letter_dominance": 1,
+    "dimensionality": 1
+  },
+  "construction": {
+    "grid": "A square of 1:1 divided into 4–12 units; each corner and centre falls on a unit point.",
+    "geometry": "Squares, circles, bars and bands; diagonals at 45° or at a fixed angle that the system names.",
+    "stroke_contrast_ratio": 1,
+    "stroke_rule": "Solid fills; where a band is used, its width is 12–25% of the symbol height.",
+    "symmetry": "Rotational symmetry of order 2, 3 or 4 is common; a single diagonal breaks mirror symmetry on purpose.",
+    "detail_floor": "No gap under 8% of the symbol height."
+  },
+  "form": {
+    "mark_type": "symbol",
+    "silhouette": "A square or a circle at 1:1; the outer edge is a clean primitive shape.",
+    "ornament": "No ornament of any kind.",
+    "letterforms": "Not part of the symbol; a logotype in a neutral sans sits apart from it, at a gap of 50–100% of the symbol height."
+  },
+  "colour": {
+    "strategy": "One deep, saturated colour, used flat; the symbol is also standard in black and in white.",
+    "colour_count_min": 1,
+    "colour_count_max": 2,
+    "one_colour_reversal": "yes",
+    "reversal_rule": "The symbol is a solid silhouette, so white on a dark ground needs no change.",
+    "colours": [
+      {
+        "name": "Deep blue",
+        "hex": "#0018A8",
+        "role": "master colour"
+      },
+      {
+        "name": "Green",
+        "hex": "#00843D",
+        "role": "alternative master colour"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "role": "one-colour version"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "role": "ground"
+      }
+    ]
+  },
+  "reproduction": {
+    "min_size_px": 16,
+    "min_size_mm": 4,
+    "clear_space_ratio": 0.25,
+    "clear_space": "A quarter of the symbol height on each side; in a lock-up, the gap to the logotype is half the symbol height.",
+    "media": "Signs, coins and stamps, offset print, then screen icons."
+  },
+  "prompt_primer": {
+    "positive": [
+      "geometric abstract symbol",
+      "single solid shape",
+      "square and diagonal bar",
+      "deep blue flat colour",
+      "white ground",
+      "negative space figure",
+      "centred",
+      "1970s corporate symbol",
+      "clean vector edges"
+    ],
+    "negative": [
+      "letters",
+      "text",
+      "words",
+      "slogan",
+      "watermark",
+      "gradient",
+      "shadow",
+      "illustration",
+      "outline only"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Slash in a square",
+      "kind": "image",
+      "maker": "Anton Stankowski",
+      "year": 1974,
+      "credit": "Deutsche Bank AG; file on Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Deutsche_Bank_logo_without_wordmark.svg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Deutsche_Bank_logo_without_wordmark.svg/960px-Deutsche_Bank_logo_without_wordmark.svg.png"
+    },
+    {
+      "title": "Recycling symbol",
+      "kind": "image",
+      "maker": "Gary Anderson",
+      "year": 1970,
+      "credit": "Drawn by Krdan on Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Recycling_symbol.svg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Recycling_symbol.svg/960px-Recycling_symbol.svg.png"
+    },
+    {
+      "title": "Munich 1972 radiant spiral",
+      "kind": "image",
+      "maker": "Coordt von Mannstein",
+      "year": 1970,
+      "credit": "Organising committee of the 1972 Summer Olympics; file on Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Logo_M%C3%BCnchen_1972.svg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Logo_M%C3%BCnchen_1972.svg/960px-Logo_M%C3%BCnchen_1972.svg.png"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "swiss-modernist-mark"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "bauhaus",
+      "de-stijl-painting",
+      "mid-century-modern"
+    ]
+  },
+  "emotion": {
+    "target_response": "Calm strength: the viewer sees a firm, timeless form and reads stability and ambition.",
+    "keywords": [
+      "stable",
+      "bold",
+      "timeless",
+      "abstract",
+      "confident"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "abstract logo",
+      "geometric symbol",
+      "logo mark only",
+      "no letters",
+      "symbol logo",
+      "1970s corporate",
+      "square logo"
+    ],
+    "use_cases": [
+      "banks and insurers",
+      "public programmes and events",
+      "app icons and favicons",
+      "industrial groups"
+    ],
+    "avoid_when": [
+      "The audience must read the name in the mark to remember it.",
+      "The brief asks for a playful, hand-made or ornate tone."
+    ],
+    "modifiers": [
+      {
+        "request": "more digital",
+        "toward": "flat-logo",
+        "how": "Keep the primitive shapes; add 2–4 bright flat colours and round the corners at 10–20% of the shape size."
+      },
+      {
+        "request": "with depth",
+        "toward": "glossy-3d-logo",
+        "how": "Keep the silhouette; add a top-lit gradient, a highlight and a soft reflection."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Anton Stankowski",
+      "url": "https://en.wikipedia.org/wiki/Anton_Stankowski"
+    },
+    {
+      "title": "Wikipedia: Recycling symbol",
+      "url": "https://en.wikipedia.org/wiki/Recycling_symbol"
+    },
+    {
+      "title": "Wikimedia Commons API: licence read from imageinfo extmetadata, 2026-11",
+      "url": "https://commons.wikimedia.org/w/api.php"
+    }
+  ]
+}

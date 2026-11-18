@@ -1,0 +1,22 @@
+{
+  "id": "logo",
+  "order": 7,
+  "name": "Logo",
+  "schema": "schema/domains/logo.schema.json",
+  "task": "drawing, prompting or art-directing a logo: a symbol, a monogram, a wordmark, an emblem or a full identity mark",
+  "description": "Logo styles as construction rules: the grid, the stroke contrast, the colour count, the minimum size, the clear space and the one-colour reversal. Each style links canonical evidence with an open licence or in the public domain. A free copyright licence does not remove trademark rights: a mark can be free to copy as an image and still be a registered trademark. Use the evidence as a reference for form, and do not reuse a mark for a product or a service.",
+  "vectors": [
+    { "key": "abstraction", "label": "Abstraction", "abbr": "ABS", "low": "a literal picture of a thing", "high": "a pure abstract form" },
+    { "key": "geometry", "label": "Geometry", "abbr": "GEO", "low": "freehand, drawn by eye", "high": "ruler and compass on a grid" },
+    { "key": "ornament", "label": "Ornament", "abbr": "ORN", "low": "bare form, no decoration", "high": "dense decoration and frames" },
+    { "key": "letter_dominance", "label": "Letter dominance", "abbr": "LET", "low": "a symbol with no letters", "high": "letters only" },
+    { "key": "dimensionality", "label": "Dimensionality", "abbr": "DIM", "low": "flat, one plane", "high": "modelled volume, light and depth" }
+  ],
+  "facets": [
+    { "key": "construction", "title": "Construction" },
+    { "key": "form", "title": "Form and lettering" },
+    { "key": "colour", "title": "Colour" },
+    { "key": "reproduction", "title": "Reproduction" },
+    { "key": "prompt_primer", "title": "Prompt primer" }
+  ]
+}

@@ -218,6 +218,21 @@ Vector axes, each 1 to 5: **ABS** abstraction (illusionistic depiction → pure 
 | [`photorealism`](./photorealism/SKILL.md) | Avant-garde | photorealism, photorealist, hyperrealism, richard estes, bechtle | automotive, retail and city campaign art, editorial art on urban life, product scenes with exact glass and metal | exact, cool, urban | 1 | 1 | 3 | 4 | 2 |
 | [`airbrush-surrealism`](./airbrush-surrealism/SKILL.md) | Avant-garde | airbrush, airbrush surrealism, airbrushed illustration, chrome robot, sorayama | music covers and posters, science fiction and fantasy book covers, game and film key art | glossy, uncanny, electric | 2 | 1 | 5 | 4 | 2 |
 
+## Logo
+
+Vector axes, each 1 to 5: **ABS** abstraction (a literal picture of a thing → a pure abstract form) · **GEO** geometry (freehand, drawn by eye → ruler and compass on a grid) · **ORN** ornament (bare form, no decoration → dense decoration and frames) · **LET** letter dominance (a symbol with no letters → letters only) · **DIM** dimensionality (flat, one plane → modelled volume, light and depth).
+
+| Skill | Era | Load when | Good for | Feels | ABS | GEO | ORN | LET | DIM |
+|---|---|---|---|---|:-:|:-:|:-:|:-:|:-:|
+| [`victorian-trademark`](./victorian-trademark/SKILL.md) | Trademark age | victorian logo, vintage label, engraved logo, old trademark, apothecary label | heritage food and drink labels, spirits and tobacco-style packaging, historical film and game props | established, ornate, crafted | 1 | 2 | 5 | 3 | 4 |
+| [`art-nouveau-monogram`](./art-nouveau-monogram/SKILL.md) | Trademark age | art nouveau logo, jugendstil, monogram, whiplash, botanical monogram | publishers and bookshops, florists and perfumers, wedding and stationery marks | organic, graceful, crafted | 3 | 2 | 4 | 4 | 1 |
+| [`emblem-badge`](./emblem-badge/SKILL.md) | Trademark age | badge logo, emblem, seal, crest, patch | public agencies and clubs, outdoor and workwear brands, breweries and coffee roasters | official, loyal, sturdy | 2 | 4 | 3 | 3 | 2 |
+| [`swiss-modernist-mark`](./swiss-modernist-mark/SKILL.md) | Modernist identity | swiss logo, modernist logo, corporate identity, graphics standards manual, railway logo | transport and infrastructure, public agencies, engineering and industrial firms | rational, reliable, public | 4 | 5 | 1 | 2 | 1 |
+| [`geometric-symbol`](./geometric-symbol/SKILL.md) | Modernist identity | abstract logo, geometric symbol, logo mark only, no letters, symbol logo | banks and insurers, public programmes and events, app icons and favicons | stable, bold, timeless | 5 | 5 | 1 | 1 | 1 |
+| [`minimal-wordmark`](./minimal-wordmark/SKILL.md) | Modernist identity | wordmark, logotype, text logo, type-only logo, minimal logo | fashion and retail, software and services, media titles | clean, assured, modern | 3 | 4 | 1 | 5 | 1 |
+| [`glossy-3d-logo`](./glossy-3d-logo/SKILL.md) | Screen identity | web 2.0 logo, glossy logo, 3d logo, aqua, glass orb | nostalgic web and game projects, Y2K revival merchandise, app icons with a retro theme | shiny, optimistic, techy | 3 | 3 | 2 | 2 | 5 |
+| [`flat-logo`](./flat-logo/SKILL.md) | Screen identity | flat logo, flat design, app icon logo, material design logo, colourful simple logo | apps and software products, start-ups and platforms, favicons and app icons | friendly, clear, bright | 4 | 5 | 1 | 2 | 1 |
+
 ## Icons
 
 Vector axes, each 1 to 5: **REA** realism (abstract glyph → rendered object with material and light) · **FIL** fill (stroke only → solid fill only) · **COR** corner softness (square, sharp corners → round, soft corners) · **DET** detail density (one idea in few strokes → many parts, texture and highlights) · **COL** colour count (one colour → full colour with gradients).
