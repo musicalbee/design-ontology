@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schema/principle.schema.json",
+  "id": "sightlines",
+  "name": "Sightlines",
+  "aliases": [
+    "view lines",
+    "lines of sight"
+  ],
+  "definition": "The line from an eye position, such as an entrance or a seat, to a target. A clear sightline joins the viewer to the focal point.",
+  "measures": [
+    {
+      "measure": "standing eye height",
+      "unit": "cm",
+      "reference": "150–165"
+    },
+    {
+      "measure": "seated eye height",
+      "unit": "cm",
+      "reference": "110–120"
+    },
+    {
+      "measure": "obstruction on the main sightline",
+      "unit": "cm of height",
+      "reference": "0, or below 75 for low furniture"
+    }
+  ],
+  "applies_to": [
+    "architecture",
+    "interior",
+    "photography"
+  ],
+  "related": [
+    "focal-point",
+    "layering-depth",
+    "circulation"
+  ],
+  "sources": [
+    {
+      "title": "Julius Panero and Martin Zelnik, Human Dimension and Interior Space (Whitney Library of Design, 1979)"
+    },
+    {
+      "title": "Francis D. K. Ching, Architecture: Form, Space, and Order (Wiley, 4th edition, 2014)"
+    }
+  ]
+}

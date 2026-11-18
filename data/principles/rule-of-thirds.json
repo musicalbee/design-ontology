@@ -1,0 +1,40 @@
+{
+  "$schema": "../../schema/principle.schema.json",
+  "id": "rule-of-thirds",
+  "name": "Rule of thirds",
+  "aliases": [
+    "thirds grid"
+  ],
+  "definition": "Two horizontal and two vertical lines divide the view into nine equal parts. The focal point sits on one of the four crossings, and a horizon sits on one of the two horizontal lines.",
+  "measures": [
+    {
+      "measure": "focal point position",
+      "unit": "fraction of width and height",
+      "reference": "0.33 or 0.67, tolerance 0.05"
+    },
+    {
+      "measure": "horizon position",
+      "unit": "fraction of height",
+      "reference": "0.33 or 0.67"
+    }
+  ],
+  "applies_to": [
+    "photography",
+    "painting",
+    "design",
+    "interior"
+  ],
+  "related": [
+    "focal-point",
+    "balance",
+    "proportion"
+  ],
+  "sources": [
+    {
+      "title": "John Thomas Smith, Remarks on Rural Scenery (1797), the first printed use of the term"
+    },
+    {
+      "title": "Rudolf Arnheim, Art and Visual Perception: A Psychology of the Creative Eye (University of California Press, 1954; new version 1974)"
+    }
+  ]
+}

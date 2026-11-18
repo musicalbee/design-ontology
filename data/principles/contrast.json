@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schema/principle.schema.json",
+  "id": "contrast",
+  "name": "Contrast",
+  "aliases": [
+    "value contrast",
+    "light and dark"
+  ],
+  "definition": "Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point.",
+  "measures": [
+    {
+      "measure": "light reflectance value difference between adjacent planes",
+      "unit": "LRV points",
+      "reference": "30 or more for a visible edge"
+    },
+    {
+      "measure": "text on its field",
+      "unit": "luminance ratio",
+      "reference": "4.5:1 or more"
+    }
+  ],
+  "applies_to": [
+    "design",
+    "architecture",
+    "interior",
+    "photography",
+    "painting"
+  ],
+  "related": [
+    "focal-point",
+    "hierarchy",
+    "colour-distribution"
+  ],
+  "sources": [
+    {
+      "title": "Donis A. Dondis, A Primer of Visual Literacy (MIT Press, 1973)"
+    },
+    {
+      "title": "BS 8300-2:2018, Design of an accessible and inclusive built environment. Buildings"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schema/principle.schema.json",
+  "id": "scale",
+  "name": "Scale",
+  "aliases": [
+    "human scale"
+  ],
+  "definition": "The size of an element in relation to the human body, to the space around it and to the other elements. A style chooses a reference body and holds the elements in a range around it.",
+  "measures": [
+    {
+      "measure": "seat height",
+      "unit": "cm",
+      "reference": "38–46"
+    },
+    {
+      "measure": "largest piece to room width",
+      "unit": "ratio",
+      "reference": "0.3–0.6"
+    },
+    {
+      "measure": "ceiling height to door height",
+      "unit": "ratio",
+      "reference": "1.2–1.5"
+    }
+  ],
+  "applies_to": [
+    "design",
+    "architecture",
+    "interior",
+    "photography",
+    "painting"
+  ],
+  "related": [
+    "proportion",
+    "hierarchy"
+  ],
+  "sources": [
+    {
+      "title": "Julius Panero and Martin Zelnik, Human Dimension and Interior Space (Whitney Library of Design, 1979)"
+    },
+    {
+      "title": "Ernst and Peter Neufert, Architects' Data (Wiley-Blackwell, 4th English edition, 2012)"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "../../schema/principle.schema.json",
+  "id": "lighting-layers",
+  "name": "Lighting layers",
+  "aliases": [
+    "layered light",
+    "key and fill"
+  ],
+  "definition": "Light comes from separate layers with separate jobs: ambient light for the whole space, task light for work, accent light for the focal point. In photography the same split is key, fill and accent light.",
+  "measures": [
+    {
+      "measure": "ambient illuminance",
+      "unit": "lux",
+      "reference": "50–300 in a home"
+    },
+    {
+      "measure": "task illuminance",
+      "unit": "lux",
+      "reference": "300–750"
+    },
+    {
+      "measure": "accent to ambient",
+      "unit": "ratio",
+      "reference": "3:1 to 10:1"
+    },
+    {
+      "measure": "correlated colour temperature",
+      "unit": "kelvin",
+      "reference": "2200–4000 in a home"
+    },
+    {
+      "measure": "key to fill",
+      "unit": "ratio",
+      "reference": "2:1 to 8:1 in photography"
+    }
+  ],
+  "applies_to": [
+    "interior",
+    "architecture",
+    "photography",
+    "painting"
+  ],
+  "related": [
+    "contrast",
+    "focal-point"
+  ],
+  "sources": [
+    {
+      "title": "IES Lighting Handbook, 10th edition (Illuminating Engineering Society, 2011)"
+    },
+    {
+      "title": "EN 12464-1:2021, Light and lighting. Lighting of work places. Indoor work places"
+    }
+  ]
+}

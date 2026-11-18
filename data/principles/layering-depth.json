@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schema/principle.schema.json",
+  "id": "layering-depth",
+  "name": "Layering in depth",
+  "aliases": [
+    "foreground, middle ground, background",
+    "planes in depth"
+  ],
+  "definition": "A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth.",
+  "measures": [
+    {
+      "measure": "planes in depth",
+      "unit": "count",
+      "reference": "2 to 4"
+    },
+    {
+      "measure": "overlap between planes",
+      "unit": "% of the nearer element",
+      "reference": "10–40"
+    }
+  ],
+  "applies_to": [
+    "design",
+    "architecture",
+    "interior",
+    "photography",
+    "painting"
+  ],
+  "related": [
+    "framing",
+    "sightlines",
+    "negative-space"
+  ],
+  "sources": [
+    {
+      "title": "Rudolf Arnheim, Art and Visual Perception: A Psychology of the Creative Eye (University of California Press, 1954; new version 1974)"
+    },
+    {
+      "title": "Francis D. K. Ching, Architecture: Form, Space, and Order (Wiley, 4th edition, 2014)"
+    }
+  ]
+}

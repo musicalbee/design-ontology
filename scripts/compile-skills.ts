@@ -6,11 +6,12 @@
 import Handlebars from "handlebars";
 import { existsSync, readFileSync, readdirSync, rmSync } from "node:fs";
 import { join } from "node:path";
-import { ROOT, loadAll, readJson, write, type Domain, type Style } from "./lib.js";
+import { ROOT, loadAll, loadPrinciples, principleRefs, readJson, write, type Domain, type Style } from "./lib.js";
 import { ICON_NAMES, derivedTokens, heroSvg, iconSprite, patternSvg, typeTokens, type IconPack, type Visual } from "./pack.js";
 
 const { domains, eras, styles } = loadAll();
 const byId = new Map(styles.map((s) => [s.id, s]));
+const principles = new Map(loadPrinciples().map((p) => [p.principle.id, p.principle]));
 
 const graphPath = join(ROOT, "graph", "lineage.json");
 if (!existsSync(graphPath)) {
@@ -150,6 +151,10 @@ function view(style: Style, domain: Domain) {
       icon_pack: { ...iconPack(style), why: visualOf(style)!.icon.pack.why },
       icon_rules: iconRules,
     },
+    composition_principles: principleRefs(style).map((id) => {
+      const p = principles.get(id)!;
+      return { id, name: p.name, definition: p.definition, measures: p.measures.map((m) => `${m.measure} (${m.unit}): ${m.reference}`).join("; ") };
+    }),
     primer: style.primer && {
       positive: style.primer.positive.join(", "),
       negative: style.primer.negative.join(", "),
