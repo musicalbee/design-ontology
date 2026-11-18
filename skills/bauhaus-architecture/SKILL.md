@@ -177,7 +177,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more corporate**: move toward [`international-style-architecture`](../international-style-architecture/SKILL.md) (International Style). Merge the wings into one slab on a 7.2m grid, run the curtain wall around all sides, and drop the colour planes.
 
 - **Mixes well with:** [`international-style-architecture`](../international-style-architecture/SKILL.md)
-- **Kin in another domain:** [`bauhaus`](../bauhaus/SKILL.md), [`bauhaus-interior`](../bauhaus-interior/SKILL.md), [`geometric-sans`](../geometric-sans/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md)
+- **Kin in another domain:** [`architectural-photography`](../architectural-photography/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md), [`bauhaus-interior`](../bauhaus-interior/SKILL.md), [`geometric-sans`](../geometric-sans/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md)
 - **Nearest by vector profile:** [`international-style-architecture`](../international-style-architecture/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md)
 
 ## Emotional target

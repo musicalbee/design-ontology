@@ -205,11 +205,12 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more polished**: move toward [`french-new-wave`](../french-new-wave/SKILL.md) (French New Wave). Keep the handheld camera and the location; move to 35mm black and white at 24 fps, add a bounce light and allow a music cue.
 - If the user asks for **more everyday**: move toward [`creator-vlog`](../creator-vlog/SKILL.md) (Creator vlog). Keep the handheld camera and the room tone; address the lens, shoot 16:9 and allow cuts to remove every pause.
 
+- **Led to (go here for a newer version):** [`mumblecore`](../mumblecore/SKILL.md), [`phone-cinema`](../phone-cinema/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`french-new-wave`](../french-new-wave/SKILL.md)
 - **Was rejected by:** [`planimetric-symmetry`](../planimetric-symmetry/SKILL.md)
-- **Mixes well with:** [`camcorder-revival`](../camcorder-revival/SKILL.md)
+- **Mixes well with:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`found-footage`](../found-footage/SKILL.md)
 - **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`documentary-photography`](../documentary-photography/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md)
-- **Nearest by vector profile:** [`documentary-verite`](../documentary-verite/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md), [`italian-neorealism`](../italian-neorealism/SKILL.md)
+- **Nearest by vector profile:** [`documentary-verite`](../documentary-verite/SKILL.md), [`found-footage`](../found-footage/SKILL.md), [`mumblecore`](../mumblecore/SKILL.md)
 
 ## Emotional target
 

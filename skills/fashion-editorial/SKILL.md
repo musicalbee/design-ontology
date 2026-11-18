@@ -177,10 +177,11 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more moody and noir**: move toward [`film-noir-still`](../film-noir-still/SKILL.md) (Film noir still photography). Use one hard key at a ratio of 16:1, a black ground and a long shadow; shoot in black and white at f/4.
 
 - **Came from (go here for a more orthodox version):** [`pictorialism`](../pictorialism/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md)
+- **Led to (go here for a newer version):** [`ai-hyperreal`](../ai-hyperreal/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`new-objectivity`](../new-objectivity/SKILL.md)
 - **Mixes well with:** [`film-noir-still`](../film-noir-still/SKILL.md), [`food-photography`](../food-photography/SKILL.md), [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md)
 - **Kin in another domain:** [`didone-serif`](../didone-serif/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md)
-- **Nearest by vector profile:** [`cinematic-teal-orange`](../cinematic-teal-orange/SKILL.md), [`food-photography`](../food-photography/SKILL.md), [`film-noir-still`](../film-noir-still/SKILL.md)
+- **Nearest by vector profile:** [`cinematic-teal-orange`](../cinematic-teal-orange/SKILL.md), [`ai-hyperreal`](../ai-hyperreal/SKILL.md), [`food-photography`](../food-photography/SKILL.md)
 
 ## Emotional target
 

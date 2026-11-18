@@ -1,0 +1,285 @@
+{
+  "$schema": "../../../schema/domains/architecture.schema.json",
+  "id": "arts-and-crafts-architecture",
+  "domain": "architecture",
+  "name": "Arts and Crafts",
+  "aliases": [
+    "Arts and Crafts movement",
+    "Domestic Revival",
+    "Free Style"
+  ],
+  "era_id": "revival-and-academy",
+  "time_period": {
+    "start": 1859,
+    "end": 1914,
+    "label": "1859–1914"
+  },
+  "building_types": [
+    "residential",
+    "religious",
+    "education"
+  ],
+  "summary": "Houses built by honest craft from local brick, oak and tile. Webb, Voysey and Baillie Scott planned from the inside out and let steep roofs, deep porches and hand work show how the house was made.",
+  "philosophy": {
+    "core_thesis": "A building should be made by skilled hands from local material, planned for the life inside it, and its construction should be seen and enjoyed.",
+    "design_principles": [
+      "Plan from the rooms outward: set each room by its use and light, and let the plan decide the elevation.",
+      "Use local brick, stone, oak and clay tile, and show the joints, pegs and tool marks.",
+      "Cover the house with a steep roof of 45 to 55 degrees, with deep eaves of 0.4 to 0.8m and tall chimneys.",
+      "Group casement windows in timber frames with small leaded panes, in 2 to 4 lights.",
+      "Place a deep porch or inglenook of 1.5 to 2.5m as the heart of arrival and home.",
+      "Make fittings by hand: latches, hinges, tiles and built-in settles belong to the design."
+    ],
+    "anti_patterns": [
+      "Factory-made ornament applied to a plain wall",
+      "Perfect symmetry and a classical portico",
+      "Large plate-glass windows without glazing bars",
+      "Smooth stucco that hides brick and timber",
+      "Flat roofs and thin parapets",
+      "Machine-cut stone with sharp, even arrises"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "structural_expression": 3,
+    "geometric_rigidity": 2,
+    "material_rawness": 4,
+    "monumentality": 2
+  },
+  "massing": {
+    "form": "A free, irregular group of gables, wings and bays, with one or more tall chimneys as anchors.",
+    "proportion": "Two to two and a half storeys, 1.2 to 1.8 times wider than high, with a roof as tall as the walls.",
+    "roof": "A steep gable or hipped roof of 45 to 55 degrees in clay tile or slate, with 0.4 to 0.8m eaves.",
+    "relation_to_ground": "A low brick or stone plinth of 0.3 to 0.6m, with the garden and terrace tied to the house."
+  },
+  "structure": {
+    "system": "Load-bearing brick or stone walls of 0.34 to 0.45m with oak floors and exposed roof timbers.",
+    "span_and_module": "A room span of 4 to 6m; oak beams of 0.2 to 0.3m; window lights of 0.4 to 0.6m wide.",
+    "expression": "Oak pegs, tie beams, chimney stacks and brick arches carry the roof and show it."
+  },
+  "materials": {
+    "primary": [
+      "red brick",
+      "oak",
+      "clay tile",
+      "local stone"
+    ],
+    "secondary": [
+      "leaded glass",
+      "wrought iron",
+      "limewash",
+      "green slate"
+    ],
+    "finish": "Natural and hand-worked: unpainted brick, limewash, oiled oak and wrought iron, left to weather.",
+    "palette": [
+      {
+        "name": "Red brick",
+        "hex": "#A5472F",
+        "role": "walls"
+      },
+      {
+        "name": "Tile orange",
+        "hex": "#C2693A",
+        "role": "roof"
+      },
+      {
+        "name": "Oiled oak",
+        "hex": "#6B4A2B",
+        "role": "joinery"
+      },
+      {
+        "name": "Limewash",
+        "hex": "#E7E0CB",
+        "role": "plaster and render"
+      },
+      {
+        "name": "Leaf green",
+        "hex": "#4F6B3A",
+        "role": "doors and garden"
+      }
+    ]
+  },
+  "facade": {
+    "composition": "An irregular front of gables and bays: the plan decides each window and porch, and no two sides match.",
+    "openings": "Casement windows in oak frames with leaded panes; the window-to-wall ratio is 15 to 30%.",
+    "solid_to_void": "Mostly solid: 70–85% solid."
+  },
+  "light_and_space": {
+    "daylight": "Light enters through small leaded casements and deep bays, and the inglenook stays dim and warm.",
+    "spatial_sequence": "A low porch leads to a hall, then to rooms of different ceiling heights around a fireplace.",
+    "interior_character": "Ceilings of 2.4 to 2.7m with oak beams, panelled walls, inglenooks, window seats and built-in settles."
+  },
+  "ornament": {
+    "attitude": "Ornament comes from the work: pegs, tile patterns, hinges and carved bargeboards show the hand of the maker.",
+    "details": [
+      "exposed oak pegs",
+      "decorative tile hanging",
+      "wrought-iron hinges",
+      "leaded casements",
+      "carved bargeboards",
+      "inglenook seats"
+    ]
+  },
+  "composition": {
+    "symmetry": "asymmetric",
+    "axis_count": 0,
+    "rhythm_module_m": 1.2,
+    "rules": [
+      {
+        "principle": "rhythm",
+        "rule": "Repeat small casement lights in groups of 2 to 4 along the front.",
+        "value": "lights 0.4–0.6m"
+      },
+      {
+        "principle": "proportion",
+        "rule": "Make the roof as tall as the wall below it.",
+        "value": "roof 45–55°"
+      },
+      {
+        "principle": "focal-point",
+        "rule": "Set the porch and the chimney as the two anchors of the front.",
+        "value": "1 porch + 1 chimney"
+      },
+      {
+        "principle": "zoning",
+        "rule": "Plan the rooms by use around the hall and hearth, and place the services in a wing.",
+        "value": "1 hearth core"
+      },
+      {
+        "principle": "unity-variety",
+        "rule": "Vary the gables and bays, and repeat one material and one detail.",
+        "value": "2–3 gables"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Layer plinth, wall, tile hanging and deep eave.",
+        "value": "4 layers"
+      }
+    ]
+  },
+  "references": {
+    "images": [
+      {
+        "title": "Red House, Bexleyheath",
+        "credit": "Ethan Doyle White",
+        "licence": "CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Philip_Webb%27s_Red_House_in_Upton.jpg"
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "gothic-architecture"
+    ],
+    "rebelled_against": [
+      "neoclassical-architecture"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "arts-and-crafts-interior"
+    ]
+  },
+  "emotion": {
+    "target_response": "Warmth and belonging: the viewer feels a made, lived-in home that grew from its place.",
+    "keywords": [
+      "crafted",
+      "warm",
+      "rooted",
+      "homely",
+      "honest"
+    ],
+    "brand_archetypes": [
+      "caregiver",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "arts and crafts",
+      "arts and crafts house",
+      "william morris",
+      "red house",
+      "voysey",
+      "baillie scott",
+      "craftsman house",
+      "inglenook",
+      "leaded casement windows",
+      "hand-made brick house"
+    ],
+    "use_cases": [
+      "house and cottage renders",
+      "garden suburb studies",
+      "village hall and church scenes",
+      "heritage restoration"
+    ],
+    "avoid_when": [
+      "The brief asks for a tall block or a glass curtain wall.",
+      "The brief asks for a formal symmetric front."
+    ],
+    "modifiers": [
+      {
+        "request": "more modern",
+        "toward": "prairie-school-architecture",
+        "how": "Flatten the roof to a low hip, stretch the plan into horizontal bands and keep the hearth and the craft detail."
+      },
+      {
+        "request": "more ornate",
+        "toward": "art-nouveau-architecture",
+        "how": "Replace the hand-made pegs and tiles with curving iron and glass and flowing plant lines."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "steep clay tile roof",
+      "red brick gables",
+      "tall brick chimneys",
+      "leaded casement windows",
+      "oak porch",
+      "tile hanging",
+      "inglenook",
+      "cottage garden",
+      "hand-made details"
+    ],
+    "negative": [
+      "glass curtain wall",
+      "flat roof",
+      "white stucco box",
+      "classical portico",
+      "neon sign",
+      "chrome trim"
+    ],
+    "canonical_works": [
+      {
+        "work": "Red House, Bexleyheath",
+        "architect": "Philip Webb",
+        "year": 1860
+      },
+      {
+        "work": "Perrycroft, Colwall",
+        "architect": "C. F. A. Voysey",
+        "year": 1894
+      },
+      {
+        "work": "Standen, East Grinstead",
+        "architect": "Philip Webb",
+        "year": 1894
+      },
+      {
+        "work": "The Orchard, Chorleywood",
+        "architect": "C. F. A. Voysey",
+        "year": 1899
+      },
+      {
+        "work": "Blackwell, Bowness",
+        "architect": "M. H. Baillie Scott",
+        "year": 1900
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Gillian Naylor, The Arts and Crafts Movement (Studio Vista, 1971)"
+    }
+  ]
+}
