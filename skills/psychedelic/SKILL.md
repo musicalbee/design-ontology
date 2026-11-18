@@ -242,7 +242,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more modern web**: move toward [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md) (Y2K Aesthetic). Swap hand-drawn lettering for chrome gradients and translucent blobs; keep the saturated hues and the full-bleed fields.
 
 - **Rejects (the opposite pole; do not blend):** [`swiss-international`](../swiss-international/SKILL.md)
-- **Nearest by vector profile:** [`memphis-design`](../memphis-design/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
+- **Mixes well with:** [`pop-art-web`](../pop-art-web/SKILL.md)
+- **Nearest by vector profile:** [`memphis-design`](../memphis-design/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md)
 
 ## Emotional target
 

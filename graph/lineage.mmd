@@ -1,11 +1,20 @@
 flowchart LR
+  subgraph design_fin_de_siecle["Fin de Siècle · 1880–1918"]
+    art_nouveau_web["Art Nouveau (web)"]
+  end
   subgraph design_modernist["Modernist · 1919–1975"]
+    de_stijl_web["De Stijl (web)"]
     bauhaus["Bauhaus"]
+    constructivism_web["Constructivism (web)"]
+    art_deco_web["Art Deco (web)"]
     mid_century_modern["Mid-Century Modern"]
     swiss_international["Swiss International Style"]
+    rams_functionalism_ui["Rams Functionalism (UI)"]
+    pop_art_web["Pop Art (web)"]
     psychedelic["Psychedelic"]
   end
   subgraph design_postmodern_early_digital["Postmodern & Early Digital · 1976–2006"]
+    punk_zine["Punk Zine"]
     memphis_design["Memphis Design"]
     grunge_editorial["Grunge Editorial"]
     y2k_aesthetic["Y2K Aesthetic"]
@@ -14,6 +23,7 @@ flowchart LR
   subgraph design_touchscreen["Touchscreen · 2007–2018"]
     skeuomorphism["Skeuomorphism"]
     flat_design["Flat Design"]
+    vaporwave["Vaporwave"]
     material_design["Material Design"]
     corporate_memphis["Corporate Memphis"]
   end
@@ -29,7 +39,10 @@ flowchart LR
     brutalist_architecture["Brutalism"]
   end
   bauhaus <-. echoes .-> international_style_architecture
+  brutalist_architecture <-. echoes .-> constructivism_web
   brutalist_architecture <-. echoes .-> neo_brutalism_ui
+  de_stijl_web <-. echoes .-> international_style_architecture
+  international_style_architecture <-. echoes .-> rams_functionalism_ui
   international_style_architecture <-. echoes .-> swiss_international
   flat_design --> bento_grid_ui
   swiss_international --> bento_grid_ui
@@ -43,8 +56,15 @@ flowchart LR
   bauhaus --> mid_century_modern
   flat_design --> neo_brutalism_ui
   skeuomorphism --> neumorphism
+  mid_century_modern --> pop_art_web
+  bauhaus --> rams_functionalism_ui
+  swiss_international --> rams_functionalism_ui
   glassmorphism --> spatial_visionos
   bauhaus --> swiss_international
+  y2k_aesthetic --> vaporwave
+  art_deco_web -. rejects .-> art_nouveau_web
+  constructivism_web -. rejects .-> art_nouveau_web
+  de_stijl_web -. rejects .-> art_nouveau_web
   flat_design -. rejects .-> skeuomorphism
   grunge_editorial -. rejects .-> swiss_international
   memphis_design -. rejects .-> swiss_international
@@ -52,15 +72,25 @@ flowchart LR
   neo_brutalism_ui -. rejects .-> material_design
   neumorphism -. rejects .-> flat_design
   psychedelic -. rejects .-> swiss_international
+  punk_zine -. rejects .-> mid_century_modern
+  punk_zine -. rejects .-> swiss_international
   y2k_aesthetic -. rejects .-> grunge_editorial
   linkStyle 0 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 1 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 2 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 17 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 18 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 19 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 20 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 21 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 22 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 23 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 3 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 4 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 5 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 24 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 25 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 26 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 27 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 28 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 29 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 30 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 31 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 32 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 33 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 34 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 35 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 36 stroke:#E5484D,stroke-width:1.5px

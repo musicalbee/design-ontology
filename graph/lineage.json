@@ -32,6 +32,36 @@
   ],
   "nodes": [
     {
+      "id": "art-nouveau-web",
+      "domain": "design",
+      "name": "Art Nouveau (web)",
+      "era": "fin-de-siecle",
+      "start": 1890,
+      "end": 1910,
+      "vectors": {
+        "ornamentation": 5,
+        "dimensionality": 2,
+        "grid_rigidity": 2,
+        "skeuomorphic_realism": 2,
+        "typographic_expressiveness": 4
+      }
+    },
+    {
+      "id": "de-stijl-web",
+      "domain": "design",
+      "name": "De Stijl (web)",
+      "era": "modernist",
+      "start": 1917,
+      "end": 1931,
+      "vectors": {
+        "ornamentation": 1,
+        "dimensionality": 1,
+        "grid_rigidity": 5,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 2
+      }
+    },
+    {
       "id": "bauhaus",
       "domain": "design",
       "name": "Bauhaus",
@@ -44,6 +74,36 @@
         "grid_rigidity": 4,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 3
+      }
+    },
+    {
+      "id": "constructivism-web",
+      "domain": "design",
+      "name": "Constructivism (web)",
+      "era": "modernist",
+      "start": 1919,
+      "end": 1935,
+      "vectors": {
+        "ornamentation": 3,
+        "dimensionality": 2,
+        "grid_rigidity": 3,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 5
+      }
+    },
+    {
+      "id": "art-deco-web",
+      "domain": "design",
+      "name": "Art Deco (web)",
+      "era": "modernist",
+      "start": 1925,
+      "end": 1939,
+      "vectors": {
+        "ornamentation": 4,
+        "dimensionality": 2,
+        "grid_rigidity": 5,
+        "skeuomorphic_realism": 2,
+        "typographic_expressiveness": 4
       }
     },
     {
@@ -77,6 +137,36 @@
       }
     },
     {
+      "id": "rams-functionalism-ui",
+      "domain": "design",
+      "name": "Rams Functionalism (UI)",
+      "era": "modernist",
+      "start": 1955,
+      "end": null,
+      "vectors": {
+        "ornamentation": 1,
+        "dimensionality": 2,
+        "grid_rigidity": 5,
+        "skeuomorphic_realism": 2,
+        "typographic_expressiveness": 1
+      }
+    },
+    {
+      "id": "pop-art-web",
+      "domain": "design",
+      "name": "Pop Art (web)",
+      "era": "modernist",
+      "start": 1956,
+      "end": 1975,
+      "vectors": {
+        "ornamentation": 4,
+        "dimensionality": 2,
+        "grid_rigidity": 2,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 4
+      }
+    },
+    {
       "id": "psychedelic",
       "domain": "design",
       "name": "Psychedelic",
@@ -88,6 +178,21 @@
         "dimensionality": 2,
         "grid_rigidity": 1,
         "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 5
+      }
+    },
+    {
+      "id": "punk-zine",
+      "domain": "design",
+      "name": "Punk Zine",
+      "era": "postmodern-early-digital",
+      "start": 1976,
+      "end": 1986,
+      "vectors": {
+        "ornamentation": 4,
+        "dimensionality": 1,
+        "grid_rigidity": 1,
+        "skeuomorphic_realism": 2,
         "typographic_expressiveness": 5
       }
     },
@@ -179,6 +284,21 @@
         "grid_rigidity": 4,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 2
+      }
+    },
+    {
+      "id": "vaporwave",
+      "domain": "design",
+      "name": "Vaporwave",
+      "era": "touchscreen",
+      "start": 2012,
+      "end": 2016,
+      "vectors": {
+        "ornamentation": 4,
+        "dimensionality": 3,
+        "grid_rigidity": 2,
+        "skeuomorphic_realism": 3,
+        "typographic_expressiveness": 4
       }
     },
     {
@@ -325,7 +445,22 @@
     },
     {
       "from": "brutalist-architecture",
+      "to": "constructivism-web",
+      "type": "ECHOES"
+    },
+    {
+      "from": "brutalist-architecture",
       "to": "neo-brutalism-ui",
+      "type": "ECHOES"
+    },
+    {
+      "from": "de-stijl-web",
+      "to": "international-style-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "international-style-architecture",
+      "to": "rams-functionalism-ui",
       "type": "ECHOES"
     },
     {
@@ -394,6 +529,21 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "pop-art-web",
+      "to": "mid-century-modern",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "rams-functionalism-ui",
+      "to": "bauhaus",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "rams-functionalism-ui",
+      "to": "swiss-international",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "spatial-visionos",
       "to": "glassmorphism",
       "type": "EVOLVED_FROM"
@@ -402,6 +552,31 @@
       "from": "swiss-international",
       "to": "bauhaus",
       "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "vaporwave",
+      "to": "y2k-aesthetic",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "art-deco-web",
+      "to": "art-nouveau-web",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "art-deco-web",
+      "to": "bauhaus",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "bauhaus",
+      "to": "constructivism-web",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "bauhaus",
+      "to": "de-stijl-web",
+      "type": "HYBRIDIZED_WITH"
     },
     {
       "from": "bauhaus",
@@ -419,8 +594,18 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "constructivism-web",
+      "to": "de-stijl-web",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "corporate-memphis",
       "to": "memphis-design",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "flat-design",
+      "to": "rams-functionalism-ui",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -434,6 +619,11 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "frutiger-aero",
+      "to": "vaporwave",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "glassmorphism",
       "to": "neumorphism",
       "type": "HYBRIDIZED_WITH"
@@ -444,8 +634,18 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "grunge-editorial",
+      "to": "punk-zine",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "material-design",
       "to": "skeuomorphism",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "memphis-design",
+      "to": "pop-art-web",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -454,9 +654,29 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "pop-art-web",
+      "to": "psychedelic",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "skeuomorphism",
       "to": "spatial-visionos",
       "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "art-deco-web",
+      "to": "art-nouveau-web",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "constructivism-web",
+      "to": "art-nouveau-web",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "de-stijl-web",
+      "to": "art-nouveau-web",
+      "type": "REBELLED_AGAINST"
     },
     {
       "from": "flat-design",
@@ -494,21 +714,92 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "punk-zine",
+      "to": "mid-century-modern",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "punk-zine",
+      "to": "swiss-international",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "y2k-aesthetic",
       "to": "grunge-editorial",
       "type": "REBELLED_AGAINST"
     }
   ],
   "adjacency": {
+    "art-nouveau-web": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [
+        "art-deco-web",
+        "constructivism-web",
+        "de-stijl-web"
+      ],
+      "hybridized_with": [
+        "art-deco-web"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "memphis-design",
+          "distance": 1.41
+        },
+        {
+          "id": "pop-art-web",
+          "distance": 1.41
+        },
+        {
+          "id": "grunge-editorial",
+          "distance": 1.73
+        }
+      ]
+    },
+    "de-stijl-web": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "art-nouveau-web"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "bauhaus",
+        "constructivism-web"
+      ],
+      "echoes": [
+        "international-style-architecture"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "swiss-international",
+          "distance": 0
+        },
+        {
+          "id": "flat-design",
+          "distance": 1
+        },
+        {
+          "id": "rams-functionalism-ui",
+          "distance": 1.73
+        }
+      ]
+    },
     "bauhaus": {
       "evolved_from": [],
       "evolved_into": [
         "mid-century-modern",
+        "rams-functionalism-ui",
         "swiss-international"
       ],
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [
+        "art-deco-web",
+        "constructivism-web",
+        "de-stijl-web",
         "swiss-international"
       ],
       "echoes": [
@@ -529,13 +820,73 @@
         }
       ]
     },
+    "constructivism-web": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "art-nouveau-web"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "bauhaus",
+        "de-stijl-web"
+      ],
+      "echoes": [
+        "brutalist-architecture"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "neo-brutalism-ui",
+          "distance": 1
+        },
+        {
+          "id": "pop-art-web",
+          "distance": 1.73
+        },
+        {
+          "id": "mid-century-modern",
+          "distance": 2.24
+        }
+      ]
+    },
+    "art-deco-web": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "art-nouveau-web"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "art-nouveau-web",
+        "bauhaus"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "bento-grid-ui",
+          "distance": 2.24
+        },
+        {
+          "id": "mid-century-modern",
+          "distance": 2.45
+        },
+        {
+          "id": "neo-brutalism-ui",
+          "distance": 2.45
+        }
+      ]
+    },
     "mid-century-modern": {
       "evolved_from": [
         "bauhaus"
       ],
-      "evolved_into": [],
+      "evolved_into": [
+        "pop-art-web"
+      ],
       "rebelled_against": [],
-      "provoked": [],
+      "provoked": [
+        "punk-zine"
+      ],
       "hybridized_with": [
         "swiss-international"
       ],
@@ -561,13 +912,15 @@
       ],
       "evolved_into": [
         "bento-grid-ui",
-        "flat-design"
+        "flat-design",
+        "rams-functionalism-ui"
       ],
       "rebelled_against": [],
       "provoked": [
         "grunge-editorial",
         "memphis-design",
-        "psychedelic"
+        "psychedelic",
+        "punk-zine"
       ],
       "hybridized_with": [
         "bauhaus",
@@ -580,16 +933,72 @@
       ],
       "nearest_by_vector": [
         {
+          "id": "de-stijl-web",
+          "distance": 0
+        },
+        {
           "id": "flat-design",
           "distance": 1
         },
         {
-          "id": "bauhaus",
-          "distance": 2
+          "id": "rams-functionalism-ui",
+          "distance": 1.73
+        }
+      ]
+    },
+    "rams-functionalism-ui": {
+      "evolved_from": [
+        "bauhaus",
+        "swiss-international"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "flat-design"
+      ],
+      "echoes": [
+        "international-style-architecture"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "de-stijl-web",
+          "distance": 1.73
         },
         {
-          "id": "bento-grid-ui",
+          "id": "swiss-international",
+          "distance": 1.73
+        },
+        {
+          "id": "flat-design",
           "distance": 2
+        }
+      ]
+    },
+    "pop-art-web": {
+      "evolved_from": [
+        "mid-century-modern"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "memphis-design",
+        "psychedelic"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "art-nouveau-web",
+          "distance": 1.41
+        },
+        {
+          "id": "memphis-design",
+          "distance": 1.41
+        },
+        {
+          "id": "neo-brutalism-ui",
+          "distance": 1.41
         }
       ]
     },
@@ -600,7 +1009,9 @@
         "swiss-international"
       ],
       "provoked": [],
-      "hybridized_with": [],
+      "hybridized_with": [
+        "pop-art-web"
+      ],
       "echoes": [],
       "nearest_by_vector": [
         {
@@ -612,8 +1023,35 @@
           "distance": 1.41
         },
         {
-          "id": "neo-brutalism-ui",
-          "distance": 3
+          "id": "art-nouveau-web",
+          "distance": 1.73
+        }
+      ]
+    },
+    "punk-zine": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "mid-century-modern",
+        "swiss-international"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "grunge-editorial"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "grunge-editorial",
+          "distance": 1
+        },
+        {
+          "id": "psychedelic",
+          "distance": 1.73
+        },
+        {
+          "id": "art-nouveau-web",
+          "distance": 2
         }
       ]
     },
@@ -627,7 +1065,8 @@
       ],
       "provoked": [],
       "hybridized_with": [
-        "corporate-memphis"
+        "corporate-memphis",
+        "pop-art-web"
       ],
       "echoes": [],
       "nearest_by_vector": [
@@ -636,12 +1075,12 @@
           "distance": 1
         },
         {
-          "id": "grunge-editorial",
-          "distance": 1.73
+          "id": "art-nouveau-web",
+          "distance": 1.41
         },
         {
-          "id": "neo-brutalism-ui",
-          "distance": 2.83
+          "id": "pop-art-web",
+          "distance": 1.41
         }
       ]
     },
@@ -654,27 +1093,30 @@
       "provoked": [
         "y2k-aesthetic"
       ],
-      "hybridized_with": [],
+      "hybridized_with": [
+        "punk-zine"
+      ],
       "echoes": [],
       "nearest_by_vector": [
+        {
+          "id": "punk-zine",
+          "distance": 1
+        },
         {
           "id": "psychedelic",
           "distance": 1.41
         },
         {
-          "id": "memphis-design",
+          "id": "art-nouveau-web",
           "distance": 1.73
-        },
-        {
-          "id": "neo-brutalism-ui",
-          "distance": 2.65
         }
       ]
     },
     "y2k-aesthetic": {
       "evolved_from": [],
       "evolved_into": [
-        "frutiger-aero"
+        "frutiger-aero",
+        "vaporwave"
       ],
       "rebelled_against": [
         "grunge-editorial"
@@ -686,16 +1128,16 @@
       "echoes": [],
       "nearest_by_vector": [
         {
+          "id": "vaporwave",
+          "distance": 1.41
+        },
+        {
           "id": "mid-century-modern",
           "distance": 1.73
         },
         {
           "id": "frutiger-aero",
           "distance": 2
-        },
-        {
-          "id": "glassmorphism",
-          "distance": 2.24
         }
       ]
     },
@@ -709,7 +1151,8 @@
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [
-        "skeuomorphism"
+        "skeuomorphism",
+        "vaporwave"
       ],
       "echoes": [],
       "nearest_by_vector": [
@@ -774,10 +1217,15 @@
         "neumorphism"
       ],
       "hybridized_with": [
+        "rams-functionalism-ui",
         "swiss-international"
       ],
       "echoes": [],
       "nearest_by_vector": [
+        {
+          "id": "de-stijl-web",
+          "distance": 1
+        },
         {
           "id": "swiss-international",
           "distance": 1
@@ -785,10 +1233,32 @@
         {
           "id": "bauhaus",
           "distance": 1.73
+        }
+      ]
+    },
+    "vaporwave": {
+      "evolved_from": [
+        "y2k-aesthetic"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "frutiger-aero"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "y2k-aesthetic",
+          "distance": 1.41
         },
         {
-          "id": "bento-grid-ui",
-          "distance": 2.24
+          "id": "art-nouveau-web",
+          "distance": 1.73
+        },
+        {
+          "id": "grunge-editorial",
+          "distance": 2
         }
       ]
     },
@@ -872,8 +1342,8 @@
           "distance": 2
         },
         {
-          "id": "frutiger-aero",
-          "distance": 2.65
+          "id": "rams-functionalism-ui",
+          "distance": 2.45
         }
       ]
     },
@@ -923,16 +1393,16 @@
       ],
       "nearest_by_vector": [
         {
+          "id": "constructivism-web",
+          "distance": 1
+        },
+        {
           "id": "mid-century-modern",
           "distance": 1.41
         },
         {
-          "id": "bauhaus",
-          "distance": 1.73
-        },
-        {
-          "id": "corporate-memphis",
-          "distance": 2.24
+          "id": "pop-art-web",
+          "distance": 1.41
         }
       ]
     },
@@ -959,7 +1429,7 @@
           "distance": 1.73
         },
         {
-          "id": "swiss-international",
+          "id": "de-stijl-web",
           "distance": 2
         }
       ]
@@ -1000,6 +1470,8 @@
       "hybridized_with": [],
       "echoes": [
         "bauhaus",
+        "de-stijl-web",
+        "rams-functionalism-ui",
         "swiss-international"
       ],
       "nearest_by_vector": [
@@ -1018,6 +1490,7 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
+        "constructivism-web",
         "neo-brutalism-ui"
       ],
       "nearest_by_vector": [

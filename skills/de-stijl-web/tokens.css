@@ -1,0 +1,109 @@
+/*
+ * De Stijl (web) — tokens
+ * Generated from data/design/styles/de-stijl-web.json by design-ontology. Do not edit.
+ * Use: put data-style="de-stijl-web" on <html> or on any container.
+ */
+[data-style="de-stijl-web"] {
+  --color-bg: #FFFFFF;
+  --color-surface: #E8E8E4;
+  --color-text: #111111;
+  --color-muted: #4A4A46;
+  --color-primary: #1D4FA8;
+  --color-accent: #D8261C;
+  --color-border: #111111;
+  --font-sans: "Jost", "Futura", "Century Gothic", sans-serif;
+  --font-display: "Jost", "Futura", "Century Gothic", sans-serif;
+  --border-radius: 0px;
+  --border-width: 8px;
+  --shadow-elevation: none;
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+  --duration: 200ms;
+  --color-on-bg: #111111;
+  --color-on-surface: #111111;
+  --color-on-primary: #FFFFFF;
+  --color-on-accent: #FFFFFF;
+  --color-muted-on-bg: #4A4A46;
+  --color-muted-on-surface: #4A4A46;
+  --color-link: #D8261C;
+  --color-link-on-surface: #1D4FA8;
+  --display-weight: 700;
+  --subhead-weight: 400;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 400;
+  --display-tracking: -0.02em;
+  --display-leading: 1;
+  --display-case: lowercase;
+  --body-leading: 1.5;
+  --body-size: 16px;
+  --icon-stroke: 2;
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="de-stijl-web"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="de-stijl-web"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="de-stijl-web"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="de-stijl-web"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="de-stijl-web"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="de-stijl-web"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="de-stijl-web"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="de-stijl-web"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="de-stijl-web"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="de-stijl-web"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="de-stijl-web"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="de-stijl-web"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

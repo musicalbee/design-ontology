@@ -1,0 +1,109 @@
+/*
+ * Art Deco (web) — tokens
+ * Generated from data/design/styles/art-deco-web.json by design-ontology. Do not edit.
+ * Use: put data-style="art-deco-web" on <html> or on any container.
+ */
+[data-style="art-deco-web"] {
+  --color-bg: #0D0D0F;
+  --color-surface: #0F3B2E;
+  --color-text: #F2EAD3;
+  --color-muted: #B9B09A;
+  --color-primary: #C9A24B;
+  --color-accent: #C9A24B;
+  --color-border: #C9A24B;
+  --font-sans: "Josefin Sans", "Jost", sans-serif;
+  --font-display: "Poiret One", "Limelight", "Josefin Sans", sans-serif;
+  --border-radius: 0px;
+  --border-width: 1px;
+  --shadow-elevation: none;
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.65, 0, 0.35, 1);
+  --duration: 350ms;
+  --color-on-bg: #F2EAD3;
+  --color-on-surface: #F2EAD3;
+  --color-on-primary: #0D0D0F;
+  --color-on-accent: #0D0D0F;
+  --color-muted-on-bg: #B9B09A;
+  --color-muted-on-surface: #B9B09A;
+  --color-link: #C9A24B;
+  --color-link-on-surface: #C9A24B;
+  --display-weight: 400;
+  --subhead-weight: 400;
+  --body-weight: 400;
+  --strong-weight: 600;
+  --label-weight: 600;
+  --display-tracking: 0.15em;
+  --display-leading: 1.1;
+  --display-case: uppercase;
+  --body-leading: 1.6;
+  --body-size: 16px;
+  --icon-stroke: 1.5;
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="art-deco-web"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="art-deco-web"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="art-deco-web"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="art-deco-web"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="art-deco-web"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="art-deco-web"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="art-deco-web"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="art-deco-web"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="art-deco-web"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="art-deco-web"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="art-deco-web"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="art-deco-web"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

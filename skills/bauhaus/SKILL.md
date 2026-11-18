@@ -238,8 +238,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **bolder**: move toward [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md) (Neo-Brutalism UI). Raise the bars to 4px black borders and add a hard 6px offset shadow; keep the flat primaries and the 0px radius.
 - If the user asks for **more app-like**: move toward [`flat-design`](../flat-design/SKILL.md) (Flat Design). Turn the bars into 1px dividers, use 4px radius buttons filled with one primary; keep the geometric type and the flat fields.
 
-- **Led to (go here for a newer version):** [`mid-century-modern`](../mid-century-modern/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
-- **Mixes well with:** [`swiss-international`](../swiss-international/SKILL.md)
+- **Led to (go here for a newer version):** [`mid-century-modern`](../mid-century-modern/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
+- **Mixes well with:** [`art-deco-web`](../art-deco-web/SKILL.md), [`constructivism-web`](../constructivism-web/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
 - **Kin in another domain:** [`international-style-architecture`](../international-style-architecture/SKILL.md)
 - **Nearest by vector profile:** [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`material-design`](../material-design/SKILL.md)
 

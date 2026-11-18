@@ -243,7 +243,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`flat-design`](../flat-design/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`corporate-memphis`](../corporate-memphis/SKILL.md), [`material-design`](../material-design/SKILL.md)
 - **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md)
-- **Nearest by vector profile:** [`mid-century-modern`](../mid-century-modern/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md), [`corporate-memphis`](../corporate-memphis/SKILL.md)
+- **Nearest by vector profile:** [`constructivism-web`](../constructivism-web/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md)
 
 ## Emotional target
 
