@@ -235,7 +235,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`flat-design`](../flat-design/SKILL.md)
 - **Mixes well with:** [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md)
-- **Nearest by vector profile:** [`brutalist-web`](../brutalist-web/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md)
+- **Nearest by vector profile:** [`brutalist-web`](../brutalist-web/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md)
 
 ## Emotional target
 

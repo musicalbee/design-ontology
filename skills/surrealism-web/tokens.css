@@ -1,0 +1,109 @@
+/*
+ * Surrealism Web — tokens
+ * Generated from data/design/styles/surrealism-web.json by design-ontology. Do not edit.
+ * Use: put data-style="surrealism-web" on <html> or on any container.
+ */
+[data-style="surrealism-web"] {
+  --color-bg: #DCEAF3;
+  --color-surface: #F1E3CB;
+  --color-text: #14213F;
+  --color-muted: #4A5877;
+  --color-primary: #C2381A;
+  --color-accent: #1B2A55;
+  --color-border: #B9C7D6;
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --font-display: "DM Serif Display", Georgia, serif;
+  --border-radius: 20px;
+  --border-width: 1px;
+  --shadow-elevation: 0 24px 60px rgba(27,42,85,0.12);
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration: 900ms;
+  --color-on-bg: #14213F;
+  --color-on-surface: #14213F;
+  --color-on-primary: #FFFFFF;
+  --color-on-accent: #DCEAF3;
+  --color-muted-on-bg: #4A5877;
+  --color-muted-on-surface: #4A5877;
+  --color-link: #1B2A55;
+  --color-link-on-surface: #1B2A55;
+  --display-weight: 500;
+  --subhead-weight: 500;
+  --body-weight: 400;
+  --strong-weight: 600;
+  --label-weight: 500;
+  --display-tracking: -0.01em;
+  --display-leading: 1.1;
+  --display-case: none;
+  --body-leading: 1.6;
+  --body-size: 16px;
+  --icon-stroke: 1.5;
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="surrealism-web"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="surrealism-web"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="surrealism-web"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="surrealism-web"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="surrealism-web"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="surrealism-web"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="surrealism-web"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="surrealism-web"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="surrealism-web"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="surrealism-web"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="surrealism-web"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="surrealism-web"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}
