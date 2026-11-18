@@ -45,7 +45,7 @@ Do not use it when:
 When generating UI or graphic layouts in Editorial Serif Revival, you MUST:
 
 1. Set headlines in a high-contrast serif at 56px to 120px with a leading of 0.95 to 1.05 and tracking of -0.02em to -0.04em.
-2. Use a warm off-white ground (#F6F1E7) and near-black ink (#1A1714); one muted accent (terracotta #B4532A or green) covers less than 8% of the surface.
+2. Use a warm off-white ground (#F6F1E7) and near-black ink (#1A1714); one muted accent (terracotta #A64B25 or green) covers less than 8% of the surface.
 3. Set body in a serif or a quiet sans at 18px to 20px with a measure of 55 to 70 characters and a leading of 1.55.
 4. Set labels, dates and bylines in a small sans or mono at 11px to 13px in upper case with +0.08em tracking.
 5. Use italic as the emphasis in a headline: one word or phrase in italic in each headline.
@@ -115,7 +115,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 |---|---|---|
 | Paper | `#F6F1E7` | background |
 | Ink | `#1A1714` | text and rules |
-| Terracotta | `#B4532A` | accent |
+| Terracotta | `#A64B25` | accent |
 | Stone | `#6F675C` | secondary text |
 | Linen | `#EAE2D3` | alternate surface |
 
@@ -133,8 +133,8 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Motion & interactivity
 
-- **Born on screen:** no — the values here translate a print style for screen
-- **Transition physics:** Translation for screen: calm fades of 300ms to 500ms; images reveal by a 12px upward slide; no bounce.
+- **Born on screen:** yes
+- **Transition physics:** Calm fades of 300ms to 500ms; images reveal by a 12px upward slide; no bounce.
 - **Easing:** cubic-bezier(0.22, 1, 0.36, 1)
 - **Duration (ms):** 400
 - **Hover and active:** Hover adds an underline of 1px in the accent and shifts an arrow by 4px; active state darkens the accent by 10%.
@@ -150,7 +150,7 @@ Set `data-style="editorial-serif-revival"` on the root element and paste the tok
   --color-text: #1A1714;
   --color-muted: #6F675C;
   --color-primary: #1A1714;
-  --color-accent: #B4532A;
+  --color-accent: #A64B25;
   --color-border: #1A1714;
   --font-sans: "Source Serif 4", Georgia, serif;
   --font-display: "Instrument Serif", "Playfair Display", Georgia, serif;
@@ -164,10 +164,10 @@ Set `data-style="editorial-serif-revival"` on the root element and paste the tok
   --color-on-bg: #1A1714;
   --color-on-surface: #1A1714;
   --color-on-primary: #F6F1E7;
-  --color-on-accent: #FFFFFF;
+  --color-on-accent: #F6F1E7;
   --color-muted-on-bg: #6F675C;
   --color-muted-on-surface: #58544D;
-  --color-link: #1A1714;
+  --color-link: #A64B25;
   --color-link-on-surface: #1A1714;
   --display-weight: 400;
   --subhead-weight: 400;
@@ -191,7 +191,7 @@ Tailwind patterns:
 | heading | `col-span-12 md:col-span-10 text-6xl md:text-9xl leading-none tracking-[-0.03em]` |
 | body | `col-span-12 md:col-span-6 text-lg leading-[1.55]` |
 | section | `col-span-12 border-t border-[#1A1714] pt-4 mt-16` |
-| button | `rounded-none border border-[#1A1714] bg-[#1A1714] px-6 py-3 text-sm text-[#F6F1E7] transition-colors duration-[400ms] hover:bg-[#B4532A] hover:border-[#B4532A]` |
+| button | `rounded-none border border-[#1A1714] bg-[#1A1714] px-6 py-3 text-sm text-[#F6F1E7] transition-colors duration-[400ms] hover:bg-[#A64B25] hover:border-[#A64B25]` |
 | label | `text-xs font-medium uppercase tracking-[0.08em] text-[#6F675C]` |
 
 ## Visual pack

@@ -15,7 +15,7 @@ triggers:
 vector_profile:
   ornamentation: 3
   dimensionality: 4
-  grid_rigidity: 3
+  grid_rigidity: 4
   skeuomorphic_realism: 4
   typographic_expressiveness: 2
 ---
@@ -45,7 +45,7 @@ When generating UI or graphic layouts in Apple Aqua, you MUST:
 
 1. Make buttons pill-shaped (radius 999px) with a vertical gradient of 2 to 3 stops and a white gloss highlight on the top 45%.
 2. Use a pinstripe background of 2px horizontal lines at 4% opacity on #EDEDED.
-3. Use Aqua blue (#3C8DDE to #A8D4FF) as the accent and keep other colours below 20% of the surface.
+3. Use Aqua blue (#2A6FB8 to #A8D4FF) as the accent and keep other colours below 20% of the surface.
 4. Give each panel an inner highlight (1px white at 80%) and an outer 1px border of #8E8E8E.
 5. Set a soft drop shadow of 0 2px 6px at 30% black under windows and buttons.
 6. Draw icons as glossy, 3D, high-detail objects at 48px or larger with a reflection.
@@ -69,7 +69,7 @@ Each line below breaks the style. Check your output against the list before you 
 |---|---|---|---|
 | Ornamentation | `■■■□□` 3/5 | pure minimal | maximalist |
 | Dimensionality | `■■■■□` 4/5 | strictly 2D | full 3D / spatial |
-| Grid rigidity | `■■■□□` 3/5 | chaotic / organic | strict mathematical grid |
+| Grid rigidity | `■■■■□` 4/5 | chaotic / organic | strict mathematical grid |
 | Skeuomorphic realism | `■■■■□` 4/5 | abstract digital | photorealistic material |
 | Typographic expressiveness | `■■□□□` 2/5 | neutral / invisible | experimental / illustrative |
 
@@ -113,7 +113,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | Name | Hex | Role |
 |---|---|---|
 | Pinstripe | `#EDEDED` | background |
-| Aqua | `#3C8DDE` | primary |
+| Aqua | `#2A6FB8` | primary |
 | Aqua Light | `#A8D4FF` | highlight |
 | Graphite | `#2B2F36` | text |
 | Metal | `#C9CCD1` | surface |
@@ -149,12 +149,12 @@ Set `data-style="apple-aqua"` on the root element and paste the tokens. The file
   --color-surface: #C9CCD1;
   --color-text: #2B2F36;
   --color-muted: #5B6068;
-  --color-primary: #3C8DDE;
-  --color-accent: #3C8DDE;
+  --color-primary: #2A6FB8;
+  --color-accent: #2A6FB8;
   --color-border: #8E8E8E;
   --font-sans: "Nunito Sans", "Lucida Grande", sans-serif;
   --font-display: "Quicksand", "Nunito Sans", sans-serif;
-  --border-radius: 999px;
+  --border-radius: 10px;
   --border-width: 1px;
   --shadow-elevation: 0 2px 6px rgba(0,0,0,0.3);
   --backdrop-filter: none;
@@ -163,8 +163,8 @@ Set `data-style="apple-aqua"` on the root element and paste the tokens. The file
   --duration: 300ms;
   --color-on-bg: #2B2F36;
   --color-on-surface: #2B2F36;
-  --color-on-primary: #000000;
-  --color-on-accent: #000000;
+  --color-on-primary: #FFFFFF;
+  --color-on-accent: #FFFFFF;
   --color-muted-on-bg: #5B6068;
   --color-muted-on-surface: #4B4E55;
   --color-link: #2B2F36;
@@ -191,7 +191,7 @@ Tailwind patterns:
 | heading | `text-4xl md:text-6xl leading-[1.2] text-center` |
 | body | `text-base leading-[1.45]` |
 | section | `rounded-[10px] border border-[#8E8E8E] bg-gradient-to-b from-white to-[#C9CCD1] p-5 shadow-[0_2px_6px_rgba(0,0,0,0.3)]` |
-| button | `rounded-full border border-[#2A6FB8] bg-gradient-to-b from-[#A8D4FF] to-[#3C8DDE] px-8 py-2.5 text-base font-bold text-white shadow-[0_2px_6px_rgba(0,0,0,0.3),inset_0_1px_0_rgba(255,255,255,0.8)] transition duration-300 hover:brightness-110` |
+| button | `rounded-full border border-[#2A6FB8] bg-gradient-to-b from-[#2F76BF] to-[#2A6FB8] px-8 py-2.5 text-base font-bold text-white shadow-[0_2px_6px_rgba(0,0,0,0.3),inset_0_1px_0_rgba(255,255,255,0.8)] transition duration-300 hover:brightness-110` |
 | label | `text-[13px] font-bold` |
 
 ## Visual pack
@@ -235,7 +235,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Mixes well with:** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`skeuomorphism`](../skeuomorphism/SKILL.md)
-- **Nearest by vector profile:** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`spatial-visionos`](../spatial-visionos/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md)
+- **Nearest by vector profile:** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`spatial-visionos`](../spatial-visionos/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md)
 
 ## Emotional target
 

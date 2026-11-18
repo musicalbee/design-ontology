@@ -1,0 +1,386 @@
+{
+  "$schema": "../../../schema/domains/interior.schema.json",
+  "domain": "interior",
+  "id": "minimalist-interior",
+  "name": "Minimalist",
+  "aliases": [
+    "Minimalist interior",
+    "Minimal architecture interior",
+    "White minimalism"
+  ],
+  "identity": {
+    "wikidata": "Q1936935"
+  },
+  "era_id": "global-minimal",
+  "time_period": {
+    "start": 1990,
+    "end": null,
+    "label": "1990–present"
+  },
+  "room_types": [
+    "living",
+    "bedroom",
+    "bathroom",
+    "kitchen",
+    "hospitality",
+    "retail"
+  ],
+  "summary": "The room reduced to space, light and surface. White or pale stone walls, one floor material throughout, hidden storage and flush details leave only one or two pieces in view; daylight on a plain wall is the main event.",
+  "philosophy": {
+    "core_thesis": "Remove every thing that is not necessary, so that space, light and material can be seen.",
+    "design_principles": [
+      "Hide all storage behind flush, handleless doors that read as wall.",
+      "Use one floor material without thresholds through all rooms.",
+      "Show no more than 3 loose pieces of furniture in a room.",
+      "Use a palette of white, pale stone and one pale wood; no pattern.",
+      "Make the window the focal point: a large opening with a thin or hidden frame.",
+      "Detail every junction flush: shadow gaps in place of skirtings and architraves."
+    ],
+    "anti_patterns": [
+      "Visible cables, handles or switches in groups",
+      "Decorative objects on open shelves",
+      "Pattern or texture for decoration",
+      "More than 3 colours in one room",
+      "Curtains with folds and pelmets"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "density": 1,
+    "formality": 4,
+    "material_naturalness": 3,
+    "chromatic_intensity": 1
+  },
+  "composition": {
+    "plan_logic": "An open orthogonal plan with long uninterrupted walls. Storage lines one wall as a flush plane; a few pieces stand free in the space.",
+    "focal_point": "A large frameless window or a light slot that throws daylight across a plain wall.",
+    "symmetry": "asymmetric",
+    "axis_count": 1,
+    "focal_wall": "window",
+    "focal_position": 0.66,
+    "rhythm_module_cm": 60,
+    "depth_layers": 1,
+    "rules": [
+      {
+        "principle": "negative-space",
+        "rule": "Leave the floor and the walls empty; the space is the subject.",
+        "value": "80% bare floor, 95% bare wall"
+      },
+      {
+        "principle": "focal-point",
+        "rule": "Make the daylight from one large opening the focal point.",
+        "value": "1 opening on a third"
+      },
+      {
+        "principle": "unity-variety",
+        "rule": "Use one floor, one wall and one wood material through the room.",
+        "value": "3 materials"
+      },
+      {
+        "principle": "proportion",
+        "rule": "Align doors, storage and windows to one height and one grid.",
+        "value": "60 cm grid, full-height doors"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Divide the storage wall into equal flush panels.",
+        "value": "60 cm panels, 3 mm shadow gaps"
+      },
+      {
+        "principle": "contrast",
+        "rule": "Keep contrast low: tone on tone in white, stone and pale wood.",
+        "value": "LRV difference under 20"
+      },
+      {
+        "principle": "sightlines",
+        "rule": "Keep every loose piece below 75 cm so that the walls read whole.",
+        "value": "under 75 cm"
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Give white the walls and ceiling, pale stone or wood the floor, and one dark tone a single piece.",
+        "value": "80/18/2"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Light the walls from hidden slots and coves; no visible fitting.",
+        "value": "150 lux ambient, 400 lux task, 3000 K"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Keep wide, straight routes with no furniture in them.",
+        "value": "120 cm main, 90 cm secondary"
+      }
+    ]
+  },
+  "zoning": {
+    "zones": [
+      "seat by the window",
+      "dining table",
+      "hidden storage wall"
+    ],
+    "circulation": "Wide straight routes along the storage wall and the window.",
+    "main_path_clear_cm": 120,
+    "secondary_path_clear_cm": 90,
+    "seat_to_table_cm": 40,
+    "conversation_diameter_cm": 260,
+    "floor_coverage_pct": 20,
+    "wall_coverage_pct": 5
+  },
+  "palette": {
+    "distribution": "White walls and ceiling; pale limestone or oak floor; one dark piece, such as a black table or a bronze fitting.",
+    "dominant_pct": 80,
+    "secondary_pct": 18,
+    "accent_pct": 2,
+    "colours": [
+      {
+        "name": "Pure white",
+        "hex": "#F6F6F3",
+        "role": "dominant",
+        "surface": "walls, ceiling, storage fronts"
+      },
+      {
+        "name": "Limestone",
+        "hex": "#DCD5C8",
+        "role": "secondary",
+        "surface": "floor"
+      },
+      {
+        "name": "Pale oak",
+        "hex": "#CDB592",
+        "role": "wood",
+        "surface": "table, bench"
+      },
+      {
+        "name": "Warm grey",
+        "hex": "#A39E96",
+        "role": "secondary",
+        "surface": "upholstery"
+      },
+      {
+        "name": "Graphite",
+        "hex": "#2B2B2B",
+        "role": "accent",
+        "surface": "one table or fitting"
+      }
+    ]
+  },
+  "lighting": {
+    "strategy": "Light comes from the architecture. Daylight from a large opening washes the walls; hidden slots and coves light them at night.",
+    "daylight": "A large frameless window or a roof light gives a strong wash on a plain wall; sheer blinds disappear into a ceiling pocket.",
+    "ambient_lux": 150,
+    "task_lux": 400,
+    "accent_ratio": 2,
+    "cct_k": 3000,
+    "cct_evening_k": 2700,
+    "cri_min": 95,
+    "layers": [
+      {
+        "layer": "daylight",
+        "source": "frameless window or roof light",
+        "position": "window wall and ceiling"
+      },
+      {
+        "layer": "ambient",
+        "source": "LED wall washer in a ceiling slot",
+        "position": "along the storage wall"
+      },
+      {
+        "layer": "task",
+        "source": "recessed trimless downlight",
+        "position": "over the table and the worktop"
+      },
+      {
+        "layer": "accent",
+        "source": "floor slot light",
+        "position": "under the storage wall"
+      }
+    ]
+  },
+  "materials": {
+    "primary": [
+      "white plaster",
+      "limestone",
+      "oak"
+    ],
+    "secondary": [
+      "lacquer",
+      "glass",
+      "linen",
+      "concrete"
+    ],
+    "finish": "Matt plaster and lacquer, honed stone, oiled wood; all junctions flush.",
+    "texture_contrast": "Smooth everywhere; the only texture is the grain of the stone and the wood."
+  },
+  "furniture": {
+    "silhouette": "Low, rectilinear, thin pieces with no ornament; legs thin or hidden.",
+    "arrangement": "1–3 free pieces stand in the space, away from the walls.",
+    "seat_height_cm": 40,
+    "key_pieces": [
+      "low modular sofa",
+      "solid oak table",
+      "flush storage wall",
+      "stone bench",
+      "platform bed"
+    ]
+  },
+  "textiles": {
+    "fabrics": [
+      "linen",
+      "wool",
+      "cotton"
+    ],
+    "pattern": "No pattern; plain weaves only.",
+    "windows": "Sheer blinds that hide in a ceiling pocket, or no blind."
+  },
+  "objects": {
+    "approach": "Almost no objects in view; one object at most stands as a sculpture.",
+    "grouping": "1 object per surface or none.",
+    "max_per_surface": 1,
+    "hang_centre_cm": null,
+    "items": [
+      "one ceramic bowl",
+      "one book"
+    ]
+  },
+  "implementation": {
+    "brief": "A white room with a limestone floor and a long flush storage wall. A low grey sofa and an oak table stand free; a large frameless window throws daylight across the empty back wall.",
+    "image_prompt": "Minimalist interior, white plaster walls, pale limestone floor, long flush handleless storage wall with shadow gaps, low grey linen sofa, solid pale oak table, large frameless window with soft daylight washing across an empty white wall, no decoration, no clutter, calm and precise, architectural photograph",
+    "negative_prompt": "Clutter, pattern, ornament, visible handles, curtains with folds, colour, decorative objects.",
+    "camera": "24 mm shift lens at 130 cm, frontal view with the window on the right third, verticals parallel.",
+    "scene_3d": "Room 800 x 500 cm, ceiling 280 cm. Sun through a 400 x 260 cm frameless window; 3000 K wall washer in a 5 cm ceiling slot; all materials matt.",
+    "furniture_list": [
+      "low sofa 240 x 95 x 65 cm, seat 40 cm",
+      "oak table 220 x 90 x 74 cm",
+      "flush storage wall 600 x 60 x 280 cm",
+      "stone bench 180 x 40 x 40 cm"
+    ],
+    "material_list": [
+      "plaster, white matt",
+      "limestone, honed",
+      "oak, white oil",
+      "linen, warm grey",
+      "lacquer, white matt"
+    ],
+    "references": []
+  },
+  "lineage": {
+    "evolved_from": [
+      "bauhaus-interior"
+    ],
+    "rebelled_against": [
+      "memphis-interior"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "international-style-architecture",
+      "rams-functionalism-ui",
+      "flat-design"
+    ]
+  },
+  "emotion": {
+    "target_response": "Clarity: the viewer feels calm and light, in a room that asks for nothing.",
+    "keywords": [
+      "pure",
+      "calm",
+      "precise",
+      "empty",
+      "luminous",
+      "quiet"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "innocent"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "minimalist",
+      "minimal interior",
+      "white minimalism",
+      "pawson",
+      "less is more",
+      "handleless",
+      "clean lines",
+      "empty room"
+    ],
+    "use_cases": [
+      "galleries and showrooms",
+      "luxury retail",
+      "spa bathrooms",
+      "hotel rooms",
+      "homes of collectors of one object"
+    ],
+    "avoid_when": [
+      "The users have many things and little storage space.",
+      "The brief asks for warmth from pattern or collections."
+    ],
+    "modifiers": [
+      {
+        "request": "warmer and more natural",
+        "toward": "japandi-interior",
+        "how": "Lower the furniture, add linen, stoneware, a slatted screen and a dark wood piece."
+      },
+      {
+        "request": "rawer",
+        "toward": "industrial-loft-interior",
+        "how": "Show the concrete, the brick and the steel; replace the hidden storage with open steel shelves."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "minimalist interior",
+      "white plaster walls",
+      "limestone floor",
+      "flush handleless storage",
+      "frameless window",
+      "daylight on a plain wall",
+      "low sofa",
+      "no decoration",
+      "shadow gap detail",
+      "calm"
+    ],
+    "negative": [
+      "clutter",
+      "pattern",
+      "ornament",
+      "colour",
+      "visible handles"
+    ],
+    "canonical_works": [
+      {
+        "work": "Calvin Klein Collections store, New York",
+        "architect": "John Pawson",
+        "year": 1995
+      },
+      {
+        "work": "Novy Dvur Monastery",
+        "architect": "John Pawson",
+        "year": 2004
+      },
+      {
+        "work": "Koshino House",
+        "architect": "Tadao Ando",
+        "year": 1984
+      },
+      {
+        "work": "Minimum (book)",
+        "architect": "John Pawson",
+        "year": 1996
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "John Pawson, Minimum (Phaidon, 1996)"
+    },
+    {
+      "title": "Franco Bertoni, Minimalist Design (Birkhäuser, 2002)"
+    },
+    {
+      "title": "Wikidata Q1936935: minimalism in architecture",
+      "url": "https://www.wikidata.org/wiki/Q1936935"
+    }
+  ]
+}

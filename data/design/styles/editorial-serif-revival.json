@@ -22,7 +22,7 @@
     "core_thesis": "Voice beats neutrality: a serif with character makes a brand sound like a person, as in a magazine.",
     "design_principles": [
       "Set headlines in a high-contrast serif at 56px to 120px with a leading of 0.95 to 1.05 and tracking of -0.02em to -0.04em.",
-      "Use a warm off-white ground (#F6F1E7) and near-black ink (#1A1714); one muted accent (terracotta #B4532A or green) covers less than 8% of the surface.",
+      "Use a warm off-white ground (#F6F1E7) and near-black ink (#1A1714); one muted accent (terracotta #A64B25 or green) covers less than 8% of the surface.",
       "Set body in a serif or a quiet sans at 18px to 20px with a measure of 55 to 70 characters and a leading of 1.55.",
       "Set labels, dates and bylines in a small sans or mono at 11px to 13px in upper case with +0.08em tracking.",
       "Use italic as the emphasis in a headline: one word or phrase in italic in each headline.",
@@ -98,7 +98,7 @@
       },
       {
         "name": "Terracotta",
-        "hex": "#B4532A",
+        "hex": "#A64B25",
         "role": "accent"
       },
       {
@@ -133,8 +133,8 @@
     ]
   },
   "motion": {
-    "native": false,
-    "transition_physics": "Translation for screen: calm fades of 300ms to 500ms; images reveal by a 12px upward slide; no bounce.",
+    "native": true,
+    "transition_physics": "Calm fades of 300ms to 500ms; images reveal by a 12px upward slide; no bounce.",
     "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
     "duration_ms": 400,
     "hover_and_active": "Hover adds an underline of 1px in the accent and shifts an arrow by 4px; active state darkens the accent by 10%."
@@ -251,7 +251,7 @@
       "--color-text": "#1A1714",
       "--color-muted": "#6F675C",
       "--color-primary": "#1A1714",
-      "--color-accent": "#B4532A",
+      "--color-accent": "#A64B25",
       "--color-border": "#1A1714",
       "--font-sans": "\"Source Serif 4\", Georgia, serif",
       "--font-display": "\"Instrument Serif\", \"Playfair Display\", Georgia, serif",
@@ -282,7 +282,7 @@
       },
       {
         "element": "button",
-        "classes": "rounded-none border border-[#1A1714] bg-[#1A1714] px-6 py-3 text-sm text-[#F6F1E7] transition-colors duration-[400ms] hover:bg-[#B4532A] hover:border-[#B4532A]"
+        "classes": "rounded-none border border-[#1A1714] bg-[#1A1714] px-6 py-3 text-sm text-[#F6F1E7] transition-colors duration-[400ms] hover:bg-[#A64B25] hover:border-[#A64B25]"
       },
       {
         "element": "label",

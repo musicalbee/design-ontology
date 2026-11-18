@@ -2,7 +2,7 @@
 name: dark-devtool-ui
 description: "Apply the Dark-Mode Developer Tool style (2016–now) when generating UI or graphic layouts. Load when the user asks for: dark mode, developer tool, dev tool, linear style, command palette, vercel style."
 domain: design
-era: contemporary-spatial
+era: touchscreen
 triggers:
   - "dark mode"
   - "developer tool"
@@ -27,7 +27,7 @@ vector_profile:
 
 Near-black surfaces, 1px hairline borders, one saturated accent, a monospace for data and keyboard hints on every action. It came from code editors and terminals and now defines software for engineers.
 
-**Period:** 2016–now · **Era:** Contemporary & Spatial · **Domain:** Graphic & UI Design · **Also called:** Dev-tool dark UI, Linear style, Code-editor UI
+**Period:** 2016–now · **Era:** Touchscreen · **Domain:** Graphic & UI Design · **Also called:** Dev-tool dark UI, Linear style, Code-editor UI
 
 ## When to load this skill
 
@@ -46,7 +46,7 @@ When generating UI or graphic layouts in Dark-Mode Developer Tool, you MUST:
 
 1. Use a near-black ground (#0B0B0E) and 2 or 3 surface steps of 4% to 8% lightness each; no pure black and no pure white.
 2. Draw every border as a 1px hairline in white at 8% to 12% opacity; panels have a radius of 6px to 8px.
-3. Set one accent colour (indigo #6E7BF2 or similar) and use it on less than 5% of the surface: focus, selection and the primary button.
+3. Set one accent colour (indigo #5A66E8 or similar) and use it on less than 5% of the surface: focus, selection and the primary button.
 4. Set UI text at 13px to 14px in a neutral sans and all data, ids and code in a monospace at 12px to 13px.
 5. Show a keyboard hint in a 1px bordered key cap (radius 4px, 11px text) next to each main action; offer a command palette on Cmd+K.
 6. Give every row a height of 32px to 40px and keep lists dense; separate rows by hairline, not by space.
@@ -98,7 +98,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 | Display | Body | Note |
 |---|---|---|
-| Inter | JetBrains Mono | A neutral UI face with a code face for data. |
+| Inter | Inter | One neutral UI face for text; set data and code in JetBrains Mono through --font-mono. |
 | Geist | Geist Mono | A matched sans and mono family. |
 | IBM Plex Sans | IBM Plex Mono | A technical pairing with a clear voice. |
 
@@ -118,7 +118,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | Raised | `#1C1C22` | raised surface |
 | Text | `#E6E6EB` | text |
 | Muted | `#8A8A96` | secondary text |
-| Indigo | `#6E7BF2` | accent |
+| Indigo | `#5A66E8` | accent |
 
 ## Materiality & texture
 
@@ -150,8 +150,8 @@ Set `data-style="dark-devtool-ui"` on the root element and paste the tokens. The
   --color-surface: #141418;
   --color-text: #E6E6EB;
   --color-muted: #8A8A96;
-  --color-primary: #6E7BF2;
-  --color-accent: #6E7BF2;
+  --color-primary: #5A66E8;
+  --color-accent: #5A66E8;
   --color-border: #2A2A32;
   --font-sans: "Inter", system-ui, sans-serif;
   --font-display: "Inter", system-ui, sans-serif;
@@ -165,12 +165,12 @@ Set `data-style="dark-devtool-ui"` on the root element and paste the tokens. The
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
   --color-on-bg: #E6E6EB;
   --color-on-surface: #E6E6EB;
-  --color-on-primary: #0B0B0E;
-  --color-on-accent: #0B0B0E;
+  --color-on-primary: #FFFFFF;
+  --color-on-accent: #FFFFFF;
   --color-muted-on-bg: #8A8A96;
   --color-muted-on-surface: #8A8A96;
-  --color-link: #6E7BF2;
-  --color-link-on-surface: #6E7BF2;
+  --color-link: #E6E6EB;
+  --color-link-on-surface: #E6E6EB;
   --display-weight: 600;
   --subhead-weight: 500;
   --body-weight: 400;
@@ -193,7 +193,7 @@ Tailwind patterns:
 | heading | `text-4xl md:text-6xl font-semibold tracking-[-0.02em] leading-[1.15]` |
 | body | `text-sm leading-[1.5] text-[#8A8A96]` |
 | section | `rounded-md border border-white/10 bg-[#141418] p-4` |
-| button | `rounded-md bg-[#6E7BF2] px-3 py-1.5 text-sm font-medium text-white transition-colors duration-150 hover:bg-[#8590F5]` |
+| button | `rounded-md bg-[#5A66E8] px-3 py-1.5 text-sm font-medium text-white transition-colors duration-150 hover:bg-[#4853D6]` |
 | label | `font-mono text-xs text-[#8A8A96]` |
 
 ## Visual pack
