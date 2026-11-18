@@ -137,7 +137,7 @@
     };
     new MutationObserver(sync).observe(list, { childList: true, subtree: true, attributes: true, attributeFilter: ["aria-pressed"] });
 
-    // On a narrow screen the drawer covers the page, so a pick closes it.
+    // On a narrow screen the drawer covers the page, so a pick closes it. A click outside the drawer closes it at any width.
     list.addEventListener("click", (e) => { if (e.target.closest("[data-go]") && !WIDE.matches) setOpen(false); });
     $("do-q").addEventListener("input", (e) => {
       const q = e.target.value.trim().toLowerCase();
@@ -152,7 +152,7 @@
       if (e.key === "/" && !open.hidden && !e.target.matches("input, textarea, select")) { e.preventDefault(); setOpen(true); $("do-q").focus(); }
     });
     document.addEventListener("click", (e) => {
-      if (!WIDE.matches && drawer.classList.contains("open") && !drawer.contains(e.target) && !bar.contains(e.target)) setOpen(false);
+      if (drawer.classList.contains("open") && !drawer.contains(e.target) && !e.target.closest("#do-open, #prev, #next")) setOpen(false);
     });
   };
   document.body ? mount() : addEventListener("DOMContentLoaded", mount);
