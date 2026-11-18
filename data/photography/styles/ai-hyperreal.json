@@ -1,0 +1,259 @@
+{
+  "$schema": "../../../schema/domains/photography.schema.json",
+  "id": "ai-hyperreal",
+  "name": "AI hyperreal image",
+  "aliases": [
+    "AI photo look",
+    "Generated gloss"
+  ],
+  "era_id": "digital-and-grade",
+  "time_period": {
+    "start": 2022,
+    "end": null,
+    "label": "2022–today"
+  },
+  "process": [
+    "digital"
+  ],
+  "summary": "A recognisable look of images made by generative models: smooth, evenly lit, over-detailed and glossy. The look is named here so that a brief can ask for it or, more often, avoid it.",
+  "philosophy": {
+    "core_thesis": "A generated image can pass for a photograph at a glance, and its tells are the numbers that no real camera and no real scene would give together.",
+    "design_principles": [
+      "Name the tells: skin with no pores at 100%, hair as a smooth mass, and eyes with a perfect catchlight.",
+      "Name the light: a soft wrap with a key-to-fill ratio of 1.5:1 or less, and no clear light source.",
+      "Name the lens: a claimed 85mm f/1.4 look at all distances, with a blur that has no stepped depth.",
+      "Name the grade: glossy, saturated, a teal-orange split and no grain.",
+      "Name the failures: hands with extra or merged fingers, text that reads as nonsense and reflections that do not match.",
+      "Use the look on purpose, in a label, or avoid it in a brief by adding the real numbers of a style."
+    ],
+    "anti_patterns": [
+      "Passing a generated image as a documentary photograph",
+      "Skin smoothing past the point of pores",
+      "Impossible lens blur that ignores distance",
+      "Text in the image that is not checked",
+      "Using the look for a scene that must be true, such as news or evidence",
+      "Copying the face or the style of a living artist by name"
+    ]
+  },
+  "vectors": {
+    "staging": 5,
+    "tonal_contrast": 3,
+    "colour_saturation": 4,
+    "depth_of_field": 4,
+    "proximity": 3
+  },
+  "composition": {
+    "framing": "Centred and complete; the subject is clear and placed to read at thumbnail size.",
+    "viewpoint": "Eye height or slightly low, at a claimed 1m to 3m.",
+    "geometry": "Smooth curves and symmetric forms; the background has dense, repeated detail.",
+    "subject_placement": "Centred or on a third by rule, with a busy, glowing background.",
+    "principles": [
+      {
+        "principle": "focal-point",
+        "rule": "Let 1 subject take 40–70% of the frame, lit to the highest contrast in the image."
+      },
+      {
+        "principle": "symmetry-axis",
+        "rule": "Place the face axis at 0.5 of the width, within 0.05."
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Set 50% in one dominant hue, 30% in its complement and 20% in neutrals, with a glow at the edge."
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Use 2 planes only: a sharp subject and a blurred background that has no stepped depth."
+      },
+      {
+        "principle": "contrast",
+        "rule": "Hold the scene range at 4 to 5 stops, with no crushed blacks and no clipped highlights."
+      }
+    ]
+  },
+  "light": {
+    "quality": "Soft, wrapped and shadowless; a glow without a source.",
+    "direction": "Frontal wrap with a rim at 135°; no clear cast shadow.",
+    "key_to_fill_ratio": "1.5:1 or less (under 1 stop)",
+    "colour_temperature": "5600K key with a 3200K rim",
+    "time_of_day": "Not set; a permanent golden hour"
+  },
+  "lens_and_camera": {
+    "format": "None: the look imitates full frame",
+    "focal_length": "85mm look at every distance",
+    "aperture": "f/1.4 look",
+    "shutter": "1/200s look",
+    "film_speed": "ISO 100 look",
+    "focus": "The eyes are sharp; the blur grows evenly, with no true depth steps.",
+    "support": "None",
+    "equipment": [
+      "a generative image model",
+      "a prompt of 8 to 12 phrases"
+    ]
+  },
+  "colour_and_grade": {
+    "treatment": "Glossy, saturated and clean with a teal-orange split and no grain.",
+    "palette": [
+      {
+        "name": "Glow teal",
+        "hex": "#2E8E94",
+        "role": "background"
+      },
+      {
+        "name": "Skin gloss",
+        "hex": "#E2A27C",
+        "role": "skin"
+      },
+      {
+        "name": "Rim amber",
+        "hex": "#F2B45A",
+        "role": "rim light"
+      },
+      {
+        "name": "Deep navy",
+        "hex": "#14202E",
+        "role": "depth"
+      }
+    ],
+    "grade_recipe": [
+      "Set the saturation at +25% and the vibrance at +20%.",
+      "Split-tone shadows to teal (hue 190, saturation 20%) and highlights to orange (hue 30, saturation 25%).",
+      "Lift the black point to 3% and the white point to 99%.",
+      "Apply a +25% clarity and +15% texture on the whole frame.",
+      "Add no grain.",
+      "To avoid the look: drop saturation by −20%, add grain at 25% and add a hard shadow."
+    ],
+    "grain": "None; to avoid the look, add Tri-X grain at 25%"
+  },
+  "subject_and_staging": {
+    "subjects": [
+      "portraits with glowing skin",
+      "fantasy and sci-fi scenes",
+      "product renders",
+      "food and fashion mock-ups",
+      "landscapes with glow"
+    ],
+    "staging": "None in the real world. The scene is prompted: subject, mood, lens and light in 8 to 12 phrases.",
+    "direction": "Check every hand, every text and every reflection before use; label the image as generated."
+  },
+  "post_processing": {
+    "workflow": [
+      "Generate 4 to 16 variants.",
+      "Check hands, text, reflections and symmetry.",
+      "Upscale to 2048px or more and correct the colour.",
+      "Label the file as AI-generated in its metadata."
+    ],
+    "output": "A glossy file at 1:1, 4:5 or 16:9, with a label that says it was generated."
+  },
+  "prompt_primer": {
+    "positive": [
+      "ultra detailed",
+      "hyperrealistic",
+      "85mm f/1.4 look",
+      "soft studio light",
+      "glowing skin",
+      "cinematic teal and orange",
+      "8k",
+      "sharp eyes",
+      "smooth bokeh",
+      "glossy finish"
+    ],
+    "negative": [
+      "extra fingers",
+      "garbled text",
+      "plastic skin",
+      "mismatched reflections",
+      "oversaturated glow",
+      "fake bokeh",
+      "watermark"
+    ],
+    "canonical_works": [
+      {
+        "work": "Théâtre D'opéra Spatial",
+        "maker": "Jason Allen with Midjourney",
+        "year": 2022
+      },
+      {
+        "work": "The Pope in a white puffer jacket",
+        "maker": "Pablo Xavier with Midjourney",
+        "year": 2023
+      },
+      {
+        "work": "Zarya of the Dawn",
+        "maker": "Kris Kashtanova with Midjourney",
+        "year": 2022
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "fashion-editorial",
+      "cinematic-teal-orange"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "First, wonder at the polish; then, on a second look, unease at a surface with no source.",
+    "keywords": [
+      "glossy",
+      "smooth",
+      "over-detailed",
+      "synthetic",
+      "uncanny"
+    ],
+    "brand_archetypes": [
+      "magician",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "ai photo look",
+      "hyperreal",
+      "midjourney look",
+      "generated photo",
+      "too perfect skin",
+      "ai gloss"
+    ],
+    "use_cases": [
+      "naming the look in a brief so that a team can avoid it",
+      "labelled concept art and mock-ups",
+      "teaching how to spot generated images",
+      "a negative prompt block for real photo styles"
+    ],
+    "avoid_when": [
+      "The image must be true: news, evidence, documentary or a product as sold.",
+      "The brief asks to pass the image as a real photograph."
+    ],
+    "modifiers": [
+      {
+        "request": "more like a real photograph",
+        "toward": "documentary-photography",
+        "how": "Say 35mm lens, available light, f/5.6, grain at 15% and a real place with clutter; remove the glow and the polish."
+      },
+      {
+        "request": "more like film",
+        "toward": "film-grain-revival",
+        "how": "Say shot on Portra 400, halation at 20%, lifted blacks at 5% and visible grain at 35%; cut the saturation by 20%."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q138781852: Artificial intelligence art",
+      "url": "https://www.wikidata.org/wiki/Q138781852"
+    },
+    {
+      "title": "Wikidata Q65066631: artificial intelligence visual art",
+      "url": "https://www.wikidata.org/wiki/Q65066631"
+    },
+    {
+      "title": "U.S. Copyright Office, Copyright Registration Guidance: Works Containing Material Generated by Artificial Intelligence (2023)"
+    },
+    {
+      "title": "Coalition for Content Provenance and Authenticity, C2PA Technical Specification"
+    }
+  ],
+  "domain": "photography"
+}

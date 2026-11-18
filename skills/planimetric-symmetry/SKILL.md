@@ -207,7 +207,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`dogme-95`](../dogme-95/SKILL.md)
 - **Kin in another domain:** [`new-topographics`](../new-topographics/SKILL.md), [`renaissance-painting`](../renaissance-painting/SKILL.md)
-- **Nearest by vector profile:** [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md), [`classical-hollywood`](../classical-hollywood/SKILL.md), [`music-video`](../music-video/SKILL.md)
+- **Nearest by vector profile:** [`film-noir`](../film-noir/SKILL.md), [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md), [`classical-hollywood`](../classical-hollywood/SKILL.md)
 
 ## Emotional target
 

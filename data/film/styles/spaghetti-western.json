@@ -1,0 +1,319 @@
+{
+  "$schema": "../../../schema/domains/film.schema.json",
+  "id": "spaghetti-western",
+  "name": "Spaghetti western",
+  "aliases": [
+    "Italian western",
+    "Euro-western",
+    "Leone western"
+  ],
+  "era_id": "new-waves",
+  "time_period": {
+    "start": 1964,
+    "end": 1975,
+    "label": "1964–1975"
+  },
+  "capture": [
+    "photochemical"
+  ],
+  "summary": "A western shot in Spain and Italy on a wide 2.35:1 frame. A face fills the screen in an extreme close-up of the eyes, then the frame opens to a vast desert. Time stretches, the cut is slow, and the score is a part of the scene.",
+  "philosophy": {
+    "core_thesis": "An extreme close-up and an extreme wide shot, with a long wait between them, make a duel into a ritual and the land into a stage.",
+    "design_principles": [
+      "Shoot in Techniscope at 2.35:1 with a 2-perf frame and shoot in colour on a hot, dry location.",
+      "Cut between an extreme close-up of the eyes (a 75mm to 150mm lens) and an extreme wide shot (a 20mm to 28mm lens).",
+      "Hold the build to a duel for 30 to 90 s before the first shot is fired.",
+      "Use a stylised, sparse set with sun, dust, stubble and sweat on every face.",
+      "Light with hard sun at a high angle, and keep the faces in deep, dark eye shadow.",
+      "Dub the sound after the shoot: loud boots, spurs, wind, one shot and a long silence.",
+      "Write the score first for the key scenes, and let the music set the length of the take."
+    ],
+    "anti_patterns": [
+      "A tidy studio western set",
+      "A hero in a clean white hat",
+      "Fast cutting through a duel",
+      "A soft, polite long-shot only coverage",
+      "Natural, balanced mid-shot staging",
+      "A moral speech before the fight"
+    ]
+  },
+  "vectors": {
+    "camera_mobility": 3,
+    "cutting_rate": 3,
+    "staging": 4,
+    "grade_stylisation": 4,
+    "frame_width": 5
+  },
+  "composition": {
+    "framing": "A 2.35:1 frame with a split: a face at the edge and a far figure at the other edge, or one eye strip that fills the full width.",
+    "staging_in_depth": "2 to 4 planes: a foreground edge or a gun, a face or a body, and a far figure on the horizon.",
+    "subject_placement": "Faces at the edge and the horizon at 1/3 from the bottom; the centre stays empty.",
+    "principles": [
+      {
+        "principle": "scale",
+        "rule": "Cut from an eye strip to a lone figure on the horizon.",
+        "value": "eyes 100% of frame height, figure 5% to 10%"
+      },
+      {
+        "principle": "framing",
+        "rule": "Fill the wide frame with an eye strip, and place two duellists at the opposite edges.",
+        "value": "2 subjects at 5% and 95% of the frame width"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Stage a duel in depth with a foreground object, a face and a far figure.",
+        "value": "3 planes, 1 close object at 10% of the frame"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Slow the cut to a crawl before a shot, and then break it with a fast burst of close-ups.",
+        "value": "30 to 90 s build, then 0.5 to 1 s cuts"
+      },
+      {
+        "principle": "negative-space",
+        "rule": "Leave the sky and the ground empty so that the figures stand alone.",
+        "value": "40% to 60% empty frame"
+      }
+    ]
+  },
+  "camera_and_movement": {
+    "movement": "A slow zoom or a dolly into the eyes; a crane that rises to reveal the town; short static wide shots.",
+    "support": "Dolly, crane and tripod; a zoom lens for the push-in",
+    "camera_height": "1.0 to 1.7 m; low angle for the gunmen",
+    "move_speed": "Zoom over 5 to 15 s; dolly 0.2 to 0.5 m/s"
+  },
+  "lens_and_format": {
+    "aspect_ratio": "2.35:1 (Techniscope, 2-perf)",
+    "frame_rate": "24 fps",
+    "shutter_angle": "180° (1/48 s)",
+    "focal_length": "20mm to 28mm for the wide shot; 75mm to 150mm for the eye close-up",
+    "aperture": "f/8 to f/11 in hard sun",
+    "resolution": "35mm 2-perf negative; scan at 2K or 4K",
+    "focus": "Deep focus in the wide, a shallow focus of 0.1 to 0.3 m on the eyes",
+    "equipment": [
+      "Techniscope 2-perf 35mm camera",
+      "a long telephoto lens",
+      "a zoom lens",
+      "reflectors for sun fill"
+    ]
+  },
+  "light": {
+    "quality": "Hard desert sun, high contrast and burned skin; in the town a low lamp or a fire.",
+    "direction": "From the top at 60° to 80°, so the eyes sit in shadow under the hat.",
+    "key_to_fill_ratio": "4:1 to 6:1 in the sun",
+    "colour_temperature": "5600K daylight",
+    "source": "Sun, reflectors and a low fire or lamp at night"
+  },
+  "colour_and_grade": {
+    "treatment": "A warm, dry colour print with a dust-yellow base and a deep brown shadow.",
+    "palette": [
+      {
+        "name": "Dust",
+        "hex": "#C9A36B",
+        "role": "ground and sky"
+      },
+      {
+        "name": "Burnt umber",
+        "hex": "#5A3A22",
+        "role": "leather and shade"
+      },
+      {
+        "name": "Sun white",
+        "hex": "#F3E6C8",
+        "role": "highlights"
+      },
+      {
+        "name": "Bone sky",
+        "hex": "#8FA2A8",
+        "role": "sky"
+      }
+    ],
+    "grade_recipe": [
+      "Set the white balance at 5600K and push the highlights 300K warmer.",
+      "Lift the midtone saturation by 10% to 15% in the yellow and orange range.",
+      "Add a contrast curve of +25% with the black point at 4%.",
+      "Add grain at 20% to 25% and a vignette of 15%.",
+      "Keep the blue in the sky desaturated by 20%."
+    ],
+    "texture": "35mm grain at 20% to 25%, with dust and heat shimmer"
+  },
+  "editing_and_rhythm": {
+    "average_shot_length": "5 to 8 s outside a duel, 0.5 to 2 s in a duel (estimate)",
+    "shot_length_range": "0.3 s for an eye flash to 60 s for a long build",
+    "cutting_logic": "Cut to the music; hold the build to a duel with a rising count of close-ups, then fire and cut out.",
+    "transitions": "Hard cut, a slow dissolve for the time of a ride and a snap cut on a shot.",
+    "runtime": "100 to 175 min"
+  },
+  "sound": {
+    "approach": "Post-synchronised sound with a loud, simple mix: spurs, wind, flies and a creak.",
+    "dialogue": "Sparse and dry; the actors speak in several languages and the voices are dubbed.",
+    "music": "A score with a whistle, a guitar, a choir and a bell, written to lead the scene.",
+    "loudness": "−23 LUFS integrated, with a wide dynamic range for the silence"
+  },
+  "titles_and_graphics": {
+    "treatment": "A stylised title over a painted or an animated sequence; the credits in a bold western face.",
+    "type": "A heavy slab-serif in warm white or orange, 3 to 5 s per card."
+  },
+  "shot_primer": {
+    "opening": "Open on a wide shot of an empty street or a far figure, hold it for 8 s, then cut to an eye strip.",
+    "shot_list": [
+      {
+        "shot": "Empty street, a far figure",
+        "size": "extreme wide",
+        "lens": "20mm",
+        "movement": "static",
+        "seconds": 8
+      },
+      {
+        "shot": "Eyes of the gunman",
+        "size": "extreme close-up",
+        "lens": "100mm",
+        "movement": "static or slow zoom 8 s",
+        "seconds": 4
+      },
+      {
+        "shot": "Hand over the holster",
+        "size": "insert",
+        "lens": "50mm",
+        "movement": "static",
+        "seconds": 3
+      },
+      {
+        "shot": "Duel in 3 planes",
+        "size": "wide",
+        "lens": "28mm",
+        "movement": "slow dolly 0.3 m/s",
+        "seconds": 12
+      },
+      {
+        "shot": "Spurs on the ground",
+        "size": "insert",
+        "lens": "35mm",
+        "movement": "static",
+        "seconds": 2
+      },
+      {
+        "shot": "Ride through the desert",
+        "size": "extreme wide",
+        "lens": "20mm",
+        "movement": "crane, rising",
+        "seconds": 10
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "spaghetti western",
+      "2.35:1 anamorphic frame",
+      "extreme close-up of the eyes",
+      "hard desert sun",
+      "dust and sweat on faces",
+      "wide empty street duel",
+      "long wait before the shot",
+      "warm yellow brown colour",
+      "35mm grain"
+    ],
+    "negative": [
+      "clean studio set",
+      "fast cutting",
+      "soft light",
+      "modern phone look",
+      "clean white hat hero",
+      "cool blue grade"
+    ],
+    "canonical_works": [
+      {
+        "work": "A Fistful of Dollars",
+        "maker": "Sergio Leone",
+        "year": 1964
+      },
+      {
+        "work": "For a Few Dollars More",
+        "maker": "Sergio Leone",
+        "year": 1965
+      },
+      {
+        "work": "The Good, the Bad and the Ugly",
+        "maker": "Sergio Leone",
+        "year": 1966
+      },
+      {
+        "work": "Once Upon a Time in the West",
+        "maker": "Sergio Leone",
+        "year": 1968
+      },
+      {
+        "work": "Django",
+        "maker": "Sergio Corbucci",
+        "year": 1966
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "classical-hollywood"
+    ],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Tension and awe: the viewer waits inside a long silence and sees the land as a myth.",
+    "keywords": [
+      "operatic",
+      "tense",
+      "dusty",
+      "ritual",
+      "stylised"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "hero"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "spaghetti western",
+      "leone",
+      "italian western",
+      "extreme close-up eyes",
+      "duel scene",
+      "techniscope"
+    ],
+    "use_cases": [
+      "western and duel video prompts",
+      "trailer and title sequences",
+      "music video with a desert setting",
+      "fashion and spirits films"
+    ],
+    "avoid_when": [
+      "The brief needs a fast, modern action cut.",
+      "The setting is a clean, indoor or urban place without a link to the myth."
+    ],
+    "modifiers": [
+      {
+        "request": "more speed",
+        "toward": "hong-kong-action",
+        "how": "Keep the stylised duel; cut to 1 to 2 s per shot, add wire work and a camera that moves in the fight."
+      },
+      {
+        "request": "more truth",
+        "toward": "new-hollywood",
+        "how": "Keep the wide frame; move to real locations, dull colour and a hero without a myth."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Spaghetti Western",
+      "url": "https://en.wikipedia.org/wiki/Spaghetti_Western"
+    },
+    {
+      "title": "Christopher Frayling, Spaghetti Westerns: Cowboys and Europeans from Karl May to Sergio Leone (Routledge, 1981)"
+    },
+    {
+      "title": "Christopher Frayling, Sergio Leone: Something to Do with Death (Faber and Faber, 2000)"
+    }
+  ],
+  "domain": "film"
+}

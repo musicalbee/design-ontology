@@ -224,7 +224,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`vertical-short-form`](../vertical-short-form/SKILL.md)
 - **Mixes well with:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`vertical-short-form`](../vertical-short-form/SKILL.md)
-- **Nearest by vector profile:** [`new-hollywood`](../new-hollywood/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md), [`hong-kong-action`](../hong-kong-action/SKILL.md)
+- **Nearest by vector profile:** [`new-hollywood`](../new-hollywood/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md), [`phone-cinema`](../phone-cinema/SKILL.md)
 
 ## Emotional target
 
