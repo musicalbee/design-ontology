@@ -35,6 +35,9 @@ for (const { file, slug, principle } of principles) {
   if (principle.id !== slug) errors.push(`${file}: id "${principle.id}" is not equal to the file name`);
   for (const r of principle.related) if (!principleIds.has(r) || r === slug) errors.push(`${file}: related → "${r}" is not another principle`);
   for (const d of principle.applies_to) if (!domains.some((x) => x.id === d)) errors.push(`${file}: applies_to → "${d}" is not in domains/`);
+  for (const m of principle.measures)
+    for (const d of m.domains ?? [])
+      if (!principle.applies_to.includes(d)) errors.push(`${file}: measure "${m.measure}" names domain "${d}", which is not in applies_to`);
 }
 
 for (const domain of domains) {
@@ -71,7 +74,12 @@ for (const domain of domains) {
     for (const ref of principleRefs(style))
       if (!principleIds.has(ref)) errors.push(`${file}: principle "${ref}" is not in data/principles/`);
       else if (!principleById.get(ref)!.applies_to.includes(domain.id))
-        errors.push(`${file}: principle "${ref}" does not apply to the ${domain.id} domain (see its applies_to)`);
+        errors.push(`${file}: principle "${ref}" does not list "${domain.id}" in applies_to. Add the domain and its measures to data/principles/${ref}.json`);
+
+    // One citation for each principle in composition.principles: a second one prints the principle twice in the skill.
+    const cited = ((style as { composition?: { principles?: { principle: string }[] } }).composition?.principles ?? []).map((p) => p.principle);
+    for (const id of new Set(cited.filter((id, i) => cited.indexOf(id) !== i)))
+      errors.push(`${file}: composition.principles cites "${id}" more than once`);
 
     for (const p of style.philosophy.anti_patterns)
       if (/^(never|do not|don't|avoid)\b/i.test(p))
