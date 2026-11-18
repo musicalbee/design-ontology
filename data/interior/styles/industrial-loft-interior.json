@@ -1,0 +1,395 @@
+{
+  "$schema": "../../../schema/domains/interior.schema.json",
+  "domain": "interior",
+  "id": "industrial-loft-interior",
+  "name": "Industrial loft",
+  "aliases": [
+    "Industrial interior",
+    "Loft style",
+    "Warehouse conversion"
+  ],
+  "identity": {
+    "wikidata": "Q6027751"
+  },
+  "era_id": "post-war-modern",
+  "time_period": {
+    "start": 1970,
+    "end": null,
+    "label": "1970–present"
+  },
+  "room_types": [
+    "living",
+    "kitchen",
+    "workspace",
+    "hospitality",
+    "retail"
+  ],
+  "summary": "The converted factory floor. Exposed brick, concrete, steel columns and ducts stay in view; large steel windows light one open plan, and salvaged furniture of wood, leather and steel stands in zones on a bare floor.",
+  "philosophy": {
+    "core_thesis": "The building tells of its past as a factory; leave the structure and the services in view and live among them.",
+    "design_principles": [
+      "Show the structure and the services: brick, concrete, columns, beams, ducts and conduit.",
+      "Keep one open plan; mark zones with rugs and furniture, not walls.",
+      "Use large steel-framed windows and keep them bare.",
+      "Mix raw materials with warm ones: steel and concrete with old wood and worn leather.",
+      "Choose salvaged or factory pieces: metal stools, cabinets, pendant lamps.",
+      "Keep the palette in the colours of the materials: brick red, concrete grey, black steel and wood brown."
+    ],
+    "anti_patterns": [
+      "Plastered and painted-over brick and beams",
+      "Ornate or delicate furniture",
+      "Wall-to-wall carpet",
+      "Small rooms that divide the floor",
+      "Pastel colour schemes"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "density": 3,
+    "formality": 1,
+    "material_naturalness": 4,
+    "chromatic_intensity": 2
+  },
+  "composition": {
+    "plan_logic": "One large open floor on a structural grid of columns. Zones for sleep, sit, cook and work float between the columns; the kitchen sits on a long island.",
+    "focal_point": "A wall of exposed brick with a steel shelf or a large artwork, on the right side of the plan.",
+    "symmetry": "asymmetric",
+    "axis_count": 0,
+    "focal_wall": "right",
+    "focal_position": 0.4,
+    "rhythm_module_cm": 500,
+    "depth_layers": 3,
+    "rules": [
+      {
+        "principle": "rhythm",
+        "rule": "Let the column grid set the zones; one zone per bay.",
+        "value": "bay 5 x 5 m"
+      },
+      {
+        "principle": "zoning",
+        "rule": "Mark each zone with a rug, a pendant and a group of furniture, not with walls.",
+        "value": "3–4 zones, no partitions"
+      },
+      {
+        "principle": "contrast",
+        "rule": "Set raw, rough surfaces against warm wood and leather.",
+        "value": "1 warm material per zone"
+      },
+      {
+        "principle": "scale",
+        "rule": "Use large pieces that fit the volume of the space: a long table, a big sectional sofa.",
+        "value": "table 250–300 cm"
+      },
+      {
+        "principle": "leading-lines",
+        "rule": "Let ducts, beams and the conduit lead the eye along the length of the space.",
+        "value": "2–3 parallel lines"
+      },
+      {
+        "principle": "focal-point",
+        "rule": "Make the brick wall the focal point with one large artwork or open steel shelves.",
+        "value": "1 focal wall"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Read the plan in depth through the columns: front zone, column line, back zone.",
+        "value": "3 planes"
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Give concrete and brick the main share, black steel and wood the second, and one colour such as rust or teal the accent.",
+        "value": "60/32/8"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Hang factory pendants low over each zone and light the brick with wall washers or track spots.",
+        "value": "100 lux ambient, 400 lux task, 2700 K"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Keep wide routes along the window wall and around the island.",
+        "value": "150 cm main, 100 cm secondary"
+      }
+    ]
+  },
+  "zoning": {
+    "zones": [
+      "sofa group on a rug",
+      "kitchen island",
+      "long dining table",
+      "work desk",
+      "sleep platform"
+    ],
+    "circulation": "Wide routes along the windows and between the column bays.",
+    "main_path_clear_cm": 150,
+    "secondary_path_clear_cm": 100,
+    "seat_to_table_cm": 40,
+    "conversation_diameter_cm": 300,
+    "floor_coverage_pct": 40,
+    "wall_coverage_pct": 30
+  },
+  "palette": {
+    "distribution": "Concrete floor and ceiling and red-brown brick; black steel windows and frames; reclaimed wood and tan leather; one rust or teal accent.",
+    "dominant_pct": 60,
+    "secondary_pct": 32,
+    "accent_pct": 8,
+    "colours": [
+      {
+        "name": "Concrete",
+        "hex": "#8D8A85",
+        "role": "dominant",
+        "surface": "floor, ceiling, columns"
+      },
+      {
+        "name": "Brick",
+        "hex": "#8E4A35",
+        "role": "dominant",
+        "surface": "exposed brick wall"
+      },
+      {
+        "name": "Steel black",
+        "hex": "#232323",
+        "role": "metal",
+        "surface": "window frames, shelves, lamps"
+      },
+      {
+        "name": "Reclaimed oak",
+        "hex": "#7C5B3B",
+        "role": "wood",
+        "surface": "table, shelves, floor patches"
+      },
+      {
+        "name": "Tan leather",
+        "hex": "#9A6A43",
+        "role": "secondary",
+        "surface": "sofa, chairs"
+      },
+      {
+        "name": "Rust",
+        "hex": "#B4532A",
+        "role": "accent",
+        "surface": "cushions, art, enamel"
+      }
+    ]
+  },
+  "lighting": {
+    "strategy": "Large daylight from steel windows; at night, low factory pendants over each zone and wall washers on the brick.",
+    "daylight": "Large steel-framed windows with many panes give a strong, even side light; no curtains or only simple roller blinds.",
+    "ambient_lux": 100,
+    "task_lux": 400,
+    "accent_ratio": 4,
+    "cct_k": 2700,
+    "cct_evening_k": 2400,
+    "cri_min": 90,
+    "layers": [
+      {
+        "layer": "daylight",
+        "source": "steel-framed factory windows",
+        "position": "window wall"
+      },
+      {
+        "layer": "task",
+        "source": "enamel or metal factory pendants",
+        "position": "low over the island and the table"
+      },
+      {
+        "layer": "accent",
+        "source": "track spots on a black rail",
+        "position": "on the brick wall and the art"
+      },
+      {
+        "layer": "decorative",
+        "source": "bare filament lamps on exposed cable",
+        "position": "over the sofa zone"
+      }
+    ]
+  },
+  "materials": {
+    "primary": [
+      "exposed brick",
+      "polished concrete",
+      "black steel"
+    ],
+    "secondary": [
+      "reclaimed oak",
+      "leather",
+      "cast iron",
+      "glass",
+      "enamel",
+      "canvas"
+    ],
+    "finish": "Raw or sealed brick and concrete, blackened or waxed steel, worn wood and leather.",
+    "texture_contrast": "Rough brick and concrete against smooth steel and worn leather, at about 2:1 in favour of rough."
+  },
+  "furniture": {
+    "silhouette": "Heavy, utilitarian pieces of steel and wood with visible bolts and welds; some salvaged factory furniture.",
+    "arrangement": "Groups float in each column bay on a rug; long tables and islands follow the length of the space.",
+    "seat_height_cm": 45,
+    "key_pieces": [
+      "tan leather chesterfield or sectional",
+      "reclaimed wood dining table",
+      "steel and wood shelves",
+      "metal stools",
+      "factory pendant lamps",
+      "steel cabinet on casters"
+    ]
+  },
+  "textiles": {
+    "fabrics": [
+      "leather",
+      "canvas",
+      "wool",
+      "denim"
+    ],
+    "pattern": "Few patterns: a worn kilim or a plain wool rug.",
+    "windows": "Bare windows, or simple roller blinds."
+  },
+  "objects": {
+    "approach": "Large, few objects: big art, vintage signs and tools, plants in metal pots.",
+    "grouping": "Groups of 3–5 on open steel shelves.",
+    "max_per_surface": 5,
+    "hang_centre_cm": 160,
+    "items": [
+      "large canvas",
+      "vintage enamel sign",
+      "factory clock",
+      "plants in zinc pots",
+      "stacked books"
+    ]
+  },
+  "implementation": {
+    "brief": "An open loft with a concrete floor, steel columns and a high concrete ceiling with exposed ducts. A tan leather sofa on a worn kilim faces a red brick wall with steel shelves; a long reclaimed oak table stands under low factory pendants near tall steel windows.",
+    "image_prompt": "Industrial loft interior, exposed red brick wall, polished concrete floor, high concrete ceiling with exposed ducts and conduit, black steel columns, tall black steel-framed factory windows, tan leather sofa on a worn kilim rug, long reclaimed oak dining table with metal stools, enamel factory pendant lamps hung low, steel and wood open shelves, large canvas art, warm daylight, raw and spacious, interior photograph",
+    "negative_prompt": "Plastered walls, carpet, delicate ornament, pastel, small rooms, curtains with frills.",
+    "camera": "20 mm lens at 160 cm, diagonal view across the open plan toward the brick wall.",
+    "scene_3d": "Space 1500 x 1000 cm, ceiling 450 cm, steel columns at 500 cm. Sun through steel windows 250 x 350 cm; 2700 K pendants at 200 cm; concrete roughness 0.6.",
+    "furniture_list": [
+      "sofa 240 x 100 x 80 cm, seat 45 cm",
+      "oak table 280 x 100 x 76 cm",
+      "kitchen island 300 x 100 x 92 cm",
+      "steel shelves 200 x 40 x 240 cm",
+      "kilim 250 x 350 cm"
+    ],
+    "material_list": [
+      "exposed brick",
+      "polished concrete",
+      "blackened steel",
+      "reclaimed oak",
+      "tan leather",
+      "enamel steel"
+    ],
+    "references": []
+  },
+  "lineage": {
+    "evolved_from": [
+      "bauhaus-interior"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "brutalist-architecture",
+      "high-tech-architecture",
+      "new-topographics"
+    ]
+  },
+  "emotion": {
+    "target_response": "Freedom: the viewer feels room to move and make, in a space that was once a factory.",
+    "keywords": [
+      "raw",
+      "spacious",
+      "urban",
+      "honest",
+      "creative",
+      "rugged"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "industrial",
+      "loft",
+      "warehouse",
+      "exposed brick",
+      "factory style",
+      "concrete floor",
+      "steel windows",
+      "soho loft"
+    ],
+    "use_cases": [
+      "coffee shops and restaurants",
+      "co-working spaces",
+      "creative studios",
+      "urban apartments",
+      "craft breweries"
+    ],
+    "avoid_when": [
+      "The room is small with low ceilings.",
+      "The brief asks for softness, colour or period detail."
+    ],
+    "modifiers": [
+      {
+        "request": "more refined and empty",
+        "toward": "minimalist-interior",
+        "how": "Cover the services, plaster the walls white, hide all storage and reduce the furniture to 3 pieces."
+      },
+      {
+        "request": "warmer and Nordic",
+        "toward": "scandinavian-interior",
+        "how": "Paint the brick white, add pale wood, wool and many small lamps; keep the open plan."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "industrial loft",
+      "exposed brick wall",
+      "polished concrete floor",
+      "black steel windows",
+      "exposed ducts",
+      "factory pendant lamps",
+      "reclaimed wood table",
+      "tan leather sofa",
+      "open plan",
+      "high ceiling"
+    ],
+    "negative": [
+      "carpet",
+      "plaster ornament",
+      "pastel",
+      "small rooms",
+      "frills"
+    ],
+    "canonical_works": [
+      {
+        "work": "SoHo artist lofts, New York",
+        "architect": "Artists of the SoHo loft movement",
+        "year": 1970
+      },
+      {
+        "work": "The Factory, New York",
+        "architect": "Andy Warhol",
+        "year": 1964
+      },
+      {
+        "work": "Loft Living (book)",
+        "architect": "Sharon Zukin",
+        "year": 1982
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Sharon Zukin, Loft Living: Culture and Capital in Urban Change (Johns Hopkins University Press, 1982)"
+    },
+    {
+      "title": "Trend evidence, cite only: retail catalogues and image platforms from about 2010"
+    },
+    {
+      "title": "Wikidata Q6027751: Industrial style",
+      "url": "https://www.wikidata.org/wiki/Q6027751"
+    }
+  ]
+}

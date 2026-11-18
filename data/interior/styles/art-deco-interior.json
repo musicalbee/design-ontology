@@ -1,0 +1,403 @@
+{
+  "$schema": "../../../schema/domains/interior.schema.json",
+  "domain": "interior",
+  "id": "art-deco-interior",
+  "name": "Art Deco",
+  "aliases": [
+    "Art Deco interior",
+    "Style moderne",
+    "Paris 1925"
+  ],
+  "identity": {
+    "wikidata": "Q173782",
+    "aat": "300021426"
+  },
+  "era_id": "modern-reform",
+  "time_period": {
+    "start": 1925,
+    "end": 1940,
+    "label": "1925–1940"
+  },
+  "room_types": [
+    "living",
+    "dining",
+    "bedroom",
+    "hospitality",
+    "retail",
+    "public"
+  ],
+  "summary": "The luxury room of the machine age. Symmetric plans, stepped and fan geometry, black lacquer, exotic veneers and polished chrome or brass give high contrast; a mirror or a mural on the axis and cove light in the ceiling make the room a stage.",
+  "philosophy": {
+    "core_thesis": "Luxury and the machine meet in one bold geometric order of rare materials and high contrast.",
+    "design_principles": [
+      "Compose the room on a strong central axis with a focal mirror, mural or fireplace at its end.",
+      "Use stepped, zigzag, sunburst and fan forms in mouldings, furniture and metalwork.",
+      "Pair a dark ground with light accents at high contrast: black lacquer with ivory, chrome or gold.",
+      "Use rare veneers, shagreen, lacquer and inlay on large, simple furniture shapes.",
+      "Hide the light in ceiling coves and behind frosted glass panels.",
+      "Repeat one geometric motif at three scales: the floor, the furniture and the hardware."
+    ],
+    "anti_patterns": [
+      "Rustic or distressed surfaces",
+      "Free asymmetric plans",
+      "Soft pastel colour schemes with no contrast",
+      "Visible bare bulbs",
+      "Plant-like whiplash curves"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "density": 3,
+    "formality": 5,
+    "material_naturalness": 2,
+    "chromatic_intensity": 3
+  },
+  "composition": {
+    "plan_logic": "A symmetric plan on one main axis. A stepped ceiling cove and a geometric floor inlay mark the centre; furniture stands in mirrored pairs.",
+    "focal_point": "A stepped fireplace or a large mirror with a sunburst frame on the centre of the back wall.",
+    "symmetry": "bilateral",
+    "axis_count": 1,
+    "focal_wall": "back",
+    "focal_position": 0.5,
+    "rhythm_module_cm": 60,
+    "depth_layers": 3,
+    "rules": [
+      {
+        "principle": "symmetry-axis",
+        "rule": "Mirror the room about one main axis that ends at the focal wall.",
+        "value": "1 axis, mirror pairs"
+      },
+      {
+        "principle": "contrast",
+        "rule": "Set dark lacquer and veneer against ivory, chrome or gilt.",
+        "value": "LRV difference 60–70"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Repeat stepped and fan motifs in the cornice, the floor inlay and the hardware.",
+        "value": "60 cm step module"
+      },
+      {
+        "principle": "hierarchy",
+        "rule": "Give the focal wall the richest material; the side walls stay plain.",
+        "value": "3 levels"
+      },
+      {
+        "principle": "focal-point",
+        "rule": "End the axis on a mirror, a mural or a stepped fireplace.",
+        "value": "1 focal point at 0.5"
+      },
+      {
+        "principle": "scale",
+        "rule": "Use low, broad, heavy pieces with large flat surfaces of veneer.",
+        "value": "seat 42 cm, table 45 cm"
+      },
+      {
+        "principle": "unity-variety",
+        "rule": "Repeat one geometric motif at 3 scales.",
+        "value": "1 motif, 3 scales"
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Give a dark or ivory ground the main share, veneer the second, and metal and one jewel colour the accents.",
+        "value": "60/30/10"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Hide the ambient light in a stepped ceiling cove and use frosted glass for the decorative layer.",
+        "value": "120 lux ambient, 350 lux task, 2700 K"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Keep the main axis clear from the door to the focal wall.",
+        "value": "120 cm main route"
+      }
+    ]
+  },
+  "zoning": {
+    "zones": [
+      "fireplace group",
+      "dining or cocktail table",
+      "bar cabinet",
+      "vanity or desk"
+    ],
+    "circulation": "One straight central route on the axis; secondary routes run behind the paired chairs.",
+    "main_path_clear_cm": 120,
+    "secondary_path_clear_cm": 80,
+    "seat_to_table_cm": 40,
+    "conversation_diameter_cm": 260,
+    "floor_coverage_pct": 45,
+    "wall_coverage_pct": 40
+  },
+  "palette": {
+    "distribution": "Black or ivory lacquer on the large surfaces; macassar ebony or walnut veneer on furniture; chrome, gold and one jewel colour such as jade or coral in the accents.",
+    "dominant_pct": 60,
+    "secondary_pct": 30,
+    "accent_pct": 10,
+    "colours": [
+      {
+        "name": "Lacquer black",
+        "hex": "#151414",
+        "role": "dominant",
+        "surface": "walls, furniture fronts"
+      },
+      {
+        "name": "Ivory",
+        "hex": "#EFE6D2",
+        "role": "dominant",
+        "surface": "ceiling, upholstery"
+      },
+      {
+        "name": "Macassar ebony",
+        "hex": "#4A2E1F",
+        "role": "wood",
+        "surface": "veneer furniture"
+      },
+      {
+        "name": "Polished brass",
+        "hex": "#C3A04A",
+        "role": "metal",
+        "surface": "inlay, hardware, lamps"
+      },
+      {
+        "name": "Chrome",
+        "hex": "#C8CCD0",
+        "role": "metal",
+        "surface": "frames, handles"
+      },
+      {
+        "name": "Jade",
+        "hex": "#3E7D6B",
+        "role": "accent",
+        "surface": "glass, cushions"
+      }
+    ]
+  },
+  "lighting": {
+    "strategy": "Hidden, even ambient light in ceiling coves; frosted glass fittings in geometric forms; reflections from lacquer, mirror and metal.",
+    "daylight": "Tall windows with simple straight curtains; the mirror on the axis doubles the daylight.",
+    "ambient_lux": 120,
+    "task_lux": 350,
+    "accent_ratio": 3,
+    "cct_k": 2700,
+    "cct_evening_k": 2400,
+    "cri_min": 90,
+    "layers": [
+      {
+        "layer": "ambient",
+        "source": "LED strip in a stepped ceiling cove",
+        "position": "around the room perimeter"
+      },
+      {
+        "layer": "decorative",
+        "source": "frosted glass and chrome ceiling fitting in tiers",
+        "position": "centre of the axis"
+      },
+      {
+        "layer": "accent",
+        "source": "frosted glass wall sconces in fan or shell forms",
+        "position": "pairs on the focal wall"
+      },
+      {
+        "layer": "task",
+        "source": "chrome table lamp with a glass shade",
+        "position": "on side tables and the desk"
+      }
+    ]
+  },
+  "materials": {
+    "primary": [
+      "lacquer",
+      "macassar ebony veneer",
+      "marble"
+    ],
+    "secondary": [
+      "chrome",
+      "brass",
+      "shagreen",
+      "mirror glass",
+      "frosted glass",
+      "velvet"
+    ],
+    "finish": "High-gloss lacquer, polished veneer and metal, mirror.",
+    "texture_contrast": "High gloss against velvet and shagreen, at about 2:1 in favour of gloss."
+  },
+  "furniture": {
+    "silhouette": "Low, massive, simple shapes with rounded or stepped corners, tapered feet and inlaid lines.",
+    "arrangement": "Mirrored pairs of armchairs and side tables on the main axis around a low table.",
+    "seat_height_cm": 42,
+    "key_pieces": [
+      "club armchairs in pairs",
+      "lacquer cocktail cabinet",
+      "sunburst mirror",
+      "stepped fire surround",
+      "macassar ebony sideboard",
+      "frosted glass sconces"
+    ]
+  },
+  "textiles": {
+    "fabrics": [
+      "velvet",
+      "silk satin",
+      "mohair",
+      "shagreen"
+    ],
+    "pattern": "Bold geometric repeats: chevron, fan, sunburst; plain velvet on the furniture.",
+    "windows": "Straight floor-length satin curtains on a concealed track, with a geometric pelmet."
+  },
+  "objects": {
+    "approach": "A few sculptural objects in rare materials, placed in pairs on the axis.",
+    "grouping": "Pairs and symmetric sets of 3.",
+    "max_per_surface": 3,
+    "hang_centre_cm": 155,
+    "items": [
+      "bronze and ivory figure",
+      "sunburst mirror",
+      "pair of glass vases",
+      "lacquer box",
+      "geometric clock"
+    ]
+  },
+  "implementation": {
+    "brief": "A symmetric salon with black lacquer walls, an ivory stepped ceiling cove and a marble floor with a brass inlay. A sunburst mirror over a stepped fireplace ends the axis; two ivory velvet club chairs and a macassar ebony cocktail cabinet stand in mirrored pairs.",
+    "image_prompt": "Art Deco salon, symmetrical, black lacquer walls, ivory stepped ceiling with hidden cove light, sunburst mirror above a stepped marble fireplace on the central axis, pair of ivory velvet club armchairs, macassar ebony cocktail cabinet with brass inlay, chrome and frosted glass wall sconces in fan form, marble floor with geometric brass inlay, high contrast, glamorous, 1920s Paris, interior photograph",
+    "negative_prompt": "Rustic, distressed, pastel, asymmetric, bare bulbs, plant curves, clutter.",
+    "camera": "24 mm lens at 140 cm, frontal view on the axis, verticals parallel.",
+    "scene_3d": "Room 700 x 500 cm, ceiling 320 cm with a 30 cm stepped cove. 2700 K strip in the cove; two 2400 K sconces at 170 cm; glossy materials with roughness 0.1.",
+    "furniture_list": [
+      "2 club chairs 85 x 90 x 75 cm, seat 42 cm",
+      "cocktail cabinet 120 x 50 x 140 cm",
+      "low table 100 x 60 x 45 cm",
+      "sunburst mirror 110 cm"
+    ],
+    "material_list": [
+      "black lacquer",
+      "macassar ebony veneer",
+      "Nero Marquina and white marble",
+      "brass inlay",
+      "chrome",
+      "ivory velvet"
+    ],
+    "references": []
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "art-nouveau-interior"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "art-deco-architecture",
+      "art-deco-web"
+    ]
+  },
+  "emotion": {
+    "target_response": "Glamour: the viewer feels on a stage, in a room of luxury, speed and confidence.",
+    "keywords": [
+      "glamorous",
+      "bold",
+      "geometric",
+      "luxurious",
+      "confident",
+      "polished"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "lover"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "art deco",
+      "deco interior",
+      "1920s interior",
+      "jazz age",
+      "gatsby",
+      "ruhlmann",
+      "streamline moderne",
+      "sunburst mirror"
+    ],
+    "use_cases": [
+      "cocktail bars",
+      "hotel lobbies",
+      "theatres and cinemas",
+      "luxury retail",
+      "dining rooms"
+    ],
+    "avoid_when": [
+      "The brief asks for a rustic or soft family room.",
+      "The budget does not allow lacquer, veneer and metal of quality."
+    ],
+    "modifiers": [
+      {
+        "request": "for Hollywood glamour",
+        "toward": "hollywood-regency-interior",
+        "how": "Add lacquer colour, bold stripes, white plaster and gilt mirrors; keep the symmetry and the high contrast."
+      },
+      {
+        "request": "for today",
+        "toward": "neo-deco-interior",
+        "how": "Round the forms, soften the contrast, add curved bouclé seats, fluted wood and a warm terracotta or green."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "Art Deco interior",
+      "black lacquer",
+      "sunburst mirror",
+      "stepped ceiling cove",
+      "macassar ebony veneer",
+      "brass inlay",
+      "chrome and frosted glass",
+      "velvet club chair",
+      "geometric marble floor",
+      "symmetry"
+    ],
+    "negative": [
+      "rustic",
+      "pastel",
+      "asymmetry",
+      "bare bulbs",
+      "plant curves"
+    ],
+    "canonical_works": [
+      {
+        "work": "Hôtel du Collectionneur, Exposition des Arts Décoratifs",
+        "architect": "Émile-Jacques Ruhlmann",
+        "year": 1925
+      },
+      {
+        "work": "Eltham Palace entrance hall",
+        "architect": "Rolf Engströmer",
+        "year": 1936
+      },
+      {
+        "work": "Normandie liner interiors",
+        "architect": "Jean Dunand and others",
+        "year": 1935
+      },
+      {
+        "work": "Radio City Music Hall",
+        "architect": "Donald Deskey",
+        "year": 1932
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Charlotte Benton, Tim Benton and Ghislaine Wood (eds), Art Deco 1910–1939 (V&A Publications, 2003)"
+    },
+    {
+      "title": "Alastair Duncan, Art Deco Furniture (Thames and Hudson, 1984)"
+    },
+    {
+      "title": "Wikidata Q173782: Art Deco",
+      "url": "https://www.wikidata.org/wiki/Q173782"
+    },
+    {
+      "title": "Getty AAT 300021426",
+      "url": "https://vocab.getty.edu/page/aat/300021426"
+    }
+  ]
+}
