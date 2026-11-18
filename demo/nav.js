@@ -6,7 +6,7 @@
 // The "Styles" button shows only when #chips has buttons, so a page with no styles shows the bar only.
 (() => {
   const DOMAINS = [
-    ["index.html", "Design"], ["architecture.html", "Architecture"], ["interior.html", "Interior"],
+    ["index.html", "Design"], ["architecture.html", "Architecture"], ["interior.html", "Interior"], ["moodboard.html", "Moodboards"],
     ["photography.html", "Photography"], ["film.html", "Film and video"], ["painting.html", "Painting"],
     ["graph.html", "Lineage graph"],
   ];

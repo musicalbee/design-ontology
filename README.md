@@ -185,6 +185,7 @@ flowchart LR
     memphis_interior["Memphis interior"]
   end
   subgraph interior_global_minimal["Interior · Global minimal · 1990–2010"]
+    coastal_interior["Coastal interior"]
     minimalist_interior["Minimalist"]
   end
   subgraph interior_networked_home["Interior · Networked home · 2010–present"]
@@ -298,6 +299,7 @@ flowchart LR
   swiss_international --> bento_grid_ui
   international_style_architecture --> brutalist_architecture
   new_colour --> cinematic_teal_orange
+  scandinavian_interior --> coastal_interior
   flat_design --> corporate_memphis
   memphis_design --> corporate_memphis
   cubism_painting --> de_stijl_painting
@@ -419,7 +421,6 @@ flowchart LR
   linkStyle 46 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 47 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 48 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 96 stroke:#E5484D,stroke-width:1.5px
   linkStyle 97 stroke:#E5484D,stroke-width:1.5px
   linkStyle 98 stroke:#E5484D,stroke-width:1.5px
   linkStyle 99 stroke:#E5484D,stroke-width:1.5px
@@ -453,6 +454,7 @@ flowchart LR
   linkStyle 127 stroke:#E5484D,stroke-width:1.5px
   linkStyle 128 stroke:#E5484D,stroke-width:1.5px
   linkStyle 129 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 130 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 

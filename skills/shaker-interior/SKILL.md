@@ -101,6 +101,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | colour-distribution | Paint the plaster white or cream. Give the wood and the painted built-ins the secondary share, and one accent paint to a door or a box. | 70/25/5 |
 | lighting-layers | Light the room by day from two walls of sash windows. After dark, use one low ambient layer and one task lamp at the work table. | 100 lux ambient, 300 lux task, 2700 K |
 | unity-variety | Use one wood species and one woodwork colour per room. The only deviation is the accent paint. | 1 wood, 1 paint, 1 accent |
+| camera-station | Shoot the room level, with a one-point view square to the built-in wall from the door on the centre line. | 35 mm at 150 cm, level |
 
 ## Zoning & circulation
 
@@ -216,6 +217,7 @@ The rules above name these shared principles by id. The definition is the same i
 | `colour-distribution` | Colour distribution | Each colour takes a planned share of the visible area: a dominant colour, a secondary colour and an accent. | dominant / secondary / accent share (% of visible surface): 60/30/10 as the default; 70/25/5 calm; 40/35/25 bold; accents (count): 1 to 3 |
 | `lighting-layers` | Lighting layers | Light comes from separate layers with separate jobs: ambient light for the whole space, task light for work, accent light for the focal point. In photography the same split is key, fill and accent light. | ambient illuminance (lux): 50–300 in a home; task illuminance (lux): 300–750; accent to ambient (ratio): 3:1 to 10:1; correlated colour temperature (kelvin): 2200–4000 in a home; key to fill (ratio): 2:1 to 8:1 in photography |
 | `unity-variety` | Unity and variety | Repeated materials, colours and shapes join the parts into one whole. A small, planned number of deviations keeps the whole alive. | materials or hues that repeat (count): 2 to 4; deliberate deviations (count): 1 to 2 |
+| `camera-station` | Camera station | The position, height, lens and aim of the camera for one view. It sets the perspective of the room in the image: the horizon, the fall of the verticals and the shares of floor, wall and ceiling in the frame. | lens focal length (mm, full-frame equivalent): 24–35; 17–20 only in a room narrower than 2.5 m; camera height (cm above the floor): 100–150; 100–120 for a seated view; vertical convergence (degrees): 0: the camera is level, and lens shift (not tilt) moves the frame; ceiling share of the frame (% of the frame height): 20 or less, unless the ceiling is the subject; object cut by the frame edge (% of the object inside the frame): 66 or more, or the object is out of the frame |
 
 ## Vocabulary primer
 
@@ -240,6 +242,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more minimal**: move toward [`japandi-interior`](../japandi-interior/SKILL.md) (Japandi). Lower the furniture to 38 cm seats, remove the peg rail, and add one stoneware vessel; keep one wood and the bare floor.
 
 - **Led to (go here for a newer version):** [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
+- **Mixes well with:** [`coastal-interior`](../coastal-interior/SKILL.md)
 - **Nearest by vector profile:** [`japandi-interior`](../japandi-interior/SKILL.md), [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
 
 ## Emotional target

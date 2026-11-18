@@ -101,6 +101,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | negative-space | Leave wide floor around the group and bare wall around the one painting. | 55% bare floor, 85% bare wall |
 | circulation | Keep generous routes around the rug and behind the sofa. | 110 cm main, 80 cm secondary |
 | lighting-layers | Wash the walls with a hidden cove, light the art with a picture light, and use a pair of lamps at the sofa; dim all layers. | 150 lux ambient, 400 lux task, accent 5:1, 2700 K |
+| camera-station | Shoot the room level, with a one-point view on the axis from the entrance toward the fireplace. | 35 mm at 130 cm, level |
 
 ## Zoning & circulation
 
@@ -209,6 +210,7 @@ The rules above name these shared principles by id. The definition is the same i
 | `negative-space` | Negative space | The empty area around and between elements. It is a part of the composition, not a remainder. | empty floor area (% of floor): 40–80 in a room; empty wall area (% of wall): 50–95; empty frame area (% of image): 30–70 |
 | `circulation` | Circulation | The routes through a space and the clear widths that they keep free of furniture. | main route clear width (cm): 90–120; secondary route clear width (cm): 60–75; seat edge to low table (cm): 35–50; wheelchair route (cm): 90 or more; 150 turning circle |
 | `lighting-layers` | Lighting layers | Light comes from separate layers with separate jobs: ambient light for the whole space, task light for work, accent light for the focal point. In photography the same split is key, fill and accent light. | ambient illuminance (lux): 50–300 in a home; task illuminance (lux): 300–750; accent to ambient (ratio): 3:1 to 10:1; correlated colour temperature (kelvin): 2200–4000 in a home; key to fill (ratio): 2:1 to 8:1 in photography |
+| `camera-station` | Camera station | The position, height, lens and aim of the camera for one view. It sets the perspective of the room in the image: the horizon, the fall of the verticals and the shares of floor, wall and ceiling in the frame. | lens focal length (mm, full-frame equivalent): 24–35; 17–20 only in a room narrower than 2.5 m; camera height (cm above the floor): 100–150; 100–120 for a seated view; vertical convergence (degrees): 0: the camera is level, and lens shift (not tilt) moves the frame; ceiling share of the frame (% of the frame height): 20 or less, unless the ceiling is the subject; object cut by the frame edge (% of the object inside the frame): 66 or more, or the object is out of the frame |
 
 ## Vocabulary primer
 
