@@ -235,7 +235,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`georgian-interior`](../georgian-interior/SKILL.md)
 - **Led to (go here for a newer version):** [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md)
 - **Was rejected by:** [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md), [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md)
-- **Kin in another domain:** [`pictorialism`](../pictorialism/SKILL.md)
+- **Kin in another domain:** [`pictorialism`](../pictorialism/SKILL.md), [`victorian-trademark`](../victorian-trademark/SKILL.md)
 - **Nearest by vector profile:** [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md), [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md)
 
 ## Emotional target

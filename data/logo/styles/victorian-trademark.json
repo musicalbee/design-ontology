@@ -1,0 +1,216 @@
+{
+  "$schema": "../../../schema/domains/logo.schema.json",
+  "id": "victorian-trademark",
+  "domain": "logo",
+  "name": "Victorian trademark",
+  "aliases": [
+    "Engraved trademark",
+    "Chromolithographic label",
+    "Trade card mark"
+  ],
+  "era_id": "trademark-age",
+  "time_period": {
+    "start": 1860,
+    "end": 1910,
+    "label": "1860–1910"
+  },
+  "region": "Britain and the United States",
+  "summary": "A pictorial trademark from the age of the first trademark registers. A figure, an animal or a scene sits in an oval or a cartouche, with engraved line shading, banners and three or more typefaces on one label.",
+  "philosophy": {
+    "core_thesis": "A mark earns trust when it shows a rich, finished picture and the full name of the maker, so the buyer sees the cost and the care behind the goods.",
+    "design_principles": [
+      "Put a pictorial device at the centre: an animal, a figure or an object, at 50–70% of the label height.",
+      "Close the device in an oval, a circle or a cartouche, with a border band 6–10% of the mark width.",
+      "Shade with engraved hatch lines at 0.3–0.6 mm pitch in print; let 2–4 tones come from line density, not from tint.",
+      "Set the name on an arc or a ribbon banner that follows the frame, in 2–4 typefaces of different classes.",
+      "Fill the corners with scrolls, medals or rules, so that less than 20% of the area stays empty.",
+      "Print in 1–2 inks for an engraving, or in 4–8 flat stones for a chromolithograph."
+    ],
+    "anti_patterns": [
+      "A single flat shape with no picture",
+      "Large empty ground around the device",
+      "One sans-serif typeface for all text",
+      "A mark that must read below 20 mm high",
+      "Gradients made by a screen or by software"
+    ]
+  },
+  "vectors": {
+    "abstraction": 1,
+    "geometry": 2,
+    "ornament": 5,
+    "letter_dominance": 3,
+    "dimensionality": 4
+  },
+  "construction": {
+    "grid": "No modular grid. A central axis and a closed oval or circle set the layout; the banners follow arcs concentric with the frame.",
+    "geometry": "Ovals and circles drawn with a compass for the frame; the picture and the scrolls are freehand.",
+    "stroke_contrast_ratio": 12,
+    "stroke_rule": "Hairlines of about 0.5% of the mark height for hatching; frame rules and the main letter stems at 4–6%.",
+    "symmetry": "Mirror symmetry on the vertical axis for the frame and the banners; the picture inside may be asymmetric.",
+    "detail_floor": "Hatch gaps and hairlines of 0.3–0.5% of the mark height, so the mark needs a large size."
+  },
+  "form": {
+    "mark_type": "emblem",
+    "silhouette": "An oval, a circle or a shield, from 1:1 to 4:3 wide, with ribbons that break out of the frame at the top or the bottom.",
+    "ornament": "Scrolls, laurel, medals, rope borders and cross-hatched shadow, in the corners and around the frame.",
+    "letterforms": "A mix of Didone capitals, slab serifs, Tuscan display letters and script; set on an arc, with tight spacing and shadowed or outlined capitals."
+  },
+  "colour": {
+    "strategy": "Engraving: one dark ink on a cream paper. Chromolithograph: a deep red and a dark blue lead, with gold, cream and black.",
+    "colour_count_min": 1,
+    "colour_count_max": 8,
+    "one_colour_reversal": "with a redraw",
+    "reversal_rule": "A one-colour version keeps the hatch lines but drops the flat colour fields; a reversed version needs heavier hatching, at least 1.5 times the line weight.",
+    "colours": [
+      {
+        "name": "Engraving black",
+        "hex": "#1E1B18",
+        "role": "line work and lettering"
+      },
+      {
+        "name": "Label red",
+        "hex": "#A8262B",
+        "role": "banners and the frame"
+      },
+      {
+        "name": "Deep blue",
+        "hex": "#24395E",
+        "role": "border band"
+      },
+      {
+        "name": "Gold ochre",
+        "hex": "#C49A3A",
+        "role": "medals and rules"
+      },
+      {
+        "name": "Paper cream",
+        "hex": "#F1E6CC",
+        "role": "ground"
+      }
+    ]
+  },
+  "reproduction": {
+    "min_size_px": 128,
+    "min_size_mm": 30,
+    "clear_space_ratio": 0.1,
+    "clear_space": "0.1 × the frame height on each side; the label edge is often the clear space.",
+    "media": "Copperplate and wood engraving, chromolithography on labels, trade cards and tins."
+  },
+  "prompt_primer": {
+    "positive": [
+      "Victorian trademark label",
+      "engraved cross-hatch shading",
+      "oval cartouche frame",
+      "ribbon banners",
+      "pictorial animal device",
+      "chromolithograph colours",
+      "deep red and dark blue with gold",
+      "cream paper ground",
+      "ornate scroll corners",
+      "1880s printed label"
+    ],
+    "negative": [
+      "letters",
+      "text",
+      "words",
+      "slogan",
+      "watermark",
+      "flat vector",
+      "minimal",
+      "gradient mesh"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Mule Ear tobacco label",
+      "kind": "image",
+      "maker": "Hatch Lithographic Company",
+      "year": 1868,
+      "credit": "Library of Congress, Prints and Photographs Division; scan on Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Mule_Ear_(tobacco)_1872_lithograph_art_-_Harris,_Beebe_%26_Cos.,_Quincy,_Ill._-_The_Hatch_LithCo.,_32_%26_34_Vesey_St._N.Y._LCCN96504709_(cropped).jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/1/12/Mule_Ear_%28tobacco%29_1872_lithograph_art_-_Harris%2C_Beebe_%26_Cos.%2C_Quincy%2C_Ill._-_The_Hatch_LithCo.%2C_32_%26_34_Vesey_St._N.Y._LCCN96504709_%28cropped%29.jpg"
+    },
+    {
+      "title": "Trade card with bottle labels",
+      "kind": "image",
+      "year": 1865,
+      "credit": "British Museum, Banks collection; scan on Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Print,_trade-card_(BM_Banks,68.14).jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Print%2C_trade-card_%28BM_Banks%2C68.14%29.jpg/960px-Print%2C_trade-card_%28BM_Banks%2C68.14%29.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "emblem-badge"
+    ],
+    "echoes": [
+      "victorian-web",
+      "victorian-interior"
+    ]
+  },
+  "emotion": {
+    "target_response": "Trust in an old, solid maker: the viewer reads the detail as proof of quality and age.",
+    "keywords": [
+      "established",
+      "ornate",
+      "crafted",
+      "heritage",
+      "lavish"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "victorian logo",
+      "vintage label",
+      "engraved logo",
+      "old trademark",
+      "apothecary label",
+      "heritage mark",
+      "chromolithograph"
+    ],
+    "use_cases": [
+      "heritage food and drink labels",
+      "spirits and tobacco-style packaging",
+      "historical film and game props",
+      "letterpress print work"
+    ],
+    "avoid_when": [
+      "The mark must read as an app icon at 16–48 px.",
+      "The brief asks for a quiet, modern or technical tone."
+    ],
+    "modifiers": [
+      {
+        "request": "simpler",
+        "toward": "emblem-badge",
+        "how": "Keep the closed frame and the banner; drop the hatching and the scenes, and reduce to 2–3 flat colours."
+      },
+      {
+        "request": "more elegant",
+        "toward": "art-nouveau-monogram",
+        "how": "Keep the frame and the ornament; replace the picture with interlaced initials and whiplash curves."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Trade Marks Registration Act 1875",
+      "url": "https://en.wikipedia.org/wiki/Trade_Marks_Registration_Act_1875"
+    },
+    {
+      "title": "Wikipedia: Chromolithography",
+      "url": "https://en.wikipedia.org/wiki/Chromolithography"
+    },
+    {
+      "title": "Wikimedia Commons API: licence read from imageinfo extmetadata, 2026-11",
+      "url": "https://commons.wikimedia.org/w/api.php"
+    }
+  ]
+}

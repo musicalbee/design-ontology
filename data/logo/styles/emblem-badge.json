@@ -1,0 +1,215 @@
+{
+  "$schema": "../../../schema/domains/logo.schema.json",
+  "id": "emblem-badge",
+  "domain": "logo",
+  "name": "Emblem and badge",
+  "aliases": [
+    "Badge logo",
+    "Seal",
+    "Crest mark",
+    "Patch"
+  ],
+  "era_id": "trademark-age",
+  "time_period": {
+    "start": 1900,
+    "end": null,
+    "label": "1900–now"
+  },
+  "region": "Europe and the United States",
+  "summary": "A closed shape, a circle, a shield or a roundel, that holds a symbol and the name on a ring or a band. Agencies, clubs, transport lines and makers use it as a seal of membership or of origin.",
+  "philosophy": {
+    "core_thesis": "A mark that is a closed seal says membership and authority: the frame tells the viewer that everything inside belongs together.",
+    "design_principles": [
+      "Close the mark in one shape: a circle, a shield or a rounded rectangle; the frame is 4–10% of the mark width.",
+      "Set the name on an outer ring of text at 10–14% of the diameter, or on a straight band across the centre.",
+      "Put one central symbol at 40–60% of the inner area: a star, an animal, a tool or a vector arrow.",
+      "Use 2–4 flat colours, and give the outer ring a dark colour that holds the shape on any ground.",
+      "Make the mark work at 32 px as a solid disc with the central symbol, even if the ring text no longer reads.",
+      "Keep the mark symmetric on the vertical axis, except one dynamic element such as a swoosh or an orbit."
+    ],
+    "anti_patterns": [
+      "An open composition with no frame",
+      "Text on the ring smaller than 6% of the diameter",
+      "More than 5 colours",
+      "Two competing symbols inside the frame",
+      "Photographic texture inside the badge"
+    ]
+  },
+  "vectors": {
+    "abstraction": 2,
+    "geometry": 4,
+    "ornament": 3,
+    "letter_dominance": 3,
+    "dimensionality": 2
+  },
+  "construction": {
+    "grid": "Concentric circles: the outer edge, the ring for text and the inner field, at radii of about 100%, 85% and 70%.",
+    "geometry": "Circles and arcs from a compass, straight bands, and stars or shields from regular polygons.",
+    "stroke_contrast_ratio": 1.5,
+    "stroke_rule": "Frame and ring lines at 2–5% of the diameter; symbol strokes at 4–8%.",
+    "symmetry": "Mirror symmetry on the vertical axis; one diagonal element may break it.",
+    "detail_floor": "No gap or stroke under 1.5% of the diameter, so the badge survives embroidery and stamping."
+  },
+  "form": {
+    "mark_type": "emblem",
+    "silhouette": "A circle at 1:1, a shield near 5:6, or a horizontal oval near 4:3.",
+    "ornament": "Stars, laurel, a rope or dot ring, and a banner; flat, with no hatching.",
+    "letterforms": "Bold sans-serif or slab capitals, set on the arc with a tracking of 5–15%; the top text reads clockwise and the bottom text reads anticlockwise."
+  },
+  "colour": {
+    "strategy": "A dark navy or green field, one strong red or gold accent, and white for text and the symbol.",
+    "colour_count_min": 2,
+    "colour_count_max": 4,
+    "one_colour_reversal": "yes",
+    "reversal_rule": "The closed shape reverses as a solid disc; the symbol and the text become knock-outs of the ground.",
+    "colours": [
+      {
+        "name": "Navy",
+        "hex": "#0B3D91",
+        "role": "field"
+      },
+      {
+        "name": "Signal red",
+        "hex": "#FC3D21",
+        "role": "accent, the dynamic element"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "role": "text and symbol"
+      },
+      {
+        "name": "Gold",
+        "hex": "#C9A227",
+        "role": "ring or stars"
+      }
+    ]
+  },
+  "reproduction": {
+    "min_size_px": 32,
+    "min_size_mm": 10,
+    "clear_space_ratio": 0.15,
+    "clear_space": "0.15 × the diameter on each side.",
+    "media": "Embroidered patches, enamel pins, stamps, decals, vehicle livery and screen."
+  },
+  "prompt_primer": {
+    "positive": [
+      "circular emblem",
+      "badge logo",
+      "closed roundel",
+      "central star symbol",
+      "navy field with red accent",
+      "white knock-out",
+      "flat vector",
+      "symmetric seal",
+      "embroidered patch look"
+    ],
+    "negative": [
+      "letters",
+      "text",
+      "words",
+      "slogan",
+      "watermark",
+      "photographic",
+      "gradient",
+      "open composition"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "NASA insignia",
+      "kind": "image",
+      "maker": "James Modarelli",
+      "year": 1959,
+      "credit": "National Aeronautics and Space Administration, a work of the US federal government",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:NASA_logo.svg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/960px-NASA_logo.svg.png"
+    },
+    {
+      "title": "NASA seal",
+      "kind": "image",
+      "year": 1959,
+      "credit": "National Aeronautics and Space Administration, a work of the US federal government",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:NASA_seal.svg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/NASA_seal.svg/960px-NASA_seal.svg.png"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "victorian-trademark"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "victorian-trademark"
+    ],
+    "echoes": [
+      "mid-century-modern",
+      "space-age"
+    ]
+  },
+  "emotion": {
+    "target_response": "Belonging and authority: the viewer sees an official seal and reads the mark as a member, a team or an agency.",
+    "keywords": [
+      "official",
+      "loyal",
+      "sturdy",
+      "collectible",
+      "proud"
+    ],
+    "brand_archetypes": [
+      "hero",
+      "ruler",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "badge logo",
+      "emblem",
+      "seal",
+      "crest",
+      "patch",
+      "roundel",
+      "mission patch",
+      "club logo"
+    ],
+    "use_cases": [
+      "public agencies and clubs",
+      "outdoor and workwear brands",
+      "breweries and coffee roasters",
+      "event and team merchandise"
+    ],
+    "avoid_when": [
+      "The mark must fit a narrow horizontal slot, such as a 6:1 header.",
+      "The brief asks for a light, quiet or luxury tone."
+    ],
+    "modifiers": [
+      {
+        "request": "simpler",
+        "toward": "flat-logo",
+        "how": "Keep the central symbol and the flat colour; drop the ring text and the frame, and let the symbol stand alone."
+      },
+      {
+        "request": "more vintage",
+        "toward": "victorian-trademark",
+        "how": "Keep the closed frame; add engraved hatching, a banner and a second typeface."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: NASA insignia",
+      "url": "https://en.wikipedia.org/wiki/NASA_insignia"
+    },
+    {
+      "title": "Wikipedia: Badge",
+      "url": "https://en.wikipedia.org/wiki/Badge"
+    },
+    {
+      "title": "Wikimedia Commons API: licence read from imageinfo extmetadata, 2026-11",
+      "url": "https://commons.wikimedia.org/w/api.php"
+    }
+  ]
+}

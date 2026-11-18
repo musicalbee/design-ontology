@@ -1,0 +1,226 @@
+{
+  "$schema": "../../../schema/domains/logo.schema.json",
+  "id": "flat-logo",
+  "domain": "logo",
+  "name": "Flat 2010s mark",
+  "aliases": [
+    "Flat logo",
+    "Flat design mark",
+    "Material-era logo"
+  ],
+  "era_id": "screen-identity",
+  "time_period": {
+    "start": 2012,
+    "end": null,
+    "label": "2012–now"
+  },
+  "region": "the United States, worldwide on screens",
+  "summary": "The gloss goes away. A simple symbol or a geometric sans word in 2–4 bright flat colours, with no gradient, no shadow and no bevel, drawn to work as a 24 px app icon first.",
+  "philosophy": {
+    "core_thesis": "On a screen honesty is flat colour: a mark is a set of clean shapes that read at icon size and scale with no loss.",
+    "design_principles": [
+      "Fill each shape with one flat colour; no gradient, no shadow, no highlight.",
+      "Use 2–4 bright colours of the same lightness, side by side, or one colour on white.",
+      "Build the symbol from squares, circles and rounded rectangles on a 24 or 48 unit icon grid.",
+      "Round corners at 8–20% of the shape size, or use none, but use the same rule for every corner.",
+      "Set any letters in a geometric sans with a single-storey a and round dots, at one weight.",
+      "Draw a 24 px icon version first, then scale up; each part must be at least 2 px at 24 px."
+    ],
+    "anti_patterns": [
+      "Gloss, bevel or drop shadow",
+      "Gradients, except as a later trend",
+      "Fine serif or script lettering",
+      "Thin strokes under 1/12 of the icon size",
+      "More than 4 hues"
+    ]
+  },
+  "vectors": {
+    "abstraction": 4,
+    "geometry": 5,
+    "ornament": 1,
+    "letter_dominance": 2,
+    "dimensionality": 1
+  },
+  "construction": {
+    "grid": "A square icon grid of 24 or 48 units with a 2-unit safe area; key shapes fit a circle, a square or a 4:3 rectangle in it.",
+    "geometry": "Circles, squares and rounded rectangles; angles at 0°, 45° and 90°.",
+    "stroke_contrast_ratio": 1,
+    "stroke_rule": "Solid fills; where a stroke is used it is 1/12 of the icon size (2 units on a 24 grid).",
+    "symmetry": "A 2×2 or a radial arrangement is common; colour, not form, breaks the symmetry.",
+    "detail_floor": "No part under 1/12 of the icon height, so the icon reads at 24 px."
+  },
+  "form": {
+    "mark_type": "symbol",
+    "silhouette": "A square at 1:1 for the icon; a wordmark beside it fits a 3:1 to 5:1 bar.",
+    "ornament": "No ornament of any kind.",
+    "letterforms": "A geometric sans, often custom, with circular bowls, a single-storey a or g and a weight near regular to medium."
+  },
+  "colour": {
+    "strategy": "Primary-bright hues of near-equal lightness, each in its own shape, on white or on a dark ground.",
+    "colour_count_min": 1,
+    "colour_count_max": 4,
+    "one_colour_reversal": "yes",
+    "reversal_rule": "Each shape becomes white on one dark ground; the gaps between the shapes keep the form.",
+    "colours": [
+      {
+        "name": "Blue",
+        "hex": "#4285F4",
+        "role": "lead hue"
+      },
+      {
+        "name": "Red",
+        "hex": "#EA4335",
+        "role": "second hue"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FBBC05",
+        "role": "third hue"
+      },
+      {
+        "name": "Green",
+        "hex": "#34A853",
+        "role": "fourth hue"
+      },
+      {
+        "name": "Orange red",
+        "hex": "#F25022",
+        "role": "alternative hue"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "role": "ground"
+      }
+    ]
+  },
+  "reproduction": {
+    "min_size_px": 16,
+    "min_size_mm": 5,
+    "clear_space_ratio": 0.25,
+    "clear_space": "A quarter of the symbol height on each side; on an icon, the safe area of the grid.",
+    "media": "Screens first: app icons, favicons, UI; then print and signs."
+  },
+  "prompt_primer": {
+    "positive": [
+      "flat design logo symbol",
+      "solid flat colours",
+      "four bright hues",
+      "squares and circles",
+      "white ground",
+      "app icon style",
+      "no gradient",
+      "crisp vector shapes",
+      "2010s tech mark"
+    ],
+    "negative": [
+      "letters",
+      "text",
+      "words",
+      "slogan",
+      "watermark",
+      "gradient",
+      "gloss",
+      "drop shadow",
+      "bevel",
+      "3D"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Microsoft logo, 2012",
+      "kind": "image",
+      "year": 2012,
+      "credit": "Microsoft Corporation; file on Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Microsoft_logo_(2012).svg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/960px-Microsoft_logo_%282012%29.svg.png"
+    },
+    {
+      "title": "Google logotype, 2015",
+      "kind": "image",
+      "year": 2015,
+      "credit": "Google LLC; file on Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Google_2015_logo.svg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/960px-Google_2015_logo.svg.png"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "geometric-symbol"
+    ],
+    "rebelled_against": [
+      "glossy-3d-logo"
+    ],
+    "hybridized_with": [
+      "minimal-wordmark"
+    ],
+    "echoes": [
+      "flat-design",
+      "metro-ui",
+      "material-design"
+    ]
+  },
+  "emotion": {
+    "target_response": "Friendly clarity: the viewer sees bright, simple shapes and feels a tool that is easy and open.",
+    "keywords": [
+      "friendly",
+      "clear",
+      "bright",
+      "simple",
+      "digital"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "creator",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "flat logo",
+      "flat design",
+      "app icon logo",
+      "material design logo",
+      "colourful simple logo",
+      "tech logo"
+    ],
+    "use_cases": [
+      "apps and software products",
+      "start-ups and platforms",
+      "favicons and app icons",
+      "digital services"
+    ],
+    "avoid_when": [
+      "The brief asks for heritage, luxury or craft.",
+      "The brand must look different from software brands."
+    ],
+    "modifiers": [
+      {
+        "request": "more depth",
+        "toward": "glossy-3d-logo",
+        "how": "Keep the shapes and the hues; add a top-lit gradient and a soft shadow under the mark."
+      },
+      {
+        "request": "more serious",
+        "toward": "swiss-modernist-mark",
+        "how": "Keep the grid; reduce to one colour and black, and replace rounded corners with square ones."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Flat design",
+      "url": "https://en.wikipedia.org/wiki/Flat_design"
+    },
+    {
+      "title": "Wikipedia: Logo",
+      "url": "https://en.wikipedia.org/wiki/Logo"
+    },
+    {
+      "title": "Wikimedia Commons API: licence read from imageinfo extmetadata, 2026-11",
+      "url": "https://commons.wikimedia.org/w/api.php"
+    }
+  ]
+}
