@@ -184,7 +184,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more everyday**: move toward [`creator-vlog`](../creator-vlog/SKILL.md) (Creator vlog). Keep the handheld camera and the room tone; address the lens, shoot 16:9 and allow cuts to remove every pause.
 
 - **Rejects (the opposite pole; do not blend):** [`french-new-wave`](../french-new-wave/SKILL.md)
-- **Was rejected by:** [`camcorder-revival`](../camcorder-revival/SKILL.md)
+- **Mixes well with:** [`camcorder-revival`](../camcorder-revival/SKILL.md)
 - **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md)
 - **Nearest by vector profile:** [`french-new-wave`](../french-new-wave/SKILL.md), [`creator-vlog`](../creator-vlog/SKILL.md), [`camcorder-revival`](../camcorder-revival/SKILL.md)
 

@@ -176,7 +176,6 @@ flowchart LR
   glassmorphism --> spatial_visionos
   bauhaus --> swiss_international
   creator_vlog --> vertical_short_form
-  camcorder_revival -. rejects .-> dogme_95
   dogme_95 -. rejects .-> french_new_wave
   flat_design -. rejects .-> skeuomorphism
   grunge_editorial -. rejects .-> swiss_international
@@ -201,7 +200,6 @@ flowchart LR
   linkStyle 28 stroke:#E5484D,stroke-width:1.5px
   linkStyle 29 stroke:#E5484D,stroke-width:1.5px
   linkStyle 30 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 31 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 
