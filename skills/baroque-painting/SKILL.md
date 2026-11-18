@@ -172,6 +172,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **lighter and looser**: move toward [`impressionism`](../impressionism/SKILL.md) (Impressionism). Keep the visible stroke and the observed light; raise the ground to a light value and move the shadows to cool violet.
 
 - **Came from (go here for a more orthodox version):** [`renaissance-painting`](../renaissance-painting/SKILL.md)
+- **Kin in another domain:** [`film-noir-still`](../film-noir-still/SKILL.md), [`food-photography`](../food-photography/SKILL.md)
 - **Nearest by vector profile:** [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`renaissance-painting`](../renaissance-painting/SKILL.md), [`impressionism`](../impressionism/SKILL.md)
 
 ## Emotional target

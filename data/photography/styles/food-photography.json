@@ -1,0 +1,267 @@
+{
+  "$schema": "../../../schema/domains/photography.schema.json",
+  "id": "food-photography",
+  "name": "Food photography",
+  "aliases": [
+    "Editorial food",
+    "Dark and moody food"
+  ],
+  "era_id": "commercial-and-staged",
+  "time_period": {
+    "start": 1950,
+    "end": null,
+    "label": "1950s–today"
+  },
+  "process": [
+    "digital",
+    "analogue-colour"
+  ],
+  "summary": "Photographs of dishes made to look edible and honest. A window, a small set and a short lens give shape, steam and texture, and a few props tell where the meal sits.",
+  "philosophy": {
+    "core_thesis": "Food is a sensation, so the picture shows texture, steam and light before it shows the plate.",
+    "design_principles": [
+      "Use a 50mm to 105mm macro lens at f/2.8 to f/5.6, with a shallow plane that falls on the front edge of the dish.",
+      "Light from the side or behind with one window or a 60cm soft box at 90° to the lens axis; fill with a white card at 1 stop under.",
+      "Shoot at 30° to 45° above the plate for a plated dish, or at 90° for a flat lay.",
+      "Put 3 to 5 props in the frame, and cut the dish by 10–20% at an edge.",
+      "Keep a warm, natural colour at 5000–5600K; protect reds and greens.",
+      "Shoot each dish within 5 minutes of plating, and use a stand-in for the first test frames."
+    ],
+    "anti_patterns": [
+      "Flash on the front of the dish",
+      "Cold blue casts that kill appetite",
+      "Too many props that hide the dish",
+      "Dry food with no sheen or steam",
+      "Greasy retouch and over-sharpening",
+      "Plastic or inedible-looking fake food that is claimed as real"
+    ]
+  },
+  "vectors": {
+    "staging": 4,
+    "tonal_contrast": 3,
+    "colour_saturation": 4,
+    "depth_of_field": 4,
+    "proximity": 4
+  },
+  "composition": {
+    "framing": "Close and tight; the plate is cropped by 10–20% at one edge.",
+    "viewpoint": "30° to 45° above the plate; 90° for flat lays; 0° for tall burgers and cakes.",
+    "geometry": "Triangles of plate, glass and prop; diagonal leaning lines of cutlery or a napkin.",
+    "subject_placement": "Hero dish on a third, with a lesser prop on the opposite third and a soft background.",
+    "principles": [
+      {
+        "principle": "focal-point",
+        "rule": "Let the hero dish take 40–60% of the frame, with the sharpest plane on its front edge."
+      },
+      {
+        "principle": "rule-of-thirds",
+        "rule": "Put the hero within 0.05 of 0.33 or 0.67 of the width."
+      },
+      {
+        "principle": "hierarchy",
+        "rule": "Rank 1 hero, 2 to 3 supporting props and 1 to 2 background items; the hero has the highest contrast and the sharpest plane."
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Use 3 planes: a blurred foreground prop at 0.1m, the dish at 0.5m and a soft background at 1.5m."
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Set 60% in neutral surface, 30% in the food hue and 10% in a garnish accent."
+      }
+    ]
+  },
+  "light": {
+    "quality": "Soft, directional window light, with a small soft box as a stand-in.",
+    "direction": "Side or back-side at 90° to 135° from the lens axis; a white card fills the front.",
+    "key_to_fill_ratio": "3:1 to 4:1 (1.5–2 stops)",
+    "colour_temperature": "5000–5600K, warm daylight",
+    "time_of_day": "Late morning or early afternoon at a north window"
+  },
+  "lens_and_camera": {
+    "format": "Digital full frame; macro or short tele",
+    "focal_length": "50mm to 105mm (macro)",
+    "aperture": "f/2.8 to f/5.6 (f/8 for flat lays)",
+    "shutter": "1/60s to 1/250s",
+    "film_speed": "ISO 100 to 400",
+    "focus": "Focus on the nearest edge of the hero; the plane falls off in 2cm.",
+    "support": "Tripod with a side arm for flat lays",
+    "equipment": [
+      "macro lens",
+      "tripod with side arm",
+      "white and black cards",
+      "tweezers and spray bottle",
+      "cutlery and a napkin",
+      "backdrop boards"
+    ]
+  },
+  "colour_and_grade": {
+    "treatment": "Warm, natural colour with a rich red and green and a slight lift in the highlights.",
+    "palette": [
+      {
+        "name": "Dark board",
+        "hex": "#2B2523",
+        "role": "backdrop"
+      },
+      {
+        "name": "Crust gold",
+        "hex": "#C98B43",
+        "role": "food highlight"
+      },
+      {
+        "name": "Herb green",
+        "hex": "#4F7A3B",
+        "role": "garnish"
+      },
+      {
+        "name": "Tomato red",
+        "hex": "#B2362A",
+        "role": "accent"
+      },
+      {
+        "name": "Linen cream",
+        "hex": "#E8DFCC",
+        "role": "cloth and plate"
+      }
+    ],
+    "grade_recipe": [
+      "Set the white balance at 5200K, tint +2.",
+      "Set the black point at 3% and the white point at 97%.",
+      "Apply +15% midtone contrast and +10% clarity on texture.",
+      "Lift red and orange saturation by +10% and keep skin-like tones natural.",
+      "Add a soft glow (−10 clarity) to steam and glaze.",
+      "Sharpen at radius 0.6px, amount 60%, with a mask on the hero."
+    ],
+    "grain": "Low: ISO 100, clean, with a faint 5% grain for a filmic look"
+  },
+  "subject_and_staging": {
+    "subjects": [
+      "plated dishes",
+      "baked goods",
+      "fresh produce",
+      "drinks with ice",
+      "hands pouring or cutting",
+      "a laid table"
+    ],
+    "staging": "Full. A food stylist cooks and plates; a prop stylist chooses the board, the cloth and the cutlery.",
+    "direction": "Add motion: pour, tear, dust or drip; shoot 3 to 5 frames at the peak of steam."
+  },
+  "post_processing": {
+    "workflow": [
+      "Shoot tethered and check the steam and sheen at 100%.",
+      "Stack 2 or 3 focus frames for depth only when needed.",
+      "Clean crumbs and spills; keep the real texture.",
+      "Export at 4:5 and 16:9, sRGB, 2400px on the long edge."
+    ],
+    "output": "A warm, tactile image for a menu, a cookbook or an ad."
+  },
+  "prompt_primer": {
+    "positive": [
+      "food photography",
+      "side window light",
+      "macro 100mm",
+      "shallow depth of field",
+      "steam rising",
+      "warm natural colour",
+      "wooden board",
+      "linen napkin",
+      "30 degree angle",
+      "editorial food"
+    ],
+    "negative": [
+      "flash",
+      "blue cast",
+      "greasy",
+      "flat lighting",
+      "plastic look",
+      "clutter",
+      "overprocessed"
+    ],
+    "canonical_works": [
+      {
+        "work": "Pepper No. 30",
+        "maker": "Edward Weston",
+        "year": 1930
+      },
+      {
+        "work": "Cabbage Leaf",
+        "maker": "Edward Weston",
+        "year": 1931
+      },
+      {
+        "work": "Frozen Foods, New York",
+        "maker": "Irving Penn",
+        "year": 1977
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "straight-photography"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "fashion-editorial"
+    ],
+    "echoes": [
+      "baroque-painting",
+      "dopamine-decor"
+    ]
+  },
+  "emotion": {
+    "target_response": "Appetite and comfort: the viewer wants to eat and to sit at that table.",
+    "keywords": [
+      "appetising",
+      "warm",
+      "tactile",
+      "fresh",
+      "close"
+    ],
+    "brand_archetypes": [
+      "caregiver",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "food photography",
+      "flat lay",
+      "moody food",
+      "cookbook photo",
+      "recipe image",
+      "menu shot",
+      "steam and sheen"
+    ],
+    "use_cases": [
+      "menus and delivery apps",
+      "cookbooks and food magazines",
+      "brand campaigns for drinks and snacks",
+      "image prompts for plated dishes"
+    ],
+    "avoid_when": [
+      "The brief needs a clinical, nutritional catalogue image.",
+      "The food cannot be styled within 5 minutes of plating."
+    ],
+    "modifiers": [
+      {
+        "request": "more raw and real",
+        "toward": "documentary-photography",
+        "how": "Shoot the cook at work in the kitchen with a 35mm lens at f/4, available light and the real mess; keep the hands."
+      },
+      {
+        "request": "lighter and more airy",
+        "toward": "scandinavian-interior-photography",
+        "how": "Use a white backdrop, a diffused window at 2:1 and f/8; reduce saturation by −12% and keep a pale wood board."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Francisco de Zurbarán, Still Life with Lemons, Oranges and a Rose (1633), Norton Simon Museum"
+    },
+    {
+      "title": "Helene Dujardin, Plate to Pixel: Digital Food Photography & Styling (Wiley, 2010)"
+    }
+  ],
+  "domain": "photography"
+}

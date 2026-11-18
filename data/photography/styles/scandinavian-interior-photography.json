@@ -1,0 +1,264 @@
+{
+  "$schema": "../../../schema/domains/photography.schema.json",
+  "id": "scandinavian-interior-photography",
+  "name": "Scandinavian interior photography",
+  "aliases": [
+    "Nordic home editorial",
+    "Soft daylight interior"
+  ],
+  "era_id": "commercial-and-staged",
+  "time_period": {
+    "start": 2005,
+    "end": null,
+    "label": "2005–today"
+  },
+  "process": [
+    "digital"
+  ],
+  "summary": "Calm, bright pictures of rooms: pale wood, white walls, a window and a few objects. The light is soft, the lines are straight and the space is allowed to breathe.",
+  "philosophy": {
+    "core_thesis": "A room looks livable when the light is honest and the objects are few, so the picture shows the light first.",
+    "design_principles": [
+      "Shoot with a tilt-shift or a 24mm to 35mm lens at f/8 to f/11, with the camera level at 1.0m to 1.2m high.",
+      "Use window light only: turn off lamps, and add a white 1.2m reflector on the shadow side.",
+      "Keep a key-to-fill ratio of 2:1 to 3:1, so that shadows stay soft and open.",
+      "Correct all verticals to 0° and hold the horizon at 0°.",
+      "Set 3 to 5 objects in the room; leave 40–60% of the frame as wall, floor or air.",
+      "Grade to cool daylight, 5500–6000K, and a low saturation of −10 to −20% in a palette of white, pale wood and one green."
+    ],
+    "anti_patterns": [
+      "Overhead lamps, flash or mixed colour casts",
+      "Converging verticals from a tilted camera",
+      "Cluttered shelves and busy patterns",
+      "Heavy HDR with glowing windows",
+      "Saturated, warm yellow grades",
+      "Wide-angle stretch below 20mm"
+    ]
+  },
+  "vectors": {
+    "staging": 4,
+    "tonal_contrast": 2,
+    "colour_saturation": 2,
+    "depth_of_field": 1,
+    "proximity": 2
+  },
+  "composition": {
+    "framing": "Square-on or a soft corner view; the room reads as a calm box.",
+    "viewpoint": "Level at 1.0m to 1.2m high, 3 to 6m from the far wall.",
+    "geometry": "Horizontal planes and vertical edges; a window and a table form a quiet grid.",
+    "subject_placement": "Centred on a wall or off-centre on a third, with 40–60% as open space.",
+    "principles": [
+      {
+        "principle": "negative-space",
+        "rule": "Leave 40–60% of the frame as wall, floor or air."
+      },
+      {
+        "principle": "balance",
+        "rule": "Hold a visual weight ratio of 0.8–1.25 between the window side and the furniture side."
+      },
+      {
+        "principle": "rule-of-thirds",
+        "rule": "Set the main object within 0.05 of 0.33 or 0.67 of the width."
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Use 2 layers: window key and a white bounce at 1 stop under it."
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Set 70% in white and pale wood, 20% in grey-blue and 10% in one green accent."
+      }
+    ]
+  },
+  "light": {
+    "quality": "Soft and even window daylight with a white bounce.",
+    "direction": "From the side window at 90° to the lens; a reflector fills the opposite side.",
+    "key_to_fill_ratio": "2:1 to 3:1 (1–1.5 stops)",
+    "colour_temperature": "5500–6000K (cool daylight)",
+    "time_of_day": "Overcast morning, or midday with a diffuser at the window"
+  },
+  "lens_and_camera": {
+    "format": "Digital full frame or medium format; tilt-shift lens for vertical control",
+    "focal_length": "24mm to 35mm (tilt-shift 24mm preferred)",
+    "aperture": "f/8 to f/11",
+    "shutter": "1/15s to 1s",
+    "film_speed": "ISO 100",
+    "focus": "Focus one third into the room; the depth of field covers 1m to infinity.",
+    "support": "Tripod, with a level on the hot shoe",
+    "equipment": [
+      "tilt-shift 24mm lens",
+      "sturdy tripod",
+      "1.2m white reflector",
+      "diffuser for the window",
+      "spirit level"
+    ]
+  },
+  "colour_and_grade": {
+    "treatment": "Soft, cool daylight colour with lowered saturation and open shadows.",
+    "palette": [
+      {
+        "name": "Wall white",
+        "hex": "#F2F1ED",
+        "role": "walls"
+      },
+      {
+        "name": "Birch",
+        "hex": "#D8C4A3",
+        "role": "wood"
+      },
+      {
+        "name": "Linen grey",
+        "hex": "#B9B7B0",
+        "role": "textiles"
+      },
+      {
+        "name": "Pine green",
+        "hex": "#5E7260",
+        "role": "plant accent"
+      }
+    ],
+    "grade_recipe": [
+      "Set the white balance at 5800K, tint 0.",
+      "Raise shadows by +25 and lower highlights by −20.",
+      "Reduce saturation by −12% and warm tones by −5%.",
+      "Add +10% clarity on wood grain only.",
+      "Correct verticals to 0° and horizon to 0°.",
+      "Add no grain and no vignette."
+    ],
+    "grain": "None: clean, with a low noise floor at ISO 100"
+  },
+  "subject_and_staging": {
+    "subjects": [
+      "living rooms",
+      "dining nooks",
+      "kitchens with wood and white",
+      "bedrooms with linen",
+      "a window with a plant",
+      "chairs and a table"
+    ],
+    "staging": "Styled: remove clutter, set 3 to 5 objects, add a plant, a throw and a ceramic; steam the linen.",
+    "direction": "Check every line in live view; adjust objects in steps of 2cm."
+  },
+  "post_processing": {
+    "workflow": [
+      "Shoot a 3-frame bracket at ±1 stop for window detail.",
+      "Blend by hand for windows; no automatic HDR.",
+      "Correct verticals and colour casts.",
+      "Export at 4:5 or 3:2 sRGB, 2400px on the long edge."
+    ],
+    "output": "A bright, quiet room image for a magazine page, a brand site or a catalogue."
+  },
+  "prompt_primer": {
+    "positive": [
+      "Scandinavian interior photograph",
+      "soft window daylight",
+      "white walls and pale wood",
+      "tilt-shift 24mm",
+      "level verticals",
+      "minimal styling",
+      "calm and airy",
+      "muted palette",
+      "white reflector fill",
+      "negative space"
+    ],
+    "negative": [
+      "flash",
+      "HDR glow",
+      "converging verticals",
+      "clutter",
+      "orange cast",
+      "saturated colour",
+      "wide-angle distortion"
+    ],
+    "canonical_works": [
+      {
+        "work": "Case Study House #22 (Stahl House)",
+        "maker": "Julius Shulman",
+        "year": 1960
+      },
+      {
+        "work": "Solomon R. Guggenheim Museum",
+        "maker": "Ezra Stoller",
+        "year": 1959
+      },
+      {
+        "work": "Seagram Building",
+        "maker": "Ezra Stoller",
+        "year": 1958
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "new-objectivity"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "fashion-editorial"
+    ],
+    "echoes": [
+      "scandinavian-interior",
+      "japandi-interior"
+    ]
+  },
+  "emotion": {
+    "target_response": "Calm and comfort: the viewer feels able to breathe and live in the room.",
+    "keywords": [
+      "calm",
+      "bright",
+      "airy",
+      "pale",
+      "honest"
+    ],
+    "brand_archetypes": [
+      "innocent",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "scandinavian interior photo",
+      "nordic home photograph",
+      "soft daylight interior",
+      "airy room",
+      "kinfolk look",
+      "tilt-shift interior",
+      "real estate editorial"
+    ],
+    "use_cases": [
+      "furniture and homeware catalogues",
+      "interior magazines",
+      "property marketing with a calm look",
+      "image prompts for bright rooms"
+    ],
+    "avoid_when": [
+      "The brief needs drama, deep colour or night mood.",
+      "The room is cluttered and must stay as it is."
+    ],
+    "modifiers": [
+      {
+        "request": "more polished and glamorous",
+        "toward": "fashion-editorial",
+        "how": "Add a large soft box at 4:1 from the window side, use a coloured sweep and place a model in the room at f/5.6."
+      },
+      {
+        "request": "more severe",
+        "toward": "new-objectivity",
+        "how": "Remove all soft styling, use f/32 on a view camera, and show the room as a frontal plate in black and white."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q635309: architectural photography",
+      "url": "https://www.wikidata.org/wiki/Q635309"
+    },
+    {
+      "title": "Vilhelm Hammershøi, Interior with Young Woman from Behind (1904)"
+    },
+    {
+      "title": "Julius Shulman, Photographing Architecture and Interiors (Whitney Library of Design, 1962)"
+    }
+  ],
+  "domain": "photography"
+}

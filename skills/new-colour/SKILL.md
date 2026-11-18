@@ -79,6 +79,15 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Geometry:** Colour blocks and horizon lines; a single diagonal of a car or a cable.
 - **Subject placement:** Off centre, with a colour mass of 30–40% of the frame as a counterweight.
 
+**Principles**
+
+| Principle | Rule |
+|---|---|
+| colour-distribution | Set 60% in one dominant hue, 30% in its neighbour and 10% in an accent, with 3 to 4 hues in all. |
+| rule-of-thirds | Put the subject within 0.05 of 0.33 or 0.67 of the width. |
+| framing | Crop the subject by 5–10% at one edge. |
+| layering-depth | Use 2 planes only: a near object at 1–3m and a flat background at 6m or more. |
+
 ## Light
 
 - **Quality:** Found light, as it is: hard sun or the flat light of a shop and a kitchen.
@@ -148,6 +157,17 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | Beverly Boulevard and La Brea Avenue, Los Angeles, California | Stephen Shore | 1975 |
 | Cape Light | Joel Meyerowitz | 1978 |
 
+## Composition principles
+
+The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
+
+| Id | Principle | Definition | Measure: typical range |
+|---|---|---|---|
+| `colour-distribution` | Colour distribution | Each colour takes a planned share of the visible area: a dominant colour, a secondary colour and an accent. | dominant / secondary / accent share (% of visible surface): 60/30/10 as the default; 70/25/5 calm; 40/35/25 bold; accents (count): 1 to 3 |
+| `rule-of-thirds` | Rule of thirds | Two horizontal and two vertical lines divide the view into nine equal parts. The focal point sits on one of the four crossings, and a horizon sits on one of the two horizontal lines. | focal point position (fraction of width and height): 0.33 or 0.67, tolerance 0.05; horizon position (fraction of height): 0.33 or 0.67 |
+| `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | frame area (% of the view): 10–35; frame planes (count): 1 to 2 |
+| `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -156,9 +176,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more cinematic**: move toward [`cinematic-teal-orange`](../cinematic-teal-orange/SKILL.md) (Cinematic teal and orange). Light and stage the scene, then grade shadows to teal and skin to orange; drop the casual composition.
 
 - **Came from (go here for a more orthodox version):** [`street-photography`](../street-photography/SKILL.md)
-- **Led to (go here for a newer version):** [`cinematic-teal-orange`](../cinematic-teal-orange/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
-- **Mixes well with:** [`new-topographics`](../new-topographics/SKILL.md)
-- **Nearest by vector profile:** [`y2k-digicam`](../y2k-digicam/SKILL.md), [`party-flash`](../party-flash/SKILL.md), [`street-photography`](../street-photography/SKILL.md)
+- **Led to (go here for a newer version):** [`cinematic-teal-orange`](../cinematic-teal-orange/SKILL.md), [`film-grain-revival`](../film-grain-revival/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
+- **Mixes well with:** [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md)
+- **Nearest by vector profile:** [`film-grain-revival`](../film-grain-revival/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md), [`documentary-photography`](../documentary-photography/SKILL.md)
 
 ## Emotional target
 

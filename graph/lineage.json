@@ -736,6 +736,21 @@
       }
     },
     {
+      "id": "new-objectivity",
+      "domain": "photography",
+      "name": "New Objectivity photography",
+      "era": "documentary-century",
+      "start": 1920,
+      "end": 1935,
+      "vectors": {
+        "staging": 2,
+        "tonal_contrast": 3,
+        "colour_saturation": 1,
+        "depth_of_field": 1,
+        "proximity": 5
+      }
+    },
+    {
       "id": "street-photography",
       "domain": "photography",
       "name": "Street photography",
@@ -746,6 +761,21 @@
         "staging": 1,
         "tonal_contrast": 4,
         "colour_saturation": 1,
+        "depth_of_field": 2,
+        "proximity": 4
+      }
+    },
+    {
+      "id": "documentary-photography",
+      "domain": "photography",
+      "name": "Documentary photography",
+      "era": "documentary-century",
+      "start": 1936,
+      "end": null,
+      "vectors": {
+        "staging": 1,
+        "tonal_contrast": 3,
+        "colour_saturation": 2,
         "depth_of_field": 2,
         "proximity": 4
       }
@@ -776,6 +806,21 @@
         "staging": 2,
         "tonal_contrast": 2,
         "colour_saturation": 1,
+        "depth_of_field": 1,
+        "proximity": 1
+      }
+    },
+    {
+      "id": "duesseldorf-school",
+      "domain": "photography",
+      "name": "Düsseldorf School",
+      "era": "colour-and-topography",
+      "start": 1976,
+      "end": null,
+      "vectors": {
+        "staging": 3,
+        "tonal_contrast": 2,
+        "colour_saturation": 3,
         "depth_of_field": 1,
         "proximity": 1
       }
@@ -823,6 +868,81 @@
         "colour_saturation": 3,
         "depth_of_field": 2,
         "proximity": 4
+      }
+    },
+    {
+      "id": "film-grain-revival",
+      "domain": "photography",
+      "name": "Film grain revival",
+      "era": "digital-and-grade",
+      "start": 2015,
+      "end": null,
+      "vectors": {
+        "staging": 2,
+        "tonal_contrast": 3,
+        "colour_saturation": 3,
+        "depth_of_field": 3,
+        "proximity": 3
+      }
+    },
+    {
+      "id": "fashion-editorial",
+      "domain": "photography",
+      "name": "Fashion editorial photography",
+      "era": "commercial-and-staged",
+      "start": 1930,
+      "end": null,
+      "vectors": {
+        "staging": 5,
+        "tonal_contrast": 4,
+        "colour_saturation": 4,
+        "depth_of_field": 3,
+        "proximity": 3
+      }
+    },
+    {
+      "id": "film-noir-still",
+      "domain": "photography",
+      "name": "Film noir still photography",
+      "era": "commercial-and-staged",
+      "start": 1941,
+      "end": null,
+      "vectors": {
+        "staging": 5,
+        "tonal_contrast": 5,
+        "colour_saturation": 1,
+        "depth_of_field": 3,
+        "proximity": 3
+      }
+    },
+    {
+      "id": "food-photography",
+      "domain": "photography",
+      "name": "Food photography",
+      "era": "commercial-and-staged",
+      "start": 1950,
+      "end": null,
+      "vectors": {
+        "staging": 4,
+        "tonal_contrast": 3,
+        "colour_saturation": 4,
+        "depth_of_field": 4,
+        "proximity": 4
+      }
+    },
+    {
+      "id": "scandinavian-interior-photography",
+      "domain": "photography",
+      "name": "Scandinavian interior photography",
+      "era": "commercial-and-staged",
+      "start": 2005,
+      "end": null,
+      "vectors": {
+        "staging": 4,
+        "tonal_contrast": 2,
+        "colour_saturation": 2,
+        "depth_of_field": 1,
+        "proximity": 2
       }
     },
     {
@@ -1073,6 +1193,16 @@
       "type": "ECHOES"
     },
     {
+      "from": "baroque-painting",
+      "to": "film-noir-still",
+      "type": "ECHOES"
+    },
+    {
+      "from": "baroque-painting",
+      "to": "food-photography",
+      "type": "ECHOES"
+    },
+    {
       "from": "bauhaus",
       "to": "bauhaus-architecture",
       "type": "ECHOES"
@@ -1093,6 +1223,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "bauhaus-architecture",
+      "to": "new-objectivity",
+      "type": "ECHOES"
+    },
+    {
       "from": "bauhaus-interior",
       "to": "international-style-architecture",
       "type": "ECHOES"
@@ -1109,6 +1244,11 @@
     },
     {
       "from": "brutalist-architecture",
+      "to": "duesseldorf-school",
+      "type": "ECHOES"
+    },
+    {
+      "from": "brutalist-architecture",
       "to": "neo-brutalism-ui",
       "type": "ECHOES"
     },
@@ -1119,12 +1259,27 @@
     },
     {
       "from": "camcorder-revival",
+      "to": "film-grain-revival",
+      "type": "ECHOES"
+    },
+    {
+      "from": "camcorder-revival",
       "to": "grunge-editorial",
       "type": "ECHOES"
     },
     {
       "from": "camcorder-revival",
+      "to": "party-flash",
+      "type": "ECHOES"
+    },
+    {
+      "from": "camcorder-revival",
       "to": "y2k-aesthetic",
+      "type": "ECHOES"
+    },
+    {
+      "from": "camcorder-revival",
+      "to": "y2k-digicam",
       "type": "ECHOES"
     },
     {
@@ -1148,13 +1303,58 @@
       "type": "ECHOES"
     },
     {
+      "from": "documentary-photography",
+      "to": "dogme-95",
+      "type": "ECHOES"
+    },
+    {
+      "from": "dopamine-decor",
+      "to": "food-photography",
+      "type": "ECHOES"
+    },
+    {
       "from": "dopamine-decor",
       "to": "memphis-design",
       "type": "ECHOES"
     },
     {
+      "from": "duesseldorf-school",
+      "to": "international-style-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "fashion-editorial",
+      "to": "grunge-editorial",
+      "type": "ECHOES"
+    },
+    {
+      "from": "fashion-editorial",
+      "to": "quiet-luxury-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "film-grain-revival",
+      "to": "impressionism",
+      "type": "ECHOES"
+    },
+    {
+      "from": "film-noir-still",
+      "to": "german-expressionist-cinema",
+      "type": "ECHOES"
+    },
+    {
       "from": "flat-design",
       "to": "ukiyo-e",
+      "type": "ECHOES"
+    },
+    {
+      "from": "french-new-wave",
+      "to": "street-photography",
+      "type": "ECHOES"
+    },
+    {
+      "from": "german-expressionist-cinema",
+      "to": "new-objectivity",
       "type": "ECHOES"
     },
     {
@@ -1165,6 +1365,11 @@
     {
       "from": "grunge-editorial",
       "to": "street-photography",
+      "type": "ECHOES"
+    },
+    {
+      "from": "impressionism",
+      "to": "pictorialism",
       "type": "ECHOES"
     },
     {
@@ -1193,6 +1398,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "japandi-interior",
+      "to": "scandinavian-interior-photography",
+      "type": "ECHOES"
+    },
+    {
       "from": "memphis-design",
       "to": "memphis-interior",
       "type": "ECHOES"
@@ -1215,6 +1425,11 @@
     {
       "from": "party-flash",
       "to": "y2k-aesthetic",
+      "type": "ECHOES"
+    },
+    {
+      "from": "scandinavian-interior",
+      "to": "scandinavian-interior-photography",
       "type": "ECHOES"
     },
     {
@@ -1278,13 +1493,58 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "documentary-photography",
+      "to": "straight-photography",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "dopamine-decor",
       "to": "memphis-interior",
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "duesseldorf-school",
+      "to": "new-objectivity",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "duesseldorf-school",
+      "to": "new-topographics",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "fashion-editorial",
+      "to": "pictorialism",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "fashion-editorial",
+      "to": "straight-photography",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "film-grain-revival",
+      "to": "new-colour",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "film-grain-revival",
+      "to": "street-photography",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "film-noir-still",
+      "to": "straight-photography",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "flat-design",
       "to": "swiss-international",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "food-photography",
+      "to": "straight-photography",
       "type": "EVOLVED_FROM"
     },
     {
@@ -1348,6 +1608,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "new-objectivity",
+      "to": "straight-photography",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "new-topographics",
       "to": "straight-photography",
       "type": "EVOLVED_FROM"
@@ -1380,6 +1645,11 @@
     {
       "from": "scandinavian-interior",
       "to": "shaker-interior",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "scandinavian-interior-photography",
+      "to": "new-objectivity",
       "type": "EVOLVED_FROM"
     },
     {
@@ -1490,6 +1760,41 @@
     {
       "from": "deconstructivist-architecture",
       "to": "high-tech-architecture",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "documentary-photography",
+      "to": "street-photography",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "duesseldorf-school",
+      "to": "new-colour",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "fashion-editorial",
+      "to": "film-noir-still",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "fashion-editorial",
+      "to": "food-photography",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "fashion-editorial",
+      "to": "scandinavian-interior-photography",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "film-grain-revival",
+      "to": "party-flash",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "film-noir-still",
+      "to": "street-photography",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -1623,6 +1928,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "documentary-photography",
+      "to": "pictorialism",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "dogme-95",
       "to": "french-new-wave",
       "type": "REBELLED_AGAINST"
@@ -1635,6 +1945,16 @@
     {
       "from": "dopamine-decor",
       "to": "scandinavian-interior",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "fashion-editorial",
+      "to": "new-objectivity",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "film-grain-revival",
+      "to": "y2k-digicam",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -1675,6 +1995,11 @@
     {
       "from": "neumorphism",
       "to": "flat-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "new-objectivity",
+      "to": "pictorialism",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -2100,6 +2425,7 @@
       "echoes": [
         "camcorder-revival",
         "deconstructivist-architecture",
+        "fashion-editorial",
         "party-flash",
         "street-photography"
       ],
@@ -2505,7 +2831,8 @@
         "international-style-architecture"
       ],
       "echoes": [
-        "bauhaus"
+        "bauhaus",
+        "new-objectivity"
       ],
       "nearest_by_vector": [
         {
@@ -2566,6 +2893,7 @@
         "bauhaus-interior",
         "de-stijl-painting",
         "de-stijl-web",
+        "duesseldorf-school",
         "mid-century-modern-interior",
         "new-topographics",
         "rams-functionalism-ui",
@@ -2627,6 +2955,7 @@
         "abstract-expressionism",
         "constructivism-web",
         "dogme-95",
+        "duesseldorf-school",
         "neo-brutalism-ui",
         "new-topographics"
       ],
@@ -2827,7 +3156,9 @@
       "hybridized_with": [
         "mid-century-modern-interior"
       ],
-      "echoes": [],
+      "echoes": [
+        "scandinavian-interior-photography"
+      ],
       "nearest_by_vector": [
         {
           "id": "japandi-interior",
@@ -2884,7 +3215,9 @@
         "dopamine-decor"
       ],
       "hybridized_with": [],
-      "echoes": [],
+      "echoes": [
+        "scandinavian-interior-photography"
+      ],
       "nearest_by_vector": [
         {
           "id": "scandinavian-interior",
@@ -2914,6 +3247,7 @@
       ],
       "hybridized_with": [],
       "echoes": [
+        "food-photography",
         "memphis-design"
       ],
       "nearest_by_vector": [
@@ -2941,7 +3275,9 @@
       ],
       "provoked": [],
       "hybridized_with": [],
-      "echoes": [],
+      "echoes": [
+        "fashion-editorial"
+      ],
       "nearest_by_vector": [
         {
           "id": "scandinavian-interior",
@@ -2959,31 +3295,42 @@
     },
     "pictorialism": {
       "evolved_from": [],
-      "evolved_into": [],
+      "evolved_into": [
+        "fashion-editorial"
+      ],
       "rebelled_against": [],
       "provoked": [
+        "documentary-photography",
+        "new-objectivity",
         "straight-photography"
       ],
       "hybridized_with": [],
-      "echoes": [],
+      "echoes": [
+        "impressionism"
+      ],
       "nearest_by_vector": [
         {
-          "id": "cinematic-teal-orange",
-          "distance": 3.16
+          "id": "film-grain-revival",
+          "distance": 2.83
         },
         {
-          "id": "new-topographics",
-          "distance": 3.87
+          "id": "food-photography",
+          "distance": 3
         },
         {
-          "id": "y2k-digicam",
-          "distance": 4
+          "id": "scandinavian-interior-photography",
+          "distance": 3
         }
       ]
     },
     "straight-photography": {
       "evolved_from": [],
       "evolved_into": [
+        "documentary-photography",
+        "fashion-editorial",
+        "film-noir-still",
+        "food-photography",
+        "new-objectivity",
         "new-topographics",
         "street-photography"
       ],
@@ -3002,12 +3349,46 @@
           "distance": 1.73
         },
         {
-          "id": "y2k-digicam",
+          "id": "documentary-photography",
           "distance": 2.24
         },
         {
-          "id": "party-flash",
-          "distance": 2.65
+          "id": "new-objectivity",
+          "distance": 2.24
+        }
+      ]
+    },
+    "new-objectivity": {
+      "evolved_from": [
+        "straight-photography"
+      ],
+      "evolved_into": [
+        "duesseldorf-school",
+        "scandinavian-interior-photography"
+      ],
+      "rebelled_against": [
+        "pictorialism"
+      ],
+      "provoked": [
+        "fashion-editorial"
+      ],
+      "hybridized_with": [],
+      "echoes": [
+        "bauhaus-architecture",
+        "german-expressionist-cinema"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "documentary-photography",
+          "distance": 2
+        },
+        {
+          "id": "street-photography",
+          "distance": 2
+        },
+        {
+          "id": "straight-photography",
+          "distance": 2.24
         }
       ]
     },
@@ -3016,28 +3397,62 @@
         "straight-photography"
       ],
       "evolved_into": [
+        "film-grain-revival",
         "new-colour"
       ],
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [
+        "documentary-photography",
+        "film-noir-still",
         "party-flash"
       ],
       "echoes": [
+        "french-new-wave",
         "grunge-editorial"
       ],
       "nearest_by_vector": [
+        {
+          "id": "documentary-photography",
+          "distance": 1.41
+        },
         {
           "id": "straight-photography",
           "distance": 1.73
         },
         {
-          "id": "party-flash",
-          "distance": 2.45
+          "id": "new-objectivity",
+          "distance": 2
+        }
+      ]
+    },
+    "documentary-photography": {
+      "evolved_from": [
+        "straight-photography"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "pictorialism"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "street-photography"
+      ],
+      "echoes": [
+        "dogme-95"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "street-photography",
+          "distance": 1.41
         },
         {
-          "id": "y2k-digicam",
-          "distance": 2.83
+          "id": "film-grain-revival",
+          "distance": 2
+        },
+        {
+          "id": "new-objectivity",
+          "distance": 2
         }
       ]
     },
@@ -3047,32 +3462,66 @@
       ],
       "evolved_into": [
         "cinematic-teal-orange",
+        "film-grain-revival",
         "y2k-digicam"
       ],
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [
+        "duesseldorf-school",
         "new-topographics"
       ],
       "echoes": [],
       "nearest_by_vector": [
         {
+          "id": "film-grain-revival",
+          "distance": 1.73
+        },
+        {
           "id": "y2k-digicam",
           "distance": 1.73
         },
         {
-          "id": "party-flash",
-          "distance": 2.65
-        },
-        {
-          "id": "street-photography",
-          "distance": 3.32
+          "id": "documentary-photography",
+          "distance": 2.24
         }
       ]
     },
     "new-topographics": {
       "evolved_from": [
         "straight-photography"
+      ],
+      "evolved_into": [
+        "duesseldorf-school"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "new-colour"
+      ],
+      "echoes": [
+        "brutalist-architecture",
+        "international-style-architecture"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "duesseldorf-school",
+          "distance": 2.24
+        },
+        {
+          "id": "scandinavian-interior-photography",
+          "distance": 2.45
+        },
+        {
+          "id": "straight-photography",
+          "distance": 2.83
+        }
+      ]
+    },
+    "duesseldorf-school": {
+      "evolved_from": [
+        "new-objectivity",
+        "new-topographics"
       ],
       "evolved_into": [],
       "rebelled_against": [],
@@ -3086,16 +3535,16 @@
       ],
       "nearest_by_vector": [
         {
-          "id": "straight-photography",
-          "distance": 2.83
+          "id": "scandinavian-interior-photography",
+          "distance": 1.73
+        },
+        {
+          "id": "new-topographics",
+          "distance": 2.24
         },
         {
           "id": "y2k-digicam",
-          "distance": 3
-        },
-        {
-          "id": "pictorialism",
-          "distance": 3.87
+          "distance": 2.45
         }
       ]
     },
@@ -3107,11 +3556,14 @@
         "party-flash"
       ],
       "rebelled_against": [],
-      "provoked": [],
+      "provoked": [
+        "film-grain-revival"
+      ],
       "hybridized_with": [
         "party-flash"
       ],
       "echoes": [
+        "camcorder-revival",
         "y2k-aesthetic"
       ],
       "nearest_by_vector": [
@@ -3120,12 +3572,12 @@
           "distance": 1.73
         },
         {
-          "id": "straight-photography",
-          "distance": 2.24
+          "id": "documentary-photography",
+          "distance": 2
         },
         {
-          "id": "party-flash",
-          "distance": 2.45
+          "id": "film-grain-revival",
+          "distance": 2
         }
       ]
     },
@@ -3140,16 +3592,16 @@
       "echoes": [],
       "nearest_by_vector": [
         {
+          "id": "fashion-editorial",
+          "distance": 1
+        },
+        {
+          "id": "food-photography",
+          "distance": 1.73
+        },
+        {
           "id": "pictorialism",
           "distance": 3.16
-        },
-        {
-          "id": "party-flash",
-          "distance": 4
-        },
-        {
-          "id": "y2k-digicam",
-          "distance": 4.47
         }
       ]
     },
@@ -3161,24 +3613,180 @@
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [
+        "film-grain-revival",
         "street-photography",
         "y2k-digicam"
       ],
       "echoes": [
+        "camcorder-revival",
         "grunge-editorial",
         "y2k-aesthetic"
       ],
       "nearest_by_vector": [
         {
+          "id": "documentary-photography",
+          "distance": 2.45
+        },
+        {
+          "id": "film-grain-revival",
+          "distance": 2.45
+        },
+        {
           "id": "street-photography",
+          "distance": 2.45
+        }
+      ]
+    },
+    "film-grain-revival": {
+      "evolved_from": [
+        "new-colour",
+        "street-photography"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "y2k-digicam"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "party-flash"
+      ],
+      "echoes": [
+        "camcorder-revival",
+        "impressionism"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "new-colour",
+          "distance": 1.73
+        },
+        {
+          "id": "documentary-photography",
+          "distance": 2
+        },
+        {
+          "id": "y2k-digicam",
+          "distance": 2
+        }
+      ]
+    },
+    "fashion-editorial": {
+      "evolved_from": [
+        "pictorialism",
+        "straight-photography"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "new-objectivity"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "film-noir-still",
+        "food-photography",
+        "scandinavian-interior-photography"
+      ],
+      "echoes": [
+        "grunge-editorial",
+        "quiet-luxury-interior"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "cinematic-teal-orange",
+          "distance": 1
+        },
+        {
+          "id": "food-photography",
+          "distance": 2
+        },
+        {
+          "id": "film-noir-still",
+          "distance": 3.16
+        }
+      ]
+    },
+    "film-noir-still": {
+      "evolved_from": [
+        "straight-photography"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "fashion-editorial",
+        "street-photography"
+      ],
+      "echoes": [
+        "baroque-painting",
+        "german-expressionist-cinema"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "fashion-editorial",
+          "distance": 3.16
+        },
+        {
+          "id": "cinematic-teal-orange",
+          "distance": 3.32
+        },
+        {
+          "id": "pictorialism",
+          "distance": 3.61
+        }
+      ]
+    },
+    "food-photography": {
+      "evolved_from": [
+        "straight-photography"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "fashion-editorial"
+      ],
+      "echoes": [
+        "baroque-painting",
+        "dopamine-decor"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "cinematic-teal-orange",
+          "distance": 1.73
+        },
+        {
+          "id": "fashion-editorial",
+          "distance": 2
+        },
+        {
+          "id": "film-grain-revival",
+          "distance": 2.65
+        }
+      ]
+    },
+    "scandinavian-interior-photography": {
+      "evolved_from": [
+        "new-objectivity"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "fashion-editorial"
+      ],
+      "echoes": [
+        "japandi-interior",
+        "scandinavian-interior"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "duesseldorf-school",
+          "distance": 1.73
+        },
+        {
+          "id": "new-topographics",
           "distance": 2.45
         },
         {
           "id": "y2k-digicam",
-          "distance": 2.45
-        },
-        {
-          "id": "new-colour",
           "distance": 2.65
         }
       ]
@@ -3189,7 +3797,10 @@
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [],
-      "echoes": [],
+      "echoes": [
+        "film-noir-still",
+        "new-objectivity"
+      ],
       "nearest_by_vector": [
         {
           "id": "soviet-montage",
@@ -3239,7 +3850,9 @@
         "dogme-95"
       ],
       "hybridized_with": [],
-      "echoes": [],
+      "echoes": [
+        "street-photography"
+      ],
       "nearest_by_vector": [
         {
           "id": "creator-vlog",
@@ -3266,7 +3879,8 @@
         "camcorder-revival"
       ],
       "echoes": [
-        "brutalist-architecture"
+        "brutalist-architecture",
+        "documentary-photography"
       ],
       "nearest_by_vector": [
         {
@@ -3373,8 +3987,11 @@
         "vertical-short-form"
       ],
       "echoes": [
+        "film-grain-revival",
         "grunge-editorial",
-        "y2k-aesthetic"
+        "party-flash",
+        "y2k-aesthetic",
+        "y2k-digicam"
       ],
       "nearest_by_vector": [
         {
@@ -3425,7 +4042,10 @@
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [],
-      "echoes": [],
+      "echoes": [
+        "film-noir-still",
+        "food-photography"
+      ],
       "nearest_by_vector": [
         {
           "id": "nordic-national-romanticism-painting",
@@ -3478,7 +4098,10 @@
         "nordic-national-romanticism-painting",
         "ukiyo-e"
       ],
-      "echoes": [],
+      "echoes": [
+        "film-grain-revival",
+        "pictorialism"
+      ],
       "nearest_by_vector": [
         {
           "id": "nordic-national-romanticism-painting",

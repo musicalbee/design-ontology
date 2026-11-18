@@ -1,0 +1,275 @@
+{
+  "$schema": "../../../schema/domains/photography.schema.json",
+  "id": "fashion-editorial",
+  "name": "Fashion editorial photography",
+  "aliases": [
+    "Magazine fashion",
+    "High-fashion editorial"
+  ],
+  "era_id": "commercial-and-staged",
+  "time_period": {
+    "start": 1930,
+    "end": null,
+    "label": "1930s–today"
+  },
+  "process": [
+    "analogue-colour",
+    "digital"
+  ],
+  "summary": "Planned pictures of clothes, bodies and attitude for a magazine page. Light, set, pose and edit are all designed, so that the image sells a world and not only a garment.",
+  "philosophy": {
+    "core_thesis": "Fashion sells a feeling before it sells a thing, so the photograph builds the whole world around the clothes.",
+    "design_principles": [
+      "Use an 85mm to 135mm lens at f/5.6 to f/11, so that the body keeps its proportion and the clothes stay sharp.",
+      "Light with one large source: a 1.2m to 2m soft box or a beauty dish, with a key-to-fill ratio of 3:1 to 8:1.",
+      "Pose from the hip and the neck: make long lines, and give the hands a task.",
+      "Choose a set, a location or a colour sweep that carries the story, and place the model in it with 40–60% negative space.",
+      "Retouch skin to a natural texture, and grade for a clear mood: pastel, hard flash or film noir.",
+      "Shoot 300 to 1000 frames for 6 to 12 pages."
+    ],
+    "anti_patterns": [
+      "Flat catalogue light with a stiff front pose",
+      "Heavy beauty-filter skin and plastic textures",
+      "Shots with no set, no story and no direction",
+      "Stock poses that ignore the garment",
+      "Wide-angle distortion of the body",
+      "Competing props that hide the clothes"
+    ]
+  },
+  "vectors": {
+    "staging": 5,
+    "tonal_contrast": 4,
+    "colour_saturation": 4,
+    "depth_of_field": 3,
+    "proximity": 3
+  },
+  "composition": {
+    "framing": "Vertical and clean; the figure is a strong line, often cropped at the knee or the hand.",
+    "viewpoint": "Waist to eye height, sometimes low for power; the camera is square to the body.",
+    "geometry": "Long diagonals from a leg, an arm or a train; a set line cuts the figure.",
+    "subject_placement": "Off centre, with 40–60% negative space or a colour field for type.",
+    "principles": [
+      {
+        "principle": "focal-point",
+        "rule": "Let 1 figure take 40–60% of the height; the eye goes to the face and then to the garment."
+      },
+      {
+        "principle": "negative-space",
+        "rule": "Leave 40–60% of the page empty for a title or a pull quote."
+      },
+      {
+        "principle": "balance",
+        "rule": "Use asymmetric balance: figure on one third, an object or a shadow on the other."
+      },
+      {
+        "principle": "leading-lines",
+        "rule": "Use 1 to 3 diagonals, a leg, an arm or a train, that run to the face."
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Set 60% in one field, 30% in the garment hue and 10% in an accent such as lip or shoe."
+      }
+    ]
+  },
+  "light": {
+    "quality": "A large soft source for beauty, or a hard flash for edge; the light is shaped on purpose.",
+    "direction": "45° front-side and 30° above, with a fill card at the opposite side.",
+    "key_to_fill_ratio": "3:1 to 8:1 (1.5–3 stops)",
+    "colour_temperature": "5600K strobe; 3200K for tungsten mood",
+    "time_of_day": "Studio, any hour; on location, the hour before sunset"
+  },
+  "lens_and_camera": {
+    "format": "Medium format or digital full frame; tethered to a screen",
+    "focal_length": "85mm to 135mm",
+    "aperture": "f/5.6 to f/11",
+    "shutter": "1/125s to 1/200s (flash sync)",
+    "film_speed": "ISO 100",
+    "focus": "Focus on the near eye; keep the garment inside the depth of field at f/8.",
+    "support": "Tripod or handheld with a monolight",
+    "equipment": [
+      "medium format or full frame body",
+      "85mm and 135mm lenses",
+      "soft box 1.2m to 2m",
+      "reflector or fill card",
+      "wind machine"
+    ]
+  },
+  "colour_and_grade": {
+    "treatment": "Clean colour with a chosen cast: pastel and bright, or deep and moody, with natural skin.",
+    "palette": [
+      {
+        "name": "Studio white",
+        "hex": "#F4F1EC",
+        "role": "ground"
+      },
+      {
+        "name": "Skin warm",
+        "hex": "#D9A98B",
+        "role": "skin"
+      },
+      {
+        "name": "Garment crimson",
+        "hex": "#B6283B",
+        "role": "garment accent"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#25262B",
+        "role": "depth"
+      }
+    ],
+    "grade_recipe": [
+      "Set the white balance at 5600K and tint +3.",
+      "Set the black point at 2% and the white point at 98%.",
+      "Apply +20% midtone contrast with a soft S-curve.",
+      "Lift saturation by +15% but protect skin with a skin-tone mask at −10%.",
+      "Retouch blemishes only; keep pores at 70% of the original texture.",
+      "Add a clean grain, amount 8%, to unify the retouch."
+    ],
+    "grain": "Light and even: a film-like layer that hides retouch seams"
+  },
+  "subject_and_staging": {
+    "subjects": [
+      "models in couture or ready-to-wear",
+      "accessories and shoes",
+      "beauty close-ups",
+      "set pieces and architecture as a stage",
+      "motion: a coat, a hair, a train"
+    ],
+    "staging": "Full. A team of 6 to 20 people: stylist, hair, make-up, set designer, art director and the maker.",
+    "direction": "Give the model a character, a motion and a gaze; reshoot the pose in steps of 3 to 5 frames."
+  },
+  "post_processing": {
+    "workflow": [
+      "Tether to a screen and review each frame with the art director.",
+      "Select 3 to 5 frames per look from 300 to 1000 shots.",
+      "Retouch skin and fabric, and match colour across the spread.",
+      "Lay out with type, 40–60% negative space and a clean margin."
+    ],
+    "output": "A magazine spread or campaign image of 8×10 in at 300 dpi, with room for type."
+  },
+  "prompt_primer": {
+    "positive": [
+      "fashion editorial photograph",
+      "medium format",
+      "85mm lens",
+      "large soft box",
+      "beauty dish",
+      "studio set",
+      "clean negative space",
+      "dramatic pose",
+      "high-end retouching",
+      "vertical magazine crop"
+    ],
+    "negative": [
+      "catalogue pose",
+      "flat lighting",
+      "plastic skin",
+      "busy background",
+      "wide-angle distortion",
+      "stock photo"
+    ],
+    "canonical_works": [
+      {
+        "work": "Dovima with Elephants",
+        "maker": "Richard Avedon",
+        "year": 1955
+      },
+      {
+        "work": "Harlequin Dress (Rochas)",
+        "maker": "Irving Penn",
+        "year": 1950
+      },
+      {
+        "work": "Sie kommen (Vogue Paris)",
+        "maker": "Helmut Newton",
+        "year": 1981
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "straight-photography",
+      "pictorialism"
+    ],
+    "rebelled_against": [
+      "new-objectivity"
+    ],
+    "hybridized_with": [
+      "film-noir-still"
+    ],
+    "echoes": [
+      "grunge-editorial",
+      "quiet-luxury-interior"
+    ]
+  },
+  "emotion": {
+    "target_response": "Desire and aspiration: the viewer wants the world around the clothes.",
+    "keywords": [
+      "glamorous",
+      "staged",
+      "stylised",
+      "sharp",
+      "aspirational"
+    ],
+    "brand_archetypes": [
+      "lover",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "fashion editorial",
+      "vogue",
+      "avedon",
+      "penn",
+      "helmut newton",
+      "campaign photograph",
+      "magazine fashion",
+      "beauty shot"
+    ],
+    "use_cases": [
+      "fashion campaigns and lookbooks",
+      "magazine spreads",
+      "beauty and accessories",
+      "image prompts for styled studio scenes"
+    ],
+    "avoid_when": [
+      "The brief needs a candid or documentary feel.",
+      "The garment must be shown for fit and cut at true proportion only."
+    ],
+    "modifiers": [
+      {
+        "request": "more raw and candid",
+        "toward": "street-photography",
+        "how": "Go on location with a 35mm lens, no flash and a found street; keep the model in motion at 1/250s."
+      },
+      {
+        "request": "more moody and noir",
+        "toward": "film-noir-still",
+        "how": "Use one hard key at a ratio of 16:1, a black ground and a long shadow; shoot in black and white at f/4."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q1146354: fashion photography",
+      "url": "https://www.wikidata.org/wiki/Q1146354"
+    },
+    {
+      "title": "Wikidata Q305497: Richard Avedon",
+      "url": "https://www.wikidata.org/wiki/Q305497"
+    },
+    {
+      "title": "Wikidata Q318604: Irving Penn",
+      "url": "https://www.wikidata.org/wiki/Q318604"
+    },
+    {
+      "title": "Vince Aletti and others, Avedon Fashion 1944–2000 (Abrams, 2009)"
+    },
+    {
+      "title": "Nathalie Herschdorfer, Models, Photographers, and the Art of Fashion Photography (Thames & Hudson, 2012)"
+    }
+  ],
+  "domain": "photography"
+}

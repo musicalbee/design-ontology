@@ -233,6 +233,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`japandi-interior`](../japandi-interior/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`dopamine-decor`](../dopamine-decor/SKILL.md)
+- **Kin in another domain:** [`fashion-editorial`](../fashion-editorial/SKILL.md)
 - **Nearest by vector profile:** [`scandinavian-interior`](../scandinavian-interior/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md), [`shaker-interior`](../shaker-interior/SKILL.md)
 
 ## Emotional target

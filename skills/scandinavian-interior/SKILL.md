@@ -237,6 +237,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`japandi-interior`](../japandi-interior/SKILL.md)
 - **Was rejected by:** [`dopamine-decor`](../dopamine-decor/SKILL.md)
 - **Mixes well with:** [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md)
+- **Kin in another domain:** [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md)
 - **Nearest by vector profile:** [`japandi-interior`](../japandi-interior/SKILL.md), [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md), [`shaker-interior`](../shaker-interior/SKILL.md)
 
 ## Emotional target
