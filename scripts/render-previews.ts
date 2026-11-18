@@ -9,7 +9,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from 
 import { join } from "node:path";
 import { preflight, renderWebp } from "./previews/comfy.js";
 
-const SIZE = { width: 1152, height: 768 };
+const SIZES = { landscape: { width: 1152, height: 768 }, portrait: { width: 768, height: 1152 } };
 
 const args = process.argv.slice(2);
 const opt = (k: string) => { const i = args.indexOf(`--${k}`); return i >= 0 ? args[i + 1] : undefined; };
@@ -17,11 +17,17 @@ const domain = opt("domain");
 const only = opt("only")?.split(",");
 const force = args.includes("--force");
 const dry = args.includes("--dry-run");
-if (!domain) throw new Error("Give --domain photography|film|painting|interior");
+if (!domain) throw new Error("Give --domain photography|film|painting|interior|architecture");
 
-const subjects = JSON.parse(readFileSync("scripts/previews/subjects.json", "utf8")) as Record<string, string>;
-const subject = subjects[domain];
-if (!subject) throw new Error(`No subject for domain ${domain} in scripts/previews/subjects.json`);
+type Override = { subject?: string; size?: keyof typeof SIZES };
+const subjects = JSON.parse(readFileSync("scripts/previews/subjects.json", "utf8")) as {
+  domains: Record<string, { subject: string; suffix?: string; drop?: string }>;
+  styles?: Record<string, Override>;
+};
+const dom = subjects.domains[domain];
+if (!dom) throw new Error(`No subject for domain ${domain} in scripts/previews/subjects.json`);
+const drop = dom.drop ? new RegExp(dom.drop, "i") : null;
+const override = (s: any): Override => subjects.styles?.[`${domain}/${s.id}`] ?? {};
 const outDir = join("demo/previews", domain);
 mkdirSync(outDir, { recursive: true });
 const manifestPath = join(outDir, "manifest.json");
@@ -32,14 +38,19 @@ const styles = readdirSync(styleDir).filter((f) => f.endsWith(".json"))
   .map((f) => JSON.parse(readFileSync(join(styleDir, f), "utf8")))
   .filter((s) => !only || only.includes(s.id));
 
-// Photography, film and painting give primer words; interior gives one full image prompt.
-const positive = (s: any): string[] => s.prompt_primer?.positive ?? (s.implementation?.image_prompt ? [s.implementation.image_prompt] : []);
-const promptFor = (s: any) => [subject, ...positive(s)].join(", ");
+// Photography, film and painting give primer words, architecture gives primer.positive,
+// interior gives one full image prompt.
+const positive = (s: any): string[] =>
+  s.prompt_primer?.positive ?? s.primer?.positive ?? (s.implementation?.image_prompt ? [s.implementation.image_prompt] : []);
+const subjectFor = (s: any) => override(s).subject ?? dom.subject;
+const sizeFor = (s: any) => SIZES[override(s).size ?? "landscape"];
+const promptFor = (s: any) =>
+  [subjectFor(s), ...positive(s).filter((w) => !drop?.test(w)), ...(dom.suffix ? [dom.suffix] : [])].join(", ");
 
 async function render(s: any) {
   const prompt = promptFor(s);
-  const rec = await renderWebp(prompt, join(outDir, `${s.id}.webp`), SIZE, `design-ontology/${domain}/${s.id}`);
-  return { file: `${s.id}.webp`, subject, ...rec };
+  const rec = await renderWebp(prompt, join(outDir, `${s.id}.webp`), sizeFor(s), `design-ontology/${domain}/${s.id}`);
+  return { file: `${s.id}.webp`, subject: subjectFor(s), ...rec };
 }
 
 const todo = styles.filter((s) => force || !manifest.images[s.id] || manifest.images[s.id].prompt !== promptFor(s));
