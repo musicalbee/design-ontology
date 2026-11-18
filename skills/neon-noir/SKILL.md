@@ -195,6 +195,37 @@ The rules above name these shared principles by id. The definition is the same i
 | `scale` | Scale | The size of an element in relation to the human body, to the space around it and to the other elements. A style chooses a reference body and holds the elements in a range around it. | subject height to frame or canvas height (% of frame height): 10–30 in a wide shot; 40–80 in a close-up |
 | `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive; average shot length (seconds): 1.5–3 fast; 5–12 moderate; 30 or more for a long take |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Chiaroscuro (process)
+
+A hard contrast of light and dark that models form: one strong source, deep shadow and a small area of light. Origin: painting, Italy, c. 1500.
+
+- Light the subject from one hard source at 30° to 60° above and to the side; let the shadow side fall to near black.
+- Keep the light on 20% to 30% of the frame and let the rest sink into shadow.
+- Set the key light to fill light at a ratio of 8:1 or more for a dramatic mood.
+- Cut hard shapes into the light with blinds, grilles or foliage so that the shadow becomes a pattern.
+
+### Coloured gel lighting (process)
+
+A white lamp covered with a sheet of coloured film, so that a set or a face is lit in red, blue or green with no natural cause. Origin: film & video, Rome, c. 1964.
+
+- Put a saturated gel (red, blue or green) over a hard source; use one colour for each zone of the set.
+- Light the face from the side in one colour and the wall behind it in a second colour from the opposite side.
+- Keep the key light at one stop or more above the fill so that the colour reads as shadow and as light.
+- Do not justify the colour with a lamp in the frame; the colour is the mood.
+
+### Neon glow (material)
+
+Light as a line of coloured gas, with a soft halo that spills onto the dark ground around it. Origin: graphic & ui design, Paris, 1912.
+
+- Draw the tube as a line of 2 to 6mm in one saturated colour; use no more than 2 colours in one sign.
+- Add a halo of 10 to 40px at 30% to 60% opacity in the same hue.
+- Set the sign on a ground darker than 10% lightness, so that the halo shows.
+- Keep a bright, near-white core inside the line.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

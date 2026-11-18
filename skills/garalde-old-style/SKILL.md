@@ -137,6 +137,19 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Positive:** old-style serif · garalde roman · diagonal stress · bracketed serifs · small x-height · old-style figures · classic book typography · warm ivory paper · letterpress impression · generous margins
 - **Negative:** sans-serif · geometric letters · high contrast hairlines · slab serifs · condensed type · neon colours
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Roman capital proportions (motif)
+
+Capital letters with the proportions of Roman stone inscriptions: some letters wide and round, some narrow, and each one built for the eye, not for one measure. Origin: architecture, Rome, 113.
+
+- Draw O as a near circle, and M about as wide as the cap height.
+- Draw E, F, L and S at about half the width of O.
+- Set the stem at about one tenth of the cap height for a classical weight; for signs, increase it by up to half.
+- Cut serifs, or leave them out, but keep the width rules.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

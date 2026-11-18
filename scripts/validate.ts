@@ -213,6 +213,11 @@ for (const { file, slug, person } of people) {
 const lonely = [...byId.keys()].filter((id) => !covered.has(id)).sort();
 if (!schemaOnly && lonely.length) warnings.push(`${lonely.length} styles have no person in data/people/: ${lonely.join(", ")}`);
 
+// Each style names its top techniques: a style with none gives an agent no method to apply across domains.
+const withTechnique = new Set(techniques.flatMap(({ technique: t }) => t.styles ?? []));
+const bare = [...byId.keys()].filter((id) => !withTechnique.has(id)).sort();
+if (!schemaOnly && bare.length) warnings.push(`${bare.length} styles have no technique in data/techniques/: ${bare.join(", ")}`);
+
 for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`error ${e}`);
 console.log(

@@ -238,6 +238,19 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Lithography (process)
+
+A print from a flat stone or plate on which a greasy drawing takes ink and water repels it; the artist draws as on paper. Origin: graphic & ui design, Munich, c. 1796.
+
+- Draw on the stone with a greasy crayon or a tusche wash; the drawing takes ink and the rest stays wet.
+- Pull the print in a press at a run of 20 to 200 copies for an artist print, or more for a poster.
+- Use one stone for each colour; 3 to 5 stones give a poster.
+- Keep the soft crayon grain and the dark, velvet black.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

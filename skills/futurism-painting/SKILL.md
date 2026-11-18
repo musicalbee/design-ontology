@@ -165,6 +165,19 @@ The rules above name these shared principles by id. The definition is the same i
 | `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | brightest mass to deepest shadow in one image (stops): 3–4 flat; 5–8 hard, 8 or more for expressionist |
 | `unity-variety` | Unity and variety | Repeated materials, colours and shapes join the parts into one whole. A small, planned number of deviations keeps the whole alive. | materials or hues that repeat (count): 2 to 4; deliberate deviations (count): 1 to 2 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Chronophotography (process)
+
+A series of photographs, or many exposures on one plate, that split a movement into steps and lay the steps side by side. Origin: photography, Palo Alto, 1878.
+
+- Record 12 to 24 frames each second, or 5 to 20 exposures on one plate.
+- Hold the camera and the dark ground still; the body moves against a plain field.
+- Show each stage of the movement in a form that overlaps its neighbour by 20% to 50%.
+- In a painting, repeat a limb or a form along the path of the movement.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

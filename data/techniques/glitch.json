@@ -1,0 +1,50 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "glitch",
+  "name": "Glitch",
+  "aliases": [
+    "Datamosh",
+    "RGB split",
+    "Signal error"
+  ],
+  "kind": "process",
+  "summary": "A fault in a signal, kept as an image: torn lines, split colour channels and repeated frames.",
+  "how": [
+    "Shift the red and blue channels by 2 to 8px in opposite directions.",
+    "Cut bands of 4 to 40px and move them sideways by 10 to 60px.",
+    "Run the effect in bursts of 2 to 6 frames at 24 fps, and leave the image clean between bursts.",
+    "Do not apply it to body text."
+  ],
+  "origin": {
+    "domain": "film",
+    "year": 1963,
+    "where": "Wuppertal",
+    "note": "Nam June Paik bends the picture of television sets with magnets in his first Exposition of Music-Electronic Television."
+  },
+  "adoptions": [
+    {
+      "domain": "design",
+      "year": 2010,
+      "circa": true,
+      "via": "Rosa Menkman writes the Glitch Studies Manifesto; designers copy channel splits and torn bands in posters and sites.",
+      "styles": [
+        "cyberpunk-web",
+        "vaporwave"
+      ]
+    }
+  ],
+  "styles": [
+    "cyberpunk-web",
+    "vaporwave"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia, Glitch art",
+      "url": "https://en.wikipedia.org/wiki/Glitch_art"
+    },
+    {
+      "title": "Wikipedia, Nam June Paik",
+      "url": "https://en.wikipedia.org/wiki/Nam_June_Paik"
+    }
+  ]
+}

@@ -176,6 +176,18 @@ Reference works:
 | Hat Factory, Luckenwalde | Erich Mendelsohn | 1923 |
 | Chilehaus, Hamburg | Fritz Höger | 1924 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Crystal facet (motif)
+
+A form broken into flat planes that meet at sharp angles, so that it reads as a crystal or a shard. Origin: painting, Paris and Horta de Ebro, c. 1909.
+
+- Cut each mass into flat planes; most planes meet at angles between 30° and 120°.
+- Use one plane size family: 3 to 5 sizes, with no curve.
+- Let the light break on each plane, so that adjacent planes differ in tone by one or two steps.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

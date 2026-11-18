@@ -239,6 +239,18 @@ Reference works:
 | Craftsman furniture | Gustav Stickley | 1901 |
 | Blackwell house | M. H. Baillie Scott | 1900 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Exposed joinery (process)
+
+A joint that stays in view, so that the way of making is part of the look. Origin: interior, Giza, c. 2500 BCE.
+
+- Cut the joint in the main wood: a through-tenon of 6 to 12mm shows beyond the face.
+- Peg the joint with a wooden pin of 8 to 12mm; do not hide it with filler or paint.
+- Use one joint type in a room or a building; repeat it at each corner.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

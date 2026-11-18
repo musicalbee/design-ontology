@@ -128,6 +128,19 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Positive:** pixel art icon set · 16 by 16 pixel grid · hard square pixels · no anti-aliasing · 1-bit black and white · stair-step diagonals · retro operating system icons · nearest-neighbour scale
 - **Negative:** smooth vector curves · gradients · soft shadows · blurred edges · photographic detail
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Pixel grid (process)
+
+A picture or a letter built from square cells that are each on or off, or one flat colour, with no curve and no smooth edge. Origin: film & video, Bell Labs, New Jersey, c. 1963.
+
+- Draw an icon on a grid of 16 or 32 cells a side; fill each cell with one colour or leave it empty.
+- Limit the palette to 1 to 16 colours; do not blend two colours inside one cell.
+- Draw a diagonal as a stair of equal steps, for example 2 cells across for each 1 cell up.
+- Show the image at an integer scale (2x, 3x, 4x) so that no cell blurs.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

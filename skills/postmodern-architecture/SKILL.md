@@ -184,6 +184,15 @@ A curved head over an opening that carries load as compression; inside, a soft f
 - Keep the ratio of height to width of the opening at 1.6:1 to 2:1.
 - In a room, repeat the arch in 2 or 3 places, for example a door, a mirror and a niche, and no more.
 
+### Neon glow (material)
+
+Light as a line of coloured gas, with a soft halo that spills onto the dark ground around it. Origin: graphic & ui design, Paris, 1912.
+
+- Draw the tube as a line of 2 to 6mm in one saturated colour; use no more than 2 colours in one sign.
+- Add a halo of 10 to 40px at 30% to 60% opacity in the same hue.
+- Set the sign on a ground darker than 10% lightness, so that the halo shows.
+- Keep a bright, near-white core inside the line.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

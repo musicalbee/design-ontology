@@ -195,6 +195,19 @@ The rules above name these shared principles by id. The definition is the same i
 | `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive; average shot length (seconds): 1.5–3 fast; 5–12 moderate; 30 or more for a long take |
 | `negative-space` | Negative space | The empty area around and between elements. It is a part of the composition, not a remainder. | empty frame area (% of image): 30–70 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Extreme close-up (montage)
+
+A frame that holds only a part of a face, such as the eyes; the cut from a wide view to this frame sets a person against the world. Origin: film & video, Hove, 1900.
+
+- Frame the eyes as a band that fills the width of a 2.35:1 frame; use a lens of 75mm to 100mm.
+- Cut from a wide shot to the close-up with no medium shot between them.
+- Hold each close-up for 2 to 4 seconds and cut back to the wide view when the look ends.
+- In a painting, scale the head to 2 metres or more and keep the focus even over the full face.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

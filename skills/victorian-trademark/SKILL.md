@@ -117,6 +117,27 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Positive:** Victorian trademark label · engraved cross-hatch shading · oval cartouche frame · ribbon banners · pictorial animal device · chromolithograph colours · deep red and dark blue with gold · cream paper ground · ornate scroll corners · 1880s printed label
 - **Negative:** letters · text · words · slogan · watermark · flat vector · minimal · gradient mesh
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Line engraving (process)
+
+Lines cut into a metal plate with a burin; thin hairlines and swelling strokes give tone, and the print keeps a sharp, even edge. Origin: painting, Upper Rhine, c. 1430.
+
+- Cut a hairline of 0.1 to 0.2mm for light areas; swell the line to 0.5mm or more for dark areas.
+- Build shade with parallel lines or cross hatching, and keep the lines at 30° to 45° to each other.
+- Print on smooth paper so the hairlines stay clean.
+
+### Wood type (process)
+
+Large display letters cut from end-grain wood, so a printer can set a heavy headline that metal type cannot give at that size. Origin: typeface, Johnstown, New York, 1828.
+
+- Set the headline at 5 to 30 cm cap height; below 2 cm use metal type.
+- Use heavy weights: a stem of 1/5 to 1/3 of the cap height.
+- Mix two to four faces in one sheet, one face for each line, with each line set to the full measure.
+- Keep the line spacing tight: 1.0 to 1.1 times the cap height.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

@@ -1193,7 +1193,7 @@ Next domains under discussion: type design, motion, sound.
 
 ## Techniques that cross domains
 
-A technique starts in one domain and moves into others, often decades later. The sunburst went from Art Deco facades in 1925 to mid-century wall clocks in 1949. The breeze block went from screen walls in Recife in 1929 into room dividers about 89 years later. [`data/techniques/`](data/techniques/) holds 17 records: cuts (photomontage, jump cut, match cut), motion rules (squash and stretch, easing, multiplane parallax), motifs and materials (sunburst, terrazzo, arch, fluting, breeze block, checkerboard) and processes and tools (airbrush, halftone, isometric projection, perspective grid).
+A technique starts in one domain and moves into others, often decades later. The sunburst went from Art Deco facades in 1925 to mid-century wall clocks in 1949. The breeze block went from screen walls in Recife in 1929 into room dividers about 89 years later. [`data/techniques/`](data/techniques/) holds 49 records: cuts and camera methods (photomontage, jump cut, long take, handheld camera, tilt-shift), motion rules (squash and stretch, easing, multiplane parallax), motifs and materials (sunburst, terrazzo, breeze block, limewash, laminated timber), print processes (halftone, woodcut, lithography, line engraving, wood type) and drawing systems (perspective grid, construction grid, pixel grid, modular grid).
 
 Each record gives the origin, each adoption with its lag in years, and 2 to 6 rules with numbers. Each style that uses a technique carries its rules in a "Techniques" section. The catalogue is [`skills/TECHNIQUES.md`](skills/TECHNIQUES.md).
 

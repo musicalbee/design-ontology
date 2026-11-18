@@ -174,6 +174,35 @@ Reference works:
 | Therme Vals | Peter Zumthor | 1996 |
 | Tjibaou Cultural Centre, Nouméa | Renzo Piano | 1998 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Exposed joinery (process)
+
+A joint that stays in view, so that the way of making is part of the look. Origin: interior, Giza, c. 2500 BCE.
+
+- Cut the joint in the main wood: a through-tenon of 6 to 12mm shows beyond the face.
+- Peg the joint with a wooden pin of 8 to 12mm; do not hide it with filler or paint.
+- Use one joint type in a room or a building; repeat it at each corner.
+
+### Limewash (material)
+
+A thin wash of slaked lime that dries to a soft, matt white with a faint cloud of brush marks. Origin: architecture, Near East, c. 3000 BCE.
+
+- Mix slaked lime with water to a thin milk, and apply 2 to 3 coats with a wide brush.
+- Cross the brush strokes between coats, and let each coat dry for 4 to 24 hours.
+- Keep the finish matt; the surface must take light with no sheen.
+- Use pale tints only: white, sand and chalk blue.
+
+### Shadow gap (process)
+
+A narrow recessed joint between two surfaces that casts a shadow, so that each surface seems to float apart from the next. Origin: architecture, Verona, c. 1958.
+
+- Cut the gap 10 to 25mm wide and 10 to 20mm deep.
+- Hold the gap at a constant width along its full length.
+- Use it where new meets old: between a wall and a ceiling, a floor and a skirting, or a new insert and a historic wall.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

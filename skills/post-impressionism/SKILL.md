@@ -165,6 +165,19 @@ The rules above name these shared principles by id. The definition is the same i
 | `unity-variety` | Unity and variety | Repeated materials, colours and shapes join the parts into one whole. A small, planned number of deviations keeps the whole alive. | materials or hues that repeat (count): 2 to 4; deliberate deviations (count): 1 to 2 |
 | `colour-distribution` | Colour distribution | Each colour takes a planned share of the visible area: a dominant colour, a secondary colour and an accent. | dominant / secondary / accent share (% of visible surface): 60/30/10 as the default; 70/25/5 calm; 40/35/25 bold; accents (count): 1 to 3 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Woodcut (process)
+
+A print from a block of wood with the white parts cut away; the result is flat colour, hard edges and visible grain. Origin: graphic & ui design, Dunhuang, 868.
+
+- Cut the block along the grain with a knife and a gouge; leave a line of 1mm to 3mm for the black.
+- Use one block for each colour and register them within 1 mm.
+- Print with a flat, opaque ink and leave the grain and the knife marks visible.
+- Keep the shapes flat, with no more than 3 to 6 tones in a print.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

@@ -7,11 +7,12 @@ A contribution is one JSON file in `data/<domain>/styles/` or in `data/people/`.
 1. Copy `data/design/styles/swiss-international.json` to `data/design/styles/<id>.json`.
 2. Set `id` to the file name without the extension. The id is kebab-case and unique across all domains.
 3. Fill each field. The schema (`schema/domains/design.schema.json`) describes each one.
-4. Run `npm run build`.
-5. If the build reports an error, correct the data file and run the build again.
-6. Open `demo/index.html` through a local server and look at your style: `python3 -m http.server --directory . 4000`, then `http://localhost:4000/demo/#<id>`.
-7. Commit the data file. The pre-commit hook (`.husky/pre-commit`, installed by `npm install`) moves the package version one patch step, runs the type check and the build, then adds `package.json`, `graph/`, `skills/` and `README.md` to the commit.
-8. Open a pull request. Say in two lines why the style is a style of its own and not a variant of one that exists.
+4. Name the 1 to 3 top techniques of the style: the cut, motion rule, motif, material, process or tool that defines it. If a technique is in `data/techniques/`, add the style id to its `styles` and to the adoption of the style's domain (add the adoption if it is not there). If not, write a new technique (see "A technique" below). The build warns about each style that has no technique.
+5. Run `npm run build`.
+6. If the build reports an error, correct the data file and run the build again.
+7. Open `demo/index.html` through a local server and look at your style: `python3 -m http.server --directory . 4000`, then `http://localhost:4000/demo/#<id>`.
+8. Commit the data file and the technique files. The pre-commit hook (`.husky/pre-commit`, installed by `npm install`) moves the package version one patch step, runs the type check and the build, then adds `package.json`, `graph/`, `skills/` and `README.md` to the commit.
+9. Open a pull request. Say in two lines why the style is a style of its own and not a variant of one that exists, and name its techniques.
 
 ## Rules for the content
 

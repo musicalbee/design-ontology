@@ -1,0 +1,63 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "modular-grid",
+  "name": "Modular grid",
+  "aliases": [
+    "Grid system",
+    "Swiss grid"
+  ],
+  "kind": "process",
+  "summary": "A page or screen divided into equal columns and rows; each element fits a cell or a block of cells, so that the whole layout repeats one measure.",
+  "how": [
+    "Divide the page into 4 to 12 equal columns with a gutter of 1/10 to 1/5 of a column width.",
+    "Cut the page into rows of the same module height; align each image and text block to the lines.",
+    "Set text on a baseline grid of one line height, and use 1 to 2 type sizes for each level.",
+    "Scale an image by a whole number of modules."
+  ],
+  "origin": {
+    "domain": "design",
+    "year": 1958,
+    "circa": true,
+    "where": "Zurich",
+    "note": "Josef Mueller-Brockmann and the journal Neue Grafik (1958) spread the modular grid for posters and print."
+  },
+  "adoptions": [
+    {
+      "domain": "logo",
+      "year": 1962,
+      "circa": true,
+      "via": "Otl Aicher builds the corporate design of Lufthansa on a fixed grid of marks, type and colour.",
+      "styles": [
+        "swiss-modernist-mark"
+      ]
+    },
+    {
+      "domain": "design",
+      "year": 1970,
+      "via": "Unimark issues the New York City Transit Graphics Standards Manual, with sign grids for the whole system.",
+      "styles": [
+        "swiss-international"
+      ]
+    },
+    {
+      "domain": "design",
+      "year": 2011,
+      "via": "Bootstrap ships a 12 column grid for web pages.",
+      "styles": [
+        "bento-grid-ui",
+        "minimalism-web"
+      ]
+    }
+  ],
+  "styles": [
+    "swiss-international",
+    "swiss-modernist-mark",
+    "bento-grid-ui",
+    "minimalism-web"
+  ],
+  "sources": [
+    {
+      "title": "Josef Mueller-Brockmann, Grid Systems in Graphic Design (Niggli, 1981)"
+    }
+  ]
+}

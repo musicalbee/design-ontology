@@ -163,6 +163,27 @@ The rules above name these shared principles by id. The definition is the same i
 | `unity-variety` | Unity and variety | Repeated materials, colours and shapes join the parts into one whole. A small, planned number of deviations keeps the whole alive. | materials or hues that repeat (count): 2 to 4; deliberate deviations (count): 1 to 2 |
 | `balance` | Visual balance | The visual weights on the two sides of a centre cancel out. Formal balance uses mirrored equal weights; informal balance sets a large near mass against several small far masses. | moment of visual weight, left to right about the centre (ratio): 1.0 formal; 0.8–1.25 informal; type (kind): formal, informal, radial |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Chronophotography (process)
+
+A series of photographs, or many exposures on one plate, that split a movement into steps and lay the steps side by side. Origin: photography, Palo Alto, 1878.
+
+- Record 12 to 24 frames each second, or 5 to 20 exposures on one plate.
+- Hold the camera and the dark ground still; the body moves against a plain field.
+- Show each stage of the movement in a form that overlaps its neighbour by 20% to 50%.
+- In a painting, repeat a limb or a form along the path of the movement.
+
+### Crystal facet (motif)
+
+A form broken into flat planes that meet at sharp angles, so that it reads as a crystal or a shard. Origin: painting, Paris and Horta de Ebro, c. 1909.
+
+- Cut each mass into flat planes; most planes meet at angles between 30° and 120°.
+- Use one plane size family: 3 to 5 sizes, with no curve.
+- Let the light break on each plane, so that adjacent planes differ in tone by one or two steps.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

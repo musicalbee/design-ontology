@@ -20,6 +20,7 @@ You are in `design-ontology`: design styles as data, compiled into agent skills.
 - In a page, set text with the derived tokens: `--color-on-bg` on the background, `--color-on-surface` on a surface, `--color-on-primary` on a primary button. Do not put `--color-text` on a surface.
 - Each skill has a visual pack in `skills/<id>/pack/`: `hero.svg`, `pattern.svg`, `icons.svg`. Use them before you draw your own. The sprite is an open-source stand-in: for a product, use the icon library of the brand and choose the family by the rules in the skill.
 - The content rules are in `CONTRIBUTING.md`. Read them before you write a style.
+- Each new style names its 1 to 3 top techniques in `data/techniques/` (step 4 of the procedure in `CONTRIBUTING.md`). The build warns about a style with no technique.
 
 ## Commands
 

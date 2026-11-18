@@ -234,6 +234,19 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Letterspaced capitals (motif)
+
+Capital letters set with wide space between them, so that a short word reads as an inscription of rank. Origin: typeface, Rome, 113.
+
+- Track capitals at 0.1 to 0.3em; do not track lowercase.
+- Set the size small, at 11 to 14px on screen, in a light weight.
+- Use roman capitals with strong serifs or a clean geometric sans.
+- Keep the line to one to four words.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

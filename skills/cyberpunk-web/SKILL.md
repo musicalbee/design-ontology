@@ -230,6 +230,28 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Glitch (process)
+
+A fault in a signal, kept as an image: torn lines, split colour channels and repeated frames. Origin: film & video, Wuppertal, 1963.
+
+- Shift the red and blue channels by 2 to 8px in opposite directions.
+- Cut bands of 4 to 40px and move them sideways by 10 to 60px.
+- Run the effect in bursts of 2 to 6 frames at 24 fps, and leave the image clean between bursts.
+- Do not apply it to body text.
+
+### Neon glow (material)
+
+Light as a line of coloured gas, with a soft halo that spills onto the dark ground around it. Origin: graphic & ui design, Paris, 1912.
+
+- Draw the tube as a line of 2 to 6mm in one saturated colour; use no more than 2 colours in one sign.
+- Add a halo of 10 to 40px at 30% to 60% opacity in the same hue.
+- Set the sign on a ground darker than 10% lightness, so that the halo shows.
+- Keep a bright, near-white core inside the line.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
