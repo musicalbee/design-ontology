@@ -47,28 +47,32 @@ export const mix = (a: string, b: string, t: number) => {
 };
 
 /** The legible text colour on `field`: an authored colour if one reaches 4.5:1, else black or white. */
-function on(field: string, authored: string[]): string {
+function on(field: string, authored: string[], name = "", warn?: (m: string) => void): string {
   const best = (list: string[]) => [...list].sort((a, b) => contrast(b, field) - contrast(a, field))[0];
   const own = best(authored);
-  return contrast(own, field) >= 4.5 ? own : best(["#000000", "#FFFFFF"]);
+  if (contrast(own, field) >= 4.5) return own;
+  const fallback = best(["#000000", "#FFFFFF"]);
+  warn?.(`${name}: the best authored colour ${own} is ${contrast(own, field).toFixed(2)}:1 on ${field}; the compiler uses ${fallback}`);
+  return fallback;
 }
 
 /**
  * Tokens that the compiler derives. An author writes --color-text for the main reading field only;
  * these tokens give a legible colour for each field, so that no pair of tokens can make text disappear.
  */
-export function derivedTokens(css: Record<string, string>): Record<string, string> {
+export function derivedTokens(css: Record<string, string>, warn?: (m: string) => void): Record<string, string> {
   const bg = flat(css["--color-bg"]);
   const surface = flat(css["--color-surface"], bg);
   const text = flat(css["--color-text"], bg);
   const muted = flat(css["--color-muted"], bg);
   const primary = flat(css["--color-primary"], bg);
   const accent = flat(css["--color-accent"], bg);
-  const onBg = on(bg, [text, surface]);
-  const onSurface = on(surface, [flat(css["--color-text"], surface), bg]);
+  const onBg = on(bg, [text, surface], "--color-on-bg", warn);
+  const onSurface = on(surface, [flat(css["--color-text"], surface), bg], "--color-on-surface", warn);
   // A quiet colour keeps 4.5 to 1. If the authored one is too weak, step from the field towards the text colour.
-  const quiet = (authored: string, field: string, strong: string) => {
+  const quiet = (authored: string, field: string, strong: string, name = "--color-muted") => {
     if (contrast(authored, field) >= 4.5) return authored;
+    warn?.(`${name}: ${authored} is ${contrast(authored, field).toFixed(2)}:1 on ${field}; the compiler steps it towards the text colour`);
     for (const t of [0.3, 0.2, 0.1]) {
       const c = mix(strong, field, t);
       if (contrast(c, field) >= 4.5) return c;
@@ -79,10 +83,10 @@ export function derivedTokens(css: Record<string, string>): Record<string, strin
   const out: Record<string, string> = {
     "--color-on-bg": onBg,
     "--color-on-surface": onSurface,
-    "--color-on-primary": on(primary, [text, bg]),
-    "--color-on-accent": on(accent, [text, bg]),
-    "--color-muted-on-bg": quiet(muted, bg, onBg),
-    "--color-muted-on-surface": quiet(flat(css["--color-muted"], surface), surface, onSurface),
+    "--color-on-primary": on(primary, [text, bg], "--color-on-primary", warn),
+    "--color-on-accent": on(accent, [text, bg], "--color-on-accent", warn),
+    "--color-muted-on-bg": quiet(muted, bg, onBg, "--color-muted on bg"),
+    "--color-muted-on-surface": quiet(flat(css["--color-muted"], surface), surface, onSurface, "--color-muted on surface"),
     "--color-link": contrast(accent, bg) >= 4.5 ? accent : contrast(primary, bg) >= 4.5 ? primary : onBg,
     "--color-link-on-surface": contrast(accentOnSurface, surface) >= 4.5 ? accentOnSurface : contrast(flat(css["--color-primary"], surface), surface) >= 4.5 ? flat(css["--color-primary"], surface) : onSurface,
   };
@@ -444,6 +448,59 @@ const RECIPES: Record<string, Recipe> = {
       pane(560, 70, 150, 150, 10, [circ(635, 145, 34, "none", { stroke: "#FFFFFF", "stroke-width": 8, opacity: 0.9, "stroke-dasharray": "150 214", "stroke-linecap": "round" })]),
     ];
   },
+  pixel: (p) => {
+    const heart = ["01100110", "11111111", "11111111", "01111110", "00111100", "00011000"];
+    const cell = (x: number, y: number, s: number, c: string) => rect(x, y, s, s, c);
+    return [
+      rect(0, 0, W, H, p.bg),
+      ...Array.from({ length: 20 }, (_, i) => cell(i * 40, 480, 40, i % 2 ? p.primary : p.accent)),
+      ...Array.from({ length: 20 }, (_, i) => cell(i * 40, 520, 40, p.ink)),
+      ...Array.from({ length: 20 }, (_, i) => cell(i * 40, 560, 40, i % 2 ? p.surface : p.ink)),
+      ...heart.flatMap((row, y) => [...row].map((v, x) => (v === "1" ? cell(80 + x * 24, 80 + y * 24, 24, p.accent) : ""))),
+      ...[0, 1, 2].map((i) => rect(520 + i * 56, 96, 40, 40, i === 2 ? p.surface : p.primary)),
+      rect(300, 380, 40, 100, p.ink), rect(260, 420, 120, 40, p.ink), rect(300, 340, 40, 40, p.primary),
+      rect(80, 250, 640, 130, p.ink), rect(88, 258, 624, 114, p.surface),
+      ...[0, 1, 2].map((i) => rect(112, 282 + i * 28, 520 - i * 120, 12, p.ink)),
+      rect(660, 340, 24, 12, p.accent),
+    ];
+  },
+  synthwave: (p, _r, id) => {
+    const horizon = 380;
+    return [
+      `<defs><linearGradient id="${id}-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${p.bg}"/><stop offset="1" stop-color="${p.surface}"/></linearGradient>
+<linearGradient id="${id}-sun" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFD319"/><stop offset="1" stop-color="${p.primary}"/></linearGradient></defs>`,
+      rect(0, 0, W, H, `url(#${id}-sky)`),
+      circ(400, 250, 130, `url(#${id}-sun)`),
+      ...[0, 1, 2, 3, 4].map((i) => rect(272, 270 + i * 22, 256, 3 + i * 3, p.surface)),
+      rect(0, horizon, W, H - horizon, p.bg),
+      line(0, horizon, W, horizon, p.accent, 3),
+      ...Array.from({ length: 13 }, (_, i) => line(400, horizon, -400 + i * 133, H, p.accent, 1.5, { opacity: 0.8 })),
+      ...[0, 1, 2, 3, 4, 5].map((i) => line(0, horizon + 10 * (i + 1) ** 1.7, W, horizon + 10 * (i + 1) ** 1.7, p.accent, 1.5, { opacity: 0.8 })),
+      poly([[0, horizon], [90, 300], [150, 340], [220, 290], [300, horizon]], p.surface, { opacity: 0.9 }),
+    ];
+  },
+  terminal: (p) => [
+    rect(0, 0, W, H, p.bg),
+    rect(60, 60, 680, 480, "none", { stroke: p.primary, "stroke-width": 2 }),
+    line(60, 110, 740, 110, p.primary, 2),
+    ...[0, 1, 2].map((i) => rect(80 + i * 28, 78, 14, 14, p.primary)),
+    ...[0, 1, 2, 3, 4, 5].map((i) => rect(90, 140 + i * 30, [420, 300, 360, 240, 330, 180][i], 10, p.primary, { opacity: i % 2 ? 0.55 : 1 })),
+    ...[0, 1, 2, 3, 4, 5, 6, 7].map((i) => rect(520 + i * 24, 440 - [30, 60, 40, 90, 70, 110, 80, 130][i], 16, [30, 60, 40, 90, 70, 110, 80, 130][i], i === 7 ? p.accent : p.primary)),
+    poly([[90, 350], [114, 362], [90, 374]], p.accent),
+    rect(130, 352, 16, 22, p.primary),
+    ...[0, 1, 2].map((i) => rect(90 + i * 120, 480, 100, 10, p.primary, { opacity: 0.35 })),
+  ],
+  plain: (p) => [
+    rect(0, 0, W, H, p.bg),
+    rect(60, 60, 440, 34, p.ink),
+    line(60, 120, 740, 120, p.ink, 2),
+    ...[0, 1, 2, 3].map((i) => rect(60, 150 + i * 22, 640 - i * 90, 8, p.ink, { opacity: 0.8 })),
+    rect(60, 262, 200, 6, p.accent), line(60, 276, 260, 276, p.accent, 2),
+    ...[0, 1, 2, 3].map((i) => line(60, 320 + i * 50, 740, 320 + i * 50, p.ink, 1)),
+    ...[0, 1, 2, 3].map((i) => line(60 + i * 226, 320, 60 + i * 226, 470, p.ink, 1)),
+    line(740, 320, 740, 470, p.ink, 1),
+    ...[0, 1, 2].map((i) => rect(76 + i * 226, 336, 120, 8, p.ink, { opacity: 0.7 })),
+  ],
   neobrutal: (p) => {
     const [black, cream, yellow, pink, blue, mint, white] = p.all;
     const k = black ?? "#000000";

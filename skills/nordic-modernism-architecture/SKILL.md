@@ -179,8 +179,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more austere**: move toward [`international-style-architecture`](../international-style-architecture/SKILL.md) (International Style). Drop the timber and curved plan, make the plan orthogonal, and use white plaster and a strict ribbon-window grid.
 
 - **Came from (go here for a more orthodox version):** [`international-style-architecture`](../international-style-architecture/SKILL.md)
+- **Led to (go here for a newer version):** [`critical-regionalism-architecture`](../critical-regionalism-architecture/SKILL.md)
 - **Kin in another domain:** [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
-- **Nearest by vector profile:** [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md), [`prairie-school-architecture`](../prairie-school-architecture/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md)
+- **Nearest by vector profile:** [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md), [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md), [`organic-architecture`](../organic-architecture/SKILL.md)
 
 ## Emotional target
 

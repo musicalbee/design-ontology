@@ -42,7 +42,8 @@ for (const { file, slug, principle } of principles) {
 
 for (const domain of domains) {
   const validate = ajv.compile(readJson<object>(join(ROOT, domain.schema)));
-  const eraIds = new Set(loadEras(domain.id).map((e) => e.id));
+  const eras = loadEras(domain.id);
+  const eraIds = new Set(eras.map((e) => e.id));
 
   for (const { file, slug, style } of loadStyleFiles(domain.id)) {
     count++;
@@ -52,6 +53,13 @@ for (const domain of domains) {
     }
     if (style.id !== slug) errors.push(`${file}: id "${style.id}" is not equal to the file name`);
     if (!eraIds.has(style.era_id)) errors.push(`${file}: era_id "${style.era_id}" is not in data/${domain.id}/eras/`);
+    const era = eras.find((e) => e.id === style.era_id);
+    const span = era && /(\d{4})\D+(\d{4}|now)/.exec(era.period ?? "");
+    if (span) {
+      const [from, to] = [Number(span[1]), span[2] === "now" ? 9999 : Number(span[2])];
+      if (style.time_period.start < from || style.time_period.start > to)
+        warnings.push(`${file}: starts in ${style.time_period.start}, outside era "${era!.id}" (${era!.period})`);
+    }
     if (byId.has(style.id)) errors.push(`${file}: id "${style.id}" exists in more than one domain`);
     byId.set(style.id, style);
 

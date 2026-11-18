@@ -1,0 +1,282 @@
+{
+  "$schema": "../../../schema/domains/architecture.schema.json",
+  "id": "mass-timber-architecture",
+  "domain": "architecture",
+  "name": "Mass Timber",
+  "aliases": [
+    "New wood architecture",
+    "Engineered timber architecture",
+    "CLT architecture"
+  ],
+  "era_id": "postmodern-and-after",
+  "time_period": {
+    "start": 1995,
+    "end": null,
+    "label": "1995–present"
+  },
+  "building_types": [
+    "residential",
+    "commercial",
+    "education",
+    "civic"
+  ],
+  "summary": "Buildings of engineered wood. Cross-laminated and glued timber panels and beams make floors, walls and frames, and tall buildings of 6 to 25 storeys with warm interiors and a low carbon footprint.",
+  "philosophy": {
+    "core_thesis": "A building can be made of engineered timber panels and beams, and so store carbon, build fast off site and show the warm grain of its own structure.",
+    "design_principles": [
+      "Use cross-laminated timber panels of 0.1 to 0.3m for floors and walls, and glulam beams and columns on a grid of 6 to 9m.",
+      "Show the timber: leave the soffit, the beam and the column visible, with fire-char allowances of 40 to 60mm.",
+      "Prefabricate in the factory, and lift the panels to the site in a plan with a tolerance of 2 to 5mm.",
+      "Keep the grid regular and repeating, because the panel and the truck size set the module.",
+      "Protect the timber from water: use a deep eave, a rainscreen and a ventilated cavity of 20 to 40mm.",
+      "Combine with a concrete core or hybrid floor for stiffness and fire when the building passes 8 storeys."
+    ],
+    "anti_patterns": [
+      "Timber hidden behind plasterboard on every surface",
+      "A grid so irregular that each panel is unique",
+      "Open timber end grain exposed to the rain",
+      "Fake wood-pattern cladding on a steel frame",
+      "Long untreated timber spans without fire design",
+      "Dark opaque finishes that hide the grain"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "structural_expression": 5,
+    "geometric_rigidity": 4,
+    "material_rawness": 4,
+    "monumentality": 3
+  },
+  "massing": {
+    "form": "A regular rectangular block of 6 to 25 storeys, with stacked floors and a timber grid on the facade.",
+    "proportion": "A bay of 6 to 9m by 6 to 9m; storey height of 3.0 to 3.6m; a plan of 15 to 25m deep.",
+    "roof": "A flat roof with a timber panel deck and a deep overhang, or a green roof.",
+    "relation_to_ground": "A concrete or masonry base keeps the timber 0.3 to 0.5m above the ground and out of the splash zone."
+  },
+  "structure": {
+    "system": "Cross-laminated timber floors and walls, glulam beams and columns, often with a concrete core.",
+    "span_and_module": "A grid of 6 to 9m; slab span of 5 to 8m; CLT thickness of 0.1 to 0.3m; glulam sections 0.2 by 0.4m.",
+    "expression": "The glulam column, the beam and the panel edge are the structure and the interior, and they are left visible."
+  },
+  "materials": {
+    "primary": [
+      "cross-laminated timber",
+      "glulam",
+      "laminated veneer lumber"
+    ],
+    "secondary": [
+      "concrete core",
+      "steel connectors",
+      "glass",
+      "charred timber cladding"
+    ],
+    "finish": "Natural and warm: sealed or oiled timber with visible grain, and char or clear sealer outside.",
+    "palette": [
+      {
+        "name": "Spruce blond",
+        "hex": "#D9B882",
+        "role": "structure and soffits"
+      },
+      {
+        "name": "Oak honey",
+        "hex": "#B98A52",
+        "role": "floors and fittings"
+      },
+      {
+        "name": "Char black",
+        "hex": "#2B2623",
+        "role": "charred cladding"
+      },
+      {
+        "name": "Cloud white",
+        "hex": "#EDEBE4",
+        "role": "walls and ceilings"
+      },
+      {
+        "name": "Glass green",
+        "hex": "#9FB8AE",
+        "role": "glazing"
+      }
+    ]
+  },
+  "facade": {
+    "composition": "A regular timber frame facade: storey bands, vertical timber mullions and panel joints show the grid.",
+    "openings": "Large framed windows in panel bays; the window-to-wall ratio is 35 to 60%.",
+    "solid_to_void": "Balanced: 40–65% solid."
+  },
+  "light_and_space": {
+    "daylight": "Daylight reaches 6 to 9m into the plan, and the timber soffit warms the light.",
+    "spatial_sequence": "An open plan on a 6 to 9m grid, with a lobby, a stair and the open floor plates stacked in a regular order.",
+    "interior_character": "A ceiling of 2.8 to 3.4m with visible glulam beams, panel soffits and a warm smell and tone."
+  },
+  "ornament": {
+    "attitude": "There is no applied ornament: the grain, the panel joint and the connector are the detail.",
+    "details": [
+      "visible glulam grid",
+      "panel joints",
+      "steel connectors",
+      "charred cladding",
+      "timber stairs"
+    ]
+  },
+  "composition": {
+    "symmetry": "asymmetric",
+    "axis_count": 0,
+    "rhythm_module_m": 6.5,
+    "rules": [
+      {
+        "principle": "rhythm",
+        "rule": "Repeat the structural bay along the facade.",
+        "value": "bay 6–9m"
+      },
+      {
+        "principle": "proportion",
+        "rule": "Hold the bay near a square, set by the panel and the truck.",
+        "value": "6–9m by 6–9m"
+      },
+      {
+        "principle": "grouping",
+        "rule": "Stack the services in one concrete core, away from the open floor.",
+        "value": "1 core"
+      },
+      {
+        "principle": "unity-variety",
+        "rule": "Hold one structural timber on the whole facade.",
+        "value": "1 species"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Layer the rainscreen, the vent cavity, the panel and the fire char.",
+        "value": "4 layers"
+      },
+      {
+        "principle": "scale",
+        "rule": "Keep the storey at a human height of 3.0 to 3.6m.",
+        "value": "3.0–3.6m"
+      }
+    ]
+  },
+  "references": {
+    "images": [
+      {
+        "title": "Brock Commons Tallwood House, UBC",
+        "credit": "Travis Zhang",
+        "licence": "CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Brock_Commons_Tallwood_House,_UBC_-_facade_with_tree_shadow.jpg"
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "brutalist-architecture"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "scandinavian-interior"
+    ]
+  },
+  "emotion": {
+    "target_response": "Warmth and care: the viewer feels a calm, natural, human-scale building that is also modern.",
+    "keywords": [
+      "warm",
+      "natural",
+      "sustainable",
+      "calm",
+      "crafted"
+    ],
+    "brand_archetypes": [
+      "caregiver",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "mass timber",
+      "cross-laminated timber",
+      "clt",
+      "glulam",
+      "new wood architecture",
+      "timber tower",
+      "engineered wood building",
+      "brock commons",
+      "low carbon building",
+      "exposed timber structure"
+    ],
+    "use_cases": [
+      "mid-rise offices and housing",
+      "schools and libraries",
+      "timber tower concepts",
+      "low-carbon building briefs"
+    ],
+    "avoid_when": [
+      "The brief asks for a wide open span of more than 20m or a deep wet basement.",
+      "The brief asks for a thin glass curtain wall."
+    ],
+    "modifiers": [
+      {
+        "request": "more nordic",
+        "toward": "nordic-modernism-architecture",
+        "how": "Lower the block to 2 or 3 storeys, add a pitched roof and a white plaster plinth, and warm the plan."
+      },
+      {
+        "request": "more digital",
+        "toward": "parametricism-architecture",
+        "how": "Let a script shape the panel edges into curves, with a free timber lattice."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "exposed glulam grid",
+      "cross-laminated timber soffit",
+      "timber tower",
+      "charred timber cladding",
+      "timber stair core",
+      "clear sealer",
+      "warm daylight",
+      "repeating bays",
+      "green roof"
+    ],
+    "negative": [
+      "glass curtain wall",
+      "painted concrete frame",
+      "fake wood veneer",
+      "irregular heavy forms",
+      "raw concrete",
+      "dark mirrored glass"
+    ],
+    "canonical_works": [
+      {
+        "work": "Murray Grove, London",
+        "architect": "Waugh Thistleton Architects",
+        "year": 2009
+      },
+      {
+        "work": "T3, Minneapolis",
+        "architect": "Michael Green Architecture",
+        "year": 2016
+      },
+      {
+        "work": "Brock Commons Tallwood House, Vancouver",
+        "architect": "Acton Ostry Architects",
+        "year": 2017
+      },
+      {
+        "work": "Mjøstårnet, Brumunddal",
+        "architect": "Voll Arkitekter",
+        "year": 2019
+      },
+      {
+        "work": "HoHo Wien",
+        "architect": "RLP Rüdiger Lainer + Partner",
+        "year": 2020
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Andrew Waugh, Anthony Thistleton and Michael Green, Tall Timber Buildings (Routledge, 2022)"
+    }
+  ]
+}

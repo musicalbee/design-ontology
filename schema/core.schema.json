@@ -159,6 +159,33 @@
           "url": { "type": "string", "pattern": "^https://" }
         }
       }
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "description": "Canonical evidence for the style that anyone may reuse: each item has an open licence or is in the public domain. The repository stores the link, the credit and the licence, never the file. The demo loads an image, a font or an icon from `file` by URL.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["title", "kind", "credit", "licence", "url"],
+        "properties": {
+          "title": { "$ref": "#/$defs/shortText" },
+          "kind": {
+            "enum": ["image", "font", "icon-set", "document"],
+            "description": "image: a photo or a scan of a work. font: an open font file. icon-set: an open icon set, with one icon as `file`. document: a text or a specimen book."
+          },
+          "maker": { "type": "string", "minLength": 2, "maxLength": 120 },
+          "year": { "type": "integer", "minimum": -3000, "maximum": 2100 },
+          "credit": { "type": "string", "minLength": 3, "maxLength": 200 },
+          "licence": {
+            "enum": ["CC0", "Public domain", "CC BY 2.0", "CC BY 3.0", "CC BY 4.0", "CC BY-SA 3.0", "CC BY-SA 4.0", "OFL-1.1", "MIT", "ISC", "Apache-2.0"]
+          },
+          "licence_url": { "type": "string", "pattern": "^https://" },
+          "url": { "type": "string", "pattern": "^https://", "description": "The page of the item: the Commons file page, the repository or the font page." },
+          "file": { "type": "string", "pattern": "^https://", "description": "A direct link to the file that the demo shows: an image, a font (woff2, ttf, otf) or an SVG icon." }
+        }
+      }
     }
   }
 }
