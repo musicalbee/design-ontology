@@ -237,7 +237,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Led to (go here for a newer version):** [`synthwave-web`](../synthwave-web/SKILL.md)
 - **Mixes well with:** [`cybercore-web`](../cybercore-web/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`pixel-art-web`](../pixel-art-web/SKILL.md)
-- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md)
+- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`surrealism-painting`](../surrealism-painting/SKILL.md)
 - **Nearest by vector profile:** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md)
 
 ## Emotional target

@@ -1,0 +1,265 @@
+{
+  "$schema": "../../../schema/domains/photography.schema.json",
+  "id": "new-objectivity",
+  "name": "New Objectivity photography",
+  "aliases": [
+    "Neue Sachlichkeit photography",
+    "Neues Sehen"
+  ],
+  "era_id": "documentary-century",
+  "time_period": {
+    "start": 1920,
+    "end": 1935,
+    "label": "1920s–1930s"
+  },
+  "process": [
+    "analogue-bw"
+  ],
+  "summary": "Sharp, close, frontal pictures of plants, tools, faces and machines, made in Germany between the wars. The camera sees more than the eye, and it names things without comment.",
+  "philosophy": {
+    "core_thesis": "The lens is exact and unsentimental, so the honest picture shows the structure of a thing at close range and in full detail.",
+    "design_principles": [
+      "Fill the frame with one object, shot at 0.3 to 1m, so that its structure becomes the pattern.",
+      "Use a 135mm to 210mm lens on a 9×12cm or 13×18cm plate, stopped down to f/32 for full sharpness.",
+      "Light from one side in open shade or a window, with a key-to-fill ratio of 2:1.",
+      "Place the subject frontal and centred, or in strict rows, with a neutral grey or white ground.",
+      "Print on glossy paper at grade 2 and show the whole tonal scale without toning.",
+      "Repeat the same view for a whole series of 20 to 100 plates, so that the differences become the content."
+    ],
+    "anti_patterns": [
+      "Soft focus, mist or hand-worked negatives",
+      "Dramatic angles for effect alone",
+      "Moody low-key lighting",
+      "Decorative props or backgrounds",
+      "Sepia or any toning",
+      "Captions that tell the viewer how to feel"
+    ]
+  },
+  "vectors": {
+    "staging": 2,
+    "tonal_contrast": 3,
+    "colour_saturation": 1,
+    "depth_of_field": 1,
+    "proximity": 5
+  },
+  "composition": {
+    "framing": "Tight and frontal; the object touches or leaves the frame edges.",
+    "viewpoint": "Level with the subject, 0.3 to 1m away, camera square to the plane.",
+    "geometry": "Rows, spirals and repeats; the plant or tool forms its own grid.",
+    "subject_placement": "Centred, with a plain ground that takes 10–20% of the frame.",
+    "principles": [
+      {
+        "principle": "focal-point",
+        "rule": "Let 1 object fill 80–95% of the frame; nothing else takes more than 5%."
+      },
+      {
+        "principle": "symmetry-axis",
+        "rule": "Put the axis of the plant or tool at 0.5 of the width, within 0.03."
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Repeat a leaf, rib or tooth at a constant pitch, with 8 to 20 repeats across the frame."
+      },
+      {
+        "principle": "negative-space",
+        "rule": "Keep 10–20% of the frame as plain grey or white ground."
+      },
+      {
+        "principle": "unity-variety",
+        "rule": "Show 20 to 100 plates of one view and one light, and change only the specimen."
+      }
+    ]
+  },
+  "light": {
+    "quality": "Soft, even and directional: open shade or a north window.",
+    "direction": "From one side, 60° to the lens axis, with a white card on the other side.",
+    "key_to_fill_ratio": "2:1 (1 stop)",
+    "colour_temperature": "5500K (daylight)",
+    "time_of_day": "Midday, in open shade"
+  },
+  "lens_and_camera": {
+    "format": "Plate or sheet film, 9×12cm to 13×18cm; digital medium format as a modern equivalent",
+    "focal_length": "135mm to 210mm (large format)",
+    "aperture": "f/32 to f/45",
+    "shutter": "1/2s to 2s",
+    "film_speed": "ISO 25 to 50 (orthochromatic plate)",
+    "focus": "Focus on the nearest edge of the structure and tilt nothing; the depth of field covers 0.3m or more.",
+    "support": "Heavy tripod",
+    "equipment": [
+      "view camera",
+      "lens hood",
+      "white reflector card",
+      "focusing cloth"
+    ]
+  },
+  "colour_and_grade": {
+    "treatment": "Neutral black and white with a full tonal scale, no toning and no grain.",
+    "palette": [
+      {
+        "name": "Plate black",
+        "hex": "#151515",
+        "role": "deepest shadow"
+      },
+      {
+        "name": "Slate grey",
+        "hex": "#6B6D6E",
+        "role": "midtones"
+      },
+      {
+        "name": "Paper grey",
+        "hex": "#BDBDB8",
+        "role": "light midtones"
+      },
+      {
+        "name": "Glossy white",
+        "hex": "#F4F4F0",
+        "role": "highlights"
+      }
+    ],
+    "grade_recipe": [
+      "Convert to monochrome with a neutral mix (R 30, G 59, B 11).",
+      "Set the black point at 2% and the white point at 97%.",
+      "Apply +10% midtone contrast with a gentle S-curve.",
+      "Sharpen at radius 0.8px, amount 80%, to show the fine structure.",
+      "Add no grain and no vignette.",
+      "Do not crop; keep the edge of the plate."
+    ],
+    "grain": "None: a fine-grain plate, sharp at 10× enlargement"
+  },
+  "subject_and_staging": {
+    "subjects": [
+      "plants and seed heads",
+      "machine parts",
+      "tools",
+      "workers' faces",
+      "portraits of trades",
+      "industrial towers"
+    ],
+    "staging": "Minimal. The object stands on a plain ground; sitters face the lens and hold the pose for 1 to 2s.",
+    "direction": "Say nothing about meaning. Ask the sitter to look at the lens with a neutral face."
+  },
+  "post_processing": {
+    "workflow": [
+      "Develop in a fine-grain developer, for a gamma of 0.7.",
+      "Contact print or enlarge to grade 2 on glossy paper.",
+      "Order the plates in a sequence by form.",
+      "Print the series at one size."
+    ],
+    "output": "A sharp glossy print of one view, shown with its siblings as a series or a book plate."
+  },
+  "prompt_primer": {
+    "positive": [
+      "new objectivity photograph",
+      "frontal close-up",
+      "large format 9x12 plate",
+      "f/32 everything sharp",
+      "neutral grey background",
+      "soft side light",
+      "clinical black and white",
+      "plant structure",
+      "series of specimens"
+    ],
+    "negative": [
+      "soft focus",
+      "dramatic shadows",
+      "sepia",
+      "bokeh",
+      "motion blur",
+      "decorative props"
+    ],
+    "canonical_works": [
+      {
+        "work": "Urformen der Kunst",
+        "maker": "Karl Blossfeldt",
+        "year": 1928
+      },
+      {
+        "work": "Die Welt ist schön",
+        "maker": "Albert Renger-Patzsch",
+        "year": 1928
+      },
+      {
+        "work": "Antlitz der Zeit",
+        "maker": "August Sander",
+        "year": 1929
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "straight-photography"
+    ],
+    "rebelled_against": [
+      "pictorialism"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "bauhaus-architecture",
+      "german-expressionist-cinema"
+    ]
+  },
+  "emotion": {
+    "target_response": "Cool attention: the viewer studies the thing and trusts the frame.",
+    "keywords": [
+      "exact",
+      "frontal",
+      "clinical",
+      "serial",
+      "unsentimental"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "new objectivity",
+      "neue sachlichkeit",
+      "blossfeldt",
+      "renger-patzsch",
+      "august sander",
+      "specimen photograph",
+      "typology photograph"
+    ],
+    "use_cases": [
+      "product catalogues with a scientific feel",
+      "botanical and industrial plates",
+      "portrait series by trade",
+      "image prompts for specimen grids"
+    ],
+    "avoid_when": [
+      "The brief needs warmth, mood or a story in one frame.",
+      "The subject is a moving crowd."
+    ],
+    "modifiers": [
+      {
+        "request": "more romantic",
+        "toward": "pictorialism",
+        "how": "Switch to a soft-focus lens at f/5.6, a platinum or gum print and a 40–60% mist; keep a single subject."
+      },
+      {
+        "request": "more severe and serial",
+        "toward": "duesseldorf-school",
+        "how": "Use a 4×5 or digital medium format camera in colour at 1.5 to 20m, flat grey light and a fixed frontal view for 20 or more prints."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q160218: New Objectivity (Neue Sachlichkeit)",
+      "url": "https://www.wikidata.org/wiki/Q160218"
+    },
+    {
+      "title": "Wikidata Q61530: August Sander",
+      "url": "https://www.wikidata.org/wiki/Q61530"
+    },
+    {
+      "title": "Karl Blossfeldt, Urformen der Kunst (Wasmuth, 1928)"
+    },
+    {
+      "title": "August Sander, Antlitz der Zeit (Transmare, 1929)"
+    }
+  ],
+  "domain": "photography"
+}

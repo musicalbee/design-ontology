@@ -1,0 +1,117 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "pop-art-painting",
+  "domain": "painting",
+  "name": "Pop Art",
+  "aliases": ["Pop painting", "Ben-Day dot painting"],
+  "era_id": "avant-garde",
+  "time_period": { "start": 1956, "end": 1975, "label": "1956–1975" },
+  "region": "New York, United States and London",
+  "media": ["acrylic", "oil on canvas", "mixed media"],
+  "summary": "Pictures made from the images of the mass market: comics, adverts, packaging and stars. Flat colour, hard outline, repeats and printing marks show that the picture is a product, not a vision.",
+  "philosophy": {
+    "core_thesis": "Everyday mass images are the subject of the age, and a painting can take their look, their flat colour and their repeat, without comment and without the artist's hand.",
+    "design_principles": [
+      "Take the subject from mass media: a comic panel, a can, a star, an advert.",
+      "Paint flat, opaque colour in large fields, with a thick, hard black outline of 5–15mm.",
+      "Use a limited set of bold primary and secondary colours, at full saturation, on a white or flat ground.",
+      "Copy the mark of the printing process: Ben-Day dots of 3–8mm in a regular grid, or a screen-print registration slip.",
+      "Repeat the image in a grid of 2 to 50 copies, with small changes in colour between them.",
+      "Crop the image hard, and enlarge it to a scale of 1 to 3m so that a small thing is monumental.",
+      "Keep the surface cool and mechanical, and hide the gesture and the personal touch."
+    ],
+    "anti_patterns": [
+      "Gesture, drip and a visible personal stroke",
+      "Soft modelling and an atmospheric, deep space",
+      "Muted, earthy or tonal colour",
+      "A unique, heroic or spiritual subject",
+      "Fine, subtle blends of colour",
+      "Emotion shown by the artist's hand"
+    ]
+  },
+  "vectors": { "abstraction": 2, "brushwork_visibility": 1, "chromatic_intensity": 5, "depth_illusion": 1, "line_dominance": 4 },
+  "composition": {
+    "layout": "A flat, poster-like image that fills the canvas, or a grid of 2 to 50 repeats, with a strong outline and one large, cropped subject.",
+    "focal_point": "The main subject, enlarged and cropped, at the centre or in a grid cell, with the strongest colour and the thickest outline.",
+    "format": "A square or portrait canvas at 1:1 to 3:4, or a grid of the same cells; the size is 1 to 3m, and the subject is cropped by the edge.",
+    "principles": [
+      { "principle": "rhythm", "rule": "Repeat the image 2 to 50 times in a regular grid, with a gap of 0–5% between the cells and a colour change in every cell." },
+      { "principle": "contrast", "rule": "Set a black outline of 5–15mm against flat fields of saturated colour, with a value jump of 50% or more." },
+      { "principle": "scale", "rule": "Enlarge a small, common object to 1–3m so that it fills 80–100% of the canvas." },
+      { "principle": "colour-distribution", "rule": "Use 3–5 flat colours with 2 dominant fields of 25–40% each, and keep each colour at full saturation." },
+      { "principle": "focal-point", "rule": "Place one cropped subject at the centre, or at one third from an edge, with the thickest outline and the brightest colour." },
+      { "principle": "hierarchy", "rule": "Make 2 levels: a large, flat subject at 50–70% of the area, and a small band of text or dots at 5–10%." }
+    ]
+  },
+  "palette": {
+    "strategy": "Bold, flat, saturated primary and secondary colour from the print and the shop, with black and white, and no tone.",
+    "distribution": "2 dominant fields of 25–40% each, 2–3 accent fields of 5–15%, black outline 5–10%, white 5–15%.",
+    "ground": "A flat white or a single flat colour; a primed canvas with no texture.",
+    "colours": [
+      { "name": "Pop red", "hex": "#E3262E", "pigment": "cadmium red or acrylic red", "role": "main field and a lip, a can or a dress" },
+      { "name": "Pop yellow", "hex": "#FFD700", "pigment": "cadmium yellow", "role": "hair, background and highlight" },
+      { "name": "Pop blue", "hex": "#1E59C8", "pigment": "cobalt or acrylic blue", "role": "sky, shadow and outline field" },
+      { "name": "Hot pink", "hex": "#F0489B", "pigment": "fluorescent or magenta acrylic", "role": "skin and background" },
+      { "name": "Cyan", "hex": "#1BB5D8", "pigment": "cyan acrylic", "role": "eye shadow and field" },
+      { "name": "Print black", "hex": "#101010", "pigment": "carbon black", "role": "outline and dots" },
+      { "name": "Paper white", "hex": "#F7F5EF", "pigment": "titanium white", "role": "ground and dot field" }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Acrylic or oil in flat, opaque colour; silkscreen ink over the paint.",
+    "support": "A large, primed canvas with a flat, smooth ground.",
+    "brushwork": "No stroke shows; the fields are flat and even, and the dots are set by a stencil or a screen at 3–8mm.",
+    "paint_handling": "1–2 opaque coats; the outline is laid last, at 5–15mm, with an even, steady line.",
+    "edges": "Hard, clean and exact; the colour may slip off the outline by 1–3mm, like a print out of register."
+  },
+  "light_and_modelling": {
+    "light": "No depicted light; the picture is evenly bright and flat like a print.",
+    "modelling": "None or by a dot screen in 1–2 steps; forms are cut-out shapes.",
+    "shadow": "A flat shape in a darker colour or a black field; no gradient.",
+    "temperature": "Hot and cold set by flat fields, with a strong primary clash such as red against blue."
+  },
+  "subject": {
+    "typical": "A comic panel, a soup can, a star's face, a burger, a car, a sign, a flag and an advert.",
+    "figure_scale": "Large and cropped: a face or an object fills 60–100% of the picture height.",
+    "treatment": "Cool, flat and impersonal; the image is shown as a product, with a wink and no comment."
+  },
+  "surface": {
+    "finish": "Flat, matt to satin, and even.",
+    "texture": "Smooth and mechanical; a screen or a dot grid is the only texture."
+  },
+  "reference_works": {
+    "works": [
+      { "work": "Alka Seltzer", "artist": "Roy Lichtenstein", "date": "1966", "museum": "Art Institute of Chicago", "object_id": "122054", "public_domain": false },
+      { "work": "Marilyn Monroe (Marilyn)", "artist": "Andy Warhol", "date": "1967", "museum": "Art Institute of Chicago", "object_id": "150044", "public_domain": false },
+      { "work": "Volunteer", "artist": "James Rosenquist", "date": "1963/64", "museum": "Art Institute of Chicago", "object_id": "132672", "public_domain": false }
+    ],
+    "note": "These works are in copyright and the museum does not flag them as public domain. The ids identify the works only. Look at the museum page for the image and its licence; do not copy it."
+  },
+  "prompt_primer": {
+    "positive": ["pop art painting", "Ben-Day dots", "flat saturated colour", "thick black outline", "comic book panel", "repeated grid of images", "silkscreen registration slip", "mass media subject", "Lichtenstein and Warhol style", "poster-like flat image"],
+    "negative": ["gestural brush strokes", "soft atmospheric depth", "muted earth palette", "visible personal touch", "subtle blending", "spiritual mood"]
+  },
+  "lineage": { "evolved_from": [], "rebelled_against": ["abstract-expressionism"], "hybridized_with": [], "echoes": ["pop-art-web", "memphis-design"] },
+  "emotion": {
+    "target_response": "Playful recognition: the viewer meets a familiar image made loud and cool, and smiles at it.",
+    "keywords": ["bold", "playful", "commercial", "iconic", "ironic"],
+    "brand_archetypes": ["jester", "outlaw", "everyman"]
+  },
+  "agent": {
+    "triggers": ["pop art", "warhol", "lichtenstein", "ben-day dots", "comic book style", "silkscreen", "rosenquist", "mass media art", "campbell soup"],
+    "use_cases": ["poster, campaign and packaging with a loud, playful voice", "merchandise and apparel graphics", "editorial and music cover art", "retail and event identity"],
+    "avoid_when": [
+      "The brief needs a quiet, luxury or spiritual mood.",
+      "The picture must show subtle tone or a personal hand."
+    ],
+    "modifiers": [
+      { "request": "more expressive and personal", "toward": "abstract-expressionism", "how": "Keep the scale and the strong colour; drop the outline and the print grid, and lay a visible gesture of 50–200mm." },
+      { "request": "more dreamlike", "toward": "surrealism-painting", "how": "Keep the flat clarity; set the object in a deep, empty plain with a long shadow, and change its scale by 3 to 10 times." }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q134147 (Pop art)", "url": "https://www.wikidata.org/wiki/Q134147" },
+    { "title": "Art Institute of Chicago API (CC0 data)", "url": "https://api.artic.edu/docs/" },
+    { "title": "Lawrence Alloway, The Arts and the Mass Media (Architectural Design, 1958)" }
+  ]
+}

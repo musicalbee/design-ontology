@@ -1,0 +1,272 @@
+{
+  "$schema": "../../../schema/domains/photography.schema.json",
+  "id": "documentary-photography",
+  "name": "Documentary photography",
+  "aliases": [
+    "Social documentary",
+    "Photojournalism"
+  ],
+  "era_id": "documentary-century",
+  "time_period": {
+    "start": 1936,
+    "end": null,
+    "label": "1930s–today"
+  },
+  "process": [
+    "analogue-bw",
+    "digital"
+  ],
+  "summary": "Photographs that bear witness to people, work and events. The maker gets close, earns trust and shows what the sitter needs the viewer to see.",
+  "philosophy": {
+    "core_thesis": "A photograph can be evidence and an appeal at once, if the maker stays honest about what happened and with whom.",
+    "design_principles": [
+      "Use a 35mm or 50mm lens at 1 to 2.5m, so that the sitter, the room and the work share the frame.",
+      "Shoot in available light at ISO 400 to 1600, with a shutter of 1/60s or faster, and do not add flash.",
+      "Show the face and the hands, and the place that explains them.",
+      "Make 100 or more frames for one story, and edit down to 8 to 20 pictures.",
+      "Print with a full but natural range: no crushed blacks and no clipped skies.",
+      "Caption with who, where and when, in plain words."
+    ],
+    "anti_patterns": [
+      "Staging a scene or rearranging people",
+      "Heavy HDR or composite skies",
+      "Cropping out context that changes the meaning",
+      "Victim pose and pity as the only note",
+      "Beauty filters or skin smoothing",
+      "Captions that invent facts"
+    ]
+  },
+  "vectors": {
+    "staging": 1,
+    "tonal_contrast": 3,
+    "colour_saturation": 2,
+    "depth_of_field": 2,
+    "proximity": 4
+  },
+  "composition": {
+    "framing": "Medium and wide; the frame holds the person and the place that explains them.",
+    "viewpoint": "Eye height, handheld, 1 to 2.5m from the subject.",
+    "geometry": "Window frames, doorways and tools make the geometry; people sit inside layers of the room.",
+    "subject_placement": "Off centre with the eyes or the hands on a third line; context fills the rest.",
+    "principles": [
+      {
+        "principle": "focal-point",
+        "rule": "Let 1 face or pair of hands take 25–40% of the frame, with the place around it."
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Hold 3 planes: foreground object at 1m, person at 2m and room or street at 5m."
+      },
+      {
+        "principle": "rule-of-thirds",
+        "rule": "Put the eyes within 0.05 of the upper third line, at 0.33 of the height."
+      },
+      {
+        "principle": "framing",
+        "rule": "Use a door, window or tool to frame the person with a margin of 5–15%."
+      },
+      {
+        "principle": "balance",
+        "rule": "Keep informal balance: person on one side, work or object on the other, at a ratio of 0.7–1.4."
+      }
+    ]
+  },
+  "light": {
+    "quality": "Available light, as found: window light, overcast sky or a single lamp.",
+    "direction": "From a window or door to the side; the face gets a soft modelling of 2:1 to 4:1.",
+    "key_to_fill_ratio": "2:1 to 4:1 (1–2 stops)",
+    "colour_temperature": "5000–6500K for daylight; 2800–3200K for tungsten",
+    "time_of_day": "Any; early and late light preferred"
+  },
+  "lens_and_camera": {
+    "format": "35mm SLR or rangefinder; digital full frame as a modern equivalent",
+    "focal_length": "35mm to 50mm",
+    "aperture": "f/4 to f/8",
+    "shutter": "1/60s to 1/500s",
+    "film_speed": "ISO 400 (up to 1600 pushed)",
+    "focus": "Zone focus at 2m at f/8, or focus on the eyes at f/4.",
+    "support": "Handheld",
+    "equipment": [
+      "35mm camera body",
+      "35mm and 50mm primes",
+      "notebook for captions"
+    ]
+  },
+  "colour_and_grade": {
+    "treatment": "Natural black and white with moderate grain, or true colour with no creative grade.",
+    "palette": [
+      {
+        "name": "Newsprint black",
+        "hex": "#1B1B1C",
+        "role": "shadows"
+      },
+      {
+        "name": "Work-shirt grey",
+        "hex": "#707274",
+        "role": "midtones"
+      },
+      {
+        "name": "Plaster",
+        "hex": "#C9C6BC",
+        "role": "light midtones"
+      },
+      {
+        "name": "Page white",
+        "hex": "#EFEDE6",
+        "role": "highlights"
+      }
+    ],
+    "grade_recipe": [
+      "Convert to monochrome with a neutral mix (R 40, G 50, B 10).",
+      "Set the black point at 2% and the white point at 97%.",
+      "Apply +15% midtone contrast.",
+      "Recover skies by −0.5 stop with a graduated filter; do not composite.",
+      "Add film grain, amount 15%, size 30%, as for Tri-X at ISO 400.",
+      "Crop by no more than 5%, and keep a caption with every frame."
+    ],
+    "grain": "Tri-X 400: medium grain, visible at A4"
+  },
+  "subject_and_staging": {
+    "subjects": [
+      "workers",
+      "families at home",
+      "migrants and refugees",
+      "farms and factories",
+      "protests",
+      "children at school"
+    ],
+    "staging": "None. The maker spends days or weeks with the subject and photographs what happens.",
+    "direction": "Ask for consent and for time; do not ask for a pose. Show the sitter the pictures when it is possible."
+  },
+  "post_processing": {
+    "workflow": [
+      "Make a contact sheet of every frame and mark the strongest.",
+      "Edit the series down to 8 to 20 pictures that run as a story.",
+      "Print in a natural range on grade 2 paper.",
+      "Write captions with name, place and date; check every fact."
+    ],
+    "output": "A photo essay of 8 to 20 pictures, with captions, in print, in a book or online."
+  },
+  "prompt_primer": {
+    "positive": [
+      "documentary photograph",
+      "35mm lens",
+      "available light",
+      "real people at work",
+      "eye-level",
+      "natural expression",
+      "medium grain",
+      "black and white",
+      "context visible",
+      "photo essay"
+    ],
+    "negative": [
+      "posed",
+      "studio flash",
+      "HDR",
+      "retouched skin",
+      "stock photo smile",
+      "composite sky",
+      "shallow bokeh"
+    ],
+    "canonical_works": [
+      {
+        "work": "Migrant Mother",
+        "maker": "Dorothea Lange",
+        "year": 1936
+      },
+      {
+        "work": "Let Us Now Praise Famous Men",
+        "maker": "Walker Evans",
+        "year": 1941
+      },
+      {
+        "work": "The Country Doctor",
+        "maker": "W. Eugene Smith",
+        "year": 1948
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "straight-photography"
+    ],
+    "rebelled_against": [
+      "pictorialism"
+    ],
+    "hybridized_with": [
+      "street-photography"
+    ],
+    "echoes": [
+      "dogme-95"
+    ]
+  },
+  "emotion": {
+    "target_response": "Engaged concern: the viewer sees a person, believes the scene and feels pulled toward it.",
+    "keywords": [
+      "witness",
+      "honest",
+      "human",
+      "close",
+      "evidence"
+    ],
+    "brand_archetypes": [
+      "caregiver",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "documentary photography",
+      "photojournalism",
+      "photo essay",
+      "dorothea lange",
+      "walker evans",
+      "social documentary",
+      "reportage"
+    ],
+    "use_cases": [
+      "editorial essays",
+      "NGO and report imagery",
+      "oral-history projects",
+      "image prompts for honest portraits at work"
+    ],
+    "avoid_when": [
+      "The brief needs a staged or glossy ideal.",
+      "The subjects have not agreed to be shown, or their safety is at risk."
+    ],
+    "modifiers": [
+      {
+        "request": "more fleeting and urban",
+        "toward": "street-photography",
+        "how": "Go to a 28mm lens at f/8, zone-focus at 2.5m and wait for a gesture at 1/250s; keep strangers anonymous."
+      },
+      {
+        "request": "cooler and more exact",
+        "toward": "new-objectivity",
+        "how": "Move to a tripod and a 150mm lens at f/32, with even light and a frontal view; photograph the person as a type."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q615498: documentary photography",
+      "url": "https://www.wikidata.org/wiki/Q615498"
+    },
+    {
+      "title": "Getty AAT 300134547: documentary photography (ODC-By 1.0)",
+      "url": "https://vocab.getty.edu/aat/300134547"
+    },
+    {
+      "title": "Wikidata Q230673: Dorothea Lange",
+      "url": "https://www.wikidata.org/wiki/Q230673"
+    },
+    {
+      "title": "Walker Evans and James Agee, Let Us Now Praise Famous Men (Houghton Mifflin, 1941)"
+    },
+    {
+      "title": "Jorge Lewinski, The Naked Image: Photography Since 1945 (Macmillan, 1987)"
+    }
+  ],
+  "domain": "photography"
+}

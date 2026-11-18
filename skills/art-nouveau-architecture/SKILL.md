@@ -119,6 +119,42 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Attitude:** Ornament is the structure made visible as a living line: it is drawn for the building and never added from a catalogue.
 - **Details:** whiplash iron railings · stained-glass rooflights · ceramic tile friezes · floral mosaic floors · curved stair stringers · ogee window heads
 
+## Composition rules
+
+- **Symmetry:** asymmetric
+- **Axis count:** 0
+- **Rhythm module m:** 1.5
+
+**Rules**
+
+| Principle | Rule | Value |
+|---|---|---|
+| rhythm | Let the whiplash curve repeat in ironwork, plaster and glass, with a varied beat. | curve radius 0.3–1m |
+| unity-variety | Design the whole house as one work, with one plant motif. | 1 motif |
+| leading-lines | Run the stair rail and the ceiling line in one flowing curve. | 1 flowing line |
+| lighting-layers | Light the stair hall from a skylight and tint it with coloured glass. | 1 skylight |
+| circulation | Make the stair the spine and the vertical centre of the plan. | 1 stair spine |
+
+## Reference images
+
+**Images**
+
+| Title | Credit | Licence | Url |
+|---|---|---|---|
+| Stairway of the Hôtel Tassel, Brussels | Henry Townsend | Public domain | https://commons.wikimedia.org/wiki/File:Tassel_House_stairway.JPG |
+
+## Composition principles
+
+The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
+
+| Id | Principle | Definition | Measure: typical range |
+|---|---|---|---|
+| `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repeated interval (cm or px): style module; repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive |
+| `unity-variety` | Unity and variety | Repeated materials, colours and shapes join the parts into one whole. A small, planned number of deviations keeps the whole alive. | materials or hues that repeat (count): 2 to 4; deliberate deviations (count): 1 to 2 |
+| `leading-lines` | Leading lines | Lines in the view, such as edges, rows, beams or paths, point the eye to the focal point. | lines that converge on the focal point (count): 1 to 4; angle from the frame edge (degrees): 15–60 for a diagonal |
+| `lighting-layers` | Lighting layers | Light comes from separate layers with separate jobs: ambient light for the whole space, task light for work, accent light for the focal point. In photography the same split is key, fill and accent light. | ambient illuminance (lux): 50–300 in a home; task illuminance (lux): 300–750; accent to ambient (ratio): 3:1 to 10:1; correlated colour temperature (kelvin): 2200–4000 in a home |
+| `circulation` | Circulation | The routes through a space and the clear widths that they keep free of furniture. | main route clear width (cm): 90–120; secondary route clear width (cm): 60–75; seat edge to low table (cm): 35–50; wheelchair route (cm): 90 or more; 150 turning circle |
+
 ## Vocabulary primer
 
 Use these terms in a brief, an image prompt or a 3D scene description.
@@ -143,8 +179,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more geometric**: move toward [`art-deco-architecture`](../art-deco-architecture/SKILL.md) (Art Deco). Replace the curve with the zigzag and the chevron, keep the rich materials and the total-work idea, and add a stepped silhouette.
 
 - **Led to (go here for a newer version):** [`art-deco-architecture`](../art-deco-architecture/SKILL.md)
-- **Kin in another domain:** [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md)
-- **Nearest by vector profile:** [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md), [`art-deco-architecture`](../art-deco-architecture/SKILL.md)
+- **Kin in another domain:** [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`rococo-painting`](../rococo-painting/SKILL.md)
+- **Nearest by vector profile:** [`parametricism-architecture`](../parametricism-architecture/SKILL.md), [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md), [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md)
 
 ## Emotional target
 

@@ -1,0 +1,279 @@
+{
+  "$schema": "../../../schema/domains/architecture.schema.json",
+  "id": "prairie-school-architecture",
+  "domain": "architecture",
+  "name": "Prairie School",
+  "aliases": [
+    "Prairie style",
+    "Wrightian",
+    "Chicago Prairie"
+  ],
+  "era_id": "fin-de-siecle",
+  "time_period": {
+    "start": 1900,
+    "end": 1917,
+    "label": "1900–1917"
+  },
+  "building_types": [
+    "residential",
+    "civic",
+    "commercial"
+  ],
+  "summary": "Long low houses with broad overhanging roofs, ribbon windows and a central hearth. Frank Lloyd Wright and the Chicago architects built for the flat Midwest: the horizontal line rules, and rooms flow into each other.",
+  "philosophy": {
+    "core_thesis": "A house should belong to its land: low horizontal lines, a free plan around the hearth and honest materials make an American architecture of the prairie.",
+    "design_principles": [
+      "Stress the horizontal: low hipped roofs of 1:6 to 1:4 pitch, eaves that project 1 to 2.5m and long unbroken lines of sill and band.",
+      "Plan around a central masonry hearth, and let the living rooms flow into each other in a cross-shaped or L-shaped plan.",
+      "Group the windows in bands of casements with art-glass geometry, 0.8 to 1.2m above the floor, so that the rooms feel sheltered.",
+      "Make the entrance low and indirect, 2.0 to 2.2m high, to compress the visitor before the open living room of 3 to 3.5m.",
+      "Use long thin Roman brick with deep raked horizontal joints and flush vertical joints, to stress the horizontal line.",
+      "Design the whole house as one work: built-in furniture, lamps, glass and planters follow one geometric motif."
+    ],
+    "anti_patterns": [
+      "Tall vertical proportions and steep pitched roofs",
+      "Closed boxlike rooms separated by corridors",
+      "Applied historical ornament or classical columns",
+      "A grand central front entrance on the street axis",
+      "Painted smooth surfaces that hide the brick and timber",
+      "Window openings set high and narrow in vertical strips"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "structural_expression": 3,
+    "geometric_rigidity": 4,
+    "material_rawness": 3,
+    "monumentality": 2
+  },
+  "massing": {
+    "form": "Low interlocking horizontal volumes in a cross or an L, with terraces, balconies and a tall chimney as the vertical anchor.",
+    "proportion": "Very long and low: the house is 4 to 8 times longer than its eave height of 2.8 to 3.4m.",
+    "roof": "A low hipped or gabled roof with a deep overhang of 1 to 2.5m, and a pitch of 1:6 to 1:4.",
+    "relation_to_ground": "A raised base of masonry, 0.6 to 1.2m, with planters and terrace walls that tie the house to the garden."
+  },
+  "structure": {
+    "system": "Load-bearing brick with timber floors and roofs; later steel beams for the cantilevered roof and balconies.",
+    "span_and_module": "A planning module of 1.2 to 1.5m; cantilevered eaves of up to 6m on steel; room spans of 4 to 7m.",
+    "expression": "The horizontal courses, the cantilevered slabs and the wood bands state the structure, and the chimney anchors it."
+  },
+  "materials": {
+    "primary": [
+      "Roman brick",
+      "oak and cypress timber",
+      "limestone coping",
+      "stucco"
+    ],
+    "secondary": [
+      "art glass in lead cames",
+      "copper roofing",
+      "terracotta tile",
+      "cast concrete"
+    ],
+    "finish": "Natural and matt: brick, stained wood and plaster in earth colours, left to age.",
+    "palette": [
+      {
+        "name": "Prairie brick",
+        "hex": "#A0603C",
+        "role": "walls"
+      },
+      {
+        "name": "Limestone cream",
+        "hex": "#DDD1B4",
+        "role": "coping and sills"
+      },
+      {
+        "name": "Stained oak",
+        "hex": "#5E3F26",
+        "role": "trim and joinery"
+      },
+      {
+        "name": "Field green",
+        "hex": "#6C7F3B",
+        "role": "art glass and planters"
+      },
+      {
+        "name": "Cherokee red",
+        "hex": "#8B2E1F",
+        "role": "hearth and accents"
+      }
+    ]
+  },
+  "facade": {
+    "composition": "Layered horizontal bands: a masonry base, a band of windows, a wide frieze and a deep soffit under the roof.",
+    "openings": "Continuous bands of casement windows with geometric art glass; the window-to-wall ratio is 25 to 40%.",
+    "solid_to_void": "Balanced on the upper floor: 60–75% solid."
+  },
+  "light_and_space": {
+    "daylight": "Light enters low and from many sides under the deep eaves, and art glass turns it into a pattern on the floor.",
+    "spatial_sequence": "A low, compressed entry opens to a high, open living room around the hearth; the rooms flow into each other.",
+    "interior_character": "A ceiling of 2.4 to 2.7m with wood bands, a central brick hearth, built-in seats and shelves and warm lamp light."
+  },
+  "ornament": {
+    "attitude": "Ornament is geometric and integral: it comes from the pattern of the structure and the abstraction of the prairie plant.",
+    "details": [
+      "art-glass windows",
+      "stained wood banding",
+      "built-in furniture",
+      "stone planters",
+      "raked horizontal brick joints",
+      "geometric lamps"
+    ]
+  },
+  "identity": {
+    "wikidata": "Q616358"
+  },
+  "composition": {
+    "symmetry": "asymmetric",
+    "axis_count": 2,
+    "rhythm_module_m": 1.3,
+    "rules": [
+      {
+        "principle": "leading-lines",
+        "rule": "Run long horizontal bands of sill, brick course and eave across the whole front.",
+        "value": "eave 1–2.5m"
+      },
+      {
+        "principle": "proportion",
+        "rule": "Make the house 4 to 8 times longer than its eave height.",
+        "value": "4–8 : 1"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Enter low and by an indirect path, then open to the living room.",
+        "value": "entry 2.0–2.2m"
+      },
+      {
+        "principle": "zoning",
+        "rule": "Cluster the living rooms around a central hearth, and keep the services in a wing.",
+        "value": "1 hearth core"
+      },
+      {
+        "principle": "unity-variety",
+        "rule": "Repeat one geometric motif in glass, wood, lamp and plan.",
+        "value": "1 motif"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Layer the base, the band of windows, the frieze and the soffit.",
+        "value": "4 layers"
+      }
+    ]
+  },
+  "references": {
+    "images": [
+      {
+        "title": "Frederick C. Robie House, Chicago",
+        "credit": "Bmzuckerman",
+        "licence": "CC BY 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Frank_Lloyd_Wright_-_Chicago,_IL_-_Frederick_Robie_House_(A).jpg"
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "de-stijl-painting",
+      "de-stijl-web"
+    ]
+  },
+  "emotion": {
+    "target_response": "Shelter and openness: the viewer feels a low, calm home that rests in its landscape.",
+    "keywords": [
+      "horizontal",
+      "sheltering",
+      "organic",
+      "geometric",
+      "rooted"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "prairie school",
+      "prairie style",
+      "frank lloyd wright",
+      "robie house",
+      "usonian",
+      "deep eaves",
+      "ribbon art glass windows",
+      "horizontal roman brick",
+      "cantilevered roof"
+    ],
+    "use_cases": [
+      "house and villa renders",
+      "small civic and church buildings",
+      "residential interiors",
+      "heritage restoration studies"
+    ],
+    "avoid_when": [
+      "The plot is narrow and tall, or the brief asks for a high-rise.",
+      "The brief asks for a symmetric formal front."
+    ],
+    "modifiers": [
+      {
+        "request": "more modern",
+        "toward": "mid-century-modern-architecture",
+        "how": "Swap the brick for timber and glass, open the window bands to full-height glass and keep the deep eave and the hearth."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "low horizontal house",
+      "deep overhanging eaves",
+      "ribbon art glass windows",
+      "Roman brick",
+      "central brick chimney",
+      "cantilevered roof plane",
+      "stained oak trim",
+      "stone planters",
+      "open flowing plan"
+    ],
+    "negative": [
+      "steep pitched roof",
+      "vertical tower",
+      "classical columns",
+      "painted white box",
+      "symmetrical central entrance",
+      "glass curtain wall"
+    ],
+    "canonical_works": [
+      {
+        "work": "Winslow House, River Forest",
+        "architect": "Frank Lloyd Wright",
+        "year": 1894
+      },
+      {
+        "work": "Darwin D. Martin House, Buffalo",
+        "architect": "Frank Lloyd Wright",
+        "year": 1905
+      },
+      {
+        "work": "Unity Temple, Oak Park",
+        "architect": "Frank Lloyd Wright",
+        "year": 1908
+      },
+      {
+        "work": "Frederick C. Robie House, Chicago",
+        "architect": "Frank Lloyd Wright",
+        "year": 1910
+      },
+      {
+        "work": "Merchants National Bank, Winona",
+        "architect": "Purcell and Elmslie",
+        "year": 1914
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "H. Allen Brooks, The Prairie School (University of Toronto Press, 1972)"
+    }
+  ]
+}

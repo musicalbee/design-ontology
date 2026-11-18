@@ -1,0 +1,270 @@
+{
+  "$schema": "../../../schema/domains/photography.schema.json",
+  "id": "film-noir-still",
+  "name": "Film noir still photography",
+  "aliases": [
+    "Noir portrait",
+    "Chiaroscuro still"
+  ],
+  "era_id": "commercial-and-staged",
+  "time_period": {
+    "start": 1941,
+    "end": null,
+    "label": "1940s–today"
+  },
+  "process": [
+    "analogue-bw",
+    "digital"
+  ],
+  "summary": "Black-and-white stills with one hard light, deep shadow and a figure caught in a graphic frame. The look comes from the 1940s crime film, and it stays alive in fashion, posters and portraits.",
+  "philosophy": {
+    "core_thesis": "Darkness holds the story, so the picture shows only as much light as the mood needs.",
+    "design_principles": [
+      "Use a single hard source, a spot or a bare bulb, at 45° to 90° from the lens axis.",
+      "Hold a key-to-fill ratio of 16:1 (4 stops) or more, and let half the face fall into black.",
+      "Cast a pattern on a wall: blinds, a lattice or a doorway, with 3 to 7 bars.",
+      "Use a 50mm to 85mm lens at f/2.8 to f/5.6 and shoot slightly from below or at a Dutch tilt of 5° to 15°.",
+      "Pose the figure with a hat, a cigarette or a gun, in a doorway or on stairs.",
+      "Print on a hard grade with true black at 0% and a single highlight at 95–100%."
+    ],
+    "anti_patterns": [
+      "Soft, even light with open shadows",
+      "Bright, pastel or saturated colour",
+      "Cheerful expressions",
+      "Clean modern sets with no texture",
+      "Digital noise that looks like a filter",
+      "Cartoon props that break the mood"
+    ]
+  },
+  "vectors": {
+    "staging": 5,
+    "tonal_contrast": 5,
+    "colour_saturation": 1,
+    "depth_of_field": 3,
+    "proximity": 3
+  },
+  "composition": {
+    "framing": "Tight vertical or wide 1.37:1; the frame is cut by shadow and edge.",
+    "viewpoint": "Slightly below the face, or at a Dutch tilt of 5° to 15°.",
+    "geometry": "Diagonals of blinds, stairs and doorways; the figure sits in a pool of light.",
+    "subject_placement": "Off centre, with 40–70% of the frame in shadow.",
+    "principles": [
+      {
+        "principle": "contrast",
+        "rule": "Hold a key-to-fill ratio of 16:1 or more, with 40–70% of the frame in near-black."
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Use 3 layers: a hard key, a rim light at 1 stop under it and a background pattern at 2 stops under."
+      },
+      {
+        "principle": "leading-lines",
+        "rule": "Cast 3 to 7 bars of shadow that run on a diagonal to the face."
+      },
+      {
+        "principle": "negative-space",
+        "rule": "Leave 40–60% of the frame as black space on the side the figure looks away from."
+      },
+      {
+        "principle": "focal-point",
+        "rule": "Let 1 lit eye or hand take the highest luminance, at 95–100%, with no second highlight above 80%."
+      }
+    ]
+  },
+  "light": {
+    "quality": "Hard and small: a spot with a snoot, a Fresnel or a bare bulb.",
+    "direction": "Side or low front, 45° to 90° from the lens, with cutters and cookies to throw patterns.",
+    "key_to_fill_ratio": "16:1 or more (4 stops or more)",
+    "colour_temperature": "3200K (tungsten); the final grade is monochrome",
+    "time_of_day": "Studio, or at night with a street lamp"
+  },
+  "lens_and_camera": {
+    "format": "Medium format or 35mm; digital full frame as a modern equivalent",
+    "focal_length": "50mm to 85mm",
+    "aperture": "f/2.8 to f/5.6",
+    "shutter": "1/60s to 1/125s",
+    "film_speed": "ISO 400",
+    "focus": "Focus on the lit eye; let the rest fall off.",
+    "support": "Tripod or handheld",
+    "equipment": [
+      "tungsten spot with snoot",
+      "flags and cutters",
+      "venetian blind or lattice gobo",
+      "smoke or haze machine"
+    ]
+  },
+  "colour_and_grade": {
+    "treatment": "High-contrast black and white with deep shadows and a single bright accent.",
+    "palette": [
+      {
+        "name": "Noir black",
+        "hex": "#08080A",
+        "role": "shadow"
+      },
+      {
+        "name": "Smoke grey",
+        "hex": "#4A4B4F",
+        "role": "midtone"
+      },
+      {
+        "name": "Blind light",
+        "hex": "#BEBCB4",
+        "role": "pattern light"
+      },
+      {
+        "name": "Eye white",
+        "hex": "#F7F5EE",
+        "role": "single highlight"
+      }
+    ],
+    "grade_recipe": [
+      "Convert to monochrome with a red filter mix (R 70, G 30, B 0), to darken skies and deepen lips.",
+      "Set the black point at 0% and the white point at 99%.",
+      "Apply +45% midtone contrast with a steep S-curve.",
+      "Burn the edges by −1 stop and dodge the eye by +0.5 stop.",
+      "Add film grain, amount 30%, size 45%.",
+      "Add a light haze (clarity −10) in the highlights for a glow around the key."
+    ],
+    "grain": "Tri-X 400 pushed to 1600: coarse, with open mid-grey"
+  },
+  "subject_and_staging": {
+    "subjects": [
+      "a detective or a stranger in a hat",
+      "a woman in a long coat",
+      "smoke and a cigarette",
+      "stairs and doorways",
+      "wet streets at night",
+      "venetian blinds"
+    ],
+    "staging": "Full set: a doorway, a lamp, a blind and a wall; the maker places the cutters first and then the figure.",
+    "direction": "Give the sitter a secret and a direction to look; hold still for 1/60s."
+  },
+  "post_processing": {
+    "workflow": [
+      "Develop with a high-contrast developer, or push the film by 2 stops.",
+      "Print on grade 4 paper with heavy burning at the edges.",
+      "Dodge the eye and the cigarette tip.",
+      "Frame in a dark mat to keep the black."
+    ],
+    "output": "A deep-black 8×10 in print, or a high-contrast digital file at 4:5 or 1.37:1."
+  },
+  "prompt_primer": {
+    "positive": [
+      "film noir still",
+      "single hard light",
+      "venetian blind shadows",
+      "chiaroscuro",
+      "black and white",
+      "Dutch angle",
+      "smoke",
+      "tungsten spot",
+      "high contrast",
+      "1940s crime film"
+    ],
+    "negative": [
+      "soft light",
+      "colour",
+      "pastel",
+      "cheerful",
+      "even lighting",
+      "flat grey",
+      "HDR",
+      "clean modern set"
+    ],
+    "canonical_works": [
+      {
+        "work": "The Maltese Falcon",
+        "maker": "John Huston",
+        "year": 1941
+      },
+      {
+        "work": "Double Indemnity",
+        "maker": "Billy Wilder",
+        "year": 1944
+      },
+      {
+        "work": "The Third Man",
+        "maker": "Carol Reed",
+        "year": 1949
+      },
+      {
+        "work": "Touch of Evil",
+        "maker": "Orson Welles",
+        "year": 1958
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "straight-photography"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "street-photography"
+    ],
+    "echoes": [
+      "german-expressionist-cinema",
+      "baroque-painting"
+    ]
+  },
+  "emotion": {
+    "target_response": "Suspense and unease: the viewer feels watched and wants to know what is in the dark.",
+    "keywords": [
+      "shadow",
+      "tense",
+      "graphic",
+      "nocturnal",
+      "moody"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "magician"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "film noir",
+      "noir still",
+      "chiaroscuro portrait",
+      "venetian blind shadow",
+      "hard light",
+      "dutch angle",
+      "1940s crime"
+    ],
+    "use_cases": [
+      "posters and key art",
+      "fashion and fragrance campaigns",
+      "album covers",
+      "image prompts for moody night scenes"
+    ],
+    "avoid_when": [
+      "The brief needs warmth, family or clarity of detail in shadows.",
+      "The subject must read as friendly."
+    ],
+    "modifiers": [
+      {
+        "request": "more glamorous",
+        "toward": "fashion-editorial",
+        "how": "Add a large soft fill at 8:1, move to colour and keep one deep shadow side; shoot at f/8 for the garment."
+      },
+      {
+        "request": "more real and found",
+        "toward": "street-photography",
+        "how": "Drop the set and use a real street at night, with a 35mm lens at f/2, ISO 1600 and 1/125s."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q185867: film noir",
+      "url": "https://www.wikidata.org/wiki/Q185867"
+    },
+    {
+      "title": "Paul Schrader, Notes on Film Noir (Film Comment, 1972)"
+    },
+    {
+      "title": "Alain Silver and James Ursini (eds.), Film Noir Reader (Limelight, 1996)"
+    }
+  ],
+  "domain": "photography"
+}

@@ -172,6 +172,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`abstract-expressionism`](../abstract-expressionism/SKILL.md), [`de-stijl-painting`](../de-stijl-painting/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`impressionism`](../impressionism/SKILL.md), [`renaissance-painting`](../renaissance-painting/SKILL.md)
+- **Kin in another domain:** [`constructivism-web`](../constructivism-web/SKILL.md), [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md)
 - **Nearest by vector profile:** [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`abstract-expressionism`](../abstract-expressionism/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md)
 
 ## Emotional target

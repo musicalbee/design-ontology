@@ -119,6 +119,42 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Attitude:** No ornament in the classical sense; the distortion and the fracture are the only expression.
 - **Details:** skewed slot windows · folded metal panels · cantilevered shards · exposed raking columns · sloped walls
 
+## Composition rules
+
+- **Symmetry:** free
+- **Axis count:** 0
+- **Rhythm module m:** 3
+
+**Rules**
+
+| Principle | Rule | Value |
+|---|---|---|
+| balance | Hold the tension of colliding forms in a fragile balance. | unstable |
+| contrast | Cut a sharp angle against another at 20 to 70°. | 20–70° |
+| layering-depth | Layer overlapping planes that pierce each other. | 3–5 planes |
+| focal-point | Let there be no single focus: let the fracture itself pull the eye. | 0 axes |
+| leading-lines | Draw long diagonal lines that cross the whole mass. | diagonals |
+
+## Reference images
+
+**Images**
+
+| Title | Credit | Licence | Url |
+|---|---|---|---|
+| Vitra Fire Station, Weil am Rhein | Marsupium | CC0 | https://commons.wikimedia.org/wiki/File:Vitra_Campus_-_Hadid_Fire_Station_-_full_view,_blue_sky.jpg |
+
+## Composition principles
+
+The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
+
+| Id | Principle | Definition | Measure: typical range |
+|---|---|---|---|
+| `balance` | Visual balance | The visual weights on the two sides of a centre cancel out. Formal balance uses mirrored equal weights; informal balance sets a large near mass against several small far masses. | moment of visual weight, left to right about the centre (ratio): 1.0 formal; 0.8–1.25 informal; type (kind): formal, informal, radial |
+| `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | light reflectance value difference between adjacent planes (LRV points): 30 or more for a visible edge |
+| `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
+| `focal-point` | Focal point | The one place in a view that the eye finds first and comes back to. A composition has one primary focal point and at most two secondary ones. | focal points in one view (count): 1 primary, 0 to 2 secondary; luminance of the focal point to its surround (ratio): 3:1 to 10:1; position (fraction of width): 0.5 on an axis, or 0.33 / 0.67 on a third |
+| `leading-lines` | Leading lines | Lines in the view, such as edges, rows, beams or paths, point the eye to the focal point. | lines that converge on the focal point (count): 1 to 4; angle from the frame edge (degrees): 15–60 for a diagonal |
+
 ## Vocabulary primer
 
 Use these terms in a brief, an image prompt or a 3D scene description.
@@ -142,10 +178,11 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - If the user asks for **more ordered**: move toward [`high-tech-architecture`](../high-tech-architecture/SKILL.md) (High-tech). Return the shards to a 6 to 12m grid, keep the exposed structure and the glass, and cut the skew angles to 0° and 90°.
 
+- **Led to (go here for a newer version):** [`parametricism-architecture`](../parametricism-architecture/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`international-style-architecture`](../international-style-architecture/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md)
 - **Mixes well with:** [`high-tech-architecture`](../high-tech-architecture/SKILL.md)
-- **Kin in another domain:** [`anti-design`](../anti-design/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md)
-- **Nearest by vector profile:** [`art-nouveau-architecture`](../art-nouveau-architecture/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md)
+- **Kin in another domain:** [`anti-design`](../anti-design/SKILL.md), [`cubism-painting`](../cubism-painting/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md)
+- **Nearest by vector profile:** [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md), [`parametricism-architecture`](../parametricism-architecture/SKILL.md), [`art-nouveau-architecture`](../art-nouveau-architecture/SKILL.md)
 
 ## Emotional target
 

@@ -118,6 +118,42 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Attitude:** No ornament. Typography, colour planes and the precision of joints carry the identity of the building.
 - **Details:** sans-serif building lettering · primary-colour interior planes · tubular steel railings · glazed stair towers · bridge links
 
+## Composition rules
+
+- **Symmetry:** asymmetric
+- **Axis count:** 0
+- **Rhythm module m:** 3
+
+**Rules**
+
+| Principle | Rule | Value |
+|---|---|---|
+| balance | Balance the wings of different volumes about a pivot, not about a mirror axis. | asymmetric, 3 wings |
+| grouping | Group the functions in separate blocks linked by a bridge. | 3–4 blocks |
+| rhythm | Use a regular structural grid and a ribbon window band. | module 3m |
+| negative-space | Keep the white wall plain and unornamented. | 0 applied ornament |
+| zoning | Place each function in its own volume: workshops, studios, living. | function per block |
+
+## Reference images
+
+**Images**
+
+| Title | Credit | Licence | Url |
+|---|---|---|---|
+| Bauhaus building, Dessau | Cethegus (Wikimedia Commons, PD-self) | Public domain | https://commons.wikimedia.org/wiki/File:Bauhaus-Dessau_main_building.jpg |
+
+## Composition principles
+
+The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
+
+| Id | Principle | Definition | Measure: typical range |
+|---|---|---|---|
+| `balance` | Visual balance | The visual weights on the two sides of a centre cancel out. Formal balance uses mirrored equal weights; informal balance sets a large near mass against several small far masses. | moment of visual weight, left to right about the centre (ratio): 1.0 formal; 0.8–1.25 informal; type (kind): formal, informal, radial |
+| `grouping` | Grouping | Elements close to each other read as one group. The gap inside a group is smaller than the gap between groups. | gap between groups to gap inside a group (ratio): 2:1 or more; elements in a group (count): 3 or 5 for an informal group, pairs for a formal group |
+| `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repeated interval (cm or px): style module; repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive |
+| `negative-space` | Negative space | The empty area around and between elements. It is a part of the composition, not a remainder. | empty floor area (% of floor): 40–80 in a room; empty wall area (% of wall): 50–95; empty frame area (% of image): 30–70 |
+| `zoning` | Zoning | A space divides into areas with one activity each. A rug, a light, a ceiling change or a group of furniture marks a zone without a wall. | zones in one open room (count): 2 to 4; zone marker (kind): rug, pendant, floor level, ceiling level, furniture back |
+
 ## Vocabulary primer
 
 Use these terms in a brief, an image prompt or a 3D scene description.
@@ -141,7 +177,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more corporate**: move toward [`international-style-architecture`](../international-style-architecture/SKILL.md) (International Style). Merge the wings into one slab on a 7.2m grid, run the curtain wall around all sides, and drop the colour planes.
 
 - **Mixes well with:** [`international-style-architecture`](../international-style-architecture/SKILL.md)
-- **Kin in another domain:** [`bauhaus`](../bauhaus/SKILL.md)
+- **Kin in another domain:** [`bauhaus`](../bauhaus/SKILL.md), [`bauhaus-interior`](../bauhaus-interior/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md)
 - **Nearest by vector profile:** [`international-style-architecture`](../international-style-architecture/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md)
 
 ## Emotional target
