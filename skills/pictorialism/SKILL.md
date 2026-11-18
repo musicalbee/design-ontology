@@ -175,9 +175,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **sharper**: move toward [`straight-photography`](../straight-photography/SKILL.md) (Straight photography). Close the aperture to f/64, drop the diffusion and the hand work, and keep the large format and the tonal range wide; the print becomes crisp and cool.
 
 - **Led to (go here for a newer version):** [`fashion-editorial`](../fashion-editorial/SKILL.md)
-- **Was rejected by:** [`documentary-photography`](../documentary-photography/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md)
+- **Was rejected by:** [`documentary-photography`](../documentary-photography/SKILL.md), [`group-f64`](../group-f64/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md)
 - **Kin in another domain:** [`impressionism`](../impressionism/SKILL.md), [`victorian-interior`](../victorian-interior/SKILL.md)
-- **Nearest by vector profile:** [`film-grain-revival`](../film-grain-revival/SKILL.md), [`food-photography`](../food-photography/SKILL.md), [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md)
+- **Nearest by vector profile:** [`ai-hyperreal`](../ai-hyperreal/SKILL.md), [`film-grain-revival`](../film-grain-revival/SKILL.md), [`food-photography`](../food-photography/SKILL.md)
 
 ## Emotional target
 

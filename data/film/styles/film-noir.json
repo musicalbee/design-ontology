@@ -1,0 +1,323 @@
+{
+  "$schema": "../../../schema/domains/film.schema.json",
+  "id": "film-noir",
+  "name": "Film noir",
+  "aliases": [
+    "Noir",
+    "Classic noir"
+  ],
+  "era_id": "studio-system",
+  "time_period": {
+    "start": 1941,
+    "end": 1958,
+    "label": "1941–1958"
+  },
+  "capture": [
+    "photochemical"
+  ],
+  "summary": "A black and white crime film lit from one hard source. Venetian-blind bars, rain and smoke cut the frame. The camera sits low and tilts. A tired man tells the story in voice-over and the plot closes on him.",
+  "philosophy": {
+    "core_thesis": "One hard lamp, a low camera and a narrow strip of light turn a city into a trap, so the viewer feels the fate of the hero before the hero does.",
+    "design_principles": [
+      "Light the set with 1 hard key and no fill, and let 40% to 60% of the frame fall to black.",
+      "Shoot in black and white at 1.37:1 with a 25mm to 35mm lens and deep focus on 3 planes.",
+      "Put the camera 0.5 to 1.0 m low, and tilt it 5° to 15° off the level for a tense scene.",
+      "Throw bars, rain and smoke shadows across a face with a gobo or a slatted blind.",
+      "Cut at an average shot length of 6 to 10 s and use a long take for a talk in a car or a room.",
+      "Tell the story through a voice-over by the hero, and let it run at 5% to 15% of the runtime.",
+      "Set the scene at night in a city, in a bar, a flat or an office with a lit sign outside."
+    ],
+    "anti_patterns": [
+      "Flat, even high-key light",
+      "A sunny day exterior",
+      "A bright happy ending with a kiss",
+      "A fixed, level, neutral camera",
+      "A bright colour print",
+      "Soft diffusion on the heroine's face"
+    ]
+  },
+  "vectors": {
+    "camera_mobility": 2,
+    "cutting_rate": 3,
+    "staging": 5,
+    "grade_stylisation": 4,
+    "frame_width": 2
+  },
+  "composition": {
+    "framing": "A 1.37:1 frame cut into bands by shadow; a face lit in a strip across the eyes, a body half in the dark and a doorway or a stair as a second frame.",
+    "staging_in_depth": "3 planes in deep focus: a foreground edge or lamp, the actor, and a lit window or door at the back.",
+    "subject_placement": "Off the centre by 1/3, with 2:1 more empty dark space in front of the look than behind.",
+    "principles": [
+      {
+        "principle": "contrast",
+        "rule": "Let a single hard key throw a bright strip against a black mass.",
+        "value": "8 to 10 stops, bright to black"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Light with one hard key and leave the fill out.",
+        "value": "key to fill 8:1 or higher"
+      },
+      {
+        "principle": "framing",
+        "rule": "Cut the frame with a blind, a door or a stair so that a second frame sits inside the first.",
+        "value": "1 inner frame, 10% to 30% of the view"
+      },
+      {
+        "principle": "sightlines",
+        "rule": "Place the camera low and tilt it for a scene of threat.",
+        "value": "0.5 to 1.0 m high, 5° to 15° tilt"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Cut at a steady pace, and hold one long take for a talk in a car or a room.",
+        "value": "6 to 10 s average shot"
+      }
+    ]
+  },
+  "camera_and_movement": {
+    "movement": "A slow dolly or crane that follows the hero and stops at a door; a low static shot for a talk; a rare handheld run.",
+    "support": "Dolly, crane and a low tripod",
+    "camera_height": "0.5 to 1.0 m, low angle",
+    "move_speed": "0.3 to 0.8 m/s dolly"
+  },
+  "lens_and_format": {
+    "aspect_ratio": "1.37:1",
+    "frame_rate": "24 fps",
+    "shutter_angle": "180° (1/48 s)",
+    "focal_length": "25mm to 35mm (35mm format), wide with deep focus",
+    "aperture": "f/8 to f/16 for deep focus",
+    "resolution": "35mm black and white negative; scan at 2K or 4K",
+    "focus": "Deep focus on 3 planes",
+    "equipment": [
+      "35mm camera",
+      "panchromatic black and white stock",
+      "a hard Fresnel lamp with a gobo",
+      "a slatted blind"
+    ]
+  },
+  "light": {
+    "quality": "Hard and directional with sharp shadow edges; smoke makes the beam visible.",
+    "direction": "From the side or from above and behind, at 45° to 90° to the lens axis.",
+    "key_to_fill_ratio": "8:1 or higher",
+    "colour_temperature": "3200K tungsten, in black and white",
+    "source": "Hard key lamp, a lit window blind and a street sign"
+  },
+  "colour_and_grade": {
+    "treatment": "Rich black and white with a full grey scale, deep blacks and a clipped bright strip.",
+    "palette": [
+      {
+        "name": "Noir black",
+        "hex": "#0B0B0C",
+        "role": "shadow mass"
+      },
+      {
+        "name": "Smoke grey",
+        "hex": "#5A5A5C",
+        "role": "midtones"
+      },
+      {
+        "name": "Skin grey",
+        "hex": "#A9A7A2",
+        "role": "faces"
+      },
+      {
+        "name": "Blind white",
+        "hex": "#F1EFE8",
+        "role": "light strip"
+      }
+    ],
+    "grade_recipe": [
+      "Convert to black and white and set the black point at 2% and the white point at 98%.",
+      "Use a contrast curve of +30% and crush the shadows below 5%.",
+      "Add grain at 15% to 20%.",
+      "Add a vignette of 10% to 15% on the frame edge.",
+      "Do not add a tint or a colour accent."
+    ],
+    "texture": "Fine 35mm grain at 15% to 20%, with a smoke haze in the beam"
+  },
+  "editing_and_rhythm": {
+    "average_shot_length": "6 to 10 s (estimate; check Cinemetrics for each title)",
+    "shot_length_range": "1 s for an insert of a gun or a clock to 3 min for a long talk",
+    "cutting_logic": "Cut on a look or a line and match the eyeline; hold a long take when the hero is trapped in a room.",
+    "transitions": "Hard cut, a dissolve at a time jump and a fade to black at the end of a reel.",
+    "runtime": "85 to 110 min"
+  },
+  "sound": {
+    "approach": "Studio sound with a close voice; a hard room tone, steps on a wet street and a distant siren.",
+    "dialogue": "Fast, dry and cynical, with a voice-over by the hero.",
+    "music": "A brass and strings score that holds 2 to 3 motifs; a jazz club cue in the bar scene.",
+    "loudness": "−24 LUFS integrated, narrow dynamic range for the original mix"
+  },
+  "titles_and_graphics": {
+    "treatment": "A hard title card in white on black over a shadow of the city; the credits on a rolling or a held card.",
+    "type": "A condensed sans-serif or a bold upright in white upper case, 3 to 5 s per card."
+  },
+  "shot_primer": {
+    "opening": "Open at night on a wet street or a lit window, then cut to a face in a strip of shadow within 8 s.",
+    "shot_list": [
+      {
+        "shot": "Street at night in rain",
+        "size": "wide",
+        "lens": "25mm",
+        "movement": "slow dolly 0.5 m/s",
+        "seconds": 8
+      },
+      {
+        "shot": "Face lit by a blind",
+        "size": "close-up",
+        "lens": "35mm",
+        "movement": "static",
+        "seconds": 6
+      },
+      {
+        "shot": "Hero in a doorway, 3 planes deep",
+        "size": "medium",
+        "lens": "28mm",
+        "movement": "static, low angle 0.7 m",
+        "seconds": 7
+      },
+      {
+        "shot": "Talk in a car",
+        "size": "two-shot",
+        "lens": "35mm",
+        "movement": "static or slow push-in",
+        "seconds": 20
+      },
+      {
+        "shot": "Gun in a hand under a lamp",
+        "size": "insert",
+        "lens": "50mm",
+        "movement": "static",
+        "seconds": 2
+      },
+      {
+        "shot": "Chase on a stair, tilted",
+        "size": "wide",
+        "lens": "25mm",
+        "movement": "handheld follow, 10° tilt",
+        "seconds": 6
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "black and white crime film",
+      "hard single key light",
+      "venetian blind shadows on a face",
+      "low camera, tilted 10 degrees",
+      "rain on a night street",
+      "cigarette smoke in a light beam",
+      "deep focus, 3 planes",
+      "1.37:1 frame",
+      "grainy 35mm"
+    ],
+    "negative": [
+      "flat high-key light",
+      "colour grade",
+      "sunny day",
+      "soft diffusion",
+      "smooth gimbal",
+      "happy ending"
+    ],
+    "canonical_works": [
+      {
+        "work": "The Maltese Falcon",
+        "maker": "John Huston",
+        "year": 1941
+      },
+      {
+        "work": "Double Indemnity",
+        "maker": "Billy Wilder",
+        "year": 1944
+      },
+      {
+        "work": "Out of the Past",
+        "maker": "Jacques Tourneur",
+        "year": 1947
+      },
+      {
+        "work": "The Third Man",
+        "maker": "Carol Reed",
+        "year": 1949
+      },
+      {
+        "work": "Touch of Evil",
+        "maker": "Orson Welles",
+        "year": 1958
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "german-expressionist-cinema"
+    ],
+    "rebelled_against": [
+      "classical-hollywood"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "film-noir-still"
+    ]
+  },
+  "emotion": {
+    "target_response": "Dread and fatalism: the viewer sees a trap close and knows that the hero cannot leave it.",
+    "keywords": [
+      "fatalistic",
+      "tense",
+      "shadowed",
+      "cynical",
+      "urban"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "magician"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "film noir",
+      "noir",
+      "detective film",
+      "venetian blind shadow",
+      "voice-over detective",
+      "hard key light",
+      "hardboiled"
+    ],
+    "use_cases": [
+      "thriller and detective video prompts",
+      "moody brand or fashion film",
+      "music video in black and white",
+      "book and game trailers"
+    ],
+    "avoid_when": [
+      "The brief needs a warm, friendly or optimistic tone.",
+      "The scene needs even light for a product or a demo."
+    ],
+    "modifiers": [
+      {
+        "request": "more neon",
+        "toward": "neon-noir",
+        "how": "Keep the night city and the hard key; add a saturated coloured source in cyan and magenta and shoot in colour."
+      },
+      {
+        "request": "more realism",
+        "toward": "italian-neorealism",
+        "how": "Keep the black and white; move the camera into a real street with available light and non-professional actors."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Film noir",
+      "url": "https://en.wikipedia.org/wiki/Film_noir"
+    },
+    {
+      "title": "Paul Schrader, Notes on Film Noir (Film Comment, 1972)"
+    },
+    {
+      "title": "Alain Silver and Elizabeth Ward, Film Noir: An Encyclopedic Reference to the American Style (Overlook Press, 3rd ed., 1992)"
+    }
+  ],
+  "domain": "film"
+}

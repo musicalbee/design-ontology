@@ -205,7 +205,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **shorter**: move toward [`vertical-short-form`](../vertical-short-form/SKILL.md) (Vertical short-form). Keep the dive; cut the flight to 15 to 30 s in 9:16 and add a caption hook in the first 2 s.
 
 - **Mixes well with:** [`vertical-short-form`](../vertical-short-form/SKILL.md)
-- **Nearest by vector profile:** [`new-hollywood`](../new-hollywood/SKILL.md), [`camcorder-revival`](../camcorder-revival/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md)
+- **Nearest by vector profile:** [`one-take-oner`](../one-take-oner/SKILL.md), [`phone-cinema`](../phone-cinema/SKILL.md), [`new-hollywood`](../new-hollywood/SKILL.md)
 
 ## Emotional target
 

@@ -246,6 +246,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more organic**: move toward [`art-nouveau-web`](../art-nouveau-web/SKILL.md) (Art Nouveau (web)). Replace arcs and steps with curved, plant-based borders and a muted palette.
 - If the user asks for **more modern**: move toward [`mid-century-modern`](../mid-century-modern/SKILL.md) (Mid-Century Modern). Drop the symmetry and gold, add earth tones and a free asymmetric layout.
 
+- **Led to (go here for a newer version):** [`luxury-typography-web`](../luxury-typography-web/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`art-nouveau-web`](../art-nouveau-web/SKILL.md)
 - **Mixes well with:** [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md)
 - **Kin in another domain:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`art-deco-interior`](../art-deco-interior/SKILL.md), [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md)
