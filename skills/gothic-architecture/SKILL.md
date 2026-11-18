@@ -180,8 +180,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - If the user asks for **more classical**: move toward [`renaissance-architecture`](../renaissance-architecture/SKILL.md) (Renaissance). Swap the pointed arch for a semicircle, the rib vault for a barrel or dome, and the tracery for orders on a ratio of 1:2 or 2:3.
 
+- **Led to (go here for a newer version):** [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md)
 - **Was rejected by:** [`renaissance-architecture`](../renaissance-architecture/SKILL.md)
-- **Nearest by vector profile:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`baroque-architecture`](../baroque-architecture/SKILL.md)
+- **Nearest by vector profile:** [`adaptive-reuse-architecture`](../adaptive-reuse-architecture/SKILL.md), [`critical-regionalism-architecture`](../critical-regionalism-architecture/SKILL.md), [`expressionist-architecture`](../expressionist-architecture/SKILL.md)
 
 ## Emotional target
 

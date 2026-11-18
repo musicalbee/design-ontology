@@ -217,8 +217,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more lo-fi**: move toward [`camcorder-revival`](../camcorder-revival/SKILL.md) (Camcorder revival). Keep the hook and the 9:16 frame; add a tape look, a date stamp and on-camera sound, and slow the cut to 3 to 6 s.
 
 - **Came from (go here for a more orthodox version):** [`creator-vlog`](../creator-vlog/SKILL.md)
-- **Mixes well with:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`cinematic-fpv`](../cinematic-fpv/SKILL.md), [`creator-vlog`](../creator-vlog/SKILL.md), [`music-video`](../music-video/SKILL.md)
-- **Nearest by vector profile:** [`soviet-montage`](../soviet-montage/SKILL.md), [`classical-hollywood`](../classical-hollywood/SKILL.md), [`hong-kong-action`](../hong-kong-action/SKILL.md)
+- **Mixes well with:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`cinematic-fpv`](../cinematic-fpv/SKILL.md), [`creator-vlog`](../creator-vlog/SKILL.md), [`music-video`](../music-video/SKILL.md), [`phone-cinema`](../phone-cinema/SKILL.md)
+- **Nearest by vector profile:** [`soviet-montage`](../soviet-montage/SKILL.md), [`phone-cinema`](../phone-cinema/SKILL.md), [`classical-hollywood`](../classical-hollywood/SKILL.md)
 
 ## Emotional target
 

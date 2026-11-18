@@ -174,7 +174,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more plain and real**: move toward [`realism-painting`](../realism-painting/SKILL.md) (Realism). Keep the exact detail; remove the impossible meeting and the scale change, and set ordinary people in plain light with earth colour.
 
 - **Led to (go here for a newer version):** [`abstract-expressionism`](../abstract-expressionism/SKILL.md)
-- **Kin in another domain:** [`vaporwave`](../vaporwave/SKILL.md)
+- **Kin in another domain:** [`surrealism-web`](../surrealism-web/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
 - **Nearest by vector profile:** [`renaissance-painting`](../renaissance-painting/SKILL.md), [`airbrush-surrealism`](../airbrush-surrealism/SKILL.md), [`mannerism-painting`](../mannerism-painting/SKILL.md)
 
 ## Emotional target

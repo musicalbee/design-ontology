@@ -1,0 +1,325 @@
+{
+  "$schema": "../../../schema/domains/film.schema.json",
+  "id": "neon-noir",
+  "name": "Neon noir",
+  "aliases": [
+    "Neo-noir",
+    "Synth noir"
+  ],
+  "era_id": "tape-and-cable",
+  "time_period": {
+    "start": 1981,
+    "end": 2023,
+    "label": "1981–today"
+  },
+  "capture": [
+    "photochemical",
+    "digital-cinema"
+  ],
+  "summary": "A night crime film in colour. A lone driver or a replicant moves through a wet city of signs. Magenta and cyan light hits glass, rain and chrome. The pace is slow, the score is synthesised and the symmetry is cold.",
+  "philosophy": {
+    "core_thesis": "Coloured signs and a synth score turn the noir trap into a glowing night city, so the viewer reads loneliness in a clean, still, stylised frame.",
+    "design_principles": [
+      "Light the night with neon in magenta and cyan, and let one sign be the key and a second sign the rim.",
+      "Compose in 2.39:1 with the figure small and central, in a symmetric street or a corridor.",
+      "Wet the ground so it mirrors the signs, and add haze to show the beam.",
+      "Move the camera on a slow dolly or a car mount at 0.2 to 0.6 m/s, or hold it still.",
+      "Hold a take for 6 to 15 s, with a pause before and after each line and a long close shot on the face.",
+      "Use a synthesiser score with a steady pulse, and keep the dialogue short.",
+      "Keep the hero silent and the violence short, sudden and clear."
+    ],
+    "anti_patterns": [
+      "Flat daylight",
+      "A warm, busy colour comedy",
+      "A handheld, shaky camera",
+      "A rush of fast cuts",
+      "A full orchestral score",
+      "A talkative hero who explains the plot"
+    ]
+  },
+  "vectors": {
+    "camera_mobility": 3,
+    "cutting_rate": 3,
+    "staging": 5,
+    "grade_stylisation": 5,
+    "frame_width": 5
+  },
+  "composition": {
+    "framing": "A symmetric 2.39:1 frame: a lone figure in a lit corridor, a street or a car, with a sign in the top corner.",
+    "staging_in_depth": "3 planes: a wet foreground, the figure and a far sign or tower in haze.",
+    "subject_placement": "The figure centred or on a third line, at 15% to 30% of the frame height.",
+    "principles": [
+      {
+        "principle": "colour-distribution",
+        "rule": "Hold a night frame in a dark base, a neon key and a small second accent.",
+        "value": "70% dark / 20% key / 10% accent"
+      },
+      {
+        "principle": "contrast",
+        "rule": "Pair a bright neon tube against a deep black street.",
+        "value": "8 to 10 stops, tube to black"
+      },
+      {
+        "principle": "symmetry-axis",
+        "rule": "Centre the street or corridor and let the vanishing point sit on the axis.",
+        "value": "1 axis, 90% mirrored mass"
+      },
+      {
+        "principle": "scale",
+        "rule": "Keep the figure small in a large lit space.",
+        "value": "figure 15% to 30% of frame height"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Hold each take and pause before the cut.",
+        "value": "6 to 15 s average shot"
+      }
+    ]
+  },
+  "camera_and_movement": {
+    "movement": "A slow dolly, a car mount or a locked shot; a slow push toward a face; a drift along a glass wall.",
+    "support": "Dolly, car mount, steadicam and tripod",
+    "camera_height": "1.2 to 1.7 m; 0.8 m in a car",
+    "move_speed": "0.2 to 0.6 m/s"
+  },
+  "lens_and_format": {
+    "aspect_ratio": "2.39:1",
+    "frame_rate": "24 fps",
+    "shutter_angle": "180° (1/48 s)",
+    "focal_length": "24mm to 50mm for the city; 85mm to 135mm for a face",
+    "aperture": "f/1.4 to f/2.8 with neon bokeh",
+    "resolution": "35mm or digital 4K",
+    "focus": "Shallow focus with a clear face and a soft neon bokeh behind",
+    "equipment": [
+      "anamorphic lenses",
+      "neon tubes and LED panels",
+      "a haze machine",
+      "a dolly or a car mount"
+    ]
+  },
+  "light": {
+    "quality": "Coloured and hard from neon tubes, with a haze that shows the beam and a deep black.",
+    "direction": "From the side or behind, with the sign in the frame as a key.",
+    "key_to_fill_ratio": "6:1 or higher",
+    "colour_temperature": "Mixed: neon at 2700K to 10000K, or gels in magenta and cyan",
+    "source": "Neon signs, LED panels and car lamps"
+  },
+  "colour_and_grade": {
+    "treatment": "A graded night with a magenta key and a cyan fill, deep teal blacks and clean, glossy highlights.",
+    "palette": [
+      {
+        "name": "Night teal",
+        "hex": "#0A1A24",
+        "role": "shadow"
+      },
+      {
+        "name": "Neon magenta",
+        "hex": "#E0307A",
+        "role": "key"
+      },
+      {
+        "name": "Neon cyan",
+        "hex": "#2BD6E0",
+        "role": "fill"
+      },
+      {
+        "name": "Chrome white",
+        "hex": "#EAF1F5",
+        "role": "highlights"
+      }
+    ],
+    "grade_recipe": [
+      "Shift the shadows toward teal by 10% and the highlights toward magenta by 10%.",
+      "Raise the saturation of magenta and cyan by 20% to 30%.",
+      "Set the black point at 3% and keep the blacks deep.",
+      "Add a bloom of 10% to 15% on the neon.",
+      "Add light grain at 5% to 10%."
+    ],
+    "texture": "Glow around the neon, wet gloss and light grain"
+  },
+  "editing_and_rhythm": {
+    "average_shot_length": "6 to 12 s (estimate; check Cinemetrics for each title)",
+    "shot_length_range": "1 s for a blow to 40 s for a drive",
+    "cutting_logic": "Hold the shot and let the silence run; cut on a look; make the violence a single sudden cut.",
+    "transitions": "Hard cut, a slow dissolve and a fade through black.",
+    "runtime": "100 to 125 min"
+  },
+  "sound": {
+    "approach": "A clean mix with a deep synthesiser bed, city hum and sharp, close effects.",
+    "dialogue": "Sparse and low; the hero speaks less than 10% of the runtime.",
+    "music": "A synthesiser score with a pulse of 90 to 130 bpm, and one or two pop songs.",
+    "loudness": "−24 LUFS integrated, wide dynamic range"
+  },
+  "titles_and_graphics": {
+    "treatment": "A neon-lit title over a night city; a pink or a cyan script in a glow.",
+    "type": "A script or a bold sans-serif in magenta or cyan with a glow, 3 to 5 s per card."
+  },
+  "shot_primer": {
+    "opening": "Open on a wide shot of a night street or a drive, hold it for 8 s with the synthesiser pulse, then show the face.",
+    "shot_list": [
+      {
+        "shot": "Night drive, signs on the glass",
+        "size": "wide",
+        "lens": "35mm",
+        "movement": "car mount, static",
+        "seconds": 10
+      },
+      {
+        "shot": "Face lit by a neon sign",
+        "size": "close-up",
+        "lens": "85mm",
+        "movement": "static",
+        "seconds": 8
+      },
+      {
+        "shot": "Lone figure in a symmetric corridor",
+        "size": "wide",
+        "lens": "24mm",
+        "movement": "slow dolly 0.3 m/s",
+        "seconds": 12
+      },
+      {
+        "shot": "Wet street mirrors the signs",
+        "size": "wide",
+        "lens": "50mm",
+        "movement": "static",
+        "seconds": 8
+      },
+      {
+        "shot": "Sudden violence in an elevator",
+        "size": "medium",
+        "lens": "35mm",
+        "movement": "static",
+        "seconds": 3
+      },
+      {
+        "shot": "Hands on the wheel",
+        "size": "insert",
+        "lens": "50mm",
+        "movement": "static",
+        "seconds": 4
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "neon noir",
+      "magenta and cyan neon light",
+      "wet night street with reflections",
+      "symmetric 2.39:1 frame",
+      "lone figure in a corridor",
+      "synthesizer score",
+      "slow dolly",
+      "haze and bokeh",
+      "clean glossy highlights"
+    ],
+    "negative": [
+      "daylight",
+      "handheld shake",
+      "fast cuts",
+      "orchestral score",
+      "warm comedy colour",
+      "busy talk"
+    ],
+    "canonical_works": [
+      {
+        "work": "Thief",
+        "maker": "Michael Mann",
+        "year": 1981
+      },
+      {
+        "work": "Blade Runner",
+        "maker": "Ridley Scott",
+        "year": 1982
+      },
+      {
+        "work": "Drive",
+        "maker": "Nicolas Winding Refn",
+        "year": 2011
+      },
+      {
+        "work": "Only God Forgives",
+        "maker": "Nicolas Winding Refn",
+        "year": 2013
+      },
+      {
+        "work": "Blade Runner 2049",
+        "maker": "Denis Villeneuve",
+        "year": 2017
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "film-noir"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "music-video"
+    ],
+    "echoes": [
+      "synthwave-web",
+      "cinematic-teal-orange"
+    ]
+  },
+  "emotion": {
+    "target_response": "Cool melancholy and cold awe: the viewer is alone in a bright night city and feels its beauty and its threat.",
+    "keywords": [
+      "neon",
+      "lonely",
+      "stylised",
+      "glossy",
+      "nocturnal"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "magician"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "neon noir",
+      "neo-noir",
+      "drive 2011",
+      "blade runner",
+      "magenta and cyan night",
+      "synth noir"
+    ],
+    "use_cases": [
+      "night city and car video prompts",
+      "music videos and title sequences",
+      "perfume, fashion and car films",
+      "game and trailer art direction"
+    ],
+    "avoid_when": [
+      "The brief needs a warm, daylight or family tone.",
+      "The scene needs fast action with a lot of cuts."
+    ],
+    "modifiers": [
+      {
+        "request": "more classic",
+        "toward": "film-noir",
+        "how": "Remove the colour; shoot in black and white with one hard key and a voice-over."
+      },
+      {
+        "request": "more retro",
+        "toward": "cassette-futurism",
+        "how": "Keep the night city; swap the neon glass for a CRT screen, a grain and a 1980s computer prop."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Neo-noir",
+      "url": "https://en.wikipedia.org/wiki/Neo-noir"
+    },
+    {
+      "title": "Foster Hirsch, Detours and Lost Highways: A Map of Neo-Noir (Limelight Editions, 1999)"
+    },
+    {
+      "title": "Cinemetrics database",
+      "url": "https://www.cinemetrics.lv/"
+    }
+  ],
+  "domain": "film"
+}

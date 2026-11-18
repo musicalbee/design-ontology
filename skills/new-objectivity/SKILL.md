@@ -172,7 +172,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more severe and serial**: move toward [`duesseldorf-school`](../duesseldorf-school/SKILL.md) (Düsseldorf School). Use a 4×5 or digital medium format camera in colour at 1.5 to 20m, flat grey light and a fixed frontal view for 20 or more prints.
 
 - **Came from (go here for a more orthodox version):** [`straight-photography`](../straight-photography/SKILL.md)
-- **Led to (go here for a newer version):** [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md)
+- **Led to (go here for a newer version):** [`architectural-photography`](../architectural-photography/SKILL.md), [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`pictorialism`](../pictorialism/SKILL.md)
 - **Was rejected by:** [`fashion-editorial`](../fashion-editorial/SKILL.md)
 - **Kin in another domain:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md)

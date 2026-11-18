@@ -1,0 +1,109 @@
+/*
+ * Minimalism Web — tokens
+ * Generated from data/design/styles/minimalism-web.json by design-ontology. Do not edit.
+ * Use: put data-style="minimalism-web" on <html> or on any container.
+ */
+[data-style="minimalism-web"] {
+  --color-bg: #FAFAF8;
+  --color-surface: #F0F0EC;
+  --color-text: #161616;
+  --color-muted: #55554F;
+  --color-primary: #2F5BEA;
+  --color-accent: #1E3FB0;
+  --color-border: #D9D9D3;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Inter", system-ui, sans-serif;
+  --border-radius: 4px;
+  --border-width: 1px;
+  --shadow-elevation: none;
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+  --duration: 200ms;
+  --color-on-bg: #161616;
+  --color-on-surface: #161616;
+  --color-on-primary: #FAFAF8;
+  --color-on-accent: #FAFAF8;
+  --color-muted-on-bg: #55554F;
+  --color-muted-on-surface: #55554F;
+  --color-link: #1E3FB0;
+  --color-link-on-surface: #1E3FB0;
+  --display-weight: 600;
+  --subhead-weight: 600;
+  --body-weight: 400;
+  --strong-weight: 600;
+  --label-weight: 500;
+  --display-tracking: -0.02em;
+  --display-leading: 1.1;
+  --display-case: none;
+  --body-leading: 1.6;
+  --body-size: 16px;
+  --icon-stroke: 1.5;
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="minimalism-web"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="minimalism-web"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="minimalism-web"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="minimalism-web"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="minimalism-web"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="minimalism-web"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="minimalism-web"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="minimalism-web"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="minimalism-web"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="minimalism-web"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="minimalism-web"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="minimalism-web"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

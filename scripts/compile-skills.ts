@@ -82,10 +82,17 @@ const bar = (n: number) => "■".repeat(n) + "□".repeat(5 - n);
 // ── tokens ──────────────────────────────────────────────────────────────────
 const visualOf = (style: Style) => style.visual as Visual | undefined;
 /** The authored tokens of a style, then the tokens that the compiler derives: legible text colours for each field, and type values. */
+const seenWarnings = new Set<string>();
+const warnOnce = (id: string) => (m: string) => {
+  if (seenWarnings.has(`${id} ${m}`)) return;
+  seenWarnings.add(`${id} ${m}`);
+  console.warn(`warn  ${id}: ${m}`);
+};
+
 function cssTokens(style: Style): [string, string][] {
   const css = style.tokens!.css;
   const v = visualOf(style);
-  return Object.entries({ ...css, ...derivedTokens(css), ...(v ? typeTokens(v) : {}) });
+  return Object.entries({ ...css, ...derivedTokens(css, warnOnce(style.id)), ...(v ? typeTokens(v) : {}) });
 }
 const iconPacks = new Map<string, IconPack>();
 function iconPack(style: Style): IconPack {

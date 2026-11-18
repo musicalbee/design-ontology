@@ -175,7 +175,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`y2k-digicam`](../y2k-digicam/SKILL.md)
 - **Mixes well with:** [`film-grain-revival`](../film-grain-revival/SKILL.md), [`street-photography`](../street-photography/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
 - **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`cyberdelia`](../cyberdelia/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
-- **Nearest by vector profile:** [`documentary-photography`](../documentary-photography/SKILL.md), [`film-grain-revival`](../film-grain-revival/SKILL.md), [`street-photography`](../street-photography/SKILL.md)
+- **Nearest by vector profile:** [`documentary-photography`](../documentary-photography/SKILL.md), [`film-grain-revival`](../film-grain-revival/SKILL.md), [`group-f64`](../group-f64/SKILL.md)
 
 ## Emotional target
 

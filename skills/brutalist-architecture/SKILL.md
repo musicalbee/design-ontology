@@ -178,9 +178,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **lighter**: move toward [`international-style-architecture`](../international-style-architecture/SKILL.md) (International Style). Thin the frame, raise the glazing share above 50% and smooth the concrete; keep the flat roof and the repeated module.
 
 - **Came from (go here for a more orthodox version):** [`international-style-architecture`](../international-style-architecture/SKILL.md)
-- **Was rejected by:** [`postmodern-architecture`](../postmodern-architecture/SKILL.md)
-- **Kin in another domain:** [`abstract-expressionism`](../abstract-expressionism/SKILL.md), [`brutalist-web`](../brutalist-web/SKILL.md), [`constructivism-web`](../constructivism-web/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md), [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md)
-- **Nearest by vector profile:** [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`gothic-architecture`](../gothic-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md)
+- **Was rejected by:** [`mass-timber-architecture`](../mass-timber-architecture/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md)
+- **Kin in another domain:** [`abstract-expressionism`](../abstract-expressionism/SKILL.md), [`architectural-photography`](../architectural-photography/SKILL.md), [`brutalist-web`](../brutalist-web/SKILL.md), [`constructivism-web`](../constructivism-web/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md), [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md)
+- **Nearest by vector profile:** [`adaptive-reuse-architecture`](../adaptive-reuse-architecture/SKILL.md), [`mass-timber-architecture`](../mass-timber-architecture/SKILL.md), [`critical-regionalism-architecture`](../critical-regionalism-architecture/SKILL.md)
 
 ## Emotional target
 
