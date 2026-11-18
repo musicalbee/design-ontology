@@ -12,16 +12,7 @@
   body { font-family: system-ui, sans-serif; background: #17171a; }
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; animation: none !important; } }
 
-  /* ── Picker. It sits outside [data-style], so no style can change it. ── */
-  .picker { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; gap: 10px; padding: 8px 12px;
-    background: #17171a; color: #f4f4f5; font: 13px/1.2 system-ui, sans-serif; border-bottom: 1px solid #34343a; }
-  .picker b { white-space: nowrap; font-weight: 650; }
-  .picker button { font: inherit; color: #f4f4f5; background: #2a2a30; border: 1px solid #44444c; border-radius: 6px; padding: 6px 10px; cursor: pointer; white-space: nowrap; }
-  .picker button:hover { background: #3a3a42; }
-  .picker button[aria-pressed="true"] { background: #f4f4f5; color: #17171a; border-color: #f4f4f5; }
-  .picker :focus-visible, .stage :focus-visible { outline: 3px solid #6aa8ff; outline-offset: 2px; }
-  .chips { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: thin; padding: 2px; flex: 1; }
-  .picker a { color: #f4f4f5; white-space: nowrap; }
+  .stage :focus-visible { outline: 3px solid #6aa8ff; outline-offset: 2px; }
 
   /* ── Stage. Each visual value below is a token of the current style. ── */
   .stage { --gap: calc(1rem * var(--density, 1)); --flow: calc(var(--gap) * 1.25); --flow-tight: calc(var(--gap) * .5); --tilt: 0deg; min-height: 100vh; overflow-x: clip; position: relative; }
@@ -184,13 +175,6 @@
 <script src="nav.js"></script>
 <script src="meter.js"></script>
 
-<div class="picker">
-  <b>design-ontology</b>
-  <button id="prev" aria-label="Previous style">Prev</button>
-  <button id="next" aria-label="Next style">Next</button>
-  <div class="chips" id="chips" role="group" aria-label="Style"></div>
-  <a href="https://github.com/musicalbee/design-ontology">GitHub</a>
-</div>
 <div id="sprite" hidden></div>
 
 <main class="stage" id="stage">
@@ -473,7 +457,7 @@ async function show(i) {
   $("n-copy").textContent = "Copy the command";
 
   for (const b of $("chips").children) b.setAttribute("aria-pressed", b.dataset.go === s.id);
-  $("chips").querySelector('[aria-pressed="true"]')?.scrollIntoView({ block: "nearest", inline: "center" });
+  $("chips").querySelector('[aria-pressed="true"]')?.scrollIntoView({ block: "nearest" });
   if (location.hash.slice(1) !== s.id) history.replaceState(null, "", "#" + s.id);
 }
 
