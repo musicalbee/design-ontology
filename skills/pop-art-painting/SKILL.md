@@ -172,9 +172,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more expressive and personal**: move toward [`abstract-expressionism`](../abstract-expressionism/SKILL.md) (Abstract Expressionism). Keep the scale and the strong colour; drop the outline and the print grid, and lay a visible gesture of 50–200mm.
 - If the user asks for **more dreamlike**: move toward [`surrealism-painting`](../surrealism-painting/SKILL.md) (Surrealism). Keep the flat clarity; set the object in a deep, empty plain with a long shadow, and change its scale by 3 to 10 times.
 
+- **Led to (go here for a newer version):** [`photorealism`](../photorealism/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`abstract-expressionism`](../abstract-expressionism/SKILL.md)
 - **Kin in another domain:** [`memphis-design`](../memphis-design/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md)
-- **Nearest by vector profile:** [`mannerism-painting`](../mannerism-painting/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md), [`de-stijl-painting`](../de-stijl-painting/SKILL.md)
+- **Nearest by vector profile:** [`mannerism-painting`](../mannerism-painting/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md), [`symbolism-painting`](../symbolism-painting/SKILL.md)
 
 ## Emotional target
 
@@ -185,6 +186,7 @@ Playful recognition: the viewer meets a familiar image made loud and cool, and s
 ## Sources
 
 - [Wikidata Q134147 (Pop art)](https://www.wikidata.org/wiki/Q134147)
+- [Getty AAT 300022205 (Pop art)](https://vocab.getty.edu/page/aat/300022205)
 - [Art Institute of Chicago API (CC0 data)](https://api.artic.edu/docs/)
 - Lawrence Alloway, The Arts and the Mass Media (Architectural Design, 1958)
 

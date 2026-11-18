@@ -174,7 +174,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`impressionism`](../impressionism/SKILL.md)
 - **Led to (go here for a newer version):** [`fauvism`](../fauvism/SKILL.md)
-- **Nearest by vector profile:** [`impressionism`](../impressionism/SKILL.md), [`fauvism`](../fauvism/SKILL.md), [`romanticism-painting`](../romanticism-painting/SKILL.md)
+- **Nearest by vector profile:** [`impressionism`](../impressionism/SKILL.md), [`post-impressionism`](../post-impressionism/SKILL.md), [`fauvism`](../fauvism/SKILL.md)
 
 ## Emotional target
 
@@ -185,6 +185,7 @@ Calm, clear attention: the viewer sees a quiet, ordered scene that shimmers as t
 ## Sources
 
 - [Wikidata Q200034 (Pointillism)](https://www.wikidata.org/wiki/Q200034)
+- [Getty AAT 300067450 (Pointillism)](https://vocab.getty.edu/page/aat/300067450)
 - [Art Institute of Chicago API (CC0 data)](https://api.artic.edu/docs/)
 - Paul Signac, D'Eugène Delacroix au néo-impressionnisme (1899)
 

@@ -1,0 +1,117 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "symbolism-painting",
+  "domain": "painting",
+  "name": "Symbolism",
+  "aliases": ["Symbolist painting", "Fin de siècle dream"],
+  "era_id": "nineteenth-century",
+  "time_period": { "start": 1886, "end": 1910, "label": "1886–1910" },
+  "region": "France, Belgium and Northern Europe",
+  "media": ["oil on canvas", "oil on panel", "tempera", "watercolour"],
+  "summary": "Pictures of dream, myth, death and desire, in which a figure or a form stands for an idea. The mood is quiet, strange and inward; line and colour are chosen to suggest, never to explain.",
+  "philosophy": {
+    "core_thesis": "A picture should suggest an inner idea by symbol and mood, and should turn from the plain surface of the visible world toward dream and the spirit.",
+    "design_principles": [
+      "Show an idea by an image: a sphinx, a flower with a face, a floating head, a veiled woman, a dark pool.",
+      "Keep the space shallow and still, with a flat, decorative field of 40–60% behind the main figure.",
+      "Set the figure in the centre or on a clear axis, and hold it motionless, with a closed or far-off gaze.",
+      "Use a limited, dim, jewel-like palette: violet, deep blue, gold and green, with pale flesh and a dark ground.",
+      "Draw a long, soft, flowing line of 2–6mm and let the contour curve like a stem or a hair.",
+      "Blur the edges in mist and dusk, and blend the light into a glow without a source.",
+      "Leave one thing unexplained: a title, a gaze, or an object that has no place in the scene."
+    ],
+    "anti_patterns": [
+      "A plain, literal record of daily life",
+      "Harsh, bright daylight with strong cast shadows",
+      "Fast, loud, active strokes and a busy crowd",
+      "A saturated, cheerful colour scheme",
+      "A clear story that the title explains in full",
+      "A deep, open landscape with a wide horizon"
+    ]
+  },
+  "vectors": { "abstraction": 3, "brushwork_visibility": 2, "chromatic_intensity": 3, "depth_illusion": 2, "line_dominance": 4 },
+  "composition": {
+    "layout": "A still, frontal figure or head on a central axis, against a shallow, flat or misty field, with a curving contour and a few symbolic objects.",
+    "focal_point": "The face or the eye, in the upper half of the picture at 33–45% from the top, on the central axis or one third from an edge.",
+    "format": "A vertical canvas or panel at 3:4 to 1:2; a small to medium size of 0.3 to 1.2m; a tall format gives a frieze-like calm.",
+    "principles": [
+      { "principle": "symmetry-axis", "rule": "Hold the main figure on a central vertical axis, with a deviation of less than 5% of the picture width." },
+      { "principle": "negative-space", "rule": "Keep 40–60% of the picture as a quiet, dim field of one hue around the figure." },
+      { "principle": "layering-depth", "rule": "Reduce the depth to 2 layers: a near figure and a flat or misty ground, with no deep horizon." },
+      { "principle": "focal-point", "rule": "Place the eye or the face at 33–45% from the top, and make it the only area with a value jump of 30% or more." },
+      { "principle": "rhythm", "rule": "Repeat a soft curve of a stem, a hair or a wave 3–6 times, at a step of 10–20% of the picture width." },
+      { "principle": "colour-distribution", "rule": "Spend 70–80% of the area on 2 dim hues of violet, blue or green, and 5–10% on a gold or pale accent." }
+    ]
+  },
+  "palette": {
+    "strategy": "A dim, jewel-like key: violet, deep blue and green, lit by pale flesh and a small amount of gold; the ground is dark or misted.",
+    "distribution": "Dim hue ground 50–60%, mid-tone dress and plants 20–30%, pale flesh and light 10–15%, gold accent 5%.",
+    "ground": "A dark, warm ground or a gold leaf field; thin glazes over it.",
+    "colours": [
+      { "name": "Deep violet", "hex": "#4A3A6B", "pigment": "cobalt violet and black", "role": "ground and shadow" },
+      { "name": "Night blue", "hex": "#26335C", "pigment": "ultramarine and black", "role": "dark field and water" },
+      { "name": "Moss green", "hex": "#4F6B4A", "pigment": "viridian and umber", "role": "plants and a cold plane" },
+      { "name": "Antique gold", "hex": "#C7A04A", "pigment": "gold leaf or ochre", "role": "halo, ornament and glow" },
+      { "name": "Pale flesh", "hex": "#E8D4C4", "pigment": "lead white and ochre", "role": "face and hand" },
+      { "name": "Rose dusk", "hex": "#B88294", "pigment": "madder and white", "role": "flower, cloth and a warm mist" },
+      { "name": "Mist grey", "hex": "#9BA3B0", "pigment": "grey and blue", "role": "haze" }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Oil and tempera in thin, matt layers; pastel and watercolour for dream scenes.",
+    "support": "Fine canvas, panel or paper with a smooth ground.",
+    "brushwork": "Fine, soft strokes of 1–3mm, blended; a flowing contour line of 2–6mm; no loud touch.",
+    "paint_handling": "4–8 thin glazes; the surface is smooth and the colour glows from below; gold leaf in places.",
+    "edges": "Soft and lost at the hair, the mist and the far field; a clear, curving contour at the face and the hand."
+  },
+  "light_and_modelling": {
+    "light": "A dim, even glow with no clear source, like dusk, a lamp or moonlight; the face holds the highest value.",
+    "modelling": "Gentle, in 4–6 steps; the face is smooth and pale, with a dark eye.",
+    "shadow": "Deep and soft, 40–60% of the area, in violet or blue; no hard cast edge.",
+    "temperature": "A cool, dim key with a small warm gold or rose glow around the face."
+  },
+  "subject": {
+    "typical": "A sphinx, a muse, a head on a plate, a veiled woman, a dream flower, a dark lake, a myth, a vision and a death-watch.",
+    "figure_scale": "A head or a figure fills 40–70% of the picture height, close and still.",
+    "treatment": "Hushed, strange and inward; the image suggests a meaning and gives no key."
+  },
+  "surface": {
+    "finish": "Matt and soft, with an even, velvet look.",
+    "texture": "Smooth, with a faint grain; gold leaf or a thin gilt line in places."
+  },
+  "reference_works": {
+    "works": [
+      { "work": "Inspiration", "artist": "Gustave Moreau", "date": "c. 1893", "museum": "Art Institute of Chicago", "object_id": "104463", "public_domain": true },
+      { "work": "Flower Clouds", "artist": "Odilon Redon", "date": "c. 1903", "museum": "Art Institute of Chicago", "object_id": "76395", "public_domain": true },
+      { "work": "The Girl by the Window", "artist": "Edvard Munch", "date": "1893", "museum": "Art Institute of Chicago", "object_id": "154235", "public_domain": true }
+    ],
+    "note": "Object ids were checked against the Art Institute of Chicago API (CC0 data). Look at the museum page for the image and its licence."
+  },
+  "prompt_primer": {
+    "positive": ["symbolist painting", "dreamlike mythic figure", "veiled gaze", "dim jewel-like palette", "violet and deep blue", "flat misty field", "flowing curved line", "gold leaf accent", "Moreau and Redon style", "quiet and strange mood"],
+    "negative": ["bright daylight", "plain daily scene", "loud brush strokes", "saturated cheerful colour", "deep landscape horizon", "literal story"]
+  },
+  "lineage": { "evolved_from": [], "rebelled_against": ["realism-painting"], "hybridized_with": [], "echoes": ["art-nouveau-web", "art-nouveau-architecture"] },
+  "emotion": {
+    "target_response": "Quiet unease and wonder: the viewer feels a dream that holds a meaning and does not give it.",
+    "keywords": ["dreamlike", "mystical", "melancholic", "hushed", "enigmatic"],
+    "brand_archetypes": ["magician", "sage", "lover"]
+  },
+  "agent": {
+    "triggers": ["symbolism", "symbolist", "moreau", "redon", "klimt", "puvis de chavannes", "fin de siecle", "dream painting", "mythic figure", "femme fatale"],
+    "use_cases": ["fantasy and gothic book covers", "perfume, tea and jewellery campaign art", "music and theatre posters with a dream mood", "editorial art on inner life and myth"],
+    "avoid_when": [
+      "The brief needs a bright, clear, literal or technical image.",
+      "The picture must be loud, fast or playful."
+    ],
+    "modifiers": [
+      { "request": "more plain and real", "toward": "realism-painting", "how": "Drop the symbol and the mist; use a plain brown key, ordinary people at work, and one light from the side." },
+      { "request": "more strange and exact", "toward": "surrealism-painting", "how": "Keep the dream; move it into a clear, deep plain with exact detail, a long shadow and an object at 3 to 10 times its true size." }
+    ]
+  },
+  "sources": [
+    { "title": "Art Institute of Chicago API (CC0 data)", "url": "https://api.artic.edu/docs/" },
+    { "title": "Jean Moréas, Le Symbolisme (Le Figaro, 1886)" },
+    { "title": "Robert Goldwater, Symbolism (Harper and Row, 1979)" }
+  ]
+}

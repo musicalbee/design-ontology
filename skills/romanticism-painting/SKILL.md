@@ -185,6 +185,7 @@ Awe and longing: the viewer feels small before a great force, and stirred by it.
 ## Sources
 
 - [Wikidata Q37068 (Romanticism)](https://www.wikidata.org/wiki/Q37068)
+- [Getty AAT 300172863 (Romanticism)](https://vocab.getty.edu/page/aat/300172863)
 - [Art Institute of Chicago API (CC0 data)](https://api.artic.edu/docs/)
 - Edmund Burke, A Philosophical Enquiry into the Origin of Our Ideas of the Sublime and Beautiful (1757)
 

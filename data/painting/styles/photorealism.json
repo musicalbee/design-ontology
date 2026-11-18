@@ -1,0 +1,118 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "photorealism",
+  "domain": "painting",
+  "name": "Photorealism",
+  "aliases": ["Hyperrealism", "Super-realism"],
+  "era_id": "avant-garde",
+  "time_period": { "start": 1966, "end": 1980, "label": "1966–1980" },
+  "region": "United States",
+  "media": ["oil on canvas", "acrylic"],
+  "summary": "Paintings that copy a photograph in every detail: glass, chrome, signs and street reflections, in sharp, even focus. The hand is hidden and the picture is as cool as a camera.",
+  "philosophy": {
+    "core_thesis": "A painting can match the camera: the artist works from a photograph, keeps its sharp focus and its flat modern light, and shows the city as the lens sees it.",
+    "design_principles": [
+      "Work from a photograph, and transfer it by a grid or a projector, with an error of under 2%.",
+      "Keep the whole picture in sharp focus, with detail down to 1–2mm in the background.",
+      "Choose urban, banal subjects: a shop front, a car, a diner, a street, a sign, a window.",
+      "Paint reflections in glass and chrome, with 2–4 reflected scenes layered over the main view.",
+      "Hold an even, flat light with no drama, in a clear, high-key daylight.",
+      "Hide the brush: smooth, blended paint, with an airbrush or a fine brush for the gradients.",
+      "Show no comment on the subject, and keep the mood neutral and cool."
+    ],
+    "anti_patterns": [
+      "Visible gestural brush strokes",
+      "A soft, blurred or selective focus",
+      "A dramatic, moody or romantic light",
+      "A heroic, historical or allegorical subject",
+      "A flattened, abstracted or simplified form",
+      "A painted comment on the subject, such as satire"
+    ]
+  },
+  "vectors": { "abstraction": 1, "brushwork_visibility": 1, "chromatic_intensity": 3, "depth_illusion": 4, "line_dominance": 2 },
+  "composition": {
+    "layout": "A frontal or three-quarter street view with a flat, even light, strong perspective lines to a vanishing point, and layers of reflection in glass.",
+    "focal_point": "A shop window, a car or a sign, at one third from an edge; there is no single dramatic centre, and the detail is equal across the picture.",
+    "format": "A large canvas at 3:2 to 2:1, 1.5m or more wide, so that the detail reads as a photograph.",
+    "principles": [
+      { "principle": "leading-lines", "rule": "Run the kerb, the roof line and the shop front to one vanishing point, with all lines within 2° of the true perspective." },
+      { "principle": "layering-depth", "rule": "Build 3–4 layers: the reflected street, the glass, the shop interior and the far background, each in sharp focus." },
+      { "principle": "rhythm", "rule": "Repeat a window, a sign or a car 4–12 times in perspective, with the step shrinking at the correct rate." },
+      { "principle": "unity-variety", "rule": "Hold one flat daylight and one level of focus across the picture, with detail at 1–2mm everywhere." },
+      { "principle": "framing", "rule": "Frame the view by the edge of a building or a window, and cut the scene as a camera crop does." },
+      { "principle": "grouping", "rule": "Group the signs, the cars and the lights in clusters of 3–5 items, as they sit in the photograph." }
+    ]
+  },
+  "palette": {
+    "strategy": "The colour of a colour photograph of the period: bright signs and chrome set in a mid-tone street, with blue-grey reflections and a pale sky.",
+    "distribution": "Street and building mid-tones 40–50%, sky and glass reflections 25–30%, bright signs and cars 15–20%, dark shadows 5–10%.",
+    "ground": "A white, smooth acrylic ground, sanded between coats.",
+    "colours": [
+      { "name": "Sky blue-grey", "hex": "#9DB4C7", "pigment": "cerulean, white and grey", "role": "sky and glass reflection" },
+      { "name": "Chrome silver", "hex": "#C9CDD2", "pigment": "grey and white", "role": "metal and glare" },
+      { "name": "Sign red", "hex": "#C4322B", "pigment": "cadmium red", "role": "sign and car" },
+      { "name": "Diner yellow", "hex": "#E3B83A", "pigment": "cadmium yellow", "role": "sign and taxi" },
+      { "name": "Asphalt", "hex": "#4A4D52", "pigment": "grey and black", "role": "street" },
+      { "name": "Brick brown", "hex": "#8A5A44", "pigment": "burnt sienna and grey", "role": "wall" },
+      { "name": "Window shadow", "hex": "#2B2F36", "pigment": "ultramarine and umber", "role": "interior and shadow" }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Acrylic or thin oil, applied with an airbrush, a fine brush and a razor for highlights.",
+    "support": "Primed canvas, smooth, 1.5m or more wide.",
+    "brushwork": "None in view: smooth, thin, blended layers; fine sable strokes of 1–2mm for sign and chrome detail.",
+    "paint_handling": "8–20 thin layers; the surface is smooth and the paint shows no ridge.",
+    "edges": "Sharp where the photograph is sharp, with exact highlights of 1–3mm on glass and chrome."
+  },
+  "light_and_modelling": {
+    "light": "Flat, bright, even daylight, as the camera caught it; no drama and no clear time of day.",
+    "modelling": "Smooth and exact, in 8–10 steps; the gradients on chrome and glass are airbrushed.",
+    "shadow": "Short, mid-value and neutral; 15–25% of the area, with a sharp edge.",
+    "temperature": "Neutral to slightly cool; warm signs and cars against cool glass and sky."
+  },
+  "subject": {
+    "typical": "A shop front, a car park, a diner, a street with signs, a window with reflections, a suburban house with a car.",
+    "figure_scale": "People are few and small, at 5–10% of the picture height, or absent.",
+    "treatment": "Cool and deadpan; the view is plain, urban and exact, and offers no comment."
+  },
+  "surface": {
+    "finish": "Satin to gloss and smooth, like a print.",
+    "texture": "Flat; no ridge and no stroke in view."
+  },
+  "reference_works": {
+    "works": [
+      { "work": "Drugs", "artist": "Richard Estes", "date": "1970", "museum": "Art Institute of Chicago", "object_id": "35448", "public_domain": false },
+      { "work": "Café Express", "artist": "Richard Estes", "date": "1975", "museum": "Art Institute of Chicago", "object_id": "110968", "public_domain": false },
+      { "work": "The Palm Tree", "artist": "Robert Bechtle", "date": "1969", "museum": "Art Institute of Chicago", "object_id": "44073", "public_domain": false }
+    ],
+    "note": "Object ids were checked against the Art Institute of Chicago API. None of the three works is flagged as public domain by the museum: the ids identify them only. Look at the museum page for the image and its licence; do not copy it."
+  },
+  "prompt_primer": {
+    "positive": ["photorealist painting", "sharp focus everywhere", "shop window reflections", "chrome and glass", "flat even daylight", "urban street scene", "airbrushed smooth surface", "Richard Estes style", "painted from a photograph", "cool deadpan view"],
+    "negative": ["visible brush strokes", "soft focus", "moody light", "heroic subject", "abstracted form", "satire"]
+  },
+  "lineage": { "evolved_from": ["pop-art-painting"], "rebelled_against": ["abstract-expressionism"], "hybridized_with": [], "echoes": ["new-topographics"] },
+  "emotion": {
+    "target_response": "Cool wonder: the viewer admires the exact copy, and feels the flat, bright look of the modern street.",
+    "keywords": ["exact", "cool", "urban", "detailed", "deadpan"],
+    "brand_archetypes": ["ruler", "sage", "everyman"]
+  },
+  "agent": {
+    "triggers": ["photorealism", "photorealist", "hyperrealism", "richard estes", "bechtle", "painted like a photograph", "street reflections", "chrome and glass", "super-realism"],
+    "use_cases": ["automotive, retail and city campaign art", "editorial art on urban life", "product scenes with exact glass and metal", "book covers with a flat, modern look"],
+    "avoid_when": [
+      "The brief needs expression, a hand-made touch or a loose mood.",
+      "The picture must be abstract, symbolic or romantic."
+    ],
+    "modifiers": [
+      { "request": "more pop and graphic", "toward": "pop-art-painting", "how": "Flatten the detail to hard shapes, raise the chroma, add a halftone dot of 1–3mm, and choose a single brand or a product as the subject." },
+      { "request": "more hand-made", "toward": "realism-painting", "how": "Drop the photograph and the airbrush; use a brown, earthy key, a visible stroke of 5–15mm, and ordinary people at work in side light." }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q939559 (Photorealism)", "url": "https://www.wikidata.org/wiki/Q939559" },
+    { "title": "Getty AAT 300022201 (Photorealism)", "url": "https://vocab.getty.edu/page/aat/300022201" },
+    { "title": "Art Institute of Chicago API (CC0 data)", "url": "https://api.artic.edu/docs/" },
+    { "title": "Louis K. Meisel, Photorealism (Harry N. Abrams, 1980)" }
+  ]
+}

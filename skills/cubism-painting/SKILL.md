@@ -170,10 +170,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **bolder and brighter**: move toward [`de-stijl-painting`](../de-stijl-painting/SKILL.md) (De Stijl painting). Keep the flat planes and the grid; reduce the shapes to rectangles, set a primary palette with black bars, and drop the object.
 - If the user asks for **more expressive**: move toward [`abstract-expressionism`](../abstract-expressionism/SKILL.md) (Abstract Expressionism). Keep the shallow space; make the planes loose and large, show each stroke of 50–150mm, and drop the subject entirely.
 
-- **Led to (go here for a newer version):** [`abstract-expressionism`](../abstract-expressionism/SKILL.md), [`de-stijl-painting`](../de-stijl-painting/SKILL.md)
+- **Led to (go here for a newer version):** [`abstract-expressionism`](../abstract-expressionism/SKILL.md), [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`futurism-painting`](../futurism-painting/SKILL.md), [`suprematism`](../suprematism/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`impressionism`](../impressionism/SKILL.md), [`renaissance-painting`](../renaissance-painting/SKILL.md)
 - **Kin in another domain:** [`constructivism-web`](../constructivism-web/SKILL.md), [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md)
-- **Nearest by vector profile:** [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`abstract-expressionism`](../abstract-expressionism/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md)
+- **Nearest by vector profile:** [`symbolism-painting`](../symbolism-painting/SKILL.md), [`futurism-painting`](../futurism-painting/SKILL.md), [`minimalism-painting`](../minimalism-painting/SKILL.md)
 
 ## Emotional target
 
