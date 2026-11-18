@@ -1,0 +1,117 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "surrealism-painting",
+  "domain": "painting",
+  "name": "Surrealism",
+  "aliases": ["Veristic surrealism", "Dream painting"],
+  "era_id": "avant-garde",
+  "time_period": { "start": 1924, "end": 1966, "label": "1924–1960s" },
+  "region": "Paris, France and Spain",
+  "media": ["oil on canvas"],
+  "summary": "Dream pictures in a clear, exact style: real objects in impossible places, meetings and changes of scale. The detail is precise and the logic is wrong, so the image feels both real and strange.",
+  "philosophy": {
+    "core_thesis": "A picture can show the mind below reason, and so it joins plain, exact things in a way that no waking logic allows.",
+    "design_principles": [
+      "Paint each object with exact, plain detail, as in a photograph, and make the meeting of objects impossible.",
+      "Place the scene in a wide, empty, deep space: a low horizon at 25–35% of the height and a long, clear perspective.",
+      "Change the scale on purpose: an object 3 to 10 times too large or too small against its neighbour.",
+      "Melt, split or combine forms: a soft clock, a body of drawers, a bird that is a leaf.",
+      "Use a cool, calm, even light with long, hard shadows, as at dusk or in a dream.",
+      "Keep the surface smooth and the touch hidden, so that the strange image looks real.",
+      "Give the picture an enigmatic title that does not explain it, and leave one object unresolved."
+    ],
+    "anti_patterns": [
+      "A logical, explained scene that has a clear story",
+      "Loose, gestural paint that draws attention to the hand",
+      "Flat decorative colour with no depth",
+      "Cute, cartoon-like or horror-film images",
+      "A crowded picture with no open space",
+      "Realistic scale and order between the objects"
+    ]
+  },
+  "vectors": { "abstraction": 2, "brushwork_visibility": 1, "chromatic_intensity": 3, "depth_illusion": 5, "line_dominance": 3 },
+  "composition": {
+    "layout": "A wide, empty plain or room in deep perspective, with a low horizon at 25–35% of the height and 2–5 objects set apart in the space, each with a long shadow.",
+    "focal_point": "The main impossible object, set at one third from an edge, in the sharpest detail and the brightest value of the picture.",
+    "format": "A canvas at 4:3 to 3:2, small to medium (0.3 to 1m); the sky or the far plain takes 40–60% of the height.",
+    "principles": [
+      { "principle": "scale", "rule": "Set one object at 3 to 10 times its true size against its neighbour, so that the scale does not agree with the space." },
+      { "principle": "negative-space", "rule": "Keep 50–70% of the picture as empty plain, sky or wall around the 2–5 objects." },
+      { "principle": "layering-depth", "rule": "Build 3 layers: a near object, a middle object and a far horizon, with sharp detail in all three and a gradual cool haze at the back." },
+      { "principle": "focal-point", "rule": "Place the one impossible object at the third line, and give it the strongest contrast, at 40% or more above the ground value." },
+      { "principle": "lighting-layers", "rule": "Use a low, even, cool light with a long hard shadow of 2 to 5 times the object height, and a glow only at the horizon." },
+      { "principle": "grouping", "rule": "Group 2–3 unrelated objects in one tight cluster, and place the next group at least 30% of the picture width away." }
+    ]
+  },
+  "palette": {
+    "strategy": "A cool, calm, natural palette of dusk blue, sand and grey-green, with one warm or acid accent on the impossible object.",
+    "distribution": "Sky and far plain 40–50%, ground and wall 30–40%, objects 10–20%, accent under 5%.",
+    "ground": "A smooth, white or pale grey ground, with thin, hidden layers over it.",
+    "colours": [
+      { "name": "Dusk blue", "hex": "#5B7FA6", "pigment": "cerulean and ultramarine", "role": "sky and far plain" },
+      { "name": "Pale sky", "hex": "#B9CFDB", "pigment": "cerulean and white", "role": "horizon glow" },
+      { "name": "Desert sand", "hex": "#C9A877", "pigment": "ochre and white", "role": "plain and ground" },
+      { "name": "Burnt sienna", "hex": "#8A4B2E", "pigment": "burnt sienna", "role": "rock, wood and a warm accent" },
+      { "name": "Grey-green", "hex": "#6A7B66", "pigment": "terre verte and grey", "role": "far hill and leaf" },
+      { "name": "Deep shadow", "hex": "#2B2B35", "pigment": "ivory black and umber", "role": "long cast shadow" },
+      { "name": "Flesh pink", "hex": "#E0B7A2", "pigment": "lead white and red ochre", "role": "skin and soft forms" }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Oil paint, thin and smooth, with glazes.",
+    "support": "A fine canvas or panel with a smooth, white ground.",
+    "brushwork": "Small, fine strokes of 1–2mm, blended away; no visible hand and no impasto.",
+    "paint_handling": "4–8 thin glazed layers; the surface is polished, and the transitions are seamless.",
+    "edges": "Hard and exact at the objects; soft only in the far sky and the haze."
+  },
+  "light_and_modelling": {
+    "light": "A low, calm, even light, like dusk or the hour before a storm, from one side and slightly behind.",
+    "modelling": "Smooth and exact, with 6–8 steps; the form looks solid and the surface looks touched.",
+    "shadow": "Long, hard and dark, at 2 to 5 times the height of the object, with a clear edge, on a pale ground.",
+    "temperature": "A cool overall key, with a small warm glow at the horizon or on one object."
+  },
+  "subject": {
+    "typical": "A dream plain with melting or floating objects, a body that is a cabinet, an eye, a bowler hat, a bird, a door, and a landscape of a sleeper.",
+    "figure_scale": "Objects of 10–30% of the picture height, set apart in a wide space; a figure may be tiny or huge.",
+    "treatment": "Calm, exact and cold; the strange thing is shown without a sign of surprise."
+  },
+  "surface": {
+    "finish": "Smooth and glossy, with a hidden touch.",
+    "texture": "None visible; an even, polished surface like a photograph."
+  },
+  "reference_works": {
+    "works": [
+      { "work": "La durée poignardée (Time Transfixed)", "artist": "René Magritte", "date": "1938", "museum": "Art Institute of Chicago", "object_id": "34181", "public_domain": false },
+      { "work": "On the Threshold of Liberty", "artist": "René Magritte", "date": "February–March 1937", "museum": "Art Institute of Chicago", "object_id": "110970", "public_domain": false },
+      { "work": "Inventions of the Monsters", "artist": "Salvador Dalí", "date": "1937", "museum": "Art Institute of Chicago", "object_id": "151424", "public_domain": false }
+    ],
+    "note": "These works are in copyright and the museum does not flag them as public domain. The ids identify the works only. Look at the museum page for the image and its licence; do not copy it."
+  },
+  "prompt_primer": {
+    "positive": ["surrealist painting", "dream landscape", "impossible objects", "hyperreal detail", "melting forms", "scale distortion", "long cast shadows", "empty plain and low horizon", "Dalí and Magritte style", "smooth polished surface"],
+    "negative": ["loose brush strokes", "logical story scene", "cartoon", "horror gore", "crowded composition", "flat decorative colour"]
+  },
+  "lineage": { "evolved_from": [], "rebelled_against": [], "hybridized_with": [], "echoes": ["vaporwave"] },
+  "emotion": {
+    "target_response": "Uncanny wonder: the viewer feels a calm, clear image that cannot be true, and cannot look away.",
+    "keywords": ["uncanny", "dreamlike", "enigmatic", "precise", "strange"],
+    "brand_archetypes": ["magician", "explorer", "creator"]
+  },
+  "agent": {
+    "triggers": ["surrealism", "surrealist", "dali", "magritte", "max ernst", "dreamlike", "impossible scene", "melting", "uncanny", "hyperreal dream"],
+    "use_cases": ["album, book and film cover art", "advertising with a visual paradox", "editorial illustration of a concept or a mind", "fashion and perfume campaign"],
+    "avoid_when": [
+      "The brief needs a plain, literal or documentary picture.",
+      "The picture must be quick, loose or decorative."
+    ],
+    "modifiers": [
+      { "request": "more abstract and automatic", "toward": "abstract-expressionism", "how": "Keep the dream mood; drop the exact objects, lay marks by gesture at 50–200mm, and let the chance of the stroke form the image." },
+      { "request": "more plain and real", "toward": "realism-painting", "how": "Keep the exact detail; remove the impossible meeting and the scale change, and set ordinary people in plain light with earth colour." }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q39427 (Surrealism)", "url": "https://www.wikidata.org/wiki/Q39427" },
+    { "title": "Art Institute of Chicago API (CC0 data)", "url": "https://api.artic.edu/docs/" },
+    { "title": "André Breton, Manifeste du surréalisme (1924)" }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "rococo-painting",
+  "domain": "painting",
+  "name": "Rococo",
+  "aliases": ["Late Baroque", "Louis XV style"],
+  "era_id": "early-modern",
+  "time_period": { "start": 1720, "end": 1780, "label": "1720–1780" },
+  "region": "Paris, France",
+  "media": ["oil on canvas", "fresco"],
+  "summary": "Light, playful pictures of love, leisure and ornament, in pale pastel colour and curving lines. The weight and drama of the Baroque give way to charm, intimacy and a soft, feathery touch.",
+  "philosophy": {
+    "core_thesis": "A picture should give pleasure: it is a refined, light and intimate object that charms the eye, and it does not preach or overwhelm.",
+    "design_principles": [
+      "Build the layout on S-curves and C-curves, and run the main line in a long, lazy diagonal from one corner to the other.",
+      "Set the palette in pale pastel: pink, powder blue, cream, soft green and gold, with 70% of the area above value 60%.",
+      "Paint small, intimate scenes of 0.5 to 1.5m: lovers, a swing, a boudoir, a garden party.",
+      "Surround the figures with soft, leafy and cloud-like masses that frame them like a shell.",
+      "Keep the paint thin and the touch light: feathery strokes of 2–8mm with a visible, quick flick in the foliage.",
+      "Light the picture from a high, soft, golden source with weak shadows that stay warm and pale.",
+      "Add ornament: ribbons, flowers, shells and gilt, in small amounts at the edge of the figure."
+    ],
+    "anti_patterns": [
+      "Heavy, dark ground and strong chiaroscuro",
+      "Solemn, heroic or religious subjects with a moral",
+      "Hard, straight architectural lines and strict symmetry",
+      "Deep, saturated primary colour",
+      "Rough, thick or dramatic paint handling",
+      "Large, monumental figures that fill the picture"
+    ]
+  },
+  "vectors": { "abstraction": 1, "brushwork_visibility": 3, "chromatic_intensity": 2, "depth_illusion": 3, "line_dominance": 3 },
+  "composition": {
+    "layout": "A diagonal S-curve of figures and foliage from one lower corner to the opposite upper corner, framed by a leafy or cloud-like canopy and open at the far side.",
+    "focal_point": "A pair of figures or a single bright dress, at about one third from the left or right edge and slightly above the middle.",
+    "format": "A small to medium canvas at 4:5 to 5:4, or an oval or a shaped panel above a door; figures are small against the setting.",
+    "principles": [
+      { "principle": "rhythm", "rule": "Repeat a curve of 3–5 turns in drapery, branch and cloud, with the same S-shape at 20–40% of the picture width." },
+      { "principle": "balance", "rule": "Hold the balance by a diagonal: put 60% of the mass in one lower corner and counter it with a light mass in the opposite upper corner." },
+      { "principle": "framing", "rule": "Frame the scene with foliage or curtain that covers 20–30% of the picture along two edges." },
+      { "principle": "unity-variety", "rule": "Keep 5–6 pastel hues in a narrow value band of 60–85%, with small accents of gold at under 5%." },
+      { "principle": "scale", "rule": "Make the figures 15–35% of the picture height, so that the setting is as large as the people." },
+      { "principle": "lighting-layers", "rule": "Use 3 light layers: a soft golden key, a pale fill that lifts the shadow to value 40% or more, and a small bright highlight on silk." }
+    ]
+  },
+  "palette": {
+    "strategy": "A high-key pastel palette of pink, powder blue, cream and soft green, warmed by gold; no pure dark except a small accent.",
+    "distribution": "Pale ground and sky 40–50%, pastel dress and flesh 30–40%, green foliage 10–20%, gold and dark accents under 5%.",
+    "ground": "A pale, warm cream or light grey ground, with thin glazes over it.",
+    "colours": [
+      { "name": "Powder pink", "hex": "#EBB7BC", "pigment": "lake and lead white", "role": "dress and flesh" },
+      { "name": "Powder blue", "hex": "#A9C4DE", "pigment": "smalt or ultramarine and white", "role": "sky and silk" },
+      { "name": "Cream", "hex": "#F4EBD8", "pigment": "lead white", "role": "light ground and satin" },
+      { "name": "Pale sage", "hex": "#9DB38B", "pigment": "verdigris and white", "role": "foliage" },
+      { "name": "Gilt gold", "hex": "#D4AE5E", "pigment": "gold ochre", "role": "ornament and warm light" },
+      { "name": "Soft umber", "hex": "#7A5E4A", "pigment": "umber", "role": "tree trunk and accent" },
+      { "name": "Rose deep", "hex": "#B65A6E", "pigment": "madder lake", "role": "a small deep accent" }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Thin oil paint with light glazes; fresco for ceilings.",
+    "support": "Fine-weave canvas on a pale, light ground.",
+    "brushwork": "Quick, light strokes of 2–8mm; a flick of the brush in leaves and lace; the skin is smooth and the setting is feathery.",
+    "paint_handling": "2–4 thin layers; the lights are a little thicker (1–2mm) on silk and clouds, and the shadows are thin and warm.",
+    "edges": "Soft edges in the foliage and the clouds, with a crisp edge only at the face and the hands."
+  },
+  "light_and_modelling": {
+    "light": "A high, soft, golden light from the upper side, with a glow that seems to come from the sky or the leaves.",
+    "modelling": "Gentle, with 4–5 steps; the skin turns in pale pink and cream, and silk catches sharp light on the folds.",
+    "shadow": "Light and warm, at value 40–60%; it is a tinted veil, not a black pool.",
+    "temperature": "Warm overall: pink and gold light against a cool pale blue in the sky and the silk."
+  },
+  "subject": {
+    "typical": "Courtship, the swing, shepherd games, nymphs and cupids, boudoir and garden scenes, portraits of a court lady.",
+    "figure_scale": "Small figures of 15–35% of the height, set in an airy garden or room.",
+    "treatment": "Witty, sensual and light; a secret glance, a lost shoe, a letter; nothing is serious."
+  },
+  "surface": {
+    "finish": "Smooth with a light varnish and a pearly sheen.",
+    "texture": "Fine, with a faint canvas grain; flicks of thicker light paint in the lace and the clouds."
+  },
+  "reference_works": {
+    "works": [
+      { "work": "Arbor with Two Children (Le Nid d'Amour)", "artist": "Jean Honoré Fragonard", "date": "1760", "museum": "Art Institute of Chicago", "object_id": "14766", "public_domain": true },
+      { "work": "The Letter, or The Spanish Conversation", "artist": "Jean Honoré Fragonard", "date": "c. 1778", "museum": "Art Institute of Chicago", "object_id": "52736", "public_domain": true },
+      { "work": "Boy with a Carrot", "artist": "François Boucher", "date": "1738", "museum": "Art Institute of Chicago", "object_id": "35692", "public_domain": true }
+    ],
+    "note": "Object ids were checked against the Art Institute of Chicago API (CC0 data). Look at the museum page for the image and its licence."
+  },
+  "prompt_primer": {
+    "positive": ["rococo painting", "pastel pink and powder blue", "S-curve composition", "swing and garden party", "feathery brush strokes", "soft golden light", "ribbons and flowers", "cream and gilt", "playful and intimate", "Fragonard Boucher style"],
+    "negative": ["dark chiaroscuro", "heroic scene", "strict symmetry", "heavy impasto", "saturated primary colour", "monumental figure"]
+  },
+  "lineage": { "evolved_from": ["baroque-painting"], "rebelled_against": [], "hybridized_with": [], "echoes": ["art-nouveau-architecture"] },
+  "emotion": {
+    "target_response": "Delight and ease: the viewer feels charmed, a little flirted with, and light.",
+    "keywords": ["playful", "delicate", "ornamental", "romantic", "frivolous"],
+    "brand_archetypes": ["lover", "jester", "innocent"]
+  },
+  "agent": {
+    "triggers": ["rococo", "fragonard", "boucher", "watteau", "pastel romantic", "swing painting", "louis xv", "fete galante", "marie antoinette"],
+    "use_cases": ["confectionery, tea and cosmetics packaging", "wedding and invitation art", "boutique hotel and salon decor", "fashion and perfume campaign"],
+    "avoid_when": [
+      "The brief needs authority, weight or a serious tone.",
+      "The picture must be bold, technical or minimal."
+    ],
+    "modifiers": [
+      { "request": "more dramatic", "toward": "baroque-painting", "how": "Keep the diagonal and the figures; darken the ground to 50% of the area, use one strong beam of light, and deepen the colour." },
+      { "request": "more serious and natural", "toward": "realism-painting", "how": "Drop the pastel and the ornament; use a plain brown ground, ordinary figures at work, and no flirtation." }
+    ]
+  },
+  "sources": [
+    { "title": "Wikidata Q122960 (Rococo)", "url": "https://www.wikidata.org/wiki/Q122960" },
+    { "title": "Katie Scott, The Rococo Interior (Yale University Press, 1995)" },
+    { "title": "Art Institute of Chicago API (CC0 data)", "url": "https://api.artic.edu/docs/" }
+  ]
+}

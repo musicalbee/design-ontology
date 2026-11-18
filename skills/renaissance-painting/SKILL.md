@@ -169,10 +169,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more dramatic**: move toward [`baroque-painting`](../baroque-painting/SKILL.md) (Baroque painting). Keep the perspective and the modelled figures; replace the diffuse light with one hard source, move the focal point off the axis, and darken the shadows to 50–60% of the area.
 - If the user asks for **looser, more modern**: move toward [`impressionism`](../impressionism/SKILL.md) (Impressionism). Keep the outdoor setting and the cool distance; drop the underdrawing, break each form into visible strokes 5–15mm wide and remove the outline.
 
-- **Led to (go here for a newer version):** [`baroque-painting`](../baroque-painting/SKILL.md)
+- **Led to (go here for a newer version):** [`baroque-painting`](../baroque-painting/SKILL.md), [`mannerism-painting`](../mannerism-painting/SKILL.md)
 - **Was rejected by:** [`cubism-painting`](../cubism-painting/SKILL.md)
 - **Kin in another domain:** [`georgian-interior`](../georgian-interior/SKILL.md), [`renaissance-architecture`](../renaissance-architecture/SKILL.md)
-- **Nearest by vector profile:** [`baroque-painting`](../baroque-painting/SKILL.md), [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md)
+- **Nearest by vector profile:** [`surrealism-painting`](../surrealism-painting/SKILL.md), [`mannerism-painting`](../mannerism-painting/SKILL.md), [`baroque-painting`](../baroque-painting/SKILL.md)
 
 ## Emotional target
 

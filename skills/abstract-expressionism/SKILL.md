@@ -170,10 +170,11 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more controlled**: move toward [`de-stijl-painting`](../de-stijl-painting/SKILL.md) (De Stijl painting). Keep the flat colour and the abstraction; replace the gesture with straight black lines, set the fields as rectangles, and hide every stroke.
 - If the user asks for **more structure**: move toward [`cubism-painting`](../cubism-painting/SKILL.md) (Cubism). Keep the shallow space and the earth palette; bring back the faceted plane, a hidden grid and a faint object clue.
 
-- **Came from (go here for a more orthodox version):** [`cubism-painting`](../cubism-painting/SKILL.md)
+- **Came from (go here for a more orthodox version):** [`cubism-painting`](../cubism-painting/SKILL.md), [`surrealism-painting`](../surrealism-painting/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`de-stijl-painting`](../de-stijl-painting/SKILL.md)
+- **Was rejected by:** [`pop-art-painting`](../pop-art-painting/SKILL.md)
 - **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md)
-- **Nearest by vector profile:** [`cubism-painting`](../cubism-painting/SKILL.md), [`impressionism`](../impressionism/SKILL.md), [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md)
+- **Nearest by vector profile:** [`cubism-painting`](../cubism-painting/SKILL.md), [`fauvism`](../fauvism/SKILL.md), [`impressionism`](../impressionism/SKILL.md)
 
 ## Emotional target
 
