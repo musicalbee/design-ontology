@@ -2,7 +2,7 @@
 name: expressionist-architecture
 description: "Apply the Expressionist Architecture style (1910–1925) when designing, describing or rendering buildings and interiors. Load when the user asks for: expressionist architecture, expressionism architecture, mendelsohn, einstein tower, chilehaus, glass chain."
 domain: architecture
-era: modern-movement
+era: fin-de-siecle
 triggers:
   - "expressionist architecture"
   - "expressionism architecture"
@@ -28,7 +28,7 @@ vector_profile:
 
 Buildings shaped as one plastic gesture of feeling. After the First World War, Mendelsohn, Taut, Poelzig and Höger used brick, concrete and glass to make crystals, caves and flowing masses.
 
-**Period:** 1910–1925 · **Era:** Modern Movement · **Domain:** Architecture · **Also called:** Architectural Expressionism, German Expressionism in architecture, Glass Chain
+**Period:** 1910–1925 · **Era:** Fin de Siècle · **Domain:** Architecture · **Also called:** Architectural Expressionism, German Expressionism in architecture, Glass Chain
 
 ## When to load this skill
 

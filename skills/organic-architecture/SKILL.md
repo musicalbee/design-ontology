@@ -2,7 +2,7 @@
 name: organic-architecture
 description: "Apply the Organic Architecture style (1905–present) when designing, describing or rendering buildings and interiors. Load when the user asks for: organic architecture, organic design, frank lloyd wright, fallingwater, usonian, bruce goff."
 domain: architecture
-era: modern-movement
+era: fin-de-siecle
 triggers:
   - "organic architecture"
   - "organic design"
@@ -27,7 +27,7 @@ vector_profile:
 
 A building grows from its site like a plant. Wright, Aalto and Goff set the plan, the structure and the material in one flowing whole that opens to the land, with no fixed façade or box.
 
-**Period:** 1905–present · **Era:** Modern Movement · **Domain:** Architecture · **Also called:** Organic design, Wrightian organic, Usonian organic
+**Period:** 1905–present · **Era:** Fin de Siècle · **Domain:** Architecture · **Also called:** Organic design, Wrightian organic, Usonian organic
 
 ## When to load this skill
 

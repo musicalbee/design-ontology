@@ -2,7 +2,7 @@
 name: arts-and-crafts-architecture
 description: "Apply the Arts and Crafts style (1859–1914) when designing, describing or rendering buildings and interiors. Load when the user asks for: arts and crafts, arts and crafts house, william morris, red house, voysey, baillie scott."
 domain: architecture
-era: fin-de-siecle
+era: revival-and-academy
 triggers:
   - "arts and crafts"
   - "arts and crafts house"
@@ -28,7 +28,7 @@ vector_profile:
 
 Houses built by honest craft from local brick, oak and tile. Webb, Voysey and Baillie Scott planned from the inside out and let steep roofs, deep porches and hand work show how the house was made.
 
-**Period:** 1859–1914 · **Era:** Fin de Siècle · **Domain:** Architecture · **Also called:** Arts and Crafts movement, Domestic Revival, Free Style
+**Period:** 1859–1914 · **Era:** Revival and Academy · **Domain:** Architecture · **Also called:** Arts and Crafts movement, Domestic Revival, Free Style
 
 ## When to load this skill
 

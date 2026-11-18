@@ -2,7 +2,7 @@
 name: adaptive-reuse-architecture
 description: "Apply the Adaptive Reuse style (1964–present) when designing, describing or rendering buildings and interiors. Load when the user asks for: adaptive reuse, building conversion, converted warehouse, converted factory, tate modern, carlo scarpa castelvecchio."
 domain: architecture
-era: postmodern-and-after
+era: modern-movement
 triggers:
   - "adaptive reuse"
   - "building conversion"
@@ -27,7 +27,7 @@ vector_profile:
 
 Old buildings given a new use. Scarpa, Aulenti and Herzog and de Meuron keep the shell of a castle, station or power plant, and add a clear new layer that tells old from new.
 
-**Period:** 1964–present · **Era:** Postmodern and After · **Domain:** Architecture · **Also called:** Building reuse, Conversion architecture, Retrofit and reuse
+**Period:** 1964–present · **Era:** Modern Movement · **Domain:** Architecture · **Also called:** Building reuse, Conversion architecture, Retrofit and reuse
 
 ## When to load this skill
 

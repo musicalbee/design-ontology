@@ -901,6 +901,21 @@
       }
     },
     {
+      "id": "arts-and-crafts-architecture",
+      "domain": "architecture",
+      "name": "Arts and Crafts",
+      "era": "revival-and-academy",
+      "start": 1859,
+      "end": 1914,
+      "vectors": {
+        "ornamentation": 3,
+        "structural_expression": 3,
+        "geometric_rigidity": 2,
+        "material_rawness": 4,
+        "monumentality": 2
+      }
+    },
+    {
       "id": "beaux-arts-architecture",
       "domain": "architecture",
       "name": "Beaux-Arts",
@@ -913,21 +928,6 @@
         "geometric_rigidity": 4,
         "material_rawness": 1,
         "monumentality": 5
-      }
-    },
-    {
-      "id": "arts-and-crafts-architecture",
-      "domain": "architecture",
-      "name": "Arts and Crafts",
-      "era": "fin-de-siecle",
-      "start": 1859,
-      "end": 1914,
-      "vectors": {
-        "ornamentation": 3,
-        "structural_expression": 3,
-        "geometric_rigidity": 2,
-        "material_rawness": 4,
-        "monumentality": 2
       }
     },
     {
@@ -964,7 +964,7 @@
       "id": "organic-architecture",
       "domain": "architecture",
       "name": "Organic Architecture",
-      "era": "modern-movement",
+      "era": "fin-de-siecle",
       "start": 1905,
       "end": null,
       "vectors": {
@@ -979,7 +979,7 @@
       "id": "expressionist-architecture",
       "domain": "architecture",
       "name": "Expressionist Architecture",
-      "era": "modern-movement",
+      "era": "fin-de-siecle",
       "start": 1910,
       "end": 1925,
       "vectors": {
@@ -1084,7 +1084,7 @@
       "id": "adaptive-reuse-architecture",
       "domain": "architecture",
       "name": "Adaptive Reuse",
-      "era": "postmodern-and-after",
+      "era": "modern-movement",
       "start": 1964,
       "end": null,
       "vectors": {
@@ -6643,34 +6643,6 @@
       ],
       "techniques": []
     },
-    "beaux-arts-architecture": {
-      "evolved_from": [
-        "baroque-architecture",
-        "neoclassical-architecture"
-      ],
-      "evolved_into": [],
-      "rebelled_against": [],
-      "provoked": [
-        "expressionist-architecture"
-      ],
-      "hybridized_with": [],
-      "echoes": [],
-      "nearest_by_vector": [
-        {
-          "id": "art-deco-architecture",
-          "distance": 1.41
-        },
-        {
-          "id": "postmodern-architecture",
-          "distance": 2.24
-        },
-        {
-          "id": "renaissance-architecture",
-          "distance": 2.24
-        }
-      ],
-      "techniques": []
-    },
     "arts-and-crafts-architecture": {
       "evolved_from": [
         "gothic-architecture"
@@ -6696,6 +6668,34 @@
         {
           "id": "deconstructivist-architecture",
           "distance": 2
+        }
+      ],
+      "techniques": []
+    },
+    "beaux-arts-architecture": {
+      "evolved_from": [
+        "baroque-architecture",
+        "neoclassical-architecture"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [
+        "expressionist-architecture"
+      ],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "art-deco-architecture",
+          "distance": 1.41
+        },
+        {
+          "id": "postmodern-architecture",
+          "distance": 2.24
+        },
+        {
+          "id": "renaissance-architecture",
+          "distance": 2.24
         }
       ],
       "techniques": []
