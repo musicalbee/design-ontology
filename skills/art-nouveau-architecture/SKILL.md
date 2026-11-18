@@ -179,7 +179,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more geometric**: move toward [`art-deco-architecture`](../art-deco-architecture/SKILL.md) (Art Deco). Replace the curve with the zigzag and the chevron, keep the rich materials and the total-work idea, and add a stepped silhouette.
 
 - **Led to (go here for a newer version):** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`expressionist-architecture`](../expressionist-architecture/SKILL.md), [`organic-architecture`](../organic-architecture/SKILL.md)
-- **Kin in another domain:** [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md), [`art-nouveau-monogram`](../art-nouveau-monogram/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`rococo-painting`](../rococo-painting/SKILL.md)
+- **Kin in another domain:** [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md), [`art-nouveau-monogram`](../art-nouveau-monogram/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`rococo-painting`](../rococo-painting/SKILL.md), [`symbolism-painting`](../symbolism-painting/SKILL.md)
 - **Nearest by vector profile:** [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md), [`organic-architecture`](../organic-architecture/SKILL.md), [`parametricism-architecture`](../parametricism-architecture/SKILL.md)
 
 ## Emotional target
