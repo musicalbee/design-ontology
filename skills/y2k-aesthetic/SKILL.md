@@ -243,11 +243,11 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more translucent**: move toward [`glassmorphism`](../glassmorphism/SKILL.md) (Glassmorphism). Raise background blur to 16px to 24px, lower panel opacity to 20% to 40% and drop the chrome; keep the cool palette.
 - If the user asks for **less glossy**: move toward [`swiss-international`](../swiss-international/SKILL.md) (Swiss International Style). Use a 12-column grid, one sans serif and one blue accent; keep the small upper-case labels.
 
-- **Led to (go here for a newer version):** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
+- **Led to (go here for a newer version):** [`apple-aqua`](../apple-aqua/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`grunge-editorial`](../grunge-editorial/SKILL.md)
 - **Mixes well with:** [`glassmorphism`](../glassmorphism/SKILL.md)
 - **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`music-video`](../music-video/SKILL.md), [`party-flash`](../party-flash/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
-- **Nearest by vector profile:** [`vaporwave`](../vaporwave/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md)
+- **Nearest by vector profile:** [`vaporwave`](../vaporwave/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md)
 
 ## Emotional target
 

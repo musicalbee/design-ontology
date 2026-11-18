@@ -286,6 +286,21 @@
       }
     },
     {
+      "id": "apple-aqua",
+      "domain": "design",
+      "name": "Apple Aqua",
+      "era": "postmodern-early-digital",
+      "start": 2000,
+      "end": 2006,
+      "vectors": {
+        "ornamentation": 3,
+        "dimensionality": 4,
+        "grid_rigidity": 4,
+        "skeuomorphic_realism": 4,
+        "typographic_expressiveness": 2
+      }
+    },
+    {
       "id": "frutiger-aero",
       "domain": "design",
       "name": "Frutiger Aero",
@@ -312,6 +327,21 @@
         "dimensionality": 4,
         "grid_rigidity": 3,
         "skeuomorphic_realism": 5,
+        "typographic_expressiveness": 3
+      }
+    },
+    {
+      "id": "metro-ui",
+      "domain": "design",
+      "name": "Metro UI",
+      "era": "touchscreen",
+      "start": 2010,
+      "end": 2015,
+      "vectors": {
+        "ornamentation": 1,
+        "dimensionality": 2,
+        "grid_rigidity": 5,
+        "skeuomorphic_realism": 1,
         "typographic_expressiveness": 3
       }
     },
@@ -346,6 +376,21 @@
       }
     },
     {
+      "id": "brutalist-web",
+      "domain": "design",
+      "name": "Brutalist Web (2014)",
+      "era": "touchscreen",
+      "start": 2014,
+      "end": null,
+      "vectors": {
+        "ornamentation": 1,
+        "dimensionality": 1,
+        "grid_rigidity": 2,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 2
+      }
+    },
+    {
       "id": "material-design",
       "domain": "design",
       "name": "Material Design",
@@ -357,6 +402,36 @@
         "dimensionality": 3,
         "grid_rigidity": 4,
         "skeuomorphic_realism": 2,
+        "typographic_expressiveness": 2
+      }
+    },
+    {
+      "id": "anti-design",
+      "domain": "design",
+      "name": "Anti-Design",
+      "era": "touchscreen",
+      "start": 2016,
+      "end": null,
+      "vectors": {
+        "ornamentation": 4,
+        "dimensionality": 1,
+        "grid_rigidity": 1,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 5
+      }
+    },
+    {
+      "id": "dark-devtool-ui",
+      "domain": "design",
+      "name": "Dark-Mode Developer Tool",
+      "era": "touchscreen",
+      "start": 2016,
+      "end": null,
+      "vectors": {
+        "ornamentation": 1,
+        "dimensionality": 2,
+        "grid_rigidity": 4,
+        "skeuomorphic_realism": 1,
         "typographic_expressiveness": 2
       }
     },
@@ -415,6 +490,36 @@
       "vectors": {
         "ornamentation": 3,
         "dimensionality": 2,
+        "grid_rigidity": 3,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 4
+      }
+    },
+    {
+      "id": "claymorphism",
+      "domain": "design",
+      "name": "Claymorphism",
+      "era": "contemporary-spatial",
+      "start": 2021,
+      "end": 2023,
+      "vectors": {
+        "ornamentation": 3,
+        "dimensionality": 4,
+        "grid_rigidity": 2,
+        "skeuomorphic_realism": 3,
+        "typographic_expressiveness": 3
+      }
+    },
+    {
+      "id": "editorial-serif-revival",
+      "domain": "design",
+      "name": "Editorial Serif Revival",
+      "era": "contemporary-spatial",
+      "start": 2021,
+      "end": null,
+      "vectors": {
+        "ornamentation": 2,
+        "dimensionality": 1,
         "grid_rigidity": 3,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 4
@@ -1703,6 +1808,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "anti-design",
+      "to": "deconstructivist-architecture",
+      "type": "ECHOES"
+    },
+    {
       "from": "art-deco-architecture",
       "to": "art-deco-interior",
       "type": "ECHOES"
@@ -1824,6 +1934,11 @@
     },
     {
       "from": "brutalist-architecture",
+      "to": "brutalist-web",
+      "type": "ECHOES"
+    },
+    {
+      "from": "brutalist-architecture",
       "to": "constructivism-web",
       "type": "ECHOES"
     },
@@ -1865,6 +1980,11 @@
     {
       "from": "camcorder-revival",
       "to": "party-flash",
+      "type": "ECHOES"
+    },
+    {
+      "from": "camcorder-revival",
+      "to": "vaporwave",
       "type": "ECHOES"
     },
     {
@@ -2218,6 +2338,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "apple-aqua",
+      "to": "y2k-aesthetic",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "art-deco-architecture",
       "to": "art-nouveau-architecture",
       "type": "EVOLVED_FROM"
@@ -2278,6 +2403,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "claymorphism",
+      "to": "neumorphism",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "corporate-memphis",
       "to": "flat-design",
       "type": "EVOLVED_FROM"
@@ -2285,6 +2415,11 @@
     {
       "from": "corporate-memphis",
       "to": "memphis-design",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "dark-devtool-ui",
+      "to": "flat-design",
       "type": "EVOLVED_FROM"
     },
     {
@@ -2315,6 +2450,11 @@
     {
       "from": "duesseldorf-school",
       "to": "new-topographics",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "editorial-serif-revival",
+      "to": "swiss-international",
       "type": "EVOLVED_FROM"
     },
     {
@@ -2430,6 +2570,11 @@
     {
       "from": "material-design",
       "to": "flat-design",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "metro-ui",
+      "to": "swiss-international",
       "type": "EVOLVED_FROM"
     },
     {
@@ -2588,6 +2733,31 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "anti-design",
+      "to": "brutalist-web",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "anti-design",
+      "to": "grunge-editorial",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "anti-design",
+      "to": "neo-brutalism-ui",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "apple-aqua",
+      "to": "frutiger-aero",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "apple-aqua",
+      "to": "skeuomorphism",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "art-deco-web",
       "to": "art-nouveau-web",
       "type": "HYBRIDIZED_WITH"
@@ -2619,12 +2789,22 @@
     },
     {
       "from": "bento-grid-ui",
+      "to": "dark-devtool-ui",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "bento-grid-ui",
       "to": "glassmorphism",
       "type": "HYBRIDIZED_WITH"
     },
     {
       "from": "bento-grid-ui",
       "to": "swiss-international",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "brutalist-web",
+      "to": "neo-brutalism-ui",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -2648,6 +2828,11 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "claymorphism",
+      "to": "corporate-memphis",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "constructivism-web",
       "to": "de-stijl-web",
       "type": "HYBRIDIZED_WITH"
@@ -2660,6 +2845,11 @@
     {
       "from": "creator-vlog",
       "to": "vertical-short-form",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "dark-devtool-ui",
+      "to": "glassmorphism",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -2705,6 +2895,11 @@
     {
       "from": "film-noir-still",
       "to": "street-photography",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "flat-design",
+      "to": "metro-ui",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -2813,6 +3008,21 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "anti-design",
+      "to": "flat-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "anti-design",
+      "to": "material-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "anti-design",
+      "to": "swiss-international",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "art-deco-interior",
       "to": "art-nouveau-interior",
       "type": "REBELLED_AGAINST"
@@ -2830,6 +3040,21 @@
     {
       "from": "arts-and-crafts-interior",
       "to": "victorian-interior",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "brutalist-web",
+      "to": "flat-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "brutalist-web",
+      "to": "material-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "claymorphism",
+      "to": "flat-design",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -2883,6 +3108,16 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "editorial-serif-revival",
+      "to": "corporate-memphis",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "editorial-serif-revival",
+      "to": "flat-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "fashion-editorial",
       "to": "new-objectivity",
       "type": "REBELLED_AGAINST"
@@ -2930,6 +3165,16 @@
     {
       "from": "memphis-interior",
       "to": "mid-century-modern-interior",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "metro-ui",
+      "to": "frutiger-aero",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "metro-ui",
+      "to": "skeuomorphism",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -3116,8 +3361,8 @@
           "distance": 1
         },
         {
-          "id": "rams-functionalism-ui",
-          "distance": 1.73
+          "id": "dark-devtool-ui",
+          "distance": 1.41
         }
       ]
     },
@@ -3148,12 +3393,12 @@
           "distance": 1.41
         },
         {
-          "id": "flat-design",
-          "distance": 1.73
+          "id": "dark-devtool-ui",
+          "distance": 1.41
         },
         {
-          "id": "material-design",
-          "distance": 1.73
+          "id": "metro-ui",
+          "distance": 1.41
         }
       ]
     },
@@ -3179,12 +3424,12 @@
           "distance": 1
         },
         {
-          "id": "pop-art-web",
+          "id": "editorial-serif-revival",
           "distance": 1.73
         },
         {
-          "id": "mid-century-modern",
-          "distance": 2.24
+          "id": "pop-art-web",
+          "distance": 1.73
         }
       ]
     },
@@ -3259,11 +3504,14 @@
       ],
       "evolved_into": [
         "bento-grid-ui",
+        "editorial-serif-revival",
         "flat-design",
+        "metro-ui",
         "rams-functionalism-ui"
       ],
       "rebelled_against": [],
       "provoked": [
+        "anti-design",
         "grunge-editorial",
         "memphis-design",
         "psychedelic",
@@ -3290,8 +3538,8 @@
           "distance": 1
         },
         {
-          "id": "rams-functionalism-ui",
-          "distance": 1.73
+          "id": "dark-devtool-ui",
+          "distance": 1.41
         }
       ]
     },
@@ -3312,16 +3560,16 @@
       ],
       "nearest_by_vector": [
         {
+          "id": "dark-devtool-ui",
+          "distance": 1.73
+        },
+        {
           "id": "de-stijl-web",
           "distance": 1.73
         },
         {
           "id": "swiss-international",
           "distance": 1.73
-        },
-        {
-          "id": "flat-design",
-          "distance": 2
         }
       ]
     },
@@ -3371,12 +3619,12 @@
           "distance": 1
         },
         {
-          "id": "grunge-editorial",
+          "id": "anti-design",
           "distance": 1.41
         },
         {
-          "id": "art-nouveau-web",
-          "distance": 1.73
+          "id": "grunge-editorial",
+          "distance": 1.41
         }
       ]
     },
@@ -3394,16 +3642,16 @@
       "echoes": [],
       "nearest_by_vector": [
         {
+          "id": "anti-design",
+          "distance": 1
+        },
+        {
           "id": "grunge-editorial",
           "distance": 1
         },
         {
           "id": "psychedelic",
           "distance": 1.73
-        },
-        {
-          "id": "art-nouveau-web",
-          "distance": 2
         }
       ]
     },
@@ -3452,6 +3700,7 @@
         "y2k-aesthetic"
       ],
       "hybridized_with": [
+        "anti-design",
         "punk-zine"
       ],
       "echoes": [
@@ -3467,18 +3716,19 @@
           "distance": 1
         },
         {
-          "id": "psychedelic",
+          "id": "anti-design",
           "distance": 1.41
         },
         {
-          "id": "art-nouveau-web",
-          "distance": 1.73
+          "id": "psychedelic",
+          "distance": 1.41
         }
       ]
     },
     "y2k-aesthetic": {
       "evolved_from": [],
       "evolved_into": [
+        "apple-aqua",
         "frutiger-aero",
         "vaporwave"
       ],
@@ -3501,11 +3751,38 @@
           "distance": 1.41
         },
         {
-          "id": "mid-century-modern",
+          "id": "claymorphism",
           "distance": 1.73
         },
         {
+          "id": "mid-century-modern",
+          "distance": 1.73
+        }
+      ]
+    },
+    "apple-aqua": {
+      "evolved_from": [
+        "y2k-aesthetic"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "frutiger-aero",
+        "skeuomorphism"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
           "id": "frutiger-aero",
+          "distance": 1
+        },
+        {
+          "id": "spatial-visionos",
+          "distance": 1.73
+        },
+        {
+          "id": "glassmorphism",
           "distance": 2
         }
       ]
@@ -3518,23 +3795,26 @@
         "glassmorphism"
       ],
       "rebelled_against": [],
-      "provoked": [],
+      "provoked": [
+        "metro-ui"
+      ],
       "hybridized_with": [
+        "apple-aqua",
         "skeuomorphism",
         "vaporwave"
       ],
       "echoes": [],
       "nearest_by_vector": [
         {
+          "id": "apple-aqua",
+          "distance": 1
+        },
+        {
           "id": "spatial-visionos",
           "distance": 1.41
         },
         {
-          "id": "glassmorphism",
-          "distance": 1.73
-        },
-        {
-          "id": "skeuomorphism",
+          "id": "claymorphism",
           "distance": 1.73
         }
       ]
@@ -3546,9 +3826,11 @@
       ],
       "rebelled_against": [],
       "provoked": [
-        "flat-design"
+        "flat-design",
+        "metro-ui"
       ],
       "hybridized_with": [
+        "apple-aqua",
         "frutiger-aero",
         "material-design",
         "spatial-visionos"
@@ -3560,12 +3842,41 @@
           "distance": 1.73
         },
         {
-          "id": "y2k-aesthetic",
-          "distance": 2.24
+          "id": "apple-aqua",
+          "distance": 2
         },
         {
-          "id": "spatial-visionos",
-          "distance": 2.65
+          "id": "y2k-aesthetic",
+          "distance": 2.24
+        }
+      ]
+    },
+    "metro-ui": {
+      "evolved_from": [
+        "swiss-international"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "frutiger-aero",
+        "skeuomorphism"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "flat-design"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "bauhaus",
+          "distance": 1.41
+        },
+        {
+          "id": "bento-grid-ui",
+          "distance": 1.41
+        },
+        {
+          "id": "dark-devtool-ui",
+          "distance": 1.41
         }
       ]
     },
@@ -3576,6 +3887,7 @@
       "evolved_into": [
         "bento-grid-ui",
         "corporate-memphis",
+        "dark-devtool-ui",
         "material-design",
         "neo-brutalism-ui"
       ],
@@ -3583,9 +3895,14 @@
         "skeuomorphism"
       ],
       "provoked": [
+        "anti-design",
+        "brutalist-web",
+        "claymorphism",
+        "editorial-serif-revival",
         "neumorphism"
       ],
       "hybridized_with": [
+        "metro-ui",
         "rams-functionalism-ui",
         "swiss-international"
       ],
@@ -3595,16 +3912,16 @@
       ],
       "nearest_by_vector": [
         {
+          "id": "dark-devtool-ui",
+          "distance": 1
+        },
+        {
           "id": "de-stijl-web",
           "distance": 1
         },
         {
           "id": "swiss-international",
           "distance": 1
-        },
-        {
-          "id": "bauhaus",
-          "distance": 1.73
         }
       ]
     },
@@ -3619,6 +3936,7 @@
         "frutiger-aero"
       ],
       "echoes": [
+        "camcorder-revival",
         "surrealism-painting"
       ],
       "nearest_by_vector": [
@@ -3631,8 +3949,38 @@
           "distance": 1.73
         },
         {
-          "id": "grunge-editorial",
+          "id": "claymorphism",
+          "distance": 1.73
+        }
+      ]
+    },
+    "brutalist-web": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "flat-design",
+        "material-design"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "anti-design",
+        "neo-brutalism-ui"
+      ],
+      "echoes": [
+        "brutalist-architecture"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "flat-design",
           "distance": 2
+        },
+        {
+          "id": "corporate-memphis",
+          "distance": 2.24
+        },
+        {
+          "id": "dark-devtool-ui",
+          "distance": 2.24
         }
       ]
     },
@@ -3643,6 +3991,8 @@
       "evolved_into": [],
       "rebelled_against": [],
       "provoked": [
+        "anti-design",
+        "brutalist-web",
         "neo-brutalism-ui"
       ],
       "hybridized_with": [
@@ -3664,6 +4014,65 @@
         }
       ]
     },
+    "anti-design": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "flat-design",
+        "material-design",
+        "swiss-international"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "brutalist-web",
+        "grunge-editorial",
+        "neo-brutalism-ui"
+      ],
+      "echoes": [
+        "deconstructivist-architecture"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "punk-zine",
+          "distance": 1
+        },
+        {
+          "id": "grunge-editorial",
+          "distance": 1.41
+        },
+        {
+          "id": "psychedelic",
+          "distance": 1.41
+        }
+      ]
+    },
+    "dark-devtool-ui": {
+      "evolved_from": [
+        "flat-design"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "bento-grid-ui",
+        "glassmorphism"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "flat-design",
+          "distance": 1
+        },
+        {
+          "id": "bauhaus",
+          "distance": 1.41
+        },
+        {
+          "id": "de-stijl-web",
+          "distance": 1.41
+        }
+      ]
+    },
     "corporate-memphis": {
       "evolved_from": [
         "flat-design",
@@ -3672,9 +4081,11 @@
       "evolved_into": [],
       "rebelled_against": [],
       "provoked": [
+        "editorial-serif-revival",
         "neo-brutalism-ui"
       ],
       "hybridized_with": [
+        "claymorphism",
         "memphis-design"
       ],
       "echoes": [],
@@ -3688,7 +4099,7 @@
           "distance": 2
         },
         {
-          "id": "flat-design",
+          "id": "brutalist-web",
           "distance": 2.24
         }
       ]
@@ -3697,7 +4108,9 @@
       "evolved_from": [
         "skeuomorphism"
       ],
-      "evolved_into": [],
+      "evolved_into": [
+        "claymorphism"
+      ],
       "rebelled_against": [
         "flat-design"
       ],
@@ -3732,6 +4145,7 @@
       "provoked": [],
       "hybridized_with": [
         "bento-grid-ui",
+        "dark-devtool-ui",
         "neumorphism",
         "y2k-aesthetic"
       ],
@@ -3761,7 +4175,10 @@
         "material-design"
       ],
       "provoked": [],
-      "hybridized_with": [],
+      "hybridized_with": [
+        "anti-design",
+        "brutalist-web"
+      ],
       "echoes": [
         "brutalist-architecture"
       ],
@@ -3771,12 +4188,67 @@
           "distance": 1
         },
         {
-          "id": "mid-century-modern",
+          "id": "editorial-serif-revival",
           "distance": 1.41
         },
         {
-          "id": "pop-art-web",
+          "id": "mid-century-modern",
           "distance": 1.41
+        }
+      ]
+    },
+    "claymorphism": {
+      "evolved_from": [
+        "neumorphism"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "flat-design"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "corporate-memphis"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "frutiger-aero",
+          "distance": 1.73
+        },
+        {
+          "id": "vaporwave",
+          "distance": 1.73
+        },
+        {
+          "id": "y2k-aesthetic",
+          "distance": 1.73
+        }
+      ]
+    },
+    "editorial-serif-revival": {
+      "evolved_from": [
+        "swiss-international"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "corporate-memphis",
+        "flat-design"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "neo-brutalism-ui",
+          "distance": 1.41
+        },
+        {
+          "id": "bauhaus",
+          "distance": 1.73
+        },
+        {
+          "id": "constructivism-web",
+          "distance": 1.73
         }
       ]
     },
@@ -3789,6 +4261,7 @@
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [
+        "dark-devtool-ui",
         "glassmorphism",
         "swiss-international"
       ],
@@ -3799,12 +4272,12 @@
           "distance": 1.41
         },
         {
-          "id": "material-design",
-          "distance": 1.73
+          "id": "metro-ui",
+          "distance": 1.41
         },
         {
-          "id": "de-stijl-web",
-          "distance": 2
+          "id": "material-design",
+          "distance": 1.73
         }
       ]
     },
@@ -3825,12 +4298,12 @@
           "distance": 1.41
         },
         {
-          "id": "glassmorphism",
-          "distance": 2.24
+          "id": "apple-aqua",
+          "distance": 1.73
         },
         {
-          "id": "neumorphism",
-          "distance": 2.65
+          "id": "claymorphism",
+          "distance": 2.24
         }
       ]
     },
@@ -4190,6 +4663,7 @@
       "hybridized_with": [],
       "echoes": [
         "abstract-expressionism",
+        "brutalist-web",
         "constructivism-web",
         "dogme-95",
         "duesseldorf-school",
@@ -4284,6 +4758,7 @@
         "high-tech-architecture"
       ],
       "echoes": [
+        "anti-design",
         "cubism-painting",
         "grunge-editorial"
       ],
@@ -5826,6 +6301,7 @@
         "film-grain-revival",
         "grunge-editorial",
         "party-flash",
+        "vaporwave",
         "y2k-aesthetic",
         "y2k-digicam"
       ],

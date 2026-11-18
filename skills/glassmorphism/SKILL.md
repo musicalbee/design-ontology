@@ -238,7 +238,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`frutiger-aero`](../frutiger-aero/SKILL.md)
 - **Led to (go here for a newer version):** [`spatial-visionos`](../spatial-visionos/SKILL.md)
-- **Mixes well with:** [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`neumorphism`](../neumorphism/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
+- **Mixes well with:** [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`neumorphism`](../neumorphism/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Nearest by vector profile:** [`material-design`](../material-design/SKILL.md), [`neumorphism`](../neumorphism/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md)
 
 ## Emotional target

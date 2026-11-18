@@ -1218,6 +1218,91 @@
       }
     },
     {
+      "id": "apple-aqua",
+      "name": "Apple Aqua",
+      "domain": "design",
+      "era": "postmodern-early-digital",
+      "period": "2000–2006",
+      "thesis": "The screen is a liquid, tactile surface: every control is a glossy drop that invites a click.",
+      "summary": "Translucent blue gel buttons, pinstripe backgrounds, glossy droplets and brushed-metal windows. It came with Mac OS X in 2000 and made the screen look like water and candy.",
+      "path": "skills/apple-aqua/SKILL.md",
+      "tokens": "skills/apple-aqua/tokens.css",
+      "pack": "skills/apple-aqua/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 400,
+          "subhead_weight": 400,
+          "body_weight": 400,
+          "strong_weight": 700,
+          "label_weight": 700,
+          "accent": "colour",
+          "display_tracking": "0em",
+          "display_leading": 1.2,
+          "display_case": "none",
+          "body_leading": 1.45,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "solid",
+          "stroke_width": 2,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "circle",
+          "pack": {
+            "id": "fluent-filled",
+            "why": "A solid, soft-cornered family with volume that matches the glossy, filled look of gel controls."
+          }
+        },
+        "art": {
+          "recipe": "aero",
+          "pattern": "none",
+          "seed": 32
+        },
+        "layout": {
+          "hero": "split",
+          "align": "center",
+          "density": "regular",
+          "tilt_deg": 0
+        }
+      },
+      "triggers": [
+        "aqua",
+        "mac os x",
+        "gel buttons",
+        "pinstripe",
+        "glossy buttons",
+        "2000s apple",
+        "brushed metal",
+        "web 2.0 gloss"
+      ],
+      "use_cases": [
+        "retro software and Mac themes",
+        "web 2.0 revival pages",
+        "nostalgia and portfolio sites",
+        "app landing pages with a friendly tone",
+        "kids and consumer tools"
+      ],
+      "emotion": [
+        "glossy",
+        "friendly",
+        "liquid",
+        "tactile",
+        "optimistic",
+        "polished"
+      ],
+      "archetypes": [
+        "lover",
+        "innocent"
+      ],
+      "vectors": {
+        "ornamentation": 3,
+        "dimensionality": 4,
+        "grid_rigidity": 4,
+        "skeuomorphic_realism": 4,
+        "typographic_expressiveness": 2
+      }
+    },
+    {
       "id": "frutiger-aero",
       "name": "Frutiger Aero",
       "domain": "design",
@@ -1392,6 +1477,91 @@
         "dimensionality": 4,
         "grid_rigidity": 3,
         "skeuomorphic_realism": 5,
+        "typographic_expressiveness": 3
+      }
+    },
+    {
+      "id": "metro-ui",
+      "name": "Metro UI",
+      "domain": "design",
+      "era": "touchscreen",
+      "period": "2010–2015",
+      "thesis": "Content is the interface: remove chrome, use type and motion for hierarchy, and let flat colour tiles carry the brand.",
+      "summary": "Flat colour tiles, large light typography, a strict grid and content before chrome. It came from Windows Phone 7 in 2010 and drew on Swiss signage and airport wayfinding.",
+      "path": "skills/metro-ui/SKILL.md",
+      "tokens": "skills/metro-ui/tokens.css",
+      "pack": "skills/metro-ui/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 300,
+          "subhead_weight": 300,
+          "body_weight": 400,
+          "strong_weight": 600,
+          "label_weight": 600,
+          "accent": "size",
+          "display_tracking": "-0.01em",
+          "display_leading": 1.1,
+          "display_case": "lowercase",
+          "body_leading": 1.45,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 2,
+          "linecap": "butt",
+          "linejoin": "miter",
+          "container": "circle",
+          "pack": {
+            "id": "lucide",
+            "why": "A plain 2px line glyph with sharp joins that sits well inside a thin circle."
+          }
+        },
+        "art": {
+          "recipe": "swiss",
+          "pattern": "none",
+          "seed": 33
+        },
+        "layout": {
+          "hero": "poster",
+          "align": "left",
+          "density": "compact",
+          "tilt_deg": 0
+        }
+      },
+      "triggers": [
+        "metro",
+        "windows phone",
+        "modern ui",
+        "live tiles",
+        "tile ui",
+        "microsoft design",
+        "flat tiles",
+        "panorama"
+      ],
+      "use_cases": [
+        "dashboards of tiles",
+        "kiosk and signage apps",
+        "news and feed readers",
+        "retro Microsoft revival",
+        "internal tools with a clear tone"
+      ],
+      "emotion": [
+        "clear",
+        "fast",
+        "typographic",
+        "bold",
+        "modern",
+        "flat"
+      ],
+      "archetypes": [
+        "sage",
+        "ruler"
+      ],
+      "vectors": {
+        "ornamentation": 1,
+        "dimensionality": 2,
+        "grid_rigidity": 5,
+        "skeuomorphic_realism": 1,
         "typographic_expressiveness": 3
       }
     },
@@ -1572,6 +1742,91 @@
       }
     },
     {
+      "id": "brutalist-web",
+      "name": "Brutalist Web (2014)",
+      "domain": "design",
+      "era": "touchscreen",
+      "period": "2014–now",
+      "thesis": "A page is a document, not a product: show the raw structure and the web serves the reader without decoration.",
+      "summary": "Browser-default type, blue underlined links, grey or white ground, no polish and visible structure. It came from the 2014 Brutalist Websites collection and answers the smooth, templated web.",
+      "path": "skills/brutalist-web/SKILL.md",
+      "tokens": "skills/brutalist-web/tokens.css",
+      "pack": "skills/brutalist-web/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 700,
+          "subhead_weight": 700,
+          "body_weight": 400,
+          "strong_weight": 700,
+          "label_weight": 400,
+          "accent": "size",
+          "display_tracking": "0em",
+          "display_leading": 1.2,
+          "display_case": "none",
+          "body_leading": 1.4,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 1,
+          "linecap": "butt",
+          "linejoin": "miter",
+          "container": "none",
+          "pack": {
+            "id": "carbon",
+            "why": "A thin square line with butt terminals; the thinnest family that still reads as a plain pictogram."
+          }
+        },
+        "art": {
+          "recipe": "swiss",
+          "pattern": "none",
+          "seed": 31
+        },
+        "layout": {
+          "hero": "stacked",
+          "align": "left",
+          "density": "compact",
+          "tilt_deg": 0
+        }
+      },
+      "triggers": [
+        "brutalist website",
+        "brutalist web",
+        "raw html",
+        "default browser style",
+        "anti-design web",
+        "no css",
+        "monospace page",
+        "plain html"
+      ],
+      "use_cases": [
+        "personal sites and blogs",
+        "art and archive projects",
+        "documentation with no frills",
+        "studio and gallery portfolios",
+        "protest and manifesto pages"
+      ],
+      "emotion": [
+        "raw",
+        "honest",
+        "austere",
+        "anti-polish",
+        "utilitarian",
+        "stubborn"
+      ],
+      "archetypes": [
+        "outlaw",
+        "sage"
+      ],
+      "vectors": {
+        "ornamentation": 1,
+        "dimensionality": 1,
+        "grid_rigidity": 2,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 2
+      }
+    },
+    {
       "id": "material-design",
       "name": "Material Design",
       "domain": "design",
@@ -1657,6 +1912,177 @@
         "dimensionality": 3,
         "grid_rigidity": 4,
         "skeuomorphic_realism": 2,
+        "typographic_expressiveness": 2
+      }
+    },
+    {
+      "id": "anti-design",
+      "name": "Anti-Design",
+      "domain": "design",
+      "era": "touchscreen",
+      "period": "2016–now",
+      "thesis": "Polish is a lie: a page that breaks the rules on purpose shows that people made it.",
+      "summary": "Broken grids, clashing type, overlap, odd colour and deliberate roughness. It answers the polish of templated product sites and asks the visitor to notice the design.",
+      "path": "skills/anti-design/SKILL.md",
+      "tokens": "skills/anti-design/tokens.css",
+      "pack": "skills/anti-design/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 400,
+          "subhead_weight": 400,
+          "body_weight": 400,
+          "strong_weight": 700,
+          "label_weight": 700,
+          "accent": "size",
+          "display_tracking": "-0.04em",
+          "display_leading": 0.85,
+          "display_case": "uppercase",
+          "body_leading": 1.4,
+          "body_size": "15px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 3,
+          "linecap": "square",
+          "linejoin": "miter",
+          "container": "none",
+          "pack": {
+            "id": "pepicons-pop",
+            "why": "A loud, thick, slightly rough line that suits cut-out and sticker art."
+          }
+        },
+        "art": {
+          "recipe": "neobrutal",
+          "pattern": "checks",
+          "seed": 37
+        },
+        "layout": {
+          "hero": "poster",
+          "align": "left",
+          "density": "compact",
+          "tilt_deg": 3
+        }
+      },
+      "triggers": [
+        "anti-design",
+        "ugly design",
+        "broken grid",
+        "chaotic layout",
+        "clashing type",
+        "experimental web",
+        "anti-grid",
+        "awwwards experimental"
+      ],
+      "use_cases": [
+        "creative studios and portfolios",
+        "music and fashion brands",
+        "art and festival sites",
+        "launches that must stand out",
+        "student and agency showcases"
+      ],
+      "emotion": [
+        "rebellious",
+        "chaotic",
+        "loud",
+        "playful",
+        "raw",
+        "experimental"
+      ],
+      "archetypes": [
+        "outlaw",
+        "jester"
+      ],
+      "vectors": {
+        "ornamentation": 4,
+        "dimensionality": 1,
+        "grid_rigidity": 1,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 5
+      }
+    },
+    {
+      "id": "dark-devtool-ui",
+      "name": "Dark-Mode Developer Tool",
+      "domain": "design",
+      "era": "touchscreen",
+      "period": "2016–now",
+      "thesis": "A tool for experts is a dense, calm, dark instrument: show a lot, keep it quiet and make everything reachable from the keyboard.",
+      "summary": "Near-black surfaces, 1px hairline borders, one saturated accent, a monospace for data and keyboard hints on every action. It came from code editors and terminals and now defines software for engineers.",
+      "path": "skills/dark-devtool-ui/SKILL.md",
+      "tokens": "skills/dark-devtool-ui/tokens.css",
+      "pack": "skills/dark-devtool-ui/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 600,
+          "subhead_weight": 500,
+          "body_weight": 400,
+          "strong_weight": 600,
+          "label_weight": 500,
+          "accent": "weight",
+          "display_tracking": "-0.02em",
+          "display_leading": 1.15,
+          "display_case": "none",
+          "body_leading": 1.5,
+          "body_size": "14px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 1.5,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "none",
+          "pack": {
+            "id": "lucide",
+            "why": "A thin, even 1.5px line at 16px that sits beside 13px text without weight."
+          }
+        },
+        "art": {
+          "recipe": "bento",
+          "pattern": "grid",
+          "seed": 34
+        },
+        "layout": {
+          "hero": "stacked",
+          "align": "left",
+          "density": "compact",
+          "tilt_deg": 0
+        }
+      },
+      "triggers": [
+        "dark mode",
+        "developer tool",
+        "dev tool",
+        "linear style",
+        "command palette",
+        "vercel style",
+        "code editor",
+        "keyboard first",
+        "hairline borders"
+      ],
+      "use_cases": [
+        "developer tools and CLIs",
+        "SaaS for engineers",
+        "observability and infra dashboards",
+        "API and docs sites",
+        "issue and project trackers"
+      ],
+      "emotion": [
+        "focused",
+        "fast",
+        "precise",
+        "technical",
+        "calm",
+        "dense"
+      ],
+      "archetypes": [
+        "sage",
+        "creator"
+      ],
+      "vectors": {
+        "ornamentation": 1,
+        "dimensionality": 2,
+        "grid_rigidity": 4,
+        "skeuomorphic_realism": 1,
         "typographic_expressiveness": 2
       }
     },
@@ -2002,6 +2428,177 @@
       "vectors": {
         "ornamentation": 3,
         "dimensionality": 2,
+        "grid_rigidity": 3,
+        "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 4
+      }
+    },
+    {
+      "id": "claymorphism",
+      "name": "Claymorphism",
+      "domain": "design",
+      "era": "contemporary-spatial",
+      "period": "2021–2023",
+      "thesis": "The interface is a toy: soft, inflated forms with colour make the screen friendly and touchable.",
+      "summary": "Puffy, rounded 3D shapes in soft pastel colour with double inner shadows and a soft outer shadow, like modelling clay. It followed neumorphism and flat illustration and turns the interface into toys.",
+      "path": "skills/claymorphism/SKILL.md",
+      "tokens": "skills/claymorphism/tokens.css",
+      "pack": "skills/claymorphism/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 600,
+          "subhead_weight": 600,
+          "body_weight": 400,
+          "strong_weight": 700,
+          "label_weight": 600,
+          "accent": "colour",
+          "display_tracking": "0em",
+          "display_leading": 1.1,
+          "display_case": "none",
+          "body_leading": 1.6,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "solid",
+          "stroke_width": 3,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "circle",
+          "pack": {
+            "id": "solar-bold",
+            "why": "A bold, round, filled family that looks inflated, like clay, inside a pastel disc."
+          }
+        },
+        "art": {
+          "recipe": "neumorph",
+          "pattern": "none",
+          "seed": 35
+        },
+        "layout": {
+          "hero": "split",
+          "align": "center",
+          "density": "airy",
+          "tilt_deg": 0
+        }
+      },
+      "triggers": [
+        "claymorphism",
+        "clay",
+        "3d clay",
+        "soft 3d",
+        "inflated",
+        "puffy",
+        "pastel 3d",
+        "playful app"
+      ],
+      "use_cases": [
+        "kids and education apps",
+        "consumer wellness and finance for young users",
+        "app landing pages",
+        "game and creator tools",
+        "onboarding flows"
+      ],
+      "emotion": [
+        "playful",
+        "soft",
+        "friendly",
+        "toy-like",
+        "cute",
+        "safe"
+      ],
+      "archetypes": [
+        "innocent",
+        "jester"
+      ],
+      "vectors": {
+        "ornamentation": 3,
+        "dimensionality": 4,
+        "grid_rigidity": 2,
+        "skeuomorphic_realism": 3,
+        "typographic_expressiveness": 3
+      }
+    },
+    {
+      "id": "editorial-serif-revival",
+      "name": "Editorial Serif Revival",
+      "domain": "design",
+      "era": "contemporary-spatial",
+      "period": "2021–now",
+      "thesis": "Voice beats neutrality: a serif with character makes a brand sound like a person, as in a magazine.",
+      "summary": "Large expressive serif headlines, warm off-white paper, a small sans for labels and a restrained palette. It came back as a reaction to the geometric sans-serif default of the SaaS web.",
+      "path": "skills/editorial-serif-revival/SKILL.md",
+      "tokens": "skills/editorial-serif-revival/tokens.css",
+      "pack": "skills/editorial-serif-revival/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 400,
+          "subhead_weight": 400,
+          "body_weight": 400,
+          "strong_weight": 600,
+          "label_weight": 500,
+          "accent": "size",
+          "display_tracking": "-0.03em",
+          "display_leading": 1,
+          "display_case": "none",
+          "body_leading": 1.55,
+          "body_size": "18px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 1.5,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "none",
+          "pack": {
+            "id": "iconoir",
+            "why": "A thin, even, humanist line that does not compete with the serif headlines."
+          }
+        },
+        "art": {
+          "recipe": "swiss",
+          "pattern": "none",
+          "seed": 36
+        },
+        "layout": {
+          "hero": "stacked",
+          "align": "left",
+          "density": "airy",
+          "tilt_deg": 0
+        }
+      },
+      "triggers": [
+        "editorial",
+        "serif",
+        "magazine",
+        "new york times style",
+        "fraunces",
+        "instrument serif",
+        "literary",
+        "serif headline",
+        "essay layout"
+      ],
+      "use_cases": [
+        "publishing and newsletters",
+        "agency and studio sites",
+        "founder and brand stories",
+        "cultural institutions",
+        "long-form and essay pages"
+      ],
+      "emotion": [
+        "literary",
+        "warm",
+        "confident",
+        "editorial",
+        "human",
+        "refined"
+      ],
+      "archetypes": [
+        "sage",
+        "creator"
+      ],
+      "vectors": {
+        "ornamentation": 2,
+        "dimensionality": 1,
         "grid_rigidity": 3,
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 4

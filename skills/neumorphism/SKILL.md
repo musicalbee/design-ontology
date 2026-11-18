@@ -237,6 +237,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **bolder**: move toward [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md) (Neo-Brutalism UI). Replace both soft shadows with one 4px 4px 0 0 #000000 shadow and add a 2px black border; keep the layout.
 
 - **Came from (go here for a more orthodox version):** [`skeuomorphism`](../skeuomorphism/SKILL.md)
+- **Led to (go here for a newer version):** [`claymorphism`](../claymorphism/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
 - **Mixes well with:** [`glassmorphism`](../glassmorphism/SKILL.md)
 - **Nearest by vector profile:** [`glassmorphism`](../glassmorphism/SKILL.md), [`material-design`](../material-design/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md)

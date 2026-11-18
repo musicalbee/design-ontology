@@ -181,7 +181,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`parametricism-architecture`](../parametricism-architecture/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`international-style-architecture`](../international-style-architecture/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md)
 - **Mixes well with:** [`high-tech-architecture`](../high-tech-architecture/SKILL.md)
-- **Kin in another domain:** [`cubism-painting`](../cubism-painting/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md)
+- **Kin in another domain:** [`anti-design`](../anti-design/SKILL.md), [`cubism-painting`](../cubism-painting/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md)
 - **Nearest by vector profile:** [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md), [`parametricism-architecture`](../parametricism-architecture/SKILL.md), [`art-nouveau-architecture`](../art-nouveau-architecture/SKILL.md)
 
 ## Emotional target
