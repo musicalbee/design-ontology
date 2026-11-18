@@ -175,7 +175,8 @@ function view(style: Style, domain: Domain) {
       icon_rules: iconRules,
     },
     composition_principles: principleRefs(style).map((id) => {
-      const p = principles.get(id)!;
+      const p = principles.get(id);
+      if (!p) throw new Error(`${style.id}: principle "${id}" is not in data/principles/. Run \`npm run validate\` first.`);
       return { id, name: p.name, definition: p.definition, measures: p.measures.filter((m) => !m.domains || m.domains.includes(domain.id)).map((m) => `${m.measure} (${m.unit}): ${m.reference}`).join("; ") };
     }),
     primer: style.primer && {

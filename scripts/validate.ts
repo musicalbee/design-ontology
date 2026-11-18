@@ -34,6 +34,7 @@ for (const { file, slug, principle } of principles) {
   }
   if (principle.id !== slug) errors.push(`${file}: id "${principle.id}" is not equal to the file name`);
   for (const r of principle.related) if (!principleIds.has(r) || r === slug) errors.push(`${file}: related → "${r}" is not another principle`);
+  for (const d of principle.applies_to) if (!domains.some((x) => x.id === d)) errors.push(`${file}: applies_to → "${d}" is not in domains/`);
   for (const m of principle.measures)
     for (const d of m.domains ?? [])
       if (!principle.applies_to.includes(d)) errors.push(`${file}: measure "${m.measure}" names domain "${d}", which is not in applies_to`);

@@ -175,7 +175,6 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Approach:** Only useful objects are on show: boxes, baskets, brooms and tools hang on the rail or stand on a shelf.
 - **Grouping:** Oval boxes stand in graduated stacks of 3 to 5. Tools and clothes hang in one row on the peg rail.
 - **Max per surface:** 3
-- **Hang centre (cm):** 0
 - **Items:** oval boxes · woven baskets · flat broom · wall sconce · chair on the peg rail
 
 ## Implementation primer: brief, image prompt, 3D scene
