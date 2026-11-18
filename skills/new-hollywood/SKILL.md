@@ -84,7 +84,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 | Principle | Rule | Value |
 |---|---|---|
-| framing | Frame in a wide anamorphic ratio and use the door, the window or the car as a second frame inside it. | 2.35:1 anamorphic |
+| framing | Frame in a wide anamorphic ratio and use the door, the window or the car as a second frame inside it. | inner frame 10% to 35% of the view, 1 to 2 frame planes |
 | layering-depth | Use a long lens to stack the planes of a street into a crowded, compressed picture. | 85mm to 200mm lens, 3 to 5 planes |
 | negative-space | Leave the road, the desert or the dark room as a large empty mass beside the figure. | 40% to 60% of the frame empty |
 | contrast | Let the practical lamps be the brightest points and let the rest fall to a low key. | key to fill 4:1, lamps at +3 stops over the room |
@@ -192,7 +192,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 | Id | Principle | Definition | Measure: typical range |
 |---|---|---|---|
-| `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | aspect ratio (w:h): 1.33:1 to 2.39:1; 9:16 for vertical |
+| `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | frame area (% of the view): 10–35; frame planes (count): 1 to 2 |
 | `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
 | `negative-space` | Negative space | The empty area around and between elements. It is a part of the composition, not a remainder. | empty frame area (% of image): 30–70 |
 | `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | brightest mass to deepest shadow in one image (stops): 3–4 flat; 5–8 hard, 8 or more for expressionist |

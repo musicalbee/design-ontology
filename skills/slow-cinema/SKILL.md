@@ -88,7 +88,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | scale | Show the person at a small share of the frame height so that the place outweighs the figure. | 10% to 30% of the frame height |
 | rhythm | Hold each shot well past its plot point, and cut only when the viewer's attention has settled. | 30 to 180 s per shot |
 | rule-of-thirds | Set the horizon on the lower or the upper third line, and the figure on a vertical third. | horizon at 33% or 67% of the height |
-| framing | Keep the frame level and fixed, with no cut-in, for the whole of a scene. | locked off for 90% or more of the shots |
+| framing | Keep the frame level and fixed, with no cut-in, for the whole of a scene. | 0 cut-ins in a scene, locked off for 90% or more of the shots |
 
 ## Camera & movement
 
@@ -196,7 +196,7 @@ The rules above name these shared principles by id. The definition is the same i
 | `scale` | Scale | The size of an element in relation to the human body, to the space around it and to the other elements. A style chooses a reference body and holds the elements in a range around it. | subject height to frame or canvas height (% of frame height): 10–30 in a wide shot; 40–80 in a close-up |
 | `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive; average shot length (seconds): 1.5–3 fast; 5–12 moderate; 30 or more for a long take |
 | `rule-of-thirds` | Rule of thirds | Two horizontal and two vertical lines divide the view into nine equal parts. The focal point sits on one of the four crossings, and a horizon sits on one of the two horizontal lines. | focal point position (fraction of width and height): 0.33 or 0.67, tolerance 0.05; horizon position (fraction of height): 0.33 or 0.67 |
-| `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | aspect ratio (w:h): 1.33:1 to 2.39:1; 9:16 for vertical |
+| `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | frame area (% of the view): 10–35; frame planes (count): 1 to 2 |
 
 ## Lineage fallbacks
 

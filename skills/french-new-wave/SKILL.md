@@ -84,7 +84,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 | Principle | Rule | Value |
 |---|---|---|
-| framing | Use a loose frame in which a head may touch the edge and the street stays in view. | 1.37:1 or 1.66:1 |
+| framing | Use a loose frame in which a head may touch the edge and the street stays in view. | head cut at 1 edge by 5% to 10%; street 60% or more of the view |
 | rule-of-thirds | Place a walking or turning figure off centre, on the left or right third. | figure at 33% or 67% of the width |
 | layering-depth | Keep a face or a back in front of the street, and let passers-by cross the second plane. | 2 planes, 3 to 6 m of street |
 | rhythm | Drop 1 to 2 s from the middle of a take so that the jump shows, and cut on the beat of the scene. | 5 to 8 s average shot, jump cut 1 to 2 s |
@@ -191,7 +191,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 | Id | Principle | Definition | Measure: typical range |
 |---|---|---|---|
-| `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | aspect ratio (w:h): 1.33:1 to 2.39:1; 9:16 for vertical |
+| `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | frame area (% of the view): 10–35; frame planes (count): 1 to 2 |
 | `rule-of-thirds` | Rule of thirds | Two horizontal and two vertical lines divide the view into nine equal parts. The focal point sits on one of the four crossings, and a horizon sits on one of the two horizontal lines. | focal point position (fraction of width and height): 0.33 or 0.67, tolerance 0.05; horizon position (fraction of height): 0.33 or 0.67 |
 | `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
 | `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive; average shot length (seconds): 1.5–3 fast; 5–12 moderate; 30 or more for a long take |

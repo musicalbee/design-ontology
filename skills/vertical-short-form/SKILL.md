@@ -85,7 +85,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 | Principle | Rule | Value |
 |---|---|---|
-| framing | Compose for 9:16 and keep every face and caption inside the platform safe zone. | 9:16, 1080 × 1920, safe zone 10% top and 20% bottom |
+| framing | Compose for 9:16 and keep every face and caption inside the platform safe zone. | safe zone: 10% clear at the top, 20% at the bottom |
 | focal-point | Put the subject at the centre of the vertical column, with one clear focal point in the first 1 s. | subject in the central 60% width |
 | hierarchy | Stack the caption, the subject and the call to action in three tiers, top to bottom. | 3 tiers, 1 caption at a time |
 | rhythm | Cut on every beat or every phrase, and keep the shot short enough to hold a swipe. | 0.8 to 2 s average shot |
@@ -192,7 +192,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 | Id | Principle | Definition | Measure: typical range |
 |---|---|---|---|
-| `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | aspect ratio (w:h): 1.33:1 to 2.39:1; 9:16 for vertical |
+| `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | frame area (% of the view): 10–35; frame planes (count): 1 to 2 |
 | `focal-point` | Focal point | The one place in a view that the eye finds first and comes back to. A composition has one primary focal point and at most two secondary ones. | focal points in one view (count): 1 primary, 0 to 2 secondary; luminance of the focal point to its surround (ratio): 3:1 to 10:1; position (fraction of width): 0.5 on an axis, or 0.33 / 0.67 on a third |
 | `hierarchy` | Hierarchy | The elements of a composition rank by importance through size, position, contrast or isolation. The viewer reads them in that order. | levels of rank (count): 2 to 3; size ratio between adjacent levels (ratio): 1.5:1 or more |
 | `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive; average shot length (seconds): 1.5–3 fast; 5–12 moderate; 30 or more for a long take |

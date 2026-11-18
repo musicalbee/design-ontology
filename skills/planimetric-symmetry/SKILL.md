@@ -85,7 +85,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | Principle | Rule | Value |
 |---|---|---|
 | symmetry-axis | Place the subject on the vertical axis and mirror the set about it, with doors, windows and props in pairs. | bilateral, 90% to 100% mirrored mass, 1 axis |
-| framing | Square the lens to the back wall and keep every vertical plumb, so that the frame reads as a flat plan. | lens axis at 90° to the wall, 0° tilt |
+| framing | Square the lens to the back wall and keep every vertical plumb, so that the frame reads as a flat plan. | 1 frame plane, lens axis at 90° to the wall, 0° tilt |
 | colour-distribution | Fill the frame with one dominant flat colour and 3 to 5 accents in small blocks. | 40% to 50% dominant, accents 5% to 15% each |
 | layering-depth | Stage the actors on one or two planes parallel to the lens, with a flat wall behind. | 2 to 3 planes, 1 to 3 m apart |
 | leading-lines | Let floor lines, rails and shelves run at right angles to the lens axis, and meet at the central axis. | lines at 0° or 90° only |
@@ -193,7 +193,7 @@ The rules above name these shared principles by id. The definition is the same i
 | Id | Principle | Definition | Measure: typical range |
 |---|---|---|---|
 | `symmetry-axis` | Symmetry and axis | An axis is a line that orders a composition. Symmetry places equal elements at equal distances on the two sides of the axis, or around a centre. | ordering axes (count): 0 to 3; mirrored mass about the axis (% of visual weight): 90–100 formal, 0–50 informal; type (kind): bilateral, radial, none |
-| `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | aspect ratio (w:h): 1.33:1 to 2.39:1; 9:16 for vertical |
+| `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | frame area (% of the view): 10–35; frame planes (count): 1 to 2 |
 | `colour-distribution` | Colour distribution | Each colour takes a planned share of the visible area: a dominant colour, a secondary colour and an accent. | dominant / secondary / accent share (% of visible surface): 60/30/10 as the default; 70/25/5 calm; 40/35/25 bold; accents (count): 1 to 3 |
 | `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
 | `leading-lines` | Leading lines | Lines in the view, such as edges, rows, beams or paths, point the eye to the focal point. | lines that converge on the focal point (count): 1 to 4; angle from the frame edge (degrees): 15–60 for a diagonal |

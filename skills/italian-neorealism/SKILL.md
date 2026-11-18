@@ -84,7 +84,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 | Principle | Rule | Value |
 |---|---|---|
-| framing | Frame at eye level in 1.37:1 so that the place is as large as the person in the frame. | 1.37:1, camera at 1.5 to 1.7 m |
+| framing | Frame at eye level in 1.37:1 so that the place is as large as the person in the frame. | place 60% to 80% of the frame area, person 20% to 40% |
 | layering-depth | Stage the action in three planes in deep focus: a person, a street and a facade. | 3 planes, f/8 to f/11 |
 | scale | Keep the figure small against the street, so that the surroundings press on the person. | figure 20% to 40% of the frame height in a wide shot |
 | lighting-layers | Use daylight as the key and a bounce or a window as the only fill. | 2:1 to 3:1 key to fill, daylight 5600K |
@@ -191,7 +191,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 | Id | Principle | Definition | Measure: typical range |
 |---|---|---|---|
-| `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | aspect ratio (w:h): 1.33:1 to 2.39:1; 9:16 for vertical |
+| `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | frame area (% of the view): 10–35; frame planes (count): 1 to 2 |
 | `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
 | `scale` | Scale | The size of an element in relation to the human body, to the space around it and to the other elements. A style chooses a reference body and holds the elements in a range around it. | subject height to frame or canvas height (% of frame height): 10–30 in a wide shot; 40–80 in a close-up |
 | `lighting-layers` | Lighting layers | Light comes from separate layers with separate jobs: ambient light for the whole space, task light for work, accent light for the focal point. In photography the same split is key, fill and accent light. | key to fill (ratio): 2:1 flat and natural; 4:1 glamour; 8:1 or more for deep shadow |

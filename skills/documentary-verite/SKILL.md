@@ -84,7 +84,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 | Principle | Rule | Value |
 |---|---|---|
-| framing | Shoot a loose 1.33:1 frame at eye level and let a head or a shoulder cut the frame. | 1.33:1 to 1.37:1, camera at 1.5 to 1.7 m |
+| framing | Shoot a loose 1.33:1 frame at eye level and let a head or a shoulder cut the frame. | head or shoulder cuts 5% to 15% at 1 or 2 edges |
 | focal-point | Follow the person who speaks or acts, and let the frame find them a little late. | 0.3 to 0.8 s lag |
 | layering-depth | Work in the room as it is: a foreground shoulder, the speaker and a window behind. | 2 to 4 planes, as found |
 | lighting-layers | Use only the light in the room or the street, with no added lamp. | 0 added lamps, 2:1 or less key to fill |
@@ -192,7 +192,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 | Id | Principle | Definition | Measure: typical range |
 |---|---|---|---|
-| `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | aspect ratio (w:h): 1.33:1 to 2.39:1; 9:16 for vertical |
+| `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | frame area (% of the view): 10–35; frame planes (count): 1 to 2 |
 | `focal-point` | Focal point | The one place in a view that the eye finds first and comes back to. A composition has one primary focal point and at most two secondary ones. | focal points in one view (count): 1 primary, 0 to 2 secondary; luminance of the focal point to its surround (ratio): 3:1 to 10:1; position (fraction of width): 0.5 on an axis, or 0.33 / 0.67 on a third |
 | `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
 | `lighting-layers` | Lighting layers | Light comes from separate layers with separate jobs: ambient light for the whole space, task light for work, accent light for the focal point. In photography the same split is key, fill and accent light. | key to fill (ratio): 2:1 flat and natural; 4:1 glamour; 8:1 or more for deep shadow |
