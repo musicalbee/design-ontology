@@ -170,7 +170,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`cubism-painting`](../cubism-painting/SKILL.md)
 - **Was rejected by:** [`abstract-expressionism`](../abstract-expressionism/SKILL.md)
-- **Kin in another domain:** [`bauhaus`](../bauhaus/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
+- **Kin in another domain:** [`bauhaus`](../bauhaus/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`prairie-school-architecture`](../prairie-school-architecture/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
 - **Nearest by vector profile:** [`cubism-painting`](../cubism-painting/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md), [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md)
 
 ## Emotional target

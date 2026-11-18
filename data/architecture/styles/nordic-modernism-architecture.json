@@ -1,0 +1,275 @@
+{
+  "$schema": "../../../schema/domains/architecture.schema.json",
+  "id": "nordic-modernism-architecture",
+  "domain": "architecture",
+  "name": "Nordic Modernism",
+  "aliases": [
+    "Scandinavian modernism",
+    "Nordic Classicism to Functionalism",
+    "Aalto modernism"
+  ],
+  "era_id": "modern-movement",
+  "time_period": {
+    "start": 1930,
+    "end": 1975,
+    "label": "1930s–1970s"
+  },
+  "building_types": [
+    "residential",
+    "healthcare",
+    "education",
+    "civic",
+    "religious",
+    "cultural"
+  ],
+  "summary": "Modern architecture softened for a cold, dark climate: white plaster and brick, warm timber, daylight shaped with care and plans that bend to the site. Alvar Aalto, Arne Jacobsen and Sigurd Lewerentz made function humane.",
+  "philosophy": {
+    "core_thesis": "Modern architecture should serve the whole person: use natural materials, scarce daylight and a human scale to make function warm.",
+    "design_principles": [
+      "Bend the plan to the site and the sun: use wings, fans and courtyards at angles of 15 to 45° and not a rigid box.",
+      "Use natural materials in honest form: brick, timber and copper beside white plaster, with a tactile detail at every touch point.",
+      "Treat daylight as scarce: tall, deep-set windows, roof lights and light-coloured surfaces that spread low sun into the room.",
+      "Keep the scale human: ceiling heights of 2.4 to 3m in the rooms, and low massing of 2 to 4 storeys.",
+      "Design the fittings with the building: door handles, lamps, chairs and stairs in bent plywood and brass.",
+      "Join inside and outside with a terrace, a garden room or a courtyard, and let the landscape come into the plan."
+    ],
+    "anti_patterns": [
+      "Cold, rigid, glass-and-steel boxes without a human scale",
+      "Heavy applied ornament or historical pastiche",
+      "Large, undivided open-plan halls with no warm material",
+      "Large unshaded west-facing glazing in a low-sun climate",
+      "Synthetic, glossy finishes that hide the material",
+      "Plans that ignore site, slope, trees and orientation"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "structural_expression": 3,
+    "geometric_rigidity": 2,
+    "material_rawness": 3,
+    "monumentality": 2
+  },
+  "massing": {
+    "form": "Low, articulated wings or a fan in plan, with a main block and lower service bars, set into the contour of the site.",
+    "proportion": "Long and low: 2 to 4 storeys, with wings 3 to 6 times longer than they are tall.",
+    "roof": "A flat or very low-pitched roof with deep eaves, or a gentle curved roof in copper or turf.",
+    "relation_to_ground": "The building steps with the slope; terraces, stone walls and planting join it to the ground."
+  },
+  "structure": {
+    "system": "Reinforced concrete column frames with brick or plastered infill; timber for roofs and canopies.",
+    "span_and_module": "Column grids of 5 to 7.5m; ceilings of 2.4 to 3m; stair and window modules of 600mm.",
+    "expression": "The frame is quiet; the material of the wall and the detail of the joint carry the expression."
+  },
+  "materials": {
+    "primary": [
+      "white plaster",
+      "brick",
+      "timber (pine, birch)",
+      "copper"
+    ],
+    "secondary": [
+      "bent plywood",
+      "brass",
+      "ceramic tile",
+      "granite"
+    ],
+    "finish": "Matt and tactile: whitewashed or tinted plaster, oiled wood, hand-laid brick, patinated metal.",
+    "palette": [
+      {
+        "name": "Whitewash",
+        "hex": "#F1EFE8",
+        "role": "walls"
+      },
+      {
+        "name": "Nordic brick",
+        "hex": "#9A5B3D",
+        "role": "walls and floors"
+      },
+      {
+        "name": "Birch",
+        "hex": "#D8B885",
+        "role": "joinery and ceilings"
+      },
+      {
+        "name": "Copper patina",
+        "hex": "#5C8F7E",
+        "role": "roofs and canopies"
+      },
+      {
+        "name": "Sanatorium green",
+        "hex": "#8DBE9B",
+        "role": "interior accents"
+      }
+    ]
+  },
+  "facade": {
+    "composition": "Plain plastered or brick surfaces, with window bands set to the room use and one accent of timber or tile.",
+    "openings": "Deep-set ribbon and corner windows sized for the sun path; the window-to-wall ratio is 25 to 40%.",
+    "solid_to_void": "Solid leads: 60–75% opaque, with warm material in the reveals."
+  },
+  "light_and_space": {
+    "daylight": "Low sun is brought deep into the plan by light wells, roof lights and pale surfaces; lamps give a warm local light.",
+    "spatial_sequence": "A compact, welcoming entry, then a stair or hall that turns and opens to the garden or courtyard.",
+    "interior_character": "White walls, wood ceilings, a brick or tile feature, curved plywood furniture and warm pendant lamps."
+  },
+  "ornament": {
+    "attitude": "Ornament comes from material and craft: no applied pattern, but the grain, the joint and the form of the handle.",
+    "details": [
+      "bent plywood",
+      "brass handles",
+      "wood slat ceilings",
+      "coloured tile",
+      "rope-wrapped columns",
+      "pendant lamps"
+    ]
+  },
+  "composition": {
+    "symmetry": "asymmetric",
+    "axis_count": 1,
+    "rhythm_module_m": 6.0,
+    "rules": [
+      {
+        "principle": "lighting-layers",
+        "rule": "Bring low sun deep into the plan with roof lights and pale surfaces.",
+        "value": "window 25–40%"
+      },
+      {
+        "principle": "scale",
+        "rule": "Keep the rooms at a human height of 2.4 to 3m and the building at 2 to 4 storeys.",
+        "value": "2.4–3m ceilings"
+      },
+      {
+        "principle": "zoning",
+        "rule": "Arrange wings in a fan or at 15 to 45° to follow the site and the sun.",
+        "value": "15–45°"
+      },
+      {
+        "principle": "unity-variety",
+        "rule": "Use a few natural materials and vary the detail at each touch point.",
+        "value": "3–4 materials"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Turn the stair and the hall to open to the garden or courtyard.",
+        "value": "1 garden link"
+      }
+    ]
+  },
+  "references": {
+    "images": [
+      {
+        "title": "Paimio Sanatorium, Alvar Aalto",
+        "credit": "V. K. Hietanen",
+        "licence": "CC BY 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:The_Paimio_Sanatorium,_designed_by_Alvar_Aalto,_pictured_in_1961_(JOKAVKH2F01-5).tif"
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "international-style-architecture"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "scandinavian-interior"
+    ]
+  },
+  "emotion": {
+    "target_response": "Warmth and calm: the viewer feels a modern building that is gentle, honest and made for people.",
+    "keywords": [
+      "humane",
+      "warm",
+      "calm",
+      "natural",
+      "crafted"
+    ],
+    "brand_archetypes": [
+      "caregiver",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "nordic modernism",
+      "scandinavian architecture",
+      "alvar aalto",
+      "arne jacobsen",
+      "paimio",
+      "villa mairea",
+      "bent plywood",
+      "functionalism",
+      "finnish architecture"
+    ],
+    "use_cases": [
+      "houses and cabins",
+      "libraries, schools and hospitals",
+      "cultural centres",
+      "interior-led residential renders"
+    ],
+    "avoid_when": [
+      "The brief asks for a monumental, sculptural or high-rise object.",
+      "The brief asks for strict machine-like repetition and no natural material."
+    ],
+    "modifiers": [
+      {
+        "request": "more austere",
+        "toward": "international-style-architecture",
+        "how": "Drop the timber and curved plan, make the plan orthogonal, and use white plaster and a strict ribbon-window grid."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "white plaster and brick",
+      "warm birch timber",
+      "deep-set ribbon windows",
+      "curved plywood",
+      "fan-shaped plan",
+      "copper roof",
+      "courtyard and terrace",
+      "soft daylight",
+      "human scale"
+    ],
+    "negative": [
+      "glass curtain wall",
+      "heavy ornament",
+      "cold steel box",
+      "glossy plastic",
+      "tower",
+      "symmetrical monument"
+    ],
+    "canonical_works": [
+      {
+        "work": "Paimio Sanatorium",
+        "architect": "Alvar Aalto",
+        "year": 1933
+      },
+      {
+        "work": "Villa Mairea, Noormarkku",
+        "architect": "Alvar Aalto",
+        "year": 1939
+      },
+      {
+        "work": "Säynätsalo Town Hall",
+        "architect": "Alvar Aalto",
+        "year": 1952
+      },
+      {
+        "work": "SAS Royal Hotel, Copenhagen",
+        "architect": "Arne Jacobsen",
+        "year": 1960
+      },
+      {
+        "work": "St. Peter's Church, Klippan",
+        "architect": "Sigurd Lewerentz",
+        "year": 1966
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Kenneth Frampton, Modern Architecture: A Critical History (Thames and Hudson, 1980)"
+    }
+  ]
+}
