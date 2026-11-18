@@ -188,6 +188,7 @@ function panel(id) {
   const list = (ids) => `<ul>${ids.map((t) => `<li><button class="link" data-go="${esc(t)}">${esc(byId[t]?.name ?? t)}</button> <small style="color:var(--muted)">${esc(G.domains.find((d) => d.id === byId[t]?.domain)?.name ?? "")}</small></li>`).join("")}</ul>`;
   $("panel").innerHTML = `<h2>${esc(n.name)}</h2><p class="meta">${esc(dom?.name)} · ${n.start}–${n.end ?? "now"}</p>` +
     REL.filter(([k]) => adj[k]?.length).map(([k, t]) => `<h3>${t}</h3>${list(adj[k])}`).join("") +
+    (adj.techniques?.length ? `<h3>Techniques</h3><ul>${adj.techniques.map((t) => `<li><a href="techniques.html#${esc(t)}">${esc((G.techniques ?? []).find((x) => x.id === t)?.name ?? t)}</a></li>`).join("")}</ul>` : "") +
     `<h3>Open</h3><ul><li><a href="${PAGES[n.domain]}#${esc(id)}">In the ${esc(dom?.name)} demo</a></li><li><a href="../skills/${esc(id)}/SKILL.md">Skill file</a></li></ul>`;
 }
 

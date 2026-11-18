@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Techniques across domains</title>
+<meta name="description" content="The techniques layer of the design ontology: each cut, motion rule, motif, material, process and tool on one time line, from the domain where it started to each domain that took it up.">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  :root {
+    /* Hive light tokens, as in graph.html and people.html. One colour for each domain; each mark also carries a letter. */
+    --paper: #fff; --ink: #1F1F45; --muted: #50527A; --line: #DEE3F2; --band: #EFF2FB; --accent: #264FCC; --accent-bg: #E8F2FF;
+    --d-design: #264FCC; --d-architecture: #B4532A; --d-interior: #1F7A5C; --d-photography: #7A4FBF; --d-film: #B8306E; --d-painting: #8A7314;
+  }
+  html, body { margin: 0; }
+  body { font: 15px/1.5 system-ui, sans-serif; background: var(--paper); color: var(--ink); }
+  main { max-width: 1400px; margin: 0 auto; padding: 24px 16px 64px; display: grid; gap: 16px; }
+  h1 { margin: 0; font-size: clamp(26px, 4vw, 40px); line-height: 1.1; letter-spacing: -.01em; }
+  .lede { margin: 6px 0 0; max-width: 75ch; color: var(--muted); }
+  .top { display: grid; gap: 16px 32px; grid-template-columns: 1fr; align-items: start; }
+  @media (min-width: 900px) { .top { grid-template-columns: auto 1fr; } }
+  .flows h2, .flows-note { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 6px; font-weight: 650; }
+  .flows-note { text-transform: none; letter-spacing: 0; font-weight: 400; margin: 6px 0 0; max-width: 46ch; }
+  table.flow { border-collapse: collapse; font-size: 12px; font-variant-numeric: tabular-nums; }
+  table.flow th { font-weight: 600; color: var(--muted); padding: 3px 6px; text-align: right; white-space: nowrap; }
+  table.flow thead th { text-align: center; font-weight: 600; }
+  table.flow td { padding: 0; text-align: center; border: 1px solid var(--paper); }
+  table.flow td button { all: unset; box-sizing: border-box; display: grid; place-items: center; width: 64px; height: 38px; cursor: pointer; line-height: 1.1; }
+  table.flow td button:disabled { cursor: default; color: var(--line); }
+  table.flow td button b { font-size: 14px; }
+  table.flow td button small { color: var(--muted); font-size: 10px; }
+  table.flow td button[aria-pressed="true"] { outline: 2px solid var(--accent); outline-offset: -2px; }
+  table.flow td.self button { color: var(--muted); }
+  .controls { display: flex; flex-wrap: wrap; gap: 4px 16px; align-items: center; font-size: 13px; color: var(--muted); }
+  .controls label { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+  .controls input[type="radio"] { margin: 0; accent-color: var(--ink); }
+  .controls input[type="search"] { font: inherit; font-size: 13px; color: var(--ink); padding: 4px 0; border: 0; border-bottom: 1px solid var(--line); background: transparent; min-width: 180px; }
+  .controls input[type="search"]:focus-visible { outline: none; border-bottom-color: var(--accent); }
+  .controls button.clear { font: inherit; background: none; border: 0; padding: 0; color: var(--accent); text-decoration: underline; cursor: pointer; }
+  .key { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12px; color: var(--muted); }
+  .key span { display: inline-flex; align-items: center; gap: 5px; }
+  .key i { display: inline-grid; place-items: center; width: 16px; height: 16px; border-radius: 50%; color: #fff; font: 700 9px/1 system-ui, sans-serif; font-style: normal; }
+  .layout { display: grid; gap: 16px; grid-template-columns: 1fr; }
+  @media (min-width: 1100px) { .layout { grid-template-columns: 1fr 340px; } }
+  .scroll { overflow-x: auto; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  svg { display: block; }
+  svg text { font: 11px system-ui, sans-serif; fill: var(--ink); }
+  .lane-label { font-weight: 650; font-size: 11px; fill: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+  .lane-rule, .grid { stroke: var(--line); stroke-width: 1; }
+  .grid.break { stroke-dasharray: 2 3; stroke: var(--muted); stroke-opacity: .5; }
+  .tick { fill: var(--muted); font-size: 10px; font-variant-numeric: tabular-nums; }
+  .route { stroke: var(--ink); stroke-opacity: .35; stroke-width: 1.5; fill: none; }
+  .hop { stroke-width: 2.5; fill: none; }
+  .step text.l { fill: #fff; font: 700 8.5px/1 system-ui, sans-serif; pointer-events: none; }
+  .step.circa circle { stroke-dasharray: 2 1.5; }
+  .step circle { stroke: var(--paper); stroke-width: 1.5; }
+  .step.origin circle { stroke: var(--ink); stroke-width: 1.5; }
+  .lag { fill: var(--muted); font-size: 9.5px; font-variant-numeric: tabular-nums; paint-order: stroke; stroke: var(--paper); stroke-width: 3px; }
+  .row { cursor: pointer; }
+  .row .hit { fill: transparent; }
+  .row:hover .hit { fill: var(--band); fill-opacity: .6; }
+  .row text.name { paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
+  .row.off { opacity: .12; }
+  svg.focus .row:not(.me) { opacity: .25; }
+  svg.focus .row.off:not(.me) { opacity: .08; }
+  .row.me .hit { fill: var(--accent-bg); fill-opacity: 1; }
+  .row.me text.name, .row.hit-q text.name { fill: var(--accent); font-weight: 700; }
+  aside { border-left: 1px solid var(--line); padding: 0 0 0 16px; font-size: 14px; align-self: start; position: sticky; top: 68px; max-height: calc(100vh - 80px); overflow-y: auto; }
+  @media (max-width: 1099px) { aside { position: static; border-left: 0; padding: 0; max-height: none; } }
+  aside h2 { margin: 0; font-size: 20px; line-height: 1.2; }
+  aside .meta { color: var(--muted); font-size: 13px; margin: 2px 0 8px; }
+  aside h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 14px 0 4px; font-weight: 650; }
+  aside ul { margin: 0; padding-left: 18px; }
+  aside ol.steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+  aside ol.steps li { display: grid; grid-template-columns: 62px 1fr; gap: 8px; }
+  aside ol.steps b { font-variant-numeric: tabular-nums; font-weight: 600; }
+  aside ol.steps .dom { font-weight: 600; }
+  aside .lagt { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+  aside a { color: inherit; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+</style>
+</head>
+<body>
+<script src="nav.js"></script>
+<main>
+  <header>
+    <h1>Techniques across domains</h1>
+    <p class="lede">A technique starts in one domain and moves into others, often decades later. Each row is one technique. The ringed dot is the origin; each later dot is the year a domain took it up, with the lag in years above the hop. The letter and the colour name the domain. A dashed dot is an estimate. Before 1840 the scale is compressed, and before 1400 it is compressed again.</p>
+  </header>
+  <div class="top">
+    <div class="flows">
+      <h2>Moves from one domain to another</h2>
+      <table class="flow" id="flow" aria-label="Number of moves from the origin domain (rows) to the adoption domain (columns), with the median lag"></table>
+      <p class="flows-note">Each cell counts the adoptions of a technique that started in the row domain, with the median lag in years. Select a cell to show only those techniques.</p>
+    </div>
+    <div class="controls" id="controls" style="align-self:end">
+      <span id="kinds"></span>
+      <input type="search" id="q" placeholder="Find a technique or a style" aria-label="Find a technique or a style">
+      <button class="clear" id="clear" hidden>Show all</button>
+      <div class="key" id="key"></div>
+    </div>
+  </div>
+  <div class="layout">
+    <div class="scroll"><svg id="g" role="img" aria-label="Time line of each technique, from its origin to each adoption"></svg></div>
+    <aside id="panel" aria-live="polite"></aside>
+  </div>
+</main>
+<script>
+const PAGES = { design: "index.html", architecture: "architecture.html", interior: "interior.html", photography: "photography.html", film: "film.html", painting: "painting.html" };
+const LETTER = { design: "D", architecture: "A", interior: "I", photography: "Ph", film: "F", painting: "P" };
+const KIND = { montage: "Montage", animation: "Animation", motif: "Motif", material: "Material", process: "Process", tool: "Tool" };
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+const $ = (id) => document.getElementById(id);
+const col = (d) => `var(--d-${d})`;
+const yl = (y, c) => `${c ? "c. " : ""}${y < 0 ? `${-y} BCE` : y}`;
+
+// Three linear scales. Most adoptions fall after 1840, so that part is wide; the classical origins (Doric flutes,
+// the Roman arch) sit on a short part before 1400. Inside each part, equal spans of years have equal lengths.
+const X0 = 200, Y_MIN = -700, B1 = 1400, B2 = 1840, Y_MAX = 2030, PX_ANCIENT = 0.09, PX_EARLY = 0.6, PX = 5;
+const x = (y) => {
+  y = Math.min(Math.max(y, Y_MIN), Y_MAX);
+  if (y < B1) return X0 + (y - Y_MIN) * PX_ANCIENT;
+  if (y < B2) return X0 + (B1 - Y_MIN) * PX_ANCIENT + (y - B1) * PX_EARLY;
+  return X0 + (B1 - Y_MIN) * PX_ANCIENT + (B2 - B1) * PX_EARLY + (y - B2) * PX;
+};
+const ROW = 30, LANE_HEAD = 26;
+let G, T, domains, byStyle, selected = null, kind = "all", cellFilter = null;
+const cache = {};
+
+const steps = (t) => [{ ...t.origin, origin: true, lag_years: 0 }, ...t.adoptions];
+const inCell = (t) => !cellFilter || t.adoptions.some((a) => t.origin.domain === cellFilter[0] && a.domain === cellFilter[1]);
+
+function flowTable() {
+  const ds = domains.map((d) => d.id);
+  const cells = {};
+  for (const t of T) for (const a of t.adoptions) (cells[`${t.origin.domain}|${a.domain}`] ??= []).push(a.lag_years);
+  const med = (v) => { const s = [...v].sort((a, b) => a - b), m = s.length >> 1; return s.length % 2 ? s[m] : Math.round((s[m - 1] + s[m]) / 2); };
+  const max = Math.max(...Object.values(cells).map((v) => v.length));
+  const used = ds.filter((d) => T.some((t) => t.origin.domain === d));
+  let h = `<thead><tr><th>from ↓ · to →</th>${ds.map((d) => `<th style="color:${col(d)}">${esc(domains.find((x) => x.id === d).name)}</th>`).join("")}</tr></thead><tbody>`;
+  for (const f of used) {
+    h += `<tr><th style="color:${col(f)}">${esc(domains.find((x) => x.id === f).name)}</th>`;
+    for (const to of ds) {
+      const v = cells[`${f}|${to}`];
+      const a = v ? 0.12 + 0.55 * (v.length / max) : 0;
+      const on = cellFilter && cellFilter[0] === f && cellFilter[1] === to;
+      h += `<td class="${f === to ? "self" : ""}" style="background:${v ? `color-mix(in srgb, ${col(to)} ${Math.round(a * 100)}%, white)` : "var(--band)"}">` +
+        `<button data-f="${f}" data-t="${to}" aria-pressed="${!!on}" ${v ? "" : "disabled"} aria-label="${v ? `${v.length} ${v.length === 1 ? "move" : "moves"} from ${f} to ${to}, median lag ${med(v)} years` : `no move from ${f} to ${to}`}">` +
+        (v ? `<b>${v.length}</b><small>${med(v)} yrs</small>` : "·") + `</button></td>`;
+    }
+    h += `</tr>`;
+  }
+  $("flow").innerHTML = h + `</tbody>`;
+}
+
+function draw() {
+  const kinds = Object.keys(KIND).filter((k) => kind === "all" || k === kind);
+  const groups = kinds.map((k) => ({ k, list: T.filter((t) => t.kind === k).sort((a, b) => a.origin.year - b.origin.year) })).filter((g) => g.list.length);
+  const n = groups.reduce((s, g) => s + g.list.length, 0);
+  const width = x(Y_MAX) + 30, height = 30 + groups.length * LANE_HEAD + n * ROW + 14;
+  const svg = $("g");
+  svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+  svg.setAttribute("width", width);
+  svg.setAttribute("height", height);
+  let h = "";
+  for (const yr of [-600, -200, 400, 1000, 1400, 1500, 1600, 1700, 1840, 1880, 1920, 1960, 2000, 2020])
+    h += `<line class="grid${yr === B1 || yr === B2 ? " break" : ""}" x1="${x(yr)}" x2="${x(yr)}" y1="22" y2="${height - 14}"/><text class="tick" x="${x(yr)}" y="16" text-anchor="middle">${yl(yr)}</text>`;
+  h += `<text class="tick" x="${(x(Y_MIN) + x(B1)) / 2}" y="${height - 2}" text-anchor="middle">compressed</text><text class="tick" x="${(x(B1) + x(B2)) / 2}" y="${height - 2}" text-anchor="middle">compressed</text>`;
+  let top = 30;
+  for (const g of groups) {
+    h += `<line class="lane-rule" x1="0" x2="${width}" y1="${top}" y2="${top}"/><text class="lane-label" x="8" y="${top + 17}">${esc(KIND[g.k])}</text>`;
+    top += LANE_HEAD;
+    for (const t of g.list) {
+      const y = top + ROW / 2 + 4, st = steps(t);
+      let r = `<g class="row${inCell(t) ? "" : " off"}" data-id="${esc(t.id)}" tabindex="0" role="button" aria-label="${esc(t.name)}">`;
+      r += `<rect class="hit" x="0" y="${top}" width="${width}" height="${ROW}"/>`;
+      r += `<line class="route" x1="${x(st[0].year)}" x2="${x(st.at(-1).year)}" y1="${y}" y2="${y}"/>`;
+      // A hop into a new domain takes the colour of that domain, so the chart shows where the technique went.
+      for (let i = 1; i < st.length; i++) {
+        const a = st[i - 1], b = st[i];
+        if (b.domain !== a.domain) r += `<line class="hop" x1="${x(a.year)}" x2="${x(b.year)}" y1="${y}" y2="${y}" stroke="${col(b.domain)}" stroke-opacity=".55"/>`;
+        const lag = b.year - st[0].year;
+        if (lag > 0 && x(b.year) - x(st[i - 1].year) > 18) r += `<text class="lag" x="${(x(a.year) + x(b.year)) / 2}" y="${y - 7}" text-anchor="middle">+${lag}</text>`;
+      }
+      for (const s of st) {
+        const L = LETTER[s.domain] ?? "?", rad = L.length > 1 ? 8 : 7;
+        r += `<g class="step${s.origin ? " origin" : ""}${s.circa ? " circa" : ""}"><circle cx="${x(s.year)}" cy="${y}" r="${rad}" fill="${col(s.domain)}"><title>${yl(s.year, s.circa)} · ${esc(domains.find((d) => d.id === s.domain)?.name)}${s.origin ? " (origin)" : ` · +${s.lag_years} years`}</title></circle>` +
+          `<text class="l" x="${x(s.year)}" y="${y + 3}" text-anchor="middle">${L}</text></g>`;
+      }
+      r += `<text class="name" x="${x(st[0].year) - 12}" y="${y + 4}" text-anchor="end">${esc(t.name)}</text>`;
+      h += r + `</g>`;
+      top += ROW;
+    }
+  }
+  svg.innerHTML = h;
+  focus(selected, false);
+}
+
+function centre(id) {
+  const sc = document.querySelector(".scroll"), t = T.find((q) => q.id === id);
+  if (!t) { sc.scrollLeft = sc.scrollWidth; return; }
+  const a = x(t.origin.year), b = x(t.adoptions.at(-1).year);
+  sc.scrollLeft = b - a > sc.clientWidth ? a - 160 : Math.max(0, (a + b) / 2 - sc.clientWidth / 2);
+}
+
+function focus(id, scroll = true) {
+  selected = id && T.some((t) => t.id === id) ? id : null;
+  const svg = $("g");
+  svg.classList.toggle("focus", !!selected);
+  for (const r of svg.querySelectorAll(".row")) r.classList.toggle("me", r.dataset.id === selected);
+  if (!selected) { panelEmpty(); return; }
+  if (location.hash.slice(1) !== selected) history.replaceState(null, "", "#" + selected);
+  if (scroll) { svg.querySelector(`.row[data-id="${CSS.escape(selected)}"]`)?.scrollIntoView({ block: "nearest", behavior: "smooth" }); centre(selected); }
+  panel(selected);
+}
+
+function panelEmpty() {
+  const lags = T.flatMap((t) => t.adoptions.filter((a) => a.domain !== t.origin.domain).map((a) => ({ t, a })));
+  const long = lags.sort((p, q) => q.a.lag_years - p.a.lag_years)[0];
+  $("panel").innerHTML = `<h2>Select a technique</h2><p class="meta">Click a row. Click it again to clear.</p>` +
+    `<p class="meta">${T.length} techniques, ${T.reduce((s, t) => s + t.adoptions.length, 0)} adoptions, ${new Set(T.flatMap((t) => t.styles)).size} styles. ` +
+    (long ? `The longest lag into a new domain: ${esc(long.t.name)}, ${long.a.lag_years} years from ${esc(long.t.origin.domain)} to ${esc(long.a.domain)}.` : "") + `</p>`;
+}
+
+function panel(id) {
+  const t = T.find((q) => q.id === id), dn = (d) => esc(domains.find((x) => x.id === d)?.name ?? d);
+  const styleLink = (s) => `<a href="graph.html#${esc(s)}">${esc(byStyle[s]?.name ?? s)}</a>`;
+  const head = `<h2>${esc(t.name)}</h2><p class="meta">${esc(KIND[t.kind])} · from ${dn(t.origin.domain)}, ${yl(t.origin.year, t.origin.circa)}</p>`;
+  // The graph carries no "where", "note" or "via": the text comes from the data file, so the route draws again when it loads.
+  const route = (d) => `<h3>Route</h3><ol class="steps">` +
+    steps(t).map((s, i) => `<li><b>${yl(s.year, s.circa)}</b><span><span class="dom" style="color:${col(s.domain)}">${dn(s.domain)}</span>` +
+      (s.origin ? "" : ` <span class="lagt">+${s.lag_years} yrs</span>`) +
+      (d ? `<br>${esc(s.origin ? `${d.origin.where}: ${d.origin.note}` : d.adoptions[i - 1]?.via ?? "")}` : "") +
+      (s.styles?.length ? `<br><span class="lagt">${s.styles.map(styleLink).join(", ")}</span>` : "") + `</span></li>`).join("") + `</ol>`;
+  const used = `<h3>Used by</h3><ul>${t.styles.map((s) => `<li>${styleLink(s)} <span class="lagt">${dn(byStyle[s]?.domain)}</span> · <a href="${PAGES[byStyle[s]?.domain] ?? "index.html"}#${esc(s)}">demo</a></li>`).join("")}</ul>`;
+  $("panel").innerHTML = head + `<div id="detail"></div><div id="route">${route()}</div>` + used + `<div id="extra"></div>`;
+  (cache[id] ??= fetch(`../data/techniques/${id}.json`).then((r) => r.json())).then((d) => {
+    if (selected !== id) return;
+    $("route").innerHTML = route(d);
+    $("detail").innerHTML = `<p>${esc(d.summary)}</p><h3>How to apply it</h3><ul>${d.how.map((h) => `<li>${esc(h)}</li>`).join("")}</ul>`;
+    $("extra").innerHTML = `<h3>Sources</h3><ul>${d.sources.map((s) => `<li>${s.url ? `<a href="${esc(s.url)}">${esc(s.title)}</a>` : esc(s.title)}</li>`).join("")}</ul>` +
+      `<h3>Open</h3><ul><li><a href="../skills/TECHNIQUES.md">Catalogue</a></li><li><a href="../data/techniques/${esc(id)}.json">Data file</a></li></ul>`;
+  });
+}
+
+function filter() {
+  for (const r of $("g").querySelectorAll(".row")) r.classList.toggle("off", !inCell(T.find((t) => t.id === r.dataset.id)));
+  $("clear").hidden = !cellFilter;
+  for (const b of $("flow").querySelectorAll("button")) b.setAttribute("aria-pressed", !!cellFilter && b.dataset.f === cellFilter[0] && b.dataset.t === cellFilter[1]);
+}
+
+fetch("../graph/lineage.json").then((r) => r.json()).then((g) => {
+  G = g; T = g.techniques ?? []; domains = g.domains;
+  byStyle = Object.fromEntries(g.nodes.map((n) => [n.id, n]));
+  $("kinds").innerHTML = [["all", "All"], ...Object.entries(KIND).filter(([k]) => T.some((t) => t.kind === k))]
+    .map(([id, name]) => `<label><input type="radio" name="kind" value="${esc(id)}"${id === "all" ? " checked" : ""}>${esc(name)}</label>`).join(" ");
+  $("key").innerHTML = domains.map((d) => `<span><i style="background:${col(d.id)}">${LETTER[d.id]}</i>${esc(d.name)}</span>`).join("");
+  flowTable();
+  draw();
+  focus(location.hash.slice(1) || null);
+  if (!selected) centre(null);
+});
+
+$("g").addEventListener("click", (e) => { const r = e.target.closest(".row"); focus(r && r.dataset.id !== selected ? r.dataset.id : null, false); });
+$("g").addEventListener("keydown", (e) => { const r = e.target.closest(".row"); if (r && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); focus(r.dataset.id, false); } });
+$("kinds").addEventListener("change", (e) => { kind = e.target.value; draw(); });
+$("flow").addEventListener("click", (e) => {
+  const b = e.target.closest("button[data-f]");
+  if (!b || b.disabled) return;
+  cellFilter = cellFilter && cellFilter[0] === b.dataset.f && cellFilter[1] === b.dataset.t ? null : [b.dataset.f, b.dataset.t];
+  filter();
+});
+$("clear").addEventListener("click", () => { cellFilter = null; filter(); });
+$("q").addEventListener("input", (e) => {
+  const q = e.target.value.trim().toLowerCase();
+  let first = null;
+  for (const r of $("g").querySelectorAll(".row")) {
+    const t = T.find((x) => x.id === r.dataset.id);
+    const hit = q && (t.name.toLowerCase().includes(q) || t.styles.some((s) => (byStyle[s]?.name ?? "").toLowerCase().includes(q)));
+    r.classList.toggle("hit-q", !!hit);
+    if (hit && !first) first = r;
+  }
+  if (first) { first.scrollIntoView({ block: "nearest", behavior: "smooth" }); centre(first.dataset.id); }
+});
+addEventListener("hashchange", () => { const id = location.hash.slice(1); if (id !== selected) focus(id); });
+</script>
+</body>
+</html>

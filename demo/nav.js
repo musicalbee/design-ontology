@@ -9,7 +9,7 @@
     ["index.html", "Design"], ["architecture.html", "Architecture"], ["interior.html", "Interior"],
     ["photography.html", "Photography"], ["film.html", "Film and video"], ["painting.html", "Painting"],
     ["logo.html", "Logo"],
-    ["graph.html", "Lineage graph"], ["people.html", "People"],
+    ["graph.html", "Lineage graph"], ["techniques.html", "Techniques"], ["people.html", "People"],
   ];
   const here = location.pathname.split("/").pop() || "index.html";
   const WIDE = matchMedia("(min-width: 1100px)");
