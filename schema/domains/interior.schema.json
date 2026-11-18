@@ -204,7 +204,7 @@
         "approach": { "$ref": "../core.schema.json#/$defs/sentence" },
         "grouping": { "$ref": "../core.schema.json#/$defs/sentence" },
         "max_per_surface": { "type": "integer", "minimum": 0, "maximum": 30, "description": "Most objects on one shelf, table top or sill." },
-        "hang_centre_cm": { "oneOf": [{ "type": "integer", "minimum": 50, "maximum": 300 }, { "type": "null" }], "description": "Height of the centre of hung art above the floor. null = the style hangs no art." },
+        "hang_centre_cm": { "type": ["integer", "null"], "minimum": 50, "maximum": 300, "description": "Height of the centre of hung art above the floor. null = the style hangs no art." },
         "items": { "$ref": "#/$defs/words" }
       }
     },
