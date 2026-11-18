@@ -178,7 +178,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`straight-photography`](../straight-photography/SKILL.md)
 - **Mixes well with:** [`fashion-editorial`](../fashion-editorial/SKILL.md), [`street-photography`](../street-photography/SKILL.md)
-- **Kin in another domain:** [`baroque-painting`](../baroque-painting/SKILL.md), [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md)
+- **Kin in another domain:** [`baroque-painting`](../baroque-painting/SKILL.md), [`film-noir`](../film-noir/SKILL.md), [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md)
 - **Nearest by vector profile:** [`fashion-editorial`](../fashion-editorial/SKILL.md), [`cinematic-teal-orange`](../cinematic-teal-orange/SKILL.md), [`pictorialism`](../pictorialism/SKILL.md)
 
 ## Emotional target

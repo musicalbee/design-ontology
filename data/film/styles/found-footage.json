@@ -1,0 +1,324 @@
+{
+  "$schema": "../../../schema/domains/film.schema.json",
+  "id": "found-footage",
+  "name": "Found footage",
+  "aliases": [
+    "Faux-documentary horror",
+    "Camcorder horror"
+  ],
+  "era_id": "digital-cinema",
+  "time_period": {
+    "start": 1999,
+    "end": 2020,
+    "label": "1999–2020"
+  },
+  "capture": [
+    "analogue-video",
+    "digital-cinema"
+  ],
+  "summary": "A film that claims to be real recordings of a camera, left behind by people who vanished. The camera is in the hand of a character. It shakes, loses focus, runs out of light and records the fear in real time.",
+  "philosophy": {
+    "core_thesis": "If a character holds the camera, the frame shows only what that person can see, so the viewer cannot look away from the dark edge of the picture.",
+    "design_principles": [
+      "Give the camera to a character, and let the character say why they film.",
+      "Shoot handheld with a consumer camera at 4:3 or 16:9 with a 1/50 s shutter, and keep every shot as a long take of 30 to 180 s.",
+      "Light with the lamp on the camera, a torch or a night-vision mode, and let 50% or more of the frame go dark.",
+      "Keep the sound to what the camera microphone hears, with wind noise, clipped peaks and breath.",
+      "Hold the monster off screen or at the frame edge until the last 1 to 3 min.",
+      "Show the camera's own signs: a date stamp, a battery icon and a tape glitch.",
+      "Add no score and no cut that the character could not make."
+    ],
+    "anti_patterns": [
+      "A score laid over the scene",
+      "A tripod and a smooth dolly",
+      "A perfect, well-lit frame",
+      "A cut to a view that no camera has",
+      "A visible monster in the first reel",
+      "A polished studio colour grade"
+    ]
+  },
+  "vectors": {
+    "camera_mobility": 5,
+    "cutting_rate": 2,
+    "staging": 2,
+    "grade_stylisation": 1,
+    "frame_width": 2
+  },
+  "composition": {
+    "framing": "A shaky 4:3 or 16:9 frame at eye or chest height, with a torch circle, the date stamp and the black edge.",
+    "staging_in_depth": "2 planes: a face close to the lens and a dark room or a forest behind it.",
+    "subject_placement": "Wherever the camera points; the face often sits off the centre and cut at the edge.",
+    "principles": [
+      {
+        "principle": "framing",
+        "rule": "Let the head and the body cut at the frame edge, and keep a timestamp in a corner.",
+        "value": "head cuts 5% to 15%, 1 stamp"
+      },
+      {
+        "principle": "contrast",
+        "rule": "Let the torch or the lamp make a bright disc in a black frame.",
+        "value": "6 to 8 stops, torch to black"
+      },
+      {
+        "principle": "negative-space",
+        "rule": "Leave a dark part of the frame where the threat may sit.",
+        "value": "40% to 60% black frame"
+      },
+      {
+        "principle": "sightlines",
+        "rule": "Hold the lens at the height of the hand or the chest of the character.",
+        "value": "1.2 to 1.6 m, no cut to a view that no camera has"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Hold each take until the camera stops, falls or is cut off.",
+        "value": "30 to 180 s per take, 40 s or more average"
+      }
+    ]
+  },
+  "camera_and_movement": {
+    "movement": "A handheld walk, run and fall; a pan to a noise; a whip to the face; a lens that hunts for focus.",
+    "support": "Handheld consumer camcorder or a phone, a body mount or a car dash",
+    "camera_height": "1.2 to 1.6 m, chest or eye level",
+    "move_speed": "Walk 1.0 to 1.5 m/s, run 3 to 5 m/s"
+  },
+  "lens_and_format": {
+    "aspect_ratio": "4:3 or 16:9",
+    "frame_rate": "24 fps, 25 fps or 30 fps",
+    "shutter_angle": "180° to 360° (1/50 s or slower)",
+    "focal_length": "a fixed zoom lens of 28mm to 40mm equivalent",
+    "aperture": "Auto exposure, f/2.8 to f/5.6",
+    "resolution": "480p to 1080p consumer video",
+    "focus": "Autofocus that hunts, and a night-shot mode",
+    "equipment": [
+      "consumer camcorder or phone",
+      "an on-camera lamp",
+      "an infrared night mode",
+      "a handheld torch"
+    ]
+  },
+  "light": {
+    "quality": "Harsh, direct and from the camera or from a torch; a deep black beyond the beam.",
+    "direction": "Along the lens axis, from the camera or from the hand.",
+    "key_to_fill_ratio": "10:1 or higher",
+    "colour_temperature": "Daylight 5600K or the camera's 3200K lamp, left as found",
+    "source": "Camera lamp, torch, a night-vision mode and a screen"
+  },
+  "colour_and_grade": {
+    "treatment": "No grade: the camera's own colour, with a green or white night mode and blown highlights.",
+    "palette": [
+      {
+        "name": "Tape black",
+        "hex": "#0C0D0C",
+        "role": "shadow"
+      },
+      {
+        "name": "Night green",
+        "hex": "#4D9B5A",
+        "role": "night mode"
+      },
+      {
+        "name": "Torch white",
+        "hex": "#F4F1DC",
+        "role": "beam"
+      },
+      {
+        "name": "Wood brown",
+        "hex": "#6B5640",
+        "role": "forest and house"
+      }
+    ],
+    "grade_recipe": [
+      "Set the white balance as the camera sets it and do not correct it.",
+      "Clip the highlights at 100% and crush the blacks at 5%.",
+      "Add video noise of 15% to 25% in the dark.",
+      "Add a date stamp and a battery icon at 2% of the frame height.",
+      "Add a compression artefact in dark areas, and do not add grain."
+    ],
+    "texture": "Video noise, block compression and a timestamp"
+  },
+  "editing_and_rhythm": {
+    "average_shot_length": "40 to 120 s (estimate; check Cinemetrics for each title)",
+    "shot_length_range": "5 s for a cut-off to 10 min for one night",
+    "cutting_logic": "Cut only where the camera is turned off, dropped or lost, and keep time continuous in a take.",
+    "transitions": "Hard cut at a camera stop, a flash of white and a glitch.",
+    "runtime": "75 to 95 min"
+  },
+  "sound": {
+    "approach": "One camera microphone: wind, clipping, breath, a far scream and a long silence.",
+    "dialogue": "Overlapping, unscripted and loud; people talk to the camera.",
+    "music": "None, or a sound source in the scene, such as a radio.",
+    "loudness": "−20 LUFS integrated with clipped peaks and a wide dynamic range"
+  },
+  "titles_and_graphics": {
+    "treatment": "A black card with a plain white text that says the tapes were found; no credits until the end.",
+    "type": "A plain sans-serif or a monospace in white, 3 to 5 s per card."
+  },
+  "shot_primer": {
+    "opening": "Open on a title card that says the footage was found, then cut to a camera check of 20 to 40 s.",
+    "shot_list": [
+      {
+        "shot": "Camera check with a name and a date",
+        "size": "medium",
+        "lens": "30mm",
+        "movement": "handheld",
+        "seconds": 20
+      },
+      {
+        "shot": "Walk in a forest at dusk",
+        "size": "wide",
+        "lens": "28mm",
+        "movement": "handheld follow 1.2 m/s",
+        "seconds": 60
+      },
+      {
+        "shot": "Night tent with a torch",
+        "size": "close-up",
+        "lens": "35mm",
+        "movement": "handheld",
+        "seconds": 30
+      },
+      {
+        "shot": "Run, camera swings",
+        "size": "wide",
+        "lens": "28mm",
+        "movement": "handheld 4 m/s",
+        "seconds": 15
+      },
+      {
+        "shot": "Night-vision face",
+        "size": "close-up",
+        "lens": "30mm",
+        "movement": "handheld, night mode",
+        "seconds": 20
+      },
+      {
+        "shot": "Camera falls and rests on its side",
+        "size": "medium",
+        "lens": "28mm",
+        "movement": "static, tilted 90°",
+        "seconds": 10
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "found footage horror",
+      "handheld camcorder look",
+      "timestamp in a corner",
+      "torch light in a dark forest",
+      "night vision green",
+      "shaky long take",
+      "wind noise on the microphone",
+      "4:3 frame",
+      "video compression noise"
+    ],
+    "negative": [
+      "film score",
+      "tripod",
+      "dolly move",
+      "teal and orange",
+      "studio light",
+      "monster in full view"
+    ],
+    "canonical_works": [
+      {
+        "work": "The Blair Witch Project",
+        "maker": "Daniel Myrick and Eduardo Sánchez",
+        "year": 1999
+      },
+      {
+        "work": "Cloverfield",
+        "maker": "Matt Reeves",
+        "year": 2008
+      },
+      {
+        "work": "[REC]",
+        "maker": "Jaume Balagueró and Paco Plaza",
+        "year": 2007
+      },
+      {
+        "work": "Paranormal Activity",
+        "maker": "Oren Peli",
+        "year": 2007
+      },
+      {
+        "work": "Cannibal Holocaust",
+        "maker": "Ruggero Deodato",
+        "year": 1980
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "documentary-verite"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "dogme-95"
+    ],
+    "echoes": [
+      "y2k-digicam"
+    ]
+  },
+  "emotion": {
+    "target_response": "Unease and presence: the viewer is in the dark with a person who holds the camera and cannot leave.",
+    "keywords": [
+      "raw",
+      "unnerving",
+      "claustrophobic",
+      "amateur",
+      "real-time"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "found footage",
+      "blair witch",
+      "handheld camcorder horror",
+      "night vision",
+      "faux documentary",
+      "shaky cam horror"
+    ],
+    "use_cases": [
+      "horror video prompts",
+      "viral and alternate-reality marketing",
+      "game and app teasers with a real look",
+      "student and indie shorts"
+    ],
+    "avoid_when": [
+      "The brief needs a clean, beautiful or premium frame.",
+      "The viewer must follow a clear action in a fight."
+    ],
+    "modifiers": [
+      {
+        "request": "more polish",
+        "toward": "documentary-verite",
+        "how": "Keep the handheld, but light the scene, steady the frame and add a clear sync sound."
+      },
+      {
+        "request": "more screen life",
+        "toward": "camcorder-revival",
+        "how": "Keep the tape look and add a warm, nostalgic home video grade and a date stamp."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Found footage (film technique)",
+      "url": "https://en.wikipedia.org/wiki/Found_footage_(film_technique)"
+    },
+    {
+      "title": "Alexandra Heller-Nicholas, Found Footage Horror Films: A Fear Reading (McFarland, 2014)"
+    },
+    {
+      "title": "Cinemetrics database",
+      "url": "https://www.cinemetrics.lv/"
+    }
+  ],
+  "domain": "film"
+}

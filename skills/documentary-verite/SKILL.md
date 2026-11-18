@@ -206,9 +206,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more rhythm**: move toward [`soviet-montage`](../soviet-montage/SKILL.md) (Soviet montage). Keep the black and white; shorten the average shot to 2 to 3 s and join shots by contrast, not by the order of events.
 
 - **Came from (go here for a more orthodox version):** [`soviet-montage`](../soviet-montage/SKILL.md)
-- **Mixes well with:** [`french-new-wave`](../french-new-wave/SKILL.md)
+- **Led to (go here for a newer version):** [`found-footage`](../found-footage/SKILL.md)
+- **Mixes well with:** [`french-new-wave`](../french-new-wave/SKILL.md), [`mumblecore`](../mumblecore/SKILL.md)
 - **Kin in another domain:** [`street-photography`](../street-photography/SKILL.md)
-- **Nearest by vector profile:** [`italian-neorealism`](../italian-neorealism/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md)
+- **Nearest by vector profile:** [`italian-neorealism`](../italian-neorealism/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md), [`found-footage`](../found-footage/SKILL.md)
 
 ## Emotional target
 

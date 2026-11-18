@@ -220,7 +220,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Was rejected by:** [`dogme-95`](../dogme-95/SKILL.md)
 - **Mixes well with:** [`documentary-verite`](../documentary-verite/SKILL.md)
 - **Kin in another domain:** [`street-photography`](../street-photography/SKILL.md)
-- **Nearest by vector profile:** [`creator-vlog`](../creator-vlog/SKILL.md), [`documentary-verite`](../documentary-verite/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md)
+- **Nearest by vector profile:** [`mumblecore`](../mumblecore/SKILL.md), [`phone-cinema`](../phone-cinema/SKILL.md), [`creator-vlog`](../creator-vlog/SKILL.md)
 
 ## Emotional target
 

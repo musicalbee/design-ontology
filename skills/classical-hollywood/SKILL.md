@@ -206,9 +206,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more shadow**: move toward [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md) (German Expressionist cinema). Keep the studio and the black and white; raise the key-to-fill ratio to 8:1 and let a shadow take 40% or more of the frame.
 
 - **Came from (go here for a more orthodox version):** [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md)
-- **Was rejected by:** [`italian-neorealism`](../italian-neorealism/SKILL.md), [`music-video`](../music-video/SKILL.md), [`new-hollywood`](../new-hollywood/SKILL.md), [`slow-cinema`](../slow-cinema/SKILL.md)
+- **Led to (go here for a newer version):** [`one-take-oner`](../one-take-oner/SKILL.md), [`spaghetti-western`](../spaghetti-western/SKILL.md)
+- **Was rejected by:** [`film-noir`](../film-noir/SKILL.md), [`italian-neorealism`](../italian-neorealism/SKILL.md), [`mumblecore`](../mumblecore/SKILL.md), [`music-video`](../music-video/SKILL.md), [`new-hollywood`](../new-hollywood/SKILL.md), [`slow-cinema`](../slow-cinema/SKILL.md), [`spaghetti-western`](../spaghetti-western/SKILL.md)
 - **Kin in another domain:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md)
-- **Nearest by vector profile:** [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md), [`planimetric-symmetry`](../planimetric-symmetry/SKILL.md), [`soviet-montage`](../soviet-montage/SKILL.md)
+- **Nearest by vector profile:** [`film-noir`](../film-noir/SKILL.md), [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md), [`planimetric-symmetry`](../planimetric-symmetry/SKILL.md)
 
 ## Emotional target
 
