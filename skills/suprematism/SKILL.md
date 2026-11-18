@@ -163,6 +163,19 @@ The rules above name these shared principles by id. The definition is the same i
 | `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | brightest mass to deepest shadow in one image (stops): 3–4 flat; 5–8 hard, 8 or more for expressionist |
 | `hierarchy` | Hierarchy | The elements of a composition rank by importance through size, position, contrast or isolation. The viewer reads them in that order. | levels of rank (count): 2 to 3; size ratio between adjacent levels (ratio): 1.5:1 or more |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Diagonal composition (motif)
+
+The main forms lie on a tilted axis, so that the picture seems to move and to cut across the field. Origin: painting, Petrograd, 1915.
+
+- Set the main axis at 30° to 60° to the frame edge; 45° is the strongest.
+- Let a large form and a small form lie on the same diagonal at a ratio of 4:1 or more.
+- Use one saturated colour (red) against a white or black field.
+- Leave a clear field around the diagonal: at least 50% of the area stays empty.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

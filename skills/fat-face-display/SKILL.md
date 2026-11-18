@@ -140,6 +140,14 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
 
+### Line engraving (process)
+
+Lines cut into a metal plate with a burin; thin hairlines and swelling strokes give tone, and the print keeps a sharp, even edge. Origin: painting, Upper Rhine, c. 1430.
+
+- Cut a hairline of 0.1 to 0.2mm for light areas; swell the line to 0.5mm or more for dark areas.
+- Build shade with parallel lines or cross hatching, and keep the lines at 30° to 45° to each other.
+- Print on smooth paper so the hairlines stay clean.
+
 ### Wood type (process)
 
 Large display letters routed from end-grain wood instead of cast in metal, so posters and bills can use letters 5–50 cm high at a low cost. Origin: typeface, New York, 1828.

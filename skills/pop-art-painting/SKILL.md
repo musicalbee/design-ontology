@@ -165,6 +165,19 @@ The rules above name these shared principles by id. The definition is the same i
 | `focal-point` | Focal point | The one place in a view that the eye finds first and comes back to. A composition has one primary focal point and at most two secondary ones. | focal points in one view (count): 1 primary, 0 to 2 secondary; luminance of the focal point to its surround (ratio): 3:1 to 10:1; position (fraction of width): 0.5 on an axis, or 0.33 / 0.67 on a third |
 | `hierarchy` | Hierarchy | The elements of a composition rank by importance through size, position, contrast or isolation. The viewer reads them in that order. | levels of rank (count): 2 to 3; size ratio between adjacent levels (ratio): 1.5:1 or more |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Serial repetition (process)
+
+One motif or one frame, repeated with small changes in a set of works, so that the viewer reads the change and not the object. Origin: painting, Paris, 1891.
+
+- Fix the motif, the format and the viewpoint; change one variable only, such as the hour, the colour or the stripe width.
+- Make at least 5 works in the set and show them in one row at one height.
+- Keep the spacing between works equal to a fixed unit, such as 10 cm or one panel width.
+- Remove the hand: use a mechanical edge, a stencil or a plain lens.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

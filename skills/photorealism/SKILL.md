@@ -165,6 +165,36 @@ The rules above name these shared principles by id. The definition is the same i
 | `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | frame area (% of the view): 10–35; frame planes (count): 1 to 2 |
 | `grouping` | Grouping | Elements close to each other read as one group. The gap inside a group is smaller than the gap between groups. | gap between groups to gap inside a group (ratio): 2:1 or more; elements in a group (count): 3 or 5 for an informal group, pairs for a formal group |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Airbrush (tool)
+
+A pen-sized spray gun that lays paint in soft, even tones; with masks, it makes hard edges and smooth gradients side by side. Origin: photography, United States, 1879.
+
+- Build tone in 3 to 6 thin passes; each pass adds 20% to 40% of the final density.
+- Cut a hard mask for each edge that must stay sharp; leave the light soft.
+- Put one specular highlight of pure white on each chrome form.
+
+### Extreme close-up (montage)
+
+A frame that holds only a part of a face, such as the eyes; the cut from a wide view to this frame sets a person against the world. Origin: film & video, Hove, 1900.
+
+- Frame the eyes as a band that fills the width of a 2.35:1 frame; use a lens of 75mm to 100mm.
+- Cut from a wide shot to the close-up with no medium shot between them.
+- Hold each close-up for 2 to 4 seconds and cut back to the wide view when the look ends.
+- In a painting, scale the head to 2 metres or more and keep the focus even over the full face.
+
+### Grid transfer (process)
+
+A grid laid over a subject or a photograph and a matching grid on the canvas; the painter copies the picture square by square. Origin: painting, Florence, 1435.
+
+- Draw a grid of 1 to 5 cm over the reference and a grid of the same ratio on the canvas.
+- Copy the contour of each square, one at a time, so that the whole picture stays in the right place.
+- Paint each square at the same focus, with an even grain over the full surface.
+- Scale up by a fixed ratio, for example 10:1.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

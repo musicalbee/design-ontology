@@ -228,6 +228,18 @@ Reference works:
 | Koshino House | Tadao Ando | 1984 |
 | Minimum (book) | John Pawson | 1996 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Shadow gap (process)
+
+A narrow recessed joint between two surfaces that casts a shadow, so that each surface seems to float apart from the next. Origin: architecture, Verona, c. 1958.
+
+- Cut the gap 10 to 25mm wide and 10 to 20mm deep.
+- Hold the gap at a constant width along its full length.
+- Use it where new meets old: between a wall and a ceiling, a floor and a skirting, or a new insert and a historic wall.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

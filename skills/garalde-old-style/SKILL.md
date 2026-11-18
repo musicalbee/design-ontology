@@ -149,6 +149,15 @@ A pen with a flat, square-cut tip held at a fixed angle, so the width of a strok
 - Make the x-height about 4 nib widths in a round book hand and about 5 in textura; a stem is one nib width wide.
 - Let the thin parts fall on the diagonal of the nib angle, so the o has its thinnest points at about 11 and 5 o'clock.
 
+### Roman capital proportions (motif)
+
+Capital letters with the proportions of Roman stone inscriptions: some letters wide and round, some narrow, and each one built for the eye, not for one measure. Origin: architecture, Rome, 113.
+
+- Draw O as a near circle, and M about as wide as the cap height.
+- Draw E, F, L and S at about half the width of O.
+- Set the stem at about one tenth of the cap height for a classical weight; for signs, increase it by up to half.
+- Cut serifs, or leave them out, but keep the width rules.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

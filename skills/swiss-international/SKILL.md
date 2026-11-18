@@ -237,6 +237,28 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Diagonal composition (motif)
+
+The main forms lie on a tilted axis, so that the picture seems to move and to cut across the field. Origin: painting, Petrograd, 1915.
+
+- Set the main axis at 30° to 60° to the frame edge; 45° is the strongest.
+- Let a large form and a small form lie on the same diagonal at a ratio of 4:1 or more.
+- Use one saturated colour (red) against a white or black field.
+- Leave a clear field around the diagonal: at least 50% of the area stays empty.
+
+### Modular grid (process)
+
+A page or screen divided into equal columns and rows; each element fits a cell or a block of cells, so that the whole layout repeats one measure. Origin: graphic & ui design, Zurich, c. 1958.
+
+- Divide the page into 4 to 12 equal columns with a gutter of 1/10 to 1/5 of a column width.
+- Cut the page into rows of the same module height; align each image and text block to the lines.
+- Set text on a baseline grid of one line height, and use 1 to 2 type sizes for each level.
+- Scale an image by a whole number of modules.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

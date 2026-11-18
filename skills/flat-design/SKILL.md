@@ -242,6 +242,15 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 
 These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
 
+### Long shadow (motif)
+
+A shadow far longer than its object, cast by a low sun, so that a still scene feels strange and charged. Origin: painting, Paris, 1914.
+
+- Cast the shadow at a low angle: the shadow is 2 to 5 times the height of the object.
+- Keep one light direction in the whole scene.
+- Leave the shadow flat and dark, at 40% to 70% opacity.
+- Show the shadow of something outside the frame, to hint at an unseen presence.
+
 ### Multiplane parallax (animation)
 
 Flat layers move at different speeds by their distance, so that a flat picture gets depth. Origin: film & video, The Old Mill, 1937.

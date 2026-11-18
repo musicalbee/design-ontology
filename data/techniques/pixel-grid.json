@@ -1,0 +1,66 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "pixel-grid",
+  "name": "Pixel grid",
+  "aliases": [
+    "Bitmap",
+    "Pixel art"
+  ],
+  "kind": "process",
+  "summary": "A picture or a letter built from square cells that are each on or off, or one flat colour, with no curve and no smooth edge.",
+  "how": [
+    "Draw an icon on a grid of 16 or 32 cells a side; fill each cell with one colour or leave it empty.",
+    "Limit the palette to 1 to 16 colours; do not blend two colours inside one cell.",
+    "Draw a diagonal as a stair of equal steps, for example 2 cells across for each 1 cell up.",
+    "Show the image at an integer scale (2x, 3x, 4x) so that no cell blurs."
+  ],
+  "origin": {
+    "domain": "film",
+    "year": 1963,
+    "circa": true,
+    "where": "Bell Labs, New Jersey",
+    "note": "Ken Knowlton writes BEFLIX, a language that draws computer films as grids of cells in a small set of grey tones."
+  },
+  "adoptions": [
+    {
+      "domain": "icon",
+      "year": 1973,
+      "circa": true,
+      "via": "The Xerox Alto has a bitmap display, and its programs draw icons cell by cell."
+    },
+    {
+      "domain": "icon",
+      "year": 1984,
+      "via": "Susan Kare draws the Macintosh icons and the Chicago bitmap face on a grid of 32 by 32 cells.",
+      "styles": [
+        "pixel-icon"
+      ]
+    },
+    {
+      "domain": "typeface",
+      "year": 1985,
+      "via": "Zuzana Licko draws the Emigre bitmap faces for the 72 dpi screen and the dot-matrix printer."
+    },
+    {
+      "domain": "design",
+      "year": 1998,
+      "circa": true,
+      "via": "The eBoy group publishes pixel illustrations of cities and objects on the web.",
+      "styles": [
+        "pixel-art-web"
+      ]
+    }
+  ],
+  "styles": [
+    "pixel-icon",
+    "pixel-art-web"
+  ],
+  "sources": [
+    {
+      "title": "Susan Kare, Mac icon and font work (Apple Macintosh, 1984)"
+    },
+    {
+      "title": "Zuzana Licko, Emigre bitmap typefaces (Emigre, 1985)"
+    }
+  ]
+}

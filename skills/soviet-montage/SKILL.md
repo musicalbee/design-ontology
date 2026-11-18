@@ -202,6 +202,15 @@ The rules above name these shared principles by id. The definition is the same i
 
 These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
 
+### Diagonal composition (motif)
+
+The main forms lie on a tilted axis, so that the picture seems to move and to cut across the field. Origin: painting, Petrograd, 1915.
+
+- Set the main axis at 30° to 60° to the frame edge; 45° is the strongest.
+- Let a large form and a small form lie on the same diagonal at a ratio of 4:1 or more.
+- Use one saturated colour (red) against a white or black field.
+- Leave a clear field around the diagonal: at least 50% of the area stays empty.
+
 ### Photomontage (montage)
 
 Fragments of photographs, cut and joined on one sheet, so that the joins make a statement that no single photograph makes. Origin: graphic & ui design, Berlin, 1918.

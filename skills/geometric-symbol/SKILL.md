@@ -116,6 +116,19 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Positive:** geometric abstract symbol · single solid shape · square and diagonal bar · deep blue flat colour · white ground · negative space figure · centred · 1970s corporate symbol · clean vector edges
 - **Negative:** letters · text · words · slogan · watermark · gradient · shadow · illustration · outline only
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Construction grid (process)
+
+Letters and marks drawn on a fixed grid of squares and circles, so that each glyph in a set has the same size, weight and corner. Origin: typeface, Nuremberg, 1525.
+
+- Fix one live area inside a square canvas; on a 24 unit canvas, keep a 2 unit margin.
+- Define 4 keyline shapes (circle, square, tall and wide rectangle) and fit each glyph to the one that suits it.
+- Cut every angle to 45° or 90°, or to one other fixed angle.
+- Use one stroke weight for the full set, for example 2 units on a 24 unit canvas.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

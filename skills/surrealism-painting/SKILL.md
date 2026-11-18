@@ -166,6 +166,19 @@ The rules above name these shared principles by id. The definition is the same i
 | `lighting-layers` | Lighting layers | Light comes from separate layers with separate jobs: ambient light for the whole space, task light for work, accent light for the focal point. In photography the same split is key, fill and accent light. | accent to ambient (ratio): 3:1 to 10:1 |
 | `grouping` | Grouping | Elements close to each other read as one group. The gap inside a group is smaller than the gap between groups. | gap between groups to gap inside a group (ratio): 2:1 or more; elements in a group (count): 3 or 5 for an informal group, pairs for a formal group |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Long shadow (motif)
+
+A shadow far longer than its object, cast by a low sun, so that a still scene feels strange and charged. Origin: painting, Paris, 1914.
+
+- Cast the shadow at a low angle: the shadow is 2 to 5 times the height of the object.
+- Keep one light direction in the whole scene.
+- Leave the shadow flat and dark, at 40% to 70% opacity.
+- Show the shadow of something outside the frame, to hint at an unseen presence.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

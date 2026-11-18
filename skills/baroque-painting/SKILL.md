@@ -164,6 +164,19 @@ The rules above name these shared principles by id. The definition is the same i
 | `balance` | Visual balance | The visual weights on the two sides of a centre cancel out. Formal balance uses mirrored equal weights; informal balance sets a large near mass against several small far masses. | moment of visual weight, left to right about the centre (ratio): 1.0 formal; 0.8–1.25 informal; type (kind): formal, informal, radial |
 | `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Chiaroscuro (process)
+
+A hard contrast of light and dark that models form: one strong source, deep shadow and a small area of light. Origin: painting, Italy, c. 1500.
+
+- Light the subject from one hard source at 30° to 60° above and to the side; let the shadow side fall to near black.
+- Keep the light on 20% to 30% of the frame and let the rest sink into shadow.
+- Set the key light to fill light at a ratio of 8:1 or more for a dramatic mood.
+- Cut hard shapes into the light with blinds, grilles or foliage so that the shadow becomes a pattern.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

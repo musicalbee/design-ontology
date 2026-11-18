@@ -169,6 +169,19 @@ The rules above name these shared principles by id. The definition is the same i
 | `negative-space` | Negative space | The empty area around and between elements. It is a part of the composition, not a remainder. | empty frame area (% of image): 30–70 |
 | `focal-point` | Focal point | The one place in a view that the eye finds first and comes back to. A composition has one primary focal point and at most two secondary ones. | focal points in one view (count): 1 primary, 0 to 2 secondary; luminance of the focal point to its surround (ratio): 3:1 to 10:1; position (fraction of width): 0.5 on an axis, or 0.33 / 0.67 on a third |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Chiaroscuro (process)
+
+A hard contrast of light and dark that models form: one strong source, deep shadow and a small area of light. Origin: painting, Italy, c. 1500.
+
+- Light the subject from one hard source at 30° to 60° above and to the side; let the shadow side fall to near black.
+- Keep the light on 20% to 30% of the frame and let the rest sink into shadow.
+- Set the key light to fill light at a ratio of 8:1 or more for a dramatic mood.
+- Cut hard shapes into the light with blinds, grilles or foliage so that the shadow becomes a pattern.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

@@ -251,6 +251,15 @@ A hollow concrete block with a pierced pattern; a wall of them shades and lets a
 - Stack the blocks in one grid of one pattern; mix no more than 2 patterns in one wall.
 - Inside, use the screen to divide zones while it keeps light and air.
 
+### Laminated timber (material)
+
+Thin boards or veneers glued in layers, so that wood forms long spans, bent shapes and large panels. Origin: architecture, Weimar, 1906.
+
+- Glue boards of 20 to 45mm for glulam; set the grain of all layers in one direction.
+- Cross the layers at 90° for a panel (CLT); use 3, 5 or 7 layers.
+- Bend veneers of 1 to 3mm in a mould for furniture; glue 5 to 9 layers.
+- Leave the layered edge in view as a line pattern.
+
 ### Sunburst (motif)
 
 Rays from a disc or a half disc: a sign of light and of the new, on a facade, a gate, a mirror or a clock. Origin: architecture, Paris, 1925.

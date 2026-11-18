@@ -231,6 +231,27 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Long shadow (motif)
+
+A shadow far longer than its object, cast by a low sun, so that a still scene feels strange and charged. Origin: painting, Paris, 1914.
+
+- Cast the shadow at a low angle: the shadow is 2 to 5 times the height of the object.
+- Keep one light direction in the whole scene.
+- Leave the shadow flat and dark, at 40% to 70% opacity.
+- Show the shadow of something outside the frame, to hint at an unseen presence.
+
+### Photomontage (montage)
+
+Fragments of photographs, cut and joined on one sheet, so that the joins make a statement that no single photograph makes. Origin: graphic & ui design, Berlin, 1918.
+
+- Join 3 to 12 photographic fragments on one ground and keep the cut edges hard and visible.
+- Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.
+- Set type as one more fragment, turned 0° to 30°, in the same stack of layers.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

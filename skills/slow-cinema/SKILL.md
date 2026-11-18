@@ -198,6 +198,19 @@ The rules above name these shared principles by id. The definition is the same i
 | `rule-of-thirds` | Rule of thirds | Two horizontal and two vertical lines divide the view into nine equal parts. The focal point sits on one of the four crossings, and a horizon sits on one of the two horizontal lines. | focal point position (fraction of width and height): 0.33 or 0.67, tolerance 0.05; horizon position (fraction of height): 0.33 or 0.67 |
 | `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | frame area (% of the view): 10–35; frame planes (count): 1 to 2 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Long take (montage)
+
+A shot that runs for minutes with no visible cut; the camera and the actors carry the scene and the viewer sees real time. Origin: film & video, Hollywood, 1948.
+
+- Plan the take in blocks of 2 to 10 minutes; the length of a reel or a memory card sets the limit.
+- Hide a needed cut in a dark surface, a door, a wipe past a wall or a digital stitch, and keep it under 0.5 seconds.
+- Move the camera at a steady pace and let the actors enter and leave the frame so that the framing changes by itself.
+- Rehearse each move to a few centimetres, because a mistake at minute eight spoils the full take.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

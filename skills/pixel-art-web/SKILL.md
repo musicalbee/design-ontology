@@ -233,6 +233,19 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Pixel grid (process)
+
+A picture or a letter built from square cells that are each on or off, or one flat colour, with no curve and no smooth edge. Origin: film & video, Bell Labs, New Jersey, c. 1963.
+
+- Draw an icon on a grid of 16 or 32 cells a side; fill each cell with one colour or leave it empty.
+- Limit the palette to 1 to 16 colours; do not blend two colours inside one cell.
+- Draw a diagonal as a stair of equal steps, for example 2 cells across for each 1 cell up.
+- Show the image at an integer scale (2x, 3x, 4x) so that no cell blurs.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

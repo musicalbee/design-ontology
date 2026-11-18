@@ -1,0 +1,71 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "tilt-shift",
+  "name": "Tilt-shift",
+  "aliases": [
+    "View camera movements",
+    "Rise and shift",
+    "Perspective control"
+  ],
+  "kind": "tool",
+  "summary": "Lens or camera movements that keep vertical lines parallel and move the plane of focus; a building stands upright and sharp.",
+  "how": [
+    "Keep the back of the camera vertical and shift the lens up by 10 to 20 mm, so that vertical lines stay parallel.",
+    "Tilt the lens by 2° to 8° to turn the plane of focus along the ground for depth at a small stop.",
+    "Close the lens to f/11 to f/22 for full depth of field.",
+    "In an editor, use a narrow band of focus and a strong blur outside it to fake a miniature."
+  ],
+  "origin": {
+    "domain": "photography",
+    "year": 1904,
+    "where": "Vienna",
+    "note": "Theodor Scheimpflug patents the rule for tilted lens and plane of focus."
+  },
+  "adoptions": [
+    {
+      "domain": "photography",
+      "year": 1932,
+      "circa": true,
+      "via": "Group f/64 use large-format view cameras with small stops and sharp focus from front to back.",
+      "styles": [
+        "group-f64"
+      ]
+    },
+    {
+      "domain": "photography",
+      "year": 1960,
+      "circa": true,
+      "via": "Julius Shulman photographs Case Study House No. 22 on a large-format camera with upright lines.",
+      "styles": [
+        "architectural-photography"
+      ]
+    },
+    {
+      "domain": "photography",
+      "year": 1961,
+      "via": "Nikon sells the PC-Nikkor 35mm f/3.5, the first shift lens for a 35mm camera.",
+      "styles": [
+        "architectural-photography"
+      ]
+    },
+    {
+      "domain": "design",
+      "year": 2012,
+      "via": "Photoshop CS6 adds the Tilt-Shift blur filter, and the miniature look spreads on the web."
+    }
+  ],
+  "styles": [
+    "group-f64",
+    "architectural-photography"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Tilt–shift photography",
+      "url": "https://en.wikipedia.org/wiki/Tilt%E2%80%93shift_photography"
+    },
+    {
+      "title": "Wikipedia: Scheimpflug principle",
+      "url": "https://en.wikipedia.org/wiki/Scheimpflug_principle"
+    }
+  ]
+}

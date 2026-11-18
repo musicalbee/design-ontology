@@ -198,6 +198,19 @@ The rules above name these shared principles by id. The definition is the same i
 | `lighting-layers` | Lighting layers | Light comes from separate layers with separate jobs: ambient light for the whole space, task light for work, accent light for the focal point. In photography the same split is key, fill and accent light. | key to fill (ratio): 2:1 flat and natural; 4:1 glamour; 8:1 or more for deep shadow |
 | `unity-variety` | Unity and variety | Repeated materials, colours and shapes join the parts into one whole. A small, planned number of deviations keeps the whole alive. | materials or hues that repeat (count): 2 to 4; deliberate deviations (count): 1 to 2 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Handheld camera (tool)
+
+A camera that the operator carries on the body, with no tripod or dolly; the shake of the body shows in the frame. Origin: film & video, Paris, c. 1960.
+
+- Use a light camera and a wide lens of 18mm to 35mm so that the shake stays small in the frame.
+- Follow the action at the pace of a walking person and let the frame move 2% to 5% off the subject.
+- Do not stabilise in post; accept a late refocus and a missed frame as part of the take.
+- Shoot long takes of 30 seconds or more, so that the camera seems to live in the room.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

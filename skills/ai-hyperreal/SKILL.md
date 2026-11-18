@@ -163,6 +163,19 @@ The rules above name these shared principles by id. The definition is the same i
 | `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
 | `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | brightest mass to deepest shadow in one image (stops): 3–4 flat; 5–8 hard, 8 or more for expressionist |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Diffusion model (tool)
+
+A model that learns to turn noise into an image step by step, and makes a new image from a text prompt. Origin: photography, Stanford and Berkeley, 2015.
+
+- Start from pure noise and remove it over 20 to 50 steps.
+- Steer the result with a text prompt and a guidance scale of 5 to 10.
+- Expect smooth skin, even light and a glossy, over-detailed finish when the prompt gives no flaw.
+- Add a concrete flaw to the prompt, such as grain, a lens fault or a cluttered ground, to break the sheen.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

@@ -1,0 +1,81 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "construction-grid",
+  "name": "Construction grid",
+  "aliases": [
+    "Keyline grid",
+    "Icon grid"
+  ],
+  "kind": "process",
+  "summary": "Letters and marks drawn on a fixed grid of squares and circles, so that each glyph in a set has the same size, weight and corner.",
+  "how": [
+    "Fix one live area inside a square canvas; on a 24 unit canvas, keep a 2 unit margin.",
+    "Define 4 keyline shapes (circle, square, tall and wide rectangle) and fit each glyph to the one that suits it.",
+    "Cut every angle to 45° or 90°, or to one other fixed angle.",
+    "Use one stroke weight for the full set, for example 2 units on a 24 unit canvas."
+  ],
+  "origin": {
+    "domain": "typeface",
+    "year": 1525,
+    "where": "Nuremberg",
+    "note": "Albrecht Duerer publishes letters built with ruler and compass on a square grid in Underweysung der Messung."
+  },
+  "adoptions": [
+    {
+      "domain": "typeface",
+      "year": 1692,
+      "via": "The committee of the Academie des Sciences draws the Romain du roi on a grid of 2304 small squares."
+    },
+    {
+      "domain": "typeface",
+      "year": 1927,
+      "via": "Paul Renner draws Futura from the circle, the square and the triangle.",
+      "styles": [
+        "geometric-sans"
+      ]
+    },
+    {
+      "domain": "icon",
+      "year": 1972,
+      "via": "Otl Aicher builds the pictograms of the Munich Olympics on a grid with angles of 45° and 90° only.",
+      "styles": [
+        "outline-icon"
+      ]
+    },
+    {
+      "domain": "logo",
+      "year": 2012,
+      "via": "The Twitter bird is drawn from overlapping circles with set radii.",
+      "styles": [
+        "geometric-symbol",
+        "swiss-modernist-mark",
+        "flat-logo"
+      ]
+    },
+    {
+      "domain": "icon",
+      "year": 2014,
+      "via": "Material Design sets 24 dp icons with a 20 dp live area and keyline shapes.",
+      "styles": [
+        "material-symbols-icon"
+      ]
+    }
+  ],
+  "styles": [
+    "outline-icon",
+    "material-symbols-icon",
+    "geometric-symbol",
+    "swiss-modernist-mark",
+    "geometric-sans",
+    "flat-logo"
+  ],
+  "sources": [
+    {
+      "title": "Albrecht Duerer, Underweysung der Messung (Nuremberg, 1525)"
+    },
+    {
+      "title": "Google, Material Design system icons guidelines (2014)",
+      "url": "https://m3.material.io/styles/icons/overview"
+    }
+  ]
+}
