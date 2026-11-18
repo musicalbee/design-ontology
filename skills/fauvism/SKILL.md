@@ -138,15 +138,15 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Reference works
 
-- **Note:** These works are not flagged as public domain by the museum. The ids identify the works only. The Bathers by a River is a later, larger work that came from the Fauve start. Look at the museum page for the image and its licence; do not copy it.
+- **Note:** Object ids were checked against the Art Institute of Chicago API (CC0 data). Two works are not flagged as public domain by the museum: the ids identify them only. Look at the museum page for the image and its licence; do not copy it.
 
 **Works**
 
 | Work | Artist | Date | Museum | Object id | Public domain |
 |---|---|---|---|---|---|
-| Bathers by a River | Henri Matisse | 1909–10, 1913, and 1916–17 | Art Institute of Chicago | 79307 | false |
+| Still Life with Geranium | Henri Matisse | 1906 | Art Institute of Chicago | 87045 | true |
 | Forest at Martigues | André Derain | 1908 | Art Institute of Chicago | 8975 | false |
-| Landscape | André Derain | n.d. | Art Institute of Chicago | 3117 | false |
+| Houses at Chatou | Maurice de Vlaminck | 1905 | Art Institute of Chicago | 74699 | false |
 
 ## Prompt primer
 
@@ -175,7 +175,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`pointillism`](../pointillism/SKILL.md)
 - **Kin in another domain:** [`new-colour`](../new-colour/SKILL.md)
-- **Nearest by vector profile:** [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`impressionism`](../impressionism/SKILL.md), [`pointillism`](../pointillism/SKILL.md)
+- **Nearest by vector profile:** [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`pointillism`](../pointillism/SKILL.md), [`impressionism`](../impressionism/SKILL.md)
 
 ## Emotional target
 

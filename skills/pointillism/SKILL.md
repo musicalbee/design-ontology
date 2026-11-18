@@ -1,6 +1,6 @@
 ---
 name: pointillism
-description: "Apply the Pointillism style (1886–1891) when making, prompting or art-directing a picture: a painting, an illustration, an image-generation prompt or a cover. Load when the user asks for: pointillism, pointillist, seurat, signac, divisionism, neo-impressionism."
+description: "Apply the Pointillism style (1884–1891) when making, prompting or art-directing a picture: a painting, an illustration, an image-generation prompt or a cover. Load when the user asks for: pointillism, pointillist, seurat, signac, divisionism, neo-impressionism."
 domain: painting
 era: nineteenth-century
 triggers:
@@ -16,7 +16,7 @@ triggers:
 vector_profile:
   abstraction: 2
   brushwork_visibility: 5
-  chromatic_intensity: 4
+  chromatic_intensity: 5
   depth_illusion: 3
   line_dominance: 1
 ---
@@ -27,7 +27,7 @@ vector_profile:
 
 A picture made of small, separate dots of pure colour that the eye mixes at a distance. The scene is still and ordered, built by colour theory and not by blending.
 
-**Period:** 1886–1891 · **Era:** Nineteenth century · **Domain:** Painting · **Also called:** Divisionism, Neo-Impressionism, Chromoluminarism
+**Period:** 1884–1891 · **Era:** Nineteenth century · **Domain:** Painting · **Also called:** Divisionism, Neo-Impressionism, Chromoluminarism
 
 ## When to load this skill
 
@@ -68,7 +68,7 @@ Each line below breaks the style. Check your output against the list before you 
 |---|---|---|---|
 | Abstraction | `■■□□□` 2/5 | illusionistic depiction | pure abstraction |
 | Brushwork visibility | `■■■■■` 5/5 | no trace of the hand | each stroke and gesture shown |
-| Chromatic intensity | `■■■■□` 4/5 | muted, tonal | saturated, high-key |
+| Chromatic intensity | `■■■■■` 5/5 | muted, tonal | saturated, high-key |
 | Depth illusion | `■■■□□` 3/5 | flat picture plane | deep perspectival space |
 | Line dominance | `■□□□□` 1/5 | colour and mass carry the image | line carries the image |
 
@@ -174,7 +174,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`impressionism`](../impressionism/SKILL.md)
 - **Led to (go here for a newer version):** [`fauvism`](../fauvism/SKILL.md)
-- **Nearest by vector profile:** [`impressionism`](../impressionism/SKILL.md), [`romanticism-painting`](../romanticism-painting/SKILL.md), [`fauvism`](../fauvism/SKILL.md)
+- **Nearest by vector profile:** [`impressionism`](../impressionism/SKILL.md), [`fauvism`](../fauvism/SKILL.md), [`romanticism-painting`](../romanticism-painting/SKILL.md)
 
 ## Emotional target
 

@@ -1,6 +1,6 @@
 ---
 name: romanticism-painting
-description: "Apply the Romanticism style (1790–1850) when making, prompting or art-directing a picture: a painting, an illustration, an image-generation prompt or a cover. Load when the user asks for: romanticism, romantic painting, turner, delacroix, friedrich, sublime."
+description: "Apply the Romanticism style (1790–1860s) when making, prompting or art-directing a picture: a painting, an illustration, an image-generation prompt or a cover. Load when the user asks for: romanticism, romantic painting, turner, delacroix, friedrich, sublime."
 domain: painting
 era: nineteenth-century
 triggers:
@@ -27,7 +27,7 @@ vector_profile:
 
 Pictures of storm, sea, ruin, passion and distant lands, in which feeling comes before rule. Nature is vast and the person is small; colour and brush carry the mood.
 
-**Period:** 1790–1850 · **Era:** Nineteenth century · **Domain:** Painting · **Also called:** Romantic painting, The Sublime
+**Period:** 1790–1860s · **Era:** Nineteenth century · **Domain:** Painting · **Also called:** Romantic painting, The Sublime
 
 ## When to load this skill
 
@@ -174,7 +174,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`rococo-painting`](../rococo-painting/SKILL.md)
 - **Was rejected by:** [`realism-painting`](../realism-painting/SKILL.md)
-- **Nearest by vector profile:** [`baroque-painting`](../baroque-painting/SKILL.md), [`impressionism`](../impressionism/SKILL.md), [`pointillism`](../pointillism/SKILL.md)
+- **Nearest by vector profile:** [`baroque-painting`](../baroque-painting/SKILL.md), [`impressionism`](../impressionism/SKILL.md), [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md)
 
 ## Emotional target
 
