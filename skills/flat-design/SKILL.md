@@ -241,12 +241,12 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more grid and type**: move toward [`swiss-international`](../swiss-international/SKILL.md) (Swiss International Style). Reduce the palette to black, white and one accent; set text flush left on a 12-column grid with a single typeface.
 
 - **Came from (go here for a more orthodox version):** [`swiss-international`](../swiss-international/SKILL.md)
-- **Led to (go here for a newer version):** [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`corporate-memphis`](../corporate-memphis/SKILL.md), [`material-design`](../material-design/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
+- **Led to (go here for a newer version):** [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`corporate-memphis`](../corporate-memphis/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`material-design`](../material-design/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`skeuomorphism`](../skeuomorphism/SKILL.md)
-- **Was rejected by:** [`neumorphism`](../neumorphism/SKILL.md)
-- **Mixes well with:** [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
+- **Was rejected by:** [`anti-design`](../anti-design/SKILL.md), [`brutalist-web`](../brutalist-web/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md), [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md), [`neumorphism`](../neumorphism/SKILL.md)
+- **Mixes well with:** [`metro-ui`](../metro-ui/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
 - **Kin in another domain:** [`ukiyo-e`](../ukiyo-e/SKILL.md)
-- **Nearest by vector profile:** [`de-stijl-web`](../de-stijl-web/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md)
+- **Nearest by vector profile:** [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
 
 ## Emotional target
 

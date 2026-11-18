@@ -144,7 +144,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`international-style-architecture`](../international-style-architecture/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md)
 - **Mixes well with:** [`high-tech-architecture`](../high-tech-architecture/SKILL.md)
-- **Kin in another domain:** [`grunge-editorial`](../grunge-editorial/SKILL.md)
+- **Kin in another domain:** [`anti-design`](../anti-design/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md)
 - **Nearest by vector profile:** [`art-nouveau-architecture`](../art-nouveau-architecture/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md)
 
 ## Emotional target

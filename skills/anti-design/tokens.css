@@ -1,0 +1,109 @@
+/*
+ * Anti-Design — tokens
+ * Generated from data/design/styles/anti-design.json by design-ontology. Do not edit.
+ * Use: put data-style="anti-design" on <html> or on any container.
+ */
+[data-style="anti-design"] {
+  --color-bg: #F2F0E8;
+  --color-surface: #C6FF00;
+  --color-text: #0A0A0A;
+  --color-muted: #3D3D38;
+  --color-primary: #0A0A0A;
+  --color-accent: #FF3B00;
+  --color-border: #0A0A0A;
+  --font-sans: "Space Mono", "IBM Plex Mono", monospace;
+  --font-display: "Anton", "Unbounded", Impact, sans-serif;
+  --border-radius: 0px;
+  --border-width: 3px;
+  --shadow-elevation: 6px 6px 0 #0A0A0A;
+  --backdrop-filter: none;
+  --space-unit: 6px;
+  --ease: steps(4);
+  --duration: 120ms;
+  --color-on-bg: #0A0A0A;
+  --color-on-surface: #0A0A0A;
+  --color-on-primary: #F2F0E8;
+  --color-on-accent: #0A0A0A;
+  --color-muted-on-bg: #3D3D38;
+  --color-muted-on-surface: #3D3D38;
+  --color-link: #0A0A0A;
+  --color-link-on-surface: #0A0A0A;
+  --display-weight: 400;
+  --subhead-weight: 400;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 700;
+  --display-tracking: -0.04em;
+  --display-leading: 0.85;
+  --display-case: uppercase;
+  --body-leading: 1.4;
+  --body-size: 15px;
+  --icon-stroke: 3;
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="anti-design"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="anti-design"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="anti-design"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="anti-design"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="anti-design"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="anti-design"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="anti-design"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="anti-design"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="anti-design"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="anti-design"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="anti-design"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="anti-design"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

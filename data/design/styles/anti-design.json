@@ -1,0 +1,312 @@
+{
+  "$schema": "../../../schema/domains/design.schema.json",
+  "id": "anti-design",
+  "domain": "design",
+  "name": "Anti-Design",
+  "aliases": [
+    "Anti-design web",
+    "Ugly design",
+    "Broken grid"
+  ],
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2016,
+    "end": null,
+    "label": "2016–now"
+  },
+  "primary_mediums": [
+    "web"
+  ],
+  "summary": "Broken grids, clashing type, overlap, odd colour and deliberate roughness. It answers the polish of templated product sites and asks the visitor to notice the design.",
+  "philosophy": {
+    "core_thesis": "Polish is a lie: a page that breaks the rules on purpose shows that people made it.",
+    "design_principles": [
+      "Break the grid on purpose: shift at least 3 elements by 12px to 80px off any column and overlap 2 or more blocks by 8px to 48px.",
+      "Mix at least 3 type families or 4 styles on one page and scale type by a ratio of 3 or more between neighbours.",
+      "Use 4 to 6 clashing colours, including 1 acid colour (#C6FF00 or #FF3B00), with saturation above 80%.",
+      "Rotate 2 to 5 elements by 3° to 15° and let text run at an angle or vertically.",
+      "Set at least one headline at 120px or larger and crop it by the viewport edge.",
+      "Place a raw or default element (system button, plain table) beside a styled one.",
+      "Make the navigation odd: a label in the wrong place, an icon with no text, or a link inside the headline."
+    ],
+    "anti_patterns": [
+      "Centred symmetric layouts on a tidy grid",
+      "A single safe typeface and a safe palette",
+      "Cards of equal size with equal padding",
+      "Soft gradients and glass effects",
+      "Stock photography in neat frames",
+      "Predictable SaaS section order",
+      "Pastel colour"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "dimensionality": 1,
+    "grid_rigidity": 1,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 5
+  },
+  "layout": {
+    "grid_mechanics": "A broken grid: a 12-column base that elements leave by 12px to 80px; blocks overlap and stack in z-order.",
+    "whitespace_ratio": "10% to 30% of the surface stays empty, and the empty space is uneven; the spacing scale is irregular on purpose: 6, 20, 44, 90px.",
+    "alignment_rules": "Mixed flush-left, flush-right and rotated; no common edge across sections.",
+    "container_geometry": "Mixed shapes: rectangles of 0px radius, one pill, one circle; borders of 2px to 6px in black or acid colour."
+  },
+  "typography": {
+    "classifications": [
+      "grotesque sans serif",
+      "display serif",
+      "monospace",
+      "outline type"
+    ],
+    "font_pairings": [
+      {
+        "display": "Anton",
+        "body": "Space Mono",
+        "note": "A tall, loud display with a mono text face."
+      },
+      {
+        "display": "Unbounded",
+        "body": "IBM Plex Mono",
+        "note": "A wide, round display with a technical text face."
+      },
+      {
+        "display": "DM Serif Display",
+        "body": "Archivo",
+        "note": "A fat serif that clashes with a grotesque on purpose."
+      }
+    ],
+    "tracking": "Display takes -0.04em to +0.1em, varied by word; body stays at 0.",
+    "leading": "Display 0.85 to 1.0; body 1.4.",
+    "hierarchy_rules": [
+      "Use three weights: regular (400), bold (700) and black (900).",
+      "Use at least 4 sizes with a jump of 3x: 12, 36, 120 and 200px.",
+      "Mix upper case, lower case and italic in one headline.",
+      "Set at least one phrase as outline type with a 2px stroke."
+    ]
+  },
+  "color": {
+    "palette_structure": "Clashing hues on an off-white or black ground, with one acid colour.",
+    "palette": [
+      {
+        "name": "Chalk",
+        "hex": "#F2F0E8",
+        "role": "background"
+      },
+      {
+        "name": "Black",
+        "hex": "#0A0A0A",
+        "role": "text and borders"
+      },
+      {
+        "name": "Acid",
+        "hex": "#C6FF00",
+        "role": "accent"
+      },
+      {
+        "name": "Signal",
+        "hex": "#FF3B00",
+        "role": "second accent"
+      },
+      {
+        "name": "Electric",
+        "hex": "#3B2BFF",
+        "role": "third accent"
+      },
+      {
+        "name": "Pink",
+        "hex": "#FF7AD9",
+        "role": "fourth accent"
+      }
+    ],
+    "contrast_rules": "Black on chalk holds 18:1; body text never sits on an acid colour below 7:1; neon carries large type and blocks.",
+    "surface_treatment": "Flat, opaque fields; occasional raw grain or a rough drawing; no soft gradient.",
+    "light_and_shadow": "No light source; a hard offset of 6px 6px 0 black may appear on one element."
+  },
+  "materiality": {
+    "surface_simulation": "Cut paper and rough digital collage; the surface is flat and does not imitate a material.",
+    "border_rules": "Borders of 2px to 6px in black or acid; one element has no border at all.",
+    "blur_and_elevation": "No blur. Hard offset shadows of 6px 6px 0 on 1 or 2 elements only."
+  },
+  "ornamentation_details": {
+    "iconography": "Icons are oversized or tiny, with stroke of 2px to 4px; mix a text link, an arrow and a symbol.",
+    "illustration": "Cut-out photography, rough drawings, stickers, scans and 3D renders pasted together.",
+    "decorative_elements": [
+      "overlap",
+      "rotated block",
+      "outline type",
+      "sticker",
+      "raw HTML element"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Jumpy and unpredictable: elements snap between positions in 100ms steps; marquee text scrolls at 20s per loop; hover causes a shift.",
+    "easing": "steps(4)",
+    "duration_ms": 120,
+    "hover_and_active": "Hover rotates the element by 3° to 6° and swaps its colours; active state inverts the whole block."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "swiss-international",
+      "flat-design",
+      "material-design"
+    ],
+    "hybridized_with": [
+      "neo-brutalism-ui",
+      "grunge-editorial",
+      "brutalist-web"
+    ],
+    "echoes": [
+      "deconstructivist-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels surprise and the sense that a person is playing with the rules.",
+    "keywords": [
+      "rebellious",
+      "chaotic",
+      "loud",
+      "playful",
+      "raw",
+      "experimental"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "anti-design",
+      "ugly design",
+      "broken grid",
+      "chaotic layout",
+      "clashing type",
+      "experimental web",
+      "anti-grid",
+      "awwwards experimental"
+    ],
+    "use_cases": [
+      "creative studios and portfolios",
+      "music and fashion brands",
+      "art and festival sites",
+      "launches that must stand out",
+      "student and agency showcases"
+    ],
+    "avoid_when": [
+      "The product is a transactional or accessibility-critical tool.",
+      "The audience needs fast task completion.",
+      "The brand needs trust and calm."
+    ],
+    "modifiers": [
+      {
+        "request": "tamer",
+        "toward": "neo-brutalism-ui",
+        "how": "Return to a grid; keep the thick borders, hard shadows and one loud colour."
+      },
+      {
+        "request": "more rawness",
+        "toward": "brutalist-web",
+        "how": "Strip to default type and links; keep the overlap."
+      },
+      {
+        "request": "more order",
+        "toward": "swiss-international",
+        "how": "Snap all elements to a 12-column grid and cut to one typeface."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 400,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "size",
+      "display_tracking": "-0.04em",
+      "display_leading": 0.85,
+      "display_case": "uppercase",
+      "body_leading": 1.4,
+      "body_size": "15px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 3,
+      "linecap": "square",
+      "linejoin": "miter",
+      "container": "none",
+      "pack": {
+        "id": "pepicons-pop",
+        "why": "A loud, thick, slightly rough line that suits cut-out and sticker art."
+      }
+    },
+    "art": {
+      "recipe": "neobrutal",
+      "pattern": "checks",
+      "seed": 37
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": 3
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#F2F0E8",
+      "--color-surface": "#C6FF00",
+      "--color-text": "#0A0A0A",
+      "--color-muted": "#3D3D38",
+      "--color-primary": "#0A0A0A",
+      "--color-accent": "#FF3B00",
+      "--color-border": "#0A0A0A",
+      "--font-sans": "\"Space Mono\", \"IBM Plex Mono\", monospace",
+      "--font-display": "\"Anton\", \"Unbounded\", Impact, sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "3px",
+      "--shadow-elevation": "6px 6px 0 #0A0A0A",
+      "--backdrop-filter": "none",
+      "--space-unit": "6px",
+      "--ease": "steps(4)",
+      "--duration": "120ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#F2F0E8] text-[#0A0A0A] font-mono antialiased px-4 md:px-8 overflow-x-hidden"
+      },
+      {
+        "element": "heading",
+        "classes": "text-7xl md:text-[12rem] uppercase leading-[0.85] tracking-[-0.04em] -rotate-3"
+      },
+      {
+        "element": "body",
+        "classes": "text-[15px] leading-[1.4] max-w-sm"
+      },
+      {
+        "element": "section",
+        "classes": "border-[3px] border-[#0A0A0A] bg-[#C6FF00] p-4 translate-x-6 shadow-[6px_6px_0_#0A0A0A]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border-[3px] border-[#0A0A0A] bg-[#FF3B00] px-5 py-2 text-base font-bold uppercase text-[#0A0A0A] transition-transform duration-[120ms] hover:rotate-3"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-bold uppercase"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Awwwards Sites of the Day with experimental layouts (2016–2025)"
+    },
+    {
+      "title": "Brutalist Websites and Are.na anti-design collections"
+    }
+  ]
+}

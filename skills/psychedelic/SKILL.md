@@ -243,7 +243,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`swiss-international`](../swiss-international/SKILL.md)
 - **Mixes well with:** [`pop-art-web`](../pop-art-web/SKILL.md)
-- **Nearest by vector profile:** [`memphis-design`](../memphis-design/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md)
+- **Nearest by vector profile:** [`memphis-design`](../memphis-design/SKILL.md), [`anti-design`](../anti-design/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md)
 
 ## Emotional target
 

@@ -1,0 +1,109 @@
+/*
+ * Metro UI — tokens
+ * Generated from data/design/styles/metro-ui.json by design-ontology. Do not edit.
+ * Use: put data-style="metro-ui" on <html> or on any container.
+ */
+[data-style="metro-ui"] {
+  --color-bg: #000000;
+  --color-surface: #0050EF;
+  --color-text: #FFFFFF;
+  --color-muted: #C8C8C8;
+  --color-primary: #0050EF;
+  --color-accent: #D80073;
+  --color-border: #FFFFFF;
+  --font-sans: "Open Sans", "Segoe UI", sans-serif;
+  --font-display: "Open Sans", "Segoe UI", sans-serif;
+  --border-radius: 0px;
+  --border-width: 0px;
+  --shadow-elevation: none;
+  --backdrop-filter: none;
+  --space-unit: 12px;
+  --ease: cubic-bezier(0.1, 0.9, 0.2, 1);
+  --duration: 300ms;
+  --color-on-bg: #FFFFFF;
+  --color-on-surface: #FFFFFF;
+  --color-on-primary: #FFFFFF;
+  --color-on-accent: #FFFFFF;
+  --color-muted-on-bg: #C8C8C8;
+  --color-muted-on-surface: #E6EEFD;
+  --color-link: #FFFFFF;
+  --color-link-on-surface: #FFFFFF;
+  --display-weight: 300;
+  --subhead-weight: 300;
+  --body-weight: 400;
+  --strong-weight: 600;
+  --label-weight: 600;
+  --display-tracking: -0.01em;
+  --display-leading: 1.1;
+  --display-case: lowercase;
+  --body-leading: 1.45;
+  --body-size: 16px;
+  --icon-stroke: 2;
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="metro-ui"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="metro-ui"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="metro-ui"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="metro-ui"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="metro-ui"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="metro-ui"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="metro-ui"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="metro-ui"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="metro-ui"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="metro-ui"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="metro-ui"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="metro-ui"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

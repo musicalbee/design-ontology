@@ -1,0 +1,301 @@
+{
+  "$schema": "../../../schema/domains/design.schema.json",
+  "id": "editorial-serif-revival",
+  "domain": "design",
+  "name": "Editorial Serif Revival",
+  "aliases": [
+    "Serif web",
+    "Magazine web",
+    "New editorial"
+  ],
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2021,
+    "end": null,
+    "label": "2021–now"
+  },
+  "primary_mediums": [
+    "web"
+  ],
+  "summary": "Large expressive serif headlines, warm off-white paper, a small sans for labels and a restrained palette. It came back as a reaction to the geometric sans-serif default of the SaaS web.",
+  "philosophy": {
+    "core_thesis": "Voice beats neutrality: a serif with character makes a brand sound like a person, as in a magazine.",
+    "design_principles": [
+      "Set headlines in a high-contrast serif at 56px to 120px with a leading of 0.95 to 1.05 and tracking of -0.02em to -0.04em.",
+      "Use a warm off-white ground (#F6F1E7) and near-black ink (#1A1714); one muted accent (terracotta #B4532A or green) covers less than 8% of the surface.",
+      "Set body in a serif or a quiet sans at 18px to 20px with a measure of 55 to 70 characters and a leading of 1.55.",
+      "Set labels, dates and bylines in a small sans or mono at 11px to 13px in upper case with +0.08em tracking.",
+      "Use italic as the emphasis in a headline: one word or phrase in italic in each headline.",
+      "Divide the page by 1px rules; use drop caps and pull quotes at 32px to 48px.",
+      "Crop photographs in clean rectangles with a caption of 12px below and no radius."
+    ],
+    "anti_patterns": [
+      "Geometric sans-serif headlines in bold",
+      "Gradient backgrounds and glow",
+      "Rounded cards, pills and emoji",
+      "Uniform tile grids with shadows",
+      "All-bold type with no italic",
+      "Pure white backgrounds",
+      "Stock illustration in a corporate-flat style"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 1,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 4
+  },
+  "layout": {
+    "grid_mechanics": "A 12-column grid with 24px gutters; headlines span 8 to 10 columns; body sits in 6 columns; captions in the margin.",
+    "whitespace_ratio": "35% to 50% of the surface stays empty; the spacing scale is 8, 16, 32, 64 and 128px.",
+    "alignment_rules": "Flush left; ragged right; large headlines may span the width; pull quotes sit off the column.",
+    "container_geometry": "Rectangles with a 0px radius; 1px rules and plain image crops; no card boxes."
+  },
+  "typography": {
+    "classifications": [
+      "high-contrast serif",
+      "old-style serif"
+    ],
+    "font_pairings": [
+      {
+        "display": "Instrument Serif",
+        "body": "Inter",
+        "note": "A condensed display serif with a neutral label sans."
+      },
+      {
+        "display": "Fraunces",
+        "body": "Newsreader",
+        "note": "An expressive soft serif with a text serif for reading."
+      },
+      {
+        "display": "Playfair Display",
+        "body": "Source Serif 4",
+        "note": "A classic high-contrast display with a clear text serif."
+      }
+    ],
+    "tracking": "Display takes -0.02em to -0.04em; body stays at 0; labels take +0.08em.",
+    "leading": "Display 1.0; body 1.55.",
+    "hierarchy_rules": [
+      "Use two weights for the text face: regular (400) and semibold (600); display runs at 400.",
+      "Use sizes 12, 18, 32, 64 and 112px.",
+      "Set one phrase of a headline in italic.",
+      "Set labels in upper case at 12px."
+    ]
+  },
+  "color": {
+    "palette_structure": "Warm paper and ink, with one muted accent.",
+    "palette": [
+      {
+        "name": "Paper",
+        "hex": "#F6F1E7",
+        "role": "background"
+      },
+      {
+        "name": "Ink",
+        "hex": "#1A1714",
+        "role": "text and rules"
+      },
+      {
+        "name": "Terracotta",
+        "hex": "#B4532A",
+        "role": "accent"
+      },
+      {
+        "name": "Stone",
+        "hex": "#6F675C",
+        "role": "secondary text"
+      },
+      {
+        "name": "Linen",
+        "hex": "#EAE2D3",
+        "role": "alternate surface"
+      }
+    ],
+    "contrast_rules": "Ink on paper holds at least 15:1; the accent carries labels, links and one large word, not body text.",
+    "surface_treatment": "Flat paper tone with a grain at 3% opacity; no gradient.",
+    "light_and_shadow": "None; depth comes from scale and white space."
+  },
+  "materiality": {
+    "surface_simulation": "Printed magazine paper: warm stock and black ink.",
+    "border_rules": "1px ink rules above sections and under headlines; no boxes.",
+    "blur_and_elevation": "No blur. No elevation. Shadow is none."
+  },
+  "ornamentation_details": {
+    "iconography": "Thin 1.5px line icons used rarely; text links with arrows (→) replace most icons.",
+    "illustration": "Editorial photography and illustration in a single tone, with captions and credits.",
+    "decorative_elements": [
+      "drop cap",
+      "pull quote",
+      "hairline rule",
+      "italic emphasis",
+      "small-caps byline"
+    ]
+  },
+  "motion": {
+    "native": false,
+    "transition_physics": "Translation for screen: calm fades of 300ms to 500ms; images reveal by a 12px upward slide; no bounce.",
+    "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+    "duration_ms": 400,
+    "hover_and_active": "Hover adds an underline of 1px in the accent and shifts an arrow by 4px; active state darkens the accent by 10%."
+  },
+  "lineage": {
+    "evolved_from": [
+      "swiss-international"
+    ],
+    "rebelled_against": [
+      "flat-design",
+      "corporate-memphis"
+    ],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels that a person with taste is speaking.",
+    "keywords": [
+      "literary",
+      "warm",
+      "confident",
+      "editorial",
+      "human",
+      "refined"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "editorial",
+      "serif",
+      "magazine",
+      "new york times style",
+      "fraunces",
+      "instrument serif",
+      "literary",
+      "serif headline",
+      "essay layout"
+    ],
+    "use_cases": [
+      "publishing and newsletters",
+      "agency and studio sites",
+      "founder and brand stories",
+      "cultural institutions",
+      "long-form and essay pages"
+    ],
+    "avoid_when": [
+      "The product is a dense dashboard.",
+      "The brand needs a technical or playful look.",
+      "The page needs many cards and filters."
+    ],
+    "modifiers": [
+      {
+        "request": "more modern",
+        "toward": "swiss-international",
+        "how": "Replace the serif with one neo-grotesque and use a flush-left 12-column grid."
+      },
+      {
+        "request": "more raw",
+        "toward": "brutalist-web",
+        "how": "Set body in the default serif, remove the paper tone and add 2px rules."
+      },
+      {
+        "request": "more digital",
+        "toward": "dark-devtool-ui",
+        "how": "Switch to a near-black ground and add a mono face for labels."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 400,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 500,
+      "accent": "size",
+      "display_tracking": "-0.03em",
+      "display_leading": 1.0,
+      "display_case": "none",
+      "body_leading": 1.55,
+      "body_size": "18px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "iconoir",
+        "why": "A thin, even, humanist line that does not compete with the serif headlines."
+      }
+    },
+    "art": {
+      "recipe": "swiss",
+      "pattern": "none",
+      "seed": 36
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "left",
+      "density": "airy",
+      "tilt_deg": 0
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#F6F1E7",
+      "--color-surface": "#EAE2D3",
+      "--color-text": "#1A1714",
+      "--color-muted": "#6F675C",
+      "--color-primary": "#1A1714",
+      "--color-accent": "#B4532A",
+      "--color-border": "#1A1714",
+      "--font-sans": "\"Source Serif 4\", Georgia, serif",
+      "--font-display": "\"Instrument Serif\", \"Playfair Display\", Georgia, serif",
+      "--border-radius": "0px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "--duration": "400ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#F6F1E7] text-[#1A1714] font-serif antialiased grid grid-cols-12 gap-x-6 px-6 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "col-span-12 md:col-span-10 text-6xl md:text-9xl leading-none tracking-[-0.03em]"
+      },
+      {
+        "element": "body",
+        "classes": "col-span-12 md:col-span-6 text-lg leading-[1.55]"
+      },
+      {
+        "element": "section",
+        "classes": "col-span-12 border-t border-[#1A1714] pt-4 mt-16"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border border-[#1A1714] bg-[#1A1714] px-6 py-3 text-sm text-[#F6F1E7] transition-colors duration-[400ms] hover:bg-[#B4532A] hover:border-[#B4532A]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-medium uppercase tracking-[0.08em] text-[#6F675C]"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Public sites of Pentagram, Kinfolk and The Verge (2021–2025)"
+    },
+    {
+      "title": "Google Fonts: Instrument Serif and Fraunces specimens"
+    }
+  ]
+}
