@@ -21,7 +21,7 @@ const domain = opt("domain");
 const only = opt("only")?.split(",");
 const force = args.includes("--force");
 const dry = args.includes("--dry-run");
-if (!domain) throw new Error("Give --domain photography|film|painting");
+if (!domain) throw new Error("Give --domain photography|film|painting|interior");
 
 const subjects = JSON.parse(readFileSync("scripts/previews/subjects.json", "utf8")) as Record<string, string>;
 const subject = subjects[domain];
@@ -37,7 +37,9 @@ const styles = readdirSync(styleDir).filter((f) => f.endsWith(".json"))
   .map((f) => JSON.parse(readFileSync(join(styleDir, f), "utf8")))
   .filter((s) => !only || only.includes(s.id));
 
-const promptFor = (s: any) => [subject, ...(s.prompt_primer?.positive ?? [])].join(", ");
+// Photography, film and painting give primer words; interior gives one full image prompt.
+const positive = (s: any): string[] => s.prompt_primer?.positive ?? (s.implementation?.image_prompt ? [s.implementation.image_prompt] : []);
+const promptFor = (s: any) => [subject, ...positive(s)].join(", ");
 
 function workflow(vars: Record<string, string | number>) {
   const filled = template.replace(/"\{\{(\w+)\}\}"/g, (_, k) => JSON.stringify(vars[k]))

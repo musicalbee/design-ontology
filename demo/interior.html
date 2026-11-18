@@ -31,6 +31,9 @@
   @media (min-width: 960px) { .views { grid-template-columns: 1fr 1fr; } }
   figure { margin: 0; background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 12px; min-width: 0; }
   figcaption { font-size: 13px; color: var(--muted); margin-top: 8px; }
+  .shot { margin: 0 0 16px; padding: 0; overflow: hidden; }
+  .shot img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; background: var(--line); }
+  .shot figcaption { padding: 8px 12px; font-size: 12px; color: var(--muted); }
   figure h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; margin: 0 0 8px; color: var(--muted); font-weight: 650; }
   svg { display: block; width: 100%; height: auto; }
   svg text { font: 11px system-ui, sans-serif; }
@@ -85,6 +88,11 @@
     <label><input type="checkbox" data-ov="route" checked><span class="sw" style="background:var(--route)"></span>Clear routes</label>
     <label><input type="checkbox" data-ov="light" checked><span class="sw" style="background:var(--light)"></span>Light layers</label>
   </div>
+
+  <figure class="shot" id="shot" hidden>
+    <img id="shot-img" alt="" width="1152" height="768" decoding="async">
+    <figcaption id="shot-cap"></figcaption>
+  </figure>
 
   <div class="views">
     <figure>
@@ -330,6 +338,20 @@ function facts(s) {
   $("facts").innerHTML = f.map(([k, v]) => `<div class="fact"><div class="k">${k}</div><div class="v">${v}</div></div>`).join("");
 }
 
+// A generated preview of the same room in this style, if the renderer made one.
+const previews = fetch("previews/interior/manifest.json").then((r) => (r.ok ? r.json() : { images: {} })).catch(() => ({ images: {} }));
+function shot(s) {
+  previews.then((m) => {
+    const p = m.images?.[s.id];
+    if (skills[at].id !== s.id) return;
+    $("shot").hidden = !p;
+    if (!p) return;
+    $("shot-img").src = `previews/interior/${p.file}`;
+    $("shot-img").alt = `Generated preview: a living room in the ${s.name} style`;
+    $("shot-cap").textContent = `Generated preview, not a real room. ${p.model}, ${p.licence}, seed ${p.seed}, ${p.steps} steps.`;
+  });
+}
+
 function show(i) {
   at = (i + skills.length) % skills.length;
   const meta = skills[at];
@@ -338,7 +360,7 @@ function show(i) {
     $("h-name").textContent = s.name;
     $("h-meta").textContent = `${s.time_period.label} · ${s.aliases.join(", ")}`;
     $("h-thesis").textContent = s.philosophy.core_thesis;
-    plan(s); elevation(s); palette(s); facts(s);
+    plan(s); elevation(s); palette(s); facts(s); shot(s);
     $("rules").innerHTML = s.composition.rules.map((r) => `<tr><td><code>${esc(r.principle)}</code></td><td>${esc(r.rule)}</td><td>${esc(r.value)}</td></tr>`).join("");
     $("layers").innerHTML = s.lighting.layers.map((l) => `<tr><td>${esc(l.layer)}</td><td>${esc(l.source)}</td><td>${esc(l.position)}</td></tr>`).join("");
     $("p-pos").textContent = s.implementation.image_prompt;
