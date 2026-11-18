@@ -1,0 +1,54 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "halftone",
+  "name": "Halftone",
+  "aliases": [
+    "Ben-Day dots",
+    "Dot screen"
+  ],
+  "kind": "process",
+  "summary": "Tone printed as dots of different size or spacing; at a distance the dots merge into grey or colour.",
+  "how": [
+    "Set the screen at 10 to 30 lines per cm for a print grain, or enlarge the dots to 4 to 8mm for a Pop effect.",
+    "Turn each colour screen to its own angle: cyan 15°, magenta 75°, yellow 0°, black 45°."
+  ],
+  "origin": {
+    "domain": "design",
+    "year": 1879,
+    "where": "New York",
+    "note": "Benjamin Day patents a mechanical tint of dots for printers; photographic halftone screens follow in the 1880s."
+  },
+  "adoptions": [
+    {
+      "domain": "photography",
+      "year": 1880,
+      "via": "The Daily Graphic of New York prints a photograph as a halftone."
+    },
+    {
+      "domain": "painting",
+      "year": 1961,
+      "via": "Roy Lichtenstein paints enlarged Ben-Day dots by hand in Look Mickey."
+    },
+    {
+      "domain": "design",
+      "year": 1976,
+      "circa": true,
+      "via": "Punk zines photocopy halftones until the dots break up.",
+      "styles": [
+        "punk-zine"
+      ]
+    }
+  ],
+  "styles": [
+    "pop-art-web",
+    "punk-zine"
+  ],
+  "principles": [
+    "contrast"
+  ],
+  "sources": [
+    {
+      "title": "Roy Lichtenstein, Look Mickey (1961)"
+    }
+  ]
+}

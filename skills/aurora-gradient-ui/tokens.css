@@ -1,0 +1,109 @@
+/*
+ * Aurora Gradient UI — tokens
+ * Generated from data/design/styles/aurora-gradient-ui.json by design-ontology. Do not edit.
+ * Use: put data-style="aurora-gradient-ui" on <html> or on any container.
+ */
+[data-style="aurora-gradient-ui"] {
+  --color-bg: #0A0A14;
+  --color-surface: #14142A;
+  --color-text: #ECE9FF;
+  --color-muted: #A7A3C7;
+  --color-primary: #7C5CFF;
+  --color-accent: #2DD4FF;
+  --color-border: #2A2A48;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Manrope", "Inter", system-ui, sans-serif;
+  --border-radius: 20px;
+  --border-width: 1px;
+  --shadow-elevation: 0 0 40px rgba(124,92,255,0.4);
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration: 400ms;
+  --color-on-bg: #ECE9FF;
+  --color-on-surface: #ECE9FF;
+  --color-on-primary: #0A0A14;
+  --color-on-accent: #0A0A14;
+  --color-muted-on-bg: #A7A3C7;
+  --color-muted-on-surface: #A7A3C7;
+  --color-link: #2DD4FF;
+  --color-link-on-surface: #2DD4FF;
+  --display-weight: 600;
+  --subhead-weight: 500;
+  --body-weight: 400;
+  --strong-weight: 600;
+  --label-weight: 500;
+  --display-tracking: -0.03em;
+  --display-leading: 1.05;
+  --display-case: none;
+  --body-leading: 1.6;
+  --body-size: 17px;
+  --icon-stroke: 1.5;
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="aurora-gradient-ui"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="aurora-gradient-ui"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="aurora-gradient-ui"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="aurora-gradient-ui"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="aurora-gradient-ui"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="aurora-gradient-ui"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="aurora-gradient-ui"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="aurora-gradient-ui"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="aurora-gradient-ui"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="aurora-gradient-ui"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="aurora-gradient-ui"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="aurora-gradient-ui"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

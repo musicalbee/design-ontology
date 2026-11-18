@@ -79,6 +79,15 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Geometry:** Flat plane of lit faces against a dark void; a hard shadow on the wall behind the subject.
 - **Subject placement:** Centred or off centre by chance; faces take 30–60% of the frame.
 
+**Principles**
+
+| Principle | Rule |
+|---|---|
+| layering-depth | Use 2 planes: a lit subject at 1.5 to 3m, and a background 2 to 3 stops darker. |
+| focal-point | Let faces take 30–60% of the frame area. |
+| contrast | Hold the flash-to-ambient ratio at 8:1 or more. |
+| grouping | Keep the gap inside a group under 0.5m and the gap to the next group above 1m. |
+
 ## Light
 
 - **Quality:** Hard direct flash, small source, strong specular shine on skin and glass.
@@ -145,6 +154,17 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | Go-Sees | Juergen Teller | 1999 |
 | The Kids Are Alright | Ryan McGinley | 2003 |
 
+## Composition principles
+
+The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
+
+| Id | Principle | Definition | Measure: typical range |
+|---|---|---|---|
+| `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
+| `focal-point` | Focal point | The one place in a view that the eye finds first and comes back to. A composition has one primary focal point and at most two secondary ones. | focal points in one view (count): 1 primary, 0 to 2 secondary; luminance of the focal point to its surround (ratio): 3:1 to 10:1; position (fraction of width): 0.5 on an axis, or 0.33 / 0.67 on a third |
+| `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | brightest mass to deepest shadow in one image (stops): 3–4 flat; 5–8 hard, 8 or more for expressionist |
+| `grouping` | Grouping | Elements close to each other read as one group. The gap inside a group is smaller than the gap between groups. | gap between groups to gap inside a group (ratio): 2:1 or more; elements in a group (count): 3 or 5 for an informal group, pairs for a formal group |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -153,9 +173,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more documentary**: move toward [`street-photography`](../street-photography/SKILL.md) (Street photography). Drop the flash, shoot in found light at ISO 1600, f/2 and 1/250s, and convert to grainy black and white.
 
 - **Came from (go here for a more orthodox version):** [`y2k-digicam`](../y2k-digicam/SKILL.md)
-- **Mixes well with:** [`street-photography`](../street-photography/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
-- **Kin in another domain:** [`grunge-editorial`](../grunge-editorial/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
-- **Nearest by vector profile:** [`street-photography`](../street-photography/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md), [`new-colour`](../new-colour/SKILL.md)
+- **Mixes well with:** [`film-grain-revival`](../film-grain-revival/SKILL.md), [`street-photography`](../street-photography/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
+- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`cyberdelia`](../cyberdelia/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
+- **Nearest by vector profile:** [`documentary-photography`](../documentary-photography/SKILL.md), [`film-grain-revival`](../film-grain-revival/SKILL.md), [`street-photography`](../street-photography/SKILL.md)
 
 ## Emotional target
 

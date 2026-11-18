@@ -1,0 +1,311 @@
+{
+  "$schema": "../../../schema/domains/design.schema.json",
+  "id": "scrapbook-ui",
+  "domain": "design",
+  "name": "Scrapbook UI",
+  "aliases": [
+    "Collage web",
+    "Paper collage UI",
+    "Craft collage"
+  ],
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2018,
+    "end": null,
+    "label": "2018–now"
+  },
+  "primary_mediums": [
+    "web",
+    "mobile"
+  ],
+  "summary": "Cut-out photos, tape, stickers, torn paper, handwritten notes and slight tilts on a paper ground. It makes a page feel like a handmade album and a personal object.",
+  "philosophy": {
+    "core_thesis": "The page is a handmade album: warm, imperfect and made by a person.",
+    "design_principles": [
+      "Tilt each card, photo and sticker by -4° to +4° and never place two neighbours at the same angle.",
+      "Put a strip of tape (80px by 24px, yellow or white at 70% opacity, rotated 5° to 15°) on the top corner of photos.",
+      "Add torn paper edges with an SVG mask of 6px to 12px amplitude on 2 sides of each paper block.",
+      "Use a paper ground (#F4ECD8) with a grain of 4% to 8% and 3 to 5 flat accent colours at 70% to 100% saturation.",
+      "Set notes in a handwriting face at 20px to 28px and body text in a plain sans at 16px.",
+      "Cast a soft shadow of 0 4px 8px at 18% under each paper item and rotate stickers with a 3px white outline.",
+      "Overlap items by 8px to 24px and layer at least 3 depth levels (paper, photo, sticker)."
+    ],
+    "anti_patterns": [
+      "Perfect grids with equal gutters",
+      "Hard digital edges with no texture",
+      "Neon and glow effects",
+      "Monochrome minimal palettes",
+      "Stock photos with no crop or frame",
+      "Cold glass and blur",
+      "Fixed icon sets in a straight row"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 3,
+    "grid_rigidity": 5,
+    "skeuomorphic_realism": 5,
+    "typographic_expressiveness": 5
+  },
+  "layout": {
+    "grid_mechanics": "A loose collage on a 6-column base; items overlap by 8px to 24px and tilt by -4° to +4°; one anchor block holds the headline.",
+    "whitespace_ratio": "5% to 15% of the surface is empty; gaps are uneven (12px to 48px).",
+    "alignment_rules": "Mixed: flush left text blocks, centred stickers, notes at random corners; right edge is ragged.",
+    "container_geometry": "Paper rectangles with torn or deckled edges; polaroid frames with 12px side and 40px bottom margins; stickers with a 3px white outline."
+  },
+  "typography": {
+    "classifications": [
+      "handwriting script",
+      "humanist sans serif"
+    ],
+    "font_pairings": [
+      {
+        "display": "Caveat",
+        "body": "Nunito",
+        "note": "A natural handwriting for notes and labels."
+      },
+      {
+        "display": "Gaegu",
+        "body": "Nunito",
+        "note": "A rounder, child-like hand for stickers."
+      },
+      {
+        "display": "Special Elite",
+        "body": "Nunito",
+        "note": "A typewriter face for captions on tape."
+      }
+    ],
+    "tracking": "Hand faces take 0; sans body takes 0.",
+    "leading": "Display 1.1; body 1.55.",
+    "hierarchy_rules": [
+      "Use two weights: regular (400) and bold (700).",
+      "Use sizes 16, 22, 28 and 64px.",
+      "Set notes in the hand face and body in the sans.",
+      "Set date stamps in a typewriter face at 12px."
+    ]
+  },
+  "color": {
+    "palette_structure": "Warm paper with craft accents.",
+    "palette": [
+      {
+        "name": "Paper",
+        "hex": "#F4ECD8",
+        "role": "background"
+      },
+      {
+        "name": "Ink",
+        "hex": "#2B2A33",
+        "role": "text"
+      },
+      {
+        "name": "Tomato",
+        "hex": "#C8401C",
+        "role": "primary"
+      },
+      {
+        "name": "Mustard",
+        "hex": "#F3B700",
+        "role": "accent"
+      },
+      {
+        "name": "Teal",
+        "hex": "#2A9D8F",
+        "role": "accent two"
+      },
+      {
+        "name": "Kraft",
+        "hex": "#C8A97E",
+        "role": "secondary surface"
+      }
+    ],
+    "contrast_rules": "Ink on paper holds 12:1; white text only on tomato and teal at 18px and larger.",
+    "surface_treatment": "Flat paper fields with a grain of 4% to 8%; no gradient.",
+    "light_and_shadow": "Light is soft and from the top: a shadow of 0 4px 8px at 18% under paper items."
+  },
+  "materiality": {
+    "surface_simulation": "Paper, tape, photo prints and craft stickers.",
+    "border_rules": "Torn and deckled edges; a 3px white outline on stickers.",
+    "blur_and_elevation": "Shadow 0 4px 8px at 18%; two layers of overlap shadow; no blur on content."
+  },
+  "ornamentation_details": {
+    "iconography": "Hand-drawn icons with 2.5px strokes and round caps; stars, arrows and hearts as stickers.",
+    "illustration": "Cut-out photos, tape strips, stamps, doodles and torn paper.",
+    "decorative_elements": [
+      "tape strip",
+      "polaroid frame",
+      "torn edge",
+      "sticker"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Light and playful: items drop in with a 4° wobble in 400ms; stickers peel up on hover.",
+    "easing": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+    "duration_ms": 400,
+    "hover_and_active": "Hover lifts an item 4px and straightens its tilt to 0°; active state presses it back to scale 0.98."
+  },
+  "lineage": {
+    "evolved_from": [
+      "punk-zine",
+      "corporate-memphis"
+    ],
+    "rebelled_against": [
+      "flat-design"
+    ],
+    "hybridized_with": [
+      "grunge-editorial",
+      "claymorphism"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels warmth, nostalgia and the presence of the maker.",
+    "keywords": [
+      "warm",
+      "handmade",
+      "nostalgic",
+      "playful",
+      "personal",
+      "imperfect"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "scrapbook",
+      "collage",
+      "paper collage",
+      "tape",
+      "polaroid",
+      "journal",
+      "handmade",
+      "sticker"
+    ],
+    "use_cases": [
+      "personal sites and portfolios",
+      "wedding, travel and memory pages",
+      "craft, stationery and kids brands",
+      "music and zine culture",
+      "storytelling and journaling apps"
+    ],
+    "avoid_when": [
+      "The product needs dense data tables.",
+      "The brand must look precise or corporate.",
+      "The page needs fast, quiet scanning."
+    ],
+    "modifiers": [
+      {
+        "request": "cleaner",
+        "toward": "editorial-serif-revival",
+        "how": "Straighten items to 0°, remove tape and keep the paper ground and one hand font."
+      },
+      {
+        "request": "more raw",
+        "toward": "punk-zine",
+        "how": "Use photocopy black and white, cut letters and a 2px offset."
+      },
+      {
+        "request": "more soft",
+        "toward": "claymorphism",
+        "how": "Swap paper for soft 3D blobs and 24px radius."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 700,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "weight",
+      "display_tracking": "0em",
+      "display_leading": 1.1,
+      "display_case": "none",
+      "body_leading": 1.55,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 2.5,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "pepicons-pop",
+        "why": "A hand-drawn, sticker-like family with a thick round line."
+      }
+    },
+    "art": {
+      "recipe": "grunge",
+      "pattern": "noise",
+      "seed": 52
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "left",
+      "density": "regular",
+      "tilt_deg": 3
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#F4ECD8",
+      "--color-surface": "#FFFFFF",
+      "--color-text": "#2B2A33",
+      "--color-muted": "#6B6558",
+      "--color-primary": "#C8401C",
+      "--color-accent": "#F3B700",
+      "--color-border": "#C8A97E",
+      "--font-sans": "\"Nunito\", system-ui, sans-serif",
+      "--font-display": "\"Caveat\", \"Nunito\", cursive",
+      "--border-radius": "2px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 4px 8px rgba(0,0,0,0.18)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+      "--duration": "400ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#F4ECD8] text-[#2B2A33] font-sans antialiased"
+      },
+      {
+        "element": "heading",
+        "classes": "font-bold text-5xl md:text-7xl leading-[1.1] -rotate-2"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.55]"
+      },
+      {
+        "element": "section",
+        "classes": "bg-white p-3 pb-10 shadow-[0_4px_8px_rgba(0,0,0,0.18)] rotate-2"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-sm bg-[#C8401C] px-5 py-3 font-bold text-white shadow-[0_4px_8px_rgba(0,0,0,0.18)] -rotate-1 transition-transform duration-[400ms] hover:-translate-y-1 hover:rotate-0"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs text-[#6B6558]"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Example: Mailchimp 2018 rebrand pages (2018)"
+    },
+    {
+      "title": "Example: Are.na and Cosmos collage sites (2019–2025)"
+    },
+    {
+      "title": "Example: Figma FigJam and Notion illustrated pages (2020–2025)"
+    }
+  ]
+}

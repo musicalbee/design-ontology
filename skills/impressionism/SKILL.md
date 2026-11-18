@@ -158,7 +158,7 @@ The rules above name these shared principles by id. The definition is the same i
 | Id | Principle | Definition | Measure: typical range |
 |---|---|---|---|
 | `rule-of-thirds` | Rule of thirds | Two horizontal and two vertical lines divide the view into nine equal parts. The focal point sits on one of the four crossings, and a horizon sits on one of the two horizontal lines. | focal point position (fraction of width and height): 0.33 or 0.67, tolerance 0.05; horizon position (fraction of height): 0.33 or 0.67 |
-| `negative-space` | Negative space | The empty area around and between elements. It is a part of the composition, not a remainder. | empty floor area (% of floor): 40–80 in a room; empty wall area (% of wall): 50–95; empty frame area (% of image): 30–70 |
+| `negative-space` | Negative space | The empty area around and between elements. It is a part of the composition, not a remainder. | empty frame area (% of image): 30–70 |
 | `leading-lines` | Leading lines | Lines in the view, such as edges, rows, beams or paths, point the eye to the focal point. | lines that converge on the focal point (count): 1 to 4; angle from the frame edge (degrees): 15–60 for a diagonal |
 | `colour-distribution` | Colour distribution | Each colour takes a planned share of the visible area: a dominant colour, a secondary colour and an accent. | dominant / secondary / accent share (% of visible surface): 60/30/10 as the default; 70/25/5 calm; 40/35/25 bold; accents (count): 1 to 3 |
 | `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | frame area (% of the view): 10–35; frame planes (count): 1 to 2 |
@@ -170,10 +170,12 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more structure**: move toward [`cubism-painting`](../cubism-painting/SKILL.md) (Cubism). Keep the colour touches; make each one a faceted plane with a straight edge, narrow the palette to 3–4 hues, and drop the atmosphere.
 - If the user asks for **more graphic**: move toward [`ukiyo-e`](../ukiyo-e/SKILL.md) (Ukiyo-e). Keep the cropped viewpoint and the high horizon; replace the touches with flat fields and a 1–2mm contour.
 
+- **Came from (go here for a more orthodox version):** [`realism-painting`](../realism-painting/SKILL.md)
+- **Led to (go here for a newer version):** [`pointillism`](../pointillism/SKILL.md)
 - **Was rejected by:** [`cubism-painting`](../cubism-painting/SKILL.md)
 - **Mixes well with:** [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md)
-- **Kin in another domain:** [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md)
-- **Nearest by vector profile:** [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`abstract-expressionism`](../abstract-expressionism/SKILL.md), [`baroque-painting`](../baroque-painting/SKILL.md)
+- **Kin in another domain:** [`film-grain-revival`](../film-grain-revival/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`pictorialism`](../pictorialism/SKILL.md)
+- **Nearest by vector profile:** [`pointillism`](../pointillism/SKILL.md), [`romanticism-painting`](../romanticism-painting/SKILL.md), [`fauvism`](../fauvism/SKILL.md)
 
 ## Emotional target
 
@@ -187,6 +189,7 @@ Light and ease: the viewer feels a warm day, a passing mood and a pleasure in lo
 - [Getty AAT 300021503 (Impressionism)](https://vocab.getty.edu/page/aat/300021503)
 - [Art Institute of Chicago API (CC0 data)](https://api.artic.edu/docs/)
 - John Rewald, The History of Impressionism (MoMA, 1946)
+- [Artvee: public-domain paintings, sorted by artist](https://artvee.com)
 
 ---
 

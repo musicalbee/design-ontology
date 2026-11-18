@@ -226,6 +226,17 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Perspective grid (process)
+
+Lines that run to one vanishing point on a horizon, so that a flat surface reads as a floor in deep space. Origin: painting, Florence, c. 1415.
+
+- Put the horizon at 50% to 65% of the height and draw 12 to 24 lines to one vanishing point.
+- Space the cross lines so that each gap is about 0.8 of the gap in front of it.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -235,8 +246,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more modern**: move toward [`glassmorphism`](../glassmorphism/SKILL.md) (Glassmorphism). Replace the bevels with frosted glass panels of 16px blur; keep the gradient.
 
 - **Came from (go here for a more orthodox version):** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
-- **Mixes well with:** [`frutiger-aero`](../frutiger-aero/SKILL.md)
-- **Nearest by vector profile:** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md)
+- **Led to (go here for a newer version):** [`synthwave-web`](../synthwave-web/SKILL.md)
+- **Mixes well with:** [`cybercore-web`](../cybercore-web/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`pixel-art-web`](../pixel-art-web/SKILL.md)
+- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`surrealism-painting`](../surrealism-painting/SKILL.md)
+- **Nearest by vector profile:** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md)
 
 ## Emotional target
 

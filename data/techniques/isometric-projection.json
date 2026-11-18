@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "isometric-projection",
+  "name": "Isometric projection",
+  "aliases": [
+    "Isometric drawing",
+    "Axonometric view"
+  ],
+  "kind": "process",
+  "summary": "A drawing with three axes at equal angles and one scale, with no vanishing point, so that sizes can be measured.",
+  "how": [
+    "Draw the three axes at 120° to each other; on a pixel grid, use a 2:1 slope (26.57°).",
+    "Keep one scale on all three axes and draw no vanishing point."
+  ],
+  "origin": {
+    "domain": "architecture",
+    "year": 1822,
+    "where": "Cambridge",
+    "note": "William Farish publishes isometrical perspective as a method for engineering drawing."
+  },
+  "adoptions": [
+    {
+      "domain": "architecture",
+      "year": 1923,
+      "via": "Theo van Doesburg and Cornelis van Eesteren show houses in axonometric drawings."
+    },
+    {
+      "domain": "design",
+      "year": 2015,
+      "circa": true,
+      "via": "Isometric illustrations show products, data and offices on tech pages.",
+      "styles": [
+        "corporate-memphis"
+      ]
+    }
+  ],
+  "styles": [
+    "corporate-memphis",
+    "bento-grid-ui"
+  ],
+  "principles": [
+    "scale"
+  ],
+  "sources": [
+    {
+      "title": "William Farish, On Isometrical Perspective (Transactions of the Cambridge Philosophical Society, 1822)"
+    }
+  ]
+}

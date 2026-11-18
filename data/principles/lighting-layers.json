@@ -11,34 +11,64 @@
     {
       "measure": "ambient illuminance",
       "unit": "lux",
-      "reference": "50–300 in a home"
+      "reference": "50–300 in a home",
+      "domains": [
+        "architecture",
+        "interior"
+      ]
     },
     {
       "measure": "task illuminance",
       "unit": "lux",
-      "reference": "300–750"
+      "reference": "300–750",
+      "domains": [
+        "architecture",
+        "interior"
+      ]
     },
     {
       "measure": "accent to ambient",
       "unit": "ratio",
-      "reference": "3:1 to 10:1"
+      "reference": "3:1 to 10:1",
+      "domains": [
+        "interior",
+        "architecture",
+        "photography",
+        "painting"
+      ]
     },
     {
       "measure": "correlated colour temperature",
       "unit": "kelvin",
-      "reference": "2200–4000 in a home"
+      "reference": "2200–4000 in a home",
+      "domains": [
+        "architecture",
+        "interior"
+      ]
     },
     {
       "measure": "key to fill",
       "unit": "ratio",
-      "reference": "2:1 to 8:1 in photography"
+      "reference": "2:1 to 8:1 in photography",
+      "domains": [
+        "photography"
+      ]
+    },
+    {
+      "measure": "key to fill",
+      "unit": "ratio",
+      "reference": "2:1 flat and natural; 4:1 glamour; 8:1 or more for deep shadow",
+      "domains": [
+        "film"
+      ]
     }
   ],
   "applies_to": [
     "interior",
     "architecture",
     "photography",
-    "painting"
+    "painting",
+    "film"
   ],
   "related": [
     "contrast",

@@ -119,6 +119,42 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Attitude:** Ornament is back as quotation and joke: it tells you what the building is and then laughs at it.
 - **Details:** oversize keystones · broken pediments · painted pilasters · pastel tile bands · lettering on the facade · cut columns
 
+## Composition rules
+
+- **Symmetry:** bilateral
+- **Axis count:** 1
+- **Rhythm module m:** 4
+
+**Rules**
+
+| Principle | Rule | Value |
+|---|---|---|
+| symmetry-axis | Use a classical symmetric front and break it with a witty twist. | 1 axis |
+| colour-distribution | Use pastel colour blocks on the facade for each element. | 3–5 colours |
+| scale | Exaggerate scale: an oversize keystone, column or window. | 1 oversized element |
+| unity-variety | Mix classical references in one composition, and keep one idea clear. | 3–4 quotations |
+| hierarchy | Make the base, the middle and the top read as three clear tiers. | 3 tiers |
+
+## Reference images
+
+**Images**
+
+| Title | Credit | Licence | Url |
+|---|---|---|---|
+| The Portland Building, Portland | Steve Morgan | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Portland_Building_1982.jpg |
+
+## Composition principles
+
+The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
+
+| Id | Principle | Definition | Measure: typical range |
+|---|---|---|---|
+| `symmetry-axis` | Symmetry and axis | An axis is a line that orders a composition. Symmetry places equal elements at equal distances on the two sides of the axis, or around a centre. | ordering axes (count): 0 to 3; mirrored mass about the axis (% of visual weight): 90–100 formal, 0–50 informal; type (kind): bilateral, radial, none |
+| `colour-distribution` | Colour distribution | Each colour takes a planned share of the visible area: a dominant colour, a secondary colour and an accent. | dominant / secondary / accent share (% of visible surface): 60/30/10 as the default; 70/25/5 calm; 40/35/25 bold; accents (count): 1 to 3 |
+| `scale` | Scale | The size of an element in relation to the human body, to the space around it and to the other elements. A style chooses a reference body and holds the elements in a range around it. | seat height (cm): 38–46; largest piece to room width (ratio): 0.3–0.6; ceiling height to door height (ratio): 1.2–1.5 |
+| `unity-variety` | Unity and variety | Repeated materials, colours and shapes join the parts into one whole. A small, planned number of deviations keeps the whole alive. | materials or hues that repeat (count): 2 to 4; deliberate deviations (count): 1 to 2 |
+| `hierarchy` | Hierarchy | The elements of a composition rank by importance through size, position, contrast or isolation. The viewer reads them in that order. | levels of rank (count): 2 to 3; size ratio between adjacent levels (ratio): 1.5:1 or more |
+
 ## Vocabulary primer
 
 Use these terms in a brief, an image prompt or a 3D scene description.
@@ -136,6 +172,18 @@ Reference works:
 | Portland Building, Portland | Michael Graves | 1982 |
 | Neue Staatsgalerie, Stuttgart | James Stirling | 1984 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Arch (motif)
+
+A curved head over an opening that carries load as compression; inside, a soft frame for a door, a mirror or a niche. Origin: architecture, Rome, c. 200 BCE.
+
+- Use a semicircular head: the rise is half the span.
+- Keep the ratio of height to width of the opening at 1.6:1 to 2:1.
+- In a room, repeat the arch in 2 or 3 places, for example a door, a mirror and a niche, and no more.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -144,8 +192,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md)
 - **Was rejected by:** [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md)
-- **Kin in another domain:** [`memphis-design`](../memphis-design/SKILL.md)
-- **Nearest by vector profile:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`art-nouveau-architecture`](../art-nouveau-architecture/SKILL.md), [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md)
+- **Kin in another domain:** [`memphis-design`](../memphis-design/SKILL.md), [`memphis-interior`](../memphis-interior/SKILL.md)
+- **Nearest by vector profile:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`beaux-arts-architecture`](../beaux-arts-architecture/SKILL.md), [`baroque-architecture`](../baroque-architecture/SKILL.md)
 
 ## Emotional target
 

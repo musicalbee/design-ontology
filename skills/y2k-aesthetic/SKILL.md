@@ -234,6 +234,18 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Airbrush (tool)
+
+A pen-sized spray gun that lays paint in soft, even tones; with masks, it makes hard edges and smooth gradients side by side. Origin: photography, United States, 1879.
+
+- Build tone in 3 to 6 thin passes; each pass adds 20% to 40% of the final density.
+- Cut a hard mask for each edge that must stay sharp; leave the light soft.
+- Put one specular highlight of pure white on each chrome form.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -243,11 +255,11 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more translucent**: move toward [`glassmorphism`](../glassmorphism/SKILL.md) (Glassmorphism). Raise background blur to 16px to 24px, lower panel opacity to 20% to 40% and drop the chrome; keep the cool palette.
 - If the user asks for **less glossy**: move toward [`swiss-international`](../swiss-international/SKILL.md) (Swiss International Style). Use a 12-column grid, one sans serif and one blue accent; keep the small upper-case labels.
 
-- **Led to (go here for a newer version):** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
+- **Led to (go here for a newer version):** [`apple-aqua`](../apple-aqua/SKILL.md), [`cybercore-web`](../cybercore-web/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`pixel-art-web`](../pixel-art-web/SKILL.md), [`synthwave-web`](../synthwave-web/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`grunge-editorial`](../grunge-editorial/SKILL.md)
-- **Mixes well with:** [`glassmorphism`](../glassmorphism/SKILL.md)
-- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`party-flash`](../party-flash/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
-- **Nearest by vector profile:** [`vaporwave`](../vaporwave/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md)
+- **Mixes well with:** [`cyberdelia`](../cyberdelia/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md)
+- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`music-video`](../music-video/SKILL.md), [`party-flash`](../party-flash/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
+- **Nearest by vector profile:** [`vaporwave`](../vaporwave/SKILL.md), [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md)
 
 ## Emotional target
 

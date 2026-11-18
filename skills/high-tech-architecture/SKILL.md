@@ -118,6 +118,42 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Attitude:** No applied ornament; the detail of the joint, the colour code of the services and the structure are the image.
 - **Details:** cast steel gerberettes · tension rod bracing · colour-coded ducts · glazed external escalators · exposed bolts and pins
 
+## Composition rules
+
+- **Symmetry:** bilateral
+- **Axis count:** 1
+- **Rhythm module m:** 12.8
+
+**Rules**
+
+| Principle | Rule | Value |
+|---|---|---|
+| rhythm | Repeat the structural bay and the tube at an exact module. | bay 12.8m |
+| layering-depth | Hang the services and the bracing outside the glass as a visible layer. | 1 outer layer |
+| colour-distribution | Code each service by colour: air blue, water green, circulation red. | 4–5 codes |
+| circulation | Run the escalator tube on the face as a visible diagonal. | 1 façade route |
+| zoning | Keep the floor plates free of columns for flexible use. | clear span 44m |
+
+## Reference images
+
+**Images**
+
+| Title | Credit | Licence | Url |
+|---|---|---|---|
+| Centre Pompidou, Paris | Alf van Beem | CC0 | https://commons.wikimedia.org/wiki/File:Centre_Pompidou,_seen_from_Tour_Montparnasse.jpg |
+
+## Composition principles
+
+The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
+
+| Id | Principle | Definition | Measure: typical range |
+|---|---|---|---|
+| `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repeated interval (cm or px): style module; repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive |
+| `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
+| `colour-distribution` | Colour distribution | Each colour takes a planned share of the visible area: a dominant colour, a secondary colour and an accent. | dominant / secondary / accent share (% of visible surface): 60/30/10 as the default; 70/25/5 calm; 40/35/25 bold; accents (count): 1 to 3 |
+| `circulation` | Circulation | The routes through a space and the clear widths that they keep free of furniture. | main route clear width (cm): 90–120; secondary route clear width (cm): 60–75; seat edge to low table (cm): 35–50; wheelchair route (cm): 90 or more; 150 turning circle |
+| `zoning` | Zoning | A space divides into areas with one activity each. A rug, a light, a ceiling change or a group of furniture marks a zone without a wall. | zones in one open room (count): 2 to 4; zone marker (kind): rug, pendant, floor level, ceiling level, furniture back |
+
 ## Vocabulary primer
 
 Use these terms in a brief, an image prompt or a 3D scene description.
@@ -143,7 +179,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`international-style-architecture`](../international-style-architecture/SKILL.md)
 - **Mixes well with:** [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md)
-- **Kin in another domain:** [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md)
+- **Kin in another domain:** [`cassette-futurism`](../cassette-futurism/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`space-age`](../space-age/SKILL.md)
 - **Nearest by vector profile:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md)
 
 ## Emotional target

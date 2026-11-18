@@ -119,6 +119,42 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Attitude:** Ornament is geometric, repeated and machine-made; it celebrates speed, light and luxury.
 - **Details:** zigzag and chevron bands · sunburst motifs · fluted piers · stylised frieze panels · chromed doors and grilles · stepped crowns
 
+## Composition rules
+
+- **Symmetry:** bilateral
+- **Axis count:** 1
+- **Rhythm module m:** 3
+
+**Rules**
+
+| Principle | Rule | Value |
+|---|---|---|
+| symmetry-axis | Hold the front on one axis with a stepped central mass. | 1 axis |
+| rhythm | Repeat piers and zigzag bands in a strict vertical beat. | bay 3–4m |
+| hierarchy | Step the massing back in setbacks toward the crown. | 3–5 setbacks |
+| leading-lines | Use vertical piers to lift the eye to the spire. | piers full height |
+| scale | Build the lobby with a double height and a rich finish. | lobby 6–10m |
+
+## Reference images
+
+**Images**
+
+| Title | Credit | Licence | Url |
+|---|---|---|---|
+| Chrysler Building, New York | David Shankbone | Public domain | https://commons.wikimedia.org/wiki/File:Chrysler_Building_by_David_Shankbone_Retouched.jpg |
+
+## Composition principles
+
+The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
+
+| Id | Principle | Definition | Measure: typical range |
+|---|---|---|---|
+| `symmetry-axis` | Symmetry and axis | An axis is a line that orders a composition. Symmetry places equal elements at equal distances on the two sides of the axis, or around a centre. | ordering axes (count): 0 to 3; mirrored mass about the axis (% of visual weight): 90–100 formal, 0–50 informal; type (kind): bilateral, radial, none |
+| `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repeated interval (cm or px): style module; repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive |
+| `hierarchy` | Hierarchy | The elements of a composition rank by importance through size, position, contrast or isolation. The viewer reads them in that order. | levels of rank (count): 2 to 3; size ratio between adjacent levels (ratio): 1.5:1 or more |
+| `leading-lines` | Leading lines | Lines in the view, such as edges, rows, beams or paths, point the eye to the focal point. | lines that converge on the focal point (count): 1 to 4; angle from the frame edge (degrees): 15–60 for a diagonal |
+| `scale` | Scale | The size of an element in relation to the human body, to the space around it and to the other elements. A style chooses a reference body and holds the elements in a range around it. | seat height (cm): 38–46; largest piece to room width (ratio): 0.3–0.6; ceiling height to door height (ratio): 1.2–1.5 |
+
 ## Vocabulary primer
 
 Use these terms in a brief, an image prompt or a 3D scene description.
@@ -136,6 +172,34 @@ Reference works:
 | Hoover Building, London | Wallis, Gilbert and Partners | 1933 |
 | Eastern Columbia Building, Los Angeles | Claud Beelman | 1930 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Fluting and reeding (motif)
+
+Parallel grooves (flutes) or ridges (reeds) on a column, a panel, a leg or a sheet of glass. Origin: architecture, Greece, c. 600 BCE.
+
+- Cut 16 to 24 flutes round a column, or set the grooves at 15 to 40mm centres on a flat panel.
+- Run the flutes vertical to make a surface look taller.
+- Use one fluted surface in each room as an accent.
+
+### Sunburst (motif)
+
+Rays from a disc or a half disc: a sign of light and of the new, on a facade, a gate, a mirror or a clock. Origin: architecture, Paris, 1925.
+
+- Draw 12 to 36 rays from one centre; alternate long and short rays, or two finishes.
+- Keep the centre disc at 15% to 30% of the full diameter.
+- In a room, use one sunburst as the focal point of one wall.
+
+### Terrazzo (material)
+
+Chips of marble or glass set in a binder and ground flat, so that each chip shows as a cut section. Origin: architecture, Venice, c. 1500.
+
+- Set chips of 5 to 25mm in a binder; the chips cover 40% to 60% of the surface.
+- Use 2 to 4 chip colours on one ground colour.
+- Grind and polish the surface flat, so that the chip edges show as cut sections.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -143,8 +207,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **plainer**: move toward [`international-style-architecture`](../international-style-architecture/SKILL.md) (International Style). Remove the relief and the setbacks, flatten the piers into a grid of 4 to 7m, and keep the polished materials.
 
 - **Came from (go here for a more orthodox version):** [`art-nouveau-architecture`](../art-nouveau-architecture/SKILL.md)
-- **Kin in another domain:** [`art-deco-interior`](../art-deco-interior/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md)
-- **Nearest by vector profile:** [`postmodern-architecture`](../postmodern-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`art-nouveau-architecture`](../art-nouveau-architecture/SKILL.md)
+- **Kin in another domain:** [`art-deco-interior`](../art-deco-interior/SKILL.md), [`art-deco-web`](../art-deco-web/SKILL.md), [`classical-hollywood`](../classical-hollywood/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md)
+- **Nearest by vector profile:** [`beaux-arts-architecture`](../beaux-arts-architecture/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md), [`renaissance-architecture`](../renaissance-architecture/SKILL.md)
 
 ## Emotional target
 

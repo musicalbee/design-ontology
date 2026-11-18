@@ -3,10 +3,22 @@
   "id": "mid-century-modern-architecture",
   "domain": "architecture",
   "name": "Mid-century Modern",
-  "aliases": ["Californian Modern", "Case Study House style", "Usonian-influenced modern"],
+  "aliases": [
+    "Californian Modern",
+    "Case Study House style",
+    "Usonian-influenced modern"
+  ],
   "era_id": "modern-movement",
-  "time_period": { "start": 1940, "end": 1969, "label": "1940s–1960s" },
-  "building_types": ["residential", "commercial", "cultural"],
+  "time_period": {
+    "start": 1940,
+    "end": 1969,
+    "label": "1940s–1960s"
+  },
+  "building_types": [
+    "residential",
+    "commercial",
+    "cultural"
+  ],
   "summary": "A low house of post-and-beam timber or steel, with glass walls to the garden, a flat or low-pitched roof and a warm palette. It made the International Style domestic and suited it to climate, family and the car.",
   "philosophy": {
     "core_thesis": "Modern architecture can be warm: the free plan and the glass wall serve everyday life, and the house belongs to its garden.",
@@ -46,15 +58,44 @@
     "expression": "Exposed beams carry through the glass line to the eaves, so the frame is the one decoration of the house."
   },
   "materials": {
-    "primary": ["timber (redwood, cedar, walnut)", "plate glass", "brick or stone feature wall"],
-    "secondary": ["painted steel", "terrazzo and slate", "plywood", "cork"],
+    "primary": [
+      "timber (redwood, cedar, walnut)",
+      "plate glass",
+      "brick or stone feature wall"
+    ],
+    "secondary": [
+      "painted steel",
+      "terrazzo and slate",
+      "plywood",
+      "cork"
+    ],
     "finish": "Natural and satin: oiled wood, matte paint, honed stone. Surfaces show the grain but they are not rough.",
     "palette": [
-      { "name": "Teak", "hex": "#9A6B3F", "role": "ceilings, panelling and furniture" },
-      { "name": "Cream plaster", "hex": "#EBE3D0", "role": "walls" },
-      { "name": "Olive", "hex": "#6F6B2F", "role": "doors and accent walls" },
-      { "name": "Burnt orange", "hex": "#C8622A", "role": "accent doors and furniture" },
-      { "name": "Charcoal steel", "hex": "#2D2D2D", "role": "frame and fireplace" }
+      {
+        "name": "Teak",
+        "hex": "#9A6B3F",
+        "role": "ceilings, panelling and furniture"
+      },
+      {
+        "name": "Cream plaster",
+        "hex": "#EBE3D0",
+        "role": "walls"
+      },
+      {
+        "name": "Olive",
+        "hex": "#6F6B2F",
+        "role": "doors and accent walls"
+      },
+      {
+        "name": "Burnt orange",
+        "hex": "#C8622A",
+        "role": "accent doors and furniture"
+      },
+      {
+        "name": "Charcoal steel",
+        "hex": "#2D2D2D",
+        "role": "frame and fireplace"
+      }
     ]
   },
   "facade": {
@@ -69,47 +110,175 @@
   },
   "ornament": {
     "attitude": "No applied ornament; the grain of the wood, the pattern of the structure and one piece of art carry the interest.",
-    "details": ["exposed post-and-beam joints", "brick or stone fireplace wall", "breeze-block screens", "slatted wood screens", "sunken conversation pit"]
+    "details": [
+      "exposed post-and-beam joints",
+      "brick or stone fireplace wall",
+      "breeze-block screens",
+      "slatted wood screens",
+      "sunken conversation pit"
+    ]
+  },
+  "identity": {
+    "wikidata": "Q6840667",
+    "aat": "300343610"
+  },
+  "composition": {
+    "symmetry": "asymmetric",
+    "axis_count": 1,
+    "rhythm_module_m": 1.2,
+    "rules": [
+      {
+        "principle": "sightlines",
+        "rule": "Let the glass wall give a view from the living room to the garden.",
+        "value": "glass wall 50%+"
+      },
+      {
+        "principle": "zoning",
+        "rule": "Split the plan into living, sleeping and service zones around a core.",
+        "value": "3 zones"
+      },
+      {
+        "principle": "leading-lines",
+        "rule": "Run a low flat roof and a deep eave as a strong horizontal line.",
+        "value": "roof pitch 0–5°"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Flow the open plan from entry to patio without a corridor.",
+        "value": "open plan"
+      },
+      {
+        "principle": "scale",
+        "rule": "Keep the house low, with a ceiling height of 2.4 to 2.7m.",
+        "value": "2.4–2.7m"
+      }
+    ]
+  },
+  "references": {
+    "images": [
+      {
+        "title": "Eames House, Case Study House No. 8",
+        "credit": "Gunnar Klack",
+        "licence": "CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Eames-House-Case-Study-House-No-8-Pacific-Palisades-California-04-2014b.jpg"
+      }
+    ]
   },
   "lineage": {
-    "evolved_from": ["international-style-architecture"],
+    "evolved_from": [
+      "international-style-architecture",
+      "prairie-school-architecture"
+    ],
     "rebelled_against": [],
     "hybridized_with": [],
-    "echoes": ["mid-century-modern"]
+    "echoes": [
+      "mid-century-modern",
+      "mid-century-modern-interior"
+    ]
   },
   "emotion": {
     "target_response": "Ease and optimism: the viewer feels a modern home that is calm, sunny and made for a family.",
-    "keywords": ["warm", "horizontal", "open", "optimistic", "domestic"],
-    "brand_archetypes": ["everyman", "creator"]
+    "keywords": [
+      "warm",
+      "horizontal",
+      "open",
+      "optimistic",
+      "domestic"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "creator"
+    ]
   },
   "agent": {
-    "triggers": ["mid-century modern", "mid century house", "case study house", "post and beam", "eichler", "butterfly roof", "californian modern", "palm springs modernism"],
-    "use_cases": ["house and villa renders", "real-estate staging", "residential interiors", "film and set design"],
+    "triggers": [
+      "mid-century modern",
+      "mid century house",
+      "case study house",
+      "post and beam",
+      "eichler",
+      "butterfly roof",
+      "californian modern",
+      "palm springs modernism"
+    ],
+    "use_cases": [
+      "house and villa renders",
+      "real-estate staging",
+      "residential interiors",
+      "film and set design"
+    ],
     "avoid_when": [
       "The climate is cold and wet and the budget cannot hold a high glass share and a thin envelope.",
       "The brief asks for density, high-rise or monumental scale."
     ],
     "modifiers": [
-      { "request": "more austere", "toward": "international-style-architecture", "how": "Whiten the walls, thin the frame, drop the timber and the brick feature wall, and keep the flat roof and the glass wall." }
+      {
+        "request": "more austere",
+        "toward": "international-style-architecture",
+        "how": "Whiten the walls, thin the frame, drop the timber and the brick feature wall, and keep the flat roof and the glass wall."
+      }
     ]
   },
   "primer": {
     "positive": [
-      "low horizontal pavilion", "post and beam frame", "floor to ceiling glass wall", "deep roof overhang", "butterfly roof",
-      "brick fireplace wall", "wood ceiling", "breeze block screen", "garden courtyard", "warm afternoon light"
+      "low horizontal pavilion",
+      "post and beam frame",
+      "floor to ceiling glass wall",
+      "deep roof overhang",
+      "butterfly roof",
+      "brick fireplace wall",
+      "wood ceiling",
+      "breeze block screen",
+      "garden courtyard",
+      "warm afternoon light"
     ],
-    "negative": ["pitched gable roof", "colonial trim", "heavy raw concrete", "ornate moulding", "dark closed rooms", "high-rise tower"],
+    "negative": [
+      "pitched gable roof",
+      "colonial trim",
+      "heavy raw concrete",
+      "ornate moulding",
+      "dark closed rooms",
+      "high-rise tower"
+    ],
     "canonical_works": [
-      { "work": "Farnsworth House, Plano", "architect": "Ludwig Mies van der Rohe", "year": 1951 },
-      { "work": "Eames House (Case Study House 8), Pacific Palisades", "architect": "Charles and Ray Eames", "year": 1949 },
-      { "work": "Kaufmann Desert House, Palm Springs", "architect": "Richard Neutra", "year": 1946 },
-      { "work": "Stahl House (Case Study House 22), Los Angeles", "architect": "Pierre Koenig", "year": 1960 },
-      { "work": "Glass House, New Canaan", "architect": "Philip Johnson", "year": 1949 }
+      {
+        "work": "Farnsworth House, Plano",
+        "architect": "Ludwig Mies van der Rohe",
+        "year": 1951
+      },
+      {
+        "work": "Eames House (Case Study House 8), Pacific Palisades",
+        "architect": "Charles and Ray Eames",
+        "year": 1949
+      },
+      {
+        "work": "Kaufmann Desert House, Palm Springs",
+        "architect": "Richard Neutra",
+        "year": 1946
+      },
+      {
+        "work": "Stahl House (Case Study House 22), Los Angeles",
+        "architect": "Pierre Koenig",
+        "year": 1960
+      },
+      {
+        "work": "Glass House, New Canaan",
+        "architect": "Philip Johnson",
+        "year": 1949
+      }
     ]
   },
   "sources": [
-    { "title": "Wikidata Q6840667, mid-century modern (CC0)", "url": "https://www.wikidata.org/wiki/Q6840667" },
-    { "title": "Getty AAT 300343610, mid-century modern (ODC-By 1.0)", "url": "https://vocab.getty.edu/page/aat/300343610" },
-    { "title": "Elizabeth A. T. Smith (ed.), Blueprints for Modern Living: History and Legacy of the Case Study Houses (MIT Press, 1989)" }
+    {
+      "title": "Wikidata Q6840667, mid-century modern (CC0)",
+      "url": "https://www.wikidata.org/wiki/Q6840667"
+    },
+    {
+      "title": "Getty AAT 300343610, mid-century modern (ODC-By 1.0)",
+      "url": "https://vocab.getty.edu/page/aat/300343610"
+    },
+    {
+      "title": "Elizabeth A. T. Smith (ed.), Blueprints for Modern Living: History and Legacy of the Case Study Houses (MIT Press, 1989)"
+    }
   ]
 }

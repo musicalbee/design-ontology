@@ -57,6 +57,21 @@ export interface Principle {
   sources: { title: string; url?: string }[];
 }
 
+export interface Technique {
+  id: string;
+  name: string;
+  aliases: string[];
+  kind: "montage" | "animation" | "motif" | "material" | "process" | "tool";
+  identity?: { wikidata?: string; aat?: string };
+  summary: string;
+  how: string[];
+  origin: { domain: string; year: number; circa?: boolean; where: string; note: string };
+  adoptions: { domain: string; year: number; circa?: boolean; via: string; styles?: string[] }[];
+  styles: string[];
+  principles?: string[];
+  sources: { title: string; url?: string }[];
+}
+
 export const readJson = <T>(path: string): T => JSON.parse(readFileSync(path, "utf8")) as T;
 
 const jsonFiles = (dir: string): string[] =>
@@ -122,6 +137,20 @@ export function loadPeople(): { file: string; slug: string; person: Person }[] {
     person: readJson<Person>(join(dir, f)),
   }));
 }
+
+/** The cross-domain techniques in data/techniques/, by id. */
+export function loadTechniques(): { file: string; slug: string; technique: Technique }[] {
+  const dir = join(ROOT, "data", "techniques");
+  return jsonFiles(dir).map((f) => ({
+    file: join("data", "techniques", f),
+    slug: f.replace(/\.json$/, ""),
+    technique: readJson<Technique>(join(dir, f)),
+  }));
+}
+
+/** A year for people: 1925, c. 1500, 200 BCE. */
+export const yearLabel = (year: number, circa?: boolean): string =>
+  `${circa ? "c. " : ""}${year < 0 ? `${-year} BCE` : year}`;
 
 export interface StyleFile { file: string; slug: string; style: Style }
 

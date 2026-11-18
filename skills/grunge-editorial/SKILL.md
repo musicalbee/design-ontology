@@ -231,6 +231,18 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Photomontage (montage)
+
+Fragments of photographs, cut and joined on one sheet, so that the joins make a statement that no single photograph makes. Origin: graphic & ui design, Berlin, 1918.
+
+- Join 3 to 12 photographic fragments on one ground and keep the cut edges hard and visible.
+- Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.
+- Set type as one more fragment, turned 0° to 30°, in the same stack of layers.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -241,9 +253,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`swiss-international`](../swiss-international/SKILL.md)
 - **Was rejected by:** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
-- **Mixes well with:** [`punk-zine`](../punk-zine/SKILL.md)
-- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md), [`party-flash`](../party-flash/SKILL.md), [`street-photography`](../street-photography/SKILL.md)
-- **Nearest by vector profile:** [`punk-zine`](../punk-zine/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md)
+- **Mixes well with:** [`anti-design`](../anti-design/SKILL.md), [`punk-zine`](../punk-zine/SKILL.md), [`scrapbook-ui`](../scrapbook-ui/SKILL.md)
+- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md), [`fashion-editorial`](../fashion-editorial/SKILL.md), [`party-flash`](../party-flash/SKILL.md), [`street-photography`](../street-photography/SKILL.md)
+- **Nearest by vector profile:** [`punk-zine`](../punk-zine/SKILL.md), [`anti-design`](../anti-design/SKILL.md), [`cyberdelia`](../cyberdelia/SKILL.md)
 
 ## Emotional target
 

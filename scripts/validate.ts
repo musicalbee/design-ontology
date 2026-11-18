@@ -9,7 +9,7 @@
 import { Ajv2020 } from "ajv/dist/2020.js";
 import { join } from "node:path";
 import { RECIPE_NAMES } from "./pack.js";
-import { ROOT, loadDomains, loadEras, loadPeople, loadPrinciples, loadStyleFiles, principleRefs, readJson, type Style } from "./lib.js";
+import { ROOT, loadDomains, loadEras, loadPeople, loadPrinciples, loadStyleFiles, loadTechniques, principleRefs, readJson, type Style } from "./lib.js";
 
 const schemaOnly = process.argv.includes("--schema-only");
 const errors: string[] = [];
@@ -87,7 +87,38 @@ for (const domain of domains) {
   }
 }
 
+// Cross-domain techniques: one schema, ids equal to file names, years in order, references that resolve.
+const validateTechnique = ajv.compile(readJson<object>(join(ROOT, "schema", "technique.schema.json")));
+const techniques = loadTechniques();
+const techniqueChecks: (() => void)[] = [];
+for (const { file, slug, technique: t } of techniques) {
+  if (!validateTechnique(t)) {
+    for (const e of validateTechnique.errors ?? []) errors.push(`${file}: ${e.instancePath || "/"} ${e.message}`);
+    continue;
+  }
+  if (t.id !== slug) errors.push(`${file}: id "${t.id}" is not equal to the file name`);
+  for (const d of [t.origin.domain, ...t.adoptions.map((a) => a.domain)])
+    if (!domains.some((x) => x.id === d)) errors.push(`${file}: domain "${d}" is not in domains/`);
+  t.adoptions.forEach((a, i) => {
+    if (a.year < t.origin.year) errors.push(`${file}: adoption ${i + 1} (${a.year}) is before the origin (${t.origin.year})`);
+    if (i > 0 && a.year < t.adoptions[i - 1].year) errors.push(`${file}: adoptions are not in order of year`);
+  });
+  for (const p of t.principles ?? []) if (!principleIds.has(p)) errors.push(`${file}: principle "${p}" is not in data/principles/`);
+  techniqueChecks.push(() => {
+    for (const ref of t.styles) if (!byId.has(ref)) errors.push(`${file}: styles → "${ref}" does not exist`);
+    t.adoptions.forEach((a, i) => {
+      for (const ref of a.styles ?? []) {
+        const s = byId.get(ref);
+        if (!s) errors.push(`${file}: adoption ${i + 1} styles → "${ref}" does not exist`);
+        else if (s.domain !== a.domain) errors.push(`${file}: adoption ${i + 1} is in "${a.domain}", but "${ref}" is in "${s.domain}"`);
+        if (!t.styles.includes(ref)) errors.push(`${file}: adoption ${i + 1} names "${ref}", which is not in styles`);
+      }
+    });
+  });
+}
+
 if (!schemaOnly && errors.length === 0) {
+  for (const c of techniqueChecks) c();
   for (const style of byId.values()) {
     const where = `data/${style.domain}/styles/${style.id}.json`;
     const check = (field: string, ids: string[], rule: "same" | "other" | "any") => {
@@ -158,7 +189,7 @@ if (!schemaOnly && lonely.length) warnings.push(`${lonely.length} styles have no
 for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`error ${e}`);
 console.log(
-  `${count} styles in ${domains.length} domains · ${principles.length} principles · ${people.length} people · ${errors.length} errors · ${warnings.length} warnings` +
+  `${count} styles in ${domains.length} domains · ${principles.length} principles · ${techniques.length} techniques · ${people.length} people · ${errors.length} errors · ${warnings.length} warnings` +
     (schemaOnly ? " · schema only" : ""),
 );
 process.exit(errors.length ? 1 : 0);

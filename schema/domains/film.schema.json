@@ -143,12 +143,30 @@
         },
         "principles": {
           "type": "array",
-          "minItems": 1,
-          "uniqueItems": true,
+          "minItems": 3,
+          "description": "One numbered rule for each shared composition principle in data/principles/.",
           "items": {
-            "$ref": "../core.schema.json#/$defs/slug"
-          },
-          "description": "Ids of shared composition principles in data/principles/."
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "principle",
+              "rule",
+              "value"
+            ],
+            "properties": {
+              "principle": {
+                "$ref": "../core.schema.json#/$defs/slug",
+                "description": "An id from data/principles/."
+              },
+              "rule": {
+                "$ref": "../core.schema.json#/$defs/sentence"
+              },
+              "value": {
+                "$ref": "../core.schema.json#/$defs/shortText",
+                "description": "The number: a ratio, a share in %, a count, a length in s or m."
+              }
+            }
+          }
         }
       }
     },
