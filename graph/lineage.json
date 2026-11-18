@@ -6055,6 +6055,50 @@
       ]
     },
     {
+      "id": "broad-nib-pen",
+      "name": "Broad-nib pen",
+      "kind": "tool",
+      "origin": {
+        "domain": "typeface",
+        "year": 1454,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "typeface",
+          "year": 1454,
+          "circa": true,
+          "lag_years": 0,
+          "styles": [
+            "blackletter"
+          ]
+        },
+        {
+          "domain": "typeface",
+          "year": 1470,
+          "circa": false,
+          "lag_years": 16,
+          "styles": [
+            "garalde-old-style"
+          ]
+        },
+        {
+          "domain": "typeface",
+          "year": 1916,
+          "circa": false,
+          "lag_years": 462,
+          "styles": [
+            "humanist-sans"
+          ]
+        }
+      ],
+      "styles": [
+        "blackletter",
+        "garalde-old-style",
+        "humanist-sans"
+      ]
+    },
+    {
       "id": "checkerboard",
       "name": "Checkerboard",
       "kind": "motif",
@@ -6132,6 +6176,42 @@
         "frutiger-aero",
         "material-design",
         "glassmorphism"
+      ]
+    },
+    {
+      "id": "fixed-pitch-grid",
+      "name": "Fixed-pitch grid",
+      "kind": "process",
+      "origin": {
+        "domain": "typeface",
+        "year": 1874,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "typeface",
+          "year": 1874,
+          "circa": false,
+          "lag_years": 0,
+          "styles": [
+            "monospace"
+          ]
+        },
+        {
+          "domain": "design",
+          "year": 1978,
+          "circa": false,
+          "lag_years": 104,
+          "styles": [
+            "terminal-tui-web",
+            "dark-devtool-ui"
+          ]
+        }
+      ],
+      "styles": [
+        "monospace",
+        "terminal-tui-web",
+        "dark-devtool-ui"
       ]
     },
     {
@@ -6466,6 +6546,40 @@
       ]
     },
     {
+      "id": "pointed-pen",
+      "name": "Pointed pen",
+      "kind": "tool",
+      "origin": {
+        "domain": "typeface",
+        "year": 1741,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "typeface",
+          "year": 1741,
+          "circa": false,
+          "lag_years": 0,
+          "styles": [
+            "formal-script"
+          ]
+        },
+        {
+          "domain": "logo",
+          "year": 1886,
+          "circa": false,
+          "lag_years": 145,
+          "styles": [
+            "victorian-trademark"
+          ]
+        }
+      ],
+      "styles": [
+        "formal-script",
+        "victorian-trademark"
+      ]
+    },
+    {
       "id": "squash-and-stretch",
       "name": "Squash and stretch",
       "kind": "animation",
@@ -6605,6 +6719,40 @@
         "mid-century-modern-interior",
         "dopamine-decor",
         "memphis-interior"
+      ]
+    },
+    {
+      "id": "wood-type",
+      "name": "Wood type",
+      "kind": "process",
+      "origin": {
+        "domain": "typeface",
+        "year": 1828,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "typeface",
+          "year": 1828,
+          "circa": false,
+          "lag_years": 0,
+          "styles": [
+            "fat-face-display"
+          ]
+        },
+        {
+          "domain": "typeface",
+          "year": 1834,
+          "circa": true,
+          "lag_years": 6,
+          "styles": [
+            "slab-serif"
+          ]
+        }
+      ],
+      "styles": [
+        "fat-face-display",
+        "slab-serif"
       ]
     }
   ],
@@ -7998,7 +8146,9 @@
           "distance": 1.41
         }
       ],
-      "techniques": []
+      "techniques": [
+        "fixed-pitch-grid"
+      ]
     },
     "surrealism-web": {
       "evolved_from": [
@@ -8101,7 +8251,9 @@
           "distance": 1.41
         }
       ],
-      "techniques": []
+      "techniques": [
+        "fixed-pitch-grid"
+      ]
     },
     "aurora-gradient-ui": {
       "evolved_from": [
@@ -12043,7 +12195,9 @@
           "distance": 4
         }
       ],
-      "techniques": []
+      "techniques": [
+        "pointed-pen"
+      ]
     },
     "art-nouveau-monogram": {
       "evolved_from": [
@@ -12588,7 +12742,9 @@
           "distance": 3.61
         }
       ],
-      "techniques": []
+      "techniques": [
+        "broad-nib-pen"
+      ]
     },
     "garalde-old-style": {
       "evolved_from": [],
@@ -12622,7 +12778,9 @@
           "distance": 3.74
         }
       ],
-      "techniques": []
+      "techniques": [
+        "broad-nib-pen"
+      ]
     },
     "formal-script": {
       "evolved_from": [],
@@ -12652,7 +12810,9 @@
           "distance": 3.46
         }
       ],
-      "techniques": []
+      "techniques": [
+        "pointed-pen"
+      ]
     },
     "transitional-serif": {
       "evolved_from": [
@@ -12749,7 +12909,9 @@
           "distance": 3.46
         }
       ],
-      "techniques": []
+      "techniques": [
+        "wood-type"
+      ]
     },
     "slab-serif": {
       "evolved_from": [
@@ -12782,7 +12944,9 @@
           "distance": 4.12
         }
       ],
-      "techniques": []
+      "techniques": [
+        "wood-type"
+      ]
     },
     "grotesque-sans": {
       "evolved_from": [],
@@ -12847,7 +13011,9 @@
           "distance": 3.16
         }
       ],
-      "techniques": []
+      "techniques": [
+        "fixed-pitch-grid"
+      ]
     },
     "humanist-sans": {
       "evolved_from": [
@@ -12879,7 +13045,9 @@
           "distance": 2.65
         }
       ],
-      "techniques": []
+      "techniques": [
+        "broad-nib-pen"
+      ]
     },
     "geometric-sans": {
       "evolved_from": [],

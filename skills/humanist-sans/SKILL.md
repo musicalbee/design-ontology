@@ -136,6 +136,18 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Positive:** humanist sans-serif · gill sans style · open apertures · calligraphic proportions · friendly readable signage · warm modern typography · true italic · public transport lettering
 - **Negative:** geometric circles · closed apertures · serifs · condensed grotesque · decorative script
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Broad-nib pen (tool)
+
+A pen with a flat, square-cut tip held at a fixed angle, so the width of a stroke changes with its direction and the stress of the letter is diagonal. Origin: typeface, Mainz, c. 1454.
+
+- Hold the nib edge at 30–45° to the baseline and keep that angle for every stroke.
+- Make the stem width 4–5 nib widths of the x-height in a book hand and 3–4 in a broken hand.
+- Let the thin parts fall on the diagonal of the nib angle, so the o has its thinnest points at about 11 and 5 o'clock.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

@@ -136,6 +136,18 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Positive:** fat face · ultra-bold didone · extreme thick-thin contrast · ball terminals · victorian poster headline · magazine cover · black ink on cream paper · big tight headline
 - **Negative:** thin type · sans-serif · slab serif · script · long body text · wide letter spacing
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Wood type (process)
+
+Large display letters routed from end-grain wood instead of cast in metal, so posters and bills can use letters 5–50 cm high at a low cost. Origin: typeface, New York, 1828.
+
+- Use wood type for letters above about 72 pt, where metal is too heavy and too expensive.
+- Draw the faces to be loud at a distance: fat face, slab and condensed grotesque, in one weight per line.
+- Mix several faces and sizes on one bill and centre each line, as the job printers did.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

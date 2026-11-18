@@ -117,6 +117,18 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Positive:** Victorian trademark label · engraved cross-hatch shading · oval cartouche frame · ribbon banners · pictorial animal device · chromolithograph colours · deep red and dark blue with gold · cream paper ground · ornate scroll corners · 1880s printed label
 - **Negative:** letters · text · words · slogan · watermark · flat vector · minimal · gradient mesh
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Pointed pen (tool)
+
+A sharp, flexible steel or quill nib: pressure spreads the two tines for a swelling downstroke, and no pressure gives a hairline upstroke. Origin: typeface, London, 1741.
+
+- Slope the letters 50–55° from the baseline and keep one slope for the line.
+- Press only on the downstrokes, to 3–8 times the hairline width, and release on the upstrokes and the joins.
+- Join each lower-case letter to the next with a hairline from the baseline or the x-height.
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

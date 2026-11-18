@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "wood-type",
+  "name": "Wood type",
+  "aliases": [
+    "Poster type",
+    "End-grain wood letter"
+  ],
+  "kind": "process",
+  "summary": "Large display letters routed from end-grain wood instead of cast in metal, so posters and bills can use letters 5–50 cm high at a low cost.",
+  "how": [
+    "Use wood type for letters above about 72 pt, where metal is too heavy and too expensive.",
+    "Draw the faces to be loud at a distance: fat face, slab and condensed grotesque, in one weight per line.",
+    "Mix several faces and sizes on one bill and centre each line, as the job printers did."
+  ],
+  "origin": {
+    "domain": "typeface",
+    "year": 1828,
+    "where": "New York",
+    "note": "Darius Wells makes wood type in quantity with a routing machine, and the poster printers take it up at once."
+  },
+  "adoptions": [
+    {
+      "domain": "typeface",
+      "year": 1828,
+      "via": "The first wood type lines are fat faces copied from the London founders.",
+      "styles": [
+        "fat-face-display"
+      ]
+    },
+    {
+      "domain": "typeface",
+      "year": 1834,
+      "circa": true,
+      "via": "Wood type founders add Egyptian slabs and condensed letters for posters.",
+      "styles": [
+        "slab-serif"
+      ]
+    }
+  ],
+  "styles": [
+    "fat-face-display",
+    "slab-serif"
+  ],
+  "principles": [
+    "scale",
+    "hierarchy"
+  ],
+  "sources": [
+    {
+      "title": "Wood type (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Wood_type"
+    },
+    {
+      "title": "Fat face (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Fat_face"
+    }
+  ]
+}

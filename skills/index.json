@@ -3602,7 +3602,9 @@
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 2
       },
-      "techniques": []
+      "techniques": [
+        "fixed-pitch-grid"
+      ]
     },
     {
       "id": "surrealism-web",
@@ -3878,7 +3880,9 @@
         "skeuomorphic_realism": 1,
         "typographic_expressiveness": 3
       },
-      "techniques": []
+      "techniques": [
+        "fixed-pitch-grid"
+      ]
     },
     {
       "id": "aurora-gradient-ui",
@@ -10523,7 +10527,9 @@
         "letter_dominance": 3,
         "dimensionality": 4
       },
-      "techniques": []
+      "techniques": [
+        "pointed-pen"
+      ]
     },
     {
       "id": "art-nouveau-monogram",
@@ -11320,7 +11326,9 @@
         "width": 1,
         "serif_mass": 2
       },
-      "techniques": []
+      "techniques": [
+        "broad-nib-pen"
+      ]
     },
     {
       "id": "garalde-old-style",
@@ -11368,7 +11376,9 @@
         "width": 3,
         "serif_mass": 3
       },
-      "techniques": []
+      "techniques": [
+        "broad-nib-pen"
+      ]
     },
     {
       "id": "formal-script",
@@ -11415,7 +11425,9 @@
         "width": 2,
         "serif_mass": 1
       },
-      "techniques": []
+      "techniques": [
+        "pointed-pen"
+      ]
     },
     {
       "id": "transitional-serif",
@@ -11557,7 +11569,9 @@
         "width": 4,
         "serif_mass": 2
       },
-      "techniques": []
+      "techniques": [
+        "wood-type"
+      ]
     },
     {
       "id": "slab-serif",
@@ -11604,7 +11618,9 @@
         "width": 3,
         "serif_mass": 5
       },
-      "techniques": []
+      "techniques": [
+        "wood-type"
+      ]
     },
     {
       "id": "grotesque-sans",
@@ -11700,7 +11716,9 @@
         "width": 4,
         "serif_mass": 3
       },
-      "techniques": []
+      "techniques": [
+        "fixed-pitch-grid"
+      ]
     },
     {
       "id": "humanist-sans",
@@ -11749,7 +11767,9 @@
         "width": 3,
         "serif_mass": 1
       },
-      "techniques": []
+      "techniques": [
+        "broad-nib-pen"
+      ]
     },
     {
       "id": "geometric-sans",
@@ -11993,6 +12013,53 @@
       ]
     },
     {
+      "id": "broad-nib-pen",
+      "name": "Broad-nib pen",
+      "kind": "tool",
+      "origin": {
+        "domain": "typeface",
+        "year": 1454,
+        "circa": true,
+        "where": "Mainz",
+        "note": "The pen is older than print; Gutenberg cut his textura from the broad-nib book hand of the scribes, the first record of the pen in type."
+      },
+      "adoptions": [
+        {
+          "domain": "typeface",
+          "year": 1454,
+          "circa": true,
+          "via": "Gutenberg's textura for the 42-line Bible copies the broken broad-nib hand.",
+          "styles": [
+            "blackletter"
+          ],
+          "lag_years": 0
+        },
+        {
+          "domain": "typeface",
+          "year": 1470,
+          "via": "Nicolas Jenson cuts a roman with the diagonal stress of the humanist broad-nib hand.",
+          "styles": [
+            "garalde-old-style"
+          ],
+          "lag_years": 16
+        },
+        {
+          "domain": "typeface",
+          "year": 1916,
+          "via": "Edward Johnston, a calligrapher, draws the London Underground sans from broad-nib proportions.",
+          "styles": [
+            "humanist-sans"
+          ],
+          "lag_years": 462
+        }
+      ],
+      "styles": [
+        "blackletter",
+        "garalde-old-style",
+        "humanist-sans"
+      ]
+    },
+    {
       "id": "checkerboard",
       "name": "Checkerboard",
       "kind": "motif",
@@ -12077,6 +12144,43 @@
         "frutiger-aero",
         "material-design",
         "glassmorphism"
+      ]
+    },
+    {
+      "id": "fixed-pitch-grid",
+      "name": "Fixed-pitch grid",
+      "kind": "process",
+      "origin": {
+        "domain": "typeface",
+        "year": 1874,
+        "where": "Ilion, New York",
+        "note": "The Sholes and Glidden typewriter by E. Remington and Sons moves the carriage one fixed step for each key, so its type must be monospaced."
+      },
+      "adoptions": [
+        {
+          "domain": "typeface",
+          "year": 1874,
+          "via": "Typewriter faces, then Courier for IBM in 1955.",
+          "styles": [
+            "monospace"
+          ],
+          "lag_years": 0
+        },
+        {
+          "domain": "design",
+          "year": 1978,
+          "via": "Video terminals such as the DEC VT100 draw the whole screen as a grid of 80 by 24 character cells.",
+          "styles": [
+            "terminal-tui-web",
+            "dark-devtool-ui"
+          ],
+          "lag_years": 104
+        }
+      ],
+      "styles": [
+        "monospace",
+        "terminal-tui-web",
+        "dark-devtool-ui"
       ]
     },
     {
@@ -12428,6 +12532,41 @@
       ]
     },
     {
+      "id": "pointed-pen",
+      "name": "Pointed pen",
+      "kind": "tool",
+      "origin": {
+        "domain": "typeface",
+        "year": 1741,
+        "where": "London",
+        "note": "George Bickham's The Universal Penman engraves the roundhand of the English writing masters, the model for every later formal script."
+      },
+      "adoptions": [
+        {
+          "domain": "typeface",
+          "year": 1741,
+          "via": "Engraved copybooks of the writing masters, then metal scripts that copy the plates.",
+          "styles": [
+            "formal-script"
+          ],
+          "lag_years": 0
+        },
+        {
+          "domain": "logo",
+          "year": 1886,
+          "via": "Frank Mason Robinson writes the Coca-Cola wordmark in Spencerian, a pointed-pen hand.",
+          "styles": [
+            "victorian-trademark"
+          ],
+          "lag_years": 145
+        }
+      ],
+      "styles": [
+        "formal-script",
+        "victorian-trademark"
+      ]
+    },
+    {
       "id": "squash-and-stretch",
       "name": "Squash and stretch",
       "kind": "animation",
@@ -12578,6 +12717,42 @@
         "mid-century-modern-interior",
         "dopamine-decor",
         "memphis-interior"
+      ]
+    },
+    {
+      "id": "wood-type",
+      "name": "Wood type",
+      "kind": "process",
+      "origin": {
+        "domain": "typeface",
+        "year": 1828,
+        "where": "New York",
+        "note": "Darius Wells makes wood type in quantity with a routing machine, and the poster printers take it up at once."
+      },
+      "adoptions": [
+        {
+          "domain": "typeface",
+          "year": 1828,
+          "via": "The first wood type lines are fat faces copied from the London founders.",
+          "styles": [
+            "fat-face-display"
+          ],
+          "lag_years": 0
+        },
+        {
+          "domain": "typeface",
+          "year": 1834,
+          "circa": true,
+          "via": "Wood type founders add Egyptian slabs and condensed letters for posters.",
+          "styles": [
+            "slab-serif"
+          ],
+          "lag_years": 6
+        }
+      ],
+      "styles": [
+        "fat-face-display",
+        "slab-serif"
       ]
     }
   ]
