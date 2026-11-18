@@ -235,7 +235,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
 - **Mixes well with:** [`scrapbook-ui`](../scrapbook-ui/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
-- **Nearest by vector profile:** [`space-age`](../space-age/SKILL.md), [`synthwave-web`](../synthwave-web/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
+- **Nearest by vector profile:** [`cyberpunk-web`](../cyberpunk-web/SKILL.md), [`space-age`](../space-age/SKILL.md), [`synthwave-web`](../synthwave-web/SKILL.md)
 
 ## Emotional target
 

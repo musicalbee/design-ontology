@@ -207,8 +207,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`italian-neorealism`](../italian-neorealism/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`classical-hollywood`](../classical-hollywood/SKILL.md)
+- **Mixes well with:** [`one-take-oner`](../one-take-oner/SKILL.md)
 - **Kin in another domain:** [`new-topographics`](../new-topographics/SKILL.md)
-- **Nearest by vector profile:** [`italian-neorealism`](../italian-neorealism/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md), [`documentary-verite`](../documentary-verite/SKILL.md)
+- **Nearest by vector profile:** [`italian-neorealism`](../italian-neorealism/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md), [`one-take-oner`](../one-take-oner/SKILL.md)
 
 ## Emotional target
 

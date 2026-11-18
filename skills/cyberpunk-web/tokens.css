@@ -1,0 +1,109 @@
+/*
+ * Cyberpunk Web — tokens
+ * Generated from data/design/styles/cyberpunk-web.json by design-ontology. Do not edit.
+ * Use: put data-style="cyberpunk-web" on <html> or on any container.
+ */
+[data-style="cyberpunk-web"] {
+  --color-bg: #0A0B14;
+  --color-surface: #141626;
+  --color-text: #E8ECFF;
+  --color-muted: #9AA3C7;
+  --color-primary: #FF2E88;
+  --color-accent: #19E3F5;
+  --color-border: #2B3159;
+  --font-sans: "Share Tech Mono", "IBM Plex Mono", monospace;
+  --font-display: "Orbitron", "Chakra Petch", sans-serif;
+  --border-radius: 2px;
+  --border-width: 1px;
+  --shadow-elevation: 0 0 18px rgba(255,46,136,0.6);
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: steps(4, end);
+  --duration: 240ms;
+  --color-on-bg: #E8ECFF;
+  --color-on-surface: #E8ECFF;
+  --color-on-primary: #0A0B14;
+  --color-on-accent: #0A0B14;
+  --color-muted-on-bg: #9AA3C7;
+  --color-muted-on-surface: #9AA3C7;
+  --color-link: #19E3F5;
+  --color-link-on-surface: #19E3F5;
+  --display-weight: 700;
+  --subhead-weight: 600;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 600;
+  --display-tracking: 0.04em;
+  --display-leading: 1;
+  --display-case: uppercase;
+  --body-leading: 1.5;
+  --body-size: 15px;
+  --icon-stroke: 1.5;
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="cyberpunk-web"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="cyberpunk-web"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="cyberpunk-web"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="cyberpunk-web"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="cyberpunk-web"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="cyberpunk-web"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="cyberpunk-web"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="cyberpunk-web"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="cyberpunk-web"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="cyberpunk-web"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="cyberpunk-web"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="cyberpunk-web"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

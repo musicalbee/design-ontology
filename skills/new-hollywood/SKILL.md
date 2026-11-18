@@ -209,7 +209,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`hong-kong-action`](../hong-kong-action/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`classical-hollywood`](../classical-hollywood/SKILL.md)
 - **Kin in another domain:** [`street-photography`](../street-photography/SKILL.md)
-- **Nearest by vector profile:** [`creator-vlog`](../creator-vlog/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md), [`cinematic-fpv`](../cinematic-fpv/SKILL.md)
+- **Nearest by vector profile:** [`creator-vlog`](../creator-vlog/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md), [`phone-cinema`](../phone-cinema/SKILL.md)
 
 ## Emotional target
 

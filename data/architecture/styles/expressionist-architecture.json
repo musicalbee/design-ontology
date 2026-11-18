@@ -1,0 +1,295 @@
+{
+  "$schema": "../../../schema/domains/architecture.schema.json",
+  "id": "expressionist-architecture",
+  "domain": "architecture",
+  "name": "Expressionist Architecture",
+  "aliases": [
+    "Architectural Expressionism",
+    "German Expressionism in architecture",
+    "Glass Chain"
+  ],
+  "era_id": "fin-de-siecle",
+  "time_period": {
+    "start": 1910,
+    "end": 1925,
+    "label": "1910–1925"
+  },
+  "building_types": [
+    "cultural",
+    "commercial",
+    "industrial",
+    "religious"
+  ],
+  "summary": "Buildings shaped as one plastic gesture of feeling. After the First World War, Mendelsohn, Taut, Poelzig and Höger used brick, concrete and glass to make crystals, caves and flowing masses.",
+  "philosophy": {
+    "core_thesis": "A building should carry an inner feeling in its form: the architect sculpts one dynamic mass, and the plan and the facade follow that gesture.",
+    "design_principles": [
+      "Model the building as one continuous sculptural mass, with curved corners of radius 2 to 8m and no flat repeating wall.",
+      "Slope and fold the walls in diagonals of 60 to 80 degrees, so that the form seems to move.",
+      "Use brick, concrete or glass as a plastic material: cast, stacked or faceted, with no applied style.",
+      "Cut the openings as slots, triangles or bands that follow the form, not a grid.",
+      "Make an expressive crown or prow, 3 to 8m, that gives the building a single recognisable silhouette.",
+      "Treat daylight as a material: tint, split and concentrate it with glass, ribs and deep reveals."
+    ],
+    "anti_patterns": [
+      "A flat repeating grid of identical windows",
+      "Applied classical columns and cornices",
+      "A plain rectangular box with a flat roof",
+      "Decoration pasted on a neutral wall",
+      "Thin, even curtain-wall glazing",
+      "Right-angled corners with sharp edges everywhere"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "structural_expression": 3,
+    "geometric_rigidity": 1,
+    "material_rawness": 4,
+    "monumentality": 4
+  },
+  "massing": {
+    "form": "One sculpted mass of curved, folded and stepped volumes, with a crown or prow as the focus.",
+    "proportion": "Heavy and low or crystalline and tall, never a regular box; the plan is 1.5 to 3 times the height.",
+    "roof": "A moulded or stepped crown, a dome, a spire or a rolled parapet, without a plain flat roof.",
+    "relation_to_ground": "Rooted in a broad base of 1 to 2m, with the walls swelling out of the ground."
+  },
+  "structure": {
+    "system": "Brick, reinforced concrete or steel frame with a plastic skin, shaped by formwork and bricklayers.",
+    "span_and_module": "A span of 6 to 15m; a brick course of 0.07m; a column or rib every 3 to 4m.",
+    "expression": "The structure disappears into the form: the surface is the sculpture and the frame is hidden."
+  },
+  "materials": {
+    "primary": [
+      "clinker brick",
+      "cast concrete",
+      "stucco",
+      "coloured glass"
+    ],
+    "secondary": [
+      "steel",
+      "copper",
+      "tile",
+      "oak"
+    ],
+    "finish": "Plastic and heavy: dark brick, rendered concrete and tinted glass, shaped by hand and mould.",
+    "palette": [
+      {
+        "name": "Clinker brick",
+        "hex": "#4E2C23",
+        "role": "walls"
+      },
+      {
+        "name": "Concrete grey",
+        "hex": "#8E8C86",
+        "role": "masses and base"
+      },
+      {
+        "name": "Prussian blue",
+        "hex": "#1F3F5B",
+        "role": "glass and shadow"
+      },
+      {
+        "name": "Crystal white",
+        "hex": "#E9EEF0",
+        "role": "render and light"
+      },
+      {
+        "name": "Amber",
+        "hex": "#C98B2E",
+        "role": "glow and accents"
+      }
+    ]
+  },
+  "facade": {
+    "composition": "A single sweeping surface: the facade bends, folds or steps, and brick or render runs without a break.",
+    "openings": "Slots, triangles and bands that follow the curve; the window-to-wall ratio is 15 to 35%.",
+    "solid_to_void": "Mostly solid and heavy: 65–85% solid."
+  },
+  "light_and_space": {
+    "daylight": "Light falls through tinted glass, ribbed domes and slit windows, and makes a dim, coloured, theatrical space.",
+    "spatial_sequence": "A compressed entry opens into a high sculpted hall or stair, with curving ceilings and ribs.",
+    "interior_character": "A ceiling of 4 to 12m, curved walls and vault-like surfaces, stalactite plaster and coloured light."
+  },
+  "ornament": {
+    "attitude": "The form is the ornament: the mass, the brick pattern and the curved line carry all the expression.",
+    "details": [
+      "stalactite vaults",
+      "patterned clinker brick",
+      "crystal glass facets",
+      "curved corners",
+      "stepped crowns",
+      "tinted glass"
+    ]
+  },
+  "identity": {
+    "wikidata": "Q1148060"
+  },
+  "composition": {
+    "symmetry": "free",
+    "axis_count": 0,
+    "rhythm_module_m": 3.5,
+    "rules": [
+      {
+        "principle": "focal-point",
+        "rule": "Give the building one crown or prow that the eye reaches first.",
+        "value": "1 crown"
+      },
+      {
+        "principle": "leading-lines",
+        "rule": "Bend the brick courses and the ribs along the curve of the mass.",
+        "value": "60–80° diagonals"
+      },
+      {
+        "principle": "scale",
+        "rule": "Make the mass heavy and monumental against the street.",
+        "value": "height 15–40m"
+      },
+      {
+        "principle": "unity-variety",
+        "rule": "Hold one material and one gesture over the whole form.",
+        "value": "1 material"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Place tinted glass and slots to light the main hall from above.",
+        "value": "3 light sources"
+      },
+      {
+        "principle": "contrast",
+        "rule": "Set the dark solid mass against bright glass and render.",
+        "value": "solid 65–85%"
+      }
+    ]
+  },
+  "references": {
+    "images": [
+      {
+        "title": "Einstein Tower, Potsdam",
+        "credit": "Ideophagous",
+        "licence": "CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Einstein_Tower_(27086).jpg"
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "art-nouveau-architecture"
+    ],
+    "rebelled_against": [
+      "beaux-arts-architecture"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "german-expressionist-cinema"
+    ]
+  },
+  "emotion": {
+    "target_response": "Awe and unease: the viewer feels a charged, dramatic form that seems alive.",
+    "keywords": [
+      "dramatic",
+      "sculptural",
+      "heavy",
+      "crystalline",
+      "visionary",
+      "theatrical"
+    ],
+    "brand_archetypes": [
+      "magician",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "expressionist architecture",
+      "expressionism architecture",
+      "mendelsohn",
+      "einstein tower",
+      "chilehaus",
+      "glass chain",
+      "bruno taut",
+      "hans poelzig",
+      "sculptural brick",
+      "crystal building"
+    ],
+    "use_cases": [
+      "film set and game environment design",
+      "observatory and laboratory renders",
+      "brick office buildings",
+      "theatre and hall concepts"
+    ],
+    "avoid_when": [
+      "The brief needs a modular grid or a flexible plan.",
+      "The brief asks for calm, neutral architecture."
+    ],
+    "modifiers": [
+      {
+        "request": "less sculptural",
+        "toward": "bauhaus-architecture",
+        "how": "Straighten the curves into planes, open the walls to a rational grid and drop the dark brick for white render."
+      },
+      {
+        "request": "more ornate",
+        "toward": "art-deco-architecture",
+        "how": "Replace the plastic mass with stepped, symmetric forms and gilded geometric relief."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "sculptural brick mass",
+      "curved corners",
+      "stalactite vault",
+      "crystal glass dome",
+      "stepped crown",
+      "diagonal ribs",
+      "dark clinker brick",
+      "tinted glass slits",
+      "dramatic silhouette"
+    ],
+    "negative": [
+      "flat grid of windows",
+      "classical columns",
+      "plain white box",
+      "curtain wall",
+      "pitched tile roof",
+      "pastel colours"
+    ],
+    "canonical_works": [
+      {
+        "work": "Glass Pavilion, Cologne",
+        "architect": "Bruno Taut",
+        "year": 1914
+      },
+      {
+        "work": "First Goetheanum, Dornach",
+        "architect": "Rudolf Steiner",
+        "year": 1913
+      },
+      {
+        "work": "Grosses Schauspielhaus, Berlin",
+        "architect": "Hans Poelzig",
+        "year": 1919
+      },
+      {
+        "work": "Einstein Tower, Potsdam",
+        "architect": "Erich Mendelsohn",
+        "year": 1921
+      },
+      {
+        "work": "Hat Factory, Luckenwalde",
+        "architect": "Erich Mendelsohn",
+        "year": 1923
+      },
+      {
+        "work": "Chilehaus, Hamburg",
+        "architect": "Fritz Höger",
+        "year": 1924
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wolfgang Pehnt, Expressionist Architecture (Thames and Hudson, 1973)"
+    }
+  ]
+}

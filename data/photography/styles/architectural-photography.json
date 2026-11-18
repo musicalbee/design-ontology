@@ -1,0 +1,272 @@
+{
+  "$schema": "../../../schema/domains/photography.schema.json",
+  "id": "architectural-photography",
+  "name": "Architectural photography",
+  "aliases": [
+    "Building photography",
+    "Modernist architecture photography"
+  ],
+  "era_id": "commercial-and-staged",
+  "time_period": {
+    "start": 1930,
+    "end": null,
+    "label": "1930s–today"
+  },
+  "process": [
+    "analogue-colour",
+    "digital"
+  ],
+  "summary": "Photographs of buildings with upright lines, clean light and a chosen hour. The picture shows the form, the material and the way a building sits in its place.",
+  "philosophy": {
+    "core_thesis": "A building is judged in a picture, so the picture must keep its lines true and choose the light that shows its form.",
+    "design_principles": [
+      "Use a tilt-shift lens of 24mm to 45mm, or a view camera, and keep the camera back parallel to the facade, so that verticals stay at 0°.",
+      "Stop down to f/11 to f/16 at ISO 100, on a tripod, with a shutter of 1/15s to 2s.",
+      "Choose the hour: low sun at 15° to 30° for a facade, or blue hour with interior lamps lit for a glow.",
+      "Shoot at 1.5m height for a plan view of the facade, or raise to 3m to 6m for a clean top line.",
+      "Keep people small or absent; use a figure at 1/20 of the frame height for scale.",
+      "Grade to neutral colour: keep the true tone of the material, and keep shadow detail."
+    ],
+    "anti_patterns": [
+      "Converging verticals from a tilted camera",
+      "Wide-angle distortion below 17mm",
+      "Flat grey light with no shadow modelling",
+      "Heavy HDR halos",
+      "Cars and signs that block the form",
+      "Colour casts that change the material"
+    ]
+  },
+  "vectors": {
+    "staging": 4,
+    "tonal_contrast": 3,
+    "colour_saturation": 2,
+    "depth_of_field": 1,
+    "proximity": 1
+  },
+  "composition": {
+    "framing": "Complete and level; the building sits whole or in a bold crop with true verticals.",
+    "viewpoint": "Level at 1.5m to 3m, 10m to 60m from the facade; the camera is square or at a 30° to 45° corner view.",
+    "geometry": "Verticals, horizontals and receding diagonals; the grid of the facade sets the rhythm.",
+    "subject_placement": "Centred for a frontal view, or on a third for a corner view; sky takes 15–30%.",
+    "principles": [
+      {
+        "principle": "symmetry-axis",
+        "rule": "Place the axis of a frontal facade at 0.5 of the width, within 0.02."
+      },
+      {
+        "principle": "leading-lines",
+        "rule": "Use 2 to 4 receding lines from a wall or a path that meet at one vanishing point."
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Repeat the bay or the window at a constant pitch, with 6 to 30 repeats across the frame."
+      },
+      {
+        "principle": "negative-space",
+        "rule": "Leave 15–30% of the frame as sky and 10–20% as ground."
+      },
+      {
+        "principle": "proportion",
+        "rule": "Keep the 4:5 or 3:2 frame and a facade that fills 70–85% of the height."
+      }
+    ]
+  },
+  "light": {
+    "quality": "Clear and directional for form; soft and even for a dusk glow.",
+    "direction": "Low sun from the side at 15° to 30° elevation; at blue hour, interior lamps at 3000K against a sky at 7000K.",
+    "key_to_fill_ratio": "3:1 to 4:1 on a facade; 1:1 at blue hour",
+    "colour_temperature": "5500K (sun); mixed 3000K and 7000K at dusk",
+    "time_of_day": "One to two hours after sunrise, one hour before sunset, or blue hour"
+  },
+  "lens_and_camera": {
+    "format": "View camera 4×5 in, or digital full frame or medium format with tilt-shift",
+    "focal_length": "24mm to 45mm (tilt-shift); 90mm to 135mm (4×5 in)",
+    "aperture": "f/11 to f/16",
+    "shutter": "1/15s to 2s",
+    "film_speed": "ISO 100",
+    "focus": "Focus one third into the scene; the depth of field covers 10m to infinity.",
+    "support": "Heavy tripod with a geared head and a spirit level",
+    "equipment": [
+      "tilt-shift lens",
+      "tripod with geared head",
+      "spirit level",
+      "polarising filter",
+      "wireless release"
+    ]
+  },
+  "colour_and_grade": {
+    "treatment": "Neutral colour with true material tone and open shadows; a quiet blue sky.",
+    "palette": [
+      {
+        "name": "Concrete",
+        "hex": "#8C8D8A",
+        "role": "wall"
+      },
+      {
+        "name": "Glass blue",
+        "hex": "#6E8CA6",
+        "role": "glass and sky"
+      },
+      {
+        "name": "Warm lamp",
+        "hex": "#E3B26A",
+        "role": "interior glow"
+      },
+      {
+        "name": "Shadow slate",
+        "hex": "#2F3338",
+        "role": "depth"
+      }
+    ],
+    "grade_recipe": [
+      "Set the white balance at 5500K, tint 0.",
+      "Set the black point at 2% and the white point at 97%.",
+      "Lift shadows by +20 and lower highlights by −15.",
+      "Correct verticals and horizontals to 0° and keep the original crop at 95% or more.",
+      "Lower saturation by −5% and keep the material hue true.",
+      "Blend 2 or 3 exposures by hand for the windows; no automatic HDR."
+    ],
+    "grain": "None: ISO 100, clean"
+  },
+  "subject_and_staging": {
+    "subjects": [
+      "facades",
+      "stairs and atria",
+      "bridges and towers",
+      "courtyards",
+      "details of material and joint",
+      "buildings at blue hour"
+    ],
+    "staging": "Prepared: clear cars and bins, switch on interior lights, and wait for a clear sky and the hour.",
+    "direction": "Place a single person at 1/20 of the frame height on a route line for scale."
+  },
+  "post_processing": {
+    "workflow": [
+      "Shoot a bracket of 3 to 5 frames at ±1 stop.",
+      "Blend windows and sky by hand.",
+      "Correct perspective to 0° and clean up distractions.",
+      "Export at 4:5 and 3:2, sRGB, 3000px on the long edge."
+    ],
+    "output": "A true-line, evenly graded building image for a magazine, a monograph or a practice site."
+  },
+  "prompt_primer": {
+    "positive": [
+      "architectural photograph",
+      "tilt-shift lens",
+      "perfectly vertical lines",
+      "low golden sun on the facade",
+      "blue hour with lit interior",
+      "f/11",
+      "tripod",
+      "clean concrete and glass",
+      "no distortion",
+      "neutral colour"
+    ],
+    "negative": [
+      "converging verticals",
+      "fisheye",
+      "HDR halo",
+      "flat grey sky",
+      "tilted camera",
+      "cars in front",
+      "oversaturated"
+    ],
+    "canonical_works": [
+      {
+        "work": "Case Study House #22 (Stahl House)",
+        "maker": "Julius Shulman",
+        "year": 1960
+      },
+      {
+        "work": "Solomon R. Guggenheim Museum",
+        "maker": "Ezra Stoller",
+        "year": 1959
+      },
+      {
+        "work": "Seagram Building",
+        "maker": "Ezra Stoller",
+        "year": 1958
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "new-objectivity",
+      "straight-photography"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "scandinavian-interior-photography"
+    ],
+    "echoes": [
+      "international-style-architecture",
+      "mid-century-modern-architecture",
+      "brutalist-architecture",
+      "bauhaus-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Calm admiration: the viewer sees the order and the light of a place and wants to be there.",
+    "keywords": [
+      "upright",
+      "exact",
+      "luminous",
+      "ordered",
+      "spatial"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "architectural photography",
+      "tilt-shift",
+      "building photograph",
+      "facade shot",
+      "julius shulman",
+      "ezra stoller",
+      "blue hour building"
+    ],
+    "use_cases": [
+      "practice portfolios and monographs",
+      "magazine features on buildings",
+      "real-estate and development marketing",
+      "image prompts for true-line building views"
+    ],
+    "avoid_when": [
+      "The brief needs candid street life around the building.",
+      "The only lens is a wide-angle phone camera with no correction."
+    ],
+    "modifiers": [
+      {
+        "request": "more cool and serial",
+        "toward": "duesseldorf-school",
+        "how": "Use flat overcast light at 1.5:1, a frontal level view and a series of 20 or more of one building type; print large."
+      },
+      {
+        "request": "warmer and more lived-in",
+        "toward": "scandinavian-interior-photography",
+        "how": "Go inside with window light at 2:1, a 24mm tilt-shift at f/8 and 3 to 5 styled objects; keep the verticals at 0°."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q635309: architectural photography",
+      "url": "https://www.wikidata.org/wiki/Q635309"
+    },
+    {
+      "title": "Wikidata Q1352701: Julius Shulman",
+      "url": "https://www.wikidata.org/wiki/Q1352701"
+    },
+    {
+      "title": "Julius Shulman, Photographing Architecture and Interiors (Whitney Library of Design, 1962)"
+    },
+    {
+      "title": "Ezra Stoller, The Seagram Building (Princeton Architectural Press, 1999)"
+    }
+  ],
+  "domain": "photography"
+}

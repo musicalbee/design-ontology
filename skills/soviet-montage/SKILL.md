@@ -218,6 +218,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more mood**: move toward [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md) (German Expressionist cinema). Keep the black and white and the low angles; cut to an average of 6 to 10 s, add one hard key and painted shadows.
 
 - **Led to (go here for a newer version):** [`documentary-verite`](../documentary-verite/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md)
+- **Was rejected by:** [`one-take-oner`](../one-take-oner/SKILL.md)
 - **Kin in another domain:** [`constructivism-web`](../constructivism-web/SKILL.md)
 - **Nearest by vector profile:** [`vertical-short-form`](../vertical-short-form/SKILL.md), [`classical-hollywood`](../classical-hollywood/SKILL.md), [`hong-kong-action`](../hong-kong-action/SKILL.md)
 

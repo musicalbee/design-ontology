@@ -166,9 +166,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more severe**: move toward [`new-objectivity`](../new-objectivity/SKILL.md) (New Objectivity photography). Remove all soft styling, use f/32 on a view camera, and show the room as a frontal plate in black and white.
 
 - **Came from (go here for a more orthodox version):** [`new-objectivity`](../new-objectivity/SKILL.md)
-- **Mixes well with:** [`fashion-editorial`](../fashion-editorial/SKILL.md)
+- **Mixes well with:** [`architectural-photography`](../architectural-photography/SKILL.md), [`fashion-editorial`](../fashion-editorial/SKILL.md)
 - **Kin in another domain:** [`japandi-interior`](../japandi-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
-- **Nearest by vector profile:** [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
+- **Nearest by vector profile:** [`architectural-photography`](../architectural-photography/SKILL.md), [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md)
 
 ## Emotional target
 

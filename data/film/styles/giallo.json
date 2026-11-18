@@ -1,0 +1,322 @@
+{
+  "$schema": "../../../schema/domains/film.schema.json",
+  "id": "giallo",
+  "name": "Giallo",
+  "aliases": [
+    "Italian thriller",
+    "Italian murder mystery"
+  ],
+  "era_id": "new-waves",
+  "time_period": {
+    "start": 1963,
+    "end": 1985,
+    "label": "1963–1985"
+  },
+  "capture": [
+    "photochemical"
+  ],
+  "summary": "An Italian murder film in saturated colour. A killer in black gloves is seen only as a hand and a blade. The camera moves as the killer sees, and the set glows in red, blue and green gels.",
+  "philosophy": {
+    "core_thesis": "Saturated gel light, a killer's-eye camera and a stylised set make the murder a piece of design, so fear comes from the look more than from the plot.",
+    "design_principles": [
+      "Light with coloured gels in red, blue and green, and mix 2 saturated colours in one frame.",
+      "Show the killer as a gloved hand, a coat and a blade, and keep the face off screen until the last reel.",
+      "Put the camera at the killer's point of view, and move it by 0.3 to 1 m/s through a door or a window.",
+      "Shoot each murder as a set piece of 60 to 180 s, with a wide lens of 18mm to 24mm and a slow build.",
+      "Use a bold set, with a wallpaper, a statue, a mirror or a painting in the frame.",
+      "Hold a close-up of an eye, a key or a glass for 1 to 3 s as a clue.",
+      "Dub all sound after the shoot and let the score run loud over the murder."
+    ],
+    "anti_patterns": [
+      "A neutral, realistic set",
+      "Flat natural colour",
+      "A killer shown in the open from the start",
+      "A quiet, silent murder",
+      "A tidy police procedural",
+      "A plot that explains all the clues"
+    ]
+  },
+  "vectors": {
+    "camera_mobility": 4,
+    "cutting_rate": 3,
+    "staging": 5,
+    "grade_stylisation": 5,
+    "frame_width": 4
+  },
+  "composition": {
+    "framing": "A wide 2.35:1 or 1.85:1 frame with a saturated wall, a mirror or a painting that sets a second frame; a black glove at the frame edge.",
+    "staging_in_depth": "3 planes: a foreground object or a glove, the victim, and a coloured wall or window at the back.",
+    "subject_placement": "The victim off the centre at 1/3; the killer's hand enters from the frame edge.",
+    "principles": [
+      {
+        "principle": "colour-distribution",
+        "rule": "Fill the frame with one gel colour and put a second gel colour in the shadow.",
+        "value": "2 gel colours, 60% / 30% / 10% with a black accent"
+      },
+      {
+        "principle": "contrast",
+        "rule": "Pair a saturated coloured wash with a deep black shadow.",
+        "value": "7 to 9 stops, bright to black"
+      },
+      {
+        "principle": "focal-point",
+        "rule": "Draw the eye to the weapon or the eye with the one bright spot in the frame.",
+        "value": "1 focal point, 3:1 over its surround"
+      },
+      {
+        "principle": "sightlines",
+        "rule": "Put the lens where the killer stands, and keep it at the height of the eye.",
+        "value": "1.5 to 1.7 m, 1 point-of-view move per scene"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Slow the cut as the killer nears, then cut fast at the blow.",
+        "value": "6 to 10 s build, 0.5 to 1 s at the blow"
+      }
+    ]
+  },
+  "camera_and_movement": {
+    "movement": "A gliding point-of-view dolly or crane through a flat; a fast zoom to the victim's eye; a swirl around a room.",
+    "support": "Dolly, crane and a handheld rig for the point-of-view moves",
+    "camera_height": "1.5 to 1.7 m for the killer's view; 0.5 to 1.0 m for a victim on the floor",
+    "move_speed": "0.3 to 1 m/s dolly"
+  },
+  "lens_and_format": {
+    "aspect_ratio": "2.35:1 or 1.85:1",
+    "frame_rate": "24 fps",
+    "shutter_angle": "180° (1/48 s)",
+    "focal_length": "18mm to 24mm wide; 85mm to 135mm for an eye close-up",
+    "aperture": "f/4 to f/8",
+    "resolution": "35mm colour negative; scan at 2K or 4K",
+    "focus": "Deep focus in wide shots, a shallow focus on the eye",
+    "equipment": [
+      "35mm camera",
+      "coloured gels in red, blue and green",
+      "a crane or a dolly",
+      "a zoom lens"
+    ]
+  },
+  "light": {
+    "quality": "Hard coloured light from a gel on a lamp, with a deep black shadow.",
+    "direction": "From a window or a lamp in the set, from the side or below.",
+    "key_to_fill_ratio": "6:1 or higher",
+    "colour_temperature": "Mixed: 3200K tungsten with red, blue or green gels",
+    "source": "Gelled lamps, a neon sign and a lit window"
+  },
+  "colour_and_grade": {
+    "treatment": "A saturated colour print where red, blue and green wash a whole wall, with black shadow.",
+    "palette": [
+      {
+        "name": "Blood red",
+        "hex": "#B3141C",
+        "role": "gel and blood"
+      },
+      {
+        "name": "Gel blue",
+        "hex": "#1F3FB8",
+        "role": "gel wash"
+      },
+      {
+        "name": "Gel green",
+        "hex": "#1E8A55",
+        "role": "second wash"
+      },
+      {
+        "name": "Glove black",
+        "hex": "#0A0A0B",
+        "role": "killer and shadow"
+      }
+    ],
+    "grade_recipe": [
+      "Raise the saturation by 25% to 40% in red, blue and green.",
+      "Set the black point at 3% and use a contrast curve of +25%.",
+      "Keep the whites tinted by the gel; do not neutralise them.",
+      "Add grain at 15% to 20%.",
+      "Do not add a teal and orange split."
+    ],
+    "texture": "35mm grain at 15% to 20%, with a hard gel wash"
+  },
+  "editing_and_rhythm": {
+    "average_shot_length": "5 to 9 s (estimate; check Cinemetrics for each title)",
+    "shot_length_range": "0.5 s for a blow to 60 s for a stalk",
+    "cutting_logic": "Build a murder in 3 beats: stalk, strike and the clue; cut to the score and end on an eye or a mirror.",
+    "transitions": "Hard cut, a snap zoom and a short dissolve for a flashback.",
+    "runtime": "90 to 110 min"
+  },
+  "sound": {
+    "approach": "Post-synchronised sound with loud steps, breath and a knife; the dub is in several languages.",
+    "dialogue": "Short and stiff; clues come in a line or an object.",
+    "music": "A loud, rhythmic score with a rock band, a choir and a keyboard.",
+    "loudness": "−23 LUFS integrated, with loud peaks at the murder"
+  },
+  "titles_and_graphics": {
+    "treatment": "A bold title over a painted or a coloured graphic; a knife or an eye in the card.",
+    "type": "A bold sans-serif or a script in red and white, 3 to 5 s per card."
+  },
+  "shot_primer": {
+    "opening": "Open on a gloved hand and a blade in the first 30 s, with a loud score and no face.",
+    "shot_list": [
+      {
+        "shot": "Black glove takes a knife",
+        "size": "insert",
+        "lens": "50mm",
+        "movement": "static",
+        "seconds": 3
+      },
+      {
+        "shot": "Point-of-view walk down a corridor",
+        "size": "medium",
+        "lens": "24mm",
+        "movement": "handheld glide 0.5 m/s",
+        "seconds": 10
+      },
+      {
+        "shot": "Victim lit in a red wash",
+        "size": "medium",
+        "lens": "24mm",
+        "movement": "slow push-in",
+        "seconds": 8
+      },
+      {
+        "shot": "Eye close-up with a reflection",
+        "size": "extreme close-up",
+        "lens": "100mm",
+        "movement": "static",
+        "seconds": 3
+      },
+      {
+        "shot": "Mirror and statue in the room",
+        "size": "wide",
+        "lens": "18mm",
+        "movement": "slow dolly 0.3 m/s",
+        "seconds": 8
+      },
+      {
+        "shot": "Blow and a snap zoom",
+        "size": "medium",
+        "lens": "35mm",
+        "movement": "fast zoom 1 s",
+        "seconds": 2
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "italian giallo",
+      "saturated red blue gel light",
+      "black gloved killer",
+      "point of view camera glide",
+      "stylised set with a statue and a painting",
+      "extreme close-up of an eye",
+      "loud rock score",
+      "2.35:1 frame",
+      "35mm grain"
+    ],
+    "negative": [
+      "natural colour",
+      "neutral set",
+      "police procedural",
+      "quiet murder",
+      "teal and orange",
+      "smooth gimbal"
+    ],
+    "canonical_works": [
+      {
+        "work": "Blood and Black Lace",
+        "maker": "Mario Bava",
+        "year": 1964
+      },
+      {
+        "work": "The Bird with the Crystal Plumage",
+        "maker": "Dario Argento",
+        "year": 1970
+      },
+      {
+        "work": "Deep Red",
+        "maker": "Dario Argento",
+        "year": 1975
+      },
+      {
+        "work": "Suspiria",
+        "maker": "Dario Argento",
+        "year": 1977
+      },
+      {
+        "work": "The Girl Who Knew Too Much",
+        "maker": "Mario Bava",
+        "year": 1963
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "german-expressionist-cinema"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "spaghetti-western"
+    ],
+    "echoes": [
+      "psychedelic"
+    ]
+  },
+  "emotion": {
+    "target_response": "Dread and delight: the viewer feels fear in a beautiful set and cannot look away from the colour.",
+    "keywords": [
+      "lurid",
+      "stylised",
+      "saturated",
+      "sinister",
+      "operatic"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "magician"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "giallo",
+      "italian thriller",
+      "argento",
+      "bava",
+      "gel lit horror",
+      "killer in black gloves"
+    ],
+    "use_cases": [
+      "horror and thriller video prompts",
+      "fashion and perfume films with a dark mood",
+      "music videos with coloured light",
+      "game and poster art direction"
+    ],
+    "avoid_when": [
+      "The brief needs a calm, real or clinical look.",
+      "The scene needs even light for a product or a demo."
+    ],
+    "modifiers": [
+      {
+        "request": "more noir",
+        "toward": "film-noir",
+        "how": "Drop the gels; shoot in black and white with one hard key and a voice-over."
+      },
+      {
+        "request": "more neon",
+        "toward": "neon-noir",
+        "how": "Replace the gels with signs and street light, and move the story to a modern night city."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Giallo",
+      "url": "https://en.wikipedia.org/wiki/Giallo"
+    },
+    {
+      "title": "Mikel J. Koven, La Dolce Morte: Vernacular Cinema and the Italian Giallo Film (Scarecrow Press, 2006)"
+    },
+    {
+      "title": "Troy Howarth, So Deadly, So Perverse: 50 Years of Italian Giallo Films (Midnight Marquee Press, 2015)"
+    }
+  ],
+  "domain": "film"
+}

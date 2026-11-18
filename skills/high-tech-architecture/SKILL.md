@@ -180,7 +180,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`international-style-architecture`](../international-style-architecture/SKILL.md)
 - **Mixes well with:** [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md)
 - **Kin in another domain:** [`cassette-futurism`](../cassette-futurism/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`space-age`](../space-age/SKILL.md)
-- **Nearest by vector profile:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md)
+- **Nearest by vector profile:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`mass-timber-architecture`](../mass-timber-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md)
 
 ## Emotional target
 

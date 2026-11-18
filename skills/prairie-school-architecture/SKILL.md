@@ -180,9 +180,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - If the user asks for **more modern**: move toward [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md) (Mid-century Modern). Swap the brick for timber and glass, open the window bands to full-height glass and keep the deep eave and the hearth.
 
-- **Led to (go here for a newer version):** [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md)
+- **Led to (go here for a newer version):** [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md), [`organic-architecture`](../organic-architecture/SKILL.md)
 - **Kin in another domain:** [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md)
-- **Nearest by vector profile:** [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md), [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md), [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md)
+- **Nearest by vector profile:** [`critical-regionalism-architecture`](../critical-regionalism-architecture/SKILL.md), [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md)
 
 ## Emotional target
 
