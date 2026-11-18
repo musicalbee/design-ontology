@@ -234,6 +234,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
 - **Led to (go here for a newer version):** [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md)
 - **Was rejected by:** [`dopamine-decor`](../dopamine-decor/SKILL.md)
+- **Kin in another domain:** [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md)
 - **Nearest by vector profile:** [`scandinavian-interior`](../scandinavian-interior/SKILL.md), [`shaker-interior`](../shaker-interior/SKILL.md), [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md)
 
 ## Emotional target

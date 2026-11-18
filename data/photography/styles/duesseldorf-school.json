@@ -1,0 +1,274 @@
+{
+  "$schema": "../../../schema/domains/photography.schema.json",
+  "id": "duesseldorf-school",
+  "name": "Düsseldorf School",
+  "aliases": [
+    "Becher school",
+    "Typological photography"
+  ],
+  "era_id": "colour-and-topography",
+  "time_period": {
+    "start": 1976,
+    "end": null,
+    "label": "1976–today"
+  },
+  "process": [
+    "analogue-colour",
+    "digital"
+  ],
+  "summary": "Large, cool, frontal colour pictures of buildings, rooms, crowds and landscapes in fine detail. The method comes from the Bechers' typologies, and the scale comes from the museum wall.",
+  "philosophy": {
+    "core_thesis": "Seen without drama and in great detail, an ordinary place becomes a map of the way we live.",
+    "design_principles": [
+      "Use a 4×5 in or digital medium format camera, with a lens of 90mm to 150mm.",
+      "Photograph in flat grey light with a shadow ratio of 1.5:1 or less, and with no people posed.",
+      "Keep the camera level and square to the subject, so that verticals stay vertical.",
+      "Use a viewpoint raised by 3 to 20m, or a straight-on view at 1.5m, and hold it for the whole series.",
+      "Print large: 1.5m to 3m on the long edge, with sharpness from edge to edge.",
+      "Work in series of 20 or more, so that the type is the subject."
+    ],
+    "anti_patterns": [
+      "Dramatic skies and golden-hour light",
+      "Tilted horizons and wide-angle distortion",
+      "Saturation boosted past the scene",
+      "Picturesque framing that invites a story",
+      "One-off hero images with no series",
+      "Heavy vignette"
+    ]
+  },
+  "vectors": {
+    "staging": 3,
+    "tonal_contrast": 2,
+    "colour_saturation": 3,
+    "depth_of_field": 1,
+    "proximity": 1
+  },
+  "composition": {
+    "framing": "Frontal and complete; the subject sits whole in the frame with a margin of sky or ground.",
+    "viewpoint": "Level, often raised by 3 to 20m; the camera sits square to the plane of the subject.",
+    "geometry": "A grid of windows, shelves, boxes or people; repeats make the picture.",
+    "subject_placement": "Centred or on a strict grid line, with a margin of 10–25% on each side.",
+    "principles": [
+      {
+        "principle": "symmetry-axis",
+        "rule": "Set the main axis at 0.5 of the width, within 0.02."
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Repeat a window, shelf or figure at one constant pitch, with 12 to 60 repeats in the frame."
+      },
+      {
+        "principle": "proportion",
+        "rule": "Keep the 4:5 or 5:4 ratio of the plate, with no crop."
+      },
+      {
+        "principle": "negative-space",
+        "rule": "Leave 10–25% of the frame as sky or ground."
+      },
+      {
+        "principle": "unity-variety",
+        "rule": "Hold one distance, one height and one light across 20 to 100 prints."
+      }
+    ]
+  },
+  "light": {
+    "quality": "Flat, soft and overcast: no cast shadow edges.",
+    "direction": "Overhead and omnidirectional under cloud",
+    "key_to_fill_ratio": "1.5:1 or less (under 1 stop)",
+    "colour_temperature": "6500K (overcast daylight)",
+    "time_of_day": "Midday under an even grey sky"
+  },
+  "lens_and_camera": {
+    "format": "4×5 in or 8×10 in sheet film; digital medium format at 100 megapixels",
+    "focal_length": "90mm to 150mm (large format); 45mm to 80mm (medium format)",
+    "aperture": "f/22 to f/32",
+    "shutter": "1/4s to 4s",
+    "film_speed": "ISO 100 (Portra 160)",
+    "focus": "Focus at one third into the scene; the depth of field covers the full subject.",
+    "support": "Heavy tripod",
+    "equipment": [
+      "view camera or medium format camera",
+      "tripod",
+      "cherry-picker or scaffold for height",
+      "light meter"
+    ]
+  },
+  "colour_and_grade": {
+    "treatment": "Neutral colour, slightly cool, with no creative grade; the surfaces keep their local tint.",
+    "palette": [
+      {
+        "name": "Overcast grey",
+        "hex": "#B8BCC0",
+        "role": "sky and ground"
+      },
+      {
+        "name": "Concrete",
+        "hex": "#8E9093",
+        "role": "surfaces"
+      },
+      {
+        "name": "Facade blue",
+        "hex": "#5F7A93",
+        "role": "accent"
+      },
+      {
+        "name": "Signal red",
+        "hex": "#B33A32",
+        "role": "small accent"
+      }
+    ],
+    "grade_recipe": [
+      "Set the white balance at 6500K, tint 0.",
+      "Set the black point at 3% and the white point at 96%.",
+      "Apply +5% midtone contrast, and no more.",
+      "Reduce saturation by 5% overall and keep local hues exact.",
+      "Correct lens vertical and horizontal lines to 0°.",
+      "Add no grain, no vignette and no sharpening halo."
+    ],
+    "grain": "None: fine detail, sharp across the whole plate"
+  },
+  "subject_and_staging": {
+    "subjects": [
+      "industrial towers",
+      "apartment blocks",
+      "libraries and stock exchanges",
+      "crowds in a hall",
+      "portraits against grey",
+      "landscapes from a raised view"
+    ],
+    "staging": "Minimal. The maker picks the place, the hour and the grey light, and then removes the weather and the anecdote.",
+    "direction": "For a portrait: a neutral face, a straight stance and a grey ground; no smile."
+  },
+  "post_processing": {
+    "workflow": [
+      "Scan the sheet at 4000 dpi or capture at the sensor's base ISO.",
+      "Correct geometry to 0° and colour to neutral grey.",
+      "Print as a C-type or pigment print on a face-mounted sheet, 1.5 to 3m wide.",
+      "Hang as a grid of one type with 6 to 20 prints."
+    ],
+    "output": "A very large, sharp colour print or a grid of typology prints."
+  },
+  "prompt_primer": {
+    "positive": [
+      "Düsseldorf School photograph",
+      "large format 4x5",
+      "flat overcast light",
+      "frontal composition",
+      "level camera",
+      "raised viewpoint",
+      "neutral colour",
+      "museum scale print",
+      "typology",
+      "grid of windows"
+    ],
+    "negative": [
+      "dramatic sky",
+      "golden hour",
+      "tilted horizon",
+      "wide-angle distortion",
+      "HDR",
+      "vignette",
+      "people posing"
+    ],
+    "canonical_works": [
+      {
+        "work": "Pitheads",
+        "maker": "Bernd and Hilla Becher",
+        "year": 1974
+      },
+      {
+        "work": "Paris, Montparnasse",
+        "maker": "Andreas Gursky",
+        "year": 1993
+      },
+      {
+        "work": "Museo del Prado 1",
+        "maker": "Thomas Struth",
+        "year": 2005
+      },
+      {
+        "work": "Rhein II",
+        "maker": "Andreas Gursky",
+        "year": 1999
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "new-topographics",
+      "new-objectivity"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "new-colour"
+    ],
+    "echoes": [
+      "international-style-architecture",
+      "brutalist-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Detached awe: the viewer is calm and sees a pattern in an ordinary scene.",
+    "keywords": [
+      "frontal",
+      "large",
+      "cool",
+      "typological",
+      "exact"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "düsseldorf school",
+      "becher",
+      "gursky",
+      "struth",
+      "typology",
+      "large format colour",
+      "museum-scale photograph"
+    ],
+    "use_cases": [
+      "architectural and industrial documentation",
+      "annual-report imagery with a cool authority",
+      "fine-art series",
+      "image prompts for flat, frontal, grid-based scenes"
+    ],
+    "avoid_when": [
+      "The brief needs a hero moment, warm light or a person with a story.",
+      "The final size is small, where the detail is lost."
+    ],
+    "modifiers": [
+      {
+        "request": "warmer and more personal",
+        "toward": "new-colour",
+        "how": "Use a 35mm or 6×7 camera at 1–3m, in saturated slide film at ISO 100, in warm low sun with a close subject."
+      },
+      {
+        "request": "more plain and modest",
+        "toward": "new-topographics",
+        "how": "Go back to black and white at 4×5, f/32, with no person in the frame; keep the 4:5 ratio and the low sun at 15° elevation."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikidata Q1272382: Düsseldorf School of Photography",
+      "url": "https://www.wikidata.org/wiki/Q1272382"
+    },
+    {
+      "title": "Wikidata Q705085: Bernd and Hilla Becher",
+      "url": "https://www.wikidata.org/wiki/Q705085"
+    },
+    {
+      "title": "Bernd and Hilla Becher, Typologies of Industrial Buildings (MIT Press, 1990)"
+    },
+    {
+      "title": "Andreas Gursky, Andreas Gursky: Photographs from 1984 to the Present (Schirmer/Mosel, 1998)"
+    }
+  ],
+  "domain": "photography"
+}

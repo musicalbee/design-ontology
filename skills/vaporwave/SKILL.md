@@ -236,6 +236,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Mixes well with:** [`frutiger-aero`](../frutiger-aero/SKILL.md)
+- **Kin in another domain:** [`surrealism-painting`](../surrealism-painting/SKILL.md)
 - **Nearest by vector profile:** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md)
 
 ## Emotional target

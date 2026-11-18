@@ -118,6 +118,42 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Attitude:** No applied ornament; the texture of the formwork and the pattern of the structure do the work of decoration.
 - **Details:** board-marked surfaces · exposed tie holes · concrete gargoyles and spouts · cast-in signage · ribbed corduroy panels
 
+## Composition rules
+
+- **Symmetry:** asymmetric
+- **Axis count:** 0
+- **Rhythm module m:** 3
+
+**Rules**
+
+| Principle | Rule | Value |
+|---|---|---|
+| scale | Make the mass large and heavy, and show it. | mass 10–40m |
+| rhythm | Repeat the cast bay of the concrete form as a strong beat. | module 3–6m |
+| contrast | Set rough concrete against deep shadow and a few openings. | shadow depth 0.5–1m |
+| grouping | Stack the blocks into a stepped, cliff-like group. | 4–8 blocks |
+| circulation | Link the blocks by walkways and bridges that show the route. | 1 elevated route |
+
+## Reference images
+
+**Images**
+
+| Title | Credit | Licence | Url |
+|---|---|---|---|
+| Barbican Estate, London | Julian Herzog | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Barbican_Estate_City_of_London_2026_01.jpg |
+
+## Composition principles
+
+The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
+
+| Id | Principle | Definition | Measure: typical range |
+|---|---|---|---|
+| `scale` | Scale | The size of an element in relation to the human body, to the space around it and to the other elements. A style chooses a reference body and holds the elements in a range around it. | seat height (cm): 38–46; largest piece to room width (ratio): 0.3–0.6; ceiling height to door height (ratio): 1.2–1.5 |
+| `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repeated interval (cm or px): style module; repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive |
+| `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | light reflectance value difference between adjacent planes (LRV points): 30 or more for a visible edge |
+| `grouping` | Grouping | Elements close to each other read as one group. The gap inside a group is smaller than the gap between groups. | gap between groups to gap inside a group (ratio): 2:1 or more; elements in a group (count): 3 or 5 for an informal group, pairs for a formal group |
+| `circulation` | Circulation | The routes through a space and the clear widths that they keep free of furniture. | main route clear width (cm): 90–120; secondary route clear width (cm): 60–75; seat edge to low table (cm): 35–50; wheelchair route (cm): 90 or more; 150 turning circle |
+
 ## Vocabulary primer
 
 Use these terms in a brief, an image prompt or a 3D scene description.
@@ -143,8 +179,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`international-style-architecture`](../international-style-architecture/SKILL.md)
 - **Was rejected by:** [`postmodern-architecture`](../postmodern-architecture/SKILL.md)
-- **Kin in another domain:** [`abstract-expressionism`](../abstract-expressionism/SKILL.md), [`constructivism-web`](../constructivism-web/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md)
-- **Nearest by vector profile:** [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md)
+- **Kin in another domain:** [`abstract-expressionism`](../abstract-expressionism/SKILL.md), [`constructivism-web`](../constructivism-web/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md), [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md)
+- **Nearest by vector profile:** [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`gothic-architecture`](../gothic-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md)
 
 ## Emotional target
 

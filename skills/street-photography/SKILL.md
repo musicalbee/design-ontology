@@ -79,6 +79,16 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Geometry:** Diagonals, shadows and doorways make a stage; several small events share one frame.
 - **Subject placement:** Off centre, in a pocket of light or against a clean wall, with a second figure or sign in balance.
 
+**Principles**
+
+| Principle | Rule |
+|---|---|
+| framing | Cut figures at the frame edge with a margin of 0–5%, so that the edge is part of the picture. |
+| layering-depth | Put 3 planes in the frame: foreground at 1–2m, subject at 2–4m and background beyond 6m. |
+| focal-point | Give 1 primary gesture and 0 to 2 secondary ones; release at the peak, within 1/250s. |
+| contrast | Hold a shadow-to-sun difference of 5 stops or more. |
+| rule-of-thirds | Put the main figure within 0.05 of 0.33 or 0.67 of the width. |
+
 ## Light
 
 - **Quality:** Found light: hard direct sun or the mixed lights of the night street.
@@ -148,6 +158,18 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | Trolley—New Orleans | Robert Frank | 1955 |
 | New York World's Fair | Garry Winogrand | 1964 |
 
+## Composition principles
+
+The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
+
+| Id | Principle | Definition | Measure: typical range |
+|---|---|---|---|
+| `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | frame area (% of the view): 10–35; frame planes (count): 1 to 2 |
+| `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
+| `focal-point` | Focal point | The one place in a view that the eye finds first and comes back to. A composition has one primary focal point and at most two secondary ones. | focal points in one view (count): 1 primary, 0 to 2 secondary; luminance of the focal point to its surround (ratio): 3:1 to 10:1; position (fraction of width): 0.5 on an axis, or 0.33 / 0.67 on a third |
+| `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | brightest mass to deepest shadow in one image (stops): 3–4 flat; 5–8 hard, 8 or more for expressionist |
+| `rule-of-thirds` | Rule of thirds | Two horizontal and two vertical lines divide the view into nine equal parts. The focal point sits on one of the four crossings, and a horizon sits on one of the two horizontal lines. | focal point position (fraction of width and height): 0.33 or 0.67, tolerance 0.05; horizon position (fraction of height): 0.33 or 0.67 |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -156,10 +178,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **in colour**: move toward [`new-colour`](../new-colour/SKILL.md) (New Colour). Switch to colour slide film at ISO 64, f/8, 1/250s, and keep the found subject and the low angle; make colour the subject.
 
 - **Came from (go here for a more orthodox version):** [`straight-photography`](../straight-photography/SKILL.md)
-- **Led to (go here for a newer version):** [`new-colour`](../new-colour/SKILL.md)
-- **Mixes well with:** [`party-flash`](../party-flash/SKILL.md)
+- **Led to (go here for a newer version):** [`film-grain-revival`](../film-grain-revival/SKILL.md), [`new-colour`](../new-colour/SKILL.md)
+- **Mixes well with:** [`documentary-photography`](../documentary-photography/SKILL.md), [`film-noir-still`](../film-noir-still/SKILL.md), [`party-flash`](../party-flash/SKILL.md)
 - **Kin in another domain:** [`documentary-verite`](../documentary-verite/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`italian-neorealism`](../italian-neorealism/SKILL.md), [`new-hollywood`](../new-hollywood/SKILL.md)
-- **Nearest by vector profile:** [`straight-photography`](../straight-photography/SKILL.md), [`party-flash`](../party-flash/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
+- **Nearest by vector profile:** [`documentary-photography`](../documentary-photography/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md)
 
 ## Emotional target
 

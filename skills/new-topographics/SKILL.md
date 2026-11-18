@@ -79,6 +79,16 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Geometry:** Orthogonal grids of houses, signs, lots and wires; the horizon runs at the same height in each picture of a series.
 - **Subject placement:** Centred or evenly balanced; no subject is the hero, so the eye scans the whole frame.
 
+**Principles**
+
+| Principle | Rule |
+|---|---|
+| balance | Keep informal balance: a moment ratio of 0.8–1.25 between the left and right halves. |
+| proportion | Use a 4:5 frame with the sky under 30% of the height. |
+| rhythm | Repeat houses, poles or fences at a constant module of 3 to 6m. |
+| negative-space | Leave 20–40% of the frame as empty road, lot or lawn. |
+| unity-variety | Keep one viewpoint height (1.5m) and one distance for the whole series of 20 to 40 prints. |
+
 ## Light
 
 - **Quality:** Flat and shadowless: overcast, haze or open shade.
@@ -143,6 +153,18 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | The New Industrial Parks near Irvine, California | Lewis Baltz | 1974 |
 | New Topographics: Photographs of a Man-Altered Landscape | William Jenkins (curator) | 1975 |
 
+## Composition principles
+
+The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
+
+| Id | Principle | Definition | Measure: typical range |
+|---|---|---|---|
+| `balance` | Visual balance | The visual weights on the two sides of a centre cancel out. Formal balance uses mirrored equal weights; informal balance sets a large near mass against several small far masses. | moment of visual weight, left to right about the centre (ratio): 1.0 formal; 0.8–1.25 informal; type (kind): formal, informal, radial |
+| `proportion` | Proportion | The ratio of one dimension to another, and of a part to the whole. A style holds one ratio or one series of ratios through the room, the facade or the picture. | governing ratio (ratio): 1:1, 2:3, 1:1.414, 1:1.618, 1:2; module series (series): Modulor, tatami 91 x 182 cm, 60 cm kitchen module |
+| `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repeated interval (cm or px): style module; repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive |
+| `negative-space` | Negative space | The empty area around and between elements. It is a part of the composition, not a remainder. | empty frame area (% of image): 30–70 |
+| `unity-variety` | Unity and variety | Repeated materials, colours and shapes join the parts into one whole. A small, planned number of deviations keeps the whole alive. | materials or hues that repeat (count): 2 to 4; deliberate deviations (count): 1 to 2 |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -151,9 +173,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more dramatic**: move toward [`straight-photography`](../straight-photography/SKILL.md) (Straight photography). Wait for side light at 4:1, widen the tonal scale to a true black and white, and keep the large format and the f/45 aperture.
 
 - **Came from (go here for a more orthodox version):** [`straight-photography`](../straight-photography/SKILL.md)
+- **Led to (go here for a newer version):** [`duesseldorf-school`](../duesseldorf-school/SKILL.md)
 - **Mixes well with:** [`new-colour`](../new-colour/SKILL.md)
 - **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`planimetric-symmetry`](../planimetric-symmetry/SKILL.md), [`slow-cinema`](../slow-cinema/SKILL.md)
-- **Nearest by vector profile:** [`straight-photography`](../straight-photography/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md), [`pictorialism`](../pictorialism/SKILL.md)
+- **Nearest by vector profile:** [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md)
 
 ## Emotional target
 
