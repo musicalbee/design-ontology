@@ -173,7 +173,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`new-objectivity`](../new-objectivity/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md)
 - **Mixes well with:** [`new-colour`](../new-colour/SKILL.md)
 - **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md)
-- **Nearest by vector profile:** [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
+- **Nearest by vector profile:** [`architectural-photography`](../architectural-photography/SKILL.md), [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md)
 
 ## Emotional target
 
