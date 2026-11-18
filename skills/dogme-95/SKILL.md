@@ -185,7 +185,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`french-new-wave`](../french-new-wave/SKILL.md)
 - **Mixes well with:** [`camcorder-revival`](../camcorder-revival/SKILL.md)
-- **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md)
+- **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`documentary-photography`](../documentary-photography/SKILL.md)
 - **Nearest by vector profile:** [`french-new-wave`](../french-new-wave/SKILL.md), [`creator-vlog`](../creator-vlog/SKILL.md), [`camcorder-revival`](../camcorder-revival/SKILL.md)
 
 ## Emotional target

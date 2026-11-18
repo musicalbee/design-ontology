@@ -184,7 +184,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more vertical**: move toward [`vertical-short-form`](../vertical-short-form/SKILL.md) (Vertical short-form). Keep the tape colour and the date stamp; move to 9:16, cut at 2 to 4 s and burn in captions.
 
 - **Mixes well with:** [`creator-vlog`](../creator-vlog/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md), [`vertical-short-form`](../vertical-short-form/SKILL.md)
-- **Kin in another domain:** [`grunge-editorial`](../grunge-editorial/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
+- **Kin in another domain:** [`film-grain-revival`](../film-grain-revival/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`party-flash`](../party-flash/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
 - **Nearest by vector profile:** [`cinematic-fpv`](../cinematic-fpv/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md)
 
 ## Emotional target

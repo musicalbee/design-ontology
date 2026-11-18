@@ -184,6 +184,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`soviet-montage`](../soviet-montage/SKILL.md)
 - **Was rejected by:** [`dogme-95`](../dogme-95/SKILL.md)
+- **Kin in another domain:** [`street-photography`](../street-photography/SKILL.md)
 - **Nearest by vector profile:** [`creator-vlog`](../creator-vlog/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md), [`cinematic-fpv`](../cinematic-fpv/SKILL.md)
 
 ## Emotional target

@@ -3967,6 +3967,52 @@
       }
     },
     {
+      "id": "new-objectivity",
+      "name": "New Objectivity photography",
+      "domain": "photography",
+      "era": "documentary-century",
+      "period": "1920s–1930s",
+      "thesis": "The lens is exact and unsentimental, so the honest picture shows the structure of a thing at close range and in full detail.",
+      "summary": "Sharp, close, frontal pictures of plants, tools, faces and machines, made in Germany between the wars. The camera sees more than the eye, and it names things without comment.",
+      "path": "skills/new-objectivity/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "new objectivity",
+        "neue sachlichkeit",
+        "blossfeldt",
+        "renger-patzsch",
+        "august sander",
+        "specimen photograph",
+        "typology photograph"
+      ],
+      "use_cases": [
+        "product catalogues with a scientific feel",
+        "botanical and industrial plates",
+        "portrait series by trade",
+        "image prompts for specimen grids"
+      ],
+      "emotion": [
+        "exact",
+        "frontal",
+        "clinical",
+        "serial",
+        "unsentimental"
+      ],
+      "archetypes": [
+        "sage",
+        "creator"
+      ],
+      "vectors": {
+        "staging": 2,
+        "tonal_contrast": 3,
+        "colour_saturation": 1,
+        "depth_of_field": 1,
+        "proximity": 5
+      }
+    },
+    {
       "id": "street-photography",
       "name": "Street photography",
       "domain": "photography",
@@ -4009,6 +4055,52 @@
         "staging": 1,
         "tonal_contrast": 4,
         "colour_saturation": 1,
+        "depth_of_field": 2,
+        "proximity": 4
+      }
+    },
+    {
+      "id": "documentary-photography",
+      "name": "Documentary photography",
+      "domain": "photography",
+      "era": "documentary-century",
+      "period": "1930s–today",
+      "thesis": "A photograph can be evidence and an appeal at once, if the maker stays honest about what happened and with whom.",
+      "summary": "Photographs that bear witness to people, work and events. The maker gets close, earns trust and shows what the sitter needs the viewer to see.",
+      "path": "skills/documentary-photography/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "documentary photography",
+        "photojournalism",
+        "photo essay",
+        "dorothea lange",
+        "walker evans",
+        "social documentary",
+        "reportage"
+      ],
+      "use_cases": [
+        "editorial essays",
+        "NGO and report imagery",
+        "oral-history projects",
+        "image prompts for honest portraits at work"
+      ],
+      "emotion": [
+        "witness",
+        "honest",
+        "human",
+        "close",
+        "evidence"
+      ],
+      "archetypes": [
+        "caregiver",
+        "everyman"
+      ],
+      "vectors": {
+        "staging": 1,
+        "tonal_contrast": 3,
+        "colour_saturation": 2,
         "depth_of_field": 2,
         "proximity": 4
       }
@@ -4103,6 +4195,52 @@
         "staging": 2,
         "tonal_contrast": 2,
         "colour_saturation": 1,
+        "depth_of_field": 1,
+        "proximity": 1
+      }
+    },
+    {
+      "id": "duesseldorf-school",
+      "name": "Düsseldorf School",
+      "domain": "photography",
+      "era": "colour-and-topography",
+      "period": "1976–today",
+      "thesis": "Seen without drama and in great detail, an ordinary place becomes a map of the way we live.",
+      "summary": "Large, cool, frontal colour pictures of buildings, rooms, crowds and landscapes in fine detail. The method comes from the Bechers' typologies, and the scale comes from the museum wall.",
+      "path": "skills/duesseldorf-school/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "düsseldorf school",
+        "becher",
+        "gursky",
+        "struth",
+        "typology",
+        "large format colour",
+        "museum-scale photograph"
+      ],
+      "use_cases": [
+        "architectural and industrial documentation",
+        "annual-report imagery with a cool authority",
+        "fine-art series",
+        "image prompts for flat, frontal, grid-based scenes"
+      ],
+      "emotion": [
+        "frontal",
+        "large",
+        "cool",
+        "typological",
+        "exact"
+      ],
+      "archetypes": [
+        "sage",
+        "ruler"
+      ],
+      "vectors": {
+        "staging": 3,
+        "tonal_contrast": 2,
+        "colour_saturation": 3,
         "depth_of_field": 1,
         "proximity": 1
       }
@@ -4246,6 +4384,237 @@
         "colour_saturation": 3,
         "depth_of_field": 2,
         "proximity": 4
+      }
+    },
+    {
+      "id": "film-grain-revival",
+      "name": "Film grain revival",
+      "domain": "photography",
+      "era": "digital-and-grade",
+      "period": "2015–today",
+      "thesis": "Grain and imperfection give a picture a body, so the viewer believes it was lived and not rendered.",
+      "summary": "Photographs with visible grain, soft halation and warm colour, made on 35mm film or graded to look like it. The look says that a real moment passed through a real roll.",
+      "path": "skills/film-grain-revival/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "film grain",
+        "shot on film",
+        "portra",
+        "halation",
+        "analogue look",
+        "35mm colour",
+        "film emulation"
+      ],
+      "use_cases": [
+        "lifestyle and travel imagery",
+        "music and fashion portraits",
+        "wedding and event books",
+        "image prompts for a warm analogue look"
+      ],
+      "emotion": [
+        "grainy",
+        "warm",
+        "nostalgic",
+        "imperfect",
+        "analogue"
+      ],
+      "archetypes": [
+        "everyman",
+        "lover"
+      ],
+      "vectors": {
+        "staging": 2,
+        "tonal_contrast": 3,
+        "colour_saturation": 3,
+        "depth_of_field": 3,
+        "proximity": 3
+      }
+    },
+    {
+      "id": "fashion-editorial",
+      "name": "Fashion editorial photography",
+      "domain": "photography",
+      "era": "commercial-and-staged",
+      "period": "1930s–today",
+      "thesis": "Fashion sells a feeling before it sells a thing, so the photograph builds the whole world around the clothes.",
+      "summary": "Planned pictures of clothes, bodies and attitude for a magazine page. Light, set, pose and edit are all designed, so that the image sells a world and not only a garment.",
+      "path": "skills/fashion-editorial/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "fashion editorial",
+        "vogue",
+        "avedon",
+        "penn",
+        "helmut newton",
+        "campaign photograph",
+        "magazine fashion",
+        "beauty shot"
+      ],
+      "use_cases": [
+        "fashion campaigns and lookbooks",
+        "magazine spreads",
+        "beauty and accessories",
+        "image prompts for styled studio scenes"
+      ],
+      "emotion": [
+        "glamorous",
+        "staged",
+        "stylised",
+        "sharp",
+        "aspirational"
+      ],
+      "archetypes": [
+        "lover",
+        "creator"
+      ],
+      "vectors": {
+        "staging": 5,
+        "tonal_contrast": 4,
+        "colour_saturation": 4,
+        "depth_of_field": 3,
+        "proximity": 3
+      }
+    },
+    {
+      "id": "film-noir-still",
+      "name": "Film noir still photography",
+      "domain": "photography",
+      "era": "commercial-and-staged",
+      "period": "1940s–today",
+      "thesis": "Darkness holds the story, so the picture shows only as much light as the mood needs.",
+      "summary": "Black-and-white stills with one hard light, deep shadow and a figure caught in a graphic frame. The look comes from the 1940s crime film, and it stays alive in fashion, posters and portraits.",
+      "path": "skills/film-noir-still/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "film noir",
+        "noir still",
+        "chiaroscuro portrait",
+        "venetian blind shadow",
+        "hard light",
+        "dutch angle",
+        "1940s crime"
+      ],
+      "use_cases": [
+        "posters and key art",
+        "fashion and fragrance campaigns",
+        "album covers",
+        "image prompts for moody night scenes"
+      ],
+      "emotion": [
+        "shadow",
+        "tense",
+        "graphic",
+        "nocturnal",
+        "moody"
+      ],
+      "archetypes": [
+        "outlaw",
+        "magician"
+      ],
+      "vectors": {
+        "staging": 5,
+        "tonal_contrast": 5,
+        "colour_saturation": 1,
+        "depth_of_field": 3,
+        "proximity": 3
+      }
+    },
+    {
+      "id": "food-photography",
+      "name": "Food photography",
+      "domain": "photography",
+      "era": "commercial-and-staged",
+      "period": "1950s–today",
+      "thesis": "Food is a sensation, so the picture shows texture, steam and light before it shows the plate.",
+      "summary": "Photographs of dishes made to look edible and honest. A window, a small set and a short lens give shape, steam and texture, and a few props tell where the meal sits.",
+      "path": "skills/food-photography/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "food photography",
+        "flat lay",
+        "moody food",
+        "cookbook photo",
+        "recipe image",
+        "menu shot",
+        "steam and sheen"
+      ],
+      "use_cases": [
+        "menus and delivery apps",
+        "cookbooks and food magazines",
+        "brand campaigns for drinks and snacks",
+        "image prompts for plated dishes"
+      ],
+      "emotion": [
+        "appetising",
+        "warm",
+        "tactile",
+        "fresh",
+        "close"
+      ],
+      "archetypes": [
+        "caregiver",
+        "jester"
+      ],
+      "vectors": {
+        "staging": 4,
+        "tonal_contrast": 3,
+        "colour_saturation": 4,
+        "depth_of_field": 4,
+        "proximity": 4
+      }
+    },
+    {
+      "id": "scandinavian-interior-photography",
+      "name": "Scandinavian interior photography",
+      "domain": "photography",
+      "era": "commercial-and-staged",
+      "period": "2005–today",
+      "thesis": "A room looks livable when the light is honest and the objects are few, so the picture shows the light first.",
+      "summary": "Calm, bright pictures of rooms: pale wood, white walls, a window and a few objects. The light is soft, the lines are straight and the space is allowed to breathe.",
+      "path": "skills/scandinavian-interior-photography/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "scandinavian interior photo",
+        "nordic home photograph",
+        "soft daylight interior",
+        "airy room",
+        "kinfolk look",
+        "tilt-shift interior",
+        "real estate editorial"
+      ],
+      "use_cases": [
+        "furniture and homeware catalogues",
+        "interior magazines",
+        "property marketing with a calm look",
+        "image prompts for bright rooms"
+      ],
+      "emotion": [
+        "calm",
+        "bright",
+        "airy",
+        "pale",
+        "honest"
+      ],
+      "archetypes": [
+        "innocent",
+        "caregiver"
+      ],
+      "vectors": {
+        "staging": 4,
+        "tonal_contrast": 2,
+        "colour_saturation": 2,
+        "depth_of_field": 1,
+        "proximity": 2
       }
     },
     {

@@ -79,6 +79,15 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Geometry:** Big simple masses: a diagonal of mist, a curve of a bank, a single vertical tree; no sharp crossing lines.
 - **Subject placement:** Off centre on a third line, with a quiet area of tone on the other side.
 
+**Principles**
+
+| Principle | Rule |
+|---|---|
+| negative-space | Leave 40–60% of the frame as quiet tone: mist, water or sky. |
+| rule-of-thirds | Set the figure on a third line, within 0.05 of 0.33 or 0.67 of the width. |
+| contrast | Keep the luminance step between figure and ground at 15–25% of the tonal range, so that edges melt. |
+| unity-variety | Use 1 toning hue for the whole print and 0 second hues; vary only tone, in 3 to 5 steps. |
+
 ## Light
 
 - **Quality:** Soft and diffused, from window light, shade, mist or overcast sky, with no hard shadow edge.
@@ -148,15 +157,27 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | The Hand of Man | Alfred Stieglitz | 1902 |
 | The Soul of the Blasted Pine | Anne Brigman | 1908 |
 
+## Composition principles
+
+The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
+
+| Id | Principle | Definition | Measure: typical range |
+|---|---|---|---|
+| `negative-space` | Negative space | The empty area around and between elements. It is a part of the composition, not a remainder. | empty floor area (% of floor): 40–80 in a room; empty wall area (% of wall): 50–95; empty frame area (% of image): 30–70 |
+| `rule-of-thirds` | Rule of thirds | Two horizontal and two vertical lines divide the view into nine equal parts. The focal point sits on one of the four crossings, and a horizon sits on one of the two horizontal lines. | focal point position (fraction of width and height): 0.33 or 0.67, tolerance 0.05; horizon position (fraction of height): 0.33 or 0.67 |
+| `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | light reflectance value difference between adjacent planes (LRV points): 30 or more for a visible edge; text on its field (luminance ratio): 4.5:1 or more |
+| `unity-variety` | Unity and variety | Repeated materials, colours and shapes join the parts into one whole. A small, planned number of deviations keeps the whole alive. | materials or hues that repeat (count): 2 to 4; deliberate deviations (count): 1 to 2 |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
 
 - If the user asks for **sharper**: move toward [`straight-photography`](../straight-photography/SKILL.md) (Straight photography). Close the aperture to f/64, drop the diffusion and the hand work, and keep the large format and the tonal range wide; the print becomes crisp and cool.
 
-- **Was rejected by:** [`straight-photography`](../straight-photography/SKILL.md)
+- **Led to (go here for a newer version):** [`fashion-editorial`](../fashion-editorial/SKILL.md)
+- **Was rejected by:** [`documentary-photography`](../documentary-photography/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md)
 - **Kin in another domain:** [`impressionism`](../impressionism/SKILL.md), [`victorian-interior`](../victorian-interior/SKILL.md)
-- **Nearest by vector profile:** [`cinematic-teal-orange`](../cinematic-teal-orange/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
+- **Nearest by vector profile:** [`film-grain-revival`](../film-grain-revival/SKILL.md), [`food-photography`](../food-photography/SKILL.md), [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md)
 
 ## Emotional target
 

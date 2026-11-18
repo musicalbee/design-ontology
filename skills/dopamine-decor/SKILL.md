@@ -233,7 +233,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`memphis-interior`](../memphis-interior/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`japandi-interior`](../japandi-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
 - **Was rejected by:** [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md)
-- **Kin in another domain:** [`memphis-design`](../memphis-design/SKILL.md)
+- **Kin in another domain:** [`food-photography`](../food-photography/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md)
 - **Nearest by vector profile:** [`memphis-interior`](../memphis-interior/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md)
 
 ## Emotional target

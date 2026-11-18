@@ -79,6 +79,15 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Geometry:** Casual and unplanned; the horizon tilts and the flash casts a hard shadow on the wall behind.
 - **Subject placement:** Centred, because the focus point is in the middle of the screen.
 
+**Principles**
+
+| Principle | Rule |
+|---|---|
+| focal-point | Centre the subject at 0.5 ± 0.1 of the width, where the single autofocus point sits. |
+| negative-space | Leave 20–40% of the height as headroom or a cut-off head. |
+| framing | Tilt the horizon by 0° to 10°; no edge control. |
+| contrast | Hold the flash-lit face at 3 stops above the background. |
+
 ## Light
 
 - **Quality:** Built-in flash or direct sun; small, hard and flat.
@@ -148,6 +157,17 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | PowerShot S100 Digital ELPH | Canon | 2000 |
 | Cyber-shot DSC-P1 | Sony | 2000 |
 
+## Composition principles
+
+The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
+
+| Id | Principle | Definition | Measure: typical range |
+|---|---|---|---|
+| `focal-point` | Focal point | The one place in a view that the eye finds first and comes back to. A composition has one primary focal point and at most two secondary ones. | focal points in one view (count): 1 primary, 0 to 2 secondary; luminance of the focal point to its surround (ratio): 3:1 to 10:1; position (fraction of width): 0.5 on an axis, or 0.33 / 0.67 on a third |
+| `negative-space` | Negative space | The empty area around and between elements. It is a part of the composition, not a remainder. | empty floor area (% of floor): 40–80 in a room; empty wall area (% of wall): 50–95; empty frame area (% of image): 30–70 |
+| `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | frame area (% of the view): 10–35; frame planes (count): 1 to 2 |
+| `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | light reflectance value difference between adjacent planes (LRV points): 30 or more for a visible edge; text on its field (luminance ratio): 4.5:1 or more |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -157,9 +177,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`new-colour`](../new-colour/SKILL.md)
 - **Led to (go here for a newer version):** [`party-flash`](../party-flash/SKILL.md)
+- **Was rejected by:** [`film-grain-revival`](../film-grain-revival/SKILL.md)
 - **Mixes well with:** [`party-flash`](../party-flash/SKILL.md)
-- **Kin in another domain:** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
-- **Nearest by vector profile:** [`new-colour`](../new-colour/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md), [`party-flash`](../party-flash/SKILL.md)
+- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
+- **Nearest by vector profile:** [`new-colour`](../new-colour/SKILL.md), [`documentary-photography`](../documentary-photography/SKILL.md), [`film-grain-revival`](../film-grain-revival/SKILL.md)
 
 ## Emotional target
 

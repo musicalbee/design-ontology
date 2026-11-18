@@ -79,6 +79,16 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Geometry:** Leading lines, a rim light and layered depth: foreground blur, subject, lit background.
 - **Subject placement:** On a third line with look space; the subject takes 20–40% of the frame.
 
+**Principles**
+
+| Principle | Rule |
+|---|---|
+| rule-of-thirds | Put the subject within 0.05 of 0.33 or 0.67 of the width, with look space on the facing side. |
+| leading-lines | Use 1 to 3 lines that converge on the subject. |
+| negative-space | Leave 20–30% of the width as look space and 30–50% of the 2.39:1 frame as dark negative space. |
+| layering-depth | Use 3 planes: a blurred foreground, a sharp subject and a lit background. |
+| colour-distribution | Set 55% in the teal family, 25% in the orange family and 20% in neutrals. |
+
 ## Light
 
 - **Quality:** Controlled: a soft or semi-hard key, practicals and a haze that shows beams.
@@ -150,6 +160,18 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | Skyfall | Sam Mendes | 2012 |
 | Mad Max: Fury Road | George Miller | 2015 |
 
+## Composition principles
+
+The rules above name these shared principles by id. The definition is the same in every domain; the number in the rule belongs to this style. The full records are in [`data/principles/`](../../data/principles/).
+
+| Id | Principle | Definition | Measure: typical range |
+|---|---|---|---|
+| `rule-of-thirds` | Rule of thirds | Two horizontal and two vertical lines divide the view into nine equal parts. The focal point sits on one of the four crossings, and a horizon sits on one of the two horizontal lines. | focal point position (fraction of width and height): 0.33 or 0.67, tolerance 0.05; horizon position (fraction of height): 0.33 or 0.67 |
+| `leading-lines` | Leading lines | Lines in the view, such as edges, rows, beams or paths, point the eye to the focal point. | lines that converge on the focal point (count): 1 to 4; angle from the frame edge (degrees): 15–60 for a diagonal |
+| `negative-space` | Negative space | The empty area around and between elements. It is a part of the composition, not a remainder. | empty floor area (% of floor): 40–80 in a room; empty wall area (% of wall): 50–95; empty frame area (% of image): 30–70 |
+| `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
+| `colour-distribution` | Colour distribution | Each colour takes a planned share of the visible area: a dominant colour, a secondary colour and an accent. | dominant / secondary / accent share (% of visible surface): 60/30/10 as the default; 70/25/5 calm; 40/35/25 bold; accents (count): 1 to 3 |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -158,7 +180,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more raw**: move toward [`party-flash`](../party-flash/SKILL.md) (Party flash). Replace the lit set with one on-camera flash at 8:1, drop the shallow focus and the vignette; keep the warm skin.
 
 - **Came from (go here for a more orthodox version):** [`new-colour`](../new-colour/SKILL.md)
-- **Nearest by vector profile:** [`pictorialism`](../pictorialism/SKILL.md), [`party-flash`](../party-flash/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
+- **Nearest by vector profile:** [`fashion-editorial`](../fashion-editorial/SKILL.md), [`food-photography`](../food-photography/SKILL.md), [`pictorialism`](../pictorialism/SKILL.md)
 
 ## Emotional target
 
