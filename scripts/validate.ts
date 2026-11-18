@@ -35,6 +35,9 @@ for (const { file, slug, principle } of principles) {
   if (principle.id !== slug) errors.push(`${file}: id "${principle.id}" is not equal to the file name`);
   for (const r of principle.related) if (!principleIds.has(r) || r === slug) errors.push(`${file}: related → "${r}" is not another principle`);
   for (const d of principle.applies_to) if (!domains.some((x) => x.id === d)) errors.push(`${file}: applies_to → "${d}" is not in domains/`);
+  for (const m of principle.measures)
+    for (const d of m.domains ?? [])
+      if (!principle.applies_to.includes(d)) errors.push(`${file}: measure "${m.measure}" names domain "${d}", which is not in applies_to`);
 }
 
 for (const domain of domains) {
@@ -56,6 +59,14 @@ for (const domain of domains) {
     if (Object.keys(style.vectors).sort().join(",") !== axisKeys)
       errors.push(`${file}: vectors do not match the axes in domains/${domain.id}.json`);
 
+    // One owner for the axis count: a symmetry-axis rule "N axis" or "N axes" must agree with composition.axis_count.
+    const comp = (style as { composition?: { axis_count?: number; rules?: { principle: string; value: string }[] } }).composition;
+    for (const r of comp?.rules ?? []) {
+      const n = r.principle === "symmetry-axis" ? r.value.match(/^(\d+) ax(?:is|es)\b/) : null;
+      if (n && comp?.axis_count !== undefined && Number(n[1]) !== comp.axis_count)
+        errors.push(`${file}: symmetry-axis rule says ${n[1]} axis, composition.axis_count is ${comp.axis_count}`);
+    }
+
     const recipe = (style.visual as { art: { recipe: string } } | undefined)?.art.recipe;
     if (recipe && !RECIPE_NAMES.includes(recipe))
       errors.push(`${file}: visual.art.recipe "${recipe}" is not in scripts/pack.ts. Known: ${RECIPE_NAMES.join(", ")}`);
@@ -63,7 +74,12 @@ for (const domain of domains) {
     for (const ref of principleRefs(style))
       if (!principleIds.has(ref)) errors.push(`${file}: principle "${ref}" is not in data/principles/`);
       else if (!principleById.get(ref)!.applies_to.includes(domain.id))
-        errors.push(`${file}: principle "${ref}" does not apply to the ${domain.id} domain (see its applies_to)`);
+        errors.push(`${file}: principle "${ref}" does not list "${domain.id}" in applies_to. Add the domain and its measures to data/principles/${ref}.json`);
+
+    // One citation for each principle in composition.principles: a second one prints the principle twice in the skill.
+    const cited = ((style as { composition?: { principles?: { principle: string }[] } }).composition?.principles ?? []).map((p) => p.principle);
+    for (const id of new Set(cited.filter((id, i) => cited.indexOf(id) !== i)))
+      errors.push(`${file}: composition.principles cites "${id}" more than once`);
 
     for (const p of style.philosophy.anti_patterns)
       if (/^(never|do not|don't|avoid)\b/i.test(p))
