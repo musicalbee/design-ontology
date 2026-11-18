@@ -1426,6 +1426,21 @@
       }
     },
     {
+      "id": "coastal-interior",
+      "domain": "interior",
+      "name": "Coastal interior",
+      "era": "global-minimal",
+      "start": 1990,
+      "end": null,
+      "vectors": {
+        "ornamentation": 1,
+        "density": 2,
+        "formality": 2,
+        "material_naturalness": 4,
+        "chromatic_intensity": 2
+      }
+    },
+    {
       "id": "minimalist-interior",
       "domain": "interior",
       "name": "Minimalist",
@@ -3393,6 +3408,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "coastal-interior",
+      "to": "scandinavian-interior",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "colour-field-painting",
       "to": "abstract-expressionism",
       "type": "EVOLVED_FROM"
@@ -4105,6 +4125,16 @@
     {
       "from": "claymorphism",
       "to": "scrapbook-ui",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "coastal-interior",
+      "to": "minimalist-interior",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "coastal-interior",
+      "to": "shaker-interior",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -8190,7 +8220,9 @@
       ],
       "rebelled_against": [],
       "provoked": [],
-      "hybridized_with": [],
+      "hybridized_with": [
+        "coastal-interior"
+      ],
       "echoes": [],
       "nearest_by_vector": [
         {
@@ -8258,15 +8290,15 @@
       ],
       "nearest_by_vector": [
         {
+          "id": "coastal-interior",
+          "distance": 2.45
+        },
+        {
           "id": "industrial-loft-interior",
           "distance": 2.45
         },
         {
           "id": "art-nouveau-interior",
-          "distance": 2.65
-        },
-        {
-          "id": "mid-century-modern-interior",
           "distance": 2.65
         }
       ],
@@ -8328,12 +8360,12 @@
           "distance": 1.41
         },
         {
-          "id": "industrial-loft-interior",
-          "distance": 2.65
+          "id": "coastal-interior",
+          "distance": 2.24
         },
         {
-          "id": "scandinavian-interior",
-          "distance": 3
+          "id": "industrial-loft-interior",
+          "distance": 2.65
         }
       ],
       "techniques": []
@@ -8425,12 +8457,12 @@
           "distance": 1.41
         },
         {
-          "id": "industrial-loft-interior",
-          "distance": 2.24
+          "id": "coastal-interior",
+          "distance": 1.73
         },
         {
-          "id": "arts-and-crafts-interior",
-          "distance": 2.65
+          "id": "industrial-loft-interior",
+          "distance": 2.24
         }
       ],
       "techniques": [
@@ -8444,6 +8476,7 @@
         "shaker-interior"
       ],
       "evolved_into": [
+        "coastal-interior",
         "japandi-interior"
       ],
       "rebelled_against": [],
@@ -8463,16 +8496,16 @@
       ],
       "nearest_by_vector": [
         {
+          "id": "coastal-interior",
+          "distance": 1.41
+        },
+        {
           "id": "japandi-interior",
           "distance": 1.41
         },
         {
           "id": "quiet-luxury-interior",
           "distance": 1.41
-        },
-        {
-          "id": "minimalist-interior",
-          "distance": 1.73
         }
       ],
       "techniques": []
@@ -8493,15 +8526,15 @@
       ],
       "nearest_by_vector": [
         {
+          "id": "coastal-interior",
+          "distance": 1.41
+        },
+        {
           "id": "mid-century-modern-interior",
           "distance": 2.24
         },
         {
           "id": "arts-and-crafts-interior",
-          "distance": 2.45
-        },
-        {
-          "id": "scandinavian-interior",
           "distance": 2.45
         }
       ],
@@ -8542,6 +8575,34 @@
         "terrazzo"
       ]
     },
+    "coastal-interior": {
+      "evolved_from": [
+        "scandinavian-interior"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "minimalist-interior",
+        "shaker-interior"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "industrial-loft-interior",
+          "distance": 1.41
+        },
+        {
+          "id": "scandinavian-interior",
+          "distance": 1.41
+        },
+        {
+          "id": "mid-century-modern-interior",
+          "distance": 1.73
+        }
+      ],
+      "techniques": []
+    },
     "minimalist-interior": {
       "evolved_from": [
         "bauhaus-interior"
@@ -8554,7 +8615,9 @@
         "grandmillennial-interior",
         "neo-deco-interior"
       ],
-      "hybridized_with": [],
+      "hybridized_with": [
+        "coastal-interior"
+      ],
       "echoes": [
         "flat-design",
         "international-style-architecture",
@@ -8605,7 +8668,7 @@
           "distance": 1.41
         },
         {
-          "id": "quiet-luxury-interior",
+          "id": "coastal-interior",
           "distance": 2
         }
       ],

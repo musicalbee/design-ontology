@@ -96,6 +96,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | colour-distribution | Give concrete and brick the main share, black steel and wood the second, and one colour such as rust or teal the accent. | 60/32/8 |
 | lighting-layers | Hang factory pendants low over each zone and light the brick with wall washers or track spots. | 100 lux ambient, 400 lux task, 2700 K |
 | circulation | Keep wide routes along the window wall and around the island. | 150 cm main, 100 cm secondary |
+| camera-station | Shoot the room level, with a diagonal view across the open plan toward the brick wall. | 20 mm at 160 cm, level |
 
 ## Zoning & circulation
 
@@ -200,6 +201,7 @@ The rules above name these shared principles by id. The definition is the same i
 | `colour-distribution` | Colour distribution | Each colour takes a planned share of the visible area: a dominant colour, a secondary colour and an accent. | dominant / secondary / accent share (% of visible surface): 60/30/10 as the default; 70/25/5 calm; 40/35/25 bold; accents (count): 1 to 3 |
 | `lighting-layers` | Lighting layers | Light comes from separate layers with separate jobs: ambient light for the whole space, task light for work, accent light for the focal point. In photography the same split is key, fill and accent light. | ambient illuminance (lux): 50–300 in a home; task illuminance (lux): 300–750; accent to ambient (ratio): 3:1 to 10:1; correlated colour temperature (kelvin): 2200–4000 in a home |
 | `circulation` | Circulation | The routes through a space and the clear widths that they keep free of furniture. | main route clear width (cm): 90–120; secondary route clear width (cm): 60–75; seat edge to low table (cm): 35–50; wheelchair route (cm): 90 or more; 150 turning circle |
+| `camera-station` | Camera station | The position, height, lens and aim of the camera for one view. It sets the perspective of the room in the image: the horizon, the fall of the verticals and the shares of floor, wall and ceiling in the frame. | lens focal length (mm, full-frame equivalent): 24–35; 17–20 only in a room narrower than 2.5 m; camera height (cm above the floor): 100–150; 100–120 for a seated view; vertical convergence (degrees): 0: the camera is level, and lens shift (not tilt) moves the frame; ceiling share of the frame (% of the frame height): 20 or less, unless the ceiling is the subject; object cut by the frame edge (% of the object inside the frame): 66 or more, or the object is out of the frame |
 
 ## Vocabulary primer
 
@@ -225,7 +227,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`bauhaus-interior`](../bauhaus-interior/SKILL.md)
 - **Kin in another domain:** [`adaptive-reuse-architecture`](../adaptive-reuse-architecture/SKILL.md), [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md)
-- **Nearest by vector profile:** [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
+- **Nearest by vector profile:** [`coastal-interior`](../coastal-interior/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md)
 
 ## Emotional target
 

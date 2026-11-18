@@ -235,6 +235,7 @@ flowchart LR
     memphis_interior["Memphis interior"]
   end
   subgraph interior_global_minimal["Interior · Global minimal · 1990–2010"]
+    coastal_interior["Coastal interior"]
     minimalist_interior["Minimalist"]
   end
   subgraph interior_networked_home["Interior · Networked home · 2010–present"]
@@ -511,6 +512,7 @@ flowchart LR
   new_colour --> cinematic_teal_orange
   german_expressionist_cinema --> classical_hollywood
   neumorphism --> claymorphism
+  scandinavian_interior --> coastal_interior
   abstract_expressionism --> colour_field_painting
   flat_design --> corporate_memphis
   memphis_design --> corporate_memphis
@@ -853,7 +855,6 @@ flowchart LR
   linkStyle 142 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 143 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 144 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 279 stroke:#E5484D,stroke-width:1.5px
   linkStyle 280 stroke:#E5484D,stroke-width:1.5px
   linkStyle 281 stroke:#E5484D,stroke-width:1.5px
   linkStyle 282 stroke:#E5484D,stroke-width:1.5px
@@ -942,6 +943,7 @@ flowchart LR
   linkStyle 365 stroke:#E5484D,stroke-width:1.5px
   linkStyle 366 stroke:#E5484D,stroke-width:1.5px
   linkStyle 367 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 368 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 
@@ -985,7 +987,7 @@ The ontology has domains. A domain is one manifest ([`domains/`](domains/)) and 
 |---|--:|---|---|
 | Design | 25 | 16 CSS tokens, Tailwind patterns, a visual pack | [landing page](demo/index.html) |
 | Architecture | 9 | vocabulary primer for briefs, image prompts and 3D scenes | [massing](demo/architecture.html) |
-| Interior | 8 | composition rules in cm, lux and K, and a scene primer | [one room, each style](demo/interior.html) |
+| Interior | 19 | composition rules in cm, lux and K, and a scene primer | [one room, each style](demo/interior.html) |
 | Photography | 19 | camera numbers (mm, f-stop, shutter, ISO, K) and a grade recipe | [gallery](demo/photography.html) |
 | Film and video | 24 | shot primer (aspect, fps, shutter angle, shot length) and a video-prompt primer | [gallery](demo/film.html) |
 | Painting | 25 | palette in hex, brushwork and medium rules, a composition schema | [gallery](demo/painting.html) |
