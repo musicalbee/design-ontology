@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schema/principle.schema.json",
+  "id": "circulation",
+  "name": "Circulation",
+  "aliases": [
+    "movement path",
+    "clearances"
+  ],
+  "definition": "The routes through a space and the clear widths that they keep free of furniture.",
+  "measures": [
+    {
+      "measure": "main route clear width",
+      "unit": "cm",
+      "reference": "90–120"
+    },
+    {
+      "measure": "secondary route clear width",
+      "unit": "cm",
+      "reference": "60–75"
+    },
+    {
+      "measure": "seat edge to low table",
+      "unit": "cm",
+      "reference": "35–50"
+    },
+    {
+      "measure": "wheelchair route",
+      "unit": "cm",
+      "reference": "90 or more; 150 turning circle"
+    }
+  ],
+  "applies_to": [
+    "architecture",
+    "interior"
+  ],
+  "related": [
+    "zoning",
+    "sightlines",
+    "scale"
+  ],
+  "sources": [
+    {
+      "title": "Julius Panero and Martin Zelnik, Human Dimension and Interior Space (Whitney Library of Design, 1979)"
+    },
+    {
+      "title": "Ernst and Peter Neufert, Architects' Data (Wiley-Blackwell, 4th English edition, 2012)"
+    }
+  ]
+}

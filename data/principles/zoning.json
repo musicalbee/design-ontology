@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schema/principle.schema.json",
+  "id": "zoning",
+  "name": "Zoning",
+  "aliases": [
+    "functional zones",
+    "activity areas"
+  ],
+  "definition": "A space divides into areas with one activity each. A rug, a light, a ceiling change or a group of furniture marks a zone without a wall.",
+  "measures": [
+    {
+      "measure": "zones in one open room",
+      "unit": "count",
+      "reference": "2 to 4"
+    },
+    {
+      "measure": "zone marker",
+      "unit": "kind",
+      "reference": "rug, pendant, floor level, ceiling level, furniture back"
+    }
+  ],
+  "applies_to": [
+    "architecture",
+    "interior",
+    "design"
+  ],
+  "related": [
+    "grouping",
+    "circulation"
+  ],
+  "sources": [
+    {
+      "title": "Francis D. K. Ching, Architecture: Form, Space, and Order (Wiley, 4th edition, 2014)"
+    },
+    {
+      "title": "Ernst and Peter Neufert, Architects' Data (Wiley-Blackwell, 4th English edition, 2012)"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "interior",
+  "order": 3,
+  "name": "Interior",
+  "schema": "schema/domains/interior.schema.json",
+  "task": "planning, describing or rendering a room",
+  "vectors": [
+    { "key": "ornamentation", "label": "Ornamentation", "abbr": "ORN", "low": "plain surfaces, no applied decoration", "high": "pattern and ornament on every surface" },
+    { "key": "density", "label": "Density", "abbr": "DENS", "low": "few objects, wide empty floor", "high": "full floor, full walls, layered objects" },
+    { "key": "formality", "label": "Formality", "abbr": "FORM", "low": "free asymmetric placement", "high": "axial, mirrored placement" },
+    { "key": "material_naturalness", "label": "Material naturalness", "abbr": "NAT", "low": "synthetic, lacquered, plastic", "high": "raw wood, stone, linen, clay" },
+    { "key": "chromatic_intensity", "label": "Chromatic intensity", "abbr": "CHROMA", "low": "neutral, low chroma", "high": "saturated colour fields" }
+  ],
+  "facets": [
+    { "key": "composition", "title": "Spatial composition" },
+    { "key": "zoning", "title": "Zoning & circulation" },
+    { "key": "palette", "title": "Palette & colour distribution" },
+    { "key": "lighting", "title": "Lighting layers" },
+    { "key": "materials", "title": "Materials & finishes" },
+    { "key": "furniture", "title": "Furniture" },
+    { "key": "textiles", "title": "Textiles" },
+    { "key": "objects", "title": "Objects & decor" },
+    { "key": "implementation", "title": "Implementation primer: brief, image prompt, 3D scene" }
+  ]
+}

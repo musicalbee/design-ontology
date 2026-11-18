@@ -9,7 +9,7 @@
 import { Ajv2020 } from "ajv/dist/2020.js";
 import { join } from "node:path";
 import { RECIPE_NAMES } from "./pack.js";
-import { ROOT, loadDomains, loadEras, loadStyleFiles, readJson, type Style } from "./lib.js";
+import { ROOT, loadDomains, loadEras, loadPrinciples, loadStyleFiles, principleRefs, readJson, type Style } from "./lib.js";
 
 const schemaOnly = process.argv.includes("--schema-only");
 const errors: string[] = [];
@@ -21,6 +21,19 @@ ajv.addSchema(readJson<object>(join(ROOT, "schema", "core.schema.json")));
 const domains = loadDomains();
 const byId = new Map<string, Style>();
 let count = 0;
+
+// Shared composition principles: one schema, ids equal to file names, references that resolve.
+const validatePrinciple = ajv.compile(readJson<object>(join(ROOT, "schema", "principle.schema.json")));
+const principles = loadPrinciples();
+const principleIds = new Set(principles.map((p) => p.slug));
+for (const { file, slug, principle } of principles) {
+  if (!validatePrinciple(principle)) {
+    for (const e of validatePrinciple.errors ?? []) errors.push(`${file}: ${e.instancePath || "/"} ${e.message}`);
+    continue;
+  }
+  if (principle.id !== slug) errors.push(`${file}: id "${principle.id}" is not equal to the file name`);
+  for (const r of principle.related) if (!principleIds.has(r) || r === slug) errors.push(`${file}: related → "${r}" is not another principle`);
+}
 
 for (const domain of domains) {
   const validate = ajv.compile(readJson<object>(join(ROOT, domain.schema)));
@@ -44,6 +57,9 @@ for (const domain of domains) {
     const recipe = (style.visual as { art: { recipe: string } } | undefined)?.art.recipe;
     if (recipe && !RECIPE_NAMES.includes(recipe))
       errors.push(`${file}: visual.art.recipe "${recipe}" is not in scripts/pack.ts. Known: ${RECIPE_NAMES.join(", ")}`);
+
+    for (const ref of principleRefs(style))
+      if (!principleIds.has(ref)) errors.push(`${file}: principle "${ref}" is not in data/principles/`);
 
     for (const p of style.philosophy.anti_patterns)
       if (/^(never|do not|don't|avoid)\b/i.test(p))
@@ -87,7 +103,7 @@ if (!schemaOnly && errors.length === 0) {
 for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`error ${e}`);
 console.log(
-  `${count} styles in ${domains.length} domains · ${errors.length} errors · ${warnings.length} warnings` +
+  `${count} styles in ${domains.length} domains · ${principles.length} principles · ${errors.length} errors · ${warnings.length} warnings` +
     (schemaOnly ? " · schema only" : ""),
 );
 process.exit(errors.length ? 1 : 0);

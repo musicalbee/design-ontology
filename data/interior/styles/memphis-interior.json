@@ -1,0 +1,421 @@
+{
+  "$schema": "../../../schema/domains/interior.schema.json",
+  "id": "memphis-interior",
+  "domain": "interior",
+  "name": "Memphis interior",
+  "aliases": [
+    "Memphis Milano",
+    "Memphis Group interior",
+    "1980s postmodern interior"
+  ],
+  "identity": {
+    "wikidata": "Q1273221",
+    "aat": "300265730"
+  },
+  "era_id": "post-war-modern",
+  "time_period": {
+    "start": 1981,
+    "end": 1988,
+    "label": "1981–1988"
+  },
+  "room_types": [
+    "living",
+    "retail",
+    "hospitality",
+    "workspace"
+  ],
+  "summary": "The rooms of the Milan design group around Ettore Sottsass. Furniture is a stack of primary solids in plastic laminate, printed with squiggles and terrazzo chips in clashing colours; each piece stands alone like a sculpture, and no axis or rule of good taste orders the room.",
+  "philosophy": {
+    "core_thesis": "Function is not the only meaning of an object; colour, pattern and irony are functions too.",
+    "design_principles": [
+      "Build each piece from primary solids, such as a cylinder, a cone, a cube and a sphere, at clashing scales of 1:3 or more.",
+      "Cover 30–50% of the furniture surface with printed plastic laminate in squiggle, terrazzo or grid patterns at a 10–20 cm repeat.",
+      "Use 4–6 saturated hues and set complementary hues side by side with no neutral border.",
+      "Rotate pieces 15–45 degrees to the wall lines, and keep 60 cm or more of free floor around each piece.",
+      "Make one totem, such as a room divider or a bookcase 180 cm or taller, the focal point; keep the rest below 100 cm.",
+      "Treat each lamp as a sculpture with a visible bulb, neon tube or coloured glass.",
+      "Show no wood grain: lacquer, laminate and terrazzo cover every surface."
+    ],
+    "anti_patterns": [
+      "A mirrored layout about a centre line",
+      "Natural wood grain and oiled finishes",
+      "Matching sets of furniture in one colour",
+      "Beige, grey or tonal palettes with no saturated hue",
+      "Historical ornament used without irony",
+      "Hidden light sources and recessed lamps only"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 5,
+    "density": 3,
+    "formality": 1,
+    "material_naturalness": 1,
+    "chromatic_intensity": 5
+  },
+  "composition": {
+    "plan_logic": "No grid and no axis. Free-standing objects stand at angles on the floor, each with its own space around it, like works in a gallery.",
+    "focal_point": "One tall totem, such as a laminate room divider, placed off any axis near the middle of the back wall.",
+    "symmetry": "free",
+    "axis_count": 0,
+    "focal_wall": "centre",
+    "focal_position": 0.4,
+    "rhythm_module_cm": 15,
+    "depth_layers": 3,
+    "rules": [
+      {
+        "principle": "focal-point",
+        "rule": "Make one piece 180 cm or taller the focal point; every other piece stays below 100 cm.",
+        "value": "1 totem, 180 cm or more"
+      },
+      {
+        "principle": "symmetry-axis",
+        "rule": "Use no axis. Rotate pieces off the wall lines.",
+        "value": "0 axes, 15–45 degree rotation"
+      },
+      {
+        "principle": "balance",
+        "rule": "Balance by colour weight, not by mass: a small red or yellow piece balances a large grey or pastel one.",
+        "value": "colour weight, moment ratio 0.7–1.4"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Repeat a printed pattern on laminate and fabric.",
+        "value": "10–20 cm repeat"
+      },
+      {
+        "principle": "proportion",
+        "rule": "Combine primary solids at clashing scales in one piece: a thin rod on a fat cylinder, a big cone on a small cube.",
+        "value": "scale ratio 1:3 or more"
+      },
+      {
+        "principle": "contrast",
+        "rule": "Set complementary or clashing hues edge to edge with no neutral border between them.",
+        "value": "hue difference 120–180 degrees"
+      },
+      {
+        "principle": "unity-variety",
+        "rule": "Repeat a fixed set of hues and patterns through the room; each piece takes a new combination of them.",
+        "value": "4–6 hues, 2–3 patterns"
+      },
+      {
+        "principle": "negative-space",
+        "rule": "Leave free floor around each object, so that each reads as a sculpture.",
+        "value": "60 cm around each piece, 50% bare floor"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Set a small piece in front, the totem in the middle and a patterned wall behind.",
+        "value": "3 planes"
+      },
+      {
+        "principle": "zoning",
+        "rule": "Mark the zones by colour fields on the floor or the wall, not by rugs or screens.",
+        "value": "2–3 colour zones"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Keep a winding route between the objects.",
+        "value": "90 cm main, 60 cm between pieces"
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Give a pale ground the dominant share, two pastel or bright hues the secondary share, and black, red and yellow the accents.",
+        "value": "40/35/25"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Light the objects with spots and make each lamp a coloured sculpture.",
+        "value": "200 lux ambient, accent 4:1, 3000 K"
+      }
+    ]
+  },
+  "zoning": {
+    "zones": [
+      "sitting island",
+      "totem and display",
+      "table group"
+    ],
+    "circulation": "A free, winding route between objects that stand like sculptures in a gallery.",
+    "main_path_clear_cm": 90,
+    "secondary_path_clear_cm": 60,
+    "seat_to_table_cm": 40,
+    "conversation_diameter_cm": 260,
+    "floor_coverage_pct": 40,
+    "wall_coverage_pct": 30
+  },
+  "palette": {
+    "distribution": "A pale or white ground on walls and floor; pink and turquoise on large furniture faces; yellow, red and black on small parts, legs and pattern.",
+    "dominant_pct": 40,
+    "secondary_pct": 35,
+    "accent_pct": 25,
+    "colours": [
+      {
+        "name": "Gallery white",
+        "hex": "#F2EFE8",
+        "role": "dominant",
+        "surface": "walls and floor"
+      },
+      {
+        "name": "Flamingo pink",
+        "hex": "#F4A6C0",
+        "role": "secondary",
+        "surface": "laminate faces"
+      },
+      {
+        "name": "Turquoise",
+        "hex": "#1FB5C8",
+        "role": "secondary",
+        "surface": "laminate faces, upholstery"
+      },
+      {
+        "name": "Lemon yellow",
+        "hex": "#F7D02C",
+        "role": "accent",
+        "surface": "legs, knobs, lamp"
+      },
+      {
+        "name": "Signal red",
+        "hex": "#E4322B",
+        "role": "accent",
+        "surface": "small solids"
+      },
+      {
+        "name": "Pattern black",
+        "hex": "#111111",
+        "role": "accent",
+        "surface": "squiggle and grid prints"
+      },
+      {
+        "name": "Mint",
+        "hex": "#8DD8B5",
+        "role": "secondary",
+        "surface": "terrazzo ground"
+      }
+    ]
+  },
+  "lighting": {
+    "strategy": "Lamps are sculptures. Spots pick out each object, and coloured glass and neon add colour to the light.",
+    "daylight": "Plain windows with flat colour blinds; daylight is not part of the composition.",
+    "ambient_lux": 200,
+    "task_lux": 400,
+    "accent_ratio": 4,
+    "cct_k": 3000,
+    "cct_evening_k": 2700,
+    "cri_min": 90,
+    "layers": [
+      {
+        "layer": "ambient",
+        "source": "recessed downlights",
+        "position": "ceiling grid"
+      },
+      {
+        "layer": "accent",
+        "source": "track spots",
+        "position": "aimed at the totem and each object"
+      },
+      {
+        "layer": "decorative",
+        "source": "sculptural table and floor lamps",
+        "position": "free on the floor and on tables"
+      },
+      {
+        "layer": "decorative",
+        "source": "neon tube",
+        "position": "one wall or one object"
+      }
+    ]
+  },
+  "materials": {
+    "primary": [
+      "printed plastic laminate",
+      "lacquered MDF",
+      "terrazzo"
+    ],
+    "secondary": [
+      "glass",
+      "neon tube",
+      "chrome",
+      "printed cotton",
+      "painted metal"
+    ],
+    "finish": "Gloss and satin laminate and lacquer; flat colour on each face; no visible wood grain.",
+    "texture_contrast": "Pattern replaces texture. Printed laminate covers 30–50% of the furniture faces; the rest is flat colour."
+  },
+  "furniture": {
+    "silhouette": "Pieces built from stacked primary solids; shelves as arms at odd angles; tables on cylinder, cone or ball legs; chairs of discs and tubes.",
+    "arrangement": "Each piece stands alone, rotated off the wall lines, with 60 cm or more of floor around it.",
+    "seat_height_cm": 43,
+    "key_pieces": [
+      "laminate room divider",
+      "boxing-ring sofa bed",
+      "disc-and-ball chair",
+      "glass table on cone legs",
+      "sculptural floor lamp",
+      "terrazzo side table"
+    ]
+  },
+  "textiles": {
+    "fabrics": [
+      "printed cotton",
+      "plain synthetic carpet",
+      "vinyl"
+    ],
+    "pattern": "Squiggle, grid and terrazzo-chip prints at 10–20 cm repeats on 2 or 3 surfaces only; the other surfaces carry flat colour.",
+    "windows": "Bare windows or flat colour roller blinds."
+  },
+  "objects": {
+    "approach": "Each object is a design statement: ceramics of primary shapes, glass vases, a sculptural clock.",
+    "grouping": "Single objects on plinths or table tops with 30 cm of space around each.",
+    "max_per_surface": 3,
+    "hang_centre_cm": 150,
+    "items": [
+      "geometric ceramic vase",
+      "coloured glass vessel",
+      "sculptural clock",
+      "pop poster",
+      "plinth"
+    ]
+  },
+  "implementation": {
+    "brief": "A white room with free-standing laminate furniture in pink, turquoise, yellow and black. A tall room divider of stacked shapes is the focal point; a round sofa, a cone-leg table and a sculptural lamp stand at angles around it.",
+    "image_prompt": "Memphis Milano interior 1982, white gallery room, tall plastic laminate room divider of stacked geometric shapes with squiggle and grid patterns, flamingo pink and turquoise faces, lemon yellow and red accents, glass table on cone legs, disc chair, terrazzo side table, sculptural floor lamp, pieces rotated at angles, track spotlights, flat even colour, postmodern design photograph",
+    "negative_prompt": "Symmetry, wood grain, beige, tonal palette, matching sets, ornate classical furniture, dim warm light.",
+    "camera": "35 mm lens, camera at 140 cm, frontal view with the totem off-centre on a third.",
+    "scene_3d": "Room 600 x 500 cm, ceiling 300 cm. Even 3000 K ambient from a downlight grid; 4 spots at 4:1 on the objects; one magenta neon tube.",
+    "furniture_list": [
+      "room divider 190 x 40 x 195 cm",
+      "round sofa 200 cm",
+      "cone-leg glass table 100 cm",
+      "2 disc chairs",
+      "terrazzo side table",
+      "sculptural floor lamp"
+    ],
+    "material_list": [
+      "printed laminate, squiggle",
+      "printed laminate, grid",
+      "lacquer in 5 hues",
+      "terrazzo",
+      "clear glass",
+      "neon"
+    ],
+    "references": []
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "bauhaus-interior",
+      "mid-century-modern-interior"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "memphis-design"
+    ]
+  },
+  "emotion": {
+    "target_response": "Surprise and play: the viewer laughs at the room and sees that good taste is a rule that one can break.",
+    "keywords": [
+      "playful",
+      "ironic",
+      "loud",
+      "graphic",
+      "provocative"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "outlaw",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "memphis",
+      "memphis milano",
+      "sottsass",
+      "1980s postmodern",
+      "squiggle pattern",
+      "laminate furniture",
+      "postmodern interior",
+      "80s design"
+    ],
+    "use_cases": [
+      "retail and pop-up stores",
+      "creative offices",
+      "bars and cafés",
+      "exhibition design",
+      "music video sets"
+    ],
+    "avoid_when": [
+      "The brief asks for rest, calm or a long-lived neutral room.",
+      "The users need a quiet room for work or sleep."
+    ],
+    "modifiers": [
+      {
+        "request": "softer and more current",
+        "toward": "dopamine-decor",
+        "how": "Change the laminate to velvet and bouclé, round the forms and use the colours in fields; keep 4–6 saturated hues."
+      },
+      {
+        "request": "calmer",
+        "toward": "mid-century-modern-interior",
+        "how": "Reduce accents to 10%, add wood and a rug, and put the pieces back on one axis; keep the free group."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "Memphis Milano interior",
+      "plastic laminate furniture",
+      "squiggle pattern",
+      "terrazzo chips",
+      "primary geometric solids",
+      "pink turquoise yellow black",
+      "sculptural lamp",
+      "pieces at angles",
+      "gallery white room",
+      "postmodern 1980s"
+    ],
+    "negative": [
+      "symmetry",
+      "wood grain",
+      "beige",
+      "matching sets",
+      "classical ornament",
+      "dim warm light"
+    ],
+    "canonical_works": [
+      {
+        "work": "First Memphis exhibition, Arc '74 showroom, Milan",
+        "architect": "Memphis Group",
+        "year": 1981
+      },
+      {
+        "work": "Carlton room divider",
+        "architect": "Ettore Sottsass",
+        "year": 1981
+      },
+      {
+        "work": "Tawaraya boxing-ring bed",
+        "architect": "Masanori Umeda",
+        "year": 1981
+      },
+      {
+        "work": "First chair",
+        "architect": "Michele De Lucchi",
+        "year": 1983
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Barbara Radice, Memphis: Research, Experiences, Results, Failures and Successes of New Design (Rizzoli, 1984)"
+    },
+    {
+      "title": "Wikidata Q1273221: Memphis Group",
+      "url": "https://www.wikidata.org/wiki/Q1273221"
+    },
+    {
+      "title": "Getty AAT 300265730",
+      "url": "https://vocab.getty.edu/page/aat/300265730"
+    }
+  ]
+}

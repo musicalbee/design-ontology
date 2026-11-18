@@ -28,6 +28,17 @@
         "material_rawness",
         "monumentality"
       ]
+    },
+    {
+      "id": "interior",
+      "name": "Interior",
+      "axes": [
+        "ornamentation",
+        "density",
+        "formality",
+        "material_naturalness",
+        "chromatic_intensity"
+      ]
     }
   ],
   "nodes": [
@@ -315,11 +326,141 @@
         "material_rawness": 5,
         "monumentality": 5
       }
+    },
+    {
+      "id": "shaker-interior",
+      "domain": "interior",
+      "name": "Shaker",
+      "era": "industrial-century",
+      "start": 1820,
+      "end": 1860,
+      "vectors": {
+        "ornamentation": 1,
+        "density": 1,
+        "formality": 4,
+        "material_naturalness": 5,
+        "chromatic_intensity": 2
+      }
+    },
+    {
+      "id": "bauhaus-interior",
+      "domain": "interior",
+      "name": "Bauhaus interior",
+      "era": "modern-reform",
+      "start": 1919,
+      "end": 1933,
+      "vectors": {
+        "ornamentation": 1,
+        "density": 2,
+        "formality": 2,
+        "material_naturalness": 2,
+        "chromatic_intensity": 3
+      }
+    },
+    {
+      "id": "mid-century-modern-interior",
+      "domain": "interior",
+      "name": "Mid-century modern interior",
+      "era": "post-war-modern",
+      "start": 1945,
+      "end": 1969,
+      "vectors": {
+        "ornamentation": 2,
+        "density": 2,
+        "formality": 2,
+        "material_naturalness": 3,
+        "chromatic_intensity": 3
+      }
+    },
+    {
+      "id": "scandinavian-interior",
+      "domain": "interior",
+      "name": "Scandinavian interior",
+      "era": "post-war-modern",
+      "start": 1950,
+      "end": null,
+      "vectors": {
+        "ornamentation": 1,
+        "density": 2,
+        "formality": 3,
+        "material_naturalness": 4,
+        "chromatic_intensity": 1
+      }
+    },
+    {
+      "id": "memphis-interior",
+      "domain": "interior",
+      "name": "Memphis interior",
+      "era": "post-war-modern",
+      "start": 1981,
+      "end": 1988,
+      "vectors": {
+        "ornamentation": 5,
+        "density": 3,
+        "formality": 1,
+        "material_naturalness": 1,
+        "chromatic_intensity": 5
+      }
+    },
+    {
+      "id": "japandi-interior",
+      "domain": "interior",
+      "name": "Japandi",
+      "era": "networked-home",
+      "start": 2016,
+      "end": null,
+      "vectors": {
+        "ornamentation": 1,
+        "density": 1,
+        "formality": 3,
+        "material_naturalness": 5,
+        "chromatic_intensity": 1
+      }
+    },
+    {
+      "id": "dopamine-decor",
+      "domain": "interior",
+      "name": "Dopamine decor",
+      "era": "networked-home",
+      "start": 2021,
+      "end": null,
+      "vectors": {
+        "ornamentation": 4,
+        "density": 4,
+        "formality": 1,
+        "material_naturalness": 2,
+        "chromatic_intensity": 5
+      }
+    },
+    {
+      "id": "quiet-luxury-interior",
+      "domain": "interior",
+      "name": "Quiet luxury",
+      "era": "networked-home",
+      "start": 2022,
+      "end": null,
+      "vectors": {
+        "ornamentation": 2,
+        "density": 2,
+        "formality": 4,
+        "material_naturalness": 4,
+        "chromatic_intensity": 1
+      }
     }
   ],
   "edges": [
     {
       "from": "bauhaus",
+      "to": "bauhaus-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "bauhaus",
+      "to": "international-style-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "bauhaus-interior",
       "to": "international-style-architecture",
       "type": "ECHOES"
     },
@@ -329,8 +470,28 @@
       "type": "ECHOES"
     },
     {
+      "from": "dopamine-decor",
+      "to": "memphis-design",
+      "type": "ECHOES"
+    },
+    {
+      "from": "international-style-architecture",
+      "to": "mid-century-modern-interior",
+      "type": "ECHOES"
+    },
+    {
       "from": "international-style-architecture",
       "to": "swiss-international",
+      "type": "ECHOES"
+    },
+    {
+      "from": "memphis-design",
+      "to": "memphis-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "mid-century-modern",
+      "to": "mid-century-modern-interior",
       "type": "ECHOES"
     },
     {
@@ -359,6 +520,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "dopamine-decor",
+      "to": "memphis-interior",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "flat-design",
       "to": "swiss-international",
       "type": "EVOLVED_FROM"
@@ -374,6 +540,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "japandi-interior",
+      "to": "scandinavian-interior",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "material-design",
       "to": "flat-design",
       "type": "EVOLVED_FROM"
@@ -384,6 +555,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "mid-century-modern-interior",
+      "to": "bauhaus-interior",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "neo-brutalism-ui",
       "to": "flat-design",
       "type": "EVOLVED_FROM"
@@ -391,6 +567,16 @@
     {
       "from": "neumorphism",
       "to": "skeuomorphism",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "quiet-luxury-interior",
+      "to": "japandi-interior",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "scandinavian-interior",
+      "to": "shaker-interior",
       "type": "EVOLVED_FROM"
     },
     {
@@ -454,9 +640,24 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "mid-century-modern-interior",
+      "to": "scandinavian-interior",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "skeuomorphism",
       "to": "spatial-visionos",
       "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "dopamine-decor",
+      "to": "japandi-interior",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "dopamine-decor",
+      "to": "scandinavian-interior",
+      "type": "REBELLED_AGAINST"
     },
     {
       "from": "flat-design",
@@ -471,6 +672,16 @@
     {
       "from": "memphis-design",
       "to": "swiss-international",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "memphis-interior",
+      "to": "bauhaus-interior",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "memphis-interior",
+      "to": "mid-century-modern-interior",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -494,6 +705,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "quiet-luxury-interior",
+      "to": "dopamine-decor",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "y2k-aesthetic",
       "to": "grunge-editorial",
       "type": "REBELLED_AGAINST"
@@ -512,6 +728,7 @@
         "swiss-international"
       ],
       "echoes": [
+        "bauhaus-interior",
         "international-style-architecture"
       ],
       "nearest_by_vector": [
@@ -539,7 +756,9 @@
       "hybridized_with": [
         "swiss-international"
       ],
-      "echoes": [],
+      "echoes": [
+        "mid-century-modern-interior"
+      ],
       "nearest_by_vector": [
         {
           "id": "neo-brutalism-ui",
@@ -629,7 +848,10 @@
       "hybridized_with": [
         "corporate-memphis"
       ],
-      "echoes": [],
+      "echoes": [
+        "dopamine-decor",
+        "memphis-interior"
+      ],
       "nearest_by_vector": [
         {
           "id": "psychedelic",
@@ -1000,6 +1222,8 @@
       "hybridized_with": [],
       "echoes": [
         "bauhaus",
+        "bauhaus-interior",
+        "mid-century-modern-interior",
         "swiss-international"
       ],
       "nearest_by_vector": [
@@ -1024,6 +1248,234 @@
         {
           "id": "international-style-architecture",
           "distance": 4.24
+        }
+      ]
+    },
+    "shaker-interior": {
+      "evolved_from": [],
+      "evolved_into": [
+        "scandinavian-interior"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "japandi-interior",
+          "distance": 1.41
+        },
+        {
+          "id": "quiet-luxury-interior",
+          "distance": 2
+        },
+        {
+          "id": "scandinavian-interior",
+          "distance": 2
+        }
+      ]
+    },
+    "bauhaus-interior": {
+      "evolved_from": [],
+      "evolved_into": [
+        "mid-century-modern-interior"
+      ],
+      "rebelled_against": [],
+      "provoked": [
+        "memphis-interior"
+      ],
+      "hybridized_with": [],
+      "echoes": [
+        "bauhaus",
+        "international-style-architecture"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "mid-century-modern-interior",
+          "distance": 1.41
+        },
+        {
+          "id": "scandinavian-interior",
+          "distance": 3
+        },
+        {
+          "id": "quiet-luxury-interior",
+          "distance": 3.61
+        }
+      ]
+    },
+    "mid-century-modern-interior": {
+      "evolved_from": [
+        "bauhaus-interior"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [
+        "memphis-interior"
+      ],
+      "hybridized_with": [
+        "scandinavian-interior"
+      ],
+      "echoes": [
+        "international-style-architecture",
+        "mid-century-modern"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "bauhaus-interior",
+          "distance": 1.41
+        },
+        {
+          "id": "scandinavian-interior",
+          "distance": 2.65
+        },
+        {
+          "id": "quiet-luxury-interior",
+          "distance": 3
+        }
+      ]
+    },
+    "scandinavian-interior": {
+      "evolved_from": [
+        "shaker-interior"
+      ],
+      "evolved_into": [
+        "japandi-interior"
+      ],
+      "rebelled_against": [],
+      "provoked": [
+        "dopamine-decor"
+      ],
+      "hybridized_with": [
+        "mid-century-modern-interior"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "japandi-interior",
+          "distance": 1.41
+        },
+        {
+          "id": "quiet-luxury-interior",
+          "distance": 1.41
+        },
+        {
+          "id": "shaker-interior",
+          "distance": 2
+        }
+      ]
+    },
+    "memphis-interior": {
+      "evolved_from": [],
+      "evolved_into": [
+        "dopamine-decor"
+      ],
+      "rebelled_against": [
+        "bauhaus-interior",
+        "mid-century-modern-interior"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "memphis-design"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "dopamine-decor",
+          "distance": 1.73
+        },
+        {
+          "id": "mid-century-modern-interior",
+          "distance": 4.36
+        },
+        {
+          "id": "bauhaus-interior",
+          "distance": 4.8
+        }
+      ]
+    },
+    "japandi-interior": {
+      "evolved_from": [
+        "scandinavian-interior"
+      ],
+      "evolved_into": [
+        "quiet-luxury-interior"
+      ],
+      "rebelled_against": [],
+      "provoked": [
+        "dopamine-decor"
+      ],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "scandinavian-interior",
+          "distance": 1.41
+        },
+        {
+          "id": "shaker-interior",
+          "distance": 1.41
+        },
+        {
+          "id": "quiet-luxury-interior",
+          "distance": 2
+        }
+      ]
+    },
+    "dopamine-decor": {
+      "evolved_from": [
+        "memphis-interior"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "japandi-interior",
+        "scandinavian-interior"
+      ],
+      "provoked": [
+        "quiet-luxury-interior"
+      ],
+      "hybridized_with": [],
+      "echoes": [
+        "memphis-design"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "memphis-interior",
+          "distance": 1.73
+        },
+        {
+          "id": "mid-century-modern-interior",
+          "distance": 3.74
+        },
+        {
+          "id": "bauhaus-interior",
+          "distance": 4.24
+        }
+      ]
+    },
+    "quiet-luxury-interior": {
+      "evolved_from": [
+        "japandi-interior"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "dopamine-decor"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "scandinavian-interior",
+          "distance": 1.41
+        },
+        {
+          "id": "japandi-interior",
+          "distance": 2
+        },
+        {
+          "id": "shaker-interior",
+          "distance": 2
         }
       ]
     }

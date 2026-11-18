@@ -1,0 +1,272 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-ontology.dev/schema/domains/interior.schema.json",
+  "title": "Interior style",
+  "description": "One interior style as a set of rules for a room. It shares identity, philosophy, lineage, emotion and agent routing with every other domain. Its core is the composition layer: each rule names a shared principle (data/principles/) and gives a number.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "domain", "name", "aliases", "era_id", "time_period", "room_types", "summary",
+    "philosophy", "vectors", "composition", "zoning", "palette", "lighting", "materials",
+    "furniture", "textiles", "objects", "implementation", "lineage", "emotion", "agent", "primer", "sources"
+  ],
+  "$defs": {
+    "cm": { "type": "integer", "minimum": 0, "maximum": 1000, "description": "A length in centimetres." },
+    "pct": { "type": "integer", "minimum": 0, "maximum": 100, "description": "A share in per cent." },
+    "words": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "$ref": "../core.schema.json#/$defs/shortText" }
+    }
+  },
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": { "$ref": "../core.schema.json#/$defs/slug" },
+    "domain": { "const": "interior" },
+    "name": { "$ref": "../core.schema.json#/$defs/shortText" },
+    "aliases": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "$ref": "../core.schema.json#/$defs/shortText" }
+    },
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Open identifiers for the style. Store an id only when the record exists and matches the style.",
+      "properties": {
+        "wikidata": { "type": "string", "pattern": "^Q[0-9]+$" },
+        "aat": { "type": "string", "pattern": "^3[0-9]{8}$", "description": "Getty Art & Architecture Thesaurus subject id (ODC-By 1.0)." }
+      }
+    },
+    "era_id": { "$ref": "../core.schema.json#/$defs/slug", "description": "An id from data/interior/eras/." },
+    "time_period": { "$ref": "../core.schema.json#/$defs/time_period" },
+    "room_types": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "enum": ["living", "dining", "bedroom", "kitchen", "bathroom", "workspace", "hospitality", "retail", "public"] }
+    },
+    "summary": { "type": "string", "minLength": 40, "maxLength": 320 },
+    "philosophy": { "$ref": "../core.schema.json#/$defs/philosophy" },
+    "vectors": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ornamentation", "density", "formality", "material_naturalness", "chromatic_intensity"],
+      "properties": {
+        "ornamentation": { "$ref": "../core.schema.json#/$defs/score", "description": "1 = plain surfaces, 5 = pattern and ornament on every surface." },
+        "density": { "$ref": "../core.schema.json#/$defs/score", "description": "1 = few objects and wide empty floor, 5 = full floor, full walls, layered objects." },
+        "formality": { "$ref": "../core.schema.json#/$defs/score", "description": "1 = free asymmetric placement, 5 = axial, mirrored placement." },
+        "material_naturalness": { "$ref": "../core.schema.json#/$defs/score", "description": "1 = synthetic, lacquered, plastic, 5 = raw wood, stone, linen, clay." },
+        "chromatic_intensity": { "$ref": "../core.schema.json#/$defs/score", "description": "1 = neutral, low chroma, 5 = saturated colour fields." }
+      }
+    },
+    "composition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["plan_logic", "focal_point", "symmetry", "axis_count", "focal_wall", "focal_position", "rhythm_module_cm", "depth_layers", "rules"],
+      "description": "The core of the domain. The scalar fields drive a parametric room; the rules table gives one numbered rule for each shared principle.",
+      "properties": {
+        "plan_logic": { "$ref": "../core.schema.json#/$defs/sentence", "description": "How the plan is ordered: axis, grid, cluster or free plan." },
+        "focal_point": { "$ref": "../core.schema.json#/$defs/sentence", "description": "What the eye finds first, and where it sits." },
+        "symmetry": { "enum": ["bilateral", "radial", "asymmetric", "free"], "description": "bilateral = mirrored about an axis; asymmetric = balanced by unequal masses; free = no balance rule." },
+        "axis_count": { "type": "integer", "minimum": 0, "maximum": 3, "description": "Number of ordering axes in the plan." },
+        "focal_wall": { "enum": ["back", "left", "right", "window", "centre"], "description": "Where the focal point sits in a room seen from its entrance. centre = a free-standing piece in the middle of the floor." },
+        "focal_position": { "type": "number", "minimum": 0, "maximum": 1, "description": "Position of the focal point along its wall, 0 = left end, 1 = right end. 0.5 = on the axis, 0.33 or 0.67 = on a third." },
+        "rhythm_module_cm": { "$ref": "#/$defs/cm", "description": "The interval that repeats: a bay, a panel, a shelf, a peg rail." },
+        "depth_layers": { "type": "integer", "minimum": 1, "maximum": 5, "description": "Number of planes in depth from the entrance view: foreground, middle ground, back wall and so on." },
+        "rules": {
+          "type": "array",
+          "minItems": 8,
+          "maxItems": 16,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["principle", "rule", "value"],
+            "properties": {
+              "principle": { "$ref": "../core.schema.json#/$defs/slug", "description": "An id from data/principles/." },
+              "rule": { "$ref": "../core.schema.json#/$defs/sentence" },
+              "value": { "$ref": "../core.schema.json#/$defs/shortText", "description": "The number: a ratio, a count, a length in cm, a share in %." }
+            }
+          }
+        }
+      }
+    },
+    "zoning": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["zones", "circulation", "main_path_clear_cm", "secondary_path_clear_cm", "seat_to_table_cm", "conversation_diameter_cm", "floor_coverage_pct", "wall_coverage_pct"],
+      "properties": {
+        "zones": { "$ref": "#/$defs/words", "description": "The zones of a typical living room in this style." },
+        "circulation": { "$ref": "../core.schema.json#/$defs/sentence" },
+        "main_path_clear_cm": { "$ref": "#/$defs/cm", "description": "Clear width of the main route through the room." },
+        "secondary_path_clear_cm": { "$ref": "#/$defs/cm", "description": "Clear width between pieces of furniture." },
+        "seat_to_table_cm": { "$ref": "#/$defs/cm", "description": "Gap from the front edge of a seat to the low table." },
+        "conversation_diameter_cm": { "$ref": "#/$defs/cm", "description": "Diameter of the circle that holds the main seats." },
+        "floor_coverage_pct": { "$ref": "#/$defs/pct", "description": "Share of the floor under furniture and rugs. The rest is negative space." },
+        "wall_coverage_pct": { "$ref": "#/$defs/pct", "description": "Share of the wall area under art, shelves, panels or objects." }
+      }
+    },
+    "palette": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["distribution", "dominant_pct", "secondary_pct", "accent_pct", "colours"],
+      "properties": {
+        "distribution": { "$ref": "../core.schema.json#/$defs/sentence", "description": "Where each colour goes." },
+        "dominant_pct": { "$ref": "#/$defs/pct" },
+        "secondary_pct": { "$ref": "#/$defs/pct" },
+        "accent_pct": { "$ref": "#/$defs/pct" },
+        "colours": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "hex", "role", "surface"],
+            "properties": {
+              "name": { "$ref": "../core.schema.json#/$defs/shortText" },
+              "hex": { "type": "string", "pattern": "^#[0-9A-F]{6}$" },
+              "role": { "enum": ["dominant", "secondary", "accent", "metal", "wood"] },
+              "surface": { "$ref": "../core.schema.json#/$defs/shortText" }
+            }
+          }
+        }
+      }
+    },
+    "lighting": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["strategy", "daylight", "ambient_lux", "task_lux", "accent_ratio", "cct_k", "cct_evening_k", "cri_min", "layers"],
+      "properties": {
+        "strategy": { "$ref": "../core.schema.json#/$defs/sentence" },
+        "daylight": { "$ref": "../core.schema.json#/$defs/sentence" },
+        "ambient_lux": { "type": "integer", "minimum": 10, "maximum": 1000, "description": "Mean illuminance at floor level from the ambient layer." },
+        "task_lux": { "type": "integer", "minimum": 100, "maximum": 2000, "description": "Illuminance on a reading or work surface." },
+        "accent_ratio": { "type": "number", "minimum": 1, "maximum": 20, "description": "Accent illuminance on the focal point divided by ambient illuminance. 3 means 3:1." },
+        "cct_k": { "type": "integer", "minimum": 1800, "maximum": 6500, "description": "Correlated colour temperature of the artificial light by day, in kelvin." },
+        "cct_evening_k": { "type": "integer", "minimum": 1800, "maximum": 6500, "description": "Correlated colour temperature after dark, in kelvin." },
+        "cri_min": { "type": "integer", "minimum": 70, "maximum": 100, "description": "Lowest colour rendering index for the lamps." },
+        "layers": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["layer", "source", "position"],
+            "properties": {
+              "layer": { "enum": ["ambient", "task", "accent", "decorative", "daylight"] },
+              "source": { "$ref": "../core.schema.json#/$defs/shortText" },
+              "position": { "$ref": "../core.schema.json#/$defs/shortText" }
+            }
+          }
+        }
+      }
+    },
+    "materials": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["primary", "secondary", "finish", "texture_contrast"],
+      "properties": {
+        "primary": { "$ref": "#/$defs/words" },
+        "secondary": { "$ref": "#/$defs/words" },
+        "finish": { "$ref": "../core.schema.json#/$defs/sentence", "description": "Sheen and treatment: matt, oiled, lacquered, polished." },
+        "texture_contrast": { "$ref": "../core.schema.json#/$defs/sentence", "description": "How smooth and rough surfaces alternate, with a ratio where possible." }
+      }
+    },
+    "furniture": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["silhouette", "arrangement", "seat_height_cm", "key_pieces"],
+      "properties": {
+        "silhouette": { "$ref": "../core.schema.json#/$defs/sentence" },
+        "arrangement": { "$ref": "../core.schema.json#/$defs/sentence" },
+        "seat_height_cm": { "$ref": "#/$defs/cm", "description": "Seat height of the main sofa or chairs." },
+        "key_pieces": { "$ref": "#/$defs/words" }
+      }
+    },
+    "textiles": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["fabrics", "pattern", "windows"],
+      "properties": {
+        "fabrics": { "$ref": "#/$defs/words" },
+        "pattern": { "$ref": "../core.schema.json#/$defs/sentence" },
+        "windows": { "$ref": "../core.schema.json#/$defs/sentence" }
+      }
+    },
+    "objects": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["approach", "grouping", "max_per_surface", "hang_centre_cm", "items"],
+      "properties": {
+        "approach": { "$ref": "../core.schema.json#/$defs/sentence" },
+        "grouping": { "$ref": "../core.schema.json#/$defs/sentence" },
+        "max_per_surface": { "type": "integer", "minimum": 0, "maximum": 30, "description": "Most objects on one shelf, table top or sill." },
+        "hang_centre_cm": { "$ref": "#/$defs/cm", "description": "Height of the centre of hung art above the floor. 0 = the style hangs no art." },
+        "items": { "$ref": "#/$defs/words" }
+      }
+    },
+    "implementation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["brief", "image_prompt", "negative_prompt", "camera", "scene_3d", "furniture_list", "material_list", "references"],
+      "description": "The implementation layer of the interior domain. It is to a room what CSS tokens are to a UI style.",
+      "properties": {
+        "brief": { "$ref": "../core.schema.json#/$defs/sentence", "description": "A design brief in two or three sentences." },
+        "image_prompt": { "type": "string", "minLength": 40, "maxLength": 700 },
+        "negative_prompt": { "$ref": "../core.schema.json#/$defs/sentence" },
+        "camera": { "$ref": "../core.schema.json#/$defs/sentence", "description": "Lens in mm, camera height in cm, view direction." },
+        "scene_3d": { "$ref": "../core.schema.json#/$defs/sentence", "description": "Room size, ceiling height, light rig for a 3D scene." },
+        "furniture_list": { "$ref": "#/$defs/words" },
+        "material_list": { "$ref": "#/$defs/words" },
+        "references": {
+          "type": "array",
+          "maxItems": 6,
+          "description": "Reference images. Only CC0 or public-domain records; the repository stores the link and the credit, not the file.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["title", "credit", "licence", "url"],
+            "properties": {
+              "title": { "$ref": "../core.schema.json#/$defs/shortText" },
+              "credit": { "type": "string", "minLength": 3, "maxLength": 200 },
+              "licence": { "enum": ["CC0", "Public domain"] },
+              "url": { "type": "string", "pattern": "^https://" }
+            }
+          }
+        }
+      }
+    },
+    "lineage": { "$ref": "../core.schema.json#/$defs/lineage" },
+    "emotion": { "$ref": "../core.schema.json#/$defs/emotion" },
+    "agent": { "$ref": "../core.schema.json#/$defs/agent" },
+    "primer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["positive", "negative", "canonical_works"],
+      "description": "Vocabulary for image, 3D and brief generation. The compiler renders canonical works as a table with the column Architect; for an interior, that column holds the designer or maker.",
+      "properties": {
+        "positive": { "type": "array", "minItems": 5, "maxItems": 16, "items": { "$ref": "../core.schema.json#/$defs/shortText" } },
+        "negative": { "type": "array", "minItems": 3, "maxItems": 12, "items": { "$ref": "../core.schema.json#/$defs/shortText" } },
+        "canonical_works": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["work", "architect", "year"],
+            "properties": {
+              "work": { "$ref": "../core.schema.json#/$defs/shortText" },
+              "architect": { "$ref": "../core.schema.json#/$defs/shortText", "description": "Designer, maker or community." },
+              "year": { "type": "integer", "minimum": 1600, "maximum": 2100 }
+            }
+          }
+        }
+      }
+    },
+    "sources": { "$ref": "../core.schema.json#/$defs/sources" }
+  }
+}

@@ -242,6 +242,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`corporate-memphis`](../corporate-memphis/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`swiss-international`](../swiss-international/SKILL.md)
 - **Mixes well with:** [`corporate-memphis`](../corporate-memphis/SKILL.md)
+- **Kin in another domain:** [`dopamine-decor`](../dopamine-decor/SKILL.md), [`memphis-interior`](../memphis-interior/SKILL.md)
 - **Nearest by vector profile:** [`psychedelic`](../psychedelic/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
 
 ## Emotional target

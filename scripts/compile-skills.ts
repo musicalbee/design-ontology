@@ -6,11 +6,12 @@
 import Handlebars from "handlebars";
 import { existsSync, readFileSync, readdirSync, rmSync } from "node:fs";
 import { join } from "node:path";
-import { ROOT, loadAll, readJson, write, type Domain, type Style } from "./lib.js";
+import { ROOT, loadAll, loadPrinciples, principleRefs, readJson, write, type Domain, type Style } from "./lib.js";
 import { ICON_NAMES, derivedTokens, heroSvg, iconSprite, patternSvg, typeTokens, type IconPack, type Visual } from "./pack.js";
 
 const { domains, eras, styles } = loadAll();
 const byId = new Map(styles.map((s) => [s.id, s]));
+const principles = new Map(loadPrinciples().map((p) => [p.principle.id, p.principle]));
 
 const graphPath = join(ROOT, "graph", "lineage.json");
 if (!existsSync(graphPath)) {
@@ -25,8 +26,23 @@ if (styles.some((s) => !adjacency[s.id]) || Object.keys(adjacency).length !== st
 }
 
 // ── markdown helpers ────────────────────────────────────────────────────────
-const LABELS: Record<string, string> = { duration_ms: "Duration (ms)", native: "Born on screen", hex: "Hex" };
-const human = (key: string) => LABELS[key] ?? key.replace(/_/g, " ").replace(/^./, (c) => c.toUpperCase());
+const LABELS: Record<string, string> = {
+  duration_ms: "Duration (ms)",
+  native: "Born on screen",
+  hex: "Hex",
+  cct_k: "Colour temperature (K)",
+  cct_evening_k: "Evening colour temperature (K)",
+  cri_min: "Minimum CRI",
+  scene_3d: "3D scene",
+};
+/** A key that ends in a unit takes the unit in brackets: `seat_height_cm` → "Seat height (cm)". */
+const UNITS: Record<string, string> = { cm: "cm", pct: "%", k: "K", lux: "lux", ms: "ms" };
+const human = (key: string) => {
+  if (LABELS[key]) return LABELS[key];
+  const m = key.match(/^(.+)_(cm|pct|k|lux|ms)$/);
+  const base = (m ? m[1] : key).replace(/_/g, " ").replace(/^./, (c) => c.toUpperCase());
+  return m ? `${base} (${UNITS[m[2]]})` : base;
+};
 const cell = (v: unknown) => String(v ?? "").replace(/\|/g, "\\|");
 const link = (id: string) => `[\`${id}\`](../${id}/SKILL.md)`;
 
@@ -36,6 +52,7 @@ function renderFacet(facet: Record<string, unknown>): string {
   const tables: string[] = [];
   for (const [key, value] of Object.entries(facet)) {
     const label = human(key);
+    if (Array.isArray(value) && !value.length) continue;
     if (typeof value === "string" || typeof value === "number") lines.push(`- **${label}:** ${value}`);
     else if (typeof value === "boolean") lines.push(`- **${label}:** ${value ? "yes" : "no — the values here translate a print style for screen"}`);
     else if (Array.isArray(value) && value.every((v) => typeof v === "string")) {
@@ -150,6 +167,10 @@ function view(style: Style, domain: Domain) {
       icon_pack: { ...iconPack(style), why: visualOf(style)!.icon.pack.why },
       icon_rules: iconRules,
     },
+    composition_principles: principleRefs(style).map((id) => {
+      const p = principles.get(id)!;
+      return { id, name: p.name, definition: p.definition, measures: p.measures.map((m) => `${m.measure} (${m.unit}): ${m.reference}`).join("; ") };
+    }),
     primer: style.primer && {
       positive: style.primer.positive.join(", "),
       negative: style.primer.negative.join(", "),

@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schema/principle.schema.json",
+  "id": "grouping",
+  "name": "Grouping",
+  "aliases": [
+    "proximity",
+    "clustering"
+  ],
+  "definition": "Elements close to each other read as one group. The gap inside a group is smaller than the gap between groups.",
+  "measures": [
+    {
+      "measure": "gap between groups to gap inside a group",
+      "unit": "ratio",
+      "reference": "2:1 or more"
+    },
+    {
+      "measure": "elements in a group",
+      "unit": "count",
+      "reference": "3 or 5 for an informal group, pairs for a formal group"
+    }
+  ],
+  "applies_to": [
+    "design",
+    "architecture",
+    "interior",
+    "photography",
+    "painting"
+  ],
+  "related": [
+    "unity-variety",
+    "zoning",
+    "negative-space"
+  ],
+  "sources": [
+    {
+      "title": "Max Wertheimer, Laws of Organization in Perceptual Forms (1923)"
+    },
+    {
+      "title": "Rudolf Arnheim, Art and Visual Perception: A Psychology of the Creative Eye (University of California Press, 1954; new version 1974)"
+    }
+  ]
+}

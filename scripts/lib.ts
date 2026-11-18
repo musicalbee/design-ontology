@@ -45,6 +45,18 @@ export interface Style {
   [facet: string]: unknown;
 }
 
+export interface Principle {
+  id: string;
+  name: string;
+  aliases: string[];
+  definition: string;
+  measures: { measure: string; unit: string; reference: string }[];
+  applies_to: string[];
+  related: string[];
+  identity?: { wikidata?: string; aat?: string };
+  sources: { title: string; url?: string }[];
+}
+
 export const readJson = <T>(path: string): T => JSON.parse(readFileSync(path, "utf8")) as T;
 
 const jsonFiles = (dir: string): string[] =>
@@ -62,6 +74,27 @@ export function loadEras(domain: string): Era[] {
   return jsonFiles(dir)
     .map((f) => readJson<Era>(join(dir, f)))
     .sort((a, b) => a.order - b.order);
+}
+
+/** The shared composition principles in data/principles/, by id. */
+export function loadPrinciples(): { file: string; slug: string; principle: Principle }[] {
+  const dir = join(ROOT, "data", "principles");
+  return jsonFiles(dir).map((f) => ({
+    file: join("data", "principles", f),
+    slug: f.replace(/\.json$/, ""),
+    principle: readJson<Principle>(join(dir, f)),
+  }));
+}
+
+/** Every principle id that a style names, in order of first use. It reads any object with a string `principle` key, at any depth. */
+export function principleRefs(value: unknown, out: string[] = []): string[] {
+  if (Array.isArray(value)) for (const v of value) principleRefs(v, out);
+  else if (value && typeof value === "object") {
+    const p = (value as { principle?: unknown }).principle;
+    if (typeof p === "string" && !out.includes(p)) out.push(p);
+    for (const v of Object.values(value)) principleRefs(v, out);
+  }
+  return out;
 }
 
 export interface StyleFile { file: string; slug: string; style: Style }

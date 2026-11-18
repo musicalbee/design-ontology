@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schema/principle.schema.json",
+  "id": "colour-distribution",
+  "name": "Colour distribution",
+  "aliases": [
+    "60/30/10 rule",
+    "colour proportion"
+  ],
+  "definition": "Each colour takes a planned share of the visible area: a dominant colour, a secondary colour and an accent.",
+  "measures": [
+    {
+      "measure": "dominant / secondary / accent share",
+      "unit": "% of visible surface",
+      "reference": "60/30/10 as the default; 70/25/5 calm; 40/35/25 bold"
+    },
+    {
+      "measure": "accents",
+      "unit": "count",
+      "reference": "1 to 3"
+    }
+  ],
+  "applies_to": [
+    "design",
+    "architecture",
+    "interior",
+    "photography",
+    "painting"
+  ],
+  "related": [
+    "contrast",
+    "unity-variety",
+    "focal-point"
+  ],
+  "sources": [
+    {
+      "title": "Johannes Itten, The Art of Color (Reinhold, 1961)"
+    }
+  ]
+}

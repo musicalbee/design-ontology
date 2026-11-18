@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schema/principle.schema.json",
+  "id": "leading-lines",
+  "name": "Leading lines",
+  "aliases": [
+    "directional lines"
+  ],
+  "definition": "Lines in the view, such as edges, rows, beams or paths, point the eye to the focal point.",
+  "measures": [
+    {
+      "measure": "lines that converge on the focal point",
+      "unit": "count",
+      "reference": "1 to 4"
+    },
+    {
+      "measure": "angle from the frame edge",
+      "unit": "degrees",
+      "reference": "15–60 for a diagonal"
+    }
+  ],
+  "applies_to": [
+    "photography",
+    "painting",
+    "architecture",
+    "interior"
+  ],
+  "related": [
+    "focal-point",
+    "rhythm",
+    "sightlines"
+  ],
+  "sources": [
+    {
+      "title": "Rudolf Arnheim, Art and Visual Perception: A Psychology of the Creative Eye (University of California Press, 1954; new version 1974)"
+    }
+  ]
+}

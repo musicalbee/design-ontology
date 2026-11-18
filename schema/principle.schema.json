@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-ontology.dev/schema/principle.schema.json",
+  "title": "Composition principle",
+  "description": "One composition principle that styles in all domains share. A style refers to it by id in a rule ({ \"principle\": \"<id>\", ... }) and gives its own number.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "aliases", "definition", "measures", "applies_to", "related", "sources"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": { "$ref": "core.schema.json#/$defs/slug" },
+    "name": { "$ref": "core.schema.json#/$defs/shortText" },
+    "aliases": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "$ref": "core.schema.json#/$defs/shortText" }
+    },
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "wikidata": { "type": "string", "pattern": "^Q[0-9]+$" },
+        "aat": { "type": "string", "pattern": "^3[0-9]{8}$" }
+      }
+    },
+    "definition": { "$ref": "core.schema.json#/$defs/sentence" },
+    "measures": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 6,
+      "description": "How to measure the principle. A style gives its own value in its rule; the reference is a typical range.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["measure", "unit", "reference"],
+        "properties": {
+          "measure": { "$ref": "core.schema.json#/$defs/shortText" },
+          "unit": { "$ref": "core.schema.json#/$defs/shortText" },
+          "reference": { "type": "string", "minLength": 1, "maxLength": 120 }
+        }
+      }
+    },
+    "applies_to": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "$ref": "core.schema.json#/$defs/slug" },
+      "description": "Domain ids from domains/."
+    },
+    "related": { "$ref": "core.schema.json#/$defs/refList", "description": "Other principle ids." },
+    "sources": { "$ref": "core.schema.json#/$defs/sources" }
+  }
+}

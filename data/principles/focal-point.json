@@ -1,0 +1,48 @@
+{
+  "$schema": "../../schema/principle.schema.json",
+  "id": "focal-point",
+  "name": "Focal point",
+  "aliases": [
+    "centre of interest",
+    "point of emphasis"
+  ],
+  "definition": "The one place in a view that the eye finds first and comes back to. A composition has one primary focal point and at most two secondary ones.",
+  "measures": [
+    {
+      "measure": "focal points in one view",
+      "unit": "count",
+      "reference": "1 primary, 0 to 2 secondary"
+    },
+    {
+      "measure": "luminance of the focal point to its surround",
+      "unit": "ratio",
+      "reference": "3:1 to 10:1"
+    },
+    {
+      "measure": "position",
+      "unit": "fraction of width",
+      "reference": "0.5 on an axis, or 0.33 / 0.67 on a third"
+    }
+  ],
+  "applies_to": [
+    "design",
+    "architecture",
+    "interior",
+    "photography",
+    "painting"
+  ],
+  "related": [
+    "contrast",
+    "hierarchy",
+    "sightlines",
+    "rule-of-thirds"
+  ],
+  "sources": [
+    {
+      "title": "Rudolf Arnheim, Art and Visual Perception: A Psychology of the Creative Eye (University of California Press, 1954; new version 1974)"
+    },
+    {
+      "title": "Francis D. K. Ching, Architecture: Form, Space, and Order (Wiley, 4th edition, 2014)"
+    }
+  ]
+}

@@ -138,42 +138,85 @@ flowchart LR
     international_style_architecture["International Style"]
     brutalist_architecture["Brutalism"]
   end
+  subgraph interior_industrial_century["Interior · Industrial century · 1800–1890"]
+    shaker_interior["Shaker"]
+  end
+  subgraph interior_modern_reform["Interior · Modern reform · 1890–1940"]
+    bauhaus_interior["Bauhaus interior"]
+  end
+  subgraph interior_post_war_modern["Interior · Post-war modern · 1940–1990"]
+    mid_century_modern_interior["Mid-century modern interior"]
+    scandinavian_interior["Scandinavian interior"]
+    memphis_interior["Memphis interior"]
+  end
+  subgraph interior_networked_home["Interior · Networked home · 2010–present"]
+    japandi_interior["Japandi"]
+    dopamine_decor["Dopamine decor"]
+    quiet_luxury_interior["Quiet luxury"]
+  end
+  bauhaus <-. echoes .-> bauhaus_interior
   bauhaus <-. echoes .-> international_style_architecture
+  bauhaus_interior <-. echoes .-> international_style_architecture
   brutalist_architecture <-. echoes .-> neo_brutalism_ui
+  dopamine_decor <-. echoes .-> memphis_design
+  international_style_architecture <-. echoes .-> mid_century_modern_interior
   international_style_architecture <-. echoes .-> swiss_international
+  memphis_design <-. echoes .-> memphis_interior
+  mid_century_modern <-. echoes .-> mid_century_modern_interior
   flat_design --> bento_grid_ui
   swiss_international --> bento_grid_ui
   international_style_architecture --> brutalist_architecture
   flat_design --> corporate_memphis
   memphis_design --> corporate_memphis
+  memphis_interior --> dopamine_decor
   swiss_international --> flat_design
   y2k_aesthetic --> frutiger_aero
   frutiger_aero --> glassmorphism
+  scandinavian_interior --> japandi_interior
   flat_design --> material_design
   bauhaus --> mid_century_modern
+  bauhaus_interior --> mid_century_modern_interior
   flat_design --> neo_brutalism_ui
   skeuomorphism --> neumorphism
+  japandi_interior --> quiet_luxury_interior
+  shaker_interior --> scandinavian_interior
   glassmorphism --> spatial_visionos
   bauhaus --> swiss_international
+  dopamine_decor -. rejects .-> japandi_interior
+  dopamine_decor -. rejects .-> scandinavian_interior
   flat_design -. rejects .-> skeuomorphism
   grunge_editorial -. rejects .-> swiss_international
   memphis_design -. rejects .-> swiss_international
+  memphis_interior -. rejects .-> bauhaus_interior
+  memphis_interior -. rejects .-> mid_century_modern_interior
   neo_brutalism_ui -. rejects .-> corporate_memphis
   neo_brutalism_ui -. rejects .-> material_design
   neumorphism -. rejects .-> flat_design
   psychedelic -. rejects .-> swiss_international
+  quiet_luxury_interior -. rejects .-> dopamine_decor
   y2k_aesthetic -. rejects .-> grunge_editorial
   linkStyle 0 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 1 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 2 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 17 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 18 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 19 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 20 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 21 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 22 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 23 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 24 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 3 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 4 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 5 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 6 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 7 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 8 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 28 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 29 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 30 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 31 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 32 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 33 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 34 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 35 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 36 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 37 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 38 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 39 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 40 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 

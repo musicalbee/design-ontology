@@ -1,0 +1,423 @@
+{
+  "$schema": "../../../schema/domains/interior.schema.json",
+  "id": "bauhaus-interior",
+  "domain": "interior",
+  "name": "Bauhaus interior",
+  "aliases": [
+    "Bauhaus room",
+    "Neues Wohnen",
+    "New Living"
+  ],
+  "identity": {
+    "wikidata": "Q124354",
+    "aat": "300021432"
+  },
+  "era_id": "modern-reform",
+  "time_period": {
+    "start": 1919,
+    "end": 1933,
+    "label": "1919–1933"
+  },
+  "room_types": [
+    "living",
+    "workspace",
+    "dining",
+    "bedroom"
+  ],
+  "summary": "The rooms that the Bauhaus workshops in Weimar and Dessau designed and furnished. Tubular steel, glass, lacquer and woven wool stand in white rooms with one primary-colour wall; each object is a prototype for industry, and the room is a tool for living.",
+  "philosophy": {
+    "core_thesis": "A room is a machine for daily life, and industry can make each of its parts well and for everyone.",
+    "design_principles": [
+      "Place furniture on two orthogonal axes, parallel to the walls, and never mirror one side of the room in the other.",
+      "Paint one wall plane in one primary colour, red, yellow or blue, and keep the other planes white, grey or black.",
+      "Use 3 materials in the furniture: chrome-plated tubular steel, glass and lacquered wood; add woven wool or canvas for the seats.",
+      "Keep each piece open in frame: a cantilever or a tube outline, so that the floor shows through 50% or more of its footprint.",
+      "Build storage as modular cabinets on a 60 cm module, flush with the wall and free of handles in relief.",
+      "Light each zone with one visible functional lamp: an opal globe, a glass-shade table lamp or an adjustable arm lamp.",
+      "Leave 60% of the floor bare, in linoleum or sealed board of one colour."
+    ],
+    "anti_patterns": [
+      "Historical ornament, mouldings or carved wood",
+      "Overstuffed upholstery with skirts, fringes or buttons",
+      "A mirrored formal layout about a centre line",
+      "Patterned wallpaper or floral fabric",
+      "Curved organic forms other than the bent steel tube",
+      "Hidden light sources and warm amber glow without a visible lamp"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "density": 2,
+    "formality": 2,
+    "material_naturalness": 2,
+    "chromatic_intensity": 3
+  },
+  "composition": {
+    "plan_logic": "A free plan on an orthogonal grid. Each zone has one function and one rectangle of furniture, and the rectangles sit off-centre in the room.",
+    "focal_point": "A primary-colour wall plane or a tubular-steel chair against white, placed on a third of the wall and not on the centre line.",
+    "symmetry": "asymmetric",
+    "axis_count": 2,
+    "focal_wall": "left",
+    "focal_position": 0.33,
+    "rhythm_module_cm": 60,
+    "depth_layers": 2,
+    "rules": [
+      {
+        "principle": "focal-point",
+        "rule": "Paint one wall plane in one primary colour. It is the only colour field of more than 1 m² in the room.",
+        "value": "1 colour wall, on a third"
+      },
+      {
+        "principle": "symmetry-axis",
+        "rule": "Align every piece to one of two orthogonal axes. No piece stands at an angle, and no side mirrors the other.",
+        "value": "2 axes, 0% mirrored"
+      },
+      {
+        "principle": "balance",
+        "rule": "Set a heavy dark block, such as a black cabinet, on one third against a light steel frame on the other third.",
+        "value": "moment ratio 0.8–1.25"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Repeat the cabinet module in built-ins, shelves and door widths.",
+        "value": "60 cm module"
+      },
+      {
+        "principle": "proportion",
+        "rule": "Build rectangles of 1:1 and 1:2 in cabinets, rugs and wall panels.",
+        "value": "1:1 and 1:2"
+      },
+      {
+        "principle": "contrast",
+        "rule": "Set black against white on at least one edge in each view.",
+        "value": "LRV difference 70 or more"
+      },
+      {
+        "principle": "negative-space",
+        "rule": "Keep the floor bare and of one colour. Open frames let the floor show under the chairs and tables.",
+        "value": "60% bare floor"
+      },
+      {
+        "principle": "zoning",
+        "rule": "Mark each zone by function and by its lamp: sit, work, eat. Use no screens between zones.",
+        "value": "3 zones, 1 lamp each"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Keep one straight route from the door to the window band, clear of furniture.",
+        "value": "100 cm clear"
+      },
+      {
+        "principle": "sightlines",
+        "rule": "Keep furniture in the centre of the room below 75 cm, so that the view from the door crosses the floor to the window.",
+        "value": "under 75 cm in the centre"
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Give white and light grey the walls and ceiling, black, chrome and wood the furniture, and one primary colour the focal plane.",
+        "value": "70/20/10"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Show each lamp as an object. Use a neutral white, not a warm glow.",
+        "value": "150 lux ambient, 500 lux task, 3500 K"
+      },
+      {
+        "principle": "unity-variety",
+        "rule": "Repeat the same 3 materials in every piece. The only deviation is the woven textile.",
+        "value": "3 materials, 1 textile"
+      }
+    ]
+  },
+  "zoning": {
+    "zones": [
+      "sit",
+      "work",
+      "eat"
+    ],
+    "circulation": "A straight route from the door to the window band, and routes between zones along the grid lines.",
+    "main_path_clear_cm": 100,
+    "secondary_path_clear_cm": 70,
+    "seat_to_table_cm": 40,
+    "conversation_diameter_cm": 260,
+    "floor_coverage_pct": 35,
+    "wall_coverage_pct": 15
+  },
+  "palette": {
+    "distribution": "White walls and ceiling, light grey floor, black and chrome furniture, one primary-colour wall plane; small primary accents on a rug or a lamp.",
+    "dominant_pct": 70,
+    "secondary_pct": 20,
+    "accent_pct": 10,
+    "colours": [
+      {
+        "name": "White",
+        "hex": "#F4F4F0",
+        "role": "dominant",
+        "surface": "walls and ceiling"
+      },
+      {
+        "name": "Linoleum grey",
+        "hex": "#C9C9C4",
+        "role": "secondary",
+        "surface": "floor"
+      },
+      {
+        "name": "Black",
+        "hex": "#1A1A1A",
+        "role": "secondary",
+        "surface": "cabinets, leather seats"
+      },
+      {
+        "name": "Chrome",
+        "hex": "#B8BCC0",
+        "role": "metal",
+        "surface": "tubular frames"
+      },
+      {
+        "name": "Signal red",
+        "hex": "#C8281E",
+        "role": "accent",
+        "surface": "one wall plane"
+      },
+      {
+        "name": "Chrome yellow",
+        "hex": "#F2C230",
+        "role": "accent",
+        "surface": "rug field, small objects"
+      },
+      {
+        "name": "Ultramarine",
+        "hex": "#1F4E9C",
+        "role": "accent",
+        "surface": "rug field, cushion"
+      }
+    ]
+  },
+  "lighting": {
+    "strategy": "Each lamp is a visible industrial object with one job. The light is even and neutral, and each zone has its own lamp.",
+    "daylight": "A wide band of steel-framed windows or a full glass wall gives even side light; window glass is 25% of the floor area or more.",
+    "ambient_lux": 150,
+    "task_lux": 500,
+    "accent_ratio": 2,
+    "cct_k": 3500,
+    "cct_evening_k": 3000,
+    "cri_min": 90,
+    "layers": [
+      {
+        "layer": "daylight",
+        "source": "steel-framed window band",
+        "position": "one long wall"
+      },
+      {
+        "layer": "ambient",
+        "source": "opal glass globe pendant",
+        "position": "centre of each zone"
+      },
+      {
+        "layer": "task",
+        "source": "glass and metal table lamp",
+        "position": "desk and side table"
+      },
+      {
+        "layer": "task",
+        "source": "adjustable arm lamp",
+        "position": "work table or wall"
+      }
+    ]
+  },
+  "materials": {
+    "primary": [
+      "chrome-plated tubular steel",
+      "glass",
+      "lacquered plywood"
+    ],
+    "secondary": [
+      "linoleum",
+      "black leather",
+      "woven wool",
+      "canvas",
+      "opal glass"
+    ],
+    "finish": "Gloss chrome and satin lacquer against matt white plaster. Wood shows only as plain veneer or under lacquer.",
+    "texture_contrast": "Smooth against smooth. Texture comes only from woven seat fabric and one rug, under 10% of the visible surface."
+  },
+  "furniture": {
+    "silhouette": "Tubular-steel frames: cantilever chairs, club chairs of steel and canvas straps, nesting tables, glass-top trolleys and cubic cabinets.",
+    "arrangement": "Pieces stand free of the walls on the grid lines, in small rectangles parallel to the window wall.",
+    "seat_height_cm": 43,
+    "key_pieces": [
+      "tubular-steel club chair",
+      "cantilever chair",
+      "nesting tables",
+      "glass-shade table lamp",
+      "modular wall cabinet",
+      "steel-frame daybed",
+      "woven wool rug"
+    ]
+  },
+  "textiles": {
+    "fabrics": [
+      "woven wool",
+      "canvas",
+      "black leather",
+      "linen"
+    ],
+    "pattern": "Geometric weaves of stripes and rectangles from the weaving workshop, on one rug or one wall hanging only.",
+    "windows": "Bare steel frames, or plain white roller blinds that roll up into the frame."
+  },
+  "objects": {
+    "approach": "Industrial prototypes are the only decor: a tea set, a lamp, a chess set, a shelf of books.",
+    "grouping": "One object per surface, on a third of the surface, with clear space around it.",
+    "max_per_surface": 2,
+    "hang_centre_cm": 145,
+    "items": [
+      "metal tea set",
+      "geometric chess set",
+      "glass-shade lamp",
+      "abstract print",
+      "woven wall hanging"
+    ]
+  },
+  "implementation": {
+    "brief": "A white room with a band of steel windows, a grey linoleum floor and one red wall plane on the left third. A tubular-steel club chair, a cantilever chair and a nesting table stand on a woven rug; one glass lamp per zone.",
+    "image_prompt": "Bauhaus interior 1926, white walls, one signal-red wall plane, grey linoleum floor, chrome tubular-steel club chair with black canvas straps, cantilever chair, glass nesting tables, opal glass globe pendant, steel window band, geometric woven wool rug in red yellow blue, asymmetric orthogonal layout, even daylight, black and white contrast, period photograph",
+    "negative_prompt": "Ornament, mouldings, floral fabric, curved organic furniture, warm amber light, clutter, symmetrical layout, wood grain.",
+    "camera": "28 mm lens, camera at 140 cm, two-point view at 30 degrees to the colour wall from a corner.",
+    "scene_3d": "Room 600 x 450 cm, ceiling 280 cm. Sky light through a 400 cm window band; one 3500 K area light per zone; white walls with reflectance 0.85.",
+    "furniture_list": [
+      "tubular-steel club chair",
+      "2 cantilever chairs",
+      "nesting tables, 3 sizes",
+      "modular cabinet 180 x 40 x 60 cm",
+      "steel desk",
+      "rug 200 x 140 cm"
+    ],
+    "material_list": [
+      "white plaster, matt",
+      "grey linoleum",
+      "chrome tube 25 mm",
+      "black lacquer",
+      "clear glass 8 mm",
+      "woven wool"
+    ],
+    "references": []
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "bauhaus",
+      "international-style-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Clear purpose: the viewer sees a rational, light room that is ready for work and for a new kind of life.",
+    "keywords": [
+      "rational",
+      "functional",
+      "clear",
+      "industrial",
+      "progressive"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "bauhaus interior",
+      "bauhaus room",
+      "tubular steel",
+      "cantilever chair",
+      "dessau",
+      "neues wohnen",
+      "functionalist interior",
+      "primary colour wall"
+    ],
+    "use_cases": [
+      "studios and workspaces",
+      "design museum rooms",
+      "small flats",
+      "architecture visualisation",
+      "set design for the 1920s"
+    ],
+    "avoid_when": [
+      "The brief asks for softness, warmth or a traditional home.",
+      "Young children or older users need soft edges and deep seats."
+    ],
+    "modifiers": [
+      {
+        "request": "warmer",
+        "toward": "mid-century-modern-interior",
+        "how": "Change chrome to teak and moulded plywood, add a low sofa and warm 2700 K light; keep the asymmetric plan and the open frames."
+      },
+      {
+        "request": "more playful",
+        "toward": "memphis-interior",
+        "how": "Add pattern laminate and 4 or more saturated hues, rotate pieces off the grid; keep the primary solids."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "Bauhaus interior",
+      "tubular steel furniture",
+      "cantilever chair",
+      "one primary-colour wall",
+      "white plaster",
+      "grey linoleum floor",
+      "steel window band",
+      "opal glass pendant",
+      "geometric woven rug",
+      "asymmetric orthogonal layout"
+    ],
+    "negative": [
+      "ornament",
+      "floral fabric",
+      "mouldings",
+      "overstuffed sofa",
+      "warm amber glow",
+      "symmetrical layout"
+    ],
+    "canonical_works": [
+      {
+        "work": "Haus am Horn, Weimar",
+        "architect": "Georg Muche and the Bauhaus workshops",
+        "year": 1923
+      },
+      {
+        "work": "Club chair B3",
+        "architect": "Marcel Breuer",
+        "year": 1925
+      },
+      {
+        "work": "Masters' Houses, Dessau",
+        "architect": "Walter Gropius",
+        "year": 1926
+      },
+      {
+        "work": "Kandem bedside lamp",
+        "architect": "Marianne Brandt",
+        "year": 1928
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Magdalena Droste, Bauhaus 1919–1933 (Bauhaus-Archiv and Taschen, 1990)"
+    },
+    {
+      "title": "Walter Gropius, Bauhausbauten Dessau (Bauhausbücher 12, Albert Langen, 1930)"
+    },
+    {
+      "title": "Wikidata Q124354: Bauhaus",
+      "url": "https://www.wikidata.org/wiki/Q124354"
+    },
+    {
+      "title": "Getty AAT 300021432",
+      "url": "https://vocab.getty.edu/page/aat/300021432"
+    }
+  ]
+}

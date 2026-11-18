@@ -1,0 +1,407 @@
+{
+  "$schema": "../../../schema/domains/interior.schema.json",
+  "id": "japandi-interior",
+  "domain": "interior",
+  "name": "Japandi",
+  "aliases": [
+    "Japanese-Scandinavian",
+    "Japanordic"
+  ],
+  "identity": {
+    "wikidata": "Q106092136"
+  },
+  "era_id": "networked-home",
+  "time_period": {
+    "start": 2016,
+    "end": null,
+    "label": "2016–present"
+  },
+  "room_types": [
+    "living",
+    "bedroom",
+    "dining",
+    "hospitality"
+  ],
+  "summary": "A blend of the Scandinavian room and the Japanese room. Low, heavy wood furniture in pale and dark tones stands in a warm off-white room with wide empty floor; paper light, linen, stoneware and slatted screens give texture, and the tatami ratio of 1:2 orders the plan.",
+  "philosophy": {
+    "core_thesis": "Calm comes from emptiness and from a few natural things made by hand and placed with care.",
+    "design_principles": [
+      "Keep furniture low: seats at 38–40 cm and tables at 35–40 cm, so that the eye level of the room drops.",
+      "Leave 70% of the floor and 85% of the walls empty.",
+      "Hold the ratio 1:2 in rugs, panels, bed platforms and screens, after the tatami mat of 91 x 182 cm.",
+      "Pair pale oak or ash with one dark element, such as charred or black-stained wood, at a reflectance difference of 40–50 points.",
+      "Use only matt finishes: oiled wood, lime or clay plaster, unglazed or matt-glazed ceramics.",
+      "Divide zones with slatted screens of 3 cm battens at 3 cm gaps, not with walls.",
+      "Show 1 or 3 objects per surface, asymmetric, with one tall element such as a branch."
+    ],
+    "anti_patterns": [
+      "Gloss lacquer, chrome or mirror surfaces",
+      "Saturated colour on any surface larger than an object",
+      "Tall furniture above 90 cm in the middle of the room",
+      "Collections of small objects on open shelves",
+      "Printed pattern on textiles or walls",
+      "Bright cool light above 3500 K"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "density": 1,
+    "formality": 3,
+    "material_naturalness": 5,
+    "chromatic_intensity": 1
+  },
+  "composition": {
+    "plan_logic": "A strict orthogonal plan of low pieces with wide gaps. Rugs and platforms follow the 1:2 tatami ratio, and slatted screens divide the zones.",
+    "focal_point": "One low piece, such as a platform bed or a stoneware vessel on a plinth, or a window with a branch, placed on a third.",
+    "symmetry": "asymmetric",
+    "axis_count": 1,
+    "focal_wall": "back",
+    "focal_position": 0.33,
+    "rhythm_module_cm": 6,
+    "depth_layers": 2,
+    "rules": [
+      {
+        "principle": "focal-point",
+        "rule": "Show one focal object on a third of the back wall, with empty wall around it.",
+        "value": "1 focal point on a third"
+      },
+      {
+        "principle": "proportion",
+        "rule": "Hold the tatami ratio in the plan: rugs, platforms and screens.",
+        "value": "1:2 (91 x 182 cm)"
+      },
+      {
+        "principle": "scale",
+        "rule": "Lower all furniture, so that the room reads from a seated or floor eye level.",
+        "value": "seats 38–40 cm, tables 35–40 cm"
+      },
+      {
+        "principle": "negative-space",
+        "rule": "Leave the floor and the walls empty; the empty space is the main element of the room.",
+        "value": "70% bare floor, 85% bare wall"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Repeat slats in screens, wall panels and bed heads at one pitch.",
+        "value": "6 cm pitch (3 cm slat, 3 cm gap)"
+      },
+      {
+        "principle": "contrast",
+        "rule": "Pair pale wood with one dark element in each view.",
+        "value": "LRV difference 40–50"
+      },
+      {
+        "principle": "balance",
+        "rule": "Balance a low long mass, such as a sofa or a bed, with one tall slim element, such as a lamp or a branch, on the other third.",
+        "value": "moment ratio 0.8–1.25"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Use a slatted screen or a paper panel as a translucent plane between zones.",
+        "value": "2 planes, 1 translucent"
+      },
+      {
+        "principle": "grouping",
+        "rule": "Show objects in groups of 1 or 3 at different heights; never in pairs.",
+        "value": "1 or 3 objects"
+      },
+      {
+        "principle": "sightlines",
+        "rule": "Keep every piece in the middle of the room below 90 cm, so that the full wall and window read from the door.",
+        "value": "under 90 cm"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Keep wide clear routes between the low pieces.",
+        "value": "100 cm main, 75 cm secondary"
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Give warm off-white the walls, greige textiles and pale and dark wood the secondary share, and clay or black the accents.",
+        "value": "70/25/5"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Use paper shades and low lamps below 120 cm; hide strip lights under shelves and platforms.",
+        "value": "80 lux ambient, 300 lux task, 2700 K"
+      }
+    ]
+  },
+  "zoning": {
+    "zones": [
+      "low sofa or floor seat",
+      "dining or tea table",
+      "sleep platform"
+    ],
+    "circulation": "Wide straight routes along the 1:2 grid; screens let a route pass without a door.",
+    "main_path_clear_cm": 100,
+    "secondary_path_clear_cm": 75,
+    "seat_to_table_cm": 35,
+    "conversation_diameter_cm": 240,
+    "floor_coverage_pct": 30,
+    "wall_coverage_pct": 10
+  },
+  "palette": {
+    "distribution": "Warm off-white plaster on walls and ceiling; greige linen; pale oak floor and furniture; one dark wood piece; a clay or black accent on a vessel or a lamp.",
+    "dominant_pct": 70,
+    "secondary_pct": 25,
+    "accent_pct": 5,
+    "colours": [
+      {
+        "name": "Rice paper",
+        "hex": "#EFEBE3",
+        "role": "dominant",
+        "surface": "plaster walls and ceiling"
+      },
+      {
+        "name": "Greige linen",
+        "hex": "#CFC6B8",
+        "role": "secondary",
+        "surface": "sofa, bedding, curtains"
+      },
+      {
+        "name": "Pale oak",
+        "hex": "#C9A87C",
+        "role": "wood",
+        "surface": "floor, table, platform"
+      },
+      {
+        "name": "Charred ash",
+        "hex": "#3A3631",
+        "role": "wood",
+        "surface": "one cabinet or screen"
+      },
+      {
+        "name": "Clay",
+        "hex": "#A86F4C",
+        "role": "accent",
+        "surface": "stoneware vessel"
+      },
+      {
+        "name": "Ink black",
+        "hex": "#1C1C1C",
+        "role": "accent",
+        "surface": "lamp base, frame"
+      }
+    ]
+  },
+  "lighting": {
+    "strategy": "Soft, low and diffuse. Paper shades and hidden strips give pools of light near the floor; shadow is part of the room.",
+    "daylight": "Diffuse daylight through linen or paper blinds; the light falls soft on the plaster and no hard sun patch lies on the floor.",
+    "ambient_lux": 80,
+    "task_lux": 300,
+    "accent_ratio": 3,
+    "cct_k": 2700,
+    "cct_evening_k": 2200,
+    "cri_min": 95,
+    "layers": [
+      {
+        "layer": "daylight",
+        "source": "linen or paper blinds",
+        "position": "window wall"
+      },
+      {
+        "layer": "ambient",
+        "source": "paper lantern pendant",
+        "position": "low over the table, 70 cm above it"
+      },
+      {
+        "layer": "task",
+        "source": "low floor lamp with a paper shade",
+        "position": "beside the sofa, below 120 cm"
+      },
+      {
+        "layer": "accent",
+        "source": "concealed LED strip",
+        "position": "under a floating shelf or a bed platform"
+      }
+    ]
+  },
+  "materials": {
+    "primary": [
+      "white oak",
+      "ash",
+      "lime plaster"
+    ],
+    "secondary": [
+      "linen",
+      "washi paper",
+      "stoneware",
+      "bamboo",
+      "jute",
+      "black steel"
+    ],
+    "finish": "Matt everywhere: oiled or soaped wood, limewash or clay plaster, matt-glazed ceramics.",
+    "texture_contrast": "Planed wood against rough plaster and woven fibre, at about 1:1."
+  },
+  "furniture": {
+    "silhouette": "Low, heavy, rectilinear pieces with thick tops and solid bases; soft edges of 5–10 mm radius; no visible hardware.",
+    "arrangement": "Pieces stand against the walls or on one 1:2 rug in the centre; 2–4 pieces per room.",
+    "seat_height_cm": 38,
+    "key_pieces": [
+      "low platform bed",
+      "low sofa on a wood frame",
+      "low oak table",
+      "paper lantern",
+      "slatted screen",
+      "stoneware vase",
+      "floor cushion"
+    ]
+  },
+  "textiles": {
+    "fabrics": [
+      "linen",
+      "cotton",
+      "wool",
+      "jute"
+    ],
+    "pattern": "Plain weaves and slub texture only; one quiet stripe or a sashiko stitch at most.",
+    "windows": "Linen sheers or paper blinds that diffuse the daylight."
+  },
+  "objects": {
+    "approach": "Objects show the hand of the maker: one stoneware vase, one branch, a stack of 3 books.",
+    "grouping": "1 or 3 objects per surface, asymmetric, with one tall element.",
+    "max_per_surface": 3,
+    "hang_centre_cm": 140,
+    "items": [
+      "stoneware vase",
+      "single branch",
+      "paper lantern",
+      "linen cushion",
+      "wood tray"
+    ]
+  },
+  "implementation": {
+    "brief": "A warm off-white room with a pale oak floor. A low linen sofa on an oak frame and a low oak table stand on a 1:2 jute rug; a slatted screen divides the room, a paper lantern hangs low, and one stoneware vase with a branch stands on a third.",
+    "image_prompt": "Japandi living room, warm off-white lime plaster walls, pale oak floor, low linen sofa on a solid oak frame, low oak coffee table, rectangular jute rug, charred black wood cabinet, vertical oak slatted screen, paper lantern pendant hung low, one stoneware vase with a single branch, wide empty floor, soft diffuse daylight through linen blinds, calm, matt, minimal, architectural photograph",
+    "negative_prompt": "Gloss, chrome, saturated colour, clutter, pattern, tall furniture, cool light, plastic.",
+    "camera": "35 mm lens, camera at 100 cm (low seated eye), frontal view with the focal object on the left third.",
+    "scene_3d": "Room 550 x 450 cm, ceiling 250 cm. Overcast sky through linen at transmission 0.5; one 2700 K paper lantern at 150 cm; one 2200 K LED strip under a platform.",
+    "furniture_list": [
+      "low sofa 220 x 90 x 65 cm, seat 38 cm",
+      "low table 120 x 60 x 35 cm",
+      "slatted screen 90 x 200 cm",
+      "dark wood cabinet 160 x 40 x 60 cm",
+      "jute rug 180 x 360 cm",
+      "paper lantern 60 cm"
+    ],
+    "material_list": [
+      "lime plaster, warm white",
+      "white oak, oiled",
+      "charred ash",
+      "linen, greige",
+      "jute",
+      "stoneware, matt"
+    ],
+    "references": []
+  },
+  "lineage": {
+    "evolved_from": [
+      "scandinavian-interior"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Stillness: the viewer breathes out and feels the quiet of a room with nothing extra in it.",
+    "keywords": [
+      "serene",
+      "grounded",
+      "natural",
+      "restrained",
+      "crafted",
+      "quiet"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "innocent"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "japandi",
+      "japanese scandinavian",
+      "japanordic",
+      "zen minimal",
+      "wabi-sabi light",
+      "low furniture",
+      "calm natural interior",
+      "slatted screen"
+    ],
+    "use_cases": [
+      "bedrooms",
+      "living rooms",
+      "spas and wellness",
+      "boutique hotels",
+      "yoga and tea rooms"
+    ],
+    "avoid_when": [
+      "The users have many objects that must stay in view.",
+      "The brief asks for energy, colour or a party room."
+    ],
+    "modifiers": [
+      {
+        "request": "brighter and more Nordic",
+        "toward": "scandinavian-interior",
+        "how": "Raise seat height to 42 cm, add white walls, wool textiles and 3–5 lamps; keep the matt natural materials."
+      },
+      {
+        "request": "more luxurious",
+        "toward": "quiet-luxury-interior",
+        "how": "Add travertine, bouclé and a mirrored pair of lamps on one axis; keep the tonal palette and the matt finish."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "Japandi interior",
+      "low oak furniture",
+      "warm off-white plaster",
+      "paper lantern",
+      "slatted oak screen",
+      "linen and jute",
+      "stoneware vase with a branch",
+      "charred black wood accent",
+      "wide empty floor",
+      "soft diffuse light"
+    ],
+    "negative": [
+      "gloss",
+      "chrome",
+      "saturated colour",
+      "clutter",
+      "printed pattern",
+      "cool light"
+    ],
+    "canonical_works": [
+      {
+        "work": "Akari light sculptures",
+        "architect": "Isamu Noguchi",
+        "year": 1951
+      },
+      {
+        "work": "Hiroshima armchair",
+        "architect": "Naoto Fukasawa",
+        "year": 2008
+      },
+      {
+        "work": "Karimoku Case Study collection",
+        "architect": "Norm Architects",
+        "year": 2019
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Jun'ichirō Tanizaki, In Praise of Shadows (1933; English translation, Leete's Island Books, 1977)"
+    },
+    {
+      "title": "Trend evidence, cite only: the term spread on image platforms and in retail catalogues from about 2016"
+    },
+    {
+      "title": "Wikidata Q106092136: Japandi",
+      "url": "https://www.wikidata.org/wiki/Q106092136"
+    }
+  ]
+}
