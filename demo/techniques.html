@@ -86,7 +86,7 @@
 <main>
   <header>
     <h1>Techniques across domains</h1>
-    <p class="lede">A technique starts in one domain and moves into others, often decades later. Each row is one technique. The ringed dot is the origin; each later dot is the year a domain took it up, with the lag in years above the hop. The letter and the colour name the domain. A dashed dot is an estimate. Before 1840 the scale is compressed, and before 1400 it is compressed again.</p>
+    <p class="lede">A technique starts in one domain and moves into others, often decades later. Each row is one technique. The ringed dot is the origin; each later dot is the year a domain took it up, with the lag in years above the hop. The letter and the colour name the domain. A dashed dot is an estimate. Before 1840 the scale is compressed, before 1400 it is compressed again, and before 700 BCE a third time.</p>
   </header>
   <div class="top">
     <div class="flows">
@@ -119,14 +119,23 @@ const $ = (id) => document.getElementById(id);
 const col = (d) => `var(--d-${KNOWN.has(d) ? d : "other"})`;
 const yl = (y, c) => `${c ? "c. " : ""}${y < 0 ? `${-y} BCE` : y}`;
 
-// Three linear scales. Most adoptions fall after 1840, so that part is wide; the classical origins (Doric flutes,
+// Linear scales in parts. Most adoptions fall after 1840, so that part is wide; the classical origins (Doric flutes,
 // the Roman arch) sit on a short part before 1400. Inside each part, equal spans of years have equal lengths.
-const X0 = 200, Y_MIN = -700, B1 = 1400, B2 = 1840, Y_MAX = 2030, PX_ANCIENT = 0.09, PX_EARLY = 0.6, PX = 5;
+// An origin before B0 (lime plaster, about 7200 BCE) gets one more part of DEEP_W px, sized from the data, so no bar is clamped.
+const X0 = 200, B0 = -700, B1 = 1400, B2 = 1840, Y_MAX = 2030, PX_ANCIENT = 0.09, PX_EARLY = 0.6, PX = 5, DEEP_PX = 80;
+let Y_MIN = B0, DEEP_W = 0;
+const setDeep = (years) => {
+  const lo = Math.min(B0, ...years);
+  Y_MIN = lo < B0 ? Math.floor(lo / 1000) * 1000 : B0;
+  DEEP_W = Y_MIN < B0 ? DEEP_PX : 0;
+};
 const x = (y) => {
   y = Math.min(Math.max(y, Y_MIN), Y_MAX);
-  if (y < B1) return X0 + (y - Y_MIN) * PX_ANCIENT;
-  if (y < B2) return X0 + (B1 - Y_MIN) * PX_ANCIENT + (y - B1) * PX_EARLY;
-  return X0 + (B1 - Y_MIN) * PX_ANCIENT + (B2 - B1) * PX_EARLY + (y - B2) * PX;
+  if (y < B0) return X0 + ((y - Y_MIN) / (B0 - Y_MIN)) * DEEP_W;
+  const x0 = X0 + DEEP_W;
+  if (y < B1) return x0 + (y - B0) * PX_ANCIENT;
+  if (y < B2) return x0 + (B1 - B0) * PX_ANCIENT + (y - B1) * PX_EARLY;
+  return x0 + (B1 - B0) * PX_ANCIENT + (B2 - B1) * PX_EARLY + (y - B2) * PX;
 };
 const ROW = 30, LANE_HEAD = 26;
 let G, T, domains, byStyle, selected = null, kind = "all", cellFilter = null;
@@ -169,9 +178,11 @@ function draw() {
   svg.setAttribute("width", width);
   svg.setAttribute("height", height);
   let h = "";
-  for (const yr of [-600, -200, 400, 1000, 1400, 1500, 1600, 1700, 1840, 1880, 1920, 1960, 2000, 2020])
-    h += `<line class="grid${yr === B1 || yr === B2 ? " break" : ""}" x1="${x(yr)}" x2="${x(yr)}" y1="22" y2="${height - 14}"/><text class="tick" x="${x(yr)}" y="16" text-anchor="middle">${yl(yr)}</text>`;
-  h += `<text class="tick" x="${(x(Y_MIN) + x(B1)) / 2}" y="${height - 2}" text-anchor="middle">compressed</text><text class="tick" x="${(x(B1) + x(B2)) / 2}" y="${height - 2}" text-anchor="middle">compressed</text>`;
+  const ticks = DEEP_W ? [Y_MIN, B0, 400, 1000] : [-600, -200, 400, 1000];
+  for (const yr of [...ticks, 1400, 1500, 1600, 1700, 1840, 1880, 1920, 1960, 2000, 2020])
+    h += `<line class="grid${yr === B1 || yr === B2 || (DEEP_W && yr === B0) ? " break" : ""}" x1="${x(yr)}" x2="${x(yr)}" y1="22" y2="${height - 14}"/><text class="tick" x="${x(yr)}" y="16" text-anchor="middle">${yl(yr)}</text>`;
+  if (DEEP_W) h += `<text class="tick" x="${(x(Y_MIN) + x(B0)) / 2}" y="${height - 2}" text-anchor="middle">compressed</text>`;
+  h += `<text class="tick" x="${(x(B0) + x(B1)) / 2}" y="${height - 2}" text-anchor="middle">compressed</text><text class="tick" x="${(x(B1) + x(B2)) / 2}" y="${height - 2}" text-anchor="middle">compressed</text>`;
   let top = 30;
   for (const g of groups) {
     h += `<line class="lane-rule" x1="0" x2="${width}" y1="${top}" y2="${top}"/><text class="lane-label" x="8" y="${top + 17}">${esc(KIND[g.k])}</text>`;
@@ -256,7 +267,7 @@ function filter() {
 }
 
 fetch("../graph/lineage.json").then((r) => r.json()).then((g) => {
-  G = g; T = g.techniques ?? []; domains = g.domains;
+  G = g; T = g.techniques ?? []; domains = g.domains; setDeep(T.flatMap((t) => steps(t).map((s) => s.year)));
   byStyle = Object.fromEntries(g.nodes.map((n) => [n.id, n]));
   $("kinds").innerHTML = [["all", "All"], ...Object.entries(KIND).filter(([k]) => T.some((t) => t.kind === k))]
     .map(([id, name]) => `<label><input type="radio" name="kind" value="${esc(id)}"${id === "all" ? " checked" : ""}>${esc(name)}</label>`).join(" ");
