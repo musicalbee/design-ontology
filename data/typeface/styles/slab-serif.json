@@ -1,0 +1,257 @@
+{
+  "$schema": "../../../schema/domains/typeface.schema.json",
+  "id": "slab-serif",
+  "domain": "typeface",
+  "name": "Slab serif",
+  "aliases": [
+    "Egyptian",
+    "Mécane",
+    "Antique",
+    "Clarendon (bracketed slabs)"
+  ],
+  "era_id": "industrial",
+  "time_period": {
+    "start": 1815,
+    "end": null,
+    "label": "1815–present"
+  },
+  "region": "London",
+  "summary": "Heavy, square serifs on a sturdy letter with low contrast. Born on the poster in industrial Britain, it carries a loud, solid and practical voice, and modern text cuts serve screens and typewriters as well.",
+  "philosophy": {
+    "core_thesis": "A letter for a loud and busy world must be heavy, square and hard to break.",
+    "design_principles": [
+      "Make the serifs at least 0.6 of the stem thickness and square at the ends.",
+      "Keep the stroke contrast at 1.0–1.8:1, measured on the o.",
+      "Use no bracket (the Egyptian) or a small one (the Clarendon), and keep the choice the same in all letters.",
+      "Hold the x-height at 0.66–0.76 of the cap height.",
+      "Set titles in a bold or heavy weight; text cuts use a regular weight with serifs 0.6–0.8 of the stem.",
+      "Space the letters a little loose: the slabs need 0.01–0.02 em more room than a sans."
+    ],
+    "anti_patterns": [
+      "Hairline serifs or hairline strokes",
+      "Strong calligraphic stress",
+      "Tight negative tracking that makes the slabs touch",
+      "Delicate, light weights for display",
+      "Mixing bracketed and unbracketed slabs in one setting"
+    ]
+  },
+  "vectors": {
+    "stroke_contrast": 1,
+    "construction": 4,
+    "x_height": 3,
+    "width": 3,
+    "serif_mass": 5
+  },
+  "classification": {
+    "vox_atypi": "Mécane (slab serif)",
+    "din_16518": "Gruppe V: Serifenbetonte Linear-Antiqua",
+    "note": "The British Standard (BS 2961) calls the class Slab-serif; the Clarendon type with brackets is sometimes filed as a sub-class of its own."
+  },
+  "anatomy": {
+    "contrast": "Low: the thin parts are 0.55–1.0 of the stem.",
+    "stress": "Vertical or none.",
+    "serifs": "Thick and rectangular, 0.6–1.0 of the stem; bracketed in the Clarendon type, with no bracket in the Egyptian.",
+    "terminals": "Flat or slab terminals on c, f and r; a ball on the a in some Clarendons.",
+    "aperture": "Moderate to open in modern text cuts.",
+    "key_letters": "A two-storey a with a slab on the foot, a t with a slab on the left of the cross-bar, and an M with four slabs at the base."
+  },
+  "metrics": {
+    "x_height_min": 0.66,
+    "x_height_max": 0.76,
+    "contrast_min": 1.0,
+    "contrast_max": 1.8,
+    "x_height": "The x-height is 0.66–0.76 of the cap height and about 0.45–0.53 of the em.",
+    "contrast": "The side of the o is 1.0 to 1.8 times as thick as its top.",
+    "width": "Medium to wide; the mean advance of a to z is 0.49–0.56 em.",
+    "figures": "Lining figures, tabular in most digital cuts."
+  },
+  "setting": {
+    "text_sizes": "Set text cuts at 9–11 pt in print and 15–18 px on screen.",
+    "display_sizes": "Set bold and heavy weights at 24–120 pt for posters and headlines.",
+    "leading": "Set the leading at 1.4–1.6 times the size for text, and 1.0–1.15 for headlines.",
+    "tracking": "Set +0.01 to +0.02 em in text, and 0 to −0.01 em in large headlines.",
+    "measure": "Set 50–70 characters a line.",
+    "case_and_features": "Use capitals for short poster lines; tabular figures for prices and tables."
+  },
+  "pairing": {
+    "rule": "Pair it with a sans of the same era or skeleton, and keep the slab for headlines or for short text.",
+    "pairs": [
+      {
+        "with": "Grotesque sans (Work Sans)",
+        "role": "sans for body text and labels",
+        "why": "Both come from the nineteenth-century poster, so the voices agree."
+      },
+      {
+        "with": "Humanist sans (Fira Sans)",
+        "role": "sans for interface and captions",
+        "why": "A modern slab such as Zilla Slab shares its open, written skeleton."
+      }
+    ]
+  },
+  "reference_faces": {
+    "faces": [
+      {
+        "face": "Antique (Egyptian)",
+        "designer": "Vincent Figgins",
+        "year": 1815,
+        "status": "historic metal"
+      },
+      {
+        "face": "Clarendon",
+        "designer": "Robert Besley for the Fann Street Foundry",
+        "year": 1845,
+        "status": "historic metal"
+      },
+      {
+        "face": "Rockwell",
+        "designer": "Monotype",
+        "year": 1934,
+        "status": "proprietary"
+      },
+      {
+        "face": "Roboto Slab",
+        "designer": "Christian Robertson",
+        "year": 2013,
+        "status": "open revival"
+      },
+      {
+        "face": "Zilla Slab",
+        "designer": "Typotheque for Mozilla",
+        "year": 2017,
+        "status": "open revival"
+      },
+      {
+        "face": "Arvo",
+        "designer": "Anton Koovit",
+        "year": 2010,
+        "status": "open revival"
+      }
+    ],
+    "note": "Roboto Slab and Arvo are geometric slabs with no bracket; Zilla Slab is a humanist slab. No open font in this record is a strict Clarendon."
+  },
+  "prompt_primer": {
+    "positive": [
+      "slab serif",
+      "egyptian type",
+      "heavy square serifs",
+      "victorian wood-type poster",
+      "bold headline",
+      "low contrast strokes",
+      "letterpress on newsprint",
+      "typewriter feel"
+    ],
+    "negative": [
+      "hairline serifs",
+      "thin elegant letters",
+      "script",
+      "calligraphic stress",
+      "pastel softness"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Roboto Slab",
+      "kind": "font",
+      "maker": "Christian Robertson",
+      "year": 2013,
+      "credit": "google/fonts repository, apache/robotoslab",
+      "licence": "Apache-2.0",
+      "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "url": "https://fonts.google.com/specimen/Roboto+Slab",
+      "file": "https://raw.githubusercontent.com/google/fonts/main/apache/robotoslab/RobotoSlab%5Bwght%5D.ttf"
+    },
+    {
+      "title": "Zilla Slab",
+      "kind": "font",
+      "maker": "Typotheque",
+      "year": 2017,
+      "credit": "google/fonts repository, ofl/zillaslab",
+      "licence": "OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "url": "https://fonts.google.com/specimen/Zilla+Slab",
+      "file": "https://raw.githubusercontent.com/google/fonts/main/ofl/zillaslab/ZillaSlab-Regular.ttf"
+    },
+    {
+      "title": "Arvo",
+      "kind": "font",
+      "maker": "Anton Koovit",
+      "year": 2010,
+      "credit": "google/fonts repository, ofl/arvo",
+      "licence": "OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "url": "https://fonts.google.com/specimen/Arvo",
+      "file": "https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-Regular.ttf"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "didone-serif"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "victorian-interior",
+      "victorian-web"
+    ]
+  },
+  "emotion": {
+    "target_response": "Solidity and directness: the reader feels a practical, confident voice that is easy to trust.",
+    "keywords": [
+      "sturdy",
+      "bold",
+      "practical",
+      "honest",
+      "industrial"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "hero"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "slab serif",
+      "egyptian type",
+      "clarendon",
+      "rockwell style",
+      "wild west poster",
+      "typewriter serif",
+      "sturdy serif"
+    ],
+    "use_cases": [
+      "posters and headlines",
+      "food, beer and craft brands",
+      "news and data interfaces",
+      "packaging"
+    ],
+    "avoid_when": [
+      "The brief asks for delicacy, luxury or high fashion.",
+      "The page needs a quiet text face for a long book."
+    ],
+    "modifiers": [
+      {
+        "request": "more refined",
+        "toward": "transitional-serif",
+        "how": "Thin the serifs to 0.3 of the stem, add brackets, and raise the contrast to 3:1."
+      },
+      {
+        "request": "cleaner",
+        "toward": "grotesque-sans",
+        "how": "Remove the slabs; keep the low contrast, the weight and the industrial voice."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Slab serif (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Slab_serif"
+    },
+    {
+      "title": "Vox-ATypI classification (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Vox-ATypI_classification"
+    },
+    {
+      "title": "Robert Bringhurst, The Elements of Typographic Style (Hartley & Marks, 4th ed. 2012)"
+    }
+  ]
+}

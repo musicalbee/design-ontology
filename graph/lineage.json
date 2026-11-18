@@ -72,6 +72,17 @@
         "depth_illusion",
         "line_dominance"
       ]
+    },
+    {
+      "id": "typeface",
+      "name": "Typeface",
+      "axes": [
+        "stroke_contrast",
+        "construction",
+        "x_height",
+        "width",
+        "serif_mass"
+      ]
     }
   ],
   "nodes": [
@@ -2099,6 +2110,126 @@
         "depth_illusion": 4,
         "line_dominance": 2
       }
+    },
+    {
+      "id": "garalde-old-style",
+      "domain": "typeface",
+      "name": "Garalde old-style serif",
+      "era": "hand-press",
+      "start": 1495,
+      "end": 1750,
+      "vectors": {
+        "stroke_contrast": 2,
+        "construction": 1,
+        "x_height": 1,
+        "width": 3,
+        "serif_mass": 3
+      }
+    },
+    {
+      "id": "transitional-serif",
+      "domain": "typeface",
+      "name": "Transitional serif",
+      "era": "hand-press",
+      "start": 1757,
+      "end": 1800,
+      "vectors": {
+        "stroke_contrast": 3,
+        "construction": 3,
+        "x_height": 2,
+        "width": 3,
+        "serif_mass": 3
+      }
+    },
+    {
+      "id": "didone-serif",
+      "domain": "typeface",
+      "name": "Didone",
+      "era": "hand-press",
+      "start": 1784,
+      "end": 1830,
+      "vectors": {
+        "stroke_contrast": 5,
+        "construction": 4,
+        "x_height": 1,
+        "width": 3,
+        "serif_mass": 2
+      }
+    },
+    {
+      "id": "slab-serif",
+      "domain": "typeface",
+      "name": "Slab serif",
+      "era": "industrial",
+      "start": 1815,
+      "end": null,
+      "vectors": {
+        "stroke_contrast": 1,
+        "construction": 4,
+        "x_height": 3,
+        "width": 3,
+        "serif_mass": 5
+      }
+    },
+    {
+      "id": "grotesque-sans",
+      "domain": "typeface",
+      "name": "Grotesque sans",
+      "era": "industrial",
+      "start": 1816,
+      "end": 1930,
+      "vectors": {
+        "stroke_contrast": 2,
+        "construction": 4,
+        "x_height": 3,
+        "width": 3,
+        "serif_mass": 1
+      }
+    },
+    {
+      "id": "humanist-sans",
+      "domain": "typeface",
+      "name": "Humanist sans",
+      "era": "modernist",
+      "start": 1916,
+      "end": null,
+      "vectors": {
+        "stroke_contrast": 2,
+        "construction": 2,
+        "x_height": 4,
+        "width": 3,
+        "serif_mass": 1
+      }
+    },
+    {
+      "id": "geometric-sans",
+      "domain": "typeface",
+      "name": "Geometric sans",
+      "era": "modernist",
+      "start": 1927,
+      "end": null,
+      "vectors": {
+        "stroke_contrast": 1,
+        "construction": 5,
+        "x_height": 2,
+        "width": 4,
+        "serif_mass": 1
+      }
+    },
+    {
+      "id": "neo-grotesque-sans",
+      "domain": "typeface",
+      "name": "Neo-grotesque sans",
+      "era": "modernist",
+      "start": 1957,
+      "end": null,
+      "vectors": {
+        "stroke_contrast": 1,
+        "construction": 4,
+        "x_height": 5,
+        "width": 3,
+        "serif_mass": 1
+      }
     }
   ],
   "edges": [
@@ -2184,6 +2315,11 @@
     },
     {
       "from": "arts-and-crafts-interior",
+      "to": "humanist-sans",
+      "type": "ECHOES"
+    },
+    {
+      "from": "arts-and-crafts-interior",
       "to": "nordic-national-romanticism-painting",
       "type": "ECHOES"
     },
@@ -2224,12 +2360,22 @@
     },
     {
       "from": "bauhaus",
+      "to": "geometric-sans",
+      "type": "ECHOES"
+    },
+    {
+      "from": "bauhaus",
       "to": "international-style-architecture",
       "type": "ECHOES"
     },
     {
       "from": "bauhaus-architecture",
       "to": "bauhaus-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "bauhaus-architecture",
+      "to": "geometric-sans",
       "type": "ECHOES"
     },
     {
@@ -2324,6 +2470,11 @@
     },
     {
       "from": "constructivism-web",
+      "to": "grotesque-sans",
+      "type": "ECHOES"
+    },
+    {
+      "from": "constructivism-web",
       "to": "soviet-montage",
       "type": "ECHOES"
     },
@@ -2370,6 +2521,16 @@
     {
       "from": "deconstructivist-architecture",
       "to": "grunge-editorial",
+      "type": "ECHOES"
+    },
+    {
+      "from": "didone-serif",
+      "to": "fashion-editorial",
+      "type": "ECHOES"
+    },
+    {
+      "from": "didone-serif",
+      "to": "neoclassical-architecture",
       "type": "ECHOES"
     },
     {
@@ -2443,8 +2604,23 @@
       "type": "ECHOES"
     },
     {
+      "from": "garalde-old-style",
+      "to": "renaissance-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "garalde-old-style",
+      "to": "renaissance-painting",
+      "type": "ECHOES"
+    },
+    {
       "from": "georgian-interior",
       "to": "renaissance-painting",
+      "type": "ECHOES"
+    },
+    {
+      "from": "georgian-interior",
+      "to": "transitional-serif",
       "type": "ECHOES"
     },
     {
@@ -2478,6 +2654,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "humanist-sans",
+      "to": "scandinavian-interior",
+      "type": "ECHOES"
+    },
+    {
       "from": "impressionism",
       "to": "pictorialism",
       "type": "ECHOES"
@@ -2495,6 +2676,11 @@
     {
       "from": "international-style-architecture",
       "to": "minimalist-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "international-style-architecture",
+      "to": "neo-grotesque-sans",
       "type": "ECHOES"
     },
     {
@@ -2603,6 +2789,16 @@
       "type": "ECHOES"
     },
     {
+      "from": "neo-grotesque-sans",
+      "to": "swiss-international",
+      "type": "ECHOES"
+    },
+    {
+      "from": "neoclassical-architecture",
+      "to": "transitional-serif",
+      "type": "ECHOES"
+    },
+    {
       "from": "new-hollywood",
       "to": "street-photography",
       "type": "ECHOES"
@@ -2660,6 +2856,16 @@
     {
       "from": "scandinavian-interior",
       "to": "scandinavian-interior-photography",
+      "type": "ECHOES"
+    },
+    {
+      "from": "slab-serif",
+      "to": "victorian-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "slab-serif",
+      "to": "victorian-web",
       "type": "ECHOES"
     },
     {
@@ -2818,6 +3024,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "didone-serif",
+      "to": "transitional-serif",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "documentary-photography",
       "to": "straight-photography",
       "type": "EVOLVED_FROM"
@@ -2948,6 +3159,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "humanist-sans",
+      "to": "garalde-old-style",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "impressionism",
       "to": "realism-painting",
       "type": "EVOLVED_FROM"
@@ -3030,6 +3246,11 @@
     {
       "from": "neo-deco-interior",
       "to": "art-deco-interior",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "neo-grotesque-sans",
+      "to": "grotesque-sans",
       "type": "EVOLVED_FROM"
     },
     {
@@ -3128,6 +3349,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "slab-serif",
+      "to": "didone-serif",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "slow-cinema",
       "to": "italian-neorealism",
       "type": "EVOLVED_FROM"
@@ -3160,6 +3386,11 @@
     {
       "from": "synthwave-web",
       "to": "y2k-aesthetic",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "transitional-serif",
+      "to": "garalde-old-style",
       "type": "EVOLVED_FROM"
     },
     {
@@ -3503,6 +3734,11 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "grotesque-sans",
+      "to": "slab-serif",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "grunge-editorial",
       "to": "punk-zine",
       "type": "HYBRIDIZED_WITH"
@@ -3713,6 +3949,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "didone-serif",
+      "to": "garalde-old-style",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "documentary-photography",
       "to": "pictorialism",
       "type": "REBELLED_AGAINST"
@@ -3763,6 +4004,16 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "geometric-sans",
+      "to": "garalde-old-style",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "geometric-sans",
+      "to": "grotesque-sans",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "grandmillennial-interior",
       "to": "minimalist-interior",
       "type": "REBELLED_AGAINST"
@@ -3773,8 +4024,18 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "grotesque-sans",
+      "to": "didone-serif",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "grunge-editorial",
       "to": "swiss-international",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "humanist-sans",
+      "to": "grotesque-sans",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -3840,6 +4101,11 @@
     {
       "from": "neo-deco-interior",
       "to": "minimalist-interior",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "neo-grotesque-sans",
+      "to": "humanist-sans",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -4660,7 +4926,9 @@
         "art-nouveau-web",
         "punk-zine"
       ],
-      "echoes": [],
+      "echoes": [
+        "slab-serif"
+      ],
       "nearest_by_vector": [
         {
           "id": "skeuomorphism",
@@ -4764,6 +5032,7 @@
         "bauhaus-architecture",
         "bauhaus-interior",
         "de-stijl-painting",
+        "geometric-sans",
         "international-style-architecture"
       ],
       "nearest_by_vector": [
@@ -4796,6 +5065,7 @@
       "echoes": [
         "brutalist-architecture",
         "cubism-painting",
+        "grotesque-sans",
         "soviet-montage"
       ],
       "nearest_by_vector": [
@@ -4918,6 +5188,7 @@
       "echoes": [
         "de-stijl-painting",
         "international-style-architecture",
+        "neo-grotesque-sans",
         "straight-photography"
       ],
       "nearest_by_vector": [
@@ -6393,6 +6664,7 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
+        "garalde-old-style",
         "renaissance-painting"
       ],
       "nearest_by_vector": [
@@ -6452,7 +6724,10 @@
       ],
       "provoked": [],
       "hybridized_with": [],
-      "echoes": [],
+      "echoes": [
+        "didone-serif",
+        "transitional-serif"
+      ],
       "nearest_by_vector": [
         {
           "id": "renaissance-architecture",
@@ -6563,6 +6838,7 @@
       "echoes": [
         "bauhaus",
         "bauhaus-interior",
+        "geometric-sans",
         "new-objectivity"
       ],
       "nearest_by_vector": [
@@ -6640,6 +6916,7 @@
         "duesseldorf-school",
         "mid-century-modern-interior",
         "minimalist-interior",
+        "neo-grotesque-sans",
         "new-topographics",
         "rams-functionalism-ui",
         "straight-photography",
@@ -6892,7 +7169,8 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
-        "renaissance-painting"
+        "renaissance-painting",
+        "transitional-serif"
       ],
       "nearest_by_vector": [
         {
@@ -6953,7 +7231,8 @@
       ],
       "hybridized_with": [],
       "echoes": [
-        "pictorialism"
+        "pictorialism",
+        "slab-serif"
       ],
       "nearest_by_vector": [
         {
@@ -6984,6 +7263,7 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
+        "humanist-sans",
         "nordic-national-romanticism-painting"
       ],
       "nearest_by_vector": [
@@ -7185,6 +7465,7 @@
         "mid-century-modern-interior"
       ],
       "echoes": [
+        "humanist-sans",
         "nordic-modernism-architecture",
         "nordic-national-romanticism-painting",
         "scandinavian-interior-photography"
@@ -7890,6 +8171,7 @@
         "scandinavian-interior-photography"
       ],
       "echoes": [
+        "didone-serif",
         "grunge-editorial",
         "quiet-luxury-interior"
       ],
@@ -8496,6 +8778,7 @@
       ],
       "hybridized_with": [],
       "echoes": [
+        "garalde-old-style",
         "georgian-interior",
         "planimetric-symmetry",
         "renaissance-architecture"
@@ -8991,6 +9274,257 @@
       "techniques": [
         "airbrush"
       ]
+    },
+    "garalde-old-style": {
+      "evolved_from": [],
+      "evolved_into": [
+        "humanist-sans",
+        "transitional-serif"
+      ],
+      "rebelled_against": [],
+      "provoked": [
+        "didone-serif",
+        "geometric-sans"
+      ],
+      "hybridized_with": [],
+      "echoes": [
+        "renaissance-architecture",
+        "renaissance-painting"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "transitional-serif",
+          "distance": 2.45
+        },
+        {
+          "id": "humanist-sans",
+          "distance": 3.74
+        },
+        {
+          "id": "grotesque-sans",
+          "distance": 4.12
+        }
+      ],
+      "techniques": []
+    },
+    "transitional-serif": {
+      "evolved_from": [
+        "garalde-old-style"
+      ],
+      "evolved_into": [
+        "didone-serif"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "georgian-interior",
+        "neoclassical-architecture"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "garalde-old-style",
+          "distance": 2.45
+        },
+        {
+          "id": "didone-serif",
+          "distance": 2.65
+        },
+        {
+          "id": "grotesque-sans",
+          "distance": 2.65
+        }
+      ],
+      "techniques": []
+    },
+    "didone-serif": {
+      "evolved_from": [
+        "transitional-serif"
+      ],
+      "evolved_into": [
+        "slab-serif"
+      ],
+      "rebelled_against": [
+        "garalde-old-style"
+      ],
+      "provoked": [
+        "grotesque-sans"
+      ],
+      "hybridized_with": [],
+      "echoes": [
+        "fashion-editorial",
+        "neoclassical-architecture"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "transitional-serif",
+          "distance": 2.65
+        },
+        {
+          "id": "grotesque-sans",
+          "distance": 3.74
+        },
+        {
+          "id": "garalde-old-style",
+          "distance": 4.36
+        }
+      ],
+      "techniques": []
+    },
+    "slab-serif": {
+      "evolved_from": [
+        "didone-serif"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "grotesque-sans"
+      ],
+      "echoes": [
+        "victorian-interior",
+        "victorian-web"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "transitional-serif",
+          "distance": 3.16
+        },
+        {
+          "id": "grotesque-sans",
+          "distance": 4.12
+        },
+        {
+          "id": "garalde-old-style",
+          "distance": 4.24
+        }
+      ],
+      "techniques": []
+    },
+    "grotesque-sans": {
+      "evolved_from": [],
+      "evolved_into": [
+        "neo-grotesque-sans"
+      ],
+      "rebelled_against": [
+        "didone-serif"
+      ],
+      "provoked": [
+        "geometric-sans",
+        "humanist-sans"
+      ],
+      "hybridized_with": [
+        "slab-serif"
+      ],
+      "echoes": [
+        "constructivism-web"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "geometric-sans",
+          "distance": 2
+        },
+        {
+          "id": "humanist-sans",
+          "distance": 2.24
+        },
+        {
+          "id": "neo-grotesque-sans",
+          "distance": 2.24
+        }
+      ],
+      "techniques": []
+    },
+    "humanist-sans": {
+      "evolved_from": [
+        "garalde-old-style"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "grotesque-sans"
+      ],
+      "provoked": [
+        "neo-grotesque-sans"
+      ],
+      "hybridized_with": [],
+      "echoes": [
+        "arts-and-crafts-interior",
+        "scandinavian-interior"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "grotesque-sans",
+          "distance": 2.24
+        },
+        {
+          "id": "neo-grotesque-sans",
+          "distance": 2.45
+        },
+        {
+          "id": "transitional-serif",
+          "distance": 3.16
+        }
+      ],
+      "techniques": []
+    },
+    "geometric-sans": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "garalde-old-style",
+        "grotesque-sans"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "bauhaus",
+        "bauhaus-architecture"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "grotesque-sans",
+          "distance": 2
+        },
+        {
+          "id": "neo-grotesque-sans",
+          "distance": 3.32
+        },
+        {
+          "id": "transitional-serif",
+          "distance": 3.61
+        }
+      ],
+      "techniques": []
+    },
+    "neo-grotesque-sans": {
+      "evolved_from": [
+        "grotesque-sans"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "humanist-sans"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "international-style-architecture",
+        "swiss-international"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "grotesque-sans",
+          "distance": 2.24
+        },
+        {
+          "id": "humanist-sans",
+          "distance": 2.45
+        },
+        {
+          "id": "geometric-sans",
+          "distance": 3.32
+        }
+      ],
+      "techniques": []
     }
   }
 }
