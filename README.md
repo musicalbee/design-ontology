@@ -149,13 +149,26 @@ flowchart LR
     bento_grid_ui["Bento Grid UI"]
     spatial_visionos["Spatial UI (visionOS)"]
   end
+  subgraph architecture_medieval["Architecture · Medieval · 1200–1520"]
+    gothic_architecture["Gothic"]
+  end
+  subgraph architecture_early_modern["Architecture · Early Modern · 1420–1750"]
+    renaissance_architecture["Renaissance"]
+    baroque_architecture["Baroque"]
+  end
+  subgraph architecture_revival_and_academy["Architecture · Revival and Academy · 1750–1914"]
+    neoclassical_architecture["Neoclassicism"]
+    beaux_arts_architecture["Beaux-Arts"]
+  end
   subgraph architecture_fin_de_siecle["Architecture · Fin de Siècle · 1885–1914"]
     art_nouveau_architecture["Art Nouveau"]
+    prairie_school_architecture["Prairie School"]
   end
   subgraph architecture_modern_movement["Architecture · Modern Movement · 1919–1975"]
     bauhaus_architecture["Bauhaus Architecture"]
     art_deco_architecture["Art Deco"]
     international_style_architecture["International Style"]
+    nordic_modernism_architecture["Nordic Modernism"]
     mid_century_modern_architecture["Mid-century Modern"]
     brutalist_architecture["Brutalism"]
   end
@@ -163,6 +176,7 @@ flowchart LR
     postmodern_architecture["Postmodernism"]
     high_tech_architecture["High-tech"]
     deconstructivist_architecture["Deconstructivism"]
+    parametricism_architecture["Parametricism"]
   end
   subgraph interior_classical_house["Interior · Classical house · 1700–1830"]
     georgian_interior["Georgian"]
@@ -250,19 +264,23 @@ flowchart LR
   end
   abstract_expressionism <-. echoes .-> brutalist_architecture
   art_deco_architecture <-. echoes .-> art_deco_interior
+  art_deco_architecture <-. echoes .-> art_deco_web
   art_deco_architecture <-. echoes .-> neo_deco_interior
   art_deco_interior <-. echoes .-> art_deco_web
   art_deco_web <-. echoes .-> hollywood_regency_interior
   art_deco_web <-. echoes .-> neo_deco_interior
   art_nouveau_architecture <-. echoes .-> art_nouveau_interior
+  art_nouveau_architecture <-. echoes .-> art_nouveau_web
   art_nouveau_architecture <-. echoes .-> rococo_painting
   art_nouveau_interior <-. echoes .-> art_nouveau_web
   arts_and_crafts_interior <-. echoes .-> nordic_national_romanticism_painting
+  baroque_architecture <-. echoes .-> baroque_painting
   baroque_painting <-. echoes .-> german_expressionist_cinema
   bauhaus <-. echoes .-> bauhaus_architecture
   bauhaus <-. echoes .-> bauhaus_interior
   bauhaus <-. echoes .-> de_stijl_painting
   bauhaus <-. echoes .-> international_style_architecture
+  bauhaus_architecture <-. echoes .-> bauhaus_interior
   bauhaus_interior <-. echoes .-> de_stijl_painting
   bauhaus_interior <-. echoes .-> international_style_architecture
   brutalist_architecture <-. echoes .-> constructivism_web
@@ -276,8 +294,10 @@ flowchart LR
   cubism_painting <-. echoes .-> deconstructivist_architecture
   de_stijl_painting <-. echoes .-> de_stijl_web
   de_stijl_painting <-. echoes .-> international_style_architecture
+  de_stijl_painting <-. echoes .-> prairie_school_architecture
   de_stijl_painting <-. echoes .-> swiss_international
   de_stijl_web <-. echoes .-> international_style_architecture
+  de_stijl_web <-. echoes .-> prairie_school_architecture
   deconstructivist_architecture <-. echoes .-> grunge_editorial
   dopamine_decor <-. echoes .-> memphis_design
   fauvism <-. echoes .-> new_colour
@@ -300,14 +320,18 @@ flowchart LR
   memphis_design <-. echoes .-> memphis_interior
   memphis_design <-. echoes .-> pop_art_painting
   memphis_design <-. echoes .-> postmodern_architecture
+  memphis_interior <-. echoes .-> postmodern_architecture
   mid_century_modern <-. echoes .-> mid_century_modern_architecture
   mid_century_modern <-. echoes .-> mid_century_modern_interior
+  mid_century_modern_architecture <-. echoes .-> mid_century_modern_interior
   minimalist_interior <-. echoes .-> rams_functionalism_ui
+  nordic_modernism_architecture <-. echoes .-> scandinavian_interior
   nordic_national_romanticism_painting <-. echoes .-> scandinavian_interior
   party_flash <-. echoes .-> y2k_aesthetic
   pictorialism <-. echoes .-> victorian_interior
   pop_art_painting <-. echoes .-> pop_art_web
   realism_painting <-. echoes .-> straight_photography
+  renaissance_architecture <-. echoes .-> renaissance_painting
   straight_photography <-. echoes .-> swiss_international
   surrealism_painting <-. echoes .-> vaporwave
   y2k_aesthetic <-. echoes .-> y2k_digicam
@@ -316,7 +340,10 @@ flowchart LR
   art_nouveau_architecture --> art_deco_architecture
   arts_and_crafts_interior --> art_nouveau_interior
   shaker_interior --> arts_and_crafts_interior
+  renaissance_architecture --> baroque_architecture
   renaissance_painting --> baroque_painting
+  baroque_architecture --> beaux_arts_architecture
+  neoclassical_architecture --> beaux_arts_architecture
   flat_design --> bento_grid_ui
   swiss_international --> bento_grid_ui
   international_style_architecture --> brutalist_architecture
@@ -342,6 +369,7 @@ flowchart LR
   flat_design --> material_design
   bauhaus --> mid_century_modern
   international_style_architecture --> mid_century_modern_architecture
+  prairie_school_architecture --> mid_century_modern_architecture
   bauhaus_interior --> mid_century_modern_interior
   bauhaus_interior --> minimalist_interior
   flat_design --> neo_brutalism_ui
@@ -349,6 +377,8 @@ flowchart LR
   skeuomorphism --> neumorphism
   street_photography --> new_colour
   straight_photography --> new_topographics
+  international_style_architecture --> nordic_modernism_architecture
+  deconstructivist_architecture --> parametricism_architecture
   y2k_digicam --> party_flash
   impressionism --> pointillism
   mid_century_modern --> pop_art_web
@@ -389,7 +419,9 @@ flowchart LR
   neo_brutalism_ui -. rejects .-> corporate_memphis
   neo_brutalism_ui -. rejects .-> material_design
   neo_deco_interior -. rejects .-> minimalist_interior
+  neoclassical_architecture -. rejects .-> baroque_architecture
   neumorphism -. rejects .-> flat_design
+  parametricism_architecture -. rejects .-> international_style_architecture
   pop_art_painting -. rejects .-> abstract_expressionism
   postmodern_architecture -. rejects .-> brutalist_architecture
   postmodern_architecture -. rejects .-> international_style_architecture
@@ -399,6 +431,7 @@ flowchart LR
   quiet_luxury_interior -. rejects .-> dopamine_decor
   realism_painting -. rejects .-> rococo_painting
   realism_painting -. rejects .-> romanticism_painting
+  renaissance_architecture -. rejects .-> gothic_architecture
   romanticism_painting -. rejects .-> rococo_painting
   straight_photography -. rejects .-> pictorialism
   y2k_aesthetic -. rejects .-> grunge_editorial
@@ -465,22 +498,16 @@ flowchart LR
   linkStyle 60 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 61 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 62 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 116 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 117 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 118 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 119 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 120 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 121 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 122 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 123 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 124 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 125 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 126 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 127 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 128 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 129 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 130 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 131 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 63 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 64 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 65 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 66 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 67 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 68 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 69 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 70 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 71 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 72 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 132 stroke:#E5484D,stroke-width:1.5px
   linkStyle 133 stroke:#E5484D,stroke-width:1.5px
   linkStyle 134 stroke:#E5484D,stroke-width:1.5px
@@ -503,6 +530,25 @@ flowchart LR
   linkStyle 151 stroke:#E5484D,stroke-width:1.5px
   linkStyle 152 stroke:#E5484D,stroke-width:1.5px
   linkStyle 153 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 154 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 155 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 156 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 157 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 158 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 159 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 160 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 161 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 162 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 163 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 164 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 165 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 166 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 167 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 168 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 169 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 170 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 171 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 172 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 
@@ -549,7 +595,7 @@ The ontology has domains. A domain is one manifest ([`domains/`](domains/)) and 
 | Interior | 8 | composition rules in cm, lux and K, and a scene primer | [one room, each style](demo/interior.html) |
 | Photography | 8 | camera numbers (mm, f-stop, shutter, ISO, K) and a grade recipe | [gallery](demo/photography.html) |
 | Film and video | 8 | shot primer (aspect, fps, shutter angle, shot length) and a video-prompt primer | [gallery](demo/film.html) |
-| Painting | 16 | palette in hex, brushwork and medium rules, a composition schema | [gallery](demo/painting.html) |
+| Painting | 8 | palette in hex, brushwork and medium rules, a composition schema | [gallery](demo/painting.html) |
 
 **Composition principles** are shared. [`data/principles/`](data/principles/) holds 20 records, such as focal point, symmetry and axis, rhythm, rule of thirds, layering in depth and colour distribution. Each record has a definition and a measure with a typical range. A style in any domain names a principle by id and gives its own number. The validator refuses an id that does not exist.
 

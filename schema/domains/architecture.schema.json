@@ -8,7 +8,7 @@
   "required": [
     "id", "domain", "name", "aliases", "era_id", "time_period", "building_types", "summary",
     "philosophy", "vectors", "massing", "structure", "materials", "facade",
-    "light_and_space", "ornament", "lineage", "emotion", "agent", "primer"
+    "light_and_space", "ornament", "composition", "lineage", "emotion", "agent", "primer", "references"
   ],
   "properties": {
     "$schema": { "type": "string" },
@@ -26,7 +26,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "items": { "enum": ["residential", "civic", "cultural", "commercial", "industrial", "religious", "landscape", "interior"] }
+      "items": { "enum": ["residential", "civic", "cultural", "commercial", "industrial", "religious", "landscape", "interior", "healthcare", "education", "infrastructure"] }
     },
     "summary": { "type": "string", "minLength": 40, "maxLength": 320 },
     "philosophy": { "$ref": "../core.schema.json#/$defs/philosophy" },
@@ -120,6 +120,66 @@
         "details": { "type": "array", "minItems": 1, "items": { "$ref": "../core.schema.json#/$defs/shortText" } }
       }
     },
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "description": "Open identifiers. Store an id only when the record exists and matches the style.",
+      "properties": {
+        "wikidata": { "type": "string", "pattern": "^Q[0-9]+$" },
+        "aat": { "type": "string", "pattern": "^3[0-9]{8}$", "description": "Getty AAT subject id (ODC-By 1.0)." }
+      }
+    },
+    "composition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["symmetry", "axis_count", "rhythm_module_m", "rules"],
+      "description": "The composition layer: scalar fields for a parametric elevation, and one numbered rule for each shared principle used (data/principles/).",
+      "properties": {
+        "symmetry": { "enum": ["bilateral", "radial", "asymmetric", "free"], "description": "bilateral = mirrored about an axis; asymmetric = balanced by unequal masses; free = no balance rule." },
+        "axis_count": { "type": "integer", "minimum": 0, "maximum": 3, "description": "Number of ordering axes in the elevation or plan." },
+        "rhythm_module_m": { "type": "number", "exclusiveMinimum": 0, "maximum": 30, "description": "The interval in metres that repeats on the facade: a bay, a pier, a rib." },
+        "rules": {
+          "type": "array",
+          "minItems": 5,
+          "maxItems": 12,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["principle", "rule", "value"],
+            "properties": {
+              "principle": { "$ref": "../core.schema.json#/$defs/slug", "description": "An id from data/principles/." },
+              "rule": { "$ref": "../core.schema.json#/$defs/sentence" },
+              "value": { "$ref": "../core.schema.json#/$defs/shortText", "description": "The number: a ratio, a count, a length in m, a share in %." }
+            }
+          }
+        }
+      }
+    },
+    "references": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["images"],
+      "description": "Reference images. The repository stores the link, the credit and the licence of each file, never the file.",
+      "properties": {
+        "images": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["title", "credit", "licence", "url"],
+            "properties": {
+              "title": { "$ref": "../core.schema.json#/$defs/shortText" },
+              "credit": { "type": "string", "minLength": 3, "maxLength": 200 },
+              "licence": { "enum": ["CC0", "Public domain", "CC BY 4.0", "CC BY-SA 3.0", "CC BY-SA 4.0"] },
+              "url": { "type": "string", "pattern": "^https://" }
+            }
+          }
+        }
+      }
+    },
     "lineage": { "$ref": "../core.schema.json#/$defs/lineage" },
     "emotion": { "$ref": "../core.schema.json#/$defs/emotion" },
     "agent": { "$ref": "../core.schema.json#/$defs/agent" },
@@ -142,7 +202,7 @@
             "properties": {
               "work": { "$ref": "../core.schema.json#/$defs/shortText" },
               "architect": { "$ref": "../core.schema.json#/$defs/shortText" },
-              "year": { "type": "integer", "minimum": 1800, "maximum": 2100 }
+              "year": { "type": "integer", "minimum": 1100, "maximum": 2100 }
             }
           }
         }

@@ -451,6 +451,81 @@
       }
     },
     {
+      "id": "gothic-architecture",
+      "domain": "architecture",
+      "name": "Gothic",
+      "era": "medieval",
+      "start": 1200,
+      "end": 1520,
+      "vectors": {
+        "ornamentation": 4,
+        "structural_expression": 5,
+        "geometric_rigidity": 3,
+        "material_rawness": 3,
+        "monumentality": 5
+      }
+    },
+    {
+      "id": "renaissance-architecture",
+      "domain": "architecture",
+      "name": "Renaissance",
+      "era": "early-modern",
+      "start": 1420,
+      "end": 1600,
+      "vectors": {
+        "ornamentation": 3,
+        "structural_expression": 2,
+        "geometric_rigidity": 5,
+        "material_rawness": 2,
+        "monumentality": 4
+      }
+    },
+    {
+      "id": "baroque-architecture",
+      "domain": "architecture",
+      "name": "Baroque",
+      "era": "early-modern",
+      "start": 1600,
+      "end": 1750,
+      "vectors": {
+        "ornamentation": 5,
+        "structural_expression": 2,
+        "geometric_rigidity": 2,
+        "material_rawness": 1,
+        "monumentality": 5
+      }
+    },
+    {
+      "id": "neoclassical-architecture",
+      "domain": "architecture",
+      "name": "Neoclassicism",
+      "era": "revival-and-academy",
+      "start": 1750,
+      "end": 1840,
+      "vectors": {
+        "ornamentation": 2,
+        "structural_expression": 2,
+        "geometric_rigidity": 5,
+        "material_rawness": 2,
+        "monumentality": 4
+      }
+    },
+    {
+      "id": "beaux-arts-architecture",
+      "domain": "architecture",
+      "name": "Beaux-Arts",
+      "era": "revival-and-academy",
+      "start": 1860,
+      "end": 1920,
+      "vectors": {
+        "ornamentation": 4,
+        "structural_expression": 1,
+        "geometric_rigidity": 4,
+        "material_rawness": 1,
+        "monumentality": 5
+      }
+    },
+    {
       "id": "art-nouveau-architecture",
       "domain": "architecture",
       "name": "Art Nouveau",
@@ -462,6 +537,21 @@
         "structural_expression": 3,
         "geometric_rigidity": 1,
         "material_rawness": 2,
+        "monumentality": 2
+      }
+    },
+    {
+      "id": "prairie-school-architecture",
+      "domain": "architecture",
+      "name": "Prairie School",
+      "era": "fin-de-siecle",
+      "start": 1900,
+      "end": 1917,
+      "vectors": {
+        "ornamentation": 3,
+        "structural_expression": 3,
+        "geometric_rigidity": 4,
+        "material_rawness": 3,
         "monumentality": 2
       }
     },
@@ -508,6 +598,21 @@
         "geometric_rigidity": 5,
         "material_rawness": 2,
         "monumentality": 3
+      }
+    },
+    {
+      "id": "nordic-modernism-architecture",
+      "domain": "architecture",
+      "name": "Nordic Modernism",
+      "era": "modern-movement",
+      "start": 1930,
+      "end": 1975,
+      "vectors": {
+        "ornamentation": 2,
+        "structural_expression": 3,
+        "geometric_rigidity": 2,
+        "material_rawness": 3,
+        "monumentality": 2
       }
     },
     {
@@ -583,6 +688,21 @@
         "geometric_rigidity": 1,
         "material_rawness": 3,
         "monumentality": 3
+      }
+    },
+    {
+      "id": "parametricism-architecture",
+      "domain": "architecture",
+      "name": "Parametricism",
+      "era": "postmodern-and-after",
+      "start": 2008,
+      "end": null,
+      "vectors": {
+        "ornamentation": 3,
+        "structural_expression": 2,
+        "geometric_rigidity": 1,
+        "material_rawness": 1,
+        "monumentality": 4
       }
     },
     {
@@ -1349,6 +1469,11 @@
     },
     {
       "from": "art-deco-architecture",
+      "to": "art-deco-web",
+      "type": "ECHOES"
+    },
+    {
+      "from": "art-deco-architecture",
       "to": "neo-deco-interior",
       "type": "ECHOES"
     },
@@ -1374,6 +1499,11 @@
     },
     {
       "from": "art-nouveau-architecture",
+      "to": "art-nouveau-web",
+      "type": "ECHOES"
+    },
+    {
+      "from": "art-nouveau-architecture",
       "to": "rococo-painting",
       "type": "ECHOES"
     },
@@ -1385,6 +1515,11 @@
     {
       "from": "arts-and-crafts-interior",
       "to": "nordic-national-romanticism-painting",
+      "type": "ECHOES"
+    },
+    {
+      "from": "baroque-architecture",
+      "to": "baroque-painting",
       "type": "ECHOES"
     },
     {
@@ -1410,6 +1545,11 @@
     {
       "from": "bauhaus",
       "to": "international-style-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "bauhaus-architecture",
+      "to": "bauhaus-interior",
       "type": "ECHOES"
     },
     {
@@ -1479,12 +1619,22 @@
     },
     {
       "from": "de-stijl-painting",
+      "to": "prairie-school-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "de-stijl-painting",
       "to": "swiss-international",
       "type": "ECHOES"
     },
     {
       "from": "de-stijl-web",
       "to": "international-style-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "de-stijl-web",
+      "to": "prairie-school-architecture",
       "type": "ECHOES"
     },
     {
@@ -1598,6 +1748,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "memphis-interior",
+      "to": "postmodern-architecture",
+      "type": "ECHOES"
+    },
+    {
       "from": "mid-century-modern",
       "to": "mid-century-modern-architecture",
       "type": "ECHOES"
@@ -1608,8 +1763,18 @@
       "type": "ECHOES"
     },
     {
+      "from": "mid-century-modern-architecture",
+      "to": "mid-century-modern-interior",
+      "type": "ECHOES"
+    },
+    {
       "from": "minimalist-interior",
       "to": "rams-functionalism-ui",
+      "type": "ECHOES"
+    },
+    {
+      "from": "nordic-modernism-architecture",
+      "to": "scandinavian-interior",
       "type": "ECHOES"
     },
     {
@@ -1635,6 +1800,11 @@
     {
       "from": "realism-painting",
       "to": "straight-photography",
+      "type": "ECHOES"
+    },
+    {
+      "from": "renaissance-architecture",
+      "to": "renaissance-painting",
       "type": "ECHOES"
     },
     {
@@ -1678,8 +1848,23 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "baroque-architecture",
+      "to": "renaissance-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "baroque-painting",
       "to": "renaissance-painting",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "beaux-arts-architecture",
+      "to": "baroque-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "beaux-arts-architecture",
+      "to": "neoclassical-architecture",
       "type": "EVOLVED_FROM"
     },
     {
@@ -1808,6 +1993,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "mid-century-modern-architecture",
+      "to": "prairie-school-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "mid-century-modern-interior",
       "to": "bauhaus-interior",
       "type": "EVOLVED_FROM"
@@ -1840,6 +2030,16 @@
     {
       "from": "new-topographics",
       "to": "straight-photography",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "nordic-modernism-architecture",
+      "to": "international-style-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "parametricism-architecture",
+      "to": "deconstructivist-architecture",
       "type": "EVOLVED_FROM"
     },
     {
@@ -2218,8 +2418,18 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "neoclassical-architecture",
+      "to": "baroque-architecture",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "neumorphism",
       "to": "flat-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "parametricism-architecture",
+      "to": "international-style-architecture",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -2268,6 +2478,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "renaissance-architecture",
+      "to": "gothic-architecture",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "romanticism-painting",
       "to": "rococo-painting",
       "type": "REBELLED_AGAINST"
@@ -2297,6 +2512,7 @@
         "art-deco-web"
       ],
       "echoes": [
+        "art-nouveau-architecture",
         "art-nouveau-interior"
       ],
       "nearest_by_vector": [
@@ -2327,7 +2543,8 @@
       ],
       "echoes": [
         "de-stijl-painting",
-        "international-style-architecture"
+        "international-style-architecture",
+        "prairie-school-architecture"
       ],
       "nearest_by_vector": [
         {
@@ -2422,6 +2639,7 @@
         "bauhaus"
       ],
       "echoes": [
+        "art-deco-architecture",
         "art-deco-interior",
         "hollywood-regency-interior",
         "neo-deco-interior"
@@ -3052,6 +3270,139 @@
         }
       ]
     },
+    "gothic-architecture": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [
+        "renaissance-architecture"
+      ],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "brutalist-architecture",
+          "distance": 3.74
+        },
+        {
+          "id": "art-deco-architecture",
+          "distance": 3.87
+        },
+        {
+          "id": "baroque-architecture",
+          "distance": 3.87
+        }
+      ]
+    },
+    "renaissance-architecture": {
+      "evolved_from": [],
+      "evolved_into": [
+        "baroque-architecture"
+      ],
+      "rebelled_against": [
+        "gothic-architecture"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "renaissance-painting"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "neoclassical-architecture",
+          "distance": 1
+        },
+        {
+          "id": "art-deco-architecture",
+          "distance": 1.73
+        },
+        {
+          "id": "beaux-arts-architecture",
+          "distance": 2.24
+        }
+      ]
+    },
+    "baroque-architecture": {
+      "evolved_from": [
+        "renaissance-architecture"
+      ],
+      "evolved_into": [
+        "beaux-arts-architecture"
+      ],
+      "rebelled_against": [],
+      "provoked": [
+        "neoclassical-architecture"
+      ],
+      "hybridized_with": [],
+      "echoes": [
+        "baroque-painting"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "art-deco-architecture",
+          "distance": 2.45
+        },
+        {
+          "id": "beaux-arts-architecture",
+          "distance": 2.45
+        },
+        {
+          "id": "parametricism-architecture",
+          "distance": 2.45
+        }
+      ]
+    },
+    "neoclassical-architecture": {
+      "evolved_from": [],
+      "evolved_into": [
+        "beaux-arts-architecture"
+      ],
+      "rebelled_against": [
+        "baroque-architecture"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "renaissance-architecture",
+          "distance": 1
+        },
+        {
+          "id": "international-style-architecture",
+          "distance": 1.73
+        },
+        {
+          "id": "art-deco-architecture",
+          "distance": 2.45
+        }
+      ]
+    },
+    "beaux-arts-architecture": {
+      "evolved_from": [
+        "baroque-architecture",
+        "neoclassical-architecture"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "art-deco-architecture",
+          "distance": 1.41
+        },
+        {
+          "id": "postmodern-architecture",
+          "distance": 2.24
+        },
+        {
+          "id": "renaissance-architecture",
+          "distance": 2.24
+        }
+      ]
+    },
     "art-nouveau-architecture": {
       "evolved_from": [],
       "evolved_into": [
@@ -3062,20 +3413,48 @@
       "hybridized_with": [],
       "echoes": [
         "art-nouveau-interior",
+        "art-nouveau-web",
         "rococo-painting"
       ],
       "nearest_by_vector": [
+        {
+          "id": "parametricism-architecture",
+          "distance": 3.16
+        },
         {
           "id": "deconstructivist-architecture",
           "distance": 3.32
         },
         {
-          "id": "postmodern-architecture",
+          "id": "nordic-modernism-architecture",
           "distance": 3.32
+        }
+      ]
+    },
+    "prairie-school-architecture": {
+      "evolved_from": [],
+      "evolved_into": [
+        "mid-century-modern-architecture"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "de-stijl-painting",
+        "de-stijl-web"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "mid-century-modern-architecture",
+          "distance": 2.24
         },
         {
-          "id": "art-deco-architecture",
-          "distance": 4
+          "id": "nordic-modernism-architecture",
+          "distance": 2.24
+        },
+        {
+          "id": "bauhaus-architecture",
+          "distance": 2.65
         }
       ]
     },
@@ -3088,7 +3467,8 @@
         "international-style-architecture"
       ],
       "echoes": [
-        "bauhaus"
+        "bauhaus",
+        "bauhaus-interior"
       ],
       "nearest_by_vector": [
         {
@@ -3115,20 +3495,21 @@
       "hybridized_with": [],
       "echoes": [
         "art-deco-interior",
+        "art-deco-web",
         "neo-deco-interior"
       ],
       "nearest_by_vector": [
+        {
+          "id": "beaux-arts-architecture",
+          "distance": 1.41
+        },
         {
           "id": "postmodern-architecture",
           "distance": 1.73
         },
         {
-          "id": "international-style-architecture",
-          "distance": 3.61
-        },
-        {
-          "id": "art-nouveau-architecture",
-          "distance": 4
+          "id": "renaissance-architecture",
+          "distance": 1.73
         }
       ]
     },
@@ -3137,11 +3518,13 @@
       "evolved_into": [
         "brutalist-architecture",
         "high-tech-architecture",
-        "mid-century-modern-architecture"
+        "mid-century-modern-architecture",
+        "nordic-modernism-architecture"
       ],
       "rebelled_against": [],
       "provoked": [
         "deconstructivist-architecture",
+        "parametricism-architecture",
         "postmodern-architecture"
       ],
       "hybridized_with": [
@@ -3165,7 +3548,33 @@
           "distance": 1.41
         },
         {
+          "id": "neoclassical-architecture",
+          "distance": 1.73
+        },
+        {
           "id": "high-tech-architecture",
+          "distance": 2.24
+        }
+      ]
+    },
+    "nordic-modernism-architecture": {
+      "evolved_from": [
+        "international-style-architecture"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "scandinavian-interior"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "deconstructivist-architecture",
+          "distance": 1.41
+        },
+        {
+          "id": "prairie-school-architecture",
           "distance": 2.24
         },
         {
@@ -3176,14 +3585,16 @@
     },
     "mid-century-modern-architecture": {
       "evolved_from": [
-        "international-style-architecture"
+        "international-style-architecture",
+        "prairie-school-architecture"
       ],
       "evolved_into": [],
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
-        "mid-century-modern"
+        "mid-century-modern",
+        "mid-century-modern-interior"
       ],
       "nearest_by_vector": [
         {
@@ -3191,12 +3602,12 @@
           "distance": 2
         },
         {
-          "id": "international-style-architecture",
-          "distance": 2.45
+          "id": "prairie-school-architecture",
+          "distance": 2.24
         },
         {
-          "id": "high-tech-architecture",
-          "distance": 3
+          "id": "international-style-architecture",
+          "distance": 2.45
         }
       ]
     },
@@ -3224,12 +3635,12 @@
           "distance": 3.61
         },
         {
-          "id": "international-style-architecture",
-          "distance": 4.24
+          "id": "gothic-architecture",
+          "distance": 3.74
         },
         {
-          "id": "bauhaus-architecture",
-          "distance": 4.47
+          "id": "international-style-architecture",
+          "distance": 4.24
         }
       ]
     },
@@ -3245,7 +3656,8 @@
       ],
       "hybridized_with": [],
       "echoes": [
-        "memphis-design"
+        "memphis-design",
+        "memphis-interior"
       ],
       "nearest_by_vector": [
         {
@@ -3253,12 +3665,12 @@
           "distance": 1.73
         },
         {
-          "id": "art-nouveau-architecture",
-          "distance": 3.32
+          "id": "beaux-arts-architecture",
+          "distance": 2.24
         },
         {
-          "id": "deconstructivist-architecture",
-          "distance": 4
+          "id": "baroque-architecture",
+          "distance": 2.65
         }
       ]
     },
@@ -3292,7 +3704,9 @@
     },
     "deconstructivist-architecture": {
       "evolved_from": [],
-      "evolved_into": [],
+      "evolved_into": [
+        "parametricism-architecture"
+      ],
       "rebelled_against": [
         "international-style-architecture",
         "postmodern-architecture"
@@ -3307,16 +3721,42 @@
       ],
       "nearest_by_vector": [
         {
+          "id": "nordic-modernism-architecture",
+          "distance": 1.41
+        },
+        {
+          "id": "parametricism-architecture",
+          "distance": 2.65
+        },
+        {
           "id": "art-nouveau-architecture",
           "distance": 3.32
+        }
+      ]
+    },
+    "parametricism-architecture": {
+      "evolved_from": [
+        "deconstructivist-architecture"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "international-style-architecture"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "baroque-architecture",
+          "distance": 2.45
         },
         {
-          "id": "mid-century-modern-architecture",
-          "distance": 3.74
+          "id": "deconstructivist-architecture",
+          "distance": 2.65
         },
         {
-          "id": "high-tech-architecture",
-          "distance": 3.87
+          "id": "postmodern-architecture",
+          "distance": 2.65
         }
       ]
     },
@@ -3479,6 +3919,7 @@
       "hybridized_with": [],
       "echoes": [
         "bauhaus",
+        "bauhaus-architecture",
         "de-stijl-painting",
         "international-style-architecture"
       ],
@@ -3568,7 +4009,8 @@
       ],
       "echoes": [
         "international-style-architecture",
-        "mid-century-modern"
+        "mid-century-modern",
+        "mid-century-modern-architecture"
       ],
       "nearest_by_vector": [
         {
@@ -3601,6 +4043,7 @@
         "mid-century-modern-interior"
       ],
       "echoes": [
+        "nordic-modernism-architecture",
         "nordic-national-romanticism-painting"
       ],
       "nearest_by_vector": [
@@ -3660,7 +4103,8 @@
       ],
       "hybridized_with": [],
       "echoes": [
-        "memphis-design"
+        "memphis-design",
+        "postmodern-architecture"
       ],
       "nearest_by_vector": [
         {
@@ -4315,7 +4759,8 @@
       ],
       "hybridized_with": [],
       "echoes": [
-        "georgian-interior"
+        "georgian-interior",
+        "renaissance-architecture"
       ],
       "nearest_by_vector": [
         {
@@ -4367,6 +4812,7 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
+        "baroque-architecture",
         "german-expressionist-cinema"
       ],
       "nearest_by_vector": [
@@ -4654,6 +5100,7 @@
         "bauhaus-interior",
         "de-stijl-web",
         "international-style-architecture",
+        "prairie-school-architecture",
         "swiss-international"
       ],
       "nearest_by_vector": [
