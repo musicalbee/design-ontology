@@ -129,15 +129,6 @@ Lines cut into a metal plate with a burin; thin hairlines and swelling strokes g
 - Build shade with parallel lines or cross hatching, and keep the lines at 30° to 45° to each other.
 - Print on smooth paper so the hairlines stay clean.
 
-### Wood type (process)
-
-Large display letters cut from end-grain wood, so a printer can set a heavy headline that metal type cannot give at that size. Origin: typeface, Johnstown, New York, 1828.
-
-- Set the headline at 5 to 30 cm cap height; below 2 cm use metal type.
-- Use heavy weights: a stem of 1/5 to 1/3 of the cap height.
-- Mix two to four faces in one sheet, one face for each line, with each line set to the full measure.
-- Keep the line spacing tight: 1.0 to 1.1 times the cap height.
-
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

@@ -854,26 +854,6 @@ Used by: [`colour-field-painting`](./colour-field-painting/SKILL.md).
 
 Sources: [Wikipedia: Helen Frankenthaler](https://en.wikipedia.org/wiki/Helen_Frankenthaler); Helen Frankenthaler, Mountains and Sea (1952).
 
-### Wood type
-
-Large display letters cut from end-grain wood, so a printer can set a heavy headline that metal type cannot give at that size.
-
-| Step | Domain | Year | Lag | Route | Styles |
-|---|---|---|---|---|---|
-| Origin | Typeface | 1828 | — | Johnstown, New York: Darius Wells cuts display letters from end-grain wood with a router and sells them to printers. | |
-| 1 | Typeface | 1834 | +6 years | William Leavenworth adds the pantograph to the router; one pattern then gives each size, and slab and grotesque faces spread to every job printer. | [`slab-serif`](./slab-serif/SKILL.md), [`grotesque-sans`](./grotesque-sans/SKILL.md) |
-| 2 | Logo | c. 1875 | +47 years | Trade cards and shop signs set the name of the firm in heavy wood letters. | [`victorian-trademark`](./victorian-trademark/SKILL.md) |
-| 3 | Graphic & UI Design | 1969 | +141 years | Rob Roy Kelly publishes American Wood Type 1828–1900, and designers take the faces back into posters. |  |
-
-Used by: [`slab-serif`](./slab-serif/SKILL.md), [`grotesque-sans`](./grotesque-sans/SKILL.md), [`victorian-trademark`](./victorian-trademark/SKILL.md).
-
-- Set the headline at 5 to 30 cm cap height; below 2 cm use metal type.
-- Use heavy weights: a stem of 1/5 to 1/3 of the cap height.
-- Mix two to four faces in one sheet, one face for each line, with each line set to the full measure.
-- Keep the line spacing tight: 1.0 to 1.1 times the cap height.
-
-Sources: Rob Roy Kelly, American Wood Type 1828–1900 (1969); [Hamilton Wood Type and Printing Museum](https://woodtype.org).
-
 ### Woodcut
 
 A print from a block of wood with the white parts cut away; the result is flat colour, hard edges and visible grain.
