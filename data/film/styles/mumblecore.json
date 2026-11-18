@@ -1,0 +1,324 @@
+{
+  "$schema": "../../../schema/domains/film.schema.json",
+  "id": "mumblecore",
+  "name": "Mumblecore",
+  "aliases": [
+    "Low-budget talk cinema",
+    "Slackavetes"
+  ],
+  "era_id": "digital-cinema",
+  "time_period": {
+    "start": 2002,
+    "end": 2012,
+    "label": "2002–2012"
+  },
+  "capture": [
+    "digital-cinema"
+  ],
+  "summary": "A no-budget film about young people who talk, fail to say what they mean and drift. It uses a small digital camera, friends as actors, real rooms and half-improvised speech. The picture is plain and the mood is awkward.",
+  "philosophy": {
+    "core_thesis": "A cheap digital camera and a few friends are enough to film the small, awkward moments of a relationship, so the film trusts the talk and not the polish.",
+    "design_principles": [
+      "Shoot with a small digital camera and a crew of 2 to 5 people, with a budget under 100,000 USD.",
+      "Cast friends and non-professional actors, and write an outline with 50% or more of the lines improvised.",
+      "Film in real flats, cars and cafés with the available light, and add no lamp.",
+      "Frame in 16:9 or 4:3 with a 28mm to 50mm lens, and keep the camera at eye level.",
+      "Hold a take for 30 to 120 s, and let the pauses and the stammer stay in the cut.",
+      "Zoom or re-frame in the take, and let the camera hunt for the person who speaks.",
+      "Use a few quiet songs by friends and no score, and keep the sound of the room."
+    ],
+    "anti_patterns": [
+      "A polished studio light kit",
+      "A famous actor in a styled role",
+      "A score that tells the viewer how to feel",
+      "A tidy, written line without a pause",
+      "A smooth dolly or a crane shot",
+      "A heavy colour grade"
+    ]
+  },
+  "vectors": {
+    "camera_mobility": 4,
+    "cutting_rate": 3,
+    "staging": 1,
+    "grade_stylisation": 1,
+    "frame_width": 3
+  },
+  "composition": {
+    "framing": "A plain 16:9 frame at eye level, with a loose, shifting medium shot; the second person often sits half out of the frame.",
+    "staging_in_depth": "2 planes: a speaker in the foreground and a room or a street behind, as found.",
+    "subject_placement": "Wherever the person sits; the frame corrects 0.3 to 1 s late.",
+    "principles": [
+      {
+        "principle": "framing",
+        "rule": "Keep a loose frame that lets one person sit half out of the shot.",
+        "value": "head or shoulder cuts 5% to 20% at 1 edge"
+      },
+      {
+        "principle": "focal-point",
+        "rule": "Follow the speaker with a small zoom, and let the frame lag.",
+        "value": "0.3 to 1 s lag"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Use the room as it is: 2 planes, one person and a wall or window.",
+        "value": "2 planes, as found"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Use only the light in the room.",
+        "value": "0 added lamps, 2:1 or lower key to fill"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Hold the take through the pause and the stammer.",
+        "value": "8 to 15 s average shot, takes of 30 to 120 s"
+      }
+    ]
+  },
+  "camera_and_movement": {
+    "movement": "A handheld follow, a small zoom to find the speaker, and a long static two-shot.",
+    "support": "Handheld small digital camera; a tabletop or a car seat",
+    "camera_height": "1.2 to 1.7 m, eye level or seated level",
+    "move_speed": "Walking pace 1.0 to 1.5 m/s; a zoom over 1 to 3 s"
+  },
+  "lens_and_format": {
+    "aspect_ratio": "16:9 or 4:3",
+    "frame_rate": "24 fps or 30 fps",
+    "shutter_angle": "180° (1/48 s)",
+    "focal_length": "a zoom lens of 28mm to 70mm equivalent",
+    "aperture": "f/2.8 to f/5.6, auto exposure",
+    "resolution": "standard definition DV or 720p to 1080p",
+    "focus": "Autofocus, and a slow drift between two faces",
+    "equipment": [
+      "a small DV or HD camcorder",
+      "an on-camera microphone",
+      "a shotgun microphone",
+      "a tripod for some scenes"
+    ]
+  },
+  "light": {
+    "quality": "Whatever the room has: a window, a ceiling lamp and a screen glow; a flat look with a clipped window.",
+    "direction": "From a window or a lamp in the frame.",
+    "key_to_fill_ratio": "2:1 or lower, left as found",
+    "colour_temperature": "Mixed, left as found: 3200K lamps and 5600K windows",
+    "source": "Windows, ceiling lamps and the screens of a laptop or a phone"
+  },
+  "colour_and_grade": {
+    "treatment": "A plain colour image straight from the camera, with a little lift in the shadows and no stylised grade.",
+    "palette": [
+      {
+        "name": "Room grey",
+        "hex": "#4B4B4A",
+        "role": "shadow"
+      },
+      {
+        "name": "Wall beige",
+        "hex": "#B9AE9B",
+        "role": "walls"
+      },
+      {
+        "name": "Skin tone",
+        "hex": "#D2A486",
+        "role": "faces"
+      },
+      {
+        "name": "Window white",
+        "hex": "#EFEDE6",
+        "role": "highlights"
+      }
+    ],
+    "grade_recipe": [
+      "Set the white balance to the room and do not match mixed lamps.",
+      "Lift the blacks to 5% and keep the contrast at 0 to +5%.",
+      "Keep the saturation at 90% to 100%.",
+      "Leave the video noise in the shadows.",
+      "Do not add a LUT, grain or a vignette."
+    ],
+    "texture": "Standard-definition video noise and a flat, clipped window"
+  },
+  "editing_and_rhythm": {
+    "average_shot_length": "8 to 20 s (estimate; check Cinemetrics for each title)",
+    "shot_length_range": "3 s for a glance to 3 min for one talk",
+    "cutting_logic": "Cut at the end of a line or a pause; keep the awkward silence and the jump from a repeated take.",
+    "transitions": "Hard cut, a short black for a time jump; no dissolve.",
+    "runtime": "75 to 95 min"
+  },
+  "sound": {
+    "approach": "On-camera or boom sound of the room, with traffic, a fridge and clothes noise.",
+    "dialogue": "Half-improvised, overlapping and halting; people trail off and start again.",
+    "music": "A few quiet songs by friends or small bands, in the scene or over the credits; no score.",
+    "loudness": "−20 LUFS integrated, with a wide range"
+  },
+  "titles_and_graphics": {
+    "treatment": "A plain white title on black or over the first shot; a simple end card.",
+    "type": "A plain sans-serif or a handwritten face in white, 2 to 4 s per card."
+  },
+  "shot_primer": {
+    "opening": "Open in the middle of a small talk and keep the first cut for 15 to 30 s.",
+    "shot_list": [
+      {
+        "shot": "Two people on a couch",
+        "size": "two-shot",
+        "lens": "35mm",
+        "movement": "static or small zoom",
+        "seconds": 40
+      },
+      {
+        "shot": "Talk in a car",
+        "size": "two-shot",
+        "lens": "28mm",
+        "movement": "static, seat mount",
+        "seconds": 30
+      },
+      {
+        "shot": "A pause and a look away",
+        "size": "close-up",
+        "lens": "50mm",
+        "movement": "handheld",
+        "seconds": 6
+      },
+      {
+        "shot": "Walk on a street",
+        "size": "medium",
+        "lens": "35mm",
+        "movement": "handheld follow 1.2 m/s",
+        "seconds": 20
+      },
+      {
+        "shot": "A text message on a phone",
+        "size": "insert",
+        "lens": "35mm",
+        "movement": "static",
+        "seconds": 3
+      },
+      {
+        "shot": "Awkward goodbye in a door",
+        "size": "wide",
+        "lens": "28mm",
+        "movement": "static",
+        "seconds": 15
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "mumblecore indie film",
+      "handheld small digital camera",
+      "available light in a flat",
+      "two friends talk on a couch",
+      "awkward pause",
+      "plain colour, no grade",
+      "16:9 frame",
+      "improvised dialogue look",
+      "standard definition video noise"
+    ],
+    "negative": [
+      "studio light",
+      "film score",
+      "glossy grade",
+      "dolly move",
+      "star actor",
+      "stylised set"
+    ],
+    "canonical_works": [
+      {
+        "work": "Funny Ha Ha",
+        "maker": "Andrew Bujalski",
+        "year": 2002
+      },
+      {
+        "work": "The Puffy Chair",
+        "maker": "Jay and Mark Duplass",
+        "year": 2005
+      },
+      {
+        "work": "Hannah Takes the Stairs",
+        "maker": "Joe Swanberg",
+        "year": 2007
+      },
+      {
+        "work": "Baghead",
+        "maker": "Jay and Mark Duplass",
+        "year": 2008
+      },
+      {
+        "work": "Mutual Appreciation",
+        "maker": "Andrew Bujalski",
+        "year": 2005
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "dogme-95"
+    ],
+    "rebelled_against": [
+      "classical-hollywood"
+    ],
+    "hybridized_with": [
+      "documentary-verite"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Awkward closeness: the viewer sits in a room with people who cannot say what they feel and recognises it.",
+    "keywords": [
+      "awkward",
+      "intimate",
+      "unpolished",
+      "conversational",
+      "drifting"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "innocent"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "mumblecore",
+      "bujalski",
+      "duplass",
+      "swanberg",
+      "low budget indie talk film",
+      "improvised dialogue"
+    ],
+    "use_cases": [
+      "low-fi indie video prompts",
+      "brand films with a real, friendly voice",
+      "web series and student films",
+      "dialogue-led shorts"
+    ],
+    "avoid_when": [
+      "The brief needs a glossy, high-end look.",
+      "The story needs a plot of action or spectacle."
+    ],
+    "modifiers": [
+      {
+        "request": "more rules",
+        "toward": "dogme-95",
+        "how": "Keep the handheld and the real rooms; add a strict set of rules, such as no added light and no score."
+      },
+      {
+        "request": "more style",
+        "toward": "planimetric-symmetry",
+        "how": "Keep the talk; move the camera to a locked, centred frame and set the colour in a pastel palette."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Mumblecore",
+      "url": "https://en.wikipedia.org/wiki/Mumblecore"
+    },
+    {
+      "title": "Funny Ha Ha",
+      "url": "https://en.wikipedia.org/wiki/Funny_Ha_Ha"
+    },
+    {
+      "title": "Cinemetrics database",
+      "url": "https://www.cinemetrics.lv/"
+    }
+  ],
+  "domain": "film"
+}

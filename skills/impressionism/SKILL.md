@@ -183,6 +183,12 @@ Light and ease: the viewer feels a warm day, a passing mood and a pleasure in lo
 
 **Keywords:** luminous, fleeting, airy, joyful, casual · **Brand archetypes:** lover, explorer, innocent
 
+## Canonical evidence (open licence)
+
+Each item below has an open licence or is in the public domain, so you may show it as a reference.
+
+- [Impression, Sunrise](https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg) (Claude Monet, 1872): image, Public domain. Musée Marmottan Monet, Paris; scan on Wikimedia Commons
+
 ## Sources
 
 - [Wikidata Q40415 (Impressionism)](https://www.wikidata.org/wiki/Q40415)

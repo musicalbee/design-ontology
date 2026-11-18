@@ -235,7 +235,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`brutalist-web`](../brutalist-web/SKILL.md)
-- **Mixes well with:** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md)
+- **Mixes well with:** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md), [`surrealism-web`](../surrealism-web/SKILL.md)
 - **Nearest by vector profile:** [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md), [`wabi-sabi-web`](../wabi-sabi-web/SKILL.md), [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md)
 
 ## Emotional target

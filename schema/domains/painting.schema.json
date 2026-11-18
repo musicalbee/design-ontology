@@ -177,6 +177,7 @@
         "negative": { "type": "array", "minItems": 3, "maxItems": 10, "items": { "$ref": "../core.schema.json#/$defs/shortText" } }
       }
     },
+    "evidence": { "$ref": "../core.schema.json#/$defs/evidence" },
     "lineage": { "$ref": "../core.schema.json#/$defs/lineage" },
     "emotion": { "$ref": "../core.schema.json#/$defs/emotion" },
     "agent": { "$ref": "../core.schema.json#/$defs/agent" },

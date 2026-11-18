@@ -228,7 +228,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`memphis-interior`](../memphis-interior/SKILL.md)
 - **Was rejected by:** [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md)
 - **Mixes well with:** [`coastal-interior`](../coastal-interior/SKILL.md)
-- **Kin in another domain:** [`flat-design`](../flat-design/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md)
+- **Kin in another domain:** [`flat-design`](../flat-design/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md)
 - **Nearest by vector profile:** [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md)
 
 ## Emotional target

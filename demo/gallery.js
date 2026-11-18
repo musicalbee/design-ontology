@@ -62,6 +62,7 @@ document.body.insertAdjacentHTML("beforeend", `
     <figure><h2>Lineage and principles</h2><div id="lin"></div><div id="prin" style="margin-top:8px"></div></figure>
   </section>
   <section class="facets" id="facets"></section>
+  <section id="ev-box" hidden><h2>Canonical evidence (open licence)</h2><div id="ev"></div></section>
   <p class="meta"><a id="f-data">Style record (JSON)</a> · <a id="f-skill">Skill file</a></p>
 </main>`);
 
@@ -141,8 +142,10 @@ function show(i) {
     $("lin").innerHTML = Object.entries(L).filter(([, ids]) => Array.isArray(ids) && ids.length)
       .map(([k, ids]) => `<div><small>${esc(label(k))}</small><br>${rel(ids)}</div>`).join("") || "<small>No lineage edges.</small>";
     $("prin").innerHTML = found.principles.size ? `<small>Composition principles</small><br>${[...found.principles].map((p) => `<a class="tag" href="../data/principles/${esc(p)}.json">${esc(p)}</a>`).join("")}` : "";
-    $("facets").innerHTML = domain.facets.filter((f) => f.key !== "prompt_primer" && s[f.key] != null)
+    $("facets").innerHTML = domain.facets.filter((f) => f.key !== "prompt_primer" && f.key !== "evidence" && s[f.key] != null)
       .map((f) => `<figure class="facet"><h2>${esc(f.title)}</h2>${view(s[f.key])}</figure>`).join("");
+    $("ev-box").hidden = !s.evidence?.length;
+    $("ev").innerHTML = window.Evidence ? Evidence.html(s.evidence) : "";
     $("f-data").href = `../data/${DOMAIN}/styles/${s.id}.json`;
     $("f-skill").href = `../skills/${s.id}/SKILL.md`;
     document.title = `${s.name}: ${domain.name} styles`;

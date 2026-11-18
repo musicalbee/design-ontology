@@ -181,7 +181,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`film-grain-revival`](../film-grain-revival/SKILL.md), [`new-colour`](../new-colour/SKILL.md)
 - **Mixes well with:** [`documentary-photography`](../documentary-photography/SKILL.md), [`film-noir-still`](../film-noir-still/SKILL.md), [`party-flash`](../party-flash/SKILL.md)
 - **Kin in another domain:** [`documentary-verite`](../documentary-verite/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`italian-neorealism`](../italian-neorealism/SKILL.md), [`new-hollywood`](../new-hollywood/SKILL.md)
-- **Nearest by vector profile:** [`documentary-photography`](../documentary-photography/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md)
+- **Nearest by vector profile:** [`documentary-photography`](../documentary-photography/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md), [`group-f64`](../group-f64/SKILL.md)
 
 ## Emotional target
 

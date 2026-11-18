@@ -239,7 +239,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`coastal-interior`](../coastal-interior/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md)
 - **Was rejected by:** [`dopamine-decor`](../dopamine-decor/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md)
 - **Mixes well with:** [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md)
-- **Kin in another domain:** [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md), [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md)
+- **Kin in another domain:** [`mass-timber-architecture`](../mass-timber-architecture/SKILL.md), [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md), [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`organic-architecture`](../organic-architecture/SKILL.md), [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md)
 - **Nearest by vector profile:** [`coastal-interior`](../coastal-interior/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md), [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md)
 
 ## Emotional target

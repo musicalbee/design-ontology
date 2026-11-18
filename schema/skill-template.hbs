@@ -186,6 +186,16 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 {{emotion.target_response}}
 
 **Keywords:** {{emotion.keywords}} · **Brand archetypes:** {{emotion.archetypes}}
+{{#if evidence}}
+
+## Canonical evidence (open licence)
+
+Each item below has an open licence or is in the public domain, so you may show it as a reference.
+
+{{#each evidence}}
+- {{{this}}}
+{{/each}}
+{{/if}}
 {{#if sources}}
 
 ## Sources
