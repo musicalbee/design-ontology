@@ -1,0 +1,169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-ontology.dev/schema/domains/typeface.schema.json",
+  "title": "Typeface style",
+  "description": "One typeface style: a class of letterforms from the classification canon (Vox-ATypI and its successors), with measurable rules for anatomy, metrics and setting. It shares identity, philosophy, lineage, emotion and agent routing with every other domain. Each style must give at least one open-licence font as evidence; the demo draws its specimen from that font.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "domain", "name", "aliases", "era_id", "time_period", "region", "summary",
+    "philosophy", "vectors", "classification", "anatomy", "metrics", "setting", "pairing",
+    "reference_faces", "prompt_primer", "evidence", "lineage", "emotion", "agent", "sources"
+  ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": { "$ref": "../core.schema.json#/$defs/slug" },
+    "domain": { "const": "typeface" },
+    "name": { "$ref": "../core.schema.json#/$defs/shortText" },
+    "aliases": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "$ref": "../core.schema.json#/$defs/shortText" }
+    },
+    "era_id": { "$ref": "../core.schema.json#/$defs/slug", "description": "An id from data/typeface/eras/." },
+    "time_period": { "$ref": "../core.schema.json#/$defs/time_period" },
+    "region": { "$ref": "../core.schema.json#/$defs/shortText", "description": "Where the style began." },
+    "summary": { "type": "string", "minLength": 40, "maxLength": 320 },
+    "philosophy": { "$ref": "../core.schema.json#/$defs/philosophy" },
+    "vectors": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["stroke_contrast", "construction", "x_height", "width", "serif_mass"],
+      "properties": {
+        "stroke_contrast": { "$ref": "../core.schema.json#/$defs/score", "description": "1 = monoline, 5 = hairlines against heavy stems (5:1 or more)." },
+        "construction": { "$ref": "../core.schema.json#/$defs/score", "description": "1 = written with a broad-nib pen, diagonal stress, 5 = constructed with ruler and compass, vertical or no stress." },
+        "x_height": { "$ref": "../core.schema.json#/$defs/score", "description": "1 = x-height under 0.62 of the cap height, 5 = 0.74 or more." },
+        "width": { "$ref": "../core.schema.json#/$defs/score", "description": "1 = condensed, 5 = extended." },
+        "serif_mass": { "$ref": "../core.schema.json#/$defs/score", "description": "1 = no serifs, 2 = hairline serifs, 3 = bracketed wedge serifs, 5 = heavy unbracketed slab." }
+      }
+    },
+    "classification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["vox_atypi", "din_16518", "note"],
+      "properties": {
+        "vox_atypi": { "$ref": "../core.schema.json#/$defs/shortText", "description": "The class in the Vox-ATypI scheme (1954, ATypI 1962)." },
+        "din_16518": { "$ref": "../core.schema.json#/$defs/shortText", "description": "The group in DIN 16518 (1964), the German form of the scheme." },
+        "note": { "$ref": "../core.schema.json#/$defs/sentence", "description": "Where the canon draws the line to the next class." }
+      }
+    },
+    "anatomy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["contrast", "stress", "serifs", "terminals", "aperture", "key_letters"],
+      "properties": {
+        "contrast": { "$ref": "../core.schema.json#/$defs/sentence", "description": "Thick against thin, with a ratio." },
+        "stress": { "$ref": "../core.schema.json#/$defs/sentence", "description": "The axis of the thinnest parts of the o, with an angle." },
+        "serifs": { "$ref": "../core.schema.json#/$defs/sentence" },
+        "terminals": { "$ref": "../core.schema.json#/$defs/sentence", "description": "The ends of a, c, f, r and y." },
+        "aperture": { "$ref": "../core.schema.json#/$defs/sentence", "description": "How open the c, e, a and s are." },
+        "key_letters": { "$ref": "../core.schema.json#/$defs/sentence", "description": "The letters that identify the class: the a, g, R, Q, t and so on." }
+      }
+    },
+    "metrics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["x_height_min", "x_height_max", "contrast_min", "contrast_max", "x_height", "contrast", "width", "figures"],
+      "description": "Measurable ranges. scripts/render-type-specimens.ts measures the first evidence font and warns when it falls outside them.",
+      "properties": {
+        "x_height_min": { "type": "number", "minimum": 0.4, "maximum": 0.9, "description": "The x-height as a fraction of the cap height: lower bound." },
+        "x_height_max": { "type": "number", "minimum": 0.4, "maximum": 0.9, "description": "The x-height as a fraction of the cap height: upper bound." },
+        "contrast_min": { "type": "number", "minimum": 1, "maximum": 20, "description": "Stroke contrast of the lower-case o (side stroke to top stroke): lower bound." },
+        "contrast_max": { "type": "number", "minimum": 1, "maximum": 20, "description": "Stroke contrast of the lower-case o: upper bound." },
+        "x_height": { "$ref": "../core.schema.json#/$defs/sentence" },
+        "contrast": { "$ref": "../core.schema.json#/$defs/sentence" },
+        "width": { "$ref": "../core.schema.json#/$defs/sentence", "description": "The proportions of the capitals and the lower case, with a measure." },
+        "figures": { "$ref": "../core.schema.json#/$defs/sentence", "description": "Old-style or lining figures, proportional or tabular." }
+      }
+    },
+    "setting": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text_sizes", "display_sizes", "leading", "tracking", "measure", "case_and_features"],
+      "properties": {
+        "text_sizes": { "$ref": "../core.schema.json#/$defs/sentence", "description": "Sizes for continuous reading, in pt and px." },
+        "display_sizes": { "$ref": "../core.schema.json#/$defs/sentence" },
+        "leading": { "$ref": "../core.schema.json#/$defs/sentence", "description": "Line height as a multiple of the size." },
+        "tracking": { "$ref": "../core.schema.json#/$defs/sentence", "description": "Letter spacing in em, for text, display and capitals." },
+        "measure": { "$ref": "../core.schema.json#/$defs/sentence", "description": "Line length in characters." },
+        "case_and_features": { "$ref": "../core.schema.json#/$defs/sentence", "description": "Capitals, small caps, ligatures and other OpenType features." }
+      }
+    },
+    "pairing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rule", "pairs"],
+      "properties": {
+        "rule": { "$ref": "../core.schema.json#/$defs/sentence", "description": "The principle for a second face." },
+        "pairs": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 4,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["with", "role", "why"],
+            "properties": {
+              "with": { "$ref": "../core.schema.json#/$defs/shortText", "description": "A class and an open font of that class." },
+              "role": { "$ref": "../core.schema.json#/$defs/shortText", "description": "Which face does which job." },
+              "why": { "$ref": "../core.schema.json#/$defs/sentence" }
+            }
+          }
+        }
+      }
+    },
+    "reference_faces": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["faces", "note"],
+      "description": "The historical faces that define the class. Many are proprietary; only the open fonts in `evidence` may be copied or embedded.",
+      "properties": {
+        "faces": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["face", "designer", "year", "status"],
+            "properties": {
+              "face": { "$ref": "../core.schema.json#/$defs/shortText" },
+              "designer": { "$ref": "../core.schema.json#/$defs/shortText" },
+              "year": { "type": "integer", "minimum": 1400, "maximum": 2100 },
+              "status": { "enum": ["historic metal", "proprietary", "open revival"], "description": "historic metal = the original cut, now public domain as a design; proprietary = a digital font with a commercial licence; open revival = an OFL or Apache font." }
+            }
+          }
+        },
+        "note": { "$ref": "../core.schema.json#/$defs/sentence" }
+      }
+    },
+    "prompt_primer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["positive", "negative"],
+      "description": "Words for a type brief or for an image prompt. An image model draws letters badly: use the words for the mood and set the real text in the font.",
+      "properties": {
+        "positive": { "type": "array", "minItems": 6, "maxItems": 14, "items": { "$ref": "../core.schema.json#/$defs/shortText" } },
+        "negative": { "type": "array", "minItems": 3, "maxItems": 10, "items": { "$ref": "../core.schema.json#/$defs/shortText" } }
+      }
+    },
+    "evidence": {
+      "description": "Required for a typeface. At least one item is an open font (kind font) with a direct link to a .ttf file; the first such font is the specimen font.",
+      "allOf": [
+        { "$ref": "../core.schema.json#/$defs/evidence" },
+        {
+          "type": "array",
+          "contains": {
+            "type": "object",
+            "required": ["kind", "file"],
+            "properties": { "kind": { "const": "font" }, "file": { "type": "string", "pattern": "\\.ttf$" } }
+          }
+        }
+      ]
+    },
+    "lineage": { "$ref": "../core.schema.json#/$defs/lineage" },
+    "emotion": { "$ref": "../core.schema.json#/$defs/emotion" },
+    "agent": { "$ref": "../core.schema.json#/$defs/agent" },
+    "sources": { "type": "array", "minItems": 2, "items": { "$ref": "../core.schema.json#/$defs/sources/items" } }
+  }
+}

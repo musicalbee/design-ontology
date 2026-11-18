@@ -111,7 +111,9 @@ function shot(s, found) {
   $("shot").classList.toggle("tall", !!p && p.height > p.width);
   if (p) {
     $("shot").innerHTML = `<img src="previews/${DOMAIN}/${esc(p.file)}" alt="${esc(`${s.name}: ${p.subject}`)}">`;
-    $("shot-cap").textContent = `Generated preview, not a real work. ${p.model} (${p.licence}), seed ${p.seed}, ${p.steps} steps. Subject: ${p.subject}.`;
+    $("shot-cap").textContent = p.kind === "specimen"
+      ? `Specimen of ${p.font} (${p.licence}), drawn from the font outlines. No image model.`
+      : `Generated preview, not a real work. ${p.model} (${p.licence}), seed ${p.seed}, ${p.steps} steps. Subject: ${p.subject}.`;
   } else {
     const cols = found.hex.slice(0, 8);
     $("shot").innerHTML = `<div class="ph">${cols.map((c) => `<span style="background:${esc(c.hex)}"></span>`).join("")}</div>`;

@@ -8,7 +8,7 @@
   const DOMAINS = [
     ["index.html", "Design"], ["architecture.html", "Architecture"], ["interior.html", "Interior"], ["moodboard.html", "Moodboards"],
     ["photography.html", "Photography"], ["film.html", "Film and video"], ["painting.html", "Painting"],
-    ["icon.html", "Icons"],
+    ["icon.html", "Icons"], ["typeface.html", "Typefaces"],
     ["graph.html", "Lineage graph"], ["techniques.html", "Techniques"], ["people.html", "People"],
   ];
   const here = location.pathname.split("/").pop() || "index.html";

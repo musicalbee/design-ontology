@@ -1,0 +1,247 @@
+{
+  "$schema": "../../../schema/domains/typeface.schema.json",
+  "id": "humanist-sans",
+  "domain": "typeface",
+  "name": "Humanist sans",
+  "aliases": [
+    "Humanist lineale",
+    "Calligraphic sans",
+    "Gill style"
+  ],
+  "era_id": "modernist",
+  "time_period": {
+    "start": 1916,
+    "end": null,
+    "label": "1916–present"
+  },
+  "region": "England, later Germany and the United States",
+  "summary": "A sans serif on the skeleton of the Renaissance roman: open apertures, varied widths, a little stroke modulation and an angled cut on the terminals. It reads well at small sizes and in poor conditions, and sounds warm.",
+  "philosophy": {
+    "core_thesis": "A sans serif reads best when it keeps the proportions and the open forms of the written roman.",
+    "design_principles": [
+      "Open the apertures of c, e, a and s: the gap of the c is at least 0.35 of its height.",
+      "Keep a slight stroke modulation of 1.1–1.6:1, with thinner joins where curves meet stems.",
+      "Cut the terminals at an angle, as a pen stroke ends.",
+      "Give the letters classical widths: a wide O and M, a narrow E, S and r.",
+      "Hold the x-height at 0.66–0.78 of the cap height.",
+      "Use a true italic with cursive forms, not a sloped roman."
+    ],
+    "anti_patterns": [
+      "Closed apertures with horizontal terminals",
+      "Pure geometric circles for o and a single-storey a",
+      "Even, uniform letter widths",
+      "A sloped roman as the italic",
+      "Very tight tracking in text sizes"
+    ]
+  },
+  "vectors": {
+    "stroke_contrast": 2,
+    "construction": 2,
+    "x_height": 4,
+    "width": 3,
+    "serif_mass": 1
+  },
+  "classification": {
+    "vox_atypi": "Lineale: Humanist",
+    "din_16518": "Gruppe VI: Serifenlose Linear-Antiqua",
+    "note": "A humanist sans takes its proportions from the roman capital and the Renaissance minuscule; a geometric sans takes them from the circle and the square."
+  },
+  "anatomy": {
+    "contrast": "Slight: the thin parts are 0.65–0.9 of the stem.",
+    "stress": "Slightly diagonal or vertical.",
+    "serifs": "None: the strokes end clean, with no serif.",
+    "terminals": "Angled cuts on c, e, s, a and t.",
+    "aperture": "Open: the c, e and s have wide mouths, and the bowl of the e is clearly separated from its tail.",
+    "key_letters": "A two-storey a and often a two-storey g, an l with a tail in some faces, and a true cursive italic."
+  },
+  "metrics": {
+    "x_height_min": 0.66,
+    "x_height_max": 0.78,
+    "contrast_min": 1.0,
+    "contrast_max": 1.6,
+    "x_height": "The x-height is 0.66–0.78 of the cap height and about 0.46–0.53 of the em.",
+    "contrast": "The side of the o is 1.0 to 1.6 times as thick as its top.",
+    "width": "Varied, classical widths; the mean advance of a to z is 0.44–0.52 em.",
+    "figures": "Lining or old-style figures, often both in one family."
+  },
+  "setting": {
+    "text_sizes": "Set text at 9–11 pt in print and 14–17 px on screen; it also holds at 11–12 px for captions.",
+    "display_sizes": "Set titles at 24–96 px in semibold or bold.",
+    "leading": "Set the leading at 1.4–1.6 for text and 1.1–1.2 for titles.",
+    "tracking": "Set 0 em in text, −0.01 em in large titles, and +0.05 em for capitals.",
+    "measure": "Set 50–75 characters a line.",
+    "case_and_features": "Use the true italic for emphasis, small caps where the family has them, and old-style figures in running text."
+  },
+  "pairing": {
+    "rule": "Pair it with a serif that shares the pen-based skeleton, so both faces have the same rhythm.",
+    "pairs": [
+      {
+        "with": "Garalde old-style serif (EB Garamond)",
+        "role": "serif for long reading",
+        "why": "The humanist sans is a Garalde without serifs, so the proportions agree."
+      },
+      {
+        "with": "Slab serif (Zilla Slab)",
+        "role": "slab for headlines",
+        "why": "A humanist slab keeps the open forms and adds weight for titles."
+      }
+    ]
+  },
+  "reference_faces": {
+    "faces": [
+      {
+        "face": "Johnston (Underground)",
+        "designer": "Edward Johnston",
+        "year": 1916,
+        "status": "historic metal"
+      },
+      {
+        "face": "Gill Sans",
+        "designer": "Eric Gill",
+        "year": 1928,
+        "status": "proprietary"
+      },
+      {
+        "face": "Frutiger",
+        "designer": "Adrian Frutiger",
+        "year": 1976,
+        "status": "proprietary"
+      },
+      {
+        "face": "Fira Sans",
+        "designer": "Erik Spiekermann and Carrois for Mozilla",
+        "year": 2013,
+        "status": "open revival"
+      },
+      {
+        "face": "Source Sans 3",
+        "designer": "Paul D. Hunt, Adobe",
+        "year": 2012,
+        "status": "open revival"
+      }
+    ],
+    "note": "Fira Sans and Source Sans are new designs in the class, not revivals of one face. The default instance of Source Sans 3 in google/fonts is ExtraLight, so the specimen uses Fira Sans Regular."
+  },
+  "prompt_primer": {
+    "positive": [
+      "humanist sans-serif",
+      "gill sans style",
+      "open apertures",
+      "calligraphic proportions",
+      "friendly readable signage",
+      "warm modern typography",
+      "true italic",
+      "public transport lettering"
+    ],
+    "negative": [
+      "geometric circles",
+      "closed apertures",
+      "serifs",
+      "condensed grotesque",
+      "decorative script"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Fira Sans",
+      "kind": "font",
+      "maker": "Erik Spiekermann, Carrois Apostrophe",
+      "year": 2013,
+      "credit": "google/fonts repository, ofl/firasans",
+      "licence": "OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "url": "https://fonts.google.com/specimen/Fira+Sans",
+      "file": "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Regular.ttf"
+    },
+    {
+      "title": "Source Sans 3",
+      "kind": "font",
+      "maker": "Paul D. Hunt",
+      "year": 2012,
+      "credit": "google/fonts repository, ofl/sourcesans3",
+      "licence": "OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "url": "https://fonts.google.com/specimen/Source+Sans+3",
+      "file": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourcesans3/SourceSans3%5Bwght%5D.ttf"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "garalde-old-style"
+    ],
+    "rebelled_against": [
+      "grotesque-sans"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "arts-and-crafts-interior",
+      "scandinavian-interior"
+    ]
+  },
+  "emotion": {
+    "target_response": "Warm clarity: the reader feels a friendly, human voice that is still modern and easy to read.",
+    "keywords": [
+      "friendly",
+      "humane",
+      "clear",
+      "approachable",
+      "civic"
+    ],
+    "brand_archetypes": [
+      "caregiver",
+      "everyman",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "humanist sans",
+      "gill sans",
+      "frutiger",
+      "fira sans",
+      "open sans",
+      "friendly sans",
+      "readable sans",
+      "wayfinding font"
+    ],
+    "use_cases": [
+      "wayfinding and public signage",
+      "health, education and public services",
+      "long text on screens",
+      "product interfaces with a warm voice"
+    ],
+    "avoid_when": [
+      "The brief asks for a strict, neutral grid voice.",
+      "The brief asks for a geometric, avant-garde look."
+    ],
+    "modifiers": [
+      {
+        "request": "more neutral",
+        "toward": "neo-grotesque-sans",
+        "how": "Close the apertures with horizontal terminals and even the widths; keep the x-height."
+      },
+      {
+        "request": "more bookish",
+        "toward": "garalde-old-style",
+        "how": "Add bracketed serifs and raise the contrast to 2.5:1; keep the proportions."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Humanist sans-serif (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Humanist_sans-serif"
+    },
+    {
+      "title": "Gill Sans (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Gill_Sans"
+    },
+    {
+      "title": "Vox-ATypI classification (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Vox-ATypI_classification"
+    },
+    {
+      "title": "Robert Bringhurst, The Elements of Typographic Style (Hartley & Marks, 4th ed. 2012)"
+    }
+  ]
+}

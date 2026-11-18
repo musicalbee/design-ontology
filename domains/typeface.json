@@ -1,0 +1,23 @@
+{
+  "id": "typeface",
+  "order": 9,
+  "name": "Typeface",
+  "schema": "schema/domains/typeface.schema.json",
+  "task": "choosing, pairing, setting or briefing a typeface: a text face for a book or a product, a display face for a title, or a type brief for a designer",
+  "vectors": [
+    { "key": "stroke_contrast", "label": "Stroke contrast", "abbr": "CON", "low": "monoline, thick and thin strokes equal", "high": "hairlines against heavy stems, 5:1 or more" },
+    { "key": "construction", "label": "Construction", "abbr": "CST", "low": "written: broad-nib pen, diagonal stress, open forms", "high": "constructed: ruler and compass, vertical or no stress" },
+    { "key": "x_height", "label": "x-height", "abbr": "XHT", "low": "small, under 0.62 of the cap height", "high": "large, 0.74 of the cap height or more" },
+    { "key": "width", "label": "Width", "abbr": "WID", "low": "condensed", "high": "extended" },
+    { "key": "serif_mass", "label": "Serif mass", "abbr": "SER", "low": "no serifs", "high": "heavy, square, unbracketed slab" }
+  ],
+  "facets": [
+    { "key": "classification", "title": "Classification" },
+    { "key": "anatomy", "title": "Anatomy" },
+    { "key": "metrics", "title": "Metrics" },
+    { "key": "setting", "title": "Setting" },
+    { "key": "pairing", "title": "Pairing" },
+    { "key": "reference_faces", "title": "Reference faces" },
+    { "key": "prompt_primer", "title": "Prompt primer" }
+  ]
+}

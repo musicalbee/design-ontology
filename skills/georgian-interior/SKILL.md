@@ -262,7 +262,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **for a young family today**: move toward [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md) (Grandmillennial). Keep the mouldings and the pairs, add chintz, skirted tables and a cheerful colour; let objects collect.
 
 - **Led to (go here for a newer version):** [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md), [`victorian-interior`](../victorian-interior/SKILL.md)
-- **Kin in another domain:** [`renaissance-painting`](../renaissance-painting/SKILL.md)
+- **Kin in another domain:** [`renaissance-painting`](../renaissance-painting/SKILL.md), [`transitional-serif`](../transitional-serif/SKILL.md)
 - **Nearest by vector profile:** [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md), [`art-deco-interior`](../art-deco-interior/SKILL.md), [`shaker-interior`](../shaker-interior/SKILL.md)
 
 ## Emotional target
