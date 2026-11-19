@@ -661,7 +661,7 @@
     "anonymous-imageboard": {
       "file": "anonymous-imageboard.webp",
       "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Anonymous Imageboard, The posted images: reaction faces, memes and photos, in thumbnails that expand on click, post number, image thumbnail, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, one grainy small photo print of a surprised face lying beside the cup, plain pale green and beige paper, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -672,13 +672,9 @@
       "generated": "2026-11-19",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "image is a grid of ~29 face thumbnails (collage/panels), not one flat picture",
-          "readable 'IS' lettering/logo mark on the roasting drum despite no-text rule",
-          "coffee objects overlap the thumbnail grid instead of sitting on open ground"
-        ]
+        "tries": 1,
+        "ok": true,
+        "defects": []
       }
     },
     "ansi-bbs-art": {
@@ -997,7 +993,7 @@
     "discord-server": {
       "file": "discord-server.webp",
       "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Discord Server, Round server icons, custom emoji, stickers and an animated mascot on empty states, server rail, channel #, emoji reaction, role colour, A flat dark app with soft rounded rows, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, on a dark slate-violet table with round coloured counters and a few small cartoon sticker shapes, soft rounded forms, Round server icons, custom emoji, stickers and an animated mascot on empty states, emoji reaction, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -1008,13 +1004,9 @@
       "generated": "2026-11-19",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "recognizable logos (Discord controller x3, Instagram-style icon, other brand glyphs) despite 'no logos'",
-          "app UI rendered: rows, server rail, window-control dots despite 'no user interface/no window frame'",
-          "roaster, cup and beans sit on top of the UI row bars instead of open ground"
-        ]
+        "tries": 1,
+        "ok": true,
+        "defects": []
       }
     },
     "dreamcore": {
