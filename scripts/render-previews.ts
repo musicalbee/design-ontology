@@ -11,7 +11,7 @@
 // - "shots" (film): a showreel, one frame for each shot in shot_primer.shot_list, with its size, lens and length.
 // The frames go to demo/previews/<domain>/<id>/<n>.webp; the first frame is also the "file" of the style.
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from "node:fs";
-import { join } from "node:path";
+import { join, relative, resolve } from "node:path";
 import { preflight, renderWebp, SEED } from "./previews/comfy.js";
 
 const SIZES = { landscape: { width: 1152, height: 768 }, portrait: { width: 768, height: 1152 } };
@@ -24,7 +24,8 @@ const force = args.includes("--force");
 const dry = args.includes("--dry-run");
 // --redo <file.json>: a list of {path} records (a drift scan). Only the listed images render again, with the
 // current model, the guard words and the vision check. The other images stay as they are.
-const redo = new Set<string>(opt("redo") ? JSON.parse(readFileSync(opt("redo")!, "utf8")).map((x: any) => x.path) : []);
+// The paths are made relative to the repo, so "./demo/..." and an absolute path match too.
+const redo = new Set<string>(opt("redo") ? JSON.parse(readFileSync(opt("redo")!, "utf8")).map((x: any) => relative(process.cwd(), resolve(x.path))) : []);
 if (!domain) throw new Error("Give --domain photography|film|painting|interior|architecture|logo|icon|internet");
 
 type Override = { subject?: string; size?: keyof typeof SIZES; drop?: string; scene?: string };
@@ -81,7 +82,7 @@ const fit = (subject: string) => (w: string) => PERSON.test(subject) || !BODY.te
 const OTHER_SHOT = /\b((extreme |medium |wide |long |full |whole-body |establishing |insert |two[- ])shots?|close-ups?|cuts?|montage|split screen|sequence|\d+\s*planes)\b/i;
 // A shot label such as "payoff" or "whip transition" names a beat, not a scene. With no scene the model drew an
 // empty sky or a fist on green. A style override "scene" gives each frame of that style the place and the people.
-const scene = (s: any) => override(s).scene ? `, ${override(s).scene}` : "";
+const scene = (s: any) => { const x = override(s).scene; return x ? `, ${x}` : ""; };
 const frames = (s: any): Frame[] => {
   // The suffix is not filtered: "interface" in it holds "face".
   const tail = positive(s).filter(keep(s)), end = dom.suffix ? [dom.suffix] : [];
@@ -120,6 +121,8 @@ async function render(s: any) {
 }
 
 const redone = (s: any) => [...redo].some((p) => p === join(outDir, `${s.id}.webp`) || p.startsWith(join(outDir, s.id) + "/"));
+if (redo.size && ![...redo].some((p) => p.startsWith(outDir + "/")))
+  console.warn(`--redo: none of the ${redo.size} paths is under ${outDir}/, so nothing renders again for this domain`);
 const todo = styles.filter((s) => force || redone(s) || !manifest.images[s.id] || sigOf(manifest.images[s.id]) !== sig(s));
 if (dry) { for (const s of todo) console.log(`${s.id}: ${sig(s).split(" | ").join("\n  ")}`); process.exit(0); }
 if (todo.length) await preflight();
