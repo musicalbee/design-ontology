@@ -16,12 +16,12 @@
 // The landing page: one page with the same words, dressed in each style (internet-stage.html). The frame
 // follows the style of this page, and this page follows a style change inside the frame.
 const Landing = (() => {
-  const sent = new Set();
-  let frame = null, go = null;
+  // expect: the id of the last change that this page sent to the frame. The frame echoes it once; drop that echo only.
+  let frame = null, go = null, expect = null;
   addEventListener("message", (e) => {
     const id = e.origin === location.origin && e.source === frame?.contentWindow && e.data?.designOntologyStyle;
     if (!id) return;
-    if (sent.has(id)) { sent.delete(id); return; }
+    if (id === expect) { expect = null; return; }
     go?.(id);
   });
   return {
@@ -29,13 +29,17 @@ const Landing = (() => {
     lede: 'One landing page with the same words in each style. The type, the colour, the icons and the pictures change. <a href="internet-stage.html">Open the landing page on its own</a>.',
     bind: (fn) => { go = fn; },
     render(el, s) {
-      const url = `internet-stage.html?embed#${encodeURIComponent(s.id)}`;
-      sent.add(s.id);
+      const hash = `#${encodeURIComponent(s.id)}`, url = `internet-stage.html?embed${hash}`;
       if (!frame) {
         el.innerHTML = `<div class="enc-card enc-frame"><iframe title="The landing page in the style" loading="lazy"></iframe></div>`;
         frame = el.querySelector("iframe");
+        expect = s.id;
         frame.src = url;
-      } else frame.contentWindow.location.replace(url);
+      } else if (frame.contentWindow.location.hash !== hash) {
+        // If the frame already shows the style (the frame started the change), do nothing: no echo comes back.
+        expect = s.id;
+        frame.contentWindow.location.replace(url);
+      }
       el.querySelector(".enc-frame").nextElementSibling?.remove();
       el.insertAdjacentHTML("beforeend", `<p class="enc-note"><a href="internet-stage.html#${encodeURIComponent(s.id)}">Open ${Encyclopedia.esc(s.name)} as a full page</a></p>`);
     },
