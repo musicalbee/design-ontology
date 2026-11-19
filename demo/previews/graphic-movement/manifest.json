@@ -39,14 +39,21 @@
     "swiss-international": {
       "file": "swiss-international.webp",
       "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Swiss International Style, Objective black-and-white photography or plain diagrams, cropped hard to grid modules; no decorative illustration, one full-bleed colour field, colours paper, ink, swiss red, grey, fog, None; the surface is ink on paper and does not imitate any other material, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
-      "model": "FLUX.2 [klein] 4B",
+      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Swiss International Style, Objective black-and-white photography or plain diagrams, cropped hard to grid modules; no decorative illustration, one full-bleed colour field, colours paper, ink, swiss red, grey, fog, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
-      "steps": 4,
+      "base_seed": 1955,
+      "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-18"
+      "generated": "2026-11-19",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
     },
     "space-age": {
       "file": "space-age.webp",
@@ -99,14 +106,21 @@
     "japanese-graphic-modernism": {
       "file": "japanese-graphic-modernism.webp",
       "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Japanese Graphic Modernism, a single large circle, stacked triangles, stepped colour bands, colours washi paper, sumi black, hinomaru red, band cyan, band violet, ash grey, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
-      "model": "FLUX.2 [klein] 4B",
+      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Japanese Graphic Modernism, Symbolic geometry, mirrored faces and visual puns in 2 to 3 flat colours; photography is cut into high-contrast silhouettes, a single large circle, stacked triangles, stepped colour bands, vertical kanji blocks, colours washi paper, sumi black, hinomaru red, band cyan, band violet, ash grey, Offset-printed ink on uncoated paper; the surface does not imitate any other material, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 1955,
-      "steps": 4,
+      "seed": 3955,
+      "base_seed": 1955,
+      "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-18"
+      "generated": "2026-11-19",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 3,
+        "ok": true,
+        "defects": []
+      }
     },
     "bauhaus": {
       "file": "bauhaus.webp",
@@ -147,14 +161,21 @@
     "de-stijl-web": {
       "file": "de-stijl-web.webp",
       "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of De Stijl (web), None; use abstract coloured fields only, black line, primary colour field, white field, colours white, black, red, yellow, blue, grey, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
-      "model": "FLUX.2 [klein] 4B",
+      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of De Stijl (web), black line, primary colour field, white field, colours white, black, red, yellow, blue, grey, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
-      "steps": 4,
+      "base_seed": 1955,
+      "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-18"
+      "generated": "2026-11-19",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
     }
   }
 }
