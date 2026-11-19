@@ -198,7 +198,6 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more colour**: move toward [`sixteen-bit-sprite`](../sixteen-bit-sprite/SKILL.md) (16-bit sprite and parallax). Keep the tiles; widen the palette to 256 colours and add 2 to 4 parallax layers.
 - If the user asks for **fewer colours**: move toward [`four-shade-handheld`](../four-shade-handheld/SKILL.md) (Four-shade handheld). Keep the grid; reduce the palette to 4 shades of one hue.
 
-- **Came from (go here for a more orthodox version):** [`vector-display-arcade`](../vector-display-arcade/SKILL.md)
 - **Led to (go here for a newer version):** [`four-shade-handheld`](../four-shade-handheld/SKILL.md), [`isometric-pixel-world`](../isometric-pixel-world/SKILL.md), [`sixteen-bit-sprite`](../sixteen-bit-sprite/SKILL.md), [`voxel-block-world`](../voxel-block-world/SKILL.md)
 - **Kin in another domain:** [`pixel-art-web`](../pixel-art-web/SKILL.md), [`pixel-icon`](../pixel-icon/SKILL.md)
 - **Nearest by vector profile:** [`four-shade-handheld`](../four-shade-handheld/SKILL.md), [`sixteen-bit-sprite`](../sixteen-bit-sprite/SKILL.md), [`impossible-isometric-mobile`](../impossible-isometric-mobile/SKILL.md)
