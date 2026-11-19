@@ -26,7 +26,7 @@
       "suffix": "no readable text, no logos"
     },
     "industrial": {
-      "subject": "a product still life on a plain plinth against a seamless backdrop: one table lamp, one tap, one wall switch, one vase, one cup and saucer and a small sample of the upholstery fabric, soft studio light from the left, a three-quarter view at eye height, each object whole and in sharp focus, no room, no people",
+      "subject": "a product still life of three small objects side by side on one wide low plinth against a seamless backdrop: a table lamp, a vase and a cup and saucer, each object at its true real-world size next to the others, each object standing on the plinth, nothing floats, nothing stacked, no furniture, soft studio light from the left, a three-quarter view at eye height, each object whole and in sharp focus, no room, no people",
       "suffix": "no readable text, no logos, no labels, no packaging"
     },
     "logo": {
@@ -58,12 +58,17 @@
       "subject": "a video game screenshot of a small village square at dusk: a two-storey house front with an open door into a lit room with a table and a lamp, a cobbled street, one tree and one small player character in the square",
       "suffix": "a clean game frame with no readable text, no logos, no HUD, no menus, no score, no watermark",
       "drop": "HUD|interface|menu|text|score|logo|title"
+    },
+    "print": {
+      "subject": "a printed sheet",
+      "suffix": "a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper"
     }
   },
   "styles": {
     "film/vertical-short-form": {
       "size": "portrait",
-      "drop": "cuts|transition|zoom|loop|hook"
+      "drop": "cuts|transition|zoom|loop|hook",
+      "scene": "a young woman talks to her phone camera in a bright bedroom"
     },
     "logo/art-nouveau-monogram": {
       "subject": "an Art Nouveau vignette for a fictional coffee roaster: one coffee bean with one curl of steam in the centre, framed by two symmetric whiplash coffee branches with leaves and berries, on a plain toned paper ground, centred, wide empty margins"
@@ -160,6 +165,68 @@
     },
     "design/vaporwave": {
       "drop": "desktop window|graphical desktop"
+    },
+    "print/ben-day-comic-print": {
+      "subject": "a single square comic book panel: a detective in a trench coat and hat looks over his shoulder in a city street at night, one figure only, his hands in his pockets",
+      "size": "portrait"
+    },
+    "print/chromolithograph-poster": {
+      "subject": "a Belle Epoque advertising poster: a woman in a flowing yellow dress dances with her arms raised, a halo of light behind her, a band of bold decorative lettering shapes at the top",
+      "size": "portrait"
+    },
+    "print/engraving-print": {
+      "subject": "an allegorical engraving: a winged figure sits in thought on a stone step, chin on one hand, among a compass, a sphere, a ladder and an hourglass, dense crosshatched burin lines",
+      "size": "portrait"
+    },
+    "print/etching-print": {
+      "subject": "an etching of a village scene under a great old tree: small figures gather in the distance, a cottage and a road, deep bitten lines and plate tone in the shadows"
+    },
+    "print/mezzotint-print": {
+      "subject": "a mezzotint portrait of an eighteenth-century gentleman in a powdered wig and a dark coat, head and shoulders, his face rising out of a deep velvet black ground",
+      "size": "portrait"
+    },
+    "print/pochoir-plate": {
+      "subject": "an Art Deco fashion plate: one slender woman in an evening gown holds a feather fan, a stylised garden behind her, flat stencilled watercolour washes",
+      "size": "portrait"
+    },
+    "print/pop-screen-print": {
+      "subject": "a 1930s public works poster for a zoo: one elephant in flat silhouette on bold flat colour fields, a band of blocky lettering shapes at the bottom",
+      "size": "portrait"
+    },
+    "print/private-press-book": {
+      "subject": "an open book spread on a table: two dense pages of black-letter type in two columns, a woodcut border of vines and leaves around the text, a large decorated initial letter, red ink for the headings"
+    },
+    "print/psychedelic-concert-poster": {
+      "subject": "a 1960s concert poster: a woman's face in profile with long hair that flows into swirling hand-drawn lettering shapes, vibrating complementary colours",
+      "size": "portrait"
+    },
+    "print/risograph-print": {
+      "subject": "a risograph print of a garden party: flat overlapping shapes of a table, glasses and potted plants, fluorescent pink and teal inks that overlap to make a third colour",
+      "size": "portrait"
+    },
+    "print/wood-type-poster": {
+      "subject": "a nineteenth-century broadside poster set in wood type: lines of bold letters in many sizes and typefaces, centred, rules and a star ornament between the lines",
+      "size": "portrait"
+    },
+    "print/woodcut-relief-print": {
+      "subject": "a woodcut of an apocalyptic scene: a rider on a galloping horse above a fallen crowd, sky of gouged parallel lines, bold black cut lines",
+      "size": "portrait"
+    },
+    "print/xerox-zine": {
+      "subject": "a photocopied punk fanzine page: a high-contrast photo of a band on a small stage cut out and pasted down, ransom-note cut-out letters, typewriter text strips, tape marks",
+      "size": "portrait"
+    },
+    "film/spaghetti-western": {
+      "scene": "on the dusty main street of a small desert town, gunmen in long coats"
+    },
+    "film/new-hollywood": {
+      "scene": "two men on a 1970s city street"
+    },
+    "film/hong-kong-action": {
+      "drop": "dove"
+    },
+    "film/documentary-verite": {
+      "drop": "burned-out window|flash frame"
     }
   }
 }

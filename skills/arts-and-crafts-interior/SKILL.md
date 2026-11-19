@@ -214,7 +214,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Moodboard
 
-6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (FLUX.2 [klein] 4B, Apache-2.0, seed 1955, 4 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#arts-and-crafts-interior).
+6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (Z-Image-Turbo, Apache-2.0, seed 1955, 9 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#arts-and-crafts-interior).
 
 ![Room](../../demo/moodboards/interior/arts-and-crafts-interior/room.webp)
 ![Materials](../../demo/moodboards/interior/arts-and-crafts-interior/materials.webp)
@@ -225,7 +225,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Every object is made by hand in waxed oak, hammered copper, wrought iron and matt glazed clay. Wool and linen in sage and ochre soften the room, and the marks of the tool stay in view. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.3, material_warmth 0.8, finish_gloss 15, era_blend 0.25, hardware_weight 14, edge_radius 4, metal_tone copper. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#arts-and-crafts-interior).
+Every object is made by hand in waxed oak, hammered copper, wrought iron and matt glazed clay. Wool and linen in sage and ochre soften the room, and the marks of the tool stay in view. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.3, material_warmth 0.8, finish_gloss 15, era_blend 0.25, hardware_weight 14, edge_radius 4, metal_tone copper. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#arts-and-crafts-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

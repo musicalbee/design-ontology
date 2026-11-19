@@ -1,9 +1,9 @@
 // Render one preview image for each style of an image domain with a local ComfyUI server.
 //
-//   npm run previews -- --domain photography [--only new-colour,y2k-digicam] [--force] [--dry-run]
+//   npm run previews -- --domain photography [--only new-colour,y2k-digicam] [--redo drift.json] [--force] [--dry-run]
 //
 // ComfyUI must listen on COMFY_URL (default http://127.0.0.1:8188), for example through an SSH tunnel.
-// Only models with an open licence that allows commercial use go here (FLUX.2 [klein] 4B, Apache 2.0).
+// Only models with an open licence that allows commercial use go here (see MODELS in previews/comfy.ts).
 // Output: demo/previews/<domain>/<id>.webp and demo/previews/<domain>/manifest.json.
 //
 // A domain with "set" in subjects.json gets several frames for each style instead of one picture on a fixed scene:
@@ -22,9 +22,12 @@ const domain = opt("domain");
 const only = opt("only")?.split(",");
 const force = args.includes("--force");
 const dry = args.includes("--dry-run");
+// --redo <file.json>: a list of {path} records (a drift scan). Only the listed images render again, with the
+// current model, the guard words and the vision check. The other images stay as they are.
+const redo = new Set<string>(opt("redo") ? JSON.parse(readFileSync(opt("redo")!, "utf8")).map((x: any) => x.path) : []);
 if (!domain) throw new Error("Give --domain photography|film|painting|interior|architecture|logo|icon|internet");
 
-type Override = { subject?: string; size?: keyof typeof SIZES; drop?: string };
+type Override = { subject?: string; size?: keyof typeof SIZES; drop?: string; scene?: string };
 const subjects = JSON.parse(readFileSync("scripts/previews/subjects.json", "utf8")) as {
   domains: Record<string, { subject: string; suffix?: string; drop?: string; source?: string; set?: "subjects" | "shots"; frame?: string; frames?: number }>;
   styles?: Record<string, Override>;
@@ -71,6 +74,14 @@ const TEXTY = /text message|screen|intertitle|name and a date|title|caption|sign
 const PERSON = /portrait|people|person|face|actor|model|couple|family|crowd|worker|bride|child|woman|man\b|figure|dancer|athlete|hand/i;
 const BODY = /skin|eyes?\b|face|lips|hair|pores|freckle/i;
 const fit = (subject: string) => (w: string) => PERSON.test(subject) || !BODY.test(w);
+// Primer words that name a shot, a cut or a layout describe the whole film, not one frame. In a frame of a
+// showreel they made the model draw several shots in one image (a triptych, a 3x3 grid). They stay out of a frame.
+// The match is on the name of a shot ("wide shot", "close-up"), not on a single word: "wide empty street duel" and
+// "long wait before the shot" describe the scene and stay.
+const OTHER_SHOT = /\b((extreme |medium |wide |long |full |whole-body |establishing |insert |two[- ])shots?|close-ups?|cuts?|montage|split screen|sequence|\d+\s*planes)\b/i;
+// A shot label such as "payoff" or "whip transition" names a beat, not a scene. With no scene the model drew an
+// empty sky or a fist on green. A style override "scene" gives each frame of that style the place and the people.
+const scene = (s: any) => override(s).scene ? `, ${override(s).scene}` : "";
 const frames = (s: any): Frame[] => {
   // The suffix is not filtered: "interface" in it holds "face".
   const tail = positive(s).filter(keep(s)), end = dom.suffix ? [dom.suffix] : [];
@@ -78,7 +89,7 @@ const frames = (s: any): Frame[] => {
     .map((x: string) => ({ label: x, prompt: [`${dom.frame} ${x}`, ...tail.filter(fit(x)), ...end].join(", ") }));
   if (dom.set === "shots") return (s.shot_primer?.shot_list ?? []).filter((x: any) => x.size !== "card" && !TEXTY.test(x.shot)).slice(0, dom.frames ?? 5)
     .map((x: any) => ({ label: x.shot, size: x.size, lens: x.lens, movement: x.movement, seconds: x.seconds,
-      prompt: [`${dom.frame} ${x.size} shot: ${x.shot.toLowerCase()}`, `${x.lens} lens`, ...tail.filter(fit(x.shot)), ...end].join(", ") }));
+      prompt: [`${dom.frame} ${x.size} shot: ${x.shot.toLowerCase()}${scene(s)}`, `${x.lens} lens`, ...tail.filter(fit(x.shot + scene(s))).filter((w) => !OTHER_SHOT.test(w)), ...end].join(", ") }));
   return [];
 };
 const sig = (s: any) => { const f = frames(s); return f.length ? f.map((x) => x.prompt).join(" | ") : promptFor(s); };
@@ -91,7 +102,8 @@ async function renderSet(s: any, fr: Frame[]) {
   for (const [i, f] of fr.entries()) {
     const file = `${s.id}/${i + 1}.webp`;
     const prev = old.find((o) => o.file === file), seed = SEED + i;
-    out.push(!force && prev?.prompt === f.prompt && prev?.seed === seed && existsSync(join(outDir, file)) ? prev
+    const same = prev?.prompt === f.prompt && (prev?.base_seed ?? prev?.seed) === seed && existsSync(join(outDir, file));
+    out.push(!force && same && !redo.has(join(outDir, file)) ? prev
       : { ...f, file, ...(await renderWebp(f.prompt, join(outDir, file), sizeFor(s), `design-ontology/${domain}/${s.id}-${i + 1}`, seed)) });
   }
   const { model, licence, seed, steps, width, height, generated } = out[0];
@@ -107,7 +119,8 @@ async function render(s: any) {
   return { file: `${s.id}.webp`, subject: subjectFor(s), ...rec };
 }
 
-const todo = styles.filter((s) => force || !manifest.images[s.id] || sigOf(manifest.images[s.id]) !== sig(s));
+const redone = (s: any) => [...redo].some((p) => p === join(outDir, `${s.id}.webp`) || p.startsWith(join(outDir, s.id) + "/"));
+const todo = styles.filter((s) => force || redone(s) || !manifest.images[s.id] || sigOf(manifest.images[s.id]) !== sig(s));
 if (dry) { for (const s of todo) console.log(`${s.id}: ${sig(s).split(" | ").join("\n  ")}`); process.exit(0); }
 if (todo.length) await preflight();
 for (const s of todo) {

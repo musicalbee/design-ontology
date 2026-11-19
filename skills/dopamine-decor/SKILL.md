@@ -213,7 +213,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Moodboard
 
-6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (FLUX.2 [klein] 4B, Apache-2.0, seed 1955, 4 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#dopamine-decor).
+6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (Z-Image-Turbo, Apache-2.0, seed 1955, 9 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#dopamine-decor).
 
 ![Room](../../demo/moodboards/interior/dopamine-decor/room.webp)
 ![Materials](../../demo/moodboards/interior/dopamine-decor/materials.webp)
@@ -224,7 +224,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Velvet, terrazzo, acrylic, coloured glass and lacquered laminate carry six saturated hues. Every form is round and glossy, and each hue repeats in at least three places. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.4, material_warmth 0.3, finish_gloss 80, era_blend 0.7, hardware_weight 20, edge_radius 25, metal_tone chrome. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#dopamine-decor).
+Velvet, terrazzo, acrylic, coloured glass and lacquered laminate carry six saturated hues. Every form is round and glossy, and each hue repeats in at least three places. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.4, material_warmth 0.3, finish_gloss 80, era_blend 0.7, hardware_weight 20, edge_radius 25, metal_tone chrome. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#dopamine-decor).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

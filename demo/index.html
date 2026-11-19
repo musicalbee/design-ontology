@@ -210,7 +210,7 @@ Promise.all([json("../skills/index.json"), ...DOMAINS.map((d) => json(`previews/
   const skills = index?.skills ?? [];
   const name = Object.fromEntries(skills.map((s) => [s.id, s.name]));
   // The styles of a domain that have a preview picture.
-  const pool = DOMAINS.map((d, i) => Object.entries(manifests[i]?.images ?? {})
+  const pool = DOMAINS.map((d, i) => Object.entries({ ...manifests[i]?.proofs, ...manifests[i]?.images })
     .filter(([id, r]) => name[id] && r.file)
     .map(([id, r]) => ({ id, name: name[id], src: `previews/${d.id}/${r.file}`, fit: r.kind === "specimen" || r.kind === "press-proof" || r.kind === "swatch-board" || r.kind === "tile-board", n: r.frames?.length || 1, d })));
 

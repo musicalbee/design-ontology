@@ -203,7 +203,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Moodboard
 
-6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (FLUX.2 [klein] 4B, Apache-2.0, seed 1955, 4 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#minimalist-interior).
+6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (Z-Image-Turbo, Apache-2.0, seed 1955, 9 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#minimalist-interior).
 
 ![Room](../../demo/moodboards/interior/minimalist-interior/room.webp)
 ![Materials](../../demo/moodboards/interior/minimalist-interior/materials.webp)
@@ -214,7 +214,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-White plaster, honed limestone and pale oak with plain linen; every object is flush, thin and quiet, and one graphite fitting is the only dark mark. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0, material_warmth 0.4, finish_gloss 10, era_blend 0.6, hardware_weight 8, edge_radius 3, metal_tone black. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#minimalist-interior).
+White plaster, honed limestone and pale oak with plain linen; every object is flush, thin and quiet, and one graphite fitting is the only dark mark. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0, material_warmth 0.4, finish_gloss 10, era_blend 0.6, hardware_weight 8, edge_radius 3, metal_tone black. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#minimalist-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

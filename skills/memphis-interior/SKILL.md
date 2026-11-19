@@ -184,7 +184,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 ## Implementation primer: brief, image prompt, 3D scene
 
 - **Brief:** A white room with free-standing laminate furniture in pink, turquoise, yellow and black. A tall room divider of stacked shapes is the focal point; a round sofa, a cone-leg table and a sculptural lamp stand at angles around it.
-- **Image prompt:** Memphis Milano interior 1982, white gallery room, tall plastic laminate room divider of stacked geometric shapes with squiggle and grid patterns, flamingo pink and turquoise faces, lemon yellow and red accents, glass table on cone legs, disc chair, terrazzo side table, sculptural floor lamp, pieces rotated at angles, track spotlights, flat even colour, postmodern design photograph
+- **Image prompt:** Memphis Milano interior 1982, white gallery room, a low wide laminate bookcase with open box shelves and angled side shelves, squiggle and grid patterns on its laminate, flamingo pink and turquoise faces, lemon yellow and red accents, glass table on cone legs, disc chair, terrazzo side table, sculptural floor lamp, pieces rotated at angles, track spotlights, flat even colour, postmodern design photograph
 - **Negative prompt:** Symmetry, wood grain, beige, tonal palette, matching sets, ornate classical furniture, dim warm light.
 - **Camera:** 35 mm lens, camera at 140 cm, frontal view with the totem off-centre on a third.
 - **3D scene:** Room 600 x 500 cm, ceiling 300 cm. Even 3000 K ambient from a downlight grid; 4 spots at 4:1 on the objects; one magenta neon tube.
@@ -214,7 +214,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Moodboard
 
-6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (FLUX.2 [klein] 4B, Apache-2.0, seed 1955, 4 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#memphis-interior).
+6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (Z-Image-Turbo, Apache-2.0, seed 4955, 9 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#memphis-interior).
 
 ![Room](../../demo/moodboards/interior/memphis-interior/room.webp)
 ![Materials](../../demo/moodboards/interior/memphis-interior/materials.webp)
@@ -225,7 +225,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Printed plastic laminate, terrazzo, coloured glass and enamel in flat pink, turquoise and yellow; every object is a stack of solids with a squiggle or a grid. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.7, material_warmth 0.2, finish_gloss 65, era_blend 0.2, hardware_weight 18, edge_radius 3, metal_tone chrome. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#memphis-interior).
+Printed plastic laminate, terrazzo, coloured glass and enamel in flat pink, turquoise and yellow; every object is a stack of solids with a squiggle or a grid. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.7, material_warmth 0.2, finish_gloss 65, era_blend 0.2, hardware_weight 18, edge_radius 3, metal_tone chrome. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#memphis-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

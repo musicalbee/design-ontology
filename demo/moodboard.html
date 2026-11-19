@@ -18,9 +18,6 @@
   header .thesis { margin: 12px 0 0; font-size: 18px; max-width: 72ch; }
   header .meta { color: var(--muted); margin: 6px 0 0; font-size: 13px; }
 
-  .pills { display: flex; flex-wrap: wrap; gap: 6px; }
-  .pills button { font: inherit; font-size: 13px; padding: 4px 11px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); color: var(--ink); cursor: pointer; }
-  .pills button[aria-pressed="true"] { background: var(--ink); color: #fff; border-color: var(--ink); }
 
   .title h2 { margin: 0; font-size: 26px; }
   .title p { margin: 4px 0 0; color: var(--muted); max-width: 80ch; }
@@ -68,16 +65,14 @@
 </head>
 <body>
 <script src="nav.js"></script>
+<script src="interior-tabs.js"></script>
 <main>
   <header>
-    <h1>Interior moodboards</h1>
-    <p class="thesis">A board and a palette for each interior style. Each tile comes from one facet of the style record (room, materials, furniture, textiles, light, objects), so a change in the data changes the board.</p>
-    <p class="meta" id="meta">Generated images, not real rooms.</p>
+    <h1 id="m-name">Moodboard</h1>
+    <p class="thesis" id="m-summary"></p>
+    <p class="meta"><span id="meta">Generated images, not real rooms.</span> Each tile comes from one facet of the style record (room, materials, furniture, textiles, light, objects), so a change in the data changes the board.</p>
   </header>
-
-  <nav class="pills" id="pills" aria-label="Interior styles"></nav>
-
-  <section class="title" id="title" aria-live="polite"></section>
+  <script>document.currentScript.previousElementSibling.insertAdjacentHTML("afterend", InteriorTabs.tabs("moodboard"));</script>
 
   <section class="board" id="board" aria-label="Moodboard"></section>
 
@@ -143,12 +138,12 @@ function tile(id, label, rec, text) {
   return `<figure class="tile" data-t="${id}">${body}<figcaption>${esc(label)}</figcaption></figure>`;
 }
 
-async function show(id, push) {
-  for (const b of $("pills").querySelectorAll("button")) b.setAttribute("aria-pressed", String(b.dataset.id === id));
+async function show(id) {
   const [s, m] = await Promise.all([(cache[id] ??= fetch(`../data/interior/styles/${id}.json`).then((r) => r.json())), manifest]);
-  if (push) history.replaceState(null, "", `#${id}`);
-  document.title = `${s.name} moodboard`;
-  $("title").innerHTML = `<h2>${esc(s.name)}</h2><p>${esc(s.summary)}</p>`;
+  if (location.hash.slice(1) !== id) return;
+  document.title = `${s.name}: moodboard`;
+  $("m-name").textContent = `${s.name}: moodboard`;
+  $("m-summary").textContent = s.summary;
 
   const board = m.boards?.[id] ?? {};
   const t = Object.fromEntries(TILES.map(([k, l]) => [k, tile(k, l, board[k], facet(s, k))]));
@@ -178,14 +173,7 @@ async function show(id, push) {
   $("copy").onclick = () => navigator.clipboard?.writeText(JSON.stringify(reuse, null, 2)).then(() => { $("copy").textContent = "Copied"; setTimeout(() => ($("copy").textContent = "Copy palette JSON"), 1500); });
 }
 
-fetch("../skills/index.json").then((r) => r.json()).then((index) => {
-  const styles = index.skills.filter((s) => s.domain === "interior").sort((a, b) => a.name.localeCompare(b.name));
-  $("pills").innerHTML = styles.map((s) => `<button type="button" data-id="${esc(s.id)}" aria-pressed="false">${esc(s.name)}</button>`).join("");
-  $("pills").onclick = (e) => { const b = e.target.closest("button"); if (b) show(b.dataset.id, true); };
-  const pick = () => { const want = location.hash.slice(1); show(styles.some((s) => s.id === want) ? want : "japandi-interior", false); };
-  addEventListener("hashchange", pick);
-  pick();
-});
+InteriorTabs.route("moodboard", (id) => show(id));
 </script>
 </body>
 </html>
