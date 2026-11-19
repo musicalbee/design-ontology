@@ -1,0 +1,1092 @@
+{
+  "$schema": "../../schema/material.schema.json",
+  "class": "metal",
+  "name": "Metal",
+  "summary": "Metal elements, the alloys made from them, and metals with a plated or enamelled surface.",
+  "families": [
+    {
+      "id": "plated-metal",
+      "name": "Plated metal"
+    },
+    {
+      "id": "element",
+      "name": "Element"
+    },
+    {
+      "id": "alloy",
+      "name": "Alloy"
+    },
+    {
+      "id": "enamelled-metal",
+      "name": "Enamelled metal"
+    }
+  ],
+  "materials": [
+    {
+      "id": "blued-steel",
+      "name": "Blued steel",
+      "family": "alloy",
+      "form": "raw",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Steel heated until a thin blue oxide forms on it; watchmakers use it for screws and hands. The blue is a heat colour, not a dye.",
+      "is_a": [
+        "steel"
+      ],
+      "made_from": [
+        "iron"
+      ],
+      "photo": "blued steel",
+      "identity": {
+        "wikidata": "Q548465"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Bluing (steel)",
+          "url": "https://en.wikipedia.org/wiki/Bluing_(steel)"
+        }
+      ]
+    },
+    {
+      "id": "brass",
+      "name": "Brass",
+      "family": "alloy",
+      "form": "raw",
+      "senses": [
+        "ceramics.materials",
+        "fashion.materials"
+      ],
+      "summary": "A yellow alloy of copper and zinc for taps, fittings and frames.",
+      "made_from": [
+        "copper",
+        "zinc"
+      ],
+      "photo": "brass",
+      "identity": {
+        "wikidata": "Q39782"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Brass",
+          "url": "https://en.wikipedia.org/wiki/Brass"
+        }
+      ]
+    },
+    {
+      "id": "bronze",
+      "name": "Bronze",
+      "family": "alloy",
+      "form": "raw",
+      "senses": [
+        "industrial.materials"
+      ],
+      "made_from": [
+        "copper",
+        "tin"
+      ],
+      "properties": {
+        "warmth": 0.6
+      },
+      "photo": "bronze",
+      "identity": {
+        "wikidata": "Q34095"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Bronze",
+          "url": "https://en.wikipedia.org/wiki/Bronze"
+        }
+      ]
+    },
+    {
+      "id": "cut-steel",
+      "name": "Cut steel",
+      "family": "alloy",
+      "form": "part",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Small steel studs, faceted and riveted to a plate, that catch the light like diamonds; used in jewellery from the 18th century to the 1930s.",
+      "is_a": [
+        "steel"
+      ],
+      "made_from": [
+        "mild-steel"
+      ],
+      "photo": "cut steel",
+      "identity": {
+        "wikidata": "Q20010713"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Cut steel jewellery",
+          "url": "https://en.wikipedia.org/wiki/Cut_steel_jewellery"
+        }
+      ]
+    },
+    {
+      "id": "mild-steel",
+      "name": "Mild steel",
+      "family": "alloy",
+      "form": "raw",
+      "senses": [
+        "industrial.materials"
+      ],
+      "is_a": [
+        "steel"
+      ],
+      "made_from": [
+        "iron"
+      ],
+      "properties": {
+        "warmth": 0.2
+      },
+      "photo": "mild steel",
+      "identity": {
+        "wikidata": "Q967996"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Carbon steel",
+          "url": "https://en.wikipedia.org/wiki/Carbon_steel"
+        }
+      ]
+    },
+    {
+      "id": "pinchbeck",
+      "name": "Pinchbeck",
+      "family": "alloy",
+      "form": "raw",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "A brass of copper and zinc that looks like gold; Georgian watch cases and jewellery used it.",
+      "made_from": [
+        "copper",
+        "zinc"
+      ],
+      "photo": "pinchbeck",
+      "identity": {
+        "wikidata": "Q1153163"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Pinchbeck (alloy)",
+          "url": "https://en.wikipedia.org/wiki/Pinchbeck_(alloy)"
+        }
+      ]
+    },
+    {
+      "id": "pressed-steel",
+      "name": "Pressed steel",
+      "family": "alloy",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Sheet steel pressed into body panels; the all-steel body replaced wood frames from the 1910s.",
+      "is_a": [
+        "steel"
+      ],
+      "made_from": [
+        "mild-steel"
+      ],
+      "photo": "a square sample sheet of pressed steel",
+      "identity": {
+        "wikidata": "Q211367"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Sheet metal",
+          "url": "https://en.wikipedia.org/wiki/Sheet_metal"
+        }
+      ]
+    },
+    {
+      "id": "rose-gold",
+      "name": "Rose gold",
+      "family": "alloy",
+      "form": "raw",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Gold with copper for a pink tone, called 'Russian gold' in the 19th century; it came back in the 1940s and the 2010s.",
+      "made_from": [
+        "gold",
+        "copper"
+      ],
+      "photo": "rose gold",
+      "identity": {
+        "wikidata": "Q309191"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Colored gold",
+          "url": "https://en.wikipedia.org/wiki/Colored_gold"
+        }
+      ]
+    },
+    {
+      "id": "solid-brass",
+      "name": "Solid brass",
+      "family": "alloy",
+      "form": "raw",
+      "senses": [
+        "industrial.materials"
+      ],
+      "is_a": [
+        "brass"
+      ],
+      "made_from": [
+        "copper",
+        "zinc"
+      ],
+      "properties": {
+        "warmth": 0.6
+      },
+      "photo": "solid brass",
+      "identity": {
+        "wikidata": "Q39782"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Brass",
+          "url": "https://en.wikipedia.org/wiki/Brass"
+        }
+      ]
+    },
+    {
+      "id": "spring-steel",
+      "name": "Spring steel",
+      "family": "alloy",
+      "form": "raw",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Tempered steel in thin flat strips; it gave corsets a bone that bends and returns, and it made the front busk. Steel mainsprings of clocks are known from the 15th century.",
+      "is_a": [
+        "steel"
+      ],
+      "made_from": [
+        "iron"
+      ],
+      "photo": "spring steel",
+      "identity": {
+        "wikidata": "Q1400720"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Spring steel",
+          "url": "https://en.wikipedia.org/wiki/Spring_steel"
+        }
+      ]
+    },
+    {
+      "id": "stainless-steel",
+      "name": "Stainless steel",
+      "family": "alloy",
+      "form": "sheet",
+      "senses": [
+        "ceramics.materials",
+        "fashion.materials",
+        "industrial.materials"
+      ],
+      "summary": "A corrosion-resistant steel for lids, frames and modern fittings.",
+      "is_a": [
+        "steel"
+      ],
+      "made_from": [
+        "iron",
+        "chromium"
+      ],
+      "properties": {
+        "warmth": 0.1
+      },
+      "photo": "a square sample sheet of stainless steel",
+      "identity": {
+        "wikidata": "Q172587"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Stainless steel",
+          "url": "https://en.wikipedia.org/wiki/Stainless_steel"
+        }
+      ]
+    },
+    {
+      "id": "steel",
+      "name": "Steel",
+      "family": "alloy",
+      "form": "raw",
+      "senses": [],
+      "made_from": [
+        "iron"
+      ],
+      "aliases": [
+        "steel",
+        "black steel",
+        "exposed steel",
+        "painted steel",
+        "painted structural steel",
+        "cast steel",
+        "painted metal",
+        "perforated metal",
+        "coloured metal panels",
+        "steel space frame",
+        "steel connectors"
+      ],
+      "photo": "steel",
+      "identity": {
+        "wikidata": "Q11427"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Steel",
+          "url": "https://en.wikipedia.org/wiki/Steel"
+        }
+      ]
+    },
+    {
+      "id": "steel-frame",
+      "name": "Steel frame",
+      "family": "alloy",
+      "form": "part",
+      "senses": [
+        "ceramics.materials"
+      ],
+      "summary": "The structural frame behind terracotta and faience cladding.",
+      "made_from": [
+        "mild-steel"
+      ],
+      "photo": "steel frame",
+      "identity": {
+        "wikidata": "Q1727909"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Steel frame",
+          "url": "https://en.wikipedia.org/wiki/Steel_frame"
+        }
+      ]
+    },
+    {
+      "id": "sterling-silver",
+      "name": "Sterling silver",
+      "family": "alloy",
+      "form": "raw",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Silver of 925 parts in 1,000; England fixed the standard and the hallmark under Edward I in 1300.",
+      "made_from": [
+        "silver",
+        "copper"
+      ],
+      "photo": "sterling silver",
+      "identity": {
+        "wikidata": "Q31576"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Sterling silver",
+          "url": "https://en.wikipedia.org/wiki/Sterling_silver"
+        }
+      ]
+    },
+    {
+      "id": "weathering-steel",
+      "name": "Weathering steel (Corten)",
+      "family": "alloy",
+      "form": "sheet",
+      "senses": [],
+      "is_a": [
+        "steel"
+      ],
+      "made_from": [
+        "iron",
+        "copper",
+        "chromium",
+        "nickel"
+      ],
+      "aliases": [
+        "weathering steel",
+        "corten"
+      ],
+      "photo": "a square sample sheet of weathering steel",
+      "identity": {
+        "wikidata": "Q1024124"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Weathering steel",
+          "url": "https://en.wikipedia.org/wiki/Weathering_steel"
+        }
+      ]
+    },
+    {
+      "id": "white-gold",
+      "name": "White gold",
+      "family": "alloy",
+      "form": "raw",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Gold with palladium or nickel, often plated with rhodium; a cheaper white metal than platinum after 1920.",
+      "made_from": [
+        "gold"
+      ],
+      "photo": "white gold",
+      "identity": {
+        "wikidata": "Q6582775"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: White gold",
+          "url": "https://en.wikipedia.org/wiki/White_gold"
+        }
+      ]
+    },
+    {
+      "id": "yellow-gold",
+      "name": "Yellow gold",
+      "family": "alloy",
+      "form": "raw",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Gold in carat alloys, from 9 to 22 carat; the base metal of jewellery and the dress watch case.",
+      "made_from": [
+        "gold"
+      ],
+      "photo": "yellow gold",
+      "identity": {
+        "wikidata": "Q309191"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Colored gold",
+          "url": "https://en.wikipedia.org/wiki/Colored_gold"
+        }
+      ]
+    },
+    {
+      "id": "aluminium",
+      "name": "Aluminium",
+      "family": "element",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials",
+        "industrial.materials"
+      ],
+      "summary": "A light metal, cheap after the electrolytic process of 1886; car bodies, trunks and watch cases use it.",
+      "properties": {
+        "warmth": 0.15
+      },
+      "photo": "a square sample sheet of aluminium",
+      "identity": {
+        "wikidata": "Q663"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Aluminium",
+          "url": "https://en.wikipedia.org/wiki/Aluminium"
+        }
+      ]
+    },
+    {
+      "id": "cast-iron",
+      "name": "Cast iron",
+      "family": "element",
+      "form": "block",
+      "senses": [
+        "industrial.materials"
+      ],
+      "made_from": [
+        "iron"
+      ],
+      "properties": {
+        "warmth": 0.25
+      },
+      "photo": "a rough block of cast iron",
+      "identity": {
+        "wikidata": "Q483269"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Cast iron",
+          "url": "https://en.wikipedia.org/wiki/Cast_iron"
+        }
+      ]
+    },
+    {
+      "id": "chromium",
+      "name": "Chromium",
+      "family": "element",
+      "form": "raw",
+      "senses": [],
+      "aliases": [
+        "chromium"
+      ],
+      "photo": "chromium",
+      "identity": {
+        "wikidata": "Q725"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Chromium",
+          "url": "https://en.wikipedia.org/wiki/Chromium"
+        }
+      ]
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "family": "element",
+      "form": "raw",
+      "senses": [
+        "fashion.materials",
+        "industrial.materials"
+      ],
+      "summary": "The first metal that people worked; it gave the rivet at the pocket corner of the 1873 work trouser.",
+      "properties": {
+        "warmth": 0.65
+      },
+      "photo": "copper",
+      "identity": {
+        "wikidata": "Q753"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Copper",
+          "url": "https://en.wikipedia.org/wiki/Copper"
+        }
+      ]
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "family": "element",
+      "form": "raw",
+      "senses": [],
+      "aliases": [
+        "gold"
+      ],
+      "photo": "gold",
+      "identity": {
+        "wikidata": "Q897"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Gold",
+          "url": "https://en.wikipedia.org/wiki/Gold"
+        }
+      ]
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "family": "element",
+      "form": "raw",
+      "senses": [],
+      "aliases": [
+        "iron"
+      ],
+      "photo": "iron",
+      "identity": {
+        "wikidata": "Q677"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Iron",
+          "url": "https://en.wikipedia.org/wiki/Iron"
+        }
+      ]
+    },
+    {
+      "id": "lead",
+      "name": "Lead",
+      "family": "element",
+      "form": "sheet",
+      "senses": [],
+      "aliases": [
+        "lead sheeting",
+        "lead"
+      ],
+      "photo": "a square sample sheet of lead",
+      "identity": {
+        "wikidata": "Q708"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Lead",
+          "url": "https://en.wikipedia.org/wiki/Lead"
+        }
+      ]
+    },
+    {
+      "id": "nickel",
+      "name": "Nickel",
+      "family": "element",
+      "form": "raw",
+      "senses": [],
+      "aliases": [
+        "brushed nickel"
+      ],
+      "photo": "nickel",
+      "identity": {
+        "wikidata": "Q744"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Nickel",
+          "url": "https://en.wikipedia.org/wiki/Nickel"
+        }
+      ]
+    },
+    {
+      "id": "platinum",
+      "name": "Platinum",
+      "family": "element",
+      "form": "raw",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "A strong white metal that holds a thin setting; jewellers used it from about 1900 for lace-like settings of diamonds.",
+      "photo": "platinum",
+      "identity": {
+        "wikidata": "Q880"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Platinum",
+          "url": "https://en.wikipedia.org/wiki/Platinum"
+        }
+      ]
+    },
+    {
+      "id": "rhodium",
+      "name": "Rhodium",
+      "family": "element",
+      "form": "raw",
+      "senses": [],
+      "photo": "rhodium",
+      "identity": {
+        "wikidata": "Q1087"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Rhodium",
+          "url": "https://en.wikipedia.org/wiki/Rhodium"
+        }
+      ]
+    },
+    {
+      "id": "silver",
+      "name": "Silver",
+      "family": "element",
+      "form": "raw",
+      "senses": [
+        "ceramics.materials"
+      ],
+      "summary": "A metal for mounts, spouts and rims of precious ware.",
+      "photo": "silver",
+      "identity": {
+        "wikidata": "Q1090"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Silver",
+          "url": "https://en.wikipedia.org/wiki/Silver"
+        }
+      ]
+    },
+    {
+      "id": "tin",
+      "name": "Tin",
+      "family": "element",
+      "form": "raw",
+      "senses": [],
+      "aliases": [
+        "tin"
+      ],
+      "photo": "tin",
+      "identity": {
+        "wikidata": "Q1096"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Tin",
+          "url": "https://en.wikipedia.org/wiki/Tin"
+        }
+      ]
+    },
+    {
+      "id": "titanium",
+      "name": "Titanium",
+      "family": "element",
+      "form": "raw",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "A light, strong metal; the first titanium watch case came in 1970, and jewellery and eyewear followed.",
+      "photo": "titanium",
+      "identity": {
+        "wikidata": "Q716"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Titanium",
+          "url": "https://en.wikipedia.org/wiki/Titanium"
+        }
+      ]
+    },
+    {
+      "id": "wrought-iron",
+      "name": "Wrought iron",
+      "family": "element",
+      "form": "raw",
+      "senses": [
+        "industrial.materials"
+      ],
+      "made_from": [
+        "iron"
+      ],
+      "properties": {
+        "warmth": 0.3
+      },
+      "photo": "wrought iron",
+      "identity": {
+        "wikidata": "Q860451"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Wrought iron",
+          "url": "https://en.wikipedia.org/wiki/Wrought_iron"
+        }
+      ]
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "family": "element",
+      "form": "sheet",
+      "senses": [],
+      "aliases": [
+        "zinc",
+        "zinc and titanium sheet"
+      ],
+      "photo": "a square sample sheet of zinc",
+      "identity": {
+        "wikidata": "Q758"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Zinc",
+          "url": "https://en.wikipedia.org/wiki/Zinc"
+        }
+      ]
+    },
+    {
+      "id": "enamelled-steel",
+      "name": "Enamelled steel",
+      "family": "enamelled-metal",
+      "form": "sheet",
+      "senses": [
+        "industrial.materials"
+      ],
+      "made_from": [
+        "mild-steel",
+        "vitreous-enamel"
+      ],
+      "properties": {
+        "warmth": 0.3
+      },
+      "photo": "a square sample sheet of enamelled steel",
+      "identity": {
+        "wikidata": "Q213371"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Vitreous enamel",
+          "url": "https://en.wikipedia.org/wiki/Vitreous_enamel"
+        }
+      ]
+    },
+    {
+      "id": "chrome",
+      "name": "Chrome plate",
+      "family": "plated-metal",
+      "form": "coating",
+      "senses": [
+        "ceramics.materials"
+      ],
+      "summary": "Bright chromium plate on brass or steel, the finish of taps and fittings after about 1925.",
+      "is_a": [
+        "chrome-plate"
+      ],
+      "made_from": [
+        "chromium"
+      ],
+      "photo": "a square sample panel finished with chrome plate",
+      "identity": {
+        "wikidata": "Q1506986"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Chrome plating",
+          "url": "https://en.wikipedia.org/wiki/Chrome_plating"
+        }
+      ]
+    },
+    {
+      "id": "chrome-plate",
+      "name": "Chrome plate",
+      "family": "plated-metal",
+      "form": "coating",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "A thin bright layer of chromium on steel or brass; it made the brightwork of the car from the late 1920s.",
+      "made_from": [
+        "chromium"
+      ],
+      "photo": "a square sample panel finished with chrome plate",
+      "identity": {
+        "wikidata": "Q1506986"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Chrome plating",
+          "url": "https://en.wikipedia.org/wiki/Chrome_plating"
+        }
+      ]
+    },
+    {
+      "id": "chrome-plated-brass",
+      "name": "Chrome-plated brass",
+      "family": "plated-metal",
+      "form": "part",
+      "senses": [
+        "industrial.materials"
+      ],
+      "made_from": [
+        "solid-brass",
+        "chromium"
+      ],
+      "properties": {
+        "warmth": 0.15
+      },
+      "photo": "chrome-plated brass",
+      "identity": {
+        "wikidata": "Q1506986"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Chrome plating",
+          "url": "https://en.wikipedia.org/wiki/Chrome_plating"
+        }
+      ]
+    },
+    {
+      "id": "chrome-plated-steel",
+      "name": "Chrome-plated steel tube",
+      "family": "plated-metal",
+      "form": "part",
+      "senses": [
+        "industrial.materials"
+      ],
+      "made_from": [
+        "mild-steel",
+        "chromium"
+      ],
+      "properties": {
+        "warmth": 0.1
+      },
+      "photo": "chrome-plated steel tube",
+      "identity": {
+        "wikidata": "Q1506986"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Chrome plating",
+          "url": "https://en.wikipedia.org/wiki/Chrome_plating"
+        }
+      ]
+    },
+    {
+      "id": "gold-filled",
+      "name": "Gold-filled metal",
+      "family": "plated-metal",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "A layer of gold alloy bonded to a base metal such as brass; the layer is much thicker than gold plate. Cheap pocket watch cases used it.",
+      "made_from": [
+        "gold",
+        "solid-brass"
+      ],
+      "photo": "a square sample sheet of gold-filled metal",
+      "identity": {
+        "wikidata": "Q1534600"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Gold-filled jewelry",
+          "url": "https://en.wikipedia.org/wiki/Gold-filled_jewelry"
+        }
+      ]
+    },
+    {
+      "id": "gold-leaf",
+      "name": "Gold leaf",
+      "family": "plated-metal",
+      "form": "sheet",
+      "senses": [],
+      "made_from": [
+        "gold"
+      ],
+      "aliases": [
+        "gold leaf",
+        "gilt wood",
+        "gilded wood",
+        "gilt"
+      ],
+      "photo": "a square sample sheet of gold leaf",
+      "identity": {
+        "wikidata": "Q929186"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Gold leaf",
+          "url": "https://en.wikipedia.org/wiki/Gold_leaf"
+        }
+      ]
+    },
+    {
+      "id": "nickel-plate",
+      "name": "Nickel plate",
+      "family": "plated-metal",
+      "form": "coating",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "A thin layer of nickel on steel or brass. It gives a warm, slightly yellow shine and was the bright finish of cars before chrome.",
+      "made_from": [
+        "nickel"
+      ],
+      "photo": "a square sample panel finished with nickel plate",
+      "identity": {
+        "wikidata": "Q3875942"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Nickel electroplating",
+          "url": "https://en.wikipedia.org/wiki/Nickel_electroplating"
+        }
+      ]
+    },
+    {
+      "id": "nickel-plated-brass",
+      "name": "Nickel-plated brass",
+      "family": "plated-metal",
+      "form": "part",
+      "senses": [
+        "industrial.materials"
+      ],
+      "made_from": [
+        "solid-brass",
+        "nickel"
+      ],
+      "properties": {
+        "warmth": 0.3
+      },
+      "photo": "nickel-plated brass",
+      "identity": {
+        "wikidata": "Q3875942"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Nickel electroplating",
+          "url": "https://en.wikipedia.org/wiki/Nickel_electroplating"
+        }
+      ]
+    },
+    {
+      "id": "ormolu",
+      "name": "Ormolu (gilt bronze)",
+      "family": "plated-metal",
+      "form": "part",
+      "senses": [
+        "ceramics.materials"
+      ],
+      "summary": "Fire-gilt bronze mounts that French dealers added to Chinese and Sèvres porcelain in the 18th century.",
+      "made_from": [
+        "bronze",
+        "gold"
+      ],
+      "photo": "ormolu",
+      "identity": {
+        "wikidata": "Q10748318"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ormolu",
+          "url": "https://en.wikipedia.org/wiki/Ormolu"
+        }
+      ]
+    },
+    {
+      "id": "silver-plate",
+      "name": "Silver plate",
+      "family": "plated-metal",
+      "form": "part",
+      "senses": [
+        "industrial.materials"
+      ],
+      "made_from": [
+        "silver",
+        "copper"
+      ],
+      "properties": {
+        "warmth": 0.4
+      },
+      "photo": "silver plate",
+      "identity": {
+        "wikidata": "Q1193988"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Plating",
+          "url": "https://en.wikipedia.org/wiki/Plating"
+        }
+      ]
+    },
+    {
+      "id": "tubular-steel",
+      "name": "Chrome-plated tubular steel",
+      "family": "plated-metal",
+      "form": "part",
+      "senses": [],
+      "made_from": [
+        "steel",
+        "chromium"
+      ],
+      "aliases": [
+        "chrome-plated tubular steel",
+        "tubular steel furniture"
+      ],
+      "photo": "chrome-plated tubular steel",
+      "identity": {
+        "wikidata": "Q2889002"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Cold-formed steel",
+          "url": "https://en.wikipedia.org/wiki/Cold-formed_steel"
+        }
+      ]
+    }
+  ]
+}

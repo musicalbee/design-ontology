@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-ontology.dev/schema/material.schema.json",
+  "title": "Material class",
+  "description": "One class of the cross-domain material layer (data/materials/<class>.json). Each material is one real thing: a fruit, a fibre, a cloth, a metal, a clay body, a glaze. A material with a sense is also an entry of a domain vocabulary, with the same id. The domain vocabulary keeps its own fields; this layer adds the class, the form, the edges between materials, the properties and the sources.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["class", "name", "summary", "families", "materials"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "class": { "$ref": "#/$defs/class" },
+    "name": { "$ref": "core.schema.json#/$defs/shortText" },
+    "summary": { "$ref": "core.schema.json#/$defs/sentence" },
+    "families": {
+      "type": "array",
+      "minItems": 1,
+      "description": "The families of the class. Each material names one.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name"],
+        "properties": { "id": { "$ref": "core.schema.json#/$defs/slug" }, "name": { "$ref": "core.schema.json#/$defs/shortText" } }
+      }
+    },
+    "materials": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/material" } }
+  },
+  "$defs": {
+    "class": {
+      "enum": ["plant", "animal", "fungus", "mineral", "metal", "ceramic-glass", "polymer", "composite"],
+      "description": "The class by origin. plant: from a plant or an alga. animal: from an animal. fungus: a mushroom, a yeast or a mould, or a food that a fungus makes. mineral: a stone, a clay, a sand, a pigment or a salt, as it is dug. metal: an element or an alloy. ceramic-glass: a fired clay body, a glaze, a glass or an enamel. polymer: a synthetic or a regenerated long-chain material. composite: a mix of two or more classes (concrete, plaster, paint, laminate)."
+    },
+    "form": {
+      "enum": ["raw", "part", "fibre", "cloth", "sheet", "board", "block", "powder", "liquid", "body", "coating", "surface", "fill", "food"],
+      "description": "The state in which the material is used. raw: as it comes from the source. part: a made part. body: a clay body. coating: a layer on another material. surface: the state of a surface with no added layer (bare clay, burnished). food: a cooking ingredient."
+    },
+    "sense": {
+      "enum": ["ceramics.bodies", "ceramics.materials", "ceramics.glazes", "fashion.fibres", "fashion.fabrics", "fashion.materials", "industrial.materials", "cuisine.ingredients"],
+      "description": "A domain vocabulary list that has an entry with the id of the material."
+    },
+    "range": { "type": "array", "minItems": 2, "maxItems": 2, "items": { "type": "number" } },
+    "material": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "family", "form", "senses", "sources"],
+      "properties": {
+        "id": { "$ref": "core.schema.json#/$defs/slug" },
+        "name": { "$ref": "core.schema.json#/$defs/shortText" },
+        "family": { "$ref": "core.schema.json#/$defs/slug" },
+        "form": { "$ref": "#/$defs/form" },
+        "senses": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/sense" }, "description": "The vocabulary lists that use this id. Empty for a material that only this layer has (a parent such as clay or iron)." },
+        "summary": { "$ref": "core.schema.json#/$defs/sentence" },
+        "is_a": { "$ref": "core.schema.json#/$defs/refList", "description": "Broader materials: banana is_a tropical-fruit." },
+        "part_of": { "$ref": "core.schema.json#/$defs/refList", "description": "The whole of which this material is a part: banana-leaf part_of banana-plant." },
+        "made_from": { "$ref": "core.schema.json#/$defs/refList", "description": "The raw materials of a product: linen-cloth made_from flax." },
+        "aliases": {
+          "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 2, "maxLength": 80 },
+          "description": "Lower-case free-text names. The build matches them to the material text of architecture, interior and painting styles."
+        },
+        "parts": { "type": "array", "uniqueItems": true, "items": { "$ref": "core.schema.json#/$defs/shortText" }, "description": "The named parts of the real object (peel, flesh, stalk)." },
+        "colour": { "type": "array", "minItems": 1, "maxItems": 4, "items": { "type": "string", "pattern": "^#[0-9A-F]{6}$" }, "description": "The natural colour of the material." },
+        "properties": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "hardness_mohs": { "$ref": "#/$defs/range" },
+            "density_kg_m3": { "$ref": "#/$defs/range" },
+            "melt_c": { "$ref": "#/$defs/range", "description": "The melting range in °C." },
+            "fire_c": { "$ref": "#/$defs/range", "description": "The firing range in °C, for a clay body or a glaze." },
+            "warmth": { "type": "number", "minimum": 0, "maximum": 1, "description": "The felt warmth to the hand: 0 cold metal, 1 wool." },
+            "edible": { "type": "boolean" }
+          }
+        },
+        "photo": { "type": "string", "minLength": 3, "maxLength": 200, "description": "The subject words for the studio photo, when the name alone is not clear to an image model." },
+        "note": { "$ref": "core.schema.json#/$defs/sentence" },
+        "identity": {
+          "type": "object", "additionalProperties": false,
+          "properties": { "wikidata": { "type": "string", "pattern": "^Q[0-9]+$" }, "aat": { "type": "string", "pattern": "^3[0-9]{8}$" } }
+        },
+        "sources": { "allOf": [{ "$ref": "core.schema.json#/$defs/sources" }, { "type": "array", "minItems": 1 }] }
+      }
+    }
+  }
+}

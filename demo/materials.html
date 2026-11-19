@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Materials and processes</title>
+<meta name="description" content="The material layer of the design ontology: each real material once, the processes that act on it, add it or make it, and the styles of each domain that use it.">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  :root {
+    /* Hive light tokens, as in techniques.html. One colour for each class of material. */
+    --paper: #fff; --ink: #1F1F45; --muted: #50527A; --line: #DEE3F2; --band: #EFF2FB; --accent: #264FCC; --accent-bg: #E8F2FF; --avoid: #B42318;
+    --c-plant: #3F7D3A; --c-animal: #A0522D; --c-fungus: #7A5C3E; --c-mineral: #6B7280; --c-metal: #2F6F8F; --c-ceramic-glass: #B4532A; --c-polymer: #6D28D9; --c-composite: #8A7314;
+  }
+  html, body { margin: 0; }
+  body { font: 15px/1.5 system-ui, sans-serif; background: var(--paper); color: var(--ink); }
+  main { max-width: 1400px; margin: 0 auto; padding: 24px 16px 64px; display: grid; gap: 16px; }
+  h1 { margin: 0; font-size: clamp(26px, 4vw, 40px); line-height: 1.1; letter-spacing: -.01em; }
+  .lede { margin: 6px 0 0; max-width: 75ch; color: var(--muted); }
+  .stats { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .controls { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; font-size: 13px; color: var(--muted); }
+  .controls input[type="search"] { font: inherit; font-size: 14px; color: var(--ink); padding: 4px 0; border: 0; border-bottom: 1px solid var(--line); background: transparent; min-width: 220px; }
+  .controls input[type="search"]:focus-visible { outline: none; border-bottom-color: var(--accent); }
+  .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; }
+  .seg button, .chips button { font: inherit; font-size: 13px; background: var(--paper); color: var(--ink); border: 0; padding: 4px 12px; cursor: pointer; }
+  .seg button[aria-pressed="true"] { background: var(--ink); color: #fff; }
+  .chips { display: flex; flex-wrap: wrap; gap: 4px; }
+  .chips button { border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px; display: inline-flex; gap: 6px; align-items: center; }
+  .chips button[aria-pressed="true"] { border-color: var(--ink); background: var(--band); }
+  .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; flex: none; }
+  .layout { display: grid; gap: 24px; grid-template-columns: 1fr; align-items: start; }
+  @media (min-width: 1000px) { .layout { grid-template-columns: minmax(0, 1fr) 460px; } .detail { position: sticky; top: 72px; max-height: calc(100vh - 88px); overflow: auto; } }
+  .group h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 16px 0 6px; font-weight: 650; display: flex; gap: 8px; align-items: center; }
+  .group h3 { font-size: 12px; color: var(--muted); margin: 10px 0 4px; font-weight: 600; }
+  .grid { display: grid; gap: 6px; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); }
+  .card { all: unset; box-sizing: border-box; cursor: pointer; display: grid; gap: 4px; padding: 4px; border-radius: 8px; border: 1px solid transparent; font-size: 12px; line-height: 1.25; }
+  .card:hover { background: var(--band); }
+  .card:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .card[aria-current="true"] { border-color: var(--ink); background: var(--band); }
+  .ph { aspect-ratio: 1; border-radius: 6px; background: #F7F7F9; overflow: hidden; display: grid; place-items: center; }
+  .ph img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .ph .sw { width: 40%; height: 40%; border-radius: 50%; }
+  .plist { display: grid; gap: 2px; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); }
+  .plist button { all: unset; cursor: pointer; padding: 3px 6px; border-radius: 6px; font-size: 13px; display: flex; justify-content: space-between; gap: 8px; }
+  .plist button:hover { background: var(--band); }
+  .plist button[aria-current="true"] { background: var(--accent-bg); }
+  .plist small { color: var(--muted); font-variant-numeric: tabular-nums; }
+  .detail { border-top: 1px solid var(--line); padding-top: 12px; }
+  @media (min-width: 1000px) { .detail { border-top: 0; border-left: 1px solid var(--line); padding: 0 0 0 20px; } }
+  .detail .hero { width: 100%; max-width: 360px; aspect-ratio: 1; border-radius: 10px; background: #F7F7F9; overflow: hidden; }
+  .detail .hero img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .detail h2 { margin: 12px 0 2px; font-size: 24px; line-height: 1.15; }
+  .meta { font-size: 12px; color: var(--muted); display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+  .detail p { margin: 8px 0; }
+  .detail h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 18px 0 6px; font-weight: 650; }
+  .detail h4 { font-size: 13px; margin: 10px 0 4px; font-weight: 600; }
+  .links { display: flex; flex-wrap: wrap; gap: 4px; }
+  .links a, .links span { font-size: 13px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--ink); text-decoration: none; display: inline-flex; gap: 5px; align-items: center; }
+  .links a:hover { border-color: var(--accent); color: var(--accent); }
+  .links .avoid { border-color: #F4C7C3; color: var(--avoid); }
+  .links small { color: var(--muted); }
+  .swatches { display: flex; gap: 4px; }
+  .swatches i { width: 22px; height: 22px; border-radius: 4px; border: 1px solid rgb(0 0 0 / .08); }
+  dl.props { display: grid; grid-template-columns: max-content 1fr; gap: 2px 12px; font-size: 13px; margin: 0; }
+  dl.props dt { color: var(--muted); }
+  dl.props dd { margin: 0; font-variant-numeric: tabular-nums; }
+  .gap { font-size: 13px; color: var(--muted); font-style: italic; margin: 4px 0; }
+  .src { font-size: 12px; color: var(--muted); }
+  .src a { color: var(--muted); }
+  .edge-row { display: grid; grid-template-columns: 72px 1fr; gap: 6px; align-items: start; margin: 4px 0; }
+  .edge-row > b { font-size: 12px; color: var(--muted); font-weight: 600; padding-top: 2px; }
+  .empty { color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<script src="nav.js"></script>
+<main>
+  <header>
+    <h1>Materials and processes</h1>
+    <p class="lede">Each real material is here once: a fruit, a fibre, a cloth, a metal, a clay body, a glaze. A process acts on a material, adds a second one or makes a new one. The styles of each domain link to a material through their own vocabulary, so one banana or one sheet of brass shows every domain that uses it.</p>
+    <p class="stats" id="stats"></p>
+  </header>
+  <div class="controls">
+    <span class="seg" role="group" aria-label="View">
+      <button type="button" data-mode="m" aria-pressed="true">Materials</button>
+      <button type="button" data-mode="p" aria-pressed="false">Processes</button>
+    </span>
+    <input type="search" id="q" placeholder="Find a material or a process" aria-label="Find a material or a process">
+    <div class="chips" id="filters"></div>
+  </div>
+  <div class="layout">
+    <section id="list" aria-label="List"></section>
+    <aside class="detail" id="detail" aria-live="polite"><p class="empty">Select a material or a process.</p></aside>
+  </div>
+</main>
+<script>
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+const GROUPS = { technique: "Techniques", "cuisine.methods": "Cuisine methods", "ceramics.decorations": "Ceramics decorations", "fashion.finishes": "Fashion finishes", "industrial.finishes": "Industrial finishes" };
+const USE = { primary: "primary", secondary: "secondary", avoid: "avoid", named: "named" };
+const DOMAIN_PAGE = (d) => `${d}.html`;
+let G, M, P, T, mode = "m", filter = null;
+
+fetch("../graph/materials.json").then((r) => r.json()).then((g) => {
+  G = g;
+  M = new Map(g.materials.map((m) => [m.id, m]));
+  P = new Map(g.processes.map((p) => [p.process, p]));
+  T = new Map(g.tools.map((t) => [t.id, t]));
+  // Reverse indexes: processes by material and role, styles by material and process, kinds, parts and products.
+  g.byMat = new Map(); g.kinds = new Map(); g.partsOf = new Map(); g.products = new Map(); g.styleMat = new Map(); g.styleProc = new Map();
+  const push = (map, k, v) => (map.get(k) ?? map.set(k, []).get(k)).push(v);
+  for (const p of g.processes) for (const role of ["acts_on", "adds", "makes"]) for (const id of p[role] ?? []) push(g.byMat, id, { p, role });
+  for (const m of g.materials) { for (const x of m.is_a ?? []) push(g.kinds, x, m.id); for (const x of m.part_of ?? []) push(g.partsOf, x, m.id); for (const x of m.made_from ?? []) push(g.products, x, m.id); }
+  for (const l of g.style_materials) push(g.styleMat, l.material, l);
+  for (const u of g.style_processes) push(g.styleProc, u.process, u.style);
+  const linked = new Set(g.style_materials.map((l) => l.material));
+  $("#stats").textContent = `${g.materials.length} materials in ${g.classes.length} classes · ${g.processes.length} processes · ${g.tools.length} tools · ${g.style_materials.length} links from styles · ${linked.size} materials named by a style · ${g.materials.filter((m) => m.photo).length} photos`;
+  renderFilters(); renderList(); route();
+});
+
+function renderFilters() {
+  const items = mode === "m" ? G.classes.map((c) => [c.id, c.name, `var(--c-${c.id})`]) : Object.entries(GROUPS).map(([k, v]) => [k, v, null]);
+  $("#filters").innerHTML = items.map(([id, name, col]) => `<button type="button" data-f="${id}" aria-pressed="${filter === id}">${col ? `<span class="dot" style="background:${col}"></span>` : ""}${esc(name)}</button>`).join("");
+}
+function thumb(m, cls = "ph") {
+  const c = m.colour?.[0];
+  return `<div class="${cls}">${m.photo ? `<img loading="lazy" src="${m.photo}" alt="" onerror="this.remove()">` : `<span class="sw" style="background:${c ?? `var(--c-${m.class})`};opacity:${c ? 1 : .25}"></span>`}</div>`;
+}
+const match = (q, ...xs) => !q || xs.some((x) => String(x ?? "").toLowerCase().includes(q));
+function renderList() {
+  const q = $("#q").value.trim().toLowerCase();
+  const cur = location.hash.slice(1);
+  if (mode === "m") {
+    $("#list").innerHTML = G.classes.filter((c) => !filter || c.id === filter).map((c) => {
+      const fams = c.families.map((f) => {
+        const ms = G.materials.filter((m) => m.class === c.id && m.family === f.id && match(q, m.name, m.id, ...(m.aliases ?? [])));
+        return ms.length ? `<h3>${esc(f.name)}</h3><div class="grid">${ms.map((m) => `<button class="card" data-m="${m.id}" aria-current="${cur === "m=" + m.id}">${thumb(m)}<span>${esc(m.name)}</span></button>`).join("")}</div>` : "";
+      }).join("");
+      return fams ? `<div class="group"><h2><span class="dot" style="background:var(--c-${c.id})"></span>${esc(c.name)}</h2>${fams}</div>` : "";
+    }).join("") || `<p class="empty">No material matches.</p>`;
+  } else {
+    $("#list").innerHTML = Object.entries(GROUPS).filter(([g]) => !filter || g === filter).map(([g, name]) => {
+      const ps = G.processes.filter((p) => p.process.startsWith(g + ":") && match(q, p.name, p.process)).sort((a, b) => a.name.localeCompare(b.name));
+      return ps.length ? `<div class="group"><h2>${esc(name)}</h2><div class="plist">${ps.map((p) => `<button data-p="${p.process}" aria-current="${cur === "p=" + p.process}"><span>${esc(p.name)}</span><small>${(G.styleProc.get(p.process) ?? []).length || ""}</small></button>`).join("")}</div></div>` : "";
+    }).join("") || `<p class="empty">No process matches.</p>`;
+  }
+}
+const mlink = (id, extra = "") => { const m = M.get(id); return m ? `<a href="#m=${id}">${esc(m.name)}${extra}</a>` : `<span>${esc(id)}</span>`; };
+const plink = (p) => `<a href="#p=${p.process}">${esc(p.name)} <small>${esc(GROUPS[p.process.split(":")[0]].replace(/s$/, "").toLowerCase())}</small></a>`;
+const slink = (id, extra = "", cls = "") => { const s = G.styles[id]; return s ? `<a class="${cls}" href="${DOMAIN_PAGE(s.domain)}#${id}">${esc(s.name)}${extra}</a>` : ""; };
+function stylesBlock(links) {
+  const byDomain = new Map();
+  for (const l of links) (byDomain.get(G.styles[l.style]?.domain) ?? byDomain.set(G.styles[l.style]?.domain, []).get(G.styles[l.style]?.domain)).push(l);
+  return [...byDomain].sort().map(([d, ls]) => `<h4>${esc(d)}</h4><div class="links">${ls.map((l) => slink(l.style, l.use === "primary" ? "" : ` <small>${USE[l.use]}</small>`, l.use === "avoid" ? "avoid" : "")).join("")}</div>`).join("");
+}
+function ancestors(id, key) { const out = []; const walk = (x) => { for (const y of M.get(x)?.[key] ?? []) if (!out.includes(y)) { out.push(y); walk(y); } }; walk(id); return out; }
+function showMaterial(id) {
+  const m = M.get(id); if (!m) return;
+  const cls = G.classes.find((c) => c.id === m.class);
+  const fam = cls.families.find((f) => f.id === m.family);
+  const rel = (label, ids) => ids?.length ? `<div class="edge-row"><b>${label}</b><div class="links">${ids.map((x) => mlink(x)).join("")}</div></div>` : "";
+  const procs = G.byMat.get(id) ?? [];
+  const procRow = (role, label) => { const ps = procs.filter((x) => x.role === role); return ps.length ? `<div class="edge-row"><b>${label}</b><div class="links">${ps.map((x) => plink(x.p)).join("")}</div></div>` : ""; };
+  const own = G.styleMat.get(id) ?? [];
+  const up = [...ancestors(id, "is_a"), ...ancestors(id, "part_of")];
+  const viaUp = up.flatMap((x) => (G.styleMat.get(x) ?? []).map((l) => ({ ...l, through: x })));
+  const down = []; const walk = (x) => { for (const k of [...(G.kinds.get(x) ?? []), ...(G.partsOf.get(x) ?? [])]) if (!down.includes(k)) { down.push(k); walk(k); } }; walk(id);
+  const viaDown = down.flatMap((x) => (G.styleMat.get(x) ?? []).map((l) => ({ ...l, through: x })));
+  const viaProc = [...new Set(procs.flatMap((x) => G.styleProc.get(x.p.process) ?? []))].filter((s) => !own.some((l) => l.style === s));
+  const pr = m.properties ?? {};
+  const range = (r, u) => r && `${r[0] === r[1] ? r[0] : `${r[0]}–${r[1]}`}${u}`;
+  const props = [["Firing", range(pr.fire_c, " °C")], ["Melts at", range(pr.melt_c, " °C")], ["Hardness", range(pr.hardness_mohs, " Mohs")], ["Density", range(pr.density_kg_m3, " kg/m³")], ["Warmth", pr.warmth != null ? pr.warmth.toFixed(2) : null], ["Edible", pr.edible ? "yes" : null]].filter((x) => x[1]);
+  $("#detail").innerHTML = `
+    <div class="hero">${m.photo ? `<img src="${m.photo}" alt="${esc(m.name)}, studio photograph on white" onerror="this.remove()">` : thumb(m, "ph")}</div>
+    <h2>${esc(m.name)}</h2>
+    <div class="meta"><span class="dot" style="background:var(--c-${m.class})"></span>${esc(cls.name)} · ${esc(fam.name)} · ${esc(m.form)}${m.senses.length ? ` · in ${m.senses.map(esc).join(", ")}` : ""}</div>
+    ${m.summary ? `<p>${esc(m.summary)}</p>` : ""}
+    ${m.colour ? `<div class="swatches">${m.colour.map((c) => `<i style="background:${c}" title="${c}"></i>`).join("")}</div>` : ""}
+    ${props.length ? `<h3>Properties</h3><dl class="props">${props.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>` : ""}
+    ${m.parts?.length ? `<p class="meta">Parts: ${m.parts.map(esc).join(", ")}</p>` : ""}
+    <h3>Related materials</h3>
+    ${rel("Kind of", m.is_a)}${rel("Part of", m.part_of)}${rel("Made from", m.made_from)}${rel("Kinds", G.kinds.get(id))}${rel("Parts", G.partsOf.get(id))}${rel("Made into", G.products.get(id))}
+    ${!(m.is_a?.length || m.part_of?.length || m.made_from?.length || G.kinds.has(id) || G.partsOf.has(id) || G.products.has(id)) ? `<p class="gap">No related material yet.</p>` : ""}
+    <h3>Processes</h3>
+    ${procRow("acts_on", "Acts on it")}${procRow("adds", "Adds it")}${procRow("makes", "Makes it")}
+    ${procs.length ? "" : `<p class="gap">No process names this material yet.</p>`}
+    <h3>Styles that name it</h3>
+    ${own.length ? stylesBlock(own) : `<p class="gap">No style names this material yet.</p>`}
+    ${viaUp.length ? `<h3>Through a broader material</h3>${[...new Set(viaUp.map((l) => l.through))].map((t) => `<h4>${mlink(t)}</h4>${stylesBlock(viaUp.filter((l) => l.through === t))}`).join("")}` : ""}
+    ${viaDown.length ? `<h3>Through a narrower kind or a part</h3><div class="links">${[...new Set(viaDown.map((l) => l.style))].map((s) => slink(s)).join("")}</div>` : ""}
+    ${viaProc.length ? `<h3>Through a process</h3><div class="links">${viaProc.map((s) => slink(s)).join("")}</div>` : ""}
+    <h3>Sources</h3>
+    <p class="src">${m.sources.map((s) => (s.url ? `<a href="${esc(s.url)}" rel="noopener" target="_blank">${esc(s.title)}</a>` : esc(s.title))).join(" · ")}${m.identity?.wikidata ? ` · <a href="https://www.wikidata.org/wiki/${m.identity.wikidata}" rel="noopener" target="_blank">${m.identity.wikidata}</a>` : ""}</p>`;
+}
+function showProcess(key) {
+  const p = P.get(key); if (!p) return;
+  const row = (label, ids) => ids?.length ? `<div class="edge-row"><b>${label}</b><div class="grid">${ids.map((id) => { const m = M.get(id); return m ? `<a class="card" href="#m=${id}">${thumb(m)}<span>${esc(m.name)}</span></a>` : ""; }).join("")}</div></div>` : "";
+  const styles = G.styleProc.get(key) ?? [];
+  const [group, id] = key.split(":");
+  const tools = (p.with ?? []).map((t) => T.get(t)).filter(Boolean);
+  $("#detail").innerHTML = `
+    <h2>${esc(p.name)}</h2>
+    <div class="meta">${esc(GROUPS[group])}${group === "technique" ? ` · <a href="techniques.html#${id}">on the time line</a>` : ""}</div>
+    ${p.note ? `<p>${esc(p.note)}</p>` : ""}
+    ${row("Acts on", p.acts_on)}${row("Adds", p.adds)}${row("Makes", p.makes)}
+    ${tools.length ? `<h3>Tools</h3>${tools.map((t) => `<p><b>${esc(t.name)}</b>: ${esc(t.summary)}</p>`).join("")}` : ""}
+    <h3>Styles that use it</h3>
+    ${styles.length ? `<div class="links">${[...new Set(styles)].map((s) => slink(s)).join("")}</div>` : `<p class="gap">No style names this process yet.</p>`}
+    <h3>Sources</h3>
+    <p class="src">${p.sources.map((s) => (s.url ? `<a href="${esc(s.url)}" rel="noopener" target="_blank">${esc(s.title)}</a>` : esc(s.title))).join(" · ")}</p>`;
+}
+function route() {
+  const h = decodeURIComponent(location.hash.slice(1));
+  if (h.startsWith("m=")) { if (mode !== "m") setMode("m"); showMaterial(h.slice(2)); }
+  else if (h.startsWith("p=")) { if (mode !== "p") setMode("p"); showProcess(h.slice(2)); }
+  for (const b of document.querySelectorAll("#list [aria-current]")) b.setAttribute("aria-current", String(h === (b.dataset.m ? "m=" + b.dataset.m : "p=" + b.dataset.p)));
+  if (window.innerWidth < 1000 && h) $("#detail").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+function setMode(m) {
+  mode = m; filter = null;
+  for (const b of document.querySelectorAll(".seg button")) b.setAttribute("aria-pressed", String(b.dataset.mode === m));
+  renderFilters(); renderList();
+}
+document.addEventListener("click", (e) => {
+  const b = e.target.closest("button"); if (!b) return;
+  if (b.dataset.mode) setMode(b.dataset.mode);
+  else if (b.dataset.f) { filter = filter === b.dataset.f ? null : b.dataset.f; renderFilters(); renderList(); }
+  else if (b.dataset.m) location.hash = "m=" + b.dataset.m;
+  else if (b.dataset.p) location.hash = "p=" + b.dataset.p;
+});
+$("#q").addEventListener("input", renderList);
+addEventListener("hashchange", route);
+</script>
+</body>
+</html>

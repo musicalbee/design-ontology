@@ -1,0 +1,593 @@
+{
+  "$schema": "../../../schema/material-edges.schema.json",
+  "group": "ceramics.decorations",
+  "summary": "The edges of the decorations in the ceramics vocabulary: the body or glaze that each decoration marks, and the pigment, slip or metal that it adds.",
+  "edges": [
+    {
+      "process": "ceramics.decorations:cord-impressed",
+      "acts_on": [
+        "earthenware"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Jōmon pottery",
+          "url": "https://en.wikipedia.org/wiki/J%C5%8Dmon_pottery"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:incised",
+      "acts_on": [
+        "stoneware",
+        "earthenware"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Sgraffito",
+          "url": "https://en.wikipedia.org/wiki/Sgraffito"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:black-figure",
+      "acts_on": [
+        "terracotta"
+      ],
+      "adds": [
+        "attic-gloss"
+      ],
+      "with": [
+        "kiln"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Black-figure pottery",
+          "url": "https://en.wikipedia.org/wiki/Black-figure_pottery"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:red-figure",
+      "acts_on": [
+        "terracotta"
+      ],
+      "adds": [
+        "attic-gloss"
+      ],
+      "with": [
+        "kiln"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Red-figure pottery",
+          "url": "https://en.wikipedia.org/wiki/Red-figure_pottery"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:lustre",
+      "acts_on": [
+        "tin-glaze"
+      ],
+      "adds": [
+        "silver",
+        "copper"
+      ],
+      "with": [
+        "kiln"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Lustre",
+          "url": "https://en.wikipedia.org/wiki/Lustre"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:sgraffito",
+      "acts_on": [
+        "earthenware"
+      ],
+      "adds": [
+        "clay"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Sgraffito",
+          "url": "https://en.wikipedia.org/wiki/Sgraffito"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:iron-painting",
+      "acts_on": [
+        "stoneware"
+      ],
+      "adds": [
+        "iron-oxide"
+      ],
+      "with": [
+        "brush"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Cizhou ware",
+          "url": "https://en.wikipedia.org/wiki/Cizhou_ware"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:slip-inlay",
+      "acts_on": [
+        "stoneware"
+      ],
+      "adds": [
+        "clay"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Buncheong",
+          "url": "https://en.wikipedia.org/wiki/Buncheong"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:encaustic-inlay",
+      "acts_on": [
+        "ceramic-tile"
+      ],
+      "adds": [
+        "clay"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Encaustic tile",
+          "url": "https://en.wikipedia.org/wiki/Encaustic_tile"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:tile-mosaic",
+      "acts_on": [
+        "ceramic-tile"
+      ],
+      "makes": [
+        "mosaic"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Zellij",
+          "url": "https://en.wikipedia.org/wiki/Zellij"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:underglaze-cobalt",
+      "acts_on": [
+        "porcelain"
+      ],
+      "adds": [
+        "cobalt-oxide"
+      ],
+      "with": [
+        "brush"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Blue and white pottery",
+          "url": "https://en.wikipedia.org/wiki/Blue_and_white_pottery"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:cuerda-seca",
+      "acts_on": [
+        "ceramic-tile"
+      ],
+      "adds": [
+        "beeswax"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Cuerda seca",
+          "url": "https://en.wikipedia.org/wiki/Cuerda_seca"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:overglaze-enamel",
+      "acts_on": [
+        "porcelain"
+      ],
+      "adds": [
+        "glass"
+      ],
+      "with": [
+        "kiln"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Overglaze decoration",
+          "url": "https://en.wikipedia.org/wiki/Overglaze_decoration"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:istoriato",
+      "acts_on": [
+        "majolica-glaze"
+      ],
+      "adds": [
+        "cobalt-oxide",
+        "copper-oxide"
+      ],
+      "with": [
+        "brush"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Istoriato",
+          "url": "https://en.wikipedia.org/wiki/Istoriato"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:underglaze-polychrome",
+      "acts_on": [
+        "porcelain"
+      ],
+      "adds": [
+        "cobalt-oxide",
+        "copper-oxide"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Underglaze",
+          "url": "https://en.wikipedia.org/wiki/Underglaze"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:kintsugi",
+      "acts_on": [
+        "porcelain",
+        "stoneware"
+      ],
+      "adds": [
+        "lacquer",
+        "gold"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Kintsugi",
+          "url": "https://en.wikipedia.org/wiki/Kintsugi"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:slip-trailing",
+      "acts_on": [
+        "earthenware"
+      ],
+      "adds": [
+        "clay"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Slipware",
+          "url": "https://en.wikipedia.org/wiki/Slipware"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:famille-rose",
+      "acts_on": [
+        "porcelain"
+      ],
+      "adds": [
+        "gold"
+      ],
+      "with": [
+        "kiln"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Famille rose",
+          "url": "https://en.wikipedia.org/wiki/Famille_rose"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:agateware",
+      "acts_on": [
+        "earthenware",
+        "stoneware"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Agateware",
+          "url": "https://en.wikipedia.org/wiki/Agateware"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:transfer-print",
+      "acts_on": [
+        "creamware",
+        "pearlware"
+      ],
+      "adds": [
+        "cobalt-oxide"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Transfer printing",
+          "url": "https://en.wikipedia.org/wiki/Transfer_printing"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:mocha-dendritic",
+      "acts_on": [
+        "pearlware"
+      ],
+      "adds": [
+        "iron-oxide"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Mocha decorated pottery",
+          "url": "https://en.wikipedia.org/wiki/Mocha_decorated_pottery"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:sprigging",
+      "acts_on": [
+        "jasperware"
+      ],
+      "adds": [
+        "clay"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Sprigging",
+          "url": "https://en.wikipedia.org/wiki/Sprigging"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:relief-moulding",
+      "acts_on": [
+        "earthenware"
+      ],
+      "with": [
+        "plaster-mould"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Jasperware",
+          "url": "https://en.wikipedia.org/wiki/Jasperware"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:pierced",
+      "acts_on": [
+        "creamware",
+        "porcelain"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Openwork",
+          "url": "https://en.wikipedia.org/wiki/Openwork"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:gilding",
+      "acts_on": [
+        "porcelain"
+      ],
+      "adds": [
+        "gold"
+      ],
+      "with": [
+        "kiln"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Gilding",
+          "url": "https://en.wikipedia.org/wiki/Gilding"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:liquid-gold",
+      "acts_on": [
+        "porcelain"
+      ],
+      "adds": [
+        "gold"
+      ],
+      "with": [
+        "kiln"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Liquid Gold",
+          "url": "https://en.wikipedia.org/wiki/Liquid_Gold"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:sponge-print",
+      "acts_on": [
+        "earthenware"
+      ],
+      "adds": [
+        "cobalt-oxide"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Creamware",
+          "url": "https://en.wikipedia.org/wiki/Creamware"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:pate-sur-pate",
+      "acts_on": [
+        "porcelain",
+        "parian"
+      ],
+      "adds": [
+        "clay"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Pâte-sur-pâte",
+          "url": "https://en.wikipedia.org/wiki/P%C3%A2te-sur-p%C3%A2te"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:hand-banding",
+      "acts_on": [
+        "earthenware"
+      ],
+      "with": [
+        "potters-wheel"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Pottery",
+          "url": "https://en.wikipedia.org/wiki/Pottery"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:decal",
+      "acts_on": [
+        "porcelain",
+        "vitreous-china"
+      ],
+      "with": [
+        "kiln"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Decal",
+          "url": "https://en.wikipedia.org/wiki/Decal"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:screen-print",
+      "acts_on": [
+        "ceramic-tile"
+      ],
+      "adds": [
+        "ink"
+      ],
+      "with": [
+        "silkscreen"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Screen printing",
+          "url": "https://en.wikipedia.org/wiki/Screen_printing"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:digital-inkjet",
+      "acts_on": [
+        "ceramic-tile",
+        "porcelain-stoneware"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Inkjet printing",
+          "url": "https://en.wikipedia.org/wiki/Inkjet_printing"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:wax-resist",
+      "acts_on": [
+        "stoneware"
+      ],
+      "adds": [
+        "beeswax"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Batik",
+          "url": "https://en.wikipedia.org/wiki/Batik"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:cold-painted-pigment",
+      "acts_on": [
+        "earthenware"
+      ],
+      "adds": [
+        "oil-paint"
+      ],
+      "with": [
+        "brush"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Pottery of ancient Greece",
+          "url": "https://en.wikipedia.org/wiki/Pottery_of_ancient_Greece"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:layer-lines",
+      "acts_on": [
+        "clay"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: 3D printing",
+          "url": "https://en.wikipedia.org/wiki/3D_printing"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:brushed-slip",
+      "acts_on": [
+        "stoneware"
+      ],
+      "adds": [
+        "clay"
+      ],
+      "with": [
+        "brush"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Buncheong",
+          "url": "https://en.wikipedia.org/wiki/Buncheong"
+        }
+      ]
+    },
+    {
+      "process": "ceramics.decorations:stamped",
+      "acts_on": [
+        "earthenware",
+        "stoneware"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Pottery",
+          "url": "https://en.wikipedia.org/wiki/Pottery"
+        }
+      ]
+    }
+  ]
+}

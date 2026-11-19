@@ -1898,6 +1898,28 @@ Used by: [`victorian-encaustic-tiles`](./victorian-encaustic-tiles/SKILL.md), [`
 
 Sources: [Wikipedia: Tile](https://en.wikipedia.org/wiki/Tile); [Wikipedia: Minton tiles](https://en.wikipedia.org/wiki/Minton_%26_Co.).
 
+### Electroplating
+
+An electric current puts a thin layer of one metal on a part of another metal. Silver, gold, nickel and chromium plate give a cheap base metal a precious or hard surface.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Industrial design | 1840 | — | Birmingham, United Kingdom: George and Henry Elkington patent cyanide silver plating; Luigi Brugnatelli gilded silver by electrolysis in 1805. | |
+| 1 | Industrial design | 1840 | +0 years | Elkington silver plate replaces Sheffield plate on factory-made tableware. | [`victorian-manufacture`](./victorian-manufacture/SKILL.md) |
+| 2 | Fashion | c. 1924 | +84 years | Gilt and chrome plate give cast base-metal jewels the look of gold and platinum. | [`costume-jewellery`](./costume-jewellery/SKILL.md) |
+| 3 | Fashion | c. 1925 | +85 years | Nickel and chrome plate cover the lamps, the radiator and the bumpers of the car. | [`vintage-coachbuilt-car`](./vintage-coachbuilt-car/SKILL.md) |
+| 4 | Industrial design | 1925 | +85 years | Nickel-plated brass and chrome-plated steel become the metal of the modern lamp and chair. | [`art-deco-product`](./art-deco-product/SKILL.md), [`bauhaus-product`](./bauhaus-product/SKILL.md) |
+| 5 | Industrial design | c. 1950 | +110 years | Silver plate and chrome stay on Nordic tableware and lamps next to stainless steel. | [`scandinavian-modern-product`](./scandinavian-modern-product/SKILL.md) |
+
+Used by: [`victorian-manufacture`](./victorian-manufacture/SKILL.md), [`costume-jewellery`](./costume-jewellery/SKILL.md), [`vintage-coachbuilt-car`](./vintage-coachbuilt-car/SKILL.md), [`art-deco-product`](./art-deco-product/SKILL.md), [`bauhaus-product`](./bauhaus-product/SKILL.md), [`scandinavian-modern-product`](./scandinavian-modern-product/SKILL.md).
+
+- Clean and degrease the base part, then put it in a bath of a salt of the coating metal.
+- Connect the part to the negative pole and a bar of the coating metal to the positive pole.
+- Pass a direct current until the layer is 0.5 to 25 µm thick.
+- Put a copper or nickel under-layer on steel and zinc before a bright top layer.
+
+Sources: [Wikipedia: Electroplating](https://en.wikipedia.org/wiki/Electroplating); [Wikipedia: Elkington & Co.](https://en.wikipedia.org/wiki/Elkington_%26_Co.).
+
 ### Etching
 
 An intaglio print from a metal plate whose lines a needle draws through an acid-resistant ground and an acid then bites.
@@ -3608,6 +3630,29 @@ Used by: [`country-sporting-tweed`](./country-sporting-tweed/SKILL.md), [`nordic
 - Let the cloth cure, and renew the wax when water no longer beads on the face.
 
 Sources: [Wikipedia: Waxed cotton](https://en.wikipedia.org/wiki/Waxed_cotton); [Wikipedia: Oilskin](https://en.wikipedia.org/wiki/Oilskin).
+
+### Welding
+
+Two parts of metal or thermoplastic are joined: heat melts the edges, and the melt sets into one piece. The seam can show, or be ground away.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Industrial design | 1881 | — | Paris, France: Auguste de Méritens joins lead plates with a carbon arc; oxy-acetylene gas welding follows in 1903. | |
+| 1 | Fashion | c. 1935 | +54 years | Car bodies change from wood frames to all-steel welded shells and roofs. | [`streamline-car`](./streamline-car/SKILL.md) |
+| 2 | Industrial design | c. 1945 | +64 years | Welded steel rod makes light bases and frames for chairs and tables. | [`mid-century-modern-product`](./mid-century-modern-product/SKILL.md), [`industrial-utility-product`](./industrial-utility-product/SKILL.md) |
+| 3 | Fashion | 1964 | +83 years | High-frequency welding joins the seams of PVC and vinyl clothes. | [`mod-and-mini`](./mod-and-mini/SKILL.md), [`space-age-couture`](./space-age-couture/SKILL.md) |
+| 4 | Fashion | c. 1965 | +84 years | Jewellers leave the weld and the hammer mark in view on silver and gold. | [`brutalist-jewellery`](./brutalist-jewellery/SKILL.md) |
+| 5 | Interior | c. 1975 | +94 years | Loft furniture shows its welds and bolts as a sign of the factory. | [`industrial-loft-interior`](./industrial-loft-interior/SKILL.md) |
+| 6 | Fashion | 1983 | +102 years | Ultrasonic welding seals the quartz module into the plastic watch case. | [`swiss-plastic-pop-watch`](./swiss-plastic-pop-watch/SKILL.md) |
+
+Used by: [`streamline-car`](./streamline-car/SKILL.md), [`mid-century-modern-product`](./mid-century-modern-product/SKILL.md), [`industrial-utility-product`](./industrial-utility-product/SKILL.md), [`mod-and-mini`](./mod-and-mini/SKILL.md), [`space-age-couture`](./space-age-couture/SKILL.md), [`brutalist-jewellery`](./brutalist-jewellery/SKILL.md), [`industrial-loft-interior`](./industrial-loft-interior/SKILL.md), [`swiss-plastic-pop-watch`](./swiss-plastic-pop-watch/SKILL.md).
+
+- Clean the joint to bare metal and fit the parts with a gap of 0 to 3 mm.
+- Melt the edges with an electric arc or a gas flame, and add filler rod of the same metal.
+- Keep the bead even, with a width of 1 to 2 times the thickness of the sheet.
+- Grind the bead flush for a hidden joint, or leave the bead raw for a visible joint.
+
+Sources: [Wikipedia: Welding](https://en.wikipedia.org/wiki/Welding); [Wikipedia: Plastic welding](https://en.wikipedia.org/wiki/Plastic_welding).
 
 ### Wire work
 

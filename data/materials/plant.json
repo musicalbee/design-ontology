@@ -1,0 +1,3319 @@
+{
+  "$schema": "../../schema/material.schema.json",
+  "class": "plant",
+  "name": "Plant",
+  "summary": "Materials that come from plants: fruit, grain, wood, bast and leaf fibres, resins, and the cloth and paper made from them.",
+  "families": [
+    {
+      "id": "plant-fibre",
+      "name": "Plant fibre"
+    },
+    {
+      "id": "bark",
+      "name": "Bark"
+    },
+    {
+      "id": "wood",
+      "name": "Wood"
+    },
+    {
+      "id": "woven-plain",
+      "name": "Woven, plain weave"
+    },
+    {
+      "id": "woven-basket",
+      "name": "Woven, basket weave"
+    },
+    {
+      "id": "woven-twill",
+      "name": "Woven, twill"
+    },
+    {
+      "id": "woven-pile",
+      "name": "Woven, pile"
+    },
+    {
+      "id": "lace",
+      "name": "Lace"
+    },
+    {
+      "id": "coated",
+      "name": "Coated"
+    },
+    {
+      "id": "laminate",
+      "name": "Laminate"
+    },
+    {
+      "id": "latex",
+      "name": "Latex"
+    },
+    {
+      "id": "engineered-wood",
+      "name": "Engineered wood"
+    },
+    {
+      "id": "grass",
+      "name": "Grass"
+    },
+    {
+      "id": "paper",
+      "name": "Paper"
+    },
+    {
+      "id": "grain",
+      "name": "Grain"
+    },
+    {
+      "id": "vegetable",
+      "name": "Vegetable"
+    },
+    {
+      "id": "spice",
+      "name": "Spice"
+    },
+    {
+      "id": "herb",
+      "name": "Herb"
+    },
+    {
+      "id": "algae",
+      "name": "Algae"
+    },
+    {
+      "id": "fruit",
+      "name": "Fruit"
+    },
+    {
+      "id": "sugar",
+      "name": "Sugar"
+    },
+    {
+      "id": "fat-oil",
+      "name": "Fat and oil"
+    },
+    {
+      "id": "ferment",
+      "name": "Ferment"
+    },
+    {
+      "id": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "legume",
+      "name": "Legume"
+    },
+    {
+      "id": "nut-seed",
+      "name": "Nut and seed"
+    },
+    {
+      "id": "additive",
+      "name": "Additive"
+    },
+    {
+      "id": "pulp",
+      "name": "Pulp"
+    },
+    {
+      "id": "resin",
+      "name": "Resin"
+    },
+    {
+      "id": "oil",
+      "name": "Oil"
+    },
+    {
+      "id": "plant",
+      "name": "Plant"
+    },
+    {
+      "id": "leaf",
+      "name": "Leaf"
+    },
+    {
+      "id": "fuel",
+      "name": "Fuel"
+    },
+    {
+      "id": "dye",
+      "name": "Dye"
+    }
+  ],
+  "materials": [
+    {
+      "id": "agar",
+      "name": "Agar",
+      "family": "additive",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "A seaweed gel that sets firm and stays firm when warm; it allows a hot jelly.",
+      "made_from": [
+        "seaweed"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "agar",
+      "identity": {
+        "wikidata": "Q177998"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Agar",
+          "url": "https://en.wikipedia.org/wiki/Agar"
+        }
+      ]
+    },
+    {
+      "id": "sodium-alginate",
+      "name": "Sodium alginate",
+      "family": "additive",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "A salt from brown seaweed that sets in contact with calcium: the gel skin of spherification.",
+      "made_from": [
+        "seaweed"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "sodium alginate",
+      "identity": {
+        "wikidata": "Q1187513"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Sodium alginate",
+          "url": "https://en.wikipedia.org/wiki/Sodium_alginate"
+        }
+      ]
+    },
+    {
+      "id": "soy-lecithin",
+      "name": "Lecithin",
+      "family": "additive",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "An emulsifier from egg yolk or soy; it holds the light airs of the modernist kitchen.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "lecithin",
+      "identity": {
+        "wikidata": "Q241595"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Lecithin",
+          "url": "https://en.wikipedia.org/wiki/Lecithin"
+        }
+      ]
+    },
+    {
+      "id": "kombu",
+      "name": "Kombu",
+      "family": "algae",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Kelp dried in the sun; with katsuobushi it makes dashi, the base stock of Japan. Rich in glutamate.",
+      "made_from": [
+        "seaweed"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "kombu",
+      "identity": {
+        "wikidata": "Q11261547"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Kombu",
+          "url": "https://en.wikipedia.org/wiki/Kombu"
+        }
+      ]
+    },
+    {
+      "id": "seaweed",
+      "name": "Seaweed",
+      "family": "algae",
+      "form": "raw",
+      "senses": [],
+      "aliases": [
+        "seaweed"
+      ],
+      "photo": "seaweed",
+      "identity": {
+        "wikidata": "Q237169"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Seaweed",
+          "url": "https://en.wikipedia.org/wiki/Seaweed"
+        }
+      ]
+    },
+    {
+      "id": "cork",
+      "name": "Cork",
+      "family": "bark",
+      "form": "sheet",
+      "senses": [
+        "ceramics.materials",
+        "industrial.materials"
+      ],
+      "summary": "A bark used for the stoppers and lids of storage jars.",
+      "properties": {
+        "warmth": 0.85
+      },
+      "photo": "a square sample sheet of cork",
+      "identity": {
+        "wikidata": "Q49444"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Cork (material)",
+          "url": "https://en.wikipedia.org/wiki/Cork_(material)"
+        }
+      ]
+    },
+    {
+      "id": "oilskin",
+      "name": "Oilskin",
+      "family": "coated",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "Cloth soaked in linseed oil for sailors and fishermen; Helly Hansen sold oiled linen in Norway from 1877.",
+      "made_from": [
+        "flax",
+        "cotton"
+      ],
+      "photo": "a folded swatch of oilskin",
+      "identity": {
+        "wikidata": "Q297424"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Oilskin",
+          "url": "https://en.wikipedia.org/wiki/Oilskin"
+        }
+      ]
+    },
+    {
+      "id": "waxed-cotton",
+      "name": "Waxed cotton",
+      "family": "coated",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A dense cotton with a paraffin-wax finish that replaced linseed oil; it does not go stiff in the cold. The cloth of the country jacket.",
+      "made_from": [
+        "cotton"
+      ],
+      "photo": "a folded swatch of waxed cotton",
+      "identity": {
+        "wikidata": "Q7975708"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Waxed cotton",
+          "url": "https://en.wikipedia.org/wiki/Waxed_cotton"
+        }
+      ]
+    },
+    {
+      "id": "wine",
+      "name": "Wine",
+      "family": "drink",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "For deglazing, braising and sauce reduction.",
+      "made_from": [
+        "grape"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "wine",
+      "identity": {
+        "wikidata": "Q282"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Wine",
+          "url": "https://en.wikipedia.org/wiki/Wine"
+        }
+      ]
+    },
+    {
+      "id": "indigo",
+      "name": "Indigo dye",
+      "family": "dye",
+      "form": "powder",
+      "senses": [],
+      "aliases": [
+        "indigo"
+      ],
+      "photo": "a small heap of indigo dye powder",
+      "identity": {
+        "wikidata": "Q422662"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Indigo dye",
+          "url": "https://en.wikipedia.org/wiki/Indigo_dye"
+        }
+      ]
+    },
+    {
+      "id": "birch-plywood",
+      "name": "Birch plywood",
+      "family": "engineered-wood",
+      "form": "board",
+      "senses": [
+        "industrial.materials"
+      ],
+      "made_from": [
+        "birch"
+      ],
+      "properties": {
+        "warmth": 0.75
+      },
+      "photo": "a square sample board of birch plywood",
+      "identity": {
+        "wikidata": "Q219803"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Plywood",
+          "url": "https://en.wikipedia.org/wiki/Plywood"
+        }
+      ]
+    },
+    {
+      "id": "glulam",
+      "name": "Glued laminated timber",
+      "family": "engineered-wood",
+      "form": "board",
+      "senses": [],
+      "made_from": [
+        "timber"
+      ],
+      "aliases": [
+        "glulam",
+        "laminated timber",
+        "cross-laminated timber",
+        "laminated veneer lumber"
+      ],
+      "photo": "a square sample board of glued laminated timber",
+      "identity": {
+        "wikidata": "Q643449"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Glued laminated timber",
+          "url": "https://en.wikipedia.org/wiki/Glued_laminated_timber"
+        }
+      ]
+    },
+    {
+      "id": "mdf",
+      "name": "Medium-density fibreboard",
+      "family": "engineered-wood",
+      "form": "board",
+      "senses": [],
+      "made_from": [
+        "wood"
+      ],
+      "aliases": [
+        "mdf",
+        "lacquered mdf"
+      ],
+      "photo": "a square sample board of medium-density fibreboard",
+      "identity": {
+        "wikidata": "Q642231"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Medium-density fibreboard",
+          "url": "https://en.wikipedia.org/wiki/Medium-density_fibreboard"
+        }
+      ]
+    },
+    {
+      "id": "plywood",
+      "name": "Plywood",
+      "family": "engineered-wood",
+      "form": "board",
+      "senses": [],
+      "made_from": [
+        "wood"
+      ],
+      "aliases": [
+        "plywood",
+        "bent plywood",
+        "moulded plywood",
+        "lacquered plywood"
+      ],
+      "photo": "a square sample board of plywood",
+      "identity": {
+        "wikidata": "Q219803"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Plywood",
+          "url": "https://en.wikipedia.org/wiki/Plywood"
+        }
+      ]
+    },
+    {
+      "id": "olive-oil",
+      "name": "Olive oil",
+      "family": "fat-oil",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "The fat of the south: raw, for frying and for confit.",
+      "made_from": [
+        "olive"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "olive oil",
+      "identity": {
+        "wikidata": "Q93165"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Olive oil",
+          "url": "https://en.wikipedia.org/wiki/Olive_oil"
+        }
+      ]
+    },
+    {
+      "id": "dashi",
+      "name": "Dashi",
+      "family": "ferment",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Stock of kombu and katsuobushi; its umami taught French chefs a lighter base.",
+      "made_from": [
+        "kombu"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "dashi",
+      "identity": {
+        "wikidata": "Q851746"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Dashi",
+          "url": "https://en.wikipedia.org/wiki/Dashi"
+        }
+      ]
+    },
+    {
+      "id": "vinegar",
+      "name": "Vinegar",
+      "family": "ferment",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Wine or cider made sour by acetic bacteria; the sauce acid of the North.",
+      "made_from": [
+        "wine"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "vinegar",
+      "identity": {
+        "wikidata": "Q41354"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Vinegar",
+          "url": "https://en.wikipedia.org/wiki/Vinegar"
+        }
+      ]
+    },
+    {
+      "id": "banana",
+      "name": "Banana",
+      "family": "fruit",
+      "form": "food",
+      "senses": [],
+      "is_a": [
+        "tropical-fruit"
+      ],
+      "part_of": [
+        "banana-plant"
+      ],
+      "aliases": [
+        "banana",
+        "bananas"
+      ],
+      "colour": [
+        "#F3D34A",
+        "#6B8E23",
+        "#F5EBC8"
+      ],
+      "parts": [
+        "peel",
+        "flesh",
+        "stalk"
+      ],
+      "photo": "a single ripe yellow banana",
+      "summary": "The long, curved fruit of the banana plant: a yellow peel around soft, sweet, starchy flesh. People eat it raw, fried, steamed or dried.",
+      "properties": {
+        "edible": true
+      },
+      "identity": {
+        "wikidata": "Q503"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Banana",
+          "url": "https://en.wikipedia.org/wiki/Banana"
+        }
+      ]
+    },
+    {
+      "id": "berries",
+      "name": "Berries",
+      "family": "fruit",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Lingonberry, cloudberry, sea buckthorn, bilberry, raspberry and strawberry, wild or grown.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "berries",
+      "identity": {
+        "wikidata": "Q16128920"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Berry",
+          "url": "https://en.wikipedia.org/wiki/Berry"
+        }
+      ]
+    },
+    {
+      "id": "bitter-orange",
+      "name": "Bitter orange",
+      "family": "fruit",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "The orange of duck à l'orange and marmalade; the sweet orange came later, after 1500.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "bitter orange",
+      "identity": {
+        "wikidata": "Q147096"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Bitter orange",
+          "url": "https://en.wikipedia.org/wiki/Bitter_orange"
+        }
+      ]
+    },
+    {
+      "id": "grape",
+      "name": "Grape",
+      "family": "fruit",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Eaten fresh, dried, pressed for verjuice or made into wine.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "grape",
+      "identity": {
+        "wikidata": "Q10978"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Grape",
+          "url": "https://en.wikipedia.org/wiki/Grape"
+        }
+      ]
+    },
+    {
+      "id": "lemon",
+      "name": "Lemon",
+      "family": "fruit",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "The Arabs grew lemons in Sicily and Spain; the acid of fish dishes and sauces.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "lemon",
+      "identity": {
+        "wikidata": "Q500"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Lemon",
+          "url": "https://en.wikipedia.org/wiki/Lemon"
+        }
+      ]
+    },
+    {
+      "id": "lime",
+      "name": "Lime",
+      "family": "fruit",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "The Spanish took limes to the Americas, where they cure ceviche.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "lime",
+      "identity": {
+        "wikidata": "Q13195"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Lime (fruit)",
+          "url": "https://en.wikipedia.org/wiki/Lime_(fruit)"
+        }
+      ]
+    },
+    {
+      "id": "olive",
+      "name": "Olive",
+      "family": "fruit",
+      "form": "food",
+      "senses": [],
+      "aliases": [
+        "olive"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "olive",
+      "identity": {
+        "wikidata": "Q1621080"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Olive",
+          "url": "https://en.wikipedia.org/wiki/Olive"
+        }
+      ]
+    },
+    {
+      "id": "orchard-fruit",
+      "name": "Orchard fruit",
+      "family": "fruit",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Apple, pear, quince, plum and cherry from orchards.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "orchard fruit",
+      "identity": {
+        "wikidata": "Q41274"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Pome",
+          "url": "https://en.wikipedia.org/wiki/Pome"
+        }
+      ]
+    },
+    {
+      "id": "peach",
+      "name": "Peach",
+      "family": "fruit",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "The Romans called it the Persian apple; pêche Melba of 1893 used it.",
+      "is_a": [
+        "orchard-fruit"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "peach",
+      "identity": {
+        "wikidata": "Q13189"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Peach",
+          "url": "https://en.wikipedia.org/wiki/Peach"
+        }
+      ]
+    },
+    {
+      "id": "plantain",
+      "name": "Plantain (cooking banana)",
+      "family": "fruit",
+      "form": "food",
+      "senses": [],
+      "is_a": [
+        "banana"
+      ],
+      "part_of": [
+        "banana-plant"
+      ],
+      "aliases": [
+        "plantain",
+        "cooking banana"
+      ],
+      "colour": [
+        "#8DA23B",
+        "#E7C55A"
+      ],
+      "photo": "two green plantains",
+      "summary": "A starchy cooking banana. It is fried, boiled or steamed while green or ripe, and is a staple of West Africa, the Caribbean and Latin America.",
+      "properties": {
+        "edible": true
+      },
+      "identity": {
+        "wikidata": "Q3391521"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Plantain",
+          "url": "https://en.wikipedia.org/wiki/Plantain"
+        }
+      ]
+    },
+    {
+      "id": "tropical-fruit",
+      "name": "Tropical fruit",
+      "family": "fruit",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Pineapple, mango, passion fruit and papaya; Europe grew pineapples in hothouses from the 1700s.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "tropical fruit",
+      "identity": {
+        "wikidata": "Q844144"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Tropical fruit",
+          "url": "https://en.wikipedia.org/wiki/Tropical_fruit"
+        }
+      ]
+    },
+    {
+      "id": "verjuice",
+      "name": "Verjuice",
+      "family": "fruit",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "The sour juice of unripe grapes; the acid of the medieval sauce before lemon and vinegar.",
+      "made_from": [
+        "grape"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "verjuice",
+      "identity": {
+        "wikidata": "Q1060458"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Verjuice",
+          "url": "https://en.wikipedia.org/wiki/Verjuice"
+        }
+      ]
+    },
+    {
+      "id": "yuzu",
+      "name": "Yuzu",
+      "family": "fruit",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "A sour aromatic citrus of Japan; French chefs took it up in the 1990s.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "yuzu",
+      "identity": {
+        "wikidata": "Q867776"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Yuzu",
+          "url": "https://en.wikipedia.org/wiki/Yuzu"
+        }
+      ]
+    },
+    {
+      "id": "charcoal",
+      "name": "Charcoal",
+      "family": "fuel",
+      "form": "block",
+      "senses": [],
+      "made_from": [
+        "wood"
+      ],
+      "photo": "a rough block of charcoal",
+      "identity": {
+        "wikidata": "Q177463"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Charcoal",
+          "url": "https://en.wikipedia.org/wiki/Charcoal"
+        }
+      ]
+    },
+    {
+      "id": "bread",
+      "name": "Bread",
+      "family": "grain",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Flat bread from about 14,000 years ago; the medieval kitchen thickened sauces with it and served food on trenchers.",
+      "made_from": [
+        "wheat"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "bread",
+      "identity": {
+        "wikidata": "Q7802"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Bread",
+          "url": "https://en.wikipedia.org/wiki/Bread"
+        }
+      ]
+    },
+    {
+      "id": "maize",
+      "name": "Maize",
+      "family": "grain",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Domesticated from teosinte; nixtamalised with lime for masa. Columbus took it to Spain.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "maize",
+      "identity": {
+        "wikidata": "Q11575"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Maize",
+          "url": "https://en.wikipedia.org/wiki/Maize"
+        }
+      ]
+    },
+    {
+      "id": "quinoa",
+      "name": "Quinoa",
+      "family": "grain",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "The seed of the Andean highlands; it reached European shops only in the late twentieth century.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "quinoa",
+      "identity": {
+        "wikidata": "Q139925"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Quinoa",
+          "url": "https://en.wikipedia.org/wiki/Quinoa"
+        }
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Rice",
+      "family": "grain",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Asian rice reached Spain with the Moors; paella and risotto came later. Short grain for sushi and risotto.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "rice",
+      "identity": {
+        "wikidata": "Q5090"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Rice",
+          "url": "https://en.wikipedia.org/wiki/Rice"
+        }
+      ]
+    },
+    {
+      "id": "rye",
+      "name": "Rye",
+      "family": "grain",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "A hardy grain of the cold north; the dark sour bread of Scandinavia, Germany and Russia.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "rye",
+      "identity": {
+        "wikidata": "Q12099"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Rye",
+          "url": "https://en.wikipedia.org/wiki/Rye"
+        }
+      ]
+    },
+    {
+      "id": "wheat",
+      "name": "Wheat",
+      "family": "grain",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Einkorn and emmer were sown in the Near East; bread wheat followed. Flour is the base of bread, pastry, roux and pasta.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "wheat",
+      "identity": {
+        "wikidata": "Q15645384"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Wheat",
+          "url": "https://en.wikipedia.org/wiki/Wheat"
+        }
+      ]
+    },
+    {
+      "id": "bamboo",
+      "name": "Bamboo",
+      "family": "grass",
+      "form": "board",
+      "senses": [
+        "industrial.materials"
+      ],
+      "properties": {
+        "warmth": 0.8
+      },
+      "photo": "a square sample board of bamboo",
+      "identity": {
+        "wikidata": "Q670887"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Bamboo",
+          "url": "https://en.wikipedia.org/wiki/Bamboo"
+        }
+      ]
+    },
+    {
+      "id": "sugar-cane",
+      "name": "Sugar cane",
+      "family": "grass",
+      "form": "raw",
+      "senses": [],
+      "aliases": [
+        "sugar cane"
+      ],
+      "photo": "sugar cane",
+      "identity": {
+        "wikidata": "Q36940"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Sugarcane",
+          "url": "https://en.wikipedia.org/wiki/Sugarcane"
+        }
+      ]
+    },
+    {
+      "id": "coriander-leaf",
+      "name": "Coriander leaf",
+      "family": "herb",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "The leaf herb of Asian and Latin American cooking; the seed is a separate spice.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "coriander leaf",
+      "identity": {
+        "wikidata": "Q41611"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Coriander",
+          "url": "https://en.wikipedia.org/wiki/Coriander"
+        }
+      ]
+    },
+    {
+      "id": "fine-herbs",
+      "name": "Fines herbes",
+      "family": "herb",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Parsley, chervil, chives and tarragon, chopped fine; the herb mix of the French kitchen.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "fines herbes",
+      "identity": {
+        "wikidata": "Q1412533"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Fines herbes",
+          "url": "https://en.wikipedia.org/wiki/Fines_herbes"
+        }
+      ]
+    },
+    {
+      "id": "tarragon",
+      "name": "Tarragon",
+      "family": "herb",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "The herb of béarnaise sauce and of poulet à l'estragon.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "tarragon",
+      "identity": {
+        "wikidata": "Q155814"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Tarragon",
+          "url": "https://en.wikipedia.org/wiki/Tarragon"
+        }
+      ]
+    },
+    {
+      "id": "thyme-bay",
+      "name": "Thyme and bay",
+      "family": "herb",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "With parsley, the bouquet garni of stocks and braises.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "thyme and bay",
+      "identity": {
+        "wikidata": "Q895177"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Bouquet garni",
+          "url": "https://en.wikipedia.org/wiki/Bouquet_garni"
+        }
+      ]
+    },
+    {
+      "id": "wild-plants",
+      "name": "Wild plants and flowers",
+      "family": "herb",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Foraged leaves, flowers, berries, moss and needles; the base of the foraging kitchen.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "wild plants and flowers",
+      "identity": {
+        "wikidata": "Q2916569"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Foraging",
+          "url": "https://en.wikipedia.org/wiki/Foraging"
+        }
+      ]
+    },
+    {
+      "id": "bobbin-lace",
+      "name": "Bobbin lace",
+      "family": "lace",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "Lace plaited from threads on many bobbins over a pattern on a pillow; Flanders and the Low Countries led it.",
+      "made_from": [
+        "flax",
+        "silk"
+      ],
+      "photo": "a folded swatch of bobbin lace",
+      "identity": {
+        "wikidata": "Q64407093"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Bobbin lace",
+          "url": "https://en.wikipedia.org/wiki/Bobbin_lace"
+        }
+      ]
+    },
+    {
+      "id": "machine-lace",
+      "name": "Leavers lace",
+      "family": "lace",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "Machine lace from the Leavers frame; it made lace a cloth of the middle class and of lingerie.",
+      "made_from": [
+        "cotton",
+        "silk",
+        "nylon"
+      ],
+      "photo": "a folded swatch of leavers lace",
+      "identity": {
+        "wikidata": "Q231250"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Lace",
+          "url": "https://en.wikipedia.org/wiki/Lace"
+        }
+      ]
+    },
+    {
+      "id": "needle-lace",
+      "name": "Needle lace",
+      "family": "lace",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "Lace built from buttonhole stitches with a needle; Venetian 'punto in aria' was the lace of the ruff and the collar.",
+      "made_from": [
+        "flax",
+        "silk"
+      ],
+      "photo": "a folded swatch of needle lace",
+      "identity": {
+        "wikidata": "Q6150593"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Needle lace",
+          "url": "https://en.wikipedia.org/wiki/Needle_lace"
+        }
+      ]
+    },
+    {
+      "id": "mackintosh-cloth",
+      "name": "Rubberised cloth",
+      "family": "laminate",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "Two cotton cloths glued with naphtha-dissolved rubber; the first waterproof coat cloth, and the name of the coat.",
+      "made_from": [
+        "cotton"
+      ],
+      "photo": "a folded swatch of rubberised cloth",
+      "identity": {
+        "wikidata": "Q2576557"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Mackintosh (raincoat)",
+          "url": "https://en.wikipedia.org/wiki/Mackintosh_(raincoat)"
+        }
+      ]
+    },
+    {
+      "id": "crepe-rubber",
+      "name": "Crepe rubber",
+      "family": "latex",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Raw latex rolled into crinkled sheets for a soft, grippy sole; the sole of the desert boot and the creeper.",
+      "made_from": [
+        "natural-rubber"
+      ],
+      "photo": "a square sample sheet of crepe rubber",
+      "identity": {
+        "wikidata": "Q17087676"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Crepe rubber",
+          "url": "https://en.wikipedia.org/wiki/Crepe_rubber"
+        }
+      ]
+    },
+    {
+      "id": "natural-rubber",
+      "name": "Natural rubber",
+      "family": "latex",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Latex from the rubber tree; the Olmec made rubber balls. Raw rubber goes soft in heat and hard in cold.",
+      "photo": "a square sample sheet of natural rubber",
+      "identity": {
+        "wikidata": "Q131877"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Natural rubber",
+          "url": "https://en.wikipedia.org/wiki/Natural_rubber"
+        }
+      ]
+    },
+    {
+      "id": "banana-leaf",
+      "name": "Banana leaf",
+      "family": "leaf",
+      "form": "sheet",
+      "senses": [],
+      "part_of": [
+        "banana-plant"
+      ],
+      "aliases": [
+        "banana leaf"
+      ],
+      "colour": [
+        "#4E7F2C"
+      ],
+      "photo": "a single folded fresh green banana leaf",
+      "summary": "The large, waxy leaf of the banana plant. Cooks wrap food in it to steam or grill it, and in South India it is the plate.",
+      "identity": {
+        "wikidata": "Q3521309"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Banana leaf",
+          "url": "https://en.wikipedia.org/wiki/Banana_leaf"
+        }
+      ]
+    },
+    {
+      "id": "pulses",
+      "name": "Pulses",
+      "family": "legume",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Lentil, chickpea, bean and pea: the protein of the plant kitchen.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "pulses",
+      "identity": {
+        "wikidata": "Q145909"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Legume",
+          "url": "https://en.wikipedia.org/wiki/Legume"
+        }
+      ]
+    },
+    {
+      "id": "tofu",
+      "name": "Tofu",
+      "family": "legume",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Curd of soy milk pressed into blocks; the protein of the Buddhist kitchen.",
+      "made_from": [
+        "pulses"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "tofu",
+      "identity": {
+        "wikidata": "Q177378"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Tofu",
+          "url": "https://en.wikipedia.org/wiki/Tofu"
+        }
+      ]
+    },
+    {
+      "id": "nuts-seeds",
+      "name": "Nuts and seeds",
+      "family": "nut-seed",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Almond, hazelnut, walnut, sesame and pumpkin seed; the almond milk of medieval Lent.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "nuts and seeds",
+      "identity": {
+        "wikidata": "Q3320037"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Nut (food)",
+          "url": "https://en.wikipedia.org/wiki/Nut_(food)"
+        }
+      ]
+    },
+    {
+      "id": "linseed-oil",
+      "name": "Linseed oil",
+      "family": "oil",
+      "form": "liquid",
+      "senses": [],
+      "made_from": [
+        "flax-plant"
+      ],
+      "aliases": [
+        "linseed oil"
+      ],
+      "photo": "a small glass dish of linseed oil",
+      "identity": {
+        "wikidata": "Q818405"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Linseed oil",
+          "url": "https://en.wikipedia.org/wiki/Linseed_oil"
+        }
+      ]
+    },
+    {
+      "id": "paper",
+      "name": "Paper",
+      "family": "paper",
+      "form": "sheet",
+      "senses": [],
+      "made_from": [
+        "wood-pulp"
+      ],
+      "aliases": [
+        "paper",
+        "paper cord"
+      ],
+      "photo": "a square sample sheet of paper",
+      "identity": {
+        "wikidata": "Q11472"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Paper",
+          "url": "https://en.wikipedia.org/wiki/Paper"
+        }
+      ]
+    },
+    {
+      "id": "washi-paper",
+      "name": "Washi paper",
+      "family": "paper",
+      "form": "sheet",
+      "senses": [
+        "industrial.materials"
+      ],
+      "properties": {
+        "warmth": 0.75
+      },
+      "photo": "a square sample sheet of washi paper",
+      "identity": {
+        "wikidata": "Q846299"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Washi",
+          "url": "https://en.wikipedia.org/wiki/Washi"
+        }
+      ]
+    },
+    {
+      "id": "banana-plant",
+      "name": "Banana plant (Musa)",
+      "family": "plant",
+      "form": "raw",
+      "senses": [],
+      "aliases": [
+        "musa"
+      ],
+      "photo": "a small potted banana plant",
+      "summary": "A large herb of the genus Musa. Its stem is a pseudostem of rolled leaf bases; it gives fruit, leaves and fibre.",
+      "identity": {
+        "wikidata": "Q8666090"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Musa (plant)",
+          "url": "https://en.wikipedia.org/wiki/Musa_(plant)"
+        }
+      ]
+    },
+    {
+      "id": "flax-plant",
+      "name": "Flax (the plant)",
+      "family": "plant",
+      "form": "raw",
+      "senses": [],
+      "photo": "flax",
+      "identity": {
+        "wikidata": "Q45108"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Flax",
+          "url": "https://en.wikipedia.org/wiki/Flax"
+        }
+      ]
+    },
+    {
+      "id": "abaca",
+      "name": "Abacá (Manila hemp)",
+      "family": "plant-fibre",
+      "form": "fibre",
+      "senses": [],
+      "aliases": [
+        "abaca",
+        "abacá",
+        "manila hemp"
+      ],
+      "photo": "a loose hank of cream abaca fibre",
+      "summary": "The fibre of Musa textilis, also called Manila hemp. It is strong and resists salt water, so it makes rope, paper and woven hats.",
+      "identity": {
+        "wikidata": "Q161097"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Abacá",
+          "url": "https://en.wikipedia.org/wiki/Abac%C3%A1"
+        }
+      ]
+    },
+    {
+      "id": "banana-fibre",
+      "name": "Banana fibre (bashōfu)",
+      "family": "plant-fibre",
+      "form": "fibre",
+      "senses": [],
+      "part_of": [
+        "banana-plant"
+      ],
+      "aliases": [
+        "banana fibre",
+        "bashofu",
+        "bashōfu"
+      ],
+      "photo": "a loose hank of pale banana fibre",
+      "summary": "Fibre from the pseudostem of the banana plant. In Okinawa it is woven into bashōfu cloth.",
+      "identity": {
+        "wikidata": "Q503"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Banana",
+          "url": "https://en.wikipedia.org/wiki/Banana"
+        }
+      ]
+    },
+    {
+      "id": "cane",
+      "name": "Cane and bamboo",
+      "family": "plant-fibre",
+      "form": "fibre",
+      "senses": [
+        "ceramics.materials",
+        "industrial.materials"
+      ],
+      "summary": "Woven cane or bamboo for the overhead handles of teapots and kettles.",
+      "made_from": [
+        "rattan"
+      ],
+      "properties": {
+        "warmth": 0.9
+      },
+      "photo": "a loose hank of cane and bamboo fibre",
+      "identity": {
+        "wikidata": "Q323021"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Rattan",
+          "url": "https://en.wikipedia.org/wiki/Rattan"
+        }
+      ]
+    },
+    {
+      "id": "cotton",
+      "name": "Cotton",
+      "family": "plant-fibre",
+      "form": "fibre",
+      "senses": [
+        "fashion.fibres",
+        "industrial.materials"
+      ],
+      "summary": "Cotton threads at Mehrgarh and cloth at Mohenjo-daro; Peru grew a second species from about 4500 BC.",
+      "properties": {
+        "warmth": 0.8
+      },
+      "photo": "a loose hank of cotton fibre",
+      "identity": {
+        "wikidata": "Q11457"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Cotton",
+          "url": "https://en.wikipedia.org/wiki/Cotton"
+        }
+      ]
+    },
+    {
+      "id": "flax",
+      "name": "Flax (linen)",
+      "family": "plant-fibre",
+      "form": "fibre",
+      "senses": [
+        "fashion.fibres"
+      ],
+      "summary": "Linen cloth from flax is in Egyptian graves of about 5000 BC; dyed wild flax fibres from a cave in Georgia are about 30,000 years old.",
+      "made_from": [
+        "flax-plant"
+      ],
+      "photo": "a loose hank of flax fibre",
+      "identity": {
+        "wikidata": "Q45108"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Flax",
+          "url": "https://en.wikipedia.org/wiki/Flax"
+        }
+      ]
+    },
+    {
+      "id": "hemp",
+      "name": "Hemp",
+      "family": "plant-fibre",
+      "form": "fibre",
+      "senses": [
+        "fashion.fibres"
+      ],
+      "summary": "Hemp cloth is in Chinese graves of the third millennium BC; Europe used it for sailcloth, rope and work clothes.",
+      "photo": "a loose hank of hemp fibre",
+      "identity": {
+        "wikidata": "Q7150699"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Hemp",
+          "url": "https://en.wikipedia.org/wiki/Hemp"
+        }
+      ]
+    },
+    {
+      "id": "jute",
+      "name": "Jute",
+      "family": "plant-fibre",
+      "form": "fibre",
+      "senses": [
+        "industrial.materials"
+      ],
+      "properties": {
+        "warmth": 0.85
+      },
+      "photo": "a loose hank of jute fibre",
+      "identity": {
+        "wikidata": "Q107211"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Jute",
+          "url": "https://en.wikipedia.org/wiki/Jute"
+        }
+      ]
+    },
+    {
+      "id": "rattan",
+      "name": "Rattan",
+      "family": "plant-fibre",
+      "form": "fibre",
+      "senses": [
+        "industrial.materials"
+      ],
+      "properties": {
+        "warmth": 0.9
+      },
+      "photo": "a loose hank of rattan fibre",
+      "identity": {
+        "wikidata": "Q323021"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Rattan",
+          "url": "https://en.wikipedia.org/wiki/Rattan"
+        }
+      ]
+    },
+    {
+      "id": "sisal",
+      "name": "Sisal",
+      "family": "plant-fibre",
+      "form": "fibre",
+      "senses": [],
+      "aliases": [
+        "sisal"
+      ],
+      "photo": "a loose hank of sisal fibre",
+      "identity": {
+        "wikidata": "Q159221"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Sisal",
+          "url": "https://en.wikipedia.org/wiki/Sisal"
+        }
+      ]
+    },
+    {
+      "id": "toquilla-straw",
+      "name": "Toquilla straw",
+      "family": "plant-fibre",
+      "form": "fibre",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Palm-leaf straw from Ecuador, hand-woven into the 'Panama' hat.",
+      "photo": "a loose hank of toquilla straw fibre",
+      "identity": {
+        "wikidata": "Q741814"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Panama hat",
+          "url": "https://en.wikipedia.org/wiki/Panama_hat"
+        }
+      ]
+    },
+    {
+      "id": "wicker",
+      "name": "Wicker",
+      "family": "plant-fibre",
+      "form": "fibre",
+      "senses": [
+        "industrial.materials"
+      ],
+      "made_from": [
+        "rattan",
+        "willow"
+      ],
+      "properties": {
+        "warmth": 0.9
+      },
+      "photo": "a loose hank of wicker fibre",
+      "identity": {
+        "wikidata": "Q1081013"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Wicker",
+          "url": "https://en.wikipedia.org/wiki/Wicker"
+        }
+      ]
+    },
+    {
+      "id": "willow",
+      "name": "Willow",
+      "family": "plant-fibre",
+      "form": "fibre",
+      "senses": [],
+      "aliases": [
+        "willow"
+      ],
+      "photo": "a loose hank of willow fibre",
+      "identity": {
+        "wikidata": "Q36050"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Willow",
+          "url": "https://en.wikipedia.org/wiki/Willow"
+        }
+      ]
+    },
+    {
+      "id": "wood-pulp",
+      "name": "Wood pulp (cellulose)",
+      "family": "pulp",
+      "form": "raw",
+      "senses": [],
+      "made_from": [
+        "wood"
+      ],
+      "photo": "wood pulp",
+      "identity": {
+        "wikidata": "Q672506"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Pulp (paper)",
+          "url": "https://en.wikipedia.org/wiki/Pulp_(paper)"
+        }
+      ]
+    },
+    {
+      "id": "gum-arabic",
+      "name": "Gum arabic",
+      "family": "resin",
+      "form": "raw",
+      "senses": [],
+      "photo": "gum arabic",
+      "identity": {
+        "wikidata": "Q535814"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Gum arabic",
+          "url": "https://en.wikipedia.org/wiki/Gum_arabic"
+        }
+      ]
+    },
+    {
+      "id": "lacquer",
+      "name": "Lacquer",
+      "family": "resin",
+      "form": "coating",
+      "senses": [],
+      "aliases": [
+        "lacquer",
+        "urushi"
+      ],
+      "photo": "a square sample panel finished with lacquer",
+      "identity": {
+        "wikidata": "Q11236878"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Lacquer",
+          "url": "https://en.wikipedia.org/wiki/Lacquer"
+        }
+      ]
+    },
+    {
+      "id": "black-pepper",
+      "name": "Black pepper",
+      "family": "spice",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "The most traded spice of the ancient world; Rome bought it by the tonne.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "black pepper",
+      "identity": {
+        "wikidata": "Q43084"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Black pepper",
+          "url": "https://en.wikipedia.org/wiki/Black_pepper"
+        }
+      ]
+    },
+    {
+      "id": "chilli",
+      "name": "Chilli pepper",
+      "family": "spice",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Capsicum went from the Americas round the world in fifty years: to Hungary, India, Sichuan and Korea.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "chilli pepper",
+      "identity": {
+        "wikidata": "Q165199"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Chili pepper",
+          "url": "https://en.wikipedia.org/wiki/Chili_pepper"
+        }
+      ]
+    },
+    {
+      "id": "cinnamon",
+      "name": "Cinnamon",
+      "family": "spice",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Bark of the cinnamon tree; the base of the medieval cameline sauce.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "cinnamon",
+      "identity": {
+        "wikidata": "Q28165"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Cinnamon",
+          "url": "https://en.wikipedia.org/wiki/Cinnamon"
+        }
+      ]
+    },
+    {
+      "id": "clove",
+      "name": "Clove",
+      "family": "spice",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Dried flower buds from the Spice Islands; studs the onion of a classic stock.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "clove",
+      "identity": {
+        "wikidata": "Q26736"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Clove",
+          "url": "https://en.wikipedia.org/wiki/Clove"
+        }
+      ]
+    },
+    {
+      "id": "cocoa",
+      "name": "Cocoa",
+      "family": "spice",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Ground cacao beans drunk with chilli; Europe added sugar.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "cocoa",
+      "identity": {
+        "wikidata": "Q208008"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Cocoa bean",
+          "url": "https://en.wikipedia.org/wiki/Cocoa_bean"
+        }
+      ]
+    },
+    {
+      "id": "ginger",
+      "name": "Ginger",
+      "family": "spice",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "A rhizome used dried in medieval Europe and fresh in Asia.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "ginger",
+      "identity": {
+        "wikidata": "Q35625"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ginger",
+          "url": "https://en.wikipedia.org/wiki/Ginger"
+        }
+      ]
+    },
+    {
+      "id": "grains-of-paradise",
+      "name": "Grains of paradise",
+      "family": "spice",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "A peppery seed from the Guinea coast; a medieval spice that nearly left the kitchen.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "grains of paradise",
+      "identity": {
+        "wikidata": "Q1503476"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Grains of paradise",
+          "url": "https://en.wikipedia.org/wiki/Grains_of_paradise"
+        }
+      ]
+    },
+    {
+      "id": "nutmeg",
+      "name": "Nutmeg and mace",
+      "family": "spice",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Seed and aril of one tree; in béchamel and the medieval spice mix.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "nutmeg and mace",
+      "identity": {
+        "wikidata": "Q83165"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Nutmeg",
+          "url": "https://en.wikipedia.org/wiki/Nutmeg"
+        }
+      ]
+    },
+    {
+      "id": "saffron",
+      "name": "Saffron",
+      "family": "spice",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Stigmas of the crocus; it coloured medieval dishes gold. Used now in risotto and bouillabaisse.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "saffron",
+      "identity": {
+        "wikidata": "Q25434"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Saffron",
+          "url": "https://en.wikipedia.org/wiki/Saffron"
+        }
+      ]
+    },
+    {
+      "id": "vanilla",
+      "name": "Vanilla",
+      "family": "spice",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Totonac people cured the pod of an orchid; the hand pollination of 1841 by Edmond Albius made it a crop.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "vanilla",
+      "identity": {
+        "wikidata": "Q13241"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Vanilla",
+          "url": "https://en.wikipedia.org/wiki/Vanilla"
+        }
+      ]
+    },
+    {
+      "id": "cane-sugar",
+      "name": "Cane sugar",
+      "family": "sugar",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Crystal sugar reached Europe through the crusades; a costly spice until the plantations.",
+      "made_from": [
+        "sugar-cane"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "cane sugar",
+      "identity": {
+        "wikidata": "Q4027534"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Sucrose",
+          "url": "https://en.wikipedia.org/wiki/Sucrose"
+        }
+      ]
+    },
+    {
+      "id": "artichoke",
+      "name": "Artichoke",
+      "family": "vegetable",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Bred from the cardoon in Sicily and Naples; Catherine de' Medici took it to France.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "artichoke",
+      "identity": {
+        "wikidata": "Q23041430"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Artichoke",
+          "url": "https://en.wikipedia.org/wiki/Artichoke"
+        }
+      ]
+    },
+    {
+      "id": "asparagus",
+      "name": "Asparagus",
+      "family": "vegetable",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Cato described its culture; white asparagus is grown in the dark under earth.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "asparagus",
+      "identity": {
+        "wikidata": "Q28367"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Asparagus",
+          "url": "https://en.wikipedia.org/wiki/Asparagus"
+        }
+      ]
+    },
+    {
+      "id": "cabbage",
+      "name": "Cabbage",
+      "family": "vegetable",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Kale, cabbage, cauliflower and broccoli are one species, bred in Europe.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "cabbage",
+      "identity": {
+        "wikidata": "Q35051"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Cabbage",
+          "url": "https://en.wikipedia.org/wiki/Cabbage"
+        }
+      ]
+    },
+    {
+      "id": "carrot",
+      "name": "Carrot",
+      "family": "vegetable",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Purple and yellow at first; the orange carrot was bred in the Netherlands in the seventeenth century.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "carrot",
+      "identity": {
+        "wikidata": "Q81"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Carrot",
+          "url": "https://en.wikipedia.org/wiki/Carrot"
+        }
+      ]
+    },
+    {
+      "id": "garlic",
+      "name": "Garlic",
+      "family": "vegetable",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Used raw, confit or roasted; the mark of Provençal and southern cooking.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "garlic",
+      "identity": {
+        "wikidata": "Q23400"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Garlic",
+          "url": "https://en.wikipedia.org/wiki/Garlic"
+        }
+      ]
+    },
+    {
+      "id": "leek",
+      "name": "Leek",
+      "family": "vegetable",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "A soft onion for soups and vichyssoise; the white is the part used.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "leek",
+      "identity": {
+        "wikidata": "Q1807269"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Leek",
+          "url": "https://en.wikipedia.org/wiki/Leek"
+        }
+      ]
+    },
+    {
+      "id": "onion",
+      "name": "Onion",
+      "family": "vegetable",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "The base of most savoury cooking, sweated, browned or raw.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "onion",
+      "identity": {
+        "wikidata": "Q23485"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Onion",
+          "url": "https://en.wikipedia.org/wiki/Onion"
+        }
+      ]
+    },
+    {
+      "id": "potato",
+      "name": "Potato",
+      "family": "vegetable",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Thousands of Andean kinds; Parmentier made it French food after 1772. Pommes purée, frites and chuño.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "potato",
+      "identity": {
+        "wikidata": "Q10998"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Potato",
+          "url": "https://en.wikipedia.org/wiki/Potato"
+        }
+      ]
+    },
+    {
+      "id": "root-vegetables",
+      "name": "Root vegetables",
+      "family": "vegetable",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Turnip, swede, celeriac, beetroot and parsnip: the winter store of the north.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "root vegetables",
+      "identity": {
+        "wikidata": "Q20136"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Root vegetable",
+          "url": "https://en.wikipedia.org/wiki/Root_vegetable"
+        }
+      ]
+    },
+    {
+      "id": "seasonal-greens",
+      "name": "Young greens and shoots",
+      "family": "vegetable",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Pea shoots, young leaves, wild garlic and small salad leaves picked young.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "young greens and shoots",
+      "identity": {
+        "wikidata": "Q6839576"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Microgreen",
+          "url": "https://en.wikipedia.org/wiki/Microgreen"
+        }
+      ]
+    },
+    {
+      "id": "shallot",
+      "name": "Shallot",
+      "family": "vegetable",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "A mild onion of the French sauce: beurre blanc, béarnaise and bordelaise start with it.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "shallot",
+      "identity": {
+        "wikidata": "Q193498"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Shallot",
+          "url": "https://en.wikipedia.org/wiki/Shallot"
+        }
+      ]
+    },
+    {
+      "id": "tomato",
+      "name": "Tomato",
+      "family": "vegetable",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Mattioli recorded the pomi d'oro in 1544; the first Italian tomato sauce recipe is of 1692.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "tomato",
+      "identity": {
+        "wikidata": "Q23501"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Tomato",
+          "url": "https://en.wikipedia.org/wiki/Tomato"
+        }
+      ]
+    },
+    {
+      "id": "ash",
+      "name": "Ash",
+      "family": "wood",
+      "form": "board",
+      "senses": [
+        "industrial.materials"
+      ],
+      "is_a": [
+        "wood"
+      ],
+      "properties": {
+        "warmth": 0.8
+      },
+      "photo": "a square sample board of ash",
+      "identity": {
+        "wikidata": "Q128887"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Fraxinus",
+          "url": "https://en.wikipedia.org/wiki/Fraxinus"
+        }
+      ]
+    },
+    {
+      "id": "ash-timber",
+      "name": "Ash timber",
+      "family": "wood",
+      "form": "board",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Pale, straight-grained hardwood that bends well after steaming. Coachbuilders and early car makers cut body frames from it.",
+      "made_from": [
+        "ash"
+      ],
+      "photo": "a square sample board of ash timber",
+      "identity": {
+        "wikidata": "Q156907"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Fraxinus excelsior",
+          "url": "https://en.wikipedia.org/wiki/Fraxinus_excelsior"
+        }
+      ]
+    },
+    {
+      "id": "beech",
+      "name": "Beech",
+      "family": "wood",
+      "form": "board",
+      "senses": [
+        "industrial.materials"
+      ],
+      "is_a": [
+        "wood"
+      ],
+      "properties": {
+        "warmth": 0.8
+      },
+      "photo": "a square sample board of beech",
+      "identity": {
+        "wikidata": "Q25403"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Beech",
+          "url": "https://en.wikipedia.org/wiki/Beech"
+        }
+      ]
+    },
+    {
+      "id": "birch",
+      "name": "Birch",
+      "family": "wood",
+      "form": "board",
+      "senses": [],
+      "is_a": [
+        "wood"
+      ],
+      "aliases": [
+        "birch"
+      ],
+      "photo": "a square sample board of birch",
+      "identity": {
+        "wikidata": "Q25243"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Birch",
+          "url": "https://en.wikipedia.org/wiki/Birch"
+        }
+      ]
+    },
+    {
+      "id": "burr-walnut",
+      "name": "Burr walnut",
+      "family": "wood",
+      "form": "board",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "The figured veneer of a walnut burr; the dashboard and door cappings of the luxury car cabin.",
+      "made_from": [
+        "walnut"
+      ],
+      "photo": "a square sample board of burr walnut",
+      "identity": {
+        "wikidata": "Q1483529"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Burl",
+          "url": "https://en.wikipedia.org/wiki/Burl"
+        }
+      ]
+    },
+    {
+      "id": "cherry",
+      "name": "Cherry",
+      "family": "wood",
+      "form": "board",
+      "senses": [
+        "industrial.materials"
+      ],
+      "is_a": [
+        "wood"
+      ],
+      "properties": {
+        "warmth": 0.9
+      },
+      "photo": "a square sample board of cherry",
+      "identity": {
+        "wikidata": "Q165137"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Prunus avium",
+          "url": "https://en.wikipedia.org/wiki/Prunus_avium"
+        }
+      ]
+    },
+    {
+      "id": "macassar-ebony",
+      "name": "Macassar ebony",
+      "family": "wood",
+      "form": "board",
+      "senses": [
+        "industrial.materials"
+      ],
+      "is_a": [
+        "wood"
+      ],
+      "properties": {
+        "warmth": 0.7
+      },
+      "photo": "a square sample board of macassar ebony",
+      "identity": {
+        "wikidata": "Q1754032"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Diospyros celebica",
+          "url": "https://en.wikipedia.org/wiki/Diospyros_celebica"
+        }
+      ]
+    },
+    {
+      "id": "mahogany",
+      "name": "Mahogany",
+      "family": "wood",
+      "form": "board",
+      "senses": [
+        "industrial.materials"
+      ],
+      "is_a": [
+        "wood"
+      ],
+      "properties": {
+        "warmth": 0.9
+      },
+      "photo": "a square sample board of mahogany",
+      "identity": {
+        "wikidata": "Q239788"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Mahogany",
+          "url": "https://en.wikipedia.org/wiki/Mahogany"
+        }
+      ]
+    },
+    {
+      "id": "maple",
+      "name": "Maple",
+      "family": "wood",
+      "form": "board",
+      "senses": [
+        "industrial.materials"
+      ],
+      "is_a": [
+        "wood"
+      ],
+      "properties": {
+        "warmth": 0.8
+      },
+      "photo": "a square sample board of maple",
+      "identity": {
+        "wikidata": "Q42292"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Maple",
+          "url": "https://en.wikipedia.org/wiki/Maple"
+        }
+      ]
+    },
+    {
+      "id": "oak",
+      "name": "Oak",
+      "family": "wood",
+      "form": "board",
+      "senses": [
+        "industrial.materials"
+      ],
+      "is_a": [
+        "wood"
+      ],
+      "properties": {
+        "warmth": 0.85
+      },
+      "photo": "a square sample board of oak",
+      "identity": {
+        "wikidata": "Q12004"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Oak",
+          "url": "https://en.wikipedia.org/wiki/Oak"
+        }
+      ]
+    },
+    {
+      "id": "pine",
+      "name": "Pine",
+      "family": "wood",
+      "form": "board",
+      "senses": [
+        "industrial.materials"
+      ],
+      "is_a": [
+        "wood"
+      ],
+      "properties": {
+        "warmth": 0.85
+      },
+      "photo": "a square sample board of pine",
+      "identity": {
+        "wikidata": "Q12024"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Pine",
+          "url": "https://en.wikipedia.org/wiki/Pine"
+        }
+      ]
+    },
+    {
+      "id": "rosewood",
+      "name": "Rosewood",
+      "family": "wood",
+      "form": "board",
+      "senses": [
+        "industrial.materials"
+      ],
+      "is_a": [
+        "wood"
+      ],
+      "properties": {
+        "warmth": 0.9
+      },
+      "photo": "a square sample board of rosewood",
+      "identity": {
+        "wikidata": "Q122421"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Rosewood",
+          "url": "https://en.wikipedia.org/wiki/Rosewood"
+        }
+      ]
+    },
+    {
+      "id": "teak",
+      "name": "Teak",
+      "family": "wood",
+      "form": "board",
+      "senses": [
+        "industrial.materials"
+      ],
+      "is_a": [
+        "wood"
+      ],
+      "properties": {
+        "warmth": 0.9
+      },
+      "photo": "a square sample board of teak",
+      "identity": {
+        "wikidata": "Q156938"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Teak",
+          "url": "https://en.wikipedia.org/wiki/Teak"
+        }
+      ]
+    },
+    {
+      "id": "timber",
+      "name": "Timber",
+      "family": "wood",
+      "form": "board",
+      "senses": [],
+      "is_a": [
+        "wood"
+      ],
+      "made_from": [
+        "wood"
+      ],
+      "aliases": [
+        "timber",
+        "rough timber",
+        "painted timber panelling",
+        "timber coffering",
+        "charred timber cladding",
+        "painted wood",
+        "oak and cypress timber",
+        "timber (pine, birch)",
+        "timber (redwood, cedar, walnut)"
+      ],
+      "photo": "a square sample board of timber",
+      "identity": {
+        "wikidata": "Q354757"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Lumber",
+          "url": "https://en.wikipedia.org/wiki/Lumber"
+        }
+      ]
+    },
+    {
+      "id": "veneer",
+      "name": "Wood veneer",
+      "family": "wood",
+      "form": "sheet",
+      "senses": [],
+      "made_from": [
+        "wood"
+      ],
+      "aliases": [
+        "exotic veneers",
+        "macassar ebony veneer",
+        "veneer"
+      ],
+      "photo": "a square sample sheet of wood veneer",
+      "identity": {
+        "wikidata": "Q477683"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Wood veneer",
+          "url": "https://en.wikipedia.org/wiki/Wood_veneer"
+        }
+      ]
+    },
+    {
+      "id": "walnut",
+      "name": "Walnut",
+      "family": "wood",
+      "form": "board",
+      "senses": [
+        "industrial.materials"
+      ],
+      "is_a": [
+        "wood"
+      ],
+      "properties": {
+        "warmth": 0.9
+      },
+      "photo": "a square sample board of walnut",
+      "identity": {
+        "wikidata": "Q208021"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Walnut",
+          "url": "https://en.wikipedia.org/wiki/Walnut"
+        }
+      ]
+    },
+    {
+      "id": "wood",
+      "name": "Wood",
+      "family": "wood",
+      "form": "board",
+      "senses": [
+        "ceramics.materials"
+      ],
+      "summary": "Timber for lids, stands, frames and toilet seats.",
+      "photo": "a square sample board of wood",
+      "identity": {
+        "wikidata": "Q287"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Wood",
+          "url": "https://en.wikipedia.org/wiki/Wood"
+        }
+      ]
+    },
+    {
+      "id": "wood-panel",
+      "name": "Wood panel (painting support)",
+      "family": "wood",
+      "form": "board",
+      "senses": [],
+      "made_from": [
+        "wood"
+      ],
+      "aliases": [
+        "panel"
+      ],
+      "photo": "a square sample board of wood panel",
+      "identity": {
+        "wikidata": "Q55439"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Panel painting",
+          "url": "https://en.wikipedia.org/wiki/Panel_painting"
+        }
+      ]
+    },
+    {
+      "id": "oxford-cloth",
+      "name": "Oxford cloth",
+      "family": "woven-basket",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A basket weave with a soft hand; Scottish mills named shirtings after universities. The cloth of the button-down shirt.",
+      "made_from": [
+        "cotton"
+      ],
+      "photo": "a folded swatch of oxford cloth",
+      "identity": {
+        "wikidata": "Q1646194"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Oxford (cloth)",
+          "url": "https://en.wikipedia.org/wiki/Oxford_(cloth)"
+        }
+      ]
+    },
+    {
+      "id": "corduroy",
+      "name": "Corduroy",
+      "family": "woven-pile",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A weft-pile cloth with cut cords ('wales'); the cloth of country trousers and the 1970s jacket.",
+      "made_from": [
+        "cotton"
+      ],
+      "photo": "a folded swatch of corduroy",
+      "identity": {
+        "wikidata": "Q1132110"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Corduroy",
+          "url": "https://en.wikipedia.org/wiki/Corduroy"
+        }
+      ]
+    },
+    {
+      "id": "terry",
+      "name": "Terry towelling",
+      "family": "woven-pile",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A loop-pile cloth that Henry Christy saw in Turkey and his mill made by machine; the cloth of robes and sweatbands.",
+      "made_from": [
+        "cotton"
+      ],
+      "photo": "a folded swatch of terry towelling",
+      "identity": {
+        "wikidata": "Q1470617"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Terrycloth",
+          "url": "https://en.wikipedia.org/wiki/Terrycloth"
+        }
+      ]
+    },
+    {
+      "id": "calico",
+      "name": "Calico",
+      "family": "woven-plain",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A plain cotton from the Malabar coast; England banned printed calico imports in 1700 and 1721 to protect wool and silk weavers.",
+      "made_from": [
+        "cotton"
+      ],
+      "photo": "a folded swatch of calico",
+      "identity": {
+        "wikidata": "Q1132695"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Calico",
+          "url": "https://en.wikipedia.org/wiki/Calico"
+        }
+      ]
+    },
+    {
+      "id": "cambric",
+      "name": "Cambric (batiste)",
+      "family": "woven-plain",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A fine, dense plain weave for shirts, collars, handkerchiefs and lingerie, named after the town of Cambrai.",
+      "made_from": [
+        "flax",
+        "cotton"
+      ],
+      "photo": "a folded swatch of cambric",
+      "identity": {
+        "wikidata": "Q17103193"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Cambric",
+          "url": "https://en.wikipedia.org/wiki/Cambric"
+        }
+      ]
+    },
+    {
+      "id": "canvas",
+      "name": "Canvas and duck",
+      "family": "woven-plain",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics",
+        "industrial.materials"
+      ],
+      "summary": "A heavy plain weave for sails, tents, work coats and the upper of the first sneakers.",
+      "made_from": [
+        "cotton",
+        "hemp",
+        "flax"
+      ],
+      "properties": {
+        "warmth": 0.75
+      },
+      "photo": "a folded swatch of canvas and duck",
+      "identity": {
+        "wikidata": "Q4259259"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Canvas",
+          "url": "https://en.wikipedia.org/wiki/Canvas"
+        }
+      ]
+    },
+    {
+      "id": "elastic-webbing",
+      "name": "Elastic webbing",
+      "family": "woven-plain",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A narrow woven band with rubber or elastane core threads; it forms the waistband, the strap and the leg band. Thomas Hancock patented rubber elastic for garments in 1820.",
+      "made_from": [
+        "cotton",
+        "nylon",
+        "elastane"
+      ],
+      "photo": "a folded swatch of elastic webbing",
+      "identity": {
+        "wikidata": "Q2490558"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Webbing",
+          "url": "https://en.wikipedia.org/wiki/Webbing"
+        }
+      ]
+    },
+    {
+      "id": "gingham",
+      "name": "Gingham",
+      "family": "woven-plain",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A yarn-dyed check in white and one colour; the name comes from a Malay word for striped cloth.",
+      "made_from": [
+        "cotton"
+      ],
+      "photo": "a folded swatch of gingham",
+      "identity": {
+        "wikidata": "Q2289640"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Gingham",
+          "url": "https://en.wikipedia.org/wiki/Gingham"
+        }
+      ]
+    },
+    {
+      "id": "glazed-chintz",
+      "name": "Glazed chintz",
+      "family": "woven-plain",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A printed or painted cotton with a glazed surface; the East India companies brought it to Europe in the 17th century.",
+      "made_from": [
+        "cotton"
+      ],
+      "photo": "a folded swatch of glazed chintz",
+      "identity": {
+        "wikidata": "Q1074462"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Chintz",
+          "url": "https://en.wikipedia.org/wiki/Chintz"
+        }
+      ]
+    },
+    {
+      "id": "linen",
+      "name": "Linen",
+      "family": "woven-plain",
+      "form": "cloth",
+      "senses": [
+        "industrial.materials"
+      ],
+      "made_from": [
+        "flax"
+      ],
+      "properties": {
+        "warmth": 0.85
+      },
+      "photo": "a folded swatch of linen",
+      "identity": {
+        "wikidata": "Q1426327"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Linen",
+          "url": "https://en.wikipedia.org/wiki/Linen"
+        }
+      ]
+    },
+    {
+      "id": "linen-cloth",
+      "name": "Linen cloth",
+      "family": "woven-plain",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "The oldest cloth of dress; cool, crisp and quick to crease. Shirts, summer suits and underwear were linen until cotton took over.",
+      "made_from": [
+        "flax"
+      ],
+      "photo": "a folded swatch of linen cloth",
+      "identity": {
+        "wikidata": "Q1426327"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Linen",
+          "url": "https://en.wikipedia.org/wiki/Linen"
+        }
+      ]
+    },
+    {
+      "id": "muslin",
+      "name": "Muslin",
+      "family": "woven-plain",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A fine, open cotton of hand-spun yarn from Dhaka; the name comes from Mosul. It was the cloth of the Empire-line dress after 1795.",
+      "made_from": [
+        "cotton"
+      ],
+      "photo": "a folded swatch of muslin",
+      "identity": {
+        "wikidata": "Q725457"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Muslin",
+          "url": "https://en.wikipedia.org/wiki/Muslin"
+        }
+      ]
+    },
+    {
+      "id": "poplin",
+      "name": "Poplin",
+      "family": "woven-plain",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A plain weave with a fine weft rib; the name may come from 'papeline', the cloth of the papal town of Avignon. The cloth of the dress shirt.",
+      "made_from": [
+        "cotton",
+        "silk"
+      ],
+      "photo": "a folded swatch of poplin",
+      "identity": {
+        "wikidata": "Q1141566"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Poplin",
+          "url": "https://en.wikipedia.org/wiki/Poplin"
+        }
+      ]
+    },
+    {
+      "id": "seersucker",
+      "name": "Seersucker",
+      "family": "woven-plain",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "Two warps at different tension make puckered stripes that stand off the skin; the name comes from Persian 'milk and sugar'.",
+      "made_from": [
+        "cotton"
+      ],
+      "photo": "a folded swatch of seersucker",
+      "identity": {
+        "wikidata": "Q1185750"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Seersucker",
+          "url": "https://en.wikipedia.org/wiki/Seersucker"
+        }
+      ]
+    },
+    {
+      "id": "ventile",
+      "name": "Ventile",
+      "family": "woven-plain",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A dense weave of long-staple cotton that swells when wet and keeps out water; made for the immersion suits of RAF pilots.",
+      "made_from": [
+        "cotton"
+      ],
+      "photo": "a folded swatch of ventile",
+      "identity": {
+        "wikidata": "Q7920256"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ventile",
+          "url": "https://en.wikipedia.org/wiki/Ventile"
+        }
+      ]
+    },
+    {
+      "id": "chino-twill",
+      "name": "Chino twill",
+      "family": "woven-twill",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A light cotton twill of US army trousers in the Philippines; the name comes from the Chinese cloth. It went to the campus after 1945.",
+      "made_from": [
+        "cotton"
+      ],
+      "photo": "a folded swatch of chino twill",
+      "identity": {
+        "wikidata": "Q1074407"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Chino cloth",
+          "url": "https://en.wikipedia.org/wiki/Chino_cloth"
+        }
+      ]
+    },
+    {
+      "id": "coutil",
+      "name": "Coutil",
+      "family": "woven-twill",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A dense cotton twill, often in a herringbone weave, that resists the pull of the bones; the standard cloth of corset bodies.",
+      "made_from": [
+        "cotton"
+      ],
+      "photo": "a folded swatch of coutil",
+      "identity": {
+        "wikidata": "Q1137901"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Coutil",
+          "url": "https://en.wikipedia.org/wiki/Coutil"
+        }
+      ]
+    },
+    {
+      "id": "denim",
+      "name": "Denim",
+      "family": "woven-twill",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A warp-faced twill with an indigo warp and a white weft; 'serge de Nîmes'. Levi Strauss and Jacob Davis patented the riveted work trouser in 1873.",
+      "made_from": [
+        "cotton"
+      ],
+      "photo": "a folded swatch of denim",
+      "identity": {
+        "wikidata": "Q652698"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Denim",
+          "url": "https://en.wikipedia.org/wiki/Denim"
+        }
+      ]
+    },
+    {
+      "id": "khaki-drill",
+      "name": "Khaki drill",
+      "family": "woven-twill",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A cotton twill dyed the colour of dust ('khaki' in Urdu) for the Corps of Guides; armies took it for field dress.",
+      "made_from": [
+        "cotton"
+      ],
+      "photo": "a folded swatch of khaki drill",
+      "identity": {
+        "wikidata": "Q6399209"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Khaki drill",
+          "url": "https://en.wikipedia.org/wiki/Khaki_drill"
+        }
+      ]
+    }
+  ]
+}

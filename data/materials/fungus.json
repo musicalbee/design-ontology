@@ -1,0 +1,168 @@
+{
+  "$schema": "../../schema/material.schema.json",
+  "class": "fungus",
+  "name": "Fungus",
+  "summary": "Materials that come from fungi: mushrooms, yeasts and moulds, and the ferments that they make.",
+  "families": [
+    {
+      "id": "mushroom",
+      "name": "Mushroom"
+    },
+    {
+      "id": "ferment",
+      "name": "Ferment"
+    },
+    {
+      "id": "additive",
+      "name": "Additive"
+    },
+    {
+      "id": "mould",
+      "name": "Mould"
+    }
+  ],
+  "materials": [
+    {
+      "id": "xanthan-gum",
+      "name": "Xanthan gum",
+      "family": "additive",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "A gum made by bacteria; a little thickens a sauce or holds a foam without heat.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "xanthan gum",
+      "identity": {
+        "wikidata": "Q410768"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Xanthan gum",
+          "url": "https://en.wikipedia.org/wiki/Xanthan_gum"
+        }
+      ]
+    },
+    {
+      "id": "miso",
+      "name": "Miso",
+      "family": "ferment",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Soy paste fermented with koji; in soup, glazes and marinades.",
+      "made_from": [
+        "pulses"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "miso",
+      "identity": {
+        "wikidata": "Q235169"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Miso",
+          "url": "https://en.wikipedia.org/wiki/Miso"
+        }
+      ]
+    },
+    {
+      "id": "soy-sauce",
+      "name": "Soy sauce",
+      "family": "ferment",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Fermented soy beans and wheat. The Dutch East India Company shipped it from Nagasaki from 1647, and to Europe in the 1660s.",
+      "made_from": [
+        "pulses",
+        "wheat"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "soy sauce",
+      "identity": {
+        "wikidata": "Q229385"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Soy sauce",
+          "url": "https://en.wikipedia.org/wiki/Soy_sauce"
+        }
+      ]
+    },
+    {
+      "id": "koji",
+      "name": "Koji (Aspergillus oryzae)",
+      "family": "mould",
+      "form": "raw",
+      "senses": [],
+      "aliases": [
+        "koji mould"
+      ],
+      "photo": "koji",
+      "identity": {
+        "wikidata": "Q22186679"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Koji",
+          "url": "https://en.wikipedia.org/wiki/Koji"
+        }
+      ]
+    },
+    {
+      "id": "truffle",
+      "name": "Truffle",
+      "family": "mushroom",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "The black truffle of Périgord and the white truffle of Alba; shaved raw or cooked in sauce.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "truffle",
+      "identity": {
+        "wikidata": "Q2690965"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Truffle",
+          "url": "https://en.wikipedia.org/wiki/Truffle"
+        }
+      ]
+    },
+    {
+      "id": "wild-mushrooms",
+      "name": "Wild mushrooms",
+      "family": "mushroom",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Ceps, morels, chanterelles; dried or fresh, foraged in the autumn and the spring.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "wild mushrooms",
+      "identity": {
+        "wikidata": "Q654236"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Edible mushroom",
+          "url": "https://en.wikipedia.org/wiki/Edible_mushroom"
+        }
+      ]
+    }
+  ]
+}

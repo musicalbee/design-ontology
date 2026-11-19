@@ -1,0 +1,718 @@
+{
+  "$schema": "../../schema/material.schema.json",
+  "class": "mineral",
+  "name": "Mineral",
+  "summary": "Materials that come out of the ground and stay close to their natural state: stone, clay, sand, salt, ash, earth pigments and binders.",
+  "families": [
+    {
+      "id": "gem",
+      "name": "Gem"
+    },
+    {
+      "id": "organic-stone",
+      "name": "Organic stone"
+    },
+    {
+      "id": "stone",
+      "name": "Stone"
+    },
+    {
+      "id": "mineral",
+      "name": "Mineral"
+    },
+    {
+      "id": "pigment",
+      "name": "Pigment"
+    },
+    {
+      "id": "additive",
+      "name": "Additive"
+    },
+    {
+      "id": "clay",
+      "name": "Clay"
+    },
+    {
+      "id": "sand",
+      "name": "Sand"
+    },
+    {
+      "id": "binder",
+      "name": "Binder"
+    },
+    {
+      "id": "ash",
+      "name": "Ash"
+    },
+    {
+      "id": "salt",
+      "name": "Salt"
+    }
+  ],
+  "materials": [
+    {
+      "id": "liquid-nitrogen",
+      "name": "Liquid nitrogen",
+      "family": "additive",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Nitrogen at minus 196 °C; it freezes ice cream in seconds and makes powders of fat.",
+      "photo": "liquid nitrogen",
+      "identity": {
+        "wikidata": "Q1139370"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Liquid nitrogen",
+          "url": "https://en.wikipedia.org/wiki/Liquid_nitrogen"
+        }
+      ]
+    },
+    {
+      "id": "wood-ash",
+      "name": "Wood ash",
+      "family": "ash",
+      "form": "powder",
+      "senses": [],
+      "made_from": [
+        "wood"
+      ],
+      "aliases": [
+        "wood ash",
+        "plant ash"
+      ],
+      "photo": "a small heap of wood ash powder",
+      "identity": {
+        "wikidata": "Q3480332"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Wood ash",
+          "url": "https://en.wikipedia.org/wiki/Wood_ash"
+        }
+      ]
+    },
+    {
+      "id": "cement",
+      "name": "Portland cement",
+      "family": "binder",
+      "form": "powder",
+      "senses": [],
+      "made_from": [
+        "limestone",
+        "clay"
+      ],
+      "aliases": [
+        "cement"
+      ],
+      "photo": "a small heap of portland cement powder",
+      "identity": {
+        "wikidata": "Q844123"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Portland cement",
+          "url": "https://en.wikipedia.org/wiki/Portland_cement"
+        }
+      ]
+    },
+    {
+      "id": "quicklime",
+      "name": "Lime (calcium oxide)",
+      "family": "binder",
+      "form": "powder",
+      "senses": [],
+      "made_from": [
+        "limestone"
+      ],
+      "aliases": [
+        "lime",
+        "quicklime"
+      ],
+      "photo": "a small heap of lime powder",
+      "identity": {
+        "wikidata": "Q185006"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Calcium oxide",
+          "url": "https://en.wikipedia.org/wiki/Calcium_oxide"
+        }
+      ]
+    },
+    {
+      "id": "clay",
+      "name": "Clay",
+      "family": "clay",
+      "form": "raw",
+      "senses": [],
+      "aliases": [
+        "clay"
+      ],
+      "photo": "clay",
+      "identity": {
+        "wikidata": "Q42302"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Clay",
+          "url": "https://en.wikipedia.org/wiki/Clay"
+        }
+      ]
+    },
+    {
+      "id": "kaolin",
+      "name": "Kaolin (china clay)",
+      "family": "clay",
+      "form": "raw",
+      "senses": [],
+      "is_a": [
+        "clay"
+      ],
+      "aliases": [
+        "china clay"
+      ],
+      "photo": "kaolin",
+      "identity": {
+        "wikidata": "Q223197"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Kaolinite",
+          "url": "https://en.wikipedia.org/wiki/Kaolinite"
+        }
+      ]
+    },
+    {
+      "id": "coloured-gemstone",
+      "name": "Coloured gemstone",
+      "family": "gem",
+      "form": "raw",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Ruby, sapphire, emerald and the semi-precious stones: amethyst, citrine, turquoise, coral, onyx and others.",
+      "photo": "coloured gemstone",
+      "identity": {
+        "wikidata": "Q83437"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Gemstone",
+          "url": "https://en.wikipedia.org/wiki/Gemstone"
+        }
+      ]
+    },
+    {
+      "id": "diamond",
+      "name": "Diamond",
+      "family": "gem",
+      "form": "raw",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "The hardest gem; Marcel Tolkowsky set the proportions of the round brilliant cut in 1919. The first diamond trade is in India, about 400 BC.",
+      "photo": "diamond",
+      "identity": {
+        "wikidata": "Q5283"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Diamond",
+          "url": "https://en.wikipedia.org/wiki/Diamond"
+        }
+      ]
+    },
+    {
+      "id": "rock-crystal",
+      "name": "Rock crystal",
+      "family": "gem",
+      "form": "raw",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Clear quartz; it is cut, carved and engraved as a clear stone in jewels of many periods.",
+      "photo": "rock crystal",
+      "identity": {
+        "wikidata": "Q2050687"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Rock crystal",
+          "url": "https://en.wikipedia.org/wiki/Rock_crystal"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-sapphire",
+      "name": "Synthetic sapphire",
+      "family": "gem",
+      "form": "raw",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Corundum grown by flame fusion; watch crystals use it because it scratches only under diamond.",
+      "photo": "synthetic sapphire",
+      "identity": {
+        "wikidata": "Q127583"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Sapphire",
+          "url": "https://en.wikipedia.org/wiki/Sapphire"
+        }
+      ]
+    },
+    {
+      "id": "feldspar",
+      "name": "Feldspar",
+      "family": "mineral",
+      "form": "raw",
+      "senses": [],
+      "photo": "feldspar",
+      "identity": {
+        "wikidata": "Q170258"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Feldspar",
+          "url": "https://en.wikipedia.org/wiki/Feldspar"
+        }
+      ]
+    },
+    {
+      "id": "gypsum",
+      "name": "Gypsum",
+      "family": "mineral",
+      "form": "raw",
+      "senses": [],
+      "photo": "gypsum",
+      "identity": {
+        "wikidata": "Q82658"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Gypsum",
+          "url": "https://en.wikipedia.org/wiki/Gypsum"
+        }
+      ]
+    },
+    {
+      "id": "quartz-crystal",
+      "name": "Quartz crystal",
+      "family": "mineral",
+      "form": "part",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "A slice of quartz that vibrates at a fixed rate when a current passes through it. It keeps the time in a quartz clock or watch.",
+      "photo": "quartz crystal",
+      "identity": {
+        "wikidata": "Q43010"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Quartz",
+          "url": "https://en.wikipedia.org/wiki/Quartz"
+        }
+      ]
+    },
+    {
+      "id": "jet",
+      "name": "Jet",
+      "family": "organic-stone",
+      "form": "raw",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "A black fossil wood that polishes to a deep shine; Queen Victoria's mourning after 1861 made it the jewel of grief.",
+      "photo": "jet",
+      "identity": {
+        "wikidata": "Q543694"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Jet (gemstone)",
+          "url": "https://en.wikipedia.org/wiki/Jet_(gemstone)"
+        }
+      ]
+    },
+    {
+      "id": "cobalt-oxide",
+      "name": "Cobalt oxide",
+      "family": "pigment",
+      "form": "powder",
+      "senses": [],
+      "aliases": [
+        "cobalt blue"
+      ],
+      "photo": "a small heap of cobalt oxide powder",
+      "identity": {
+        "wikidata": "Q726248"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Cobalt oxide",
+          "url": "https://en.wikipedia.org/wiki/Cobalt_oxide"
+        }
+      ]
+    },
+    {
+      "id": "copper-oxide",
+      "name": "Copper oxide",
+      "family": "pigment",
+      "form": "powder",
+      "senses": [],
+      "photo": "a small heap of copper oxide powder",
+      "identity": {
+        "wikidata": "Q1253275"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Copper oxide",
+          "url": "https://en.wikipedia.org/wiki/Copper_oxide"
+        }
+      ]
+    },
+    {
+      "id": "iron-oxide",
+      "name": "Iron oxide",
+      "family": "pigment",
+      "form": "powder",
+      "senses": [],
+      "aliases": [
+        "red iron oxide",
+        "rust"
+      ],
+      "photo": "a small heap of iron oxide powder",
+      "identity": {
+        "wikidata": "Q721849"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Iron oxide",
+          "url": "https://en.wikipedia.org/wiki/Iron_oxide"
+        }
+      ]
+    },
+    {
+      "id": "luminous-paint",
+      "name": "Luminous paint",
+      "family": "pigment",
+      "form": "coating",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Paint that glows in the dark. Radium salts gave the glow until the 1970s, then tritium, and from the middle 1990s strontium aluminate.",
+      "photo": "a square sample panel finished with luminous paint",
+      "identity": {
+        "wikidata": "Q266545"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Luminous paint",
+          "url": "https://en.wikipedia.org/wiki/Luminous_paint"
+        }
+      ]
+    },
+    {
+      "id": "ochre",
+      "name": "Ochre",
+      "family": "pigment",
+      "form": "powder",
+      "senses": [],
+      "aliases": [
+        "ochre"
+      ],
+      "photo": "a small heap of ochre powder",
+      "identity": {
+        "wikidata": "Q12353401"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ochre",
+          "url": "https://en.wikipedia.org/wiki/Ochre"
+        }
+      ]
+    },
+    {
+      "id": "tin-oxide",
+      "name": "Tin oxide",
+      "family": "pigment",
+      "form": "powder",
+      "senses": [],
+      "made_from": [
+        "tin"
+      ],
+      "photo": "a small heap of tin oxide powder",
+      "identity": {
+        "wikidata": "Q205123"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Tin oxide",
+          "url": "https://en.wikipedia.org/wiki/Tin_oxide"
+        }
+      ]
+    },
+    {
+      "id": "ultramarine",
+      "name": "Ultramarine (lapis lazuli)",
+      "family": "pigment",
+      "form": "powder",
+      "senses": [],
+      "aliases": [
+        "ultramarine"
+      ],
+      "photo": "a small heap of ultramarine powder",
+      "identity": {
+        "wikidata": "Q219660"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ultramarine",
+          "url": "https://en.wikipedia.org/wiki/Ultramarine"
+        }
+      ]
+    },
+    {
+      "id": "uranium-oxide",
+      "name": "Uranium oxide",
+      "family": "pigment",
+      "form": "powder",
+      "senses": [],
+      "photo": "a small heap of uranium oxide powder",
+      "identity": {
+        "wikidata": "Q2500122"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Uranium oxide",
+          "url": "https://en.wikipedia.org/wiki/Uranium_oxide"
+        }
+      ]
+    },
+    {
+      "id": "salt",
+      "name": "Salt",
+      "family": "salt",
+      "form": "powder",
+      "senses": [],
+      "aliases": [
+        "sea salt",
+        "rock salt"
+      ],
+      "photo": "a small heap of salt powder",
+      "identity": {
+        "wikidata": "Q11254"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Salt",
+          "url": "https://en.wikipedia.org/wiki/Salt"
+        }
+      ]
+    },
+    {
+      "id": "sand",
+      "name": "Sand (silica)",
+      "family": "sand",
+      "form": "powder",
+      "senses": [],
+      "aliases": [
+        "sand"
+      ],
+      "photo": "a small heap of sand powder",
+      "identity": {
+        "wikidata": "Q34679"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Sand",
+          "url": "https://en.wikipedia.org/wiki/Sand"
+        }
+      ]
+    },
+    {
+      "id": "alabaster",
+      "name": "Alabaster",
+      "family": "stone",
+      "form": "block",
+      "senses": [],
+      "made_from": [
+        "gypsum"
+      ],
+      "aliases": [
+        "alabaster"
+      ],
+      "photo": "a rough block of alabaster",
+      "identity": {
+        "wikidata": "Q143447"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Alabaster",
+          "url": "https://en.wikipedia.org/wiki/Alabaster"
+        }
+      ]
+    },
+    {
+      "id": "granite",
+      "name": "Granite",
+      "family": "stone",
+      "form": "block",
+      "senses": [
+        "industrial.materials"
+      ],
+      "properties": {
+        "warmth": 0.3
+      },
+      "photo": "a rough block of granite",
+      "identity": {
+        "wikidata": "Q41177"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Granite",
+          "url": "https://en.wikipedia.org/wiki/Granite"
+        }
+      ]
+    },
+    {
+      "id": "limestone",
+      "name": "Limestone",
+      "family": "stone",
+      "form": "block",
+      "senses": [
+        "industrial.materials"
+      ],
+      "properties": {
+        "warmth": 0.5
+      },
+      "photo": "a rough block of limestone",
+      "identity": {
+        "wikidata": "Q23757"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Limestone",
+          "url": "https://en.wikipedia.org/wiki/Limestone"
+        }
+      ]
+    },
+    {
+      "id": "local-stone",
+      "name": "Fieldstone and local stone",
+      "family": "stone",
+      "form": "block",
+      "senses": [],
+      "aliases": [
+        "local stone",
+        "existing stone",
+        "fieldstone",
+        "carved stone",
+        "stone veneer",
+        "polished stone veneer",
+        "pietra serena"
+      ],
+      "photo": "a rough block of fieldstone and local stone",
+      "identity": {
+        "wikidata": "Q1402843"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Fieldstone",
+          "url": "https://en.wikipedia.org/wiki/Fieldstone"
+        }
+      ]
+    },
+    {
+      "id": "marble",
+      "name": "Marble",
+      "family": "stone",
+      "form": "block",
+      "senses": [
+        "industrial.materials"
+      ],
+      "properties": {
+        "warmth": 0.35
+      },
+      "photo": "a rough block of marble",
+      "identity": {
+        "wikidata": "Q40861"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Marble",
+          "url": "https://en.wikipedia.org/wiki/Marble"
+        }
+      ]
+    },
+    {
+      "id": "onyx",
+      "name": "Onyx",
+      "family": "stone",
+      "form": "raw",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "A banded black or white chalcedony; the black onyx band gave the hard contrast of Art Deco jewellery.",
+      "photo": "onyx",
+      "identity": {
+        "wikidata": "Q180884"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Onyx",
+          "url": "https://en.wikipedia.org/wiki/Onyx"
+        }
+      ]
+    },
+    {
+      "id": "slate",
+      "name": "Slate",
+      "family": "stone",
+      "form": "block",
+      "senses": [
+        "industrial.materials"
+      ],
+      "properties": {
+        "warmth": 0.3
+      },
+      "photo": "a rough block of slate",
+      "identity": {
+        "wikidata": "Q207079"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Slate",
+          "url": "https://en.wikipedia.org/wiki/Slate"
+        }
+      ]
+    },
+    {
+      "id": "travertine",
+      "name": "Travertine",
+      "family": "stone",
+      "form": "block",
+      "senses": [
+        "industrial.materials"
+      ],
+      "properties": {
+        "warmth": 0.55
+      },
+      "photo": "a rough block of travertine",
+      "identity": {
+        "wikidata": "Q187156"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Travertine",
+          "url": "https://en.wikipedia.org/wiki/Travertine"
+        }
+      ]
+    }
+  ]
+}

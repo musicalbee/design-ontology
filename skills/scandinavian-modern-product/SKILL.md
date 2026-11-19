@@ -166,6 +166,15 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
 
+### Electroplating (process)
+
+An electric current puts a thin layer of one metal on a part of another metal. Silver, gold, nickel and chromium plate give a cheap base metal a precious or hard surface. Origin: industrial design, Birmingham, United Kingdom, 1840.
+
+- Clean and degrease the base part, then put it in a bath of a salt of the coating metal.
+- Connect the part to the negative pole and a bar of the coating metal to the positive pole.
+- Pass a direct current until the layer is 0.5 to 25 µm thick.
+- Put a copper or nickel under-layer on steel and zinc before a bright top layer.
+
 ### Laminated timber (material)
 
 Thin boards or veneers glued in layers, so that wood forms long spans, bent shapes and large panels. Origin: architecture, Weimar, 1906.
