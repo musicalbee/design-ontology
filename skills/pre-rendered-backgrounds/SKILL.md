@@ -166,7 +166,7 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Pre-rendered background (process, invented here)
 
-Render a room or a street offline in 3D software, then show it as a fixed image behind a real-time figure or a cursor. Origin: video game, Spokane, Washington, 1993.
+Render a room or a street offline in 3D software, then show it as a fixed image behind a real-time figure or a cursor. Origin: video game, Spokane, Washington (the Cyan studio in 1993), 1993.
 
 - Fix the camera for each view and compose it like a film frame.
 - Render the background with offline light: soft shadows and many lamps.
@@ -178,7 +178,7 @@ Render a room or a street offline in 3D software, then show it as a fixed image 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Broderbund** (publisher, Novato, ?–now), funded the style. US software publisher. It released Myst for Mac OS in 1993. Myst became its best selling title.
-- **Cyan Worlds** (studio, Mead, Washington, 1987–now), launched the style. An American studio that made Myst from pre-rendered still images.
+- **Cyan Worlds** (studio, Mead, Washington (in Spokane at the 1987 founding), 1987–now), launched the style. An American studio that made Myst from pre-rendered still images.
 - **Square** (studio, Tokyo, 1986–2003), made the style. A Japanese game studio known for role-playing games with rich 16-bit pixel art and pre-rendered 3D rooms.
 
 ## Permutations

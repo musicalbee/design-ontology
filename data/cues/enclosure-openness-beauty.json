@@ -1,0 +1,40 @@
+{
+  "$schema": "../../schema/cue.schema.json",
+  "id": "enclosure-openness-beauty",
+  "name": "Open rooms are judged more beautiful than enclosed rooms",
+  "variable": "enclosure",
+  "direction": {
+    "change": "less",
+    "unit": "perceived enclosure (enclosed to open)",
+    "range": {
+      "from": "enclosed",
+      "to": "open"
+    }
+  },
+  "effects": [
+    {
+      "target": "beauty",
+      "sign": 1,
+      "size": "not-reported"
+    },
+    {
+      "target": "uneasiness",
+      "sign": -1,
+      "size": "not-reported"
+    }
+  ],
+  "evidence_kind": "measured",
+  "claim": "In an fMRI study, people judged open rooms more beautiful and more often chose to leave enclosed rooms.",
+  "study": {
+    "participants": null,
+    "setting": "lab"
+  },
+  "caveat": "Image stimuli in a scanner; we read the findings from summaries of the abstract, and the sample size and ceiling values are not confirmed.",
+  "weak": true,
+  "sources": [
+    {
+      "title": "Vartanian et al. 2015, Architectural design and the brain: ceiling height and perceived enclosure, Journal of Environmental Psychology 41",
+      "url": "https://doi.org/10.1016/j.jenvp.2014.11.006"
+    }
+  ]
+}

@@ -456,10 +456,10 @@ flowchart LR
     geometric_sans["Geometric sans"]
     neo_grotesque_sans["Neo-grotesque sans"]
   end
-  subgraph game_arcade_age["Video game · Arcade age · 1971–1983"]
+  subgraph game_arcade_age["Video game · Arcade age · 1971–1985"]
     vector_display_arcade["Vector display arcade"]
   end
-  subgraph game_tile_and_sprite["Video game · Tile and sprite · 1983–1996"]
+  subgraph game_tile_and_sprite["Video game · Tile and sprite · 1983–2002"]
     eight_bit_tile["8-bit tile graphics"]
     isometric_pixel_world["Isometric pixel world"]
     sixteen_bit_sprite["16-bit sprite and parallax"]
@@ -1523,7 +1523,6 @@ flowchart LR
   solid_glyph_icon --> duotone_icon
   country_sporting_tweed --> early_mountaineering
   swiss_international --> editorial_serif_revival
-  vector_display_arcade --> eight_bit_tile
   biodesign_car --> electric_minimal_car
   victorian_trademark --> emblem_badge
   victorian_boot --> english_welted_dress_shoe
@@ -1539,7 +1538,6 @@ flowchart LR
   didone_serif --> fat_face_display
   pointillism --> fauvism
   art_deco_tableware --> fiesta_colourware
-  vector_display_arcade --> fifth_gen_low_poly
   new_colour --> film_grain_revival
   street_photography --> film_grain_revival
   german_expressionist_cinema --> film_noir
@@ -2684,6 +2682,8 @@ flowchart LR
   linkStyle 611 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 612 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 613 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 1066 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1067 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1068 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1069 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1070 stroke:#E5484D,stroke-width:1.5px
@@ -2913,8 +2913,6 @@ flowchart LR
   linkStyle 1294 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1295 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1296 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1297 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1298 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 
@@ -3032,8 +3030,10 @@ A mood is the first thing a brief asks for and the last thing a style file says 
 
 - [`data/emotions/`](data/emotions/) holds 30 terms. 21 are the subscales of AESTHEMOS, the Aesthetic Emotions Scale (Schindler et al., PLOS ONE 2017): beauty, fascination, being moved, awe, enchantment, nostalgia, joy, humour, vitality, energy, relaxation, surprise, interest, intellectual challenge, insight, ugliness, boredom, confusion, anger, uneasiness, sadness. 9 are culture words that other languages lack: hygge, koselig, wabi-sabi, mono no aware, yūgen, saudade, Sehnsucht, toska, duende.
 - Each term has a point in PAD space (pleasure, arousal, dominance; Mehrabian & Russell 1974), so an agent can move between moods. The PAD values are our own estimates and say so in `pad.source`.
-- [`data/evokes/`](data/evokes/) links styles to emotions, one file for each domain. Each edge has evidence of one kind: `measured` (a study with people), `stated` (an open source says it) or `inferred` (read from our own `emotion.keywords`). The first pass is all `inferred`. A sourced edge replaces it, and `npm run emotions:infer` keeps sourced edges when it runs again.
-- [`graph/emotions.json`](graph/emotions.json) ranks the carriers of each emotion by strength × evidence weight (measured 1, stated 0.7, inferred 0.3).
+- [`data/evokes/`](data/evokes/) links styles to emotions, one file for each domain. Each edge has evidence of one kind: `measured` (a study with people), `stated` (an open source says it) or `inferred` (read from our own `emotion.keywords`). The first pass is all `inferred`. A sourced item goes on the same edge, next to the `inferred` item, and the build ranks an edge by its best evidence. `npm run emotions:infer` keeps sourced edges when it runs again.
+- [`data/cues/`](data/cues/) holds 19 cues. A cue is a measured link from one physical variable (ceiling height, curvature, colour temperature, illuminance, saturation, brightness, view to nature, enclosure, prospect and refuge, daylight, sound) to an emotion or a PAD axis. Each cue gives a direction, a range in units, the study with its participants, and a caveat. A cue marked `weak` is a heuristic, not a result.
+- [`data/moments/`](data/moments/) holds 32 moments: light of the day, Nordic seasons, rituals, life events and 10 film scenes. Each moment gives emotions, time, sun elevation, colour temperature, lux, weather, sound, scent, people, carrier styles and the cues it sets. A film scene is a Wikidata id, a minute range and our own description, with no stills and no quotes. A range marked `estimate` has no timing source.
+- [`graph/emotions.json`](graph/emotions.json) ranks the carriers of each emotion by strength × evidence weight (measured 1, stated 0.7, inferred 0.3). It also lists the cues and the moments of each emotion (`cues_by_emotion`, `moments_by_emotion`), and each moment with its scene settings (`moments`).
 
 ## Status
 

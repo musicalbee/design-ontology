@@ -195,7 +195,6 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more retro and eerie**: move toward [`low-poly-ps1-revival`](../low-poly-ps1-revival/SKILL.md) (Low-poly PS1 revival). Keep the polygons; push the fog, the jitter and the dark palette.
 - If the user asks for **more polished**: move toward [`cel-shaded-3d`](../cel-shaded-3d/SKILL.md) (Cel-shaded 3D). Keep the shapes; add outlines and a 2-step light ramp.
 
-- **Came from (go here for a more orthodox version):** [`vector-display-arcade`](../vector-display-arcade/SKILL.md)
 - **Led to (go here for a newer version):** [`cel-shaded-3d`](../cel-shaded-3d/SKILL.md), [`hand-painted-texture`](../hand-painted-texture/SKILL.md), [`low-poly-ps1-revival`](../low-poly-ps1-revival/SKILL.md), [`seventh-gen-desaturated`](../seventh-gen-desaturated/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`sixteen-bit-sprite`](../sixteen-bit-sprite/SKILL.md)
 - **Mixes well with:** [`pre-rendered-backgrounds`](../pre-rendered-backgrounds/SKILL.md)

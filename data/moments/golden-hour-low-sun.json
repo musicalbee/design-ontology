@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schema/moment.schema.json",
+  "id": "golden-hour-low-sun",
+  "name": "Golden hour, low sun across the room",
+  "kind": "daily",
+  "description": "The low sun lays long warm stripes across the floor and the walls just before sunset.",
+  "emotions": [
+    {
+      "emotion": "beauty",
+      "strength": 1
+    },
+    {
+      "emotion": "nostalgia",
+      "strength": 0.7
+    },
+    {
+      "emotion": "relaxation",
+      "strength": 0.6
+    },
+    {
+      "emotion": "mono-no-aware",
+      "strength": 0.4
+    }
+  ],
+  "time": {
+    "of_day": [
+      "golden-hour"
+    ],
+    "season": [
+      "any"
+    ],
+    "sun_elevation_deg": {
+      "min": -4,
+      "max": 6
+    }
+  },
+  "light": {
+    "cct_k": {
+      "min": 2000,
+      "max": 3500
+    },
+    "lux": {
+      "min": 400,
+      "max": 10000
+    },
+    "direction": "low-side",
+    "quality": "hard",
+    "sources": [
+      "sun"
+    ]
+  },
+  "weather": [
+    "clear"
+  ],
+  "sound": [
+    "birds",
+    "distant traffic"
+  ],
+  "scent": [],
+  "people": {
+    "min": 0,
+    "max": 4,
+    "activity": "sit, read or talk by the window"
+  },
+  "carriers": {
+    "styles": [
+      "scandinavian-interior",
+      "mid-century-modern-interior",
+      "scandinavian-interior-photography"
+    ],
+    "things": [
+      "linen curtain",
+      "oak floor",
+      "long shadow"
+    ]
+  },
+  "cues": [
+    "daylight-windows-wellbeing",
+    "bright-light-intensifies-emotion"
+  ],
+  "scene_ref": null,
+  "sources": [
+    {
+      "title": "Wikipedia, Golden hour (photography): sun elevation and colour temperature",
+      "url": "https://en.wikipedia.org/wiki/Golden_hour_(photography)"
+    },
+    {
+      "title": "Wikipedia, Lux: table of typical illuminance from moonlight to direct sun",
+      "url": "https://en.wikipedia.org/wiki/Lux"
+    }
+  ]
+}

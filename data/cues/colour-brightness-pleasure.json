@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schema/cue.schema.json",
+  "id": "colour-brightness-pleasure",
+  "name": "Brighter colours are more pleasant and less dominant",
+  "variable": "brightness",
+  "direction": {
+    "change": "higher",
+    "unit": "Munsell value",
+    "range": {
+      "from": 2,
+      "to": 8
+    },
+    "note": "The Munsell range is the usual chip range, not a value from the paper."
+  },
+  "effects": [
+    {
+      "target": "pad:p",
+      "sign": 1,
+      "size": "large"
+    },
+    {
+      "target": "pad:a",
+      "sign": -1,
+      "size": "medium"
+    },
+    {
+      "target": "pad:d",
+      "sign": -1,
+      "size": "large"
+    }
+  ],
+  "evidence_kind": "measured",
+  "claim": "Colour brightness predicted pleasure strongly and arousal and dominance in the opposite direction, more than hue did.",
+  "study": {
+    "participants": null,
+    "setting": "lab"
+  },
+  "caveat": "Colour chips, not rooms; the weights (pleasure .69, arousal -.31, dominance -.76) come from a quoted abstract and need a check against the paper.",
+  "sources": [
+    {
+      "title": "Valdez and Mehrabian 1994, Effects of color on emotions, Journal of Experimental Psychology: General 123(4)",
+      "url": "https://doi.org/10.1037/0096-3445.123.4.394"
+    }
+  ]
+}

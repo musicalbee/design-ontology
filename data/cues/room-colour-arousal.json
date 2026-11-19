@@ -1,0 +1,34 @@
+{
+  "$schema": "../../schema/cue.schema.json",
+  "id": "room-colour-arousal",
+  "name": "A strongly coloured room raises arousal",
+  "variable": "saturation",
+  "direction": {
+    "change": "more",
+    "unit": "room colour scheme",
+    "range": {
+      "from": "grey",
+      "to": "strong colours and patterns"
+    }
+  },
+  "effects": [
+    {
+      "target": "pad:a",
+      "sign": 1,
+      "size": "medium"
+    }
+  ],
+  "evidence_kind": "measured",
+  "claim": "In three experiments, strong colours and patterns made the brain more excited than a grey room, and introverts and people in a bad mood reacted more.",
+  "study": {
+    "participants": null,
+    "setting": "lab"
+  },
+  "caveat": "The abstract is qualitative, and a later paper reports a higher heart rate in the blue room than in the red room, so do not encode a red-versus-blue direction.",
+  "sources": [
+    {
+      "title": "Kuller, Mikellides and Janssens 2009, Color, arousal, and performance: a comparison of three experiments, Color Research and Application 34(2)",
+      "url": "https://doi.org/10.1002/col.20476"
+    }
+  ]
+}
