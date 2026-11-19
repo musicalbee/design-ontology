@@ -13,7 +13,7 @@
     ["photography.html", "Photography"], ["film.html", "Film and video"], ["painting.html", "Painting"],
     ["logo.html", "Logo"], ["icon.html", "Icons"], ["typeface.html", "Typefaces"], ["print.html", "Print"], ["fashion.html", "Fashion"], ["ceramics.html", "Ceramics"], ["cuisine.html", "Cuisine"], ["game.html", "Video games"],
   ];
-  const ACROSS = [["graph.html", "Lineage"], ["techniques.html", "Techniques"], ["people.html", "People"], ["money.html", "Money"]];
+  const ACROSS = [["graph.html", "Lineage"], ["techniques.html", "Techniques"], ["people.html", "People"], ["money.html", "Money"], ["emotions.html", "Emotions"]];
   // A sub-page marks its parent domain as current: the moodboards are part of Interior.
   const PARENT = { "moodboard.html": "interior.html", "objects.html": "interior.html", "fabrics.html": "fashion.html", "glazes.html": "ceramics.html" };
   const file = location.pathname.split("/").pop() || "index.html";
@@ -100,7 +100,7 @@
   /* Narrow: the brand and the GitHub link go, and the views across domains move into the dropdown. */
   @media (max-width: 860px) { .do-bar { padding: 0 8px; gap: 6px; } .do-brand, .do-gh, .do-links { display: none; } .do-menu .do-narrow { display: block; }
     .do-menu hr.do-narrow { display: block; } .do-styles { width: auto; flex: 1 1 auto; min-width: 0; } .do-dom .do-label { max-width: 26vw; overflow: hidden; text-overflow: ellipsis; }
-    .do-bar.do-bare .do-links { display: flex; } }
+    .do-bar.do-bare .do-links { display: flex; flex: 1 1 auto; min-width: 0; overflow-x: auto; scrollbar-width: none; } }
   @media (prefers-reduced-motion: reduce) { .do-drawer, .do-drawer.open, .do-btn { transition: none; } }`;
   if (!document.querySelector('link[href*="family=Onest"]')) {
     const font = document.createElement("link");
