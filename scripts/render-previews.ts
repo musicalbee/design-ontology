@@ -26,7 +26,7 @@ const dry = args.includes("--dry-run");
 // current model, the guard words and the vision check. The other images stay as they are.
 // The paths are made relative to the repo, so "./demo/..." and an absolute path match too.
 const redo = new Set<string>(opt("redo") ? JSON.parse(readFileSync(opt("redo")!, "utf8")).map((x: any) => relative(process.cwd(), resolve(x.path))) : []);
-if (!domain) throw new Error("Give --domain photography|film|painting|interior|architecture|logo|icon|internet|graphic-movement");
+if (!domain) throw new Error("Give --domain photography|film|painting|interior|architecture|logo|icon|internet|graphic-movement|ceramics|fashion|cuisine");
 
 type Override = { subject?: string; size?: keyof typeof SIZES; drop?: string; scene?: string };
 const subjects = JSON.parse(readFileSync("scripts/previews/subjects.json", "utf8")) as {
@@ -65,7 +65,7 @@ const sizeFor = (s: any) => SIZES[override(s).size ?? "landscape"];
 // A style override can also drop primer words that only that style has (a frame motif, a shaped canvas).
 const keep = (s: any) => { const own = override(s).drop ? new RegExp(override(s).drop!, "i") : null; return (w: string) => !drop?.test(w) && !own?.test(w); };
 const promptFor = (s: any) =>
-  [subjectFor(s), ...positive(s).filter(keep(s)), ...(dom.suffix ? [dom.suffix] : [])].join(", ");
+  [subjectFor(s) + scene(s), ...positive(s).filter(keep(s)), ...(dom.suffix ? [dom.suffix] : [])].join(", ");
 
 // The frames of a set domain. A shot that needs readable text (a card, a phone screen) is left out.
 type Frame = { label: string; prompt: string; size?: string; lens?: string; movement?: string; seconds?: number };
@@ -82,6 +82,7 @@ const fit = (subject: string) => (w: string) => PERSON.test(subject) || !BODY.te
 const OTHER_SHOT = /\b((extreme |medium |wide |long |full |whole-body |establishing |insert |two[- ])shots?|close-ups?|cuts?|montage|split screen|sequence|\d+\s*planes)\b/i;
 // A shot label such as "payoff" or "whip transition" names a beat, not a scene. With no scene the model drew an
 // empty sky or a fist on green. A style override "scene" gives each frame of that style the place and the people.
+// In a single-picture domain, "scene" follows the subject of the style.
 const scene = (s: any) => { const x = override(s).scene; return x ? `, ${x}` : ""; };
 const frames = (s: any): Frame[] => {
   // The suffix is not filtered: "interface" in it holds "face".
