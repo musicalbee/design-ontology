@@ -112,6 +112,7 @@
       ],
       "summary": "A cloth laminated to a membrane of stretched PTFE with pores too small for water and large enough for vapour; first sold in garments in 1976.",
       "made_from": [
+        "ptfe",
         "nylon",
         "polyester"
       ],
@@ -135,10 +136,6 @@
         "fashion.fabrics"
       ],
       "summary": "A foamed chloroprene rubber between knit faces; Hugh Bradner used it for the wetsuit in 1952, and fashion took it in the 2010s.",
-      "made_from": [
-        "polyester",
-        "nylon"
-      ],
       "photo": "a folded swatch of neoprene",
       "identity": {
         "wikidata": "Q143937"
@@ -160,7 +157,7 @@
       ],
       "summary": "A paper-like sheet of flash-spun fibre; designers use it for jackets and bags that look like envelopes.",
       "made_from": [
-        "uhmwpe"
+        "hdpe"
       ],
       "photo": "a folded swatch of flash-spun polyethylene",
       "identity": {
@@ -206,7 +203,8 @@
         "paint"
       ],
       "aliases": [
-        "acrylic"
+        "acrylics",
+        "liquid acrylic"
       ],
       "photo": "a small glass dish of acrylic paint",
       "identity": {
@@ -394,6 +392,26 @@
       ]
     },
     {
+      "id": "hdpe",
+      "name": "High-density polyethylene",
+      "family": "plastic",
+      "form": "raw",
+      "senses": [],
+      "aliases": [
+        "hdpe"
+      ],
+      "photo": "high-density polyethylene",
+      "identity": {
+        "wikidata": "Q2641430"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: High-density polyethylene",
+          "url": "https://en.wikipedia.org/wiki/High-density_polyethylene"
+        }
+      ]
+    },
+    {
       "id": "plastic",
       "name": "Plastic",
       "family": "plastic",
@@ -430,6 +448,27 @@
         {
           "title": "Wikipedia: Polycarbonate",
           "url": "https://en.wikipedia.org/wiki/Polycarbonate"
+        }
+      ]
+    },
+    {
+      "id": "ptfe",
+      "name": "Polytetrafluoroethylene",
+      "family": "plastic",
+      "form": "raw",
+      "senses": [],
+      "aliases": [
+        "ptfe",
+        "teflon"
+      ],
+      "photo": "polytetrafluoroethylene",
+      "identity": {
+        "wikidata": "Q143252"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Polytetrafluoroethylene",
+          "url": "https://en.wikipedia.org/wiki/Polytetrafluoroethylene"
         }
       ]
     },

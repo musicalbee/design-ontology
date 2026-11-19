@@ -110,11 +110,19 @@ export function checkLayer(L: Layer): string[] {
         stack.push(...(L.byId.get(x)?.[k] ?? []));
       }
     }
+  // An explicit alias must not take a key that the build derives from another node's id or name.
+  const derived = derivedKeys(L);
+  for (const m of L.byId.values()) {
+    const d = derived.get(nameKey(m));
+    if (d !== m.id) errors.push(`data/materials/${m.class}.json: ${m.id}: the name "${m.name}" gives the key "${nameKey(m)}", which is the id of ${d}`);
+  }
   const aliases = new Map<string, string>();
   for (const m of L.byId.values())
     for (const a of m.aliases ?? []) {
       if (a !== a.toLowerCase()) errors.push(`data/materials/${m.class}.json: ${m.id}: alias "${a}" is not lower case`);
       if (aliases.has(a) && aliases.get(a) !== m.id) errors.push(`data/materials/${m.class}.json: ${m.id}: alias "${a}" is also on ${aliases.get(a)}`);
+      const d = derived.get(a);
+      if (d && d !== m.id) errors.push(`data/materials/${m.class}.json: ${m.id}: alias "${a}" is the id or the name of ${d}`);
       aliases.set(a, m.id);
     }
   // The edges.
@@ -137,26 +145,45 @@ export function checkLayer(L: Layer): string[] {
 }
 
 // ── Free text to material ids ─────────────────────────────────────────────────────────────────────────────────────
-/** Match one free-text material string ("oil on canvas", "stucco on brick") to material ids. */
+/** A word that says the text names an imitation, not the material: "faux fur", "vegan leather". */
+const NEGATE = /(^|[\s-])(faux|imitation|fake|vegan|mock|simulated|artificial)([\s-]|$)/;
+const esc = (a: string) => a.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+/** Match one free-text material string ("oil on canvas", "copper roofing") to material ids. */
 export function matchText(text: string, alias: Map<string, string>): string[] {
   const t = text.toLowerCase().replace(/\s+/g, " ").trim();
   if (alias.has(t)) return [alias.get(t)!];
   const out: string[] = [];
-  for (const part of t.split(/\s*(?:,| and | or | on | with |\(|\))\s*/).map((x) => x.trim()).filter(Boolean)) {
+  for (const part of t.split(/\s*(?:,|;| and | or | on | with | over |\(|\))\s*/).map((x) => x.trim()).filter(Boolean)) {
+    if (NEGATE.test(part)) continue;
     if (alias.has(part)) { out.push(alias.get(part)!); continue; }
-    // The longest alias that is a whole-word part of the string: "quarter-sawn oak" → oak.
-    let best = "";
-    for (const a of alias.keys()) if (a.length > best.length && new RegExp(`(^|[\\s-])${a.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}$`).test(part)) best = a;
-    if (best) out.push(alias.get(best)!);
+    // Each alias that is a whole-word run anywhere in the part. A longer alias wins over a shorter one
+    // that it covers: "laminated veneer lumber" is one material, "copper roofing" → copper.
+    const hits: { a: string; from: number; to: number }[] = [];
+    for (const a of alias.keys()) {
+      const re = new RegExp(`(^|[\\s-])(${esc(a)})(?=[\\s-]|$)`, "g");
+      for (let m; (m = re.exec(part)); ) hits.push({ a, from: m.index + m[1].length, to: m.index + m[1].length + a.length });
+    }
+    hits.sort((x, y) => y.a.length - x.a.length);
+    const taken: [number, number][] = [];
+    for (const h of hits) {
+      if (taken.some(([f, e]) => h.from < e && f < h.to)) continue;
+      taken.push([h.from, h.to]);
+      out.push(alias.get(h.a)!);
+    }
   }
   return [...new Set(out)];
 }
-export function aliasMap(L: Layer): Map<string, string> {
+const nameKey = (x: Material) => x.name.toLowerCase().replace(/\s*\(.*?\)/g, "");
+/** The keys that the build derives from each node: the id with spaces, and the name without a bracket. */
+function derivedKeys(L: Layer): Map<string, string> {
   const m = new Map<string, string>();
-  for (const x of L.byId.values()) {
-    m.set(x.id.replace(/-/g, " "), x.id);
-    m.set(x.name.toLowerCase().replace(/\s*\(.*?\)/g, ""), x.id);
-  }
+  // Names first, so that an id key wins over a name key.
+  for (const x of L.byId.values()) m.set(nameKey(x), x.id);
+  for (const x of L.byId.values()) m.set(x.id.replace(/-/g, " "), x.id);
+  return m;
+}
+export function aliasMap(L: Layer): Map<string, string> {
+  const m = derivedKeys(L);
   for (const x of L.byId.values()) for (const a of x.aliases ?? []) m.set(a, x.id);
   return m;
 }
@@ -192,7 +219,8 @@ export function styleLinks(L: Layer): { links: StyleLink[]; processes: ProcessUs
       for (const [path, use] of text[domain] ?? [])
         for (const t of get(s, path) ?? []) {
           if (typeof t !== "string") continue;
-          const ids = matchText(t, alias);
+          // In painting media, a bare material name means its paint: "acrylic" is acrylic paint.
+          const ids = matchText(t, alias).map((id) => (domain === "painting" && L.byId.has(`${id}-paint`) ? `${id}-paint` : id));
           if (!ids.length) unmatched.push({ domain, text: t });
           for (const id of ids) add(s, id, use, `${path}: "${t}"`);
         }

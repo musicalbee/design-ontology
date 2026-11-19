@@ -97,6 +97,7 @@
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
 const GROUPS = { technique: "Techniques", "cuisine.methods": "Cuisine methods", "ceramics.decorations": "Ceramics decorations", "fashion.finishes": "Fashion finishes", "industrial.finishes": "Industrial finishes" };
+const GROUP_ONE = { technique: "technique", "cuisine.methods": "cuisine method", "ceramics.decorations": "ceramics decoration", "fashion.finishes": "fashion finish", "industrial.finishes": "industrial finish" };
 const USE = { primary: "primary", secondary: "secondary", avoid: "avoid", named: "named" };
 const DOMAIN_PAGE = (d) => `${d}.html`;
 let G, M, P, T, mode = "m", filter = null;
@@ -146,7 +147,7 @@ function renderList() {
   }
 }
 const mlink = (id, extra = "") => { const m = M.get(id); return m ? `<a href="#m=${id}">${esc(m.name)}${extra}</a>` : `<span>${esc(id)}</span>`; };
-const plink = (p) => `<a href="#p=${p.process}">${esc(p.name)} <small>${esc(GROUPS[p.process.split(":")[0]].replace(/s$/, "").toLowerCase())}</small></a>`;
+const plink = (p) => `<a href="#p=${p.process}">${esc(p.name)} <small>${esc(GROUP_ONE[p.process.split(":")[0]])}</small></a>`;
 const slink = (id, extra = "", cls = "") => { const s = G.styles[id]; return s ? `<a class="${cls}" href="${DOMAIN_PAGE(s.domain)}#${id}">${esc(s.name)}${extra}</a>` : ""; };
 function stylesBlock(links) {
   const byDomain = new Map();
