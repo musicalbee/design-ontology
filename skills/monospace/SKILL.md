@@ -147,6 +147,13 @@ Every character takes one cell of the same width, so text forms columns without 
 - Align columns with spaces and set tables, code and forms on the cell grid.
 - On a screen, size the layout in cells: 80 columns by 24 rows is the classic terminal.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Google Fonts** (platform, web, 2010–now), published the style. A free library of web fonts and icons. It serves the Material Symbols icon font and many open sans and serif families.
+- **IBM** (workshop, Armonk, New York, 1911–now), made the style. A maker of office machines and computers. Its typewriters made Courier the common monospace.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

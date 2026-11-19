@@ -146,6 +146,12 @@ Lines cut into a metal plate with a burin; thin hairlines and swelling strokes g
 - Build shade with parallel lines or cross hatching, and keep the lines at 30° to 45° to each other.
 - Print on smooth paper so the hairlines stay clean.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Monotype** (workshop, London and Woburn, Massachusetts, 1887–now), made the style. A maker of typesetting machines and type. It released Gill Sans and revivals of Baskerville and other book faces.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

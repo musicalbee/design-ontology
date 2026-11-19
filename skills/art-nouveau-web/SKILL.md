@@ -256,6 +256,12 @@ A print from a flat stone or plate on which a greasy drawing takes ink and water
 - Use one stone for each colour; 3 to 5 stones give a poster.
 - Keep the soft crayon grain and the dark, velvet black.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Awwwards** (platform, web, 2009–now), published the style. A web site that gives awards to web design. Designers post sites there, and its daily picks spread trends of the expressive web.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

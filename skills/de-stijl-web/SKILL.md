@@ -246,6 +246,12 @@ A plane divided by black horizontal and vertical bars into white fields and a fe
 - Fill one to three fields with red, yellow or blue; leave the rest white or grey.
 - Set the bars at one weight, 1% to 2% of the short side.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Awwwards** (platform, web, 2009–now), published the style. A web site that gives awards to web design. Designers post sites there, and its daily picks spread trends of the expressive web.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

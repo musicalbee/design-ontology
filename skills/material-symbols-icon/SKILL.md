@@ -142,6 +142,12 @@ Letters and marks drawn on a fixed grid of squares and circles, so that each gly
 - Cut every angle to 45° or 90°, or to one other fixed angle.
 - Use one stroke weight for the full set, for example 2 units on a 24 unit canvas.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Google Fonts** (platform, web, 2010–now), published the style. A free library of web fonts and icons. It serves the Material Symbols icon font and many open sans and serif families.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

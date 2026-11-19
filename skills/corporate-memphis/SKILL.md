@@ -257,6 +257,12 @@ A drawing with three axes at equal angles and one scale, with no vanishing point
 - Draw the three axes at 120° to each other; on a pixel grid, use a 2:1 slope (26.57°).
 - Keep one scale on all three axes and draw no vanishing point.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Dribbble** (platform, web, 2009–now), published the style. A web site where designers post small shots of interface work. Several interface trends, neumorphism among them, spread from shots that were posted there.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

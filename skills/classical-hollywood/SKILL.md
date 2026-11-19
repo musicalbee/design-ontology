@@ -210,6 +210,12 @@ A key light, a fill light and a back light on one subject, so that the face is m
 - Set the fill on the other side at 1/4 to 1/2 of the key.
 - Put the back light behind the subject, so that a thin rim of light separates hair and shoulders from the ground.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **RKO Pictures** (studio, Los Angeles, 1928–1959), made the style. A Hollywood studio of the studio era. It made classic Hollywood films and many low-key film noirs, with their publicity stills.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

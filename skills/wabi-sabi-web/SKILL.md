@@ -251,6 +251,12 @@ A thin wash of slaked lime that dries to a soft, matt white with a faint cloud o
 - Keep the finish matt; the surface must take light with no sheen.
 - Use pale tints only: white, sand and chalk blue.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Awwwards** (platform, web, 2009–now), published the style. A web site that gives awards to web design. Designers post sites there, and its daily picks spread trends of the expressive web.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

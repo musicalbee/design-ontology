@@ -252,6 +252,13 @@ Fragments of photographs, cut and joined on one sheet, so that the joins make a 
 - Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.
 - Set type as one more fragment, turned 0° to 30°, in the same stack of layers.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Punk** (magazine, New York, 1975–1979), published the style. A fanzine of the New York punk scene, with hand-lettered pages and comics. It made the word punk a name for the music.
+- **Sniffin' Glue** (magazine, London, 1976–1977), launched the style. A punk zine that Mark Perry typed, cut and photocopied. Its rough paste-up look became the model for punk print.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

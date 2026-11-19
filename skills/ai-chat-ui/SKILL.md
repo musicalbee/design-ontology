@@ -247,6 +247,12 @@ Text that appears word by word as the system writes it, so the reader can read t
 - Keep the bottom line in view while the text grows; stop the auto-scroll when the reader scrolls up.
 - Show one cursor or dot at the end of the text while it is streaming.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **ChatGPT** (platform, web, 2022–now), launched the style. A chat assistant from OpenAI. Its single column of messages and its prompt box became the default look of an AI chat interface.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

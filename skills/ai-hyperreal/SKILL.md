@@ -176,6 +176,12 @@ A model that learns to turn noise into an image step by step, and makes a new im
 - Expect smooth skin, even light and a glossy, over-detailed finish when the prompt gives no flaw.
 - Add a concrete flaw to the prompt, such as grain, a lens fault or a cluttered ground, to break the sheen.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Midjourney** (platform, web, 2022–now), made the style. A service that makes images from text prompts. Its users made and shared the glossy, hyperreal AI image.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

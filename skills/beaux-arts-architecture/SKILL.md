@@ -186,6 +186,12 @@ A curved head over an opening that carries load as compression; inside, a soft f
 - Keep the ratio of height to width of the opening at 1.6:1 to 2:1.
 - In a room, repeat the arch in 2 or 3 places, for example a door, a mirror and a niche, and no more.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **École des Beaux-Arts** (school, Paris, 1648–now), taught the style. The state school of fine arts in Paris. Its architecture course taught axial plans and classical composition to students from many countries.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

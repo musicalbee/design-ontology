@@ -248,6 +248,12 @@ Cotton printed with large flowers and birds, often glazed, used for curtains, co
 - Combine it with one stripe or check in a colour of the flowers.
 - Repeat the same print on 2 to 3 pieces in the room.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **House Beautiful** (magazine, New York, 1896–now), launched the style. An American interior design magazine. In 2019 it named the grandmillennial style.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

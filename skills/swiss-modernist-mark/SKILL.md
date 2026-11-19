@@ -138,6 +138,12 @@ A page or screen divided into equal columns and rows; each element fits a cell o
 - Set text on a baseline grid of one line height, and use 1 to 2 type sizes for each level.
 - Scale an image by a whole number of modules.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Ulm School of Design** (school, Ulm, 1953–1968), taught the style. A school of design that taught system, grid and method. Its teachers worked with Braun and with corporate identity programs.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

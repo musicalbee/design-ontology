@@ -266,6 +266,12 @@ A move speeds up from rest and slows down before it stops, as a real mass does, 
 - Use cubic-bezier(0.4, 0, 0.2, 1) as the standard curve for a move inside the screen.
 - Put more frames at the two ends of a move than in the middle: 2 to 3 times the density.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Consumer Aesthetics Research Institute** (platform, web, ?–now), published the style. An online community that collects and names the looks of consumer goods and media from the 1970s on. It named Y2K and Frutiger Aero as aesthetics.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

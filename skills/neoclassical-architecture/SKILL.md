@@ -186,6 +186,13 @@ Parallel grooves (flutes) or ridges (reeds) on a column, a panel, a leg or a she
 - Run the flutes vertical to make a surface look taller.
 - Use one fluted surface in each room as an accent.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Académie royale d'architecture** (school, Paris, 1671–1816), taught the style. The royal academy of architecture in France. It taught the classical orders and sent its best students to study in Rome.
+- **Society of Dilettanti** (club, London, 1734–now), published the style. A club of gentlemen who studied Greek and Roman art. It paid for the survey books of ancient buildings that architects then copied.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

@@ -203,6 +203,12 @@ A white lamp covered with a sheet of coloured film, so that a set or a face is l
 - Keep the key light at one stop or more above the fill so that the colour reads as shadow and as light.
 - Do not justify the colour with a lamp in the frame; the colour is the mood.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Mondadori** (publisher, Milan, 1907–now), launched the style. An Italian publishing house. Its crime novels with yellow covers gave giallo its name.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

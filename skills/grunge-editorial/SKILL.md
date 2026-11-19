@@ -255,6 +255,13 @@ Fragments of photographs, cut and joined on one sheet, so that the joins make a 
 - Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.
 - Set type as one more fragment, turned 0° to 30°, in the same stack of layers.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Ray Gun** (magazine, Santa Monica, 1992–2000), launched the style. An alternative rock magazine that David Carson art-directed. Its layered, broken type pages defined grunge typography.
+- **The Face** (magazine, London, 1980–2004), published the style. A British magazine of music, fashion and culture. Neville Brody's layouts and type for it changed editorial design in the 1980s.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

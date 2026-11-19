@@ -181,6 +181,12 @@ Lens or camera movements that keep vertical lines parallel and move the plane of
 - Close the lens to f/11 to f/22 for full depth of field.
 - In an editor, use a narrow band of focus and a strong blur outside it to fake a miniature.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Aperture** (publisher, New York, 1952–now), published the style. A publisher of photobooks and a magazine. It published colour work of Stephen Shore and other New Colour photographers.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

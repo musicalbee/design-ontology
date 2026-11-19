@@ -144,6 +144,12 @@ A form shown as one solid shape with no inner line, read only from its outer edg
 - Cut inner detail as gaps of at least 1/16 of the shape width, not as lines.
 - Keep the contrast between shape and ground high.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **The Noun Project** (platform, web, 2010–now), published the style. A web site that collects simple symbols from designers around the world. Its library is a large source of flat and glyph icons.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

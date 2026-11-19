@@ -209,6 +209,12 @@ A small remote-controlled aircraft that carries a camera, so that a shot can fly
 - Keep the horizon level in a calm shot; let it bank only for a fast FPV move.
 - Plan one continuous route; one take holds the scene.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Vimeo** (platform, web, 2004–now), published the style. A video site that film makers use to show their work. Cinematic drone and FPV films spread from it.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

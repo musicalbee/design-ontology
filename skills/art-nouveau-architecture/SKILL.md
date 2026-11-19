@@ -185,6 +185,12 @@ A long S-shaped line whose curve changes along its length, drawn from a plant st
 - Join letters, frame and plant forms with the same line; leave no straight edge to break the flow.
 - Use few colours, 2 to 4, in muted tones.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Exposition Universelle of 1900** (exhibition, Paris, 1900–1900), exhibited the style. A world's fair in Paris at the turn of the century. Art Nouveau buildings, rooms and metro entrances were on show, and the Finnish pavilion had frescoes of national myths.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

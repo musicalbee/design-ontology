@@ -254,6 +254,12 @@ A long S-shaped line whose curve changes along its length, drawn from a plant st
 - Join letters, frame and plant forms with the same line; leave no straight edge to break the flow.
 - Use few colours, 2 to 4, in muted tones.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **San Francisco Oracle** (magazine, San Francisco, 1966–1968), published the style. An underground paper of the Haight-Ashbury scene. It printed rainbow inks over swirling art and lettering.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

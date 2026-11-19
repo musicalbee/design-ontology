@@ -173,6 +173,12 @@ A plane divided by black horizontal and vertical bars into white fields and a fe
 - Fill one to three fields with red, yellow or blue; leave the rest white or grey.
 - Set the bars at one weight, 1% to 2% of the short side.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **De Stijl** (magazine, Leiden, 1917–1932), launched the style. The magazine that Theo van Doesburg edited for the De Stijl group. It printed their theory of pure colour and the straight line.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

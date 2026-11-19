@@ -180,6 +180,12 @@ A flash on the camera that fires straight at the subject, so that faces are brig
 - Stand 1 to 3 m from the subject; let the background fall 2 to 4 stops darker.
 - Keep the red eye, the shine on skin and the hard shadow behind the subject.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Myspace** (platform, web, 2003–now), published the style. A social network of profile pages. Users posted flash digicam photos and filled their pages with glitter, gloss and custom code.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

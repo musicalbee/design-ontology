@@ -258,6 +258,12 @@ Flat layers move at different speeds by their distance, so that a flat picture g
 - Use 3 to 5 layers; more layers add load and no depth.
 - Give a reduced-motion setting that stops the shift of the layers.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **App Store** (platform, online, 2008–now), published the style. The store of Apple for iPhone and iPad apps. Apps and their icons follow the platform look of each era, from leather and glass to flat colour and Liquid Glass, and premium mobile games with a clean art style found a large public there.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

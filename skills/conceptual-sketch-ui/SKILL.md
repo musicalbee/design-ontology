@@ -248,6 +248,12 @@ Lines with a small jitter and a double stroke, so that a drawing on a screen loo
 - Draw each line twice with a small change, as a pencil does.
 - Fill shapes with hatching at 45 degrees, not with flat colour.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Behance** (platform, web, 2005–now), published the style. A web site where designers post portfolios of projects. Concept work for interfaces, logos and illustration spreads from it.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

@@ -180,6 +180,13 @@ A small, quiet camera that takes 36 frames of 24 x 36 mm on cinema film, so that
 - Shoot at 1/125 to 1/500 s, from the hand.
 - Show the full frame; keep the 2:3 format.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Life** (magazine, New York, 1883–2007), published the style. A weekly news magazine built on large photographs. It made the photo essay a main form of documentary photography.
+- **Magnum Photos** (studio, Paris and New York, 1947–now), made the style. A cooperative that its photographers own. Its members made documentary and street photography for magazines.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

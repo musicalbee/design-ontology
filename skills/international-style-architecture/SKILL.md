@@ -190,6 +190,13 @@ A thin outer wall of glass and metal that hangs on the frame of the building and
 - Hang the glass in a grid of mullions at 1.2 to 1.5 m centres.
 - Keep the glass part of the facade above 60%.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Modern Architecture: International Exhibition** (exhibition, New York, 1932–1932), launched the style. A show at the Museum of Modern Art. Its catalogue named the International Style and showed the work of the European modernists to America.
+- **Weissenhof Estate** (exhibition, Stuttgart, 1927–1927), exhibited the style. A housing estate that the Deutscher Werkbund built as an exhibition. Seventeen architects made white, flat-roofed houses side by side.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

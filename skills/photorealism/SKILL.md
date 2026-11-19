@@ -195,6 +195,12 @@ A grid laid over a subject or a photograph and a matching grid on the canvas; th
 - Paint each square at the same focus, with an even grain over the full surface.
 - Scale up by a fixed ratio, for example 10:1.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **documenta** (salon, Kassel, 1955–now), exhibited the style. A large exhibition of contemporary art every five years. Its 1972 edition showed the American photorealists.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

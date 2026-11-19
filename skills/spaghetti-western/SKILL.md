@@ -208,6 +208,12 @@ A frame that holds only a part of a face, such as the eyes; the cut from a wide 
 - Hold each close-up for 2 to 4 seconds and cut back to the wide view when the look ends.
 - In a painting, scale the head to 2 metres or more and keep the focus even over the full face.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Cinecittà** (studio, Rome, 1937–now), made the style. A large film studio in Rome. Many Italian westerns of the 1960s were made in its studios.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
