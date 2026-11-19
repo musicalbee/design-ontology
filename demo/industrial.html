@@ -10,6 +10,33 @@
 <script src="nav.js"></script>
 <script src="meter.js"></script>
 <script src="evidence.js"></script>
+<script src="encyclopedia.js"></script>
 <script src="gallery.js"></script>
+<script>
+// In the rooms: the interior styles whose object net takes this style for a category, as the main style
+// or as an alternate. Each link opens the objects of one room.
+const Rooms = (() => {
+  let nets = null;
+  return {
+    id: "rooms", label: "In the rooms", at: "end",
+    lede: "The interior styles whose object net takes this style for a category, as the main style or as an alternate.",
+    load: (ctx) => { nets = ctx.json("../skills/index.json").then((ix) => Promise.all(ix.skills.filter((x) => x.domain === "interior")
+      .map((x) => ctx.json(`../data/industrial/nets/${x.id}.json`).then((n) => n && { id: x.id, name: x.name, net: n })))).then((l) => l.filter(Boolean)); },
+    render: (el, s, ctx) => nets.then((list) => {
+      if (ctx.current() !== s.id) return;
+      const esc = ctx.esc, cat = (c) => c.replace(/-/g, " ");
+      const rows = list.map((r) => {
+        const main = r.net.categories.filter((c) => c.style === s.id).map((c) => c.category);
+        const alt = r.net.categories.filter((c) => c.alternates.includes(s.id)).map((c) => c.category);
+        return (main.length || alt.length) && { ...r, main, alt };
+      }).filter(Boolean).sort((a, b) => b.main.length - a.main.length);
+      el.innerHTML = rows.length ? `<article class="enc-card full"><div class="enc-body"><div class="enc-scroll"><table><thead><tr><th>Interior style</th><th>Main style for</th><th>Alternate for</th></tr></thead><tbody>${rows.map((r) =>
+        `<tr><td><a href="objects.html#${esc(r.id)}">${esc(r.name)}</a></td><td>${esc(r.main.map(cat).join(", ")) || "–"}</td><td>${esc(r.alt.map(cat).join(", ")) || "–"}</td></tr>`).join("")}</tbody></table></div></div></article>`
+        : `<p class="enc-empty">No interior style takes this style for a category yet.</p>`;
+    }),
+  };
+})();
+Encyclopedia.page({ domain: "industrial", plugins: [Gallery, Rooms] });
+</script>
 </body>
 </html>
