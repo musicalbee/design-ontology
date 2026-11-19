@@ -198,7 +198,7 @@
           "year": { "type": "integer", "minimum": -3000, "maximum": 2100 },
           "credit": { "type": "string", "minLength": 3, "maxLength": 200 },
           "licence": {
-            "enum": ["CC0", "Public domain", "CC BY 2.0", "CC BY 3.0", "CC BY 4.0", "CC BY-SA 3.0", "CC BY-SA 4.0", "OFL-1.1", "MIT", "ISC", "Apache-2.0"]
+            "enum": ["CC0", "Public domain", "CC BY 2.0", "CC BY 3.0", "CC BY 4.0", "CC BY-SA 2.0", "CC BY-SA 3.0", "CC BY-SA 4.0", "OFL-1.1", "MIT", "ISC", "Apache-2.0"]
           },
           "licence_url": { "type": "string", "pattern": "^https://" },
           "url": { "type": "string", "pattern": "^https://", "description": "The page of the item: the Commons file page, the repository or the font page." },

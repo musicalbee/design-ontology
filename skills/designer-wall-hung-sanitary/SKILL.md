@@ -214,7 +214,7 @@ A cool, quiet calm: the viewer sees a plain form that floats, and thinks of a ga
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Wall-hung WC with a flush plate, hotel bathroom](https://commons.wikimedia.org/wiki/File:Park_Plaza_Prenzlauer_Berg_Berlin_room_bathroom.JPG): image, CC BY-SA 3.0. BrokenSphere
+- [Wall-hung WC, Mittenwald, Germany](https://commons.wikimedia.org/wiki/File:Wall_mounted_toilet.jpg): image, CC BY-SA 3.0. Tiia Monto
 - [Duravit works at Hornberg with a giant basin](https://commons.wikimedia.org/wiki/File:Duravit,_Hornberg_(14).jpg) (Duravit): image, CC BY-SA 4.0. © 1971markus
 
 ## Sources

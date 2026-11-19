@@ -218,7 +218,7 @@ Quick, confident glamour: the viewer sees a sharp, long figure in hard colour an
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Ceramic parrot by Rosa Neuwirth](https://commons.wikimedia.org/wiki/File:Rosa_Neuwirth_Papagei_makffm_5569.jpg) (Rosa Neuwirth): image, Public domain. Rosa Neuwirth
+- ["The Captive Bird" by Josef Lorenzl, Goldscheider, 1922](https://commons.wikimedia.org/wiki/File:Goldscheider_-_Gefangener_Vogel.jpg) (Goldscheider): image, CC BY-SA 4.0. Axel Wappendorf
 
 ## Sources
 

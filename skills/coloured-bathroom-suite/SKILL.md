@@ -1,6 +1,6 @@
 ---
 name: coloured-bathroom-suite
-description: "Apply the Coloured bathroom suite style (1928–1975) when specifying, sourcing or prompting fired clay: tableware, teaware, kitchen and storage ware, vases and display vessels, figures, tiles, architectural ceramics and sanitary and technical ware. Load when the user asks for: pink bathroom suite, avocado bathroom, coloured sanitary ware, mid-century bathroom, matching bathroom fixtures, pastel toilet."
+description: "Apply the Coloured bathroom suite style (1927–1975) when specifying, sourcing or prompting fired clay: tableware, teaware, kitchen and storage ware, vases and display vessels, figures, tiles, architectural ceramics and sanitary and technical ware. Load when the user asks for: pink bathroom suite, avocado bathroom, coloured sanitary ware, mid-century bathroom, matching bathroom fixtures, pastel toilet."
 domain: ceramics
 era: modern-ceramics
 triggers:
@@ -24,7 +24,7 @@ vector_profile:
 
 A bath, a basin and a WC glazed in the same strong colour: pink, green, blue, yellow or later avocado. The even gloss glaze and the matching set make the bathroom a room of colour.
 
-**Period:** 1928–1975 · **Era:** Modern ceramics · **Domain:** Ceramics · **Also called:** Pastel bathroom suite, Pink and green sanitary ware, Matching coloured fixtures
+**Period:** 1927–1975 · **Era:** Modern ceramics · **Domain:** Ceramics · **Also called:** Pastel bathroom suite, Pink and green sanitary ware, Matching coloured fixtures
 
 ## When to load this skill
 

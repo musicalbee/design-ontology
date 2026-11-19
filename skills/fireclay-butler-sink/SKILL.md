@@ -208,7 +208,7 @@ A calm, working weight: the viewer sees a sink that serves a house, and thinks o
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Glazed ceramic sink with a circled overflow hole](https://commons.wikimedia.org/wiki/File:Bathroom_sink_with_overflow_hole_circled.jpg): image, Public domain. Thryduulf
+- [Fireclay butler sinks, used again as planters](https://commons.wikimedia.org/wiki/File:Butler_sinks_opposite_The_Harrow_-_geograph.org.uk_-_2126640.jpg): image, CC BY-SA 2.0. Basher Eyre
 
 ## Sources
 

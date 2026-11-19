@@ -213,7 +213,7 @@ Light, sunny play: the viewer sees a plain pot turn into an owl or a faun with o
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Vallauris art pottery, 1930s](https://commons.wikimedia.org/wiki/File:Vallauris_poterie_d%27art.jpg): image, Public domain. Unknown
+- [White earthenware dish by Picasso with a profile in relief, Vallauris](https://commons.wikimedia.org/wiki/File:Plat_Picasso.jpg) (Pablo Picasso): image, CC BY-SA 4.0. Syngata
 - [Vase by Jean Gerbino, Vallauris](https://commons.wikimedia.org/wiki/File:Vase_Jean_Gerbino_Vallauris.jpg) (Jean Gerbino): image, CC BY-SA 3.0. Bachelot Pierre J-P
 
 ## Sources

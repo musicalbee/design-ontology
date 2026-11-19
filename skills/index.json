@@ -35241,6 +35241,84 @@
       }
     },
     {
+      "id": "coloured-bathroom-suite",
+      "name": "Coloured bathroom suite",
+      "domain": "ceramics",
+      "era": "modern-ceramics",
+      "period": "1927–1975",
+      "thesis": "Sanitary ware can be a colour of the room, and one even glaze on every piece makes a bathroom that matches.",
+      "summary": "A bath, a basin and a WC glazed in the same strong colour: pink, green, blue, yellow or later avocado. The even gloss glaze and the matching set make the bathroom a room of colour.",
+      "path": "skills/coloured-bathroom-suite/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "pink bathroom suite",
+        "avocado bathroom",
+        "coloured sanitary ware",
+        "mid-century bathroom",
+        "matching bathroom fixtures",
+        "pastel toilet"
+      ],
+      "use_cases": [
+        "a mid-century interior prompt",
+        "a film set for a 1950s house",
+        "a retro bathroom brief with matching tiles"
+      ],
+      "emotion": [
+        "cheerful",
+        "matched",
+        "soft",
+        "clean",
+        "modern"
+      ],
+      "archetypes": [
+        "innocent",
+        "everyman"
+      ],
+      "vectors": {
+        "ornamentation": 2,
+        "hand_mark": 1,
+        "refinement": 3,
+        "glaze_depth": 2,
+        "chromatic_intensity": 5
+      },
+      "techniques": [
+        "slip-casting"
+      ],
+      "media": [
+        "kohler-co"
+      ],
+      "permutations": {
+        "ornament_level": {
+          "default": 0.2,
+          "min": 0,
+          "max": 0.4
+        },
+        "glaze_gloss": {
+          "default": 90,
+          "min": 75,
+          "max": 98
+        },
+        "wall_thickness": {
+          "default": 11,
+          "min": 8,
+          "max": 16,
+          "note": "The wall of a vitreous basin is thinner than the wall of a fireclay bath."
+        },
+        "hand_mark": {
+          "default": 0.1,
+          "min": 0,
+          "max": 0.3
+        },
+        "era_blend": {
+          "default": 0.2,
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
       "id": "art-deco-tableware",
       "name": "Art Deco tableware",
       "domain": "ceramics",
@@ -35312,84 +35390,6 @@
           "default": 0.5,
           "min": 0.3,
           "max": 0.7
-        },
-        "era_blend": {
-          "default": 0.2,
-          "min": 0,
-          "max": 1
-        }
-      }
-    },
-    {
-      "id": "coloured-bathroom-suite",
-      "name": "Coloured bathroom suite",
-      "domain": "ceramics",
-      "era": "modern-ceramics",
-      "period": "1928–1975",
-      "thesis": "Sanitary ware can be a colour of the room, and one even glaze on every piece makes a bathroom that matches.",
-      "summary": "A bath, a basin and a WC glazed in the same strong colour: pink, green, blue, yellow or later avocado. The even gloss glaze and the matching set make the bathroom a room of colour.",
-      "path": "skills/coloured-bathroom-suite/SKILL.md",
-      "tokens": null,
-      "pack": null,
-      "visual": null,
-      "triggers": [
-        "pink bathroom suite",
-        "avocado bathroom",
-        "coloured sanitary ware",
-        "mid-century bathroom",
-        "matching bathroom fixtures",
-        "pastel toilet"
-      ],
-      "use_cases": [
-        "a mid-century interior prompt",
-        "a film set for a 1950s house",
-        "a retro bathroom brief with matching tiles"
-      ],
-      "emotion": [
-        "cheerful",
-        "matched",
-        "soft",
-        "clean",
-        "modern"
-      ],
-      "archetypes": [
-        "innocent",
-        "everyman"
-      ],
-      "vectors": {
-        "ornamentation": 2,
-        "hand_mark": 1,
-        "refinement": 3,
-        "glaze_depth": 2,
-        "chromatic_intensity": 5
-      },
-      "techniques": [
-        "slip-casting"
-      ],
-      "media": [
-        "kohler-co"
-      ],
-      "permutations": {
-        "ornament_level": {
-          "default": 0.2,
-          "min": 0,
-          "max": 0.4
-        },
-        "glaze_gloss": {
-          "default": 90,
-          "min": 75,
-          "max": 98
-        },
-        "wall_thickness": {
-          "default": 11,
-          "min": 8,
-          "max": 16,
-          "note": "The wall of a vitreous basin is thinner than the wall of a fireclay bath."
-        },
-        "hand_mark": {
-          "default": 0.1,
-          "min": 0,
-          "max": 0.3
         },
         "era_blend": {
           "default": 0.2,

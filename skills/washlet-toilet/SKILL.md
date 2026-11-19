@@ -153,7 +153,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | Work | Maker | Year |
 |---|---|---|
 | Washlet G, first model of the line | Toto | 1980 |
-| Neorest one-piece toilet | Toto | 2002 |
+| Neorest one-piece toilet | Toto | 1993 |
 
 ## Techniques
 

@@ -6070,6 +6070,21 @@
       }
     },
     {
+      "id": "coloured-bathroom-suite",
+      "domain": "ceramics",
+      "name": "Coloured bathroom suite",
+      "era": "modern-ceramics",
+      "start": 1927,
+      "end": 1975,
+      "vectors": {
+        "ornamentation": 2,
+        "hand_mark": 1,
+        "refinement": 3,
+        "glaze_depth": 2,
+        "chromatic_intensity": 5
+      }
+    },
+    {
       "id": "art-deco-tableware",
       "domain": "ceramics",
       "name": "Art Deco tableware",
@@ -6081,21 +6096,6 @@
         "hand_mark": 3,
         "refinement": 2,
         "glaze_depth": 1,
-        "chromatic_intensity": 5
-      }
-    },
-    {
-      "id": "coloured-bathroom-suite",
-      "domain": "ceramics",
-      "name": "Coloured bathroom suite",
-      "era": "modern-ceramics",
-      "start": 1928,
-      "end": 1975,
-      "vectors": {
-        "ornamentation": 2,
-        "hand_mark": 1,
-        "refinement": 3,
-        "glaze_depth": 2,
         "chromatic_intensity": 5
       }
     },
@@ -35480,6 +35480,41 @@
         "ash-glazing"
       ]
     },
+    "coloured-bathroom-suite": {
+      "evolved_from": [
+        "victorian-sanitary-ware"
+      ],
+      "evolved_into": [
+        "designer-wall-hung-sanitary",
+        "washlet-toilet"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "art-deco-tableware"
+      ],
+      "echoes": [
+        "art-deco-product",
+        "streamline-moderne-product"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "fiesta-colourware",
+          "distance": 1.41
+        },
+        {
+          "id": "art-deco-ceramic-figures",
+          "distance": 2.45
+        },
+        {
+          "id": "art-deco-faience-facade",
+          "distance": 2.45
+        }
+      ],
+      "techniques": [
+        "slip-casting"
+      ]
+    },
     "art-deco-tableware": {
       "evolved_from": [
         "art-nouveau-ceramics"
@@ -35519,41 +35554,6 @@
       ],
       "techniques": [
         "sunburst"
-      ]
-    },
-    "coloured-bathroom-suite": {
-      "evolved_from": [
-        "victorian-sanitary-ware"
-      ],
-      "evolved_into": [
-        "designer-wall-hung-sanitary",
-        "washlet-toilet"
-      ],
-      "rebelled_against": [],
-      "provoked": [],
-      "hybridized_with": [
-        "art-deco-tableware"
-      ],
-      "echoes": [
-        "art-deco-product",
-        "streamline-moderne-product"
-      ],
-      "nearest_by_vector": [
-        {
-          "id": "fiesta-colourware",
-          "distance": 1.41
-        },
-        {
-          "id": "art-deco-ceramic-figures",
-          "distance": 2.45
-        },
-        {
-          "id": "art-deco-faience-facade",
-          "distance": 2.45
-        }
-      ],
-      "techniques": [
-        "slip-casting"
       ]
     },
     "bauhaus-modern-tableware": {

@@ -127,6 +127,7 @@ function draw() {
   let h = "";
   for (const yr of [-500, 1000, 1450, 1550, 1650, 1750, 1840, 1860, 1880, 1900, 1920, 1940, 1960, 1980, 2000, 2020])
     h += `<line class="grid${yr === BREAK ? " break" : ""}" x1="${x(yr)}" x2="${x(yr)}" y1="22" y2="${height - 4}"/><text class="tick" x="${x(yr)}" y="16" text-anchor="middle">${tickLabel(yr)}</text>`;
+  h += `<line class="grid break" x1="${x(Y_MIN)}" x2="${x(Y_MIN)}" y1="22" y2="${height - 4}"/>`;
   h += `<text class="tick" x="${(x(Y_MIN) + x(BREAK)) / 2}" y="${height - 1}" text-anchor="middle">compressed scale</text>`;
   let top = 30;
   for (const g of groups) {

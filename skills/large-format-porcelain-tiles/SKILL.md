@@ -216,7 +216,7 @@ A calm, large and silent surface: the viewer sees a wall that seems to have no s
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Porcelain stoneware floor tile, 17 by 17 cm](https://commons.wikimedia.org/wiki/File:GOLEM_Feinsteinzeugfliese_SF_556_A._Bodenfliese_in_17_x_17cm.jpg): image, CC BY 4.0. GOLEM Kunst und Baukeramik
+- [Polished porcelain floor tiles in a large format](https://commons.wikimedia.org/wiki/File:Polished_Porcelain_Floor_Tiling.jpg): image, CC BY-SA 4.0. ColumbD
 
 ## Sources
 
