@@ -242,7 +242,7 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Backdrop blur (technology)
 
-A translucent layer that blurs what is behind it, so that a panel reads as frosted glass over the content. Origin: graphic & ui design, United States, 2013.
+A translucent layer that blurs what is behind it, so that a panel reads as frosted glass over the content. Origin: graphic & ui design, Redmond, United States, 2007.
 
 - Blur the backdrop by 10 to 40 px.
 - Give the panel a white or black tint of 10% to 40% opacity.
