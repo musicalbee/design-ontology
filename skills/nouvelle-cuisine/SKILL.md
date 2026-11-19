@@ -93,6 +93,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Primary:** salmon · sole · shellfish · duck · foie-gras · seasonal-greens · butter · cream
 - **Secondary:** wild-mushrooms · asparagus · truffle · orchard-fruit · fine-herbs · carrot · lemon · wine · vinegar · egg · veal · berries
 - **Avoid:** lard · soy-sauce · sodium-alginate · chilli
+- **In europe:** yes
 - **Rule:** Choose the fish, the vegetables and the herbs that the market has that morning, and use cream and butter in small amounts to finish a sauce.
 
 ## Technique
@@ -215,7 +216,7 @@ Food is sealed in a bag and cooked in a water bath at an exact low temperature, 
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Gault et Millau guide** (magazine, Paris, 1969–now), published the style. A French restaurant guide and monthly founded by Henri Gault and Christian Millau. It marks restaurants from 1 to 20 and in 1973 it printed the ten characteristics of nouvelle cuisine.
+- **Gault et Millau guide** (magazine, Paris, 1969–now), published the style. A French restaurant guide and monthly founded by Henri Gault and Christian Millau: the monthly Le Nouveau Guide began in 1969, the yearly guide book in 1972. It marks restaurants from 1 to 20 and in 1973 it printed the ten characteristics of nouvelle cuisine.
 
 ## Permutations
 

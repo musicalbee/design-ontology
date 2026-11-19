@@ -22,7 +22,7 @@ vector_profile:
 
 > The top of the table does not need an animal: with skill, time and ferments, a carrot, a beet or a nut can carry the weight that foie gras and beef once carried.
 
-A tasting-menu kitchen that uses no meat, fish, dairy, egg or honey. It gives the luxury of the old menu to vegetables, grains, nuts and ferments. Eleven Madison Park in New York changed to such a menu in 2021 under Daniel Humm.
+A tasting-menu kitchen that uses no meat, fish, dairy, egg or honey. It gives the luxury of the old menu to vegetables, grains, nuts and ferments. Eleven Madison Park in New York changed to such a menu in 2021 under Daniel Humm, and put some animal products back in 2025.
 
 **Period:** 2021–present · **Era:** Terroir and plant · **Domain:** Cuisine · **Also called:** Vegan tasting menu, Plant-led haute cuisine, Fine dining without animal products
 
@@ -90,6 +90,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Primary:** carrot · root-vegetables · wild-mushrooms · nuts-seeds · pulses · tofu · potato
 - **Secondary:** cabbage · leek · tomato · asparagus · artichoke · seasonal-greens · onion · olive-oil · vinegar · miso · kombu · cocoa · orchard-fruit · cane-sugar · berries · fine-herbs
 - **Avoid:** butter · cream · egg · honey · beef · foie-gras · cheese
+- **In europe:** no — the values here translate a print style for screen
 - **Rule:** Use only plant products; take depth from ferments, dried mushrooms, nuts and slow roasting, and take the vegetables from farms near the kitchen.
 
 ## Technique
@@ -168,7 +169,7 @@ Vegetables in a salt brine are soured by lactic bacteria; the acid and the savou
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Eleven Madison Park** (company, New York, 1998–now), launched the style. A restaurant on Madison Square in New York; under Daniel Humm it changed in 2021 to a tasting menu of plant-based food only.
+- **Eleven Madison Park** (company, New York, 1998–now), launched the style. A restaurant on Madison Square in New York; under Daniel Humm it changed in 2021 to a tasting menu of plant-based food only, and put some animal products back in 2025.
 
 ## Permutations
 

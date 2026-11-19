@@ -91,6 +91,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Primary:** beef · egg · potato · xanthan-gum · agar · liquid-nitrogen · sodium-alginate
 - **Secondary:** pork · chicken · salmon · tuna · shellfish · cream · butter · cheese · cocoa · vanilla · orchard-fruit · fine-herbs · olive-oil · soy-lecithin · carrot · wild-plants
 - **Avoid:** lard
+- **In europe:** no — the values here translate a print style for screen
 - **Rule:** Choose the best raw product, cook it by measurement, and add gums, gels and gases only where they give a better texture.
 
 ## Technique

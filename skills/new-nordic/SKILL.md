@@ -91,6 +91,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Primary:** wild-plants · root-vegetables · shellfish · berries · rye · seasonal-greens · wild-mushrooms · venison
 - **Secondary:** asparagus · cod · oyster · butter · cream · honey · egg · pork · cheese · orchard-fruit · vinegar · game-birds
 - **Avoid:** olive-oil · lemon · tomato · foie-gras
+- **In europe:** yes
 - **Rule:** Take every item from the Nordic region and its season; give acid from vinegar, sorrel, unripe fruit or ferment, not from citrus.
 
 ## Technique
