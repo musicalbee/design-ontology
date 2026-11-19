@@ -172,7 +172,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`art-nouveau-monogram`](../art-nouveau-monogram/SKILL.md), [`emblem-badge`](../emblem-badge/SKILL.md)
 - **Was rejected by:** [`swiss-modernist-mark`](../swiss-modernist-mark/SKILL.md)
 - **Mixes well with:** [`emblem-badge`](../emblem-badge/SKILL.md)
-- **Kin in another domain:** [`fat-face-display`](../fat-face-display/SKILL.md), [`victorian-interior`](../victorian-interior/SKILL.md), [`victorian-web`](../victorian-web/SKILL.md)
+- **Kin in another domain:** [`engraving-print`](../engraving-print/SKILL.md), [`fat-face-display`](../fat-face-display/SKILL.md), [`victorian-interior`](../victorian-interior/SKILL.md), [`victorian-web`](../victorian-web/SKILL.md), [`wood-type-poster`](../wood-type-poster/SKILL.md)
 - **Nearest by vector profile:** [`emblem-badge`](../emblem-badge/SKILL.md), [`art-nouveau-monogram`](../art-nouveau-monogram/SKILL.md), [`glossy-3d-logo`](../glossy-3d-logo/SKILL.md)
 
 ## Emotional target

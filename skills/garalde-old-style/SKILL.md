@@ -186,7 +186,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`humanist-sans`](../humanist-sans/SKILL.md), [`transitional-serif`](../transitional-serif/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`blackletter`](../blackletter/SKILL.md)
 - **Was rejected by:** [`didone-serif`](../didone-serif/SKILL.md), [`geometric-sans`](../geometric-sans/SKILL.md)
-- **Kin in another domain:** [`renaissance-architecture`](../renaissance-architecture/SKILL.md), [`renaissance-painting`](../renaissance-painting/SKILL.md)
+- **Kin in another domain:** [`private-press-book`](../private-press-book/SKILL.md), [`renaissance-architecture`](../renaissance-architecture/SKILL.md), [`renaissance-painting`](../renaissance-painting/SKILL.md)
 - **Nearest by vector profile:** [`transitional-serif`](../transitional-serif/SKILL.md), [`formal-script`](../formal-script/SKILL.md), [`humanist-sans`](../humanist-sans/SKILL.md)
 
 ## Emotional target

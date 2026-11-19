@@ -1,0 +1,69 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "letterpress",
+  "name": "Letterpress",
+  "aliases": [
+    "Relief printing from type",
+    "Movable type printing"
+  ],
+  "kind": "process",
+  "summary": "Printing from raised metal or wood type and blocks, locked in a forme and pressed into the paper.",
+  "how": [
+    "Set the type by hand from a case, letter by letter, and justify each line with spaces in the composing stick.",
+    "Lock the type, the rules and the blocks in a chase, ink the forme with rollers and press it into the sheet.",
+    "Dampen a soft rag paper so that the type bites 0.1–0.3 mm into it.",
+    "Print each ink from a separate forme or a separate pull, and register them by pins or lays."
+  ],
+  "origin": {
+    "domain": "typeface",
+    "year": 1454,
+    "where": "Mainz",
+    "note": "Johannes Gutenberg prints the 42-line Bible from cast metal type in a screw press.",
+    "styles": [
+      "blackletter"
+    ]
+  },
+  "adoptions": [
+    {
+      "domain": "print",
+      "year": 1828,
+      "via": "Poster printers set large wood letters in the same press as metal type and print show bills by the hundred.",
+      "styles": [
+        "wood-type-poster"
+      ]
+    },
+    {
+      "domain": "print",
+      "year": 1891,
+      "via": "William Morris returns to the hand press, handmade paper and a heavy cast type at the Kelmscott Press.",
+      "styles": [
+        "private-press-book"
+      ]
+    },
+    {
+      "domain": "print",
+      "year": 1896,
+      "circa": true,
+      "via": "Newspaper comics print from line plates and type on rotary letterpress, with Ben-Day tints on the colour plates.",
+      "styles": [
+        "ben-day-comic-print"
+      ]
+    }
+  ],
+  "styles": [
+    "blackletter",
+    "wood-type-poster",
+    "private-press-book",
+    "ben-day-comic-print"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Letterpress printing",
+      "url": "https://en.wikipedia.org/wiki/Letterpress_printing"
+    },
+    {
+      "title": "Wikipedia: Printing press",
+      "url": "https://en.wikipedia.org/wiki/Printing_press"
+    }
+  ]
+}

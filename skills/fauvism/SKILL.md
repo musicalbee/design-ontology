@@ -204,7 +204,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more abstract and structural**: move toward [`cubism-painting`](../cubism-painting/SKILL.md) (Cubism). Keep the flat patches; cut the palette to 3–4 earth hues, break the subject into tilted planes, and show more than one viewpoint.
 
 - **Came from (go here for a more orthodox version):** [`pointillism`](../pointillism/SKILL.md)
-- **Kin in another domain:** [`new-colour`](../new-colour/SKILL.md)
+- **Kin in another domain:** [`new-colour`](../new-colour/SKILL.md), [`pochoir-plate`](../pochoir-plate/SKILL.md)
 - **Nearest by vector profile:** [`expressionism-painting`](../expressionism-painting/SKILL.md), [`post-impressionism`](../post-impressionism/SKILL.md), [`futurism-painting`](../futurism-painting/SKILL.md)
 
 ## Emotional target

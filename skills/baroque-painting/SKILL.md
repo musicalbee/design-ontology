@@ -177,6 +177,15 @@ A hard contrast of light and dark that models form: one strong source, deep shad
 - Set the key light to fill light at a ratio of 8:1 or more for a dramatic mood.
 - Cut hard shapes into the light with blinds, grilles or foliage so that the shadow becomes a pattern.
 
+### Etching (process)
+
+An intaglio print from a metal plate whose lines a needle draws through an acid-resistant ground and an acid then bites. Origin: print, Basel, 1513.
+
+- Coat the plate with a ground of wax, resin and asphalt and draw through it with a needle of 0.2–0.5 mm.
+- Bite the plate in acid in stages; stop out the light lines with varnish after 5–10 minutes and bite the dark lines again.
+- Ink the plate, wipe the surface with tarlatan, and leave a film of plate tone where a soft dark is needed.
+- Print on dampened paper on a roller press, so that the plate leaves a mark round the image.
+
 ## Media
 
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.
@@ -204,7 +213,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`renaissance-painting`](../renaissance-painting/SKILL.md)
 - **Led to (go here for a newer version):** [`rococo-painting`](../rococo-painting/SKILL.md)
-- **Kin in another domain:** [`baroque-architecture`](../baroque-architecture/SKILL.md), [`film-noir-still`](../film-noir-still/SKILL.md), [`food-photography`](../food-photography/SKILL.md), [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md)
+- **Kin in another domain:** [`baroque-architecture`](../baroque-architecture/SKILL.md), [`etching-print`](../etching-print/SKILL.md), [`film-noir-still`](../film-noir-still/SKILL.md), [`food-photography`](../food-photography/SKILL.md), [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md), [`mezzotint-print`](../mezzotint-print/SKILL.md)
 - **Nearest by vector profile:** [`realism-painting`](../realism-painting/SKILL.md), [`rococo-painting`](../rococo-painting/SKILL.md), [`photorealism`](../photorealism/SKILL.md)
 
 ## Emotional target

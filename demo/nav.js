@@ -8,7 +8,7 @@
   const DOMAINS = [
     ["index.html", "Design"], ["architecture.html", "Architecture"], ["interior.html", "Interior"],
     ["photography.html", "Photography"], ["film.html", "Film and video"], ["painting.html", "Painting"],
-    ["logo.html", "Logo"], ["icon.html", "Icons"], ["typeface.html", "Typefaces"], ["game.html", "Video games"],
+    ["logo.html", "Logo"], ["icon.html", "Icons"], ["typeface.html", "Typefaces"], ["print.html", "Print"], ["game.html", "Video games"],
     ["graph.html", "Lineage graph"], ["techniques.html", "Techniques"], ["people.html", "People"],
   ];
   // A sub-page marks its parent domain as current: the moodboards are part of Interior.

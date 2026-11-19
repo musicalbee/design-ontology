@@ -1,0 +1,243 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "engraving-print",
+  "domain": "print",
+  "name": "Copper engraving",
+  "aliases": [
+    "Line engraving",
+    "Burin engraving",
+    "Kupferstich",
+    "Intaglio engraving"
+  ],
+  "era_id": "hand-press",
+  "time_period": {
+    "start": 1430,
+    "end": 1800,
+    "label": "1430s–1800"
+  },
+  "region": "The Upper Rhine, Nuremberg, Antwerp and Haarlem",
+  "summary": "A picture cut into a copper plate with a burin, inked into the grooves and printed under great pressure. Schongauer and Dürer made it an art; Goltzius made the swelling line a show of skill; for three centuries it reproduced paintings and maps.",
+  "philosophy": {
+    "core_thesis": "A burin line that swells and tapers in polished copper gives the finest and most even tone that a hand can make.",
+    "design_principles": [
+      "Build every tone from lines that swell in the middle and taper at both ends.",
+      "Lay the lines in systems: parallel lines for a half tone, a second set crossed at 30–45° for the shadow, and dots in the gaps (dot-and-lozenge) for the deepest dark.",
+      "Turn each line round the form, like the lines of a contour map, so the swell shows the light.",
+      "Keep the line pitch at 80–150 a inch; the eye at reading distance sees a grey, not lines.",
+      "Leave a clear plate mark 10–20 mm outside the image, with the title and the names of the designer and the engraver in the margin.",
+      "Print in one black or dark brown ink on dampened paper."
+    ],
+    "anti_patterns": [
+      "Lines of one even width",
+      "Hatching that does not follow the form",
+      "A soft, grained tone with no lines",
+      "A coloured fill or a flat area of solid ink",
+      "Trimmed margins that cut off the plate mark"
+    ]
+  },
+  "vectors": {
+    "tone_method": 3,
+    "ink_layering": 1,
+    "registration_play": 1,
+    "surface_relief": 4,
+    "hand_trace": 3
+  },
+  "process": {
+    "family": "intaglio",
+    "matrix": "A polished copper plate, 1–2 mm thick, cut with a lozenge-section burin pushed by the palm.",
+    "press": "A roller press with felt blankets that pushes the dampened paper into the grooves.",
+    "image_making": "The engraver transfers the drawing, cuts the lines, removes the burr with a scraper, and proofs the plate in states.",
+    "edition": "Some hundreds of good impressions before the lines wear; later plates were steel-faced for thousands."
+  },
+  "inks": {
+    "strategy": "One stiff black or brown-black ink, rubbed into the lines and wiped from the surface.",
+    "ink_count_min": 1,
+    "ink_count_max": 1,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Frankfurt black",
+        "hex": "#141414",
+        "role": "all lines"
+      }
+    ]
+  },
+  "screening": {
+    "method": "line",
+    "ruling_lpi": 90,
+    "angles": [
+      20
+    ],
+    "rule": "Make the tone with swelling burin lines at 80–150 a inch, crossed in the shadows."
+  },
+  "registration": {
+    "tolerance_mm": 0,
+    "rule": "One plate prints all the image; there is no register."
+  },
+  "substrate": {
+    "stock": "Laid rag paper made by hand, dampened before the print.",
+    "weight_gsm_min": 80,
+    "weight_gsm_max": 160,
+    "ground": "#F1EAD9",
+    "finish": "Laid or later wove, soft and with little sizing so that it takes the ink from the lines."
+  },
+  "surface": {
+    "impression": "A deep plate mark round the image and a sharp relief of each line, which a finger can feel.",
+    "sheen": "The ink stands up from the paper with a slight gloss.",
+    "texture": "A silver-grey of fine lines; under a lens each line has a pointed start and end."
+  },
+  "artefacts": {
+    "marks": [
+      "plate mark",
+      "plate tone in the margins",
+      "swelling and tapering lines",
+      "dot-and-lozenge in shadows",
+      "a worn, grey late impression",
+      "lettering in the lower margin"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "copper engraving",
+      "burin line",
+      "swelling engraved lines",
+      "cross-hatching",
+      "Goltzius engraving",
+      "plate mark",
+      "old master print",
+      "black and white intaglio"
+    ],
+    "negative": [
+      "grey wash",
+      "halftone",
+      "colour",
+      "smooth gradient",
+      "vector line of one width"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Melencolia I",
+      "kind": "image",
+      "maker": "Albrecht Dürer",
+      "year": 1514,
+      "credit": "The Metropolitan Museum of Art, Open Access",
+      "licence": "CC0",
+      "url": "https://www.metmuseum.org/art/collection/search/336228",
+      "file": "https://images.metmuseum.org/CRDImages/dp/web-large/DP820348.jpg"
+    },
+    {
+      "title": "Ecce Homo, from \"The Passion of Christ\"",
+      "kind": "image",
+      "maker": "Hendrick Goltzius",
+      "year": 1597,
+      "credit": "The Metropolitan Museum of Art, Open Access",
+      "licence": "CC0",
+      "url": "https://www.metmuseum.org/art/collection/search/398213",
+      "file": "https://images.metmuseum.org/CRDImages/dp/web-large/DP820991.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "woodcut-relief-print"
+    ],
+    "echoes": [
+      "didone-serif",
+      "victorian-trademark"
+    ]
+  },
+  "emotion": {
+    "target_response": "Precision and authority: the viewer trusts a picture of skilled, patient work.",
+    "keywords": [
+      "precise",
+      "learned",
+      "silvery",
+      "formal",
+      "official"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "engraving",
+      "copper engraving",
+      "line engraving",
+      "banknote engraving",
+      "old master print",
+      "burin",
+      "cross-hatching illustration",
+      "engraved portrait"
+    ],
+    "use_cases": [
+      "portraits for certificates and banknotes",
+      "maps and scientific plates",
+      "luxury labels",
+      "book frontispieces"
+    ],
+    "avoid_when": [
+      "The image needs colour or a soft, loose line.",
+      "The brand wants to look casual or playful."
+    ],
+    "modifiers": [
+      {
+        "request": "looser and freer",
+        "toward": "etching-print",
+        "how": "Draw the lines in a wax ground with a needle and bite them in acid; the line is even and free, not swelled."
+      },
+      {
+        "request": "softer tone",
+        "toward": "mezzotint-print",
+        "how": "Rock the plate to a grain and scrape the lights, so the tone has no lines."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#141414",
+      "options": [
+        "#141414",
+        "#2E2018"
+      ]
+    },
+    "paper_colour": {
+      "default": "#F1EAD9",
+      "options": [
+        "#F1EAD9",
+        "#F6F2E8"
+      ]
+    },
+    "ink_count": {
+      "default": 1,
+      "min": 1,
+      "max": 1
+    },
+    "screen_ruling": {
+      "default": 90,
+      "min": 60,
+      "max": 150
+    },
+    "misregistration": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    }
+  },
+  "sources": [
+    {
+      "title": "Engraving (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Engraving"
+    },
+    {
+      "title": "Old master print (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Old_master_print"
+    },
+    {
+      "title": "Antony Griffiths, Prints and Printmaking (British Museum Press, 1996)"
+    }
+  ]
+}
