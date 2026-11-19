@@ -10,10 +10,11 @@
 <script src="nav.js"></script>
 <script src="meter.js"></script>
 <script src="evidence.js"></script>
+<script src="encyclopedia.js"></script>
 <script src="gallery.js"></script>
 <script>
 // The glaze time line is the other view of this domain: every clay body, glaze and decoration, with the styles that use it.
-document.querySelector("main header").insertAdjacentHTML("beforeend", '<p class="meta"><a href="glazes.html">History of clay and glaze: every body, glaze and decoration on one time line</a></p>');
+Encyclopedia.page({ domain: "ceramics", plugins: [Gallery], links: [["glazes.html", "History of clay and glaze: every body, glaze and decoration on one time line"]] });
 </script>
 </body>
 </html>
