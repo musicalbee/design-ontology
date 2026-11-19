@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schema/moment.schema.json",
+  "id": "christmas-eve-dinner",
+  "name": "Christmas Eve dinner (julaften)",
+  "kind": "ritual",
+  "description": "Church bells ring at five, the family eats the Christmas meal, then opens gifts by the tree.",
+  "emotions": [
+    {
+      "emotion": "joy",
+      "strength": 1
+    },
+    {
+      "emotion": "nostalgia",
+      "strength": 0.8
+    },
+    {
+      "emotion": "koselig",
+      "strength": 0.9
+    },
+    {
+      "emotion": "being-moved",
+      "strength": 0.5
+    },
+    {
+      "emotion": "enchantment",
+      "strength": 0.5
+    }
+  ],
+  "time": {
+    "of_day": [
+      "evening"
+    ],
+    "season": [
+      "winter"
+    ],
+    "sun_elevation_deg": {
+      "min": -20,
+      "max": -6
+    }
+  },
+  "light": {
+    "cct_k": {
+      "min": 1850,
+      "max": 2700
+    },
+    "lux": {
+      "min": 10,
+      "max": 150
+    },
+    "direction": "low-side",
+    "quality": "soft",
+    "sources": [
+      "candle",
+      "lamp",
+      "fire"
+    ]
+  },
+  "weather": [
+    "snow",
+    "indoors"
+  ],
+  "sound": [
+    "church bells",
+    "carols",
+    "paper torn from gifts"
+  ],
+  "scent": [
+    "pine needles",
+    "ribbe",
+    "oranges",
+    "cloves"
+  ],
+  "people": {
+    "min": 4,
+    "max": 16,
+    "activity": "eat, sing and walk around the tree"
+  },
+  "carriers": {
+    "styles": [
+      "scandinavian-interior",
+      "victorian-interior",
+      "arts-and-crafts-interior"
+    ],
+    "things": [
+      "Christmas tree",
+      "candles",
+      "red tablecloth",
+      "gifts"
+    ]
+  },
+  "cues": [
+    "warm-dim-light-positive-affect",
+    "kruithof-cct-illuminance"
+  ],
+  "scene_ref": null,
+  "sources": [
+    {
+      "title": "Wikipedia, Christmas in Norway: dinner at about five on 24 December, gifts after the meal",
+      "url": "https://en.wikipedia.org/wiki/Christmas_in_Norway"
+    }
+  ]
+}

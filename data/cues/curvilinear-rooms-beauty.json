@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schema/cue.schema.json",
+  "id": "curvilinear-rooms-beauty",
+  "name": "Curvilinear rooms are judged more beautiful",
+  "variable": "curvature",
+  "direction": {
+    "change": "more-curved",
+    "unit": "room contour",
+    "range": {
+      "from": "rectilinear",
+      "to": "curvilinear"
+    }
+  },
+  "effects": [
+    {
+      "target": "beauty",
+      "sign": 1,
+      "size": "medium"
+    },
+    {
+      "target": "pad:p",
+      "sign": 1,
+      "size": "medium"
+    }
+  ],
+  "evidence_kind": "measured",
+  "claim": "People judged photos of curvilinear interiors as beautiful more often than rectilinear ones, and pleasantness explained most of the beauty ratings.",
+  "study": {
+    "participants": null,
+    "setting": "lab"
+  },
+  "caveat": "Photographs in an fMRI scanner; contour did not change the decision to enter or leave, so do not use curvature as an approach cue.",
+  "sources": [
+    {
+      "title": "Vartanian et al. 2013, Impact of contour on aesthetic judgments and approach-avoidance decisions in architecture, PNAS 110 Suppl 2",
+      "url": "https://doi.org/10.1073/pnas.1301227110"
+    }
+  ]
+}
