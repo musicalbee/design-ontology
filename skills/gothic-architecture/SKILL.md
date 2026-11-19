@@ -212,7 +212,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md)
 - **Was rejected by:** [`renaissance-architecture`](../renaissance-architecture/SKILL.md)
-- **Kin in another domain:** [`blackletter`](../blackletter/SKILL.md)
+- **Kin in another domain:** [`blackletter`](../blackletter/SKILL.md), [`victorian-architectural-terracotta`](../victorian-architectural-terracotta/SKILL.md), [`victorian-encaustic-tiles`](../victorian-encaustic-tiles/SKILL.md)
 - **Nearest by vector profile:** [`adaptive-reuse-architecture`](../adaptive-reuse-architecture/SKILL.md), [`critical-regionalism-architecture`](../critical-regionalism-architecture/SKILL.md), [`expressionist-architecture`](../expressionist-architecture/SKILL.md)
 
 ## Emotional target

@@ -569,6 +569,112 @@ flowchart LR
     smartwatch["Smartwatch"]
     gorpcore["Gorpcore"]
   end
+  subgraph ceramics_ancient_clay["Ceramics · Ancient clay · before 600"]
+    jomon_pottery["Jōmon pottery"]
+    greek_black_figure["Greek black-figure pottery"]
+    babylonian_glazed_brick["Babylonian glazed brick"]
+    greek_red_figure["Greek red-figure pottery"]
+    qin_terracotta_warriors["Qin terracotta warriors"]
+    roman_terra_sigillata["Roman terra sigillata"]
+  end
+  subgraph ceramics_medieval_glaze["Ceramics · Medieval glaze · 600–1368"]
+    tang_sancai_figures["Tang sancai figures"]
+    abbasid_lustreware["Abbasid lustreware"]
+    ding_white_ware["Ding white ware"]
+    jian_tenmoku_ware["Jian tenmoku ware"]
+    goryeo_celadon["Goryeo celadon"]
+    longquan_celadon["Longquan celadon"]
+    islamic_tile_mosaic["Islamic tile mosaic"]
+    hispano_moresque_lustreware["Hispano-Moresque lustreware"]
+    zellige["Zellige"]
+    yuan_ming_blue_and_white["Yuan and Ming blue-and-white porcelain"]
+  end
+  subgraph ceramics_blue_and_white["Ceramics · Blue and white · 1368–1600"]
+    joseon_buncheong["Joseon buncheong"]
+    rhenish_salt_glaze_stoneware["Rhenish salt-glaze stoneware"]
+    liuli_glazed_roof["Liuli glazed roof tile"]
+    della_robbia_relief["Della Robbia relief"]
+    albarello_apothecary_ware["Albarello apothecary ware"]
+    iznik_pottery["Iznik pottery"]
+    istoriato_maiolica["Istoriato maiolica"]
+    yixing_zisha_teapot["Yixing zisha teapot"]
+    iznik_tiles["Iznik tiles"]
+    azulejo["Azulejo"]
+    kraak_porcelain["Kraak porcelain"]
+    mino_tea_ceramics["Mino tea ceramics"]
+    raku_tea_bowl["Raku tea bowl"]
+  end
+  subgraph ceramics_porcelain_race["Ceramics · The porcelain race · 1600–1750"]
+    delft_tiles["Delft tiles"]
+    delftware["Delftware"]
+    joseon_moon_jar["Joseon moon jar"]
+    kyo_yaki_overglaze["Kyo-yaki overglaze"]
+    kakiemon_imari_export["Kakiemon and Imari export porcelain"]
+    english_slipware["English slipware"]
+    famille_rose_qing["Famille rose (Qing)"]
+    meissen_baroque_porcelain["Meissen baroque porcelain"]
+    rococo_porcelain_figures["Rococo porcelain figures"]
+    georgian_porcelain_tea_service["Georgian porcelain tea service"]
+    staffordshire_figures["Staffordshire figures"]
+  end
+  subgraph ceramics_industrial_pottery["Ceramics · Industrial pottery · 1750–1880"]
+    scandinavian_tiled_stove["Scandinavian tiled stove"]
+    biscuit_porcelain_figures["Biscuit porcelain figures"]
+    sevres_rococo_porcelain["Sèvres rococo porcelain"]
+    creamware_neoclassical["Creamware, neoclassical"]
+    mocha_banded_ware["Mocha and banded ware"]
+    jasperware_neoclassical["Jasperware (Neoclassical)"]
+    blue_willow_transferware["Blue willow transferware"]
+    american_stoneware_crock["American stoneware crock"]
+    regency_gilded_bone_china["Regency gilded bone china"]
+    spongeware["Spongeware"]
+    victorian_encaustic_tiles["Victorian encaustic tiles"]
+    parian_statuary["Parian statuary"]
+    porcelain_insulator["Porcelain insulator"]
+    victorian_architectural_terracotta["Victorian architectural terracotta"]
+    victorian_sanitary_ware["Victorian sanitary ware"]
+    arts_and_crafts_art_pottery["Arts and Crafts art pottery"]
+  end
+  subgraph ceramics_art_pottery["Ceramics · Art pottery and reform · 1880–1918"]
+    american_art_pottery["American art pottery"]
+    fireclay_butler_sink["Fireclay butler sink"]
+    chicago_school_terracotta["Chicago School terracotta"]
+    art_nouveau_ceramics["Art Nouveau ceramics"]
+    hungarian_secession_ceramics["Hungarian Secession ceramics"]
+    art_nouveau_tiles["Art Nouveau tiles"]
+    trencadis["Trencadís"]
+    subway_tile["Subway tile"]
+  end
+  subgraph ceramics_modern_ceramics["Ceramics · Modern ceramics · 1919–1975"]
+    anglo_oriental_studio_pottery["Anglo-Oriental studio pottery"]
+    suprematist_porcelain["Suprematist porcelain"]
+    cornishware["Cornishware"]
+    art_deco_ceramic_figures["Art Deco ceramic figures"]
+    art_deco_faience_facade["Art Deco faience facade"]
+    mingei_folk_craft["Mingei folk craft"]
+    art_deco_tableware["Art Deco tableware"]
+    coloured_bathroom_suite["Coloured bathroom suite"]
+    bauhaus_modern_tableware["Bauhaus modern tableware"]
+    fiesta_colourware["Fiesta colourware"]
+    organic_modern_tableware["Organic modern tableware"]
+    british_modernist_studio["British modernist studio ceramics"]
+    artist_ceramics_vallauris["Artist ceramics of Vallauris"]
+    scandinavian_modern_tableware["Scandinavian modern tableware"]
+    abstract_expressionist_ceramics["Abstract Expressionist ceramics"]
+    glass_ceramic_cookware["Glass-ceramic cookware"]
+    west_german_fat_lava["West German fat lava"]
+    funk_ceramics["Funk ceramics"]
+  end
+  subgraph ceramics_plural_contemporary["Ceramics · Plural and contemporary · 1976–now"]
+    large_format_porcelain_tiles["Large-format porcelain tiles"]
+    washlet_toilet["Washlet toilet"]
+    memphis_postmodern_ceramics["Memphis postmodern ceramics"]
+    terracotta_rainscreen["Terracotta rainscreen"]
+    designer_wall_hung_sanitary["Designer wall-hung sanitary ware"]
+    chef_studio_tableware["Chef studio tableware"]
+    digital_3d_printed_ceramics["Digital 3D-printed ceramics"]
+  end
+  abstract_expressionism <-. echoes .-> abstract_expressionist_ceramics
   abstract_expressionism <-. echoes .-> brutalist_architecture
   adaptive_reuse_architecture <-. echoes .-> industrial_loft_interior
   ai_hyperreal <-. echoes .-> pbr_photoreal
@@ -576,10 +682,13 @@ flowchart LR
   airbrush_surrealism <-. echoes .-> psychedelic
   airbrush_surrealism <-. echoes .-> space_age
   airbrush_surrealism <-. echoes .-> surrealism_web
+  american_art_pottery <-. echoes .-> arts_and_crafts_interior
   american_pocket_watch <-. echoes .-> industrial_utility_product
   american_pocket_watch <-. echoes .-> victorian_manufacture
   americana_workwear <-. echoes .-> industrial_utility_product
   americana_workwear <-. echoes .-> shaker_object
+  anglo_oriental_studio_pottery <-. echoes .-> contemporary_craft_product
+  anglo_oriental_studio_pottery <-. echoes .-> japanese_modern_craft_product
   anti_design <-. echoes .-> deconstructivist_architecture
   anti_design <-. echoes .-> xerox_zine
   apple_aqua <-. echoes .-> glossy_3d_logo
@@ -591,6 +700,8 @@ flowchart LR
   architectural_photography <-. echoes .-> mid_century_modern_architecture
   architectural_photography <-. echoes .-> pbr_photoreal
   architectural_photography <-. echoes .-> pre_rendered_backgrounds
+  art_deco_architecture <-. echoes .-> art_deco_ceramic_figures
+  art_deco_architecture <-. echoes .-> art_deco_faience_facade
   art_deco_architecture <-. echoes .-> art_deco_interior
   art_deco_architecture <-. echoes .-> art_deco_jewellery
   art_deco_architecture <-. echoes .-> art_deco_product
@@ -599,47 +710,68 @@ flowchart LR
   art_deco_architecture <-. echoes .-> classical_hollywood
   art_deco_architecture <-. echoes .-> neo_deco_interior
   art_deco_architecture <-. echoes .-> streamline_moderne_product
+  art_deco_ceramic_figures <-. echoes .-> art_deco_jewellery
+  art_deco_ceramic_figures <-. echoes .-> art_deco_product
   art_deco_dance_shoe <-. echoes .-> art_deco_interior
   art_deco_dance_shoe <-. echoes .-> art_deco_product
   art_deco_evening_accessory <-. echoes .-> art_deco_interior
   art_deco_evening_accessory <-. echoes .-> art_deco_product
+  art_deco_faience_facade <-. echoes .-> art_deco_interior
+  art_deco_faience_facade <-. echoes .-> art_deco_product
   art_deco_interior <-. echoes .-> art_deco_jewellery
   art_deco_interior <-. echoes .-> art_deco_product
+  art_deco_interior <-. echoes .-> art_deco_tableware
   art_deco_interior <-. echoes .-> art_deco_web
   art_deco_interior <-. echoes .-> bias_cut_glamour
   art_deco_interior <-. echoes .-> garconne_flapper_dress
   art_deco_interior <-. echoes .-> pochoir_plate
   art_deco_interior <-. echoes .-> streamline_moderne_product
   art_deco_jewellery <-. echoes .-> art_deco_product
+  art_deco_product <-. echoes .-> art_deco_tableware
   art_deco_product <-. echoes .-> art_deco_watch
   art_deco_product <-. echoes .-> art_deco_web
+  art_deco_product <-. echoes .-> coloured_bathroom_suite
   art_deco_product <-. echoes .-> costume_jewellery
+  art_deco_product <-. echoes .-> fiesta_colourware
   art_deco_product <-. echoes .-> garconne_flapper_dress
   art_deco_product <-. echoes .-> neo_deco_interior
   art_deco_product <-. echoes .-> vintage_coachbuilt_car
+  art_deco_tableware <-. echoes .-> streamline_moderne_product
   art_deco_web <-. echoes .-> hollywood_regency_interior
   art_deco_web <-. echoes .-> neo_deco_interior
   art_deco_web <-. echoes .-> pochoir_plate
+  art_nouveau_architecture <-. echoes .-> art_nouveau_ceramics
   art_nouveau_architecture <-. echoes .-> art_nouveau_interior
   art_nouveau_architecture <-. echoes .-> art_nouveau_monogram
   art_nouveau_architecture <-. echoes .-> art_nouveau_object
+  art_nouveau_architecture <-. echoes .-> art_nouveau_tiles
   art_nouveau_architecture <-. echoes .-> art_nouveau_web
+  art_nouveau_architecture <-. echoes .-> chicago_school_terracotta
+  art_nouveau_architecture <-. echoes .-> hungarian_secession_ceramics
   art_nouveau_architecture <-. echoes .-> rococo_painting
   art_nouveau_architecture <-. echoes .-> symbolism_painting
+  art_nouveau_architecture <-. echoes .-> trencadis
+  art_nouveau_ceramics <-. echoes .-> art_nouveau_interior
+  art_nouveau_ceramics <-. echoes .-> art_nouveau_object
   art_nouveau_interior <-. echoes .-> art_nouveau_jewellery
   art_nouveau_interior <-. echoes .-> art_nouveau_monogram
   art_nouveau_interior <-. echoes .-> art_nouveau_object
+  art_nouveau_interior <-. echoes .-> art_nouveau_tiles
   art_nouveau_interior <-. echoes .-> art_nouveau_web
   art_nouveau_interior <-. echoes .-> chromolithograph_poster
   art_nouveau_jewellery <-. echoes .-> art_nouveau_object
   art_nouveau_monogram <-. echoes .-> art_nouveau_web
+  art_nouveau_object <-. echoes .-> art_nouveau_tiles
   art_nouveau_object <-. echoes .-> art_nouveau_web
   art_nouveau_web <-. echoes .-> chromolithograph_poster
   art_nouveau_web <-. echoes .-> psychedelic_concert_poster
   art_nouveau_web <-. echoes .-> symbolism_painting
+  artist_ceramics_vallauris <-. echoes .-> cubism_painting
   arts_and_crafts_architecture <-. echoes .-> arts_and_crafts_interior
   arts_and_crafts_architecture <-. echoes .-> arts_and_crafts_object
   arts_and_crafts_architecture <-. echoes .-> private_press_book
+  arts_and_crafts_art_pottery <-. echoes .-> arts_and_crafts_interior
+  arts_and_crafts_art_pottery <-. echoes .-> arts_and_crafts_object
   arts_and_crafts_interior <-. echoes .-> arts_and_crafts_jewellery
   arts_and_crafts_interior <-. echoes .-> arts_and_crafts_object
   arts_and_crafts_interior <-. echoes .-> hand_painted_texture
@@ -648,14 +780,17 @@ flowchart LR
   arts_and_crafts_interior <-. echoes .-> private_press_book
   arts_and_crafts_jewellery <-. echoes .-> arts_and_crafts_object
   arts_and_crafts_object <-. echoes .-> country_sporting_tweed
+  azulejo <-. echoes .-> baroque_architecture
   baroque_architecture <-. echoes .-> baroque_painting
   baroque_painting <-. echoes .-> etching_print
   baroque_painting <-. echoes .-> film_noir_still
   baroque_painting <-. echoes .-> food_photography
   baroque_painting <-. echoes .-> german_expressionist_cinema
+  baroque_painting <-. echoes .-> meissen_baroque_porcelain
   baroque_painting <-. echoes .-> mezzotint_print
   bauhaus <-. echoes .-> bauhaus_architecture
   bauhaus <-. echoes .-> bauhaus_interior
+  bauhaus <-. echoes .-> bauhaus_modern_tableware
   bauhaus <-. echoes .-> bauhaus_product
   bauhaus <-. echoes .-> de_stijl_painting
   bauhaus <-. echoes .-> geometric_sans
@@ -665,20 +800,26 @@ flowchart LR
   bauhaus_architecture <-. echoes .-> bauhaus_product
   bauhaus_architecture <-. echoes .-> geometric_sans
   bauhaus_architecture <-. echoes .-> new_objectivity
+  bauhaus_interior <-. echoes .-> bauhaus_modern_tableware
   bauhaus_interior <-. echoes .-> bauhaus_product
   bauhaus_interior <-. echoes .-> de_stijl_painting
   bauhaus_interior <-. echoes .-> international_style_architecture
+  bauhaus_modern_tableware <-. echoes .-> bauhaus_product
   bauhaus_product <-. echoes .-> modernist_studio_jewellery
   beaux_arts_architecture <-. echoes .-> garland_style_jewellery
   ben_day_comic_print <-. echoes .-> pop_art_painting
   ben_day_comic_print <-. echoes .-> pop_art_web
   bias_cut_glamour <-. echoes .-> classical_hollywood
+  biscuit_porcelain_figures <-. echoes .-> georgian_neoclassical_manufacture
+  biscuit_porcelain_figures <-. echoes .-> rococo_painting
   blackletter <-. echoes .-> gothic_architecture
   blackletter <-. echoes .-> private_press_book
   blackletter <-. echoes .-> punk_zine
   blackletter <-. echoes .-> woodcut_relief_print
+  blue_willow_transferware <-. echoes .-> victorian_manufacture
   bohemian_web <-. echoes .-> hippie_bohemian_dress
   breguet_classical_watch <-. echoes .-> georgian_neoclassical_manufacture
+  british_modernist_studio <-. echoes .-> contemporary_craft_product
   brutalist_architecture <-. echoes .-> brutalist_jewellery
   brutalist_architecture <-. echoes .-> brutalist_web
   brutalist_architecture <-. echoes .-> constructivism_web
@@ -703,22 +844,30 @@ flowchart LR
   cel_shaded_3d <-. echoes .-> flat_design
   cel_shaded_3d <-. echoes .-> pop_art_painting
   cel_shaded_3d <-. echoes .-> ukiyo_e
+  chicago_school_terracotta <-. echoes .-> prairie_school_architecture
   chromolithograph_poster <-. echoes .-> post_impressionism
   cinematic_teal_orange <-. echoes .-> neon_noir
   cinematic_teal_orange <-. echoes .-> seventh_gen_desaturated
   classical_hollywood <-. echoes .-> ladylike_handbag
   classical_hollywood <-. echoes .-> pre_rendered_backgrounds
   clay_3d_icon <-. echoes .-> claymorphism
+  coloured_bathroom_suite <-. echoes .-> streamline_moderne_product
   constructivism_web <-. echoes .-> cubism_painting
   constructivism_web <-. echoes .-> futurism_painting
   constructivism_web <-. echoes .-> grotesque_sans
   constructivism_web <-. echoes .-> soviet_montage
   constructivism_web <-. echoes .-> suprematism
+  constructivism_web <-. echoes .-> suprematist_porcelain
+  contemporary_craft_product <-. echoes .-> digital_3d_printed_ceramics
   contemporary_craft_product <-. echoes .-> japandi_interior
+  contemporary_craft_product <-. echoes .-> large_format_porcelain_tiles
   contemporary_craft_product <-. echoes .-> modernist_studio_jewellery
   contemporary_craft_product <-. echoes .-> quiet_luxury_interior
   contemporary_craft_product <-. echoes .-> wabi_sabi_web
   corporate_memphis <-. echoes .-> risograph_print
+  creamware_neoclassical <-. echoes .-> georgian_interior
+  creamware_neoclassical <-. echoes .-> georgian_neoclassical_manufacture
+  creamware_neoclassical <-. echoes .-> neoclassical_architecture
   crinoline_and_bustle_dress <-. echoes .-> victorian_interior
   crinoline_and_bustle_dress <-. echoes .-> victorian_manufacture
   cubism_painting <-. echoes .-> deconstructivist_architecture
@@ -735,9 +884,13 @@ flowchart LR
   de_stijl_web <-. echoes .-> international_style_architecture
   de_stijl_web <-. echoes .-> prairie_school_architecture
   deconstructivist_architecture <-. echoes .-> grunge_editorial
+  della_robbia_relief <-. echoes .-> renaissance_architecture
+  designer_wall_hung_sanitary <-. echoes .-> minimalist_interior
+  designer_wall_hung_sanitary <-. echoes .-> super_normal_product
   didone_serif <-. echoes .-> engraving_print
   didone_serif <-. echoes .-> fashion_editorial
   didone_serif <-. echoes .-> neoclassical_architecture
+  digital_3d_printed_ceramics <-. echoes .-> parametricism_architecture
   dive_watch <-. echoes .-> industrial_utility_product
   dive_watch <-. echoes .-> mid_century_modern_product
   documentary_photography <-. echoes .-> dogme_95
@@ -773,6 +926,7 @@ flowchart LR
   fat_face_display <-. echoes .-> wood_type_poster
   fauvism <-. echoes .-> new_colour
   fauvism <-. echoes .-> pochoir_plate
+  fiesta_colourware <-. echoes .-> streamline_moderne_product
   fifth_gen_low_poly <-. echoes .-> y2k_aesthetic
   film_grain_revival <-. echoes .-> impressionism
   film_grain_revival <-. echoes .-> low_poly_ps1_revival
@@ -780,6 +934,8 @@ flowchart LR
   film_noir <-. echoes .-> pre_rendered_backgrounds
   film_noir_still <-. echoes .-> german_expressionist_cinema
   film_noir_still <-. echoes .-> mezzotint_print
+  fireclay_butler_sink <-. echoes .-> industrial_utility_product
+  fireclay_butler_sink <-. echoes .-> victorian_manufacture
   flat_design <-. echoes .-> flat_icon
   flat_design <-. echoes .-> flat_logo
   flat_design <-. echoes .-> impossible_isometric_mobile
@@ -798,6 +954,7 @@ flowchart LR
   french_new_wave <-. echoes .-> street_photography
   frutiger_aero <-. echoes .-> glossy_3d_logo
   frutiger_aero <-. echoes .-> skeuomorphic_icon
+  funk_ceramics <-. echoes .-> pop_art_painting
   futurism_painting <-. echoes .-> soviet_montage
   garalde_old_style <-. echoes .-> private_press_book
   garalde_old_style <-. echoes .-> renaissance_architecture
@@ -805,11 +962,16 @@ flowchart LR
   geometric_symbol <-. echoes .-> mid_century_modern
   georgian_interior <-. echoes .-> georgian_jewellery
   georgian_interior <-. echoes .-> georgian_neoclassical_manufacture
+  georgian_interior <-. echoes .-> georgian_porcelain_tea_service
+  georgian_interior <-. echoes .-> regency_gilded_bone_china
   georgian_interior <-. echoes .-> renaissance_painting
   georgian_interior <-. echoes .-> rococo_court_dress
   georgian_interior <-. echoes .-> transitional_serif
   georgian_jewellery <-. echoes .-> georgian_neoclassical_manufacture
+  georgian_neoclassical_manufacture <-. echoes .-> georgian_porcelain_tea_service
+  georgian_neoclassical_manufacture <-. echoes .-> jasperware_neoclassical
   georgian_neoclassical_manufacture <-. echoes .-> neoclassical_architecture
+  georgian_neoclassical_manufacture <-. echoes .-> regency_gilded_bone_china
   german_expressionist_cinema <-. echoes .-> new_objectivity
   giallo <-. echoes .-> psychedelic
   glam_platform_shoe <-. echoes .-> pop_art_painting
@@ -817,6 +979,8 @@ flowchart LR
   glossy_3d_logo <-. echoes .-> skeuomorphism
   glossy_3d_logo <-. echoes .-> y2k_aesthetic
   gorpcore <-. echoes .-> street_photography
+  gothic_architecture <-. echoes .-> victorian_architectural_terracotta
+  gothic_architecture <-. echoes .-> victorian_encaustic_tiles
   grandmillennial_interior <-. echoes .-> impressionism
   group_f64 <-. echoes .-> international_style_architecture
   grunge_editorial <-. echoes .-> party_flash
@@ -830,6 +994,7 @@ flowchart LR
   high_tech_architecture <-. echoes .-> luxury_steel_sports_watch
   high_tech_architecture <-. echoes .-> space_age
   high_tech_architecture <-. echoes .-> technical_shell_alpinism
+  high_tech_architecture <-. echoes .-> terracotta_rainscreen
   hippie_bohemian_dress <-. echoes .-> psychedelic
   hippie_bohemian_dress <-. echoes .-> psychedelic_concert_poster
   humanist_sans <-. echoes .-> scandinavian_interior
@@ -841,14 +1006,18 @@ flowchart LR
   industrial_loft_interior <-. echoes .-> new_topographics
   industrial_loft_interior <-. echoes .-> seventh_gen_desaturated
   industrial_utility_product <-. echoes .-> pilot_and_field_watch
+  industrial_utility_product <-. echoes .-> porcelain_insulator
   industrial_utility_product <-. echoes .-> subculture_workboot
+  industrial_utility_product <-. echoes .-> subway_tile
   industrial_utility_product <-. echoes .-> trench_and_field_military
+  international_style_architecture <-. echoes .-> large_format_porcelain_tiles
   international_style_architecture <-. echoes .-> mid_century_modern_interior
   international_style_architecture <-. echoes .-> minimalist_interior
   international_style_architecture <-. echoes .-> neo_grotesque_sans
   international_style_architecture <-. echoes .-> new_topographics
   international_style_architecture <-. echoes .-> rams_functionalism_ui
   international_style_architecture <-. echoes .-> straight_photography
+  international_style_architecture <-. echoes .-> subway_tile
   international_style_architecture <-. echoes .-> swiss_international
   international_style_architecture <-. echoes .-> swiss_modernist_mark
   isometric_icon <-. echoes .-> isometric_pixel_world
@@ -863,6 +1032,12 @@ flowchart LR
   japanese_avant_garde_fashion <-. echoes .-> wabi_sabi_web
   japanese_graphic_modernism <-. echoes .-> swiss_modernist_mark
   japanese_graphic_modernism <-. echoes .-> ukiyo_e
+  japanese_modern_craft_product <-. echoes .-> mingei_folk_craft
+  japanese_modern_craft_product <-. echoes .-> mino_tea_ceramics
+  japanese_modern_craft_product <-. echoes .-> raku_tea_bowl
+  japanese_modern_craft_product <-. echoes .-> washlet_toilet
+  jasperware_neoclassical <-. echoes .-> neoclassical_architecture
+  large_format_porcelain_tiles <-. echoes .-> minimalist_interior
   logomania <-. echoes .-> pop_art_painting
   logomania <-. echoes .-> pop_screen_print
   luxury_typography_web <-. echoes .-> quiet_luxury_interior
@@ -872,13 +1047,16 @@ flowchart LR
   material_design <-. echoes .-> material_symbols_icon
   material_design <-. echoes .-> smartwatch
   memphis_design <-. echoes .-> memphis_interior
+  memphis_design <-. echoes .-> memphis_postmodern_ceramics
   memphis_design <-. echoes .-> memphis_product
   memphis_design <-. echoes .-> music_video
   memphis_design <-. echoes .-> pop_art_painting
   memphis_design <-. echoes .-> postmodern_architecture
   memphis_design <-. echoes .-> swiss_plastic_pop_watch
+  memphis_interior <-. echoes .-> memphis_postmodern_ceramics
   memphis_interior <-. echoes .-> memphis_product
   memphis_interior <-. echoes .-> postmodern_architecture
+  memphis_postmodern_ceramics <-. echoes .-> memphis_product
   memphis_product <-. echoes .-> swiss_plastic_pop_watch
   mid_century_eyewear <-. echoes .-> mid_century_modern_product
   mid_century_modern <-. echoes .-> mid_century_modern_architecture
@@ -890,7 +1068,9 @@ flowchart LR
   mid_century_modern_interior <-. echoes .-> mid_century_modern_product
   mid_century_modern_interior <-. echoes .-> space_age
   mid_century_modern_product <-. echoes .-> modernist_studio_jewellery
+  mid_century_modern_product <-. echoes .-> organic_modern_tableware
   mid_century_modern_product <-. echoes .-> racing_chronograph
+  mid_century_modern_product <-. echoes .-> scandinavian_modern_tableware
   minimal_wordmark <-. echoes .-> minimalist_interior
   minimal_wordmark <-. echoes .-> rams_functionalism_ui
   minimalism_painting <-. echoes .-> minimalist_fashion
@@ -908,6 +1088,7 @@ flowchart LR
   muscle_and_pony_car <-. echoes .-> space_age_pop_product
   music_video <-. echoes .-> y2k_aesthetic
   neo_grotesque_sans <-. echoes .-> swiss_international
+  neoclassical_architecture <-. echoes .-> parian_statuary
   neoclassical_architecture <-. echoes .-> transitional_serif
   neon_noir <-. echoes .-> synthwave_web
   new_hollywood <-. echoes .-> street_photography
@@ -917,10 +1098,15 @@ flowchart LR
   nordic_functional_outdoor <-. echoes .-> scandinavian_modern_product
   nordic_modernism_architecture <-. echoes .-> scandinavian_interior
   nordic_modernism_architecture <-. echoes .-> scandinavian_modern_product
+  nordic_modernism_architecture <-. echoes .-> scandinavian_modern_tableware
   nordic_national_romanticism_painting <-. echoes .-> scandinavian_interior
+  organic_architecture <-. echoes .-> organic_modern_tableware
   organic_architecture <-. echoes .-> scandinavian_interior
+  organic_architecture <-. echoes .-> trencadis
+  organic_modern_tableware <-. echoes .-> streamline_moderne_product
   outline_icon <-. echoes .-> rams_functionalism_ui
   outline_icon <-. echoes .-> swiss_international
+  parian_statuary <-. echoes .-> victorian_manufacture
   party_flash <-. echoes .-> y2k_aesthetic
   pbr_photoreal <-. echoes .-> photorealism
   pictorialism <-. echoes .-> victorian_interior
@@ -933,6 +1119,7 @@ flowchart LR
   pop_art_painting <-. echoes .-> space_age_pop_product
   pop_art_painting <-. echoes .-> swiss_plastic_pop_watch
   pop_art_web <-. echoes .-> pop_screen_print
+  porcelain_insulator <-. echoes .-> victorian_manufacture
   psychedelic <-. echoes .-> psychedelic_concert_poster
   psychedelic_concert_poster <-. echoes .-> surrealism_painting
   punk_fashion <-. echoes .-> punk_zine
@@ -942,14 +1129,22 @@ flowchart LR
   quiet_luxury_fashion <-. echoes .-> quiet_luxury_interior
   quiet_luxury_interior <-. echoes .-> stealth_luxury_accessory
   racing_chronograph <-. echoes .-> swiss_international
+  raku_tea_bowl <-. echoes .-> wabi_sabi_web
   rams_functionalism_ui <-. echoes .-> ulm_braun_functionalism
   realism_painting <-. echoes .-> straight_photography
   renaissance_architecture <-. echoes .-> renaissance_painting
   renaissance_painting <-. echoes .-> woodcut_relief_print
   retro_cocktail_jewellery <-. echoes .-> streamline_moderne_product
   rococo_court_dress <-. echoes .-> rococo_painting
+  rococo_court_dress <-. echoes .-> rococo_porcelain_figures
+  rococo_court_dress <-. echoes .-> sevres_rococo_porcelain
+  rococo_painting <-. echoes .-> rococo_porcelain_figures
+  rococo_painting <-. echoes .-> sevres_rococo_porcelain
   scandinavian_interior <-. echoes .-> scandinavian_interior_photography
   scandinavian_interior <-. echoes .-> scandinavian_modern_product
+  scandinavian_interior <-. echoes .-> scandinavian_modern_tableware
+  scandinavian_interior <-. echoes .-> scandinavian_tiled_stove
+  scandinavian_modern_product <-. echoes .-> scandinavian_modern_tableware
   shaker_interior <-. echoes .-> shaker_object
   sixteen_bit_sprite <-. echoes .-> ukiyo_e
   skeuomorphic_icon <-. echoes .-> skeuomorphism
@@ -963,19 +1158,29 @@ flowchart LR
   space_age_couture <-. echoes .-> space_age_pop_product
   space_age_pop_product <-. echoes .-> tailfin_era_car
   space_age_pop_product <-. echoes .-> wedge_design_car
+  space_age_pop_product <-. echoes .-> west_german_fat_lava
   space_age_pop_product <-. echoes .-> y2k_aesthetic
+  staffordshire_figures <-. echoes .-> victorian_manufacture
   straight_photography <-. echoes .-> swiss_international
   streamline_car <-. echoes .-> streamline_moderne_product
+  super_normal_product <-. echoes .-> washlet_toilet
+  suprematism <-. echoes .-> suprematist_porcelain
   surrealism_painting <-. echoes .-> surrealism_web
   surrealism_painting <-. echoes .-> vaporwave
   swiss_international <-. echoes .-> swiss_modernist_mark
   swiss_international <-. echoes .-> ulm_braun_functionalism
   synthwave_web <-. echoes .-> vector_display_arcade
+  victorian_architectural_terracotta <-. echoes .-> victorian_interior
+  victorian_architectural_terracotta <-. echoes .-> victorian_manufacture
+  victorian_encaustic_tiles <-. echoes .-> victorian_interior
+  victorian_encaustic_tiles <-. echoes .-> victorian_manufacture
   victorian_interior <-. echoes .-> victorian_manufacture
   victorian_interior <-. echoes .-> victorian_millinery
+  victorian_interior <-. echoes .-> victorian_sanitary_ware
   victorian_interior <-. echoes .-> victorian_sentimental_jewellery
   victorian_interior <-. echoes .-> victorian_trademark
   victorian_manufacture <-. echoes .-> victorian_millinery
+  victorian_manufacture <-. echoes .-> victorian_sanitary_ware
   victorian_manufacture <-. echoes .-> victorian_sentimental_jewellery
   victorian_trademark <-. echoes .-> victorian_web
   victorian_trademark <-. echoes .-> wood_type_poster
@@ -983,29 +1188,52 @@ flowchart LR
   y2k_aesthetic <-. echoes .-> y2k_digicam
   cubism_painting --> abstract_expressionism
   surrealism_painting --> abstract_expressionism
+  mingei_folk_craft --> abstract_expressionist_ceramics
   flat_design --> ai_chat_ui
   cinematic_teal_orange --> ai_hyperreal
   fashion_editorial --> ai_hyperreal
+  hispano_moresque_lustreware --> albarello_apothecary_ware
+  arts_and_crafts_art_pottery --> american_art_pottery
   breguet_classical_watch --> american_pocket_watch
+  rhenish_salt_glaze_stoneware --> american_stoneware_crock
+  arts_and_crafts_art_pottery --> anglo_oriental_studio_pottery
+  joseon_buncheong --> anglo_oriental_studio_pottery
+  longquan_celadon --> anglo_oriental_studio_pottery
   y2k_aesthetic --> apple_aqua
   new_objectivity --> architectural_photography
   straight_photography --> architectural_photography
   art_nouveau_architecture --> art_deco_architecture
+  rococo_porcelain_figures --> art_deco_ceramic_figures
   victorian_boot --> art_deco_dance_shoe
   garconne_flapper_dress --> art_deco_evening_accessory
+  chicago_school_terracotta --> art_deco_faience_facade
   garland_style_jewellery --> art_deco_jewellery
   art_nouveau_object --> art_deco_product
+  art_nouveau_ceramics --> art_deco_tableware
   early_wristwatch --> art_deco_watch
+  american_art_pottery --> art_nouveau_ceramics
+  arts_and_crafts_art_pottery --> art_nouveau_ceramics
   arts_and_crafts_interior --> art_nouveau_interior
   arts_and_crafts_jewellery --> art_nouveau_jewellery
   victorian_trademark --> art_nouveau_monogram
   arts_and_crafts_object --> art_nouveau_object
+  art_nouveau_ceramics --> art_nouveau_tiles
+  delft_tiles --> art_nouveau_tiles
+  victorian_encaustic_tiles --> art_nouveau_tiles
+  greek_black_figure --> artist_ceramics_vallauris
+  hispano_moresque_lustreware --> artist_ceramics_vallauris
   gothic_architecture --> arts_and_crafts_architecture
+  hispano_moresque_lustreware --> arts_and_crafts_art_pottery
+  rhenish_salt_glaze_stoneware --> arts_and_crafts_art_pottery
   shaker_interior --> arts_and_crafts_interior
   shaker_object --> arts_and_crafts_object
   flat_design --> aurora_gradient_ui
+  hispano_moresque_lustreware --> azulejo
+  islamic_tile_mosaic --> azulejo
+  istoriato_maiolica --> azulejo
   renaissance_architecture --> baroque_architecture
   renaissance_painting --> baroque_painting
+  creamware_neoclassical --> bauhaus_modern_tableware
   arts_and_crafts_object --> bauhaus_product
   industrial_utility_product --> bauhaus_product
   baroque_architecture --> beaux_arts_architecture
@@ -1015,24 +1243,33 @@ flowchart LR
   swiss_international --> bento_grid_ui
   garconne_flapper_dress --> bias_cut_glamour
   streamline_car --> biodesign_car
+  rococo_porcelain_figures --> biscuit_porcelain_figures
+  creamware_neoclassical --> blue_willow_transferware
+  kraak_porcelain --> blue_willow_transferware
   art_nouveau_web --> bohemian_web
   psychedelic --> bohemian_web
+  art_nouveau_ceramics --> british_modernist_studio
   international_style_architecture --> brutalist_architecture
   modernist_studio_jewellery --> brutalist_jewellery
   rams_functionalism_ui --> cassette_futurism
   fifth_gen_low_poly --> cel_shaded_3d
+  scandinavian_modern_tableware --> chef_studio_tableware
+  victorian_architectural_terracotta --> chicago_school_terracotta
   new_colour --> cinematic_teal_orange
   german_expressionist_cinema --> classical_hollywood
   skeuomorphic_icon --> clay_3d_icon
   neumorphism --> claymorphism
   scandinavian_interior --> coastal_interior
   abstract_expressionism --> colour_field_painting
+  victorian_sanitary_ware --> coloured_bathroom_suite
   arts_and_crafts_object --> contemporary_craft_product
   japanese_modern_craft_product --> contemporary_craft_product
+  mocha_banded_ware --> cornishware
   flat_design --> corporate_memphis
   memphis_design --> corporate_memphis
   georgian_jewellery --> costume_jewellery
   english_bespoke_tailoring --> country_sporting_tweed
+  english_slipware --> creamware_neoclassical
   empire_line_dress --> crinoline_and_bustle_dress
   nordic_modernism_architecture --> critical_regionalism_architecture
   dark_devtool_ui --> cybercore_web
@@ -1040,8 +1277,16 @@ flowchart LR
   psychedelic --> cyberdelia
   flat_design --> dark_devtool_ui
   cubism_painting --> de_stijl_painting
+  azulejo --> delft_tiles
+  istoriato_maiolica --> delft_tiles
+  kraak_porcelain --> delft_tiles
+  istoriato_maiolica --> delftware
+  kraak_porcelain --> delftware
+  hispano_moresque_lustreware --> della_robbia_relief
   modern_mens_briefs --> designer_logo_underwear
+  coloured_bathroom_suite --> designer_wall_hung_sanitary
   transitional_serif --> didone_serif
+  british_modernist_studio --> digital_3d_printed_ceramics
   pilot_and_field_watch --> dive_watch
   straight_photography --> documentary_photography
   soviet_montage --> documentary_verite
@@ -1061,15 +1306,19 @@ flowchart LR
   glassmorphism --> ethereal_web
   post_impressionism --> expressionism_painting
   art_nouveau_architecture --> expressionist_architecture
+  kakiemon_imari_export --> famille_rose_qing
+  yuan_ming_blue_and_white --> famille_rose_qing
   pictorialism --> fashion_editorial
   straight_photography --> fashion_editorial
   didone_serif --> fat_face_display
   pointillism --> fauvism
+  art_deco_tableware --> fiesta_colourware
   vector_display_arcade --> fifth_gen_low_poly
   new_colour --> film_grain_revival
   street_photography --> film_grain_revival
   german_expressionist_cinema --> film_noir
   straight_photography --> film_noir_still
+  victorian_sanitary_ware --> fireclay_butler_sink
   swiss_international --> flat_design
   geometric_symbol --> flat_logo
   straight_photography --> food_photography
@@ -1078,43 +1327,72 @@ flowchart LR
   italian_neorealism --> french_new_wave
   soviet_montage --> french_new_wave
   y2k_aesthetic --> frutiger_aero
+  abstract_expressionist_ceramics --> funk_ceramics
+  artist_ceramics_vallauris --> funk_ceramics
   cubism_painting --> futurism_painting
   georgian_jewellery --> garland_style_jewellery
   swiss_modernist_mark --> geometric_symbol
+  kraak_porcelain --> georgian_porcelain_tea_service
+  meissen_baroque_porcelain --> georgian_porcelain_tea_service
   german_expressionist_cinema --> giallo
   stiletto_heel --> glam_platform_shoe
   frutiger_aero --> glassmorphism
   geometric_symbol --> glossy_3d_logo
   technical_shell_alpinism --> gorpcore
+  longquan_celadon --> goryeo_celadon
   georgian_interior --> grandmillennial_interior
   victorian_interior --> grandmillennial_interior
+  greek_black_figure --> greek_red_figure
   straight_photography --> group_f64
   fifth_gen_low_poly --> hand_painted_texture
   sixteen_bit_sprite --> hd_2d_diorama
   international_style_architecture --> high_tech_architecture
+  abbasid_lustreware --> hispano_moresque_lustreware
   art_deco_interior --> hollywood_regency_interior
   georgian_interior --> hollywood_regency_interior
   new_hollywood --> hong_kong_action
   garalde_old_style --> humanist_sans
+  islamic_tile_mosaic --> hungarian_secession_ceramics
+  victorian_architectural_terracotta --> hungarian_secession_ceramics
   isometric_pixel_world --> impossible_isometric_mobile
   realism_painting --> impressionism
   bauhaus_interior --> industrial_loft_interior
   victorian_manufacture --> industrial_utility_product
+  abbasid_lustreware --> islamic_tile_mosaic
   pixel_icon --> isometric_icon
   eight_bit_tile --> isometric_pixel_world
+  hispano_moresque_lustreware --> istoriato_maiolica
   ladylike_handbag --> it_bag
   logomania --> it_bag
   streamline_car --> italian_gran_turismo
   vintage_coachbuilt_car --> italian_gran_turismo
   english_bespoke_tailoring --> ivy_style
+  islamic_tile_mosaic --> iznik_pottery
+  yuan_ming_blue_and_white --> iznik_pottery
+  islamic_tile_mosaic --> iznik_tiles
+  iznik_pottery --> iznik_tiles
+  yuan_ming_blue_and_white --> iznik_tiles
   scandinavian_interior --> japandi_interior
   bauhaus --> japanese_graphic_modernism
   swiss_international --> japanese_graphic_modernism
   arts_and_crafts_object --> japanese_modern_craft_product
+  creamware_neoclassical --> jasperware_neoclassical
+  greek_red_figure --> jasperware_neoclassical
+  goryeo_celadon --> joseon_buncheong
+  joseon_buncheong --> joseon_moon_jar
+  yuan_ming_blue_and_white --> joseon_moon_jar
+  kraak_porcelain --> kakiemon_imari_export
+  yuan_ming_blue_and_white --> kakiemon_imari_export
+  yuan_ming_blue_and_white --> kraak_porcelain
+  mino_tea_ceramics --> kyo_yaki_overglaze
+  raku_tea_bowl --> kyo_yaki_overglaze
   art_deco_evening_accessory --> ladylike_handbag
   new_look --> ladylike_handbag
+  subway_tile --> large_format_porcelain_tiles
+  victorian_encaustic_tiles --> large_format_porcelain_tiles
   glassmorphism --> liquid_glass_ui
   spatial_visionos --> liquid_glass_ui
+  tang_sancai_figures --> liuli_glazed_roof
   malletier_luggage --> logomania
   fifth_gen_low_poly --> low_poly_ps1_revival
   dive_watch --> luxury_steel_sports_watch
@@ -1124,6 +1402,8 @@ flowchart LR
   flat_design --> material_design
   flat_icon --> material_symbols_icon
   solid_glyph_icon --> material_symbols_icon
+  kraak_porcelain --> meissen_baroque_porcelain
+  art_deco_tableware --> memphis_postmodern_ceramics
   space_age_pop_product --> memphis_product
   swiss_international --> metro_ui
   engraving_print --> mezzotint_print
@@ -1133,6 +1413,8 @@ flowchart LR
   bauhaus_interior --> mid_century_modern_interior
   bauhaus_product --> mid_century_modern_product
   scandinavian_modern_product --> mid_century_modern_product
+  joseon_buncheong --> mingei_folk_craft
+  mino_tea_ceramics --> mingei_folk_craft
   swiss_modernist_mark --> minimal_wordmark
   de_stijl_painting --> minimalism_painting
   suprematism --> minimalism_painting
@@ -1140,6 +1422,8 @@ flowchart LR
   swiss_international --> minimalism_web
   bias_cut_glamour --> minimalist_fashion
   bauhaus_interior --> minimalist_interior
+  jian_tenmoku_ware --> mino_tea_ceramics
+  english_slipware --> mocha_banded_ware
   english_bespoke_tailoring --> mod_and_mini
   ivy_style --> mod_and_mini
   arts_and_crafts_jewellery --> modernist_studio_jewellery
@@ -1162,8 +1446,11 @@ flowchart LR
   classical_hollywood --> one_take_oner
   art_nouveau_architecture --> organic_architecture
   prairie_school_architecture --> organic_architecture
+  art_deco_tableware --> organic_modern_tableware
+  bauhaus_modern_tableware --> organic_modern_tableware
   flat_icon --> outline_icon
   deconstructivist_architecture --> parametricism_architecture
+  biscuit_porcelain_figures --> parian_statuary
   y2k_digicam --> party_flash
   seventh_gen_desaturated --> pbr_photoreal
   canvas_court_sneaker --> performance_running_shoe
@@ -1175,6 +1462,7 @@ flowchart LR
   impressionism --> pointillism
   mid_century_modern --> pop_art_web
   ben_day_comic_print --> pop_screen_print
+  meissen_baroque_porcelain --> porcelain_insulator
   impressionism --> post_impressionism
   english_bespoke_tailoring --> power_dressing
   sixteen_bit_sprite --> pre_rendered_backgrounds
@@ -1187,17 +1475,25 @@ flowchart LR
   pilot_and_field_watch --> racing_chronograph
   bauhaus --> rams_functionalism_ui
   swiss_international --> rams_functionalism_ui
+  creamware_neoclassical --> regency_gilded_bone_china
+  sevres_rococo_porcelain --> regency_gilded_bone_china
   art_deco_jewellery --> retro_cocktail_jewellery
   muscle_and_pony_car --> retro_revival_car
   xerox_zine --> risograph_print
   baroque_painting --> rococo_painting
+  meissen_baroque_porcelain --> rococo_porcelain_figures
+  greek_red_figure --> roman_terra_sigillata
   shaker_interior --> scandinavian_interior
   new_objectivity --> scandinavian_interior_photography
   arts_and_crafts_object --> scandinavian_modern_product
   bauhaus_product --> scandinavian_modern_product
+  bauhaus_modern_tableware --> scandinavian_modern_tableware
+  organic_modern_tableware --> scandinavian_modern_tableware
+  delft_tiles --> scandinavian_tiled_stove
   corporate_memphis --> scrapbook_ui
   punk_zine --> scrapbook_ui
   fifth_gen_low_poly --> seventh_gen_desaturated
+  meissen_baroque_porcelain --> sevres_rococo_porcelain
   nylon_foundation_garments --> shapewear_and_seamless
   soft_natural_lingerie --> shapewear_and_seamless
   eight_bit_tile --> sixteen_bit_sprite
@@ -1213,6 +1509,8 @@ flowchart LR
   mod_and_mini --> space_age_couture
   mid_century_modern_product --> space_age_pop_product
   glassmorphism --> spatial_visionos
+  mocha_banded_ware --> spongeware
+  english_slipware --> staffordshire_figures
   english_bespoke_tailoring --> stealth_luxury_accessory
   minimalist_fashion --> stealth_luxury_accessory
   art_deco_dance_shoe --> stiletto_heel
@@ -1220,6 +1518,8 @@ flowchart LR
   art_deco_product --> streamline_moderne_product
   straight_photography --> street_photography
   ivy_style --> streetwear
+  delft_tiles --> subway_tile
+  victorian_encaustic_tiles --> subway_tile
   ulm_braun_functionalism --> super_normal_product
   cubism_painting --> suprematism
   futurism_painting --> suprematism
@@ -1229,57 +1529,80 @@ flowchart LR
   vaporwave --> synthwave_web
   y2k_aesthetic --> synthwave_web
   streamline_car --> tailfin_era_car
+  qin_terracotta_warriors --> tang_sancai_figures
   nordic_functional_outdoor --> technical_shell_alpinism
   technical_shell_alpinism --> techwear
+  art_deco_faience_facade --> terracotta_rainscreen
+  victorian_architectural_terracotta --> terracotta_rainscreen
   garalde_old_style --> transitional_serif
+  azulejo --> trencadis
+  zellige --> trencadis
   country_sporting_tweed --> trench_and_field_military
   bauhaus_product --> ulm_braun_functionalism
   nylon_foundation_garments --> underwear_as_outerwear
   victorian_corsetry --> underwear_as_outerwear
   y2k_aesthetic --> vaporwave
   creator_vlog --> vertical_short_form
+  della_robbia_relief --> victorian_architectural_terracotta
+  victorian_encaustic_tiles --> victorian_architectural_terracotta
   whalebone_stays --> victorian_corsetry
+  delft_tiles --> victorian_encaustic_tiles
+  islamic_tile_mosaic --> victorian_encaustic_tiles
   georgian_interior --> victorian_interior
   georgian_neoclassical_manufacture --> victorian_manufacture
   empire_line_dress --> victorian_millinery
+  blue_willow_transferware --> victorian_sanitary_ware
   georgian_jewellery --> victorian_sentimental_jewellery
   brass_era_car --> vintage_coachbuilt_car
   eight_bit_tile --> voxel_block_world
   swiss_international --> wabi_sabi_web
+  coloured_bathroom_suite --> washlet_toilet
   italian_gran_turismo --> wedge_design_car
+  organic_modern_tableware --> west_german_fat_lava
   woodcut_relief_print --> wood_type_poster
   new_colour --> y2k_digicam
+  ding_white_ware --> yuan_ming_blue_and_white
+  islamic_tile_mosaic --> zellige
   abstract_expressionism -. rejects .-> de_stijl_painting
+  abstract_expressionist_ceramics -. rejects .-> anglo_oriental_studio_pottery
   adaptive_reuse_architecture -. rejects .-> international_style_architecture
   americana_workwear -. rejects .-> english_bespoke_tailoring
   anti_design -. rejects .-> flat_design
   anti_design -. rejects .-> material_design
   anti_design -. rejects .-> swiss_international
+  art_deco_ceramic_figures -. rejects .-> parian_statuary
   art_deco_interior -. rejects .-> art_nouveau_interior
   art_deco_jewellery -. rejects .-> art_nouveau_jewellery
   art_deco_product -. rejects .-> arts_and_crafts_object
+  art_deco_tableware -. rejects .-> blue_willow_transferware
   art_deco_watch -. rejects .-> garland_style_jewellery
   art_deco_web -. rejects .-> art_nouveau_web
   art_nouveau_interior -. rejects .-> victorian_interior
   art_nouveau_jewellery -. rejects .-> victorian_sentimental_jewellery
   art_nouveau_object -. rejects .-> victorian_manufacture
   arts_and_crafts_architecture -. rejects .-> neoclassical_architecture
+  arts_and_crafts_art_pottery -. rejects .-> blue_willow_transferware
   arts_and_crafts_interior -. rejects .-> victorian_interior
   arts_and_crafts_jewellery -. rejects .-> georgian_jewellery
   arts_and_crafts_jewellery -. rejects .-> victorian_sentimental_jewellery
   arts_and_crafts_object -. rejects .-> victorian_manufacture
   bandeau_brassiere -. rejects .-> straight_front_corset
+  bauhaus_modern_tableware -. rejects .-> meissen_baroque_porcelain
+  bauhaus_modern_tableware -. rejects .-> regency_gilded_bone_china
   biodesign_car -. rejects .-> wedge_design_car
   blob_world -. rejects .-> flat_design
+  british_modernist_studio -. rejects .-> anglo_oriental_studio_pottery
   brutalist_jewellery -. rejects .-> retro_cocktail_jewellery
   brutalist_web -. rejects .-> flat_design
   brutalist_web -. rejects .-> material_design
   canvas_court_sneaker -. rejects .-> english_welted_dress_shoe
+  chef_studio_tableware -. rejects .-> regency_gilded_bone_china
   clay_3d_icon -. rejects .-> flat_icon
   claymorphism -. rejects .-> flat_design
   conceptual_sketch_ui -. rejects .-> flat_design
   constructivism_web -. rejects .-> art_nouveau_web
   costume_jewellery -. rejects .-> garland_style_jewellery
+  creamware_neoclassical -. rejects .-> delftware
   critical_regionalism_architecture -. rejects .-> international_style_architecture
   critical_regionalism_architecture -. rejects .-> postmodern_architecture
   cubism_painting -. rejects .-> impressionism
@@ -1290,6 +1613,7 @@ flowchart LR
   de_stijl_web -. rejects .-> art_nouveau_web
   deconstructivist_architecture -. rejects .-> international_style_architecture
   deconstructivist_architecture -. rejects .-> postmodern_architecture
+  designer_wall_hung_sanitary -. rejects .-> victorian_sanitary_ware
   didone_serif -. rejects .-> garalde_old_style
   documentary_photography -. rejects .-> pictorialism
   dogme_95 -. rejects .-> french_new_wave
@@ -1302,20 +1626,24 @@ flowchart LR
   electronic_and_digital_watch -. rejects .-> breguet_classical_watch
   empire_line_dress -. rejects .-> rococo_court_dress
   english_bespoke_tailoring -. rejects .-> rococo_court_dress
+  english_slipware -. rejects .-> delftware
   ethereal_web -. rejects .-> brutalist_web
   expressionist_architecture -. rejects .-> beaux_arts_architecture
   fashion_editorial -. rejects .-> new_objectivity
+  fiesta_colourware -. rejects .-> blue_willow_transferware
   fifth_gen_low_poly -. rejects .-> sixteen_bit_sprite
   film_grain_revival -. rejects .-> y2k_digicam
   film_noir -. rejects .-> classical_hollywood
   flat_design -. rejects .-> skeuomorphism
   flat_icon -. rejects .-> skeuomorphic_icon
   flat_logo -. rejects .-> glossy_3d_logo
+  funk_ceramics -. rejects .-> anglo_oriental_studio_pottery
   garalde_old_style -. rejects .-> blackletter
   garconne_flapper_dress -. rejects .-> crinoline_and_bustle_dress
   garland_style_jewellery -. rejects .-> art_nouveau_jewellery
   geometric_sans -. rejects .-> garalde_old_style
   geometric_sans -. rejects .-> grotesque_sans
+  glass_ceramic_cookware -. rejects .-> american_stoneware_crock
   glossy_3d_logo -. rejects .-> swiss_modernist_mark
   gorpcore -. rejects .-> minimalist_fashion
   grandmillennial_interior -. rejects .-> minimalist_interior
@@ -1331,6 +1659,7 @@ flowchart LR
   italian_neorealism -. rejects .-> classical_hollywood
   japanese_avant_garde_fashion -. rejects .-> new_look
   japanese_dense_web -. rejects .-> swiss_international
+  large_format_porcelain_tiles -. rejects .-> delft_tiles
   liquid_glass_ui -. rejects .-> flat_design
   low_poly_ps1_revival -. rejects .-> pbr_photoreal
   luxury_steel_sports_watch -. rejects .-> electronic_and_digital_watch
@@ -1339,10 +1668,13 @@ flowchart LR
   memphis_design -. rejects .-> swiss_international
   memphis_interior -. rejects .-> bauhaus_interior
   memphis_interior -. rejects .-> mid_century_modern_interior
+  memphis_postmodern_ceramics -. rejects .-> bauhaus_modern_tableware
+  memphis_postmodern_ceramics -. rejects .-> scandinavian_modern_tableware
   memphis_product -. rejects .-> ulm_braun_functionalism
   metro_ui -. rejects .-> frutiger_aero
   metro_ui -. rejects .-> skeuomorphism
   mid_century_modern_product -. rejects .-> art_deco_product
+  mingei_folk_craft -. rejects .-> kyo_yaki_overglaze
   minimal_wordmark -. rejects .-> emblem_badge
   minimalism_painting -. rejects .-> abstract_expressionism
   minimalism_web -. rejects .-> skeuomorphism
@@ -1363,8 +1695,10 @@ flowchart LR
   new_objectivity -. rejects .-> pictorialism
   nylon_foundation_garments -. rejects .-> bandeau_brassiere
   one_take_oner -. rejects .-> soviet_montage
+  organic_modern_tableware -. rejects .-> regency_gilded_bone_china
   outline_icon -. rejects .-> skeuomorphic_icon
   parametricism_architecture -. rejects .-> international_style_architecture
+  parian_statuary -. rejects .-> staffordshire_figures
   photorealism -. rejects .-> abstract_expressionism
   planimetric_symmetry -. rejects .-> dogme_95
   pochoir_plate -. rejects .-> chromolithograph_poster
@@ -1380,12 +1714,14 @@ flowchart LR
   punk_zine -. rejects .-> swiss_international
   quiet_luxury_fashion -. rejects .-> logomania
   quiet_luxury_interior -. rejects .-> dopamine_decor
+  raku_tea_bowl -. rejects .-> jian_tenmoku_ware
   realism_painting -. rejects .-> rococo_painting
   realism_painting -. rejects .-> romanticism_painting
   renaissance_architecture -. rejects .-> gothic_architecture
   retro_cocktail_jewellery -. rejects .-> garland_style_jewellery
   retro_revival_car -. rejects .-> biodesign_car
   romanticism_painting -. rejects .-> rococo_painting
+  scandinavian_modern_tableware -. rejects .-> art_deco_tableware
   scrapbook_ui -. rejects .-> flat_design
   seventh_gen_desaturated -. rejects .-> cel_shaded_3d
   shaker_object -. rejects .-> georgian_neoclassical_manufacture
@@ -1396,6 +1732,8 @@ flowchart LR
   space_age_couture -. rejects .-> new_look
   space_age_pop_product -. rejects .-> scandinavian_modern_product
   spaghetti_western -. rejects .-> classical_hollywood
+  spongeware -. rejects .-> blue_willow_transferware
+  staffordshire_figures -. rejects .-> rococo_porcelain_figures
   stealth_luxury_accessory -. rejects .-> it_bag
   stealth_luxury_accessory -. rejects .-> logomania
   straight_photography -. rejects .-> pictorialism
@@ -1403,6 +1741,8 @@ flowchart LR
   streamline_moderne_product -. rejects .-> victorian_manufacture
   subculture_workboot -. rejects .-> english_welted_dress_shoe
   super_normal_product -. rejects .-> memphis_product
+  suprematist_porcelain -. rejects .-> georgian_porcelain_tea_service
+  suprematist_porcelain -. rejects .-> meissen_baroque_porcelain
   surrealism_web -. rejects .-> flat_design
   swiss_modernist_mark -. rejects .-> emblem_badge
   swiss_modernist_mark -. rejects .-> victorian_trademark
@@ -1418,6 +1758,7 @@ flowchart LR
   wedge_design_car -. rejects .-> muscle_and_pony_car
   xerox_zine -. rejects .-> psychedelic_concert_poster
   y2k_aesthetic -. rejects .-> grunge_editorial
+  yixing_zisha_teapot -. rejects .-> jian_tenmoku_ware
   linkStyle 0 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 1 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 2 stroke:#8E8E93,stroke-width:1.5px
@@ -1830,175 +2171,302 @@ flowchart LR
   linkStyle 409 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 410 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 411 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 680 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 681 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 682 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 683 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 684 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 685 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 686 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 687 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 688 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 689 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 690 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 691 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 692 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 693 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 694 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 695 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 696 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 697 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 698 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 699 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 700 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 701 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 702 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 703 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 704 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 705 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 706 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 707 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 708 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 709 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 710 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 711 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 712 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 713 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 714 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 715 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 716 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 717 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 718 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 719 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 720 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 721 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 722 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 723 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 724 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 725 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 726 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 727 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 728 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 729 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 730 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 731 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 732 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 733 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 734 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 735 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 736 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 737 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 738 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 739 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 740 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 741 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 742 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 743 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 744 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 745 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 746 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 747 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 748 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 749 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 750 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 751 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 752 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 753 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 754 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 755 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 756 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 757 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 758 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 759 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 760 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 761 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 762 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 763 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 764 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 765 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 766 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 767 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 768 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 769 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 770 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 771 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 772 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 773 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 774 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 775 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 776 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 777 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 778 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 779 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 780 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 781 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 782 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 783 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 784 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 785 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 786 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 787 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 788 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 789 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 790 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 791 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 792 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 793 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 794 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 795 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 796 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 797 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 798 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 799 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 800 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 801 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 802 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 803 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 804 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 805 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 806 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 807 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 808 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 809 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 810 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 811 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 812 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 813 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 814 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 815 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 816 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 817 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 818 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 819 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 820 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 821 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 822 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 823 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 824 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 825 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 826 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 827 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 828 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 829 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 830 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 831 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 832 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 833 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 834 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 835 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 836 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 837 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 838 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 839 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 840 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 841 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 842 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 843 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 844 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 845 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 846 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 847 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 848 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 412 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 413 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 414 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 415 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 416 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 417 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 418 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 419 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 420 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 421 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 422 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 423 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 424 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 425 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 426 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 427 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 428 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 429 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 430 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 431 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 432 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 433 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 434 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 435 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 436 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 437 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 438 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 439 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 440 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 441 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 442 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 443 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 444 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 445 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 446 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 447 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 448 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 449 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 450 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 451 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 452 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 453 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 454 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 455 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 456 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 457 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 458 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 459 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 460 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 461 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 462 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 463 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 464 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 465 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 466 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 467 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 468 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 469 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 470 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 471 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 472 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 473 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 474 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 475 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 476 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 477 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 478 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 479 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 480 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 481 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 482 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 483 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 484 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 485 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 486 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 487 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 488 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 489 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 490 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 491 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 492 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 493 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 494 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 495 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 496 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 497 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 498 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 499 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 500 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 501 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 502 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 503 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 504 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 505 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 506 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 507 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 508 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 509 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 510 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 511 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 889 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 890 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 891 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 892 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 893 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 894 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 895 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 896 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 897 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 898 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 899 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 900 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 901 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 902 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 903 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 904 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 905 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 906 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 907 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 908 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 909 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 910 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 911 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 912 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 913 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 914 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 915 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 916 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 917 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 918 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 919 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 920 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 921 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 922 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 923 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 924 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 925 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 926 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 927 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 928 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 929 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 930 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 931 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 932 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 933 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 934 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 935 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 936 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 937 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 938 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 939 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 940 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 941 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 942 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 943 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 944 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 945 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 946 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 947 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 948 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 949 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 950 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 951 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 952 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 953 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 954 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 955 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 956 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 957 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 958 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 959 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 960 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 961 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 962 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 963 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 964 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 965 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 966 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 967 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 968 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 969 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 970 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 971 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 972 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 973 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 974 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 975 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 976 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 977 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 978 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 979 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 980 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 981 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 982 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 983 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 984 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 985 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 986 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 987 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 988 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 989 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 990 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 991 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 992 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 993 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 994 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 995 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 996 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 997 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 998 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 999 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1000 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1001 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1002 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1003 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1004 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1005 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1006 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1007 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1008 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1009 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1010 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1011 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1012 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1013 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1014 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1015 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1016 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1017 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1018 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1019 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1020 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1021 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1022 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1023 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1024 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1025 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1026 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1027 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1028 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1029 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1030 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1031 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1032 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1033 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1034 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1035 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1036 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1037 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1038 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1039 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1040 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1041 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1042 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1043 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1044 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1045 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1046 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1047 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1048 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1049 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1050 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1051 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1052 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1053 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1054 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1055 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1056 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1057 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1058 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1059 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1060 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1061 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1062 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1063 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1064 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1065 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1066 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1067 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1068 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1069 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1070 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1071 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1072 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1073 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1074 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1075 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1076 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1077 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1078 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1079 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1080 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1081 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1082 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1083 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1084 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 

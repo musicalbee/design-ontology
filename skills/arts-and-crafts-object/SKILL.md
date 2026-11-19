@@ -199,7 +199,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`art-nouveau-object`](../art-nouveau-object/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`victorian-manufacture`](../victorian-manufacture/SKILL.md)
 - **Was rejected by:** [`art-deco-product`](../art-deco-product/SKILL.md), [`industrial-utility-product`](../industrial-utility-product/SKILL.md)
-- **Kin in another domain:** [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md), [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md), [`arts-and-crafts-jewellery`](../arts-and-crafts-jewellery/SKILL.md), [`country-sporting-tweed`](../country-sporting-tweed/SKILL.md)
+- **Kin in another domain:** [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md), [`arts-and-crafts-art-pottery`](../arts-and-crafts-art-pottery/SKILL.md), [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md), [`arts-and-crafts-jewellery`](../arts-and-crafts-jewellery/SKILL.md), [`country-sporting-tweed`](../country-sporting-tweed/SKILL.md)
 - **Nearest by vector profile:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`art-nouveau-object`](../art-nouveau-object/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
 
 ## Emotional target

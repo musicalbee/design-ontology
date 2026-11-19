@@ -1,0 +1,1711 @@
+{
+  "$schema": "../../schema/ceramics-vocabulary.schema.json",
+  "$comment": "The closed vocabulary of the ceramics domain. Each clay body, glaze and decoration gives its origin: the first year with a firm record, the place and, where known, the maker. circa = true marks an estimate. No origin means that no open source gives a year. A glaze lists the kinds of body that it suits.",
+  "branches": [
+    {
+      "id": "tableware",
+      "name": "Tableware",
+      "order": 1,
+      "scope": "Plates, bowls, cups, saucers and the full place setting: the ceramics of a meal."
+    },
+    {
+      "id": "teaware",
+      "name": "Tea and coffee ware",
+      "order": 2,
+      "scope": "Teapots, tea bowls, caddies, jugs and coffee sets: the ceramics of a drink ritual."
+    },
+    {
+      "id": "kitchen-and-storage",
+      "name": "Kitchen and storage ware",
+      "order": 3,
+      "scope": "Crocks, storage jars, ovenware, mixing bowls and pitchers: the work pots of a kitchen and a larder."
+    },
+    {
+      "id": "vessels",
+      "name": "Vases and display vessels",
+      "order": 4,
+      "scope": "Vases, jars, chargers and bowls made to be looked at, and the studio vessel as a work of art."
+    },
+    {
+      "id": "figurative",
+      "name": "Figures and sculpture",
+      "order": 5,
+      "scope": "Figurines, busts, animals, groups and ceramic sculpture."
+    },
+    {
+      "id": "tiles",
+      "name": "Tiles and wall ceramics",
+      "order": 6,
+      "scope": "Wall and floor tiles, tile panels, mosaics and tiled stoves: ceramics as an interior surface."
+    },
+    {
+      "id": "architectural",
+      "name": "Architectural ceramics",
+      "order": 7,
+      "scope": "Terracotta and faience cladding, roof tiles, ornamental brick and facade panels: ceramics on a building."
+    },
+    {
+      "id": "sanitary-technical",
+      "name": "Sanitary and technical ceramics",
+      "order": 8,
+      "scope": "Basins, WCs, baths, electrical insulators and laboratory porcelain: fired clay as engineered product."
+    }
+  ],
+  "bodies": [
+    {
+      "id": "earthenware",
+      "name": "Earthenware",
+      "kind": "earthenware",
+      "firing_c": [
+        950,
+        1150
+      ],
+      "origin": {
+        "year": -18000,
+        "circa": true,
+        "place": "Xianrendong Cave, Jiangxi, China"
+      },
+      "note": "A porous body fired below about 1150 °C. Pots from Xianrendong Cave are the oldest known vessels of fired clay."
+    },
+    {
+      "id": "terracotta",
+      "name": "Terracotta",
+      "kind": "earthenware",
+      "firing_c": [
+        900,
+        1100
+      ],
+      "origin": {
+        "year": -3000,
+        "circa": true,
+        "place": "Mesopotamia and the Indus valley"
+      },
+      "note": "A red, iron-rich earthenware, often left unglazed. It makes figures, roof tiles and facade blocks."
+    },
+    {
+      "id": "fired-brick",
+      "name": "Fired brick clay",
+      "kind": "earthenware",
+      "firing_c": [
+        900,
+        1150
+      ],
+      "origin": {
+        "year": -3500,
+        "circa": true,
+        "place": "Mesopotamia"
+      },
+      "note": "A coarse clay fired in moulded blocks. Glazed brick makes the Ishtar Gate of Babylon, about 575 BC."
+    },
+    {
+      "id": "egyptian-faience",
+      "name": "Egyptian faience",
+      "kind": "frit",
+      "firing_c": [
+        800,
+        1000
+      ],
+      "origin": {
+        "year": -3500,
+        "circa": true,
+        "place": "Egypt and Mesopotamia"
+      },
+      "note": "A body of ground quartz with an alkaline flux that glazes itself when it dries and fires. It is not a clay body."
+    },
+    {
+      "id": "stonepaste",
+      "name": "Stonepaste (fritware)",
+      "kind": "frit",
+      "firing_c": [
+        900,
+        1050
+      ],
+      "origin": {
+        "year": 1000,
+        "circa": true,
+        "place": "Egypt, Iraq and Iran"
+      },
+      "note": "A white body of ground quartz, glass frit and a little clay. Islamic potters used it to copy Chinese porcelain; Iznik ware uses it."
+    },
+    {
+      "id": "stoneware",
+      "name": "Stoneware",
+      "kind": "stoneware",
+      "firing_c": [
+        1200,
+        1300
+      ],
+      "origin": {
+        "year": -1500,
+        "circa": true,
+        "place": "China (Shang dynasty)"
+      },
+      "note": "A dense, vitrified body fired at about 1200 to 1300 °C. It holds water without a glaze."
+    },
+    {
+      "id": "red-stoneware",
+      "name": "Red stoneware (zisha)",
+      "kind": "stoneware",
+      "firing_c": [
+        1100,
+        1200
+      ],
+      "origin": {
+        "year": 1500,
+        "circa": true,
+        "place": "Yixing, Jiangsu, China"
+      },
+      "note": "A fine iron-rich stoneware, left unglazed. Yixing teapots in this body take a patina from tea."
+    },
+    {
+      "id": "porcelain",
+      "name": "Porcelain",
+      "kind": "porcelain",
+      "firing_c": [
+        1250,
+        1400
+      ],
+      "origin": {
+        "year": 600,
+        "circa": true,
+        "place": "China (Sui and Tang dynasties)"
+      },
+      "note": "A white, dense and translucent body of kaolin and porcelain stone, fired at about 1300 °C."
+    },
+    {
+      "id": "european-hard-paste",
+      "name": "European hard-paste porcelain",
+      "kind": "porcelain",
+      "firing_c": [
+        1350,
+        1450
+      ],
+      "origin": {
+        "year": 1708,
+        "place": "Dresden and Meissen, Saxony",
+        "by": "Ehrenfried Walther von Tschirnhaus and Johann Friedrich Böttger"
+      },
+      "note": "The first European true porcelain. The Meissen manufactory began production in 1710."
+    },
+    {
+      "id": "soft-paste-porcelain",
+      "name": "Soft-paste porcelain",
+      "kind": "porcelain",
+      "firing_c": [
+        1100,
+        1200
+      ],
+      "origin": {
+        "year": 1575,
+        "circa": true,
+        "place": "Florence",
+        "by": "the Medici workshop"
+      },
+      "note": "A glassy body of white clay and frit, an early European imitation of Chinese porcelain. Sèvres used it until about 1770."
+    },
+    {
+      "id": "bone-china",
+      "name": "Bone china",
+      "kind": "porcelain",
+      "firing_c": [
+        1200,
+        1260
+      ],
+      "origin": {
+        "year": 1748,
+        "place": "Bow, London",
+        "by": "Thomas Frye"
+      },
+      "note": "A porcelain with calcined bone ash. It is white, thin and strong. Josiah Spode set the standard recipe about 1796."
+    },
+    {
+      "id": "creamware",
+      "name": "Creamware",
+      "kind": "earthenware",
+      "firing_c": [
+        1100,
+        1150
+      ],
+      "origin": {
+        "year": 1740,
+        "circa": true,
+        "place": "Staffordshire"
+      },
+      "note": "A cream-coloured earthenware with a lead glaze. Josiah Wedgwood refined it as Queen's ware in 1762."
+    },
+    {
+      "id": "pearlware",
+      "name": "Pearlware",
+      "kind": "earthenware",
+      "firing_c": [
+        1100,
+        1150
+      ],
+      "origin": {
+        "year": 1779,
+        "place": "Etruria, Staffordshire",
+        "by": "Josiah Wedgwood"
+      },
+      "note": "Creamware with a little cobalt in the glaze, so that it looks whiter. It carries blue transfer prints well."
+    },
+    {
+      "id": "jasperware",
+      "name": "Jasperware",
+      "kind": "stoneware",
+      "firing_c": [
+        1200,
+        1250
+      ],
+      "origin": {
+        "year": 1775,
+        "place": "Etruria, Staffordshire",
+        "by": "Josiah Wedgwood"
+      },
+      "note": "A fine unglazed stoneware coloured with metal oxides, with white relief in the same body."
+    },
+    {
+      "id": "black-basalt",
+      "name": "Black basalt",
+      "kind": "stoneware",
+      "firing_c": [
+        1150,
+        1200
+      ],
+      "origin": {
+        "year": 1768,
+        "place": "Etruria, Staffordshire",
+        "by": "Josiah Wedgwood"
+      },
+      "note": "A black unglazed stoneware coloured with iron and manganese, made for vases and teaware in the antique style."
+    },
+    {
+      "id": "ironstone",
+      "name": "Ironstone china",
+      "kind": "stoneware",
+      "firing_c": [
+        1200,
+        1250
+      ],
+      "origin": {
+        "year": 1813,
+        "place": "Lane Delph, Staffordshire",
+        "by": "Charles James Mason"
+      },
+      "note": "A hard, heavy, white body patented as a cheap substitute for porcelain."
+    },
+    {
+      "id": "parian",
+      "name": "Parian porcelain",
+      "kind": "porcelain",
+      "firing_c": [
+        1200,
+        1250
+      ],
+      "origin": {
+        "year": 1845,
+        "circa": true,
+        "place": "Stoke-on-Trent",
+        "by": "Copeland and Minton"
+      },
+      "note": "An unglazed biscuit porcelain that looks like Parian marble. It made figures and busts for the Victorian home."
+    },
+    {
+      "id": "raku-clay",
+      "name": "Raku clay",
+      "kind": "earthenware",
+      "firing_c": [
+        750,
+        1000
+      ],
+      "origin": {
+        "year": 1580,
+        "circa": true,
+        "place": "Kyoto",
+        "by": "Chōjirō"
+      },
+      "note": "An open, grogged clay that survives the shock of a hot kiln. Pieces are hand-built, not thrown."
+    },
+    {
+      "id": "vitreous-china",
+      "name": "Vitreous china",
+      "kind": "porcelain",
+      "firing_c": [
+        1200,
+        1250
+      ],
+      "note": "A dense, white body with near zero water absorption, cast for sanitary ware: basins, WCs and urinals."
+    },
+    {
+      "id": "fireclay",
+      "name": "Fireclay",
+      "kind": "stoneware",
+      "firing_c": [
+        1200,
+        1300
+      ],
+      "note": "A refractory clay that resists heat and holds a large cast without warping: Belfast sinks, baths and kiln furniture."
+    },
+    {
+      "id": "porcelain-stoneware",
+      "name": "Porcelain stoneware (gres porcellanato)",
+      "kind": "stoneware",
+      "firing_c": [
+        1200,
+        1250
+      ],
+      "note": "A pressed tile body with water absorption below 0.5 %. It makes floor and wall tiles that copy stone, wood and concrete."
+    },
+    {
+      "id": "technical-porcelain",
+      "name": "Technical porcelain",
+      "kind": "porcelain",
+      "firing_c": [
+        1300,
+        1450
+      ],
+      "note": "A high-alumina porcelain for electrical insulators and laboratory ware. It resists voltage, heat and acids."
+    },
+    {
+      "id": "paper-clay",
+      "name": "Paper clay",
+      "kind": "earthenware",
+      "firing_c": [
+        950,
+        1250
+      ],
+      "note": "Clay mixed with paper fibre, so that thin sculptural forms stand and join when dry."
+    },
+    {
+      "id": "glass-ceramic",
+      "name": "Glass-ceramic",
+      "kind": "frit",
+      "firing_c": [
+        750,
+        1100
+      ],
+      "origin": {
+        "year": 1953,
+        "place": "Corning, New York",
+        "by": "S. Donald Stookey"
+      },
+      "note": "A glass that heat turns into a fine crystal ceramic, so that it takes a flame and the freezer. Stookey found it by accident; Corning Ware used it from 1958."
+    },
+    {
+      "id": "pyrogranite",
+      "name": "Pyrogranite",
+      "kind": "stoneware",
+      "firing_c": [
+        1200,
+        1300
+      ],
+      "origin": {
+        "year": 1886,
+        "circa": false,
+        "place": "Pécs, Hungary",
+        "by": "Vilmos Zsolnay"
+      },
+      "note": "A hard, frost-proof architectural body that the Zsolnay factory developed. It makes roof tiles, relief panels and finials with a strong glaze."
+    }
+  ],
+  "materials": [
+    {
+      "id": "ormolu",
+      "name": "Ormolu (gilt bronze)",
+      "kind": "metal",
+      "note": "Fire-gilt bronze mounts that French dealers added to Chinese and Sèvres porcelain in the 18th century."
+    },
+    {
+      "id": "silver",
+      "name": "Silver",
+      "kind": "metal",
+      "note": "A metal for mounts, spouts and rims of precious ware."
+    },
+    {
+      "id": "brass",
+      "name": "Brass",
+      "kind": "metal",
+      "note": "A yellow alloy of copper and zinc for taps, fittings and frames."
+    },
+    {
+      "id": "chrome",
+      "name": "Chrome plate",
+      "kind": "metal",
+      "note": "Bright chromium plate on brass or steel, the finish of taps and fittings after about 1925."
+    },
+    {
+      "id": "stainless-steel",
+      "name": "Stainless steel",
+      "kind": "metal",
+      "note": "A corrosion-resistant steel for lids, frames and modern fittings."
+    },
+    {
+      "id": "cane",
+      "name": "Cane and bamboo",
+      "kind": "fibre",
+      "note": "Woven cane or bamboo for the overhead handles of teapots and kettles."
+    },
+    {
+      "id": "cork",
+      "name": "Cork",
+      "kind": "other",
+      "note": "A bark used for the stoppers and lids of storage jars."
+    },
+    {
+      "id": "wood",
+      "name": "Wood",
+      "kind": "wood",
+      "note": "Timber for lids, stands, frames and toilet seats."
+    },
+    {
+      "id": "glass",
+      "name": "Glass",
+      "kind": "glass",
+      "note": "A non-ceramic glassy material. It is a substitute that breaks the look of fired clay."
+    },
+    {
+      "id": "plastic",
+      "name": "Plastic",
+      "kind": "plastic",
+      "note": "A moulded polymer, the usual substitute for ceramic in cheap ware."
+    },
+    {
+      "id": "concrete",
+      "name": "Concrete",
+      "kind": "stone",
+      "note": "A cast stone that replaced terracotta and faience on facades after about 1930."
+    },
+    {
+      "id": "steel-frame",
+      "name": "Steel frame",
+      "kind": "metal",
+      "note": "The structural frame behind terracotta and faience cladding."
+    }
+  ],
+  "glazes": [
+    {
+      "id": "bare-clay",
+      "name": "Bare clay (unglazed)",
+      "kind": "bare",
+      "bodies": [
+        "earthenware",
+        "stoneware",
+        "porcelain",
+        "frit"
+      ],
+      "note": "No glaze: the fired clay is the surface. Bizen, Yixing, terracotta and jasper ware leave it bare."
+    },
+    {
+      "id": "burnished",
+      "name": "Burnished",
+      "kind": "bare",
+      "bodies": [
+        "earthenware"
+      ],
+      "origin": {
+        "year": -6000,
+        "circa": true,
+        "place": "the Near East"
+      },
+      "note": "Clay polished with a stone or a bone before firing, so that it shines without a glaze."
+    },
+    {
+      "id": "biscuit",
+      "name": "Biscuit (unglazed porcelain)",
+      "kind": "bare",
+      "bodies": [
+        "porcelain"
+      ],
+      "origin": {
+        "year": 1751,
+        "place": "Vincennes",
+        "by": "Jean-Jacques Bachelier"
+      },
+      "note": "Fired porcelain left without glaze, matte and white like marble. Vincennes and Sèvres used it for figures."
+    },
+    {
+      "id": "attic-gloss",
+      "name": "Attic black gloss",
+      "kind": "slip",
+      "bodies": [
+        "earthenware"
+      ],
+      "origin": {
+        "year": -700,
+        "circa": true,
+        "place": "Corinth and Athens"
+      },
+      "note": "A fine iron-rich slip that turns black and glossy in a three-stage firing. It makes black- and red-figure ware."
+    },
+    {
+      "id": "terra-sigillata",
+      "name": "Terra sigillata",
+      "kind": "slip",
+      "bodies": [
+        "earthenware"
+      ],
+      "origin": {
+        "year": -30,
+        "circa": true,
+        "place": "Arezzo, Italy"
+      },
+      "note": "A red gloss slip of very fine clay particles, the surface of Roman tableware."
+    },
+    {
+      "id": "alkaline-glaze",
+      "name": "Alkaline glaze",
+      "kind": "alkaline",
+      "bodies": [
+        "earthenware",
+        "frit"
+      ],
+      "origin": {
+        "year": -1500,
+        "circa": true,
+        "place": "Mesopotamia"
+      },
+      "note": "A glaze fluxed with soda or potash. It gives bright turquoise with copper and blue with cobalt."
+    },
+    {
+      "id": "lead-glaze",
+      "name": "Lead glaze",
+      "kind": "lead",
+      "bodies": [
+        "earthenware"
+      ],
+      "origin": {
+        "year": -200,
+        "circa": true,
+        "place": "China (Han dynasty) and the Roman world"
+      },
+      "note": "A clear, low-fired glaze fluxed with lead oxide. It is glossy and takes colour from metal oxides."
+    },
+    {
+      "id": "ash-glaze",
+      "name": "Ash glaze",
+      "kind": "ash",
+      "bodies": [
+        "stoneware",
+        "porcelain"
+      ],
+      "origin": {
+        "year": -1500,
+        "circa": true,
+        "place": "China (Shang dynasty)"
+      },
+      "note": "A glaze from wood ash. In a wood kiln it forms by itself as green-brown runs on the shoulder of a pot."
+    },
+    {
+      "id": "celadon",
+      "name": "Celadon",
+      "kind": "feldspathic",
+      "bodies": [
+        "stoneware",
+        "porcelain"
+      ],
+      "origin": {
+        "year": 200,
+        "circa": true,
+        "place": "Zhejiang, China (Yue kilns)"
+      },
+      "note": "A green to blue-green glaze from a little iron in reduction. Longquan and Korean Goryeo celadons are the classic forms."
+    },
+    {
+      "id": "sancai",
+      "name": "Sancai (three-colour)",
+      "kind": "lead",
+      "bodies": [
+        "earthenware"
+      ],
+      "origin": {
+        "year": 700,
+        "circa": true,
+        "place": "China (Tang dynasty)"
+      },
+      "note": "Lead glazes in amber, green and cream that run together on tomb figures and vessels."
+    },
+    {
+      "id": "tin-glaze",
+      "name": "Tin glaze",
+      "kind": "tin",
+      "bodies": [
+        "earthenware"
+      ],
+      "origin": {
+        "year": 800,
+        "circa": true,
+        "place": "Basra, Iraq"
+      },
+      "note": "An opaque white lead glaze with tin oxide. It is the base of maiolica, faience and delftware."
+    },
+    {
+      "id": "jun-glaze",
+      "name": "Jun glaze",
+      "kind": "feldspathic",
+      "bodies": [
+        "stoneware"
+      ],
+      "origin": {
+        "year": 1000,
+        "circa": true,
+        "place": "Henan, China (Song dynasty)"
+      },
+      "note": "A thick opalescent blue glaze, often with purple splashes of copper."
+    },
+    {
+      "id": "tenmoku",
+      "name": "Tenmoku",
+      "kind": "feldspathic",
+      "bodies": [
+        "stoneware"
+      ],
+      "origin": {
+        "year": 1000,
+        "circa": true,
+        "place": "Jian kilns, Fujian, China (Song dynasty)"
+      },
+      "note": "A dark iron glaze that breaks to brown on rims. Hare's fur and oil spot are its effects."
+    },
+    {
+      "id": "crackle-glaze",
+      "name": "Crackle glaze",
+      "kind": "feldspathic",
+      "bodies": [
+        "stoneware",
+        "porcelain"
+      ],
+      "origin": {
+        "year": 1100,
+        "circa": true,
+        "place": "China (Song dynasty, Guan and Ge wares)"
+      },
+      "note": "A glaze that crazes in a net of lines on cooling. Potters stain the lines to show them."
+    },
+    {
+      "id": "salt-glaze",
+      "name": "Salt glaze",
+      "kind": "salt",
+      "bodies": [
+        "stoneware"
+      ],
+      "origin": {
+        "year": 1400,
+        "circa": true,
+        "place": "Rhineland, Germany"
+      },
+      "note": "Salt thrown into a hot kiln forms a thin glaze with an orange-peel texture on stoneware."
+    },
+    {
+      "id": "copper-red",
+      "name": "Copper red",
+      "kind": "feldspathic",
+      "bodies": [
+        "porcelain",
+        "stoneware"
+      ],
+      "origin": {
+        "year": 1400,
+        "circa": true,
+        "place": "Jingdezhen, China"
+      },
+      "note": "A red glaze from copper in reduction, hard to control: sang de boeuf and flambé."
+    },
+    {
+      "id": "raku-glaze",
+      "name": "Raku glaze",
+      "kind": "lead",
+      "bodies": [
+        "earthenware"
+      ],
+      "origin": {
+        "year": 1580,
+        "circa": true,
+        "place": "Kyoto",
+        "by": "Chōjirō"
+      },
+      "note": "A low-fired glaze on a piece pulled hot from the kiln. Black and red raku tea bowls are the canonical forms."
+    },
+    {
+      "id": "shino-glaze",
+      "name": "Shino glaze",
+      "kind": "feldspathic",
+      "bodies": [
+        "stoneware"
+      ],
+      "origin": {
+        "year": 1580,
+        "circa": true,
+        "place": "Mino, Japan"
+      },
+      "note": "A thick white feldspar glaze with pinholes and fire-orange edges."
+    },
+    {
+      "id": "oribe-glaze",
+      "name": "Oribe glaze",
+      "kind": "feldspathic",
+      "bodies": [
+        "stoneware"
+      ],
+      "origin": {
+        "year": 1600,
+        "circa": true,
+        "place": "Mino, Japan"
+      },
+      "note": "A copper-green glaze poured over part of a piece, named after the tea master Furuta Oribe."
+    },
+    {
+      "id": "clear-feldspathic",
+      "name": "Clear porcelain glaze",
+      "kind": "feldspathic",
+      "bodies": [
+        "porcelain",
+        "stoneware"
+      ],
+      "note": "A transparent high-fired feldspar glaze that shows the white body and underglaze painting."
+    },
+    {
+      "id": "majolica-glaze",
+      "name": "Victorian majolica glaze",
+      "kind": "lead",
+      "bodies": [
+        "earthenware"
+      ],
+      "origin": {
+        "year": 1849,
+        "place": "Stoke-on-Trent",
+        "by": "Léon Arnoux at Minton"
+      },
+      "note": "Bright coloured lead glazes over moulded relief, shown at the Great Exhibition of 1851."
+    },
+    {
+      "id": "crystalline-glaze",
+      "name": "Crystalline glaze",
+      "kind": "crystalline",
+      "bodies": [
+        "porcelain",
+        "stoneware"
+      ],
+      "origin": {
+        "year": 1885,
+        "circa": true,
+        "place": "Sèvres and Copenhagen"
+      },
+      "note": "A zinc glaze that grows flower-like crystals in a slow cool."
+    },
+    {
+      "id": "matte-glaze",
+      "name": "Matte glaze",
+      "kind": "matte",
+      "bodies": [
+        "earthenware",
+        "stoneware"
+      ],
+      "origin": {
+        "year": 1898,
+        "circa": true,
+        "place": "Boston",
+        "by": "the Grueby Faience Company"
+      },
+      "note": "A dry, velvet glaze. Grueby matte green set the surface of American art pottery."
+    },
+    {
+      "id": "uranium-glaze",
+      "name": "Uranium oxide glaze",
+      "kind": "lead",
+      "bodies": [
+        "earthenware"
+      ],
+      "origin": {
+        "year": 1936,
+        "circa": true,
+        "place": "Newell, West Virginia",
+        "by": "Frederick Hurten Rhead for Homer Laughlin"
+      },
+      "note": "A bright orange-red glaze coloured with uranium oxide, the red of Fiesta ware."
+    },
+    {
+      "id": "lava-glaze",
+      "name": "Lava glaze",
+      "kind": "other",
+      "bodies": [
+        "earthenware",
+        "stoneware"
+      ],
+      "origin": {
+        "year": 1960,
+        "circa": true,
+        "place": "West Germany"
+      },
+      "note": "A thick, bubbled glaze that looks like lava, the surface of West German Fat Lava vases."
+    },
+    {
+      "id": "satin-glaze",
+      "name": "Satin glaze",
+      "kind": "feldspathic",
+      "bodies": [
+        "stoneware",
+        "porcelain",
+        "earthenware"
+      ],
+      "note": "A glaze between matte and gloss, about 20 to 50 GU, common on studio and Scandinavian ware."
+    },
+    {
+      "id": "sanitary-glaze",
+      "name": "Sanitary glaze",
+      "kind": "feldspathic",
+      "bodies": [
+        "porcelain",
+        "stoneware"
+      ],
+      "note": "A glossy, hard, white zircon glaze that cleans easily, sprayed on vitreous china and fireclay."
+    },
+    {
+      "id": "coloured-gloss",
+      "name": "Coloured gloss glaze",
+      "kind": "lead",
+      "bodies": [
+        "earthenware",
+        "stoneware",
+        "porcelain"
+      ],
+      "note": "A smooth, even, saturated industrial glaze in one colour."
+    },
+    {
+      "id": "albany-slip",
+      "name": "Albany slip",
+      "kind": "slip",
+      "bodies": [
+        "stoneware"
+      ],
+      "note": "A natural brown clay from Albany, New York, that melts to a dark glossy coat at stoneware heat. American potters dipped crocks and jugs in it."
+    },
+    {
+      "id": "iron-brown-glaze",
+      "name": "Iron brown glaze",
+      "kind": "feldspathic",
+      "bodies": [
+        "stoneware",
+        "porcelain"
+      ],
+      "note": "A glossy brown glaze coloured by iron oxide. It covers telegraph and power insulators, because it hides soot and dirt and sheds rain."
+    },
+    {
+      "id": "eosin-glaze",
+      "name": "Eosin glaze",
+      "kind": "other",
+      "bodies": [
+        "earthenware",
+        "stoneware",
+        "porcelain"
+      ],
+      "origin": {
+        "year": 1893,
+        "circa": true,
+        "place": "Pécs, Hungary",
+        "by": "Vilmos Zsolnay"
+      },
+      "note": "An iridescent lustre glaze in red, purple and gold that the Zsolnay factory made. It gives roof finials and wall panels an oily metallic sheen."
+    },
+    {
+      "id": "soft-paste-glaze",
+      "name": "Soft-paste glaze",
+      "kind": "lead",
+      "bodies": [
+        "porcelain"
+      ],
+      "origin": {
+        "year": 1575,
+        "circa": true,
+        "place": "Florence",
+        "by": "the Medici workshop"
+      },
+      "note": "A soft, glassy lead glaze that fuses with the body of soft-paste porcelain. It pools in the corners and takes enamel colours well. English factories used it from about 1745."
+    }
+  ],
+  "decorations": [
+    {
+      "id": "undecorated",
+      "name": "Undecorated",
+      "kind": "none",
+      "note": "No applied decoration: form, body and glaze alone make the piece."
+    },
+    {
+      "id": "cord-impressed",
+      "name": "Cord-impressed",
+      "kind": "incised",
+      "origin": {
+        "year": -14000,
+        "circa": true,
+        "place": "Japan (Jōmon period)"
+      },
+      "note": "Patterns pressed into wet clay with twisted cord, the mark that names Jōmon pottery."
+    },
+    {
+      "id": "incised",
+      "name": "Incised and carved",
+      "kind": "incised",
+      "note": "Lines cut or carved into the leather-hard clay, often under a glaze that pools in them."
+    },
+    {
+      "id": "black-figure",
+      "name": "Black-figure painting",
+      "kind": "painted",
+      "origin": {
+        "year": -700,
+        "circa": true,
+        "place": "Corinth"
+      },
+      "note": "Figures in black gloss slip on the red clay, with incised detail."
+    },
+    {
+      "id": "red-figure",
+      "name": "Red-figure painting",
+      "kind": "painted",
+      "origin": {
+        "year": -530,
+        "circa": true,
+        "place": "Athens",
+        "by": "the Andokides Painter"
+      },
+      "note": "The ground is black gloss and the figures stay the red of the clay, drawn with a brush."
+    },
+    {
+      "id": "lustre",
+      "name": "Lustre",
+      "kind": "metallic",
+      "origin": {
+        "year": 800,
+        "circa": true,
+        "place": "Iraq (Abbasid period)"
+      },
+      "note": "A thin film of silver or copper fired in reduction on a glaze. It shines like metal."
+    },
+    {
+      "id": "sgraffito",
+      "name": "Sgraffito",
+      "kind": "incised",
+      "origin": {
+        "year": 900,
+        "circa": true,
+        "place": "Iran and Byzantium"
+      },
+      "note": "A line scratched through a slip to show the clay of another colour under it."
+    },
+    {
+      "id": "iron-painting",
+      "name": "Iron-oxide painting",
+      "kind": "painted",
+      "origin": {
+        "year": 1000,
+        "circa": true,
+        "place": "Cizhou kilns, Hebei, China"
+      },
+      "note": "Brushwork in iron oxide that fires black or brown, under or over a glaze."
+    },
+    {
+      "id": "slip-inlay",
+      "name": "Slip inlay",
+      "kind": "inlaid",
+      "origin": {
+        "year": 1150,
+        "circa": true,
+        "place": "Korea (Goryeo dynasty)"
+      },
+      "note": "Lines cut into the clay and filled with white and black slip, under a celadon glaze."
+    },
+    {
+      "id": "encaustic-inlay",
+      "name": "Encaustic inlay",
+      "kind": "inlaid",
+      "origin": {
+        "year": 1200,
+        "circa": true,
+        "place": "England"
+      },
+      "note": "A pattern of coloured clay inlaid into a tile, so that it does not wear off. Herbert Minton revived it in the 1830s."
+    },
+    {
+      "id": "tile-mosaic",
+      "name": "Cut-tile mosaic",
+      "kind": "applied",
+      "origin": {
+        "year": 1200,
+        "circa": true,
+        "place": "Anatolia and Iran"
+      },
+      "note": "Glazed tiles cut into small shapes and set together in a geometric pattern."
+    },
+    {
+      "id": "underglaze-cobalt",
+      "name": "Underglaze cobalt blue",
+      "kind": "painted",
+      "origin": {
+        "year": 1330,
+        "circa": true,
+        "place": "Jingdezhen, China (Yuan dynasty)"
+      },
+      "note": "Cobalt oxide painted on the raw body under a clear glaze: blue and white."
+    },
+    {
+      "id": "cuerda-seca",
+      "name": "Cuerda seca",
+      "kind": "painted",
+      "origin": {
+        "year": 1400,
+        "circa": true,
+        "place": "Iran and Spain"
+      },
+      "note": "Coloured glazes held apart by a line of wax and manganese, so that they do not run together."
+    },
+    {
+      "id": "overglaze-enamel",
+      "name": "Overglaze enamel",
+      "kind": "painted",
+      "origin": {
+        "year": 1465,
+        "circa": true,
+        "place": "Jingdezhen, China (Chenghua reign)"
+      },
+      "note": "Coloured glass enamels painted on a fired glaze and fixed in a low third firing."
+    },
+    {
+      "id": "istoriato",
+      "name": "Istoriato painting",
+      "kind": "painted",
+      "origin": {
+        "year": 1500,
+        "circa": true,
+        "place": "Faenza and Urbino"
+      },
+      "note": "Narrative scenes painted across the full surface of maiolica, after prints of paintings."
+    },
+    {
+      "id": "underglaze-polychrome",
+      "name": "Underglaze polychrome",
+      "kind": "painted",
+      "note": "Several colours painted under a clear glaze, as on Iznik ware with its raised bole red."
+    },
+    {
+      "id": "kintsugi",
+      "name": "Kintsugi",
+      "kind": "repair",
+      "origin": {
+        "year": 1500,
+        "circa": true,
+        "place": "Japan"
+      },
+      "note": "A repair of a broken piece with lacquer and gold dust, so that the break becomes a line of gold."
+    },
+    {
+      "id": "slip-trailing",
+      "name": "Slip trailing",
+      "kind": "applied",
+      "origin": {
+        "year": 1670,
+        "circa": true,
+        "place": "Staffordshire",
+        "by": "Thomas Toft"
+      },
+      "note": "Liquid slip trailed from a spout in lines and dots, as on English slipware."
+    },
+    {
+      "id": "famille-rose",
+      "name": "Famille rose enamel",
+      "kind": "painted",
+      "origin": {
+        "year": 1720,
+        "circa": true,
+        "place": "Jingdezhen, China"
+      },
+      "note": "An opaque pink enamel of colloidal gold that adds soft shading to overglaze painting."
+    },
+    {
+      "id": "agateware",
+      "name": "Agateware and marbling",
+      "kind": "marbled",
+      "origin": {
+        "year": 1740,
+        "circa": true,
+        "place": "Staffordshire"
+      },
+      "note": "Clays or slips of different colours mixed or combed, so that the pattern goes through the body."
+    },
+    {
+      "id": "transfer-print",
+      "name": "Transfer printing",
+      "kind": "printed",
+      "origin": {
+        "year": 1756,
+        "circa": true,
+        "place": "Liverpool",
+        "by": "John Sadler and Guy Green"
+      },
+      "note": "A pattern from an engraved copper plate printed on paper and moved to the ware. It made decoration cheap."
+    },
+    {
+      "id": "mocha-dendritic",
+      "name": "Mocha dendritic",
+      "kind": "applied",
+      "origin": {
+        "year": 1770,
+        "circa": true,
+        "place": "England"
+      },
+      "note": "A drop of acid colour on wet slip spreads into a pattern like a tree, on bands of turned ware."
+    },
+    {
+      "id": "sprigging",
+      "name": "Sprigged relief",
+      "kind": "relief",
+      "note": "Small relief motifs pressed in moulds and applied to the body, as on jasperware."
+    },
+    {
+      "id": "relief-moulding",
+      "name": "Moulded relief",
+      "kind": "relief",
+      "note": "Relief made in the mould with the piece itself."
+    },
+    {
+      "id": "pierced",
+      "name": "Pierced and reticulated",
+      "kind": "incised",
+      "note": "Openwork cut through the wall of the piece."
+    },
+    {
+      "id": "gilding",
+      "name": "Gilding",
+      "kind": "metallic",
+      "note": "Gold fixed on the glaze in a low firing, then burnished or left bright."
+    },
+    {
+      "id": "liquid-gold",
+      "name": "Liquid bright gold",
+      "kind": "metallic",
+      "origin": {
+        "year": 1830,
+        "circa": true,
+        "place": "Meissen",
+        "by": "Heinrich Gottlob Kühn"
+      },
+      "note": "A gold resinate that fires bright without burnishing. It made gilding cheap."
+    },
+    {
+      "id": "sponge-print",
+      "name": "Spongeware",
+      "kind": "printed",
+      "origin": {
+        "year": 1840,
+        "circa": true,
+        "place": "Scotland and Staffordshire"
+      },
+      "note": "Colour dabbed or stamped with a cut sponge, a cheap decoration for export ware."
+    },
+    {
+      "id": "pate-sur-pate",
+      "name": "Pâte-sur-pâte",
+      "kind": "relief",
+      "origin": {
+        "year": 1850,
+        "circa": true,
+        "place": "Sèvres"
+      },
+      "note": "Layers of white slip painted on a tinted body and carved, so that the relief looks translucent."
+    },
+    {
+      "id": "hand-banding",
+      "name": "Hand banding",
+      "kind": "painted",
+      "note": "Lines of colour applied on a wheel at the rim and foot."
+    },
+    {
+      "id": "decal",
+      "name": "Decal",
+      "kind": "printed",
+      "note": "A printed transfer on a film that is slid onto the glaze and fired. It replaced hand transfer printing."
+    },
+    {
+      "id": "screen-print",
+      "name": "Screen print",
+      "kind": "printed",
+      "note": "A pattern printed through a mesh screen, used on tiles and tableware after about 1950."
+    },
+    {
+      "id": "digital-inkjet",
+      "name": "Digital inkjet print",
+      "kind": "printed",
+      "origin": {
+        "year": 2000,
+        "circa": true,
+        "place": "Castellón, Spain, and Sassuolo, Italy"
+      },
+      "note": "Ceramic inks printed by an inkjet head on tiles. It copies stone, wood and photographs."
+    },
+    {
+      "id": "wax-resist",
+      "name": "Wax resist",
+      "kind": "painted",
+      "note": "Wax painted on the piece so that a glaze or slip does not take there."
+    },
+    {
+      "id": "cold-painted-pigment",
+      "name": "Cold-painted pigment",
+      "kind": "painted",
+      "origin": {
+        "year": -221,
+        "circa": true,
+        "place": "Lintong, Shaanxi, China",
+        "by": "the workshops of the Qin imperial tomb"
+      },
+      "note": "Lacquer and mineral pigments painted on a fired body and not fired again. The Qin terracotta soldiers carried it, and Tang tomb figures used it for faces."
+    },
+    {
+      "id": "layer-lines",
+      "name": "Printed layer lines",
+      "kind": "relief",
+      "note": "The fine horizontal ridges that a clay printer leaves as it builds a wall in layers of 1 to 2 mm. Digital ceramics keep them as the surface."
+    },
+    {
+      "id": "brushed-slip",
+      "name": "Brushed white slip",
+      "kind": "painted",
+      "origin": {
+        "year": 1400,
+        "circa": true,
+        "place": "Korea (Joseon)"
+      },
+      "note": "White slip swept over a dark stoneware body with a coarse brush, so that the strokes show (hakeme in Japanese). Joseon buncheong potters made it a main decoration."
+    },
+    {
+      "id": "stamped",
+      "name": "Stamped",
+      "kind": "incised",
+      "origin": {
+        "year": 1400,
+        "circa": true,
+        "place": "Korea (Joseon)"
+      },
+      "note": "Small dies pressed into the leather-hard clay in rows (inhwa), then filled with white slip. Buncheong potters of the early Joseon court used it on dishes and bottles."
+    }
+  ],
+  "objects": [
+    {
+      "id": "dinner-plate",
+      "branch": "tableware",
+      "name": "Dinner plate"
+    },
+    {
+      "id": "side-plate",
+      "branch": "tableware",
+      "name": "Side plate"
+    },
+    {
+      "id": "soup-plate",
+      "branch": "tableware",
+      "name": "Soup plate"
+    },
+    {
+      "id": "bowl",
+      "branch": "tableware",
+      "name": "Bowl"
+    },
+    {
+      "id": "rice-bowl",
+      "branch": "tableware",
+      "name": "Rice bowl"
+    },
+    {
+      "id": "serving-platter",
+      "branch": "tableware",
+      "name": "Serving platter"
+    },
+    {
+      "id": "tureen",
+      "branch": "tableware",
+      "name": "Tureen"
+    },
+    {
+      "id": "sauceboat",
+      "branch": "tableware",
+      "name": "Sauceboat"
+    },
+    {
+      "id": "egg-cup",
+      "branch": "tableware",
+      "name": "Egg cup"
+    },
+    {
+      "id": "salt-and-pepper",
+      "branch": "tableware",
+      "name": "Salt and pepper set"
+    },
+    {
+      "id": "teapot",
+      "branch": "teaware",
+      "name": "Teapot"
+    },
+    {
+      "id": "tea-bowl",
+      "branch": "teaware",
+      "name": "Tea bowl"
+    },
+    {
+      "id": "teacup-and-saucer",
+      "branch": "teaware",
+      "name": "Teacup and saucer"
+    },
+    {
+      "id": "coffee-cup",
+      "branch": "teaware",
+      "name": "Coffee cup"
+    },
+    {
+      "id": "coffee-pot",
+      "branch": "teaware",
+      "name": "Coffee pot"
+    },
+    {
+      "id": "milk-jug",
+      "branch": "teaware",
+      "name": "Milk jug"
+    },
+    {
+      "id": "sugar-bowl",
+      "branch": "teaware",
+      "name": "Sugar bowl"
+    },
+    {
+      "id": "tea-caddy",
+      "branch": "teaware",
+      "name": "Tea caddy"
+    },
+    {
+      "id": "mug",
+      "branch": "teaware",
+      "name": "Mug"
+    },
+    {
+      "id": "water-jar",
+      "branch": "teaware",
+      "name": "Water jar (mizusashi)"
+    },
+    {
+      "id": "sake-bottle",
+      "branch": "teaware",
+      "name": "Sake bottle"
+    },
+    {
+      "id": "storage-jar",
+      "branch": "kitchen-and-storage",
+      "name": "Storage jar"
+    },
+    {
+      "id": "crock",
+      "branch": "kitchen-and-storage",
+      "name": "Crock"
+    },
+    {
+      "id": "mixing-bowl",
+      "branch": "kitchen-and-storage",
+      "name": "Mixing bowl"
+    },
+    {
+      "id": "casserole",
+      "branch": "kitchen-and-storage",
+      "name": "Casserole"
+    },
+    {
+      "id": "baking-dish",
+      "branch": "kitchen-and-storage",
+      "name": "Baking dish"
+    },
+    {
+      "id": "pitcher",
+      "branch": "kitchen-and-storage",
+      "name": "Pitcher"
+    },
+    {
+      "id": "butter-dish",
+      "branch": "kitchen-and-storage",
+      "name": "Butter dish"
+    },
+    {
+      "id": "oil-bottle",
+      "branch": "kitchen-and-storage",
+      "name": "Oil bottle"
+    },
+    {
+      "id": "fermentation-jar",
+      "branch": "kitchen-and-storage",
+      "name": "Fermentation jar"
+    },
+    {
+      "id": "bean-pot",
+      "branch": "kitchen-and-storage",
+      "name": "Bean pot"
+    },
+    {
+      "id": "vase",
+      "branch": "vessels",
+      "name": "Vase"
+    },
+    {
+      "id": "bottle-vase",
+      "branch": "vessels",
+      "name": "Bottle vase"
+    },
+    {
+      "id": "baluster-vase",
+      "branch": "vessels",
+      "name": "Baluster vase"
+    },
+    {
+      "id": "display-bowl",
+      "branch": "vessels",
+      "name": "Display bowl"
+    },
+    {
+      "id": "charger",
+      "branch": "vessels",
+      "name": "Charger"
+    },
+    {
+      "id": "lidded-jar",
+      "branch": "vessels",
+      "name": "Lidded jar"
+    },
+    {
+      "id": "amphora",
+      "branch": "vessels",
+      "name": "Amphora"
+    },
+    {
+      "id": "urn",
+      "branch": "vessels",
+      "name": "Urn"
+    },
+    {
+      "id": "moon-jar",
+      "branch": "vessels",
+      "name": "Moon jar"
+    },
+    {
+      "id": "planter",
+      "branch": "vessels",
+      "name": "Planter"
+    },
+    {
+      "id": "sculptural-vessel",
+      "branch": "vessels",
+      "name": "Sculptural vessel"
+    },
+    {
+      "id": "figurine",
+      "branch": "figurative",
+      "name": "Figurine"
+    },
+    {
+      "id": "figure-group",
+      "branch": "figurative",
+      "name": "Figure group"
+    },
+    {
+      "id": "bust",
+      "branch": "figurative",
+      "name": "Bust"
+    },
+    {
+      "id": "animal-figure",
+      "branch": "figurative",
+      "name": "Animal figure"
+    },
+    {
+      "id": "tomb-figure",
+      "branch": "figurative",
+      "name": "Tomb figure"
+    },
+    {
+      "id": "character-jug",
+      "branch": "figurative",
+      "name": "Character jug"
+    },
+    {
+      "id": "relief-plaque",
+      "branch": "figurative",
+      "name": "Relief plaque"
+    },
+    {
+      "id": "ceramic-sculpture",
+      "branch": "figurative",
+      "name": "Ceramic sculpture"
+    },
+    {
+      "id": "wall-tile",
+      "branch": "tiles",
+      "name": "Wall tile"
+    },
+    {
+      "id": "floor-tile",
+      "branch": "tiles",
+      "name": "Floor tile"
+    },
+    {
+      "id": "tile-panel",
+      "branch": "tiles",
+      "name": "Tile panel"
+    },
+    {
+      "id": "mosaic",
+      "branch": "tiles",
+      "name": "Mosaic"
+    },
+    {
+      "id": "stove-tile",
+      "branch": "tiles",
+      "name": "Stove tile"
+    },
+    {
+      "id": "fireplace-tile",
+      "branch": "tiles",
+      "name": "Fireplace tile"
+    },
+    {
+      "id": "border-tile",
+      "branch": "tiles",
+      "name": "Border tile"
+    },
+    {
+      "id": "roof-shingle-tile",
+      "branch": "tiles",
+      "name": "Glazed shingle tile"
+    },
+    {
+      "id": "facade-block",
+      "branch": "architectural",
+      "name": "Terracotta facade block"
+    },
+    {
+      "id": "faience-cladding",
+      "branch": "architectural",
+      "name": "Faience cladding panel"
+    },
+    {
+      "id": "roof-tile",
+      "branch": "architectural",
+      "name": "Roof tile"
+    },
+    {
+      "id": "ridge-ornament",
+      "branch": "architectural",
+      "name": "Ridge ornament"
+    },
+    {
+      "id": "architectural-relief",
+      "branch": "architectural",
+      "name": "Architectural relief"
+    },
+    {
+      "id": "glazed-brick",
+      "branch": "architectural",
+      "name": "Glazed brick"
+    },
+    {
+      "id": "capital",
+      "branch": "architectural",
+      "name": "Capital"
+    },
+    {
+      "id": "finial",
+      "branch": "architectural",
+      "name": "Finial"
+    },
+    {
+      "id": "chimney-pot",
+      "branch": "architectural",
+      "name": "Chimney pot"
+    },
+    {
+      "id": "rainscreen-panel",
+      "branch": "architectural",
+      "name": "Rainscreen panel"
+    },
+    {
+      "id": "washbasin",
+      "branch": "sanitary-technical",
+      "name": "Washbasin"
+    },
+    {
+      "id": "wc-pan",
+      "branch": "sanitary-technical",
+      "name": "WC pan"
+    },
+    {
+      "id": "cistern",
+      "branch": "sanitary-technical",
+      "name": "Cistern"
+    },
+    {
+      "id": "urinal",
+      "branch": "sanitary-technical",
+      "name": "Urinal"
+    },
+    {
+      "id": "bath",
+      "branch": "sanitary-technical",
+      "name": "Bath"
+    },
+    {
+      "id": "kitchen-sink",
+      "branch": "sanitary-technical",
+      "name": "Kitchen sink"
+    },
+    {
+      "id": "shower-tray",
+      "branch": "sanitary-technical",
+      "name": "Shower tray"
+    },
+    {
+      "id": "electrical-insulator",
+      "branch": "sanitary-technical",
+      "name": "Electrical insulator"
+    },
+    {
+      "id": "laboratory-ware",
+      "branch": "sanitary-technical",
+      "name": "Laboratory ware"
+    },
+    {
+      "id": "mortar-and-pestle",
+      "branch": "sanitary-technical",
+      "name": "Mortar and pestle"
+    },
+    {
+      "id": "deep-pot",
+      "branch": "vessels",
+      "name": "Deep pot"
+    },
+    {
+      "id": "kylix",
+      "branch": "vessels",
+      "name": "Kylix (drinking cup)"
+    },
+    {
+      "id": "krater",
+      "branch": "vessels",
+      "name": "Krater (mixing bowl)"
+    },
+    {
+      "id": "hydria",
+      "branch": "vessels",
+      "name": "Hydria (water jar)"
+    },
+    {
+      "id": "ewer",
+      "branch": "vessels",
+      "name": "Ewer"
+    },
+    {
+      "id": "incense-burner",
+      "branch": "vessels",
+      "name": "Incense burner"
+    }
+  ]
+}

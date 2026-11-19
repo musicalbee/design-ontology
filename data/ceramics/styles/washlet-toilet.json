@@ -1,0 +1,322 @@
+{
+  "$schema": "../../../schema/domains/ceramics.schema.json",
+  "id": "washlet-toilet",
+  "domain": "ceramics",
+  "name": "Washlet toilet",
+  "aliases": [
+    "Electronic bidet toilet",
+    "Warm-water toilet seat",
+    "Japanese smart toilet"
+  ],
+  "era_id": "plural-contemporary",
+  "branch": "sanitary-technical",
+  "time_period": {
+    "start": 1980,
+    "end": null,
+    "label": "1980 to now"
+  },
+  "region": "Japan",
+  "summary": "A vitreous china WC with a heated seat, a warm-water spray nozzle and a control panel. The ceramic is plain and smooth, and the technology lives in the seat and the cistern.",
+  "philosophy": {
+    "core_thesis": "A toilet is a clean machine for the body, so the ceramic stays smooth and the seat adds water, heat and control.",
+    "design_principles": [
+      "Cast a smooth bowl with no rim shelf, so that dirt cannot stay under the edge.",
+      "Glaze the bowl with a hard, dense glaze that has a surface roughness below 0.1 micrometre.",
+      "Fit a seat that is heated to about 36 °C, with a lid that closes slowly.",
+      "Hide the nozzle in a cover and wash it with water before and after each use.",
+      "Place the control panel on the side or on a wall remote, with 4 to 8 simple icons.",
+      "Use a tornado flush of 4 to 5 litres, so that the bowl cleans with little water.",
+      "Keep the form compact, 650 to 700 mm long, with one body and one colour."
+    ],
+    "anti_patterns": [
+      "A bowl with a hidden rim shelf that holds dirt",
+      "A seat with a loud pattern or a coloured plastic",
+      "A thick, rough glaze that marks",
+      "A bowl with a cord that hangs on the floor",
+      "An ornate lid with a moulded relief"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "hand_mark": 1,
+    "refinement": 4,
+    "glaze_depth": 1,
+    "chromatic_intensity": 1
+  },
+  "form": {
+    "shape": "A one-piece or two-piece WC with a smooth, long bowl, a slim cistern and an electronic seat on top.",
+    "profile": "A rounded, elongated bowl with a continuous, smooth outer skin that sweeps into the base.",
+    "foot_and_rim": "A closed, rimless or hidden rim, a broad base with a hidden trap and a seat hinge in the back.",
+    "proportion": "Bowl 650 to 700 mm long and 360 to 400 mm wide; wall 8 to 12 mm; seat height 400 to 430 mm.",
+    "rules": [
+      "Keep every face of the bowl smooth, with a radius over 20 mm at the edges.",
+      "Hide the cords and the pipes in the base.",
+      "Choose white or ivory for the glaze, so that dirt shows and is cleaned.",
+      "Put the electronics in the seat, so that the ceramic stays pure."
+    ]
+  },
+  "bodies": {
+    "primary": [
+      "vitreous-china"
+    ],
+    "secondary": [
+      "plastic",
+      "stainless-steel",
+      "technical-porcelain"
+    ],
+    "avoid": [
+      "earthenware",
+      "terracotta",
+      "fireclay",
+      "bone-china"
+    ],
+    "rule": "Use a dense white vitreous body with almost no water absorption. The seat and the nozzle are plastic and stainless steel, not ceramic."
+  },
+  "forming": {
+    "methods": [
+      "pressure casting in resin moulds",
+      "fettling of the trap by robot",
+      "spray application of glaze",
+      "hand finishing of the trap",
+      "assembly of seat and nozzle"
+    ],
+    "joins": "The bowl and the cistern are separate casts joined with seals and bolts; the electronic seat is fixed with two bolts and a plug.",
+    "details": "A smooth foot with no visible bolt, a hidden trap, and a small, flat plate for the water inlet."
+  },
+  "glaze": {
+    "glazes": [
+      "sanitary-glaze",
+      "coloured-gloss"
+    ],
+    "decorations": [
+      "undecorated"
+    ],
+    "pattern": "No pattern. White or ivory covers the whole piece, and the controls carry the only marks.",
+    "gloss": "High gloss, about 90 to 100 GU, with a very smooth, dense surface.",
+    "wear": "Little wear: the hard glaze keeps its gloss, and the seat and nozzle are the parts that age."
+  },
+  "palette": {
+    "strategy": "White and ivory ceramic with a pale grey plastic seat and a small panel of soft light.",
+    "colours": [
+      {
+        "name": "Pure white",
+        "hex": "#F6F6F3",
+        "role": "glaze"
+      },
+      {
+        "name": "Ivory",
+        "hex": "#EFE9D8",
+        "role": "alternative glaze"
+      },
+      {
+        "name": "Pale grey",
+        "hex": "#D5D7D9",
+        "role": "seat and remote"
+      },
+      {
+        "name": "Light blue",
+        "hex": "#A9D2E8",
+        "role": "water and indicator"
+      },
+      {
+        "name": "Steel",
+        "hex": "#B9BEC2",
+        "role": "nozzle"
+      }
+    ]
+  },
+  "firing": {
+    "kiln": "A gas roller-hearth or tunnel kiln with a controlled, steady cycle.",
+    "atmosphere": "oxidation",
+    "temperature_c": [
+      1200,
+      1250
+    ],
+    "processes": [
+      "cast under pressure",
+      "dry in a heated tunnel",
+      "spray glaze by robot",
+      "fire at 1200 to 1250 °C",
+      "test the flush and the leak",
+      "fit the electronic seat"
+    ],
+    "scale": "An automated plant that makes thousands of bowls each day.",
+    "signs": "A clean glaze with no pinholes, a flat ground foot, and a serial number printed under the cistern."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "wc-pan",
+        "form": "One-piece elongated bowl with a heated seat and a slim cistern",
+        "body": "vitreous-china",
+        "glaze": "sanitary-glaze",
+        "decoration": "undecorated"
+      },
+      {
+        "object": "wc-pan",
+        "form": "Compact bowl with a hidden trap and a side control panel",
+        "body": "vitreous-china",
+        "glaze": "sanitary-glaze",
+        "decoration": "undecorated"
+      },
+      {
+        "object": "cistern",
+        "form": "Slim cistern with a hidden flush button on the top",
+        "body": "vitreous-china",
+        "glaze": "coloured-gloss",
+        "decoration": "undecorated"
+      },
+      {
+        "object": "washbasin",
+        "form": "Hand basin on a counter with a smooth, single bowl",
+        "body": "vitreous-china",
+        "glaze": "sanitary-glaze",
+        "decoration": "undecorated"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "smooth one-piece toilet bowl",
+      "heated seat with a slim control panel",
+      "pure white vitreous china",
+      "hidden rim, tornado flush",
+      "compact elongated form",
+      "clean minimal bathroom",
+      "product photograph, soft diffuse light"
+    ],
+    "negative": [
+      "Victorian relief",
+      "pattern on the bowl",
+      "coloured 1950s suite",
+      "exposed pipes",
+      "rough clay"
+    ],
+    "canonical_works": [
+      {
+        "work": "Washlet G, first model of the line",
+        "maker": "Toto",
+        "year": 1980
+      },
+      {
+        "work": "Neorest one-piece toilet",
+        "maker": "Toto",
+        "year": 2002
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Washlet seat, top view",
+      "kind": "image",
+      "credit": "Benlisquare",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Toto_Washlet_TCF8WW88,_top_view.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Toto_Washlet_TCF8WW88,_top_view.jpg/960px-Toto_Washlet_TCF8WW88,_top_view.jpg",
+      "maker": "Toto"
+    },
+    {
+      "title": "Washlet seat, bottom view",
+      "kind": "image",
+      "credit": "Benlisquare",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Toto_Washlet_TCF8WW88,_bottom_view.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Toto_Washlet_TCF8WW88,_bottom_view.jpg/960px-Toto_Washlet_TCF8WW88,_bottom_view.jpg",
+      "maker": "Toto"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "coloured-bathroom-suite"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "japanese-modern-craft-product",
+      "super-normal-product"
+    ]
+  },
+  "emotion": {
+    "target_response": "A quiet comfort: the viewer sees a clean object that does a job with care, and thinks of a calm, bright room.",
+    "keywords": [
+      "clean",
+      "calm",
+      "precise",
+      "comfortable",
+      "quiet"
+    ],
+    "brand_archetypes": [
+      "caregiver",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "washlet",
+      "bidet toilet",
+      "heated toilet seat",
+      "japanese toilet",
+      "smart toilet",
+      "electronic bidet seat"
+    ],
+    "use_cases": [
+      "a product brief for a smart toilet",
+      "a hotel bathroom render in the Japanese style",
+      "a spec for a seat with a warm-water nozzle"
+    ],
+    "avoid_when": [
+      "the brief wants a period bathroom",
+      "the brief wants decorated ware"
+    ],
+    "modifiers": [
+      {
+        "request": "wall-hung, designer",
+        "toward": "designer-wall-hung-sanitary",
+        "how": "Hang the bowl on the wall, hide the cistern in the wall and shorten the bowl."
+      },
+      {
+        "request": "period, ornate",
+        "toward": "victorian-sanitary-ware",
+        "how": "Change to a high cistern with a pull chain, add a printed bowl and a moulded rim."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Toto Ltd.",
+      "url": "https://en.wikipedia.org/wiki/Toto_Ltd."
+    },
+    {
+      "title": "Wikipedia: Bidet",
+      "url": "https://en.wikipedia.org/wiki/Bidet"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.0,
+      "min": 0,
+      "max": 0.1
+    },
+    "glaze_gloss": {
+      "default": 95,
+      "min": 85,
+      "max": 100
+    },
+    "wall_thickness": {
+      "default": 10,
+      "min": 8,
+      "max": 14,
+      "note": "A pressure-cast bowl keeps an even wall of 8 to 12 mm."
+    },
+    "hand_mark": {
+      "default": 0.0,
+      "min": 0,
+      "max": 0.1
+    },
+    "era_blend": {
+      "default": 0.1,
+      "min": 0,
+      "max": 1
+    }
+  }
+}

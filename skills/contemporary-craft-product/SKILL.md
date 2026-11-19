@@ -199,7 +199,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md)
 - **Mixes well with:** [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md)
-- **Kin in another domain:** [`japandi-interior`](../japandi-interior/SKILL.md), [`modernist-studio-jewellery`](../modernist-studio-jewellery/SKILL.md), [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md), [`wabi-sabi-web`](../wabi-sabi-web/SKILL.md)
+- **Kin in another domain:** [`anglo-oriental-studio-pottery`](../anglo-oriental-studio-pottery/SKILL.md), [`british-modernist-studio`](../british-modernist-studio/SKILL.md), [`digital-3d-printed-ceramics`](../digital-3d-printed-ceramics/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md), [`large-format-porcelain-tiles`](../large-format-porcelain-tiles/SKILL.md), [`modernist-studio-jewellery`](../modernist-studio-jewellery/SKILL.md), [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md), [`wabi-sabi-web`](../wabi-sabi-web/SKILL.md)
 - **Nearest by vector profile:** [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md)
 
 ## Emotional target

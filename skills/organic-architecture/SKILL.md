@@ -212,7 +212,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more rational**: move toward [`international-style-architecture`](../international-style-architecture/SKILL.md) (International Style). Straighten the plan into a regular grid, white render and ribbon glass.
 
 - **Came from (go here for a more orthodox version):** [`art-nouveau-architecture`](../art-nouveau-architecture/SKILL.md), [`prairie-school-architecture`](../prairie-school-architecture/SKILL.md)
-- **Kin in another domain:** [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
+- **Kin in another domain:** [`organic-modern-tableware`](../organic-modern-tableware/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md), [`trencadis`](../trencadis/SKILL.md)
 - **Nearest by vector profile:** [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md), [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md), [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md)
 
 ## Emotional target

@@ -1,0 +1,353 @@
+{
+  "$schema": "../../../schema/domains/ceramics.schema.json",
+  "id": "artist-ceramics-vallauris",
+  "domain": "ceramics",
+  "name": "Artist ceramics of Vallauris",
+  "aliases": [
+    "Picasso ceramics",
+    "Madoura ceramics",
+    "Vallauris pottery"
+  ],
+  "era_id": "modern-ceramics",
+  "branch": "figurative",
+  "time_period": {
+    "start": 1947,
+    "end": 1973,
+    "label": "1947–1973"
+  },
+  "region": "Vallauris, Provence, France",
+  "summary": "Ceramics by painters and sculptors at the Provençal potteries of Vallauris. Picasso made thrown vases into owls, bulls and women, and painted plates in engobe and wax resist, in editions of a few hundred.",
+  "philosophy": {
+    "core_thesis": "A painter treats the potter's vase as a body and the plate as a canvas, and plays with the craft in a joyful, quick and plain way.",
+    "design_principles": [
+      "Start from a thrown form: a bottle, a jug or a plate by the potter's wheel.",
+      "Alter the form by hand while it is wet: pinch, bend, cut and join to make an owl, a woman or a bull.",
+      "Draw on the leather-hard clay with a knife, and cut lines through a coat of slip.",
+      "Paint with engobes in black, white, ochre and green, and use wax to resist the glaze.",
+      "Keep the line quick and plain, as in a drawing: a few strokes make a face, a fish or a faun.",
+      "Use a white or red earthenware, and leave parts of the clay bare.",
+      "Make an edition of 25 to 500, with a stamp or an incised mark of the pottery and the artist.",
+      "Choose Mediterranean subjects: fauns, fish, bulls, owls, doves and women."
+    ],
+    "anti_patterns": [
+      "A fine, polished factory finish with no line of the hand",
+      "A sentimental figure with a realistic face",
+      "A matt industrial glaze in a single flat colour",
+      "A thick transfer print or a printed decal",
+      "A heavy, rough peasant pot with no drawn line",
+      "A symmetrical pattern that fills the whole surface"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "hand_mark": 5,
+    "refinement": 2,
+    "glaze_depth": 3,
+    "chromatic_intensity": 3
+  },
+  "form": {
+    "shape": "Altered vases that become owls, doves, bulls, fauns and women; plates and dishes with a drawn face; plaques and tiles with a single image.",
+    "profile": "A thrown body that the artist pinches, bends and joins: a vase that becomes an owl with raised ears and round eyes.",
+    "foot_and_rim": "A thick, uneven foot or a plain flat base; the rim of a plate is cut or pinched, and a bottle neck is bent into a beak or a horn.",
+    "proportion": "Height 15 to 45 cm; the wall is 6 to 10 mm thick, and the form keeps the round proportions of the thrown vessel.",
+    "rules": [
+      "Begin with a thrown form, then alter it by hand.",
+      "Draw the main subject with a few quick lines.",
+      "Keep a part of the red or white clay bare.",
+      "Use two or three engobes and one glaze.",
+      "Stamp the base with the pottery mark and the edition number."
+    ]
+  },
+  "bodies": {
+    "primary": [
+      "earthenware"
+    ],
+    "secondary": [
+      "terracotta"
+    ],
+    "avoid": [
+      "porcelain",
+      "bone-china",
+      "parian",
+      "european-hard-paste"
+    ],
+    "rule": "Use a local red clay or a white earthenware body that is soft, porous and warm in colour. Keep a part of the clay bare, and keep porcelain out."
+  },
+  "forming": {
+    "methods": [
+      "throwing on the wheel by the potter",
+      "altering of the thrown form by hand",
+      "slab building of plaques and tiles",
+      "moulding of plates in plaster",
+      "incising of the leather-hard surface"
+    ],
+    "joins": "Handles, beaks, ears and legs are pinched out or added with slip. The joins are left visible, and the thumb marks stay in the clay.",
+    "details": "Finger and knife marks, a stamped pottery mark, an edition number incised in the base and a slightly uneven glaze."
+  },
+  "glaze": {
+    "glazes": [
+      "tin-glaze",
+      "majolica-glaze",
+      "bare-clay",
+      "lead-glaze"
+    ],
+    "decorations": [
+      "sgraffito",
+      "wax-resist",
+      "incised",
+      "underglaze-polychrome"
+    ],
+    "pattern": "Quick drawn lines in black and white engobe on red clay: a fish, an owl's face, a faun with pipes, a bull. A single line makes the shape of a face.",
+    "gloss": "Matt to gloss, 20 to 80 GU; the bare clay is matt and the glaze on the white engobe is bright.",
+    "wear": "The glaze crazes in a fine net, and the engobe scratches. The bare clay takes oil from the hand and darkens."
+  },
+  "palette": {
+    "strategy": "Red or white clay with black, white and ochre engobes, and a clear or white glaze; green and blue appear in small areas.",
+    "colours": [
+      {
+        "name": "Terracotta red",
+        "hex": "#B5552F",
+        "role": "clay"
+      },
+      {
+        "name": "Engobe white",
+        "hex": "#EDE6D6",
+        "role": "ground"
+      },
+      {
+        "name": "Line black",
+        "hex": "#1F1C1A",
+        "role": "drawing"
+      },
+      {
+        "name": "Ochre",
+        "hex": "#C79A45",
+        "role": "accent"
+      },
+      {
+        "name": "Provençal green",
+        "hex": "#5A7A4A",
+        "role": "accent"
+      },
+      {
+        "name": "Sea blue",
+        "hex": "#3F6F9A",
+        "role": "small accent"
+      }
+    ]
+  },
+  "firing": {
+    "kiln": "A small electric or gas kiln at the pottery, with a biscuit firing and a glaze firing.",
+    "atmosphere": "oxidation",
+    "temperature_c": [
+      960,
+      1060
+    ],
+    "processes": [
+      "biscuit firing at about 960 °C",
+      "engobe painting and wax resist",
+      "glaze dipping",
+      "glaze firing at 1000 to 1060 °C"
+    ],
+    "scale": "A small pottery with a few throwers and the artist. An edition of 25 to 500 pieces, and about 600 models in 25 years.",
+    "signs": "A stamp of the pottery on the base, an edition number, finger marks, and engobe lines that show through the glaze."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "animal-figure",
+        "form": "Owl made from a thrown vase, with pinched ears and a painted face",
+        "body": "earthenware",
+        "glaze": "tin-glaze",
+        "decoration": "wax-resist"
+      },
+      {
+        "object": "figurine",
+        "form": "Woman made from a bottle, with a drawn face and arms in relief",
+        "body": "earthenware",
+        "glaze": "majolica-glaze",
+        "decoration": "underglaze-polychrome"
+      },
+      {
+        "object": "relief-plaque",
+        "form": "Square plaque with a faun and a pipe, cut through a white engobe",
+        "body": "terracotta",
+        "glaze": "bare-clay",
+        "decoration": "sgraffito"
+      },
+      {
+        "object": "animal-figure",
+        "form": "Bull with a thick neck, thrown and altered, in a white glaze with black lines",
+        "body": "earthenware",
+        "glaze": "tin-glaze",
+        "decoration": "incised"
+      },
+      {
+        "object": "ceramic-sculpture",
+        "form": "Dove with a drawn eye, built from a thrown form and a slab",
+        "body": "terracotta",
+        "glaze": "lead-glaze",
+        "decoration": "sgraffito"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "mid-century French artist ceramic",
+      "owl made from a thrown vase",
+      "quick drawn black line on white engobe",
+      "pinched and altered clay form",
+      "bare red clay with white glaze",
+      "incised faun and fish",
+      "Mediterranean motif, joyful and plain",
+      "stamped base with edition number"
+    ],
+    "negative": [
+      "fine polished porcelain",
+      "realistic face",
+      "printed decal",
+      "industrial matt glaze",
+      "symmetrical pattern",
+      "gold decoration"
+    ],
+    "canonical_works": [
+      {
+        "work": "Chouette (owl)",
+        "maker": "Pablo Picasso, Madoura",
+        "year": 1951
+      },
+      {
+        "work": "Faun plate",
+        "maker": "Pablo Picasso, Madoura",
+        "year": 1950
+      },
+      {
+        "work": "Taureau (bull)",
+        "maker": "Pablo Picasso, Madoura",
+        "year": 1949
+      },
+      {
+        "work": "Femme en robe (woman vase)",
+        "maker": "Pablo Picasso, Madoura",
+        "year": 1949
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Vallauris art pottery, 1930s",
+      "kind": "image",
+      "credit": "Unknown",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Vallauris_poterie_d%27art.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Vallauris_poterie_d%27art.jpg/960px-Vallauris_poterie_d%27art.jpg"
+    },
+    {
+      "title": "Vase by Jean Gerbino, Vallauris",
+      "kind": "image",
+      "credit": "Bachelot Pierre J-P",
+      "licence": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Vase_Jean_Gerbino_Vallauris.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Vase_Jean_Gerbino_Vallauris.jpg/960px-Vase_Jean_Gerbino_Vallauris.jpg",
+      "maker": "Jean Gerbino"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "greek-black-figure",
+      "hispano-moresque-lustreware"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "cubism-painting"
+    ]
+  },
+  "emotion": {
+    "target_response": "Light, sunny play: the viewer sees a plain pot turn into an owl or a faun with one line and smiles at the speed of the hand.",
+    "keywords": [
+      "playful",
+      "mediterranean",
+      "spontaneous",
+      "drawn",
+      "earthy"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "creator",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "picasso ceramics",
+      "vallauris",
+      "madoura",
+      "artist ceramics",
+      "owl vase",
+      "altered thrown vase",
+      "engobe drawing on pottery",
+      "mid-century french ceramic"
+    ],
+    "use_cases": [
+      "a museum or auction label for artist ceramics",
+      "a prompt for a painter's pottery plate or owl",
+      "a brief for a drawn, playful ceramic edition",
+      "a Mediterranean interior prop"
+    ],
+    "avoid_when": [
+      "the brief wants a fine white porcelain object",
+      "the brief needs a polished factory finish",
+      "the brief wants an abstract stoneware vessel"
+    ],
+    "modifiers": [
+      {
+        "request": "rawer, funnier, American",
+        "toward": "funk-ceramics",
+        "how": "Change to a hand-built body, add a loud low-fire glaze and a joke from daily life, and drop the Mediterranean subjects."
+      },
+      {
+        "request": "ancient, black and red",
+        "toward": "greek-black-figure",
+        "how": "Change to a fine slip with a black figure on red clay, and replace the free line with a fixed, profile drawing."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Madoura",
+      "url": "https://en.wikipedia.org/wiki/Madoura"
+    },
+    {
+      "title": "Wikipedia: Vallauris",
+      "url": "https://en.wikipedia.org/wiki/Vallauris"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.5,
+      "min": 0.3,
+      "max": 0.8
+    },
+    "glaze_gloss": {
+      "default": 55,
+      "min": 15,
+      "max": 85
+    },
+    "wall_thickness": {
+      "default": 8,
+      "min": 5,
+      "max": 14
+    },
+    "hand_mark": {
+      "default": 0.9,
+      "min": 0.7,
+      "max": 1
+    },
+    "era_blend": {
+      "default": 0,
+      "min": 0,
+      "max": 1
+    }
+  }
+}

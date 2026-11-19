@@ -1,0 +1,347 @@
+{
+  "$schema": "../../../schema/domains/ceramics.schema.json",
+  "id": "parian-statuary",
+  "domain": "ceramics",
+  "name": "Parian statuary",
+  "aliases": [
+    "Parian ware",
+    "Parian figures",
+    "Victorian parian marble copies"
+  ],
+  "era_id": "industrial-pottery",
+  "branch": "figurative",
+  "time_period": {
+    "start": 1845,
+    "end": 1900,
+    "label": "1845–1900"
+  },
+  "region": "Stoke-on-Trent, England",
+  "summary": "Unglazed white porcelain that copies marble, cast in moulds as statuettes and busts. Victorian potters made it for the home, from copies of known sculpture to sentimental and literary figures.",
+  "philosophy": {
+    "core_thesis": "Fine sculpture comes into the Victorian parlour when a white porcelain slip is cast in a mould and fired without a glaze: marble, but small and cheap.",
+    "design_principles": [
+      "Cast the figure in plaster moulds from a thin, creamy slip of parian paste.",
+      "Fire the figure unglazed at about 1200 °C, so that the surface looks like Parian marble.",
+      "Take the subject from a known sculpture: a Greek Slave, a Dorothea, a Venus, a bust of a poet or a queen.",
+      "Make the figure 20 to 60 cm high, and the bust 20 to 40 cm.",
+      "Keep the surface smooth and waxy, with a faint orange-peel grain.",
+      "Give detail with sharp relief: curls, laurel, lace and drapery, in shallow depth.",
+      "Add a coloured glaze or a little tinted slip only as a ground, never over the flesh.",
+      "Mark the base with the maker, the sculptor and the date of the registry."
+    ],
+    "anti_patterns": [
+      "A glossy glaze over the figure",
+      "A bright enamel painting on the dress",
+      "A rough earthenware body with visible grain",
+      "A pose in rococo S-curves with lace dipped in slip",
+      "A cartoon figure with a flat, printed face",
+      "A grey or brown clay colour"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "hand_mark": 2,
+    "refinement": 4,
+    "glaze_depth": 1,
+    "chromatic_intensity": 1
+  },
+  "form": {
+    "shape": "Statuettes of classical, historical and sentimental subjects, busts of the famous and small groups, with a base or a pedestal.",
+    "profile": "A smooth, closed outline in a classical stance, with a column, a trunk or a rock to support the weight.",
+    "foot_and_rim": "A round or square plinth with a moulded edge, often hollow, with a vent hole and a mark on the underside.",
+    "proportion": "Height 20 to 60 cm; the wall is 3 to 6 mm thick, and the proportions are those of the marble original at a reduced scale.",
+    "rules": [
+      "Reduce a known marble in scale and keep its pose.",
+      "Leave all surfaces without glaze.",
+      "Keep the seams fine and hide them in folds.",
+      "Use a plain, moulded plinth.",
+      "Show the sculptor and the maker on the base."
+    ]
+  },
+  "bodies": {
+    "primary": [
+      "parian"
+    ],
+    "secondary": [
+      "european-hard-paste"
+    ],
+    "avoid": [
+      "earthenware",
+      "creamware",
+      "stoneware",
+      "terracotta",
+      "bone-china"
+    ],
+    "rule": "Use a feldspar-rich porcelain paste that is cast as a thin slip and fires to a fine, waxy surface with a faint cream tone."
+  },
+  "forming": {
+    "methods": [
+      "slip casting in plaster moulds",
+      "piece moulding of heads and limbs",
+      "joining of cast parts with slip",
+      "fettling of seams with a knife",
+      "firing without glaze"
+    ],
+    "joins": "The parts of the figure are cast in moulds and joined with slip while still wet. The seams are cut back and sponged smooth.",
+    "details": "A fine orange-peel grain on the surface, a vent hole in the plinth, and a mark of the maker and the sculptor on the base."
+  },
+  "glaze": {
+    "glazes": [
+      "biscuit",
+      "clear-feldspathic"
+    ],
+    "decorations": [
+      "undecorated",
+      "relief-moulding",
+      "gilding",
+      "sprigging"
+    ],
+    "pattern": "The pattern is the form of the sculpture itself. A little gilt or tint, a glazed inside for a vessel, and sprigged flowers or laurel are the only additions.",
+    "gloss": "Matt to waxy, 5 to 15 GU on the unglazed parian; a glazed inside is about 80 GU.",
+    "wear": "The surface collects dust and yellow stains in the grain. It marks easily with oil, and the fine fingers and the edges break."
+  },
+  "palette": {
+    "strategy": "A single warm white that copies marble, with soft grey shadow and a faint cream in the high light.",
+    "colours": [
+      {
+        "name": "Parian white",
+        "hex": "#EEE9DC",
+        "role": "body"
+      },
+      {
+        "name": "Marble shadow",
+        "hex": "#C9C2B2",
+        "role": "shadow"
+      },
+      {
+        "name": "Cream light",
+        "hex": "#F4EFE2",
+        "role": "high light"
+      },
+      {
+        "name": "Stain ochre",
+        "hex": "#B79E6E",
+        "role": "ageing"
+      }
+    ]
+  },
+  "firing": {
+    "kiln": "A coal-fired bottle oven, with the figures in saggars for a single firing.",
+    "atmosphere": "oxidation",
+    "temperature_c": [
+      1200,
+      1250
+    ],
+    "processes": [
+      "casting in plaster moulds",
+      "drying of the cast figure",
+      "fettling of the seams",
+      "firing without glaze at 1200 to 1250 °C",
+      "optional glaze or tint on the inside or the base"
+    ],
+    "scale": "A factory process with moulders and finishers. Large firms made hundreds of models, and series for Art Union sales.",
+    "signs": "An orange-peel grain, a vent hole in the plinth, hidden seams and a maker's mark."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "figurine",
+        "form": "Reduced copy of a nude Greek Slave on a round plinth",
+        "body": "parian",
+        "glaze": "biscuit",
+        "decoration": "undecorated"
+      },
+      {
+        "object": "bust",
+        "form": "Bust of a queen with a diadem and a draped shoulder, on a socle",
+        "body": "parian",
+        "glaze": "biscuit",
+        "decoration": "relief-moulding"
+      },
+      {
+        "object": "figure-group",
+        "form": "Sentimental group of a mother and a child with a column and a wreath",
+        "body": "parian",
+        "glaze": "biscuit",
+        "decoration": "sprigging"
+      },
+      {
+        "object": "figurine",
+        "form": "Dorothea, a seated girl with a jar, taken from a known sculpture",
+        "body": "parian",
+        "glaze": "biscuit",
+        "decoration": "undecorated"
+      },
+      {
+        "object": "animal-figure",
+        "form": "Hound lying on a base with a gilt collar",
+        "body": "parian",
+        "glaze": "biscuit",
+        "decoration": "gilding"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Victorian unglazed parian porcelain statuette",
+      "white marble-like surface",
+      "reduced copy of a classical sculpture",
+      "smooth waxy matt finish",
+      "sharp shallow relief in curls and drapery",
+      "bust on a round socle",
+      "museum photograph, soft side light",
+      "faint orange-peel grain"
+    ],
+    "negative": [
+      "glossy glaze",
+      "bright enamel colours",
+      "earthenware",
+      "rococo lace",
+      "modern resin",
+      "cartoon eyes"
+    ],
+    "canonical_works": [
+      {
+        "work": "The Greek Slave in parian",
+        "maker": "Copeland",
+        "year": 1850
+      },
+      {
+        "work": "Dorothea",
+        "maker": "John Bell for Minton",
+        "year": 1847
+      },
+      {
+        "work": "Ariadne on a panther",
+        "maker": "Minton after Dannecker",
+        "year": 1848
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Parian Beatrice figure, 1860",
+      "kind": "image",
+      "credit": "Edgar George Papworth Jr.",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Beatrice_Figure,_1860_(CH_18423243).jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Beatrice_Figure%2C_1860_%28CH_18423243%29.jpg/960px-Beatrice_Figure%2C_1860_%28CH_18423243%29.jpg"
+    },
+    {
+      "title": "Copeland parian Figure of Medea",
+      "kind": "image",
+      "credit": "W. T. Copeland & Sons",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:W._T._Copeland_%26_Sons_-_Figure_of_Medea_-_2013.237_-_Cleveland_Museum_of_Art.tif",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/W._T._Copeland_%26_Sons_-_Figure_of_Medea_-_2013.237_-_Cleveland_Museum_of_Art.tif/lossy-page1-960px-W._T._Copeland_%26_Sons_-_Figure_of_Medea_-_2013.237_-_Cleveland_Museum_of_Art.tif.jpg",
+      "maker": "W. T. Copeland & Sons"
+    },
+    {
+      "title": "Parian figure of a lion",
+      "kind": "image",
+      "credit": "Aaron Hays",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Figure_of_a_Lion_MET_DP-1725-011.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Figure_of_a_Lion_MET_DP-1725-011.jpg/960px-Figure_of_a_Lion_MET_DP-1725-011.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "biscuit-porcelain-figures"
+    ],
+    "rebelled_against": [
+      "staffordshire-figures"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "victorian-manufacture",
+      "neoclassical-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "A sober, improving calm: the viewer sees white marble in small form and feels the taste, the culture and the order of a Victorian parlour.",
+    "keywords": [
+      "classical",
+      "sober",
+      "pale",
+      "didactic",
+      "domestic"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "parian ware",
+      "parian figure",
+      "parian statuette",
+      "victorian bust",
+      "unglazed porcelain statuette",
+      "marble-like porcelain",
+      "victorian parlour sculpture",
+      "copeland parian"
+    ],
+    "use_cases": [
+      "a museum or auction label for a parian figure",
+      "a Victorian interior prompt",
+      "a prop of a white statuette on a shelf",
+      "a brief for a marble-look reproduction"
+    ],
+    "avoid_when": [
+      "the brief wants a coloured, glazed figure",
+      "the brief needs a cheap folk figure",
+      "the brief wants an art piece with a hand mark"
+    ],
+    "modifiers": [
+      {
+        "request": "older, more delicate, French",
+        "toward": "biscuit-porcelain-figures",
+        "how": "Change to a soft-paste body, cut the scale to 15 to 40 cm and take the subject from a pastoral painting."
+      },
+      {
+        "request": "cheap, painted, folk",
+        "toward": "staffordshire-figures",
+        "how": "Change to an earthenware body with a lead glaze and bold flat enamel colours, and add a name on the base."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Parian ware",
+      "url": "https://en.wikipedia.org/wiki/Parian_ware"
+    },
+    {
+      "title": "Wikipedia: Minton (company)",
+      "url": "https://en.wikipedia.org/wiki/Minton_(company)"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.3,
+      "min": 0.1,
+      "max": 0.6
+    },
+    "glaze_gloss": {
+      "default": 8,
+      "min": 0,
+      "max": 20
+    },
+    "wall_thickness": {
+      "default": 4,
+      "min": 3,
+      "max": 8
+    },
+    "hand_mark": {
+      "default": 0.2,
+      "min": 0.1,
+      "max": 0.4
+    },
+    "era_blend": {
+      "default": 0,
+      "min": 0,
+      "max": 1
+    }
+  }
+}

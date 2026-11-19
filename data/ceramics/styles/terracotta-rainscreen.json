@@ -1,0 +1,339 @@
+{
+  "$schema": "../../../schema/domains/ceramics.schema.json",
+  "id": "terracotta-rainscreen",
+  "domain": "ceramics",
+  "name": "Terracotta rainscreen",
+  "aliases": [
+    "Ventilated terracotta facade",
+    "Extruded terracotta cladding",
+    "Baguette terracotta facade"
+  ],
+  "era_id": "plural-contemporary",
+  "branch": "architectural",
+  "time_period": {
+    "start": 1990,
+    "end": null,
+    "label": "1990 to the present"
+  },
+  "region": "Germany and northern Europe",
+  "summary": "A modern wall skin of extruded, hollow terracotta panels that hang on rails with an air gap behind them. The clay face is matt, flat and in earth colours, with a thin glaze or an engobe.",
+  "philosophy": {
+    "core_thesis": "A wall of fired clay can be a light, ventilated skin: the panel keeps the rain from the insulation, and the air behind it dries the wall.",
+    "design_principles": [
+      "Extrude the panel hollow in a die; the wall of the panel is 15 to 30 mm thick.",
+      "Hang each panel on a rail of stainless steel or aluminium, with an air gap of 20 to 50 mm.",
+      "Keep the joint open, 6 to 10 mm, so that the wall can drain and dry.",
+      "Use a matt face in earth colours: red, brown, buff, grey and white.",
+      "Make the panel in a width of 300 to 600 mm and a length up to 1.5 m, to match the grid of the building.",
+      "Fire the panel once; the engobe or the glaze fires together with the body.",
+      "Use baguettes or fins for a facade with depth and shadow."
+    ],
+    "anti_patterns": [
+      "A thick, solid terracotta block laid in mortar",
+      "A glossy, mirror-like glaze on the panel",
+      "A closed joint with no air gap",
+      "Heavy, carved ornament",
+      "A bright printed pattern"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "hand_mark": 1,
+    "refinement": 4,
+    "glaze_depth": 1,
+    "chromatic_intensity": 2
+  },
+  "form": {
+    "shape": "Hollow, extruded panels, flat or with a profile; baguettes, fins, louvres and tile planks that hang in a regular grid.",
+    "profile": "A flat or lightly ribbed face with a sharp edge; the panel section is a hollow rectangle with webs and a groove for the clip.",
+    "foot_and_rim": "The top and bottom edges have grooves for a rail clip; the sides are square and open at the joint, with a small drip edge.",
+    "proportion": "A panel is about 300 to 600 mm wide, 600 to 1500 mm long and 30 to 40 mm deep; the wall is 15 to 30 mm thick.",
+    "rules": [
+      "Make the panel hollow and extruded.",
+      "Hang it on a rail with an air gap.",
+      "Keep the joint open and straight.",
+      "Use a matt face and one earth colour for the wall."
+    ]
+  },
+  "bodies": {
+    "primary": [
+      "terracotta"
+    ],
+    "secondary": [
+      "stoneware",
+      "stainless-steel",
+      "steel-frame"
+    ],
+    "avoid": [
+      "porcelain",
+      "bone-china",
+      "jasperware",
+      "parian",
+      "fired-brick"
+    ],
+    "rule": "Use a dense, pure terracotta clay with fine grain, so that the extruded panel fires true and stays flat. Keep the colour even in each batch."
+  },
+  "forming": {
+    "methods": [
+      "extrusion through a die",
+      "wire cutting to length",
+      "controlled drying",
+      "single firing with the glaze or engobe"
+    ],
+    "joins": "Each panel hangs on a clip and rail of stainless steel; no mortar binds the panels, and the joint stays open for drainage.",
+    "details": "A fine ribbed back, a groove for the clip, a very sharp edge and a slight colour change from one firing to the next."
+  },
+  "glaze": {
+    "glazes": [
+      "bare-clay",
+      "matte-glaze",
+      "satin-glaze"
+    ],
+    "decorations": [
+      "undecorated",
+      "digital-inkjet",
+      "relief-moulding"
+    ],
+    "pattern": "Plain fields of one colour in a regular grid; some panels carry a fine groove, a baguette profile or a printed image in a ceramic ink.",
+    "gloss": "Matt to satin, about 5 to 35 GU; the face reflects little light and shows the grain of the clay.",
+    "wear": "The panel keeps its colour and shape for decades; a dirty film washes off in rain, and a damaged panel can be swapped."
+  },
+  "palette": {
+    "strategy": "Earth colours in clean fields: red, brown, buff, grey and white, with a matt face; the facade gets variety from the grid, the depth and the shadow.",
+    "colours": [
+      {
+        "name": "Terracotta red",
+        "hex": "#B5522F",
+        "role": "panel"
+      },
+      {
+        "name": "Buff",
+        "hex": "#D5B58A",
+        "role": "panel"
+      },
+      {
+        "name": "Warm grey",
+        "hex": "#8C857A",
+        "role": "panel"
+      },
+      {
+        "name": "Brown",
+        "hex": "#5C3B2C",
+        "role": "panel"
+      },
+      {
+        "name": "Chalk white",
+        "hex": "#E7E2D5",
+        "role": "panel"
+      },
+      {
+        "name": "Steel",
+        "hex": "#9AA0A6",
+        "role": "rail"
+      }
+    ]
+  },
+  "firing": {
+    "kiln": "A roller or tunnel kiln with a controlled curve; the panels run through in one firing, and the heat is the same for each load.",
+    "atmosphere": "oxidation",
+    "temperature_c": [
+      1050,
+      1200
+    ],
+    "processes": [
+      "extrusion and drying of the panel",
+      "application of an engobe or a glaze",
+      "a single firing at about 1100 °C",
+      "cutting and drilling to size"
+    ],
+    "scale": "Factories in Germany and elsewhere make panels by the thousand square metres; a single building can use more than 5,000 m².",
+    "signs": "A ribbed back, a rail groove at the edge and an open joint with a shadow."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "rainscreen-panel",
+        "form": "Extruded flat panel in terracotta red with a hidden clip groove",
+        "body": "terracotta",
+        "glaze": "bare-clay",
+        "decoration": "undecorated"
+      },
+      {
+        "object": "rainscreen-panel",
+        "form": "Baguette fin with a round section for a deep, shadowed facade",
+        "body": "terracotta",
+        "glaze": "matte-glaze",
+        "decoration": "undecorated"
+      },
+      {
+        "object": "faience-cladding",
+        "form": "Long glazed plank in a pale satin for a bay of a facade",
+        "body": "terracotta",
+        "glaze": "satin-glaze",
+        "decoration": "relief-moulding"
+      },
+      {
+        "object": "rainscreen-panel",
+        "form": "Panel with a digital print of a leaf in ceramic ink",
+        "body": "terracotta",
+        "glaze": "satin-glaze",
+        "decoration": "digital-inkjet"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "terracotta rainscreen facade",
+      "extruded hollow clay panels",
+      "open joint with shadow",
+      "matt earth-coloured cladding",
+      "baguette fins on a facade",
+      "ventilated facade with rails",
+      "regular grid of clay panels",
+      "contemporary office or museum front",
+      "clear overcast light"
+    ],
+    "negative": [
+      "Victorian relief",
+      "glossy mosaic",
+      "mortar-laid brick",
+      "carved ornament",
+      "painted metal panel"
+    ],
+    "canonical_works": [
+      {
+        "work": "Potsdamer Platz tower cladding",
+        "maker": "Renzo Piano",
+        "year": 1997
+      },
+      {
+        "work": "Museum Brandhorst facade",
+        "maker": "Sauerbruch Hutton",
+        "year": 2008
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Museum Brandhorst June 2014 01.JPG",
+      "kind": "image",
+      "credit": "Martin Falbisoner",
+      "licence": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Museum_Brandhorst_June_2014_01.JPG",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Museum_Brandhorst_June_2014_01.JPG/960px-Museum_Brandhorst_June_2014_01.JPG"
+    },
+    {
+      "title": "Museum Brandhorst Stäbe.jpg",
+      "kind": "image",
+      "credit": "Schlaier",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Museum_Brandhorst_St%C3%A4be.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Museum_Brandhorst_St%C3%A4be.jpg/960px-Museum_Brandhorst_St%C3%A4be.jpg"
+    },
+    {
+      "title": "Museum Brandhorst June 2014 02.JPG",
+      "kind": "image",
+      "credit": "Martin Falbisoner",
+      "licence": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Museum_Brandhorst_June_2014_02.JPG",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Museum_Brandhorst_June_2014_02.JPG/960px-Museum_Brandhorst_June_2014_02.JPG"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "victorian-architectural-terracotta",
+      "art-deco-faience-facade"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "high-tech-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Calm and care: the viewer sees a quiet, earthy wall with a fine grid that shows its craft in the shadow.",
+    "keywords": [
+      "calm",
+      "earthy",
+      "precise",
+      "sustainable",
+      "tactile"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "terracotta rainscreen",
+      "ventilated terracotta facade",
+      "extruded terracotta panels",
+      "baguette cladding",
+      "clay rainscreen",
+      "terracotta facade system",
+      "hung ceramic cladding"
+    ],
+    "use_cases": [
+      "a render of a modern building with a clay facade",
+      "a detail drawing of a ventilated terracotta wall",
+      "a facade material brief with an earth colour"
+    ],
+    "avoid_when": [
+      "the brief needs a shiny, ornamental facade",
+      "the brief needs a mortar-bound brick wall",
+      "the brief needs a handmade, irregular surface"
+    ],
+    "modifiers": [
+      {
+        "request": "Art Deco, bright and glossy",
+        "toward": "art-deco-faience-facade",
+        "how": "Add a high-gloss glaze in blue-green, a gold band and a zigzag in low relief."
+      },
+      {
+        "request": "Victorian, deep ornament",
+        "toward": "victorian-architectural-terracotta",
+        "how": "Change to thick pressed blocks with deep relief and bed them in mortar on a brick wall."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Rainscreen",
+      "url": "https://en.wikipedia.org/wiki/Rainscreen"
+    },
+    {
+      "title": "Wikipedia: Architectural terracotta",
+      "url": "https://en.wikipedia.org/wiki/Architectural_terracotta"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.1,
+      "min": 0.0,
+      "max": 0.4,
+      "note": "Ornament stays low; the grid, the depth and the shadow give the variety."
+    },
+    "glaze_gloss": {
+      "default": 15,
+      "min": 3,
+      "max": 40
+    },
+    "wall_thickness": {
+      "default": 25,
+      "min": 15,
+      "max": 35,
+      "note": "The panel wall is 15 to 30 mm, with webs inside."
+    },
+    "hand_mark": {
+      "default": 0.1,
+      "min": 0.0,
+      "max": 0.3
+    },
+    "era_blend": {
+      "default": 0.1,
+      "min": 0,
+      "max": 1
+    }
+  }
+}
