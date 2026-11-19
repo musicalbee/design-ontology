@@ -338,7 +338,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`dopamine-decor`](../dopamine-decor/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`bauhaus-interior`](../bauhaus-interior/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md)
 - **Was rejected by:** [`minimalist-interior`](../minimalist-interior/SKILL.md)
-- **Kin in another domain:** [`memphis-design`](../memphis-design/SKILL.md), [`memphis-postmodern-ceramics`](../memphis-postmodern-ceramics/SKILL.md), [`memphis-product`](../memphis-product/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md)
+- **Kin in another domain:** [`kidcore`](../kidcore/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`memphis-postmodern-ceramics`](../memphis-postmodern-ceramics/SKILL.md), [`memphis-product`](../memphis-product/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md)
 - **Nearest by vector profile:** [`dopamine-decor`](../dopamine-decor/SKILL.md), [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md)
 
 ## Emotional target

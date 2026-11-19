@@ -1,0 +1,341 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "mini-diffusion-meme",
+  "domain": "internet",
+  "name": "Mini-Diffusion Meme",
+  "aliases": [
+    "DALL-E mini meme",
+    "Craiyon grid",
+    "Smudge grid"
+  ],
+  "branch": "ai-native",
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2022,
+    "end": 2023,
+    "label": "2022–2023"
+  },
+  "primary_mediums": [
+    "image",
+    "web"
+  ],
+  "summary": "A 3x3 grid of small, smudged images that answer a silly text prompt, with warped faces and soft shapes. It went viral in 2022 from a free, low-resolution image model.",
+  "philosophy": {
+    "core_thesis": "The joke is the gap between a plain prompt and a soft, wrong picture; the smudge is the format.",
+    "design_principles": [
+      "Arrange 9 images in a 3x3 grid of 256px tiles with a 4px gap and no gutter.",
+      "Let each tile show a blur of 1px to 2px and a visible JPEG block pattern at 8px blocks.",
+      "Warp one feature in each image: a face, a hand or a sign with false letters.",
+      "Put the prompt as the caption above the grid in 20px mono, in lower case, inside quotation marks.",
+      "Set a 1px dark frame around the grid and a plain cream ground (#F4EFE6).",
+      "Use a colour range of muddy brown, green and a pale sky; avoid pure white and pure black in tiles.",
+      "Show a small orange button, such as Run, below the grid at 40px height."
+    ],
+    "anti_patterns": [
+      "Sharp, high-resolution renders",
+      "Glossy cinematic light",
+      "Single image output",
+      "Clean, accurate faces",
+      "Dark moody grading",
+      "Dense layout ornament"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 2,
+    "grid_rigidity": 5,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "One 3x3 grid of 256px tiles with 4px gaps (776px wide), the prompt above and one button below.",
+    "whitespace_ratio": "30% to 40% of the page stays empty; the spacing scale is 4, 8, 16 and 32px.",
+    "alignment_rules": "The grid is centred; the prompt aligns flush-left to the grid edge.",
+    "container_geometry": "Square tiles with a 0px radius; a pill button with a 4px radius."
+  },
+  "typography": {
+    "classifications": [
+      "monospace",
+      "neutral sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "IBM Plex Mono",
+        "body": "Inter",
+        "note": "A mono prompt line over a neutral text face."
+      },
+      {
+        "display": "Space Mono",
+        "body": "Work Sans",
+        "note": "A quirky mono face for the caption."
+      }
+    ],
+    "tracking": "Display 0em; prompt +0.01em.",
+    "leading": "Display 1.3; body 1.5.",
+    "hierarchy_rules": [
+      "Use 2 weights: regular (400) and bold (700).",
+      "Use sizes 14, 16, 20 and 32px.",
+      "Set the prompt in lower case with quotation marks.",
+      "Keep the page title to one line."
+    ]
+  },
+  "color": {
+    "palette_structure": "Muddy neutrals on a cream page, with one orange for the action.",
+    "palette": [
+      {
+        "name": "Paper Cream",
+        "hex": "#F4EFE6",
+        "role": "background"
+      },
+      {
+        "name": "Tile Paper",
+        "hex": "#E8E0D0",
+        "role": "surface"
+      },
+      {
+        "name": "Prompt Black",
+        "hex": "#1E1E1E",
+        "role": "text"
+      },
+      {
+        "name": "Run Orange",
+        "hex": "#E5731A",
+        "role": "primary"
+      },
+      {
+        "name": "Murky Green",
+        "hex": "#5E7A52",
+        "role": "accent"
+      },
+      {
+        "name": "Smudge Brown",
+        "hex": "#8B6B4E",
+        "role": "image reference"
+      },
+      {
+        "name": "Sky Blur",
+        "hex": "#9DB7D5",
+        "role": "image reference"
+      }
+    ],
+    "contrast_rules": "Black text on cream holds at least 15:1; orange is for the button with dark text at 5:1 or more.",
+    "surface_treatment": "Flat cream page; tiles show soft, low-detail images with visible 8px JPEG blocks.",
+    "light_and_shadow": "No shadow on the page; the tiles have flat, flattened light with no clear source."
+  },
+  "materiality": {
+    "surface_simulation": "A compressed, low-resolution output: small images, scaled up and blocky.",
+    "border_rules": "A 1px frame in #1E1E1E around the grid; tiles have no border.",
+    "blur_and_elevation": "A 1px to 2px blur inside tiles; the page has no elevation."
+  },
+  "ornamentation_details": {
+    "iconography": "Solid icons at 20px with square corners for run and save.",
+    "illustration": "Smudged scenes: a face with extra teeth, a landmark that melts, a sign with false letters.",
+    "decorative_elements": [
+      "3x3 tile grid",
+      "prompt caption",
+      "JPEG block pattern",
+      "warped face",
+      "orange run button"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "The grid fills with a loading bar of 30 to 60 seconds, then the tiles appear at once; no motion after.",
+    "easing": "steps(4, end)",
+    "duration_ms": 100,
+    "hover_and_active": "Hover darkens the button by 10%; active shifts it down 1px."
+  },
+  "lineage": {
+    "evolved_from": [
+      "gan-portrait"
+    ],
+    "rebelled_against": [
+      "diffusion-gloss"
+    ],
+    "hybridized_with": [
+      "surreal-meme"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer laughs at a wrong, soft picture and trusts the joke more than the image.",
+    "keywords": [
+      "silly",
+      "smudged",
+      "amateur",
+      "playful",
+      "wrong",
+      "low-fi"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "everyman",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "dall-e mini",
+      "craiyon",
+      "3x3 grid",
+      "ai meme",
+      "smudged ai images",
+      "prompt meme"
+    ],
+    "use_cases": [
+      "meme posts and social jokes",
+      "posts about early AI image tools",
+      "playful placeholder art",
+      "teaching pages on model limits"
+    ],
+    "avoid_when": [
+      "The page needs a polished, trustworthy brand image.",
+      "The images must be exact or accurate.",
+      "The audience reads the faults as insult."
+    ],
+    "modifiers": [
+      {
+        "request": "more polished",
+        "toward": "diffusion-gloss",
+        "how": "Replace the grid with one smooth 1024px render and add a rim light."
+      },
+      {
+        "request": "funnier",
+        "toward": "surreal-meme",
+        "how": "Use one tile only and add a deadpan caption in plain type."
+      },
+      {
+        "request": "more like a face",
+        "toward": "gan-portrait",
+        "how": "Show one clean, centred headshot with the eye line at 40%."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 500,
+      "accent": "weight",
+      "display_tracking": "0em",
+      "display_leading": 1.3,
+      "display_case": "none",
+      "body_leading": 1.5,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "butt",
+      "linejoin": "miter",
+      "container": "square",
+      "pack": {
+        "id": "pixelarticons",
+        "why": "A square, pixel family suits the blocky, low-resolution output of the format."
+      }
+    },
+    "art": {
+      "recipe": "plain",
+      "pattern": "noise",
+      "seed": 22
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "regular",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "paper",
+      "why": "The ground is a plain cream page, like a simple web form that holds a prompt box."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#F4EFE6",
+      "--color-surface": "#E8E0D0",
+      "--color-text": "#1E1E1E",
+      "--color-muted": "#4F473C",
+      "--color-primary": "#E5731A",
+      "--color-accent": "#5E7A52",
+      "--color-border": "#1E1E1E",
+      "--font-sans": "\"Inter\", \"Work Sans\", sans-serif",
+      "--font-display": "\"IBM Plex Mono\", \"Space Mono\", monospace",
+      "--border-radius": "0px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "4px",
+      "--ease": "steps(4, end)",
+      "--duration": "100ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#F4EFE6] text-[#1E1E1E] font-sans antialiased px-4 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "font-mono text-2xl md:text-4xl font-bold leading-[1.3]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.5] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border border-[#1E1E1E] bg-[#E8E0D0]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-sm bg-[#E5731A] px-6 py-2.5 text-sm font-bold text-[#1E1E1E] active:translate-y-px hover:brightness-90"
+      },
+      {
+        "element": "label",
+        "classes": "font-mono text-sm lowercase text-[#4F473C]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#E5731A",
+        "#F4EFE6",
+        "#E8E0D0",
+        "#FFFFFF"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#E5731A",
+        "#5E7A52",
+        "#9DB7D5"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 4
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 8
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Craiyon",
+      "url": "https://en.wikipedia.org/wiki/Craiyon"
+    },
+    {
+      "title": "Know Your Meme: DALL-E Mini",
+      "url": "https://knowyourmeme.com/memes/dall-e-mini-craiyon"
+    }
+  ]
+}

@@ -241,7 +241,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`classical-hollywood`](../classical-hollywood/SKILL.md)
 - **Mixes well with:** [`neon-noir`](../neon-noir/SKILL.md), [`vertical-short-form`](../vertical-short-form/SKILL.md)
-- **Kin in another domain:** [`memphis-design`](../memphis-design/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
+- **Kin in another domain:** [`glitchcore`](../glitchcore/SKILL.md), [`hyperpop-visual`](../hyperpop-visual/SKILL.md), [`lip-sync-dance-short`](../lip-sync-dance-short/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`velocity-edit`](../velocity-edit/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Nearest by vector profile:** [`giallo`](../giallo/SKILL.md), [`hong-kong-action`](../hong-kong-action/SKILL.md), [`neon-noir`](../neon-noir/SKILL.md)
 
 ## Emotional target

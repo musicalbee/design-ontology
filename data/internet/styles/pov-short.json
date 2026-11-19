@@ -1,0 +1,330 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "pov-short",
+  "domain": "internet",
+  "name": "POV Short",
+  "aliases": [
+    "POV video",
+    "POV skit",
+    "First-person clip"
+  ],
+  "branch": "vertical-video",
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2020,
+    "end": null,
+    "label": "2020–now"
+  },
+  "primary_mediums": [
+    "video",
+    "mobile"
+  ],
+  "summary": "A short clip that shows a scene as if the viewer is a character: the camera is the viewer's eyes and the actor talks straight to the lens. A text line that starts with \"POV:\" sets the scene.",
+  "philosophy": {
+    "core_thesis": "Make the viewer the second person in the scene: the caption names the situation, the lens is the viewer.",
+    "design_principles": [
+      "Start the clip with a title line that begins with \"POV:\" at 48 px, centred at 18% of the frame height.",
+      "Shoot with a phone held at eye level, a wide lens of 24 mm equivalent, and a small, steady shake.",
+      "Have the actor look into the lens for at least 60% of the clip.",
+      "Keep the clip between 7 s and 20 s, with one joke or turn at the end.",
+      "Use a single room and 1 to 2 props.",
+      "Put the 1 line caption in white on a 70% black bar, 40 px, so the situation is clear.",
+      "Cut once or twice at most; hold the take for 3 s to 8 s."
+    ],
+    "anti_patterns": [
+      "A third-person wide shot",
+      "Many locations in one clip",
+      "Text that does not name the role of the viewer",
+      "Studio lighting with a perfect set",
+      "Long monologue with no turn"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 3,
+    "grid_rigidity": 2,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A single vertical frame with a title line at 14% to 22% of the height and a caption zone at 68% to 80%.",
+    "whitespace_ratio": "A close shot fills 70% of the frame; the rest is a plain room.",
+    "alignment_rules": "The face and the lens sit at the centre; the title line is centred; props appear at the frame edge.",
+    "container_geometry": "Hard rectangle video; the title bar is a 70% black strip with 12 px radius."
+  },
+  "typography": {
+    "classifications": [
+      "neutral sans",
+      "bold sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Inter",
+        "body": "Inter",
+        "note": "One neutral family; weights give the hierarchy."
+      },
+      {
+        "display": "Roboto",
+        "body": "Roboto Flex",
+        "note": "A system-like sans that looks like the default app font."
+      }
+    ],
+    "tracking": "Display -0.01em; body 0em.",
+    "leading": "Display 1.2; body 1.4.",
+    "hierarchy_rules": [
+      "Use bold (700) for the POV line and regular (400) for the rest.",
+      "Set the POV line at 48 px.",
+      "Use a black bar behind white text.",
+      "Keep the POV line to 10 words."
+    ]
+  },
+  "color": {
+    "palette_structure": "Plain room colours with white text on a black bar and one blue accent for the \"POV\" tag.",
+    "palette": [
+      {
+        "name": "Room Grey",
+        "hex": "#2B2D31",
+        "role": "background"
+      },
+      {
+        "name": "POV Blue",
+        "hex": "#3A86FF",
+        "role": "primary"
+      },
+      {
+        "name": "Warm Wood",
+        "hex": "#B07A4F",
+        "role": "accent"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "name": "Fog",
+        "hex": "#C3C6CC",
+        "role": "muted text"
+      },
+      {
+        "name": "Black Bar",
+        "hex": "#111214",
+        "role": "surface"
+      }
+    ],
+    "contrast_rules": "White on the black bar gives 18:1; the blue tag has white text at 3.7:1 on 24 px bold only.",
+    "surface_treatment": "Flat bars over live video; no gradients.",
+    "light_and_shadow": "Practical room light: a lamp at 3200 K and a window; a face lit from the front at low contrast."
+  },
+  "materiality": {
+    "surface_simulation": "A phone camera in a real room: slight noise, wide-angle edge stretch.",
+    "border_rules": "None on the video; the title bar has a 0 border.",
+    "blur_and_elevation": "No blur; a 24 px black gradient at the top helps the title."
+  },
+  "ornamentation_details": {
+    "iconography": "Solid 24 px icons in the app rail.",
+    "illustration": "None; the person and the room are the picture.",
+    "decorative_elements": [
+      "POV title bar",
+      "lens-gaze actor",
+      "single prop",
+      "one-line caption",
+      "wide-angle stretch"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "A hold of 3 s to 8 s with a slight handheld sway of 4 px; one cut at the turn; the caption appears in 100 ms.",
+    "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "duration_ms": 100,
+    "hover_and_active": "A tap on the caption pauses the clip."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "grwm-short"
+    ],
+    "echoes": [
+      "vertical-short-form",
+      "creator-vlog"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels placed inside a small scene and smiles.",
+    "keywords": [
+      "immediate",
+      "comic",
+      "intimate",
+      "relatable",
+      "awkward"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "pov",
+      "point of view video",
+      "pov skit",
+      "you are the",
+      "first person clip",
+      "pov:"
+    ],
+    "use_cases": [
+      "comic skits",
+      "role-play clips",
+      "scene-setting teasers",
+      "relatable brand skits"
+    ],
+    "avoid_when": [
+      "The message needs a view of many places.",
+      "The actor cannot look at the lens.",
+      "The tone is formal."
+    ],
+    "modifiers": [
+      {
+        "request": "more polish",
+        "toward": "creator-vlog",
+        "how": "Use a tripod, a mic and a colour grade."
+      },
+      {
+        "request": "two people",
+        "toward": "duet-split-screen",
+        "how": "Add the viewer's answer in a second panel."
+      },
+      {
+        "request": "faster",
+        "toward": "velocity-edit",
+        "how": "Add 4 cuts and speed ramps on the punchline."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 500,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "weight",
+      "display_tracking": "-0.01em",
+      "display_leading": 1.2,
+      "display_case": "none",
+      "body_leading": 1.4,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "ph-fill",
+        "why": "A filled, neutral family that looks like the default app rail."
+      }
+    },
+    "art": {
+      "recipe": "plain",
+      "pattern": "none",
+      "seed": 37
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "center",
+      "density": "regular",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "raw",
+      "why": "The ground is a raw, flat dark room that holds the frame of a phone video."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#2B2D31",
+      "--color-surface": "#111214",
+      "--color-text": "#FFFFFF",
+      "--color-muted": "#C3C6CC",
+      "--color-primary": "#3A86FF",
+      "--color-accent": "#B07A4F",
+      "--color-border": "#111214",
+      "--font-sans": "\"Inter\", \"Roboto\", sans-serif",
+      "--font-display": "\"Inter\", \"Roboto Flex\", sans-serif",
+      "--border-radius": "12px",
+      "--border-width": "0px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+      "--duration": "100ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#2B2D31] text-white font-sans antialiased"
+      },
+      {
+        "element": "heading",
+        "classes": "text-5xl font-bold leading-[1.2] text-center"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.4] text-[#C3C6CC]"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-xl bg-[#111214] px-4 py-3"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-xl bg-[#3A86FF] px-6 py-3 text-base font-bold text-[#111214]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-bold uppercase text-[#C3C6CC]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#3A86FF",
+        "#B07A4F",
+        "#FFFFFF"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#3A86FF",
+        "#B07A4F"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 12
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 8
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.414
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Point-of-view shot",
+      "url": "https://en.wikipedia.org/wiki/Point-of-view_shot"
+    },
+    {
+      "title": "Wikipedia: TikTok",
+      "url": "https://en.wikipedia.org/wiki/TikTok"
+    }
+  ]
+}

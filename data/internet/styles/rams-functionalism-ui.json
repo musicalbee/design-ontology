@@ -1,0 +1,341 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "rams-functionalism-ui",
+  "domain": "internet",
+  "name": "Rams Functionalism (UI)",
+  "aliases": [
+    "Braun design",
+    "Less but better",
+    "Ten principles of good design"
+  ],
+  "branch": "web-ui",
+  "era_id": "modernist",
+  "time_period": {
+    "start": 1955,
+    "end": null,
+    "label": "1955–now"
+  },
+  "primary_mediums": [
+    "print",
+    "web",
+    "mobile"
+  ],
+  "summary": "Quiet matt surfaces, a muted grey palette, one orange signal colour and controls that show what they do. It follows Dieter Rams and Braun and appears again in calculators, audio and phone interfaces.",
+  "philosophy": {
+    "core_thesis": "Good design is as little design as possible: the product should be useful, understandable and honest, and then step back.",
+    "design_principles": [
+      "Limit the palette to 3 neutrals (warm greys) and one signal colour (orange #E8590C) used on at most 5% of the surface.",
+      "Group controls in labelled zones; each control has a text label of 12px to 14px and a fixed place on a 4px grid.",
+      "Give each control one job and make its state visible: use a solid fill for on and an outline for off.",
+      "Use radius 2px to 4px on buttons and panels; radius never exceeds 8px.",
+      "Set all type in one neo-grotesque sans serif at 4 sizes: 12, 14, 18 and 32px.",
+      "Arrange panels in a modular layout of equal units of 80px to 120px; align each edge to a unit.",
+      "Colour only the thing that signals: a state, a warning or a primary action."
+    ],
+    "anti_patterns": [
+      "Decorative gradients, glows and glass effects",
+      "Two or more saturated accent colours",
+      "Icons without a text label on a primary action",
+      "Skeuomorphic knobs with fake materials",
+      "Rounded containers with a radius above 8px",
+      "Ornamental type and display faces",
+      "Animation that does not show a state change"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "dimensionality": 2,
+    "grid_rigidity": 5,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 1
+  },
+  "layout": {
+    "grid_mechanics": "A modular grid of 8 columns with 16px gutters and a 4px baseline; controls sit in equal units of 80px to 120px and group by function.",
+    "whitespace_ratio": "35% to 50% of the surface stays empty; the spacing scale is 4, 8, 16, 32 and 64px.",
+    "alignment_rules": "Flush left; labels sit above or left of controls; groups align to a shared baseline.",
+    "container_geometry": "Rectangles with a 2px to 4px radius; thin 1px dividers; groups sit on a surface one step lighter or darker than the ground."
+  },
+  "typography": {
+    "classifications": [
+      "neo-grotesque sans serif"
+    ],
+    "font_pairings": [
+      {
+        "display": "Hanken Grotesk",
+        "body": "Hanken Grotesk",
+        "note": "A single-family setting, in the neutral voice of Akzidenz-Grotesk."
+      },
+      {
+        "display": "Inter Tight",
+        "body": "Inter",
+        "note": "A close match to Helvetica for labels and text."
+      },
+      {
+        "display": "Archivo",
+        "body": "IBM Plex Mono",
+        "note": "A grotesque with a mono face for values and units."
+      }
+    ],
+    "tracking": "Display takes -0.01em; body stays at 0; labels take +0.04em.",
+    "leading": "Display 1.1; body 1.5.",
+    "hierarchy_rules": [
+      "Use two weights: regular (400) and medium (500) or bold (700) for labels.",
+      "Use sizes 12, 14, 18 and 32px only.",
+      "Set labels in lower case or sentence case at 12px.",
+      "Show a value in a mono face with tabular numerals."
+    ]
+  },
+  "color": {
+    "palette_structure": "Warm greys with one orange signal.",
+    "palette": [
+      {
+        "name": "Fog",
+        "hex": "#E9E7E2",
+        "role": "background"
+      },
+      {
+        "name": "Graphite",
+        "hex": "#2B2B2A",
+        "role": "text"
+      },
+      {
+        "name": "Stone",
+        "hex": "#D5D2CB",
+        "role": "surface"
+      },
+      {
+        "name": "Smoke",
+        "hex": "#6B6A66",
+        "role": "secondary text"
+      },
+      {
+        "name": "Signal Orange",
+        "hex": "#E8590C",
+        "role": "accent"
+      },
+      {
+        "name": "Off White",
+        "hex": "#F6F5F1",
+        "role": "raised surface"
+      }
+    ],
+    "contrast_rules": "Graphite on fog holds at least 11:1; orange marks state and primary action only.",
+    "surface_treatment": "Matt, flat or very slightly tonal fields; a step of 4% to 8% lightness separates a group from the ground.",
+    "light_and_shadow": "Almost none; a 1px inner edge in white at 60% opacity simulates a pressed edge on controls."
+  },
+  "materiality": {
+    "surface_simulation": "Matt moulded plastic and anodised aluminium, drawn in flat tone with no texture.",
+    "border_rules": "1px dividers in a darker grey (#C4C1BA); controls have a 1px border in the same grey.",
+    "blur_and_elevation": "No blur. Elevation is shown by one tone step and a 1px edge, not by shadow."
+  },
+  "ornamentation_details": {
+    "iconography": "Plain pictograms with a 1.5px stroke, butt caps and mitre joins, always with a text label for a primary action.",
+    "illustration": "Product photographs on a grey ground or plain diagrams of the control layout; no decorative illustration.",
+    "decorative_elements": [
+      "control groups",
+      "unit grid",
+      "signal dot",
+      "1px divider",
+      "tabular values"
+    ]
+  },
+  "motion": {
+    "native": false,
+    "transition_physics": "Translation for screen: short, mechanical moves that mimic a switch; state changes in one step with no overshoot.",
+    "easing": "cubic-bezier(0.2, 0, 0, 1)",
+    "duration_ms": 120,
+    "hover_and_active": "Hover raises the tone of a control by 4%; active state fills it with the signal colour."
+  },
+  "lineage": {
+    "evolved_from": [
+      "bauhaus",
+      "swiss-international"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "flat-design"
+    ],
+    "echoes": [
+      "international-style-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels that the object is honest, quiet and easy to use.",
+    "keywords": [
+      "honest",
+      "quiet",
+      "functional",
+      "precise",
+      "durable",
+      "unobtrusive"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "dieter rams",
+      "braun",
+      "less but better",
+      "good design",
+      "functionalism",
+      "hardware ui",
+      "control panel",
+      "calculator",
+      "teenage engineering"
+    ],
+    "use_cases": [
+      "audio and hardware product pages",
+      "smart home and device apps",
+      "calculators and tools",
+      "settings and control UIs",
+      "industrial design portfolios"
+    ],
+    "avoid_when": [
+      "The brand must feel emotional, loud or playful.",
+      "The page is an editorial feature with big images.",
+      "The audience expects rich visual effects."
+    ],
+    "modifiers": [
+      {
+        "request": "warmer",
+        "toward": "mid-century-modern",
+        "how": "Add wood and earth tones and a second warm hue; keep the 4px grid and labels."
+      },
+      {
+        "request": "more minimal",
+        "toward": "swiss-international",
+        "how": "Remove the control groups and the surfaces; keep type and the single accent."
+      },
+      {
+        "request": "more app-like",
+        "toward": "material-design",
+        "how": "Add elevation levels of 1dp to 8dp and a 12px radius; keep the signal colour."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 500,
+      "subhead_weight": 500,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 500,
+      "accent": "colour",
+      "display_tracking": "-0.01em",
+      "display_leading": 1.1,
+      "display_case": "none",
+      "body_leading": 1.5,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "butt",
+      "linejoin": "miter",
+      "container": "none",
+      "pack": {
+        "id": "lucide",
+        "why": "A thin, even line with a plain pictogram form, always shown with a label."
+      }
+    },
+    "art": {
+      "recipe": "swiss",
+      "pattern": "grid",
+      "seed": 26
+    },
+    "layout": {
+      "hero": "split",
+      "align": "left",
+      "density": "regular",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "grille",
+      "why": "The Braun product face is a field of speaker holes and one orange control."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#E9E7E2",
+      "--color-surface": "#D5D2CB",
+      "--color-text": "#2B2B2A",
+      "--color-muted": "#6B6A66",
+      "--color-primary": "#2B2B2A",
+      "--color-accent": "#E8590C",
+      "--color-border": "#C4C1BA",
+      "--font-sans": "\"Hanken Grotesk\", \"Helvetica Neue\", Arial, sans-serif",
+      "--font-display": "\"Hanken Grotesk\", \"Helvetica Neue\", Arial, sans-serif",
+      "--border-radius": "3px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "4px",
+      "--ease": "cubic-bezier(0.2, 0, 0, 1)",
+      "--duration": "120ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#E9E7E2] text-[#2B2B2A] font-sans antialiased px-6 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-3xl md:text-4xl font-medium leading-[1.1] tracking-[-0.01em]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-6 max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-[3px] border border-[#C4C1BA] bg-[#D5D2CB] p-4"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-[3px] border border-[#2B2B2A] bg-[#2B2B2A] px-5 py-2.5 text-sm font-medium text-[#F6F5F1] transition-colors duration-[120ms] hover:bg-[#E8590C] hover:border-[#E8590C]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-medium tracking-[0.04em] text-[#6B6A66]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#2B2B2A",
+        "#E8590C"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#E8590C",
+        "#2B2B2A"
+      ]
+    },
+    "corner_radius": {
+      "min": 2,
+      "max": 4
+    },
+    "grid_step": {
+      "min": 2,
+      "max": 6
+    },
+    "type_scale_ratio": {
+      "default": 1.2,
+      "min": 1.125,
+      "max": 1.25
+    }
+  },
+  "sources": [
+    {
+      "title": "Dieter Rams, Ten Principles for Good Design (Vitsœ)"
+    },
+    {
+      "title": "Sophie Lovell, Dieter Rams: As Little Design as Possible (Phaidon, 2011)"
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "photo-dump",
+  "domain": "internet",
+  "name": "Photo Dump",
+  "aliases": [
+    "Photo carousel dump",
+    "Casual carousel",
+    "Camera roll post"
+  ],
+  "branch": "social-photo",
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2020,
+    "end": null,
+    "label": "2020–now"
+  },
+  "primary_mediums": [
+    "mobile",
+    "image"
+  ],
+  "summary": "A carousel of 6 to 20 casual photos in one post: blurred, flash-lit, off-centre, with a screenshot, a meal and a mirror selfie in a row. It looks careless on purpose.",
+  "philosophy": {
+    "core_thesis": "The opposite of the curated grid: show the camera roll as it is, so that the poster looks relaxed and real.",
+    "design_principles": [
+      "Post 6 to 20 images in one carousel, up to 10 on the first apps and 20 on later ones.",
+      "Mix formats: a 4:5 portrait, a 1:1 square, a screenshot and a short clip, with no shared preset.",
+      "Allow blur, red-eye, hard flash and a tilt of 3° to 10° in at least 3 images.",
+      "Add a pale dotted pager of 6 dots under the post and a count badge such as 1/12 at the top right.",
+      "Open with the best photo and end with the funniest, such as a pet or a blurry mirror.",
+      "Set the caption in 1 line, lower case, with an emoji or a date such as 'feb dump'.",
+      "Overlay a sticker or a hand-written word in marker at 24px to 40px on 1 or 2 images."
+    ],
+    "anti_patterns": [
+      "One tone for all photos",
+      "A strict 3-column plan",
+      "Perfect exposure and sharp focus in every frame",
+      "Staged, posed props",
+      "A long, polished caption",
+      "A text tile that looks like an advertisement"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "dimensionality": 2,
+    "grid_rigidity": 2,
+    "skeuomorphic_realism": 4,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A swipe row of mixed-ratio images in one card of 1080px width; a pager and a count badge overlay the frame.",
+    "whitespace_ratio": "10% to 20% stays empty; the spacing scale is 4, 8, 12 and 24px.",
+    "alignment_rules": "The first image centres; later images vary in crop; stickers sit off the grid with a tilt of 3° to 10°.",
+    "container_geometry": "Images with a 0px to 8px radius; a count badge of 40px by 24px with a 12px radius; a dot pager of 6px dots."
+  },
+  "typography": {
+    "classifications": [
+      "grotesque",
+      "marker script"
+    ],
+    "font_pairings": [
+      {
+        "display": "Permanent Marker",
+        "body": "Inter",
+        "note": "A marker face for a hand-written word on a photo."
+      },
+      {
+        "display": "Space Grotesk",
+        "body": "Inter",
+        "note": "A quirky grotesque for a casual title."
+      },
+      {
+        "display": "Gaegu",
+        "body": "Inter",
+        "note": "A rough hand-written face for a short caption."
+      }
+    ],
+    "tracking": "Display takes 0em; the count badge takes +0.04em.",
+    "leading": "Display 1.1; body 1.5.",
+    "hierarchy_rules": [
+      "Use two weights: 400 and 700.",
+      "Use sizes 12, 14, 24 and 40px.",
+      "Set captions in lower case.",
+      "Use at most 2 hand-written words on one image."
+    ]
+  },
+  "color": {
+    "palette_structure": "A near-black feed ground with flash white, one sticker yellow and one blown red; photo colours vary.",
+    "palette": [
+      {
+        "name": "Feed Black",
+        "hex": "#0F0F10",
+        "role": "background"
+      },
+      {
+        "name": "Card Grey",
+        "hex": "#1C1C1E",
+        "role": "surface"
+      },
+      {
+        "name": "Flash White",
+        "hex": "#F5F5F5",
+        "role": "text"
+      },
+      {
+        "name": "Sticker Yellow",
+        "hex": "#FFD84D",
+        "role": "primary"
+      },
+      {
+        "name": "Blown Red",
+        "hex": "#E5483A",
+        "role": "accent"
+      },
+      {
+        "name": "Night Blue",
+        "hex": "#2D3F6B",
+        "role": "tint"
+      },
+      {
+        "name": "Mirror Grey",
+        "hex": "#B5B5BA",
+        "role": "muted"
+      }
+    ],
+    "contrast_rules": "Text on the near-black card holds at least 12:1; yellow and red carry stickers, badges and the active dot.",
+    "surface_treatment": "A flat dark card; photos keep their own colour; a light grain of 4% on stickers.",
+    "light_and_shadow": "Hard on-camera flash in the photos, with a bright subject and a dark background; no gloss on chrome."
+  },
+  "materiality": {
+    "surface_simulation": "A phone camera roll: screenshots, flash snaps and blur in one swipe row.",
+    "border_rules": "No border on photos; a 1px #2A2A2D line on the card.",
+    "blur_and_elevation": "A 12px blur on the count badge background at 50% opacity; no cast shadow."
+  },
+  "ornamentation_details": {
+    "iconography": "Solid icons at 24px: heart, comment, send and save, with round ends.",
+    "illustration": "Hand-drawn circles, arrows and scribbled words in marker over some photos; sticker emojis.",
+    "decorative_elements": [
+      "dot pager",
+      "count badge",
+      "marker word",
+      "sticker",
+      "flash photo",
+      "screenshot tile"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Images swipe at 280ms with a rubber stop; the dot pager scales the active dot to 150% in 150ms; stickers pop in at 200ms.",
+    "easing": "cubic-bezier(0.3, 0, 0, 1)",
+    "duration_ms": 280,
+    "hover_and_active": "A swipe moves the pager; a double tap shows a heart at 120% scale for 400ms."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "cohesive-feed-grid"
+    ],
+    "hybridized_with": [
+      "tumblr-soft-grunge"
+    ],
+    "echoes": [
+      "y2k-digicam",
+      "party-flash",
+      "mumblecore"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels close to the poster, as at a casual look at a friend's phone.",
+    "keywords": [
+      "casual",
+      "candid",
+      "messy",
+      "playful",
+      "relaxed",
+      "unfiltered"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "everyman",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "photo dump",
+      "carousel dump",
+      "camera roll",
+      "casual post",
+      "blurry photos",
+      "flash photos",
+      "weekly recap",
+      "instagram carousel"
+    ],
+    "use_cases": [
+      "personal recap and trip posts",
+      "brand posts that need a human voice",
+      "event aftermath galleries",
+      "carousel UI mockups"
+    ],
+    "avoid_when": [
+      "The page must show a strict, formal brand.",
+      "The photos are product shots that need true colour.",
+      "The reader needs one clear message."
+    ],
+    "modifiers": [
+      {
+        "request": "more polished",
+        "toward": "cohesive-feed-grid",
+        "how": "Apply one preset, crop to squares and lay the images in a 3-column grid."
+      },
+      {
+        "request": "more real",
+        "toward": "dual-camera-snapshot",
+        "how": "Reduce to one image with a front and back view and a time stamp."
+      },
+      {
+        "request": "more faded",
+        "toward": "tumblr-soft-grunge",
+        "how": "Add a light leak, grain and pastel tints on a dark ground."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 400,
+      "accent": "colour",
+      "display_tracking": "0em",
+      "display_leading": 1.1,
+      "display_case": "lowercase",
+      "body_leading": 1.5,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "circle",
+      "pack": {
+        "id": "mingcute-fill",
+        "why": "A soft, solid family that matches the round buttons of a phone carousel."
+      }
+    },
+    "art": {
+      "recipe": "bento",
+      "pattern": "dots",
+      "seed": 20
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": 3
+    },
+    "ground": {
+      "kind": "blocks",
+      "why": "The ground is a stack of mixed-size blocks: images of different ratios side by side."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#0F0F10",
+      "--color-surface": "#1C1C1E",
+      "--color-text": "#F5F5F5",
+      "--color-muted": "#B5B5BA",
+      "--color-primary": "#FFD84D",
+      "--color-accent": "#E5483A",
+      "--color-border": "#2A2A2D",
+      "--font-sans": "\"Inter\", \"Helvetica Neue\", sans-serif",
+      "--font-display": "\"Space Grotesk\", \"Permanent Marker\", sans-serif",
+      "--border-radius": "8px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "4px",
+      "--ease": "cubic-bezier(0.3, 0, 0, 1)",
+      "--duration": "280ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#0F0F10] text-[#F5F5F5] font-sans antialiased px-4 md:px-8"
+      },
+      {
+        "element": "heading",
+        "classes": "text-3xl md:text-5xl font-bold lowercase leading-[1.1]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border border-[#2A2A2D] bg-[#1C1C1E] p-4 rounded-lg"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-lg bg-[#FFD84D] px-5 py-3 text-sm font-bold lowercase text-[#0F0F10] transition-transform duration-[280ms] hover:-rotate-2"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-bold lowercase tracking-[0.04em] text-[#B5B5BA]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#FFD84D",
+        "#E5483A",
+        "#F5F5F5"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#E5483A",
+        "#FFD84D"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 16
+    },
+    "grid_step": {
+      "min": 2,
+      "max": 8
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Photo dump",
+      "url": "https://en.wikipedia.org/wiki/Photo_dump"
+    },
+    {
+      "title": "Wikipedia: Instagram",
+      "url": "https://en.wikipedia.org/wiki/Instagram"
+    }
+  ]
+}

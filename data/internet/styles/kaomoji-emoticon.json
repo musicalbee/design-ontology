@@ -1,0 +1,336 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "kaomoji-emoticon",
+  "domain": "internet",
+  "name": "Kaomoji and Emoticon",
+  "aliases": [
+    "Text emoticon",
+    "Western emoticon",
+    "Japanese kaomoji",
+    "ASCII face"
+  ],
+  "branch": "gifs-stickers",
+  "era_id": "postmodern-early-digital",
+  "time_period": {
+    "start": 1986,
+    "end": null,
+    "label": "1986–now"
+  },
+  "primary_mediums": [
+    "web",
+    "mobile"
+  ],
+  "summary": "A face made of punctuation and letters, set in a line of plain text. It came from 1980s bulletin boards: the sideways :-) in the West and the upright (^_^) in Japan.",
+  "philosophy": {
+    "core_thesis": "A face needs no picture: a few characters of one text font, in one colour, carry a whole feeling.",
+    "design_principles": [
+      "Build each face from 3 to 12 characters of the same monospace font, in one colour and one size.",
+      "Set the face on a plain ground of #FFFDF5 with text at #1A1A1A, with no border and no fill.",
+      "Keep the face inline with the text, on the same baseline, with 1 space before and after.",
+      "Use the upright Japanese form (^_^) for the eyes and mouth, and the sideways Western form :-) only for short chat lines.",
+      "Limit one message to 1 or 2 faces; repeat a character (^^^, !!!) up to 3 times for emphasis.",
+      "Set the body text in a 16px mono font at a line height of 1.6, and let the face take the same size.",
+      "Render the faces at an integer pixel size, with no anti-aliased scaling above 200%."
+    ],
+    "anti_patterns": [
+      "Coloured emoji pictures in place of characters",
+      "Faces that need a picture font to display",
+      "Gradients, shadows and glossy fills behind the face",
+      "More than 3 faces in one line",
+      "Proportional fonts that break the face alignment",
+      "Faces drawn at a size different from the text"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "dimensionality": 1,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A single column of text lines on a monospace grid; each character cell is 0.6em wide and 1.6em high.",
+    "whitespace_ratio": "40% to 60% of the surface stays empty; the spacing scale is 8, 16 and 32px.",
+    "alignment_rules": "Flush-left lines; a face sits inside a line, never on a line of its own except as a sign-off.",
+    "container_geometry": "Plain text blocks with 0px radius; a 1px rule or a 1px box of the text colour marks a message."
+  },
+  "typography": {
+    "classifications": [
+      "monospace",
+      "pixel display",
+      "plain sans fallback"
+    ],
+    "font_pairings": [
+      {
+        "display": "DotGothic16",
+        "body": "IBM Plex Mono",
+        "note": "A Japanese dot-matrix face for the display line, with a clean mono text face."
+      },
+      {
+        "display": "VT323",
+        "body": "Space Mono",
+        "note": "A terminal face for pure Western emoticon pages."
+      }
+    ],
+    "tracking": "Display 0.05em; body 0em, with fixed character width.",
+    "leading": "Display 1.1; body 1.6.",
+    "hierarchy_rules": [
+      "Use one size for the whole page: 16px body and 24px for the single display line.",
+      "Mark a heading with a line of === or --- characters, not with a size jump.",
+      "Show a face at the size of the text around it.",
+      "Keep the page to one colour of ink, and show emphasis with a repeated character."
+    ]
+  },
+  "color": {
+    "palette_structure": "Near-black ink on warm paper, with one pink for a single highlighted face.",
+    "palette": [
+      {
+        "name": "Paper",
+        "hex": "#FFFDF5",
+        "role": "background"
+      },
+      {
+        "name": "Ink",
+        "hex": "#1A1A1A",
+        "role": "text and primary"
+      },
+      {
+        "name": "Soft Grey",
+        "hex": "#F2EFE3",
+        "role": "surface"
+      },
+      {
+        "name": "Pencil",
+        "hex": "#5A5A55",
+        "role": "muted text"
+      },
+      {
+        "name": "Blush",
+        "hex": "#E8506A",
+        "role": "accent for one face"
+      },
+      {
+        "name": "Terminal Green",
+        "hex": "#2E7D32",
+        "role": "code line"
+      }
+    ],
+    "contrast_rules": "Ink on paper reaches 16:1; the blush accent marks one face and does not carry body text.",
+    "surface_treatment": "Flat paper with no gradient; an optional 1px rule between lines.",
+    "light_and_shadow": "No light and no shadow; the surface is flat like a terminal line."
+  },
+  "materiality": {
+    "surface_simulation": "Plain terminal text on paper: no material, only glyphs.",
+    "border_rules": "A 1px line in the ink colour, or none.",
+    "blur_and_elevation": "No blur and no elevation."
+  },
+  "ornamentation_details": {
+    "iconography": "Characters only: (^_^), (T_T), (>_<), :-), ;-), \\(^o^)/; no icon fonts.",
+    "illustration": "ASCII line art of up to 12 lines in the same mono font.",
+    "decorative_elements": [
+      "upright kaomoji (^_^)",
+      "sideways emoticon :-)",
+      "sweat-drop mark (^_^;)",
+      "line of === characters",
+      "one-line sign-off face"
+    ]
+  },
+  "motion": {
+    "native": false,
+    "transition_physics": "Text appears at once or types in at 40ms for each character; faces do not move.",
+    "easing": "steps(4, end)",
+    "duration_ms": 200,
+    "hover_and_active": "Hover underlines a link with a 1px line; active inverts ink and paper."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "pixel-icon"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels a small, friendly human tone in a plain text line.",
+    "keywords": [
+      "friendly",
+      "plain",
+      "playful",
+      "terminal",
+      "earnest"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "emoticon",
+      "kaomoji",
+      "ascii face",
+      "text smiley",
+      "(^_^)",
+      ":-)",
+      "颜文字",
+      "顔文字"
+    ],
+    "use_cases": [
+      "chat and forum interfaces",
+      "plain-text email and changelog sign-offs",
+      "retro BBS and terminal pages",
+      "friendly empty states in a CLI"
+    ],
+    "avoid_when": [
+      "The brand needs a formal tone.",
+      "The page needs full colour emoji for a wide audience.",
+      "The text font lacks the characters of the face."
+    ],
+    "modifiers": [
+      {
+        "request": "more colourful",
+        "toward": "unicode-emoji",
+        "how": "Replace each face with a colour emoji glyph of the same size and keep the text line."
+      },
+      {
+        "request": "more retro",
+        "toward": "cyberdelia",
+        "how": "Set the page on black with a green mono face and add ANSI colour blocks."
+      },
+      {
+        "request": "more animated",
+        "toward": "reaction-gif",
+        "how": "Swap the face for a looped clip of 2 to 4 seconds with a caption line."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 400,
+      "display_tracking": "0.05em",
+      "display_leading": 1.1,
+      "display_case": "none",
+      "body_leading": 1.6,
+      "body_size": "16px",
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 400,
+      "accent": "case"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "square",
+      "linejoin": "miter",
+      "container": "none",
+      "pack": {
+        "id": "pixelarticons",
+        "why": "A pixel family fits faces built on a character grid, with square terminals."
+      }
+    },
+    "art": {
+      "recipe": "pixel",
+      "pattern": "dots",
+      "seed": 17
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "left",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "raw",
+      "why": "A kaomoji lives on the plain paper of a text line, so the ground stays flat."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#FFFDF5",
+      "--color-surface": "#F2EFE3",
+      "--color-text": "#1A1A1A",
+      "--color-muted": "#5A5A55",
+      "--color-primary": "#1A1A1A",
+      "--color-accent": "#E8506A",
+      "--color-border": "#1A1A1A",
+      "--font-sans": "\"IBM Plex Mono\", \"Noto Sans JP\", monospace",
+      "--font-display": "\"DotGothic16\", \"VT323\", monospace",
+      "--border-radius": "0px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "steps(4, end)",
+      "--duration": "200ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#FFFDF5] text-[#1A1A1A] font-mono antialiased px-4 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-4xl md:text-6xl font-mono tracking-wide leading-[1.1]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border-2 border-[#1A1A1A] bg-[#F2EFE3] rounded-none"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border-2 border-[#1A1A1A] bg-[#1A1A1A] px-6 py-3 text-sm font-bold text-[#FFFDF5] transition-transform duration-[200ms] hover:-translate-y-0.5"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs uppercase tracking-widest text-[#1A1A1A]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#FFFDF5",
+        "#1A1A1A",
+        "#F2EFE3"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#E8506A",
+        "#2E7D32"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 0
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 8
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.125,
+      "max": 1.333
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Emoticon",
+      "url": "https://en.wikipedia.org/wiki/Emoticon"
+    },
+    {
+      "title": "Wikipedia: Kaomoji",
+      "url": "https://en.wikipedia.org/wiki/Emoticon#Japanese_style_(kaomoji)"
+    },
+    {
+      "title": "Scott Fahlman, Smiley Lore :-)",
+      "url": "https://www.cs.cmu.edu/~sef/sefSmiley.htm"
+    }
+  ]
+}

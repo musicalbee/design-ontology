@@ -261,7 +261,7 @@ for (const d of domains) {
   for (const era of [...eras.values()].filter((e) => e.domain === d.id)) {
     const own = styles.filter((s) => s.domain === d.id && s.era_id === era.id);
     if (!own.length) continue;
-    mm.push(`  subgraph ${node(d.id)}_${node(era.id)}["${d.id === "design" ? "" : d.name + " · "}${era.name} · ${era.period}"]`);
+    mm.push(`  subgraph ${node(d.id)}_${node(era.id)}["${d.id === "internet" ? "" : d.name + " · "}${era.name} · ${era.period}"]`);
     for (const s of own) mm.push(`    ${node(s.id)}["${s.name}"]`);
     mm.push("  end");
   }

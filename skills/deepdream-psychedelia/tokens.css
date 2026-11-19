@@ -1,0 +1,127 @@
+/*
+ * DeepDream Psychedelia — tokens
+ * Generated from data/internet/styles/deepdream-psychedelia.json by design-ontology. Do not edit.
+ * Use: put data-style="deepdream-psychedelia" on <html> or on any container.
+ */
+[data-style="deepdream-psychedelia"] {
+  --color-bg: #14102A;
+  --color-surface: #231A47;
+  --color-text: #F6E7C1;
+  --color-muted: #CBBFE8;
+  --color-primary: #FF9A3C;
+  --color-accent: #9BE564;
+  --color-border: #9BE564;
+  --font-sans: "IBM Plex Mono", "Inter", monospace;
+  --font-display: "Space Mono", "Syne", monospace;
+  --border-radius: 4px;
+  --border-width: 1px;
+  --shadow-elevation: 0 0 12px rgba(255,154,60,0.45);
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.37, 0, 0.63, 1);
+  --duration: 600ms;
+  --type-ratio: 1.5;
+  --size-small: 10.67px;
+  --size-h3: 36px;
+  --size-h2: 54px;
+  --size-h1: 81px;
+  --color-on-bg: #F6E7C1;
+  --color-on-surface: #F6E7C1;
+  --color-on-primary: #14102A;
+  --color-on-accent: #14102A;
+  --color-muted-on-bg: #CBBFE8;
+  --color-muted-on-surface: #CBBFE8;
+  --color-link: #9BE564;
+  --color-link-on-surface: #9BE564;
+  --display-weight: 700;
+  --subhead-weight: 400;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 500;
+  --display-tracking: 0.02em;
+  --display-leading: 1.15;
+  --display-case: none;
+  --body-leading: 1.5;
+  --body-size: 16px;
+  --icon-stroke: 2;
+  --ground: linear-gradient(100deg, var(--color-bg) 26%, transparent 58%),
+    repeating-conic-gradient(from 0deg at 82% 62%, var(--color-primary) 0 12deg, var(--color-accent) 12deg 24deg, var(--color-primary) 24deg 36deg),
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="deepdream-psychedelia"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="deepdream-psychedelia"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="deepdream-psychedelia"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="deepdream-psychedelia"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="deepdream-psychedelia"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="deepdream-psychedelia"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="deepdream-psychedelia"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="deepdream-psychedelia"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="deepdream-psychedelia"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="deepdream-psychedelia"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="deepdream-psychedelia"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="deepdream-psychedelia"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="deepdream-psychedelia"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="deepdream-psychedelia"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

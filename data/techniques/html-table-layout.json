@@ -1,0 +1,47 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "html-table-layout",
+  "name": "HTML table layout",
+  "aliases": [
+    "Table layout",
+    "Spacer GIF layout"
+  ],
+  "kind": "technology",
+  "summary": "Using nested HTML tables, with clear 1px spacer images, to place boxes on a page.",
+  "how": [
+    "Set a table of 760px to 800px and centre it.",
+    "Nest tables for each column and each box, with 2px spacing and 4px padding.",
+    "Use a 1px clear GIF to hold the width of a cell.",
+    "Split the page into a header row, a link column and a content column."
+  ],
+  "origin": {
+    "domain": "internet",
+    "year": 1995,
+    "where": "United States",
+    "note": "Netscape Navigator 1.1 added table support, and designers used tables for page layout.",
+    "circa": true
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 1997,
+      "via": "Web portals place search, links, news and ads in dense table grids.",
+      "styles": [
+        "portal-table-layout"
+      ]
+    }
+  ],
+  "styles": [
+    "portal-table-layout"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: HTML table",
+      "url": "https://en.wikipedia.org/wiki/Table_(HTML)"
+    },
+    {
+      "title": "Wikipedia: Web portal",
+      "url": "https://en.wikipedia.org/wiki/Web_portal"
+    }
+  ]
+}

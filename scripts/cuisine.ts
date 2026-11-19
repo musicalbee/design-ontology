@@ -1,8 +1,9 @@
 /**
  * The cuisine vocabulary (data/cuisine/vocabulary.json) and the checks that a schema cannot make:
  * each ingredient, method and course id of a style resolves, each signature dish uses a course of the
- * branch of the style, an ingredient of its pantry and a method of its technique, and no ingredient
- * arrives in Europe before it began.
+ * branch of the style, an ingredient of its pantry and a method of its technique, no ingredient
+ * arrives in Europe before it began, and a European style (pantry.in_europe) uses no ingredient
+ * before it reached Europe.
  *
  *   npx tsx scripts/cuisine.ts            the style check, one line for each error
  *   npx tsx scripts/cuisine.ts --history  the history of ingredients and methods, by year of origin
@@ -22,7 +23,7 @@ export interface CuisineStyle {
   id: string;
   branch: string;
   time_period: { start: number };
-  pantry: { primary: string[]; secondary: string[]; avoid: string[] };
+  pantry: { primary: string[]; secondary: string[]; avoid: string[]; in_europe: boolean };
   technique: { methods: string[] };
   signatures: { dishes: { course: string; dish: string; ingredient: string; method: string }[] };
 }
@@ -56,6 +57,10 @@ export function checkCuisineStyle(v: CuisineVocabulary, s: CuisineStyle): string
   for (const id of used) {
     const y = ingredients.get(id)?.origin.year;
     if (y !== undefined && y > s.time_period.start) out.push(`pantry: "${id}" began in ${y}, after the start of the style (${s.time_period.start})`);
+    // A European kitchen also needs the ingredient in Europe: its arrival year must not be later than the start.
+    const a = ingredients.get(id)?.arrival?.year;
+    if (s.pantry.in_europe && a !== undefined && a > s.time_period.start)
+      out.push(`pantry: "${id}" reached Europe in ${a}, after the start of the European style (${s.time_period.start})`);
   }
   s.signatures.dishes.forEach((d, i) => {
     const at = `signatures.dishes[${i}]`;

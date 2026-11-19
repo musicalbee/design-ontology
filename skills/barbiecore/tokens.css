@@ -1,0 +1,132 @@
+/*
+ * Barbiecore — tokens
+ * Generated from data/internet/styles/barbiecore.json by design-ontology. Do not edit.
+ * Use: put data-style="barbiecore" on <html> or on any container.
+ */
+[data-style="barbiecore"] {
+  --color-bg: #FFE3F1;
+  --color-surface: #FFFFFF;
+  --color-text: #4A0F32;
+  --color-muted: #7A2457;
+  --color-primary: #E0218A;
+  --color-accent: #7FD0F2;
+  --color-border: #E0218A;
+  --font-sans: "Poppins", "Nunito", sans-serif;
+  --font-display: "Poppins", "Lilita One", sans-serif;
+  --border-radius: 24px;
+  --border-width: 2px;
+  --shadow-elevation: 0 12px 24px rgba(224, 33, 138, 0.3);
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.34, 1.4, 0.64, 1);
+  --duration: 350ms;
+  --type-ratio: 1.333;
+  --size-small: 12px;
+  --size-h3: 28.43px;
+  --size-h2: 37.9px;
+  --size-h1: 50.52px;
+  --color-on-bg: #4A0F32;
+  --color-on-surface: #4A0F32;
+  --color-on-primary: #000000;
+  --color-on-accent: #4A0F32;
+  --color-muted-on-bg: #7A2457;
+  --color-muted-on-surface: #7A2457;
+  --color-link: #4A0F32;
+  --color-link-on-surface: #4A0F32;
+  --display-weight: 800;
+  --subhead-weight: 800;
+  --body-weight: 400;
+  --strong-weight: 800;
+  --label-weight: 800;
+  --display-tracking: -0.02em;
+  --display-leading: 1.05;
+  --display-case: none;
+  --body-leading: 1.5;
+  --body-size: 16px;
+  --icon-stroke: 2;
+  --ground: radial-gradient(circle at 82% 30%, rgba(255,255,255,.7) 0 1.4vmin, transparent 1.6vmin),
+    radial-gradient(circle at 86% 34%, transparent 0 7vmin, rgba(255,255,255,.75) 7vmin 7.5vmin, rgba(255,255,255,.15) 7.6vmin 8vmin, transparent 8.2vmin),
+    radial-gradient(circle at 66% 18%, transparent 0 3.6vmin, rgba(255,255,255,.7) 3.6vmin 4vmin, transparent 4.2vmin),
+    radial-gradient(circle at 95% 62%, transparent 0 4.6vmin, rgba(255,255,255,.7) 4.6vmin 5vmin, transparent 5.2vmin),
+    radial-gradient(130% 55% at 70% 130%, var(--color-accent) 0 55%, transparent 55.4%),
+    radial-gradient(90% 45% at 10% 125%, color-mix(in oklab, var(--color-accent) 70%, transparent) 0 55%, transparent 55.4%),
+    linear-gradient(to bottom, rgba(255,255,255,.45), transparent 60%),
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="barbiecore"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="barbiecore"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="barbiecore"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="barbiecore"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="barbiecore"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="barbiecore"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="barbiecore"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="barbiecore"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="barbiecore"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="barbiecore"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="barbiecore"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="barbiecore"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="barbiecore"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="barbiecore"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

@@ -340,7 +340,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **softer and today**: move toward [`neo-deco-interior`](../neo-deco-interior/SKILL.md) (Neo-deco). Replace the gloss with fluted wood and bouclé, round all corners and warm the palette.
 
 - **Came from (go here for a more orthodox version):** [`art-deco-interior`](../art-deco-interior/SKILL.md), [`georgian-interior`](../georgian-interior/SKILL.md)
-- **Kin in another domain:** [`art-deco-web`](../art-deco-web/SKILL.md), [`formal-script`](../formal-script/SKILL.md)
+- **Kin in another domain:** [`art-deco-web`](../art-deco-web/SKILL.md), [`barbiecore`](../barbiecore/SKILL.md), [`formal-script`](../formal-script/SKILL.md)
 - **Nearest by vector profile:** [`neo-deco-interior`](../neo-deco-interior/SKILL.md), [`art-deco-interior`](../art-deco-interior/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md)
 
 ## Emotional target

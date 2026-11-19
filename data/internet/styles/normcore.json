@@ -1,0 +1,350 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "normcore",
+  "domain": "internet",
+  "name": "Normcore",
+  "aliases": [
+    "Anti-fashion",
+    "Plain basics"
+  ],
+  "branch": "core-subcultures",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2013,
+    "end": null,
+    "label": "2013–now"
+  },
+  "primary_mediums": [
+    "web",
+    "mobile",
+    "image"
+  ],
+  "summary": "Plain, unbranded clothes and plain pages: grey fleece, white trainers, dad jeans, default fonts and flat daylight snapshots. A trend report named it in 2013, and a magazine story spread it.",
+  "philosophy": {
+    "core_thesis": "Choose sameness over difference: a look that blends in is a calm answer to a feed that rewards standing out.",
+    "design_principles": [
+      "Set the page on a light grey (#F2F2F0) or white ground with one denim blue (#35597F) for links and buttons.",
+      "Use one neutral sans-serif in two weights, 400 and 600, at sizes 14, 16, 20 and 32px.",
+      "Show products or people in flat daylight, shot front-on at eye level with no filter and no props.",
+      "Keep a single column of 640px to 720px with 24px side margins and 32px between blocks.",
+      "Write labels as plain nouns: \"Jeans\", \"Fleece\", \"Cart\". Use no slogan and no exclamation mark.",
+      "Keep corners at 4px and borders at 1px in #D4D4D0; use no shadow and no gradient.",
+      "Cap the palette at 4 neutrals and 1 blue, and set every logo or brand mark at small size or not at all."
+    ],
+    "anti_patterns": [
+      "Loud brand logos or monograms",
+      "Hero gradients and neon accents",
+      "Styled or retouched photography",
+      "Display fonts with character",
+      "Dramatic shadows and glass panels",
+      "Slogans that claim a lifestyle",
+      "Dense decoration of any kind"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "dimensionality": 1,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 1
+  },
+  "layout": {
+    "grid_mechanics": "A single column of 640px to 720px on a 4-column base with 24px gutters; product grids use 3 equal columns with 16px gaps.",
+    "whitespace_ratio": "45% to 60% of the surface stays empty; the spacing scale is 8, 16, 24 and 32px.",
+    "alignment_rules": "Flush-left text and flush-left images; nothing floats, overlaps or tilts.",
+    "container_geometry": "Rectangles with a 4px radius and a 1px grey border; no shadow; photographs at a 4:5 or 1:1 crop with no frame."
+  },
+  "typography": {
+    "classifications": [
+      "neutral sans-serif",
+      "system sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Inter",
+        "body": "Inter",
+        "note": "A neutral grotesque that reads as a system default."
+      },
+      {
+        "display": "Arimo",
+        "body": "Arimo",
+        "note": "An open metric match for Arial, the default face of an office document."
+      },
+      {
+        "display": "Work Sans",
+        "body": "Work Sans",
+        "note": "A plain sans with a slightly wider form for labels and captions."
+      }
+    ],
+    "tracking": "Display 0 to -0.01em; body 0; labels 0.02em.",
+    "leading": "Display 1.2; body 1.6.",
+    "hierarchy_rules": [
+      "Use two weights: regular (400) and semibold (600).",
+      "Use sizes 14, 16, 20 and 32px.",
+      "Set headings in sentence case, never in capitals.",
+      "Set prices and sizes in the body weight, in grey."
+    ]
+  },
+  "color": {
+    "palette_structure": "Four neutral greys and whites with one denim blue and one muted green-grey.",
+    "palette": [
+      {
+        "name": "Fleece Grey",
+        "hex": "#F2F2F0",
+        "role": "background"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "name": "Ink",
+        "hex": "#1F2328",
+        "role": "text"
+      },
+      {
+        "name": "Denim",
+        "hex": "#35597F",
+        "role": "primary"
+      },
+      {
+        "name": "Sage Grey",
+        "hex": "#6B7F73",
+        "role": "accent"
+      },
+      {
+        "name": "Hairline",
+        "hex": "#D4D4D0",
+        "role": "border"
+      },
+      {
+        "name": "Slate",
+        "hex": "#5A5F66",
+        "role": "muted text"
+      }
+    ],
+    "contrast_rules": "Ink on grey and on white holds 12:1; muted text holds 5:1 or more; denim carries buttons and links only.",
+    "surface_treatment": "Flat fills only; photographs have no filter and no vignette.",
+    "light_and_shadow": "No cast shadow; daylight in photographs is even and slightly cool."
+  },
+  "materiality": {
+    "surface_simulation": "Cotton jersey, fleece and denim, shown as flat, unstyled product shots.",
+    "border_rules": "A 1px border in #D4D4D0 on cards and inputs; focus shows a 2px denim ring.",
+    "blur_and_elevation": "No blur and no elevation; layers are separated by a border, not a shadow."
+  },
+  "ornamentation_details": {
+    "iconography": "Outline icons at 20px with 1.5px strokes and round caps; no container tile.",
+    "illustration": "Plain catalogue photographs, a size chart and a basic line drawing of a garment; no illustration style.",
+    "decorative_elements": [
+      "hairline rule",
+      "plain product grid",
+      "size chart",
+      "default system label"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Short, quiet changes: a fade of 150ms; page changes cut at once with no slide.",
+    "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "duration_ms": 150,
+    "hover_and_active": "Hover underlines a link and darkens a button by 8%; active state moves the element by 0px."
+  },
+  "lineage": {
+    "evolved_from": [
+      "minimalism-web"
+    ],
+    "rebelled_against": [
+      "vaporwave"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "minimalist-fashion",
+      "gorpcore",
+      "super-normal-product",
+      "new-topographics"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels at ease, unobserved and unpressed to perform an identity.",
+    "keywords": [
+      "plain",
+      "calm",
+      "unbranded",
+      "ordinary",
+      "relaxed",
+      "deadpan"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "normcore",
+      "dad jeans",
+      "plain basics",
+      "anti-fashion",
+      "unbranded",
+      "white trainers",
+      "default look",
+      "ordinary style"
+    ],
+    "use_cases": [
+      "basics and workwear shops",
+      "utility product pages",
+      "portfolio sites for quiet brands",
+      "documentation-style catalogues"
+    ],
+    "avoid_when": [
+      "The brand must stand out in a crowded feed.",
+      "The product needs a bold story or a visible logo.",
+      "The page needs strong emotion or a festive tone."
+    ],
+    "modifiers": [
+      {
+        "request": "more refined",
+        "toward": "clean-girl",
+        "how": "Warm the greys to cream, add glossy skin tones and a soft sheen; keep the single column."
+      },
+      {
+        "request": "more hidden luxury",
+        "toward": "minimalism-web",
+        "how": "Raise the whitespace to 70% and use one fine serif for headings; remove the blue."
+      },
+      {
+        "request": "more outdoors",
+        "toward": "wabi-sabi-web",
+        "how": "Replace the blue with moss and clay, and add a rough paper ground."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 600,
+      "subhead_weight": 600,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 600,
+      "accent": "weight",
+      "display_tracking": "-0.01em",
+      "display_leading": 1.2,
+      "display_case": "none",
+      "body_leading": 1.6,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "lucide",
+        "why": "A thin, neutral outline family that looks like a default system set."
+      }
+    },
+    "art": {
+      "recipe": "plain",
+      "pattern": "none",
+      "seed": 13
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "left",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "raw",
+      "why": "A normcore page shows no ground at all: a flat light grey, the colour of a plain fleece."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#F2F2F0",
+      "--color-surface": "#FFFFFF",
+      "--color-text": "#1F2328",
+      "--color-muted": "#5A5F66",
+      "--color-primary": "#35597F",
+      "--color-accent": "#6B7F73",
+      "--color-border": "#D4D4D0",
+      "--font-sans": "\"Inter\", \"Arimo\", Arial, sans-serif",
+      "--font-display": "\"Inter\", \"Arimo\", Arial, sans-serif",
+      "--border-radius": "4px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "--duration": "150ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#F2F2F0] text-[#1F2328] font-sans antialiased px-6 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-2xl md:text-4xl font-semibold leading-[1.2] tracking-tight"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-[44rem]"
+      },
+      {
+        "element": "section",
+        "classes": "rounded border border-[#D4D4D0] bg-white p-6"
+      },
+      {
+        "element": "button",
+        "classes": "rounded border border-[#35597F] bg-[#35597F] px-5 py-2.5 text-sm font-semibold text-white hover:bg-[#2B4A6B]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-semibold tracking-[0.02em] text-[#5A5F66]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#35597F",
+        "#6B7F73",
+        "#1F2328"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#6B7F73",
+        "#35597F"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 8
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.125,
+      "max": 1.333
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Normcore",
+      "url": "https://en.wikipedia.org/wiki/Normcore"
+    },
+    {
+      "title": "K-Hole, Youth Mode: A Report on Freedom (2013)"
+    },
+    {
+      "title": "Fiona Duncan, Normcore: Fashion Movement or Joke (New York Magazine, 2014)"
+    }
+  ]
+}

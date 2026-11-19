@@ -1,0 +1,348 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "vsco-preset-look",
+  "domain": "internet",
+  "name": "VSCO Preset Look",
+  "aliases": [
+    "VSCO filter",
+    "Matte film preset",
+    "VSCO girl photo"
+  ],
+  "branch": "social-photo",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2013,
+    "end": null,
+    "label": "2013–now"
+  },
+  "primary_mediums": [
+    "mobile",
+    "image"
+  ],
+  "summary": "A quiet photo grade that copies film stock: matte blacks, soft contrast, muted greens and warm skin. A preset code such as A6 or HB2 sets it, and the app chrome stays pale and spare.",
+  "philosophy": {
+    "core_thesis": "A preset, not a filter: the edit imitates a real film stock and must look as if no edit happened.",
+    "design_principles": [
+      "Lift the black point to 8% to 12% grey and cut contrast by 10% to 20%.",
+      "Pull saturation to 80% and shift greens toward teal (hue +10°) and skin toward warm beige.",
+      "Add a grain of 4% to 8% and keep it at 100% view only.",
+      "Name each preset with a short code of 2 to 3 characters, such as A6, and show it in 11px capitals.",
+      "Show the preset strip as flat tiles of 72px with a 1px outline, and show the strength slider from 0 to 12.",
+      "Keep the app chrome in off-white (#F2EFEA) and charcoal (#1F1E1C), with no colour except the photo.",
+      "Use a wide margin of 24px to 40px around each photo and leave no border on it."
+    ],
+    "anti_patterns": [
+      "Strong vignettes",
+      "Thick white frames",
+      "Saturated, neon grades",
+      "Decorative type on the photo",
+      "Heavy grain at 15% or more",
+      "Many named filters with bold previews",
+      "Glossy or 3D chrome"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "dimensionality": 1,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "A grid of photos in 3 columns with 2px gaps, or a full-width single photo; the editor has a photo area and a 96px tool tray below it.",
+    "whitespace_ratio": "35% to 45% of the editor stays empty; the spacing scale is 4, 8, 16, 24 and 40px.",
+    "alignment_rules": "The photo centres; tool labels align under their icons; text sits flush left at 24px.",
+    "container_geometry": "Photos with a 0px radius; tool tiles of 72px with a 2px radius and a 1px outline."
+  },
+  "typography": {
+    "classifications": [
+      "geometric sans",
+      "grotesque"
+    ],
+    "font_pairings": [
+      {
+        "display": "Jost",
+        "body": "Work Sans",
+        "note": "A geometric sans for names and a calm grotesque for text."
+      },
+      {
+        "display": "Josefin Sans",
+        "body": "Inter",
+        "note": "A thin, wide-set capital face for preset codes."
+      },
+      {
+        "display": "Manrope",
+        "body": "Inter",
+        "note": "A modern sans pair for a clean app screen."
+      }
+    ],
+    "tracking": "Display takes +0.04em; preset codes take +0.12em in capitals.",
+    "leading": "Display 1.2; body 1.6.",
+    "hierarchy_rules": [
+      "Use two weights: 400 and 600.",
+      "Use sizes 11, 14, 18 and 32px.",
+      "Set preset codes in capitals at 11px.",
+      "Use one text colour on the page."
+    ]
+  },
+  "color": {
+    "palette_structure": "Warm off-white and charcoal chrome; photo tones of bone, taupe, faded teal and a warm highlight.",
+    "palette": [
+      {
+        "name": "Matte Bone",
+        "hex": "#F2EFEA",
+        "role": "background"
+      },
+      {
+        "name": "Paper White",
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "name": "Film Ink",
+        "hex": "#1F1E1C",
+        "role": "text"
+      },
+      {
+        "name": "Film Taupe",
+        "hex": "#8A7B66",
+        "role": "primary"
+      },
+      {
+        "name": "Faded Teal",
+        "hex": "#6E8B8A",
+        "role": "accent"
+      },
+      {
+        "name": "Warm Highlight",
+        "hex": "#E9D7BE",
+        "role": "highlight"
+      },
+      {
+        "name": "Lifted Shadow",
+        "hex": "#3A3835",
+        "role": "shadow"
+      }
+    ],
+    "contrast_rules": "Text on off-white holds at least 14:1; taupe and teal carry the slider, selected tile and links.",
+    "surface_treatment": "Flat off-white and white fills; no gradient on chrome; the photo carries a matte grade with a lifted black point.",
+    "light_and_shadow": "Soft, even light in photos; the chrome has no shadow beyond a 1px line of #DDD8CF."
+  },
+  "materiality": {
+    "surface_simulation": "A contact sheet of film prints on matte paper.",
+    "border_rules": "A 1px #DDD8CF outline on tiles and cards; no border on photos.",
+    "blur_and_elevation": "No blur and no elevation; a selected tile gets a 2px charcoal outline."
+  },
+  "ornamentation_details": {
+    "iconography": "Fine outline icons at 24px with a 1.5px stroke: sliders, crop, grain and exposure.",
+    "illustration": "No drawn art; only the photo and a small wordmark.",
+    "decorative_elements": [
+      "preset code tile",
+      "strength slider",
+      "matte grade",
+      "film grain",
+      "contact sheet grid"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "A preset cross-fades over 200ms; the slider tracks the finger with no delay; tiles scroll with a soft stop of 300ms.",
+    "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "duration_ms": 200,
+    "hover_and_active": "The selected tile shows a 2px outline; a long press compares the photo with the original and snaps back in 150ms."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "instagram-vintage-filter"
+    ],
+    "hybridized_with": [
+      "tumblr-soft-grunge"
+    ],
+    "echoes": [
+      "film-grain-revival",
+      "cinematic-teal-orange"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels calm, relaxed and quietly stylish, with no sense of effort.",
+    "keywords": [
+      "matte",
+      "calm",
+      "muted",
+      "filmic",
+      "minimal",
+      "relaxed"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "sage",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "vsco",
+      "vsco preset",
+      "matte photo",
+      "film preset",
+      "muted tones",
+      "a6 preset",
+      "faded film look",
+      "vsco girl"
+    ],
+    "use_cases": [
+      "photo editing app screens",
+      "travel and lifestyle blogs",
+      "creator portfolios",
+      "preset shop pages"
+    ],
+    "avoid_when": [
+      "The brand needs bold, loud colour.",
+      "The photo must show exact product colour.",
+      "The page needs a strong graphic identity."
+    ],
+    "modifiers": [
+      {
+        "request": "more nostalgic",
+        "toward": "instagram-vintage-filter",
+        "how": "Add the vignette, the cream print border and an amber fade."
+      },
+      {
+        "request": "more curated",
+        "toward": "cohesive-feed-grid",
+        "how": "Fix one preset for all photos and lay them in a strict 3-column grid."
+      },
+      {
+        "request": "moodier",
+        "toward": "tumblr-soft-grunge",
+        "how": "Move to a dark ground, lower the exposure and add pink and sage tints."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 600,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 400,
+      "accent": "weight",
+      "display_tracking": "0.04em",
+      "display_leading": 1.2,
+      "display_case": "none",
+      "body_leading": 1.6,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "lucide",
+        "why": "A thin, quiet line family that suits sliders and tool icons on a pale editor screen."
+      }
+    },
+    "art": {
+      "recipe": "plain",
+      "pattern": "none",
+      "seed": 13
+    },
+    "layout": {
+      "hero": "split",
+      "align": "left",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "soft",
+      "why": "The ground is soft, even light: a flat matte field with no pattern."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#F2EFEA",
+      "--color-surface": "#FFFFFF",
+      "--color-text": "#1F1E1C",
+      "--color-muted": "#5E5B55",
+      "--color-primary": "#8A7B66",
+      "--color-accent": "#4F6F6E",
+      "--color-border": "#DDD8CF",
+      "--font-sans": "\"Work Sans\", \"Inter\", sans-serif",
+      "--font-display": "\"Jost\", \"Josefin Sans\", sans-serif",
+      "--border-radius": "2px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "--duration": "200ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#F2EFEA] text-[#1F1E1C] font-sans antialiased px-4 md:px-8"
+      },
+      {
+        "element": "heading",
+        "classes": "text-3xl md:text-5xl font-semibold leading-[1.2] tracking-[0.04em]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border border-[#DDD8CF] bg-white p-6 rounded-sm"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-sm bg-[#1F1E1C] px-6 py-3 text-sm font-semibold text-[#F2EFEA] transition-colors duration-[200ms] hover:bg-[#8A7B66]"
+      },
+      {
+        "element": "label",
+        "classes": "text-[11px] font-semibold uppercase tracking-[0.12em] text-[#5E5B55]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#8A7B66",
+        "#1F1E1C",
+        "#4F6F6E"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#4F6F6E",
+        "#8A7B66"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 4
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 10
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.414
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: VSCO",
+      "url": "https://en.wikipedia.org/wiki/VSCO"
+    },
+    {
+      "title": "Wikipedia: VSCO girl",
+      "url": "https://en.wikipedia.org/wiki/VSCO_girl"
+    }
+  ]
+}

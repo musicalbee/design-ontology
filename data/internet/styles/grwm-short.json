@@ -1,0 +1,332 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "grwm-short",
+  "domain": "internet",
+  "name": "Get Ready With Me",
+  "aliases": [
+    "GRWM",
+    "Get ready with me video",
+    "Morning routine clip"
+  ],
+  "branch": "vertical-video",
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2019,
+    "end": null,
+    "label": "2019–now"
+  },
+  "primary_mediums": [
+    "video",
+    "mobile"
+  ],
+  "summary": "A creator talks to a close phone camera while she or he does make-up or picks an outfit, with soft light, a mirror, jump cuts and a line of captions. The form grew from YouTube make-up tutorials of the 2000s.",
+  "philosophy": {
+    "core_thesis": "Share a real routine in real time: the talk matters more than the result.",
+    "design_principles": [
+      "Frame the face and shoulders at 55% to 70% of the frame height, with eyes at 38% from the top.",
+      "Light with a ring light or a window at 5600 K to 6500 K.",
+      "Use jump cuts at 1 cut every 2 s to 5 s; remove all pauses.",
+      "Set a hook line in the first 1.5 s, for example the event or the place.",
+      "Caption the speech in 40 px words, 2 lines at most, at 65% of the frame height.",
+      "Show product names as 28 px text tags with a 12 px radius, placed near the product.",
+      "Use a warm, soft grade: lift shadows by 10% and keep skin tones at 2 to 3 stops of exposure."
+    ],
+    "anti_patterns": [
+      "Studio lighting with hard shadows",
+      "Scripted, stiff delivery",
+      "Wide shots of an empty room",
+      "Heavy filters that change the skin",
+      "Long intros with a logo"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 1,
+    "grid_rigidity": 2,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A single vertical frame with a face-and-mirror composition; a caption zone at 62% to 76% of the height; product tags on the right third.",
+    "whitespace_ratio": "30% to 40% of the frame is soft background; text takes under 10%.",
+    "alignment_rules": "Face centred; captions centred; tags align to the right edge with a 32 px margin.",
+    "container_geometry": "Rounded video corners of 24 px in the post view; pill tags of 12 px radius; 1:1 product thumbnails."
+  },
+  "typography": {
+    "classifications": [
+      "humanist sans",
+      "rounded sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "DM Sans",
+        "body": "Inter",
+        "note": "A friendly sans in medium and bold weights."
+      },
+      {
+        "display": "Nunito",
+        "body": "Nunito Sans",
+        "note": "A rounded sans that matches the soft mood."
+      }
+    ],
+    "tracking": "Display -0.01em; body 0em.",
+    "leading": "Display 1.2; body 1.45.",
+    "hierarchy_rules": [
+      "Use bold (700) for the hook line and regular (400) for captions.",
+      "Set the hook at 56 px and captions at 40 px.",
+      "Set text in white with a 4% black shadow, or in dark text on a cream pill.",
+      "Limit a caption to 6 words per cut."
+    ]
+  },
+  "color": {
+    "palette_structure": "Warm neutrals with one soft blush, on a cream and beige base.",
+    "palette": [
+      {
+        "name": "Cream",
+        "hex": "#FBF3EA",
+        "role": "background"
+      },
+      {
+        "name": "Blush",
+        "hex": "#F2B8B0",
+        "role": "primary"
+      },
+      {
+        "name": "Rose Clay",
+        "hex": "#C9776F",
+        "role": "accent"
+      },
+      {
+        "name": "Espresso",
+        "hex": "#3B2A26",
+        "role": "text"
+      },
+      {
+        "name": "Taupe",
+        "hex": "#8A746C",
+        "role": "muted text"
+      },
+      {
+        "name": "Linen",
+        "hex": "#EFE0D2",
+        "role": "surface"
+      }
+    ],
+    "contrast_rules": "Espresso on cream gives 12:1; white caption text needs a 40% dark pill below it.",
+    "surface_treatment": "Soft, matte, warm; skin tones lead.",
+    "light_and_shadow": "Soft window light from the left at 45°; a 10% shadow lift; no hard shadows."
+  },
+  "materiality": {
+    "surface_simulation": "A bathroom mirror and a bedroom: matte skin, glass and cotton.",
+    "border_rules": "No borders; a 1 px cream ring on product tags.",
+    "blur_and_elevation": "A soft blur of 12 px on the background when the mirror is out of focus."
+  },
+  "ornamentation_details": {
+    "iconography": "Outline 24 px icons for bookmark, share and audio.",
+    "illustration": "Small hand-drawn sparkle marks and a product tag.",
+    "decorative_elements": [
+      "product tag pill",
+      "time-stamp caption",
+      "mirror frame",
+      "sparkle mark",
+      "hook line"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Jump cuts at 2 s to 5 s; outfit changes cut on a hand wave; a caption fades in over 200 ms.",
+    "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "duration_ms": 200,
+    "hover_and_active": "A tap on a product tag opens a card that scales from 95% to 100% in 200 ms."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "lip-sync-dance-short"
+    ],
+    "hybridized_with": [
+      "duet-split-screen"
+    ],
+    "echoes": [
+      "creator-vlog",
+      "vertical-short-form"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels at ease, as if a friend talks while she or he gets ready.",
+    "keywords": [
+      "intimate",
+      "warm",
+      "chatty",
+      "relaxed",
+      "aspirational"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "lover"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "grwm",
+      "get ready with me",
+      "morning routine",
+      "makeup routine",
+      "outfit video",
+      "night out routine"
+    ],
+    "use_cases": [
+      "beauty and fashion clips",
+      "product placement",
+      "event preludes",
+      "lifestyle channel intros"
+    ],
+    "avoid_when": [
+      "The audience needs hard technical facts.",
+      "The brand voice is formal.",
+      "The scene has no personal host."
+    ],
+    "modifiers": [
+      {
+        "request": "more produced",
+        "toward": "creator-vlog",
+        "how": "Use a tripod, a second camera angle and a title card of 1.5 s."
+      },
+      {
+        "request": "more energy",
+        "toward": "velocity-edit",
+        "how": "Add speed ramps and beat cuts between the outfit changes."
+      },
+      {
+        "request": "less talk",
+        "toward": "photo-carousel-slideshow",
+        "how": "Turn each step into a still slide with a 1 line caption."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 500,
+      "subhead_weight": 500,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 500,
+      "accent": "colour",
+      "display_tracking": "-0.01em",
+      "display_leading": 1.2,
+      "display_case": "none",
+      "body_leading": 1.4,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "lucide",
+        "why": "A thin outline family that suits a soft, personal feed."
+      }
+    },
+    "art": {
+      "recipe": "aero",
+      "pattern": "noise",
+      "seed": 23
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "center",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "soft",
+      "why": "The ground is a soft warm wash that echoes window light in a bedroom."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#FBF3EA",
+      "--color-surface": "#EFE0D2",
+      "--color-text": "#3B2A26",
+      "--color-muted": "#6E5A53",
+      "--color-primary": "#C9776F",
+      "--color-accent": "#F2B8B0",
+      "--color-border": "#E0CBB9",
+      "--font-sans": "\"Inter\", \"Nunito Sans\", sans-serif",
+      "--font-display": "\"DM Sans\", \"Nunito\", sans-serif",
+      "--border-radius": "24px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 8px 24px rgba(59,42,38,0.12)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+      "--duration": "200ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#FBF3EA] text-[#3B2A26] font-sans antialiased"
+      },
+      {
+        "element": "heading",
+        "classes": "text-5xl font-bold leading-[1.2] -tracking-[0.01em]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.45] text-[#6E5A53]"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-3xl bg-[#EFE0D2] p-6"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-full bg-[#C9776F] px-6 py-3 text-sm font-medium text-[#FBF3EA]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs uppercase tracking-wide text-[#6E5A53]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#F2B8B0",
+        "#C9776F",
+        "#FBF3EA"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#C9776F",
+        "#F2B8B0"
+      ]
+    },
+    "corner_radius": {
+      "min": 12,
+      "max": 32
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 8
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.414
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Michelle Phan",
+      "url": "https://en.wikipedia.org/wiki/Michelle_Phan"
+    },
+    {
+      "title": "Wikipedia: Vlog",
+      "url": "https://en.wikipedia.org/wiki/Vlog"
+    }
+  ]
+}

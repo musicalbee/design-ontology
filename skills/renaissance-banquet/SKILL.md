@@ -92,6 +92,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Primary:** cane-sugar · game-birds · veal · butter · cinnamon · lemon · truffle · nuts-seeds
 - **Secondary:** black-pepper · clove · nutmeg · saffron · ginger · bitter-orange · artichoke · caviar · oyster · shellfish · cheese · egg · wheat · olive-oil · wine · vinegar
 - **Avoid:** chilli · tomato · potato · maize · vanilla · fine-herbs
+- **In europe:** yes
 - **Rule:** Use sugar, citrus and warm spice with game and veal, and let sugar close the meal.
 
 ## Technique

@@ -1,0 +1,131 @@
+/*
+ * Photo Carousel Slideshow — tokens
+ * Generated from data/internet/styles/photo-carousel-slideshow.json by design-ontology. Do not edit.
+ * Use: put data-style="photo-carousel-slideshow" on <html> or on any container.
+ */
+[data-style="photo-carousel-slideshow"] {
+  --color-bg: #F6F2EA;
+  --color-surface: #FFFFFF;
+  --color-text: #1A1A1A;
+  --color-muted: #6B6B66;
+  --color-primary: #E4572E;
+  --color-accent: #7A9E7E;
+  --color-border: #1A1A1A;
+  --font-sans: "Inter", "DM Sans", sans-serif;
+  --font-display: "Playfair Display", "DM Serif Display", serif;
+  --border-radius: 0px;
+  --border-width: 2px;
+  --shadow-elevation: 0 12px 24px rgba(26,26,26,0.12);
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --duration: 300ms;
+  --type-ratio: 1.333;
+  --size-small: 12px;
+  --size-h3: 28.43px;
+  --size-h2: 37.9px;
+  --size-h1: 50.52px;
+  --color-on-bg: #1A1A1A;
+  --color-on-surface: #1A1A1A;
+  --color-on-primary: #1A1A1A;
+  --color-on-accent: #1A1A1A;
+  --color-muted-on-bg: #6B6B66;
+  --color-muted-on-surface: #6B6B66;
+  --color-link: #1A1A1A;
+  --color-link-on-surface: #1A1A1A;
+  --display-weight: 400;
+  --subhead-weight: 400;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 500;
+  --display-tracking: -0.02em;
+  --display-leading: 1.05;
+  --display-case: none;
+  --body-leading: 1.4;
+  --body-size: 16px;
+  --icon-stroke: 1.5;
+  --ground: radial-gradient(130% 95% at 50% 0%, transparent 58%, color-mix(in oklab, var(--color-on-bg) 9%, transparent)),
+    url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'220'%20height%3D'220'%3E%3Cfilter%20id%3D'n'%3E%3CfeTurbulence%20type%3D'fractalNoise'%20baseFrequency%3D'.8'%20numOctaves%3D'3'%20stitchTiles%3D'stitch'%2F%3E%3CfeColorMatrix%20values%3D'0%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200.22%200%200%200%200'%2F%3E%3C%2Ffilter%3E%3Crect%20width%3D'100%25'%20height%3D'100%25'%20filter%3D'url(%23n)'%2F%3E%3C%2Fsvg%3E") 0 0 / 220px 220px repeat,
+    radial-gradient(circle at 90% 112%, color-mix(in oklab, var(--color-accent) 34%, transparent) 0 34vmin, transparent calc(34vmin + 1px)),
+    radial-gradient(circle at 90% 112%, transparent 0 40vmin, color-mix(in oklab, var(--color-primary) 30%, transparent) 40vmin calc(40vmin + 2px), transparent calc(40vmin + 2px)),
+    radial-gradient(55% 60% at 88% 18%, color-mix(in oklab, var(--color-accent) 22%, transparent), transparent 70%),
+    radial-gradient(45% 50% at 70% 95%, color-mix(in oklab, var(--color-primary) 16%, transparent), transparent 70%),
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="photo-carousel-slideshow"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="photo-carousel-slideshow"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="photo-carousel-slideshow"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="photo-carousel-slideshow"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="photo-carousel-slideshow"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="photo-carousel-slideshow"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="photo-carousel-slideshow"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="photo-carousel-slideshow"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="photo-carousel-slideshow"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="photo-carousel-slideshow"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="photo-carousel-slideshow"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="photo-carousel-slideshow"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="photo-carousel-slideshow"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="photo-carousel-slideshow"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

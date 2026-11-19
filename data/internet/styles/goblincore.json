@@ -1,0 +1,359 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "goblincore",
+  "domain": "internet",
+  "name": "Goblincore",
+  "aliases": [
+    "Goblin core",
+    "Moss and mushroom look"
+  ],
+  "branch": "core-subcultures",
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2020,
+    "end": null,
+    "label": "2020–now"
+  },
+  "primary_mediums": [
+    "image",
+    "web",
+    "mobile"
+  ],
+  "summary": "A look for the small wild and the overlooked: moss, mushrooms, frogs, snail shells, bones, soil, old jars and crumpled earth-tone clothes. It spread on Tumblr and TikTok after 2019.",
+  "philosophy": {
+    "core_thesis": "Find beauty in mud, rot and clutter: the untidy forest floor is a better home than a clean showroom.",
+    "design_principles": [
+      "Set the ground in earth tones: moss green (#5C6B3A), bark brown (#4A3626) and clay (#A8744C).",
+      "Use toadstool red (#B5382C) and bone (#E6DCC3) as the two spot colours, each under 10% of the surface.",
+      "Pair a rough, old-style serif for headings with a plain text serif; allow uneven baselines of 2px to 4px.",
+      "Photograph close and low: mushrooms, moss, snails, jars of finds and hands in soil, with a soft overcast light and a 15% green cast.",
+      "Layer torn paper, leaf and bone shapes at 48px to 160px, rotated by -8° to +8°.",
+      "Draw borders as uneven 2px lines with a rough edge; keep corners at 6px to 12px and slightly different.",
+      "Fill the frame with small found things: buttons, shells, coins, keys and pressed leaves."
+    ],
+    "anti_patterns": [
+      "Clean white minimal surfaces",
+      "Glossy plastic and neon",
+      "Perfect symmetry and straight edges",
+      "Pastel sugar colours",
+      "Corporate stock imagery",
+      "Heavy sans-serif capitals"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "dimensionality": 2,
+    "grid_rigidity": 1,
+    "skeuomorphic_realism": 4,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A loose grid of 6 columns with 16px gutters; cards, finds and notes overlap by 8px to 24px and sit at small angles.",
+    "whitespace_ratio": "15% to 25% of the surface stays empty; the spacing scale is 4, 8, 16 and 32px.",
+    "alignment_rules": "Left-aligned text with uneven blocks; finds cluster in a corner like a shelf of jars.",
+    "container_geometry": "Rough rectangles with a 6px to 12px radius that varies by corner; torn paper edges; jar, leaf and cap shapes as accents."
+  },
+  "typography": {
+    "classifications": [
+      "old-style serif",
+      "rough display",
+      "text serif"
+    ],
+    "font_pairings": [
+      {
+        "display": "IM Fell DW Pica",
+        "body": "Alegreya",
+        "note": "An old, worn English face with a warm, calligraphic text serif."
+      },
+      {
+        "display": "Almendra",
+        "body": "Alegreya",
+        "note": "A pen-drawn serif with a medieval note for headings."
+      },
+      {
+        "display": "Caudex",
+        "body": "Lora",
+        "note": "A heavy old book face with a clear text serif."
+      }
+    ],
+    "tracking": "Display 0.01em; body 0.",
+    "leading": "Display 1.15; body 1.65.",
+    "hierarchy_rules": [
+      "Use weights 400 and 700.",
+      "Use sizes 16, 20, 30 and 56px.",
+      "Set captions in italic as field notes at 14px.",
+      "Set labels as handwritten tags at a slight angle of 2°."
+    ]
+  },
+  "color": {
+    "palette_structure": "Earth greens, browns and clay, with toadstool red and bone as spot colours.",
+    "palette": [
+      {
+        "name": "Forest Floor",
+        "hex": "#2E2A1E",
+        "role": "background"
+      },
+      {
+        "name": "Bark",
+        "hex": "#4A3626",
+        "role": "surface"
+      },
+      {
+        "name": "Bone",
+        "hex": "#E6DCC3",
+        "role": "text"
+      },
+      {
+        "name": "Moss",
+        "hex": "#7A8B4A",
+        "role": "primary"
+      },
+      {
+        "name": "Toadstool",
+        "hex": "#B5382C",
+        "role": "accent"
+      },
+      {
+        "name": "Clay",
+        "hex": "#A8744C",
+        "role": "second accent"
+      },
+      {
+        "name": "Lichen",
+        "hex": "#B7B98A",
+        "role": "muted text"
+      },
+      {
+        "name": "Mud",
+        "hex": "#6B5A3E",
+        "role": "border"
+      }
+    ],
+    "contrast_rules": "Bone on forest floor holds 11:1; lichen holds 7:1; moss and clay carry fills and borders, and red carries small marks only.",
+    "surface_treatment": "Matte, grainy earth fills with a 6% noise; torn paper and soil textures; photographs have a green cast and a lifted black.",
+    "light_and_shadow": "Soft overcast light; shadows are damp and brown; no glow and no hard shadow."
+  },
+  "materiality": {
+    "surface_simulation": "Moss, soil, bark, bone, ceramic jars, rusted metal and crumpled linen.",
+    "border_rules": "A 2px uneven line in mud brown; rough torn edges on cards.",
+    "blur_and_elevation": "A shadow of 0 4px 12px at 35% black; no glass and no gloss."
+  },
+  "ornamentation_details": {
+    "iconography": "Hand-drawn line icons at 24px with 2px strokes and round caps: mushroom, snail, key, bone and frog.",
+    "illustration": "Ink and watercolour mushrooms, frogs, snails, beetles, bones, moss and pressed leaves.",
+    "decorative_elements": [
+      "mushroom ring",
+      "torn paper edge",
+      "pressed leaf",
+      "jar of finds",
+      "bone and key"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Slow, organic growth: elements scale from 92% to 100% over 500ms; spores drift up at 10s per loop.",
+    "easing": "cubic-bezier(0.3, 0.8, 0.4, 1)",
+    "duration_ms": 500,
+    "hover_and_active": "Hover tilts a card by 1.5° and lifts it by 2px; active state settles it back with a small pause."
+  },
+  "lineage": {
+    "evolved_from": [
+      "cottagecore"
+    ],
+    "rebelled_against": [
+      "normcore"
+    ],
+    "hybridized_with": [
+      "wabi-sabi-web",
+      "scrapbook-ui"
+    ],
+    "echoes": [
+      "mingei-folk-craft",
+      "organic-architecture",
+      "naturalist-cuisine",
+      "hippie-bohemian-dress"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels curious, at home in mess and tender toward small, odd things.",
+    "keywords": [
+      "earthy",
+      "damp",
+      "quirky",
+      "wild",
+      "cosy",
+      "strange"
+    ],
+    "brand_archetypes": [
+      "explorer",
+      "outlaw",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "goblincore",
+      "moss",
+      "mushrooms",
+      "frog aesthetic",
+      "forest floor",
+      "foraging",
+      "earth tones",
+      "bones and shells"
+    ],
+    "use_cases": [
+      "foraging and plant shops",
+      "indie craft and ceramics brands",
+      "zine and art pages",
+      "nature education for older children"
+    ],
+    "avoid_when": [
+      "The brand must look clean, clinical or high-tech.",
+      "The product needs a polished luxury tone.",
+      "The page needs fast, high-contrast scanning of data."
+    ],
+    "modifiers": [
+      {
+        "request": "tidier",
+        "toward": "cottagecore",
+        "how": "Lift the ground to cream, swap bark for sage and keep the botanicals."
+      },
+      {
+        "request": "darker",
+        "toward": "dark-academia",
+        "how": "Replace earth tones with leather brown and brass; add book plates and Latin mottos."
+      },
+      {
+        "request": "more plain",
+        "toward": "normcore",
+        "how": "Remove the textures and finds; keep one moss green and a flat grey ground."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 400,
+      "accent": "colour",
+      "display_tracking": "0.01em",
+      "display_leading": 1.15,
+      "display_case": "none",
+      "body_leading": 1.65,
+      "body_size": "17px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "pepicons-print",
+        "why": "A rough, hand-printed line that fits finds, field notes and torn paper."
+      }
+    },
+    "art": {
+      "recipe": "grunge",
+      "pattern": "noise",
+      "seed": 24
+    },
+    "layout": {
+      "hero": "split",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": 2
+    },
+    "ground": {
+      "kind": "xerox",
+      "why": "Goblincore stands on a grainy, dirty ground like soil, a photocopied field note or a damp page."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#2E2A1E",
+      "--color-surface": "#4A3626",
+      "--color-text": "#E6DCC3",
+      "--color-muted": "#B7B98A",
+      "--color-primary": "#7A8B4A",
+      "--color-accent": "#B5382C",
+      "--color-border": "#6B5A3E",
+      "--font-sans": "\"Alegreya\", \"Lora\", Georgia, serif",
+      "--font-display": "\"IM Fell DW Pica\", \"Almendra\", Georgia, serif",
+      "--border-radius": "8px",
+      "--border-width": "2px",
+      "--shadow-elevation": "0 4px 12px rgba(0, 0, 0, 0.35)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.3, 0.8, 0.4, 1)",
+      "--duration": "500ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#2E2A1E] text-[#E6DCC3] font-serif antialiased px-5 md:px-10"
+      },
+      {
+        "element": "heading",
+        "classes": "font-[family-name:IM_Fell_DW_Pica] text-4xl md:text-6xl font-bold leading-[1.15] -rotate-1"
+      },
+      {
+        "element": "body",
+        "classes": "text-[17px] leading-[1.65] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-lg border-2 border-[#6B5A3E] bg-[#4A3626] p-6 shadow-[0_4px_12px_rgba(0,0,0,0.35)] rotate-[0.5deg]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-md border-2 border-[#7A8B4A] bg-[#7A8B4A] px-5 py-2.5 text-sm font-bold text-[#1F1B12] hover:-rotate-1 hover:bg-[#B7B98A]"
+      },
+      {
+        "element": "label",
+        "classes": "text-sm italic text-[#B7B98A]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#7A8B4A",
+        "#A8744C",
+        "#B5382C"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#B5382C",
+        "#A8744C",
+        "#B7B98A"
+      ]
+    },
+    "corner_radius": {
+      "min": 4,
+      "max": 16
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Goblincore",
+      "url": "https://en.wikipedia.org/wiki/Goblincore"
+    },
+    {
+      "title": "Wikipedia: Internet aesthetic",
+      "url": "https://en.wikipedia.org/wiki/Internet_aesthetic"
+    }
+  ]
+}

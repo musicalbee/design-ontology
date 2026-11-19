@@ -173,7 +173,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`skeuomorphic-icon`](../skeuomorphic-icon/SKILL.md)
 - **Was rejected by:** [`clay-3d-icon`](../clay-3d-icon/SKILL.md)
 - **Mixes well with:** [`duotone-icon`](../duotone-icon/SKILL.md), [`isometric-icon`](../isometric-icon/SKILL.md)
-- **Kin in another domain:** [`flat-design`](../flat-design/SKILL.md), [`metro-ui`](../metro-ui/SKILL.md)
+- **Kin in another domain:** [`chat-sticker-pack`](../chat-sticker-pack/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`metro-ui`](../metro-ui/SKILL.md), [`unicode-emoji`](../unicode-emoji/SKILL.md)
 - **Nearest by vector profile:** [`isometric-icon`](../isometric-icon/SKILL.md), [`pixel-icon`](../pixel-icon/SKILL.md), [`clay-3d-icon`](../clay-3d-icon/SKILL.md)
 
 ## Emotional target

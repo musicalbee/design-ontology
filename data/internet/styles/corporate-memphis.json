@@ -1,0 +1,351 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "corporate-memphis",
+  "domain": "internet",
+  "name": "Corporate Memphis",
+  "aliases": [
+    "Alegria",
+    "Big Tech Art",
+    "Flat Vector People",
+    "Globohomo"
+  ],
+  "branch": "web-ui",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2017,
+    "end": 2022,
+    "label": "2017–2022"
+  },
+  "primary_mediums": [
+    "web",
+    "mobile"
+  ],
+  "summary": "Flat vector illustrations of people with oversized limbs and tiny heads, drawn in a bright palette of 4 to 6 hues with no outlines. Facebook's Alegria system set it in 2017, and many software firms copied it.",
+  "philosophy": {
+    "core_thesis": "Friendly, abstract people with unreal bodies make a corporate product feel human and inclusive without the risk of a specific face.",
+    "design_principles": [
+      "Draw people with limbs 1.5 to 3 times longer than natural, hands and heads reduced to 10 to 15% of body height, and torsos of simple curved shapes.",
+      "Fill shapes with flat colour and use no outline, no gradient and no shading; add one 10% darker tone for a fold only when needed.",
+      "Colour skin in non-realistic tones such as purple, blue, green and orange, and use 4 to 6 hues across the whole scene.",
+      "Place figures with small plants, phone screens, charts and floating geometric shapes, scaled to be larger than the people.",
+      "Use curved, rounded outlines of shapes with a minimum 8px radius, and give limbs a stretched, noodle-like form.",
+      "Put the illustration at 40 to 60% of the width of a hero section and pair it with a left-aligned sans-serif headline.",
+      "Keep faces blank or reduced to a dot or a simple mark, with no detailed eyes or mouths."
+    ],
+    "anti_patterns": [
+      "Realistic human proportions with a head of 12.5% of body height",
+      "Outlines, gradients and drop shadows on figures",
+      "Photographic faces in the illustrated hero",
+      "A single skin colour that is the same across all figures",
+      "Detailed facial expressions and fine eyelashes",
+      "More than 6 hues in one scene",
+      "Illustrations with hand-drawn texture or visible brush marks"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "dimensionality": 1,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "A 12-column web grid with 24px gutters and a 1200px maximum width; hero sections split into a 5-column text block and a 7-column illustration block.",
+    "whitespace_ratio": "40–55% of the surface stays empty; the spacing scale is 8, 16, 24, 48, 80, 120px, and illustrations sit in large clear areas.",
+    "alignment_rules": "Headlines and text sit flush left; illustrations are placed at the right or the centre, and figures overlap their container edges by 10 to 20% to break the box.",
+    "container_geometry": "Rounded rectangles with a 12 to 24px radius for cards and 999px pill buttons; background blobs of organic curved shapes sit behind the figures."
+  },
+  "typography": {
+    "classifications": [
+      "geometric sans serif",
+      "humanist sans serif"
+    ],
+    "font_pairings": [
+      {
+        "display": "Poppins",
+        "body": "Inter",
+        "note": "A round geometric display face with a neutral text face, the common choice in startup landing pages."
+      },
+      {
+        "display": "DM Sans",
+        "body": "DM Sans",
+        "note": "A single-family setting with low contrast and open shapes."
+      },
+      {
+        "display": "Nunito",
+        "body": "Open Sans",
+        "note": "Rounded terminals that echo the soft limbs of the figures."
+      }
+    ],
+    "tracking": "Display sizes take -0.02em to 0em; body stays at 0; labels take +0.02em.",
+    "leading": "Display 1.1 to 1.2; body 1.5 to 1.6.",
+    "hierarchy_rules": [
+      "Use bold (600 to 700) for headlines and regular (400) for body text.",
+      "Set headlines at 40 to 72px and body at 16 to 20px, with a ratio of at least 2.5 between them.",
+      "Set headlines in sentence case, in near-black or deep navy, never in the illustration palette.",
+      "Limit a headline to 8 to 12 words and a supporting line to 20 to 25 words."
+    ]
+  },
+  "color": {
+    "palette_structure": "A neutral white or very light base, a deep navy for text, and 4 to 6 saturated flat hues in illustration, with no hue on more than 25% of the scene.",
+    "palette": [
+      {
+        "name": "Paper",
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "name": "Deep Navy",
+        "hex": "#1F2A5C",
+        "role": "text and dark shapes"
+      },
+      {
+        "name": "Violet",
+        "hex": "#7C5CFC",
+        "role": "skin tone and primary"
+      },
+      {
+        "name": "Coral",
+        "hex": "#FF6B6B",
+        "role": "clothing and accent"
+      },
+      {
+        "name": "Marigold",
+        "hex": "#FFC145",
+        "role": "highlight and objects"
+      },
+      {
+        "name": "Mint",
+        "hex": "#3DD6A6",
+        "role": "plants and secondary"
+      },
+      {
+        "name": "Blush",
+        "hex": "#FFE3E3",
+        "role": "background blob"
+      }
+    ],
+    "contrast_rules": "Text holds at least 4.5:1; Deep Navy on white reaches 14:1; light hues such as Marigold and Mint stay on illustration and never carry text.",
+    "surface_treatment": "Opaque flat colour fields with no gradient and no outline; background blobs use one pale tint at 100% opacity.",
+    "light_and_shadow": "None. There is no light source; at most one tone 10% darker marks an overlap or a fold."
+  },
+  "materiality": {
+    "surface_simulation": "None; figures and objects are flat cut-out shapes that imitate vector paper cut-outs only in their silhouette.",
+    "border_rules": "No outlines on illustration shapes; UI cards take a 1px border in #E5E7F0 or a soft 0 8px 24px shadow at 8% navy.",
+    "blur_and_elevation": "No blur on illustration; UI cards may use one shadow of 0 8px 24px at 8% opacity and no more than 2 elevation levels."
+  },
+  "ornamentation_details": {
+    "iconography": "Solid duotone icons on a 24px grid with a 2px stroke and rounded terminals in navy and one accent hue.",
+    "illustration": "Flat vector scenes of 1 to 4 figures with long arms and legs, tiny heads and non-realistic skin tones, shown with plants, devices and floating shapes.",
+    "decorative_elements": [
+      "background blobs",
+      "floating circles and squiggles",
+      "oversized plants",
+      "giant phone and chart props",
+      "overlapping geometric shapes"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Soft, rounded movement: shapes float with a 2 to 4s sine loop of 8 to 12px, and sections fade and rise by 24px on scroll.",
+    "easing": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+    "duration_ms": 400,
+    "hover_and_active": "Hover lifts buttons by 2px and darkens the fill by 8%; active returns them to 0px; illustration elements shift by 4 to 8px with a gentle overshoot."
+  },
+  "lineage": {
+    "evolved_from": [
+      "flat-design",
+      "memphis-design"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Friendly reassurance: the viewer feels that a large company is approachable, inclusive and low-risk.",
+    "keywords": [
+      "friendly",
+      "inclusive",
+      "playful",
+      "safe",
+      "abstract",
+      "bubbly"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "innocent",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "corporate memphis",
+      "alegria",
+      "flat people",
+      "big tech illustration",
+      "tiny heads long arms",
+      "saas illustration",
+      "startup illustration",
+      "flat vector people",
+      "friendly illustration"
+    ],
+    "use_cases": [
+      "SaaS landing pages",
+      "onboarding screens",
+      "empty states",
+      "explainer sections",
+      "help centres"
+    ],
+    "avoid_when": [
+      "The brand needs a distinct voice, because the style is the most copied look of the late 2010s.",
+      "The topic is serious, medical or financial and a playful tone would reduce trust.",
+      "The audience is design-literate and reads the style as generic or dismissive."
+    ],
+    "modifiers": [
+      {
+        "request": "more serious",
+        "toward": "swiss-international",
+        "how": "Replace illustrated people with objective photography, reduce the palette to black, white and one accent, and set text flush left on a grid."
+      },
+      {
+        "request": "more wild",
+        "toward": "memphis-design",
+        "how": "Add terrazzo speckle, zigzags and squiggles in saturated primaries with black outlines of 3px; keep the flat fills."
+      },
+      {
+        "request": "less cartoon",
+        "toward": "flat-design",
+        "how": "Replace figures with geometric icons and colour blocks of solid fills; keep the palette and the layout."
+      },
+      {
+        "request": "more structure",
+        "toward": "material-design",
+        "how": "Place the illustration in cards with 1 to 4dp elevation and a coloured app bar; keep the flat vector figures."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 600,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 600,
+      "accent": "weight",
+      "display_tracking": "-0.02em",
+      "display_leading": 1.1,
+      "display_case": "none",
+      "body_leading": 1.6,
+      "body_size": "17px"
+    },
+    "icon": {
+      "mode": "duotone",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "ph-duotone",
+        "why": "A friendly round line with one flat tint: the same two-tone logic as the illustrations."
+      }
+    },
+    "art": {
+      "recipe": "corporate",
+      "pattern": "dots",
+      "seed": 12
+    },
+    "layout": {
+      "hero": "split",
+      "align": "left",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "confetti",
+      "why": "Corporate Memphis decorates the page with small floating shapes in friendly colours."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#FFFFFF",
+      "--color-surface": "#FFE3E3",
+      "--color-text": "#1F2A5C",
+      "--color-muted": "#5B6490",
+      "--color-primary": "#7C5CFC",
+      "--color-accent": "#FF6B6B",
+      "--color-border": "#E5E7F0",
+      "--font-sans": "\"Inter\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "--font-display": "\"Poppins\", \"DM Sans\", \"Helvetica Neue\", Arial, sans-serif",
+      "--border-radius": "16px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 8px 24px rgba(31, 42, 92, 0.08)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+      "--duration": "400ms",
+      "--color-highlight": "#FFC145",
+      "--color-secondary": "#3DD6A6",
+      "--radius-pill": "999px",
+      "--grid-columns": "12",
+      "--grid-gutter": "24px"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-white font-sans text-[#1F2A5C] antialiased"
+      },
+      {
+        "element": "heading",
+        "classes": "font-bold text-5xl md:text-7xl leading-[1.1] tracking-[-0.02em] text-[#1F2A5C]"
+      },
+      {
+        "element": "card",
+        "classes": "rounded-2xl border border-[#E5E7F0] bg-white p-8 shadow-[0_8px_24px_rgba(31,42,92,0.08)]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-full bg-[#7C5CFC] px-8 py-3 text-base font-semibold text-white transition-all duration-[400ms] ease-[cubic-bezier(0.34,1.56,0.64,1)] hover:-translate-y-0.5 hover:bg-[#6844F0] active:translate-y-0"
+      },
+      {
+        "element": "hero-blob",
+        "classes": "absolute -z-10 h-[480px] w-[480px] rounded-[48%_52%_61%_39%/45%_38%_62%_55%] bg-[#FFE3E3]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#7C5CFC",
+        "#FF6B6B",
+        "#1F2A5C"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#FF6B6B",
+        "#7C5CFC"
+      ]
+    },
+    "corner_radius": {
+      "min": 8,
+      "max": 24
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.333
+    }
+  },
+  "sources": [
+    {
+      "title": "Facebook Design, Alegria illustration system (Facebook, 2017)"
+    },
+    {
+      "title": "Alexandra Lange, \"Why does every tech brand look the same? Blame Corporate Memphis\" (Dezeen, 2020)"
+    }
+  ]
+}

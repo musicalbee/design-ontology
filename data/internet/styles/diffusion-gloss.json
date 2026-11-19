@@ -1,0 +1,343 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "diffusion-gloss",
+  "domain": "internet",
+  "name": "Diffusion Gloss",
+  "aliases": [
+    "AI hyperreal render",
+    "Midjourney look",
+    "Prompt-core gloss"
+  ],
+  "branch": "ai-native",
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2022,
+    "end": null,
+    "label": "2022–now"
+  },
+  "primary_mediums": [
+    "image",
+    "web"
+  ],
+  "summary": "A smooth, over-detailed image with a perfect rim light, a teal and amber grade and a soft bokeh ground. It became the default look of text-to-image models from 2022.",
+  "philosophy": {
+    "core_thesis": "Everything is lit, sharp and finished: the model gives each surface the same expensive sheen, and the sheen is the style.",
+    "design_principles": [
+      "Light the subject with a rim light of 2px to 6px width in amber (#F0A04B) against a teal haze (#1F8A99).",
+      "Smooth skin and surfaces to a pore size of under 1px, and add fine detail of 1px to 2px on hair, fabric and metal.",
+      "Place the subject on the upper-third line with a bokeh ground of 8 to 20 soft discs, 20px to 120px wide.",
+      "Raise contrast at the mid-tones and set a bloom of 12px to 24px around highlights.",
+      "Use a 4:5 or 16:9 frame at 1024px or more on the short side.",
+      "Add a short caption in 14px sans with the prompt words in lower case under the image.",
+      "Keep the colour grade at two hues, teal and amber, with one pink accent at 10%."
+    ],
+    "anti_patterns": [
+      "Visible grain and flat, dull light",
+      "Hand-drawn line art",
+      "Smudged low-resolution output",
+      "Messy, cluttered grounds with no focus",
+      "Neutral, even document light",
+      "Brutalist type"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "dimensionality": 4,
+    "grid_rigidity": 2,
+    "skeuomorphic_realism": 4,
+    "typographic_expressiveness": 1
+  },
+  "layout": {
+    "grid_mechanics": "A full-bleed hero image with a 12-column overlay grid and 24px gutters; the subject sits on the upper-third line.",
+    "whitespace_ratio": "10% to 20% of the frame is quiet bokeh; the spacing scale is 8, 16, 32 and 64px.",
+    "alignment_rules": "Centred hero subject and flush-left caption; text sits on a dark gradient scrim at the lower 25%.",
+    "container_geometry": "Cards with a 24px radius and a thin 1px light edge; pills with a full radius."
+  },
+  "typography": {
+    "classifications": [
+      "geometric sans",
+      "neutral sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Manrope",
+        "body": "Inter",
+        "note": "A clean geometric face for captions over a glossy image."
+      },
+      {
+        "display": "Sora",
+        "body": "DM Sans",
+        "note": "A wide, smooth sans with a friendly text face."
+      }
+    ],
+    "tracking": "Display -0.02em; body 0em.",
+    "leading": "Display 1.1; body 1.6.",
+    "hierarchy_rules": [
+      "Use 2 weights: regular (400) and semibold (600).",
+      "Use sizes 14, 16, 32 and 64px.",
+      "Set the prompt words in lower case.",
+      "Keep text short and over the scrim."
+    ]
+  },
+  "color": {
+    "palette_structure": "A teal and amber complementary pair on a deep night blue, with one pink accent and a pale mist for text.",
+    "palette": [
+      {
+        "name": "Midnight",
+        "hex": "#0E1320",
+        "role": "background"
+      },
+      {
+        "name": "Deep Panel",
+        "hex": "#182033",
+        "role": "surface"
+      },
+      {
+        "name": "Amber Rim",
+        "hex": "#F0A04B",
+        "role": "primary"
+      },
+      {
+        "name": "Teal Haze",
+        "hex": "#1F8A99",
+        "role": "accent"
+      },
+      {
+        "name": "Bloom Pink",
+        "hex": "#D96C8F",
+        "role": "second accent"
+      },
+      {
+        "name": "Pearl Skin",
+        "hex": "#EBC9B0",
+        "role": "image reference"
+      },
+      {
+        "name": "Mist",
+        "hex": "#DDE6EE",
+        "role": "text"
+      }
+    ],
+    "contrast_rules": "Mist text on midnight holds at least 13:1; amber and teal carry rim lines, glows and buttons.",
+    "surface_treatment": "A smooth gradient scrim; a bloom of 12px to 24px; a very fine noise of 2% to hide banding.",
+    "light_and_shadow": "A strong rim light from behind at 30° to 60°, a soft key from the front and a warm bounce; shadows stay lifted."
+  },
+  "materiality": {
+    "surface_simulation": "A lit studio render: wet skin, polished metal, silk and glass with the same sheen.",
+    "border_rules": "A 1px edge in white at 12% on cards; images have no border.",
+    "blur_and_elevation": "Bokeh blur of 8px to 24px on the ground; cards carry a soft shadow of 0 12px 32px at 40% black."
+  },
+  "ornamentation_details": {
+    "iconography": "Filled icons at 20px with rounded terminals, white at 90%.",
+    "illustration": "One heroic subject, such as a portrait, a robot or a fantasy city, with lens flare and bokeh.",
+    "decorative_elements": [
+      "rim light",
+      "bokeh discs",
+      "lens bloom",
+      "teal and amber grade",
+      "prompt caption"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Images fade in over 600ms with a slow 1.04x push; a bloom pulses 3% for 4 seconds in a loop.",
+    "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+    "duration_ms": 600,
+    "hover_and_active": "Hover raises the glow by 8px and lifts the card 4px; active returns it."
+  },
+  "lineage": {
+    "evolved_from": [
+      "gan-portrait"
+    ],
+    "rebelled_against": [
+      "mini-diffusion-meme"
+    ],
+    "hybridized_with": [
+      "ai-chat-ui"
+    ],
+    "echoes": [
+      "ai-hyperreal"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels awe at the finish and, after a moment, doubt at its sameness.",
+    "keywords": [
+      "glossy",
+      "cinematic",
+      "polished",
+      "detailed",
+      "synthetic",
+      "luminous"
+    ],
+    "brand_archetypes": [
+      "magician",
+      "creator",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "midjourney look",
+      "ai render",
+      "hyperreal",
+      "stable diffusion",
+      "cinematic ai image",
+      "prompt art"
+    ],
+    "use_cases": [
+      "AI product pages and model demos",
+      "concept art boards",
+      "hero images for creative tools",
+      "pitch decks about generated media"
+    ],
+    "avoid_when": [
+      "The brand needs honest, imperfect photography.",
+      "The audience distrusts generated images.",
+      "The page shows real products that must be exact."
+    ],
+    "modifiers": [
+      {
+        "request": "less fake",
+        "toward": "gan-portrait",
+        "how": "Remove the rim light and bokeh; use even, soft frontal light and one small fault."
+      },
+      {
+        "request": "more mass-produced",
+        "toward": "ai-slop",
+        "how": "Add a generic subject, a warped hand, false text and an engagement caption."
+      },
+      {
+        "request": "more playful",
+        "toward": "ai-avatar-portrait",
+        "how": "Use a stylised avatar pack with a violet glow ground."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 600,
+      "subhead_weight": 600,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 500,
+      "accent": "colour",
+      "display_tracking": "-0.02em",
+      "display_leading": 1.1,
+      "display_case": "none",
+      "body_leading": 1.6,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "circle",
+      "pack": {
+        "id": "ph-fill",
+        "why": "Filled icons in circles sit well over a dark gradient scrim and a glossy image."
+      }
+    },
+    "art": {
+      "recipe": "spatial",
+      "pattern": "none",
+      "seed": 44
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "center",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "aurora",
+      "why": "The ground is a soft teal and amber glow, like the haze and the rim light of the rendered images."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#0E1320",
+      "--color-surface": "#182033",
+      "--color-text": "#DDE6EE",
+      "--color-muted": "#A9B7C7",
+      "--color-primary": "#F0A04B",
+      "--color-accent": "#1F8A99",
+      "--color-border": "#2A3550",
+      "--font-sans": "\"Inter\", \"DM Sans\", sans-serif",
+      "--font-display": "\"Manrope\", \"Sora\", sans-serif",
+      "--border-radius": "24px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 12px 32px rgba(0,0,0,0.4)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "--duration": "600ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#0E1320] text-[#DDE6EE] font-sans antialiased px-5 md:px-16"
+      },
+      {
+        "element": "heading",
+        "classes": "text-4xl md:text-7xl font-semibold leading-[1.1] tracking-[-0.02em]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-3xl border border-white/10 bg-[#182033] shadow-[0_12px_32px_rgba(0,0,0,0.4)]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-full bg-[#F0A04B] px-6 py-3 text-sm font-semibold text-[#0E1320] transition-all duration-[600ms] hover:shadow-[0_0_24px_#F0A04B]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs lowercase text-[#1F8A99]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#F0A04B",
+        "#0E1320",
+        "#182033",
+        "#070A12"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#F0A04B",
+        "#1F8A99",
+        "#D96C8F"
+      ]
+    },
+    "corner_radius": {
+      "min": 8,
+      "max": 32
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 16
+    },
+    "type_scale_ratio": {
+      "default": 1.5,
+      "min": 1.25,
+      "max": 1.618
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Stable Diffusion",
+      "url": "https://en.wikipedia.org/wiki/Stable_Diffusion"
+    },
+    {
+      "title": "Rombach et al., High-Resolution Image Synthesis with Latent Diffusion Models (2021)",
+      "url": "https://arxiv.org/abs/2112.10752"
+    }
+  ]
+}

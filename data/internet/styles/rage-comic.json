@@ -1,0 +1,316 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "rage-comic",
+  "domain": "internet",
+  "name": "Rage comic",
+  "aliases": [
+    "Rage faces",
+    "Rage guy comic",
+    "Fffuuu comic"
+  ],
+  "branch": "memes",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2008,
+    "end": 2015,
+    "label": "2008–2015"
+  },
+  "primary_mediums": [
+    "image",
+    "web"
+  ],
+  "summary": "A short comic of 2 to 8 panels drawn in MS Paint with a set of crude faces that show one fixed emotion each. It began on 4chan in 2008 and filled Reddit and 9GAG until about 2015.",
+  "philosophy": {
+    "core_thesis": "Tell a small daily frustration in a few crude panels, with stock faces that every reader knows.",
+    "design_principles": [
+      "Divide the canvas into 2 to 6 panels in a grid of 2 columns, each with a 2px black line.",
+      "Draw faces as white ovals with a 3px black outline and a few hard strokes; no shading.",
+      "Use one stock face for each emotion: rage, joy, smug, disbelief, sadness.",
+      "Write dialogue in the panel as plain text at 16px to 20px, with no speech bubble.",
+      "Set the scene on a white ground with stick bodies in black lines of 3px.",
+      "Keep the drawing flat and rough; keep the lines wobbly at 2px to 3px off straight.",
+      "End on the last panel with the strongest face and a one-line result."
+    ],
+    "anti_patterns": [
+      "Polished vector art",
+      "Shaded or coloured characters",
+      "Long, plotted stories",
+      "Realistic proportions",
+      "Soft rounded fonts",
+      "Decorative panel borders"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 1,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A 2-column grid of 3 to 4 rows on a 600px wide white canvas; panels of 280px x 220px with 8px gutters.",
+    "whitespace_ratio": "White fills 100% of the panel ground; faces and stick figures use 30% of each panel.",
+    "alignment_rules": "Panels read left to right and top to bottom; text sits under or beside the face.",
+    "container_geometry": "Rectangular panels with a 0px radius and a 2px black border."
+  },
+  "typography": {
+    "classifications": [
+      "humanist sans",
+      "handwriting"
+    ],
+    "font_pairings": [
+      {
+        "display": "Comic Neue",
+        "body": "Open Sans",
+        "note": "An open sibling of Comic Sans, the usual face of the form."
+      },
+      {
+        "display": "Patrick Hand",
+        "body": "Nunito",
+        "note": "A looser hand for dialogue."
+      }
+    ],
+    "tracking": "Body 0 to +0.01em.",
+    "leading": "Dialogue 1.3.",
+    "hierarchy_rules": [
+      "Use one size for dialogue: 18px.",
+      "Use regular weight; bold marks a shouted word.",
+      "Use black text on white; no colour."
+    ]
+  },
+  "color": {
+    "palette_structure": "Black line and white fill, with flat skin tone as the only colour.",
+    "palette": [
+      {
+        "name": "Paper White",
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "name": "Line Black",
+        "hex": "#000000",
+        "role": "line and text"
+      },
+      {
+        "name": "Rage Red",
+        "hex": "#D32F2F",
+        "role": "emphasis"
+      },
+      {
+        "name": "Face Cream",
+        "hex": "#FDF1E3",
+        "role": "face fill"
+      },
+      {
+        "name": "Panel Grey",
+        "hex": "#E6E6E6",
+        "role": "panel gap"
+      }
+    ],
+    "contrast_rules": "Black on white gives 21:1.",
+    "surface_treatment": "Flat white with no texture; slight JPEG noise at the edges.",
+    "light_and_shadow": "No shadow and no light."
+  },
+  "materiality": {
+    "surface_simulation": "A screen drawing from a mouse in a basic paint program, with hard pixel edges.",
+    "border_rules": "A 2px black line round each panel; a 3px outline on shapes.",
+    "blur_and_elevation": "No blur and no elevation."
+  },
+  "ornamentation_details": {
+    "iconography": "No icons; faces serve as icons.",
+    "illustration": "Crude faces and stick bodies drawn with a mouse; no shading.",
+    "decorative_elements": [
+      "stock faces",
+      "stick figure",
+      "2px panel grid"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Static strip. A web version reveals one panel at a time each 800ms.",
+    "easing": "steps(1, end)",
+    "duration_ms": 800,
+    "hover_and_active": "Hover frames the panel with a 2px red line."
+  },
+  "lineage": {
+    "evolved_from": [
+      "impact-image-macro"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "ben-day-comic-print"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer recognises a small shared annoyance and laughs.",
+    "keywords": [
+      "crude",
+      "relatable",
+      "angry",
+      "everyday",
+      "amateur"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "rage comic",
+      "rage face",
+      "fffuuu",
+      "trollface",
+      "mspaint comic",
+      "stick figure comic",
+      "4chan comic"
+    ],
+    "use_cases": [
+      "humour blogs",
+      "nostalgia posts",
+      "forum avatars",
+      "parody comics"
+    ],
+    "avoid_when": [
+      "The tone must stay polished or corporate.",
+      "The audience wants a long story."
+    ],
+    "modifiers": [
+      {
+        "request": "more current",
+        "toward": "wojak-feels",
+        "how": "Keep the crude lines but use one grey-toned face and a single feeling per panel."
+      },
+      {
+        "request": "cleaner",
+        "toward": "flat-design",
+        "how": "Redraw the faces as flat vector shapes with a limited palette of 4 colours."
+      },
+      {
+        "request": "more loud",
+        "toward": "impact-image-macro",
+        "how": "Replace the panels with one picture and outlined capital captions."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 400,
+      "accent": "weight",
+      "display_tracking": "0em",
+      "display_leading": 1.2,
+      "display_case": "none",
+      "body_leading": 1.3,
+      "body_size": "18px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 3,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "pepicons-pop",
+        "why": "A hand-drawn pop family with uneven strokes that match crude panel art."
+      }
+    },
+    "art": {
+      "recipe": "plain",
+      "pattern": "none",
+      "seed": 8
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": 1
+    },
+    "ground": {
+      "kind": "xerox",
+      "why": "A plain copied white sheet matches the paint-program ground."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#FFFFFF",
+      "--color-surface": "#FDF1E3",
+      "--color-text": "#000000",
+      "--color-muted": "#444444",
+      "--color-primary": "#D32F2F",
+      "--color-accent": "#000000",
+      "--color-border": "#000000",
+      "--font-sans": "\"Comic Neue\", \"Nunito\", sans-serif",
+      "--font-display": "\"Patrick Hand\", \"Comic Neue\", sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "2px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "steps(1, end)",
+      "--duration": "800ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-white text-black font-sans antialiased px-4"
+      },
+      {
+        "element": "heading",
+        "classes": "font-[Patrick_Hand] text-4xl leading-[1.2] text-black"
+      },
+      {
+        "element": "body",
+        "classes": "text-lg leading-[1.3] max-w-prose"
+      },
+      {
+        "element": "card",
+        "classes": "border-2 border-black bg-[#FDF1E3] p-2"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border-2 border-black bg-[#D32F2F] px-5 py-2 text-white hover:bg-black"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#D32F2F",
+        "#000000"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#000000",
+        "#D32F2F"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 0
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.414
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Rage comic",
+      "url": "https://en.wikipedia.org/wiki/Rage_comic"
+    },
+    {
+      "title": "Know Your Meme: Rage Comics"
+    }
+  ]
+}

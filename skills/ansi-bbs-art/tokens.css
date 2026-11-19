@@ -1,0 +1,135 @@
+/*
+ * ANSI BBS Art — tokens
+ * Generated from data/internet/styles/ansi-bbs-art.json by design-ontology. Do not edit.
+ * Use: put data-style="ansi-bbs-art" on <html> or on any container.
+ */
+[data-style="ansi-bbs-art"] {
+  --color-bg: #000000;
+  --color-surface: #0000AA;
+  --color-text: #AAAAAA;
+  --color-muted: #55FFFF;
+  --color-primary: #00AAAA;
+  --color-accent: #FFFF55;
+  --color-border: #AAAAAA;
+  --font-sans: "IBM Plex Mono", "VT323", monospace;
+  --font-display: "VT323", "Press Start 2P", monospace;
+  --border-radius: 0px;
+  --border-width: 2px;
+  --shadow-elevation: 8px 16px 0 #555555;
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0, 0, 1, 1);
+  --duration: 40ms;
+  --type-ratio: 1.125;
+  --size-small: 14.22px;
+  --size-h3: 20.25px;
+  --size-h2: 22.78px;
+  --size-h1: 25.63px;
+  --color-on-bg: #AAAAAA;
+  --color-on-surface: #AAAAAA;
+  --color-on-primary: #000000;
+  --color-on-accent: #000000;
+  --color-muted-on-bg: #55FFFF;
+  --color-muted-on-surface: #55FFFF;
+  --color-link: #FFFF55;
+  --color-link-on-surface: #FFFF55;
+  --display-weight: 400;
+  --subhead-weight: 400;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 400;
+  --display-tracking: 0.04em;
+  --display-leading: 1;
+  --display-case: uppercase;
+  --body-leading: 1.25;
+  --body-size: 16px;
+  --icon-stroke: 2;
+  --ground: radial-gradient(2px 2px at 12% 18%, var(--color-primary) 99%, transparent),
+    radial-gradient(2px 2px at 64% 12%, var(--color-on-bg) 99%, transparent),
+    radial-gradient(2px 2px at 82% 34%, var(--color-primary) 99%, transparent),
+    radial-gradient(2px 2px at 44% 28%, var(--color-on-bg) 99%, transparent),
+    radial-gradient(2px 2px at 92% 8%, var(--color-on-bg) 99%, transparent),
+    linear-gradient(var(--color-accent), var(--color-accent)) 0 100% / 100% 6vh no-repeat,
+    linear-gradient(var(--color-accent), var(--color-accent)) 70% calc(100% - 6vh) / 24% 6vh no-repeat,
+    linear-gradient(var(--color-accent), var(--color-accent)) 75% calc(100% - 12vh) / 12% 6vh no-repeat,
+    linear-gradient(var(--color-primary), var(--color-primary)) 92% 26% / 8vmin 8vmin no-repeat,
+    conic-gradient(color-mix(in oklab, var(--color-on-bg) 4%, transparent) 25%, transparent 0 50%, color-mix(in oklab, var(--color-on-bg) 4%, transparent) 0 75%, transparent 0) 0 0 / 32px 32px,
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="ansi-bbs-art"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="ansi-bbs-art"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="ansi-bbs-art"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="ansi-bbs-art"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="ansi-bbs-art"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="ansi-bbs-art"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="ansi-bbs-art"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="ansi-bbs-art"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="ansi-bbs-art"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="ansi-bbs-art"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="ansi-bbs-art"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="ansi-bbs-art"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="ansi-bbs-art"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="ansi-bbs-art"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

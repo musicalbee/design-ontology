@@ -1,0 +1,133 @@
+/*
+ * Lip-Sync Dance Short — tokens
+ * Generated from data/internet/styles/lip-sync-dance-short.json by design-ontology. Do not edit.
+ * Use: put data-style="lip-sync-dance-short" on <html> or on any container.
+ */
+[data-style="lip-sync-dance-short"] {
+  --color-bg: #121212;
+  --color-surface: #1F1F23;
+  --color-text: #FFFFFF;
+  --color-muted: #B3B3B8;
+  --color-primary: #FE2C55;
+  --color-accent: #25F4EE;
+  --color-border: #25F4EE;
+  --font-sans: "Inter", "Nunito Sans", sans-serif;
+  --font-display: "Poppins", "Montserrat", sans-serif;
+  --border-radius: 12px;
+  --border-width: 2px;
+  --shadow-elevation: 2px 2px 0 #25F4EE;
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --duration: 150ms;
+  --type-ratio: 1.25;
+  --size-small: 12.8px;
+  --size-h3: 25px;
+  --size-h2: 31.25px;
+  --size-h1: 39.06px;
+  --color-on-bg: #FFFFFF;
+  --color-on-surface: #FFFFFF;
+  --color-on-primary: #121212;
+  --color-on-accent: #121212;
+  --color-muted-on-bg: #B3B3B8;
+  --color-muted-on-surface: #B3B3B8;
+  --color-link: #25F4EE;
+  --color-link-on-surface: #25F4EE;
+  --display-weight: 700;
+  --subhead-weight: 500;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 700;
+  --display-tracking: 0.01em;
+  --display-leading: 1.1;
+  --display-case: uppercase;
+  --body-leading: 1.4;
+  --body-size: 16px;
+  --icon-stroke: 2;
+  --ground: linear-gradient(100deg, var(--color-bg) 30%, transparent 56%),
+    radial-gradient(circle at 66% 22%, var(--color-primary) 0 3.4vmin, transparent calc(3.4vmin + 1px)),
+    radial-gradient(circle at 92% 64%, transparent 0 4vmin, var(--color-accent) 4vmin 5.6vmin, transparent 5.8vmin),
+    linear-gradient(to top right, var(--color-primary) 50%, transparent 51%) 80% 12% / 7vmin 7vmin no-repeat,
+    repeating-linear-gradient(45deg, var(--color-on-bg) 0 3px, transparent 3px 12px) 86% 88% / 14vmin 5vmin no-repeat,
+    radial-gradient(circle at 56% 78%, var(--color-accent) 0 1.8vmin, transparent calc(1.8vmin + 1px)),
+    linear-gradient(var(--color-primary), var(--color-primary)) 97% 36% / 3vmin 12vmin no-repeat,
+    radial-gradient(circle, color-mix(in oklab, var(--color-on-bg) 22%, transparent) 1.6px, transparent 2px) 0 0 / 26px 26px,
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="lip-sync-dance-short"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="lip-sync-dance-short"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="lip-sync-dance-short"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="lip-sync-dance-short"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="lip-sync-dance-short"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="lip-sync-dance-short"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="lip-sync-dance-short"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="lip-sync-dance-short"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="lip-sync-dance-short"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="lip-sync-dance-short"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="lip-sync-dance-short"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="lip-sync-dance-short"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="lip-sync-dance-short"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="lip-sync-dance-short"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

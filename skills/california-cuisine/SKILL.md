@@ -93,6 +93,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Primary:** seasonal-greens · orchard-fruit · olive-oil · cheese · tomato · salmon · wild-mushrooms · duck
 - **Secondary:** garlic · fine-herbs · thyme-bay · lemon · bread · berries · egg · pork · asparagus · honey · wine · grape
 - **Avoid:** sodium-alginate · liquid-nitrogen · xanthan-gum · soy-lecithin
+- **In europe:** no — the values here translate a print style for screen
 - **Rule:** Use produce of the week from named local growers; use olive oil, herbs and lemon for the dressing, and keep each ingredient whole.
 
 ## Technique

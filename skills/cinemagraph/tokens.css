@@ -1,0 +1,130 @@
+/*
+ * Cinemagraph — tokens
+ * Generated from data/internet/styles/cinemagraph.json by design-ontology. Do not edit.
+ * Use: put data-style="cinemagraph" on <html> or on any container.
+ */
+[data-style="cinemagraph"] {
+  --color-bg: #121414;
+  --color-surface: #1E2121;
+  --color-text: #F1EEE8;
+  --color-muted: #B3AEA4;
+  --color-primary: #D9C9A8;
+  --color-accent: #7FA6B5;
+  --color-border: #3A3F3F;
+  --font-sans: "Inter", "Helvetica Neue", sans-serif;
+  --font-display: "Cormorant Garamond", "Playfair Display", serif;
+  --border-radius: 0px;
+  --border-width: 1px;
+  --shadow-elevation: none;
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.37, 0, 0.63, 1);
+  --duration: 1200ms;
+  --type-ratio: 1.333;
+  --size-small: 12px;
+  --size-h3: 28.43px;
+  --size-h2: 37.9px;
+  --size-h1: 50.52px;
+  --color-on-bg: #F1EEE8;
+  --color-on-surface: #F1EEE8;
+  --color-on-primary: #121414;
+  --color-on-accent: #121414;
+  --color-muted-on-bg: #B3AEA4;
+  --color-muted-on-surface: #B3AEA4;
+  --color-link: #7FA6B5;
+  --color-link-on-surface: #7FA6B5;
+  --display-weight: 300;
+  --subhead-weight: 400;
+  --body-weight: 400;
+  --strong-weight: 600;
+  --label-weight: 500;
+  --display-tracking: 0.01em;
+  --display-leading: 1.15;
+  --display-case: none;
+  --body-leading: 1.6;
+  --body-size: 16px;
+  --icon-stroke: 1.5;
+  --ground: radial-gradient(circle at 80% 46%, var(--color-bg) 0 20vmin, transparent calc(20vmin + 1px)),
+    radial-gradient(circle at calc(80% + 3vmin) calc(46% + 3vmin), color-mix(in oklab, var(--color-on-bg) 16%, transparent) 0 18vmin, transparent 27vmin),
+    radial-gradient(circle at calc(80% - 3vmin) calc(46% - 3vmin), rgba(255,255,255,.85) 0 18vmin, transparent 27vmin),
+    radial-gradient(35% 40% at 96% 92%, color-mix(in oklab, var(--color-accent) 35%, transparent), transparent 70%),
+    radial-gradient(30% 35% at 60% 4%, color-mix(in oklab, var(--color-primary) 22%, transparent), transparent 70%),
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="cinemagraph"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="cinemagraph"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="cinemagraph"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="cinemagraph"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="cinemagraph"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="cinemagraph"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="cinemagraph"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="cinemagraph"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="cinemagraph"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="cinemagraph"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="cinemagraph"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="cinemagraph"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="cinemagraph"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="cinemagraph"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}
