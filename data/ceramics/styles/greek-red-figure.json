@@ -1,0 +1,327 @@
+{
+  "$schema": "../../../schema/domains/ceramics.schema.json",
+  "id": "greek-red-figure",
+  "domain": "ceramics",
+  "name": "Greek red-figure pottery",
+  "aliases": [
+    "Attic red-figure",
+    "Red-figure vase painting"
+  ],
+  "era_id": "ancient-clay",
+  "branch": "vessels",
+  "time_period": {
+    "start": -530,
+    "end": -320,
+    "label": "c. 530–320 BC"
+  },
+  "region": "Athens, Greece",
+  "summary": "Greek vases in which the background is black gloss and the figures keep the red of the clay. The painter draws the inner lines with a brush, so the figures look rounder and freer.",
+  "philosophy": {
+    "core_thesis": "A vase is a field for the drawn human body: the figure stays the colour of the clay and the brush line gives it weight, movement and feeling.",
+    "design_principles": [
+      "Reserve the figures in the red clay and paint the whole ground in black gloss.",
+      "Draw the inner lines with a brush in relief lines, thick and raised, for the main contours.",
+      "Use thinner dilute lines for muscles, hair and folds of cloth.",
+      "Show the body in three-quarter view, twisted and foreshortened.",
+      "Frame the picture with a meander or a palmette border, and a plain black wall below.",
+      "Place one or two figures in the tondo of a cup so that the circle holds the pose.",
+      "Fire in three stages, oxidation, reduction and re-oxidation, to fix black and red."
+    ],
+    "anti_patterns": [
+      "Black silhouettes with incised detail on a red ground",
+      "Flat profile figures that do not turn",
+      "Thick opaque added colour over the large areas",
+      "A crowded frieze with no black field",
+      "A glazed surface with clear gloss over the red"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "hand_mark": 3,
+    "refinement": 5,
+    "glaze_depth": 2,
+    "chromatic_intensity": 1
+  },
+  "form": {
+    "shape": "Kraters, amphorae, hydriai, lekythoi and kylikes with a thin, elegant wall and a clear profile.",
+    "profile": "A smooth S-curve with a distinct neck; a kylix has a shallow, wide bowl on a short stem.",
+    "foot_and_rim": "A moulded foot ring or a stem, a thin lip, and handles that follow the form of the neck.",
+    "proportion": "Height 20 to 55 cm, wall 2 to 5 mm, and the picture field about half of the height of the body.",
+    "rules": [
+      "Throw the wall thin and even, so that the picture sits on a clean surface.",
+      "Set the picture where the form is widest and nearest to the viewer.",
+      "Paint the base ground black, leave a reserved line under the picture.",
+      "Keep the handles slim and let the black slip cover them."
+    ]
+  },
+  "bodies": {
+    "primary": [
+      "earthenware",
+      "terracotta"
+    ],
+    "secondary": [],
+    "avoid": [
+      "porcelain",
+      "stoneware",
+      "bone-china"
+    ],
+    "rule": "Use a very fine Attic clay with iron that fires to a clear orange-red. The clay must be free of grit, so that the brush line stays sharp."
+  },
+  "forming": {
+    "methods": [
+      "throwing in parts on the wheel",
+      "turning the foot and the lip",
+      "hand-built handles",
+      "slip refinement by settling"
+    ],
+    "joins": "Parts are joined with slip when the clay is leather-hard; the joins are smoothed under the black paint.",
+    "details": "Raised relief lines, a faint preliminary sketch in the clay, and a stilt mark under the foot."
+  },
+  "glaze": {
+    "glazes": [
+      "attic-gloss"
+    ],
+    "decorations": [
+      "red-figure",
+      "incised"
+    ],
+    "pattern": "One main scene of myth, athletics or daily life in reserved red, framed by a meander, a palmette or a wave border.",
+    "gloss": "The black ground is glassy, about 70 to 85 GU; the reserved clay is satin.",
+    "wear": "The black may flake on the lip and the edges; the line drawing stays crisp."
+  },
+  "palette": {
+    "strategy": "Two fired colours, a deep black ground and the red clay, with white and yellow-brown only as a small accent.",
+    "colours": [
+      {
+        "name": "Attic red",
+        "hex": "#C4623A",
+        "role": "reserved figures"
+      },
+      {
+        "name": "Gloss black",
+        "hex": "#171310",
+        "role": "ground"
+      },
+      {
+        "name": "Dilute line brown",
+        "hex": "#6A3A22",
+        "role": "inner detail"
+      },
+      {
+        "name": "Added white",
+        "hex": "#EEE6D6",
+        "role": "accents"
+      },
+      {
+        "name": "Light buff",
+        "hex": "#D8A27A",
+        "role": "reserved base"
+      }
+    ]
+  },
+  "firing": {
+    "kiln": "A wood-fired updraught kiln with a controlled flue and green wood for the reduction phase.",
+    "atmosphere": "mixed",
+    "temperature_c": [
+      800,
+      950
+    ],
+    "processes": [
+      "draw the sketch in the leather-hard clay",
+      "paint the black ground and the lines",
+      "oxidation phase",
+      "reduction phase",
+      "re-oxidation phase on cooling"
+    ],
+    "scale": "Workshops in the Kerameikos of Athens made thousands of vases, with a master painter and a team.",
+    "signs": "Raised lines that stand up from the clay, a bright black field and a faint sketch under the paint."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "krater",
+        "form": "Calyx krater with a wide mouth and one large scene between the handles",
+        "body": "earthenware",
+        "glaze": "attic-gloss",
+        "decoration": "red-figure"
+      },
+      {
+        "object": "kylix",
+        "form": "Kylix with a round tondo of one figure and a black exterior",
+        "body": "terracotta",
+        "glaze": "attic-gloss",
+        "decoration": "red-figure"
+      },
+      {
+        "object": "amphora",
+        "form": "Neck amphora with a single figure on each side on a black ground",
+        "body": "earthenware",
+        "glaze": "attic-gloss",
+        "decoration": "red-figure"
+      },
+      {
+        "object": "hydria",
+        "form": "Hydria with a domestic scene on the shoulder and a palmette below",
+        "body": "earthenware",
+        "glaze": "attic-gloss",
+        "decoration": "incised"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Attic red-figure vase",
+      "orange-red figures on glossy black ground",
+      "brush-drawn relief lines",
+      "three-quarter view figure",
+      "meander border",
+      "thin elegant wall",
+      "kylix tondo with one figure",
+      "museum photograph on a neutral ground"
+    ],
+    "negative": [
+      "black silhouettes",
+      "colour shading",
+      "glazed colour pattern",
+      "thick coarse wall",
+      "modern ceramic glaze"
+    ],
+    "canonical_works": [
+      {
+        "work": "Sarpedon krater",
+        "maker": "Euphronios",
+        "year": -515
+      },
+      {
+        "work": "Bilingual amphora with Herakles",
+        "maker": "Andokides Painter",
+        "year": -520
+      },
+      {
+        "work": "Kylix with Eos and Memnon",
+        "maker": "Douris",
+        "year": -490
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Red-figure kylix by the Brygos Painter",
+      "kind": "image",
+      "credit": "J. Paul Getty Museum",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Attic_red-figure_kylix_by_Brygos_Painter,_front_-_Getty_Museum_(86.AE.286).jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Attic_red-figure_kylix_by_Brygos_Painter%2C_front_-_Getty_Museum_%2886.AE.286%29.jpg/960px-Attic_red-figure_kylix_by_Brygos_Painter%2C_front_-_Getty_Museum_%2886.AE.286%29.jpg",
+      "maker": "Brygos Painter"
+    },
+    {
+      "title": "Calyx krater signed by Euphronios, Louvre",
+      "kind": "image",
+      "credit": "Marie-Lan Nguyen",
+      "licence": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Euphronios_krater_Olympisme_Louvre_G103.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Euphronios_krater_Olympisme_Louvre_G103.jpg/960px-Euphronios_krater_Olympisme_Louvre_G103.jpg",
+      "maker": "Euphronios"
+    },
+    {
+      "title": "Red-figure calyx krater with Nike and a tripod",
+      "kind": "image",
+      "credit": "Gary Todd from Xinzheng, China",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Attic_Red-figure_Calyx_Krater_with_Nike_adorning_a_Tripod,_Unknown_provenance,_c._400_BC_(28432110036).jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Attic_Red-figure_Calyx_Krater_with_Nike_adorning_a_Tripod%2C_Unknown_provenance%2C_c._400_BC_%2828432110036%29.jpg/960px-Attic_Red-figure_Calyx_Krater_with_Nike_adorning_a_Tripod%2C_Unknown_provenance%2C_c._400_BC_%2828432110036%29.jpg",
+      "maker": "Attic workshop"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "greek-black-figure"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "A quiet, humane poise: the viewer sees a body drawn with a free line and feels a moment of real movement.",
+    "keywords": [
+      "graceful",
+      "classical",
+      "refined",
+      "narrative",
+      "balanced"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "lover"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "red-figure",
+      "greek red figure vase",
+      "attic red-figure",
+      "euphronios",
+      "kylix",
+      "calyx krater",
+      "greek pottery painting"
+    ],
+    "use_cases": [
+      "a museum label for classical Greek vases",
+      "a figure scene on a cup or a krater",
+      "an educational image of Greek daily life on pottery"
+    ],
+    "avoid_when": [
+      "the brief needs colour-filled figures",
+      "the brief needs a glazed finish or a white body"
+    ],
+    "modifiers": [
+      {
+        "request": "older, more graphic",
+        "toward": "greek-black-figure",
+        "how": "Reverse the ground: paint the figures in black slip on red clay and cut the details with a point."
+      },
+      {
+        "request": "Roman, with relief",
+        "toward": "roman-terra-sigillata",
+        "how": "Remove the painted figure, keep the fine red slip, and mould the relief into the surface."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Red-figure pottery",
+      "url": "https://en.wikipedia.org/wiki/Red-figure_pottery"
+    },
+    {
+      "title": "Metropolitan Museum of Art: Greek vase painting",
+      "url": "https://www.metmuseum.org/toah/hd/gvpa/hd_gvpa.htm"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.6,
+      "min": 0.3,
+      "max": 0.9
+    },
+    "glaze_gloss": {
+      "default": 75,
+      "min": 55,
+      "max": 88
+    },
+    "wall_thickness": {
+      "default": 3.5,
+      "min": 2,
+      "max": 6
+    },
+    "hand_mark": {
+      "default": 0.45,
+      "min": 0.3,
+      "max": 0.75
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1
+    }
+  }
+}

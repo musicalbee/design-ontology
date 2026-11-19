@@ -176,10 +176,11 @@ One motif or one frame, repeated with small changes in a set of works, so that t
 - Keep the spacing between works equal to a fixed unit, such as 10 cm or one panel width.
 - Remove the hand: use a mechanical edge, a stencil or a plain lens.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Galerie Durand-Ruel** (dealer, Paris, ?–now), funded the style. The gallery of the dealer Paul Durand-Ruel. He met Monet and Pissarro in London in 1870 and began large purchases of Impressionist paintings in 1872.
 - **Salon des Refusés** (exhibition, Paris, 1863–1863), exhibited the style. An official show of the works that the jury of the Paris Salon rejected in 1863. It put the new painting of modern life in front of a large public.
 
 ## Permutations

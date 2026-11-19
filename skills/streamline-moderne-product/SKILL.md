@@ -171,9 +171,9 @@ Three or more parallel horizontal bands in chrome or a raised moulding along a r
 - Space the bands 3 to 8mm apart and keep them the same length.
 - Wrap the bands round a curved end, so that they follow the radius of the body.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **1939 New York World's Fair** (exhibition, New York, 1939–1940), exhibited the style. A world's fair of two seasons with the theme The World of Tomorrow. Its pavilions, cars and appliances showed streamlined shells to millions of visitors.
 
@@ -203,7 +203,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`victorian-manufacture`](../victorian-manufacture/SKILL.md)
 - **Was rejected by:** [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md)
 - **Mixes well with:** [`bauhaus-product`](../bauhaus-product/SKILL.md)
-- **Kin in another domain:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`art-deco-interior`](../art-deco-interior/SKILL.md)
+- **Kin in another domain:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`art-deco-interior`](../art-deco-interior/SKILL.md), [`art-deco-tableware`](../art-deco-tableware/SKILL.md), [`coloured-bathroom-suite`](../coloured-bathroom-suite/SKILL.md), [`fiesta-colourware`](../fiesta-colourware/SKILL.md), [`organic-modern-tableware`](../organic-modern-tableware/SKILL.md), [`retro-cocktail-jewellery`](../retro-cocktail-jewellery/SKILL.md), [`streamline-car`](../streamline-car/SKILL.md)
 - **Nearest by vector profile:** [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md), [`space-age-pop-product`](../space-age-pop-product/SKILL.md)
 
 ## Emotional target

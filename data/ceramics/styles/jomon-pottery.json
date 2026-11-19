@@ -1,0 +1,328 @@
+{
+  "$schema": "../../../schema/domains/ceramics.schema.json",
+  "id": "jomon-pottery",
+  "domain": "ceramics",
+  "name": "Jōmon pottery",
+  "aliases": [
+    "Jomon ware",
+    "Cord-marked pottery",
+    "Flame-style pottery"
+  ],
+  "era_id": "ancient-clay",
+  "branch": "vessels",
+  "time_period": {
+    "start": -14000,
+    "end": -300,
+    "label": "c. 14000–300 BC"
+  },
+  "region": "Japanese archipelago",
+  "summary": "The oldest pottery of Japan. Hunter-gatherers coiled a coarse clay into deep pots, pressed twisted cord into the wet wall, and fired the pots in an open bonfire.",
+  "philosophy": {
+    "core_thesis": "A pot is a coiled and fired form that carries the marks of its making: the cord, the cut and the clay itself are the ornament.",
+    "design_principles": [
+      "Build the pot from clay coils 15 to 25 mm thick and smooth only the inside.",
+      "Roll twisted cord across the wet outer wall to leave a dense, even texture.",
+      "Keep the pot deep: the height is one to two times the mouth width.",
+      "Fire the pot in an open bonfire at 600 to 900 °C, with no kiln and no glaze.",
+      "Raise the rim of a ceremonial pot into a crown of clay loops, handles and spikes.",
+      "Divide the surface into bands: cord-marked, incised, and plain zones that alternate.",
+      "Leave the clay body in its fired colour, from buff to dark brown, with black fire clouds."
+    ],
+    "anti_patterns": [
+      "A glossy glaze or any liquid surface on the wall",
+      "A smooth thrown wall with the rings of the wheel",
+      "A flat base with a turned foot ring",
+      "Thin even walls less than 5 mm thick",
+      "Painted pictures of people or animals in colour"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "hand_mark": 5,
+    "refinement": 1,
+    "glaze_depth": 1,
+    "chromatic_intensity": 1
+  },
+  "form": {
+    "shape": "A deep cooking and storage pot with a round or pointed base and a mouth that is as wide as the belly or wider.",
+    "profile": "An S-curve or a straight cylinder; flame-style pots narrow at the waist and open into a tall crown at the rim.",
+    "foot_and_rim": "A rounded or small flat base; the rim carries applied loops, curls and four large handles on the ceremonial pots.",
+    "proportion": "Height 30 to 60 cm, mouth 25 to 45 cm, and a wall 8 to 20 mm thick.",
+    "rules": [
+      "Make the base pointed or round for a pot that stands in ash or sand.",
+      "Build the crown on the rim in four symmetrical groups of loops.",
+      "Keep the wall thick and uneven; the coil joins stay visible inside.",
+      "Place the densest ornament at the rim and the shoulder."
+    ]
+  },
+  "bodies": {
+    "primary": [
+      "earthenware"
+    ],
+    "secondary": [],
+    "avoid": [
+      "porcelain",
+      "stoneware",
+      "bone-china"
+    ],
+    "rule": "Use a coarse local clay with sand, mica or plant fibre. The body is porous and soft, and it stays dark and uneven after the fire."
+  },
+  "forming": {
+    "methods": [
+      "coiling",
+      "pinching the base",
+      "paddle smoothing",
+      "cord rolling",
+      "clay application"
+    ],
+    "joins": "Coils are pressed together and blended with wet fingers; handles and rim loops are rolled and pressed on with slip.",
+    "details": "Cord, rope and shell impressions on the wall, finger-tip marks along the rim, and a dark patch where the fire touched the surface."
+  },
+  "glaze": {
+    "glazes": [
+      "bare-clay"
+    ],
+    "decorations": [
+      "cord-impressed",
+      "incised",
+      "undecorated"
+    ],
+    "pattern": "Twisted cord rolled in bands, then incised curves, spirals and bold ridges; the flame-style rim is a crown of applied clay.",
+    "gloss": "Dry matt, below 5 GU; no glaze covers the body.",
+    "wear": "The surface is chalky and soft; the cord texture and the fire clouds stay clear after thousands of years."
+  },
+  "palette": {
+    "strategy": "Earth tones from the clay and the fire only: buff, brown and black, with no added colour.",
+    "colours": [
+      {
+        "name": "Buff clay",
+        "hex": "#C9A87C",
+        "role": "main body"
+      },
+      {
+        "name": "Fire brown",
+        "hex": "#7A5233",
+        "role": "body"
+      },
+      {
+        "name": "Fire cloud black",
+        "hex": "#2B221C",
+        "role": "scorch marks"
+      },
+      {
+        "name": "Ash grey",
+        "hex": "#8C857B",
+        "role": "pale zones"
+      },
+      {
+        "name": "Red ochre",
+        "hex": "#9A4A2E",
+        "role": "oxidised patches"
+      }
+    ]
+  },
+  "firing": {
+    "kiln": "An open bonfire or a shallow pit with wood, grass and dry bark as fuel; there is no kiln.",
+    "atmosphere": "oxidation",
+    "temperature_c": [
+      600,
+      900
+    ],
+    "processes": [
+      "dry the pot for several days",
+      "stack the pots in a pit",
+      "cover with fuel",
+      "fire in the open for a few hours"
+    ],
+    "scale": "A household or a village made the pots by hand, one at a time, in a few dozen pieces for each season.",
+    "signs": "Uneven colour, black fire clouds, a soft chalky wall and visible coil joins."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "deep-pot",
+        "form": "Cylindrical deep pot with a pointed base and cord marks over the whole wall",
+        "body": "earthenware",
+        "glaze": "bare-clay",
+        "decoration": "cord-impressed"
+      },
+      {
+        "object": "sculptural-vessel",
+        "form": "Flame-style vessel with four rim crowns of clay loops and incised spirals",
+        "body": "earthenware",
+        "glaze": "bare-clay",
+        "decoration": "incised"
+      },
+      {
+        "object": "urn",
+        "form": "Large burial jar with a plain neck and cord-marked belly",
+        "body": "earthenware",
+        "glaze": "bare-clay",
+        "decoration": "cord-impressed"
+      },
+      {
+        "object": "deep-pot",
+        "form": "Plain small pot with a smooth wall and one handle, for daily use",
+        "body": "earthenware",
+        "glaze": "bare-clay",
+        "decoration": "undecorated"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Jōmon earthenware deep pot",
+      "twisted cord impressed texture",
+      "flame-style crown rim",
+      "coarse buff clay with fire clouds",
+      "open bonfire fired, no glaze",
+      "applied clay loops and spirals",
+      "hand-coiled uneven wall",
+      "museum object photograph on a neutral ground"
+    ],
+    "negative": [
+      "glossy glaze",
+      "wheel-thrown smooth wall",
+      "painted colour pictures",
+      "factory-regular shape",
+      "porcelain white"
+    ],
+    "canonical_works": [
+      {
+        "work": "Flame-style deep vessel, Niigata",
+        "maker": "Jōmon potters",
+        "year": -3000
+      },
+      {
+        "work": "Deep vessel with handles, Middle Jōmon",
+        "maker": "Jōmon potters",
+        "year": -2500
+      },
+      {
+        "work": "Cord-marked pointed-base pot",
+        "maker": "Jōmon potters",
+        "year": -8000
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Flame-style vessel from Niigata, Middle Jōmon",
+      "kind": "image",
+      "credit": "Daderot",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Jomon_Vessel_with_Flame-like_Ornamentation,_attributed_provenance_Umataka,_Nagaoka-shi,_Niigata,_Jomon_period,_3000-2000_BC_-_Tokyo_National_Museum_-_DSC05620.JPG",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Jomon_Vessel_with_Flame-like_Ornamentation%2C_attributed_provenance_Umataka%2C_Nagaoka-shi%2C_Niigata%2C_Jomon_period%2C_3000-2000_BC_-_Tokyo_National_Museum_-_DSC05620.JPG/960px-thumbnail.jpg",
+      "maker": "Jōmon potters"
+    },
+    {
+      "title": "Flame-style Jōmon pottery, about 3000 BC",
+      "kind": "image",
+      "credit": "Netherzone",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Jomon_Flame_Style_Pottery,_3000_BC.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Jomon_Flame_Style_Pottery%2C_3000_BC.jpg/960px-Jomon_Flame_Style_Pottery%2C_3000_BC.jpg",
+      "maker": "Jōmon potters"
+    },
+    {
+      "title": "Deep vessel with handles, Jōmon period",
+      "kind": "image",
+      "credit": "unknown",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:%E6%8A%8A%E6%89%8B%E4%BB%98%E6%B7%B1%E9%89%A2%E5%BD%A2%E5%9C%9F%E5%99%A8-Deep_Vessel_with_Handles_MET_DP323755.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/%E6%8A%8A%E6%89%8B%E4%BB%98%E6%B7%B1%E9%89%A2%E5%BD%A2%E5%9C%9F%E5%99%A8-Deep_Vessel_with_Handles_MET_DP323755.jpg/960px-%E6%8A%8A%E6%89%8B%E4%BB%98%E6%B7%B1%E9%89%A2%E5%BD%A2%E5%9C%9F%E5%99%A8-Deep_Vessel_with_Handles_MET_DP323755.jpg",
+      "maker": "Jōmon potters"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [],
+    "root": "It is among the earliest fired clay in the world, and no earlier style in this data leads to it."
+  },
+  "emotion": {
+    "target_response": "A deep, ancient energy: the viewer sees clay that people shaped by hand long before writing and feels its weight and force.",
+    "keywords": [
+      "primal",
+      "tactile",
+      "ritual",
+      "earthy",
+      "bold"
+    ],
+    "brand_archetypes": [
+      "explorer",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "jomon pottery",
+      "jōmon",
+      "cord-marked pottery",
+      "flame-style vessel",
+      "prehistoric japanese pottery",
+      "neolithic earthenware",
+      "coiled primitive pot"
+    ],
+    "use_cases": [
+      "a museum label for prehistoric Japanese ware",
+      "a sculptural vessel with a strong cord texture",
+      "a prompt for an archaeology scene with fired clay"
+    ],
+    "avoid_when": [
+      "the brief needs a glazed, food-safe surface",
+      "the brief wants a thin, refined or white body"
+    ],
+    "modifiers": [
+      {
+        "request": "more refined, with glaze",
+        "toward": "goryeo-celadon",
+        "how": "Change to a fine stoneware body, add a thin green glaze and a neat foot, and fire in a kiln at 1200 °C."
+      },
+      {
+        "request": "modern craft interpretation",
+        "toward": "mingei-folk-craft",
+        "how": "Keep the coiled form and the rough clay, add a plain glaze and a functional shape."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Jōmon pottery",
+      "url": "https://en.wikipedia.org/wiki/J%C5%8Dmon_pottery"
+    },
+    {
+      "title": "Metropolitan Museum of Art: Jōmon culture",
+      "url": "https://www.metmuseum.org/toah/hd/jomo/hd_jomo.htm"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.8,
+      "min": 0.4,
+      "max": 1.0
+    },
+    "glaze_gloss": {
+      "default": 2,
+      "min": 0,
+      "max": 8
+    },
+    "wall_thickness": {
+      "default": 12,
+      "min": 6,
+      "max": 25,
+      "note": "Jōmon walls are thick and uneven; they are never thin."
+    },
+    "hand_mark": {
+      "default": 0.95,
+      "min": 0.8,
+      "max": 1.0
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1
+    }
+  }
+}

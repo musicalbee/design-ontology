@@ -1,0 +1,326 @@
+{
+  "$schema": "../../../schema/domains/ceramics.schema.json",
+  "id": "greek-black-figure",
+  "domain": "ceramics",
+  "name": "Greek black-figure pottery",
+  "aliases": [
+    "Attic black-figure",
+    "Corinthian black-figure"
+  ],
+  "era_id": "ancient-clay",
+  "branch": "vessels",
+  "time_period": {
+    "start": -700,
+    "end": -480,
+    "label": "c. 700–480 BC"
+  },
+  "region": "Corinth and Athens, Greece",
+  "summary": "Greek vases in which the painter draws figures in a black gloss slip on the red clay and cuts the details with a sharp point. A three-stage firing makes the black and the red.",
+  "philosophy": {
+    "core_thesis": "A pot is a surface for story: black silhouettes on red clay, made sharp with incised lines, tell a myth in frieze after frieze.",
+    "design_principles": [
+      "Paint each figure as a solid black silhouette in gloss slip on the red clay.",
+      "Incise the inner lines of the figures with a sharp point to show the red clay below.",
+      "Add purple-red and white slip for flesh of women, hair, and clothing accents.",
+      "Divide the pot into panels and friezes that run round the body in horizontal bands.",
+      "Fire in three stages: oxidation, reduction and re-oxidation, at 800 to 950 °C.",
+      "Keep the main scene on the shoulder or the belly, and a lotus and palmette band below the handles.",
+      "Write the name of the painter or the potter in a short line on the vase, when it is signed."
+    ],
+    "anti_patterns": [
+      "Red figures on a black ground",
+      "Soft shading or colour blends inside the figure",
+      "A glaze that covers the whole pot with a clear gloss",
+      "Perspective depth and overlapping landscapes",
+      "A thick wall with no foot and no clear profile"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "hand_mark": 4,
+    "refinement": 4,
+    "glaze_depth": 2,
+    "chromatic_intensity": 2
+  },
+  "form": {
+    "shape": "Amphorae, kraters, hydriai and kylikes with a clear division into foot, belly, shoulder, neck and lip.",
+    "profile": "The profile is a taut S-curve; an amphora has an ovoid body and a narrow neck, and a kylix has a shallow bowl on a stem.",
+    "foot_and_rim": "A flared or stepped foot, a flat or spreading lip, and two vertical handles that join the neck and the shoulder.",
+    "proportion": "Height 25 to 60 cm, wall 3 to 6 mm, and the foot diameter about one third of the maximum diameter.",
+    "rules": [
+      "Throw large vases in two or three parts and join them at the neck and the foot.",
+      "Keep the wall thin and even; the form is as precise as the painting.",
+      "Place the main picture in a rectangular field between the handles.",
+      "Leave the underside of the foot as the reserved red clay."
+    ]
+  },
+  "bodies": {
+    "primary": [
+      "earthenware",
+      "terracotta"
+    ],
+    "secondary": [],
+    "avoid": [
+      "porcelain",
+      "stoneware",
+      "bone-china"
+    ],
+    "rule": "Use a fine, iron-rich Attic clay that fires to a warm orange-red. Refine the clay by settling until the wall is smooth and thin."
+  },
+  "forming": {
+    "methods": [
+      "throwing on the wheel in parts",
+      "turning the foot when leather-hard",
+      "joining parts with slip",
+      "hand-pulled handles"
+    ],
+    "joins": "Parts are joined with a thin clay slip; handles are made separately and luted on at the neck and the shoulder.",
+    "details": "A reserved line at the foot, a glossy black band at the lip, and a light stilt or finger mark where the pot stood in the kiln."
+  },
+  "glaze": {
+    "glazes": [
+      "attic-gloss"
+    ],
+    "decorations": [
+      "black-figure",
+      "incised",
+      "undecorated"
+    ],
+    "pattern": "Mythic and daily scenes in a frieze, with figures in profile; palmettes and lotus bands fill the zones above and below.",
+    "gloss": "The black slip is bright and glassy, about 60 to 80 GU; the red clay is satin.",
+    "wear": "The black can flake at the edges and show a dull red-brown; the incised lines stay sharp."
+  },
+  "palette": {
+    "strategy": "Two colours that the firing makes, black and red, with small touches of purple-red and white for accent.",
+    "colours": [
+      {
+        "name": "Attic orange-red",
+        "hex": "#C76A3B",
+        "role": "clay ground"
+      },
+      {
+        "name": "Gloss black",
+        "hex": "#1C1714",
+        "role": "figures and bands"
+      },
+      {
+        "name": "Added purple-red",
+        "hex": "#7E2F2A",
+        "role": "hair, beards, drapery"
+      },
+      {
+        "name": "Added white",
+        "hex": "#EDE3D0",
+        "role": "female skin, accents"
+      },
+      {
+        "name": "Reserved buff",
+        "hex": "#D9A878",
+        "role": "underside of the foot"
+      }
+    ]
+  },
+  "firing": {
+    "kiln": "A wood-fired updraught kiln with a fire chamber below the floor of the pots and a vent at the top.",
+    "atmosphere": "mixed",
+    "temperature_c": [
+      800,
+      950
+    ],
+    "processes": [
+      "paint the slip on the leather-hard pot",
+      "oxidation phase at 800 °C",
+      "reduction phase with green wood to 950 °C",
+      "re-oxidation while the kiln cools"
+    ],
+    "scale": "Workshops in the Kerameikos of Athens had a master potter, several painters and many slaves and apprentices.",
+    "signs": "A sharp edge between black and red, a small red stain where the black fired in oxidation, and a stilt mark under the foot."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "amphora",
+        "form": "Neck amphora with a panel on each side and a lotus band under the handles",
+        "body": "earthenware",
+        "glaze": "attic-gloss",
+        "decoration": "black-figure"
+      },
+      {
+        "object": "kylix",
+        "form": "Kylix with a frieze on each side and a Gorgon mask in the tondo",
+        "body": "earthenware",
+        "glaze": "attic-gloss",
+        "decoration": "black-figure"
+      },
+      {
+        "object": "hydria",
+        "form": "Hydria with three handles and a main field on the shoulder",
+        "body": "terracotta",
+        "glaze": "attic-gloss",
+        "decoration": "incised"
+      },
+      {
+        "object": "krater",
+        "form": "Column krater with an inner panel on the rim and plain black lower wall",
+        "body": "earthenware",
+        "glaze": "attic-gloss",
+        "decoration": "black-figure"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Attic black-figure vase",
+      "black gloss silhouettes on orange-red clay",
+      "incised detail lines",
+      "added purple-red and white accents",
+      "frieze of mythic scene",
+      "lotus and palmette band",
+      "ovoid amphora with two handles",
+      "museum photograph on a neutral ground"
+    ],
+    "negative": [
+      "red figures on black ground",
+      "shaded modelled figures",
+      "perspective landscape",
+      "gilded rim",
+      "modern clean glaze"
+    ],
+    "canonical_works": [
+      {
+        "work": "François Vase",
+        "maker": "Kleitias and Ergotimos",
+        "year": -570
+      },
+      {
+        "work": "Amphora with Achilles and Ajax playing a game",
+        "maker": "Exekias",
+        "year": -540
+      },
+      {
+        "work": "Kylix with Dionysos sailing",
+        "maker": "Exekias",
+        "year": -530
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Black-figure amphora by Lydos, side A",
+      "kind": "image",
+      "credit": "The J. Paul Getty Museum",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Attic_black-figure_amphora_by_Lydos,_side_A_-_Getty_Museum_(86.AE.60).jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Attic_black-figure_amphora_by_Lydos%2C_side_A_-_Getty_Museum_%2886.AE.60%29.jpg/960px-Attic_black-figure_amphora_by_Lydos%2C_side_A_-_Getty_Museum_%2886.AE.60%29.jpg",
+      "maker": "Lydos"
+    },
+    {
+      "title": "Black-figure amphora by the Swing Painter",
+      "kind": "image",
+      "credit": "Yair-haklai",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Attic_black-figure_amphora_by_Swing_Painter,_530-520_BC.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Attic_black-figure_amphora_by_Swing_Painter%2C_530-520_BC.jpg/960px-Attic_black-figure_amphora_by_Swing_Painter%2C_530-520_BC.jpg",
+      "maker": "Swing Painter"
+    },
+    {
+      "title": "Black-figure amphora by Sophilos, about 580 BC",
+      "kind": "image",
+      "credit": "Gary Todd from Xinzheng, China",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Attic_Black-figure_Amphora_by_Vase_Painter_Sophilos,_c._580_BC,_found_at_Marathon_in_the_Tumulus_of_the_Athenians,_490_BC.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Attic_Black-figure_Amphora_by_Vase_Painter_Sophilos%2C_c._580_BC%2C_found_at_Marathon_in_the_Tumulus_of_the_Athenians%2C_490_BC.jpg/960px-Attic_Black-figure_Amphora_by_Vase_Painter_Sophilos%2C_c._580_BC%2C_found_at_Marathon_in_the_Tumulus_of_the_Athenians%2C_490_BC.jpg",
+      "maker": "Sophilos"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [],
+    "root": "Corinthian potters made it first; no earlier style in this data leads to it."
+  },
+  "emotion": {
+    "target_response": "A calm, tense clarity: the viewer sees a story in sharp black shapes and feels the discipline of a trained hand.",
+    "keywords": [
+      "heroic",
+      "crisp",
+      "narrative",
+      "classical",
+      "ordered"
+    ],
+    "brand_archetypes": [
+      "hero",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "black-figure",
+      "greek vase",
+      "attic pottery",
+      "exekias",
+      "amphora painting",
+      "corinthian vase",
+      "ancient greek pottery"
+    ],
+    "use_cases": [
+      "a museum or educational plate on Greek pottery",
+      "a myth scene on a vessel",
+      "an amphora or krater in a classical interior prompt"
+    ],
+    "avoid_when": [
+      "the brief needs figures that look modelled and three-dimensional",
+      "the brief needs a glazed colour surface"
+    ],
+    "modifiers": [
+      {
+        "request": "red figures, more natural",
+        "toward": "greek-red-figure",
+        "how": "Reverse the ground: paint the background black and leave the figures in the red clay, with brush lines for detail."
+      },
+      {
+        "request": "Roman tableware",
+        "toward": "roman-terra-sigillata",
+        "how": "Keep the fine red clay, remove the figures, and press a relief pattern in a mould."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Black-figure pottery",
+      "url": "https://en.wikipedia.org/wiki/Black-figure_pottery"
+    },
+    {
+      "title": "Metropolitan Museum of Art: Greek vase painting",
+      "url": "https://www.metmuseum.org/toah/hd/gvpa/hd_gvpa.htm"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.7,
+      "min": 0.4,
+      "max": 0.95
+    },
+    "glaze_gloss": {
+      "default": 70,
+      "min": 50,
+      "max": 85
+    },
+    "wall_thickness": {
+      "default": 4,
+      "min": 3,
+      "max": 8
+    },
+    "hand_mark": {
+      "default": 0.5,
+      "min": 0.3,
+      "max": 0.8
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1
+    }
+  }
+}

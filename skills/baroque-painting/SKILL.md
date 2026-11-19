@@ -186,12 +186,13 @@ An intaglio print from a metal plate whose lines a needle draws through an acid-
 - Ink the plate, wipe the surface with tarlatan, and leave a film of plate tone where a soft dark is needed.
 - Print on dampened paper on a roller press, so that the plate leaves a mark round the image.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Accademia di San Luca** (school, Rome, 1577–now), gathered the style. An academy of artists in Rome. It trained painters and architects, and Roman Baroque masters led it.
-- **Rubenshuis** (workshop, Antwerp, 1610–1640), made the style. The house and workshop of Peter Paul Rubens. Assistants and pupils painted large altarpieces here from his sketches.
+- **Gobelins Manufactory** (company, Paris, 1662–now), made the style. The royal tapestry and furniture works of France. Colbert bought the site for Louis XIV in 1662. Charles Le Brun directed it from 1663.
+- **Rubenshuis** (studio, Antwerp, 1610–1640), made the style. The house and workshop of Peter Paul Rubens. Assistants and pupils painted large altarpieces here from his sketches.
 
 ## Permutations
 
@@ -213,7 +214,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`renaissance-painting`](../renaissance-painting/SKILL.md)
 - **Led to (go here for a newer version):** [`rococo-painting`](../rococo-painting/SKILL.md)
-- **Kin in another domain:** [`baroque-architecture`](../baroque-architecture/SKILL.md), [`etching-print`](../etching-print/SKILL.md), [`film-noir-still`](../film-noir-still/SKILL.md), [`food-photography`](../food-photography/SKILL.md), [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md), [`mezzotint-print`](../mezzotint-print/SKILL.md)
+- **Kin in another domain:** [`baroque-architecture`](../baroque-architecture/SKILL.md), [`etching-print`](../etching-print/SKILL.md), [`film-noir-still`](../film-noir-still/SKILL.md), [`food-photography`](../food-photography/SKILL.md), [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md), [`meissen-baroque-porcelain`](../meissen-baroque-porcelain/SKILL.md), [`mezzotint-print`](../mezzotint-print/SKILL.md)
 - **Nearest by vector profile:** [`realism-painting`](../realism-painting/SKILL.md), [`rococo-painting`](../rococo-painting/SKILL.md), [`photorealism`](../photorealism/SKILL.md)
 
 ## Emotional target

@@ -186,12 +186,12 @@ Parallel grooves (flutes) or ridges (reeds) on a column, a panel, a leg or a she
 - Run the flutes vertical to make a surface look taller.
 - Use one fluted surface in each room as an accent.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Académie royale d'architecture** (school, Paris, 1671–1816), taught the style. The royal academy of architecture in France. It taught the classical orders and sent its best students to study in Rome.
-- **Society of Dilettanti** (club, London, 1734–now), published the style. A club of gentlemen who studied Greek and Roman art. It paid for the survey books of ancient buildings that architects then copied.
+- **Society of Dilettanti** (collective, London, 1734–now), published the style. A club of gentlemen who studied Greek and Roman art. It paid for the survey books of ancient buildings that architects then copied.
 
 ## Permutations
 
@@ -214,7 +214,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`beaux-arts-architecture`](../beaux-arts-architecture/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`baroque-architecture`](../baroque-architecture/SKILL.md)
 - **Was rejected by:** [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md)
-- **Kin in another domain:** [`didone-serif`](../didone-serif/SKILL.md), [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`transitional-serif`](../transitional-serif/SKILL.md)
+- **Kin in another domain:** [`creamware-neoclassical`](../creamware-neoclassical/SKILL.md), [`didone-serif`](../didone-serif/SKILL.md), [`empire-line-dress`](../empire-line-dress/SKILL.md), [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`grande-cuisine`](../grande-cuisine/SKILL.md), [`jasperware-neoclassical`](../jasperware-neoclassical/SKILL.md), [`parian-statuary`](../parian-statuary/SKILL.md), [`transitional-serif`](../transitional-serif/SKILL.md)
 - **Nearest by vector profile:** [`renaissance-architecture`](../renaissance-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`art-deco-architecture`](../art-deco-architecture/SKILL.md)
 
 ## Emotional target

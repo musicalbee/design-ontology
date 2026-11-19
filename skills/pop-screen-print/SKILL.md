@@ -142,7 +142,7 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Halftone (process)
 
-Tone printed as dots of different size or spacing; at a distance the dots merge into grey or colour. Origin: graphic & ui design, New York, 1879.
+Tone printed as dots of different size or spacing; at a distance the dots merge into grey or colour. Origin: internet, New York, 1879.
 
 - Set the screen at 10 to 30 lines per cm for a print grain, or enlarge the dots to 4 to 8mm for a Pop effect.
 - Turn each colour screen to its own angle: cyan 15°, magenta 75°, yellow 0°, black 45°.
@@ -156,9 +156,9 @@ Ink pushed through a fine mesh with a squeegee; a stencil on the mesh blocks the
 - Pull thick, opaque ink across the screen with a rubber squeegee in one even stroke.
 - Print each colour from its own screen and let each layer dry before the next.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Immaculate Heart College art department** (school, Los Angeles, ?–1981), taught the style. The art department of a college in Los Angeles where Corita Kent taught screen printing. The college closed in 1981.
 - **The Factory** (studio, New York, 1964–1987), made the style. The studio of Andy Warhol. Assistants printed silkscreens there, and artists, actors and musicians met there.
@@ -185,7 +185,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md)
 - **Mixes well with:** [`psychedelic-concert-poster`](../psychedelic-concert-poster/SKILL.md), [`risograph-print`](../risograph-print/SKILL.md)
-- **Kin in another domain:** [`pop-art-painting`](../pop-art-painting/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md)
+- **Kin in another domain:** [`logomania`](../logomania/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md)
 - **Nearest by vector profile:** [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md), [`risograph-print`](../risograph-print/SKILL.md), [`wood-type-poster`](../wood-type-poster/SKILL.md)
 
 ## Emotional target

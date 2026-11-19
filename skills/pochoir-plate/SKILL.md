@@ -141,9 +141,9 @@ Colour put on by hand through a set of cut stencils, one for each colour, over a
 - Align each stencil by eye to the printed key line.
 - Mix each colour to match the original and keep it flat and opaque.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Gazette du Bon Ton** (magazine, Paris, 1912–1925), published the style. A Paris fashion magazine for subscribers that Lucien Vogel founded. It showed couture designs in pochoir plates, coloured by hand through stencils.
 

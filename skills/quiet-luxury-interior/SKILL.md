@@ -304,9 +304,9 @@ Parallel grooves (flutes) or ridges (reeds) on a column, a panel, a leg or a she
 - Run the flutes vertical to make a surface look taller.
 - Use one fluted surface in each room as an accent.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Architectural Digest** (magazine, Los Angeles, 1920–now), published the style. A magazine of interiors and houses. It published the homes of Hollywood stars and later the soft, curved rooms of new glamour.
 
@@ -332,7 +332,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`japandi-interior`](../japandi-interior/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`dopamine-decor`](../dopamine-decor/SKILL.md)
 - **Mixes well with:** [`neo-deco-interior`](../neo-deco-interior/SKILL.md)
-- **Kin in another domain:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`fashion-editorial`](../fashion-editorial/SKILL.md), [`luxury-typography-web`](../luxury-typography-web/SKILL.md)
+- **Kin in another domain:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`fashion-editorial`](../fashion-editorial/SKILL.md), [`luxury-typography-web`](../luxury-typography-web/SKILL.md), [`quiet-luxury-fashion`](../quiet-luxury-fashion/SKILL.md), [`stealth-luxury-accessory`](../stealth-luxury-accessory/SKILL.md)
 - **Nearest by vector profile:** [`scandinavian-interior`](../scandinavian-interior/SKILL.md), [`georgian-interior`](../georgian-interior/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md)
 
 ## Emotional target

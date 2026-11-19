@@ -175,11 +175,11 @@ Thin boards or veneers glued in layers, so that wood forms long spans, bent shap
 - Bend veneers of 1 to 3mm in a mould for furniture; glue 5 to 9 layers.
 - Leave the layered edge in view as a line pattern.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Artek** (workshop, Helsinki, 1935–now), made the style. A furniture company that Alvar Aalto and three partners started to sell his bent birch furniture.
+- **Artek** (company, Helsinki, 1935–now), made the style. A furniture company that Alvar Aalto and three partners started to sell his bent birch furniture.
 - **Stockholm Exhibition** (exhibition, Stockholm, 1930–1930), launched the style. An exhibition of design and housing. Its light, glass pavilions brought functionalism to the Nordic countries.
 
 ## Permutations
@@ -208,7 +208,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)
 - **Was rejected by:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md)
 - **Mixes well with:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
-- **Kin in another domain:** [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
+- **Kin in another domain:** [`new-nordic`](../new-nordic/SKILL.md), [`nordic-functional-outdoor`](../nordic-functional-outdoor/SKILL.md), [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md), [`scandinavian-modern-tableware`](../scandinavian-modern-tableware/SKILL.md)
 - **Nearest by vector profile:** [`shaker-object`](../shaker-object/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md)
 
 ## Emotional target

@@ -1,0 +1,390 @@
+{
+  "$schema": "../../../schema/domains/cuisine.schema.json",
+  "id": "nouvelle-cuisine",
+  "domain": "cuisine",
+  "name": "Nouvelle cuisine",
+  "aliases": [
+    "New French cuisine",
+    "Cuisine du marché"
+  ],
+  "identity": {
+    "wikidata": "Q664910"
+  },
+  "era_id": "nouvelle-and-new-world",
+  "branch": "haute",
+  "time_period": {
+    "start": 1965,
+    "end": 1990,
+    "label": "1965–1990"
+  },
+  "region": "Roanne, Collonges-au-Mont-d'Or and Paris",
+  "summary": "A light French restaurant kitchen. The chef buys fresh produce at the market, cooks fish and vegetables for a short time, makes sauces without flour, and plates each dish in the kitchen. Gault and Millau gave it ten rules in 1973.",
+  "philosophy": {
+    "core_thesis": "Take the weight out of Escoffier: fresh market produce, short cooking and a sauce without flour let the taste of the ingredient lead.",
+    "design_principles": [
+      "Buy produce at the market on the day, and write the menu from what you bought.",
+      "Cook fish, shellfish and green vegetables for the shortest time: fish stays translucent at the centre, vegetables stay crisp.",
+      "Make each sauce from the cooking juices, a reduction and a little cream or butter; leave out the roux.",
+      "Keep the menu short: three or four dishes for each course, not a long list.",
+      "Plate each dish in the kitchen on a large white plate, one portion for one guest.",
+      "Leave about 40 per cent of the plate empty, and cut the garnish to two or three items.",
+      "Pair a savoury main ingredient with fruit, a flower or a herb, and keep every flavour clear.",
+      "Let the chef follow the season and invent: a new dish each week."
+    ],
+    "anti_patterns": [
+      "A heavy sauce thickened with flour and cooked for hours",
+      "Game or meat hung until it is high",
+      "A long menu with a dish for every taste",
+      "Fish and vegetables cooked until grey and soft",
+      "A garnish that covers the plate",
+      "A dish carved or finished at a trolley beside the table"
+    ]
+  },
+  "vectors": {
+    "composition": 4,
+    "transformation": 3,
+    "locality": 3,
+    "richness": 3,
+    "flavour_intensity": 2
+  },
+  "plating": {
+    "composition": "A small portion arranged by the chef on a wide plate: a fan of thin slices or a neat piece, a pool of sauce beneath, and a few vegetables set apart.",
+    "plate": "A white round porcelain plate of 280 to 320 mm with a wide flat rim, bigger than a classic dinner plate.",
+    "portion": "A main piece of 90 to 130 g with 30 to 50 ml of sauce and two small vegetable items; about 55 per cent of the plate is covered.",
+    "height": "The food stands 15 to 30 mm high; the sauce forms a pool of 2 to 3 mm under the main piece, not a coat over it.",
+    "rules": [
+      "Spoon the sauce onto the plate first and lay the main piece on it.",
+      "Fan a thin slice of fish or meat from the middle to the rim, or set a small round piece at the centre.",
+      "Cook each vegetable on its own and place it apart: a pile of three or four green beans, a small turned carrot.",
+      "Wipe the rim; the plate leaves the pass ready, and no waiter changes it.",
+      "Use one herb leaf or one flower as the only decoration."
+    ]
+  },
+  "pantry": {
+    "primary": [
+      "salmon",
+      "sole",
+      "shellfish",
+      "duck",
+      "foie-gras",
+      "seasonal-greens",
+      "butter",
+      "cream"
+    ],
+    "secondary": [
+      "wild-mushrooms",
+      "asparagus",
+      "truffle",
+      "orchard-fruit",
+      "fine-herbs",
+      "carrot",
+      "lemon",
+      "wine",
+      "vinegar",
+      "egg",
+      "veal",
+      "berries"
+    ],
+    "avoid": [
+      "lard",
+      "soy-sauce",
+      "sodium-alginate",
+      "chilli"
+    ],
+    "in_europe": true,
+    "rule": "Choose the fish, the vegetables and the herbs that the market has that morning, and use cream and butter in small amounts to finish a sauce."
+  },
+  "technique": {
+    "methods": [
+      "poaching",
+      "steaming",
+      "sauteing",
+      "reduction",
+      "emulsion-sauce",
+      "plated-service",
+      "knife-work",
+      "stock-making"
+    ],
+    "bases": "A light fish fumet, a clear veal or chicken stock, and the cooking juices of the dish itself; the cook reduces them and does not use roux.",
+    "details": "A thin escalope cooked on one side for seconds, a vegetable cooked al dente and shocked in cold water, a sauce mounted with a cube of cold butter, a single herb leaf."
+  },
+  "flavour": {
+    "profile": "Fresh and clear: the taste of the fish, the shell or the vegetable first, with sorrel, citrus, herbs and a light butter sauce.",
+    "balance": "Acid from sorrel, lemon or vinegar sits against a small amount of cream; salt is low and sweet comes from fruit used with savoury food.",
+    "fat": "Butter and cream give about 25 to 40 per cent of the energy of a main dish, less than in the classic kitchen.",
+    "seasoning": "Salt and pepper at the end, fresh herbs added at the last moment, a little acid to finish. No long stock with many spices."
+  },
+  "palette": {
+    "strategy": "Use a large white plate as an empty field, with pale pink fish, one green and a pale sauce.",
+    "colours": [
+      {
+        "name": "Porcelain white",
+        "hex": "#F7F5F0",
+        "role": "plate"
+      },
+      {
+        "name": "Salmon pink",
+        "hex": "#F0A28A",
+        "role": "fish"
+      },
+      {
+        "name": "Sorrel green",
+        "hex": "#8FA64B",
+        "role": "sauce and vegetable"
+      },
+      {
+        "name": "Cream",
+        "hex": "#F1E6CC",
+        "role": "sauce"
+      },
+      {
+        "name": "Beurre blanc",
+        "hex": "#EFE2B4",
+        "role": "sauce"
+      },
+      {
+        "name": "Spring green",
+        "hex": "#5E8C3A",
+        "role": "vegetable"
+      },
+      {
+        "name": "Truffle black",
+        "hex": "#26211D",
+        "role": "accent"
+      }
+    ]
+  },
+  "service": {
+    "format": "A tasting menu or a short à la carte menu; the plates come from the pass already arranged, and the waiter sets each one in front of the guest.",
+    "courses": "A menu dégustation of five to eight small courses, or an à la carte meal of three courses with a sorbet between.",
+    "tableware": "Large white plates, thin crystal glasses, plain cutlery and white linen without a gold rim.",
+    "setting": "A family restaurant or a country inn with a chef who is the owner, a small brigade of ten to twenty cooks and a dining room of 30 to 50 seats."
+  },
+  "signatures": {
+    "dishes": [
+      {
+        "course": "fish-course",
+        "dish": "Escalope of salmon with sorrel",
+        "ingredient": "salmon",
+        "method": "sauteing"
+      },
+      {
+        "course": "soup",
+        "dish": "Black truffle soup in a pastry lid",
+        "ingredient": "truffle",
+        "method": "stock-making"
+      },
+      {
+        "course": "hors-doeuvre",
+        "dish": "Salad of warm foie gras and green vegetables",
+        "ingredient": "foie-gras",
+        "method": "sauteing"
+      },
+      {
+        "course": "fish-course",
+        "dish": "Steamed sole with a light butter sauce",
+        "ingredient": "sole",
+        "method": "steaming"
+      },
+      {
+        "course": "entree",
+        "dish": "Duck with a fruit and vinegar sauce",
+        "ingredient": "duck",
+        "method": "reduction"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "nouvelle cuisine plated dish",
+      "large white plate with wide rim",
+      "thin salmon escalope on pale green sorrel sauce",
+      "small portion with empty space",
+      "crisp green beans in a small pile",
+      "single herb leaf as garnish",
+      "light butter sauce pooled under the fish",
+      "1970s French restaurant",
+      "soft daylight on white linen",
+      "overhead plated dish photograph"
+    ],
+    "negative": [
+      "dark brown demi-glace coat",
+      "heaped garnish",
+      "silver cloche",
+      "gold-rimmed plate",
+      "foam",
+      "slate plate",
+      "tweezers garnish"
+    ],
+    "canonical_works": [
+      {
+        "work": "Escalope de saumon à l'oseille",
+        "maker": "Jean and Pierre Troisgros",
+        "year": 1962
+      },
+      {
+        "work": "Soupe aux truffes noires V.G.E.",
+        "maker": "Paul Bocuse",
+        "year": 1975
+      },
+      {
+        "work": "The ten commandments of nouvelle cuisine, Le Nouveau Guide",
+        "maker": "Henri Gault and Christian Millau",
+        "year": 1973
+      },
+      {
+        "work": "La Cuisine du marché",
+        "maker": "Paul Bocuse",
+        "year": 1976
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Jean, Jean-Baptiste and Pierre Troisgros",
+      "kind": "image",
+      "maker": "Troisgros family",
+      "credit": "Troisgros fanny, via Wikimedia Commons",
+      "licence": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Jean,_Jean-Baptiste_et_Pierre_Troisgros_(crop).jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Jean%2C_Jean-Baptiste_et_Pierre_Troisgros_%28crop%29.jpg"
+    },
+    {
+      "title": "Crayfish escabèche on asparagus gazpacho (Lameloise, Chagny)",
+      "kind": "image",
+      "maker": "Jacques Lameloise",
+      "year": 2007,
+      "credit": "Jacques Lameloise, via Wikimedia Commons",
+      "licence": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Jacques_Lameloise_DSCF6580.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/0/07/Jacques_Lameloise_DSCF6580.jpg"
+    },
+    {
+      "title": "Paul Bocuse in 2007",
+      "kind": "image",
+      "maker": "Alain Elorza",
+      "year": 2007,
+      "credit": "Alain Elorza, via Wikimedia Commons",
+      "licence": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Paul_Bocuse_2007.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Paul_Bocuse_2007.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "cuisine-classique"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "minimalist-interior"
+    ]
+  },
+  "emotion": {
+    "target_response": "The relief of a light lunch that still feels like an event: clear taste, a clean plate and no weight after the meal.",
+    "keywords": [
+      "light",
+      "fresh",
+      "precise",
+      "seasonal",
+      "inventive",
+      "clean"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "magician"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "nouvelle cuisine",
+      "1970s french restaurant",
+      "light french cooking",
+      "plated by the chef",
+      "salmon with sorrel",
+      "gault millau",
+      "bocuse",
+      "troisgros"
+    ],
+    "use_cases": [
+      "a menu for a 1970s French restaurant",
+      "a food photograph of a small plated dish on a large white plate",
+      "a period scene of a chef at the pass"
+    ],
+    "avoid_when": [
+      "the brief wants a heavy sauced dish from a grand hotel",
+      "the brief wants foam, gel or liquid nitrogen",
+      "the brief is home or street food"
+    ],
+    "modifiers": [
+      {
+        "request": "lighter still, for a diet",
+        "toward": "cuisine-minceur",
+        "how": "Steam each item, bind the sauce with fromage blanc or vegetable purée, and cut the fat share to 15 per cent."
+      },
+      {
+        "request": "more local and plain, with the produce of one garden",
+        "toward": "california-cuisine",
+        "how": "Keep the market menu, drop the chef's flourishes, and name the farm of each ingredient."
+      },
+      {
+        "request": "heavier and more formal",
+        "toward": "cuisine-classique",
+        "how": "Bring back the demi-glace and the roux, coat the main piece, and add a guéridon service."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Nouvelle cuisine",
+      "url": "https://en.wikipedia.org/wiki/Nouvelle_cuisine"
+    },
+    {
+      "title": "Wikipedia: Paul Bocuse",
+      "url": "https://en.wikipedia.org/wiki/Paul_Bocuse"
+    },
+    {
+      "title": "Wikipedia: Gault Millau",
+      "url": "https://en.wikipedia.org/wiki/Gault_Millau"
+    },
+    {
+      "title": "Wikipedia: Pierre Troisgros",
+      "url": "https://en.wikipedia.org/wiki/Pierre_Troisgros"
+    }
+  ],
+  "permutations": {
+    "course_count": {
+      "default": 7,
+      "min": 4,
+      "max": 12
+    },
+    "negative_space": {
+      "default": 0.5,
+      "min": 0.35,
+      "max": 0.65
+    },
+    "portion_g": {
+      "default": 110,
+      "min": 70,
+      "max": 160
+    },
+    "spice_level": {
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    "fat_share": {
+      "default": 0.32,
+      "min": 0.2,
+      "max": 0.42
+    },
+    "plate_colour": {
+      "default": "#F7F5F0",
+      "options": [
+        "#F7F5F0",
+        "#FFFFFF",
+        "#E9E6DF"
+      ]
+    }
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "$schema": "../../../schema/domains/cuisine.schema.json",
+  "id": "cuisine-classique",
+  "domain": "cuisine",
+  "name": "Cuisine classique",
+  "aliases": [
+    "Escoffier cuisine",
+    "Classic French cuisine",
+    "Hotel cuisine"
+  ],
+  "era_id": "grande-and-classique",
+  "branch": "haute",
+  "time_period": {
+    "start": 1884,
+    "end": 1965,
+    "label": "1884–1965"
+  },
+  "region": "Monte Carlo, London and Paris",
+  "summary": "The kitchen of the grand hotel as Auguste Escoffier set it down. A brigade of stations cooks a menu of courses from a fixed system of stocks and mother sauces, and serves each dish on its own plate. Le Guide culinaire of 1903 holds about 5,000 recipes of the system.",
+  "philosophy": {
+    "core_thesis": "Simplify Carême and make the kitchen a system: every dish comes from a small set of bases, cooked by a station that does one task.",
+    "design_principles": [
+      "Keep a white stock, a brown stock and a fish fumet ready each day; every sauce starts from one of them.",
+      "Derive each sauce from one of five mother sauces: espagnole, velouté, béchamel, tomato and hollandaise.",
+      "Split the kitchen into stations: the saucier, the rôtisseur, the poissonnier, the entremetier, the garde-manger and the pâtissier.",
+      "Serve à la russe: one course after another, each on a plate, in the order of the menu.",
+      "Cut the number of garnishes, so that the main ingredient is the subject of the plate.",
+      "Name a dish after its garnish or a patron: Rossini, Melba, Véronique, Jeannette.",
+      "Finish each sauce with butter off the heat for a gloss.",
+      "Use the same cut for each piece of a garnish: julienne, brunoise, tournée to 7 faces."
+    ],
+    "anti_patterns": [
+      "A sauce thickened with bread or ground almonds",
+      "Every dish of a meal on the table at once",
+      "An edible architecture of sugar and pastry on the table",
+      "A garnish that hides the main ingredient",
+      "Raw fish, raw meat or undercooked vegetables",
+      "A sauce made to order without a stock"
+    ]
+  },
+  "vectors": {
+    "composition": 3,
+    "transformation": 4,
+    "locality": 2,
+    "richness": 5,
+    "flavour_intensity": 2
+  },
+  "plating": {
+    "composition": "One main piece at the centre of the plate under a coat of sauce, with a garnish of turned vegetables or a croûton beside it.",
+    "plate": "A white porcelain plate of 260 to 280 mm with a gold or a monogrammed rim, or a silver platter for the guéridon.",
+    "portion": "A main piece of 150 to 200 g with 60 to 80 ml of sauce and two or three garnishes.",
+    "height": "The food stands 20 to 40 mm high; the sauce coats the piece and pools 3 to 5 mm deep at its foot.",
+    "rules": [
+      "Put the main piece at the centre and coat it, or put the sauce beside it in a sauce boat.",
+      "Turn each root vegetable to seven faces and 5 cm long.",
+      "Glaze a roast or a sauced piece so that it shines under the lamps of the dining room.",
+      "Carve or finish a large piece at a guéridon at the table, then plate it in front of the guest.",
+      "Keep the rim of the plate clean; wipe it before the plate leaves the pass."
+    ]
+  },
+  "pantry": {
+    "primary": [
+      "butter",
+      "cream",
+      "veal",
+      "sole",
+      "foie-gras",
+      "truffle",
+      "beef",
+      "egg"
+    ],
+    "secondary": [
+      "shallot",
+      "tarragon",
+      "fine-herbs",
+      "wine",
+      "peach",
+      "chicken",
+      "game-birds",
+      "caviar",
+      "lemon",
+      "cheese",
+      "wheat",
+      "grape"
+    ],
+    "avoid": [
+      "chilli",
+      "soy-sauce",
+      "sodium-alginate",
+      "miso"
+    ],
+    "in_europe": true,
+    "rule": "Build on butter, cream and veal stock; add a luxury ingredient (truffle, foie gras or caviar) to the dish of honour."
+  },
+  "technique": {
+    "methods": [
+      "stock-making",
+      "mother-sauces",
+      "roux",
+      "emulsion-sauce",
+      "poaching",
+      "braising",
+      "oven-roasting",
+      "aspic"
+    ],
+    "bases": "A white veal stock, a brown veal stock, a fish fumet, a demi-glace reduced from espagnole, and a stock of court-bouillon for poaching.",
+    "details": "A turned vegetable, a croûton fried in butter, a sauce finished with butter, a slice of truffle on a white sauce."
+  },
+  "flavour": {
+    "profile": "Rich, round and meaty: reduced stock, butter and cream, with the perfume of truffle, Madeira and tarragon.",
+    "balance": "Umami and fat lead; a little acid from wine, lemon or vinegar lifts the emulsion sauces; sweet stays in the dessert.",
+    "fat": "Butter and cream give 40 to 60 per cent of the energy of a sauced main dish.",
+    "seasoning": "Salt and white pepper, a bouquet garni in the stock, and fines herbes at the end. No chilli and few spices."
+  },
+  "palette": {
+    "strategy": "Use the white of the plate and the ivory of the cream sauces, the brown of the demi-glace and the black of truffle, with one bright garnish.",
+    "colours": [
+      {
+        "name": "Porcelain white",
+        "hex": "#F6F3EC",
+        "role": "plate"
+      },
+      {
+        "name": "Velouté ivory",
+        "hex": "#EADBB8",
+        "role": "white sauce"
+      },
+      {
+        "name": "Demi-glace brown",
+        "hex": "#5A3418",
+        "role": "brown sauce"
+      },
+      {
+        "name": "Truffle black",
+        "hex": "#1E1A17",
+        "role": "garnish"
+      },
+      {
+        "name": "Gold rim",
+        "hex": "#B8943E",
+        "role": "rim and silver"
+      },
+      {
+        "name": "Glazed carrot",
+        "hex": "#D9822B",
+        "role": "vegetable"
+      },
+      {
+        "name": "Sole white",
+        "hex": "#F2EEE4",
+        "role": "fish"
+      }
+    ]
+  },
+  "service": {
+    "format": "Service à la russe in a hotel dining room: the waiter brings each course on a plate or carves it at a guéridon.",
+    "courses": "Seven to twelve courses at a dinner: hors d'oeuvre, soup, fish, entrée, roast, salad, vegetable, sweet and dessert.",
+    "tableware": "White porcelain with a gold rim, a silver cloche and platter, crystal glasses for each wine and a white linen cloth.",
+    "setting": "A grand hotel with electric light; a brigade of 30 to 80 cooks under a chef de cuisine and a maître d'hôtel in tails."
+  },
+  "signatures": {
+    "dishes": [
+      {
+        "course": "dessert",
+        "dish": "Pêche Melba",
+        "ingredient": "peach",
+        "method": "poaching"
+      },
+      {
+        "course": "fish-course",
+        "dish": "Sole Véronique",
+        "ingredient": "sole",
+        "method": "poaching"
+      },
+      {
+        "course": "entree",
+        "dish": "Tournedos Rossini",
+        "ingredient": "beef",
+        "method": "mother-sauces"
+      },
+      {
+        "course": "cold-buffet",
+        "dish": "Suprêmes de volaille Jeannette",
+        "ingredient": "chicken",
+        "method": "aspic"
+      },
+      {
+        "course": "soup",
+        "dish": "Consommé double",
+        "ingredient": "beef",
+        "method": "stock-making"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "classic French haute cuisine",
+      "Belle Époque hotel dining room",
+      "white porcelain plate with gold rim",
+      "fillet under glossy brown demi-glace",
+      "sole in ivory velouté",
+      "turned vegetables",
+      "slice of black truffle",
+      "silver cloche",
+      "crystal glasses",
+      "white linen tablecloth",
+      "warm electric light",
+      "overhead plated dish photograph"
+    ],
+    "negative": [
+      "foam",
+      "smear of sauce",
+      "rustic wooden board",
+      "chilli",
+      "raw fish",
+      "slate plate",
+      "tweezers garnish"
+    ],
+    "canonical_works": [
+      {
+        "work": "Pêche Melba",
+        "maker": "Auguste Escoffier, Savoy Hotel",
+        "year": 1893
+      },
+      {
+        "work": "Le Guide culinaire",
+        "maker": "Auguste Escoffier",
+        "year": 1903
+      },
+      {
+        "work": "Le Livre des menus",
+        "maker": "Auguste Escoffier",
+        "year": 1912
+      },
+      {
+        "work": "Ma cuisine",
+        "maker": "Auguste Escoffier",
+        "year": 1934
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Le guide culinaire, 1903 (title page and text)",
+      "kind": "document",
+      "credit": "Auguste Escoffier; scan by the Wellcome Library",
+      "licence": "Public domain",
+      "url": "https://archive.org/details/b21525912",
+      "maker": "Auguste Escoffier",
+      "year": 1903
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "grande-cuisine"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "beaux-arts-architecture",
+      "victorian-interior"
+    ]
+  },
+  "emotion": {
+    "target_response": "The calm of a perfect order: a known dish, cooked exactly, served by a staff who know their roles.",
+    "keywords": [
+      "opulent",
+      "ordered",
+      "rich",
+      "formal",
+      "assured"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "escoffier",
+      "classic french cuisine",
+      "haute cuisine 1900",
+      "grand hotel dinner",
+      "mother sauces",
+      "peche melba",
+      "tournedos rossini",
+      "belle epoque menu"
+    ],
+    "use_cases": [
+      "a period dinner scene in a grand hotel",
+      "a menu for a classic French restaurant",
+      "a food photograph of a classic sauced dish"
+    ],
+    "avoid_when": [
+      "the brief wants a light or vegetable-led plate",
+      "the brief wants a modern tasting menu",
+      "the brief is home or street food"
+    ],
+    "modifiers": [
+      {
+        "request": "lighter, shorter, plated by the chef",
+        "toward": "nouvelle-cuisine",
+        "how": "Drop the roux, reduce the stock without flour, cook the fish pink, and arrange each plate in the kitchen on a large white plate."
+      },
+      {
+        "request": "grander, with towers of sugar",
+        "toward": "grande-cuisine",
+        "how": "Add a pièce montée, serve many dishes at once on the table, and dress each dish with hâtelets and aspic."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Auguste Escoffier",
+      "url": "https://en.wikipedia.org/wiki/Auguste_Escoffier"
+    },
+    {
+      "title": "Wikipedia: Brigade de cuisine",
+      "url": "https://en.wikipedia.org/wiki/Brigade_de_cuisine"
+    },
+    {
+      "title": "Kenneth James, Escoffier: The King of Chefs (2002)"
+    }
+  ],
+  "permutations": {
+    "course_count": {
+      "default": 9,
+      "min": 5,
+      "max": 14
+    },
+    "negative_space": {
+      "default": 0.35,
+      "min": 0.2,
+      "max": 0.5
+    },
+    "portion_g": {
+      "default": 320,
+      "min": 220,
+      "max": 450
+    },
+    "spice_level": {
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    "fat_share": {
+      "default": 0.5,
+      "min": 0.35,
+      "max": 0.65
+    },
+    "plate_colour": {
+      "default": "#F6F3EC",
+      "options": [
+        "#F6F3EC",
+        "#FFFFFF",
+        "#C9C9C5"
+      ]
+    }
+  }
+}

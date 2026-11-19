@@ -1,0 +1,354 @@
+{
+  "$schema": "../../../schema/domains/ceramics.schema.json",
+  "id": "victorian-architectural-terracotta",
+  "domain": "ceramics",
+  "name": "Victorian architectural terracotta",
+  "aliases": [
+    "Victorian terracotta",
+    "Gothic Revival terracotta",
+    "Press-moulded terracotta facade"
+  ],
+  "era_id": "industrial-pottery",
+  "branch": "architectural",
+  "time_period": {
+    "start": 1860,
+    "end": 1900,
+    "label": "1860–1900"
+  },
+  "region": "London and the English cities",
+  "summary": "Fired clay blocks in buff, red and blue-grey that English makers pressed in moulds for museums, schools and town halls. Cheap in a smoky city, the clay kept its colour where stone turned black.",
+  "philosophy": {
+    "core_thesis": "A smoky industrial city needs a facade that rain can wash: a glazed or hard-fired clay block gives rich ornament at a price that a mason cannot meet.",
+    "design_principles": [
+      "Press the ornament in plaster moulds, so that one design repeats across a whole facade.",
+      "Make each block hollow, with webs inside, 25 to 50 mm thick, so that it dries and fires without a crack.",
+      "Use one colour for the main wall and a second for the band, the arch and the frieze.",
+      "Model plant and animal forms in high relief: leaves, birds, fruit, beasts and Romanesque arches.",
+      "Fire the blocks at a high heat until the clay is hard and does not take soot.",
+      "Hang the blocks on a brick or iron frame with iron cramps and fill the cavity with mortar.",
+      "Add a glaze or a coloured slip for the bands that need to wash clean in the rain."
+    ],
+    "anti_patterns": [
+      "A smooth cast concrete facade with no moulded ornament",
+      "Blocks that vary in colour from one firing to the next",
+      "A carved stone detail that a mason cuts one by one",
+      "Thin, flat panels with no relief",
+      "A shiny, even glaze over the whole wall"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 5,
+    "hand_mark": 2,
+    "refinement": 2,
+    "glaze_depth": 2,
+    "chromatic_intensity": 3
+  },
+  "form": {
+    "shape": "Facade blocks, string courses, window surrounds, columns, capitals, finials, chimney pots and big relief panels for friezes.",
+    "profile": "A deep relief with a sharp edge and a strong shadow; arches are round or pointed, and the leaves stand out 3 to 8 cm from the ground.",
+    "foot_and_rim": "Each block is hollow and open at the back; the face has a sharp arris and the edges are straight so that the joints stay thin.",
+    "proportion": "A block is about 30 to 60 cm long and 15 to 30 cm high; the wall of the block is 25 to 50 mm thick.",
+    "rules": [
+      "Make each block hollow with internal webs.",
+      "Repeat the mould for the same motif.",
+      "Use two clay colours in bands.",
+      "Give each block a number for its place on the plan."
+    ]
+  },
+  "bodies": {
+    "primary": [
+      "terracotta"
+    ],
+    "secondary": [
+      "fired-brick"
+    ],
+    "avoid": [
+      "porcelain",
+      "bone-china",
+      "jasperware",
+      "parian",
+      "paper-clay"
+    ],
+    "rule": "Blend several clays and a grog of ground fired clay, so that the body presses cleanly and fires hard with little shrinkage. Keep the colour even in each batch."
+  },
+  "forming": {
+    "methods": [
+      "pressing in plaster moulds",
+      "hand finishing of the undercuts",
+      "drying in a warm shed",
+      "firing in a muffle kiln"
+    ],
+    "joins": "Blocks are bedded in lime or cement mortar on a brick backing and tied with iron cramps; joints are 3 to 6 mm thin.",
+    "details": "A mould seam on the back, a maker stamp in the body, and a number or letter that marks the place of the block."
+  },
+  "glaze": {
+    "glazes": [
+      "bare-clay",
+      "majolica-glaze",
+      "lead-glaze"
+    ],
+    "decorations": [
+      "relief-moulding",
+      "incised",
+      "undecorated"
+    ],
+    "pattern": "Rows of leaves, flowers, birds and beasts in high relief; bands of tiles and plain panels in buff and red, with a blue-grey for the arch.",
+    "gloss": "Matt for the bare body, about 5 to 20 GU; glazed bands reach 60 to 85 GU.",
+    "wear": "The bare body keeps its edge but takes a dark patina in a city; glazed parts wash clean in the rain."
+  },
+  "palette": {
+    "strategy": "Warm buff, brick red and a cool blue-grey in large flat fields; a few glazed bands in turquoise, green or cream give a bright accent.",
+    "colours": [
+      {
+        "name": "Buff terracotta",
+        "hex": "#D8B98A",
+        "role": "main wall"
+      },
+      {
+        "name": "Brick red",
+        "hex": "#A4472E",
+        "role": "band and arch"
+      },
+      {
+        "name": "Blue-grey",
+        "hex": "#6B7E8F",
+        "role": "accent"
+      },
+      {
+        "name": "Cream glaze",
+        "hex": "#EDE3C8",
+        "role": "glazed band"
+      },
+      {
+        "name": "Turquoise glaze",
+        "hex": "#2E8C8C",
+        "role": "glazed accent"
+      },
+      {
+        "name": "Soot grey",
+        "hex": "#58554F",
+        "role": "aged surface"
+      }
+    ]
+  },
+  "firing": {
+    "kiln": "A muffle or downdraught kiln fired with coal; the blocks stand on edge in saggars, so that the flame does not touch the face.",
+    "atmosphere": "oxidation",
+    "temperature_c": [
+      1000,
+      1150
+    ],
+    "processes": [
+      "pressing in plaster moulds",
+      "drying for one to two weeks",
+      "a firing at about 1100 °C",
+      "a second glaze firing for glazed parts"
+    ],
+    "scale": "Large works in Lambeth, Leeds and Stoke supplied whole museums, schools, banks and town halls; one building used thousands of blocks.",
+    "signs": "A maker stamp on the back, a thin mould seam and a slight colour change between kiln loads."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "facade-block",
+        "form": "Hollow facade block with a moulded leaf and a bird in a round arch",
+        "body": "terracotta",
+        "glaze": "bare-clay",
+        "decoration": "relief-moulding"
+      },
+      {
+        "object": "architectural-relief",
+        "form": "Frieze panel with a row of beasts and plants",
+        "body": "terracotta",
+        "glaze": "bare-clay",
+        "decoration": "relief-moulding"
+      },
+      {
+        "object": "capital",
+        "form": "Column capital with a leaf spray and a ring of fruit",
+        "body": "terracotta",
+        "glaze": "bare-clay",
+        "decoration": "incised"
+      },
+      {
+        "object": "chimney-pot",
+        "form": "Tall chimney pot with a moulded and incised twist",
+        "body": "terracotta",
+        "glaze": "lead-glaze",
+        "decoration": "incised"
+      },
+      {
+        "object": "faience-cladding",
+        "form": "Glazed band with a raised flower on a cream ground",
+        "body": "terracotta",
+        "glaze": "majolica-glaze",
+        "decoration": "relief-moulding"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Victorian architectural terracotta facade",
+      "buff and red moulded blocks",
+      "Romanesque arches with animal frieze",
+      "high relief leaf and bird panels",
+      "hollow press-moulded block",
+      "museum or school front in warm clay",
+      "sharp shadow in the relief",
+      "slight soot patina",
+      "narrow joints between blocks"
+    ],
+    "negative": [
+      "smooth concrete",
+      "plain stone",
+      "glossy ceramic tile wall",
+      "printed pattern",
+      "brutalist panel"
+    ],
+    "canonical_works": [
+      {
+        "work": "Natural History Museum, London",
+        "maker": "Alfred Waterhouse",
+        "year": 1881
+      },
+      {
+        "work": "Prudential Assurance building, Holborn",
+        "maker": "Alfred Waterhouse",
+        "year": 1879
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "London - Cromwell Road - Natural History Museum 1881 by Alfred Waterhouse - Vie",
+      "kind": "image",
+      "credit": "Txllxt TxllxT",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:London_-_Cromwell_Road_-_Natural_History_Museum_1881_by_Alfred_Waterhouse_-_View_NW_%26_Up_at_the_Entrance_on_the_Terracotta_Tiled_Fa%C3%A7ade.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/London_-_Cromwell_Road_-_Natural_History_Museum_1881_by_Alfred_Waterhouse_-_View_NW_%26_Up_at_the_Entrance_on_the_Terracotta_Tiled_Fa%C3%A7ade.jpg/960px-London_-_Cromwell_Road_-_Natural_History_Museum_1881_by_Alfred_Waterhouse_-_View_NW_%26_Up_at_the_Entrance_on_the_Terracotta_Tiled_Fa%C3%A7ade.jpg"
+    },
+    {
+      "title": "Terracotta monkey in the Natural History Museum Central Hall.jpg",
+      "kind": "image",
+      "credit": "Iridescent",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Terracotta_monkey_in_the_Natural_History_Museum_Central_Hall.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Terracotta_monkey_in_the_Natural_History_Museum_Central_Hall.jpg/960px-Terracotta_monkey_in_the_Natural_History_Museum_Central_Hall.jpg"
+    },
+    {
+      "title": "Holborn Bars - Prudential Assurance Building, High Holborn (4053356803).jpg",
+      "kind": "image",
+      "credit": "Elliott Brown from Birmingham, United Kingdom",
+      "licence": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Holborn_Bars_-_Prudential_Assurance_Building,_High_Holborn_(4053356803).jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Holborn_Bars_-_Prudential_Assurance_Building%2C_High_Holborn_%284053356803%29.jpg/960px-Holborn_Bars_-_Prudential_Assurance_Building%2C_High_Holborn_%284053356803%29.jpg"
+    },
+    {
+      "title": "Main entrance to the Natural History Museum.jpg",
+      "kind": "image",
+      "credit": "sagesolar",
+      "licence": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Main_entrance_to_the_Natural_History_Museum.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Main_entrance_to_the_Natural_History_Museum.jpg/960px-Main_entrance_to_the_Natural_History_Museum.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "della-robbia-relief",
+      "victorian-encaustic-tiles"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "victorian-interior",
+      "victorian-manufacture",
+      "gothic-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Civic pride and richness: the viewer sees a public building that wears its ornament as a sign of progress.",
+    "keywords": [
+      "civic",
+      "rich",
+      "ornate",
+      "sturdy",
+      "earnest"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "victorian terracotta",
+      "architectural terracotta",
+      "terracotta facade",
+      "natural history museum terracotta",
+      "press-moulded terracotta",
+      "gothic revival terracotta",
+      "buff and red facade blocks"
+    ],
+    "use_cases": [
+      "a heritage or conservation brief on a terracotta facade",
+      "a render of a Victorian public building",
+      "a label on a moulded terracotta frieze"
+    ],
+    "avoid_when": [
+      "the brief needs a glossy white wall",
+      "the brief needs a flat curtain wall",
+      "the brief needs a natural stone surface"
+    ],
+    "modifiers": [
+      {
+        "request": "American skyscraper, Chicago",
+        "toward": "chicago-school-terracotta",
+        "how": "Change to a steel frame with thin terracotta cladding in a cream colour and flat, organic ornament."
+      },
+      {
+        "request": "modern clay cladding",
+        "toward": "terracotta-rainscreen",
+        "how": "Remove the ornament, extrude hollow panels with a matt face, and hang them on rails with an air gap."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Architectural terracotta",
+      "url": "https://en.wikipedia.org/wiki/Architectural_terracotta"
+    },
+    {
+      "title": "Wikipedia: Natural History Museum, London",
+      "url": "https://en.wikipedia.org/wiki/Natural_History_Museum,_London"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.85,
+      "min": 0.55,
+      "max": 1.0,
+      "note": "Ornament is the point of the style; keep it above 0.5 for a true Victorian facade."
+    },
+    "glaze_gloss": {
+      "default": 20,
+      "min": 5,
+      "max": 85
+    },
+    "wall_thickness": {
+      "default": 35,
+      "min": 25,
+      "max": 40,
+      "note": "A hollow block has a wall of 25 to 50 mm; the knob stops at 40 mm."
+    },
+    "hand_mark": {
+      "default": 0.35,
+      "min": 0.15,
+      "max": 0.55
+    },
+    "era_blend": {
+      "default": 0.15,
+      "min": 0,
+      "max": 1
+    }
+  }
+}

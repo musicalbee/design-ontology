@@ -171,9 +171,9 @@ A beam or slab fixed at one end that carries load beyond its support, so that it
 - Keep the free end thin; a depth of 1/8 to 1/10 of the span suits steel and concrete.
 - Repeat the horizontal line in a run of 2 or 3 projecting planes to give a strong shadow.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **1964 New York World's Fair** (exhibition, New York, 1964–1965), exhibited the style. A world's fair of two seasons with the theme of the space age. Its pavilions, rockets and futuristic rides showed the optimism of space-age design.
 
@@ -202,7 +202,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)
 - **Led to (go here for a newer version):** [`memphis-product`](../memphis-product/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
-- **Kin in another domain:** [`pop-art-painting`](../pop-art-painting/SKILL.md), [`space-age`](../space-age/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
+- **Kin in another domain:** [`barbiecore`](../barbiecore/SKILL.md), [`electronic-and-digital-watch`](../electronic-and-digital-watch/SKILL.md), [`glam-platform-shoe`](../glam-platform-shoe/SKILL.md), [`muscle-and-pony-car`](../muscle-and-pony-car/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md), [`space-age`](../space-age/SKILL.md), [`space-age-couture`](../space-age-couture/SKILL.md), [`tailfin-era-car`](../tailfin-era-car/SKILL.md), [`wedge-design-car`](../wedge-design-car/SKILL.md), [`west-german-fat-lava`](../west-german-fat-lava/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Nearest by vector profile:** [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md), [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md)
 
 ## Emotional target

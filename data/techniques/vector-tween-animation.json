@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "vector-tween-animation",
+  "name": "Vector tween animation",
+  "aliases": [
+    "Timeline tween",
+    "Flash timeline"
+  ],
+  "kind": "animation",
+  "summary": "A vector shape moves, changes size or fades between two key frames, and the tool fills the frames between them.",
+  "how": [
+    "Set a key frame at the start and at the end, 12 to 24 frames apart.",
+    "Set the easing to ease-out for entrances, with a curve of 400ms to 800ms.",
+    "Keep the movement to 40px to 120px per scene.",
+    "Add a sound cue at the end of the move."
+  ],
+  "origin": {
+    "domain": "internet",
+    "year": 1996,
+    "where": "San Diego",
+    "note": "FutureSplash Animator added vector tweens for the web; Macromedia later renamed it Flash."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 1998,
+      "circa": true,
+      "via": "Agencies build full sites as Flash timelines with intros and animated menus.",
+      "styles": [
+        "flash-intro-site"
+      ]
+    }
+  ],
+  "styles": [
+    "flash-intro-site"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Adobe Flash",
+      "url": "https://en.wikipedia.org/wiki/Adobe_Flash"
+    }
+  ]
+}

@@ -170,11 +170,11 @@ Texture mapping with no perspective correction: the texture is spread in a strai
 - Snap vertices to whole pixels so geometry jitters.
 - Split large faces into smaller triangles to limit the warp.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Haunted PS1** (club, online, 2018–now), gathered the style. A community of indie developers who make horror games in the style of the first PlayStation.
+- **Haunted PS1** (crew, online, 2018–now), gathered the style. A community of indie developers who make horror games in the style of the first PlayStation.
 - **itch.io** (platform, online, 2013–now), sold the style. An open store for independent games, where most PS1-style revival games are published.
 - **Puppet Combo** (studio, the United States, ?–now), made the style. An American indie studio that makes low-poly horror games with a VHS and PS1 look.
 
@@ -199,7 +199,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`fifth-gen-low-poly`](../fifth-gen-low-poly/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`pbr-photoreal`](../pbr-photoreal/SKILL.md)
-- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`film-grain-revival`](../film-grain-revival/SKILL.md), [`found-footage`](../found-footage/SKILL.md)
+- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`film-grain-revival`](../film-grain-revival/SKILL.md), [`found-footage`](../found-footage/SKILL.md), [`liminal-spaces`](../liminal-spaces/SKILL.md), [`weirdcore`](../weirdcore/SKILL.md)
 - **Nearest by vector profile:** [`fifth-gen-low-poly`](../fifth-gen-low-poly/SKILL.md), [`hd-2d-diorama`](../hd-2d-diorama/SKILL.md), [`vector-display-arcade`](../vector-display-arcade/SKILL.md)
 
 ## Emotional target

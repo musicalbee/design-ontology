@@ -187,11 +187,12 @@ One motif or one frame, repeated with small changes in a set of works, so that t
 - Keep the spacing between works equal to a fixed unit, such as 10 cm or one panel width.
 - Remove the hand: use a mechanical edge, a stencil or a plain lens.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Leo Castelli Gallery** (gallery, New York, 1957–now), exhibited the style. The gallery of the dealer Leo Castelli. It showed Pop Art and then Minimalism.
+- **Sidney Janis Gallery** (gallery, New York, 1948–now), funded the style. A New York gallery. It gave Pollock the first of three solo shows in 1952 and held the New Realists show of 1962.
 - **The Factory** (studio, New York, 1964–1987), made the style. The studio of Andy Warhol. Assistants printed silkscreens there, and artists, actors and musicians met there.
 
 ## Permutations
@@ -214,7 +215,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`photorealism`](../photorealism/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`abstract-expressionism`](../abstract-expressionism/SKILL.md)
-- **Kin in another domain:** [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md), [`cel-shaded-3d`](../cel-shaded-3d/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md), [`pop-screen-print`](../pop-screen-print/SKILL.md), [`space-age-pop-product`](../space-age-pop-product/SKILL.md)
+- **Kin in another domain:** [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md), [`cel-shaded-3d`](../cel-shaded-3d/SKILL.md), [`funk-ceramics`](../funk-ceramics/SKILL.md), [`glam-platform-shoe`](../glam-platform-shoe/SKILL.md), [`impact-image-macro`](../impact-image-macro/SKILL.md), [`logomania`](../logomania/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`mod-and-mini`](../mod-and-mini/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md), [`pop-screen-print`](../pop-screen-print/SKILL.md), [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`swiss-plastic-pop-watch`](../swiss-plastic-pop-watch/SKILL.md)
 - **Nearest by vector profile:** [`mannerism-painting`](../mannerism-painting/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md), [`symbolism-painting`](../symbolism-painting/SKILL.md)
 
 ## Emotional target

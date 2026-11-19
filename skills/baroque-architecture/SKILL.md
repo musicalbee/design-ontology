@@ -186,9 +186,9 @@ Painted perspective that continues the real room, so that a flat wall or ceiling
 - Continue the real cornice, columns and arches in paint for 1 to 3 storeys of false height.
 - Paint the sky or the open part with the lightest value; keep the painted frame at the value of the real stone.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Accademia di San Luca** (school, Rome, 1577–now), taught the style. An academy of artists in Rome. It trained painters and architects, and Roman Baroque masters led it.
 
@@ -213,7 +213,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`renaissance-architecture`](../renaissance-architecture/SKILL.md)
 - **Led to (go here for a newer version):** [`beaux-arts-architecture`](../beaux-arts-architecture/SKILL.md)
 - **Was rejected by:** [`neoclassical-architecture`](../neoclassical-architecture/SKILL.md)
-- **Kin in another domain:** [`baroque-painting`](../baroque-painting/SKILL.md)
+- **Kin in another domain:** [`azulejo`](../azulejo/SKILL.md), [`baroque-painting`](../baroque-painting/SKILL.md), [`cuisine-francoise`](../cuisine-francoise/SKILL.md)
 - **Nearest by vector profile:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`beaux-arts-architecture`](../beaux-arts-architecture/SKILL.md), [`parametricism-architecture`](../parametricism-architecture/SKILL.md)
 
 ## Emotional target

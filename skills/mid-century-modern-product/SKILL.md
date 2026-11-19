@@ -176,12 +176,13 @@ Thin boards or veneers glued in layers, so that wood forms long spans, bent shap
 - Bend veneers of 1 to 3mm in a mould for furniture; glue 5 to 9 layers.
 - Leave the layered edge in view as a line pattern.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Herman Miller** (workshop, Zeeland, Michigan, 1923–now), made the style. A furniture maker that worked with George Nelson, Charles and Ray Eames and Isamu Noguchi. It made modern furniture for homes and offices.
-- **Knoll** (workshop, New York, 1938–now), made the style. A furniture maker that produced designs by Mies van der Rohe, Eero Saarinen and Marcel Breuer. Its planning unit set the look of the modern office.
+- **Ford Foundation** (foundation, New York, ?–now), funded the style. US foundation. It sponsored the Eameses' three-month study tour of India in 1958.
+- **Herman Miller** (company, Zeeland, Michigan, 1923–now), made the style. A furniture maker that worked with George Nelson, Charles and Ray Eames and Isamu Noguchi. It made modern furniture for homes and offices.
+- **Knoll** (company, New York, 1938–now), made the style. A furniture maker that produced designs by Mies van der Rohe, Eero Saarinen and Marcel Breuer. Its planning unit set the look of the modern office.
 
 ## Permutations
 
@@ -209,7 +210,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`space-age-pop-product`](../space-age-pop-product/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`art-deco-product`](../art-deco-product/SKILL.md)
 - **Mixes well with:** [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
-- **Kin in another domain:** [`mid-century-modern`](../mid-century-modern/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md)
+- **Kin in another domain:** [`dive-watch`](../dive-watch/SKILL.md), [`mid-century-eyewear`](../mid-century-eyewear/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`modernist-studio-jewellery`](../modernist-studio-jewellery/SKILL.md), [`organic-modern-tableware`](../organic-modern-tableware/SKILL.md), [`racing-chronograph`](../racing-chronograph/SKILL.md), [`scandinavian-modern-tableware`](../scandinavian-modern-tableware/SKILL.md)
 - **Nearest by vector profile:** [`bauhaus-product`](../bauhaus-product/SKILL.md), [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md)
 
 ## Emotional target

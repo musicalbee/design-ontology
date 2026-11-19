@@ -181,11 +181,13 @@ Lens or camera movements that keep vertical lines parallel and move the plane of
 - Close the lens to f/11 to f/22 for full depth of field.
 - In an editor, use a narrow band of focus and a strong blur outside it to fake a miniature.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Aperture** (publisher, New York, 1952–now), published the style. A publisher of photobooks and a magazine. It published colour work of Stephen Shore and other New Colour photographers.
+- **John Simon Guggenheim Memorial Foundation** (foundation, New York, ?–now), funded the style. US foundation that gives fellowships to artists and scholars. It gave Edward Weston the first photography fellowship in 1937.
+- **National Endowment for the Arts** (state programme, Washington, D.C., 1965–now), funded the style. Independent US federal agency created by Congress in 1965. It gave fellowships to photographers.
 
 ## Permutations
 

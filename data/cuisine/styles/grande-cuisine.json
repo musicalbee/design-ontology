@@ -1,0 +1,364 @@
+{
+  "$schema": "../../../schema/domains/cuisine.schema.json",
+  "id": "grande-cuisine",
+  "domain": "cuisine",
+  "name": "Grande cuisine",
+  "aliases": [
+    "Carême cuisine",
+    "Grand cuisine",
+    "High French cuisine of the 19th century"
+  ],
+  "era_id": "grande-and-classique",
+  "branch": "haute",
+  "time_period": {
+    "start": 1815,
+    "end": 1880,
+    "label": "1815–1880"
+  },
+  "region": "Paris, and the courts of London, Vienna and St Petersburg",
+  "summary": "The cuisine of the great houses as Marie-Antoine Carême wrote it. Four grand sauces form the base of a system. Pastry and sugar make a pièce montée that looks like a building. Many dishes stand on the table at once.",
+  "philosophy": {
+    "core_thesis": "Make cooking an art of order and show: a system of sauces on the stove, and architecture of sugar and pastry on the table.",
+    "design_principles": [
+      "Derive each sauce from a small set of grand sauces: espagnole, velouté, allemande and béchamel.",
+      "Cook the stock first, and clarify it until it is clear as glass.",
+      "Build a pièce montée of sugar and pastry in the shape of a temple, a ruin or a fountain.",
+      "Dress each dish with hâtelets, a skewer with a truffle or a crayfish at the top.",
+      "Serve à la française: many dishes at once, in a pattern drawn on a plan.",
+      "Cover a cold dish with chaud-froid and aspic, and pipe a pattern on it.",
+      "Write each recipe in exact steps, and give each cut and each garnish its name."
+    ],
+    "anti_patterns": [
+      "A sauce made without a stock",
+      "A plain dish with no garnish",
+      "A dish for one guest on one plate",
+      "A table without a centrepiece",
+      "Chilli, soy or raw fish",
+      "Spice in the manner of the Middle Ages"
+    ]
+  },
+  "vectors": {
+    "composition": 4,
+    "transformation": 5,
+    "locality": 2,
+    "richness": 5,
+    "flavour_intensity": 2
+  },
+  "plating": {
+    "composition": "Each dish is built as a symmetric shape on a platter: a main piece with garnish in a ring, and hâtelets in the top.",
+    "plate": "A large silver or porcelain platter for each dish, and a gilt porcelain plate for each guest.",
+    "portion": "Each guest takes a piece of 100 to 160 g from a platter of 8 to 12 pieces, with a ladle of sauce.",
+    "height": "A dish stands 150 to 300 mm high; a pièce montée stands 600 mm or more.",
+    "rules": [
+      "Set the pièce montée at the centre of the table and plan the dishes round it on a drawn plan.",
+      "Coat each cold piece with chaud-froid, and then with a glaze of aspic.",
+      "Stand a hâtelet in the top of each large dish.",
+      "Arrange the garnish in a ring round the main piece, one kind in each section.",
+      "Keep the pattern symmetric on each side of the table."
+    ]
+  },
+  "pantry": {
+    "primary": [
+      "butter",
+      "cream",
+      "veal",
+      "foie-gras",
+      "truffle",
+      "cane-sugar",
+      "egg",
+      "sole"
+    ],
+    "secondary": [
+      "beef",
+      "chicken",
+      "game-birds",
+      "shellfish",
+      "salmon",
+      "fine-herbs",
+      "tarragon",
+      "shallot",
+      "wine",
+      "wheat",
+      "orchard-fruit",
+      "peach",
+      "asparagus",
+      "artichoke",
+      "black-pepper",
+      "caviar"
+    ],
+    "avoid": [
+      "chilli",
+      "soy-sauce",
+      "miso",
+      "grains-of-paradise"
+    ],
+    "in_europe": true,
+    "rule": "Build on butter, cream and veal stock, add truffle or foie gras to the dish of honour, and use sugar and pastry for the centrepiece."
+  },
+  "technique": {
+    "methods": [
+      "mother-sauces",
+      "stock-making",
+      "roux",
+      "emulsion-sauce",
+      "aspic",
+      "pate-en-croute",
+      "poaching",
+      "boiling"
+    ],
+    "bases": "A white veal stock, a brown stock, a fish stock, a clarified consommé, and four grand sauces: espagnole, velouté, allemande and béchamel.",
+    "details": "A sauce strained through a cloth, a coat of chaud-froid, a skewer with a truffle, a puff pastry of many layers, a sugar piece built on a frame of wire."
+  },
+  "flavour": {
+    "profile": "Rich, round and layered: reduced stock, butter and cream, with the scent of truffle and the sharp edge of wine.",
+    "balance": "Umami and fat lead; wine, lemon and vinegar lift the sauces; sugar stays in the pastry and the centrepiece.",
+    "fat": "Butter and cream give 40 to 55 per cent of the energy of a sauced main dish.",
+    "seasoning": "Salt, white pepper, a bouquet garni in the stock, and fines herbes and truffle to finish."
+  },
+  "palette": {
+    "strategy": "Use white sugar and aspic glaze, the ivory of velouté and the brown of espagnole, with the gold of gilt, on a white cloth.",
+    "colours": [
+      {
+        "name": "Sugar white",
+        "hex": "#F7F3EA",
+        "role": "pièce montée"
+      },
+      {
+        "name": "Velouté ivory",
+        "hex": "#EAD9B0",
+        "role": "white sauce"
+      },
+      {
+        "name": "Espagnole brown",
+        "hex": "#5B3418",
+        "role": "brown sauce"
+      },
+      {
+        "name": "Aspic amber",
+        "hex": "#D9B15A",
+        "role": "glaze"
+      },
+      {
+        "name": "Gilt gold",
+        "hex": "#C9A23C",
+        "role": "rim and hâtelet"
+      },
+      {
+        "name": "Truffle black",
+        "hex": "#1F1B18",
+        "role": "garnish"
+      },
+      {
+        "name": "Crayfish red",
+        "hex": "#B5402B",
+        "role": "garnish"
+      }
+    ]
+  },
+  "service": {
+    "format": "Service à la française: all dishes of a service stand on the table at once, in a pattern drawn on a plan, and guests take what is near.",
+    "courses": "Two to four services of 6 to 20 dishes each, with soups, fish, entrées, roasts and entremets, and a pièce montée at the centre.",
+    "tableware": "Silver platters, hâtelets, porcelain with gilt rims, crystal and a white linen cloth.",
+    "setting": "The dining room of a great house, such as the Rothschild house or an embassy, with a cook of a hundred pieces on the plan."
+  },
+  "signatures": {
+    "dishes": [
+      {
+        "course": "soup",
+        "dish": "Consommé clarified with egg white",
+        "ingredient": "beef",
+        "method": "stock-making"
+      },
+      {
+        "course": "fish-course",
+        "dish": "Poached sole in velouté sauce",
+        "ingredient": "sole",
+        "method": "poaching"
+      },
+      {
+        "course": "entree",
+        "dish": "Vol-au-vent of chicken in velouté",
+        "ingredient": "chicken",
+        "method": "mother-sauces"
+      },
+      {
+        "course": "cold-buffet",
+        "dish": "Chicken in chaud-froid and aspic",
+        "ingredient": "chicken",
+        "method": "aspic"
+      },
+      {
+        "course": "banquet-centrepiece",
+        "dish": "Pièce montée: a temple of sugar and pastry",
+        "ingredient": "cane-sugar",
+        "method": "boiling"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "19th century grand banquet",
+      "pièce montée of sugar and pastry",
+      "silver platters with hâtelets",
+      "chaud-froid glazed fowl",
+      "aspic glaze",
+      "gilt porcelain",
+      "crystal and candelabra",
+      "white linen tablecloth",
+      "symmetric table plan",
+      "engraving style",
+      "vol-au-vent",
+      "overhead view of a great table"
+    ],
+    "negative": [
+      "foam",
+      "smear of sauce",
+      "rustic wooden board",
+      "chilli",
+      "raw fish",
+      "single plated dish",
+      "tweezers garnish",
+      "slate plate"
+    ],
+    "canonical_works": [
+      {
+        "work": "Le Pâtissier royal parisien",
+        "maker": "Marie-Antoine Carême",
+        "year": 1815
+      },
+      {
+        "work": "Le Pâtissier pittoresque",
+        "maker": "Marie-Antoine Carême",
+        "year": 1815
+      },
+      {
+        "work": "Le Cuisinier parisien",
+        "maker": "Marie-Antoine Carême",
+        "year": 1828
+      },
+      {
+        "work": "L'Art de la cuisine française au dix-neuvième siècle",
+        "maker": "Marie-Antoine Carême",
+        "year": 1833
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Design for a pièce montée, from Carême's Le Pâtissier pittoresque",
+      "kind": "image",
+      "credit": "Antonin Carême; scan by the Wellcome Library, via Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Pi%C3%A8ce_mont%C3%A9e_d%27Antonin_Car%C3%AAme.jpg1.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/d/db/Pi%C3%A8ce_mont%C3%A9e_d%27Antonin_Car%C3%AAme.jpg1.jpg",
+      "maker": "Marie-Antoine Carême",
+      "year": 1815
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "cuisine-francoise"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "neoclassical-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Awe at order and ambition: a table that looks like a monument, made by a hand that has planned each part.",
+    "keywords": [
+      "monumental",
+      "ordered",
+      "opulent",
+      "ornate",
+      "theatrical"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "careme",
+      "grande cuisine",
+      "piece montee",
+      "chaud-froid",
+      "vol-au-vent",
+      "grand sauces",
+      "napoleonic banquet",
+      "rothschild dinner"
+    ],
+    "use_cases": [
+      "a banquet scene of the early 19th century",
+      "a menu or a still life of a grand dinner",
+      "a sugar and pastry centrepiece design"
+    ],
+    "avoid_when": [
+      "the brief wants a light or plain dish",
+      "the brief wants a modern tasting menu",
+      "the brief is home or street food"
+    ],
+    "modifiers": [
+      {
+        "request": "simpler, with fewer garnishes and plated courses",
+        "toward": "cuisine-classique",
+        "how": "Drop the pièce montée, serve each course on a plate in turn, and cut the garnish to two or three items."
+      },
+      {
+        "request": "plainer, with fewer sauces and a smaller table",
+        "toward": "cuisine-francoise",
+        "how": "Drop the sugar architecture, cut the sauces to a stock and a roux, and use herbs for taste."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Marie-Antoine Carême",
+      "url": "https://en.wikipedia.org/wiki/Marie-Antoine_Car%C3%AAme"
+    },
+    {
+      "title": "Wikipedia: Grande cuisine",
+      "url": "https://en.wikipedia.org/wiki/Haute_cuisine"
+    },
+    {
+      "title": "Ian Kelly, Cooking for Kings: The Life of Antonin Carême (2003)"
+    }
+  ],
+  "permutations": {
+    "course_count": {
+      "default": 6,
+      "min": 4,
+      "max": 10
+    },
+    "negative_space": {
+      "default": 0.1,
+      "min": 0,
+      "max": 0.25
+    },
+    "portion_g": {
+      "default": 160,
+      "min": 100,
+      "max": 240
+    },
+    "spice_level": {
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    "fat_share": {
+      "default": 0.45,
+      "min": 0.3,
+      "max": 0.6
+    },
+    "plate_colour": {
+      "default": "#F7F3EA",
+      "options": [
+        "#F7F3EA",
+        "#FFFFFF",
+        "#C9C9C5"
+      ]
+    }
+  }
+}

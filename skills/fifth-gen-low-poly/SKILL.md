@@ -170,9 +170,9 @@ Texture mapping with no perspective correction: the texture is spread in a strai
 - Snap vertices to whole pixels so geometry jitters.
 - Split large faces into smaller triangles to limit the warp.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Edge** (magazine, Bath, England, 1993–now), published the style. A British game magazine with a focus on design and art direction since the first polygon consoles.
 

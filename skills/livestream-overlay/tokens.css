@@ -1,0 +1,129 @@
+/*
+ * Livestream Overlay — tokens
+ * Generated from data/internet/styles/livestream-overlay.json by design-ontology. Do not edit.
+ * Use: put data-style="livestream-overlay" on <html> or on any container.
+ */
+[data-style="livestream-overlay"] {
+  --color-bg: #0E0E12;
+  --color-surface: #1A1A24;
+  --color-text: #F4F4FA;
+  --color-muted: #A9A9BD;
+  --color-primary: #9146FF;
+  --color-accent: #00F0A0;
+  --color-border: #9146FF;
+  --font-sans: "Roboto Mono", "JetBrains Mono", monospace;
+  --font-display: "Rajdhani", "Oxanium", sans-serif;
+  --border-radius: 0px;
+  --border-width: 2px;
+  --shadow-elevation: 0 0 12px rgba(145,70,255,0.6);
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+  --duration: 300ms;
+  --type-ratio: 1.25;
+  --size-small: 11.2px;
+  --size-h3: 21.88px;
+  --size-h2: 27.34px;
+  --size-h1: 34.18px;
+  --color-on-bg: #F4F4FA;
+  --color-on-surface: #F4F4FA;
+  --color-on-primary: #FFFFFF;
+  --color-on-accent: #0E0E12;
+  --color-muted-on-bg: #A9A9BD;
+  --color-muted-on-surface: #A9A9BD;
+  --color-link: #00F0A0;
+  --color-link-on-surface: #00F0A0;
+  --display-weight: 700;
+  --subhead-weight: 500;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 500;
+  --display-tracking: 0.08em;
+  --display-leading: 1.1;
+  --display-case: uppercase;
+  --body-leading: 1.4;
+  --body-size: 14px;
+  --icon-stroke: 2;
+  --ground: repeating-linear-gradient(0deg, color-mix(in oklab, var(--color-primary) 7%, transparent) 0 1px, transparent 1px 3px),
+    radial-gradient(120% 90% at 50% 50%, transparent 55%, rgba(0,0,0,.55)),
+    radial-gradient(50% 55% at 72% 40%, color-mix(in oklab, var(--color-primary) 16%, transparent), transparent 70%),
+    radial-gradient(35% 40% at 20% 85%, color-mix(in oklab, var(--color-accent) 10%, transparent), transparent 70%),
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="livestream-overlay"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="livestream-overlay"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="livestream-overlay"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="livestream-overlay"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="livestream-overlay"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="livestream-overlay"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="livestream-overlay"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="livestream-overlay"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="livestream-overlay"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="livestream-overlay"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="livestream-overlay"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="livestream-overlay"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="livestream-overlay"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="livestream-overlay"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

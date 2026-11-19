@@ -171,9 +171,9 @@ A beam or slab fixed at one end that carries load beyond its support, so that it
 - Keep the free end thin; a depth of 1/8 to 1/10 of the span suits steel and concrete.
 - Repeat the horizontal line in a run of 2 or 3 projecting planes to give a strong shadow.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Bauhaus** (school, Weimar, Dessau, Berlin, 1919–1933), made the style. A school of art, craft and design that joined the workshop to the studio. Its teachers and students set the forms of modern design, interiors and building.
 
@@ -202,7 +202,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md), [`industrial-utility-product`](../industrial-utility-product/SKILL.md)
 - **Led to (go here for a newer version):** [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md)
 - **Mixes well with:** [`art-deco-product`](../art-deco-product/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md)
-- **Kin in another domain:** [`bauhaus`](../bauhaus/SKILL.md), [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`bauhaus-interior`](../bauhaus-interior/SKILL.md)
+- **Kin in another domain:** [`bauhaus`](../bauhaus/SKILL.md), [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`bauhaus-interior`](../bauhaus-interior/SKILL.md), [`bauhaus-modern-tableware`](../bauhaus-modern-tableware/SKILL.md), [`modernist-studio-jewellery`](../modernist-studio-jewellery/SKILL.md)
 - **Nearest by vector profile:** [`super-normal-product`](../super-normal-product/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md), [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md)
 
 ## Emotional target

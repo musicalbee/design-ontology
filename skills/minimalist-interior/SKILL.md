@@ -295,9 +295,9 @@ A narrow recessed joint between two surfaces that casts a shadow, so that each s
 - Hold the gap at a constant width along its full length.
 - Use it where new meets old: between a wall and a ceiling, a floor and a skirting, or a new insert and a historic wall.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Dwell** (magazine, San Francisco, 2000–now), published the style. A magazine of modern homes. It shows lofts, prefabs and plain rooms of raw materials.
 - **Wallpaper*** (magazine, London, 1996–now), published the style. A magazine of design, interiors and travel. It published spare, minimal rooms and architecture.
@@ -325,7 +325,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`memphis-interior`](../memphis-interior/SKILL.md)
 - **Was rejected by:** [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md)
 - **Mixes well with:** [`coastal-interior`](../coastal-interior/SKILL.md)
-- **Kin in another domain:** [`flat-design`](../flat-design/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`minimal-wordmark`](../minimal-wordmark/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+- **Kin in another domain:** [`clean-girl`](../clean-girl/SKILL.md), [`designer-wall-hung-sanitary`](../designer-wall-hung-sanitary/SKILL.md), [`electric-minimal-car`](../electric-minimal-car/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`large-format-porcelain-tiles`](../large-format-porcelain-tiles/SKILL.md), [`minimal-wordmark`](../minimal-wordmark/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md), [`minimalist-fashion`](../minimalist-fashion/SKILL.md), [`nouvelle-cuisine`](../nouvelle-cuisine/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
 - **Nearest by vector profile:** [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md)
 
 ## Emotional target

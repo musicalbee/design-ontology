@@ -1,0 +1,348 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "dual-camera-snapshot",
+  "domain": "internet",
+  "name": "Dual Camera Snapshot",
+  "aliases": [
+    "BeReal look",
+    "Front and back photo",
+    "Late photo"
+  ],
+  "branch": "social-photo",
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2022,
+    "end": null,
+    "label": "2022–now"
+  },
+  "primary_mediums": [
+    "mobile",
+    "image"
+  ],
+  "summary": "One post made of two photos from one moment: the back camera fills the frame and the front camera sits in a small inset. A time stamp and a late mark show that it was not planned.",
+  "philosophy": {
+    "core_thesis": "Proof of a real moment: two cameras fire at once, there is no edit, and the late mark shows that the poster did not stage it.",
+    "design_principles": [
+      "Take both photos in one 2-second window: the back camera fills the frame and the front camera fills an inset.",
+      "Place the inset at the top left, 28% of the frame width, with a 2px white border and a 12px radius.",
+      "Allow no filter, no crop and no edit: keep the raw colour and the phone noise.",
+      "Show a time stamp such as '14:32' and a late mark such as '2h late' in a mono face at 12px under the photo.",
+      "Set the page on pure black (#0B0B0B) so that the photo carries all the colour.",
+      "Limit the caption to 1 line of 40 characters or fewer, in white.",
+      "Show friends in a list sorted by time, with one tile for each person and a blur on tiles not yet unlocked."
+    ],
+    "anti_patterns": [
+      "Filters, presets and retouch",
+      "Staged poses with props",
+      "A single camera view",
+      "Long captions and tags",
+      "Bright, colourful app chrome",
+      "A fixed grid rhythm"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 3,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 5,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "A full-width 3:4 photo with a small inset at the top left; a feed of such tiles in one column of 390px.",
+    "whitespace_ratio": "10% to 15% stays empty; the spacing scale is 4, 8, 16 and 24px.",
+    "alignment_rules": "The photo fills the width; the inset sits 12px from the top and left edges; the time stamp aligns flush left below the photo.",
+    "container_geometry": "A photo with a 16px radius; an inset with a 12px radius and a 2px white border; a pill for the late mark with a 999px radius."
+  },
+  "typography": {
+    "classifications": [
+      "grotesque",
+      "monospace"
+    ],
+    "font_pairings": [
+      {
+        "display": "Archivo",
+        "body": "Inter",
+        "note": "A bold grotesque for the title and a neutral body face."
+      },
+      {
+        "display": "Archivo Narrow",
+        "body": "Roboto Mono",
+        "note": "A narrow, bold face for a title with a mono time stamp."
+      },
+      {
+        "display": "Space Mono",
+        "body": "Inter",
+        "note": "A mono face for the time stamp and the late mark."
+      }
+    ],
+    "tracking": "Display takes 0em; the time stamp takes +0.04em.",
+    "leading": "Display 1.1; body 1.5.",
+    "hierarchy_rules": [
+      "Use two weights: 400 and 800.",
+      "Use sizes 12, 14, 20 and 32px.",
+      "Set the time stamp in a mono face at 12px.",
+      "Use white text only; use red only for the late mark."
+    ]
+  },
+  "color": {
+    "palette_structure": "A pure black ground with white text, one late red and one time-stamp amber; photos supply all other colour.",
+    "palette": [
+      {
+        "name": "Viewfinder Black",
+        "hex": "#0B0B0B",
+        "role": "background"
+      },
+      {
+        "name": "Panel Black",
+        "hex": "#1A1A1A",
+        "role": "surface"
+      },
+      {
+        "name": "Frame White",
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "name": "Grain Grey",
+        "hex": "#BDBDBD",
+        "role": "muted"
+      },
+      {
+        "name": "Late Red",
+        "hex": "#FF3B30",
+        "role": "accent"
+      },
+      {
+        "name": "Timestamp Amber",
+        "hex": "#FFD60A",
+        "role": "highlight"
+      },
+      {
+        "name": "Neutral Grey",
+        "hex": "#8E8E93",
+        "role": "border"
+      }
+    ],
+    "contrast_rules": "White text on black holds at least 18:1; red and amber carry the late mark and the time stamp only.",
+    "surface_treatment": "A flat black ground; the photo carries raw phone colour; no filter on any element.",
+    "light_and_shadow": "Natural, uneven light in the photos with phone noise; the chrome has no shadow."
+  },
+  "materiality": {
+    "surface_simulation": "A phone viewfinder: black bars, a live frame and a small selfie inset.",
+    "border_rules": "A 2px white border on the inset; no border on the main photo.",
+    "blur_and_elevation": "A 24px blur on locked friend tiles; no cast shadow."
+  },
+  "ornamentation_details": {
+    "iconography": "Solid icons at 24px with round ends: camera flip, comment, location and send.",
+    "illustration": "No drawn art; a small emoji reaction as a round photo of the face, 40px.",
+    "decorative_elements": [
+      "selfie inset",
+      "time stamp",
+      "late mark",
+      "blur lock",
+      "camera flip button"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "A 2-minute timer shows a ring that fills over 120s; the shutter flashes white for 120ms; the inset swaps with the main photo in 250ms on tap.",
+    "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "duration_ms": 250,
+    "hover_and_active": "A tap on the inset swaps the two views; a long press on a tile shows the full photo at 100% for the hold time."
+  },
+  "lineage": {
+    "evolved_from": [
+      "photo-dump"
+    ],
+    "rebelled_against": [
+      "cohesive-feed-grid"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "camcorder-revival",
+      "vertical-short-form"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels a small, honest closeness: a real look at an ordinary moment.",
+    "keywords": [
+      "raw",
+      "honest",
+      "immediate",
+      "ordinary",
+      "candid",
+      "unedited"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "explorer",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "bereal",
+      "dual camera",
+      "front and back camera",
+      "selfie inset",
+      "no filter",
+      "late post",
+      "raw photo",
+      "unedited"
+    ],
+    "use_cases": [
+      "authentic-moment social app screens",
+      "behind-the-scenes posts",
+      "team check-in features",
+      "campaigns about real life"
+    ],
+    "avoid_when": [
+      "The brand needs polished, staged imagery.",
+      "The product photo must be flawless.",
+      "The audience wants entertainment more than honesty."
+    ],
+    "modifiers": [
+      {
+        "request": "more playful",
+        "toward": "photo-dump",
+        "how": "Allow 6 to 20 images, stickers, marker words and mixed ratios."
+      },
+      {
+        "request": "more polished",
+        "toward": "cohesive-feed-grid",
+        "how": "Apply one preset, remove the inset and lay the photos in a 3-column grid."
+      },
+      {
+        "request": "warmer",
+        "toward": "vsco-preset-look",
+        "how": "Add a matte warm grade and a pale off-white ground."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 800,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 800,
+      "label_weight": 400,
+      "accent": "weight",
+      "display_tracking": "0em",
+      "display_leading": 1.1,
+      "display_case": "none",
+      "body_leading": 1.5,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "circle",
+      "pack": {
+        "id": "ph-fill",
+        "why": "A solid, bold family that reads well on a black camera screen."
+      }
+    },
+    "art": {
+      "recipe": "spatial",
+      "pattern": "none",
+      "seed": 22
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "raw",
+      "why": "The ground is a plain black field: a camera viewfinder with nothing behind the photo."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#0B0B0B",
+      "--color-surface": "#1A1A1A",
+      "--color-text": "#FFFFFF",
+      "--color-muted": "#BDBDBD",
+      "--color-primary": "#FFFFFF",
+      "--color-accent": "#FF3B30",
+      "--color-border": "#8E8E93",
+      "--font-sans": "\"Inter\", \"Helvetica Neue\", sans-serif",
+      "--font-display": "\"Archivo\", \"Archivo Narrow\", sans-serif",
+      "--border-radius": "16px",
+      "--border-width": "2px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "--duration": "250ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#0B0B0B] text-[#FFFFFF] font-sans antialiased px-4 md:px-8"
+      },
+      {
+        "element": "heading",
+        "classes": "text-3xl md:text-5xl font-extrabold leading-[1.1]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border-2 border-[#8E8E93] bg-[#1A1A1A] p-4 rounded-2xl"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-full bg-white px-6 py-3 text-sm font-extrabold text-[#0B0B0B] transition-opacity duration-[250ms] hover:opacity-80"
+      },
+      {
+        "element": "label",
+        "classes": "font-mono text-xs tracking-[0.04em] text-[#FFD60A]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#FFFFFF",
+        "#FF3B30",
+        "#FFD60A"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#FF3B30",
+        "#FFD60A",
+        "#FFFFFF"
+      ]
+    },
+    "corner_radius": {
+      "min": 8,
+      "max": 24
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: BeReal",
+      "url": "https://en.wikipedia.org/wiki/BeReal"
+    },
+    {
+      "title": "Wikipedia: Photo dump",
+      "url": "https://en.wikipedia.org/wiki/Photo_dump"
+    }
+  ]
+}

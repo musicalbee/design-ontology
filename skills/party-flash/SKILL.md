@@ -177,9 +177,9 @@ A flash on the camera that fires straight at the subject, so that faces are brig
 - Stand 1 to 3 m from the subject; let the background fall 2 to 4 stops darker.
 - Keep the red eye, the shine on skin and the hard shadow behind the subject.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Vice** (magazine, Montreal, 1994–now), published the style. A youth culture magazine. Its pages were full of direct-flash party and street photos.
 
@@ -204,7 +204,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`y2k-digicam`](../y2k-digicam/SKILL.md)
 - **Mixes well with:** [`film-grain-revival`](../film-grain-revival/SKILL.md), [`street-photography`](../street-photography/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
-- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`cyberdelia`](../cyberdelia/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
+- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`cyberdelia`](../cyberdelia/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`photo-dump`](../photo-dump/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Nearest by vector profile:** [`documentary-photography`](../documentary-photography/SKILL.md), [`film-grain-revival`](../film-grain-revival/SKILL.md), [`group-f64`](../group-f64/SKILL.md)
 
 ## Emotional target

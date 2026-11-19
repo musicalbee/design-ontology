@@ -170,9 +170,9 @@ Paint the colour, light, shadow and wear of a surface by hand into its texture, 
 - Shift shadows toward cool hues and highlights toward warm hues.
 - Paint wear as bright strokes 2–4 px wide on edges.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Blizzard Entertainment** (studio, Irvine, California, 1991–now), made the style. An American studio known for chunky, hand-painted fantasy worlds.
 - **Polycount** (platform, online, ?–now), gathered the style. An online forum and wiki for game artists, with much shared practice on hand-painted and PBR texture work.

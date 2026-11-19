@@ -172,11 +172,11 @@ Parallel grooves (flutes) or ridges (reeds) on a column, a panel, a leg or a she
 - Run the flutes vertical to make a surface look taller.
 - Use one fluted surface in each room as an accent.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Gillows of Lancaster and London** (workshop, Lancaster and London, ?–now), made the style. An English furniture maker that started in about 1730. Its mahogany furniture filled Georgian houses.
+- **Gillows of Lancaster and London** (company, Lancaster and London, ?–now), made the style. An English furniture maker that started in about 1730. Its mahogany furniture filled Georgian houses.
 
 ## Permutations
 
@@ -202,7 +202,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`victorian-manufacture`](../victorian-manufacture/SKILL.md)
 - **Was rejected by:** [`shaker-object`](../shaker-object/SKILL.md)
-- **Kin in another domain:** [`georgian-interior`](../georgian-interior/SKILL.md), [`neoclassical-architecture`](../neoclassical-architecture/SKILL.md)
+- **Kin in another domain:** [`biscuit-porcelain-figures`](../biscuit-porcelain-figures/SKILL.md), [`breguet-classical-watch`](../breguet-classical-watch/SKILL.md), [`creamware-neoclassical`](../creamware-neoclassical/SKILL.md), [`empire-line-dress`](../empire-line-dress/SKILL.md), [`english-bespoke-tailoring`](../english-bespoke-tailoring/SKILL.md), [`georgian-interior`](../georgian-interior/SKILL.md), [`georgian-jewellery`](../georgian-jewellery/SKILL.md), [`georgian-porcelain-tea-service`](../georgian-porcelain-tea-service/SKILL.md), [`jasperware-neoclassical`](../jasperware-neoclassical/SKILL.md), [`neoclassical-architecture`](../neoclassical-architecture/SKILL.md), [`regency-gilded-bone-china`](../regency-gilded-bone-china/SKILL.md)
 - **Nearest by vector profile:** [`art-deco-product`](../art-deco-product/SKILL.md), [`art-nouveau-object`](../art-nouveau-object/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)
 
 ## Emotional target

@@ -1,0 +1,358 @@
+{
+  "$schema": "../../../schema/domains/ceramics.schema.json",
+  "id": "famille-rose-qing",
+  "domain": "ceramics",
+  "name": "Famille rose (Qing)",
+  "aliases": [
+    "Fencai",
+    "Yangcai",
+    "Rose family porcelain"
+  ],
+  "era_id": "porcelain-race",
+  "branch": "vessels",
+  "time_period": {
+    "start": 1720,
+    "end": 1800,
+    "label": "1720–1800"
+  },
+  "region": "Jingdezhen and Beijing, Qing China",
+  "summary": "Qing porcelain painted in opaque enamels over a fired glaze. A pink made from gold gives the style its name. The imperial kilns of Jingdezhen made the finest vases and bowls.",
+  "philosophy": {
+    "core_thesis": "A white porcelain glaze takes opaque enamel like a canvas, and a pink from gold lets the painter model soft flesh, petals and clouds.",
+    "design_principles": [
+      "Fire the white porcelain and its clear glaze first, at about 1300 °C, and paint only on the finished surface.",
+      "Mix the pink enamel with colloidal gold, in a ratio of about 1 part gold salt to 1000 parts glass.",
+      "Lay a white enamel under each pink, so that the pink reads in graded tints from deep rose to white.",
+      "Outline each shape in fine black or iron red, 0.3 to 0.5 mm wide, before the fill.",
+      "Cover the whole wall with one scene: flowering branches, birds, peaches and bats, or figures in a garden.",
+      "Fire the enamels again at 750 to 800 °C in a small muffle kiln, one colour group at a time.",
+      "Add gilt lines at the neck, the foot and the handles; keep the gold to 10 per cent of the surface.",
+      "Keep the inside and the base of an imperial piece white, or turquoise, with a six-character reign mark."
+    ],
+    "anti_patterns": [
+      "Flat blue-and-white painting under the glaze, with no enamel",
+      "A pink that is uniform, with no tint and no shade",
+      "Coarse thick body with visible kiln grit",
+      "Dense black outlines that look like a woodcut",
+      "Printed decals in place of painted enamels"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 5,
+    "hand_mark": 3,
+    "refinement": 5,
+    "glaze_depth": 3,
+    "chromatic_intensity": 5
+  },
+  "form": {
+    "shape": "Baluster and pear-shaped vases, double-gourd bottle vases, lidded jars, deep bowls, and large dishes with a wide rim.",
+    "profile": "A full, smooth curve from the foot to a narrow neck; bowls have a thin, flared wall and a plain rim.",
+    "foot_and_rim": "A low, neat foot ring that is glazed white or turquoise inside and carries a reign mark; a fine rim with a line of gold or iron red.",
+    "proportion": "Vase height 25 to 45 cm; the wall is 2 to 4 mm thick, and the neck is about one third of the width of the belly.",
+    "rules": [
+      "Make the form simple and balanced, so that the painting is the whole display.",
+      "Throw the piece in sections and join them when they are leather-hard.",
+      "Pare the wall thin until it is translucent at the rim."
+    ]
+  },
+  "bodies": {
+    "primary": [
+      "porcelain"
+    ],
+    "secondary": [
+      "ormolu"
+    ],
+    "avoid": [
+      "stoneware",
+      "earthenware",
+      "bone-china"
+    ],
+    "rule": "Use a white kaolin and petuntse body that fires hard and translucent at 1300 °C. Western mounts of ormolu are the only metal that is added after the firing."
+  },
+  "forming": {
+    "methods": [
+      "throwing in sections and joining at leather-hard",
+      "paring the wall on the wheel",
+      "press moulding of lobed bowls and dishes",
+      "painting of enamels in the palace workshops of Beijing"
+    ],
+    "joins": "Neck and belly are luted with slip and then pared flush, so that the join does not show under the enamel.",
+    "details": "A bare ring on the foot, a clear six-character mark in blue or in red enamel, and a fine glass-like enamel surface that stands a little above the glaze."
+  },
+  "glaze": {
+    "glazes": [
+      "clear-feldspathic",
+      "celadon",
+      "crackle-glaze"
+    ],
+    "decorations": [
+      "famille-rose",
+      "overglaze-enamel",
+      "gilding",
+      "underglaze-cobalt"
+    ],
+    "pattern": "Flowering branches, peaches, birds, bats and clouds across the whole wall, with a ground of gold, turquoise or coral, and a border of lotus scrolls.",
+    "gloss": "High gloss, about 85 to 100 GU on the glaze; the enamel stands as a soft raised film on top.",
+    "wear": "The enamel can flake at the rim and leave bare spots; the pink keeps its tint, but old gilding rubs off."
+  },
+  "palette": {
+    "strategy": "A soft rose pink at the centre of a wide range of pastel tints, with green, yellow and blue as support, on a white or coloured ground.",
+    "colours": [
+      {
+        "name": "Porcelain white",
+        "hex": "#F4F1EA",
+        "role": "ground"
+      },
+      {
+        "name": "Gold rose pink",
+        "hex": "#C4506F",
+        "role": "main enamel"
+      },
+      {
+        "name": "Pale rose",
+        "hex": "#EBB7C4",
+        "role": "tint"
+      },
+      {
+        "name": "Leaf green",
+        "hex": "#4F8F6A",
+        "role": "foliage"
+      },
+      {
+        "name": "Enamel yellow",
+        "hex": "#E3B74A",
+        "role": "ground and flower"
+      },
+      {
+        "name": "Cobalt blue",
+        "hex": "#3F6FB0",
+        "role": "accent"
+      },
+      {
+        "name": "Iron black",
+        "hex": "#1E1E1E",
+        "role": "outline"
+      },
+      {
+        "name": "Gilt gold",
+        "hex": "#C9A24B",
+        "role": "line"
+      }
+    ]
+  },
+  "firing": {
+    "kiln": "A Jingdezhen egg-shaped kiln, wood-fired, for the body and glaze; a small muffle kiln of charcoal for the enamels.",
+    "atmosphere": "oxidation",
+    "temperature_c": [
+      760,
+      1300
+    ],
+    "processes": [
+      "first firing of the body and clear glaze at about 1300 °C",
+      "painting of the white enamel and the pink in graded tints",
+      "second firing of the enamels at 760 to 800 °C",
+      "third firing for the gold and some of the reds"
+    ],
+    "scale": "Imperial work for the Yongzheng and Qianlong courts: small runs, with one painter for each colour group.",
+    "signs": "A raised glassy enamel, small pin-holes in the pink, and a pale ring at the foot where the enamel stops."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "baluster-vase",
+        "form": "Baluster vase with peach branches and bats across the whole wall",
+        "body": "porcelain",
+        "glaze": "clear-feldspathic",
+        "decoration": "famille-rose"
+      },
+      {
+        "object": "bottle-vase",
+        "form": "Double-gourd bottle vase with a turquoise ground and a gilt scroll",
+        "body": "porcelain",
+        "glaze": "celadon",
+        "decoration": "overglaze-enamel"
+      },
+      {
+        "object": "lidded-jar",
+        "form": "Lidded jar with a bird on a flowering branch and a gilt rim",
+        "body": "porcelain",
+        "glaze": "clear-feldspathic",
+        "decoration": "gilding"
+      },
+      {
+        "object": "display-bowl",
+        "form": "Deep bowl with a thin wall and a figures-in-a-garden scene outside",
+        "body": "porcelain",
+        "glaze": "clear-feldspathic",
+        "decoration": "famille-rose"
+      },
+      {
+        "object": "charger",
+        "form": "Large dish with a wide rim, a central peony spray, and a lotus-scroll border",
+        "body": "porcelain",
+        "glaze": "crackle-glaze",
+        "decoration": "underglaze-cobalt"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Qing dynasty famille rose porcelain",
+      "opaque enamel painted over white glaze",
+      "soft gold-rose pink graded tints",
+      "peach branches and bats",
+      "fine black outline, delicate brush",
+      "raised glassy enamel surface",
+      "thin translucent porcelain wall",
+      "museum still life, soft light"
+    ],
+    "negative": [
+      "blue-and-white only",
+      "flat uniform pink",
+      "thick coarse body",
+      "printed decal",
+      "stoneware or earthenware"
+    ],
+    "canonical_works": [
+      {
+        "work": "Famille rose peach-and-bat vase",
+        "maker": "Jingdezhen imperial kilns",
+        "year": 1740
+      },
+      {
+        "work": "Revolving vase with painted interior scenes",
+        "maker": "Jingdezhen imperial kilns",
+        "year": 1750
+      },
+      {
+        "work": "Falangcai bowl with swallows and peach blossom",
+        "maker": "Jingdezhen imperial kilns",
+        "year": 1730
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Famille rose vase, Manchester Art Gallery 1947.534, autumn panel",
+      "kind": "image",
+      "credit": "DigitalAsianart",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Famille_rose_vase_%E2%80%93_1947.534_%E2%80%93_Manchester_Art_Gallery_%E2%80%93_Autumn_panel.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Famille_rose_vase_%E2%80%93_1947.534_%E2%80%93_Manchester_Art_Gallery_%E2%80%93_Autumn_panel.jpg/960px-Famille_rose_vase_%E2%80%93_1947.534_%E2%80%93_Manchester_Art_Gallery_%E2%80%93_Autumn_panel.jpg",
+      "maker": "Jingdezhen kilns"
+    },
+    {
+      "title": "Bowl with Flowers and Butterflies, Walters 491108",
+      "kind": "image",
+      "credit": "Anonymous (China)Unknown author",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Chinese_-_Bowl_with_Flowers_and_Butterflies_-_Walters_491108_-_Side.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Chinese_-_Bowl_with_Flowers_and_Butterflies_-_Walters_491108_-_Side.jpg/960px-Chinese_-_Bowl_with_Flowers_and_Butterflies_-_Walters_491108_-_Side.jpg",
+      "maker": "Jingdezhen kilns"
+    },
+    {
+      "title": "Famille rose bowl, Yongzheng reign, Palace Museum",
+      "kind": "image",
+      "credit": "Gary Todd from Xinzheng, China",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Qing_Famille-rose_Bowl,_Yongzheng_Reign,_Forbidden_City_Palace_Museum_(9862189284).jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Qing_Famille-rose_Bowl%2C_Yongzheng_Reign%2C_Forbidden_City_Palace_Museum_%289862189284%29.jpg/960px-Qing_Famille-rose_Bowl%2C_Yongzheng_Reign%2C_Forbidden_City_Palace_Museum_%289862189284%29.jpg",
+      "maker": "Jingdezhen imperial kilns"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "yuan-ming-blue-and-white",
+      "kakiemon-imari-export"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "A feeling of rich, calm refinement: the viewer sees soft rose colour, a crowded garden and a very fine surface, and admires the skill of many hands.",
+    "keywords": [
+      "refined",
+      "luxurious",
+      "delicate",
+      "lush",
+      "courtly"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "lover"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "famille rose",
+      "fencai",
+      "yangcai",
+      "qing enamelled porcelain",
+      "qianlong porcelain vase",
+      "yongzheng porcelain",
+      "rose pink enamel",
+      "chinese export porcelain painted"
+    ],
+    "use_cases": [
+      "a vase or jar with delicate pink enamel painting",
+      "a Qing court interior prompt",
+      "a museum label for Chinese overglaze enamel"
+    ],
+    "avoid_when": [
+      "the brief needs blue and white under the glaze",
+      "the brief needs a rough or rustic body",
+      "the brief wants a minimal undecorated form"
+    ],
+    "modifiers": [
+      {
+        "request": "blue and white only",
+        "toward": "yuan-ming-blue-and-white",
+        "how": "Remove the enamels and paint cobalt under the glaze; keep the form and fire once at 1300 °C."
+      },
+      {
+        "request": "more export, Japanese colours",
+        "toward": "kakiemon-imari-export",
+        "how": "Use a sparse red, blue and gold palette, leave white ground open, and fire with iron red and gilt."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Famille rose",
+      "url": "https://en.wikipedia.org/wiki/Famille_rose"
+    },
+    {
+      "title": "Wikipedia: Chinese ceramics",
+      "url": "https://en.wikipedia.org/wiki/Chinese_ceramics"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.85,
+      "min": 0.5,
+      "max": 1
+    },
+    "glaze_gloss": {
+      "default": 90,
+      "min": 70,
+      "max": 100
+    },
+    "wall_thickness": {
+      "default": 3,
+      "min": 2,
+      "max": 6,
+      "note": "A porcelain vase of this style has a thin wall; a thick wall breaks the effect."
+    },
+    "hand_mark": {
+      "default": 0.5,
+      "min": 0.2,
+      "max": 0.7
+    },
+    "era_blend": {
+      "default": 0.25,
+      "min": 0,
+      "max": 1
+    }
+  }
+}

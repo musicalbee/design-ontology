@@ -1,0 +1,364 @@
+{
+  "$schema": "../../../schema/domains/ceramics.schema.json",
+  "id": "rococo-porcelain-figures",
+  "domain": "ceramics",
+  "name": "Rococo porcelain figures",
+  "aliases": [
+    "Meissen figures",
+    "Kändler figures",
+    "Commedia dell'arte porcelain",
+    "Dresden figures"
+  ],
+  "era_id": "porcelain-race",
+  "branch": "figurative",
+  "time_period": {
+    "start": 1731,
+    "end": 1770,
+    "label": "1731–1770"
+  },
+  "region": "Meissen, Saxony, and the courts of Europe",
+  "summary": "Small hand-painted porcelain figures of lovers, shepherds, harlequins and monkeys, made for the dessert table of the court. They are white, glossy and light, in S-curves with lace, flowers and gilt.",
+  "philosophy": {
+    "core_thesis": "A porcelain figure is a toy for the table of a prince: white, glossy and light, it turns a scene of court play into a small, bright piece of theatre.",
+    "design_principles": [
+      "Model the figure in a twisting S-curve, with the head turned against the hip.",
+      "Keep the figure 10 to 30 cm high, with a base that is a small mound or a scrolled plinth.",
+      "Cast the figure from many small piece moulds, and join the parts with slip.",
+      "Dip real lace in slip and drape it on the dress, so that it fires to a stiff white lace.",
+      "Add flowers, small birds and leaves by hand to the base and the hair.",
+      "Paint the figure with overglaze enamels in clear, light colours, and fix them at 700 to 800 °C.",
+      "Add gilt scrolls on the base and the hem, and burnish them after the third firing.",
+      "Choose a scene from the stage or the court: Harlequin, Columbine, a gallant, a shepherdess, a monkey in a wig."
+    ],
+    "anti_patterns": [
+      "A stiff upright figure with both feet flat and the arms at the sides",
+      "A matt unglazed biscuit surface with no colour",
+      "A heavy earthenware body with a thick glaze",
+      "A mass of cold, dark and muddy colours",
+      "A figure larger than 50 cm",
+      "Flat decal faces that look printed"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 5,
+    "hand_mark": 4,
+    "refinement": 5,
+    "glaze_depth": 2,
+    "chromatic_intensity": 4
+  },
+  "form": {
+    "shape": "Single figures and small groups: gallants and ladies, shepherds, harlequins, craftsmen, cries of a town and animals, on a low scroll base.",
+    "profile": "A twisting S-curve from the foot to the head, with a gesture that is half a step and half a bow; the dress swings out in wide skirts.",
+    "foot_and_rim": "A small rocaille base with C-scrolls, moulded and gilt, or a grass mound with applied flowers; the underside is open with a vent hole.",
+    "proportion": "Height 10 to 30 cm; the body is 3 to 4 mm thick, and the head is about one sixth of the height.",
+    "rules": [
+      "Make the pose a turn and a gesture, never a plain stand.",
+      "Apply lace, flowers and small parts by hand.",
+      "Keep the glaze thin and clear over the white body.",
+      "Paint light, clear colours and keep the flesh tone pale.",
+      "Gild the base and the hem only in small scrolls."
+    ]
+  },
+  "bodies": {
+    "primary": [
+      "european-hard-paste"
+    ],
+    "secondary": [
+      "soft-paste-porcelain"
+    ],
+    "avoid": [
+      "earthenware",
+      "creamware",
+      "stoneware",
+      "terracotta",
+      "parian"
+    ],
+    "rule": "Use a white, hard, translucent paste that takes a clear glaze. Soft-paste works for English and French makers, but the figure stays white and thin-walled."
+  },
+  "forming": {
+    "methods": [
+      "modelling of a master figure in clay or wax by the modeller",
+      "moulding in many small plaster or clay piece moulds",
+      "casting or pressing of the parts in the moulds",
+      "joining of parts with slip",
+      "dipping of lace in slip",
+      "hand painting in enamels"
+    ],
+    "joins": "Arms, heads, hats and props are cast apart and fixed to the body with slip. The joins are cleaned and hidden by hand work.",
+    "details": "A small vent hole in the base, a fine hair line in the face, a crossed swords or crown mark under the base, and a slightly uneven edge of the lace."
+  },
+  "glaze": {
+    "glazes": [
+      "clear-feldspathic",
+      "biscuit"
+    ],
+    "decorations": [
+      "overglaze-enamel",
+      "gilding",
+      "sprigging",
+      "relief-moulding"
+    ],
+    "pattern": "Painted flowers, striped and spotted dress, stripes on a harlequin suit and gilt scrolls on the base. Sprigged flowers and leaves are added by hand.",
+    "gloss": "High gloss, about 85 to 100 GU on the glaze; gilding is burnished and bright.",
+    "wear": "The enamel colours rub at the edges and the gilt wears at the hem. Chips on lace, fingers and flowers are common, and old repairs are often visible."
+  },
+  "palette": {
+    "strategy": "A white, glossy ground with clear, light enamel colours in small areas: pink, yellow, turquoise and purple, set with gold.",
+    "colours": [
+      {
+        "name": "Porcelain white",
+        "hex": "#F6F4EE",
+        "role": "ground"
+      },
+      {
+        "name": "Rose pink",
+        "hex": "#D98A9A",
+        "role": "dress"
+      },
+      {
+        "name": "Straw yellow",
+        "hex": "#E6C75A",
+        "role": "dress"
+      },
+      {
+        "name": "Turquoise",
+        "hex": "#4DA6A0",
+        "role": "dress"
+      },
+      {
+        "name": "Lilac",
+        "hex": "#9C7AB0",
+        "role": "dress"
+      },
+      {
+        "name": "Burnished gold",
+        "hex": "#B8923A",
+        "role": "gilding"
+      }
+    ]
+  },
+  "firing": {
+    "kiln": "A wood-fired round kiln with saggars for the hard paste, and a small muffle kiln for the enamels and the gilt.",
+    "atmosphere": "oxidation",
+    "temperature_c": [
+      1350,
+      1450
+    ],
+    "processes": [
+      "biscuit firing at about 900 °C",
+      "dipping in glaze",
+      "glaze firing at about 1400 °C",
+      "enamel firing at 700 to 800 °C",
+      "gilding firing at about 650 °C"
+    ],
+    "scale": "A manufactory with modellers, repairers and painters; some 100 or more models a year at the peak, and large dessert services of figures.",
+    "signs": "A thin, even glaze, a fine vent hole, crossed swords under the base, and a mix of mould lines and hand-cut lace."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "figurine",
+        "form": "Harlequin with a slapstick, in a diamond suit, mid-step",
+        "body": "european-hard-paste",
+        "glaze": "clear-feldspathic",
+        "decoration": "overglaze-enamel"
+      },
+      {
+        "object": "figure-group",
+        "form": "A gallant and a lady in a bow on a scrolled base, with lace skirt",
+        "body": "european-hard-paste",
+        "glaze": "clear-feldspathic",
+        "decoration": "gilding"
+      },
+      {
+        "object": "figurine",
+        "form": "Shepherdess with a lamb and a straw hat, on a grass mound with flowers",
+        "body": "european-hard-paste",
+        "glaze": "clear-feldspathic",
+        "decoration": "sprigging"
+      },
+      {
+        "object": "animal-figure",
+        "form": "Monkey musician in a wig and coat, with a flute",
+        "body": "european-hard-paste",
+        "glaze": "clear-feldspathic",
+        "decoration": "overglaze-enamel"
+      },
+      {
+        "object": "figurine",
+        "form": "Chinoiserie lady with a parasol in soft-paste porcelain",
+        "body": "soft-paste-porcelain",
+        "glaze": "clear-feldspathic",
+        "decoration": "relief-moulding"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "18th-century German hard-paste porcelain figure",
+      "Rococo S-curve pose",
+      "commedia dell'arte harlequin figure",
+      "fine lace dipped in slip",
+      "glossy white glaze with soft enamel colours",
+      "gilt scrolls on a rocaille base",
+      "small figure on a dessert table",
+      "museum photograph, soft north light"
+    ],
+    "negative": [
+      "unglazed matt biscuit",
+      "heavy earthenware",
+      "life-size sculpture",
+      "cartoon eyes",
+      "modern plastic figure",
+      "muddy dark colours"
+    ],
+    "canonical_works": [
+      {
+        "work": "Harlequin with a jug",
+        "maker": "Johann Joachim Kändler, Meissen",
+        "year": 1738
+      },
+      {
+        "work": "Monkey band figures",
+        "maker": "Johann Joachim Kändler, Meissen",
+        "year": 1750
+      },
+      {
+        "work": "Lady with a fan",
+        "maker": "Meissen manufactory",
+        "year": 1740
+      },
+      {
+        "work": "Pantalone and Columbine",
+        "maker": "Franz Anton Bustelli, Nymphenburg",
+        "year": 1760
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Meissen Savoyard bagpiper, Kandler, c. 1741-1745",
+      "kind": "image",
+      "credit": "Daderot",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Figure_of_a_Savoyard-bagpiper,_c._1741-1745,_Meissen,_modellers_Johann_Joachim_Kandler_and_Friedrich_Elias_Meyer,_hard-paste_porcelain,_overglaze_enamels,_gilding_-_Gardiner_Museum,_Toronto_-_DSC00877.JPG",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Figure_of_a_Savoyard-bagpiper%2C_c._1741-1745%2C_Meissen%2C_modellers_Johann_Joachim_Kandler_and_Friedrich_Elias_Meyer%2C_hard-paste_porcelain%2C_overglaze_enamels%2C_gilding_-_Gardiner_Museum%2C_Toronto_-_DSC00877.JPG/960px-thumbnail.jpg",
+      "maker": "Meissen, Johann Joachim Kandler"
+    },
+    {
+      "title": "Meissen Saxon mine administrator, c. 1750",
+      "kind": "image",
+      "credit": "Daderot",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Figure_of_a_Saxon_mine_administrator,_c._1750,_Meissen,_modellers_Johann_Joachim_Kandler_and_Peter_Reinicke,_hard-paste_porcelain,_overglaze_enamels,_gilding_-_Gardiner_Museum,_Toronto_-_DSC00883.JPG",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Figure_of_a_Saxon_mine_administrator%2C_c._1750%2C_Meissen%2C_modellers_Johann_Joachim_Kandler_and_Peter_Reinicke%2C_hard-paste_porcelain%2C_overglaze_enamels%2C_gilding_-_Gardiner_Museum%2C_Toronto_-_DSC00883.JPG/960px-thumbnail.jpg",
+      "maker": "Meissen"
+    },
+    {
+      "title": "Meissen Member of the Order of the Pug",
+      "kind": "image",
+      "credit": "Andreas Praefcke",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Meissen_Member_of_the_Order_of_the_Pug_VA_C796-1936.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Meissen_Member_of_the_Order_of_the_Pug_VA_C796-1936.jpg/960px-Meissen_Member_of_the_Order_of_the_Pug_VA_C796-1936.jpg",
+      "maker": "Meissen"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "meissen-baroque-porcelain"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "rococo-painting",
+      "rococo-court-dress"
+    ]
+  },
+  "emotion": {
+    "target_response": "Light delight and a small wink: the viewer sees a tiny actor from the court theatre and thinks of dessert, lace and a joke in a wig.",
+    "keywords": [
+      "playful",
+      "delicate",
+      "theatrical",
+      "courtly",
+      "bright"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "lover"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "meissen figure",
+      "rococo porcelain figure",
+      "dresden figurine",
+      "kandler",
+      "commedia dell'arte figure",
+      "porcelain harlequin",
+      "18th-century porcelain figurine",
+      "monkey band figures"
+    ],
+    "use_cases": [
+      "a museum label for a Meissen figure",
+      "a table or dessert scene prompt",
+      "a collector's brief for a hard-paste figure",
+      "a set dressing prop for a court scene"
+    ],
+    "avoid_when": [
+      "the brief needs an unglazed matt white figure",
+      "the brief wants a folk figure from cheap earthenware",
+      "the brief needs a heroic life-size sculpture"
+    ],
+    "modifiers": [
+      {
+        "request": "matt white, classical",
+        "toward": "biscuit-porcelain-figures",
+        "how": "Remove the glaze and the enamel, keep the fine paste, and change the pose to a calmer, classical turn."
+      },
+      {
+        "request": "cheap, folk, earthenware",
+        "toward": "staffordshire-figures",
+        "how": "Change to a moulded earthenware body with a lead glaze and bold, flat enamel colours, and cut the lace and the gilt."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Meissen porcelain",
+      "url": "https://en.wikipedia.org/wiki/Meissen_porcelain"
+    },
+    {
+      "title": "Wikipedia: Johann Joachim Kändler",
+      "url": "https://en.wikipedia.org/wiki/Johann_Joachim_K%C3%A4ndler"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.8,
+      "min": 0.5,
+      "max": 1
+    },
+    "glaze_gloss": {
+      "default": 92,
+      "min": 75,
+      "max": 100
+    },
+    "wall_thickness": {
+      "default": 3,
+      "min": 2,
+      "max": 5
+    },
+    "hand_mark": {
+      "default": 0.5,
+      "min": 0.3,
+      "max": 0.7
+    },
+    "era_blend": {
+      "default": 0,
+      "min": 0,
+      "max": 1
+    }
+  }
+}

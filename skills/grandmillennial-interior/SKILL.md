@@ -303,9 +303,9 @@ Cotton printed with large flowers and birds, often glazed, used for curtains, co
 - Combine it with one stripe or check in a colour of the flowers.
 - Repeat the same print on 2 to 3 pieces in the room.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **House Beautiful** (magazine, New York, 1896–now), published the style. An American interior design magazine. In 2019 it made the name grandmillennial popular for the young taste for chintz, ruffles and old pieces.
 
@@ -330,7 +330,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`georgian-interior`](../georgian-interior/SKILL.md), [`victorian-interior`](../victorian-interior/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`minimalist-interior`](../minimalist-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
-- **Kin in another domain:** [`impressionism`](../impressionism/SKILL.md)
+- **Kin in another domain:** [`cottagecore`](../cottagecore/SKILL.md), [`impressionism`](../impressionism/SKILL.md)
 - **Nearest by vector profile:** [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md), [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md)
 
 ## Emotional target

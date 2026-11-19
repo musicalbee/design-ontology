@@ -1,0 +1,342 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "bohemian-web",
+  "domain": "internet",
+  "name": "Bohemian Web",
+  "aliases": [
+    "Boho",
+    "Boho chic web",
+    "Earthy folk web"
+  ],
+  "branch": "web-ui",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2012,
+    "end": null,
+    "label": "2012–now"
+  },
+  "primary_mediums": [
+    "web",
+    "mobile"
+  ],
+  "summary": "Earth tones, hand-drawn florals, macramé and woven patterns, arched shapes, warm photography and relaxed script type. It shows a free-spirited, natural and craft-based taste.",
+  "philosophy": {
+    "core_thesis": "The page is a lived-in, free-spirited space: natural, layered and warm.",
+    "design_principles": [
+      "Build the palette from 4 to 6 earth tones (terracotta, sand, sage, mustard, plum) with saturation of 25% to 55%.",
+      "Use arches as the main shape: image masks with a top radius of 999px and a bottom radius of 0 to 24px.",
+      "Layer 2 to 4 pattern fills (floral, macramé, ikat, dots) at 8% to 20% opacity behind sections.",
+      "Pair a warm serif display at 48px to 88px with a script accent at 28px to 40px and a humanist sans at 16px.",
+      "Set photography warm (colour temperature +10% to +20%) with grain of 3% to 6% and natural light.",
+      "Add organic dividers: a wavy line of 2px to 3px or a scalloped edge of 16px to 24px.",
+      "Keep corners soft: radius of 16px to 32px on cards and 999px on tags."
+    ],
+    "anti_patterns": [
+      "Cold blue and grey palettes",
+      "Sharp corners and heavy black borders",
+      "Neon and glow",
+      "Strict symmetric grids",
+      "Cold stock photography",
+      "Tech and HUD details",
+      "Pure white backgrounds"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 3,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 5,
+    "typographic_expressiveness": 4
+  },
+  "layout": {
+    "grid_mechanics": "A relaxed grid of 12 columns; images in arches overlap text blocks by 16px to 48px; sections change ground colour.",
+    "whitespace_ratio": "25% to 35% of the surface is empty; the spacing scale is 8, 16, 24, 48 and 96px.",
+    "alignment_rules": "Centred headings with scripts; text blocks flush left; images and tags set off-grid.",
+    "container_geometry": "Arches, rounded rectangles of 16px to 32px, circles and scalloped edges."
+  },
+  "typography": {
+    "classifications": [
+      "warm serif",
+      "script",
+      "humanist sans serif"
+    ],
+    "font_pairings": [
+      {
+        "display": "DM Serif Display",
+        "body": "Nunito Sans",
+        "note": "A warm, high-contrast display."
+      },
+      {
+        "display": "Cormorant Garamond",
+        "body": "Nunito Sans",
+        "note": "A soft serif for long headings."
+      },
+      {
+        "display": "Caveat",
+        "body": "Nunito Sans",
+        "note": "A relaxed script for accents."
+      }
+    ],
+    "tracking": "Display takes 0; the script takes 0.",
+    "leading": "Display 1.15; body 1.65.",
+    "hierarchy_rules": [
+      "Use weights 400 for display and body and 600 for labels.",
+      "Use sizes 16, 18, 32 and 72px.",
+      "Set script words at the size of the display or larger.",
+      "Set sentence case in headings with one script accent word."
+    ]
+  },
+  "color": {
+    "palette_structure": "Warm earth with sage and a touch of plum.",
+    "palette": [
+      {
+        "name": "Sand",
+        "hex": "#F5EBDD",
+        "role": "background"
+      },
+      {
+        "name": "Clay",
+        "hex": "#B84A33",
+        "role": "primary"
+      },
+      {
+        "name": "Sage",
+        "hex": "#8A9A7B",
+        "role": "accent"
+      },
+      {
+        "name": "Mustard",
+        "hex": "#E1A730",
+        "role": "highlight"
+      },
+      {
+        "name": "Bark",
+        "hex": "#3D2B24",
+        "role": "text"
+      },
+      {
+        "name": "Dusk",
+        "hex": "#6F5B52",
+        "role": "secondary text"
+      }
+    ],
+    "contrast_rules": "Bark on sand holds 11:1; white text only on clay at 18px and larger; sage fills carry no small text.",
+    "surface_treatment": "Flat earth tones with a grain of 3% to 6% and pattern fills at 8% to 20%.",
+    "light_and_shadow": "Soft, warm and low: 0 8px 24px at 12% in brown."
+  },
+  "materiality": {
+    "surface_simulation": "Linen, clay, dried grass and woven cotton.",
+    "border_rules": "No hard border; a 1px sand line or a scalloped edge.",
+    "blur_and_elevation": "Shadow 0 8px 24px at 12% in brown; no blur on content."
+  },
+  "ornamentation_details": {
+    "iconography": "Hand-drawn 2px icons with round caps: sun, moon, leaf, feather.",
+    "illustration": "Arched photos, dried flowers, macramé, rugs and hand-drawn botanicals.",
+    "decorative_elements": [
+      "arch mask",
+      "botanical line art",
+      "scalloped edge",
+      "script accent"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Gentle: items fade up 12px in 600ms; arches scale from 0.96; no springs.",
+    "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+    "duration_ms": 600,
+    "hover_and_active": "Hover lifts a card 4px and warms its photo by 5%; active state returns it."
+  },
+  "lineage": {
+    "evolved_from": [
+      "art-nouveau-web",
+      "psychedelic"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "scrapbook-ui"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels welcomed into a warm, free and natural home.",
+    "keywords": [
+      "warm",
+      "free",
+      "earthy",
+      "relaxed",
+      "crafted",
+      "natural"
+    ],
+    "brand_archetypes": [
+      "explorer",
+      "lover"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "boho",
+      "bohemian",
+      "earth tones",
+      "terracotta",
+      "macrame",
+      "arch",
+      "folk",
+      "natural"
+    ],
+    "use_cases": [
+      "wellness, yoga and retreat sites",
+      "handmade shops and marketplaces",
+      "wedding and event pages",
+      "travel and festival brands",
+      "home and plant stores"
+    ],
+    "avoid_when": [
+      "The brand needs a precise or technical tone.",
+      "The page is dense with data.",
+      "The audience expects a corporate look."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "ethereal-web",
+        "how": "Lighten the palette to pastels and use light type with more air."
+      },
+      {
+        "request": "more crafted",
+        "toward": "scrapbook-ui",
+        "how": "Add tape, photos and tilted paper."
+      },
+      {
+        "request": "more graphic",
+        "toward": "art-nouveau-web",
+        "how": "Use flowing lines, a floral border and a gold accent."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 400,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 600,
+      "accent": "case",
+      "display_tracking": "0em",
+      "display_leading": 1.15,
+      "display_case": "none",
+      "body_leading": 1.65,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "ph-duotone",
+        "why": "A soft, rounded family with a two-tone fill that suits warm, crafted layouts."
+      }
+    },
+    "art": {
+      "recipe": "psychedelic",
+      "pattern": "waves",
+      "seed": 57
+    },
+    "layout": {
+      "hero": "split",
+      "align": "center",
+      "density": "regular",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "paper",
+      "why": "Bohemian pages sit on warm hand-made paper with soft washes of dyed colour."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#F5EBDD",
+      "--color-surface": "#FFF9F0",
+      "--color-text": "#3D2B24",
+      "--color-muted": "#6F5B52",
+      "--color-primary": "#B84A33",
+      "--color-accent": "#8A9A7B",
+      "--color-border": "#E2D2BC",
+      "--font-sans": "\"Nunito Sans\", system-ui, sans-serif",
+      "--font-display": "\"DM Serif Display\", \"Cormorant Garamond\", serif",
+      "--border-radius": "24px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 8px 24px rgba(61,43,36,0.12)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "--duration": "600ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#F5EBDD] text-[#3D2B24] font-sans antialiased"
+      },
+      {
+        "element": "heading",
+        "classes": "text-5xl md:text-7xl leading-[1.15] tracking-normal"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.65]"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-3xl bg-[#FFF9F0] p-6 shadow-[0_8px_24px_rgba(61,43,36,0.12)]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-full bg-[#B84A33] px-7 py-3 font-semibold text-white transition duration-[600ms] hover:-translate-y-1"
+      },
+      {
+        "element": "label",
+        "classes": "text-sm font-semibold text-[#6F5B52]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#B84A33",
+        "#8A9A7B",
+        "#3D2B24"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#8A9A7B",
+        "#B84A33"
+      ]
+    },
+    "corner_radius": {
+      "min": 12,
+      "max": 36
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.5,
+      "min": 1.414,
+      "max": 1.618
+    }
+  },
+  "sources": [
+    {
+      "title": "Example: Anthropologie and Free People pages (2012–2025)"
+    },
+    {
+      "title": "Example: Etsy seller shop templates in boho style (2015–2025)"
+    },
+    {
+      "title": "Example: Squarespace boho wedding templates (2016–2025)"
+    }
+  ]
+}

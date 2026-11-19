@@ -170,11 +170,12 @@ A cathode-ray tube whose beam draws straight lines from point to point, not a ra
 - Keep the ground black; only the lines emit light.
 - Use full beam brightness for the player and half for the background.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Atari, Inc.** (studio, Sunnyvale, California, 1972–1984), made the style. The arcade and console company that made the first hit vector-display games.
+- **Warner Communications** (company, New York, ?–now), funded the style. US media company. It bought Atari in 1976 for 28 million dollars and co-owned MTV through Warner-Amex.
 
 ## Permutations
 
@@ -196,7 +197,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more solid**: move toward [`fifth-gen-low-poly`](../fifth-gen-low-poly/SKILL.md) (Fifth-generation low poly). Keep the perspective; fill the wireframes with flat-shaded polygons.
 
 - **Led to (go here for a newer version):** [`eight-bit-tile`](../eight-bit-tile/SKILL.md), [`fifth-gen-low-poly`](../fifth-gen-low-poly/SKILL.md)
-- **Kin in another domain:** [`cassette-futurism`](../cassette-futurism/SKILL.md), [`synthwave-web`](../synthwave-web/SKILL.md)
+- **Kin in another domain:** [`cassette-futurism`](../cassette-futurism/SKILL.md), [`electronic-and-digital-watch`](../electronic-and-digital-watch/SKILL.md), [`synthwave-web`](../synthwave-web/SKILL.md)
 - **Nearest by vector profile:** [`impossible-isometric-mobile`](../impossible-isometric-mobile/SKILL.md), [`low-poly-ps1-revival`](../low-poly-ps1-revival/SKILL.md), [`isometric-pixel-world`](../isometric-pixel-world/SKILL.md)
 
 ## Emotional target

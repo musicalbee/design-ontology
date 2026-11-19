@@ -172,7 +172,7 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Lithography (process)
 
-A print from a flat stone or plate on which a greasy drawing takes ink and water repels it; the artist draws as on paper. Origin: graphic & ui design, Munich, c. 1796.
+A print from a flat stone or plate on which a greasy drawing takes ink and water repels it; the artist draws as on paper. Origin: internet, Munich, c. 1796.
 
 - Draw on the stone with a greasy crayon or a tusche wash; the drawing takes ink and the rest stays wet.
 - Pull the print in a press at a run of 20 to 200 copies for an artist print, or more for a poster.
@@ -181,19 +181,19 @@ A print from a flat stone or plate on which a greasy drawing takes ink and water
 
 ### Woodcut (process)
 
-A print from a block of wood with the white parts cut away; the result is flat colour, hard edges and visible grain. Origin: graphic & ui design, Dunhuang, 868.
+A print from a block of wood with the white parts cut away; the result is flat colour, hard edges and visible grain. Origin: internet, Dunhuang, 868.
 
 - Cut the block along the grain with a knife and a gouge; leave a line of 1mm to 3mm for the black.
 - Use one block for each colour and register them within 1 mm.
 - Print with a flat, opaque ink and leave the grain and the knife marks visible.
 - Keep the shapes flat, with no more than 3 to 6 tones in a print.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Der Sturm** (magazine, Berlin, 1910–1932), published the style. A magazine and gallery of Herwarth Walden. It published and showed Expressionist art.
-- **Die Brücke** (club, Dresden, 1905–1913), launched the style. A group of young German painters. They printed woodcuts and painted in raw, strong colour, and they started Expressionism.
+- **Die Brücke** (crew, Dresden, 1905–1913), launched the style. A group of young German painters. They printed woodcuts and painted in raw, strong colour, and they started Expressionism.
 
 ## Permutations
 

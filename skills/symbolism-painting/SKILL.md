@@ -172,16 +172,16 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Lithography (process)
 
-A print from a flat stone or plate on which a greasy drawing takes ink and water repels it; the artist draws as on paper. Origin: graphic & ui design, Munich, c. 1796.
+A print from a flat stone or plate on which a greasy drawing takes ink and water repels it; the artist draws as on paper. Origin: internet, Munich, c. 1796.
 
 - Draw on the stone with a greasy crayon or a tusche wash; the drawing takes ink and the rest stays wet.
 - Pull the print in a press at a run of 20 to 200 copies for an artist print, or more for a poster.
 - Use one stone for each colour; 3 to 5 stones give a poster.
 - Keep the soft crayon grain and the dark, velvet black.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Le Figaro** (magazine, Paris, 1826–now), published the style. A French daily newspaper. It printed the Symbolist manifesto in 1886 and the Futurist manifesto in 1909.
 - **Salon de la Rose + Croix** (salon, Paris, 1892–1897), exhibited the style. A series of six art salons that Joséphin Péladan held. It showed mystic and Symbolist painting.

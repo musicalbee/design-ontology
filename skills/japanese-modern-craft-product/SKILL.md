@@ -170,9 +170,9 @@ A joint that stays in view, so that the way of making is part of the look. Origi
 - Peg the joint with a wooden pin of 8 to 12mm; do not hide it with filler or paint.
 - Use one joint type in a room or a building; repeat it at each corner.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Japan Folk Crafts Museum** (gallery, Tokyo, 1936–now), exhibited the style. A museum of everyday craft that Yanagi Soetsu founded to show and teach the beauty of plain, hand-made objects. It made the mingei idea known to makers and designers.
 
@@ -201,7 +201,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)
 - **Led to (go here for a newer version):** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)
 - **Mixes well with:** [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md)
-- **Kin in another domain:** [`japandi-interior`](../japandi-interior/SKILL.md)
+- **Kin in another domain:** [`anglo-oriental-studio-pottery`](../anglo-oriental-studio-pottery/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md), [`mingei-folk-craft`](../mingei-folk-craft/SKILL.md), [`mino-tea-ceramics`](../mino-tea-ceramics/SKILL.md), [`raku-tea-bowl`](../raku-tea-bowl/SKILL.md), [`washlet-toilet`](../washlet-toilet/SKILL.md)
 - **Nearest by vector profile:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
 
 ## Emotional target

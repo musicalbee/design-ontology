@@ -183,9 +183,9 @@ A hollow concrete block with a pierced pattern; a wall of them shades and lets a
 - Stack the blocks in one grid of one pattern; mix no more than 2 patterns in one wall.
 - Inside, use the screen to divide zones while it keeps light and air.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Arts & Architecture** (magazine, Los Angeles, 1929–now), launched the style. A California magazine of art and building. Its Case Study House program built and published modern homes, with photos by Julius Shulman.
 

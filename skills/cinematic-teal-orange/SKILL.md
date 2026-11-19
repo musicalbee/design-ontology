@@ -184,9 +184,9 @@ The whole image is scanned to digital, and its colour is set shot by shot with c
 - Keep the saturation of skin under 60%.
 - Use one look-up table for each scene, so that the shots match.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Company 3** (studio, Los Angeles, 1997–now), made the style. A colour grading company that Stefan Sonnenfeld co-founded. Its grades for action films spread the teal and orange look.
 
@@ -211,7 +211,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`new-colour`](../new-colour/SKILL.md)
 - **Led to (go here for a newer version):** [`ai-hyperreal`](../ai-hyperreal/SKILL.md)
-- **Kin in another domain:** [`neon-noir`](../neon-noir/SKILL.md), [`seventh-gen-desaturated`](../seventh-gen-desaturated/SKILL.md)
+- **Kin in another domain:** [`neon-noir`](../neon-noir/SKILL.md), [`seventh-gen-desaturated`](../seventh-gen-desaturated/SKILL.md), [`vsco-preset-look`](../vsco-preset-look/SKILL.md)
 - **Nearest by vector profile:** [`ai-hyperreal`](../ai-hyperreal/SKILL.md), [`fashion-editorial`](../fashion-editorial/SKILL.md), [`food-photography`](../food-photography/SKILL.md)
 
 ## Emotional target

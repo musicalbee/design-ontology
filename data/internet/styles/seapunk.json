@@ -1,0 +1,342 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "seapunk",
+  "domain": "internet",
+  "name": "Seapunk",
+  "aliases": [
+    "Sea punk",
+    "Ocean punk"
+  ],
+  "branch": "net-aesthetics",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2011,
+    "end": 2013,
+    "label": "2011–2013"
+  },
+  "primary_mediums": [
+    "web",
+    "image"
+  ],
+  "summary": "Turquoise and aqua water, dolphins, shells, floating 3D shapes and tie-dye, with 1990s web graphics. It started as a joke tweet in 2011 and grew into an ocean theme in music and fashion.",
+  "philosophy": {
+    "core_thesis": "Put the early web underwater: its 3D shapes, clip art and gradients float on a sea of turquoise.",
+    "design_principles": [
+      "Set the ground as a vertical gradient from aqua (#7FFFD4) at the top to deep sea blue (#0B3D91) at the bottom.",
+      "Float 3 to 6 glossy shapes (pyramids, spheres, rings) at different sizes and let them drift over the layout.",
+      "Place one marine motif at 30% to 50% of the frame: a dolphin, a shell or a wave.",
+      "Set the display text with 2 colour stops from #00F5D4 to #9B5DE5 and a 2px dark edge.",
+      "Overlay a tie-dye or wave pattern at 15% opacity on one panel.",
+      "Add a pixel sparkle of 8px at 4 or more points of the frame.",
+      "Keep the text panels on a deep sea ground (#0B3D91) with text at 7:1 contrast."
+    ],
+    "anti_patterns": [
+      "Muted earth tones",
+      "Realistic ocean photographs with no digital layer",
+      "Corporate flat layouts",
+      "Dry, serious copy",
+      "Dense grey tables",
+      "Thin serif body text",
+      "Warm sunset palettes"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "dimensionality": 4,
+    "grid_rigidity": 2,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A loose 12-column grid with 16px gutters; panels and shapes overlap by 8px to 32px.",
+    "whitespace_ratio": "20% to 30% of the surface stays empty; the spacing scale is 8, 16, 32 and 64px.",
+    "alignment_rules": "A centred hero and offset panels; floating shapes sit off the grid at angles of -12° to 12°.",
+    "container_geometry": "Panels with a 12px radius and a 2px aqua edge; pill buttons; circles and rings as accents."
+  },
+  "typography": {
+    "classifications": [
+      "rounded display",
+      "wide geometric sans",
+      "bitmap"
+    ],
+    "font_pairings": [
+      {
+        "display": "Rubik Bubbles",
+        "body": "Nunito",
+        "note": "A soft, bubbly display face with a round text face."
+      },
+      {
+        "display": "Fredoka",
+        "body": "DM Sans",
+        "note": "A rounded sans for headings and a plain text face."
+      },
+      {
+        "display": "Press Start 2P",
+        "body": "Space Mono",
+        "note": "A bitmap face for the net art side, with a mono text face."
+      }
+    ],
+    "tracking": "Display takes +0.04em; body stays at 0.01em.",
+    "leading": "Display 1.1; body 1.6.",
+    "hierarchy_rules": [
+      "Use two weights: regular (400) and bold (700).",
+      "Use sizes 14, 18, 40 and 80px.",
+      "Set display text in 2-stop gradient colour.",
+      "Use a pixel face only for labels of 12px or less."
+    ]
+  },
+  "color": {
+    "palette_structure": "Aqua and turquoise on deep sea blue, with a lilac and a pink accent.",
+    "palette": [
+      {
+        "name": "Deep Sea",
+        "hex": "#0B3D91",
+        "role": "background"
+      },
+      {
+        "name": "Aqua",
+        "hex": "#7FFFD4",
+        "role": "primary"
+      },
+      {
+        "name": "Turquoise",
+        "hex": "#00F5D4",
+        "role": "accent"
+      },
+      {
+        "name": "Lilac",
+        "hex": "#9B5DE5",
+        "role": "second accent"
+      },
+      {
+        "name": "Coral Pink",
+        "hex": "#FF6FB5",
+        "role": "highlight"
+      },
+      {
+        "name": "Foam White",
+        "hex": "#F2FFFC",
+        "role": "text"
+      }
+    ],
+    "contrast_rules": "Text on deep sea blue holds at least 7:1; aqua and lilac carry headings and shapes, not long text.",
+    "surface_treatment": "Vertical water gradients; glossy 2-stop gradients on 3D shapes; a tie-dye wash on one panel.",
+    "light_and_shadow": "A soft highlight at the top left of each shape; a glow of 12px in aqua; no hard black shadow."
+  },
+  "materiality": {
+    "surface_simulation": "Water and clear plastic, as early 3D software drew them: smooth, glossy and a little flat.",
+    "border_rules": "A 2px aqua edge on panels; a 1px white highlight line inside.",
+    "blur_and_elevation": "A glow of 12px blur on shapes; panels have a 6px soft shadow in deep blue."
+  },
+  "ornamentation_details": {
+    "iconography": "Solid icons at 24px with round forms and a 2px edge: shells, waves, stars and a dolphin.",
+    "illustration": "Dolphins, mermaid tails, shells, pyramids and rings in a 1990s 3D look, on a water texture.",
+    "decorative_elements": [
+      "dolphin",
+      "shell",
+      "3D pyramid",
+      "tie-dye wash",
+      "pixel sparkle"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Shapes drift up and down by 12px to 24px over 6s; the water gradient shifts by 10% over 12s; panels fade in over 500ms.",
+    "easing": "cubic-bezier(0.37, 0, 0.63, 1)",
+    "duration_ms": 500,
+    "hover_and_active": "Hover raises a shape by 8px and adds a 16px aqua glow; the active state shifts the gradient by 20%."
+  },
+  "lineage": {
+    "evolved_from": [
+      "y2k-aesthetic"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "frutiger-aero",
+      "pixel-art-web"
+    ],
+    "echoes": [
+      "y2k-digicam"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels playful and dreamy, as if inside an old screensaver aquarium.",
+    "keywords": [
+      "aquatic",
+      "playful",
+      "dreamy",
+      "glossy",
+      "ironic",
+      "tropical"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "explorer",
+      "magician"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "seapunk",
+      "ocean theme",
+      "aqua gradient",
+      "dolphin",
+      "mermaid aesthetic",
+      "underwater web",
+      "tie-dye water"
+    ],
+    "use_cases": [
+      "music artwork and club flyers",
+      "fashion drop pages",
+      "art projects",
+      "event pages for summer parties"
+    ],
+    "avoid_when": [
+      "The audience expects a calm, formal tone.",
+      "The page has long text.",
+      "The brand needs a serious or medical voice."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "frutiger-aero",
+        "how": "Replace the tie-dye with soft sky blue, add glossy bubbles and keep the water gradient."
+      },
+      {
+        "request": "more night",
+        "toward": "vaporwave",
+        "how": "Change the ground to night violet and add a perspective grid and a sun disc."
+      },
+      {
+        "request": "more digital",
+        "toward": "pixel-art-web",
+        "how": "Replace the 3D shapes with pixel sprites and use a bitmap face for all labels."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 400,
+      "accent": "colour",
+      "display_tracking": "0.04em",
+      "display_leading": 1.1,
+      "display_case": "none",
+      "body_leading": 1.6,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "circle",
+      "pack": {
+        "id": "fluent-filled",
+        "why": "Rounded, filled icons match the glossy, bubble-like shapes of 1990s 3D water graphics."
+      }
+    },
+    "art": {
+      "recipe": "aero",
+      "pattern": "waves",
+      "seed": 11
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "regular",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "bubbles",
+      "why": "Seapunk floats glossy shapes in water, so the ground is a field of bubbles on a water gradient."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#0B3D91",
+      "--color-surface": "#14529F",
+      "--color-text": "#F2FFFC",
+      "--color-muted": "#B6E8F0",
+      "--color-primary": "#7FFFD4",
+      "--color-accent": "#9B5DE5",
+      "--color-border": "#7FFFD4",
+      "--font-sans": "\"Nunito\", \"DM Sans\", sans-serif",
+      "--font-display": "\"Rubik Bubbles\", \"Fredoka\", sans-serif",
+      "--border-radius": "12px",
+      "--border-width": "2px",
+      "--shadow-elevation": "0 6px 16px rgba(0, 20, 60, 0.45)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.37, 0, 0.63, 1)",
+      "--duration": "500ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#0B3D91] text-[#F2FFFC] font-sans antialiased px-6 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-4xl md:text-7xl font-bold leading-[1.1] text-center bg-gradient-to-r from-[#00F5D4] to-[#9B5DE5] bg-clip-text text-transparent"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border border-[#7FFFD4] rounded-xl bg-[#14529F]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-full border-2 border-[#7FFFD4] bg-[#7FFFD4] px-6 py-3 text-sm font-bold text-[#0B3D91] transition-shadow duration-500 hover:shadow-[0_0_16px_#7FFFD4]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs uppercase tracking-widest"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#7FFFD4",
+        "#00F5D4",
+        "#9B5DE5"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#9B5DE5",
+        "#FF6FB5"
+      ]
+    },
+    "corner_radius": {
+      "min": 4,
+      "max": 24
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.5,
+      "min": 1.25,
+      "max": 1.618
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia, Seapunk",
+      "url": "https://en.wikipedia.org/wiki/Seapunk"
+    },
+    {
+      "title": "Know Your Meme, Seapunk",
+      "url": "https://knowyourmeme.com/memes/subcultures/seapunk"
+    }
+  ]
+}

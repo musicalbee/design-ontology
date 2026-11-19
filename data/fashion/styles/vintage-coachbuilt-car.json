@@ -1,0 +1,379 @@
+{
+  "$schema": "../../../schema/domains/fashion.schema.json",
+  "id": "vintage-coachbuilt-car",
+  "domain": "fashion",
+  "name": "Vintage Coachbuilt Car",
+  "aliases": [
+    "Coachbuilt classic",
+    "Vintage luxury car",
+    "Pre-war grand car"
+  ],
+  "era_id": "interwar-modern",
+  "branch": "cars",
+  "time_period": {
+    "start": 1919,
+    "end": 1939,
+    "label": "1919–1939"
+  },
+  "region": "Britain, France and the United States",
+  "summary": "The pre-war luxury car. A long bonnet on a bare chassis, with a body that a coachbuilder made to order in aluminium over wood. The cabin is leather, walnut and cloth.",
+  "philosophy": {
+    "core_thesis": "A fine car is two works. The maker builds the chassis. The coachbuilder makes the body and the cabin to the taste of one buyer.",
+    "design_principles": [
+      "Make the bonnet 40 to 50 percent of the car length, with the radiator upright at its front.",
+      "Build the body on an ash frame and clad it in hand-beaten aluminium panels.",
+      "Keep the mudguards separate from the body, in a long sweep from each wheel.",
+      "Fit the cabin with burr walnut veneer on the dashboard and the door caps.",
+      "Trim the seats in hide, and the rear compartment in wool cloth or silk damask.",
+      "Chrome or nickel plate the lamps, the radiator and the bumpers, and keep the plate bright.",
+      "Paint in two tones, one for the body and one for the mudguards or the roof, with a coach line between."
+    ],
+    "anti_patterns": [
+      "A short, stubby bonnet",
+      "Mudguards that merge into the body",
+      "A moulded plastic dashboard",
+      "Vinyl in place of hide",
+      "A mass-made body with no hand work"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "structure": 4,
+    "luxury": 5,
+    "technicality": 2,
+    "chromatic_intensity": 3
+  },
+  "silhouette": {
+    "shape": "A long, narrow car with an upright radiator, a very long bonnet, separate, long curved mudguards and a compact cabin set well back.",
+    "line": "A strong horizontal line from the radiator to the cabin, a curved running board and a rear that tapers or ends in a spare wheel.",
+    "fit": "The cabin sits behind the rear axle line of the engine; the occupants sit low, in an upright formal posture.",
+    "proportion": "Bonnet length 40 to 50 percent of the car; wheelbase 3.3 to 4.3 m; body height about 1.7 m.",
+    "rules": [
+      "Set the driver far back, behind a long bonnet and a flat scuttle.",
+      "Run a coach line along the waist and the bonnet in a second colour.",
+      "Mount big separate headlamps on the front mudguards or on a bar.",
+      "Hold the rear compartment for the passengers behind a glass partition in a limousine."
+    ]
+  },
+  "fabrics": {
+    "primary": [
+      "burr-walnut",
+      "calfskin",
+      "aluminium",
+      "chrome-plate",
+      "ash-timber"
+    ],
+    "secondary": [
+      "nickel-plate",
+      "damask",
+      "worsted-suiting",
+      "velvet",
+      "brass",
+      "machine-lace",
+      "pressed-steel"
+    ],
+    "avoid": [
+      "abs-plastic",
+      "pvc-leathercloth",
+      "fibreglass",
+      "carbon-fibre",
+      "polar-fleece"
+    ],
+    "rule": "Use real materials in the cabin: hide, burr walnut, silk or wool cloth and plated metal, all made by hand to fit one car."
+  },
+  "construction": {
+    "methods": [
+      "ash frame cut to a full-size drawing",
+      "aluminium panels beaten over a wood buck",
+      "burr walnut veneer matched in pairs",
+      "hand-sewn hide and pleated cloth",
+      "nickel and chrome plating of the brightwork",
+      "many coats of hand-rubbed cellulose paint"
+    ],
+    "closures": "Doors hinged at the rear edge; plated handles; a folding hood with a plated frame on a tourer.",
+    "details": "A radiator mascot, a pair of big lamps and a luggage trunk at the rear. A silk blind covers the back window. The dashboard panel is engine-turned."
+  },
+  "surface": {
+    "finishes": [
+      "polished",
+      "guilloche",
+      "gloss-paint",
+      "burnished",
+      "engraved",
+      "gilded"
+    ],
+    "pattern": "Two-tone paint and a fine coach line; engine-turned metal and walnut grain in the cabin.",
+    "gloss": "Hand-rubbed paint at 80–95 GU; polished walnut at 60–80 GU; plated metal above 90 GU.",
+    "wear": "Leather and walnut gain a patina that owners value; plated metal is re-plated, not left to pit."
+  },
+  "palette": {
+    "strategy": "Deep, sober body colours in two tones, a bright plated front and a cabin in the brown of hide and walnut.",
+    "colours": [
+      {
+        "name": "Royal blue",
+        "hex": "#1C2F5E",
+        "role": "body"
+      },
+      {
+        "name": "Burgundy",
+        "hex": "#5B1A2A",
+        "role": "body"
+      },
+      {
+        "name": "Ivory",
+        "hex": "#E6DCC0",
+        "role": "roof or lower body"
+      },
+      {
+        "name": "Black",
+        "hex": "#141416",
+        "role": "mudguards"
+      },
+      {
+        "name": "Walnut brown",
+        "hex": "#5C3A22",
+        "role": "dashboard"
+      },
+      {
+        "name": "Hide",
+        "hex": "#7A4B2A",
+        "role": "seats"
+      },
+      {
+        "name": "Chrome",
+        "hex": "#C9CCD0",
+        "role": "brightwork"
+      }
+    ]
+  },
+  "making": {
+    "processes": [
+      "bespoke coachbuilding to a client order",
+      "hand panel beating of aluminium",
+      "veneering and French polishing",
+      "saddlery for the hide",
+      "nickel and chrome plating",
+      "hand painting and rubbing"
+    ],
+    "scale": "A chassis from the maker, a body from a coachbuilder; some makers build 1 to 3 bodies a week, and a one-off takes months.",
+    "signs": "Panels with a hand-beaten line, matched walnut veneer, hand-sewn hide and a coachbuilder's plate on the sill."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "limousine",
+        "form": "Long-bonnet limousine with a glass partition and a formal rear compartment",
+        "material": "aluminium",
+        "finish": "gloss-paint"
+      },
+      {
+        "object": "roadster",
+        "form": "Open two-seat body with a long bonnet and swept mudguards",
+        "material": "aluminium",
+        "finish": "gloss-paint"
+      },
+      {
+        "object": "dashboard",
+        "form": "Burr walnut panel with engine-turned instruments",
+        "material": "burr-walnut",
+        "finish": "polished"
+      },
+      {
+        "object": "seat-upholstery",
+        "form": "Hand-sewn hide front seats and a rear compartment in fine cloth",
+        "material": "calfskin",
+        "finish": "burnished"
+      },
+      {
+        "object": "brightwork",
+        "form": "Plated radiator shell, lamps and mascot",
+        "material": "chrome-plate",
+        "finish": "polished"
+      },
+      {
+        "object": "steering-wheel",
+        "form": "Thin wheel with a walnut rim and plated spokes",
+        "material": "burr-walnut",
+        "finish": "polished"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1930s luxury car",
+      "coachbuilt body",
+      "very long bonnet",
+      "separate swept mudguards",
+      "two-tone paint with coach line",
+      "burr walnut dashboard",
+      "engine-turned instrument panel",
+      "hand-stitched hide seats",
+      "chrome radiator and mascot",
+      "big headlamps",
+      "wire wheels",
+      "concours photograph"
+    ],
+    "negative": [
+      "plastic dash",
+      "unibody hatchback",
+      "tail fin",
+      "rear spoiler",
+      "alloy wheel",
+      "vinyl seat"
+    ],
+    "canonical_works": [
+      {
+        "work": "Phantom I",
+        "maker": "Rolls-Royce",
+        "year": 1925
+      },
+      {
+        "work": "Bugatti Type 41 Royale",
+        "maker": "Ettore Bugatti",
+        "year": 1927
+      },
+      {
+        "work": "Model J",
+        "maker": "Duesenberg",
+        "year": 1928
+      },
+      {
+        "work": "4½ Litre",
+        "maker": "W. O. Bentley",
+        "year": 1927
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "1927 Rolls Royce Phantom I Limousine - Coachwork by Windovers.jpg",
+      "kind": "image",
+      "credit": "Shaunak Modi",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:1927_Rolls_Royce_Phantom_I_Limousine_-_Coachwork_by_Windovers.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/1927_Rolls_Royce_Phantom_I_Limousine_-_Coachwork_by_Windovers.jpg/960px-1927_Rolls_Royce_Phantom_I_Limousine_-_Coachwork_by_Windovers.jpg"
+    },
+    {
+      "title": "Bugatti Type 57S Atalante (1937) - 46120353971.jpg",
+      "kind": "image",
+      "credit": "andreboeni",
+      "licence": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Bugatti_Type_57S_Atalante_(1937)_-_46120353971.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Bugatti_Type_57S_Atalante_%281937%29_-_46120353971.jpg/960px-Bugatti_Type_57S_Atalante_%281937%29_-_46120353971.jpg"
+    },
+    {
+      "title": "Graber Duesenberg.jpg",
+      "kind": "image",
+      "credit": "LarryStevens",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Graber_Duesenberg.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Graber_Duesenberg.jpg/960px-Graber_Duesenberg.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "brass-era-car"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "art-deco-product"
+    ]
+  },
+  "emotion": {
+    "target_response": "A sense of rank and calm: the viewer sees long lines, deep colour and hand work that only a rich owner could order.",
+    "keywords": [
+      "grand",
+      "formal",
+      "hand-made",
+      "opulent",
+      "poised"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "vintage coachbuilt car",
+      "pre-war luxury car",
+      "1930s limousine",
+      "coachbuilt body",
+      "classic roadster",
+      "walnut dashboard car",
+      "concours car",
+      "great gatsby car"
+    ],
+    "use_cases": [
+      "a period film about the 1920s and 1930s",
+      "a concours or auction catalogue",
+      "an image prompt for a pre-war luxury car",
+      "a luxury brand story with a heritage car"
+    ],
+    "avoid_when": [
+      "the brief wants a mass-made small car",
+      "the brief wants speed and a smooth, closed body",
+      "the brief wants a plain modern cabin"
+    ],
+    "modifiers": [
+      {
+        "request": "sleeker, faster",
+        "toward": "streamline-car",
+        "how": "Merge the mudguards into the body, slope the tail and the radiator, and hide the lamps in the wings."
+      },
+      {
+        "request": "earlier, plainer",
+        "toward": "brass-era-car",
+        "how": "Shorten the bonnet, raise the body, and use wood wheels and brass lamps."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Coachbuilder",
+      "url": "https://en.wikipedia.org/wiki/Coachbuilder"
+    },
+    {
+      "title": "Wikipedia: Vintage car",
+      "url": "https://en.wikipedia.org/wiki/Vintage_car"
+    },
+    {
+      "title": "Wikipedia: Duesenberg Model J",
+      "url": "https://en.wikipedia.org/wiki/Duesenberg_Model_J"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.5,
+      "min": 0.2,
+      "max": 0.8,
+      "note": "The mascot, the coach line and the engine-turned panel give a rich but formal look."
+    },
+    "proportion_scale": {
+      "default": 0.7,
+      "min": 0.5,
+      "max": 1.0
+    },
+    "surface_gloss": {
+      "default": 80,
+      "min": 40,
+      "max": 95
+    },
+    "era_blend": {
+      "default": 0.15,
+      "min": 0,
+      "max": 1
+    },
+    "metal_tone": {
+      "default": "chrome",
+      "options": [
+        "chrome",
+        "silver",
+        "brass",
+        "yellow-gold",
+        "steel"
+      ]
+    }
+  }
+}

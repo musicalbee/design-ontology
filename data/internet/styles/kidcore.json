@@ -1,0 +1,363 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "kidcore",
+  "domain": "internet",
+  "name": "Kidcore",
+  "aliases": [
+    "Kid core",
+    "Rainbowcore",
+    "Nostalgiacore"
+  ],
+  "branch": "core-subcultures",
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2019,
+    "end": null,
+    "label": "2019–now"
+  },
+  "primary_mediums": [
+    "image",
+    "web",
+    "mobile",
+    "video"
+  ],
+  "summary": "Primary colours, rainbows, stickers, toys, cartoon animals and 1990s kid-show graphics, stacked in dense collage. It uses the childhood of the 1980s and 1990s as a happy, loud look.",
+  "philosophy": {
+    "core_thesis": "Treat the childhood bedroom of the 1990s as a design system: bright, crowded and joyful on purpose.",
+    "design_principles": [
+      "Use saturated primaries: red (#E8352E), blue (#2D5BFF), yellow (#FFD21F) and green (#2DBE60), on a white or pale yellow ground.",
+      "Fill 60% to 80% of the frame: stickers, stars, smileys, toys and rainbow arcs overlap by 8px to 24px.",
+      "Set headings in a chunky, round display face at 48px to 96px, with a 3px black outline or a hard 4px shadow.",
+      "Cut stickers with a 6px white border and a 3px hard shadow in #1B1B1B.",
+      "Use confetti, polka dots and checkers as patterns at 24px to 48px tiles.",
+      "Add a second layer of nostalgia: bubble type, a CRT frame or a cartoon cursor at 32px.",
+      "Rotate loose elements by -6° to +6° so nothing sits square."
+    ],
+    "anti_patterns": [
+      "Muted, desaturated palettes",
+      "Minimal layouts with large empty areas",
+      "Thin, small serif type",
+      "Monochrome grey surfaces",
+      "Realistic, serious photography",
+      "Dark, moody lighting"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 5,
+    "dimensionality": 2,
+    "grid_rigidity": 1,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 5
+  },
+  "layout": {
+    "grid_mechanics": "A loose collage on a 12-column base with 16px gutters; stickers and panels overlap and sit at free angles.",
+    "whitespace_ratio": "5% to 15% of the surface stays empty; the spacing scale is 4, 8, 16 and 32px.",
+    "alignment_rules": "Mixed alignment; headings sit centred or on a -4° slope; stickers sit at the corners.",
+    "container_geometry": "Rounded boxes with a 16px radius, a 3px black outline and a 4px hard offset shadow; stars, circles and clouds as accents."
+  },
+  "typography": {
+    "classifications": [
+      "round display",
+      "bubble",
+      "rounded sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Fredoka",
+        "body": "Nunito",
+        "note": "A soft, round display face with a friendly text sans."
+      },
+      {
+        "display": "Baloo 2",
+        "body": "Nunito",
+        "note": "A fat, round face that echoes children's book covers."
+      },
+      {
+        "display": "Chewy",
+        "body": "Quicksand",
+        "note": "A bouncy hand-drawn display face for stickers."
+      }
+    ],
+    "tracking": "Display 0.01em; body 0.",
+    "leading": "Display 1.05; body 1.5.",
+    "hierarchy_rules": [
+      "Use weights 400 and 700.",
+      "Use sizes 16, 24, 48 and 96px.",
+      "Set headings in mixed colours, one colour for each letter.",
+      "Set body text in dark ink on white, never on a saturated colour."
+    ]
+  },
+  "color": {
+    "palette_structure": "Four primaries plus pink and white, on a white or pale yellow ground, with black outlines.",
+    "palette": [
+      {
+        "name": "Paper White",
+        "hex": "#FFFDF2",
+        "role": "background"
+      },
+      {
+        "name": "Sticker White",
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "name": "Marker Black",
+        "hex": "#1B1B1B",
+        "role": "text"
+      },
+      {
+        "name": "Toy Red",
+        "hex": "#E8352E",
+        "role": "primary"
+      },
+      {
+        "name": "Toy Blue",
+        "hex": "#2D5BFF",
+        "role": "accent"
+      },
+      {
+        "name": "Duck Yellow",
+        "hex": "#FFD21F",
+        "role": "highlight"
+      },
+      {
+        "name": "Grass Green",
+        "hex": "#2DBE60",
+        "role": "second accent"
+      },
+      {
+        "name": "Crayon Grey",
+        "hex": "#4A4A52",
+        "role": "muted text"
+      }
+    ],
+    "contrast_rules": "Marker black on white holds 17:1; the primaries carry fills and outlines, and white text sits only on blue or red at 24px or more.",
+    "surface_treatment": "Flat saturated fills, glossy sticker shine as a white diagonal at 40% opacity, and confetti patterns.",
+    "light_and_shadow": "A hard, offset shadow of 4px in black; no soft shadow."
+  },
+  "materiality": {
+    "surface_simulation": "Vinyl stickers, plastic toys, crayon and early cartoon cels.",
+    "border_rules": "A 3px black outline on every container; a 6px white border on stickers.",
+    "blur_and_elevation": "A hard 4px shadow in black; no blur."
+  },
+  "ornamentation_details": {
+    "iconography": "Solid icons at 28px with 3px outlines and round caps, inside a circle tile in a primary colour.",
+    "illustration": "Rainbows, stars, smileys, dinosaurs, teddy bears, cartoon fruit and pixel hearts, cut out as stickers.",
+    "decorative_elements": [
+      "sticker with white border",
+      "rainbow arc",
+      "confetti",
+      "smiley star",
+      "checker band",
+      "CRT cartoon frame"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Bouncy: elements pop in with a 110% overshoot over 300ms; stickers wiggle by 4° at 1s loops.",
+    "easing": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+    "duration_ms": 300,
+    "hover_and_active": "Hover wiggles the sticker by 6° and scales it to 108%; active state squashes it to 94%."
+  },
+  "lineage": {
+    "evolved_from": [
+      "y2k-aesthetic",
+      "scrapbook-ui"
+    ],
+    "rebelled_against": [
+      "flat-design"
+    ],
+    "hybridized_with": [
+      "memphis-design",
+      "pop-art-web"
+    ],
+    "echoes": [
+      "memphis-interior",
+      "dopamine-decor",
+      "memphis-product",
+      "camcorder-revival"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels playful, nostalgic and free to be silly.",
+    "keywords": [
+      "playful",
+      "loud",
+      "nostalgic",
+      "colourful",
+      "childlike",
+      "joyful"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "innocent"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "kidcore",
+      "rainbowcore",
+      "nostalgiacore",
+      "90s kid",
+      "stickers",
+      "toy aesthetic",
+      "childhood",
+      "bright collage"
+    ],
+    "use_cases": [
+      "toy and snack brands",
+      "youth music and event pages",
+      "sticker and merch shops",
+      "children's creative tools"
+    ],
+    "avoid_when": [
+      "The audience expects a serious or luxury tone.",
+      "The page carries long, dense reading.",
+      "The brand needs calm, trust and restraint."
+    ],
+    "modifiers": [
+      {
+        "request": "softer",
+        "toward": "cottagecore",
+        "how": "Swap primaries for pastel sage, rose and butter; keep the stickers, reduce the outlines to 1px."
+      },
+      {
+        "request": "more pink",
+        "toward": "barbiecore",
+        "how": "Replace the primaries with one hot pink (#E0218A) and white; keep the outlines."
+      },
+      {
+        "request": "more digital",
+        "toward": "y2k-aesthetic",
+        "how": "Add chrome type, translucent plastic and a silver and baby blue palette."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 700,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "colour",
+      "display_tracking": "0.01em",
+      "display_leading": 1.05,
+      "display_case": "none",
+      "body_leading": 1.5,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 3,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "circle",
+      "pack": {
+        "id": "mingcute-fill",
+        "why": "A fat, rounded fill family that matches sticker shapes."
+      }
+    },
+    "art": {
+      "recipe": "memphis",
+      "pattern": "starburst",
+      "seed": 19
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "center",
+      "density": "compact",
+      "tilt_deg": 4
+    },
+    "ground": {
+      "kind": "confetti",
+      "why": "Kidcore stands on scattered confetti, like the floor of a party or a toy box."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#FFFDF2",
+      "--color-surface": "#FFFFFF",
+      "--color-text": "#1B1B1B",
+      "--color-muted": "#4A4A52",
+      "--color-primary": "#E8352E",
+      "--color-accent": "#2D5BFF",
+      "--color-border": "#1B1B1B",
+      "--font-sans": "\"Nunito\", \"Quicksand\", sans-serif",
+      "--font-display": "\"Fredoka\", \"Baloo 2\", \"Chewy\", sans-serif",
+      "--border-radius": "16px",
+      "--border-width": "3px",
+      "--shadow-elevation": "4px 4px 0 #1B1B1B",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+      "--duration": "300ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#FFFDF2] text-[#1B1B1B] font-sans antialiased px-4 md:px-8"
+      },
+      {
+        "element": "heading",
+        "classes": "font-[family-name:Fredoka] text-5xl md:text-8xl font-bold leading-[1.05] -rotate-2 [text-shadow:4px_4px_0_#FFD21F]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.5] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-2xl border-[3px] border-[#1B1B1B] bg-white p-6 shadow-[4px_4px_0_#1B1B1B] rotate-1"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-full border-[3px] border-[#1B1B1B] bg-[#FFD21F] px-6 py-3 text-base font-bold text-[#1B1B1B] shadow-[4px_4px_0_#1B1B1B] transition-transform duration-300 hover:-rotate-3 hover:scale-105"
+      },
+      {
+        "element": "label",
+        "classes": "text-sm font-bold text-[#E8352E]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#E8352E",
+        "#2D5BFF",
+        "#FFD21F",
+        "#FF7EB6"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#2D5BFF",
+        "#2DBE60",
+        "#FFD21F"
+      ]
+    },
+    "corner_radius": {
+      "min": 8,
+      "max": 24
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.333,
+      "min": 1.25,
+      "max": 1.618
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Kidcore",
+      "url": "https://en.wikipedia.org/wiki/Kidcore"
+    },
+    {
+      "title": "Wikipedia: Internet aesthetic",
+      "url": "https://en.wikipedia.org/wiki/Internet_aesthetic"
+    }
+  ]
+}

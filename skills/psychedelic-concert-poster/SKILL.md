@@ -133,19 +133,19 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Lithography (process)
 
-A print from a flat stone or plate on which a greasy drawing takes ink and water repels it; the artist draws as on paper. Origin: graphic & ui design, Munich, c. 1796.
+A print from a flat stone or plate on which a greasy drawing takes ink and water repels it; the artist draws as on paper. Origin: internet, Munich, c. 1796.
 
 - Draw on the stone with a greasy crayon or a tusche wash; the drawing takes ink and the rest stays wet.
 - Pull the print in a press at a run of 20 to 200 copies for an artist print, or more for a poster.
 - Use one stone for each colour; 3 to 5 stones give a poster.
 - Keep the soft crayon grain and the dark, velvet black.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Family Dog Productions** (platform, San Francisco, 1966–now), launched the style. A concert promoter in San Francisco that Chet Helms ran. Its dance concerts from 1966 to 1968 each had a new poster.
-- **The Fillmore** (club, San Francisco, 1954–now), gathered the style. A music hall in San Francisco where Bill Graham started to book shows in 1965. Its weekly concert posters spread the psychedelic poster style.
+- **The Fillmore** (venue, San Francisco, 1954–now), gathered the style. A music hall in San Francisco where Bill Graham started to book shows in 1965. Its weekly concert posters spread the psychedelic poster style.
 
 ## Permutations
 
@@ -169,7 +169,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`chromolithograph-poster`](../chromolithograph-poster/SKILL.md)
 - **Was rejected by:** [`xerox-zine`](../xerox-zine/SKILL.md)
 - **Mixes well with:** [`pop-screen-print`](../pop-screen-print/SKILL.md)
-- **Kin in another domain:** [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md), [`surrealism-painting`](../surrealism-painting/SKILL.md)
+- **Kin in another domain:** [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`deepdream-psychedelia`](../deepdream-psychedelia/SKILL.md), [`hippie-bohemian-dress`](../hippie-bohemian-dress/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md), [`surrealism-painting`](../surrealism-painting/SKILL.md)
 - **Nearest by vector profile:** [`pochoir-plate`](../pochoir-plate/SKILL.md), [`wood-type-poster`](../wood-type-poster/SKILL.md), [`chromolithograph-poster`](../chromolithograph-poster/SKILL.md)
 
 ## Emotional target

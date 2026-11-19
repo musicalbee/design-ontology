@@ -176,9 +176,9 @@ A model that learns to turn noise into an image step by step, and makes a new im
 - Expect smooth skin, even light and a glossy, over-detailed finish when the prompt gives no flaw.
 - Add a concrete flaw to the prompt, such as grain, a lens fault or a cluttered ground, to break the sheen.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Midjourney** (platform, web, 2022–now), made the style. A service that makes images from text prompts. Its users made and shared the glossy, hyperreal AI image.
 
@@ -202,7 +202,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more like film**: move toward [`film-grain-revival`](../film-grain-revival/SKILL.md) (Film grain revival). Say shot on Portra 400, halation at 20%, lifted blacks at 5% and visible grain at 35%; cut the saturation by 20%.
 
 - **Came from (go here for a more orthodox version):** [`cinematic-teal-orange`](../cinematic-teal-orange/SKILL.md), [`fashion-editorial`](../fashion-editorial/SKILL.md)
-- **Kin in another domain:** [`pbr-photoreal`](../pbr-photoreal/SKILL.md)
+- **Kin in another domain:** [`ai-slop`](../ai-slop/SKILL.md), [`diffusion-gloss`](../diffusion-gloss/SKILL.md), [`gan-portrait`](../gan-portrait/SKILL.md), [`pbr-photoreal`](../pbr-photoreal/SKILL.md)
 - **Nearest by vector profile:** [`cinematic-teal-orange`](../cinematic-teal-orange/SKILL.md), [`fashion-editorial`](../fashion-editorial/SKILL.md), [`food-photography`](../food-photography/SKILL.md)
 
 ## Emotional target

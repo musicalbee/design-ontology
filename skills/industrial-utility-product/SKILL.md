@@ -172,10 +172,11 @@ A thin coat of glass that is fused to iron or steel at about 800 °C. It makes a
 - Apply a top coat of 0.1 to 0.3 mm in white or a single colour and fire it again.
 - Leave the edges rolled: the enamel chips at a sharp edge and shows the dark metal.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **AEG** (company, Berlin, 1887–now), funded the style. German electrical firm. It hired Peter Behrens in 1907 as artistic consultant for its buildings, products and graphics.
 - **Werkbund Exhibition Cologne 1914** (exhibition, Cologne, 1914–1914), exhibited the style. The show of the German Werkbund. It put industrial buildings, machines and factory-made objects next to craft work, and it made the work of the factory a subject of design.
 
 ## Permutations
@@ -203,7 +204,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`victorian-manufacture`](../victorian-manufacture/SKILL.md)
 - **Led to (go here for a newer version):** [`bauhaus-product`](../bauhaus-product/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)
-- **Kin in another domain:** [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md)
+- **Kin in another domain:** [`american-pocket-watch`](../american-pocket-watch/SKILL.md), [`americana-workwear`](../americana-workwear/SKILL.md), [`dive-watch`](../dive-watch/SKILL.md), [`early-wristwatch`](../early-wristwatch/SKILL.md), [`fireclay-butler-sink`](../fireclay-butler-sink/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`pilot-and-field-watch`](../pilot-and-field-watch/SKILL.md), [`porcelain-insulator`](../porcelain-insulator/SKILL.md), [`subculture-workboot`](../subculture-workboot/SKILL.md), [`subway-tile`](../subway-tile/SKILL.md), [`trench-and-field-military`](../trench-and-field-military/SKILL.md)
 - **Nearest by vector profile:** [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md), [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md)
 
 ## Emotional target

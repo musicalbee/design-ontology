@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "capacitive-touchscreen",
+  "name": "Capacitive touchscreen",
+  "aliases": [
+    "Capacitive touch panel"
+  ],
+  "kind": "technology",
+  "summary": "A glass screen with a grid of electrodes that senses the small current that a finger draws, so that a touch with no force selects an item.",
+  "how": [
+    "Lay a grid of transparent electrodes under the glass.",
+    "Read the change of charge at each point of the grid.",
+    "Map each touch to a screen position within 1 mm."
+  ],
+  "origin": {
+    "domain": "industrial",
+    "year": 1965,
+    "circa": false,
+    "where": "Malvern, United Kingdom",
+    "note": "E. A. Johnson describes a capacitive touch screen at the Royal Radar Establishment."
+  },
+  "adoptions": [
+    {
+      "year": 2015,
+      "via": "The Apple Watch puts a small touch screen on the face, with a digital crown to scroll.",
+      "styles": [
+        "smartwatch"
+      ],
+      "domain": "fashion"
+    }
+  ],
+  "styles": [
+    "smartwatch"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Capacitive sensing",
+      "url": "https://en.wikipedia.org/wiki/Capacitive_sensing"
+    },
+    {
+      "title": "Wikipedia: Touchscreen",
+      "url": "https://en.wikipedia.org/wiki/Touchscreen"
+    }
+  ]
+}

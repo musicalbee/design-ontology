@@ -1,0 +1,351 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "glitchcore",
+  "domain": "internet",
+  "name": "Glitchcore",
+  "aliases": [
+    "Glitch core",
+    "Digicore visuals"
+  ],
+  "branch": "net-aesthetics",
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2019,
+    "end": null,
+    "label": "2019–now"
+  },
+  "primary_mediums": [
+    "video",
+    "mobile",
+    "web"
+  ],
+  "summary": "Fast, crowded edits with split colour channels, repeated frames, datamosh, bright flash and old web clutter. It grew with the digicore music scene on SoundCloud, Discord and short-video apps.",
+  "philosophy": {
+    "core_thesis": "Overload the signal: show the fault, the repeat and the flash until the error becomes the style.",
+    "design_principles": [
+      "Split the colour channels by 4px to 12px in opposite directions on all key images.",
+      "Cut the edit every 4 to 12 frames at 30 fps and repeat the same frame 2 to 4 times.",
+      "Use hot colours: acid green (#39FF14), magenta (#FF00AA) and cyan (#00E5FF) on black.",
+      "Fill the frame with 5 or more layers: text, stars, cursors, stickers and old web icons.",
+      "Set display text at 48px to 120px in a bold face, with a 3px stroke in a second colour.",
+      "Add scan lines of 2px at 12% opacity and noise at 8%.",
+      "Add a flash warning for any flicker above 3 flashes in 1s."
+    ],
+    "anti_patterns": [
+      "Calm, empty layouts",
+      "Soft pastel palettes",
+      "Slow, long takes",
+      "Subtle grey tones",
+      "Clean, uniform type",
+      "Natural photographic colour",
+      "Static, centred composition"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 5,
+    "dimensionality": 3,
+    "grid_rigidity": 1,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 5
+  },
+  "layout": {
+    "grid_mechanics": "No stable grid; layers overlap at random offsets of 8px to 80px, with 4 to 8 layers in each frame.",
+    "whitespace_ratio": "0% to 10% of the frame stays empty; the spacing scale is 2, 4, 8 and 16px.",
+    "alignment_rules": "Elements are placed off axis, with tilts of -15° to 15° and cropped edges.",
+    "container_geometry": "Hard rectangles with a 0px radius, window frames, stickers and torn bands of 4px to 40px."
+  },
+  "typography": {
+    "classifications": [
+      "wide display",
+      "bitmap",
+      "monospace"
+    ],
+    "font_pairings": [
+      {
+        "display": "Rubik Glitch",
+        "body": "Space Mono",
+        "note": "A glitch display face with a mono text face."
+      },
+      {
+        "display": "Press Start 2P",
+        "body": "VT323",
+        "note": "A bitmap pair for an old-web look."
+      },
+      {
+        "display": "Anton",
+        "body": "Roboto Mono",
+        "note": "A heavy condensed face with a mono face for small text."
+      }
+    ],
+    "tracking": "Display takes 0 to +0.04em; labels take +0.1em.",
+    "leading": "Display 1.0; body 1.4.",
+    "hierarchy_rules": [
+      "Use two weights: regular (400) and bold (700).",
+      "Use sizes 12, 20, 48 and 96px.",
+      "Set display text with a 3px stroke or a split-colour shadow.",
+      "Repeat key words 2 to 3 times at different sizes."
+    ]
+  },
+  "color": {
+    "palette_structure": "Black with 3 hot colours at full strength, and white for flash.",
+    "palette": [
+      {
+        "name": "Signal Black",
+        "hex": "#050508",
+        "role": "background"
+      },
+      {
+        "name": "Acid Green",
+        "hex": "#39FF14",
+        "role": "primary"
+      },
+      {
+        "name": "Hot Magenta",
+        "hex": "#FF00AA",
+        "role": "accent"
+      },
+      {
+        "name": "Cyan Split",
+        "hex": "#00E5FF",
+        "role": "second accent"
+      },
+      {
+        "name": "Flash White",
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "name": "Warning Yellow",
+        "hex": "#FFE600",
+        "role": "highlight"
+      },
+      {
+        "name": "Window Grey",
+        "hex": "#2B2B36",
+        "role": "surface"
+      }
+    ],
+    "contrast_rules": "Text on signal black holds at least 12:1; hot colours carry strokes and splits, not long text.",
+    "surface_treatment": "Flat black with colour layers; scan lines of 2px at 12%; noise of 8%; datamosh bands.",
+    "light_and_shadow": "A split-colour offset shadow of 4px in magenta and cyan; bursts of white flash for 1 to 2 frames."
+  },
+  "materiality": {
+    "surface_simulation": "A broken video signal, a compressed screen recording and old CRT glow.",
+    "border_rules": "A 2px line in acid green on windows; torn band edges with no line.",
+    "blur_and_elevation": "No blur; a 4px offset shadow in a second colour; layers stack by overlap."
+  },
+  "ornamentation_details": {
+    "iconography": "Bitmap icons at 24px: cursors, stars, hearts, warning signs and close buttons, with a 1px dark edge.",
+    "illustration": "Looped anime or game frames, old web stickers, stars and cursors, with datamosh and colour splits.",
+    "decorative_elements": [
+      "channel split",
+      "repeated frame",
+      "torn band",
+      "cursor",
+      "sparkle star"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Jump cuts every 4 to 12 frames; bursts of glitch of 2 to 6 frames; text jitters by 2px to 6px at 12 fps.",
+    "easing": "steps(2, end)",
+    "duration_ms": 100,
+    "hover_and_active": "Hover splits the colour channels by 6px for 120ms; the active state cuts to a negative image for 2 frames."
+  },
+  "lineage": {
+    "evolved_from": [
+      "y2k-aesthetic"
+    ],
+    "rebelled_against": [
+      "minimalism-web"
+    ],
+    "hybridized_with": [
+      "vaporwave",
+      "pixel-art-web"
+    ],
+    "echoes": [
+      "vertical-short-form",
+      "music-video"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels overloaded, excited and a little anxious, in a fast, playful way.",
+    "keywords": [
+      "chaotic",
+      "fast",
+      "digital",
+      "hyperactive",
+      "noisy",
+      "playful"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "glitchcore",
+      "digicore edit",
+      "datamosh",
+      "glitch edit",
+      "channel split",
+      "chaotic maximalism",
+      "hyperactive edit"
+    ],
+    "use_cases": [
+      "music visualisers and short edits",
+      "game and Discord community pages",
+      "festival and club flyers",
+      "art projects about the net"
+    ],
+    "avoid_when": [
+      "The audience has photosensitive epilepsy and no safe option exists.",
+      "The page needs calm, fast reading.",
+      "The brand is formal, medical or financial."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "dreamcore",
+        "how": "Slow the cuts to 1.2s, replace hot colours with pastels and lower the noise."
+      },
+      {
+        "request": "more polished",
+        "toward": "hyperpop-visual",
+        "how": "Use clean chrome and pastel gradients, and keep the speed."
+      },
+      {
+        "request": "more retro",
+        "toward": "cyberdelia",
+        "how": "Replace the stars with swirls and add chrome type in a violet ground."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "colour",
+      "display_tracking": "0.02em",
+      "display_leading": 1.0,
+      "display_case": "uppercase",
+      "body_leading": 1.4,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "butt",
+      "linejoin": "miter",
+      "container": "square",
+      "pack": {
+        "id": "pixelarticons",
+        "why": "Pixel icons match the bitmap stickers and old window frames of a glitch edit."
+      }
+    },
+    "art": {
+      "recipe": "y2k",
+      "pattern": "noise",
+      "seed": 41
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": -3
+    },
+    "ground": {
+      "kind": "scanlines",
+      "why": "Glitchcore shows a broken screen, so the ground is a scan-line field with noise."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#050508",
+      "--color-surface": "#2B2B36",
+      "--color-text": "#FFFFFF",
+      "--color-muted": "#C9C9D6",
+      "--color-primary": "#39FF14",
+      "--color-accent": "#FF00AA",
+      "--color-border": "#39FF14",
+      "--font-sans": "\"Space Mono\", \"Roboto Mono\", monospace",
+      "--font-display": "\"Rubik Glitch\", \"Anton\", sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "2px",
+      "--shadow-elevation": "4px 4px 0 #FF00AA, -4px -4px 0 #00E5FF",
+      "--backdrop-filter": "none",
+      "--space-unit": "4px",
+      "--ease": "steps(2, end)",
+      "--duration": "100ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#050508] text-[#FFFFFF] font-mono antialiased px-6 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-5xl md:text-8xl font-bold uppercase leading-none [text-shadow:4px_4px_0_#FF00AA,-4px_-4px_0_#00E5FF]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border border-[#39FF14] bg-[#2B2B36]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border-2 border-[#39FF14] bg-[#39FF14] px-6 py-3 text-sm font-bold uppercase text-[#050508] hover:[text-shadow:3px_0_#FF00AA,-3px_0_#00E5FF]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs uppercase tracking-widest"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#39FF14",
+        "#FF00AA",
+        "#00E5FF"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#FF00AA",
+        "#00E5FF",
+        "#FFE600"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 0
+    },
+    "grid_step": {
+      "min": 2,
+      "max": 8
+    },
+    "type_scale_ratio": {
+      "default": 1.5,
+      "min": 1.25,
+      "max": 1.618
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia, Glitchcore",
+      "url": "https://en.wikipedia.org/wiki/Glitchcore"
+    },
+    {
+      "title": "Wikipedia, Digicore",
+      "url": "https://en.wikipedia.org/wiki/Digicore"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "quartz-movement",
+  "name": "Quartz movement",
+  "aliases": [
+    "Quartz oscillator",
+    "Quartz timekeeping"
+  ],
+  "kind": "technology",
+  "summary": "A timekeeper in which a quartz crystal vibrates at a fixed rate, and a circuit counts the vibrations to move the hands or to show digits.",
+  "how": [
+    "Cut a quartz crystal to vibrate at 32,768 Hz.",
+    "Divide that rate in a circuit down to one pulse each second.",
+    "Drive a stepping motor or a display with each pulse."
+  ],
+  "origin": {
+    "domain": "industrial",
+    "year": 1927,
+    "circa": false,
+    "where": "New York, United States",
+    "note": "Warren Marrison builds the first quartz clock at Bell Telephone Laboratories."
+  },
+  "adoptions": [
+    {
+      "year": 1969,
+      "via": "The Astron puts a quartz crystal in a wristwatch, and the quartz watch with digits follows.",
+      "styles": [
+        "electronic-and-digital-watch"
+      ],
+      "domain": "fashion"
+    },
+    {
+      "year": 1983,
+      "via": "The Swatch uses a quartz module of few parts, so that the watch is cheap and exact.",
+      "styles": [
+        "swiss-plastic-pop-watch"
+      ],
+      "domain": "fashion"
+    }
+  ],
+  "styles": [
+    "electronic-and-digital-watch",
+    "swiss-plastic-pop-watch"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Quartz clock",
+      "url": "https://en.wikipedia.org/wiki/Quartz_clock"
+    },
+    {
+      "title": "Wikipedia: Quartz crisis",
+      "url": "https://en.wikipedia.org/wiki/Quartz_crisis"
+    }
+  ]
+}

@@ -219,16 +219,16 @@ A white lamp covered with a sheet of coloured film, so that a set or a face is l
 
 ### Neon glow (material)
 
-Light as a line of coloured gas, with a soft halo that spills onto the dark ground around it. Origin: graphic & ui design, Paris, 1912.
+Light as a line of coloured gas, with a soft halo that spills onto the dark ground around it. Origin: internet, Paris, 1912.
 
 - Draw the tube as a line of 2 to 6mm in one saturated colour; use no more than 2 colours in one sign.
 - Add a halo of 10 to 40px at 30% to 60% opacity in the same hue.
 - Set the sign on a ground darker than 10% lightness, so that the halo shows.
 - Keep a bright, near-white core inside the line.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Cannes Film Festival** (salon, Cannes, 1946–now), exhibited the style. An annual film festival with a juried competition. It gave prizes to neorealist, New Hollywood, Dogme 95 and slow-cinema films.
 

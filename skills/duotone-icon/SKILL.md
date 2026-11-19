@@ -134,14 +134,14 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Halftone (process)
 
-Tone printed as dots of different size or spacing; at a distance the dots merge into grey or colour. Origin: graphic & ui design, New York, 1879.
+Tone printed as dots of different size or spacing; at a distance the dots merge into grey or colour. Origin: internet, New York, 1879.
 
 - Set the screen at 10 to 30 lines per cm for a print grain, or enlarge the dots to 4 to 8mm for a Pop effect.
 - Turn each colour screen to its own angle: cyan 15°, magenta 75°, yellow 0°, black 45°.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Font Awesome** (platform, web, 2012–now), published the style. An icon font and toolkit for the web. It ships solid, outline and duotone sets of the same icons.
 

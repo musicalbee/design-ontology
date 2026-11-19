@@ -323,9 +323,9 @@ Rays from a disc or a half disc: a sign of light and of the new, on a facade, a 
 - Keep the centre disc at 15% to 30% of the full diameter.
 - In a room, use one sunburst as the focal point of one wall.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **International Exhibition of Modern Decorative and Industrial Arts** (exhibition, Paris, 1925–1925), launched the style. A world's fair of decorative and industrial arts. Its pavilions and rooms showed the new luxury style that later got the name Art Deco from this show.
 
@@ -350,7 +350,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md)
-- **Kin in another domain:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md), [`art-deco-web`](../art-deco-web/SKILL.md), [`pochoir-plate`](../pochoir-plate/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md)
+- **Kin in another domain:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`art-deco-dance-shoe`](../art-deco-dance-shoe/SKILL.md), [`art-deco-evening-accessory`](../art-deco-evening-accessory/SKILL.md), [`art-deco-faience-facade`](../art-deco-faience-facade/SKILL.md), [`art-deco-jewellery`](../art-deco-jewellery/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md), [`art-deco-tableware`](../art-deco-tableware/SKILL.md), [`art-deco-web`](../art-deco-web/SKILL.md), [`bias-cut-glamour`](../bias-cut-glamour/SKILL.md), [`garconne-flapper-dress`](../garconne-flapper-dress/SKILL.md), [`pochoir-plate`](../pochoir-plate/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md)
 - **Nearest by vector profile:** [`neo-deco-interior`](../neo-deco-interior/SKILL.md), [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md)
 
 ## Emotional target

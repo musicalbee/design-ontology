@@ -208,9 +208,9 @@ A camera that the operator carries on the body, with no tripod or dolly; the sha
 - Do not stabilise in post; accept a late refocus and a missed frame as part of the take.
 - Shoot long takes of 30 seconds or more, so that the camera seems to live in the room.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **South by Southwest** (salon, Austin, Texas, 1987–now), launched the style. A festival of music, film and media. Its 2005 film program showed the low-budget talk films that got the name mumblecore.
 
@@ -237,6 +237,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`phone-cinema`](../phone-cinema/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`classical-hollywood`](../classical-hollywood/SKILL.md)
 - **Mixes well with:** [`documentary-verite`](../documentary-verite/SKILL.md)
+- **Kin in another domain:** [`photo-dump`](../photo-dump/SKILL.md)
 - **Nearest by vector profile:** [`french-new-wave`](../french-new-wave/SKILL.md), [`documentary-verite`](../documentary-verite/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md)
 
 ## Emotional target

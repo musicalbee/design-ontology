@@ -1,0 +1,335 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "deepdream-psychedelia",
+  "domain": "internet",
+  "name": "DeepDream Psychedelia",
+  "aliases": [
+    "DeepDream",
+    "Inceptionism",
+    "Puppy-slug dreams"
+  ],
+  "branch": "ai-native",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2015,
+    "end": 2017,
+    "label": "2015–2017"
+  },
+  "primary_mediums": [
+    "image",
+    "web"
+  ],
+  "summary": "Photographs that a neural network fills with eyes, dog faces, pagodas and swirled fur at every scale. It started in 2015 when Google released the code that made the effect.",
+  "philosophy": {
+    "core_thesis": "A machine that looks for patterns finds them in everything: the picture shows what the network expects to see, and it shows it everywhere.",
+    "design_principles": [
+      "Fill the frame with repeated motifs: eyes, snouts, feathers and arches at 3 to 5 sizes, from 8px to 200px.",
+      "Run 4 to 8 octaves of the effect, so that small motifs sit inside large ones.",
+      "Set saturation at 130% to 180% and push the hue toward orange, lime and magenta over a dark ground (#14102A).",
+      "Bend lines into spirals and wave fields; keep no straight edge longer than 10% of the frame.",
+      "Keep one readable photographic base, such as a landscape or a face, at about 30% visibility under the motifs.",
+      "Place a plain 16px mono caption bar at the foot of the frame with the layer name, for example inception_4c.",
+      "Loop the zoom at 12 fps: scale the image 1.03x for each frame and feed it back to the network."
+    ],
+    "anti_patterns": [
+      "Clean flat colour fields with no repeated motif",
+      "Straight, geometric layouts with wide margins",
+      "Photoreal skin and soft studio light",
+      "Calm monochrome palettes",
+      "One focal subject on an empty ground",
+      "Neutral corporate type"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 5,
+    "dimensionality": 3,
+    "grid_rigidity": 1,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "A full-bleed image with a 12-column caption area of 1 row; the image runs to the edge and the frame has no gutter.",
+    "whitespace_ratio": "0% to 5% of the image stays empty; the caption bar takes 48px and the spacing scale is 8, 16 and 32px.",
+    "alignment_rules": "Flush-left caption under a centred, full-width image; no element is centred on a motif.",
+    "container_geometry": "Square or 4:3 frames with a 0px radius; caption chips with a 4px radius."
+  },
+  "typography": {
+    "classifications": [
+      "monospace",
+      "humanist sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Space Mono",
+        "body": "IBM Plex Mono",
+        "note": "Mono faces that suit layer names and code captions."
+      },
+      {
+        "display": "Syne",
+        "body": "Inter",
+        "note": "A wide display face with a neutral text face for page copy."
+      }
+    ],
+    "tracking": "Display takes +0.02em; captions take +0.04em.",
+    "leading": "Display 1.15; body 1.5.",
+    "hierarchy_rules": [
+      "Use 2 weights: regular (400) and bold (700).",
+      "Use sizes 12, 16, 28 and 56px.",
+      "Set layer names in lower case with underscores.",
+      "Keep the headline short: 3 words at most."
+    ]
+  },
+  "color": {
+    "palette_structure": "Four saturated hues (orange, lime, magenta, cyan) on a deep indigo ground, with one cream highlight.",
+    "palette": [
+      {
+        "name": "Dream Indigo",
+        "hex": "#14102A",
+        "role": "background"
+      },
+      {
+        "name": "Eye Orange",
+        "hex": "#FF9A3C",
+        "role": "primary"
+      },
+      {
+        "name": "Acid Lime",
+        "hex": "#9BE564",
+        "role": "accent"
+      },
+      {
+        "name": "Dream Magenta",
+        "hex": "#E83E8C",
+        "role": "second accent"
+      },
+      {
+        "name": "Pool Cyan",
+        "hex": "#3EC7E8",
+        "role": "highlight"
+      },
+      {
+        "name": "Fur Cream",
+        "hex": "#F6E7C1",
+        "role": "text"
+      }
+    ],
+    "contrast_rules": "Cream text on indigo holds at least 12:1; the saturated hues carry image fields and borders, not long text.",
+    "surface_treatment": "High-saturation texture fields of fine, repeated detail; a 3% grain; no flat fills.",
+    "light_and_shadow": "No cast shadow; each motif has its own inner glow of 2px to 6px and a rim of lighter hue."
+  },
+  "materiality": {
+    "surface_simulation": "Over-fitted feature maps: fur, scales, feathers and eyes that grow from the texture of the photograph.",
+    "border_rules": "A 1px border in lime at 60% on caption chips; the image has no border.",
+    "blur_and_elevation": "No blur and no elevation; detail is sharp at every scale."
+  },
+  "ornamentation_details": {
+    "iconography": "Outline icons at 20px with a 2px round stroke; used only in the caption bar.",
+    "illustration": "Repeated eyes, dog snouts, birds, pagodas and arches that grow out of clouds, trees and faces.",
+    "decorative_elements": [
+      "repeated eye motif",
+      "spiral fur",
+      "layer-name caption",
+      "zoom-loop frame",
+      "octave tiling"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "An endless zoom: each frame scales 1.03x and adds new motifs; the loop runs 8 to 12 seconds at 12 fps.",
+    "easing": "cubic-bezier(0.37, 0, 0.63, 1)",
+    "duration_ms": 600,
+    "hover_and_active": "Hover raises saturation by 20% and adds one octave of motifs; active freezes the zoom."
+  },
+  "lineage": {
+    "evolved_from": [
+      "psychedelic"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "psychedelic-concert-poster"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels awe and unease: a familiar picture is full of watchers.",
+    "keywords": [
+      "hallucinatory",
+      "dense",
+      "uncanny",
+      "organic",
+      "saturated",
+      "recursive"
+    ],
+    "brand_archetypes": [
+      "magician",
+      "explorer",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "deepdream",
+      "inceptionism",
+      "neural hallucination",
+      "dog faces in clouds",
+      "psychedelic AI",
+      "puppy slug"
+    ],
+    "use_cases": [
+      "music visuals and album art",
+      "posters on machine perception",
+      "explainers about how neural networks see",
+      "experimental art pages"
+    ],
+    "avoid_when": [
+      "The page needs a calm, trustworthy tone.",
+      "The content is dense text that must be read at length.",
+      "The audience is sensitive to repeated eye motifs."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "surrealism-web",
+        "how": "Keep one dream object on an empty ground and cut saturation to 80%; remove the repeated motifs."
+      },
+      {
+        "request": "more recent",
+        "toward": "diffusion-gloss",
+        "how": "Replace the motif swirl with one smooth, over-detailed render and add a teal and amber rim light."
+      },
+      {
+        "request": "more retro",
+        "toward": "psychedelic",
+        "how": "Swap the machine motifs for hand-drawn paisley and flower forms with a halftone ground."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 500,
+      "accent": "colour",
+      "display_tracking": "0.02em",
+      "display_leading": 1.15,
+      "display_case": "none",
+      "body_leading": 1.5,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "ph-duotone",
+        "why": "A duotone family that keeps the caption icons light on a very busy image."
+      }
+    },
+    "art": {
+      "recipe": "psychedelic",
+      "pattern": "squiggle",
+      "seed": 31
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "center",
+      "density": "compact",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "swirl",
+      "why": "The ground repeats the spiral fur and the wave fields that DeepDream grows from a photograph."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#14102A",
+      "--color-surface": "#231A47",
+      "--color-text": "#F6E7C1",
+      "--color-muted": "#CBBFE8",
+      "--color-primary": "#FF9A3C",
+      "--color-accent": "#9BE564",
+      "--color-border": "#9BE564",
+      "--font-sans": "\"IBM Plex Mono\", \"Inter\", monospace",
+      "--font-display": "\"Space Mono\", \"Syne\", monospace",
+      "--border-radius": "4px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 0 12px rgba(255,154,60,0.45)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.37, 0, 0.63, 1)",
+      "--duration": "600ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#14102A] text-[#F6E7C1] font-mono antialiased px-4 md:px-10"
+      },
+      {
+        "element": "heading",
+        "classes": "text-3xl md:text-6xl font-bold leading-[1.15] text-[#FF9A3C]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.5] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "rounded border border-[#9BE564]/60 bg-[#231A47] shadow-[0_0_12px_rgba(255,154,60,0.45)]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded border border-[#9BE564] bg-[#FF9A3C] px-5 py-3 text-sm font-bold text-[#14102A] transition-all duration-[600ms] hover:saturate-150"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs lowercase tracking-[0.04em] text-[#9BE564]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#FF9A3C",
+        "#14102A",
+        "#231A47",
+        "#0B0818"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#FF9A3C",
+        "#9BE564",
+        "#E83E8C",
+        "#3EC7E8"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 8
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 16
+    },
+    "type_scale_ratio": {
+      "default": 1.5,
+      "min": 1.25,
+      "max": 1.618
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: DeepDream",
+      "url": "https://en.wikipedia.org/wiki/DeepDream"
+    },
+    {
+      "title": "Google Research Blog: Inceptionism, Going Deeper into Neural Networks (2015)",
+      "url": "https://research.google/blog/inceptionism-going-deeper-into-neural-networks/"
+    }
+  ]
+}

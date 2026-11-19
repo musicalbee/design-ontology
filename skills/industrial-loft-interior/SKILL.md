@@ -307,9 +307,9 @@ Ducts, pipes, stairs and cables stay in view on the outside or the ceiling, ofte
 - Give each system one colour: for example blue for air, green for water, yellow for electricity.
 - Keep the floor plate free; put the services on the facade or the ceiling.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Dwell** (magazine, San Francisco, 2000–now), published the style. A magazine of modern homes. It shows lofts, prefabs and plain rooms of raw materials.
 

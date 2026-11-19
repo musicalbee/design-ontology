@@ -167,11 +167,11 @@ A joint that stays in view, so that the way of making is part of the look. Origi
 - Peg the joint with a wooden pin of 8 to 12mm; do not hide it with filler or paint.
 - Use one joint type in a room or a building; repeat it at each corner.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Morris & Co.** (workshop, London, 1861–1940), made the style. The decorating firm of William Morris. It made and sold wallpaper, textiles, stained glass and furniture for Victorian and Arts and Crafts homes.
+- **Morris & Co.** (company, London, 1861–1940), made the style. The decorating firm of William Morris. It made and sold wallpaper, textiles, stained glass and furniture for Victorian and Arts and Crafts homes.
 
 ## Permutations
 
@@ -199,7 +199,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`art-nouveau-object`](../art-nouveau-object/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`victorian-manufacture`](../victorian-manufacture/SKILL.md)
 - **Was rejected by:** [`art-deco-product`](../art-deco-product/SKILL.md), [`industrial-utility-product`](../industrial-utility-product/SKILL.md)
-- **Kin in another domain:** [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md), [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md)
+- **Kin in another domain:** [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md), [`arts-and-crafts-art-pottery`](../arts-and-crafts-art-pottery/SKILL.md), [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md), [`arts-and-crafts-jewellery`](../arts-and-crafts-jewellery/SKILL.md), [`country-sporting-tweed`](../country-sporting-tweed/SKILL.md)
 - **Nearest by vector profile:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`art-nouveau-object`](../art-nouveau-object/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
 
 ## Emotional target

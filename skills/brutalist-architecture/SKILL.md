@@ -183,9 +183,9 @@ Concrete cast in rough timber forms, so that the grain and the joints of the boa
 - Leave the surface as it comes from the form: no paint and no plaster.
 - Let the board joints run in one direction on each wall.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **The Architectural Review** (magazine, London, 1896–now), published the style. A monthly architecture magazine. In 1955 it printed the essay that named the New Brutalism, and it published the work of the Smithsons.
 
@@ -209,7 +209,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`international-style-architecture`](../international-style-architecture/SKILL.md)
 - **Was rejected by:** [`mass-timber-architecture`](../mass-timber-architecture/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md)
-- **Kin in another domain:** [`abstract-expressionism`](../abstract-expressionism/SKILL.md), [`architectural-photography`](../architectural-photography/SKILL.md), [`brutalist-web`](../brutalist-web/SKILL.md), [`constructivism-web`](../constructivism-web/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md), [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md), [`seventh-gen-desaturated`](../seventh-gen-desaturated/SKILL.md)
+- **Kin in another domain:** [`abstract-expressionism`](../abstract-expressionism/SKILL.md), [`architectural-photography`](../architectural-photography/SKILL.md), [`brutalist-jewellery`](../brutalist-jewellery/SKILL.md), [`brutalist-web`](../brutalist-web/SKILL.md), [`constructivism-web`](../constructivism-web/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md), [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`liminal-spaces`](../liminal-spaces/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md), [`seventh-gen-desaturated`](../seventh-gen-desaturated/SKILL.md)
 - **Nearest by vector profile:** [`adaptive-reuse-architecture`](../adaptive-reuse-architecture/SKILL.md), [`mass-timber-architecture`](../mass-timber-architecture/SKILL.md), [`critical-regionalism-architecture`](../critical-regionalism-architecture/SKILL.md)
 
 ## Emotional target

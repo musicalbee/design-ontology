@@ -190,9 +190,9 @@ A thin outer wall of glass and metal that hangs on the frame of the building and
 - Hang the glass in a grid of mullions at 1.2 to 1.5 m centres.
 - Keep the glass part of the facade above 60%.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Modern Architecture: International Exhibition** (exhibition, New York, 1932–1932), launched the style. A show at the Museum of Modern Art. Its catalogue named the International Style and showed the work of the European modernists to America.
 - **Weissenhof Estate** (exhibition, Stuttgart, 1927–1927), exhibited the style. A housing estate that the Deutscher Werkbund built as an exhibition. Seventeen architects made white, flat-roofed houses side by side.
@@ -218,7 +218,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md), [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md)
 - **Was rejected by:** [`adaptive-reuse-architecture`](../adaptive-reuse-architecture/SKILL.md), [`critical-regionalism-architecture`](../critical-regionalism-architecture/SKILL.md), [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md), [`parametricism-architecture`](../parametricism-architecture/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md)
 - **Mixes well with:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md)
-- **Kin in another domain:** [`architectural-photography`](../architectural-photography/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md), [`bauhaus-interior`](../bauhaus-interior/SKILL.md), [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md), [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`group-f64`](../group-f64/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md), [`neo-grotesque-sans`](../neo-grotesque-sans/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md), [`swiss-modernist-mark`](../swiss-modernist-mark/SKILL.md)
+- **Kin in another domain:** [`architectural-photography`](../architectural-photography/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md), [`bauhaus-interior`](../bauhaus-interior/SKILL.md), [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md), [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`group-f64`](../group-f64/SKILL.md), [`large-format-porcelain-tiles`](../large-format-porcelain-tiles/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md), [`neo-grotesque-sans`](../neo-grotesque-sans/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md), [`subway-tile`](../subway-tile/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md), [`swiss-modernist-mark`](../swiss-modernist-mark/SKILL.md)
 - **Nearest by vector profile:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`neoclassical-architecture`](../neoclassical-architecture/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md)
 
 ## Emotional target

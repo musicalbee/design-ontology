@@ -136,9 +136,9 @@ An office copier makes a print with toner on plain paper from a paste-up, with n
 - Accept the toner speckle, the black edges of the cut paper and the grey of the glass.
 - Fold and staple the copies by hand.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Sniffin' Glue** (magazine, London, 1976–1977), published the style. A punk zine that Mark Perry typed, cut and photocopied. Its rough paste-up look became the model for punk print.
 
@@ -163,7 +163,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`risograph-print`](../risograph-print/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`psychedelic-concert-poster`](../psychedelic-concert-poster/SKILL.md)
-- **Kin in another domain:** [`anti-design`](../anti-design/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`punk-zine`](../punk-zine/SKILL.md)
+- **Kin in another domain:** [`anti-design`](../anti-design/SKILL.md), [`deep-fried-meme`](../deep-fried-meme/SKILL.md), [`demotivational-poster`](../demotivational-poster/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`punk-fashion`](../punk-fashion/SKILL.md), [`punk-zine`](../punk-zine/SKILL.md)
 - **Nearest by vector profile:** [`woodcut-relief-print`](../woodcut-relief-print/SKILL.md), [`psychedelic-concert-poster`](../psychedelic-concert-poster/SKILL.md), [`private-press-book`](../private-press-book/SKILL.md)
 
 ## Emotional target

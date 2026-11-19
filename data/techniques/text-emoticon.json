@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "text-emoticon",
+  "name": "Text emoticon",
+  "aliases": [
+    "Smiley",
+    "Kaomoji"
+  ],
+  "kind": "motif",
+  "summary": "A face made of keyboard characters, read sideways in the West and upright in Japan.",
+  "how": [
+    "Build the face from 3 to 12 characters of one monospace font.",
+    "Keep the face on the baseline of the line, with 1 space on each side.",
+    "Use at most 1 or 2 faces in one message."
+  ],
+  "origin": {
+    "domain": "internet",
+    "year": 1982,
+    "where": "Pittsburgh",
+    "note": "Scott Fahlman proposes :-) and :-( on a Carnegie Mellon message board."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 1986,
+      "circa": true,
+      "via": "Japanese net users post upright faces such as (^_^) on bulletin boards and develop the kaomoji form.",
+      "styles": [
+        "kaomoji-emoticon"
+      ]
+    }
+  ],
+  "styles": [
+    "kaomoji-emoticon"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Emoticon",
+      "url": "https://en.wikipedia.org/wiki/Emoticon"
+    }
+  ]
+}

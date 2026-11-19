@@ -177,9 +177,9 @@ European ornament after Chinese and East Asian art: pagodas, figures, birds and 
 - Use blue and white, or gold on black or red lacquer.
 - Put one room or one wall in chinoiserie, not the whole house.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Académie royale de peinture et de sculpture** (school, Paris, 1648–1816), taught the style. The royal academy of painting and sculpture in France. It trained the painters of the court and set the rules of taste for the Salon.
 - **Paris Salon** (salon, Paris, 1667–now), exhibited the style. The official art exhibition of the French Academy. For two centuries a painting had to succeed here to make a name, and each new school fought for its walls.
@@ -204,7 +204,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`baroque-painting`](../baroque-painting/SKILL.md)
 - **Was rejected by:** [`realism-painting`](../realism-painting/SKILL.md), [`romanticism-painting`](../romanticism-painting/SKILL.md)
-- **Kin in another domain:** [`art-nouveau-architecture`](../art-nouveau-architecture/SKILL.md), [`formal-script`](../formal-script/SKILL.md)
+- **Kin in another domain:** [`art-nouveau-architecture`](../art-nouveau-architecture/SKILL.md), [`biscuit-porcelain-figures`](../biscuit-porcelain-figures/SKILL.md), [`formal-script`](../formal-script/SKILL.md), [`rococo-court-dress`](../rococo-court-dress/SKILL.md), [`rococo-porcelain-figures`](../rococo-porcelain-figures/SKILL.md), [`sevres-rococo-porcelain`](../sevres-rococo-porcelain/SKILL.md)
 - **Nearest by vector profile:** [`realism-painting`](../realism-painting/SKILL.md), [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`baroque-painting`](../baroque-painting/SKILL.md)
 
 ## Emotional target

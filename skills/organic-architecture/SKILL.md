@@ -186,9 +186,9 @@ A beam or slab fixed at one end that carries load beyond its support, so that it
 - Keep the free end thin; a depth of 1/8 to 1/10 of the span suits steel and concrete.
 - Repeat the horizontal line in a run of 2 or 3 projecting planes to give a strong shadow.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Frank Lloyd Wright Home and Studio** (studio, Oak Park, Illinois, ?–now), made the style. The studio of Frank Lloyd Wright in Oak Park. Here he and his assistants drew the Prairie houses and the first works of organic architecture.
 
@@ -212,7 +212,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more rational**: move toward [`international-style-architecture`](../international-style-architecture/SKILL.md) (International Style). Straighten the plan into a regular grid, white render and ribbon glass.
 
 - **Came from (go here for a more orthodox version):** [`art-nouveau-architecture`](../art-nouveau-architecture/SKILL.md), [`prairie-school-architecture`](../prairie-school-architecture/SKILL.md)
-- **Kin in another domain:** [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
+- **Kin in another domain:** [`goblincore`](../goblincore/SKILL.md), [`organic-modern-tableware`](../organic-modern-tableware/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md), [`trencadis`](../trencadis/SKILL.md)
 - **Nearest by vector profile:** [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md), [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md), [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md)
 
 ## Emotional target

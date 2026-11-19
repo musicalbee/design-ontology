@@ -188,11 +188,11 @@ A form broken into flat planes that meet at sharp angles, so that it reads as a 
 - Use one plane size family: 3 to 5 sizes, with no curve.
 - Let the light break on each plane, so that adjacent planes differ in tone by one or two steps.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Arbeitsrat für Kunst** (club, Berlin, 1918–1921), gathered the style. A council of architects and artists after the First World War. Its members drew visionary crystal buildings and showed them in exhibitions.
+- **Arbeitsrat für Kunst** (council, Berlin, 1918–1921), gathered the style. A council of architects and artists after the First World War. Its members drew visionary crystal buildings and showed them in exhibitions.
 
 ## Permutations
 

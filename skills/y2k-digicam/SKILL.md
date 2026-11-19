@@ -180,9 +180,9 @@ A flash on the camera that fires straight at the subject, so that faces are brig
 - Stand 1 to 3 m from the subject; let the background fall 2 to 4 stops darker.
 - Keep the red eye, the shine on skin and the hard shadow behind the subject.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Myspace** (platform, web, 2003–now), published the style. A social network of profile pages. Users posted flash digicam photos and filled their pages with glitter, gloss and custom code.
 
@@ -209,7 +209,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`party-flash`](../party-flash/SKILL.md)
 - **Was rejected by:** [`film-grain-revival`](../film-grain-revival/SKILL.md)
 - **Mixes well with:** [`party-flash`](../party-flash/SKILL.md)
-- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`found-footage`](../found-footage/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
+- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`dreamcore`](../dreamcore/SKILL.md), [`found-footage`](../found-footage/SKILL.md), [`myspace-profile`](../myspace-profile/SKILL.md), [`photo-dump`](../photo-dump/SKILL.md), [`seapunk`](../seapunk/SKILL.md), [`tumblr-soft-grunge`](../tumblr-soft-grunge/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Nearest by vector profile:** [`new-colour`](../new-colour/SKILL.md), [`documentary-photography`](../documentary-photography/SKILL.md), [`film-grain-revival`](../film-grain-revival/SKILL.md)
 
 ## Emotional target

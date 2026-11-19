@@ -173,11 +173,12 @@ A long S-shaped line whose curve changes along its length, drawn from a plant st
 - Join letters, frame and plant forms with the same line; leave no straight edge to break the flow.
 - Use few colours, 2 to 4, in muted tones.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Exposition Universelle of 1900** (exhibition, Paris, 1900–1900), exhibited the style. A world's fair in Paris at the turn of the century. Art Nouveau buildings, rooms and metro entrances were on show, and the Finnish pavilion had frescoes of national myths.
+- **Wiener Werkstätte** (company, Vienna, 1903–1932), made the style. Viennese workshop of artists and craftspeople. It began in 1903 with money from Fritz Waerndorfer and closed in 1932.
 
 ## Permutations
 
@@ -204,7 +205,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)
 - **Led to (go here for a newer version):** [`art-deco-product`](../art-deco-product/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`victorian-manufacture`](../victorian-manufacture/SKILL.md)
-- **Kin in another domain:** [`art-nouveau-architecture`](../art-nouveau-architecture/SKILL.md), [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md)
+- **Kin in another domain:** [`art-nouveau-architecture`](../art-nouveau-architecture/SKILL.md), [`art-nouveau-ceramics`](../art-nouveau-ceramics/SKILL.md), [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md), [`art-nouveau-jewellery`](../art-nouveau-jewellery/SKILL.md), [`art-nouveau-tiles`](../art-nouveau-tiles/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md)
 - **Nearest by vector profile:** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)
 
 ## Emotional target

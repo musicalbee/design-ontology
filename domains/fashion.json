@@ -1,0 +1,170 @@
+{
+  "id": "fashion",
+  "order": 13,
+  "name": "Fashion",
+  "schema": "schema/domains/fashion.schema.json",
+  "task": "specifying, sourcing or prompting dress and what goes with it: garments, outdoor wear, underwear, shoes, accessories, jewellery, watches and the styling of cars",
+  "description": "Fashion styles in eight branches: costume, outdoor, underwear, shoes, accessories, jewellery, watches and cars. Each style is the rule set of one branch in one period: silhouette, fabrics, construction, surface, palette and making, with three to six signature pieces. A closed vocabulary names each fibre, fabric, material and finish with the year and the place where it began, so that the styles also give a history of fabrics.",
+  "vectors": [
+    {
+      "key": "ornamentation",
+      "label": "Ornamentation",
+      "abbr": "ORN",
+      "low": "plain cloth and clean lines",
+      "high": "embroidery, beads, carving or brightwork on every part"
+    },
+    {
+      "key": "structure",
+      "label": "Structure",
+      "abbr": "STRUCT",
+      "low": "soft, draped, follows the body",
+      "high": "rigid, built, holds its own shape"
+    },
+    {
+      "key": "luxury",
+      "label": "Luxury",
+      "abbr": "LUX",
+      "low": "utility and everyday materials",
+      "high": "precious materials and hand work"
+    },
+    {
+      "key": "technicality",
+      "label": "Technicality",
+      "abbr": "TECH",
+      "low": "traditional craft and natural materials",
+      "high": "engineered performance and new materials"
+    },
+    {
+      "key": "chromatic_intensity",
+      "label": "Chromatic intensity",
+      "abbr": "CHROMA",
+      "low": "natural, neutral or black and white",
+      "high": "saturated colour and bold pattern"
+    }
+  ],
+  "facets": [
+    {
+      "key": "silhouette",
+      "title": "Silhouette & form"
+    },
+    {
+      "key": "fabrics",
+      "title": "Fabrics & materials"
+    },
+    {
+      "key": "construction",
+      "title": "Construction"
+    },
+    {
+      "key": "surface",
+      "title": "Surface & finish"
+    },
+    {
+      "key": "palette",
+      "title": "Palette"
+    },
+    {
+      "key": "making",
+      "title": "Making"
+    },
+    {
+      "key": "signatures",
+      "title": "Signature pieces"
+    },
+    {
+      "key": "prompt_primer",
+      "title": "Prompt primer"
+    }
+  ],
+  "assets": [
+    {
+      "type": "swatch-board",
+      "purpose": "A board of the main fabrics and materials of the style, each drawn as its weave, knit or surface in the palette of the style, with the name and the year of origin of each fabric.",
+      "made_by": "code",
+      "file": "demo/previews/fashion/{id}.svg",
+      "manifest": "demo/previews/fashion/manifest.json",
+      "entry": "images.{id}",
+      "generator": "scripts/render-fashion-swatches.ts",
+      "canvas": [
+        {
+          "width": 1152,
+          "height": 768
+        }
+      ]
+    }
+  ],
+  "knobs": [
+    {
+      "key": "ornament_level",
+      "label": "Ornament level",
+      "kind": "number",
+      "min": 0,
+      "max": 1,
+      "description": "The share of the visible surface that carries applied ornament (embroidery, beads, brogue holes, engraving, chrome trim): 0 = none, 1 = every part.",
+      "drives": [
+        "surface",
+        "signatures"
+      ]
+    },
+    {
+      "key": "proportion_scale",
+      "label": "Proportion scale",
+      "kind": "number",
+      "min": 0,
+      "max": 1,
+      "description": "The size of the main volume against the period norm: 0 = slim, small and close to the body, 1 = oversized, bold and wide.",
+      "drives": [
+        "silhouette",
+        "signatures"
+      ]
+    },
+    {
+      "key": "surface_gloss",
+      "label": "Surface gloss",
+      "kind": "integer",
+      "unit": "GU",
+      "min": 0,
+      "max": 100,
+      "description": "The gloss of the main fabric or material in gloss units at 60 degrees: 0 to 10 = matte cloth or suede, 10 to 70 = satin, 70 and more = patent, polish or paint.",
+      "drives": [
+        "surface",
+        "fabrics"
+      ]
+    },
+    {
+      "key": "era_blend",
+      "label": "Era blend",
+      "kind": "number",
+      "min": 0,
+      "max": 1,
+      "description": "How far a piece moves from a period original: 0 = a period piece or a faithful reproduction, 1 = a contemporary piece that only quotes the period.",
+      "drives": [
+        "silhouette",
+        "making",
+        "signatures"
+      ]
+    },
+    {
+      "key": "metal_tone",
+      "label": "Metal tone",
+      "kind": "enum",
+      "options": [
+        "yellow-gold",
+        "rose-gold",
+        "white-gold",
+        "silver",
+        "steel",
+        "chrome",
+        "brass",
+        "gunmetal",
+        "black",
+        "none"
+      ],
+      "description": "The one colour of visible metal: buttons, buckles, eyelets, clasps, cases, settings and brightwork.",
+      "drives": [
+        "surface",
+        "palette"
+      ]
+    }
+  ]
+}

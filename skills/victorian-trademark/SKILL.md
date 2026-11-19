@@ -145,9 +145,9 @@ Large display letters routed from end-grain wood instead of cast in metal, so po
 - Draw the faces to be loud at a distance: fat face, slab and condensed grotesque, in one weight per line.
 - Mix several faces and sizes on one bill and centre each line, as the job printers did.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **L. Prang & Co.** (publisher, Boston, ?–now), made the style. The colour lithography firm of Louis Prang. It printed trade cards, labels and Christmas cards with pictorial marks in the Victorian taste.
 
@@ -172,7 +172,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`art-nouveau-monogram`](../art-nouveau-monogram/SKILL.md), [`emblem-badge`](../emblem-badge/SKILL.md)
 - **Was rejected by:** [`swiss-modernist-mark`](../swiss-modernist-mark/SKILL.md)
 - **Mixes well with:** [`emblem-badge`](../emblem-badge/SKILL.md)
-- **Kin in another domain:** [`engraving-print`](../engraving-print/SKILL.md), [`fat-face-display`](../fat-face-display/SKILL.md), [`victorian-interior`](../victorian-interior/SKILL.md), [`victorian-web`](../victorian-web/SKILL.md), [`wood-type-poster`](../wood-type-poster/SKILL.md)
+- **Kin in another domain:** [`engraving-print`](../engraving-print/SKILL.md), [`fat-face-display`](../fat-face-display/SKILL.md), [`malletier-luggage`](../malletier-luggage/SKILL.md), [`victorian-interior`](../victorian-interior/SKILL.md), [`victorian-web`](../victorian-web/SKILL.md), [`wood-type-poster`](../wood-type-poster/SKILL.md)
 - **Nearest by vector profile:** [`emblem-badge`](../emblem-badge/SKILL.md), [`art-nouveau-monogram`](../art-nouveau-monogram/SKILL.md), [`glossy-3d-logo`](../glossy-3d-logo/SKILL.md)
 
 ## Emotional target

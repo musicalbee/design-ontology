@@ -326,12 +326,12 @@ Pieces of coloured glass held in lead strips, so that a window becomes a picture
 - Paint the lines of faces and folds in dark grisaille and fire them onto the glass.
 - Use deep blue and red for the field; keep the clear or yellow pieces under 20% of the window.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Great Exhibition** (exhibition, London, 1851–1851), exhibited the style. The first world's fair, in the Crystal Palace. It showed the ornate manufactured furniture and goods of the Victorian age.
-- **Morris & Co.** (workshop, London, 1861–1940), sold the style. The decorating firm of William Morris. It made and sold wallpaper, textiles, stained glass and furniture for Victorian and Arts and Crafts homes.
+- **Morris & Co.** (company, London, 1861–1940), sold the style. The decorating firm of William Morris. It made and sold wallpaper, textiles, stained glass and furniture for Victorian and Arts and Crafts homes.
 
 ## Permutations
 
@@ -355,7 +355,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`georgian-interior`](../georgian-interior/SKILL.md)
 - **Led to (go here for a newer version):** [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md)
 - **Was rejected by:** [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md), [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md)
-- **Kin in another domain:** [`pictorialism`](../pictorialism/SKILL.md), [`slab-serif`](../slab-serif/SKILL.md), [`victorian-manufacture`](../victorian-manufacture/SKILL.md), [`victorian-trademark`](../victorian-trademark/SKILL.md)
+- **Kin in another domain:** [`crinoline-and-bustle-dress`](../crinoline-and-bustle-dress/SKILL.md), [`cuisine-classique`](../cuisine-classique/SKILL.md), [`dark-academia`](../dark-academia/SKILL.md), [`pictorialism`](../pictorialism/SKILL.md), [`slab-serif`](../slab-serif/SKILL.md), [`victorian-architectural-terracotta`](../victorian-architectural-terracotta/SKILL.md), [`victorian-encaustic-tiles`](../victorian-encaustic-tiles/SKILL.md), [`victorian-manufacture`](../victorian-manufacture/SKILL.md), [`victorian-millinery`](../victorian-millinery/SKILL.md), [`victorian-sanitary-ware`](../victorian-sanitary-ware/SKILL.md), [`victorian-sentimental-jewellery`](../victorian-sentimental-jewellery/SKILL.md), [`victorian-trademark`](../victorian-trademark/SKILL.md)
 - **Nearest by vector profile:** [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md), [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md)
 
 ## Emotional target

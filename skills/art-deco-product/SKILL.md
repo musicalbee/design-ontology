@@ -170,9 +170,9 @@ Rays from a disc or a half disc: a sign of light and of the new, on a facade, a 
 - Keep the centre disc at 15% to 30% of the full diameter.
 - In a room, use one sunburst as the focal point of one wall.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **International Exhibition of Modern Decorative and Industrial Arts** (exhibition, Paris, 1925–1925), exhibited the style. A world's fair of decorative and industrial arts. Its pavilions and rooms showed the new luxury style that later got the name Art Deco from this show.
 
@@ -203,7 +203,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)
 - **Was rejected by:** [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)
 - **Mixes well with:** [`bauhaus-product`](../bauhaus-product/SKILL.md)
-- **Kin in another domain:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`art-deco-interior`](../art-deco-interior/SKILL.md), [`art-deco-web`](../art-deco-web/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md)
+- **Kin in another domain:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`art-deco-ceramic-figures`](../art-deco-ceramic-figures/SKILL.md), [`art-deco-dance-shoe`](../art-deco-dance-shoe/SKILL.md), [`art-deco-evening-accessory`](../art-deco-evening-accessory/SKILL.md), [`art-deco-faience-facade`](../art-deco-faience-facade/SKILL.md), [`art-deco-interior`](../art-deco-interior/SKILL.md), [`art-deco-jewellery`](../art-deco-jewellery/SKILL.md), [`art-deco-tableware`](../art-deco-tableware/SKILL.md), [`art-deco-watch`](../art-deco-watch/SKILL.md), [`art-deco-web`](../art-deco-web/SKILL.md), [`coloured-bathroom-suite`](../coloured-bathroom-suite/SKILL.md), [`costume-jewellery`](../costume-jewellery/SKILL.md), [`fiesta-colourware`](../fiesta-colourware/SKILL.md), [`garconne-flapper-dress`](../garconne-flapper-dress/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md), [`vintage-coachbuilt-car`](../vintage-coachbuilt-car/SKILL.md)
 - **Nearest by vector profile:** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`art-nouveau-object`](../art-nouveau-object/SKILL.md), [`victorian-manufacture`](../victorian-manufacture/SKILL.md)
 
 ## Emotional target

@@ -186,17 +186,19 @@ A curved head over an opening that carries load as compression; inside, a soft f
 
 ### Neon glow (material)
 
-Light as a line of coloured gas, with a soft halo that spills onto the dark ground around it. Origin: graphic & ui design, Paris, 1912.
+Light as a line of coloured gas, with a soft halo that spills onto the dark ground around it. Origin: internet, Paris, 1912.
 
 - Draw the tube as a line of 2 to 6mm in one saturated colour; use no more than 2 colours in one sign.
 - Add a halo of 10 to 40px at 30% to 60% opacity in the same hue.
 - Set the sign on a ground darker than 10% lightness, so that the halo shows.
 - Keep a bright, near-white core inside the line.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Graham Foundation** (foundation, Chicago, 1956–now), funded the style. Chicago foundation for architecture, founded in 1956. It backed Robert Venturi's book Complexity and Contradiction in Architecture.
+- **Hyatt Foundation** (foundation, Chicago, ?–now), funded the style. Sponsor of the Pritzker Architecture Prize. The Pritzker family funds the prize, which it founded in 1979.
 - **Venice Biennale of Architecture** (salon, Venice, 1980–now), launched the style. An architecture show that the Venice Biennale holds every two years. Its first edition built a street of postmodern facades, and later editions showed buildings made again from old structures.
 
 ## Permutations

@@ -106,9 +106,12 @@ const $ = (id) => document.getElementById(id);
 const NS = "http://www.w3.org/2000/svg";
 let G, byId, pos = {}, selected = null, reach = new Map();
 
-// Time axis: 1200–1850 is compressed, 1850–2030 is wide, because most styles start after 1850.
-const X0 = 150, W_EARLY = 160, W_MAIN = 1250;
-const x = (y) => y < 1850 ? X0 + (Math.max(y, 1200) - 1200) / 650 * W_EARLY : X0 + W_EARLY + (Math.min(y, 2030) - 1850) / 180 * W_MAIN;
+// Time axis: before 1200 is on a square-root scale (ceramics starts in 18,000 BC), 1200–1850 is compressed, and 1850–2030 is
+// wide, because most styles start after 1850.
+const W_ANCIENT = 170, X0 = 150 + W_ANCIENT, W_EARLY = 160, W_MAIN = 1250, FIRST = -20000;
+const ancient = (y) => X0 - Math.sqrt((1200 - Math.max(y, FIRST)) / (1200 - FIRST)) * W_ANCIENT;
+const x = (y) => y < 1200 ? ancient(y) : y < 1850 ? X0 + (y - 1200) / 650 * W_EARLY : X0 + W_EARLY + (Math.min(y, 2030) - 1850) / 180 * W_MAIN;
+const tickLabel = (y) => (y < 0 ? `${-y} BC` : String(y));
 const ROW = 18, LANE_PAD = 14, CHAR = 6.2;
 
 function layout() {
@@ -141,9 +144,9 @@ function draw() {
   svg.setAttribute("width", width);
   svg.setAttribute("height", height);
   let html = "";
-  // Hairline grid first, so the data sits on top. The dashed line at 1850 marks the change of scale.
-  for (const yr of [1200, 1400, 1600, 1850, 1875, 1900, 1925, 1950, 1975, 2000, 2025]) {
-    html += `<line class="grid${yr === 1850 ? " break" : ""}" x1="${x(yr)}" x2="${x(yr)}" y1="22" y2="${height - 8}"/><text class="tick" x="${x(yr)}" y="16" text-anchor="middle">${yr}</text>`;
+  // Hairline grid first, so the data sits on top. The dashed lines at 1200 and 1850 mark the changes of scale.
+  for (const yr of [-10000, -1000, 1200, 1400, 1600, 1850, 1875, 1900, 1925, 1950, 1975, 2000, 2025]) {
+    html += `<line class="grid${yr === 1850 || yr === 1200 ? " break" : ""}" x1="${x(yr)}" x2="${x(yr)}" y1="22" y2="${height - 8}"/><text class="tick" x="${x(yr)}" y="16" text-anchor="middle">${tickLabel(yr)}</text>`;
   }
   html += `<text class="tick" x="${(x(1200) + x(1850)) / 2}" y="${height - 1}" text-anchor="middle">compressed scale</text>`;
   G.domains.forEach((d, i) => {

@@ -171,9 +171,9 @@ Chips of marble or glass set in a binder and ground flat, so that each chip show
 - Use 2 to 4 chip colours on one ground colour.
 - Grind and polish the surface flat, so that the chip edges show as cut sections.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Memphis Group** (studio, Milan, 1980–1987), launched the style. A collective of designers round Ettore Sottsass that showed bold laminate furniture and objects. Its first show in 1981 launched the Memphis style.
 
@@ -202,7 +202,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`space-age-pop-product`](../space-age-pop-product/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md)
 - **Was rejected by:** [`super-normal-product`](../super-normal-product/SKILL.md)
-- **Kin in another domain:** [`dopamine-decor`](../dopamine-decor/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`memphis-interior`](../memphis-interior/SKILL.md)
+- **Kin in another domain:** [`dopamine-decor`](../dopamine-decor/SKILL.md), [`kidcore`](../kidcore/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`memphis-interior`](../memphis-interior/SKILL.md), [`memphis-postmodern-ceramics`](../memphis-postmodern-ceramics/SKILL.md), [`swiss-plastic-pop-watch`](../swiss-plastic-pop-watch/SKILL.md)
 - **Nearest by vector profile:** [`victorian-manufacture`](../victorian-manufacture/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md), [`art-nouveau-object`](../art-nouveau-object/SKILL.md)
 
 ## Emotional target

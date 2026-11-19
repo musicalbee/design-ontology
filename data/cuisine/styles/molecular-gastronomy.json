@@ -1,0 +1,359 @@
+{
+  "$schema": "../../../schema/domains/cuisine.schema.json",
+  "id": "molecular-gastronomy",
+  "domain": "cuisine",
+  "name": "Molecular gastronomy",
+  "aliases": [
+    "Techno-emotional cuisine",
+    "Avant-garde cuisine",
+    "Science kitchen",
+    "Cuisine of deconstruction"
+  ],
+  "era_id": "modernist-and-global",
+  "branch": "haute",
+  "time_period": {
+    "start": 1988,
+    "end": 2011,
+    "label": "1988–2011"
+  },
+  "region": "Roses in Catalonia and Bray in England",
+  "summary": "A kitchen that uses the science of food as a tool and a game. Hervé This and Nicholas Kurti named the field in 1988. Ferran Adrià at elBulli and Heston Blumenthal at The Fat Duck made foams, spheres and liquid-nitrogen ice cream.",
+  "philosophy": {
+    "core_thesis": "Cooks can ask why food changes when it is heated, mixed or frozen, and then use the answer to build new textures, temperatures and surprises.",
+    "design_principles": [
+      "Ask a physical or chemical question about a dish, test it in the kitchen, and keep the answer.",
+      "Change the form of the ingredient: a liquid becomes a sphere, a purée becomes a foam, a cream becomes a powder.",
+      "Keep the taste of the ingredient clear while its texture and temperature change.",
+      "Play with the senses: serve hot and cold in one bite, and add sound, smell or a story to the dish.",
+      "Cook slowly at an exact low temperature, and measure the heat with a probe.",
+      "Serve a long sequence of small courses as one show, with each course a new surprise.",
+      "Work in a research kitchen, record each test, and share the findings."
+    ],
+    "anti_patterns": [
+      "A trick that has no taste of the ingredient",
+      "A heavy classic sauce that hides the texture",
+      "A dish that comes from habit, not from a question",
+      "A menu of familiar courses in the usual order",
+      "A rustic plate that hides the technique",
+      "A chemical effect that the guest cannot see or taste"
+    ]
+  },
+  "vectors": {
+    "composition": 4,
+    "transformation": 5,
+    "locality": 2,
+    "richness": 2,
+    "flavour_intensity": 3
+  },
+  "plating": {
+    "composition": "A small, exact object or a group of objects on a clean surface: a sphere, a foam or a frozen piece, placed with a spoon or in a special vessel.",
+    "plate": "A white plate, a glass or a spoon, a slate or a vessel made for one dish: a petri dish, a tube or a bag.",
+    "portion": "Twenty to thirty-five courses of 5 to 40 g each; a main piece of 60 g at most.",
+    "height": "Low or very small: a sphere of 20 mm, a foam in a glass of 60 mm, a frozen dish that gives off vapour.",
+    "rules": [
+      "Serve each course in the vessel that fits its form: a spoon for a sphere, a glass for a foam.",
+      "Place one clear object on a clean surface and leave most of the plate empty.",
+      "Serve the cold and the hot parts at the last second, so that the temperature contrast stays.",
+      "Use a surprise of form: a food that looks like another food.",
+      "Give the order of the bites to the guest, and explain it in one short line."
+    ]
+  },
+  "pantry": {
+    "primary": [
+      "sodium-alginate",
+      "agar",
+      "xanthan-gum",
+      "liquid-nitrogen",
+      "soy-lecithin",
+      "egg",
+      "shellfish"
+    ],
+    "secondary": [
+      "cream",
+      "butter",
+      "olive-oil",
+      "potato",
+      "tomato",
+      "salmon",
+      "tuna",
+      "cocoa",
+      "vanilla",
+      "nuts-seeds",
+      "cane-sugar",
+      "lemon",
+      "fine-herbs",
+      "wild-plants"
+    ],
+    "avoid": [
+      "beef",
+      "lard"
+    ],
+    "in_europe": true,
+    "rule": "Take each ingredient as a source of flavour, and use the gels, thickeners and gases of the laboratory to change its form."
+  },
+  "technique": {
+    "methods": [
+      "spherification",
+      "siphon-foam",
+      "sous-vide",
+      "cryo-freezing",
+      "dehydrating",
+      "plated-service"
+    ],
+    "bases": "Alginate and calcium baths, agar and xanthan gels, lecithin air, nitrous-oxide foams and low-temperature water baths.",
+    "details": "A sphere that bursts in the mouth, a warm gel, a frozen powder, an air of lecithin, a drop of oil in a gel."
+  },
+  "flavour": {
+    "profile": "Clear, bright and surprising: the taste of one ingredient in a strange form.",
+    "balance": "Each bite has one lead taste, a clear acid or sweet note, and a contrast of temperature.",
+    "fat": "Light fats in small parts: oils in gels and airs, cream in foams; 15 to 30 per cent of the energy of a course.",
+    "seasoning": "Salt in a flake or a spray, lemon, herbs and spices in oils, airs and powders."
+  },
+  "palette": {
+    "strategy": "Use clean, pure colours of the ingredients on white, so that the form of the food, not the colour, gives the surprise.",
+    "colours": [
+      {
+        "name": "Laboratory white",
+        "hex": "#F3F1EC",
+        "role": "plate and foam"
+      },
+      {
+        "name": "Olive green",
+        "hex": "#7C8A3A",
+        "role": "spheres"
+      },
+      {
+        "name": "Pea green",
+        "hex": "#9FC26B",
+        "role": "gels and airs"
+      },
+      {
+        "name": "Carrot orange",
+        "hex": "#E58A2E",
+        "role": "airs and powders"
+      },
+      {
+        "name": "Beetroot red",
+        "hex": "#A32A4A",
+        "role": "accent"
+      },
+      {
+        "name": "Slate grey",
+        "hex": "#4A4F55",
+        "role": "slate and steel"
+      },
+      {
+        "name": "Glass clear",
+        "hex": "#CFE2E6",
+        "role": "glass and ice"
+      }
+    ]
+  },
+  "service": {
+    "format": "A long tasting menu of small courses that the cooks explain at the table, with a few courses served in front of the guest.",
+    "courses": "Twenty to thirty-five small courses, in the form of a show, with snacks, a tasting sequence and a long run of desserts.",
+    "tableware": "Special vessels made for single dishes: spoons, glass, tubes, tongs and bags, with plain white china for the rest.",
+    "setting": "A plain dining room by the sea or in a village, with an open or a glass-walled kitchen and a calm, theatrical service."
+  },
+  "signatures": {
+    "dishes": [
+      {
+        "course": "amuse-bouche",
+        "dish": "Spherical olives of olive oil",
+        "ingredient": "olive-oil",
+        "method": "spherification"
+      },
+      {
+        "course": "tasting-course",
+        "dish": "Potato foam from a siphon",
+        "ingredient": "potato",
+        "method": "siphon-foam"
+      },
+      {
+        "course": "dessert",
+        "dish": "Bacon and egg ice cream, frozen at the table",
+        "ingredient": "egg",
+        "method": "cryo-freezing"
+      },
+      {
+        "course": "fish-course",
+        "dish": "Salmon cooked at a low temperature in a liquorice gel",
+        "ingredient": "salmon",
+        "method": "sous-vide"
+      },
+      {
+        "course": "tasting-course",
+        "dish": "Sound of the Sea: seafood on edible sand, with a sea sound",
+        "ingredient": "shellfish",
+        "method": "plated-service"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "avant-garde tasting menu",
+      "a spherical olive on a spoon",
+      "siphon foam in a glass",
+      "liquid nitrogen vapour",
+      "a clean white surface",
+      "one exact object on the plate",
+      "laboratory glassware",
+      "bright pure colours",
+      "overhead food photograph"
+    ],
+    "negative": [
+      "heavy sauce",
+      "rustic plate",
+      "heaped portion",
+      "foraged garnish",
+      "gold rim",
+      "family-style dish"
+    ],
+    "canonical_works": [
+      {
+        "work": "A Day at elBulli",
+        "maker": "Ferran Adrià, Juli Soler and Albert Adrià",
+        "year": 2008
+      },
+      {
+        "work": "The Big Fat Duck Cookbook",
+        "maker": "Heston Blumenthal",
+        "year": 2008
+      },
+      {
+        "work": "Molecular Gastronomy: Exploring the Science of Flavor",
+        "maker": "Hervé This",
+        "year": 2006
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Liquid nitrogen delivery at The Fat Duck, Bray",
+      "kind": "image",
+      "credit": "tpholland, via Wikimedia Commons",
+      "licence": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Liquid_nitrogen_delivery,_the_Fat_Duck_(3740303116).jpg",
+      "maker": "The Fat Duck",
+      "year": 2009,
+      "file": "https://upload.wikimedia.org/wikipedia/commons/4/44/Liquid_nitrogen_delivery%2C_the_Fat_Duck_%283740303116%29.jpg"
+    },
+    {
+      "title": "El Bulli on Cala Montjoi, Roses",
+      "kind": "image",
+      "credit": "Gordito1869, via Wikimedia Commons",
+      "licence": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:ElBulli_Ferran_Adri%C3%A0.jpg",
+      "maker": "elBulli",
+      "year": 2006,
+      "file": "https://upload.wikimedia.org/wikipedia/commons/d/d6/ElBulli_Ferran_Adri%C3%A0.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "nouvelle-cuisine"
+    ],
+    "rebelled_against": [
+      "cuisine-classique"
+    ],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The surprise of a magic trick that you can taste: a food that is not what it looks like.",
+    "keywords": [
+      "surprising",
+      "playful",
+      "exact",
+      "cold",
+      "scientific"
+    ],
+    "brand_archetypes": [
+      "magician",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "molecular gastronomy",
+      "elbulli",
+      "spherification",
+      "siphon foam",
+      "liquid nitrogen dessert",
+      "avant-garde tasting menu",
+      "deconstructed dish"
+    ],
+    "use_cases": [
+      "a tasting menu that plays with texture and temperature",
+      "a food photograph of a sphere, a foam or a frozen dish",
+      "a menu that tells a science story"
+    ],
+    "avoid_when": [
+      "the brief wants simple, local or foraged food",
+      "the brief wants a rich classic sauce",
+      "the brief is home or street food"
+    ],
+    "modifiers": [
+      {
+        "request": "more rigour and more recipes in a book",
+        "toward": "modernist-cuisine",
+        "how": "Keep the methods; measure them, publish the times and temperatures, and use the plate as a clean, exact page."
+      },
+      {
+        "request": "return to the land and the season",
+        "toward": "new-nordic",
+        "how": "Remove gels and foams; use wild plants, ferments and wood fire, and serve on stoneware."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Molecular gastronomy",
+      "url": "https://en.wikipedia.org/wiki/Molecular_gastronomy"
+    },
+    {
+      "title": "Wikipedia: El Bulli",
+      "url": "https://en.wikipedia.org/wiki/El_Bulli"
+    },
+    {
+      "title": "Wikipedia: The Fat Duck",
+      "url": "https://en.wikipedia.org/wiki/The_Fat_Duck"
+    }
+  ],
+  "permutations": {
+    "course_count": {
+      "default": 28,
+      "min": 15,
+      "max": 40
+    },
+    "negative_space": {
+      "default": 0.7,
+      "min": 0.5,
+      "max": 0.9
+    },
+    "portion_g": {
+      "default": 25,
+      "min": 5,
+      "max": 80
+    },
+    "spice_level": {
+      "default": 0,
+      "min": 0,
+      "max": 2
+    },
+    "fat_share": {
+      "default": 0.2,
+      "min": 0.1,
+      "max": 0.35
+    },
+    "plate_colour": {
+      "default": "#F3F1EC",
+      "options": [
+        "#F3F1EC",
+        "#4A4F55",
+        "#CFE2E6",
+        "#2E2B28"
+      ]
+    }
+  }
+}

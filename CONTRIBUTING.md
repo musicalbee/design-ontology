@@ -1,23 +1,23 @@
 # Contributing
 
-A contribution is one JSON file in `data/<domain>/styles/`, `data/people/`, `data/techniques/` or `data/media/`. The build makes all other files. Each style must pass the six curation rules below. The validator stops the build on each miss.
+A contribution is one JSON file in `data/<domain>/styles/`, `data/people/`, `data/techniques/`, `data/orgs/` or `data/funding/`. The build makes all other files. Each style must pass the six curation rules below. The validator stops the build on each miss.
 
 ## Procedure
 
-1. Copy `data/design/styles/swiss-international.json` to `data/design/styles/<id>.json`.
+1. Copy `data/internet/styles/swiss-international.json` to `data/internet/styles/<id>.json`.
 2. Set `id` to the file name without the extension. The id is kebab-case and unique across all domains.
-3. Fill each field. The schema (`schema/domains/design.schema.json`) describes each one.
+3. Fill each field. The schema (`schema/domains/internet.schema.json`) describes each one.
 4. Make the style pass the six curation rules (see "The six curation rules" below):
    - Name at least one person, with a role, in `data/people/` (see "A new person").
    - Name the 1 to 3 top techniques of the style in `data/techniques/` (see "A technique"). If a technique is there, add the style id to its `styles` and to the adoption of the style's domain.
-   - Name at least one medium in `data/media/` (see "A medium").
+   - Name at least one organisation in `data/orgs/` (see "An organisation").
    - Give the range of each knob of the domain in `permutations` (see "Permutations").
    - Make each asset that the domain names (see "The asset library").
 5. Run `npm run build`. A style that misses a rule is an error. A new style cannot go on the allowlist.
 6. If the build reports an error, correct the data file and run the build again.
 7. Open `demo/index.html` through a local server and look at your style: `python3 -m http.server --directory . 4000`, then `http://localhost:4000/demo/#<id>`.
-8. Commit the data file and the people, technique and media files. The pre-commit hook (`.husky/pre-commit`, installed by `npm install`) moves the package version one patch step, runs the type check and the build, then adds `package.json`, `graph/`, `skills/` and `README.md` to the commit.
-9. Open a pull request. Say in two lines why the style is a style of its own and not a variant of one that exists. Name its people, techniques and media.
+8. Commit the data file and the people, technique and organisation files. The pre-commit hook (`.husky/pre-commit`, installed by `npm install`) moves the package version one patch step, runs the type check and the build, then adds `package.json`, `graph/`, `skills/` and `README.md` to the commit.
+9. Open a pull request. Say in two lines why the style is a style of its own and not a variant of one that exists. Name its people, techniques and organisations.
 
 ## The six curation rules
 
@@ -28,13 +28,13 @@ A contribution is one JSON file in `data/<domain>/styles/`, `data/people/`, `dat
 | 1. identity | a name, a dated period (`time_period.label` and `start`), a summary, an era that exists, and a lineage edge or a `lineage.root` reason | the style file |
 | 2. people | at least one person who took part directly, with a role | `data/people/` |
 | 3. techniques | at least one technique, invented or inherited | `data/techniques/` |
-| 4. media | at least one medium: a salon, club, school, workshop, magazine, publisher, gallery, auction house or platform | `data/media/` |
+| 4. orgs | at least one organisation: a group, a channel or a backer | `data/orgs/` |
 | 5. assets | each asset type that the domain names, with its file and its record | `domains/<domain>.json` `assets` |
 | 6. permutations | a range for each knob that the domain names | the style file, `permutations` |
 
 Rule 1. Use `lineage.root` only for a style that has no edge, for example the first style of a domain. Write one sentence that gives the reason. A style with an edge and a root reason is an error.
 
-Rules 2, 3 and 4. The edge has one owner. A person, a technique or a medium names its styles; the style file does not name them. This keeps one record for each edge.
+Rules 2, 3 and 4. The edge has one owner. A person, a technique or an organisation names its styles; the style file does not name them. This keeps one record for each edge.
 
 ### The allowlist
 
@@ -44,7 +44,7 @@ Rules 2, 3 and 4. The edge has one owner. A person, a technique or a medium name
 - The list can only shrink. The build compares it with the list on the base branch (`origin/main`, or the ref in `CURATION_BASE`). An entry that is not on the base list is an error.
 - A new style cannot go on the list.
 - When a style passes a rule, remove that rule from its entry. A stale entry is an error, so the list stays true.
-- If a pull request on the people, technique or media layer makes a style pass a rule, that pull request removes the entry.
+- If a pull request on the people, technique or organisation layer makes a style pass a rule, that pull request removes the entry.
 
 ## Permutations
 
@@ -96,6 +96,7 @@ The check fails if a file is missing, if its record is missing, if a model asset
 - **The `visual` block.** Set the type treatment, the icon treatment, the layout and `art.recipe`. In `visual.icon.pack`, name an open-source icon family from `icons/packs/` and give the reason by the rules in `icons/principles.json`. For a new family, add it to `icons/sources.json` and run `npm run icons`. The licence must be MIT, ISC, Apache 2.0 or CC BY 4.0. A recipe is a function in `scripts/pack.ts`. If no recipe fits your style, add one there.
 - **Scores are relative.** Before you set a vector, run `npm run query -- list` and compare with the styles that have the same score.
 - **Lineage is a claim.** `evolved_from` and `rebelled_against` point only at styles that started earlier or in the same year. `hybridized_with` has no year rule. `echoes` points only at a style in a different domain.
+- **A sub-genre is a style.** `subgenre_of` names one parent style in the same domain. The sub-genre has a full style record and passes the six rules. If it has no visual recipe of its own, it is not a sub-genre: write it as an organisation (a crew or a collective).
 - **Fonts are open source.** SIL OFL or Apache, available on Google Fonts.
 - **Tokens are valid CSS.** All 16 required custom properties are present. Extra tokens are welcome.
 - **Print styles have motion too.** Set `motion.native` to `false` and give a faithful translation for screen.
@@ -128,16 +129,35 @@ A technique is a cut, a motion rule, a motif, a material, a process, a tool, a s
 6. In `origin.styles`, name the styles that invented the technique. Each other style in `styles` inherited it.
 7. Run `npm run build`. The compiler adds a "Techniques" section to each style that the technique names, and writes `skills/TECHNIQUES.md`.
 
-## A medium
+## An organisation
 
-A medium is a place or a channel that carried a style: a salon, a club, a school, a workshop, a studio, a magazine, a publisher, a gallery, an exhibition, an auction house or a platform.
+An organisation is a body round a style that is not one person. There are three groups of kinds:
 
-1. Write `data/media/<id>.json`. The schema is `schema/medium.schema.json`. The id is the file name.
+- Groups of people: `crew` (they work and sign as one), `collective` (a loose network, a society, a scene), `council` (it sets rules, grants a mark or judges), `studio`, `company`.
+- Channels: `school`, `gallery`, `dealer`, `publisher`, `magazine`, `label`, `salon`, `exhibition`, `venue`, `auction-house`, `platform`.
+- Backers: `court`, `church`, `house` (a family that paid as a unit), `foundation`, `state-programme`, `fund`.
+
+One organisation has one record, also when it has two roles (a gallery that was also a dealer). Pick the kind of its main role.
+
+1. Write `data/orgs/<id>.json`. The schema is `schema/org.schema.json`. The id is the file name.
 2. Set `founded` and `closed` from an open source. If it is still open, set `closed` to null. Do not guess a year.
-3. In `styles`, name each style that the medium carried, with its part: `launched`, `exhibited`, `published`, `taught`, `made`, `sold` or `gathered`.
-4. In `people`, name the people in `data/people/` who ran it or worked through it.
-5. Write the summary in your own words. Give one or two sources.
-6. Run `npm run build`. The compiler adds a "Media" section to each style that the medium names.
+3. In `styles`, name each style that the organisation carried, with its part: `launched`, `shaped`, `exhibited`, `published`, `taught`, `made`, `sold`, `gathered`, `opposed`, `revived` or `funded` (it paid for the work; write the flows in `data/funding/`).
+4. In `people`, name the people in `data/people/` who ran it or worked through it. For a group, use `members` instead: each person with a role (`founder`, `member`, `leader`, `guest`) and the years.
+5. Optional: `statement` (the manifesto, in your own words, with a link), `moves` (dated events, each with a source) and `relations` (`split_from`, `successor_of`, `rival_of`, `member_of`, all ids in `data/orgs/`).
+6. Write the summary in your own words. Give one or two sources.
+7. Run `npm run build`. The compiler adds an "Organisations" section to each style that the organisation names, and writes `graph/orgs.json`.
+
+## A funding flow
+
+A funding flow is one payment or one paid support: who paid whom, when, and for what. The backer is a person in `data/people/` or an organisation in `data/orgs/`. The receiver is a person, an organisation or a style.
+
+1. Write `data/funding/<id>.json`. The schema is `schema/funding.schema.json`. The id is `<from>--<to>`. If one pair has more than one flow, add `-<year>`.
+2. Set `kind`: `commission`, `stipend`, `purchase`, `exhibition`, `dealer-contract`, `publishing`, `residency`, `prize`, `grant`, `state-programme`, `investment`, `acquisition`, `crowdfunding`, `platform-fund` or `employment`.
+3. Set `years` to the start and the end from an open source. If the end is not known, set it to null. If the start is not known, do not write the flow.
+4. If the receiver is a person or an organisation, name the styles that the money helped in `styles`. Send money to a style only when it went to the movement as a whole.
+5. Cite at least one source that states the flow. Give an `amount` only when a source gives it, and set `amount.source` to the index of that source. The `amount.year` is inside `years`.
+6. Set `confidence`: `documented` (a primary record or a scholarly work), `reported` (an encyclopaedia or a press account) or `contested`. A contested flow cites each side.
+7. Run `npm run build`. The build writes `graph/money.json`: the flows, and the flows for each style and each backer.
 
 ## A disagreement with a score or an edge
 

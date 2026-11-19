@@ -1,0 +1,341 @@
+{
+  "$schema": "../../../schema/domains/ceramics.schema.json",
+  "id": "digital-3d-printed-ceramics",
+  "domain": "ceramics",
+  "name": "Digital 3D-printed ceramics",
+  "aliases": [
+    "Additive ceramics",
+    "Printed clay vessels",
+    "Parametric ceramic vessels"
+  ],
+  "era_id": "plural-contemporary",
+  "branch": "vessels",
+  "time_period": {
+    "start": 2010,
+    "end": null,
+    "label": "2010–now"
+  },
+  "region": "Belgium, the Netherlands and worldwide",
+  "summary": "Vessels that a machine builds layer by layer from a clay paste, after a digital model. The visible layer lines, the open lattice and the complex curves give the style its look.",
+  "philosophy": {
+    "core_thesis": "When a machine builds the form from a file, the vessel can have a shape that no wheel or mould can make, and the layer line becomes the ornament.",
+    "design_principles": [
+      "Draw the form as a digital model with a parametric rule: a twist, a wave, a lattice or a gradient.",
+      "Print the clay paste in layers of 0.8 to 2 mm with a nozzle of 1 to 4 mm.",
+      "Keep the layer lines as the surface texture; do not sand them away.",
+      "Vary the wall in one piece: a solid base, a thin wall and an open lattice at the top.",
+      "Print porcelain or stoneware paste that holds its shape, and dry it slowly for 3 to 7 days.",
+      "Fire the piece in one cycle at 1220 to 1300 °C, with a support of kiln setters where it overhangs.",
+      "Use a thin satin or clear glaze that keeps the ridges, or leave the surface bare.",
+      "Print a colour pattern with a ceramic inkjet if the piece needs a graphic surface."
+    ],
+    "anti_patterns": [
+      "A smooth, wheel-thrown surface with no layer line",
+      "A thick, glossy glaze that fills the ridges",
+      "A traditional folk or floral decoration",
+      "A form that a plain mould could make",
+      "A random mess of lines with no rule"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "hand_mark": 1,
+    "refinement": 4,
+    "glaze_depth": 2,
+    "chromatic_intensity": 2
+  },
+  "form": {
+    "shape": "Vases, planters, lidded jars, bottle vases and sculptural vessels with twisted, ribbed, lattice or gradient walls.",
+    "profile": "A smooth, complex curve that is built from fine rings: twisted columns, wave walls, open lace and thin double walls.",
+    "foot_and_rim": "A flat printed base that is part of the first layers; the rim is a clean horizontal cut or a lattice edge.",
+    "proportion": "Height 10 to 60 cm; wall 1 to 4 mm, and a lattice with openings of 3 to 15 mm.",
+    "rules": [
+      "Make the form follow a digital rule that the viewer can read.",
+      "Keep the layer lines at one regular pitch.",
+      "Design the overhangs to be less than 45 degrees, or add a support."
+    ]
+  },
+  "bodies": {
+    "primary": [
+      "porcelain",
+      "porcelain-stoneware",
+      "paper-clay"
+    ],
+    "secondary": [
+      "stoneware"
+    ],
+    "avoid": [
+      "bone-china",
+      "jasperware",
+      "raku-clay"
+    ],
+    "rule": "Use a smooth paste that flows through a nozzle and then holds its shape. Paper clay and fine porcelain are the best at thin walls and overhangs."
+  },
+  "forming": {
+    "methods": [
+      "3D printing of clay paste with a screw extruder",
+      "parametric modelling of the form",
+      "slow drying on a plaster bed",
+      "trimming of the base",
+      "glaze spraying",
+      "inkjet printing of colour"
+    ],
+    "joins": "The vessel is printed in one piece, with no joins; lids and parts are printed separately and fitted by the file.",
+    "details": "Regular layer lines, a small seam where each layer starts, precise lattice openings and a flat, exact base."
+  },
+  "glaze": {
+    "glazes": [
+      "clear-feldspathic",
+      "satin-glaze",
+      "matte-glaze",
+      "bare-clay"
+    ],
+    "decorations": [
+      "layer-lines",
+      "undecorated",
+      "digital-inkjet"
+    ],
+    "pattern": "Fine, regular horizontal ridges that run round the form; a twisted rib; a lattice wall; a colour gradient that is printed in ceramic ink.",
+    "gloss": "Matt to satin, 5 to 50 GU; thin glaze keeps the ridges sharp.",
+    "wear": "The ridges collect dust and are harder to clean; the thin lattice is brittle, and a thin wall chips at the rim."
+  },
+  "palette": {
+    "strategy": "A restrained, clean palette that makes the form the main subject: white, pale grey and clay, with an occasional strong colour.",
+    "colours": [
+      {
+        "name": "Porcelain white",
+        "hex": "#F3F1EA",
+        "role": "body"
+      },
+      {
+        "name": "Pale grey",
+        "hex": "#C9C8C2",
+        "role": "glaze"
+      },
+      {
+        "name": "Terracotta",
+        "hex": "#B8643E",
+        "role": "bare body"
+      },
+      {
+        "name": "Graphite",
+        "hex": "#3A3A3A",
+        "role": "accent"
+      },
+      {
+        "name": "Soft blue",
+        "hex": "#9FB5C9",
+        "role": "glaze"
+      },
+      {
+        "name": "Ink black",
+        "hex": "#161616",
+        "role": "print"
+      }
+    ]
+  },
+  "firing": {
+    "kiln": "An electric kiln, with a slow, even oxidation firing.",
+    "atmosphere": "oxidation",
+    "temperature_c": [
+      900,
+      1300
+    ],
+    "processes": [
+      "digital modelling and slicing of the file",
+      "printing of the clay paste in layers",
+      "slow drying for 3 to 7 days",
+      "biscuit firing at about 900 to 1000 °C",
+      "glaze firing at 1220 to 1300 °C"
+    ],
+    "scale": "One piece takes 2 to 20 hours to print; a studio prints one to a few pieces each day.",
+    "signs": "Regular layer lines, a faint seam where the layers start, and a clean, exact lattice."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "vase",
+        "form": "Tall vase of printed porcelain with a twisted rib and visible layer lines",
+        "body": "porcelain",
+        "glaze": "clear-feldspathic",
+        "decoration": "layer-lines"
+      },
+      {
+        "object": "planter",
+        "form": "Round planter with a wave wall of porcelain stoneware and a matt glaze",
+        "body": "porcelain-stoneware",
+        "glaze": "matte-glaze",
+        "decoration": "layer-lines"
+      },
+      {
+        "object": "sculptural-vessel",
+        "form": "Open lattice vessel of paper clay, left bare",
+        "body": "paper-clay",
+        "glaze": "bare-clay",
+        "decoration": "undecorated"
+      },
+      {
+        "object": "bottle-vase",
+        "form": "Bottle vase with a gradient pattern in printed ceramic ink",
+        "body": "porcelain",
+        "glaze": "satin-glaze",
+        "decoration": "digital-inkjet"
+      },
+      {
+        "object": "lidded-jar",
+        "form": "Jar with a printed lid that fits with a 0.3 mm gap",
+        "body": "porcelain",
+        "glaze": "clear-feldspathic",
+        "decoration": "undecorated"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "3D-printed ceramic vase",
+      "visible regular layer lines",
+      "twisted rib porcelain vessel",
+      "open lattice wall",
+      "parametric form, precise",
+      "matt white porcelain, thin glaze",
+      "gradient wave surface",
+      "studio product photograph, soft light"
+    ],
+    "negative": [
+      "wheel-thrown irregular form",
+      "glossy thick glaze",
+      "folk floral painting",
+      "hand-modelled bumps",
+      "random chaotic lines"
+    ],
+    "canonical_works": [
+      {
+        "work": "Stratigraphic Porcelain vessels",
+        "maker": "Unfold and Tim Knapen",
+        "year": 2010
+      },
+      {
+        "work": "Solid Vibration vessel series",
+        "maker": "Olivier van Herpt",
+        "year": 2014
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Ceramic 3D printing by Studio Under",
+      "kind": "image",
+      "credit": "Studio Under",
+      "licence": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Ceramic_3D_Printing_by_Studio_Under.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Ceramic_3D_Printing_by_Studio_Under.jpg/960px-Ceramic_3D_Printing_by_Studio_Under.jpg",
+      "maker": "Studio Under"
+    },
+    {
+      "title": "Ceramic 3D printing by Studio Under, detail",
+      "kind": "image",
+      "credit": "Studio Under",
+      "licence": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Ceramic_3D_Printing_by_Studio_Under3.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Ceramic_3D_Printing_by_Studio_Under3.jpg/960px-Ceramic_3D_Printing_by_Studio_Under3.jpg",
+      "maker": "Studio Under"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "british-modernist-studio"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "parametricism-architecture",
+      "contemporary-craft-product"
+    ]
+  },
+  "emotion": {
+    "target_response": "A feeling of calm precision and surprise: the viewer sees an exact, complex form and wonders how it was made.",
+    "keywords": [
+      "precise",
+      "futuristic",
+      "calm",
+      "technical",
+      "intricate"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "magician"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "3d printed ceramic",
+      "printed clay vase",
+      "parametric vessel",
+      "additive ceramics",
+      "layer lines vase",
+      "lattice porcelain",
+      "olivier van herpt",
+      "clay extrusion"
+    ],
+    "use_cases": [
+      "a parametric vase or lamp shade for a modern interior",
+      "a 3D printing brief for clay",
+      "a museum label on digital ceramics"
+    ],
+    "avoid_when": [
+      "the brief needs a hand-thrown irregular pot",
+      "the brief needs a thick glaze effect",
+      "the brief needs a traditional decoration"
+    ],
+    "modifiers": [
+      {
+        "request": "more hand-made, warm",
+        "toward": "mingei-folk-craft",
+        "how": "Replace the machine layers with throwing rings, and use a thick ash or kaki glaze."
+      },
+      {
+        "request": "more colourful, graphic",
+        "toward": "memphis-postmodern-ceramics",
+        "how": "Keep the form simple and add a bold printed pattern in flat colour."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: 3D printing",
+      "url": "https://en.wikipedia.org/wiki/3D_printing"
+    },
+    {
+      "title": "Wikipedia: Olivier van Herpt",
+      "url": "https://en.wikipedia.org/wiki/Olivier_van_Herpt"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.3,
+      "min": 0.1,
+      "max": 0.7
+    },
+    "glaze_gloss": {
+      "default": 30,
+      "min": 5,
+      "max": 60
+    },
+    "wall_thickness": {
+      "default": 2.5,
+      "min": 1,
+      "max": 6,
+      "note": "Printed walls can be very thin, but a lattice needs a minimum of 1 mm."
+    },
+    "hand_mark": {
+      "default": 0.1,
+      "min": 0,
+      "max": 0.35
+    },
+    "era_blend": {
+      "default": 0.5,
+      "min": 0,
+      "max": 1
+    }
+  }
+}

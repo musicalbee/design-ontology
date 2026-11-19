@@ -215,10 +215,11 @@ A slow pan and zoom across a still image, so that a photograph moves in a film. 
 - Move 5% to 15% of the frame over 4 to 8 seconds on each still.
 - Start or end each move on a face or on the key detail.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Google** (company, Mountain View, ?–now), funded the style. US technology company. It bought YouTube in 2006 for 1.65 billion dollars in stock.
 - **YouTube** (platform, web, 2005–now), launched the style. A web site where people post video. The daily vlog grew here, and it became the main home of the music video.
 
 ## Permutations
@@ -242,6 +243,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`vertical-short-form`](../vertical-short-form/SKILL.md)
 - **Mixes well with:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`vertical-short-form`](../vertical-short-form/SKILL.md)
+- **Kin in another domain:** [`duet-split-screen`](../duet-split-screen/SKILL.md), [`green-screen-short`](../green-screen-short/SKILL.md), [`grwm-short`](../grwm-short/SKILL.md), [`lets-play-facecam`](../lets-play-facecam/SKILL.md), [`photo-carousel-slideshow`](../photo-carousel-slideshow/SKILL.md), [`pov-short`](../pov-short/SKILL.md), [`unboxing-video`](../unboxing-video/SKILL.md), [`video-essay`](../video-essay/SKILL.md)
 - **Nearest by vector profile:** [`new-hollywood`](../new-hollywood/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md), [`phone-cinema`](../phone-cinema/SKILL.md)
 
 ## Emotional target

@@ -177,9 +177,9 @@ A small, quiet camera that takes 36 frames of 24 x 36 mm on cinema film, so that
 - Shoot at 1/125 to 1/500 s, from the hand.
 - Show the full frame; keep the 2:3 format.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Instagram** (platform, web, 2010–now), published the style. A photo and video app. Home and food images spread on it, and it carried trends such as dopamine decor and the film grain look.
 - **VSCO** (platform, web, 2011–now), published the style. A photo app with presets that copy film stock. It spread grain and faded colour on phone photos.
@@ -206,7 +206,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`new-colour`](../new-colour/SKILL.md), [`street-photography`](../street-photography/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`y2k-digicam`](../y2k-digicam/SKILL.md)
 - **Mixes well with:** [`party-flash`](../party-flash/SKILL.md)
-- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`impressionism`](../impressionism/SKILL.md), [`low-poly-ps1-revival`](../low-poly-ps1-revival/SKILL.md)
+- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`impressionism`](../impressionism/SKILL.md), [`instagram-vintage-filter`](../instagram-vintage-filter/SKILL.md), [`low-poly-ps1-revival`](../low-poly-ps1-revival/SKILL.md), [`vsco-preset-look`](../vsco-preset-look/SKILL.md)
 - **Nearest by vector profile:** [`new-colour`](../new-colour/SKILL.md), [`documentary-photography`](../documentary-photography/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
 
 ## Emotional target

@@ -1,0 +1,341 @@
+{
+  "$schema": "../../../schema/domains/ceramics.schema.json",
+  "id": "islamic-tile-mosaic",
+  "domain": "ceramics",
+  "name": "Islamic tile mosaic",
+  "aliases": [
+    "Seljuk tile mosaic",
+    "Cut-tile mosaic",
+    "Persian tile mosaic"
+  ],
+  "era_id": "medieval-glaze",
+  "branch": "tiles",
+  "time_period": {
+    "start": 1200,
+    "end": 1500,
+    "label": "1200–1500"
+  },
+  "region": "Anatolia and Iran",
+  "summary": "Wall and dome cladding that the Seljuk and Timurid potters made from glazed tiles in one colour. They cut each tile into small shapes and set the pieces together in a geometric or calligraphic pattern.",
+  "philosophy": {
+    "core_thesis": "A building surface becomes a woven pattern of light and colour when many small tiles in turquoise, cobalt and black are cut to fit one geometric plan.",
+    "design_principles": [
+      "Glaze each plain tile in one colour: turquoise from copper, blue from cobalt, black from manganese and iron.",
+      "Cut the fired tile with a chisel into the shapes of one pattern: stars, kites, lozenges and calligraphic strokes.",
+      "Draw the full pattern first, then set the cut pieces face down on it and pour plaster over the back.",
+      "Build the pattern on a grid of 6, 8 or 12 points so that the shapes repeat without a gap.",
+      "Use the Kufic script as a band 30 to 60 cm wide, in white or blue on a dark field.",
+      "Keep the tesserae 1 to 2 cm thick, with joints under 2 mm, so that the surface reads as one skin.",
+      "Place the mosaic on the parts that people look at: the mihrab, the portal and the dome.",
+      "Add a few lustre or relief tiles to a flat mosaic for a change of light."
+    ],
+    "anti_patterns": [
+      "A painted pattern on a flat tile, with no cut joints",
+      "Figures of people and animals in the mosaic field",
+      "Thick grout lines that break the pattern into squares",
+      "Bright modern colours such as pink, lime green or orange",
+      "A single repeating tile that makes a wallpaper pattern with no cut shapes"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 5,
+    "hand_mark": 3,
+    "refinement": 3,
+    "glaze_depth": 3,
+    "chromatic_intensity": 4
+  },
+  "form": {
+    "shape": "Cut-tile panels for domes, portals, mihrab niches and walls, tile friezes with Kufic script, and small star-and-cross wall tiles with lustre.",
+    "profile": "A flat face with a very small relief: the cut pieces lie in one plane, and relief bands and lustre tiles add a slight change.",
+    "foot_and_rim": "Panels have no foot. The edge of a panel meets a plaster or brick frame, and a border band of two or three lines closes the pattern.",
+    "proportion": "Tesserae are 1 to 6 cm across and 1 to 2 cm thick; star-and-cross lustre tiles are about 20 cm square.",
+    "rules": [
+      "Cut every piece to the pattern; do not paint the shapes on a large tile.",
+      "Keep the colours to five: turquoise, cobalt, black, white and a little lustre.",
+      "Close each pattern with a border band that keeps the grid of the field."
+    ]
+  },
+  "bodies": {
+    "primary": [
+      "stonepaste"
+    ],
+    "secondary": [
+      "earthenware"
+    ],
+    "avoid": [
+      "porcelain",
+      "stoneware",
+      "creamware"
+    ],
+    "rule": "Use a white stonepaste of quartz, glass frit and a little clay for the tile. Use a red earthenware for the plain backing. Keep porcelain and stoneware out: they do not suit this glaze."
+  },
+  "forming": {
+    "methods": [
+      "pressing the tile in a flat mould",
+      "drying the tile in the shade",
+      "chiselling the fired tile into small shapes",
+      "setting the pieces face down on a drawn pattern",
+      "pouring a plaster backing"
+    ],
+    "joins": "The pieces are bedded in plaster over a brick or rubble wall, and the joints are filled with a thin mortar.",
+    "details": "Chisel marks on the back of each piece, a sharp cut edge on the glazed face, and a slight change of level between neighbours."
+  },
+  "glaze": {
+    "glazes": [
+      "alkaline-glaze",
+      "lead-glaze"
+    ],
+    "decorations": [
+      "tile-mosaic",
+      "lustre",
+      "cuerda-seca",
+      "relief-moulding",
+      "incised"
+    ],
+    "pattern": "Interlocking stars, kites and girih shapes in turquoise, cobalt and black, with white Kufic inscriptions and a little lustre on small wall tiles.",
+    "gloss": "Bright and glassy, about 70 to 90 GU, with a slight iridescence where the glaze is old.",
+    "wear": "Alkaline glaze gives a silver bloom and fine crazing after centuries; some pieces fall out and leave a pale plaster ground."
+  },
+  "palette": {
+    "strategy": "A turquoise and cobalt field with black lines and white script; lustre and gold give a warm accent.",
+    "colours": [
+      {
+        "name": "Turquoise",
+        "hex": "#2BA6B3",
+        "role": "field"
+      },
+      {
+        "name": "Cobalt blue",
+        "hex": "#1D3B8B",
+        "role": "field"
+      },
+      {
+        "name": "Manganese black",
+        "hex": "#1E1B22",
+        "role": "outline and script"
+      },
+      {
+        "name": "Tin white",
+        "hex": "#EFE9DA",
+        "role": "script and joints"
+      },
+      {
+        "name": "Lustre brown",
+        "hex": "#8A5B2B",
+        "role": "small tiles"
+      },
+      {
+        "name": "Plaster ground",
+        "hex": "#CDBFA4",
+        "role": "exposed back"
+      }
+    ]
+  },
+  "firing": {
+    "kiln": "A small updraught kiln fired with wood or brushwood; the tiles stand on stilts in saggars.",
+    "atmosphere": "oxidation",
+    "temperature_c": [
+      900,
+      1050
+    ],
+    "processes": [
+      "biscuit firing of the pressed tile",
+      "glaze firing of each colour in its own batch",
+      "a third, reduction firing at about 600 °C for lustre tiles",
+      "cold cutting of the fired tile"
+    ],
+    "scale": "One dome needed tens of thousands of cut pieces; workshops in Konya, Kashan and Samarkand worked for one patron at a time.",
+    "signs": "Small kiln stilt marks on the back of the tile, a copper-green edge on some turquoise, and irregular colour from batch to batch."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "mosaic",
+        "form": "Dome panel of cut turquoise, cobalt and black tiles in stars and kites",
+        "body": "stonepaste",
+        "glaze": "alkaline-glaze",
+        "decoration": "tile-mosaic"
+      },
+      {
+        "object": "tile-panel",
+        "form": "Mihrab niche with a Kufic inscription in a frame of cut tiles",
+        "body": "stonepaste",
+        "glaze": "alkaline-glaze",
+        "decoration": "tile-mosaic"
+      },
+      {
+        "object": "wall-tile",
+        "form": "Square tile of 20 cm with a lustre star and a cross pattern",
+        "body": "stonepaste",
+        "glaze": "alkaline-glaze",
+        "decoration": "lustre"
+      },
+      {
+        "object": "border-tile",
+        "form": "Frieze band with a white Kufic inscription in raised letters on a blue ground",
+        "body": "stonepaste",
+        "glaze": "alkaline-glaze",
+        "decoration": "relief-moulding"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "13th-century Seljuk cut-tile mosaic",
+      "turquoise cobalt and black glazed tiles",
+      "interlocking star pattern",
+      "white Kufic inscription band",
+      "dome clad in tile tesserae",
+      "fine plaster joints",
+      "silver iridescence on old glaze",
+      "architectural detail photograph, raking light"
+    ],
+    "negative": [
+      "figures of animals",
+      "painted flat tile",
+      "wide grout lines",
+      "pastel colours",
+      "printed pattern",
+      "porcelain gloss"
+    ],
+    "canonical_works": [
+      {
+        "work": "Dome and mihrab of the Karatay Madrasa, Konya",
+        "maker": "Celaleddin Karatay and Seljuk workshops",
+        "year": 1251
+      },
+      {
+        "work": "Tile mosaic of the Sırçalı Madrasa, Konya",
+        "maker": "Seljuk workshops",
+        "year": 1242
+      },
+      {
+        "work": "Tile mosaic of the Shah-i-Zinda necropolis, Samarkand",
+        "maker": "Timurid workshops",
+        "year": 1380
+      },
+      {
+        "work": "Tile mosaic of the Blue Mosque, Tabriz",
+        "maker": "Tabriz workshops",
+        "year": 1465
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Karatay Madrasa, Konya, tile mosaic dome",
+      "kind": "image",
+      "credit": "Murat Özsoy 1958",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Karatay_Madrasa,_Konya,_Turkey_01.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Karatay_Madrasa,_Konya,_Turkey_01.jpg",
+      "maker": "Seljuk craftsmen"
+    },
+    {
+      "title": "Karatay Madrasa, Konya, tile mosaic",
+      "kind": "image",
+      "credit": "Murat Özsoy 1958",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Karatay_Madrasa,_Konya,_Turkey_05.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Karatay_Madrasa,_Konya,_Turkey_05.jpg",
+      "maker": "Seljuk craftsmen"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "abbasid-lustreware"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "A calm, deep awe: the viewer sees a wall of small bright pieces that form one endless pattern and reads it as order and prayer.",
+    "keywords": [
+      "geometric",
+      "luminous",
+      "devout",
+      "precise",
+      "immersive"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "islamic tile mosaic",
+      "seljuk tile",
+      "cut tile mosaic",
+      "kufic tile frieze",
+      "turquoise and cobalt tile dome",
+      "persian mosque tile",
+      "timurid tile"
+    ],
+    "use_cases": [
+      "a mosque or madrasa portal in tile",
+      "a geometric tile pattern brief with a closed colour set",
+      "a museum label on medieval Islamic tile work"
+    ],
+    "avoid_when": [
+      "the brief needs a painted figure scene",
+      "the brief wants a pale modern colour set",
+      "the brief is for a hand-made flat floor tile"
+    ],
+    "modifiers": [
+      {
+        "request": "Moroccan, hand-chiselled",
+        "toward": "zellige",
+        "how": "Change the body to terracotta with a tin glaze, and chisel the tiles into small pieces for a pattern with an 8-point star."
+      },
+      {
+        "request": "painted flowers, Ottoman",
+        "toward": "iznik-tiles",
+        "how": "Change to a painted tile with a white slip and a clear glaze, and paint tulips and carnations in cobalt, turquoise and red."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Tile",
+      "url": "https://en.wikipedia.org/wiki/Tile"
+    },
+    {
+      "title": "Wikipedia: Karatay Madrasa",
+      "url": "https://en.wikipedia.org/wiki/Karatay_Madrasa"
+    },
+    {
+      "title": "Wikipedia: Islamic geometric patterns",
+      "url": "https://en.wikipedia.org/wiki/Islamic_geometric_patterns"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.9,
+      "min": 0.6,
+      "max": 1
+    },
+    "glaze_gloss": {
+      "default": 80,
+      "min": 60,
+      "max": 95
+    },
+    "wall_thickness": {
+      "default": 12,
+      "min": 8,
+      "max": 20,
+      "note": "Cut tesserae are 8 to 20 mm thick; a lustre wall tile is about 12 mm."
+    },
+    "hand_mark": {
+      "default": 0.5,
+      "min": 0.3,
+      "max": 0.8
+    },
+    "era_blend": {
+      "default": 0.15,
+      "min": 0,
+      "max": 1
+    }
+  }
+}

@@ -182,9 +182,9 @@ A hard contrast of light and dark that models form: one strong source, deep shad
 - Set the key light to fill light at a ratio of 8:1 or more for a dramatic mood.
 - Cut hard shapes into the light with blinds, grilles or foliage so that the shadow becomes a pattern.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **RKO Pictures** (studio, Los Angeles, 1928–1959), made the style. A Hollywood studio of the studio era. It made classic Hollywood films and many low-key film noirs, with their publicity stills.
 

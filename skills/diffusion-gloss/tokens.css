@@ -1,0 +1,130 @@
+/*
+ * Diffusion Gloss — tokens
+ * Generated from data/internet/styles/diffusion-gloss.json by design-ontology. Do not edit.
+ * Use: put data-style="diffusion-gloss" on <html> or on any container.
+ */
+[data-style="diffusion-gloss"] {
+  --color-bg: #0E1320;
+  --color-surface: #182033;
+  --color-text: #DDE6EE;
+  --color-muted: #A9B7C7;
+  --color-primary: #F0A04B;
+  --color-accent: #1F8A99;
+  --color-border: #2A3550;
+  --font-sans: "Inter", "DM Sans", sans-serif;
+  --font-display: "Manrope", "Sora", sans-serif;
+  --border-radius: 24px;
+  --border-width: 1px;
+  --shadow-elevation: 0 12px 32px rgba(0,0,0,0.4);
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration: 600ms;
+  --type-ratio: 1.5;
+  --size-small: 10.67px;
+  --size-h3: 36px;
+  --size-h2: 54px;
+  --size-h1: 81px;
+  --color-on-bg: #DDE6EE;
+  --color-on-surface: #DDE6EE;
+  --color-on-primary: #0E1320;
+  --color-on-accent: #0E1320;
+  --color-muted-on-bg: #A9B7C7;
+  --color-muted-on-surface: #A9B7C7;
+  --color-link: #1F8A99;
+  --color-link-on-surface: #F0A04B;
+  --display-weight: 600;
+  --subhead-weight: 600;
+  --body-weight: 400;
+  --strong-weight: 600;
+  --label-weight: 500;
+  --display-tracking: -0.02em;
+  --display-leading: 1.1;
+  --display-case: none;
+  --body-leading: 1.6;
+  --body-size: 16px;
+  --icon-stroke: 2;
+  --ground: radial-gradient(40% 55% at 78% 30%, color-mix(in oklab, var(--color-primary) 55%, transparent), transparent 70%),
+    radial-gradient(45% 50% at 95% 75%, color-mix(in oklab, var(--color-accent) 45%, transparent), transparent 70%),
+    radial-gradient(35% 45% at 55% 95%, color-mix(in oklab, var(--color-primary) 35%, transparent), transparent 70%),
+    radial-gradient(30% 35% at 10% 0%, color-mix(in oklab, var(--color-accent) 18%, transparent), transparent 70%),
+    url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'220'%20height%3D'220'%3E%3Cfilter%20id%3D'n'%3E%3CfeTurbulence%20type%3D'fractalNoise'%20baseFrequency%3D'.8'%20numOctaves%3D'3'%20stitchTiles%3D'stitch'%2F%3E%3CfeColorMatrix%20values%3D'0%200%200%200%201%200%200%200%200%201%200%200%200%200%201%200.09%200%200%200%200'%2F%3E%3C%2Ffilter%3E%3Crect%20width%3D'100%25'%20height%3D'100%25'%20filter%3D'url(%23n)'%2F%3E%3C%2Fsvg%3E") 0 0 / 220px 220px repeat,
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="diffusion-gloss"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="diffusion-gloss"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="diffusion-gloss"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="diffusion-gloss"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="diffusion-gloss"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="diffusion-gloss"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="diffusion-gloss"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="diffusion-gloss"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="diffusion-gloss"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="diffusion-gloss"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="diffusion-gloss"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="diffusion-gloss"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="diffusion-gloss"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="diffusion-gloss"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

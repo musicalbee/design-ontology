@@ -1,0 +1,333 @@
+{
+  "$schema": "../../../schema/domains/ceramics.schema.json",
+  "id": "scandinavian-tiled-stove",
+  "domain": "ceramics",
+  "name": "Scandinavian tiled stove",
+  "aliases": [
+    "Kakelugn",
+    "Swedish tile stove",
+    "Nordic faience stove"
+  ],
+  "era_id": "industrial-pottery",
+  "branch": "tiles",
+  "time_period": {
+    "start": 1750,
+    "end": 1930,
+    "label": "1750–1930"
+  },
+  "region": "Sweden, Finland, Denmark and Norway",
+  "summary": "A tall stove clad in white glazed tiles that stores the heat of a short wood fire in a room. The Swedish kakelugn has thin tiles, a plain white face and a soft frame of mouldings.",
+  "philosophy": {
+    "core_thesis": "A white tiled stove is both a machine for heat and a piece of furniture: the glaze reflects the light of a dark northern room.",
+    "design_principles": [
+      "Clad a brick core with flat glazed tiles about 20 cm by 25 cm, and 15 to 20 mm thick.",
+      "Make the stove tall and slim, 2 to 3 m high, so that it fits the corner of a room.",
+      "Glaze the tiles in a plain white; add a few lines of blue or grey painting for decoration.",
+      "Finish the top with a cornice, a crown or an urn, and the base with a plinth.",
+      "Cut the flue in long windings of 5 to 8 m, so that the brick stores the heat of the fire.",
+      "Use a small iron door and a damper of brass, and keep the metal parts in a simple form.",
+      "Mould the cornice and the frames in the same clay, so that the tiles and the mouldings match.",
+      "Repeat the neoclassical motifs, the garland, the urn and the fluted column, in low relief."
+    ],
+    "anti_patterns": [
+      "Tiles in strong colours and heavy patterns",
+      "A cast-iron stove with a thin tile on the face",
+      "An open fire with no winding flue in the stove",
+      "A thick tile with a rough glaze",
+      "Loud baroque scroll work on the face"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "hand_mark": 3,
+    "refinement": 4,
+    "glaze_depth": 2,
+    "chromatic_intensity": 1
+  },
+  "form": {
+    "shape": "A tall corner stove with a flat white face, a moulded cornice, a crown, an urn or a flame, a small door, and a plinth; and some fireplace and frieze tiles.",
+    "profile": "A narrow, upright body with a slight taper; the cornice and plinth make horizontal shadow lines.",
+    "foot_and_rim": "The stove stands on a plinth tile and ends in a crowned cornice that meets the ceiling line.",
+    "proportion": "Height 2 to 3 m, width about 60 to 80 cm, depth about 50 to 60 cm; each face tile is about 20 cm by 25 cm.",
+    "rules": [
+      "Keep the face plain white and show the joints as thin lines.",
+      "Put all ornament in the cornice and the crown.",
+      "Match the stove to the proportion of the room: one stove for each room."
+    ]
+  },
+  "bodies": {
+    "primary": [
+      "earthenware",
+      "creamware"
+    ],
+    "secondary": [
+      "fired-brick"
+    ],
+    "avoid": [
+      "porcelain",
+      "stoneware",
+      "vitreous-china"
+    ],
+    "rule": "Use a pale earthenware tile with a white glaze, and later a creamware body. Use fired brick for the core. Keep porcelain out: it is too dense for the heat cycles."
+  },
+  "forming": {
+    "methods": [
+      "pressing the tile in a plaster mould",
+      "drying the tile in a rack",
+      "moulding the cornice in sections",
+      "building the brick core with winding flues",
+      "setting the tiles with a wire and clay mortar"
+    ],
+    "joins": "Iron wire and clay hold each tile to the brick core, and a thin joint of clay and sand fills the gaps.",
+    "details": "A fine crackle in the glaze, thin joints, a tile number on the back and a small iron door with a brass damper."
+  },
+  "glaze": {
+    "glazes": [
+      "tin-glaze",
+      "lead-glaze"
+    ],
+    "decorations": [
+      "undecorated",
+      "underglaze-cobalt",
+      "underglaze-polychrome",
+      "relief-moulding",
+      "gilding"
+    ],
+    "pattern": "A plain white face with a blue or grey garland, a moulded cornice and a crown, with a little gilding on the best stoves.",
+    "gloss": "Soft gloss, about 50 to 75 GU, with a slight crackle.",
+    "wear": "The glaze crazes in time with the heat and shows a fine network of lines; the white turns a little cream."
+  },
+  "palette": {
+    "strategy": "A white or pale cream face with a little blue, grey or green; a very small amount of gold.",
+    "colours": [
+      {
+        "name": "Stove white",
+        "hex": "#F4F1E8",
+        "role": "face"
+      },
+      {
+        "name": "Cream",
+        "hex": "#EDE5CF",
+        "role": "aged glaze"
+      },
+      {
+        "name": "Delft blue",
+        "hex": "#3A5BA0",
+        "role": "painting"
+      },
+      {
+        "name": "Grey blue",
+        "hex": "#8A9AAA",
+        "role": "shading"
+      },
+      {
+        "name": "Brass",
+        "hex": "#B08A3A",
+        "role": "door and damper"
+      },
+      {
+        "name": "Black iron",
+        "hex": "#2A2A2C",
+        "role": "door"
+      }
+    ]
+  },
+  "firing": {
+    "kiln": "A coal or wood-fired kiln for the tiles; a stove maker builds the stove on site.",
+    "atmosphere": "oxidation",
+    "temperature_c": [
+      980,
+      1100
+    ],
+    "processes": [
+      "a biscuit firing of the pressed tile",
+      "dipping in a white glaze",
+      "a glaze firing",
+      "building the stove on site"
+    ],
+    "scale": "In 1882 one Stockholm factory made 6,400 stoves, and the tiled stove was the usual heater of an urban flat.",
+    "signs": "A crazed glaze, a number on the back of each tile and a stamp of the factory."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "stove-tile",
+        "form": "Flat tile of 20 by 25 cm in plain white glaze for the face of a stove",
+        "body": "earthenware",
+        "glaze": "tin-glaze",
+        "decoration": "undecorated"
+      },
+      {
+        "object": "stove-tile",
+        "form": "Moulded cornice tile with egg-and-dart relief",
+        "body": "earthenware",
+        "glaze": "tin-glaze",
+        "decoration": "relief-moulding"
+      },
+      {
+        "object": "fireplace-tile",
+        "form": "Tile with a blue garland for the frame of an opening",
+        "body": "earthenware",
+        "glaze": "tin-glaze",
+        "decoration": "underglaze-cobalt"
+      },
+      {
+        "object": "border-tile",
+        "form": "Frieze tile with a painted wreath for the crown of a stove",
+        "body": "creamware",
+        "glaze": "lead-glaze",
+        "decoration": "underglaze-polychrome"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Swedish white tiled stove",
+      "kakelugn in a pale room",
+      "tall slim stove with a cornice and an urn",
+      "plain white crazed glaze",
+      "thin blue garland",
+      "small brass door and damper",
+      "soft daylight on white tiles",
+      "interior photograph, soft northern light"
+    ],
+    "negative": [
+      "cast-iron stove",
+      "strong colour",
+      "heavy baroque ornament",
+      "modern flat panel heater",
+      "rustic brown tile"
+    ],
+    "canonical_works": [
+      {
+        "work": "Proposal for an efficient tiled stove",
+        "maker": "Carl Johan Cronstedt and Fabian Wrede",
+        "year": 1767
+      },
+      {
+        "work": "Drawings of tiled stoves for houses",
+        "maker": "Erik Palmstedt",
+        "year": 1775
+      },
+      {
+        "work": "Tiled stove",
+        "maker": "Rörstrand",
+        "year": 1900
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Kakelugn from Rörstrand, about 1900",
+      "kind": "image",
+      "credit": "Svante.tiren",
+      "licence": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Kakelugn_fr%C3%A5n_R%C3%B6rstrand_ca_1900.JPG",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Kakelugn_fr%C3%A5n_R%C3%B6rstrand_ca_1900.JPG",
+      "maker": "Rörstrand"
+    },
+    {
+      "title": "Kakelugn in Ardrebo, Sweden",
+      "kind": "image",
+      "credit": "Bene Riobó",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Kakelugn_en_Ardrebo.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/6/66/Kakelugn_en_Ardrebo.jpg",
+      "maker": "Swedish stove makers"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "delft-tiles"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "scandinavian-interior"
+    ]
+  },
+  "emotion": {
+    "target_response": "A quiet, warm calm: the viewer sees a white stove in a pale room and feels the heat that it holds.",
+    "keywords": [
+      "calm",
+      "warm",
+      "pale",
+      "domestic",
+      "orderly"
+    ],
+    "brand_archetypes": [
+      "caregiver",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "kakelugn",
+      "swedish tiled stove",
+      "scandinavian tile stove",
+      "white tile stove",
+      "nordic ceramic stove",
+      "faience stove",
+      "stove clad in white tiles"
+    ],
+    "use_cases": [
+      "a Nordic interior with a white tiled stove",
+      "a heater or fireplace brief in white tile",
+      "a museum label on Swedish stove tiles"
+    ],
+    "avoid_when": [
+      "the brief wants a strong colour or pattern",
+      "the brief needs an open fire",
+      "the brief is for a modern wood stove of steel"
+    ],
+    "modifiers": [
+      {
+        "request": "blue pictures, Dutch",
+        "toward": "delft-tiles",
+        "how": "Reduce the tile to 13 cm and paint a small blue picture and a corner motif on each."
+      },
+      {
+        "request": "Victorian, patterned",
+        "toward": "victorian-encaustic-tiles",
+        "how": "Change the face to a hearth tile in inlaid clay in red, buff and black with a Gothic pattern."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Tiled stove",
+      "url": "https://en.wikipedia.org/wiki/Tiled_stove"
+    },
+    {
+      "title": "Wikipedia (Swedish): Kakelugn",
+      "url": "https://sv.wikipedia.org/wiki/Kakelugn"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.3,
+      "min": 0.1,
+      "max": 0.6
+    },
+    "glaze_gloss": {
+      "default": 60,
+      "min": 40,
+      "max": 78
+    },
+    "wall_thickness": {
+      "default": 17,
+      "min": 12,
+      "max": 22
+    },
+    "hand_mark": {
+      "default": 0.3,
+      "min": 0.1,
+      "max": 0.6
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1
+    }
+  }
+}

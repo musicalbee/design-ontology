@@ -186,9 +186,9 @@ A curved head over an opening that carries load as compression; inside, a soft f
 - Keep the ratio of height to width of the opening at 1.6:1 to 2:1.
 - In a room, repeat the arch in 2 or 3 places, for example a door, a mirror and a niche, and no more.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **École des Beaux-Arts** (school, Paris, 1648–now), taught the style. The state school of fine arts in Paris. Its architecture course taught axial plans and classical composition to students from many countries.
 
@@ -212,6 +212,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`baroque-architecture`](../baroque-architecture/SKILL.md), [`neoclassical-architecture`](../neoclassical-architecture/SKILL.md)
 - **Was rejected by:** [`expressionist-architecture`](../expressionist-architecture/SKILL.md)
+- **Kin in another domain:** [`cuisine-classique`](../cuisine-classique/SKILL.md), [`garland-style-jewellery`](../garland-style-jewellery/SKILL.md)
 - **Nearest by vector profile:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md), [`renaissance-architecture`](../renaissance-architecture/SKILL.md)
 
 ## Emotional target

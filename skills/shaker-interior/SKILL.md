@@ -319,11 +319,11 @@ A joint that stays in view, so that the way of making is part of the look. Origi
 - Peg the joint with a wooden pin of 8 to 12mm; do not hide it with filler or paint.
 - Use one joint type in a room or a building; repeat it at each corner.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Mount Lebanon Shaker Society** (workshop, New Lebanon, New York, ?–now), made the style. The main Shaker community. Its workshops made and sold plain chairs, boxes and furniture.
+- **Mount Lebanon Shaker Society** (collective, New Lebanon, New York, ?–now), made the style. The main Shaker community. Its workshops made and sold plain chairs, boxes and furniture.
 
 ## Permutations
 

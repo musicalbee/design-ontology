@@ -185,9 +185,9 @@ Painted perspective that continues the real room, so that a flat wall or ceiling
 - Continue the real cornice, columns and arches in paint for 1 to 3 storeys of false height.
 - Paint the sky or the open part with the lightest value; keep the painted frame at the value of the real stone.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Accademia delle Arti del Disegno** (school, Florence, 1563–now), taught the style. An academy of artists that Cosimo I de' Medici founded under the influence of Giorgio Vasari. It trained the painters of the late Renaissance court.
 

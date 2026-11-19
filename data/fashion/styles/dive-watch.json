@@ -1,0 +1,371 @@
+{
+  "$schema": "../../../schema/domains/fashion.schema.json",
+  "id": "dive-watch",
+  "domain": "fashion",
+  "name": "Dive watch",
+  "aliases": [
+    "Diver's watch",
+    "Tool diver",
+    "Submersible watch"
+  ],
+  "era_id": "war-and-new-look",
+  "branch": "watch",
+  "time_period": {
+    "start": 1953,
+    "end": null,
+    "label": "1953–now"
+  },
+  "region": "Switzerland and France",
+  "summary": "The watch for the diver. It has a steel case sealed for 100 m, a black dial with large luminous markers and a rotating bezel that counts minutes. The strap fits over a wetsuit. Two Swiss models of 1953 set the type.",
+  "philosophy": {
+    "core_thesis": "A diver's life depends on a clear dial and a sealed case. The watch trades slimness for a dial that is easy to read in the dark and under pressure.",
+    "design_principles": [
+      "Fit a screw-down crown, a screw-down back and a gasket that seal the case to 100 m or more.",
+      "Mark the rotating bezel in minutes from 0 to 60. Let it turn only against the clock, so that a knock shortens the time shown.",
+      "Paint the markers and hands with luminous paint in big, plain shapes on a matt black dial.",
+      "Make the case 38 to 42 mm wide and 12 to 15 mm thick, with a bezel that a gloved hand can turn.",
+      "Fit a domed acrylic crystal, so that the crystal does not crack under pressure.",
+      "Mark the 12 with a triangle or a double marker, so that the diver finds the top at once.",
+      "Print the depth rating on the dial.",
+      "Fit a strap that goes over a wetsuit sleeve, as a bracelet with an extension or a rubber strap of 200 to 250 mm."
+    ],
+    "anti_patterns": [
+      "A thin case with a flat glass",
+      "A gold case or an enamel dial",
+      "A bezel that turns both ways",
+      "Thin hands and small markers that do not glow",
+      "A pale or gold dial that glares",
+      "A leather strap that rots in salt water"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "structure": 5,
+    "luxury": 2,
+    "technicality": 5,
+    "chromatic_intensity": 2
+  },
+  "silhouette": {
+    "shape": "A thick round steel case with a knurled rotating bezel, a screw-down crown with guards and a bracelet or strap.",
+    "line": "A strong circle with a deep band, a bold bezel and short thick lugs.",
+    "fit": "The watch sits high on the wrist and the strap lengthens to fit over a wetsuit.",
+    "proportion": "Case thickness to width about 1 to 3; the dial fills about 70 per cent of the face; the bezel is about 5 mm wide.",
+    "rules": [
+      "Make the bezel grip with 60 notches, so that a glove can turn it.",
+      "Set a large round marker at each hour and a triangle at 12.",
+      "Make the hour hand wide and the minute hand long, both with luminous fill.",
+      "Guard the crown with a shoulder on the case so that a knock does not bend the stem."
+    ]
+  },
+  "fabrics": {
+    "primary": [
+      "stainless-steel",
+      "acrylic-glass",
+      "bakelite",
+      "vulcanised-rubber"
+    ],
+    "secondary": [
+      "canvas",
+      "luminous-paint",
+      "synthetic-sapphire",
+      "technical-ceramic",
+      "titanium"
+    ],
+    "avoid": [
+      "yellow-gold",
+      "vitreous-enamel",
+      "exotic-skin",
+      "tortoiseshell"
+    ],
+    "rule": "Use steel for the case, a dark insert for the bezel, a domed crystal for the glass, and rubber, steel or canvas for the strap. Later models use sapphire, ceramic and titanium."
+  },
+  "construction": {
+    "methods": [
+      "screw-down crown and case back",
+      "gasket in rubber or synthetic",
+      "rotating bezel with a click per minute",
+      "domed acrylic crystal",
+      "luminous paint on the markers",
+      "steel bracelet with a diver extension"
+    ],
+    "closures": "A folding clasp with an extension closes the bracelet; a screw-down crown winds the watch and seals the case.",
+    "details": "A minute scale on the bezel, a triangle at 12, a depth rating on the dial and thick baton hands."
+  },
+  "surface": {
+    "finishes": [
+      "brushed",
+      "polished",
+      "matte",
+      "pvd-coated",
+      "moulded"
+    ],
+    "pattern": "A matt black dial with round markers; a black bezel insert with a luminous pip at 12.",
+    "gloss": "Brushed steel at 15 to 40 GU; the dial at 2 to 5 GU; the crystal and the bezel insert at 70 to 95 GU.",
+    "wear": "The steel scratches and the bezel insert fades to grey; the luminous paint ages to cream; rubber stiffens in the sun and is renewed."
+  },
+  "palette": {
+    "strategy": "Black and white for reading, steel for the case, and one signal colour for the seconds hand or the first 15 minutes of the bezel.",
+    "colours": [
+      {
+        "name": "Steel grey",
+        "hex": "#B8BCC0",
+        "role": "case and bracelet"
+      },
+      {
+        "name": "Matt black",
+        "hex": "#0E0F11",
+        "role": "dial"
+      },
+      {
+        "name": "Bezel black",
+        "hex": "#151515",
+        "role": "bezel insert"
+      },
+      {
+        "name": "Luminous cream",
+        "hex": "#E6E2BE",
+        "role": "markers and hands"
+      },
+      {
+        "name": "Sailcloth khaki",
+        "hex": "#A89F7A",
+        "role": "canvas strap"
+      },
+      {
+        "name": "Safety orange",
+        "hex": "#E8590C",
+        "role": "seconds hand"
+      }
+    ]
+  },
+  "making": {
+    "processes": [
+      "case turning from steel bar",
+      "gasket test in a pressure tank",
+      "moulding of the bezel insert",
+      "luminous paint application",
+      "assembly of bracelet links"
+    ],
+    "scale": "Swiss factory output of thousands a year; each watch passed a pressure test before it left the factory.",
+    "signs": "A knurled bezel, a guarded screw-down crown, a black dial with large markers and a depth rating."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "diver-watch",
+        "form": "Steel case with a screw-down crown and a rotating bezel",
+        "material": "stainless-steel",
+        "finish": "brushed"
+      },
+      {
+        "object": "watch-bracelet",
+        "form": "Riveted steel bracelet with a folding clasp and extension",
+        "material": "stainless-steel",
+        "finish": "brushed"
+      },
+      {
+        "object": "diver-watch",
+        "form": "Black bezel insert with a luminous pip at 12",
+        "material": "bakelite",
+        "finish": "polished"
+      },
+      {
+        "object": "diver-watch",
+        "form": "Domed crystal over a black dial",
+        "material": "acrylic-glass",
+        "finish": "polished"
+      },
+      {
+        "object": "watch-strap",
+        "form": "Ribbed rubber strap that fits over a wetsuit",
+        "material": "vulcanised-rubber",
+        "finish": "moulded"
+      },
+      {
+        "object": "watch-strap",
+        "form": "Sailcloth canvas strap with a pin buckle",
+        "material": "canvas",
+        "finish": "matte"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1950s diver's watch",
+      "black dial with round luminous markers",
+      "rotating bezel with minute scale",
+      "screw-down crown with guards",
+      "steel bracelet",
+      "domed acrylic crystal",
+      "rubber strap",
+      "sailcloth strap",
+      "underwater photograph of a wrist",
+      "depth rating on the dial",
+      "macro photograph, hard light"
+    ],
+    "negative": [
+      "gold case",
+      "enamel dial",
+      "thin dress case",
+      "digital display",
+      "leather strap",
+      "bezel without scale"
+    ],
+    "canonical_works": [
+      {
+        "work": "Fifty Fathoms",
+        "maker": "Blancpain",
+        "year": 1953
+      },
+      {
+        "work": "Submariner Ref. 6204",
+        "maker": "Rolex",
+        "year": 1953
+      },
+      {
+        "work": "Seamaster 300",
+        "maker": "Omega",
+        "year": 1957
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Rolex-Submariner",
+      "kind": "image",
+      "credit": "FrankWilliams",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Rolex-Submariner.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Rolex-Submariner.jpg",
+      "maker": "Rolex"
+    },
+    {
+      "title": "Il primo Rolex Submariner del 1953",
+      "kind": "image",
+      "credit": "Clyde94",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Il_primo_Rolex_Submariner_del_1953.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Il_primo_Rolex_Submariner_del_1953.jpg/960px-Il_primo_Rolex_Submariner_del_1953.jpg",
+      "maker": "Rolex",
+      "year": 1953
+    },
+    {
+      "title": "Rolex Submariner diving watch",
+      "kind": "image",
+      "credit": "foeoc kannilc",
+      "licence": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Rolex_Submariner_diving_watch.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Rolex_Submariner_diving_watch.jpg/960px-Rolex_Submariner_diving_watch.jpg",
+      "maker": "Rolex"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "pilot-and-field-watch"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "industrial-utility-product",
+      "mid-century-modern-product"
+    ]
+  },
+  "emotion": {
+    "target_response": "A sense of safe depth: the viewer sees a heavy case, a black face and a glow that will work in the dark.",
+    "keywords": [
+      "rugged",
+      "sealed",
+      "legible",
+      "bold",
+      "dependable"
+    ],
+    "brand_archetypes": [
+      "explorer",
+      "hero"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "dive watch",
+      "diver's watch",
+      "submariner",
+      "fifty fathoms",
+      "rotating bezel",
+      "screw down crown",
+      "water resistant watch",
+      "tool watch"
+    ],
+    "use_cases": [
+      "a prop for an ocean or a naval film",
+      "a tool watch design brief",
+      "an image prompt for a diver's watch on a wrist"
+    ],
+    "avoid_when": [
+      "the brief wants a thin dress watch",
+      "the brief wants gold and enamel",
+      "the brief wants a smart or digital display"
+    ],
+    "modifiers": [
+      {
+        "request": "for the road and the track",
+        "toward": "racing-chronograph",
+        "how": "Add two chronograph pushers and a tachymeter bezel, and thin the case to 14 mm."
+      },
+      {
+        "request": "richer, for the city",
+        "toward": "luxury-steel-sports-watch",
+        "how": "Cast an integrated steel bracelet, polish the bevels, add a gold or a steel bezel, and keep 100 m of water resistance."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Diving watch",
+      "url": "https://en.wikipedia.org/wiki/Diving_watch"
+    },
+    {
+      "title": "Wikipedia: Rolex Submariner",
+      "url": "https://en.wikipedia.org/wiki/Rolex_Submariner"
+    },
+    {
+      "title": "Wikipedia: Blancpain",
+      "url": "https://en.wikipedia.org/wiki/Blancpain"
+    },
+    {
+      "title": "Wikipedia: Bob Maloubier",
+      "url": "https://en.wikipedia.org/wiki/Bob_Maloubier"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.1,
+      "min": 0,
+      "max": 0.3
+    },
+    "proportion_scale": {
+      "default": 0.7,
+      "min": 0.4,
+      "max": 1
+    },
+    "surface_gloss": {
+      "default": 30,
+      "min": 5,
+      "max": 80
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1
+    },
+    "metal_tone": {
+      "default": "steel",
+      "options": [
+        "steel",
+        "black",
+        "gunmetal",
+        "yellow-gold",
+        "none"
+      ]
+    }
+  }
+}

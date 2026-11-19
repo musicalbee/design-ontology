@@ -1,0 +1,47 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "chroma-key",
+  "name": "Chroma key",
+  "aliases": [
+    "Green screen",
+    "Blue screen",
+    "Travelling matte"
+  ],
+  "kind": "process",
+  "summary": "Remove one flat colour from a shot and put another picture behind the subject.",
+  "how": [
+    "Light a flat green or blue ground evenly, with no shadows.",
+    "Keep the subject at 1 m or more from the ground to avoid colour spill.",
+    "Key out the ground colour and feather the mask edge by 1px to 2px.",
+    "Place the new picture behind the subject and match its light direction."
+  ],
+  "origin": {
+    "domain": "film",
+    "year": 1940,
+    "where": "London",
+    "note": "Larry Butler makes the blue-screen travelling-matte shots of The Thief of Bagdad."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 2020,
+      "via": "TikTok adds a green-screen effect: the creator keeps the face and body and swaps the ground for any photo.",
+      "styles": [
+        "green-screen-short"
+      ]
+    }
+  ],
+  "styles": [
+    "green-screen-short"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Chroma key",
+      "url": "https://en.wikipedia.org/wiki/Chroma_key"
+    },
+    {
+      "title": "Wikipedia: Lawrence W. Butler",
+      "url": "https://en.wikipedia.org/wiki/Lawrence_W._Butler"
+    }
+  ]
+}

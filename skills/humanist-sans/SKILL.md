@@ -157,12 +157,12 @@ Capital letters with the proportions of Roman stone inscriptions: some letters w
 - Set the stem at about one tenth of the cap height for a classical weight; for signs, increase it by up to half.
 - Cut serifs, or leave them out, but keep the width rules.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Google Fonts** (platform, web, 2010–now), published the style. A free library of web fonts and icons. It serves the Material Symbols icon font and many open sans and serif families.
-- **Monotype** (workshop, London and Woburn, Massachusetts, 1887–now), made the style. A maker of typesetting machines and type. It released Gill Sans and revivals of Baskerville and other book faces.
+- **Monotype** (company, London and Woburn, Massachusetts, 1887–now), made the style. A maker of typesetting machines and type. It released Gill Sans and revivals of Baskerville and other book faces.
 
 ## Permutations
 

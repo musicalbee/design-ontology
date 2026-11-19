@@ -1,0 +1,128 @@
+/*
+ * Velocity Edit — tokens
+ * Generated from data/internet/styles/velocity-edit.json by design-ontology. Do not edit.
+ * Use: put data-style="velocity-edit" on <html> or on any container.
+ */
+[data-style="velocity-edit"] {
+  --color-bg: #08090C;
+  --color-surface: #14161C;
+  --color-text: #FFF3E0;
+  --color-muted: #9AA3B2;
+  --color-primary: #FF6A1F;
+  --color-accent: #2BB3FF;
+  --color-border: #FFF3E0;
+  --font-sans: "Oswald", "Barlow Condensed", sans-serif;
+  --font-display: "Anton", "Bebas Neue", sans-serif;
+  --border-radius: 0px;
+  --border-width: 1px;
+  --shadow-elevation: 0 0 20px rgba(255,106,31,0.4);
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --duration: 100ms;
+  --type-ratio: 1.333;
+  --size-small: 12px;
+  --size-h3: 28.43px;
+  --size-h2: 37.9px;
+  --size-h1: 50.52px;
+  --color-on-bg: #FFF3E0;
+  --color-on-surface: #FFF3E0;
+  --color-on-primary: #08090C;
+  --color-on-accent: #08090C;
+  --color-muted-on-bg: #9AA3B2;
+  --color-muted-on-surface: #9AA3B2;
+  --color-link: #2BB3FF;
+  --color-link-on-surface: #2BB3FF;
+  --display-weight: 700;
+  --subhead-weight: 500;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 700;
+  --display-tracking: 0.02em;
+  --display-leading: 1;
+  --display-case: uppercase;
+  --body-leading: 1.4;
+  --body-size: 16px;
+  --icon-stroke: 2;
+  --ground: radial-gradient(70% 60% at 50% 105%, transparent 30%, var(--color-bg) 75%),
+    repeating-conic-gradient(from -90deg at 50% 108%, color-mix(in oklab, var(--color-primary) 34%, transparent) 0 4deg, transparent 4deg 9deg),
+    repeating-radial-gradient(circle at 50% 108%, transparent 0 18vmin, color-mix(in oklab, var(--color-primary) 40%, transparent) 18vmin calc(18vmin + 2px), transparent calc(18vmin + 2px) 24vmin),
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="velocity-edit"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="velocity-edit"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="velocity-edit"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="velocity-edit"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="velocity-edit"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="velocity-edit"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="velocity-edit"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="velocity-edit"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="velocity-edit"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="velocity-edit"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="velocity-edit"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="velocity-edit"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="velocity-edit"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="velocity-edit"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

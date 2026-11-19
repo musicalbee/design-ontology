@@ -171,9 +171,9 @@ A narrow recessed joint between two surfaces that casts a shadow, so that each s
 - Hold the gap at a constant width along its full length.
 - Use it where new meets old: between a wall and a ceiling, a floor and a skirting, or a new insert and a historic wall.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Super Normal exhibition** (exhibition, Tokyo, Japan, 2006–2006), launched the style. A show of everyday objects chosen by Jasper Morrison and Naoto Fukasawa. It set out the idea of the Super Normal object: a plain thing that works well and needs no comment.
 
@@ -202,7 +202,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`memphis-product`](../memphis-product/SKILL.md)
 - **Mixes well with:** [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
-- **Kin in another domain:** [`minimalism-web`](../minimalism-web/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md)
+- **Kin in another domain:** [`designer-wall-hung-sanitary`](../designer-wall-hung-sanitary/SKILL.md), [`electric-minimal-car`](../electric-minimal-car/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md), [`normcore`](../normcore/SKILL.md), [`smartwatch`](../smartwatch/SKILL.md), [`washlet-toilet`](../washlet-toilet/SKILL.md)
 - **Nearest by vector profile:** [`bauhaus-product`](../bauhaus-product/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md), [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md)
 
 ## Emotional target

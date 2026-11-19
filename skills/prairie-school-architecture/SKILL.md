@@ -186,9 +186,9 @@ A beam or slab fixed at one end that carries load beyond its support, so that it
 - Keep the free end thin; a depth of 1/8 to 1/10 of the span suits steel and concrete.
 - Repeat the horizontal line in a run of 2 or 3 projecting planes to give a strong shadow.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Frank Lloyd Wright Home and Studio** (studio, Oak Park, Illinois, ?–now), made the style. The studio of Frank Lloyd Wright in Oak Park. Here he and his assistants drew the Prairie houses and the first works of organic architecture.
 
@@ -211,7 +211,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more modern**: move toward [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md) (Mid-century Modern). Swap the brick for timber and glass, open the window bands to full-height glass and keep the deep eave and the hearth.
 
 - **Led to (go here for a newer version):** [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md), [`organic-architecture`](../organic-architecture/SKILL.md)
-- **Kin in another domain:** [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md)
+- **Kin in another domain:** [`chicago-school-terracotta`](../chicago-school-terracotta/SKILL.md), [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md)
 - **Nearest by vector profile:** [`critical-regionalism-architecture`](../critical-regionalism-architecture/SKILL.md), [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md)
 
 ## Emotional target

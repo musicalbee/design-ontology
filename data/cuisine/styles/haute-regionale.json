@@ -1,0 +1,354 @@
+{
+  "$schema": "../../../schema/domains/cuisine.schema.json",
+  "id": "haute-regionale",
+  "domain": "cuisine",
+  "name": "Haute cuisine régionale",
+  "aliases": [
+    "Fernand Point cuisine",
+    "La Pyramide cuisine",
+    "Regional haute cuisine"
+  ],
+  "era_id": "regional-and-bourgeois",
+  "branch": "haute",
+  "time_period": {
+    "start": 1925,
+    "end": 1965,
+    "label": "1925–1965"
+  },
+  "region": "Vienne and Lyon, in the Rhône valley",
+  "summary": "The restaurant of a master in a provincial town. Fernand Point at La Pyramide in Vienne cooks the classic sauce with the butter, cream and produce of his own region. A small kitchen, a short menu and a fine cellar draw guests to the road.",
+  "philosophy": {
+    "core_thesis": "Cook the classic dish well with the best produce of the region, on a short menu, and make the restaurant a place of travel.",
+    "design_principles": [
+      "Buy the best local produce each day: Bresse chicken, crayfish, cream, butter and cheese.",
+      "Keep the classic sauce, and cook it with fresh butter and cream, with no short cut.",
+      "Keep the menu short and cook each dish to order, with a small team in the kitchen.",
+      "Serve each dish on a plate or a platter at the table, with the sauce beside it.",
+      "Train young cooks in the kitchen; each one learns each station.",
+      "Pair each dish with a wine of the Rhône valley, and let the cellar lead the meal.",
+      "Let the guest take time: a good meal takes a whole afternoon."
+    ],
+    "anti_patterns": [
+      "A long menu of dishes made in advance",
+      "A grand pièce montée on the table",
+      "A heavy sauce that hides the produce",
+      "Produce from far away when a local one is as good",
+      "A cook who does not taste",
+      "A hurried meal"
+    ]
+  },
+  "vectors": {
+    "composition": 3,
+    "transformation": 3,
+    "locality": 4,
+    "richness": 5,
+    "flavour_intensity": 2
+  },
+  "plating": {
+    "composition": "One main piece at the centre of a large plate with a sauce beside it and one vegetable; the host or a waiter finishes the dish at the table.",
+    "plate": "A white porcelain plate of 260 to 280 mm, or a silver platter carried to the table on a trolley.",
+    "portion": "A main piece of 150 to 220 g with 60 to 90 ml of sauce and one garnish.",
+    "height": "The food stands 25 to 50 mm high, and the sauce pools 3 to 5 mm deep at its foot.",
+    "rules": [
+      "Put the main piece at the centre and place the sauce beside it or under it.",
+      "Carve the Bresse chicken at the table and serve it at once.",
+      "Use a gratin dish for the crayfish and bring it to the table with the crust hot.",
+      "Keep the garnish to one vegetable or one mushroom.",
+      "Wipe the rim of each plate before it leaves the kitchen."
+    ]
+  },
+  "pantry": {
+    "primary": [
+      "butter",
+      "cream",
+      "chicken",
+      "shellfish",
+      "truffle",
+      "foie-gras",
+      "wine",
+      "egg"
+    ],
+    "secondary": [
+      "veal",
+      "beef",
+      "lamb",
+      "fine-herbs",
+      "shallot",
+      "tarragon",
+      "wild-mushrooms",
+      "asparagus",
+      "potato",
+      "tomato",
+      "cheese",
+      "wheat",
+      "orchard-fruit",
+      "nuts-seeds",
+      "salmon",
+      "game-birds"
+    ],
+    "avoid": [
+      "chilli",
+      "soy-sauce",
+      "miso",
+      "sodium-alginate",
+      "liquid-nitrogen",
+      "kombu"
+    ],
+    "in_europe": true,
+    "rule": "Build on butter, cream and produce of the region, and add one luxury (truffle, foie gras or crayfish) to the dish of honour."
+  },
+  "technique": {
+    "methods": [
+      "stock-making",
+      "roux",
+      "emulsion-sauce",
+      "poaching",
+      "braising",
+      "oven-roasting",
+      "sauteing",
+      "reduction"
+    ],
+    "bases": "A veal stock, a chicken stock, a court-bouillon for fish and crayfish, a béchamel for the gratin and a butter sauce made to order.",
+    "details": "A gratin that browns under the heat, a chicken carved at the table, a butter sauce whisked at the last minute, a cake of nut layers cut in strips."
+  },
+  "flavour": {
+    "profile": "Rich and clear: butter, cream and stock, with the sweet taste of crayfish, the scent of truffle and the lift of Rhône wine.",
+    "balance": "Fat and umami lead; wine, lemon and a dry white wine lift the sauce; sweet stays in the dessert.",
+    "fat": "Butter and cream give 45 to 60 per cent of the energy of a sauced main dish.",
+    "seasoning": "Salt and white pepper, fines herbes at the end, and the cook tastes each sauce before it leaves."
+  },
+  "palette": {
+    "strategy": "Use the white of the cloth and the plate, the gold of butter and gratin, and the red of crayfish, in warm light.",
+    "colours": [
+      {
+        "name": "Porcelain white",
+        "hex": "#F6F3EC",
+        "role": "plate and cloth"
+      },
+      {
+        "name": "Butter gold",
+        "hex": "#E8C766",
+        "role": "butter sauce"
+      },
+      {
+        "name": "Gratin brown",
+        "hex": "#B07A3A",
+        "role": "crust"
+      },
+      {
+        "name": "Crayfish red",
+        "hex": "#C2452D",
+        "role": "crayfish"
+      },
+      {
+        "name": "Bresse white",
+        "hex": "#EFE6D2",
+        "role": "chicken"
+      },
+      {
+        "name": "Truffle black",
+        "hex": "#1E1A17",
+        "role": "garnish"
+      },
+      {
+        "name": "Wine red",
+        "hex": "#6A1C2A",
+        "role": "wine"
+      }
+    ]
+  },
+  "service": {
+    "format": "Service à la carte at a table in a provincial restaurant: the waiter brings each dish to the guest, and finishes it at the table.",
+    "courses": "Four to six courses chosen from a short menu: a hors-d'oeuvre, a fish or shellfish dish, a poultry or meat dish, cheese and a dessert.",
+    "tableware": "White porcelain, silver, crystal glasses for the wines of the Rhône valley and a white cloth.",
+    "setting": "A roadside restaurant on the road to the south, with a small dining room, a big cellar and a kitchen of twelve cooks."
+  },
+  "signatures": {
+    "dishes": [
+      {
+        "course": "entree",
+        "dish": "Gratin of crayfish tails",
+        "ingredient": "shellfish",
+        "method": "oven-roasting"
+      },
+      {
+        "course": "main-course",
+        "dish": "Bresse chicken with cream and truffle",
+        "ingredient": "chicken",
+        "method": "poaching"
+      },
+      {
+        "course": "entree",
+        "dish": "Poached salmon with a butter sauce",
+        "ingredient": "salmon",
+        "method": "poaching"
+      },
+      {
+        "course": "main-course",
+        "dish": "Roast Bresse chicken carved at the table",
+        "ingredient": "chicken",
+        "method": "oven-roasting"
+      },
+      {
+        "course": "dessert",
+        "dish": "Marjolaine, a cake of almond and hazelnut layers",
+        "ingredient": "nuts-seeds",
+        "method": "oven-roasting"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "French provincial restaurant 1950s",
+      "La Pyramide dining room",
+      "Bresse chicken with cream sauce",
+      "gratin of crayfish tails",
+      "white porcelain plate",
+      "silver trolley",
+      "crystal wine glasses",
+      "white linen",
+      "warm afternoon light",
+      "chef in a tall white hat",
+      "golden butter sauce",
+      "overhead view of a plated dish"
+    ],
+    "negative": [
+      "foam",
+      "tweezers garnish",
+      "slate plate",
+      "smear of sauce",
+      "fast food",
+      "neon light",
+      "chilli",
+      "modern open kitchen"
+    ],
+    "canonical_works": [
+      {
+        "work": "La Pyramide",
+        "maker": "Fernand Point",
+        "year": 1924
+      },
+      {
+        "work": "Ma gastronomie",
+        "maker": "Fernand Point",
+        "year": 1969
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Restaurant La Pyramide, Vienne",
+      "kind": "image",
+      "credit": "PHILDIC, via Wikimedia Commons",
+      "licence": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Restaurant_La_Pyramide_1.JPG",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Restaurant_La_Pyramide_1.JPG",
+      "maker": "Restaurant La Pyramide",
+      "year": 2012
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "cuisine-classique"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Warm trust and the calm of an afternoon: a master cook, a good local table and no hurry.",
+    "keywords": [
+      "warm",
+      "generous",
+      "regional",
+      "assured",
+      "unhurried"
+    ],
+    "brand_archetypes": [
+      "caregiver",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "fernand point",
+      "la pyramide",
+      "vienne restaurant",
+      "bresse chicken",
+      "provincial french restaurant",
+      "three star 1950s",
+      "michelin 1930s",
+      "mere brazier"
+    ],
+    "use_cases": [
+      "a scene in a French provincial restaurant of the 1950s",
+      "a menu for a regional classic dinner",
+      "a food image of a butter and cream dish"
+    ],
+    "avoid_when": [
+      "the brief wants a light vegetable-led plate",
+      "the brief wants a modern tasting menu",
+      "the brief wants a grand hotel banquet"
+    ],
+    "modifiers": [
+      {
+        "request": "lighter, with less flour and shorter cooking",
+        "toward": "nouvelle-cuisine",
+        "how": "Drop the flour from the sauce, cook the fish and the vegetables for less time and plate each dish in the kitchen."
+      },
+      {
+        "request": "more formal, with a brigade and a long menu",
+        "toward": "cuisine-classique",
+        "how": "Add a brigade of stations, a menu of nine courses and the classic garnishes."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Fernand Point",
+      "url": "https://en.wikipedia.org/wiki/Fernand_Point"
+    },
+    {
+      "title": "Wikipedia: La Pyramide (restaurant)",
+      "url": "https://en.wikipedia.org/wiki/La_Pyramide_(restaurant)"
+    },
+    {
+      "title": "Fernand Point, Ma gastronomie (1969)"
+    }
+  ],
+  "permutations": {
+    "course_count": {
+      "default": 5,
+      "min": 4,
+      "max": 7
+    },
+    "negative_space": {
+      "default": 0.2,
+      "min": 0.1,
+      "max": 0.4
+    },
+    "portion_g": {
+      "default": 300,
+      "min": 220,
+      "max": 420
+    },
+    "spice_level": {
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    "fat_share": {
+      "default": 0.5,
+      "min": 0.35,
+      "max": 0.65
+    },
+    "plate_colour": {
+      "default": "#F6F3EC",
+      "options": [
+        "#F6F3EC",
+        "#FFFFFF",
+        "#C9C9C5"
+      ]
+    }
+  }
+}

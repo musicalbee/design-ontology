@@ -178,6 +178,12 @@ function shot(s, found, asProof = false) {
       ? `Specimen of ${p.font} (${p.licence}), drawn from the font outlines. No image model.`
       : p.kind === "press-proof"
       ? `Press proof drawn by code from the process rules of the style. No image model. Subject: ${p.subject}.`
+      : p.kind === "plate-plan"
+      ? `Plate plan drawn by code from the rules of the style and the cuisine vocabulary. No image model. A plan, not a recipe: each element is one primary ingredient, and the time line gives where and when it began.`
+      : p.kind === "swatch-board"
+      ? `Swatch board drawn by code from the fabric rules of the style and the fabric vocabulary. No image model. The structure of each cloth is enlarged. History of every cloth: fabrics.html.`
+      : p.kind === "tile-board"
+      ? `Glaze test tiles drawn by code from the clay and glaze rules of the style and the ceramics vocabulary. No image model. Each tile is a body, a glaze and a decoration; the surface is enlarged. History of every body and glaze: glazes.html.`
       : `Generated preview, not a real work. ${p.model} (${p.licence}), seed ${p.seed}, ${p.steps} steps. Subject: ${p.subject}.${p.wordmark ? ` Wordmark "${p.wordmark.brand}"${p.wordmark.fictional ? " (a fictional brand)" : ""} set in ${p.wordmark.font} by ${p.wordmark.maker} (${p.wordmark.licence}).` : ""}`;
     if (proofs[s.id] && previews[s.id]) {
       $("shot-cap").insertAdjacentHTML("beforeend", ` <button type="button" class="swap" id="swap">${asProof ? "Show the generated print" : "Show the press proof"}</button>`);

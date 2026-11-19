@@ -210,9 +210,9 @@ A key light, a fill light and a back light on one subject, so that the face is m
 - Set the fill on the other side at 1/4 to 1/2 of the key.
 - Put the back light behind the subject, so that a thin rim of light separates hair and shoulders from the ground.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **RKO Pictures** (studio, Los Angeles, 1928–1959), made the style. A Hollywood studio of the studio era. It made classic Hollywood films and many low-key film noirs, with their publicity stills.
 
@@ -238,7 +238,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md)
 - **Led to (go here for a newer version):** [`one-take-oner`](../one-take-oner/SKILL.md)
 - **Was rejected by:** [`film-noir`](../film-noir/SKILL.md), [`italian-neorealism`](../italian-neorealism/SKILL.md), [`mumblecore`](../mumblecore/SKILL.md), [`music-video`](../music-video/SKILL.md), [`new-hollywood`](../new-hollywood/SKILL.md), [`slow-cinema`](../slow-cinema/SKILL.md), [`spaghetti-western`](../spaghetti-western/SKILL.md)
-- **Kin in another domain:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`pre-rendered-backgrounds`](../pre-rendered-backgrounds/SKILL.md)
+- **Kin in another domain:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`bias-cut-glamour`](../bias-cut-glamour/SKILL.md), [`ladylike-handbag`](../ladylike-handbag/SKILL.md), [`pre-rendered-backgrounds`](../pre-rendered-backgrounds/SKILL.md)
 - **Nearest by vector profile:** [`film-noir`](../film-noir/SKILL.md), [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md), [`planimetric-symmetry`](../planimetric-symmetry/SKILL.md)
 
 ## Emotional target

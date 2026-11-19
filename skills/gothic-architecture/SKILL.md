@@ -186,11 +186,12 @@ Pieces of coloured glass held in lead strips, so that a window becomes a picture
 - Paint the lines of faces and folds in dark grisaille and fire them onto the glass.
 - Use deep blue and red for the field; keep the clear or yellow pieces under 20% of the window.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Veneranda Fabbrica del Duomo di Milano** (workshop, Milan, 1387–now), made the style. The works office that builds and keeps Milan Cathedral. Its masons and stone workshops made the Gothic cathedral over centuries and still keep it.
+- **Abbey of Saint-Denis** (church, Saint-Denis, ?–now), made the style. The abbey that Abbot Suger rebuilt from about 1135. Its choir of 1144 is widely seen as the first Gothic structure.
+- **Veneranda Fabbrica del Duomo di Milano** (church, Milan, 1387–now), made the style. The works office that builds and keeps Milan Cathedral. Its masons and stone workshops made the Gothic cathedral over centuries and still keep it.
 
 ## Permutations
 
@@ -212,7 +213,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md)
 - **Was rejected by:** [`renaissance-architecture`](../renaissance-architecture/SKILL.md)
-- **Kin in another domain:** [`blackletter`](../blackletter/SKILL.md)
+- **Kin in another domain:** [`blackletter`](../blackletter/SKILL.md), [`dark-academia`](../dark-academia/SKILL.md), [`medieval-court-cuisine`](../medieval-court-cuisine/SKILL.md), [`victorian-architectural-terracotta`](../victorian-architectural-terracotta/SKILL.md), [`victorian-encaustic-tiles`](../victorian-encaustic-tiles/SKILL.md)
 - **Nearest by vector profile:** [`adaptive-reuse-architecture`](../adaptive-reuse-architecture/SKILL.md), [`critical-regionalism-architecture`](../critical-regionalism-architecture/SKILL.md), [`expressionist-architecture`](../expressionist-architecture/SKILL.md)
 
 ## Emotional target

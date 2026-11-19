@@ -1,0 +1,350 @@
+{
+  "$schema": "../../../schema/domains/cuisine.schema.json",
+  "id": "naturalist-cuisine",
+  "domain": "cuisine",
+  "name": "Naturalist cuisine",
+  "aliases": [
+    "Cuisine naturaliste",
+    "Cuisine of the plateau",
+    "Garden and wild-plant cuisine",
+    "New wild cuisine"
+  ],
+  "era_id": "nouvelle-and-new-world",
+  "branch": "haute",
+  "time_period": {
+    "start": 1978,
+    "end": null,
+    "label": "1978–present"
+  },
+  "region": "Laguiole in the Aubrac, France, and the Basque Country",
+  "summary": "A kitchen that treats the plate as a landscape. The cook picks wild and garden plants on the day, cooks each one at its own pace and shows it whole. The gargouillou of Michel Bras, first made in 1980, holds dozens of plants.",
+  "philosophy": {
+    "core_thesis": "The land around the kitchen is the pantry and the teacher: the cook walks it, learns each plant in each week, and cooks only what the walk gives.",
+    "design_principles": [
+      "Pick wild herbs, flowers, roots and mushrooms on the day, and write the menu after the walk, not before it.",
+      "Cook each plant by itself, to its own point, and join the parts only on the plate.",
+      "Keep the plant in its natural form: the leaf, the flower, the root with its shape.",
+      "Let vegetables, grains and pulses carry the plate; use meat, fish and dairy as a small part of it.",
+      "Use butter, oils and light stocks to carry the taste of the plant, not to cover it.",
+      "Think of the plate as a small landscape: scatter the parts in a loose, uneven order, as plants grow.",
+      "Make the sauce a thin pool or a dot that gives acid or bitterness to the plants."
+    ],
+    "anti_patterns": [
+      "A heavy cream or butter sauce that covers the plant",
+      "A fixed menu that does not change with the week",
+      "A plate with a strict centre and a symmetric garnish",
+      "Luxury goods such as caviar and foie gras used for their price",
+      "Imported ingredients when a local plant is in season",
+      "Laboratory gels and foams as the point of the dish"
+    ]
+  },
+  "vectors": {
+    "composition": 4,
+    "transformation": 2,
+    "locality": 5,
+    "richness": 3,
+    "flavour_intensity": 3
+  },
+  "plating": {
+    "composition": "A loose, scattered composition of many small parts of vegetables, leaves and flowers, set by hand with tweezers and a spoon, with a thin sauce under or around them.",
+    "plate": "A wide, flat plate or a shallow bowl of white or pale stoneware, with a plain glaze and no rim pattern.",
+    "portion": "A vegetable course of 100 to 150 g in many small parts; a main piece of meat or fish of 60 to 90 g.",
+    "height": "Low and open: the food lies 10 to 25 mm high, and the flowers and leaves rise a little above the rest.",
+    "rules": [
+      "Place each part of the plate by hand, one at a time, and leave a space between the parts.",
+      "Give each plant its own cut and its own cooking, so that the parts differ in size, colour and texture.",
+      "Put the herbs, flowers and young leaves on the top, as the last step.",
+      "Keep the sauce in a thin pool or in dots, and put it under the food, not over it.",
+      "Choose a plain plate so that the colours of the plants stay the main colours of the table."
+    ]
+  },
+  "pantry": {
+    "primary": [
+      "wild-plants",
+      "seasonal-greens",
+      "root-vegetables",
+      "wild-mushrooms",
+      "pulses",
+      "berries"
+    ],
+    "secondary": [
+      "lamb",
+      "beef",
+      "egg",
+      "butter",
+      "cheese",
+      "nuts-seeds",
+      "honey",
+      "orchard-fruit",
+      "vinegar",
+      "olive-oil",
+      "cocoa",
+      "potato"
+    ],
+    "avoid": [
+      "foie-gras",
+      "caviar",
+      "truffle",
+      "soy-lecithin",
+      "sodium-alginate"
+    ],
+    "in_europe": true,
+    "rule": "Take the plants from the plateau and the garden near the kitchen, in the week of the menu; add meat, fish or dairy only as a small part."
+  },
+  "technique": {
+    "methods": [
+      "steaming",
+      "boiling",
+      "sauteing",
+      "oven-roasting",
+      "poaching",
+      "wood-fire",
+      "pickling",
+      "plated-service"
+    ],
+    "bases": "Light vegetable broths, a few drops of vinegar or verjuice, a nut oil, a butter that is browned only a little, and the juice of the plants.",
+    "details": "A dot of a bitter or sour sauce, a dusting of ground seed, a few drops of herb oil, an edible flower or a young leaf on the top."
+  },
+  "flavour": {
+    "profile": "Green, bitter, sweet and earthy, with a clear acid; each plant keeps its own taste.",
+    "balance": "Bitter and sweet plants in turn, with a small acid; salt is light and fat is low.",
+    "fat": "A little butter or oil to carry the taste; 15 to 30 per cent of the energy of a course.",
+    "seasoning": "Salt, vinegar, the pepper of wild herbs, mustard seed, juniper, and ground seeds and flowers."
+  },
+  "palette": {
+    "strategy": "Use the colours of a plateau in one season: many greens, the yellow and violet of flowers, the brown of roots, on a plain pale plate.",
+    "colours": [
+      {
+        "name": "Plate white",
+        "hex": "#EEE9DD",
+        "role": "plate"
+      },
+      {
+        "name": "Leaf green",
+        "hex": "#6F8B3D",
+        "role": "leaves and herbs"
+      },
+      {
+        "name": "Young shoot green",
+        "hex": "#A9C25A",
+        "role": "shoots and peas"
+      },
+      {
+        "name": "Root brown",
+        "hex": "#7A5B3A",
+        "role": "roots and soil"
+      },
+      {
+        "name": "Flower violet",
+        "hex": "#7A5C94",
+        "role": "flowers"
+      },
+      {
+        "name": "Dandelion yellow",
+        "hex": "#E0B83A",
+        "role": "flowers and accent"
+      },
+      {
+        "name": "Mushroom beige",
+        "hex": "#C9B08A",
+        "role": "mushrooms and grain"
+      }
+    ]
+  },
+  "service": {
+    "format": "A tasting menu that follows the season and the walk of the day, and a short set of main dishes.",
+    "courses": "Eight to twelve courses, with a vegetable course as the centre, a small portion of meat or fish, and a warm dessert.",
+    "tableware": "Plain pale plates and shallow bowls, light glass, a wooden or linen table and one knife and fork for each course.",
+    "setting": "A bright room with large windows to the landscape, plain wood and stone, and a calm service."
+  },
+  "signatures": {
+    "dishes": [
+      {
+        "course": "vegetable-course",
+        "dish": "Gargouillou of young vegetables, herbs and flowers",
+        "ingredient": "seasonal-greens",
+        "method": "steaming"
+      },
+      {
+        "course": "vegetable-course",
+        "dish": "Wild mushrooms with a thin herb broth",
+        "ingredient": "wild-mushrooms",
+        "method": "sauteing"
+      },
+      {
+        "course": "roast",
+        "dish": "Roast Aubrac lamb with wild herbs",
+        "ingredient": "lamb",
+        "method": "oven-roasting"
+      },
+      {
+        "course": "dessert",
+        "dish": "Warm chocolate cake with a liquid centre",
+        "ingredient": "cocoa",
+        "method": "oven-roasting"
+      },
+      {
+        "course": "amuse-bouche",
+        "dish": "Edible stones: potatoes in a coat of edible clay",
+        "ingredient": "potato",
+        "method": "boiling"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "naturalist tasting menu",
+      "scattered vegetables, leaves and flowers",
+      "wild herbs picked on the day",
+      "a plate as a small landscape",
+      "pale stoneware plate",
+      "thin herb sauce in dots",
+      "edible flowers on the top",
+      "natural daylight",
+      "overhead food photograph"
+    ],
+    "negative": [
+      "cream sauce",
+      "symmetric garnish",
+      "foie gras",
+      "caviar",
+      "gel and foam",
+      "gold rim"
+    ],
+    "canonical_works": [
+      {
+        "work": "Gargouillou",
+        "maker": "Michel Bras",
+        "year": 1980
+      },
+      {
+        "work": "Laguiole: Le Livre de Michel Bras",
+        "maker": "Michel Bras",
+        "year": 2002
+      },
+      {
+        "work": "Mugaritz: A Natural Science of Cooking",
+        "maker": "Andoni Luis Aduriz",
+        "year": 2012
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Vegetable gargouillou after the recipe of Michel Bras",
+      "kind": "image",
+      "credit": "Yelkrokoyade, via Wikimedia Commons",
+      "licence": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Gargouillou_de_l%C3%A9gumes.JPG",
+      "maker": "Eric Sapet, La Petite Maison, Cucuron",
+      "year": 2009,
+      "file": "https://upload.wikimedia.org/wikipedia/commons/8/83/Gargouillou_de_l%C3%A9gumes.JPG"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "nouvelle-cuisine"
+    ],
+    "rebelled_against": [
+      "cuisine-classique"
+    ],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The calm of a walk across a meadow: many small green things, each with its own taste.",
+    "keywords": [
+      "wild",
+      "green",
+      "gentle",
+      "seasonal",
+      "scattered"
+    ],
+    "brand_archetypes": [
+      "explorer",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "naturalist cuisine",
+      "gargouillou",
+      "wild herbs tasting menu",
+      "vegetable-led fine dining",
+      "plate as a landscape",
+      "foraged plate",
+      "cuisine of the plateau"
+    ],
+    "use_cases": [
+      "a vegetable-led tasting menu of a country restaurant",
+      "a food photograph of a scattered plate of herbs and flowers",
+      "a menu that follows a walk in the landscape"
+    ],
+    "avoid_when": [
+      "the brief wants a rich classic sauce",
+      "the brief wants gels, foams and laboratory work",
+      "the brief is fast or street food"
+    ],
+    "modifiers": [
+      {
+        "request": "more science and strange texture",
+        "toward": "molecular-gastronomy",
+        "how": "Keep the plants but change their form with gels, foams and liquid nitrogen; show the trick on the plate."
+      },
+      {
+        "request": "colder, more fermented, more northern",
+        "toward": "new-nordic",
+        "how": "Use only plants of the north, remove olive oil and lemon, and add vinegars, garums and ferments."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Michel Bras",
+      "url": "https://en.wikipedia.org/wiki/Michel_Bras"
+    },
+    {
+      "title": "Wikipedia: Mugaritz",
+      "url": "https://en.wikipedia.org/wiki/Mugaritz"
+    },
+    {
+      "title": "Michel Bras, Laguiole: Le Livre de Michel Bras (Rouergue, 2002)"
+    }
+  ],
+  "permutations": {
+    "course_count": {
+      "default": 10,
+      "min": 6,
+      "max": 14
+    },
+    "negative_space": {
+      "default": 0.5,
+      "min": 0.3,
+      "max": 0.7
+    },
+    "portion_g": {
+      "default": 70,
+      "min": 30,
+      "max": 120
+    },
+    "spice_level": {
+      "default": 0,
+      "min": 0,
+      "max": 2
+    },
+    "fat_share": {
+      "default": 0.2,
+      "min": 0.1,
+      "max": 0.35
+    },
+    "plate_colour": {
+      "default": "#EEE9DD",
+      "options": [
+        "#EEE9DD",
+        "#D9D2C3",
+        "#6E6A63",
+        "#2E2B28"
+      ]
+    }
+  }
+}

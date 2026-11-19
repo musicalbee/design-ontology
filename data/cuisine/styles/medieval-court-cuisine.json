@@ -1,0 +1,362 @@
+{
+  "$schema": "../../../schema/domains/cuisine.schema.json",
+  "id": "medieval-court-cuisine",
+  "domain": "cuisine",
+  "name": "Medieval court cuisine",
+  "aliases": [
+    "Taillevent cuisine",
+    "Late medieval French cuisine"
+  ],
+  "era_id": "court-and-banquet",
+  "branch": "haute",
+  "time_period": {
+    "start": 1300,
+    "end": 1500,
+    "label": "1300–1500"
+  },
+  "region": "Royal and noble courts of France and England",
+  "summary": "The kitchen of the late medieval court. Cooks grind spices, thicken sauces with bread and colour the dish with saffron. Sweet, sour and hot flavours meet in one sauce. Le Viandier, first written about 1300 and widened by Taillevent, records it.",
+  "philosophy": {
+    "core_thesis": "Make the table show rank: use costly spices, bright colour and many dishes at once, and let each sauce mix sweet, sour and hot.",
+    "design_principles": [
+      "Set a service of many dishes on the table at once, and let each guest take from the dishes that he can reach.",
+      "Thicken a sauce with bread crumbs that have soaked in broth, vinegar or verjuice.",
+      "Grind spices in a mortar and add them to most dishes: ginger, cinnamon, clove, pepper and grains of paradise.",
+      "Colour a dish with saffron for gold, with parsley for green and with sandalwood for red.",
+      "Sour a sauce with verjuice or vinegar, and sweeten it with sugar or honey.",
+      "Roast a bird on the spit and serve it with a spiced sauce such as cameline.",
+      "Keep the Church calendar: cook fish and almond milk on the days without meat."
+    ],
+    "anti_patterns": [
+      "A sauce thickened with a roux of flour and butter",
+      "Tomato, potato, chilli or any food from the New World",
+      "A single plated dish for one guest",
+      "Plain meat with salt only",
+      "A light sauce without spice",
+      "Fresh herbs chopped at the end as a garnish"
+    ]
+  },
+  "vectors": {
+    "composition": 2,
+    "transformation": 3,
+    "locality": 2,
+    "richness": 3,
+    "flavour_intensity": 4
+  },
+  "plating": {
+    "composition": "Large dishes stand on a long table with the pieces heaped on a platter or in a bowl; guests cut and share.",
+    "plate": "A round trencher of stale bread or pewter, shared by two guests, with silver bowls and platters for the high table.",
+    "portion": "Each guest takes a piece of 80 to 150 g from a shared dish, with a ladle of sauce on the trencher.",
+    "height": "A heaped dish stands 80 to 200 mm high; a roast bird stands taller on its platter.",
+    "rules": [
+      "Put many dishes on the table in each service, and set the costly dish in front of the lord.",
+      "Serve a roast bird whole, and carve it at the table.",
+      "Pour the sauce over the meat or give it in a bowl for dipping.",
+      "Colour a whole dish in one hue: gold, green, white or red.",
+      "Dress a roast swan or peacock in its feathers for the feast.",
+      "Remove the soaked bread trencher at the end and give it to the poor."
+    ]
+  },
+  "pantry": {
+    "primary": [
+      "bread",
+      "verjuice",
+      "ginger",
+      "cinnamon",
+      "saffron",
+      "game-birds"
+    ],
+    "secondary": [
+      "black-pepper",
+      "clove",
+      "grains-of-paradise",
+      "nutmeg",
+      "cane-sugar",
+      "honey",
+      "nuts-seeds",
+      "wine",
+      "vinegar",
+      "onion",
+      "leek",
+      "chicken",
+      "pork",
+      "venison",
+      "cod",
+      "egg"
+    ],
+    "avoid": [
+      "tomato",
+      "potato",
+      "maize",
+      "chilli",
+      "vanilla",
+      "cocoa",
+      "fine-herbs",
+      "soy-sauce"
+    ],
+    "in_europe": true,
+    "rule": "Build a sauce on bread, verjuice or vinegar and spice, and use the costly spice in the dish of honour."
+  },
+  "technique": {
+    "methods": [
+      "boiling",
+      "spit-roasting",
+      "bread-thickening",
+      "wood-fire",
+      "grilling",
+      "salt-curing"
+    ],
+    "bases": "A broth of boiled meat or fish, an almond milk for the days of fasting, and a paste of soaked bread and spice, strained through a cloth.",
+    "details": "A sauce strained through linen, a spice ground in a mortar, a dish coloured with saffron, a bird roasted on a spit and glazed with egg yolk."
+  },
+  "flavour": {
+    "profile": "Sweet, sour and warm at the same time: ginger and cinnamon with verjuice, sugar and the smell of wood smoke.",
+    "balance": "Sour from verjuice and vinegar balances the sweet of sugar, honey and fruit; spice leads in each dish.",
+    "fat": "Fat comes from the roast, from lard and from almond milk; butter is for days without a fast, and the share is 25 to 40 per cent.",
+    "seasoning": "Ground spice in the mortar, salt late, and no fresh herbs as a finish. Pepper, ginger and cinnamon mark the dish."
+  },
+  "palette": {
+    "strategy": "Use the gold of saffron, the brown of the roast and the white of almond cream on a dark wood table, with green and red for the feast.",
+    "colours": [
+      {
+        "name": "Saffron gold",
+        "hex": "#D9A21B",
+        "role": "sauce and pastry"
+      },
+      {
+        "name": "Bread beige",
+        "hex": "#D8C29A",
+        "role": "trencher and sauce"
+      },
+      {
+        "name": "Roast brown",
+        "hex": "#7A4A24",
+        "role": "roast bird"
+      },
+      {
+        "name": "Almond white",
+        "hex": "#F1EAD7",
+        "role": "blanc manger"
+      },
+      {
+        "name": "Parsley green",
+        "hex": "#6B7F3A",
+        "role": "green sauce"
+      },
+      {
+        "name": "Pewter grey",
+        "hex": "#8A8D8F",
+        "role": "plate"
+      },
+      {
+        "name": "Wine red",
+        "hex": "#7A1F2B",
+        "role": "wine and sandalwood"
+      }
+    ]
+  },
+  "service": {
+    "format": "Service in removes: each service puts many dishes on the table together, and the guests take what they can reach.",
+    "courses": "Two to four services of 6 to 12 dishes each, with a spiced wine and wafers at the end.",
+    "tableware": "Bread trenchers, pewter and silver platters, a knife for each guest, spoons, and no fork.",
+    "setting": "The great hall of a castle with a high table on a dais, tapestries, torches and a carver at the lord's side."
+  },
+  "signatures": {
+    "dishes": [
+      {
+        "course": "entree",
+        "dish": "Blanc mengier of chicken and almond",
+        "ingredient": "chicken",
+        "method": "boiling"
+      },
+      {
+        "course": "roast",
+        "dish": "Roast capon with cameline sauce",
+        "ingredient": "chicken",
+        "method": "spit-roasting"
+      },
+      {
+        "course": "main-course",
+        "dish": "Civé of venison thickened with bread",
+        "ingredient": "venison",
+        "method": "bread-thickening"
+      },
+      {
+        "course": "soup",
+        "dish": "Porée of leeks",
+        "ingredient": "leek",
+        "method": "boiling"
+      },
+      {
+        "course": "banquet-centrepiece",
+        "dish": "Roast peacock in its feathers",
+        "ingredient": "game-birds",
+        "method": "spit-roasting"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "medieval court banquet",
+      "long wooden table",
+      "bread trencher",
+      "pewter platter",
+      "roast capon in golden sauce",
+      "saffron yellow sauce",
+      "candlelight and torchlight",
+      "stone hall with tapestries",
+      "manuscript illumination style",
+      "whole roast bird with feathers",
+      "spiced almond white stew",
+      "overhead view of a feast table"
+    ],
+    "negative": [
+      "fork",
+      "porcelain plate",
+      "tomato",
+      "potato",
+      "modern restaurant",
+      "foam",
+      "tweezers garnish",
+      "neon light"
+    ],
+    "canonical_works": [
+      {
+        "work": "Le Viandier",
+        "maker": "Guillaume Tirel, called Taillevent",
+        "year": 1380
+      },
+      {
+        "work": "Le Viandier (first Paris printed edition)",
+        "maker": "Guillaume Tirel, called Taillevent",
+        "year": 1486
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Le Viandier, manuscript of Sion: the recipe for blanc mengier",
+      "kind": "document",
+      "credit": "Médiathèque Valais, via e-codices and Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Taillevent_MS_de_Sion_Blanc_mengier.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Taillevent_MS_de_Sion_Blanc_mengier.jpg",
+      "maker": "Unknown scribe",
+      "year": 1300
+    },
+    {
+      "title": "Le livre de Taillevent, Lyon edition: title page",
+      "kind": "document",
+      "credit": "Bibliothèque nationale de France (Gallica), via Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Livre_de_Taillevent_1545_Lyon_tp.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Livre_de_Taillevent_1545_Lyon_tp.jpg",
+      "maker": "Guillaume Tirel, called Taillevent",
+      "year": 1545
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "gothic-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Awe at wealth and order: a hall where costly spice, gold colour and a full table show the rank of the host.",
+    "keywords": [
+      "opulent",
+      "heaped",
+      "spiced",
+      "ceremonial",
+      "warm"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "taillevent",
+      "le viandier",
+      "medieval banquet",
+      "medieval feast",
+      "castle feast",
+      "cameline sauce",
+      "blanc mengier",
+      "14th century cooking"
+    ],
+    "use_cases": [
+      "a medieval feast scene in a film or a game",
+      "a menu for a historical banquet",
+      "a food image for a court of 1400"
+    ],
+    "avoid_when": [
+      "the brief wants a food of the New World",
+      "the brief wants a plated modern dish",
+      "the brief wants a light or lean dish"
+    ],
+    "modifiers": [
+      {
+        "request": "more Italian, with sugar sculpture and more dishes",
+        "toward": "renaissance-banquet",
+        "how": "Add a sugar sculpture, a pie of game and a fork at the place, and drop the bread trencher."
+      },
+      {
+        "request": "less spice, with butter and herbs",
+        "toward": "cuisine-francoise",
+        "how": "Cut the spice to pepper and nutmeg, add fines herbes and make the sauce with a roux and a stock."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Taillevent",
+      "url": "https://en.wikipedia.org/wiki/Taillevent"
+    },
+    {
+      "title": "Wikipedia: Le Viandier",
+      "url": "https://en.wikipedia.org/wiki/Le_Viandier"
+    },
+    {
+      "title": "Terence Scully (ed.), The Viandier of Taillevent (1988)"
+    }
+  ],
+  "permutations": {
+    "course_count": {
+      "default": 3,
+      "min": 2,
+      "max": 4
+    },
+    "negative_space": {
+      "default": 0.1,
+      "min": 0,
+      "max": 0.25
+    },
+    "portion_g": {
+      "default": 110,
+      "min": 70,
+      "max": 170
+    },
+    "spice_level": {
+      "default": 2,
+      "min": 1,
+      "max": 3
+    },
+    "fat_share": {
+      "default": 0.3,
+      "min": 0.2,
+      "max": 0.45
+    },
+    "plate_colour": {
+      "default": "#8A8D8F",
+      "options": [
+        "#8A8D8F",
+        "#D8C29A",
+        "#6E4B2A"
+      ]
+    }
+  }
+}

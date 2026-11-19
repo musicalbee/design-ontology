@@ -149,9 +149,9 @@ Printing from raised metal or wood type and blocks, locked in a forme and presse
 - Dampen a soft rag paper so that the type bites 0.1–0.3 mm into it.
 - Print each ink from a separate forme or a separate pull, and register them by pins or lays.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Eastern Color Printing** (publisher, Waterbury, Connecticut, 1928–2002), published the style. A colour printer in Connecticut that published Famous Funnies, the first American comic book in the modern form. It printed comics for other publishers until 1973.
 
@@ -176,7 +176,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`chromolithograph-poster`](../chromolithograph-poster/SKILL.md)
 - **Led to (go here for a newer version):** [`pop-screen-print`](../pop-screen-print/SKILL.md)
-- **Kin in another domain:** [`pop-art-painting`](../pop-art-painting/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md)
+- **Kin in another domain:** [`pop-art-painting`](../pop-art-painting/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md), [`rage-comic`](../rage-comic/SKILL.md)
 - **Nearest by vector profile:** [`pop-screen-print`](../pop-screen-print/SKILL.md), [`risograph-print`](../risograph-print/SKILL.md), [`chromolithograph-poster`](../chromolithograph-poster/SKILL.md)
 
 ## Emotional target

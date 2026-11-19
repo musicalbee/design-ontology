@@ -1,0 +1,1649 @@
+{
+  "$schema": "../../schema/cuisine-vocabulary.schema.json",
+  "$comment": "The closed vocabulary of the cuisine domain. Each ingredient and method gives its origin: the first year with a firm record of its use as food or in the kitchen, and the place. arrival gives the first firm record in a European kitchen for an item that began elsewhere. circa = true marks an estimate.",
+  "branches": [
+    {
+      "id": "haute",
+      "name": "Haute and restaurant kitchen",
+      "order": 1,
+      "scope": "The kitchens of courts, grand hotels and restaurants, where chefs set the rules that others copy."
+    },
+    {
+      "id": "home",
+      "name": "Codified home traditions",
+      "order": 2,
+      "scope": "The cooking of a region or a nation as a named author wrote it down for the home cook."
+    },
+    {
+      "id": "pastry",
+      "name": "Pastry and confectionery",
+      "order": 3,
+      "scope": "Sweet work: cakes, tarts, sugar, chocolate and the plated dessert."
+    },
+    {
+      "id": "bread",
+      "name": "Bread",
+      "order": 4,
+      "scope": "The bakery: leavened and flat bread, sour dough and the oven."
+    },
+    {
+      "id": "preservation",
+      "name": "Preservation and fermentation",
+      "order": 5,
+      "scope": "Food kept by salt, smoke, acid, drying and microbes: charcuterie, cured fish, pickles and ferments."
+    },
+    {
+      "id": "street",
+      "name": "Street and fast food",
+      "order": 6,
+      "scope": "Food sold ready to eat at a stall, a cart, a counter or a drive-in."
+    },
+    {
+      "id": "belief",
+      "name": "Diet and belief kitchens",
+      "order": 7,
+      "scope": "Kitchens that a faith or a theory of health rules: what may be eaten, and how."
+    },
+    {
+      "id": "drink",
+      "name": "Drink and bar",
+      "order": 8,
+      "scope": "The cocktail bar, the coffee house and the tea ceremony."
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "wheat",
+      "name": "Wheat",
+      "family": "grain",
+      "origin": {
+        "year": -9500,
+        "circa": true,
+        "place": "Fertile Crescent"
+      },
+      "note": "Einkorn and emmer were sown in the Near East; bread wheat followed. Flour is the base of bread, pastry, roux and pasta."
+    },
+    {
+      "id": "rye",
+      "name": "Rye",
+      "family": "grain",
+      "origin": {
+        "year": -4000,
+        "circa": true,
+        "place": "Anatolia and Central Europe"
+      },
+      "note": "A hardy grain of the cold north; the dark sour bread of Scandinavia, Germany and Russia."
+    },
+    {
+      "id": "rice",
+      "name": "Rice",
+      "family": "grain",
+      "origin": {
+        "year": -7000,
+        "circa": true,
+        "place": "Yangtze valley, China"
+      },
+      "arrival": {
+        "year": 900,
+        "circa": true,
+        "place": "Al-Andalus"
+      },
+      "note": "Asian rice reached Spain with the Moors; paella and risotto came later. Short grain for sushi and risotto."
+    },
+    {
+      "id": "maize",
+      "name": "Maize",
+      "family": "grain",
+      "origin": {
+        "year": -7000,
+        "circa": true,
+        "place": "Balsas valley, Mexico"
+      },
+      "arrival": {
+        "year": 1493,
+        "circa": true,
+        "place": "Spain"
+      },
+      "note": "Domesticated from teosinte; nixtamalised with lime for masa. Columbus took it to Spain."
+    },
+    {
+      "id": "quinoa",
+      "name": "Quinoa",
+      "family": "grain",
+      "origin": {
+        "year": -3000,
+        "circa": true,
+        "place": "Andes, Peru and Bolivia"
+      },
+      "arrival": {
+        "year": 1980,
+        "circa": true,
+        "place": "Europe"
+      },
+      "note": "The seed of the Andean highlands; it reached European shops only in the late twentieth century."
+    },
+    {
+      "id": "potato",
+      "name": "Potato",
+      "family": "vegetable",
+      "origin": {
+        "year": -6000,
+        "circa": true,
+        "place": "Andes, southern Peru"
+      },
+      "arrival": {
+        "year": 1570,
+        "circa": true,
+        "place": "Spain"
+      },
+      "note": "Thousands of Andean kinds; Parmentier made it French food after 1772. Pommes purée, frites and chuño."
+    },
+    {
+      "id": "tomato",
+      "name": "Tomato",
+      "family": "vegetable",
+      "origin": {
+        "year": -500,
+        "circa": true,
+        "place": "Mesoamerica"
+      },
+      "arrival": {
+        "year": 1544,
+        "circa": false,
+        "place": "Italy",
+        "by": "Pietro Andrea Mattioli"
+      },
+      "note": "Mattioli recorded the pomi d'oro in 1544; the first Italian tomato sauce recipe is of 1692."
+    },
+    {
+      "id": "chilli",
+      "name": "Chilli pepper",
+      "family": "spice",
+      "origin": {
+        "year": -6000,
+        "circa": true,
+        "place": "Mexico"
+      },
+      "arrival": {
+        "year": 1493,
+        "circa": true,
+        "place": "Spain"
+      },
+      "note": "Capsicum went from the Americas round the world in fifty years: to Hungary, India, Sichuan and Korea."
+    },
+    {
+      "id": "onion",
+      "name": "Onion",
+      "family": "vegetable",
+      "origin": {
+        "year": -3500,
+        "circa": true,
+        "place": "Central Asia and Egypt"
+      },
+      "note": "The base of most savoury cooking, sweated, browned or raw."
+    },
+    {
+      "id": "garlic",
+      "name": "Garlic",
+      "family": "vegetable",
+      "origin": {
+        "year": -3000,
+        "circa": true,
+        "place": "Central Asia"
+      },
+      "note": "Used raw, confit or roasted; the mark of Provençal and southern cooking."
+    },
+    {
+      "id": "shallot",
+      "name": "Shallot",
+      "family": "vegetable",
+      "origin": {
+        "year": 1100,
+        "circa": true,
+        "place": "France"
+      },
+      "note": "A mild onion of the French sauce: beurre blanc, béarnaise and bordelaise start with it."
+    },
+    {
+      "id": "carrot",
+      "name": "Carrot",
+      "family": "vegetable",
+      "origin": {
+        "year": 900,
+        "circa": true,
+        "place": "Iran and Afghanistan"
+      },
+      "arrival": {
+        "year": 1100,
+        "circa": true,
+        "place": "Al-Andalus"
+      },
+      "note": "Purple and yellow at first; the orange carrot was bred in the Netherlands in the seventeenth century."
+    },
+    {
+      "id": "cabbage",
+      "name": "Cabbage",
+      "family": "vegetable",
+      "origin": {
+        "year": -600,
+        "circa": true,
+        "place": "Atlantic and Mediterranean Europe"
+      },
+      "note": "Kale, cabbage, cauliflower and broccoli are one species, bred in Europe."
+    },
+    {
+      "id": "asparagus",
+      "name": "Asparagus",
+      "family": "vegetable",
+      "origin": {
+        "year": -200,
+        "circa": true,
+        "place": "Roman Italy"
+      },
+      "note": "Cato described its culture; white asparagus is grown in the dark under earth."
+    },
+    {
+      "id": "artichoke",
+      "name": "Artichoke",
+      "family": "vegetable",
+      "origin": {
+        "year": 1450,
+        "circa": true,
+        "place": "Southern Italy"
+      },
+      "note": "Bred from the cardoon in Sicily and Naples; Catherine de' Medici took it to France."
+    },
+    {
+      "id": "leek",
+      "name": "Leek",
+      "family": "vegetable",
+      "origin": {
+        "year": -1500,
+        "circa": true,
+        "place": "Egypt"
+      },
+      "note": "A soft onion for soups and vichyssoise; the white is the part used."
+    },
+    {
+      "id": "root-vegetables",
+      "name": "Root vegetables",
+      "family": "vegetable",
+      "origin": {
+        "year": -500,
+        "circa": true,
+        "place": "Northern Europe"
+      },
+      "note": "Turnip, swede, celeriac, beetroot and parsnip: the winter store of the north."
+    },
+    {
+      "id": "seasonal-greens",
+      "name": "Young greens and shoots",
+      "family": "vegetable",
+      "origin": {
+        "year": -1000,
+        "circa": true,
+        "place": "Mediterranean and Europe"
+      },
+      "note": "Pea shoots, young leaves, wild garlic and small salad leaves picked young."
+    },
+    {
+      "id": "wild-plants",
+      "name": "Wild plants and flowers",
+      "family": "herb",
+      "origin": {
+        "year": -10000,
+        "circa": true,
+        "place": "Everywhere"
+      },
+      "note": "Foraged leaves, flowers, berries, moss and needles; the base of the foraging kitchen."
+    },
+    {
+      "id": "truffle",
+      "name": "Truffle",
+      "family": "fungus",
+      "origin": {
+        "year": -100,
+        "circa": true,
+        "place": "Roman Empire"
+      },
+      "note": "The black truffle of Périgord and the white truffle of Alba; shaved raw or cooked in sauce."
+    },
+    {
+      "id": "wild-mushrooms",
+      "name": "Wild mushrooms",
+      "family": "fungus",
+      "origin": {
+        "year": -500,
+        "circa": true,
+        "place": "Europe"
+      },
+      "note": "Ceps, morels, chanterelles; dried or fresh, foraged in the autumn and the spring."
+    },
+    {
+      "id": "kombu",
+      "name": "Kombu",
+      "family": "seaweed",
+      "origin": {
+        "year": 797,
+        "circa": true,
+        "place": "Japan"
+      },
+      "note": "Kelp dried in the sun; with katsuobushi it makes dashi, the base stock of Japan. Rich in glutamate."
+    },
+    {
+      "id": "lemon",
+      "name": "Lemon",
+      "family": "fruit",
+      "origin": {
+        "year": 100,
+        "circa": true,
+        "place": "South Asia"
+      },
+      "arrival": {
+        "year": 1000,
+        "circa": true,
+        "place": "Sicily and Al-Andalus"
+      },
+      "note": "The Arabs grew lemons in Sicily and Spain; the acid of fish dishes and sauces."
+    },
+    {
+      "id": "lime",
+      "name": "Lime",
+      "family": "fruit",
+      "origin": {
+        "year": -500,
+        "circa": true,
+        "place": "South-East Asia"
+      },
+      "arrival": {
+        "year": 1500,
+        "circa": true,
+        "place": "Peru and the Caribbean"
+      },
+      "note": "The Spanish took limes to the Americas, where they cure ceviche."
+    },
+    {
+      "id": "bitter-orange",
+      "name": "Bitter orange",
+      "family": "fruit",
+      "origin": {
+        "year": 100,
+        "circa": true,
+        "place": "South-East Asia"
+      },
+      "arrival": {
+        "year": 1100,
+        "circa": true,
+        "place": "Sicily and Seville"
+      },
+      "note": "The orange of duck à l'orange and marmalade; the sweet orange came later, after 1500."
+    },
+    {
+      "id": "grape",
+      "name": "Grape",
+      "family": "fruit",
+      "origin": {
+        "year": -6000,
+        "circa": true,
+        "place": "Caucasus"
+      },
+      "note": "Eaten fresh, dried, pressed for verjuice or made into wine."
+    },
+    {
+      "id": "verjuice",
+      "name": "Verjuice",
+      "family": "fruit",
+      "origin": {
+        "year": 1300,
+        "circa": true,
+        "place": "France and England"
+      },
+      "note": "The sour juice of unripe grapes; the acid of the medieval sauce before lemon and vinegar."
+    },
+    {
+      "id": "orchard-fruit",
+      "name": "Orchard fruit",
+      "family": "fruit",
+      "origin": {
+        "year": -1000,
+        "circa": true,
+        "place": "Central Asia and the Mediterranean"
+      },
+      "note": "Apple, pear, quince, plum and cherry from orchards."
+    },
+    {
+      "id": "peach",
+      "name": "Peach",
+      "family": "fruit",
+      "origin": {
+        "year": -6000,
+        "circa": true,
+        "place": "China"
+      },
+      "arrival": {
+        "year": -100,
+        "circa": true,
+        "place": "Roman Italy"
+      },
+      "note": "The Romans called it the Persian apple; pêche Melba of 1893 used it."
+    },
+    {
+      "id": "tropical-fruit",
+      "name": "Tropical fruit",
+      "family": "fruit",
+      "origin": {
+        "year": -1000,
+        "circa": true,
+        "place": "Tropics of Asia and America"
+      },
+      "arrival": {
+        "year": 1493,
+        "circa": true,
+        "place": "Spain"
+      },
+      "note": "Pineapple, mango, passion fruit and papaya; Europe grew pineapples in hothouses from the 1700s."
+    },
+    {
+      "id": "berries",
+      "name": "Berries",
+      "family": "fruit",
+      "origin": {
+        "year": -10000,
+        "circa": true,
+        "place": "Northern Europe"
+      },
+      "note": "Lingonberry, cloudberry, sea buckthorn, bilberry, raspberry and strawberry, wild or grown."
+    },
+    {
+      "id": "yuzu",
+      "name": "Yuzu",
+      "family": "fruit",
+      "origin": {
+        "year": 700,
+        "circa": true,
+        "place": "China and Japan"
+      },
+      "arrival": {
+        "year": 1990,
+        "circa": true,
+        "place": "France"
+      },
+      "note": "A sour aromatic citrus of Japan; French chefs took it up in the 1990s."
+    },
+    {
+      "id": "black-pepper",
+      "name": "Black pepper",
+      "family": "spice",
+      "origin": {
+        "year": -2000,
+        "circa": true,
+        "place": "Malabar coast, India"
+      },
+      "arrival": {
+        "year": -30,
+        "circa": true,
+        "place": "Roman Empire"
+      },
+      "note": "The most traded spice of the ancient world; Rome bought it by the tonne."
+    },
+    {
+      "id": "cinnamon",
+      "name": "Cinnamon",
+      "family": "spice",
+      "origin": {
+        "year": -2000,
+        "circa": true,
+        "place": "Sri Lanka"
+      },
+      "arrival": {
+        "year": 100,
+        "circa": true,
+        "place": "Roman Empire"
+      },
+      "note": "Bark of the cinnamon tree; the base of the medieval cameline sauce."
+    },
+    {
+      "id": "clove",
+      "name": "Clove",
+      "family": "spice",
+      "origin": {
+        "year": -1700,
+        "circa": true,
+        "place": "Maluku Islands"
+      },
+      "arrival": {
+        "year": 100,
+        "circa": true,
+        "place": "Roman Empire"
+      },
+      "note": "Dried flower buds from the Spice Islands; studs the onion of a classic stock."
+    },
+    {
+      "id": "ginger",
+      "name": "Ginger",
+      "family": "spice",
+      "origin": {
+        "year": -500,
+        "circa": true,
+        "place": "South Asia"
+      },
+      "arrival": {
+        "year": 100,
+        "circa": true,
+        "place": "Roman Empire"
+      },
+      "note": "A rhizome used dried in medieval Europe and fresh in Asia."
+    },
+    {
+      "id": "nutmeg",
+      "name": "Nutmeg and mace",
+      "family": "spice",
+      "origin": {
+        "year": -1500,
+        "circa": true,
+        "place": "Banda Islands"
+      },
+      "arrival": {
+        "year": 1100,
+        "circa": true,
+        "place": "Europe"
+      },
+      "note": "Seed and aril of one tree; in béchamel and the medieval spice mix."
+    },
+    {
+      "id": "grains-of-paradise",
+      "name": "Grains of paradise",
+      "family": "spice",
+      "origin": {
+        "year": 1200,
+        "circa": true,
+        "place": "West Africa"
+      },
+      "arrival": {
+        "year": 1214,
+        "circa": true,
+        "place": "Europe"
+      },
+      "note": "A peppery seed from the Guinea coast; a medieval spice that nearly left the kitchen."
+    },
+    {
+      "id": "saffron",
+      "name": "Saffron",
+      "family": "spice",
+      "origin": {
+        "year": -1600,
+        "circa": true,
+        "place": "Crete and Persia"
+      },
+      "note": "Stigmas of the crocus; it coloured medieval dishes gold. Used now in risotto and bouillabaisse."
+    },
+    {
+      "id": "vanilla",
+      "name": "Vanilla",
+      "family": "spice",
+      "origin": {
+        "year": 1400,
+        "circa": true,
+        "place": "Veracruz, Mexico"
+      },
+      "arrival": {
+        "year": 1520,
+        "circa": true,
+        "place": "Spain"
+      },
+      "note": "Totonac people cured the pod of an orchid; the hand pollination of 1841 by Edmond Albius made it a crop."
+    },
+    {
+      "id": "cocoa",
+      "name": "Cocoa",
+      "family": "spice",
+      "origin": {
+        "year": -1900,
+        "circa": true,
+        "place": "Mesoamerica"
+      },
+      "arrival": {
+        "year": 1528,
+        "circa": true,
+        "place": "Spain"
+      },
+      "note": "Ground cacao beans drunk with chilli; Europe added sugar."
+    },
+    {
+      "id": "fine-herbs",
+      "name": "Fines herbes",
+      "family": "herb",
+      "origin": {
+        "year": 1651,
+        "circa": true,
+        "place": "France"
+      },
+      "note": "Parsley, chervil, chives and tarragon, chopped fine; the herb mix of the French kitchen."
+    },
+    {
+      "id": "tarragon",
+      "name": "Tarragon",
+      "family": "herb",
+      "origin": {
+        "year": 1100,
+        "circa": true,
+        "place": "Central Asia"
+      },
+      "arrival": {
+        "year": 1500,
+        "circa": true,
+        "place": "France"
+      },
+      "note": "The herb of béarnaise sauce and of poulet à l'estragon."
+    },
+    {
+      "id": "thyme-bay",
+      "name": "Thyme and bay",
+      "family": "herb",
+      "origin": {
+        "year": -500,
+        "circa": true,
+        "place": "Mediterranean"
+      },
+      "note": "With parsley, the bouquet garni of stocks and braises."
+    },
+    {
+      "id": "coriander-leaf",
+      "name": "Coriander leaf",
+      "family": "herb",
+      "origin": {
+        "year": -1500,
+        "circa": true,
+        "place": "Near East"
+      },
+      "note": "The leaf herb of Asian and Latin American cooking; the seed is a separate spice."
+    },
+    {
+      "id": "cane-sugar",
+      "name": "Cane sugar",
+      "family": "sugar",
+      "origin": {
+        "year": 350,
+        "circa": true,
+        "place": "India"
+      },
+      "arrival": {
+        "year": 1100,
+        "circa": true,
+        "place": "Europe"
+      },
+      "note": "Crystal sugar reached Europe through the crusades; a costly spice until the plantations."
+    },
+    {
+      "id": "honey",
+      "name": "Honey",
+      "family": "sugar",
+      "origin": {
+        "year": -7000,
+        "circa": true,
+        "place": "Near East"
+      },
+      "note": "The sweetener of Europe before sugar."
+    },
+    {
+      "id": "butter",
+      "name": "Butter",
+      "family": "dairy",
+      "origin": {
+        "year": -2000,
+        "circa": true,
+        "place": "Near East and Northern Europe"
+      },
+      "note": "The fat of the northern French kitchen; it took the place of oil and lard in sauces after 1650."
+    },
+    {
+      "id": "cream",
+      "name": "Cream",
+      "family": "dairy",
+      "origin": {
+        "year": -1000,
+        "circa": true,
+        "place": "Europe"
+      },
+      "note": "Double cream and crème fraîche thicken and enrich the sauces of the classic kitchen."
+    },
+    {
+      "id": "cheese",
+      "name": "Cheese",
+      "family": "dairy",
+      "origin": {
+        "year": -5500,
+        "circa": true,
+        "place": "Kuyavia, Poland"
+      },
+      "note": "Strainers with milk fat from about 5500 BC; Parmigiano, Comté and Gruyère are hard cheeses for cooking."
+    },
+    {
+      "id": "egg",
+      "name": "Hen egg",
+      "family": "egg",
+      "origin": {
+        "year": -1500,
+        "circa": true,
+        "place": "Egypt and the Near East"
+      },
+      "note": "Binds, raises, thickens and emulsifies: the tool of mayonnaise, hollandaise, soufflé and custard."
+    },
+    {
+      "id": "beef",
+      "name": "Beef",
+      "family": "meat",
+      "origin": {
+        "year": -8500,
+        "circa": true,
+        "place": "Near East"
+      },
+      "note": "The fillet, the rib and the braising cuts; tournedos Rossini and boeuf bourguignon."
+    },
+    {
+      "id": "veal",
+      "name": "Veal",
+      "family": "meat",
+      "origin": {
+        "year": -3000,
+        "circa": true,
+        "place": "Europe"
+      },
+      "note": "The meat of the calf and the bones of the white and brown stock."
+    },
+    {
+      "id": "lamb",
+      "name": "Lamb",
+      "family": "meat",
+      "origin": {
+        "year": -9000,
+        "circa": true,
+        "place": "Near East"
+      },
+      "note": "Saddle, rack and leg; the roast of spring."
+    },
+    {
+      "id": "pork",
+      "name": "Pork",
+      "family": "meat",
+      "origin": {
+        "year": -9000,
+        "circa": true,
+        "place": "Anatolia and China"
+      },
+      "note": "Fresh, salted and cured; lard is its fat."
+    },
+    {
+      "id": "foie-gras",
+      "name": "Foie gras",
+      "family": "poultry",
+      "origin": {
+        "year": -2500,
+        "circa": true,
+        "place": "Egypt"
+      },
+      "note": "Fattened goose or duck liver; a mark of the French luxury kitchen since the eighteenth century."
+    },
+    {
+      "id": "duck",
+      "name": "Duck",
+      "family": "poultry",
+      "origin": {
+        "year": -2000,
+        "circa": true,
+        "place": "China"
+      },
+      "note": "Breast cooked pink and legs as confit; Peking duck in China."
+    },
+    {
+      "id": "chicken",
+      "name": "Chicken",
+      "family": "poultry",
+      "origin": {
+        "year": -6000,
+        "circa": true,
+        "place": "South-East Asia"
+      },
+      "note": "The capon and the Bresse chicken of the French kitchen."
+    },
+    {
+      "id": "game-birds",
+      "name": "Game birds",
+      "family": "game",
+      "origin": {
+        "year": -10000,
+        "circa": true,
+        "place": "Europe"
+      },
+      "note": "Pheasant, partridge, woodcock and pigeon; the medieval feast added swan, heron and peacock."
+    },
+    {
+      "id": "venison",
+      "name": "Venison",
+      "family": "game",
+      "origin": {
+        "year": -10000,
+        "circa": true,
+        "place": "Europe"
+      },
+      "note": "Red deer, roe deer and reindeer; hung, roasted and served with a sharp berry sauce."
+    },
+    {
+      "id": "sole",
+      "name": "Sole and flat fish",
+      "family": "fish",
+      "origin": {
+        "year": -500,
+        "circa": true,
+        "place": "Atlantic and Mediterranean"
+      },
+      "note": "Dover sole, turbot and brill: the fish of the classic kitchen, poached, grilled or meunière."
+    },
+    {
+      "id": "salmon",
+      "name": "Salmon",
+      "family": "fish",
+      "origin": {
+        "year": -10000,
+        "circa": true,
+        "place": "North Atlantic"
+      },
+      "note": "Wild in rivers, then farmed after 1970; cured, smoked or cooked pink."
+    },
+    {
+      "id": "cod",
+      "name": "Cod",
+      "family": "fish",
+      "origin": {
+        "year": 800,
+        "circa": true,
+        "place": "Norway"
+      },
+      "note": "Dried as stockfish and salted as klippfisk; traded from Lofoten through the Middle Ages."
+    },
+    {
+      "id": "tuna",
+      "name": "Tuna",
+      "family": "fish",
+      "origin": {
+        "year": -500,
+        "circa": true,
+        "place": "Mediterranean"
+      },
+      "note": "Raw as sushi in Japan after the 1840s; the fat belly is toro."
+    },
+    {
+      "id": "shellfish",
+      "name": "Shellfish",
+      "family": "shellfish",
+      "origin": {
+        "year": -10000,
+        "circa": true,
+        "place": "Coasts everywhere"
+      },
+      "note": "Lobster, langoustine, crab, scallop and prawn; the luxury of the coast."
+    },
+    {
+      "id": "oyster",
+      "name": "Oyster",
+      "family": "shellfish",
+      "origin": {
+        "year": -100,
+        "circa": true,
+        "place": "Roman Italy"
+      },
+      "note": "Sergius Orata farmed oysters at Baiae; eaten raw or poached."
+    },
+    {
+      "id": "caviar",
+      "name": "Caviar",
+      "family": "fish",
+      "origin": {
+        "year": 1200,
+        "circa": true,
+        "place": "Caspian Sea"
+      },
+      "note": "Salted sturgeon roe; a luxury of the Russian court and the French restaurant."
+    },
+    {
+      "id": "sea-urchin",
+      "name": "Sea urchin",
+      "family": "shellfish",
+      "origin": {
+        "year": -500,
+        "circa": true,
+        "place": "Mediterranean and Japan"
+      },
+      "note": "Raw gonads, sweet and briny; uni in Japan."
+    },
+    {
+      "id": "olive-oil",
+      "name": "Olive oil",
+      "family": "fat-oil",
+      "origin": {
+        "year": -4500,
+        "circa": true,
+        "place": "Levant"
+      },
+      "note": "The fat of the south: raw, for frying and for confit."
+    },
+    {
+      "id": "lard",
+      "name": "Lard",
+      "family": "fat-oil",
+      "origin": {
+        "year": -5000,
+        "circa": true,
+        "place": "Europe and China"
+      },
+      "note": "Rendered pork fat; the frying fat of medieval and peasant kitchens."
+    },
+    {
+      "id": "soy-sauce",
+      "name": "Soy sauce",
+      "family": "ferment",
+      "origin": {
+        "year": -200,
+        "circa": true,
+        "place": "China"
+      },
+      "arrival": {
+        "year": 1665,
+        "circa": true,
+        "place": "Netherlands"
+      },
+      "note": "Fermented soy beans and wheat. The Dutch East India Company shipped it from Nagasaki from 1647, and to Europe in the 1660s."
+    },
+    {
+      "id": "miso",
+      "name": "Miso",
+      "family": "ferment",
+      "origin": {
+        "year": 700,
+        "circa": true,
+        "place": "Japan"
+      },
+      "arrival": {
+        "year": 1990,
+        "circa": true,
+        "place": "Europe"
+      },
+      "note": "Soy paste fermented with koji; in soup, glazes and marinades."
+    },
+    {
+      "id": "vinegar",
+      "name": "Vinegar",
+      "family": "ferment",
+      "origin": {
+        "year": -3000,
+        "circa": true,
+        "place": "Babylon"
+      },
+      "note": "Wine or cider made sour by acetic bacteria; the sauce acid of the North."
+    },
+    {
+      "id": "dashi",
+      "name": "Dashi",
+      "family": "ferment",
+      "origin": {
+        "year": 1400,
+        "circa": true,
+        "place": "Japan"
+      },
+      "arrival": {
+        "year": 1985,
+        "circa": true,
+        "place": "France"
+      },
+      "note": "Stock of kombu and katsuobushi; its umami taught French chefs a lighter base."
+    },
+    {
+      "id": "wine",
+      "name": "Wine",
+      "family": "drink",
+      "origin": {
+        "year": -6000,
+        "circa": true,
+        "place": "Georgia"
+      },
+      "note": "For deglazing, braising and sauce reduction."
+    },
+    {
+      "id": "tofu",
+      "name": "Tofu",
+      "family": "legume",
+      "origin": {
+        "year": 965,
+        "circa": true,
+        "place": "China"
+      },
+      "arrival": {
+        "year": 1960,
+        "circa": true,
+        "place": "Europe"
+      },
+      "note": "Curd of soy milk pressed into blocks; the protein of the Buddhist kitchen."
+    },
+    {
+      "id": "pulses",
+      "name": "Pulses",
+      "family": "legume",
+      "origin": {
+        "year": -9000,
+        "circa": true,
+        "place": "Near East"
+      },
+      "note": "Lentil, chickpea, bean and pea: the protein of the plant kitchen."
+    },
+    {
+      "id": "nuts-seeds",
+      "name": "Nuts and seeds",
+      "family": "nut-seed",
+      "origin": {
+        "year": -10000,
+        "circa": true,
+        "place": "Everywhere"
+      },
+      "note": "Almond, hazelnut, walnut, sesame and pumpkin seed; the almond milk of medieval Lent."
+    },
+    {
+      "id": "bread",
+      "name": "Bread",
+      "family": "grain",
+      "origin": {
+        "year": -12000,
+        "circa": true,
+        "place": "Jordan"
+      },
+      "note": "Flat bread from about 14,000 years ago; the medieval kitchen thickened sauces with it and served food on trenchers."
+    },
+    {
+      "id": "sodium-alginate",
+      "name": "Sodium alginate",
+      "family": "additive",
+      "origin": {
+        "year": 1881,
+        "circa": false,
+        "place": "Scotland",
+        "by": "E. C. C. Stanford"
+      },
+      "note": "A salt from brown seaweed that sets in contact with calcium: the gel skin of spherification."
+    },
+    {
+      "id": "agar",
+      "name": "Agar",
+      "family": "additive",
+      "origin": {
+        "year": 1658,
+        "circa": false,
+        "place": "Japan",
+        "by": "Minoya Tarōzaemon"
+      },
+      "note": "A seaweed gel that sets firm and stays firm when warm; it allows a hot jelly."
+    },
+    {
+      "id": "xanthan-gum",
+      "name": "Xanthan gum",
+      "family": "additive",
+      "origin": {
+        "year": 1959,
+        "circa": false,
+        "place": "United States",
+        "by": "Allene Jeanes, USDA"
+      },
+      "note": "A gum made by bacteria; a little thickens a sauce or holds a foam without heat."
+    },
+    {
+      "id": "liquid-nitrogen",
+      "name": "Liquid nitrogen",
+      "family": "additive",
+      "origin": {
+        "year": 1883,
+        "circa": false,
+        "place": "Kraków",
+        "by": "Zygmunt Wróblewski and Karol Olszewski"
+      },
+      "note": "Nitrogen at minus 196 °C; it freezes ice cream in seconds and makes powders of fat."
+    },
+    {
+      "id": "soy-lecithin",
+      "name": "Lecithin",
+      "family": "additive",
+      "origin": {
+        "year": 1846,
+        "circa": false,
+        "place": "France",
+        "by": "Théodore Gobley"
+      },
+      "note": "An emulsifier from egg yolk or soy; it holds the light airs of the modernist kitchen."
+    }
+  ],
+  "methods": [
+    {
+      "id": "spit-roasting",
+      "name": "Spit roasting",
+      "family": "dry-heat",
+      "origin": {
+        "year": -1500,
+        "circa": true,
+        "place": "Near East"
+      },
+      "note": "Meat turned on a spit before an open fire; the roast of the medieval hall and the rôtisseur."
+    },
+    {
+      "id": "grilling",
+      "name": "Grilling",
+      "family": "dry-heat",
+      "origin": {
+        "year": -10000,
+        "circa": true,
+        "place": "Everywhere"
+      },
+      "note": "Food cooked over glowing coals or a hot iron, with char lines."
+    },
+    {
+      "id": "wood-fire",
+      "name": "Wood-fire cooking",
+      "family": "dry-heat",
+      "origin": {
+        "year": -10000,
+        "circa": true,
+        "place": "Everywhere"
+      },
+      "note": "Cooking in embers, ash and smoke; the open fire of the terroir kitchen."
+    },
+    {
+      "id": "oven-roasting",
+      "name": "Oven roasting",
+      "family": "dry-heat",
+      "origin": {
+        "year": 1800,
+        "circa": true,
+        "place": "France"
+      },
+      "note": "Roasting in a closed iron range; the range of the 1800s replaced the open hearth."
+    },
+    {
+      "id": "braising",
+      "name": "Braising",
+      "family": "wet-heat",
+      "origin": {
+        "year": 1600,
+        "circa": true,
+        "place": "France"
+      },
+      "note": "Meat browned and cooked slowly in a little liquid under a lid."
+    },
+    {
+      "id": "poaching",
+      "name": "Poaching",
+      "family": "wet-heat",
+      "origin": {
+        "year": -500,
+        "circa": true,
+        "place": "Everywhere"
+      },
+      "note": "Cooking in liquid just under the boil: fish in court-bouillon, eggs, fruit."
+    },
+    {
+      "id": "steaming",
+      "name": "Steaming",
+      "family": "wet-heat",
+      "origin": {
+        "year": -5000,
+        "circa": true,
+        "place": "China"
+      },
+      "note": "Cooking in steam over boiling water; the light method of China and of cuisine minceur."
+    },
+    {
+      "id": "boiling",
+      "name": "Boiling",
+      "family": "wet-heat",
+      "origin": {
+        "year": -20000,
+        "circa": true,
+        "place": "China"
+      },
+      "note": "Cooking in boiling liquid; pottery of about 20,000 years ago shows it."
+    },
+    {
+      "id": "sauteing",
+      "name": "Sautéing",
+      "family": "fat-heat",
+      "origin": {
+        "year": 1700,
+        "circa": true,
+        "place": "France"
+      },
+      "note": "Quick cooking in a little fat in a wide pan, with the pan moved by the cook."
+    },
+    {
+      "id": "deep-frying",
+      "name": "Deep frying",
+      "family": "fat-heat",
+      "origin": {
+        "year": -500,
+        "circa": true,
+        "place": "Mediterranean"
+      },
+      "note": "Food dropped into hot fat; tempura reached Japan from the Portuguese in the 1500s."
+    },
+    {
+      "id": "confit",
+      "name": "Confit",
+      "family": "preserve",
+      "origin": {
+        "year": 1600,
+        "circa": true,
+        "place": "South-west France"
+      },
+      "note": "Meat cooked slowly in its own fat and kept under it."
+    },
+    {
+      "id": "stock-making",
+      "name": "Stock (fond)",
+      "family": "wet-heat",
+      "origin": {
+        "year": 1651,
+        "circa": false,
+        "place": "France",
+        "by": "François Pierre de La Varenne"
+      },
+      "note": "Bones, vegetables and herbs simmered for hours; the fonds of the French kitchen."
+    },
+    {
+      "id": "roux",
+      "name": "Roux",
+      "family": "emulsion",
+      "origin": {
+        "year": 1651,
+        "circa": false,
+        "place": "France",
+        "by": "François Pierre de La Varenne"
+      },
+      "note": "Flour cooked in fat; it thickens sauces and replaced bread as the thickener."
+    },
+    {
+      "id": "mother-sauces",
+      "name": "Mother sauces",
+      "family": "emulsion",
+      "origin": {
+        "year": 1833,
+        "circa": false,
+        "place": "France",
+        "by": "Marie-Antoine Carême"
+      },
+      "note": "A system of base sauces from which each other sauce comes; Escoffier fixed the five in 1903."
+    },
+    {
+      "id": "emulsion-sauce",
+      "name": "Emulsion sauce",
+      "family": "emulsion",
+      "origin": {
+        "year": 1651,
+        "circa": true,
+        "place": "France"
+      },
+      "note": "Butter or oil held in egg yolk or a reduction: hollandaise, béarnaise, mayonnaise, beurre blanc."
+    },
+    {
+      "id": "reduction",
+      "name": "Reduction",
+      "family": "wet-heat",
+      "origin": {
+        "year": 1700,
+        "circa": true,
+        "place": "France"
+      },
+      "note": "A liquid boiled down to concentrate its taste and to thicken it, without flour."
+    },
+    {
+      "id": "bread-thickening",
+      "name": "Bread thickening",
+      "family": "emulsion",
+      "origin": {
+        "year": 1300,
+        "circa": true,
+        "place": "France and Italy"
+      },
+      "note": "Sauces of the medieval court thickened with soaked bread, ground almonds or liver."
+    },
+    {
+      "id": "larding",
+      "name": "Larding",
+      "family": "cut",
+      "origin": {
+        "year": 1400,
+        "circa": true,
+        "place": "France"
+      },
+      "note": "Strips of fat threaded through lean meat with a needle before it is roasted."
+    },
+    {
+      "id": "aspic",
+      "name": "Aspic and chaud-froid",
+      "family": "cold",
+      "origin": {
+        "year": 1375,
+        "circa": true,
+        "place": "France"
+      },
+      "note": "Meat or fish set in a clear jelly of stock; the cold buffet of the grand kitchen."
+    },
+    {
+      "id": "pate-en-croute",
+      "name": "Pâté en croûte",
+      "family": "pastry",
+      "origin": {
+        "year": 1400,
+        "circa": true,
+        "place": "France and England"
+      },
+      "note": "Meat baked in a pastry case; the pie of the medieval and classic feast."
+    },
+    {
+      "id": "knife-work",
+      "name": "Knife work",
+      "family": "cut",
+      "origin": {
+        "year": 1651,
+        "circa": true,
+        "place": "France"
+      },
+      "note": "Exact cuts: julienne, brunoise, tournée and chiffonade; in Japan the work of the itamae."
+    },
+    {
+      "id": "plated-service",
+      "name": "Plating in the kitchen",
+      "family": "plating",
+      "origin": {
+        "year": 1965,
+        "circa": true,
+        "place": "France"
+      },
+      "note": "The chef arranges each plate in the kitchen and the waiter only carries it; nouvelle cuisine made this the norm."
+    },
+    {
+      "id": "sous-vide",
+      "name": "Sous vide",
+      "family": "transform",
+      "origin": {
+        "year": 1974,
+        "circa": false,
+        "place": "Roanne, France",
+        "by": "Georges Pralus"
+      },
+      "note": "Food sealed in plastic and cooked in water at an exact low temperature; first for foie gras."
+    },
+    {
+      "id": "spherification",
+      "name": "Spherification",
+      "family": "transform",
+      "origin": {
+        "year": 2003,
+        "circa": false,
+        "place": "Roses, Spain",
+        "by": "Ferran Adrià and the elBulli team"
+      },
+      "note": "A liquid set in a skin of alginate gel in a calcium bath; it bursts in the mouth."
+    },
+    {
+      "id": "siphon-foam",
+      "name": "Siphon foam",
+      "family": "transform",
+      "origin": {
+        "year": 1994,
+        "circa": false,
+        "place": "Roses, Spain",
+        "by": "Ferran Adrià"
+      },
+      "note": "A purée or a liquid aerated with nitrous oxide in a cream siphon: the espuma."
+    },
+    {
+      "id": "cryo-freezing",
+      "name": "Liquid nitrogen freezing",
+      "family": "transform",
+      "origin": {
+        "year": 1901,
+        "circa": false,
+        "place": "London",
+        "by": "Agnes Marshall"
+      },
+      "note": "Instant freezing at minus 196 °C. In 1901 Marshall proposed liquid air for ice cream at the table; modernist chefs used liquid nitrogen after 1990."
+    },
+    {
+      "id": "dehydrating",
+      "name": "Dehydrating",
+      "family": "preserve",
+      "origin": {
+        "year": -12000,
+        "circa": true,
+        "place": "Near East"
+      },
+      "note": "Water taken out with dry air or low heat; leathers, crisps and powders."
+    },
+    {
+      "id": "smoking",
+      "name": "Smoking",
+      "family": "preserve",
+      "origin": {
+        "year": -10000,
+        "circa": true,
+        "place": "Everywhere"
+      },
+      "note": "Food exposed to the smoke of wood or hay; cold smoke cures, hot smoke cooks."
+    },
+    {
+      "id": "salt-curing",
+      "name": "Salt curing",
+      "family": "preserve",
+      "origin": {
+        "year": -3000,
+        "circa": true,
+        "place": "Egypt and China"
+      },
+      "note": "Salt draws water out of fish and meat: gravlaks, ham, salt cod."
+    },
+    {
+      "id": "pickling",
+      "name": "Pickling",
+      "family": "preserve",
+      "origin": {
+        "year": -2400,
+        "circa": true,
+        "place": "Mesopotamia"
+      },
+      "note": "Food kept in vinegar or brine."
+    },
+    {
+      "id": "lacto-fermentation",
+      "name": "Lacto-fermentation",
+      "family": "ferment",
+      "origin": {
+        "year": -200,
+        "circa": true,
+        "place": "China"
+      },
+      "note": "Lactic bacteria sour vegetables in salt: sauerkraut, kimchi, fermented juices."
+    },
+    {
+      "id": "koji-fermentation",
+      "name": "Koji fermentation",
+      "family": "ferment",
+      "origin": {
+        "year": -300,
+        "circa": true,
+        "place": "China"
+      },
+      "arrival": {
+        "year": 2010,
+        "circa": true,
+        "place": "Europe"
+      },
+      "note": "The mould Aspergillus oryzae grown on rice or barley makes miso, soy sauce and sake; the Nordic kitchen took it up after 2010."
+    },
+    {
+      "id": "acid-curing",
+      "name": "Acid curing",
+      "family": "cold",
+      "origin": {
+        "year": 1820,
+        "circa": true,
+        "place": "Lima, Peru"
+      },
+      "note": "Raw fish turned firm and opaque by lime juice in minutes: the cure of ceviche."
+    },
+    {
+      "id": "raw-slicing",
+      "name": "Raw slicing",
+      "family": "cut",
+      "origin": {
+        "year": 1399,
+        "circa": false,
+        "place": "Japan"
+      },
+      "note": "Raw fish and meat cut to show their grain: sashimi, carpaccio, crudo. The word sashimi is first written in a diary of 1399."
+    },
+    {
+      "id": "wok-cooking",
+      "name": "Wok cooking",
+      "family": "fat-heat",
+      "origin": {
+        "year": 600,
+        "circa": true,
+        "place": "China"
+      },
+      "note": "Stir-frying in a thin iron pan over high flame, for wok hei, the breath of the wok."
+    }
+  ],
+  "courses": [
+    {
+      "id": "amuse-bouche",
+      "name": "Amuse-bouche",
+      "branches": [
+        "haute"
+      ]
+    },
+    {
+      "id": "hors-doeuvre",
+      "name": "Hors d'oeuvre and starter",
+      "branches": [
+        "haute",
+        "home",
+        "street"
+      ]
+    },
+    {
+      "id": "soup",
+      "name": "Soup",
+      "branches": [
+        "haute",
+        "home",
+        "street",
+        "belief"
+      ]
+    },
+    {
+      "id": "fish-course",
+      "name": "Fish course",
+      "branches": [
+        "haute",
+        "home"
+      ]
+    },
+    {
+      "id": "entree",
+      "name": "Entrée",
+      "branches": [
+        "haute",
+        "home"
+      ]
+    },
+    {
+      "id": "roast",
+      "name": "Roast",
+      "branches": [
+        "haute",
+        "home"
+      ]
+    },
+    {
+      "id": "main-course",
+      "name": "Main course",
+      "branches": [
+        "haute",
+        "home",
+        "belief"
+      ]
+    },
+    {
+      "id": "cold-buffet",
+      "name": "Cold dish and buffet piece",
+      "branches": [
+        "haute",
+        "preservation"
+      ]
+    },
+    {
+      "id": "vegetable-course",
+      "name": "Vegetable course",
+      "branches": [
+        "haute",
+        "home",
+        "belief"
+      ]
+    },
+    {
+      "id": "cheese-course",
+      "name": "Cheese course",
+      "branches": [
+        "haute",
+        "home",
+        "preservation"
+      ]
+    },
+    {
+      "id": "dessert",
+      "name": "Dessert",
+      "branches": [
+        "haute",
+        "home",
+        "pastry",
+        "belief"
+      ]
+    },
+    {
+      "id": "petits-fours",
+      "name": "Petits fours and mignardises",
+      "branches": [
+        "haute",
+        "pastry"
+      ]
+    },
+    {
+      "id": "tasting-course",
+      "name": "Tasting course (one bite)",
+      "branches": [
+        "haute"
+      ]
+    },
+    {
+      "id": "banquet-centrepiece",
+      "name": "Banquet centrepiece",
+      "branches": [
+        "haute",
+        "pastry"
+      ]
+    },
+    {
+      "id": "bowl",
+      "name": "Bowl meal",
+      "branches": [
+        "home",
+        "street",
+        "belief"
+      ]
+    }
+  ]
+}

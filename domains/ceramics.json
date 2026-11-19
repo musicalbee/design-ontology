@@ -1,0 +1,162 @@
+{
+  "id": "ceramics",
+  "order": 14,
+  "name": "Ceramics",
+  "schema": "schema/domains/ceramics.schema.json",
+  "task": "specifying, sourcing or prompting fired clay: tableware, teaware, kitchen and storage ware, vases and display vessels, figures, tiles, architectural ceramics and sanitary and technical ware",
+  "description": "Ceramics styles in eight branches: tableware, teaware, kitchen and storage ware, vessels, figures, tiles, architectural ceramics, and sanitary and technical ware. Each style is the rule set of one branch in one period: form, clay body, forming, glaze and decoration, palette and firing, with three to six signature pieces. A closed vocabulary names each clay body, glaze and decoration with the year and the place where it began, so that the styles also give a history of clay and glaze.",
+  "vectors": [
+    {
+      "key": "ornamentation",
+      "label": "Ornamentation",
+      "abbr": "ORN",
+      "low": "a plain surface",
+      "high": "painted, printed, moulded or gilt ornament on every part"
+    },
+    {
+      "key": "hand_mark",
+      "label": "Hand mark",
+      "abbr": "HAND",
+      "low": "machine-exact and identical pieces",
+      "high": "each piece shows the hand: throwing rings, finger marks, irregular rims"
+    },
+    {
+      "key": "refinement",
+      "label": "Refinement",
+      "abbr": "REF",
+      "low": "coarse, porous, heavy body",
+      "high": "thin, white, dense or translucent body"
+    },
+    {
+      "key": "glaze_depth",
+      "label": "Glaze depth",
+      "abbr": "GLAZE",
+      "low": "a flat, even glaze or bare clay",
+      "high": "deep, variegated glaze effects: pooling, crackle, ash runs, flambé"
+    },
+    {
+      "key": "chromatic_intensity",
+      "label": "Chromatic intensity",
+      "abbr": "CHROMA",
+      "low": "white, earth or one tone",
+      "high": "saturated colour and bold pattern"
+    }
+  ],
+  "facets": [
+    {
+      "key": "form",
+      "title": "Form & profile"
+    },
+    {
+      "key": "bodies",
+      "title": "Clay bodies"
+    },
+    {
+      "key": "forming",
+      "title": "Forming"
+    },
+    {
+      "key": "glaze",
+      "title": "Glaze & decoration"
+    },
+    {
+      "key": "palette",
+      "title": "Palette"
+    },
+    {
+      "key": "firing",
+      "title": "Firing"
+    },
+    {
+      "key": "signatures",
+      "title": "Signature pieces"
+    },
+    {
+      "key": "prompt_primer",
+      "title": "Prompt primer"
+    }
+  ],
+  "assets": [
+    {
+      "type": "tile-board",
+      "purpose": "A board of glaze test tiles of the style: each tile shows a clay body under a glaze in the palette of the style, with the name and the year of origin of the body, the glaze and the decoration.",
+      "made_by": "code",
+      "file": "demo/previews/ceramics/{id}.svg",
+      "manifest": "demo/previews/ceramics/manifest.json",
+      "entry": "images.{id}",
+      "generator": "scripts/render-ceramics-tiles.ts",
+      "canvas": [
+        {
+          "width": 1152,
+          "height": 768
+        }
+      ]
+    }
+  ],
+  "knobs": [
+    {
+      "key": "ornament_level",
+      "label": "Ornament level",
+      "kind": "number",
+      "min": 0,
+      "max": 1,
+      "description": "The share of the visible surface that carries decoration (painting, print, relief, gilding): 0 = none, 1 = every part.",
+      "drives": [
+        "glaze",
+        "signatures"
+      ]
+    },
+    {
+      "key": "glaze_gloss",
+      "label": "Glaze gloss",
+      "kind": "integer",
+      "unit": "GU",
+      "min": 0,
+      "max": 100,
+      "description": "The gloss of the main surface in gloss units at 60 degrees: 0 to 10 = bare clay or a dry matte glaze, 10 to 60 = satin, 60 and more = a glassy glaze.",
+      "drives": [
+        "glaze",
+        "palette"
+      ]
+    },
+    {
+      "key": "wall_thickness",
+      "label": "Wall thickness",
+      "kind": "length",
+      "unit": "mm",
+      "min": 0.5,
+      "max": 40,
+      "description": "The wall of the main piece in millimetres: 1 to 3 = eggshell and bone china, 4 to 8 = tableware and thrown pots, 10 and more = tiles, cladding and sanitary ware.",
+      "drives": [
+        "form",
+        "forming"
+      ]
+    },
+    {
+      "key": "hand_mark",
+      "label": "Hand mark",
+      "kind": "number",
+      "min": 0,
+      "max": 1,
+      "description": "How much each piece shows the hand: 0 = machine-exact and identical, 1 = throwing rings, finger marks and irregular rims on each piece.",
+      "drives": [
+        "forming",
+        "form",
+        "signatures"
+      ]
+    },
+    {
+      "key": "era_blend",
+      "label": "Era blend",
+      "kind": "number",
+      "min": 0,
+      "max": 1,
+      "description": "How far a piece moves from a period original: 0 = a period piece or a faithful reproduction, 1 = a contemporary piece that only quotes the period.",
+      "drives": [
+        "form",
+        "firing",
+        "signatures"
+      ]
+    }
+  ]
+}

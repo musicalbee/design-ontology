@@ -309,14 +309,14 @@ Thin boards or veneers glued in layers, so that wood forms long spans, bent shap
 - Bend veneers of 1 to 3mm in a mould for furniture; glue 5 to 9 layers.
 - Leave the layered edge in view as a line pattern.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Artek** (workshop, Helsinki, 1935–now), made the style. A furniture company that Alvar Aalto and three partners started to sell his bent birch furniture.
-- **IKEA** (workshop, Älmhult, 1943–now), made the style. A Swedish furniture company. It sold light, plain, flat-packed furniture to homes around the world.
+- **Artek** (company, Helsinki, 1935–now), made the style. A furniture company that Alvar Aalto and three partners started to sell his bent birch furniture.
+- **IKEA** (company, Älmhult, 1943–now), made the style. A Swedish furniture company. It sold light, plain, flat-packed furniture to homes around the world.
 - **Kinfolk** (magazine, Portland, Oregon, 2011–now), published the style. A slow-living magazine with calm, natural-light photos. Its rooms mix Nordic and Japanese restraint.
-- **Svenskt Tenn** (workshop, Stockholm, 1924–now), sold the style. A Stockholm interior design shop that Estrid Ericson founded. It sold pewter, furniture and prints in a light Swedish style.
+- **Svenskt Tenn** (company, Stockholm, 1924–now), sold the style. A Stockholm interior design shop that Estrid Ericson founded. It sold pewter, furniture and prints in a light Swedish style.
 
 ## Permutations
 
@@ -342,7 +342,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`coastal-interior`](../coastal-interior/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md)
 - **Was rejected by:** [`dopamine-decor`](../dopamine-decor/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md)
 - **Mixes well with:** [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md)
-- **Kin in another domain:** [`humanist-sans`](../humanist-sans/SKILL.md), [`mass-timber-architecture`](../mass-timber-architecture/SKILL.md), [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md), [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`organic-architecture`](../organic-architecture/SKILL.md), [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
+- **Kin in another domain:** [`humanist-sans`](../humanist-sans/SKILL.md), [`mass-timber-architecture`](../mass-timber-architecture/SKILL.md), [`new-nordic`](../new-nordic/SKILL.md), [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md), [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`organic-architecture`](../organic-architecture/SKILL.md), [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`scandinavian-modern-tableware`](../scandinavian-modern-tableware/SKILL.md), [`scandinavian-tiled-stove`](../scandinavian-tiled-stove/SKILL.md)
 - **Nearest by vector profile:** [`coastal-interior`](../coastal-interior/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md), [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md)
 
 ## Emotional target

@@ -176,12 +176,16 @@ Thin paint is poured on raw, unprimed canvas that lies on the floor; the cloth d
 - Leave 30% to 60% of the cloth bare so that the raw colour is part of the picture.
 - Work at a size of 2 metres or more so that the field is wider than the viewer's sight.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Art of This Century** (gallery, New York, 1942–1947), exhibited the style. The gallery of Peggy Guggenheim. It gave Jackson Pollock his first solo show.
 - **Betty Parsons Gallery** (gallery, New York, 1946–1981), exhibited the style. The gallery of the dealer Betty Parsons. It showed Pollock, Rothko and Newman when few dealers took them.
+- **Charles Egan Gallery** (gallery, New York, ?–1972), funded the style. A New York gallery on East 57th Street. It held the 1948 show of de Kooning's black and white paintings.
+- **Congress for Cultural Freedom** (state programme, West Berlin, 1950–1979), funded the style. Anti-communist cultural network founded in West Berlin in 1950. The CIA funded it until 1966.
+- **WPA Federal Art Project** (state programme, United States, 1935–1943), funded the style. US relief programme from 1935 to 1943. It paid up to 10,000 artists weekly wages, among them Jackson Pollock.
+- **Sidney Janis Gallery** (gallery, New York, 1948–now), funded the style. A New York gallery. It gave Pollock the first of three solo shows in 1952 and held the New Realists show of 1962.
 
 ## Permutations
 
@@ -205,7 +209,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`colour-field-painting`](../colour-field-painting/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`de-stijl-painting`](../de-stijl-painting/SKILL.md)
 - **Was rejected by:** [`minimalism-painting`](../minimalism-painting/SKILL.md), [`photorealism`](../photorealism/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md)
-- **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md)
+- **Kin in another domain:** [`abstract-expressionist-ceramics`](../abstract-expressionist-ceramics/SKILL.md), [`brutalist-architecture`](../brutalist-architecture/SKILL.md)
 - **Nearest by vector profile:** [`cubism-painting`](../cubism-painting/SKILL.md), [`fauvism`](../fauvism/SKILL.md), [`post-impressionism`](../post-impressionism/SKILL.md)
 
 ## Emotional target

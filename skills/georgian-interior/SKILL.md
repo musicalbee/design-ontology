@@ -329,11 +329,11 @@ Parallel grooves (flutes) or ridges (reeds) on a column, a panel, a leg or a she
 - Run the flutes vertical to make a surface look taller.
 - Use one fluted surface in each room as an accent.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Gillows of Lancaster and London** (workshop, Lancaster and London, ?–now), made the style. An English furniture maker that started in about 1730. Its mahogany furniture filled Georgian houses.
+- **Gillows of Lancaster and London** (company, Lancaster and London, ?–now), made the style. An English furniture maker that started in about 1730. Its mahogany furniture filled Georgian houses.
 
 ## Permutations
 
@@ -355,7 +355,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **for a young family today**: move toward [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md) (Grandmillennial). Keep the mouldings and the pairs, add chintz, skirted tables and a cheerful colour; let objects collect.
 
 - **Led to (go here for a newer version):** [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md), [`victorian-interior`](../victorian-interior/SKILL.md)
-- **Kin in another domain:** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`renaissance-painting`](../renaissance-painting/SKILL.md), [`transitional-serif`](../transitional-serif/SKILL.md)
+- **Kin in another domain:** [`creamware-neoclassical`](../creamware-neoclassical/SKILL.md), [`georgian-jewellery`](../georgian-jewellery/SKILL.md), [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`georgian-porcelain-tea-service`](../georgian-porcelain-tea-service/SKILL.md), [`regency-gilded-bone-china`](../regency-gilded-bone-china/SKILL.md), [`renaissance-painting`](../renaissance-painting/SKILL.md), [`rococo-court-dress`](../rococo-court-dress/SKILL.md), [`transitional-serif`](../transitional-serif/SKILL.md)
 - **Nearest by vector profile:** [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md), [`art-deco-interior`](../art-deco-interior/SKILL.md), [`shaker-interior`](../shaker-interior/SKILL.md)
 
 ## Emotional target

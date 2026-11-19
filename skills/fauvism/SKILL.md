@@ -172,17 +172,18 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Woodcut (process)
 
-A print from a block of wood with the white parts cut away; the result is flat colour, hard edges and visible grain. Origin: graphic & ui design, Dunhuang, 868.
+A print from a block of wood with the white parts cut away; the result is flat colour, hard edges and visible grain. Origin: internet, Dunhuang, 868.
 
 - Cut the block along the grain with a knife and a gouge; leave a line of 1mm to 3mm for the black.
 - Use one block for each colour and register them within 1 mm.
 - Print with a flat, opaque ink and leave the grain and the knife marks visible.
 - Keep the shapes flat, with no more than 3 to 6 tones in a print.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Galerie B. Weill** (gallery, Paris, 1901–now), funded the style. The gallery of Berthe Weill, opened on 1 December 1901 as a place for the young. It showed the Fauves in 1908 and 1909.
 - **Salon d'Automne** (salon, Paris, 1903–now), launched the style. An autumn art show in Paris. A critic called the painters of one room in 1905 wild beasts, and Fauvism got its name.
 
 ## Permutations
