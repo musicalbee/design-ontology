@@ -91,8 +91,9 @@ async function once(prompt: string, out: string, size: { width: number; height: 
 // Render one prompt to a WebP file. Returns the record for a manifest.
 // The base seed is fixed (SEED, or SEED + n for the frames of a set), so a render can be made again. When the
 // vision check finds a glitch, the next try uses the base seed + 1000 × try. "base_seed" keeps the base, so
-// the renderer can see that a record is up to date.
-export async function renderWebp(prompt: string, out: string, size: { width: number; height: number }, prefix: string, seed = SEED) {
+// the renderer can see that a record is up to date. With "expect", the check also fails a render whose
+// subject or colour is not the expected one.
+export async function renderWebp(prompt: string, out: string, size: { width: number; height: number }, prefix: string, seed = SEED, expect?: string) {
   const text = guard(prompt);
   // When no try passes, the try with the fewest defects stays, and its record says ok: false.
   let best: { tmp: string; seed: number; qa?: any } | undefined;
@@ -100,7 +101,7 @@ export async function renderWebp(prompt: string, out: string, size: { width: num
     const s = seed + 1000 * k;
     const tmp = await once(text, out.replace(/\.webp$/, `.try${k}.webp`), size, `${prefix}-${k}`, s);
     if (!QA) { best = { tmp, seed: s }; break; }
-    const v = await inspect(tmp, prompt);
+    const v = await inspect(tmp, prompt, expect);
     const qa = { checker: v.checker, tries: k + 1, ok: v.ok, defects: v.defects };
     if (!best || v.ok || v.defects.length < best.qa.defects.length) { if (best) execFileSync("rm", ["-f", best.tmp]); best = { tmp, seed: s, qa }; }
     else execFileSync("rm", ["-f", tmp]);

@@ -57,7 +57,7 @@
           "description": "Lower-case free-text names. The build matches them to the material text of architecture, interior and painting styles."
         },
         "parts": { "type": "array", "uniqueItems": true, "items": { "$ref": "core.schema.json#/$defs/shortText" }, "description": "The named parts of the real object (peel, flesh, stalk)." },
-        "colour": { "type": "array", "minItems": 1, "maxItems": 4, "items": { "type": "string", "pattern": "^#[0-9A-F]{6}$" }, "description": "The natural colour of the material." },
+        "colour": { "type": "array", "minItems": 1, "maxItems": 4, "items": { "type": "string", "pattern": "^#[0-9A-F]{6}$" }, "description": "The natural colour of the material, taken from its studio photo. Leave it out when the material has no one natural colour (a dyed cloth, a glaze, a stained glass, a paint) or no colour at all (clear glass, diamond)." },
         "properties": {
           "type": "object",
           "additionalProperties": false,

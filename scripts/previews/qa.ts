@@ -11,9 +11,9 @@ import { resolve } from "node:path";
 const MODEL = process.env.QA_MODEL ?? "sonnet";
 const CLI = process.env.CLAUDE_BIN ?? "claude";
 
-const ASK = (file: string, prompt: string) => `Read the image file ${file}. It is a generated image for this prompt:
+const ASK = (file: string, prompt: string, expect?: string) => `Read the image file ${file}. It is a generated image for this prompt:
 "${prompt.slice(0, 600)}"
-
+${expect ? `\nThe main subject must be this, with this colour: "${expect.slice(0, 400)}"\n` : ""}
 Be a strict checker. First list each person, each visible hand and each main object, one line each.
 For each hand, count the fingers you can see and say if they are clearly separate.
 Then fail the image (ok false) if any of these is true:
@@ -24,14 +24,14 @@ Then fail the image (ok false) if any of these is true:
 - an object at an impossible size next to the others (a gun as long as an arm, a cigarette like a stick, a chair taller than a door);
 - furniture that floats, stands on other furniture, or two pieces fused into one;
 - the image is split into panels, a triptych or a collage;
-- readable letters or a logo, when the prompt says no text.
-Do not judge the style, the colour or the composition. Small far-away figures are ok.
+- readable letters or a logo, when the prompt says no text;${expect ? "\n- the main subject is not the expected subject, or its colour is clearly not the expected colour;" : ""}
+Do not judge the style or the composition${expect ? "" : ", and do not judge the colour"}. Small far-away figures are ok.
 End with one line of JSON: {"ok": true|false, "defects": ["short description", ...]}`;
 
-export async function inspect(png: string, prompt: string): Promise<{ ok: boolean; defects: string[]; checker: string }> {
+export async function inspect(png: string, prompt: string, expect?: string): Promise<{ ok: boolean; defects: string[]; checker: string }> {
   const file = resolve(png);
   try {
-    const out = execFileSync(CLI, ["-p", ASK(file, prompt), "--model", MODEL, "--allowedTools", "Read", "--output-format", "text"],
+    const out = execFileSync(CLI, ["-p", ASK(file, prompt, expect), "--model", MODEL, "--allowedTools", "Read", "--output-format", "text"],
       { encoding: "utf8", timeout: 180_000, stdio: ["ignore", "pipe", "pipe"] });
     const json = out.match(/\{[^{}]*"ok"[^{}]*\}/g)?.pop();
     if (!json) return { ok: true, defects: [], checker: `${MODEL}: no answer` };
