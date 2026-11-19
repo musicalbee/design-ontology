@@ -1,0 +1,2092 @@
+{
+  "$schema": "../../schema/material.schema.json",
+  "class": "animal",
+  "name": "Animal",
+  "summary": "Materials that come from animals: meat, fish, milk, eggs, hide and leather, hair and silk fibres, shell, horn and feather.",
+  "families": [
+    {
+      "id": "animal-fibre",
+      "name": "Animal fibre"
+    },
+    {
+      "id": "woven-plain",
+      "name": "Woven, plain weave"
+    },
+    {
+      "id": "woven-twill",
+      "name": "Woven, twill"
+    },
+    {
+      "id": "woven-satin",
+      "name": "Woven, satin"
+    },
+    {
+      "id": "woven-figured",
+      "name": "Woven, figured"
+    },
+    {
+      "id": "woven-pile",
+      "name": "Woven, pile"
+    },
+    {
+      "id": "weft-knit",
+      "name": "Weft knit"
+    },
+    {
+      "id": "net",
+      "name": "Net"
+    },
+    {
+      "id": "felt",
+      "name": "Felt"
+    },
+    {
+      "id": "leather",
+      "name": "Leather"
+    },
+    {
+      "id": "feather",
+      "name": "Feather"
+    },
+    {
+      "id": "shell",
+      "name": "Shell"
+    },
+    {
+      "id": "horn",
+      "name": "Horn"
+    },
+    {
+      "id": "sugar",
+      "name": "Sugar"
+    },
+    {
+      "id": "dairy",
+      "name": "Dairy"
+    },
+    {
+      "id": "egg",
+      "name": "Egg"
+    },
+    {
+      "id": "meat",
+      "name": "Meat"
+    },
+    {
+      "id": "poultry",
+      "name": "Poultry"
+    },
+    {
+      "id": "game",
+      "name": "Game"
+    },
+    {
+      "id": "fish",
+      "name": "Fish"
+    },
+    {
+      "id": "shellfish",
+      "name": "Shellfish"
+    },
+    {
+      "id": "fat-oil",
+      "name": "Fat and oil"
+    },
+    {
+      "id": "hide",
+      "name": "Hide"
+    },
+    {
+      "id": "wax",
+      "name": "Wax"
+    },
+    {
+      "id": "resin",
+      "name": "Resin"
+    },
+    {
+      "id": "bone",
+      "name": "Bone"
+    },
+    {
+      "id": "stock",
+      "name": "Stock"
+    }
+  ],
+  "materials": [
+    {
+      "id": "camelid",
+      "name": "Alpaca and vicuña",
+      "family": "animal-fibre",
+      "form": "fibre",
+      "senses": [
+        "fashion.fibres"
+      ],
+      "summary": "Andean weavers used alpaca and vicuña fibre in the Paracas textiles; vicuña is the finest animal fibre in commercial use.",
+      "photo": "a loose hank of alpaca and vicuña fibre",
+      "identity": {
+        "wikidata": "Q2839384"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Alpaca fiber",
+          "url": "https://en.wikipedia.org/wiki/Alpaca_fiber"
+        }
+      ]
+    },
+    {
+      "id": "cashmere",
+      "name": "Cashmere",
+      "family": "animal-fibre",
+      "form": "fibre",
+      "senses": [
+        "fashion.fibres"
+      ],
+      "summary": "The down of the Changthangi goat, woven into Kashmir shawls; Europe took the shawl as fashion from about 1800.",
+      "photo": "a loose hank of cashmere fibre",
+      "identity": {
+        "wikidata": "Q333631"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Cashmere wool",
+          "url": "https://en.wikipedia.org/wiki/Cashmere_wool"
+        }
+      ]
+    },
+    {
+      "id": "human-hair",
+      "name": "Human hair",
+      "family": "animal-fibre",
+      "form": "fibre",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Hair of a loved person, woven or set under glass in mourning and sentimental jewels of the 19th century. Mourning rings with hair are known from the 17th century.",
+      "photo": "a loose hank of human hair fibre",
+      "identity": {
+        "wikidata": "Q28472"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Hair",
+          "url": "https://en.wikipedia.org/wiki/Hair"
+        }
+      ]
+    },
+    {
+      "id": "merino",
+      "name": "Merino wool",
+      "family": "animal-fibre",
+      "form": "fibre",
+      "senses": [
+        "fashion.fibres"
+      ],
+      "summary": "Spain bred the fine merino sheep from about the 14th century and banned its export until the 18th century.",
+      "is_a": [
+        "wool"
+      ],
+      "photo": "a loose hank of merino wool fibre",
+      "identity": {
+        "wikidata": "Q651765"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Merino",
+          "url": "https://en.wikipedia.org/wiki/Merino"
+        }
+      ]
+    },
+    {
+      "id": "mohair",
+      "name": "Mohair",
+      "family": "animal-fibre",
+      "form": "fibre",
+      "senses": [
+        "fashion.fibres",
+        "industrial.materials"
+      ],
+      "summary": "The hair of the Angora goat; it gives a lustrous, springy yarn for suiting and knitwear.",
+      "properties": {
+        "warmth": 0.95
+      },
+      "photo": "a loose hank of mohair fibre",
+      "identity": {
+        "wikidata": "Q179628"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Mohair",
+          "url": "https://en.wikipedia.org/wiki/Mohair"
+        }
+      ]
+    },
+    {
+      "id": "silk",
+      "name": "Silk",
+      "family": "animal-fibre",
+      "form": "fibre",
+      "senses": [
+        "fashion.fibres",
+        "industrial.materials"
+      ],
+      "summary": "China reeled silk from the cocoon of Bombyx mori; Byzantium got silkworms in about AD 552.",
+      "properties": {
+        "warmth": 0.75
+      },
+      "photo": "a loose hank of silk fibre",
+      "identity": {
+        "wikidata": "Q37681"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Silk",
+          "url": "https://en.wikipedia.org/wiki/Silk"
+        }
+      ]
+    },
+    {
+      "id": "wool",
+      "name": "Wool",
+      "family": "animal-fibre",
+      "form": "fibre",
+      "senses": [
+        "fashion.fibres",
+        "industrial.materials"
+      ],
+      "summary": "Sheep with a woolly fleece appear in Mesopotamia in the fourth millennium BC; before that, sheep had hair.",
+      "properties": {
+        "warmth": 0.95
+      },
+      "photo": "a loose hank of wool fibre",
+      "identity": {
+        "wikidata": "Q42329"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Wool",
+          "url": "https://en.wikipedia.org/wiki/Wool"
+        }
+      ]
+    },
+    {
+      "id": "bone-ash",
+      "name": "Bone ash",
+      "family": "bone",
+      "form": "powder",
+      "senses": [],
+      "photo": "a small heap of bone ash powder",
+      "identity": {
+        "wikidata": "Q995607"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Bone ash",
+          "url": "https://en.wikipedia.org/wiki/Bone_ash"
+        }
+      ]
+    },
+    {
+      "id": "butter",
+      "name": "Butter",
+      "family": "dairy",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "The fat of the northern French kitchen; it took the place of oil and lard in sauces after 1650.",
+      "made_from": [
+        "milk"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "butter",
+      "identity": {
+        "wikidata": "Q34172"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Butter",
+          "url": "https://en.wikipedia.org/wiki/Butter"
+        }
+      ]
+    },
+    {
+      "id": "cheese",
+      "name": "Cheese",
+      "family": "dairy",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Strainers with milk fat from about 5500 BC; Parmigiano, Comté and Gruyère are hard cheeses for cooking.",
+      "made_from": [
+        "milk"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "cheese",
+      "identity": {
+        "wikidata": "Q10943"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Cheese",
+          "url": "https://en.wikipedia.org/wiki/Cheese"
+        }
+      ]
+    },
+    {
+      "id": "cream",
+      "name": "Cream",
+      "family": "dairy",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Double cream and crème fraîche thicken and enrich the sauces of the classic kitchen.",
+      "made_from": [
+        "milk"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "cream",
+      "identity": {
+        "wikidata": "Q13228"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Cream",
+          "url": "https://en.wikipedia.org/wiki/Cream"
+        }
+      ]
+    },
+    {
+      "id": "milk",
+      "name": "Milk",
+      "family": "dairy",
+      "form": "liquid",
+      "senses": [],
+      "aliases": [
+        "milk"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "a small glass dish of milk",
+      "identity": {
+        "wikidata": "Q8495"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Milk",
+          "url": "https://en.wikipedia.org/wiki/Milk"
+        }
+      ]
+    },
+    {
+      "id": "egg",
+      "name": "Hen egg",
+      "family": "egg",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Binds, raises, thickens and emulsifies: the tool of mayonnaise, hollandaise, soufflé and custard.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "hen egg",
+      "identity": {
+        "wikidata": "Q17147"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Egg",
+          "url": "https://en.wikipedia.org/wiki/Egg"
+        }
+      ]
+    },
+    {
+      "id": "lard",
+      "name": "Lard",
+      "family": "fat-oil",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Rendered pork fat; the frying fat of medieval and peasant kitchens.",
+      "made_from": [
+        "pork"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "lard",
+      "identity": {
+        "wikidata": "Q72827"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Lard",
+          "url": "https://en.wikipedia.org/wiki/Lard"
+        }
+      ]
+    },
+    {
+      "id": "feather",
+      "name": "Feather",
+      "family": "feather",
+      "form": "raw",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Ostrich, egret and other plumes that trimmed the hat; the Victorian trade in plumes and whole birds led to the first bird-protection laws.",
+      "photo": "feather",
+      "identity": {
+        "wikidata": "Q81025"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Feather",
+          "url": "https://en.wikipedia.org/wiki/Feather"
+        }
+      ]
+    },
+    {
+      "id": "goose-down",
+      "name": "Goose down",
+      "family": "feather",
+      "form": "fill",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "The under-plumage of geese, in quilted baffles; Eddie Bauer patented the quilted down jacket after a near-fatal fishing trip.",
+      "photo": "a small heap of goose down",
+      "identity": {
+        "wikidata": "Q953515"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Down feather",
+          "url": "https://en.wikipedia.org/wiki/Down_feather"
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "name": "Felt",
+      "family": "felt",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A cloth of matted fibres with no weave; the Pazyryk graves held felt saddle cloths and hangings. The cloth of hats.",
+      "made_from": [
+        "wool"
+      ],
+      "photo": "a folded swatch of felt",
+      "identity": {
+        "wikidata": "Q189964"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Felt",
+          "url": "https://en.wikipedia.org/wiki/Felt"
+        }
+      ]
+    },
+    {
+      "id": "loden",
+      "name": "Loden",
+      "family": "felt",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A fulled and napped wool that sheds rain and wind; the coat cloth of the Alpine countries.",
+      "made_from": [
+        "wool"
+      ],
+      "photo": "a folded swatch of loden",
+      "identity": {
+        "wikidata": "Q115008204"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Loden cape",
+          "url": "https://en.wikipedia.org/wiki/Loden_cape"
+        }
+      ]
+    },
+    {
+      "id": "caviar",
+      "name": "Caviar",
+      "family": "fish",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Salted sturgeon roe; a luxury of the Russian court and the French restaurant.",
+      "made_from": [
+        "sturgeon"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "caviar",
+      "identity": {
+        "wikidata": "Q186385"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Caviar",
+          "url": "https://en.wikipedia.org/wiki/Caviar"
+        }
+      ]
+    },
+    {
+      "id": "cod",
+      "name": "Cod",
+      "family": "fish",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Dried as stockfish and salted as klippfisk; traded from Lofoten through the Middle Ages.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "cod",
+      "identity": {
+        "wikidata": "Q13194939"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Cod",
+          "url": "https://en.wikipedia.org/wiki/Cod"
+        }
+      ]
+    },
+    {
+      "id": "salmon",
+      "name": "Salmon",
+      "family": "fish",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Wild in rivers, then farmed after 1970; cured, smoked or cooked pink.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "salmon",
+      "identity": {
+        "wikidata": "Q2796766"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Salmon",
+          "url": "https://en.wikipedia.org/wiki/Salmon"
+        }
+      ]
+    },
+    {
+      "id": "sole",
+      "name": "Sole and flat fish",
+      "family": "fish",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Dover sole, turbot and brill: the fish of the classic kitchen, poached, grilled or meunière.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "sole and flat fish",
+      "identity": {
+        "wikidata": "Q27773"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Common sole",
+          "url": "https://en.wikipedia.org/wiki/Common_sole"
+        }
+      ]
+    },
+    {
+      "id": "sturgeon",
+      "name": "Sturgeon",
+      "family": "fish",
+      "form": "food",
+      "senses": [],
+      "aliases": [
+        "sturgeon"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "sturgeon",
+      "identity": {
+        "wikidata": "Q181871"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Sturgeon",
+          "url": "https://en.wikipedia.org/wiki/Sturgeon"
+        }
+      ]
+    },
+    {
+      "id": "tuna",
+      "name": "Tuna",
+      "family": "fish",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Raw as sushi in Japan after the 1840s; the fat belly is toro.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "tuna",
+      "identity": {
+        "wikidata": "Q6146274"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Tuna",
+          "url": "https://en.wikipedia.org/wiki/Tuna"
+        }
+      ]
+    },
+    {
+      "id": "game-birds",
+      "name": "Game birds",
+      "family": "game",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Pheasant, partridge, woodcock and pigeon; the medieval feast added swan, heron and peacock.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "game birds",
+      "identity": {
+        "wikidata": "Q223930"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Game (hunting)",
+          "url": "https://en.wikipedia.org/wiki/Game_(hunting)"
+        }
+      ]
+    },
+    {
+      "id": "venison",
+      "name": "Venison",
+      "family": "game",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Red deer, roe deer and reindeer; hung, roasted and served with a sharp berry sauce.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "venison",
+      "identity": {
+        "wikidata": "Q2296872"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Venison",
+          "url": "https://en.wikipedia.org/wiki/Venison"
+        }
+      ]
+    },
+    {
+      "id": "hide",
+      "name": "Hide (raw animal skin)",
+      "family": "hide",
+      "form": "sheet",
+      "senses": [],
+      "aliases": [
+        "hide"
+      ],
+      "photo": "a square sample sheet of hide",
+      "identity": {
+        "wikidata": "Q3291230"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Hide (skin)",
+          "url": "https://en.wikipedia.org/wiki/Hide_(skin)"
+        }
+      ]
+    },
+    {
+      "id": "horn",
+      "name": "Horn",
+      "family": "horn",
+      "form": "raw",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Animal horn, heated and pressed or carved; it takes a translucent, amber-like colour and was a main material of Art Nouveau combs and pendants.",
+      "photo": "horn",
+      "identity": {
+        "wikidata": "Q65284752"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Horn (anatomy)",
+          "url": "https://en.wikipedia.org/wiki/Horn_(anatomy)"
+        }
+      ]
+    },
+    {
+      "id": "whalebone",
+      "name": "Whalebone (baleen)",
+      "family": "horn",
+      "form": "raw",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Plates of baleen from whales; thin strips of it stiffened stays and corsets until spring steel and plastic replaced it.",
+      "photo": "whalebone",
+      "identity": {
+        "wikidata": "Q275426"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Baleen",
+          "url": "https://en.wikipedia.org/wiki/Baleen"
+        }
+      ]
+    },
+    {
+      "id": "calfskin",
+      "name": "Calfskin",
+      "family": "leather",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Fine, tight-grained leather from calves for dress shoes, gloves and small leather goods.",
+      "is_a": [
+        "leather"
+      ],
+      "made_from": [
+        "hide"
+      ],
+      "photo": "a square sample sheet of calfskin",
+      "identity": {
+        "wikidata": "Q2507067"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Calfskin",
+          "url": "https://en.wikipedia.org/wiki/Calfskin"
+        }
+      ]
+    },
+    {
+      "id": "chrome-tanned-leather",
+      "name": "Chrome-tanned leather",
+      "family": "leather",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Hide tanned with chromium salts in hours, not months; Augustus Schultz made the process commercial in 1884. Most leather now is chrome tanned.",
+      "is_a": [
+        "leather"
+      ],
+      "made_from": [
+        "hide"
+      ],
+      "photo": "a square sample sheet of chrome-tanned leather",
+      "identity": {
+        "wikidata": "Q211578"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Tanning (leather)",
+          "url": "https://en.wikipedia.org/wiki/Tanning_(leather)"
+        }
+      ]
+    },
+    {
+      "id": "exotic-skin",
+      "name": "Exotic skin",
+      "family": "leather",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Crocodile, alligator, ostrich and lizard skin; trade in most species is under CITES control since 1975.",
+      "is_a": [
+        "leather"
+      ],
+      "made_from": [
+        "hide"
+      ],
+      "photo": "a square sample sheet of exotic skin",
+      "identity": {
+        "wikidata": "Q286"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Leather",
+          "url": "https://en.wikipedia.org/wiki/Leather"
+        }
+      ]
+    },
+    {
+      "id": "kidskin",
+      "name": "Kidskin",
+      "family": "leather",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Soft, thin goatskin for gloves, evening shoes and linings.",
+      "is_a": [
+        "leather"
+      ],
+      "made_from": [
+        "hide"
+      ],
+      "photo": "a square sample sheet of kidskin",
+      "identity": {
+        "wikidata": "Q1070958"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Kidskin",
+          "url": "https://en.wikipedia.org/wiki/Kidskin"
+        }
+      ]
+    },
+    {
+      "id": "leather",
+      "name": "Leather",
+      "family": "leather",
+      "form": "sheet",
+      "senses": [
+        "industrial.materials"
+      ],
+      "properties": {
+        "warmth": 0.9
+      },
+      "photo": "a square sample sheet of leather",
+      "identity": {
+        "wikidata": "Q286"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Leather",
+          "url": "https://en.wikipedia.org/wiki/Leather"
+        }
+      ]
+    },
+    {
+      "id": "patent-leather",
+      "name": "Patent leather",
+      "family": "leather",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Leather with a hard, high-gloss lacquer; the shoe of evening dress and the 1960s boot.",
+      "is_a": [
+        "leather"
+      ],
+      "made_from": [
+        "hide"
+      ],
+      "photo": "a square sample sheet of patent leather",
+      "identity": {
+        "wikidata": "Q7144505"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Patent leather",
+          "url": "https://en.wikipedia.org/wiki/Patent_leather"
+        }
+      ]
+    },
+    {
+      "id": "shagreen",
+      "name": "Shagreen",
+      "family": "leather",
+      "form": "sheet",
+      "senses": [],
+      "is_a": [
+        "leather"
+      ],
+      "made_from": [
+        "hide"
+      ],
+      "aliases": [
+        "shagreen"
+      ],
+      "photo": "a square sample sheet of shagreen",
+      "identity": {
+        "wikidata": "Q1058858"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Shagreen",
+          "url": "https://en.wikipedia.org/wiki/Shagreen"
+        }
+      ]
+    },
+    {
+      "id": "shearling",
+      "name": "Shearling",
+      "family": "leather",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Sheepskin with the wool left on; the bomber jacket, the boot and the coat lining.",
+      "made_from": [
+        "hide",
+        "wool"
+      ],
+      "photo": "a square sample sheet of shearling",
+      "identity": {
+        "wikidata": "Q17086707"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Shearling",
+          "url": "https://en.wikipedia.org/wiki/Shearling"
+        }
+      ]
+    },
+    {
+      "id": "sheepskin",
+      "name": "Sheepskin",
+      "family": "leather",
+      "form": "sheet",
+      "senses": [],
+      "is_a": [
+        "leather"
+      ],
+      "made_from": [
+        "hide",
+        "wool"
+      ],
+      "aliases": [
+        "sheepskin"
+      ],
+      "photo": "a square sample sheet of sheepskin",
+      "identity": {
+        "wikidata": "Q1083901"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Sheepskin",
+          "url": "https://en.wikipedia.org/wiki/Sheepskin"
+        }
+      ]
+    },
+    {
+      "id": "shell-cordovan",
+      "name": "Shell cordovan",
+      "family": "leather",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Dense leather from the shell under the hide of a horse's rump; the cordwainers of Córdoba gave the trade its name.",
+      "is_a": [
+        "leather"
+      ],
+      "made_from": [
+        "hide"
+      ],
+      "photo": "a square sample sheet of shell cordovan",
+      "identity": {
+        "wikidata": "Q839568"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Shell cordovan",
+          "url": "https://en.wikipedia.org/wiki/Shell_cordovan"
+        }
+      ]
+    },
+    {
+      "id": "suede",
+      "name": "Suede",
+      "family": "leather",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Leather with the flesh side napped; the name comes from 'gants de Suède', Swedish gloves.",
+      "is_a": [
+        "leather"
+      ],
+      "made_from": [
+        "hide"
+      ],
+      "photo": "a square sample sheet of suede",
+      "identity": {
+        "wikidata": "Q1071417"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Suede",
+          "url": "https://en.wikipedia.org/wiki/Suede"
+        }
+      ]
+    },
+    {
+      "id": "vegetable-tanned-leather",
+      "name": "Vegetable-tanned leather",
+      "family": "leather",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Hide tanned with bark tannins; a cowhide shoe from the Areni-1 cave is about 5,500 years old. It darkens and takes a patina.",
+      "is_a": [
+        "leather"
+      ],
+      "made_from": [
+        "hide"
+      ],
+      "photo": "a square sample sheet of vegetable-tanned leather",
+      "identity": {
+        "wikidata": "Q211578"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Tanning (leather)",
+          "url": "https://en.wikipedia.org/wiki/Tanning_(leather)"
+        }
+      ]
+    },
+    {
+      "id": "beef",
+      "name": "Beef",
+      "family": "meat",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "The fillet, the rib and the braising cuts; tournedos Rossini and boeuf bourguignon.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "beef",
+      "identity": {
+        "wikidata": "Q192628"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Beef",
+          "url": "https://en.wikipedia.org/wiki/Beef"
+        }
+      ]
+    },
+    {
+      "id": "lamb",
+      "name": "Lamb",
+      "family": "meat",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Saddle, rack and leg; the roast of spring.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "lamb",
+      "identity": {
+        "wikidata": "Q123122627"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Lamb and mutton",
+          "url": "https://en.wikipedia.org/wiki/Lamb_and_mutton"
+        }
+      ]
+    },
+    {
+      "id": "pork",
+      "name": "Pork",
+      "family": "meat",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Fresh, salted and cured; lard is its fat.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "pork",
+      "identity": {
+        "wikidata": "Q191768"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Pork",
+          "url": "https://en.wikipedia.org/wiki/Pork"
+        }
+      ]
+    },
+    {
+      "id": "veal",
+      "name": "Veal",
+      "family": "meat",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "The meat of the calf and the bones of the white and brown stock.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "veal",
+      "identity": {
+        "wikidata": "Q957434"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Veal",
+          "url": "https://en.wikipedia.org/wiki/Veal"
+        }
+      ]
+    },
+    {
+      "id": "tulle",
+      "name": "Tulle (bobbinet)",
+      "family": "net",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A hexagonal net from Heathcoat's bobbinet machine; the cloth of the veil, the petticoat and the tutu.",
+      "made_from": [
+        "silk",
+        "cotton",
+        "nylon"
+      ],
+      "photo": "a folded swatch of tulle",
+      "identity": {
+        "wikidata": "Q646051"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Tulle (netting)",
+          "url": "https://en.wikipedia.org/wiki/Tulle_(netting)"
+        }
+      ]
+    },
+    {
+      "id": "chicken",
+      "name": "Chicken",
+      "family": "poultry",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "The capon and the Bresse chicken of the French kitchen.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "chicken",
+      "identity": {
+        "wikidata": "Q780"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Chicken",
+          "url": "https://en.wikipedia.org/wiki/Chicken"
+        }
+      ]
+    },
+    {
+      "id": "duck",
+      "name": "Duck",
+      "family": "poultry",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Breast cooked pink and legs as confit; Peking duck in China.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "duck",
+      "identity": {
+        "wikidata": "Q3736439"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Duck",
+          "url": "https://en.wikipedia.org/wiki/Duck"
+        }
+      ]
+    },
+    {
+      "id": "foie-gras",
+      "name": "Foie gras",
+      "family": "poultry",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Fattened goose or duck liver; a mark of the French luxury kitchen since the eighteenth century.",
+      "made_from": [
+        "duck"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "foie gras",
+      "identity": {
+        "wikidata": "Q34807"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Foie gras",
+          "url": "https://en.wikipedia.org/wiki/Foie_gras"
+        }
+      ]
+    },
+    {
+      "id": "shellac",
+      "name": "Shellac",
+      "family": "resin",
+      "form": "liquid",
+      "senses": [],
+      "aliases": [
+        "french polish"
+      ],
+      "photo": "a small glass dish of shellac",
+      "identity": {
+        "wikidata": "Q429659"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Shellac",
+          "url": "https://en.wikipedia.org/wiki/Shellac"
+        }
+      ]
+    },
+    {
+      "id": "conch-shell",
+      "name": "Conch shell",
+      "family": "shell",
+      "form": "raw",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "The pink and white layers of the conch shell, carved as a cameo; popular in Victorian jewellery. Italian carvers cut shell cameos from the 16th century.",
+      "photo": "conch shell",
+      "identity": {
+        "wikidata": "Q62792"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Conch",
+          "url": "https://en.wikipedia.org/wiki/Conch"
+        }
+      ]
+    },
+    {
+      "id": "cultured-pearl",
+      "name": "Cultured pearl",
+      "family": "shell",
+      "form": "raw",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "A pearl grown around a nucleus that a person put in the oyster; it made the pearl necklace a jewel of the middle class.",
+      "photo": "cultured pearl",
+      "identity": {
+        "wikidata": "Q3029022"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Cultured pearl",
+          "url": "https://en.wikipedia.org/wiki/Cultured_pearl"
+        }
+      ]
+    },
+    {
+      "id": "natural-pearl",
+      "name": "Natural pearl",
+      "family": "shell",
+      "form": "raw",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "A pearl that grew in an oyster with no help; the most costly jewel of the court era.",
+      "photo": "natural pearl",
+      "identity": {
+        "wikidata": "Q43436"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Pearl",
+          "url": "https://en.wikipedia.org/wiki/Pearl"
+        }
+      ]
+    },
+    {
+      "id": "tortoiseshell",
+      "name": "Tortoiseshell",
+      "family": "shell",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "The shell of the hawksbill turtle for combs, frames and boxes; CITES ended the trade, and acetate copies the pattern.",
+      "photo": "a square sample sheet of tortoiseshell",
+      "identity": {
+        "wikidata": "Q2141546"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Tortoiseshell",
+          "url": "https://en.wikipedia.org/wiki/Tortoiseshell"
+        }
+      ]
+    },
+    {
+      "id": "oyster",
+      "name": "Oyster",
+      "family": "shellfish",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Sergius Orata farmed oysters at Baiae; eaten raw or poached.",
+      "is_a": [
+        "shellfish"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "oyster",
+      "identity": {
+        "wikidata": "Q107411"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Oyster",
+          "url": "https://en.wikipedia.org/wiki/Oyster"
+        }
+      ]
+    },
+    {
+      "id": "sea-urchin",
+      "name": "Sea urchin",
+      "family": "shellfish",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Raw gonads, sweet and briny; uni in Japan.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "sea urchin",
+      "identity": {
+        "wikidata": "Q83483"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Sea urchin",
+          "url": "https://en.wikipedia.org/wiki/Sea_urchin"
+        }
+      ]
+    },
+    {
+      "id": "shellfish",
+      "name": "Shellfish",
+      "family": "shellfish",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "Lobster, langoustine, crab, scallop and prawn; the luxury of the coast.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "shellfish",
+      "identity": {
+        "wikidata": "Q6501235"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Shellfish",
+          "url": "https://en.wikipedia.org/wiki/Shellfish"
+        }
+      ]
+    },
+    {
+      "id": "stock",
+      "name": "Stock (broth)",
+      "family": "stock",
+      "form": "liquid",
+      "senses": [],
+      "aliases": [
+        "broth",
+        "fond"
+      ],
+      "properties": {
+        "edible": true
+      },
+      "photo": "a small glass dish of stock",
+      "identity": {
+        "wikidata": "Q3075310"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Stock (food)",
+          "url": "https://en.wikipedia.org/wiki/Stock_(food)"
+        }
+      ]
+    },
+    {
+      "id": "honey",
+      "name": "Honey",
+      "family": "sugar",
+      "form": "food",
+      "senses": [
+        "cuisine.ingredients"
+      ],
+      "summary": "The sweetener of Europe before sugar.",
+      "properties": {
+        "edible": true
+      },
+      "photo": "honey",
+      "identity": {
+        "wikidata": "Q10987"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Honey",
+          "url": "https://en.wikipedia.org/wiki/Honey"
+        }
+      ]
+    },
+    {
+      "id": "beeswax",
+      "name": "Beeswax",
+      "family": "wax",
+      "form": "block",
+      "senses": [],
+      "aliases": [
+        "wax",
+        "paste wax"
+      ],
+      "photo": "a rough block of beeswax",
+      "identity": {
+        "wikidata": "Q143739"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Beeswax",
+          "url": "https://en.wikipedia.org/wiki/Beeswax"
+        }
+      ]
+    },
+    {
+      "id": "aran-knit",
+      "name": "Aran knit",
+      "family": "weft-knit",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A thick cream knit of cables, diamonds and moss stitch; it became a fashion knit in the 1950s.",
+      "made_from": [
+        "wool"
+      ],
+      "photo": "a folded swatch of aran knit",
+      "identity": {
+        "wikidata": "Q2093993"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Aran jumper",
+          "url": "https://en.wikipedia.org/wiki/Aran_jumper"
+        }
+      ]
+    },
+    {
+      "id": "boiled-wool",
+      "name": "Boiled wool",
+      "family": "weft-knit",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A wool knit that heat, water and rubbing shrink into a dense, felt-like cloth that does not fray; Tyrolean walk jackets were made of it, and Japanese designers of the 1980s used it for sculpted coats.",
+      "made_from": [
+        "wool"
+      ],
+      "photo": "a folded swatch of boiled wool",
+      "identity": {
+        "wikidata": "Q3826612"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Boiled wool",
+          "url": "https://en.wikipedia.org/wiki/Boiled_wool"
+        }
+      ]
+    },
+    {
+      "id": "cashmere-knit",
+      "name": "Cashmere knit",
+      "family": "weft-knit",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A fine knit of cashmere down, the luxury form of knitwear; the fibre came to Europe in Kashmir shawls, and plain cashmere jumpers became a sign of quiet wealth.",
+      "is_a": [
+        "cashmere"
+      ],
+      "made_from": [
+        "cashmere"
+      ],
+      "photo": "a folded swatch of cashmere knit",
+      "identity": {
+        "wikidata": "Q333631"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Cashmere wool",
+          "url": "https://en.wikipedia.org/wiki/Cashmere_wool"
+        }
+      ]
+    },
+    {
+      "id": "fair-isle-knit",
+      "name": "Fair Isle knit",
+      "family": "weft-knit",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A stranded knit in two colours each row; the Prince of Wales wore a Fair Isle jumper to golf in 1921.",
+      "made_from": [
+        "wool"
+      ],
+      "photo": "a folded swatch of fair isle knit",
+      "identity": {
+        "wikidata": "Q3064518"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Fair Isle (knitting)",
+          "url": "https://en.wikipedia.org/wiki/Fair_Isle_(knitting)"
+        }
+      ]
+    },
+    {
+      "id": "frame-knit-hosiery",
+      "name": "Frame-knit hosiery",
+      "family": "weft-knit",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "Stockings from the knitting frame, the first textile machine of the modern kind; Nottingham became the centre of hosiery.",
+      "made_from": [
+        "silk",
+        "wool",
+        "cotton"
+      ],
+      "photo": "a folded swatch of frame-knit hosiery",
+      "identity": {
+        "wikidata": "Q16933138"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Stocking frame",
+          "url": "https://en.wikipedia.org/wiki/Stocking_frame"
+        }
+      ]
+    },
+    {
+      "id": "jersey",
+      "name": "Jersey",
+      "family": "weft-knit",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A plain weft knit from the island knitters; Gabrielle Chanel made wool jersey into women's dress in 1916.",
+      "made_from": [
+        "wool",
+        "cotton",
+        "silk"
+      ],
+      "photo": "a folded swatch of jersey",
+      "identity": {
+        "wikidata": "Q1348773"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Jersey (fabric)",
+          "url": "https://en.wikipedia.org/wiki/Jersey_(fabric)"
+        }
+      ]
+    },
+    {
+      "id": "boucle",
+      "name": "Bouclé",
+      "family": "woven-figured",
+      "form": "cloth",
+      "senses": [
+        "industrial.materials"
+      ],
+      "made_from": [
+        "wool"
+      ],
+      "properties": {
+        "warmth": 0.95
+      },
+      "photo": "a folded swatch of bouclé",
+      "identity": {
+        "wikidata": "Q776110"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Bouclé",
+          "url": "https://en.wikipedia.org/wiki/Boucl%C3%A9"
+        }
+      ]
+    },
+    {
+      "id": "brocade",
+      "name": "Brocade",
+      "family": "woven-figured",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A figured cloth with extra weft, often of metal thread, that floats on the face as a raised pattern; the cloth of court dress.",
+      "made_from": [
+        "silk"
+      ],
+      "photo": "a folded swatch of brocade",
+      "identity": {
+        "wikidata": "Q649022"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Brocade",
+          "url": "https://en.wikipedia.org/wiki/Brocade"
+        }
+      ]
+    },
+    {
+      "id": "damask",
+      "name": "Damask",
+      "family": "woven-figured",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A reversible figured cloth in which the pattern shows in satin on a ground of the opposite face; named after Damascus.",
+      "made_from": [
+        "silk",
+        "flax",
+        "cotton"
+      ],
+      "photo": "a folded swatch of damask",
+      "identity": {
+        "wikidata": "Q901382"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Damask",
+          "url": "https://en.wikipedia.org/wiki/Damask"
+        }
+      ]
+    },
+    {
+      "id": "jacquard",
+      "name": "Jacquard figured cloth",
+      "family": "woven-figured",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "Cloth from a loom that lifts each warp thread by a punched card; the cards made large figured patterns cheap.",
+      "made_from": [
+        "silk",
+        "cotton",
+        "wool"
+      ],
+      "photo": "a folded swatch of jacquard figured cloth",
+      "identity": {
+        "wikidata": "Q1369967"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Jacquard machine",
+          "url": "https://en.wikipedia.org/wiki/Jacquard_machine"
+        }
+      ]
+    },
+    {
+      "id": "velvet",
+      "name": "Velvet",
+      "family": "woven-pile",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics",
+        "industrial.materials"
+      ],
+      "summary": "A warp-pile cloth with a short dense pile cut from a second warp; Italian cities wove it for courts and the church.",
+      "made_from": [
+        "silk",
+        "cotton",
+        "viscose"
+      ],
+      "properties": {
+        "warmth": 0.85
+      },
+      "photo": "a folded swatch of velvet",
+      "identity": {
+        "wikidata": "Q243519"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Velvet",
+          "url": "https://en.wikipedia.org/wiki/Velvet"
+        }
+      ]
+    },
+    {
+      "id": "chiffon",
+      "name": "Chiffon",
+      "family": "woven-plain",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A sheer, floating plain weave of highly twisted yarn for overlays, scarves and evening dress.",
+      "made_from": [
+        "silk",
+        "polyester"
+      ],
+      "photo": "a folded swatch of chiffon",
+      "identity": {
+        "wikidata": "Q691189"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Chiffon (fabric)",
+          "url": "https://en.wikipedia.org/wiki/Chiffon_(fabric)"
+        }
+      ]
+    },
+    {
+      "id": "crepe-de-chine",
+      "name": "Crêpe de Chine",
+      "family": "woven-plain",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A light silk with a pebbled surface from crepe-twisted weft; it drapes well on the bias.",
+      "made_from": [
+        "silk"
+      ],
+      "photo": "a folded swatch of crêpe de chine",
+      "identity": {
+        "wikidata": "Q181362"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Crêpe (textile)",
+          "url": "https://en.wikipedia.org/wiki/Cr%C3%AApe_(textile)"
+        }
+      ]
+    },
+    {
+      "id": "taffeta",
+      "name": "Taffeta",
+      "family": "woven-plain",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A crisp plain silk that rustles and holds a full skirt; the name comes from Persian 'taftah', twisted.",
+      "made_from": [
+        "silk",
+        "acetate",
+        "polyester"
+      ],
+      "photo": "a folded swatch of taffeta",
+      "identity": {
+        "wikidata": "Q909391"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Taffeta",
+          "url": "https://en.wikipedia.org/wiki/Taffeta"
+        }
+      ]
+    },
+    {
+      "id": "satin",
+      "name": "Satin",
+      "family": "woven-satin",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A weave with long floats that gives a smooth, lustrous face; the name may come from Zaitun, the port of export.",
+      "made_from": [
+        "silk",
+        "acetate",
+        "polyester"
+      ],
+      "photo": "a folded swatch of satin",
+      "identity": {
+        "wikidata": "Q14298"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Satin",
+          "url": "https://en.wikipedia.org/wiki/Satin"
+        }
+      ]
+    },
+    {
+      "id": "flannel",
+      "name": "Flannel",
+      "family": "woven-twill",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A soft cloth that is napped after the weave; grey wool flannel became the suit and trouser cloth of the 20th century.",
+      "made_from": [
+        "wool",
+        "cotton"
+      ],
+      "photo": "a folded swatch of flannel",
+      "identity": {
+        "wikidata": "Q58162"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Flannel",
+          "url": "https://en.wikipedia.org/wiki/Flannel"
+        }
+      ]
+    },
+    {
+      "id": "gabardine",
+      "name": "Gabardine",
+      "family": "woven-twill",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A steep, tight twill of yarn proofed before the weave; it keeps out rain and lets the body breathe. The cloth of the trench coat.",
+      "made_from": [
+        "wool",
+        "cotton"
+      ],
+      "photo": "a folded swatch of gabardine",
+      "identity": {
+        "wikidata": "Q577237"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Gabardine",
+          "url": "https://en.wikipedia.org/wiki/Gabardine"
+        }
+      ]
+    },
+    {
+      "id": "harris-tweed",
+      "name": "Harris Tweed",
+      "family": "woven-twill",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "Hand-woven at home in the Outer Hebrides; the Orb mark dates from 1909 and an Act of Parliament protects the name since 1993.",
+      "is_a": [
+        "tweed"
+      ],
+      "made_from": [
+        "wool"
+      ],
+      "photo": "a folded swatch of harris tweed",
+      "identity": {
+        "wikidata": "Q1306943"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Harris tweed",
+          "url": "https://en.wikipedia.org/wiki/Harris_tweed"
+        }
+      ]
+    },
+    {
+      "id": "houndstooth",
+      "name": "Houndstooth",
+      "family": "woven-twill",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A broken check from a 2/2 twill with four dark and four light yarns in warp and weft.",
+      "made_from": [
+        "wool"
+      ],
+      "photo": "a folded swatch of houndstooth",
+      "identity": {
+        "wikidata": "Q911389"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Houndstooth",
+          "url": "https://en.wikipedia.org/wiki/Houndstooth"
+        }
+      ]
+    },
+    {
+      "id": "serge",
+      "name": "Serge",
+      "family": "woven-twill",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A balanced twill with a clear diagonal rib, for uniforms, suits and coats.",
+      "made_from": [
+        "wool"
+      ],
+      "photo": "a folded swatch of serge",
+      "identity": {
+        "wikidata": "Q1520324"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Serge (fabric)",
+          "url": "https://en.wikipedia.org/wiki/Serge_(fabric)"
+        }
+      ]
+    },
+    {
+      "id": "silk-twill",
+      "name": "Silk twill",
+      "family": "woven-twill",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A fine, dense silk twill that takes a sharp print; it is the cloth of the printed square scarf and the necktie. Twill silk is in Chinese graves of the second century BC.",
+      "made_from": [
+        "silk"
+      ],
+      "photo": "a folded swatch of silk twill",
+      "identity": {
+        "wikidata": "Q1152241"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Twill",
+          "url": "https://en.wikipedia.org/wiki/Twill"
+        }
+      ]
+    },
+    {
+      "id": "tartan",
+      "name": "Tartan",
+      "family": "woven-twill",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A twill check of coloured stripes in warp and weft; a check fragment from near Falkirk dates from about AD 250. The Dress Act of 1746 banned it in the Highlands.",
+      "made_from": [
+        "wool"
+      ],
+      "photo": "a folded swatch of tartan",
+      "identity": {
+        "wikidata": "Q216797"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Tartan",
+          "url": "https://en.wikipedia.org/wiki/Tartan"
+        }
+      ]
+    },
+    {
+      "id": "tweed",
+      "name": "Tweed",
+      "family": "woven-twill",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A rough, thick twill of woollen yarn; the name comes from 'tweel', misread by a London merchant as the River Tweed.",
+      "made_from": [
+        "wool"
+      ],
+      "photo": "a folded swatch of tweed",
+      "identity": {
+        "wikidata": "Q40601"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Tweed",
+          "url": "https://en.wikipedia.org/wiki/Tweed"
+        }
+      ]
+    },
+    {
+      "id": "worsted-suiting",
+      "name": "Worsted suiting",
+      "family": "woven-twill",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A smooth, firm cloth of combed long-staple yarn, named after the Norfolk village; the cloth of the tailored suit.",
+      "made_from": [
+        "wool",
+        "merino",
+        "mohair"
+      ],
+      "photo": "a folded swatch of worsted suiting",
+      "identity": {
+        "wikidata": "Q572813"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Worsted",
+          "url": "https://en.wikipedia.org/wiki/Worsted"
+        }
+      ]
+    }
+  ]
+}

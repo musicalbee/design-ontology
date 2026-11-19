@@ -1,0 +1,1061 @@
+{
+  "$schema": "../../schema/material.schema.json",
+  "class": "polymer",
+  "name": "Polymer",
+  "summary": "Long-chain materials that people make: plastics, synthetic and regenerated fibres, rubber, and the cloth and paint made from them.",
+  "families": [
+    {
+      "id": "plastic",
+      "name": "Plastic"
+    },
+    {
+      "id": "regenerated-fibre",
+      "name": "Regenerated fibre"
+    },
+    {
+      "id": "synthetic-fibre",
+      "name": "Synthetic fibre"
+    },
+    {
+      "id": "warp-knit",
+      "name": "Warp knit"
+    },
+    {
+      "id": "weft-knit",
+      "name": "Weft knit"
+    },
+    {
+      "id": "woven-plain",
+      "name": "Woven, plain weave"
+    },
+    {
+      "id": "woven-basket",
+      "name": "Woven, basket weave"
+    },
+    {
+      "id": "laminate",
+      "name": "Laminate"
+    },
+    {
+      "id": "nonwoven",
+      "name": "Nonwoven"
+    },
+    {
+      "id": "woven-twill",
+      "name": "Woven, twill"
+    },
+    {
+      "id": "rubber",
+      "name": "Rubber"
+    },
+    {
+      "id": "coated-fabric",
+      "name": "Coated fabric"
+    },
+    {
+      "id": "paint",
+      "name": "Paint"
+    }
+  ],
+  "materials": [
+    {
+      "id": "polyurethane-leatherette",
+      "name": "Polyurethane leatherette",
+      "family": "coated-fabric",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "A fabric with a polyurethane skin that is embossed to look like leather. Car makers use it for seats and trim in place of hide. DuPont launched the polyurethane leather substitute Corfam in 1963.",
+      "photo": "a square sample sheet of polyurethane leatherette",
+      "identity": {
+        "wikidata": "Q1792537"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Artificial leather",
+          "url": "https://en.wikipedia.org/wiki/Artificial_leather"
+        }
+      ]
+    },
+    {
+      "id": "pvc-leathercloth",
+      "name": "PVC leathercloth",
+      "family": "coated-fabric",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Plasticised PVC on a knit or woven back; the upholstery of the post-war car and the cheap handbag.",
+      "made_from": [
+        "pvc",
+        "cotton"
+      ],
+      "photo": "a square sample sheet of pvc leathercloth",
+      "identity": {
+        "wikidata": "Q1792537"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Artificial leather",
+          "url": "https://en.wikipedia.org/wiki/Artificial_leather"
+        }
+      ]
+    },
+    {
+      "id": "eptfe-laminate",
+      "name": "ePTFE membrane laminate",
+      "family": "laminate",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A cloth laminated to a membrane of stretched PTFE with pores too small for water and large enough for vapour; first sold in garments in 1976.",
+      "made_from": [
+        "ptfe",
+        "nylon",
+        "polyester"
+      ],
+      "photo": "a folded swatch of eptfe membrane laminate",
+      "identity": {
+        "wikidata": "Q867068"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Gore-Tex",
+          "url": "https://en.wikipedia.org/wiki/Gore-Tex"
+        }
+      ]
+    },
+    {
+      "id": "neoprene",
+      "name": "Neoprene",
+      "family": "laminate",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A foamed chloroprene rubber between knit faces; Hugh Bradner used it for the wetsuit in 1952, and fashion took it in the 2010s.",
+      "photo": "a folded swatch of neoprene",
+      "identity": {
+        "wikidata": "Q143937"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Neoprene",
+          "url": "https://en.wikipedia.org/wiki/Neoprene"
+        }
+      ]
+    },
+    {
+      "id": "flashspun-polyethylene",
+      "name": "Flash-spun polyethylene",
+      "family": "nonwoven",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A paper-like sheet of flash-spun fibre; designers use it for jackets and bags that look like envelopes.",
+      "made_from": [
+        "hdpe"
+      ],
+      "photo": "a folded swatch of flash-spun polyethylene",
+      "identity": {
+        "wikidata": "Q1283225"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Tyvek",
+          "url": "https://en.wikipedia.org/wiki/Tyvek"
+        }
+      ]
+    },
+    {
+      "id": "microfibre-suede",
+      "name": "Microfibre suede",
+      "family": "nonwoven",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A nonwoven of very fine polyester in polyurethane that feels like suede; car cabins use it for seats and wheels.",
+      "made_from": [
+        "polyester"
+      ],
+      "photo": "a folded swatch of microfibre suede",
+      "identity": {
+        "wikidata": "Q3265316"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ultrasuede",
+          "url": "https://en.wikipedia.org/wiki/Ultrasuede"
+        }
+      ]
+    },
+    {
+      "id": "acrylic-paint",
+      "name": "Acrylic paint",
+      "family": "paint",
+      "form": "liquid",
+      "senses": [],
+      "is_a": [
+        "paint"
+      ],
+      "aliases": [
+        "acrylics",
+        "liquid acrylic"
+      ],
+      "photo": "a small glass dish of acrylic paint",
+      "identity": {
+        "wikidata": "Q207849"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Acrylic paint",
+          "url": "https://en.wikipedia.org/wiki/Acrylic_paint"
+        }
+      ]
+    },
+    {
+      "id": "enamel-paint",
+      "name": "Enamel paint",
+      "family": "paint",
+      "form": "liquid",
+      "senses": [],
+      "is_a": [
+        "paint"
+      ],
+      "aliases": [
+        "enamel"
+      ],
+      "photo": "a small glass dish of enamel paint",
+      "identity": {
+        "wikidata": "Q2386424"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Enamel paint",
+          "url": "https://en.wikipedia.org/wiki/Enamel_paint"
+        }
+      ]
+    },
+    {
+      "id": "powder-coat",
+      "name": "Powder coating",
+      "family": "paint",
+      "form": "coating",
+      "senses": [],
+      "aliases": [
+        "powder coat"
+      ],
+      "photo": "a square sample panel finished with powder coating",
+      "identity": {
+        "wikidata": "Q445063"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Powder coating",
+          "url": "https://en.wikipedia.org/wiki/Powder_coating"
+        }
+      ]
+    },
+    {
+      "id": "abs-plastic",
+      "name": "ABS plastic",
+      "family": "plastic",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials",
+        "industrial.materials"
+      ],
+      "summary": "A tough, mouldable plastic; one-piece injection-moulded watch cases used it from 1983.",
+      "properties": {
+        "warmth": 0.2
+      },
+      "photo": "a square sample sheet of abs plastic",
+      "identity": {
+        "wikidata": "Q143496"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Acrylonitrile butadiene styrene",
+          "url": "https://en.wikipedia.org/wiki/Acrylonitrile_butadiene_styrene"
+        }
+      ]
+    },
+    {
+      "id": "acetate-sheet",
+      "name": "Cellulose acetate sheet",
+      "family": "plastic",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Plastic sheet cut and polished into eyeglass frames, with layers of colour and tortoiseshell patterns.",
+      "made_from": [
+        "wood-pulp"
+      ],
+      "photo": "a square sample sheet of cellulose acetate sheet",
+      "identity": {
+        "wikidata": "Q124686"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Cellulose acetate",
+          "url": "https://en.wikipedia.org/wiki/Cellulose_acetate"
+        }
+      ]
+    },
+    {
+      "id": "acrylic-glass",
+      "name": "Acrylic glass",
+      "family": "plastic",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "A clear, light plastic; watches used it as a crystal that does not shatter, and handbags and jewellery used it in colour.",
+      "photo": "a square sample sheet of acrylic glass",
+      "identity": {
+        "wikidata": "Q146123"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Poly(methyl methacrylate)",
+          "url": "https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)"
+        }
+      ]
+    },
+    {
+      "id": "bakelite",
+      "name": "Bakelite",
+      "family": "plastic",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials",
+        "industrial.materials"
+      ],
+      "summary": "The first fully synthetic plastic, a phenol-formaldehyde resin; cast Bakelite made the colourful bangles of the 1930s.",
+      "properties": {
+        "warmth": 0.45
+      },
+      "photo": "a square sample sheet of bakelite",
+      "identity": {
+        "wikidata": "Q146578"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Bakelite",
+          "url": "https://en.wikipedia.org/wiki/Bakelite"
+        }
+      ]
+    },
+    {
+      "id": "celluloid",
+      "name": "Celluloid",
+      "family": "plastic",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "The first thermoplastic, of nitrocellulose and camphor; it replaced ivory and tortoiseshell in combs, collars and frames.",
+      "photo": "a square sample sheet of celluloid",
+      "identity": {
+        "wikidata": "Q146612"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Celluloid",
+          "url": "https://en.wikipedia.org/wiki/Celluloid"
+        }
+      ]
+    },
+    {
+      "id": "eva-foam",
+      "name": "EVA foam",
+      "family": "plastic",
+      "form": "block",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "A light foam of ethylene-vinyl acetate for midsoles; it made the cushioned running shoe.",
+      "photo": "a rough block of eva foam",
+      "identity": {
+        "wikidata": "Q144917"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ethylene-vinyl acetate",
+          "url": "https://en.wikipedia.org/wiki/Ethylene-vinyl_acetate"
+        }
+      ]
+    },
+    {
+      "id": "hdpe",
+      "name": "High-density polyethylene",
+      "family": "plastic",
+      "form": "raw",
+      "senses": [],
+      "aliases": [
+        "hdpe"
+      ],
+      "photo": "high-density polyethylene",
+      "identity": {
+        "wikidata": "Q2641430"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: High-density polyethylene",
+          "url": "https://en.wikipedia.org/wiki/High-density_polyethylene"
+        }
+      ]
+    },
+    {
+      "id": "plastic",
+      "name": "Plastic",
+      "family": "plastic",
+      "form": "sheet",
+      "senses": [
+        "ceramics.materials"
+      ],
+      "summary": "A moulded polymer, the usual substitute for ceramic in cheap ware.",
+      "photo": "a square sample sheet of plastic",
+      "identity": {
+        "wikidata": "Q11474"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Plastic",
+          "url": "https://en.wikipedia.org/wiki/Plastic"
+        }
+      ]
+    },
+    {
+      "id": "polycarbonate",
+      "name": "Polycarbonate",
+      "family": "plastic",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "A clear, tough plastic. It replaced glass in lamp lenses and became a body panel material when moulded in large parts.",
+      "photo": "a square sample sheet of polycarbonate",
+      "identity": {
+        "wikidata": "Q62246"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Polycarbonate",
+          "url": "https://en.wikipedia.org/wiki/Polycarbonate"
+        }
+      ]
+    },
+    {
+      "id": "ptfe",
+      "name": "Polytetrafluoroethylene",
+      "family": "plastic",
+      "form": "raw",
+      "senses": [],
+      "aliases": [
+        "ptfe",
+        "teflon"
+      ],
+      "photo": "polytetrafluoroethylene",
+      "identity": {
+        "wikidata": "Q143252"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Polytetrafluoroethylene",
+          "url": "https://en.wikipedia.org/wiki/Polytetrafluoroethylene"
+        }
+      ]
+    },
+    {
+      "id": "pvc",
+      "name": "PVC",
+      "family": "plastic",
+      "form": "sheet",
+      "senses": [
+        "industrial.materials"
+      ],
+      "properties": {
+        "warmth": 0.15
+      },
+      "photo": "a square sample sheet of pvc",
+      "identity": {
+        "wikidata": "Q146368"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Polyvinyl chloride",
+          "url": "https://en.wikipedia.org/wiki/Polyvinyl_chloride"
+        }
+      ]
+    },
+    {
+      "id": "acetate",
+      "name": "Cellulose acetate",
+      "family": "regenerated-fibre",
+      "form": "fibre",
+      "senses": [
+        "fashion.fibres"
+      ],
+      "summary": "A cellulose fibre with a silk-like drape and lustre, used for linings and evening dress.",
+      "made_from": [
+        "wood-pulp"
+      ],
+      "photo": "a loose hank of cellulose acetate fibre",
+      "identity": {
+        "wikidata": "Q124686"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Cellulose acetate",
+          "url": "https://en.wikipedia.org/wiki/Cellulose_acetate"
+        }
+      ]
+    },
+    {
+      "id": "lyocell",
+      "name": "Lyocell",
+      "family": "regenerated-fibre",
+      "form": "fibre",
+      "senses": [
+        "fashion.fibres"
+      ],
+      "summary": "A cellulose fibre spun from a solvent that the process recovers; it was sold from 1992.",
+      "made_from": [
+        "wood-pulp"
+      ],
+      "photo": "a loose hank of lyocell fibre",
+      "identity": {
+        "wikidata": "Q899347"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Lyocell",
+          "url": "https://en.wikipedia.org/wiki/Lyocell"
+        }
+      ]
+    },
+    {
+      "id": "viscose",
+      "name": "Viscose rayon",
+      "family": "regenerated-fibre",
+      "form": "fibre",
+      "senses": [
+        "fashion.fibres"
+      ],
+      "summary": "The first regenerated cellulose fibre made at scale; Chardonnet showed a nitrocellulose 'artificial silk' in 1889.",
+      "made_from": [
+        "wood-pulp"
+      ],
+      "photo": "a loose hank of viscose rayon fibre",
+      "identity": {
+        "wikidata": "Q910194"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Rayon",
+          "url": "https://en.wikipedia.org/wiki/Rayon"
+        }
+      ]
+    },
+    {
+      "id": "fluoroelastomer",
+      "name": "Fluoroelastomer",
+      "family": "rubber",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "A soft synthetic rubber that resists sweat, oil and sunlight. Smartwatch sport bands use it. DuPont launched the fluoroelastomer Viton in 1957.",
+      "photo": "a square sample sheet of fluoroelastomer",
+      "identity": {
+        "wikidata": "Q4493247"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Fluoroelastomer",
+          "url": "https://en.wikipedia.org/wiki/Fluoroelastomer"
+        }
+      ]
+    },
+    {
+      "id": "vulcanised-rubber",
+      "name": "Vulcanised rubber",
+      "family": "rubber",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Rubber cured with sulphur so that it stays elastic; it made the galosh, the plimsoll and the sneaker sole.",
+      "made_from": [
+        "natural-rubber"
+      ],
+      "photo": "a square sample sheet of vulcanised rubber",
+      "identity": {
+        "wikidata": "Q188631"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Vulcanization",
+          "url": "https://en.wikipedia.org/wiki/Vulcanization"
+        }
+      ]
+    },
+    {
+      "id": "acrylic",
+      "name": "Acrylic",
+      "family": "synthetic-fibre",
+      "form": "fibre",
+      "senses": [
+        "fashion.fibres",
+        "industrial.materials"
+      ],
+      "summary": "A synthetic fibre with a wool-like hand, used for knitwear and fleece.",
+      "properties": {
+        "warmth": 0.15
+      },
+      "photo": "a loose hank of acrylic fibre",
+      "identity": {
+        "wikidata": "Q2259977"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Acrylic fiber",
+          "url": "https://en.wikipedia.org/wiki/Acrylic_fiber"
+        }
+      ]
+    },
+    {
+      "id": "aramid",
+      "name": "Aramid",
+      "family": "synthetic-fibre",
+      "form": "fibre",
+      "senses": [
+        "fashion.fibres"
+      ],
+      "summary": "A heat- and cut-resistant fibre with high strength, used for protective clothing and racing suits.",
+      "photo": "a loose hank of aramid fibre",
+      "identity": {
+        "wikidata": "Q422054"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Aramid",
+          "url": "https://en.wikipedia.org/wiki/Aramid"
+        }
+      ]
+    },
+    {
+      "id": "elastane",
+      "name": "Elastane",
+      "family": "synthetic-fibre",
+      "form": "fibre",
+      "senses": [
+        "fashion.fibres"
+      ],
+      "summary": "A polyurethane fibre that stretches to five or more times its length and recovers; it replaced rubber thread in foundation garments.",
+      "photo": "a loose hank of elastane fibre",
+      "identity": {
+        "wikidata": "Q330262"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Spandex",
+          "url": "https://en.wikipedia.org/wiki/Spandex"
+        }
+      ]
+    },
+    {
+      "id": "nylon",
+      "name": "Nylon",
+      "family": "synthetic-fibre",
+      "form": "fibre",
+      "senses": [
+        "fashion.fibres"
+      ],
+      "summary": "The first fully synthetic fibre; nylon stockings went on sale in 1940, and the war took the fibre for parachutes.",
+      "photo": "a loose hank of nylon fibre",
+      "identity": {
+        "wikidata": "Q177941"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Nylon",
+          "url": "https://en.wikipedia.org/wiki/Nylon"
+        }
+      ]
+    },
+    {
+      "id": "polyester",
+      "name": "Polyester",
+      "family": "synthetic-fibre",
+      "form": "fibre",
+      "senses": [
+        "fashion.fibres"
+      ],
+      "summary": "A synthetic fibre that holds a crease and a pleat; it became the fibre of easy-care dress in the 1950s and 1960s.",
+      "photo": "a loose hank of polyester fibre",
+      "identity": {
+        "wikidata": "Q188245"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Polyester",
+          "url": "https://en.wikipedia.org/wiki/Polyester"
+        }
+      ]
+    },
+    {
+      "id": "polypropylene",
+      "name": "Polypropylene",
+      "family": "synthetic-fibre",
+      "form": "fibre",
+      "senses": [
+        "fashion.fibres",
+        "industrial.materials"
+      ],
+      "summary": "A light fibre that takes up almost no water; it became the first synthetic base layer in the 1970s.",
+      "properties": {
+        "warmth": 0.2
+      },
+      "photo": "a loose hank of polypropylene fibre",
+      "identity": {
+        "wikidata": "Q146174"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Polypropylene",
+          "url": "https://en.wikipedia.org/wiki/Polypropylene"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-insulation",
+      "name": "Synthetic insulation",
+      "family": "synthetic-fibre",
+      "form": "fill",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Fine polyester fibre batting that keeps its warmth when wet; it replaced down in wet climates.",
+      "made_from": [
+        "polyester"
+      ],
+      "photo": "a small heap of synthetic insulation",
+      "identity": {
+        "wikidata": "Q7243001"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: PrimaLoft",
+          "url": "https://en.wikipedia.org/wiki/PrimaLoft"
+        }
+      ]
+    },
+    {
+      "id": "uhmwpe",
+      "name": "Ultra-high-molecular-weight polyethylene",
+      "family": "synthetic-fibre",
+      "form": "fibre",
+      "senses": [
+        "fashion.fibres"
+      ],
+      "summary": "A gel-spun fibre with a high strength for its weight, used in light technical packs and shells.",
+      "photo": "a loose hank of ultra-high-molecular-weight polyethylene fibre",
+      "identity": {
+        "wikidata": "Q575823"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ultra-high-molecular-weight polyethylene",
+          "url": "https://en.wikipedia.org/wiki/Ultra-high-molecular-weight_polyethylene"
+        }
+      ]
+    },
+    {
+      "id": "nylon-mesh",
+      "name": "Nylon mesh",
+      "family": "warp-knit",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "An open warp-knit nylon that passes air and dries fast; the light upper of the running shoe, in place of leather and canvas.",
+      "made_from": [
+        "nylon"
+      ],
+      "photo": "a folded swatch of nylon mesh",
+      "identity": {
+        "wikidata": "Q24503377"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Mesh",
+          "url": "https://en.wikipedia.org/wiki/Mesh"
+        }
+      ]
+    },
+    {
+      "id": "nylon-tricot",
+      "name": "Nylon tricot",
+      "family": "warp-knit",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A fine warp-knit nylon with a smooth face and a run-resistant structure; the cloth of slips, briefs and linings.",
+      "made_from": [
+        "nylon"
+      ],
+      "photo": "a folded swatch of nylon tricot",
+      "identity": {
+        "wikidata": "Q4867037"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Basic knitted fabrics",
+          "url": "https://en.wikipedia.org/wiki/Basic_knitted_fabrics"
+        }
+      ]
+    },
+    {
+      "id": "powernet",
+      "name": "Powernet",
+      "family": "warp-knit",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A warp-knit elastic mesh for girdles, corsets and shapewear; it holds the body with no bones.",
+      "made_from": [
+        "elastane",
+        "nylon"
+      ],
+      "photo": "a folded swatch of powernet",
+      "identity": {
+        "wikidata": "Q7236796"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Powernet",
+          "url": "https://en.wikipedia.org/wiki/Powernet"
+        }
+      ]
+    },
+    {
+      "id": "spandex-jersey",
+      "name": "Elastane jersey",
+      "family": "warp-knit",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A knit with elastane that fits the body with no darts; the cloth of swimwear, leggings and the body.",
+      "made_from": [
+        "elastane",
+        "nylon",
+        "polyester"
+      ],
+      "photo": "a folded swatch of elastane jersey",
+      "identity": {
+        "wikidata": "Q330262"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Spandex",
+          "url": "https://en.wikipedia.org/wiki/Spandex"
+        }
+      ]
+    },
+    {
+      "id": "nylon-sheer",
+      "name": "Nylon sheer knit",
+      "family": "weft-knit",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "The sheer knit of the nylon stocking; on its first day of sale in 1940 women bought about four million pairs.",
+      "made_from": [
+        "nylon"
+      ],
+      "photo": "a folded swatch of nylon sheer knit",
+      "identity": {
+        "wikidata": "Q276389"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Pantyhose",
+          "url": "https://en.wikipedia.org/wiki/Pantyhose"
+        }
+      ]
+    },
+    {
+      "id": "polar-fleece",
+      "name": "Polar fleece",
+      "family": "weft-knit",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A napped polyester knit made with Patagonia as a light, quick-dry replacement for wool pile; sold as Polartec from 1981.",
+      "made_from": [
+        "polyester"
+      ],
+      "photo": "a folded swatch of polar fleece",
+      "identity": {
+        "wikidata": "Q1143415"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Polar fleece",
+          "url": "https://en.wikipedia.org/wiki/Polar_fleece"
+        }
+      ]
+    },
+    {
+      "id": "recycled-polyester-knit",
+      "name": "Recycled polyester knit",
+      "family": "weft-knit",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A knit made of polyester fibre that is spun from used plastic bottles. Car makers use it for seats and door trim.",
+      "made_from": [
+        "polyester"
+      ],
+      "photo": "a folded swatch of recycled polyester knit",
+      "identity": {
+        "wikidata": "Q145863"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Polyethylene terephthalate",
+          "url": "https://en.wikipedia.org/wiki/Polyethylene_terephthalate"
+        }
+      ]
+    },
+    {
+      "id": "velour",
+      "name": "Velour",
+      "family": "weft-knit",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A soft knit with a cut pile. It covered the seats and door panels of many cars in the 1970s and 1980s.",
+      "made_from": [
+        "polyester"
+      ],
+      "photo": "a folded swatch of velour",
+      "identity": {
+        "wikidata": "Q621044"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Velour",
+          "url": "https://en.wikipedia.org/wiki/Velour"
+        }
+      ]
+    },
+    {
+      "id": "ballistic-nylon",
+      "name": "Ballistic nylon",
+      "family": "woven-basket",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A heavy basket-weave nylon made for flak jackets; it went into luggage, packs and watch straps.",
+      "made_from": [
+        "nylon"
+      ],
+      "photo": "a folded swatch of ballistic nylon",
+      "identity": {
+        "wikidata": "Q4851804"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ballistic nylon",
+          "url": "https://en.wikipedia.org/wiki/Ballistic_nylon"
+        }
+      ]
+    },
+    {
+      "id": "ripstop-nylon",
+      "name": "Ripstop nylon",
+      "family": "woven-plain",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A plain weave with a heavier yarn in a grid that stops a tear; made for parachutes, then shells and down jackets.",
+      "made_from": [
+        "nylon"
+      ],
+      "photo": "a folded swatch of ripstop nylon",
+      "identity": {
+        "wikidata": "Q937461"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ripstop",
+          "url": "https://en.wikipedia.org/wiki/Ripstop"
+        }
+      ]
+    },
+    {
+      "id": "nylon-webbing",
+      "name": "Nylon webbing",
+      "family": "woven-twill",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A narrow, tough nylon tape. A British army standard of 1973 made it the one-piece watch strap that slides under the watch.",
+      "made_from": [
+        "nylon"
+      ],
+      "photo": "a folded swatch of nylon webbing",
+      "identity": {
+        "wikidata": "Q2490558"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Webbing",
+          "url": "https://en.wikipedia.org/wiki/Webbing"
+        }
+      ]
+    },
+    {
+      "id": "poly-cotton-twill",
+      "name": "Poly-cotton twill",
+      "family": "woven-twill",
+      "form": "cloth",
+      "senses": [
+        "fashion.fabrics"
+      ],
+      "summary": "A dense twill of about 65 per cent polyester and 35 per cent cotton that takes a wax finish; it was made for the Nordic field jacket and trouser.",
+      "made_from": [
+        "polyester",
+        "cotton"
+      ],
+      "photo": "a folded swatch of poly-cotton twill",
+      "identity": {
+        "wikidata": "Q188245"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Polyester",
+          "url": "https://en.wikipedia.org/wiki/Polyester"
+        }
+      ]
+    }
+  ]
+}

@@ -7,6 +7,7 @@
  *                                     of styles that refer to files not yet present)
  */
 import { Ajv2020 } from "ajv/dist/2020.js";
+import { existsSync } from "node:fs";
 import { join } from "node:path";
 import { RECIPE_NAMES } from "./pack.js";
 import { GROUND_KINDS } from "./ground.js";
@@ -16,6 +17,7 @@ import { checkFashionStyle, checkFashionVocabulary, loadFashionVocabulary, type 
 import { checkCeramicsStyle, checkCeramicsVocabulary, loadCeramicsVocabulary, type CeramicsStyle } from "./ceramics.js";
 import { checkCuisineStyle, checkCuisineVocabulary, loadCuisineVocabulary, type CuisineStyle } from "./cuisine.js";
 import { loadCues, loadEmotions, loadEvokes, loadKeywordMap, loadMoments } from "./emotions.js";
+import { checkLayer, loadEdgeFiles, loadLayer, loadMaterialClasses } from "./materials.js";
 import { ROOT, loadDomains, loadEras, loadFunding, loadOrgs, loadPeople, loadPrinciples, loadStyleFiles, loadTechniques, principleRefs, readJson, type Style } from "./lib.js";
 
 const schemaOnly = process.argv.includes("--schema-only");
@@ -469,6 +471,17 @@ for (const { file, slug, moment: m } of moments) {
   if (m.people.max !== null && m.people.max < m.people.min) errors.push(`${file}: people.max is below people.min`);
 }
 
+// The material layer (data/materials/): one node for each real thing, the edges from processes to materials, the tools.
+const validateMaterial = ajv.compile(readJson<object>(join(ROOT, "schema", "material.schema.json")));
+const validateEdges = ajv.compile(readJson<object>(join(ROOT, "schema", "material-edges.schema.json")));
+const validateTools = ajv.compile(readJson<object>(join(ROOT, "schema", "tools.schema.json")));
+for (const { file, data } of loadMaterialClasses()) if (!validateMaterial(data)) for (const e of validateMaterial.errors ?? []) errors.push(`${file}: ${e.instancePath || "/"} ${e.message}`);
+for (const { file, data } of loadEdgeFiles()) if (!validateEdges(data)) for (const e of validateEdges.errors ?? []) errors.push(`${file}: ${e.instancePath || "/"} ${e.message}`);
+const toolsFile = join(ROOT, "data", "materials", "tools.json");
+if (existsSync(toolsFile) && !validateTools(readJson<object>(toolsFile))) for (const e of validateTools.errors ?? []) errors.push(`data/materials/tools.json: ${e.instancePath || "/"} ${e.message}`);
+const materialLayer = loadLayer();
+if (!schemaOnly && errors.length === 0) errors.push(...checkLayer(materialLayer));
+
 // The curation gate (CONTRIBUTING.md, "The six curation rules"). A miss is an error. The only
 // exception is a style on data/curation-allowlist.json, which can only shrink.
 let curation = "";
@@ -493,6 +506,6 @@ for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`error ${e}`);
 console.log(
   `${count} styles in ${domains.length} domains · ${principles.length} principles · ${techniques.length} techniques · ${people.length} people · ${errors.length} errors · ${warnings.length} warnings` +
-    ` · ${orgs.length} orgs · ${funding.length} funding flows · ${nets.length} object nets · ${emotions.length} emotions · ${evokesEdges} evokes edges (${evokesSourced} sourced) · ${cues.length} cues · ${moments.length} moments` + curation + (schemaOnly ? " · schema only" : ""),
+    ` · ${materialLayer.byId.size} materials · ${materialLayer.edges.length} process edges · ${orgs.length} orgs · ${funding.length} funding flows · ${nets.length} object nets · ${emotions.length} emotions · ${evokesEdges} evokes edges (${evokesSourced} sourced) · ${cues.length} cues · ${moments.length} moments` + curation + (schemaOnly ? " · schema only" : ""),
 );
 process.exit(errors.length ? 1 : 0);

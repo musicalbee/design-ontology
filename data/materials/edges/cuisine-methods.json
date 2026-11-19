@@ -1,0 +1,572 @@
+{
+  "$schema": "../../../schema/material-edges.schema.json",
+  "group": "cuisine.methods",
+  "summary": "The edges of the cooking methods in the cuisine vocabulary: the ingredient that each method cooks, what it adds and the equipment.",
+  "edges": [
+    {
+      "process": "cuisine.methods:spit-roasting",
+      "acts_on": [
+        "lamb",
+        "chicken",
+        "game-birds"
+      ],
+      "with": [
+        "spit"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Rotisserie",
+          "url": "https://en.wikipedia.org/wiki/Rotisserie"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:grilling",
+      "acts_on": [
+        "beef",
+        "tuna",
+        "banana"
+      ],
+      "adds": [
+        "charcoal"
+      ],
+      "with": [
+        "grill"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Grilling",
+          "url": "https://en.wikipedia.org/wiki/Grilling"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:wood-fire",
+      "acts_on": [
+        "bread",
+        "beef"
+      ],
+      "adds": [
+        "wood"
+      ],
+      "with": [
+        "oven"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Oven",
+          "url": "https://en.wikipedia.org/wiki/Oven"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:oven-roasting",
+      "acts_on": [
+        "chicken",
+        "root-vegetables",
+        "potato"
+      ],
+      "with": [
+        "oven"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Roasting",
+          "url": "https://en.wikipedia.org/wiki/Roasting"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:braising",
+      "acts_on": [
+        "beef",
+        "lamb"
+      ],
+      "adds": [
+        "wine",
+        "stock"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Braising",
+          "url": "https://en.wikipedia.org/wiki/Braising"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:poaching",
+      "acts_on": [
+        "egg",
+        "salmon",
+        "peach"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Poaching (cooking)",
+          "url": "https://en.wikipedia.org/wiki/Poaching_(cooking)"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:steaming",
+      "acts_on": [
+        "rice",
+        "cod"
+      ],
+      "adds": [
+        "banana-leaf"
+      ],
+      "with": [
+        "steamer"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Steaming",
+          "url": "https://en.wikipedia.org/wiki/Steaming"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:boiling",
+      "acts_on": [
+        "potato",
+        "pulses",
+        "rice"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Boiling",
+          "url": "https://en.wikipedia.org/wiki/Boiling"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:sauteing",
+      "acts_on": [
+        "onion",
+        "wild-mushrooms"
+      ],
+      "adds": [
+        "butter"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Sautéing",
+          "url": "https://en.wikipedia.org/wiki/Saut%C3%A9ing"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:deep-frying",
+      "acts_on": [
+        "potato",
+        "plantain",
+        "banana",
+        "shellfish"
+      ],
+      "adds": [
+        "lard"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Deep frying",
+          "url": "https://en.wikipedia.org/wiki/Deep_frying"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:confit",
+      "acts_on": [
+        "duck"
+      ],
+      "adds": [
+        "lard"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Confit",
+          "url": "https://en.wikipedia.org/wiki/Confit"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:stock-making",
+      "acts_on": [
+        "beef",
+        "chicken",
+        "onion",
+        "carrot"
+      ],
+      "makes": [
+        "stock"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Stock (food)",
+          "url": "https://en.wikipedia.org/wiki/Stock_(food)"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:roux",
+      "acts_on": [
+        "wheat"
+      ],
+      "adds": [
+        "butter"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Roux",
+          "url": "https://en.wikipedia.org/wiki/Roux"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:mother-sauces",
+      "acts_on": [
+        "stock",
+        "milk"
+      ],
+      "adds": [
+        "butter",
+        "wheat"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: French mother sauces",
+          "url": "https://en.wikipedia.org/wiki/French_mother_sauces"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:emulsion-sauce",
+      "acts_on": [
+        "egg"
+      ],
+      "adds": [
+        "butter",
+        "olive-oil",
+        "lemon"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Emulsion",
+          "url": "https://en.wikipedia.org/wiki/Emulsion"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:reduction",
+      "acts_on": [
+        "stock",
+        "wine"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Reduction (cooking)",
+          "url": "https://en.wikipedia.org/wiki/Reduction_(cooking)"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:bread-thickening",
+      "acts_on": [
+        "bread"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Thickening agent",
+          "url": "https://en.wikipedia.org/wiki/Thickening_agent"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:larding",
+      "acts_on": [
+        "beef",
+        "venison"
+      ],
+      "adds": [
+        "lard"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Lardon",
+          "url": "https://en.wikipedia.org/wiki/Lardon"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:aspic",
+      "acts_on": [
+        "stock"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Aspic",
+          "url": "https://en.wikipedia.org/wiki/Aspic"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:pate-en-croute",
+      "acts_on": [
+        "pork",
+        "foie-gras"
+      ],
+      "adds": [
+        "wheat"
+      ],
+      "with": [
+        "oven"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Pâté",
+          "url": "https://en.wikipedia.org/wiki/P%C3%A2t%C3%A9"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:knife-work",
+      "acts_on": [
+        "onion",
+        "carrot",
+        "tuna"
+      ],
+      "with": [
+        "chef-knife"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Julienning",
+          "url": "https://en.wikipedia.org/wiki/Julienning"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:plated-service",
+      "adds": [
+        "porcelain",
+        "banana-leaf"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Food presentation",
+          "url": "https://en.wikipedia.org/wiki/Food_presentation"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:sous-vide",
+      "acts_on": [
+        "beef",
+        "egg"
+      ],
+      "with": [
+        "immersion-circulator"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Sous vide",
+          "url": "https://en.wikipedia.org/wiki/Sous_vide"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:spherification",
+      "acts_on": [
+        "tropical-fruit"
+      ],
+      "adds": [
+        "sodium-alginate"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Spherification",
+          "url": "https://en.wikipedia.org/wiki/Spherification"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:siphon-foam",
+      "acts_on": [
+        "cream"
+      ],
+      "with": [
+        "whipping-siphon"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Foam (cooking)",
+          "url": "https://en.wikipedia.org/wiki/Foam_(cooking)"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:cryo-freezing",
+      "acts_on": [
+        "cream",
+        "berries"
+      ],
+      "adds": [
+        "liquid-nitrogen"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Liquid nitrogen",
+          "url": "https://en.wikipedia.org/wiki/Liquid_nitrogen"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:dehydrating",
+      "acts_on": [
+        "tomato",
+        "tropical-fruit",
+        "banana"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Food drying",
+          "url": "https://en.wikipedia.org/wiki/Food_drying"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:smoking",
+      "acts_on": [
+        "salmon",
+        "pork"
+      ],
+      "adds": [
+        "wood"
+      ],
+      "with": [
+        "smokehouse"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Smoking (cooking)",
+          "url": "https://en.wikipedia.org/wiki/Smoking_(cooking)"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:salt-curing",
+      "acts_on": [
+        "pork",
+        "cod"
+      ],
+      "adds": [
+        "salt"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Curing (food preservation)",
+          "url": "https://en.wikipedia.org/wiki/Curing_(food_preservation)"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:pickling",
+      "acts_on": [
+        "onion",
+        "cabbage"
+      ],
+      "adds": [
+        "vinegar",
+        "salt"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Pickling",
+          "url": "https://en.wikipedia.org/wiki/Pickling"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:lacto-fermentation",
+      "acts_on": [
+        "cabbage"
+      ],
+      "adds": [
+        "salt"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Lactic acid fermentation",
+          "url": "https://en.wikipedia.org/wiki/Lactic_acid_fermentation"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:koji-fermentation",
+      "acts_on": [
+        "rice"
+      ],
+      "adds": [
+        "koji"
+      ],
+      "makes": [
+        "miso",
+        "soy-sauce"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Aspergillus oryzae",
+          "url": "https://en.wikipedia.org/wiki/Aspergillus_oryzae"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:acid-curing",
+      "acts_on": [
+        "sole"
+      ],
+      "adds": [
+        "lemon",
+        "lime"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Ceviche",
+          "url": "https://en.wikipedia.org/wiki/Ceviche"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:raw-slicing",
+      "acts_on": [
+        "tuna",
+        "salmon"
+      ],
+      "with": [
+        "chef-knife"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Sashimi",
+          "url": "https://en.wikipedia.org/wiki/Sashimi"
+        }
+      ]
+    },
+    {
+      "process": "cuisine.methods:wok-cooking",
+      "acts_on": [
+        "rice",
+        "seasonal-greens"
+      ],
+      "with": [
+        "wok"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Wok",
+          "url": "https://en.wikipedia.org/wiki/Wok"
+        }
+      ]
+    }
+  ]
+}

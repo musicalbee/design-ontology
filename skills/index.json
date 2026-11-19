@@ -17058,7 +17058,8 @@
       },
       "techniques": [
         "board-marked-concrete",
-        "exposed-services"
+        "exposed-services",
+        "welding"
       ],
       "orgs": [
         "dwell"
@@ -30144,7 +30145,8 @@
         "chromatic_intensity": 4
       },
       "techniques": [
-        "chintz"
+        "chintz",
+        "electroplating"
       ],
       "orgs": [
         "great-exhibition"
@@ -30435,7 +30437,8 @@
         "chromatic_intensity": 1
       },
       "techniques": [
-        "vitreous-enamelling"
+        "vitreous-enamelling",
+        "welding"
       ],
       "orgs": [
         "aeg",
@@ -30535,7 +30538,8 @@
         "chromatic_intensity": 2
       },
       "techniques": [
-        "cantilever"
+        "cantilever",
+        "electroplating"
       ],
       "orgs": [
         "bauhaus-school"
@@ -30632,6 +30636,7 @@
         "chromatic_intensity": 3
       },
       "techniques": [
+        "electroplating",
         "sunburst"
       ],
       "orgs": [
@@ -30731,6 +30736,7 @@
         "chromatic_intensity": 2
       },
       "techniques": [
+        "electroplating",
         "laminated-timber"
       ],
       "orgs": [
@@ -30928,7 +30934,8 @@
         "chromatic_intensity": 4
       },
       "techniques": [
-        "laminated-timber"
+        "laminated-timber",
+        "welding"
       ],
       "orgs": [
         "ford-foundation",
@@ -33835,7 +33842,8 @@
       },
       "techniques": [
         "chrome-plating",
-        "coachbuilding"
+        "coachbuilding",
+        "electroplating"
       ],
       "orgs": [
         "paris-motor-show"
@@ -34181,7 +34189,8 @@
         "chromatic_intensity": 5
       },
       "techniques": [
-        "chrome-plating"
+        "chrome-plating",
+        "electroplating"
       ],
       "orgs": [
         "vogue"
@@ -34619,6 +34628,7 @@
       "techniques": [
         "chrome-plating",
         "sheet-metal-pressing",
+        "welding",
         "wind-tunnel-testing"
       ],
       "orgs": [
@@ -35911,7 +35921,8 @@
         "chromatic_intensity": 2
       },
       "techniques": [
-        "lost-wax-casting"
+        "lost-wax-casting",
+        "welding"
       ],
       "orgs": [
         "andrew-grima-london"
@@ -35998,7 +36009,8 @@
         "chromatic_intensity": 5
       },
       "techniques": [
-        "pvc-coated-cloth"
+        "pvc-coated-cloth",
+        "welding"
       ],
       "orgs": [
         "bazaar-boutique"
@@ -36429,7 +36441,8 @@
         "chromatic_intensity": 4
       },
       "techniques": [
-        "linked-disc-assembly"
+        "linked-disc-assembly",
+        "welding"
       ],
       "orgs": [
         "maison-courreges",
@@ -37550,7 +37563,8 @@
       },
       "techniques": [
         "injection-moulding",
-        "quartz-movement"
+        "quartz-movement",
+        "welding"
       ],
       "orgs": [
         "swatch-line"
@@ -50338,6 +50352,76 @@
       ]
     },
     {
+      "id": "electroplating",
+      "name": "Electroplating",
+      "kind": "process",
+      "origin": {
+        "domain": "industrial",
+        "year": 1840,
+        "where": "Birmingham, United Kingdom",
+        "note": "George and Henry Elkington patent cyanide silver plating; Luigi Brugnatelli gilded silver by electrolysis in 1805."
+      },
+      "adoptions": [
+        {
+          "domain": "industrial",
+          "year": 1840,
+          "via": "Elkington silver plate replaces Sheffield plate on factory-made tableware.",
+          "styles": [
+            "victorian-manufacture"
+          ],
+          "lag_years": 0
+        },
+        {
+          "domain": "fashion",
+          "year": 1924,
+          "circa": true,
+          "via": "Gilt and chrome plate give cast base-metal jewels the look of gold and platinum.",
+          "styles": [
+            "costume-jewellery"
+          ],
+          "lag_years": 84
+        },
+        {
+          "domain": "fashion",
+          "year": 1925,
+          "circa": true,
+          "via": "Nickel and chrome plate cover the lamps, the radiator and the bumpers of the car.",
+          "styles": [
+            "vintage-coachbuilt-car"
+          ],
+          "lag_years": 85
+        },
+        {
+          "domain": "industrial",
+          "year": 1925,
+          "via": "Nickel-plated brass and chrome-plated steel become the metal of the modern lamp and chair.",
+          "styles": [
+            "art-deco-product",
+            "bauhaus-product"
+          ],
+          "lag_years": 85
+        },
+        {
+          "domain": "industrial",
+          "year": 1950,
+          "circa": true,
+          "via": "Silver plate and chrome stay on Nordic tableware and lamps next to stainless steel.",
+          "styles": [
+            "scandinavian-modern-product"
+          ],
+          "lag_years": 110
+        }
+      ],
+      "styles": [
+        "victorian-manufacture",
+        "costume-jewellery",
+        "vintage-coachbuilt-car",
+        "art-deco-product",
+        "bauhaus-product",
+        "scandinavian-modern-product"
+      ]
+    },
+    {
       "id": "engine-turning",
       "name": "Engine turning",
       "kind": "skill",
@@ -58000,6 +58084,89 @@
       "styles": [
         "country-sporting-tweed",
         "nordic-functional-outdoor"
+      ]
+    },
+    {
+      "id": "welding",
+      "name": "Welding",
+      "kind": "process",
+      "origin": {
+        "domain": "industrial",
+        "year": 1881,
+        "where": "Paris, France",
+        "note": "Auguste de Méritens joins lead plates with a carbon arc; oxy-acetylene gas welding follows in 1903."
+      },
+      "adoptions": [
+        {
+          "domain": "fashion",
+          "year": 1935,
+          "circa": true,
+          "via": "Car bodies change from wood frames to all-steel welded shells and roofs.",
+          "styles": [
+            "streamline-car"
+          ],
+          "lag_years": 54
+        },
+        {
+          "domain": "industrial",
+          "year": 1945,
+          "circa": true,
+          "via": "Welded steel rod makes light bases and frames for chairs and tables.",
+          "styles": [
+            "mid-century-modern-product",
+            "industrial-utility-product"
+          ],
+          "lag_years": 64
+        },
+        {
+          "domain": "fashion",
+          "year": 1964,
+          "via": "High-frequency welding joins the seams of PVC and vinyl clothes.",
+          "styles": [
+            "mod-and-mini",
+            "space-age-couture"
+          ],
+          "lag_years": 83
+        },
+        {
+          "domain": "fashion",
+          "year": 1965,
+          "circa": true,
+          "via": "Jewellers leave the weld and the hammer mark in view on silver and gold.",
+          "styles": [
+            "brutalist-jewellery"
+          ],
+          "lag_years": 84
+        },
+        {
+          "domain": "interior",
+          "year": 1975,
+          "circa": true,
+          "via": "Loft furniture shows its welds and bolts as a sign of the factory.",
+          "styles": [
+            "industrial-loft-interior"
+          ],
+          "lag_years": 94
+        },
+        {
+          "domain": "fashion",
+          "year": 1983,
+          "via": "Ultrasonic welding seals the quartz module into the plastic watch case.",
+          "styles": [
+            "swiss-plastic-pop-watch"
+          ],
+          "lag_years": 102
+        }
+      ],
+      "styles": [
+        "streamline-car",
+        "mid-century-modern-product",
+        "industrial-utility-product",
+        "mod-and-mini",
+        "space-age-couture",
+        "brutalist-jewellery",
+        "industrial-loft-interior",
+        "swiss-plastic-pop-watch"
       ]
     },
     {

@@ -163,6 +163,15 @@ A thin layer of chromium is put on steel by electrolysis. The layer gives a hard
 - Put the part in a chromic acid bath and pass a current through it.
 - Buff the part to a mirror finish.
 
+### Electroplating (process)
+
+An electric current puts a thin layer of one metal on a part of another metal. Silver, gold, nickel and chromium plate give a cheap base metal a precious or hard surface. Origin: industrial design, Birmingham, United Kingdom, 1840.
+
+- Clean and degrease the base part, then put it in a bath of a salt of the coating metal.
+- Connect the part to the negative pole and a bar of the coating metal to the positive pole.
+- Pass a direct current until the layer is 0.5 to 25 µm thick.
+- Put a copper or nickel under-layer on steel and zinc before a bright top layer.
+
 ## Organisations
 
 The groups, studios, companies, schools, channels and backers that carried this style.

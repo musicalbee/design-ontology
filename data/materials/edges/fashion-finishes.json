@@ -1,0 +1,718 @@
+{
+  "$schema": "../../../schema/material-edges.schema.json",
+  "group": "fashion.finishes",
+  "summary": "The edges of the finishes in the fashion vocabulary: the cloth, leather, metal or stone that each finish changes.",
+  "edges": [
+    {
+      "process": "fashion.finishes:indigo-dyed",
+      "acts_on": [
+        "cotton",
+        "denim"
+      ],
+      "adds": [
+        "indigo"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Indigo dye",
+          "url": "https://en.wikipedia.org/wiki/Indigo_dye"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:synthetic-dyed",
+      "acts_on": [
+        "polyester",
+        "nylon"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: History of synthetic colourants",
+          "url": "https://en.wikipedia.org/wiki/History_of_synthetic_colourants"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:mercerised",
+      "acts_on": [
+        "cotton"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Mercerisation",
+          "url": "https://en.wikipedia.org/wiki/Mercerisation"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:sanforised",
+      "acts_on": [
+        "denim",
+        "cotton"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Sanforization",
+          "url": "https://en.wikipedia.org/wiki/Sanforization"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:napped",
+      "acts_on": [
+        "flannel",
+        "cotton"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Nap (fabric)",
+          "url": "https://en.wikipedia.org/wiki/Nap_(fabric)"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:fulled",
+      "acts_on": [
+        "wool"
+      ],
+      "makes": [
+        "loden",
+        "boiled-wool"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Fulling",
+          "url": "https://en.wikipedia.org/wiki/Fulling"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:wax-proofed",
+      "acts_on": [
+        "cotton"
+      ],
+      "adds": [
+        "beeswax"
+      ],
+      "makes": [
+        "waxed-cotton"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Waxed cotton",
+          "url": "https://en.wikipedia.org/wiki/Waxed_cotton"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:water-repellent",
+      "acts_on": [
+        "nylon",
+        "polyester",
+        "cotton"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Waterproofing",
+          "url": "https://en.wikipedia.org/wiki/Waterproofing"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:stonewashed",
+      "acts_on": [
+        "denim"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Stone washing",
+          "url": "https://en.wikipedia.org/wiki/Stone_washing"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:block-printed",
+      "acts_on": [
+        "cotton",
+        "calico"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Woodblock printing on textiles",
+          "url": "https://en.wikipedia.org/wiki/Woodblock_printing_on_textiles"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:roller-printed",
+      "acts_on": [
+        "calico",
+        "cotton"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Roller printing on textiles",
+          "url": "https://en.wikipedia.org/wiki/Roller_printing_on_textiles"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:screen-printed",
+      "acts_on": [
+        "cotton",
+        "silk"
+      ],
+      "with": [
+        "silkscreen"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Screen printing",
+          "url": "https://en.wikipedia.org/wiki/Screen_printing"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:embroidered",
+      "acts_on": [
+        "linen-cloth",
+        "silk"
+      ],
+      "adds": [
+        "silk"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Embroidery",
+          "url": "https://en.wikipedia.org/wiki/Embroidery"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:beaded",
+      "acts_on": [
+        "chiffon",
+        "tulle"
+      ],
+      "adds": [
+        "glass-pearl"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Beadwork",
+          "url": "https://en.wikipedia.org/wiki/Beadwork"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:quilted",
+      "acts_on": [
+        "nylon",
+        "cotton"
+      ],
+      "adds": [
+        "goose-down",
+        "synthetic-insulation"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Quilting",
+          "url": "https://en.wikipedia.org/wiki/Quilting"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:heat-set-pleated",
+      "acts_on": [
+        "polyester"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Pleat",
+          "url": "https://en.wikipedia.org/wiki/Pleat"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:glazed",
+      "acts_on": [
+        "calico"
+      ],
+      "makes": [
+        "glazed-chintz"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Chintz",
+          "url": "https://en.wikipedia.org/wiki/Chintz"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:burnished",
+      "acts_on": [
+        "calfskin"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Burnishing (metal)",
+          "url": "https://en.wikipedia.org/wiki/Burnishing_(metal)"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:patent-lacquered",
+      "acts_on": [
+        "leather"
+      ],
+      "adds": [
+        "linseed-oil"
+      ],
+      "makes": [
+        "patent-leather"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Patent leather",
+          "url": "https://en.wikipedia.org/wiki/Patent_leather"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:distressed",
+      "acts_on": [
+        "denim",
+        "leather"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Distressing",
+          "url": "https://en.wikipedia.org/wiki/Distressing"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:polished",
+      "acts_on": [
+        "gold",
+        "stainless-steel",
+        "sterling-silver"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Polishing",
+          "url": "https://en.wikipedia.org/wiki/Polishing"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:brushed",
+      "acts_on": [
+        "stainless-steel",
+        "titanium"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Brushed metal",
+          "url": "https://en.wikipedia.org/wiki/Brushed_metal"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:guilloche",
+      "acts_on": [
+        "gold",
+        "silver"
+      ],
+      "with": [
+        "rose-engine-lathe"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Guilloché",
+          "url": "https://en.wikipedia.org/wiki/Guilloch%C3%A9"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:engraved",
+      "acts_on": [
+        "gold",
+        "sterling-silver"
+      ],
+      "with": [
+        "burin"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Engraving",
+          "url": "https://en.wikipedia.org/wiki/Engraving"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:enamelled",
+      "acts_on": [
+        "gold",
+        "silver",
+        "copper"
+      ],
+      "adds": [
+        "glass"
+      ],
+      "makes": [
+        "vitreous-enamel"
+      ],
+      "with": [
+        "kiln"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Vitreous enamel",
+          "url": "https://en.wikipedia.org/wiki/Vitreous_enamel"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:gilded",
+      "acts_on": [
+        "sterling-silver",
+        "brass"
+      ],
+      "adds": [
+        "gold"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Gilding",
+          "url": "https://en.wikipedia.org/wiki/Gilding"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:rhodium-plated",
+      "acts_on": [
+        "white-gold",
+        "sterling-silver"
+      ],
+      "adds": [
+        "rhodium"
+      ],
+      "with": [
+        "electrolytic-bath"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Rhodium",
+          "url": "https://en.wikipedia.org/wiki/Rhodium"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:pvd-coated",
+      "acts_on": [
+        "stainless-steel",
+        "titanium"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Physical vapor deposition",
+          "url": "https://en.wikipedia.org/wiki/Physical_vapor_deposition"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:faceted",
+      "acts_on": [
+        "diamond",
+        "coloured-gemstone",
+        "rock-crystal"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Facet",
+          "url": "https://en.wikipedia.org/wiki/Facet"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:cabochon",
+      "acts_on": [
+        "coloured-gemstone",
+        "jet"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Cabochon",
+          "url": "https://en.wikipedia.org/wiki/Cabochon"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:gloss-paint",
+      "acts_on": [
+        "steel"
+      ],
+      "adds": [
+        "enamel-paint"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Paint sheen",
+          "url": "https://en.wikipedia.org/wiki/Paint_sheen"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:metallic-paint",
+      "acts_on": [
+        "steel"
+      ],
+      "adds": [
+        "paint",
+        "aluminium"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Metallic paint",
+          "url": "https://en.wikipedia.org/wiki/Metallic_paint"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:woven-leather",
+      "acts_on": [
+        "leather"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Leather",
+          "url": "https://en.wikipedia.org/wiki/Leather"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:tie-dyed",
+      "acts_on": [
+        "cotton"
+      ],
+      "adds": [
+        "indigo"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Tie-dye",
+          "url": "https://en.wikipedia.org/wiki/Tie-dye"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:studded",
+      "acts_on": [
+        "leather"
+      ],
+      "adds": [
+        "brass",
+        "steel"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Rivet",
+          "url": "https://en.wikipedia.org/wiki/Rivet"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:coated",
+      "acts_on": [
+        "cotton",
+        "polyester"
+      ],
+      "adds": [
+        "pvc"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Coated fabrics",
+          "url": "https://en.wikipedia.org/wiki/Coated_fabrics"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:seam-taped",
+      "acts_on": [
+        "eptfe-laminate",
+        "nylon"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Seam (sewing)",
+          "url": "https://en.wikipedia.org/wiki/Seam_(sewing)"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:garment-dyed",
+      "acts_on": [
+        "cotton",
+        "jersey"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Dyeing",
+          "url": "https://en.wikipedia.org/wiki/Dyeing"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:foiled",
+      "acts_on": [
+        "leather",
+        "polyester"
+      ],
+      "adds": [
+        "aluminium"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Foil (metal)",
+          "url": "https://en.wikipedia.org/wiki/Foil_(metal)"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:pierced",
+      "acts_on": [
+        "leather",
+        "gold"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Openwork",
+          "url": "https://en.wikipedia.org/wiki/Openwork"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:carved",
+      "acts_on": [
+        "jet",
+        "horn",
+        "rock-crystal"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Carving",
+          "url": "https://en.wikipedia.org/wiki/Carving"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:plique-a-jour",
+      "acts_on": [
+        "gold",
+        "silver"
+      ],
+      "adds": [
+        "glass"
+      ],
+      "with": [
+        "kiln"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Plique-à-jour",
+          "url": "https://en.wikipedia.org/wiki/Plique-%C3%A0-jour"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:hammered",
+      "acts_on": [
+        "silver",
+        "gold",
+        "copper"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Planishing",
+          "url": "https://en.wikipedia.org/wiki/Planishing"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:oxidised",
+      "acts_on": [
+        "sterling-silver"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Liver of sulfur",
+          "url": "https://en.wikipedia.org/wiki/Liver_of_sulfur"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:milgrained",
+      "acts_on": [
+        "platinum",
+        "gold"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Jewellery",
+          "url": "https://en.wikipedia.org/wiki/Jewellery"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:electroplated",
+      "acts_on": [
+        "brass"
+      ],
+      "adds": [
+        "gold",
+        "silver"
+      ],
+      "with": [
+        "electrolytic-bath"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Electroplating",
+          "url": "https://en.wikipedia.org/wiki/Electroplating"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:anodised",
+      "acts_on": [
+        "aluminium",
+        "titanium"
+      ],
+      "with": [
+        "electrolytic-bath"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Anodizing",
+          "url": "https://en.wikipedia.org/wiki/Anodizing"
+        }
+      ]
+    },
+    {
+      "process": "fashion.finishes:moulded",
+      "acts_on": [
+        "plastic",
+        "eva-foam",
+        "natural-rubber"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Molding (process)",
+          "url": "https://en.wikipedia.org/wiki/Molding_(process)"
+        }
+      ]
+    }
+  ]
+}

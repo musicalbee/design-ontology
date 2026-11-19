@@ -5,6 +5,7 @@
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { EVIDENCE_WEIGHT, loadCues, loadEmotions, loadEvokes, loadMoments } from "./emotions.js";
+import { loadLayer, styleLinks } from "./materials.js";
 import { ROOT, loadAll, loadFunding, loadOrgs, loadPeople, loadTechniques, nearest, write, type Style } from "./lib.js";
 
 type EdgeType = "EVOLVED_FROM" | "REBELLED_AGAINST" | "HYBRIDIZED_WITH" | "ECHOES" | "SUBGENRE_OF";
@@ -326,6 +327,38 @@ write(
 );
 console.log(`graph/emotions.json · ${emotions.length} emotions · ${Object.values(byEmotion).reduce((n, l) => n + l.length, 0)} edges · ${styles.filter((s) => !evokesByStyle[s.id]).length} styles with no emotion · ${cues.length} cues · ${moments.length} moments`);
 
+
+// ── The material layer: nodes, process edges, tools, and the derived links to styles ──────────────────────────────
+const M = loadLayer();
+if (M.byId.size) {
+  const { links, processes, unmatched } = styleLinks(M);
+  const photo = (id: string) => (existsSync(join(ROOT, "demo", "materials", "photos", `${id}.webp`)) ? `materials/photos/${id}.webp` : null);
+  const procNames = new Map<string, string>();
+  for (const t of techniques) procNames.set(`technique:${t.id}`, t.name);
+  for (const d of ["cuisine.methods", "ceramics.decorations", "fashion.finishes", "industrial.finishes"]) {
+    const [domain, list] = d.split(".");
+    const v = JSON.parse(readFileSync(join(ROOT, "data", domain, "vocabulary.json"), "utf8")) as Record<string, { id: string; name: string }[]>;
+    for (const e of v[list] ?? []) procNames.set(`${d}:${e.id}`, e.name);
+  }
+  write(
+    "graph/materials.json",
+    JSON.stringify(
+      {
+        classes: M.classes.map(({ data: c }) => ({ id: c.class, name: c.name, summary: c.summary, families: c.families })),
+        materials: [...M.byId.values()].map((m) => ({ ...m, photo: photo(m.id) })),
+        tools: [...M.tools.values()],
+        processes: M.edges.map(({ edge }) => ({ ...edge, name: procNames.get(edge.process) ?? edge.process })),
+        styles: Object.fromEntries(styles.map((s) => [s.id, { name: s.name, domain: s.domain }])),
+        style_materials: links,
+        style_processes: processes.filter((p) => procNames.has(p.process)),
+        unmatched,
+      },
+      null,
+      1,
+    ),
+  );
+  console.log(`graph/materials.json · ${M.byId.size} materials · ${M.edges.length} processes · ${links.length} style links · ${unmatched.length} free-text strings with no material`);
+}
 
 // ── Mermaid picture of the lineage, for people ──────────────────────────────
 // Hybrid edges are left out of the picture: they are many, and they hide the two edges that carry the history.

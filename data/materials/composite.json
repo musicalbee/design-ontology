@@ -1,0 +1,579 @@
+{
+  "$schema": "../../schema/material.schema.json",
+  "class": "composite",
+  "name": "Composite",
+  "summary": "Materials made from two or more materials that keep their own identity: concrete, plaster, paint, laminates and fibre composites.",
+  "families": [
+    {
+      "id": "concrete",
+      "name": "Concrete"
+    },
+    {
+      "id": "fibre-composite",
+      "name": "Fibre composite"
+    },
+    {
+      "id": "mineral-composite",
+      "name": "Mineral composite"
+    },
+    {
+      "id": "laminate",
+      "name": "Laminate"
+    },
+    {
+      "id": "plaster",
+      "name": "Plaster"
+    },
+    {
+      "id": "paint",
+      "name": "Paint"
+    },
+    {
+      "id": "coated-fabric",
+      "name": "Coated fabric"
+    }
+  ],
+  "materials": [
+    {
+      "id": "tensile-fabric",
+      "name": "Tensile membrane fabric",
+      "family": "coated-fabric",
+      "form": "sheet",
+      "senses": [],
+      "made_from": [
+        "polyester",
+        "pvc",
+        "ptfe",
+        "glass"
+      ],
+      "aliases": [
+        "tensile fabric"
+      ],
+      "photo": "a square sample sheet of tensile membrane fabric",
+      "identity": {
+        "wikidata": "Q145765"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Tensile structure",
+          "url": "https://en.wikipedia.org/wiki/Tensile_structure"
+        }
+      ]
+    },
+    {
+      "id": "concrete",
+      "name": "Concrete",
+      "family": "concrete",
+      "form": "block",
+      "senses": [
+        "ceramics.materials",
+        "industrial.materials"
+      ],
+      "summary": "A cast stone that replaced terracotta and faience on facades after about 1930.",
+      "made_from": [
+        "cement",
+        "sand"
+      ],
+      "properties": {
+        "warmth": 0.3
+      },
+      "photo": "a rough block of concrete",
+      "identity": {
+        "wikidata": "Q22657"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Concrete",
+          "url": "https://en.wikipedia.org/wiki/Concrete"
+        }
+      ]
+    },
+    {
+      "id": "carbon-fibre",
+      "name": "Carbon fibre",
+      "family": "fibre-composite",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Carbon fibre in epoxy; a race car chassis used it in 1981, and watch cases and car trim use the woven look.",
+      "photo": "a square sample sheet of carbon fibre",
+      "identity": {
+        "wikidata": "Q910977"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Carbon fiber reinforced polymer",
+          "url": "https://en.wikipedia.org/wiki/Carbon_fiber_reinforced_polymer"
+        }
+      ]
+    },
+    {
+      "id": "fibreglass",
+      "name": "Glass-reinforced plastic",
+      "family": "fibre-composite",
+      "form": "sheet",
+      "senses": [
+        "fashion.materials",
+        "industrial.materials"
+      ],
+      "summary": "Glass fibre in a resin; car bodies used it from 1953 for small series with curved panels.",
+      "made_from": [
+        "glass"
+      ],
+      "aliases": [
+        "fiberglass",
+        "glass-fibre-reinforced plastic",
+        "grp"
+      ],
+      "properties": {
+        "warmth": 0.25
+      },
+      "photo": "a square sample sheet of glass-reinforced plastic",
+      "identity": {
+        "wikidata": "Q7224880"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Fiberglass",
+          "url": "https://en.wikipedia.org/wiki/Fiberglass"
+        }
+      ]
+    },
+    {
+      "id": "linoleum",
+      "name": "Linoleum",
+      "family": "laminate",
+      "form": "sheet",
+      "senses": [],
+      "made_from": [
+        "linseed-oil",
+        "cork"
+      ],
+      "aliases": [
+        "linoleum"
+      ],
+      "photo": "a square sample sheet of linoleum",
+      "identity": {
+        "wikidata": "Q108728"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Linoleum",
+          "url": "https://en.wikipedia.org/wiki/Linoleum"
+        }
+      ]
+    },
+    {
+      "id": "plastic-laminate",
+      "name": "Plastic laminate",
+      "family": "laminate",
+      "form": "sheet",
+      "senses": [
+        "industrial.materials"
+      ],
+      "properties": {
+        "warmth": 0.25
+      },
+      "photo": "a square sample sheet of plastic laminate",
+      "identity": {
+        "wikidata": "Q5249625"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Decorative laminate",
+          "url": "https://en.wikipedia.org/wiki/Decorative_laminate"
+        }
+      ]
+    },
+    {
+      "id": "microcement",
+      "name": "Microcement",
+      "family": "mineral-composite",
+      "form": "block",
+      "senses": [
+        "industrial.materials"
+      ],
+      "made_from": [
+        "cement"
+      ],
+      "properties": {
+        "warmth": 0.35
+      },
+      "photo": "a rough block of microcement",
+      "identity": {
+        "wikidata": "Q794236"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Polished concrete",
+          "url": "https://en.wikipedia.org/wiki/Polished_concrete"
+        }
+      ]
+    },
+    {
+      "id": "plaster",
+      "name": "Plaster",
+      "family": "mineral-composite",
+      "form": "block",
+      "senses": [
+        "industrial.materials"
+      ],
+      "made_from": [
+        "gypsum"
+      ],
+      "properties": {
+        "warmth": 0.5
+      },
+      "photo": "a rough block of plaster",
+      "identity": {
+        "wikidata": "Q274988"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Plaster",
+          "url": "https://en.wikipedia.org/wiki/Plaster"
+        }
+      ]
+    },
+    {
+      "id": "solid-surface",
+      "name": "Solid surface",
+      "family": "mineral-composite",
+      "form": "sheet",
+      "senses": [
+        "industrial.materials"
+      ],
+      "properties": {
+        "warmth": 0.3
+      },
+      "photo": "a square sample sheet of solid surface",
+      "identity": {
+        "wikidata": "Q3489404"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Solid surface material",
+          "url": "https://en.wikipedia.org/wiki/Solid_surface_material"
+        }
+      ]
+    },
+    {
+      "id": "terrazzo",
+      "name": "Terrazzo",
+      "family": "mineral-composite",
+      "form": "block",
+      "senses": [
+        "industrial.materials"
+      ],
+      "made_from": [
+        "marble",
+        "cement"
+      ],
+      "properties": {
+        "warmth": 0.4
+      },
+      "photo": "a rough block of terrazzo",
+      "identity": {
+        "wikidata": "Q1334655"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Terrazzo",
+          "url": "https://en.wikipedia.org/wiki/Terrazzo"
+        }
+      ]
+    },
+    {
+      "id": "egg-tempera",
+      "name": "Egg tempera",
+      "family": "paint",
+      "form": "liquid",
+      "senses": [],
+      "is_a": [
+        "paint"
+      ],
+      "made_from": [
+        "egg"
+      ],
+      "aliases": [
+        "tempera",
+        "egg tempera"
+      ],
+      "photo": "a small glass dish of egg tempera",
+      "identity": {
+        "wikidata": "Q175166"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Tempera",
+          "url": "https://en.wikipedia.org/wiki/Tempera"
+        }
+      ]
+    },
+    {
+      "id": "gouache",
+      "name": "Gouache",
+      "family": "paint",
+      "form": "liquid",
+      "senses": [],
+      "is_a": [
+        "paint"
+      ],
+      "made_from": [
+        "gum-arabic"
+      ],
+      "aliases": [
+        "gouache"
+      ],
+      "photo": "a small glass dish of gouache",
+      "identity": {
+        "wikidata": "Q204330"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Gouache",
+          "url": "https://en.wikipedia.org/wiki/Gouache"
+        }
+      ]
+    },
+    {
+      "id": "ink",
+      "name": "Ink",
+      "family": "paint",
+      "form": "liquid",
+      "senses": [],
+      "aliases": [
+        "ink",
+        "india ink"
+      ],
+      "photo": "a small glass dish of ink",
+      "identity": {
+        "wikidata": "Q127418"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ink",
+          "url": "https://en.wikipedia.org/wiki/Ink"
+        }
+      ]
+    },
+    {
+      "id": "milk-paint",
+      "name": "Milk paint",
+      "family": "paint",
+      "form": "liquid",
+      "senses": [],
+      "is_a": [
+        "paint"
+      ],
+      "made_from": [
+        "milk",
+        "quicklime"
+      ],
+      "aliases": [
+        "milk paint"
+      ],
+      "photo": "a small glass dish of milk paint",
+      "identity": {
+        "wikidata": "Q265559"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Casein paint",
+          "url": "https://en.wikipedia.org/wiki/Casein_paint"
+        }
+      ]
+    },
+    {
+      "id": "oil-paint",
+      "name": "Oil paint",
+      "family": "paint",
+      "form": "liquid",
+      "senses": [],
+      "is_a": [
+        "paint"
+      ],
+      "made_from": [
+        "linseed-oil"
+      ],
+      "aliases": [
+        "oil",
+        "oil paint"
+      ],
+      "photo": "a small glass dish of oil paint",
+      "identity": {
+        "wikidata": "Q296955"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Oil paint",
+          "url": "https://en.wikipedia.org/wiki/Oil_paint"
+        }
+      ]
+    },
+    {
+      "id": "paint",
+      "name": "Paint",
+      "family": "paint",
+      "form": "liquid",
+      "senses": [],
+      "aliases": [
+        "paint",
+        "high-gloss paint",
+        "polychrome paint",
+        "white paint or gel coat"
+      ],
+      "photo": "a small glass dish of paint",
+      "identity": {
+        "wikidata": "Q174219"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Paint",
+          "url": "https://en.wikipedia.org/wiki/Paint"
+        }
+      ]
+    },
+    {
+      "id": "watercolour",
+      "name": "Watercolour",
+      "family": "paint",
+      "form": "liquid",
+      "senses": [],
+      "is_a": [
+        "paint"
+      ],
+      "made_from": [
+        "gum-arabic"
+      ],
+      "aliases": [
+        "watercolour"
+      ],
+      "photo": "a small glass dish of watercolour",
+      "identity": {
+        "wikidata": "Q50030"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Watercolor painting",
+          "url": "https://en.wikipedia.org/wiki/Watercolor_painting"
+        }
+      ]
+    },
+    {
+      "id": "gesso",
+      "name": "Gesso",
+      "family": "plaster",
+      "form": "coating",
+      "senses": [],
+      "made_from": [
+        "gypsum"
+      ],
+      "aliases": [
+        "gesso"
+      ],
+      "photo": "a square sample panel finished with gesso",
+      "identity": {
+        "wikidata": "Q1514256"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Gesso",
+          "url": "https://en.wikipedia.org/wiki/Gesso"
+        }
+      ]
+    },
+    {
+      "id": "lime-plaster",
+      "name": "Lime plaster",
+      "family": "plaster",
+      "form": "coating",
+      "senses": [],
+      "is_a": [
+        "plaster"
+      ],
+      "made_from": [
+        "quicklime",
+        "sand"
+      ],
+      "aliases": [
+        "lime plaster",
+        "limewash",
+        "limewash plaster",
+        "lime or venetian plaster",
+        "venetian plaster",
+        "fresco plaster",
+        "white plaster"
+      ],
+      "photo": "a square sample panel finished with lime plaster",
+      "identity": {
+        "wikidata": "Q6549153"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Lime plaster",
+          "url": "https://en.wikipedia.org/wiki/Lime_plaster"
+        }
+      ]
+    },
+    {
+      "id": "scagliola",
+      "name": "Scagliola",
+      "family": "plaster",
+      "form": "coating",
+      "senses": [],
+      "is_a": [
+        "plaster"
+      ],
+      "made_from": [
+        "gypsum"
+      ],
+      "aliases": [
+        "scagliola"
+      ],
+      "photo": "a square sample panel finished with scagliola",
+      "identity": {
+        "wikidata": "Q1415022"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Scagliola",
+          "url": "https://en.wikipedia.org/wiki/Scagliola"
+        }
+      ]
+    },
+    {
+      "id": "stucco",
+      "name": "Stucco and render",
+      "family": "plaster",
+      "form": "coating",
+      "senses": [],
+      "is_a": [
+        "plaster"
+      ],
+      "made_from": [
+        "quicklime",
+        "cement",
+        "sand"
+      ],
+      "aliases": [
+        "stucco",
+        "render",
+        "painted stucco and render",
+        "stucco and plaster",
+        "white render on concrete"
+      ],
+      "photo": "a square sample panel finished with stucco and render",
+      "identity": {
+        "wikidata": "Q33526"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Stucco",
+          "url": "https://en.wikipedia.org/wiki/Stucco"
+        }
+      ]
+    }
+  ]
+}

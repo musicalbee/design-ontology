@@ -171,6 +171,15 @@ A beam or slab fixed at one end that carries load beyond its support, so that it
 - Keep the free end thin; a depth of 1/8 to 1/10 of the span suits steel and concrete.
 - Repeat the horizontal line in a run of 2 or 3 projecting planes to give a strong shadow.
 
+### Electroplating (process)
+
+An electric current puts a thin layer of one metal on a part of another metal. Silver, gold, nickel and chromium plate give a cheap base metal a precious or hard surface. Origin: industrial design, Birmingham, United Kingdom, 1840.
+
+- Clean and degrease the base part, then put it in a bath of a salt of the coating metal.
+- Connect the part to the negative pole and a bar of the coating metal to the positive pole.
+- Pass a direct current until the layer is 0.5 to 25 µm thick.
+- Put a copper or nickel under-layer on steel and zinc before a bright top layer.
+
 ## Organisations
 
 The groups, studios, companies, schools, channels and backers that carried this style.

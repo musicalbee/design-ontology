@@ -20,7 +20,7 @@
     ["fashion.html", "Fashion"], ["ceramics.html", "Ceramics"], ["cuisine.html", "Cuisine"], ["game.html", "Video games"],
   ];
   const DOMAINS = [...FAMILIES.flatMap(([, ds]) => ds), ...OTHER];
-  const ACROSS = [["graph.html", "Lineage"], ["techniques.html", "Techniques"], ["people.html", "People"], ["orgs.html", "Orgs"], ["money.html", "Money"], ["emotions.html", "Emotions"]];
+  const ACROSS = [["graph.html", "Lineage"], ["techniques.html", "Techniques"], ["materials.html", "Materials"], ["people.html", "People"], ["orgs.html", "Orgs"], ["money.html", "Money"], ["emotions.html", "Emotions"]];
   // A sub-page marks its parent domain as current: the moodboards are part of Interior.
   const PARENT = { "moodboard.html": "interior.html", "objects.html": "interior.html", "fabrics.html": "fashion.html", "glazes.html": "ceramics.html" };
   const file = location.pathname.split("/").pop() || "index.html";

@@ -307,6 +307,15 @@ Ducts, pipes, stairs and cables stay in view on the outside or the ceiling, ofte
 - Give each system one colour: for example blue for air, green for water, yellow for electricity.
 - Keep the floor plate free; put the services on the facade or the ceiling.
 
+### Welding (process)
+
+Two parts of metal or thermoplastic are joined: heat melts the edges, and the melt sets into one piece. The seam can show, or be ground away. Origin: industrial design, Paris, France, 1881.
+
+- Clean the joint to bare metal and fit the parts with a gap of 0 to 3 mm.
+- Melt the edges with an electric arc or a gas flame, and add filler rod of the same metal.
+- Keep the bead even, with a width of 1 to 2 times the thickness of the sheet.
+- Grind the bead flush for a hidden joint, or leave the bead raw for a visible joint.
+
 ## Organisations
 
 The groups, studios, companies, schools, channels and backers that carried this style.

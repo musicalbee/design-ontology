@@ -1,0 +1,1982 @@
+{
+  "$schema": "../../schema/material.schema.json",
+  "class": "ceramic-glass",
+  "name": "Ceramic and glass",
+  "summary": "Materials that fire changes for ever: clay bodies, glazes, slips, glass, vitreous enamel, brick and tile.",
+  "families": [
+    {
+      "id": "clay-body",
+      "name": "Clay body"
+    },
+    {
+      "id": "glass",
+      "name": "Glass"
+    },
+    {
+      "id": "bare-surface",
+      "name": "Bare surface"
+    },
+    {
+      "id": "slip",
+      "name": "Slip"
+    },
+    {
+      "id": "glaze",
+      "name": "Glaze"
+    },
+    {
+      "id": "enamel",
+      "name": "Enamel"
+    },
+    {
+      "id": "technical-ceramic",
+      "name": "Technical ceramic"
+    },
+    {
+      "id": "brick",
+      "name": "Brick"
+    },
+    {
+      "id": "tile",
+      "name": "Tile"
+    }
+  ],
+  "materials": [
+    {
+      "id": "bare-clay",
+      "name": "Bare clay (unglazed)",
+      "family": "bare-surface",
+      "form": "surface",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "No glaze: the fired clay is the surface. Bizen, Yixing, terracotta and jasper ware leave it bare.",
+      "photo": "a square sample tile of bare clay",
+      "identity": {
+        "wikidata": "Q60424"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Terracotta",
+          "url": "https://en.wikipedia.org/wiki/Terracotta"
+        }
+      ]
+    },
+    {
+      "id": "biscuit",
+      "name": "Biscuit (unglazed porcelain)",
+      "family": "bare-surface",
+      "form": "surface",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "Fired porcelain left without glaze, matte and white like marble. Vincennes and Sèvres used it for figures.",
+      "photo": "a square sample tile of biscuit",
+      "identity": {
+        "wikidata": "Q12048097"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Biscuit (pottery)",
+          "url": "https://en.wikipedia.org/wiki/Biscuit_(pottery)"
+        }
+      ]
+    },
+    {
+      "id": "burnished",
+      "name": "Burnished",
+      "family": "bare-surface",
+      "form": "surface",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "Clay polished with a stone or a bone before firing, so that it shines without a glaze.",
+      "photo": "a square sample tile of burnished",
+      "identity": {
+        "wikidata": "Q30907279"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Burnishing (pottery)",
+          "url": "https://en.wikipedia.org/wiki/Burnishing_(pottery)"
+        }
+      ]
+    },
+    {
+      "id": "brick",
+      "name": "Brick",
+      "family": "brick",
+      "form": "block",
+      "senses": [],
+      "made_from": [
+        "clay"
+      ],
+      "aliases": [
+        "brick",
+        "red brick",
+        "dark brick",
+        "exposed brick",
+        "existing brick",
+        "roman brick",
+        "clinker brick",
+        "white-painted brick",
+        "stuccoed brick"
+      ],
+      "photo": "a rough block of brick",
+      "identity": {
+        "wikidata": "Q40089"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Brick",
+          "url": "https://en.wikipedia.org/wiki/Brick"
+        }
+      ]
+    },
+    {
+      "id": "glazed-brick",
+      "name": "Glazed brick",
+      "family": "brick",
+      "form": "block",
+      "senses": [],
+      "is_a": [
+        "brick"
+      ],
+      "made_from": [
+        "brick"
+      ],
+      "aliases": [
+        "glazed brick"
+      ],
+      "photo": "a rough block of glazed brick",
+      "identity": {
+        "wikidata": "Q40089"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Brick",
+          "url": "https://en.wikipedia.org/wiki/Brick"
+        }
+      ]
+    },
+    {
+      "id": "black-basalt",
+      "name": "Black basalt",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies"
+      ],
+      "summary": "A black unglazed stoneware coloured with iron and manganese, made for vases and teaware in the antique style.",
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "fire_c": [
+          1150,
+          1200
+        ]
+      },
+      "photo": "a small unglazed test cylinder of black basalt clay body",
+      "identity": {
+        "wikidata": "Q595544"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Wedgwood",
+          "url": "https://en.wikipedia.org/wiki/Wedgwood"
+        }
+      ]
+    },
+    {
+      "id": "bone-china",
+      "name": "Bone china",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies"
+      ],
+      "summary": "A porcelain with calcined bone ash. It is white, thin and strong. Josiah Spode set the standard recipe about 1796.",
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "fire_c": [
+          1200,
+          1260
+        ]
+      },
+      "photo": "a small unglazed test cylinder of bone china clay body",
+      "identity": {
+        "wikidata": "Q619865"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Bone china",
+          "url": "https://en.wikipedia.org/wiki/Bone_china"
+        }
+      ]
+    },
+    {
+      "id": "ceramic-tile",
+      "name": "Ceramic tile",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "industrial.materials"
+      ],
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "warmth": 0.4
+      },
+      "photo": "a small unglazed test cylinder of ceramic tile clay body",
+      "identity": {
+        "wikidata": "Q468402"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Tile",
+          "url": "https://en.wikipedia.org/wiki/Tile"
+        }
+      ]
+    },
+    {
+      "id": "creamware",
+      "name": "Creamware",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies"
+      ],
+      "summary": "A cream-coloured earthenware with a lead glaze. Josiah Wedgwood refined it as Queen's ware in 1762.",
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "fire_c": [
+          1100,
+          1150
+        ]
+      },
+      "photo": "a small unglazed test cylinder of creamware clay body",
+      "identity": {
+        "wikidata": "Q1831541"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Creamware",
+          "url": "https://en.wikipedia.org/wiki/Creamware"
+        }
+      ]
+    },
+    {
+      "id": "earthenware",
+      "name": "Earthenware",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies"
+      ],
+      "summary": "A porous body fired below about 1150 °C. Pots from Xianrendong Cave are the oldest known vessels of fired clay.",
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "fire_c": [
+          950,
+          1150
+        ]
+      },
+      "photo": "a small unglazed test cylinder of earthenware clay body",
+      "identity": {
+        "wikidata": "Q1377111"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Earthenware",
+          "url": "https://en.wikipedia.org/wiki/Earthenware"
+        }
+      ]
+    },
+    {
+      "id": "egyptian-faience",
+      "name": "Egyptian faience",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies"
+      ],
+      "summary": "A body of ground quartz with an alkaline flux that glazes itself when it dries and fires. It is not a clay body.",
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "fire_c": [
+          800,
+          1000
+        ]
+      },
+      "photo": "a small unglazed test cylinder of egyptian faience clay body",
+      "identity": {
+        "wikidata": "Q253664"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Egyptian faience",
+          "url": "https://en.wikipedia.org/wiki/Egyptian_faience"
+        }
+      ]
+    },
+    {
+      "id": "european-hard-paste",
+      "name": "European hard-paste porcelain",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies"
+      ],
+      "summary": "The first European true porcelain. The Meissen manufactory began production in 1710.",
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "fire_c": [
+          1350,
+          1450
+        ]
+      },
+      "photo": "a small unglazed test cylinder of european hard-paste porcelain clay body",
+      "identity": {
+        "wikidata": "Q1587663"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Hard-paste porcelain",
+          "url": "https://en.wikipedia.org/wiki/Hard-paste_porcelain"
+        }
+      ]
+    },
+    {
+      "id": "fireclay",
+      "name": "Fireclay",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies",
+        "industrial.materials"
+      ],
+      "summary": "A refractory clay that resists heat and holds a large cast without warping: Belfast sinks, baths and kiln furniture.",
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "fire_c": [
+          1200,
+          1300
+        ],
+        "warmth": 0.35
+      },
+      "photo": "a small unglazed test cylinder of fireclay clay body",
+      "identity": {
+        "wikidata": "Q2523928"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Fire clay",
+          "url": "https://en.wikipedia.org/wiki/Fire_clay"
+        }
+      ]
+    },
+    {
+      "id": "fired-brick",
+      "name": "Fired brick clay",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies"
+      ],
+      "summary": "A coarse clay fired in moulded blocks. Glazed brick makes the Ishtar Gate of Babylon, about 575 BC.",
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "fire_c": [
+          900,
+          1150
+        ]
+      },
+      "photo": "a small unglazed test cylinder of fired brick clay clay body",
+      "identity": {
+        "wikidata": "Q40089"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Brick",
+          "url": "https://en.wikipedia.org/wiki/Brick"
+        }
+      ]
+    },
+    {
+      "id": "glass-ceramic",
+      "name": "Glass-ceramic",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies"
+      ],
+      "summary": "A glass that heat turns into a fine crystal ceramic, so that it takes a flame and the freezer. Stookey found it by accident; Corning Ware used it from 1958.",
+      "made_from": [
+        "glass"
+      ],
+      "properties": {
+        "fire_c": [
+          750,
+          1100
+        ]
+      },
+      "photo": "a small unglazed test cylinder of glass-ceramic clay body",
+      "identity": {
+        "wikidata": "Q13078381"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Glass-ceramic",
+          "url": "https://en.wikipedia.org/wiki/Glass-ceramic"
+        }
+      ]
+    },
+    {
+      "id": "ironstone",
+      "name": "Ironstone china",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies"
+      ],
+      "summary": "A hard, heavy, white body patented as a cheap substitute for porcelain.",
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "fire_c": [
+          1200,
+          1250
+        ]
+      },
+      "photo": "a small unglazed test cylinder of ironstone china clay body",
+      "identity": {
+        "wikidata": "Q6073269"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ironstone china",
+          "url": "https://en.wikipedia.org/wiki/Ironstone_china"
+        }
+      ]
+    },
+    {
+      "id": "jasperware",
+      "name": "Jasperware",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies"
+      ],
+      "summary": "A fine unglazed stoneware coloured with metal oxides, with white relief in the same body.",
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "fire_c": [
+          1200,
+          1250
+        ]
+      },
+      "photo": "a small unglazed test cylinder of jasperware clay body",
+      "identity": {
+        "wikidata": "Q1356431"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Jasperware",
+          "url": "https://en.wikipedia.org/wiki/Jasperware"
+        }
+      ]
+    },
+    {
+      "id": "paper-clay",
+      "name": "Paper clay",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies"
+      ],
+      "summary": "Clay mixed with paper fibre, so that thin sculptural forms stand and join when dry.",
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "fire_c": [
+          950,
+          1250
+        ]
+      },
+      "photo": "a small unglazed test cylinder of paper clay clay body",
+      "identity": {
+        "wikidata": "Q587072"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Paper clay",
+          "url": "https://en.wikipedia.org/wiki/Paper_clay"
+        }
+      ]
+    },
+    {
+      "id": "parian",
+      "name": "Parian porcelain",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies"
+      ],
+      "summary": "An unglazed biscuit porcelain that looks like Parian marble. It made figures and busts for the Victorian home.",
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "fire_c": [
+          1200,
+          1250
+        ]
+      },
+      "photo": "a small unglazed test cylinder of parian porcelain clay body",
+      "identity": {
+        "wikidata": "Q7137013"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Parian ware",
+          "url": "https://en.wikipedia.org/wiki/Parian_ware"
+        }
+      ]
+    },
+    {
+      "id": "pearlware",
+      "name": "Pearlware",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies"
+      ],
+      "summary": "Creamware with a little cobalt in the glaze, so that it looks whiter. It carries blue transfer prints well.",
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "fire_c": [
+          1100,
+          1150
+        ]
+      },
+      "photo": "a small unglazed test cylinder of pearlware clay body",
+      "identity": {
+        "wikidata": "Q1831541"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Creamware",
+          "url": "https://en.wikipedia.org/wiki/Creamware"
+        }
+      ]
+    },
+    {
+      "id": "porcelain",
+      "name": "Porcelain",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies",
+        "industrial.materials"
+      ],
+      "summary": "A white, dense and translucent body of kaolin and porcelain stone, fired at about 1300 °C.",
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "fire_c": [
+          1250,
+          1400
+        ],
+        "warmth": 0.35
+      },
+      "photo": "a small unglazed test cylinder of porcelain clay body",
+      "identity": {
+        "wikidata": "Q130693"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Porcelain",
+          "url": "https://en.wikipedia.org/wiki/Porcelain"
+        }
+      ]
+    },
+    {
+      "id": "porcelain-stoneware",
+      "name": "Porcelain stoneware (gres porcellanato)",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies"
+      ],
+      "summary": "A pressed tile body with water absorption below 0.5 %. It makes floor and wall tiles that copy stone, wood and concrete.",
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "fire_c": [
+          1200,
+          1250
+        ]
+      },
+      "photo": "a small unglazed test cylinder of porcelain stoneware clay body",
+      "identity": {
+        "wikidata": "Q55654686"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Porcelain tile",
+          "url": "https://en.wikipedia.org/wiki/Porcelain_tile"
+        }
+      ]
+    },
+    {
+      "id": "pyrogranite",
+      "name": "Pyrogranite",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies"
+      ],
+      "summary": "A hard, frost-proof architectural body that the Zsolnay factory developed. It makes roof tiles, relief panels and finials with a strong glaze.",
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "fire_c": [
+          1200,
+          1300
+        ]
+      },
+      "photo": "a small unglazed test cylinder of pyrogranite clay body",
+      "identity": {
+        "wikidata": "Q227325"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Zsolnay",
+          "url": "https://en.wikipedia.org/wiki/Zsolnay"
+        }
+      ]
+    },
+    {
+      "id": "raku-clay",
+      "name": "Raku clay",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies"
+      ],
+      "summary": "An open, grogged clay that survives the shock of a hot kiln. Pieces are hand-built, not thrown.",
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "fire_c": [
+          750,
+          1000
+        ]
+      },
+      "photo": "a small unglazed test cylinder of raku clay clay body",
+      "identity": {
+        "wikidata": "Q648899"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Raku ware",
+          "url": "https://en.wikipedia.org/wiki/Raku_ware"
+        }
+      ]
+    },
+    {
+      "id": "red-stoneware",
+      "name": "Red stoneware (zisha)",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies"
+      ],
+      "summary": "A fine iron-rich stoneware, left unglazed. Yixing teapots in this body take a patina from tea.",
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "fire_c": [
+          1100,
+          1200
+        ]
+      },
+      "photo": "a small unglazed test cylinder of red stoneware clay body",
+      "identity": {
+        "wikidata": "Q10466474"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Yixing ware",
+          "url": "https://en.wikipedia.org/wiki/Yixing_ware"
+        }
+      ]
+    },
+    {
+      "id": "soft-paste-porcelain",
+      "name": "Soft-paste porcelain",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies"
+      ],
+      "summary": "A glassy body of white clay and frit, an early European imitation of Chinese porcelain. Sèvres used it until about 1770.",
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "fire_c": [
+          1100,
+          1200
+        ]
+      },
+      "photo": "a small unglazed test cylinder of soft-paste porcelain clay body",
+      "identity": {
+        "wikidata": "Q17105928"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Soft-paste porcelain",
+          "url": "https://en.wikipedia.org/wiki/Soft-paste_porcelain"
+        }
+      ]
+    },
+    {
+      "id": "stonepaste",
+      "name": "Stonepaste (fritware)",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies"
+      ],
+      "summary": "A white body of ground quartz, glass frit and a little clay. Islamic potters used it to copy Chinese porcelain; Iznik ware uses it.",
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "fire_c": [
+          900,
+          1050
+        ]
+      },
+      "photo": "a small unglazed test cylinder of stonepaste clay body",
+      "identity": {
+        "wikidata": "Q1458831"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Fritware",
+          "url": "https://en.wikipedia.org/wiki/Fritware"
+        }
+      ]
+    },
+    {
+      "id": "stoneware",
+      "name": "Stoneware",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies",
+        "industrial.materials"
+      ],
+      "summary": "A dense, vitrified body fired at about 1200 to 1300 °C. It holds water without a glaze.",
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "fire_c": [
+          1200,
+          1300
+        ],
+        "warmth": 0.6
+      },
+      "photo": "a small unglazed test cylinder of stoneware clay body",
+      "identity": {
+        "wikidata": "Q830894"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Stoneware",
+          "url": "https://en.wikipedia.org/wiki/Stoneware"
+        }
+      ]
+    },
+    {
+      "id": "technical-porcelain",
+      "name": "Technical porcelain",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies"
+      ],
+      "summary": "A high-alumina porcelain for electrical insulators and laboratory ware. It resists voltage, heat and acids.",
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "fire_c": [
+          1300,
+          1450
+        ]
+      },
+      "photo": "a small unglazed test cylinder of technical porcelain clay body",
+      "identity": {
+        "wikidata": "Q1936199"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ceramic engineering",
+          "url": "https://en.wikipedia.org/wiki/Ceramic_engineering"
+        }
+      ]
+    },
+    {
+      "id": "terracotta",
+      "name": "Terracotta",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies",
+        "industrial.materials"
+      ],
+      "summary": "A red, iron-rich earthenware, often left unglazed. It makes figures, roof tiles and facade blocks.",
+      "is_a": [
+        "earthenware"
+      ],
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "fire_c": [
+          900,
+          1100
+        ],
+        "warmth": 0.75
+      },
+      "photo": "a small unglazed test cylinder of terracotta clay body",
+      "identity": {
+        "wikidata": "Q60424"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Terracotta",
+          "url": "https://en.wikipedia.org/wiki/Terracotta"
+        }
+      ]
+    },
+    {
+      "id": "vitreous-china",
+      "name": "Vitreous china",
+      "family": "clay-body",
+      "form": "body",
+      "senses": [
+        "ceramics.bodies",
+        "industrial.materials"
+      ],
+      "summary": "A dense, white body with near zero water absorption, cast for sanitary ware: basins, WCs and urinals.",
+      "made_from": [
+        "clay"
+      ],
+      "properties": {
+        "fire_c": [
+          1200,
+          1250
+        ],
+        "warmth": 0.3
+      },
+      "photo": "a small unglazed test cylinder of vitreous china clay body",
+      "identity": {
+        "wikidata": "Q7937236"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Vitreous china",
+          "url": "https://en.wikipedia.org/wiki/Vitreous_china"
+        }
+      ]
+    },
+    {
+      "id": "vitreous-enamel",
+      "name": "Vitreous enamel",
+      "family": "enamel",
+      "form": "coating",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Glass fused onto metal; the dial of the fine watch and the colour of Art Nouveau and Art Deco jewels.",
+      "made_from": [
+        "glass"
+      ],
+      "photo": "a small stoneware test tile coated with vitreous enamel",
+      "identity": {
+        "wikidata": "Q213371"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Vitreous enamel",
+          "url": "https://en.wikipedia.org/wiki/Vitreous_enamel"
+        }
+      ]
+    },
+    {
+      "id": "borosilicate-glass",
+      "name": "Borosilicate glass",
+      "family": "glass",
+      "form": "sheet",
+      "senses": [
+        "industrial.materials"
+      ],
+      "is_a": [
+        "glass"
+      ],
+      "made_from": [
+        "glass"
+      ],
+      "properties": {
+        "warmth": 0.15
+      },
+      "photo": "a square sample sheet of borosilicate glass",
+      "identity": {
+        "wikidata": "Q1422588"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Borosilicate glass",
+          "url": "https://en.wikipedia.org/wiki/Borosilicate_glass"
+        }
+      ]
+    },
+    {
+      "id": "clear-glass",
+      "name": "Clear glass",
+      "family": "glass",
+      "form": "sheet",
+      "senses": [
+        "industrial.materials"
+      ],
+      "is_a": [
+        "glass"
+      ],
+      "made_from": [
+        "sand"
+      ],
+      "properties": {
+        "warmth": 0.2
+      },
+      "photo": "a square sample sheet of clear glass",
+      "identity": {
+        "wikidata": "Q1426151"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Plate glass",
+          "url": "https://en.wikipedia.org/wiki/Plate_glass"
+        }
+      ]
+    },
+    {
+      "id": "coloured-glass",
+      "name": "Coloured glass",
+      "family": "glass",
+      "form": "sheet",
+      "senses": [
+        "industrial.materials"
+      ],
+      "is_a": [
+        "glass"
+      ],
+      "made_from": [
+        "glass"
+      ],
+      "properties": {
+        "warmth": 0.4
+      },
+      "photo": "a square sample sheet of coloured glass",
+      "identity": {
+        "wikidata": "Q8348044"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Glass coloring and color marking",
+          "url": "https://en.wikipedia.org/wiki/Glass_coloring_and_color_marking"
+        }
+      ]
+    },
+    {
+      "id": "frosted-glass",
+      "name": "Frosted glass",
+      "family": "glass",
+      "form": "sheet",
+      "senses": [
+        "industrial.materials"
+      ],
+      "is_a": [
+        "glass"
+      ],
+      "made_from": [
+        "glass"
+      ],
+      "properties": {
+        "warmth": 0.25
+      },
+      "photo": "a square sample sheet of frosted glass",
+      "identity": {
+        "wikidata": "Q2878056"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Frosted glass",
+          "url": "https://en.wikipedia.org/wiki/Frosted_glass"
+        }
+      ]
+    },
+    {
+      "id": "glass",
+      "name": "Glass",
+      "family": "glass",
+      "form": "sheet",
+      "senses": [
+        "ceramics.materials"
+      ],
+      "summary": "A non-ceramic glassy material. It is a substitute that breaks the look of fired clay.",
+      "made_from": [
+        "sand"
+      ],
+      "photo": "a square sample sheet of glass",
+      "identity": {
+        "wikidata": "Q11469"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Glass",
+          "url": "https://en.wikipedia.org/wiki/Glass"
+        }
+      ]
+    },
+    {
+      "id": "glass-block",
+      "name": "Glass block",
+      "family": "glass",
+      "form": "block",
+      "senses": [],
+      "is_a": [
+        "glass"
+      ],
+      "made_from": [
+        "glass"
+      ],
+      "aliases": [
+        "glass block"
+      ],
+      "photo": "a rough block of glass block",
+      "identity": {
+        "wikidata": "Q1529373"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Glass brick",
+          "url": "https://en.wikipedia.org/wiki/Glass_brick"
+        }
+      ]
+    },
+    {
+      "id": "glass-pearl",
+      "name": "Glass pearl",
+      "family": "glass",
+      "form": "raw",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "A glass bead coated with a pearl-like layer; the base of the long ropes of costume jewellery. By tradition, the rosary maker Jaquin made the first one in 1656.",
+      "made_from": [
+        "glass"
+      ],
+      "photo": "glass pearl",
+      "identity": {
+        "wikidata": "Q6004178"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Imitation pearl",
+          "url": "https://en.wikipedia.org/wiki/Imitation_pearl"
+        }
+      ]
+    },
+    {
+      "id": "mirror-glass",
+      "name": "Mirror glass",
+      "family": "glass",
+      "form": "sheet",
+      "senses": [
+        "industrial.materials"
+      ],
+      "is_a": [
+        "glass"
+      ],
+      "made_from": [
+        "glass",
+        "silver"
+      ],
+      "properties": {
+        "warmth": 0.15
+      },
+      "photo": "a square sample sheet of mirror glass",
+      "identity": {
+        "wikidata": "Q35197"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Mirror",
+          "url": "https://en.wikipedia.org/wiki/Mirror"
+        }
+      ]
+    },
+    {
+      "id": "neon-tube",
+      "name": "Neon tube",
+      "family": "glass",
+      "form": "part",
+      "senses": [],
+      "made_from": [
+        "glass"
+      ],
+      "aliases": [
+        "neon tube"
+      ],
+      "photo": "neon tube",
+      "identity": {
+        "wikidata": "Q12177156"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Neon lighting",
+          "url": "https://en.wikipedia.org/wiki/Neon_lighting"
+        }
+      ]
+    },
+    {
+      "id": "opal-glass",
+      "name": "Opal glass",
+      "family": "glass",
+      "form": "sheet",
+      "senses": [
+        "industrial.materials"
+      ],
+      "is_a": [
+        "glass"
+      ],
+      "made_from": [
+        "glass"
+      ],
+      "properties": {
+        "warmth": 0.35
+      },
+      "photo": "a square sample sheet of opal glass",
+      "identity": {
+        "wikidata": "Q1543091"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Milk glass",
+          "url": "https://en.wikipedia.org/wiki/Milk_glass"
+        }
+      ]
+    },
+    {
+      "id": "paste",
+      "name": "Paste",
+      "family": "glass",
+      "form": "raw",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Lead glass cut and foil-backed to look like diamond; Georgian paste was a jewel of its own, not only a copy.",
+      "made_from": [
+        "glass"
+      ],
+      "photo": "paste",
+      "identity": {
+        "wikidata": "Q615476"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Rhinestone",
+          "url": "https://en.wikipedia.org/wiki/Rhinestone"
+        }
+      ]
+    },
+    {
+      "id": "plate-glass",
+      "name": "Plate glass",
+      "family": "glass",
+      "form": "sheet",
+      "senses": [],
+      "is_a": [
+        "glass"
+      ],
+      "made_from": [
+        "sand"
+      ],
+      "aliases": [
+        "plate glass",
+        "steel-framed glazing"
+      ],
+      "photo": "a square sample sheet of plate glass",
+      "identity": {
+        "wikidata": "Q1426151"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Plate glass",
+          "url": "https://en.wikipedia.org/wiki/Plate_glass"
+        }
+      ]
+    },
+    {
+      "id": "pressed-glass",
+      "name": "Pressed glass",
+      "family": "glass",
+      "form": "sheet",
+      "senses": [
+        "industrial.materials"
+      ],
+      "is_a": [
+        "glass"
+      ],
+      "made_from": [
+        "glass"
+      ],
+      "properties": {
+        "warmth": 0.3
+      },
+      "photo": "a square sample sheet of pressed glass",
+      "identity": {
+        "wikidata": "Q7241657"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Pressed glass",
+          "url": "https://en.wikipedia.org/wiki/Pressed_glass"
+        }
+      ]
+    },
+    {
+      "id": "stained-glass",
+      "name": "Stained glass",
+      "family": "glass",
+      "form": "sheet",
+      "senses": [],
+      "is_a": [
+        "glass"
+      ],
+      "made_from": [
+        "glass",
+        "lead"
+      ],
+      "aliases": [
+        "stained glass",
+        "leaded glass",
+        "art glass in lead cames",
+        "stained and painted glass",
+        "stained and etched glass"
+      ],
+      "photo": "a square sample sheet of stained glass",
+      "identity": {
+        "wikidata": "Q1473346"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Stained glass",
+          "url": "https://en.wikipedia.org/wiki/Stained_glass"
+        }
+      ]
+    },
+    {
+      "id": "alkaline-glaze",
+      "name": "Alkaline glaze",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "A glaze fluxed with soda or potash. It gives bright turquoise with copper and blue with cobalt.",
+      "photo": "a small stoneware test tile coated with alkaline glaze",
+      "identity": {
+        "wikidata": "Q335404"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ceramic glaze",
+          "url": "https://en.wikipedia.org/wiki/Ceramic_glaze"
+        }
+      ]
+    },
+    {
+      "id": "ash-glaze",
+      "name": "Ash glaze",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "A glaze from wood ash. In a wood kiln it forms by itself as green-brown runs on the shoulder of a pot.",
+      "photo": "a small stoneware test tile coated with ash glaze",
+      "identity": {
+        "wikidata": "Q4804485"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ash glaze",
+          "url": "https://en.wikipedia.org/wiki/Ash_glaze"
+        }
+      ]
+    },
+    {
+      "id": "celadon",
+      "name": "Celadon",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "A green to blue-green glaze from a little iron in reduction. Longquan and Korean Goryeo celadons are the classic forms.",
+      "photo": "a small stoneware test tile coated with celadon",
+      "identity": {
+        "wikidata": "Q1054559"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Celadon",
+          "url": "https://en.wikipedia.org/wiki/Celadon"
+        }
+      ]
+    },
+    {
+      "id": "clear-feldspathic",
+      "name": "Clear porcelain glaze",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "A transparent high-fired feldspar glaze that shows the white body and underglaze painting.",
+      "photo": "a small stoneware test tile coated with clear porcelain glaze",
+      "identity": {
+        "wikidata": "Q335404"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ceramic glaze",
+          "url": "https://en.wikipedia.org/wiki/Ceramic_glaze"
+        }
+      ]
+    },
+    {
+      "id": "coloured-gloss",
+      "name": "Coloured gloss glaze",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "A smooth, even, saturated industrial glaze in one colour.",
+      "photo": "a small stoneware test tile coated with coloured gloss glaze",
+      "identity": {
+        "wikidata": "Q335404"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ceramic glaze",
+          "url": "https://en.wikipedia.org/wiki/Ceramic_glaze"
+        }
+      ]
+    },
+    {
+      "id": "copper-red",
+      "name": "Copper red",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "A red glaze from copper in reduction, hard to control: sang de boeuf and flambé.",
+      "photo": "a small stoneware test tile coated with copper red",
+      "identity": {
+        "wikidata": "Q66667459"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Sang de boeuf glaze",
+          "url": "https://en.wikipedia.org/wiki/Sang_de_boeuf_glaze"
+        }
+      ]
+    },
+    {
+      "id": "crackle-glaze",
+      "name": "Crackle glaze",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "A glaze that crazes in a net of lines on cooling. Potters stain the lines to show them.",
+      "photo": "a small stoneware test tile coated with crackle glaze",
+      "identity": {
+        "wikidata": "Q1329067"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Craquelure",
+          "url": "https://en.wikipedia.org/wiki/Craquelure"
+        }
+      ]
+    },
+    {
+      "id": "crystalline-glaze",
+      "name": "Crystalline glaze",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "A zinc glaze that grows flower-like crystals in a slow cool.",
+      "photo": "a small stoneware test tile coated with crystalline glaze",
+      "identity": {
+        "wikidata": "Q335404"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ceramic glaze",
+          "url": "https://en.wikipedia.org/wiki/Ceramic_glaze"
+        }
+      ]
+    },
+    {
+      "id": "eosin-glaze",
+      "name": "Eosin glaze",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "An iridescent lustre glaze in red, purple and gold that the Zsolnay factory made. It gives roof finials and wall panels an oily metallic sheen.",
+      "photo": "a small stoneware test tile coated with eosin glaze",
+      "identity": {
+        "wikidata": "Q227325"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Zsolnay",
+          "url": "https://en.wikipedia.org/wiki/Zsolnay"
+        }
+      ]
+    },
+    {
+      "id": "iron-brown-glaze",
+      "name": "Iron brown glaze",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "A glossy brown glaze coloured by iron oxide. It covers telegraph and power insulators, because it hides soot and dirt and sheds rain.",
+      "photo": "a small stoneware test tile coated with iron brown glaze",
+      "identity": {
+        "wikidata": "Q6137415"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Tenmoku",
+          "url": "https://en.wikipedia.org/wiki/Tenmoku"
+        }
+      ]
+    },
+    {
+      "id": "jun-glaze",
+      "name": "Jun glaze",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "A thick opalescent blue glaze, often with purple splashes of copper.",
+      "photo": "a small stoneware test tile coated with jun glaze",
+      "identity": {
+        "wikidata": "Q1497437"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Jun ware",
+          "url": "https://en.wikipedia.org/wiki/Jun_ware"
+        }
+      ]
+    },
+    {
+      "id": "lava-glaze",
+      "name": "Lava glaze",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "A thick, bubbled glaze that looks like lava, the surface of West German Fat Lava vases.",
+      "photo": "a small stoneware test tile coated with lava glaze",
+      "identity": {
+        "wikidata": "Q3010266"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: West German Art Pottery",
+          "url": "https://en.wikipedia.org/wiki/West_German_Art_Pottery"
+        }
+      ]
+    },
+    {
+      "id": "lead-glaze",
+      "name": "Lead glaze",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "A clear, low-fired glaze fluxed with lead oxide. It is glossy and takes colour from metal oxides.",
+      "photo": "a small stoneware test tile coated with lead glaze",
+      "identity": {
+        "wikidata": "Q23938025"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Lead-glazed earthenware",
+          "url": "https://en.wikipedia.org/wiki/Lead-glazed_earthenware"
+        }
+      ]
+    },
+    {
+      "id": "majolica-glaze",
+      "name": "Victorian majolica glaze",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "Bright coloured lead glazes over moulded relief, shown at the Great Exhibition of 1851.",
+      "photo": "a small stoneware test tile coated with victorian majolica glaze",
+      "identity": {
+        "wikidata": "Q7927354"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Victorian majolica",
+          "url": "https://en.wikipedia.org/wiki/Victorian_majolica"
+        }
+      ]
+    },
+    {
+      "id": "matte-glaze",
+      "name": "Matte glaze",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "A dry, velvet glaze. Grueby matte green set the surface of American art pottery.",
+      "photo": "a small stoneware test tile coated with matte glaze",
+      "identity": {
+        "wikidata": "Q335404"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ceramic glaze",
+          "url": "https://en.wikipedia.org/wiki/Ceramic_glaze"
+        }
+      ]
+    },
+    {
+      "id": "oribe-glaze",
+      "name": "Oribe glaze",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "A copper-green glaze poured over part of a piece, named after the tea master Furuta Oribe.",
+      "photo": "a small stoneware test tile coated with oribe glaze",
+      "identity": {
+        "wikidata": "Q775066"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Oribe ware",
+          "url": "https://en.wikipedia.org/wiki/Oribe_ware"
+        }
+      ]
+    },
+    {
+      "id": "raku-glaze",
+      "name": "Raku glaze",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "A low-fired glaze on a piece pulled hot from the kiln. Black and red raku tea bowls are the canonical forms.",
+      "photo": "a small stoneware test tile coated with raku glaze",
+      "identity": {
+        "wikidata": "Q648899"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Raku ware",
+          "url": "https://en.wikipedia.org/wiki/Raku_ware"
+        }
+      ]
+    },
+    {
+      "id": "salt-glaze",
+      "name": "Salt glaze",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "Salt thrown into a hot kiln forms a thin glaze with an orange-peel texture on stoneware.",
+      "photo": "a small stoneware test tile coated with salt glaze",
+      "identity": {
+        "wikidata": "Q2159609"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Salt glaze pottery",
+          "url": "https://en.wikipedia.org/wiki/Salt_glaze_pottery"
+        }
+      ]
+    },
+    {
+      "id": "sancai",
+      "name": "Sancai (three-colour)",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "Lead glazes in amber, green and cream that run together on tomb figures and vessels.",
+      "photo": "a small stoneware test tile coated with sancai",
+      "identity": {
+        "wikidata": "Q1372026"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Sancai",
+          "url": "https://en.wikipedia.org/wiki/Sancai"
+        }
+      ]
+    },
+    {
+      "id": "sanitary-glaze",
+      "name": "Sanitary glaze",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "A glossy, hard, white zircon glaze that cleans easily, sprayed on vitreous china and fireclay.",
+      "photo": "a small stoneware test tile coated with sanitary glaze",
+      "identity": {
+        "wikidata": "Q7937236"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Vitreous china",
+          "url": "https://en.wikipedia.org/wiki/Vitreous_china"
+        }
+      ]
+    },
+    {
+      "id": "satin-glaze",
+      "name": "Satin glaze",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "A glaze between matte and gloss, about 20 to 50 GU, common on studio and Scandinavian ware.",
+      "photo": "a small stoneware test tile coated with satin glaze",
+      "identity": {
+        "wikidata": "Q335404"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ceramic glaze",
+          "url": "https://en.wikipedia.org/wiki/Ceramic_glaze"
+        }
+      ]
+    },
+    {
+      "id": "shino-glaze",
+      "name": "Shino glaze",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "A thick white feldspar glaze with pinholes and fire-orange edges.",
+      "photo": "a small stoneware test tile coated with shino glaze",
+      "identity": {
+        "wikidata": "Q7497699"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Shino ware",
+          "url": "https://en.wikipedia.org/wiki/Shino_ware"
+        }
+      ]
+    },
+    {
+      "id": "soft-paste-glaze",
+      "name": "Soft-paste glaze",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "A soft, glassy lead glaze that fuses with the body of soft-paste porcelain. It pools in the corners and takes enamel colours well. English factories used it from about 1745.",
+      "photo": "a small stoneware test tile coated with soft-paste glaze",
+      "identity": {
+        "wikidata": "Q17105928"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Soft-paste porcelain",
+          "url": "https://en.wikipedia.org/wiki/Soft-paste_porcelain"
+        }
+      ]
+    },
+    {
+      "id": "tenmoku",
+      "name": "Tenmoku",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "A dark iron glaze that breaks to brown on rims. Hare's fur and oil spot are its effects.",
+      "photo": "a small stoneware test tile coated with tenmoku",
+      "identity": {
+        "wikidata": "Q6137415"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Tenmoku",
+          "url": "https://en.wikipedia.org/wiki/Tenmoku"
+        }
+      ]
+    },
+    {
+      "id": "tin-glaze",
+      "name": "Tin glaze",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "An opaque white lead glaze with tin oxide. It is the base of maiolica, faience and delftware.",
+      "photo": "a small stoneware test tile coated with tin glaze",
+      "identity": {
+        "wikidata": "Q620001"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Tin-glazing",
+          "url": "https://en.wikipedia.org/wiki/Tin-glazing"
+        }
+      ]
+    },
+    {
+      "id": "uranium-glaze",
+      "name": "Uranium oxide glaze",
+      "family": "glaze",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "A bright orange-red glaze coloured with uranium oxide, the red of Fiesta ware.",
+      "photo": "a small stoneware test tile coated with uranium oxide glaze",
+      "identity": {
+        "wikidata": "Q221163"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Uranium glass",
+          "url": "https://en.wikipedia.org/wiki/Uranium_glass"
+        }
+      ]
+    },
+    {
+      "id": "albany-slip",
+      "name": "Albany slip",
+      "family": "slip",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "A natural brown clay from Albany, New York, that melts to a dark glossy coat at stoneware heat. American potters dipped crocks and jugs in it.",
+      "made_from": [
+        "clay"
+      ],
+      "photo": "a small stoneware test tile coated with albany slip",
+      "identity": {
+        "wikidata": "Q1971493"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Slip (ceramics)",
+          "url": "https://en.wikipedia.org/wiki/Slip_(ceramics)"
+        }
+      ]
+    },
+    {
+      "id": "attic-gloss",
+      "name": "Attic black gloss",
+      "family": "slip",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "A fine iron-rich slip that turns black and glossy in a three-stage firing. It makes black- and red-figure ware.",
+      "made_from": [
+        "clay"
+      ],
+      "photo": "a small stoneware test tile coated with attic black gloss",
+      "identity": {
+        "wikidata": "Q629602"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Black-figure pottery",
+          "url": "https://en.wikipedia.org/wiki/Black-figure_pottery"
+        }
+      ]
+    },
+    {
+      "id": "terra-sigillata",
+      "name": "Terra sigillata",
+      "family": "slip",
+      "form": "coating",
+      "senses": [
+        "ceramics.glazes"
+      ],
+      "summary": "A red gloss slip of very fine clay particles, the surface of Roman tableware.",
+      "made_from": [
+        "clay"
+      ],
+      "photo": "a small stoneware test tile coated with terra sigillata",
+      "identity": {
+        "wikidata": "Q367622"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Terra sigillata",
+          "url": "https://en.wikipedia.org/wiki/Terra_sigillata"
+        }
+      ]
+    },
+    {
+      "id": "technical-ceramic",
+      "name": "Technical ceramic",
+      "family": "technical-ceramic",
+      "form": "part",
+      "senses": [
+        "fashion.materials"
+      ],
+      "summary": "Zirconium oxide sintered hard and polished; it does not scratch and does not fade, and watch cases and bracelets use it.",
+      "photo": "technical ceramic",
+      "identity": {
+        "wikidata": "Q1936199"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ceramic engineering",
+          "url": "https://en.wikipedia.org/wiki/Ceramic_engineering"
+        }
+      ]
+    },
+    {
+      "id": "clay-tile",
+      "name": "Clay roof and floor tile",
+      "family": "tile",
+      "form": "sheet",
+      "senses": [],
+      "made_from": [
+        "clay"
+      ],
+      "aliases": [
+        "clay tile",
+        "quarry tile",
+        "terracotta tile",
+        "tile floor",
+        "tile"
+      ],
+      "photo": "a square sample sheet of clay roof and floor tile",
+      "identity": {
+        "wikidata": "Q268547"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Roof tiles",
+          "url": "https://en.wikipedia.org/wiki/Roof_tiles"
+        }
+      ]
+    },
+    {
+      "id": "mosaic",
+      "name": "Mosaic tesserae",
+      "family": "tile",
+      "form": "part",
+      "senses": [],
+      "made_from": [
+        "glass",
+        "local-stone"
+      ],
+      "aliases": [
+        "mosaic"
+      ],
+      "photo": "mosaic tesserae",
+      "identity": {
+        "wikidata": "Q133067"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Mosaic",
+          "url": "https://en.wikipedia.org/wiki/Mosaic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-ontology.dev/schema/material-edges.schema.json",
+  "title": "Process to material edges",
+  "description": "One group of edges from processes to materials (data/materials/edges/<group>.json). This file is the one owner of these edges. A process is a technique file or a process entry of a domain vocabulary.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["group", "summary", "edges"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "group": { "enum": ["technique", "cuisine.methods", "ceramics.decorations", "fashion.finishes", "industrial.finishes"], "description": "The kind of process in this file: a technique file, or one process list of a domain vocabulary. Each process id in the file starts with the group and a colon." },
+    "summary": { "$ref": "core.schema.json#/$defs/sentence" },
+    "edges": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["process", "sources"],
+        "properties": {
+          "process": {
+            "type": "string",
+            "pattern": "^(technique|cuisine\\.methods|ceramics\\.decorations|fashion\\.finishes|industrial\\.finishes):[a-z0-9]+(-[a-z0-9]+)*$",
+            "description": "technique:<id> for data/techniques/<id>.json, or <domain>.<list>:<id> for a vocabulary process."
+          },
+          "acts_on": { "$ref": "core.schema.json#/$defs/refList", "description": "The materials that the process changes." },
+          "adds": { "$ref": "core.schema.json#/$defs/refList", "description": "The second materials that the process joins to it or puts on it." },
+          "makes": { "$ref": "core.schema.json#/$defs/refList", "description": "The materials that come out." },
+          "with": { "$ref": "core.schema.json#/$defs/refList", "description": "Tool ids from data/materials/tools.json." },
+          "note": { "$ref": "core.schema.json#/$defs/sentence" },
+          "sources": { "allOf": [{ "$ref": "core.schema.json#/$defs/sources" }, { "type": "array", "minItems": 1 }], "description": "The sources for the edges of this process. They support each edge in the record." }
+        }
+      }
+    }
+  }
+}
