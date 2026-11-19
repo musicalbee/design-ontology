@@ -93,6 +93,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Primary:** bread · verjuice · ginger · cinnamon · saffron · game-birds
 - **Secondary:** black-pepper · clove · grains-of-paradise · nutmeg · cane-sugar · honey · nuts-seeds · wine · vinegar · onion · leek · chicken · pork · venison · cod · egg
 - **Avoid:** tomato · potato · maize · chilli · vanilla · cocoa · fine-herbs · soy-sauce
+- **In europe:** yes
 - **Rule:** Build a sauce on bread, verjuice or vinegar and spice, and use the costly spice in the dish of honour.
 
 ## Technique

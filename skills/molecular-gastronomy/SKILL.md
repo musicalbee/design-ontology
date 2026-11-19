@@ -91,6 +91,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Primary:** sodium-alginate · agar · xanthan-gum · liquid-nitrogen · soy-lecithin · egg · shellfish
 - **Secondary:** cream · butter · olive-oil · potato · tomato · salmon · tuna · cocoa · vanilla · nuts-seeds · cane-sugar · lemon · fine-herbs · wild-plants
 - **Avoid:** beef · lard
+- **In europe:** yes
 - **Rule:** Take each ingredient as a source of flavour, and use the gels, thickeners and gases of the laboratory to change its form.
 
 ## Technique
@@ -189,7 +190,7 @@ A liquid dropped into a calcium bath forms a thin skin of alginate gel; the sphe
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **elBulli** (company, Roses, Spain, 1964–2011), launched the style. A restaurant on Cala Montjoi in Catalonia; under Ferran Adrià, its winter research workshop made foams, spheres and the deconstructed dish.
+- **elBulli** (company, Roses, Spain, 1964–2011), launched the style. A restaurant on Cala Montjoi in Catalonia, on a site bought in 1961 and open as a restaurant from 1964; under Ferran Adrià, its winter research workshop made foams, spheres and the deconstructed dish.
 - **The Fat Duck** (company, Bray, England, 1995–now), made the style. A restaurant in a village by the Thames; Heston Blumenthal built long tasting menus with low-temperature cooking, liquid nitrogen and play with memory.
 
 ## Permutations

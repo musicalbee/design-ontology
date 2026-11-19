@@ -91,6 +91,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Primary:** potato · maize · quinoa · chilli · lime · sole · shellfish
 - **Secondary:** tuna · beef · pork · chicken · rice · onion · garlic · ginger · coriander-leaf · soy-sauce · kombu · tropical-fruit · cocoa · tomato
 - **Avoid:** cream · truffle · foie-gras
+- **In europe:** no — the values here translate a print style for screen
 - **Rule:** Take the native Peruvian ingredient first; add the Japanese pantry of soy, ginger and kombu in small amounts for depth.
 
 ## Technique
@@ -150,6 +151,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 | Work | Maker | Year |
 |---|---|---|
+| Olla Huacachina | Bernardo Roca Rey | 1986 |
 | Astrid y Gastón (restaurant, Lima) | Gastón Acurio and Astrid Gutsche | 1994 |
 | Central (restaurant, Lima) | Virgilio Martínez and Pía León | 2008 |
 | Maido (restaurant, Lima) | Mitsuharu Tsumura | 2009 |
@@ -214,6 +216,8 @@ Each item below has an open licence or is in the public domain, so you may show 
 
 ## Sources
 
+- [Wikipedia: Novoandina (Bernardo Roca Rey and the Olla Huacachina, 1986)](https://en.wikipedia.org/wiki/Novoandina)
+- [Eat Peru: Novoandina, Novo-Andean cuisine](https://www.eatperu.com/novoandina-novo-andean-cuisine/)
 - [Wikipedia: Gastón Acurio](https://en.wikipedia.org/wiki/Gast%C3%B3n_Acurio)
 - [Wikipedia: Nikkei cuisine](https://en.wikipedia.org/wiki/Nikkei_cuisine)
 - [Wikipedia: Peruvian cuisine](https://en.wikipedia.org/wiki/Peruvian_cuisine)

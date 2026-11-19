@@ -92,6 +92,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Primary:** butter · cream · veal · foie-gras · truffle · cane-sugar · egg · sole
 - **Secondary:** beef · chicken · game-birds · shellfish · salmon · fine-herbs · tarragon · shallot · wine · wheat · orchard-fruit · peach · asparagus · artichoke · black-pepper · caviar
 - **Avoid:** chilli · soy-sauce · miso · grains-of-paradise
+- **In europe:** yes
 - **Rule:** Build on butter, cream and veal stock, add truffle or foie gras to the dish of honour, and use sugar and pastry for the centrepiece.
 
 ## Technique
