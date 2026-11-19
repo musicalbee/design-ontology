@@ -1,0 +1,46 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "thread-bumping",
+  "name": "Thread bumping",
+  "aliases": [
+    "Bump order",
+    "Sage"
+  ],
+  "kind": "process",
+  "summary": "A new reply moves its thread to the top of the board; a thread with no new replies falls down and, on an imageboard, is deleted.",
+  "how": [
+    "Sort the threads by the time of the last reply.",
+    "Let a poster reply without a bump (sage on Japanese boards).",
+    "Delete the last thread when a new thread starts on a full board."
+  ],
+  "origin": {
+    "domain": "internet",
+    "year": 1999,
+    "circa": true,
+    "where": "Japan",
+    "note": "On 2channel a reply bumps its thread up; a poster can choose sage to reply with no bump."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 2003,
+      "via": "4chan bumps a thread on each reply and deletes the old threads at the bottom of the board.",
+      "styles": [
+        "anonymous-imageboard"
+      ]
+    }
+  ],
+  "styles": [
+    "anonymous-imageboard"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Imageboard",
+      "url": "https://en.wikipedia.org/wiki/Imageboard"
+    },
+    {
+      "title": "Wikipedia: 2channel",
+      "url": "https://en.wikipedia.org/wiki/2channel"
+    }
+  ]
+}

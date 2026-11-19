@@ -26,7 +26,7 @@ const dry = args.includes("--dry-run");
 // current model, the guard words and the vision check. The other images stay as they are.
 // The paths are made relative to the repo, so "./demo/..." and an absolute path match too.
 const redo = new Set<string>(opt("redo") ? JSON.parse(readFileSync(opt("redo")!, "utf8")).map((x: any) => relative(process.cwd(), resolve(x.path))) : []);
-if (!domain) throw new Error("Give --domain photography|film|painting|interior|architecture|logo|icon|internet");
+if (!domain) throw new Error("Give --domain photography|film|painting|interior|architecture|logo|icon|internet|graphic-movement");
 
 type Override = { subject?: string; size?: keyof typeof SIZES; drop?: string; scene?: string };
 const subjects = JSON.parse(readFileSync("scripts/previews/subjects.json", "utf8")) as {

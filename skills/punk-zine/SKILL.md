@@ -1,8 +1,8 @@
 ---
 name: punk-zine
-description: "Apply the Punk Zine style (1976–1986) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: punk, zine, xerox, cut and paste, ransom note, diy."
+description: "Apply the Punk Zine style (1976–1986) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: punk, zine, xerox, cut and paste, ransom note, diy."
 domain: internet
-era: postmodern-early-digital
+era: terminals-bbs
 triggers:
   - "punk"
   - "zine"
@@ -27,7 +27,7 @@ vector_profile:
 
 Photocopied black and white, cut-and-paste letters, typewriter text, tape and hand scrawl. It came from the punk scenes of London and New York and shows that anyone can make a page.
 
-**Period:** 1976–1986 · **Era:** Postmodern & Early Digital · **Domain:** Internet · **Also called:** Cut-and-paste zine, Xerox style, Ransom-note style
+**Period:** 1976–1986 · **Era:** Terminals, BBS and Usenet · **Domain:** Internet · **Also called:** Cut-and-paste zine, Xerox style, Ransom-note style
 
 ## When to load this skill
 
@@ -42,7 +42,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Punk Zine, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Punk Zine, you MUST:
 
 1. Set the page in black on off-white (#F1EEE4) with one spot colour (fluorescent pink #FF2E88 or yellow) on less than 10% of the surface.
 2. Mix 3 to 5 letter styles in a headline, each letter cut as a block with a 2px to 4px offset and a 1° to 6° tilt.
@@ -239,14 +239,14 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Halftone (process)
 
-Tone printed as dots of different size or spacing; at a distance the dots merge into grey or colour. Origin: internet, New York, 1879.
+Tone printed as dots of different size or spacing; at a distance the dots merge into grey or colour. Origin: print, New York, 1879.
 
 - Set the screen at 10 to 30 lines per cm for a print grain, or enlarge the dots to 4 to 8mm for a Pop effect.
 - Turn each colour screen to its own angle: cyan 15°, magenta 75°, yellow 0°, black 45°.
 
 ### Photomontage (montage)
 
-Fragments of photographs, cut and joined on one sheet, so that the joins make a statement that no single photograph makes. Origin: internet, Berlin, 1918.
+Fragments of photographs, cut and joined on one sheet, so that the joins make a statement that no single photograph makes. Origin: graphic movements, Berlin, 1918.
 
 - Join 3 to 12 photographic fragments on one ground and keep the cut edges hard and visible.
 - Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.
@@ -280,9 +280,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more bold**: move toward [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md) (Neo-Brutalism UI). Replace the tape with 3px solid borders and hard shadows; keep the loud colour.
 
 - **Led to (go here for a newer version):** [`scrapbook-ui`](../scrapbook-ui/SKILL.md)
-- **Rejects (the opposite pole; do not blend):** [`mid-century-modern`](../mid-century-modern/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
-- **Mixes well with:** [`ansi-bbs-art`](../ansi-bbs-art/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`victorian-web`](../victorian-web/SKILL.md)
-- **Kin in another domain:** [`blackletter`](../blackletter/SKILL.md), [`punk-fashion`](../punk-fashion/SKILL.md), [`subculture-workboot`](../subculture-workboot/SKILL.md), [`xerox-zine`](../xerox-zine/SKILL.md)
+- **Mixes well with:** [`ansi-bbs-art`](../ansi-bbs-art/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md)
+- **Kin in another domain:** [`blackletter`](../blackletter/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md), [`punk-fashion`](../punk-fashion/SKILL.md), [`subculture-workboot`](../subculture-workboot/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md), [`victorian-web`](../victorian-web/SKILL.md), [`xerox-zine`](../xerox-zine/SKILL.md)
 - **Nearest by vector profile:** [`anti-design`](../anti-design/SKILL.md), [`deep-fried-meme`](../deep-fried-meme/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md)
 
 ## Emotional target

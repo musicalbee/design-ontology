@@ -1,8 +1,8 @@
 ---
 name: rage-comic
-description: "Apply the Rage comic style (2008–2015) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: rage comic, rage face, fffuuu, trollface, mspaint comic, stick figure comic."
+description: "Apply the Rage comic style (2008–2015) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: rage comic, rage face, fffuuu, trollface, mspaint comic, stick figure comic."
 domain: internet
-era: touchscreen
+era: web-2-social
 triggers:
   - "rage comic"
   - "rage face"
@@ -25,7 +25,7 @@ vector_profile:
 
 A short comic of 2 to 8 panels drawn in MS Paint with a set of crude faces that show one fixed emotion each. It began on 4chan in 2008 and filled Reddit and 9GAG until about 2015.
 
-**Period:** 2008–2015 · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Rage faces, Rage guy comic, Fffuuu comic
+**Period:** 2008–2015 · **Era:** Web 2.0 and the social web · **Domain:** Internet · **Also called:** Rage faces, Rage guy comic, Fffuuu comic
 
 ## When to load this skill
 
@@ -39,7 +39,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Rage comic, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Rage comic, you MUST:
 
 1. Divide the canvas into 2 to 6 panels in a grid of 2 columns, each with a 2px black line.
 2. Draw faces as white ovals with a 3px black outline and a few hard strokes; no shading.
@@ -268,8 +268,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`impact-image-macro`](../impact-image-macro/SKILL.md)
 - **Led to (go here for a newer version):** [`wojak-feels`](../wojak-feels/SKILL.md)
+- **Mixes well with:** [`anonymous-imageboard`](../anonymous-imageboard/SKILL.md), [`reddit-thread`](../reddit-thread/SKILL.md)
 - **Kin in another domain:** [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md)
-- **Nearest by vector profile:** [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md), [`ai-chat-ui`](../ai-chat-ui/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md)
+- **Nearest by vector profile:** [`anonymous-imageboard`](../anonymous-imageboard/SKILL.md), [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md), [`ai-chat-ui`](../ai-chat-ui/SKILL.md)
 
 ## Emotional target
 

@@ -1,0 +1,148 @@
+/* Encyclopedia: the one page shape of every domain of styles (encyclopedia.js renders it).
+   The page uses the full width of the screen. A header, a hero (the preview and a summary card),
+   section tabs that stay at the top, and then one section for each part of a style, always in the
+   same order: structure, style vectors, prompt primer, peculiarities, lineage and sources.
+   The tokens are the same as the top bar (nav.js): a pale ground, navy ink, one royal accent. */
+:root {
+  --enc-bg: #f6f7fb; --enc-card: #fff; --enc-sunk: #eff2fb; --enc-ink: #1b1c33; --enc-muted: #474a68;
+  --enc-faint: #6b6e8c; --enc-line: #dfe3ef; --enc-line-strong: #b9bfd6; --enc-accent: #264fcc; --enc-focus: #2589ff;
+  --enc-style: #264fcc; --enc-radius: 14px; --enc-gutter: clamp(16px, 3vw, 40px); --enc-tabs: 52px;
+  --enc-font: "Onest", "Helvetica Neue", Arial, sans-serif; --enc-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-padding-top: calc(56px + var(--enc-tabs) + 16px); }
+html, body { margin: 0; }
+body { font: 16px/1.6 var(--enc-font); background: var(--enc-bg); color: var(--enc-ink); -webkit-font-smoothing: antialiased; }
+:focus-visible { outline: 3px solid var(--enc-focus); outline-offset: 2px; }
+a { color: var(--enc-accent); text-underline-offset: .18em; }
+code { font: .86em/1.4 var(--enc-mono); }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }
+
+.enc { max-width: 1840px; margin: 0 auto; padding: 0 var(--enc-gutter) 80px; display: grid; gap: 28px; }
+.enc > * { min-width: 0; }
+
+/* Header */
+.enc-head { padding-top: clamp(20px, 3vw, 40px); display: grid; gap: 10px; }
+.enc-kicker { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; font-size: 14px; color: var(--enc-muted); font-weight: 600; }
+.enc-kicker::before { content: ""; width: 28px; height: 6px; border-radius: 3px; background: var(--enc-style); }
+.enc-head h1 { margin: 0; font-size: clamp(32px, 4.6vw, 60px); line-height: 1.05; letter-spacing: -.02em; color: #15163a; text-wrap: balance; }
+.enc-meta { margin: 0; color: var(--enc-muted); font-size: 15px; }
+.enc-thesis { margin: 4px 0 0; font-size: clamp(18px, 1.6vw, 22px); line-height: 1.45; max-width: 62ch; text-wrap: pretty; }
+.enc-headx { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; }
+.enc-headx:empty { display: none; }
+.enc-headx > a { font-size: 15px; }
+
+/* Section tabs: they stay under the top bar and mark the section in view. */
+.enc-tabs { position: sticky; top: 56px; z-index: 50; margin: 0 calc(var(--enc-gutter) * -1); padding: 0 var(--enc-gutter);
+  background: rgb(246 247 251 / .94); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-bottom: 1px solid var(--enc-line); }
+.enc-tabs-row { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; height: var(--enc-tabs); align-items: stretch; }
+.enc-tabs-row::-webkit-scrollbar { display: none; }
+.enc-tabs button { all: unset; box-sizing: border-box; cursor: pointer; white-space: nowrap; padding: 0 14px; display: flex; align-items: center;
+  font: 600 15px/1 var(--enc-font); color: var(--enc-muted); border-bottom: 3px solid transparent; }
+.enc-tabs button:hover { color: var(--enc-ink); }
+.enc-tabs button[aria-current="true"] { color: var(--enc-accent); border-bottom-color: var(--enc-accent); }
+.enc-tabs button:focus-visible { outline: 3px solid var(--enc-focus); outline-offset: -3px; }
+
+/* Cards and grids */
+.enc-card { background: var(--enc-card); border: 1px solid var(--enc-line); border-radius: var(--enc-radius); padding: clamp(16px, 1.6vw, 24px); min-width: 0; }
+.enc-card > h3, .enc-h3 { margin: 0 0 12px; font-size: 17px; line-height: 1.3; color: #15163a; letter-spacing: -.005em; }
+.enc-sec { display: grid; gap: 16px; scroll-margin-top: calc(56px + var(--enc-tabs) + 16px); }
+.enc-sec > header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; }
+.enc-sec > header h2 { margin: 0; font-size: clamp(22px, 2vw, 28px); line-height: 1.2; letter-spacing: -.01em; color: #15163a; }
+.enc-sec > header p { margin: 0; color: var(--enc-muted); font-size: 15px; max-width: 70ch; }
+.enc-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); grid-auto-flow: dense; align-items: start; }
+@media (min-width: 760px) { .enc-grid > .wide { grid-column: span 2; } }
+@media (min-width: 1500px) { .enc-grid > .wider { grid-column: span 3; } }
+.enc-grid > .full { grid-column: 1 / -1; }
+.enc-empty { color: var(--enc-faint); font-size: 15px; margin: 0; }
+
+/* Hero: the preview on the left, the summary card on the right. */
+.enc-hero { display: grid; gap: 16px; grid-template-columns: minmax(0, 1fr); align-items: start; }
+@media (min-width: 1080px) { .enc-hero { grid-template-columns: minmax(0, 7fr) minmax(340px, 4fr); } }
+.enc-stage { display: grid; gap: 16px; min-width: 0; }
+.enc-preview { padding: 12px; }
+.enc-preview figcaption, .enc-cap { font-size: 13.5px; line-height: 1.5; color: var(--enc-muted); margin-top: 10px; }
+.enc-glance { display: grid; gap: 18px; align-content: start; }
+.enc-glance h3 { margin: 0 0 6px; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--enc-faint); }
+.enc-glance p { margin: 0; }
+.enc-facts { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; margin: 0; font-size: 15px; }
+.enc-facts dt { color: var(--enc-muted); }
+.enc-facts dd { margin: 0; font-weight: 600; }
+.enc-pal { display: flex; height: 36px; border-radius: 8px; overflow: hidden; border: 1px solid var(--enc-line); }
+.enc-pal span { flex: 1; }
+
+/* Tags, lists and the generic view of a facet */
+.enc-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.enc-tag { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; line-height: 1.3; padding: 4px 11px; border-radius: 999px;
+  background: var(--enc-sunk); color: var(--enc-ink); text-decoration: none; border: 1px solid transparent; }
+a.enc-tag:hover { border-color: var(--enc-line-strong); }
+.enc-tag.neg { background: #fdeff0; color: #7a1f2b; }
+.enc-tag.pos { background: #eaf6ee; color: #18502d; }
+.enc-body { font-size: 15.5px; line-height: 1.6; }
+.enc-body p { margin: 0 0 8px; max-width: 72ch; }
+.enc-body ul, .enc-body ol { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; max-width: 72ch; }
+.enc-body li::marker { color: var(--enc-faint); }
+.enc-body dl { margin: 0; display: grid; gap: 12px; }
+.enc-body .kv { min-width: 0; }
+.enc-body dt { font-size: 13px; font-weight: 600; color: var(--enc-muted); letter-spacing: .01em; }
+.enc-body dd { margin: 2px 0 0; max-width: 72ch; overflow-wrap: anywhere; }
+.enc-body dd dl { padding-left: 12px; border-left: 2px solid var(--enc-line); gap: 8px; margin-top: 4px; }
+.wide .enc-body > dl, .wider .enc-body > dl, .full .enc-body > dl { grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); column-gap: 28px; }
+.enc-num { font-variant-numeric: tabular-nums; font-weight: 600; }
+.enc-scroll { overflow-x: auto; }
+.enc-body table, .enc-table { border-collapse: collapse; width: 100%; font-size: 14.5px; line-height: 1.45; }
+.enc-body th, .enc-body td, .enc-table th, .enc-table td { text-align: left; vertical-align: top; padding: 8px 10px; border-top: 1px solid var(--enc-line); }
+.enc-body thead th, .enc-table thead th { border-top: 0; font-size: 13px; color: var(--enc-muted); font-weight: 600; white-space: nowrap; }
+.enc-body tr > :first-child, .enc-table tr > :first-child { padding-left: 0; }
+.enc-sw { display: inline-block; width: 14px; height: 14px; border-radius: 4px; border: 1px solid rgb(0 0 0 / .14); vertical-align: -2px; margin-right: 6px; }
+.enc-swatches { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); }
+.enc-swatch { display: grid; grid-template-columns: 40px 1fr; gap: 10px; align-items: center; font-size: 14px; line-height: 1.35; }
+.enc-swatch i { width: 40px; height: 40px; border-radius: 8px; border: 1px solid rgb(0 0 0 / .12); }
+.enc-swatch small { display: block; color: var(--enc-muted); font-size: 12.5px; }
+
+/* Style vectors */
+.enc-vec { font-size: 15px; --color-primary: var(--enc-style); }
+.enc-near { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }
+.enc-near li { display: grid; gap: 2px; }
+.enc-near a { font-weight: 600; }
+.enc-near small { color: var(--enc-muted); font-size: 13.5px; }
+
+/* Prompt primer */
+.enc-prompt { font: 14px/1.6 var(--enc-mono); background: var(--enc-sunk); border-radius: 10px; padding: 12px 14px; margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; }
+.enc-btn { font: 600 14px/1 var(--enc-font); padding: 9px 16px; border-radius: 999px; border: 1.5px solid var(--enc-accent); background: var(--enc-accent); color: #fff; cursor: pointer; }
+.enc-btn:hover { background: #1c3a99; }
+.enc-btn.quiet { background: transparent; color: var(--enc-accent); }
+.enc-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 12px; }
+
+/* Peculiarities */
+.enc-rules { counter-reset: r; list-style: none; padding: 0 !important; }
+.enc-rules li { counter-increment: r; display: grid; grid-template-columns: 2em 1fr; }
+.enc-rules li::before { content: counter(r); font-weight: 700; color: var(--enc-style); font-variant-numeric: tabular-nums; }
+.wide .enc-rules { grid-template-columns: repeat(auto-fill, minmax(min(100%, 380px), 1fr)); column-gap: 28px; max-width: none; }
+.enc-refuse li::marker { content: "✕  "; color: #b4233c; }
+
+/* Footer */
+.enc-foot { color: var(--enc-muted); font-size: 14px; border-top: 1px solid var(--enc-line); padding-top: 16px; display: flex; flex-wrap: wrap; gap: 8px 20px; }
+
+/* The style list in the drawer, grouped (for example the internet branches). */
+.do-list .do-branch { display: block; padding: 12px 12px 4px; font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase; color: #50527a; font-weight: 600; }
+.do-list .do-branch:first-child { padding-top: 4px; }
+
+/* Plug-ins share the overlay toggles. */
+.enc-toggles { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.enc-toggles label { display: inline-flex; gap: 8px; align-items: center; padding: 6px 12px; border: 1px solid var(--enc-line); border-radius: 999px; background: #fff; cursor: pointer; font-size: 14px; }
+.enc-toggles .sw { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+.enc svg { max-width: 100%; }
+
+@media (max-width: 640px) {
+  .enc { gap: 22px; }
+  .enc-card { border-radius: 12px; }
+  .enc-facts { grid-template-columns: 1fr; gap: 0; }
+  .enc-facts dd { margin-bottom: 8px; }
+}
+
+/* A plug-in that shows another page in a frame (the internet landing page). */
+.enc-frame { padding: 0; overflow: hidden; }
+.enc-frame iframe { display: block; width: 100%; height: min(85vh, 980px); border: 0; }
+.enc-note { margin: 10px 0 0; font-size: 14px; color: var(--enc-muted); }
+.enc-note a, .enc-sec > header a { color: var(--enc-accent); }

@@ -1,8 +1,8 @@
 ---
 name: demotivational-poster
-description: "Apply the Demotivational poster style (2004–2012) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: demotivational poster, demotivator, despair poster, black frame poster, ironic motivational poster, office joke poster."
+description: "Apply the Demotivational poster style (2004–2012) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: demotivational poster, demotivator, despair poster, black frame poster, ironic motivational poster, office joke poster."
 domain: internet
-era: postmodern-early-digital
+era: web-2-social
 triggers:
   - "demotivational poster"
   - "demotivator"
@@ -24,7 +24,7 @@ vector_profile:
 
 A black poster with a thin white frame, a photo, a large serif capital title and a small line of sad or dry text. It parodies the office motivational poster and spread on web forums from 2004.
 
-**Period:** 2004–2012 · **Era:** Postmodern & Early Digital · **Domain:** Internet · **Also called:** Demotivator, Despair poster
+**Period:** 2004–2012 · **Era:** Web 2.0 and the social web · **Domain:** Internet · **Also called:** Demotivator, Despair poster
 
 ## When to load this skill
 
@@ -38,7 +38,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Demotivational poster, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Demotivational poster, you MUST:
 
 1. Fill the canvas with black (#000000) and keep a 6% to 8% margin around the picture.
 2. Frame the picture with a 2px white line and a 3px gap of black between the picture and the line.

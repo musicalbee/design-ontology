@@ -213,7 +213,7 @@ The main forms lie on a tilted axis, so that the picture seems to move and to cu
 
 ### Photomontage (montage)
 
-Fragments of photographs, cut and joined on one sheet, so that the joins make a statement that no single photograph makes. Origin: internet, Berlin, 1918.
+Fragments of photographs, cut and joined on one sheet, so that the joins make a statement that no single photograph makes. Origin: graphic movements, Berlin, 1918.
 
 - Join 3 to 12 photographic fragments on one ground and keep the cut edges hard and visible.
 - Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.

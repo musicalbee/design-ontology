@@ -168,6 +168,35 @@
         }
       }
     },
+    "emblem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "file", "url", "page", "licence", "credit", "source"],
+      "description": "A symbol that carries the story of the influence: a brand logo, a family crest, a royal monogram, a seal or a maker's mark. Link the file on Wikimedia Commons, do not copy it. Use only a free licence or the public domain. A logo in the public domain can still be a trademark: then set trademark to true.",
+      "properties": {
+        "kind": {
+          "enum": ["logo", "coat-of-arms", "monogram", "seal", "mark", "symbol"],
+          "description": "logo: the mark of a firm, a platform or a magazine. coat-of-arms: the arms of a person, a family or a body. monogram: the letters of a name in one design (a royal cypher, a tughra, the mark of an artist). seal: a seal image. mark: a maker's mark, a kiln mark or a colophon. symbol: another sign that the story names."
+        },
+        "file": { "type": "string", "minLength": 5, "description": "The Commons file name." },
+        "url": { "type": "string", "pattern": "^https://(upload|thumb)\\.wikimedia\\.org/", "description": "A thumbnail URL on the Commons server." },
+        "page": { "type": "string", "pattern": "^https://commons\\.wikimedia\\.org/" },
+        "licence": { "type": "string", "minLength": 2, "maxLength": 80 },
+        "licence_url": { "type": "string", "pattern": "^https?://" },
+        "credit": { "type": "string", "minLength": 1, "maxLength": 300 },
+        "trademark": { "const": true, "description": "Commons marks the image as a trademark. The licence covers the copyright only." },
+        "source": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["title", "url"],
+          "description": "The record that ties the image to the person or the organisation (a Wikidata statement, a museum page).",
+          "properties": {
+            "title": { "type": "string", "minLength": 3, "maxLength": 200 },
+            "url": { "type": "string", "pattern": "^https://" }
+          }
+        }
+      }
+    },
     "sources": {
       "type": "array",
       "items": {

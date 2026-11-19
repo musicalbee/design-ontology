@@ -1,8 +1,8 @@
 ---
 name: geocities-homepage
-description: "Apply the GeoCities Homepage style (1995–2009) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: geocities, 90s homepage, under construction, web ring, guestbook, visitor counter."
+description: "Apply the GeoCities Homepage style (1995–2009) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: geocities, 90s homepage, under construction, web ring, guestbook, visitor counter."
 domain: internet
-era: postmodern-early-digital
+era: web-1
 triggers:
   - "geocities"
   - "90s homepage"
@@ -26,7 +26,7 @@ vector_profile:
 
 A personal page with a tiled star or marble background, rainbow rules, animated GIFs, a visitor counter, a guestbook and an under-construction sign. Free web hosts such as GeoCities made it common.
 
-**Period:** 1995–2009 · **Era:** Postmodern & Early Digital · **Domain:** Internet · **Also called:** Personal home page, Under-construction web, 90s homepage
+**Period:** 1995–2009 · **Era:** Web 1.0 · **Domain:** Internet · **Also called:** Personal home page, Under-construction web, 90s homepage
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in GeoCities Homepage, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in GeoCities Homepage, you MUST:
 
 1. Tile a small background image (32px to 128px) of stars, marble or clouds over the full page.
 2. Set body text in a bright colour on a dark ground, for example yellow (#FFFF00) on navy (#000080).
@@ -284,7 +284,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`myspace-profile`](../myspace-profile/SKILL.md)
 - **Was rejected by:** [`portal-table-layout`](../portal-table-layout/SKILL.md)
 - **Mixes well with:** [`net-art-browser`](../net-art-browser/SKILL.md)
-- **Nearest by vector profile:** [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`cottagecore`](../cottagecore/SKILL.md), [`tumblr-soft-grunge`](../tumblr-soft-grunge/SKILL.md)
+- **Nearest by vector profile:** [`cottagecore`](../cottagecore/SKILL.md), [`tumblr-soft-grunge`](../tumblr-soft-grunge/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
 
 ## Emotional target
 

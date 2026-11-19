@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schema/cue.schema.json",
+  "id": "nature-sound-stress-recovery",
+  "name": "Nature sound speeds recovery from stress",
+  "variable": "sound-source",
+  "direction": {
+    "change": "present",
+    "unit": "sound type",
+    "range": {
+      "from": "road traffic and environmental noise",
+      "to": "nature sounds (birds, water)"
+    }
+  },
+  "effects": [
+    {
+      "target": "relaxation",
+      "sign": 1,
+      "size": "small"
+    },
+    {
+      "target": "pad:a",
+      "sign": -1,
+      "size": "small"
+    }
+  ],
+  "evidence_kind": "measured",
+  "claim": "After a stressful task, skin conductance recovered somewhat faster with nature sounds than with noise from the surroundings.",
+  "study": {
+    "participants": 40,
+    "setting": "lab"
+  },
+  "caveat": "Only one of two body measures changed, and the authors say it tended to; the sound levels were not seen.",
+  "sources": [
+    {
+      "title": "Alvarsson, Wiens and Nilsson 2010, Stress recovery during exposure to nature sound and environmental noise, International Journal of Environmental Research and Public Health 7(3)",
+      "url": "https://doi.org/10.3390/ijerph7031036"
+    }
+  ]
+}

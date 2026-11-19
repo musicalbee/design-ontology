@@ -1,0 +1,44 @@
+{
+  "$schema": "../../schema/cue.schema.json",
+  "id": "curved-contours-liking",
+  "name": "Curved contours are liked more than sharp angles",
+  "variable": "curvature",
+  "direction": {
+    "change": "more-curved",
+    "unit": "contour type",
+    "range": {
+      "from": "sharp-angled",
+      "to": "curved"
+    }
+  },
+  "effects": [
+    {
+      "target": "beauty",
+      "sign": 1,
+      "size": "large"
+    },
+    {
+      "target": "pad:p",
+      "sign": 1,
+      "size": "large"
+    },
+    {
+      "target": "uneasiness",
+      "sign": -1,
+      "size": "not-reported"
+    }
+  ],
+  "evidence_kind": "measured",
+  "claim": "People liked pictures of curved objects more often than matched sharp-angled objects, about 67 percent against 51 percent (d = 0.94).",
+  "study": {
+    "participants": 14,
+    "setting": "lab"
+  },
+  "caveat": "Fourteen people saw grey pictures for 84 ms; the threat link to sharp angles is the authors' proposal, not a measurement; later work found that the effect varies by object.",
+  "sources": [
+    {
+      "title": "Bar and Neta 2006, Humans prefer curved visual objects, Psychological Science 17(8)",
+      "url": "https://doi.org/10.1111/j.1467-9280.2006.01759.x"
+    }
+  ]
+}

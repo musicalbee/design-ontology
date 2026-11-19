@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/cue.schema.json",
+  "id": "ceiling-height-freedom",
+  "name": "A higher ceiling primes freedom",
+  "variable": "ceiling-height",
+  "direction": {
+    "change": "higher",
+    "unit": "m",
+    "range": {
+      "from": 2.44,
+      "to": 3.05
+    },
+    "note": "The study used 8 ft and 10 ft ceilings."
+  },
+  "effects": [
+    {
+      "target": "pad:d",
+      "sign": 1,
+      "size": "medium"
+    }
+  ],
+  "evidence_kind": "measured",
+  "claim": "Students in a 3.05 m room felt more freedom and less confinement, and thought more abstractly, than students in a 2.44 m room.",
+  "study": {
+    "participants": 30,
+    "setting": "lab"
+  },
+  "caveat": "The freedom ratings come from Experiment 1 (30 students analysed); the 100 students of Experiment 2 gave the abstract-thinking result. The effect showed only when the ceiling height was made noticeable; it measures felt freedom and thought style, not pleasure; US students only.",
+  "sources": [
+    {
+      "title": "Meyers-Levy and Zhu 2007, The influence of ceiling height, Journal of Consumer Research 34(2)",
+      "url": "https://doi.org/10.1086/519146"
+    }
+  ]
+}

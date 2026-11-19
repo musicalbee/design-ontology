@@ -1,8 +1,8 @@
 ---
 name: surreal-meme
-description: "Apply the Surreal meme style (2016–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: surreal meme, absurdist meme, weird meme, odd image, meme with no joke, dream meme."
+description: "Apply the Surreal meme style (2016–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: surreal meme, absurdist meme, weird meme, odd image, meme with no joke, dream meme."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "surreal meme"
   - "absurdist meme"
@@ -25,7 +25,7 @@ vector_profile:
 
 An image with an odd crop, a strange cut-out or a calm, odd caption that has no clear punch line. It grew from Facebook groups and Reddit in 2016 and often breaks the old image-macro rules on purpose.
 
-**Period:** 2016–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Surreal memes, Absurdist meme, Weird meme
+**Period:** 2016–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Surreal memes, Absurdist meme, Weird meme
 
 ## When to load this skill
 
@@ -39,7 +39,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Surreal meme, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Surreal meme, you MUST:
 
 1. Compose 2 to 4 layers: a flat or photographic ground, a cut-out figure and one odd object.
 2. Use a calm caption of 1 to 6 words in a plain sans-serif at 24px to 36px, off the usual top and bottom positions.

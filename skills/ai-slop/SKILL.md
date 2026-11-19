@@ -1,8 +1,8 @@
 ---
 name: ai-slop
-description: "Apply the AI Slop style (2024–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: ai slop, slop, engagement bait, facebook ai images, feed filler, mass-made ai art."
+description: "Apply the AI Slop style (2024–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: ai slop, slop, engagement bait, facebook ai images, feed filler, mass-made ai art."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "ai slop"
   - "slop"
@@ -24,7 +24,7 @@ vector_profile:
 
 Mass-made generated images in social feeds: a plastic gloss, a generic subject, warped hands, false text and a bait caption. The word slop for such content spread in 2024.
 
-**Period:** 2024–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Slop, Engagement-bait AI image, Feed filler art
+**Period:** 2024–now · **Era:** Short video and AI · **Domain:** Internet · **Also called:** Slop, Engagement-bait AI image, Feed filler art
 
 ## When to load this skill
 
@@ -39,7 +39,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in AI Slop, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in AI Slop, you MUST:
 
 1. Pick a generic, emotive subject: a child with a cake, a log cabin at sunset, an animal made of fruit.
 2. Render the subject at full gloss with a warm glow (#FFD08A) and a saturation of 120%.

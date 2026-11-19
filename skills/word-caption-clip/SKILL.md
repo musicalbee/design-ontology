@@ -1,8 +1,8 @@
 ---
 name: word-caption-clip
-description: "Apply the Word Caption Clip style (2020–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: word captions, animated subtitles, karaoke captions, caption clip, talking head short, hormozi captions."
+description: "Apply the Word Caption Clip style (2020–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: word captions, animated subtitles, karaoke captions, caption clip, talking head short, hormozi captions."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "word captions"
   - "animated subtitles"
@@ -25,7 +25,7 @@ vector_profile:
 
 A talking head in a vertical frame, with the speech shown as huge captions, one to three words at a time. Each word pops in at the beat, and the current word takes a bright colour.
 
-**Period:** 2020–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Karaoke captions, Hormozi captions, Animated subtitles
+**Period:** 2020–now · **Era:** Short video and AI · **Domain:** Internet · **Also called:** Karaoke captions, Hormozi captions, Animated subtitles
 
 ## When to load this skill
 
@@ -40,7 +40,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Word Caption Clip, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Word Caption Clip, you MUST:
 
 1. Set captions at 72px to 110px on a 1080x1920 frame, with 1 to 3 words on screen at a time.
 2. Place the caption block at 55% to 65% of the frame height, centred, inside a 64px safe margin.
@@ -285,7 +285,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`clickbait-thumbnail`](../clickbait-thumbnail/SKILL.md)
 - **Mixes well with:** [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
 - **Kin in another domain:** [`vertical-short-form`](../vertical-short-form/SKILL.md)
-- **Nearest by vector profile:** [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md), [`constructivism-web`](../constructivism-web/SKILL.md), [`luxury-typography-web`](../luxury-typography-web/SKILL.md)
+- **Nearest by vector profile:** [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md), [`luxury-typography-web`](../luxury-typography-web/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
 
 ## Emotional target
 

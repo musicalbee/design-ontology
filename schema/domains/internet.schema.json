@@ -17,8 +17,6 @@
     "summary",
     "philosophy",
     "vectors",
-    "layout",
-    "typography",
     "color",
     "materiality",
     "ornamentation_details",
@@ -26,8 +24,7 @@
     "lineage",
     "emotion",
     "agent",
-    "visual",
-    "tokens"
+    "visual"
   ],
   "properties": {
     "permutations": {
@@ -63,6 +60,7 @@
         "social-photo",
         "core-subcultures",
         "early-web",
+        "forums-imageboards",
         "ai-native"
       ],
       "description": "The branch of internet culture (domains/internet.json description)."
@@ -698,5 +696,30 @@
     "sources": {
       "$ref": "../core.schema.json#/$defs/sources"
     }
-  }
+  },
+  "allOf": [
+    {
+      "description": "A page style (branches web-ui and early-web) must give its layout, its type pairing and its CSS tokens. A style of another branch (a meme, a video format, a forum) gives them when it has a page or a frame to dress.",
+      "if": {
+        "properties": {
+          "branch": {
+            "enum": [
+              "web-ui",
+              "early-web"
+            ]
+          }
+        },
+        "required": [
+          "branch"
+        ]
+      },
+      "then": {
+        "required": [
+          "layout",
+          "typography",
+          "tokens"
+        ]
+      }
+    }
+  ]
 }

@@ -1,8 +1,8 @@
 ---
 name: wabi-sabi-web
-description: "Apply the Wabi-Sabi Web style (2015–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: wabi-sabi, wabi sabi, imperfect, earth tones, japanese minimal, slow design."
+description: "Apply the Wabi-Sabi Web style (2015–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: wabi-sabi, wabi sabi, imperfect, earth tones, japanese minimal, slow design."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "wabi-sabi"
   - "wabi sabi"
@@ -26,7 +26,7 @@ vector_profile:
 
 Muted earth tones, rough textures, uneven edges, much quiet space and small, calm type. It finds beauty in what is imperfect, old and incomplete, and it is the slow side of minimal design.
 
-**Period:** 2015–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Wabi-sabi, Imperfect minimal web, Japanese earth web
+**Period:** 2015–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Wabi-sabi, Imperfect minimal web, Japanese earth web
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Wabi-Sabi Web, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Wabi-Sabi Web, you MUST:
 
 1. Use a ground of unbleached tones (#EAE4D8, #D9D1C1) and text in a warm charcoal (#3B3833); keep the palette to 4 muted colours at 10% to 35% saturation.
 2. Add paper, plaster or clay texture at 4% to 10% opacity and let tone vary by 3% to 6% across a surface.
@@ -277,11 +277,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more airy**: move toward [`ethereal-web`](../ethereal-web/SKILL.md) (Ethereal Web). Lighten to pastels, add haze and a glow.
 - If the user asks for **more warm**: move toward [`bohemian-web`](../bohemian-web/SKILL.md) (Bohemian Web). Add terracotta, arches and a script accent.
 
-- **Came from (go here for a more orthodox version):** [`swiss-international`](../swiss-international/SKILL.md)
 - **Led to (go here for a newer version):** [`cottagecore`](../cottagecore/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
 - **Mixes well with:** [`goblincore`](../goblincore/SKILL.md)
-- **Kin in another domain:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md), [`japanese-avant-garde-fashion`](../japanese-avant-garde-fashion/SKILL.md), [`raku-tea-bowl`](../raku-tea-bowl/SKILL.md)
+- **Kin in another domain:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md), [`japanese-avant-garde-fashion`](../japanese-avant-garde-fashion/SKILL.md), [`raku-tea-bowl`](../raku-tea-bowl/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
 - **Nearest by vector profile:** [`ethereal-web`](../ethereal-web/SKILL.md), [`liminal-spaces`](../liminal-spaces/SKILL.md), [`material-design`](../material-design/SKILL.md)
 
 ## Emotional target

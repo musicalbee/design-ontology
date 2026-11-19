@@ -1,8 +1,8 @@
 ---
 name: japanese-dense-web
-description: "Apply the Japanese Dense Web style (1999–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: japanese web, japanese portal, dense layout, yahoo japan, rakuten, information dense."
+description: "Apply the Japanese Dense Web style (1999–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: japanese web, japanese portal, dense layout, yahoo japan, rakuten, information dense."
 domain: internet
-era: postmodern-early-digital
+era: web-1
 triggers:
   - "japanese web"
   - "japanese portal"
@@ -26,7 +26,7 @@ vector_profile:
 
 Dense pages with many links, small type, bright accent colours, banners, ranking lists and tight grids. It grew from portals such as Yahoo! JAPAN and Rakuten and makes a page rich in choice.
 
-**Period:** 1999–now · **Era:** Postmodern & Early Digital · **Domain:** Internet · **Also called:** Information-dense web, Portal style, Japanese portal design
+**Period:** 1999–now · **Era:** Web 1.0 · **Domain:** Internet · **Also called:** Information-dense web, Portal style, Japanese portal design
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Japanese Dense Web, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Japanese Dense Web, you MUST:
 
 1. Pack 6 to 12 content blocks above the fold, each with a title row of 28px to 32px and 5 to 10 links beneath.
 2. Set text at 12px to 14px with a leading of 1.5 to 1.7; keep headings at 14px to 18px and bold.
@@ -273,7 +273,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more modern**: move toward [`bento-grid-ui`](../bento-grid-ui/SKILL.md) (Bento Grid UI). Put blocks in cells with a 12px radius and a 1px border; keep the density.
 - If the user asks for **more playful**: move toward [`memphis-design`](../memphis-design/SKILL.md) (Memphis Design). Add pastel fills and squiggle patterns to the header bars.
 
-- **Rejects (the opposite pole; do not blend):** [`swiss-international`](../swiss-international/SKILL.md)
+- **Kin in another domain:** [`swiss-international`](../swiss-international/SKILL.md)
 - **Nearest by vector profile:** [`livestream-overlay`](../livestream-overlay/SKILL.md), [`pixel-art-web`](../pixel-art-web/SKILL.md), [`ansi-bbs-art`](../ansi-bbs-art/SKILL.md)
 
 ## Emotional target

@@ -4,6 +4,7 @@
  */
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
+import { EVIDENCE_WEIGHT, loadCues, loadEmotions, loadEvokes, loadMoments } from "./emotions.js";
 import { ROOT, loadAll, loadFunding, loadOrgs, loadPeople, loadTechniques, nearest, write, type Style } from "./lib.js";
 
 type EdgeType = "EVOLVED_FROM" | "REBELLED_AGAINST" | "HYBRIDIZED_WITH" | "ECHOES" | "SUBGENRE_OF";
@@ -126,8 +127,29 @@ const graph = {
 write("graph/lineage.json", JSON.stringify(graph, null, 2));
 console.log(`graph/lineage.json · ${graph.nodes.length} nodes · ${edgeList.length} edges · ${techniques.length} techniques`);
 
+// ── People and organisations: one list of links between the two layers ──────
+// A link comes from either side: an org lists the person in people or members, or the person lists the org in orgs
+// (with its own source). The person side wins when both name the same pair, because it carries the role and the years.
+type Link = { person: string; org: string; role: string; from: number | null; to: number | null; source: { title: string; url?: string } | null };
+const peopleFiles = loadPeople();
+const orgFiles = loadOrgs();
+const linkMap = new Map<string, Link>();
+for (const { person: p } of peopleFiles)
+  for (const l of p.orgs ?? []) linkMap.set(`${p.id}|${l.org}`, { person: p.id, org: l.org, role: l.role, from: l.from ?? null, to: l.to ?? null, source: l.source });
+for (const { org: o } of orgFiles) {
+  for (const m of o.members ?? [])
+    if (!linkMap.has(`${m.person}|${o.id}`)) linkMap.set(`${m.person}|${o.id}`, { person: m.person, org: o.id, role: m.role, from: m.from ?? null, to: m.to ?? null, source: null });
+  for (const p of o.people ?? [])
+    if (!linkMap.has(`${p}|${o.id}`)) linkMap.set(`${p}|${o.id}`, { person: p, org: o.id, role: "ran", from: null, to: null, source: null });
+}
+const links = [...linkMap.values()];
+const linksOf = (key: "person" | "org", id: string) =>
+  links.filter((l) => l[key] === id).sort((a, b) => (a.from ?? 9999) - (b.from ?? 9999) || a.org.localeCompare(b.org) || a.person.localeCompare(b.person));
+const emblemOut = (e?: { kind: string; url: string; page: string; licence: string; credit: string; trademark?: true }) =>
+  e ? { kind: e.kind, url: e.url, page: e.page, licence: e.licence, credit: e.credit, trademark: e.trademark ?? false } : null;
+
 // ── People: each life next to the spans of the styles it touched ────────────
-const people = loadPeople()
+const people = peopleFiles
   .map(({ person: p }) => {
     // A posthumous milestone (a dig, a museum sale) is not a year of the life, so it does not set the active span.
     const years = p.milestones.filter((m) => !m.posthumous).map((m) => m.year);
@@ -143,8 +165,10 @@ const people = loadPeople()
       nationality: p.nationality ?? [],
       bio: p.bio,
       photo: p.photo ? { url: p.photo.url, page: p.photo.page, licence: p.photo.licence, credit: p.photo.credit } : null,
+      emblem: emblemOut(p.emblem),
       wikidata: p.identity?.wikidata ?? null,
       styles: p.styles,
+      orgs: linksOf("person", p.id).map(({ org, role, from, to, source }) => ({ org, role, from, to, source })),
       milestones: [...p.milestones].sort((a, b) => a.year - b.year),
     };
   })
@@ -159,7 +183,7 @@ write(
 console.log(`graph/people.json · ${people.length} people · ${Object.values(byStyle).filter((v) => !v.length).length} styles with no person`);
 
 // ── Organisations: groups, channels and backers, with their styles, members and relations ──
-const orgs = loadOrgs()
+const orgs = orgFiles
   .map(({ org: o }) => ({
     id: o.id,
     name: o.name,
@@ -172,6 +196,9 @@ const orgs = loadOrgs()
     styles: o.styles,
     people: o.people ?? [],
     members: o.members ?? [],
+    // Each person tied to the org, from both sides, with the role.
+    affiliates: linksOf("org", o.id).map(({ person, role, from, to, source }) => ({ person, role, from, to, source })),
+    emblem: emblemOut(o.emblem),
     statement: o.statement ?? null,
     moves: [...(o.moves ?? [])].sort((a, b) => a.year - b.year),
     relations: o.relations ?? {},
@@ -181,10 +208,7 @@ const orgsByStyle: Record<string, { org: string; part: string }[]> = {};
 for (const s of styles) orgsByStyle[s.id] = [];
 for (const o of orgs) for (const s of o.styles) orgsByStyle[s.style]?.push({ org: o.id, part: s.part });
 const orgsByPerson: Record<string, { org: string; role: string }[]> = {};
-for (const o of orgs) {
-  for (const m of o.members) (orgsByPerson[m.person] ??= []).push({ org: o.id, role: m.role });
-  for (const p of o.people) if (!o.members.some((m) => m.person === p)) (orgsByPerson[p] ??= []).push({ org: o.id, role: "ran" });
-}
+for (const l of links) (orgsByPerson[l.person] ??= []).push({ org: l.org, role: l.role });
 // Relations between organisations. rival_of is symmetric and is stored once.
 const orgEdges = new Map<string, { from: string; to: string; type: string }>();
 for (const o of orgs)
@@ -252,6 +276,56 @@ write(
   ),
 );
 console.log(`graph/money.json · ${flows.length} flows · ${Object.keys(moneyByBacker).length} backers · ${Object.values(moneyByStyle).filter((v) => v.length).length} styles with money`);
+
+// ── The emotions layer: terms with PAD points, and carriers ranked for each emotion ──
+const emotions = loadEmotions().map(({ emotion: e }) => ({ id: e.id, name: e.name, family: e.family, culture: e.culture, pad: { p: e.pad.p, a: e.pad.a, d: e.pad.d }, nearest: e.nearest, opposite: e.opposite }));
+type Carried = { carrier: string; id: string; domain: string | null; strength: number; evidence: string; score: number };
+const byEmotion: Record<string, Carried[]> = Object.fromEntries(emotions.map((e) => [e.id, []]));
+const evokesByStyle: Record<string, { emotion: string; strength: number; evidence: string }[]> = {};
+for (const { evokes: f } of loadEvokes())
+  for (const [id, list] of Object.entries(f.edges))
+    for (const e of list) {
+      // The best evidence of an edge sets its kind and its weight.
+      const best = (["measured", "stated", "inferred"] as const).find((k) => e.evidence.some((x) => x.kind === k))!;
+      const score = Math.round(e.strength * EVIDENCE_WEIGHT[best] * 100) / 100;
+      byEmotion[e.emotion]?.push({ carrier: f.carrier, id, domain: f.domain, strength: e.strength, evidence: best, score });
+      if (f.carrier === "style") (evokesByStyle[id] ??= []).push({ emotion: e.emotion, strength: e.strength, evidence: best });
+    }
+for (const list of Object.values(byEmotion)) list.sort((a, b) => b.score - a.score || a.id.localeCompare(b.id));
+// Cues by emotion: a cue that names an emotion lists under it. A cue on a PAD axis lists under pad:p, pad:a or pad:d.
+type CueRef = { cue: string; variable: string; change: string; unit: string; range: { from: number | string; to: number | string }; sign: 1 | -1; size: string; weak: boolean };
+const cues = loadCues().map(({ cue }) => cue);
+const cuesByEmotion: Record<string, CueRef[]> = {};
+for (const c of cues)
+  for (const e of c.effects)
+    (cuesByEmotion[e.target] ??= []).push({ cue: c.id, variable: c.variable, change: c.direction.change, unit: c.direction.unit, range: c.direction.range, sign: e.sign, size: e.size, weak: c.weak ?? false });
+for (const list of Object.values(cuesByEmotion)) list.sort((a, b) => Number(a.weak) - Number(b.weak) || a.cue.localeCompare(b.cue));
+// Moments by emotion, strongest first.
+const moments = loadMoments().map(({ moment }) => moment);
+const momentsByEmotion: Record<string, { moment: string; kind: string; strength: number }[]> = {};
+for (const m of moments) for (const e of m.emotions) (momentsByEmotion[e.emotion] ??= []).push({ moment: m.id, kind: m.kind, strength: e.strength });
+for (const list of Object.values(momentsByEmotion)) list.sort((a, b) => b.strength - a.strength || a.moment.localeCompare(b.moment));
+const momentIndex = Object.fromEntries(
+  moments.map((m) => [m.id, { name: m.name, kind: m.kind, emotions: m.emotions, time: m.time, light: m.light, weather: m.weather, people: m.people, carriers: m.carriers, cues: m.cues, scene_ref: m.scene_ref }]),
+);
+write(
+  "graph/emotions.json",
+  JSON.stringify(
+    {
+      $comment: "Generated by scripts/build-graph.ts from data/emotions/, data/evokes/, data/cues/ and data/moments/. Do not edit by hand. score = strength × evidence weight (measured 1, stated 0.7, inferred 0.3).",
+      emotions,
+      by_emotion: byEmotion,
+      by_style: evokesByStyle,
+      cues_by_emotion: Object.fromEntries(Object.entries(cuesByEmotion).sort(([a], [b]) => a.localeCompare(b))),
+      moments_by_emotion: Object.fromEntries(Object.entries(momentsByEmotion).sort(([a], [b]) => a.localeCompare(b))),
+      moments: momentIndex,
+    },
+    null,
+    2,
+  ),
+);
+console.log(`graph/emotions.json · ${emotions.length} emotions · ${Object.values(byEmotion).reduce((n, l) => n + l.length, 0)} edges · ${styles.filter((s) => !evokesByStyle[s.id]).length} styles with no emotion · ${cues.length} cues · ${moments.length} moments`);
+
 
 // ── Mermaid picture of the lineage, for people ──────────────────────────────
 // Hybrid edges are left out of the picture: they are many, and they hide the two edges that carry the history.

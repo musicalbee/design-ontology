@@ -1,8 +1,8 @@
 ---
 name: barbiecore
-description: "Apply the Barbiecore style (2022–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: barbiecore, barbie pink, hot pink, pink dress, doll aesthetic, plastic pink."
+description: "Apply the Barbiecore style (2022–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: barbiecore, barbie pink, hot pink, pink dress, doll aesthetic, plastic pink."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "barbiecore"
   - "barbie pink"
@@ -26,7 +26,7 @@ vector_profile:
 
 One hot pink on everything: pink dresses, pink plastic, pink houses and glossy toy shine. Photos of a Barbie film set in 2022 started the trend, and a pink season in fashion followed.
 
-**Period:** 2022–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Barbie pink, Hot pink look
+**Period:** 2022–now · **Era:** Short video and AI · **Domain:** Internet · **Also called:** Barbie pink, Hot pink look
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Barbiecore, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Barbiecore, you MUST:
 
 1. Set the ground in hot pink (#E0218A) or pale pink (#FFE3F1) and keep pink at 60% or more of the frame.
 2. Add one set of supports: white (#FFFFFF), sky blue (#7FD0F2) and a dark plum (#4A0F32) for text.

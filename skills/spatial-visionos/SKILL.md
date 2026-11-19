@@ -1,8 +1,8 @@
 ---
 name: spatial-visionos
-description: "Apply the Spatial UI (visionOS) style (2023–present) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: visionos, vision pro, spatial ui, spatial computing, glass window, floating window."
+description: "Apply the Spatial UI (visionOS) style (2023–present) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: visionos, vision pro, spatial ui, spatial computing, glass window, floating window."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "visionos"
   - "vision pro"
@@ -27,7 +27,7 @@ vector_profile:
 
 Translucent glass windows that float in the user's room at a set distance, lit by the surrounding scene and controlled by eye gaze and hand pinch. Apple introduced it with Vision Pro in 2023.
 
-**Period:** 2023–present · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** visionOS Design, Spatial Computing UI, Glass Windows in Space
+**Period:** 2023–present · **Era:** Short video and AI · **Domain:** Internet · **Also called:** visionOS Design, Spatial Computing UI, Glass Windows in Space
 
 ## When to load this skill
 
@@ -42,7 +42,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Spatial UI (visionOS), you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Spatial UI (visionOS), you MUST:
 
 1. Make windows from a glass material that blends with the room behind it; a standard window is about 1280pt by 720pt at 2 metres distance.
 2. Place content where the eyes rest, within a field of about 30 degrees, and avoid forcing head turns.

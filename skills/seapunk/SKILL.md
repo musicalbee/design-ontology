@@ -1,8 +1,8 @@
 ---
 name: seapunk
-description: "Apply the Seapunk style (2011–2013) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: seapunk, ocean theme, aqua gradient, dolphin, mermaid aesthetic, underwater web."
+description: "Apply the Seapunk style (2011–2013) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: seapunk, ocean theme, aqua gradient, dolphin, mermaid aesthetic, underwater web."
 domain: internet
-era: touchscreen
+era: web-2-social
 triggers:
   - "seapunk"
   - "ocean theme"
@@ -25,7 +25,7 @@ vector_profile:
 
 Turquoise and aqua water, dolphins, shells, floating 3D shapes and tie-dye, with 1990s web graphics. It started as a joke tweet in 2011 and grew into an ocean theme in music and fashion.
 
-**Period:** 2011–2013 · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Sea punk, Ocean punk
+**Period:** 2011–2013 · **Era:** Web 2.0 and the social web · **Domain:** Internet · **Also called:** Sea punk, Ocean punk
 
 ## When to load this skill
 
@@ -40,7 +40,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Seapunk, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Seapunk, you MUST:
 
 1. Set the ground as a vertical gradient from aqua (#7FFFD4) at the top to deep sea blue (#0B3D91) at the bottom.
 2. Float 3 to 6 glossy shapes (pyramids, spheres, rings) at different sizes and let them drift over the layout.
@@ -240,7 +240,7 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Photomontage (montage)
 
-Fragments of photographs, cut and joined on one sheet, so that the joins make a statement that no single photograph makes. Origin: internet, Berlin, 1918.
+Fragments of photographs, cut and joined on one sheet, so that the joins make a statement that no single photograph makes. Origin: graphic movements, Berlin, 1918.
 
 - Join 3 to 12 photographic fragments on one ground and keep the cut edges hard and visible.
 - Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.

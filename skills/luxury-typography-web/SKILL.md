@@ -1,8 +1,8 @@
 ---
 name: luxury-typography-web
-description: "Apply the Luxury Typography Web style (2014–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: luxury, fashion, high-end, didone, editorial, premium."
+description: "Apply the Luxury Typography Web style (2014–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: luxury, fashion, high-end, didone, editorial, premium."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "luxury"
   - "fashion"
@@ -26,7 +26,7 @@ vector_profile:
 
 Large, high-contrast serif type on a calm ground, wide tracking on small caps, thin rules and few words. The letter is the main image, and space signals price and care.
 
-**Period:** 2014–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Luxury type web, High-end editorial web, Fashion house web
+**Period:** 2014–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Luxury type web, High-end editorial web, Fashion house web
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Luxury Typography Web, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Luxury Typography Web, you MUST:
 
 1. Set the hero in a high-contrast serif at 72px to 160px, weight 300 to 400, with tracking of -0.02em.
 2. Set labels and menu in upper case at 11px to 12px with tracking of +0.2em to +0.3em.
@@ -278,11 +278,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **warmer**: move toward [`art-deco-web`](../art-deco-web/SKILL.md) (Art Deco (web)). Add gold geometry and a deep green or black ground.
 - If the user asks for **bolder**: move toward [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md) (Editorial Serif Revival). Add a magazine grid and larger photographs.
 
-- **Came from (go here for a more orthodox version):** [`art-deco-web`](../art-deco-web/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
 - **Mixes well with:** [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md)
-- **Kin in another domain:** [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md)
-- **Nearest by vector profile:** [`constructivism-web`](../constructivism-web/SKILL.md), [`word-caption-clip`](../word-caption-clip/SKILL.md), [`ansi-bbs-art`](../ansi-bbs-art/SKILL.md)
+- **Kin in another domain:** [`art-deco-web`](../art-deco-web/SKILL.md), [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
+- **Nearest by vector profile:** [`word-caption-clip`](../word-caption-clip/SKILL.md), [`ansi-bbs-art`](../ansi-bbs-art/SKILL.md), [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md)
 
 ## Emotional target
 

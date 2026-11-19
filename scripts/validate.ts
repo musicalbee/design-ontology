@@ -15,6 +15,7 @@ import { checkIndustrialStyle, checkNet, checkVocabulary, loadNetContext, loadNe
 import { checkFashionStyle, checkFashionVocabulary, loadFashionVocabulary, type FashionStyle } from "./fashion.js";
 import { checkCeramicsStyle, checkCeramicsVocabulary, loadCeramicsVocabulary, type CeramicsStyle } from "./ceramics.js";
 import { checkCuisineStyle, checkCuisineVocabulary, loadCuisineVocabulary, type CuisineStyle } from "./cuisine.js";
+import { loadCues, loadEmotions, loadEvokes, loadKeywordMap, loadMoments } from "./emotions.js";
 import { ROOT, loadDomains, loadEras, loadFunding, loadOrgs, loadPeople, loadPrinciples, loadStyleFiles, loadTechniques, principleRefs, readJson, type Style } from "./lib.js";
 
 const schemaOnly = process.argv.includes("--schema-only");
@@ -170,6 +171,15 @@ if (!schemaOnly && errors.length === 0) {
     check("lineage.rebelled_against", l.rebelled_against, "same");
     check("lineage.hybridized_with", l.hybridized_with, "same");
     check("lineage.echoes", l.echoes ?? [], "other");
+    // Two families of domains (domains/<id>.json `family`). An echo from one family to the other links a twin
+    // look (Swiss in graphic-movement and in icon, flat in logo and in internet), so it must go both ways.
+    const fam = (d: string) => domains.find((x) => x.id === d)?.family;
+    for (const ref of l.echoes ?? []) {
+      const target = byId.get(ref);
+      if (!target || !fam(style.domain) || !fam(target.domain) || fam(style.domain) === fam(target.domain)) continue;
+      if (!(target.lineage.echoes ?? []).includes(style.id))
+        errors.push(`${where}: lineage.echoes → "${ref}" crosses from the ${fam(style.domain)} family to the ${fam(target.domain)} family, but "${ref}" does not echo "${style.id}". Add the reverse echo.`);
+    }
     if (l.subgenre_of) {
       check("lineage.subgenre_of", [l.subgenre_of], "same");
       // Walk up the parents: a loop of sub-genres has no top.
@@ -335,6 +345,50 @@ for (const { file, slug, org: m } of orgs) {
       warnings.push(`${file}: move ${mv.year} (${mv.kind}) is outside ${m.founded ?? "?"}–${m.closed ?? "now"}`);
 }
 
+
+// The emotions layer: terms (AESTHEMOS + culture words) and evokes edges with evidence.
+const validateEmotion = ajv.compile(readJson<object>(join(ROOT, "schema", "emotion.schema.json")));
+const validateEvokes = ajv.compile(readJson<object>(join(ROOT, "schema", "evokes.schema.json")));
+const emotions = loadEmotions();
+const emotionIds = new Set(emotions.map((e) => e.slug));
+for (const { file, slug, emotion: e } of emotions) {
+  if (!validateEmotion(e)) {
+    for (const x of validateEmotion.errors ?? []) errors.push(`${file}: ${x.instancePath || "/"} ${x.message}`);
+    continue;
+  }
+  if (e.id !== slug) errors.push(`${file}: id "${e.id}" is not equal to the file name`);
+  if (e.opposite && !emotionIds.has(e.opposite)) errors.push(`${file}: opposite "${e.opposite}" is not in data/emotions/`);
+  for (const n of e.nearest) if (!emotionIds.has(n)) errors.push(`${file}: nearest "${n}" is not in data/emotions/`);
+  if (e.model === "culture" && (!e.culture || !e.nearest.length)) errors.push(`${file}: a culture term needs a language tag and at least one nearest core term`);
+  if (e.model === "aesthemos" && (e.culture || e.nearest.length)) errors.push(`${file}: a core term has no culture and no nearest terms`);
+}
+for (const [k, ids] of Object.entries(loadKeywordMap()))
+  for (const id of ids) if (!emotionIds.has(id)) errors.push(`data/emotions/keyword-map.json: "${k}" → "${id}" is not in data/emotions/`);
+const evokes = loadEvokes();
+let evokesEdges = 0;
+let evokesSourced = 0;
+for (const { file, slug, evokes: f } of evokes) {
+  if (!validateEvokes(f)) {
+    for (const x of validateEvokes.errors ?? []) errors.push(`${file}: ${x.instancePath || "/"} ${x.message}`);
+    continue;
+  }
+  if (f.carrier === "style" && f.domain !== slug) errors.push(`${file}: domain "${f.domain}" is not equal to the file name`);
+  for (const [id, edges] of Object.entries(f.edges)) {
+    if (f.carrier === "style" && !schemaOnly) {
+      const s = byId.get(id);
+      if (!s) errors.push(`${file}: style "${id}" does not exist`);
+      else if (s.domain !== f.domain) errors.push(`${file}: style "${id}" is in "${s.domain}", not in "${f.domain}"`);
+    }
+    if (f.carrier === "technique" && !techniques.some((t) => t.slug === id)) errors.push(`${file}: technique "${id}" is not in data/techniques/`);
+    if (new Set(edges.map((e) => e.emotion)).size !== edges.length) errors.push(`${file}: ${id} names an emotion more than once`);
+    for (const e of edges) {
+      evokesEdges++;
+      if (!emotionIds.has(e.emotion)) errors.push(`${file}: ${id} → emotion "${e.emotion}" is not in data/emotions/`);
+      if (e.evidence.some((x) => x.kind === "measured" && !x.source?.url)) errors.push(`${file}: ${id} → ${e.emotion}: measured evidence needs a link to the study`);
+      if (e.evidence.some((x) => x.kind !== "inferred")) evokesSourced++;
+    }
+  }
+}
 // The money layer: who paid whom, when, for what. Each flow cites a source; an amount names the
 // source that gives it; a flow to a person or an organisation names the styles that the money helped.
 const validateFunding = ajv.compile(readJson<object>(join(ROOT, "schema", "funding.schema.json")));
@@ -365,10 +419,55 @@ for (const { file, slug, funding: f } of funding) {
     errors.push(`${file}: amount.year ${amountYear} is outside the years of the flow (${f.years[0]}–${f.years[1] ?? "open"})`);
   backers.add(`${f.from.type}:${f.from.id}`);
 }
+// Person → organisation links: each org resolves, one link for each org, years in order.
+for (const { file, person } of people) {
+  const seen = new Set<string>();
+  for (const l of person.orgs ?? []) {
+    if (!orgIds.has(l.org)) errors.push(`${file}: orgs → "${l.org}" is not in data/orgs/`);
+    if (seen.has(l.org)) errors.push(`${file}: org "${l.org}" is listed more than once`);
+    seen.add(l.org);
+    if (l.from != null && l.to != null && l.to < l.from) errors.push(`${file}: org "${l.org}" ends (${l.to}) before it starts (${l.from})`);
+  }
+}
+
 // A backer org with the part "funded" has at least one flow in data/funding/.
 for (const { file, org: m } of orgs)
   if (m.styles.some((s) => s.part === "funded") && !backers.has(`org:${m.id}`))
     warnings.push(`${file}: part "funded" but no flow in data/funding/ starts here`);
+
+// Cues (measured links from a physical variable to an emotion) and moments (known situations).
+const validateCue = ajv.compile(readJson<object>(join(ROOT, "schema", "cue.schema.json")));
+const validateMoment = ajv.compile(readJson<object>(join(ROOT, "schema", "moment.schema.json")));
+const cues = loadCues();
+const cueIds = new Set(cues.map((c) => c.slug));
+for (const { file, slug, cue: c } of cues) {
+  if (!validateCue(c)) {
+    for (const x of validateCue.errors ?? []) errors.push(`${file}: ${x.instancePath || "/"} ${x.message}`);
+    continue;
+  }
+  if (c.id !== slug) errors.push(`${file}: id "${c.id}" is not equal to the file name`);
+  for (const e of c.effects)
+    if (!e.target.startsWith("pad:") && !emotionIds.has(e.target)) errors.push(`${file}: effect target "${e.target}" is not in data/emotions/ and is not a PAD axis`);
+  if (new Set(c.effects.map((e) => e.target)).size !== c.effects.length) errors.push(`${file}: an effect target is listed more than once`);
+}
+const techniqueIds = new Set(techniques.map((t) => t.slug));
+const moments = loadMoments();
+for (const { file, slug, moment: m } of moments) {
+  if (!validateMoment(m)) {
+    for (const x of validateMoment.errors ?? []) errors.push(`${file}: ${x.instancePath || "/"} ${x.message}`);
+    continue;
+  }
+  if (m.id !== slug) errors.push(`${file}: id "${m.id}" is not equal to the file name`);
+  if (new Set(m.emotions.map((e) => e.emotion)).size !== m.emotions.length) errors.push(`${file}: an emotion is listed more than once`);
+  for (const e of m.emotions) if (!emotionIds.has(e.emotion)) errors.push(`${file}: emotion "${e.emotion}" is not in data/emotions/`);
+  if (!m.emotions.some((e) => e.strength === 1)) errors.push(`${file}: the main emotion has strength 1`);
+  for (const s of m.carriers.styles) if (!schemaOnly && !byId.has(s)) errors.push(`${file}: carrier style "${s}" does not exist`);
+  for (const t of m.carriers.techniques ?? []) if (!techniqueIds.has(t)) errors.push(`${file}: carrier technique "${t}" is not in data/techniques/`);
+  for (const c of m.cues) if (!cueIds.has(c)) errors.push(`${file}: cue "${c}" is not in data/cues/`);
+  for (const r of [m.time.sun_elevation_deg, m.light.cct_k, m.light.lux, m.scene_ref?.minutes])
+    if (r && r.min > r.max) errors.push(`${file}: a range has min above max`);
+  if (m.people.max !== null && m.people.max < m.people.min) errors.push(`${file}: people.max is below people.min`);
+}
 
 // The curation gate (CONTRIBUTING.md, "The six curation rules"). A miss is an error. The only
 // exception is a style on data/curation-allowlist.json, which can only shrink.
@@ -394,6 +493,6 @@ for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`error ${e}`);
 console.log(
   `${count} styles in ${domains.length} domains · ${principles.length} principles · ${techniques.length} techniques · ${people.length} people · ${errors.length} errors · ${warnings.length} warnings` +
-    ` · ${orgs.length} orgs · ${funding.length} funding flows · ${nets.length} object nets` + curation + (schemaOnly ? " · schema only" : ""),
+    ` · ${orgs.length} orgs · ${funding.length} funding flows · ${nets.length} object nets · ${emotions.length} emotions · ${evokesEdges} evokes edges (${evokesSourced} sourced) · ${cues.length} cues · ${moments.length} moments` + curation + (schemaOnly ? " · schema only" : ""),
 );
 process.exit(errors.length ? 1 : 0);

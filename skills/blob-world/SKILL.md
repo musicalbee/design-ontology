@@ -1,8 +1,8 @@
 ---
 name: blob-world
-description: "Apply the Blob World style (2015–present) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: blob world, 3d blob, soft 3d, clay render, inflatable, 3d illustration."
+description: "Apply the Blob World style (2015–present) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: blob world, 3d blob, soft 3d, clay render, inflatable, 3d illustration."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "blob world"
   - "3d blob"
@@ -27,7 +27,7 @@ vector_profile:
 
 Motion design and illustration made from strange 3D renders: soft blobs, surreal rooms, clay, fur, jelly and inflatable textures, sometimes uncanny. It is an illustration world, not a component style: glassmorphism and 3D UI style the controls; Blob World fills the picture.
 
-**Period:** 2015–present · **Era:** Touchscreen · **Domain:** Internet · **Also called:** 3D blob illustration, Soft 3D, Clay render
+**Period:** 2015–present · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** 3D blob illustration, Soft 3D, Clay render
 
 ## When to load this skill
 
@@ -42,7 +42,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Blob World, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Blob World, you MUST:
 
 1. Build each figure from rounded volumes with no sharp edge: a minimum radius of 24% of the shape width.
 2. Render one hero scene per page at 1600px or wider, with a soft key light from the top left and a shadow of 40px to 80px blur.

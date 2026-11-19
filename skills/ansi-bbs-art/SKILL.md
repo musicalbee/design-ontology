@@ -1,8 +1,8 @@
 ---
 name: ansi-bbs-art
-description: "Apply the ANSI BBS Art style (1985–1996) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: ansi art, bbs, bulletin board, artscene, text art, 80 columns."
+description: "Apply the ANSI BBS Art style (1985–1996) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: ansi art, bbs, bulletin board, artscene, text art, 80 columns."
 domain: internet
-era: postmodern-early-digital
+era: terminals-bbs
 triggers:
   - "ansi art"
   - "bbs"
@@ -26,7 +26,7 @@ vector_profile:
 
 Pictures and menus made of 80-column text blocks in the 16 ANSI colours: shade characters, box lines and wide logos. Dial-up bulletin boards showed them, and art groups released them in monthly packs.
 
-**Period:** 1985–1996 · **Era:** Postmodern & Early Digital · **Domain:** Internet · **Also called:** ANSI art, BBS art, Artpack
+**Period:** 1985–1996 · **Era:** Terminals, BBS and Usenet · **Domain:** Internet · **Also called:** ANSI art, BBS art, Artpack
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in ANSI BBS Art, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in ANSI BBS Art, you MUST:
 
 1. Build the layout on a grid of 80 columns by 25 rows; one cell is 8px wide and 16px high.
 2. Use only the 16 ANSI colours, on a black ground (#000000), and show 8 colours as the dark set and 8 as the bright set.
@@ -285,7 +285,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`kaomoji-emoticon`](../kaomoji-emoticon/SKILL.md), [`net-art-browser`](../net-art-browser/SKILL.md)
 - **Mixes well with:** [`punk-zine`](../punk-zine/SKILL.md)
 - **Kin in another domain:** [`pixel-icon`](../pixel-icon/SKILL.md)
-- **Nearest by vector profile:** [`art-deco-web`](../art-deco-web/SKILL.md), [`japanese-dense-web`](../japanese-dense-web/SKILL.md), [`cybercore-web`](../cybercore-web/SKILL.md)
+- **Nearest by vector profile:** [`japanese-dense-web`](../japanese-dense-web/SKILL.md), [`cybercore-web`](../cybercore-web/SKILL.md), [`livestream-overlay`](../livestream-overlay/SKILL.md)
 
 ## Emotional target
 

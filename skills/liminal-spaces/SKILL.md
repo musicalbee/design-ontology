@@ -1,8 +1,8 @@
 ---
 name: liminal-spaces
-description: "Apply the Liminal spaces style (2019–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: liminal spaces, the backrooms, empty corridor, fluorescent light, uncanny empty, abandoned mall."
+description: "Apply the Liminal spaces style (2019–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: liminal spaces, the backrooms, empty corridor, fluorescent light, uncanny empty, abandoned mall."
 domain: internet
-era: contemporary-spatial
+era: feed-mobile
 triggers:
   - "liminal spaces"
   - "the backrooms"
@@ -26,7 +26,7 @@ vector_profile:
 
 Empty rooms of transit and routine: office corridors, pools, car parks and malls under flat light, with no people. A 2019 image of yellow rooms started the look, and the Backrooms spread it.
 
-**Period:** 2019–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Liminal space, The Backrooms look, Empty places
+**Period:** 2019–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Liminal space, The Backrooms look, Empty places
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Liminal spaces, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Liminal spaces, you MUST:
 
 1. Set the ground in a damp yellow (#C9B96B) or a dull carpet green with a slight grey cast.
 2. Shoot or render empty rooms from eye height at 160cm, with a single vanishing point at the centre.

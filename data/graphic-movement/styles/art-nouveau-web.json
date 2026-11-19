@@ -1,0 +1,339 @@
+{
+  "$schema": "../../../schema/domains/graphic-movement.schema.json",
+  "id": "art-nouveau-web",
+  "domain": "graphic-movement",
+  "name": "Art Nouveau (web)",
+  "aliases": [
+    "Jugendstil",
+    "Liberty Style",
+    "Whiplash style"
+  ],
+  "era_id": "fin-de-siecle",
+  "time_period": {
+    "start": 1890,
+    "end": 1910,
+    "label": "1890–1910"
+  },
+  "primary_mediums": [
+    "print",
+    "web"
+  ],
+  "summary": "Whiplash curves, plant forms and hand-drawn lettering inside framed panels. It came from Paris, Brussels, Vienna and Glasgow around 1900. On screen it suits heritage, craft and botanical brands.",
+  "philosophy": {
+    "core_thesis": "Ornament is not decoration added to a thing: the line of the plant grows into the structure of the page.",
+    "design_principles": [
+      "Draw every panel frame with a curved border: corner radius 24px to 48px, or an arched top at 50% of the width.",
+      "Run one continuous organic line (stroke 2px to 3px) along the edge of each section, and let it end in a leaf, a bud or a whiplash curl.",
+      "Use a muted natural palette of 5 colours: moss, sage, ochre, rose and cream. Keep saturation below 45%.",
+      "Set headlines in a display face with a flowing, calligraphic shape at 40px or larger; set body in a readable old-style serif at 17px to 18px.",
+      "Fill the page background with a pattern tile of 120px to 240px made from stems and petals at 8% opacity.",
+      "Place the hero as a tall panel with a 3:4 ratio, framed by a border of 6px to 12px with a floral corner.",
+      "Make buttons pill-shaped (radius 999px) with a 2px outline and a filled leaf-green hover state."
+    ],
+    "anti_patterns": [
+      "Straight rectangular containers with sharp corners",
+      "Neon, primary or high-saturation colours above 45%",
+      "Geometric sans-serif headlines",
+      "Symmetric rigid grids of equal cards",
+      "Photographic stock images without a frame or a tint",
+      "Flat decoration with no link to a plant or hand-drawn line",
+      "Drop shadows that make a panel float"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 5,
+    "dimensionality": 2,
+    "grid_rigidity": 2,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 4
+  },
+  "layout": {
+    "grid_mechanics": "A single column of 720px to 960px with side margins of 8% to 12%; ornamental borders occupy the margins. Panels follow a 4px baseline and break the grid with arches and curves.",
+    "whitespace_ratio": "30% to 40% of the surface stays empty; the spacing scale is 12, 24, 36, 60 and 96px.",
+    "alignment_rules": "Centred hero with asymmetric ornament; body text flush left; the ornament line leads the eye from the top-left to the bottom-right.",
+    "container_geometry": "Panels with a 24px to 48px radius, arched tops and framed borders of 6px to 12px; images sit in arch, oval or keyhole masks."
+  },
+  "typography": {
+    "classifications": [
+      "old-style serif",
+      "calligraphic display"
+    ],
+    "font_pairings": [
+      {
+        "display": "Cinzel Decorative",
+        "body": "Lora",
+        "note": "Classical capitals with flourish for display; a warm old-style serif for text."
+      },
+      {
+        "display": "Cormorant Garamond",
+        "body": "Crimson Pro",
+        "note": "A lighter, literary pairing."
+      },
+      {
+        "display": "Playfair Display",
+        "body": "Source Serif 4",
+        "note": "A high-contrast display face with a clear text face."
+      }
+    ],
+    "tracking": "Display takes 0.02em; body stays at 0; small caps labels take +0.08em.",
+    "leading": "Display 1.1; body 1.6.",
+    "hierarchy_rules": [
+      "Use two weights only for body: regular (400) and bold (700); display runs at 700.",
+      "Use sizes 17, 24, 40 and 72px.",
+      "Set the first letter of an article as a drop cap of 3 lines.",
+      "Set labels in small caps at 13px with +0.08em tracking."
+    ]
+  },
+  "color": {
+    "palette_structure": "Muted botanical hues on a cream ground; one gold accent for borders.",
+    "palette": [
+      {
+        "name": "Cream",
+        "hex": "#F4ECD8",
+        "role": "background"
+      },
+      {
+        "name": "Moss",
+        "hex": "#3E5B3A",
+        "role": "text and primary"
+      },
+      {
+        "name": "Sage",
+        "hex": "#9DB08A",
+        "role": "secondary surface"
+      },
+      {
+        "name": "Ochre",
+        "hex": "#C58B2A",
+        "role": "accent"
+      },
+      {
+        "name": "Rose",
+        "hex": "#C9828A",
+        "role": "second accent"
+      },
+      {
+        "name": "Parchment",
+        "hex": "#EADFC3",
+        "role": "surface"
+      }
+    ],
+    "contrast_rules": "Body text holds at least 7:1 on cream; ochre and rose carry ornament and large type only.",
+    "surface_treatment": "Flat tint with a printed paper grain at 4% opacity; no gradient except a 2-stop wash in a panel header.",
+    "light_and_shadow": "A soft, single light from the top left; shadows are 0px; depth comes from layered borders."
+  },
+  "materiality": {
+    "surface_simulation": "Printed paper with gilt lines; the surface imitates a lithographic poster, not glass or metal.",
+    "border_rules": "Double border: an outer 2px moss line and an inner 1px ochre line, 6px apart.",
+    "blur_and_elevation": "No blur. No elevation. At most one 1px offset line in ochre behind a panel."
+  },
+  "ornamentation_details": {
+    "iconography": "Thin outline icons with a 1.5px to 2px stroke, round caps and round joins, drawn as leaves, stems and buds.",
+    "illustration": "Hand-drawn botanical and female figures in flat colour with a black outline of 2px; use as border art and as a hero plate.",
+    "decorative_elements": [
+      "whiplash border line",
+      "floral corner",
+      "arched image mask",
+      "stem and petal pattern",
+      "drop cap"
+    ]
+  },
+  "motion": {
+    "native": false,
+    "transition_physics": "Translation for screen: slow organic moves; a border line draws itself along its path at 600ms to 900ms.",
+    "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "duration_ms": 400,
+    "hover_and_active": "Hover fills the pill in leaf green and draws the border line again in 400ms; active state darkens by 8%."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "art-deco-web"
+    ],
+    "echoes": [
+      "art-nouveau-architecture",
+      "bohemian-web"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels craft, nature and an unhurried, romantic care.",
+    "keywords": [
+      "organic",
+      "romantic",
+      "crafted",
+      "botanical",
+      "ornate",
+      "heritage"
+    ],
+    "brand_archetypes": [
+      "lover",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "art nouveau",
+      "jugendstil",
+      "mucha",
+      "botanical",
+      "floral ornament",
+      "whiplash curve",
+      "tea room",
+      "heritage craft",
+      "organic ornament"
+    ],
+    "use_cases": [
+      "botanical and tea brands",
+      "wedding and boutique sites",
+      "museum exhibition pages",
+      "perfume and cosmetics",
+      "craft and ceramics shops"
+    ],
+    "avoid_when": [
+      "The product is a dense data tool.",
+      "The brand must feel technical, minimal or masculine.",
+      "The page needs strict, scannable tables."
+    ],
+    "modifiers": [
+      {
+        "request": "cleaner",
+        "toward": "swiss-international",
+        "how": "Drop the borders and curves; keep the serif body and set the page on a 12-column grid."
+      },
+      {
+        "request": "more geometric",
+        "toward": "art-deco-web",
+        "how": "Replace the curves with arcs and straight lines and add a gold on black palette."
+      },
+      {
+        "request": "more modern",
+        "toward": "flat-design",
+        "how": "Keep the leaf palette as flat fills; remove the borders and patterns."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 400,
+      "accent": "case",
+      "display_tracking": "0.02em",
+      "display_leading": 1.1,
+      "display_case": "none",
+      "body_leading": 1.6,
+      "body_size": "17px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "iconoir",
+        "why": "A thin, even, round-ended line that follows the flowing stroke of a plant drawing."
+      }
+    },
+    "art": {
+      "recipe": "psychedelic",
+      "pattern": "waves",
+      "seed": 21
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "frame",
+      "why": "Art Nouveau posters and book pages hold the picture in a thin drawn frame on warm paper."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#F4ECD8",
+      "--color-surface": "#EADFC3",
+      "--color-text": "#2F3F2C",
+      "--color-muted": "#5A6B52",
+      "--color-primary": "#3E5B3A",
+      "--color-accent": "#C58B2A",
+      "--color-border": "#3E5B3A",
+      "--font-sans": "\"Lora\", Georgia, serif",
+      "--font-display": "\"Cinzel Decorative\", \"Cormorant Garamond\", Georgia, serif",
+      "--border-radius": "32px",
+      "--border-width": "2px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "12px",
+      "--ease": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "--duration": "400ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#F4ECD8] text-[#2F3F2C] font-serif antialiased px-6 md:px-24"
+      },
+      {
+        "element": "heading",
+        "classes": "text-5xl md:text-7xl font-bold leading-[1.1] tracking-[0.02em] text-center"
+      },
+      {
+        "element": "body",
+        "classes": "text-lg leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-[32px] border-2 border-[#3E5B3A] bg-[#EADFC3] p-9"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-full border-2 border-[#3E5B3A] bg-transparent px-8 py-3 text-base text-[#3E5B3A] transition-colors duration-[400ms] hover:bg-[#3E5B3A] hover:text-[#F4ECD8]"
+      },
+      {
+        "element": "label",
+        "classes": "text-[13px] uppercase tracking-[0.08em] text-[#5A6B52]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#3E5B3A",
+        "#C58B2A",
+        "#2F3F2C"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#C58B2A",
+        "#3E5B3A"
+      ]
+    },
+    "corner_radius": {
+      "min": 16,
+      "max": 48
+    },
+    "grid_step": {
+      "min": 6,
+      "max": 16
+    },
+    "type_scale_ratio": {
+      "default": 1.5,
+      "min": 1.414,
+      "max": 1.618
+    }
+  },
+  "sources": [
+    {
+      "title": "Stephen Escritt, Art Nouveau (Phaidon, 2000)"
+    },
+    {
+      "title": "Wikidata Q34636 (Art Nouveau)"
+    }
+  ]
+}

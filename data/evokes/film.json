@@ -1,0 +1,1396 @@
+{
+  "$schema": "../../schema/evokes.schema.json",
+  "carrier": "style",
+  "domain": "film",
+  "edges": {
+    "camcorder-revival": [
+      {
+        "emotion": "nostalgia",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:nostalgic",
+              "keyword:lo-fi"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "A news report says businesses and teens use old camcorder looks for the nostalgia that the look carries.",
+            "source": {
+              "title": "Why is Gen Z so obsessed with old technology (Denver7)",
+              "url": "https://www.denver7.com/why-is-gen-z-so-obsessed-with-old-technology"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "being-moved",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:intimate"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "wabi-sabi",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:imperfect"
+            ]
+          }
+        ]
+      }
+    ],
+    "cinematic-fpv": [
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:exhilarating",
+              "keyword:kinetic"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The same site describes the thrill and the nonstop flow of FPV flight as the main appeal.",
+            "source": {
+              "title": "The schools of FPV cinematic (DroneDJ)",
+              "url": "https://dronedj.com/2021/03/17/the-schools-of-fpv-cinematic/"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "awe",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:vertiginous"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "A drone trade site praises cinematic FPV films for jaw-dropping shots.",
+            "source": {
+              "title": "The schools of FPV cinematic (DroneDJ)",
+              "url": "https://dronedj.com/2021/03/17/the-schools-of-fpv-cinematic/"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "fascination",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:immersive"
+            ]
+          }
+        ]
+      }
+    ],
+    "classical-hollywood": [
+      {
+        "emotion": "being-moved",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:romantic"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "A film-writing blog says the classical Hollywood model builds a sympathetic hero and gives the audience an expected emotional release.",
+            "source": {
+              "title": "Understanding the Classical Hollywood Narrative",
+              "url": "https://dyerbolical.com/understanding-the-classical-hollywood-narrative/"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "beauty",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:glamorous"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "fascination",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:absorbing"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "insight",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:clear"
+            ]
+          }
+        ]
+      }
+    ],
+    "creator-vlog": [
+      {
+        "emotion": "being-moved",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says vlogs build emotional connections between the creator and the viewers.",
+            "source": {
+              "title": "Vlog (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Vlog"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:fast"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:warm"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:casual"
+            ]
+          }
+        ]
+      }
+    ],
+    "documentary-verite": [
+      {
+        "emotion": "being-moved",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:intimate"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says light cameras and hand-held work gave filmmakers more intimacy with their subjects.",
+            "source": {
+              "title": "Direct cinema (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Direct_cinema"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "interest",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says direct cinema gives viewers the sense that real life happens before their eyes.",
+            "source": {
+              "title": "Direct cinema (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Direct_cinema"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:urgent"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "surprise",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:unscripted"
+            ]
+          }
+        ]
+      }
+    ],
+    "dogme-95": [
+      {
+        "emotion": "sadness",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The critics consensus on The Celebration, the first Dogme film, says it blends tragedy with comedy.",
+            "source": {
+              "title": "The Celebration, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Celebration"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "humour",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The same critics consensus says the comedy in The Celebration sits next to its tragedy.",
+            "source": {
+              "title": "The Celebration, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Celebration"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "being-moved",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:intimate"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:uncomfortable"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "wabi-sabi",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:unpolished"
+            ]
+          }
+        ]
+      }
+    ],
+    "film-noir": [
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:tense",
+              "keyword:shadowed"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia describes the noir hero as desperate and in flight, and links the style to cynicism.",
+            "source": {
+              "title": "Film noir (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Film_noir"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "sadness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:fatalistic"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia ties film noir to a fatalistic mood and to doomed heroes.",
+            "source": {
+              "title": "Film noir (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Film_noir"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "intellectual-challenge",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:cynical"
+            ]
+          }
+        ]
+      }
+    ],
+    "found-footage": [
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:unnerving",
+              "keyword:claustrophobic"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says the limited frame keeps viewers alert for threats that they may never see.",
+            "source": {
+              "title": "Found footage (film technique) (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Found_footage_(film_technique)"
+            }
+          }
+        ]
+      }
+    ],
+    "french-new-wave": [
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:restless"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia notes the quick scene changes and the break from past forms that give the films a restless pace.",
+            "source": {
+              "title": "French New Wave (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/French_New_Wave"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "humour",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:witty"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia describes the tone of French New Wave films as ironic and sarcastic.",
+            "source": {
+              "title": "French New Wave (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/French_New_Wave"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "confusion",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Yahoo News says the jump cuts in Breathless give the viewer a jarring sense of dislocation.",
+            "source": {
+              "title": "5 Techniques from the Films of Jean-Luc Godard That Changed Cinema, Yahoo News",
+              "url": "https://ca.news.yahoo.com/5-techniques-films-jean-luc-202012223.html"
+            }
+          }
+        ]
+      }
+    ],
+    "german-expressionist-cinema": [
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:uncanny",
+              "keyword:anxious",
+              "keyword:shadowed"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "ACMI says the overall effect of Caligari is unease and anxiety, and that Nosferatu gives terror.",
+            "source": {
+              "title": "Out of the darkness: the influence of German Expressionism (ACMI)",
+              "url": "https://www.acmi.net.au/stories-and-ideas/out-darkness-influence-german-expressionism/"
+            }
+          }
+        ]
+      }
+    ],
+    "giallo": [
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:sinister"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia quotes a viewer who describes the giallo mood as ominous and creepy, with suspense from thriller fiction.",
+            "source": {
+              "title": "Giallo (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Giallo"
+            }
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia lists madness, alienation and paranoia as the main psychological themes of the giallo.",
+            "source": {
+              "title": "Giallo, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Giallo"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "surprise",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says the genre mixes detective tension with scenes of shocking horror.",
+            "source": {
+              "title": "Giallo (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Giallo"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "awe",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:operatic"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:saturated"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "ugliness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:lurid"
+            ]
+          }
+        ]
+      }
+    ],
+    "hong-kong-action": [
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:kinetic",
+              "keyword:fast"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia links Hong Kong action to furious editing and acrobatic violence.",
+            "source": {
+              "title": "Hong Kong action cinema (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Hong_Kong_action_cinema"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "beauty",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:stylish"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "John Woo says in a BFI interview that slow motion adds emotion and makes the action more beautiful.",
+            "source": {
+              "title": "John Woo interview (BFI)",
+              "url": "https://www.bfi.org.uk/interviews/john-woo-i-use-musical-theory-shoot-action-sequence"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "being-moved",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:heroic"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia describes the heightened emotional melodrama of John Woo films.",
+            "source": {
+              "title": "Hong Kong action cinema (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Hong_Kong_action_cinema"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "awe",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:operatic"
+            ]
+          }
+        ]
+      }
+    ],
+    "italian-neorealism": [
+      {
+        "emotion": "being-moved",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:humane"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "A New York Times critic called the neorealist film Bicycle Thieves a heart-tearing picture of frustration.",
+            "source": {
+              "title": "Bicycle Thieves (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Bicycle_Thieves"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "sadness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says neorealism showed the poverty and despair of postwar Italy.",
+            "source": {
+              "title": "Italian neorealism (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Italian_neorealism"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Critics cited on Wikipedia describe anxiety as part of the structure of neorealist plots.",
+            "source": {
+              "title": "Italian neorealism (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Italian_neorealism"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:patient"
+            ]
+          }
+        ]
+      }
+    ],
+    "mumblecore": [
+      {
+        "emotion": "uneasiness",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "A cited review calls a mumblecore film mortifying, which points to awkward embarrassment as the mood.",
+            "source": {
+              "title": "Mumblecore (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Mumblecore"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "being-moved",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:intimate"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "enchantment",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:drifting"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "interest",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:conversational"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "ugliness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:awkward"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "wabi-sabi",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:unpolished"
+            ]
+          }
+        ]
+      }
+    ],
+    "music-video": [
+      {
+        "emotion": "humour",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Vanity Fair described the intended mood of the Thriller music video as comic as well as creepy.",
+            "source": {
+              "title": "Thriller (music video) (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Thriller_(music_video)"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:loud",
+              "keyword:rhythmic",
+              "keyword:catchy"
+            ]
+          }
+        ]
+      }
+    ],
+    "neon-noir": [
+      {
+        "emotion": "sadness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:lonely"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says the makers of Drive kept the gloomy atmosphere of the source novel.",
+            "source": {
+              "title": "Drive (2011 film) (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Drive_(2011_film)"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Wikipedia lists paranoia and alienation as recurring themes of neo-noir.",
+            "source": {
+              "title": "Neo-noir (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Neo-noir"
+            }
+          },
+          {
+            "kind": "stated",
+            "claim": "Critics say the score of Drive builds tension with synthesiser tones.",
+            "source": {
+              "title": "Drive (2011 film) (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Drive_(2011_film)"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "nostalgia",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says sound effects in neo-noir build a mood of paranoia and nostalgia.",
+            "source": {
+              "title": "Neo-noir (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Neo-noir"
+            }
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia quotes a musician who praises the blend of sound and picture nostalgia in Drive.",
+            "source": {
+              "title": "Drive (2011 film), Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Drive_(2011_film)"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:neon"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "yugen",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:nocturnal"
+            ]
+          }
+        ]
+      }
+    ],
+    "new-hollywood": [
+      {
+        "emotion": "sadness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "A critic cited on Wikipedia describes 1970s American cinema as pessimistic and fatalistic about the future.",
+            "source": {
+              "title": "New Hollywood (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/New_Hollywood"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Todd Berliner says 1970s films give the viewer more uncertain and uncomfortable responses.",
+            "source": {
+              "title": "New Hollywood (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/New_Hollywood"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "intellectual-challenge",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:sceptical"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "nostalgia",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:lived-in"
+            ]
+          }
+        ]
+      }
+    ],
+    "one-take-oner": [
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:tense"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Bosley Crowther's 1948 review in The New York Times said that the long takes of Rope raised the suspense.",
+            "source": {
+              "title": "Rope (film) (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Rope_(film)"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "fascination",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:immersive"
+            ]
+          }
+        ]
+      }
+    ],
+    "phone-cinema": [
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:immediate"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "A critic called the phone-shot film Tangerine an exuberantly raw and close portrait of its world.",
+            "source": {
+              "title": "Tangerine (film) (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Tangerine_(film)"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "humour",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The Hollywood Reporter called Tangerine a delightful film with attitude.",
+            "source": {
+              "title": "Tangerine (film) (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Tangerine_(film)"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "A Los Angeles Times headline called the phone-shot Unsane an unnerving psychothriller.",
+            "source": {
+              "title": "Unsane (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Unsane"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "being-moved",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:intimate"
+            ]
+          }
+        ]
+      }
+    ],
+    "planimetric-symmetry": [
+      {
+        "emotion": "humour",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:deadpan"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "A critic cited on Wikipedia says the film turns horrors into graceful jokes.",
+            "source": {
+              "title": "The Grand Budapest Hotel (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/The_Grand_Budapest_Hotel"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "nostalgia",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:nostalgic"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says nostalgia is a major theme of Wes Anderson and of The Grand Budapest Hotel.",
+            "source": {
+              "title": "The Grand Budapest Hotel (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/The_Grand_Budapest_Hotel"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "enchantment",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:whimsical"
+            ]
+          }
+        ]
+      }
+    ],
+    "slow-cinema": [
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:still",
+              "keyword:patient",
+              "keyword:meditative"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia describes the work of G. Aravindan, a slow cinema director, as meditative.",
+            "source": {
+              "title": "Slow cinema (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Slow_cinema"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "boredom",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Paul Schrader argues that most viewers find slow cinema boring.",
+            "source": {
+              "title": "Slow cinema (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Slow_cinema"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "interest",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The Guardian, cited on Wikipedia, says these films evoke a sense of mystery.",
+            "source": {
+              "title": "Slow cinema (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Slow_cinema"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "mono-no-aware",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says film critics link Ozu, a precursor of slow cinema, with mono no aware, the gentle sadness at things that pass.",
+            "source": {
+              "title": "Mono no aware, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Mono_no_aware"
+            }
+          }
+        ]
+      }
+    ],
+    "soviet-montage": [
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:urgent",
+              "keyword:rhythmic",
+              "keyword:kinetic"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says the attractions of Eisenstein aim to move the audience emotionally and politically with sudden bursts of movement.",
+            "source": {
+              "title": "Soviet montage theory (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Soviet_montage_theory"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "surprise",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says intellectual montage aims to shock the viewer into a new understanding.",
+            "source": {
+              "title": "Soviet montage theory (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Soviet_montage_theory"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "anger",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says the slaughter cross-cut in Strike aims to produce revulsion at the oppression of workers.",
+            "source": {
+              "title": "Soviet montage theory (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Soviet_montage_theory"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "confusion",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says Soviet montage can cut space into pieces that do not connect, so that the spectator becomes disoriented.",
+            "source": {
+              "title": "Soviet montage theory, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Soviet_montage_theory"
+            }
+          }
+        ]
+      }
+    ],
+    "spaghetti-western": [
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:tense"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says the music of Leone raises the tension before and during gunfights.",
+            "source": {
+              "title": "The Good, the Bad and the Ugly (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/The_Good,_the_Bad_and_the_Ugly"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "sadness",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says the gloomy look of spaghetti westerns captured the melancholy of their era.",
+            "source": {
+              "title": "The Good, the Bad and the Ugly (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/The_Good,_the_Bad_and_the_Ugly"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "humour",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Leone called his film a tongue-in-cheek satire of ordinary westerns.",
+            "source": {
+              "title": "The Good, the Bad and the Ugly (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/The_Good,_the_Bad_and_the_Ugly"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "awe",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:operatic"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "nostalgia",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:dusty"
+            ]
+          }
+        ]
+      }
+    ],
+    "vertical-short-form": [
+      {
+        "emotion": "sadness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "A CU Boulder experiment found that a week of political TikTok videos left participants sadder, angrier and more anxious.",
+            "source": {
+              "title": "TikTok does not change minds, it changes moods, CU Boulder",
+              "url": "https://www.colorado.edu/asmagazine/2026/03/23/tiktok-doesnt-change-minds-it-changes-moods"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "anger",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The same CU Boulder study reports more anger in participants after a week of political short videos.",
+            "source": {
+              "title": "TikTok does not change minds, it changes moods, CU Boulder",
+              "url": "https://www.colorado.edu/asmagazine/2026/03/23/tiktok-doesnt-change-minds-it-changes-moods"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The CU Boulder researcher says short political videos rely on emotion, and viewers came away more anxious.",
+            "source": {
+              "title": "TikTok does not change minds, it changes moods, CU Boulder",
+              "url": "https://www.colorado.edu/asmagazine/2026/03/23/tiktok-doesnt-change-minds-it-changes-moods"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:fast",
+              "keyword:punchy",
+              "keyword:immediate"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "humour",
+        "strength": 0.3,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:playful"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

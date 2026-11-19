@@ -1,8 +1,8 @@
 ---
 name: brutalist-web
-description: "Apply the Brutalist Web (2014) style (2014–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: brutalist website, brutalist web, raw html, default browser style, anti-design web, no css."
+description: "Apply the Brutalist Web (2014) style (2014–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: brutalist website, brutalist web, raw html, default browser style, anti-design web, no css."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "brutalist website"
   - "brutalist web"
@@ -26,7 +26,7 @@ vector_profile:
 
 Browser-default type, blue underlined links, grey or white ground, no polish and visible structure. It came from the 2014 Brutalist Websites collection and answers the smooth, templated web.
 
-**Period:** 2014–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Brutalist websites, Raw HTML web, Default-browser style
+**Period:** 2014–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Brutalist websites, Raw HTML web, Default-browser style
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Brutalist Web (2014), you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Brutalist Web (2014), you MUST:
 
 1. Use the browser default: black text on white (#FFFFFF) or grey (#C0C0C0), links #0000EE, visited links #551A8B, underlined.
 2. Set body text in a default serif or a monospace at 16px with a 1.3 to 1.5 line height and a measure above 80 characters or full width.

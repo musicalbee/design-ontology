@@ -1,8 +1,8 @@
 ---
 name: photo-carousel-slideshow
-description: "Apply the Photo Carousel Slideshow style (2022–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: carousel, photo mode, slideshow, swipe post, slide deck post, photo carousel."
+description: "Apply the Photo Carousel Slideshow style (2022–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: carousel, photo mode, slideshow, swipe post, slide deck post, photo carousel."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "carousel"
   - "photo mode"
@@ -25,7 +25,7 @@ vector_profile:
 
 A set of 4 to 10 still images that the viewer swipes, with one line of text on each slide and a hook on the first slide. Instagram added carousels in 2017, and TikTok added photo mode in 2022.
 
-**Period:** 2022–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Photo mode, Swipe carousel, Slide post
+**Period:** 2022–now · **Era:** Short video and AI · **Domain:** Internet · **Also called:** Photo mode, Swipe carousel, Slide post
 
 ## When to load this skill
 
@@ -40,7 +40,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Photo Carousel Slideshow, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Photo Carousel Slideshow, you MUST:
 
 1. Use a 4:5 frame of 1080 x 1350 px or a 9:16 frame of 1080 x 1920 px for every slide.
 2. Make slide 1 the hook: a 72 px headline of 6 words or fewer.

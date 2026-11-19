@@ -1,8 +1,8 @@
 ---
 name: 3d-avatar-emoji
-description: "Apply the 3D Avatar Emoji style (2017–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: animoji, memoji, 3d emoji, avatar emoji, face tracking, talking head emoji."
+description: "Apply the 3D Avatar Emoji style (2017–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: animoji, memoji, 3d emoji, avatar emoji, face tracking, talking head emoji."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "animoji"
   - "memoji"
@@ -25,7 +25,7 @@ vector_profile:
 
 A rendered 3D head, an animal or a user cartoon, that copies the face of the user in real time. Apple showed Animoji with the iPhone X in 2017, and Memoji followed in 2018.
 
-**Period:** 2017–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Animoji, Memoji, Face-tracked emoji, 3D emoji
+**Period:** 2017–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Animoji, Memoji, Face-tracked emoji, 3D emoji
 
 ## When to load this skill
 
@@ -40,7 +40,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in 3D Avatar Emoji, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in 3D Avatar Emoji, you MUST:
 
 1. Render a round head with a 1:1 ratio, a diameter of 120px to 240px, and soft studio light from the top left.
 2. Use a clay-like surface with a roughness of 0.6 and no visible texture; keep colours flat and bright.

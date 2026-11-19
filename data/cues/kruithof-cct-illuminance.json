@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schema/cue.schema.json",
+  "id": "kruithof-cct-illuminance",
+  "name": "Kruithof: warm light at low lux, cool light at high lux",
+  "variable": "colour-temperature",
+  "direction": {
+    "change": "within-band",
+    "unit": "K",
+    "range": {
+      "from": 2700,
+      "to": 6500
+    },
+    "note": "Use the curve only to keep a candle-warm scene dim and a daylight-cool scene bright."
+  },
+  "effects": [
+    {
+      "target": "pad:p",
+      "sign": 1,
+      "size": "small"
+    }
+  ],
+  "evidence_kind": "measured",
+  "claim": "Kruithof's 1941 graph says that warm light looks pleasant at low illuminance and cool light at high illuminance, but a review of later experiments does not support the graph.",
+  "study": {
+    "participants": null,
+    "setting": "meta-analysis"
+  },
+  "caveat": "Treat this as a weak heuristic: the 1941 data are thin, and the review finds only that very low illuminance is unpleasant, with no preferred colour temperature.",
+  "weak": true,
+  "sources": [
+    {
+      "title": "Fotios 2017, A revised Kruithof graph based on empirical data, LEUKOS 13(1)",
+      "url": "https://eprints.whiterose.ac.uk/id/eprint/98531"
+    }
+  ]
+}

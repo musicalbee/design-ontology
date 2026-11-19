@@ -1,0 +1,898 @@
+{
+  "$schema": "../../schema/evokes.schema.json",
+  "carrier": "style",
+  "domain": "photography",
+  "edges": {
+    "ai-hyperreal": [
+      {
+        "emotion": "ugliness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:over-detailed"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia defines AI slop, which includes generated images, as low-quality content that people do not want.",
+            "source": {
+              "title": "AI slop (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/AI_slop"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:uncanny"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia reports that most people describe AI-generated food images as uncanny.",
+            "source": {
+              "title": "AI slop (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/AI_slop"
+            }
+          },
+          {
+            "kind": "stated",
+            "claim": "The uncanny valley article says near-real synthetic faces cause eerie discomfort in viewers.",
+            "source": {
+              "title": "Uncanny valley (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Uncanny_valley"
+            }
+          }
+        ]
+      }
+    ],
+    "architectural-photography": [
+      {
+        "emotion": "beauty",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:luminous"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says the aim of architectural photography is a picture that is pleasing to the eye and accurate.",
+            "source": {
+              "title": "Architectural photography (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Architectural_photography"
+            }
+          }
+        ]
+      }
+    ],
+    "cinematic-teal-orange": [
+      {
+        "emotion": "awe",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:dramatic",
+              "keyword:epic"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "fascination",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:cinematic"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "sadness",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:moody"
+            ]
+          }
+        ]
+      }
+    ],
+    "documentary-photography": [
+      {
+        "emotion": "insight",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:evidence"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says Jacob Riis used photographs to show how the urban poor lived, and his work fed urban reform movements.",
+            "source": {
+              "title": "Documentary photography (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Documentary_photography"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "being-moved",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Wikipedia describes documentary photographs of war dead as harrowing, which means they move the viewer.",
+            "source": {
+              "title": "Documentary photography (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Documentary_photography"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "interest",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:witness"
+            ]
+          }
+        ]
+      }
+    ],
+    "duesseldorf-school": [
+      {
+        "emotion": "insight",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:typological"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says critics read the school as a cool, detailed record that shows the subject with plain directness.",
+            "source": {
+              "title": "Dusseldorf School of Photography (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/D%C3%BCsseldorf_School_of_Photography"
+            }
+          }
+        ]
+      }
+    ],
+    "fashion-editorial": [
+      {
+        "emotion": "beauty",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:glamorous"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says early fashion photographer de Meyer made a delicate, romantic mood with soft light and flowers.",
+            "source": {
+              "title": "Fashion photography (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Fashion_photography"
+            }
+          }
+        ]
+      }
+    ],
+    "film-grain-revival": [
+      {
+        "emotion": "nostalgia",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:nostalgic",
+              "keyword:analogue"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "DIYPhotography names nostalgia as one driver of the film revival, together with the slower and more deliberate process.",
+            "source": {
+              "title": "Film photography unexpected comeback, DIYPhotography",
+              "url": "https://www.diyphotography.net/film-photographys-unexpected-comeback-why-young-creators-are-choosing-analog/"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "being-moved",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Wikipedia reports that young photographers think film has more soul than digital.",
+            "source": {
+              "title": "Film photography (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Film_photography"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:warm"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "wabi-sabi",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:imperfect"
+            ]
+          }
+        ]
+      }
+    ],
+    "film-noir-still": [
+      {
+        "emotion": "sadness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:moody"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia describes the mood of the source film noir as fatalistic and cynical.",
+            "source": {
+              "title": "Film noir (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Film_noir"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "yugen",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:shadow",
+              "keyword:nocturnal"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:tense"
+            ]
+          }
+        ]
+      }
+    ],
+    "food-photography": [
+      {
+        "emotion": "interest",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says food photographers work to make a dish look more appetizing and attractive to the viewer.",
+            "source": {
+              "title": "Food photography (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Food_photography"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:appetising",
+              "keyword:warm"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "vitality",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:fresh"
+            ]
+          }
+        ]
+      }
+    ],
+    "group-f64": [
+      {
+        "emotion": "awe",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:monumental"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says Ansel Adams, a Group f/64 founder, made photographs that people saw as a sublime experience of nature.",
+            "source": {
+              "title": "Ansel Adams (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Ansel_Adams"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Wikipedia quotes the historian Naomi Rosenblum on the energy that the group's images hold.",
+            "source": {
+              "title": "Group f/64 (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Group_f/64"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "beauty",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:pure"
+            ]
+          }
+        ]
+      }
+    ],
+    "new-colour": [
+      {
+        "emotion": "uneasiness",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Mark Holborn says Eggleston's ordinary scenes carry a sense of hidden danger.",
+            "source": {
+              "title": "William Eggleston (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/William_Eggleston"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "beauty",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Eudora Welty called Eggleston's colour photographs beautiful and unsparing.",
+            "source": {
+              "title": "William Eggleston (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/William_Eggleston"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:vivid",
+              "keyword:saturated"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "humour",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:deadpan"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "nostalgia",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:americana"
+            ]
+          }
+        ]
+      }
+    ],
+    "new-objectivity": [
+      {
+        "emotion": "insight",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:unsentimental"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:clinical"
+            ]
+          }
+        ]
+      }
+    ],
+    "new-topographics": [
+      {
+        "emotion": "boredom",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Wikipedia reports that many viewers found the 1975 New Topographics pictures dull.",
+            "source": {
+              "title": "New Topographics (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/New_Topographics"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "anger",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Curator Gohlke later called the 1975 exhibition a show that many people hated.",
+            "source": {
+              "title": "New Topographics (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/New_Topographics"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "humour",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:deadpan"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "insight",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:typological"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:quiet"
+            ]
+          }
+        ]
+      }
+    ],
+    "party-flash": [
+      {
+        "emotion": "being-moved",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:intimate"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says the same pictures also show vulnerability and tears, and Goldin made them to remember.",
+            "source": {
+              "title": "Nan Goldin (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Nan_Goldin"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says Nan Goldin's flash-lit pictures show love, joy and confidence.",
+            "source": {
+              "title": "Nan Goldin (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Nan_Goldin"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "anger",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:rowdy"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "yugen",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:nocturnal"
+            ]
+          }
+        ]
+      }
+    ],
+    "pictorialism": [
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:soft",
+              "keyword:hushed"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says the pictorialist S.D. Jouhar required a quality of repose in a pictorial photograph.",
+            "source": {
+              "title": "Pictorialism (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Pictorialism"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "enchantment",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:dreamy"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia quotes Paul Lewis Anderson, who said true art photography rests on suggestion and mystery.",
+            "source": {
+              "title": "Pictorialism (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Pictorialism"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "sadness",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says Tonalist painters, a model for pictorialists, aimed to convey elegiac melancholy.",
+            "source": {
+              "title": "Pictorialism (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Pictorialism"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "nostalgia",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:wistful"
+            ]
+          }
+        ]
+      }
+    ],
+    "scandinavian-interior-photography": [
+      {
+        "emotion": "hygge",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Wikipedia describes hygge, the Danish home mood, as cozy and contented, and it links hygge to Danish interior design.",
+            "source": {
+              "title": "Hygge (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Hygge"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:calm",
+              "keyword:airy",
+              "keyword:pale"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "strength": 0.3,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:bright"
+            ]
+          }
+        ]
+      }
+    ],
+    "straight-photography": [
+      {
+        "emotion": "awe",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:monumental"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says Adams's sharp, pure photographs of nature were seen as a sublime experience.",
+            "source": {
+              "title": "Ansel Adams (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Ansel_Adams"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "insight",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:clear"
+            ]
+          }
+        ]
+      }
+    ],
+    "street-photography": [
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:urgent"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia quotes Susan Sontag, who compared the street photographer to a person who cruises the urban inferno.",
+            "source": {
+              "title": "Street photography (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Street_photography"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "humour",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:witty"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says Tony Ray-Jones looked at street scenes with a wry, comic eye.",
+            "source": {
+              "title": "Street photography (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Street_photography"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "being-moved",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Wikipedia describes Cartier-Bresson's approach as a search for the decisive or poignant moment.",
+            "source": {
+              "title": "Street photography (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Street_photography"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "interest",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:candid"
+            ]
+          }
+        ]
+      }
+    ],
+    "y2k-digicam": [
+      {
+        "emotion": "nostalgia",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:nostalgic",
+              "keyword:lo-fi"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Gulf News says young people who use old digital cameras feel nostalgic for a time they know only in part.",
+            "source": {
+              "title": "The return of digital cameras: Why Gen Z want blurry pictures again (Gulf News)",
+              "url": "https://gulfnews.com/lifestyle/the-return-of-digital-cameras-why-gen-z-want-blurry-pictures-again-1.500606241"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:flashy"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "interest",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:candid"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:casual"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
