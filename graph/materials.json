@@ -2439,6 +2439,10 @@
     {
      "title": "Wikipedia: Wicker",
      "url": "https://en.wikipedia.org/wiki/Wicker"
+    },
+    {
+     "title": "Wikipedia: Lloyd Loom",
+     "url": "https://en.wikipedia.org/wiki/Lloyd_Loom"
     }
    ],
    "class": "plant"
@@ -2876,7 +2880,6 @@
     "cotton"
    ],
    "aliases": [
-    "quilted",
     "quilt"
    ],
    "photo": null,
@@ -4059,8 +4062,7 @@
    "aliases": [
     "white oiled oak",
     "lye-treated oak",
-    "white-pigmented oak",
-    "limed oak"
+    "white-pigmented oak"
    ],
    "photo_applied": "a square sample of white-oiled oak plank floor",
    "photo": null,
@@ -6034,9 +6036,7 @@
    ],
    "aliases": [
     "hand-woven rug",
-    "handwoven wool rug",
-    "hand-knotted rug",
-    "wool rug"
+    "handwoven wool rug"
    ],
    "photo_applied": "a hand-woven wool rug on a floor",
    "photo": null,
@@ -6461,8 +6461,7 @@
    ],
    "aliases": [
     "wool knit",
-    "chunky knit",
-    "knit"
+    "chunky knit"
    ],
    "photo": null,
    "identity": {
@@ -6832,7 +6831,8 @@
     "wool"
    ],
    "aliases": [
-    "herringbone"
+    "herringbone wool",
+    "herringbone tweed"
    ],
    "photo": null,
    "identity": {
@@ -8614,7 +8614,8 @@
    "senses": [],
    "aliases": [
     "metals",
-    "metalwork"
+    "metalwork",
+    "black metal"
    ],
    "photo": null,
    "identity": {
@@ -9153,11 +9154,9 @@
     "powder-coat"
    ],
    "aliases": [
-    "black metal",
     "powder-coated metal",
     "powder-coated steel",
-    "coloured metal panels",
-    "black steel frame"
+    "coloured metal panels"
    ],
    "photo_applied": "a square sample of matt black powder-coated steel",
    "photo": null,
@@ -10429,7 +10428,7 @@
    "form": "sheet",
    "senses": [],
    "is_a": [
-    "glass"
+    "safety-glass"
    ],
    "made_from": [
     "glass"
@@ -10647,20 +10646,43 @@
    "class": "ceramic-glass"
   },
   {
+   "id": "safety-glass",
+   "name": "Safety glass",
+   "family": "glass",
+   "form": "sheet",
+   "senses": [],
+   "aliases": [
+    "safety glass"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q3346867"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Safety glass",
+     "url": "https://en.wikipedia.org/wiki/Safety_glass"
+    }
+   ],
+   "is_a": [
+    "glass"
+   ],
+   "class": "ceramic-glass"
+  },
+  {
    "id": "tempered-glass",
    "name": "Tempered glass",
    "family": "glass",
    "form": "sheet",
    "senses": [],
    "is_a": [
-    "glass"
+    "safety-glass"
    ],
    "made_from": [
     "glass"
    ],
    "aliases": [
-    "toughened glass",
-    "safety glass"
+    "toughened glass"
    ],
    "photo": null,
    "identity": {
@@ -13788,7 +13810,6 @@
    "form": "coating",
    "senses": [],
    "aliases": [
-    "oiled",
     "oiled wood",
     "oil finish",
     "hardwax oil",
