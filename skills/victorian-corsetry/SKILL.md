@@ -173,9 +173,9 @@ A ring of steel that is pressed into the lacing hole of a corset, so that the co
 - Press a steel ring through the hole and fold the rim over the cloth.
 - Lace a cord through the rings in a cross pattern.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Great Exhibition** (exhibition, London, 1851–1851), exhibited the style. The first world's fair, in the Crystal Palace. It showed the ornate manufactured furniture and goods of the Victorian age.
 

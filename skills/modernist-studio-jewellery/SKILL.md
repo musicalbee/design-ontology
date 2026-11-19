@@ -163,9 +163,9 @@ A method that melts a wax model out of a mould and fills the empty space with mo
 - Cover the model with clay and bake it, so that the wax melts out.
 - Pour molten metal into the empty mould and break the mould.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **New Bauhaus and School of Design, Chicago** (school, Chicago, 1937–1944), taught the style. The school that László Moholy-Nagy opened in Chicago on the model of the Bauhaus. It taught design with a bench and a workshop, and Margaret De Patta studied there.
 

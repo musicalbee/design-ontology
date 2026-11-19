@@ -173,9 +173,9 @@ A frame of platinum, a metal strong enough to hold stones with thin lines, so th
 - Saw and file the platinum and join the parts with a torch.
 - Set each stone in fine claws and add a milgrained edge.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **International Exhibition of Modern Decorative and Industrial Arts** (exhibition, Paris, 1925–1925), exhibited the style. A world's fair of decorative and industrial arts. Its pavilions and rooms showed the new luxury style that later got the name Art Deco from this show.
 

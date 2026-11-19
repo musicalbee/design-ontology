@@ -326,12 +326,12 @@ Pieces of coloured glass held in lead strips, so that a window becomes a picture
 - Paint the lines of faces and folds in dark grisaille and fire them onto the glass.
 - Use deep blue and red for the field; keep the clear or yellow pieces under 20% of the window.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Great Exhibition** (exhibition, London, 1851–1851), exhibited the style. The first world's fair, in the Crystal Palace. It showed the ornate manufactured furniture and goods of the Victorian age.
-- **Morris & Co.** (workshop, London, 1861–1940), sold the style. The decorating firm of William Morris. It made and sold wallpaper, textiles, stained glass and furniture for Victorian and Arts and Crafts homes.
+- **Morris & Co.** (company, London, 1861–1940), sold the style. The decorating firm of William Morris. It made and sold wallpaper, textiles, stained glass and furniture for Victorian and Arts and Crafts homes.
 
 ## Permutations
 

@@ -156,9 +156,9 @@ A sole that is raised under the whole foot by layers of cork, wood or foam, and 
 - Cover the edge of the layers in leather, cloth or vinyl.
 - Fit a wide heel that sits 2 to 4 cm higher than the platform.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Vogue** (magazine, New York, 1892–now), published the style. A fashion magazine. It commissions fashion photographs and sets its name in a high-contrast Didone type.
 

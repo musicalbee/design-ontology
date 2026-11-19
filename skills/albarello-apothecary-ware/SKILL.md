@@ -171,11 +171,11 @@ A pot is dipped in a glaze with tin oxide in it. The glaze dries to a white, opa
 - Paint on the dry raw glaze with cobalt, copper, manganese or antimony.
 - Fire the glaze at about 1000 °C, so that the colours sink into the glaze.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Casa Pirota** (workshop, Faenza, Italy, ?–now), made the style. A maiolica workshop in Faenza that made sets of drug jars and painted dishes in the 16th century. It supplied pharmacies and hospitals.
+- **Casa Pirota** (company, Faenza, Italy, ?–now), made the style. A maiolica workshop in Faenza that made sets of drug jars and painted dishes in the 16th century. It supplied pharmacies and hospitals.
 
 ## Permutations
 

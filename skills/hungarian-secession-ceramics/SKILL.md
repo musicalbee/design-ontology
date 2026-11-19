@@ -169,11 +169,11 @@ A hard, frost-proof ceramic that the Zsolnay factory made from 1886. It is fired
 - Apply a coloured glaze and fire it again.
 - Hang the tile on battens or set it in mortar on the wall.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Zsolnay manufactory** (workshop, Pécs, Hungary, 1853–now), made the style. A ceramics factory in Pécs that began in 1853. It made pyrogranite tiles, relief panels and eosin glazes for the roofs and facades of Hungarian Secession buildings.
+- **Zsolnay manufactory** (company, Pécs, Hungary, 1853–now), made the style. A ceramics factory in Pécs that began in 1853. It made pyrogranite tiles, relief panels and eosin glazes for the roofs and facades of Hungarian Secession buildings.
 
 ## Permutations
 

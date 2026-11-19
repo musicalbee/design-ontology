@@ -175,11 +175,11 @@ A kiln fires with too little air, so that the flames take oxygen from the glaze 
 - Keep the reduction for 1 to 3 hours at about 1000 to 1300 °C.
 - Open the air and cool the kiln slowly.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Leach Pottery** (workshop, St Ives, Cornwall, England, 1920–now), made the style. A pottery at St Ives in Cornwall that Bernard Leach and Shōji Hamada founded in 1920. It made high-fired stoneware in a Japanese climbing kiln and trained many studio potters.
+- **Leach Pottery** (studio, St Ives, Cornwall, England, 1920–now), made the style. A pottery at St Ives in Cornwall that Bernard Leach and Shōji Hamada founded in 1920. It made high-fired stoneware in a Japanese climbing kiln and trained many studio potters.
 
 ## Permutations
 

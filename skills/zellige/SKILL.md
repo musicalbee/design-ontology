@@ -171,9 +171,9 @@ Glazed tiles of one colour are cut into small shapes, and the shapes are set fac
 - Lay the pieces face down on a drawn pattern, with joints under 1 mm.
 - Pour a bed of plaster over the back and let it set.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Bou Inania Madrasa** (school, Fez, Morocco, ?–now), exhibited the style. A Marinid madrasa in Fez, built in the 1350s for Sultan Abu Inan Faris. Zellige covers the lower walls of its court and its prayer hall.
 

@@ -180,11 +180,11 @@ A thick glaze with a high share of iron oxide. In a reduction firing the iron fo
 - Fire in reduction to 1250 to 1320 °C and hold the peak.
 - Cool slowly, so that iron crystals grow in the glaze.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Jian kilns** (workshop, Jianyang, Fujian, China, ?–now), made the style. A group of dragon kilns in the hills of Fujian that made dark tea bowls for the Song market and the court. Thousands of kiln wasters lie on the sites today.
+- **Jian kilns** (collective, Jianyang, Fujian, China, ?–now), made the style. A group of dragon kilns in the hills of Fujian that made dark tea bowls for the Song market and the court. Thousands of kiln wasters lie on the sites today.
 
 ## Permutations
 

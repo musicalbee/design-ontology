@@ -164,11 +164,11 @@ A spectacle frame cut and polished from sheets of celluloid or acetate, often tw
 - Cut the front and the temples with a saw or a router, then tumble and polish them.
 - Warm the front and bend it to the curve of the face; fit the hinges with rivets.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Bausch & Lomb optical works** (workshop, Rochester, New York, 1853–now), launched the style. The optical firm of two German emigrants in Rochester. In 1937 it launched sun glasses with a thin metal frame and a large teardrop lens for pilots.
+- **Bausch & Lomb optical works** (company, Rochester, New York, 1853–now), launched the style. The optical firm of two German emigrants in Rochester. In 1937 it launched sun glasses with a thin metal frame and a large teardrop lens for pilots.
 - **Harper's Bazaar** (magazine, New York, 1867–now), published the style. A fashion magazine. It printed the photographs of Richard Avedon and used Didot type for its name.
 
 ## Permutations

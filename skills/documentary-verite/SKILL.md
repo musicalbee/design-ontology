@@ -211,9 +211,9 @@ A camera that the operator carries on the body, with no tripod or dolly; the sha
 - Do not stabilise in post; accept a late refocus and a missed frame as part of the take.
 - Shoot long takes of 30 seconds or more, so that the camera seems to live in the room.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **National Film Board of Canada** (studio, Montreal, 1939–now), made the style. The public film producer of Canada. Its unit for observational films made early direct cinema with light cameras.
 

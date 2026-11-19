@@ -176,9 +176,9 @@ An inkjet printer puts ceramic ink onto a tile or a slab, with no contact. The p
 - Vary the image over many tiles, so that no repeat shows.
 - Fire the tile so that the ink fuses to the glaze.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Cersaie** (exhibition, Bologna, Italy, ?–now), exhibited the style. A yearly trade fair for ceramic tile and bath furnishing in Bologna, where the large format tile makers show new sizes and prints.
 

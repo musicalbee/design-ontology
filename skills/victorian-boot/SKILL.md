@@ -160,9 +160,9 @@ A side panel of rubber webbing set into the shaft of a boot, so that the boot sl
 - Cover the seam with a binding in matching cloth or leather.
 - Add a pull tab at the top of the back seam.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Great Exhibition** (exhibition, London, 1851–1851), exhibited the style. The first world's fair, in the Crystal Palace. It showed the ornate manufactured furniture and goods of the Victorian age.
 

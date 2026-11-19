@@ -165,11 +165,11 @@ A lathe with a cutting tool cuts a regular pattern of fine lines in a flat metal
 - Cut each line at a depth of 0.05 to 0.1 mm, and keep the pitch the same.
 - Polish the cut lines, or fill them with clear enamel.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Cartier jewellery house** (workshop, Paris, 1847–now), made the style. The Paris jeweller that made early wristwatches for men and, from 1917, the Tank. Its shapes carried the wristwatch into Art Deco design.
+- **Cartier jewellery house** (company, Paris, 1847–now), made the style. The Paris jeweller that made early wristwatches for men and, from 1917, the Tank. Its shapes carried the wristwatch into Art Deco design.
 
 ## Permutations
 

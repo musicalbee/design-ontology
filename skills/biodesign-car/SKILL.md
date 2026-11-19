@@ -195,9 +195,9 @@ A model or a car stands in a tunnel with a strong air flow. The test shows how t
 - Run the fan at a set speed and measure the drag and the lift.
 - Change the body form and test again.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Paris Motor Show** (salon, Paris, France, 1898–now), exhibited the style. The motor show that opened in Paris in 1898. Makers and coachbuilders showed their new cars and bodies there each year.
 

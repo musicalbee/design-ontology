@@ -158,9 +158,9 @@ Printing from raised metal or wood type and blocks, locked in a forme and presse
 - Dampen a soft rag paper so that the type bites 0.1–0.3 mm into it.
 - Print each ink from a separate forme or a separate pull, and register them by pins or lays.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Kelmscott Press** (publisher, Hammersmith, London, 1891–1898), made the style. A private press that William Morris started to print books by hand in the manner of the early printers. It cut its own gothic types, Troy and Chaucer, after the letters of the first printed books.
 

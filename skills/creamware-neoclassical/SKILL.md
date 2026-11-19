@@ -167,11 +167,11 @@ A lathe with a cutting tool cuts a regular pattern of fine lines in a flat metal
 - Cut each line at a depth of 0.05 to 0.1 mm, and keep the pitch the same.
 - Polish the cut lines, or fill them with clear enamel.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Etruria Works** (workshop, Etruria, Stoke-on-Trent, England, 1769–now), made the style. The factory and the village that Josiah Wedgwood built in 1769. It made creamware, pearlware and jasperware with division of labour.
+- **Etruria Works** (company, Etruria, Stoke-on-Trent, England, 1769–now), made the style. The factory and the village that Josiah Wedgwood built in 1769. It made creamware, pearlware and jasperware with division of labour.
 
 ## Permutations
 

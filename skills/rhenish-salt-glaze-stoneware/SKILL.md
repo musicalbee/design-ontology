@@ -170,11 +170,11 @@ Rock salt is thrown into a kiln at stoneware heat. The salt vapour reacts with t
 - Seal the ports and let the vapour settle for 20 to 30 minutes.
 - Keep the wall 4 mm or more thick, so that the pot does not crack in the heat shock.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Raeren potteries** (workshop, Raeren, near Aachen (now in Belgium), ?–now), made the style. A cluster of stoneware workshops that made salt-glazed jugs, tankards and bottles with moulded reliefs from the 15th to the 17th century and sold them across Europe.
+- **Raeren potteries** (collective, Raeren, near Aachen (now in Belgium), ?–now), made the style. A cluster of stoneware workshops that made salt-glazed jugs, tankards and bottles with moulded reliefs from the 15th to the 17th century and sold them across Europe.
 
 ## Permutations
 

@@ -255,9 +255,9 @@ A solid copy of a letter or a box, set behind it and moved down and to the side,
 - Fill the shadow with one solid colour, usually black.
 - Use no blur and no transparency.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Gumroad** (platform, web, 2011–now), launched the style. A web site where creators sell products. Its 2021 redesign used thick black borders, hard shadows and flat bright colour, and spread neo-brutalism in product design.
 

@@ -176,11 +176,11 @@ A figure is made in many standard parts, such as heads, torsos, arms and props, 
 - Join the parts with slip while the clay is soft.
 - Finish the joins and the face by hand, so that each figure differs.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Sèvres manufactory** (workshop, Vincennes and Sèvres, France, 1740–now), made the style. The French royal porcelain works. It started at Vincennes in 1740, moved to Sèvres in 1756 and made unglazed biscuit figures from 1751.
+- **Sèvres manufactory** (court, Vincennes and Sèvres, France, 1740–now), made the style. The French royal porcelain works. It started at Vincennes in 1740, moved to Sèvres in 1756 and made unglazed biscuit figures from 1751.
 
 ## Permutations
 

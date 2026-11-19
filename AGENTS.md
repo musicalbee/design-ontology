@@ -21,8 +21,8 @@ You are in `design-ontology`: design styles as data, compiled into agent skills.
 - In a page, set text with the derived tokens: `--color-on-bg` on the background, `--color-on-surface` on a surface, `--color-on-primary` on a primary button. Do not put `--color-text` on a surface.
 - Each skill has a visual pack in `skills/<id>/pack/`: `hero.svg`, `pattern.svg`, `icons.svg`. Use them before you draw your own. The sprite is an open-source stand-in: for a product, use the icon library of the brand and choose the family by the rules in the skill.
 - The content rules are in `CONTRIBUTING.md`. Read them before you write a style.
-- Each style must pass the six curation rules in `CONTRIBUTING.md`: identity, people, techniques, media, assets and permutations. The build fails on each miss. A new style cannot go on `data/curation-allowlist.json`; the list can only shrink. A brief for a new style names all six.
-- A medium (salon, school, magazine, publisher, gallery, auction house, platform) is `data/media/*.json` (schema `schema/medium.schema.json`). Like a person or a technique, it names its styles.
+- Each style must pass the six curation rules in `CONTRIBUTING.md`: identity, people, techniques, orgs, assets and permutations. The build fails on each miss. A new style cannot go on `data/curation-allowlist.json`; the list can only shrink. A brief for a new style names all six.
+- An organisation (a crew, collective, council, studio or company; a channel such as a school, magazine or gallery; a backer such as a court, house or foundation) is `data/orgs/*.json` (schema `schema/org.schema.json`). Like a person or a technique, it names its styles. A sub-genre is a style with `lineage.subgenre_of` (one parent, same domain).
 
 ## Commands
 

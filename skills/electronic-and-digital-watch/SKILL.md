@@ -165,11 +165,11 @@ A timekeeper in which a quartz crystal vibrates at a fixed rate, and a circuit c
 - Divide that rate in a circuit down to one pulse each second.
 - Drive a stepping motor or a display with each pulse.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Seiko watch workshop** (workshop, Tokyo, 1881–now), made the style. The Japanese watch maker that sold the first quartz wristwatch, the Astron, on 25 December 1969.
+- **Seiko watch workshop** (company, Tokyo, 1881–now), made the style. The Japanese watch maker that sold the first quartz wristwatch, the Astron, on 25 December 1969.
 
 ## Permutations
 

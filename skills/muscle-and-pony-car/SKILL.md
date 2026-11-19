@@ -191,9 +191,9 @@ A press forms a flat steel sheet into a body panel in one stroke. The panels are
 - Close the press so that the sheet takes the shape of the die.
 - Weld the panels into one shell and grind the seams smooth.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **1964 New York World's Fair** (exhibition, New York, 1964–1965), launched the style. A world's fair of two seasons with the theme of the space age. Its pavilions, rockets and futuristic rides showed the optimism of space-age design.
 

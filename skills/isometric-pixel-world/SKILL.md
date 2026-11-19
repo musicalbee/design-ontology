@@ -178,9 +178,9 @@ A picture or a letter built from square cells that are each on or off, or one fl
 - Draw a diagonal as a stair of equal steps, for example 2 cells across for each 1 cell up.
 - Show the image at an integer scale (2x, 3x, 4x) so that no cell blurs.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Sega** (studio, Tokyo, 1960–now), made the style. A Japanese game and hardware company that made the Mega Drive and fast parallax side-scrollers.
 - **Ultimate Play the Game** (studio, Ashby-de-la-Zouch, England, 1982–1988), launched the style. A British studio whose isometric room engine set a look for home computer games.

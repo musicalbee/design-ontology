@@ -170,11 +170,11 @@ Small steel studs with many facets, riveted to a plate. They catch the light lik
 - Polish the facets until they shine like a gem.
 - Rivet the studs to a metal plate in the shape of a buckle, a brooch or a necklace.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Soho Manufactory** (workshop, Soho, Birmingham, 1766–1848), made the style. An early factory of Matthew Boulton. Its workers made buttons, buckles and small metal goods, with cut steel ornaments among them, by a division of labour.
+- **Soho Manufactory** (company, Soho, Birmingham, 1766–1848), made the style. An early factory of Matthew Boulton. Its workers made buttons, buckles and small metal goods, with cut steel ornaments among them, by a division of labour.
 
 ## Permutations
 

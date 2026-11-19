@@ -163,11 +163,11 @@ A cut for a brief in which two panels overlap in a Y shape at the front, so that
 - Lap one piece over the other and stitch the two together at the base.
 - Set an elastic band into the waist.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Coopers, Inc.** (workshop, Kenosha, Wisconsin, 1876–now), launched the style. A knitwear maker founded in 1876 in St Joseph, Michigan, later of Kenosha. It launched the Y-front brief in Chicago on 19 January 1935.
+- **Coopers, Inc.** (company, Kenosha, Wisconsin, 1876–now), launched the style. A knitwear maker founded in 1876 in St Joseph, Michigan, later of Kenosha. It launched the Y-front brief in Chicago on 19 January 1935.
 
 ## Permutations
 

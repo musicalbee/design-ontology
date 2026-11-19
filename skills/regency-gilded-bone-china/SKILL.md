@@ -170,11 +170,11 @@ A porcelain body that holds calcined bone ash, about 40 to 50 per cent, with chi
 - Form the ware and fire the biscuit at about 1250 °C.
 - Glaze and fire again at a lower heat.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Spode works** (workshop, Stoke-upon-Trent, England, 1770–now), made the style. The Staffordshire pottery that Josiah Spode founded in 1770. It made printed blue-and-white earthenware and, later, bone china.
+- **Spode works** (company, Stoke-upon-Trent, England, 1770–now), made the style. The Staffordshire pottery that Josiah Spode founded in 1770. It made printed blue-and-white earthenware and, later, bone china.
 
 ## Permutations
 

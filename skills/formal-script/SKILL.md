@@ -156,11 +156,11 @@ A sharp, flexible steel or quill nib: pressure spreads the two tines for a swell
 - Press only on the downstrokes, to 3–8 times the hairline width, and release on the upstrokes and the joins.
 - Join each lower-case letter to the next with a hairline from the baseline or the x-height.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Linotype** (workshop, Brooklyn and Frankfurt, 1886–now), made the style. A maker of typesetting machines and type. It sold Helvetica, Frutiger and the formal script Snell Roundhand.
+- **Linotype** (company, Brooklyn and Frankfurt, 1886–now), made the style. A maker of typesetting machines and type. It sold Helvetica, Frutiger and the formal script Snell Roundhand.
 
 ## Permutations
 

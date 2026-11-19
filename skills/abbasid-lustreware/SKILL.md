@@ -170,11 +170,11 @@ A paint with copper and silver salts is brushed on a glazed pot. A second firing
 - Fire the pot again at about 600 °C in a smoky kiln.
 - Wash off the ochre to show the metallic film.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Basra potteries** (workshop, Basra, Iraq, ?–now), made the style. Potteries of the Abbasid port of Basra. Potters here made tin-glazed ware and, in the ninth century, painted it with the first lustre.
+- **Basra potteries** (collective, Basra, Iraq, ?–now), made the style. Potteries of the Abbasid port of Basra. Potters here made tin-glazed ware and, in the ninth century, painted it with the first lustre.
 
 ## Permutations
 

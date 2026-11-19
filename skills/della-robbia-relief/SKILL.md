@@ -167,11 +167,11 @@ A pot is dipped in a glaze with tin oxide in it. The glaze dries to a white, opa
 - Paint on the dry raw glaze with cobalt, copper, manganese or antimony.
 - Fire the glaze at about 1000 °C, so that the colours sink into the glaze.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Della Robbia workshop** (workshop, Florence, ?–now), made the style. The family workshop of Luca della Robbia in Florence. It made glazed terracotta reliefs for churches and chapels, and the family kept it in work to the 1520s.
+- **Della Robbia workshop** (studio, Florence, ?–now), made the style. The family workshop of Luca della Robbia in Florence. It made glazed terracotta reliefs for churches and chapels, and the family kept it in work to the 1520s.
 
 ## Permutations
 

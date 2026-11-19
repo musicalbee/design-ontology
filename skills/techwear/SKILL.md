@@ -169,13 +169,13 @@ A thin membrane with pores that block water drops. Pass water vapour, bonded bet
 - Bond the membrane between a nylon face cloth and a liner.
 - Tape each seam of the finished garment, so that no water enters at a stitch.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Instagram** (platform, web, 2010–now), published the style. A photo and video app. Home and food images spread on it, and it carried trends such as dopamine decor and the film grain look.
-- **Stone Island** (workshop, Italy, 1982–now), made the style. The label of Massimo Osti, launched in 1982. It tested new cloths and garment dyes on sport and military shapes, and it set the base of techwear.
-- **W. L. Gore and Associates** (workshop, Newark, Delaware, 1958–now), made the style. The firm of Wilbert and Robert Gore. It made the Gore-Tex membrane and, from 1976, laminated it to cloth for shells.
+- **Stone Island** (company, Italy, 1982–now), made the style. The label of Massimo Osti, launched in 1982. It tested new cloths and garment dyes on sport and military shapes, and it set the base of techwear.
+- **W. L. Gore and Associates** (company, Newark, Delaware, 1958–now), made the style. The firm of Wilbert and Robert Gore. It made the Gore-Tex membrane and, from 1976, laminated it to cloth for shells.
 
 ## Permutations
 

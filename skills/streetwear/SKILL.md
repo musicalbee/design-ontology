@@ -166,11 +166,11 @@ Ink pushed through a fine mesh with a squeegee; a stencil on the mesh blocks the
 - Pull thick, opaque ink across the screen with a rubber squeegee in one even stroke.
 - Print each colour from its own screen and let each layer dry before the next.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Stüssy** (workshop, Laguna Beach, 1980–now), launched the style. The label that Shawn Stussy began in 1980 with printed T-shirts and shorts. It was one of the first labels of streetwear.
+- **Stüssy** (company, Laguna Beach, 1980–now), launched the style. The label that Shawn Stussy began in 1980 with printed T-shirts and shorts. It was one of the first labels of streetwear.
 
 ## Permutations
 

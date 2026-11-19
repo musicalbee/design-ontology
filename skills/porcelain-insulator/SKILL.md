@@ -169,11 +169,11 @@ A porcelain disc with an iron cap and a steel pin. A string of such discs, each 
 - Link the discs pin to cap in a string, and add one disc for each 10 to 15 kV of line voltage.
 - Test each disc with high voltage before use.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Doulton Lambeth** (workshop, London, United Kingdom, 1815–now), made the style. A pottery at Lambeth that began in 1815. It made salt-glazed stoneware, drain pipes, sanitary ware, sinks and electrical insulators.
+- **Doulton Lambeth** (company, London, United Kingdom, 1815–now), made the style. A pottery at Lambeth that began in 1815. It made salt-glazed stoneware, drain pipes, sanitary ware, sinks and electrical insulators.
 
 ## Permutations
 

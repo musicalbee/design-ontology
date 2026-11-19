@@ -165,9 +165,9 @@ A way to stiffen a bodice with thin strips of whalebone, cane or steel set in na
 - Push one strip of bone or steel into each channel and close the end.
 - Bind each edge of the garment in leather or tape.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Encyclopédie of Diderot and d'Alembert** (publisher, Paris, 1751–1772), published the style. The French encyclopaedia of the Enlightenment. Its volumes of plates show the trades of the day, among them the stay-maker at his bench.
 

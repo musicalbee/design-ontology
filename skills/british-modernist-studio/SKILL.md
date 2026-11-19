@@ -173,11 +173,11 @@ A potter throws two or more separate parts and joins them at the leather-hard st
 - Join them with slip and press them together.
 - Turn and smooth the join and the foot.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Albion Mews studio** (workshop, London, England, 1939–1995), made the style. The small studio of Lucie Rie in a former coach house in London. Hans Coper worked there from 1946 to 1958, and both potters made modernist studio ceramics there.
+- **Albion Mews studio** (studio, London, England, 1939–1995), made the style. The small studio of Lucie Rie in a former coach house in London. Hans Coper worked there from 1946 to 1958, and both potters made modernist studio ceramics there.
 
 ## Permutations
 

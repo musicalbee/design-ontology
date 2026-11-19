@@ -163,11 +163,11 @@ The tailor builds the chest of a coat from layers of hair canvas, shaped and sti
 - Pad-stitch the canvas to the cloth of the chest with small diagonal stitches, so that the lapel rolls.
 - Sew the shoulder, the collar and the lining by hand, and press the shape into the coat.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Henry Poole and Co** (workshop, Savile Row, London, 1806–now), made the style. A London tailor that moved to Savile Row in 1846 and grew into its leading house. It cut and fitted coats by hand for the court and the clubs.
+- **Henry Poole and Co** (company, Savile Row, London, 1806–now), made the style. A London tailor that moved to Savile Row in 1846 and grew into its leading house. It cut and fitted coats by hand for the court and the clubs.
 
 ## Permutations
 

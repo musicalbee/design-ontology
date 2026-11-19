@@ -171,11 +171,11 @@ Nearly dry clay powder is pressed in a steel die under high pressure to form a t
 - Remove the tile and fire it with no long drying.
 - Keep the size of each tile within 0.5 mm.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Guastavino Fireproof Construction Company** (workshop, New York, USA, 1889–1962), made the style. A New York building firm that Rafael Guastavino started in 1889. It made thin tile vaults and tile linings for stations and halls.
+- **Guastavino Fireproof Construction Company** (company, New York, USA, 1889–1962), made the style. A New York building firm that Rafael Guastavino started in 1889. It made thin tile vaults and tile linings for stations and halls.
 
 ## Permutations
 

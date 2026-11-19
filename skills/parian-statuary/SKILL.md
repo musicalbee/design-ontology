@@ -170,9 +170,9 @@ Liquid clay is poured into a plaster mould. The plaster takes water from the cla
 - Pour out the rest of the slip.
 - Open the mould when the clay is leather-hard and fettle the seam.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Great Exhibition** (exhibition, London, 1851–1851), exhibited the style. The first world's fair, in the Crystal Palace. It showed the ornate manufactured furniture and goods of the Victorian age.
 

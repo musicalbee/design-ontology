@@ -182,9 +182,9 @@ A picture or a letter built from square cells that are each on or off, or one fl
 - Draw a diagonal as a stair of equal steps, for example 2 cells across for each 1 cell up.
 - Show the image at an integer scale (2x, 3x, 4x) so that no cell blurs.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Electronic Gaming Monthly** (magazine, the United States, 1988–now), published the style. An American game magazine that covered the 16-bit console years with screens and reviews.
 - **Nintendo Power** (magazine, Redmond, Washington, 1988–2012), published the style. A monthly magazine from Nintendo of America that printed maps, sprite art and screens of its games.

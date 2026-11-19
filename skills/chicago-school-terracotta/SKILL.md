@@ -168,11 +168,11 @@ A building block of clay that has webs inside. A maker presses it in a mould, so
 - Dry the block slowly, then fire it hard at about 1100 °C.
 - Bed the block in mortar and tie it to the backing wall or the steel frame.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Northwestern Terra Cotta Company** (workshop, Chicago, ?–now), made the style. A Chicago works that made architectural terracotta for the steel-frame buildings of the Chicago School. It supplied tile and ornament to many American cities.
+- **Northwestern Terra Cotta Company** (company, Chicago, ?–now), made the style. A Chicago works that made architectural terracotta for the steel-frame buildings of the Chicago School. It supplied tile and ornament to many American cities.
 
 ## Permutations
 

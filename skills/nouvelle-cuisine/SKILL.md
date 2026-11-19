@@ -211,9 +211,9 @@ Food is sealed in a bag and cooked in a water bath at an exact low temperature, 
 - Cook for the time that the thickness of the piece needs, from 1 to 48 hours.
 - Chill or sear the food just before service.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Gault et Millau guide** (magazine, Paris, 1969–now), published the style. A French restaurant guide and monthly founded by Henri Gault and Christian Millau. It marks restaurants from 1 to 20 and in 1973 it printed the ten characteristics of nouvelle cuisine.
 

@@ -1,0 +1,294 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-ontology.dev/schema/org.schema.json",
+  "title": "Organisation",
+  "description": "One organisation round a style: a group of people that acted together (a crew, a collective, a council, a studio, a company), a channel (a magazine, a publisher, a gallery, a salon, a platform), or a body that paid for the work (a court, a church, a house, a foundation, a fund). A style does not own it. The organisation names the styles that it carried and the part it took. Rule 4 of the curation rules: each style has at least one organisation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "kind",
+    "founded",
+    "closed",
+    "place",
+    "summary",
+    "styles",
+    "sources"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "$ref": "core.schema.json#/$defs/slug"
+    },
+    "name": {
+      "$ref": "core.schema.json#/$defs/shortText"
+    },
+    "aliases": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "core.schema.json#/$defs/shortText"
+      }
+    },
+    "kind": {
+      "enum": [
+        "crew",
+        "collective",
+        "council",
+        "studio",
+        "company",
+        "school",
+        "gallery",
+        "dealer",
+        "publisher",
+        "magazine",
+        "label",
+        "salon",
+        "exhibition",
+        "venue",
+        "auction-house",
+        "court",
+        "church",
+        "house",
+        "foundation",
+        "state-programme",
+        "fund",
+        "platform"
+      ],
+      "description": "crew: artists who work as one and sign as one (Die Brücke, Archigram). collective: a loose network, a society or a scene with members (a club, a guild of makers). council: a body that sets rules, grants a mark or judges (CIAM, a guild that licensed painters). studio: a design or art practice that makes work for others. company: a firm that makes and sells (Braun, a fashion house, a restaurant). school: a place that teaches. gallery: a showroom that shows and sells work. dealer: a trader who buys from the makers and sells on. publisher: a publishing house or a press. magazine: a periodical. label: a record label. salon: a juried or open show held again and again. exhibition: one show. venue: a hall or a club where people met to see or hear the work. auction-house: a house that sells at auction. court: a royal or princely household and its manufactories. church: a church body or the works board of a cathedral. house: a family or a dynasty that paid as a unit (Medici, Rothschild). foundation: a private foundation or a prize body. state-programme: a state body or programme that paid for the work. fund: an investment fund or a venture firm. platform: a web site or an app where people post work."
+    },
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "wikidata": {
+          "type": "string",
+          "pattern": "^Q[0-9]+$"
+        }
+      }
+    },
+    "founded": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": -20000,
+      "maximum": 2100,
+      "description": "The first year. Null when no open source gives it. Do not guess a year."
+    },
+    "closed": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": -20000,
+      "maximum": 2100,
+      "description": "The last year. Null when it is still open, or when no open source gives it."
+    },
+    "place": {
+      "$ref": "core.schema.json#/$defs/shortText",
+      "description": "The city, or \"web\" for a platform."
+    },
+    "summary": {
+      "$ref": "core.schema.json#/$defs/sentence"
+    },
+    "styles": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "style",
+          "part"
+        ],
+        "properties": {
+          "style": {
+            "$ref": "core.schema.json#/$defs/slug"
+          },
+          "part": {
+            "enum": [
+              "launched",
+              "exhibited",
+              "published",
+              "taught",
+              "made",
+              "sold",
+              "gathered",
+              "shaped",
+              "opposed",
+              "revived"
+            ],
+            "description": "launched: the style started here. exhibited: it showed the work. published: it printed or posted the work or the argument. taught: it trained the makers. made: it produced the work. sold: it traded the work. gathered: the makers met here. shaped: its members set the look of the style. opposed: it fought the style. revived: it brought the style back after a gap."
+          }
+        }
+      }
+    },
+    "people": {
+      "$ref": "core.schema.json#/$defs/refList",
+      "description": "Person ids from data/people/ who ran or shaped the organisation."
+    },
+    "members": {
+      "type": "array",
+      "uniqueItems": true,
+      "description": "The people in a group, with the role and the years. Use it for a crew, a collective, a council or a studio.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "person",
+          "role"
+        ],
+        "properties": {
+          "person": {
+            "$ref": "core.schema.json#/$defs/slug"
+          },
+          "role": {
+            "enum": [
+              "founder",
+              "member",
+              "leader",
+              "guest"
+            ]
+          },
+          "from": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": -20000,
+            "maximum": 2100
+          },
+          "to": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": -20000,
+            "maximum": 2100
+          }
+        }
+      }
+    },
+    "statement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text"
+      ],
+      "description": "The manifesto or the vow, in our own words, with a link to the full text.",
+      "properties": {
+        "text": {
+          "$ref": "core.schema.json#/$defs/sentence"
+        },
+        "title": {
+          "$ref": "core.schema.json#/$defs/shortText"
+        },
+        "year": {
+          "type": "integer",
+          "minimum": -20000,
+          "maximum": 2100
+        },
+        "url": {
+          "type": "string"
+        }
+      }
+    },
+    "moves": {
+      "type": "array",
+      "description": "Dated events: what the organisation did.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "year",
+          "kind",
+          "text",
+          "source"
+        ],
+        "properties": {
+          "year": {
+            "type": "integer",
+            "minimum": -20000,
+            "maximum": 2100
+          },
+          "kind": {
+            "enum": [
+              "founding",
+              "manifesto",
+              "show",
+              "publication",
+              "product",
+              "split",
+              "merger",
+              "scandal",
+              "closure"
+            ]
+          },
+          "text": {
+            "$ref": "core.schema.json#/$defs/sentence"
+          },
+          "source": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "title"
+            ],
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "relations": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Links to other organisation ids in data/orgs/.",
+      "properties": {
+        "split_from": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "core.schema.json#/$defs/slug"
+          }
+        },
+        "successor_of": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "core.schema.json#/$defs/slug"
+          }
+        },
+        "rival_of": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "core.schema.json#/$defs/slug"
+          }
+        },
+        "member_of": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "core.schema.json#/$defs/slug"
+          }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "$ref": "core.schema.json#/$defs/sources"
+    }
+  }
+}

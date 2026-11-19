@@ -165,11 +165,11 @@ A lathe with a cutting tool cuts a regular pattern of fine lines in a flat metal
 - Cut each line at a depth of 0.05 to 0.1 mm, and keep the pitch the same.
 - Polish the cut lines, or fill them with clear enamel.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Audemars Piguet watch workshop** (workshop, Le Brassus, 1875–now), made the style. The Swiss workshop that made the Royal Oak of 1972, the first luxury sports watch in steel.
+- **Audemars Piguet watch workshop** (company, Le Brassus, 1875–now), made the style. The Swiss workshop that made the Royal Oak of 1972, the first luxury sports watch in steel.
 
 ## Permutations
 

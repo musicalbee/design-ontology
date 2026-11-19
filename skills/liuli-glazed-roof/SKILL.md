@@ -171,11 +171,11 @@ A roof tile of fine clay with a coloured lead glaze. The glaze makes the roof br
 - Fire the glaze at 900 to 1000 °C.
 - Lay half-round cover tiles over flat pan tiles in a bed of lime mortar.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Liulichang kilns** (workshop, Beijing, ?–now), made the style. The imperial kilns of Beijing that fired glazed tile for the palaces and temples of the Ming and Qing courts. The district Liulichang still carries their name.
+- **Liulichang kilns** (collective, Beijing, ?–now), made the style. The imperial kilns of Beijing that fired glazed tile for the palaces and temples of the Ming and Qing courts. The district Liulichang still carries their name.
 
 ## Permutations
 

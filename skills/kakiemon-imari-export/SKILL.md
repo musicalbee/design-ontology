@@ -170,11 +170,11 @@ Coloured glass enamels are painted on a glazed and fired piece. A third firing a
 - Fire it again in a small muffle kiln at 750 to 850 °C.
 - Add gold in a last low firing, when the design needs it.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Arita kilns** (workshop, Arita, Saga, Japan, 1616–now), made the style. The porcelain town of Kyushu where Japanese porcelain began in the early 17th century. Its kilns made Kakiemon and Imari ware for the home market and for Dutch export.
+- **Arita kilns** (collective, Arita, Saga, Japan, 1616–now), made the style. The porcelain town of Kyushu where Japanese porcelain began in the early 17th century. Its kilns made Kakiemon and Imari ware for the home market and for Dutch export.
 
 ## Permutations
 

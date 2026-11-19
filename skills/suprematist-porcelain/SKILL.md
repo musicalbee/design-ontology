@@ -175,11 +175,11 @@ The circle, the square and the triangle in flat colour, used as the whole pictur
 - Fill each shape with one flat colour; no gradient and no outline.
 - Put the shapes on a plain ground with 30% or more empty space.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **State Porcelain Factory, Petrograd** (workshop, Petrograd (Saint Petersburg), Russia, 1744–now), made the style. The former Imperial Porcelain Factory, which the Soviet state took over in 1918. In the 1920s it made propaganda plates and, from 1923, the Suprematist tea ware.
+- **State Porcelain Factory, Petrograd** (state programme, Petrograd (Saint Petersburg), Russia, 1744–now), made the style. The former Imperial Porcelain Factory, which the Soviet state took over in 1918. In the 1920s it made propaganda plates and, from 1923, the Suprematist tea ware.
 
 ## Permutations
 

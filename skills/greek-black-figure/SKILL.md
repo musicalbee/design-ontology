@@ -169,11 +169,11 @@ One firing in three stages turns a slip black and leaves the clay red. Air is le
 - Open the vents and let the air in again at a lower heat.
 - Take out the pot: the fine slip stays black and the bare clay becomes red.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Kerameikos potters' quarter** (workshop, Athens, Greece, ?–now), made the style. The quarter of Athens where potters and vase painters worked beside the clay beds of the river. Black-figure and red-figure vases came from its workshops.
+- **Kerameikos potters' quarter** (collective, Athens, Greece, ?–now), made the style. The quarter of Athens where potters and vase painters worked beside the clay beds of the river. Black-figure and red-figure vases came from its workshops.
 
 ## Permutations
 

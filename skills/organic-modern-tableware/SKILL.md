@@ -170,11 +170,11 @@ A thick, dry-looking glaze with a velvet surface. The potter adds alumina or a s
 - Fire it to the full heat and cool it slowly.
 - Wipe the shoulder clean of drips to show the form.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Steubenville Pottery** (workshop, Steubenville, Ohio, USA, 1879–1959), made the style. The Ohio pottery that made American Modern for Russel Wright. It sold the line in large numbers to department stores.
+- **Steubenville Pottery** (company, Steubenville, Ohio, USA, 1879–1959), made the style. The Ohio pottery that made American Modern for Russel Wright. It sold the line in large numbers to department stores.
 
 ## Permutations
 

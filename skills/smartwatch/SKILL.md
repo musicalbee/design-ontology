@@ -165,9 +165,9 @@ A glass screen with a grid of electrodes that senses the small current that a fi
 - Read the change of charge at each point of the grid.
 - Map each touch to a screen position within 1 mm.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Kickstarter** (platform, web, 2009–now), sold the style. The crowd-funding site where Pebble sold its first smartwatch to backers in 2012, a year before the big makers entered the market.
 

@@ -171,11 +171,11 @@ A dressing of oil or wax worked into a dense cloth so that it sheds water; the o
 - Work the wax into the cloth by hand or by machine, and press it into the seams.
 - Let the cloth cure, and renew the wax when water no longer beads on the face.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Harris Tweed Association** (club, Outer Hebrides, Scotland, 1909–now), gathered the style. The trade body of the Hebridean weavers. It set the Orb mark of 1909 for tweed that is hand-woven at home in the islands.
+- **Harris Tweed Association** (council, Outer Hebrides, Scotland, 1909–now), gathered the style. The trade body of the Hebridean weavers. It set the Orb mark of 1909 for tweed that is hand-woven at home in the islands.
 
 ## Permutations
 

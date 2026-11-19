@@ -169,9 +169,9 @@ A picture or a letter built from square cells that are each on or off, or one fl
 - Draw a diagonal as a stair of equal steps, for example 2 cells across for each 1 cell up.
 - Show the image at an integer scale (2x, 3x, 4x) so that no cell blurs.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Nintendo R&D1** (studio, Kyoto, 1970–2004), launched the style. The Nintendo hardware and game team that designed the Game Boy and its first games.
 

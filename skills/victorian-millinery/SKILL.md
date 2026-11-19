@@ -163,12 +163,12 @@ A milliner steams a felt or straw hat body and pulls it over a carved wooden blo
 - Pull the body down over the block and tie it at the crown line with a cord.
 - Dry it on the block, then trim the brim edge and sew in the lining.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Harper's Bazaar** (magazine, New York, 1867–now), published the style. A fashion magazine. It printed the photographs of Richard Avedon and used Didot type for its name.
-- **Caroline Reboux millinery house** (workshop, Rue de la Paix, Paris, 1865–now), made the style. The hat house that Caroline Reboux opened in Paris in 1865. It made trimmed hats to order for the women of Paris.
+- **Caroline Reboux millinery house** (company, Rue de la Paix, Paris, 1865–now), made the style. The hat house that Caroline Reboux opened in Paris in 1865. It made trimmed hats to order for the women of Paris.
 
 ## Permutations
 

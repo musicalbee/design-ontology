@@ -211,9 +211,9 @@ A camera that the operator carries on the body, with no tripod or dolly; the sha
 - Do not stabilise in post; accept a late refocus and a missed frame as part of the take.
 - Shoot long takes of 30 seconds or more, so that the camera seems to live in the room.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Cannes Film Festival** (salon, Cannes, 1946–now), exhibited the style. An annual film festival with a juried competition. It gave prizes to neorealist, New Hollywood, Dogme 95 and slow-cinema films.
 

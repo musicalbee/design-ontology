@@ -169,9 +169,9 @@ A drawing with three axes at equal angles and one scale, with no vanishing point
 - Draw the three axes at 120° to each other; on a pixel grid, use a 2:1 slope (26.57°).
 - Keep one scale on all three axes and draw no vanishing point.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **App Store** (platform, online, 2008–now), sold the style. The store of Apple for iPhone and iPad apps. Apps and their icons follow the platform look of each era, from leather and glass to flat colour and Liquid Glass, and premium mobile games with a clean art style found a large public there.
 - **Edge** (magazine, Bath, England, 1993–now), published the style. A British game magazine with a focus on design and art direction since the first polygon consoles.

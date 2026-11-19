@@ -169,11 +169,11 @@ Soft clay is pressed into a fired clay mould that carries a design in reverse. T
 - Press soft clay into the mould and let it dry a little.
 - Lift out the bowl, then turn the rim and the foot on the wheel.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Arretine potteries** (workshop, Arezzo, Italy, ?–now), made the style. The workshops of Arretium in Tuscany. They made stamped red-gloss tableware in moulds for the whole Roman world.
+- **Arretine potteries** (collective, Arezzo, Italy, ?–now), made the style. The workshops of Arretium in Tuscany. They made stamped red-gloss tableware in moulds for the whole Roman world.
 
 ## Permutations
 

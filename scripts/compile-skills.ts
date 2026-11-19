@@ -6,7 +6,7 @@
 import Handlebars from "handlebars";
 import { existsSync, readFileSync, readdirSync, rmSync } from "node:fs";
 import { join } from "node:path";
-import { ROOT, loadAll, loadMedia, loadPrinciples, loadTechniques, principleRefs, readJson, write, yearLabel, type Domain, type Style, type Technique } from "./lib.js";
+import { ROOT, loadAll, loadOrgs, loadPrinciples, loadTechniques, principleRefs, readJson, write, yearLabel, type Domain, type Style, type Technique } from "./lib.js";
 import { ICON_NAMES, heroSvg, iconSprite, patternSvg, type IconPack, type Visual } from "./pack.js";
 import { cssTokens as knobTokens } from "./permute.js";
 import { loadNets, loadVocabulary, lookup } from "./net.js";
@@ -15,7 +15,7 @@ const { domains, eras, styles } = loadAll();
 const byId = new Map(styles.map((s) => [s.id, s]));
 const principles = new Map(loadPrinciples().map((p) => [p.principle.id, p.principle]));
 const techniques: Technique[] = loadTechniques().map((t) => t.technique);
-const media = loadMedia().map((m) => m.medium);
+const orgs = loadOrgs().map((m) => m.org);
 const years = (a: number | null, b: number | null) => `${a ?? "?"}–${b ?? "now"}`;
 const domainName = (id: string) => domains.find((d) => d.id === id)?.name ?? id;
 const lagLabel = (t: Technique, year: number) => `+${year - t.origin.year} years`;
@@ -247,7 +247,7 @@ function view(style: Style, domain: Domain) {
         how: t.how,
         invented: (t.origin.styles ?? []).includes(style.id),
       })),
-    media: media
+    orgs: orgs
       .filter((m) => m.styles.some((x) => x.style === style.id))
       .map((m) => ({ name: m.name, kind: m.kind.replace("-", " "), place: m.place, years: years(m.founded, m.closed), part: m.styles.find((x) => x.style === style.id)!.part, summary: m.summary })),
     knobs: (() => {
@@ -485,7 +485,7 @@ write(
         archetypes: s.emotion.brand_archetypes,
         vectors: s.vectors,
         techniques: techniques.filter((t) => t.styles.includes(s.id)).map((t) => t.id),
-        media: media.filter((m) => m.styles.some((x) => x.style === s.id)).map((m) => m.id),
+        orgs: orgs.filter((m) => m.styles.some((x) => x.style === s.id)).map((m) => m.id),
         permutations: s.permutations ?? null,
       })),
       techniques: techniques.map((t) => ({

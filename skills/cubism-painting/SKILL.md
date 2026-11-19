@@ -184,9 +184,9 @@ A form broken into flat planes that meet at sharp angles, so that it reads as a 
 - Use one plane size family: 3 to 5 sizes, with no curve.
 - Let the light break on each plane, so that adjacent planes differ in tone by one or two steps.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Galerie Kahnweiler** (gallery, Paris, 1907–now), sold the style. The gallery of the dealer Daniel-Henry Kahnweiler. He bought and sold the work of Picasso and Braque as they made Cubism.
 - **Salon des Indépendants** (salon, Paris, 1884–now), exhibited the style. An annual show without a jury. Seurat and Signac showed their dot paintings here, and the Cubists had a room here in 1911.

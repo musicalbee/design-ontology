@@ -180,11 +180,11 @@ A body of ground quartz, glass frit and a little white clay. It is white and har
 - Shape the body on the wheel or in a mould.
 - Glaze and fire at about 1000 °C.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Iznik potteries** (workshop, Iznik, Türkiye, ?–now), made the style. The workshops of Iznik in north-west Anatolia. They made stonepaste dishes, tiles and lamps for the Ottoman court and for the mosques of Istanbul.
+- **Iznik potteries** (collective, Iznik, Türkiye, ?–now), made the style. The workshops of Iznik in north-west Anatolia. They made stonepaste dishes, tiles and lamps for the Ottoman court and for the mosques of Istanbul.
 
 ## Permutations
 

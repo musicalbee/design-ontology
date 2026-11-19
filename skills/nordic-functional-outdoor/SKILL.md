@@ -170,11 +170,11 @@ A dressing of oil or wax worked into a dense cloth so that it sheds water; the o
 - Work the wax into the cloth by hand or by machine, and press it into the seams.
 - Let the cloth cure, and renew the wax when water no longer beads on the face.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Fjällräven** (workshop, Örnsköldsvik, Sweden, 1960–now), launched the style. The Swedish maker of outdoor kit. Its waxed poly-cotton twill jackets and frame rucksacks set the plain, repairable look of Nordic trail wear.
+- **Fjällräven** (company, Örnsköldsvik, Sweden, 1960–now), launched the style. The Swedish maker of outdoor kit. Its waxed poly-cotton twill jackets and frame rucksacks set the plain, repairable look of Nordic trail wear.
 
 ## Permutations
 

@@ -249,9 +249,9 @@ Fragments of photographs, cut and joined on one sheet, so that the joins make a 
 - Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.
 - Set type as one more fragment, turned 0° to 30°, in the same stack of layers.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Awwwards** (platform, web, 2009–now), published the style. A web site that gives awards to web design. Designers post sites there, and its daily picks spread trends of the expressive web.
 - **Brutalist Websites** (platform, web, 2014–now), published the style. A web site that Pascal Deville started to collect raw, unstyled web sites. It made the name brutalist popular for this kind of web design.

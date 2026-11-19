@@ -170,9 +170,9 @@ A joint that stays in view, so that the way of making is part of the look. Origi
 - Peg the joint with a wooden pin of 8 to 12mm; do not hide it with filler or paint.
 - Use one joint type in a room or a building; repeat it at each corner.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Japan Folk Crafts Museum** (gallery, Tokyo, 1936–now), exhibited the style. A museum of everyday craft that Yanagi Soetsu founded to show and teach the beauty of plain, hand-made objects. It made the mingei idea known to makers and designers.
 

@@ -165,11 +165,11 @@ Two large bowls are thrown on the wheel and joined at the rim when leather-hard.
 - Join the rims with slip and smooth the seam inside and outside.
 - Add a neck and a foot ring, then glaze and fire.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Bunwon royal kiln** (workshop, Gwangju, Gyeonggi, Korea, ?–now), made the style. The official kiln of the Joseon court in Gyeonggi province. It made the white porcelain for the palace, among it the large round moon jars.
+- **Bunwon royal kiln** (court, Gwangju, Gyeonggi, Korea, ?–now), made the style. The official kiln of the Joseon court in Gyeonggi province. It made the white porcelain for the palace, among it the large round moon jars.
 
 ## Permutations
 

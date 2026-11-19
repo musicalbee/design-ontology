@@ -169,11 +169,11 @@ A bowl is fired upside down on its rim in a ring of fireclay, so that the wall s
 - Set the bowl rim-down on a stepped ring of fireclay.
 - Fire the stack, then bind the bare rim with copper or silver.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Ding kilns** (workshop, Jiancicun, Hebei, China, ?–now), made the style. The kiln sites of Quyang county. They made white porcelain bowls and dishes for the Song court and for trade.
+- **Ding kilns** (collective, Jiancicun, Hebei, China, ?–now), made the style. The kiln sites of Quyang county. They made white porcelain bowls and dishes for the Song court and for trade.
 
 ## Permutations
 

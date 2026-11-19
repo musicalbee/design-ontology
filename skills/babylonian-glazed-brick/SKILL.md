@@ -168,9 +168,9 @@ Bricks are pressed in a relief mould, glazed in colour and fired, then laid in n
 - Fire the brick a second time at about 950 °C so that the glaze melts.
 - Number the side of each brick and lay the courses in bitumen or lime mortar.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Pergamon Museum** (exhibition, Berlin, 1930–now), exhibited the style. A museum in Berlin that opened in 1930. It shows the Ishtar Gate of Babylon, rebuilt from the glazed bricks that the German excavators dug up in the early 20th century.
 

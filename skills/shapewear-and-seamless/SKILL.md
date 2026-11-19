@@ -158,11 +158,11 @@ A flat warp-knitting machine that makes open nets and fine elastic meshes, and t
 - Loop each yarn with its neighbour in a set pattern.
 - Take up the mesh in a flat sheet and cut the pieces.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Spanx** (workshop, Atlanta, 2000–now), launched the style. A maker of shapewear that Sara Blakely founded in Atlanta in 2000. Its first product was a pair of footless control-top tights.
+- **Spanx** (company, Atlanta, 2000–now), launched the style. A maker of shapewear that Sara Blakely founded in Atlanta in 2000. Its first product was a pair of footless control-top tights.
 
 ## Permutations
 

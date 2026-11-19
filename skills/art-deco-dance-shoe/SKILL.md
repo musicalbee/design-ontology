@@ -161,9 +161,9 @@ A shoe strap in the shape of a T: one strap runs over the instep and one runs do
 - Close the instep strap with a button or a buckle at the side.
 - Cut the vamp low so that the T shows.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **International Exhibition of Modern Decorative and Industrial Arts** (exhibition, Paris, 1925–1925), exhibited the style. A world's fair of decorative and industrial arts. Its pavilions and rooms showed the new luxury style that later got the name Art Deco from this show.
 

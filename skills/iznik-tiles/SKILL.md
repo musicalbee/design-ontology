@@ -172,11 +172,11 @@ A thick slip of red clay that stands in low relief on the tile and fires to a br
 - Cover it with a clear glaze and fire it in an oxidising kiln.
 - Use it for flowers, so that red joins blue, turquoise and green.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Iznik potteries** (workshop, Iznik, Türkiye, ?–now), made the style. The workshops of Iznik in north-west Anatolia. They made stonepaste dishes, tiles and lamps for the Ottoman court and for the mosques of Istanbul.
+- **Iznik potteries** (collective, Iznik, Türkiye, ?–now), made the style. The workshops of Iznik in north-west Anatolia. They made stonepaste dishes, tiles and lamps for the Ottoman court and for the mosques of Istanbul.
 
 ## Permutations
 

@@ -165,11 +165,11 @@ The making of a car body by hand on a wood frame, and the fit of that body to a 
 - Beat the aluminium or steel panels over a wood form and fit them to the frame.
 - Fit the trim, the upholstery and the brightwork, then paint the body in many coats.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Carrozzeria Pinin Farina** (workshop, Turin, Italy, 1930–now), made the style. The coachbuilding works that Battista Farina founded in 1930. It made the bodies of many Italian grand tourers by hand and in small series.
+- **Carrozzeria Pinin Farina** (company, Turin, Italy, 1930–now), made the style. The coachbuilding works that Battista Farina founded in 1930. It made the bodies of many Italian grand tourers by hand and in small series.
 
 ## Permutations
 

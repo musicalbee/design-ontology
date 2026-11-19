@@ -170,11 +170,11 @@ Rock salt is thrown into a kiln at stoneware heat. The salt vapour reacts with t
 - Seal the ports and let the vapour settle for 20 to 30 minutes.
 - Keep the wall 4 mm or more thick, so that the pot does not crack in the heat shock.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Norton Pottery, Bennington** (workshop, Bennington, Vermont, United States, 1793–now), made the style. A stoneware pottery that Captain John Norton started in 1793. It made salt-glazed crocks, jugs and churns with cobalt decoration for the farms of New England.
+- **Norton Pottery, Bennington** (company, Bennington, Vermont, United States, 1793–now), made the style. A stoneware pottery that Captain John Norton started in 1793. It made salt-glazed crocks, jugs and churns with cobalt decoration for the farms of New England.
 
 ## Permutations
 

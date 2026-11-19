@@ -173,9 +173,9 @@ A printer pushes soft clay through a nozzle and builds a form in thin layers. A 
 - Press the clay through a nozzle of 1 to 4 mm and build the wall layer by layer.
 - Dry the form slowly, glaze it and fire it.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Dutch Design Week** (exhibition, Eindhoven, Netherlands, 2002–now), exhibited the style. A yearly design festival in Eindhoven. Young designers show new work there, and several of them showed 3D-printed ceramics in the 2010s.
 

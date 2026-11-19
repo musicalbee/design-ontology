@@ -168,11 +168,11 @@ The chef writes the menu after the visit to the market or the farm, and the dish
 - Write the menu after the purchase, and keep it short.
 - Print or write the menu by hand on the day, and name the farm or the market.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Chez Panisse** (workshop, Berkeley, 1971–now), launched the style. A restaurant in Berkeley, California, opened by Alice Waters. The downstairs room serves a set menu that changes each day; the café upstairs opened in 1980.
+- **Chez Panisse** (company, Berkeley, 1971–now), launched the style. A restaurant in Berkeley, California, opened by Alice Waters. The downstairs room serves a set menu that changes each day; the café upstairs opened in 1980.
 
 ## Permutations
 

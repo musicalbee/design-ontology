@@ -163,11 +163,11 @@ Ink pushed through a fine mesh with a squeegee; a stencil on the mesh blocks the
 - Pull thick, opaque ink across the screen with a rubber squeegee in one even stroke.
 - Print each colour from its own screen and let each layer dry before the next.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **430 King's Road shop** (workshop, London, 1971–now), launched the style. The London shop of Vivienne Westwood and Malcolm McLaren. It sold under the names Let It Rock, SEX and Seditionaries, and it dressed the first punk scene.
+- **430 King's Road shop** (company, London, 1971–now), launched the style. The London shop of Vivienne Westwood and Malcolm McLaren. It sold under the names Let It Rock, SEX and Seditionaries, and it dressed the first punk scene.
 
 ## Permutations
 

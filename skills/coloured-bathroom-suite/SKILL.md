@@ -165,11 +165,11 @@ Liquid clay is poured into a plaster mould. The plaster takes water from the cla
 - Pour out the rest of the slip.
 - Open the mould when the clay is leather-hard and fettle the seam.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Kohler Co.** (workshop, Kohler, Wisconsin, United States, 1873–now), made the style. A Wisconsin maker of baths, basins and WCs that began in 1873. It sold sanitary fixtures in colour, as a matched set.
+- **Kohler Co.** (company, Kohler, Wisconsin, United States, 1873–now), made the style. A Wisconsin maker of baths, basins and WCs that began in 1873. It sold sanitary fixtures in colour, as a matched set.
 
 ## Permutations
 

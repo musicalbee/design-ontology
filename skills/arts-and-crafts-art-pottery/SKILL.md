@@ -174,11 +174,11 @@ A thin film of copper or silver on a glazed pot gives a metallic shine. The pott
 - Fire the pot at 600 to 800 °C and fill the kiln with smoke in the second half.
 - Wash off the clay after the firing to show the metallic film.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **William De Morgan pottery** (workshop, Chelsea and Fulham, London, England, 1872–1907), made the style. The pottery of William De Morgan, first in Chelsea and then at Sands End in Fulham. It made tiles and vases in lustre and bright Persian colours.
+- **William De Morgan pottery** (studio, Chelsea and Fulham, London, England, 1872–1907), made the style. The pottery of William De Morgan, first in Chelsea and then at Sands End in Fulham. It made tiles and vases in lustre and bright Persian colours.
 
 ## Permutations
 

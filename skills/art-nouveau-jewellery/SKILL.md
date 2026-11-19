@@ -166,9 +166,9 @@ A thin coat of glass that is fused to iron or steel at about 800 °C. It makes a
 - Apply a top coat of 0.1 to 0.3 mm in white or a single colour and fire it again.
 - Leave the edges rolled: the enamel chips at a sharp edge and shows the dark metal.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Exposition Universelle of 1900** (exhibition, Paris, 1900–1900), exhibited the style. A world's fair in Paris at the turn of the century. Art Nouveau buildings, rooms and metro entrances were on show, and the Finnish pavilion had frescoes of national myths.
 

@@ -159,11 +159,11 @@ The heating of rubber with sulphur, so that it stays elastic in heat and cold. I
 - Heat the mixture to about 140 degrees Celsius.
 - Bond the cured sole to the canvas upper in the same oven.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Converse Rubber Shoe Company** (workshop, Malden, Massachusetts, United States, 1908–now), made the style. The rubber shoe factory that Marquis Converse opened in 1908. In 1917 it made the canvas All Star basketball shoe.
+- **Converse Rubber Shoe Company** (company, Malden, Massachusetts, United States, 1908–now), made the style. The rubber shoe factory that Marquis Converse opened in 1908. In 1917 it made the canvas All Star basketball shoe.
 
 ## Permutations
 

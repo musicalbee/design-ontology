@@ -174,11 +174,11 @@ A winding crown that screws onto a tube on the case, so that the crown seals the
 - Fit a rubber gasket under the crown and press it as the crown screws down.
 - Seal the case back with a second gasket and a screw-on ring.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Blancpain watch manufacture** (workshop, Villeret, 1735–now), made the style. The Swiss watch maker that made the Fifty Fathoms of 1953, one of the first modern diver's watches, to the drawing of two French divers.
+- **Blancpain watch manufacture** (company, Villeret, 1735–now), made the style. The Swiss watch maker that made the Fifty Fathoms of 1953, one of the first modern diver's watches, to the drawing of two French divers.
 
 ## Permutations
 

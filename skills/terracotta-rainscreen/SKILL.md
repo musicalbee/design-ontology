@@ -167,9 +167,9 @@ A wall skin of hollow clay panels on rails, with an air gap behind. The panels k
 - Hang each panel on a clip and a rail of stainless steel.
 - Keep an air gap of 20 to 50 mm and an open joint of 6 to 10 mm.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Museum Brandhorst** (gallery, Munich, 2009–now), exhibited the style. An art museum in Munich that opened in 2009. Its facade has 36,000 ceramic rods in 23 colours, hung on rails in front of the wall.
 

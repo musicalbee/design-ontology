@@ -165,11 +165,11 @@ A factory method in which machines cut every part to a gauge, so that a part fro
 - Sort the parts into bins by model, not by watch.
 - Assemble the watch from parts that the worker does not file or fit.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Waltham Watch Company** (workshop, Waltham, Massachusetts, 1850–now), made the style. The American firm that made about 40 million watches and other timepieces from 1850 to 1957. Its machines cut parts that fit any watch of the same model.
+- **Waltham Watch Company** (company, Waltham, Massachusetts, 1850–now), made the style. The American firm that made about 40 million watches and other timepieces from 1850 to 1957. Its machines cut parts that fit any watch of the same model.
 
 ## Permutations
 

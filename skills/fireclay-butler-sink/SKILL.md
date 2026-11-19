@@ -169,11 +169,11 @@ Liquid clay is poured into a plaster mould. The plaster takes water from the cla
 - Pour out the rest of the slip.
 - Open the mould when the clay is leather-hard and fettle the seam.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Doulton Lambeth** (workshop, London, United Kingdom, 1815–now), made the style. A pottery at Lambeth that began in 1815. It made salt-glazed stoneware, drain pipes, sanitary ware, sinks and electrical insulators.
+- **Doulton Lambeth** (company, London, United Kingdom, 1815–now), made the style. A pottery at Lambeth that began in 1815. It made salt-glazed stoneware, drain pipes, sanitary ware, sinks and electrical insulators.
 
 ## Permutations
 

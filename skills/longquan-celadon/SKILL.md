@@ -170,11 +170,11 @@ A glaze is put on in several thin coats with a firing or a drying step between t
 - Repeat the coat up to ten times.
 - Fire the pot in reduction, so that the glaze turns green and soft.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Longquan kilns** (workshop, Longquan, Zhejiang, China, ?–now), made the style. A large group of kilns in southern Zhejiang that made celadon from the Song dynasty. Their green ware went by sea to Japan, South-East Asia and the Near East.
+- **Longquan kilns** (collective, Longquan, Zhejiang, China, ?–now), made the style. A large group of kilns in southern Zhejiang that made celadon from the Song dynasty. Their green ware went by sea to Japan, South-East Asia and the Near East.
 
 ## Permutations
 

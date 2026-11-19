@@ -170,11 +170,11 @@ A pot is dipped in a glaze with tin oxide in it. The glaze dries to a white, opa
 - Paint on the dry raw glaze with cobalt, copper, manganese or antimony.
 - Fire the glaze at about 1000 °C, so that the colours sink into the glaze.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Urbino maiolica workshops** (workshop, Urbino, Italy, ?–now), made the style. A group of workshops in Urbino and the nearby towns of the Duchy. Their painters made the istoriato plates with large pictures for noble patrons.
+- **Urbino maiolica workshops** (collective, Urbino, Italy, ?–now), made the style. A group of workshops in Urbino and the nearby towns of the Duchy. Their painters made the istoriato plates with large pictures for noble patrons.
 
 ## Permutations
 

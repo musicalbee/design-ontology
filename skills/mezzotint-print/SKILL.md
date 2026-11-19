@@ -135,9 +135,9 @@ An intaglio tone process: a rocker roughens the whole plate to a black, and the 
 - Work from dark to light, and check the tone with proofs at each stage.
 - Print only 50–100 good impressions; the soft grain wears quickly.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Boydell print publishing** (publisher, London, 1746–now), published the style. John Boydell started as an engraver in London and became a large print publisher. His firm sold English engravings and mezzotints across Europe.
 

@@ -170,11 +170,11 @@ A long S-shaped line whose curve changes along its length, drawn from a plant st
 - Join letters, frame and plant forms with the same line; leave no straight edge to break the flow.
 - Use few colours, 2 to 4, in muted tones.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Pilkington's Tile and Pottery Company** (workshop, Clifton Junction, England, 1891–now), made the style. A tile works near Manchester that started in 1891. It made moulded and glazed tiles in the Art Nouveau taste, for hearths, shops and halls.
+- **Pilkington's Tile and Pottery Company** (company, Clifton Junction, England, 1891–now), made the style. A tile works near Manchester that started in 1891. It made moulded and glazed tiles in the Art Nouveau taste, for hearths, shops and halls.
 
 ## Permutations
 

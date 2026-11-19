@@ -167,11 +167,11 @@ A pad of wadding or foam that is set in the sleeve head of a jacket or a blouse,
 - Sew the pad into the sleeve head between the lining and the cloth.
 - Press the shoulder so that the line is square and level.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Giorgio Armani fashion house** (workshop, Milan, 1975–now), made the style. The Milan house that Giorgio Armani founded in 1975. It made the soft, plain suits that became the uniform of the 1980s office.
+- **Giorgio Armani fashion house** (company, Milan, 1975–now), made the style. The Milan house that Giorgio Armani founded in 1975. It made the soft, plain suits that became the uniform of the 1980s office.
 
 ## Permutations
 

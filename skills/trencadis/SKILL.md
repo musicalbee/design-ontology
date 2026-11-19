@@ -168,11 +168,11 @@ A mosaic of shards of glazed tile and china set in mortar. A mason can cover a c
 - Press the shards into the bed with the glaze outward and keep a joint of 3 to 5 mm.
 - Wipe the face clean before the mortar sets.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Park Güell works** (workshop, Barcelona, 1900–1914), made the style. The building site of Park Güell in Barcelona, which ran from 1900 to 1914. Masons set broken tile and china on its benches, roofs and walls.
+- **Park Güell works** (studio, Barcelona, 1900–1914), made the style. The building site of Park Güell in Barcelona, which ran from 1900 to 1914. Masons set broken tile and china on its benches, roofs and walls.
 
 ## Permutations
 

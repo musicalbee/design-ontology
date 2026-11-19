@@ -164,11 +164,11 @@ A flat warp-knitting machine that makes open nets and fine elastic meshes, and t
 - Loop each yarn with its neighbour in a set pattern.
 - Take up the mesh in a flat sheet and cut the pieces.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Exquisite Form** (workshop, United States, 1945–now), made the style. A maker of foundation garments and brassières founded in 1945. In 1964 it made the No Bra of Rudi Gernreich, a soft bra without bone or lining.
+- **Exquisite Form** (company, United States, 1945–now), made the style. A maker of foundation garments and brassières founded in 1945. In 1964 it made the No Bra of Rudi Gernreich, a soft bra without bone or lining.
 
 ## Permutations
 

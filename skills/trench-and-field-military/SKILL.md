@@ -163,11 +163,11 @@ A rain cloth made from yarn that is proofed before it is woven, so that the clot
 - Weave the yarn in a steep, tight twill.
 - Dye the cloth in khaki or stone, and cut it into a coat.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Burberry outfitters** (workshop, Basingstoke, England, 1856–now), made the style. The outfitters of Thomas Burberry. They made gabardine in 1879 and sold the officer's trench coat and the windproof smock of the Everest parties.
+- **Burberry outfitters** (company, Basingstoke, England, 1856–now), made the style. The outfitters of Thomas Burberry. They made gabardine in 1879 and sold the officer's trench coat and the windproof smock of the Everest parties.
 
 ## Permutations
 

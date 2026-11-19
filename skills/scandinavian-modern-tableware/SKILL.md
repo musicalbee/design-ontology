@@ -168,11 +168,11 @@ One motif or one frame, repeated with small changes in a set of works, so that t
 - Keep the spacing between works equal to a fixed unit, such as 10 cm or one panel width.
 - Remove the hand: use a mechanical edge, a stencil or a plain lens.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Arabia factory** (workshop, Helsinki, Finland, 1873–now), made the style. The Helsinki ceramics factory with an art department. Its designers made plain, stackable services for daily use.
+- **Arabia factory** (company, Helsinki, Finland, 1873–now), made the style. The Helsinki ceramics factory with an art department. Its designers made plain, stackable services for daily use.
 
 ## Permutations
 

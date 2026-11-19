@@ -247,9 +247,9 @@ Text that appears word by word as the system writes it, so the reader can read t
 - Keep the bottom line in view while the text grows; stop the auto-scroll when the reader scrolls up.
 - Show one cursor or dot at the end of the text while it is streaming.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **ChatGPT** (platform, web, 2022–now), launched the style. A chat assistant from OpenAI. Its single column of messages and its prompt box became the default look of an AI chat interface.
 

@@ -182,9 +182,9 @@ A table piece that a cook models from sugar paste, marzipan and pastry in the sh
 - Build the frame of the piece from pastry, wire or wood, and fix the sugar parts to it.
 - Set the piece at the centre of the table, and bring it in at the end of a service.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Opera dell'arte del cucinare** (publisher, Venice, 1570–now), published the style. A cookbook of six books by Scappi, with about 1,000 recipes and plates of the tools and the kitchen. It shows the first known picture of a fork.
 

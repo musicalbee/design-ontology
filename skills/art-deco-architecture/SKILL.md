@@ -200,9 +200,9 @@ Chips of marble or glass set in a binder and ground flat, so that each chip show
 - Use 2 to 4 chip colours on one ground colour.
 - Grind and polish the surface flat, so that the chip edges show as cut sections.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **International Exhibition of Modern Decorative and Industrial Arts** (exhibition, Paris, 1925–1925), exhibited the style. A world's fair of decorative and industrial arts. Its pavilions and rooms showed the new luxury style that later got the name Art Deco from this show.
 

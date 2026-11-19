@@ -175,11 +175,11 @@ A pair of kitchen bases: a stock made from bones and meat, and a roux of flour a
 - Cook flour in butter over low heat to the colour that the sauce needs.
 - Whisk the stock into the roux and simmer the sauce until it coats a spoon.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **La Pyramide** (workshop, Vienne, France, 1924–now), launched the style. A restaurant in Vienne on the road to the south. Fernand Point ran it from 1924 until 1955, and it trained a generation of French chefs.
+- **La Pyramide** (company, Vienne, France, 1924–now), launched the style. A restaurant in Vienne on the road to the south. Fernand Point ran it from 1924 until 1955, and it trained a generation of French chefs.
 
 ## Permutations
 

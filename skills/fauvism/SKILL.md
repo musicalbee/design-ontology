@@ -179,9 +179,9 @@ A print from a block of wood with the white parts cut away; the result is flat c
 - Print with a flat, opaque ink and leave the grain and the knife marks visible.
 - Keep the shapes flat, with no more than 3 to 6 tones in a print.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Salon d'Automne** (salon, Paris, 1903–now), launched the style. An autumn art show in Paris. A critic called the painters of one room in 1905 wild beasts, and Fauvism got its name.
 

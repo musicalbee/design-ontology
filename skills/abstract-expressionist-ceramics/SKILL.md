@@ -174,9 +174,9 @@ A potter throws a plain vessel on the wheel and then bends, pinches, cuts and jo
 - Press the belly and add arms or legs of slip.
 - Draw the face with a knife or a brush.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Otis Art Institute** (school, Los Angeles, United States, 1918–now), taught the style. An art school in Los Angeles that opened in 1918. Peter Voulkos taught ceramics there from 1954 and trained a group of artists who made clay sculpture.
 

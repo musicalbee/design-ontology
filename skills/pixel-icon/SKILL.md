@@ -141,9 +141,9 @@ A picture or a letter built from square cells that are each on or off, or one fl
 - Draw a diagonal as a stair of equal steps, for example 2 cells across for each 1 cell up.
 - Show the image at an integer scale (2x, 3x, 4x) so that no cell blurs.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **The Iconfactory** (studio, Greensboro, North Carolina, 1996–now), made the style. An icon design studio. It made pixel icons for early desktops and detailed, lit icons for Mac OS X and iOS.
 

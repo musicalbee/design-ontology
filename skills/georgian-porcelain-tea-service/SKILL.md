@@ -179,11 +179,11 @@ A design is engraved on a copper plate, printed on thin paper in a ceramic ink a
 - Press the wet tissue on the piece and rub it down.
 - Wash the paper away and fire the piece to fix the ink.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Bow Porcelain Factory** (workshop, Stratford, London, England, 1747–1776), made the style. A London factory that made soft-paste porcelain with bone ash from about 1747. It sold blue-and-white and enamelled tea ware at a low price.
+- **Bow Porcelain Factory** (company, Stratford, London, England, 1747–1776), made the style. A London factory that made soft-paste porcelain with bone ash from about 1747. It sold blue-and-white and enamelled tea ware at a low price.
 
 ## Permutations
 
