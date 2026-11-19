@@ -221,6 +221,23 @@ Used by: [`georgian-interior`](./georgian-interior/SKILL.md), [`postmodern-archi
 
 Sources: John Summerson, The Classical Language of Architecture (1963).
 
+### Branded waistband
+
+A woven elastic band with the name of a designer in plain capitals; it turns a basic brief into a branded object that shows above the trouser.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1982 | — | New York: Calvin Klein puts his name on the waistband of a plain cotton brief. | |
+| 1 | Fashion | 1982 | +0 years | The fashion house of Calvin Klein sold the named brief as fashion and advertised it on large posters. | [`designer-logo-underwear`](./designer-logo-underwear/SKILL.md) |
+
+Used by: [`designer-logo-underwear`](./designer-logo-underwear/SKILL.md).
+
+- Weave the name of the maker into an elastic band in jacquard.
+- Sew the band to the top of the brief or the short.
+- Let the name show above the waist of the trouser.
+
+Sources: [Wikipedia: Calvin Klein (fashion house)](https://en.wikipedia.org/wiki/Calvin_Klein_(fashion_house)).
+
 ### Checkerboard
 
 A grid of squares in two alternate colours, on a floor, in a picture or on a surface.
@@ -550,6 +567,23 @@ Used by: [`art-deco-architecture`](./art-deco-architecture/SKILL.md), [`art-deco
 
 Sources: Bevis Hillier, Art Deco of the 20s and 30s (Studio Vista, 1968).
 
+### T-strap
+
+A shoe strap in the shape of a T: one strap runs over the instep and one runs down the vamp to the toe.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1920 | — | Paris and New York: The T-strap becomes the standard dance shoe of the 1920s. | |
+| 1 | Fashion | 1920 | +0 years | The T-strap holds the foot in the Charleston and gives the Deco shoe its graphic line. | [`art-deco-dance-shoe`](./art-deco-dance-shoe/SKILL.md) |
+
+Used by: [`art-deco-dance-shoe`](./art-deco-dance-shoe/SKILL.md).
+
+- Run a vertical strap from the vamp to the instep strap.
+- Close the instep strap with a button or a buckle at the side.
+- Cut the vamp low so that the T shows.
+
+Sources: [Wikipedia: T-bar shoe](https://en.wikipedia.org/wiki/T-bar_shoe).
+
 ### Whiplash line
 
 A long S-shaped line whose curve changes along its length, drawn from a plant stem; it joins structure and ornament in one stroke.
@@ -630,6 +664,41 @@ Used by: [`victorian-interior`](./victorian-interior/SKILL.md), [`grandmillennia
 
 Sources: Rosemary Crill, Chintz: Indian Textiles for the West (2008).
 
+### Coated canvas
+
+Cotton or linen canvas covered with lacquer, paint or resin, so that it sheds rain, wipes clean and takes a printed pattern.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1854 | — | Paris, France: Louis Vuitton covers the flat-topped trunk in grey lacquered canvas; it is light, weatherproof and does not crack as leather does. | |
+| 1 | Fashion | 1872 | +18 years | The Vuitton workshop adds a stripe to the coated canvas, the first pattern on a trunk. | [`malletier-luggage`](./malletier-luggage/SKILL.md) |
+| 2 | Fashion | 1985 | +131 years | Luxury houses print a mark across the whole coated canvas of bags and belts. | [`logomania`](./logomania/SKILL.md) |
+
+Used by: [`malletier-luggage`](./malletier-luggage/SKILL.md), [`logomania`](./logomania/SKILL.md).
+
+- Stretch the canvas flat and apply the coat in thin layers, 3 or more.
+- Dry each layer, then stove or press the surface to a smooth finish.
+- Print or stripe the pattern before the last coat, so that the coat protects it.
+
+Sources: [Wikipedia: Louis Vuitton](https://en.wikipedia.org/wiki/Louis_Vuitton_(brand)); [Wikipedia: Oilcloth](https://en.wikipedia.org/wiki/Oilcloth).
+
+### Elastic gusset
+
+A side panel of rubber webbing set into the shaft of a boot, so that the boot slips on without laces or buttons.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1837 | — | London, England: Joseph Sparkes Hall makes elastic-sided boots, and Queen Victoria wears them. | |
+| 1 | Fashion | 1851 | +14 years | The elastic-sided boot enters the mass market, and the gusset becomes a mark of the Victorian boot. | [`victorian-boot`](./victorian-boot/SKILL.md) |
+
+Used by: [`victorian-boot`](./victorian-boot/SKILL.md).
+
+- Set a panel of rubber webbing, 4 to 6 cm wide, into each side of the shaft.
+- Cover the seam with a binding in matching cloth or leather.
+- Add a pull tab at the top of the back seam.
+
+Sources: [Wikipedia: Boot](https://en.wikipedia.org/wiki/Boot); [Wikipedia: Chelsea boot](https://en.wikipedia.org/wiki/Chelsea_boot).
+
 ### Laminated timber
 
 Thin boards or veneers glued in layers, so that wood forms long spans, bent shapes and large panels.
@@ -653,6 +722,40 @@ Used by: [`scandinavian-interior`](./scandinavian-interior/SKILL.md), [`mid-cent
 
 Sources: [Wikipedia, Glued laminated timber](https://en.wikipedia.org/wiki/Glued_laminated_timber); [Wikipedia, Cross-laminated timber](https://en.wikipedia.org/wiki/Cross-laminated_timber).
 
+### Lastex yarn
+
+An elastic yarn with a rubber core wrapped in wool, rayon, silk or cotton thread; it let a knitted garment stretch and return.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1931 | — | United States: The Adamson Brothers, part of the US Rubber Company, bring Lastex to the market. | |
+| 1 | Fashion | 1947 | +16 years | Makers of girdles and brassières used elastic yarn of rubber core to give the held waist of the new line. | [`nylon-foundation-garments`](./nylon-foundation-garments/SKILL.md) |
+
+Used by: [`nylon-foundation-garments`](./nylon-foundation-garments/SKILL.md).
+
+- Wrap a rubber thread in one or two layers of cotton, silk or rayon.
+- Knit or weave the yarn into a band or a panel.
+- Cut the band to length and finish the edge.
+
+Sources: [Wikipedia: Lastex](https://en.wikipedia.org/wiki/Lastex).
+
+### Layered plastic frame
+
+A spectacle frame cut and polished from sheets of celluloid or acetate, often two or more layers of colour glued together before cutting.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1880 | — | United States: Celluloid starts to replace horn and tortoiseshell in spectacle frames; it is cheap, it polishes and it takes a tortoiseshell pattern. | |
+| 1 | Fashion | 1947 | +67 years | The browline frame joins a heavy plastic bar to a thin metal rim, and the cat-eye layers colours on the upper edge. | [`mid-century-eyewear`](./mid-century-eyewear/SKILL.md) |
+
+Used by: [`mid-century-eyewear`](./mid-century-eyewear/SKILL.md).
+
+- Press the layers of plastic into one sheet, 3 to 5 mm thick.
+- Cut the front and the temples with a saw or a router, then tumble and polish them.
+- Warm the front and bend it to the curve of the face; fit the hinges with rivets.
+
+Sources: [Wikipedia: Glasses](https://en.wikipedia.org/wiki/Glasses); [Wikipedia: Celluloid](https://en.wikipedia.org/wiki/Celluloid).
+
 ### Limewash
 
 A thin wash of slaked lime that dries to a soft, matt white with a faint cloud of brush marks.
@@ -674,6 +777,25 @@ Used by: [`critical-regionalism-architecture`](./critical-regionalism-architectu
 
 Sources: [Wikipedia, Whitewash](https://en.wikipedia.org/wiki/Whitewash); [Wikipedia, Lime plaster](https://en.wikipedia.org/wiki/Lime_plaster).
 
+### Membrane lamination
+
+A thin membrane with pores that block water drops. Pass water vapour, bonded between a face cloth and a liner to make a shell cloth.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1976 | — | Newark, Delaware: W. L. Gore and Associates sells the first garment cloth with a stretched PTFE membrane. | |
+| 1 | Fashion | 1976 | +0 years | Gore-Tex shells give climbers a jacket that keeps out rain and lets out sweat. | [`technical-shell-alpinism`](./technical-shell-alpinism/SKILL.md) |
+| 2 | Fashion | 2002 | +26 years | Techwear labels build black city shells from membrane laminates with taped seams. | [`techwear`](./techwear/SKILL.md) |
+| 3 | Fashion | 2017 | +41 years | Gorpcore wears the bright membrane shell of the trail in the city. | [`gorpcore`](./gorpcore/SKILL.md) |
+
+Used by: [`technical-shell-alpinism`](./technical-shell-alpinism/SKILL.md), [`techwear`](./techwear/SKILL.md), [`gorpcore`](./gorpcore/SKILL.md).
+
+- Stretch the membrane of PTFE until it holds billions of pores in each square centimetre.
+- Bond the membrane between a nylon face cloth and a liner.
+- Tape each seam of the finished garment, so that no water enters at a stitch.
+
+Sources: [Wikipedia: Gore-Tex](https://en.wikipedia.org/wiki/Gore-Tex); [Wikipedia: Waterproof fabric](https://en.wikipedia.org/wiki/Waterproof_fabric).
+
 ### Neon glow
 
 Light as a line of coloured gas, with a soft halo that spills onto the dark ground around it.
@@ -693,6 +815,58 @@ Used by: [`postmodern-architecture`](./postmodern-architecture/SKILL.md), [`neon
 - Keep a bright, near-white core inside the line.
 
 Sources: [Wikipedia, Neon lighting](https://en.wikipedia.org/wiki/Neon_lighting); [Wikipedia, Blade Runner](https://en.wikipedia.org/wiki/Blade_Runner).
+
+### Polar fleece knit
+
+A napped polyester knit that is light, dries fast and keeps its loft when wet; it replaced wool pile as the mid layer.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1979 | — | Lawrence, Massachusetts: Malden Mills makes a napped polyester knit with Patagonia. | |
+| 1 | Fashion | 1981 | +2 years | Polartec fleece goes under the hard shell as the mid layer of the alpine kit. | [`technical-shell-alpinism`](./technical-shell-alpinism/SKILL.md) |
+| 2 | Fashion | 2017 | +38 years | Gorpcore wears the fleece jacket in the city as a bright outer layer. | [`gorpcore`](./gorpcore/SKILL.md) |
+
+Used by: [`technical-shell-alpinism`](./technical-shell-alpinism/SKILL.md), [`gorpcore`](./gorpcore/SKILL.md).
+
+- Knit a polyester fabric with a loop face.
+- Raise and shear the loops to form a soft, even nap.
+- Cut the cloth into a jacket with a close collar and a zip.
+
+Sources: [Wikipedia: Polar fleece](https://en.wikipedia.org/wiki/Polar_fleece); [Wikipedia: Patagonia, Inc.](https://en.wikipedia.org/wiki/Patagonia,_Inc.).
+
+### PVC-coated cloth
+
+A woven or knit cloth that is coated with plasticised PVC, so that it is shiny, waterproof and easy to wipe clean.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1926 | — | Akron, Ohio, United States: Waldo Semon makes plasticised PVC at the B.F. Goodrich laboratory. | |
+| 1 | Fashion | 1963 | +37 years | Mary Quant shows the Wet collection of shiny PVC raincoats in bright colours. | [`mod-and-mini`](./mod-and-mini/SKILL.md) |
+
+Used by: [`mod-and-mini`](./mod-and-mini/SKILL.md).
+
+- Spread a paste of PVC and plasticiser on a knit or woven back.
+- Heat the coated cloth so that the layer fuses and sets with a smooth, shiny face.
+- Cut and weld or tape the seams so that they keep out the water.
+
+Sources: [Wikipedia: Polyvinyl chloride](https://en.wikipedia.org/wiki/Polyvinyl_chloride); [Wikipedia: Mary Quant](https://en.wikipedia.org/wiki/Mary_Quant).
+
+### Rubber vulcanisation
+
+The heating of rubber with sulphur, so that it stays elastic in heat and cold. It made the rubber sole.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1839 | — | Woburn, Massachusetts: Charles Goodyear finds that rubber heated with sulphur stays elastic. | |
+| 1 | Fashion | 1917 | +78 years | The canvas basketball shoe has a vulcanised rubber sole that grips the court. | [`canvas-court-sneaker`](./canvas-court-sneaker/SKILL.md) |
+
+Used by: [`canvas-court-sneaker`](./canvas-court-sneaker/SKILL.md).
+
+- Mix natural rubber with sulphur.
+- Heat the mixture to about 140 degrees Celsius.
+- Bond the cured sole to the canvas upper in the same oven.
+
+Sources: [Wikipedia: Vulcanization](https://en.wikipedia.org/wiki/Vulcanization); [Wikipedia: Sneakers](https://en.wikipedia.org/wiki/Sneakers).
 
 ### Stained glass
 
@@ -740,9 +914,12 @@ A thin coat of glass that is fused to iron or steel at about 800 °C. It makes a
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Industrial design | c. 1850 | — | Central Europe: Factories coat sheet iron and cast iron with glass powder, and the process makes cheap, washable pots, signs and baths. | |
-| 1 | Industrial design | c. 1910 | +60 years | Factories and workshops fit enamelled steel shades, signs and fittings that are hard, bright and easy to wash. | [`industrial-utility-product`](./industrial-utility-product/SKILL.md) |
+| 1 | Fashion | c. 1890 | +40 years | Craft jewellers fuse coloured glass to silver and copper in small, hand-made jewels. | [`arts-and-crafts-jewellery`](./arts-and-crafts-jewellery/SKILL.md) |
+| 2 | Fashion | 1900 | +50 years | Jewellers fuse translucent enamel on gold in the Art Nouveau jewel, at times with no metal backing. | [`art-nouveau-jewellery`](./art-nouveau-jewellery/SKILL.md) |
+| 3 | Industrial design | c. 1910 | +60 years | Factories and workshops fit enamelled steel shades, signs and fittings that are hard, bright and easy to wash. | [`industrial-utility-product`](./industrial-utility-product/SKILL.md) |
+| 4 | Fashion | 1925 | +75 years | Jewellers fire enamel on guilloché metal for vanity cases and evening bags in the Art Deco style. | [`art-deco-evening-accessory`](./art-deco-evening-accessory/SKILL.md) |
 
-Used by: [`industrial-utility-product`](./industrial-utility-product/SKILL.md).
+Used by: [`industrial-utility-product`](./industrial-utility-product/SKILL.md), [`arts-and-crafts-jewellery`](./arts-and-crafts-jewellery/SKILL.md), [`art-nouveau-jewellery`](./art-nouveau-jewellery/SKILL.md), [`art-deco-evening-accessory`](./art-deco-evening-accessory/SKILL.md).
 
 - Clean the metal and coat it with a ground layer of glass powder and water.
 - Fire the part at 760 to 840 °C until the glass melts into one skin.
@@ -752,6 +929,64 @@ Used by: [`industrial-utility-product`](./industrial-utility-product/SKILL.md).
 Sources: [Wikipedia: Vitreous enamel](https://en.wikipedia.org/wiki/Vitreous_enamel).
 
 ## Process
+
+### Automotive clay modelling
+
+A designer shapes a full-size car in warm industrial clay over a frame. The clay is cut, smoothed and checked in light before any metal is made.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1930 | — | Detroit, United States: Harley Earl's styling section at General Motors uses clay to shape cars before the steel is cut. | |
+| 1 | Fashion | 1948 | +18 years | The fin and the wrap-around glass are first judged in clay. | [`tailfin-era-car`](./tailfin-era-car/SKILL.md) |
+| 2 | Fashion | 1964 | +34 years | Stylists check the long bonnet and the short deck in clay at full size. | [`muscle-and-pony-car`](./muscle-and-pony-car/SKILL.md) |
+| 3 | Fashion | 1968 | +38 years | Designers cut the flat planes and the sharp crease of the wedge in clay. | [`wedge-design-car`](./wedge-design-car/SKILL.md) |
+| 4 | Fashion | 1990 | +60 years | Designers model round, soft forms in clay for the small city car. | [`biodesign-car`](./biodesign-car/SKILL.md) |
+| 5 | Fashion | 1997 | +67 years | Designers copy the old forms in clay and then scale them up. | [`retro-revival-car`](./retro-revival-car/SKILL.md) |
+
+Used by: [`tailfin-era-car`](./tailfin-era-car/SKILL.md), [`muscle-and-pony-car`](./muscle-and-pony-car/SKILL.md), [`wedge-design-car`](./wedge-design-car/SKILL.md), [`biodesign-car`](./biodesign-car/SKILL.md), [`retro-revival-car`](./retro-revival-car/SKILL.md).
+
+- Build a wood and foam frame in the size of the car.
+- Warm the clay and press it onto the frame, then cut it with rakes and scrapers.
+- Check the highlights in light and measure the form for the dies.
+
+Sources: [Wikipedia: Industrial clay](https://en.wikipedia.org/wiki/Industrial_clay); [Wikipedia: Harley Earl](https://en.wikipedia.org/wiki/Harley_Earl).
+
+### Box-baffle quilt
+
+A quilt with a wall of cloth between the two faces of each cell. Loose down stays in its place and gives even warmth.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1936 | — | Seattle, Washington: Eddie Bauer makes the first quilted goose-down jacket after a near-fatal trip in the cold. | |
+| 1 | Fashion | 1936 | +0 years | The Eddie Bauer shop sells the first quilted goose-down jacket. | [`quilted-down-outerwear`](./quilted-down-outerwear/SKILL.md) |
+
+Used by: [`quilted-down-outerwear`](./quilted-down-outerwear/SKILL.md).
+
+- Sew strips of cloth between the outer shell and the inner layer to form cells.
+- Blow a measured weight of down into each cell.
+- Close each cell and sew a bar tack at the end of each row.
+
+Sources: [Wikipedia: Down jacket](https://en.wikipedia.org/wiki/Down_jacket); [Wikipedia: Eddie Bauer](https://en.wikipedia.org/wiki/Eddie_Bauer).
+
+### Boning
+
+A way to stiffen a bodice with thin strips of whalebone, cane or steel set in narrow channels, so that the cloth holds the shape of the torso.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1550 | — | Europe: Boned bodices of linen and whalebone appear at the courts of Europe. | |
+| 1 | Fashion | 1700 | +150 years | Stay-makers cut linen stays with whalebone strips in sewn channels and shaped them into a cone. | [`whalebone-stays`](./whalebone-stays/SKILL.md) |
+| 2 | Fashion | 1850 | +300 years | Steel boning became popular and gave the corset a bone that springs back. | [`victorian-corsetry`](./victorian-corsetry/SKILL.md) |
+| 3 | Fashion | 1984 | +434 years | Designers put the boned bodice on the street as a top and a dress. | [`underwear-as-outerwear`](./underwear-as-outerwear/SKILL.md) |
+
+Used by: [`whalebone-stays`](./whalebone-stays/SKILL.md), [`victorian-corsetry`](./victorian-corsetry/SKILL.md), [`underwear-as-outerwear`](./underwear-as-outerwear/SKILL.md).
+
+- Sew two or three layers of strong cloth together.
+- Stitch narrow channels, 6 to 10 mm wide, from the waist to the chest.
+- Push one strip of bone or steel into each channel and close the end.
+- Bind each edge of the garment in leather or tape.
+
+Sources: [Wikipedia: Stays (clothing)](https://en.wikipedia.org/wiki/Stays_(clothing)); [Wikipedia: Corset](https://en.wikipedia.org/wiki/Corset).
 
 ### Cantilever
 
@@ -799,6 +1034,28 @@ Used by: [`baroque-painting`](./baroque-painting/SKILL.md), [`german-expressioni
 - Cut hard shapes into the light with blinds, grilles or foliage so that the shadow becomes a pattern.
 
 Sources: [Wikipedia: Chiaroscuro](https://en.wikipedia.org/wiki/Chiaroscuro); David Bordwell and Kristin Thompson, Film Art: An Introduction (McGraw-Hill).
+
+### Chrome plating
+
+A thin layer of chromium is put on steel by electrolysis. The layer gives a hard, bright surface that does not tarnish.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1924 | — | New York, United States: Colin Fink and Charles Eldridge at Columbia University develop the bath that makes bright chromium coats. | |
+| 1 | Fashion | c. 1926 | +2 years | Chrome plate gives costume jewels a bright, cheap, white-metal shine. | [`costume-jewellery`](./costume-jewellery/SKILL.md) |
+| 2 | Fashion | 1928 | +4 years | Chrome replaces nickel on the radiator shell and the lamps of the grand car. | [`vintage-coachbuilt-car`](./vintage-coachbuilt-car/SKILL.md) |
+| 3 | Fashion | 1933 | +9 years | Chrome strips follow the flow of the body. | [`streamline-car`](./streamline-car/SKILL.md) |
+| 4 | Fashion | 1948 | +24 years | Bumpers, grilles and fins carry large amounts of chrome. | [`tailfin-era-car`](./tailfin-era-car/SKILL.md) |
+| 5 | Fashion | 1964 | +40 years | Chrome stays on the grille and the bumper of the muscle car. | [`muscle-and-pony-car`](./muscle-and-pony-car/SKILL.md) |
+| 6 | Fashion | 1997 | +73 years | Chrome returns on revived models as a sign of the past. | [`retro-revival-car`](./retro-revival-car/SKILL.md) |
+
+Used by: [`vintage-coachbuilt-car`](./vintage-coachbuilt-car/SKILL.md), [`streamline-car`](./streamline-car/SKILL.md), [`tailfin-era-car`](./tailfin-era-car/SKILL.md), [`muscle-and-pony-car`](./muscle-and-pony-car/SKILL.md), [`retro-revival-car`](./retro-revival-car/SKILL.md), [`costume-jewellery`](./costume-jewellery/SKILL.md).
+
+- Clean the steel part and plate it with copper and nickel.
+- Put the part in a chromic acid bath and pass a current through it.
+- Buff the part to a mirror finish.
+
+Sources: [Wikipedia: Chromium plating](https://en.wikipedia.org/wiki/Chromium_plating).
 
 ### Chronophotography
 
@@ -882,6 +1139,23 @@ Used by: [`outline-icon`](./outline-icon/SKILL.md), [`material-symbols-icon`](./
 
 Sources: Albrecht Duerer, Underweysung der Messung (Nuremberg, 1525); [Google, Material Design system icons guidelines (2014)](https://m3.material.io/styles/icons/overview).
 
+### Copper rivet reinforcement
+
+A small copper rivet set at a point of strain, such as a pocket corner or the base of a fly. The seam does not tear.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1873 | — | Reno, Nevada: Jacob Davis rivets the pocket corners of work trousers, and the patent that he shares with Levi Strauss follows on 20 May 1873. | |
+| 1 | Fashion | 1873 | +0 years | The factory of Levi Strauss in San Francisco makes the riveted waist overall in denim and duck. | [`americana-workwear`](./americana-workwear/SKILL.md) |
+
+Used by: [`americana-workwear`](./americana-workwear/SKILL.md).
+
+- Find the seam that tears first under load, such as the corner of a pocket.
+- Punch a hole through both layers of cloth at the end of the seam.
+- Set a copper rivet through the hole and close it with a die.
+
+Sources: [Wikipedia: Jeans](https://en.wikipedia.org/wiki/Jeans); [Wikipedia: Rivet](https://en.wikipedia.org/wiki/Rivet).
+
 ### Dual soft shadow
 
 A light shadow on one side and a dark shadow on the other, on a ground of the same colour, so that a shape seems pressed out of the surface.
@@ -959,6 +1233,23 @@ Used by: [`high-tech-architecture`](./high-tech-architecture/SKILL.md), [`indust
 
 Sources: Kenneth Powell, Richard Rogers: Complete Works (1999).
 
+### Figured silk weaving
+
+The weaving of patterns into silk cloth on a draw loom, so that flowers and ribbons appear in the weave of the cloth.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1536 | — | Lyon, France: The silk trade of Lyon grows from the royal privilege that Francis I gives to the city in 1536. | |
+| 1 | Fashion | c. 1730 | +194 years | Lyon mills weave light flower brocades for the Rococo gowns of the French court. | [`rococo-court-dress`](./rococo-court-dress/SKILL.md) |
+
+Used by: [`rococo-court-dress`](./rococo-court-dress/SKILL.md).
+
+- Set up the loom with a pattern of cords that lift the warp threads in a set order.
+- Weave the ground in satin or taffeta, and float the coloured or gold weft to make the pattern.
+- Press the cloth and cut it with the pattern in scale with the gown.
+
+Sources: [Wikipedia: Brocade](https://en.wikipedia.org/wiki/Brocade); [Wikipedia: Canut](https://en.wikipedia.org/wiki/Canut).
+
 ### Fixed-pitch grid
 
 Every character takes one cell of the same width, so text forms columns without a separate grid and a position is a count of characters.
@@ -977,6 +1268,74 @@ Used by: [`monospace`](./monospace/SKILL.md), [`terminal-tui-web`](./terminal-tu
 - On a screen, size the layout in cells: 80 columns by 24 rows is the classic terminal.
 
 Sources: [Monospaced font (Wikipedia)](https://en.wikipedia.org/wiki/Monospaced_font); [Sholes and Glidden typewriter (Wikipedia)](https://en.wikipedia.org/wiki/Sholes_and_Glidden_typewriter); [VT100 (Wikipedia)](https://en.wikipedia.org/wiki/VT100).
+
+### Fully fashioned knitting
+
+A way to knit each part of a garment to shape, and then to join the parts by linking stitch to stitch, so that the seam is flat.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1864 | — | Loughborough, England: William Cotton patents a frame that knits panels to shape with the stitches fashioned on the edge. | |
+| 1 | Fashion | 2006 | +142 years | Cashmere houses such as Brunello Cucinelli link fully fashioned panels by hand, so that the fine knit has flat seams. | [`quiet-luxury-fashion`](./quiet-luxury-fashion/SKILL.md) |
+
+Used by: [`quiet-luxury-fashion`](./quiet-luxury-fashion/SKILL.md).
+
+- Knit each panel to its final shape, with the shaping marked by decreases on the edge.
+- Join the panels by linking stitch to stitch on a linking machine or by hand.
+- Wash and block the piece so that the seams lie flat.
+
+Sources: [Wikipedia: William Cotton (inventor)](https://en.wikipedia.org/wiki/William_Cotton_(inventor)); [Wikipedia: Knitting machine](https://en.wikipedia.org/wiki/Knitting_machine).
+
+### Garment dyeing
+
+A garment is dyed after it is sewn, in a drum. Cloth, thread and tape take one colour and each piece differs a little.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1980 | — | Italy: Massimo Osti dyes made-up garments in a drum for his labels. | |
+| 1 | Fashion | 2002 | +22 years | Techwear labels dye the whole shell and trouser black, so that the cloth, the thread and the tape match. | [`techwear`](./techwear/SKILL.md) |
+
+Used by: [`techwear`](./techwear/SKILL.md).
+
+- Sew the garment from undyed cloth and thread that takes dye.
+- Tumble the garment in a drum of dye and water.
+- Rinse, dry and finish the garment, and check the colour.
+
+Sources: [Wikipedia: Massimo Osti](https://en.wikipedia.org/wiki/Massimo_Osti); [Wikipedia: Stone Island](https://en.wikipedia.org/wiki/Stone_Island_(brand)).
+
+### Garment pleating
+
+A way to pleat cloth after the garment is cut and sewn, with a heat press, so that the pleats stay for good.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1988 | — | Tokyo, Japan: Issey Miyake begins to work on garment pleating, a process that keeps the pleats of polyester fixed after the cut. | |
+| 1 | Fashion | 1993 | +5 years | The Pleats Please line of Issey Miyake sells heat-set pleated polyester dresses and tops. | [`japanese-avant-garde-fashion`](./japanese-avant-garde-fashion/SKILL.md) |
+
+Used by: [`japanese-avant-garde-fashion`](./japanese-avant-garde-fashion/SKILL.md).
+
+- Cut and sew the garment in a size that is larger than the finished piece.
+- Fold the garment into pleats between sheets of paper.
+- Press the folds in a heat press, so that the polyester holds them.
+
+Sources: [Wikipedia: Issey Miyake](https://en.wikipedia.org/wiki/Issey_Miyake); [Wikipedia: Pleat](https://en.wikipedia.org/wiki/Pleat).
+
+### Glass-fibre moulding
+
+Glass-fibre mat is laid in a mould and wet with resin. The resin sets and leaves a light, rust-free shell.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1936 | — | Newark, United States: Owens-Corning makes glass fibre in quantity, and the first glass-fibre shells follow in the 1940s. | |
+| 1 | Fashion | 1976 | +40 years | Makers mould the sharp wedge body in glass fibre for short runs. | [`wedge-design-car`](./wedge-design-car/SKILL.md) |
+
+Used by: [`wedge-design-car`](./wedge-design-car/SKILL.md).
+
+- Coat the mould with wax and gel coat.
+- Lay mat in the mould and wet it with resin.
+- Let the resin set, then lift the shell and trim it.
+
+Sources: [Wikipedia: Fiberglass](https://en.wikipedia.org/wiki/Fiberglass); [Wikipedia: Fibre-reinforced plastic](https://en.wikipedia.org/wiki/Fiber-reinforced_plastic).
 
 ### Glitch
 
@@ -997,6 +1356,24 @@ Used by: [`cyberpunk-web`](./cyberpunk-web/SKILL.md), [`vaporwave`](./vaporwave/
 - Do not apply it to body text.
 
 Sources: [Wikipedia, Glitch art](https://en.wikipedia.org/wiki/Glitch_art); [Wikipedia, Nam June Paik](https://en.wikipedia.org/wiki/Nam_June_Paik).
+
+### Goodyear welting
+
+A way to sew a strip of leather, the welt, to the upper and the insole rib, and then to stitch the sole to the welt.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1869 | — | United States: Charles Goodyear Jr. builds a machine that sews the welt. | |
+| 1 | Fashion | 1871 | +2 years | English makers in Northampton take the machine, and it sets the standard of the welted dress shoe. | [`english-welted-dress-shoe`](./english-welted-dress-shoe/SKILL.md) |
+| 2 | Fashion | 1960 | +91 years | The eight-eye workboot uses a welted sole with a yellow thread. | [`subculture-workboot`](./subculture-workboot/SKILL.md) |
+
+Used by: [`english-welted-dress-shoe`](./english-welted-dress-shoe/SKILL.md), [`subculture-workboot`](./subculture-workboot/SKILL.md).
+
+- Sew the welt to the upper and to the rib of the insole.
+- Fill the gap under the insole with cork.
+- Stitch the outsole to the welt, so that a cobbler can replace it.
+
+Sources: [Wikipedia: Goodyear welt](https://en.wikipedia.org/wiki/Goodyear_welt); [Wikipedia: Shoe](https://en.wikipedia.org/wiki/Shoe).
 
 ### Grid transfer
 
@@ -1036,6 +1413,61 @@ Used by: [`pop-art-web`](./pop-art-web/SKILL.md), [`punk-zine`](./punk-zine/SKIL
 - Turn each colour screen to its own angle: cyan 15°, magenta 75°, yellow 0°, black 45°.
 
 Sources: Roy Lichtenstein, Look Mickey (1961).
+
+### Hat blocking
+
+A milliner steams a felt or straw hat body and pulls it over a carved wooden block, so that it dries in the shape of the crown and the brim.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1800 | — | England: Hatters block felt on carved wood blocks long before the Victorian trade; the method scales up with the many hat shapes of the 19th century. | |
+| 1 | Fashion | 1840 | +40 years | Victorian milliners block felt and straw bodies for each season's bonnet and hat shape. | [`victorian-millinery`](./victorian-millinery/SKILL.md) |
+
+Used by: [`victorian-millinery`](./victorian-millinery/SKILL.md).
+
+- Soften the hat body with steam or hot water.
+- Pull the body down over the block and tie it at the crown line with a cord.
+- Dry it on the block, then trim the brim edge and sew in the lining.
+
+Sources: [Wikipedia: Millinery](https://en.wikipedia.org/wiki/Millinery); [Wikipedia: Felt](https://en.wikipedia.org/wiki/Felt).
+
+### Injection moulding
+
+Hot plastic is pushed into a steel mould under high pressure. The part cools, and the mould opens to release it.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1872 | — | Newark, United States: John Wesley Hyatt patents a machine that presses hot celluloid into a mould. | |
+| 1 | Fashion | 1964 | +92 years | Moulded plastic forms the dashboard and the trim of the pony car. | [`muscle-and-pony-car`](./muscle-and-pony-car/SKILL.md) |
+| 2 | Fashion | 1968 | +96 years | Moulded plastic forms the dashboard and the black trim of the wedge. | [`wedge-design-car`](./wedge-design-car/SKILL.md) |
+| 3 | Fashion | 1983 | +111 years | The Swatch case and strap are moulded in plastic, so that the factory needs few parts and little hand work. | [`swiss-plastic-pop-watch`](./swiss-plastic-pop-watch/SKILL.md) |
+| 4 | Fashion | 1990 | +118 years | Large bumpers and panels are moulded in one piece and painted in the body colour. | [`biodesign-car`](./biodesign-car/SKILL.md) |
+| 5 | Fashion | 2012 | +140 years | Moulded plastic forms the smooth dash and the door cards. | [`electric-minimal-car`](./electric-minimal-car/SKILL.md) |
+
+Used by: [`muscle-and-pony-car`](./muscle-and-pony-car/SKILL.md), [`wedge-design-car`](./wedge-design-car/SKILL.md), [`biodesign-car`](./biodesign-car/SKILL.md), [`electric-minimal-car`](./electric-minimal-car/SKILL.md), [`swiss-plastic-pop-watch`](./swiss-plastic-pop-watch/SKILL.md).
+
+- Melt the plastic pellets in a heated barrel.
+- Press the melt into the closed mould.
+- Cool the part, open the mould and push the part out.
+
+Sources: [Wikipedia: Injection moulding](https://en.wikipedia.org/wiki/Injection_moulding).
+
+### Interchangeable parts watchmaking
+
+A factory method in which machines cut every part to a gauge, so that a part from one watch fits any other watch of the same model.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1850 | — | Roxbury, Massachusetts: The Boston Watch Company builds a factory for machine-made watches. | |
+| 1 | Fashion | 1850 | +0 years | The Waltham firm makes watches with machine-cut parts and sells them at a price that railroad workers can pay. | [`american-pocket-watch`](./american-pocket-watch/SKILL.md) |
+
+Used by: [`american-pocket-watch`](./american-pocket-watch/SKILL.md).
+
+- Cut each part on a machine to a gauge of 0.01 mm.
+- Sort the parts into bins by model, not by watch.
+- Assemble the watch from parts that the worker does not file or fit.
+
+Sources: [Wikipedia: Waltham Watch Company](https://en.wikipedia.org/wiki/Waltham_Watch_Company); [Wikipedia: American system of manufacturing](https://en.wikipedia.org/wiki/American_system_of_manufacturing).
 
 ### Isometric projection
 
@@ -1100,6 +1532,23 @@ Used by: [`transitional-serif`](./transitional-serif/SKILL.md), [`didone-serif`]
 
 Sources: Alexander Lawson, Anatomy of a Typeface (Godine, 1990).
 
+### Linked disc assembly
+
+A dress made of plastic or metal discs that small rings link together, with no cloth and no thread.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1966 | — | Paris, France: Paco Rabanne shows 12 Unwearable Dresses in Contemporary Materials, made of plastic discs and metal rings. | |
+| 1 | Fashion | 1966 | +0 years | Paco Rabanne links plastic and aluminium discs into short dresses, and the Space Age couture takes metal as a cloth. | [`space-age-couture`](./space-age-couture/SKILL.md) |
+
+Used by: [`space-age-couture`](./space-age-couture/SKILL.md).
+
+- Cut or stamp discs of plastic or metal, 5 to 8 cm across, each with holes.
+- Join each disc to its neighbours with small metal rings, using pliers.
+- Shape the sheet to the body with a few darts of rings, and add a plain lining at the neck and the armhole.
+
+Sources: [Wikipedia: Paco Rabanne](https://en.wikipedia.org/wiki/Paco_Rabanne); [Wikipedia: Space Age fashion](https://en.wikipedia.org/wiki/Space_Age_fashion).
+
 ### Lithography
 
 A print from a flat stone or plate on which a greasy drawing takes ink and water repels it; the artist draws as on paper.
@@ -1121,6 +1570,24 @@ Used by: [`symbolism-painting`](./symbolism-painting/SKILL.md), [`art-nouveau-we
 - Keep the soft crayon grain and the dark, velvet black.
 
 Sources: [Wikipedia: Lithography](https://en.wikipedia.org/wiki/Lithography); Odilon Redon, Dans le rêve (1879).
+
+### Lost-wax casting
+
+A method that melts a wax model out of a mould and fills the empty space with molten metal.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Industrial design | c. 4000 BCE | — | Near East and South Asia: Metalworkers cast small copper objects from a wax model. | |
+| 1 | Fashion | c. 1945 | +5945 years | Studio jewellers cast silver and gold from their own wax models, in runs of a few pieces. | [`modernist-studio-jewellery`](./modernist-studio-jewellery/SKILL.md) |
+| 2 | Fashion | c. 1965 | +5965 years | London jewellers cast gold from rough models, so that the surface looks like rock or bark. | [`brutalist-jewellery`](./brutalist-jewellery/SKILL.md) |
+
+Used by: [`brutalist-jewellery`](./brutalist-jewellery/SKILL.md), [`modernist-studio-jewellery`](./modernist-studio-jewellery/SKILL.md).
+
+- Carve or form the model in wax.
+- Cover the model with clay and bake it, so that the wax melts out.
+- Pour molten metal into the empty mould and break the mould.
+
+Sources: [Wikipedia: Lost-wax casting](https://en.wikipedia.org/wiki/Lost-wax_casting).
 
 ### Mesh gradient
 
@@ -1243,6 +1710,41 @@ Used by: [`pixel-icon`](./pixel-icon/SKILL.md), [`pixel-art-web`](./pixel-art-we
 
 Sources: Susan Kare, Mac icon and font work (Apple Macintosh, 1984); Zuzana Licko, Emigre bitmap typefaces (Emigre, 1985).
 
+### Platform sole
+
+A sole that is raised under the whole foot by layers of cork, wood or foam, and that is covered in leather or cloth.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1936 | — | Florence, Italy: Salvatore Ferragamo makes wedge soles of cork when leather is scarce. | |
+| 1 | Fashion | 1970 | +34 years | Glam rock musicians and makers raise the platform to 10 cm and cover it in bright colours. | [`glam-platform-shoe`](./glam-platform-shoe/SKILL.md) |
+
+Used by: [`glam-platform-shoe`](./glam-platform-shoe/SKILL.md).
+
+- Build the sole in layers of cork, wood or foam, 5 to 10 cm thick.
+- Cover the edge of the layers in leather, cloth or vinyl.
+- Fit a wide heel that sits 2 to 4 cm higher than the platform.
+
+Sources: [Wikipedia: Platform shoe](https://en.wikipedia.org/wiki/Platform_shoe).
+
+### Platinum mounting
+
+A frame of platinum, a metal strong enough to hold stones with thin lines, so that the metal nearly disappears.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1900 | — | Paris, France: Paris jewellers mount diamonds in platinum, which is stronger than silver and does not tarnish. | |
+| 1 | Fashion | c. 1905 | +5 years | Cartier and other Paris houses make lace-like garlands and tiaras in platinum and diamond. | [`garland-style-jewellery`](./garland-style-jewellery/SKILL.md) |
+| 2 | Fashion | 1925 | +25 years | Platinum frames hold baguette diamonds and onyx in hard, flat geometric jewels. | [`art-deco-jewellery`](./art-deco-jewellery/SKILL.md) |
+
+Used by: [`art-deco-jewellery`](./art-deco-jewellery/SKILL.md), [`garland-style-jewellery`](./garland-style-jewellery/SKILL.md).
+
+- Draw the frame with thin, open lines.
+- Saw and file the platinum and join the parts with a torch.
+- Set each stone in fine claws and add a milgrained edge.
+
+Sources: [Wikipedia: Platinum](https://en.wikipedia.org/wiki/Platinum); [Wikipedia: Cartier (jeweler)](https://en.wikipedia.org/wiki/Cartier_(jeweler)).
+
 ### Plein air
 
 Work made outside in front of the subject, in the light of the place and the hour.
@@ -1306,8 +1808,11 @@ Ink pushed through a fine mesh with a squeegee; a stencil on the mesh blocks the
 | 1 | Print | 1962 | +55 years | Andy Warhol starts to make photographic silkscreens in his studio and prints portraits in flat, loud colour. | [`pop-screen-print`](./pop-screen-print/SKILL.md) |
 | 2 | Painting | 1962 | +55 years | Warhol and Rauschenberg pull photo screens onto painted canvas. | [`pop-art-painting`](./pop-art-painting/SKILL.md) |
 | 3 | Graphic & UI Design | c. 1965 | +58 years | Poster studios screen print posters in flat, bright colours for clubs and protests. | [`pop-art-web`](./pop-art-web/SKILL.md) |
+| 4 | Fashion | 1976 | +69 years | The King's Road shop screen prints slogans and images on plain cotton T-shirts for the London punk scene. | [`punk-fashion`](./punk-fashion/SKILL.md) |
+| 5 | Fashion | 1980 | +73 years | Surf and skate labels screen print a name or a mark on the chest of a plain T-shirt and sell it in small runs. | [`streetwear`](./streetwear/SKILL.md) |
+| 6 | Fashion | 1985 | +78 years | Dapper Dan prints luxury logos on leather with a silk-screen press and makes jackets and bags of it. | [`logomania`](./logomania/SKILL.md) |
 
-Used by: [`pop-screen-print`](./pop-screen-print/SKILL.md), [`pop-art-painting`](./pop-art-painting/SKILL.md), [`pop-art-web`](./pop-art-web/SKILL.md).
+Used by: [`pop-screen-print`](./pop-screen-print/SKILL.md), [`pop-art-painting`](./pop-art-painting/SKILL.md), [`pop-art-web`](./pop-art-web/SKILL.md), [`punk-fashion`](./punk-fashion/SKILL.md), [`streetwear`](./streetwear/SKILL.md), [`logomania`](./logomania/SKILL.md).
 
 - Stretch a silk or polyester mesh of 40–120 threads a centimetre on a frame.
 - Make the stencil by hand cut film or by a photo emulsion exposed through a film positive.
@@ -1356,6 +1861,43 @@ Used by: [`adaptive-reuse-architecture`](./adaptive-reuse-architecture/SKILL.md)
 - Use it where new meets old: between a wall and a ceiling, a floor and a skirting, or a new insert and a historic wall.
 
 Sources: [Wikipedia, Castelvecchio Museum](https://en.wikipedia.org/wiki/Castelvecchio_Museum).
+
+### Sheet-metal pressing
+
+A press forms a flat steel sheet into a body panel in one stroke. The panels are then welded into a body.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1914 | — | Philadelphia, United States: Budd makes the first all-steel car body in a press for Dodge. | |
+| 1 | Fashion | 1933 | +19 years | Large presses form the wings and the roof of a streamlined body in single panels. | [`streamline-car`](./streamline-car/SKILL.md) |
+| 2 | Fashion | 1948 | +34 years | Presses form deep panels, and the fin is a pressed shape welded to the rear wing. | [`tailfin-era-car`](./tailfin-era-car/SKILL.md) |
+| 3 | Fashion | 1964 | +50 years | Presses make the long bonnet and the short deck of the Mustang in large numbers. | [`muscle-and-pony-car`](./muscle-and-pony-car/SKILL.md) |
+| 4 | Fashion | 1990 | +76 years | Deep draws give the round, joined body of the small one-box car. | [`biodesign-car`](./biodesign-car/SKILL.md) |
+
+Used by: [`streamline-car`](./streamline-car/SKILL.md), [`tailfin-era-car`](./tailfin-era-car/SKILL.md), [`muscle-and-pony-car`](./muscle-and-pony-car/SKILL.md), [`biodesign-car`](./biodesign-car/SKILL.md).
+
+- Cut the steel sheet to size and load it into the die.
+- Close the press so that the sheet takes the shape of the die.
+- Weld the panels into one shell and grind the seams smooth.
+
+Sources: [Wikipedia: Edward G. Budd](https://en.wikipedia.org/wiki/Edward_G._Budd); [Wikipedia: Sheet metal](https://en.wikipedia.org/wiki/Sheet_metal).
+
+### Shoulder padding
+
+A pad of wadding or foam that is set in the sleeve head of a jacket or a blouse, so that the shoulder line is wider and square.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1930 | — | Paris, France, and Hollywood, United States: Elsa Schiaparelli and Hollywood costume designers build wide padded shoulders into women's jackets in the 1930s. | |
+| 1 | Fashion | 1980 | +50 years | Armani and the houses of Milan and New York cut the padded shoulder into the working woman's suit. | [`power-dressing`](./power-dressing/SKILL.md) |
+
+Used by: [`power-dressing`](./power-dressing/SKILL.md).
+
+- Cut a pad of wadding or foam, 1 to 2 cm thick, to the shape of the shoulder.
+- Sew the pad into the sleeve head between the lining and the cloth.
+- Press the shoulder so that the line is square and level.
+
+Sources: [Wikipedia: Shoulder pad](https://en.wikipedia.org/wiki/Shoulder_pad_(fashion)); [Wikipedia: Power dressing](https://en.wikipedia.org/wiki/Power_dressing).
 
 ### Sketch line
 
@@ -1410,6 +1952,23 @@ Used by: [`classical-hollywood`](./classical-hollywood/SKILL.md), [`fashion-edit
 
 Sources: Kristin Thompson, David Bordwell and Janet Staiger, The Classical Hollywood Cinema (1985).
 
+### Tie-dye
+
+A way to colour cloth in which parts are tied, folded or bound before the dye bath, so that the bound parts resist the dye.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 750 | — | Nara, Japan: Cloth with tied resist patterns, known as shibori, survives from Japan of the eighth century. | |
+| 1 | Fashion | 1966 | +1216 years | American counterculture makers dye T-shirts and skirts at home, and wear them at concerts and festivals. | [`hippie-bohemian-dress`](./hippie-bohemian-dress/SKILL.md) |
+
+Used by: [`hippie-bohemian-dress`](./hippie-bohemian-dress/SKILL.md).
+
+- Fold, twist or gather the wet cloth, and bind it with string or rubber bands.
+- Soak the cloth in a dye bath, or apply dye to each section.
+- Rinse, untie and dry the cloth; each piece shows a different pattern.
+
+Sources: [Wikipedia: Tie-dye](https://en.wikipedia.org/wiki/Tie-dye); [Wikipedia: Shibori](https://en.wikipedia.org/wiki/Shibori).
+
 ### Trompe-l'oeil
 
 Painted perspective that continues the real room, so that a flat wall or ceiling seems to open into space.
@@ -1427,6 +1986,58 @@ Used by: [`renaissance-painting`](./renaissance-painting/SKILL.md), [`mannerism-
 - Paint the sky or the open part with the lightest value; keep the painted frame at the value of the real stone.
 
 Sources: Martin Kemp, The Science of Art (1990); Andrea Pozzo, Perspectiva pictorum et architectorum (1693).
+
+### Tweed weaving
+
+A rough woollen twill, woven from yarn that is dyed in the wool. A check or a heather mix that comes from the fleck of colours.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1830 | — | Scottish Borders: Mills of the Borders weave the woollen twill, and a London merchant reads the name 'tweel' as 'tweed'. | |
+| 1 | Fashion | 1860 | +30 years | Highland estates order district checks in tweed for the keeper and the guest, and tailors cut sporting jackets from them. | [`country-sporting-tweed`](./country-sporting-tweed/SKILL.md) |
+
+Used by: [`country-sporting-tweed`](./country-sporting-tweed/SKILL.md).
+
+- Dye the wool in the fleece in several heather colours and blend the colours in the card.
+- Spin a coarse woollen yarn and weave it in a 2/2 twill on a loom.
+- Full and finish the cloth in water, so that it shrinks, thickens and sheds rain.
+
+Sources: [Wikipedia: Tweed (cloth)](https://en.wikipedia.org/wiki/Tweed_(cloth)); [Wikipedia: Harris Tweed](https://en.wikipedia.org/wiki/Harris_Tweed).
+
+### Waffle sole
+
+A rubber sole moulded in a grid of small studs, which grip the ground and weigh little.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1971 | — | Eugene, Oregon: Bill Bowerman pours rubber into his wife's waffle iron to make a light, grippy sole. | |
+| 1 | Fashion | 1972 | +1 years | The waffle racing flat is the first running shoe that grips a track and a road in the same way. | [`performance-running-shoe`](./performance-running-shoe/SKILL.md) |
+
+Used by: [`performance-running-shoe`](./performance-running-shoe/SKILL.md).
+
+- Mould the rubber in a grid of studs, 3 to 5 mm high.
+- Bond the sole to a foam midsole.
+- Place the studs in a square grid.
+
+Sources: [Wikipedia: Bill Bowerman](https://en.wikipedia.org/wiki/Bill_Bowerman); [Wikipedia: Running shoe](https://en.wikipedia.org/wiki/Running_shoe).
+
+### Wax proofing
+
+A dressing of oil or wax worked into a dense cloth so that it sheds water; the owner renews it each year.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1800 | — | North Sea coasts: Sailors and fishermen soak canvas in linseed oil to make it shed water. | |
+| 1 | Fashion | c. 1920 | +120 years | Scottish makers dress cotton with paraffin wax, which does not stiffen in the cold, for the country jacket. | [`country-sporting-tweed`](./country-sporting-tweed/SKILL.md) |
+| 2 | Fashion | 1968 | +168 years | A Swedish maker of outdoor kit waxes poly-cotton twill for the Nordic field jacket. | [`nordic-functional-outdoor`](./nordic-functional-outdoor/SKILL.md) |
+
+Used by: [`country-sporting-tweed`](./country-sporting-tweed/SKILL.md), [`nordic-functional-outdoor`](./nordic-functional-outdoor/SKILL.md).
+
+- Warm the wax blend until it is liquid.
+- Work the wax into the cloth by hand or by machine, and press it into the seams.
+- Let the cloth cure, and renew the wax when water no longer beads on the face.
+
+Sources: [Wikipedia: Waxed cotton](https://en.wikipedia.org/wiki/Waxed_cotton); [Wikipedia: Oilskin](https://en.wikipedia.org/wiki/Oilskin).
 
 ### Wire work
 
@@ -1487,6 +2098,24 @@ Used by: [`ukiyo-e`](./ukiyo-e/SKILL.md), [`post-impressionism`](./post-impressi
 - Keep the shapes flat, with no more than 3 to 6 tones in a print.
 
 Sources: [British Library: The Diamond Sutra](https://www.bl.uk/collection-items/diamond-sutra); [Wikipedia: Woodcut](https://en.wikipedia.org/wiki/Woodcut).
+
+### Yarn proofing
+
+A rain cloth made from yarn that is proofed before it is woven, so that the cloth sheds water and the body can still breathe.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1879 | — | Basingstoke, England: Thomas Burberry makes gabardine from proofed yarn. | |
+| 1 | Fashion | 1914 | +35 years | Burberry cuts the gabardine into the officer's trench coat for the War Office. | [`trench-and-field-military`](./trench-and-field-military/SKILL.md) |
+| 2 | Fashion | 1924 | +45 years | Burberry supplies windproof gabardine smocks to the Everest party. | [`early-mountaineering`](./early-mountaineering/SKILL.md) |
+
+Used by: [`trench-and-field-military`](./trench-and-field-military/SKILL.md), [`early-mountaineering`](./early-mountaineering/SKILL.md).
+
+- Proof the cotton or wool yarn with a water-repellent finish before the weave.
+- Weave the yarn in a steep, tight twill.
+- Dye the cloth in khaki or stone, and cut it into a coat.
+
+Sources: [Wikipedia: Gabardine](https://en.wikipedia.org/wiki/Gabardine); [Wikipedia: Thomas Burberry](https://en.wikipedia.org/wiki/Thomas_Burberry).
 
 ## Tool
 
@@ -1549,6 +2178,23 @@ Used by: [`blackletter`](./blackletter/SKILL.md), [`garalde-old-style`](./garald
 - Let the thin parts fall on the diagonal of the nib angle, so the o has its thinnest points at about 11 and 5 o'clock.
 
 Sources: [Blackletter (Wikipedia)](https://en.wikipedia.org/wiki/Blackletter); [Calligraphy (Wikipedia)](https://en.wikipedia.org/wiki/Calligraphy); [Edward Johnston (Wikipedia)](https://en.wikipedia.org/wiki/Edward_Johnston).
+
+### Button-down collar
+
+A shirt collar whose points button to the body of the shirt, so that the collar stays down and rolls in a soft curve.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1896 | — | New York, United States: John Brooks sees English polo players pin their collars down, and he copies the idea for the shirt of his firm. | |
+| 1 | Fashion | c. 1955 | +59 years | College clothiers sell the oxford button-down as the base of the Ivy League look. | [`ivy-style`](./ivy-style/SKILL.md) |
+
+Used by: [`ivy-style`](./ivy-style/SKILL.md).
+
+- Sew a small buttonhole in each collar point.
+- Sew a button on the body of the shirt at the matching place.
+- Cut the collar from soft oxford cloth so that it rolls when it is buttoned.
+
+Sources: [Wikipedia: Button-down shirt](https://en.wikipedia.org/wiki/Button-down_shirt); [Wikipedia: Brooks Brothers](https://en.wikipedia.org/wiki/Brooks_Brothers).
 
 ### Diffusion model
 
@@ -1657,7 +2303,150 @@ Used by: [`group-f64`](./group-f64/SKILL.md), [`architectural-photography`](./ar
 
 Sources: [Wikipedia: Tilt–shift photography](https://en.wikipedia.org/wiki/Tilt%E2%80%93shift_photography); [Wikipedia: Scheimpflug principle](https://en.wikipedia.org/wiki/Scheimpflug_principle).
 
+### Wind-tunnel testing
+
+A model or a car stands in a tunnel with a strong air flow. The test shows how the body pushes the air and how much drag it makes.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1871 | — | London, United Kingdom: Francis Wenham builds the first wind tunnel for the Aeronautical Society. | |
+| 1 | Fashion | 1934 | +63 years | Designers test streamlined bodies in the tunnel and cut the drag. | [`streamline-car`](./streamline-car/SKILL.md) |
+| 2 | Fashion | 1990 | +119 years | Designers tune the smooth underbody and the small mirrors in the tunnel. | [`biodesign-car`](./biodesign-car/SKILL.md) |
+| 3 | Fashion | 2012 | +141 years | Makers tune the flat floor and the flush door handles for range. | [`electric-minimal-car`](./electric-minimal-car/SKILL.md) |
+
+Used by: [`streamline-car`](./streamline-car/SKILL.md), [`biodesign-car`](./biodesign-car/SKILL.md), [`electric-minimal-car`](./electric-minimal-car/SKILL.md).
+
+- Fix the model to the balance in the tunnel.
+- Run the fan at a set speed and measure the drag and the lift.
+- Change the body form and test again.
+
+Sources: [Wikipedia: Wind tunnel](https://en.wikipedia.org/wiki/Wind_tunnel); [Wikipedia: Paul Jaray](https://en.wikipedia.org/wiki/Paul_Jaray).
+
 ## Skill
+
+### Bias cutting
+
+The cutting of woven cloth at 45 degrees to the threads, so that it stretches, falls in soft folds and follows the body.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1922 | — | Paris, France: Madeleine Vionnet makes the bias cut the base of a whole line of gowns in the early 1920s. | |
+| 1 | Fashion | c. 1930 | +8 years | The Vionnet workroom cuts evening gowns on the bias; Hollywood costume houses copy the cut for the screen. | [`bias-cut-glamour`](./bias-cut-glamour/SKILL.md) |
+
+Used by: [`bias-cut-glamour`](./bias-cut-glamour/SKILL.md).
+
+- Fold the cloth so that the cut line runs at 45 degrees to the warp.
+- Drape the shape on a small doll, and mark the seams on the true bias.
+- Hang the cut pieces for a day before the hem is sewn, so that the bias settles.
+
+Sources: [Wikipedia: Bias (textiles)](https://en.wikipedia.org/wiki/Bias_(textiles)); [Wikipedia: Madeleine Vionnet](https://en.wikipedia.org/wiki/Madeleine_Vionnet).
+
+### Coachbuilding
+
+The making of a car body by hand on a wood frame, and the fit of that body to a chassis that the client bought.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1600 | — | Europe: Coach makers build horse-drawn carriages on a wood frame with leather and brass fittings. Early car bodies copy this work. | |
+| 1 | Fashion | 1886 | +286 years | The first cars carry carriage bodies on wood frames, with brass lamps and leather seats. | [`brass-era-car`](./brass-era-car/SKILL.md) |
+| 2 | Fashion | 1919 | +319 years | Coachbuilders make one-off bodies on bought chassis, and the client chooses the line, the colour and the trim. | [`vintage-coachbuilt-car`](./vintage-coachbuilt-car/SKILL.md) |
+| 3 | Fashion | 1947 | +347 years | Turin works beat light alloy bodies by hand for small series of grand tourers. | [`italian-gran-turismo`](./italian-gran-turismo/SKILL.md) |
+
+Used by: [`brass-era-car`](./brass-era-car/SKILL.md), [`vintage-coachbuilt-car`](./vintage-coachbuilt-car/SKILL.md), [`italian-gran-turismo`](./italian-gran-turismo/SKILL.md).
+
+- Build the body frame from ash timber and join it with metal brackets.
+- Beat the aluminium or steel panels over a wood form and fit them to the frame.
+- Fit the trim, the upholstery and the brightwork, then paint the body in many coats.
+
+Sources: [Wikipedia: Coachbuilder](https://en.wikipedia.org/wiki/Coachbuilder).
+
+### Corselet-gorge
+
+A garment that holds the bust on its own, apart from the corset below it, so that the weight rests on the shoulders and not on the waist.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1889 | — | Paris: Herminie Cadolle files a patent for a corset that is cut into a lower corset and an upper bust support. | |
+| 1 | Fashion | 1914 | +25 years | Mary Phelps Jacob patented a light backless brassière of two handkerchiefs and ribbon, with no corset. | [`bandeau-brassiere`](./bandeau-brassiere/SKILL.md) |
+| 2 | Fashion | 1922 | +33 years | A maker of brassières founded in 1922 sold the separate bust support in sizes. | [`bandeau-brassiere`](./bandeau-brassiere/SKILL.md) |
+
+Used by: [`bandeau-brassiere`](./bandeau-brassiere/SKILL.md).
+
+- Cut the support as a separate piece with two cups and a back band.
+- Hang the cups from two shoulder straps.
+- Fasten the band at the back with hooks or ties.
+
+Sources: [Wikipedia: Brassière](https://en.wikipedia.org/wiki/Bra); [Wikipedia: Caresse Crosby](https://en.wikipedia.org/wiki/Caresse_Crosby).
+
+### Couture beading
+
+Beads and sequins are sewn by hand on a cloth, one by one or in a chain, in rows that make a dense, glittering surface.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1924 | — | Paris, France: Embroidery houses of Paris, such as the Lesage atelier of 1924, make beading a craft of couture; bead embroidery itself is much older. | |
+| 1 | Fashion | 1997 | +73 years | The Baguette bag is covered in hand-sewn beads and sequins, and each colourway takes days of work. | [`it-bag`](./it-bag/SKILL.md) |
+
+Used by: [`it-bag`](./it-bag/SKILL.md).
+
+- Stretch the satin on a frame and draw the pattern on it.
+- Sew the beads with a hooked needle, or a thread of 3 to 5 beads at a time.
+- Check the rows against the drawing, so that the lines run even to the millimetre.
+
+Sources: [Wikipedia: Beadwork](https://en.wikipedia.org/wiki/Beadwork); [Wikipedia: Maison Lesage](https://en.wikipedia.org/wiki/Maison_Lesage).
+
+### Cut steel work
+
+Small steel studs with many facets, riveted to a plate. They catch the light like diamonds and cost far less.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1700 | — | Woodstock, England: Workers at Woodstock make cut steel ornaments, and the trade grows at Birmingham in the 18th century. | |
+| 1 | Fashion | c. 1770 | +70 years | The Soho Manufactory and other Birmingham workshops sell cut steel buckles and jewels in large numbers. | [`georgian-jewellery`](./georgian-jewellery/SKILL.md) |
+
+Used by: [`georgian-jewellery`](./georgian-jewellery/SKILL.md).
+
+- Forge small steel studs and cut each stud with many facets.
+- Polish the facets until they shine like a gem.
+- Rivet the studs to a metal plate in the shape of a buckle, a brooch or a necklace.
+
+Sources: [Wikipedia: Cut steel jewellery](https://en.wikipedia.org/wiki/Cut_steel_jewellery).
+
+### Engine turning
+
+A lathe with a cutting tool cuts a regular pattern of fine lines in a flat metal face. The pattern catches the light and shows no tool marks.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1600 | — | Europe: Craftsmen cut patterns on a rose engine lathe in wood, ivory and soft metal. | |
+| 1 | Fashion | c. 1780 | +180 years | Breguet cuts engine-turned patterns of lines and waves in the gold or silver dial of a watch. | [`breguet-classical-watch`](./breguet-classical-watch/SKILL.md) |
+| 2 | Fashion | 1917 | +317 years | Deco watch dials of silver and gold carry engine-turned patterns, sometimes under clear enamel. | [`art-deco-watch`](./art-deco-watch/SKILL.md) |
+| 3 | Fashion | 1972 | +372 years | The dial of the Royal Oak carries a grid pattern in the manner of engine turning, called the tapisserie. | [`luxury-steel-sports-watch`](./luxury-steel-sports-watch/SKILL.md) |
+
+Used by: [`breguet-classical-watch`](./breguet-classical-watch/SKILL.md), [`art-deco-watch`](./art-deco-watch/SKILL.md), [`luxury-steel-sports-watch`](./luxury-steel-sports-watch/SKILL.md).
+
+- Fix the metal blank on the rose engine, and set the cam that gives the pattern.
+- Cut each line at a depth of 0.05 to 0.1 mm, and keep the pitch the same.
+- Polish the cut lines, or fill them with clear enamel.
+
+Sources: [Wikipedia: Guilloché](https://en.wikipedia.org/wiki/Guilloché); [Wikipedia: Engine turning](https://en.wikipedia.org/wiki/Engine_turning).
+
+### Hand-canvassed tailoring
+
+The tailor builds the chest of a coat from layers of hair canvas, shaped and stitched by hand, so that the coat holds its roll and fits the body.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1800 | — | London, England: London tailors of the Regency build the coat on canvas, so that the plain cloth shows a clean chest. | |
+| 1 | Fashion | c. 1840 | +40 years | The Savile Row houses make full-canvas coats to measure for the clubs and the court. | [`english-bespoke-tailoring`](./english-bespoke-tailoring/SKILL.md) |
+
+Used by: [`english-bespoke-tailoring`](./english-bespoke-tailoring/SKILL.md).
+
+- Cut the canvas from horsehair and wool cloth, and shape it with the iron.
+- Pad-stitch the canvas to the cloth of the chest with small diagonal stitches, so that the lapel rolls.
+- Sew the shoulder, the collar and the lining by hand, and press the shape into the coat.
+
+Sources: [Wikipedia: Tailor](https://en.wikipedia.org/wiki/Tailor); [Wikipedia: Savile Row](https://en.wikipedia.org/wiki/Savile_Row).
 
 ### Hand-painted texture
 
@@ -1676,6 +2465,60 @@ Used by: [`hand-painted-texture`](./hand-painted-texture/SKILL.md).
 
 Sources: [Wikipedia: World of Warcraft](https://en.wikipedia.org/wiki/World_of_Warcraft); [Wikipedia: Texture mapping](https://en.wikipedia.org/wiki/Texture_mapping).
 
+### Jet carving
+
+The cutting and polishing of jet, a hard black fossil wood, into beads, brooches and cameos.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1808 | — | Whitby, England: Whitby workshops begin to turn local jet into beads and ornaments. | |
+| 1 | Fashion | 1861 | +53 years | After the death of Prince Albert, jet jewels become the dress of court mourning, and the Whitby trade grows. | [`victorian-sentimental-jewellery`](./victorian-sentimental-jewellery/SKILL.md) |
+
+Used by: [`victorian-sentimental-jewellery`](./victorian-sentimental-jewellery/SKILL.md).
+
+- Cut the rough jet to a block with a saw.
+- Carve the block with a knife and a file into the form of the piece.
+- Polish the piece with fine powder until it shines black.
+
+Sources: [Wikipedia: Whitby jet](https://en.wikipedia.org/wiki/Whitby_jet).
+
+### Layering system
+
+A set of thin layers, each with one task. A base next to the skin, a warm mid layer and a shell against wind and rain. The wearer adds or sheds a layer to fit the work.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1924 | — | Himalaya: The Everest party wears silk, wool and a gabardine smock in layers, and the climber adds or sheds one at each rest. | |
+| 1 | Fashion | 1924 | +0 years | The Everest party wears layers of silk, wool and a windproof gabardine smock. | [`early-mountaineering`](./early-mountaineering/SKILL.md) |
+| 2 | Fashion | 1960 | +36 years | Nordic walkers take a wool base, a mid layer and a waxed shell as one fixed kit. | [`nordic-functional-outdoor`](./nordic-functional-outdoor/SKILL.md) |
+| 3 | Fashion | 2017 | +93 years | Gorpcore takes the trail layers into the city and shows each layer in a different colour. | [`gorpcore`](./gorpcore/SKILL.md) |
+
+Used by: [`early-mountaineering`](./early-mountaineering/SKILL.md), [`nordic-functional-outdoor`](./nordic-functional-outdoor/SKILL.md), [`gorpcore`](./gorpcore/SKILL.md).
+
+- Put a base layer next to the skin that moves sweat away.
+- Add a mid layer of wool or fleece to hold warm air.
+- Close the outfit with a shell that stops wind and rain, and open it when the work warms the body.
+
+Sources: [Wikipedia: 1924 British Mount Everest expedition](https://en.wikipedia.org/wiki/1924_British_Mount_Everest_expedition); [Wikipedia: Layered clothing](https://en.wikipedia.org/wiki/Layered_clothing).
+
+### Mystery setting
+
+A method that sets cut stones on a hidden rail so that no metal shows between them and the stones form one surface.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1933 | — | Paris, France: Van Cleef and Arpels patent the mystery setting, with stones of one colour on a hidden rail. | |
+| 1 | Fashion | 1933 | +0 years | Paris houses set rubies and sapphires so that no metal shows between the stones in flat Art Deco clips. | [`art-deco-jewellery`](./art-deco-jewellery/SKILL.md) |
+| 2 | Fashion | c. 1940 | +7 years | Small mystery-set rubies make the spray of colour at the centre of a gold bow. | [`retro-cocktail-jewellery`](./retro-cocktail-jewellery/SKILL.md) |
+
+Used by: [`art-deco-jewellery`](./art-deco-jewellery/SKILL.md), [`retro-cocktail-jewellery`](./retro-cocktail-jewellery/SKILL.md).
+
+- Cut each stone with a groove on its sides.
+- Slide the stones on thin metal rails inside a frame.
+- Close the frame so that no claw or prong shows.
+
+Sources: [Wikipedia: Mystery setting](https://en.wikipedia.org/wiki/Mystery_setting).
+
 ### Pochoir
 
 Colour put on by hand through a set of cut stencils, one for each colour, over a printed key line.
@@ -1693,6 +2536,78 @@ Used by: [`pochoir-plate`](./pochoir-plate/SKILL.md).
 - Mix each colour to match the original and keep it flat and opaque.
 
 Sources: [Wikipedia: Pochoir](https://en.wikipedia.org/wiki/Pochoir); [Wikipedia: Gazette du Bon Ton](https://en.wikipedia.org/wiki/Gazette_du_Bon_Ton).
+
+### Saddle stitch
+
+A hand stitch in which one thread with a needle at each end passes twice through each hole; if one stitch breaks, the seam holds.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1837 | — | Paris, France: Saddlers sew by hand with two needles; Thierry Hermès opens a harness workshop in Paris in 1837, and the stitch passes later into fine leather goods. | |
+| 1 | Fashion | 1956 | +119 years | The Kelly bag, a structured box bag, is stitched by hand in the saddler's way. | [`ladylike-handbag`](./ladylike-handbag/SKILL.md) |
+| 2 | Fashion | 2006 | +169 years | Houses of unmarked leather goods show the hand stitch as the only mark on the outside. | [`stealth-luxury-accessory`](./stealth-luxury-accessory/SKILL.md) |
+
+Used by: [`ladylike-handbag`](./ladylike-handbag/SKILL.md), [`stealth-luxury-accessory`](./stealth-luxury-accessory/SKILL.md).
+
+- Mark the holes at 3 to 4 mm spacing with a stitching chisel.
+- Pass the two needles through each hole from opposite sides, and pull each stitch tight.
+- Finish the seam with a double stitch back, and burnish the edge.
+
+Sources: [Wikipedia: Saddle stitch (sewing)](https://en.wikipedia.org/wiki/Saddle_stitch); [Wikipedia: Hermès](https://en.wikipedia.org/wiki/Herm%C3%A8s).
+
+### Tambour embroidery
+
+A fast chain stitch made with a fine hook on cloth that is stretched tight in a frame; later the same hook sews beads on silk.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1760 | — | France and Britain: Tambour work from India and China reaches European workrooms in the 18th century, and it grows fast on muslin. | |
+| 1 | Fashion | c. 1805 | +45 years | Dressmakers sew white tambour borders on muslin gowns and shawls. | [`empire-line-dress`](./empire-line-dress/SKILL.md) |
+| 2 | Fashion | 1924 | +164 years | Paris embroidery houses use the hook to sew glass beads on chiffon for the dress of the 1920s. | [`garconne-flapper-dress`](./garconne-flapper-dress/SKILL.md) |
+
+Used by: [`empire-line-dress`](./empire-line-dress/SKILL.md), [`garconne-flapper-dress`](./garconne-flapper-dress/SKILL.md).
+
+- Stretch the cloth tight in a round frame.
+- Pull a loop of thread up through the cloth with the hook, and chain the loops along the pattern.
+- Thread beads on the yarn first, and chain them into the cloth to make a beaded surface.
+
+Sources: [Wikipedia: Tambour embroidery](https://en.wikipedia.org/wiki/Tambour_embroidery); [Wikipedia: Beadwork](https://en.wikipedia.org/wiki/Beadwork).
+
+### Toile fitting
+
+A trial garment in plain calico, fitted and pinned on the client or on a stand before the real cloth is cut.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1858 | — | Paris, France: Charles Frederick Worth makes the fitted toile a standard step of the couture house. | |
+| 1 | Fashion | c. 1858 | +0 years | The House of Worth fits each cage-crinoline gown on a toile before it cuts the silk. | [`crinoline-and-bustle-dress`](./crinoline-and-bustle-dress/SKILL.md) |
+| 2 | Fashion | 1947 | +89 years | The Dior ateliers fit each New Look piece on a toile, so that the built waist and the full skirt fall right. | [`new-look`](./new-look/SKILL.md) |
+| 3 | Fashion | 1990 | +132 years | The ateliers of Hamburg and Milan fit a plain jacket on a toile again and again, to set a clean cut with no seam to spare. | [`minimalist-fashion`](./minimalist-fashion/SKILL.md) |
+
+Used by: [`new-look`](./new-look/SKILL.md), [`minimalist-fashion`](./minimalist-fashion/SKILL.md), [`crinoline-and-bustle-dress`](./crinoline-and-bustle-dress/SKILL.md).
+
+- Cut the toile from calico of the same weight as the final cloth.
+- Pin and mark the changes on the body, then take the toile apart and use it as the pattern.
+- Fit again in the real cloth two or three times before the hand finish.
+
+Sources: [Wikipedia: Toile](https://en.wikipedia.org/wiki/Toile); [Wikipedia: Haute couture](https://en.wikipedia.org/wiki/Haute_couture).
+
+### Y-front fly
+
+A cut for a brief in which two panels overlap in a Y shape at the front, so that the garment opens without a button and holds the body.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1934 | — | Kenosha, Wisconsin: Arthur Kneibler designs a short brief with an overlapping Y-shaped fly. | |
+| 1 | Fashion | 1935 | +1 years | Coopers, Inc. launched the Y-front brief in a store in Chicago on 19 January 1935. | [`modern-mens-briefs`](./modern-mens-briefs/SKILL.md) |
+
+Used by: [`modern-mens-briefs`](./modern-mens-briefs/SKILL.md).
+
+- Cut the front in two pieces with a curved seam in the shape of a Y.
+- Lap one piece over the other and stitch the two together at the base.
+- Set an elastic band into the waist.
+
+Sources: [Wikipedia: Jockey International](https://en.wikipedia.org/wiki/Jockey_International); [Wikipedia: Underpants](https://en.wikipedia.org/wiki/Underpants).
 
 ## Technology
 
@@ -1713,6 +2628,41 @@ Used by: [`fifth-gen-low-poly`](./fifth-gen-low-poly/SKILL.md), [`low-poly-ps1-r
 - Split large faces into smaller triangles to limit the warp.
 
 Sources: [Wikipedia: Texture mapping](https://en.wikipedia.org/wiki/Texture_mapping); [Wikipedia: PlayStation (console)](https://en.wikipedia.org/wiki/PlayStation_(console)).
+
+### Air-cushioned sole
+
+A thick rubber sole with sealed air pockets in the heel and the forefoot, which soften the impact of each step.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1947 | — | Seeshaupt, Germany: Klaus Märtens founds a company on the patent of his air-cushioned sole. | |
+| 1 | Fashion | 1960 | +13 years | A Northamptonshire factory fits the air-cushioned sole to the eight-eye boot. | [`subculture-workboot`](./subculture-workboot/SKILL.md) |
+
+Used by: [`subculture-workboot`](./subculture-workboot/SKILL.md).
+
+- Mould the sole with sealed pockets of air.
+- Join the sole to the welted upper with a heat seal and a stitch.
+- Make the sole 3 to 4 cm thick.
+
+Sources: [Wikipedia: Dr. Martens](https://en.wikipedia.org/wiki/Dr._Martens).
+
+### Air cushioning
+
+A sealed bag of gas in the midsole of a shoe, which gives a spring under the heel without a heavy foam.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1977 | — | Beaverton, Oregon: Frank Rudy patents a sole with a sealed gas unit, and the first shoe appears in 1978. | |
+| 1 | Fashion | 1978 | +1 years | A running shoe is the first to carry the sealed air unit in its heel. | [`performance-running-shoe`](./performance-running-shoe/SKILL.md) |
+| 2 | Fashion | 1985 | +8 years | The Air Jordan 1 shows the air unit as a mark of the signed shoe. | [`sneaker-culture`](./sneaker-culture/SKILL.md) |
+
+Used by: [`performance-running-shoe`](./performance-running-shoe/SKILL.md), [`sneaker-culture`](./sneaker-culture/SKILL.md).
+
+- Seal a bag of gas in a film of polyurethane.
+- Set the bag in the heel of the foam midsole.
+- Show the bag in a window of the midsole.
+
+Sources: [Wikipedia: Nike Air](https://en.wikipedia.org/wiki/Nike_Air); [Wikipedia: Air Jordan](https://en.wikipedia.org/wiki/Air_Jordan).
 
 ### Backdrop blur
 
@@ -1751,6 +2701,23 @@ Used by: [`seventh-gen-desaturated`](./seventh-gen-desaturated/SKILL.md), [`hd-2
 
 Sources: [Wikipedia: High-dynamic-range rendering](https://en.wikipedia.org/wiki/High-dynamic-range_rendering); [Wikipedia: Bloom (shader effect)](https://en.wikipedia.org/wiki/Bloom_(shader_effect)).
 
+### Capacitive touchscreen
+
+A glass screen with a grid of electrodes that senses the small current that a finger draws, so that a touch with no force selects an item.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Industrial design | 1965 | — | Malvern, United Kingdom: E. A. Johnson describes a capacitive touch screen at the Royal Radar Establishment. | |
+| 1 | Fashion | 2015 | +50 years | The Apple Watch puts a small touch screen on the face, with a digital crown to scroll. | [`smartwatch`](./smartwatch/SKILL.md) |
+
+Used by: [`smartwatch`](./smartwatch/SKILL.md).
+
+- Lay a grid of transparent electrodes under the glass.
+- Read the change of charge at each point of the grid.
+- Map each touch to a screen position within 1 mm.
+
+Sources: [Wikipedia: Capacitive sensing](https://en.wikipedia.org/wiki/Capacitive_sensing); [Wikipedia: Touchscreen](https://en.wikipedia.org/wiki/Touchscreen).
+
 ### Cel shading
 
 A render method that maps the light on a 3D surface to 2 or 3 flat tones and draws ink outlines, so 3D looks like a drawn animation cel.
@@ -1767,6 +2734,23 @@ Used by: [`cel-shaded-3d`](./cel-shaded-3d/SKILL.md).
 - Keep base colours flat; carry the shape with the bands and the lines.
 
 Sources: [Wikipedia: Cel shading](https://en.wikipedia.org/wiki/Cel_shading); [Wikipedia: Jet Set Radio](https://en.wikipedia.org/wiki/Jet_Set_Radio).
+
+### Chronograph complication
+
+A watch mechanism that starts, stops and resets a timing hand with pushers, apart from the hands that show the time of day.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1816 | — | Paris, France: Louis Moinet builds the first chronograph to time the stars. | |
+| 1 | Fashion | 1957 | +141 years | The Speedmaster carries two pushers, three sub dials and a tachymeter bezel, to time laps and measure speed. | [`racing-chronograph`](./racing-chronograph/SKILL.md) |
+
+Used by: [`racing-chronograph`](./racing-chronograph/SKILL.md).
+
+- Fit a start and stop pusher and a reset pusher to the case.
+- Drive a central seconds hand and sub dials for minutes and hours from a clutch.
+- Print a tachymeter scale on the bezel to turn a time over a set distance into a speed.
+
+Sources: [Wikipedia: Chronograph](https://en.wikipedia.org/wiki/Chronograph); [Wikipedia: Omega Speedmaster](https://en.wikipedia.org/wiki/Omega_Speedmaster).
 
 ### Curtain wall
 
@@ -1803,6 +2787,43 @@ Used by: [`cinematic-teal-orange`](./cinematic-teal-orange/SKILL.md).
 - Use one look-up table for each scene, so that the shots match.
 
 Sources: Alexis Van Hurkman, Color Correction Handbook (2010).
+
+### Luminous dial
+
+A dial with hands and marks that carry paint that glows in the dark, so that the wearer reads the time without a lamp.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1914 | — | United States: The Radium Luminous Material Corporation starts to sell luminous paint. | |
+| 1 | Fashion | 1916 | +2 years | A radium paint dial makes a wristwatch that soldiers read in the dark of the trench. | [`early-wristwatch`](./early-wristwatch/SKILL.md) |
+| 2 | Fashion | 1931 | +17 years | The pilot watch carries large numerals and hands filled with luminous paint for the night cockpit. | [`pilot-and-field-watch`](./pilot-and-field-watch/SKILL.md) |
+| 3 | Fashion | 1953 | +39 years | The diver watch carries large luminous markers, so that the diver reads it in dark water. | [`dive-watch`](./dive-watch/SKILL.md) |
+
+Used by: [`early-wristwatch`](./early-wristwatch/SKILL.md), [`pilot-and-field-watch`](./pilot-and-field-watch/SKILL.md), [`dive-watch`](./dive-watch/SKILL.md).
+
+- Paint the numerals and the hands with a luminous compound.
+- Apply a layer of at least 0.2 mm, so that the glow lasts the night.
+- Choose tritium or strontium aluminate paint, because radium paint is no longer safe.
+
+Sources: [Wikipedia: Radium dial](https://en.wikipedia.org/wiki/Radium_dial); [Wikipedia: Luminous paint](https://en.wikipedia.org/wiki/Luminous_paint).
+
+### Metal eyelet
+
+A ring of steel that is pressed into the lacing hole of a corset, so that the cord can pull hard and the hole does not tear.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1827 | — | Europe: The steel eyelet appears, and the lacing of a corset can take a much stronger pull. | |
+| 1 | Fashion | 1840 | +13 years | Corset makers set steel eyelets at the back, and a tight lace gave the narrow waist of the hourglass. | [`victorian-corsetry`](./victorian-corsetry/SKILL.md) |
+| 2 | Fashion | 1900 | +73 years | The long, straight corset used rows of steel eyelets, and a maker could lace it to a fixed line. | [`straight-front-corset`](./straight-front-corset/SKILL.md) |
+
+Used by: [`victorian-corsetry`](./victorian-corsetry/SKILL.md), [`straight-front-corset`](./straight-front-corset/SKILL.md).
+
+- Punch a small hole in the cloth.
+- Press a steel ring through the hole and fold the rim over the cloth.
+- Lace a cord through the rings in a cross pattern.
+
+Sources: [Wikipedia: Corset](https://en.wikipedia.org/wiki/Corset).
 
 ### Parametric modelling
 
@@ -1873,6 +2894,43 @@ Used by: [`pbr-photoreal`](./pbr-photoreal/SKILL.md).
 
 Sources: [Wikipedia: Physically based rendering](https://en.wikipedia.org/wiki/Physically_based_rendering); [Karis, Real Shading in Unreal Engine 4, SIGGRAPH 2013](https://blog.selfshadow.com/publications/s2013-shading-course/).
 
+### Quartz movement
+
+A timekeeper in which a quartz crystal vibrates at a fixed rate, and a circuit counts the vibrations to move the hands or to show digits.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Industrial design | 1927 | — | New York, United States: Warren Marrison builds the first quartz clock at Bell Telephone Laboratories. | |
+| 1 | Fashion | 1969 | +42 years | The Astron puts a quartz crystal in a wristwatch, and the quartz watch with digits follows. | [`electronic-and-digital-watch`](./electronic-and-digital-watch/SKILL.md) |
+| 2 | Fashion | 1983 | +56 years | The Swatch uses a quartz module of few parts, so that the watch is cheap and exact. | [`swiss-plastic-pop-watch`](./swiss-plastic-pop-watch/SKILL.md) |
+
+Used by: [`electronic-and-digital-watch`](./electronic-and-digital-watch/SKILL.md), [`swiss-plastic-pop-watch`](./swiss-plastic-pop-watch/SKILL.md).
+
+- Cut a quartz crystal to vibrate at 32,768 Hz.
+- Divide that rate in a circuit down to one pulse each second.
+- Drive a stepping motor or a display with each pulse.
+
+Sources: [Wikipedia: Quartz clock](https://en.wikipedia.org/wiki/Quartz_clock); [Wikipedia: Quartz crisis](https://en.wikipedia.org/wiki/Quartz_crisis).
+
+### Raschel warp knitting
+
+A flat warp-knitting machine that makes open nets and fine elastic meshes, and that could knit the new synthetic fibres at speed.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1859 | — | Europe: Wilhelm Barfuss improves the warp-knitting frame and creates the Raschel machine. | |
+| 1 | Fashion | c. 1950 | +91 years | The Raschel machine proved the most adaptable to nylon in the 1950s, and it knitted the mesh of girdles. | [`nylon-foundation-garments`](./nylon-foundation-garments/SKILL.md) |
+| 2 | Fashion | 1964 | +105 years | Warp-knit nylon gave the sheer, light stretch of the soft bra and the bodysuit. | [`soft-natural-lingerie`](./soft-natural-lingerie/SKILL.md) |
+| 3 | Fashion | 2000 | +141 years | Warp-knit elastane mesh gave the smooth control panel of the footless tights. | [`shapewear-and-seamless`](./shapewear-and-seamless/SKILL.md) |
+
+Used by: [`nylon-foundation-garments`](./nylon-foundation-garments/SKILL.md), [`soft-natural-lingerie`](./soft-natural-lingerie/SKILL.md), [`shapewear-and-seamless`](./shapewear-and-seamless/SKILL.md).
+
+- Feed a beam of parallel yarns to a row of latch needles.
+- Loop each yarn with its neighbour in a set pattern.
+- Take up the mesh in a flat sheet and cut the pieces.
+
+Sources: [Wikipedia: Knitting machine](https://en.wikipedia.org/wiki/Knitting_machine); [Wikipedia: Warp knitting](https://en.wikipedia.org/wiki/Warp_knitting).
+
 ### Risograph
 
 A digital stencil duplicator: a thermal head cuts a master, and a drum pushes soy ink through it in one spot colour.
@@ -1890,6 +2948,23 @@ Used by: [`risograph-print`](./risograph-print/SKILL.md).
 - Use uncoated paper, and let the ink dry before a second pass to stop set-off.
 
 Sources: [Wikipedia: Risograph](https://en.wikipedia.org/wiki/Risograph); [Wikipedia: Stencil duplicator](https://en.wikipedia.org/wiki/Stencil_duplicator).
+
+### Screw-down crown
+
+A winding crown that screws onto a tube on the case, so that the crown seals the case against water like a bolt in a gasket.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1926 | — | Switzerland: A case maker patents the Oyster case with a screw-down crown; Rolex sells the watch under the name Oyster. | |
+| 1 | Fashion | 1953 | +27 years | The diver watch uses a screw-down crown and a screw-down case back to seal the case to 100 m. | [`dive-watch`](./dive-watch/SKILL.md) |
+
+Used by: [`dive-watch`](./dive-watch/SKILL.md).
+
+- Cut a thread on the tube of the case and on the crown.
+- Fit a rubber gasket under the crown and press it as the crown screws down.
+- Seal the case back with a second gasket and a screw-on ring.
+
+Sources: [Wikipedia: Rolex Oyster](https://en.wikipedia.org/wiki/Rolex_Oyster); [Wikipedia: Diving watch](https://en.wikipedia.org/wiki/Diving_watch).
 
 ### 35 mm camera
 
@@ -1909,6 +2984,57 @@ Used by: [`street-photography`](./street-photography/SKILL.md), [`documentary-ph
 - Show the full frame; keep the 2:3 format.
 
 Sources: Ian Jeffrey, Photography: A Concise History (1981).
+
+### Spring steel hoop
+
+A frame of flat steel hoops on tapes that holds a skirt out in a wide bell, in place of many layers of horsehair and cotton petticoats.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1856 | — | Paris and London: The steel cage replaces the layered petticoat and cuts the weight of the skirt. | |
+| 1 | Fashion | c. 1856 | +0 years | Day dress and ball gown skirts of the Second Empire stand out on a cage of steel hoops. | [`crinoline-and-bustle-dress`](./crinoline-and-bustle-dress/SKILL.md) |
+
+Used by: [`crinoline-and-bustle-dress`](./crinoline-and-bustle-dress/SKILL.md).
+
+- Roll thin steel into springy hoops and cover them with cotton braid.
+- Hang the hoops in a cone from a waist band on tapes, from small at the top to wide at the hem.
+- Put a thin petticoat over the cage, and then the dress.
+
+Sources: [Wikipedia: Crinoline](https://en.wikipedia.org/wiki/Crinoline); [Wikipedia: Hoop skirt](https://en.wikipedia.org/wiki/Hoop_skirt).
+
+### Steel-cored heel
+
+A heel with a steel rod inside and a steel shank in the arch. The metal lets a thin heel carry the weight of the body.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | c. 1950 | — | Florence and Paris: Shoemakers fit a steel rod in a thin heel. | |
+| 1 | Fashion | 1953 | +3 years | Vivier and the couture houses fit thin steel-cored heels to the court shoe. | [`stiletto-heel`](./stiletto-heel/SKILL.md) |
+
+Used by: [`stiletto-heel`](./stiletto-heel/SKILL.md).
+
+- Cast a steel rod in the heel, 3 to 5 mm in diameter.
+- Rivet a steel shank in the arch of the sole.
+- Cover the heel and set a rubber top piece at the tip.
+
+Sources: [Wikipedia: Stiletto heel](https://en.wikipedia.org/wiki/Stiletto_heel).
+
+### Tourbillon
+
+A rotating cage that holds the balance and the escapement and turns once each minute, so that gravity acts on the balance in every position.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1801 | — | Paris, France: Abraham-Louis Breguet patents the tourbillon on 26 June 1801. | |
+| 1 | Fashion | 1801 | +0 years | Breguet fits the tourbillon to a pocket watch to cancel the error that gravity causes in the upright position. | [`breguet-classical-watch`](./breguet-classical-watch/SKILL.md) |
+
+Used by: [`breguet-classical-watch`](./breguet-classical-watch/SKILL.md).
+
+- Mount the balance wheel, the hairspring and the escapement in one light cage.
+- Turn the cage once each minute with the fourth wheel.
+- Keep the cage mass under 0.3 g, so that it does not drain the mainspring.
+
+Sources: [Wikipedia: Tourbillon](https://en.wikipedia.org/wiki/Tourbillon); [Wikipedia: Abraham-Louis Breguet](https://en.wikipedia.org/wiki/Abraham-Louis_Breguet).
 
 ### Vector display
 

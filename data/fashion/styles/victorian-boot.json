@@ -1,0 +1,326 @@
+{
+  "$schema": "../../../schema/domains/fashion.schema.json",
+  "id": "victorian-boot",
+  "domain": "fashion",
+  "name": "Victorian boot",
+  "aliases": [
+    "Button boot",
+    "Elastic-sided boot",
+    "Balmoral boot"
+  ],
+  "era_id": "victorian-dress",
+  "branch": "shoes",
+  "time_period": {
+    "start": 1851,
+    "end": 1914,
+    "label": "1851–1914"
+  },
+  "region": "London, England",
+  "summary": "The ankle boot of Victorian dress. It has a kid or cloth upper, a row of buttons or a lace front, an elastic side gusset, and a small stacked heel.",
+  "philosophy": {
+    "core_thesis": "A Victorian woman covers the ankle, so the boot is the shoe of every day and the cloth upper shows the cut of the last.",
+    "design_principles": [
+      "Cover the ankle: raise the shaft 12 to 20 cm above the heel.",
+      "Close the shaft with 8 to 14 small buttons, or with a lace front of 8 to 10 eyelets.",
+      "Set a 2 to 4 cm stacked heel under the waist of the sole.",
+      "Cut a narrow, slightly pointed toe on a last made for a left and a right foot.",
+      "Add a toe cap of patent leather or kid in a second colour for day wear.",
+      "Insert an elastic gusset of vulcanised rubber webbing in each side for a slip-on boot.",
+      "Stitch the sole to the upper by welt or by pegs; do not glue it."
+    ],
+    "anti_patterns": [
+      "A bare ankle in town dress",
+      "A flat, round-toed shoe with a single strap",
+      "A heel taller than 5 cm on a day boot",
+      "Rubber and foam soles on a dress boot",
+      "Visible plastic buttons or zips"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "structure": 3,
+    "luxury": 3,
+    "technicality": 2,
+    "chromatic_intensity": 2
+  },
+  "silhouette": {
+    "shape": "A close boot that wraps the foot and the ankle, with a narrow toe and a small heel under a long skirt.",
+    "line": "A straight shaft from the ankle bone to the calf, a gentle arch, and a toe that points slightly.",
+    "fit": "Snug at the ankle, held by the buttons or the elastic gusset; the vamp grips the instep.",
+    "proportion": "Shaft height about 1.5 times the length of the heel to toe line of the vamp; heel 2 to 4 cm.",
+    "rules": [
+      "Keep the boot narrow, so that the skirt hem hides all but the toe.",
+      "Place the buttons on the outside of the shaft, in a close row.",
+      "Make the toe cap and the heel in the same colour or in one contrast colour.",
+      "Wear the boot with a long skirt that clears the ground by 2 to 5 cm."
+    ]
+  },
+  "fabrics": {
+    "primary": [
+      "kidskin",
+      "serge",
+      "calfskin"
+    ],
+    "secondary": [
+      "patent-leather",
+      "vegetable-tanned-leather",
+      "vulcanised-rubber",
+      "suede"
+    ],
+    "avoid": [
+      "eva-foam",
+      "pvc-leathercloth",
+      "abs-plastic",
+      "ripstop-nylon"
+    ],
+    "rule": "Use fine kid for the upper of a dress boot and wool serge for a walking boot with a leather toe cap. Use a leather sole. Rubber appears only in the elastic gusset."
+  },
+  "construction": {
+    "methods": [
+      "lasting over a wooden last for each foot",
+      "pegged or welted sole",
+      "stitched toe cap",
+      "bound buttonholes on the shaft",
+      "elastic gusset set into the side seam",
+      "stacked leather heel built in layers"
+    ],
+    "closures": "A row of covered or metal buttons closed with a button hook; or a lace front; or an elastic side gusset with a pull tab.",
+    "details": "A patent toe cap, a stitched vamp seam, a cloth top in a contrast colour, and a lining of linen or kid."
+  },
+  "surface": {
+    "finishes": [
+      "burnished",
+      "patent-lacquered",
+      "matte",
+      "embroidered",
+      "quilted"
+    ],
+    "pattern": "Plain leather in one colour; a perforated toe cap or a stitched pattern on the vamp for display.",
+    "gloss": "Kid and serge at 5–20 GU; patent toe caps at 70–90 GU.",
+    "wear": "A boot gains creases at the ankle and a scuffed toe with age. Clean polish keeps it neat, and a worn boot looks respectable but old."
+  },
+  "palette": {
+    "strategy": "Black and brown leather, with a cloth top in grey or fawn and a patent toe cap.",
+    "colours": [
+      {
+        "name": "Boot black",
+        "hex": "#1C1B19",
+        "role": "kid upper"
+      },
+      {
+        "name": "Fawn",
+        "hex": "#B79A74",
+        "role": "serge top"
+      },
+      {
+        "name": "Chestnut",
+        "hex": "#6B3F25",
+        "role": "walking boot"
+      },
+      {
+        "name": "Patent black",
+        "hex": "#0E0E10",
+        "role": "toe cap"
+      },
+      {
+        "name": "Slate grey",
+        "hex": "#6D6F73",
+        "role": "cloth top"
+      },
+      {
+        "name": "Cream kid",
+        "hex": "#E8DCC4",
+        "role": "summer boot"
+      }
+    ]
+  },
+  "making": {
+    "processes": [
+      "hand cutting of the upper from a pattern",
+      "hand lasting",
+      "machine closing of the upper",
+      "pegged or welted sole attachment",
+      "button setting"
+    ],
+    "scale": "Bespoke from a bootmaker, then, from the 1860s, factory output with the sewing machine; 1851 shows one hand-made pair for each customer.",
+    "signs": "A narrow last, even rows of buttons, a stacked heel and a clean welt stitch."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "ankle-boot",
+        "form": "Kid button boot with a patent toe cap and a stacked heel",
+        "material": "kidskin",
+        "finish": "burnished"
+      },
+      {
+        "object": "ankle-boot",
+        "form": "Elastic-sided boot with a serge upper and a leather toe cap",
+        "material": "serge",
+        "finish": "matte"
+      },
+      {
+        "object": "tall-boot",
+        "form": "Laced walking boot with a calf upper and a hob-nailed sole",
+        "material": "calfskin",
+        "finish": "burnished"
+      },
+      {
+        "object": "ankle-boot",
+        "form": "Black boot with a patent vamp and a cloth top",
+        "material": "patent-leather",
+        "finish": "patent-lacquered"
+      },
+      {
+        "object": "ankle-boot",
+        "form": "Embroidered house boot in serge with a small heel",
+        "material": "serge",
+        "finish": "embroidered"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Victorian ankle boot",
+      "row of small buttons",
+      "kid leather upper",
+      "patent toe cap",
+      "stacked leather heel",
+      "elastic side gusset",
+      "narrow pointed toe",
+      "1880s bootmaker",
+      "black and fawn",
+      "still-life photograph, soft daylight"
+    ],
+    "negative": [
+      "sneaker",
+      "rubber sole",
+      "platform heel",
+      "modern zip",
+      "logo",
+      "bright neon colour"
+    ],
+    "canonical_works": [
+      {
+        "work": "Elastic-sided boot for Queen Victoria",
+        "maker": "Joseph Sparkes Hall",
+        "year": 1851
+      },
+      {
+        "work": "Balmoral boot",
+        "maker": "Prince Albert and his bootmaker",
+        "year": 1853
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Boots MET 66.101.68a-b CP2",
+      "kind": "image",
+      "maker": "Excelsior Button & Boot",
+      "credit": "Excelsior Button & Boot, The Metropolitan Museum of Art",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Boots_MET_66.101.68a-b_CP2.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Boots_MET_66.101.68a-b_CP2.jpg/960px-Boots_MET_66.101.68a-b_CP2.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [],
+    "root": "The first style of the shoe branch: earlier shoes come from the trade of the cordwainer, which this domain does not hold as a style."
+  },
+  "emotion": {
+    "target_response": "A sense of propriety and neatness: a covered, tidy foot that shows care and a respectable household.",
+    "keywords": [
+      "proper",
+      "neat",
+      "reserved",
+      "domestic",
+      "dutiful"
+    ],
+    "brand_archetypes": [
+      "caregiver",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "victorian boot",
+      "button boot",
+      "ankle boot 1880",
+      "elastic sided boot",
+      "balmoral boot",
+      "19th century lady's boot"
+    ],
+    "use_cases": [
+      "a period costume brief for a Victorian film",
+      "a museum label for a 19th century boot",
+      "a historical shoe image prompt",
+      "a heritage boot collection"
+    ],
+    "avoid_when": [
+      "the brief wants an athletic or casual shoe",
+      "the brief wants a modern heel",
+      "the brief is before 1840"
+    ],
+    "modifiers": [
+      {
+        "request": "more formal, welted",
+        "toward": "english-welted-dress-shoe",
+        "how": "Lower the shaft to the ankle bone, lace the front, and use a Goodyear welt on a polished calf upper."
+      },
+      {
+        "request": "lighter, for dance",
+        "toward": "art-deco-dance-shoe",
+        "how": "Remove the shaft, use a single strap, and use satin or kid with a thin heel."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Boot",
+      "url": "https://en.wikipedia.org/wiki/Boot"
+    },
+    {
+      "title": "Wikipedia: Balmoral (shoe)",
+      "url": "https://en.wikipedia.org/wiki/Balmoral_(shoe)"
+    },
+    {
+      "title": "Wikipedia: Victorian fashion",
+      "url": "https://en.wikipedia.org/wiki/Victorian_fashion"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.2,
+      "min": 0,
+      "max": 0.5,
+      "note": "Day boots are plain; evening boots carry embroidery or a cloth top."
+    },
+    "proportion_scale": {
+      "default": 0.6,
+      "min": 0.4,
+      "max": 0.8
+    },
+    "surface_gloss": {
+      "default": 15,
+      "min": 2,
+      "max": 90
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1
+    },
+    "metal_tone": {
+      "default": "none",
+      "options": [
+        "none",
+        "steel",
+        "brass"
+      ]
+    }
+  }
+}

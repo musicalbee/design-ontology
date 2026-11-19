@@ -196,7 +196,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more solid**: move toward [`fifth-gen-low-poly`](../fifth-gen-low-poly/SKILL.md) (Fifth-generation low poly). Keep the perspective; fill the wireframes with flat-shaded polygons.
 
 - **Led to (go here for a newer version):** [`eight-bit-tile`](../eight-bit-tile/SKILL.md), [`fifth-gen-low-poly`](../fifth-gen-low-poly/SKILL.md)
-- **Kin in another domain:** [`cassette-futurism`](../cassette-futurism/SKILL.md), [`synthwave-web`](../synthwave-web/SKILL.md)
+- **Kin in another domain:** [`cassette-futurism`](../cassette-futurism/SKILL.md), [`electronic-and-digital-watch`](../electronic-and-digital-watch/SKILL.md), [`synthwave-web`](../synthwave-web/SKILL.md)
 - **Nearest by vector profile:** [`impossible-isometric-mobile`](../impossible-isometric-mobile/SKILL.md), [`low-poly-ps1-revival`](../low-poly-ps1-revival/SKILL.md), [`isometric-pixel-world`](../isometric-pixel-world/SKILL.md)
 
 ## Emotional target

@@ -283,7 +283,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`mid-century-modern`](../mid-century-modern/SKILL.md)
 - **Mixes well with:** [`japanese-graphic-modernism`](../japanese-graphic-modernism/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md), [`space-age`](../space-age/SKILL.md)
-- **Kin in another domain:** [`airbrush-surrealism`](../airbrush-surrealism/SKILL.md), [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md), [`pop-screen-print`](../pop-screen-print/SKILL.md)
+- **Kin in another domain:** [`airbrush-surrealism`](../airbrush-surrealism/SKILL.md), [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md), [`mod-and-mini`](../mod-and-mini/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md), [`pop-screen-print`](../pop-screen-print/SKILL.md)
 - **Nearest by vector profile:** [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
 
 ## Emotional target

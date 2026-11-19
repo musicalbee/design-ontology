@@ -185,6 +185,7 @@ const DOMAINS = [
   { id: "icon", page: "icon.html", name: "Icons", task: "One sheet of nine icons in each style: grid, stroke, corners and colour count." },
   { id: "typeface", page: "typeface.html", name: "Typefaces", task: "A specimen of each classification, drawn from one open font." },
   { id: "print", page: "print.html", name: "Print", task: "One landscape, pulled as a press proof in each process: inks, screen, register and stock." },
+  { id: "fashion", page: "fashion.html", name: "Fashion", task: "One swatch board in each style: its cloths and materials as weave, knit or surface, with the year each one began." },
 ];
 
 const $ = (id) => document.getElementById(id);
@@ -209,7 +210,7 @@ Promise.all([json("../skills/index.json"), ...DOMAINS.map((d) => json(`previews/
   // The styles of a domain that have a preview picture.
   const pool = DOMAINS.map((d, i) => Object.entries(manifests[i]?.images ?? {})
     .filter(([id, r]) => name[id] && r.file)
-    .map(([id, r]) => ({ id, name: name[id], src: `previews/${d.id}/${r.file}`, fit: r.kind === "specimen" || r.kind === "press-proof", n: r.frames?.length || 1, d })));
+    .map(([id, r]) => ({ id, name: name[id], src: `previews/${d.id}/${r.file}`, fit: r.kind === "specimen" || r.kind === "press-proof" || r.kind === "swatch-board", n: r.frames?.length || 1, d })));
 
   const count = (id) => skills.filter((s) => s.domain === id).length;
   $("facts").innerHTML = `<span><b>${skills.length}</b>styles</span><span><b>${DOMAINS.length}</b>domains</span>` +

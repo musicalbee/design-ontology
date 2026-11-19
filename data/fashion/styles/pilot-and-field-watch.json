@@ -1,0 +1,372 @@
+{
+  "$schema": "../../../schema/domains/fashion.schema.json",
+  "id": "pilot-and-field-watch",
+  "domain": "fashion",
+  "name": "Pilot and field watch",
+  "aliases": [
+    "Flieger watch",
+    "Observation watch",
+    "Military field watch"
+  ],
+  "era_id": "interwar-modern",
+  "branch": "watch",
+  "time_period": {
+    "start": 1931,
+    "end": null,
+    "label": "1931–now"
+  },
+  "region": "United States, Germany and Switzerland",
+  "summary": "The legible tool watch for the cockpit and the field. It has a steel case, a matt black dial with large white luminous numerals, a large crown for gloves and a long strap. The Hour Angle watch of 1931 and the German observation watches of the 1930s set the type.",
+  "philosophy": {
+    "core_thesis": "A tool watch must be read at a glance, in poor light and with a glove on. Each part serves legibility and nothing else.",
+    "design_principles": [
+      "Print white Arabic numerals on a matt black dial, and mark the 12 with a triangle and two dots.",
+      "Cut the hands as bold batons or swords filled with luminous paint, and make the minute hand reach the track.",
+      "Make the crown 7 to 9 mm wide, as an onion or a fluted wheel, so that a gloved hand can wind it.",
+      "Make a field watch 34 to 38 mm wide, and a pilot's watch 40 to 55 mm wide that goes over a flight sleeve.",
+      "Fit a soft-iron cage round the movement, so that the magnetic fields of aircraft instruments cannot move the balance.",
+      "Keep the dial matt, so that the glare stays low in a cockpit.",
+      "Cut the strap 200 to 250 mm long, so that it goes over a flight jacket, and rivet it to the lugs.",
+      "Leave the dial free of ornament, logos and extra scales."
+    ],
+    "anti_patterns": [
+      "A gold or enamel dial",
+      "Small numerals and thin hands that do not glow",
+      "A mirror-polished case that flashes in the sun",
+      "A dial that is crowded with sub dials and windows",
+      "A thin dress case that a knock can bend",
+      "A short strap that fits only a bare wrist"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "structure": 4,
+    "luxury": 2,
+    "technicality": 4,
+    "chromatic_intensity": 1
+  },
+  "silhouette": {
+    "shape": "A round steel case, small for a field watch and large for a pilot's watch, with a big crown and a plain bezel.",
+    "line": "A plain circle with short lugs, a thin bezel and a crown that stands clear of the case.",
+    "fit": "The strap wraps the wrist or goes over a sleeve, and the dial faces the user without a tilt.",
+    "proportion": "Case thickness to width is about 1 to 3.5. The dial fills about 85 per cent of the case. The numerals are 4 to 6 mm tall.",
+    "rules": [
+      "Make the dial the largest part of the face and keep the bezel narrow.",
+      "Set the 12 triangle at the top and keep the other numerals the same size.",
+      "Make the minute hand longer than the hour hand by at least 3 mm.",
+      "Leave the crown free of guards so that a glove can grip the crown."
+    ]
+  },
+  "fabrics": {
+    "primary": [
+      "stainless-steel",
+      "luminous-paint",
+      "calfskin",
+      "canvas"
+    ],
+    "secondary": [
+      "brass",
+      "acrylic-glass",
+      "chrome-plate",
+      "nylon-webbing"
+    ],
+    "avoid": [
+      "yellow-gold",
+      "vitreous-enamel",
+      "diamond",
+      "exotic-skin",
+      "tortoiseshell"
+    ],
+    "rule": "Use steel for the case, matt black for the dial and luminous paint for the glow. Put the watch on leather, canvas or nylon webbing."
+  },
+  "construction": {
+    "methods": [
+      "steel case turned from bar",
+      "screw-down back and crown",
+      "soft-iron cage round the movement",
+      "luminous paint on numerals and hands",
+      "domed acrylic crystal",
+      "strap riveted to the lugs"
+    ],
+    "closures": "A buckle closes a long strap; a large fluted or onion crown winds and sets the watch.",
+    "details": "A triangle at 12 with two dots, large baton hands, a long strap and a crown wide enough for a glove."
+  },
+  "surface": {
+    "finishes": [
+      "brushed",
+      "matte",
+      "polished",
+      "burnished",
+      "distressed"
+    ],
+    "pattern": "A matt black dial with white numerals and a minute track; no ornament.",
+    "gloss": "Brushed steel at 15 to 40 GU; the dial at 2 to 5 GU; the crystal at 90 GU.",
+    "wear": "The steel scratches to a soft grey, the luminous paint yellows, the canvas fades and the leather darkens; wear is part of the look."
+  },
+  "palette": {
+    "strategy": "Black and white for reading, steel for the case, and the green and brown of the field for the strap.",
+    "colours": [
+      {
+        "name": "Steel grey",
+        "hex": "#B8BCC0",
+        "role": "case"
+      },
+      {
+        "name": "Matt black",
+        "hex": "#111214",
+        "role": "dial"
+      },
+      {
+        "name": "Luminous cream",
+        "hex": "#E8E4C9",
+        "role": "numerals and hands"
+      },
+      {
+        "name": "Olive drab",
+        "hex": "#6B6B3A",
+        "role": "canvas strap"
+      },
+      {
+        "name": "Leather brown",
+        "hex": "#5A3B22",
+        "role": "leather strap"
+      },
+      {
+        "name": "Signal red",
+        "hex": "#B3261E",
+        "role": "seconds hand"
+      }
+    ]
+  },
+  "making": {
+    "processes": [
+      "case turning in steel",
+      "dial printing in white on black",
+      "hand application of luminous paint",
+      "assembly to a military specification",
+      "strap cutting and riveting"
+    ],
+    "scale": "Factory output for air forces and armies in lots of thousands; each maker met one military specification.",
+    "signs": "A triangle at 12, a large crown, white on black and a long strap."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "pilot-watch",
+        "form": "Large steel case with a matt black dial and an onion crown",
+        "material": "stainless-steel",
+        "finish": "brushed"
+      },
+      {
+        "object": "field-watch",
+        "form": "Small steel case with a black dial and baton hands",
+        "material": "stainless-steel",
+        "finish": "matte"
+      },
+      {
+        "object": "pilot-watch",
+        "form": "Domed crystal over a dial with luminous numerals",
+        "material": "acrylic-glass",
+        "finish": "polished"
+      },
+      {
+        "object": "watch-strap",
+        "form": "Long brown leather strap with riveted lugs",
+        "material": "calfskin",
+        "finish": "matte"
+      },
+      {
+        "object": "watch-strap",
+        "form": "Olive canvas strap with a pin buckle",
+        "material": "canvas",
+        "finish": "matte"
+      },
+      {
+        "object": "watch-strap",
+        "form": "One-piece nylon webbing strap with three rings",
+        "material": "nylon-webbing",
+        "finish": "matte"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1930s aviator watch",
+      "matt black dial",
+      "large white Arabic numerals",
+      "triangle at twelve with two dots",
+      "luminous baton hands",
+      "onion crown",
+      "steel case",
+      "long leather strap",
+      "olive canvas strap",
+      "military field watch",
+      "worn steel and soft light",
+      "macro photograph of a cockpit watch"
+    ],
+    "negative": [
+      "gold case",
+      "enamel dial",
+      "diamond bezel",
+      "digital display",
+      "small numerals",
+      "thin dress case"
+    ],
+    "canonical_works": [
+      {
+        "work": "Hour Angle watch",
+        "maker": "Longines",
+        "year": 1931
+      },
+      {
+        "work": "Big Pilot's watch",
+        "maker": "IWC",
+        "year": 1940
+      },
+      {
+        "work": "Mark XI navigator's watch",
+        "maker": "IWC",
+        "year": 1948
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Laco Faro B-Muster Beobachtungsuhr Fliegeruhr Pilotenuhr 2. WK",
+      "kind": "image",
+      "credit": "Chrononautix",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Laco_Faro_B-Muster_Beobachtungsuhr_Fliegeruhr_Pilotenuhr_2._WK.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Laco_Faro_B-Muster_Beobachtungsuhr_Fliegeruhr_Pilotenuhr_2._WK.jpg/960px-Laco_Faro_B-Muster_Beobachtungsuhr_Fliegeruhr_Pilotenuhr_2._WK.jpg",
+      "maker": "Laco"
+    },
+    {
+      "title": "Laco Paderborn B-Muster Beobachtungsuhr Fliegeruhr Pilotenuhr",
+      "kind": "image",
+      "credit": "Achim.gucker",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Laco_Paderborn_B-Muster_Beobachtungsuhr_Fliegeruhr_Pilotenuhr.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/3/36/Laco_Paderborn_B-Muster_Beobachtungsuhr_Fliegeruhr_Pilotenuhr.jpg",
+      "maker": "Laco"
+    },
+    {
+      "title": "Fortis Flieger GMT",
+      "kind": "image",
+      "credit": "Stefan Bellini",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Fortis_Flieger_GMT.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Fortis_Flieger_GMT.jpg/960px-Fortis_Flieger_GMT.jpg",
+      "maker": "Fortis"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "early-wristwatch"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "trench-and-field-military"
+    ],
+    "echoes": [
+      "industrial-utility-product"
+    ]
+  },
+  "emotion": {
+    "target_response": "A calm readiness: the viewer sees a plain face that works at a glance, in poor light and with a glove.",
+    "keywords": [
+      "legible",
+      "ready",
+      "rugged",
+      "plain",
+      "disciplined"
+    ],
+    "brand_archetypes": [
+      "hero",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "pilot watch",
+      "field watch",
+      "flieger",
+      "observation watch",
+      "military watch",
+      "aviator watch",
+      "hour angle watch",
+      "nato strap"
+    ],
+    "use_cases": [
+      "a prop for an air war or an expedition film",
+      "a tool watch design brief",
+      "an image prompt for a field watch on canvas"
+    ],
+    "avoid_when": [
+      "the brief wants a dress watch",
+      "the brief wants gold, diamonds or enamel",
+      "the brief wants a function for the sea or for timing"
+    ],
+    "modifiers": [
+      {
+        "request": "for the sea",
+        "toward": "dive-watch",
+        "how": "Thicken the case, add a rotating bezel and a screw-down crown, and rate the case for 100 m or more."
+      },
+      {
+        "request": "for the track, with timing",
+        "toward": "racing-chronograph",
+        "how": "Add two chronograph pushers, a tachymeter ring and sub dials, and keep the black dial."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Pilot watch",
+      "url": "https://en.wikipedia.org/wiki/Pilot_watch"
+    },
+    {
+      "title": "Wikipedia: Field watch",
+      "url": "https://en.wikipedia.org/wiki/Field_watch"
+    },
+    {
+      "title": "Wikipedia: Radium dial",
+      "url": "https://en.wikipedia.org/wiki/Radium_dial"
+    },
+    {
+      "title": "Wikipedia: P. V. H. Weems",
+      "url": "https://en.wikipedia.org/wiki/P._V._H._Weems"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.05,
+      "min": 0,
+      "max": 0.25
+    },
+    "proportion_scale": {
+      "default": 0.6,
+      "min": 0.3,
+      "max": 1
+    },
+    "surface_gloss": {
+      "default": 25,
+      "min": 5,
+      "max": 60
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1
+    },
+    "metal_tone": {
+      "default": "steel",
+      "options": [
+        "steel",
+        "black",
+        "gunmetal",
+        "brass",
+        "none"
+      ]
+    }
+  }
+}

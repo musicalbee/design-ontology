@@ -1,0 +1,344 @@
+{
+  "$schema": "../../../schema/domains/fashion.schema.json",
+  "id": "new-look",
+  "domain": "fashion",
+  "name": "New Look",
+  "aliases": [
+    "Corolle line",
+    "Dior New Look",
+    "Post-war couture silhouette"
+  ],
+  "era_id": "war-and-new-look",
+  "branch": "costume",
+  "time_period": {
+    "start": 1947,
+    "end": 1957,
+    "label": "1947–1957"
+  },
+  "region": "Paris, France",
+  "summary": "The couture line that Christian Dior showed in February 1947. It has round shoulders, a small built waist and a full calf-length skirt in metres of wool and silk. It answered the rationed, square dress of the war.",
+  "philosophy": {
+    "core_thesis": "After rationing, a woman's dress shows plenty: a small waist, a full skirt and the hand work of the couture house.",
+    "design_principles": [
+      "Cut the waist 5 to 8 cm smaller than the natural waist, and hold it with a boned inner belt.",
+      "Set the hem 30 to 40 cm above the floor, at mid-calf.",
+      "Give a day skirt a hem of 10 to 25 m, and an evening skirt up to 80 m.",
+      "Round the shoulder with no pad; let the line run down from the neck in one curve.",
+      "Pad the hip with a basque so that the waist looks smaller.",
+      "Build the shape inside the dress with canvas, boning and a tulle petticoat.",
+      "Finish each seam and each hem by hand."
+    ],
+    "anti_patterns": [
+      "Square padded shoulders of wartime utility dress",
+      "Short straight skirts that save cloth",
+      "A loose, dropped waist",
+      "Thin, limp cloth that cannot hold a pleat",
+      "Visible machine top-stitching on a couture piece"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "structure": 5,
+    "luxury": 5,
+    "technicality": 2,
+    "chromatic_intensity": 2
+  },
+  "silhouette": {
+    "shape": "An hourglass: a fitted bodice, a small waist and a skirt that stands out in a wide bell or falls in a narrow pencil.",
+    "line": "A soft round shoulder, a waist at the natural line, and a hem at mid-calf.",
+    "fit": "Close and built on the bodice; the full skirt stands free of the leg on its petticoat.",
+    "proportion": "Waist to hip about 1 to 1.6; hem 30 to 40 cm above the floor; jacket length to the top of the hip.",
+    "rules": [
+      "Pinch the jacket at the waist and flare it over the hip into a padded basque.",
+      "Pleat or gather the skirt at the waist so that it opens in a bell.",
+      "Keep the neckline and the collar small, so that the waist leads.",
+      "Pair a full skirt with a narrow bodice, and a pencil skirt with a short, wide jacket."
+    ]
+  },
+  "fabrics": {
+    "primary": [
+      "worsted-suiting",
+      "taffeta",
+      "satin",
+      "tulle"
+    ],
+    "secondary": [
+      "silk-twill",
+      "velvet",
+      "cambric",
+      "crepe-de-chine",
+      "kidskin"
+    ],
+    "avoid": [
+      "jersey",
+      "spandex-jersey",
+      "denim",
+      "polar-fleece"
+    ],
+    "rule": "Choose a cloth with body that holds a pleat and a bell. Use fine wool for day, silk taffeta and satin for evening, with tulle and canvas inside."
+  },
+  "construction": {
+    "methods": [
+      "toile fitted on the client",
+      "boned inner corselet",
+      "horsehair canvas in the basque",
+      "knife and box pleats at the waist",
+      "hand-sewn hems and linings",
+      "tulle petticoat in three or more layers"
+    ],
+    "closures": "Covered buttons down the front of the jacket; hooks and a side zip on the skirt, hidden under a placket.",
+    "details": "A round collar or a shawl collar, a padded basque on the jacket, and a self belt or none. Gloves and a small hat finish the look."
+  },
+  "surface": {
+    "finishes": [
+      "matte",
+      "glazed",
+      "embroidered",
+      "beaded"
+    ],
+    "pattern": "Plain cloth for day in one colour; for evening, embroidery and beads on the bodice or a scatter on the skirt.",
+    "gloss": "Wool at 2–5 GU for day; satin and taffeta at 30–60 GU for evening.",
+    "wear": "The style wants a new, pressed piece; the couture house repairs and re-presses it, and a worn piece loses its line."
+  },
+  "palette": {
+    "strategy": "Day dress in neutral wool, cream and black; evening dress in one deep colour or in pale silk.",
+    "colours": [
+      {
+        "name": "Natural shantung",
+        "hex": "#E8DCC4",
+        "role": "jacket"
+      },
+      {
+        "name": "Black",
+        "hex": "#1B1B1D",
+        "role": "skirt"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1F2A44",
+        "role": "day suit"
+      },
+      {
+        "name": "Dior grey",
+        "hex": "#A7A6A1",
+        "role": "day dress"
+      },
+      {
+        "name": "Rose pink",
+        "hex": "#E7B7B9",
+        "role": "evening silk"
+      },
+      {
+        "name": "Garnet red",
+        "hex": "#8E1F2F",
+        "role": "evening satin"
+      }
+    ]
+  },
+  "making": {
+    "processes": [
+      "haute couture to the measure of the client",
+      "toile fitting in calico",
+      "hand sewing in the atelier",
+      "embroidery by an outside house",
+      "pleating by hand and press"
+    ],
+    "scale": "Haute couture: each piece made to measure in the house, with three or more fittings; licensed patterns and copies for department stores.",
+    "signs": "Hand-sewn hems and seams, an inner corselet and petticoat, and a pressed pleat that falls the same each time."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "suit-jacket",
+        "form": "Short jacket with a pinched waist and a padded basque",
+        "material": "worsted-suiting",
+        "finish": "matte"
+      },
+      {
+        "object": "skirt",
+        "form": "Calf-length pleated skirt that opens in a bell",
+        "material": "worsted-suiting",
+        "finish": "matte"
+      },
+      {
+        "object": "evening-gown",
+        "form": "Strapless boned bodice with a full skirt over tulle",
+        "material": "satin",
+        "finish": "embroidered"
+      },
+      {
+        "object": "dress",
+        "form": "Day dress with a fitted bodice and a full skirt",
+        "material": "taffeta",
+        "finish": "glazed"
+      },
+      {
+        "object": "blouse",
+        "form": "Small round-collar blouse under the jacket",
+        "material": "crepe-de-chine",
+        "finish": "matte"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1947 Paris couture",
+      "hourglass silhouette",
+      "small pinched waist",
+      "full calf-length pleated skirt",
+      "round soft shoulders",
+      "padded peplum jacket",
+      "structured wool suit",
+      "silk taffeta evening dress",
+      "tulle petticoat",
+      "gloves and a small hat",
+      "black and cream",
+      "studio fashion photograph, soft light"
+    ],
+    "negative": [
+      "padded square shoulders",
+      "mini skirt",
+      "jersey",
+      "denim",
+      "sportswear",
+      "logo"
+    ],
+    "canonical_works": [
+      {
+        "work": "Bar suit",
+        "maker": "Christian Dior",
+        "year": 1947
+      },
+      {
+        "work": "Corolle collection",
+        "maker": "Christian Dior",
+        "year": 1947
+      },
+      {
+        "work": "Junon evening dress",
+        "maker": "Christian Dior",
+        "year": 1949
+      },
+      {
+        "work": "H-line collection",
+        "maker": "Christian Dior",
+        "year": 1954
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Christian Dior (Moscow exhibition, 2011) 26",
+      "kind": "image",
+      "maker": "Christian Dior",
+      "credit": "shakko",
+      "licence": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Christian_Dior_(Moscow_exhibition,_2011)_26.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Christian_Dior_%28Moscow_exhibition%2C_2011%29_26.jpg/960px-Christian_Dior_%28Moscow_exhibition%2C_2011%29_26.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "crinoline-and-bustle-dress"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "fashion-editorial"
+    ]
+  },
+  "emotion": {
+    "target_response": "A sense of plenty and grace after years of shortage: the viewer sees the waist, the swing of the skirt and the hand work.",
+    "keywords": [
+      "feminine",
+      "opulent",
+      "poised",
+      "romantic",
+      "controlled"
+    ],
+    "brand_archetypes": [
+      "lover",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "new look",
+      "dior 1947",
+      "1950s couture",
+      "hourglass dress",
+      "bar suit",
+      "full skirt and small waist",
+      "post-war couture",
+      "corolle line"
+    ],
+    "use_cases": [
+      "a period costume brief for a 1950s film",
+      "a couture-inspired bridal or evening line",
+      "a fashion image prompt for a 1950s look",
+      "a museum label or study note on post-war dress"
+    ],
+    "avoid_when": [
+      "the brief is sportswear or casual dress",
+      "the brief wants comfort and stretch",
+      "the brief is a 1960s youth look"
+    ],
+    "modifiers": [
+      {
+        "request": "earlier, softer",
+        "toward": "bias-cut-glamour",
+        "how": "Drop the boning and the petticoat, cut silk on the bias, and keep the small waist."
+      },
+      {
+        "request": "younger, shorter",
+        "toward": "mod-and-mini",
+        "how": "Raise the hem above the knee, straighten the line, and keep the neat tailoring."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: New Look (fashion)",
+      "url": "https://en.wikipedia.org/wiki/New_Look_(fashion)"
+    },
+    {
+      "title": "Wikipedia: Christian Dior",
+      "url": "https://en.wikipedia.org/wiki/Christian_Dior"
+    },
+    {
+      "title": "Victoria and Albert Museum: Christian Dior",
+      "url": "https://www.vam.ac.uk/articles/christian-dior"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.1,
+      "min": 0,
+      "max": 0.5,
+      "note": "Day suits are plain; evening gowns carry embroidery on the bodice."
+    },
+    "proportion_scale": {
+      "default": 0.7,
+      "min": 0.4,
+      "max": 1
+    },
+    "surface_gloss": {
+      "default": 5,
+      "min": 2,
+      "max": 60
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1
+    },
+    "metal_tone": {
+      "default": "none",
+      "options": [
+        "none",
+        "yellow-gold",
+        "silver"
+      ]
+    }
+  }
+}

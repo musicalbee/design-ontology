@@ -274,6 +274,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md)
 - **Mixes well with:** [`scrapbook-ui`](../scrapbook-ui/SKILL.md)
+- **Kin in another domain:** [`hippie-bohemian-dress`](../hippie-bohemian-dress/SKILL.md)
 - **Nearest by vector profile:** [`scrapbook-ui`](../scrapbook-ui/SKILL.md), [`cassette-futurism`](../cassette-futurism/SKILL.md), [`apple-aqua`](../apple-aqua/SKILL.md)
 
 ## Emotional target

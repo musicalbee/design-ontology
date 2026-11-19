@@ -1,0 +1,340 @@
+{
+  "$schema": "../../../schema/domains/fashion.schema.json",
+  "id": "american-pocket-watch",
+  "domain": "fashion",
+  "name": "American pocket watch",
+  "aliases": [
+    "Railroad watch",
+    "American factory watch",
+    "Waltham style"
+  ],
+  "era_id": "victorian-dress",
+  "branch": "watch",
+  "time_period": {
+    "start": 1850,
+    "end": 1930,
+    "label": "1850–1930"
+  },
+  "region": "Waltham, Massachusetts, United States",
+  "summary": "The plain, tough pocket watch that American factories made from 1850 with machine-cut interchangeable parts. It has a white enamel dial with black Arabic numerals and a gold-filled or silver case. The rail grade movement kept time for the railroads.",
+  "philosophy": {
+    "core_thesis": "A watch is a public tool. Each part is made to a gauge, the face is clear and the case lasts for decades.",
+    "design_principles": [
+      "Cut each plate and wheel to a gauge, so that a spare part fits any watch of the same model.",
+      "Print black Arabic numerals 1 to 12 on a white enamel dial, with a full minute track to 60.",
+      "Make the hands as blued spades or plain batons, so that the time shows at a glance.",
+      "Adjust a rail grade movement to keep time within 30 seconds a week in five positions.",
+      "Fit 21 jewels in a rail grade movement, and set them in gold settings.",
+      "Set the hands with a lever beside the crown, so that a knock cannot move them.",
+      "Make the case 10 to 14 mm thick, with a screw bezel and a snap back that keep out dust.",
+      "Mark the movement with the maker, the grade and a serial number."
+    ],
+    "anti_patterns": [
+      "A thin ornamental dress case that bends in a pocket",
+      "Script numerals or a crowded dial that slows the eye",
+      "A fashion colour dial",
+      "Parts filed by hand to fit one watch only",
+      "A plastic or steel case of the quartz era",
+      "A small dial that cannot be read at arm's length"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "structure": 4,
+    "luxury": 3,
+    "technicality": 4,
+    "chromatic_intensity": 1
+  },
+  "silhouette": {
+    "shape": "A thick round pocket watch of 16 or 18 size, 43 to 46 mm wide. It has a bow on a pendant and an open-face or hunter case.",
+    "line": "A heavy circle with a deep band, a ring bow and a large crown.",
+    "fit": "The watch rides in a waistcoat pocket on a chain with a fob, and its weight sits low against the body.",
+    "proportion": "Case thickness to width is about 1 to 3.5. The dial fills about 80 per cent of the width. The crown is as wide as the bow.",
+    "rules": [
+      "Keep the numerals large: each numeral is at least 3 mm tall.",
+      "Run the minute track to the edge of the dial so that the minute hand can be read exactly.",
+      "Put the small seconds dial at 6 o'clock and leave the 12 free.",
+      "Make the bow a plain ring that does not turn on the pendant by accident."
+    ]
+  },
+  "fabrics": {
+    "primary": [
+      "gold-filled",
+      "vitreous-enamel",
+      "blued-steel",
+      "brass"
+    ],
+    "secondary": [
+      "sterling-silver",
+      "yellow-gold",
+      "coloured-gemstone"
+    ],
+    "avoid": [
+      "stainless-steel",
+      "abs-plastic",
+      "carbon-fibre",
+      "acrylic-glass"
+    ],
+    "rule": "Use a hard case metal for the shell, fired enamel for the dial and blued steel for the hands, and keep the brass plates inside."
+  },
+  "construction": {
+    "methods": [
+      "interchangeable parts cut by machine",
+      "gilt brass plates with damascene",
+      "double-sunk enamel dial",
+      "jewels in gold settings",
+      "lever-set stem",
+      "adjustment in five positions"
+    ],
+    "closures": "A screw bezel and a snap back keep out dust; a pendant crown winds the watch and a lever beside the crown sets it.",
+    "details": "An open face or a hunter lid, a bow fixed with a pin and a fob on the chain. The dial or the plate carries a name and a grade."
+  },
+  "surface": {
+    "finishes": [
+      "engraved",
+      "guilloche",
+      "polished",
+      "enamelled",
+      "gilded"
+    ],
+    "pattern": "Engine-turned or engraved scrolls and a monogram on the case; a plain white dial with black numerals.",
+    "gloss": "Polished case at 70 to 90 GU; enamel at 80 to 100 GU.",
+    "wear": "Rub marks wear the gold layer through at the edges and show the brass below; the enamel dial keeps its white."
+  },
+  "palette": {
+    "strategy": "Use a white dial and black numerals for legibility, a gold or silver case, and blued hands. Use red only for the 24 hour numerals of a rail dial.",
+    "colours": [
+      {
+        "name": "Gold-filled yellow",
+        "hex": "#B8943E",
+        "role": "case"
+      },
+      {
+        "name": "Enamel white",
+        "hex": "#F2EFE6",
+        "role": "dial"
+      },
+      {
+        "name": "Numeral black",
+        "hex": "#16161A",
+        "role": "numerals"
+      },
+      {
+        "name": "Blued steel",
+        "hex": "#2B3F66",
+        "role": "hands"
+      },
+      {
+        "name": "Case silver",
+        "hex": "#C9C9C5",
+        "role": "silver case"
+      },
+      {
+        "name": "Signal red",
+        "hex": "#A3231F",
+        "role": "24 hour numerals"
+      }
+    ]
+  },
+  "making": {
+    "processes": [
+      "machine-cut interchangeable plates and wheels",
+      "hand finishing and adjustment",
+      "enamel firing of dials",
+      "engraving of cases",
+      "inspection by a rail watch inspector"
+    ],
+    "scale": "Factory output in model lines: one maker built about 40 million watches, clocks and instruments from 1850 to 1957.",
+    "signs": "A maker's name, a grade and a serial number on the dial and the plate, and a screw bezel on a thick case."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "pocket-watch",
+        "form": "Hunter case with an engraved scroll and monogram",
+        "material": "gold-filled",
+        "finish": "engraved"
+      },
+      {
+        "object": "pocket-watch",
+        "form": "Open-face case with an engine-turned back",
+        "material": "sterling-silver",
+        "finish": "guilloche"
+      },
+      {
+        "object": "pocket-watch",
+        "form": "Double-sunk white dial with black Arabic numerals",
+        "material": "vitreous-enamel",
+        "finish": "polished"
+      },
+      {
+        "object": "pocket-watch",
+        "form": "Gilt brass movement plates with damascene",
+        "material": "brass",
+        "finish": "gilded"
+      },
+      {
+        "object": "chronograph",
+        "form": "Open-face case with a split-second chronograph",
+        "material": "yellow-gold",
+        "finish": "polished"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "American railroad pocket watch",
+      "1890s Waltham",
+      "white enamel dial",
+      "black Arabic numerals",
+      "blued spade hands",
+      "gold-filled hunter case",
+      "engraved monogram",
+      "thick open-face case",
+      "gilt movement with damascene",
+      "watch fob on a chain",
+      "macro photograph, warm studio light"
+    ],
+    "negative": [
+      "thin dress case",
+      "digital display",
+      "rubber strap",
+      "steel sport bezel",
+      "script numerals",
+      "coloured dial"
+    ],
+    "canonical_works": [
+      {
+        "work": "Model 1857 watch",
+        "maker": "American Waltham Watch Company",
+        "year": 1857
+      },
+      {
+        "work": "Vanguard railroad watch",
+        "maker": "American Waltham Watch Company",
+        "year": 1899
+      },
+      {
+        "work": "Model 992 railroad watch",
+        "maker": "Hamilton Watch Company",
+        "year": 1908
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Waltham Railroad Watch, Eaton’s, 1917",
+      "kind": "image",
+      "credit": "Anonymous illustrator",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Waltham_Railroad_Watch,_Eaton%E2%80%99s,_1917.png",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Waltham_Railroad_Watch%2C_Eaton%E2%80%99s%2C_1917.png",
+      "maker": "Waltham Watch Company",
+      "year": 1917
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "breguet-classical-watch"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "victorian-manufacture",
+      "industrial-utility-product"
+    ]
+  },
+  "emotion": {
+    "target_response": "A trust in shared time: a clear face, a heavy case and a part that any shop can replace.",
+    "keywords": [
+      "dependable",
+      "legible",
+      "sturdy",
+      "civic",
+      "plain"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "railroad watch",
+      "waltham watch",
+      "american pocket watch",
+      "hunter case",
+      "gold filled case",
+      "double sunk dial",
+      "montgomery dial",
+      "1890s pocket watch"
+    ],
+    "use_cases": [
+      "a prop for a western or a railway drama",
+      "a collector guide to antique watches",
+      "a vintage object prompt for a pocket watch"
+    ],
+    "avoid_when": [
+      "the brief wants a thin dress watch",
+      "the brief wants a wristwatch",
+      "the brief is modern luxury"
+    ],
+    "modifiers": [
+      {
+        "request": "thinner, finer, in gold",
+        "toward": "breguet-classical-watch",
+        "how": "Thin the case to 8 mm, turn the dial on an engine, blue the hands with open tips, and cut a coin edge."
+      },
+      {
+        "request": "smaller, on the wrist",
+        "toward": "early-wristwatch",
+        "how": "Shrink the case to 30 mm, add wire lugs and a leather strap, and keep the white dial."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Waltham Watch Company",
+      "url": "https://en.wikipedia.org/wiki/Waltham_Watch_Company"
+    },
+    {
+      "title": "Wikipedia: Webb C. Ball",
+      "url": "https://en.wikipedia.org/wiki/Webb_C._Ball"
+    },
+    {
+      "title": "Wikipedia: Pocket watch",
+      "url": "https://en.wikipedia.org/wiki/Pocket_watch"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.3,
+      "min": 0.1,
+      "max": 0.6
+    },
+    "proportion_scale": {
+      "default": 0.6,
+      "min": 0.4,
+      "max": 0.9
+    },
+    "surface_gloss": {
+      "default": 65,
+      "min": 30,
+      "max": 90
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1
+    },
+    "metal_tone": {
+      "default": "yellow-gold",
+      "options": [
+        "yellow-gold",
+        "silver",
+        "brass",
+        "rose-gold"
+      ]
+    }
+  }
+}

@@ -277,7 +277,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md)
 - **Mixes well with:** [`cyberdelia`](../cyberdelia/SKILL.md), [`skeuomorphism`](../skeuomorphism/SKILL.md)
-- **Kin in another domain:** [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`vector-display-arcade`](../vector-display-arcade/SKILL.md)
+- **Kin in another domain:** [`electronic-and-digital-watch`](../electronic-and-digital-watch/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`vector-display-arcade`](../vector-display-arcade/SKILL.md)
 - **Nearest by vector profile:** [`apple-aqua`](../apple-aqua/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`skeuomorphism`](../skeuomorphism/SKILL.md)
 
 ## Emotional target

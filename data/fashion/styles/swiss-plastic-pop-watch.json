@@ -1,0 +1,350 @@
+{
+  "$schema": "../../../schema/domains/fashion.schema.json",
+  "id": "swiss-plastic-pop-watch",
+  "domain": "fashion",
+  "name": "Swiss plastic pop watch",
+  "aliases": [
+    "Plastic fashion watch",
+    "Swatch style",
+    "Fashion watch of the 1980s"
+  ],
+  "era_id": "power-and-subculture",
+  "branch": "watch",
+  "time_period": {
+    "start": 1983,
+    "end": 1999,
+    "label": "1983–1999"
+  },
+  "region": "Switzerland",
+  "summary": "A cheap Swiss quartz watch in a plastic case with a bright pattern. The maker sells it as an accessory and changes it each season. The Swatch line of 1983 set it.",
+  "philosophy": {
+    "core_thesis": "A watch can be a fashion accessory that one wears for a season. The maker sells colour and a pattern at a price that allows many watches.",
+    "design_principles": [
+      "Mould the case from plastic in one piece with the strap lugs, so that it needs few parts.",
+      "Limit the number of parts to about 51, with a quartz module that the maker welds into the case.",
+      "Print a bold pattern in two to four colours on the dial, the strap or the case.",
+      "Release two collections each year, so that the buyer returns each season.",
+      "Make the dial large and flat with simple hands, so that the time is clear.",
+      "Make the strap from the same plastic as the case, in a vivid colour.",
+      "Price each watch at the level of a pair of shoes, so that one can own many.",
+      "Invite artists and designers to draw the face for limited editions."
+    ],
+    "anti_patterns": [
+      "A precious metal case",
+      "A leather strap with a classic buckle",
+      "A plain grey dial with no colour",
+      "A complex movement that one cannot repair cheaply",
+      "A dial with fine print and small numerals",
+      "A watch that costs as much as a suit"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "structure": 2,
+    "luxury": 1,
+    "technicality": 2,
+    "chromatic_intensity": 5
+  },
+  "silhouette": {
+    "shape": "A thin round plastic case with a flat glass, a one-piece strap and a bold printed dial.",
+    "line": "A flat disc with a smooth side, a plain bezel and a strap that clips straight into the case.",
+    "fit": "The strap is soft and light, and the case lies flat on the wrist.",
+    "proportion": "Case thickness to width about 1 to 4; the dial fills about 80 per cent of the face; the strap is 17 mm wide.",
+    "rules": [
+      "Make the dial a flat field for graphics, with hands that stay clear of the print.",
+      "Use bright primary and neon colours on the case, the strap and the dial together.",
+      "Keep the case a single colour and print the pattern on the dial only.",
+      "Use bold simple numerals or no numerals at all."
+    ]
+  },
+  "fabrics": {
+    "primary": [
+      "abs-plastic",
+      "acrylic-glass",
+      "polyurethane-leatherette",
+      "vulcanised-rubber"
+    ],
+    "secondary": [
+      "stainless-steel",
+      "pvc-leathercloth",
+      "canvas"
+    ],
+    "avoid": [
+      "yellow-gold",
+      "vitreous-enamel",
+      "calfskin",
+      "diamond",
+      "exotic-skin"
+    ],
+    "rule": "Use moulded plastic for the case and for the strap, a flat plastic crystal for the glass, and print the pattern on the dial."
+  },
+  "construction": {
+    "methods": [
+      "injection moulding of the case",
+      "ultrasonic welding of the case",
+      "quartz module with few parts",
+      "screen printing of the dial",
+      "strap moulded with the lugs",
+      "plastic crystal fixed in the case"
+    ],
+    "closures": "A plastic or steel buckle closes the strap; the crown sits flush with the case.",
+    "details": "A bright dial pattern, a one-piece strap in a vivid colour, a flat case and a clear plastic crystal."
+  },
+  "surface": {
+    "finishes": [
+      "moulded",
+      "screen-printed",
+      "matte",
+      "polished",
+      "coated"
+    ],
+    "pattern": "Geometric shapes, stripes and dots in bright colours on the dial and the strap.",
+    "gloss": "Matt plastic at 15 to 35 GU; glossy plastic at 70 to 90 GU; the crystal at 85 GU.",
+    "wear": "The plastic scratches and fades in the sun; the strap yellows and cracks; one replaces the watch, not the part."
+  },
+  "palette": {
+    "strategy": "Bright primary and neon colours in blocks, with white and black for the hands and the print.",
+    "colours": [
+      {
+        "name": "Pop red",
+        "hex": "#E2231A",
+        "role": "case"
+      },
+      {
+        "name": "Pop yellow",
+        "hex": "#FFD400",
+        "role": "strap"
+      },
+      {
+        "name": "Pop blue",
+        "hex": "#0A5CC8",
+        "role": "dial"
+      },
+      {
+        "name": "Neon pink",
+        "hex": "#FF4FA3",
+        "role": "pattern"
+      },
+      {
+        "name": "Mint green",
+        "hex": "#3DDC97",
+        "role": "pattern"
+      },
+      {
+        "name": "Ink black",
+        "hex": "#111111",
+        "role": "hands and print"
+      }
+    ]
+  },
+  "making": {
+    "processes": [
+      "injection moulding of case and strap",
+      "ultrasonic welding",
+      "pad printing of the dial",
+      "automatic assembly line",
+      "limited editions with artists"
+    ],
+    "scale": "Mass production in millions of watches a year, with new designs twice a year.",
+    "signs": "A moulded plastic case, a bright pattern on the dial and a one-piece strap."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "watch-strap",
+        "form": "One-piece plastic strap in a vivid colour",
+        "material": "abs-plastic",
+        "finish": "moulded"
+      },
+      {
+        "object": "watch-strap",
+        "form": "Soft strap with a printed pattern",
+        "material": "polyurethane-leatherette",
+        "finish": "screen-printed"
+      },
+      {
+        "object": "digital-watch",
+        "form": "Thin plastic case with a printed dial",
+        "material": "abs-plastic",
+        "finish": "polished"
+      },
+      {
+        "object": "digital-watch",
+        "form": "Flat clear crystal over a bold dial",
+        "material": "acrylic-glass",
+        "finish": "polished"
+      },
+      {
+        "object": "watch-strap",
+        "form": "Fabric strap with a plain steel buckle",
+        "material": "canvas",
+        "finish": "screen-printed"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1980s plastic pop watch",
+      "bright printed dial",
+      "one-piece plastic strap",
+      "neon colours",
+      "memphis pattern",
+      "thin round plastic case",
+      "flat clear crystal",
+      "fashion accessory photograph",
+      "pastel studio background",
+      "geometric graphics",
+      "stack of coloured watches"
+    ],
+    "negative": [
+      "gold case",
+      "leather strap",
+      "enamel dial",
+      "steel bracelet",
+      "diamond",
+      "classic dress watch"
+    ],
+    "canonical_works": [
+      {
+        "work": "Swatch Jellyfish",
+        "maker": "Swatch",
+        "year": 1983
+      },
+      {
+        "work": "Swatch Scuba 200",
+        "maker": "Swatch",
+        "year": 1983
+      },
+      {
+        "work": "Swatch Keith Haring edition",
+        "maker": "Swatch",
+        "year": 1985
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Swatch-1985 hg",
+      "kind": "image",
+      "credit": "Hannes Grobe",
+      "licence": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Swatch-1985_hg.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Swatch-1985_hg.jpg/960px-Swatch-1985_hg.jpg",
+      "maker": "Swatch",
+      "year": 1985
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "electronic-and-digital-watch"
+    ],
+    "rebelled_against": [
+      "luxury-steel-sports-watch"
+    ],
+    "hybridized_with": [
+      "streetwear"
+    ],
+    "echoes": [
+      "memphis-product",
+      "memphis-design",
+      "pop-art-painting"
+    ]
+  },
+  "emotion": {
+    "target_response": "Playful delight: the viewer sees a cheap, loud toy that tells the time and goes with any outfit.",
+    "keywords": [
+      "playful",
+      "loud",
+      "cheap",
+      "colourful",
+      "young"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "swatch",
+      "plastic watch",
+      "fashion watch",
+      "pop watch",
+      "jelly watch",
+      "memphis watch",
+      "1980s watch",
+      "colourful watch"
+    ],
+    "use_cases": [
+      "a prop for a film set in the 1980s",
+      "a pop accessory brief",
+      "an image prompt for a stack of plastic watches"
+    ],
+    "avoid_when": [
+      "the brief wants luxury or craft",
+      "the brief wants steel or gold",
+      "the brief wants a rugged tool watch"
+    ],
+    "modifiers": [
+      {
+        "request": "plain, in steel",
+        "toward": "luxury-steel-sports-watch",
+        "how": "Swap plastic for steel and gold, cut a patterned dial and make a bracelet from the case line."
+      },
+      {
+        "request": "with a smart screen",
+        "toward": "smartwatch",
+        "how": "Replace the dial with a touch screen and keep the plain strap and the soft colours."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Swatch",
+      "url": "https://en.wikipedia.org/wiki/Swatch"
+    },
+    {
+      "title": "Wikipedia: Plastic",
+      "url": "https://en.wikipedia.org/wiki/Plastic"
+    },
+    {
+      "title": "Wikipedia: Quartz crisis",
+      "url": "https://en.wikipedia.org/wiki/Quartz_crisis"
+    },
+    {
+      "title": "Wikipedia: Nicolas Hayek",
+      "url": "https://en.wikipedia.org/wiki/Nicolas_Hayek"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.6,
+      "min": 0.2,
+      "max": 1
+    },
+    "proportion_scale": {
+      "default": 0.5,
+      "min": 0.3,
+      "max": 0.9
+    },
+    "surface_gloss": {
+      "default": 60,
+      "min": 15,
+      "max": 95
+    },
+    "era_blend": {
+      "default": 0.4,
+      "min": 0,
+      "max": 1
+    },
+    "metal_tone": {
+      "default": "none",
+      "options": [
+        "none",
+        "black",
+        "silver",
+        "steel"
+      ]
+    }
+  }
+}

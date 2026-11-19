@@ -214,7 +214,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`beaux-arts-architecture`](../beaux-arts-architecture/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`baroque-architecture`](../baroque-architecture/SKILL.md)
 - **Was rejected by:** [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md)
-- **Kin in another domain:** [`didone-serif`](../didone-serif/SKILL.md), [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`transitional-serif`](../transitional-serif/SKILL.md)
+- **Kin in another domain:** [`didone-serif`](../didone-serif/SKILL.md), [`empire-line-dress`](../empire-line-dress/SKILL.md), [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`transitional-serif`](../transitional-serif/SKILL.md)
 - **Nearest by vector profile:** [`renaissance-architecture`](../renaissance-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`art-deco-architecture`](../art-deco-architecture/SKILL.md)
 
 ## Emotional target

@@ -1,0 +1,360 @@
+{
+  "$schema": "../../../schema/domains/fashion.schema.json",
+  "id": "electronic-and-digital-watch",
+  "domain": "fashion",
+  "name": "Electronic and digital watch",
+  "aliases": [
+    "Quartz watch",
+    "LED watch",
+    "LCD watch",
+    "Digital watch"
+  ],
+  "era_id": "youthquake",
+  "branch": "watch",
+  "time_period": {
+    "start": 1969,
+    "end": 1989,
+    "label": "1969–1989"
+  },
+  "region": "Japan, the United States and Switzerland",
+  "summary": "The watch with no hands and no spring. A quartz crystal keeps the time, and a red light or a grey liquid crystal shows the digits. The Seiko Astron of 1969 and the Pulsar of 1972 set it.",
+  "philosophy": {
+    "core_thesis": "A watch is an electronic instrument, so it shows the time as digits. A crystal with no moving parts keeps the time.",
+    "design_principles": [
+      "Keep the time with a quartz crystal that vibrates 32,768 times each second.",
+      "Show the time as digits in red LED or in black on a grey LCD, with a seven segment shape for each digit.",
+      "Make the case in steel, gold or plastic, as a flat, bold shape with a square or a cushion form.",
+      "Hide the display until the user presses a button on the case side, for the early LED models.",
+      "Add functions in rows of buttons: date, alarm, stopwatch and a second time zone.",
+      "Make the case 30 to 45 mm wide and 8 to 12 mm thick, with a flat top and a clean face.",
+      "Use a black or a dark red display glass with no hands and no markers.",
+      "Price the watch by its function, so that a watch with more functions costs more."
+    ],
+    "anti_patterns": [
+      "A hands dial with a printed quartz label",
+      "A case with engraved, chased or enamelled work",
+      "A display with a decorative font",
+      "A thick case with a heavy bezel",
+      "A face with markers that have no use",
+      "A leather strap with a fancy stitched edge"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "structure": 3,
+    "luxury": 2,
+    "technicality": 5,
+    "chromatic_intensity": 3
+  },
+  "silhouette": {
+    "shape": "A flat case in a square, cushion or tonneau form. It has a blank black face and buttons on the side.",
+    "line": "Straight edges with rounded corners, a single plane on the top and a slim profile.",
+    "fit": "The watch lies flat on the wrist on a bracelet or a thin strap.",
+    "proportion": "Case thickness to width is about 1 to 4. The display fills about 50 per cent of the face. The digits are 6 to 8 mm tall.",
+    "rules": [
+      "Use one display, one font and no dial print apart from small labels.",
+      "Place the buttons on the side, in a line, with the same size.",
+      "Make the case in one tone, so that the display provides the only contrast.",
+      "Keep the face free of marks except for brand and function labels."
+    ]
+  },
+  "fabrics": {
+    "primary": [
+      "stainless-steel",
+      "abs-plastic",
+      "quartz-crystal",
+      "acrylic-glass",
+      "yellow-gold"
+    ],
+    "secondary": [
+      "vulcanised-rubber",
+      "chrome-plate",
+      "synthetic-sapphire"
+    ],
+    "avoid": [
+      "vitreous-enamel",
+      "calfskin",
+      "tortoiseshell",
+      "exotic-skin",
+      "diamond"
+    ],
+    "rule": "Put the quartz crystal in a steel, plastic or gold case with a flat glass; show the time as red or grey digits."
+  },
+  "construction": {
+    "methods": [
+      "quartz crystal oscillator",
+      "integrated circuit module",
+      "LED or liquid crystal display",
+      "button on the side of the case",
+      "sealed battery cell",
+      "flat case with a snap-on or a screw-on back"
+    ],
+    "closures": "A bracelet clasp or a pin buckle closes the strap; side buttons switch the display and the functions.",
+    "details": "A black glass face, digits in red or grey, a row of side buttons and a flat steel or plastic case."
+  },
+  "surface": {
+    "finishes": [
+      "brushed",
+      "polished",
+      "matte",
+      "pvd-coated",
+      "moulded"
+    ],
+    "pattern": "A black or red glass face with digits in a seven segment font and no other print.",
+    "gloss": "Brushed steel at 15 to 40 GU; the display glass at 80 to 95 GU; the plastic case at 40 to 70 GU.",
+    "wear": "The steel scratches, the plastic yellows, the display fades over decades and the rubber strap cracks."
+  },
+  "palette": {
+    "strategy": "A dark face with one light colour for the digits; a steel, gold or black case.",
+    "colours": [
+      {
+        "name": "Display black",
+        "hex": "#0B0B0D",
+        "role": "face"
+      },
+      {
+        "name": "LED red",
+        "hex": "#FF2A1F",
+        "role": "digits"
+      },
+      {
+        "name": "LCD grey",
+        "hex": "#9DA39A",
+        "role": "liquid crystal"
+      },
+      {
+        "name": "Steel grey",
+        "hex": "#B8BCC0",
+        "role": "case"
+      },
+      {
+        "name": "Gold",
+        "hex": "#C9A24B",
+        "role": "gold case"
+      },
+      {
+        "name": "Case black",
+        "hex": "#1C1C1E",
+        "role": "plastic or coated case"
+      }
+    ]
+  },
+  "making": {
+    "processes": [
+      "growth of a quartz crystal",
+      "assembly of an integrated circuit",
+      "lamination of the display",
+      "steel or gold case manufacture",
+      "injection moulding of the plastic case"
+    ],
+    "scale": "From a few hundred gold watches in 1972 to millions of plastic watches a year in the late 1970s.",
+    "signs": "No hands, digits in a seven segment shape, buttons on the side and a flat black face."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "digital-watch",
+        "form": "Flat steel case with a black face and red digits",
+        "material": "stainless-steel",
+        "finish": "brushed"
+      },
+      {
+        "object": "digital-watch",
+        "form": "Black plastic case with a grey liquid crystal display",
+        "material": "abs-plastic",
+        "finish": "moulded"
+      },
+      {
+        "object": "digital-watch",
+        "form": "Flat glass cover over the display",
+        "material": "acrylic-glass",
+        "finish": "polished"
+      },
+      {
+        "object": "digital-watch",
+        "form": "Gold case with a red display and a bracelet",
+        "material": "yellow-gold",
+        "finish": "polished"
+      },
+      {
+        "object": "watch-strap",
+        "form": "Black rubber strap with a pin buckle",
+        "material": "vulcanised-rubber",
+        "finish": "moulded"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1970s digital watch",
+      "red LED digits on black glass",
+      "grey liquid crystal display",
+      "seven segment digits",
+      "flat square case",
+      "side buttons",
+      "steel bracelet",
+      "black plastic case",
+      "no hands",
+      "space age product photograph",
+      "wrist close up, hard flash"
+    ],
+    "negative": [
+      "analogue hands",
+      "enamel dial",
+      "leather strap",
+      "diamond bezel",
+      "roman numerals",
+      "ornate case"
+    ],
+    "canonical_works": [
+      {
+        "work": "Astron 35SQ",
+        "maker": "Seiko",
+        "year": 1969
+      },
+      {
+        "work": "Pulsar P1",
+        "maker": "Hamilton",
+        "year": 1972
+      },
+      {
+        "work": "Casio F-91W",
+        "maker": "Casio",
+        "year": 1989
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Seiko Astron",
+      "kind": "image",
+      "credit": "Deutsches-uhrenmuseum",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Seiko_Astron.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Seiko_Astron.jpg/960px-Seiko_Astron.jpg",
+      "maker": "Seiko",
+      "year": 1969
+    },
+    {
+      "title": "Casio F-91W 5051",
+      "kind": "image",
+      "credit": "Ashley Pomeroy",
+      "licence": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Casio_F-91W_5051.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Casio_F-91W_5051.jpg/960px-Casio_F-91W_5051.jpg",
+      "maker": "Casio"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "breguet-classical-watch"
+    ],
+    "hybridized_with": [
+      "space-age-couture"
+    ],
+    "echoes": [
+      "space-age-pop-product",
+      "cassette-futurism",
+      "vector-display-arcade"
+    ]
+  },
+  "emotion": {
+    "target_response": "A sense of the near future: the viewer sees a face without hands that shows the time in light.",
+    "keywords": [
+      "futuristic",
+      "exact",
+      "flat",
+      "technical",
+      "cool"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "magician"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "digital watch",
+      "led watch",
+      "lcd watch",
+      "quartz watch",
+      "pulsar",
+      "quartz crisis",
+      "calculator watch",
+      "seven segment watch"
+    ],
+    "use_cases": [
+      "a prop for a film set in the 1970s or 1980s",
+      "a retro future product brief",
+      "an image prompt for a digital watch on a wrist"
+    ],
+    "avoid_when": [
+      "the brief wants a mechanical dial with hands",
+      "the brief wants a classic dress watch",
+      "the brief wants a hand made look"
+    ],
+    "modifiers": [
+      {
+        "request": "loud and plastic",
+        "toward": "swiss-plastic-pop-watch",
+        "how": "Use a bright plastic case and strap, put a printed dial with hands in place of the display and add a pattern."
+      },
+      {
+        "request": "with a touch screen",
+        "toward": "smartwatch",
+        "how": "Use a colour screen that covers the face, add a digital crown and show apps in place of digits."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Quartz clock",
+      "url": "https://en.wikipedia.org/wiki/Quartz_clock"
+    },
+    {
+      "title": "Wikipedia: Digital watch",
+      "url": "https://en.wikipedia.org/wiki/Digital_watch"
+    },
+    {
+      "title": "Wikipedia: Pulsar (watch)",
+      "url": "https://en.wikipedia.org/wiki/Pulsar_(watch)"
+    },
+    {
+      "title": "Wikipedia: Quartz crisis",
+      "url": "https://en.wikipedia.org/wiki/Quartz_crisis"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.15,
+      "min": 0,
+      "max": 0.4
+    },
+    "proportion_scale": {
+      "default": 0.5,
+      "min": 0.2,
+      "max": 1
+    },
+    "surface_gloss": {
+      "default": 60,
+      "min": 15,
+      "max": 95
+    },
+    "era_blend": {
+      "default": 0.3,
+      "min": 0,
+      "max": 1
+    },
+    "metal_tone": {
+      "default": "steel",
+      "options": [
+        "steel",
+        "black",
+        "yellow-gold",
+        "chrome",
+        "none"
+      ]
+    }
+  }
+}

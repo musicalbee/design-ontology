@@ -202,7 +202,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`victorian-manufacture`](../victorian-manufacture/SKILL.md)
 - **Was rejected by:** [`shaker-object`](../shaker-object/SKILL.md)
-- **Kin in another domain:** [`georgian-interior`](../georgian-interior/SKILL.md), [`neoclassical-architecture`](../neoclassical-architecture/SKILL.md)
+- **Kin in another domain:** [`breguet-classical-watch`](../breguet-classical-watch/SKILL.md), [`empire-line-dress`](../empire-line-dress/SKILL.md), [`english-bespoke-tailoring`](../english-bespoke-tailoring/SKILL.md), [`georgian-interior`](../georgian-interior/SKILL.md), [`georgian-jewellery`](../georgian-jewellery/SKILL.md), [`neoclassical-architecture`](../neoclassical-architecture/SKILL.md)
 - **Nearest by vector profile:** [`art-deco-product`](../art-deco-product/SKILL.md), [`art-nouveau-object`](../art-nouveau-object/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)
 
 ## Emotional target

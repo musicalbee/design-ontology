@@ -1,6 +1,6 @@
 {
   "name": "design-ontology",
-  "version": "0.1.62",
+  "version": "0.1.65",
   "description": "A machine-readable ontology of design styles that compiles into agent skills.",
   "private": true,
   "type": "module",
@@ -26,7 +26,8 @@
     "lockups": "tsx scripts/render-logo-lockups.ts",
     "elevations": "tsx scripts/trace-elevations.ts",
     "proofs": "tsx scripts/render-print-proofs.ts",
-    "test": "tsx --test scripts/net.test.ts"
+    "test": "tsx --test scripts/net.test.ts",
+    "swatches": "tsx scripts/render-fashion-swatches.ts"
   },
   "devDependencies": {
     "@types/node": "^26.6.6",

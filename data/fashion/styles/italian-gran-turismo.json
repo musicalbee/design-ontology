@@ -1,0 +1,362 @@
+{
+  "$schema": "../../../schema/domains/fashion.schema.json",
+  "id": "italian-gran-turismo",
+  "domain": "fashion",
+  "name": "Italian Gran Turismo",
+  "aliases": [
+    "Italian GT",
+    "Berlinetta",
+    "Carrozzeria GT"
+  ],
+  "era_id": "war-and-new-look",
+  "branch": "cars",
+  "time_period": {
+    "start": 1947,
+    "end": 1972,
+    "label": "1947–1972"
+  },
+  "region": "Turin and Milan, Italy",
+  "summary": "The lean coupe for long, fast journeys. A low body of hand-beaten aluminium, thin pillars, a long bonnet and wire wheels. The cabin has leather, a wood-rim wheel and round gauges.",
+  "philosophy": {
+    "core_thesis": "A fine car is a sculpture that has a purpose. A taut, light body with no extra line, made by a carrozzeria around a fast engine.",
+    "design_principles": [
+      "Keep the body low, with a roof height of 1.25 to 1.35 m.",
+      "Make the overhangs short, and hold a long bonnet over a front engine.",
+      "Beat the body from aluminium sheet by hand over a wood buck, and fit it to a light tube frame.",
+      "Use thin roof pillars and a large glass area, so that the cabin looks like a bubble.",
+      "Limit chrome to a thin line: a grille, a bumper blade and the door handles.",
+      "Fit wire wheels with a knock-off hub, and leave the arches clean.",
+      "Trim the cabin in leather, with a wood-rim steering wheel and round, deep-set gauges."
+    ],
+    "anti_patterns": [
+      "Heavy chrome and tail fins",
+      "A tall, boxy cabin",
+      "Plastic wheel covers",
+      "Bulky overhangs",
+      "A busy dashboard with many switches"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "structure": 4,
+    "luxury": 5,
+    "technicality": 3,
+    "chromatic_intensity": 3
+  },
+  "silhouette": {
+    "shape": "A low, taut two-door coupe, with a long bonnet, a compact cabin set back and a short, tapered tail.",
+    "line": "A clean waist line that runs from the headlamp to the tail, and a roof that curves down into a fastback or a short notch.",
+    "fit": "Two seats close to the floor, with the driver tight to the wheel and the pedals; there is little space for bags.",
+    "proportion": "Roof height 1.25 to 1.35 m; wheelbase 2.4 to 2.6 m; the bonnet is about a third of the car length.",
+    "rules": [
+      "Draw one simple surface that flows without a break from front to rear.",
+      "Set a small oval grille low in the nose, with a fine bar or a chrome blade.",
+      "Keep the pillars thin and the glass large.",
+      "Add air outlets, a louvre or a small badge as the only side detail."
+    ]
+  },
+  "fabrics": {
+    "primary": [
+      "aluminium",
+      "calfskin",
+      "burr-walnut",
+      "stainless-steel",
+      "chrome-plate"
+    ],
+    "secondary": [
+      "vegetable-tanned-leather",
+      "flannel",
+      "felt",
+      "pressed-steel",
+      "suede",
+      "bakelite"
+    ],
+    "avoid": [
+      "pvc-leathercloth",
+      "abs-plastic",
+      "fibreglass",
+      "carbon-fibre",
+      "jacquard"
+    ],
+    "rule": "Use light, honest metal and hide. Use aluminium for the body, thin plated metal for the line, leather for the seats and wood for the wheel rim."
+  },
+  "construction": {
+    "methods": [
+      "tube frame covered by an aluminium body",
+      "panels beaten by hand over a wood buck",
+      "full-size plaster or wood models",
+      "leather cut and sewn by hand in a pleated pattern",
+      "wire wheels with a centre lock",
+      "engine-turned metal on the fascia"
+    ],
+    "closures": "Doors with a thin chrome handle or a push button, quarter windows that open, and a small boot lid with a lock.",
+    "details": "Wire wheels, a Nardi-style wood-rim wheel, a small oval grille, a rear window set low, and a badge on the wing."
+  },
+  "surface": {
+    "finishes": [
+      "polished",
+      "brushed",
+      "gloss-paint",
+      "burnished",
+      "matte",
+      "guilloche"
+    ],
+    "pattern": "Plain body colour with no stripe; a simple stitched leather pattern in the cabin.",
+    "gloss": "Cellulose paint at 70–85 GU; brushed aluminium at 20–40 GU; leather at 5–15 GU.",
+    "wear": "Paint is repainted by hand; aluminium dents are beaten out; leather and wood take a patina that owners prize."
+  },
+  "palette": {
+    "strategy": "A single strong colour on the body, such as red or silver, with a plain tan or black cabin and a thin line of chrome.",
+    "colours": [
+      {
+        "name": "Italian red",
+        "hex": "#B3201F",
+        "role": "body"
+      },
+      {
+        "name": "Silver grey",
+        "hex": "#B7BABE",
+        "role": "body"
+      },
+      {
+        "name": "Midnight blue",
+        "hex": "#1B2745",
+        "role": "body"
+      },
+      {
+        "name": "Ivory",
+        "hex": "#EDE3C9",
+        "role": "body"
+      },
+      {
+        "name": "Tan hide",
+        "hex": "#9A6A3F",
+        "role": "seats"
+      },
+      {
+        "name": "Wood rim brown",
+        "hex": "#6A4224",
+        "role": "steering wheel"
+      }
+    ]
+  },
+  "making": {
+    "processes": [
+      "a design drawn by the carrozzeria master",
+      "aluminium panels beaten by hand",
+      "leather cut and sewn",
+      "wood wheel rim turned and finished",
+      "hand painting in cellulose"
+    ],
+    "scale": "A few cars a week, each fitted by hand; a model of 1 to 2 thousand cars, with many one-off variants.",
+    "signs": "Hand-beaten panels with a faint wave, a small badge and a coachbuilder's name on the wing, and a leather cabin with no plastic."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "grand-tourer",
+        "form": "Low two-door berlinetta with a long bonnet and a fastback roof",
+        "material": "aluminium",
+        "finish": "gloss-paint"
+      },
+      {
+        "object": "coupe",
+        "form": "Compact coupe with thin pillars and a large glass area",
+        "material": "aluminium",
+        "finish": "gloss-paint"
+      },
+      {
+        "object": "steering-wheel",
+        "form": "Thin wheel with a wood rim and drilled aluminium spokes",
+        "material": "burr-walnut",
+        "finish": "polished"
+      },
+      {
+        "object": "seat-upholstery",
+        "form": "Low bucket seats in leather with a pleated centre",
+        "material": "calfskin",
+        "finish": "burnished"
+      },
+      {
+        "object": "wheel",
+        "form": "Wire wheel with a centre-lock hub",
+        "material": "stainless-steel",
+        "finish": "polished"
+      },
+      {
+        "object": "brightwork",
+        "form": "Thin chrome grille blade and bumper line",
+        "material": "chrome-plate",
+        "finish": "polished"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1950s Italian coupe",
+      "gran turismo",
+      "berlinetta",
+      "hand-beaten aluminium body",
+      "long bonnet short tail",
+      "thin roof pillars",
+      "wire wheels",
+      "wood-rim steering wheel",
+      "leather bucket seats",
+      "Italian red paint",
+      "carrozzeria badge",
+      "classic car photograph"
+    ],
+    "negative": [
+      "tail fin",
+      "heavy chrome",
+      "vinyl seat",
+      "plastic bumper",
+      "spoiler",
+      "boxy body"
+    ],
+    "canonical_works": [
+      {
+        "work": "Cisitalia 202 GT",
+        "maker": "Pinin Farina",
+        "year": 1947
+      },
+      {
+        "work": "Lancia Aurelia B20 GT",
+        "maker": "Pinin Farina",
+        "year": 1951
+      },
+      {
+        "work": "Maserati 3500 GT",
+        "maker": "Touring Superleggera",
+        "year": 1957
+      },
+      {
+        "work": "Ferrari 250 GT Berlinetta",
+        "maker": "Pininfarina",
+        "year": 1959
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Ferrari 250 GT Coupe.jpg",
+      "kind": "image",
+      "credit": "Calreyn88",
+      "licence": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Ferrari_250_GT_Coupe.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Ferrari_250_GT_Coupe.jpg/960px-Ferrari_250_GT_Coupe.jpg"
+    },
+    {
+      "title": "1946 Alfa Romeo 6C 2500 Sport Touring Superleggera (32019504787).jpg",
+      "kind": "image",
+      "credit": "Rutger van der Maar from Leiden, The Netherlands",
+      "licence": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:1946_Alfa_Romeo_6C_2500_Sport_Touring_Superleggera_(32019504787).jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/1946_Alfa_Romeo_6C_2500_Sport_Touring_Superleggera_%2832019504787%29.jpg/960px-1946_Alfa_Romeo_6C_2500_Sport_Touring_Superleggera_%2832019504787%29.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "vintage-coachbuilt-car",
+      "streamline-car"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "A sense of taste and speed. The viewer sees a taut body, a quiet cabin and a driver who knows the road.",
+    "keywords": [
+      "elegant",
+      "taut",
+      "refined",
+      "fast",
+      "crafted"
+    ],
+    "brand_archetypes": [
+      "lover",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "italian gt",
+      "gran turismo",
+      "berlinetta",
+      "1950s italian car",
+      "pininfarina style",
+      "carrozzeria",
+      "touring superleggera",
+      "grand tourer"
+    ],
+    "use_cases": [
+      "a classic car auction page",
+      "a film set on the Riviera in the 1950s",
+      "an image prompt for an Italian coupe",
+      "a design lesson on pure form"
+    ],
+    "avoid_when": [
+      "the brief wants a big American car with chrome",
+      "the brief wants an off-road or a family car",
+      "the brief wants a flat-sided wedge shape"
+    ],
+    "modifiers": [
+      {
+        "request": "flashier, more chrome",
+        "toward": "tailfin-era-car",
+        "how": "Widen the grille, add chrome trim and a fin, and paint the body in two tones."
+      },
+      {
+        "request": "sharper, more modern",
+        "toward": "wedge-design-car",
+        "how": "Flatten the panels, lower the nose and raise the tail to a straight wedge line."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Gran turismo (car)",
+      "url": "https://en.wikipedia.org/wiki/Grand_tourer"
+    },
+    {
+      "title": "Wikipedia: Cisitalia 202",
+      "url": "https://en.wikipedia.org/wiki/Cisitalia_202"
+    },
+    {
+      "title": "Wikipedia: Pininfarina",
+      "url": "https://en.wikipedia.org/wiki/Pininfarina"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.15,
+      "min": 0.05,
+      "max": 0.4,
+      "note": "Almost no ornament: the body line is the ornament."
+    },
+    "proportion_scale": {
+      "default": 0.6,
+      "min": 0.4,
+      "max": 0.9
+    },
+    "surface_gloss": {
+      "default": 70,
+      "min": 30,
+      "max": 90
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1
+    },
+    "metal_tone": {
+      "default": "chrome",
+      "options": [
+        "chrome",
+        "silver",
+        "steel",
+        "yellow-gold"
+      ]
+    }
+  }
+}
