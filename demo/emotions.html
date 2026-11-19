@@ -8,14 +8,10 @@
 <style>
   *, *::before, *::after { box-sizing: border-box; }
   :root {
-    /* Site tokens, as in index.html and nav.js: a pale ground with white cards. One accent (royal) marks the selected term. */
+    /* Site tokens, as in index.html and nav.js: a pale ground with white cards, light only like every other page. One accent (royal) marks the selected term. */
     --ground: #F8F9FD; --paper: #fff; --ink: #1F1F45; --muted: #50527A; --faint: #9A9FC0; --line: #DEE3F2; --band: #EFF2FB; --accent: #264FCC; --accent-bg: #E8F2FF;
     color-scheme: light;
   }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) { --ground: #0B0C20; --paper: #12132B; --ink: #E6E8F7; --muted: #A9AECF; --faint: #6A6F96; --line: #2C2F55; --band: #1C1E3D; --accent: #7FA0FF; --accent-bg: #1F2A55; color-scheme: dark; }
-  }
-  :root[data-theme="dark"] { --ground: #0B0C20; --paper: #12132B; --ink: #E6E8F7; --muted: #A9AECF; --faint: #6A6F96; --line: #2C2F55; --band: #1C1E3D; --accent: #7FA0FF; --accent-bg: #1F2A55; color-scheme: dark; }
   html, body { margin: 0; }
   body { font: 15px/1.55 "Onest", "Helvetica Neue", Arial, sans-serif; background: var(--ground); color: var(--ink); }
   main { max-width: 1400px; margin: 0 auto; padding: 24px 16px 64px; display: grid; gap: 20px; grid-template-columns: minmax(0, 1fr); }
@@ -81,7 +77,10 @@
   .bar.cue { stroke: var(--accent); }
   .bar.weak { stroke-dasharray: 4 3; }
   .cap { stroke: var(--ink); stroke-width: 1; }
-  #cu .mixed { opacity: .45; }
+  #cu .mixed text { fill: var(--muted); }
+  #cu .mixed .tick { fill: var(--muted); font-style: italic; }
+  #cu .mixed .bar.cue { stroke: var(--faint); }
+  #cu .mixed path { fill: var(--faint); }
   .read { display: grid; gap: 16px 28px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); margin: 12px 0 0; }
   .read h3 { margin: 0 0 4px; font-size: 16px; }
   .read p { margin: 0 0 6px; font-size: 14px; color: var(--muted); max-width: 60ch; }
@@ -150,7 +149,7 @@
 
   <section aria-labelledby="h-scene">
     <h2 id="h-scene">4. Scene numbers for <span id="termName2">—</span></h2>
-    <p class="note">Moments that carry the term, with their light on true scales: colour temperature in kelvin, illuminance in lux on a log scale, and sun elevation in degrees. Then the measured cues: a direct cue names the term, and a PAD cue moves an axis in the same direction as the term's point. Some cues move two or three axes. If such a cue moves one axis with the term and another axis against it, it is shown faint, under a rule, with the label "mixed" and the axis that goes against the term. The arrow shows the direction of the change. A dashed bar is a weak effect.</p>
+    <p class="note">Moments that carry the term, with their light on true scales: colour temperature in kelvin, illuminance in lux on a log scale, and sun elevation in degrees. Then the measured cues: a direct cue names the term, and a PAD cue moves an axis in the same direction as the term's point. Some cues move two or three axes. If such a cue moves one axis with the term and another axis against it, it is shown in grey, under a rule, with the label "mixed" and the axis that goes against the term. The arrow shows the direction of the change. A dashed bar is a weak effect.</p>
     <div class="scroll"><svg id="mo" role="img" aria-label="Light ranges of the moments for the selected term"></svg></div>
     <h3 class="sub">Cues</h3>
     <div class="scroll"><svg id="cu" role="img" aria-label="Cue ranges for the selected term"></svg></div>

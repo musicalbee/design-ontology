@@ -199,6 +199,8 @@
     const here = links.querySelector('[aria-current="page"]');
     if (here && links.scrollWidth > links.clientWidth) links.scrollLeft = here.offsetLeft - (links.clientWidth - here.offsetWidth) / 2;
     edges();
+    // The web font changes the link widths after it loads, so measure again then.
+    document.fonts?.ready.then(edges);
 
     // Follow the page: show the controls once it lists styles, and show the current style on the button.
     let seen = false;
