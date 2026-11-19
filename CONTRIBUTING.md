@@ -155,7 +155,7 @@ A funding flow is one payment or one paid support: who paid whom, when, and for 
 2. Set `kind`: `commission`, `stipend`, `purchase`, `exhibition`, `dealer-contract`, `publishing`, `residency`, `prize`, `grant`, `state-programme`, `investment`, `acquisition`, `crowdfunding`, `platform-fund` or `employment`.
 3. Set `years` to the start and the end from an open source. If the end is not known, set it to null. If the start is not known, do not write the flow.
 4. If the receiver is a person or an organisation, name the styles that the money helped in `styles`. Send money to a style only when it went to the movement as a whole.
-5. Cite at least one source that states the flow. Give an `amount` only when a source gives it, and set `amount.source` to the index of that source.
+5. Cite at least one source that states the flow. Give an `amount` only when a source gives it, and set `amount.source` to the index of that source. The `amount.year` is inside `years`.
 6. Set `confidence`: `documented` (a primary record or a scholarly work), `reported` (an encyclopaedia or a press account) or `contested`. A contested flow cites each side.
 7. Run `npm run build`. The build writes `graph/money.json`: the flows, and the flows for each style and each backer.
 

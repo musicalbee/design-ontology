@@ -356,6 +356,13 @@ for (const { file, slug, funding: f } of funding) {
   for (const s of f.styles ?? []) if (!schemaOnly && !byId.has(s)) errors.push(`${file}: style "${s}" does not exist`);
   if (f.years[1] !== null && f.years[1] < f.years[0]) errors.push(`${file}: the end year (${f.years[1]}) is before the start year (${f.years[0]})`);
   if (f.amount && f.amount.source >= f.sources.length) errors.push(`${file}: amount.source ${f.amount.source} is not an index into sources`);
+  // The id is "<from>--<to>", with an optional "-<suffix>" (a year) when one pair has two flows.
+  const base = `${f.from.id}--${f.to.id}`;
+  if (f.id !== base && !f.id.startsWith(`${base}-`)) errors.push(`${file}: id "${f.id}" does not start with "${base}"`);
+  // An amount is for a year inside the flow. An open end (null) admits each year from the start.
+  const amountYear = f.amount?.year;
+  if (amountYear != null && (amountYear < f.years[0] || (f.years[1] !== null && amountYear > f.years[1])))
+    errors.push(`${file}: amount.year ${amountYear} is outside the years of the flow (${f.years[0]}–${f.years[1] ?? "open"})`);
   backers.add(`${f.from.type}:${f.from.id}`);
 }
 // A backer org with the part "funded" has at least one flow in data/funding/.
