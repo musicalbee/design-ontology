@@ -45,7 +45,7 @@ const evening = (s: any) => (s.lighting?.layers ?? []).filter((l: any) => l.laye
 export const TILES: { id: string; label: string; size: typeof SQUARE; prompt: (s: any) => string | undefined }[] = [
   {
     id: "room", label: "Room", size: LANDSCAPE,
-    prompt: (s) => s.implementation?.image_prompt && `${s.implementation.image_prompt}, ${s.implementation.camera ?? ""} verticals parallel, every piece of furniture stands on the floor, no people`,
+    prompt: (s) => s.implementation?.image_prompt && `${s.implementation.image_prompt}, ${s.implementation.camera ?? ""} verticals parallel, every piece of furniture stands on the floor, an empty unoccupied room`,
   },
   {
     id: "materials", label: "Materials", size: SQUARE,

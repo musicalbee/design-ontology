@@ -27,7 +27,7 @@ const dry = args.includes("--dry-run");
 const redo = new Set<string>(opt("redo") ? JSON.parse(readFileSync(opt("redo")!, "utf8")).map((x: any) => x.path) : []);
 if (!domain) throw new Error("Give --domain photography|film|painting|interior|architecture|logo|icon|internet");
 
-type Override = { subject?: string; size?: keyof typeof SIZES; drop?: string };
+type Override = { subject?: string; size?: keyof typeof SIZES; drop?: string; scene?: string };
 const subjects = JSON.parse(readFileSync("scripts/previews/subjects.json", "utf8")) as {
   domains: Record<string, { subject: string; suffix?: string; drop?: string; source?: string; set?: "subjects" | "shots"; frame?: string; frames?: number }>;
   styles?: Record<string, Override>;
@@ -74,6 +74,14 @@ const TEXTY = /text message|screen|intertitle|name and a date|title|caption|sign
 const PERSON = /portrait|people|person|face|actor|model|couple|family|crowd|worker|bride|child|woman|man\b|figure|dancer|athlete|hand/i;
 const BODY = /skin|eyes?\b|face|lips|hair|pores|freckle/i;
 const fit = (subject: string) => (w: string) => PERSON.test(subject) || !BODY.test(w);
+// Primer words that name a shot, a cut or a layout describe the whole film, not one frame. In a frame of a
+// showreel they made the model draw several shots in one image (a triptych, a 3x3 grid). They stay out of a frame.
+// The match is on the name of a shot ("wide shot", "close-up"), not on a single word: "wide empty street duel" and
+// "long wait before the shot" describe the scene and stay.
+const OTHER_SHOT = /\b((extreme |medium |wide |long |full |whole-body |establishing |insert |two[- ])shots?|close-ups?|cuts?|montage|split screen|sequence|\d+\s*planes)\b/i;
+// A shot label such as "payoff" or "whip transition" names a beat, not a scene. With no scene the model drew an
+// empty sky or a fist on green. A style override "scene" gives each frame of that style the place and the people.
+const scene = (s: any) => override(s).scene ? `, ${override(s).scene}` : "";
 const frames = (s: any): Frame[] => {
   // The suffix is not filtered: "interface" in it holds "face".
   const tail = positive(s).filter(keep(s)), end = dom.suffix ? [dom.suffix] : [];
@@ -81,7 +89,7 @@ const frames = (s: any): Frame[] => {
     .map((x: string) => ({ label: x, prompt: [`${dom.frame} ${x}`, ...tail.filter(fit(x)), ...end].join(", ") }));
   if (dom.set === "shots") return (s.shot_primer?.shot_list ?? []).filter((x: any) => x.size !== "card" && !TEXTY.test(x.shot)).slice(0, dom.frames ?? 5)
     .map((x: any) => ({ label: x.shot, size: x.size, lens: x.lens, movement: x.movement, seconds: x.seconds,
-      prompt: [`${dom.frame} ${x.size} shot: ${x.shot.toLowerCase()}`, `${x.lens} lens`, ...tail.filter(fit(x.shot)), ...end].join(", ") }));
+      prompt: [`${dom.frame} ${x.size} shot: ${x.shot.toLowerCase()}${scene(s)}`, `${x.lens} lens`, ...tail.filter(fit(x.shot + scene(s))).filter((w) => !OTHER_SHOT.test(w)), ...end].join(", ") }));
   return [];
 };
 const sig = (s: any) => { const f = frames(s); return f.length ? f.map((x) => x.prompt).join(" | ") : promptFor(s); };
