@@ -342,7 +342,7 @@ Parallel grooves (flutes) or ridges (reeds) on a column, a panel, a leg or a she
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Architecture | c. 600 BCE | — | Greece: Greek Doric and Ionic columns carry vertical concave grooves; a Doric shaft has 20 flutes. | |
-| 1 | Architecture | 1757 | +2357 years | Jacques-Germain Soufflot starts the Pantheon in Paris with a portico of fluted Corinthian columns. | [`neoclassical-architecture`](./neoclassical-architecture/SKILL.md) |
+| 1 | Architecture | 1764 | +2364 years | Jacques-Germain Soufflot gives the Pantheon in Paris, begun in 1764, a portico of fluted Corinthian columns. | [`neoclassical-architecture`](./neoclassical-architecture/SKILL.md) |
 | 2 | Interior | c. 1790 | +2390 years | Neoclassical and Regency furniture takes fluted and reeded legs and friezes. | [`georgian-interior`](./georgian-interior/SKILL.md) |
 | 3 | Interior | c. 1925 | +2525 years | Art Deco rooms use fluted pilasters, fluted glass and fluted wood panels. | [`art-deco-interior`](./art-deco-interior/SKILL.md) |
 | 4 | Interior | c. 2018 | +2618 years | Reeded glass and fluted wood or stone cover cabinets, islands and walls. | [`quiet-luxury-interior`](./quiet-luxury-interior/SKILL.md), [`neo-deco-interior`](./neo-deco-interior/SKILL.md) |
@@ -677,7 +677,7 @@ Pieces of coloured glass held in lead strips, so that a window becomes a picture
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Architecture | 1144 | — | Saint-Denis, France: Abbot Suger consecrates the new choir of the Abbey of Saint-Denis, with tall windows of coloured glass. | |
+| Origin | Architecture | 1144 | — | Saint-Denis, France: Coloured window glass is older; the choir that Abbot Suger consecrates at Saint-Denis starts the tall Gothic window of coloured light. | |
 | 1 | Interior | c. 1850 | +706 years | Victorian houses put coloured glass in doors, stair windows and fanlights. | [`victorian-interior`](./victorian-interior/SKILL.md) |
 | 2 | Interior | c. 1895 | +751 years | Louis Comfort Tiffany and Jacques Gruber make leaded opalescent glass for lamps, ceilings and screens. | [`art-nouveau-interior`](./art-nouveau-interior/SKILL.md) |
 
@@ -1140,9 +1140,9 @@ Work made outside in front of the subject, in the light of the place and the hou
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Painting | 1841 | — | France: The collapsible paint tube (John Goffe Rand, 1841) lets the Barbizon painters work outdoors in front of the motif. | |
-| 1 | Painting | c. 1880 | +39 years | The Skagen painters and other Nordic painters work on the beach and in the summer night light. | [`nordic-national-romanticism-painting`](./nordic-national-romanticism-painting/SKILL.md) |
-| 2 | Film & Video | 1945 | +104 years | Rome Open City is shot on real streets in daylight, with little added light. | [`italian-neorealism`](./italian-neorealism/SKILL.md) |
+| Origin | Painting | c. 1780 | — | Rome and France: Painters such as Pierre-Henri de Valenciennes make small oil sketches outdoors; the collapsible paint tube (John Goffe Rand, 1841) later makes the work practical. | |
+| 1 | Painting | c. 1880 | +100 years | The Skagen painters and other Nordic painters work on the beach and in the summer night light. | [`nordic-national-romanticism-painting`](./nordic-national-romanticism-painting/SKILL.md) |
+| 2 | Film & Video | 1945 | +165 years | Rome Open City is shot on real streets in daylight, with little added light. | [`italian-neorealism`](./italian-neorealism/SKILL.md) |
 
 Used by: [`realism-painting`](./realism-painting/SKILL.md), [`nordic-national-romanticism-painting`](./nordic-national-romanticism-painting/SKILL.md), [`italian-neorealism`](./italian-neorealism/SKILL.md).
 
@@ -1269,8 +1269,8 @@ A key light, a fill light and a back light on one subject, so that the face is m
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Film & Video | c. 1915 | — | Hollywood, United States: Hollywood studios light stars with a key, a fill and a back light, and the method becomes the studio standard. | |
-| 1 | Photography | c. 1930 | +15 years | George Hurrell and other studio portraitists bring key, fill and back light to portraits for film and fashion magazines. | [`fashion-editorial`](./fashion-editorial/SKILL.md) |
+| Origin | Film & Video | c. 1920 | — | Hollywood, United States: In the 1920s Hollywood cameramen light stars with a key, a fill and a back light; in the 1930s the method is the studio standard. | |
+| 1 | Photography | c. 1930 | +10 years | George Hurrell and other studio portraitists bring key, fill and back light to portraits for film and fashion magazines. | [`fashion-editorial`](./fashion-editorial/SKILL.md) |
 
 Used by: [`classical-hollywood`](./classical-hollywood/SKILL.md), [`fashion-editorial`](./fashion-editorial/SKILL.md).
 
@@ -1304,7 +1304,7 @@ Actors hang on thin steel wires, so that they fly, leap and turn in a fight fast
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Film & Video | c. 1983 | — | Hong Kong: Wuxia films such as Zu Warriors from the Magic Mountain hang actors on wires for flying fights. | |
+| Origin | Film & Video | c. 1983 | — | Hong Kong: Hong Kong films hang actors on wires before the 1980s; Zu Warriors from the Magic Mountain (1983) is a landmark of the special-effects wuxia film, not the first use. | |
 | 1 | Film & Video | 1999 | +16 years | Yuen Woo-ping choreographs the wire fights of The Matrix for Hollywood. |  |
 
 Used by: [`hong-kong-action`](./hong-kong-action/SKILL.md).
@@ -1384,7 +1384,7 @@ A pen-sized spray gun that lays paint in soft, even tones; with masks, it makes 
 | 1 | Graphic & UI Design | c. 1930 | +51 years | Streamline posters and car advertisements use airbrushed gradients and chrome. |  |
 | 2 | Painting | c. 1968 | +89 years | Illustrators airbrush surreal chrome, lightning and X-ray cut-aways for album covers and magazines. | [`airbrush-surrealism`](./airbrush-surrealism/SKILL.md), [`photorealism`](./photorealism/SKILL.md) |
 | 3 | Graphic & UI Design | 1990 | +111 years | Photoshop 1.0 ships with an airbrush tool, and the soft spray becomes digital. | [`cyberdelia`](./cyberdelia/SKILL.md) |
-| 4 | Graphic & UI Design | 2000 | +121 years | Mac OS X Aqua draws gel buttons and scroll bars with soft gradients and one white highlight. | [`apple-aqua`](./apple-aqua/SKILL.md) |
+| 4 | Graphic & UI Design | 2001 | +122 years | Mac OS X 10.0 ships the Aqua interface, with gel buttons and scroll bars in soft gradients and one white highlight. | [`apple-aqua`](./apple-aqua/SKILL.md) |
 | 5 | Logo | c. 2001 | +122 years | Web 2.0 logos take the airbrush gradient and the white specular highlight to the screen as glossy marks. | [`glossy-3d-logo`](./glossy-3d-logo/SKILL.md) |
 | 6 | Icons | 2001 | +122 years | Apple Aqua icons in Mac OS X use soft gradients, highlights and cast shadows that echo airbrush work. | [`skeuomorphic-icon`](./skeuomorphic-icon/SKILL.md) |
 | 7 | Graphic & UI Design | c. 2004 | +125 years | Glossy interface gradients and highlights take the airbrush look to the screen. | [`frutiger-aero`](./frutiger-aero/SKILL.md) |
@@ -1569,9 +1569,10 @@ A translucent layer that blurs what is behind it, so that a panel reads as frost
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Graphic & UI Design | 2013 | — | United States: iOS 7 puts the control centre and the menus on blurred, translucent layers. | |
-| 1 | Graphic & UI Design | c. 2019 | +6 years | CSS backdrop-filter reaches the main browsers, and web pages take up frosted panels. |  |
-| 2 | Graphic & UI Design | 2025 | +12 years | Apple's Liquid Glass adds refraction and bright edges to the blurred layer. | [`liquid-glass-ui`](./liquid-glass-ui/SKILL.md) |
+| Origin | Graphic & UI Design | 2007 | — | Redmond, United States: Windows Vista Aero blurs what is behind the translucent frame of each window. | |
+| 1 | Graphic & UI Design | 2013 | +6 years | iOS 7 puts the control centre and the menus on blurred, translucent layers. |  |
+| 2 | Graphic & UI Design | c. 2019 | +12 years | CSS backdrop-filter reaches the main browsers, and web pages take up frosted panels. |  |
+| 3 | Graphic & UI Design | 2025 | +18 years | Apple's Liquid Glass adds refraction and bright edges to the blurred layer. | [`liquid-glass-ui`](./liquid-glass-ui/SKILL.md) |
 
 Used by: [`liquid-glass-ui`](./liquid-glass-ui/SKILL.md).
 
@@ -1658,7 +1659,7 @@ Form generated by a model of rules and parameters, so that a change to one value
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Architecture | 1992 | — | Barcelona, Spain: The office of Frank Gehry uses CATIA, a tool from aircraft design, to model and build the Fish sculpture in Barcelona. | |
+| Origin | Architecture | 1992 | — | Barcelona, Spain: Parametric CAD comes from engineering (Sketchpad 1963, Pro/ENGINEER 1988); the office of Frank Gehry first uses CATIA in architecture to model and build the Fish in Barcelona. | |
 | 1 | Architecture | 2008 | +16 years | Patrik Schumacher names Parametricism at the Venice Architecture Biennale; Zaha Hadid Architects scripts whole facades. | [`parametricism-architecture`](./parametricism-architecture/SKILL.md) |
 
 Used by: [`parametricism-architecture`](./parametricism-architecture/SKILL.md).
@@ -1711,7 +1712,7 @@ A small, quiet camera that takes 36 frames of 24 x 36 mm on cinema film, so that
 |---|---|---|---|---|---|
 | Origin | Photography | 1925 | — | Wetzlar, Germany: Leitz sells the Leica I, designed by Oskar Barnack. | |
 | 1 | Photography | 1932 | +7 years | Henri Cartier-Bresson starts to photograph streets with a Leica. | [`street-photography`](./street-photography/SKILL.md) |
-| 2 | Photography | 1936 | +11 years | Life magazine and the Farm Security Administration send photographers out with small cameras. | [`documentary-photography`](./documentary-photography/SKILL.md) |
+| 2 | Photography | 1936 | +11 years | Life magazine starts in 1936 and prints picture stories that photographers shoot with small, fast cameras. | [`documentary-photography`](./documentary-photography/SKILL.md) |
 | 3 | Photography | c. 2015 | +90 years | Young photographers buy old 35 mm cameras and shoot colour negative and Tri-X film again. | [`film-grain-revival`](./film-grain-revival/SKILL.md) |
 
 Used by: [`street-photography`](./street-photography/SKILL.md), [`documentary-photography`](./documentary-photography/SKILL.md), [`film-grain-revival`](./film-grain-revival/SKILL.md).
