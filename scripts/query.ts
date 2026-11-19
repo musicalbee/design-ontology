@@ -27,7 +27,11 @@ const row = (s: Style) => `${s.id.padEnd(34)} ${s.domain.padEnd(13)} ${Object.va
 
 switch (cmd) {
   case "list":
-    for (const s of styles) if (!args[0] || s.domain === args[0]) console.log(row(s));
+    {
+      // An old domain id (domains/<id>.json `former_ids`) lists the styles of the new id.
+      const want = args[0] && (domains.find((d) => d.former_ids?.includes(args[0]))?.id ?? args[0]);
+      for (const s of styles) if (!want || s.domain === want) console.log(row(s));
+    }
     break;
 
   case "show":

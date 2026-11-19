@@ -1,0 +1,351 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "luxury-typography-web",
+  "domain": "internet",
+  "name": "Luxury Typography Web",
+  "aliases": [
+    "Luxury type web",
+    "High-end editorial web",
+    "Fashion house web"
+  ],
+  "branch": "web-ui",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2014,
+    "end": null,
+    "label": "2014–now"
+  },
+  "primary_mediums": [
+    "web",
+    "mobile"
+  ],
+  "summary": "Large, high-contrast serif type on a calm ground, wide tracking on small caps, thin rules and few words. The letter is the main image, and space signals price and care.",
+  "philosophy": {
+    "core_thesis": "Luxury is restraint and craft: fine type, wide space and few words.",
+    "design_principles": [
+      "Set the hero in a high-contrast serif at 72px to 160px, weight 300 to 400, with tracking of -0.02em.",
+      "Set labels and menu in upper case at 11px to 12px with tracking of +0.2em to +0.3em.",
+      "Use a ground of ivory (#F6F1E8) or deep black (#0E0D0C) and text in the opposite tone; add one metal accent (#A8863B) for rules and small marks.",
+      "Use hairlines of 1px in the accent; use no box, no shadow and no radius above 0px.",
+      "Show one product or one image per screen at large size with 120px or more of space around it.",
+      "Write short copy of 12 words or fewer per block and avoid sale words and prices in the hero.",
+      "Animate slowly: fades and 16px lifts in 700ms to 1100ms."
+    ],
+    "anti_patterns": [
+      "Discount badges and urgency timers",
+      "Bold, heavy sans type",
+      "Bright saturated colour",
+      "Rounded, soft buttons",
+      "Dense product grids with small images",
+      "Stock icons and emoji",
+      "Drop shadows and gradients"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "dimensionality": 1,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 5
+  },
+  "layout": {
+    "grid_mechanics": "A wide, centred layout with a 12-column grid; large type spans 8 to 12 columns; products sit in 2 to 3 columns with generous gaps.",
+    "whitespace_ratio": "55% to 70% of the surface is empty; vertical gaps are 120px to 240px.",
+    "alignment_rules": "Centred hero and centred captions; menus flush with a wide letter space; small text flush left.",
+    "container_geometry": "Square corners; hairline frames; images with no radius."
+  },
+  "typography": {
+    "classifications": [
+      "high-contrast didone serif",
+      "transitional serif",
+      "upper-case sans serif"
+    ],
+    "font_pairings": [
+      {
+        "display": "Playfair Display",
+        "body": "Montserrat",
+        "note": "A sharp didone for the headline with a clean sans for labels."
+      },
+      {
+        "display": "Cormorant Garamond",
+        "body": "Jost",
+        "note": "A fine, light serif with a thin geometric sans."
+      },
+      {
+        "display": "Bodoni Moda",
+        "body": "Inter",
+        "note": "A strong didone with high contrast for fashion titles."
+      }
+    ],
+    "tracking": "Display takes -0.02em; labels +0.25em.",
+    "leading": "Display 1.0; body 1.7.",
+    "hierarchy_rules": [
+      "Use weights 300 to 400 for display and 400 for body.",
+      "Use sizes 11, 16, 28 and 120px.",
+      "Set labels in upper case at 11px to 12px.",
+      "Set italics in the serif for names and accents."
+    ]
+  },
+  "color": {
+    "palette_structure": "Ivory or black with one metal accent.",
+    "palette": [
+      {
+        "name": "Ivory",
+        "hex": "#F6F1E8",
+        "role": "background"
+      },
+      {
+        "name": "Linen",
+        "hex": "#ECE4D4",
+        "role": "surface"
+      },
+      {
+        "name": "Ink",
+        "hex": "#16140F",
+        "role": "text"
+      },
+      {
+        "name": "Taupe",
+        "hex": "#6A6153",
+        "role": "secondary text"
+      },
+      {
+        "name": "Black",
+        "hex": "#16140F",
+        "role": "primary"
+      },
+      {
+        "name": "Brass",
+        "hex": "#836320",
+        "role": "accent"
+      },
+      {
+        "name": "Rule",
+        "hex": "#CFC4AC",
+        "role": "border"
+      }
+    ],
+    "contrast_rules": "Ink on ivory holds 16:1; brass at #836320 holds 4.5:1 on ivory for small marks; on black use #C9A24D.",
+    "surface_treatment": "Flat ivory or black with no texture; a faint grain at 3% is optional.",
+    "light_and_shadow": "No shadow; a 1px brass rule marks edges."
+  },
+  "materiality": {
+    "surface_simulation": "Fine paper, brass foil and printed type.",
+    "border_rules": "A 1px brass or taupe hairline; no thick line.",
+    "blur_and_elevation": "No blur; no elevation."
+  },
+  "ornamentation_details": {
+    "iconography": "Thin 1px outline icons or none; small brass stars and monograms.",
+    "illustration": "Editorial photography of one object, a model or a detail, with generous crop and space.",
+    "decorative_elements": [
+      "didone headline",
+      "wide-tracked caps",
+      "brass hairline",
+      "monogram"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Slow and calm: fades and 16px lifts; images reveal with a 900ms mask; no bounce.",
+    "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+    "duration_ms": 900,
+    "hover_and_active": "Hover draws a brass underline in 400ms and lifts the image 4px in 600ms; active state dims by 6%."
+  },
+  "lineage": {
+    "evolved_from": [
+      "swiss-international",
+      "art-deco-web"
+    ],
+    "rebelled_against": [
+      "flat-design"
+    ],
+    "hybridized_with": [
+      "editorial-serif-revival",
+      "minimalism-web"
+    ],
+    "echoes": [
+      "quiet-luxury-interior"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels that this is rare, careful and expensive.",
+    "keywords": [
+      "refined",
+      "rare",
+      "calm",
+      "exact",
+      "timeless",
+      "exclusive"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "lover"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "luxury",
+      "fashion",
+      "high-end",
+      "didone",
+      "editorial",
+      "premium",
+      "jewellery",
+      "couture"
+    ],
+    "use_cases": [
+      "fashion and couture houses",
+      "jewellery and watches",
+      "hotels and fine dining",
+      "perfume and beauty brands",
+      "art and auction sites"
+    ],
+    "avoid_when": [
+      "The brand sells on price or volume.",
+      "The page needs a dense catalogue or a fast checkout.",
+      "The audience reads on small screens in poor light and needs large text."
+    ],
+    "modifiers": [
+      {
+        "request": "modern",
+        "toward": "minimalism-web",
+        "how": "Replace the didone by a neutral sans; keep the space and the single accent."
+      },
+      {
+        "request": "warmer",
+        "toward": "art-deco-web",
+        "how": "Add gold geometry and a deep green or black ground."
+      },
+      {
+        "request": "bolder",
+        "toward": "editorial-serif-revival",
+        "how": "Add a magazine grid and larger photographs."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 400,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 500,
+      "accent": "case",
+      "display_tracking": "-0.02em",
+      "display_leading": 1.0,
+      "display_case": "none",
+      "body_leading": 1.7,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1,
+      "linecap": "butt",
+      "linejoin": "miter",
+      "container": "none",
+      "pack": {
+        "id": "iconoir",
+        "why": "A thin outline family that matches hairline rules and fine serifs."
+      }
+    },
+    "art": {
+      "recipe": "swiss",
+      "pattern": "none",
+      "seed": 77
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "frame",
+      "why": "Luxury print sits inside a hairline frame on heavy cream stock."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#F6F1E8",
+      "--color-surface": "#ECE4D4",
+      "--color-text": "#16140F",
+      "--color-muted": "#6A6153",
+      "--color-primary": "#16140F",
+      "--color-accent": "#836320",
+      "--color-border": "#CFC4AC",
+      "--font-sans": "\"Montserrat\", system-ui, sans-serif",
+      "--font-display": "\"Playfair Display\", \"Bodoni Moda\", Georgia, serif",
+      "--border-radius": "0px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "--duration": "900ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#F6F1E8] text-[#16140F] font-sans antialiased"
+      },
+      {
+        "element": "heading",
+        "classes": "font-serif text-6xl md:text-8xl font-normal leading-none tracking-[-0.02em]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.7]"
+      },
+      {
+        "element": "section",
+        "classes": "border border-[#CFC4AC] bg-[#ECE4D4] p-10"
+      },
+      {
+        "element": "button",
+        "classes": "border border-[#16140F] bg-[#16140F] px-8 py-3 text-xs uppercase tracking-[0.25em] text-[#F6F1E8] transition-colors duration-500 hover:bg-[#836320]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs uppercase tracking-[0.25em] text-[#6A6153]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#16140F",
+        "#836320"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#836320",
+        "#16140F"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 0
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.618,
+      "min": 1.5,
+      "max": 1.618
+    }
+  },
+  "sources": [
+    {
+      "title": "Example: Fashion house sites such as Chanel and Dior (2014–2025)"
+    },
+    {
+      "title": "Example: Luxury watch maker sites (2014–2025)"
+    },
+    {
+      "title": "Example: Vogue and Harper's Bazaar print layouts (1930s–2020s)"
+    }
+  ]
+}

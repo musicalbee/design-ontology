@@ -93,6 +93,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Primary:** butter · cream · veal · sole · foie-gras · truffle · beef · egg
 - **Secondary:** shallot · tarragon · fine-herbs · wine · peach · chicken · game-birds · caviar · lemon · cheese · wheat · grape
 - **Avoid:** chilli · soy-sauce · sodium-alginate · miso
+- **In europe:** yes
 - **Rule:** Build on butter, cream and veal stock; add a luxury ingredient (truffle, foie gras or caviar) to the dish of honour.
 
 ## Technique
@@ -154,7 +155,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 |---|---|---|
 | Pêche Melba | Auguste Escoffier, Savoy Hotel | 1893 |
 | Le Guide culinaire | Auguste Escoffier | 1903 |
-| Suprêmes de volaille Jeannette | Auguste Escoffier | 1896 |
+| Le Livre des menus | Auguste Escoffier | 1912 |
 | Ma cuisine | Auguste Escoffier | 1934 |
 
 ## Techniques

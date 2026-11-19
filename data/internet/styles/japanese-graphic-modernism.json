@@ -1,0 +1,364 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "japanese-graphic-modernism",
+  "domain": "internet",
+  "name": "Japanese Graphic Modernism",
+  "aliases": [
+    "Nihon Modern Graphic Design",
+    "JAAC Modernism",
+    "Tokyo Olympic Graphics"
+  ],
+  "branch": "web-ui",
+  "era_id": "modernist",
+  "time_period": {
+    "start": 1951,
+    "end": 1989,
+    "label": "1951–1980s"
+  },
+  "primary_mediums": [
+    "print",
+    "web"
+  ],
+  "summary": "Flat geometric forms in red and black, symbolic circles and triangles, soft colour bands, and dense kanji and katakana set against Latin type. It grew from the Japan Advertising Artists Club of 1951 and the Tokyo 1964 Olympic posters.",
+  "philosophy": {
+    "core_thesis": "A single symbolic form on a quiet grid carries the whole message, and Japanese and Latin letters share the page as equal graphic material.",
+    "design_principles": [
+      "Build each poster on one primary geometric form, such as a circle, a triangle or a stripe, that fills 40 to 70% of the sheet.",
+      "Use red (#D7261E) and black as the base pair, with white paper at 40% or more of the surface.",
+      "Add one gradient colour band of 3 to 7 stepped bands, fading from cyan to violet, only when the brief asks for the 1980s register.",
+      "Set Japanese text in vertical or horizontal blocks of 6 to 14 characters per line, with Latin type at 1/2 to 1/3 of the size beside it.",
+      "Align type blocks to a 12-column grid, then break the grid once with the symbolic form.",
+      "Reduce photography to high-contrast black and white or to flat colour silhouettes with no mid-tone.",
+      "Leave 20 to 30% of the sheet as quiet paper, so that the form has a margin (ma) around it.",
+      "Make a visual pun or a symmetrical, mirrored form when the idea allows it: one shape read in two ways."
+    ],
+    "anti_patterns": [
+      "Cherry blossom, fan and temple clip art used as a Japanese signal",
+      "Brush-script or fake calligraphic fonts for katakana and Latin type",
+      "Centred, symmetric layouts with equal weight in every corner",
+      "Soft shadows, glass and glossy bevels",
+      "A smooth gradient across the full sheet in place of stepped colour bands",
+      "More than 3 type sizes in one block, or mixed Gothic and Mincho in one line",
+      "Western Swiss grids copied without a symbolic form to break them"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 2,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A 12-column grid with 16px gutters and an 8px baseline; Japanese text blocks run horizontally or vertically in 1 to 3 columns, and the symbolic form may break the grid by one column.",
+    "whitespace_ratio": "20–40% of the sheet stays quiet paper; the spacing scale is 8, 16, 32, 64 and 128px.",
+    "alignment_rules": "Horizontal text is flush left; vertical text is flush to the top and the right edge; Latin captions align to the baseline of the first Japanese line.",
+    "container_geometry": "Sharp rectangles, perfect circles and equilateral triangles; radius is 0px, with a circle used as a 1:1 mask."
+  },
+  "typography": {
+    "classifications": [
+      "Japanese Gothic (kaku gothic)",
+      "neo-grotesque sans serif",
+      "Japanese Mincho"
+    ],
+    "font_pairings": [
+      {
+        "display": "Zen Kaku Gothic New",
+        "body": "Noto Sans JP",
+        "note": "A modern Gothic for kanji and kana at display size, with a plain text face; the Latin glyphs come from the same families."
+      },
+      {
+        "display": "Dela Gothic One",
+        "body": "Zen Kaku Gothic New",
+        "note": "A heavy, compact display face for a 1960s Olympic-poster voice."
+      },
+      {
+        "display": "Shippori Mincho B1",
+        "body": "Noto Sans JP",
+        "note": "A Mincho headline for a quieter, more literary poster; keep it to one line."
+      }
+    ],
+    "tracking": "Japanese display sizes take 0 to +0.04em; Latin display takes -0.02em; small Latin labels take +0.08em.",
+    "leading": "Japanese body 1.8; display 1.2; line-heights are multiples of the 8px baseline.",
+    "hierarchy_rules": [
+      "Use weights 900 for display, 700 for subheads, 400 for body, 700 for strong words and 500 for labels.",
+      "Use three sizes only, for example 14, 32 and 96px, with a step of 2.5 or more.",
+      "Set one Latin line in the same colour as the Japanese block, at 1/3 of its size, as a counter-voice.",
+      "Colour only one block in red; the rest stays black."
+    ]
+  },
+  "color": {
+    "palette_structure": "Warm white paper, black type, one Hinomaru red as the base accent, and an optional cyan-to-violet band for the 1980s register.",
+    "palette": [
+      {
+        "name": "Washi Paper",
+        "hex": "#F7F3EA",
+        "role": "background"
+      },
+      {
+        "name": "Sumi Black",
+        "hex": "#111111",
+        "role": "text and primary shapes"
+      },
+      {
+        "name": "Hinomaru Red",
+        "hex": "#D7261E",
+        "role": "main accent"
+      },
+      {
+        "name": "Band Cyan",
+        "hex": "#19B5D6",
+        "role": "gradient band, 1980s"
+      },
+      {
+        "name": "Band Violet",
+        "hex": "#6C3FB5",
+        "role": "gradient band, 1980s"
+      },
+      {
+        "name": "Ash Grey",
+        "hex": "#5A5A57",
+        "role": "secondary text"
+      }
+    ],
+    "contrast_rules": "Black on paper holds at least 15:1; red carries large type or solid fields; white type on red holds at least 4.5:1.",
+    "surface_treatment": "Flat, opaque fields of solid colour; gradient colour bands are made of 3 to 7 stepped stripes, each solid, and never a smooth blend.",
+    "light_and_shadow": "No light source; where the 1980s bands fade, the fade is an ordered step in lightness of 8% to 12% a band."
+  },
+  "materiality": {
+    "surface_simulation": "Offset-printed ink on uncoated paper; the surface does not imitate any other material.",
+    "border_rules": "Solid black rules of 2px to 4px as dividers; the symbolic form has no outline.",
+    "blur_and_elevation": "No blur and no elevation; box-shadow and backdrop-filter stay at none."
+  },
+  "ornamentation_details": {
+    "iconography": "Solid geometric pictograms with square terminals on a grid of 24px; circle, triangle and bar are the root forms.",
+    "illustration": "Symbolic geometry, mirrored faces and visual puns in 2 to 3 flat colours; photography is cut into high-contrast silhouettes.",
+    "decorative_elements": [
+      "a single large circle",
+      "stacked triangles",
+      "stepped colour bands",
+      "vertical kanji blocks",
+      "thick black rules",
+      "mirrored forms"
+    ]
+  },
+  "motion": {
+    "native": false,
+    "transition_physics": "Translation for screen: shapes slide along one axis and stop, with no bounce; colour bands wipe in one stripe at a time, 60ms apart.",
+    "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "duration_ms": 220,
+    "hover_and_active": "Hover swaps black and red on the block; active shifts the form by 8px along its axis; nothing scales or glows."
+  },
+  "lineage": {
+    "evolved_from": [
+      "bauhaus",
+      "swiss-international"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "pop-art-web",
+      "psychedelic"
+    ],
+    "echoes": [
+      "ukiyo-e"
+    ]
+  },
+  "emotion": {
+    "target_response": "Calm precision with a pulse: the viewer reads one clear symbol first, then finds a second layer of meaning in the type and the quiet space.",
+    "keywords": [
+      "precise",
+      "symbolic",
+      "bold",
+      "quiet",
+      "witty",
+      "graphic"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "sage",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "japanese graphic design",
+      "kamekura",
+      "ikko tanaka",
+      "tokyo 1964",
+      "olympic poster",
+      "gurafiku",
+      "katakana",
+      "showa graphic",
+      "nihon modern",
+      "japanese poster",
+      "japanese 80s"
+    ],
+    "use_cases": [
+      "posters and exhibition identities",
+      "cultural venues and theatres",
+      "editorial and book covers",
+      "sports events",
+      "music and lighting brands"
+    ],
+    "avoid_when": [
+      "The brief needs a traditional Edo look; use ukiyo-e.",
+      "The text is dense, long-form Latin copy with no symbolic image.",
+      "The brand is Japanese in name only and the style would be a costume."
+    ],
+    "modifiers": [
+      {
+        "request": "more neutral",
+        "toward": "swiss-international",
+        "how": "Drop the symbolic form and the vertical kanji, set one Latin neo-grotesque, and keep the 12-column grid and the single red accent."
+      },
+      {
+        "request": "more pop",
+        "toward": "pop-art-web",
+        "how": "Add halftone dots at 8px, a yellow field and a thick outline of 3px; keep the flat form and the red."
+      },
+      {
+        "request": "more psychedelic",
+        "toward": "psychedelic",
+        "how": "Replace the stepped bands with warped concentric rings in magenta and orange, and let the type bend; keep the circular form."
+      },
+      {
+        "request": "more constructed",
+        "toward": "bauhaus",
+        "how": "Cut the palette to red, blue and yellow with black, use circle, square and triangle in equal weight, and drop the Japanese text; keep the asymmetry."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 900,
+      "subhead_weight": 700,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 500,
+      "accent": "colour",
+      "display_tracking": "0.01em",
+      "display_leading": 1.2,
+      "display_case": "none",
+      "body_leading": 1.8,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "butt",
+      "linejoin": "miter",
+      "container": "none",
+      "pack": {
+        "id": "material-symbols-sharp",
+        "why": "Solid forms with square terminals and mitre corners: the circle, bar and triangle of a Gothic grid, with no soft edge."
+      }
+    },
+    "art": {
+      "recipe": "bauhaus",
+      "pattern": "diagonal",
+      "seed": 6
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "left",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "sun",
+      "why": "Japanese post-war posters use one large disc of red as the whole composition."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#F7F3EA",
+      "--color-surface": "#EDE7D8",
+      "--color-text": "#111111",
+      "--color-muted": "#5A5A57",
+      "--color-primary": "#D7261E",
+      "--color-accent": "#6C3FB5",
+      "--color-border": "#111111",
+      "--font-sans": "\"Noto Sans JP\", \"Hiragino Kaku Gothic ProN\", \"Helvetica Neue\", Arial, sans-serif",
+      "--font-display": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "2px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "--duration": "220ms",
+      "--color-highlight": "#19B5D6",
+      "--grid-columns": "12",
+      "--grid-gutter": "16px",
+      "--tracking-display": "0.01em",
+      "--leading-body": "1.8"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#F7F3EA] text-[#111111] font-sans antialiased grid grid-cols-12 gap-x-4 px-6 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "col-span-12 md:col-span-8 text-6xl md:text-8xl font-black leading-[1.2] tracking-[0.01em]"
+      },
+      {
+        "element": "section",
+        "classes": "col-span-12 border-t-4 border-[#111111] pt-4 mt-16"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border-2 border-[#111111] bg-[#D7261E] px-6 py-3 text-sm font-medium text-white transition-colors duration-200 hover:bg-[#111111]"
+      },
+      {
+        "element": "form shape",
+        "classes": "aspect-square rounded-full bg-[#D7261E]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-medium uppercase tracking-[0.08em] text-[#5A5A57]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#D7261E",
+        "#6C3FB5",
+        "#111111"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#6C3FB5",
+        "#D7261E"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 0
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.333,
+      "min": 1.25,
+      "max": 1.414
+    }
+  },
+  "sources": [
+    {
+      "title": "Gurafiku: Japanese graphic design (collection of posters and print)",
+      "url": "https://gurafiku.tumblr.com"
+    },
+    {
+      "title": "Richard S. Thornton, The Graphic Spirit of Japan (Van Nostrand Reinhold, 1991)"
+    },
+    {
+      "title": "Design Reviewed: an archive of 20th-century graphic design and print",
+      "url": "https://designreviewed.com"
+    }
+  ]
+}

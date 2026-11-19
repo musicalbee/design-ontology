@@ -6,6 +6,25 @@ The data is in [`../data/techniques/`](../data/techniques/). A machine-readable 
 
 ## Montage
 
+### Cut-out composite
+
+Cut-out photos placed on a flat or photo ground at a chosen odd scale.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 1990 | — | United States: Adobe releases Photoshop 1.0, which makes layered cut-outs a desktop task. | |
+| 1 | Internet | c. 2014 | +24 years | Product cut-outs on white form the cells of the starter pack collage. | [`starter-pack`](./starter-pack/SKILL.md) |
+| 2 | Internet | c. 2016 | +26 years | Meme makers place cut-outs at odd scale in surreal memes. | [`surreal-meme`](./surreal-meme/SKILL.md) |
+
+Used by: [`starter-pack`](./starter-pack/SKILL.md), [`surreal-meme`](./surreal-meme/SKILL.md).
+
+- Cut the subject out with a clean or deliberately rough edge of 1 to 2px.
+- Place it on a flat colour or a second photo.
+- Scale it 20% to 400% out of true size.
+- Add 3% to 8% grain over all layers.
+
+Sources: [Wikipedia: Adobe Photoshop](https://en.wikipedia.org/wiki/Adobe_Photoshop).
+
 ### Extreme close-up
 
 A frame that holds only a part of a face, such as the eyes; the cut from a wide view to this frame sets a person against the world.
@@ -16,8 +35,9 @@ A frame that holds only a part of a face, such as the eyes; the cut from a wide 
 | 1 | Film & Video | 1928 | +28 years | Carl Theodor Dreyer fills the frame with the face of Renée Falconetti in The Passion of Joan of Arc. |  |
 | 2 | Film & Video | 1964 | +64 years | Sergio Leone cuts between the eyes of gunmen and a wide desert in A Fistful of Dollars, on a Techniscope 2.35:1 frame. | [`spaghetti-western`](./spaghetti-western/SKILL.md) |
 | 3 | Painting | 1967 | +67 years | Chuck Close paints a huge frontal head from a photograph in Big Self-Portrait (1967–68). | [`photorealism`](./photorealism/SKILL.md) |
+| 4 | Internet | c. 2020 | +120 years | Goblincore photographs fill the frame with a mushroom cap, a moss patch or a snail shell. | [`goblincore`](./goblincore/SKILL.md) |
 
-Used by: [`spaghetti-western`](./spaghetti-western/SKILL.md), [`photorealism`](./photorealism/SKILL.md).
+Used by: [`spaghetti-western`](./spaghetti-western/SKILL.md), [`photorealism`](./photorealism/SKILL.md), [`goblincore`](./goblincore/SKILL.md).
 
 - Frame the eyes as a band that fills the width of a 2.35:1 frame; use a lens of 75mm to 100mm.
 - Cut from a wide shot to the close-up with no medium shot between them.
@@ -35,9 +55,13 @@ A cut inside one continuous shot that removes time and leaves the jump in view.
 | Origin | Film & Video | 1960 | — | Paris: Jean-Luc Godard cuts inside continuous shots in À bout de souffle and does not hide the jump. | |
 | 1 | Film & Video | 1981 | +21 years | MTV starts in 1981; music videos cut on the beat and jump inside one take. | [`music-video`](./music-video/SKILL.md) |
 | 2 | Film & Video | c. 2006 | +46 years | Video bloggers on YouTube cut the pauses out of a talk to the camera. | [`creator-vlog`](./creator-vlog/SKILL.md) |
-| 3 | Film & Video | c. 2018 | +58 years | Vertical short-form apps make the fast jump cut the default rhythm of a clip. | [`vertical-short-form`](./vertical-short-form/SKILL.md) |
+| 3 | Internet | 2010 | +50 years | Gameplay commentary cuts every pause over 1.5 seconds and adds a sound hit. | [`lets-play-facecam`](./lets-play-facecam/SKILL.md) |
+| 4 | Internet | 2014 | +54 years | Video essays cut pauses and hold each clip for 4 to 10 seconds, with the voice over the cut. | [`video-essay`](./video-essay/SKILL.md) |
+| 5 | Internet | c. 2016 | +56 years | Musical.ly clips cut on the beat and loop at 15 seconds. | [`lip-sync-dance-short`](./lip-sync-dance-short/SKILL.md) |
+| 6 | Film & Video | c. 2018 | +58 years | Vertical short-form apps make the fast jump cut the default rhythm of a clip. | [`vertical-short-form`](./vertical-short-form/SKILL.md) |
+| 7 | Internet | c. 2019 | +59 years | Get-ready-with-me clips cut out each pause between outfit and make-up steps. | [`grwm-short`](./grwm-short/SKILL.md) |
 
-Used by: [`french-new-wave`](./french-new-wave/SKILL.md), [`creator-vlog`](./creator-vlog/SKILL.md), [`vertical-short-form`](./vertical-short-form/SKILL.md), [`music-video`](./music-video/SKILL.md).
+Used by: [`french-new-wave`](./french-new-wave/SKILL.md), [`creator-vlog`](./creator-vlog/SKILL.md), [`vertical-short-form`](./vertical-short-form/SKILL.md), [`music-video`](./music-video/SKILL.md), [`lip-sync-dance-short`](./lip-sync-dance-short/SKILL.md), [`grwm-short`](./grwm-short/SKILL.md), [`video-essay`](./video-essay/SKILL.md), [`lets-play-facecam`](./lets-play-facecam/SKILL.md).
 
 - Remove 0.3 to 2 seconds inside one shot and keep the framing within 10% of the frame width, so that the jump shows.
 - In a talk to camera, cut on the word and not on the action: one cut every 2 to 4 seconds.
@@ -73,7 +97,7 @@ A cut between two shots whose main forms have the same shape, position or moveme
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Film & Video | 1968 | — | 2001: A Space Odyssey: Graphic matches are older; the reference case is Stanley Kubrick's cut from a thrown bone to a satellite in orbit. | |
-| 1 | Graphic & UI Design | 2014 | +46 years | Material motion in Android 5.0 carries one element from screen to screen as a shared-element transition. | [`material-design`](./material-design/SKILL.md) |
+| 1 | Internet | 2014 | +46 years | Material motion in Android 5.0 carries one element from screen to screen as a shared-element transition. | [`material-design`](./material-design/SKILL.md) |
 
 Used by: [`material-design`](./material-design/SKILL.md), [`spatial-visionos`](./spatial-visionos/SKILL.md).
 
@@ -88,22 +112,98 @@ Fragments of photographs, cut and joined on one sheet, so that the joins make a 
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Graphic & UI Design | 1918 | — | Berlin: Raoul Hausmann and Hannah Höch of Berlin Dada cut press photographs and paste them into one sheet. | |
-| 1 | Graphic & UI Design | 1924 | +6 years | Alexander Rodchenko and El Lissitzky use photomontage in Constructivist posters and books. | [`constructivism-web`](./constructivism-web/SKILL.md) |
+| Origin | Internet | 1918 | — | Berlin: Raoul Hausmann and Hannah Höch of Berlin Dada cut press photographs and paste them into one sheet. | |
+| 1 | Internet | 1924 | +6 years | Alexander Rodchenko and El Lissitzky use photomontage in Constructivist posters and books. | [`constructivism-web`](./constructivism-web/SKILL.md) |
 | 2 | Film & Video | 1925 | +7 years | Sergei Eisenstein carries the collision of fragments into the cut of Strike and Battleship Potemkin. | [`soviet-montage`](./soviet-montage/SKILL.md) |
-| 3 | Graphic & UI Design | 1976 | +58 years | Punk zines and record sleeves cut up newspapers with scissors and glue. | [`punk-zine`](./punk-zine/SKILL.md) |
-| 4 | Graphic & UI Design | c. 1990 | +72 years | Photoshop makes the cut and the layer digital; early cyberculture prints dense photo-illustration. | [`cyberdelia`](./cyberdelia/SKILL.md) |
-| 5 | Graphic & UI Design | c. 2012 | +94 years | Designers cut photographs of objects and clouds into collage scenes, in the line of the Surrealist collages of Max Ernst. | [`surrealism-web`](./surrealism-web/SKILL.md) |
-| 6 | Graphic & UI Design | c. 2016 | +98 years | Anti-design sites overlap cut images and text blocks across a broken grid. | [`anti-design`](./anti-design/SKILL.md) |
-| 7 | Graphic & UI Design | c. 2018 | +100 years | Scrapbook interfaces lay cut photographs, tape and stickers over each other, as on the page of an album. | [`scrapbook-ui`](./scrapbook-ui/SKILL.md) |
+| 3 | Internet | 1976 | +58 years | Punk zines and record sleeves cut up newspapers with scissors and glue. | [`punk-zine`](./punk-zine/SKILL.md) |
+| 4 | Internet | c. 1990 | +72 years | Photoshop makes the cut and the layer digital; early cyberculture prints dense photo-illustration. | [`cyberdelia`](./cyberdelia/SKILL.md) |
+| 5 | Internet | 2011 | +93 years | Seapunk artists cut 1990s 3D shapes, dolphins and water textures into one collage on a turquoise ground. | [`seapunk`](./seapunk/SKILL.md) |
+| 6 | Internet | c. 2012 | +94 years | Designers cut photographs of objects and clouds into collage scenes, in the line of the Surrealist collages of Max Ernst. | [`surrealism-web`](./surrealism-web/SKILL.md) |
+| 7 | Internet | c. 2016 | +98 years | Anti-design sites overlap cut images and text blocks across a broken grid. | [`anti-design`](./anti-design/SKILL.md) |
+| 8 | Internet | c. 2018 | +100 years | Scrapbook interfaces lay cut photographs, tape and stickers over each other, as on the page of an album. | [`scrapbook-ui`](./scrapbook-ui/SKILL.md) |
 
-Used by: [`constructivism-web`](./constructivism-web/SKILL.md), [`soviet-montage`](./soviet-montage/SKILL.md), [`punk-zine`](./punk-zine/SKILL.md), [`cyberdelia`](./cyberdelia/SKILL.md), [`grunge-editorial`](./grunge-editorial/SKILL.md), [`surrealism-web`](./surrealism-web/SKILL.md), [`anti-design`](./anti-design/SKILL.md), [`scrapbook-ui`](./scrapbook-ui/SKILL.md).
+Used by: [`constructivism-web`](./constructivism-web/SKILL.md), [`soviet-montage`](./soviet-montage/SKILL.md), [`punk-zine`](./punk-zine/SKILL.md), [`cyberdelia`](./cyberdelia/SKILL.md), [`grunge-editorial`](./grunge-editorial/SKILL.md), [`surrealism-web`](./surrealism-web/SKILL.md), [`anti-design`](./anti-design/SKILL.md), [`scrapbook-ui`](./scrapbook-ui/SKILL.md), [`seapunk`](./seapunk/SKILL.md).
 
 - Join 3 to 12 photographic fragments on one ground and keep the cut edges hard and visible.
 - Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.
 - Set type as one more fragment, turned 0° to 30°, in the same stack of layers.
 
 Sources: Dawn Ades, Photomontage (Thames & Hudson, 1976).
+
+### Picture-in-picture facecam
+
+A small live window of the player's face placed above the main picture, so the viewer sees the action and the reaction together.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | c. 2010 | — | YouTube: Game players add a webcam window to their capture of the screen, so that their reaction shows next to the game. | |
+| 1 | Internet | c. 2010 | +0 years | Players overlay a webcam window on screen captures of games. | [`lets-play-facecam`](./lets-play-facecam/SKILL.md) |
+| 2 | Internet | 2011 | +1 years | Live stream layouts keep the face window as a fixed slot. | [`livestream-overlay`](./livestream-overlay/SKILL.md) |
+
+Used by: [`lets-play-facecam`](./lets-play-facecam/SKILL.md), [`livestream-overlay`](./livestream-overlay/SKILL.md).
+
+- Set the face window at 18% to 25% of the frame width.
+- Place it at a corner with a 24px margin.
+- Add a 4px border and a 12px radius.
+- Keep the window clear of the game HUD.
+
+Sources: [Wikipedia: Let's Play](https://en.wikipedia.org/wiki/Let%27s_Play); [Wikipedia: Live streaming](https://en.wikipedia.org/wiki/Live_streaming).
+
+### Split screen
+
+Show two or more pictures in one frame at the same time.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Film & Video | 1927 | — | Paris: Abel Gance uses a triple screen in Napoléon. | |
+| 1 | Internet | 2018 | +91 years | TikTok adds Duet: the new clip plays beside an existing clip in one vertical frame. | [`duet-split-screen`](./duet-split-screen/SKILL.md) |
+
+Used by: [`duet-split-screen`](./duet-split-screen/SKILL.md).
+
+- Divide the frame into equal cells with a 4px gap.
+- Use the same aspect ratio in each cell.
+- Keep one source of sound for the whole frame.
+- Mark who is in each cell with a label.
+
+Sources: [Wikipedia: Split screen (filmmaking)](https://en.wikipedia.org/wiki/Split_screen_(filmmaking)); [Wikipedia: Napoléon (1927 film)](https://en.wikipedia.org/wiki/Napoléon_(1927_film)).
+
+### Sticker collage layering
+
+A dense layer of cut-out stickers, each with a white border and a hard shadow, that overlap on a bright ground.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 2011 | — | Tokyo: The messaging app LINE adds sticker sets, and the die-cut sticker becomes a screen object. | |
+| 1 | Internet | c. 2019 | +8 years | Kidcore pages and images stack die-cut stickers with white borders over bright grounds. | [`kidcore`](./kidcore/SKILL.md) |
+
+Used by: [`kidcore`](./kidcore/SKILL.md).
+
+- Cut each motif with a white border of 6px.
+- Add a hard shadow of 3px to 4px in near black under each sticker.
+- Rotate each sticker by -6° to +6° and overlap neighbours by 8px to 24px.
+- Fill 60% to 80% of the frame, and keep one sticker larger than the rest as the focus.
+
+Sources: [Wikipedia: Sticker](https://en.wikipedia.org/wiki/Sticker); [Wikipedia: Line (software)](https://en.wikipedia.org/wiki/Line_(software)).
+
+### Thumbnail composite
+
+A still image built from a face cut-out, one object, a pointer and 1 to 3 words, made to read at a very small size.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | c. 2012 | — | YouTube: A change in the ranking of the site to reward watch time makes the image that wins a click a main part of a video. | |
+| 1 | Internet | c. 2012 | +0 years | Creators on YouTube compete for clicks with loud, face-led stills. | [`clickbait-thumbnail`](./clickbait-thumbnail/SKILL.md) |
+| 2 | Internet | c. 2020 | +8 years | Short video makers copy the bold words and strong colour into caption frames. | [`word-caption-clip`](./word-caption-clip/SKILL.md) |
+
+Used by: [`clickbait-thumbnail`](./clickbait-thumbnail/SKILL.md), [`word-caption-clip`](./word-caption-clip/SKILL.md).
+
+- Make the image 1280x720 and test it at 168px wide.
+- Cut out one face and give it a 6px white edge.
+- Add one arrow or circle in a strong colour.
+- Set 1 to 3 words in a heavy face with an 8px outline.
+- Raise saturation by 20% to 40%.
+
+Sources: [Wikipedia: Clickbait](https://en.wikipedia.org/wiki/Clickbait); [Wikipedia: YouTube](https://en.wikipedia.org/wiki/YouTube).
 
 ## Animation
 
@@ -114,8 +214,8 @@ A move speeds up from rest and slows down before it stops, as a real mass does, 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Film & Video | c. 1930 | — | Disney studio, Los Angeles: Animators draw more frames at the start and the end of a move; Thomas and Johnston name it slow in and slow out. | |
-| 1 | Graphic & UI Design | 2001 | +71 years | Robert Penner publishes easing equations for Flash, and web motion takes them up. | [`frutiger-aero`](./frutiger-aero/SKILL.md) |
-| 2 | Graphic & UI Design | c. 2009 | +79 years | CSS transitions define timing functions such as ease-in-out and cubic-bezier(). | [`material-design`](./material-design/SKILL.md) |
+| 1 | Internet | 2001 | +71 years | Robert Penner publishes easing equations for Flash, and web motion takes them up. | [`frutiger-aero`](./frutiger-aero/SKILL.md) |
+| 2 | Internet | c. 2009 | +79 years | CSS transitions define timing functions such as ease-in-out and cubic-bezier(). | [`material-design`](./material-design/SKILL.md) |
 
 Used by: [`frutiger-aero`](./frutiger-aero/SKILL.md), [`material-design`](./material-design/SKILL.md), [`glassmorphism`](./glassmorphism/SKILL.md).
 
@@ -125,6 +225,24 @@ Used by: [`frutiger-aero`](./frutiger-aero/SKILL.md), [`material-design`](./mate
 
 Sources: Frank Thomas and Ollie Johnston, The Illusion of Life: Disney Animation (1981); Robert Penner, Programming Macromedia Flash MX (2002).
 
+### GIF loop
+
+A short clip stored as a GIF that repeats without end, in 256 colours and a small frame.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 1987 | — | Columbus: CompuServe releases the GIF format with support for several frames in one file. | |
+| 1 | Internet | c. 2009 | +22 years | Tumblr users and later Giphy cut film and TV clips into short loops and send them as replies. | [`reaction-gif`](./reaction-gif/SKILL.md) |
+| 2 | Internet | c. 2010 | +23 years | Net artists run glitch effects inside short loops of 20 to 40 frames. | [`glitch-gif`](./glitch-gif/SKILL.md) |
+
+Used by: [`reaction-gif`](./reaction-gif/SKILL.md), [`glitch-gif`](./glitch-gif/SKILL.md).
+
+- Cut the clip to 1 to 4 seconds and join the last frame to the first.
+- Export at 10 to 15 fps in 256 colours or fewer.
+- Keep the frame at 480px wide or less.
+
+Sources: [Wikipedia: GIF](https://en.wikipedia.org/wiki/GIF).
+
 ### Ken Burns effect
 
 A slow pan and zoom across a still image, so that a photograph moves in a film.
@@ -132,9 +250,11 @@ A slow pan and zoom across a still image, so that a photograph moves in a film.
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Film & Video | 1990 | — | The Civil War (PBS): Ken Burns pans and zooms over still photographs in a documentary series; rostrum-camera moves are older. | |
-| 1 | Graphic & UI Design | c. 2003 | +13 years | Apple names the pan-and-zoom setting after Burns in its photo and video software. |  |
+| 1 | Internet | c. 2003 | +13 years | Apple names the pan-and-zoom setting after Burns in its photo and video software. |  |
+| 2 | Internet | 2014 | +24 years | Video essays move a slow zoom of 3% to 6% over a still or a clip. | [`video-essay`](./video-essay/SKILL.md) |
+| 3 | Internet | c. 2022 | +32 years | Photo-mode slideshows zoom and pan slowly over each still image. | [`photo-carousel-slideshow`](./photo-carousel-slideshow/SKILL.md) |
 
-Used by: [`creator-vlog`](./creator-vlog/SKILL.md).
+Used by: [`creator-vlog`](./creator-vlog/SKILL.md), [`photo-carousel-slideshow`](./photo-carousel-slideshow/SKILL.md), [`video-essay`](./video-essay/SKILL.md).
 
 - Move 5% to 15% of the frame over 4 to 8 seconds on each still.
 - Start or end each move on a face or on the key detail.
@@ -150,8 +270,8 @@ Flat layers move at different speeds by their distance, so that a flat picture g
 | Origin | Film & Video | 1937 | — | The Old Mill: Disney's multiplane camera moves painted glass layers at different speeds; The Old Mill (1937) is its first film. | |
 | 1 | Video game | 1982 | +45 years | Moon Patrol scrolls 3 background layers at different speeds in arcades. |  |
 | 2 | Video game | 1990 | +53 years | 16-bit consoles scroll 2 to 4 hardware layers for parallax depth. | [`sixteen-bit-sprite`](./sixteen-bit-sprite/SKILL.md) |
-| 3 | Graphic & UI Design | c. 2011 | +74 years | Parallax scroll pages move the background layers slower than the page. | [`flat-design`](./flat-design/SKILL.md) |
-| 4 | Graphic & UI Design | 2015 | +78 years | Layered app icons on tvOS, and later visionOS, tilt their layers with parallax. | [`spatial-visionos`](./spatial-visionos/SKILL.md) |
+| 3 | Internet | c. 2011 | +74 years | Parallax scroll pages move the background layers slower than the page. | [`flat-design`](./flat-design/SKILL.md) |
+| 4 | Internet | 2015 | +78 years | Layered app icons on tvOS, and later visionOS, tilt their layers with parallax. | [`spatial-visionos`](./spatial-visionos/SKILL.md) |
 
 Used by: [`flat-design`](./flat-design/SKILL.md), [`spatial-visionos`](./spatial-visionos/SKILL.md), [`sixteen-bit-sprite`](./sixteen-bit-sprite/SKILL.md).
 
@@ -169,8 +289,8 @@ A moving form changes shape but keeps its volume: it stretches along its path at
 |---|---|---|---|---|---|
 | Origin | Film & Video | c. 1930 | — | Disney studio, Los Angeles: Disney animators exaggerate the volume of a ball and a face; Frank Thomas and Ollie Johnston name it the first of twelve principles in 1981. | |
 | 1 | Film & Video | 1986 | +56 years | John Lasseter applies it to computer animation in Luxo Jr. and in his SIGGRAPH paper of 1987. |  |
-| 2 | Graphic & UI Design | 2013 | +83 years | Spring-damped animation in iOS 7 lets interface elements overshoot and settle. | [`flat-design`](./flat-design/SKILL.md) |
-| 3 | Graphic & UI Design | c. 2015 | +85 years | 3D motion design renders soft bodies that wobble, inflate and bounce. | [`blob-world`](./blob-world/SKILL.md) |
+| 2 | Internet | 2013 | +83 years | Spring-damped animation in iOS 7 lets interface elements overshoot and settle. | [`flat-design`](./flat-design/SKILL.md) |
+| 3 | Internet | c. 2015 | +85 years | 3D motion design renders soft bodies that wobble, inflate and bounce. | [`blob-world`](./blob-world/SKILL.md) |
 
 Used by: [`flat-design`](./flat-design/SKILL.md), [`blob-world`](./blob-world/SKILL.md).
 
@@ -186,8 +306,8 @@ Text that appears word by word as the system writes it, so the reader can read t
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Graphic & UI Design | 2022 | — | United States: ChatGPT streams its answers word by word in a single column. | |
-| 1 | Graphic & UI Design | 2023 | +1 years | Other chat assistants and search tools copy the streamed answer. |  |
+| Origin | Internet | 2022 | — | United States: ChatGPT streams its answers word by word in a single column. | |
+| 1 | Internet | 2023 | +1 years | Other chat assistants and search tools copy the streamed answer. |  |
 
 Used by: [`ai-chat-ui`](./ai-chat-ui/SKILL.md).
 
@@ -197,7 +317,43 @@ Used by: [`ai-chat-ui`](./ai-chat-ui/SKILL.md).
 
 Sources: OpenAI, Introducing ChatGPT (2022).
 
+### Vector tween animation
+
+A vector shape moves, changes size or fades between two key frames, and the tool fills the frames between them.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 1996 | — | San Diego: FutureSplash Animator added vector tweens for the web; Macromedia later renamed it Flash. | |
+| 1 | Internet | c. 1998 | +2 years | Agencies build full sites as Flash timelines with intros and animated menus. | [`flash-intro-site`](./flash-intro-site/SKILL.md) |
+
+Used by: [`flash-intro-site`](./flash-intro-site/SKILL.md).
+
+- Set a key frame at the start and at the end, 12 to 24 frames apart.
+- Set the easing to ease-out for entrances, with a curve of 400ms to 800ms.
+- Keep the movement to 40px to 120px per scene.
+- Add a sound cue at the end of the move.
+
+Sources: [Wikipedia: Adobe Flash](https://en.wikipedia.org/wiki/Adobe_Flash).
+
 ## Motif
+
+### ANSI block shading
+
+Drawing with the block and shade characters of the IBM PC character set, in 16 colours, on an 80 by 25 grid.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 1983 | — | United States: MS-DOS 2.0 loaded ANSI.SYS, which let a text screen set colour and cursor position with escape codes. | |
+| 1 | Internet | c. 1985 | +2 years | Users of dial-up bulletin boards draw logos and menus with block characters and ANSI colour codes. | [`ansi-bbs-art`](./ansi-bbs-art/SKILL.md) |
+
+Used by: [`ansi-bbs-art`](./ansi-bbs-art/SKILL.md).
+
+- Draw on a grid of 80 columns by 25 rows, with cells of 8px by 16px.
+- Use ░ at 25%, ▒ at 50%, ▓ at 75% and █ at 100% to blend two colours.
+- Limit one cell to one foreground colour from 16 and one background colour from 8.
+- Add a signature in the lower right corner.
+
+Sources: [Wikipedia: ANSI art](https://en.wikipedia.org/wiki/ANSI_art); [Wikipedia: ANSI escape code](https://en.wikipedia.org/wiki/ANSI_escape_code).
 
 ### Arch
 
@@ -210,7 +366,7 @@ A curved head over an opening that carries load as compression; inside, a soft f
 | 2 | Interior | c. 1720 | +1920 years | Palladian arched windows and niches frame Georgian rooms. | [`georgian-interior`](./georgian-interior/SKILL.md) |
 | 3 | Architecture | 1875 | +2075 years | The Ecole des Beaux-Arts teaches the triumphal arch and the arcade as the main entrance of a public building; the Paris Opera opens in 1875. | [`beaux-arts-architecture`](./beaux-arts-architecture/SKILL.md) |
 | 4 | Architecture | c. 1978 | +2178 years | Postmodern facades quote the round arch as a sign, not as a structure. | [`postmodern-architecture`](./postmodern-architecture/SKILL.md) |
-| 5 | Graphic & UI Design | c. 2015 | +2215 years | Bohemian websites frame photographs and cards in arch-shaped masks. | [`bohemian-web`](./bohemian-web/SKILL.md) |
+| 5 | Internet | c. 2015 | +2215 years | Bohemian websites frame photographs and cards in arch-shaped masks. | [`bohemian-web`](./bohemian-web/SKILL.md) |
 | 6 | Interior | c. 2019 | +2219 years | Arched mirrors, headboards, doorways and painted arches become a room motif. | [`dopamine-decor`](./dopamine-decor/SKILL.md) |
 
 Used by: [`georgian-interior`](./georgian-interior/SKILL.md), [`postmodern-architecture`](./postmodern-architecture/SKILL.md), [`dopamine-decor`](./dopamine-decor/SKILL.md), [`renaissance-architecture`](./renaissance-architecture/SKILL.md), [`beaux-arts-architecture`](./beaux-arts-architecture/SKILL.md), [`bohemian-web`](./bohemian-web/SKILL.md).
@@ -303,10 +459,10 @@ The main forms lie on a tilted axis, so that the picture seems to move and to cu
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Painting | 1915 | — | Petrograd: Kazimir Malevich shows tilted, floating shapes in Suprematist paintings at the exhibition 0.10. | |
-| 1 | Graphic & UI Design | 1919 | +4 years | El Lissitzky draws Beat the Whites with the Red Wedge: a red wedge cuts into a white circle. | [`constructivism-web`](./constructivism-web/SKILL.md) |
-| 2 | Graphic & UI Design | c. 1924 | +9 years | Aleksandr Rodchenko sets the lines of his posters, such as the Books ad, on strong diagonals. | [`constructivism-web`](./constructivism-web/SKILL.md) |
+| 1 | Internet | 1919 | +4 years | El Lissitzky draws Beat the Whites with the Red Wedge: a red wedge cuts into a white circle. | [`constructivism-web`](./constructivism-web/SKILL.md) |
+| 2 | Internet | c. 1924 | +9 years | Aleksandr Rodchenko sets the lines of his posters, such as the Books ad, on strong diagonals. | [`constructivism-web`](./constructivism-web/SKILL.md) |
 | 3 | Film & Video | c. 1925 | +10 years | Sergei Eisenstein stages frames of Battleship Potemkin along strong diagonals. | [`soviet-montage`](./soviet-montage/SKILL.md) |
-| 4 | Graphic & UI Design | c. 1928 | +13 years | Jan Tschichold teaches the asymmetric, diagonal page in Die neue Typographie. | [`swiss-international`](./swiss-international/SKILL.md) |
+| 4 | Internet | c. 1928 | +13 years | Jan Tschichold teaches the asymmetric, diagonal page in Die neue Typographie. | [`swiss-international`](./swiss-international/SKILL.md) |
 
 Used by: [`suprematism`](./suprematism/SKILL.md), [`constructivism-web`](./constructivism-web/SKILL.md), [`soviet-montage`](./soviet-montage/SKILL.md), [`swiss-international`](./swiss-international/SKILL.md).
 
@@ -324,8 +480,8 @@ A large first letter that drops down 2 or more lines of text and marks the start
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Typeface | 1457 | — | Mainz, Germany: The Mainz Psalter of Fust and Schöffer prints large decorated initials in red and blue. | |
-| 1 | Graphic & UI Design | c. 1880 | +423 years | Victorian books and magazines open chapters with engraved, ornamented initials. | [`victorian-web`](./victorian-web/SKILL.md) |
-| 2 | Graphic & UI Design | c. 2021 | +564 years | Editorial sites open long articles with a large serif initial over 3 to 4 lines. | [`editorial-serif-revival`](./editorial-serif-revival/SKILL.md) |
+| 1 | Internet | c. 1880 | +423 years | Victorian books and magazines open chapters with engraved, ornamented initials. | [`victorian-web`](./victorian-web/SKILL.md) |
+| 2 | Internet | c. 2021 | +564 years | Editorial sites open long articles with a large serif initial over 3 to 4 lines. | [`editorial-serif-revival`](./editorial-serif-revival/SKILL.md) |
 
 Used by: [`victorian-web`](./victorian-web/SKILL.md), [`editorial-serif-revival`](./editorial-serif-revival/SKILL.md).
 
@@ -373,6 +529,24 @@ Used by: [`art-deco-architecture`](./art-deco-architecture/SKILL.md), [`georgian
 
 Sources: John Summerson, The Classical Language of Architecture (1963).
 
+### Framed caption layout
+
+A photo in a thin white frame on black, with a serif capital title and a small caption below.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | c. 2004 | — | web: Forum users copy the black frame of the demotivational poster and change its text. | |
+| 1 | Internet | c. 2004 | +0 years | Poster generators and forums make the framed template a one-click form. | [`demotivational-poster`](./demotivational-poster/SKILL.md) |
+
+Used by: [`demotivational-poster`](./demotivational-poster/SKILL.md).
+
+- Fill the canvas with black.
+- Frame the photo with a 2px white line and a 3px black gap.
+- Set a title in white serif capitals centred under the frame.
+- Add one grey caption line under the title.
+
+Sources: [Wikipedia: Motivational poster](https://en.wikipedia.org/wiki/Motivational_poster).
+
 ### Hard offset shadow
 
 A solid copy of a letter or a box, set behind it and moved down and to the side, with no blur.
@@ -380,7 +554,7 @@ A solid copy of a letter or a box, set behind it and moved down and to the side,
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Typeface | c. 1815 | — | London, United Kingdom: London type founders cast shaded and shadowed display letters for posters and handbills. | |
-| 1 | Graphic & UI Design | c. 2020 | +205 years | Neo-brutalist interfaces give each card and button a solid black shadow offset by 4 to 8 px. | [`neo-brutalism-ui`](./neo-brutalism-ui/SKILL.md) |
+| 1 | Internet | c. 2020 | +205 years | Neo-brutalist interfaces give each card and button a solid black shadow offset by 4 to 8 px. | [`neo-brutalism-ui`](./neo-brutalism-ui/SKILL.md) |
 
 Used by: [`neo-brutalism-ui`](./neo-brutalism-ui/SKILL.md).
 
@@ -400,7 +574,7 @@ Capital letters set with wide space between them, so that a short word reads as 
 | 1 | Logo | c. 1900 | +1787 years | Badges of clubs, railways and makers set the name in spaced capitals round the ring. | [`emblem-badge`](./emblem-badge/SKILL.md) |
 | 2 | Logo | c. 1970 | +1857 years | Fashion and hotel houses set their names in spaced roman capitals. | [`minimal-wordmark`](./minimal-wordmark/SKILL.md) |
 | 3 | Typeface | 1989 | +1876 years | Carol Twombly draws the Trajan typeface for Adobe from the column inscription. |  |
-| 4 | Graphic & UI Design | c. 2010 | +1897 years | Luxury sites set spaced small-cap labels over a large serif head. | [`luxury-typography-web`](./luxury-typography-web/SKILL.md) |
+| 4 | Internet | c. 2010 | +1897 years | Luxury sites set spaced small-cap labels over a large serif head. | [`luxury-typography-web`](./luxury-typography-web/SKILL.md) |
 
 Used by: [`minimal-wordmark`](./minimal-wordmark/SKILL.md), [`luxury-typography-web`](./luxury-typography-web/SKILL.md), [`emblem-badge`](./emblem-badge/SKILL.md).
 
@@ -420,8 +594,8 @@ A shadow far longer than its object, cast by a low sun, so that a still scene fe
 | Origin | Painting | 1914 | — | Paris: Giorgio de Chirico paints empty squares with long raking shadows in The Mystery and Melancholy of a Street. | |
 | 1 | Film & Video | 1922 | +8 years | F. W. Murnau casts the shadow of the vampire on the stairs in Nosferatu. | [`german-expressionist-cinema`](./german-expressionist-cinema/SKILL.md) |
 | 2 | Painting | c. 1924 | +10 years | Surrealist painters take over the empty, shadowed scene of de Chirico. | [`surrealism-painting`](./surrealism-painting/SKILL.md) |
-| 3 | Graphic & UI Design | c. 2013 | +99 years | Flat design adds a 45° long shadow to icons and buttons. | [`flat-design`](./flat-design/SKILL.md) |
-| 4 | Graphic & UI Design | c. 2020 | +106 years | Surreal web scenes use long shadows on calm, empty grounds. | [`surrealism-web`](./surrealism-web/SKILL.md) |
+| 3 | Internet | c. 2013 | +99 years | Flat design adds a 45° long shadow to icons and buttons. | [`flat-design`](./flat-design/SKILL.md) |
+| 4 | Internet | c. 2020 | +106 years | Surreal web scenes use long shadows on calm, empty grounds. | [`surrealism-web`](./surrealism-web/SKILL.md) |
 
 Used by: [`surrealism-painting`](./surrealism-painting/SKILL.md), [`german-expressionist-cinema`](./german-expressionist-cinema/SKILL.md), [`flat-design`](./flat-design/SKILL.md), [`surrealism-web`](./surrealism-web/SKILL.md).
 
@@ -430,7 +604,25 @@ Used by: [`surrealism-painting`](./surrealism-painting/SKILL.md), [`german-expre
 - Leave the shadow flat and dark, at 40% to 70% opacity.
 - Show the shadow of something outside the frame, to hint at an unseen presence.
 
-Sources: [Wikipedia, The Mystery and Melancholy of a Street](https://en.wikipedia.org/wiki/The_Mystery_and_Melancholy_of_a_Street); [Wikipedia, Nosferatu](https://en.wikipedia.org/wiki/Nosferatu).
+Sources: [Wikipedia, The Mystery and Melancholy of a Street](https://en.wikipedia.org/wiki/Mystery_and_Melancholy_of_a_Street); [Wikipedia, Nosferatu](https://en.wikipedia.org/wiki/Nosferatu).
+
+### Mesh and blade 3D motif
+
+A 3D render of one blade, mesh shell or ring in black, chrome or matte rubber. The frame has no person and no clothes.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 2013 | — | online: Health Goth group posts share 3D renders of blade and mesh forms with no people. | |
+| 1 | Internet | c. 2013 | +0 years | Health Goth posts show black 3D forms next to sport labels. | [`health-goth`](./health-goth/SKILL.md) |
+
+Used by: [`health-goth`](./health-goth/SKILL.md).
+
+- Model one form with sharp edges or a mesh skin.
+- Give it a black or chrome material with one cold rim light.
+- Place it at 40% to 60% of the frame on a black ground.
+- Add one line of small capital text and no other object.
+
+Sources: [Wikipedia: Health goth](https://en.wikipedia.org/wiki/Health_goth).
 
 ### Neoplastic grid
 
@@ -440,7 +632,7 @@ A plane divided by black horizontal and vertical bars into white fields and a fe
 |---|---|---|---|---|---|
 | Origin | Painting | 1917 | — | Leiden, Netherlands: Theo van Doesburg starts the magazine De Stijl; Piet Mondrian publishes his ideas on the new plastic in painting there. | |
 | 1 | Architecture | 1924 | +7 years | Gerrit Rietveld builds the Schröder House in Utrecht from planes and bars in white, grey and primary colours. |  |
-| 2 | Graphic & UI Design | c. 2015 | +98 years | Web pages split the screen with black rules into white and primary-colour fields. | [`de-stijl-web`](./de-stijl-web/SKILL.md) |
+| 2 | Internet | c. 2015 | +98 years | Web pages split the screen with black rules into white and primary-colour fields. | [`de-stijl-web`](./de-stijl-web/SKILL.md) |
 
 Used by: [`de-stijl-painting`](./de-stijl-painting/SKILL.md), [`de-stijl-web`](./de-stijl-web/SKILL.md).
 
@@ -450,6 +642,23 @@ Used by: [`de-stijl-painting`](./de-stijl-painting/SKILL.md), [`de-stijl-web`](.
 
 Sources: Hans L. C. Jaffé, De Stijl 1917-1931 (1956).
 
+### Outlined character sticker
+
+A drawn character with a thick outline, a white cut-out edge and one short word.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 2011 | — | Tokyo: The LINE messenger launches with drawn sticker packs that users buy and send. | |
+| 1 | Internet | 2011 | +0 years | LINE sticker packs spread the form across Asia, and other messengers copy it. | [`chat-sticker-pack`](./chat-sticker-pack/SKILL.md) |
+
+Used by: [`chat-sticker-pack`](./chat-sticker-pack/SKILL.md).
+
+- Draw a 3px dark line and a 6px white edge round the figure.
+- Make the head 50% of the body height and use 1 to 3 strokes for the mouth.
+- Add 1 to 3 words in rounded type in a corner.
+
+Sources: [Wikipedia: Sticker (messaging)](https://en.wikipedia.org/wiki/Sticker_(messaging)).
+
 ### Primary shapes
 
 The circle, the square and the triangle in flat colour, used as the whole picture or as a sign.
@@ -457,11 +666,11 @@ The circle, the square and the triangle in flat colour, used as the whole pictur
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Painting | 1915 | — | Petrograd, Russia: Kazimir Malevich shows the Black Square and other pure shapes at the 0,10 exhibition. | |
-| 1 | Graphic & UI Design | 1923 | +8 years | Wassily Kandinsky asks Bauhaus students to match the circle, the square and the triangle to blue, red and yellow. | [`bauhaus`](./bauhaus/SKILL.md) |
+| 1 | Internet | 1923 | +8 years | Wassily Kandinsky asks Bauhaus students to match the circle, the square and the triangle to blue, red and yellow. | [`bauhaus`](./bauhaus/SKILL.md) |
 | 2 | Ceramics | 1923 | +8 years | Malevich and his pupils build a teapot and cups from blocks and cylinders at the State Porcelain Factory. | [`suprematist-porcelain`](./suprematist-porcelain/SKILL.md) |
 | 3 | Ceramics | c. 1930 | +15 years | Designers at the Berlin and Halle porcelain works build services from the circle, the cylinder and the flat disc. | [`bauhaus-modern-tableware`](./bauhaus-modern-tableware/SKILL.md) |
-| 4 | Graphic & UI Design | 1961 | +46 years | Yusaku Kamekura puts one red circle over gold type on the poster for the Tokyo 1964 Olympic Games. | [`japanese-graphic-modernism`](./japanese-graphic-modernism/SKILL.md) |
-| 5 | Graphic & UI Design | 1981 | +66 years | Memphis Milano sets circles, triangles and squiggles on furniture and prints in loud colour. | [`memphis-design`](./memphis-design/SKILL.md) |
+| 4 | Internet | 1961 | +46 years | Yusaku Kamekura puts one red circle over gold type on the poster for the Tokyo 1964 Olympic Games. | [`japanese-graphic-modernism`](./japanese-graphic-modernism/SKILL.md) |
+| 5 | Internet | 1981 | +66 years | Memphis Milano sets circles, triangles and squiggles on furniture and prints in loud colour. | [`memphis-design`](./memphis-design/SKILL.md) |
 
 Used by: [`suprematism`](./suprematism/SKILL.md), [`bauhaus`](./bauhaus/SKILL.md), [`japanese-graphic-modernism`](./japanese-graphic-modernism/SKILL.md), [`memphis-design`](./memphis-design/SKILL.md), [`bauhaus-modern-tableware`](./bauhaus-modern-tableware/SKILL.md), [`suprematist-porcelain`](./suprematist-porcelain/SKILL.md).
 
@@ -498,7 +707,7 @@ A form shown as one solid shape with no inner line, read only from its outer edg
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Painting | c. 700 BCE | — | Corinth: Greek vase painters fill figures with black slip and scratch the detail. | |
-| 1 | Graphic & UI Design | c. 1759 | +2459 years | Cut black paper profiles become a fashion in France and take the name of the minister Etienne de Silhouette. |  |
+| 1 | Internet | c. 1759 | +2459 years | Cut black paper profiles become a fashion in France and take the name of the minister Etienne de Silhouette. |  |
 | 2 | Film & Video | 1926 | +2626 years | Lotte Reiniger shows The Adventures of Prince Achmed, a feature film of cut paper silhouettes. |  |
 | 3 | Icons | 1972 | +2672 years | Otl Aicher draws the Munich Olympic pictograms as white-on-colour figure silhouettes. |  |
 | 4 | Icons | 2012 | +2712 years | Font Awesome 1.0 gives the web a free set of solid glyphs in an icon font. | [`solid-glyph-icon`](./solid-glyph-icon/SKILL.md), [`flat-icon`](./flat-icon/SKILL.md) |
@@ -512,6 +721,24 @@ Used by: [`solid-glyph-icon`](./solid-glyph-icon/SKILL.md), [`flat-icon`](./flat
 
 Sources: Lotte Reiniger, Die Abenteuer des Prinzen Achmed (1926).
 
+### Single-hue total look
+
+One saturated colour carries the whole frame: clothes, props, walls and type share a single hue in a few tints.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 2022 | — | Los Angeles: Set photos of a Barbie film show cars, houses and clothes in one pink. | |
+| 1 | Internet | c. 2022 | +0 years | Photographs and shop pages from the 2022 Barbie film set dress one pink across clothes, cars and houses. | [`barbiecore`](./barbiecore/SKILL.md) |
+
+Used by: [`barbiecore`](./barbiecore/SKILL.md).
+
+- Choose one hue and fix it as a hex value, for example #E0218A.
+- Use 3 tints of that hue: a pale, a mid and a deep one.
+- Keep one neutral (white) and one small contrast colour (sky blue) under 10% of the frame.
+- Let the hue fill 60% or more of the surface.
+
+Sources: [Wikipedia: Barbiecore](https://en.wikipedia.org/wiki/Barbiecore); [Wikipedia: Barbie (film)](https://en.wikipedia.org/wiki/Barbie_(film)).
+
 ### Skeuomorph
 
 A detail that copies the material or the form of an older object, though it no longer has that function.
@@ -520,7 +747,7 @@ A detail that copies the material or the form of an older object, though it no l
 |---|---|---|---|---|---|
 | Origin | Architecture | c. 600 BCE | — | Greece: Doric stone temples carve triglyphs and guttae that copy the beam ends and pegs of earlier timber temples. | |
 | 1 | Icons | 2001 | +2601 years | Mac OS X icons draw each application as a real object, such as a stamp, a clock or a disc. | [`skeuomorphic-icon`](./skeuomorphic-icon/SKILL.md) |
-| 2 | Graphic & UI Design | 2007 | +2607 years | iPhone OS copies notepads, leather, felt and brushed metal in its applications. | [`skeuomorphism`](./skeuomorphism/SKILL.md) |
+| 2 | Internet | 2007 | +2607 years | iPhone OS copies notepads, leather, felt and brushed metal in its applications. | [`skeuomorphism`](./skeuomorphism/SKILL.md) |
 
 Used by: [`skeuomorphic-icon`](./skeuomorphic-icon/SKILL.md), [`skeuomorphism`](./skeuomorphism/SKILL.md).
 
@@ -559,7 +786,7 @@ Rays from a disc or a half disc: a sign of light and of the new, on a facade, a 
 | 3 | Ceramics | c. 1929 | +4 years | Clarice Cliff paints rays and bands of flat colour on Bizarre ware. | [`art-deco-tableware`](./art-deco-tableware/SKILL.md) |
 | 4 | Interior | c. 1935 | +10 years | Hollywood decorators hang sunburst mirrors and starburst lights in the homes and sets of film stars. | [`hollywood-regency-interior`](./hollywood-regency-interior/SKILL.md) |
 | 5 | Interior | 1949 | +24 years | George Nelson Associates design ray-form wall clocks for Howard Miller; the starburst mirror follows in the 1950s. | [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md) |
-| 6 | Graphic & UI Design | c. 1957 | +32 years | Space Age signs, packaging and posters use starbursts as a sign of the future. | [`space-age`](./space-age/SKILL.md), [`mid-century-modern`](./mid-century-modern/SKILL.md) |
+| 6 | Internet | c. 1957 | +32 years | Space Age signs, packaging and posters use starbursts as a sign of the future. | [`space-age`](./space-age/SKILL.md), [`mid-century-modern`](./mid-century-modern/SKILL.md) |
 | 7 | Interior | c. 2015 | +90 years | Neo-deco rooms bring back the fan and the sunburst in brass and glass. | [`neo-deco-interior`](./neo-deco-interior/SKILL.md) |
 
 Used by: [`art-deco-architecture`](./art-deco-architecture/SKILL.md), [`art-deco-interior`](./art-deco-interior/SKILL.md), [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md), [`space-age`](./space-age/SKILL.md), [`art-deco-web`](./art-deco-web/SKILL.md), [`neo-deco-interior`](./neo-deco-interior/SKILL.md), [`hollywood-regency-interior`](./hollywood-regency-interior/SKILL.md), [`mid-century-modern`](./mid-century-modern/SKILL.md), [`art-deco-product`](./art-deco-product/SKILL.md), [`art-deco-tableware`](./art-deco-tableware/SKILL.md).
@@ -587,6 +814,42 @@ Used by: [`art-deco-dance-shoe`](./art-deco-dance-shoe/SKILL.md).
 
 Sources: [Wikipedia: T-bar shoe](https://en.wikipedia.org/wiki/T-bar_shoe).
 
+### Text emoticon
+
+A face made of keyboard characters, read sideways in the West and upright in Japan.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 1982 | — | Pittsburgh: Scott Fahlman proposes :-) and :-( on a Carnegie Mellon message board. | |
+| 1 | Internet | c. 1986 | +4 years | Japanese net users post upright faces such as (^_^) on bulletin boards and develop the kaomoji form. | [`kaomoji-emoticon`](./kaomoji-emoticon/SKILL.md) |
+
+Used by: [`kaomoji-emoticon`](./kaomoji-emoticon/SKILL.md).
+
+- Build the face from 3 to 12 characters of one monospace font.
+- Keep the face on the baseline of the line, with 1 space on each side.
+- Use at most 1 or 2 faces in one message.
+
+Sources: [Wikipedia: Emoticon](https://en.wikipedia.org/wiki/Emoticon).
+
+### Tiled background
+
+A small image that repeats in both directions behind a page. It fills any window size from one file.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | c. 1995 | — | United States: Netscape Navigator 1.1 added background images for pages. | |
+| 1 | Internet | 1995 | +0 years | Free home page hosts make the tile a common ground for personal pages. | [`geocities-homepage`](./geocities-homepage/SKILL.md) |
+| 2 | Internet | c. 2003 | +8 years | Profile owners set a wallpaper under their boxes with pasted CSS. | [`myspace-profile`](./myspace-profile/SKILL.md) |
+
+Used by: [`geocities-homepage`](./geocities-homepage/SKILL.md), [`myspace-profile`](./myspace-profile/SKILL.md).
+
+- Make a tile of 32px to 128px that joins at all 4 edges.
+- Keep the tile to 16 or 64 colours so that the file stays small.
+- Keep text in a bright colour on a dark tile, or in a dark colour on a pale tile.
+- Use a fixed position when the page scrolls.
+
+Sources: [Wikipedia: Netscape Navigator](https://en.wikipedia.org/wiki/Netscape_Navigator); [Wikipedia: GeoCities](https://en.wikipedia.org/wiki/GeoCities).
+
 ### Whiplash line
 
 A long S-shaped line whose curve changes along its length, drawn from a plant stem; it joins structure and ornament in one stroke.
@@ -595,14 +858,14 @@ A long S-shaped line whose curve changes along its length, drawn from a plant st
 |---|---|---|---|---|---|
 | Origin | Architecture | c. 1893 | — | Brussels: Victor Horta uses curved iron stems on the stair and the ceiling of the Hotel Tassel. | |
 | 1 | Interior | 1893 | +0 years | Victor Horta carries the iron whiplash line into the stair, the floor mosaic and the wall paint of the Hotel Tassel in Brussels. | [`art-nouveau-interior`](./art-nouveau-interior/SKILL.md) |
-| 2 | Graphic & UI Design | c. 1894 | +1 years | Hermann Obrist shows the Cyclamen wall hanging, an embroidery of one long curved stem. |  |
+| 2 | Internet | c. 1894 | +1 years | Hermann Obrist shows the Cyclamen wall hanging, an embroidery of one long curved stem. |  |
 | 3 | Ceramics | c. 1895 | +2 years | Tile makers press the S-curve of the plant stem in low relief on hearth tiles and friezes. | [`art-nouveau-tiles`](./art-nouveau-tiles/SKILL.md) |
 | 4 | Logo | c. 1896 | +3 years | Jugend and Pan magazines print initials and vignettes in interlaced curved lines. | [`art-nouveau-monogram`](./art-nouveau-monogram/SKILL.md) |
 | 5 | Industrial design | c. 1898 | +5 years | Hector Guimard casts the whiplash line into the railings, handles and stoves of the Castel Béranger. | [`art-nouveau-object`](./art-nouveau-object/SKILL.md) |
 | 6 | Typeface | 1900 | +7 years | Otto Eckmann draws the Eckmann-Schrift with brush-like curved strokes. |  |
 | 7 | Architecture | 1900 | +7 years | Hector Guimard designs the iron entrances of the Paris Metro with plant-like curves. | [`art-nouveau-architecture`](./art-nouveau-architecture/SKILL.md) |
 | 8 | Ceramics | 1900 | +7 years | Rozenburg of The Hague shows eggshell porcelain with whiplash curves at the Exposition Universelle in Paris, and French potters show flambé vases with plant forms. | [`art-nouveau-ceramics`](./art-nouveau-ceramics/SKILL.md) |
-| 9 | Graphic & UI Design | 1966 | +73 years | San Francisco concert posters of 1966 to 1968 copy Art Nouveau lettering and whiplash curves. | [`psychedelic`](./psychedelic/SKILL.md) |
+| 9 | Internet | 1966 | +73 years | San Francisco concert posters of 1966 to 1968 copy Art Nouveau lettering and whiplash curves. | [`psychedelic`](./psychedelic/SKILL.md) |
 
 Used by: [`art-nouveau-architecture`](./art-nouveau-architecture/SKILL.md), [`art-nouveau-monogram`](./art-nouveau-monogram/SKILL.md), [`art-nouveau-interior`](./art-nouveau-interior/SKILL.md), [`psychedelic`](./psychedelic/SKILL.md), [`art-nouveau-object`](./art-nouveau-object/SKILL.md), [`art-nouveau-ceramics`](./art-nouveau-ceramics/SKILL.md), [`art-nouveau-tiles`](./art-nouveau-tiles/SKILL.md).
 
@@ -612,6 +875,24 @@ Used by: [`art-nouveau-architecture`](./art-nouveau-architecture/SKILL.md), [`ar
 - Use few colours, 2 to 4, in muted tones.
 
 Sources: Victor Horta, Hotel Tassel, Brussels (1893).
+
+### Word-by-word captions
+
+Speech shown as 1 to 3 large words at a time, with the word that is spoken now in a bright colour.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | c. 2020 | — | TikTok: Short video apps add auto captions, and makers restyle them as large animated words that follow the speech. | |
+| 1 | Internet | c. 2020 | +0 years | Short video apps and editing tools add auto captions that makers restyle as animated words. | [`word-caption-clip`](./word-caption-clip/SKILL.md) |
+
+Used by: [`word-caption-clip`](./word-caption-clip/SKILL.md).
+
+- Show 1 to 3 words at a time at 72px to 110px.
+- Time each word to the audio within 2 frames.
+- Colour the active word and keep the rest white.
+- Add a 6px outline and pop each word in over 6 to 8 frames.
+
+Sources: [Wikipedia: Closed captioning](https://en.wikipedia.org/wiki/Closed_captioning); [Wikipedia: TikTok](https://en.wikipedia.org/wiki/TikTok).
 
 ## Material
 
@@ -777,6 +1058,24 @@ Used by: [`liuli-glazed-roof`](./liuli-glazed-roof/SKILL.md).
 
 Sources: [Wikipedia: Glazed tile](https://en.wikipedia.org/wiki/Glazed_tile); [Wikipedia: Forbidden City](https://en.wikipedia.org/wiki/Forbidden_City).
 
+### Glossy gradient button
+
+A button with a vertical gradient, a white highlight on the top half and a soft shadow below, so that it looks like candy or glass.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 2000 | — | United States: Apple showed the Aqua interface with glossy, drop-like buttons in January 2000. | |
+| 1 | Internet | c. 2004 | +4 years | Web start-ups copy the gloss for buttons, badges and logos. | [`web-2-0-gloss`](./web-2-0-gloss/SKILL.md) |
+
+Used by: [`web-2-0-gloss`](./web-2-0-gloss/SKILL.md).
+
+- Fill the button with a vertical 2-stop gradient, light blue to dark blue.
+- Add a white overlay at 35% to 50% opacity on the top half.
+- Add a 1px inner highlight at the top edge and a shadow of 0 2px 4px below.
+- Round the corners at 6px to 12px.
+
+Sources: [Wikipedia: Aqua (user interface)](https://en.wikipedia.org/wiki/Aqua_(user_interface)); [Wikipedia: Web 2.0](https://en.wikipedia.org/wiki/Web_2.0).
+
 ### Gold pink enamel
 
 A soft rose-pink overglaze enamel that colloidal gold makes. Painters mix it with white enamel to make a range of tints from deep rose to white.
@@ -881,7 +1180,7 @@ A thin wash of slaked lime that dries to a soft, matt white with a faint cloud o
 | 1 | Architecture | 1911 | +9111 years | Le Corbusier records the white lime-washed houses of the Aegean on his Journey to the East. |  |
 | 2 | Architecture | c. 1960 | +9160 years | Geoffrey Bawa builds white-plastered houses in Sri Lanka. | [`critical-regionalism-architecture`](./critical-regionalism-architecture/SKILL.md) |
 | 3 | Interior | c. 1990 | +9190 years | Beach houses in the USA put white-washed walls and boards in summer rooms. | [`coastal-interior`](./coastal-interior/SKILL.md) |
-| 4 | Graphic & UI Design | c. 2015 | +9215 years | Wabi-sabi websites use limewash and plaster textures as the page ground. | [`wabi-sabi-web`](./wabi-sabi-web/SKILL.md) |
+| 4 | Internet | c. 2015 | +9215 years | Wabi-sabi websites use limewash and plaster textures as the page ground. | [`wabi-sabi-web`](./wabi-sabi-web/SKILL.md) |
 
 Used by: [`critical-regionalism-architecture`](./critical-regionalism-architecture/SKILL.md), [`coastal-interior`](./coastal-interior/SKILL.md), [`wabi-sabi-web`](./wabi-sabi-web/SKILL.md).
 
@@ -936,10 +1235,10 @@ Light as a line of coloured gas, with a soft halo that spills onto the dark grou
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Graphic & UI Design | 1912 | — | Paris: Georges Claude shows his neon tube at the Paris Motor Show in 1910, and a Paris hairdresser installs a neon sign in 1912. | |
+| Origin | Internet | 1912 | — | Paris: Georges Claude shows his neon tube at the Paris Motor Show in 1910, and a Paris hairdresser installs a neon sign in 1912. | |
 | 1 | Architecture | 1972 | +60 years | Venturi, Scott Brown and Izenour study the neon signs of the Las Vegas Strip in Learning from Las Vegas. | [`postmodern-architecture`](./postmodern-architecture/SKILL.md) |
 | 2 | Film & Video | 1982 | +70 years | Ridley Scott fills the wet night streets of Blade Runner with neon signs. | [`neon-noir`](./neon-noir/SKILL.md) |
-| 3 | Graphic & UI Design | c. 2010 | +98 years | Web designers fake neon with layered text-shadow and box-shadow glows once browsers support CSS3. | [`cyberpunk-web`](./cyberpunk-web/SKILL.md), [`synthwave-web`](./synthwave-web/SKILL.md) |
+| 3 | Internet | c. 2010 | +98 years | Web designers fake neon with layered text-shadow and box-shadow glows once browsers support CSS3. | [`cyberpunk-web`](./cyberpunk-web/SKILL.md), [`synthwave-web`](./synthwave-web/SKILL.md) |
 
 Used by: [`postmodern-architecture`](./postmodern-architecture/SKILL.md), [`neon-noir`](./neon-noir/SKILL.md), [`cyberpunk-web`](./cyberpunk-web/SKILL.md), [`synthwave-web`](./synthwave-web/SKILL.md).
 
@@ -1101,7 +1400,7 @@ Chips of marble or glass set in a binder and ground flat, so that each chip show
 | Origin | Architecture | c. 1500 | — | Venice: Venetian workers set marble offcuts in lime and polish the floor of palaces: terrazzo alla veneziana. | |
 | 1 | Architecture | c. 1925 | +425 years | Poured terrazzo with brass strips paves Art Deco lobbies. | [`art-deco-architecture`](./art-deco-architecture/SKILL.md) |
 | 2 | Interior | c. 1950 | +450 years | Poured terrazzo floors go into mid-century homes, schools and airports. | [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md) |
-| 3 | Graphic & UI Design | 1981 | +481 years | Memphis Milano prints speckled chip patterns on plastic laminates and fabrics. | [`memphis-design`](./memphis-design/SKILL.md) |
+| 3 | Internet | 1981 | +481 years | Memphis Milano prints speckled chip patterns on plastic laminates and fabrics. | [`memphis-design`](./memphis-design/SKILL.md) |
 | 4 | Industrial design | 1981 | +481 years | Memphis Milano uses terrazzo for table tops and prints terrazzo chips on laminate. | [`memphis-product`](./memphis-product/SKILL.md) |
 | 5 | Interior | c. 2016 | +516 years | Terrazzo moves from the floor to tables, tiles, lamps and small objects. | [`dopamine-decor`](./dopamine-decor/SKILL.md) |
 
@@ -1338,8 +1637,9 @@ A hard contrast of light and dark that models form: one strong source, deep shad
 | 5 | Film & Video | 1941 | +441 years | Citizen Kane and The Maltese Falcon use low-key light, deep shadow and hard bars of light; crime films of the 1940s make it a house style. | [`film-noir`](./film-noir/SKILL.md) |
 | 6 | Photography | c. 1946 | +446 years | Stills of noir films and press night photographs keep the single hard light and the black ground. | [`film-noir-still`](./film-noir-still/SKILL.md) |
 | 7 | Film & Video | 1982 | +482 years | Blade Runner, shot by Jordan Cronenweth for Ridley Scott, cuts shafts of light through smoke and blinds in a colour city. | [`neon-noir`](./neon-noir/SKILL.md) |
+| 8 | Internet | c. 2019 | +519 years | Dark academia photographs light a face or a book with one candle or window and let the rest fall into shadow. | [`dark-academia`](./dark-academia/SKILL.md) |
 
-Used by: [`baroque-painting`](./baroque-painting/SKILL.md), [`german-expressionist-cinema`](./german-expressionist-cinema/SKILL.md), [`film-noir`](./film-noir/SKILL.md), [`film-noir-still`](./film-noir-still/SKILL.md), [`neon-noir`](./neon-noir/SKILL.md), [`romanticism-painting`](./romanticism-painting/SKILL.md).
+Used by: [`baroque-painting`](./baroque-painting/SKILL.md), [`german-expressionist-cinema`](./german-expressionist-cinema/SKILL.md), [`film-noir`](./film-noir/SKILL.md), [`film-noir-still`](./film-noir-still/SKILL.md), [`neon-noir`](./neon-noir/SKILL.md), [`romanticism-painting`](./romanticism-painting/SKILL.md), [`dark-academia`](./dark-academia/SKILL.md).
 
 - Light the subject from one hard source at 30° to 60° above and to the side; let the shadow side fall to near black.
 - Keep the light on 20% to 30% of the frame and let the rest sink into shadow.
@@ -1347,6 +1647,24 @@ Used by: [`baroque-painting`](./baroque-painting/SKILL.md), [`german-expressioni
 - Cut hard shapes into the light with blinds, grilles or foliage so that the shadow becomes a pattern.
 
 Sources: [Wikipedia: Chiaroscuro](https://en.wikipedia.org/wiki/Chiaroscuro); David Bordwell and Kristin Thompson, Film Art: An Introduction (McGraw-Hill).
+
+### Chroma key
+
+Remove one flat colour from a shot and put another picture behind the subject.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Film & Video | 1940 | — | London: Larry Butler makes the blue-screen travelling-matte shots of The Thief of Bagdad. | |
+| 1 | Internet | 2020 | +80 years | TikTok adds a green-screen effect: the creator keeps the face and body and swaps the ground for any photo. | [`green-screen-short`](./green-screen-short/SKILL.md) |
+
+Used by: [`green-screen-short`](./green-screen-short/SKILL.md).
+
+- Light a flat green or blue ground evenly, with no shadows.
+- Keep the subject at 1 m or more from the ground to avoid colour spill.
+- Key out the ground colour and feather the mask edge by 1px to 2px.
+- Place the new picture behind the subject and match its light direction.
+
+Sources: [Wikipedia: Chroma key](https://en.wikipedia.org/wiki/Chroma_key); [Wikipedia: Lawrence W. Butler](https://en.wikipedia.org/wiki/Lawrence_W._Butler).
 
 ### Chrome plating
 
@@ -1399,7 +1717,7 @@ Forms that look modelled in soft clay: round edges, one matte material and soft,
 |---|---|---|---|---|---|
 | Origin | Film & Video | c. 1908 | — | United States: Early films such as The Sculptor's Nightmare animate figures modelled in clay. | |
 | 1 | Icons | c. 2020 | +112 years | Icon sets render each object in 3D with one matte, clay-like material and soft light. | [`clay-3d-icon`](./clay-3d-icon/SKILL.md) |
-| 2 | Graphic & UI Design | 2021 | +113 years | Claymorphism gives cards and buttons the round, puffed form of clay. | [`claymorphism`](./claymorphism/SKILL.md) |
+| 2 | Internet | 2021 | +113 years | Claymorphism gives cards and buttons the round, puffed form of clay. | [`claymorphism`](./claymorphism/SKILL.md) |
 
 Used by: [`clay-3d-icon`](./clay-3d-icon/SKILL.md), [`claymorphism`](./claymorphism/SKILL.md).
 
@@ -1457,7 +1775,7 @@ Letters and marks drawn on a fixed grid of squares and circles, so that each gly
 |---|---|---|---|---|---|
 | Origin | Typeface | 1525 | — | Nuremberg: Albrecht Duerer publishes letters built with ruler and compass on a square grid in Underweysung der Messung. | |
 | 1 | Typeface | 1692 | +167 years | The committee of the Academie des Sciences draws the Romain du roi on a grid of 2304 small squares. |  |
-| 2 | Graphic & UI Design | 1925 | +400 years | Herbert Bayer draws the Universal alphabet at the Bauhaus with a compass and a ruler. | [`bauhaus`](./bauhaus/SKILL.md) |
+| 2 | Internet | 1925 | +400 years | Herbert Bayer draws the Universal alphabet at the Bauhaus with a compass and a ruler. | [`bauhaus`](./bauhaus/SKILL.md) |
 | 3 | Typeface | 1927 | +402 years | Paul Renner draws Futura from the circle, the square and the triangle. | [`geometric-sans`](./geometric-sans/SKILL.md) |
 | 4 | Icons | 1972 | +447 years | Otl Aicher builds the pictograms of the Munich Olympics on a grid with angles of 45° and 90° only. | [`outline-icon`](./outline-icon/SKILL.md) |
 | 5 | Logo | 2012 | +487 years | The Twitter bird is drawn from overlapping circles with set radii. | [`geometric-symbol`](./geometric-symbol/SKILL.md), [`swiss-modernist-mark`](./swiss-modernist-mark/SKILL.md), [`flat-logo`](./flat-logo/SKILL.md) |
@@ -1550,8 +1868,8 @@ A light shadow on one side and a dark shadow on the other, on a ground of the sa
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Graphic & UI Design | 2019 | — | Online (Dribbble): Designers on Dribbble post soft-plastic interface concepts, and the name neumorphism spreads. | |
-| 1 | Graphic & UI Design | 2021 | +2 years | Claymorphism adds an inner shadow and a large radius, so that cards look like soft clay. | [`claymorphism`](./claymorphism/SKILL.md) |
+| Origin | Internet | 2019 | — | Online (Dribbble): Designers on Dribbble post soft-plastic interface concepts, and the name neumorphism spreads. | |
+| 1 | Internet | 2021 | +2 years | Claymorphism adds an inner shadow and a large radius, so that cards look like soft clay. | [`claymorphism`](./claymorphism/SKILL.md) |
 
 Used by: [`neumorphism`](./neumorphism/SKILL.md), [`claymorphism`](./claymorphism/SKILL.md).
 
@@ -1640,6 +1958,42 @@ Used by: [`high-tech-architecture`](./high-tech-architecture/SKILL.md), [`indust
 
 Sources: Kenneth Powell, Richard Rogers: Complete Works (1999).
 
+### Feature amplification
+
+A method that changes a photograph to raise the response of one network layer, so the network patterns grow out of the image.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 2015 | — | Google: Alexander Mordvintsev and colleagues post the method and its first images in a Google research blog in June 2015. | |
+| 1 | Internet | 2015 | +0 years | Google releases the code in July 2015; users post dog-face and eye-filled photographs on web forums and image boards. | [`deepdream-psychedelia`](./deepdream-psychedelia/SKILL.md) |
+
+Used by: [`deepdream-psychedelia`](./deepdream-psychedelia/SKILL.md).
+
+- Pick one layer of a trained image network; a middle layer gives eyes and fur, a high layer gives whole animals.
+- Change the pixels of the image by small steps so that the layer response rises.
+- Repeat at 4 to 8 image sizes (octaves) and mix the results back into one image.
+- Feed the output back in and zoom 3% for each frame to make an endless loop.
+
+Sources: [Google Research Blog: Inceptionism (2015)](https://research.google/blog/inceptionism-going-deeper-into-neural-networks/); [Wikipedia: DeepDream](https://en.wikipedia.org/wiki/DeepDream).
+
+### Feed grid planning
+
+The practice of planning the order of posts so that the profile grid reads as one board.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | c. 2016 | — | web: Scheduling apps add a grid preview of the Instagram profile. | |
+| 1 | Internet | c. 2016 | +0 years | Brand and creator profiles plan the grid as one board with a repeat rhythm. | [`cohesive-feed-grid`](./cohesive-feed-grid/SKILL.md) |
+
+Used by: [`cohesive-feed-grid`](./cohesive-feed-grid/SKILL.md).
+
+- Preview the next 9 posts in a 3-column grid before posting.
+- Fix one preset, one palette and one crop ratio.
+- Repeat a rhythm of image types in rows of 3.
+- Check the grid after each post.
+
+Sources: [Wikipedia: Instagram](https://en.wikipedia.org/wiki/Instagram).
+
 ### Figured silk weaving
 
 The weaving of patterns into silk cloth on a draw loom, so that flowers and ribbons appear in the weave of the cloth.
@@ -1665,8 +2019,8 @@ Every character takes one cell of the same width, so text forms columns without 
 |---|---|---|---|---|---|
 | Origin | Typeface | 1874 | — | Ilion, New York: The Sholes and Glidden typewriter by E. Remington and Sons moves the carriage one fixed step for each key, so its type must be monospaced. | |
 | 1 | Typeface | 1874 | +0 years | Typewriter faces, then Courier for IBM in 1955. | [`monospace`](./monospace/SKILL.md) |
-| 2 | Graphic & UI Design | 1978 | +104 years | Video terminals such as the DEC VT100 draw the whole screen as a grid of 80 by 24 character cells. | [`terminal-tui-web`](./terminal-tui-web/SKILL.md), [`dark-devtool-ui`](./dark-devtool-ui/SKILL.md) |
-| 3 | Graphic & UI Design | c. 2014 | +140 years | Brutalist websites set all text in a system monospace face on default browser styles. | [`brutalist-web`](./brutalist-web/SKILL.md) |
+| 2 | Internet | 1978 | +104 years | Video terminals such as the DEC VT100 draw the whole screen as a grid of 80 by 24 character cells. | [`terminal-tui-web`](./terminal-tui-web/SKILL.md), [`dark-devtool-ui`](./dark-devtool-ui/SKILL.md) |
+| 3 | Internet | c. 2014 | +140 years | Brutalist websites set all text in a system monospace face on default browser styles. | [`brutalist-web`](./brutalist-web/SKILL.md) |
 
 Used by: [`monospace`](./monospace/SKILL.md), [`terminal-tui-web`](./terminal-tui-web/SKILL.md), [`dark-devtool-ui`](./dark-devtool-ui/SKILL.md), [`brutalist-web`](./brutalist-web/SKILL.md).
 
@@ -1804,11 +2158,12 @@ A fault in a signal, kept as an image: torn lines, split colour channels and rep
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Film & Video | 1963 | — | Wuppertal: Nam June Paik bends the picture of television sets with magnets in his first Exposition of Music-Electronic Television. | |
-| 1 | Graphic & UI Design | c. 2010 | +47 years | Rosa Menkman writes the Glitch Studies Manifesto; designers copy channel splits and torn bands in posters and sites. | [`cyberpunk-web`](./cyberpunk-web/SKILL.md), [`vaporwave`](./vaporwave/SKILL.md) |
+| 1 | Internet | c. 2010 | +47 years | Rosa Menkman writes the Glitch Studies Manifesto; designers copy channel splits and torn bands in posters and sites. | [`cyberpunk-web`](./cyberpunk-web/SKILL.md), [`vaporwave`](./vaporwave/SKILL.md), [`glitch-gif`](./glitch-gif/SKILL.md) |
 | 2 | Film & Video | c. 2015 | +52 years | Short films and music videos shot on old camcorders keep VHS tracking errors and colour bleed. | [`camcorder-revival`](./camcorder-revival/SKILL.md) |
-| 3 | Graphic & UI Design | c. 2020 | +57 years | Cybercore pages add scan lines, split colour channels and torn frames as decoration. | [`cybercore-web`](./cybercore-web/SKILL.md) |
+| 3 | Internet | 2019 | +56 years | Glitchcore edits split colour channels, repeat frames and add datamosh on fast cuts. | [`glitchcore`](./glitchcore/SKILL.md) |
+| 4 | Internet | c. 2020 | +57 years | Cybercore pages add scan lines, split colour channels and torn frames as decoration. | [`cybercore-web`](./cybercore-web/SKILL.md) |
 
-Used by: [`cyberpunk-web`](./cyberpunk-web/SKILL.md), [`vaporwave`](./vaporwave/SKILL.md), [`camcorder-revival`](./camcorder-revival/SKILL.md), [`cybercore-web`](./cybercore-web/SKILL.md).
+Used by: [`cyberpunk-web`](./cyberpunk-web/SKILL.md), [`vaporwave`](./vaporwave/SKILL.md), [`camcorder-revival`](./camcorder-revival/SKILL.md), [`cybercore-web`](./cybercore-web/SKILL.md), [`glitchcore`](./glitchcore/SKILL.md), [`glitch-gif`](./glitch-gif/SKILL.md).
 
 - Shift the red and blue channels by 2 to 8px in opposite directions.
 - Cut bands of 4 to 40px and move them sideways by 10 to 60px.
@@ -1860,11 +2215,11 @@ Tone printed as dots of different size or spacing; at a distance the dots merge 
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Graphic & UI Design | 1879 | — | New York: Benjamin Day patents a mechanical tint of dots for printers; photographic halftone screens follow in the 1880s. | |
+| Origin | Internet | 1879 | — | New York: Benjamin Day patents a mechanical tint of dots for printers; photographic halftone screens follow in the 1880s. | |
 | 1 | Photography | 1880 | +1 years | The Daily Graphic of New York prints a photograph as a halftone. |  |
 | 2 | Painting | 1961 | +82 years | Roy Lichtenstein paints enlarged Ben-Day dots by hand in Look Mickey. |  |
 | 3 | Print | 1962 | +83 years | Andy Warhol has photographs made into halftone screens and pulls them over hand-cut flat colour. | [`pop-screen-print`](./pop-screen-print/SKILL.md) |
-| 4 | Graphic & UI Design | c. 1976 | +97 years | Punk zines photocopy halftones until the dots break up. | [`punk-zine`](./punk-zine/SKILL.md) |
+| 4 | Internet | c. 1976 | +97 years | Punk zines photocopy halftones until the dots break up. | [`punk-zine`](./punk-zine/SKILL.md) |
 | 5 | Icons | 2019 | +140 years | Duotone icon sets print each glyph in two tones of one hue, as a two-screen duotone does in print. | [`duotone-icon`](./duotone-icon/SKILL.md) |
 
 Used by: [`pop-art-web`](./pop-art-web/SKILL.md), [`punk-zine`](./punk-zine/SKILL.md), [`duotone-icon`](./duotone-icon/SKILL.md), [`pop-screen-print`](./pop-screen-print/SKILL.md).
@@ -1909,6 +2264,26 @@ Used by: [`victorian-architectural-terracotta`](./victorian-architectural-terrac
 - Bed the block in mortar and tie it to the backing wall or the steel frame.
 
 Sources: [Wikipedia: Architectural terracotta](https://en.wikipedia.org/wiki/Architectural_terracotta).
+
+### Image macro captioning
+
+Two lines of white outlined capitals on a photo: a setup on top and a punch line below.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | c. 2006 | — | web: Forum users put white outlined Impact text on photos; the format spreads from imageboards. | |
+| 1 | Internet | c. 2006 | +0 years | Imageboards and meme sites make the captioned photo a standard form. | [`impact-image-macro`](./impact-image-macro/SKILL.md) |
+| 2 | Internet | c. 2017 | +11 years | Meme makers copy the bold caption into loud, recompressed pictures. | [`deep-fried-meme`](./deep-fried-meme/SKILL.md) |
+| 3 | Internet | c. 2017 | +11 years | Meme makers put text labels on the people and objects of a stock photo to name their roles. | [`label-meme`](./label-meme/SKILL.md) |
+
+Used by: [`impact-image-macro`](./impact-image-macro/SKILL.md), [`deep-fried-meme`](./deep-fried-meme/SKILL.md), [`label-meme`](./label-meme/SKILL.md).
+
+- Set the font to Impact or an open look-alike such as Anton, in capitals.
+- Fill the text white and draw a black outline of 3 to 4px per 40px of text.
+- Place one line 5% to 8% from the top and one 5% to 8% from the bottom.
+- Size each line to 80% to 95% of the width.
+
+Sources: [Wikipedia: Image macro](https://en.wikipedia.org/wiki/Image_macro).
 
 ### Injection moulding
 
@@ -1977,7 +2352,7 @@ A drawing with three axes at equal angles and one scale, with no vanishing point
 | 2 | Video game | 1982 | +160 years | Sega's Zaxxon is the first arcade game in an isometric view. |  |
 | 3 | Video game | 1984 | +162 years | Ultimate's Knight Lore builds rooms as isometric boxes on home computers. | [`isometric-pixel-world`](./isometric-pixel-world/SKILL.md) |
 | 4 | Video game | 2014 | +192 years | Monument Valley uses an orthographic isometric view for impossible architecture. | [`impossible-isometric-mobile`](./impossible-isometric-mobile/SKILL.md) |
-| 5 | Graphic & UI Design | c. 2015 | +193 years | Isometric illustrations show products, data and offices on tech pages. | [`corporate-memphis`](./corporate-memphis/SKILL.md) |
+| 5 | Internet | c. 2015 | +193 years | Isometric illustrations show products, data and offices on tech pages. | [`corporate-memphis`](./corporate-memphis/SKILL.md) |
 | 6 | Icons | c. 2015 | +193 years | Icon packs for product pages and dashboards draw small objects on the isometric grid. | [`isometric-icon`](./isometric-icon/SKILL.md) |
 
 Used by: [`corporate-memphis`](./corporate-memphis/SKILL.md), [`bento-grid-ui`](./bento-grid-ui/SKILL.md), [`isometric-icon`](./isometric-icon/SKILL.md), [`isometric-pixel-world`](./isometric-pixel-world/SKILL.md), [`impossible-isometric-mobile`](./impossible-isometric-mobile/SKILL.md).
@@ -2124,10 +2499,10 @@ A print from a flat stone or plate on which a greasy drawing takes ink and water
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Graphic & UI Design | c. 1796 | — | Munich: Alois Senefelder invents lithography in Bavaria. | |
+| Origin | Internet | c. 1796 | — | Munich: Alois Senefelder invents lithography in Bavaria. | |
 | 1 | Print | 1866 | +70 years | Jules Chéret prints his first colour posters on his own presses in Paris, with one stone for each ink. | [`chromolithograph-poster`](./chromolithograph-poster/SKILL.md) |
 | 2 | Painting | 1879 | +83 years | Odilon Redon publishes the lithographs of Dans le rêve, black dream visions. | [`symbolism-painting`](./symbolism-painting/SKILL.md) |
-| 3 | Graphic & UI Design | 1891 | +95 years | Henri de Toulouse-Lautrec prints the poster Moulin Rouge: La Goulue in colour lithography. | [`art-nouveau-web`](./art-nouveau-web/SKILL.md) |
+| 3 | Internet | 1891 | +95 years | Henri de Toulouse-Lautrec prints the poster Moulin Rouge: La Goulue in colour lithography. | [`art-nouveau-web`](./art-nouveau-web/SKILL.md) |
 | 4 | Painting | 1895 | +99 years | Edvard Munch prints The Scream as a lithograph. | [`expressionism-painting`](./expressionism-painting/SKILL.md) |
 | 5 | Print | 1966 | +170 years | San Francisco poster artists have their dance posters printed by offset lithography, the planographic process on a rotary press. | [`psychedelic-concert-poster`](./psychedelic-concert-poster/SKILL.md) |
 
@@ -2139,6 +2514,25 @@ Used by: [`symbolism-painting`](./symbolism-painting/SKILL.md), [`art-nouveau-we
 - Keep the soft crayon grain and the dark, velvet black.
 
 Sources: [Wikipedia: Lithography](https://en.wikipedia.org/wiki/Lithography); Odilon Redon, Dans le rêve (1879).
+
+### Lo-fi found image
+
+A low-resolution photo of an ordinary place, scaled up so that the JPEG blocks show. It looks like a lost or half-remembered picture.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 2018 | — | online: Online groups on Weirdcore and Liminalspace collect poor photos of empty rooms and playgrounds. | |
+| 1 | Internet | c. 2018 | +0 years | Weirdcore posts use poor photos of empty places, with red text and black voids. | [`weirdcore`](./weirdcore/SKILL.md) |
+| 2 | Internet | c. 2019 | +1 years | Dreamcore images use the same soft, degraded photos, with pastel colour and bloom. | [`dreamcore`](./dreamcore/SKILL.md) |
+
+Used by: [`weirdcore`](./weirdcore/SKILL.md), [`dreamcore`](./dreamcore/SKILL.md).
+
+- Scale a photo of 320 to 640px up to the full frame with no smoothing.
+- Shift the colour by 10% to 20% to yellow-green or magenta.
+- Add noise of 5% to 10% and a vignette of 20%.
+- Add one wrong detail, such as a black void or a faceless figure.
+
+Sources: [Wikipedia: Weirdcore](https://en.wikipedia.org/wiki/Weirdcore); [Wikipedia: Liminal space](https://en.wikipedia.org/wiki/Liminal_space).
 
 ### Lost-wax casting
 
@@ -2213,17 +2607,37 @@ Used by: [`nouvelle-cuisine`](./nouvelle-cuisine/SKILL.md), [`california-cuisine
 
 Sources: [Wikipedia: Paul Bocuse](https://en.wikipedia.org/wiki/Paul_Bocuse); [Wikipedia: Chez Panisse](https://en.wikipedia.org/wiki/Chez_Panisse).
 
+### Matte fade
+
+A grade that lifts the black point to a grey and lowers contrast, so that the photo looks soft and printed.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Photography | c. 1990 | — | United States: Expired and cross-processed film gives lifted blacks and tinted shadows in zine photos of the 1990s. | |
+| 1 | Internet | c. 2012 | +22 years | Tumblr blogs reblog faded, pastel-tinted photos with lifted blacks and grain. | [`tumblr-soft-grunge`](./tumblr-soft-grunge/SKILL.md) |
+| 2 | Internet | 2013 | +23 years | VSCO presets bring the matte lifted-black grade to phone photos. | [`vsco-preset-look`](./vsco-preset-look/SKILL.md) |
+
+Used by: [`tumblr-soft-grunge`](./tumblr-soft-grunge/SKILL.md), [`vsco-preset-look`](./vsco-preset-look/SKILL.md).
+
+- Raise the black point of the tone curve to 8% to 15% grey.
+- Lower contrast by 10% to 20% and saturation by 20% to 40%.
+- Tint the shadows toward pink, green or teal by a small amount.
+- Add a grain of 4% to 12%.
+
+Sources: [Wikipedia: Soft grunge](https://en.wikipedia.org/wiki/Soft_grunge); [Wikipedia: VSCO](https://en.wikipedia.org/wiki/VSCO).
+
 ### Mesh gradient
 
 A colour field built from many points that each hold a colour, so the colours blend in soft, organic shapes.
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Graphic & UI Design | 1998 | — | United States: Adobe Illustrator 8 adds the gradient mesh tool. | |
-| 1 | Graphic & UI Design | 2018 | +20 years | Product sites blur large colour blobs into soft aurora fields behind the hero. | [`aurora-gradient-ui`](./aurora-gradient-ui/SKILL.md) |
-| 2 | Graphic & UI Design | 2021 | +23 years | Ethereal pages fade pale pastel fields into each other behind thin type. | [`ethereal-web`](./ethereal-web/SKILL.md) |
+| Origin | Internet | 1998 | — | United States: Adobe Illustrator 8 adds the gradient mesh tool. | |
+| 1 | Internet | 2018 | +20 years | Product sites blur large colour blobs into soft aurora fields behind the hero. | [`aurora-gradient-ui`](./aurora-gradient-ui/SKILL.md) |
+| 2 | Internet | 2019 | +21 years | Hyperpop covers use soft pastel mesh gradients as the ground for chrome objects and stickers. | [`hyperpop-visual`](./hyperpop-visual/SKILL.md) |
+| 3 | Internet | 2021 | +23 years | Ethereal pages fade pale pastel fields into each other behind thin type. | [`ethereal-web`](./ethereal-web/SKILL.md) |
 
-Used by: [`aurora-gradient-ui`](./aurora-gradient-ui/SKILL.md), [`ethereal-web`](./ethereal-web/SKILL.md).
+Used by: [`aurora-gradient-ui`](./aurora-gradient-ui/SKILL.md), [`ethereal-web`](./ethereal-web/SKILL.md), [`hyperpop-visual`](./hyperpop-visual/SKILL.md).
 
 - Use 3 to 5 colours of near value; keep the step between them small.
 - Blur the field by 80 to 200 px, so that no edge shows.
@@ -2275,13 +2689,13 @@ A page or screen divided into equal columns and rows; each element fits a cell o
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Graphic & UI Design | c. 1958 | — | Zurich: Josef Mueller-Brockmann and the journal Neue Grafik (1958) spread the modular grid for posters and print. | |
+| Origin | Internet | c. 1958 | — | Zurich: Josef Mueller-Brockmann and the journal Neue Grafik (1958) spread the modular grid for posters and print. | |
 | 1 | Industrial design | 1960 | +2 years | Dieter Rams builds the 606 shelving system on a grid of rails that a user extends at will. | [`ulm-braun-functionalism`](./ulm-braun-functionalism/SKILL.md) |
 | 2 | Logo | c. 1962 | +4 years | Otl Aicher builds the corporate design of Lufthansa on a fixed grid of marks, type and colour. | [`swiss-modernist-mark`](./swiss-modernist-mark/SKILL.md) |
-| 3 | Graphic & UI Design | 1970 | +12 years | Unimark issues the New York City Transit Graphics Standards Manual, with sign grids for the whole system. | [`swiss-international`](./swiss-international/SKILL.md) |
-| 4 | Graphic & UI Design | 2010 | +52 years | Windows Phone 7 builds its start screen from square and wide live tiles on one grid. | [`metro-ui`](./metro-ui/SKILL.md) |
-| 5 | Graphic & UI Design | 2012 | +54 years | Bootstrap 2.0 ships a 12 column fluid grid for web pages. | [`bento-grid-ui`](./bento-grid-ui/SKILL.md), [`minimalism-web`](./minimalism-web/SKILL.md) |
-| 6 | Graphic & UI Design | c. 2012 | +54 years | Interfaces that follow the Braun products of Dieter Rams put each control in one cell of a strict grid. | [`rams-functionalism-ui`](./rams-functionalism-ui/SKILL.md) |
+| 3 | Internet | 1970 | +12 years | Unimark issues the New York City Transit Graphics Standards Manual, with sign grids for the whole system. | [`swiss-international`](./swiss-international/SKILL.md) |
+| 4 | Internet | 2010 | +52 years | Windows Phone 7 builds its start screen from square and wide live tiles on one grid. | [`metro-ui`](./metro-ui/SKILL.md) |
+| 5 | Internet | 2012 | +54 years | Bootstrap 2.0 ships a 12 column fluid grid for web pages. | [`bento-grid-ui`](./bento-grid-ui/SKILL.md), [`minimalism-web`](./minimalism-web/SKILL.md) |
+| 6 | Internet | c. 2012 | +54 years | Interfaces that follow the Braun products of Dieter Rams put each control in one cell of a strict grid. | [`rams-functionalism-ui`](./rams-functionalism-ui/SKILL.md) |
 
 Used by: [`swiss-international`](./swiss-international/SKILL.md), [`swiss-modernist-mark`](./swiss-modernist-mark/SKILL.md), [`bento-grid-ui`](./bento-grid-ui/SKILL.md), [`minimalism-web`](./minimalism-web/SKILL.md), [`metro-ui`](./metro-ui/SKILL.md), [`rams-functionalism-ui`](./rams-functionalism-ui/SKILL.md), [`ulm-braun-functionalism`](./ulm-braun-functionalism/SKILL.md).
 
@@ -2308,6 +2722,23 @@ Used by: [`grande-cuisine`](./grande-cuisine/SKILL.md), [`cuisine-classique`](./
 - Keep the base sauces ready each day, and finish each small sauce to order.
 
 Sources: [Wikipedia: French mother sauces](https://en.wikipedia.org/wiki/Mother_sauces); [Wikipedia: Marie-Antoine Carême](https://en.wikipedia.org/wiki/Marie-Antoine_Car%C3%AAme).
+
+### Motion mask loop
+
+A process that freezes a video except for one masked region, which repeats in a seamless loop.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 2011 | — | New York: Jamie Beck and Kevin Burg publish the first cinemagraphs and use the name. | |
+| 1 | Internet | 2011 | +0 years | The pair shows cinemagraphs of fashion week on Tumblr; brands and photographers copy the form. | [`cinemagraph`](./cinemagraph/SKILL.md) |
+
+Used by: [`cinemagraph`](./cinemagraph/SKILL.md).
+
+- Shoot on a tripod so that the still region does not drift by more than 1px.
+- Mask the moving region with a soft edge of 4px to 12px.
+- Join the loop with a cross-fade of 4 to 8 frames at the loop point.
+
+Sources: [Wikipedia: Cinemagraph](https://en.wikipedia.org/wiki/Cinemagraph).
 
 ### Optical mixing
 
@@ -2348,6 +2779,25 @@ Used by: [`kakiemon-imari-export`](./kakiemon-imari-export/SKILL.md), [`meissen-
 
 Sources: [Wikipedia: Overglaze decoration](https://en.wikipedia.org/wiki/Overglaze_decoration); [Wikipedia: Kakiemon](https://en.wikipedia.org/wiki/Kakiemon).
 
+### Overhead hands shot
+
+A fixed camera above a table that shows only a pair of hands and an object, so the viewer sees each step of an action.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | c. 2006 | — | YouTube: Gadget fans film the opening of a new device from above and post the clip, and the plain framing becomes the norm of the unboxing video. | |
+| 1 | Internet | c. 2006 | +0 years | Gadget fans post top-down clips of new devices on video sites. | [`unboxing-video`](./unboxing-video/SKILL.md) |
+| 2 | Internet | c. 2010 | +4 years | Close-mic channels use the same fixed top-down frame for tapping and sorting objects. | [`asmr-video`](./asmr-video/SKILL.md) |
+
+Used by: [`unboxing-video`](./unboxing-video/SKILL.md), [`asmr-video`](./asmr-video/SKILL.md).
+
+- Fix the camera at 90° above a plain table.
+- Frame the object at 40% to 60% of the picture height.
+- Show hands only; keep the face out of the frame.
+- Hold each step for 4 to 12 seconds.
+
+Sources: [Wikipedia: Unboxing](https://en.wikipedia.org/wiki/Unboxing).
+
 ### Perspective grid
 
 Lines that run to one vanishing point on a horizon, so that a flat surface reads as a floor in deep space.
@@ -2356,9 +2806,9 @@ Lines that run to one vanishing point on a horizon, so that a flat surface reads
 |---|---|---|---|---|---|
 | Origin | Painting | c. 1415 | — | Florence: Filippo Brunelleschi demonstrates linear perspective; Alberti writes the method down in De pictura (1435). | |
 | 1 | Film & Video | 1968 | +553 years | Stanley Kubrick sets corridors and rooms on one central vanishing point in 2001: A Space Odyssey; Wes Anderson later builds whole films on the flat, centred frame. | [`planimetric-symmetry`](./planimetric-symmetry/SKILL.md) |
-| 2 | Graphic & UI Design | c. 1980 | +565 years | Cassette Futurism screens and sleeves draw wireframe floors to a horizon. | [`cassette-futurism`](./cassette-futurism/SKILL.md) |
+| 2 | Internet | c. 1980 | +565 years | Cassette Futurism screens and sleeves draw wireframe floors to a horizon. | [`cassette-futurism`](./cassette-futurism/SKILL.md) |
 | 3 | Film & Video | 1982 | +567 years | Tron draws vector grids that run to a horizon. |  |
-| 4 | Graphic & UI Design | 2012 | +597 years | Vaporwave draws neon grid floors under a sunset. | [`vaporwave`](./vaporwave/SKILL.md) |
+| 4 | Internet | 2012 | +597 years | Vaporwave draws neon grid floors under a sunset. | [`vaporwave`](./vaporwave/SKILL.md) |
 
 Used by: [`renaissance-painting`](./renaissance-painting/SKILL.md), [`cassette-futurism`](./cassette-futurism/SKILL.md), [`vaporwave`](./vaporwave/SKILL.md), [`planimetric-symmetry`](./planimetric-symmetry/SKILL.md).
 
@@ -2366,6 +2816,26 @@ Used by: [`renaissance-painting`](./renaissance-painting/SKILL.md), [`cassette-f
 - Space the cross lines so that each gap is about 0.8 of the gap in front of it.
 
 Sources: Leon Battista Alberti, De pictura (1435).
+
+### Photo filter preset
+
+A saved set of colour and tone changes that a user applies to a photo with one tap.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 2009 | — | United States: The Hipstamatic phone app applies lens and film looks to a photo with one tap. | |
+| 1 | Internet | 2010 | +1 years | Instagram adds named filters such as Valencia and X-Pro II to square phone photos. | [`instagram-vintage-filter`](./instagram-vintage-filter/SKILL.md) |
+| 2 | Internet | 2013 | +4 years | VSCO sells film-stock presets with short codes such as A6. | [`vsco-preset-look`](./vsco-preset-look/SKILL.md) |
+| 3 | Internet | c. 2016 | +7 years | Profile owners apply one preset to every photo so that the grid has one tone. | [`cohesive-feed-grid`](./cohesive-feed-grid/SKILL.md) |
+
+Used by: [`instagram-vintage-filter`](./instagram-vintage-filter/SKILL.md), [`vsco-preset-look`](./vsco-preset-look/SKILL.md), [`cohesive-feed-grid`](./cohesive-feed-grid/SKILL.md).
+
+- Save the curve, fade, tint, vignette and grain values as one named set.
+- Apply the set to a photo at a strength from 0% to 100%.
+- Show the set as a thumbnail with a short name.
+- Keep one set for all photos when a feed must match.
+
+Sources: [Wikipedia: Hipstamatic](https://en.wikipedia.org/wiki/Hipstamatic); [Wikipedia: Instagram](https://en.wikipedia.org/wiki/Instagram).
 
 ### Pixel grid
 
@@ -2381,10 +2851,11 @@ A picture or a letter built from square cells that are each on or off, or one fl
 | 5 | Typeface | 1985 | +22 years | Zuzana Licko draws the Emigre bitmap faces for the 72 dpi screen and the dot-matrix printer. |  |
 | 6 | Video game | 1989 | +26 years | The Game Boy limits the grid to 160×144 cells in four shades. | [`four-shade-handheld`](./four-shade-handheld/SKILL.md) |
 | 7 | Video game | 1990 | +27 years | The Super Famicom widens the palette to 256 colours on screen. | [`sixteen-bit-sprite`](./sixteen-bit-sprite/SKILL.md) |
-| 8 | Graphic & UI Design | c. 1998 | +35 years | The eBoy group publishes pixel illustrations of cities and objects on the web. | [`pixel-art-web`](./pixel-art-web/SKILL.md) |
-| 9 | Graphic & UI Design | c. 1999 | +36 years | Japanese portal pages set text at 10 to 12 px in bitmap kanji fonts, so each glyph sits on the pixel grid. | [`japanese-dense-web`](./japanese-dense-web/SKILL.md) |
+| 8 | Internet | c. 1998 | +35 years | The eBoy group publishes pixel illustrations of cities and objects on the web. | [`pixel-art-web`](./pixel-art-web/SKILL.md) |
+| 9 | Internet | c. 1999 | +36 years | Japanese portal pages set text at 10 to 12 px in bitmap kanji fonts, so each glyph sits on the pixel grid. | [`japanese-dense-web`](./japanese-dense-web/SKILL.md) |
+| 10 | Internet | 1999 | +36 years | Shigetaka Kurita draws the 176 emoji of the i-mode phone on a 12 by 12 pixel grid. | [`unicode-emoji`](./unicode-emoji/SKILL.md) |
 
-Used by: [`pixel-icon`](./pixel-icon/SKILL.md), [`pixel-art-web`](./pixel-art-web/SKILL.md), [`japanese-dense-web`](./japanese-dense-web/SKILL.md), [`eight-bit-tile`](./eight-bit-tile/SKILL.md), [`four-shade-handheld`](./four-shade-handheld/SKILL.md), [`sixteen-bit-sprite`](./sixteen-bit-sprite/SKILL.md), [`isometric-pixel-world`](./isometric-pixel-world/SKILL.md).
+Used by: [`pixel-icon`](./pixel-icon/SKILL.md), [`pixel-art-web`](./pixel-art-web/SKILL.md), [`japanese-dense-web`](./japanese-dense-web/SKILL.md), [`eight-bit-tile`](./eight-bit-tile/SKILL.md), [`four-shade-handheld`](./four-shade-handheld/SKILL.md), [`sixteen-bit-sprite`](./sixteen-bit-sprite/SKILL.md), [`isometric-pixel-world`](./isometric-pixel-world/SKILL.md), [`unicode-emoji`](./unicode-emoji/SKILL.md).
 
 - Draw an icon on a grid of 16 or 32 cells a side; fill each cell with one colour or leave it empty.
 - Limit the palette to 1 to 16 colours; do not blend two colours inside one cell.
@@ -2437,8 +2908,9 @@ Work made outside in front of the subject, in the light of the place and the hou
 | Origin | Painting | c. 1780 | — | Rome and France: Painters such as Pierre-Henri de Valenciennes make small oil sketches outdoors; the collapsible paint tube (John Goffe Rand, 1841) later makes the work practical. | |
 | 1 | Painting | c. 1880 | +100 years | The Skagen painters and other Nordic painters work on the beach and in the summer night light. | [`nordic-national-romanticism-painting`](./nordic-national-romanticism-painting/SKILL.md) |
 | 2 | Film & Video | 1945 | +165 years | Rome Open City is shot on real streets in daylight, with little added light. | [`italian-neorealism`](./italian-neorealism/SKILL.md) |
+| 3 | Internet | c. 2018 | +238 years | Cottagecore images of picnics, fields and gardens in open daylight echo the painters who worked outdoors. | [`cottagecore`](./cottagecore/SKILL.md) |
 
-Used by: [`realism-painting`](./realism-painting/SKILL.md), [`nordic-national-romanticism-painting`](./nordic-national-romanticism-painting/SKILL.md), [`italian-neorealism`](./italian-neorealism/SKILL.md).
+Used by: [`realism-painting`](./realism-painting/SKILL.md), [`nordic-national-romanticism-painting`](./nordic-national-romanticism-painting/SKILL.md), [`italian-neorealism`](./italian-neorealism/SKILL.md), [`cottagecore`](./cottagecore/SKILL.md).
 
 - Work in front of the motif in one session of 1 to 3 hours, before the light moves.
 - Take the colour of shadows from the sky and the ground around them; do not paint them black.
@@ -2628,6 +3100,24 @@ Used by: [`goryeo-celadon`](./goryeo-celadon/SKILL.md), [`joseon-buncheong`](./j
 
 Sources: [Wikipedia: Korean celadon](https://en.wikipedia.org/wiki/Korean_celadon); [Wikipedia: Buncheong](https://en.wikipedia.org/wiki/Buncheong).
 
+### Screen capture crop
+
+A cropped capture of an interface that keeps the frame of the original, so the text reads as found, not made.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | c. 2010 | — | web: Users share cropped captures of posts outside their site, as proof of what a person wrote. | |
+| 1 | Internet | c. 2015 | +5 years | Humour accounts turn the post screenshot into a main joke form. | [`tweet-screenshot-meme`](./tweet-screenshot-meme/SKILL.md) |
+
+Used by: [`tweet-screenshot-meme`](./tweet-screenshot-meme/SKILL.md).
+
+- Capture the post card at its native width of 550 to 600px.
+- Crop to the card and leave a few pixels of the next item.
+- Keep the compression of the original; do not sharpen.
+- Keep the interface colours; do not add a frame.
+
+Sources: [Wikipedia: Internet meme](https://en.wikipedia.org/wiki/Internet_meme).
+
 ### Screen printing
 
 Ink pushed through a fine mesh with a squeegee; a stencil on the mesh blocks the parts that do not print.
@@ -2637,7 +3127,7 @@ Ink pushed through a fine mesh with a squeegee; a stencil on the mesh blocks the
 | Origin | Print | 1907 | — | Manchester: Samuel Simon patents the use of silk as a screen for stencil printing; sign and textile printers take it up. | |
 | 1 | Print | 1962 | +55 years | Andy Warhol starts to make photographic silkscreens in his studio and prints portraits in flat, loud colour. | [`pop-screen-print`](./pop-screen-print/SKILL.md) |
 | 2 | Painting | 1962 | +55 years | Warhol and Rauschenberg pull photo screens onto painted canvas. | [`pop-art-painting`](./pop-art-painting/SKILL.md) |
-| 3 | Graphic & UI Design | c. 1965 | +58 years | Poster studios screen print posters in flat, bright colours for clubs and protests. | [`pop-art-web`](./pop-art-web/SKILL.md) |
+| 3 | Internet | c. 1965 | +58 years | Poster studios screen print posters in flat, bright colours for clubs and protests. | [`pop-art-web`](./pop-art-web/SKILL.md) |
 | 4 | Fashion | 1976 | +69 years | The King's Road shop screen prints slogans and images on plain cotton T-shirts for the London punk scene. | [`punk-fashion`](./punk-fashion/SKILL.md) |
 | 5 | Fashion | 1980 | +73 years | Surf and skate labels screen print a name or a mark on the chest of a plain T-shirt and sell it in small runs. | [`streetwear`](./streetwear/SKILL.md) |
 | 6 | Ceramics | 1981 | +74 years | Memphis designers put bold stripes, dots and speckles on ceramic vessels by screen print and decal, and fire the pattern on the glaze. | [`memphis-postmodern-ceramics`](./memphis-postmodern-ceramics/SKILL.md) |
@@ -2756,10 +3246,12 @@ Lines with a small jitter and a double stroke, so that a drawing on a screen loo
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Graphic & UI Design | 2008 | — | United States: Balsamiq Mockups draws wireframes with hand-drawn lines and a comic font, so that they look unfinished. | |
-| 1 | Graphic & UI Design | 2020 | +12 years | Excalidraw and the Rough.js library draw diagrams and interface shapes with a jittered double stroke. | [`conceptual-sketch-ui`](./conceptual-sketch-ui/SKILL.md) |
+| Origin | Internet | 2008 | — | United States: Balsamiq Mockups draws wireframes with hand-drawn lines and a comic font, so that they look unfinished. | |
+| 1 | Internet | 2008 | +0 years | Rage comics draw crude faces and stick bodies with a mouse in a basic paint program. | [`rage-comic`](./rage-comic/SKILL.md) |
+| 2 | Internet | 2010 | +2 years | Wojak drawings use uneven mouse lines and flat fills. | [`wojak-feels`](./wojak-feels/SKILL.md) |
+| 3 | Internet | 2020 | +12 years | Excalidraw and the Rough.js library draw diagrams and interface shapes with a jittered double stroke. | [`conceptual-sketch-ui`](./conceptual-sketch-ui/SKILL.md) |
 
-Used by: [`conceptual-sketch-ui`](./conceptual-sketch-ui/SKILL.md).
+Used by: [`conceptual-sketch-ui`](./conceptual-sketch-ui/SKILL.md), [`rage-comic`](./rage-comic/SKILL.md), [`wojak-feels`](./wojak-feels/SKILL.md).
 
 - Offset each line by 0.5 to 2 px at random points along its length.
 - Draw each line twice with a small change, as a pencil does.
@@ -2847,6 +3339,24 @@ Used by: [`nouvelle-cuisine`](./nouvelle-cuisine/SKILL.md), [`molecular-gastrono
 
 Sources: [Wikipedia: Sous-vide](https://en.wikipedia.org/wiki/Sous-vide); [Wikipedia: Modernist Cuisine](https://en.wikipedia.org/wiki/Modernist_Cuisine).
 
+### Speed ramp
+
+Change the speed of one clip inside a single shot, from slow motion to fast play and back.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Film & Video | 2006 | — | United States: Zack Snyder uses ramps between slow and fast motion in the fights of 300. | |
+| 1 | Internet | c. 2020 | +14 years | CapCut and similar editors give a curve tool, and editors cut clips to music with ramps. | [`velocity-edit`](./velocity-edit/SKILL.md) |
+
+Used by: [`velocity-edit`](./velocity-edit/SKILL.md).
+
+- Set a speed curve with points at 20% and 400%.
+- Place the slow point on the strong beat.
+- Smooth the curve over 6 to 12 frames.
+- Add a 2px zoom or shake on the jump.
+
+Sources: [Wikipedia: 300 (film)](https://en.wikipedia.org/wiki/300_(film)); [Wikipedia: CapCut](https://en.wikipedia.org/wiki/CapCut).
+
 ### Spherification
 
 A liquid dropped into a calcium bath forms a thin skin of alginate gel; the sphere holds its shape on the spoon and bursts in the mouth.
@@ -2909,8 +3419,9 @@ A key light, a fill light and a back light on one subject, so that the face is m
 |---|---|---|---|---|---|
 | Origin | Film & Video | c. 1920 | — | Hollywood, United States: In the 1920s Hollywood cameramen light stars with a key, a fill and a back light; in the 1930s the method is the studio standard. | |
 | 1 | Photography | c. 1930 | +10 years | George Hurrell and other studio portraitists bring key, fill and back light to portraits for film and fashion magazines. | [`fashion-editorial`](./fashion-editorial/SKILL.md) |
+| 2 | Internet | c. 2022 | +102 years | Creators light skin with a soft key at the window, a fill and a ring light, which gives the dewy sheen. | [`clean-girl`](./clean-girl/SKILL.md) |
 
-Used by: [`classical-hollywood`](./classical-hollywood/SKILL.md), [`fashion-editorial`](./fashion-editorial/SKILL.md).
+Used by: [`classical-hollywood`](./classical-hollywood/SKILL.md), [`fashion-editorial`](./fashion-editorial/SKILL.md), [`clean-girl`](./clean-girl/SKILL.md).
 
 - Set the key light 30 to 45 degrees off the camera axis and above eye level.
 - Set the fill on the other side at 1/4 to 1/2 of the key.
@@ -3141,7 +3652,7 @@ A print from a block of wood with the white parts cut away; the result is flat c
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Graphic & UI Design | 868 | — | Dunhuang: The Diamond Sutra, printed in China in 868, is the oldest dated printed book made from woodblocks. | |
+| Origin | Internet | 868 | — | Dunhuang: The Diamond Sutra, printed in China in 868, is the oldest dated printed book made from woodblocks. | |
 | 1 | Print | 1493 | +625 years | Michael Wolgemut and Wilhelm Pleydenwurff design the 1,809 woodcuts of the Nuremberg Chronicle, which Anton Koberger prints with the text. | [`woodcut-relief-print`](./woodcut-relief-print/SKILL.md) |
 | 2 | Painting | 1765 | +897 years | Suzuki Harunobu and his printers make the full-colour nishiki-e print on many blocks. | [`ukiyo-e`](./ukiyo-e/SKILL.md) |
 | 3 | Print | 1891 | +1023 years | William Morris draws woodcut borders and initials for the Kelmscott Press, cut by William Harcourt Hooper and others. | [`private-press-book`](./private-press-book/SKILL.md) |
@@ -3202,14 +3713,14 @@ A pen-sized spray gun that lays paint in soft, even tones; with masks, it makes 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Photography | 1879 | — | United States: Abner Peeler patents a paint distributor; the airbrush of Charles Burdick (1893) goes into photo studios for retouch. | |
-| 1 | Graphic & UI Design | c. 1930 | +51 years | Streamline posters and car advertisements use airbrushed gradients and chrome. |  |
+| 1 | Internet | c. 1930 | +51 years | Streamline posters and car advertisements use airbrushed gradients and chrome. |  |
 | 2 | Painting | c. 1968 | +89 years | Illustrators airbrush surreal chrome, lightning and X-ray cut-aways for album covers and magazines. | [`airbrush-surrealism`](./airbrush-surrealism/SKILL.md), [`photorealism`](./photorealism/SKILL.md) |
-| 3 | Graphic & UI Design | 1990 | +111 years | Photoshop 1.0 ships with an airbrush tool, and the soft spray becomes digital. | [`cyberdelia`](./cyberdelia/SKILL.md) |
-| 4 | Graphic & UI Design | 2001 | +122 years | Mac OS X 10.0 ships the Aqua interface, with gel buttons and scroll bars in soft gradients and one white highlight. | [`apple-aqua`](./apple-aqua/SKILL.md) |
+| 3 | Internet | 1990 | +111 years | Photoshop 1.0 ships with an airbrush tool, and the soft spray becomes digital. | [`cyberdelia`](./cyberdelia/SKILL.md) |
+| 4 | Internet | 2001 | +122 years | Mac OS X 10.0 ships the Aqua interface, with gel buttons and scroll bars in soft gradients and one white highlight. | [`apple-aqua`](./apple-aqua/SKILL.md) |
 | 5 | Logo | c. 2001 | +122 years | Web 2.0 logos take the airbrush gradient and the white specular highlight to the screen as glossy marks. | [`glossy-3d-logo`](./glossy-3d-logo/SKILL.md) |
 | 6 | Icons | 2001 | +122 years | Apple Aqua icons in Mac OS X use soft gradients, highlights and cast shadows that echo airbrush work. | [`skeuomorphic-icon`](./skeuomorphic-icon/SKILL.md) |
-| 7 | Graphic & UI Design | c. 2004 | +125 years | Glossy interface gradients and highlights take the airbrush look to the screen. | [`frutiger-aero`](./frutiger-aero/SKILL.md) |
-| 8 | Graphic & UI Design | 2007 | +128 years | iPhone OS draws glass, chrome and felt with soft gradients and specular highlights. | [`skeuomorphism`](./skeuomorphism/SKILL.md) |
+| 7 | Internet | c. 2004 | +125 years | Glossy interface gradients and highlights take the airbrush look to the screen. | [`frutiger-aero`](./frutiger-aero/SKILL.md) |
+| 8 | Internet | 2007 | +128 years | iPhone OS draws glass, chrome and felt with soft gradients and specular highlights. | [`skeuomorphism`](./skeuomorphism/SKILL.md) |
 
 Used by: [`airbrush-surrealism`](./airbrush-surrealism/SKILL.md), [`cyberdelia`](./cyberdelia/SKILL.md), [`frutiger-aero`](./frutiger-aero/SKILL.md), [`y2k-aesthetic`](./y2k-aesthetic/SKILL.md), [`glossy-3d-logo`](./glossy-3d-logo/SKILL.md), [`skeuomorphic-icon`](./skeuomorphic-icon/SKILL.md), [`photorealism`](./photorealism/SKILL.md), [`apple-aqua`](./apple-aqua/SKILL.md), [`skeuomorphism`](./skeuomorphism/SKILL.md).
 
@@ -3263,10 +3774,14 @@ A model that learns to turn noise into an image step by step, and makes a new im
 |---|---|---|---|---|---|
 | Origin | Photography | 2015 | — | Stanford and Berkeley: Jascha Sohl-Dickstein and co-authors publish the first diffusion method for images; it is a paper in machine learning. | |
 | 1 | Photography | 2020 | +5 years | Jonathan Ho, Ajay Jain and Pieter Abbeel publish Denoising Diffusion Probabilistic Models. |  |
-| 2 | Graphic & UI Design | 2022 | +7 years | Midjourney and DALL-E 2 put text-to-image models in the hands of illustrators and designers. |  |
+| 2 | Internet | 2022 | +7 years | Midjourney and DALL-E 2 put text-to-image models in the hands of illustrators and designers. |  |
 | 3 | Photography | 2022 | +7 years | Stable Diffusion releases its weights in August, and its glossy default look spreads as a recognisable image style. | [`ai-hyperreal`](./ai-hyperreal/SKILL.md) |
+| 4 | Internet | 2022 | +7 years | A free low-resolution model, DALL-E Mini, makes 3x3 grids of smudged images that users share as jokes. | [`mini-diffusion-meme`](./mini-diffusion-meme/SKILL.md) |
+| 5 | Internet | 2022 | +7 years | Open models and photo apps make the stylised avatar pack; the Lensa Magic Avatars feature spreads it in December. | [`ai-avatar-portrait`](./ai-avatar-portrait/SKILL.md) |
+| 6 | Internet | 2022 | +7 years | The default output of text-to-image models, with a rim light, bokeh and a teal and amber grade, becomes a known look. | [`diffusion-gloss`](./diffusion-gloss/SKILL.md) |
+| 7 | Internet | 2024 | +9 years | Mass-made generated images fill social feeds with bait captions; the word slop names them. | [`ai-slop`](./ai-slop/SKILL.md) |
 
-Used by: [`ai-hyperreal`](./ai-hyperreal/SKILL.md).
+Used by: [`ai-hyperreal`](./ai-hyperreal/SKILL.md), [`mini-diffusion-meme`](./mini-diffusion-meme/SKILL.md), [`ai-avatar-portrait`](./ai-avatar-portrait/SKILL.md), [`diffusion-gloss`](./diffusion-gloss/SKILL.md), [`ai-slop`](./ai-slop/SKILL.md).
 
 - Start from pure noise and remove it over 20 to 50 steps.
 - Steer the result with a text prompt and a guidance scale of 5 to 10.
@@ -3284,8 +3799,9 @@ A flash on the camera that fires straight at the subject, so that faces are brig
 | Origin | Photography | 1929 | — | Germany: The Vacublitz flash bulb replaces flash powder and makes the flash safe to use by hand. | |
 | 1 | Photography | c. 1999 | +70 years | Compact digital cameras fire their small built-in flash at each snapshot. | [`y2k-digicam`](./y2k-digicam/SKILL.md) |
 | 2 | Photography | c. 2008 | +79 years | Party and nightlife photographers post direct-flash pictures from clubs to blogs. | [`party-flash`](./party-flash/SKILL.md) |
+| 3 | Internet | c. 2019 | +90 years | Night photographs of empty corridors and car parks use on-camera flash or a flat lamp with a cheap camera look. | [`liminal-spaces`](./liminal-spaces/SKILL.md) |
 
-Used by: [`y2k-digicam`](./y2k-digicam/SKILL.md), [`party-flash`](./party-flash/SKILL.md).
+Used by: [`y2k-digicam`](./y2k-digicam/SKILL.md), [`party-flash`](./party-flash/SKILL.md), [`liminal-spaces`](./liminal-spaces/SKILL.md).
 
 - Put the flash on the camera axis; do not bounce it.
 - Stand 1 to 3 m from the subject; let the background fall 2 to 4 stops darker.
@@ -3308,8 +3824,9 @@ A camera that the operator carries on the body, with no tripod or dolly; the sha
 | 6 | Film & Video | 2002 | +42 years | Andrew Bujalski shoots Funny Ha Ha with a small camera in plain rooms. | [`mumblecore`](./mumblecore/SKILL.md) |
 | 7 | Film & Video | 2015 | +55 years | Sean Baker shoots Tangerine on three iPhone 5S phones with a clip-on anamorphic lens and a small stabiliser. | [`phone-cinema`](./phone-cinema/SKILL.md) |
 | 8 | Film & Video | c. 2020 | +60 years | Camcorder revival films shoot on handheld consumer video cameras. | [`camcorder-revival`](./camcorder-revival/SKILL.md) |
+| 9 | Internet | c. 2020 | +60 years | POV clips hold the phone at eye level and let the actor look at the lens. | [`pov-short`](./pov-short/SKILL.md) |
 
-Used by: [`french-new-wave`](./french-new-wave/SKILL.md), [`documentary-verite`](./documentary-verite/SKILL.md), [`dogme-95`](./dogme-95/SKILL.md), [`found-footage`](./found-footage/SKILL.md), [`mumblecore`](./mumblecore/SKILL.md), [`phone-cinema`](./phone-cinema/SKILL.md), [`new-hollywood`](./new-hollywood/SKILL.md), [`camcorder-revival`](./camcorder-revival/SKILL.md).
+Used by: [`french-new-wave`](./french-new-wave/SKILL.md), [`documentary-verite`](./documentary-verite/SKILL.md), [`dogme-95`](./dogme-95/SKILL.md), [`found-footage`](./found-footage/SKILL.md), [`mumblecore`](./mumblecore/SKILL.md), [`phone-cinema`](./phone-cinema/SKILL.md), [`new-hollywood`](./new-hollywood/SKILL.md), [`camcorder-revival`](./camcorder-revival/SKILL.md), [`pov-short`](./pov-short/SKILL.md).
 
 - Use a light camera and a wide lens of 18mm to 35mm so that the shake stays small in the frame.
 - Follow the action at the pace of a walking person and let the frame move 2% to 5% off the subject.
@@ -3368,7 +3885,7 @@ Lens or camera movements that keep vertical lines parallel and move the plane of
 | 5 | Photography | c. 1975 | +71 years | Stephen Shore and Joel Sternfeld use 8 x 10 in view cameras with movements for large colour prints. | [`new-colour`](./new-colour/SKILL.md) |
 | 6 | Photography | c. 2008 | +104 years | Food photographers tilt the plane of focus so that one bite is sharp and the rest falls away. | [`food-photography`](./food-photography/SKILL.md) |
 | 7 | Photography | c. 2010 | +106 years | Interior photographers for Nordic magazines and blogs use shift lenses to keep walls vertical. | [`scandinavian-interior-photography`](./scandinavian-interior-photography/SKILL.md) |
-| 8 | Graphic & UI Design | 2012 | +108 years | Photoshop CS6 adds the Tilt-Shift blur filter, and the miniature look spreads on the web. |  |
+| 8 | Internet | 2012 | +108 years | Photoshop CS6 adds the Tilt-Shift blur filter, and the miniature look spreads on the web. |  |
 | 9 | Video game | 2018 | +114 years | Octopath Traveler blurs the top and bottom of each frame so the world reads as a miniature. | [`hd-2d-diorama`](./hd-2d-diorama/SKILL.md) |
 
 Used by: [`group-f64`](./group-f64/SKILL.md), [`architectural-photography`](./architectural-photography/SKILL.md), [`straight-photography`](./straight-photography/SKILL.md), [`new-colour`](./new-colour/SKILL.md), [`food-photography`](./food-photography/SKILL.md), [`scandinavian-interior-photography`](./scandinavian-interior-photography/SKILL.md), [`hd-2d-diorama`](./hd-2d-diorama/SKILL.md).
@@ -3417,6 +3934,24 @@ Used by: [`bias-cut-glamour`](./bias-cut-glamour/SKILL.md).
 - Hang the cut pieces for a day before the hem is sewn, so that the bias settles.
 
 Sources: [Wikipedia: Bias (textiles)](https://en.wikipedia.org/wiki/Bias_(textiles)); [Wikipedia: Madeleine Vionnet](https://en.wikipedia.org/wiki/Madeleine_Vionnet).
+
+### Browser default rendering
+
+Using the raw look of a browser, with no style sheet, as the surface of a work.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 1994 | — | web: The first graphical browsers showed every page in the same default style, and artists treated that look as a material. | |
+| 1 | Internet | c. 1995 | +1 years | Net artists use frames, raw text and links as the work, for example on the pages of Jodi. | [`net-art-browser`](./net-art-browser/SKILL.md) |
+
+Used by: [`net-art-browser`](./net-art-browser/SKILL.md).
+
+- Keep the default Times 16px text and blue links.
+- Choose one flat ground: white, grey or black.
+- Show a frame, an error or the source as visible content.
+- Add no images, or one stretched GIF.
+
+Sources: [Wikipedia: Net.art](https://en.wikipedia.org/wiki/Net.art); [Wikipedia: Jodi (art collective)](https://en.wikipedia.org/wiki/Jodi_(art_collective)).
 
 ### Chef-plated course
 
@@ -3563,6 +4098,24 @@ Used by: [`breguet-classical-watch`](./breguet-classical-watch/SKILL.md), [`art-
 - Polish the cut lines, or fill them with clear enamel.
 
 Sources: [Wikipedia: Guilloché](https://en.wikipedia.org/wiki/Guilloché); [Wikipedia: Engine turning](https://en.wikipedia.org/wiki/Engine_turning).
+
+### Flat lay composition
+
+A still life of objects on a flat surface, shot from straight above.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Photography | 1987 | — | Los Angeles: Andrew Kromelow, a worker at Frank Gehry's studio, names the habit of laying objects at right angles knolling in 1987. | |
+| 1 | Internet | c. 2014 | +27 years | Instagram users post overhead photos of coffee, notebooks and flowers on pale surfaces. | [`flat-lay-feed`](./flat-lay-feed/SKILL.md) |
+
+Used by: [`flat-lay-feed`](./flat-lay-feed/SKILL.md).
+
+- Hold the camera at 90° above the surface.
+- Group 5 to 9 objects and keep 30% to 40% of the frame empty.
+- Align objects at 0° and 90°, and repeat one accent colour in 3 props.
+- Light the set from a window at the side.
+
+Sources: [Wikipedia: Knolling](https://en.wikipedia.org/wiki/Knolling); [Wikipedia: Kinfolk (magazine)](https://en.wikipedia.org/wiki/Kinfolk_(magazine)).
 
 ### Hand building
 
@@ -3797,6 +4350,24 @@ Used by: [`new-look`](./new-look/SKILL.md), [`minimalist-fashion`](./minimalist-
 
 Sources: [Wikipedia: Toile](https://en.wikipedia.org/wiki/Toile); [Wikipedia: Haute couture](https://en.wikipedia.org/wiki/Haute_couture).
 
+### Unstyled frontal snapshot
+
+A photograph that hides its own styling: the subject faces the camera in flat daylight, with no prop, no filter and no pose.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 2013 | — | New York: Normcore feeds and posts show ordinary clothes in plain snapshots. | |
+| 1 | Internet | c. 2013 | +0 years | Normcore catalogues and feeds show clothes and people in flat daylight, front-on, with no filter and no props. | [`normcore`](./normcore/SKILL.md) |
+
+Used by: [`normcore`](./normcore/SKILL.md).
+
+- Place the camera at eye height, 1.5m to 2m from the subject.
+- Shoot in open shade or overcast daylight, with no flash.
+- Centre the subject and keep a neutral wall or a plain street behind it.
+- Do not apply a filter, a vignette or a grade beyond a white balance.
+
+Sources: [Wikipedia: Normcore](https://en.wikipedia.org/wiki/Normcore); [Wikipedia: New Topographics](https://en.wikipedia.org/wiki/New_Topographics).
+
 ### Y-front fly
 
 A cut for a brief in which two panels overlap in a Y shape at the front, so that the garment opens without a button and holds the body.
@@ -3893,10 +4464,10 @@ A translucent layer that blurs what is behind it, so that a panel reads as frost
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Graphic & UI Design | 2007 | — | Redmond, United States: Windows Vista Aero blurs what is behind the translucent frame of each window. | |
-| 1 | Graphic & UI Design | 2013 | +6 years | iOS 7 puts the control centre and the menus on blurred, translucent layers. |  |
-| 2 | Graphic & UI Design | c. 2019 | +12 years | CSS backdrop-filter reaches the main browsers, and web pages take up frosted panels. |  |
-| 3 | Graphic & UI Design | 2025 | +18 years | Apple's Liquid Glass adds refraction and bright edges to the blurred layer. | [`liquid-glass-ui`](./liquid-glass-ui/SKILL.md) |
+| Origin | Internet | 2007 | — | Redmond, United States: Windows Vista Aero blurs what is behind the translucent frame of each window. | |
+| 1 | Internet | 2013 | +6 years | iOS 7 puts the control centre and the menus on blurred, translucent layers. |  |
+| 2 | Internet | c. 2019 | +12 years | CSS backdrop-filter reaches the main browsers, and web pages take up frosted panels. |  |
+| 3 | Internet | 2025 | +18 years | Apple's Liquid Glass adds refraction and bright edges to the blurred layer. | [`liquid-glass-ui`](./liquid-glass-ui/SKILL.md) |
 
 Used by: [`liquid-glass-ui`](./liquid-glass-ui/SKILL.md).
 
@@ -3905,6 +4476,24 @@ Used by: [`liquid-glass-ui`](./liquid-glass-ui/SKILL.md).
 - Add a 1 px light edge at 20% to 50% opacity to show the edge of the glass.
 
 Sources: W3C, Filter Effects Module Level 2: backdrop-filter.
+
+### Binaural recording
+
+A recording with two mics set at ear distance, so that a sound seems to move around the head of the listener.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Film & Video | 1881 | — | Paris: Clement Ader sends stereo telephone sound from the Paris Opera to listeners at the Electrical Exhibition, an early use of two-channel sound. | |
+| 1 | Internet | c. 2010 | +129 years | Close-mic video channels use binaural mics to make whispers and taps move between the ears. | [`asmr-video`](./asmr-video/SKILL.md) |
+
+Used by: [`asmr-video`](./asmr-video/SKILL.md).
+
+- Set two mics 17cm apart, or use a head with an ear mic on each side.
+- Keep the source within 30cm for a close sound.
+- Move an object from left to right slowly.
+- Give the listener a pair of headphones.
+
+Sources: [Wikipedia: Binaural recording](https://en.wikipedia.org/wiki/Binaural_recording).
 
 ### Bloom and HDR
 
@@ -3940,6 +4529,24 @@ Used by: [`smartwatch`](./smartwatch/SKILL.md).
 - Map each touch to a screen position within 1 mm.
 
 Sources: [Wikipedia: Capacitive sensing](https://en.wikipedia.org/wiki/Capacitive_sensing); [Wikipedia: Touchscreen](https://en.wikipedia.org/wiki/Touchscreen).
+
+### Carousel post
+
+A single post that holds several images or clips that the viewer swipes through.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 2017 | — | web: Instagram lets users share up to 10 photos and videos in one post. | |
+| 1 | Internet | 2020 | +3 years | Users post casual camera-roll carousels that they call photo dumps. | [`photo-dump`](./photo-dump/SKILL.md) |
+
+Used by: [`photo-dump`](./photo-dump/SKILL.md).
+
+- Group 6 to 20 media items in one post.
+- Show a dot pager and a count badge.
+- Open with the best item and end with a light one.
+- Let each item keep its own crop.
+
+Sources: [Wikipedia: Photo dump](https://en.wikipedia.org/wiki/Photo_dump); [Wikipedia: Instagram](https://en.wikipedia.org/wiki/Instagram).
 
 ### Cel shading
 
@@ -4065,6 +4672,132 @@ Used by: [`cinematic-teal-orange`](./cinematic-teal-orange/SKILL.md).
 
 Sources: Alexis Van Hurkman, Color Correction Handbook (2010).
 
+### Dual camera capture
+
+A capture mode that takes a photo with the back camera and the front camera in one moment.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 2020 | — | Paris: BeReal releases an app that asks users to post a back and a front camera photo at a random time. | |
+| 1 | Internet | 2022 | +2 years | BeReal grows fast, and its two-camera snapshot becomes a common look in social feeds. | [`dual-camera-snapshot`](./dual-camera-snapshot/SKILL.md) |
+
+Used by: [`dual-camera-snapshot`](./dual-camera-snapshot/SKILL.md).
+
+- Fire both cameras within 2 seconds.
+- Show the back photo full frame and the front photo in a small inset.
+- Record a time stamp and a late mark.
+- Allow no filter or crop.
+
+Sources: [Wikipedia: BeReal](https://en.wikipedia.org/wiki/BeReal).
+
+### Face-swap autoencoder
+
+A pair of networks that learn two faces and then draw one face with the pose and expression of the other, frame by frame.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 2017 | — | Reddit: A user of that name posts the first face-swap clips and then shares the method as code; the name deepfake comes from this user name. | |
+| 1 | Internet | c. 2018 | +1 years | Open tools and phone apps put the method in many hands; detection overlays and labels appear next to the clips. | [`deepfake-face-swap`](./deepfake-face-swap/SKILL.md) |
+
+Used by: [`deepfake-face-swap`](./deepfake-face-swap/SKILL.md).
+
+- Find and crop the face in each frame, and mark its landmark points.
+- Train one encoder and two decoders on many images of the two faces.
+- Decode the pose of face A with the decoder of face B.
+- Blend the new face patch into the frame with a feathered mask of 8px to 24px.
+- Mark the result as synthetic in any public use.
+
+Sources: [Wikipedia: Deepfake](https://en.wikipedia.org/wiki/Deepfake).
+
+### Face-tracked puppet
+
+A rendered 3D head that copies the face of the user in real time through a depth camera.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 2017 | — | Cupertino: Apple releases Animoji with the iPhone X and its TrueDepth camera. | |
+| 1 | Internet | 2017 | +0 years | Animoji and later Memoji turn the face of the user into a rendered mask in messages and video. | [`3d-avatar-emoji`](./3d-avatar-emoji/SKILL.md) |
+
+Used by: [`3d-avatar-emoji`](./3d-avatar-emoji/SKILL.md).
+
+- Read the face with a depth camera and map 50 muscle movements to head controls.
+- Render the head at 60 fps with soft light and a contact shadow.
+- Limit a recorded clip to 10 seconds.
+
+Sources: [Wikipedia: Animoji](https://en.wikipedia.org/wiki/Animoji).
+
+### Face-tracking avatar
+
+A camera tracks the face of a person and moves a drawn or 3D character at the same time, so the character acts as a live host.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 2016 | — | Japan: Kizuna AI uses a tracked 3D avatar as the host of a YouTube channel, and other makers follow the same rig. | |
+| 1 | Internet | 2016 | +0 years | Virtual YouTubers use tracked anime-style avatars as live hosts. | [`vtuber-avatar`](./vtuber-avatar/SKILL.md) |
+
+Used by: [`vtuber-avatar`](./vtuber-avatar/SKILL.md).
+
+- Track blinks, mouth shape and head tilt at 30 fps or more.
+- Map each value to a layer of the avatar rig.
+- Keep the lag under 100ms.
+- Draw the character with flat colour and a clear outline.
+
+Sources: [Wikipedia: Virtual YouTuber](https://en.wikipedia.org/wiki/Virtual_YouTuber); [Wikipedia: Kizuna AI](https://en.wikipedia.org/wiki/Kizuna_AI).
+
+### Generative adversarial network
+
+Two networks that compete: one draws images and the other judges them as real or false, until the drawings pass.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 2014 | — | Montreal: Ian Goodfellow and co-authors publish the method in a paper in machine learning. | |
+| 1 | Internet | 2018 | +4 years | NVIDIA releases StyleGAN; the next year a web page shows one new generated face on each reload. | [`gan-portrait`](./gan-portrait/SKILL.md) |
+
+Used by: [`gan-portrait`](./gan-portrait/SKILL.md).
+
+- Train a generator and a discriminator in turns on a large set of images.
+- Sample a latent vector of 512 numbers to draw one image.
+- Align the training faces so that the eyes sit at the same height in every image.
+- Expect small faults in teeth, ears, glasses and the background.
+
+Sources: [Goodfellow et al., Generative Adversarial Networks (2014)](https://arxiv.org/abs/1406.2661); [Wikipedia: StyleGAN](https://en.wikipedia.org/wiki/StyleGAN).
+
+### HTML table layout
+
+Using nested HTML tables, with clear 1px spacer images, to place boxes on a page.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | c. 1995 | — | United States: Netscape Navigator 1.1 added table support, and designers used tables for page layout. | |
+| 1 | Internet | 1997 | +2 years | Web portals place search, links, news and ads in dense table grids. | [`portal-table-layout`](./portal-table-layout/SKILL.md) |
+
+Used by: [`portal-table-layout`](./portal-table-layout/SKILL.md).
+
+- Set a table of 760px to 800px and centre it.
+- Nest tables for each column and each box, with 2px spacing and 4px padding.
+- Use a 1px clear GIF to hold the width of a cell.
+- Split the page into a header row, a link column and a content column.
+
+Sources: [Wikipedia: HTML table](https://en.wikipedia.org/wiki/Table_(HTML)); [Wikipedia: Web portal](https://en.wikipedia.org/wiki/Web_portal).
+
+### JPEG recompression
+
+Repeated lossy saving of one image until blocks, banding and colour noise show.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | c. 1992 | — | web: The JPEG format becomes the usual lossy image format of the web; repeated saves show visible loss. | |
+| 1 | Internet | c. 2017 | +25 years | Reddit and Tumblr users recompress pictures on purpose and make the damage the joke. | [`deep-fried-meme`](./deep-fried-meme/SKILL.md) |
+
+Used by: [`deep-fried-meme`](./deep-fried-meme/SKILL.md).
+
+- Save the image as JPEG at quality 5 to 15.
+- Resize it between 50% and 200% and save again; repeat 3 to 10 times.
+- Raise saturation and contrast, then sharpen, between the saves.
+- Stop when the subject is still readable at 25% size.
+
+Sources: [Wikipedia: JPEG](https://en.wikipedia.org/wiki/JPEG).
+
 ### Luminous dial
 
 A dial with hands and marks that carry paint that glows in the dark, so that the wearer reads the time without a lamp.
@@ -4170,6 +4903,24 @@ Used by: [`pbr-photoreal`](./pbr-photoreal/SKILL.md).
 - Light with physical units and a real sky; let light bounce.
 
 Sources: [Wikipedia: Physically based rendering](https://en.wikipedia.org/wiki/Physically_based_rendering); [Karis, Real Shading in Unreal Engine 4, SIGGRAPH 2013](https://blog.selfshadow.com/publications/s2013-shading-course/).
+
+### Profile CSS injection
+
+A user pastes CSS or HTML into a profile field, and the page takes the new style.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 2003 | — | United States: Myspace allowed users to add their own HTML and CSS to a profile. | |
+| 1 | Internet | 2003 | +0 years | Myspace members restyle their profile pages with pasted code. | [`myspace-profile`](./myspace-profile/SKILL.md) |
+
+Used by: [`myspace-profile`](./myspace-profile/SKILL.md).
+
+- Paste the CSS in the field that the site allows.
+- Set a wallpaper on the page with a fixed position.
+- Set the boxes to 60% to 80% opacity.
+- Hide or move site ads and default parts only when the site allows it.
+
+Sources: [Wikipedia: Myspace](https://en.wikipedia.org/wiki/Myspace).
 
 ### Quartz movement
 

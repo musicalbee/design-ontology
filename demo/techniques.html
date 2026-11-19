@@ -10,7 +10,7 @@
   :root {
     /* Hive light tokens, as in graph.html and people.html. One colour for each domain; each mark also carries a letter. */
     --paper: #fff; --ink: #1F1F45; --muted: #50527A; --line: #DEE3F2; --band: #EFF2FB; --accent: #264FCC; --accent-bg: #E8F2FF;
-    --d-design: #264FCC; --d-architecture: #B4532A; --d-interior: #1F7A5C; --d-photography: #7A4FBF; --d-film: #B8306E; --d-painting: #8A7314;
+    --d-internet: #264FCC; --d-architecture: #B4532A; --d-interior: #1F7A5C; --d-photography: #7A4FBF; --d-film: #B8306E; --d-painting: #8A7314;
     --d-logo: #2F6F8F; --d-icon: #C2410C; --d-typeface: #3F3F46; --d-game: #6D28D9; --d-other: #6B7280;
   }
   html, body { margin: 0; }
@@ -108,11 +108,11 @@
 </main>
 <script>
 // A domain with no entry here uses <id>.html, a letter from its name and the grey "other" colour, so a new domain never shows "undefined".
-const PAGES = { design: "design.html" };
+const PAGES = { internet: "internet.html" };
 const page = (d) => PAGES[d] ?? `${d}.html`;
-const LETTER = { design: "D", architecture: "A", interior: "I", photography: "Ph", film: "F", painting: "P", logo: "L", icon: "Ic", typeface: "T", game: "G" };
+const LETTER = { internet: "N", architecture: "A", interior: "I", photography: "Ph", film: "F", painting: "P", logo: "L", icon: "Ic", typeface: "T", game: "G" };
 const letter = (d) => LETTER[d] ?? d.slice(0, 2).replace(/^./, (c) => c.toUpperCase());
-const KNOWN = new Set(["design", "architecture", "interior", "photography", "film", "painting", "logo", "icon", "typeface", "game"]);
+const KNOWN = new Set(["internet", "architecture", "interior", "photography", "film", "painting", "logo", "icon", "typeface", "game"]);
 const KIND = { montage: "Montage", animation: "Animation", motif: "Motif", material: "Material", process: "Process", tool: "Tool" };
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 const $ = (id) => document.getElementById(id);

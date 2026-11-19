@@ -220,7 +220,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Moodboard
 
-6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (FLUX.2 [klein] 4B, Apache-2.0, seed 1955, 4 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#georgian-interior).
+6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (Z-Image-Turbo, Apache-2.0, seed 1955, 9 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#georgian-interior).
 
 ![Room](../../demo/moodboards/interior/georgian-interior/room.webp)
 ![Materials](../../demo/moodboards/interior/georgian-interior/materials.webp)
@@ -231,7 +231,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Every object is made in French-polished mahogany, polished brass, white porcelain and honed marble. Silk, gilt and mirror glass give the fine surfaces, and the forms come in symmetric pairs. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.45, material_warmth 0.6, finish_gloss 70, era_blend 0.2, hardware_weight 14, edge_radius 3, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#georgian-interior).
+Every object is made in French-polished mahogany, polished brass, white porcelain and honed marble. Silk, gilt and mirror glass give the fine surfaces, and the forms come in symmetric pairs. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.45, material_warmth 0.6, finish_gloss 70, era_blend 0.2, hardware_weight 14, edge_radius 3, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#georgian-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

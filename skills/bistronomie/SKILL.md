@@ -93,6 +93,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Primary:** pork · duck · pulses · cabbage · onion · butter · wild-mushrooms · root-vegetables
 - **Secondary:** garlic · shallot · thyme-bay · black-pepper · wine · veal · egg · cream · cheese · bread · rice · orchard-fruit · cod · vinegar
 - **Avoid:** sodium-alginate · liquid-nitrogen · xanthan-gum · soy-lecithin · caviar
+- **In europe:** yes
 - **Rule:** Buy produce of the French provinces and cheap cuts of the market; use butter, wine and the cooking juices for the sauce.
 
 ## Technique
@@ -209,7 +210,6 @@ The warmth of a crowded table where the food is better than the room: loud, gene
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
 - [Confit de canard, Licq-Athérey](https://commons.wikimedia.org/wiki/File:Confit_de_canard_Licq-Atherey.jpg) (Tangopaso, 2012): image, CC BY-SA 3.0. Tangopaso, via Wikimedia Commons
-- [Terrine de campagne at a farm inn](https://commons.wikimedia.org/wiki/File:La_Tuili%C3%A8re_-_Montloup_-_Ferme_auberge_Au_pr%C3%A9_de_mon_arbre_-_Terrine_de_campagne.jpg) (Romainbehar, 2023): image, CC0. Romainbehar, via Wikimedia Commons
 
 ## Sources
 

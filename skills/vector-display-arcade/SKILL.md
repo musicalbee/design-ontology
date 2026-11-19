@@ -175,6 +175,7 @@ A cathode-ray tube whose beam draws straight lines from point to point, not a ra
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Atari, Inc.** (studio, Sunnyvale, California, 1972–1984), made the style. The arcade and console company that made the first hit vector-display games.
+- **Warner Communications** (company, New York, ?–now), funded the style. US media company. It bought Atari in 1976 for 28 million dollars and co-owned MTV through Warner-Amex.
 
 ## Permutations
 

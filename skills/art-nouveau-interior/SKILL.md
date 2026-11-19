@@ -212,7 +212,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Moodboard
 
-6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (FLUX.2 [klein] 4B, Apache-2.0, seed 1955, 4 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#art-nouveau-interior).
+6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (Z-Image-Turbo, Apache-2.0, seed 1955, 9 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#art-nouveau-interior).
 
 ![Room](../../demo/moodboards/interior/art-nouveau-interior/room.webp)
 ![Materials](../../demo/moodboards/interior/art-nouveau-interior/materials.webp)
@@ -223,7 +223,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Every object grows from a plant or an insect: carved walnut, patinated bronze and amber art glass. Silk and velvet in moss green and mauve follow the same whiplash curve. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.65, material_warmth 0.65, finish_gloss 60, era_blend 0.2, hardware_weight 14, edge_radius 8, metal_tone bronze. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#art-nouveau-interior).
+Every object grows from a plant or an insect: carved walnut, patinated bronze and amber art glass. Silk and velvet in moss green and mauve follow the same whiplash curve. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.65, material_warmth 0.65, finish_gloss 60, era_blend 0.2, hardware_weight 14, edge_radius 8, metal_tone bronze. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#art-nouveau-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

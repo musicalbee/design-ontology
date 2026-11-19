@@ -177,6 +177,7 @@ A flat warp-knitting machine that makes open nets and fine elastic meshes, and t
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **DuPont** (company, Wilmington, ?–now), funded the style. US chemical company. It paid for pure research from 1927 and hired Wallace Carothers in 1928. His group made nylon.
 - **1939 New York World's Fair** (exhibition, New York, 1939–1940), exhibited the style. A world's fair of two seasons with the theme The World of Tomorrow. Its pavilions, cars and appliances showed streamlined shells to millions of visitors.
 
 ## Permutations

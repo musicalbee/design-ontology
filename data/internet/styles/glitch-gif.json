@@ -1,0 +1,344 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "glitch-gif",
+  "domain": "internet",
+  "name": "Glitch GIF",
+  "aliases": [
+    "Datamosh loop",
+    "RGB-split GIF",
+    "Corrupted loop"
+  ],
+  "branch": "gifs-stickers",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2010,
+    "end": null,
+    "label": "2010–now"
+  },
+  "primary_mediums": [
+    "image",
+    "web"
+  ],
+  "summary": "A looped clip with torn bands, split colour channels and repeated frames, as if the signal failed. Artists on Tumblr and in net art circles made it common after 2010.",
+  "philosophy": {
+    "core_thesis": "A fault in the signal is an image: show the error, do not hide it.",
+    "design_principles": [
+      "Shift the red channel by 3px to the left and the blue channel by 3px to the right on each glitch frame.",
+      "Cut 3 to 8 horizontal bands of 4px to 40px height and move each sideways by 10px to 60px.",
+      "Run the glitch in bursts of 2 to 6 frames inside a loop of 20 to 40 frames at 12 fps.",
+      "Keep 60% of the frames clean, so that the error reads as an error.",
+      "Limit the palette to 64 colours and keep the dither visible.",
+      "Set text as a mono line at 14px with 2 duplicate offsets in red and cyan at 40% opacity.",
+      "Place a scanline layer of 2px stripes at 8% opacity over the frame."
+    ],
+    "anti_patterns": [
+      "A fully corrupted loop with no clean frame",
+      "Smooth gradients with no channel split",
+      "Glitch applied to body text",
+      "Soft pastel palettes",
+      "Slow dissolves in place of hard cuts",
+      "Photographic noise with no band structure"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "dimensionality": 2,
+    "grid_rigidity": 2,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 4
+  },
+  "layout": {
+    "grid_mechanics": "A free stack of frames and text lines on a 12-column grid with 8px gutters; bands break the grid by 10px to 60px.",
+    "whitespace_ratio": "15% to 25% of the surface stays empty; the spacing scale is 4, 8, 16 and 32px.",
+    "alignment_rules": "The main frame sits centred; text lines sit flush-left with offset duplicates of 3px.",
+    "container_geometry": "Rectangular frames with a 0px radius and a 2px cyan edge; a hard offset shadow in red and cyan."
+  },
+  "typography": {
+    "classifications": [
+      "display glitch face",
+      "monospace"
+    ],
+    "font_pairings": [
+      {
+        "display": "Rubik Glitch",
+        "body": "Space Mono",
+        "note": "An open display face with cut bands, with a mono text face."
+      },
+      {
+        "display": "VT323",
+        "body": "IBM Plex Mono",
+        "note": "A terminal face for a quieter glitch page."
+      }
+    ],
+    "tracking": "Display 0.04em; body 0em.",
+    "leading": "Display 1.1; body 1.6.",
+    "hierarchy_rules": [
+      "Set 1 display line at 48px or more and keep body text at 16px with no effect.",
+      "Duplicate a display line twice, in red and cyan, with offsets of 3px.",
+      "Keep labels in 12px mono capitals."
+    ]
+  },
+  "color": {
+    "palette_structure": "Near-black ground with a red and a cyan channel colour in equal weight, and white text.",
+    "palette": [
+      {
+        "name": "Dead Signal",
+        "hex": "#0A0A12",
+        "role": "background"
+      },
+      {
+        "name": "Panel Night",
+        "hex": "#171726",
+        "role": "surface"
+      },
+      {
+        "name": "Signal White",
+        "hex": "#F2F2FA",
+        "role": "text"
+      },
+      {
+        "name": "Channel Red",
+        "hex": "#FF2D55",
+        "role": "primary"
+      },
+      {
+        "name": "Channel Cyan",
+        "hex": "#00F0FF",
+        "role": "accent"
+      },
+      {
+        "name": "Static Grey",
+        "hex": "#A8A8C4",
+        "role": "muted text"
+      },
+      {
+        "name": "Error Green",
+        "hex": "#39FF88",
+        "role": "highlight"
+      }
+    ],
+    "contrast_rules": "Signal white on dead signal holds 17:1; red and cyan carry offsets and edges, not body text.",
+    "surface_treatment": "Flat dark panels; a scanline overlay at 8% opacity and a band tear on hover.",
+    "light_and_shadow": "A hard offset shadow of 3px in red on the right and cyan on the left; no soft shadow."
+  },
+  "materiality": {
+    "surface_simulation": "A failing video signal: CRT scan lines, channel drift and compression blocks.",
+    "border_rules": "A 2px cyan line; on hover the line splits into red and cyan with 3px offset.",
+    "blur_and_elevation": "No blur; the offset shadow is hard."
+  },
+  "ornamentation_details": {
+    "iconography": "Solid pixel glyphs at 24px with square terminals.",
+    "illustration": "Portraits, statues and city scenes with channel split and torn bands.",
+    "decorative_elements": [
+      "RGB channel split",
+      "torn band",
+      "scanline overlay",
+      "block noise",
+      "duplicate offset text"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Clean frames run for 0.5s to 2s, then a burst of 2 to 6 glitch frames at 12 fps; no easing inside a burst.",
+    "easing": "steps(3, end)",
+    "duration_ms": 120,
+    "hover_and_active": "Hover starts a 3-frame band tear; active inverts the red and cyan channels for 1 frame."
+  },
+  "lineage": {
+    "evolved_from": [
+      "reaction-gif"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "pixel-art-web"
+    ],
+    "echoes": [
+      "camcorder-revival"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels unease and fascination at a machine that breaks.",
+    "keywords": [
+      "broken",
+      "digital",
+      "tense",
+      "analogue noise",
+      "raw",
+      "electric"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "magician"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "glitch gif",
+      "glitch art",
+      "datamosh",
+      "rgb split",
+      "corrupted",
+      "signal error",
+      "vhs tear"
+    ],
+    "use_cases": [
+      "music release art and teasers",
+      "net art and gallery pages",
+      "game and tech launch loops",
+      "title cards for dark, edgy content"
+    ],
+    "avoid_when": [
+      "The audience has photosensitive epilepsy risk and the loop flashes more than 3 times in 1 second.",
+      "The page needs a calm tone.",
+      "The text needs fast reading."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "cinemagraph",
+        "how": "Remove the bursts and let one small part of the frame move in a slow loop."
+      },
+      {
+        "request": "more retro",
+        "toward": "y2k-aesthetic",
+        "how": "Replace the neon pair with silver and baby blue and add chrome type."
+      },
+      {
+        "request": "more pixel",
+        "toward": "pixel-art-web",
+        "how": "Cut the palette to 16 colours and snap every band to an 8px grid."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 400,
+      "display_tracking": "0.04em",
+      "display_leading": 1.1,
+      "display_case": "uppercase",
+      "body_leading": 1.6,
+      "body_size": "16px",
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 400,
+      "accent": "colour"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "square",
+      "linejoin": "miter",
+      "container": "square",
+      "pack": {
+        "id": "pixelarticons",
+        "why": "Hard pixel glyphs match the block noise and the square terminals of a broken signal."
+      }
+    },
+    "art": {
+      "recipe": "y2k",
+      "pattern": "noise",
+      "seed": 41
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "left",
+      "density": "regular",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "scanlines",
+      "why": "A glitch loop shows the scan lines of the failing video signal."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#0A0A12",
+      "--color-surface": "#171726",
+      "--color-text": "#F2F2FA",
+      "--color-muted": "#A8A8C4",
+      "--color-primary": "#FF2D55",
+      "--color-accent": "#00F0FF",
+      "--color-border": "#00F0FF",
+      "--font-sans": "\"Space Mono\", \"VT323\", monospace",
+      "--font-display": "\"Rubik Glitch\", \"Rubik Mono One\", sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "2px",
+      "--shadow-elevation": "3px 0 0 #FF2D55, -3px 0 0 #00F0FF",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "steps(3, end)",
+      "--duration": "120ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#0A0A12] text-[#F2F2FA] font-mono antialiased px-4 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-4xl md:text-6xl font-['Rubik_Glitch'] uppercase [text-shadow:3px_0_#FF2D55,-3px_0_#00F0FF] leading-[1.1]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border-2 border-[#00F0FF] bg-[#171726] rounded-none shadow-[3px_0_0_#FF2D55,-3px_0_0_#00F0FF]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border-2 border-[#00F0FF] bg-[#FF2D55] px-6 py-3 text-sm font-bold text-[#0A0A12] transition-transform duration-[120ms] hover:-translate-y-0.5"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs uppercase tracking-widest text-[#FF2D55]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#FF2D55",
+        "#0A0A12",
+        "#171726",
+        "#F2F2FA"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#00F0FF",
+        "#FF2D55",
+        "#39FF88"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 0
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.5,
+      "min": 1.333,
+      "max": 1.618
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Glitch art",
+      "url": "https://en.wikipedia.org/wiki/Glitch_art"
+    },
+    {
+      "title": "Rosa Menkman, The Glitch Moment(um) (Institute of Network Cultures, 2011)",
+      "url": "https://networkcultures.org/blog/publication/no-04-the-glitch-momentum-rosa-menkman/"
+    },
+    {
+      "title": "Wikipedia: Datamoshing",
+      "url": "https://en.wikipedia.org/wiki/Datamoshing"
+    }
+  ]
+}

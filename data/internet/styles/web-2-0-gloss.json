@@ -1,0 +1,360 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "web-2-0-gloss",
+  "domain": "internet",
+  "name": "Web 2.0 Gloss",
+  "aliases": [
+    "Web 2.0 style",
+    "Glossy buttons",
+    "Beta badge style"
+  ],
+  "branch": "early-web",
+  "era_id": "postmodern-early-digital",
+  "time_period": {
+    "start": 2004,
+    "end": 2010,
+    "label": "2004–2010"
+  },
+  "primary_mediums": [
+    "web"
+  ],
+  "summary": "Glossy rounded buttons, vertical gradients, reflections under logos, big friendly type, star badges and a 'beta' tag on a clean white page. Social and tool start-ups used it after 2004.",
+  "philosophy": {
+    "core_thesis": "A site is a friendly tool: make every control look glossy, round and easy to press.",
+    "design_principles": [
+      "Fill buttons with a vertical 2-stop gradient, for example #5B9BD5 to #2F6DB5, with a white 1px inner highlight at the top.",
+      "Set a gloss on the top half: a white overlay at 35% to 50% opacity that ends at 50% of the button height.",
+      "Round corners at 6px to 12px on buttons and cards, and use pill shapes for tags.",
+      "Place a reflection under the logo: a flipped copy at 30% opacity that fades to 0% over 40px.",
+      "Set big, rounded headlines at 36px to 48px in a friendly sans, and 14px body text on a white ground.",
+      "Add a star or burst badge of 60px to 90px with 'beta', 'new' or 'free' in bold white on orange (#FF8A00).",
+      "Use a soft drop shadow of 0 2px 4px at 20% black under cards and a 1px light grey line (#D0D7DE)."
+    ],
+    "anti_patterns": [
+      "Flat colour with no gradient",
+      "Sharp 0px corners and hard bevels",
+      "Dark moody grounds",
+      "Small, dense text in tables",
+      "Thin light type with no emphasis",
+      "Cluttered tiled backgrounds"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "dimensionality": 3,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "A centred container of 960px on a 12-column grid with 20px gutters; a hero of 500px to 600px with a big call-to-action.",
+    "whitespace_ratio": "30% to 40% of the page is empty; the spacing scale is 10, 20 and 40px.",
+    "alignment_rules": "Centred hero and logo; text blocks flush left; feature rows in 3 columns with icons.",
+    "container_geometry": "Cards and buttons with a 8px radius, pill tags, round avatars and badges."
+  },
+  "typography": {
+    "classifications": [
+      "rounded sans",
+      "humanist sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Varela Round",
+        "body": "Nunito",
+        "note": "Varela Round is the open look-alike of the rounded display faces of the time; Nunito carries the text."
+      },
+      {
+        "display": "Quicksand",
+        "body": "Noto Sans",
+        "note": "A soft geometric display with a neutral text face."
+      },
+      {
+        "display": "Fredoka",
+        "body": "Nunito",
+        "note": "A rounder, bolder display for badges and logos."
+      }
+    ],
+    "tracking": "Display -0.01em; body 0em.",
+    "leading": "Display 1.15; body 1.5.",
+    "hierarchy_rules": [
+      "Use 14px for body text, 18px for lead text and 40px for the hero title.",
+      "Use bold and a darker blue for headings.",
+      "Use a link colour of blue with no underline until hover.",
+      "Use sentence case in all text, with a lower-case brand name."
+    ]
+  },
+  "color": {
+    "palette_structure": "A white ground, one strong blue, one fresh green, one orange accent and pale grey lines.",
+    "palette": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "name": "Sky",
+        "hex": "#E8F1FA",
+        "role": "section ground"
+      },
+      {
+        "name": "Web Blue",
+        "hex": "#2F6DB5",
+        "role": "primary"
+      },
+      {
+        "name": "Fresh Green",
+        "hex": "#7AB800",
+        "role": "success"
+      },
+      {
+        "name": "Badge Orange",
+        "hex": "#FF8A00",
+        "role": "accent"
+      },
+      {
+        "name": "Line Grey",
+        "hex": "#D0D7DE",
+        "role": "border"
+      },
+      {
+        "name": "Navy Ink",
+        "hex": "#1F2D3D",
+        "role": "text"
+      },
+      {
+        "name": "Gloss White",
+        "hex": "#FFFFFF",
+        "role": "highlight"
+      }
+    ],
+    "contrast_rules": "Navy ink on white is 14:1; white on web blue is 5.3:1; white on orange is for badges of 14px bold and above.",
+    "surface_treatment": "Vertical 2-stop gradients on buttons and bars; flat white and pale blue grounds; a gloss overlay on controls.",
+    "light_and_shadow": "Light comes from above: a 1px white highlight on top edges, a soft 0 2px 4px shadow below and a reflection under logos."
+  },
+  "materiality": {
+    "surface_simulation": "Glossy plastic and glass buttons on a clean page: a candy surface.",
+    "border_rules": "A 1px line in a darker tone of the fill; a 1px inner white highlight.",
+    "blur_and_elevation": "A shadow of 0 2px 4px at 20% black; no backdrop blur."
+  },
+  "ornamentation_details": {
+    "iconography": "Glossy 32px to 48px icons in a rounded square with a gradient and a small highlight; round badges and stars.",
+    "illustration": "Reflected logos, starbursts, pill tags, speech bubbles, a big hero screenshot with a reflection and cartoon mascots.",
+    "decorative_elements": [
+      "glossy button",
+      "logo reflection",
+      "beta badge",
+      "starburst",
+      "pill tag",
+      "rounded card"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Menus and panels fade and slide at 200ms to 300ms with ease-out; Ajax updates highlight in yellow (#FFF6A5) for 1s and fade out.",
+    "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+    "duration_ms": 250,
+    "hover_and_active": "Hover brightens the gradient by 8% and lifts the button by 1px; active state inverts the gradient and removes the shadow."
+  },
+  "lineage": {
+    "evolved_from": [
+      "apple-aqua"
+    ],
+    "rebelled_against": [
+      "flash-intro-site",
+      "portal-table-layout"
+    ],
+    "hybridized_with": [
+      "frutiger-aero"
+    ],
+    "echoes": [
+      "skeuomorphic-icon"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels that the tool is friendly, new and easy to trust.",
+    "keywords": [
+      "glossy",
+      "friendly",
+      "optimistic",
+      "clean",
+      "rounded",
+      "beta"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "creator",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "web 2.0",
+      "glossy button",
+      "beta badge",
+      "reflection logo",
+      "aqua gradient",
+      "2005 start-up",
+      "rounded corners",
+      "ajax"
+    ],
+    "use_cases": [
+      "nostalgic start-up and tool pages",
+      "community and sharing sites",
+      "retro app landing pages",
+      "icon and badge sets",
+      "parody of the first social web"
+    ],
+    "avoid_when": [
+      "The brand needs a flat, modern or serious tone.",
+      "The device needs a light, fast render with few images.",
+      "The audience needs a premium, restrained look."
+    ],
+    "modifiers": [
+      {
+        "request": "flatter",
+        "toward": "flat-design",
+        "how": "Remove the gradients, the gloss and the shadows; keep the colour and the round corners."
+      },
+      {
+        "request": "more skeuomorphic",
+        "toward": "skeuomorphism",
+        "how": "Add textures and material detail: leather, stitching and glass."
+      },
+      {
+        "request": "more air",
+        "toward": "frutiger-aero",
+        "how": "Add a sky ground, bubbles and green nature photos."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "weight",
+      "display_tracking": "-0.01em",
+      "display_leading": 1.15,
+      "display_case": "none",
+      "body_leading": 1.5,
+      "body_size": "14px"
+    },
+    "icon": {
+      "mode": "duotone",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "rounded",
+      "pack": {
+        "id": "fluent-filled",
+        "why": "Rounded filled icons with two tones match the glossy tiles of the first social web."
+      }
+    },
+    "art": {
+      "recipe": "aero",
+      "pattern": "none",
+      "seed": 2004
+    },
+    "layout": {
+      "hero": "split",
+      "align": "center",
+      "density": "regular",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "sky",
+      "why": "The ground is a pale sky gradient above a white page, as in a start-up landing page."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#FFFFFF",
+      "--color-surface": "#E8F1FA",
+      "--color-text": "#1F2D3D",
+      "--color-muted": "#4A5B6C",
+      "--color-primary": "#2F6DB5",
+      "--color-accent": "#FF8A00",
+      "--color-border": "#D0D7DE",
+      "--font-sans": "\"Nunito\", \"Noto Sans\", sans-serif",
+      "--font-display": "\"Varela Round\", \"Quicksand\", sans-serif",
+      "--border-radius": "8px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 2px 4px #00000033",
+      "--backdrop-filter": "none",
+      "--space-unit": "10px",
+      "--ease": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "--duration": "250ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-white text-[#1F2D3D] font-sans px-4 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-4xl md:text-5xl font-bold tracking-[-0.01em] leading-[1.15] text-[#2F6DB5]"
+      },
+      {
+        "element": "body",
+        "classes": "text-sm leading-[1.5] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-lg border border-[#D0D7DE] bg-[#E8F1FA] shadow-[0_2px_4px_#00000033]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-lg border border-[#1F4F8A] bg-gradient-to-b from-[#5B9BD5] to-[#2F6DB5] px-5 py-2 text-sm font-bold text-white shadow-[inset_0_1px_0_#ffffff80,0_2px_4px_#00000033] hover:brightness-110"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-bold text-[#2F6DB5]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#2F6DB5",
+        "#7AB800",
+        "#D9480F"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#FF8A00",
+        "#7AB800",
+        "#2F6DB5"
+      ]
+    },
+    "corner_radius": {
+      "min": 4,
+      "max": 16
+    },
+    "grid_step": {
+      "min": 6,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "min": 1.125,
+      "max": 1.333,
+      "default": 1.25
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Web 2.0",
+      "url": "https://en.wikipedia.org/wiki/Web_2.0"
+    },
+    {
+      "title": "O'Reilly: What Is Web 2.0 (2005)",
+      "url": "https://www.oreilly.com/pub/a/web2/archive/what-is-web-20.html"
+    },
+    {
+      "title": "Wikipedia: Aqua (user interface)",
+      "url": "https://en.wikipedia.org/wiki/Aqua_(user_interface)"
+    }
+  ]
+}

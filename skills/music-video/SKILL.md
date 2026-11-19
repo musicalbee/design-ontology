@@ -215,6 +215,9 @@ A cut inside one continuous shot that removes time and leaves the jump in view. 
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **MTV** (platform, New York, 1981–now), published the style. US cable channel for music video. It began on 1 August 1981 under Warner-Amex Satellite Entertainment.
+- **Warner-Amex Satellite Entertainment** (company, New York, ?–now), funded the style. A joint venture of Warner Communications and American Express. It owned MTV at its start in 1981.
+- **Warner Communications** (company, New York, ?–now), funded the style. US media company. It bought Atari in 1976 for 28 million dollars and co-owned MTV through Warner-Amex.
 - **YouTube** (platform, web, 2005–now), published the style. A web site where people post video. The daily vlog grew here, and it became the main home of the music video.
 
 ## Permutations
@@ -238,7 +241,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`classical-hollywood`](../classical-hollywood/SKILL.md)
 - **Mixes well with:** [`neon-noir`](../neon-noir/SKILL.md), [`vertical-short-form`](../vertical-short-form/SKILL.md)
-- **Kin in another domain:** [`memphis-design`](../memphis-design/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
+- **Kin in another domain:** [`glitchcore`](../glitchcore/SKILL.md), [`hyperpop-visual`](../hyperpop-visual/SKILL.md), [`lip-sync-dance-short`](../lip-sync-dance-short/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`velocity-edit`](../velocity-edit/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Nearest by vector profile:** [`giallo`](../giallo/SKILL.md), [`hong-kong-action`](../hong-kong-action/SKILL.md), [`neon-noir`](../neon-noir/SKILL.md)
 
 ## Emotional target

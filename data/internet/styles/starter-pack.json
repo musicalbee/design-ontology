@@ -1,0 +1,316 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "starter-pack",
+  "domain": "internet",
+  "name": "Starter pack",
+  "aliases": [
+    "Starter pack meme",
+    "Identity collage"
+  ],
+  "branch": "memes",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2014,
+    "end": 2019,
+    "label": "2014–2019"
+  },
+  "primary_mediums": [
+    "image",
+    "web",
+    "mobile"
+  ],
+  "summary": "A white grid collage that lists the objects, clothes and habits of one type of person around a cut-out figure. It grew from Tumblr and Twitter in 2014 and became a general template for identity jokes.",
+  "philosophy": {
+    "core_thesis": "Describe a type of person as a kit of things you can buy, wear and say.",
+    "design_principles": [
+      "Divide a white canvas of 600px x 750px into a 3 x 3 grid of product cut-outs with 12px gutters.",
+      "Place a figure or a name label in the centre cell and put 5 to 8 object photos around it.",
+      "Cut each object out with a clean edge on a white ground, with no shadow.",
+      "Add a bold title at the top: \"<Type> starter pack\" in 40px black type.",
+      "Add a 14px caption under each object, in sentence case, with a brand or a habit.",
+      "Keep the object sizes within 20% of each other; the figure may be 1.5 times larger.",
+      "Use plain white for the ground and keep all photos in their own colours."
+    ],
+    "anti_patterns": [
+      "Dark backgrounds",
+      "Soft overlapping layouts with no grid",
+      "Handwritten decorations",
+      "Real private persons as the figure",
+      "Abstract objects with no real product",
+      "Long paragraphs"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "dimensionality": 1,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 4,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "A 3-column grid with 12px gutters on a 600px wide canvas; the centre cell holds the figure.",
+    "whitespace_ratio": "White ground fills 100% of the canvas; objects take 60% and text 15%.",
+    "alignment_rules": "Objects sit centred in their cells; captions align centre under each object.",
+    "container_geometry": "Rectangular cells with a 0px radius and no borders."
+  },
+  "typography": {
+    "classifications": [
+      "neutral sans",
+      "bold grotesque"
+    ],
+    "font_pairings": [
+      {
+        "display": "Montserrat",
+        "body": "Open Sans",
+        "note": "A clean bold sans for the title and a plain sans for captions."
+      },
+      {
+        "display": "Poppins",
+        "body": "Roboto",
+        "note": "A geometric pair that suits a product grid."
+      }
+    ],
+    "tracking": "Title 0; captions +0.01em.",
+    "leading": "Title 1.1; captions 1.3.",
+    "hierarchy_rules": [
+      "Use two sizes: 40px for the title and 14px for captions.",
+      "Use bold (700) for the title and regular (400) for captions.",
+      "Use black text on white; no other colour."
+    ]
+  },
+  "color": {
+    "palette_structure": "White ground, black text; the colour comes from the product photos.",
+    "palette": [
+      {
+        "name": "Canvas White",
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "name": "Title Black",
+        "hex": "#111111",
+        "role": "text"
+      },
+      {
+        "name": "Caption Grey",
+        "hex": "#555555",
+        "role": "secondary text"
+      },
+      {
+        "name": "Product Pink",
+        "hex": "#F4B6C2",
+        "role": "sample object tone"
+      },
+      {
+        "name": "Product Blue",
+        "hex": "#4C8BF5",
+        "role": "sample object tone"
+      }
+    ],
+    "contrast_rules": "Black on white gives 18:1; caption grey #555555 on white gives 7.5:1.",
+    "surface_treatment": "Flat white; photos keep their own colour and light.",
+    "light_and_shadow": "Soft studio light on each cut-out; no shadow on the ground."
+  },
+  "materiality": {
+    "surface_simulation": "A product catalogue page of cut-out photos.",
+    "border_rules": "No borders; the gutters are white space.",
+    "blur_and_elevation": "No blur and no elevation."
+  },
+  "ornamentation_details": {
+    "iconography": "No icons; the objects serve as icons.",
+    "illustration": "Cut-out product photos and brand logos on white.",
+    "decorative_elements": [
+      "cut-out object",
+      "centre figure",
+      "caption line"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Static image. A web version pops each object in 120ms apart.",
+    "easing": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+    "duration_ms": 300,
+    "hover_and_active": "Hover scales an object by 4% and shows its caption in black."
+  },
+  "lineage": {
+    "evolved_from": [
+      "impact-image-macro"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "tweet-screenshot-meme"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer sees themselves or a friend in the kit and laughs with recognition.",
+    "keywords": [
+      "relatable",
+      "catalogue",
+      "identity",
+      "playful",
+      "consumer"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "starter pack",
+      "starter pack meme",
+      "identity collage",
+      "what you own",
+      "kit meme",
+      "object grid"
+    ],
+    "use_cases": [
+      "social posts",
+      "magazine humour",
+      "brand parody",
+      "team culture slides"
+    ],
+    "avoid_when": [
+      "The subject is a real private person.",
+      "The jokes stereotype a protected group."
+    ],
+    "modifiers": [
+      {
+        "request": "more minimal",
+        "toward": "flat-design",
+        "how": "Replace photos with flat icons in 4 colours and keep the 3 x 3 grid."
+      },
+      {
+        "request": "more messy",
+        "toward": "scrapbook-ui",
+        "how": "Overlap the objects, add tape and tilt them by 2 to 4 degrees."
+      },
+      {
+        "request": "more text",
+        "toward": "tweet-screenshot-meme",
+        "how": "Replace the objects with a single post card and a short joke."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 600,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 500,
+      "accent": "weight",
+      "display_tracking": "0em",
+      "display_leading": 1.1,
+      "display_case": "none",
+      "body_leading": 1.3,
+      "body_size": "14px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "rounded",
+      "pack": {
+        "id": "ph-fill",
+        "why": "A solid object family that reads as a catalogue of small products."
+      }
+    },
+    "art": {
+      "recipe": "bento",
+      "pattern": "none",
+      "seed": 14
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "regular",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "blocks",
+      "why": "Evenly sized blocks echo the cells of a catalogue grid."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#FFFFFF",
+      "--color-surface": "#F6F6F6",
+      "--color-text": "#111111",
+      "--color-muted": "#555555",
+      "--color-primary": "#4C8BF5",
+      "--color-accent": "#F4B6C2",
+      "--color-border": "#E0E0E0",
+      "--font-sans": "\"Open Sans\", \"Roboto\", sans-serif",
+      "--font-display": "\"Montserrat\", \"Poppins\", sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "12px",
+      "--ease": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+      "--duration": "300ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-white text-[#111] font-sans antialiased px-6"
+      },
+      {
+        "element": "heading",
+        "classes": "font-[Montserrat] text-4xl md:text-5xl font-bold leading-[1.1] text-center"
+      },
+      {
+        "element": "body",
+        "classes": "text-sm leading-[1.3] text-[#555]"
+      },
+      {
+        "element": "card",
+        "classes": "bg-[#F6F6F6] p-3 grid place-items-center"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none bg-[#4C8BF5] px-5 py-2 text-sm font-medium text-black hover:scale-[1.04] transition-transform duration-300"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#4C8BF5",
+        "#F4B6C2",
+        "#111111"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#F4B6C2",
+        "#4C8BF5"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 8
+    },
+    "grid_step": {
+      "min": 8,
+      "max": 16
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.333
+    }
+  },
+  "sources": [
+    {
+      "title": "Know Your Meme: Starter Packs"
+    },
+    {
+      "title": "Wikipedia: Internet meme",
+      "url": "https://en.wikipedia.org/wiki/Internet_meme"
+    }
+  ]
+}

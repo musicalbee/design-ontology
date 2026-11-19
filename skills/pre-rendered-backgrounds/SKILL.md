@@ -177,6 +177,7 @@ Render a room or a street offline in 3D software, then show it as a fixed image 
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Broderbund** (publisher, Novato, ?–now), funded the style. US software publisher. It released Myst for Mac OS in 1993. Myst became its best selling title.
 - **Cyan Worlds** (studio, Mead, Washington, 1987–now), launched the style. An American studio that made Myst from pre-rendered still images.
 - **Square** (studio, Tokyo, 1986–2003), made the style. A Japanese game studio known for role-playing games with rich 16-bit pixel art and pre-rendered 3D rooms.
 

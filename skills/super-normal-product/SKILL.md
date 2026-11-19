@@ -202,7 +202,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`memphis-product`](../memphis-product/SKILL.md)
 - **Mixes well with:** [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
-- **Kin in another domain:** [`designer-wall-hung-sanitary`](../designer-wall-hung-sanitary/SKILL.md), [`electric-minimal-car`](../electric-minimal-car/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md), [`smartwatch`](../smartwatch/SKILL.md), [`washlet-toilet`](../washlet-toilet/SKILL.md)
+- **Kin in another domain:** [`designer-wall-hung-sanitary`](../designer-wall-hung-sanitary/SKILL.md), [`electric-minimal-car`](../electric-minimal-car/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md), [`normcore`](../normcore/SKILL.md), [`smartwatch`](../smartwatch/SKILL.md), [`washlet-toilet`](../washlet-toilet/SKILL.md)
 - **Nearest by vector profile:** [`bauhaus-product`](../bauhaus-product/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md), [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md)
 
 ## Emotional target

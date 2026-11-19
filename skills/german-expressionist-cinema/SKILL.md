@@ -232,6 +232,7 @@ A shadow far longer than its object, cast by a low sun, so that a still scene fe
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **German government and War Ministry** (state programme, Berlin, ?–now), funded the style. State bodies that gave starting capital to UFA in 1917 with Deutsche Bank. The Supreme Army Command wanted a state film corporation.
 - **UFA** (studio, Berlin, 1917–now), made the style. The large German film company of the Weimar years. Its studios made Metropolis and other films of German Expressionist cinema.
 
 ## Permutations

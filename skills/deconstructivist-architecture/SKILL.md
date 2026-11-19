@@ -189,6 +189,7 @@ A form broken into flat planes that meet at sharp angles, so that it reads as a 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Architectural Association School of Architecture** (school, London, 1847–now), taught the style. An independent school of architecture. Its teachers in the 1970s included the first deconstructivists, and its research lab taught parametric design.
+- **Hyatt Foundation** (foundation, Chicago, ?–now), funded the style. Sponsor of the Pritzker Architecture Prize. The Pritzker family funds the prize, which it founded in 1979.
 - **Deconstructivist Architecture** (exhibition, New York, 1988–1988), launched the style. A show at the Museum of Modern Art. It put seven architects together and gave the deconstructivist movement its name.
 
 ## Permutations

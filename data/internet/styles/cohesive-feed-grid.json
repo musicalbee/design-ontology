@@ -1,0 +1,346 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "cohesive-feed-grid",
+  "domain": "internet",
+  "name": "Cohesive Feed Grid",
+  "aliases": [
+    "Curated feed",
+    "Instagram grid",
+    "Aesthetic feed"
+  ],
+  "branch": "social-photo",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2016,
+    "end": null,
+    "label": "2016–now"
+  },
+  "primary_mediums": [
+    "mobile",
+    "image"
+  ],
+  "summary": "A profile planned as one board: a 3-column grid of square photos with one preset, one palette and a fixed rhythm of image types. The viewer reads the whole grid before one photo.",
+  "philosophy": {
+    "core_thesis": "The grid is the product: each photo serves the profile page, so tone, colour and spacing repeat until the feed reads as one brand.",
+    "design_principles": [
+      "Lay photos in 3 columns with 2px gaps, each a 1:1 square of 1080px.",
+      "Apply one preset to every photo, so that the average hue stays within 15° across the feed.",
+      "Limit the palette to 3 colours and repeat each in at least 1 of every 3 photos.",
+      "Alternate image types in a fixed rhythm: portrait, detail, text tile, in rows of 3.",
+      "Build text tiles on a flat colour from the palette with a centred quote at 48px to 64px.",
+      "Keep the profile header plain: a 77px round avatar, a 14px bio and a row of 5 highlight circles of 64px.",
+      "Plan 9 posts ahead in a scheduling app and check the grid before each post."
+    ],
+    "anti_patterns": [
+      "Photos with clashing colour casts",
+      "Random posting with no plan",
+      "Heavy filters that change each week",
+      "Collage tiles with 4 or more colours",
+      "Photos with busy text overlays",
+      "Different crop ratios in one grid"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 1,
+    "grid_rigidity": 5,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A strict 3-column grid of squares with 2px gaps; highlight circles in one row of 5 above it.",
+    "whitespace_ratio": "10% to 15% stays empty; the spacing scale is 2, 8, 16 and 24px.",
+    "alignment_rules": "All squares align to the grid; the avatar and the name align flush left; the bio sits in one column of 300px.",
+    "container_geometry": "Squares with a 0px radius; round avatar and highlight covers; a 1px #DBDBDB line below the header."
+  },
+  "typography": {
+    "classifications": [
+      "geometric sans",
+      "serif display"
+    ],
+    "font_pairings": [
+      {
+        "display": "Montserrat",
+        "body": "DM Sans",
+        "note": "A geometric sans for text tiles and a calm text face."
+      },
+      {
+        "display": "Playfair Display",
+        "body": "DM Sans",
+        "note": "A serif for quote tiles in a soft, editorial feed."
+      },
+      {
+        "display": "Poppins",
+        "body": "DM Sans",
+        "note": "A round, friendly sans for a bright brand feed."
+      }
+    ],
+    "tracking": "Display takes +0.04em; labels take +0.1em in capitals.",
+    "leading": "Display 1.15; body 1.5.",
+    "hierarchy_rules": [
+      "Use two weights: 400 and 600.",
+      "Use sizes 12, 14, 24 and 56px.",
+      "Use one display face for all text tiles.",
+      "Keep text tiles to 12 words or fewer."
+    ]
+  },
+  "color": {
+    "palette_structure": "A neutral white page with one signature tan, one teal and one blush that repeat across the photos.",
+    "palette": [
+      {
+        "name": "Feed White",
+        "hex": "#FAFAFA",
+        "role": "background"
+      },
+      {
+        "name": "Page White",
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "name": "Feed Ink",
+        "hex": "#1A1A1A",
+        "role": "text"
+      },
+      {
+        "name": "Signature Tan",
+        "hex": "#B5835A",
+        "role": "primary"
+      },
+      {
+        "name": "Preset Teal",
+        "hex": "#4F7F82",
+        "role": "accent"
+      },
+      {
+        "name": "Dusty Blush",
+        "hex": "#E8CFC4",
+        "role": "tile"
+      },
+      {
+        "name": "Hairline",
+        "hex": "#DBDBDB",
+        "role": "border"
+      }
+    ],
+    "contrast_rules": "Text on white holds at least 15:1; the three tones carry photo tints and text tiles, and white text on a tile holds 4.5:1 or more.",
+    "surface_treatment": "Flat white chrome; tiles use flat palette colour; photos share one preset.",
+    "light_and_shadow": "Even, soft light in all photos; no cast shadow in the chrome."
+  },
+  "materiality": {
+    "surface_simulation": "A printed contact sheet or a mood board of equal squares.",
+    "border_rules": "A 1px #DBDBDB line under the header; gaps of 2px between squares, with no border.",
+    "blur_and_elevation": "No blur and no elevation."
+  },
+  "ornamentation_details": {
+    "iconography": "Outline icons at 24px with a 1.5px stroke: grid, reel, tag and heart.",
+    "illustration": "Flat colour text tiles with one quote; no other drawn art.",
+    "decorative_elements": [
+      "3-column grid",
+      "highlight circles",
+      "text tile",
+      "one-preset tone",
+      "scheduling preview"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "A tapped square opens at 250ms with a 4% scale; the grid does not move; highlights slide at 300ms.",
+    "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "duration_ms": 250,
+    "hover_and_active": "Hover dims the square to 85% and shows a count of likes; tap opens the post in 250ms."
+  },
+  "lineage": {
+    "evolved_from": [
+      "vsco-preset-look",
+      "flat-lay-feed"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "minimalism-web"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels trust and order, as if a brand with taste owns the page.",
+    "keywords": [
+      "curated",
+      "consistent",
+      "orderly",
+      "branded",
+      "polished",
+      "aspirational"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "ruler",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "cohesive feed",
+      "instagram grid",
+      "aesthetic feed",
+      "curated grid",
+      "brand feed",
+      "3-column grid",
+      "feed planner",
+      "consistent preset"
+    ],
+    "use_cases": [
+      "brand and influencer profile mockups",
+      "feed planning tools",
+      "portfolio grids",
+      "social media style guides"
+    ],
+    "avoid_when": [
+      "The content is raw news or live events.",
+      "The audience wants a candid, casual voice.",
+      "The team cannot keep one preset and one rhythm."
+    ],
+    "modifiers": [
+      {
+        "request": "more casual",
+        "toward": "photo-dump",
+        "how": "Allow mixed crops, flash and blur and drop the fixed rhythm."
+      },
+      {
+        "request": "more real",
+        "toward": "dual-camera-snapshot",
+        "how": "Replace staged photos with a front and back snapshot and a time stamp."
+      },
+      {
+        "request": "softer",
+        "toward": "flat-lay-feed",
+        "how": "Use overhead still life frames on a pale surface."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 600,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 400,
+      "accent": "case",
+      "display_tracking": "0.04em",
+      "display_leading": 1.15,
+      "display_case": "none",
+      "body_leading": 1.5,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "circle",
+      "pack": {
+        "id": "solar-linear",
+        "why": "A clean linear family that fits a plain profile header and grid tabs."
+      }
+    },
+    "art": {
+      "recipe": "swiss",
+      "pattern": "grid",
+      "seed": 16
+    },
+    "layout": {
+      "hero": "split",
+      "align": "left",
+      "density": "regular",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "tiles",
+      "why": "The ground is the tile grid: equal squares with thin gaps, as on a profile page."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#FAFAFA",
+      "--color-surface": "#FFFFFF",
+      "--color-text": "#1A1A1A",
+      "--color-muted": "#595959",
+      "--color-primary": "#9A6B42",
+      "--color-accent": "#3E6F72",
+      "--color-border": "#DBDBDB",
+      "--font-sans": "\"DM Sans\", \"Helvetica Neue\", sans-serif",
+      "--font-display": "\"Montserrat\", \"DM Sans\", sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "2px",
+      "--ease": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "--duration": "250ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#FAFAFA] text-[#1A1A1A] font-sans antialiased px-4 md:px-8"
+      },
+      {
+        "element": "heading",
+        "classes": "text-3xl md:text-6xl font-semibold leading-[1.15] tracking-[0.04em]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border border-[#DBDBDB] bg-white p-4"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none bg-[#9A6B42] px-6 py-3 text-sm font-semibold text-white transition-colors duration-[250ms] hover:bg-[#1A1A1A]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-semibold uppercase tracking-[0.1em] text-[#595959]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#9A6B42",
+        "#3E6F72",
+        "#1A1A1A"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#3E6F72",
+        "#9A6B42",
+        "#C99A86"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 2
+    },
+    "grid_step": {
+      "min": 2,
+      "max": 8
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Instagram",
+      "url": "https://en.wikipedia.org/wiki/Instagram"
+    },
+    {
+      "title": "Wikipedia: VSCO",
+      "url": "https://en.wikipedia.org/wiki/VSCO"
+    }
+  ]
+}

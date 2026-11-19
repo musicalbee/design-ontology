@@ -81,6 +81,7 @@
 </head>
 <body>
 <script src="nav.js"></script>
+<script src="interior-tabs.js"></script>
 
 <main id="stage">
   <header>
@@ -88,6 +89,7 @@
     <p class="meta" id="h-meta"></p>
     <p class="thesis" id="h-thesis"></p>
   </header>
+  <script>document.currentScript.previousElementSibling.insertAdjacentHTML("afterend", InteriorTabs.tabs("room"));</script>
 
   <figure class="shot" id="shot" hidden>
     <img id="shot-img" alt="" width="1152" height="768" decoding="async">
@@ -397,6 +399,7 @@ function show(i) {
   const meta = skills[at];
   (cache[meta.id] ??= fetch(`../data/interior/styles/${meta.id}.json`).then((r) => r.json())).then((s) => {
     if (skills[at].id !== s.id) return;
+    InteriorTabs.set(s.id);
     $("h-name").textContent = s.name;
     $("h-meta").textContent = `${s.time_period.label} · ${s.aliases.join(", ")}`;
     $("h-thesis").textContent = s.philosophy.core_thesis;

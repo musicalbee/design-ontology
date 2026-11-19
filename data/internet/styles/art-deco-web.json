@@ -1,0 +1,341 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "art-deco-web",
+  "domain": "internet",
+  "name": "Art Deco (web)",
+  "aliases": [
+    "Style Moderne",
+    "Jazz Age style",
+    "Gatsby style"
+  ],
+  "branch": "web-ui",
+  "era_id": "modernist",
+  "time_period": {
+    "start": 1925,
+    "end": 1939,
+    "label": "1925–1939"
+  },
+  "primary_mediums": [
+    "print",
+    "web"
+  ],
+  "summary": "Symmetric geometry, stepped forms, fan and sunburst motifs and gold lines on a dark ground. It came out of the 1925 Paris exposition and stands for luxury and speed.",
+  "philosophy": {
+    "core_thesis": "Luxury is order: the machine age gives ornament a strict, symmetric geometry that looks rich and modern at once.",
+    "design_principles": [
+      "Compose every layout on a central axis: mirror the left and right halves to within 8px.",
+      "Draw ornament from arcs, fans, chevrons and stepped steps; build each motif on a 15° or 45° angle.",
+      "Use gold (#C9A24B) lines of 1px to 2px on a near-black or deep green ground; gold covers 10% to 20% of the surface.",
+      "Set headlines in upper case, geometric, high-contrast capitals at 48px or larger with tracking +0.12em to +0.2em.",
+      "Frame hero and card panels with a double border: a 2px gold line, a 6px gap and a 1px gold line.",
+      "Cut the corners of panels at 45° with a 16px chamfer instead of rounding them.",
+      "Keep body text at 16px in a geometric sans with 1.6 leading, and limit it to a column of 560px."
+    ],
+    "anti_patterns": [
+      "Asymmetric hero compositions",
+      "Rounded pill buttons and soft corners",
+      "Pastel palettes without gold or black",
+      "Hand-drawn organic curves and plant ornament",
+      "Lower-case display text",
+      "Glow, blur and glass effects",
+      "Gradients that are not a 2-stop metallic gold"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "dimensionality": 2,
+    "grid_rigidity": 5,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 4
+  },
+  "layout": {
+    "grid_mechanics": "A centred 12-column grid with 24px gutters; the main content spans columns 3 to 10 and ornament fills the outer columns. Rhythm comes from repeated steps of 24px.",
+    "whitespace_ratio": "20% to 30% of the surface stays empty; the spacing scale is 8, 16, 32, 64 and 128px.",
+    "alignment_rules": "Symmetric about the centre axis; headlines and CTA centred; body text flush left inside a centred column.",
+    "container_geometry": "Rectangles with a 16px chamfer on the top corners or a 0px radius; stepped (ziggurat) outlines for hero panels."
+  },
+  "typography": {
+    "classifications": [
+      "geometric sans serif",
+      "inline display capitals"
+    ],
+    "font_pairings": [
+      {
+        "display": "Poiret One",
+        "body": "Josefin Sans",
+        "note": "A thin 1920s deco display face with a geometric text face."
+      },
+      {
+        "display": "Limelight",
+        "body": "Jost",
+        "note": "A heavier deco display face for posters."
+      },
+      {
+        "display": "Cinzel",
+        "body": "Montserrat",
+        "note": "Roman capitals with a clean text face for luxury brands."
+      }
+    ],
+    "tracking": "Display takes +0.12em to +0.2em; body stays at 0.01em.",
+    "leading": "Display 1.1; body 1.6.",
+    "hierarchy_rules": [
+      "Use two weights for the text face: regular (400) and semibold (600); the display face has one weight.",
+      "Use sizes 16, 24, 48 and 80px.",
+      "Set all headlines in upper case.",
+      "Rule a 1px gold line above and below each headline."
+    ]
+  },
+  "color": {
+    "palette_structure": "Black or deep green, with one metallic gold and an ivory for text.",
+    "palette": [
+      {
+        "name": "Onyx",
+        "hex": "#0D0D0F",
+        "role": "background"
+      },
+      {
+        "name": "Emerald",
+        "hex": "#0F3B2E",
+        "role": "secondary surface"
+      },
+      {
+        "name": "Gold",
+        "hex": "#C9A24B",
+        "role": "accent and rules"
+      },
+      {
+        "name": "Ivory",
+        "hex": "#F2EAD3",
+        "role": "text"
+      },
+      {
+        "name": "Brass",
+        "hex": "#8C6D2A",
+        "role": "dark rules"
+      },
+      {
+        "name": "Ink Blue",
+        "hex": "#14213D",
+        "role": "alternate surface"
+      }
+    ],
+    "contrast_rules": "Ivory text holds at least 12:1 on onyx; gold carries rules and large display type only.",
+    "surface_treatment": "Flat dark fields with a 2-stop gold gradient allowed on rules and the headline fill only.",
+    "light_and_shadow": "No cast shadows; light is implied by gold lines at 45° and a radial sunburst at 12% opacity."
+  },
+  "materiality": {
+    "surface_simulation": "Lacquer, polished metal and inlaid wood; each surface is matt and flat on screen.",
+    "border_rules": "Double gold border: 2px, 6px gap, 1px.",
+    "blur_and_elevation": "No blur. No elevation. A 0px offset; depth is made by nested stepped outlines."
+  },
+  "ornamentation_details": {
+    "iconography": "Linear icons with a 1.5px stroke, butt caps, mitre joins and 45° cuts; place each icon in a chamfered or circular frame.",
+    "illustration": "Sunbursts, fans, stepped skyscrapers and streamlined figures in flat gold and ivory on dark ground.",
+    "decorative_elements": [
+      "sunburst",
+      "fan motif",
+      "chevron band",
+      "stepped frame",
+      "gold rule"
+    ]
+  },
+  "motion": {
+    "native": false,
+    "transition_physics": "Translation for screen: smooth, symmetric, slow reveals; gold lines draw outward from the centre axis.",
+    "easing": "cubic-bezier(0.65, 0, 0.35, 1)",
+    "duration_ms": 350,
+    "hover_and_active": "Hover fills the chamfered button with gold and turns the text to onyx; active state darkens the gold by 10%."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "art-nouveau-web"
+    ],
+    "hybridized_with": [
+      "bauhaus"
+    ],
+    "echoes": [
+      "art-deco-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels glamour, wealth and confident modern order.",
+    "keywords": [
+      "glamorous",
+      "luxurious",
+      "symmetric",
+      "confident",
+      "ceremonial",
+      "opulent"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "magician",
+      "lover"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "art deco",
+      "gatsby",
+      "1920s",
+      "jazz age",
+      "gold and black",
+      "luxury hotel",
+      "cocktail bar",
+      "sunburst",
+      "chrysler"
+    ],
+    "use_cases": [
+      "luxury hotels and bars",
+      "event and gala sites",
+      "jewellery and watches",
+      "film and theatre promotion",
+      "high-end packaging"
+    ],
+    "avoid_when": [
+      "The product is a fast tool for daily work.",
+      "The audience expects a friendly, casual tone.",
+      "The page needs long dense reading."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "swiss-international",
+        "how": "Remove the ornament and gold; keep the central axis and a single typeface."
+      },
+      {
+        "request": "more organic",
+        "toward": "art-nouveau-web",
+        "how": "Replace arcs and steps with curved, plant-based borders and a muted palette."
+      },
+      {
+        "request": "more modern",
+        "toward": "mid-century-modern",
+        "how": "Drop the symmetry and gold, add earth tones and a free asymmetric layout."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 400,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 600,
+      "accent": "case",
+      "display_tracking": "0.15em",
+      "display_leading": 1.1,
+      "display_case": "uppercase",
+      "body_leading": 1.6,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "butt",
+      "linejoin": "miter",
+      "container": "square",
+      "pack": {
+        "id": "solar-linear",
+        "why": "A thin, even line with sharp joins that matches the gold rule and the chamfered frame."
+      }
+    },
+    "art": {
+      "recipe": "midcentury",
+      "pattern": "starburst",
+      "seed": 22
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "regular",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "rays",
+      "why": "Deco ornament is the sunburst: gold rays and stepped arcs that rise from one point."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#0D0D0F",
+      "--color-surface": "#0F3B2E",
+      "--color-text": "#F2EAD3",
+      "--color-muted": "#B9B09A",
+      "--color-primary": "#C9A24B",
+      "--color-accent": "#C9A24B",
+      "--color-border": "#C9A24B",
+      "--font-sans": "\"Josefin Sans\", \"Jost\", sans-serif",
+      "--font-display": "\"Poiret One\", \"Limelight\", \"Josefin Sans\", sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.65, 0, 0.35, 1)",
+      "--duration": "350ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#0D0D0F] text-[#F2EAD3] font-sans antialiased px-6 md:px-16"
+      },
+      {
+        "element": "heading",
+        "classes": "text-5xl md:text-8xl uppercase tracking-[0.15em] leading-[1.1] text-center"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-[560px] mx-auto"
+      },
+      {
+        "element": "section",
+        "classes": "border border-[#C9A24B] outline outline-1 outline-offset-[6px] outline-[#C9A24B] bg-[#0F3B2E] p-8"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border border-[#C9A24B] bg-transparent px-8 py-3 text-sm font-semibold uppercase tracking-[0.15em] text-[#C9A24B] transition-colors duration-[350ms] hover:bg-[#C9A24B] hover:text-[#0D0D0F]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-semibold uppercase tracking-[0.2em] text-[#C9A24B]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#C9A24B",
+        "#F2EAD3"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#C9A24B",
+        "#F2EAD3"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 0
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.5,
+      "min": 1.414,
+      "max": 1.618
+    }
+  },
+  "sources": [
+    {
+      "title": "Alastair Duncan, Art Deco (Thames & Hudson, 1988)"
+    },
+    {
+      "title": "Wikidata Q173782 (Art Deco)"
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 flowchart LR
-  subgraph design_fin_de_siecle["Fin de Siècle · 1880–1918"]
+  subgraph internet_fin_de_siecle["Fin de Siècle · 1880–1918"]
     victorian_web["Victorian Web"]
     art_nouveau_web["Art Nouveau (web)"]
   end
-  subgraph design_modernist["Modernist · 1919–1975"]
+  subgraph internet_modernist["Modernist · 1919–1975"]
     de_stijl_web["De Stijl (web)"]
     bauhaus["Bauhaus"]
     constructivism_web["Constructivism (web)"]
@@ -16,52 +16,118 @@ flowchart LR
     space_age["Space Age Design"]
     psychedelic["Psychedelic"]
   end
-  subgraph design_postmodern_early_digital["Postmodern & Early Digital · 1976–2006"]
+  subgraph internet_postmodern_early_digital["Postmodern & Early Digital · 1976–2006"]
     cassette_futurism["Cassette Futurism"]
     punk_zine["Punk Zine"]
     memphis_design["Memphis Design"]
+    ansi_bbs_art["ANSI BBS Art"]
+    kaomoji_emoticon["Kaomoji and Emoticon"]
     cyberdelia["Cyberdelia"]
     grunge_editorial["Grunge Editorial"]
+    net_art_browser["Net Art Browser"]
+    geocities_homepage["GeoCities Homepage"]
+    portal_table_layout["Portal Table Layout"]
     y2k_aesthetic["Y2K Aesthetic"]
+    flash_intro_site["Flash Intro Site"]
     japanese_dense_web["Japanese Dense Web"]
     apple_aqua["Apple Aqua"]
+    myspace_profile["Myspace Profile"]
+    demotivational_poster["Demotivational poster"]
     frutiger_aero["Frutiger Aero"]
+    web_2_0_gloss["Web 2.0 Gloss"]
+    impact_image_macro["Impact image macro"]
+    unboxing_video["Unboxing Video"]
   end
-  subgraph design_touchscreen["Touchscreen · 2007–2018"]
+  subgraph internet_touchscreen["Touchscreen · 2007–2018"]
     skeuomorphism["Skeuomorphism"]
+    rage_comic["Rage comic"]
+    reaction_gif["Reaction GIF"]
+    asmr_video["ASMR Video"]
+    glitch_gif["Glitch GIF"]
+    instagram_vintage_filter["Instagram Vintage Filter"]
+    lets_play_facecam["Let's Play Facecam"]
     metro_ui["Metro UI"]
     pixel_art_web["Pixel Art Web"]
+    unicode_emoji["Unicode Emoji"]
+    wojak_feels["Wojak and feels"]
+    chat_sticker_pack["Chat Sticker Pack"]
+    cinemagraph["Cinemagraph"]
+    livestream_overlay["Livestream Overlay"]
+    seapunk["Seapunk"]
     bohemian_web["Bohemian Web"]
+    clickbait_thumbnail["Clickbait Thumbnail"]
     flat_design["Flat Design"]
     minimalism_web["Minimalism Web"]
+    tumblr_soft_grunge["Tumblr Soft Grunge"]
     vaporwave["Vaporwave"]
     cyberpunk_web["Cyberpunk Web"]
+    health_goth["Health Goth"]
+    normcore["Normcore"]
     synthwave_web["Synthwave Web"]
+    vsco_preset_look["VSCO Preset Look"]
     brutalist_web["Brutalist Web (2014)"]
+    flat_lay_feed["Flat Lay Feed"]
     luxury_typography_web["Luxury Typography Web"]
     material_design["Material Design"]
+    starter_pack["Starter pack"]
+    video_essay["Video Essay"]
     blob_world["Blob World"]
     conceptual_sketch_ui["Conceptual Sketch UI"]
+    deepdream_psychedelia["DeepDream Psychedelia"]
+    tweet_screenshot_meme["Tweet screenshot meme"]
     wabi_sabi_web["Wabi-Sabi Web"]
     anti_design["Anti-Design"]
+    cohesive_feed_grid["Cohesive Feed Grid"]
     dark_devtool_ui["Dark-Mode Developer Tool"]
+    lip_sync_dance_short["Lip-Sync Dance Short"]
+    surreal_meme["Surreal meme"]
     surrealism_web["Surrealism Web"]
+    vtuber_avatar["VTuber Avatar"]
+    3d_avatar_emoji["3D Avatar Emoji"]
     corporate_memphis["Corporate Memphis"]
+    deep_fried_meme["Deep-fried meme"]
+    deepfake_face_swap["Deepfake Face Swap"]
+    label_meme["Label meme"]
     terminal_tui_web["Terminal / TUI Web"]
     aurora_gradient_ui["Aurora Gradient UI"]
+    cottagecore["Cottagecore"]
+    duet_split_screen["Duet Split-Screen"]
+    gan_portrait["GAN Portrait"]
     scrapbook_ui["Scrapbook UI"]
   end
-  subgraph design_contemporary_spatial["Contemporary & Spatial · 2019–now"]
+  subgraph internet_contemporary_spatial["Contemporary & Spatial · 2019–now"]
+    dark_academia["Dark academia"]
+    dreamcore["Dreamcore"]
+    glitchcore["Glitchcore"]
+    grwm_short["Get Ready With Me"]
+    hyperpop_visual["Hyperpop Visual"]
+    kidcore["Kidcore"]
+    liminal_spaces["Liminal spaces"]
     neumorphism["Neumorphism"]
     cybercore_web["Cybercore Web"]
     glassmorphism["Glassmorphism"]
+    goblincore["Goblincore"]
+    green_screen_short["Green-Screen Short"]
     neo_brutalism_ui["Neo-Brutalism UI"]
+    photo_dump["Photo Dump"]
+    pov_short["POV Short"]
+    velocity_edit["Velocity Edit"]
+    weirdcore["Weirdcore"]
+    word_caption_clip["Word Caption Clip"]
     claymorphism["Claymorphism"]
     editorial_serif_revival["Editorial Serif Revival"]
     ethereal_web["Ethereal Web"]
+    ai_avatar_portrait["AI Avatar Portrait"]
     ai_chat_ui["AI Chat Interface"]
+    barbiecore["Barbiecore"]
     bento_grid_ui["Bento Grid UI"]
+    clean_girl["Clean girl"]
+    diffusion_gloss["Diffusion Gloss"]
+    dual_camera_snapshot["Dual Camera Snapshot"]
+    mini_diffusion_meme["Mini-Diffusion Meme"]
+    photo_carousel_slideshow["Photo Carousel Slideshow"]
     spatial_visionos["Spatial UI (visionOS)"]
+    ai_slop["AI Slop"]
     liquid_glass_ui["Liquid Glass"]
   end
   subgraph architecture_medieval["Architecture · Medieval · 1200–1520"]
@@ -590,9 +656,14 @@ flowchart LR
     new_nordic["New Nordic cuisine"]
     plant_based_fine_dining["Plant-based fine dining"]
   end
+  3d_avatar_emoji <-. echoes .-> clay_3d_icon
   abstract_expressionism <-. echoes .-> abstract_expressionist_ceramics
   abstract_expressionism <-. echoes .-> brutalist_architecture
   adaptive_reuse_architecture <-. echoes .-> industrial_loft_interior
+  ai_avatar_portrait <-. echoes .-> airbrush_surrealism
+  ai_hyperreal <-. echoes .-> ai_slop
+  ai_hyperreal <-. echoes .-> diffusion_gloss
+  ai_hyperreal <-. echoes .-> gan_portrait
   ai_hyperreal <-. echoes .-> pbr_photoreal
   airbrush_surrealism <-. echoes .-> pop_art_web
   airbrush_surrealism <-. echoes .-> psychedelic
@@ -605,6 +676,7 @@ flowchart LR
   americana_workwear <-. echoes .-> shaker_object
   anglo_oriental_studio_pottery <-. echoes .-> contemporary_craft_product
   anglo_oriental_studio_pottery <-. echoes .-> japanese_modern_craft_product
+  ansi_bbs_art <-. echoes .-> pixel_icon
   anti_design <-. echoes .-> deconstructivist_architecture
   anti_design <-. echoes .-> xerox_zine
   apple_aqua <-. echoes .-> glossy_3d_logo
@@ -690,6 +762,7 @@ flowchart LR
   arts_and_crafts_art_pottery <-. echoes .-> arts_and_crafts_object
   arts_and_crafts_interior <-. echoes .-> arts_and_crafts_jewellery
   arts_and_crafts_interior <-. echoes .-> arts_and_crafts_object
+  arts_and_crafts_interior <-. echoes .-> cottagecore
   arts_and_crafts_interior <-. echoes .-> hand_painted_texture
   arts_and_crafts_interior <-. echoes .-> humanist_sans
   arts_and_crafts_interior <-. echoes .-> nordic_national_romanticism_painting
@@ -697,6 +770,10 @@ flowchart LR
   arts_and_crafts_jewellery <-. echoes .-> arts_and_crafts_object
   arts_and_crafts_object <-. echoes .-> country_sporting_tweed
   azulejo <-. echoes .-> baroque_architecture
+  barbiecore <-. echoes .-> dopamine_decor
+  barbiecore <-. echoes .-> hollywood_regency_interior
+  barbiecore <-. echoes .-> mod_and_mini
+  barbiecore <-. echoes .-> space_age_pop_product
   baroque_architecture <-. echoes .-> baroque_painting
   baroque_architecture <-. echoes .-> cuisine_francoise
   baroque_painting <-. echoes .-> etching_print
@@ -727,6 +804,7 @@ flowchart LR
   beaux_arts_architecture <-. echoes .-> garland_style_jewellery
   ben_day_comic_print <-. echoes .-> pop_art_painting
   ben_day_comic_print <-. echoes .-> pop_art_web
+  ben_day_comic_print <-. echoes .-> rage_comic
   bias_cut_glamour <-. echoes .-> classical_hollywood
   biscuit_porcelain_figures <-. echoes .-> georgian_neoclassical_manufacture
   biscuit_porcelain_figures <-. echoes .-> rococo_painting
@@ -744,16 +822,21 @@ flowchart LR
   brutalist_architecture <-. echoes .-> dogme_95
   brutalist_architecture <-. echoes .-> duesseldorf_school
   brutalist_architecture <-. echoes .-> industrial_loft_interior
+  brutalist_architecture <-. echoes .-> liminal_spaces
   brutalist_architecture <-. echoes .-> neo_brutalism_ui
   brutalist_architecture <-. echoes .-> new_topographics
   brutalist_architecture <-. echoes .-> seventh_gen_desaturated
   brutalist_web <-. echoes .-> monospace
+  camcorder_revival <-. echoes .-> dual_camera_snapshot
   camcorder_revival <-. echoes .-> fifth_gen_low_poly
   camcorder_revival <-. echoes .-> film_grain_revival
+  camcorder_revival <-. echoes .-> glitch_gif
   camcorder_revival <-. echoes .-> grunge_editorial
+  camcorder_revival <-. echoes .-> kidcore
   camcorder_revival <-. echoes .-> low_poly_ps1_revival
   camcorder_revival <-. echoes .-> party_flash
   camcorder_revival <-. echoes .-> vaporwave
+  camcorder_revival <-. echoes .-> weirdcore
   camcorder_revival <-. echoes .-> y2k_aesthetic
   camcorder_revival <-. echoes .-> y2k_digicam
   cassette_futurism <-. echoes .-> electronic_and_digital_watch
@@ -762,13 +845,20 @@ flowchart LR
   cel_shaded_3d <-. echoes .-> flat_design
   cel_shaded_3d <-. echoes .-> pop_art_painting
   cel_shaded_3d <-. echoes .-> ukiyo_e
+  chat_sticker_pack <-. echoes .-> flat_icon
   chicago_school_terracotta <-. echoes .-> prairie_school_architecture
   chromolithograph_poster <-. echoes .-> post_impressionism
   cinematic_teal_orange <-. echoes .-> neon_noir
   cinematic_teal_orange <-. echoes .-> seventh_gen_desaturated
+  cinematic_teal_orange <-. echoes .-> vsco_preset_look
   classical_hollywood <-. echoes .-> ladylike_handbag
   classical_hollywood <-. echoes .-> pre_rendered_backgrounds
   clay_3d_icon <-. echoes .-> claymorphism
+  clean_girl <-. echoes .-> fashion_editorial
+  clean_girl <-. echoes .-> minimalist_fashion
+  clean_girl <-. echoes .-> minimalist_interior
+  clean_girl <-. echoes .-> quiet_luxury_fashion
+  clickbait_thumbnail <-. echoes .-> vertical_short_form
   coloured_bathroom_suite <-. echoes .-> streamline_moderne_product
   constructivism_web <-. echoes .-> cubism_painting
   constructivism_web <-. echoes .-> futurism_painting
@@ -784,9 +874,20 @@ flowchart LR
   contemporary_craft_product <-. echoes .-> quiet_luxury_interior
   contemporary_craft_product <-. echoes .-> wabi_sabi_web
   corporate_memphis <-. echoes .-> risograph_print
+  cottagecore <-. echoes .-> grandmillennial_interior
+  cottagecore <-. echoes .-> mingei_folk_craft
+  cottagecore <-. echoes .-> romanticism_painting
   creamware_neoclassical <-. echoes .-> georgian_interior
   creamware_neoclassical <-. echoes .-> georgian_neoclassical_manufacture
   creamware_neoclassical <-. echoes .-> neoclassical_architecture
+  creator_vlog <-. echoes .-> duet_split_screen
+  creator_vlog <-. echoes .-> green_screen_short
+  creator_vlog <-. echoes .-> grwm_short
+  creator_vlog <-. echoes .-> lets_play_facecam
+  creator_vlog <-. echoes .-> photo_carousel_slideshow
+  creator_vlog <-. echoes .-> pov_short
+  creator_vlog <-. echoes .-> unboxing_video
+  creator_vlog <-. echoes .-> video_essay
   crinoline_and_bustle_dress <-. echoes .-> victorian_interior
   crinoline_and_bustle_dress <-. echoes .-> victorian_manufacture
   cubism_painting <-. echoes .-> deconstructivist_architecture
@@ -794,6 +895,10 @@ flowchart LR
   cyberdelia <-. echoes .-> party_flash
   cyberpunk_web <-. echoes .-> film_noir_still
   cyberpunk_web <-. echoes .-> techwear
+  dark_academia <-. echoes .-> gothic_architecture
+  dark_academia <-. echoes .-> ivy_style
+  dark_academia <-. echoes .-> romanticism_painting
+  dark_academia <-. echoes .-> victorian_interior
   dark_devtool_ui <-. echoes .-> monospace
   de_stijl_painting <-. echoes .-> de_stijl_web
   de_stijl_painting <-. echoes .-> geometric_symbol
@@ -804,7 +909,11 @@ flowchart LR
   de_stijl_web <-. echoes .-> international_style_architecture
   de_stijl_web <-. echoes .-> prairie_school_architecture
   deconstructivist_architecture <-. echoes .-> grunge_editorial
+  deep_fried_meme <-. echoes .-> xerox_zine
+  deepdream_psychedelia <-. echoes .-> psychedelic_concert_poster
+  deepfake_face_swap <-. echoes .-> vertical_short_form
   della_robbia_relief <-. echoes .-> renaissance_architecture
+  demotivational_poster <-. echoes .-> xerox_zine
   designer_wall_hung_sanitary <-. echoes .-> minimalist_interior
   designer_wall_hung_sanitary <-. echoes .-> super_normal_product
   didone_serif <-. echoes .-> engraving_print
@@ -815,11 +924,16 @@ flowchart LR
   dive_watch <-. echoes .-> mid_century_modern_product
   documentary_photography <-. echoes .-> dogme_95
   documentary_verite <-. echoes .-> street_photography
+  documentary_verite <-. echoes .-> video_essay
   dogme_95 <-. echoes .-> straight_photography
   dopamine_decor <-. echoes .-> food_photography
+  dopamine_decor <-. echoes .-> kidcore
   dopamine_decor <-. echoes .-> memphis_design
   dopamine_decor <-. echoes .-> memphis_product
+  dreamcore <-. echoes .-> y2k_digicam
+  dual_camera_snapshot <-. echoes .-> vertical_short_form
   duesseldorf_school <-. echoes .-> international_style_architecture
+  duet_split_screen <-. echoes .-> vertical_short_form
   duotone_icon <-. echoes .-> risograph_print
   early_wristwatch <-. echoes .-> industrial_utility_product
   editorial_serif_revival <-. echoes .-> risograph_print
@@ -849,7 +963,9 @@ flowchart LR
   fiesta_colourware <-. echoes .-> streamline_moderne_product
   fifth_gen_low_poly <-. echoes .-> y2k_aesthetic
   film_grain_revival <-. echoes .-> impressionism
+  film_grain_revival <-. echoes .-> instagram_vintage_filter
   film_grain_revival <-. echoes .-> low_poly_ps1_revival
+  film_grain_revival <-. echoes .-> vsco_preset_look
   film_noir <-. echoes .-> film_noir_still
   film_noir <-. echoes .-> pre_rendered_backgrounds
   film_noir_still <-. echoes .-> german_expressionist_cinema
@@ -863,10 +979,14 @@ flowchart LR
   flat_design <-. echoes .-> smartwatch
   flat_design <-. echoes .-> ukiyo_e
   flat_icon <-. echoes .-> metro_ui
+  flat_icon <-. echoes .-> unicode_emoji
+  flat_lay_feed <-. echoes .-> food_photography
+  flat_lay_feed <-. echoes .-> scandinavian_interior_photography
   flat_logo <-. echoes .-> material_design
   flat_logo <-. echoes .-> metro_ui
   formal_script <-. echoes .-> hollywood_regency_interior
   formal_script <-. echoes .-> rococo_painting
+  found_footage <-. echoes .-> liminal_spaces
   found_footage <-. echoes .-> low_poly_ps1_revival
   found_footage <-. echoes .-> y2k_digicam
   four_shade_handheld <-. echoes .-> pixel_icon
@@ -896,18 +1016,28 @@ flowchart LR
   giallo <-. echoes .-> psychedelic
   glam_platform_shoe <-. echoes .-> pop_art_painting
   glam_platform_shoe <-. echoes .-> space_age_pop_product
+  glitchcore <-. echoes .-> music_video
+  glitchcore <-. echoes .-> vertical_short_form
   glossy_3d_logo <-. echoes .-> skeuomorphism
   glossy_3d_logo <-. echoes .-> y2k_aesthetic
+  goblincore <-. echoes .-> hippie_bohemian_dress
+  goblincore <-. echoes .-> mingei_folk_craft
+  goblincore <-. echoes .-> naturalist_cuisine
+  goblincore <-. echoes .-> organic_architecture
+  gorpcore <-. echoes .-> health_goth
+  gorpcore <-. echoes .-> normcore
   gorpcore <-. echoes .-> street_photography
   gothic_architecture <-. echoes .-> medieval_court_cuisine
   gothic_architecture <-. echoes .-> victorian_architectural_terracotta
   gothic_architecture <-. echoes .-> victorian_encaustic_tiles
   grande_cuisine <-. echoes .-> neoclassical_architecture
   grandmillennial_interior <-. echoes .-> impressionism
+  green_screen_short <-. echoes .-> vertical_short_form
   group_f64 <-. echoes .-> international_style_architecture
   grunge_editorial <-. echoes .-> party_flash
   grunge_editorial <-. echoes .-> street_photography
   grunge_editorial <-. echoes .-> xerox_zine
+  grwm_short <-. echoes .-> vertical_short_form
   hand_painted_texture <-. echoes .-> impressionism
   hd_2d_diorama <-. echoes .-> new_topographics
   hd_2d_diorama <-. echoes .-> planimetric_symmetry
@@ -920,6 +1050,9 @@ flowchart LR
   hippie_bohemian_dress <-. echoes .-> psychedelic
   hippie_bohemian_dress <-. echoes .-> psychedelic_concert_poster
   humanist_sans <-. echoes .-> scandinavian_interior
+  hyperpop_visual <-. echoes .-> music_video
+  hyperpop_visual <-. echoes .-> vertical_short_form
+  impact_image_macro <-. echoes .-> pop_art_painting
   impossible_isometric_mobile <-. echoes .-> isometric_icon
   impossible_isometric_mobile <-. echoes .-> postmodern_architecture
   impossible_isometric_mobile <-. echoes .-> surrealism_painting
@@ -959,9 +1092,17 @@ flowchart LR
   japanese_modern_craft_product <-. echoes .-> raku_tea_bowl
   japanese_modern_craft_product <-. echoes .-> washlet_toilet
   jasperware_neoclassical <-. echoes .-> neoclassical_architecture
+  kaomoji_emoticon <-. echoes .-> pixel_icon
+  kidcore <-. echoes .-> memphis_interior
+  kidcore <-. echoes .-> memphis_product
   large_format_porcelain_tiles <-. echoes .-> minimalist_interior
+  liminal_spaces <-. echoes .-> low_poly_ps1_revival
+  liminal_spaces <-. echoes .-> new_topographics
+  lip_sync_dance_short <-. echoes .-> music_video
+  lip_sync_dance_short <-. echoes .-> vertical_short_form
   logomania <-. echoes .-> pop_art_painting
   logomania <-. echoes .-> pop_screen_print
+  low_poly_ps1_revival <-. echoes .-> weirdcore
   luxury_typography_web <-. echoes .-> quiet_luxury_interior
   malletier_luggage <-. echoes .-> victorian_manufacture
   malletier_luggage <-. echoes .-> victorian_trademark
@@ -1002,14 +1143,18 @@ flowchart LR
   minimalism_web <-. echoes .-> minimalist_interior
   minimalism_web <-. echoes .-> super_normal_product
   minimalist_fashion <-. echoes .-> minimalist_interior
+  minimalist_fashion <-. echoes .-> normcore
   minimalist_interior <-. echoes .-> nouvelle_cuisine
   minimalist_interior <-. echoes .-> rams_functionalism_ui
   minimalist_interior <-. echoes .-> super_normal_product
   mod_and_mini <-. echoes .-> pop_art_painting
   mod_and_mini <-. echoes .-> pop_art_web
   monospace <-. echoes .-> terminal_tui_web
+  mumblecore <-. echoes .-> photo_dump
   muscle_and_pony_car <-. echoes .-> space_age_pop_product
+  music_video <-. echoes .-> velocity_edit
   music_video <-. echoes .-> y2k_aesthetic
+  myspace_profile <-. echoes .-> y2k_digicam
   neo_grotesque_sans <-. echoes .-> swiss_international
   neoclassical_architecture <-. echoes .-> parian_statuary
   neoclassical_architecture <-. echoes .-> transitional_serif
@@ -1017,6 +1162,7 @@ flowchart LR
   new_hollywood <-. echoes .-> street_photography
   new_nordic <-. echoes .-> scandinavian_interior
   new_nordic <-. echoes .-> scandinavian_modern_product
+  new_topographics <-. echoes .-> normcore
   new_topographics <-. echoes .-> photorealism
   new_topographics <-. echoes .-> planimetric_symmetry
   new_topographics <-. echoes .-> slow_cinema
@@ -1025,6 +1171,7 @@ flowchart LR
   nordic_modernism_architecture <-. echoes .-> scandinavian_modern_product
   nordic_modernism_architecture <-. echoes .-> scandinavian_modern_tableware
   nordic_national_romanticism_painting <-. echoes .-> scandinavian_interior
+  normcore <-. echoes .-> super_normal_product
   organic_architecture <-. echoes .-> organic_modern_tableware
   organic_architecture <-. echoes .-> scandinavian_interior
   organic_architecture <-. echoes .-> trencadis
@@ -1032,8 +1179,11 @@ flowchart LR
   outline_icon <-. echoes .-> rams_functionalism_ui
   outline_icon <-. echoes .-> swiss_international
   parian_statuary <-. echoes .-> victorian_manufacture
+  party_flash <-. echoes .-> photo_dump
   party_flash <-. echoes .-> y2k_aesthetic
   pbr_photoreal <-. echoes .-> photorealism
+  photo_carousel_slideshow <-. echoes .-> vertical_short_form
+  photo_dump <-. echoes .-> y2k_digicam
   pictorialism <-. echoes .-> victorian_interior
   pixel_art_web <-. echoes .-> pixel_icon
   pixel_art_web <-. echoes .-> sixteen_bit_sprite
@@ -1045,6 +1195,7 @@ flowchart LR
   pop_art_painting <-. echoes .-> swiss_plastic_pop_watch
   pop_art_web <-. echoes .-> pop_screen_print
   porcelain_insulator <-. echoes .-> victorian_manufacture
+  pov_short <-. echoes .-> vertical_short_form
   psychedelic <-. echoes .-> psychedelic_concert_poster
   psychedelic_concert_poster <-. echoes .-> surrealism_painting
   punk_fashion <-. echoes .-> punk_zine
@@ -1056,6 +1207,7 @@ flowchart LR
   racing_chronograph <-. echoes .-> swiss_international
   raku_tea_bowl <-. echoes .-> wabi_sabi_web
   rams_functionalism_ui <-. echoes .-> ulm_braun_functionalism
+  reaction_gif <-. echoes .-> vertical_short_form
   realism_painting <-. echoes .-> straight_photography
   renaissance_architecture <-. echoes .-> renaissance_banquet
   renaissance_architecture <-. echoes .-> renaissance_painting
@@ -1071,9 +1223,11 @@ flowchart LR
   scandinavian_interior <-. echoes .-> scandinavian_modern_tableware
   scandinavian_interior <-. echoes .-> scandinavian_tiled_stove
   scandinavian_modern_product <-. echoes .-> scandinavian_modern_tableware
+  seapunk <-. echoes .-> y2k_digicam
   shaker_interior <-. echoes .-> shaker_object
   sixteen_bit_sprite <-. echoes .-> ukiyo_e
   skeuomorphic_icon <-. echoes .-> skeuomorphism
+  skeuomorphic_icon <-. echoes .-> web_2_0_gloss
   slab_serif <-. echoes .-> victorian_interior
   slab_serif <-. echoes .-> victorian_web
   slab_serif <-. echoes .-> wood_type_poster
@@ -1091,11 +1245,15 @@ flowchart LR
   streamline_car <-. echoes .-> streamline_moderne_product
   super_normal_product <-. echoes .-> washlet_toilet
   suprematism <-. echoes .-> suprematist_porcelain
+  surreal_meme <-. echoes .-> surrealism_painting
   surrealism_painting <-. echoes .-> surrealism_web
   surrealism_painting <-. echoes .-> vaporwave
   swiss_international <-. echoes .-> swiss_modernist_mark
   swiss_international <-. echoes .-> ulm_braun_functionalism
   synthwave_web <-. echoes .-> vector_display_arcade
+  tumblr_soft_grunge <-. echoes .-> y2k_digicam
+  velocity_edit <-. echoes .-> vertical_short_form
+  vertical_short_form <-. echoes .-> word_caption_clip
   victorian_architectural_terracotta <-. echoes .-> victorian_interior
   victorian_architectural_terracotta <-. echoes .-> victorian_manufacture
   victorian_encaustic_tiles <-. echoes .-> victorian_interior
@@ -1112,12 +1270,15 @@ flowchart LR
   victorian_trademark <-. echoes .-> wood_type_poster
   victorian_web <-. echoes .-> wood_type_poster
   y2k_aesthetic <-. echoes .-> y2k_digicam
+  unicode_emoji --> 3d_avatar_emoji
   cubism_painting --> abstract_expressionism
   surrealism_painting --> abstract_expressionism
   mingei_folk_craft --> abstract_expressionist_ceramics
+  gan_portrait --> ai_avatar_portrait
   flat_design --> ai_chat_ui
   cinematic_teal_orange --> ai_hyperreal
   fashion_editorial --> ai_hyperreal
+  diffusion_gloss --> ai_slop
   hispano_moresque_lustreware --> albarello_apothecary_ware
   arts_and_crafts_art_pottery --> american_art_pottery
   breguet_classical_watch --> american_pocket_watch
@@ -1153,10 +1314,12 @@ flowchart LR
   rhenish_salt_glaze_stoneware --> arts_and_crafts_art_pottery
   shaker_interior --> arts_and_crafts_interior
   shaker_object --> arts_and_crafts_object
+  unboxing_video --> asmr_video
   flat_design --> aurora_gradient_ui
   hispano_moresque_lustreware --> azulejo
   islamic_tile_mosaic --> azulejo
   istoriato_maiolica --> azulejo
+  y2k_aesthetic --> barbiecore
   renaissance_architecture --> baroque_architecture
   renaissance_painting --> baroque_painting
   creamware_neoclassical --> bauhaus_modern_tableware
@@ -1182,13 +1345,20 @@ flowchart LR
   nouvelle_cuisine --> california_cuisine
   rams_functionalism_ui --> cassette_futurism
   fifth_gen_low_poly --> cel_shaded_3d
+  unicode_emoji --> chat_sticker_pack
   scandinavian_modern_tableware --> chef_studio_tableware
   victorian_architectural_terracotta --> chicago_school_terracotta
+  reaction_gif --> cinemagraph
   new_colour --> cinematic_teal_orange
   german_expressionist_cinema --> classical_hollywood
   skeuomorphic_icon --> clay_3d_icon
   neumorphism --> claymorphism
+  minimalism_web --> clean_girl
+  normcore --> clean_girl
+  pop_art_web --> clickbait_thumbnail
   scandinavian_interior --> coastal_interior
+  flat_lay_feed --> cohesive_feed_grid
+  vsco_preset_look --> cohesive_feed_grid
   abstract_expressionism --> colour_field_painting
   victorian_sanitary_ware --> coloured_bathroom_suite
   arts_and_crafts_object --> contemporary_craft_product
@@ -1197,6 +1367,8 @@ flowchart LR
   flat_design --> corporate_memphis
   memphis_design --> corporate_memphis
   georgian_jewellery --> costume_jewellery
+  bohemian_web --> cottagecore
+  wabi_sabi_web --> cottagecore
   english_bespoke_tailoring --> country_sporting_tweed
   english_slipware --> creamware_neoclassical
   empire_line_dress --> crinoline_and_bustle_dress
@@ -1207,8 +1379,11 @@ flowchart LR
   dark_devtool_ui --> cybercore_web
   y2k_aesthetic --> cybercore_web
   psychedelic --> cyberdelia
+  victorian_web --> dark_academia
   flat_design --> dark_devtool_ui
   cubism_painting --> de_stijl_painting
+  psychedelic --> deepdream_psychedelia
+  deepdream_psychedelia --> deepfake_face_swap
   azulejo --> delft_tiles
   istoriato_maiolica --> delft_tiles
   kraak_porcelain --> delft_tiles
@@ -1218,13 +1393,17 @@ flowchart LR
   modern_mens_briefs --> designer_logo_underwear
   coloured_bathroom_suite --> designer_wall_hung_sanitary
   transitional_serif --> didone_serif
+  gan_portrait --> diffusion_gloss
   british_modernist_studio --> digital_3d_printed_ceramics
   pilot_and_field_watch --> dive_watch
   straight_photography --> documentary_photography
   soviet_montage --> documentary_verite
   memphis_interior --> dopamine_decor
+  vaporwave --> dreamcore
+  photo_dump --> dual_camera_snapshot
   new_objectivity --> duesseldorf_school
   new_topographics --> duesseldorf_school
+  lip_sync_dance_short --> duet_split_screen
   outline_icon --> duotone_icon
   solid_glyph_icon --> duotone_icon
   country_sporting_tweed --> early_mountaineering
@@ -1251,7 +1430,10 @@ flowchart LR
   german_expressionist_cinema --> film_noir
   straight_photography --> film_noir_still
   victorian_sanitary_ware --> fireclay_butler_sink
+  cyberdelia --> flash_intro_site
+  y2k_aesthetic --> flash_intro_site
   swiss_international --> flat_design
+  flat_design --> flat_lay_feed
   geometric_symbol --> flat_logo
   straight_photography --> food_photography
   documentary_verite --> found_footage
@@ -1262,14 +1444,19 @@ flowchart LR
   abstract_expressionist_ceramics --> funk_ceramics
   artist_ceramics_vallauris --> funk_ceramics
   cubism_painting --> futurism_painting
+  deepdream_psychedelia --> gan_portrait
   georgian_jewellery --> garland_style_jewellery
+  cyberdelia --> geocities_homepage
   swiss_modernist_mark --> geometric_symbol
   kraak_porcelain --> georgian_porcelain_tea_service
   meissen_baroque_porcelain --> georgian_porcelain_tea_service
   german_expressionist_cinema --> giallo
   stiletto_heel --> glam_platform_shoe
   frutiger_aero --> glassmorphism
+  reaction_gif --> glitch_gif
+  y2k_aesthetic --> glitchcore
   geometric_symbol --> glossy_3d_logo
+  cottagecore --> goblincore
   technical_shell_alpinism --> gorpcore
   longquan_celadon --> goryeo_celadon
   cuisine_francoise --> grande_cuisine
@@ -1280,6 +1467,7 @@ flowchart LR
   fifth_gen_low_poly --> hand_painted_texture
   cuisine_classique --> haute_regionale
   sixteen_bit_sprite --> hd_2d_diorama
+  vaporwave --> health_goth
   international_style_architecture --> high_tech_architecture
   abbasid_lustreware --> hispano_moresque_lustreware
   art_deco_interior --> hollywood_regency_interior
@@ -1288,10 +1476,13 @@ flowchart LR
   garalde_old_style --> humanist_sans
   islamic_tile_mosaic --> hungarian_secession_ceramics
   victorian_architectural_terracotta --> hungarian_secession_ceramics
+  frutiger_aero --> hyperpop_visual
+  y2k_aesthetic --> hyperpop_visual
   isometric_pixel_world --> impossible_isometric_mobile
   realism_painting --> impressionism
   bauhaus_interior --> industrial_loft_interior
   victorian_manufacture --> industrial_utility_product
+  skeuomorphism --> instagram_vintage_filter
   abbasid_lustreware --> islamic_tile_mosaic
   pixel_icon --> isometric_icon
   eight_bit_tile --> isometric_pixel_world
@@ -1317,16 +1508,23 @@ flowchart LR
   yuan_ming_blue_and_white --> joseon_moon_jar
   kraak_porcelain --> kakiemon_imari_export
   yuan_ming_blue_and_white --> kakiemon_imari_export
+  ansi_bbs_art --> kaomoji_emoticon
+  scrapbook_ui --> kidcore
+  y2k_aesthetic --> kidcore
   yuan_ming_blue_and_white --> kraak_porcelain
   mino_tea_ceramics --> kyo_yaki_overglaze
   raku_tea_bowl --> kyo_yaki_overglaze
+  impact_image_macro --> label_meme
   art_deco_evening_accessory --> ladylike_handbag
   new_look --> ladylike_handbag
   subway_tile --> large_format_porcelain_tiles
   victorian_encaustic_tiles --> large_format_porcelain_tiles
+  unboxing_video --> lets_play_facecam
+  vaporwave --> liminal_spaces
   glassmorphism --> liquid_glass_ui
   spatial_visionos --> liquid_glass_ui
   tang_sancai_figures --> liuli_glazed_roof
+  lets_play_facecam --> livestream_overlay
   malletier_luggage --> logomania
   fifth_gen_low_poly --> low_poly_ps1_revival
   dive_watch --> luxury_steel_sports_watch
@@ -1349,6 +1547,7 @@ flowchart LR
   scandinavian_modern_product --> mid_century_modern_product
   joseon_buncheong --> mingei_folk_craft
   mino_tea_ceramics --> mingei_folk_craft
+  gan_portrait --> mini_diffusion_meme
   swiss_modernist_mark --> minimal_wordmark
   de_stijl_painting --> minimalism_painting
   suprematism --> minimalism_painting
@@ -1366,11 +1565,13 @@ flowchart LR
   slab_serif --> monospace
   dogme_95 --> mumblecore
   italian_gran_turismo --> muscle_and_pony_car
+  geocities_homepage --> myspace_profile
   nouvelle_cuisine --> naturalist_cuisine
   flat_design --> neo_brutalism_ui
   art_deco_interior --> neo_deco_interior
   grotesque_sans --> neo_grotesque_sans
   film_noir --> neon_noir
+  ansi_bbs_art --> net_art_browser
   skeuomorphism --> neumorphism
   street_photography --> new_colour
   french_new_wave --> new_hollywood
@@ -1380,6 +1581,7 @@ flowchart LR
   straight_photography --> new_topographics
   early_mountaineering --> nordic_functional_outdoor
   international_style_architecture --> nordic_modernism_architecture
+  minimalism_web --> normcore
   cuisine_classique --> nouvelle_cuisine
   nouvelle_cuisine --> novoandina_and_nikkei
   straight_front_corset --> nylon_foundation_garments
@@ -1398,6 +1600,7 @@ flowchart LR
   canvas_court_sneaker --> performance_running_shoe
   dogme_95 --> phone_cinema
   mumblecore --> phone_cinema
+  grwm_short --> photo_carousel_slideshow
   pop_art_painting --> photorealism
   early_wristwatch --> pilot_and_field_watch
   y2k_aesthetic --> pixel_art_web
@@ -1416,8 +1619,10 @@ flowchart LR
   early_mountaineering --> quilted_down_outerwear
   dive_watch --> racing_chronograph
   pilot_and_field_watch --> racing_chronograph
+  impact_image_macro --> rage_comic
   bauhaus --> rams_functionalism_ui
   swiss_international --> rams_functionalism_ui
+  kaomoji_emoticon --> reaction_gif
   creamware_neoclassical --> regency_gilded_bone_china
   sevres_rococo_porcelain --> regency_gilded_bone_china
   medieval_court_cuisine --> renaissance_banquet
@@ -1436,6 +1641,7 @@ flowchart LR
   delft_tiles --> scandinavian_tiled_stove
   corporate_memphis --> scrapbook_ui
   punk_zine --> scrapbook_ui
+  y2k_aesthetic --> seapunk
   fifth_gen_low_poly --> seventh_gen_desaturated
   meissen_baroque_porcelain --> sevres_rococo_porcelain
   nylon_foundation_garments --> shapewear_and_seamless
@@ -1455,6 +1661,7 @@ flowchart LR
   glassmorphism --> spatial_visionos
   mocha_banded_ware --> spongeware
   english_slipware --> staffordshire_figures
+  impact_image_macro --> starter_pack
   english_bespoke_tailoring --> stealth_luxury_accessory
   minimalist_fashion --> stealth_luxury_accessory
   art_deco_dance_shoe --> stiletto_heel
@@ -1482,10 +1689,14 @@ flowchart LR
   azulejo --> trencadis
   zellige --> trencadis
   country_sporting_tweed --> trench_and_field_military
+  grunge_editorial --> tumblr_soft_grunge
+  impact_image_macro --> tweet_screenshot_meme
   bauhaus_product --> ulm_braun_functionalism
   nylon_foundation_garments --> underwear_as_outerwear
   victorian_corsetry --> underwear_as_outerwear
+  kaomoji_emoticon --> unicode_emoji
   y2k_aesthetic --> vaporwave
+  lip_sync_dance_short --> velocity_edit
   creator_vlog --> vertical_short_form
   della_robbia_relief --> victorian_architectural_terracotta
   victorian_encaustic_tiles --> victorian_architectural_terracotta
@@ -1497,13 +1708,19 @@ flowchart LR
   empire_line_dress --> victorian_millinery
   blue_willow_transferware --> victorian_sanitary_ware
   georgian_jewellery --> victorian_sentimental_jewellery
+  lets_play_facecam --> video_essay
   brass_era_car --> vintage_coachbuilt_car
   eight_bit_tile --> voxel_block_world
+  livestream_overlay --> vtuber_avatar
   swiss_international --> wabi_sabi_web
   coloured_bathroom_suite --> washlet_toilet
+  apple_aqua --> web_2_0_gloss
   italian_gran_turismo --> wedge_design_car
+  vaporwave --> weirdcore
   organic_modern_tableware --> west_german_fat_lava
+  rage_comic --> wojak_feels
   woodcut_relief_print --> wood_type_poster
+  clickbait_thumbnail --> word_caption_clip
   new_colour --> y2k_digicam
   ding_white_ware --> yuan_ming_blue_and_white
   islamic_tile_mosaic --> zellige
@@ -1544,9 +1761,12 @@ flowchart LR
   chef_studio_tableware -. rejects .-> regency_gilded_bone_china
   clay_3d_icon -. rejects .-> flat_icon
   claymorphism -. rejects .-> flat_design
+  clean_girl -. rejects .-> goblincore
+  clickbait_thumbnail -. rejects .-> minimalism_web
   conceptual_sketch_ui -. rejects .-> flat_design
   constructivism_web -. rejects .-> art_nouveau_web
   costume_jewellery -. rejects .-> garland_style_jewellery
+  cottagecore -. rejects .-> flat_design
   creamware_neoclassical -. rejects .-> delftware
   critical_regionalism_architecture -. rejects .-> international_style_architecture
   critical_regionalism_architecture -. rejects .-> postmodern_architecture
@@ -1557,15 +1777,19 @@ flowchart LR
   cybercore_web -. rejects .-> flat_design
   cyberpunk_web -. rejects .-> flat_design
   cyberpunk_web -. rejects .-> minimalism_web
+  dark_academia -. rejects .-> flat_design
   de_stijl_web -. rejects .-> art_nouveau_web
   deconstructivist_architecture -. rejects .-> international_style_architecture
   deconstructivist_architecture -. rejects .-> postmodern_architecture
+  deep_fried_meme -. rejects .-> impact_image_macro
   designer_wall_hung_sanitary -. rejects .-> victorian_sanitary_ware
   didone_serif -. rejects .-> garalde_old_style
+  diffusion_gloss -. rejects .-> mini_diffusion_meme
   documentary_photography -. rejects .-> pictorialism
   dogme_95 -. rejects .-> french_new_wave
   dopamine_decor -. rejects .-> japandi_interior
   dopamine_decor -. rejects .-> scandinavian_interior
+  dual_camera_snapshot -. rejects .-> cohesive_feed_grid
   early_wristwatch -. rejects .-> american_pocket_watch
   editorial_serif_revival -. rejects .-> corporate_memphis
   editorial_serif_revival -. rejects .-> flat_design
@@ -1581,6 +1805,7 @@ flowchart LR
   fifth_gen_low_poly -. rejects .-> sixteen_bit_sprite
   film_grain_revival -. rejects .-> y2k_digicam
   film_noir -. rejects .-> classical_hollywood
+  flash_intro_site -. rejects .-> portal_table_layout
   flat_design -. rejects .-> skeuomorphism
   flat_icon -. rejects .-> skeuomorphic_icon
   flat_logo -. rejects .-> glossy_3d_logo
@@ -1591,22 +1816,29 @@ flowchart LR
   geometric_sans -. rejects .-> garalde_old_style
   geometric_sans -. rejects .-> grotesque_sans
   glass_ceramic_cookware -. rejects .-> american_stoneware_crock
+  glitchcore -. rejects .-> minimalism_web
   glossy_3d_logo -. rejects .-> swiss_modernist_mark
+  goblincore -. rejects .-> normcore
   gorpcore -. rejects .-> minimalist_fashion
   grandmillennial_interior -. rejects .-> minimalist_interior
   grandmillennial_interior -. rejects .-> scandinavian_interior
   grotesque_sans -. rejects .-> didone_serif
   group_f64 -. rejects .-> pictorialism
   grunge_editorial -. rejects .-> swiss_international
+  grwm_short -. rejects .-> lip_sync_dance_short
+  health_goth -. rejects .-> frutiger_aero
   hippie_bohemian_dress -. rejects .-> ivy_style
   hippie_bohemian_dress -. rejects .-> mod_and_mini
   humanist_sans -. rejects .-> grotesque_sans
+  hyperpop_visual -. rejects .-> minimalism_web
   impossible_isometric_mobile -. rejects .-> seventh_gen_desaturated
   industrial_utility_product -. rejects .-> arts_and_crafts_object
   italian_neorealism -. rejects .-> classical_hollywood
   japanese_avant_garde_fashion -. rejects .-> new_look
   japanese_dense_web -. rejects .-> swiss_international
+  kidcore -. rejects .-> flat_design
   large_format_porcelain_tiles -. rejects .-> delft_tiles
+  liminal_spaces -. rejects .-> corporate_memphis
   liquid_glass_ui -. rejects .-> flat_design
   low_poly_ps1_revival -. rejects .-> pbr_photoreal
   luxury_steel_sports_watch -. rejects .-> electronic_and_digital_watch
@@ -1622,6 +1854,7 @@ flowchart LR
   metro_ui -. rejects .-> skeuomorphism
   mid_century_modern_product -. rejects .-> art_deco_product
   mingei_folk_craft -. rejects .-> kyo_yaki_overglaze
+  mini_diffusion_meme -. rejects .-> diffusion_gloss
   minimal_wordmark -. rejects .-> emblem_badge
   minimalism_painting -. rejects .-> abstract_expressionism
   minimalism_web -. rejects .-> skeuomorphism
@@ -1633,6 +1866,7 @@ flowchart LR
   mumblecore -. rejects .-> classical_hollywood
   muscle_and_pony_car -. rejects .-> tailfin_era_car
   music_video -. rejects .-> classical_hollywood
+  myspace_profile -. rejects .-> portal_table_layout
   naturalist_cuisine -. rejects .-> cuisine_classique
   neo_brutalism_ui -. rejects .-> corporate_memphis
   neo_brutalism_ui -. rejects .-> material_design
@@ -1643,17 +1877,21 @@ flowchart LR
   new_hollywood -. rejects .-> classical_hollywood
   new_nordic -. rejects .-> molecular_gastronomy
   new_objectivity -. rejects .-> pictorialism
+  normcore -. rejects .-> vaporwave
   nylon_foundation_garments -. rejects .-> bandeau_brassiere
   one_take_oner -. rejects .-> soviet_montage
   organic_modern_tableware -. rejects .-> regency_gilded_bone_china
   outline_icon -. rejects .-> skeuomorphic_icon
   parametricism_architecture -. rejects .-> international_style_architecture
   parian_statuary -. rejects .-> staffordshire_figures
+  photo_carousel_slideshow -. rejects .-> velocity_edit
+  photo_dump -. rejects .-> cohesive_feed_grid
   photorealism -. rejects .-> abstract_expressionism
   planimetric_symmetry -. rejects .-> dogme_95
   plant_based_fine_dining -. rejects .-> cuisine_classique
   pochoir_plate -. rejects .-> chromolithograph_poster
   pop_art_painting -. rejects .-> abstract_expressionism
+  portal_table_layout -. rejects .-> geocities_homepage
   postmodern_architecture -. rejects .-> brutalist_architecture
   postmodern_architecture -. rejects .-> international_style_architecture
   power_dressing -. rejects .-> hippie_bohemian_dress
@@ -1694,6 +1932,7 @@ flowchart LR
   super_normal_product -. rejects .-> memphis_product
   suprematist_porcelain -. rejects .-> georgian_porcelain_tea_service
   suprematist_porcelain -. rejects .-> meissen_baroque_porcelain
+  surreal_meme -. rejects .-> impact_image_macro
   surrealism_web -. rejects .-> flat_design
   swiss_modernist_mark -. rejects .-> emblem_badge
   swiss_modernist_mark -. rejects .-> victorian_trademark
@@ -1704,9 +1943,15 @@ flowchart LR
   terminal_tui_web -. rejects .-> material_design
   ulm_braun_functionalism -. rejects .-> streamline_moderne_product
   underwear_as_outerwear -. rejects .-> soft_natural_lingerie
+  velocity_edit -. rejects .-> grwm_short
+  video_essay -. rejects .-> clickbait_thumbnail
   voxel_block_world -. rejects .-> seventh_gen_desaturated
+  vsco_preset_look -. rejects .-> instagram_vintage_filter
   wabi_sabi_web -. rejects .-> flat_design
+  web_2_0_gloss -. rejects .-> flash_intro_site
+  web_2_0_gloss -. rejects .-> portal_table_layout
   wedge_design_car -. rejects .-> muscle_and_pony_car
+  weirdcore -. rejects .-> frutiger_aero
   xerox_zine -. rejects .-> psychedelic_concert_poster
   y2k_aesthetic -. rejects .-> grunge_editorial
   yixing_zisha_teapot -. rejects .-> jian_tenmoku_ware
@@ -2232,157 +2477,98 @@ flowchart LR
   linkStyle 519 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 520 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 521 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 917 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 918 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 919 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 920 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 921 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 922 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 923 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 924 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 925 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 926 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 927 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 928 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 929 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 930 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 931 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 932 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 933 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 934 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 935 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 936 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 937 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 938 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 939 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 940 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 941 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 942 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 943 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 944 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 945 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 946 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 947 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 948 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 949 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 950 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 951 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 952 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 953 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 954 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 955 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 956 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 957 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 958 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 959 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 960 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 961 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 962 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 963 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 964 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 965 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 966 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 967 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 968 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 969 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 970 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 971 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 972 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 973 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 974 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 975 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 976 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 977 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 978 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 979 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 980 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 981 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 982 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 983 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 984 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 985 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 986 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 987 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 988 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 989 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 990 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 991 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 992 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 993 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 994 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 995 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 996 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 997 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 998 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 999 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1000 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1001 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1002 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1003 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1004 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1005 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1006 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1007 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1008 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1009 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1010 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1011 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1012 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1013 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1014 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1015 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1016 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1017 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1018 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1019 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1020 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1021 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1022 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1023 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1024 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1025 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1026 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1027 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1028 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1029 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1030 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1031 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1032 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1033 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1034 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1035 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1036 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1037 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1038 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1039 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1040 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1041 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1042 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1043 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1044 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1045 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1046 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1047 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1048 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1049 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1050 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1051 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1052 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1053 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1054 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1055 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1056 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1057 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1058 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1059 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1060 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1061 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1062 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1063 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1064 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1065 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1066 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1067 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 522 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 523 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 524 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 525 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 526 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 527 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 528 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 529 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 530 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 531 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 532 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 533 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 534 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 535 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 536 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 537 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 538 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 539 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 540 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 541 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 542 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 543 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 544 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 545 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 546 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 547 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 548 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 549 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 550 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 551 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 552 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 553 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 554 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 555 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 556 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 557 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 558 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 559 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 560 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 561 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 562 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 563 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 564 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 565 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 566 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 567 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 568 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 569 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 570 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 571 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 572 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 573 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 574 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 575 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 576 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 577 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 578 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 579 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 580 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 581 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 582 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 583 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 584 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 585 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 586 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 587 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 588 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 589 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 590 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 591 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 592 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 593 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 594 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 595 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 596 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 597 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 598 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 599 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 600 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 601 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 602 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 603 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 604 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 605 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 606 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 607 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 608 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 609 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 610 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 611 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 612 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 613 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 1068 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1069 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1070 stroke:#E5484D,stroke-width:1.5px
@@ -2435,3 +2621,182 @@ flowchart LR
   linkStyle 1117 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1118 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1119 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1120 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1121 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1122 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1123 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1124 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1125 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1126 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1127 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1128 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1129 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1130 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1131 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1132 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1133 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1134 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1135 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1136 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1137 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1138 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1139 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1140 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1141 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1142 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1143 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1144 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1145 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1146 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1147 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1148 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1149 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1150 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1151 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1152 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1153 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1154 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1155 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1156 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1157 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1158 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1159 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1160 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1161 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1162 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1163 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1164 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1165 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1166 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1167 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1168 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1169 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1170 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1171 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1172 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1173 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1174 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1175 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1176 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1177 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1178 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1179 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1180 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1181 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1182 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1183 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1184 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1185 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1186 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1187 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1188 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1189 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1190 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1191 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1192 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1193 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1194 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1195 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1196 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1197 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1198 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1199 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1200 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1201 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1202 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1203 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1204 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1205 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1206 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1207 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1208 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1209 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1210 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1211 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1212 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1213 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1214 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1215 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1216 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1217 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1218 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1219 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1220 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1221 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1222 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1223 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1224 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1225 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1226 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1227 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1228 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1229 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1230 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1231 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1232 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1233 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1234 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1235 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1236 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1237 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1238 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1239 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1240 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1241 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1242 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1243 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1244 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1245 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1246 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1247 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1248 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1249 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1250 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1251 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1252 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1253 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1254 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1255 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1256 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1257 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1258 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1259 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1260 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1261 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1262 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1263 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1264 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1265 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1266 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1267 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1268 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1269 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1270 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1271 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1272 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1273 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1274 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1275 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1276 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1277 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1278 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1279 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1280 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1281 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1282 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1283 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1284 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1285 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1286 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1287 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1288 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1289 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1290 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1291 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1292 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1293 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1294 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1295 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1296 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1297 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1298 stroke:#E5484D,stroke-width:1.5px
