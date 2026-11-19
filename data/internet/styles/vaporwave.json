@@ -8,6 +8,7 @@
     "Aesthetic",
     "A E S T H E T I C"
   ],
+  "branch": "net-aesthetics",
   "era_id": "touchscreen",
   "time_period": {
     "start": 2012,
@@ -304,11 +305,32 @@
     ]
   },
   "permutations": {
-    "base_colour": {"options": ["#FF71CE", "#01CDFE", "#F5EEFF"]},
-    "accent_colour": {"options": ["#01CDFE", "#FF71CE"]},
-    "corner_radius": {"min": 0, "max": 0},
-    "grid_step": {"min": 4, "max": 12},
-    "type_scale_ratio": {"default": 1.5, "min": 1.414, "max": 1.618}
+    "base_colour": {
+      "options": [
+        "#FF71CE",
+        "#01CDFE",
+        "#F5EEFF"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#01CDFE",
+        "#FF71CE"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 0
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.5,
+      "min": 1.414,
+      "max": 1.618
+    }
   },
   "sources": [
     {

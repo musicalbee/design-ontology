@@ -8,6 +8,7 @@
     "Paper collage UI",
     "Craft collage"
   ],
+  "branch": "web-ui",
   "era_id": "touchscreen",
   "time_period": {
     "start": 2018,
@@ -302,11 +303,32 @@
     ]
   },
   "permutations": {
-    "base_colour": {"options": ["#C8401C", "#F3B700", "#2B2A33"]},
-    "accent_colour": {"options": ["#F3B700", "#C8401C"]},
-    "corner_radius": {"min": 1, "max": 3},
-    "grid_step": {"min": 4, "max": 12},
-    "type_scale_ratio": {"default": 1.618, "min": 1.5, "max": 1.618}
+    "base_colour": {
+      "options": [
+        "#C8401C",
+        "#F3B700",
+        "#2B2A33"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#F3B700",
+        "#C8401C"
+      ]
+    },
+    "corner_radius": {
+      "min": 1,
+      "max": 3
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.618,
+      "min": 1.5,
+      "max": 1.618
+    }
   },
   "sources": [
     {

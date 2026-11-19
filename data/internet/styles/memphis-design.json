@@ -8,6 +8,7 @@
     "Memphis Milano",
     "80s Memphis"
   ],
+  "branch": "web-ui",
   "era_id": "postmodern-early-digital",
   "time_period": {
     "start": 1981,
@@ -310,11 +311,33 @@
     ]
   },
   "permutations": {
-    "base_colour": {"options": ["#FF5FA2", "#00B2A9", "#111111"]},
-    "accent_colour": {"options": ["#00B2A9", "#FF5FA2"]},
-    "corner_radius": {"min": 24, "max": 72, "note": "The token rounds one corner only. The knob is that corner; the square corners stay square."},
-    "grid_step": {"min": 4, "max": 12},
-    "type_scale_ratio": {"default": 1.5, "min": 1.414, "max": 1.618}
+    "base_colour": {
+      "options": [
+        "#FF5FA2",
+        "#00B2A9",
+        "#111111"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#00B2A9",
+        "#FF5FA2"
+      ]
+    },
+    "corner_radius": {
+      "min": 24,
+      "max": 72,
+      "note": "The token rounds one corner only. The knob is that corner; the square corners stay square."
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.5,
+      "min": 1.414,
+      "max": 1.618
+    }
   },
   "sources": [
     {

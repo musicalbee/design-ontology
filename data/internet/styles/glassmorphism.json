@@ -7,6 +7,7 @@
     "Frosted Glass UI",
     "Glass UI"
   ],
+  "branch": "web-ui",
   "era_id": "contemporary-spatial",
   "time_period": {
     "start": 2020,
@@ -301,11 +302,32 @@
     ]
   },
   "permutations": {
-    "base_colour": {"options": ["#74B9FF", "#FD79A8", "#FFFFFF"]},
-    "accent_colour": {"options": ["#FD79A8", "#74B9FF"]},
-    "corner_radius": {"min": 10, "max": 30},
-    "grid_step": {"min": 4, "max": 12},
-    "type_scale_ratio": {"default": 1.25, "min": 1.2, "max": 1.333}
+    "base_colour": {
+      "options": [
+        "#74B9FF",
+        "#FD79A8",
+        "#FFFFFF"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#FD79A8",
+        "#74B9FF"
+      ]
+    },
+    "corner_radius": {
+      "min": 10,
+      "max": 30
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.333
+    }
   },
   "sources": [
     {

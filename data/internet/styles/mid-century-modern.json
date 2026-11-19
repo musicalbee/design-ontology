@@ -8,6 +8,7 @@
     "Atomic Age Design",
     "Mid-Century Graphic Design"
   ],
+  "branch": "web-ui",
   "era_id": "modernist",
   "time_period": {
     "start": 1945,
@@ -320,11 +321,32 @@
     ]
   },
   "permutations": {
-    "base_colour": {"options": ["#1F7A7A", "#D2602B", "#3B2A20"]},
-    "accent_colour": {"options": ["#D2602B", "#1F7A7A"]},
-    "corner_radius": {"min": 6, "max": 18},
-    "grid_step": {"min": 4, "max": 12},
-    "type_scale_ratio": {"default": 1.333, "min": 1.25, "max": 1.414}
+    "base_colour": {
+      "options": [
+        "#1F7A7A",
+        "#D2602B",
+        "#3B2A20"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#D2602B",
+        "#1F7A7A"
+      ]
+    },
+    "corner_radius": {
+      "min": 6,
+      "max": 18
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.333,
+      "min": 1.25,
+      "max": 1.414
+    }
   },
   "sources": [
     {

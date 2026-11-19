@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://design-ontology.dev/schema/domains/internet.schema.json",
-  "title": "Design style (graphic and UI)",
-  "description": "One graphic design or digital/UI design style. Every field is required unless marked optional: an agent cannot execute a style that has holes.",
+  "title": "Internet style",
+  "description": "One style of internet culture: a web or app interface, a net aesthetic, a meme format, a short-video look, a GIF or sticker form, a creator format, a social feed look, a -core subculture, an early-web form or an AI-native image. Every field is required unless marked optional: an agent cannot execute a style that has holes.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -10,6 +10,7 @@
     "domain",
     "name",
     "aliases",
+    "branch",
     "era_id",
     "time_period",
     "primary_mediums",
@@ -29,7 +30,9 @@
     "tokens"
   ],
   "properties": {
-    "permutations": { "$ref": "../core.schema.json#/$defs/permutations" },
+    "permutations": {
+      "$ref": "../core.schema.json#/$defs/permutations"
+    },
     "$schema": {
       "type": "string"
     },
@@ -49,6 +52,21 @@
         "$ref": "../core.schema.json#/$defs/shortText"
       }
     },
+    "branch": {
+      "enum": [
+        "web-ui",
+        "net-aesthetics",
+        "memes",
+        "vertical-video",
+        "gifs-stickers",
+        "creator-streaming",
+        "social-photo",
+        "core-subcultures",
+        "early-web",
+        "ai-native"
+      ],
+      "description": "The branch of internet culture (domains/internet.json description)."
+    },
     "era_id": {
       "$ref": "../core.schema.json#/$defs/slug",
       "description": "An id from data/internet/eras/."
@@ -65,7 +83,9 @@
           "print",
           "web",
           "mobile",
-          "spatial"
+          "spatial",
+          "video",
+          "image"
         ]
       }
     },

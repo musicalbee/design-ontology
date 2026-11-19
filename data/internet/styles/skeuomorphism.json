@@ -8,6 +8,7 @@
     "iOS 6 style",
     "Real-object interface"
   ],
+  "branch": "web-ui",
   "era_id": "touchscreen",
   "time_period": {
     "start": 2007,
@@ -310,11 +311,32 @@
     ]
   },
   "permutations": {
-    "base_colour": {"options": ["#2F7BE0", "#C9A24B", "#2B2118"]},
-    "accent_colour": {"options": ["#C9A24B", "#2F7BE0"]},
-    "corner_radius": {"min": 4, "max": 12},
-    "grid_step": {"min": 2, "max": 6},
-    "type_scale_ratio": {"default": 1.333, "min": 1.25, "max": 1.414}
+    "base_colour": {
+      "options": [
+        "#2F7BE0",
+        "#C9A24B",
+        "#2B2118"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#C9A24B",
+        "#2F7BE0"
+      ]
+    },
+    "corner_radius": {
+      "min": 4,
+      "max": 12
+    },
+    "grid_step": {
+      "min": 2,
+      "max": 6
+    },
+    "type_scale_ratio": {
+      "default": 1.333,
+      "min": 1.25,
+      "max": 1.414
+    }
   },
   "sources": [
     {

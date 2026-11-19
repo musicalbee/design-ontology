@@ -8,6 +8,7 @@
     "Soft 3D",
     "Clay render"
   ],
+  "branch": "net-aesthetics",
   "era_id": "touchscreen",
   "time_period": {
     "start": 2015,
@@ -303,11 +304,32 @@
     ]
   },
   "permutations": {
-    "base_colour": {"options": ["#FF5A4D", "#7A5CFF", "#2A1740"]},
-    "accent_colour": {"options": ["#7A5CFF", "#FF5A4D"]},
-    "corner_radius": {"min": 16, "max": 48},
-    "grid_step": {"min": 4, "max": 12},
-    "type_scale_ratio": {"default": 1.333, "min": 1.25, "max": 1.414}
+    "base_colour": {
+      "options": [
+        "#FF5A4D",
+        "#7A5CFF",
+        "#2A1740"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#7A5CFF",
+        "#FF5A4D"
+      ]
+    },
+    "corner_radius": {
+      "min": 16,
+      "max": 48
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.333,
+      "min": 1.25,
+      "max": 1.414
+    }
   },
   "sources": [
     {

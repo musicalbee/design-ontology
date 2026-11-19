@@ -8,6 +8,7 @@
     "Expo Futurism",
     "Retro-futurism (1960s)"
   ],
+  "branch": "web-ui",
   "era_id": "modernist",
   "time_period": {
     "start": 1957,
@@ -322,11 +323,31 @@
     ]
   },
   "permutations": {
-    "base_colour": {"options": ["#0B2A5B", "#F26B1D"]},
-    "accent_colour": {"options": ["#F26B1D", "#0B2A5B"]},
-    "corner_radius": {"min": 12, "max": 36},
-    "grid_step": {"min": 4, "max": 12},
-    "type_scale_ratio": {"default": 1.5, "min": 1.414, "max": 1.618}
+    "base_colour": {
+      "options": [
+        "#0B2A5B",
+        "#F26B1D"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#F26B1D",
+        "#0B2A5B"
+      ]
+    },
+    "corner_radius": {
+      "min": 12,
+      "max": 36
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.5,
+      "min": 1.414,
+      "max": 1.618
+    }
   },
   "sources": [
     {
