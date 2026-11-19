@@ -1,0 +1,427 @@
+{
+  "$schema": "../../../schema/domains/industrial.schema.json",
+  "id": "bauhaus-product",
+  "domain": "industrial",
+  "name": "Bauhaus product",
+  "aliases": [
+    "Bauhaus metalwork",
+    "Bauhaus industrial design",
+    "Machine-age functionalism"
+  ],
+  "era_id": "machine-modern",
+  "time_period": {
+    "start": 1923,
+    "end": 1933,
+    "label": "1923–1933"
+  },
+  "region": "Weimar and Dessau, Germany",
+  "summary": "The workshop objects of the Bauhaus: lamps, tea sets and chairs built from the sphere, the cylinder and the cone in nickel, chrome, opal glass and bent steel tube, as models for mass production.",
+  "philosophy": {
+    "core_thesis": "An everyday object is a model for the factory: its form comes from plain geometry, its material and its use, and ornament has no place on it.",
+    "design_principles": [
+      "Build each body from a sphere, a cylinder, a cone or a cube; show the solid, not a style.",
+      "Make each part do one job, and let the eye read the job: a stem carries, a shade spreads light, a handle holds.",
+      "Use bent steel tube of 20 to 25 mm for the frame of a seat or a table, and leave it bare and chromed.",
+      "Use opal glass for a diffuser, and nickel or chrome for the metal parts.",
+      "Keep the surfaces smooth and free of ornament; a screw or a joint stays in view.",
+      "Keep colour to the colour of the material, with black, white and one primary colour at most.",
+      "Draw each object so that a factory can make it in series from standard parts."
+    ],
+    "anti_patterns": [
+      "Applied ornament, a moulded leaf or a scroll",
+      "Revival forms that copy a past style",
+      "Hidden joints that pretend the object is one piece",
+      "Dark polished hardwood and carved legs",
+      "Patterned upholstery",
+      "Brass with a warm, aged patina"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "hand_finish": 2,
+    "material_warmth": 2,
+    "visual_mass": 2,
+    "chromatic_intensity": 2
+  },
+  "form": {
+    "geometry": "The sphere, the hemisphere, the cylinder, the cone and the disc, joined on one vertical or horizontal axis.",
+    "silhouette": "A clear outline of two or three solids: a disc base, a straight stem and a dome or a sphere on top.",
+    "edges": "Sharp edges on metal discs and rims, with a radius of 0 to 2 mm; tube bends have a radius of 2 to 3 times the tube diameter.",
+    "proportion": "A table lamp is about 36 cm high with a shade of 18 cm; a base disc is about equal to the shade diameter.",
+    "ornament": "None. The only pattern is the repeat of standard parts, such as a row of tubes or a band of rivets.",
+    "rules": [
+      "Each object has 2 to 4 primary solids.",
+      "Each metal tube is 20 to 25 mm in diameter.",
+      "A shade, a bowl or a vessel is a part of a sphere or a cylinder.",
+      "No surface carries a motif; 0% of the surface is ornament.",
+      "A colour other than black, white, grey or the metal covers less than 10% of the object."
+    ]
+  },
+  "materials": {
+    "primary": [
+      "chrome-plated-steel",
+      "nickel-plated-brass",
+      "opal-glass",
+      "clear-glass",
+      "canvas"
+    ],
+    "secondary": [
+      "birch-plywood",
+      "beech",
+      "bakelite",
+      "silver-plate",
+      "solid-brass",
+      "aluminium",
+      "leather",
+      "porcelain",
+      "mild-steel",
+      "wool",
+      "chrome-plated-brass",
+      "enamelled-steel",
+      "vitreous-china",
+      "stainless-steel"
+    ],
+    "avoid": [
+      "mahogany",
+      "rosewood",
+      "velvet",
+      "rattan",
+      "terracotta"
+    ],
+    "rule": "Metal and glass make about 60% of the visible surface; wood and textile take the rest, in plain colours."
+  },
+  "finish": {
+    "finishes": [
+      "polished",
+      "acid-etched",
+      "lacquered",
+      "moulded-gloss",
+      "natural-fibre",
+      "painted-matte"
+    ],
+    "textures": [
+      "mirror-smooth",
+      "satin-smooth",
+      "etched",
+      "plain-weave",
+      "fine-grain"
+    ],
+    "gloss": "70–95 GU on metal, 5–15 GU on glass and wood",
+    "patina": "The style wants a new, clean surface; chrome and nickel stay bright, and a scratched object is out of character."
+  },
+  "hardware": {
+    "metal_tone": "chrome",
+    "section": "Tube 20–25 mm, rods and stems 8–12 mm",
+    "joints": "Screwed or riveted joints in view; bent tube instead of a welded corner where possible.",
+    "handles": "A straight bar or a ring of round section, or a disc knob of black Bakelite or wood.",
+    "switches_and_taps": "A round rotary switch or a small pull cord; a cross-head or lever tap on a cylinder body."
+  },
+  "palette": {
+    "strategy": "The colour of the material: chrome, nickel and white opal glass, with black and one primary colour as a small accent.",
+    "colours": [
+      {
+        "name": "Chrome",
+        "hex": "#C8CCD0",
+        "role": "tube, stem, base"
+      },
+      {
+        "name": "Opal white",
+        "hex": "#F2F0EA",
+        "role": "glass shade"
+      },
+      {
+        "name": "Black",
+        "hex": "#1A1A1A",
+        "role": "knob, switch, seat"
+      },
+      {
+        "name": "Canvas grey",
+        "hex": "#8A8A82",
+        "role": "seat and back strap"
+      },
+      {
+        "name": "Signal red",
+        "hex": "#C8281E",
+        "role": "small accent"
+      }
+    ]
+  },
+  "manufacture": {
+    "processes": [
+      "metal spinning",
+      "tube bending",
+      "glass blowing in a mould",
+      "nickel and chrome plating",
+      "riveting"
+    ],
+    "scale": "Workshop prototypes, then licensed series of a few thousand pieces from firms that made lamps and steel furniture.",
+    "signs": "Spun rings on a metal dome, the smooth bend of a tube, and screws and rivets left in view."
+  },
+  "signatures": {
+    "objects": [
+      {
+        "category": "sanitary",
+        "object": "mixer-tap",
+        "form": "cylindrical spout",
+        "material": "chrome-plated-brass",
+        "finish": "polished",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "electrics",
+        "object": "light-switch",
+        "form": "round rotary on a round base",
+        "material": "bakelite",
+        "finish": "moulded-gloss",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "lighting",
+        "object": "table-lamp",
+        "form": "glass dome on a metal base",
+        "material": "opal-glass",
+        "finish": "acid-etched",
+        "texture": "etched"
+      },
+      {
+        "category": "storage",
+        "object": "sideboard",
+        "form": "box on a recessed plinth",
+        "material": "birch-plywood",
+        "finish": "lacquered",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "soft-furniture",
+        "object": "armchair",
+        "form": "tubular steel club chair with straps",
+        "material": "chrome-plated-steel",
+        "finish": "polished",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "tables",
+        "object": "dining-chair",
+        "form": "cantilever chair",
+        "material": "chrome-plated-steel",
+        "finish": "polished",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "kitchen",
+        "object": "tableware",
+        "form": "lidded tea set",
+        "material": "silver-plate",
+        "finish": "polished",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "decor",
+        "object": "bowl-and-tray",
+        "form": "fruit bowl in wire or steel",
+        "material": "solid-brass",
+        "finish": "polished",
+        "texture": "mirror-smooth"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1920s functionalist product design",
+      "sphere, cylinder and cone forms",
+      "opal glass dome shade",
+      "chrome-plated steel tube frame",
+      "polished nickel metal",
+      "no ornament",
+      "visible screws and rivets",
+      "black Bakelite knob",
+      "white and grey with one red accent",
+      "studio product photograph, soft even light"
+    ],
+    "negative": [
+      "ornament",
+      "carved wood",
+      "aged brass patina",
+      "floral pattern",
+      "revival style",
+      "plastic toy colours"
+    ],
+    "canonical_works": [
+      {
+        "work": "MT49 tea infuser",
+        "maker": "Marianne Brandt",
+        "year": 1924
+      },
+      {
+        "work": "WG24 table lamp",
+        "maker": "Wilhelm Wagenfeld and Carl Jakob Jucker",
+        "year": 1924
+      },
+      {
+        "work": "B3 club chair",
+        "maker": "Marcel Breuer",
+        "year": 1925
+      },
+      {
+        "work": "Kandem bedside lamp",
+        "maker": "Marianne Brandt and Hin Bredendieck",
+        "year": 1928
+      },
+      {
+        "work": "B32 cantilever chair",
+        "maker": "Marcel Breuer",
+        "year": 1928
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Wagenfeld table lamp",
+      "kind": "image",
+      "maker": "Wilhelm Wagenfeld",
+      "year": 1924,
+      "credit": "Casteniel",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Buch_mit_Wagenfeld_Tischlampe.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Buch_mit_Wagenfeld_Tischlampe.jpg/960px-Buch_mit_Wagenfeld_Tischlampe.jpg"
+    },
+    {
+      "title": "Wassily chair",
+      "kind": "image",
+      "maker": "Marcel Breuer",
+      "year": 1925,
+      "credit": "1971markus",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Marcel_Breuer_-_Wassily_Chair.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Marcel_Breuer_-_Wassily_Chair.jpg/960px-Marcel_Breuer_-_Wassily_Chair.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "arts-and-crafts-object",
+      "industrial-utility-product"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "bauhaus-interior",
+      "bauhaus-architecture",
+      "bauhaus"
+    ]
+  },
+  "emotion": {
+    "target_response": "Calm trust in a clear object: the viewer sees what each part does and how it was made.",
+    "keywords": [
+      "rational",
+      "clear",
+      "precise",
+      "modern",
+      "honest"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "bauhaus lamp",
+      "bauhaus product",
+      "tubular steel",
+      "wagenfeld lamp",
+      "cantilever chair",
+      "1920s functionalist",
+      "machine age object",
+      "bauhaus metal workshop"
+    ],
+    "use_cases": [
+      "lighting and hardware for a modernist interior",
+      "product briefs for a reissue",
+      "a still life for a design museum shop",
+      "hardware schedules for a period flat"
+    ],
+    "avoid_when": [
+      "The room needs warm, soft and tactile objects.",
+      "The brief asks for ornament or a period revival."
+    ],
+    "modifiers": [
+      {
+        "request": "warmer and softer",
+        "toward": "scandinavian-modern-product",
+        "how": "Swap chrome tube for bent birch and oak, opal glass for layered shades, and canvas for wool."
+      },
+      {
+        "request": "more colour and fun",
+        "toward": "memphis-product",
+        "how": "Keep the primary solids, but cover them in laminate pattern and saturated colour."
+      },
+      {
+        "request": "quieter and more refined",
+        "toward": "ulm-braun-functionalism",
+        "how": "Keep the order, but use white and grey plastic, a fine grid and small radii."
+      }
+    ]
+  },
+  "permutations": {
+    "ornament_level": {
+      "default": 0,
+      "min": 0,
+      "max": 0.1,
+      "note": "A trace of ornament comes only from repeated parts, such as rivets."
+    },
+    "material_warmth": {
+      "default": 0.25,
+      "min": 0.1,
+      "max": 0.5
+    },
+    "finish_gloss": {
+      "default": 85,
+      "min": 10,
+      "max": 95
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1,
+      "note": "A reissue or a new object in the same geometry keeps the style."
+    },
+    "hardware_weight": {
+      "default": 22,
+      "min": 8,
+      "max": 28
+    },
+    "edge_radius": {
+      "default": 1,
+      "min": 0,
+      "max": 6
+    },
+    "metal_tone": {
+      "default": "chrome",
+      "options": [
+        "chrome",
+        "nickel",
+        "stainless",
+        "black",
+        "white"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Bauhaus",
+      "url": "https://en.wikipedia.org/wiki/Bauhaus"
+    },
+    {
+      "title": "Wikipedia: Wagenfeld lamp",
+      "url": "https://en.wikipedia.org/wiki/Wagenfeld_lamp"
+    },
+    {
+      "title": "Wikipedia: Marianne Brandt",
+      "url": "https://en.wikipedia.org/wiki/Marianne_Brandt"
+    },
+    {
+      "title": "Wikipedia: Wassily Chair",
+      "url": "https://en.wikipedia.org/wiki/Wassily_Chair"
+    }
+  ]
+}

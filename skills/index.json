@@ -20894,6 +20894,1665 @@
           "max": 2.5
         }
       }
+    },
+    {
+      "id": "georgian-neoclassical-manufacture",
+      "name": "Georgian neoclassical manufacture",
+      "domain": "industrial",
+      "era": "proto-industrial",
+      "period": "1760–1840",
+      "thesis": "A factory can make an object that looks like a work of antiquity: the form comes from the classical model, and the mould, the lathe and the die repeat it with a fine finish.",
+      "summary": "The household goods of the first English factories: mahogany furniture, creamware and jasperware, ormolu and Sheffield plate, all made in series from the classical models of the architect and the pattern book.",
+      "path": "skills/georgian-neoclassical-manufacture/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "georgian furniture",
+        "wedgwood",
+        "jasperware",
+        "creamware",
+        "boulton ormolu",
+        "regency sideboard",
+        "neoclassical object",
+        "adam style lamp"
+      ],
+      "use_cases": [
+        "period hardware for a Georgian or Regency house",
+        "a reissue of a classical lamp or vase",
+        "a still life with creamware and mahogany",
+        "a hardware schedule for a listed building"
+      ],
+      "emotion": [
+        "refined",
+        "ordered",
+        "polite",
+        "classical",
+        "elegant"
+      ],
+      "archetypes": [
+        "ruler",
+        "lover"
+      ],
+      "vectors": {
+        "ornamentation": 4,
+        "hand_finish": 3,
+        "material_warmth": 4,
+        "visual_mass": 3,
+        "chromatic_intensity": 2
+      },
+      "techniques": [
+        "fluting"
+      ],
+      "media": [
+        "gillows"
+      ],
+      "permutations": {
+        "ornament_level": {
+          "default": 0.45,
+          "min": 0.15,
+          "max": 0.7
+        },
+        "material_warmth": {
+          "default": 0.6,
+          "min": 0.4,
+          "max": 0.85
+        },
+        "finish_gloss": {
+          "default": 70,
+          "min": 15,
+          "max": 95
+        },
+        "era_blend": {
+          "default": 0.2,
+          "min": 0,
+          "max": 1,
+          "note": "A contemporary reinterpretation keeps the style when it keeps the forms and the materials."
+        },
+        "hardware_weight": {
+          "default": 14,
+          "min": 6,
+          "max": 28
+        },
+        "edge_radius": {
+          "default": 3,
+          "min": 1,
+          "max": 12
+        },
+        "metal_tone": {
+          "default": "brass",
+          "options": [
+            "brass",
+            "bronze",
+            "nickel",
+            "black",
+            "white",
+            "none"
+          ]
+        }
+      }
+    },
+    {
+      "id": "shaker-object",
+      "name": "Shaker object",
+      "domain": "industrial",
+      "era": "proto-industrial",
+      "period": "1790–1900",
+      "thesis": "An object that serves its use well is beautiful; the maker adds no ornament, shows each joint and makes each piece with honest care.",
+      "summary": "The plain household goods of the Shaker communities: ladder-back chairs, peg rails, oval boxes and chests of pine, maple and cherry, built for use with no applied ornament.",
+      "path": "skills/shaker-object/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "shaker chair",
+        "shaker box",
+        "shaker peg rail",
+        "ladder-back chair",
+        "shaker furniture",
+        "plain pine cupboard",
+        "shaker kitchen",
+        "utilitarian handmade"
+      ],
+      "use_cases": [
+        "a plain, handmade kitchen or hall",
+        "a reissue of a peg rail, a box or a chair",
+        "a still life of useful objects",
+        "a hardware schedule for a farmhouse"
+      ],
+      "emotion": [
+        "plain",
+        "honest",
+        "modest",
+        "orderly",
+        "calm"
+      ],
+      "archetypes": [
+        "sage",
+        "innocent"
+      ],
+      "vectors": {
+        "ornamentation": 1,
+        "hand_finish": 4,
+        "material_warmth": 5,
+        "visual_mass": 2,
+        "chromatic_intensity": 2
+      },
+      "techniques": [
+        "exposed-joinery"
+      ],
+      "media": [
+        "mount-lebanon-shaker-society"
+      ],
+      "permutations": {
+        "ornament_level": {
+          "default": 0,
+          "min": 0,
+          "max": 0.1
+        },
+        "material_warmth": {
+          "default": 0.8,
+          "min": 0.55,
+          "max": 0.95
+        },
+        "finish_gloss": {
+          "default": 8,
+          "min": 2,
+          "max": 30
+        },
+        "era_blend": {
+          "default": 0.2,
+          "min": 0,
+          "max": 1,
+          "note": "A contemporary reinterpretation keeps the style when it keeps the forms and the materials."
+        },
+        "hardware_weight": {
+          "default": 8,
+          "min": 4,
+          "max": 16
+        },
+        "edge_radius": {
+          "default": 2,
+          "min": 0,
+          "max": 6
+        },
+        "metal_tone": {
+          "default": "black",
+          "options": [
+            "black",
+            "none",
+            "bronze",
+            "brass"
+          ]
+        }
+      }
+    },
+    {
+      "id": "victorian-manufacture",
+      "name": "Victorian manufacture",
+      "domain": "industrial",
+      "era": "victorian-mass-production",
+      "period": "1840–1900",
+      "thesis": "The machine makes ornament cheap, so each object can carry rich pattern, deep colour and heavy form as a sign of comfort and rank.",
+      "summary": "The household goods of the machine age in Britain: cast iron, pressed glass, deep-buttoned velvet and dark polished wood, with ornament added to each surface by the machine.",
+      "path": "skills/victorian-manufacture/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "victorian furniture",
+        "chesterfield",
+        "cast iron bath",
+        "pressed glass",
+        "balloon back chair",
+        "belfast sink",
+        "victorian parlour",
+        "great exhibition style"
+      ],
+      "use_cases": [
+        "period fittings for a Victorian terrace",
+        "a dark, rich library or parlour",
+        "a reissue of a roll-top bath or a pillar tap",
+        "a still life of pressed glass and brass"
+      ],
+      "emotion": [
+        "rich",
+        "heavy",
+        "ornate",
+        "dark",
+        "comfortable"
+      ],
+      "archetypes": [
+        "ruler",
+        "caregiver"
+      ],
+      "vectors": {
+        "ornamentation": 5,
+        "hand_finish": 2,
+        "material_warmth": 4,
+        "visual_mass": 5,
+        "chromatic_intensity": 4
+      },
+      "techniques": [
+        "chintz"
+      ],
+      "media": [
+        "great-exhibition"
+      ],
+      "permutations": {
+        "ornament_level": {
+          "default": 0.7,
+          "min": 0.4,
+          "max": 0.95
+        },
+        "material_warmth": {
+          "default": 0.55,
+          "min": 0.35,
+          "max": 0.8
+        },
+        "finish_gloss": {
+          "default": 70,
+          "min": 15,
+          "max": 95
+        },
+        "era_blend": {
+          "default": 0.2,
+          "min": 0,
+          "max": 1,
+          "note": "A contemporary reinterpretation keeps the style when it keeps the forms and the materials."
+        },
+        "hardware_weight": {
+          "default": 20,
+          "min": 8,
+          "max": 36
+        },
+        "edge_radius": {
+          "default": 8,
+          "min": 2,
+          "max": 25
+        },
+        "metal_tone": {
+          "default": "brass",
+          "options": [
+            "brass",
+            "bronze",
+            "nickel",
+            "black",
+            "copper",
+            "none"
+          ]
+        }
+      }
+    },
+    {
+      "id": "arts-and-crafts-object",
+      "name": "Arts and Crafts object",
+      "domain": "industrial",
+      "era": "reform-and-craft",
+      "period": "1880–1918",
+      "thesis": "A good object shows the hand and the material that made it: the joint, the hammer mark and the grain are the ornament, and the maker is a free craftsman.",
+      "summary": "The handmade household goods of the reform movement: oak furniture with exposed joints, hammered copper and iron, stoneware and wool, made in small workshops against the machine ornament of the age.",
+      "path": "skills/arts-and-crafts-object/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "arts and crafts furniture",
+        "hammered copper",
+        "morris chair",
+        "craftsman oak",
+        "exposed tenon",
+        "strap hinge",
+        "stickley",
+        "handmade copper lamp"
+      ],
+      "use_cases": [
+        "hardware and furniture for an Arts and Crafts house",
+        "a handmade, earthy kitchen or study",
+        "a reissue of a copper lamp or an oak settle",
+        "a still life of stoneware and copper"
+      ],
+      "emotion": [
+        "handmade",
+        "honest",
+        "warm",
+        "earthy",
+        "crafted"
+      ],
+      "archetypes": [
+        "creator",
+        "sage"
+      ],
+      "vectors": {
+        "ornamentation": 3,
+        "hand_finish": 5,
+        "material_warmth": 5,
+        "visual_mass": 3,
+        "chromatic_intensity": 3
+      },
+      "techniques": [
+        "exposed-joinery"
+      ],
+      "media": [
+        "morris-and-co"
+      ],
+      "permutations": {
+        "ornament_level": {
+          "default": 0.3,
+          "min": 0.1,
+          "max": 0.55
+        },
+        "material_warmth": {
+          "default": 0.8,
+          "min": 0.55,
+          "max": 0.95
+        },
+        "finish_gloss": {
+          "default": 15,
+          "min": 3,
+          "max": 45
+        },
+        "era_blend": {
+          "default": 0.25,
+          "min": 0,
+          "max": 1,
+          "note": "A contemporary reinterpretation keeps the style when it keeps the forms and the materials."
+        },
+        "hardware_weight": {
+          "default": 14,
+          "min": 6,
+          "max": 36
+        },
+        "edge_radius": {
+          "default": 4,
+          "min": 1,
+          "max": 12
+        },
+        "metal_tone": {
+          "default": "copper",
+          "options": [
+            "copper",
+            "brass",
+            "bronze",
+            "black",
+            "none"
+          ]
+        }
+      }
+    },
+    {
+      "id": "art-nouveau-object",
+      "name": "Art Nouveau object",
+      "domain": "industrial",
+      "era": "reform-and-craft",
+      "period": "1893–1914",
+      "thesis": "An object grows like a plant: its structure and its ornament are one curved line, made by a craftsman from the best material.",
+      "summary": "Lamps, glass, furniture and fixtures drawn from the line of a plant stem: cast bronze, art glass, carved fruit wood and porcelain, with one long curve that joins structure and ornament.",
+      "path": "skills/art-nouveau-object/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "art nouveau lamp",
+        "jugendstil object",
+        "tiffany style lamp",
+        "gallé glass",
+        "whiplash curve",
+        "stem handle",
+        "1900 craft glass",
+        "swan-neck tap"
+      ],
+      "use_cases": [
+        "lighting and glass for a period or reissue interior",
+        "a still life for an antiques catalogue",
+        "hardware schedules for a restored townhouse",
+        "a brief for a hand-finished reissue"
+      ],
+      "emotion": [
+        "organic",
+        "sensuous",
+        "curved",
+        "crafted",
+        "dreamlike"
+      ],
+      "archetypes": [
+        "creator",
+        "lover"
+      ],
+      "vectors": {
+        "ornamentation": 5,
+        "hand_finish": 4,
+        "material_warmth": 4,
+        "visual_mass": 3,
+        "chromatic_intensity": 3
+      },
+      "techniques": [
+        "whiplash-line"
+      ],
+      "media": [
+        "exposition-universelle-1900"
+      ],
+      "permutations": {
+        "ornament_level": {
+          "default": 0.65,
+          "min": 0.3,
+          "max": 1
+        },
+        "material_warmth": {
+          "default": 0.65,
+          "min": 0.35,
+          "max": 0.9
+        },
+        "finish_gloss": {
+          "default": 60,
+          "min": 15,
+          "max": 95
+        },
+        "era_blend": {
+          "default": 0.2,
+          "min": 0,
+          "max": 1,
+          "note": "A new object that quotes the curve and the glass keeps the style."
+        },
+        "hardware_weight": {
+          "default": 14,
+          "min": 6,
+          "max": 28
+        },
+        "edge_radius": {
+          "default": 8,
+          "min": 3,
+          "max": 40
+        },
+        "metal_tone": {
+          "default": "bronze",
+          "options": [
+            "bronze",
+            "brass",
+            "copper",
+            "nickel",
+            "black",
+            "none"
+          ]
+        }
+      }
+    },
+    {
+      "id": "industrial-utility-product",
+      "name": "Industrial utility product",
+      "domain": "industrial",
+      "era": "reform-and-craft",
+      "period": "1910–present",
+      "thesis": "A tool-like object earns its form from the job it does and the strain it takes; any surface that does no work is left off.",
+      "summary": "Fixtures made for work, not for show: enamel shades, cage lamps, cast iron, steel lockers, conduit and brass ship hardware. The form follows the duty, and the finish is hard and repairable.",
+      "path": "skills/industrial-utility-product/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "industrial lamp",
+        "factory pendant",
+        "cage light",
+        "cast iron fixture",
+        "enamel shade",
+        "workshop locker",
+        "loft hardware",
+        "ship bulkhead light"
+      ],
+      "use_cases": [
+        "lighting and hardware for a loft or a kitchen",
+        "a brief for reissued factory fixtures",
+        "a still life for a workshop-style shop",
+        "hardware schedules for a warehouse conversion"
+      ],
+      "emotion": [
+        "rugged",
+        "honest",
+        "functional",
+        "worn",
+        "heavy"
+      ],
+      "archetypes": [
+        "everyman",
+        "creator"
+      ],
+      "vectors": {
+        "ornamentation": 1,
+        "hand_finish": 2,
+        "material_warmth": 2,
+        "visual_mass": 5,
+        "chromatic_intensity": 1
+      },
+      "techniques": [
+        "vitreous-enamelling"
+      ],
+      "media": [
+        "werkbund-exhibition-cologne-1914"
+      ],
+      "permutations": {
+        "ornament_level": {
+          "default": 0,
+          "min": 0,
+          "max": 0.1,
+          "note": "A trace of ornament comes only from repeated parts, such as a row of rivets."
+        },
+        "material_warmth": {
+          "default": 0.3,
+          "min": 0.1,
+          "max": 0.6
+        },
+        "finish_gloss": {
+          "default": 35,
+          "min": 5,
+          "max": 90
+        },
+        "era_blend": {
+          "default": 0.25,
+          "min": 0,
+          "max": 1,
+          "note": "A contemporary object in the same duty and material keeps the style."
+        },
+        "hardware_weight": {
+          "default": 24,
+          "min": 8,
+          "max": 40
+        },
+        "edge_radius": {
+          "default": 5,
+          "min": 0,
+          "max": 20
+        },
+        "metal_tone": {
+          "default": "black",
+          "options": [
+            "black",
+            "brass",
+            "stainless",
+            "nickel",
+            "copper",
+            "white",
+            "none"
+          ]
+        }
+      }
+    },
+    {
+      "id": "bauhaus-product",
+      "name": "Bauhaus product",
+      "domain": "industrial",
+      "era": "machine-modern",
+      "period": "1923–1933",
+      "thesis": "An everyday object is a model for the factory: its form comes from plain geometry, its material and its use, and ornament has no place on it.",
+      "summary": "The workshop objects of the Bauhaus: lamps, tea sets and chairs built from the sphere, the cylinder and the cone in nickel, chrome, opal glass and bent steel tube, as models for mass production.",
+      "path": "skills/bauhaus-product/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "bauhaus lamp",
+        "bauhaus product",
+        "tubular steel",
+        "wagenfeld lamp",
+        "cantilever chair",
+        "1920s functionalist",
+        "machine age object",
+        "bauhaus metal workshop"
+      ],
+      "use_cases": [
+        "lighting and hardware for a modernist interior",
+        "product briefs for a reissue",
+        "a still life for a design museum shop",
+        "hardware schedules for a period flat"
+      ],
+      "emotion": [
+        "rational",
+        "clear",
+        "precise",
+        "modern",
+        "honest"
+      ],
+      "archetypes": [
+        "sage",
+        "creator"
+      ],
+      "vectors": {
+        "ornamentation": 1,
+        "hand_finish": 2,
+        "material_warmth": 2,
+        "visual_mass": 2,
+        "chromatic_intensity": 2
+      },
+      "techniques": [
+        "cantilever"
+      ],
+      "media": [
+        "bauhaus-school"
+      ],
+      "permutations": {
+        "ornament_level": {
+          "default": 0,
+          "min": 0,
+          "max": 0.1,
+          "note": "A trace of ornament comes only from repeated parts, such as rivets."
+        },
+        "material_warmth": {
+          "default": 0.25,
+          "min": 0.1,
+          "max": 0.5
+        },
+        "finish_gloss": {
+          "default": 85,
+          "min": 10,
+          "max": 95
+        },
+        "era_blend": {
+          "default": 0.2,
+          "min": 0,
+          "max": 1,
+          "note": "A reissue or a new object in the same geometry keeps the style."
+        },
+        "hardware_weight": {
+          "default": 22,
+          "min": 8,
+          "max": 28
+        },
+        "edge_radius": {
+          "default": 1,
+          "min": 0,
+          "max": 6
+        },
+        "metal_tone": {
+          "default": "chrome",
+          "options": [
+            "chrome",
+            "nickel",
+            "stainless",
+            "black",
+            "white"
+          ]
+        }
+      }
+    },
+    {
+      "id": "art-deco-product",
+      "name": "Art Deco product",
+      "domain": "industrial",
+      "era": "machine-modern",
+      "period": "1925–1940",
+      "thesis": "Luxury can be geometric: a rare material, a precise machine line and a bold pattern make an object that looks rich and modern.",
+      "summary": "Rich, geometric objects of the jazz age: stepped forms, fans and sunbursts in chrome, ebony, lacquer, mirror and Bakelite, made by hand and by machine for a city luxury.",
+      "path": "skills/art-deco-product/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "art deco lamp",
+        "deco object",
+        "1930s glamour hardware",
+        "ebony and chrome",
+        "sunburst mirror",
+        "stepped form",
+        "gatsby interior",
+        "jazz age"
+      ],
+      "use_cases": [
+        "lighting and hardware for a hotel or a cocktail bar",
+        "a brief for a deco reissue",
+        "a still life with mirror and chrome",
+        "hardware schedules for a period flat"
+      ],
+      "emotion": [
+        "glamorous",
+        "luxurious",
+        "geometric",
+        "bold",
+        "polished"
+      ],
+      "archetypes": [
+        "ruler",
+        "lover"
+      ],
+      "vectors": {
+        "ornamentation": 4,
+        "hand_finish": 3,
+        "material_warmth": 3,
+        "visual_mass": 4,
+        "chromatic_intensity": 3
+      },
+      "techniques": [
+        "sunburst"
+      ],
+      "media": [
+        "exposition-arts-decoratifs-1925"
+      ],
+      "permutations": {
+        "ornament_level": {
+          "default": 0.45,
+          "min": 0.2,
+          "max": 0.8
+        },
+        "material_warmth": {
+          "default": 0.4,
+          "min": 0.15,
+          "max": 0.7
+        },
+        "finish_gloss": {
+          "default": 90,
+          "min": 40,
+          "max": 100
+        },
+        "era_blend": {
+          "default": 0.2,
+          "min": 0,
+          "max": 1,
+          "note": "A contemporary object that quotes the fan, the step and the gloss keeps the style."
+        },
+        "hardware_weight": {
+          "default": 16,
+          "min": 8,
+          "max": 30
+        },
+        "edge_radius": {
+          "default": 2,
+          "min": 0,
+          "max": 25
+        },
+        "metal_tone": {
+          "default": "chrome",
+          "options": [
+            "chrome",
+            "nickel",
+            "brass",
+            "bronze",
+            "black",
+            "stainless",
+            "none"
+          ]
+        }
+      }
+    },
+    {
+      "id": "scandinavian-modern-product",
+      "name": "Scandinavian modern product",
+      "domain": "industrial",
+      "era": "machine-modern",
+      "period": "1930–1975",
+      "thesis": "A good object is a plain tool for a person: it is made of local wood and wool, shaped to the hand and the body, and built to last for decades.",
+      "summary": "Everyday objects of bent birch, teak, oak and wool from the Nordic workshops: low, soft in outline and made for use. Craft joints are kept, and makers sell to ordinary homes.",
+      "path": "skills/scandinavian-modern-product/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "scandinavian furniture",
+        "danish modern",
+        "bent birch chair",
+        "teak sideboard",
+        "paper cord seat",
+        "nordic design object",
+        "wishbone chair",
+        "1950s danish design"
+      ],
+      "use_cases": [
+        "furniture and lamps for a warm modern home",
+        "a hardware and surface schedule for a Nordic flat",
+        "a still life of wood, wool and glass",
+        "product briefs for a reissue of a mid-century classic"
+      ],
+      "emotion": [
+        "warm",
+        "humane",
+        "calm",
+        "honest",
+        "light",
+        "crafted"
+      ],
+      "archetypes": [
+        "caregiver",
+        "creator"
+      ],
+      "vectors": {
+        "ornamentation": 1,
+        "hand_finish": 4,
+        "material_warmth": 5,
+        "visual_mass": 3,
+        "chromatic_intensity": 2
+      },
+      "techniques": [
+        "laminated-timber"
+      ],
+      "media": [
+        "artek",
+        "stockholm-exhibition-1930"
+      ],
+      "permutations": {
+        "ornament_level": {
+          "default": 0.05,
+          "min": 0,
+          "max": 0.2,
+          "note": "A woven seat or a brass sleeve is the most that the style allows."
+        },
+        "material_warmth": {
+          "default": 0.8,
+          "min": 0.55,
+          "max": 1
+        },
+        "finish_gloss": {
+          "default": 15,
+          "min": 3,
+          "max": 70
+        },
+        "era_blend": {
+          "default": 0.3,
+          "min": 0,
+          "max": 1,
+          "note": "A contemporary object may keep the joint and the taper and change the proportion."
+        },
+        "hardware_weight": {
+          "default": 14,
+          "min": 6,
+          "max": 30
+        },
+        "edge_radius": {
+          "default": 8,
+          "min": 2,
+          "max": 25
+        },
+        "metal_tone": {
+          "default": "brass",
+          "options": [
+            "brass",
+            "stainless",
+            "chrome",
+            "nickel",
+            "black",
+            "none"
+          ]
+        }
+      }
+    },
+    {
+      "id": "streamline-moderne-product",
+      "name": "Streamline Moderne product",
+      "domain": "industrial",
+      "era": "machine-modern",
+      "period": "1930–1955",
+      "thesis": "A mass-made object should look as if it moves through air: a smooth shell, round corners and long lines show progress and sell.",
+      "summary": "Smooth, rounded objects that look fast: toasters, radios, lamps and chairs in chrome, aluminium, Bakelite and enamel, with long horizontal lines and speed stripes, made in mass series.",
+      "path": "skills/streamline-moderne-product/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "streamline moderne",
+        "streamlined toaster",
+        "1930s radio",
+        "teardrop form",
+        "speed stripes",
+        "machine age chrome",
+        "world's fair modern",
+        "bakelite dial"
+      ],
+      "use_cases": [
+        "kitchen objects and lighting for a retro-modern interior",
+        "a brief for a reissued appliance",
+        "a still life of chrome and enamel objects",
+        "hardware schedules for a diner or a station"
+      ],
+      "emotion": [
+        "fast",
+        "sleek",
+        "optimistic",
+        "clean",
+        "modern"
+      ],
+      "archetypes": [
+        "explorer",
+        "hero"
+      ],
+      "vectors": {
+        "ornamentation": 2,
+        "hand_finish": 1,
+        "material_warmth": 2,
+        "visual_mass": 3,
+        "chromatic_intensity": 2
+      },
+      "techniques": [
+        "speed-lines"
+      ],
+      "media": [
+        "new-york-worlds-fair-1939"
+      ],
+      "permutations": {
+        "ornament_level": {
+          "default": 0.15,
+          "min": 0,
+          "max": 0.35
+        },
+        "material_warmth": {
+          "default": 0.25,
+          "min": 0.1,
+          "max": 0.5
+        },
+        "finish_gloss": {
+          "default": 90,
+          "min": 35,
+          "max": 100
+        },
+        "era_blend": {
+          "default": 0.2,
+          "min": 0,
+          "max": 1,
+          "note": "A contemporary object with the same shell, radius and stripe keeps the style."
+        },
+        "hardware_weight": {
+          "default": 22,
+          "min": 10,
+          "max": 32
+        },
+        "edge_radius": {
+          "default": 30,
+          "min": 15,
+          "max": 40
+        },
+        "metal_tone": {
+          "default": "chrome",
+          "options": [
+            "chrome",
+            "nickel",
+            "stainless",
+            "white",
+            "black",
+            "none"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mid-century-modern-product",
+      "name": "Mid-century modern product",
+      "domain": "industrial",
+      "era": "post-war-modern",
+      "period": "1945–1975",
+      "thesis": "New materials from the war economy make a new kind of object: light, curved, bright and cheap enough for the new suburban home.",
+      "summary": "Post-war household objects of moulded plywood, fibreglass, steel rod and enamel, in organic curves and bright accents, made by American furniture firms and small Italian workshops.",
+      "path": "skills/mid-century-modern-product/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "mid-century modern",
+        "eames chair",
+        "fibreglass shell chair",
+        "atomic age design",
+        "walnut credenza",
+        "1950s american design",
+        "sunburst clock",
+        "italian 1950s design"
+      ],
+      "use_cases": [
+        "furniture and accessories for a retro-modern home",
+        "a still life with a shell chair, a clock and a pendant lamp",
+        "product briefs for a mid-century reissue",
+        "a hardware schedule for a period house"
+      ],
+      "emotion": [
+        "optimistic",
+        "playful",
+        "organic",
+        "light",
+        "modern",
+        "sociable"
+      ],
+      "archetypes": [
+        "creator",
+        "jester"
+      ],
+      "vectors": {
+        "ornamentation": 2,
+        "hand_finish": 2,
+        "material_warmth": 4,
+        "visual_mass": 2,
+        "chromatic_intensity": 4
+      },
+      "techniques": [
+        "laminated-timber"
+      ],
+      "media": [
+        "herman-miller",
+        "knoll"
+      ],
+      "permutations": {
+        "ornament_level": {
+          "default": 0.1,
+          "min": 0,
+          "max": 0.3
+        },
+        "material_warmth": {
+          "default": 0.6,
+          "min": 0.35,
+          "max": 0.85
+        },
+        "finish_gloss": {
+          "default": 45,
+          "min": 5,
+          "max": 85
+        },
+        "era_blend": {
+          "default": 0.25,
+          "min": 0,
+          "max": 1,
+          "note": "A new object in a moulded shell on a slim base still belongs to the style."
+        },
+        "hardware_weight": {
+          "default": 12,
+          "min": 6,
+          "max": 25
+        },
+        "edge_radius": {
+          "default": 20,
+          "min": 2,
+          "max": 40
+        },
+        "metal_tone": {
+          "default": "chrome",
+          "options": [
+            "chrome",
+            "brass",
+            "nickel",
+            "black",
+            "white",
+            "stainless"
+          ]
+        }
+      }
+    },
+    {
+      "id": "japanese-modern-craft-product",
+      "name": "Japanese modern craft product",
+      "domain": "industrial",
+      "era": "post-war-modern",
+      "period": "1950–present",
+      "thesis": "A useful object made with skill from a local material is beautiful without ornament; the maker's hand and the material leave the only decoration.",
+      "summary": "Japanese household objects of bamboo, paper, clay, iron and plain wood: the mingei idea of beauty in ordinary things, joined to post-war modern design and light industrial series.",
+      "path": "skills/japanese-modern-craft-product/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "mingei",
+        "japanese craft object",
+        "bamboo and washi",
+        "akari lamp",
+        "butterfly stool",
+        "hand-thrown stoneware",
+        "wabi sabi object",
+        "japanese modern product"
+      ],
+      "use_cases": [
+        "objects for a calm, craft-led interior",
+        "a still life of bowls, paper and wood",
+        "product briefs for a craft collection",
+        "a hardware schedule for a Japanese-influenced flat"
+      ],
+      "emotion": [
+        "calm",
+        "humble",
+        "crafted",
+        "quiet",
+        "natural",
+        "patient"
+      ],
+      "archetypes": [
+        "sage",
+        "creator"
+      ],
+      "vectors": {
+        "ornamentation": 1,
+        "hand_finish": 5,
+        "material_warmth": 4,
+        "visual_mass": 2,
+        "chromatic_intensity": 1
+      },
+      "techniques": [
+        "exposed-joinery"
+      ],
+      "media": [
+        "japan-folk-crafts-museum"
+      ],
+      "permutations": {
+        "ornament_level": {
+          "default": 0,
+          "min": 0,
+          "max": 0.1,
+          "note": "A trace of pattern comes only from the weave or the throwing rings."
+        },
+        "material_warmth": {
+          "default": 0.7,
+          "min": 0.5,
+          "max": 0.9
+        },
+        "finish_gloss": {
+          "default": 5,
+          "min": 0,
+          "max": 40
+        },
+        "era_blend": {
+          "default": 0.3,
+          "min": 0,
+          "max": 1,
+          "note": "A contemporary piece may quote the method with a machine."
+        },
+        "hardware_weight": {
+          "default": 8,
+          "min": 4,
+          "max": 20
+        },
+        "edge_radius": {
+          "default": 6,
+          "min": 1,
+          "max": 20
+        },
+        "metal_tone": {
+          "default": "black",
+          "options": [
+            "black",
+            "bronze",
+            "copper",
+            "brass",
+            "stainless",
+            "none"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ulm-braun-functionalism",
+      "name": "Ulm and Braun functionalism",
+      "domain": "industrial",
+      "era": "post-war-modern",
+      "period": "1955–1995",
+      "thesis": "A product is a system: it is as little design as possible, it explains its use, and it fits with its neighbours on a common grid.",
+      "summary": "Systematic household products of the Ulm school and the Braun firm: grey and white cases of aluminium and plastic, built on a grid, with controls that explain the object.",
+      "path": "skills/ulm-braun-functionalism/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "braun design",
+        "dieter rams",
+        "ulm school",
+        "good design",
+        "universal shelving",
+        "white and grey product",
+        "grid of dials",
+        "german functionalism"
+      ],
+      "use_cases": [
+        "product briefs in the style of a design-led electronics firm",
+        "a clean, grey and white object set for a modernist flat",
+        "interface references drawn from hardware",
+        "a still life of shelf, radio, clock and lamp"
+      ],
+      "emotion": [
+        "rational",
+        "exact",
+        "quiet",
+        "systematic",
+        "neutral",
+        "durable"
+      ],
+      "archetypes": [
+        "sage",
+        "ruler"
+      ],
+      "vectors": {
+        "ornamentation": 1,
+        "hand_finish": 1,
+        "material_warmth": 1,
+        "visual_mass": 3,
+        "chromatic_intensity": 2
+      },
+      "techniques": [
+        "modular-grid"
+      ],
+      "media": [
+        "braun",
+        "hfg-ulm"
+      ],
+      "permutations": {
+        "ornament_level": {
+          "default": 0,
+          "min": 0,
+          "max": 0.05,
+          "note": "Only a printed scale or a dial ring is allowed."
+        },
+        "material_warmth": {
+          "default": 0.2,
+          "min": 0.1,
+          "max": 0.5
+        },
+        "finish_gloss": {
+          "default": 25,
+          "min": 3,
+          "max": 70
+        },
+        "era_blend": {
+          "default": 0.2,
+          "min": 0,
+          "max": 1,
+          "note": "A contemporary object may keep the grid and the plain case."
+        },
+        "hardware_weight": {
+          "default": 14,
+          "min": 6,
+          "max": 30
+        },
+        "edge_radius": {
+          "default": 2,
+          "min": 0,
+          "max": 6
+        },
+        "metal_tone": {
+          "default": "stainless",
+          "options": [
+            "stainless",
+            "chrome",
+            "black",
+            "white",
+            "nickel",
+            "none"
+          ]
+        }
+      }
+    },
+    {
+      "id": "space-age-pop-product",
+      "name": "Space Age pop product",
+      "domain": "industrial",
+      "era": "post-war-modern",
+      "period": "1960–1975",
+      "thesis": "The new plastics free the form: one mould makes a whole object in one piece, and its colour and curve show a hopeful, fast, technical future.",
+      "summary": "The objects of the plastic age: chairs, lamps and tubs moulded in one piece from fibreglass, acrylic and ABS, with chrome and bright colour, in rounded forms that look like capsules, eggs and pods.",
+      "path": "skills/space-age-pop-product/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "space age furniture",
+        "1960s plastic chair",
+        "pod chair",
+        "fibreglass shell",
+        "pop design object",
+        "ball chair",
+        "tulip table",
+        "moulded plastic lamp"
+      ],
+      "use_cases": [
+        "a retro-futurist interior moodboard",
+        "product briefs for plastic furniture reissues",
+        "a still life for a design museum shop",
+        "a prop list for a 1960s film set"
+      ],
+      "emotion": [
+        "futurist",
+        "playful",
+        "glossy",
+        "optimistic",
+        "sculptural"
+      ],
+      "archetypes": [
+        "explorer",
+        "jester"
+      ],
+      "vectors": {
+        "ornamentation": 2,
+        "hand_finish": 1,
+        "material_warmth": 1,
+        "visual_mass": 3,
+        "chromatic_intensity": 4
+      },
+      "techniques": [
+        "cantilever"
+      ],
+      "media": [
+        "new-york-worlds-fair-1964"
+      ],
+      "permutations": {
+        "ornament_level": {
+          "default": 0.1,
+          "min": 0,
+          "max": 0.3
+        },
+        "material_warmth": {
+          "default": 0.2,
+          "min": 0.05,
+          "max": 0.45
+        },
+        "finish_gloss": {
+          "default": 88,
+          "min": 40,
+          "max": 98
+        },
+        "era_blend": {
+          "default": 0.3,
+          "min": 0,
+          "max": 1,
+          "note": "A reissue keeps the style; a new object keeps only the one-piece mould and the colour."
+        },
+        "hardware_weight": {
+          "default": 14,
+          "min": 6,
+          "max": 40
+        },
+        "edge_radius": {
+          "default": 30,
+          "min": 6,
+          "max": 40
+        },
+        "metal_tone": {
+          "default": "chrome",
+          "options": [
+            "chrome",
+            "stainless",
+            "white",
+            "black",
+            "none"
+          ]
+        }
+      }
+    },
+    {
+      "id": "memphis-product",
+      "name": "Memphis product",
+      "domain": "industrial",
+      "era": "postmodern-plural",
+      "period": "1981–1990",
+      "thesis": "An object is a toy for the mind: it joins cheap, bright materials with symbols and jokes, and it refuses the rule that good taste is quiet.",
+      "summary": "The objects of the Memphis group: bookcases, tables, lamps and ceramics built from bright laminate, terrazzo and coloured glass, in stacked geometric shapes with loud patterns.",
+      "path": "skills/memphis-product/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "memphis design",
+        "memphis milano",
+        "sottsass",
+        "postmodern furniture",
+        "80s laminate",
+        "terrazzo and squiggle",
+        "totem bookcase",
+        "1980s geometric lamp"
+      ],
+      "use_cases": [
+        "a maximalist interior moodboard",
+        "product briefs for a Memphis-inspired collection",
+        "a prop list for an 1980s set",
+        "a pattern study for a laminate range"
+      ],
+      "emotion": [
+        "playful",
+        "loud",
+        "patterned",
+        "postmodern",
+        "ironic"
+      ],
+      "archetypes": [
+        "jester",
+        "outlaw"
+      ],
+      "vectors": {
+        "ornamentation": 5,
+        "hand_finish": 2,
+        "material_warmth": 2,
+        "visual_mass": 4,
+        "chromatic_intensity": 5
+      },
+      "techniques": [
+        "terrazzo"
+      ],
+      "media": [
+        "memphis-group"
+      ],
+      "permutations": {
+        "ornament_level": {
+          "default": 0.6,
+          "min": 0.3,
+          "max": 1
+        },
+        "material_warmth": {
+          "default": 0.25,
+          "min": 0.1,
+          "max": 0.5
+        },
+        "finish_gloss": {
+          "default": 55,
+          "min": 20,
+          "max": 95
+        },
+        "era_blend": {
+          "default": 0.2,
+          "min": 0,
+          "max": 1,
+          "note": "A reissue keeps the style; a new object keeps the stack of solids and the pattern."
+        },
+        "hardware_weight": {
+          "default": 18,
+          "min": 8,
+          "max": 35
+        },
+        "edge_radius": {
+          "default": 2,
+          "min": 0,
+          "max": 25
+        },
+        "metal_tone": {
+          "default": "chrome",
+          "options": [
+            "chrome",
+            "nickel",
+            "stainless",
+            "brass",
+            "black",
+            "white",
+            "none"
+          ]
+        }
+      }
+    },
+    {
+      "id": "contemporary-craft-product",
+      "name": "Contemporary craft product",
+      "domain": "industrial",
+      "era": "contemporary",
+      "period": "2000–present",
+      "thesis": "A good object is made by a person from one real material, and it gains value with use: its marks, its tone and its slow wear are the ornament.",
+      "summary": "The handmade object of the quiet home: stoneware with a speckled glaze, solid oak with an oiled finish, washed linen and unlacquered brass, made in small batches and left with the marks of the hand.",
+      "path": "skills/contemporary-craft-product/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "quiet luxury objects",
+        "japandi ceramics",
+        "hand-thrown stoneware",
+        "solid oak furniture",
+        "unlacquered brass",
+        "linen sofa",
+        "artisan home",
+        "wabi-sabi object"
+      ],
+      "use_cases": [
+        "a calm home or hotel moodboard",
+        "a product brief for a craft collection",
+        "a styled shelf or table for a still life",
+        "material schedules for a quiet interior"
+      ],
+      "emotion": [
+        "calm",
+        "warm",
+        "tactile",
+        "handmade",
+        "quiet"
+      ],
+      "archetypes": [
+        "caregiver",
+        "creator"
+      ],
+      "vectors": {
+        "ornamentation": 2,
+        "hand_finish": 5,
+        "material_warmth": 5,
+        "visual_mass": 3,
+        "chromatic_intensity": 1
+      },
+      "techniques": [
+        "exposed-joinery"
+      ],
+      "media": [
+        "kinfolk"
+      ],
+      "permutations": {
+        "ornament_level": {
+          "default": 0.05,
+          "min": 0,
+          "max": 0.25
+        },
+        "material_warmth": {
+          "default": 0.8,
+          "min": 0.55,
+          "max": 1
+        },
+        "finish_gloss": {
+          "default": 6,
+          "min": 0,
+          "max": 25
+        },
+        "era_blend": {
+          "default": 0.7,
+          "min": 0,
+          "max": 1,
+          "note": "A new object in this style is the norm; a reissue of a craft original is the faithful case."
+        },
+        "hardware_weight": {
+          "default": 16,
+          "min": 8,
+          "max": 30
+        },
+        "edge_radius": {
+          "default": 6,
+          "min": 2,
+          "max": 25
+        },
+        "metal_tone": {
+          "default": "brass",
+          "options": [
+            "brass",
+            "bronze",
+            "copper",
+            "black",
+            "nickel",
+            "none"
+          ]
+        }
+      }
+    },
+    {
+      "id": "super-normal-product",
+      "name": "Super Normal product",
+      "domain": "industrial",
+      "era": "contemporary",
+      "period": "2006–present",
+      "thesis": "A good object is one that nobody notices: it does its job, it fits the hand and the room, and it needs no explanation or signature.",
+      "summary": "The anonymous everyday object: a chair, a clock, a kettle or a shelf in matte white plastic, pale wood and steel, drawn so that it looks right and leaves no trace of the designer.",
+      "path": "skills/super-normal-product/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "super normal",
+        "supernormal design",
+        "anonymous object",
+        "everyday product",
+        "matte white plastic",
+        "pale wood chair",
+        "muji-like",
+        "morrison chair"
+      ],
+      "use_cases": [
+        "a calm flat or office moodboard",
+        "product briefs for household goods",
+        "a clean still life for a catalogue",
+        "hardware schedules for a rental unit"
+      ],
+      "emotion": [
+        "quiet",
+        "plain",
+        "anonymous",
+        "calm",
+        "familiar"
+      ],
+      "archetypes": [
+        "everyman",
+        "sage"
+      ],
+      "vectors": {
+        "ornamentation": 1,
+        "hand_finish": 2,
+        "material_warmth": 3,
+        "visual_mass": 2,
+        "chromatic_intensity": 1
+      },
+      "techniques": [
+        "shadow-gap"
+      ],
+      "media": [
+        "super-normal-exhibition"
+      ],
+      "permutations": {
+        "ornament_level": {
+          "default": 0,
+          "min": 0,
+          "max": 0.05
+        },
+        "material_warmth": {
+          "default": 0.4,
+          "min": 0.2,
+          "max": 0.65
+        },
+        "finish_gloss": {
+          "default": 8,
+          "min": 3,
+          "max": 40
+        },
+        "era_blend": {
+          "default": 0.7,
+          "min": 0,
+          "max": 1,
+          "note": "A contemporary object in this style is the norm; a reissue of a 1980s piece is the faithful case."
+        },
+        "hardware_weight": {
+          "default": 10,
+          "min": 6,
+          "max": 22
+        },
+        "edge_radius": {
+          "default": 4,
+          "min": 2,
+          "max": 12
+        },
+        "metal_tone": {
+          "default": "stainless",
+          "options": [
+            "stainless",
+            "nickel",
+            "chrome",
+            "black",
+            "white",
+            "none"
+          ]
+        }
+      }
     }
   ],
   "techniques": [
@@ -21373,6 +23032,15 @@
           "lag_years": 627
         },
         {
+          "domain": "industrial",
+          "year": 1928,
+          "via": "Marcel Breuer puts the cantilever chair of bent steel tube into series production.",
+          "styles": [
+            "bauhaus-product"
+          ],
+          "lag_years": 628
+        },
+        {
           "domain": "architecture",
           "year": 1935,
           "via": "Wright cantilevers the concrete terraces of Fallingwater over a stream in Pennsylvania.",
@@ -21380,6 +23048,15 @@
             "organic-architecture"
           ],
           "lag_years": 635
+        },
+        {
+          "domain": "industrial",
+          "year": 1960,
+          "via": "Verner Panton draws the Panton chair as a cantilever seat in one moulded shell.",
+          "styles": [
+            "space-age-pop-product"
+          ],
+          "lag_years": 660
         }
       ],
       "styles": [
@@ -21387,7 +23064,9 @@
         "bauhaus-interior",
         "organic-architecture",
         "bauhaus-architecture",
-        "international-style-architecture"
+        "international-style-architecture",
+        "bauhaus-product",
+        "space-age-pop-product"
       ]
     },
     {
@@ -21619,6 +23298,16 @@
           "lag_years": 250
         },
         {
+          "domain": "industrial",
+          "year": 1850,
+          "circa": true,
+          "via": "Roller-printed cotton in strong floral patterns covers sofas, chairs and curtains in factory-made sets.",
+          "styles": [
+            "victorian-manufacture"
+          ],
+          "lag_years": 250
+        },
+        {
           "domain": "interior",
           "year": 2019,
           "via": "Grandmillennial rooms bring back chintz, skirted tables and floral wallpaper.",
@@ -21630,7 +23319,8 @@
       ],
       "styles": [
         "victorian-interior",
-        "grandmillennial-interior"
+        "grandmillennial-interior",
+        "victorian-manufacture"
       ]
     },
     {
@@ -22261,6 +23951,26 @@
           "lag_years": 4290
         },
         {
+          "domain": "industrial",
+          "year": 1790,
+          "circa": true,
+          "via": "Shaker workshops make chairs, chests and boxes with dovetails and tenons in view.",
+          "styles": [
+            "shaker-object"
+          ],
+          "lag_years": 4290
+        },
+        {
+          "domain": "industrial",
+          "year": 1895,
+          "circa": true,
+          "via": "Ernest Gimson and the Barnsley brothers make oak furniture with pegged tenons and plain joints in the Cotswolds.",
+          "styles": [
+            "arts-and-crafts-object"
+          ],
+          "lag_years": 4395
+        },
+        {
           "domain": "interior",
           "year": 1900,
           "via": "Gustav Stickley sells Craftsman furniture with through-tenons that show on the face.",
@@ -22279,6 +23989,15 @@
           "lag_years": 4408
         },
         {
+          "domain": "industrial",
+          "year": 1954,
+          "via": "Sori Yanagi joins the two bent plywood shells of the Butterfly stool with one brass rod that stays in view.",
+          "styles": [
+            "japanese-modern-craft-product"
+          ],
+          "lag_years": 4454
+        },
+        {
           "domain": "architecture",
           "year": 1996,
           "circa": true,
@@ -22287,6 +24006,15 @@
             "critical-regionalism-architecture"
           ],
           "lag_years": 4496
+        },
+        {
+          "domain": "industrial",
+          "year": 2010,
+          "via": "Craft makers leave dovetails and pegs in view on solid oak tables and cabinets.",
+          "styles": [
+            "contemporary-craft-product"
+          ],
+          "lag_years": 4510
         },
         {
           "domain": "interior",
@@ -22303,7 +24031,11 @@
         "arts-and-crafts-interior",
         "arts-and-crafts-architecture",
         "critical-regionalism-architecture",
-        "japandi-interior"
+        "japandi-interior",
+        "japanese-modern-craft-product",
+        "contemporary-craft-product",
+        "shaker-object",
+        "arts-and-crafts-object"
       ]
     },
     {
@@ -22477,6 +24209,16 @@
           "lag_years": 2364
         },
         {
+          "domain": "industrial",
+          "year": 1775,
+          "circa": true,
+          "via": "Wedgwood and Boulton copy classical urns and columns, and the cabinet makers of the pattern books turn flutes on slim mahogany legs.",
+          "styles": [
+            "georgian-neoclassical-manufacture"
+          ],
+          "lag_years": 2375
+        },
+        {
           "domain": "interior",
           "year": 1790,
           "circa": true,
@@ -22514,7 +24256,8 @@
         "art-deco-interior",
         "quiet-luxury-interior",
         "neo-deco-interior",
-        "neoclassical-architecture"
+        "neoclassical-architecture",
+        "georgian-neoclassical-manufacture"
       ]
     },
     {
@@ -22975,11 +24718,30 @@
           "lag_years": 26
         },
         {
+          "domain": "industrial",
+          "year": 1932,
+          "circa": true,
+          "via": "Alvar Aalto makes the Paimio armchair with a frame of bent laminated birch, and Nordic workshops copy the method.",
+          "styles": [
+            "scandinavian-modern-product"
+          ],
+          "lag_years": 26
+        },
+        {
           "domain": "interior",
           "year": 1946,
           "via": "Charles and Ray Eames put moulded plywood chairs into mass production.",
           "styles": [
             "mid-century-modern-interior"
+          ],
+          "lag_years": 40
+        },
+        {
+          "domain": "industrial",
+          "year": 1946,
+          "via": "Charles and Ray Eames mould plywood into chair shells with compound curves for a large series.",
+          "styles": [
+            "mid-century-modern-product"
           ],
           "lag_years": 40
         },
@@ -23003,7 +24765,9 @@
       "styles": [
         "scandinavian-interior",
         "mid-century-modern-interior",
-        "mass-timber-architecture"
+        "mass-timber-architecture",
+        "scandinavian-modern-product",
+        "mid-century-modern-product"
       ]
     },
     {
@@ -23533,6 +25297,15 @@
       },
       "adoptions": [
         {
+          "domain": "industrial",
+          "year": 1960,
+          "via": "Dieter Rams builds the 606 shelving system on a grid of rails that a user extends at will.",
+          "styles": [
+            "ulm-braun-functionalism"
+          ],
+          "lag_years": 2
+        },
+        {
           "domain": "logo",
           "year": 1962,
           "circa": true,
@@ -23587,7 +25360,8 @@
         "bento-grid-ui",
         "minimalism-web",
         "metro-ui",
-        "rams-functionalism-ui"
+        "rams-functionalism-ui",
+        "ulm-braun-functionalism"
       ]
     },
     {
@@ -24527,12 +26301,22 @@
             "critical-regionalism-architecture"
           ],
           "lag_years": 38
+        },
+        {
+          "domain": "industrial",
+          "year": 2006,
+          "via": "Super Normal products set a narrow recessed gap between the parts of a plain body.",
+          "styles": [
+            "super-normal-product"
+          ],
+          "lag_years": 48
         }
       ],
       "styles": [
         "adaptive-reuse-architecture",
         "minimalist-interior",
-        "critical-regionalism-architecture"
+        "critical-regionalism-architecture",
+        "super-normal-product"
       ]
     },
     {
@@ -24729,6 +26513,33 @@
       ]
     },
     {
+      "id": "speed-lines",
+      "name": "Speed lines",
+      "kind": "motif",
+      "origin": {
+        "domain": "industrial",
+        "year": 1930,
+        "circa": true,
+        "where": "United States",
+        "note": "Industrial designers apply the bands of aerodynamic trains and cars to radios, toasters and refrigerators."
+      },
+      "adoptions": [
+        {
+          "domain": "industrial",
+          "year": 1934,
+          "circa": true,
+          "via": "Raymond Loewy and his peers put chrome bands on household appliances and pencil sharpeners.",
+          "styles": [
+            "streamline-moderne-product"
+          ],
+          "lag_years": 4
+        }
+      ],
+      "styles": [
+        "streamline-moderne-product"
+      ]
+    },
+    {
       "id": "squash-and-stretch",
       "name": "Squash and stretch",
       "kind": "animation",
@@ -24849,6 +26660,15 @@
       },
       "adoptions": [
         {
+          "domain": "industrial",
+          "year": 1925,
+          "via": "Mirrors, clocks, grilles and lamps of the Paris exposition of decorative arts carry rays from a half disc in gilt brass and glass.",
+          "styles": [
+            "art-deco-product"
+          ],
+          "lag_years": 0
+        },
+        {
           "domain": "interior",
           "year": 1928,
           "circa": true,
@@ -24907,7 +26727,8 @@
         "art-deco-web",
         "neo-deco-interior",
         "hollywood-regency-interior",
-        "mid-century-modern"
+        "mid-century-modern",
+        "art-deco-product"
       ]
     },
     {
@@ -24952,6 +26773,15 @@
           "lag_years": 481
         },
         {
+          "domain": "industrial",
+          "year": 1981,
+          "via": "Memphis Milano uses terrazzo for table tops and prints terrazzo chips on laminate.",
+          "styles": [
+            "memphis-product"
+          ],
+          "lag_years": 481
+        },
+        {
           "domain": "interior",
           "year": 2016,
           "circa": true,
@@ -24967,7 +26797,8 @@
         "mid-century-modern-interior",
         "dopamine-decor",
         "memphis-interior",
-        "memphis-design"
+        "memphis-design",
+        "memphis-product"
       ]
     },
     {
@@ -25174,6 +27005,33 @@
       ]
     },
     {
+      "id": "vitreous-enamelling",
+      "name": "Vitreous enamelling",
+      "kind": "material",
+      "origin": {
+        "domain": "industrial",
+        "year": 1850,
+        "circa": true,
+        "where": "Central Europe",
+        "note": "Factories coat sheet iron and cast iron with glass powder, and the process makes cheap, washable pots, signs and baths."
+      },
+      "adoptions": [
+        {
+          "domain": "industrial",
+          "year": 1910,
+          "circa": true,
+          "via": "Factories and workshops fit enamelled steel shades, signs and fittings that are hard, bright and easy to wash.",
+          "styles": [
+            "industrial-utility-product"
+          ],
+          "lag_years": 60
+        }
+      ],
+      "styles": [
+        "industrial-utility-product"
+      ]
+    },
+    {
       "id": "voxel",
       "name": "Voxel",
       "kind": "technology",
@@ -25237,6 +27095,16 @@
           "lag_years": 3
         },
         {
+          "domain": "industrial",
+          "year": 1898,
+          "circa": true,
+          "via": "Hector Guimard casts the whiplash line into the railings, handles and stoves of the Castel Béranger.",
+          "styles": [
+            "art-nouveau-object"
+          ],
+          "lag_years": 5
+        },
+        {
           "domain": "typeface",
           "year": 1900,
           "via": "Otto Eckmann draws the Eckmann-Schrift with brush-like curved strokes.",
@@ -25265,7 +27133,8 @@
         "art-nouveau-architecture",
         "art-nouveau-monogram",
         "art-nouveau-interior",
-        "psychedelic"
+        "psychedelic",
+        "art-nouveau-object"
       ]
     },
     {

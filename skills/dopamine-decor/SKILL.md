@@ -222,6 +222,61 @@ The rules above name these shared principles by id. The definition is the same i
 ![Light](../../demo/moodboards/interior/dopamine-decor/light.webp)
 ![Objects](../../demo/moodboards/interior/dopamine-decor/objects.webp)
 
+## Object net
+
+Velvet, terrazzo, acrylic, coloured glass and lacquered laminate carry six saturated hues. Every form is round and glossy, and each hue repeats in at least three places. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.4, material_warmth 0.3, finish_gloss 80, era_blend 0.7, hardware_weight 20, edge_radius 25, metal_tone chrome. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#dopamine-decor).
+
+| Category | Object | Form | Material, finish, texture |
+|---|---|---|---|
+| Sanitary ([`memphis-product`](../memphis-product/SKILL.md)) | Basin | vessel bowl on a counter | Terrazzo, polished, exposed aggregate (#F2559A) |
+|  | Bath | boat-shaped tub | Acrylic, moulded gloss, mirror-smooth (#C3A5E8) |
+|  | Basin tap or mixer | single-lever monobloc | Aluminium, polished, mirror-smooth (#A7A9A6) |
+|  | Towel rail | single bar | Mild steel, matte paint, orange-peel (#FFC83D) |
+| Electrics ([`memphis-product`](../memphis-product/SKILL.md)) | Light switch | push button pair | ABS plastic, moulded gloss, mirror-smooth (#F28C28) |
+|  | Socket outlet | flush square plate | ABS plastic, moulded gloss, mirror-smooth (#C8E03A) |
+|  | Dimmer and control | large knurled rotary knob | ABS plastic, moulded gloss, knurled (#F2559A) |
+| Lighting ([`memphis-product`](../memphis-product/SKILL.md)) | Pendant lamp | opal globe | Coloured glass, clear gloss, mirror-smooth (#FFC83D) |
+|  | Table lamp | mushroom lamp | Acrylic, moulded gloss, mirror-smooth (#F2559A) |
+|  | Curtain track and blind | panel glide | Cotton, piece-dyed, plain weave (#F28C28) |
+| Storage ([`memphis-product`](../memphis-product/SKILL.md)) | Sideboard and cabinet | box on a recessed plinth | Plastic laminate, high-gloss lacquer, mirror-smooth (#C3A5E8) |
+|  | Shelving | modular cube grid | Birch plywood, matte paint, fine close grain (#F2559A) |
+|  | Handle, knob and pull | round mushroom knob | Acrylic, clear gloss, mirror-smooth (#C8E03A) |
+| Soft Furniture ([`art-deco-product`](../art-deco-product/SKILL.md)) | Sofa | curved crescent sofa | Velvet, lustre pile, cut pile (#F2559A) |
+|  | Armchair and lounge chair | barrel chair | Velvet, lustre pile, cut pile (#2350D6) |
+|  | Ottoman and pouf | round pouf | Velvet, lustre pile, cut pile (#FFC83D) |
+|  | Bed | upholstered headboard | Velvet, lustre pile, cut pile (#C3A5E8) |
+| Tables ([`memphis-product`](../memphis-product/SKILL.md)) | Low table | nesting set | Terrazzo, polished, exposed aggregate (#F2559A) |
+|  | Side table | drum | Acrylic, high-gloss lacquer, mirror-smooth (#F28C28) |
+|  | Dining table | pedestal tulip base | Plastic laminate, high-gloss lacquer, satin-smooth (#C8E03A) |
+|  | Dining chair | stacking steel chair | Mild steel, matte paint, orange-peel (#2350D6) |
+| Kitchen ([`memphis-product`](../memphis-product/SKILL.md)) | Kitchen front | flat slab door | Plastic laminate, moulded gloss, mirror-smooth (#F2559A) |
+|  | Worktop and splashback | tiled counter | Terrazzo, polished, exposed aggregate (#F28C28) |
+|  | Kettle and small appliances | streamlined toaster | ABS plastic, moulded gloss, mirror-smooth (#FFC83D) |
+|  | Tableware and glassware | stacking geometric set | Porcelain, vitreous gloss glaze, mirror-smooth (#2350D6) |
+| Decor ([`memphis-product`](../memphis-product/SKILL.md)) | Vase | free-form wave vase | Coloured glass, clear gloss, mirror-smooth (#C3A5E8) |
+|  | Mirror | pill-shaped mirror | Acrylic, high-gloss lacquer, mirror-smooth (#F2559A) |
+|  | Picture frame | thin black box frame | Acrylic, clear gloss, mirror-smooth (#2350D6) |
+|  | Rug | geometric hand-tufted rug | Wool, piece-dyed, cut pile (#2350D6) |
+|  | Bowl, tray and box | pressed-glass dish | Coloured glass, clear gloss, pressed pattern (#C8E03A) |
+
+Alternates for each category:
+- **Sanitary:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md)
+- **Electrics:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md)
+- **Lighting:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md)
+- **Storage:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md)
+- **Soft Furniture:** [`memphis-product`](../memphis-product/SKILL.md), [`space-age-pop-product`](../space-age-pop-product/SKILL.md)
+- **Tables:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md)
+- **Kitchen:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md)
+- **Decor:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md)
+
+The moodboard tiles resolve to these objects:
+- **room:** Sofa, Armchair and lounge chair, Rug, Low table, Table lamp, Mirror, Sideboard and cabinet
+- **materials:** Sofa, Low table, Kitchen front, Vase, Bowl, tray and box, Side table
+- **furniture:** Sofa, Armchair and lounge chair, Bed, Ottoman and pouf, Low table, Side table, Sideboard and cabinet
+- **textiles:** Sofa, Armchair and lounge chair, Ottoman and pouf, Bed, Rug, Curtain track and blind
+- **light:** Table lamp, Pendant lamp, Curtain track and blind
+- **objects:** Vase, Mirror, Picture frame, Bowl, tray and box, Tableware and glassware
+
 ## Vocabulary primer
 
 Use these terms in a brief, an image prompt or a 3D scene description.
@@ -299,7 +354,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`memphis-interior`](../memphis-interior/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`japandi-interior`](../japandi-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
 - **Was rejected by:** [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md)
-- **Kin in another domain:** [`food-photography`](../food-photography/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md)
+- **Kin in another domain:** [`food-photography`](../food-photography/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`memphis-product`](../memphis-product/SKILL.md)
 - **Nearest by vector profile:** [`memphis-interior`](../memphis-interior/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md)
 
 ## Emotional target

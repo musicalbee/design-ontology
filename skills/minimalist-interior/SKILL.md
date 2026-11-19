@@ -212,6 +212,61 @@ The rules above name these shared principles by id. The definition is the same i
 ![Light](../../demo/moodboards/interior/minimalist-interior/light.webp)
 ![Objects](../../demo/moodboards/interior/minimalist-interior/objects.webp)
 
+## Object net
+
+White plaster, honed limestone and pale oak with plain linen; every object is flush, thin and quiet, and one graphite fitting is the only dark mark. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0, material_warmth 0.4, finish_gloss 10, era_blend 0.6, hardware_weight 8, edge_radius 3, metal_tone black. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#minimalist-interior).
+
+| Category | Object | Form | Material, finish, texture |
+|---|---|---|---|
+| Sanitary ([`super-normal-product`](../super-normal-product/SKILL.md)) | Basin | wall-hung rectangle | Vitreous china, vitreous gloss glaze, mirror-smooth (#F6F6F3) |
+|  | WC | wall-hung pan with hidden cistern | Vitreous china, vitreous gloss glaze, mirror-smooth (#F6F6F3) |
+|  | Basin tap or mixer | wall-mounted spout | Aluminium, matte powder coat, satin-smooth (#2B2B2B) |
+|  | Shower | flush ceiling head | Stainless steel, brushed, brush lines |
+| Electrics ([`super-normal-product`](../super-normal-product/SKILL.md)) | Light switch | slim flat-plate rocker | ABS plastic, moulded matte, satin-smooth (#F6F6F3) |
+|  | Socket outlet | screwless flat plate | ABS plastic, moulded matte, satin-smooth (#F6F6F3) |
+|  | Dimmer and control | flat touch panel | Clear glass, clear gloss, mirror-smooth (#2B2B2B) |
+| Lighting ([`super-normal-product`](../super-normal-product/SKILL.md)) | Pendant lamp | linear bar | Aluminium, matte powder coat, satin-smooth (#F6F6F3) |
+|  | Wall sconce | flat opal disc | Opal glass, acid-etched or sandblasted, etched or frosted (#F6F6F3) |
+|  | Task lamp | cantilevered slim LED lamp | Aluminium, matte powder coat, satin-smooth (#2B2B2B) |
+|  | Curtain track and blind | ceiling-recessed track | Aluminium, brushed, satin-smooth |
+| Storage ([`super-normal-product`](../super-normal-product/SKILL.md)) | Wardrobe and tall cabinet | flush built-in wall | Plastic laminate, high-gloss lacquer, satin-smooth (#F6F6F3) |
+|  | Sideboard and cabinet | wall-hung box with push doors | Birch plywood, matte paint, satin-smooth (#F6F6F3) |
+|  | Shelving | floating plank | Oak, oiled, fine close grain (#CDB592) |
+|  | Handle, knob and pull | recessed finger groove | Aluminium, brushed, brush lines |
+| Soft Furniture ([`super-normal-product`](../super-normal-product/SKILL.md)) | Sofa | low modular block sofa | Linen, washed, soft, slub weave (#A39E96) |
+|  | Armchair and lounge chair | low slung lounge chair on a sled base | Wool, piece-dyed, twill or herringbone (#A39E96) |
+|  | Bed | platform bed on a recessed plinth | Oak, oiled, fine close grain (#CDB592) |
+|  | Cushion and throw | knife-edge square | Cotton, piece-dyed, plain weave (#DCD5C8) |
+| Tables ([`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)) | Dining table | slab top on a sled frame | Oak, oiled, fine close grain (#CDB592) |
+|  | Dining chair | upholstered parsons chair | Linen, piece-dyed, plain weave (#A39E96) |
+|  | Low table | plinth block | Travertine, honed, porous or pitted (#DCD5C8) |
+|  | Side table | tray-top stool | Ash, oiled, fine close grain (#CDB592) |
+| Kitchen ([`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)) | Kitchen front | handleless door with a J-groove | Ash, matte paint, fine close grain (#F6F6F3) |
+|  | Worktop and splashback | slim 12 mm stone slab | Limestone, honed, porous or pitted (#DCD5C8) |
+|  | Kitchen sink and tap | pull-out spray tap | Bronze, blackened, satin-smooth (#2B2B2B) |
+|  | Tableware and glassware | hand-thrown bowls | Stoneware, matte glaze, throwing rings (#F6F6F3) |
+| Decor ([`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)) | Bowl, tray and box | hand-thrown studio bowl | Stoneware, matte glaze, throwing rings (#F6F6F3) |
+|  | Vase | cylinder | Stoneware, matte glaze, speckled clay (#DCD5C8) |
+|  | Rug | plain wool rug with a border | Wool, piece-dyed, cut pile (#A39E96) |
+
+Alternates for each category:
+- **Sanitary:** [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)
+- **Electrics:** [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)
+- **Lighting:** [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)
+- **Storage:** [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)
+- **Soft Furniture:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md)
+- **Tables:** [`super-normal-product`](../super-normal-product/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
+- **Kitchen:** [`super-normal-product`](../super-normal-product/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md), [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md)
+- **Decor:** [`super-normal-product`](../super-normal-product/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
+
+The moodboard tiles resolve to these objects:
+- **room:** Sofa, Dining table, Wardrobe and tall cabinet, Pendant lamp, Dining chair, Low table
+- **materials:** Worktop and splashback, Low table, Dining table, Wardrobe and tall cabinet, Sofa, Basin
+- **furniture:** Sofa, Dining table, Dining chair, Low table, Bed, Armchair and lounge chair
+- **textiles:** Sofa, Armchair and lounge chair, Cushion and throw, Rug, Curtain track and blind
+- **light:** Wall sconce, Pendant lamp, Task lamp, Curtain track and blind
+- **objects:** Bowl, tray and box, Vase, Tableware and glassware
+
 ## Vocabulary primer
 
 Use these terms in a brief, an image prompt or a 3D scene description.
@@ -270,7 +325,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`memphis-interior`](../memphis-interior/SKILL.md)
 - **Was rejected by:** [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md)
 - **Mixes well with:** [`coastal-interior`](../coastal-interior/SKILL.md)
-- **Kin in another domain:** [`flat-design`](../flat-design/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`minimal-wordmark`](../minimal-wordmark/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md)
+- **Kin in another domain:** [`flat-design`](../flat-design/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`minimal-wordmark`](../minimal-wordmark/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
 - **Nearest by vector profile:** [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md)
 
 ## Emotional target

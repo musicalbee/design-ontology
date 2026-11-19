@@ -223,6 +223,65 @@ The rules above name these shared principles by id. The definition is the same i
 ![Light](../../demo/moodboards/interior/memphis-interior/light.webp)
 ![Objects](../../demo/moodboards/interior/memphis-interior/objects.webp)
 
+## Object net
+
+Printed plastic laminate, terrazzo, coloured glass and enamel in flat pink, turquoise and yellow; every object is a stack of solids with a squiggle or a grid. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.7, material_warmth 0.2, finish_gloss 65, era_blend 0.2, hardware_weight 18, edge_radius 3, metal_tone chrome. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#memphis-interior).
+
+| Category | Object | Form | Material, finish, texture |
+|---|---|---|---|
+| Sanitary ([`memphis-product`](../memphis-product/SKILL.md)) | Basin | trough basin | Terrazzo, honed, exposed aggregate (#8DD8B5) |
+|  | Basin tap or mixer | lever on a cone body | Aluminium, matte powder coat, satin-smooth (#F7D02C) |
+|  | Towel rail | ladder rail | Chrome-plated steel tube, polished, mirror-smooth |
+|  | Bath accessories | shelf-top vessels | Porcelain, vitreous gloss glaze, mirror-smooth (#1FB5C8) |
+| Electrics ([`memphis-product`](../memphis-product/SKILL.md)) | Light switch | push button pair | ABS plastic, moulded gloss, mirror-smooth (#E4322B) |
+|  | Socket outlet | flush square plate | ABS plastic, moulded gloss, mirror-smooth (#111111) |
+|  | Dimmer and control | large knurled rotary knob | ABS plastic, moulded gloss, knurled (#F7D02C) |
+|  | Visible cable and conduit | fabric-braided cord in a loop | Cotton, piece-dyed, plain weave (#F7D02C) |
+| Lighting ([`memphis-product`](../memphis-product/SKILL.md)) | Pendant lamp | enamel dome | Enamelled steel, gloss enamel, mirror-smooth (#F4A6C0) |
+|  | Floor lamp | uplighter bowl on a column | Aluminium, matte powder coat, satin-smooth (#F7D02C) |
+|  | Table lamp | glass dome on a metal base | Coloured glass, clear gloss, satin-smooth (#1FB5C8) |
+|  | Curtain track and blind | roller blind | Cotton, piece-dyed, plain weave (#F7D02C) |
+| Storage ([`memphis-product`](../memphis-product/SKILL.md)) | Shelving | modular cube grid | Plastic laminate, high-gloss lacquer, satin-smooth (#F4A6C0) |
+|  | Sideboard and cabinet | modular boxes on a steel frame | Plastic laminate, moulded gloss, satin-smooth (#1FB5C8) |
+|  | Handle, knob and pull | round mushroom knob | Acrylic, clear gloss, mirror-smooth (#F7D02C) |
+|  | Hooks and pegs | ball-end wall hooks | ABS plastic, moulded gloss, mirror-smooth (#E4322B) |
+| Soft Furniture ([`memphis-product`](../memphis-product/SKILL.md)) | Sofa | low modular block sofa | Cotton, printed, twill or herringbone (#F4A6C0) |
+|  | Armchair and lounge chair | club chair | Cotton, printed, twill or herringbone (#1FB5C8) |
+|  | Ottoman and pouf | round pouf | Cotton, printed, plain weave (#F7D02C) |
+|  | Cushion and throw | square with piping | Cotton, printed, plain weave (#111111) |
+| Tables ([`memphis-product`](../memphis-product/SKILL.md)) | Low table | glass-look top on cone legs | Acrylic, clear gloss, mirror-smooth |
+|  | Side table | drum | Terrazzo, honed, exposed aggregate (#8DD8B5) |
+|  | Dining table | slab top on a sled frame | Plastic laminate, moulded gloss, satin-smooth (#F4A6C0) |
+|  | Dining chair | stacking steel chair | Mild steel, matte powder coat, orange-peel (#F7D02C) |
+| Kitchen ([`memphis-product`](../memphis-product/SKILL.md)) | Kitchen front | flat slab door | Plastic laminate, moulded matte, satin-smooth (#1FB5C8) |
+|  | Worktop and splashback | full-height slab splashback | Terrazzo, honed, exposed aggregate (#8DD8B5) |
+|  | Kettle and small appliances | boxy radio-and-appliance set | ABS plastic, moulded gloss, mirror-smooth (#E4322B) |
+|  | Cookware | enamelled cast-iron casserole | Enamelled steel, gloss enamel, mirror-smooth (#E4322B) |
+|  | Tableware and glassware | stacking geometric set | Porcelain, vitreous gloss glaze, mirror-smooth (#F7D02C) |
+| Decor ([`memphis-product`](../memphis-product/SKILL.md)) | Vase | trumpet vase | Porcelain, vitreous gloss glaze, mirror-smooth (#F7D02C) |
+|  | Bowl, tray and box | pressed-glass dish | Coloured glass, clear gloss, pressed pattern (#1FB5C8) |
+|  | Clock | ball or atomic clock | ABS plastic, moulded gloss, orange-peel (#E4322B) |
+|  | Picture frame | wide flat-profile frame | Acrylic, clear gloss, mirror-smooth (#F4A6C0) |
+|  | Rug | geometric hand-tufted rug | Wool, printed, cut pile (#F2EFE8) |
+
+Alternates for each category:
+- **Sanitary:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md)
+- **Electrics:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+- **Lighting:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md)
+- **Storage:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+- **Soft Furniture:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+- **Tables:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md)
+- **Kitchen:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md)
+- **Decor:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md)
+
+The moodboard tiles resolve to these objects:
+- **room:** Shelving, Sofa, Low table, Dining chair, Side table, Floor lamp, Rug, Pendant lamp
+- **materials:** Shelving, Side table, Worktop and splashback, Dining table, Kitchen front, Cushion and throw, Table lamp
+- **furniture:** Shelving, Sofa, Armchair and lounge chair, Low table, Dining chair, Side table
+- **textiles:** Sofa, Cushion and throw, Armchair and lounge chair, Ottoman and pouf, Rug, Curtain track and blind
+- **light:** Floor lamp, Table lamp, Pendant lamp, Curtain track and blind
+- **objects:** Vase, Bowl, tray and box, Clock, Picture frame
+
 ## Vocabulary primer
 
 Use these terms in a brief, an image prompt or a 3D scene description.
@@ -279,7 +338,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`dopamine-decor`](../dopamine-decor/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`bauhaus-interior`](../bauhaus-interior/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md)
 - **Was rejected by:** [`minimalist-interior`](../minimalist-interior/SKILL.md)
-- **Kin in another domain:** [`memphis-design`](../memphis-design/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md)
+- **Kin in another domain:** [`memphis-design`](../memphis-design/SKILL.md), [`memphis-product`](../memphis-product/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md)
 - **Nearest by vector profile:** [`dopamine-decor`](../dopamine-decor/SKILL.md), [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md)
 
 ## Emotional target

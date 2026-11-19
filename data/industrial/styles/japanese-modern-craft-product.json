@@ -1,0 +1,417 @@
+{
+  "$schema": "../../../schema/domains/industrial.schema.json",
+  "id": "japanese-modern-craft-product",
+  "domain": "industrial",
+  "name": "Japanese modern craft product",
+  "aliases": [
+    "Mingei-influenced design",
+    "Japanese modern product",
+    "Kogei-modern"
+  ],
+  "era_id": "post-war-modern",
+  "time_period": {
+    "start": 1950,
+    "end": null,
+    "label": "1950–present"
+  },
+  "region": "Japan",
+  "summary": "Japanese household objects of bamboo, paper, clay, iron and plain wood: the mingei idea of beauty in ordinary things, joined to post-war modern design and light industrial series.",
+  "philosophy": {
+    "core_thesis": "A useful object made with skill from a local material is beautiful without ornament; the maker's hand and the material leave the only decoration.",
+    "design_principles": [
+      "Use a local material of plain character: bamboo, washi paper, clay, cast iron, cotton or ash.",
+      "Leave the mark of the hand in view: throwing rings, a brush stroke, a weave or a tool cut.",
+      "Join parts without hidden fixings: a joint, a lashing or a single brass rod stays in view.",
+      "Draw a form from use, in a pure curve or a straight line, with no applied pattern.",
+      "Keep colours to the natural tones of the material, with indigo, iron brown and unbleached white.",
+      "Let the object leave space round it: a small body in an open, empty room.",
+      "Make each object so that it improves with use, and mend it with the same craft.",
+      "Join the craft method to a light series, so that a household can own the object."
+    ],
+    "anti_patterns": [
+      "Applied pattern and gilt ornament",
+      "High-gloss plastic and chrome",
+      "Perfectly even machine finish with no trace of the hand",
+      "Dragon, wave and cherry blossom motifs as souvenir decoration",
+      "Heavy dark lacquer on every surface",
+      "Crowded shelves and many small ornaments"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "hand_finish": 5,
+    "material_warmth": 4,
+    "visual_mass": 2,
+    "chromatic_intensity": 1
+  },
+  "form": {
+    "geometry": "Pure curves and straight lines: the circle, the arc, the square and the plane, in thin sheet, rod and woven strip.",
+    "silhouette": "A small, calm outline with open space round it; a stool of two bent shells, a round lantern or a plain bowl.",
+    "edges": "Soft radius of 3 to 15 mm on wood and clay; a thin edge on paper and bamboo.",
+    "proportion": "A low table is 30 to 40 cm high; a stool is 35 to 40 cm high; a paper lantern is 30 to 60 cm across.",
+    "ornament": "None applied. The only pattern is the weave of cane, the rings of the potter's wheel and the grain of the wood.",
+    "rules": [
+      "Each object has 1 to 3 parts and no applied pattern.",
+      "Each joint is a lashing, a peg, a tenon or a single metal rod in view.",
+      "Clay carries the marks of the wheel and a matte, earth-coloured glaze.",
+      "Paper and bamboo parts keep the natural fibre in view.",
+      "A colour other than the material tone is indigo, iron black or white."
+    ]
+  },
+  "materials": {
+    "primary": [
+      "bamboo",
+      "washi-paper",
+      "stoneware",
+      "ash",
+      "oak",
+      "linen"
+    ],
+    "secondary": [
+      "walnut",
+      "cherry",
+      "birch-plywood",
+      "cane",
+      "wicker",
+      "rattan",
+      "jute",
+      "cotton",
+      "silk",
+      "porcelain",
+      "cast-iron",
+      "copper",
+      "solid-brass",
+      "stainless-steel",
+      "enamelled-steel",
+      "cork"
+    ],
+    "avoid": [
+      "abs-plastic",
+      "pvc",
+      "plastic-laminate",
+      "velvet",
+      "coloured-glass",
+      "mirror-glass",
+      "mahogany"
+    ],
+    "rule": "Plant fibre, wood and clay make about 80% of the visible surface; metal is small and dark."
+  },
+  "finish": {
+    "finishes": [
+      "oiled",
+      "soaped",
+      "natural-fibre",
+      "piece-dyed",
+      "matte-glaze",
+      "unglazed",
+      "vitreous-glaze",
+      "blackened"
+    ],
+    "textures": [
+      "open-grain",
+      "fine-grain",
+      "plain-weave",
+      "slub-weave",
+      "throwing-rings",
+      "speckled-clay",
+      "plaited",
+      "satin-smooth"
+    ],
+    "gloss": "0–10 GU on all main surfaces; 20–40 GU on glazed clay",
+    "patina": "The style values age: oiled wood darkens, paper yellows, iron takes a dark skin, and a repair is a mark of care."
+  },
+  "hardware": {
+    "metal_tone": "black",
+    "section": "Wire and rod 3–8 mm; handles and bails of cast iron 10–15 mm",
+    "joints": "Peg and wedge, lashing with cord, or a single brass rod through two bent shells; always in view.",
+    "handles": "A cut notch, a bamboo or cane loop, or a plain wooden peg of 20 mm.",
+    "switches_and_taps": "A small square plate of white porcelain or plain wood; a simple cylindrical tap in dark metal."
+  },
+  "palette": {
+    "strategy": "The tone of the material: paper white, ash and bamboo, with indigo and iron brown as the only deep colours.",
+    "colours": [
+      {
+        "name": "Washi white",
+        "hex": "#EFE9DA",
+        "role": "paper, wall, shade"
+      },
+      {
+        "name": "Bamboo tan",
+        "hex": "#C9A46A",
+        "role": "cane, bamboo, ash"
+      },
+      {
+        "name": "Indigo",
+        "hex": "#26364F",
+        "role": "textile, cushion"
+      },
+      {
+        "name": "Iron brown",
+        "hex": "#5A3D2B",
+        "role": "glaze, tool"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#2B2926",
+        "role": "cast iron, ink"
+      },
+      {
+        "name": "Clay grey",
+        "hex": "#A59E91",
+        "role": "stoneware"
+      }
+    ]
+  },
+  "manufacture": {
+    "processes": [
+      "hand throwing and wood-fired glazing of clay",
+      "bending and lashing of bamboo",
+      "making of washi paper from bark fibre",
+      "wood joinery without nails",
+      "bending of plywood in a mould",
+      "casting of iron in sand"
+    ],
+    "scale": "Workshops and village potteries of a few craftspeople, and short industrial series of a few thousand pieces for a national market.",
+    "signs": "Throwing rings in clay, a bamboo lashing, a visible brass rod, a slight irregular glaze and the unbleached colour of paper."
+  },
+  "signatures": {
+    "objects": [
+      {
+        "category": "sanitary",
+        "object": "bathtub",
+        "form": "deep square bath of solid wood",
+        "material": "oak",
+        "finish": "oiled",
+        "texture": "open-grain"
+      },
+      {
+        "category": "electrics",
+        "object": "light-switch",
+        "form": "small square plate of white porcelain",
+        "material": "porcelain",
+        "finish": "vitreous-glaze",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "lighting",
+        "object": "pendant-lamp",
+        "form": "round paper lantern on a thin rib frame",
+        "material": "washi-paper",
+        "finish": "natural-fibre",
+        "texture": "plain-weave"
+      },
+      {
+        "category": "storage",
+        "object": "chest-of-drawers",
+        "form": "low chest with flush, pull-less drawers and a notch grip",
+        "material": "cherry",
+        "finish": "oiled",
+        "texture": "fine-grain"
+      },
+      {
+        "category": "soft-furniture",
+        "object": "cushion",
+        "form": "indigo-dyed floor cushion with a slub weave",
+        "material": "linen",
+        "finish": "piece-dyed",
+        "texture": "slub-weave"
+      },
+      {
+        "category": "tables",
+        "object": "coffee-table",
+        "form": "low, plain table on four square legs",
+        "material": "ash",
+        "finish": "soaped",
+        "texture": "open-grain"
+      },
+      {
+        "category": "kitchen",
+        "object": "tableware",
+        "form": "hand-thrown rice bowl with an iron-brown glaze",
+        "material": "stoneware",
+        "finish": "matte-glaze",
+        "texture": "throwing-rings"
+      },
+      {
+        "category": "decor",
+        "object": "bowl-and-tray",
+        "form": "woven tray in split cane",
+        "material": "wicker",
+        "finish": "natural-fibre",
+        "texture": "plaited"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Japanese modern craft object",
+      "mingei folk craft",
+      "hand-thrown stoneware bowl",
+      "washi paper lantern",
+      "bamboo and ash wood",
+      "visible lashing and joint",
+      "indigo dyed linen cushion",
+      "unglazed iron-brown glaze",
+      "soft diffuse light, empty room",
+      "studio product photograph"
+    ],
+    "negative": [
+      "applied ornament",
+      "glossy plastic",
+      "chrome",
+      "souvenir dragon motif",
+      "perfect machine finish",
+      "crowded shelf"
+    ],
+    "canonical_works": [
+      {
+        "work": "Akari light sculpture",
+        "maker": "Isamu Noguchi",
+        "year": 1951
+      },
+      {
+        "work": "Butterfly stool",
+        "maker": "Sori Yanagi",
+        "year": 1954
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Akari light sculpture 10A",
+      "kind": "image",
+      "maker": "Isamu Noguchi",
+      "year": 1951,
+      "credit": "Jean-Pierre Dalbéra from Paris, France",
+      "licence": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Akari_light_sculpture_model_10A_by_Isamu_Noguchi.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Akari_light_sculpture_model_10A_by_Isamu_Noguchi.jpg/960px-Akari_light_sculpture_model_10A_by_Isamu_Noguchi.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "arts-and-crafts-object"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "scandinavian-modern-product",
+      "shaker-object"
+    ],
+    "echoes": [
+      "japandi-interior"
+    ]
+  },
+  "emotion": {
+    "target_response": "Quiet respect: the object shows the hand that made it and asks the user to slow down.",
+    "keywords": [
+      "calm",
+      "humble",
+      "crafted",
+      "quiet",
+      "natural",
+      "patient"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "mingei",
+      "japanese craft object",
+      "bamboo and washi",
+      "akari lamp",
+      "butterfly stool",
+      "hand-thrown stoneware",
+      "wabi sabi object",
+      "japanese modern product"
+    ],
+    "use_cases": [
+      "objects for a calm, craft-led interior",
+      "a still life of bowls, paper and wood",
+      "product briefs for a craft collection",
+      "a hardware schedule for a Japanese-influenced flat"
+    ],
+    "avoid_when": [
+      "The brief asks for a glossy, high-tech or colourful object.",
+      "The brief asks for ornament or a decorative pattern."
+    ],
+    "modifiers": [
+      {
+        "request": "warmer and more Nordic",
+        "toward": "scandinavian-modern-product",
+        "how": "Swap bamboo and paper for oiled teak and oak, and add wool and a paper cord seat."
+      },
+      {
+        "request": "more systematic and exact",
+        "toward": "ulm-braun-functionalism",
+        "how": "Replace the marks of the hand with a grid, white plastic and brushed aluminium."
+      },
+      {
+        "request": "more contemporary and calm",
+        "toward": "super-normal-product",
+        "how": "Keep the plain form but use a precise machine finish and a quiet grey and white palette."
+      }
+    ]
+  },
+  "permutations": {
+    "ornament_level": {
+      "default": 0,
+      "min": 0,
+      "max": 0.1,
+      "note": "A trace of pattern comes only from the weave or the throwing rings."
+    },
+    "material_warmth": {
+      "default": 0.7,
+      "min": 0.5,
+      "max": 0.9
+    },
+    "finish_gloss": {
+      "default": 5,
+      "min": 0,
+      "max": 40
+    },
+    "era_blend": {
+      "default": 0.3,
+      "min": 0,
+      "max": 1,
+      "note": "A contemporary piece may quote the method with a machine."
+    },
+    "hardware_weight": {
+      "default": 8,
+      "min": 4,
+      "max": 20
+    },
+    "edge_radius": {
+      "default": 6,
+      "min": 1,
+      "max": 20
+    },
+    "metal_tone": {
+      "default": "black",
+      "options": [
+        "black",
+        "bronze",
+        "copper",
+        "brass",
+        "stainless",
+        "none"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Mingei",
+      "url": "https://en.wikipedia.org/wiki/Mingei"
+    },
+    {
+      "title": "Wikipedia: Sori Yanagi",
+      "url": "https://en.wikipedia.org/wiki/Sori_Yanagi"
+    },
+    {
+      "title": "Wikipedia: Akari (light sculptures)",
+      "url": "https://en.wikipedia.org/wiki/Akari_(light_sculptures)"
+    }
+  ]
+}

@@ -220,6 +220,66 @@ The rules above name these shared principles by id. The definition is the same i
 ![Light](../../demo/moodboards/interior/hollywood-regency-interior/light.webp)
 ![Objects](../../demo/moodboards/interior/hollywood-regency-interior/objects.webp)
 
+## Object net
+
+Gloss lacquer, mirror glass, gilt brass and tufted velvet in pairs: every object shines, and every light source doubles in a mirror. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.5, material_warmth 0.45, finish_gloss 88, era_blend 0.3, hardware_weight 18, edge_radius 4, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#hollywood-regency-interior).
+
+| Category | Object | Form | Material, finish, texture |
+|---|---|---|---|
+| Sanitary ([`art-deco-product`](../art-deco-product/SKILL.md)) | Basin | console basin on legs | Marble, polished, veined (#F4F1EA) |
+|  | Basin tap or mixer | swan-neck spout | Solid brass, polished, mirror-smooth (#C9A246) |
+|  | Towel rail | pedestal rail on feet | Solid brass, polished, mirror-smooth (#C9A246) |
+|  | Bath accessories | shelf-top vessels | Frosted glass, acid-etched or sandblasted, etched or frosted (#D7DCDF) |
+| Electrics ([`art-deco-product`](../art-deco-product/SKILL.md)) | Light switch | dolly toggle on a square plate | Solid brass, polished, mirror-smooth (#C9A246) |
+|  | Socket outlet | flush square plate | Bakelite, moulded gloss, mirror-smooth (#111111) |
+|  | Dimmer and control | large knurled rotary knob | Solid brass, polished, knurled (#C9A246) |
+| Lighting ([`art-deco-product`](../art-deco-product/SKILL.md)) | Pendant lamp | tiered chandelier | Pressed glass, clear gloss, pressed pattern (#D7DCDF) |
+|  | Table lamp | ginger-jar base with a drum shade | Porcelain, vitreous gloss glaze, mirror-smooth (#E2735E) |
+|  | Wall sconce | candle arm with a pleated shade | Solid brass, gilded, cast relief ornament (#C9A246) |
+|  | Floor lamp | standard lamp with a pleated shade | Solid brass, polished, mirror-smooth (#C9A246) |
+|  | Curtain pole | pole with spear or acanthus finials | Solid brass, gilded, cast relief ornament (#C9A246) |
+| Storage ([`art-deco-product`](../art-deco-product/SKILL.md)) | Sideboard and cabinet | breakfront with a raised centre | Macassar ebony, french polish, figured grain (#111111) |
+|  | Shelving | open bookcase | Walnut, high-gloss lacquer, fine close grain (#0F6B4F) |
+|  | Wardrobe and tall cabinet | flush built-in wall | Mirror glass, silvered, mirror-smooth (#D7DCDF) |
+|  | Handle, knob and pull | drop pull on a backplate | Solid brass, polished, cast relief ornament (#C9A246) |
+| Soft Furniture ([`art-deco-product`](../art-deco-product/SKILL.md)) | Sofa | tuxedo sofa with flush arms | Velvet, piece-dyed, button-tufted (#E2735E) |
+|  | Armchair and lounge chair | barrel chair | Velvet, lustre pile, button-tufted (#0F6B4F) |
+|  | Ottoman and pouf | button-tufted ottoman | Velvet, piece-dyed, button-tufted (#E2735E) |
+|  | Cushion and throw | bolster | Mohair, piece-dyed, cut pile (#0F6B4F) |
+| Tables ([`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md)) | Dining chair | upholstered parsons chair | Mahogany, french polish, fine close grain (#111111) |
+|  | Low table | glass top on a sculptural base | Mirror glass, silvered, mirror-smooth (#D7DCDF) |
+|  | Console table | demilune half-round | Marble, polished, veined (#F4F1EA) |
+|  | Side table | C-table | Solid brass, gilded, mirror-smooth (#C9A246) |
+| Kitchen ([`art-deco-product`](../art-deco-product/SKILL.md)) | Kitchen front | flat slab door | Walnut, high-gloss lacquer, fine close grain (#0F6B4F) |
+|  | Worktop and splashback | thick mitred stone slab | Marble, polished, veined (#F4F1EA) |
+|  | Kettle and small appliances | stovetop whistling kettle | Chrome-plated brass, polished, mirror-smooth (#D7DCDF) |
+|  | Tableware and glassware | rimmed white plates | Porcelain, gilded, cast relief ornament (#C9A246) |
+|  | Cutlery | fiddle pattern | Silver plate, polished, mirror-smooth |
+| Decor ([`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md)) | Mirror | sunburst mirror | Solid brass, gilded, cast relief ornament (#C9A246) |
+|  | Vase | ginger jar | Porcelain, vitreous gloss glaze, mirror-smooth (#F4F1EA) |
+|  | Bowl, tray and box | lacquer box | Walnut, high-gloss lacquer, fine close grain (#0F6B4F) |
+|  | Picture frame | gilt swept frame | Mahogany, gilded, fine close grain (#C9A246) |
+|  | Candle holder and lantern | candlestick pair | Silver plate, polished, mirror-smooth |
+|  | Rug | plain wool rug with a border | Wool, piece-dyed, cut pile (#F4F1EA) |
+
+Alternates for each category:
+- **Sanitary:** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+- **Electrics:** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md)
+- **Lighting:** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+- **Storage:** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md)
+- **Soft Furniture:** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)
+- **Tables:** [`art-deco-product`](../art-deco-product/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md)
+- **Kitchen:** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+- **Decor:** [`art-deco-product`](../art-deco-product/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md)
+
+The moodboard tiles resolve to these objects:
+- **room:** Sofa, Ottoman and pouf, Pendant lamp, Table lamp, Wardrobe and tall cabinet, Mirror, Low table, Rug
+- **materials:** Low table, Worktop and splashback, Basin tap or mixer, Sofa, Shelving, Tableware and glassware, Mirror
+- **furniture:** Sofa, Ottoman and pouf, Dining chair, Wardrobe and tall cabinet, Shelving, Console table
+- **textiles:** Sofa, Cushion and throw, Armchair and lounge chair, Ottoman and pouf, Curtain pole
+- **light:** Pendant lamp, Table lamp, Wall sconce, Curtain pole, Floor lamp
+- **objects:** Mirror, Vase, Bowl, tray and box, Picture frame, Candle holder and lantern
+
 ## Vocabulary primer
 
 Use these terms in a brief, an image prompt or a 3D scene description.

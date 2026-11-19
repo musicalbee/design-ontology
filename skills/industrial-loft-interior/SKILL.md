@@ -214,6 +214,64 @@ The rules above name these shared principles by id. The definition is the same i
 ![Light](../../demo/moodboards/interior/industrial-loft-interior/light.webp)
 ![Objects](../../demo/moodboards/interior/industrial-loft-interior/objects.webp)
 
+## Object net
+
+Black steel, cast iron, enamel and polished concrete with reclaimed oak and tan leather; every part shows its bolts, welds and work. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0, material_warmth 0.3, finish_gloss 25, era_blend 0.4, hardware_weight 26, edge_radius 4, metal_tone black. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#industrial-loft-interior).
+
+| Category | Object | Form | Material, finish, texture |
+|---|---|---|---|
+| Sanitary ([`industrial-utility-product`](../industrial-utility-product/SKILL.md)) | Basin | trough basin | Concrete, honed, exposed aggregate (#8D8A85) |
+|  | Basin tap or mixer | cylindrical spout | Solid brass, blackened, satin-smooth (#232323) |
+|  | Towel rail | single bar | Mild steel, blackened, satin-smooth (#232323) |
+|  | Bath | freestanding oval | Cast iron, gloss enamel, mirror-smooth |
+| Electrics ([`industrial-utility-product`](../industrial-utility-product/SKILL.md)) | Light switch | round rotary on a round base | Bakelite, moulded gloss, mirror-smooth (#232323) |
+|  | Socket outlet | round surface socket | Porcelain, vitreous gloss glaze, mirror-smooth |
+|  | Dimmer and control | large knurled rotary knob | Solid brass, blackened, knurled (#232323) |
+|  | Visible cable and conduit | straight steel conduit with elbows | Mild steel, matte powder coat, satin-smooth (#232323) |
+| Lighting ([`industrial-utility-product`](../industrial-utility-product/SKILL.md)) | Pendant lamp | enamel dome | Enamelled steel, gloss enamel, mirror-smooth (#232323) |
+|  | Wall sconce | bulkhead in cast metal and glass | Cast iron, blackened, cast relief ornament (#232323) |
+|  | Task lamp | jointed industrial work lamp | Mild steel, matte powder coat, orange-peel (#232323) |
+|  | Curtain track and blind | roller blind | Canvas, piece-dyed, plain weave (#8D8A85) |
+| Storage ([`industrial-utility-product`](../industrial-utility-product/SKILL.md)) | Shelving | industrial pipe and plank shelf | Mild steel, blackened, tool marks (#232323) |
+|  | Sideboard and cabinet | modular boxes on a steel frame | Mild steel, matte powder coat, orange-peel (#232323) |
+|  | Wardrobe and tall cabinet | metal locker | Mild steel, matte powder coat, orange-peel |
+|  | Handle, knob and pull | T-bar pull | Cast iron, blackened, cast relief ornament (#232323) |
+| Soft Furniture ([`industrial-utility-product`](../industrial-utility-product/SKILL.md)) | Sofa | Chesterfield with rolled arms | Leather, aniline dyed, button-tufted (#9A6A43) |
+|  | Armchair and lounge chair | club chair | Leather, aniline dyed, grain leather (#9A6A43) |
+|  | Cushion and throw | knife-edge square | Cotton, piece-dyed, slub weave (#B4532A) |
+|  | Ottoman and pouf | leather cube | Leather, aniline dyed, grain leather (#9A6A43) |
+| Tables ([`industrial-utility-product`](../industrial-utility-product/SKILL.md)) | Dining table | trestle table | Oak, waxed, tool marks (#7C5B3B) |
+|  | Dining chair | stacking steel chair | Mild steel, matte powder coat, orange-peel (#232323) |
+|  | Low table | low slab on block legs | Concrete, honed, exposed aggregate (#8D8A85) |
+|  | Side table | stacking stool | Mild steel, matte powder coat, satin-smooth (#232323) |
+| Kitchen ([`industrial-utility-product`](../industrial-utility-product/SKILL.md)) | Kitchen front | flat slab door | Mild steel, matte powder coat, orange-peel (#232323) |
+|  | Worktop and splashback | thick mitred stone slab | Concrete, honed, trowelled (#8D8A85) |
+|  | Cooker hood and range | stainless-steel chimney box | Stainless steel, brushed, brush lines |
+|  | Kettle and small appliances | stovetop whistling kettle | Enamelled steel, gloss enamel, mirror-smooth (#B4532A) |
+|  | Cookware | enamelled cast-iron casserole | Cast iron, gloss enamel, mirror-smooth (#232323) |
+| Decor ([`industrial-utility-product`](../industrial-utility-product/SKILL.md)) | Picture frame | thin black box frame | Aluminium, matte paint, satin-smooth (#232323) |
+|  | Clock | station wall clock | Aluminium, matte powder coat, satin-smooth (#232323) |
+|  | Plant pot and planter | cylinder on a tripod stand | Enamelled steel, patinated, hammered (#8D8A85) |
+|  | Rug | flat-weave kilim | Cotton, piece-dyed, plain weave (#B4532A) |
+
+Alternates for each category:
+- **Sanitary:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+- **Electrics:** [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md)
+- **Lighting:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md)
+- **Storage:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md)
+- **Soft Furniture:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md)
+- **Tables:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md)
+- **Kitchen:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+- **Decor:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+
+The moodboard tiles resolve to these objects:
+- **room:** Sofa, Rug, Dining table, Dining chair, Pendant lamp, Shelving, Picture frame, Curtain track and blind
+- **materials:** Worktop and splashback, Dining table, Shelving, Sofa, Cooker hood and range, Low table, Bath
+- **furniture:** Sofa, Dining table, Dining chair, Armchair and lounge chair, Shelving, Sideboard and cabinet
+- **textiles:** Sofa, Cushion and throw, Rug, Ottoman and pouf, Curtain track and blind
+- **light:** Pendant lamp, Wall sconce, Task lamp, Visible cable and conduit, Curtain track and blind
+- **objects:** Picture frame, Clock, Plant pot and planter, Kettle and small appliances, Cookware
+
 ## Vocabulary primer
 
 Use these terms in a brief, an image prompt or a 3D scene description.
@@ -275,7 +333,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **warmer and Nordic**: move toward [`scandinavian-interior`](../scandinavian-interior/SKILL.md) (Scandinavian interior). Paint the brick white, add pale wood, wool and many small lamps; keep the open plan.
 
 - **Came from (go here for a more orthodox version):** [`bauhaus-interior`](../bauhaus-interior/SKILL.md)
-- **Kin in another domain:** [`adaptive-reuse-architecture`](../adaptive-reuse-architecture/SKILL.md), [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md), [`seventh-gen-desaturated`](../seventh-gen-desaturated/SKILL.md)
+- **Kin in another domain:** [`adaptive-reuse-architecture`](../adaptive-reuse-architecture/SKILL.md), [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`industrial-utility-product`](../industrial-utility-product/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md), [`seventh-gen-desaturated`](../seventh-gen-desaturated/SKILL.md)
 - **Nearest by vector profile:** [`coastal-interior`](../coastal-interior/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md)
 
 ## Emotional target

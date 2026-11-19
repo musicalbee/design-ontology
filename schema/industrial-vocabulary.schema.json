@@ -1,0 +1,286 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-ontology.dev/schema/industrial-vocabulary.schema.json",
+  "title": "Industrial design vocabulary",
+  "description": "The closed vocabulary of the industrial design domain. Styles and object nets refer to these ids, and the validator checks each reference.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "categories",
+    "materials",
+    "finishes",
+    "textures",
+    "objects"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "$comment": {
+      "type": "string"
+    },
+    "categories": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "order",
+          "scope"
+        ],
+        "properties": {
+          "id": {
+            "enum": [
+              "sanitary",
+              "electrics",
+              "lighting",
+              "storage",
+              "soft-furniture",
+              "tables",
+              "kitchen",
+              "decor"
+            ]
+          },
+          "name": {
+            "$ref": "core.schema.json#/$defs/shortText"
+          },
+          "order": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 8
+          },
+          "scope": {
+            "$ref": "core.schema.json#/$defs/sentence"
+          }
+        }
+      }
+    },
+    "materials": {
+      "type": "array",
+      "minItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "family",
+          "warmth"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "core.schema.json#/$defs/slug"
+          },
+          "name": {
+            "$ref": "core.schema.json#/$defs/shortText"
+          },
+          "family": {
+            "enum": [
+              "metal",
+              "wood",
+              "stone",
+              "mineral",
+              "ceramic",
+              "glass",
+              "textile",
+              "leather",
+              "polymer",
+              "plant-fibre"
+            ]
+          },
+          "warmth": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "0 = cold to the touch and the eye, 1 = warm."
+          }
+        }
+      }
+    },
+    "finishes": {
+      "type": "array",
+      "minItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "gloss_gu",
+          "families"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "core.schema.json#/$defs/slug"
+          },
+          "name": {
+            "$ref": "core.schema.json#/$defs/shortText"
+          },
+          "gloss_gu": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "description": "The gloss range in GU at 60 degrees."
+          },
+          "families": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "enum": [
+                "metal",
+                "wood",
+                "stone",
+                "mineral",
+                "ceramic",
+                "glass",
+                "textile",
+                "leather",
+                "polymer",
+                "plant-fibre"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "textures": {
+      "type": "array",
+      "minItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "tactility",
+          "families",
+          "description"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "core.schema.json#/$defs/slug"
+          },
+          "name": {
+            "$ref": "core.schema.json#/$defs/shortText"
+          },
+          "tactility": {
+            "enum": [
+              "smooth",
+              "fine",
+              "medium",
+              "coarse"
+            ]
+          },
+          "families": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "enum": [
+                "metal",
+                "wood",
+                "stone",
+                "mineral",
+                "ceramic",
+                "glass",
+                "textile",
+                "leather",
+                "polymer",
+                "plant-fibre"
+              ]
+            }
+          },
+          "description": {
+            "$ref": "core.schema.json#/$defs/sentence"
+          }
+        }
+      }
+    },
+    "objects": {
+      "type": "array",
+      "minItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "category",
+          "name",
+          "parts",
+          "forms",
+          "materials",
+          "finishes",
+          "textures"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "core.schema.json#/$defs/slug"
+          },
+          "category": {
+            "enum": [
+              "sanitary",
+              "electrics",
+              "lighting",
+              "storage",
+              "soft-furniture",
+              "tables",
+              "kitchen",
+              "decor"
+            ]
+          },
+          "name": {
+            "$ref": "core.schema.json#/$defs/shortText"
+          },
+          "parts": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "$ref": "core.schema.json#/$defs/shortText"
+            }
+          },
+          "forms": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "$ref": "core.schema.json#/$defs/shortText"
+            }
+          },
+          "materials": {
+            "type": "array",
+            "minItems": 2,
+            "uniqueItems": true,
+            "items": {
+              "$ref": "core.schema.json#/$defs/slug"
+            }
+          },
+          "finishes": {
+            "type": "array",
+            "minItems": 2,
+            "uniqueItems": true,
+            "items": {
+              "$ref": "core.schema.json#/$defs/slug"
+            }
+          },
+          "textures": {
+            "type": "array",
+            "minItems": 2,
+            "uniqueItems": true,
+            "items": {
+              "$ref": "core.schema.json#/$defs/slug"
+            }
+          }
+        }
+      }
+    }
+  }
+}

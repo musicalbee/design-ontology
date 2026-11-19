@@ -1,0 +1,446 @@
+{
+  "$schema": "../../../schema/domains/industrial.schema.json",
+  "id": "victorian-manufacture",
+  "domain": "industrial",
+  "name": "Victorian manufacture",
+  "aliases": [
+    "Victorian mass-produced goods",
+    "High Victorian household design",
+    "Great Exhibition style"
+  ],
+  "era_id": "victorian-mass-production",
+  "time_period": {
+    "start": 1840,
+    "end": 1900,
+    "label": "1840–1900"
+  },
+  "region": "Britain, with its empire and the United States",
+  "summary": "The household goods of the machine age in Britain: cast iron, pressed glass, deep-buttoned velvet and dark polished wood, with ornament added to each surface by the machine.",
+  "philosophy": {
+    "core_thesis": "The machine makes ornament cheap, so each object can carry rich pattern, deep colour and heavy form as a sign of comfort and rank.",
+    "design_principles": [
+      "Cover each large surface with ornament: a turned, carved, moulded, pressed or printed pattern.",
+      "Use dark, deep polish on mahogany, walnut and oak; the gloss is 60 to 85 GU.",
+      "Use cast iron for stoves, baths, stands and fences, and cast the pattern in the mould.",
+      "Make a seat deep and soft, with buttoned velvet and a fringe of 5 to 10 cm.",
+      "Use pressed glass with a repeat pattern and coloured glass for lamps and vases.",
+      "Use 3 or 4 saturated colours in one room: crimson, bottle green, dark blue and gold.",
+      "Make each object with a heavy base and a rich top, so that it looks solid and costly."
+    ],
+    "anti_patterns": [
+      "Bare, undecorated surfaces",
+      "Thin, light legs without turning",
+      "Pale, plain colour",
+      "Chrome and moulded plastic",
+      "Visible fixings in a plain, steel style",
+      "A single clean line with no pattern"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 5,
+    "hand_finish": 2,
+    "material_warmth": 4,
+    "visual_mass": 5,
+    "chromatic_intensity": 4
+  },
+  "form": {
+    "geometry": "Curves and swells: the balloon, the cabriole, the bulb and the scroll, with a Gothic arch or a classical pediment on top.",
+    "silhouette": "A heavy, closed outline with a wide base, rounded shoulders and a rich crest; a deep, rounded seat on short turned legs.",
+    "edges": "Round and moulded edges with a radius of 5 to 20 mm and a bead or a step in the section.",
+    "proportion": "A sideboard is about 120 cm high with a mirror back, 180 cm wide; a seat is deep, about 60 cm, and low, about 40 cm high.",
+    "ornament": "Dense pattern in the mould, the turning, the print or the press: acanthus, ivy, Gothic tracery, a diaper or a fruit and flower garland.",
+    "rules": [
+      "Each object carries at least 1 ornament band or pattern.",
+      "Each large wood surface has a turned, carved or moulded part.",
+      "A seat has buttoned upholstery and a fringe or a gimp edge.",
+      "Dark wood and deep colour cover more than 60% of the room's objects.",
+      "A glass or metal part has a pressed or cast repeat pattern."
+    ]
+  },
+  "materials": {
+    "primary": [
+      "mahogany",
+      "walnut",
+      "cast-iron",
+      "pressed-glass",
+      "velvet",
+      "coloured-glass"
+    ],
+    "secondary": [
+      "oak",
+      "rosewood",
+      "solid-brass",
+      "wrought-iron",
+      "fireclay",
+      "porcelain",
+      "silver-plate",
+      "nickel-plated-brass",
+      "mirror-glass",
+      "ceramic-tile",
+      "wool",
+      "leather",
+      "plaster",
+      "cotton",
+      "enamelled-steel",
+      "stoneware"
+    ],
+    "avoid": [
+      "abs-plastic",
+      "polypropylene",
+      "acrylic",
+      "chrome-plated-steel",
+      "plastic-laminate",
+      "concrete",
+      "stainless-steel",
+      "aluminium"
+    ],
+    "rule": "Dark wood and cast metal make the body; velvet and glass carry the colour and the pattern; 0% of the visible surface is bare steel or plastic."
+  },
+  "finish": {
+    "finishes": [
+      "french-polished",
+      "ebonised",
+      "gloss-enamel",
+      "vitreous-glaze",
+      "polished",
+      "lustre-pile",
+      "clear-gloss",
+      "gilded"
+    ],
+    "textures": [
+      "figured-grain",
+      "open-grain",
+      "mirror-smooth",
+      "fluted",
+      "pressed-pattern",
+      "cast-relief",
+      "button-tufted",
+      "pile"
+    ],
+    "gloss": "60–85 GU on polished wood, 80–95 GU on glaze and enamel, 10–30 GU on velvet",
+    "patina": "A deep, dark, even polish; the style accepts dust, soot and wear as signs of a well-used room, but not rust."
+  },
+  "hardware": {
+    "metal_tone": "brass",
+    "section": "Rods and stems 15–30 mm; cast parts 4–10 mm thick",
+    "joints": "Screws hidden under turned wood plugs or cast covers; mouldings and brass mounts hide each joint.",
+    "handles": "A turned wooden knob, a porcelain knob with a printed pattern or a cast brass drop handle on a plate.",
+    "switches_and_taps": "Before 1880 there is no electric switch; the period-faithful reissue is a turned brass rotary switch with a fluted knob. A tap is a pillar tap with a cross head in brass, over a fireclay sink."
+  },
+  "palette": {
+    "strategy": "Deep, saturated colour on dark wood: crimson, bottle green and dark blue, lit with the gold of gilt and brass.",
+    "colours": [
+      {
+        "name": "Walnut brown",
+        "hex": "#4A2C1C",
+        "role": "furniture"
+      },
+      {
+        "name": "Crimson velvet",
+        "hex": "#7A1F2B",
+        "role": "upholstery, curtain"
+      },
+      {
+        "name": "Bottle green",
+        "hex": "#1F4A37",
+        "role": "wall, glass"
+      },
+      {
+        "name": "Prussian blue",
+        "hex": "#25344F",
+        "role": "glass, tile"
+      },
+      {
+        "name": "Brass gold",
+        "hex": "#B58A2E",
+        "role": "mounts, lamp"
+      },
+      {
+        "name": "Cast iron black",
+        "hex": "#1E1E1C",
+        "role": "stove, bath, stand"
+      }
+    ]
+  },
+  "manufacture": {
+    "processes": [
+      "sand casting of iron",
+      "glass pressing in a mould",
+      "steam-driven turning and veneer cutting",
+      "roller printing of cloth",
+      "machine carving",
+      "electroplating"
+    ],
+    "scale": "Factories with 100s to 1000s of workers; catalogues sold the same pattern to a whole country.",
+    "signs": "Repeat patterns of the same mould, the seam of a pressed glass and a fine, even machine turning."
+  },
+  "signatures": {
+    "objects": [
+      {
+        "category": "sanitary",
+        "object": "bathtub",
+        "form": "cast-iron roll-top bath on claw feet",
+        "material": "cast-iron",
+        "finish": "gloss-enamel",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "electrics",
+        "object": "light-switch",
+        "form": "turned rotary with a fluted knob (a period-faithful reissue)",
+        "material": "solid-brass",
+        "finish": "polished",
+        "texture": "fluted"
+      },
+      {
+        "category": "lighting",
+        "object": "wall-sconce",
+        "form": "gas bracket with a pressed shade",
+        "material": "pressed-glass",
+        "finish": "clear-gloss",
+        "texture": "pressed-pattern"
+      },
+      {
+        "category": "storage",
+        "object": "sideboard",
+        "form": "tall Gothic-revival case with a carved back",
+        "material": "oak",
+        "finish": "ebonised",
+        "texture": "open-grain"
+      },
+      {
+        "category": "soft-furniture",
+        "object": "sofa",
+        "form": "deep-buttoned chesterfield in velvet",
+        "material": "velvet",
+        "finish": "lustre-pile",
+        "texture": "button-tufted"
+      },
+      {
+        "category": "tables",
+        "object": "dining-chair",
+        "form": "balloon-back chair with a carved rail",
+        "material": "walnut",
+        "finish": "french-polished",
+        "texture": "figured-grain"
+      },
+      {
+        "category": "kitchen",
+        "object": "kitchen-sink",
+        "form": "deep glazed Belfast sink on a brick pier",
+        "material": "fireclay",
+        "finish": "vitreous-glaze",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "decor",
+        "object": "vase",
+        "form": "pressed coloured-glass vase with a moulded pattern",
+        "material": "coloured-glass",
+        "finish": "clear-gloss",
+        "texture": "pressed-pattern"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Victorian mass-produced household object",
+      "dark polished walnut and mahogany",
+      "deep buttoned velvet",
+      "cast iron roll-top bath",
+      "pressed coloured glass",
+      "carved Gothic revival ornament",
+      "brass gas bracket",
+      "crimson and bottle green",
+      "fringe and gimp trim",
+      "studio product photograph, warm lamp light"
+    ],
+    "negative": [
+      "bare plain surface",
+      "chrome",
+      "plastic",
+      "pale minimal colour",
+      "thin steel legs",
+      "Scandinavian simplicity"
+    ],
+    "canonical_works": [
+      {
+        "work": "Great Exhibition furniture displays",
+        "maker": "Gillows and other exhibitors",
+        "year": 1851
+      },
+      {
+        "work": "Balloon-back dining chair",
+        "maker": "English chair makers",
+        "year": 1850
+      },
+      {
+        "work": "Chesterfield sofa",
+        "maker": "English upholsterers",
+        "year": 1880
+      },
+      {
+        "work": "Roll-top cast iron bath",
+        "maker": "British ironfounders",
+        "year": 1880
+      },
+      {
+        "work": "Pressed glass tableware",
+        "maker": "Sowerby and other glassworks",
+        "year": 1870
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Great Exhibition transept, 1851: the hall, not the objects",
+      "kind": "image",
+      "maker": "William Henry Fox Talbot",
+      "year": 1851,
+      "credit": "William Henry Fox Talbot",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Great_Exhibition,_Transept_looking_south,_HF_Talbot,_1851.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Great_Exhibition%2C_Transept_looking_south%2C_HF_Talbot%2C_1851.jpg/960px-Great_Exhibition%2C_Transept_looking_south%2C_HF_Talbot%2C_1851.jpg"
+    },
+    {
+      "title": "Crystal Palace interior, 1851: the hall, not the objects",
+      "kind": "image",
+      "maker": "J. McNeven",
+      "year": 1851,
+      "credit": "J. McNeven",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Crystal_Palace_interior.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Crystal_Palace_interior.jpg/960px-Crystal_Palace_interior.jpg"
+    },
+    {
+      "title": "Great Exhibition interior, 1851: the hall, not the objects",
+      "kind": "image",
+      "year": 1851,
+      "credit": "Rijksmuseum",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Interieur_van_de_Great_Exhibition_of_the_Works_of_Industry_of_All_Nations_in_1851_in_het_Crystal_Palace_in_Londen_View_of_Western_Nave_(titel_op_object),_RP-F-F25215-A.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Interieur_van_de_Great_Exhibition_of_the_Works_of_Industry_of_All_Nations_in_1851_in_het_Crystal_Palace_in_Londen_View_of_Western_Nave_%28titel_op_object%29%2C_RP-F-F25215-A.jpg/960px-thumbnail.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "georgian-neoclassical-manufacture"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "victorian-interior"
+    ]
+  },
+  "emotion": {
+    "target_response": "Warm, heavy comfort and a sense of rank: the viewer sees a full, rich and well-fed room.",
+    "keywords": [
+      "rich",
+      "heavy",
+      "ornate",
+      "dark",
+      "comfortable"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "victorian furniture",
+      "chesterfield",
+      "cast iron bath",
+      "pressed glass",
+      "balloon back chair",
+      "belfast sink",
+      "victorian parlour",
+      "great exhibition style"
+    ],
+    "use_cases": [
+      "period fittings for a Victorian terrace",
+      "a dark, rich library or parlour",
+      "a reissue of a roll-top bath or a pillar tap",
+      "a still life of pressed glass and brass"
+    ],
+    "avoid_when": [
+      "The brief asks for light, plain or minimal objects.",
+      "The room is small and needs low visual mass."
+    ],
+    "modifiers": [
+      {
+        "request": "plainer and more honest",
+        "toward": "arts-and-crafts-object",
+        "how": "Replace the machine ornament with plain oak, a visible joint and hammered copper."
+      },
+      {
+        "request": "lighter and more refined",
+        "toward": "georgian-neoclassical-manufacture",
+        "how": "Slim the legs, use pale grounds, fluting and gilt mounts in place of dense pattern."
+      },
+      {
+        "request": "plain and simple",
+        "toward": "shaker-object",
+        "how": "Remove the ornament and the velvet; use maple, cherry and a thin oil."
+      }
+    ]
+  },
+  "permutations": {
+    "ornament_level": {
+      "default": 0.7,
+      "min": 0.4,
+      "max": 0.95
+    },
+    "material_warmth": {
+      "default": 0.55,
+      "min": 0.35,
+      "max": 0.8
+    },
+    "finish_gloss": {
+      "default": 70,
+      "min": 15,
+      "max": 95
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1,
+      "note": "A contemporary reinterpretation keeps the style when it keeps the forms and the materials."
+    },
+    "hardware_weight": {
+      "default": 20,
+      "min": 8,
+      "max": 36
+    },
+    "edge_radius": {
+      "default": 8,
+      "min": 2,
+      "max": 25
+    },
+    "metal_tone": {
+      "default": "brass",
+      "options": [
+        "brass",
+        "bronze",
+        "nickel",
+        "black",
+        "copper",
+        "none"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Victorian decorative arts",
+      "url": "https://en.wikipedia.org/wiki/Victorian_decorative_arts"
+    },
+    {
+      "title": "Wikipedia: Great Exhibition",
+      "url": "https://en.wikipedia.org/wiki/Great_Exhibition"
+    },
+    {
+      "title": "Wikipedia: Chesterfield (furniture)",
+      "url": "https://en.wikipedia.org/wiki/Chesterfield_(furniture)"
+    }
+  ]
+}

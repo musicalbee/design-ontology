@@ -208,7 +208,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more austere**: move toward [`international-style-architecture`](../international-style-architecture/SKILL.md) (International Style). Whiten the walls, thin the frame, drop the timber and the brick feature wall, and keep the flat roof and the glass wall.
 
 - **Came from (go here for a more orthodox version):** [`international-style-architecture`](../international-style-architecture/SKILL.md), [`prairie-school-architecture`](../prairie-school-architecture/SKILL.md)
-- **Kin in another domain:** [`architectural-photography`](../architectural-photography/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`space-age`](../space-age/SKILL.md)
+- **Kin in another domain:** [`architectural-photography`](../architectural-photography/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md), [`space-age`](../space-age/SKILL.md)
 - **Nearest by vector profile:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`prairie-school-architecture`](../prairie-school-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md)
 
 ## Emotional target

@@ -223,6 +223,62 @@ The rules above name these shared principles by id. The definition is the same i
 ![Light](../../demo/moodboards/interior/mid-century-modern-interior/light.webp)
 ![Objects](../../demo/moodboards/interior/mid-century-modern-interior/objects.webp)
 
+## Object net
+
+Low teak and walnut pieces on tapered legs, moulded fibreglass shells, brass fittings and marble, with a few mustard, orange and teal accents on a warm white ground. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.1, material_warmth 0.6, finish_gloss 45, era_blend 0.25, hardware_weight 12, edge_radius 20, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#mid-century-modern-interior).
+
+| Category | Object | Form | Material, finish, texture |
+|---|---|---|---|
+| Sanitary ([`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)) | Basin | wall-hung rectangle | Marble, honed, veined |
+|  | Basin tap or mixer | single-lever monobloc | Solid brass, brushed, satin-smooth (#B08D57) |
+|  | Bath accessories | shelf-top vessels | Teak, oiled, fine close grain (#8B5A2B) |
+| Electrics ([`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)) | Light switch | dolly toggle on a square plate | Bakelite, moulded gloss, mirror-smooth (#F3EFE6) |
+|  | Socket outlet | flush square plate | Bakelite, moulded gloss, mirror-smooth (#F3EFE6) |
+|  | Dimmer and control | small round knob on a square plate | Walnut, oiled, fine close grain (#8B5A2B) |
+| Lighting ([`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)) | Pendant lamp | enamel dome | Enamelled steel, gloss enamel, satin-smooth (#C8642A) |
+|  | Floor lamp | arc lamp on a stone base | Marble, honed, veined |
+|  | Table lamp | mushroom lamp | Opal glass, clear gloss, satin-smooth (#F3EFE6) |
+|  | Task lamp | spring-balanced arm lamp | Aluminium, matte powder coat, satin-smooth (#4A4A48) |
+|  | Curtain track and blind | ceiling-recessed track | Aluminium, brushed, satin-smooth |
+| Storage ([`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)) | Sideboard and cabinet | low long credenza on tapered legs | Teak, oiled, open grain (#8B5A2B) |
+|  | Shelving | wall rail system with brackets | Walnut, oiled, fine close grain |
+|  | Handle, knob and pull | round mushroom knob | Solid brass, brushed, satin-smooth (#B08D57) |
+| Soft Furniture ([`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)) | Sofa | tight-back sofa on tapered legs | Wool, piece-dyed, twill or herringbone (#4A4A48) |
+|  | Armchair and lounge chair | low slung lounge chair on a sled base | Leather, aniline dyed, grain leather (#D4A017) |
+|  | Cushion and throw | square with piping | Cotton, printed, plain weave (#C8642A) |
+|  | Ottoman and pouf | leather cube | Leather, aniline dyed, grain leather (#4A4A48) |
+| Tables ([`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)) | Low table | glass top on a walnut base | Walnut, oiled, fine close grain |
+|  | Dining table | tapered-leg rectangle | Teak, oiled, open grain (#8B5A2B) |
+|  | Dining chair | moulded shell chair | Fibreglass, moulded gloss, satin-smooth (#2E7D7A) |
+| Kitchen ([`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)) | Kitchen front | flat slab door | Walnut, oiled, fine close grain |
+|  | Worktop and splashback | tiled counter | Plastic laminate, moulded matte, satin-smooth (#F3EFE6) |
+|  | Kettle and small appliances | stovetop whistling kettle | Enamelled steel, gloss enamel, mirror-smooth (#C8642A) |
+|  | Cookware | enamelled cast-iron casserole | Enamelled steel, gloss enamel, mirror-smooth (#D4A017) |
+|  | Tableware and glassware | stacking geometric set | Stoneware, matte glaze, speckled clay (#2E7D7A) |
+| Decor ([`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)) | Clock | sunburst wall clock | Solid brass, unlacquered, living, cast relief ornament (#B08D57) |
+|  | Vase | squat studio-pottery jar | Stoneware, matte glaze, speckled clay (#C8642A) |
+|  | Plant pot and planter | cylinder on a tripod stand | Fibreglass, moulded gloss, satin-smooth (#F3EFE6) |
+|  | Rug | geometric hand-tufted rug | Wool, piece-dyed, cut pile (#4A4A48) |
+|  | Picture frame | wide flat-profile frame | Walnut, oiled, fine close grain |
+
+Alternates for each category:
+- **Sanitary:** [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)
+- **Electrics:** [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md)
+- **Lighting:** [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)
+- **Storage:** [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)
+- **Soft Furniture:** [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`space-age-pop-product`](../space-age-pop-product/SKILL.md)
+- **Tables:** [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)
+- **Kitchen:** [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)
+- **Decor:** [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)
+
+The moodboard tiles resolve to these objects:
+- **room:** Sofa, Armchair and lounge chair, Low table, Sideboard and cabinet, Floor lamp, Cushion and throw, Rug
+- **materials:** Sideboard and cabinet, Floor lamp, Worktop and splashback, Sofa, Handle, knob and pull, Dining table
+- **furniture:** Armchair and lounge chair, Sideboard and cabinet, Sofa, Dining chair, Low table
+- **textiles:** Sofa, Cushion and throw, Armchair and lounge chair, Rug, Curtain track and blind
+- **light:** Pendant lamp, Floor lamp, Task lamp, Curtain track and blind, Table lamp
+- **objects:** Clock, Vase, Plant pot and planter, Picture frame, Tableware and glassware
+
 ## Vocabulary primer
 
 Use these terms in a brief, an image prompt or a 3D scene description.
@@ -306,7 +362,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`bauhaus-interior`](../bauhaus-interior/SKILL.md)
 - **Was rejected by:** [`memphis-interior`](../memphis-interior/SKILL.md)
 - **Mixes well with:** [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
-- **Kin in another domain:** [`international-style-architecture`](../international-style-architecture/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md), [`space-age`](../space-age/SKILL.md)
+- **Kin in another domain:** [`international-style-architecture`](../international-style-architecture/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md), [`space-age`](../space-age/SKILL.md)
 - **Nearest by vector profile:** [`bauhaus-interior`](../bauhaus-interior/SKILL.md), [`coastal-interior`](../coastal-interior/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md)
 
 ## Emotional target

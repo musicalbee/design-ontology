@@ -214,7 +214,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`photorealism`](../photorealism/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`abstract-expressionism`](../abstract-expressionism/SKILL.md)
-- **Kin in another domain:** [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md), [`cel-shaded-3d`](../cel-shaded-3d/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md), [`pop-screen-print`](../pop-screen-print/SKILL.md)
+- **Kin in another domain:** [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md), [`cel-shaded-3d`](../cel-shaded-3d/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md), [`pop-screen-print`](../pop-screen-print/SKILL.md), [`space-age-pop-product`](../space-age-pop-product/SKILL.md)
 - **Nearest by vector profile:** [`mannerism-painting`](../mannerism-painting/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md), [`symbolism-painting`](../symbolism-painting/SKILL.md)
 
 ## Emotional target

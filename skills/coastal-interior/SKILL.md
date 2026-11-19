@@ -222,6 +222,60 @@ The rules above name these shared principles by id. The definition is the same i
 ![Light](../../demo/moodboards/interior/coastal-interior/light.webp)
 ![Objects](../../demo/moodboards/interior/coastal-interior/objects.webp)
 
+## Object net
+
+White-washed oak, painted pine boards, slipcovered linen, woven rattan and jute, clear glass and brushed steel make the summer house. One sea blue and navy carry the accents. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.1, material_warmth 0.7, finish_gloss 8, era_blend 0.6, hardware_weight 12, edge_radius 8, metal_tone nickel. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#coastal-interior).
+
+| Category | Object | Form | Material, finish, texture |
+|---|---|---|---|
+| Sanitary ([`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)) | Basin | vessel bowl on a counter | Stoneware, matte glaze, speckled clay (#F4F2EC) |
+|  | Basin tap or mixer | three-hole bridge mixer | Stainless steel, brushed, brush lines (#A7A9A6) |
+|  | Towel rail | wall peg row | Oak, matte paint, open grain (#F4F2EC) |
+| Electrics ([`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)) | Light switch | dolly toggle on a square plate | Porcelain, vitreous gloss glaze, mirror-smooth (#F4F2EC) |
+|  | Socket outlet | flush square plate | Porcelain, vitreous gloss glaze, mirror-smooth (#F4F2EC) |
+|  | Visible cable and conduit | fabric-braided cord in a loop | Cotton, natural, undyed, plain weave (#DCCFB8) |
+| Lighting ([`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)) | Pendant lamp | drum shade | Rattan, natural, undyed, plaited or wicker weave (#B8995F) |
+|  | Table lamp | ginger-jar base with a drum shade | Stoneware, matte glaze, speckled clay (#6F8FA6) |
+|  | Curtain pole | wooden pole with wooden rings | Oak, matte paint, open grain (#F4F2EC) |
+| Storage ([`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)) | Sideboard and cabinet | low long credenza on tapered legs | Oak, limed, open grain (#F4F2EC) |
+|  | Shelving | open bookcase | Pine, matte paint, fine close grain (#F4F2EC) |
+|  | Hooks and pegs | peg rail | Oak, oiled, open grain (#B9AD9A) |
+|  | Handle, knob and pull | round mushroom knob | Stainless steel, brushed, brush lines (#A7A9A6) |
+| Soft Furniture ([`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)) | Sofa | tight-back sofa on tapered legs | Linen, washed, soft, slub weave (#F4F2EC) |
+|  | Armchair and lounge chair | low slung lounge chair on a sled base | Rattan, natural, undyed, woven cane (#B8995F) |
+|  | Ottoman and pouf | round pouf | Jute, natural, undyed, plaited or wicker weave (#B8995F) |
+|  | Cushion and throw | square with piping | Cotton, printed, twill or herringbone (#2C3E57) |
+| Tables ([`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)) | Dining table | trestle table | Oak, limed, open grain (#DCCFB8) |
+|  | Dining chair | ladder-back chair with a rush seat | Beech, eggshell paint, fine close grain (#F4F2EC) |
+|  | Low table | oval on tapered legs | Oak, soaped, open grain (#DCCFB8) |
+| Kitchen ([`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)) | Kitchen front | beadboard door | Pine, matte paint, fine close grain (#F4F2EC) |
+|  | Worktop and splashback | thick butcher-block top | Oak, oiled, open grain (#DCCFB8) |
+|  | Kitchen sink and tap | gooseneck mixer | Stainless steel, brushed, brush lines (#A7A9A6) |
+|  | Tableware and glassware | hand-thrown bowls | Stoneware, matte glaze, throwing rings (#6F8FA6) |
+| Decor ([`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)) | Vase | bud vase | Clear glass, clear gloss, mirror-smooth (#F4F2EC) |
+|  | Plant pot and planter | fibre basket | Jute, natural, undyed, plaited or wicker weave (#B8995F) |
+|  | Picture frame | oak float frame | Oak, limed, open grain (#DCCFB8) |
+|  | Candle holder and lantern | hurricane lantern | Clear glass, clear gloss, seeded (#F4F2EC) |
+|  | Rug | jute or sisal flat rug | Jute, natural, undyed, plaited or wicker weave (#B8995F) |
+
+Alternates for each category:
+- **Sanitary:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md)
+- **Electrics:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md)
+- **Lighting:** [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md)
+- **Storage:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md)
+- **Soft Furniture:** [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md)
+- **Tables:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md)
+- **Kitchen:** [`shaker-object`](../shaker-object/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)
+- **Decor:** [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md)
+
+The moodboard tiles resolve to these objects:
+- **room:** Sofa, Armchair and lounge chair, Rug, Dining table, Pendant lamp, Curtain pole, Sideboard and cabinet
+- **materials:** Dining table, Sofa, Pendant lamp, Rug, Vase, Tableware and glassware, Handle, knob and pull
+- **furniture:** Sofa, Armchair and lounge chair, Dining table, Dining chair, Sideboard and cabinet, Low table
+- **textiles:** Sofa, Cushion and throw, Ottoman and pouf, Rug, Curtain pole
+- **light:** Pendant lamp, Table lamp, Candle holder and lantern, Curtain pole
+- **objects:** Vase, Plant pot and planter, Picture frame, Candle holder and lantern, Tableware and glassware
+
 ## Vocabulary primer
 
 Use these terms in a brief, an image prompt or a 3D scene description.

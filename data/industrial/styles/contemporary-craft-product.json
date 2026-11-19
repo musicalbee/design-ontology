@@ -1,0 +1,422 @@
+{
+  "$schema": "../../../schema/domains/industrial.schema.json",
+  "id": "contemporary-craft-product",
+  "domain": "industrial",
+  "name": "Contemporary craft product",
+  "aliases": [
+    "Quiet luxury objects",
+    "Japandi objects",
+    "Slow craft objects"
+  ],
+  "era_id": "contemporary",
+  "time_period": {
+    "start": 2000,
+    "end": null,
+    "label": "2000–present"
+  },
+  "region": "Belgium, Japan, Scandinavia, Britain and the United States",
+  "summary": "The handmade object of the quiet home: stoneware with a speckled glaze, solid oak with an oiled finish, washed linen and unlacquered brass, made in small batches and left with the marks of the hand.",
+  "philosophy": {
+    "core_thesis": "A good object is made by a person from one real material, and it gains value with use: its marks, its tone and its slow wear are the ornament.",
+    "design_principles": [
+      "Use a solid material, not a veneer: oak 25 to 50 mm thick, stoneware with a wall of 5 to 8 mm.",
+      "Finish with oil, soap, wax or a matte glaze; keep the gloss below 15 GU.",
+      "Leave one mark of the maker on each object: a throwing ring, a plane mark or a hammer facet.",
+      "Make each form from a simple shape with slightly uneven edges and a soft radius of 3 to 10 mm.",
+      "Keep to a palette of 4 or 5 warm neutrals: oat, sand, clay, bone and a soft black.",
+      "Use brass without lacquer, so that it darkens with the hand and the years.",
+      "Make in batches of 1 to 100 pieces and sign the base or the back."
+    ],
+    "anti_patterns": [
+      "High-gloss plastic and chrome",
+      "Perfect machine symmetry",
+      "Saturated colour and loud pattern",
+      "Applied ornament and gilding",
+      "Synthetic veneer that copies wood",
+      "Logos and visible fixings on main faces"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "hand_finish": 5,
+    "material_warmth": 5,
+    "visual_mass": 3,
+    "chromatic_intensity": 1
+  },
+  "form": {
+    "geometry": "The cylinder, the squat jar, the slab and the plain box, with slightly uneven edges and soft volumes.",
+    "silhouette": "A calm, low and broad outline with a heavy base and a small, quiet detail on top.",
+    "edges": "Soft radius of 3 to 10 mm on wood; a pulled lip and an uneven rim on a vessel; a chamfer of 2 mm on a slab.",
+    "proportion": "A table top is 30 to 45 mm thick; a vase is 20 to 35 cm high with a wall of 5 to 8 mm; a low sofa seat is 38 cm high.",
+    "ornament": "None applied. The grain, the glaze, the throwing rings and the weave are the only surface pattern.",
+    "rules": [
+      "Each object uses 1 to 3 natural materials in view.",
+      "Each object shows at least 1 mark of the hand or the tool.",
+      "A vessel has a wall of 5 mm or more and a visible foot.",
+      "A surface has no gloss above 15 GU, except a brass part.",
+      "A colour other than the colour of the material covers less than 10% of the object."
+    ]
+  },
+  "materials": {
+    "primary": [
+      "stoneware",
+      "oak",
+      "linen",
+      "solid-brass",
+      "wool",
+      "limestone"
+    ],
+    "secondary": [
+      "ash",
+      "walnut",
+      "cotton",
+      "jute",
+      "travertine",
+      "plaster",
+      "terracotta",
+      "washi-paper",
+      "rattan",
+      "cane",
+      "leather",
+      "bronze",
+      "boucle",
+      "bamboo",
+      "clear-glass",
+      "microcement"
+    ],
+    "avoid": [
+      "chrome-plated-steel",
+      "abs-plastic",
+      "plastic-laminate",
+      "pvc",
+      "acrylic",
+      "fibreglass"
+    ],
+    "rule": "Wood, clay, stone and cloth make about 85% of the visible surface; brass is the one metal."
+  },
+  "finish": {
+    "finishes": [
+      "oiled",
+      "soaped",
+      "waxed",
+      "matte-glaze",
+      "unglazed",
+      "unlacquered",
+      "patinated",
+      "washed"
+    ],
+    "textures": [
+      "open-grain",
+      "tool-marked",
+      "speckled-clay",
+      "throwing-rings",
+      "slub-weave",
+      "hammered",
+      "knurled",
+      "fine-grain"
+    ],
+    "gloss": "2–12 GU on wood and glaze; 40–60 GU on aged brass",
+    "patina": "The style wants a surface that wears in well: brass darkens, oak takes a soft tone, linen softens, and a worn edge is a good sign."
+  },
+  "hardware": {
+    "metal_tone": "brass",
+    "section": "Rods and handles 12–22 mm; a tap body 30–45 mm",
+    "joints": "Dovetails, pegs and through tenons in view on solid wood; plain screws on the back only.",
+    "handles": "A turned oak knob, a leather loop or a brass bar of round section.",
+    "switches_and_taps": "A small oak or brass toggle on a wood block; a knurled brass tap on a wall-mounted spout."
+  },
+  "palette": {
+    "strategy": "Oat, sand, clay and bone, with soft black and aged brass as the only dark notes.",
+    "colours": [
+      {
+        "name": "Oat",
+        "hex": "#E3D8C3",
+        "role": "linen, wool, plaster"
+      },
+      {
+        "name": "Bone",
+        "hex": "#F0EBE0",
+        "role": "glaze, wall, shade"
+      },
+      {
+        "name": "Raw oak",
+        "hex": "#C6A47A",
+        "role": "table, frame, shelf"
+      },
+      {
+        "name": "Clay",
+        "hex": "#A98A6E",
+        "role": "stoneware body"
+      },
+      {
+        "name": "Soft black",
+        "hex": "#2B2A28",
+        "role": "glaze accent, rim"
+      }
+    ]
+  },
+  "manufacture": {
+    "processes": [
+      "wheel throwing and hand glazing of stoneware",
+      "hand joinery of solid oak",
+      "plane and scraper work",
+      "hand weaving and garment washing of linen",
+      "sand casting of brass"
+    ],
+    "scale": "A workshop of 1 to 10 makers, with batches of 1 to 100 pieces, or a small studio with named craft partners.",
+    "signs": "Throwing rings and a glaze that pools in the base, a plane mark on oak, a hand-set peg, and a maker mark on the foot."
+  },
+  "signatures": {
+    "objects": [
+      {
+        "category": "sanitary",
+        "object": "mixer-tap",
+        "form": "wall-mounted spout",
+        "material": "solid-brass",
+        "finish": "unlacquered",
+        "texture": "knurled"
+      },
+      {
+        "category": "electrics",
+        "object": "light-switch",
+        "form": "surface switch on a wood block",
+        "material": "oak",
+        "finish": "oiled",
+        "texture": "fine-grain"
+      },
+      {
+        "category": "lighting",
+        "object": "table-lamp",
+        "form": "ginger-jar base with a drum shade",
+        "material": "stoneware",
+        "finish": "matte-glaze",
+        "texture": "speckled-clay"
+      },
+      {
+        "category": "storage",
+        "object": "sideboard",
+        "form": "low long credenza on tapered legs",
+        "material": "oak",
+        "finish": "oiled",
+        "texture": "open-grain"
+      },
+      {
+        "category": "soft-furniture",
+        "object": "sofa",
+        "form": "low modular block sofa",
+        "material": "linen",
+        "finish": "washed",
+        "texture": "slub-weave"
+      },
+      {
+        "category": "tables",
+        "object": "dining-table",
+        "form": "slab top on a trestle base",
+        "material": "oak",
+        "finish": "soaped",
+        "texture": "tool-marked"
+      },
+      {
+        "category": "kitchen",
+        "object": "tableware",
+        "form": "hand-thrown bowls",
+        "material": "stoneware",
+        "finish": "matte-glaze",
+        "texture": "throwing-rings"
+      },
+      {
+        "category": "decor",
+        "object": "candle-holder",
+        "form": "candlestick pair",
+        "material": "solid-brass",
+        "finish": "patinated",
+        "texture": "hammered"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "contemporary craft object",
+      "hand-thrown speckled stoneware",
+      "solid oak with soaped finish",
+      "washed linen slub weave",
+      "unlacquered brass patina",
+      "visible throwing rings",
+      "quiet luxury warm neutrals",
+      "japandi still life",
+      "soft uneven edges",
+      "oat, sand and bone palette",
+      "studio product photograph, soft window light"
+    ],
+    "negative": [
+      "glossy plastic",
+      "chrome",
+      "bright colour",
+      "pattern",
+      "ornament",
+      "perfect machine symmetry"
+    ],
+    "canonical_works": [
+      {
+        "work": "Akari light sculpture",
+        "maker": "Isamu Noguchi",
+        "year": 1951
+      },
+      {
+        "work": "Wishbone chair",
+        "maker": "Hans Wegner",
+        "year": 1949
+      },
+      {
+        "work": "Spade form vase",
+        "maker": "Hans Coper",
+        "year": 1960
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Black Raku tea bowl Amadera",
+      "kind": "image",
+      "credit": "Chris 73",
+      "licence": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Black_Raku_tea_bowl_Amadera.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Black_Raku_tea_bowl_Amadera.jpg"
+    },
+    {
+      "title": "Vas nr 20, glazed stoneware vase by Curt-M. Addin 1",
+      "kind": "image",
+      "credit": "W.carter",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Vas_nr_20,_glazed_stoneware_vase_by_Curt-M._Addin_1.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Vas_nr_20%2C_glazed_stoneware_vase_by_Curt-M._Addin_1.jpg/960px-Vas_nr_20%2C_glazed_stoneware_vase_by_Curt-M._Addin_1.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "japanese-modern-craft-product",
+      "arts-and-crafts-object"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "scandinavian-modern-product",
+      "shaker-object"
+    ],
+    "echoes": [
+      "japandi-interior",
+      "quiet-luxury-interior",
+      "wabi-sabi-web"
+    ]
+  },
+  "emotion": {
+    "target_response": "Slow calm: the viewer wants to touch a warm surface that shows the hand and the time of its maker.",
+    "keywords": [
+      "calm",
+      "warm",
+      "tactile",
+      "handmade",
+      "quiet"
+    ],
+    "brand_archetypes": [
+      "caregiver",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "quiet luxury objects",
+      "japandi ceramics",
+      "hand-thrown stoneware",
+      "solid oak furniture",
+      "unlacquered brass",
+      "linen sofa",
+      "artisan home",
+      "wabi-sabi object"
+    ],
+    "use_cases": [
+      "a calm home or hotel moodboard",
+      "a product brief for a craft collection",
+      "a styled shelf or table for a still life",
+      "material schedules for a quiet interior"
+    ],
+    "avoid_when": [
+      "The brief asks for gloss, colour or plastic.",
+      "The room needs a machine-precise, technical look."
+    ],
+    "modifiers": [
+      {
+        "request": "cleaner and more anonymous",
+        "toward": "super-normal-product",
+        "how": "Swap stoneware and oak for matte plastic and ash, and remove the marks of the hand."
+      },
+      {
+        "request": "more Nordic and light",
+        "toward": "scandinavian-modern-product",
+        "how": "Use pale birch, white glaze and slim tapered legs."
+      },
+      {
+        "request": "more rural and plain",
+        "toward": "shaker-object",
+        "how": "Use painted pine, peg rails and simple turned knobs."
+      }
+    ]
+  },
+  "permutations": {
+    "ornament_level": {
+      "default": 0.05,
+      "min": 0,
+      "max": 0.25
+    },
+    "material_warmth": {
+      "default": 0.8,
+      "min": 0.55,
+      "max": 1
+    },
+    "finish_gloss": {
+      "default": 6,
+      "min": 0,
+      "max": 25
+    },
+    "era_blend": {
+      "default": 0.7,
+      "min": 0,
+      "max": 1,
+      "note": "A new object in this style is the norm; a reissue of a craft original is the faithful case."
+    },
+    "hardware_weight": {
+      "default": 16,
+      "min": 8,
+      "max": 30
+    },
+    "edge_radius": {
+      "default": 6,
+      "min": 2,
+      "max": 25
+    },
+    "metal_tone": {
+      "default": "brass",
+      "options": [
+        "brass",
+        "bronze",
+        "copper",
+        "black",
+        "nickel",
+        "none"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Japandi",
+      "url": "https://en.wikipedia.org/wiki/Japandi"
+    },
+    {
+      "title": "Wikipedia: Studio pottery",
+      "url": "https://en.wikipedia.org/wiki/Studio_pottery"
+    },
+    {
+      "title": "Wikipedia: Hans Coper",
+      "url": "https://en.wikipedia.org/wiki/Hans_Coper"
+    }
+  ]
+}

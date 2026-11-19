@@ -1,0 +1,436 @@
+{
+  "$schema": "../../../schema/domains/industrial.schema.json",
+  "id": "art-nouveau-object",
+  "domain": "industrial",
+  "name": "Art Nouveau object",
+  "aliases": [
+    "Jugendstil object",
+    "Modern Style object",
+    "Liberty-style object"
+  ],
+  "era_id": "reform-and-craft",
+  "time_period": {
+    "start": 1893,
+    "end": 1914,
+    "label": "1893–1914"
+  },
+  "region": "Brussels, Paris, Nancy, Vienna and Glasgow",
+  "summary": "Lamps, glass, furniture and fixtures drawn from the line of a plant stem: cast bronze, art glass, carved fruit wood and porcelain, with one long curve that joins structure and ornament.",
+  "philosophy": {
+    "core_thesis": "An object grows like a plant: its structure and its ornament are one curved line, made by a craftsman from the best material.",
+    "design_principles": [
+      "Draw each support as a plant stem that is thin at the root of the curve and thick where the load meets it.",
+      "Join structure and ornament in one S-shaped line; a leg, a handle and a leaf are one stroke.",
+      "Use coloured art glass in two to four layers for a shade or a vase, and let light pass through it.",
+      "Cast the metal parts in bronze or brass and give them a brown or green patina.",
+      "Carve fruit wood with a curved edge; leave 3 to 5 mm of soft radius on every corner.",
+      "Take the motif from nature: the iris, the orchid, the water lily, the dragonfly and the thistle.",
+      "Make each piece a unit with its room: the same curve runs on the lamp, the tap, the chair and the handle."
+    ],
+    "anti_patterns": [
+      "Straight rods and sharp right angles",
+      "Machine-perfect chrome with no hand mark",
+      "Revival ornament, such as acanthus leaves or Gothic crockets",
+      "Flat colour with no depth in the glass",
+      "Plastic and laminate surfaces",
+      "Strict symmetry with no curve"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 5,
+    "hand_finish": 4,
+    "material_warmth": 4,
+    "visual_mass": 3,
+    "chromatic_intensity": 3
+  },
+  "form": {
+    "geometry": "Whiplash curves, ellipses and drops; each form swells and narrows along one curved axis, as a stem or a bud does.",
+    "silhouette": "An asymmetric outline with a long S-curve: a lamp stem bends to one side and ends in a bud-shaped shade.",
+    "edges": "Soft edges with a radius of 3 to 10 mm; the rim of a vase and the edge of a table top flow in a wave, not a straight line.",
+    "proportion": "A table lamp is about 45 cm high; the shade is 1 to 1.2 times the width of the base, and the stem is slim, about 1 part to 4 parts of height.",
+    "ornament": "Plant and insect motifs in relief, in inlay or in the glass layers; they cover 30 to 60% of the surface and follow the structure.",
+    "rules": [
+      "Each piece has one dominant curve that runs from the base to the top.",
+      "No part is a straight line longer than 15 cm.",
+      "Legs and stems are thin at the join and thick at the load, in a ratio of about 1 to 2.",
+      "Each motif follows the structure; no motif is a flat pattern that ignores the form.",
+      "Glass has 2 to 4 layers of colour; the outer layer is cut or etched to show the inner layer."
+    ]
+  },
+  "materials": {
+    "primary": [
+      "coloured-glass",
+      "bronze",
+      "walnut",
+      "mahogany",
+      "porcelain"
+    ],
+    "secondary": [
+      "solid-brass",
+      "silver-plate",
+      "pressed-glass",
+      "opal-glass",
+      "oak",
+      "cherry",
+      "ash",
+      "copper",
+      "stoneware",
+      "velvet",
+      "leather",
+      "wrought-iron",
+      "silk"
+    ],
+    "avoid": [
+      "chrome-plated-steel",
+      "stainless-steel",
+      "abs-plastic",
+      "plastic-laminate",
+      "acrylic",
+      "concrete",
+      "polypropylene"
+    ],
+    "rule": "Glass and metal carry the light and the line; wood and textile are warm and dark, and each wood piece is about 40% of the visible surface."
+  },
+  "finish": {
+    "finishes": [
+      "patinated",
+      "acid-etched",
+      "french-polished",
+      "waxed",
+      "gilded",
+      "vitreous-glaze",
+      "clear-gloss"
+    ],
+    "textures": [
+      "cast-relief",
+      "etched",
+      "figured-grain",
+      "fluted",
+      "satin-smooth",
+      "mirror-smooth",
+      "open-grain"
+    ],
+    "gloss": "30–70 GU on wood and patinated metal; 80–95 GU on glaze and glass",
+    "patina": "The style wants a brown or green patina on bronze and a deep, warm shine on wood; a bright new surface looks wrong."
+  },
+  "hardware": {
+    "metal_tone": "bronze",
+    "section": "Stems and rods 10–18 mm, narrowing to 6 mm; handles 12–20 mm",
+    "joints": "Cast in one piece, or joined by a hidden dovetail or a tenon; a screw is hidden under a bud, a leaf or a cap.",
+    "handles": "A cast bronze pull in the form of a stem, a tendril or a leaf, with a long curve that fits the hand.",
+    "switches_and_taps": "A tap with a swan-neck spout and a lever in the form of a stem; a switch in porcelain or brass on a carved wood block."
+  },
+  "palette": {
+    "strategy": "The soft, dim colours of a pond and a garden at dusk: moss, ochre, peach and aubergine, with warm metal and amber light.",
+    "colours": [
+      {
+        "name": "Moss green",
+        "hex": "#6B7A3E",
+        "role": "glass, enamel, upholstery"
+      },
+      {
+        "name": "Amber",
+        "hex": "#C98A2B",
+        "role": "lit glass, ochre accent"
+      },
+      {
+        "name": "Peach",
+        "hex": "#E3B08D",
+        "role": "porcelain, soft glass"
+      },
+      {
+        "name": "Aubergine",
+        "hex": "#4A2C45",
+        "role": "velvet, deep glass"
+      },
+      {
+        "name": "Verdigris bronze",
+        "hex": "#5B6B4F",
+        "role": "patinated metal"
+      },
+      {
+        "name": "Dark walnut",
+        "hex": "#4B3322",
+        "role": "furniture"
+      }
+    ]
+  },
+  "manufacture": {
+    "processes": [
+      "lost-wax bronze casting",
+      "cameo glass cutting and acid etching",
+      "marquetry and inlay",
+      "carving of fruit wood",
+      "porcelain slip casting"
+    ],
+    "scale": "Art workshops and small factories made limited series of a few hundred; a few firms made larger series for the shop and the catalogue.",
+    "signs": "Cast seams that the chaser has worked away, a signature cut in the glass or the foot, and layers of colour at a cut edge."
+  },
+  "signatures": {
+    "objects": [
+      {
+        "category": "sanitary",
+        "object": "mixer-tap",
+        "form": "swan-neck spout",
+        "material": "bronze",
+        "finish": "patinated",
+        "texture": "fluted"
+      },
+      {
+        "category": "electrics",
+        "object": "light-switch",
+        "form": "surface switch on a wood block",
+        "material": "porcelain",
+        "finish": "vitreous-glaze",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "lighting",
+        "object": "table-lamp",
+        "form": "lead-glass shade on a cast base",
+        "material": "coloured-glass",
+        "finish": "acid-etched",
+        "texture": "etched"
+      },
+      {
+        "category": "storage",
+        "object": "sideboard",
+        "form": "glass-front vitrine",
+        "material": "mahogany",
+        "finish": "french-polished",
+        "texture": "figured-grain"
+      },
+      {
+        "category": "soft-furniture",
+        "object": "armchair",
+        "form": "spindle-back armchair",
+        "material": "walnut",
+        "finish": "waxed",
+        "texture": "figured-grain"
+      },
+      {
+        "category": "tables",
+        "object": "dining-table",
+        "form": "round table on a central column",
+        "material": "oak",
+        "finish": "waxed",
+        "texture": "open-grain"
+      },
+      {
+        "category": "kitchen",
+        "object": "tableware",
+        "form": "patterned transfer-printed plates",
+        "material": "porcelain",
+        "finish": "gilded",
+        "texture": "cast-relief"
+      },
+      {
+        "category": "decor",
+        "object": "vase",
+        "form": "trumpet vase",
+        "material": "coloured-glass",
+        "finish": "acid-etched",
+        "texture": "satin-smooth"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1900 art nouveau object design",
+      "whiplash curve and plant stem form",
+      "cameo art glass in layered colour",
+      "cast bronze with brown and green patina",
+      "carved mahogany with curved lines",
+      "iris and dragonfly relief motif",
+      "swan-neck tap with a stem lever",
+      "moss green, amber and aubergine",
+      "studio product photograph, warm low light"
+    ],
+    "negative": [
+      "chrome tube",
+      "straight rods",
+      "plastic",
+      "flat modern minimalism",
+      "acanthus revival ornament",
+      "neon colour"
+    ],
+    "canonical_works": [
+      {
+        "work": "Art glass table lamp",
+        "maker": "Daum",
+        "year": 1900
+      },
+      {
+        "work": "Dragonfly table lamp",
+        "maker": "Louis Comfort Tiffany",
+        "year": 1900
+      },
+      {
+        "work": "Door handles and railings of the Castel Béranger",
+        "maker": "Hector Guimard",
+        "year": 1898
+      },
+      {
+        "work": "Ladderback chair",
+        "maker": "Charles Rennie Mackintosh",
+        "year": 1903
+      },
+      {
+        "work": "Hôtel Tassel light fixtures",
+        "maker": "Victor Horta",
+        "year": 1893
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Mushroom night lamp, c. 1896–1902",
+      "kind": "image",
+      "maker": "Tiffany Glass and Decorating Company",
+      "year": 1900,
+      "credit": "Cleveland Museum of Art",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Tiffany_Glass_%5E_Decorating_Co._(American,_1892-1900)_-_Mushroom_Night_Lamp_-_2018.288_-_Cleveland_Museum_of_Art.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Tiffany_Glass_%5E_Decorating_Co._%28American%2C_1892-1900%29_-_Mushroom_Night_Lamp_-_2018.288_-_Cleveland_Museum_of_Art.jpg/960px-Tiffany_Glass_%5E_Decorating_Co._%28American%2C_1892-1900%29_-_Mushroom_Night_Lamp_-_2018.288_-_Cleveland_Museum_of_Art.jpg"
+    },
+    {
+      "title": "Art glass table lamp",
+      "kind": "image",
+      "maker": "Daum",
+      "year": 1900,
+      "credit": "Antonin and Auguste Daum",
+      "licence": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Lamp-Daum-BMA.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/6/61/Lamp-Daum-BMA.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "arts-and-crafts-object"
+    ],
+    "rebelled_against": [
+      "victorian-manufacture"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "art-nouveau-interior",
+      "art-nouveau-architecture",
+      "art-nouveau-web"
+    ]
+  },
+  "emotion": {
+    "target_response": "Quiet wonder at a handmade object that seems to grow: the viewer follows one line from the base to the top.",
+    "keywords": [
+      "organic",
+      "sensuous",
+      "curved",
+      "crafted",
+      "dreamlike"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "lover"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "art nouveau lamp",
+      "jugendstil object",
+      "tiffany style lamp",
+      "gallé glass",
+      "whiplash curve",
+      "stem handle",
+      "1900 craft glass",
+      "swan-neck tap"
+    ],
+    "use_cases": [
+      "lighting and glass for a period or reissue interior",
+      "a still life for an antiques catalogue",
+      "hardware schedules for a restored townhouse",
+      "a brief for a hand-finished reissue"
+    ],
+    "avoid_when": [
+      "The room needs plain geometry and no ornament.",
+      "The brief asks for chrome, plastic or a strict grid."
+    ],
+    "modifiers": [
+      {
+        "request": "plainer and more geometric",
+        "toward": "art-deco-product",
+        "how": "Replace the curve with a stepped line and a fan, and use ebony, chrome and black glass."
+      },
+      {
+        "request": "more handmade and rustic",
+        "toward": "arts-and-crafts-object",
+        "how": "Keep the craft, but use oak and hammered copper, with a straight line and a visible joint."
+      },
+      {
+        "request": "colder and more modern",
+        "toward": "bauhaus-product",
+        "how": "Remove the motif and the curve; use opal glass, nickel and plain solids."
+      }
+    ]
+  },
+  "permutations": {
+    "ornament_level": {
+      "default": 0.65,
+      "min": 0.3,
+      "max": 1
+    },
+    "material_warmth": {
+      "default": 0.65,
+      "min": 0.35,
+      "max": 0.9
+    },
+    "finish_gloss": {
+      "default": 60,
+      "min": 15,
+      "max": 95
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1,
+      "note": "A new object that quotes the curve and the glass keeps the style."
+    },
+    "hardware_weight": {
+      "default": 14,
+      "min": 6,
+      "max": 28
+    },
+    "edge_radius": {
+      "default": 8,
+      "min": 3,
+      "max": 40
+    },
+    "metal_tone": {
+      "default": "bronze",
+      "options": [
+        "bronze",
+        "brass",
+        "copper",
+        "nickel",
+        "black",
+        "none"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Art Nouveau",
+      "url": "https://en.wikipedia.org/wiki/Art_Nouveau"
+    },
+    {
+      "title": "Wikipedia: Tiffany lamp",
+      "url": "https://en.wikipedia.org/wiki/Tiffany_lamp"
+    },
+    {
+      "title": "Wikipedia: Émile Gallé",
+      "url": "https://en.wikipedia.org/wiki/%C3%89mile_Gall%C3%A9"
+    },
+    {
+      "title": "Wikipedia: Castel Béranger",
+      "url": "https://en.wikipedia.org/wiki/Castel_B%C3%A9ranger"
+    }
+  ]
+}

@@ -1,0 +1,446 @@
+{
+  "$schema": "../../../schema/domains/industrial.schema.json",
+  "id": "georgian-neoclassical-manufacture",
+  "domain": "industrial",
+  "name": "Georgian neoclassical manufacture",
+  "aliases": [
+    "Wedgwood and Boulton manufacture",
+    "Adam-period manufacture",
+    "Georgian factory classicism"
+  ],
+  "era_id": "proto-industrial",
+  "time_period": {
+    "start": 1760,
+    "end": 1840,
+    "label": "1760–1840"
+  },
+  "region": "England: Staffordshire, Birmingham, London",
+  "summary": "The household goods of the first English factories: mahogany furniture, creamware and jasperware, ormolu and Sheffield plate, all made in series from the classical models of the architect and the pattern book.",
+  "philosophy": {
+    "core_thesis": "A factory can make an object that looks like a work of antiquity: the form comes from the classical model, and the mould, the lathe and the die repeat it with a fine finish.",
+    "design_principles": [
+      "Take each form from a classical model: an urn, a column, a vase or an acanthus leaf.",
+      "Use a slim, straight leg with 8 to 12 flutes, or a turned leg with a tapered foot.",
+      "Use mahogany with a figured veneer and a fine French polish on all large wood surfaces.",
+      "Put the ornament in a narrow band: a bead, a reed, a Greek key or a husk chain of 10 to 25 mm.",
+      "Make a thin, cast and gilded metal mount for each handle, sconce and clock case.",
+      "Keep a pale ground, such as cream, sage or stone, and one gilded accent for each object.",
+      "Draw the form so that a workshop can repeat it with a mould, a lathe or a die."
+    ],
+    "anti_patterns": [
+      "Heavy carved scrolls and shells in the rococo manner",
+      "Deep buttoned upholstery",
+      "Bright synthetic colour",
+      "Raw machine marks on a visible surface",
+      "Chrome and bright steel",
+      "Moulded plastic parts"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "hand_finish": 3,
+    "material_warmth": 4,
+    "visual_mass": 3,
+    "chromatic_intensity": 2
+  },
+  "form": {
+    "geometry": "Straight lines, circles and ovals, with the urn, the column and the arch as the main shapes.",
+    "silhouette": "A light, upright outline on slim legs: a rectangular case with a gentle serpentine or bow front, and a vase or an urn as the top.",
+    "edges": "Crisp edges with a small bead or reed of 3 to 6 mm; no soft or bulbous curves.",
+    "proportion": "A sideboard is about 90 cm high and 180 cm long; a leg is about 1/12 of its height in width; a vase has a height of 1.5 to 2 times its widest diameter.",
+    "ornament": "A band of low relief: a bead, a husk chain, a Greek key, a reed or a laurel wreath, in cast metal, plaster or inlay.",
+    "rules": [
+      "Each object has one classical motif, such as a flute, an urn or a husk chain.",
+      "Each leg is straight and tapered, or turned with a round foot.",
+      "A band of ornament is 10 to 25 mm wide.",
+      "Gilding covers less than 20% of the visible surface.",
+      "Each vase or urn has a base, a body and a lid or rim in 3 clear parts."
+    ]
+  },
+  "materials": {
+    "primary": [
+      "mahogany",
+      "solid-brass",
+      "porcelain",
+      "marble",
+      "silk",
+      "mirror-glass"
+    ],
+    "secondary": [
+      "silver-plate",
+      "bronze",
+      "cast-iron",
+      "wrought-iron",
+      "oak",
+      "walnut",
+      "clear-glass",
+      "pressed-glass",
+      "plaster",
+      "cotton",
+      "linen",
+      "wool",
+      "velvet",
+      "leather"
+    ],
+    "avoid": [
+      "abs-plastic",
+      "polypropylene",
+      "bakelite",
+      "acrylic",
+      "chrome-plated-steel",
+      "plastic-laminate",
+      "fibreglass",
+      "pvc"
+    ],
+    "rule": "Mahogany, brass and ceramic carry the object; silk, marble and mirror glass give the fine surfaces; 0% of the visible surface is a modern polymer."
+  },
+  "finish": {
+    "finishes": [
+      "french-polished",
+      "polished",
+      "gilded",
+      "vitreous-glaze",
+      "waxed",
+      "painted-eggshell",
+      "silvered",
+      "piece-dyed"
+    ],
+    "textures": [
+      "figured-grain",
+      "fine-grain",
+      "mirror-smooth",
+      "satin-smooth",
+      "fluted",
+      "cast-relief",
+      "veined",
+      "twill"
+    ],
+    "gloss": "60–85 GU on wood and gilding, 80–95 GU on glaze, 15–30 GU on paint",
+    "patina": "A clean, fine surface in its first state; the style allows a soft, warm age of the wood and the gilding, but not rust or wear."
+  },
+  "hardware": {
+    "metal_tone": "brass",
+    "section": "Rods and stems 10–20 mm; a cast mount 2–4 mm thick",
+    "joints": "Hidden joints; cast and chased mounts screwed to the wood; a ring pull on a rose plate.",
+    "handles": "A ring pull on a cast rose, a lion mask with a ring, or a small turned knob of wood or porcelain.",
+    "switches_and_taps": "Before 1880 there is no electric switch; the period-faithful reissue is a rotary switch in white porcelain with a brass ring. A tap has a swan neck and a cross handle in brass."
+  },
+  "palette": {
+    "strategy": "Pale grounds of cream, stone and sage, set against the red-brown of mahogany and the yellow of brass and gilding.",
+    "colours": [
+      {
+        "name": "Mahogany",
+        "hex": "#6B2E1E",
+        "role": "furniture"
+      },
+      {
+        "name": "Cream",
+        "hex": "#EDE4CE",
+        "role": "walls, ceramic"
+      },
+      {
+        "name": "Sage green",
+        "hex": "#A9B493",
+        "role": "painted panel, silk"
+      },
+      {
+        "name": "Gilt brass",
+        "hex": "#B8923A",
+        "role": "mounts, frames"
+      },
+      {
+        "name": "Wedgwood blue",
+        "hex": "#8FA5BC",
+        "role": "jasperware"
+      },
+      {
+        "name": "Marble white",
+        "hex": "#E8E6E0",
+        "role": "top, bust"
+      }
+    ]
+  },
+  "manufacture": {
+    "processes": [
+      "mahogany veneering",
+      "lathe turning",
+      "press moulding of clay",
+      "ormolu casting and gilding",
+      "die-stamping of thin metal",
+      "Sheffield plating"
+    ],
+    "scale": "Large workshops and early factories of 100 to 300 workers; sets and services made in the hundreds from pattern books.",
+    "signs": "Flutes of equal width, repeated mounts of one casting, and a clear glaze with fine, even thickness."
+  },
+  "signatures": {
+    "objects": [
+      {
+        "category": "sanitary",
+        "object": "basin",
+        "form": "pedestal basin with a marble top",
+        "material": "marble",
+        "finish": "polished",
+        "texture": "veined"
+      },
+      {
+        "category": "electrics",
+        "object": "light-switch",
+        "form": "round rotary in white porcelain with a brass ring (a period-faithful reissue)",
+        "material": "porcelain",
+        "finish": "vitreous-glaze",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "lighting",
+        "object": "wall-sconce",
+        "form": "two-arm sconce with a gilt mount",
+        "material": "solid-brass",
+        "finish": "gilded",
+        "texture": "cast-relief"
+      },
+      {
+        "category": "storage",
+        "object": "sideboard",
+        "form": "bow-front case on tapered legs",
+        "material": "mahogany",
+        "finish": "french-polished",
+        "texture": "figured-grain"
+      },
+      {
+        "category": "soft-furniture",
+        "object": "sofa",
+        "form": "settee with a straight back and fluted legs",
+        "material": "silk",
+        "finish": "piece-dyed",
+        "texture": "twill"
+      },
+      {
+        "category": "tables",
+        "object": "dining-table",
+        "form": "extending table on turned legs",
+        "material": "mahogany",
+        "finish": "french-polished",
+        "texture": "figured-grain"
+      },
+      {
+        "category": "kitchen",
+        "object": "tableware",
+        "form": "creamware dinner service with a beaded rim",
+        "material": "porcelain",
+        "finish": "vitreous-glaze",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "decor",
+        "object": "mirror",
+        "form": "oval pier glass in a gilt frame",
+        "material": "mirror-glass",
+        "finish": "silvered",
+        "texture": "mirror-smooth"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Georgian neoclassical household object",
+      "mahogany with figured veneer",
+      "fluted tapered legs",
+      "ormolu mounts and gilt brass",
+      "creamware and jasperware",
+      "urn and husk chain ornament",
+      "oval mirror in a gilt frame",
+      "cream and sage painted ground",
+      "fine French polish",
+      "studio product photograph, soft window light"
+    ],
+    "negative": [
+      "chrome",
+      "plastic",
+      "rococo shell carving",
+      "buttoned Victorian upholstery",
+      "bright synthetic colour",
+      "industrial steel"
+    ],
+    "canonical_works": [
+      {
+        "work": "Queen's Ware creamware service",
+        "maker": "Josiah Wedgwood",
+        "year": 1765
+      },
+      {
+        "work": "Portland vase copy in jasperware",
+        "maker": "Josiah Wedgwood",
+        "year": 1790
+      },
+      {
+        "work": "Ormolu and blue john vase",
+        "maker": "Matthew Boulton",
+        "year": 1771
+      },
+      {
+        "work": "Cabinet in the manner of the pattern books",
+        "maker": "Thomas Sheraton",
+        "year": 1791
+      },
+      {
+        "work": "Library table for Harewood House",
+        "maker": "Thomas Chippendale",
+        "year": 1771
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Portland vase in jasperware, c. 1790",
+      "kind": "image",
+      "maker": "Josiah Wedgwood",
+      "year": 1790,
+      "credit": "Cleveland Museum of Art, 1918.823",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Josiah_Wedgwood_-_Portland_Vase_-_1918.823_-_Cleveland_Museum_of_Art.tif",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Josiah_Wedgwood_-_Portland_Vase_-_1918.823_-_Cleveland_Museum_of_Art.tif/lossy-page1-960px-Josiah_Wedgwood_-_Portland_Vase_-_1918.823_-_Cleveland_Museum_of_Art.tif.jpg"
+    },
+    {
+      "title": "Ormolu tea urn",
+      "kind": "image",
+      "credit": "Wehwalt",
+      "licence": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Ormoluteaurn.JPG",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Ormoluteaurn.JPG/960px-Ormoluteaurn.JPG"
+    },
+    {
+      "title": "Wedgwood jasperware lustre with ormolu",
+      "kind": "image",
+      "maker": "Josiah Wedgwood",
+      "year": 1790,
+      "credit": "Daderot",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Lustre,_Wedgwood,_c._1790,_jasperware_with_London_glass_and_ormolu_perhaps_by_Matthew_Bouton_-_British_Museum_-_DSC00144.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Lustre%2C_Wedgwood%2C_c._1790%2C_jasperware_with_London_glass_and_ormolu_perhaps_by_Matthew_Bouton_-_British_Museum_-_DSC00144.jpg/960px-Lustre%2C_Wedgwood%2C_c._1790%2C_jasperware_with_London_glass_and_ormolu_perhaps_by_Matthew_Bouton_-_British_Museum_-_DSC00144.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "georgian-interior",
+      "neoclassical-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Calm pleasure in a refined, ordered object: it looks light, clean and sure of its proportion.",
+    "keywords": [
+      "refined",
+      "ordered",
+      "polite",
+      "classical",
+      "elegant"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "lover"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "georgian furniture",
+      "wedgwood",
+      "jasperware",
+      "creamware",
+      "boulton ormolu",
+      "regency sideboard",
+      "neoclassical object",
+      "adam style lamp"
+    ],
+    "use_cases": [
+      "period hardware for a Georgian or Regency house",
+      "a reissue of a classical lamp or vase",
+      "a still life with creamware and mahogany",
+      "a hardware schedule for a listed building"
+    ],
+    "avoid_when": [
+      "The brief asks for a bare, plain or modern object.",
+      "The room needs soft, worn and rustic surfaces."
+    ],
+    "modifiers": [
+      {
+        "request": "plainer and more honest",
+        "toward": "shaker-object",
+        "how": "Remove the flutes and the gilding, and use plain maple and cherry with an oil finish."
+      },
+      {
+        "request": "heavier and more ornate",
+        "toward": "victorian-manufacture",
+        "how": "Add carved and turned parts, dark polish, velvet and pressed glass."
+      },
+      {
+        "request": "cleaner and modern",
+        "toward": "scandinavian-modern-product",
+        "how": "Keep the slim leg and the light outline, and use pale oak, linen and white ceramic."
+      }
+    ]
+  },
+  "permutations": {
+    "ornament_level": {
+      "default": 0.45,
+      "min": 0.15,
+      "max": 0.7
+    },
+    "material_warmth": {
+      "default": 0.6,
+      "min": 0.4,
+      "max": 0.85
+    },
+    "finish_gloss": {
+      "default": 70,
+      "min": 15,
+      "max": 95
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1,
+      "note": "A contemporary reinterpretation keeps the style when it keeps the forms and the materials."
+    },
+    "hardware_weight": {
+      "default": 14,
+      "min": 6,
+      "max": 28
+    },
+    "edge_radius": {
+      "default": 3,
+      "min": 1,
+      "max": 12
+    },
+    "metal_tone": {
+      "default": "brass",
+      "options": [
+        "brass",
+        "bronze",
+        "nickel",
+        "black",
+        "white",
+        "none"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Josiah Wedgwood",
+      "url": "https://en.wikipedia.org/wiki/Josiah_Wedgwood"
+    },
+    {
+      "title": "Wikipedia: Matthew Boulton",
+      "url": "https://en.wikipedia.org/wiki/Matthew_Boulton"
+    },
+    {
+      "title": "Wikipedia: Creamware",
+      "url": "https://en.wikipedia.org/wiki/Creamware"
+    },
+    {
+      "title": "Wikipedia: Neoclassicism",
+      "url": "https://en.wikipedia.org/wiki/Neoclassicism"
+    }
+  ]
+}

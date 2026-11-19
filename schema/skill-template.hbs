@@ -139,6 +139,30 @@ The pictures and icons of this style are files. Use them as they are, or read th
 {{/each}}
 
 {{/if}}
+{{#if object_net}}
+## Object net
+
+{{object_net.thesis}} The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: {{object_net.knobs}}. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page]({{object_net.page}}).
+
+| Category | Object | Form | Material, finish, texture |
+|---|---|---|---|
+{{#each object_net.categories}}
+{{#each objects}}
+| {{#if @first}}{{../category}} ({{{../style}}}){{/if}} | {{object}} | {{form}} | {{surface}}{{#if colour}} ({{colour}}){{/if}} |
+{{/each}}
+{{/each}}
+
+Alternates for each category:
+{{#each object_net.categories}}
+- **{{category}}:** {{{alternates}}}
+{{/each}}
+
+The moodboard tiles resolve to these objects:
+{{#each object_net.tiles}}
+- **{{tile}}:** {{objects}}
+{{/each}}
+
+{{/if}}
 {{#if primer}}
 ## Vocabulary primer
 

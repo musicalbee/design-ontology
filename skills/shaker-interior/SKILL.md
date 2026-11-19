@@ -230,6 +230,68 @@ The rules above name these shared principles by id. The definition is the same i
 ![Light](../../demo/moodboards/interior/shaker-interior/light.webp)
 ![Objects](../../demo/moodboards/interior/shaker-interior/objects.webp)
 
+## Object net
+
+Every object is plain local wood: cherry, maple and pine, in a thin oil or milk paint. Black iron and woven cotton tape are the only other materials, and no object has ornament. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0, material_warmth 0.8, finish_gloss 8, era_blend 0.2, hardware_weight 8, edge_radius 2, metal_tone black. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#shaker-interior).
+
+| Category | Object | Form | Material, finish, texture |
+|---|---|---|---|
+| Sanitary ([`shaker-object`](../shaker-object/SKILL.md)) | Basin | pedestal basin | Stoneware, matte glaze, satin-smooth (#F2EEE3) |
+|  | Basin tap or mixer | wall-mounted spout | Copper, patinated, hammered |
+|  | WC | square-section pan | Oak, oiled, fine close grain (#C9A06B) |
+|  | Bath | freestanding oval | Cast iron, eggshell paint, satin-smooth (#F2EEE3) |
+|  | Towel rail | wall peg row | Oak, oiled, open grain (#C9A06B) |
+|  | Bath accessories | shelf-top vessels | Stoneware, matte glaze, satin-smooth (#F2EEE3) |
+| Electrics ([`shaker-object`](../shaker-object/SKILL.md)) | Light switch | surface switch on a wood block | Oak, oiled, fine close grain (#C9A06B) |
+|  | Socket outlet | socket set in a skirting rail | Oak, oiled, fine close grain (#C9A06B) |
+|  | Visible cable and conduit | fabric-braided cord in a loop | Cotton, piece-dyed, plain weave (#2B2B2B) |
+| Lighting ([`shaker-object`](../shaker-object/SKILL.md)) | Wall sconce | half-cylinder uplighter | Mild steel, blackened, satin-smooth (#2B2B2B) |
+|  | Table lamp | candlestick column with a pleated shade | Oak, oiled, fine close grain (#C9A06B) |
+|  | Curtain pole | slim rod with end caps | Wrought iron, blackened, tool marks (#2B2B2B) |
+|  | Curtain track and blind | roller blind | Cotton, natural, undyed, plain weave (#F2EEE3) |
+| Storage ([`shaker-object`](../shaker-object/SKILL.md)) | Chest of drawers | low wide chest on tapered legs | Cherry, oiled, fine close grain (#9A5B34) |
+|  | Wardrobe and tall cabinet | flush built-in wall | Cherry, oiled, fine close grain (#9A5B34) |
+|  | Shelving | open bookcase | Pine, matte paint, fine close grain (#3F5A73) |
+|  | Hooks and pegs | peg rail | Maple, matte paint, fine close grain (#3F5A73) |
+|  | Handle, knob and pull | turned wooden knob | Beech, oiled, fine close grain (#C9A06B) |
+| Soft Furniture ([`shaker-object`](../shaker-object/SKILL.md)) | Armchair and lounge chair | spindle-back armchair | Ash, oiled, open grain (#C9A06B) |
+|  | Bed | spindle headboard | Cherry, oiled, fine close grain (#9A5B34) |
+|  | Ottoman and pouf | footstool on turned legs | Oak, oiled, fine close grain (#C9A06B) |
+|  | Cushion and throw | knife-edge square | Cotton, piece-dyed, plain weave (#3F5A73) |
+| Tables ([`shaker-object`](../shaker-object/SKILL.md)) | Dining table | trestle table | Pine, soaped, open grain (#C9A06B) |
+|  | Dining chair | ladder-back chair with a rush seat | Maple, waxed, fine close grain (#C9A06B) |
+|  | Side table | tray-top stool | Ash, oiled, fine close grain (#C9A06B) |
+|  | Desk and work table | trestle work table | Oak, soaped, open grain (#C9A06B) |
+| Kitchen ([`shaker-object`](../shaker-object/SKILL.md)) | Kitchen front | Shaker frame-and-panel door | Pine, matte paint, fine close grain (#3F5A73) |
+|  | Worktop and splashback | thick butcher-block top | Maple, oiled, open grain (#C9A06B) |
+|  | Kitchen sink and tap | copper farmhouse sink | Copper, patinated, hammered |
+|  | Cooker hood and range | enamelled range cooker | Cast iron, blackened, satin-smooth (#2B2B2B) |
+|  | Cookware | earthenware cooking pot | Stoneware, matte glaze, satin-smooth (#9A5B34) |
+|  | Tableware and glassware | hand-thrown bowls | Stoneware, matte glaze, speckled clay (#F2EEE3) |
+|  | Cutlery | bone or wood handle set | Oak, oiled, fine close grain (#C9A06B) |
+| Decor ([`shaker-object`](../shaker-object/SKILL.md)) | Bowl, tray and box | oval Shaker box | Maple, matte paint, fine close grain (#9C4A2F) |
+|  | Plant pot and planter | fibre basket | Jute, natural, undyed, plaited or wicker weave (#C9A06B) |
+|  | Candle holder and lantern | candlestick pair | Wrought iron, blackened, hammered (#2B2B2B) |
+|  | Rug | rag rug | Wool, piece-dyed, plain weave (#3F5A73) |
+
+Alternates for each category:
+- **Sanitary:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)
+- **Electrics:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md)
+- **Lighting:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
+- **Storage:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
+- **Soft Furniture:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
+- **Tables:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
+- **Kitchen:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
+- **Decor:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
+
+The moodboard tiles resolve to these objects:
+- **room:** Chest of drawers, Hooks and pegs, Dining chair, Dining table, Wardrobe and tall cabinet, Curtain track and blind, Rug
+- **materials:** Wardrobe and tall cabinet, Hooks and pegs, Handle, knob and pull, Curtain track and blind, Wall sconce, Cutlery
+- **furniture:** Dining chair, Armchair and lounge chair, Dining table, Desk and work table, Chest of drawers, Side table
+- **textiles:** Cushion and throw, Rug, Curtain track and blind, Armchair and lounge chair
+- **light:** Wall sconce, Table lamp, Curtain pole, Hooks and pegs
+- **objects:** Bowl, tray and box, Plant pot and planter, Candle holder and lantern, Hooks and pegs, Tableware and glassware
+
 ## Vocabulary primer
 
 Use these terms in a brief, an image prompt or a 3D scene description.
@@ -284,6 +346,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
 - **Mixes well with:** [`coastal-interior`](../coastal-interior/SKILL.md)
+- **Kin in another domain:** [`shaker-object`](../shaker-object/SKILL.md)
 - **Nearest by vector profile:** [`japandi-interior`](../japandi-interior/SKILL.md), [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
 
 ## Emotional target
