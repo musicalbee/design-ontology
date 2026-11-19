@@ -140,6 +140,22 @@
     {
      "id": "dye",
      "name": "Dye"
+    },
+    {
+     "id": "living-plant",
+     "name": "Living plant"
+    },
+    {
+     "id": "woven-figured",
+     "name": "Woven, figured"
+    },
+    {
+     "id": "quilted",
+     "name": "Quilted"
+    },
+    {
+     "id": "rug",
+     "name": "Rug"
     }
    ]
   },
@@ -255,6 +271,14 @@
     {
      "id": "stock",
      "name": "Stock"
+    },
+    {
+     "id": "hide-and-fur",
+     "name": "Hide and fur"
+    },
+    {
+     "id": "rug",
+     "name": "Rug"
     }
    ]
   },
@@ -395,6 +419,10 @@
     {
      "id": "tile",
      "name": "Tile"
+    },
+    {
+     "id": "ceramic",
+     "name": "Ceramic"
     }
    ]
   },
@@ -454,6 +482,14 @@
     {
      "id": "paint",
      "name": "Paint"
+    },
+    {
+     "id": "braid",
+     "name": "Braid"
+    },
+    {
+     "id": "woven-pile",
+     "name": "Woven, pile"
     }
    ]
   },
@@ -489,6 +525,22 @@
     {
      "id": "coated-fabric",
      "name": "Coated fabric"
+    },
+    {
+     "id": "textile",
+     "name": "Textile"
+    },
+    {
+     "id": "braid",
+     "name": "Braid"
+    },
+    {
+     "id": "board-product",
+     "name": "Board product"
+    },
+    {
+     "id": "wood-finish",
+     "name": "Wood finish"
     }
    ]
   }
@@ -654,6 +706,9 @@
     "fashion.fabrics"
    ],
    "summary": "Cloth soaked in linseed oil for sailors and fishermen; Helly Hansen sold oiled linen in Norway from 1877.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "flax",
     "cotton"
@@ -679,6 +734,9 @@
     "fashion.fabrics"
    ],
    "summary": "A dense cotton with a paraffin-wax finish that replaced linseed oil; it does not go stiff in the cold. The cloth of the country jacket.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "cotton"
    ],
@@ -804,8 +862,7 @@
     "wood"
    ],
    "aliases": [
-    "mdf",
-    "lacquered mdf"
+    "mdf"
    ],
    "photo": null,
    "identity": {
@@ -815,6 +872,36 @@
     {
      "title": "Wikipedia: Medium-density fibreboard",
      "url": "https://en.wikipedia.org/wiki/Medium-density_fibreboard"
+    }
+   ],
+   "class": "plant"
+  },
+  {
+   "id": "parquet",
+   "name": "Parquet",
+   "family": "engineered-wood",
+   "form": "board",
+   "senses": [],
+   "is_a": [
+    "wood-flooring"
+   ],
+   "made_from": [
+    "wood"
+   ],
+   "aliases": [
+    "parquetry",
+    "herringbone parquet",
+    "parquet floor"
+   ],
+   "photo_applied": "a square sample of herringbone oak parquet",
+   "photo": null,
+   "identity": {
+    "wikidata": "Q838828"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Parquet",
+     "url": "https://en.wikipedia.org/wiki/Parquet"
     }
    ],
    "class": "plant"
@@ -842,6 +929,34 @@
     {
      "title": "Wikipedia: Plywood",
      "url": "https://en.wikipedia.org/wiki/Plywood"
+    }
+   ],
+   "class": "plant"
+  },
+  {
+   "id": "wood-flooring",
+   "name": "Wood flooring",
+   "family": "engineered-wood",
+   "form": "board",
+   "senses": [],
+   "made_from": [
+    "wood"
+   ],
+   "aliases": [
+    "plank floor",
+    "wood floor",
+    "engineered wood floor",
+    "engineered oak floor"
+   ],
+   "photo_applied": "a square sample of oak plank flooring",
+   "photo": null,
+   "identity": {
+    "wikidata": "Q21141633"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Wood flooring",
+     "url": "https://en.wikipedia.org/wiki/Wood_flooring"
     }
    ],
    "class": "plant"
@@ -1616,6 +1731,9 @@
     "fashion.fabrics"
    ],
    "summary": "Lace plaited from threads on many bobbins over a pattern on a pillow; Flanders and the Low Countries led it.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "flax",
     "silk"
@@ -1641,6 +1759,9 @@
     "fashion.fabrics"
    ],
    "summary": "Machine lace from the Leavers frame; it made lace a cloth of the middle class and of lingerie.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "cotton",
     "silk",
@@ -1667,6 +1788,9 @@
     "fashion.fabrics"
    ],
    "summary": "Lace built from buttonhole stitches with a needle; Venetian 'punto in aria' was the lace of the ruff and the collar.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "flax",
     "silk"
@@ -1692,6 +1816,9 @@
     "fashion.fabrics"
    ],
    "summary": "Two cotton cloths glued with naphtha-dissolved rubber; the first waterproof coat cloth, and the name of the coat.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "cotton"
    ],
@@ -1716,6 +1843,9 @@
     "fashion.materials"
    ],
    "summary": "Raw latex rolled into crinkled sheets for a soft, grippy sole; the sole of the desert boot and the creeper.",
+   "is_a": [
+    "rubber"
+   ],
    "made_from": [
     "natural-rubber"
    ],
@@ -1740,6 +1870,9 @@
     "fashion.materials"
    ],
    "summary": "Latex from the rubber tree; the Olmec made rubber balls. Raw rubber goes soft in heat and hard in cold.",
+   "is_a": [
+    "rubber"
+   ],
    "photo": null,
    "identity": {
     "wikidata": "Q131877"
@@ -1832,6 +1965,283 @@
    "class": "plant"
   },
   {
+   "id": "cut-flowers",
+   "name": "Cut flowers",
+   "family": "living-plant",
+   "form": "raw",
+   "senses": [],
+   "is_a": [
+    "living-plant"
+   ],
+   "aliases": [
+    "flowers",
+    "bouquet",
+    "fresh flowers"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q1576780"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Cut flowers",
+     "url": "https://en.wikipedia.org/wiki/Cut_flowers"
+    }
+   ],
+   "class": "plant"
+  },
+  {
+   "id": "fiddle-leaf-fig",
+   "name": "Fiddle-leaf fig",
+   "family": "living-plant",
+   "form": "raw",
+   "senses": [],
+   "is_a": [
+    "house-plant"
+   ],
+   "aliases": [
+    "ficus lyrata"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q1498748"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Ficus lyrata",
+     "url": "https://en.wikipedia.org/wiki/Ficus_lyrata"
+    }
+   ],
+   "class": "plant"
+  },
+  {
+   "id": "house-plant",
+   "name": "House plant",
+   "family": "living-plant",
+   "form": "raw",
+   "senses": [],
+   "is_a": [
+    "living-plant"
+   ],
+   "aliases": [
+    "houseplant",
+    "house plants",
+    "potted plant",
+    "indoor plant"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q203834"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Houseplant",
+     "url": "https://en.wikipedia.org/wiki/Houseplant"
+    }
+   ],
+   "class": "plant"
+  },
+  {
+   "id": "ivy",
+   "name": "Ivy",
+   "family": "living-plant",
+   "form": "raw",
+   "senses": [],
+   "is_a": [
+    "house-plant"
+   ],
+   "aliases": [
+    "hedera"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q26771"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Hedera",
+     "url": "https://en.wikipedia.org/wiki/Hedera"
+    }
+   ],
+   "class": "plant"
+  },
+  {
+   "id": "living-plant",
+   "name": "Living plant",
+   "family": "living-plant",
+   "form": "raw",
+   "senses": [],
+   "aliases": [
+    "living plants",
+    "plants",
+    "greenery"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q756"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Plant",
+     "url": "https://en.wikipedia.org/wiki/Plant"
+    }
+   ],
+   "class": "plant"
+  },
+  {
+   "id": "monstera",
+   "name": "Monstera",
+   "family": "living-plant",
+   "form": "raw",
+   "senses": [],
+   "is_a": [
+    "house-plant"
+   ],
+   "aliases": [
+    "monstera deliciosa",
+    "swiss cheese plant"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q161077"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Monstera deliciosa",
+     "url": "https://en.wikipedia.org/wiki/Monstera_deliciosa"
+    }
+   ],
+   "class": "plant"
+  },
+  {
+   "id": "olive-tree",
+   "name": "Olive tree",
+   "family": "living-plant",
+   "form": "raw",
+   "senses": [],
+   "is_a": [
+    "living-plant"
+   ],
+   "aliases": [
+    "potted olive tree"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q1621080"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Olive",
+     "url": "https://en.wikipedia.org/wiki/Olive"
+    }
+   ],
+   "class": "plant"
+  },
+  {
+   "id": "ornamental-grass",
+   "name": "Ornamental grass",
+   "family": "living-plant",
+   "form": "raw",
+   "senses": [],
+   "is_a": [
+    "living-plant"
+   ],
+   "aliases": [
+    "ornamental grasses"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q938961"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Ornamental grass",
+     "url": "https://en.wikipedia.org/wiki/Ornamental_grass"
+    }
+   ],
+   "class": "plant"
+  },
+  {
+   "id": "pilea",
+   "name": "Pilea",
+   "family": "living-plant",
+   "form": "raw",
+   "senses": [],
+   "is_a": [
+    "house-plant"
+   ],
+   "aliases": [
+    "pilea peperomioides",
+    "chinese money plant"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q311696"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Pilea peperomioides",
+     "url": "https://en.wikipedia.org/wiki/Pilea_peperomioides"
+    }
+   ],
+   "class": "plant"
+  },
+  {
+   "id": "pot-herb",
+   "name": "Pot herb",
+   "family": "living-plant",
+   "form": "raw",
+   "senses": [],
+   "is_a": [
+    "living-plant"
+   ],
+   "aliases": [
+    "pot herbs",
+    "potted herbs",
+    "herb pot",
+    "potted basil",
+    "potted mint",
+    "potted chives",
+    "potted thyme"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q207123"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Herb",
+     "url": "https://en.wikipedia.org/wiki/Herb"
+    }
+   ],
+   "class": "plant"
+  },
+  {
+   "id": "pothos",
+   "name": "Pothos",
+   "family": "living-plant",
+   "form": "raw",
+   "senses": [],
+   "is_a": [
+    "house-plant"
+   ],
+   "aliases": [
+    "epipremnum",
+    "devil's ivy"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q161809"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Epipremnum aureum",
+     "url": "https://en.wikipedia.org/wiki/Epipremnum_aureum"
+    }
+   ],
+   "class": "plant"
+  },
+  {
    "id": "nuts-seeds",
    "name": "Nuts and seeds",
    "family": "nut-seed",
@@ -1880,6 +2290,59 @@
    "class": "plant"
   },
   {
+   "id": "cardboard",
+   "name": "Cardboard",
+   "family": "paper",
+   "form": "board",
+   "senses": [],
+   "made_from": [
+    "paper"
+   ],
+   "aliases": [
+    "printed board",
+    "paperboard",
+    "corrugated board"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q389782"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Cardboard",
+     "url": "https://en.wikipedia.org/wiki/Cardboard"
+    }
+   ],
+   "class": "plant"
+  },
+  {
+   "id": "kraft-paper",
+   "name": "Kraft paper",
+   "family": "paper",
+   "form": "sheet",
+   "senses": [],
+   "is_a": [
+    "paper"
+   ],
+   "made_from": [
+    "wood-pulp"
+   ],
+   "aliases": [
+    "kraft"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q1755609"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Kraft paper",
+     "url": "https://en.wikipedia.org/wiki/Kraft_paper"
+    }
+   ],
+   "class": "plant"
+  },
+  {
    "id": "paper",
    "name": "Paper",
    "family": "paper",
@@ -1889,8 +2352,7 @@
     "wood-pulp"
    ],
    "aliases": [
-    "paper",
-    "paper cord"
+    "paper"
    ],
    "photo": null,
    "identity": {
@@ -1900,6 +2362,60 @@
     {
      "title": "Wikipedia: Paper",
      "url": "https://en.wikipedia.org/wiki/Paper"
+    }
+   ],
+   "class": "plant"
+  },
+  {
+   "id": "paper-cord",
+   "name": "Paper cord",
+   "family": "paper",
+   "form": "fibre",
+   "senses": [],
+   "made_from": [
+    "paper"
+   ],
+   "aliases": [
+    "danish cord",
+    "paper yarn"
+   ],
+   "photo_applied": "a square sample of a seat woven from paper cord",
+   "photo": null,
+   "identity": {
+    "wikidata": "Q1081013"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Wicker",
+     "url": "https://en.wikipedia.org/wiki/Wicker"
+    }
+   ],
+   "class": "plant"
+  },
+  {
+   "id": "photo-paper",
+   "name": "Photo paper",
+   "family": "paper",
+   "form": "sheet",
+   "senses": [],
+   "is_a": [
+    "paper"
+   ],
+   "made_from": [
+    "paper"
+   ],
+   "aliases": [
+    "photographic paper",
+    "photo print"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q912760"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Photographic paper",
+     "url": "https://en.wikipedia.org/wiki/Photographic_paper"
     }
    ],
    "class": "plant"
@@ -2042,6 +2558,29 @@
     {
      "title": "Wikipedia: Rattan",
      "url": "https://en.wikipedia.org/wiki/Rattan"
+    }
+   ],
+   "class": "plant"
+  },
+  {
+   "id": "coir",
+   "name": "Coir",
+   "family": "plant-fibre",
+   "form": "fibre",
+   "senses": [],
+   "aliases": [
+    "coconut fibre",
+    "coir mat"
+   ],
+   "photo_applied": "a square sample of a coir door mat",
+   "photo": null,
+   "identity": {
+    "wikidata": "Q1029620"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Coir",
+     "url": "https://en.wikipedia.org/wiki/Coir"
     }
    ],
    "class": "plant"
@@ -2274,6 +2813,34 @@
    "class": "plant"
   },
   {
+   "id": "quilted-cotton",
+   "name": "Quilted cotton",
+   "family": "quilted",
+   "form": "cloth",
+   "senses": [],
+   "is_a": [
+    "textile"
+   ],
+   "made_from": [
+    "cotton"
+   ],
+   "aliases": [
+    "quilted",
+    "quilt"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q1920065"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Quilting",
+     "url": "https://en.wikipedia.org/wiki/Quilting"
+    }
+   ],
+   "class": "plant"
+  },
+  {
    "id": "gum-arabic",
    "name": "Gum arabic",
    "family": "resin",
@@ -2309,6 +2876,33 @@
     {
      "title": "Wikipedia: Lacquer",
      "url": "https://en.wikipedia.org/wiki/Lacquer"
+    }
+   ],
+   "class": "plant"
+  },
+  {
+   "id": "braided-rug",
+   "name": "Braided rug",
+   "family": "rug",
+   "form": "cloth",
+   "senses": [],
+   "is_a": [
+    "textile"
+   ],
+   "made_from": [
+    "cotton"
+   ],
+   "aliases": [
+    "rag rug"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q4955655"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Braided rug",
+     "url": "https://en.wikipedia.org/wiki/Braided_rug"
     }
    ],
    "class": "plant"
@@ -3019,6 +3613,35 @@
    "class": "plant"
   },
   {
+   "id": "fumed-oak",
+   "name": "Fumed oak",
+   "family": "wood",
+   "form": "board",
+   "senses": [],
+   "is_a": [
+    "oak"
+   ],
+   "made_from": [
+    "oak"
+   ],
+   "aliases": [
+    "smoked oak",
+    "smoked oak floor"
+   ],
+   "photo_applied": "a square sample of smoked oak plank floor",
+   "photo": null,
+   "identity": {
+    "wikidata": "Q2178602"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Ammonia fuming",
+     "url": "https://en.wikipedia.org/wiki/Ammonia_fuming"
+    }
+   ],
+   "class": "plant"
+  },
+  {
    "id": "macassar-ebony",
    "name": "Macassar ebony",
    "family": "wood",
@@ -3107,9 +3730,40 @@
    "is_a": [
     "wood"
    ],
+   "photo_applied": "a square sample of oiled oak plank floor",
    "properties": {
     "warmth": 0.85
    },
+   "photo": null,
+   "identity": {
+    "wikidata": "Q12004"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Oak",
+     "url": "https://en.wikipedia.org/wiki/Oak"
+    }
+   ],
+   "class": "plant"
+  },
+  {
+   "id": "oiled-oak",
+   "name": "Oiled oak",
+   "family": "wood",
+   "form": "board",
+   "senses": [],
+   "is_a": [
+    "oak"
+   ],
+   "made_from": [
+    "oak",
+    "wood-oil"
+   ],
+   "aliases": [
+    "oiled oak floor",
+    "oiled oak plank"
+   ],
+   "photo_applied": "a square sample of oiled oak plank floor",
    "photo": null,
    "identity": {
     "wikidata": "Q12004"
@@ -3175,6 +3829,36 @@
    "class": "plant"
   },
   {
+   "id": "solid-wood",
+   "name": "Solid wood",
+   "family": "wood",
+   "form": "board",
+   "senses": [],
+   "is_a": [
+    "wood"
+   ],
+   "made_from": [
+    "wood"
+   ],
+   "aliases": [
+    "solid timber",
+    "solid oak",
+    "solid ash",
+    "solid walnut"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q354757"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Lumber",
+     "url": "https://en.wikipedia.org/wiki/Lumber"
+    }
+   ],
+   "class": "plant"
+  },
+  {
    "id": "teak",
    "name": "Teak",
    "family": "wood",
@@ -3212,10 +3896,8 @@
    "aliases": [
     "timber",
     "rough timber",
-    "painted timber panelling",
     "timber coffering",
     "charred timber cladding",
-    "painted wood",
     "oak and cypress timber",
     "timber (pine, birch)",
     "timber (redwood, cedar, walnut)"
@@ -3228,6 +3910,33 @@
     {
      "title": "Wikipedia: Lumber",
      "url": "https://en.wikipedia.org/wiki/Lumber"
+    }
+   ],
+   "class": "plant"
+  },
+  {
+   "id": "timber-decking",
+   "name": "Timber decking",
+   "family": "wood",
+   "form": "board",
+   "senses": [],
+   "made_from": [
+    "wood"
+   ],
+   "aliases": [
+    "decking",
+    "wood decking",
+    "ribbed decking"
+   ],
+   "photo_applied": "a square sample of weathered ribbed timber decking",
+   "photo": null,
+   "identity": {
+    "wikidata": "Q2637989"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Deck (building)",
+     "url": "https://en.wikipedia.org/wiki/Deck_(building)"
     }
    ],
    "class": "plant"
@@ -3280,6 +3989,37 @@
     {
      "title": "Wikipedia: Walnut",
      "url": "https://en.wikipedia.org/wiki/Walnut"
+    }
+   ],
+   "class": "plant"
+  },
+  {
+   "id": "whitened-oak",
+   "name": "Whitened oak",
+   "family": "wood",
+   "form": "board",
+   "senses": [],
+   "is_a": [
+    "oak"
+   ],
+   "made_from": [
+    "oak"
+   ],
+   "aliases": [
+    "white oiled oak",
+    "lye-treated oak",
+    "white-pigmented oak",
+    "limed oak"
+   ],
+   "photo_applied": "a square sample of white-oiled oak plank floor",
+   "photo": null,
+   "identity": {
+    "wikidata": "Q2122650"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Lye",
+     "url": "https://en.wikipedia.org/wiki/Lye"
     }
    ],
    "class": "plant"
@@ -3338,6 +4078,9 @@
     "fashion.fabrics"
    ],
    "summary": "A basket weave with a soft hand; Scottish mills named shirtings after universities. The cloth of the button-down shirt.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "cotton"
    ],
@@ -3354,6 +4097,34 @@
    "class": "plant"
   },
   {
+   "id": "waffle-weave",
+   "name": "Waffle weave",
+   "family": "woven-figured",
+   "form": "cloth",
+   "senses": [],
+   "is_a": [
+    "textile"
+   ],
+   "made_from": [
+    "cotton"
+   ],
+   "aliases": [
+    "waffle",
+    "honeycomb weave"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q7959434"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Waffle fabric",
+     "url": "https://en.wikipedia.org/wiki/Waffle_fabric"
+    }
+   ],
+   "class": "plant"
+  },
+  {
    "id": "corduroy",
    "name": "Corduroy",
    "family": "woven-pile",
@@ -3362,6 +4133,9 @@
     "fashion.fabrics"
    ],
    "summary": "A weft-pile cloth with cut cords ('wales'); the cloth of country trousers and the 1970s jacket.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "cotton"
    ],
@@ -3386,6 +4160,9 @@
     "fashion.fabrics"
    ],
    "summary": "A loop-pile cloth that Henry Christy saw in Turkey and his mill made by machine; the cloth of robes and sweatbands.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "cotton"
    ],
@@ -3402,6 +4179,35 @@
    "class": "plant"
   },
   {
+   "id": "book-cloth",
+   "name": "Book cloth",
+   "family": "woven-plain",
+   "form": "cloth",
+   "senses": [],
+   "is_a": [
+    "textile"
+   ],
+   "made_from": [
+    "cotton"
+   ],
+   "aliases": [
+    "bookcloth",
+    "cloth cover",
+    "cloth binding"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q240471"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Bookbinding",
+     "url": "https://en.wikipedia.org/wiki/Bookbinding"
+    }
+   ],
+   "class": "plant"
+  },
+  {
    "id": "calico",
    "name": "Calico",
    "family": "woven-plain",
@@ -3410,6 +4216,9 @@
     "fashion.fabrics"
    ],
    "summary": "A plain cotton from the Malabar coast; England banned printed calico imports in 1700 and 1721 to protect wool and silk weavers.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "cotton"
    ],
@@ -3434,6 +4243,9 @@
     "fashion.fabrics"
    ],
    "summary": "A fine, dense plain weave for shirts, collars, handkerchiefs and lingerie, named after the town of Cambrai.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "flax",
     "cotton"
@@ -3460,6 +4272,9 @@
     "industrial.materials"
    ],
    "summary": "A heavy plain weave for sails, tents, work coats and the upper of the first sneakers.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "cotton",
     "hemp",
@@ -3489,6 +4304,9 @@
     "fashion.fabrics"
    ],
    "summary": "A narrow woven band with rubber or elastane core threads; it forms the waistband, the strap and the leg band. Thomas Hancock patented rubber elastic for garments in 1820.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "cotton",
     "nylon",
@@ -3515,6 +4333,9 @@
     "fashion.fabrics"
    ],
    "summary": "A yarn-dyed check in white and one colour; the name comes from a Malay word for striped cloth.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "cotton"
    ],
@@ -3539,6 +4360,9 @@
     "fashion.fabrics"
    ],
    "summary": "A printed or painted cotton with a glazed surface; the East India companies brought it to Europe in the 17th century.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "cotton"
    ],
@@ -3561,6 +4385,9 @@
    "form": "cloth",
    "senses": [
     "industrial.materials"
+   ],
+   "is_a": [
+    "textile"
    ],
    "made_from": [
     "flax"
@@ -3589,6 +4416,9 @@
     "fashion.fabrics"
    ],
    "summary": "The oldest cloth of dress; cool, crisp and quick to crease. Shirts, summer suits and underwear were linen until cotton took over.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "flax"
    ],
@@ -3613,6 +4443,9 @@
     "fashion.fabrics"
    ],
    "summary": "A fine, open cotton of hand-spun yarn from Dhaka; the name comes from Mosul. It was the cloth of the Empire-line dress after 1795.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "cotton"
    ],
@@ -3629,6 +4462,33 @@
    "class": "plant"
   },
   {
+   "id": "percale",
+   "name": "Percale",
+   "family": "woven-plain",
+   "form": "cloth",
+   "senses": [],
+   "is_a": [
+    "textile"
+   ],
+   "made_from": [
+    "cotton"
+   ],
+   "aliases": [
+    "cotton percale"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q2347903"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Percale",
+     "url": "https://en.wikipedia.org/wiki/Percale"
+    }
+   ],
+   "class": "plant"
+  },
+  {
    "id": "poplin",
    "name": "Poplin",
    "family": "woven-plain",
@@ -3637,6 +4497,9 @@
     "fashion.fabrics"
    ],
    "summary": "A plain weave with a fine weft rib; the name may come from 'papeline', the cloth of the papal town of Avignon. The cloth of the dress shirt.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "cotton",
     "silk"
@@ -3662,6 +4525,9 @@
     "fashion.fabrics"
    ],
    "summary": "Two warps at different tension make puckered stripes that stand off the skin; the name comes from Persian 'milk and sugar'.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "cotton"
    ],
@@ -3686,6 +4552,9 @@
     "fashion.fabrics"
    ],
    "summary": "A dense weave of long-staple cotton that swells when wet and keeps out water; made for the immersion suits of RAF pilots.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "cotton"
    ],
@@ -3710,6 +4579,9 @@
     "fashion.fabrics"
    ],
    "summary": "A light cotton twill of US army trousers in the Philippines; the name comes from the Chinese cloth. It went to the campus after 1945.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "cotton"
    ],
@@ -3734,6 +4606,9 @@
     "fashion.fabrics"
    ],
    "summary": "A dense cotton twill, often in a herringbone weave, that resists the pull of the bones; the standard cloth of corset bodies.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "cotton"
    ],
@@ -3758,6 +4633,9 @@
     "fashion.fabrics"
    ],
    "summary": "A warp-faced twill with an indigo warp and a white weft; 'serge de Nîmes'. Levi Strauss and Jacob Davis patented the riveted work trouser in 1873.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "cotton"
    ],
@@ -3782,6 +4660,9 @@
     "fashion.fabrics"
    ],
    "summary": "A cotton twill dyed the colour of dust ('khaki' in Urdu) for the Corps of Guides; armies took it for field dress.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "cotton"
    ],
@@ -4184,6 +5065,9 @@
     "fashion.fabrics"
    ],
    "summary": "A cloth of matted fibres with no weave; the Pazyryk graves held felt saddle cloths and hangings. The cloth of hats.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "wool"
    ],
@@ -4208,6 +5092,9 @@
     "fashion.fabrics"
    ],
    "summary": "A fulled and napped wool that sheds rain and wind; the coat cloth of the Alpine countries.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "wool"
    ],
@@ -4435,6 +5322,31 @@
     {
      "title": "Wikipedia: Hide (skin)",
      "url": "https://en.wikipedia.org/wiki/Hide_(skin)"
+    }
+   ],
+   "class": "animal"
+  },
+  {
+   "id": "fur",
+   "name": "Fur",
+   "family": "hide-and-fur",
+   "form": "sheet",
+   "senses": [],
+   "made_from": [
+    "hide"
+   ],
+   "aliases": [
+    "pelt",
+    "sheepskin rug"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q197204"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Fur",
+     "url": "https://en.wikipedia.org/wiki/Fur"
     }
    ],
    "class": "animal"
@@ -4905,6 +5817,9 @@
     "fashion.fabrics"
    ],
    "summary": "A hexagonal net from Heathcoat's bobbinet machine; the cloth of the veil, the petticoat and the tutu.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "silk",
     "cotton",
@@ -5014,6 +5929,67 @@
     {
      "title": "Wikipedia: Shellac",
      "url": "https://en.wikipedia.org/wiki/Shellac"
+    }
+   ],
+   "class": "animal"
+  },
+  {
+   "id": "flat-weave-rug",
+   "name": "Flat-weave rug",
+   "family": "rug",
+   "form": "cloth",
+   "senses": [],
+   "is_a": [
+    "textile"
+   ],
+   "made_from": [
+    "wool"
+   ],
+   "aliases": [
+    "kilim",
+    "flatweave rug",
+    "dhurrie"
+   ],
+   "photo_applied": "a flat-weave wool rug on a floor",
+   "photo": null,
+   "identity": {
+    "wikidata": "Q585358"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Kilim",
+     "url": "https://en.wikipedia.org/wiki/Kilim"
+    }
+   ],
+   "class": "animal"
+  },
+  {
+   "id": "hand-woven-rug",
+   "name": "Hand-woven wool rug",
+   "family": "rug",
+   "form": "cloth",
+   "senses": [],
+   "is_a": [
+    "textile"
+   ],
+   "made_from": [
+    "wool"
+   ],
+   "aliases": [
+    "hand-woven rug",
+    "handwoven wool rug",
+    "hand-knotted rug",
+    "wool rug"
+   ],
+   "photo_applied": "a hand-woven wool rug on a floor",
+   "photo": null,
+   "identity": {
+    "wikidata": "Q163446"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Carpet",
+     "url": "https://en.wikipedia.org/wiki/Carpet"
     }
    ],
    "class": "animal"
@@ -5257,6 +6233,9 @@
     "fashion.fabrics"
    ],
    "summary": "A thick cream knit of cables, diamonds and moss stitch; it became a fashion knit in the 1950s.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "wool"
    ],
@@ -5281,6 +6260,9 @@
     "fashion.fabrics"
    ],
    "summary": "A wool knit that heat, water and rubbing shrink into a dense, felt-like cloth that does not fray; Tyrolean walk jackets were made of it, and Japanese designers of the 1980s used it for sculpted coats.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "wool"
    ],
@@ -5332,6 +6314,9 @@
     "fashion.fabrics"
    ],
    "summary": "A stranded knit in two colours each row; the Prince of Wales wore a Fair Isle jumper to golf in 1921.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "wool"
    ],
@@ -5356,6 +6341,9 @@
     "fashion.fabrics"
    ],
    "summary": "Stockings from the knitting frame, the first textile machine of the modern kind; Nottingham became the centre of hosiery.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "silk",
     "wool",
@@ -5382,6 +6370,9 @@
     "fashion.fabrics"
    ],
    "summary": "A plain weft knit from the island knitters; Gabrielle Chanel made wool jersey into women's dress in 1916.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "wool",
     "cotton",
@@ -5400,12 +6391,44 @@
    "class": "animal"
   },
   {
+   "id": "knitted-wool",
+   "name": "Knitted wool",
+   "family": "weft-knit",
+   "form": "cloth",
+   "senses": [],
+   "is_a": [
+    "textile"
+   ],
+   "made_from": [
+    "wool"
+   ],
+   "aliases": [
+    "wool knit",
+    "chunky knit",
+    "knit"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q830128"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Knitted fabric",
+     "url": "https://en.wikipedia.org/wiki/Knitted_fabric"
+    }
+   ],
+   "class": "animal"
+  },
+  {
    "id": "boucle",
    "name": "Bouclé",
    "family": "woven-figured",
    "form": "cloth",
    "senses": [
     "industrial.materials"
+   ],
+   "is_a": [
+    "textile"
    ],
    "made_from": [
     "wool"
@@ -5434,6 +6457,9 @@
     "fashion.fabrics"
    ],
    "summary": "A figured cloth with extra weft, often of metal thread, that floats on the face as a raised pattern; the cloth of court dress.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "silk"
    ],
@@ -5458,6 +6484,9 @@
     "fashion.fabrics"
    ],
    "summary": "A reversible figured cloth in which the pattern shows in satin on a ground of the opposite face; named after Damascus.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "silk",
     "flax",
@@ -5484,6 +6513,9 @@
     "fashion.fabrics"
    ],
    "summary": "Cloth from a loom that lifts each warp thread by a punched card; the cards made large figured patterns cheap.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "silk",
     "cotton",
@@ -5511,6 +6543,9 @@
     "industrial.materials"
    ],
    "summary": "A warp-pile cloth with a short dense pile cut from a second warp; Italian cities wove it for courts and the church.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "silk",
     "cotton",
@@ -5540,6 +6575,9 @@
     "fashion.fabrics"
    ],
    "summary": "A sheer, floating plain weave of highly twisted yarn for overlays, scarves and evening dress.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "silk",
     "polyester"
@@ -5565,6 +6603,9 @@
     "fashion.fabrics"
    ],
    "summary": "A light silk with a pebbled surface from crepe-twisted weft; it drapes well on the bias.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "silk"
    ],
@@ -5589,6 +6630,9 @@
     "fashion.fabrics"
    ],
    "summary": "A crisp plain silk that rustles and holds a full skirt; the name comes from Persian 'taftah', twisted.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "silk",
     "acetate",
@@ -5615,6 +6659,9 @@
     "fashion.fabrics"
    ],
    "summary": "A weave with long floats that gives a smooth, lustrous face; the name may come from Zaitun, the port of export.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "silk",
     "acetate",
@@ -5641,6 +6688,9 @@
     "fashion.fabrics"
    ],
    "summary": "A soft cloth that is napped after the weave; grey wool flannel became the suit and trouser cloth of the 20th century.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "wool",
     "cotton"
@@ -5666,6 +6716,9 @@
     "fashion.fabrics"
    ],
    "summary": "A steep, tight twill of yarn proofed before the weave; it keeps out rain and lets the body breathe. The cloth of the trench coat.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "wool",
     "cotton"
@@ -5710,6 +6763,33 @@
    "class": "animal"
   },
   {
+   "id": "herringbone-wool",
+   "name": "Herringbone wool",
+   "family": "woven-twill",
+   "form": "cloth",
+   "senses": [],
+   "is_a": [
+    "textile"
+   ],
+   "made_from": [
+    "wool"
+   ],
+   "aliases": [
+    "herringbone"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q14271241"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Herringbone (cloth)",
+     "url": "https://en.wikipedia.org/wiki/Herringbone_(cloth)"
+    }
+   ],
+   "class": "animal"
+  },
+  {
    "id": "houndstooth",
    "name": "Houndstooth",
    "family": "woven-twill",
@@ -5718,6 +6798,9 @@
     "fashion.fabrics"
    ],
    "summary": "A broken check from a 2/2 twill with four dark and four light yarns in warp and weft.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "wool"
    ],
@@ -5734,6 +6817,33 @@
    "class": "animal"
   },
   {
+   "id": "melton",
+   "name": "Melton",
+   "family": "woven-twill",
+   "form": "cloth",
+   "senses": [],
+   "is_a": [
+    "textile"
+   ],
+   "made_from": [
+    "wool"
+   ],
+   "aliases": [
+    "melton wool"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q12036364"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Melton (cloth)",
+     "url": "https://en.wikipedia.org/wiki/Melton_(cloth)"
+    }
+   ],
+   "class": "animal"
+  },
+  {
    "id": "serge",
    "name": "Serge",
    "family": "woven-twill",
@@ -5742,6 +6852,9 @@
     "fashion.fabrics"
    ],
    "summary": "A balanced twill with a clear diagonal rib, for uniforms, suits and coats.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "wool"
    ],
@@ -5766,6 +6879,9 @@
     "fashion.fabrics"
    ],
    "summary": "A fine, dense silk twill that takes a sharp print; it is the cloth of the printed square scarf and the necktie. Twill silk is in Chinese graves of the second century BC.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "silk"
    ],
@@ -5790,6 +6906,9 @@
     "fashion.fabrics"
    ],
    "summary": "A twill check of coloured stripes in warp and weft; a check fragment from near Falkirk dates from about AD 250. The Dress Act of 1746 banned it in the Highlands.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "wool"
    ],
@@ -5814,6 +6933,9 @@
     "fashion.fabrics"
    ],
    "summary": "A rough, thick twill of woollen yarn; the name comes from 'tweel', misread by a London merchant as the River Tweed.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "wool"
    ],
@@ -5838,6 +6960,9 @@
     "fashion.fabrics"
    ],
    "summary": "A smooth, firm cloth of combed long-staple yarn, named after the Norfolk village; the cloth of the tailored suit.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "wool",
     "merino",
@@ -6735,6 +7860,9 @@
     "fashion.materials"
    ],
    "summary": "A yellow alloy of copper and zinc for taps, fittings and frames.",
+   "is_a": [
+    "metal"
+   ],
    "made_from": [
     "copper",
     "zinc"
@@ -6759,6 +7887,9 @@
    "senses": [
     "industrial.materials"
    ],
+   "is_a": [
+    "metal"
+   ],
    "made_from": [
     "copper",
     "tin"
@@ -6774,6 +7905,34 @@
     {
      "title": "Wikipedia: Bronze",
      "url": "https://en.wikipedia.org/wiki/Bronze"
+    }
+   ],
+   "class": "metal"
+  },
+  {
+   "id": "cast-aluminium",
+   "name": "Cast aluminium",
+   "family": "alloy",
+   "form": "part",
+   "senses": [],
+   "is_a": [
+    "aluminium"
+   ],
+   "made_from": [
+    "aluminium"
+   ],
+   "aliases": [
+    "cast aluminum",
+    "die-cast aluminium"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q447725"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Aluminium alloy",
+     "url": "https://en.wikipedia.org/wiki/Aluminium_alloy"
     }
    ],
    "class": "metal"
@@ -6840,6 +7999,9 @@
     "fashion.materials"
    ],
    "summary": "A brass of copper and zinc that looks like gold; Georgian watch cases and jewellery used it.",
+   "is_a": [
+    "metal"
+   ],
    "made_from": [
     "copper",
     "zinc"
@@ -6892,6 +8054,9 @@
     "fashion.materials"
    ],
    "summary": "Gold with copper for a pink tone, called 'Russian gold' in the 19th century; it came back in the 1940s and the 2010s.",
+   "is_a": [
+    "metal"
+   ],
    "made_from": [
     "gold",
     "copper"
@@ -6966,6 +8131,33 @@
    "class": "metal"
   },
   {
+   "id": "spun-aluminium",
+   "name": "Spun aluminium",
+   "family": "alloy",
+   "form": "part",
+   "senses": [],
+   "is_a": [
+    "aluminium"
+   ],
+   "made_from": [
+    "aluminium"
+   ],
+   "aliases": [
+    "spun aluminum"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q1261779"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Metal spinning",
+     "url": "https://en.wikipedia.org/wiki/Metal_spinning"
+    }
+   ],
+   "class": "metal"
+  },
+  {
    "id": "stainless-steel",
    "name": "Stainless steel",
    "family": "alloy",
@@ -7004,6 +8196,9 @@
    "family": "alloy",
    "form": "raw",
    "senses": [],
+   "is_a": [
+    "metal"
+   ],
    "made_from": [
     "iron"
    ],
@@ -7038,6 +8233,9 @@
     "ceramics.materials"
    ],
    "summary": "The structural frame behind terracotta and faience cladding.",
+   "is_a": [
+    "metal"
+   ],
    "made_from": [
     "mild-steel"
    ],
@@ -7062,6 +8260,9 @@
     "fashion.materials"
    ],
    "summary": "Silver of 925 parts in 1,000; England fixed the standard and the hallmark under Edward I in 1300.",
+   "is_a": [
+    "metal"
+   ],
    "made_from": [
     "silver",
     "copper"
@@ -7118,6 +8319,9 @@
     "fashion.materials"
    ],
    "summary": "Gold with palladium or nickel, often plated with rhodium; a cheaper white metal than platinum after 1920.",
+   "is_a": [
+    "metal"
+   ],
    "made_from": [
     "gold",
     "nickel"
@@ -7143,6 +8347,9 @@
     "fashion.materials"
    ],
    "summary": "Gold in carat alloys, from 9 to 22 carat; the base metal of jewellery and the dress watch case.",
+   "is_a": [
+    "metal"
+   ],
    "made_from": [
     "gold"
    ],
@@ -7168,6 +8375,9 @@
     "industrial.materials"
    ],
    "summary": "A light metal, cheap after the electrolytic process of 1886; car bodies, trunks and watch cases use it.",
+   "is_a": [
+    "metal"
+   ],
    "properties": {
     "warmth": 0.15
    },
@@ -7190,6 +8400,9 @@
    "form": "block",
    "senses": [
     "industrial.materials"
+   ],
+   "is_a": [
+    "metal"
    ],
    "made_from": [
     "iron"
@@ -7215,6 +8428,9 @@
    "family": "element",
    "form": "raw",
    "senses": [],
+   "is_a": [
+    "metal"
+   ],
    "aliases": [
     "chromium"
    ],
@@ -7240,6 +8456,9 @@
     "industrial.materials"
    ],
    "summary": "The first metal that people worked; it gave the rivet at the pocket corner of the 1873 work trouser.",
+   "is_a": [
+    "metal"
+   ],
    "properties": {
     "warmth": 0.65
    },
@@ -7261,6 +8480,9 @@
    "family": "element",
    "form": "raw",
    "senses": [],
+   "is_a": [
+    "metal"
+   ],
    "aliases": [
     "gold"
    ],
@@ -7282,6 +8504,9 @@
    "family": "element",
    "form": "raw",
    "senses": [],
+   "is_a": [
+    "metal"
+   ],
    "aliases": [
     "iron"
    ],
@@ -7303,6 +8528,9 @@
    "family": "element",
    "form": "sheet",
    "senses": [],
+   "is_a": [
+    "metal"
+   ],
    "aliases": [
     "lead sheeting",
     "lead"
@@ -7320,11 +8548,36 @@
    "class": "metal"
   },
   {
+   "id": "metal",
+   "name": "Metal",
+   "family": "element",
+   "form": "raw",
+   "senses": [],
+   "aliases": [
+    "metals",
+    "metalwork"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q11426"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Metal",
+     "url": "https://en.wikipedia.org/wiki/Metal"
+    }
+   ],
+   "class": "metal"
+  },
+  {
    "id": "nickel",
    "name": "Nickel",
    "family": "element",
    "form": "raw",
    "senses": [],
+   "is_a": [
+    "metal"
+   ],
    "aliases": [
     "brushed nickel"
    ],
@@ -7349,6 +8602,9 @@
     "fashion.materials"
    ],
    "summary": "A strong white metal that holds a thin setting; jewellers used it from about 1900 for lace-like settings of diamonds.",
+   "is_a": [
+    "metal"
+   ],
    "photo": null,
    "identity": {
     "wikidata": "Q880"
@@ -7367,6 +8623,9 @@
    "family": "element",
    "form": "raw",
    "senses": [],
+   "is_a": [
+    "metal"
+   ],
    "photo": null,
    "identity": {
     "wikidata": "Q1087"
@@ -7388,6 +8647,9 @@
     "ceramics.materials"
    ],
    "summary": "A metal for mounts, spouts and rims of precious ware.",
+   "is_a": [
+    "metal"
+   ],
    "photo": null,
    "identity": {
     "wikidata": "Q1090"
@@ -7406,6 +8668,9 @@
    "family": "element",
    "form": "raw",
    "senses": [],
+   "is_a": [
+    "metal"
+   ],
    "aliases": [
     "tin"
    ],
@@ -7430,6 +8695,9 @@
     "fashion.materials"
    ],
    "summary": "A light, strong metal; the first titanium watch case came in 1970, and jewellery and eyewear followed.",
+   "is_a": [
+    "metal"
+   ],
    "photo": null,
    "identity": {
     "wikidata": "Q716"
@@ -7449,6 +8717,9 @@
    "form": "raw",
    "senses": [
     "industrial.materials"
+   ],
+   "is_a": [
+    "metal"
    ],
    "made_from": [
     "iron"
@@ -7474,6 +8745,9 @@
    "family": "element",
    "form": "sheet",
    "senses": [],
+   "is_a": [
+    "metal"
+   ],
    "aliases": [
     "zinc",
     "zinc and titanium sheet"
@@ -7497,6 +8771,9 @@
    "form": "sheet",
    "senses": [
     "industrial.materials"
+   ],
+   "is_a": [
+    "metal"
    ],
    "made_from": [
     "mild-steel",
@@ -7553,6 +8830,9 @@
     "fashion.materials"
    ],
    "summary": "A thin bright layer of chromium on steel or brass; it made the brightwork of the car from the late 1920s.",
+   "is_a": [
+    "metal"
+   ],
    "made_from": [
     "chromium"
    ],
@@ -7575,6 +8855,9 @@
    "form": "part",
    "senses": [
     "industrial.materials"
+   ],
+   "is_a": [
+    "metal"
    ],
    "made_from": [
     "solid-brass",
@@ -7603,6 +8886,9 @@
    "senses": [
     "industrial.materials"
    ],
+   "is_a": [
+    "metal"
+   ],
    "made_from": [
     "mild-steel",
     "chromium"
@@ -7623,6 +8909,35 @@
    "class": "metal"
   },
   {
+   "id": "galvanised-steel",
+   "name": "Galvanised steel",
+   "family": "plated-metal",
+   "form": "sheet",
+   "senses": [],
+   "is_a": [
+    "steel"
+   ],
+   "made_from": [
+    "mild-steel",
+    "zinc"
+   ],
+   "aliases": [
+    "galvanized steel",
+    "hot-dip galvanised steel"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q690418"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Galvanization",
+     "url": "https://en.wikipedia.org/wiki/Galvanization"
+    }
+   ],
+   "class": "metal"
+  },
+  {
    "id": "gold-filled",
    "name": "Gold-filled metal",
    "family": "plated-metal",
@@ -7631,6 +8946,9 @@
     "fashion.materials"
    ],
    "summary": "A layer of gold alloy bonded to a base metal such as brass; the layer is much thicker than gold plate. Cheap pocket watch cases used it.",
+   "is_a": [
+    "metal"
+   ],
    "made_from": [
     "gold",
     "solid-brass"
@@ -7653,6 +8971,9 @@
    "family": "plated-metal",
    "form": "sheet",
    "senses": [],
+   "is_a": [
+    "metal"
+   ],
    "made_from": [
     "gold"
    ],
@@ -7683,6 +9004,9 @@
     "fashion.materials"
    ],
    "summary": "A thin layer of nickel on steel or brass. It gives a warm, slightly yellow shine and was the bright finish of cars before chrome.",
+   "is_a": [
+    "metal"
+   ],
    "made_from": [
     "nickel"
    ],
@@ -7705,6 +9029,9 @@
    "form": "part",
    "senses": [
     "industrial.materials"
+   ],
+   "is_a": [
+    "metal"
    ],
    "made_from": [
     "solid-brass",
@@ -7734,6 +9061,9 @@
     "ceramics.materials"
    ],
    "summary": "Fire-gilt bronze mounts that French dealers added to Chinese and Sèvres porcelain in the 18th century.",
+   "is_a": [
+    "metal"
+   ],
    "made_from": [
     "bronze",
     "gold"
@@ -7751,12 +9081,48 @@
    "class": "metal"
   },
   {
+   "id": "painted-metal",
+   "name": "Painted metal",
+   "family": "plated-metal",
+   "form": "sheet",
+   "senses": [],
+   "is_a": [
+    "metal"
+   ],
+   "made_from": [
+    "mild-steel",
+    "powder-coat"
+   ],
+   "aliases": [
+    "black metal",
+    "powder-coated metal",
+    "powder-coated steel",
+    "coloured metal panels",
+    "black steel frame"
+   ],
+   "photo_applied": "a square sample of matt black powder-coated steel",
+   "photo": null,
+   "identity": {
+    "wikidata": "Q445063"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Powder coating",
+     "url": "https://en.wikipedia.org/wiki/Powder_coating"
+    }
+   ],
+   "class": "metal"
+  },
+  {
    "id": "silver-plate",
    "name": "Silver plate",
    "family": "plated-metal",
    "form": "part",
    "senses": [
     "industrial.materials"
+   ],
+   "is_a": [
+    "metal"
    ],
    "made_from": [
     "silver",
@@ -7783,6 +9149,9 @@
    "family": "plated-metal",
    "form": "part",
    "senses": [],
+   "is_a": [
+    "metal"
+   ],
    "made_from": [
     "steel",
     "chromium"
@@ -7926,6 +9295,31 @@
    "class": "ceramic-glass"
   },
   {
+   "id": "ceramic",
+   "name": "Ceramic",
+   "family": "ceramic",
+   "form": "body",
+   "senses": [],
+   "made_from": [
+    "clay"
+   ],
+   "aliases": [
+    "ceramics",
+    "ceramic ware"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q45621"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Ceramic",
+     "url": "https://en.wikipedia.org/wiki/Ceramic"
+    }
+   ],
+   "class": "ceramic-glass"
+  },
+  {
    "id": "black-basalt",
    "name": "Black basalt",
    "family": "clay-body",
@@ -7996,10 +9390,11 @@
    "made_from": [
     "clay"
    ],
+   "photo": null,
+   "photo_applied": "a square sample of glazed ceramic tiles with grout",
    "properties": {
     "warmth": 0.4
    },
-   "photo": null,
    "identity": {
     "wikidata": "Q468402"
    },
@@ -8050,6 +9445,9 @@
     "ceramics.bodies"
    ],
    "summary": "A porous body fired below about 1150 °C. Pots from Xianrendong Cave are the oldest known vessels of fired clay.",
+   "is_a": [
+    "ceramic"
+   ],
    "made_from": [
     "clay"
    ],
@@ -8383,6 +9781,9 @@
     "industrial.materials"
    ],
    "summary": "A white, dense and translucent body of kaolin and porcelain stone, fired at about 1300 °C.",
+   "is_a": [
+    "ceramic"
+   ],
    "made_from": [
     "clay"
    ],
@@ -8595,6 +9996,9 @@
     "industrial.materials"
    ],
    "summary": "A dense, vitrified body fired at about 1200 to 1300 °C. It holds water without a glaze.",
+   "is_a": [
+    "ceramic"
+   ],
    "made_from": [
     "clay"
    ],
@@ -8734,6 +10138,36 @@
     {
      "title": "Wikipedia: Vitreous enamel",
      "url": "https://en.wikipedia.org/wiki/Vitreous_enamel"
+    }
+   ],
+   "class": "ceramic-glass"
+  },
+  {
+   "id": "back-painted-glass",
+   "name": "Back-painted glass",
+   "family": "glass",
+   "form": "sheet",
+   "senses": [],
+   "is_a": [
+    "glass"
+   ],
+   "made_from": [
+    "glass",
+    "paint"
+   ],
+   "aliases": [
+    "lacobel",
+    "painted glass splashback"
+   ],
+   "photo_applied": "a square sample of a back-painted glass splashback",
+   "photo": null,
+   "identity": {
+    "wikidata": "Q1316673"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Reverse glass painting",
+     "url": "https://en.wikipedia.org/wiki/Reverse_glass_painting"
     }
    ],
    "class": "ceramic-glass"
@@ -8930,6 +10364,34 @@
    "class": "ceramic-glass"
   },
   {
+   "id": "laminated-glass",
+   "name": "Laminated glass",
+   "family": "glass",
+   "form": "sheet",
+   "senses": [],
+   "is_a": [
+    "glass"
+   ],
+   "made_from": [
+    "glass"
+   ],
+   "aliases": [
+    "laminated safety glass",
+    "glass balustrade"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q2086307"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Laminated glass",
+     "url": "https://en.wikipedia.org/wiki/Laminated_glass"
+    }
+   ],
+   "class": "ceramic-glass"
+  },
+  {
    "id": "mirror-glass",
    "name": "Mirror glass",
    "family": "glass",
@@ -9121,6 +10583,34 @@
     {
      "title": "Wikipedia: Stained glass",
      "url": "https://en.wikipedia.org/wiki/Stained_glass"
+    }
+   ],
+   "class": "ceramic-glass"
+  },
+  {
+   "id": "tempered-glass",
+   "name": "Tempered glass",
+   "family": "glass",
+   "form": "sheet",
+   "senses": [],
+   "is_a": [
+    "glass"
+   ],
+   "made_from": [
+    "glass"
+   ],
+   "aliases": [
+    "toughened glass",
+    "safety glass"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q1142019"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Tempered glass",
+     "url": "https://en.wikipedia.org/wiki/Tempered_glass"
     }
    ],
    "class": "ceramic-glass"
@@ -9744,6 +11234,28 @@
    "class": "ceramic-glass"
   },
   {
+   "id": "magnet",
+   "name": "Ferrite magnet",
+   "family": "technical-ceramic",
+   "form": "part",
+   "senses": [],
+   "aliases": [
+    "magnets",
+    "fridge magnet"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q5105088"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Ferrite (magnet)",
+     "url": "https://en.wikipedia.org/wiki/Ferrite_(magnet)"
+    }
+   ],
+   "class": "ceramic-glass"
+  },
+  {
    "id": "technical-ceramic",
    "name": "Technical ceramic",
    "family": "technical-ceramic",
@@ -9793,6 +11305,36 @@
    "class": "ceramic-glass"
   },
   {
+   "id": "glazed-wall-tile",
+   "name": "Glazed wall tile",
+   "family": "tile",
+   "form": "part",
+   "senses": [],
+   "is_a": [
+    "ceramic-tile"
+   ],
+   "made_from": [
+    "earthenware"
+   ],
+   "aliases": [
+    "wall tile",
+    "glazed tile",
+    "subway tile"
+   ],
+   "photo_applied": "a square sample of glazed white wall tiles with grout",
+   "photo": null,
+   "identity": {
+    "wikidata": "Q468402"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Tile",
+     "url": "https://en.wikipedia.org/wiki/Tile"
+    }
+   ],
+   "class": "ceramic-glass"
+  },
+  {
    "id": "mosaic",
    "name": "Mosaic tesserae",
    "family": "tile",
@@ -9816,6 +11358,114 @@
     }
    ],
    "class": "ceramic-glass"
+  },
+  {
+   "id": "porcelain-floor-tile",
+   "name": "Porcelain floor tile",
+   "family": "tile",
+   "form": "part",
+   "senses": [],
+   "is_a": [
+    "ceramic-tile"
+   ],
+   "made_from": [
+    "porcelain-stoneware"
+   ],
+   "aliases": [
+    "porcelain tile",
+    "floor tile"
+   ],
+   "photo_applied": "a square sample of large porcelain floor tiles",
+   "photo": null,
+   "identity": {
+    "wikidata": "Q55654686"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Porcelain tile",
+     "url": "https://en.wikipedia.org/wiki/Porcelain_tile"
+    }
+   ],
+   "class": "ceramic-glass"
+  },
+  {
+   "id": "braided-cord",
+   "name": "Braided cord",
+   "family": "braid",
+   "form": "fibre",
+   "senses": [],
+   "aliases": [
+    "braided textile cable",
+    "textile cable",
+    "braided cable"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q320809"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Braid",
+     "url": "https://en.wikipedia.org/wiki/Braid"
+    }
+   ],
+   "class": "polymer"
+  },
+  {
+   "id": "nylon-rope",
+   "name": "Nylon rope",
+   "family": "braid",
+   "form": "fibre",
+   "senses": [],
+   "is_a": [
+    "rope"
+   ],
+   "made_from": [
+    "nylon"
+   ],
+   "aliases": [
+    "climbing rope",
+    "kernmantle rope"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q17148580"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Kernmantle rope",
+     "url": "https://en.wikipedia.org/wiki/Kernmantle_rope"
+    }
+   ],
+   "class": "polymer"
+  },
+  {
+   "id": "blackout-cloth",
+   "name": "Blackout cloth",
+   "family": "coated-fabric",
+   "form": "cloth",
+   "senses": [],
+   "is_a": [
+    "textile"
+   ],
+   "made_from": [
+    "polyester"
+   ],
+   "aliases": [
+    "blackout fabric",
+    "blackout lining"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q321046"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Window blind",
+     "url": "https://en.wikipedia.org/wiki/Window_blind"
+    }
+   ],
+   "class": "polymer"
   },
   {
    "id": "polyurethane-leatherette",
@@ -9872,6 +11522,9 @@
     "fashion.fabrics"
    ],
    "summary": "A cloth laminated to a membrane of stretched PTFE with pores too small for water and large enough for vapour; first sold in garments in 1976.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "ptfe",
     "nylon",
@@ -9898,6 +11551,9 @@
     "fashion.fabrics"
    ],
    "summary": "A foamed chloroprene rubber between knit faces; Hugh Bradner used it for the wetsuit in 1952, and fashion took it in the 2010s.",
+   "is_a": [
+    "textile"
+   ],
    "photo": null,
    "identity": {
     "wikidata": "Q143937"
@@ -9919,6 +11575,9 @@
     "fashion.fabrics"
    ],
    "summary": "A paper-like sheet of flash-spun fibre; designers use it for jackets and bags that look like envelopes.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "hdpe"
    ],
@@ -9943,6 +11602,9 @@
     "fashion.fabrics"
    ],
    "summary": "A nonwoven of very fine polyester in polyurethane that feels like suede; car cabins use it for seats and wheels.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "polyester"
    ],
@@ -10367,6 +12029,53 @@
    "class": "polymer"
   },
   {
+   "id": "rubber",
+   "name": "Rubber",
+   "family": "rubber",
+   "form": "sheet",
+   "senses": [],
+   "aliases": [
+    "elastomer"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q252266"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Elastomer",
+     "url": "https://en.wikipedia.org/wiki/Elastomer"
+    }
+   ],
+   "class": "polymer"
+  },
+  {
+   "id": "synthetic-rubber",
+   "name": "Synthetic rubber",
+   "family": "rubber",
+   "form": "sheet",
+   "senses": [],
+   "is_a": [
+    "rubber"
+   ],
+   "aliases": [
+    "epdm",
+    "silicone rubber",
+    "sbr"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q6714735"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Synthetic rubber",
+     "url": "https://en.wikipedia.org/wiki/Synthetic_rubber"
+    }
+   ],
+   "class": "polymer"
+  },
+  {
    "id": "vulcanised-rubber",
    "name": "Vulcanised rubber",
    "family": "rubber",
@@ -10375,6 +12084,9 @@
     "fashion.materials"
    ],
    "summary": "Rubber cured with sulphur so that it stays elastic; it made the galosh, the plimsoll and the sneaker sole.",
+   "is_a": [
+    "rubber"
+   ],
    "made_from": [
     "natural-rubber"
    ],
@@ -10570,6 +12282,34 @@
    "class": "polymer"
   },
   {
+   "id": "chair-mesh",
+   "name": "Elastomeric chair mesh",
+   "family": "warp-knit",
+   "form": "cloth",
+   "senses": [],
+   "is_a": [
+    "textile"
+   ],
+   "made_from": [
+    "polyester"
+   ],
+   "aliases": [
+    "office-chair mesh",
+    "mesh back"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q24503377"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Mesh",
+     "url": "https://en.wikipedia.org/wiki/Mesh"
+    }
+   ],
+   "class": "polymer"
+  },
+  {
    "id": "nylon-mesh",
    "name": "Nylon mesh",
    "family": "warp-knit",
@@ -10578,6 +12318,9 @@
     "fashion.fabrics"
    ],
    "summary": "An open warp-knit nylon that passes air and dries fast; the light upper of the running shoe, in place of leather and canvas.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "nylon"
    ],
@@ -10602,6 +12345,9 @@
     "fashion.fabrics"
    ],
    "summary": "A fine warp-knit nylon with a smooth face and a run-resistant structure; the cloth of slips, briefs and linings.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "nylon"
    ],
@@ -10626,6 +12372,9 @@
     "fashion.fabrics"
    ],
    "summary": "A warp-knit elastic mesh for girdles, corsets and shapewear; it holds the body with no bones.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "elastane",
     "nylon"
@@ -10651,6 +12400,9 @@
     "fashion.fabrics"
    ],
    "summary": "A knit with elastane that fits the body with no darts; the cloth of swimwear, leggings and the body.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "elastane",
     "nylon",
@@ -10677,6 +12429,9 @@
     "fashion.fabrics"
    ],
    "summary": "The sheer knit of the nylon stocking; on its first day of sale in 1940 women bought about four million pairs.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "nylon"
    ],
@@ -10701,6 +12456,9 @@
     "fashion.fabrics"
    ],
    "summary": "A napped polyester knit made with Patagonia as a light, quick-dry replacement for wool pile; sold as Polartec from 1981.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "polyester"
    ],
@@ -10725,6 +12483,9 @@
     "fashion.fabrics"
    ],
    "summary": "A knit made of polyester fibre that is spun from used plastic bottles. Car makers use it for seats and door trim.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "polyester"
    ],
@@ -10749,6 +12510,9 @@
     "fashion.fabrics"
    ],
    "summary": "A soft knit with a cut pile. It covered the seats and door panels of many cars in the 1970s and 1980s.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "polyester"
    ],
@@ -10773,6 +12537,9 @@
     "fashion.fabrics"
    ],
    "summary": "A heavy basket-weave nylon made for flak jackets; it went into luggage, packs and watch straps.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "nylon"
    ],
@@ -10789,6 +12556,62 @@
    "class": "polymer"
   },
   {
+   "id": "faux-fur",
+   "name": "Faux fur",
+   "family": "woven-pile",
+   "form": "cloth",
+   "senses": [],
+   "is_a": [
+    "textile"
+   ],
+   "made_from": [
+    "acrylic"
+   ],
+   "aliases": [
+    "fake fur",
+    "fun fur"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q1041707"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Fake fur",
+     "url": "https://en.wikipedia.org/wiki/Fake_fur"
+    }
+   ],
+   "class": "polymer"
+  },
+  {
+   "id": "plush",
+   "name": "Plush",
+   "family": "woven-pile",
+   "form": "cloth",
+   "senses": [],
+   "is_a": [
+    "textile"
+   ],
+   "made_from": [
+    "polyester"
+   ],
+   "aliases": [
+    "plush fabric",
+    "minky"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q2397733"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Pile (textile)",
+     "url": "https://en.wikipedia.org/wiki/Pile_(textile)"
+    }
+   ],
+   "class": "polymer"
+  },
+  {
    "id": "ripstop-nylon",
    "name": "Ripstop nylon",
    "family": "woven-plain",
@@ -10797,6 +12620,9 @@
     "fashion.fabrics"
    ],
    "summary": "A plain weave with a heavier yarn in a grid that stops a tear; made for parachutes, then shells and down jackets.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "nylon"
    ],
@@ -10813,6 +12639,35 @@
    "class": "polymer"
   },
   {
+   "id": "shell-fabric",
+   "name": "Technical shell fabric",
+   "family": "woven-plain",
+   "form": "cloth",
+   "senses": [],
+   "is_a": [
+    "textile"
+   ],
+   "made_from": [
+    "nylon",
+    "polyester"
+   ],
+   "aliases": [
+    "technical outerwear cloth",
+    "technical fabric"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q675342"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Technical textile",
+     "url": "https://en.wikipedia.org/wiki/Technical_textile"
+    }
+   ],
+   "class": "polymer"
+  },
+  {
    "id": "nylon-webbing",
    "name": "Nylon webbing",
    "family": "woven-twill",
@@ -10821,6 +12676,9 @@
     "fashion.fabrics"
    ],
    "summary": "A narrow, tough nylon tape. A British army standard of 1973 made it the one-piece watch strap that slides under the watch.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "nylon"
    ],
@@ -10845,6 +12703,9 @@
     "fashion.fabrics"
    ],
    "summary": "A dense twill of about 65 per cent polyester and 35 per cent cotton that takes a wax finish; it was made for the Nordic field jacket and trouser.",
+   "is_a": [
+    "textile"
+   ],
    "made_from": [
     "polyester",
     "cotton"
@@ -10860,6 +12721,135 @@
     }
    ],
    "class": "polymer"
+  },
+  {
+   "id": "acoustic-panel",
+   "name": "Acoustic panel",
+   "family": "board-product",
+   "form": "board",
+   "senses": [],
+   "aliases": [
+    "acoustic ceiling",
+    "acoustic tiles",
+    "acoustic board"
+   ],
+   "photo_applied": "a square sample of a white acoustic ceiling panel",
+   "photo": null,
+   "identity": {
+    "wikidata": "Q96371443"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Acoustic panel",
+     "url": "https://en.wikipedia.org/wiki/Acoustic_panel"
+    }
+   ],
+   "class": "composite"
+  },
+  {
+   "id": "mineral-wool-board",
+   "name": "Mineral-fibre board",
+   "family": "board-product",
+   "form": "board",
+   "senses": [],
+   "is_a": [
+    "acoustic-panel"
+   ],
+   "aliases": [
+    "mineral fibre board",
+    "mineral-fibre ceiling tile"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q611617"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Mineral wool",
+     "url": "https://en.wikipedia.org/wiki/Mineral_wool"
+    }
+   ],
+   "class": "composite"
+  },
+  {
+   "id": "plasterboard",
+   "name": "Plasterboard",
+   "family": "board-product",
+   "form": "board",
+   "senses": [],
+   "made_from": [
+    "gypsum",
+    "paper"
+   ],
+   "aliases": [
+    "drywall",
+    "gypsum board",
+    "gypsum wallboard"
+   ],
+   "photo_applied": "a square sample of a painted plasterboard wall",
+   "photo": null,
+   "identity": {
+    "wikidata": "Q372852"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Drywall",
+     "url": "https://en.wikipedia.org/wiki/Drywall"
+    }
+   ],
+   "class": "composite"
+  },
+  {
+   "id": "wood-wool-board",
+   "name": "Wood-wool panel",
+   "family": "board-product",
+   "form": "board",
+   "senses": [],
+   "is_a": [
+    "acoustic-panel"
+   ],
+   "made_from": [
+    "wood",
+    "cement"
+   ],
+   "aliases": [
+    "wood wool panel",
+    "wood-wool cement board",
+    "heraklith"
+   ],
+   "photo_applied": "a square sample of a wood-wool acoustic panel",
+   "photo": null,
+   "identity": {
+    "wikidata": "Q1625803"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Wood wool",
+     "url": "https://en.wikipedia.org/wiki/Wood_wool"
+    }
+   ],
+   "class": "composite"
+  },
+  {
+   "id": "rope",
+   "name": "Rope",
+   "family": "braid",
+   "form": "fibre",
+   "senses": [],
+   "aliases": [
+    "cord"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q31029"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Rope",
+     "url": "https://en.wikipedia.org/wiki/Rope"
+    }
+   ],
+   "class": "composite"
   },
   {
    "id": "tensile-fabric",
@@ -10913,6 +12903,32 @@
     {
      "title": "Wikipedia: Concrete",
      "url": "https://en.wikipedia.org/wiki/Concrete"
+    }
+   ],
+   "class": "composite"
+  },
+  {
+   "id": "paving-slab",
+   "name": "Concrete paving slab",
+   "family": "concrete",
+   "form": "block",
+   "senses": [],
+   "made_from": [
+    "concrete"
+   ],
+   "aliases": [
+    "paving slabs",
+    "concrete pavers"
+   ],
+   "photo_applied": "a square sample of grey concrete paving slabs",
+   "photo": null,
+   "identity": {
+    "wikidata": "Q3328263"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Pavers (flooring)",
+     "url": "https://en.wikipedia.org/wiki/Pavers_(flooring)"
     }
    ],
    "class": "composite"
@@ -10972,6 +12988,64 @@
    "class": "composite"
   },
   {
+   "id": "compact-laminate",
+   "name": "Compact laminate",
+   "family": "laminate",
+   "form": "sheet",
+   "senses": [],
+   "is_a": [
+    "hpl"
+   ],
+   "made_from": [
+    "paper"
+   ],
+   "aliases": [
+    "compact hpl",
+    "solid-core laminate"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q5249625"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Decorative laminate",
+     "url": "https://en.wikipedia.org/wiki/Decorative_laminate"
+    }
+   ],
+   "class": "composite"
+  },
+  {
+   "id": "hpl",
+   "name": "High-pressure laminate",
+   "family": "laminate",
+   "form": "sheet",
+   "senses": [],
+   "is_a": [
+    "plastic-laminate"
+   ],
+   "made_from": [
+    "paper"
+   ],
+   "aliases": [
+    "high-pressure laminate",
+    "laminate worktop",
+    "stone-print laminate"
+   ],
+   "photo_applied": "a square sample of a laminate worktop with a stone print",
+   "photo": null,
+   "identity": {
+    "wikidata": "Q5249625"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Decorative laminate",
+     "url": "https://en.wikipedia.org/wiki/Decorative_laminate"
+    }
+   ],
+   "class": "composite"
+  },
+  {
    "id": "linoleum",
    "name": "Linoleum",
    "family": "laminate",
@@ -11015,6 +13089,31 @@
     {
      "title": "Wikipedia: Decorative laminate",
      "url": "https://en.wikipedia.org/wiki/Decorative_laminate"
+    }
+   ],
+   "class": "composite"
+  },
+  {
+   "id": "engineered-stone",
+   "name": "Engineered stone",
+   "family": "mineral-composite",
+   "form": "sheet",
+   "senses": [],
+   "aliases": [
+    "quartz composite",
+    "quartz worktop",
+    "engineered quartz",
+    "agglomerated stone"
+   ],
+   "photo_applied": "a square sample of a white engineered stone worktop",
+   "photo": null,
+   "identity": {
+    "wikidata": "Q5377800"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Engineered stone",
+     "url": "https://en.wikipedia.org/wiki/Engineered_stone"
     }
    ],
    "class": "composite"
@@ -11117,6 +13216,35 @@
     {
      "title": "Wikipedia: Terrazzo",
      "url": "https://en.wikipedia.org/wiki/Terrazzo"
+    }
+   ],
+   "class": "composite"
+  },
+  {
+   "id": "chalkboard",
+   "name": "Chalkboard paint",
+   "family": "paint",
+   "form": "coating",
+   "senses": [],
+   "is_a": [
+    "painted-surface"
+   ],
+   "made_from": [
+    "paint"
+   ],
+   "aliases": [
+    "chalk board",
+    "blackboard"
+   ],
+   "photo_applied": "a square sample of a matt black chalkboard surface",
+   "photo": null,
+   "identity": {
+    "wikidata": "Q235585"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Blackboard",
+     "url": "https://en.wikipedia.org/wiki/Blackboard"
     }
    ],
    "class": "composite"
@@ -11266,6 +13394,7 @@
     "polychrome paint",
     "white paint or gel coat"
    ],
+   "photo_applied": "a square sample board of matt painted wall",
    "photo": null,
    "identity": {
     "wikidata": "Q174219"
@@ -11274,6 +13403,97 @@
     {
      "title": "Wikipedia: Paint",
      "url": "https://en.wikipedia.org/wiki/Paint"
+    }
+   ],
+   "class": "composite"
+  },
+  {
+   "id": "painted-mdf",
+   "name": "Painted MDF",
+   "family": "paint",
+   "form": "board",
+   "senses": [],
+   "is_a": [
+    "painted-surface"
+   ],
+   "made_from": [
+    "mdf",
+    "paint"
+   ],
+   "aliases": [
+    "lacquered mdf",
+    "spray-painted mdf"
+   ],
+   "photo_applied": "a square sample of painted MDF with a satin finish",
+   "photo": null,
+   "identity": {
+    "wikidata": "Q642231"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Medium-density fibreboard",
+     "url": "https://en.wikipedia.org/wiki/Medium-density_fibreboard"
+    }
+   ],
+   "class": "composite"
+  },
+  {
+   "id": "painted-surface",
+   "name": "Painted surface",
+   "family": "paint",
+   "form": "coating",
+   "senses": [],
+   "made_from": [
+    "paint"
+   ],
+   "aliases": [
+    "painted wall",
+    "matt paint",
+    "satin paint",
+    "gloss paint",
+    "eggshell paint",
+    "painted plaster"
+   ],
+   "photo_applied": "a square sample board of matt painted wall",
+   "photo": null,
+   "identity": {
+    "wikidata": "Q17097994"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Paint sheen",
+     "url": "https://en.wikipedia.org/wiki/Paint_sheen"
+    }
+   ],
+   "class": "composite"
+  },
+  {
+   "id": "painted-wood",
+   "name": "Painted wood",
+   "family": "paint",
+   "form": "board",
+   "senses": [],
+   "is_a": [
+    "painted-surface"
+   ],
+   "made_from": [
+    "wood",
+    "paint"
+   ],
+   "aliases": [
+    "painted timber",
+    "painted wood panelling",
+    "painted timber panelling"
+   ],
+   "photo_applied": "a square sample of painted wood panelling",
+   "photo": null,
+   "identity": {
+    "wikidata": "Q119172976"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Wood finishing",
+     "url": "https://en.wikipedia.org/wiki/Wood_finishing"
     }
    ],
    "class": "composite"
@@ -11419,6 +13639,103 @@
     {
      "title": "Wikipedia: Stucco",
      "url": "https://en.wikipedia.org/wiki/Stucco"
+    }
+   ],
+   "class": "composite"
+  },
+  {
+   "id": "textile",
+   "name": "Textile",
+   "family": "textile",
+   "form": "cloth",
+   "senses": [],
+   "aliases": [
+    "fabric",
+    "textiles",
+    "cloth",
+    "upholstery fabric"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q28823"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Textile",
+     "url": "https://en.wikipedia.org/wiki/Textile"
+    }
+   ],
+   "class": "composite"
+  },
+  {
+   "id": "wood-lacquer",
+   "name": "Wood lacquer",
+   "family": "wood-finish",
+   "form": "coating",
+   "senses": [],
+   "aliases": [
+    "matt lacquer",
+    "clear lacquer",
+    "lacquered wood",
+    "nitrocellulose lacquer"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q11236878"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Lacquer",
+     "url": "https://en.wikipedia.org/wiki/Lacquer"
+    }
+   ],
+   "class": "composite"
+  },
+  {
+   "id": "wood-oil",
+   "name": "Wood oil finish",
+   "family": "wood-finish",
+   "form": "coating",
+   "senses": [],
+   "aliases": [
+    "oiled",
+    "oiled wood",
+    "oil finish",
+    "hardwax oil",
+    "hard wax oil",
+    "tung oil",
+    "linseed oil finish"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q119172976"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Wood finishing",
+     "url": "https://en.wikipedia.org/wiki/Wood_finishing"
+    }
+   ],
+   "class": "composite"
+  },
+  {
+   "id": "wood-stain",
+   "name": "Wood stain",
+   "family": "wood-finish",
+   "form": "coating",
+   "senses": [],
+   "aliases": [
+    "stained wood",
+    "stain"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q16060211"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Wood stain",
+     "url": "https://en.wikipedia.org/wiki/Wood_stain"
     }
    ],
    "class": "composite"
@@ -38599,6 +40916,13 @@
   {
    "style": "deconstructivist-architecture",
    "domain": "architecture",
+   "material": "metal",
+   "use": "secondary",
+   "via": "materials.secondary: \"perforated metal\""
+  },
+  {
+   "style": "deconstructivist-architecture",
+   "domain": "architecture",
    "material": "plaster",
    "use": "secondary",
    "via": "materials.secondary: \"plaster\""
@@ -38756,6 +41080,13 @@
    "material": "steel",
    "use": "secondary",
    "via": "materials.secondary: \"cast steel\""
+  },
+  {
+   "style": "high-tech-architecture",
+   "domain": "architecture",
+   "material": "metal",
+   "use": "secondary",
+   "via": "materials.secondary: \"perforated metal\""
   },
   {
    "style": "international-style-architecture",
@@ -39166,6 +41497,13 @@
   {
    "style": "postmodern-architecture",
    "domain": "architecture",
+   "material": "painted-metal",
+   "use": "secondary",
+   "via": "materials.secondary: \"coloured metal panels\""
+  },
+  {
+   "style": "postmodern-architecture",
+   "domain": "architecture",
    "material": "terrazzo",
    "use": "secondary",
    "via": "materials.secondary: \"terrazzo\""
@@ -39558,6 +41896,13 @@
   {
    "style": "coastal-interior",
    "domain": "interior",
+   "material": "rope",
+   "use": "secondary",
+   "via": "materials.secondary: \"rope\""
+  },
+  {
+   "style": "coastal-interior",
+   "domain": "interior",
    "material": "stoneware",
    "use": "secondary",
    "via": "materials.secondary: \"stoneware\""
@@ -39593,7 +41938,7 @@
   {
    "style": "dopamine-decor",
    "domain": "interior",
-   "material": "mdf",
+   "material": "painted-mdf",
    "use": "primary",
    "via": "materials.primary: \"lacquered MDF\""
   },
@@ -39642,7 +41987,7 @@
   {
    "style": "georgian-interior",
    "domain": "interior",
-   "material": "timber",
+   "material": "painted-wood",
    "use": "primary",
    "via": "materials.primary: \"painted timber panelling\""
   },
@@ -39712,7 +42057,7 @@
   {
    "style": "grandmillennial-interior",
    "domain": "interior",
-   "material": "timber",
+   "material": "painted-wood",
    "use": "primary",
    "via": "materials.primary: \"painted wood\""
   },
@@ -39950,7 +42295,7 @@
   {
    "style": "memphis-interior",
    "domain": "interior",
-   "material": "mdf",
+   "material": "painted-mdf",
    "use": "primary",
    "via": "materials.primary: \"lacquered MDF\""
   },
@@ -39988,6 +42333,13 @@
    "material": "cotton",
    "use": "secondary",
    "via": "materials.secondary: \"printed cotton\""
+  },
+  {
+   "style": "memphis-interior",
+   "domain": "interior",
+   "material": "painted-metal",
+   "use": "secondary",
+   "via": "materials.secondary: \"painted metal\""
   },
   {
    "style": "mid-century-modern-interior",
@@ -40279,7 +42631,7 @@
   {
    "style": "scandinavian-interior",
    "domain": "interior",
-   "material": "paper",
+   "material": "paper-cord",
    "use": "secondary",
    "via": "materials.secondary: \"paper cord\""
   },
@@ -40380,6 +42732,13 @@
    "material": "velvet",
    "use": "secondary",
    "via": "materials.secondary: \"velvet\""
+  },
+  {
+   "style": "victorian-interior",
+   "domain": "interior",
+   "material": "plush",
+   "use": "secondary",
+   "via": "materials.secondary: \"plush\""
   },
   {
    "style": "victorian-interior",
@@ -49020,23 +51379,11 @@
   },
   {
    "domain": "architecture",
-   "text": "perforated metal"
-  },
-  {
-   "domain": "architecture",
-   "text": "perforated metal"
-  },
-  {
-   "domain": "architecture",
    "text": "raised access floor"
   },
   {
    "domain": "architecture",
    "text": "laminate"
-  },
-  {
-   "domain": "architecture",
-   "text": "coloured metal panels"
   },
   {
    "domain": "interior",
@@ -49048,10 +51395,6 @@
   },
   {
    "domain": "interior",
-   "text": "rope"
-  },
-  {
-   "domain": "interior",
    "text": "needlepoint"
   },
   {
@@ -49060,15 +51403,7 @@
   },
   {
    "domain": "interior",
-   "text": "painted metal"
-  },
-  {
-   "domain": "interior",
    "text": "patterned wallpaper"
-  },
-  {
-   "domain": "interior",
-   "text": "plush"
   },
   {
    "domain": "interior",
