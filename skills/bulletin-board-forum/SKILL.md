@@ -1,6 +1,6 @@
 ---
 name: bulletin-board-forum
-description: "Apply the Bulletin Board Forum style (1996–2012) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: phpbb, vbulletin, web forum, message board, post count, forum signature."
+description: "Apply the Bulletin Board Forum style (c. 1996–2012) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: phpbb, vbulletin, web forum, message board, post count, forum signature."
 domain: internet
 era: web-1
 triggers:
@@ -25,7 +25,7 @@ vector_profile:
 
 A web forum in tables: a list of boards in categories, topics with reply and view counts, and posts with a user column that shows an avatar, a rank, a post count and a signature.
 
-**Period:** 1996–2012 · **Era:** Web 1.0 · **Domain:** Internet · **Also called:** phpBB forum, Web forum, Message board
+**Period:** c. 1996–2012 · **Era:** Web 1.0 · **Domain:** Internet · **Also called:** phpBB forum, Web forum, Message board
 
 ## When to load this skill
 
@@ -237,19 +237,19 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 
 These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
 
-### Threaded discussion (technology)
+### BBCode markup (technology)
 
-Replies are stored as a tree: each reply points to the post that it answers, so a reader can follow one branch of a talk. Origin: internet, Durham, North Carolina, 1980.
+A light markup for forum posts: the poster writes tags in square brackets, and the board changes them into safe HTML. Origin: internet, web, 1998.
 
-- Give each post an id and give each reply the id of its parent.
-- Show the tree with one indent for each level.
-- Quote or link the parent post in each reply.
+- Write the format in square-bracket tags, for example [b]bold[/b] or [quote]...[/quote].
+- Let the board change each tag into HTML and remove raw HTML from the post.
+- Show a quote of the earlier post in a box with the name of its poster.
 
 ## Organisations
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **phpBB** (collective, web, 2000–now), made the style. An open-source forum program, made by a group of volunteers. Its default theme set the look of many web forums.
+- **phpBB** (platform, web, 2000–now), made the style. A free and open-source forum program, made by a development team. Its default theme, subSilver, gave many later forum themes their look.
 
 ## Permutations
 
@@ -272,7 +272,6 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more personal**: move toward [`myspace-profile`](../myspace-profile/SKILL.md) (Myspace Profile). Move the user column to a profile page with a top friends grid.
 
 - **Came from (go here for a more orthodox version):** [`usenet-thread`](../usenet-thread/SKILL.md)
-- **Led to (go here for a newer version):** [`anonymous-imageboard`](../anonymous-imageboard/SKILL.md), [`discord-server`](../discord-server/SKILL.md), [`reddit-thread`](../reddit-thread/SKILL.md)
 - **Mixes well with:** [`portal-table-layout`](../portal-table-layout/SKILL.md)
 - **Nearest by vector profile:** [`unicode-emoji`](../unicode-emoji/SKILL.md), [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`discord-server`](../discord-server/SKILL.md)
 

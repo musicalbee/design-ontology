@@ -10969,11 +10969,6 @@
       "type": "EVOLVED_FROM"
     },
     {
-      "from": "anonymous-imageboard",
-      "to": "bulletin-board-forum",
-      "type": "EVOLVED_FROM"
-    },
-    {
       "from": "apple-aqua",
       "to": "y2k-aesthetic",
       "type": "EVOLVED_FROM"
@@ -11481,11 +11476,6 @@
     {
       "from": "digital-3d-printed-ceramics",
       "to": "british-modernist-studio",
-      "type": "EVOLVED_FROM"
-    },
-    {
-      "from": "discord-server",
-      "to": "bulletin-board-forum",
       "type": "EVOLVED_FROM"
     },
     {
@@ -12586,16 +12576,6 @@
     {
       "from": "reaction-gif",
       "to": "kaomoji-emoticon",
-      "type": "EVOLVED_FROM"
-    },
-    {
-      "from": "reddit-thread",
-      "to": "bulletin-board-forum",
-      "type": "EVOLVED_FROM"
-    },
-    {
-      "from": "reddit-thread",
-      "to": "usenet-thread",
       "type": "EVOLVED_FROM"
     },
     {
@@ -13986,11 +13966,6 @@
     {
       "from": "japanese-modern-craft-product",
       "to": "shaker-object",
-      "type": "HYBRIDIZED_WITH"
-    },
-    {
-      "from": "kaomoji-emoticon",
-      "to": "usenet-thread",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -15915,6 +15890,30 @@
       ],
       "styles": [
         "quilted-down-outerwear"
+      ]
+    },
+    {
+      "id": "bbcode-markup",
+      "name": "BBCode markup",
+      "kind": "technology",
+      "origin": {
+        "domain": "internet",
+        "year": 1998,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "internet",
+          "year": 2014,
+          "circa": true,
+          "lag_years": 16,
+          "styles": [
+            "bulletin-board-forum"
+          ]
+        }
+      ],
+      "styles": [
+        "bulletin-board-forum"
       ]
     },
     {
@@ -19103,7 +19102,7 @@
       "name": "Halftone",
       "kind": "process",
       "origin": {
-        "domain": "graphic-movement",
+        "domain": "print",
         "year": 1879,
         "circa": false
       },
@@ -20383,7 +20382,7 @@
       "name": "Lithography",
       "kind": "process",
       "origin": {
-        "domain": "graphic-movement",
+        "domain": "print",
         "year": 1796,
         "circa": true
       },
@@ -24297,15 +24296,6 @@
       "adoptions": [
         {
           "domain": "internet",
-          "year": 2000,
-          "circa": false,
-          "lag_years": 20,
-          "styles": [
-            "bulletin-board-forum"
-          ]
-        },
-        {
-          "domain": "internet",
           "year": 2005,
           "circa": false,
           "lag_years": 25,
@@ -24316,7 +24306,6 @@
       ],
       "styles": [
         "usenet-thread",
-        "bulletin-board-forum",
         "reddit-thread"
       ]
     },
@@ -25373,7 +25362,7 @@
       "name": "Woodcut",
       "kind": "process",
       "origin": {
-        "domain": "graphic-movement",
+        "domain": "print",
         "year": 868,
         "circa": false
       },
@@ -25629,14 +25618,11 @@
     "usenet-thread": {
       "evolved_from": [],
       "evolved_into": [
-        "bulletin-board-forum",
-        "reddit-thread"
+        "bulletin-board-forum"
       ],
       "rebelled_against": [],
       "provoked": [],
-      "hybridized_with": [
-        "kaomoji-emoticon"
-      ],
+      "hybridized_with": [],
       "echoes": [],
       "subgenre_of": [],
       "subgenres": [],
@@ -25746,9 +25732,7 @@
       ],
       "rebelled_against": [],
       "provoked": [],
-      "hybridized_with": [
-        "usenet-thread"
-      ],
+      "hybridized_with": [],
       "echoes": [
         "pixel-icon"
       ],
@@ -25924,11 +25908,7 @@
       "evolved_from": [
         "usenet-thread"
       ],
-      "evolved_into": [
-        "anonymous-imageboard",
-        "discord-server",
-        "reddit-thread"
-      ],
+      "evolved_into": [],
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [
@@ -25952,7 +25932,7 @@
         }
       ],
       "techniques": [
-        "threaded-discussion"
+        "bbcode-markup"
       ]
     },
     "portal-table-layout": {
@@ -26152,9 +26132,7 @@
       ]
     },
     "anonymous-imageboard": {
-      "evolved_from": [
-        "bulletin-board-forum"
-      ],
+      "evolved_from": [],
       "evolved_into": [],
       "rebelled_against": [],
       "provoked": [],
@@ -26335,10 +26313,7 @@
       ]
     },
     "reddit-thread": {
-      "evolved_from": [
-        "bulletin-board-forum",
-        "usenet-thread"
-      ],
+      "evolved_from": [],
       "evolved_into": [],
       "rebelled_against": [],
       "provoked": [],
@@ -27754,9 +27729,7 @@
       ]
     },
     "discord-server": {
-      "evolved_from": [
-        "bulletin-board-forum"
-      ],
+      "evolved_from": [],
       "evolved_into": [],
       "rebelled_against": [],
       "provoked": [],

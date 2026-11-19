@@ -172,7 +172,7 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Lithography (process)
 
-A print from a flat stone or plate on which a greasy drawing takes ink and water repels it; the artist draws as on paper. Origin: graphic movements, Munich, c. 1796.
+A print from a flat stone or plate on which a greasy drawing takes ink and water repels it; the artist draws as on paper. Origin: print, Munich, c. 1796.
 
 - Draw on the stone with a greasy crayon or a tusche wash; the drawing takes ink and the rest stays wet.
 - Pull the print in a press at a run of 20 to 200 copies for an artist print, or more for a poster.
@@ -181,7 +181,7 @@ A print from a flat stone or plate on which a greasy drawing takes ink and water
 
 ### Woodcut (process)
 
-A print from a block of wood with the white parts cut away; the result is flat colour, hard edges and visible grain. Origin: graphic movements, Dunhuang, 868.
+A print from a block of wood with the white parts cut away; the result is flat colour, hard edges and visible grain. Origin: print, Dunhuang, 868.
 
 - Cut the block along the grain with a knife and a gouge; leave a line of 1mm to 3mm for the black.
 - Use one block for each colour and register them within 1 mm.

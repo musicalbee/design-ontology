@@ -249,7 +249,7 @@ A face made of keyboard characters, read sideways in the West and upright in Jap
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **2channel** (platform, web, 1999–now), gathered the style. A large anonymous Japanese message board. Its users spread text faces, and many kaomoji began or grew in its threads.
+- **2channel** (platform, web, 1999–now), gathered the style. A large anonymous Japanese text board. Its users spread text faces, and Futaba Channel, the model for 4chan, began in 2001 as a refuge for its users.
 
 ## Permutations
 
@@ -273,7 +273,6 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`ansi-bbs-art`](../ansi-bbs-art/SKILL.md)
 - **Led to (go here for a newer version):** [`reaction-gif`](../reaction-gif/SKILL.md), [`unicode-emoji`](../unicode-emoji/SKILL.md)
-- **Mixes well with:** [`usenet-thread`](../usenet-thread/SKILL.md)
 - **Kin in another domain:** [`pixel-icon`](../pixel-icon/SKILL.md)
 - **Nearest by vector profile:** [`flat-design`](../flat-design/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md), [`ai-chat-ui`](../ai-chat-ui/SKILL.md)
 

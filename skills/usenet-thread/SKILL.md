@@ -1,6 +1,6 @@
 ---
 name: usenet-thread
-description: "Apply the Usenet Thread style (1980–1999) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: usenet, newsgroup, netnews, newsreader, quoted reply, plain text thread."
+description: "Apply the Usenet Thread style (c. 1980–1999) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: usenet, newsgroup, netnews, newsreader, quoted reply, plain text thread."
 domain: internet
 era: terminals-bbs
 triggers:
@@ -24,7 +24,7 @@ vector_profile:
 
 A thread of plain-text posts in a newsgroup, read in a terminal newsreader: a tree of subject lines, quoted lines that start with >, and a signature under each post.
 
-**Period:** 1980–1999 · **Era:** Terminals, BBS and Usenet · **Domain:** Internet · **Also called:** Newsgroup thread, Netnews, Threaded newsreader
+**Period:** c. 1980–1999 · **Era:** Terminals, BBS and Usenet · **Domain:** Internet · **Also called:** Newsgroup thread, Netnews, Threaded newsreader
 
 ## When to load this skill
 
@@ -266,8 +266,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **add a web forum**: move toward [`bulletin-board-forum`](../bulletin-board-forum/SKILL.md) (Bulletin Board Forum). Put the posts in a table with a user column, an avatar and a post count.
 - If the user asks for **more art**: move toward [`ansi-bbs-art`](../ansi-bbs-art/SKILL.md) (ANSI BBS Art). Add ANSI colour blocks and a drawn banner at the top.
 
-- **Led to (go here for a newer version):** [`bulletin-board-forum`](../bulletin-board-forum/SKILL.md), [`reddit-thread`](../reddit-thread/SKILL.md)
-- **Mixes well with:** [`kaomoji-emoticon`](../kaomoji-emoticon/SKILL.md)
+- **Led to (go here for a newer version):** [`bulletin-board-forum`](../bulletin-board-forum/SKILL.md)
 - **Nearest by vector profile:** [`tweet-screenshot-meme`](../tweet-screenshot-meme/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md)
 
 ## Emotional target

@@ -247,7 +247,7 @@ A named room for live text chat: everyone in the room sees each message at once,
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Discord** (platform, San Francisco, 2015–now), launched the style. A chat app for communities, with servers, text channels and voice channels.
+- **Discord** (platform, web, 2015–now), launched the style. A chat app for communities, with servers, text channels and voice channels.
 
 ## Permutations
 
@@ -268,7 +268,6 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **threaded**: move toward [`reddit-thread`](../reddit-thread/SKILL.md) (Reddit Thread). Turn the channel into posts with nested, voted replies.
 - If the user asks for **more stickers**: move toward [`chat-sticker-pack`](../chat-sticker-pack/SKILL.md) (Chat Sticker Pack). Add large sticker images and animated emoji in the messages.
 
-- **Came from (go here for a more orthodox version):** [`bulletin-board-forum`](../bulletin-board-forum/SKILL.md)
 - **Mixes well with:** [`chat-sticker-pack`](../chat-sticker-pack/SKILL.md)
 - **Nearest by vector profile:** [`reddit-thread`](../reddit-thread/SKILL.md), [`unicode-emoji`](../unicode-emoji/SKILL.md), [`anonymous-imageboard`](../anonymous-imageboard/SKILL.md)
 

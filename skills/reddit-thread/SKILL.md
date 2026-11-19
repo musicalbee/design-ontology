@@ -236,7 +236,7 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Post voting (technology)
 
-Readers vote a post up or down, and the score sets the order in which the posts show. Origin: internet, San Francisco, 2004.
+Readers vote a post up or down, and the score sets the order in which the posts show. Origin: internet, web, 2004.
 
 - Put an up and a down control beside each post.
 - Show the net score between the two controls.
@@ -276,7 +276,6 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **older**: move toward [`bulletin-board-forum`](../bulletin-board-forum/SKILL.md) (Bulletin Board Forum). Put the replies in a flat table with a user column.
 - If the user asks for **live chat**: move toward [`discord-server`](../discord-server/SKILL.md) (Discord Server). Replace the tree with a channel of messages in time order.
 
-- **Came from (go here for a more orthodox version):** [`bulletin-board-forum`](../bulletin-board-forum/SKILL.md), [`usenet-thread`](../usenet-thread/SKILL.md)
 - **Mixes well with:** [`rage-comic`](../rage-comic/SKILL.md)
 - **Nearest by vector profile:** [`anonymous-imageboard`](../anonymous-imageboard/SKILL.md), [`discord-server`](../discord-server/SKILL.md), [`ai-chat-ui`](../ai-chat-ui/SKILL.md)
 

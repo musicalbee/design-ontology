@@ -263,7 +263,7 @@
       "family": "internet",
       "branch": "forums-imageboards",
       "era": "terminals-bbs",
-      "period": "1980–1999",
+      "period": "c. 1980–1999",
       "thesis": "A discussion is a tree of plain-text replies, and each reply quotes the part that it answers.",
       "summary": "A thread of plain-text posts in a newsgroup, read in a terminal newsreader: a tree of subject lines, quoted lines that start with >, and a signature under each post.",
       "path": "skills/usenet-thread/SKILL.md",
@@ -1279,7 +1279,7 @@
       "family": "internet",
       "branch": "forums-imageboards",
       "era": "web-1",
-      "period": "1996–2012",
+      "period": "c. 1996–2012",
       "thesis": "A forum is a club with rooms; each member carries a visible rank, a picture and a signature from post to post.",
       "summary": "A web forum in tables: a list of boards in categories, topics with reply and view counts, and posts with a user column that shows an avatar, a rank, a post count and a signature.",
       "path": "skills/bulletin-board-forum/SKILL.md",
@@ -1361,7 +1361,7 @@
         "typographic_expressiveness": 2
       },
       "techniques": [
-        "threaded-discussion"
+        "bbcode-markup"
       ],
       "orgs": [
         "phpbb"
@@ -48000,6 +48000,32 @@
       ]
     },
     {
+      "id": "bbcode-markup",
+      "name": "BBCode markup",
+      "kind": "technology",
+      "origin": {
+        "domain": "internet",
+        "year": 1998,
+        "where": "web",
+        "note": "BBCode was first introduced in 1998 as a markup for message boards."
+      },
+      "adoptions": [
+        {
+          "domain": "internet",
+          "year": 2014,
+          "circa": true,
+          "via": "phpBB 3.1 has a completely rewritten BBCode system for the posts on its boards.",
+          "styles": [
+            "bulletin-board-forum"
+          ],
+          "lag_years": 16
+        }
+      ],
+      "styles": [
+        "bulletin-board-forum"
+      ]
+    },
+    {
       "id": "bias-cutting",
       "name": "Bias cutting",
       "kind": "skill",
@@ -51437,7 +51463,7 @@
       "name": "Halftone",
       "kind": "process",
       "origin": {
-        "domain": "graphic-movement",
+        "domain": "print",
         "year": 1879,
         "where": "New York",
         "note": "Benjamin Day patents a mechanical tint of dots for printers; photographic halftone screens follow in the 1880s."
@@ -52811,7 +52837,7 @@
       "name": "Lithography",
       "kind": "process",
       "origin": {
-        "domain": "graphic-movement",
+        "domain": "print",
         "year": 1796,
         "circa": true,
         "where": "Munich",
@@ -54722,8 +54748,8 @@
       "origin": {
         "domain": "internet",
         "year": 2004,
-        "where": "San Francisco",
-        "note": "Digg puts the links with the most votes from its users on its front page."
+        "where": "web",
+        "note": "Digg, launched in 2004, lets its users vote links up (digging) or down (burying). This record dates the technique from Digg."
       },
       "adoptions": [
         {
@@ -57024,13 +57050,13 @@
         "year": 1999,
         "circa": true,
         "where": "Japan",
-        "note": "On 2channel a reply bumps its thread up, and the word sage in the e-mail field stops the bump."
+        "note": "On 2channel a reply bumps its thread up; a poster can choose sage to reply with no bump."
       },
       "adoptions": [
         {
           "domain": "internet",
           "year": 2003,
-          "via": "4chan copies the bump order and the sage field from the Japanese boards.",
+          "via": "4chan bumps a thread on each reply and deletes the old threads at the bottom of the board.",
           "styles": [
             "anonymous-imageboard"
           ],
@@ -57057,17 +57083,8 @@
       "adoptions": [
         {
           "domain": "internet",
-          "year": 2000,
-          "via": "Web forum programs such as phpBB group the replies under one topic.",
-          "styles": [
-            "bulletin-board-forum"
-          ],
-          "lag_years": 20
-        },
-        {
-          "domain": "internet",
           "year": 2005,
-          "via": "Reddit nests the comments as a tree and sorts each level by votes.",
+          "via": "Reddit groups the comments on each post as a thread.",
           "styles": [
             "reddit-thread"
           ],
@@ -57076,7 +57093,6 @@
       ],
       "styles": [
         "usenet-thread",
-        "bulletin-board-forum",
         "reddit-thread"
       ]
     },
@@ -58224,7 +58240,7 @@
       "name": "Woodcut",
       "kind": "process",
       "origin": {
-        "domain": "graphic-movement",
+        "domain": "print",
         "year": 868,
         "where": "Dunhuang",
         "note": "The Diamond Sutra, printed in China in 868, is the oldest dated printed book made from woodblocks."

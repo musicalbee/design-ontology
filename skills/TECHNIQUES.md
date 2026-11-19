@@ -2215,7 +2215,7 @@ Tone printed as dots of different size or spacing; at a distance the dots merge 
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Graphic movements | 1879 | — | New York: Benjamin Day patents a mechanical tint of dots for printers; photographic halftone screens follow in the 1880s. | |
+| Origin | Print | 1879 | — | New York: Benjamin Day patents a mechanical tint of dots for printers; photographic halftone screens follow in the 1880s. | |
 | 1 | Photography | 1880 | +1 years | The Daily Graphic of New York prints a photograph as a halftone. |  |
 | 2 | Painting | 1961 | +82 years | Roy Lichtenstein paints enlarged Ben-Day dots by hand in Look Mickey. |  |
 | 3 | Print | 1962 | +83 years | Andy Warhol has photographs made into halftone screens and pulls them over hand-cut flat colour. | [`pop-screen-print`](./pop-screen-print/SKILL.md) |
@@ -2499,7 +2499,7 @@ A print from a flat stone or plate on which a greasy drawing takes ink and water
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Graphic movements | c. 1796 | — | Munich: Alois Senefelder invents lithography in Bavaria. | |
+| Origin | Print | c. 1796 | — | Munich: Alois Senefelder invents lithography in Bavaria. | |
 | 1 | Print | 1866 | +70 years | Jules Chéret prints his first colour posters on his own presses in Paris, with one stone for each ink. | [`chromolithograph-poster`](./chromolithograph-poster/SKILL.md) |
 | 2 | Painting | 1879 | +83 years | Odilon Redon publishes the lithographs of Dans le rêve, black dream visions. | [`symbolism-painting`](./symbolism-painting/SKILL.md) |
 | 3 | Graphic movements | 1891 | +95 years | Henri de Toulouse-Lautrec prints the poster Moulin Rouge: La Goulue in colour lithography. | [`art-nouveau-web`](./art-nouveau-web/SKILL.md) |
@@ -3417,8 +3417,8 @@ A new reply moves its thread to the top of the board; a thread with no new repli
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Internet | c. 1999 | — | Japan: On 2channel a reply bumps its thread up, and the word sage in the e-mail field stops the bump. | |
-| 1 | Internet | 2003 | +4 years | 4chan copies the bump order and the sage field from the Japanese boards. | [`anonymous-imageboard`](./anonymous-imageboard/SKILL.md) |
+| Origin | Internet | c. 1999 | — | Japan: On 2channel a reply bumps its thread up; a poster can choose sage to reply with no bump. | |
+| 1 | Internet | 2003 | +4 years | 4chan bumps a thread on each reply and deletes the old threads at the bottom of the board. | [`anonymous-imageboard`](./anonymous-imageboard/SKILL.md) |
 
 Used by: [`anonymous-imageboard`](./anonymous-imageboard/SKILL.md).
 
@@ -3669,7 +3669,7 @@ A print from a block of wood with the white parts cut away; the result is flat c
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Graphic movements | 868 | — | Dunhuang: The Diamond Sutra, printed in China in 868, is the oldest dated printed book made from woodblocks. | |
+| Origin | Print | 868 | — | Dunhuang: The Diamond Sutra, printed in China in 868, is the oldest dated printed book made from woodblocks. | |
 | 1 | Print | 1493 | +625 years | Michael Wolgemut and Wilhelm Pleydenwurff design the 1,809 woodcuts of the Nuremberg Chronicle, which Anton Koberger prints with the text. | [`woodcut-relief-print`](./woodcut-relief-print/SKILL.md) |
 | 2 | Painting | 1765 | +897 years | Suzuki Harunobu and his printers make the full-colour nishiki-e print on many blocks. | [`ukiyo-e`](./ukiyo-e/SKILL.md) |
 | 3 | Print | 1891 | +1023 years | William Morris draws woodcut borders and initials for the Kelmscott Press, cut by William Harcourt Hooper and others. | [`private-press-book`](./private-press-book/SKILL.md) |
@@ -4494,6 +4494,23 @@ Used by: [`liquid-glass-ui`](./liquid-glass-ui/SKILL.md).
 
 Sources: W3C, Filter Effects Module Level 2: backdrop-filter.
 
+### BBCode markup
+
+A light markup for forum posts: the poster writes tags in square brackets, and the board changes them into safe HTML.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 1998 | — | web: BBCode was first introduced in 1998 as a markup for message boards. | |
+| 1 | Internet | c. 2014 | +16 years | phpBB 3.1 has a completely rewritten BBCode system for the posts on its boards. | [`bulletin-board-forum`](./bulletin-board-forum/SKILL.md) |
+
+Used by: [`bulletin-board-forum`](./bulletin-board-forum/SKILL.md).
+
+- Write the format in square-bracket tags, for example [b]bold[/b] or [quote]...[/quote].
+- Let the board change each tag into HTML and remove raw HTML from the post.
+- Show a quote of the earlier post in a box with the name of its poster.
+
+Sources: [Wikipedia: BBCode](https://en.wikipedia.org/wiki/BBCode); [Wikipedia: phpBB](https://en.wikipedia.org/wiki/PhpBB).
+
 ### Binaural recording
 
 A recording with two mics set at ear distance, so that a sound seems to move around the head of the listener.
@@ -4944,7 +4961,7 @@ Readers vote a post up or down, and the score sets the order in which the posts 
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Internet | 2004 | — | San Francisco: Digg puts the links with the most votes from its users on its front page. | |
+| Origin | Internet | 2004 | — | web: Digg, launched in 2004, lets its users vote links up (digging) or down (burying). This record dates the technique from Digg. | |
 | 1 | Internet | 2005 | +1 years | Reddit adds up and down votes on each post and on each comment. | [`reddit-thread`](./reddit-thread/SKILL.md) |
 
 Used by: [`reddit-thread`](./reddit-thread/SKILL.md).
@@ -5123,16 +5140,15 @@ Replies are stored as a tree: each reply points to the post that it answers, so 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Internet | 1980 | — | Durham, North Carolina: Usenet links each reply to its parent, and newsreaders show the replies as a tree. | |
-| 1 | Internet | 2000 | +20 years | Web forum programs such as phpBB group the replies under one topic. | [`bulletin-board-forum`](./bulletin-board-forum/SKILL.md) |
-| 2 | Internet | 2005 | +25 years | Reddit nests the comments as a tree and sorts each level by votes. | [`reddit-thread`](./reddit-thread/SKILL.md) |
+| 1 | Internet | 2005 | +25 years | Reddit groups the comments on each post as a thread. | [`reddit-thread`](./reddit-thread/SKILL.md) |
 
-Used by: [`usenet-thread`](./usenet-thread/SKILL.md), [`bulletin-board-forum`](./bulletin-board-forum/SKILL.md), [`reddit-thread`](./reddit-thread/SKILL.md).
+Used by: [`usenet-thread`](./usenet-thread/SKILL.md), [`reddit-thread`](./reddit-thread/SKILL.md).
 
 - Give each post an id and give each reply the id of its parent.
 - Show the tree with one indent for each level.
 - Quote or link the parent post in each reply.
 
-Sources: [Wikipedia: Conversation threading](https://en.wikipedia.org/wiki/Conversation_threading); [Wikipedia: Usenet](https://en.wikipedia.org/wiki/Usenet).
+Sources: [Wikipedia: Thread (online communication)](https://en.wikipedia.org/wiki/Thread_(online_communication)); [Wikipedia: Usenet](https://en.wikipedia.org/wiki/Usenet).
 
 ### Tiled stove
 

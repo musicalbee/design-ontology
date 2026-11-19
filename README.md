@@ -1436,7 +1436,6 @@ flowchart LR
   arts_and_crafts_art_pottery --> anglo_oriental_studio_pottery
   joseon_buncheong --> anglo_oriental_studio_pottery
   longquan_celadon --> anglo_oriental_studio_pottery
-  bulletin_board_forum --> anonymous_imageboard
   y2k_aesthetic --> apple_aqua
   new_objectivity --> architectural_photography
   straight_photography --> architectural_photography
@@ -1539,7 +1538,6 @@ flowchart LR
   transitional_serif --> didone_serif
   gan_portrait --> diffusion_gloss
   british_modernist_studio --> digital_3d_printed_ceramics
-  bulletin_board_forum --> discord_server
   pilot_and_field_watch --> dive_watch
   straight_photography --> documentary_photography
   soviet_montage --> documentary_verite
@@ -1760,8 +1758,6 @@ flowchart LR
   bauhaus --> rams_functionalism_ui
   swiss_international --> rams_functionalism_ui
   kaomoji_emoticon --> reaction_gif
-  bulletin_board_forum --> reddit_thread
-  usenet_thread --> reddit_thread
   creamware_neoclassical --> regency_gilded_bone_china
   sevres_rococo_porcelain --> regency_gilded_bone_china
   medieval_court_cuisine --> renaissance_banquet
@@ -2727,6 +2723,10 @@ flowchart LR
   linkStyle 637 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 638 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 639 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 1078 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1079 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1080 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1081 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1082 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1083 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1084 stroke:#E5484D,stroke-width:1.5px
@@ -2948,10 +2948,6 @@ flowchart LR
   linkStyle 1300 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1301 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1302 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1303 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1304 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1305 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1306 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 

@@ -247,7 +247,7 @@ A new reply moves its thread to the top of the board; a thread with no new repli
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **2channel** (platform, web, 1999–now), shaped the style. A large anonymous Japanese message board. Its users spread text faces, and many kaomoji began or grew in its threads.
+- **2channel** (platform, web, 1999–now), shaped the style. A large anonymous Japanese text board. Its users spread text faces, and Futaba Channel, the model for 4chan, began in 2001 as a refuge for its users.
 - **4chan** (platform, web, 2003–now), launched the style. An anonymous image board. In 2019 a post of an empty yellow room on its paranormal board began the Backrooms and the liminal spaces look.
 
 ## Permutations
@@ -270,7 +270,6 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more meme**: move toward [`impact-image-macro`](../impact-image-macro/SKILL.md) (Impact image macro). Set the posted images as image macros with white Impact captions.
 - If the user asks for **with votes**: move toward [`reddit-thread`](../reddit-thread/SKILL.md) (Reddit Thread). Add vote arrows and sort the replies by score.
 
-- **Came from (go here for a more orthodox version):** [`bulletin-board-forum`](../bulletin-board-forum/SKILL.md)
 - **Mixes well with:** [`impact-image-macro`](../impact-image-macro/SKILL.md), [`rage-comic`](../rage-comic/SKILL.md)
 - **Nearest by vector profile:** [`ai-chat-ui`](../ai-chat-ui/SKILL.md), [`corporate-memphis`](../corporate-memphis/SKILL.md), [`rage-comic`](../rage-comic/SKILL.md)
 
