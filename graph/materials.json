@@ -2251,7 +2251,8 @@
     "potted basil",
     "potted mint",
     "potted chives",
-    "potted thyme"
+    "potted thyme",
+    "herbs in pots"
    ],
    "photo": null,
    "identity": {
@@ -2350,7 +2351,8 @@
    "aliases": [
     "printed board",
     "paperboard",
-    "corrugated board"
+    "corrugated board",
+    "printed card"
    ],
    "photo": null,
    "identity": {
@@ -4454,6 +4456,7 @@
      "url": "https://en.wikipedia.org/wiki/Linen"
     }
    ],
+   "photo_applied": "a linen curtain panel, hung",
    "class": "plant"
   },
   {
@@ -4887,6 +4890,11 @@
      "url": "https://en.wikipedia.org/wiki/Wool"
     }
    ],
+   "aliases": [
+    "lambswool",
+    "lamb's wool"
+   ],
+   "photo_applied": "a folded wool throw on a chair",
    "class": "animal"
   },
   {
@@ -8237,6 +8245,7 @@
      "url": "https://en.wikipedia.org/wiki/Stainless_steel"
     }
    ],
+   "photo_applied": "a brushed stainless steel worktop edge",
    "class": "metal"
   },
   {
@@ -8271,6 +8280,7 @@
      "url": "https://en.wikipedia.org/wiki/Steel"
     }
    ],
+   "photo_applied": "a square sample of black powder-coated steel sheet",
    "class": "metal"
   },
   {
@@ -12383,6 +12393,9 @@
      "url": "https://en.wikipedia.org/wiki/Mesh"
     }
    ],
+   "aliases": [
+    "mesh"
+   ],
    "class": "polymer"
   },
   {
@@ -13163,6 +13176,10 @@
      "title": "Wikipedia: Decorative laminate",
      "url": "https://en.wikipedia.org/wiki/Decorative_laminate"
     }
+   ],
+   "aliases": [
+    "laminate",
+    "laminates"
    ],
    "class": "composite"
   },
@@ -41577,6 +41594,13 @@
   {
    "style": "postmodern-architecture",
    "domain": "architecture",
+   "material": "plastic-laminate",
+   "use": "secondary",
+   "via": "materials.secondary: \"laminate\""
+  },
+  {
+   "style": "postmodern-architecture",
+   "domain": "architecture",
    "material": "painted-metal",
    "use": "secondary",
    "via": "materials.secondary: \"coloured metal panels\""
@@ -51460,10 +51484,6 @@
   {
    "domain": "architecture",
    "text": "raised access floor"
-  },
-  {
-   "domain": "architecture",
-   "text": "laminate"
   },
   {
    "domain": "interior",
