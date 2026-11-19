@@ -1,0 +1,88 @@
+{
+  "$schema": "../../schema/moment.schema.json",
+  "id": "sauna-and-cold-plunge",
+  "name": "Sauna and a cold plunge",
+  "kind": "ritual",
+  "description": "Heat at about 80 to 90 degrees and steam from the stones, then cold water or snow outside.",
+  "emotions": [
+    {
+      "emotion": "vitality",
+      "strength": 1
+    },
+    {
+      "emotion": "relaxation",
+      "strength": 0.9
+    },
+    {
+      "emotion": "joy",
+      "strength": 0.4
+    }
+  ],
+  "time": {
+    "of_day": [
+      "evening",
+      "any"
+    ],
+    "season": [
+      "any"
+    ],
+    "sun_elevation_deg": null
+  },
+  "light": {
+    "cct_k": {
+      "min": 1850,
+      "max": 2700
+    },
+    "lux": {
+      "min": 5,
+      "max": 50
+    },
+    "direction": "low-side",
+    "quality": "soft",
+    "sources": [
+      "lamp",
+      "fire",
+      "sky"
+    ]
+  },
+  "weather": [
+    "indoors",
+    "snow"
+  ],
+  "sound": [
+    "hiss of steam on stones",
+    "lake water",
+    "quiet talk"
+  ],
+  "scent": [
+    "birch whisk",
+    "hot wood",
+    "smoke"
+  ],
+  "people": {
+    "min": 1,
+    "max": 8,
+    "activity": "sit on wood benches, then swim"
+  },
+  "carriers": {
+    "styles": [
+      "nordic-modernism-architecture"
+    ],
+    "things": [
+      "wood benches",
+      "stove with stones",
+      "lake",
+      "birch whisk"
+    ]
+  },
+  "cues": [
+    "warm-dim-light-positive-affect"
+  ],
+  "scene_ref": null,
+  "sources": [
+    {
+      "title": "Wikipedia, Finnish sauna: the room is usually at 80 to 90 degrees Celsius",
+      "url": "https://en.wikipedia.org/wiki/Finnish_sauna"
+    }
+  ]
+}

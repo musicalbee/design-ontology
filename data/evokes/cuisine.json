@@ -1,0 +1,796 @@
+{
+  "$schema": "../../schema/evokes.schema.json",
+  "carrier": "style",
+  "domain": "cuisine",
+  "edges": {
+    "bistronomie": [
+      {
+        "emotion": "joy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:generous",
+              "keyword:warm",
+              "keyword:lively"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The same guide names an open and playful approach to French cooking in the new bistros.",
+            "source": {
+              "title": "Paris modern bistros guide, World's 50 Best",
+              "url": "https://www.the50.com/stories/News/paris-modern-bistros-nouveau-bistronomie-guide.html"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 0.3,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:casual"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The guide describes bistronomy as a relaxed, accessible alternative to rigid haute cuisine, with a laid-back and communal mood.",
+            "source": {
+              "title": "Paris modern bistros guide, World's 50 Best",
+              "url": "https://www.the50.com/stories/News/paris-modern-bistros-nouveau-bistronomie-guide.html"
+            }
+          }
+        ]
+      }
+    ],
+    "california-cuisine": [
+      {
+        "emotion": "joy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:ripe",
+              "keyword:warm"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Alice Waters says food that is ripe and in season gives great taste, and that good eating needs time and attention to savour.",
+            "source": {
+              "title": "Go Natural, Time",
+              "url": "https://time.com/archive/6675212/go-natural"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "mono-no-aware",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:seasonal"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "vitality",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:fresh"
+            ]
+          }
+        ]
+      }
+    ],
+    "cuisine-classique": [
+      {
+        "emotion": "awe",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The article reports that Escoffier's meals impressed a head of state and left a lasting memory of luxury at the Carlton.",
+            "source": {
+              "title": "Auguste Escoffier, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Auguste_Escoffier"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "beauty",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Ritz and Escoffier aimed for elegance and the warmth of an aristocratic home, so diners lingered at the table.",
+            "source": {
+              "title": "When Ritz met Escoffier, Connexion France",
+              "url": "https://connexionfrance.com/article/Mag/Food-and-Drink/When-Ritz-met-French-chef-Escoffier"
+            }
+          }
+        ]
+      }
+    ],
+    "cuisine-francoise": [
+      {
+        "emotion": "beauty",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:refined",
+              "keyword:elegant"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "A nutrition-history paper calls the style of La Varenne inventive and delicate, and says it pleased the senses of smell and taste.",
+            "source": {
+              "title": "La Varenne Le Cuisinier Francois, Frontiers in Nutrition",
+              "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2020.00042/full"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:balanced"
+            ]
+          }
+        ]
+      }
+    ],
+    "cuisine-minceur": [
+      {
+        "emotion": "joy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:bright"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "A travel writer calls a minceur dinner very appetising and proof that slimming food can still give gourmet pleasure.",
+            "source": {
+              "title": "Michel Guerard, France Today",
+              "url": "https://francetoday.com/food-drink/chefs/michel-guerard"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:light"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "vitality",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:healthy"
+            ]
+          }
+        ]
+      }
+    ],
+    "grande-cuisine": [
+      {
+        "emotion": "awe",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:monumental"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Haute cuisine of the era was known for opulent, extravagant presentations.",
+            "source": {
+              "title": "Haute cuisine, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Haute_cuisine"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "fascination",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "A history article says Tsar Alexander I was impressed by Careme, whose work won admirers among wealthy clients.",
+            "source": {
+              "title": "Careme, the first celebrity chef, National Geographic",
+              "url": "https://www.nationalgeographic.com/history/history-magazine/article/careme-the-worlds-first-celebrity-chef"
+            }
+          }
+        ]
+      }
+    ],
+    "haute-regionale": [
+      {
+        "emotion": "enchantment",
+        "strength": 0.4,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Fernand Point said that a chef who has charmed the souls of guests brings all of them together as friends at the table.",
+            "source": {
+              "title": "The Pantheon of French Chefs (Escoffier blog)",
+              "url": "https://www.escoffier.edu/blog/culinary-arts/the-pantheon-of-french-chefs/"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:warm",
+              "keyword:generous"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:unhurried"
+            ]
+          }
+        ]
+      }
+    ],
+    "medieval-court-cuisine": [
+      {
+        "emotion": "awe",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:ceremonial"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "A lifestyle article says sugar subtleties at medieval banquets awed guests and was meant to astonish diners between courses.",
+            "source": {
+              "title": "Aristocratic mealtime rituals, Woman and Home",
+              "url": "https://www.womanandhome.com/life/royal-news/aristocratic-mealtime-rituals/"
+            }
+          },
+          {
+            "kind": "stated",
+            "claim": "A scholarly book review notes that the court spectacle could overwhelm the spectators at late medieval banquets.",
+            "source": {
+              "title": "A Feast for the Eyes review, Times Higher Education",
+              "url": "https://www.timeshighereducation.com/books/feast-eyes-art-performance-and-late-medieval-banquet-christina-normore"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:warm"
+            ]
+          }
+        ]
+      }
+    ],
+    "modernist-cuisine": [
+      {
+        "emotion": "nostalgia",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Achatz built the Alinea menu like a play to give diners the full range of feeling, with humour and nostalgia among them.",
+            "source": {
+              "title": "Alinea reinvention of cooking, Gizmodo",
+              "url": "https://gizmodo.com/thought-for-food-alineas-reinvention-of-cooking-and-ea-5344393"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "humour",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The same article names humour as one feeling the Alinea menu sets out to draw from the diner.",
+            "source": {
+              "title": "Alinea reinvention of cooking, Gizmodo",
+              "url": "https://gizmodo.com/thought-for-food-alineas-reinvention-of-cooking-and-ea-5344393"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:clinical",
+              "keyword:cold"
+            ]
+          }
+        ]
+      }
+    ],
+    "molecular-gastronomy": [
+      {
+        "emotion": "surprise",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:surprising"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Chefs of the avant-garde say they surprise and deeply touch diners, and a chef said a dish enchanted all his diners.",
+            "source": {
+              "title": "Techno-emotional cuisine vs molecular gastronomy, Club Oenologique",
+              "url": "https://cluboenologique.com/story/techno-emotional-cuisine-vs-molecular-gastronomy"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "enchantment",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Quique Dacosta says his dish evoked shared childhood memories and enchanted his diners.",
+            "source": {
+              "title": "Techno-emotional cuisine vs molecular gastronomy, Club Oenologique",
+              "url": "https://cluboenologique.com/story/techno-emotional-cuisine-vs-molecular-gastronomy"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "humour",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:playful"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "insight",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:scientific"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:cold"
+            ]
+          }
+        ]
+      }
+    ],
+    "naturalist-cuisine": [
+      {
+        "emotion": "joy",
+        "strength": 0.7,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Michel Bras says he cooks to show his heart and to be a carrier of happiness, and that food should be shared love.",
+            "source": {
+              "title": "Michel Bras and the emotional connection with food, Reporter Gourmet",
+              "url": "https://reportergourmet.com/en/news/4859-michel-bras-and-the-emotional-connection-with-food"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 0.4,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "At Mugaritz, the team says that it walks a fine line between provocation and shock.",
+            "source": {
+              "title": "Mugaritz provocative tasting menu, Eater via Euskal Kultura",
+              "url": "https://www.euskalkultura.eus/euskara/besteek-esana/how-mugaritzs-provocative-tasting-menu-comes-together-eatercom-en"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "vitality",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:wild",
+              "keyword:green"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "confusion",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:scattered"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "mono-no-aware",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:seasonal"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:gentle"
+            ]
+          }
+        ]
+      }
+    ],
+    "new-nordic": [
+      {
+        "emotion": "awe",
+        "strength": 0.4,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "An article says Nordic cuisine shows a special reverence for the environment, and that its mix of influences feels exciting.",
+            "source": {
+              "title": "Noma Nordic food manifesto, The Daily Meal",
+              "url": "https://www.thedailymeal.com/1162439/nomas-nordic-food-manifesto-completely-revolutionized-the-regions-culinary-identity"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "mono-no-aware",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:seasonal"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:quiet"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "vitality",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:wild"
+            ]
+          }
+        ]
+      }
+    ],
+    "nouvelle-cuisine": [
+      {
+        "emotion": "joy",
+        "strength": 0.7,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "A Troisgros profile says the signature dish stays light and balanced, and that the family finds it more magical with time.",
+            "source": {
+              "title": "La Maison Troisgros, Club Oenologique",
+              "url": "https://cluboenologique.com/story/la-maison-troisgros-the-birthplace-of-nouvelle-cuisine/"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "mono-no-aware",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:seasonal"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:light"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "surprise",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:inventive"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "vitality",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:fresh"
+            ]
+          }
+        ]
+      }
+    ],
+    "novoandina-and-nikkei": [
+      {
+        "emotion": "joy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:bright",
+              "keyword:colourful"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "A chef profile says Maido delights and challenges the palate and has captivated the global culinary scene.",
+            "source": {
+              "title": "Mitsuharu Tsumura, Reporter Gourmet",
+              "url": "https://reportergourmet.com/en/chef/424-mitsuharu-tsumura"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:coastal"
+            ]
+          }
+        ]
+      }
+    ],
+    "pacific-rim-fusion": [
+      {
+        "emotion": "fascination",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "A restaurant review says the Hawaiian-Japanese fusion idea captured the public imagination and still impresses with stunning plates.",
+            "source": {
+              "title": "Roy's staying fresh at 28, The Daily Meal",
+              "url": "https://www.thedailymeal.com/eat/roy-s-staying-fresh-28/"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "beauty",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:stylish"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:bold"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:bright"
+            ]
+          }
+        ]
+      }
+    ],
+    "plant-based-fine-dining": [
+      {
+        "emotion": "enchantment",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "A magazine calls Eleven Madison Park a fine-dining dream world where a guest's remark can lead to a surprise.",
+            "source": {
+              "title": "Daniel Humm and Eleven Madison Park, Wallpaper",
+              "url": "https://www.wallpaper.com/entertaining/daniel-humm-book-eat-more-plants"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:calm",
+              "keyword:light"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "vitality",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:earthy"
+            ]
+          }
+        ]
+      }
+    ],
+    "renaissance-banquet": [
+      {
+        "emotion": "awe",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "A magazine says Renaissance courts held sumptuous banquets to show wealth and power, and that Charles V was fascinated by the steward's craft.",
+            "source": {
+              "title": "Masterchefs of the Renaissance, Italy Magazine",
+              "url": "http://www.italymagazine.com/dual-language/masterchefs-renaissance"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:abundant",
+              "keyword:sweet",
+              "keyword:festive"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

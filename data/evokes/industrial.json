@@ -1,0 +1,473 @@
+{
+  "$schema": "../../schema/evokes.schema.json",
+  "carrier": "style",
+  "domain": "industrial",
+  "edges": {
+    "art-deco-product": [
+      {
+        "emotion": "beauty",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:glamorous"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:bold"
+            ]
+          }
+        ]
+      }
+    ],
+    "art-nouveau-object": [
+      {
+        "emotion": "vitality",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:organic",
+              "keyword:sensuous"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "enchantment",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:dreamlike"
+            ]
+          }
+        ]
+      }
+    ],
+    "arts-and-crafts-object": [
+      {
+        "emotion": "joy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:warm"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "vitality",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:earthy"
+            ]
+          }
+        ]
+      }
+    ],
+    "bauhaus-product": [
+      {
+        "emotion": "insight",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:rational",
+              "keyword:clear"
+            ]
+          }
+        ]
+      }
+    ],
+    "contemporary-craft-product": [
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:calm",
+              "keyword:quiet"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:warm"
+            ]
+          }
+        ]
+      }
+    ],
+    "georgian-neoclassical-manufacture": [
+      {
+        "emotion": "beauty",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:refined",
+              "keyword:elegant"
+            ]
+          }
+        ]
+      }
+    ],
+    "industrial-utility-product": [
+      {
+        "emotion": "nostalgia",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:worn"
+            ]
+          }
+        ]
+      }
+    ],
+    "japanese-modern-craft-product": [
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:calm",
+              "keyword:quiet",
+              "keyword:patient"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "vitality",
+        "strength": 0.3,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:natural"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "wabi-sabi",
+        "strength": 0.3,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:humble"
+            ]
+          }
+        ]
+      }
+    ],
+    "memphis-product": [
+      {
+        "emotion": "humour",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:playful",
+              "keyword:ironic"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:loud"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "intellectual-challenge",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:postmodern"
+            ]
+          }
+        ]
+      }
+    ],
+    "mid-century-modern-product": [
+      {
+        "emotion": "joy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:optimistic",
+              "keyword:sociable"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "humour",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:playful"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:light"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "vitality",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:organic"
+            ]
+          }
+        ]
+      }
+    ],
+    "scandinavian-modern-product": [
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:calm",
+              "keyword:light"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "being-moved",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:humane"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:warm"
+            ]
+          }
+        ]
+      }
+    ],
+    "shaker-object": [
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:calm"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "wabi-sabi",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:modest"
+            ]
+          }
+        ]
+      }
+    ],
+    "space-age-pop-product": [
+      {
+        "emotion": "humour",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:playful"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:optimistic"
+            ]
+          }
+        ]
+      }
+    ],
+    "streamline-moderne-product": [
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:fast"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:optimistic"
+            ]
+          }
+        ]
+      }
+    ],
+    "super-normal-product": [
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:quiet",
+              "keyword:calm",
+              "keyword:familiar"
+            ]
+          }
+        ]
+      }
+    ],
+    "ulm-braun-functionalism": [
+      {
+        "emotion": "insight",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:rational",
+              "keyword:systematic"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:quiet"
+            ]
+          }
+        ]
+      }
+    ],
+    "victorian-manufacture": [
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:comfortable"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:dark"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
