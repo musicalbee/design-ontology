@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Design Ontology: every domain of design, style by style</title>
-<meta name="description" content="Styles in eleven domains of design: graphic and UI design, architecture, interiors, photography, film, painting, video games, logos, icons, typefaces and print. Each domain demo keeps one task and changes the style.">
+<meta name="description" content="Styles in eleven domains of design: internet culture, architecture, interiors, photography, film, painting, video games, logos, icons, typefaces and print. Each domain demo keeps one task and changes the style.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800&display=swap">
@@ -173,7 +173,7 @@
 <script>
 // Each domain: its demo page, its name, and the one task that its demo keeps still.
 const DOMAINS = [
-  { id: "design", page: "design.html", name: "Graphic and UI design", task: "One landing page, dressed in the type, colour, icons and pictures of each style." },
+  { id: "internet", page: "internet.html", name: "Internet", task: "One landing page, dressed in the type, colour, icons and pictures of each style." },
   { id: "architecture", page: "architecture.html", name: "Architecture", task: "One front elevation in each style, with its regulating lines drawn on top." },
   { id: "interior", page: "interior.html", name: "Interiors", task: "One room, dressed in each style, with its composition drawn on the plan." },
   { id: "industrial", page: "industrial.html", name: "Industrial design", task: "One product still life in each style: a lamp, a tap, a switch, a vase and a cup, in their materials and finishes." },
@@ -210,7 +210,7 @@ Promise.all([json("../skills/index.json"), ...DOMAINS.map((d) => json(`previews/
   const skills = index?.skills ?? [];
   const name = Object.fromEntries(skills.map((s) => [s.id, s.name]));
   // The styles of a domain that have a preview picture.
-  const pool = DOMAINS.map((d, i) => Object.entries(manifests[i]?.images ?? {})
+  const pool = DOMAINS.map((d, i) => Object.entries({ ...manifests[i]?.proofs, ...manifests[i]?.images })
     .filter(([id, r]) => name[id] && r.file)
     .map(([id, r]) => ({ id, name: name[id], src: `previews/${d.id}/${r.file}`, fit: r.kind === "specimen" || r.kind === "press-proof" || r.kind === "swatch-board" || r.kind === "tile-board", n: r.frames?.length || 1, d })));
 
@@ -246,7 +246,7 @@ Promise.all([json("../skills/index.json"), ...DOMAINS.map((d) => json(`previews/
   }
 
   function atlas(first) {
-    const box = $("atlas"), short = { design: "Graphic and UI", film: "Film and video", game: "Video games" };
+    const box = $("atlas"), short = { internet: "Internet", film: "Film and video", game: "Video games" };
     const fill = () => {
       box.innerHTML = DOMAINS.map((d, i) => { const s = shuffle(pool[i])[0]; return s ? `<a href="${d.page}">${pic(s, true)}<span>${esc(short[d.id] || d.name)}</span></a>` : ""; }).join("");
       requestAnimationFrame(() => box.classList.remove("swap"));

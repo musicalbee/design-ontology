@@ -1,0 +1,315 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "label-meme",
+  "domain": "internet",
+  "name": "Label meme",
+  "aliases": [
+    "Labelled stock photo",
+    "Caption-the-image meme"
+  ],
+  "branch": "memes",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2017,
+    "end": null,
+    "label": "2017–now"
+  },
+  "primary_mediums": [
+    "image",
+    "mobile"
+  ],
+  "summary": "A known photo or still where each person or object carries a small text label that gives it a role. The reader maps the roles and finds the joke. The form took off in 2017 with stock photos and cartoon stills.",
+  "philosophy": {
+    "core_thesis": "Let a famous picture act as a diagram: the labels give the roles, and the pose gives the joke.",
+    "design_principles": [
+      "Keep the source picture whole and uncropped; use a 4:3 or 3:2 frame.",
+      "Add 2 to 4 labels in white or black boxes of 4px padding with a 2px radius.",
+      "Set labels in a plain bold sans-serif at 24px to 32px, 1 to 4 words each.",
+      "Place each label over its subject, inside the subject area, at less than 20% of the width.",
+      "Use a white box with black text, or a black box with white text; use one style in all labels.",
+      "Add a thin line or arrow from label to subject only when the target is not clear.",
+      "Keep the picture unedited; the labels are the only addition."
+    ],
+    "anti_patterns": [
+      "Impact outline capitals",
+      "Labels that hide the faces",
+      "More than 5 labels",
+      "Heavy filters on the picture",
+      "Long sentences in labels",
+      "Labels in many colours"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "dimensionality": 2,
+    "grid_rigidity": 2,
+    "skeuomorphic_realism": 4,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "A single picture of 800px x 600px; labels float over it at the subject positions.",
+    "whitespace_ratio": "The picture fills 100% of the frame; labels cover less than 15% of the area.",
+    "alignment_rules": "Each label sits centred on its subject; label text aligns centre.",
+    "container_geometry": "Rectangular label boxes with a 2px radius and 4px to 8px padding."
+  },
+  "typography": {
+    "classifications": [
+      "neutral grotesque",
+      "bold sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Arimo",
+        "body": "Open Sans",
+        "note": "Arimo has the metrics of Arial, the usual face of the form."
+      },
+      {
+        "display": "Inter",
+        "body": "Roboto",
+        "note": "A neutral modern pair."
+      }
+    ],
+    "tracking": "Label 0em; no extra tracking.",
+    "leading": "Label 1.1; one line each.",
+    "hierarchy_rules": [
+      "Use one label size, 28px.",
+      "Use bold (700) weight.",
+      "Use black on white boxes or white on black boxes."
+    ]
+  },
+  "color": {
+    "palette_structure": "The picture sets the colour; labels use black and white only.",
+    "palette": [
+      {
+        "name": "Label White",
+        "hex": "#FFFFFF",
+        "role": "label box"
+      },
+      {
+        "name": "Label Black",
+        "hex": "#000000",
+        "role": "label text"
+      },
+      {
+        "name": "Photo Skin",
+        "hex": "#D9A77E",
+        "role": "photo tone"
+      },
+      {
+        "name": "Photo Street",
+        "hex": "#7C8A99",
+        "role": "photo tone"
+      },
+      {
+        "name": "Accent Red",
+        "hex": "#E53935",
+        "role": "arrow"
+      }
+    ],
+    "contrast_rules": "Black on white gives 21:1; keep the label box opaque.",
+    "surface_treatment": "The photograph shows as shot; labels are flat boxes.",
+    "light_and_shadow": "The light of the photograph; labels have no shadow."
+  },
+  "materiality": {
+    "surface_simulation": "A photograph or a cartoon still with flat text boxes laid on it.",
+    "border_rules": "No border on the picture; 0px to 2px border on labels.",
+    "blur_and_elevation": "No blur; labels sit flat with no elevation."
+  },
+  "ornamentation_details": {
+    "iconography": "Thin arrows or lines, 2px, from a label to a subject.",
+    "illustration": "The source photograph or still; nothing else.",
+    "decorative_elements": [
+      "label box",
+      "arrow",
+      "source photo"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Static image. A video version shows each label in turn, 400ms apart.",
+    "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "duration_ms": 300,
+    "hover_and_active": "Hover raises a label by 2px and shows its box edge."
+  },
+  "lineage": {
+    "evolved_from": [
+      "impact-image-macro"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "tweet-screenshot-meme"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer maps the labels, finds the roles and laughs when the pose fits.",
+    "keywords": [
+      "clear",
+      "diagrammatic",
+      "witty",
+      "relatable",
+      "quick"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "label meme",
+      "labelled meme",
+      "distracted boyfriend",
+      "caption the image",
+      "stock photo meme",
+      "role labels",
+      "expectation meme"
+    ],
+    "use_cases": [
+      "humour posts",
+      "explainer jokes",
+      "team culture slides",
+      "social campaigns"
+    ],
+    "avoid_when": [
+      "The source photo shows a private person who did not agree.",
+      "The audience needs a serious tone."
+    ],
+    "modifiers": [
+      {
+        "request": "more classic",
+        "toward": "impact-image-macro",
+        "how": "Remove the boxes and set white outlined capitals at the top and bottom of the picture."
+      },
+      {
+        "request": "more tidy",
+        "toward": "flat-design",
+        "how": "Replace the photo with flat figures and use rounded label chips."
+      },
+      {
+        "request": "more weird",
+        "toward": "surreal-meme",
+        "how": "Use a stranger source picture and make each label a calm, odd phrase."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 700,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "weight",
+      "display_tracking": "0em",
+      "display_leading": 1.1,
+      "display_case": "none",
+      "body_leading": 1.4,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "lucide",
+        "why": "A neutral outline family for the small arrows and pointers."
+      }
+    },
+    "art": {
+      "recipe": "flat",
+      "pattern": "none",
+      "seed": 20
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "center",
+      "density": "compact",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "raw",
+      "why": "The ground is the raw photograph; labels sit on it."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#1A1A1A",
+      "--color-surface": "#2A2A2A",
+      "--color-text": "#F5F5F5",
+      "--color-muted": "#BDBDBD",
+      "--color-primary": "#FFFFFF",
+      "--color-accent": "#E53935",
+      "--color-border": "#000000",
+      "--font-sans": "\"Arimo\", \"Inter\", sans-serif",
+      "--font-display": "\"Arimo\", \"Inter\", sans-serif",
+      "--border-radius": "2px",
+      "--border-width": "2px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "4px",
+      "--ease": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "--duration": "300ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#1A1A1A] text-[#F5F5F5] font-sans antialiased"
+      },
+      {
+        "element": "heading",
+        "classes": "text-2xl md:text-4xl font-bold leading-[1.1]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.4] max-w-prose"
+      },
+      {
+        "element": "label",
+        "classes": "inline-block rounded-sm bg-white px-2 py-1 text-[28px] font-bold leading-[1.1] text-black"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-sm border-2 border-black bg-white px-4 py-2 font-bold text-black hover:-translate-y-0.5 transition-transform"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#FFFFFF",
+        "#000000"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#E53935",
+        "#FFFFFF"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 6
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 8
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.333
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Distracted boyfriend",
+      "url": "https://en.wikipedia.org/wiki/Distracted_boyfriend"
+    },
+    {
+      "title": "Know Your Meme: Distracted Boyfriend"
+    }
+  ]
+}

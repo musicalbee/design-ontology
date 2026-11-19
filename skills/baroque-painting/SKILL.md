@@ -191,6 +191,7 @@ An intaglio print from a metal plate whose lines a needle draws through an acid-
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Accademia di San Luca** (school, Rome, 1577–now), gathered the style. An academy of artists in Rome. It trained painters and architects, and Roman Baroque masters led it.
+- **Gobelins Manufactory** (company, Paris, 1662–now), made the style. The royal tapestry and furniture works of France. Colbert bought the site for Louis XIV in 1662. Charles Le Brun directed it from 1663.
 - **Rubenshuis** (studio, Antwerp, 1610–1640), made the style. The house and workshop of Peter Paul Rubens. Assistants and pupils painted large altarpieces here from his sketches.
 
 ## Permutations

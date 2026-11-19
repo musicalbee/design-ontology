@@ -1,0 +1,343 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "cybercore-web",
+  "domain": "internet",
+  "name": "Cybercore Web",
+  "aliases": [
+    "Cybercore",
+    "Cyber Y2K",
+    "Techwear web"
+  ],
+  "branch": "net-aesthetics",
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2020,
+    "end": null,
+    "label": "2020–now"
+  },
+  "primary_mediums": [
+    "web"
+  ],
+  "summary": "Black grounds, acid-green or cyan accents, chrome, angular cuts, HUD frames, small caps data labels and glitch. It mixes 1990s cyber fiction with techwear, and it feels like a machine interface.",
+  "philosophy": {
+    "core_thesis": "The page is a machine interface: sharp, labelled, cold and dense with data.",
+    "design_principles": [
+      "Set the ground at #05070A and use 1 acid accent (#C6FF00 or #00F0FF) on no more than 10% of the surface.",
+      "Cut corners at 45° with a clip-path of 8px to 16px on cards and buttons; set radius to 0px elsewhere.",
+      "Frame panels with a 1px line in the accent at 40% and add 4 corner ticks of 8px to 12px.",
+      "Set data labels at 10px to 12px in upper case with tracking of +0.12em to +0.2em in a mono or a wide display face.",
+      "Add a glitch on hover: offset the text layers by 2px to 4px in cyan and magenta for 120ms to 200ms.",
+      "Overlay scanlines of 2px at 6% to 10% opacity and a grain of 3% to 5%.",
+      "Add 3 or more HUD data items per screen: a code, a coordinate, a version number or a timer."
+    ],
+    "anti_patterns": [
+      "Soft pastel palettes",
+      "Rounded corners above 4px",
+      "Friendly illustration",
+      "Large empty areas without any data label",
+      "Warm photography with natural colour",
+      "Serif body text",
+      "Smooth drop shadows on cards"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "dimensionality": 2,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 4
+  },
+  "layout": {
+    "grid_mechanics": "A strict 12-column grid with 16px gutters; panels of unequal size are cut at corners; HUD labels sit on the edge of panels.",
+    "whitespace_ratio": "15% to 25% of the surface is empty; the spacing scale is 4, 8, 16, 32 and 64px.",
+    "alignment_rules": "Flush left; data right-aligned in mono columns; headlines are wide and may bleed off the edge.",
+    "container_geometry": "Rectangles with 45° cuts of 8px to 16px; thin 1px frames; no radius."
+  },
+  "typography": {
+    "classifications": [
+      "wide display sans serif",
+      "monospace"
+    ],
+    "font_pairings": [
+      {
+        "display": "Orbitron",
+        "body": "Share Tech Mono",
+        "note": "A wide, angular display for headlines."
+      },
+      {
+        "display": "Rajdhani",
+        "body": "Share Tech Mono",
+        "note": "A squared grotesque with a technical voice."
+      },
+      {
+        "display": "Chakra Petch",
+        "body": "JetBrains Mono",
+        "note": "A cut-corner face that echoes the clipped panels."
+      }
+    ],
+    "tracking": "Display takes +0.02em; labels take +0.15em.",
+    "leading": "Display 1.05; body 1.5.",
+    "hierarchy_rules": [
+      "Use three weights: regular (400), semibold (600) and bold (700).",
+      "Use sizes 11, 14, 24 and 72px.",
+      "Set labels and nav in upper case.",
+      "Set numbers and codes in a mono face."
+    ]
+  },
+  "color": {
+    "palette_structure": "Near-black ground with one acid accent, chrome greys and an alert colour.",
+    "palette": [
+      {
+        "name": "Void",
+        "hex": "#05070A",
+        "role": "background"
+      },
+      {
+        "name": "Acid",
+        "hex": "#C6FF00",
+        "role": "primary"
+      },
+      {
+        "name": "Cyan",
+        "hex": "#00F0FF",
+        "role": "accent"
+      },
+      {
+        "name": "Chrome",
+        "hex": "#C9D1D9",
+        "role": "text"
+      },
+      {
+        "name": "Steel",
+        "hex": "#8E949B",
+        "role": "secondary text"
+      },
+      {
+        "name": "Alarm",
+        "hex": "#FF2D6F",
+        "role": "alert"
+      }
+    ],
+    "contrast_rules": "Chrome on void holds at least 12:1; the acid accent marks actions and one data value per panel.",
+    "surface_treatment": "Flat black with a scanline overlay and a grain; gradients only as a glow behind the hero object.",
+    "light_and_shadow": "Light is emitted: glows of 8px to 24px blur in the accent at 30% to 50%."
+  },
+  "materiality": {
+    "surface_simulation": "Anodised metal and glass screens in the dark.",
+    "border_rules": "1px accent line at 40% with 4 corner ticks.",
+    "blur_and_elevation": "Glow 8px to 24px in the accent; no soft shadow; clip-path cuts."
+  },
+  "ornamentation_details": {
+    "iconography": "1.5px square-cap outline icons in the accent or chrome; status dots and arrows built from lines.",
+    "illustration": "Chrome 3D objects, wireframes, HUD rings and glitched photography.",
+    "decorative_elements": [
+      "HUD frame",
+      "corner tick",
+      "glitch text",
+      "scanline"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Snappy and mechanical: panels slide in 8px to 16px in 160ms; text scrambles for 300ms; glitch bursts last 120ms to 200ms.",
+    "easing": "cubic-bezier(0.2, 0, 0, 1)",
+    "duration_ms": 160,
+    "hover_and_active": "Hover shifts the glitch layers 2px to 4px and fills the frame at 10%; active state inverts to the acid fill."
+  },
+  "lineage": {
+    "evolved_from": [
+      "y2k-aesthetic",
+      "dark-devtool-ui"
+    ],
+    "rebelled_against": [
+      "flat-design"
+    ],
+    "hybridized_with": [
+      "terminal-tui-web",
+      "vaporwave"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels that they have entered a cold, fast machine with secrets.",
+    "keywords": [
+      "cold",
+      "technical",
+      "aggressive",
+      "futuristic",
+      "dense",
+      "dystopian"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "magician"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "cybercore",
+      "cyber",
+      "hud",
+      "glitch",
+      "techwear",
+      "acid green",
+      "sci-fi interface",
+      "cyber y2k"
+    ],
+    "use_cases": [
+      "game and esports sites",
+      "music and fashion drops",
+      "security and hardware products",
+      "event and festival pages",
+      "NFT and crypto-adjacent launches"
+    ],
+    "avoid_when": [
+      "The audience needs calm, plain reading.",
+      "The brand is warm or family-friendly.",
+      "The page must meet a strict accessibility audit with no motion."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "dark-devtool-ui",
+        "how": "Remove the cuts and glitch; use hairlines at 8% white and one accent."
+      },
+      {
+        "request": "more retro",
+        "toward": "synthwave-web",
+        "how": "Swap acid green for pink and violet and add a sun and a perspective grid."
+      },
+      {
+        "request": "more raw",
+        "toward": "terminal-tui-web",
+        "how": "Reduce to a mono grid in one phosphor colour."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 600,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 600,
+      "accent": "case",
+      "display_tracking": "0.02em",
+      "display_leading": 1.05,
+      "display_case": "uppercase",
+      "body_leading": 1.5,
+      "body_size": "14px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "square",
+      "linejoin": "miter",
+      "container": "none",
+      "pack": {
+        "id": "carbon",
+        "why": "A technical, square-cap line family that matches clipped panels and HUD labels."
+      }
+    },
+    "art": {
+      "recipe": "y2k",
+      "pattern": "grid",
+      "seed": 51
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "horizon",
+      "why": "Cybercore renders a wireframe floor that runs to a hard sun on the horizon."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#05070A",
+      "--color-surface": "#0C1117",
+      "--color-text": "#C9D1D9",
+      "--color-muted": "#8E949B",
+      "--color-primary": "#C6FF00",
+      "--color-accent": "#00F0FF",
+      "--color-border": "#2B3A2A",
+      "--font-sans": "\"Share Tech Mono\", ui-monospace, monospace",
+      "--font-display": "\"Orbitron\", \"Rajdhani\", sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 0 16px rgba(198,255,0,0.35)",
+      "--backdrop-filter": "none",
+      "--space-unit": "4px",
+      "--ease": "cubic-bezier(0.2, 0, 0, 1)",
+      "--duration": "160ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#05070A] text-[#C9D1D9] font-mono antialiased"
+      },
+      {
+        "element": "heading",
+        "classes": "font-bold uppercase text-5xl md:text-7xl tracking-[0.02em] leading-[1.05]"
+      },
+      {
+        "element": "body",
+        "classes": "text-sm leading-[1.5]"
+      },
+      {
+        "element": "section",
+        "classes": "border border-[#C6FF00]/40 bg-[#0C1117] p-4 [clip-path:polygon(0_0,calc(100%-12px)_0,100%_12px,100%_100%,12px_100%,0_calc(100%-12px))]"
+      },
+      {
+        "element": "button",
+        "classes": "bg-[#C6FF00] px-5 py-3 text-sm font-semibold uppercase tracking-[0.15em] text-[#05070A] hover:shadow-[0_0_16px_rgba(198,255,0,0.5)]"
+      },
+      {
+        "element": "label",
+        "classes": "text-[11px] uppercase tracking-[0.15em] text-[#8E949B]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#C6FF00",
+        "#00F0FF",
+        "#C9D1D9"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#00F0FF",
+        "#C6FF00"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 0
+    },
+    "grid_step": {
+      "min": 2,
+      "max": 6
+    },
+    "type_scale_ratio": {
+      "default": 1.5,
+      "min": 1.414,
+      "max": 1.618
+    }
+  },
+  "sources": [
+    {
+      "title": "Example: Cyberpunk 2077 official site (2020)"
+    },
+    {
+      "title": "Example: Teenage Engineering product pages (2020–2025)"
+    },
+    {
+      "title": "Example: Nike ACG and Arc'teryx drop pages (2021–2025)"
+    }
+  ]
+}

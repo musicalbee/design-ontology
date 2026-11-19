@@ -29,14 +29,21 @@
     "art-deco-interior": {
       "room": {
         "file": "art-deco-interior/room.webp",
-        "prompt": "Art Deco salon, symmetrical, black lacquer walls, ivory stepped ceiling with hidden cove light, sunburst mirror above a stepped marble fireplace on the central axis, pair of ivory velvet club armchairs, macassar ebony cocktail cabinet with brass inlay, chrome and frosted glass wall sconces in fan form, marble floor with geometric brass inlay, high contrast, glamorous, 1920s Paris, interior photograph, 24 mm lens at 140 cm, frontal view on the axis, verticals parallel. verticals parallel, no people",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "Art Deco salon, symmetrical, black lacquer walls, ivory stepped ceiling with hidden cove light, sunburst mirror above a stepped marble fireplace on the central axis, pair of ivory velvet club armchairs, macassar ebony cocktail cabinet with brass inlay, chrome and frosted glass wall sconces in fan form, marble floor with geometric brass inlay, high contrast, glamorous, 1920s Paris, interior photograph, 24 mm lens at 140 cm, frontal view on the axis, verticals parallel. verticals parallel, every piece of furniture stands on the floor, an empty unoccupied room",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 1152,
         "height": 768,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "materials": {
         "file": "art-deco-interior/materials.webp",
@@ -51,14 +58,21 @@
       },
       "furniture": {
         "file": "art-deco-interior/furniture.webp",
-        "prompt": "studio photograph of a club armchairs in pairs and a lacquer cocktail cabinet, Low, massive, simple shapes with rounded or stepped corners, tapered feet and inlaid lines. on a plain lacquer black, ivory ground, soft shadow, furniture photograph, no caption, no text, no labels",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "studio photograph of a single club armchairs in pairs, the whole piece seen standing on the floor, Low, massive, simple shapes with rounded or stepped corners, tapered feet and inlaid lines. on a plain lacquer black, ivory ground, soft shadow, furniture photograph, no caption, no text, no labels",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 768,
         "height": 1024,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "textiles": {
         "file": "art-deco-interior/textiles.webp",
@@ -97,14 +111,21 @@
     "art-nouveau-interior": {
       "room": {
         "file": "art-nouveau-interior/room.webp",
-        "prompt": "Art Nouveau interior, flowing whiplash curves, carved pearwood panelling in organic lines, stained glass window in amber and green under a curved wooden arch, curved built-in banquette with moss green velvet, marquetry table, bronze lily lamp with glass flower shades, mosaic floor, cream plaster walls, soft coloured light, total work of art, interior photograph, 28 mm lens at 150 cm, frontal view on the window bay. verticals parallel, no people",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "Art Nouveau interior, flowing whiplash curves, carved pearwood panelling in organic lines, stained glass window in amber and green under a curved wooden arch, curved built-in banquette with moss green velvet, marquetry table, bronze lily lamp with glass flower shades, mosaic floor, cream plaster walls, soft coloured light, total work of art, interior photograph, 28 mm lens at 150 cm, frontal view on the window bay. verticals parallel, every piece of furniture stands on the floor, an empty unoccupied room",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 1152,
         "height": 768,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "materials": {
         "file": "art-nouveau-interior/materials.webp",
@@ -119,14 +140,21 @@
       },
       "furniture": {
         "file": "art-nouveau-interior/furniture.webp",
-        "prompt": "studio photograph of a carved built-in banquette and a marquetry side table, Fluid, carved pieces whose legs and frames grow like stems; tops and backs end in leaf or flower forms. on a plain lily cream ground, soft shadow, furniture photograph, no caption, no text, no labels",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "studio photograph of a single carved built-in banquette, the whole piece seen standing on the floor, Fluid, carved pieces whose legs and frames grow like stems; tops and backs end in leaf or flower forms. on a plain lily cream ground, soft shadow, furniture photograph, no caption, no text, no labels",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 768,
         "height": 1024,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "textiles": {
         "file": "art-nouveau-interior/textiles.webp",
@@ -165,14 +193,21 @@
     "arts-and-crafts-interior": {
       "room": {
         "file": "arts-and-crafts-interior/room.webp",
-        "prompt": "Arts and Crafts living room, fumed oak wall panelling to a plate shelf, parchment plaster above, exposed oak ceiling beams, brick inglenook fireplace with built-in oak settles and a hammered copper hood, Morris chair with sage cushions, oak table, hand-knotted rug, leaded glass casement windows with a window seat, copper lantern, art pottery on the shelf, warm low light, handmade, interior photograph, 28 mm lens at 140 cm, three-quarter view toward the inglenook. verticals parallel, no people",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "Arts and Crafts living room, fumed oak wall panelling to a plate shelf, parchment plaster above, exposed oak ceiling beams, brick inglenook fireplace with built-in oak settles and a hammered copper hood, Morris chair with sage cushions, oak table, hand-knotted rug, leaded glass casement windows with a window seat, copper lantern, art pottery on the shelf, warm low light, handmade, interior photograph, 28 mm lens at 140 cm, three-quarter view toward the inglenook. verticals parallel, every piece of furniture stands on the floor, an empty unoccupied room",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 1152,
         "height": 768,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "materials": {
         "file": "arts-and-crafts-interior/materials.webp",
@@ -187,14 +222,21 @@
       },
       "furniture": {
         "file": "arts-and-crafts-interior/furniture.webp",
-        "prompt": "studio photograph of a inglenook settle and a Morris adjustable chair, Rectilinear, solid oak pieces with exposed tenons, slats and corbels; heavy and plain. on a plain parchment ground, soft shadow, furniture photograph, no caption, no text, no labels",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "studio photograph of a single inglenook settle, the whole piece seen standing on the floor, Rectilinear, solid oak pieces with exposed tenons, slats and corbels; heavy and plain. on a plain parchment ground, soft shadow, furniture photograph, no caption, no text, no labels",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 768,
         "height": 1024,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "textiles": {
         "file": "arts-and-crafts-interior/textiles.webp",
@@ -233,14 +275,21 @@
     "bauhaus-interior": {
       "room": {
         "file": "bauhaus-interior/room.webp",
-        "prompt": "Bauhaus interior 1926, white walls, one signal-red wall plane, grey linoleum floor, chrome tubular-steel club chair with black canvas straps, cantilever chair, glass nesting tables, opal glass globe pendant, steel window band, geometric woven wool rug in red yellow blue, asymmetric orthogonal layout, even daylight, black and white contrast, period photograph, 28 mm lens, camera at 140 cm, two-point view at 30 degrees to the colour wall from a corner. verticals parallel, no people",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "Bauhaus interior 1926, white walls, one signal-red wall plane, grey linoleum floor, chrome tubular-steel club chair with black canvas straps, cantilever chair, glass nesting tables, opal glass globe pendant, steel window band, geometric woven wool rug in red yellow blue, asymmetric orthogonal layout, even daylight, black and white contrast, period photograph, 28 mm lens, camera at 140 cm, two-point view at 30 degrees to the colour wall from a corner. verticals parallel, every piece of furniture stands on the floor, an empty unoccupied room",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 1152,
         "height": 768,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "materials": {
         "file": "bauhaus-interior/materials.webp",
@@ -255,14 +304,21 @@
       },
       "furniture": {
         "file": "bauhaus-interior/furniture.webp",
-        "prompt": "studio photograph of a tubular-steel club chair and a cantilever chair, Tubular-steel frames: cantilever chairs, club chairs of steel and canvas straps, nesting tables, glass-top trolleys and cubic cabinets. on a plain white ground, soft shadow, furniture photograph, no caption, no text, no labels",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "studio photograph of a single tubular-steel club chair, the whole piece seen standing on the floor, Tubular-steel frames: cantilever chairs, club chairs of steel and canvas straps, nesting tables, glass-top trolleys and cubic cabinets. on a plain white ground, soft shadow, furniture photograph, no caption, no text, no labels",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
-        "seed": 1955,
-        "steps": 4,
+        "seed": 4955,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 768,
         "height": 1024,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 4,
+          "ok": true,
+          "defects": []
+        }
       },
       "textiles": {
         "file": "bauhaus-interior/textiles.webp",
@@ -301,14 +357,21 @@
     "coastal-interior": {
       "room": {
         "file": "coastal-interior/room.webp",
-        "prompt": "Coastal summer-house living room, white painted tongue-and-groove panelling, white-washed oak floorboards, large windows to the sea, sand linen slipcovered sofa, two rattan lounge chairs, jute rug, blue and white striped cushions, woven rattan pendant over a long white-washed oak table, clear glass bottles, soft bright daylight, airy, editorial photograph, 24 mm lens, camera at 120 cm, two-point view toward the window and the water. verticals parallel, no people",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "Coastal summer-house living room, white painted tongue-and-groove panelling, white-washed oak floorboards, large windows to the sea, sand linen slipcovered sofa, two rattan lounge chairs, jute rug, blue and white striped cushions, woven rattan pendant over a long white-washed oak table, clear glass bottles, soft bright daylight, airy, editorial photograph, 24 mm lens, camera at 120 cm, two-point view toward the window and the water. verticals parallel, every piece of furniture stands on the floor, an empty unoccupied room",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 1152,
         "height": 768,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "materials": {
         "file": "coastal-interior/materials.webp",
@@ -323,14 +386,21 @@
       },
       "furniture": {
         "file": "coastal-interior/furniture.webp",
-        "prompt": "studio photograph of a slipcovered linen sofa and a rattan lounge chair, Deep, low, slipcovered seats; light woven chairs; simple painted or weathered wood frames. on a plain salt white, sand ground, soft shadow, furniture photograph, no caption, no text, no labels",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "studio photograph of a single slipcovered linen sofa, the whole piece seen standing on the floor, Deep, low, slipcovered seats; light woven chairs; simple painted or weathered wood frames. on a plain salt white, sand ground, soft shadow, furniture photograph, no caption, no text, no labels",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 768,
         "height": 1024,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "textiles": {
         "file": "coastal-interior/textiles.webp",
@@ -369,14 +439,21 @@
     "dopamine-decor": {
       "room": {
         "file": "dopamine-decor/room.webp",
-        "prompt": "Dopamine decor living room, lilac colour-drenched walls and trim, curved tangerine velvet sofa, checkerboard rug in pink and orange, cobalt blue armchair, chartreuse gloss side table, glass mushroom lamp, wavy mirror with a sunflower frame, colour-sorted bookshelf, pop art prints, playful maximalist, bright warm light, editorial interior photograph, 24 mm lens, camera at 130 cm, frontal view toward the drenched wall with the sofa on the right third. verticals parallel, no people",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "Dopamine decor living room, lilac colour-drenched walls and trim, curved tangerine velvet sofa, checkerboard rug in pink and orange, cobalt blue armchair, chartreuse gloss side table, glass mushroom lamp, wavy mirror with a sunflower frame, colour-sorted bookshelf, pop art prints, playful maximalist, bright warm light, editorial interior photograph, 24 mm lens, camera at 130 cm, frontal view toward the drenched wall with the sofa on the right third. verticals parallel, every piece of furniture stands on the floor, an empty unoccupied room",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 1152,
         "height": 768,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "materials": {
         "file": "dopamine-decor/materials.webp",
@@ -391,14 +468,21 @@
       },
       "furniture": {
         "file": "dopamine-decor/furniture.webp",
-        "prompt": "studio photograph of a curved velvet sofa and a checkerboard rug, Curved, pill-shaped and inflated forms; chunky round legs; scalloped and wavy edges. on a plain lilac ground, soft shadow, furniture photograph, no caption, no text, no labels",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "studio photograph of a single curved velvet sofa, the whole piece seen standing on the floor, Curved, pill-shaped and inflated forms; chunky round legs; scalloped and wavy edges. on a plain lilac ground, soft shadow, furniture photograph, no caption, no text, no labels",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 768,
         "height": 1024,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "textiles": {
         "file": "dopamine-decor/textiles.webp",
@@ -437,14 +521,21 @@
     "georgian-interior": {
       "room": {
         "file": "georgian-interior/room.webp",
-        "prompt": "Georgian drawing room, symmetrical, white marble chimneypiece centred on the back wall, gilt pier glass above it, pea green painted wall panels above a white dado rail, white cornice and plaster ceiling rose, tall sash windows with folding shutters, mahogany chairs in pairs against the walls, polished oak floorboards, soft daylight from the side, calm classical proportion, architectural interior photograph, 24 mm shift lens at 150 cm, frontal view on the chimneypiece axis, verticals parallel. verticals parallel, no people",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "Georgian drawing room, symmetrical, white marble chimneypiece centred on the back wall, gilt pier glass above it, pea green painted wall panels above a white dado rail, white cornice and plaster ceiling rose, tall sash windows with folding shutters, mahogany chairs in pairs against the walls, polished oak floorboards, soft daylight from the side, calm classical proportion, architectural interior photograph, 24 mm shift lens at 150 cm, frontal view on the chimneypiece axis, verticals parallel. verticals parallel, every piece of furniture stands on the floor, an empty unoccupied room",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 1152,
         "height": 768,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "materials": {
         "file": "georgian-interior/materials.webp",
@@ -459,14 +550,21 @@
       },
       "furniture": {
         "file": "georgian-interior/furniture.webp",
-        "prompt": "studio photograph of a chimneypiece in marble and a pier glass and pier table, Light, upright pieces with straight or cabriole legs and serpentine fronts; carved but restrained. on a plain pea green ground, soft shadow, furniture photograph, no caption, no text, no labels",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "studio photograph of a single chimneypiece in marble, the whole piece seen standing on the floor, Light, upright pieces with straight or cabriole legs and serpentine fronts; carved but restrained. on a plain pea green ground, soft shadow, furniture photograph, no caption, no text, no labels",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 768,
         "height": 1024,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "textiles": {
         "file": "georgian-interior/textiles.webp",
@@ -505,14 +603,21 @@
     "grandmillennial-interior": {
       "room": {
         "file": "grandmillennial-interior/room.webp",
-        "prompt": "Grandmillennial living room, cream walls, chintz floral sofa with ruffled cushions, symmetric wall of blue and white plates above the sofa, two skirted round side tables with blue and white ginger jar lamps and pleated shades, wicker armchair, needlepoint footstool, floral curtains with ruffled headings, pattern mix of florals stripes and checks, pink green and blue, fresh flowers, soft daylight, cheerful and traditional, interior photograph, 28 mm lens at 140 cm, frontal view on the sofa axis. verticals parallel, no people",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "Grandmillennial living room, cream walls, chintz floral sofa with ruffled cushions, symmetric wall of blue and white plates above the sofa, two skirted round side tables with blue and white ginger jar lamps and pleated shades, wicker armchair, needlepoint footstool, floral curtains with ruffled headings, pattern mix of florals stripes and checks, pink green and blue, fresh flowers, soft daylight, cheerful and traditional, interior photograph, 28 mm lens at 140 cm, frontal view on the sofa axis. verticals parallel, every piece of furniture stands on the floor, an empty unoccupied room",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 1152,
         "height": 768,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "materials": {
         "file": "grandmillennial-interior/materials.webp",
@@ -527,14 +632,21 @@
       },
       "furniture": {
         "file": "grandmillennial-interior/furniture.webp",
-        "prompt": "studio photograph of a chintz rolled-arm sofa and a skirted round table, Traditional, soft forms: rolled arms, skirts, turned legs, scalloped edges, pleated shades. on a plain cream ground, soft shadow, furniture photograph, no caption, no text, no labels",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "studio photograph of a single chintz rolled-arm sofa, the whole piece seen standing on the floor, Traditional, soft forms: rolled arms, skirts, turned legs, scalloped edges, pleated shades. on a plain cream ground, soft shadow, furniture photograph, no caption, no text, no labels",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 768,
         "height": 1024,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "textiles": {
         "file": "grandmillennial-interior/textiles.webp",
@@ -573,14 +685,21 @@
     "hollywood-regency-interior": {
       "room": {
         "file": "hollywood-regency-interior/room.webp",
-        "prompt": "Hollywood Regency living room, symmetrical, white plaster walls and an emerald green lacquered wall, black and white checkerboard floor, two coral velvet tufted sofas facing each other, round tufted ottoman in the centre, crystal chandelier, pair of pagoda lamps, mirrored chest, gilt sunburst mirrors, glossy and glamorous, 1950s Los Angeles, interior photograph, 24 mm lens at 140 cm, frontal view on the cross axis through the centre piece. verticals parallel, no people",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "Hollywood Regency living room, symmetrical, white plaster walls and an emerald green lacquered wall, black and white checkerboard floor, two coral velvet tufted sofas facing each other, round tufted ottoman in the centre, crystal chandelier, pair of pagoda lamps, mirrored chest, gilt sunburst mirrors, glossy and glamorous, 1950s Los Angeles, interior photograph, 24 mm lens at 140 cm, frontal view on the cross axis through the centre piece. verticals parallel, every piece of furniture stands on the floor, an empty unoccupied room",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 1152,
         "height": 768,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "materials": {
         "file": "hollywood-regency-interior/materials.webp",
@@ -595,14 +714,21 @@
       },
       "furniture": {
         "file": "hollywood-regency-interior/furniture.webp",
-        "prompt": "studio photograph of a tufted ottoman and a pair of tufted sofas, Neoclassical and Regency forms in clean, smooth lines: klismos chairs, tufted sofas, pagoda and faux-bamboo pieces. on a plain plaster white ground, soft shadow, furniture photograph, no caption, no text, no labels",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "studio photograph of a single tufted ottoman, the whole piece seen standing on the floor, Neoclassical and Regency forms in clean, smooth lines: klismos chairs, tufted sofas, pagoda and faux-bamboo pieces. on a plain plaster white ground, soft shadow, furniture photograph, no caption, no text, no labels",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 768,
         "height": 1024,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "textiles": {
         "file": "hollywood-regency-interior/textiles.webp",
@@ -641,14 +767,21 @@
     "industrial-loft-interior": {
       "room": {
         "file": "industrial-loft-interior/room.webp",
-        "prompt": "Industrial loft interior, exposed red brick wall, polished concrete floor, high concrete ceiling with exposed ducts and conduit, black steel columns, tall black steel-framed factory windows, tan leather sofa on a worn kilim rug, long reclaimed oak dining table with metal stools, enamel factory pendant lamps hung low, steel and wood open shelves, large canvas art, warm daylight, raw and spacious, interior photograph, 20 mm lens at 160 cm, diagonal view across the open plan toward the brick wall. verticals parallel, no people",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "Industrial loft interior, exposed red brick wall, polished concrete floor, high concrete ceiling with exposed ducts and conduit, black steel columns, tall black steel-framed factory windows, tan leather sofa on a worn kilim rug, long reclaimed oak dining table with metal stools, enamel factory pendant lamps hung low, steel and wood open shelves, large canvas art, warm daylight, raw and spacious, interior photograph, 20 mm lens at 160 cm, diagonal view across the open plan toward the brick wall. verticals parallel, every piece of furniture stands on the floor, an empty unoccupied room",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 1152,
         "height": 768,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "materials": {
         "file": "industrial-loft-interior/materials.webp",
@@ -663,14 +796,21 @@
       },
       "furniture": {
         "file": "industrial-loft-interior/furniture.webp",
-        "prompt": "studio photograph of a tan leather chesterfield or sectional and a reclaimed wood dining table, Heavy, utilitarian pieces of steel and wood with visible bolts and welds; some salvaged factory furniture. on a plain concrete, brick ground, soft shadow, furniture photograph, no caption, no text, no labels",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "studio photograph of a single tan leather chesterfield or sectional, the whole piece seen standing on the floor, Heavy, utilitarian pieces of steel and wood with visible bolts and welds; some salvaged factory furniture. on a plain concrete, brick ground, soft shadow, furniture photograph, no caption, no text, no labels",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 768,
         "height": 1024,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "textiles": {
         "file": "industrial-loft-interior/textiles.webp",
@@ -709,14 +849,21 @@
     "japandi-interior": {
       "room": {
         "file": "japandi-interior/room.webp",
-        "prompt": "Japandi living room, warm off-white lime plaster walls, pale oak floor, low linen sofa on a solid oak frame, low oak coffee table, rectangular jute rug, charred black wood cabinet, vertical oak slatted screen, paper lantern pendant hung low, one stoneware vase with a single branch, wide empty floor, soft diffuse daylight through linen blinds, calm, matt, minimal, architectural photograph, 35 mm lens, camera at 100 cm (low seated eye), frontal view with the focal object on the left third. verticals parallel, no people",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "Japandi living room, warm off-white lime plaster walls, pale oak floor, low linen sofa on a solid oak frame, low oak coffee table, rectangular jute rug, charred black wood cabinet, vertical oak slatted screen, paper lantern pendant hung low, one stoneware vase with a single branch, wide empty floor, soft diffuse daylight through linen blinds, calm, matt, minimal, architectural photograph, 35 mm lens, camera at 100 cm (low seated eye), frontal view with the focal object on the left third. verticals parallel, every piece of furniture stands on the floor, an empty unoccupied room",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 1152,
         "height": 768,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "materials": {
         "file": "japandi-interior/materials.webp",
@@ -731,14 +878,21 @@
       },
       "furniture": {
         "file": "japandi-interior/furniture.webp",
-        "prompt": "studio photograph of a low platform bed and a low sofa on a wood frame, Low, heavy, rectilinear pieces with thick tops and solid bases; soft edges of 5–10 mm radius; no visible hardware. on a plain rice paper ground, soft shadow, furniture photograph, no caption, no text, no labels",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "studio photograph of a single low platform bed, the whole piece seen standing on the floor, Low, heavy, rectilinear pieces with thick tops and solid bases; soft edges of 5–10 mm radius; no visible hardware. on a plain rice paper ground, soft shadow, furniture photograph, no caption, no text, no labels",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 768,
         "height": 1024,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "textiles": {
         "file": "japandi-interior/textiles.webp",
@@ -777,14 +931,23 @@
     "memphis-interior": {
       "room": {
         "file": "memphis-interior/room.webp",
-        "prompt": "Memphis Milano interior 1982, white gallery room, tall plastic laminate room divider of stacked geometric shapes with squiggle and grid patterns, flamingo pink and turquoise faces, lemon yellow and red accents, glass table on cone legs, disc chair, terrazzo side table, sculptural floor lamp, pieces rotated at angles, track spotlights, flat even colour, postmodern design photograph, 35 mm lens, camera at 140 cm, frontal view with the totem off-centre on a third. verticals parallel, no people",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "Memphis Milano interior 1982, white gallery room, a low wide laminate bookcase with open box shelves and angled side shelves, squiggle and grid patterns on its laminate, flamingo pink and turquoise faces, lemon yellow and red accents, glass table on cone legs, disc chair, terrazzo side table, sculptural floor lamp, pieces rotated at angles, track spotlights, flat even colour, postmodern design photograph, 35 mm lens, camera at 140 cm, frontal view with the totem off-centre on a third. verticals parallel, every piece of furniture stands on the floor, an empty unoccupied room",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
-        "seed": 1955,
-        "steps": 4,
+        "seed": 4955,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 1152,
         "height": 768,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 4,
+          "ok": false,
+          "defects": [
+            "the large bookcase floats on the wall with a visible gap above the floor and no legs or plinth, although every piece of furniture should stand on the floor"
+          ]
+        }
       },
       "materials": {
         "file": "memphis-interior/materials.webp",
@@ -799,14 +962,21 @@
       },
       "furniture": {
         "file": "memphis-interior/furniture.webp",
-        "prompt": "studio photograph of a laminate room divider and a boxing-ring sofa bed, Pieces built from stacked primary solids; shelves as arms at odd angles; tables on cylinder, cone or ball legs; chairs of discs and tubes. on a plain gallery white ground, soft shadow, furniture photograph, no caption, no text, no labels",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "studio photograph of a single laminate room divider, the whole piece seen standing on the floor, Pieces built from stacked primary solids; shelves as arms at odd angles; tables on cylinder, cone or ball legs; chairs of discs and tubes. on a plain gallery white ground, soft shadow, furniture photograph, no caption, no text, no labels",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
-        "seed": 1955,
-        "steps": 4,
+        "seed": 4955,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 768,
         "height": 1024,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 4,
+          "ok": true,
+          "defects": []
+        }
       },
       "textiles": {
         "file": "memphis-interior/textiles.webp",
@@ -845,14 +1015,21 @@
     "mid-century-modern-interior": {
       "room": {
         "file": "mid-century-modern-interior/room.webp",
-        "prompt": "Mid-century modern living room 1958, full-height glass wall to a garden, low charcoal sofa on tapered teak legs, moulded plywood lounge chair, glass coffee table, long teak sideboard, fieldstone fireplace wall, arc floor lamp, mustard and burnt orange cushions, warm white walls, post-and-beam ceiling, late afternoon sun, Kodachrome photograph, 24 mm lens, camera at 110 cm (seated eye), two-point view from the room toward the glass wall at 30 degrees. verticals parallel, no people",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "Mid-century modern living room 1958, full-height glass wall to a garden, low charcoal sofa on tapered teak legs, moulded plywood lounge chair, glass coffee table, long teak sideboard, fieldstone fireplace wall, arc floor lamp, mustard and burnt orange cushions, warm white walls, post-and-beam ceiling, late afternoon sun, Kodachrome photograph, 24 mm lens, camera at 110 cm (seated eye), two-point view from the room toward the glass wall at 30 degrees. verticals parallel, every piece of furniture stands on the floor, an empty unoccupied room",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 1152,
         "height": 768,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "materials": {
         "file": "mid-century-modern-interior/materials.webp",
@@ -867,14 +1044,21 @@
       },
       "furniture": {
         "file": "mid-century-modern-interior/furniture.webp",
-        "prompt": "studio photograph of a plywood and leather lounge chair and a teak sideboard, Low and long pieces on tapered splayed legs; moulded organic shells; slim arms; open frames of wood or steel rod. on a plain warm white ground, soft shadow, furniture photograph, no caption, no text, no labels",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "studio photograph of a single plywood and leather lounge chair, the whole piece seen standing on the floor, Low and long pieces on tapered splayed legs; moulded organic shells; slim arms; open frames of wood or steel rod. on a plain warm white ground, soft shadow, furniture photograph, no caption, no text, no labels",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 768,
         "height": 1024,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "textiles": {
         "file": "mid-century-modern-interior/textiles.webp",
@@ -913,14 +1097,21 @@
     "minimalist-interior": {
       "room": {
         "file": "minimalist-interior/room.webp",
-        "prompt": "Minimalist interior, white plaster walls, pale limestone floor, long flush handleless storage wall with shadow gaps, low grey linen sofa, solid pale oak table, large frameless window with soft daylight washing across an empty white wall, no decoration, no clutter, calm and precise, architectural photograph, 24 mm shift lens at 130 cm, frontal view with the window on the right third, verticals parallel. verticals parallel, no people",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "Minimalist interior, white plaster walls, pale limestone floor, long flush handleless storage wall with shadow gaps, low grey linen sofa, solid pale oak table, large frameless window with soft daylight washing across an empty white wall, no decoration, no clutter, calm and precise, architectural photograph, 24 mm shift lens at 130 cm, frontal view with the window on the right third, verticals parallel. verticals parallel, every piece of furniture stands on the floor, an empty unoccupied room",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 1152,
         "height": 768,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "materials": {
         "file": "minimalist-interior/materials.webp",
@@ -935,14 +1126,21 @@
       },
       "furniture": {
         "file": "minimalist-interior/furniture.webp",
-        "prompt": "studio photograph of a low modular sofa and a solid oak table, Low, rectilinear, thin pieces with no ornament; legs thin or hidden. on a plain pure white ground, soft shadow, furniture photograph, no caption, no text, no labels",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "studio photograph of a single low modular sofa, the whole piece seen standing on the floor, Low, rectilinear, thin pieces with no ornament; legs thin or hidden. on a plain pure white ground, soft shadow, furniture photograph, no caption, no text, no labels",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 768,
         "height": 1024,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "textiles": {
         "file": "minimalist-interior/textiles.webp",
@@ -981,14 +1179,21 @@
     "neo-deco-interior": {
       "room": {
         "file": "neo-deco-interior/room.webp",
-        "prompt": "Neo-deco living room, warm plaster walls, arched lit niches, fluted walnut wall panel, curved terracotta velvet sofa, two sage boucle barrel chairs, round fluted wood coffee table on a round rug, opal glass globe pendant with brushed brass, ribbed glass mushroom lamp, arched mirror, travertine side table, warm muted palette, soft glamorous light, contemporary Art Deco revival, interior photograph, 28 mm lens at 120 cm, three-quarter view on the centre group with an arch behind it. verticals parallel, no people",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "Neo-deco living room, warm plaster walls, arched lit niches, fluted walnut wall panel, curved terracotta velvet sofa, two sage boucle barrel chairs, round fluted wood coffee table on a round rug, opal glass globe pendant with brushed brass, ribbed glass mushroom lamp, arched mirror, travertine side table, warm muted palette, soft glamorous light, contemporary Art Deco revival, interior photograph, 28 mm lens at 120 cm, three-quarter view on the centre group with an arch behind it. verticals parallel, every piece of furniture stands on the floor, an empty unoccupied room",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 1152,
         "height": 768,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "materials": {
         "file": "neo-deco-interior/materials.webp",
@@ -1003,14 +1208,21 @@
       },
       "furniture": {
         "file": "neo-deco-interior/furniture.webp",
-        "prompt": "studio photograph of a curved velvet sofa and a bouclé barrel chairs, Curved and rounded pieces: crescent sofas, barrel chairs, pill and drum tables, all low and soft. on a plain warm plaster ground, soft shadow, furniture photograph, no caption, no text, no labels",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "studio photograph of a single curved velvet sofa, the whole piece seen standing on the floor, Curved and rounded pieces: crescent sofas, barrel chairs, pill and drum tables, all low and soft. on a plain warm plaster ground, soft shadow, furniture photograph, no caption, no text, no labels",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 768,
         "height": 1024,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "textiles": {
         "file": "neo-deco-interior/textiles.webp",
@@ -1049,14 +1261,21 @@
     "quiet-luxury-interior": {
       "room": {
         "file": "quiet-luxury-interior/room.webp",
-        "prompt": "Quiet luxury living room, cream limewash walls, travertine fireplace centred on the axis, deep low oatmeal bouclé sofa, travertine coffee table, pair of taupe lounge chairs mirrored, pair of ceramic table lamps, large wool rug, one large abstract painting with a brass picture light, floor-to-ceiling linen sheers, tonal palette, soft hidden cove light, architectural digest photograph, 35 mm lens, camera at 130 cm, one-point view on the axis from the entrance toward the fireplace. verticals parallel, no people",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "Quiet luxury living room, cream limewash walls, travertine fireplace centred on the axis, deep low oatmeal bouclé sofa, travertine coffee table, pair of taupe lounge chairs mirrored, pair of ceramic table lamps, large wool rug, one large abstract painting with a brass picture light, floor-to-ceiling linen sheers, tonal palette, soft hidden cove light, architectural digest photograph, 35 mm lens, camera at 130 cm, one-point view on the axis from the entrance toward the fireplace. verticals parallel, every piece of furniture stands on the floor, an empty unoccupied room",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 1152,
         "height": 768,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "materials": {
         "file": "quiet-luxury-interior/materials.webp",
@@ -1071,14 +1290,21 @@
       },
       "furniture": {
         "file": "quiet-luxury-interior/furniture.webp",
-        "prompt": "studio photograph of a deep low sofa and a travertine coffee table, Low, deep pieces in rounded rectangles; plinth bases or short hidden legs; large sizes and soft edges. on a plain cream ground, soft shadow, furniture photograph, no caption, no text, no labels",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "studio photograph of a single deep low sofa, the whole piece seen standing on the floor, Low, deep pieces in rounded rectangles; plinth bases or short hidden legs; large sizes and soft edges. on a plain cream ground, soft shadow, furniture photograph, no caption, no text, no labels",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 768,
         "height": 1024,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "textiles": {
         "file": "quiet-luxury-interior/textiles.webp",
@@ -1117,14 +1343,21 @@
     "scandinavian-interior": {
       "room": {
         "file": "scandinavian-interior/room.webp",
-        "prompt": "Scandinavian living room, white walls, pale oak floorboards, large window with bare head and sheer linen, light grey wool sofa, two wishbone chairs with paper-cord seats, round oak coffee table, pale wool rug, sheepskin, glare-free pendant lamp, candles on the sill, plants, soft northern daylight, calm, editorial photograph, 28 mm lens, camera at 130 cm, two-point view toward the window at 20–30 degrees. verticals parallel, no people",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "Scandinavian living room, white walls, pale oak floorboards, large window with bare head and sheer linen, light grey wool sofa, two wishbone chairs with paper-cord seats, round oak coffee table, pale wool rug, sheepskin, glare-free pendant lamp, candles on the sill, plants, soft northern daylight, calm, editorial photograph, 28 mm lens, camera at 130 cm, two-point view toward the window at 20–30 degrees. verticals parallel, every piece of furniture stands on the floor, an empty unoccupied room",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 1152,
         "height": 768,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "materials": {
         "file": "scandinavian-interior/materials.webp",
@@ -1139,14 +1372,21 @@
       },
       "furniture": {
         "file": "scandinavian-interior/furniture.webp",
-        "prompt": "studio photograph of a paper-cord wishbone chair and a spindle-back dining chair, Light frames of solid wood with rounded edges and visible joints; spindle and paper-cord seats; legs on show. on a plain snow white ground, soft shadow, furniture photograph, no caption, no text, no labels",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "studio photograph of a single paper-cord wishbone chair, the whole piece seen standing on the floor, Light frames of solid wood with rounded edges and visible joints; spindle and paper-cord seats; legs on show. on a plain snow white ground, soft shadow, furniture photograph, no caption, no text, no labels",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 768,
         "height": 1024,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "textiles": {
         "file": "scandinavian-interior/textiles.webp",
@@ -1185,14 +1425,23 @@
     "shaker-interior": {
       "room": {
         "file": "shaker-interior/room.webp",
-        "prompt": "Shaker interior, symmetrical room, white lime plaster walls, built-in cherry case of graduated drawers on the back wall, blue-painted peg rail at head height around the room, ladder-back chairs hung on the rail, wide pine floorboards, bare floor, tall twelve-over-twelve sash windows, soft north daylight, no decoration, documentary photograph, 35 mm lens, camera at 150 cm, one-point view square to the built-in wall from the door on the centre line. verticals parallel, no people",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "Shaker interior, symmetrical room, white lime plaster walls, built-in cherry case of graduated drawers on the back wall, blue-painted peg rail at head height around the room, ladder-back chairs hung on the rail, wide pine floorboards, bare floor, tall twelve-over-twelve sash windows, soft north daylight, no decoration, documentary photograph, 35 mm lens, camera at 150 cm, one-point view square to the built-in wall from the door on the centre line. verticals parallel, every piece of furniture stands on the floor, an empty unoccupied room",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
-        "seed": 1955,
-        "steps": 4,
+        "seed": 2955,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 1152,
         "height": 768,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 4,
+          "ok": false,
+          "defects": [
+            "four ladder-back chairs stand on top of the drawer chests instead of hanging from the peg rail (furniture standing on furniture)"
+          ]
+        }
       },
       "materials": {
         "file": "shaker-interior/materials.webp",
@@ -1207,14 +1456,21 @@
       },
       "furniture": {
         "file": "shaker-interior/furniture.webp",
-        "prompt": "studio photograph of a ladder-back side chair and a rocking chair, Slender turned posts and tapered legs. Ladder-back chairs with 3 or 4 arched slats; tables with plain aprons and no stretchers in view. on a plain lime white ground, soft shadow, furniture photograph, no caption, no text, no labels",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "studio photograph of a single ladder-back side chair, the whole piece seen standing on the floor, Slender turned posts and tapered legs. Ladder-back chairs with 3 or 4 arched slats; tables with plain aprons and no stretchers in view. on a plain lime white ground, soft shadow, furniture photograph, no caption, no text, no labels",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 768,
         "height": 1024,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "textiles": {
         "file": "shaker-interior/textiles.webp",
@@ -1253,14 +1509,21 @@
     "victorian-interior": {
       "room": {
         "file": "victorian-interior/room.webp",
-        "prompt": "Victorian parlour, dark bottle green damask wallpaper above a brown wood dado, black marble fireplace with a tall gilt overmantel mirror and crowded mantelpiece, button-back crimson velvet sofa, balloon-back chairs, round table with a fringed cloth, Turkey carpet, brass gasolier with glass shades, lace and heavy velvet curtains, ferns, framed pictures close together, warm dim light, rich and cluttered, interior photograph, 28 mm lens at 140 cm, three-quarter view from the door toward the hearth. verticals parallel, no people",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "Victorian parlour, dark bottle green damask wallpaper above a brown wood dado, black marble fireplace with a tall gilt overmantel mirror and crowded mantelpiece, button-back crimson velvet sofa, balloon-back chairs, round table with a fringed cloth, Turkey carpet, brass gasolier with glass shades, lace and heavy velvet curtains, ferns, framed pictures close together, warm dim light, rich and cluttered, interior photograph, 28 mm lens at 140 cm, three-quarter view from the door toward the hearth. verticals parallel, every piece of furniture stands on the floor, an empty unoccupied room",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 1152,
         "height": 768,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "materials": {
         "file": "victorian-interior/materials.webp",
@@ -1275,14 +1538,21 @@
       },
       "furniture": {
         "file": "victorian-interior/furniture.webp",
-        "prompt": "studio photograph of a button-back chesterfield or chaise and a balloon-back chairs, Heavy, curved and carved pieces with deep button upholstery, turned legs and fringes. on a plain bottle green ground, soft shadow, furniture photograph, no caption, no text, no labels",
-        "model": "FLUX.2 [klein] 4B",
+        "prompt": "studio photograph of a single button-back chesterfield or chaise, the whole piece seen standing on the floor, Heavy, curved and carved pieces with deep button upholstery, turned legs and fringes. on a plain bottle green ground, soft shadow, furniture photograph, no caption, no text, no labels",
+        "model": "Z-Image-Turbo",
         "licence": "Apache-2.0",
         "seed": 1955,
-        "steps": 4,
+        "base_seed": 1955,
+        "steps": 9,
         "width": 768,
         "height": 1024,
-        "generated": "2026-11-18"
+        "generated": "2026-11-19",
+        "qa": {
+          "checker": "sonnet",
+          "tries": 1,
+          "ok": true,
+          "defects": []
+        }
       },
       "textiles": {
         "file": "victorian-interior/textiles.webp",

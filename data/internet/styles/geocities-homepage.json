@@ -1,0 +1,353 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "geocities-homepage",
+  "domain": "internet",
+  "name": "GeoCities Homepage",
+  "aliases": [
+    "Personal home page",
+    "Under-construction web",
+    "90s homepage"
+  ],
+  "branch": "early-web",
+  "era_id": "postmodern-early-digital",
+  "time_period": {
+    "start": 1995,
+    "end": 2009,
+    "label": "1995–2009"
+  },
+  "primary_mediums": [
+    "web"
+  ],
+  "summary": "A personal page with a tiled star or marble background, rainbow rules, animated GIFs, a visitor counter, a guestbook and an under-construction sign. Free web hosts such as GeoCities made it common.",
+  "philosophy": {
+    "core_thesis": "Every person owns a page, and the page shows what its owner loves, with no care for taste.",
+    "design_principles": [
+      "Tile a small background image (32px to 128px) of stars, marble or clouds over the full page.",
+      "Set body text in a bright colour on a dark ground, for example yellow (#FFFF00) on navy (#000080).",
+      "Separate sections with a rainbow rule or a GIF line 4px to 8px high.",
+      "Place 3 to 6 animated GIFs on the page: a spinning mail box, a flame, a waving flag, a 'NEW!' tag.",
+      "Add a visitor counter of 6 digits, a guestbook link and a sign 'Under construction' at the top.",
+      "Centre the content in one column of 600px to 640px and set links in a bright colour on a dark ground.",
+      "Put a marquee line at the top that scrolls text at about 60px per second."
+    ],
+    "anti_patterns": [
+      "Clean white space and a limited palette",
+      "Matched type scale with one family",
+      "Static pages with no animation",
+      "Hidden counters and no personal items",
+      "Professional stock images",
+      "Responsive grids that reflow"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 5,
+    "dimensionality": 2,
+    "grid_rigidity": 2,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 4
+  },
+  "layout": {
+    "grid_mechanics": "A centred column of 600px to 640px or a table with a left menu of 150px; no real grid, items stack at random sizes.",
+    "whitespace_ratio": "5% to 15% of the page stays empty; the gap between items is 8px to 16px, usually from line breaks.",
+    "alignment_rules": "Centred headings and text; images float left or right at 8px offsets; a marquee runs across the top.",
+    "container_geometry": "Rectangles with a 0px radius; image buttons of 88px by 31px; tables with 2px outset borders."
+  },
+  "typography": {
+    "classifications": [
+      "comic sans",
+      "bitmap display",
+      "default serif"
+    ],
+    "font_pairings": [
+      {
+        "display": "Comic Neue",
+        "body": "Tinos",
+        "note": "Comic Neue is an open look-alike of Comic Sans MS, the usual homepage face."
+      },
+      {
+        "display": "Press Start 2P",
+        "body": "Comic Neue",
+        "note": "A pixel face for headings and counters."
+      },
+      {
+        "display": "Bangers",
+        "body": "Tinos",
+        "note": "A loud comic display with a default serif text."
+      }
+    ],
+    "tracking": "Display 0.02em; body 0em.",
+    "leading": "Display 1.1; body 1.4.",
+    "hierarchy_rules": [
+      "Use sizes 14px, 18px and 32px; add a 48px title.",
+      "Change colour for each section heading: yellow, lime, cyan and pink.",
+      "Use bold for all headings and underline for links.",
+      "Use one colour for text on each page."
+    ]
+  },
+  "color": {
+    "palette_structure": "Pure bright web colours on a dark or tiled ground; 5 to 8 hues on one page with no order.",
+    "palette": [
+      {
+        "name": "Navy",
+        "hex": "#000080",
+        "role": "background"
+      },
+      {
+        "name": "Deep Blue",
+        "hex": "#1A1A99",
+        "role": "panel"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FFFF00",
+        "role": "text"
+      },
+      {
+        "name": "Lime",
+        "hex": "#00FF00",
+        "role": "link"
+      },
+      {
+        "name": "Hot Pink",
+        "hex": "#FF00FF",
+        "role": "heading"
+      },
+      {
+        "name": "Cyan",
+        "hex": "#00FFFF",
+        "role": "accent"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000",
+        "role": "alert"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "role": "text"
+      }
+    ],
+    "contrast_rules": "Yellow on navy is 12:1; lime on navy is 11:1; pink on navy is 5:1 and stays for headings of 24px or more.",
+    "surface_treatment": "A tiled pattern image on the page and flat colour on tables; no soft gradients.",
+    "light_and_shadow": "No light source; buttons use a 2px outset bevel; text may carry a 2px black drop shadow."
+  },
+  "materiality": {
+    "surface_simulation": "A pinboard of GIFs: pixel images with hard edges and limited palettes (256 colours).",
+    "border_rules": "A 2px outset border on tables and buttons; 1px dotted lines around images.",
+    "blur_and_elevation": "No blur; a hard 2px shadow in black on headings."
+  },
+  "ornamentation_details": {
+    "iconography": "Pixel GIFs at 32px: envelope, home, mailbox, flame, globe and 'NEW!' stars, with dithered edges.",
+    "illustration": "Clip art, tiled backgrounds, animated GIF mascots, banners of 468px by 60px and 88px by 31px badges.",
+    "decorative_elements": [
+      "tiled background",
+      "rainbow rule",
+      "visitor counter",
+      "under-construction sign",
+      "animated GIF",
+      "web ring badge"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Elements loop at 4 to 12 frames per second: spinning icons, flames and a marquee at 60px per second; pages cut with no easing.",
+    "easing": "cubic-bezier(0, 0, 1, 1)",
+    "duration_ms": 100,
+    "hover_and_active": "Hover turns a link from lime to pink and shows a status-bar text; a visited link becomes purple (#800080)."
+  },
+  "lineage": {
+    "evolved_from": [
+      "cyberdelia"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "net-art-browser"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels the warmth, the clutter and the sincerity of a personal page.",
+    "keywords": [
+      "personal",
+      "cluttered",
+      "sincere",
+      "nostalgic",
+      "playful",
+      "loud"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "everyman",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "geocities",
+      "90s homepage",
+      "under construction",
+      "web ring",
+      "guestbook",
+      "visitor counter",
+      "animated gif",
+      "marquee"
+    ],
+    "use_cases": [
+      "nostalgic fan pages and personal sites",
+      "retro event and party invitations",
+      "humour and meme pages",
+      "games and toy sites",
+      "indie web projects"
+    ],
+    "avoid_when": [
+      "The page needs trust, safety or a clear task flow.",
+      "The audience needs accessible reading.",
+      "The brand needs a calm, premium tone."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "portal-table-layout",
+        "how": "Replace the loud ground with white, a blue header band and a table of link lists."
+      },
+      {
+        "request": "more social",
+        "toward": "myspace-profile",
+        "how": "Add a profile photo, a top friends grid and a music player."
+      },
+      {
+        "request": "more art",
+        "toward": "net-art-browser",
+        "how": "Remove the GIFs and keep the raw default HTML."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 700,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "colour",
+      "display_tracking": "0.02em",
+      "display_leading": 1.1,
+      "display_case": "none",
+      "body_leading": 1.4,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "square",
+      "linejoin": "miter",
+      "container": "none",
+      "pack": {
+        "id": "pixelarticons",
+        "why": "Pixel icons match the 32px GIFs of a homepage."
+      }
+    },
+    "art": {
+      "recipe": "pixel",
+      "pattern": "squiggle",
+      "seed": 95
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "compact",
+      "tilt_deg": -2
+    },
+    "ground": {
+      "kind": "confetti",
+      "why": "The ground is a tiled background with scattered coloured marks, like a stars-and-marble tile."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#000080",
+      "--color-surface": "#1A1A99",
+      "--color-text": "#FFFFFF",
+      "--color-muted": "#00FFFF",
+      "--color-primary": "#FF00FF",
+      "--color-accent": "#FFFF00",
+      "--color-border": "#FFFF00",
+      "--font-sans": "\"Tinos\", \"Times New Roman\", serif",
+      "--font-display": "\"Comic Neue\", \"Bangers\", cursive",
+      "--border-radius": "0px",
+      "--border-width": "2px",
+      "--shadow-elevation": "2px 2px 0 #000000",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0, 0, 1, 1)",
+      "--duration": "100ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#000080] text-white font-serif px-2 md:px-8"
+      },
+      {
+        "element": "heading",
+        "classes": "text-3xl md:text-5xl font-bold text-[#FF00FF] [text-shadow:2px_2px_0_#000]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.4] max-w-[640px] mx-auto"
+      },
+      {
+        "element": "section",
+        "classes": "border-2 border-[#FFFF00] bg-[#1A1A99]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border-2 border-white bg-[#FF00FF] px-3 py-1 text-sm font-bold text-black hover:bg-[#00FFFF]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-bold text-[#FFFF00]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#FF00FF",
+        "#00FF00",
+        "#FFFF00",
+        "#00FFFF"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#FFFF00",
+        "#00FFFF",
+        "#00FF00"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 0
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 16
+    },
+    "type_scale_ratio": {
+      "min": 1.125,
+      "max": 1.5,
+      "default": 1.333
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: GeoCities",
+      "url": "https://en.wikipedia.org/wiki/GeoCities"
+    },
+    {
+      "title": "Internet Archive: GeoCities special collection",
+      "url": "https://archive.org/web/geocities.php"
+    }
+  ]
+}

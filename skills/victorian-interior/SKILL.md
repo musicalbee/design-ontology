@@ -214,7 +214,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Moodboard
 
-6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (FLUX.2 [klein] 4B, Apache-2.0, seed 1955, 4 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#victorian-interior).
+6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (Z-Image-Turbo, Apache-2.0, seed 1955, 9 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#victorian-interior).
 
 ![Room](../../demo/moodboards/interior/victorian-interior/room.webp)
 ![Materials](../../demo/moodboards/interior/victorian-interior/materials.webp)
@@ -225,7 +225,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Every object is made in dark polished walnut and mahogany, cast iron, brass, pressed glass and deep velvet. Pattern and ornament cover each surface, and a room holds many objects. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.7, material_warmth 0.55, finish_gloss 70, era_blend 0.2, hardware_weight 20, edge_radius 8, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#victorian-interior).
+Every object is made in dark polished walnut and mahogany, cast iron, brass, pressed glass and deep velvet. Pattern and ornament cover each surface, and a room holds many objects. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.7, material_warmth 0.55, finish_gloss 70, era_blend 0.2, hardware_weight 20, edge_radius 8, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#victorian-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|
@@ -355,7 +355,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`georgian-interior`](../georgian-interior/SKILL.md)
 - **Led to (go here for a newer version):** [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md)
 - **Was rejected by:** [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md), [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md)
-- **Kin in another domain:** [`crinoline-and-bustle-dress`](../crinoline-and-bustle-dress/SKILL.md), [`cuisine-classique`](../cuisine-classique/SKILL.md), [`pictorialism`](../pictorialism/SKILL.md), [`slab-serif`](../slab-serif/SKILL.md), [`victorian-architectural-terracotta`](../victorian-architectural-terracotta/SKILL.md), [`victorian-encaustic-tiles`](../victorian-encaustic-tiles/SKILL.md), [`victorian-manufacture`](../victorian-manufacture/SKILL.md), [`victorian-millinery`](../victorian-millinery/SKILL.md), [`victorian-sanitary-ware`](../victorian-sanitary-ware/SKILL.md), [`victorian-sentimental-jewellery`](../victorian-sentimental-jewellery/SKILL.md), [`victorian-trademark`](../victorian-trademark/SKILL.md)
+- **Kin in another domain:** [`crinoline-and-bustle-dress`](../crinoline-and-bustle-dress/SKILL.md), [`cuisine-classique`](../cuisine-classique/SKILL.md), [`dark-academia`](../dark-academia/SKILL.md), [`pictorialism`](../pictorialism/SKILL.md), [`slab-serif`](../slab-serif/SKILL.md), [`victorian-architectural-terracotta`](../victorian-architectural-terracotta/SKILL.md), [`victorian-encaustic-tiles`](../victorian-encaustic-tiles/SKILL.md), [`victorian-manufacture`](../victorian-manufacture/SKILL.md), [`victorian-millinery`](../victorian-millinery/SKILL.md), [`victorian-sanitary-ware`](../victorian-sanitary-ware/SKILL.md), [`victorian-sentimental-jewellery`](../victorian-sentimental-jewellery/SKILL.md), [`victorian-trademark`](../victorian-trademark/SKILL.md)
 - **Nearest by vector profile:** [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md), [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md)
 
 ## Emotional target

@@ -168,6 +168,7 @@ A trial garment in plain calico, fitted and pinned on the client or on a stand b
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **LVMH** (company, Paris, 1987–now), funded the style. French luxury group. Moët Hennessy and Louis Vuitton merged in 1987. Bernard Arnault took control in 1989. It owns Dior and, with Prada, bought Fendi in 1999.
 - **Christian Dior couture house** (company, 30 avenue Montaigne, Paris, 1946–now), launched the style. The couture house that Christian Dior opened in 1946. Its ateliers cut, fitted and sewed the New Look by hand.
 
 ## Permutations

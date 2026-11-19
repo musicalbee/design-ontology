@@ -1,0 +1,41 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "face-tracked-puppet",
+  "name": "Face-tracked puppet",
+  "aliases": [
+    "Animoji technique",
+    "Facial motion capture"
+  ],
+  "kind": "technology",
+  "summary": "A rendered 3D head that copies the face of the user in real time through a depth camera.",
+  "how": [
+    "Read the face with a depth camera and map 50 muscle movements to head controls.",
+    "Render the head at 60 fps with soft light and a contact shadow.",
+    "Limit a recorded clip to 10 seconds."
+  ],
+  "origin": {
+    "domain": "internet",
+    "year": 2017,
+    "where": "Cupertino",
+    "note": "Apple releases Animoji with the iPhone X and its TrueDepth camera."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 2017,
+      "via": "Animoji and later Memoji turn the face of the user into a rendered mask in messages and video.",
+      "styles": [
+        "3d-avatar-emoji"
+      ]
+    }
+  ],
+  "styles": [
+    "3d-avatar-emoji"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Animoji",
+      "url": "https://en.wikipedia.org/wiki/Animoji"
+    }
+  ]
+}

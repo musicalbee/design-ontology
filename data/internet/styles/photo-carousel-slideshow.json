@@ -1,0 +1,335 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "photo-carousel-slideshow",
+  "domain": "internet",
+  "name": "Photo Carousel Slideshow",
+  "aliases": [
+    "Photo mode",
+    "Swipe carousel",
+    "Slide post"
+  ],
+  "branch": "vertical-video",
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2022,
+    "end": null,
+    "label": "2022–now"
+  },
+  "primary_mediums": [
+    "video",
+    "mobile"
+  ],
+  "summary": "A set of 4 to 10 still images that the viewer swipes, with one line of text on each slide and a hook on the first slide. Instagram added carousels in 2017, and TikTok added photo mode in 2022.",
+  "philosophy": {
+    "core_thesis": "Slow the feed down: one idea on each still slide, one swipe at a time.",
+    "design_principles": [
+      "Use a 4:5 frame of 1080 x 1350 px or a 9:16 frame of 1080 x 1920 px for every slide.",
+      "Make slide 1 the hook: a 72 px headline of 6 words or fewer.",
+      "Keep 1 idea and 1 line of 40 px text on each slide, with 64 px margins.",
+      "Use 5 to 10 slides and show the count as dots of 8 px at the bottom.",
+      "Repeat the same grid, colour and type on all slides so the set reads as one.",
+      "Cue the swipe with an arrow or a cut-off element at the right edge on slide 1.",
+      "End on a save or share prompt at 44 px with a 100% contrast button."
+    ],
+    "anti_patterns": [
+      "A different layout on each slide",
+      "Paragraph text on a photo",
+      "No hook on slide 1",
+      "Low-resolution photos",
+      "More than 10 slides"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "dimensionality": 1,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 4
+  },
+  "layout": {
+    "grid_mechanics": "A fixed grid of 12 columns with 64 px margins; the same text box on each slide; a dot indicator at 48 px from the bottom.",
+    "whitespace_ratio": "40% to 50% of each slide is open; one image and one line of text.",
+    "alignment_rules": "Text is flush-left at the 64 px margin; the page number sits at the bottom right.",
+    "container_geometry": "Hard rectangle slides; 24 px radius on cards inside a slide; 8 px dots."
+  },
+  "typography": {
+    "classifications": [
+      "editorial serif",
+      "neutral sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Playfair Display",
+        "body": "Inter",
+        "note": "A serif headline with a neutral sans for the line of text."
+      },
+      {
+        "display": "DM Serif Display",
+        "body": "DM Sans",
+        "note": "A display serif for the hook slide."
+      }
+    ],
+    "tracking": "Display -0.02em; body 0em.",
+    "leading": "Display 1.05; body 1.4.",
+    "hierarchy_rules": [
+      "Use a display serif at 72 px for the hook only.",
+      "Use regular (400) sans at 40 px on content slides.",
+      "Use one accent colour for the key word.",
+      "Put the slide number in 24 px caps."
+    ]
+  },
+  "color": {
+    "palette_structure": "A paper white and ink base with one accent that repeats on every slide.",
+    "palette": [
+      {
+        "name": "Paper",
+        "hex": "#F6F2EA",
+        "role": "background"
+      },
+      {
+        "name": "Ink",
+        "hex": "#1A1A1A",
+        "role": "text"
+      },
+      {
+        "name": "Signal Coral",
+        "hex": "#E4572E",
+        "role": "primary"
+      },
+      {
+        "name": "Sage",
+        "hex": "#7A9E7E",
+        "role": "accent"
+      },
+      {
+        "name": "Stone",
+        "hex": "#6B6B66",
+        "role": "muted text"
+      },
+      {
+        "name": "Card",
+        "hex": "#FFFFFF",
+        "role": "surface"
+      }
+    ],
+    "contrast_rules": "Ink on paper gives 15:1; coral is for the key word at 44 px or larger, at 3.6:1.",
+    "surface_treatment": "Flat paper colour; photos with a 2 px inner frame.",
+    "light_and_shadow": "Flat light; a 12 px soft shadow under a card only."
+  },
+  "materiality": {
+    "surface_simulation": "Printed card stock and a photo print.",
+    "border_rules": "A 2 px ink border on photo cards.",
+    "blur_and_elevation": "A 12 px soft shadow under cards; no blur."
+  },
+  "ornamentation_details": {
+    "iconography": "Outline 24 px icons for save, share and arrow.",
+    "illustration": "Hand-drawn circles and arrows in the accent colour.",
+    "decorative_elements": [
+      "swipe arrow",
+      "dot indicator",
+      "slide number",
+      "accent underline",
+      "photo card"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "The viewer swipes; a slide slides in 300 ms from the right; the audio loops at 15 s to 60 s on TikTok.",
+    "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "duration_ms": 300,
+    "hover_and_active": "A tap on the right edge moves to the next slide in 300 ms."
+  },
+  "lineage": {
+    "evolved_from": [
+      "grwm-short"
+    ],
+    "rebelled_against": [
+      "velocity-edit"
+    ],
+    "hybridized_with": [
+      "green-screen-short"
+    ],
+    "echoes": [
+      "creator-vlog",
+      "vertical-short-form"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels calm and in control, and reads at a slow pace.",
+    "keywords": [
+      "calm",
+      "orderly",
+      "informative",
+      "curated",
+      "tactile"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "carousel",
+      "photo mode",
+      "slideshow",
+      "swipe post",
+      "slide deck post",
+      "photo carousel",
+      "infographic carousel"
+    ],
+    "use_cases": [
+      "tips and how-to posts",
+      "travel and photo recaps",
+      "product comparisons",
+      "educational threads"
+    ],
+    "avoid_when": [
+      "The story needs motion or sound.",
+      "The idea fits one image.",
+      "The audience does not swipe."
+    ],
+    "modifiers": [
+      {
+        "request": "more motion",
+        "toward": "velocity-edit",
+        "how": "Turn the slides into 0.5 s cuts with speed ramps."
+      },
+      {
+        "request": "more personal",
+        "toward": "grwm-short",
+        "how": "Replace the slides with a talk to the camera."
+      },
+      {
+        "request": "more editorial",
+        "toward": "editorial-serif-revival",
+        "how": "Use a larger serif and wide margins on a white page."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 400,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 500,
+      "accent": "colour",
+      "display_tracking": "-0.02em",
+      "display_leading": 1.05,
+      "display_case": "none",
+      "body_leading": 1.4,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "lucide",
+        "why": "A thin, neutral outline family for save, share and arrow icons."
+      }
+    },
+    "art": {
+      "recipe": "swiss",
+      "pattern": "none",
+      "seed": 47
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "left",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "paper",
+      "why": "The ground is plain paper, like a printed card in a stack."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#F6F2EA",
+      "--color-surface": "#FFFFFF",
+      "--color-text": "#1A1A1A",
+      "--color-muted": "#6B6B66",
+      "--color-primary": "#E4572E",
+      "--color-accent": "#7A9E7E",
+      "--color-border": "#1A1A1A",
+      "--font-sans": "\"Inter\", \"DM Sans\", sans-serif",
+      "--font-display": "\"Playfair Display\", \"DM Serif Display\", serif",
+      "--border-radius": "0px",
+      "--border-width": "2px",
+      "--shadow-elevation": "0 12px 24px rgba(26,26,26,0.12)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+      "--duration": "300ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#F6F2EA] text-[#1A1A1A] font-sans antialiased px-16"
+      },
+      {
+        "element": "heading",
+        "classes": "font-serif text-7xl leading-[1.05] -tracking-[0.02em]"
+      },
+      {
+        "element": "body",
+        "classes": "text-[40px] leading-[1.4]"
+      },
+      {
+        "element": "section",
+        "classes": "bg-white border-2 border-[#1A1A1A] p-8"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none bg-[#1A1A1A] px-8 py-4 text-lg font-medium text-[#F6F2EA]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs uppercase tracking-wide text-[#6B6B66]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#E4572E",
+        "#7A9E7E",
+        "#1A1A1A"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#E4572E",
+        "#7A9E7E"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 24
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.333,
+      "min": 1.25,
+      "max": 1.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Instagram",
+      "url": "https://en.wikipedia.org/wiki/Instagram"
+    },
+    {
+      "title": "Wikipedia: TikTok",
+      "url": "https://en.wikipedia.org/wiki/TikTok"
+    }
+  ]
+}

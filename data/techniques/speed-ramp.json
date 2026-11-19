@@ -1,0 +1,47 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "speed-ramp",
+  "name": "Speed ramp",
+  "aliases": [
+    "Speed ramping",
+    "Velocity edit curve"
+  ],
+  "kind": "process",
+  "summary": "Change the speed of one clip inside a single shot, from slow motion to fast play and back.",
+  "how": [
+    "Set a speed curve with points at 20% and 400%.",
+    "Place the slow point on the strong beat.",
+    "Smooth the curve over 6 to 12 frames.",
+    "Add a 2px zoom or shake on the jump."
+  ],
+  "origin": {
+    "domain": "film",
+    "year": 2006,
+    "where": "United States",
+    "note": "Zack Snyder uses ramps between slow and fast motion in the fights of 300."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 2020,
+      "circa": true,
+      "via": "CapCut and similar editors give a curve tool, and editors cut clips to music with ramps.",
+      "styles": [
+        "velocity-edit"
+      ]
+    }
+  ],
+  "styles": [
+    "velocity-edit"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: 300 (film)",
+      "url": "https://en.wikipedia.org/wiki/300_(film)"
+    },
+    {
+      "title": "Wikipedia: CapCut",
+      "url": "https://en.wikipedia.org/wiki/CapCut"
+    }
+  ]
+}

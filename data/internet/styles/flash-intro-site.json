@@ -1,0 +1,353 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "flash-intro-site",
+  "domain": "internet",
+  "name": "Flash Intro Site",
+  "aliases": [
+    "Skip intro",
+    "Flash website",
+    "Macromedia Flash site"
+  ],
+  "branch": "early-web",
+  "era_id": "postmodern-early-digital",
+  "time_period": {
+    "start": 1998,
+    "end": 2010,
+    "label": "1998–2010"
+  },
+  "primary_mediums": [
+    "web",
+    "video"
+  ],
+  "summary": "A full-window site built as vector animation: a loading bar, a 'skip intro' link, tiny pixel type, custom cursors, sound and transitions between sections. Macromedia Flash made it possible.",
+  "philosophy": {
+    "core_thesis": "A site is a performance: control every pixel and every second, and make the visitor wait for it.",
+    "design_principles": [
+      "Fill the full window with one stage and centre a fixed area of 800px by 600px or 1000px by 600px.",
+      "Open with a loading bar of 1px to 4px and a counter from 0% to 100%, then a 5 to 20 second intro.",
+      "Put a 'skip intro' link of 11px in the lower corner, visible from the first frame.",
+      "Set navigation in pixel type of 8px to 10px in upper case, with 0.1em tracking, and place it on a free path.",
+      "Move each section in by tween: slide 40px to 120px with an ease-out over 400ms to 800ms.",
+      "Use one accent (#FF6600) on a dark ground (#111111) and keep the rest in grey tones.",
+      "Follow the pointer: an element trails the cursor at 0.1 to 0.2 easing."
+    ],
+    "anti_patterns": [
+      "Instant static pages with no intro",
+      "Standard text navigation in a bar",
+      "Long blocks of readable body text",
+      "Responsive reflow to small screens",
+      "Native scroll with no scene change",
+      "Plain system fonts at 16px for all text"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "dimensionality": 4,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 4
+  },
+  "layout": {
+    "grid_mechanics": "A fixed stage of 800px to 1000px wide on a centred 12-column grid with 20px gutters; each scene replaces the last.",
+    "whitespace_ratio": "30% to 50% of the stage is empty ground; the spacing scale is 10, 20 and 40px.",
+    "alignment_rules": "Centred stage; navigation and credits at the edges; text blocks flush left at 10px to 12px.",
+    "container_geometry": "Hairline rectangles of 1px, circles and thin lines; the radius is 0px to 2px."
+  },
+  "typography": {
+    "classifications": [
+      "pixel sans",
+      "geometric sans",
+      "condensed sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Oswald",
+        "body": "Silkscreen",
+        "note": "Oswald is a tall condensed display; Silkscreen is an open pixel face for the tiny navigation."
+      },
+      {
+        "display": "Jost",
+        "body": "Space Mono",
+        "note": "Jost is an open geometric sans in the Futura line, with a mono text face."
+      },
+      {
+        "display": "Archivo Narrow",
+        "body": "Silkscreen",
+        "note": "A narrow display with a pixel label face."
+      }
+    ],
+    "tracking": "Display 0.04em; pixel labels 0.1em.",
+    "leading": "Display 1.0; body 1.5.",
+    "hierarchy_rules": [
+      "Use 8px to 10px pixel type for navigation and 11px for body text.",
+      "Use one large word of 48px to 96px per scene as the title.",
+      "Use the accent colour for the active item only.",
+      "Use upper case for navigation and lower case for body text."
+    ]
+  },
+  "color": {
+    "palette_structure": "A dark or white stage, grey tones and one saturated accent; one more cool tone for lines.",
+    "palette": [
+      {
+        "name": "Stage Black",
+        "hex": "#111111",
+        "role": "background"
+      },
+      {
+        "name": "Panel Grey",
+        "hex": "#1E1E1E",
+        "role": "panel"
+      },
+      {
+        "name": "Text Light",
+        "hex": "#EEEEEE",
+        "role": "text"
+      },
+      {
+        "name": "Muted Grey",
+        "hex": "#9A9A9A",
+        "role": "secondary text"
+      },
+      {
+        "name": "Flash Orange",
+        "hex": "#FF6600",
+        "role": "primary"
+      },
+      {
+        "name": "Cyan",
+        "hex": "#33CCFF",
+        "role": "accent"
+      },
+      {
+        "name": "Line Grey",
+        "hex": "#444444",
+        "role": "border"
+      }
+    ],
+    "contrast_rules": "Light text on stage black is 16:1; muted grey on black is 6.5:1; orange on black is 6.8:1.",
+    "surface_treatment": "Flat vector fills, thin lines and one soft glow; no photographic texture.",
+    "light_and_shadow": "Light comes from an accent glow of 8px to 20px on one element; a hard 1px highlight line on panels."
+  },
+  "materiality": {
+    "surface_simulation": "A vector screen: crisp fills and hairlines on a dark stage, with a little bitmap texture.",
+    "border_rules": "A 1px line in grey (#444444); a 1px accent line for the active state.",
+    "blur_and_elevation": "A blur of 4px to 12px in motion trails; no cast shadow."
+  },
+  "ornamentation_details": {
+    "iconography": "Thin 1px vector icons at 16px to 24px, arrows, crosses and circles, with a pixel cursor.",
+    "illustration": "Vector figures, cut-out photos, abstract line art, particle sprays and short looped clips.",
+    "decorative_elements": [
+      "loading bar",
+      "skip-intro link",
+      "custom cursor",
+      "pixel navigation",
+      "tween transition",
+      "sound toggle"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Scenes enter by tween: 40px to 120px slides over 400ms to 800ms with ease-out; trails follow the cursor; the intro runs 5s to 20s.",
+    "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+    "duration_ms": 600,
+    "hover_and_active": "Hover moves the item 4px, turns it orange and plays a click sound; active state fades the stage to the next scene."
+  },
+  "lineage": {
+    "evolved_from": [
+      "cyberdelia",
+      "y2k-aesthetic"
+    ],
+    "rebelled_against": [
+      "portal-table-layout"
+    ],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels invited into a stylish show, and also sometimes feels kept waiting.",
+    "keywords": [
+      "cinematic",
+      "designed",
+      "experimental",
+      "slick",
+      "animated",
+      "patient"
+    ],
+    "brand_archetypes": [
+      "magician",
+      "creator",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "flash site",
+      "skip intro",
+      "macromedia flash",
+      "flash intro",
+      "loading bar",
+      "pixel nav",
+      "swf",
+      "early 2000s agency site"
+    ],
+    "use_cases": [
+      "portfolios and agency showcase pages",
+      "music and film promo sites",
+      "nostalgic interactive stories",
+      "game teasers",
+      "art and fashion lookbooks"
+    ],
+    "avoid_when": [
+      "The page needs speed, search and indexing.",
+      "The reader needs long text.",
+      "Mobile and keyboard access are the main routes."
+    ],
+    "modifiers": [
+      {
+        "request": "faster",
+        "toward": "minimalism-web",
+        "how": "Remove the intro and the loading bar; keep the dark ground and one accent."
+      },
+      {
+        "request": "more gloss",
+        "toward": "web-2-0-gloss",
+        "how": "Replace the hairlines with glossy buttons and a reflection under the logo."
+      },
+      {
+        "request": "more raw",
+        "toward": "net-art-browser",
+        "how": "Remove the animation and show the raw HTML and the defaults."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 400,
+      "accent": "colour",
+      "display_tracking": "0.04em",
+      "display_leading": 1.0,
+      "display_case": "uppercase",
+      "body_leading": 1.5,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1,
+      "linecap": "square",
+      "linejoin": "miter",
+      "container": "none",
+      "pack": {
+        "id": "pixelarticons",
+        "why": "Pixel icons match the tiny pixel navigation of a Flash site."
+      }
+    },
+    "art": {
+      "recipe": "synthwave",
+      "pattern": "none",
+      "seed": 98
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "center",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "rays",
+      "why": "The ground is a dark stage with faint light rays, like the opening scene of a Flash intro."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#111111",
+      "--color-surface": "#1E1E1E",
+      "--color-text": "#EEEEEE",
+      "--color-muted": "#9A9A9A",
+      "--color-primary": "#FF6600",
+      "--color-accent": "#33CCFF",
+      "--color-border": "#444444",
+      "--font-sans": "\"Space Mono\", \"Silkscreen\", monospace",
+      "--font-display": "\"Oswald\", \"Jost\", sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 0 16px #FF660066",
+      "--backdrop-filter": "none",
+      "--space-unit": "10px",
+      "--ease": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "--duration": "600ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#111111] text-[#EEEEEE] font-mono antialiased px-4 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-5xl md:text-8xl font-bold uppercase tracking-[0.04em] leading-none text-[#EEEEEE]"
+      },
+      {
+        "element": "body",
+        "classes": "text-sm leading-[1.5] max-w-prose text-[#9A9A9A]"
+      },
+      {
+        "element": "section",
+        "classes": "border border-[#444444] bg-[#1E1E1E]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border border-[#FF6600] bg-transparent px-5 py-2 text-xs uppercase tracking-[0.1em] text-[#FF6600] transition-all duration-[600ms] hover:bg-[#FF6600] hover:text-[#111111]"
+      },
+      {
+        "element": "label",
+        "classes": "text-[10px] uppercase tracking-[0.1em] text-[#33CCFF]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#FF6600",
+        "#33CCFF",
+        "#FF0066"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#33CCFF",
+        "#FF6600",
+        "#EEEEEE"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 2
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "min": 1.125,
+      "max": 1.5,
+      "default": 1.333
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Adobe Flash",
+      "url": "https://en.wikipedia.org/wiki/Adobe_Flash"
+    },
+    {
+      "title": "Wikipedia: Skip intro",
+      "url": "https://en.wikipedia.org/wiki/Splash_screen"
+    },
+    {
+      "title": "Wikipedia: Hillman Curtis",
+      "url": "https://en.wikipedia.org/wiki/Hillman_Curtis"
+    }
+  ]
+}

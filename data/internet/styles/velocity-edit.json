@@ -1,0 +1,335 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "velocity-edit",
+  "domain": "internet",
+  "name": "Velocity Edit",
+  "aliases": [
+    "Velocity edit",
+    "Speed-ramp edit",
+    "CapCut velocity"
+  ],
+  "branch": "vertical-video",
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2020,
+    "end": null,
+    "label": "2020–now"
+  },
+  "primary_mediums": [
+    "video",
+    "mobile"
+  ],
+  "summary": "A short vertical montage with speed ramps: the clip slows to slow motion, then jumps to fast play on the beat, with glow, zoom shake and a colour grade. Editors make it with the velocity tool of CapCut.",
+  "philosophy": {
+    "core_thesis": "Let time bend to the music: slow on the strong beat, fast on the rest.",
+    "design_principles": [
+      "Ramp the speed between 20% and 400%; slow to 20% to 30% on the accent beat and jump to 300% on the off-beat.",
+      "Cut every 0.3 s to 1.2 s on the beat of a 120 BPM to 140 BPM track.",
+      "Add a zoom of 100% to 115% in 6 frames at each cut.",
+      "Add a glow with a 20 px blur at 30% opacity on highlights.",
+      "Use a high-contrast grade: crush blacks to 5% and lift highlights to 95%.",
+      "Overlay a 2 px shake of 4 frames on each strong beat.",
+      "Put one short word in 56 px type on the final hit, no more."
+    ],
+    "anti_patterns": [
+      "Constant speed through the clip",
+      "Cuts that miss the beat",
+      "Flat grey colour grade",
+      "Long caption text",
+      "Hard black bars at the sides"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "dimensionality": 2,
+    "grid_rigidity": 2,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "A single full-bleed frame; no UI grid; type appears only at the final hit, centred.",
+    "whitespace_ratio": "Clean frame: text and UI take under 5%.",
+    "alignment_rules": "The subject is centred; the final word is centred at 50% of the height.",
+    "container_geometry": "Hard rectangle with 0 radius; a thin 1 px white flash frame at each cut."
+  },
+  "typography": {
+    "classifications": [
+      "bold sans",
+      "condensed sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Anton",
+        "body": "Oswald",
+        "note": "Anton is an open condensed display face for the final hit; Oswald is the body."
+      },
+      {
+        "display": "Bebas Neue",
+        "body": "Barlow Condensed",
+        "note": "A condensed caps face for kinetic words."
+      }
+    ],
+    "tracking": "Display 0.02em; body 0.04em.",
+    "leading": "Display 1.0; body 1.3.",
+    "hierarchy_rules": [
+      "Use only one word as the display text.",
+      "Set it at 56 px in caps.",
+      "Use a white fill with a 20 px glow.",
+      "Show it for 6 to 12 frames."
+    ]
+  },
+  "color": {
+    "palette_structure": "Dark frames with a hot orange and cold blue grade; the clip carries the colour.",
+    "palette": [
+      {
+        "name": "Void",
+        "hex": "#08090C",
+        "role": "background"
+      },
+      {
+        "name": "Hit Orange",
+        "hex": "#FF6A1F",
+        "role": "primary"
+      },
+      {
+        "name": "Cold Blue",
+        "hex": "#2BB3FF",
+        "role": "accent"
+      },
+      {
+        "name": "Highlight",
+        "hex": "#FFF3E0",
+        "role": "text"
+      },
+      {
+        "name": "Steel",
+        "hex": "#9AA3B2",
+        "role": "muted text"
+      },
+      {
+        "name": "Deep Panel",
+        "hex": "#14161C",
+        "role": "surface"
+      }
+    ],
+    "contrast_rules": "Highlight on void gives 18:1; glow does not carry text.",
+    "surface_treatment": "High-contrast grade; deep blacks at 5%.",
+    "light_and_shadow": "Hard rim light and lens glow; a cold shadow and a warm highlight."
+  },
+  "materiality": {
+    "surface_simulation": "A glossy screen with light bloom and a slight film grain.",
+    "border_rules": "A 1 px white flash frame on cuts.",
+    "blur_and_elevation": "A 20 px bloom on highlights; a 4 px radial blur at the edge on fast frames."
+  },
+  "ornamentation_details": {
+    "iconography": "None; the edit has no icon set.",
+    "illustration": "The source clip and light leaks: orange flares at 30% opacity.",
+    "decorative_elements": [
+      "speed ramp curve",
+      "light leak",
+      "zoom shake",
+      "final word hit",
+      "glow bloom"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Speed ramps of 6 to 12 frames between 20% and 400%; a zoom of 115% in 6 frames at each cut; a 4-frame shake on each strong beat.",
+    "easing": "cubic-bezier(0.7, 0, 0.3, 1)",
+    "duration_ms": 100,
+    "hover_and_active": "A tap pauses the clip; no hover state."
+  },
+  "lineage": {
+    "evolved_from": [
+      "lip-sync-dance-short"
+    ],
+    "rebelled_against": [
+      "grwm-short"
+    ],
+    "hybridized_with": [
+      "duet-split-screen"
+    ],
+    "echoes": [
+      "vertical-short-form",
+      "music-video"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels a jolt of energy and replays the clip.",
+    "keywords": [
+      "kinetic",
+      "intense",
+      "slick",
+      "hypnotic",
+      "loud"
+    ],
+    "brand_archetypes": [
+      "hero",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "velocity edit",
+      "speed ramp",
+      "capcut edit",
+      "edit template",
+      "slow motion edit",
+      "beat edit",
+      "amv style"
+    ],
+    "use_cases": [
+      "fan edits",
+      "sports and car clips",
+      "product reveals",
+      "festival and event teasers"
+    ],
+    "avoid_when": [
+      "The audience needs calm or clear information.",
+      "The source footage is dull or low-resolution.",
+      "The viewer may have motion sickness."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "grwm-short",
+        "how": "Remove the ramps and talk to the lens in a soft room."
+      },
+      {
+        "request": "more story",
+        "toward": "pov-short",
+        "how": "Hold one take of 5 s and add a title line."
+      },
+      {
+        "request": "more still",
+        "toward": "photo-carousel-slideshow",
+        "how": "Replace the ramps with a swipe through 6 stills."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 500,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "case",
+      "display_tracking": "0.02em",
+      "display_leading": 1.0,
+      "display_case": "uppercase",
+      "body_leading": 1.4,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "ph-bold",
+        "why": "A bold family with heavy shapes that fit a high-contrast edit."
+      }
+    },
+    "art": {
+      "recipe": "synthwave",
+      "pattern": "none",
+      "seed": 41
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "center",
+      "density": "compact",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "rays",
+      "why": "The ground is a ray burst that echoes the light flares of the edit."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#08090C",
+      "--color-surface": "#14161C",
+      "--color-text": "#FFF3E0",
+      "--color-muted": "#9AA3B2",
+      "--color-primary": "#FF6A1F",
+      "--color-accent": "#2BB3FF",
+      "--color-border": "#FFF3E0",
+      "--font-sans": "\"Oswald\", \"Barlow Condensed\", sans-serif",
+      "--font-display": "\"Anton\", \"Bebas Neue\", sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 0 20px rgba(255,106,31,0.4)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+      "--duration": "100ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#08090C] text-[#FFF3E0] font-sans antialiased"
+      },
+      {
+        "element": "heading",
+        "classes": "text-6xl uppercase tracking-[0.02em] leading-none [text-shadow:0_0_20px_#FF6A1F]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.3] text-[#9AA3B2]"
+      },
+      {
+        "element": "section",
+        "classes": "bg-[#14161C] p-4"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none bg-[#FF6A1F] px-6 py-3 text-sm font-bold uppercase text-[#08090C]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs uppercase tracking-[0.04em] text-[#2BB3FF]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#FF6A1F",
+        "#2BB3FF",
+        "#FFF3E0"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#2BB3FF",
+        "#FF6A1F"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 4
+    },
+    "grid_step": {
+      "min": 2,
+      "max": 8.0
+    },
+    "type_scale_ratio": {
+      "default": 1.333,
+      "min": 1.25,
+      "max": 1.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: CapCut",
+      "url": "https://en.wikipedia.org/wiki/CapCut"
+    },
+    {
+      "title": "Wikipedia: Speed ramping",
+      "url": "https://en.wikipedia.org/wiki/Slow_motion"
+    }
+  ]
+}

@@ -92,6 +92,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Primary:** butter · veal · fine-herbs · truffle · wild-mushrooms · egg · wine · asparagus
 - **Secondary:** cream · chicken · game-birds · lamb · beef · pork · shellfish · shallot · thyme-bay · lemon · vinegar · cane-sugar · artichoke · black-pepper · nutmeg · cheese
 - **Avoid:** chilli · grains-of-paradise · soy-sauce · maize · potato · kombu
+- **In europe:** yes
 - **Rule:** Build on butter, a veal or chicken stock and fines herbes, and let one spice at most show in the sauce.
 
 ## Technique

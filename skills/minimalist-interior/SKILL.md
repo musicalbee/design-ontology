@@ -203,7 +203,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Moodboard
 
-6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (FLUX.2 [klein] 4B, Apache-2.0, seed 1955, 4 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#minimalist-interior).
+6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (Z-Image-Turbo, Apache-2.0, seed 1955, 9 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#minimalist-interior).
 
 ![Room](../../demo/moodboards/interior/minimalist-interior/room.webp)
 ![Materials](../../demo/moodboards/interior/minimalist-interior/materials.webp)
@@ -214,7 +214,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-White plaster, honed limestone and pale oak with plain linen; every object is flush, thin and quiet, and one graphite fitting is the only dark mark. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0, material_warmth 0.4, finish_gloss 10, era_blend 0.6, hardware_weight 8, edge_radius 3, metal_tone black. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#minimalist-interior).
+White plaster, honed limestone and pale oak with plain linen; every object is flush, thin and quiet, and one graphite fitting is the only dark mark. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0, material_warmth 0.4, finish_gloss 10, era_blend 0.6, hardware_weight 8, edge_radius 3, metal_tone black. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#minimalist-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|
@@ -325,7 +325,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`memphis-interior`](../memphis-interior/SKILL.md)
 - **Was rejected by:** [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md)
 - **Mixes well with:** [`coastal-interior`](../coastal-interior/SKILL.md)
-- **Kin in another domain:** [`designer-wall-hung-sanitary`](../designer-wall-hung-sanitary/SKILL.md), [`electric-minimal-car`](../electric-minimal-car/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`large-format-porcelain-tiles`](../large-format-porcelain-tiles/SKILL.md), [`minimal-wordmark`](../minimal-wordmark/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md), [`minimalist-fashion`](../minimalist-fashion/SKILL.md), [`nouvelle-cuisine`](../nouvelle-cuisine/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+- **Kin in another domain:** [`clean-girl`](../clean-girl/SKILL.md), [`designer-wall-hung-sanitary`](../designer-wall-hung-sanitary/SKILL.md), [`electric-minimal-car`](../electric-minimal-car/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`large-format-porcelain-tiles`](../large-format-porcelain-tiles/SKILL.md), [`minimal-wordmark`](../minimal-wordmark/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md), [`minimalist-fashion`](../minimalist-fashion/SKILL.md), [`nouvelle-cuisine`](../nouvelle-cuisine/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
 - **Nearest by vector profile:** [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md)
 
 ## Emotional target

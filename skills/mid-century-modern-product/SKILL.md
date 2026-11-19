@@ -180,6 +180,7 @@ Thin boards or veneers glued in layers, so that wood forms long spans, bent shap
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Ford Foundation** (foundation, New York, ?–now), funded the style. US foundation. It sponsored the Eameses' three-month study tour of India in 1958.
 - **Herman Miller** (company, Zeeland, Michigan, 1923–now), made the style. A furniture maker that worked with George Nelson, Charles and Ray Eames and Isamu Noguchi. It made modern furniture for homes and offices.
 - **Knoll** (company, New York, 1938–now), made the style. A furniture maker that produced designs by Mies van der Rohe, Eero Saarinen and Marcel Breuer. Its planning unit set the look of the modern office.
 

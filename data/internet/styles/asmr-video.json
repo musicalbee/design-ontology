@@ -1,0 +1,336 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "asmr-video",
+  "domain": "internet",
+  "name": "ASMR Video",
+  "aliases": [
+    "ASMR",
+    "Whisper video",
+    "Tingles video"
+  ],
+  "branch": "creator-streaming",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2010,
+    "end": null,
+    "label": "2010–now"
+  },
+  "primary_mediums": [
+    "video",
+    "mobile"
+  ],
+  "summary": "A soft, close picture with a mic near the subject. Slow hands tap, brush and whisper. The look is dim, warm and quiet, with almost no text, because sound carries the work.",
+  "philosophy": {
+    "core_thesis": "Slow the image to match the sound: a calm frame, a soft light and a close mic make the viewer relax.",
+    "design_principles": [
+      "Light the scene at 2700K to 3200K with one soft lamp and keep highlights under 85% white.",
+      "Place the subject within 30cm of the lens and keep the background out of focus at f/2 or wider.",
+      "Move at half speed: one action in each 4s to 8s, with no sudden cuts.",
+      "Hold each shot for at least 8s and cross-fade at 1s to 2s when a cut is needed.",
+      "Use a muted grade with lifted blacks (#1A1614) and no pure white.",
+      "Keep text to a title of 24px at 70% opacity for the first 3s; add no captions.",
+      "Show both stereo sides with a left and a right object, 1m apart, so the viewer sees the sound move."
+    ],
+    "anti_patterns": [
+      "Loud, saturated colours",
+      "Fast cuts under 3s",
+      "Large on-screen titles and arrows",
+      "Hard, cold light",
+      "Sharp zooms and shaking",
+      "Busy backgrounds with many small details"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "dimensionality": 3,
+    "grid_rigidity": 2,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 1
+  },
+  "layout": {
+    "grid_mechanics": "A 16:9 frame with a centre stage of 50% width and a wide soft margin; objects sit left and right at one third of the width.",
+    "whitespace_ratio": "50% to 65% of the frame is soft, dark and empty; the spacing scale is 12, 24, 48 and 96px.",
+    "alignment_rules": "The subject stays centred and slightly below the middle; the title aligns bottom-centre at 48px from the edge.",
+    "container_geometry": "Large round shapes: 24px radius cards, circle masks and an oval vignette; no hard rule lines."
+  },
+  "typography": {
+    "classifications": [
+      "humanist sans",
+      "soft serif",
+      "rounded"
+    ],
+    "font_pairings": [
+      {
+        "display": "Quicksand",
+        "body": "Nunito",
+        "note": "A soft, round pair that stays quiet on screen."
+      },
+      {
+        "display": "Fraunces",
+        "body": "Lora",
+        "note": "A warm serif pair for a title with a text face."
+      },
+      {
+        "display": "Comfortaa",
+        "body": "Nunito Sans",
+        "note": "A round display face with a calm text face."
+      }
+    ],
+    "tracking": "Display takes +0.04em; body stays at 0.01em.",
+    "leading": "Display 1.3; body 1.8.",
+    "hierarchy_rules": [
+      "Use two weights: light (300) and regular (400).",
+      "Use sizes 16, 20, 28 and 40px.",
+      "Set titles in lower case at 70% opacity.",
+      "Keep one type size in each frame."
+    ]
+  },
+  "color": {
+    "palette_structure": "Warm dark browns and rose with a candle amber and a pale cream; low saturation on all colours.",
+    "palette": [
+      {
+        "name": "Dim Room",
+        "hex": "#1A1614",
+        "role": "background"
+      },
+      {
+        "name": "Velvet Brown",
+        "hex": "#2A2320",
+        "role": "surface"
+      },
+      {
+        "name": "Cream Text",
+        "hex": "#F3E9DC",
+        "role": "text"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#D9A5A0",
+        "role": "primary"
+      },
+      {
+        "name": "Candle Amber",
+        "hex": "#E8B76A",
+        "role": "accent"
+      },
+      {
+        "name": "Mist Grey",
+        "hex": "#A89F97",
+        "role": "muted"
+      }
+    ],
+    "contrast_rules": "Cream text on the dim room holds at least 12:1; rose and amber carry small marks and rules, not long text.",
+    "surface_treatment": "Soft vignette gradients from the centre; a 3% film grain; no hard edges.",
+    "light_and_shadow": "One warm lamp from the front-left; shadows are long and soft; glow on highlights at 12px blur."
+  },
+  "materiality": {
+    "surface_simulation": "Soft fabric, wood, glass and skin in shallow focus, with a warm tone and a little grain.",
+    "border_rules": "No visible borders; a 1px line at 15% opacity at most.",
+    "blur_and_elevation": "Background blur of 24px to 40px; cards float with a 32px soft shadow at 25% black."
+  },
+  "ornamentation_details": {
+    "iconography": "Outline icons at 24px with a 1.5px stroke and round terminals, used only for play and volume.",
+    "illustration": "Real objects in shallow focus: brushes, wooden tapping blocks, a microphone ball and a candle.",
+    "decorative_elements": [
+      "foam windscreen mic",
+      "soft vignette",
+      "candle glow",
+      "brush",
+      "slow cross-fade"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Every move takes 800ms to 1.6s; fades take 1s to 2s; there is no bounce and no sudden cut.",
+    "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "duration_ms": 800,
+    "hover_and_active": "Hover raises a card by 2px and brightens it by 6% over 600ms; active state dims it by 6%."
+  },
+  "lineage": {
+    "evolved_from": [
+      "unboxing-video"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels calm, sleepy and safe, with a light physical tingle.",
+    "keywords": [
+      "calm",
+      "soft",
+      "intimate",
+      "sleepy",
+      "warm"
+    ],
+    "brand_archetypes": [
+      "caregiver",
+      "innocent"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "asmr",
+      "whisper",
+      "tingles",
+      "sleep video",
+      "relaxing video",
+      "tapping sounds",
+      "soft spoken"
+    ],
+    "use_cases": [
+      "sleep and wellness apps",
+      "spa and tea brands",
+      "calm product demos",
+      "audio brand pages",
+      "meditation video thumbnails"
+    ],
+    "avoid_when": [
+      "The page needs speed, urgency or sales pressure.",
+      "The audience watches on a mute feed.",
+      "The content has no close, tactile subject."
+    ],
+    "modifiers": [
+      {
+        "request": "more energy",
+        "toward": "lets-play-facecam",
+        "how": "Raise saturation, add outlined captions and cut every 1.5s."
+      },
+      {
+        "request": "more clinical",
+        "toward": "unboxing-video",
+        "how": "Light the scene at 5600K, use a pale table and add part labels."
+      },
+      {
+        "request": "brighter",
+        "toward": "vtuber-avatar",
+        "how": "Use a pastel ground, a soft avatar at the centre and a light mic icon."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 300,
+      "subhead_weight": 300,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 400,
+      "accent": "size",
+      "display_tracking": "0.04em",
+      "display_leading": 1.3,
+      "display_case": "lowercase",
+      "body_leading": 1.8,
+      "body_size": "18px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "circle",
+      "pack": {
+        "id": "iconoir",
+        "why": "A thin outline family with round terminals matches the soft, quiet frame."
+      }
+    },
+    "art": {
+      "recipe": "aero",
+      "pattern": "waves",
+      "seed": 21
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "soft",
+      "why": "The ground is a dim room lit by one warm lamp, and the vignette keeps the eye on the subject."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#1A1614",
+      "--color-surface": "#2A2320",
+      "--color-text": "#F3E9DC",
+      "--color-muted": "#B5ABA2",
+      "--color-primary": "#D9A5A0",
+      "--color-accent": "#E8B76A",
+      "--color-border": "#4A3F39",
+      "--font-sans": "\"Nunito\", \"Lora\", sans-serif",
+      "--font-display": "\"Quicksand\", \"Fraunces\", sans-serif",
+      "--border-radius": "24px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 24px 48px rgba(0,0,0,0.35)",
+      "--backdrop-filter": "none",
+      "--space-unit": "12px",
+      "--ease": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "--duration": "800ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#1A1614] text-[#F3E9DC] font-sans antialiased px-4 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-3xl md:text-5xl font-light lowercase leading-[1.3] tracking-[0.04em] text-center"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-3xl border border-[#4A3F39] bg-[#2A2320] shadow-[0_24px_48px_rgba(0,0,0,0.35)]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-full bg-[#D9A5A0] px-8 py-3 text-sm font-normal text-[#1A1614] transition-all duration-[800ms] hover:brightness-110"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs lowercase tracking-[0.1em] text-[#E8B76A]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#D9A5A0",
+        "#E8B76A",
+        "#F3E9DC"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#E8B76A",
+        "#D9A5A0"
+      ]
+    },
+    "corner_radius": {
+      "min": 16,
+      "max": 32
+    },
+    "grid_step": {
+      "min": 8,
+      "max": 16
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.333
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Autonomous sensory meridian response",
+      "url": "https://en.wikipedia.org/wiki/Autonomous_sensory_meridian_response"
+    },
+    {
+      "title": "Know Your Meme: ASMR",
+      "url": "https://knowyourmeme.com/memes/asmr"
+    }
+  ]
+}

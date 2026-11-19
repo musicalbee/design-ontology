@@ -213,7 +213,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Moodboard
 
-6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (FLUX.2 [klein] 4B, Apache-2.0, seed 1955, 4 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#coastal-interior).
+6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (Z-Image-Turbo, Apache-2.0, seed 1955, 9 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#coastal-interior).
 
 ![Room](../../demo/moodboards/interior/coastal-interior/room.webp)
 ![Materials](../../demo/moodboards/interior/coastal-interior/materials.webp)
@@ -224,7 +224,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-White-washed oak, painted pine boards, slipcovered linen, woven rattan and jute, clear glass and brushed steel make the summer house. One sea blue and navy carry the accents. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.1, material_warmth 0.7, finish_gloss 8, era_blend 0.6, hardware_weight 12, edge_radius 8, metal_tone nickel. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#coastal-interior).
+White-washed oak, painted pine boards, slipcovered linen, woven rattan and jute, clear glass and brushed steel make the summer house. One sea blue and navy carry the accents. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.1, material_warmth 0.7, finish_gloss 8, era_blend 0.6, hardware_weight 12, edge_radius 8, metal_tone nickel. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#coastal-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

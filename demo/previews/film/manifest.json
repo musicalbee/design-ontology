@@ -100,10 +100,10 @@
       "kind": "reel",
       "subject": "Gap approach",
       "prompt": "a still frame from a film, wide shot: gap approach, 14mm lens, FPV drone shot, single continuous take, ultra-wide 150 degree lens, fast dive and bank, threading a gap, golden hour light, speed ramp on the beat, smooth stabilised footage, motion blur at 180 degree shutter, object wipe transition, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: dive down a face, 14mm lens, FPV drone shot, single continuous take, ultra-wide 150 degree lens, fast dive and bank, threading a gap, golden hour light, speed ramp on the beat, smooth stabilised footage, motion blur at 180 degree shutter, object wipe transition, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: pass behind a pillar (wipe), 14mm lens, FPV drone shot, single continuous take, ultra-wide 150 degree lens, fast dive and bank, threading a gap, golden hour light, speed ramp on the beat, smooth stabilised footage, motion blur at 180 degree shutter, object wipe transition, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: orbit the subject, 14mm lens, FPV drone shot, single continuous take, ultra-wide 150 degree lens, fast dive and bank, threading a gap, golden hour light, speed ramp on the beat, smooth stabilised footage, motion blur at 180 degree shutter, object wipe transition, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: slow reveal, 14mm lens, FPV drone shot, single continuous take, ultra-wide 150 degree lens, fast dive and bank, threading a gap, golden hour light, speed ramp on the beat, smooth stabilised footage, motion blur at 180 degree shutter, object wipe transition, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
-      "model": "FLUX.2 [klein] 4B",
+      "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
-      "steps": 4,
+      "steps": 9,
       "width": 1152,
       "height": 768,
       "generated": "2026-11-19",
@@ -116,13 +116,20 @@
           "seconds": 6,
           "prompt": "a still frame from a film, wide shot: gap approach, 14mm lens, FPV drone shot, single continuous take, ultra-wide 150 degree lens, fast dive and bank, threading a gap, golden hour light, speed ramp on the beat, smooth stabilised footage, motion blur at 180 degree shutter, object wipe transition, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "cinematic-fpv/1.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1955,
-          "steps": 4,
+          "base_seed": 1955,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Dive down a face",
@@ -132,13 +139,20 @@
           "seconds": 8,
           "prompt": "a still frame from a film, wide shot: dive down a face, 14mm lens, FPV drone shot, single continuous take, ultra-wide 150 degree lens, fast dive and bank, threading a gap, golden hour light, speed ramp on the beat, smooth stabilised footage, motion blur at 180 degree shutter, object wipe transition, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "cinematic-fpv/2.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1956,
-          "steps": 4,
+          "base_seed": 1956,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Pass behind a pillar (wipe)",
@@ -148,13 +162,20 @@
           "seconds": 3,
           "prompt": "a still frame from a film, wide shot: pass behind a pillar (wipe), 14mm lens, FPV drone shot, single continuous take, ultra-wide 150 degree lens, fast dive and bank, threading a gap, golden hour light, speed ramp on the beat, smooth stabilised footage, motion blur at 180 degree shutter, object wipe transition, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "cinematic-fpv/3.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1957,
-          "steps": 4,
+          "base_seed": 1957,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Orbit the subject",
@@ -164,13 +185,20 @@
           "seconds": 10,
           "prompt": "a still frame from a film, wide shot: orbit the subject, 14mm lens, FPV drone shot, single continuous take, ultra-wide 150 degree lens, fast dive and bank, threading a gap, golden hour light, speed ramp on the beat, smooth stabilised footage, motion blur at 180 degree shutter, object wipe transition, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "cinematic-fpv/4.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
-          "seed": 1958,
-          "steps": 4,
+          "seed": 2958,
+          "base_seed": 1958,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 2,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Slow reveal",
@@ -180,13 +208,20 @@
           "seconds": 8,
           "prompt": "a still frame from a film, wide shot: slow reveal, 14mm lens, FPV drone shot, single continuous take, ultra-wide 150 degree lens, fast dive and bank, threading a gap, golden hour light, speed ramp on the beat, smooth stabilised footage, motion blur at 180 degree shutter, object wipe transition, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "cinematic-fpv/5.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1959,
-          "steps": 4,
+          "base_seed": 1959,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         }
       ]
     },
@@ -195,10 +230,10 @@
       "kind": "reel",
       "subject": "Hook to camera",
       "prompt": "a still frame from a film, medium close-up shot: hook to camera, 16mm lens, handheld selfie shot at arm's length, wide-angle 16mm lens, bright natural window light, casual direct address, 16:9 4K, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: punch-in second angle, 24mm lens, handheld selfie shot at arm's length, wide-angle 16mm lens, bright natural window light, casual direct address, 16:9 4K, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: b-roll of the place, 24mm lens, handheld selfie shot at arm's length, wide-angle 16mm lens, bright natural window light, casual direct address, 16:9 4K, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: detail cut-away, 35mm lens, handheld selfie shot at arm's length, wide-angle 16mm lens, bright natural window light, casual direct address, 16:9 4K, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium close-up shot: story beat to camera, 16mm lens, handheld selfie shot at arm's length, wide-angle 16mm lens, bright natural window light, casual direct address, 16:9 4K, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
-      "model": "FLUX.2 [klein] 4B",
+      "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
-      "steps": 4,
+      "steps": 9,
       "width": 1152,
       "height": 768,
       "generated": "2026-11-19",
@@ -211,13 +246,20 @@
           "seconds": 5,
           "prompt": "a still frame from a film, medium close-up shot: hook to camera, 16mm lens, handheld selfie shot at arm's length, wide-angle 16mm lens, bright natural window light, casual direct address, 16:9 4K, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "creator-vlog/1.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1955,
-          "steps": 4,
+          "base_seed": 1955,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Punch-in second angle",
@@ -227,13 +269,20 @@
           "seconds": 4,
           "prompt": "a still frame from a film, close-up shot: punch-in second angle, 24mm lens, handheld selfie shot at arm's length, wide-angle 16mm lens, bright natural window light, casual direct address, 16:9 4K, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "creator-vlog/2.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1956,
-          "steps": 4,
+          "base_seed": 1956,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "B-roll of the place",
@@ -243,13 +292,20 @@
           "seconds": 3,
           "prompt": "a still frame from a film, wide shot: b-roll of the place, 24mm lens, handheld selfie shot at arm's length, wide-angle 16mm lens, bright natural window light, casual direct address, 16:9 4K, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "creator-vlog/3.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
-          "seed": 1957,
-          "steps": 4,
+          "seed": 2957,
+          "base_seed": 1957,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 2,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Detail cut-away",
@@ -259,13 +315,20 @@
           "seconds": 2,
           "prompt": "a still frame from a film, close-up shot: detail cut-away, 35mm lens, handheld selfie shot at arm's length, wide-angle 16mm lens, bright natural window light, casual direct address, 16:9 4K, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "creator-vlog/4.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
-          "seed": 1958,
-          "steps": 4,
+          "seed": 3958,
+          "base_seed": 1958,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 3,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Story beat to camera",
@@ -275,13 +338,20 @@
           "seconds": 8,
           "prompt": "a still frame from a film, medium close-up shot: story beat to camera, 16mm lens, handheld selfie shot at arm's length, wide-angle 16mm lens, bright natural window light, casual direct address, 16:9 4K, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "creator-vlog/5.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1959,
-          "steps": 4,
+          "base_seed": 1959,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         }
       ]
     },
@@ -322,13 +392,20 @@
           "seconds": 45,
           "prompt": "a still frame from a film, medium close-up shot: table speech, 50mm lens, Dogme 95 film, handheld camera, available light only, 4:3 standard-definition video look, real location with no set dressing, focus hunting, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "dogme-95/2.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
-          "seed": 1956,
-          "steps": 4,
+          "seed": 2956,
+          "base_seed": 1956,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 2,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Reaction",
@@ -354,13 +431,20 @@
           "seconds": 30,
           "prompt": "a still frame from a film, medium shot: corridor argument, 35mm lens, Dogme 95 film, handheld camera, available light only, 4:3 standard-definition video look, real location with no set dressing, focus hunting, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "dogme-95/4.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1958,
-          "steps": 4,
+          "base_seed": 1958,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Window face",
@@ -385,10 +469,10 @@
       "kind": "reel",
       "subject": "Walk and talk",
       "prompt": "a still frame from a film, medium shot: walk and talk, 35mm lens, 1960s French New Wave film, black and white 35mm pushed stock, handheld tracking shot on a Paris street, available light, 1.37:1 frame, visible film grain, actor looks into the camera, freeze frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium close-up shot: jump cut in the car, 35mm lens, 1960s French New Wave film, black and white 35mm pushed stock, handheld tracking shot on a Paris street, available light, 1.37:1 frame, visible film grain, actor looks into the camera, freeze frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: look into the lens, 50mm lens, 1960s French New Wave film, black and white 35mm pushed stock, handheld tracking shot on a Paris street, available light, 1.37:1 frame, visible film grain, actor looks into the camera, freeze frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: street track, 28mm lens, 1960s French New Wave film, black and white 35mm pushed stock, handheld tracking shot on a Paris street, available light, 1.37:1 frame, visible film grain, actor looks into the camera, freeze frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: freeze frame, 50mm lens, 1960s French New Wave film, black and white 35mm pushed stock, handheld tracking shot on a Paris street, available light, 1.37:1 frame, visible film grain, actor looks into the camera, freeze frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
-      "model": "FLUX.2 [klein] 4B",
+      "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
-      "steps": 4,
+      "steps": 9,
       "width": 1152,
       "height": 768,
       "generated": "2026-11-19",
@@ -401,13 +485,20 @@
           "seconds": 25,
           "prompt": "a still frame from a film, medium shot: walk and talk, 35mm lens, 1960s French New Wave film, black and white 35mm pushed stock, handheld tracking shot on a Paris street, available light, 1.37:1 frame, visible film grain, actor looks into the camera, freeze frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "french-new-wave/1.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1955,
-          "steps": 4,
+          "base_seed": 1955,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Jump cut in the car",
@@ -417,13 +508,20 @@
           "seconds": 3,
           "prompt": "a still frame from a film, medium close-up shot: jump cut in the car, 35mm lens, 1960s French New Wave film, black and white 35mm pushed stock, handheld tracking shot on a Paris street, available light, 1.37:1 frame, visible film grain, actor looks into the camera, freeze frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "french-new-wave/2.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1956,
-          "steps": 4,
+          "base_seed": 1956,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Look into the lens",
@@ -433,13 +531,20 @@
           "seconds": 2,
           "prompt": "a still frame from a film, close-up shot: look into the lens, 50mm lens, 1960s French New Wave film, black and white 35mm pushed stock, handheld tracking shot on a Paris street, available light, 1.37:1 frame, visible film grain, actor looks into the camera, freeze frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "french-new-wave/3.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1957,
-          "steps": 4,
+          "base_seed": 1957,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Street track",
@@ -449,13 +554,20 @@
           "seconds": 30,
           "prompt": "a still frame from a film, wide shot: street track, 28mm lens, 1960s French New Wave film, black and white 35mm pushed stock, handheld tracking shot on a Paris street, available light, 1.37:1 frame, visible film grain, actor looks into the camera, freeze frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "french-new-wave/4.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1958,
-          "steps": 4,
+          "base_seed": 1958,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Freeze frame",
@@ -465,13 +577,20 @@
           "seconds": 2,
           "prompt": "a still frame from a film, close-up shot: freeze frame, 50mm lens, 1960s French New Wave film, black and white 35mm pushed stock, handheld tracking shot on a Paris street, available light, 1.37:1 frame, visible film grain, actor looks into the camera, freeze frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "french-new-wave/5.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1959,
-          "steps": 4,
+          "base_seed": 1959,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         }
       ]
     },
@@ -512,13 +631,20 @@
           "seconds": 7,
           "prompt": "a still frame from a film, medium shot: figure enters, 50mm lens, 1920s German Expressionist silent film, black and white with amber tint, painted sets with skewed perspective, hard single-source light, long shadow on the wall, 1.33:1 frame, iris-in transition, stylised acting with wide eyes, 35mm film grain, deep shadow at 8:1, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "german-expressionist-cinema/2.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1956,
-          "steps": 4,
+          "base_seed": 1956,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Shadow on the wall",
@@ -574,11 +700,11 @@
       "file": "soviet-montage/1.webp",
       "kind": "reel",
       "subject": "Crowd on stair",
-      "prompt": "a still frame from a film, wide shot: crowd on stair, 28mm lens, 1920s Soviet montage film, rapid collision cuts, steep low-angle shot, diagonal composition, black and white 35mm grain, 1.33:1 frame, crowd as a mass, machine close-ups, double exposure and split screen, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: face of a worker, 75mm lens, 1920s Soviet montage film, rapid collision cuts, steep low-angle shot, diagonal composition, black and white 35mm grain, 1.33:1 frame, crowd as a mass, machine close-ups, double exposure and split screen, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, extreme close-up shot: machine detail, 50mm lens, 1920s Soviet montage film, rapid collision cuts, steep low-angle shot, diagonal composition, black and white 35mm grain, 1.33:1 frame, crowd as a mass, machine close-ups, double exposure and split screen, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: raised fist, 35mm lens, 1920s Soviet montage film, rapid collision cuts, steep low-angle shot, diagonal composition, black and white 35mm grain, 1.33:1 frame, crowd as a mass, machine close-ups, double exposure and split screen, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: moving tram, 35mm lens, 1920s Soviet montage film, rapid collision cuts, steep low-angle shot, diagonal composition, black and white 35mm grain, 1.33:1 frame, crowd as a mass, machine close-ups, double exposure and split screen, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
-      "model": "FLUX.2 [klein] 4B",
+      "prompt": "a still frame from a film, wide shot: crowd on stair, 28mm lens, steep low-angle shot, diagonal composition, black and white 35mm grain, 1.33:1 frame, crowd as a mass, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: face of a worker, 75mm lens, steep low-angle shot, diagonal composition, black and white 35mm grain, 1.33:1 frame, crowd as a mass, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, extreme close-up shot: machine detail, 50mm lens, steep low-angle shot, diagonal composition, black and white 35mm grain, 1.33:1 frame, crowd as a mass, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: raised fist, 35mm lens, steep low-angle shot, diagonal composition, black and white 35mm grain, 1.33:1 frame, crowd as a mass, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: moving tram, 35mm lens, steep low-angle shot, diagonal composition, black and white 35mm grain, 1.33:1 frame, crowd as a mass, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+      "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
-      "steps": 4,
+      "steps": 9,
       "width": 1152,
       "height": 768,
       "generated": "2026-11-19",
@@ -589,15 +715,22 @@
           "lens": "28mm",
           "movement": "locked off, high angle",
           "seconds": 3,
-          "prompt": "a still frame from a film, wide shot: crowd on stair, 28mm lens, 1920s Soviet montage film, rapid collision cuts, steep low-angle shot, diagonal composition, black and white 35mm grain, 1.33:1 frame, crowd as a mass, machine close-ups, double exposure and split screen, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, wide shot: crowd on stair, 28mm lens, steep low-angle shot, diagonal composition, black and white 35mm grain, 1.33:1 frame, crowd as a mass, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "soviet-montage/1.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1955,
-          "steps": 4,
+          "base_seed": 1955,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Face of a worker",
@@ -605,15 +738,22 @@
           "lens": "75mm",
           "movement": "locked off",
           "seconds": 2,
-          "prompt": "a still frame from a film, close-up shot: face of a worker, 75mm lens, 1920s Soviet montage film, rapid collision cuts, steep low-angle shot, diagonal composition, black and white 35mm grain, 1.33:1 frame, crowd as a mass, machine close-ups, double exposure and split screen, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, close-up shot: face of a worker, 75mm lens, steep low-angle shot, diagonal composition, black and white 35mm grain, 1.33:1 frame, crowd as a mass, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "soviet-montage/2.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1956,
-          "steps": 4,
+          "base_seed": 1956,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Machine detail",
@@ -621,15 +761,22 @@
           "lens": "50mm",
           "movement": "locked off",
           "seconds": 1.5,
-          "prompt": "a still frame from a film, extreme close-up shot: machine detail, 50mm lens, 1920s Soviet montage film, rapid collision cuts, steep low-angle shot, diagonal composition, black and white 35mm grain, 1.33:1 frame, crowd as a mass, machine close-ups, double exposure and split screen, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, extreme close-up shot: machine detail, 50mm lens, steep low-angle shot, diagonal composition, black and white 35mm grain, 1.33:1 frame, crowd as a mass, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "soviet-montage/3.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
-          "seed": 1957,
-          "steps": 4,
+          "seed": 2957,
+          "base_seed": 1957,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 2,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Raised fist",
@@ -637,15 +784,22 @@
           "lens": "35mm",
           "movement": "low angle, locked off",
           "seconds": 2,
-          "prompt": "a still frame from a film, medium shot: raised fist, 35mm lens, 1920s Soviet montage film, rapid collision cuts, steep low-angle shot, diagonal composition, black and white 35mm grain, 1.33:1 frame, crowd as a mass, machine close-ups, double exposure and split screen, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, medium shot: raised fist, 35mm lens, steep low-angle shot, diagonal composition, black and white 35mm grain, 1.33:1 frame, crowd as a mass, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "soviet-montage/4.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1958,
-          "steps": 4,
+          "base_seed": 1958,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Moving tram",
@@ -653,15 +807,22 @@
           "lens": "35mm",
           "movement": "tracking 8 m/s",
           "seconds": 3,
-          "prompt": "a still frame from a film, wide shot: moving tram, 35mm lens, 1920s Soviet montage film, rapid collision cuts, steep low-angle shot, diagonal composition, black and white 35mm grain, 1.33:1 frame, crowd as a mass, machine close-ups, double exposure and split screen, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, wide shot: moving tram, 35mm lens, steep low-angle shot, diagonal composition, black and white 35mm grain, 1.33:1 frame, crowd as a mass, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "soviet-montage/5.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
-          "seed": 1959,
-          "steps": 4,
+          "seed": 4959,
+          "base_seed": 1959,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 4,
+            "ok": true,
+            "defects": []
+          }
         }
       ]
     },
@@ -669,11 +830,11 @@
       "file": "vertical-short-form/1.webp",
       "kind": "reel",
       "subject": "Hook to camera",
-      "prompt": "a still frame from a film, close-up shot: hook to camera, 24mm lens, vertical 9:16 short video, phone footage, bright saturated colour, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: punch-in beat, 24mm lens, vertical 9:16 short video, phone footage, bright saturated colour, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: detail or demo, 24mm lens, vertical 9:16 short video, phone footage, bright saturated colour, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: whip transition, 13mm lens, vertical 9:16 short video, phone footage, bright saturated colour, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: payoff, 24mm lens, vertical 9:16 short video, phone footage, bright saturated colour, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
-      "model": "FLUX.2 [klein] 4B",
+      "prompt": "a still frame from a film, close-up shot: hook to camera, a young woman talks to her phone camera in a bright bedroom, 24mm lens, vertical 9:16 short video, phone footage, ring light on the face, bright saturated colour, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: punch-in beat, a young woman talks to her phone camera in a bright bedroom, 24mm lens, vertical 9:16 short video, phone footage, ring light on the face, bright saturated colour, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: detail or demo, a young woman talks to her phone camera in a bright bedroom, 24mm lens, vertical 9:16 short video, phone footage, ring light on the face, bright saturated colour, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: whip transition, a young woman talks to her phone camera in a bright bedroom, 13mm lens, vertical 9:16 short video, phone footage, ring light on the face, bright saturated colour, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: payoff, a young woman talks to her phone camera in a bright bedroom, 24mm lens, vertical 9:16 short video, phone footage, ring light on the face, bright saturated colour, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+      "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 1955,
-      "steps": 4,
+      "seed": 2955,
+      "steps": 9,
       "width": 768,
       "height": 1152,
       "generated": "2026-11-19",
@@ -684,15 +845,22 @@
           "lens": "24mm",
           "movement": "handheld arm",
           "seconds": 2,
-          "prompt": "a still frame from a film, close-up shot: hook to camera, 24mm lens, vertical 9:16 short video, phone footage, bright saturated colour, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, close-up shot: hook to camera, a young woman talks to her phone camera in a bright bedroom, 24mm lens, vertical 9:16 short video, phone footage, ring light on the face, bright saturated colour, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "vertical-short-form/1.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
-          "seed": 1955,
-          "steps": 4,
+          "seed": 2955,
+          "base_seed": 1955,
+          "steps": 9,
           "width": 768,
           "height": 1152,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 2,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Punch-in beat",
@@ -700,15 +868,22 @@
           "lens": "24mm",
           "movement": "15% punch-in",
           "seconds": 2,
-          "prompt": "a still frame from a film, close-up shot: punch-in beat, 24mm lens, vertical 9:16 short video, phone footage, bright saturated colour, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, close-up shot: punch-in beat, a young woman talks to her phone camera in a bright bedroom, 24mm lens, vertical 9:16 short video, phone footage, ring light on the face, bright saturated colour, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "vertical-short-form/2.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
-          "seed": 1956,
-          "steps": 4,
+          "seed": 2956,
+          "base_seed": 1956,
+          "steps": 9,
           "width": 768,
           "height": 1152,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 2,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Detail or demo",
@@ -716,15 +891,22 @@
           "lens": "24mm",
           "movement": "static",
           "seconds": 2.5,
-          "prompt": "a still frame from a film, close-up shot: detail or demo, 24mm lens, vertical 9:16 short video, phone footage, bright saturated colour, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, close-up shot: detail or demo, a young woman talks to her phone camera in a bright bedroom, 24mm lens, vertical 9:16 short video, phone footage, ring light on the face, bright saturated colour, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "vertical-short-form/3.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
-          "seed": 1957,
-          "steps": 4,
+          "seed": 2957,
+          "base_seed": 1957,
+          "steps": 9,
           "width": 768,
           "height": 1152,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 2,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Whip transition",
@@ -732,15 +914,22 @@
           "lens": "13mm",
           "movement": "whip pan 180°/s",
           "seconds": 0.5,
-          "prompt": "a still frame from a film, medium shot: whip transition, 13mm lens, vertical 9:16 short video, phone footage, bright saturated colour, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, medium shot: whip transition, a young woman talks to her phone camera in a bright bedroom, 13mm lens, vertical 9:16 short video, phone footage, ring light on the face, bright saturated colour, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "vertical-short-form/4.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1958,
-          "steps": 4,
+          "base_seed": 1958,
+          "steps": 9,
           "width": 768,
           "height": 1152,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Payoff",
@@ -748,15 +937,22 @@
           "lens": "24mm",
           "movement": "handheld",
           "seconds": 3,
-          "prompt": "a still frame from a film, medium shot: payoff, 24mm lens, vertical 9:16 short video, phone footage, bright saturated colour, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, medium shot: payoff, a young woman talks to her phone camera in a bright bedroom, 24mm lens, vertical 9:16 short video, phone footage, ring light on the face, bright saturated colour, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "vertical-short-form/5.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1959,
-          "steps": 4,
+          "base_seed": 1959,
+          "steps": 9,
           "width": 768,
           "height": 1152,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         }
       ]
     },
@@ -764,11 +960,11 @@
       "file": "classical-hollywood/1.webp",
       "kind": "reel",
       "subject": "Establishing shot",
-      "prompt": "a still frame from a film, wide shot: establishing shot, 35mm lens, 1940s Hollywood studio film, three-point lighting, glamour close-up with soft diffusion, 1.37:1 frame, black and white 35mm, Technicolor saturated red and blue, smooth dolly move, studio back lot, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: master shot of the scene, 40mm lens, 1940s Hollywood studio film, three-point lighting, glamour close-up with soft diffusion, 1.37:1 frame, black and white 35mm, Technicolor saturated red and blue, smooth dolly move, studio back lot, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: medium two-shot, 50mm lens, 1940s Hollywood studio film, three-point lighting, glamour close-up with soft diffusion, 1.37:1 frame, black and white 35mm, Technicolor saturated red and blue, smooth dolly move, studio back lot, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: close-up on the key line, 75mm lens, 1940s Hollywood studio film, three-point lighting, glamour close-up with soft diffusion, 1.37:1 frame, black and white 35mm, Technicolor saturated red and blue, smooth dolly move, studio back lot, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: reverse close-up, 75mm lens, 1940s Hollywood studio film, three-point lighting, glamour close-up with soft diffusion, 1.37:1 frame, black and white 35mm, Technicolor saturated red and blue, smooth dolly move, studio back lot, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
-      "model": "FLUX.2 [klein] 4B",
+      "prompt": "a still frame from a film, wide shot: establishing shot, 35mm lens, 1940s Hollywood studio film, three-point lighting, 1.37:1 frame, black and white 35mm, Technicolor saturated red and blue, smooth dolly move, studio back lot, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: master shot of the scene, 40mm lens, 1940s Hollywood studio film, three-point lighting, 1.37:1 frame, black and white 35mm, Technicolor saturated red and blue, smooth dolly move, studio back lot, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: medium two-shot, 50mm lens, 1940s Hollywood studio film, three-point lighting, 1.37:1 frame, black and white 35mm, Technicolor saturated red and blue, smooth dolly move, studio back lot, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: close-up on the key line, 75mm lens, 1940s Hollywood studio film, three-point lighting, 1.37:1 frame, black and white 35mm, Technicolor saturated red and blue, smooth dolly move, studio back lot, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: reverse close-up, 75mm lens, 1940s Hollywood studio film, three-point lighting, 1.37:1 frame, black and white 35mm, Technicolor saturated red and blue, smooth dolly move, studio back lot, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+      "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
-      "steps": 4,
+      "steps": 9,
       "width": 1152,
       "height": 768,
       "generated": "2026-11-19",
@@ -779,15 +975,22 @@
           "lens": "35mm",
           "movement": "crane down 0.5 m/s",
           "seconds": 5,
-          "prompt": "a still frame from a film, wide shot: establishing shot, 35mm lens, 1940s Hollywood studio film, three-point lighting, glamour close-up with soft diffusion, 1.37:1 frame, black and white 35mm, Technicolor saturated red and blue, smooth dolly move, studio back lot, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, wide shot: establishing shot, 35mm lens, 1940s Hollywood studio film, three-point lighting, 1.37:1 frame, black and white 35mm, Technicolor saturated red and blue, smooth dolly move, studio back lot, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "classical-hollywood/1.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1955,
-          "steps": 4,
+          "base_seed": 1955,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Master shot of the scene",
@@ -795,15 +998,22 @@
           "lens": "40mm",
           "movement": "dolly 0.3 m/s",
           "seconds": 20,
-          "prompt": "a still frame from a film, wide shot: master shot of the scene, 40mm lens, 1940s Hollywood studio film, three-point lighting, glamour close-up with soft diffusion, 1.37:1 frame, black and white 35mm, Technicolor saturated red and blue, smooth dolly move, studio back lot, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, wide shot: master shot of the scene, 40mm lens, 1940s Hollywood studio film, three-point lighting, 1.37:1 frame, black and white 35mm, Technicolor saturated red and blue, smooth dolly move, studio back lot, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "classical-hollywood/2.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1956,
-          "steps": 4,
+          "base_seed": 1956,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Medium two-shot",
@@ -811,15 +1021,22 @@
           "lens": "50mm",
           "movement": "locked off",
           "seconds": 10,
-          "prompt": "a still frame from a film, medium shot: medium two-shot, 50mm lens, 1940s Hollywood studio film, three-point lighting, glamour close-up with soft diffusion, 1.37:1 frame, black and white 35mm, Technicolor saturated red and blue, smooth dolly move, studio back lot, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, medium shot: medium two-shot, 50mm lens, 1940s Hollywood studio film, three-point lighting, 1.37:1 frame, black and white 35mm, Technicolor saturated red and blue, smooth dolly move, studio back lot, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "classical-hollywood/3.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1957,
-          "steps": 4,
+          "base_seed": 1957,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Close-up on the key line",
@@ -827,15 +1044,22 @@
           "lens": "75mm",
           "movement": "locked off",
           "seconds": 6,
-          "prompt": "a still frame from a film, close-up shot: close-up on the key line, 75mm lens, 1940s Hollywood studio film, three-point lighting, glamour close-up with soft diffusion, 1.37:1 frame, black and white 35mm, Technicolor saturated red and blue, smooth dolly move, studio back lot, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, close-up shot: close-up on the key line, 75mm lens, 1940s Hollywood studio film, three-point lighting, 1.37:1 frame, black and white 35mm, Technicolor saturated red and blue, smooth dolly move, studio back lot, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "classical-hollywood/4.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
-          "seed": 1958,
-          "steps": 4,
+          "seed": 2958,
+          "base_seed": 1958,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 2,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Reverse close-up",
@@ -843,15 +1067,22 @@
           "lens": "75mm",
           "movement": "locked off",
           "seconds": 5,
-          "prompt": "a still frame from a film, close-up shot: reverse close-up, 75mm lens, 1940s Hollywood studio film, three-point lighting, glamour close-up with soft diffusion, 1.37:1 frame, black and white 35mm, Technicolor saturated red and blue, smooth dolly move, studio back lot, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, close-up shot: reverse close-up, 75mm lens, 1940s Hollywood studio film, three-point lighting, 1.37:1 frame, black and white 35mm, Technicolor saturated red and blue, smooth dolly move, studio back lot, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "classical-hollywood/5.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1959,
-          "steps": 4,
+          "base_seed": 1959,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         }
       ]
     },
@@ -859,11 +1090,11 @@
       "file": "documentary-verite/1.webp",
       "kind": "reel",
       "subject": "Follow into a room",
-      "prompt": "a still frame from a film, medium shot: follow into a room, 12mm (16mm format) lens, 1960s observational documentary, handheld 16mm, available light, grainy black and white, 1.33:1 frame, unscripted conversation, burned-out window, flash frame at a roll change, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: long take of a conversation, 25mm (16mm format) lens, 1960s observational documentary, handheld 16mm, available light, grainy black and white, 1.33:1 frame, unscripted conversation, burned-out window, flash frame at a roll change, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: face during a pause, 25mm (16mm format) lens, 1960s observational documentary, handheld 16mm, available light, grainy black and white, 1.33:1 frame, zoom to find a face, unscripted conversation, burned-out window, flash frame at a roll change, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: crowd and stage, 10mm (16mm format) lens, 1960s observational documentary, handheld 16mm, available light, grainy black and white, 1.33:1 frame, zoom to find a face, unscripted conversation, burned-out window, flash frame at a roll change, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: interview in the street, 12mm (16mm format) lens, 1960s observational documentary, handheld 16mm, available light, grainy black and white, 1.33:1 frame, unscripted conversation, burned-out window, flash frame at a roll change, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
-      "model": "FLUX.2 [klein] 4B",
+      "prompt": "a still frame from a film, medium shot: follow into a room, 12mm (16mm format) lens, 1960s observational documentary, handheld 16mm, available light, grainy black and white, 1.33:1 frame, unscripted conversation, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: long take of a conversation, 25mm (16mm format) lens, 1960s observational documentary, handheld 16mm, available light, grainy black and white, 1.33:1 frame, unscripted conversation, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: face during a pause, 25mm (16mm format) lens, 1960s observational documentary, handheld 16mm, available light, grainy black and white, 1.33:1 frame, zoom to find a face, unscripted conversation, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: crowd and stage, 10mm (16mm format) lens, 1960s observational documentary, handheld 16mm, available light, grainy black and white, 1.33:1 frame, zoom to find a face, unscripted conversation, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: interview in the street, 12mm (16mm format) lens, 1960s observational documentary, handheld 16mm, available light, grainy black and white, 1.33:1 frame, unscripted conversation, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+      "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
-      "steps": 4,
+      "steps": 9,
       "width": 1152,
       "height": 768,
       "generated": "2026-11-19",
@@ -874,15 +1105,22 @@
           "lens": "12mm (16mm format)",
           "movement": "handheld follow 1.2 m/s",
           "seconds": 25,
-          "prompt": "a still frame from a film, medium shot: follow into a room, 12mm (16mm format) lens, 1960s observational documentary, handheld 16mm, available light, grainy black and white, 1.33:1 frame, unscripted conversation, burned-out window, flash frame at a roll change, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, medium shot: follow into a room, 12mm (16mm format) lens, 1960s observational documentary, handheld 16mm, available light, grainy black and white, 1.33:1 frame, unscripted conversation, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "documentary-verite/1.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1955,
-          "steps": 4,
+          "base_seed": 1955,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Long take of a conversation",
@@ -890,15 +1128,22 @@
           "lens": "25mm (16mm format)",
           "movement": "handheld, zoom over 2 s",
           "seconds": 60,
-          "prompt": "a still frame from a film, medium shot: long take of a conversation, 25mm (16mm format) lens, 1960s observational documentary, handheld 16mm, available light, grainy black and white, 1.33:1 frame, unscripted conversation, burned-out window, flash frame at a roll change, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, medium shot: long take of a conversation, 25mm (16mm format) lens, 1960s observational documentary, handheld 16mm, available light, grainy black and white, 1.33:1 frame, unscripted conversation, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "documentary-verite/2.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1956,
-          "steps": 4,
+          "base_seed": 1956,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Face during a pause",
@@ -906,15 +1151,22 @@
           "lens": "25mm (16mm format)",
           "movement": "handheld",
           "seconds": 6,
-          "prompt": "a still frame from a film, close-up shot: face during a pause, 25mm (16mm format) lens, 1960s observational documentary, handheld 16mm, available light, grainy black and white, 1.33:1 frame, zoom to find a face, unscripted conversation, burned-out window, flash frame at a roll change, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, close-up shot: face during a pause, 25mm (16mm format) lens, 1960s observational documentary, handheld 16mm, available light, grainy black and white, 1.33:1 frame, zoom to find a face, unscripted conversation, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "documentary-verite/3.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1957,
-          "steps": 4,
+          "base_seed": 1957,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Crowd and stage",
@@ -922,15 +1174,22 @@
           "lens": "10mm (16mm format)",
           "movement": "handheld pan 20° per second",
           "seconds": 15,
-          "prompt": "a still frame from a film, wide shot: crowd and stage, 10mm (16mm format) lens, 1960s observational documentary, handheld 16mm, available light, grainy black and white, 1.33:1 frame, zoom to find a face, unscripted conversation, burned-out window, flash frame at a roll change, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, wide shot: crowd and stage, 10mm (16mm format) lens, 1960s observational documentary, handheld 16mm, available light, grainy black and white, 1.33:1 frame, zoom to find a face, unscripted conversation, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "documentary-verite/4.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
-          "seed": 1958,
-          "steps": 4,
+          "seed": 4958,
+          "base_seed": 1958,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 4,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Interview in the street",
@@ -938,15 +1197,22 @@
           "lens": "12mm (16mm format)",
           "movement": "handheld",
           "seconds": 20,
-          "prompt": "a still frame from a film, medium shot: interview in the street, 12mm (16mm format) lens, 1960s observational documentary, handheld 16mm, available light, grainy black and white, 1.33:1 frame, unscripted conversation, burned-out window, flash frame at a roll change, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, medium shot: interview in the street, 12mm (16mm format) lens, 1960s observational documentary, handheld 16mm, available light, grainy black and white, 1.33:1 frame, unscripted conversation, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "documentary-verite/5.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
-          "seed": 1959,
-          "steps": 4,
+          "seed": 3959,
+          "base_seed": 1959,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 3,
+            "ok": true,
+            "defects": []
+          }
         }
       ]
     },
@@ -954,11 +1220,11 @@
       "file": "film-noir/1.webp",
       "kind": "reel",
       "subject": "Street at night in rain",
-      "prompt": "a still frame from a film, wide shot: street at night in rain, 25mm lens, black and white crime film, hard single key light, low camera, tilted 10 degrees, rain on a night street, cigarette smoke in a light beam, deep focus, 3 planes, 1.37:1 frame, grainy 35mm, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: face lit by a blind, 35mm lens, black and white crime film, hard single key light, venetian blind shadows on a face, low camera, tilted 10 degrees, rain on a night street, cigarette smoke in a light beam, deep focus, 3 planes, 1.37:1 frame, grainy 35mm, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: hero in a doorway, 3 planes deep, 28mm lens, black and white crime film, hard single key light, low camera, tilted 10 degrees, rain on a night street, cigarette smoke in a light beam, deep focus, 3 planes, 1.37:1 frame, grainy 35mm, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, two-shot shot: talk in a car, 35mm lens, black and white crime film, hard single key light, low camera, tilted 10 degrees, rain on a night street, cigarette smoke in a light beam, deep focus, 3 planes, 1.37:1 frame, grainy 35mm, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, insert shot: gun in a hand under a lamp, 50mm lens, black and white crime film, hard single key light, venetian blind shadows on a face, low camera, tilted 10 degrees, rain on a night street, cigarette smoke in a light beam, deep focus, 3 planes, 1.37:1 frame, grainy 35mm, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
-      "model": "FLUX.2 [klein] 4B",
+      "prompt": "a still frame from a film, wide shot: street at night in rain, 25mm lens, black and white crime film, hard single key light, low camera, tilted 10 degrees, rain on a night street, cigarette smoke in a light beam, 1.37:1 frame, grainy 35mm, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: face lit by a blind, 35mm lens, black and white crime film, hard single key light, venetian blind shadows on a face, low camera, tilted 10 degrees, rain on a night street, cigarette smoke in a light beam, 1.37:1 frame, grainy 35mm, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: hero in a doorway, 3 planes deep, 28mm lens, black and white crime film, hard single key light, low camera, tilted 10 degrees, rain on a night street, cigarette smoke in a light beam, 1.37:1 frame, grainy 35mm, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, two-shot shot: talk in a car, 35mm lens, black and white crime film, hard single key light, low camera, tilted 10 degrees, rain on a night street, cigarette smoke in a light beam, 1.37:1 frame, grainy 35mm, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, insert shot: gun in a hand under a lamp, 50mm lens, black and white crime film, hard single key light, venetian blind shadows on a face, low camera, tilted 10 degrees, rain on a night street, cigarette smoke in a light beam, 1.37:1 frame, grainy 35mm, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+      "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
-      "steps": 4,
+      "steps": 9,
       "width": 1152,
       "height": 768,
       "generated": "2026-11-19",
@@ -969,15 +1235,22 @@
           "lens": "25mm",
           "movement": "slow dolly 0.5 m/s",
           "seconds": 8,
-          "prompt": "a still frame from a film, wide shot: street at night in rain, 25mm lens, black and white crime film, hard single key light, low camera, tilted 10 degrees, rain on a night street, cigarette smoke in a light beam, deep focus, 3 planes, 1.37:1 frame, grainy 35mm, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, wide shot: street at night in rain, 25mm lens, black and white crime film, hard single key light, low camera, tilted 10 degrees, rain on a night street, cigarette smoke in a light beam, 1.37:1 frame, grainy 35mm, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "film-noir/1.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1955,
-          "steps": 4,
+          "base_seed": 1955,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Face lit by a blind",
@@ -985,15 +1258,22 @@
           "lens": "35mm",
           "movement": "static",
           "seconds": 6,
-          "prompt": "a still frame from a film, close-up shot: face lit by a blind, 35mm lens, black and white crime film, hard single key light, venetian blind shadows on a face, low camera, tilted 10 degrees, rain on a night street, cigarette smoke in a light beam, deep focus, 3 planes, 1.37:1 frame, grainy 35mm, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, close-up shot: face lit by a blind, 35mm lens, black and white crime film, hard single key light, venetian blind shadows on a face, low camera, tilted 10 degrees, rain on a night street, cigarette smoke in a light beam, 1.37:1 frame, grainy 35mm, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "film-noir/2.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1956,
-          "steps": 4,
+          "base_seed": 1956,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Hero in a doorway, 3 planes deep",
@@ -1001,15 +1281,22 @@
           "lens": "28mm",
           "movement": "static, low angle 0.7 m",
           "seconds": 7,
-          "prompt": "a still frame from a film, medium shot: hero in a doorway, 3 planes deep, 28mm lens, black and white crime film, hard single key light, low camera, tilted 10 degrees, rain on a night street, cigarette smoke in a light beam, deep focus, 3 planes, 1.37:1 frame, grainy 35mm, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, medium shot: hero in a doorway, 3 planes deep, 28mm lens, black and white crime film, hard single key light, low camera, tilted 10 degrees, rain on a night street, cigarette smoke in a light beam, 1.37:1 frame, grainy 35mm, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "film-noir/3.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1957,
-          "steps": 4,
+          "base_seed": 1957,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Talk in a car",
@@ -1017,15 +1304,24 @@
           "lens": "35mm",
           "movement": "static or slow push-in",
           "seconds": 20,
-          "prompt": "a still frame from a film, two-shot shot: talk in a car, 35mm lens, black and white crime film, hard single key light, low camera, tilted 10 degrees, rain on a night street, cigarette smoke in a light beam, deep focus, 3 planes, 1.37:1 frame, grainy 35mm, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, two-shot shot: talk in a car, 35mm lens, black and white crime film, hard single key light, low camera, tilted 10 degrees, rain on a night street, cigarette smoke in a light beam, 1.37:1 frame, grainy 35mm, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "film-noir/4.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1958,
-          "steps": 4,
+          "base_seed": 1958,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 4,
+            "ok": false,
+            "defects": [
+              "readable license plate digits '24600' on the background car, against the no-text/no-digits prompt"
+            ]
+          }
         },
         {
           "label": "Gun in a hand under a lamp",
@@ -1033,15 +1329,24 @@
           "lens": "50mm",
           "movement": "static",
           "seconds": 2,
-          "prompt": "a still frame from a film, insert shot: gun in a hand under a lamp, 50mm lens, black and white crime film, hard single key light, venetian blind shadows on a face, low camera, tilted 10 degrees, rain on a night street, cigarette smoke in a light beam, deep focus, 3 planes, 1.37:1 frame, grainy 35mm, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, insert shot: gun in a hand under a lamp, 50mm lens, black and white crime film, hard single key light, venetian blind shadows on a face, low camera, tilted 10 degrees, rain on a night street, cigarette smoke in a light beam, 1.37:1 frame, grainy 35mm, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "film-noir/5.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1959,
-          "steps": 4,
+          "base_seed": 1959,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 4,
+            "ok": false,
+            "defects": [
+              "gun hand large in frame: fingers fused/lumpy, not countable as five separate fingers"
+            ]
+          }
         }
       ]
     },
@@ -1145,10 +1450,10 @@
       "kind": "reel",
       "subject": "Black glove takes a knife",
       "prompt": "a still frame from a film, insert shot: black glove takes a knife, 50mm lens, italian giallo, saturated red blue gel light, black gloved killer, point of view camera glide, stylised set with a statue and a painting, loud rock score, 2.35:1 frame, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: point-of-view walk down a corridor, 24mm lens, italian giallo, saturated red blue gel light, black gloved killer, point of view camera glide, stylised set with a statue and a painting, loud rock score, 2.35:1 frame, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: victim lit in a red wash, 24mm lens, italian giallo, saturated red blue gel light, black gloved killer, point of view camera glide, stylised set with a statue and a painting, loud rock score, 2.35:1 frame, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, extreme close-up shot: eye close-up with a reflection, 100mm lens, italian giallo, saturated red blue gel light, black gloved killer, point of view camera glide, stylised set with a statue and a painting, loud rock score, 2.35:1 frame, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: mirror and statue in the room, 18mm lens, italian giallo, saturated red blue gel light, black gloved killer, point of view camera glide, stylised set with a statue and a painting, loud rock score, 2.35:1 frame, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
-      "model": "FLUX.2 [klein] 4B",
+      "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 1955,
-      "steps": 4,
+      "seed": 2955,
+      "steps": 9,
       "width": 1152,
       "height": 768,
       "generated": "2026-11-19",
@@ -1161,13 +1466,20 @@
           "seconds": 3,
           "prompt": "a still frame from a film, insert shot: black glove takes a knife, 50mm lens, italian giallo, saturated red blue gel light, black gloved killer, point of view camera glide, stylised set with a statue and a painting, loud rock score, 2.35:1 frame, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "giallo/1.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
-          "seed": 1955,
-          "steps": 4,
+          "seed": 2955,
+          "base_seed": 1955,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 2,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Point-of-view walk down a corridor",
@@ -1193,13 +1505,20 @@
           "seconds": 8,
           "prompt": "a still frame from a film, medium shot: victim lit in a red wash, 24mm lens, italian giallo, saturated red blue gel light, black gloved killer, point of view camera glide, stylised set with a statue and a painting, loud rock score, 2.35:1 frame, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "giallo/3.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1957,
-          "steps": 4,
+          "base_seed": 1957,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Eye close-up with a reflection",
@@ -1209,13 +1528,20 @@
           "seconds": 3,
           "prompt": "a still frame from a film, extreme close-up shot: eye close-up with a reflection, 100mm lens, italian giallo, saturated red blue gel light, black gloved killer, point of view camera glide, stylised set with a statue and a painting, loud rock score, 2.35:1 frame, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "giallo/4.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1958,
-          "steps": 4,
+          "base_seed": 1958,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Mirror and statue in the room",
@@ -1225,13 +1551,22 @@
           "seconds": 8,
           "prompt": "a still frame from a film, wide shot: mirror and statue in the room, 18mm lens, italian giallo, saturated red blue gel light, black gloved killer, point of view camera glide, stylised set with a statue and a painting, loud rock score, 2.35:1 frame, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "giallo/5.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1959,
-          "steps": 4,
+          "base_seed": 1959,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 4,
+            "ok": false,
+            "defects": [
+              "large foreground gloved hand has fused/uncountable fingers (only the index finger reads, the rest is a lump)"
+            ]
+          }
         }
       ]
     },
@@ -1239,11 +1574,11 @@
       "file": "hong-kong-action/1.webp",
       "kind": "reel",
       "subject": "Hero walks in",
-      "prompt": "a still frame from a film, wide shot: hero walks in, 28mm lens, 1980s Hong Kong action film, anamorphic 2.35:1 frame, slow motion gunfight, wire work leap, neon and sodium light, smoke haze, whole-body wide shot, fast cut at 2 s, dove and shell casings in slow motion, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: draw in slow motion, 50mm lens, 1980s Hong Kong action film, anamorphic 2.35:1 frame, slow motion gunfight, wire work leap, neon and sodium light, smoke haze, whole-body wide shot, fast cut at 2 s, dove and shell casings in slow motion, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: gunfight in a corridor, 35mm lens, 1980s Hong Kong action film, anamorphic 2.35:1 frame, slow motion gunfight, wire work leap, neon and sodium light, smoke haze, whole-body wide shot, fast cut at 2 s, dove and shell casings in slow motion, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: leap and fall, 28mm lens, 1980s Hong Kong action film, anamorphic 2.35:1 frame, slow motion gunfight, wire work leap, neon and sodium light, smoke haze, whole-body wide shot, fast cut at 2 s, dove and shell casings in slow motion, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: close-up of the eyes, 100mm lens, 1980s Hong Kong action film, anamorphic 2.35:1 frame, slow motion gunfight, wire work leap, neon and sodium light, smoke haze, whole-body wide shot, fast cut at 2 s, dove and shell casings in slow motion, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
-      "model": "FLUX.2 [klein] 4B",
+      "prompt": "a still frame from a film, wide shot: hero walks in, 28mm lens, 1980s Hong Kong action film, anamorphic 2.35:1 frame, slow motion gunfight, wire work leap, neon and sodium light, smoke haze, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: draw in slow motion, 50mm lens, 1980s Hong Kong action film, anamorphic 2.35:1 frame, slow motion gunfight, wire work leap, neon and sodium light, smoke haze, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: gunfight in a corridor, 35mm lens, 1980s Hong Kong action film, anamorphic 2.35:1 frame, slow motion gunfight, wire work leap, neon and sodium light, smoke haze, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: leap and fall, 28mm lens, 1980s Hong Kong action film, anamorphic 2.35:1 frame, slow motion gunfight, wire work leap, neon and sodium light, smoke haze, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: close-up of the eyes, 100mm lens, 1980s Hong Kong action film, anamorphic 2.35:1 frame, slow motion gunfight, wire work leap, neon and sodium light, smoke haze, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+      "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 1955,
-      "steps": 4,
+      "seed": 4955,
+      "steps": 9,
       "width": 1152,
       "height": 768,
       "generated": "2026-11-19",
@@ -1254,15 +1589,24 @@
           "lens": "28mm",
           "movement": "dolly 1.0 m/s",
           "seconds": 6,
-          "prompt": "a still frame from a film, wide shot: hero walks in, 28mm lens, 1980s Hong Kong action film, anamorphic 2.35:1 frame, slow motion gunfight, wire work leap, neon and sodium light, smoke haze, whole-body wide shot, fast cut at 2 s, dove and shell casings in slow motion, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, wide shot: hero walks in, 28mm lens, 1980s Hong Kong action film, anamorphic 2.35:1 frame, slow motion gunfight, wire work leap, neon and sodium light, smoke haze, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "hong-kong-action/1.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
-          "seed": 1955,
-          "steps": 4,
+          "seed": 4955,
+          "base_seed": 1955,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 4,
+            "ok": false,
+            "defects": [
+              "readable Chinese characters on neon signs (e.g. 清, 又, and the large red signs at right) despite the no-text prompt"
+            ]
+          }
         },
         {
           "label": "Draw in slow motion",
@@ -1270,15 +1614,24 @@
           "lens": "50mm",
           "movement": "push-in, 96 fps",
           "seconds": 3,
-          "prompt": "a still frame from a film, medium shot: draw in slow motion, 50mm lens, 1980s Hong Kong action film, anamorphic 2.35:1 frame, slow motion gunfight, wire work leap, neon and sodium light, smoke haze, whole-body wide shot, fast cut at 2 s, dove and shell casings in slow motion, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, medium shot: draw in slow motion, 50mm lens, 1980s Hong Kong action film, anamorphic 2.35:1 frame, slow motion gunfight, wire work leap, neon and sodium light, smoke haze, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "hong-kong-action/2.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
-          "seed": 1956,
-          "steps": 4,
+          "seed": 2956,
+          "base_seed": 1956,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 4,
+            "ok": false,
+            "defects": [
+              "readable letters on the left neon signs ('K', 'AGI') despite the no-text prompt"
+            ]
+          }
         },
         {
           "label": "Gunfight in a corridor",
@@ -1286,15 +1639,22 @@
           "lens": "35mm",
           "movement": "handheld 2 m/s",
           "seconds": 8,
-          "prompt": "a still frame from a film, wide shot: gunfight in a corridor, 35mm lens, 1980s Hong Kong action film, anamorphic 2.35:1 frame, slow motion gunfight, wire work leap, neon and sodium light, smoke haze, whole-body wide shot, fast cut at 2 s, dove and shell casings in slow motion, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, wide shot: gunfight in a corridor, 35mm lens, 1980s Hong Kong action film, anamorphic 2.35:1 frame, slow motion gunfight, wire work leap, neon and sodium light, smoke haze, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "hong-kong-action/3.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1957,
-          "steps": 4,
+          "base_seed": 1957,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Leap and fall",
@@ -1302,15 +1662,22 @@
           "lens": "28mm",
           "movement": "drop 3 m/s",
           "seconds": 3,
-          "prompt": "a still frame from a film, wide shot: leap and fall, 28mm lens, 1980s Hong Kong action film, anamorphic 2.35:1 frame, slow motion gunfight, wire work leap, neon and sodium light, smoke haze, whole-body wide shot, fast cut at 2 s, dove and shell casings in slow motion, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, wide shot: leap and fall, 28mm lens, 1980s Hong Kong action film, anamorphic 2.35:1 frame, slow motion gunfight, wire work leap, neon and sodium light, smoke haze, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "hong-kong-action/4.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
-          "seed": 1958,
-          "steps": 4,
+          "seed": 4958,
+          "base_seed": 1958,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 4,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Close-up of the eyes",
@@ -1318,15 +1685,22 @@
           "lens": "100mm",
           "movement": "locked off",
           "seconds": 1,
-          "prompt": "a still frame from a film, close-up shot: close-up of the eyes, 100mm lens, 1980s Hong Kong action film, anamorphic 2.35:1 frame, slow motion gunfight, wire work leap, neon and sodium light, smoke haze, whole-body wide shot, fast cut at 2 s, dove and shell casings in slow motion, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, close-up shot: close-up of the eyes, 100mm lens, 1980s Hong Kong action film, anamorphic 2.35:1 frame, slow motion gunfight, wire work leap, neon and sodium light, smoke haze, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "hong-kong-action/5.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1959,
-          "steps": 4,
+          "base_seed": 1959,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         }
       ]
     },
@@ -1430,10 +1804,10 @@
       "kind": "reel",
       "subject": "Two people on a couch",
       "prompt": "a still frame from a film, two-shot shot: two people on a couch, 35mm lens, mumblecore indie film, handheld small digital camera, available light in a flat, two friends talk on a couch, awkward pause, plain colour, no grade, 16:9 frame, improvised dialogue look, standard definition video noise, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, two-shot shot: talk in a car, 28mm lens, mumblecore indie film, handheld small digital camera, available light in a flat, two friends talk on a couch, awkward pause, plain colour, no grade, 16:9 frame, improvised dialogue look, standard definition video noise, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: a pause and a look away, 50mm lens, mumblecore indie film, handheld small digital camera, available light in a flat, two friends talk on a couch, awkward pause, plain colour, no grade, 16:9 frame, improvised dialogue look, standard definition video noise, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: walk on a street, 35mm lens, mumblecore indie film, handheld small digital camera, available light in a flat, two friends talk on a couch, awkward pause, plain colour, no grade, 16:9 frame, improvised dialogue look, standard definition video noise, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: awkward goodbye in a door, 28mm lens, mumblecore indie film, handheld small digital camera, available light in a flat, two friends talk on a couch, awkward pause, plain colour, no grade, 16:9 frame, improvised dialogue look, standard definition video noise, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
-      "model": "FLUX.2 [klein] 4B",
+      "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
-      "steps": 4,
+      "steps": 9,
       "width": 1152,
       "height": 768,
       "generated": "2026-11-19",
@@ -1446,13 +1820,20 @@
           "seconds": 40,
           "prompt": "a still frame from a film, two-shot shot: two people on a couch, 35mm lens, mumblecore indie film, handheld small digital camera, available light in a flat, two friends talk on a couch, awkward pause, plain colour, no grade, 16:9 frame, improvised dialogue look, standard definition video noise, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "mumblecore/1.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1955,
-          "steps": 4,
+          "base_seed": 1955,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Talk in a car",
@@ -1462,13 +1843,20 @@
           "seconds": 30,
           "prompt": "a still frame from a film, two-shot shot: talk in a car, 28mm lens, mumblecore indie film, handheld small digital camera, available light in a flat, two friends talk on a couch, awkward pause, plain colour, no grade, 16:9 frame, improvised dialogue look, standard definition video noise, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "mumblecore/2.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1956,
-          "steps": 4,
+          "base_seed": 1956,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "A pause and a look away",
@@ -1494,13 +1882,20 @@
           "seconds": 20,
           "prompt": "a still frame from a film, medium shot: walk on a street, 35mm lens, mumblecore indie film, handheld small digital camera, available light in a flat, two friends talk on a couch, awkward pause, plain colour, no grade, 16:9 frame, improvised dialogue look, standard definition video noise, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "mumblecore/4.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1958,
-          "steps": 4,
+          "base_seed": 1958,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Awkward goodbye in a door",
@@ -1524,11 +1919,11 @@
       "file": "music-video/1.webp",
       "kind": "reel",
       "subject": "Artist lip-sync",
-      "prompt": "a still frame from a film, close-up shot: artist lip-sync, 85mm lens, cut on the beat, saturated coloured light, wide lens dance shot, shallow depth of field close-up, hazy beams of light, dancers in formation, speed ramp, signature visual, glossy stylised grade, neon gel light, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: dance ensemble, 16mm lens, cut on the beat, saturated coloured light, wide lens dance shot, shallow depth of field close-up, hazy beams of light, dancers in formation, speed ramp, signature visual, glossy stylised grade, neon gel light, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: concept scene, 35mm lens, cut on the beat, saturated coloured light, wide lens dance shot, shallow depth of field close-up, hazy beams of light, dancers in formation, speed ramp, signature visual, glossy stylised grade, neon gel light, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: colour-wall hero shot, 24mm lens, cut on the beat, saturated coloured light, wide lens dance shot, shallow depth of field close-up, hazy beams of light, dancers in formation, speed ramp, signature visual, glossy stylised grade, neon gel light, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: whip on the drop, 24mm lens, cut on the beat, saturated coloured light, wide lens dance shot, shallow depth of field close-up, hazy beams of light, dancers in formation, speed ramp, signature visual, glossy stylised grade, neon gel light, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
-      "model": "FLUX.2 [klein] 4B",
+      "prompt": "a still frame from a film, close-up shot: artist lip-sync, 85mm lens, saturated coloured light, wide lens dance shot, hazy beams of light, dancers in formation, speed ramp, signature visual, glossy stylised grade, neon gel light, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: dance ensemble, 16mm lens, saturated coloured light, wide lens dance shot, hazy beams of light, dancers in formation, speed ramp, signature visual, glossy stylised grade, neon gel light, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: concept scene, 35mm lens, saturated coloured light, wide lens dance shot, hazy beams of light, dancers in formation, speed ramp, signature visual, glossy stylised grade, neon gel light, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: colour-wall hero shot, 24mm lens, saturated coloured light, wide lens dance shot, hazy beams of light, dancers in formation, speed ramp, signature visual, glossy stylised grade, neon gel light, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: whip on the drop, 24mm lens, saturated coloured light, wide lens dance shot, hazy beams of light, dancers in formation, speed ramp, signature visual, glossy stylised grade, neon gel light, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+      "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
-      "steps": 4,
+      "steps": 9,
       "width": 1152,
       "height": 768,
       "generated": "2026-11-19",
@@ -1539,15 +1934,22 @@
           "lens": "85mm",
           "movement": "push-in over 4 beats",
           "seconds": 4,
-          "prompt": "a still frame from a film, close-up shot: artist lip-sync, 85mm lens, cut on the beat, saturated coloured light, wide lens dance shot, shallow depth of field close-up, hazy beams of light, dancers in formation, speed ramp, signature visual, glossy stylised grade, neon gel light, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, close-up shot: artist lip-sync, 85mm lens, saturated coloured light, wide lens dance shot, hazy beams of light, dancers in formation, speed ramp, signature visual, glossy stylised grade, neon gel light, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "music-video/1.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1955,
-          "steps": 4,
+          "base_seed": 1955,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Dance ensemble",
@@ -1555,15 +1957,22 @@
           "lens": "16mm",
           "movement": "Steadicam orbit 1.5 m/s",
           "seconds": 6,
-          "prompt": "a still frame from a film, wide shot: dance ensemble, 16mm lens, cut on the beat, saturated coloured light, wide lens dance shot, shallow depth of field close-up, hazy beams of light, dancers in formation, speed ramp, signature visual, glossy stylised grade, neon gel light, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, wide shot: dance ensemble, 16mm lens, saturated coloured light, wide lens dance shot, hazy beams of light, dancers in formation, speed ramp, signature visual, glossy stylised grade, neon gel light, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "music-video/2.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1956,
-          "steps": 4,
+          "base_seed": 1956,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Concept scene",
@@ -1571,15 +1980,22 @@
           "lens": "35mm",
           "movement": "dolly 1.0 m/s",
           "seconds": 4,
-          "prompt": "a still frame from a film, medium shot: concept scene, 35mm lens, cut on the beat, saturated coloured light, wide lens dance shot, shallow depth of field close-up, hazy beams of light, dancers in formation, speed ramp, signature visual, glossy stylised grade, neon gel light, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, medium shot: concept scene, 35mm lens, saturated coloured light, wide lens dance shot, hazy beams of light, dancers in formation, speed ramp, signature visual, glossy stylised grade, neon gel light, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "music-video/3.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1957,
-          "steps": 4,
+          "base_seed": 1957,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Colour-wall hero shot",
@@ -1587,15 +2003,22 @@
           "lens": "24mm",
           "movement": "locked off",
           "seconds": 2,
-          "prompt": "a still frame from a film, medium shot: colour-wall hero shot, 24mm lens, cut on the beat, saturated coloured light, wide lens dance shot, shallow depth of field close-up, hazy beams of light, dancers in formation, speed ramp, signature visual, glossy stylised grade, neon gel light, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, medium shot: colour-wall hero shot, 24mm lens, saturated coloured light, wide lens dance shot, hazy beams of light, dancers in formation, speed ramp, signature visual, glossy stylised grade, neon gel light, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "music-video/4.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
-          "seed": 1958,
-          "steps": 4,
+          "seed": 2958,
+          "base_seed": 1958,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 2,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Whip on the drop",
@@ -1603,15 +2026,22 @@
           "lens": "24mm",
           "movement": "whip pan 180° per second",
           "seconds": 1,
-          "prompt": "a still frame from a film, medium shot: whip on the drop, 24mm lens, cut on the beat, saturated coloured light, wide lens dance shot, shallow depth of field close-up, hazy beams of light, dancers in formation, speed ramp, signature visual, glossy stylised grade, neon gel light, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, medium shot: whip on the drop, 24mm lens, saturated coloured light, wide lens dance shot, hazy beams of light, dancers in formation, speed ramp, signature visual, glossy stylised grade, neon gel light, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "music-video/5.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1959,
-          "steps": 4,
+          "base_seed": 1959,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         }
       ]
     },
@@ -1700,13 +2130,20 @@
           "seconds": 4,
           "prompt": "a still frame from a film, insert shot: hands on the wheel, 50mm lens, neon noir, magenta and cyan neon light, wet night street with reflections, symmetric 2.39:1 frame, lone figure in a corridor, synthesizer score, slow dolly, haze and bokeh, clean glossy highlights, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "neon-noir/5.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1959,
-          "steps": 4,
+          "base_seed": 1959,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         }
       ]
     },
@@ -1714,11 +2151,11 @@
       "file": "new-hollywood/1.webp",
       "kind": "reel",
       "subject": "Street from a car",
-      "prompt": "a still frame from a film, wide shot: street from a car, 40mm lens, 1970s American film, anamorphic 2.35:1 frame, grainy 35mm, practical lamps in the frame, long lens compression, desaturated earth tones, handheld in a street, freeze frame ending, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: long dialogue in a room, 50mm lens, 1970s American film, anamorphic 2.35:1 frame, grainy 35mm, practical lamps in the frame, long lens compression, desaturated earth tones, handheld in a street, freeze frame ending, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: zoom into a face, 25 to 250mm zoom lens, 1970s American film, anamorphic 2.35:1 frame, grainy 35mm, practical lamps in the frame, slow zoom into a face, long lens compression, desaturated earth tones, handheld in a street, freeze frame ending, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: long-lens street, 135mm lens, 1970s American film, anamorphic 2.35:1 frame, grainy 35mm, practical lamps in the frame, long lens compression, desaturated earth tones, handheld in a street, freeze frame ending, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: shock of violence, 40mm lens, 1970s American film, anamorphic 2.35:1 frame, grainy 35mm, practical lamps in the frame, long lens compression, desaturated earth tones, handheld in a street, freeze frame ending, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
-      "model": "FLUX.2 [klein] 4B",
+      "prompt": "a still frame from a film, wide shot: street from a car, two men on a 1970s city street, 40mm lens, 1970s American film, anamorphic 2.35:1 frame, grainy 35mm, practical lamps in the frame, long lens compression, desaturated earth tones, handheld in a street, freeze frame ending, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: long dialogue in a room, two men on a 1970s city street, 50mm lens, 1970s American film, anamorphic 2.35:1 frame, grainy 35mm, practical lamps in the frame, long lens compression, desaturated earth tones, handheld in a street, freeze frame ending, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: zoom into a face, two men on a 1970s city street, 25 to 250mm zoom lens, 1970s American film, anamorphic 2.35:1 frame, grainy 35mm, practical lamps in the frame, slow zoom into a face, long lens compression, desaturated earth tones, handheld in a street, freeze frame ending, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: long-lens street, two men on a 1970s city street, 135mm lens, 1970s American film, anamorphic 2.35:1 frame, grainy 35mm, practical lamps in the frame, long lens compression, desaturated earth tones, handheld in a street, freeze frame ending, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: shock of violence, two men on a 1970s city street, 40mm lens, 1970s American film, anamorphic 2.35:1 frame, grainy 35mm, practical lamps in the frame, long lens compression, desaturated earth tones, handheld in a street, freeze frame ending, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+      "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
-      "steps": 4,
+      "steps": 9,
       "width": 1152,
       "height": 768,
       "generated": "2026-11-19",
@@ -1729,15 +2166,22 @@
           "lens": "40mm",
           "movement": "handheld in a car",
           "seconds": 8,
-          "prompt": "a still frame from a film, wide shot: street from a car, 40mm lens, 1970s American film, anamorphic 2.35:1 frame, grainy 35mm, practical lamps in the frame, long lens compression, desaturated earth tones, handheld in a street, freeze frame ending, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, wide shot: street from a car, two men on a 1970s city street, 40mm lens, 1970s American film, anamorphic 2.35:1 frame, grainy 35mm, practical lamps in the frame, long lens compression, desaturated earth tones, handheld in a street, freeze frame ending, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "new-hollywood/1.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1955,
-          "steps": 4,
+          "base_seed": 1955,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Long dialogue in a room",
@@ -1745,15 +2189,24 @@
           "lens": "50mm",
           "movement": "locked off",
           "seconds": 45,
-          "prompt": "a still frame from a film, medium shot: long dialogue in a room, 50mm lens, 1970s American film, anamorphic 2.35:1 frame, grainy 35mm, practical lamps in the frame, long lens compression, desaturated earth tones, handheld in a street, freeze frame ending, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, medium shot: long dialogue in a room, two men on a 1970s city street, 50mm lens, 1970s American film, anamorphic 2.35:1 frame, grainy 35mm, practical lamps in the frame, long lens compression, desaturated earth tones, handheld in a street, freeze frame ending, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "new-hollywood/2.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
-          "seed": 1956,
-          "steps": 4,
+          "seed": 2956,
+          "base_seed": 1956,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 4,
+            "ok": false,
+            "defects": [
+              "left man's hand (centre-left, large in frame) has bunched, overlapping fingers that are not clearly separate or countable as five"
+            ]
+          }
         },
         {
           "label": "Zoom into a face",
@@ -1761,15 +2214,24 @@
           "lens": "25 to 250mm zoom",
           "movement": "slow zoom over 4 s",
           "seconds": 4,
-          "prompt": "a still frame from a film, close-up shot: zoom into a face, 25 to 250mm zoom lens, 1970s American film, anamorphic 2.35:1 frame, grainy 35mm, practical lamps in the frame, slow zoom into a face, long lens compression, desaturated earth tones, handheld in a street, freeze frame ending, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, close-up shot: zoom into a face, two men on a 1970s city street, 25 to 250mm zoom lens, 1970s American film, anamorphic 2.35:1 frame, grainy 35mm, practical lamps in the frame, slow zoom into a face, long lens compression, desaturated earth tones, handheld in a street, freeze frame ending, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "new-hollywood/3.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1957,
-          "steps": 4,
+          "base_seed": 1957,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 4,
+            "ok": false,
+            "defects": [
+              "left hand large in frame has six fingers (extra digit beside thumb)"
+            ]
+          }
         },
         {
           "label": "Long-lens street",
@@ -1777,15 +2239,22 @@
           "lens": "135mm",
           "movement": "locked off",
           "seconds": 6,
-          "prompt": "a still frame from a film, wide shot: long-lens street, 135mm lens, 1970s American film, anamorphic 2.35:1 frame, grainy 35mm, practical lamps in the frame, long lens compression, desaturated earth tones, handheld in a street, freeze frame ending, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, wide shot: long-lens street, two men on a 1970s city street, 135mm lens, 1970s American film, anamorphic 2.35:1 frame, grainy 35mm, practical lamps in the frame, long lens compression, desaturated earth tones, handheld in a street, freeze frame ending, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "new-hollywood/4.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1958,
-          "steps": 4,
+          "base_seed": 1958,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Shock of violence",
@@ -1793,15 +2262,22 @@
           "lens": "40mm",
           "movement": "handheld",
           "seconds": 2,
-          "prompt": "a still frame from a film, medium shot: shock of violence, 40mm lens, 1970s American film, anamorphic 2.35:1 frame, grainy 35mm, practical lamps in the frame, long lens compression, desaturated earth tones, handheld in a street, freeze frame ending, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, medium shot: shock of violence, two men on a 1970s city street, 40mm lens, 1970s American film, anamorphic 2.35:1 frame, grainy 35mm, practical lamps in the frame, long lens compression, desaturated earth tones, handheld in a street, freeze frame ending, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "new-hollywood/5.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1959,
-          "steps": 4,
+          "base_seed": 1959,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         }
       ]
     },
@@ -1809,11 +2285,11 @@
       "file": "one-take-oner/1.webp",
       "kind": "reel",
       "subject": "Walk through a house, rooms in series",
-      "prompt": "a still frame from a film, wide shot: walk through a house, rooms in series, 24mm lens, single continuous take, steadicam follows a character through rooms, no cuts, deep focus with 4 planes of action, 360 degree camera move, real time scene, even practical light, 1.85:1 frame, hidden cut in a dark doorway, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: crane lift out of a street scene, 18mm lens, single continuous take, steadicam follows a character through rooms, no cuts, deep focus with 4 planes of action, 360 degree camera move, real time scene, even practical light, 1.85:1 frame, hidden cut in a dark doorway, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: 360° whip around a table, 24mm lens, single continuous take, steadicam follows a character through rooms, no cuts, deep focus with 4 planes of action, 360 degree camera move, real time scene, even practical light, 1.85:1 frame, hidden cut in a dark doorway, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: hand-off from a car to a runner, 28mm lens, single continuous take, steadicam follows a character through rooms, no cuts, deep focus with 4 planes of action, 360 degree camera move, real time scene, even practical light, 1.85:1 frame, hidden cut in a dark doorway, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: hidden cut in a dark door, 24mm lens, single continuous take, steadicam follows a character through rooms, no cuts, deep focus with 4 planes of action, 360 degree camera move, real time scene, even practical light, 1.85:1 frame, hidden cut in a dark doorway, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
-      "model": "FLUX.2 [klein] 4B",
+      "prompt": "a still frame from a film, wide shot: walk through a house, rooms in series, 24mm lens, single continuous take, steadicam follows a character through rooms, 360 degree camera move, real time scene, even practical light, 1.85:1 frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: crane lift out of a street scene, 18mm lens, single continuous take, steadicam follows a character through rooms, 360 degree camera move, real time scene, even practical light, 1.85:1 frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: 360° whip around a table, 24mm lens, single continuous take, steadicam follows a character through rooms, 360 degree camera move, real time scene, even practical light, 1.85:1 frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: hand-off from a car to a runner, 28mm lens, single continuous take, steadicam follows a character through rooms, 360 degree camera move, real time scene, even practical light, 1.85:1 frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: hidden cut in a dark door, 24mm lens, single continuous take, steadicam follows a character through rooms, 360 degree camera move, real time scene, even practical light, 1.85:1 frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+      "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
-      "steps": 4,
+      "steps": 9,
       "width": 1152,
       "height": 768,
       "generated": "2026-11-19",
@@ -1824,15 +2300,22 @@
           "lens": "24mm",
           "movement": "steadicam follow 1.0 m/s",
           "seconds": 120,
-          "prompt": "a still frame from a film, wide shot: walk through a house, rooms in series, 24mm lens, single continuous take, steadicam follows a character through rooms, no cuts, deep focus with 4 planes of action, 360 degree camera move, real time scene, even practical light, 1.85:1 frame, hidden cut in a dark doorway, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, wide shot: walk through a house, rooms in series, 24mm lens, single continuous take, steadicam follows a character through rooms, 360 degree camera move, real time scene, even practical light, 1.85:1 frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "one-take-oner/1.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1955,
-          "steps": 4,
+          "base_seed": 1955,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Crane lift out of a street scene",
@@ -1840,15 +2323,22 @@
           "lens": "18mm",
           "movement": "crane rise 1 m/s",
           "seconds": 25,
-          "prompt": "a still frame from a film, wide shot: crane lift out of a street scene, 18mm lens, single continuous take, steadicam follows a character through rooms, no cuts, deep focus with 4 planes of action, 360 degree camera move, real time scene, even practical light, 1.85:1 frame, hidden cut in a dark doorway, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, wide shot: crane lift out of a street scene, 18mm lens, single continuous take, steadicam follows a character through rooms, 360 degree camera move, real time scene, even practical light, 1.85:1 frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "one-take-oner/2.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1956,
-          "steps": 4,
+          "base_seed": 1956,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "360° whip around a table",
@@ -1856,15 +2346,22 @@
           "lens": "24mm",
           "movement": "steadicam orbit, 8 s",
           "seconds": 8,
-          "prompt": "a still frame from a film, medium shot: 360° whip around a table, 24mm lens, single continuous take, steadicam follows a character through rooms, no cuts, deep focus with 4 planes of action, 360 degree camera move, real time scene, even practical light, 1.85:1 frame, hidden cut in a dark doorway, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, medium shot: 360° whip around a table, 24mm lens, single continuous take, steadicam follows a character through rooms, 360 degree camera move, real time scene, even practical light, 1.85:1 frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "one-take-oner/3.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1957,
-          "steps": 4,
+          "base_seed": 1957,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Hand-off from a car to a runner",
@@ -1872,15 +2369,24 @@
           "lens": "28mm",
           "movement": "hand-off, 2 operators",
           "seconds": 30,
-          "prompt": "a still frame from a film, medium shot: hand-off from a car to a runner, 28mm lens, single continuous take, steadicam follows a character through rooms, no cuts, deep focus with 4 planes of action, 360 degree camera move, real time scene, even practical light, 1.85:1 frame, hidden cut in a dark doorway, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, medium shot: hand-off from a car to a runner, 28mm lens, single continuous take, steadicam follows a character through rooms, 360 degree camera move, real time scene, even practical light, 1.85:1 frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "one-take-oner/4.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
-          "seed": 1958,
-          "steps": 4,
+          "seed": 4958,
+          "base_seed": 1958,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 4,
+            "ok": false,
+            "defects": [
+              "the two large hands meeting at the centre are fused into one lumpy clasp, with fingers not countable or separate"
+            ]
+          }
         },
         {
           "label": "Hidden cut in a dark door",
@@ -1888,15 +2394,24 @@
           "lens": "24mm",
           "movement": "pass through black",
           "seconds": 2,
-          "prompt": "a still frame from a film, medium shot: hidden cut in a dark door, 24mm lens, single continuous take, steadicam follows a character through rooms, no cuts, deep focus with 4 planes of action, 360 degree camera move, real time scene, even practical light, 1.85:1 frame, hidden cut in a dark doorway, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, medium shot: hidden cut in a dark door, 24mm lens, single continuous take, steadicam follows a character through rooms, 360 degree camera move, real time scene, even practical light, 1.85:1 frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "one-take-oner/5.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1959,
-          "steps": 4,
+          "base_seed": 1959,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": [
+              "tiny unreadable watermark-like mark in bottom-right corner (borderline)"
+            ]
+          }
         }
       ]
     },
@@ -1905,10 +2420,10 @@
       "kind": "reel",
       "subject": "Walk on a street, gimbal",
       "prompt": "a still frame from a film, wide shot: walk on a street, gimbal, 24mm lens, shot on a smartphone, cinema look, wide 24mm lens at close range, gimbal follow, 2.39:1 anamorphic crop, soft natural light, light film grain over a clean image, low angle in a tight space, neutral cinema grade, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: face in a car, 48mm lens, shot on a smartphone, cinema look, wide 24mm lens at close range, gimbal follow, 2.39:1 anamorphic crop, soft natural light, locked exposure on the face, light film grain over a clean image, low angle in a tight space, neutral cinema grade, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: low angle on a stair, 24mm lens, shot on a smartphone, cinema look, wide 24mm lens at close range, gimbal follow, 2.39:1 anamorphic crop, soft natural light, light film grain over a clean image, low angle in a tight space, neutral cinema grade, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, two-shot shot: two people in a small room, 24mm lens, shot on a smartphone, cinema look, wide 24mm lens at close range, gimbal follow, 2.39:1 anamorphic crop, soft natural light, locked exposure on the face, light film grain over a clean image, low angle in a tight space, neutral cinema grade, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: night street, push of 1 stop, 24mm lens, shot on a smartphone, cinema look, wide 24mm lens at close range, gimbal follow, 2.39:1 anamorphic crop, soft natural light, light film grain over a clean image, low angle in a tight space, neutral cinema grade, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
-      "model": "FLUX.2 [klein] 4B",
+      "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
-      "steps": 4,
+      "steps": 9,
       "width": 1152,
       "height": 768,
       "generated": "2026-11-19",
@@ -1921,13 +2436,20 @@
           "seconds": 20,
           "prompt": "a still frame from a film, wide shot: walk on a street, gimbal, 24mm lens, shot on a smartphone, cinema look, wide 24mm lens at close range, gimbal follow, 2.39:1 anamorphic crop, soft natural light, light film grain over a clean image, low angle in a tight space, neutral cinema grade, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "phone-cinema/1.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1955,
-          "steps": 4,
+          "base_seed": 1955,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Face in a car",
@@ -1937,13 +2459,20 @@
           "seconds": 8,
           "prompt": "a still frame from a film, close-up shot: face in a car, 48mm lens, shot on a smartphone, cinema look, wide 24mm lens at close range, gimbal follow, 2.39:1 anamorphic crop, soft natural light, locked exposure on the face, light film grain over a clean image, low angle in a tight space, neutral cinema grade, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "phone-cinema/2.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1956,
-          "steps": 4,
+          "base_seed": 1956,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Low angle on a stair",
@@ -1953,13 +2482,20 @@
           "seconds": 6,
           "prompt": "a still frame from a film, wide shot: low angle on a stair, 24mm lens, shot on a smartphone, cinema look, wide 24mm lens at close range, gimbal follow, 2.39:1 anamorphic crop, soft natural light, light film grain over a clean image, low angle in a tight space, neutral cinema grade, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "phone-cinema/3.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1957,
-          "steps": 4,
+          "base_seed": 1957,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Two people in a small room",
@@ -1969,13 +2505,20 @@
           "seconds": 15,
           "prompt": "a still frame from a film, two-shot shot: two people in a small room, 24mm lens, shot on a smartphone, cinema look, wide 24mm lens at close range, gimbal follow, 2.39:1 anamorphic crop, soft natural light, locked exposure on the face, light film grain over a clean image, low angle in a tight space, neutral cinema grade, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "phone-cinema/4.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1958,
-          "steps": 4,
+          "base_seed": 1958,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Night street, push of 1 stop",
@@ -1985,13 +2528,20 @@
           "seconds": 8,
           "prompt": "a still frame from a film, wide shot: night street, push of 1 stop, 24mm lens, shot on a smartphone, cinema look, wide 24mm lens at close range, gimbal follow, 2.39:1 anamorphic crop, soft natural light, light film grain over a clean image, low angle in a tight space, neutral cinema grade, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "phone-cinema/5.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1959,
-          "steps": 4,
+          "base_seed": 1959,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         }
       ]
     },
@@ -2000,10 +2550,10 @@
       "kind": "reel",
       "subject": "Facade tableau",
       "prompt": "a still frame from a film, wide shot: facade tableau, 27mm lens, centred symmetrical composition, flat planimetric frame, pastel colour palette, dollhouse set, one-point perspective, deadpan actors facing the camera, lateral tracking shot, soft frontal light, 35mm film still, anamorphic 2.39:1 frame, whip pan, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: lateral track along the rooms, 32mm lens, centred symmetrical composition, flat planimetric frame, pastel colour palette, dollhouse set, one-point perspective, deadpan actors facing the camera, lateral tracking shot, soft frontal light, 35mm film still, anamorphic 2.39:1 frame, whip pan, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: centred portrait, 35mm lens, centred symmetrical composition, flat planimetric frame, pastel colour palette, dollhouse set, one-point perspective, deadpan actors facing the camera, lateral tracking shot, soft frontal light, 35mm film still, anamorphic 2.39:1 frame, whip pan, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: whip pan to the next room, 27mm lens, centred symmetrical composition, flat planimetric frame, pastel colour palette, dollhouse set, one-point perspective, deadpan actors facing the camera, lateral tracking shot, soft frontal light, 35mm film still, anamorphic 2.39:1 frame, whip pan, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: overhead of a table, 25mm lens, centred symmetrical composition, flat planimetric frame, pastel colour palette, dollhouse set, one-point perspective, deadpan actors facing the camera, lateral tracking shot, soft frontal light, 35mm film still, anamorphic 2.39:1 frame, whip pan, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
-      "model": "FLUX.2 [klein] 4B",
+      "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
-      "steps": 4,
+      "steps": 9,
       "width": 1152,
       "height": 768,
       "generated": "2026-11-19",
@@ -2016,13 +2566,20 @@
           "seconds": 4,
           "prompt": "a still frame from a film, wide shot: facade tableau, 27mm lens, centred symmetrical composition, flat planimetric frame, pastel colour palette, dollhouse set, one-point perspective, deadpan actors facing the camera, lateral tracking shot, soft frontal light, 35mm film still, anamorphic 2.39:1 frame, whip pan, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "planimetric-symmetry/1.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1955,
-          "steps": 4,
+          "base_seed": 1955,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Lateral track along the rooms",
@@ -2032,13 +2589,20 @@
           "seconds": 10,
           "prompt": "a still frame from a film, wide shot: lateral track along the rooms, 32mm lens, centred symmetrical composition, flat planimetric frame, pastel colour palette, dollhouse set, one-point perspective, deadpan actors facing the camera, lateral tracking shot, soft frontal light, 35mm film still, anamorphic 2.39:1 frame, whip pan, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "planimetric-symmetry/2.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1956,
-          "steps": 4,
+          "base_seed": 1956,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Centred portrait",
@@ -2048,13 +2612,20 @@
           "seconds": 3,
           "prompt": "a still frame from a film, medium shot: centred portrait, 35mm lens, centred symmetrical composition, flat planimetric frame, pastel colour palette, dollhouse set, one-point perspective, deadpan actors facing the camera, lateral tracking shot, soft frontal light, 35mm film still, anamorphic 2.39:1 frame, whip pan, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "planimetric-symmetry/3.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1957,
-          "steps": 4,
+          "base_seed": 1957,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Whip pan to the next room",
@@ -2064,13 +2635,20 @@
           "seconds": 1,
           "prompt": "a still frame from a film, wide shot: whip pan to the next room, 27mm lens, centred symmetrical composition, flat planimetric frame, pastel colour palette, dollhouse set, one-point perspective, deadpan actors facing the camera, lateral tracking shot, soft frontal light, 35mm film still, anamorphic 2.39:1 frame, whip pan, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "planimetric-symmetry/4.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1958,
-          "steps": 4,
+          "base_seed": 1958,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Overhead of a table",
@@ -2080,13 +2658,20 @@
           "seconds": 3,
           "prompt": "a still frame from a film, medium shot: overhead of a table, 25mm lens, centred symmetrical composition, flat planimetric frame, pastel colour palette, dollhouse set, one-point perspective, deadpan actors facing the camera, lateral tracking shot, soft frontal light, 35mm film still, anamorphic 2.39:1 frame, whip pan, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "planimetric-symmetry/5.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1959,
-          "steps": 4,
+          "base_seed": 1959,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         }
       ]
     },
@@ -2094,11 +2679,11 @@
       "file": "slow-cinema/1.webp",
       "kind": "reel",
       "subject": "Empty landscape",
-      "prompt": "a still frame from a film, wide shot: empty landscape, 35mm lens, slow cinema long take, locked-off wide shot, ordinary person in a vast landscape, natural light, real-time scene, deep focus, 2.39:1 frame, muted natural colour, 60 second take, film grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: person walks away, 28mm lens, slow cinema long take, locked-off wide shot, ordinary person in a vast landscape, natural light, real-time scene, deep focus, 2.39:1 frame, muted natural colour, 60 second take, film grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: meal in a kitchen, 40mm lens, slow cinema long take, locked-off wide shot, ordinary person in a vast landscape, natural light, real-time scene, deep focus, 2.39:1 frame, muted natural colour, 60 second take, film grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: long track along a road, 35mm lens, slow cinema long take, locked-off wide shot, ordinary person in a vast landscape, natural light, real-time scene, deep focus, 2.39:1 frame, muted natural colour, 60 second take, film grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: waiting at a window, 50mm lens, slow cinema long take, locked-off wide shot, ordinary person in a vast landscape, natural light, real-time scene, deep focus, 2.39:1 frame, muted natural colour, 60 second take, film grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
-      "model": "FLUX.2 [klein] 4B",
+      "prompt": "a still frame from a film, wide shot: empty landscape, 35mm lens, slow cinema long take, ordinary person in a vast landscape, natural light, real-time scene, deep focus, 2.39:1 frame, muted natural colour, 60 second take, film grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: person walks away, 28mm lens, slow cinema long take, ordinary person in a vast landscape, natural light, real-time scene, deep focus, 2.39:1 frame, muted natural colour, 60 second take, film grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: meal in a kitchen, 40mm lens, slow cinema long take, ordinary person in a vast landscape, natural light, real-time scene, deep focus, 2.39:1 frame, muted natural colour, 60 second take, film grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: long track along a road, 35mm lens, slow cinema long take, ordinary person in a vast landscape, natural light, real-time scene, deep focus, 2.39:1 frame, muted natural colour, 60 second take, film grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: waiting at a window, 50mm lens, slow cinema long take, ordinary person in a vast landscape, natural light, real-time scene, deep focus, 2.39:1 frame, muted natural colour, 60 second take, film grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+      "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
-      "steps": 4,
+      "steps": 9,
       "width": 1152,
       "height": 768,
       "generated": "2026-11-19",
@@ -2109,15 +2694,22 @@
           "lens": "35mm",
           "movement": "locked off",
           "seconds": 90,
-          "prompt": "a still frame from a film, wide shot: empty landscape, 35mm lens, slow cinema long take, locked-off wide shot, ordinary person in a vast landscape, natural light, real-time scene, deep focus, 2.39:1 frame, muted natural colour, 60 second take, film grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, wide shot: empty landscape, 35mm lens, slow cinema long take, ordinary person in a vast landscape, natural light, real-time scene, deep focus, 2.39:1 frame, muted natural colour, 60 second take, film grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "slow-cinema/1.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1955,
-          "steps": 4,
+          "base_seed": 1955,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Person walks away",
@@ -2125,15 +2717,22 @@
           "lens": "28mm",
           "movement": "locked off",
           "seconds": 75,
-          "prompt": "a still frame from a film, wide shot: person walks away, 28mm lens, slow cinema long take, locked-off wide shot, ordinary person in a vast landscape, natural light, real-time scene, deep focus, 2.39:1 frame, muted natural colour, 60 second take, film grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, wide shot: person walks away, 28mm lens, slow cinema long take, ordinary person in a vast landscape, natural light, real-time scene, deep focus, 2.39:1 frame, muted natural colour, 60 second take, film grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "slow-cinema/2.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1956,
-          "steps": 4,
+          "base_seed": 1956,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Meal in a kitchen",
@@ -2141,15 +2740,22 @@
           "lens": "40mm",
           "movement": "locked off",
           "seconds": 120,
-          "prompt": "a still frame from a film, medium shot: meal in a kitchen, 40mm lens, slow cinema long take, locked-off wide shot, ordinary person in a vast landscape, natural light, real-time scene, deep focus, 2.39:1 frame, muted natural colour, 60 second take, film grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, medium shot: meal in a kitchen, 40mm lens, slow cinema long take, ordinary person in a vast landscape, natural light, real-time scene, deep focus, 2.39:1 frame, muted natural colour, 60 second take, film grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "slow-cinema/3.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
-          "seed": 1957,
-          "steps": 4,
+          "seed": 2957,
+          "base_seed": 1957,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 2,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Long track along a road",
@@ -2157,15 +2763,22 @@
           "lens": "35mm",
           "movement": "dolly 0.3 m/s",
           "seconds": 150,
-          "prompt": "a still frame from a film, wide shot: long track along a road, 35mm lens, slow cinema long take, locked-off wide shot, ordinary person in a vast landscape, natural light, real-time scene, deep focus, 2.39:1 frame, muted natural colour, 60 second take, film grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, wide shot: long track along a road, 35mm lens, slow cinema long take, ordinary person in a vast landscape, natural light, real-time scene, deep focus, 2.39:1 frame, muted natural colour, 60 second take, film grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "slow-cinema/4.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1958,
-          "steps": 4,
+          "base_seed": 1958,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Waiting at a window",
@@ -2173,15 +2786,22 @@
           "lens": "50mm",
           "movement": "locked off",
           "seconds": 60,
-          "prompt": "a still frame from a film, medium shot: waiting at a window, 50mm lens, slow cinema long take, locked-off wide shot, ordinary person in a vast landscape, natural light, real-time scene, deep focus, 2.39:1 frame, muted natural colour, 60 second take, film grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, medium shot: waiting at a window, 50mm lens, slow cinema long take, ordinary person in a vast landscape, natural light, real-time scene, deep focus, 2.39:1 frame, muted natural colour, 60 second take, film grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "slow-cinema/5.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
-          "seed": 1959,
-          "steps": 4,
+          "seed": 2959,
+          "base_seed": 1959,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 2,
+            "ok": true,
+            "defects": []
+          }
         }
       ]
     },
@@ -2189,11 +2809,11 @@
       "file": "spaghetti-western/1.webp",
       "kind": "reel",
       "subject": "Empty street, a far figure",
-      "prompt": "a still frame from a film, extreme wide shot: empty street, a far figure, 20mm lens, spaghetti western, 2.35:1 anamorphic frame, extreme close-up of the eyes, hard desert sun, dust and sweat on faces, wide empty street duel, long wait before the shot, warm yellow brown colour, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, extreme close-up shot: eyes of the gunman, 100mm lens, spaghetti western, 2.35:1 anamorphic frame, extreme close-up of the eyes, hard desert sun, dust and sweat on faces, wide empty street duel, long wait before the shot, warm yellow brown colour, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, insert shot: hand over the holster, 50mm lens, spaghetti western, 2.35:1 anamorphic frame, extreme close-up of the eyes, hard desert sun, dust and sweat on faces, wide empty street duel, long wait before the shot, warm yellow brown colour, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: duel in 3 planes, 28mm lens, spaghetti western, 2.35:1 anamorphic frame, hard desert sun, wide empty street duel, long wait before the shot, warm yellow brown colour, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, insert shot: spurs on the ground, 35mm lens, spaghetti western, 2.35:1 anamorphic frame, hard desert sun, wide empty street duel, long wait before the shot, warm yellow brown colour, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
-      "model": "FLUX.2 [klein] 4B",
+      "prompt": "a still frame from a film, extreme wide shot: empty street, a far figure, on the dusty main street of a small desert town, gunmen in long coats, 20mm lens, spaghetti western, 2.35:1 anamorphic frame, hard desert sun, dust and sweat on faces, wide empty street duel, long wait before the shot, warm yellow brown colour, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, extreme close-up shot: eyes of the gunman, on the dusty main street of a small desert town, gunmen in long coats, 100mm lens, spaghetti western, 2.35:1 anamorphic frame, hard desert sun, dust and sweat on faces, wide empty street duel, long wait before the shot, warm yellow brown colour, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, insert shot: hand over the holster, on the dusty main street of a small desert town, gunmen in long coats, 50mm lens, spaghetti western, 2.35:1 anamorphic frame, hard desert sun, dust and sweat on faces, wide empty street duel, long wait before the shot, warm yellow brown colour, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: duel in 3 planes, on the dusty main street of a small desert town, gunmen in long coats, 28mm lens, spaghetti western, 2.35:1 anamorphic frame, hard desert sun, wide empty street duel, long wait before the shot, warm yellow brown colour, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, insert shot: spurs on the ground, on the dusty main street of a small desert town, gunmen in long coats, 35mm lens, spaghetti western, 2.35:1 anamorphic frame, hard desert sun, wide empty street duel, long wait before the shot, warm yellow brown colour, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+      "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
-      "steps": 4,
+      "steps": 9,
       "width": 1152,
       "height": 768,
       "generated": "2026-11-19",
@@ -2204,15 +2824,22 @@
           "lens": "20mm",
           "movement": "static",
           "seconds": 8,
-          "prompt": "a still frame from a film, extreme wide shot: empty street, a far figure, 20mm lens, spaghetti western, 2.35:1 anamorphic frame, extreme close-up of the eyes, hard desert sun, dust and sweat on faces, wide empty street duel, long wait before the shot, warm yellow brown colour, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, extreme wide shot: empty street, a far figure, on the dusty main street of a small desert town, gunmen in long coats, 20mm lens, spaghetti western, 2.35:1 anamorphic frame, hard desert sun, dust and sweat on faces, wide empty street duel, long wait before the shot, warm yellow brown colour, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "spaghetti-western/1.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1955,
-          "steps": 4,
+          "base_seed": 1955,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Eyes of the gunman",
@@ -2220,15 +2847,24 @@
           "lens": "100mm",
           "movement": "static or slow zoom 8 s",
           "seconds": 4,
-          "prompt": "a still frame from a film, extreme close-up shot: eyes of the gunman, 100mm lens, spaghetti western, 2.35:1 anamorphic frame, extreme close-up of the eyes, hard desert sun, dust and sweat on faces, wide empty street duel, long wait before the shot, warm yellow brown colour, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, extreme close-up shot: eyes of the gunman, on the dusty main street of a small desert town, gunmen in long coats, 100mm lens, spaghetti western, 2.35:1 anamorphic frame, hard desert sun, dust and sweat on faces, wide empty street duel, long wait before the shot, warm yellow brown colour, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "spaghetti-western/2.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
-          "seed": 1956,
-          "steps": 4,
+          "seed": 3956,
+          "base_seed": 1956,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 4,
+            "ok": false,
+            "defects": [
+              "giant disembodied face floating in the sky at impossible scale next to the gunmen and buildings, fading into haze with no body"
+            ]
+          }
         },
         {
           "label": "Hand over the holster",
@@ -2236,15 +2872,25 @@
           "lens": "50mm",
           "movement": "static",
           "seconds": 3,
-          "prompt": "a still frame from a film, insert shot: hand over the holster, 50mm lens, spaghetti western, 2.35:1 anamorphic frame, extreme close-up of the eyes, hard desert sun, dust and sweat on faces, wide empty street duel, long wait before the shot, warm yellow brown colour, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, insert shot: hand over the holster, on the dusty main street of a small desert town, gunmen in long coats, 50mm lens, spaghetti western, 2.35:1 anamorphic frame, hard desert sun, dust and sweat on faces, wide empty street duel, long wait before the shot, warm yellow brown colour, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "spaghetti-western/3.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1957,
-          "steps": 4,
+          "base_seed": 1957,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 4,
+            "ok": false,
+            "defects": [
+              "large foreground hand on the pistol: fingers lumpy and merged, five fingers not countable, thumb unclear",
+              "thin stray rod near the right man's belt"
+            ]
+          }
         },
         {
           "label": "Duel in 3 planes",
@@ -2252,15 +2898,22 @@
           "lens": "28mm",
           "movement": "slow dolly 0.3 m/s",
           "seconds": 12,
-          "prompt": "a still frame from a film, wide shot: duel in 3 planes, 28mm lens, spaghetti western, 2.35:1 anamorphic frame, hard desert sun, wide empty street duel, long wait before the shot, warm yellow brown colour, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, wide shot: duel in 3 planes, on the dusty main street of a small desert town, gunmen in long coats, 28mm lens, spaghetti western, 2.35:1 anamorphic frame, hard desert sun, wide empty street duel, long wait before the shot, warm yellow brown colour, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "spaghetti-western/4.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1958,
-          "steps": 4,
+          "base_seed": 1958,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         },
         {
           "label": "Spurs on the ground",
@@ -2268,15 +2921,22 @@
           "lens": "35mm",
           "movement": "static",
           "seconds": 2,
-          "prompt": "a still frame from a film, insert shot: spurs on the ground, 35mm lens, spaghetti western, 2.35:1 anamorphic frame, hard desert sun, wide empty street duel, long wait before the shot, warm yellow brown colour, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "prompt": "a still frame from a film, insert shot: spurs on the ground, on the dusty main street of a small desert town, gunmen in long coats, 35mm lens, spaghetti western, 2.35:1 anamorphic frame, hard desert sun, wide empty street duel, long wait before the shot, warm yellow brown colour, 35mm grain, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
           "file": "spaghetti-western/5.webp",
-          "model": "FLUX.2 [klein] 4B",
+          "model": "Z-Image-Turbo",
           "licence": "Apache-2.0",
           "seed": 1959,
-          "steps": 4,
+          "base_seed": 1959,
+          "steps": 9,
           "width": 1152,
           "height": 768,
-          "generated": "2026-11-19"
+          "generated": "2026-11-19",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
         }
       ]
     }

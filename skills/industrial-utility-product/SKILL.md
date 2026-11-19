@@ -176,6 +176,7 @@ A thin coat of glass that is fused to iron or steel at about 800 °C. It makes a
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **AEG** (company, Berlin, 1887–now), funded the style. German electrical firm. It hired Peter Behrens in 1907 as artistic consultant for its buildings, products and graphics.
 - **Werkbund Exhibition Cologne 1914** (exhibition, Cologne, 1914–1914), exhibited the style. The show of the German Werkbund. It put industrial buildings, machines and factory-made objects next to craft work, and it made the work of the factory a subject of design.
 
 ## Permutations

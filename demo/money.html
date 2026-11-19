@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Money behind the styles</title>
+<meta name="description" content="The money layer of the design ontology: who paid for a style, through which maker or house, and when. Each flow cites a source.">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  :root {
+    /* Hive light tokens, as in people.html. One accent (royal) marks the selection. */
+    --paper: #fff; --ink: #1F1F45; --muted: #50527A; --line: #DEE3F2; --band: #EFF2FB; --accent: #264FCC; --accent-bg: #E8F2FF;
+  }
+  html, body { margin: 0; }
+  body { font: 15px/1.5 system-ui, sans-serif; background: var(--paper); color: var(--ink); }
+  main { max-width: 1400px; margin: 0 auto; padding: 24px 16px 64px; display: grid; gap: 16px; }
+  h1 { margin: 0; font-size: clamp(26px, 4vw, 40px); line-height: 1.1; letter-spacing: -.01em; }
+  .lede { margin: 6px 0 0; max-width: 75ch; color: var(--muted); }
+  .controls { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; font-size: 13px; color: var(--muted); }
+  .controls label { display: inline-flex; gap: 6px; align-items: center; }
+  .controls select, .controls input[type="search"] { font: inherit; font-size: 13px; color: var(--ink); padding: 4px 0; border: 0; border-bottom: 1px solid var(--line); background: transparent; }
+  .controls input[type="search"] { min-width: 180px; }
+  .controls input[type="range"] { width: min(360px, 60vw); accent-color: var(--accent); }
+  .controls output { font-variant-numeric: tabular-nums; color: var(--ink); font-weight: 600; min-width: 4ch; }
+  .controls .count { margin-left: auto; font-variant-numeric: tabular-nums; }
+  .layout { display: grid; gap: 16px; grid-template-columns: 1fr; }
+  @media (min-width: 1100px) { .layout { grid-template-columns: 1fr 340px; } }
+  .scroll { overflow-x: auto; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  svg { display: block; }
+  svg text { font: 11px system-ui, sans-serif; fill: var(--ink); }
+  .col-label { font-weight: 650; font-size: 11px; fill: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+  .node { cursor: pointer; }
+  .node .hit { fill: transparent; }
+  .node:hover .hit { fill: var(--band); }
+  .node .dot { fill: var(--ink); }
+  .node text.sub { fill: var(--muted); font-size: 10px; font-variant-numeric: tabular-nums; }
+  .flow { fill: none; stroke: var(--ink); stroke-opacity: .22; stroke-width: 1.2; }
+  .flow.contested { stroke-dasharray: 3 3; stroke-opacity: .5; }
+  .off { display: none; }
+  svg.focus .flow { stroke-opacity: .06; }
+  svg.focus .node { opacity: .3; }
+  svg.focus .flow.on { stroke: var(--accent); stroke-opacity: .9; stroke-width: 2; }
+  svg.focus .node.on { opacity: 1; }
+  .node.on text.name { fill: var(--accent); font-weight: 700; }
+  .node.me .hit { fill: var(--accent-bg); }
+  aside { border-left: 1px solid var(--line); padding: 0 0 0 16px; font-size: 14px; align-self: start; position: sticky; top: 68px; max-height: calc(100vh - 80px); overflow-y: auto; }
+  @media (max-width: 1099px) { aside { position: static; border-left: 0; padding: 0; max-height: none; } }
+  aside h2 { margin: 0; font-size: 20px; line-height: 1.2; }
+  aside .meta { color: var(--muted); font-size: 13px; margin: 2px 0 8px; }
+  aside h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 14px 0 4px; font-weight: 650; }
+  aside ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+  aside li { border-top: 1px solid var(--line); padding-top: 8px; }
+  aside li .head { display: flex; justify-content: space-between; gap: 8px; font-weight: 600; }
+  aside li .yrs { font-variant-numeric: tabular-nums; color: var(--muted); font-weight: 400; white-space: nowrap; }
+  aside li p { margin: 4px 0; }
+  aside .tag { display: inline-block; font-size: 11px; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 0 8px; margin-right: 4px; }
+  aside .tag.contested { color: var(--accent); border-color: var(--accent); }
+  aside .src { font-size: 12px; color: var(--muted); }
+  aside a { color: inherit; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+</style>
+</head>
+<body>
+<script src="nav.js"></script>
+<main>
+  <header>
+    <h1>Money behind the styles</h1>
+    <p class="lede">Each line is one flow of money or paid support. It runs from the backer on the left, through the person or the house that got it, to the styles that the money helped. A flow that went to a whole movement runs straight to the style. Rows are in the order of the first payment. Move the year to see who had paid by then. A dashed line is a contested claim. Select a name to see each flow, its amount where a source gives one, and the source.</p>
+  </header>
+  <div class="controls">
+    <label>Up to <input type="range" id="year" aria-label="Up to year"><output id="yearOut"></output></label>
+    <label>Kind <select id="kind"><option value="all">All kinds</option></select></label>
+    <input type="search" id="q" placeholder="Find a backer, a maker or a style" aria-label="Find a backer, a maker or a style">
+    <span class="count" id="count"></span>
+  </div>
+  <div class="layout">
+    <div class="scroll"><svg id="g" role="img" aria-label="Flows of money from backers through makers to styles"></svg></div>
+    <aside id="panel" aria-live="polite"></aside>
+  </div>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+const yr = (y) => (y < 0 ? `${-y} BC` : String(y));
+const KIND = { commission: "commission", stipend: "stipend", purchase: "purchase", exhibition: "exhibition", "dealer-contract": "dealer contract",
+  publishing: "publishing", residency: "residency", prize: "prize", grant: "grant", "state-programme": "state programme", investment: "investment",
+  acquisition: "acquisition", crowdfunding: "crowdfunding", "platform-fund": "platform fund", employment: "employment" };
+const ROW = 18, TOP = 34, COLW = 230;
+let M, names = {}, styleById = {}, flows = [], cols = [], selected = null;
+
+const key = (e) => `${e.type}:${e.id}`;
+const nameOf = (k) => names[k]?.name ?? k.split(":")[1];
+
+function build() {
+  // Three columns: backers, receivers (people and orgs), styles. A flow to a style has no receiver node.
+  const first = {};
+  const seen = (k, y) => { first[k] = Math.min(first[k] ?? 1e9, y); };
+  for (const f of flows) {
+    seen(key(f.from), f.years[0]);
+    if (f.to.type !== "style") seen(key(f.to), f.years[0]);
+    for (const s of f.styles) seen(`style:${s}`, f.years[0]);
+  }
+  const backers = new Set(flows.map((f) => key(f.from)));
+  const receivers = new Set(flows.filter((f) => f.to.type !== "style").map((f) => key(f.to)));
+  const stylesSet = new Set(flows.flatMap((f) => f.styles.map((s) => `style:${s}`)));
+  const order = (set) => [...set].sort((a, b) => first[a] - first[b] || nameOf(a).localeCompare(nameOf(b)));
+  cols = [["Backers", order(backers)], ["Made or carried by", order(receivers)], ["Styles", order(stylesSet)]];
+}
+
+function visible(f) {
+  const y = +$("year").value, k = $("kind").value;
+  return f.years[0] <= y && (k === "all" || f.kind === k);
+}
+
+function draw() {
+  const pos = {};
+  const h = TOP + Math.max(...cols.map(([, ids]) => ids.length)) * ROW + 12;
+  const gap = 150;
+  const w = 3 * COLW + 2 * gap;
+  const x = (i) => i * (COLW + gap);
+  let out = "";
+  cols.forEach(([label, ids], i) => {
+    out += `<text class="col-label" x="${x(i) + 10}" y="18">${esc(label)}</text>`;
+    ids.forEach((k, j) => { pos[k] = { x: x(i), y: TOP + j * ROW + ROW / 2, i }; });
+  });
+  // Lines first, so the names sit on top.
+  const link = (a, b) => { const x1 = a.x + COLW, x2 = b.x, mx = (x1 + x2) / 2; return `M${x1},${a.y} C${mx},${a.y} ${mx},${b.y} ${x2},${b.y}`; };
+  for (const f of flows) {
+    const a = pos[key(f.from)], mid = f.to.type !== "style" ? pos[key(f.to)] : null;
+    const cls = `flow${f.confidence === "contested" ? " contested" : ""}${visible(f) ? "" : " off"}`;
+    const ends = [key(f.from), ...(mid ? [key(f.to)] : []), ...f.styles.map((s) => `style:${s}`)].join(" ");
+    if (mid) out += `<path class="${cls}" data-f="${esc(f.id)}" data-ends="${esc(ends)}" d="${link(a, mid)}"/>`;
+    for (const s of f.styles) {
+      const from = mid ?? a, b = pos[`style:${s}`];
+      if (!b) continue;
+      // A direct flow to a style spans two gaps: draw it from the backer column to the style column.
+      out += `<path class="${cls}" data-f="${esc(f.id)}" data-ends="${esc(ends)}" d="${link(from, b)}"/>`;
+    }
+  }
+  cols.forEach(([, ids], i) => {
+    for (const k of ids) {
+      const p = pos[k], n = names[k];
+      const sub = n?.sub ? `<text class="sub" x="${p.x + COLW - 4}" y="${p.y + 4}" text-anchor="end">${esc(n.sub)}</text>` : "";
+      out += `<g class="node" tabindex="0" role="button" data-k="${esc(k)}"><rect class="hit" x="${p.x}" y="${p.y - ROW / 2}" width="${COLW}" height="${ROW}" rx="3"/>` +
+        `<circle class="dot" cx="${i === 0 ? p.x + COLW : p.x}" cy="${p.y}" r="2.5"/>` +
+        `<text class="name" x="${p.x + 10}" y="${p.y + 4}">${esc(trim(nameOf(k), n?.sub ? 22 : 34))}</text>${sub}</g>`;
+    }
+  });
+  $("g").setAttribute("viewBox", `0 0 ${w} ${h}`);
+  $("g").setAttribute("width", w);
+  $("g").setAttribute("height", h);
+  $("g").innerHTML = out;
+  applyFilter();
+}
+
+const trim = (s, n) => (s.length > n ? s.slice(0, n - 1) + "…" : s);
+
+function applyFilter() {
+  const live = new Set();
+  let n = 0;
+  for (const f of flows) if (visible(f)) { n++; live.add(key(f.from)); if (f.to.type !== "style") live.add(key(f.to)); f.styles.forEach((s) => live.add(`style:${s}`)); }
+  for (const p of $("g").querySelectorAll(".flow")) p.classList.toggle("off", !visible(M.byId[p.dataset.f]));
+  for (const g of $("g").querySelectorAll(".node")) g.classList.toggle("off", !live.has(g.dataset.k));
+  $("yearOut").textContent = yr(+$("year").value);
+  $("count").textContent = `${n} of ${flows.length} flows`;
+  focus(selected, false);
+}
+
+function focus(k, hash = true) {
+  if (k && !names[k]) k = null; // an unknown hash shows the overview
+  selected = k;
+  const svg = $("g");
+  svg.classList.toggle("focus", !!k);
+  const on = new Set();
+  for (const p of svg.querySelectorAll(".flow")) {
+    const hit = !!k && p.dataset.ends.split(" ").includes(k) && !p.classList.contains("off");
+    p.classList.toggle("on", hit);
+    if (hit) p.dataset.ends.split(" ").forEach((e) => on.add(e));
+  }
+  for (const g of svg.querySelectorAll(".node")) { g.classList.toggle("on", on.has(g.dataset.k)); g.classList.toggle("me", g.dataset.k === k); }
+  if (hash) history.replaceState(null, "", k ? `#${k}` : location.pathname);
+  panel(k);
+}
+
+function panel(k) {
+  if (!k) {
+    const byKind = {};
+    for (const f of flows) byKind[f.kind] = (byKind[f.kind] ?? 0) + 1;
+    const top = Object.entries(M.by_backer).sort((a, b) => b[1].length - a[1].length).slice(0, 8);
+    $("panel").innerHTML = `<h2>${flows.length} flows</h2><p class="meta">${Object.keys(M.by_backer).length} backers · ${Object.values(M.by_style).filter((v) => v.length).length} styles with money</p>` +
+      `<h3>Backers with the most flows</h3><ol>${top.map(([b, ids]) => `<li><a href="#${esc(b)}">${esc(nameOf(b))}</a> <span class="src">${ids.length}</span></li>`).join("")}</ol>` +
+      `<h3>Kinds</h3><p>${Object.entries(byKind).sort((a, b) => b[1] - a[1]).map(([kd, c]) => `<span class="tag">${esc(KIND[kd])} ${c}</span>`).join(" ")}</p>`;
+    return;
+  }
+  const mine = flows.filter((f) => [key(f.from), key(f.to), ...f.styles.map((s) => `style:${s}`)].includes(k));
+  const n = names[k] ?? {};
+  $("panel").innerHTML = `<h2>${esc(nameOf(k))}</h2><p class="meta">${esc(n.meta ?? "")}</p><h3>${mine.length} flow${mine.length === 1 ? "" : "s"}</h3><ol>` +
+    mine.map((f) => {
+      const amt = f.amount ? `<span class="tag">${esc(f.amount.value.toLocaleString("en-GB"))} ${esc(f.amount.currency)}${f.amount.year ? ` (${f.amount.year})` : ""}</span>` : "";
+      const yrs = `${yr(f.years[0])}${f.years[1] === null ? "" : f.years[1] === f.years[0] ? "" : `–${yr(f.years[1])}`}`;
+      return `<li><div class="head"><span><a href="#${esc(key(f.from))}">${esc(nameOf(key(f.from)))}</a> → <a href="#${esc(key(f.to))}">${esc(nameOf(key(f.to)))}</a></span><span class="yrs">${yrs}</span></div>` +
+        `<p>${esc(f.what)}</p><span class="tag">${esc(KIND[f.kind])}</span><span class="tag${f.confidence === "contested" ? " contested" : ""}">${esc(f.confidence)}</span>${amt}` +
+        `<div class="src">${f.sources.map((s) => `<a href="${esc(s.url)}" rel="noopener">${esc(s.title)}</a>`).join(" · ")}</div></li>`;
+    }).join("") + "</ol>";
+}
+
+Promise.all(["money", "orgs", "people", "lineage"].map((g) => fetch(`../graph/${g}.json`).then((r) => r.json()))).then(([money, orgs, people, lineage]) => {
+  M = money; flows = money.flows;
+  M.byId = Object.fromEntries(flows.map((f) => [f.id, f]));
+  const dom = Object.fromEntries(lineage.domains.map((d) => [d.id, d.name]));
+  for (const o of orgs.orgs) names[`org:${o.id}`] = { name: o.name, meta: `${o.kind}${o.place ? ` · ${o.place}` : ""}${o.founded ? ` · ${yr(o.founded)}–${o.closed ? yr(o.closed) : ""}` : ""}` };
+  for (const p of people.people) names[`person:${p.id}`] = { name: p.name, meta: p.born || p.died ? `${p.born ? yr(p.born) : "?"}–${p.died ? yr(p.died) : ""}` : "" };
+  for (const s of lineage.nodes) names[`style:${s.id}`] = { name: s.name, sub: dom[s.domain], meta: `${dom[s.domain]} · ${yr(s.start)}–${s.end === null ? "now" : yr(s.end)}` };
+  const kinds = [...new Set(flows.map((f) => f.kind))].sort();
+  $("kind").insertAdjacentHTML("beforeend", kinds.map((k) => `<option value="${esc(k)}">${esc(KIND[k])}</option>`).join(""));
+  const ys = flows.map((f) => f.years[0]);
+  Object.assign($("year"), { min: Math.min(...ys), max: Math.max(...ys), step: 1, value: Math.max(...ys) });
+  build();
+  draw();
+  focus(decodeURIComponent(location.hash.slice(1)) || null, false);
+});
+
+$("g").addEventListener("click", (e) => { const n = e.target.closest(".node"); focus(n && n.dataset.k !== selected ? n.dataset.k : null); });
+$("g").addEventListener("keydown", (e) => { const n = e.target.closest(".node"); if (n && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); focus(n.dataset.k); } });
+$("year").addEventListener("input", applyFilter);
+$("kind").addEventListener("change", applyFilter);
+$("q").addEventListener("input", (e) => {
+  const q = e.target.value.trim().toLowerCase();
+  if (!q) return;
+  const hit = [...$("g").querySelectorAll(".node:not(.off)")].find((g) => nameOf(g.dataset.k).toLowerCase().includes(q));
+  if (hit) { focus(hit.dataset.k); hit.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "smooth" }); }
+});
+addEventListener("hashchange", () => { const k = decodeURIComponent(location.hash.slice(1)); if (k !== selected) focus(k || null, false); });
+</script>
+</body>
+</html>
