@@ -111,6 +111,14 @@
     {
       "id": "stock",
       "name": "Stock"
+    },
+    {
+      "id": "hide-and-fur",
+      "name": "Hide and fur"
+    },
+    {
+      "id": "rug",
+      "name": "Rug"
     }
   ],
   "materials": [
@@ -267,7 +275,12 @@
           "title": "Wikipedia: Wool",
           "url": "https://en.wikipedia.org/wiki/Wool"
         }
-      ]
+      ],
+      "aliases": [
+        "lambswool",
+        "lamb's wool"
+      ],
+      "photo_applied": "a folded wool throw on a chair"
     },
     {
       "id": "bone-ash",
@@ -485,6 +498,9 @@
         "fashion.fabrics"
       ],
       "summary": "A cloth of matted fibres with no weave; the Pazyryk graves held felt saddle cloths and hangings. The cloth of hats.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "wool"
       ],
@@ -508,6 +524,9 @@
         "fashion.fabrics"
       ],
       "summary": "A fulled and napped wool that sheds rain and wind; the coat cloth of the Alpine countries.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "wool"
       ],
@@ -726,6 +745,30 @@
         {
           "title": "Wikipedia: Hide (skin)",
           "url": "https://en.wikipedia.org/wiki/Hide_(skin)"
+        }
+      ]
+    },
+    {
+      "id": "fur",
+      "name": "Fur",
+      "family": "hide-and-fur",
+      "form": "sheet",
+      "senses": [],
+      "made_from": [
+        "hide"
+      ],
+      "aliases": [
+        "pelt",
+        "sheepskin rug"
+      ],
+      "photo": "a square sample sheet of fur",
+      "identity": {
+        "wikidata": "Q197204"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Fur",
+          "url": "https://en.wikipedia.org/wiki/Fur"
         }
       ]
     },
@@ -1177,6 +1220,9 @@
         "fashion.fabrics"
       ],
       "summary": "A hexagonal net from Heathcoat's bobbinet machine; the cloth of the veil, the petticoat and the tutu.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "silk",
         "cotton",
@@ -1282,6 +1328,65 @@
         {
           "title": "Wikipedia: Shellac",
           "url": "https://en.wikipedia.org/wiki/Shellac"
+        }
+      ]
+    },
+    {
+      "id": "flat-weave-rug",
+      "name": "Flat-weave rug",
+      "family": "rug",
+      "form": "cloth",
+      "senses": [],
+      "is_a": [
+        "textile"
+      ],
+      "made_from": [
+        "wool"
+      ],
+      "aliases": [
+        "kilim",
+        "flatweave rug",
+        "dhurrie"
+      ],
+      "photo_applied": "a flat-weave wool rug on a floor",
+      "photo": "a folded swatch of flat-weave rug",
+      "identity": {
+        "wikidata": "Q585358"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Kilim",
+          "url": "https://en.wikipedia.org/wiki/Kilim"
+        }
+      ]
+    },
+    {
+      "id": "hand-woven-rug",
+      "name": "Hand-woven wool rug",
+      "family": "rug",
+      "form": "cloth",
+      "senses": [],
+      "is_a": [
+        "textile"
+      ],
+      "made_from": [
+        "wool"
+      ],
+      "aliases": [
+        "hand-woven rug",
+        "handwoven wool rug",
+        "hand-knotted rug",
+        "wool rug"
+      ],
+      "photo_applied": "a hand-woven wool rug on a floor",
+      "photo": "a folded swatch of hand-woven wool rug",
+      "identity": {
+        "wikidata": "Q163446"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Carpet",
+          "url": "https://en.wikipedia.org/wiki/Carpet"
         }
       ]
     },
@@ -1514,6 +1619,9 @@
         "fashion.fabrics"
       ],
       "summary": "A thick cream knit of cables, diamonds and moss stitch; it became a fashion knit in the 1950s.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "wool"
       ],
@@ -1537,6 +1645,9 @@
         "fashion.fabrics"
       ],
       "summary": "A wool knit that heat, water and rubbing shrink into a dense, felt-like cloth that does not fray; Tyrolean walk jackets were made of it, and Japanese designers of the 1980s used it for sculpted coats.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "wool"
       ],
@@ -1586,6 +1697,9 @@
         "fashion.fabrics"
       ],
       "summary": "A stranded knit in two colours each row; the Prince of Wales wore a Fair Isle jumper to golf in 1921.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "wool"
       ],
@@ -1609,6 +1723,9 @@
         "fashion.fabrics"
       ],
       "summary": "Stockings from the knitting frame, the first textile machine of the modern kind; Nottingham became the centre of hosiery.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "silk",
         "wool",
@@ -1634,6 +1751,9 @@
         "fashion.fabrics"
       ],
       "summary": "A plain weft knit from the island knitters; Gabrielle Chanel made wool jersey into women's dress in 1916.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "wool",
         "cotton",
@@ -1651,12 +1771,43 @@
       ]
     },
     {
+      "id": "knitted-wool",
+      "name": "Knitted wool",
+      "family": "weft-knit",
+      "form": "cloth",
+      "senses": [],
+      "is_a": [
+        "textile"
+      ],
+      "made_from": [
+        "wool"
+      ],
+      "aliases": [
+        "wool knit",
+        "chunky knit",
+        "knit"
+      ],
+      "photo": "a folded swatch of knitted wool",
+      "identity": {
+        "wikidata": "Q830128"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Knitted fabric",
+          "url": "https://en.wikipedia.org/wiki/Knitted_fabric"
+        }
+      ]
+    },
+    {
       "id": "boucle",
       "name": "Bouclé",
       "family": "woven-figured",
       "form": "cloth",
       "senses": [
         "industrial.materials"
+      ],
+      "is_a": [
+        "textile"
       ],
       "made_from": [
         "wool"
@@ -1684,6 +1835,9 @@
         "fashion.fabrics"
       ],
       "summary": "A figured cloth with extra weft, often of metal thread, that floats on the face as a raised pattern; the cloth of court dress.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "silk"
       ],
@@ -1707,6 +1861,9 @@
         "fashion.fabrics"
       ],
       "summary": "A reversible figured cloth in which the pattern shows in satin on a ground of the opposite face; named after Damascus.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "silk",
         "flax",
@@ -1732,6 +1889,9 @@
         "fashion.fabrics"
       ],
       "summary": "Cloth from a loom that lifts each warp thread by a punched card; the cards made large figured patterns cheap.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "silk",
         "cotton",
@@ -1758,6 +1918,9 @@
         "industrial.materials"
       ],
       "summary": "A warp-pile cloth with a short dense pile cut from a second warp; Italian cities wove it for courts and the church.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "silk",
         "cotton",
@@ -1786,6 +1949,9 @@
         "fashion.fabrics"
       ],
       "summary": "A sheer, floating plain weave of highly twisted yarn for overlays, scarves and evening dress.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "silk",
         "polyester"
@@ -1810,6 +1976,9 @@
         "fashion.fabrics"
       ],
       "summary": "A light silk with a pebbled surface from crepe-twisted weft; it drapes well on the bias.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "silk"
       ],
@@ -1833,6 +2002,9 @@
         "fashion.fabrics"
       ],
       "summary": "A crisp plain silk that rustles and holds a full skirt; the name comes from Persian 'taftah', twisted.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "silk",
         "acetate",
@@ -1858,6 +2030,9 @@
         "fashion.fabrics"
       ],
       "summary": "A weave with long floats that gives a smooth, lustrous face; the name may come from Zaitun, the port of export.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "silk",
         "acetate",
@@ -1883,6 +2058,9 @@
         "fashion.fabrics"
       ],
       "summary": "A soft cloth that is napped after the weave; grey wool flannel became the suit and trouser cloth of the 20th century.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "wool",
         "cotton"
@@ -1907,6 +2085,9 @@
         "fashion.fabrics"
       ],
       "summary": "A steep, tight twill of yarn proofed before the weave; it keeps out rain and lets the body breathe. The cloth of the trench coat.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "wool",
         "cotton"
@@ -1949,6 +2130,32 @@
       ]
     },
     {
+      "id": "herringbone-wool",
+      "name": "Herringbone wool",
+      "family": "woven-twill",
+      "form": "cloth",
+      "senses": [],
+      "is_a": [
+        "textile"
+      ],
+      "made_from": [
+        "wool"
+      ],
+      "aliases": [
+        "herringbone"
+      ],
+      "photo": "a folded swatch of herringbone wool",
+      "identity": {
+        "wikidata": "Q14271241"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Herringbone (cloth)",
+          "url": "https://en.wikipedia.org/wiki/Herringbone_(cloth)"
+        }
+      ]
+    },
+    {
       "id": "houndstooth",
       "name": "Houndstooth",
       "family": "woven-twill",
@@ -1957,6 +2164,9 @@
         "fashion.fabrics"
       ],
       "summary": "A broken check from a 2/2 twill with four dark and four light yarns in warp and weft.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "wool"
       ],
@@ -1972,6 +2182,32 @@
       ]
     },
     {
+      "id": "melton",
+      "name": "Melton",
+      "family": "woven-twill",
+      "form": "cloth",
+      "senses": [],
+      "is_a": [
+        "textile"
+      ],
+      "made_from": [
+        "wool"
+      ],
+      "aliases": [
+        "melton wool"
+      ],
+      "photo": "a folded swatch of melton",
+      "identity": {
+        "wikidata": "Q12036364"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Melton (cloth)",
+          "url": "https://en.wikipedia.org/wiki/Melton_(cloth)"
+        }
+      ]
+    },
+    {
       "id": "serge",
       "name": "Serge",
       "family": "woven-twill",
@@ -1980,6 +2216,9 @@
         "fashion.fabrics"
       ],
       "summary": "A balanced twill with a clear diagonal rib, for uniforms, suits and coats.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "wool"
       ],
@@ -2003,6 +2242,9 @@
         "fashion.fabrics"
       ],
       "summary": "A fine, dense silk twill that takes a sharp print; it is the cloth of the printed square scarf and the necktie. Twill silk is in Chinese graves of the second century BC.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "silk"
       ],
@@ -2026,6 +2268,9 @@
         "fashion.fabrics"
       ],
       "summary": "A twill check of coloured stripes in warp and weft; a check fragment from near Falkirk dates from about AD 250. The Dress Act of 1746 banned it in the Highlands.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "wool"
       ],
@@ -2049,6 +2294,9 @@
         "fashion.fabrics"
       ],
       "summary": "A rough, thick twill of woollen yarn; the name comes from 'tweel', misread by a London merchant as the River Tweed.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "wool"
       ],
@@ -2072,6 +2320,9 @@
         "fashion.fabrics"
       ],
       "summary": "A smooth, firm cloth of combed long-staple yarn, named after the Norfolk village; the cloth of the tailored suit.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "wool",
         "merino",
