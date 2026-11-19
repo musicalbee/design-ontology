@@ -62,6 +62,19 @@
     "print": {
       "subject": "a printed sheet",
       "suffix": "a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper"
+    },
+    "ceramics": {
+      "subject": "a museum photograph of one ceramic piece of this style, standing whole on a plain plinth against a seamless backdrop, the whole piece in the frame and in sharp focus, soft even studio light, a three-quarter view at eye height",
+      "drop": "tasting menu|dish on"
+    },
+    "fashion": {
+      "subject": "a catalogue photograph of the one signature piece of this style alone against a plain seamless studio backdrop, the whole piece in the frame and in sharp focus, soft even light",
+      "drop": "^no logo$|dashboard|car design|\\bhands\\b"
+    },
+    "cuisine": {
+      "subject": "a food photograph of one plated dish of this style on a table, seen from above at a slight angle, the whole plate in the frame and in sharp focus, natural light",
+      "suffix": "no readable text",
+      "drop": "menu board|blackboard|hand-written|manuscript"
     }
   },
   "styles": {
@@ -227,6 +240,9 @@
     },
     "film/documentary-verite": {
       "drop": "burned-out window|flash frame"
+    },
+    "fashion/american-pocket-watch": {
+      "subject": "a catalogue photograph of one open pocket watch lying flat on a plain plinth with its chain coiled beside it, against a seamless studio backdrop, the whole watch in sharp focus, soft even light"
     }
   }
 }
