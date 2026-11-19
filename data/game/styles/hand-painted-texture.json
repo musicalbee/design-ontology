@@ -1,0 +1,286 @@
+{
+  "$schema": "../../../schema/domains/game.schema.json",
+  "id": "hand-painted-texture",
+  "domain": "game",
+  "name": "Hand-painted texture",
+  "aliases": [
+    "Painted 3D",
+    "Stylised hand-painted",
+    "Painterly low poly"
+  ],
+  "era_id": "programmable-shader",
+  "time_period": {
+    "start": 2004,
+    "end": null,
+    "label": "2004–now"
+  },
+  "region": "the United States, then worldwide",
+  "hardware": [
+    "pc",
+    "mobile",
+    "playstation-4",
+    "xbox-one",
+    "nintendo-switch"
+  ],
+  "summary": "Mid-poly models with textures painted by hand: light, shadow, wear and colour shifts are in the paint, not in the engine. Chunky, exaggerated buildings and bright, saturated colour read clearly at a distance.",
+  "philosophy": {
+    "core_thesis": "A painter's hand can carry the light of a world, so a small engine budget still gives a warm, rich place.",
+    "design_principles": [
+      "Paint light from above into each texture: lighter top edges, darker bottoms.",
+      "Exaggerate shapes: thick walls, big beams, crooked roofs.",
+      "Use saturated, warm colours with cool hue-shifted shadows.",
+      "Paint edge wear as bright strokes on corners.",
+      "Keep the polygon count moderate and the silhouette strong.",
+      "Avoid photo sources; every pixel of texture is painted."
+    ],
+    "anti_patterns": [
+      "Photo textures",
+      "Normal-map micro detail",
+      "Grey, desaturated palettes",
+      "Thin, realistic proportions",
+      "Specular gloss on every surface"
+    ]
+  },
+  "vectors": {
+    "render_fidelity": 3,
+    "spatial_depth": 5,
+    "stylisation": 4,
+    "lighting_drama": 2,
+    "surface_density": 3
+  },
+  "projection_and_camera": {
+    "projection": "third-person",
+    "camera": "Free orbit camera behind the player.",
+    "field_of_view": "about 60–90",
+    "framing": "Wide vistas with landmarks; the player small in a big world."
+  },
+  "geometry": {
+    "primitive": "A mid-poly mesh with chunky bevels.",
+    "budget": "2,000–10,000 triangles for a character; buildings in modular sets.",
+    "edge_rule": "Soft silhouettes with bevelled, chunky edges.",
+    "proportion": "Exaggerated and heroic: big shoulders, oversized doors and lanterns."
+  },
+  "surface": {
+    "texture_rule": "Diffuse-only textures painted by hand with light, shadow and wear in them.",
+    "texel_density": "about 128–256 px for each metre",
+    "filtering": "Smooth with mipmaps.",
+    "material_model": "Diffuse only, or a simple specular; light is mostly in the paint."
+  },
+  "palette": {
+    "strategy": "Warm, saturated hues; shadows shift to purple or blue, highlights to yellow.",
+    "colour_depth": "24 bits",
+    "on_screen_colours": "full colour",
+    "colours": [
+      {
+        "name": "Timber brown",
+        "hex": "#7A4A2A",
+        "role": "beams"
+      },
+      {
+        "name": "Thatch gold",
+        "hex": "#D8A84A",
+        "role": "roofs"
+      },
+      {
+        "name": "Moss green",
+        "hex": "#5A9A3A",
+        "role": "grass"
+      },
+      {
+        "name": "Lantern orange",
+        "hex": "#F8A030",
+        "role": "lights"
+      },
+      {
+        "name": "Shadow purple",
+        "hex": "#4A3A6A",
+        "role": "shadows"
+      },
+      {
+        "name": "Sky teal",
+        "hex": "#58B0C8",
+        "role": "sky"
+      }
+    ]
+  },
+  "lighting": {
+    "model": "Simple dynamic light on top of the light painted into textures.",
+    "shadows": "Soft blob or simple shadow maps.",
+    "atmosphere": "Coloured fog, floating motes and god rays as painted cards.",
+    "time_of_day": "A day cycle that tints the sky and fog."
+  },
+  "world_and_space": {
+    "scale": "Heroic: doors and lanterns 1.3–1.5 times real size.",
+    "interiors": "Taverns and halls full of barrels, beams and warm lamps.",
+    "exteriors": "Villages with crooked half-timbered houses, paths and big trees.",
+    "threshold": "A door opens into a room with no load in later games; a short load in early ones.",
+    "principles": [
+      {
+        "principle": "scale",
+        "rule": "Make doors and props 1.3–1.5 times real scale so they read from the camera.",
+        "value": "1.3–1.5×"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Paint 3 layers: sky light, warm lamps and painted ambient occlusion.",
+        "value": "3 layers"
+      },
+      {
+        "principle": "focal-point",
+        "rule": "Put a landmark (a tower, a big tree) in every vista.",
+        "value": "1 landmark per view"
+      }
+    ]
+  },
+  "interface": {
+    "placement": "Ornate frames along the bottom and the corners, 10–20% of the screen.",
+    "type_and_icons": "Fantasy serif fonts and painted icons.",
+    "diegesis": "On top, in a fantasy frame."
+  },
+  "prompt_primer": {
+    "positive": [
+      "hand-painted textures",
+      "stylised 3D game art",
+      "painterly low poly",
+      "chunky exaggerated buildings",
+      "warm saturated colours",
+      "purple shadows",
+      "half-timbered village",
+      "fantasy tavern",
+      "soft painted light"
+    ],
+    "negative": [
+      "photoreal",
+      "photo texture",
+      "grey palette",
+      "gritty",
+      "realistic proportions",
+      "film grain"
+    ],
+    "canonical_works": [
+      {
+        "work": "World of Warcraft",
+        "maker": "Blizzard Entertainment",
+        "year": 2004
+      },
+      {
+        "work": "Torchlight",
+        "maker": "Runic Games",
+        "year": 2009
+      },
+      {
+        "work": "League of Legends",
+        "maker": "Riot Games",
+        "year": 2009
+      },
+      {
+        "work": "Sea of Thieves",
+        "maker": "Rare",
+        "year": 2018
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "fifth-gen-low-poly"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "cel-shaded-3d"
+    ],
+    "echoes": [
+      "arts-and-crafts-interior",
+      "impressionism"
+    ]
+  },
+  "emotion": {
+    "target_response": "Warm adventure: the viewer sees a cosy, heroic world and wants to step in.",
+    "keywords": [
+      "warm",
+      "cosy",
+      "heroic",
+      "colourful",
+      "inviting"
+    ],
+    "brand_archetypes": [
+      "explorer",
+      "hero",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "hand painted",
+      "stylised game art",
+      "warcraft style",
+      "painterly 3d",
+      "fantasy village"
+    ],
+    "use_cases": [
+      "themed hospitality interiors",
+      "fantasy environments",
+      "children's attractions",
+      "stylised real-time scenes"
+    ],
+    "avoid_when": [
+      "The brief needs a real material sample.",
+      "The tone must be minimal."
+    ],
+    "modifiers": [
+      {
+        "request": "more drawn",
+        "toward": "cel-shaded-3d",
+        "how": "Add ink outlines and flatten the shade into 2 steps."
+      },
+      {
+        "request": "more real",
+        "toward": "pbr-photoreal",
+        "how": "Keep the layout; replace painted light with physical materials."
+      }
+    ]
+  },
+  "permutations": {
+    "render_resolution": {
+      "default": 1080,
+      "min": 720,
+      "max": 2160
+    },
+    "colour_depth": {
+      "default": 24,
+      "min": 24,
+      "max": 32
+    },
+    "camera_projection": {
+      "default": "third-person",
+      "options": [
+        "third-person",
+        "isometric",
+        "top-down"
+      ]
+    },
+    "shading_steps": {
+      "default": 16,
+      "min": 4,
+      "max": 64
+    },
+    "texel_density": {
+      "default": 192,
+      "min": 64,
+      "max": 512
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: World of Warcraft",
+      "url": "https://en.wikipedia.org/wiki/World_of_Warcraft"
+    },
+    {
+      "title": "Wikipedia: Texture mapping",
+      "url": "https://en.wikipedia.org/wiki/Texture_mapping"
+    },
+    {
+      "title": "Wikipedia: Blizzard Entertainment",
+      "url": "https://en.wikipedia.org/wiki/Blizzard_Entertainment"
+    }
+  ]
+}

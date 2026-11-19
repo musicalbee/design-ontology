@@ -217,7 +217,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`documentary-verite`](../documentary-verite/SKILL.md)
 - **Mixes well with:** [`dogme-95`](../dogme-95/SKILL.md)
-- **Kin in another domain:** [`y2k-digicam`](../y2k-digicam/SKILL.md)
+- **Kin in another domain:** [`low-poly-ps1-revival`](../low-poly-ps1-revival/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
 - **Nearest by vector profile:** [`documentary-verite`](../documentary-verite/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md)
 
 ## Emotional target

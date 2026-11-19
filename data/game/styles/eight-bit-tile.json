@@ -1,0 +1,288 @@
+{
+  "$schema": "../../../schema/domains/game.schema.json",
+  "id": "eight-bit-tile",
+  "domain": "game",
+  "name": "8-bit tile graphics",
+  "aliases": [
+    "8-bit pixel art",
+    "NES-era graphics",
+    "Third-generation console look"
+  ],
+  "era_id": "tile-and-sprite",
+  "time_period": {
+    "start": 1983,
+    "end": 1992,
+    "label": "1983–1992"
+  },
+  "region": "Japan, then worldwide",
+  "hardware": [
+    "nes",
+    "master-system",
+    "home-computer"
+  ],
+  "summary": "A world drawn from 8×8 pixel tiles on a 256×240 screen, with 3 colours plus transparency in each sprite and a fixed hardware palette of about 54 colours. Black outlines and flat fills make each house and tree a small icon.",
+  "philosophy": {
+    "core_thesis": "A small grid and a small palette force each object into its clearest silhouette, so a house in 16 pixels reads at once.",
+    "design_principles": [
+      "Build every background from 8×8 or 16×16 tiles that repeat on a grid.",
+      "Give each sprite 3 colours plus transparent; outline it in black or a dark hue.",
+      "Use flat fills; show volume with one highlight row and one shadow row, never a gradient.",
+      "Keep the screen at 256×240 pixels and scale it up with hard nearest-neighbour edges.",
+      "Use a sky of one flat colour, often light blue or black.",
+      "Make a character 16 to 32 pixels high, with a large head."
+    ],
+    "anti_patterns": [
+      "Smooth gradients or anti-aliased edges",
+      "More than 4 colours in one 16×16 area",
+      "Sub-pixel detail or filtered scaling",
+      "Perspective that breaks the tile grid",
+      "Photographic texture"
+    ]
+  },
+  "vectors": {
+    "render_fidelity": 1,
+    "spatial_depth": 1,
+    "stylisation": 5,
+    "lighting_drama": 1,
+    "surface_density": 2
+  },
+  "projection_and_camera": {
+    "projection": "side-view",
+    "camera": "Scrolls left and right, or flips screen by screen.",
+    "field_of_view": "orthographic",
+    "framing": "About 16 tiles across and 15 down; the ground line sits in the lower third."
+  },
+  "geometry": {
+    "primitive": "An 8×8 pixel tile; sprites of 8×8 or 8×16.",
+    "budget": "64 sprites, no more than 8 on one scan line; 256 distinct background tiles.",
+    "edge_rule": "Hard pixel steps; diagonals in clean 1:1 or 2:1 runs.",
+    "proportion": "A character is 1 to 2 tiles high; a door is 2 tiles; a house front is 4 to 6 tiles."
+  },
+  "surface": {
+    "texture_rule": "A brick or a leaf is a 2- or 3-colour pattern inside one tile, repeated.",
+    "texel_density": "about 16 px for each metre at the scale of the character",
+    "filtering": "Nearest neighbour; every pixel is a hard square.",
+    "material_model": "Painted: each material is a fixed tile with its colours in it."
+  },
+  "palette": {
+    "strategy": "A fixed hardware palette; each 16×16 area takes one 3-colour sub-palette plus the shared background colour.",
+    "colour_depth": "a 54-colour master palette, 4 sub-palettes of 3 colours",
+    "on_screen_colours": "about 25",
+    "colours": [
+      {
+        "name": "Sky blue",
+        "hex": "#5C94FC",
+        "role": "sky"
+      },
+      {
+        "name": "Brick red",
+        "hex": "#C84C0C",
+        "role": "buildings"
+      },
+      {
+        "name": "Ground brown",
+        "hex": "#AC7C00",
+        "role": "ground"
+      },
+      {
+        "name": "Leaf green",
+        "hex": "#00A800",
+        "role": "trees"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "role": "outline"
+      },
+      {
+        "name": "Skin",
+        "hex": "#FCBCB0",
+        "role": "character"
+      },
+      {
+        "name": "White",
+        "hex": "#FCFCFC",
+        "role": "highlight"
+      }
+    ]
+  },
+  "lighting": {
+    "model": "Painted into the tiles; no light engine.",
+    "shadows": "A dark tile row under an object, or none.",
+    "atmosphere": "None; the air is clear and flat.",
+    "time_of_day": "A swap of the sky colour: light blue for day, black for night."
+  },
+  "world_and_space": {
+    "scale": "Doors are twice the height of the character; streets are one screen long.",
+    "interiors": "A room is a separate screen with a flat back wall, a floor line and furniture as single sprites.",
+    "exteriors": "A street is a row of house fronts on one ground line, with the sky above.",
+    "threshold": "Walk into a door and cut to a new screen.",
+    "principles": [
+      {
+        "principle": "scale",
+        "rule": "Draw a door 2 tiles high for a character of 1 to 1.5 tiles.",
+        "value": "door = 2× character"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Use 2 planes: background tiles and sprites in front.",
+        "value": "2 planes"
+      },
+      {
+        "principle": "focal-point",
+        "rule": "Keep the player near the left third of the screen in the scroll direction.",
+        "value": "x ≈ 0.33 of screen width"
+      }
+    ]
+  },
+  "interface": {
+    "placement": "A strip at the top or the bottom, about 10–15% of the screen, on black.",
+    "type_and_icons": "An 8×8 pixel font in capitals; icons are single tiles.",
+    "diegesis": "Mostly on top; signs in the world are tiles with no readable text."
+  },
+  "prompt_primer": {
+    "positive": [
+      "8-bit pixel art",
+      "NES-era video game",
+      "256x240 resolution",
+      "limited 25-colour palette",
+      "flat colour fills",
+      "black pixel outlines",
+      "tile-based background",
+      "side-scrolling view",
+      "hard pixel edges",
+      "flat sky colour"
+    ],
+    "negative": [
+      "smooth gradient",
+      "anti-aliasing",
+      "3D render",
+      "photoreal",
+      "blur",
+      "high resolution detail"
+    ],
+    "canonical_works": [
+      {
+        "work": "Super Mario Bros.",
+        "maker": "Nintendo",
+        "year": 1985
+      },
+      {
+        "work": "The Legend of Zelda",
+        "maker": "Nintendo",
+        "year": 1986
+      },
+      {
+        "work": "Mega Man 2",
+        "maker": "Capcom",
+        "year": 1988
+      },
+      {
+        "work": "Castlevania",
+        "maker": "Konami",
+        "year": 1986
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "vector-display-arcade"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "pixel-art-web",
+      "pixel-icon"
+    ]
+  },
+  "emotion": {
+    "target_response": "A bright, toy-like confidence: the viewer reads each thing at once and feels a world small enough to master.",
+    "keywords": [
+      "playful",
+      "bright",
+      "clear",
+      "nostalgic",
+      "toy-like"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "innocent",
+      "hero"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "8-bit",
+      "nes style",
+      "retro pixel art",
+      "chiptune era",
+      "8-bit game look"
+    ],
+    "use_cases": [
+      "retro game art",
+      "playful wayfinding",
+      "pixel-art murals and tiles",
+      "kids' rooms and play areas"
+    ],
+    "avoid_when": [
+      "The brief needs depth, light or real material.",
+      "The space must feel calm and adult."
+    ],
+    "modifiers": [
+      {
+        "request": "more colour",
+        "toward": "sixteen-bit-sprite",
+        "how": "Keep the tiles; widen the palette to 256 colours and add 2 to 4 parallax layers."
+      },
+      {
+        "request": "fewer colours",
+        "toward": "four-shade-handheld",
+        "how": "Keep the grid; reduce the palette to 4 shades of one hue."
+      }
+    ]
+  },
+  "permutations": {
+    "render_resolution": {
+      "default": 240,
+      "min": 192,
+      "max": 240
+    },
+    "colour_depth": {
+      "default": 4,
+      "min": 2,
+      "max": 6,
+      "note": "A 54-colour master palette, used through 2-bit sub-palettes."
+    },
+    "camera_projection": {
+      "default": "side-view",
+      "options": [
+        "side-view",
+        "top-down"
+      ]
+    },
+    "shading_steps": {
+      "default": 2,
+      "min": 1,
+      "max": 3
+    },
+    "texel_density": {
+      "default": 16,
+      "min": 8,
+      "max": 24
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Nintendo Entertainment System",
+      "url": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System"
+    },
+    {
+      "title": "Wikipedia: Pixel art",
+      "url": "https://en.wikipedia.org/wiki/Pixel_art"
+    },
+    {
+      "title": "Wikipedia: Tile-based video game",
+      "url": "https://en.wikipedia.org/wiki/Tile-based_video_game"
+    }
+  ]
+}

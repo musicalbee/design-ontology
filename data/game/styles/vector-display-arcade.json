@@ -1,0 +1,279 @@
+{
+  "$schema": "../../../schema/domains/game.schema.json",
+  "id": "vector-display-arcade",
+  "domain": "game",
+  "name": "Vector display arcade",
+  "aliases": [
+    "Vector graphics arcade",
+    "Glowing line arcade"
+  ],
+  "era_id": "arcade-age",
+  "time_period": {
+    "start": 1979,
+    "end": 1985,
+    "label": "1979–1985"
+  },
+  "region": "the United States, arcades",
+  "hardware": [
+    "arcade"
+  ],
+  "summary": "The beam of the tube draws lines, not pixels. Bright monochrome or colour outlines glow on pure black, with no fill, no texture and a world built from wire shapes.",
+  "philosophy": {
+    "core_thesis": "A world can be drawn with light alone: a few sharp glowing lines on black are enough for the eye to build space.",
+    "design_principles": [
+      "Draw every object as an outline of straight line segments; use no filled area.",
+      "Keep the ground pure black; it is the space between the lines.",
+      "Make the lines bright and let them bloom by 1–3 px into the dark.",
+      "Use 1 to 4 colours of full saturation, one for each class of object.",
+      "Show depth with perspective wireframes and a vanishing point, not with shading.",
+      "Keep each shape under about 30 segments so it reads at a glance."
+    ],
+    "anti_patterns": [
+      "Filled or textured surfaces",
+      "A grey or coloured background",
+      "Soft gradients or painted shading",
+      "Dense detail that the beam cannot draw in one frame",
+      "Pixel steps on a diagonal line"
+    ]
+  },
+  "vectors": {
+    "render_fidelity": 1,
+    "spatial_depth": 3,
+    "stylisation": 5,
+    "lighting_drama": 3,
+    "surface_density": 1
+  },
+  "projection_and_camera": {
+    "projection": "first-person",
+    "camera": "Locked, or a slow fly-through down a tube or a grid.",
+    "field_of_view": "about 60, a strong vanishing point",
+    "framing": "The whole field of play on one screen, with the player at the bottom or the centre."
+  },
+  "geometry": {
+    "primitive": "A straight line segment between two points on a 1024 by 768 addressable field.",
+    "budget": "A few hundred segments for each frame on the whole screen.",
+    "edge_rule": "Perfect straight lines with no steps; the ends of lines glow a little brighter.",
+    "proportion": "Abstract: a ship, a rock and a city are all the same order of size."
+  },
+  "surface": {
+    "texture_rule": "No texture; a surface is its outline.",
+    "texel_density": "none",
+    "filtering": "None; the beam draws the line in analogue.",
+    "material_model": "No material; every line is a light source."
+  },
+  "palette": {
+    "strategy": "Light on black: white or one hue on a monochrome tube, up to 7 saturated hues on a colour tube.",
+    "colour_depth": "1 to 3 bits: on or off for each colour gun",
+    "on_screen_colours": "1 to 7",
+    "colours": [
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "role": "ground"
+      },
+      {
+        "name": "Phosphor white",
+        "hex": "#E8F4FF",
+        "role": "lines"
+      },
+      {
+        "name": "Vector green",
+        "hex": "#3CFF5A",
+        "role": "player"
+      },
+      {
+        "name": "Electric blue",
+        "hex": "#2E6BFF",
+        "role": "grid"
+      },
+      {
+        "name": "Magenta",
+        "hex": "#FF2EC8",
+        "role": "enemy"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FFE53C",
+        "role": "shots"
+      }
+    ]
+  },
+  "lighting": {
+    "model": "None; each line emits light.",
+    "shadows": "No shadows: a line casts none.",
+    "atmosphere": "A soft glow around each line from the phosphor of the tube.",
+    "time_of_day": "Always night: black ground."
+  },
+  "world_and_space": {
+    "scale": "One screen is the whole world; the scale is symbolic.",
+    "interiors": "A room is a wireframe box in perspective, its edges only.",
+    "exteriors": "A street is a perspective grid that runs to one vanishing point, with wire buildings at the sides.",
+    "threshold": "A cut to a new screen.",
+    "principles": [
+      {
+        "principle": "focal-point",
+        "rule": "Put the player shape at the bottom centre or the screen centre; every line leads there.",
+        "value": "1 focal point"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Show depth with 3 to 6 nested outlines that shrink toward the vanishing point.",
+        "value": "3–6 depth planes"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Use one light layer only: the lines themselves.",
+        "value": "1 layer"
+      }
+    ]
+  },
+  "interface": {
+    "placement": "A score in the top corners in the same vector lines, about 5% of the screen.",
+    "type_and_icons": "Stroke letters built from 5 to 10 segments.",
+    "diegesis": "None; the score sits on top of the black ground."
+  },
+  "prompt_primer": {
+    "positive": [
+      "vector display graphics",
+      "glowing neon wireframe lines",
+      "pure black background",
+      "no filled surfaces",
+      "phosphor glow",
+      "perspective wireframe grid",
+      "outline buildings",
+      "1980 arcade monitor",
+      "saturated line colours",
+      "minimal line art scene"
+    ],
+    "negative": [
+      "texture",
+      "filled shapes",
+      "gradient sky",
+      "photoreal",
+      "pixel art",
+      "soft shading"
+    ],
+    "canonical_works": [
+      {
+        "work": "Asteroids",
+        "maker": "Atari",
+        "year": 1979
+      },
+      {
+        "work": "Battlezone",
+        "maker": "Atari",
+        "year": 1980
+      },
+      {
+        "work": "Tempest",
+        "maker": "Atari",
+        "year": 1981
+      },
+      {
+        "work": "Star Wars",
+        "maker": "Atari",
+        "year": 1983
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "synthwave-web",
+      "cassette-futurism"
+    ]
+  },
+  "emotion": {
+    "target_response": "A cold, exact wonder: the player sees a world made of light lines and fills in the rest.",
+    "keywords": [
+      "electric",
+      "exact",
+      "cold",
+      "futurist",
+      "minimal"
+    ],
+    "brand_archetypes": [
+      "magician",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "vector graphics game",
+      "wireframe arcade",
+      "glowing line art",
+      "vector monitor",
+      "neon wireframe"
+    ],
+    "use_cases": [
+      "retro-futurist title screens",
+      "light installations",
+      "night-time wayfinding concepts",
+      "sci-fi interiors with line lighting"
+    ],
+    "avoid_when": [
+      "The brief needs material, texture or warmth.",
+      "The scene needs many small objects."
+    ],
+    "modifiers": [
+      {
+        "request": "more retro colour",
+        "toward": "eight-bit-tile",
+        "how": "Fill the shapes with a small flat palette and move to a tile grid."
+      },
+      {
+        "request": "more solid",
+        "toward": "fifth-gen-low-poly",
+        "how": "Keep the perspective; fill the wireframes with flat-shaded polygons."
+      }
+    ]
+  },
+  "permutations": {
+    "render_resolution": {
+      "default": 768,
+      "min": 480,
+      "max": 1024,
+      "note": "The addressable field of the beam, not a raster."
+    },
+    "colour_depth": {
+      "default": 1,
+      "min": 1,
+      "max": 3
+    },
+    "camera_projection": {
+      "default": "first-person",
+      "options": [
+        "first-person",
+        "side-view",
+        "top-down"
+      ]
+    },
+    "shading_steps": {
+      "default": 1,
+      "min": 1,
+      "max": 2
+    },
+    "texel_density": {
+      "default": 4,
+      "min": 4,
+      "max": 4,
+      "note": "No texture: the floor of the range."
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Vector monitor",
+      "url": "https://en.wikipedia.org/wiki/Vector_monitor"
+    },
+    {
+      "title": "Wikipedia: Asteroids (video game)",
+      "url": "https://en.wikipedia.org/wiki/Asteroids_(video_game)"
+    },
+    {
+      "title": "Wikipedia: Tempest (video game)",
+      "url": "https://en.wikipedia.org/wiki/Tempest_(video_game)"
+    }
+  ]
+}

@@ -27,11 +27,20 @@
       "measure": "wheelchair route",
       "unit": "cm",
       "reference": "90 or more; 150 turning circle"
+    },
+    {
+      "measure": "clear width of a main path for a following camera",
+      "unit": "m of world scale",
+      "reference": "≥ 3, or ≥ 2 tiles in a tile game",
+      "domains": [
+        "game"
+      ]
     }
   ],
   "applies_to": [
     "architecture",
-    "interior"
+    "interior",
+    "game"
   ],
   "related": [
     "zoning",

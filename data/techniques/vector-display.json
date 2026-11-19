@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "vector-display",
+  "name": "Vector display",
+  "aliases": [
+    "Vector scan",
+    "XY display"
+  ],
+  "kind": "technology",
+  "summary": "A cathode-ray tube whose beam draws straight lines from point to point, not a raster of pixels. Lines are sharp at any angle and glow on a black ground.",
+  "how": [
+    "Draw each object as a list of line segments; keep a whole frame under a few thousand segments.",
+    "Keep the ground black; only the lines emit light.",
+    "Use full beam brightness for the player and half for the background."
+  ],
+  "origin": {
+    "domain": "game",
+    "year": 1962,
+    "where": "MIT, Cambridge, Massachusetts",
+    "note": "Spacewar! runs on the point-plotting display of the PDP-1."
+  },
+  "adoptions": [
+    {
+      "domain": "game",
+      "year": 1979,
+      "via": "Atari ships Asteroids and Lunar Lander on vector monitors in arcades.",
+      "styles": [
+        "vector-display-arcade"
+      ]
+    }
+  ],
+  "styles": [
+    "vector-display-arcade"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Vector monitor",
+      "url": "https://en.wikipedia.org/wiki/Vector_monitor"
+    },
+    {
+      "title": "Wikipedia: Spacewar!",
+      "url": "https://en.wikipedia.org/wiki/Spacewar!"
+    }
+  ]
+}
