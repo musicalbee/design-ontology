@@ -988,6 +988,23 @@ Used by: [`whalebone-stays`](./whalebone-stays/SKILL.md), [`victorian-corsetry`]
 
 Sources: [Wikipedia: Stays (clothing)](https://en.wikipedia.org/wiki/Stays_(clothing)); [Wikipedia: Corset](https://en.wikipedia.org/wiki/Corset).
 
+### Bread-thickened sauce
+
+A sauce that a cook binds with soaked and strained bread. The sauce gets body and a soft texture, and it carries spice and acid.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Cuisine | c. 1300 | — | Courts of France: Le Viandier gives bread as the main binder of its sauces, as in the cameline sauce. | |
+| 1 | Cuisine | c. 1500 | +200 years | Italian and French banquet kitchens kept bread as a binder beside the first butter sauces. | [`renaissance-banquet`](./renaissance-banquet/SKILL.md) |
+
+Used by: [`medieval-court-cuisine`](./medieval-court-cuisine/SKILL.md), [`renaissance-banquet`](./renaissance-banquet/SKILL.md).
+
+- Soak white bread in broth, vinegar or verjuice for a short time.
+- Grind the bread with spice in a mortar and strain the paste through a cloth.
+- Heat the sauce gently and serve it beside a roast or over boiled meat.
+
+Sources: [Wikipedia: Le Viandier](https://en.wikipedia.org/wiki/Le_Viandier).
+
 ### Cantilever
 
 A beam or slab fixed at one end that carries load beyond its support, so that it seems to hang in the air.
@@ -1010,6 +1027,24 @@ Used by: [`prairie-school-architecture`](./prairie-school-architecture/SKILL.md)
 - Repeat the horizontal line in a run of 2 or 3 projecting planes to give a strong shadow.
 
 Sources: Wikipedia, Cantilever; [Wikipedia, Fallingwater](https://en.wikipedia.org/wiki/Fallingwater).
+
+### Ceviche curing
+
+Raw fish stays in lime juice with salt and chilli for a few minutes, until the surface turns firm and opaque, and is served at once with its juice.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Cuisine | c. 1820 | — | Lima, Peru: The first firm records of the lime cure of fish are of the early nineteenth century in Lima. | |
+| 1 | Cuisine | 1994 | +174 years | Gastón Acurio served ceviche as a fine-dining course at Astrid y Gastón in Lima. | [`novoandina-and-nikkei`](./novoandina-and-nikkei/SKILL.md) |
+
+Used by: [`novoandina-and-nikkei`](./novoandina-and-nikkei/SKILL.md).
+
+- Cut very fresh fish into cubes of 2 cm and chill it to 4 °C.
+- Add salt, chilli and the juice of fresh limes in the same bowl.
+- Leave the fish in the acid for 2 to 4 minutes, no more.
+- Serve at once in a cold bowl with the juice and a sweet or crisp side.
+
+Sources: [Wikipedia: Ceviche](https://en.wikipedia.org/wiki/Ceviche); [Wikipedia: Gastón Acurio](https://en.wikipedia.org/wiki/Gast%C3%B3n_Acurio).
 
 ### Chiaroscuro
 
@@ -1269,6 +1304,23 @@ Used by: [`monospace`](./monospace/SKILL.md), [`terminal-tui-web`](./terminal-tu
 
 Sources: [Monospaced font (Wikipedia)](https://en.wikipedia.org/wiki/Monospaced_font); [Sholes and Glidden typewriter (Wikipedia)](https://en.wikipedia.org/wiki/Sholes_and_Glidden_typewriter); [VT100 (Wikipedia)](https://en.wikipedia.org/wiki/VT100).
 
+### Flourless reduction sauce
+
+A sauce made from the cooking juices and a stock, reduced and finished with a little cream, butter, fromage blanc or a vegetable purée, with no flour roux.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Cuisine | c. 1962 | — | Roanne, France: The Troisgros brothers made salmon with a sorrel sauce that the cook did not thicken with starch. | |
+| 1 | Cuisine | c. 1975 | +13 years | Michel Guérard cut the butter and the cream further and bound his sauces with fromage blanc and vegetable purée. | [`cuisine-minceur`](./cuisine-minceur/SKILL.md) |
+
+Used by: [`nouvelle-cuisine`](./nouvelle-cuisine/SKILL.md), [`cuisine-minceur`](./cuisine-minceur/SKILL.md).
+
+- Deglaze the pan with wine or stock, and reduce it by two thirds.
+- Add a spoon of cream, a cube of cold butter, or fromage blanc, and whisk it off the heat.
+- Season with lemon, vinegar or herbs at the end, and serve 30 to 50 ml of sauce under the food.
+
+Sources: [Wikipedia: Pierre Troisgros](https://en.wikipedia.org/wiki/Pierre_Troisgros); [Wikipedia: Cuisine minceur](https://en.wikipedia.org/wiki/Cuisine_minceur).
+
 ### Fully fashioned knitting
 
 A way to knit each part of a garment to shape, and then to join the parts by linking stitch to stitch, so that the seam is flat.
@@ -1490,6 +1542,42 @@ Used by: [`corporate-memphis`](./corporate-memphis/SKILL.md), [`bento-grid-ui`](
 
 Sources: William Farish, On Isometrical Perspective (Transactions of the Cambridge Philosophical Society, 1822).
 
+### Kitchen brigade
+
+A kitchen split into stations, each with one task and one chief, under a chef de cuisine; a dish passes from station to station like a part on a line.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Cuisine | c. 1890 | — | Savoy Hotel, London: Escoffier organised the hotel kitchen into parties, so that a dish was ready in minutes, not hours. | |
+| 1 | Cuisine | c. 1965 | +75 years | Nouvelle cuisine kept the stations and gave the plating to the chef at the pass. | [`nouvelle-cuisine`](./nouvelle-cuisine/SKILL.md) |
+
+Used by: [`cuisine-classique`](./cuisine-classique/SKILL.md), [`nouvelle-cuisine`](./nouvelle-cuisine/SKILL.md).
+
+- Give each station one task: sauce, roast, fish, vegetables, cold kitchen or pastry.
+- Call each order from the pass, and let each station start its part at the call.
+- Assemble the plate at the pass, and let the chef check it before it leaves.
+
+Sources: [Wikipedia: Brigade de cuisine](https://en.wikipedia.org/wiki/Brigade_de_cuisine).
+
+### Lacto-fermentation
+
+Vegetables in a salt brine are soured by lactic bacteria; the acid and the savoury taste keep the food and add depth to a dish.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Cuisine | c. 200 BCE | — | China: Salted and soured vegetables were stored in China in the last centuries BCE; the method spread over Asia and Europe. | |
+| 1 | Cuisine | 2004 | +2204 years | The cooks of the Nordic kitchen, led by Noma, made ferments of vegetables, fruit and grain a part of the menu. | [`new-nordic`](./new-nordic/SKILL.md) |
+| 2 | Cuisine | 2021 | +2221 years | The plant-based menu of Eleven Madison Park used ferments in place of meat and dairy for depth of taste. | [`plant-based-fine-dining`](./plant-based-fine-dining/SKILL.md) |
+
+Used by: [`new-nordic`](./new-nordic/SKILL.md), [`plant-based-fine-dining`](./plant-based-fine-dining/SKILL.md).
+
+- Weigh the vegetables and add 2 per cent salt by weight.
+- Press the vegetables under their own brine in a closed jar.
+- Keep the jar at 18 to 22 °C for 3 to 14 days and taste each day.
+- Chill the ferment when the acid is right, and use the juice as a sauce or a seasoning.
+
+Sources: [Wikipedia: Lactic acid fermentation](https://en.wikipedia.org/wiki/Lactic_acid_fermentation); [Wikipedia: Daniel Humm](https://en.wikipedia.org/wiki/Daniel_Humm).
+
 ### Letterpress
 
 Printing from raised metal or wood type and blocks, locked in a forme and pressed into the paper.
@@ -1589,6 +1677,24 @@ Used by: [`brutalist-jewellery`](./brutalist-jewellery/SKILL.md), [`modernist-st
 
 Sources: [Wikipedia: Lost-wax casting](https://en.wikipedia.org/wiki/Lost-wax_casting).
 
+### Market menu
+
+The chef writes the menu after the visit to the market or the farm, and the dishes change each day or each week with what is fresh.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Cuisine | c. 1965 | — | Collonges-au-Mont-d'Or, France: Paul Bocuse and the chefs of nouvelle cuisine bought produce at the market and built the menu from it. | |
+| 1 | Cuisine | 1971 | +6 years | Alice Waters served one set menu at Chez Panisse that changed each day with the produce of local farms. | [`california-cuisine`](./california-cuisine/SKILL.md) |
+| 2 | Cuisine | 1992 | +27 years | Yves Camdeborde wrote a fixed menu on a blackboard at La Régalade and changed it with the market. | [`bistronomie`](./bistronomie/SKILL.md) |
+
+Used by: [`nouvelle-cuisine`](./nouvelle-cuisine/SKILL.md), [`california-cuisine`](./california-cuisine/SKILL.md), [`bistronomie`](./bistronomie/SKILL.md).
+
+- Buy the produce on the same day, from the same traders or farms.
+- Write the menu after the purchase, and keep it short.
+- Print or write the menu by hand on the day, and name the farm or the market.
+
+Sources: [Wikipedia: Paul Bocuse](https://en.wikipedia.org/wiki/Paul_Bocuse); [Wikipedia: Chez Panisse](https://en.wikipedia.org/wiki/Chez_Panisse).
+
 ### Mesh gradient
 
 A colour field built from many points that each hold a colour, so the colours blend in soft, organic shapes.
@@ -1647,6 +1753,23 @@ Used by: [`swiss-international`](./swiss-international/SKILL.md), [`swiss-modern
 - Scale an image by a whole number of modules.
 
 Sources: Josef Mueller-Brockmann, Grid Systems in Graphic Design (Niggli, 1981).
+
+### Mother sauce system
+
+A system that derives all the sauces of a kitchen from a few base sauces. A cook who knows the base can make many small sauces from it.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Cuisine | 1833 | — | Paris: Carême set the grand sauces (espagnole, velouté, allemande and béchamel) as the base of his sauce chapters. | |
+| 1 | Cuisine | 1903 | +70 years | Escoffier cut the grand sauces to five mother sauces in Le Guide culinaire. | [`cuisine-classique`](./cuisine-classique/SKILL.md) |
+
+Used by: [`grande-cuisine`](./grande-cuisine/SKILL.md), [`cuisine-classique`](./cuisine-classique/SKILL.md).
+
+- Make each base sauce from a stock and a roux: espagnole, velouté and béchamel.
+- Add one item to a base sauce, such as herbs, wine or cream, to make a small sauce.
+- Keep the base sauces ready each day, and finish each small sauce to order.
+
+Sources: [Wikipedia: French mother sauces](https://en.wikipedia.org/wiki/Mother_sauces); [Wikipedia: Marie-Antoine Carême](https://en.wikipedia.org/wiki/Marie-Antoine_Car%C3%AAme).
 
 ### Optical mixing
 
@@ -1781,6 +1904,23 @@ Used by: [`pre-rendered-backgrounds`](./pre-rendered-backgrounds/SKILL.md).
 
 Sources: [Wikipedia: Pre-rendering](https://en.wikipedia.org/wiki/Pre-rendering); [Wikipedia: Myst](https://en.wikipedia.org/wiki/Myst).
 
+### Regional sourcing
+
+A way to write a menu from the produce of one region and one season. The cook buys from near farms and markets and names the source on the menu.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Cuisine | c. 1925 | — | Vienne, France: Fernand Point built the menu of La Pyramide on Bresse poultry, crayfish, cream and Rhône wine. | |
+| 1 | Cuisine | c. 1965 | +40 years | Pupils of Point, among them Bocuse and the Troisgros brothers, took the market menu into nouvelle cuisine. | [`nouvelle-cuisine`](./nouvelle-cuisine/SKILL.md) |
+
+Used by: [`haute-regionale`](./haute-regionale/SKILL.md), [`nouvelle-cuisine`](./nouvelle-cuisine/SKILL.md).
+
+- Buy each main food from a producer within the region on the day of the meal.
+- Cook the classic dish with that food, and keep the sauce simple.
+- Pair the dish with a wine of the same region.
+
+Sources: [Wikipedia: Fernand Point](https://en.wikipedia.org/wiki/Fernand_Point).
+
 ### Roof light
 
 An opening in the roof that lets daylight fall into a room from above.
@@ -1797,6 +1937,25 @@ Used by: [`nordic-modernism-architecture`](./nordic-modernism-architecture/SKILL
 - Put the roof light over the place of use: a reading table, a stair or the centre of a hall.
 
 Sources: Richard Weston, Alvar Aalto (1995).
+
+### Roux and stock base
+
+A pair of kitchen bases: a stock made from bones and meat, and a roux of flour and butter that thickens it. Most French sauces of later styles begin here.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Cuisine | 1651 | — | Paris: La Varenne printed the roux as a sauce base in place of bread crumbs, and the stock as the base of a sauce and a soup. | |
+| 1 | Cuisine | 1815 | +164 years | Carême built his grand sauces on stocks and a roux. | [`grande-cuisine`](./grande-cuisine/SKILL.md) |
+| 2 | Cuisine | c. 1884 | +233 years | Escoffier kept the roux and the stock in the system of the hotel kitchen. | [`cuisine-classique`](./cuisine-classique/SKILL.md) |
+| 3 | Cuisine | c. 1925 | +274 years | The restaurants of the provinces kept the classic stock and roux sauces. | [`haute-regionale`](./haute-regionale/SKILL.md) |
+
+Used by: [`cuisine-francoise`](./cuisine-francoise/SKILL.md), [`grande-cuisine`](./grande-cuisine/SKILL.md), [`cuisine-classique`](./cuisine-classique/SKILL.md), [`haute-regionale`](./haute-regionale/SKILL.md).
+
+- Simmer bones, meat and vegetables in water for several hours and strain the stock.
+- Cook flour in butter over low heat to the colour that the sauce needs.
+- Whisk the stock into the roux and simmer the sauce until it coats a spoon.
+
+Sources: [Wikipedia: François Pierre La Varenne](https://en.wikipedia.org/wiki/Fran%C3%A7ois_Pierre_La_Varenne); [Wikipedia: Roux](https://en.wikipedia.org/wiki/Roux).
 
 ### Screen printing
 
@@ -1841,6 +2000,25 @@ Used by: [`impressionism`](./impressionism/SKILL.md), [`minimalism-painting`](./
 - Remove the hand: use a mechanical edge, a stencil or a plain lens.
 
 Sources: [Wikipedia: Haystacks (Monet)](https://en.wikipedia.org/wiki/Haystacks_(Monet)); Bernd and Hilla Becher, Typologien industrieller Bauten (1963).
+
+### Service à la française
+
+A way to serve a meal: all the dishes of one service stand on the table together, and the guests take from the dishes near them. A new service replaces the old one.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Cuisine | c. 1300 | — | Courts of France: Medieval feasts put many dishes on the table at once, in two or three services. | |
+| 1 | Cuisine | c. 1500 | +200 years | Scappi and the banquet cooks of Italy planned each service as a pattern of dishes. | [`renaissance-banquet`](./renaissance-banquet/SKILL.md) |
+| 2 | Cuisine | 1651 | +351 years | La Varenne wrote his book for a table of services of dishes in a fixed order. | [`cuisine-francoise`](./cuisine-francoise/SKILL.md) |
+| 3 | Cuisine | 1815 | +515 years | Carême drew table plans for each service and published them. | [`grande-cuisine`](./grande-cuisine/SKILL.md) |
+
+Used by: [`medieval-court-cuisine`](./medieval-court-cuisine/SKILL.md), [`renaissance-banquet`](./renaissance-banquet/SKILL.md), [`cuisine-francoise`](./cuisine-francoise/SKILL.md), [`grande-cuisine`](./grande-cuisine/SKILL.md).
+
+- Set all the dishes of one service on the table at the same time.
+- Place the dishes in a symmetric pattern that a plan on paper shows.
+- Clear the whole service at once and set the next service in its place.
+
+Sources: [Wikipedia: Service à la française](https://en.wikipedia.org/wiki/Service_%C3%A0_la_fran%C3%A7aise).
 
 ### Shadow gap
 
@@ -1934,6 +2112,43 @@ Used by: [`colour-field-painting`](./colour-field-painting/SKILL.md), [`abstract
 - Work at a size of 2 metres or more so that the field is wider than the viewer's sight.
 
 Sources: [Wikipedia: Helen Frankenthaler](https://en.wikipedia.org/wiki/Helen_Frankenthaler); Helen Frankenthaler, Mountains and Sea (1952).
+
+### Sous vide
+
+Food is sealed in a bag and cooked in a water bath at an exact low temperature, so that the whole piece reaches the same core heat.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Cuisine | 1974 | — | Roanne, France: Georges Pralus cooked foie gras in a sealed bag for the Troisgros kitchen to lose less fat. | |
+| 1 | Cuisine | c. 2000 | +26 years | Chefs of the avant-garde kitchen, such as Heston Blumenthal, took the water bath into the tasting menu. | [`molecular-gastronomy`](./molecular-gastronomy/SKILL.md) |
+| 2 | Cuisine | 2011 | +37 years | The book Modernist Cuisine gave tables of time and temperature for each food. | [`modernist-cuisine`](./modernist-cuisine/SKILL.md) |
+
+Used by: [`nouvelle-cuisine`](./nouvelle-cuisine/SKILL.md), [`molecular-gastronomy`](./molecular-gastronomy/SKILL.md), [`modernist-cuisine`](./modernist-cuisine/SKILL.md).
+
+- Season the food and seal it in a bag with the air removed.
+- Set the water bath to the target core temperature, for example 56 °C for beef.
+- Cook for the time that the thickness of the piece needs, from 1 to 48 hours.
+- Chill or sear the food just before service.
+
+Sources: [Wikipedia: Sous-vide](https://en.wikipedia.org/wiki/Sous-vide); [Wikipedia: Modernist Cuisine](https://en.wikipedia.org/wiki/Modernist_Cuisine).
+
+### Spherification
+
+A liquid dropped into a calcium bath forms a thin skin of alginate gel; the sphere holds its shape on the spoon and bursts in the mouth.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Cuisine | 2003 | — | Roses, Spain: The elBulli kitchen made the alginate sphere a dish in 2003; the gel came from the food industry. | |
+| 1 | Cuisine | 2011 | +8 years | The book Modernist Cuisine set out the recipes and the times, and Alinea served spheres on the tasting menu. | [`modernist-cuisine`](./modernist-cuisine/SKILL.md) |
+
+Used by: [`molecular-gastronomy`](./molecular-gastronomy/SKILL.md), [`modernist-cuisine`](./modernist-cuisine/SKILL.md).
+
+- Mix 0.5 per cent sodium alginate into the flavoured liquid and rest it until the bubbles go.
+- Drop the liquid with a spoon into a calcium bath of 1 per cent for 1 to 2 minutes.
+- Lift the sphere out and rinse it in clean water.
+- Serve within 5 minutes, because the gel keeps setting towards the centre.
+
+Sources: [Wikipedia: Spherification](https://en.wikipedia.org/wiki/Spherification); [Wikipedia: El Bulli](https://en.wikipedia.org/wiki/El_Bulli).
 
 ### Three-point lighting
 
@@ -2277,6 +2492,24 @@ Used by: [`formal-script`](./formal-script/SKILL.md), [`victorian-trademark`](./
 
 Sources: [Copperplate script (Wikipedia)](https://en.wikipedia.org/wiki/Copperplate_script); [Spencerian script (Wikipedia)](https://en.wikipedia.org/wiki/Spencerian_script).
 
+### Siphon foam
+
+A purée or a liquid loaded into a cream siphon with nitrous oxide comes out as a light, warm or cold foam.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Cuisine | 1994 | — | Roses, Spain: Ferran Adrià took the cream siphon of the pastry kitchen to make savoury foams at elBulli. | |
+| 1 | Cuisine | 2011 | +17 years | Modernist Cuisine gave tested foam recipes, and modernist kitchens used the siphon for sauces and soups. | [`modernist-cuisine`](./modernist-cuisine/SKILL.md) |
+
+Used by: [`molecular-gastronomy`](./molecular-gastronomy/SKILL.md), [`modernist-cuisine`](./modernist-cuisine/SKILL.md).
+
+- Strain the liquid or purée so that no solid blocks the nozzle.
+- Fill the siphon to half and charge it with one cartridge of nitrous oxide.
+- Shake the siphon five times and serve at once from the nozzle.
+- Keep a hot foam at 60 °C in a water bath.
+
+Sources: [Wikipedia: Whipped-cream charger](https://en.wikipedia.org/wiki/Whipped-cream_charger); [Wikipedia: El Bulli](https://en.wikipedia.org/wiki/El_Bulli).
+
 ### Tilt-shift
 
 Lens or camera movements that keep vertical lines parallel and move the plane of focus; a building stands upright and sharp.
@@ -2340,6 +2573,25 @@ Used by: [`bias-cut-glamour`](./bias-cut-glamour/SKILL.md).
 - Hang the cut pieces for a day before the hem is sewn, so that the bias settles.
 
 Sources: [Wikipedia: Bias (textiles)](https://en.wikipedia.org/wiki/Bias_(textiles)); [Wikipedia: Madeleine Vionnet](https://en.wikipedia.org/wiki/Madeleine_Vionnet).
+
+### Chef-plated course
+
+The chef arranges each portion on its own plate in the kitchen, and the waiter brings it to the guest without any change.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Cuisine | c. 1968 | — | Roanne and Collonges-au-Mont-d'Or, France: The chefs of the nouvelle cuisine, among them the Troisgros brothers and Paul Bocuse, put the plating in the kitchen and not at the table. | |
+| 1 | Cuisine | c. 1975 | +7 years | Michel Guérard set small steamed portions on wide plates for the guests of the spa. | [`cuisine-minceur`](./cuisine-minceur/SKILL.md) |
+| 2 | Cuisine | 1983 | +15 years | Chinois on Main and later Roy's and Nobu plated an Asian main piece in a modern shape on a wide plate. | [`pacific-rim-fusion`](./pacific-rim-fusion/SKILL.md) |
+
+Used by: [`nouvelle-cuisine`](./nouvelle-cuisine/SKILL.md), [`cuisine-minceur`](./cuisine-minceur/SKILL.md), [`pacific-rim-fusion`](./pacific-rim-fusion/SKILL.md).
+
+- Warm a large plate of 280 to 320 mm and keep the rim clean.
+- Put the sauce on the plate first, and then the main piece, in one place that the chef chooses.
+- Leave 40 to 55 per cent of the plate empty, and set no more than three garnishes.
+- Check the plate at the pass before it leaves the kitchen.
+
+Sources: [Wikipedia: Nouvelle cuisine](https://en.wikipedia.org/wiki/Nouvelle_cuisine).
 
 ### Coachbuilding
 
@@ -2411,6 +2663,23 @@ Used by: [`georgian-jewellery`](./georgian-jewellery/SKILL.md).
 - Rivet the studs to a metal plate in the shape of a buckle, a brooch or a necklace.
 
 Sources: [Wikipedia: Cut steel jewellery](https://en.wikipedia.org/wiki/Cut_steel_jewellery).
+
+### East-west pairing
+
+The cook sets the sauces, the fish and the seasoning of Asia on a plate with a French or Californian method and plating.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Cuisine | 1983 | — | Santa Monica, California: Wolfgang Puck opened Chinois on Main and cooked French and Californian dishes with Chinese flavours. | |
+| 1 | Cuisine | 1988 | +5 years | Roy Yamaguchi opened Roy's in Honolulu and cooked European technique with the produce and the sauces of Asia and the Pacific. | [`pacific-rim-fusion`](./pacific-rim-fusion/SKILL.md) |
+
+Used by: [`pacific-rim-fusion`](./pacific-rim-fusion/SKILL.md).
+
+- Pick one main ingredient and cook it by a French method: sear, poach or roast.
+- Add one or two Asian seasonings to the sauce: soy, ginger, miso or yuzu.
+- Finish with a butter or an oil, and plate it with a clean, modern shape.
+
+Sources: [Wikipedia: Wolfgang Puck](https://en.wikipedia.org/wiki/Wolfgang_Puck); [Wikipedia: Roy Yamaguchi](https://en.wikipedia.org/wiki/Roy_Yamaguchi).
 
 ### Engine turning
 
@@ -2501,6 +2770,23 @@ Used by: [`early-mountaineering`](./early-mountaineering/SKILL.md), [`nordic-fun
 
 Sources: [Wikipedia: 1924 British Mount Everest expedition](https://en.wikipedia.org/wiki/1924_British_Mount_Everest_expedition); [Wikipedia: Layered clothing](https://en.wikipedia.org/wiki/Layered_clothing).
 
+### Foraging for the menu
+
+The cook gathers wild plants, flowers, mushrooms and shellfish near the kitchen, and the menu changes with what the day brings.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Cuisine | c. 1978 | — | Laguiole, Aubrac, France: Michel Bras built a vegetable dish of dozens of wild and garden plants, the gargouillou, from the plateau around his restaurant. | |
+| 1 | Cuisine | 2004 | +26 years | René Redzepi and the forager Roland Rittman took wild plants into the daily menu of Noma. | [`new-nordic`](./new-nordic/SKILL.md) |
+
+Used by: [`naturalist-cuisine`](./naturalist-cuisine/SKILL.md), [`new-nordic`](./new-nordic/SKILL.md).
+
+- Walk the same ground each week and learn when each plant is ready.
+- Pick only what the kitchen uses that day, and leave the root.
+- Write the menu after the harvest, not before.
+
+Sources: [Wikipedia: Foraging](https://en.wikipedia.org/wiki/Foraging); [Wikipedia: Michel Bras](https://en.wikipedia.org/wiki/Michel_Bras).
+
 ### Mystery setting
 
 A method that sets cut stones on a hidden rail so that no metal shows between them and the stones form one surface.
@@ -2554,6 +2840,24 @@ Used by: [`ladylike-handbag`](./ladylike-handbag/SKILL.md), [`stealth-luxury-acc
 - Finish the seam with a double stitch back, and burnish the edge.
 
 Sources: [Wikipedia: Saddle stitch (sewing)](https://en.wikipedia.org/wiki/Saddle_stitch); [Wikipedia: Hermès](https://en.wikipedia.org/wiki/Herm%C3%A8s).
+
+### Sugar sculpture
+
+A table piece that a cook models from sugar paste, marzipan and pastry in the shape of a building or a beast. It shows the wealth and skill of the host.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Cuisine | c. 1400 | — | Courts of France and England: Late medieval feasts put an edible figure of sugar or paste, a subtlety, on the table between the services. | |
+| 1 | Cuisine | c. 1500 | +100 years | Venetian and Roman cooks and sugar workers made large sculptures for the banquets of cardinals and popes. | [`renaissance-banquet`](./renaissance-banquet/SKILL.md) |
+| 2 | Cuisine | 1815 | +415 years | Carême published his designs for the pièce montée in Le Pâtissier pittoresque. | [`grande-cuisine`](./grande-cuisine/SKILL.md) |
+
+Used by: [`medieval-court-cuisine`](./medieval-court-cuisine/SKILL.md), [`renaissance-banquet`](./renaissance-banquet/SKILL.md), [`grande-cuisine`](./grande-cuisine/SKILL.md).
+
+- Boil sugar to the stage that suits the piece and cast or model it in a mould.
+- Build the frame of the piece from pastry, wire or wood, and fix the sugar parts to it.
+- Set the piece at the centre of the table, and bring it in at the end of a service.
+
+Sources: [Wikipedia: Marie-Antoine Carême](https://en.wikipedia.org/wiki/Marie-Antoine_Car%C3%AAme); [Wikipedia: Sugar sculpture](https://en.wikipedia.org/wiki/Sugar_sculpture).
 
 ### Tambour embroidery
 

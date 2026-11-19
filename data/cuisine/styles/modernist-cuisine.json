@@ -1,0 +1,356 @@
+{
+  "$schema": "../../../schema/domains/cuisine.schema.json",
+  "id": "modernist-cuisine",
+  "domain": "cuisine",
+  "name": "Modernist cuisine",
+  "aliases": [
+    "Modernist cooking",
+    "Science-led cuisine",
+    "Precision cuisine"
+  ],
+  "era_id": "modernist-and-global",
+  "branch": "haute",
+  "time_period": {
+    "start": 2011,
+    "end": null,
+    "label": "2011–present"
+  },
+  "region": "Bellevue, Washington, and Chicago",
+  "summary": "A kitchen that cooks by measurement and shows how it works. The six-volume book Modernist Cuisine of 2011 set out the physics of sous-vide, pressure, gels and freezing. Grant Achatz at Alinea in Chicago turned the method into a tasting menu.",
+  "philosophy": {
+    "core_thesis": "A cook who knows the physics of heat, water and texture can control the result to the degree, the second and the gram, and can then make food that was not possible before.",
+    "design_principles": [
+      "Measure the temperature and the time of each dish, and write both in the recipe.",
+      "Cook in a sealed bag in a water bath so that the whole piece reaches the same exact core temperature.",
+      "Use a tool of the laboratory when it gives a better result than a tool of the old kitchen: a centrifuge, a pressure cooker, a vacuum.",
+      "Show the inside: cut the food in half and photograph it, so that the guest and the reader see the structure.",
+      "Build a dish as a sequence of senses: smell, sound, temperature and touch as well as taste.",
+      "Share the method in a book, so that any cook can test it.",
+      "Serve a long menu of exact, small courses in a room that feels like a theatre."
+    ],
+    "anti_patterns": [
+      "A time or a temperature that the cook only guesses",
+      "A rustic, uneven plate",
+      "A recipe that stays a secret",
+      "Technique as a trick, with no gain in taste or texture",
+      "A heavy sauce that hides the exact cooking of the main piece",
+      "A menu that does not change from year to year"
+    ]
+  },
+  "vectors": {
+    "composition": 5,
+    "transformation": 5,
+    "locality": 2,
+    "richness": 3,
+    "flavour_intensity": 3
+  },
+  "plating": {
+    "composition": "An exact, clean composition on a large plate: one cooked piece, a few sauce dots or gels and a small garnish, set in a measured order.",
+    "plate": "A large white or black plate, a slate, a glass or a vessel that serves the dish, such as a bowl on a pillow of scent.",
+    "portion": "Eight to eighteen courses of 20 to 80 g each; a main piece of 90 g at most.",
+    "height": "Low to medium: 15 to 60 mm, with a tall element such as an edible balloon or a frozen sphere on a few courses.",
+    "rules": [
+      "Cook the main piece to an exact core temperature and cut it so that the even colour shows.",
+      "Set the parts in a measured order on a clean plate, and leave at least half of the plate empty.",
+      "Use gels, foams and powders in small parts and give each a clear, separate taste.",
+      "Serve a course in a surprise vessel or by a surprise route when it adds to the taste.",
+      "Photograph a cut section of the dish from the side and from above."
+    ]
+  },
+  "pantry": {
+    "primary": [
+      "beef",
+      "egg",
+      "potato",
+      "xanthan-gum",
+      "agar",
+      "liquid-nitrogen",
+      "sodium-alginate"
+    ],
+    "secondary": [
+      "pork",
+      "chicken",
+      "salmon",
+      "tuna",
+      "shellfish",
+      "cream",
+      "butter",
+      "cheese",
+      "cocoa",
+      "vanilla",
+      "orchard-fruit",
+      "fine-herbs",
+      "olive-oil",
+      "soy-lecithin",
+      "carrot",
+      "wild-plants"
+    ],
+    "avoid": [
+      "lard"
+    ],
+    "rule": "Choose the best raw product, cook it by measurement, and add gums, gels and gases only where they give a better texture."
+  },
+  "technique": {
+    "methods": [
+      "sous-vide",
+      "spherification",
+      "siphon-foam",
+      "cryo-freezing",
+      "dehydrating",
+      "smoking",
+      "plated-service"
+    ],
+    "bases": "Sous-vide stocks and jus, clarified juices from a centrifuge, gels of agar and gellan, and sauces set with xanthan gum.",
+    "details": "An edible balloon, a frozen sphere, a powder of fat, a smoke under a glass dome, a drop of a gel."
+  },
+  "flavour": {
+    "profile": "Clean, precise and intense: the taste of the product, at its best point of heat and texture.",
+    "balance": "One lead taste in each bite, a clear acid, and a contrast of cold and hot or soft and crisp.",
+    "fat": "Fat is used on purpose: butter in a sauce, a powder of oil; 20 to 35 per cent of the energy of a course.",
+    "seasoning": "Salt by weight, acid from juices and vinegars, and spices and herbs infused in the bag or in the oil."
+  },
+  "palette": {
+    "strategy": "Use a clean, high-contrast palette: a white or black plate, true colours of the product, and one bright sauce.",
+    "colours": [
+      {
+        "name": "Plate white",
+        "hex": "#F2F0EB",
+        "role": "plate"
+      },
+      {
+        "name": "Slate black",
+        "hex": "#25282C",
+        "role": "plate and slate"
+      },
+      {
+        "name": "Medium-rare pink",
+        "hex": "#C96A63",
+        "role": "meat"
+      },
+      {
+        "name": "Egg-yolk gold",
+        "hex": "#E4A82E",
+        "role": "yolk and gel"
+      },
+      {
+        "name": "Herb green",
+        "hex": "#5E8C3A",
+        "role": "herb oil and garnish"
+      },
+      {
+        "name": "Steel grey",
+        "hex": "#8D949B",
+        "role": "steel and ice"
+      },
+      {
+        "name": "Frost blue",
+        "hex": "#BFD8E6",
+        "role": "cold dishes"
+      }
+    ]
+  },
+  "service": {
+    "format": "A fixed tasting menu with a wine or juice pairing, and a book or a lab for the recipes.",
+    "courses": "Ten to twenty small courses; some are served by a surprise route, such as a course eaten from a hanging pin.",
+    "tableware": "Plates, glass and special vessels made for single dishes; a clean table with a plain cloth or a bare surface.",
+    "setting": "A dining room with theatre, a glass-walled kitchen, and a research kitchen that is open to the guest."
+  },
+  "signatures": {
+    "dishes": [
+      {
+        "course": "main-course",
+        "dish": "A cheeseburger cooked sous-vide",
+        "ingredient": "beef",
+        "method": "sous-vide"
+      },
+      {
+        "course": "tasting-course",
+        "dish": "Hot potato, cold potato: a hot soup and a cold cube on a pin",
+        "ingredient": "potato",
+        "method": "plated-service"
+      },
+      {
+        "course": "tasting-course",
+        "dish": "A sous-vide egg with a yolk set at 63 degrees",
+        "ingredient": "egg",
+        "method": "sous-vide"
+      },
+      {
+        "course": "dessert",
+        "dish": "An edible balloon of green apple",
+        "ingredient": "orchard-fruit",
+        "method": "plated-service"
+      },
+      {
+        "course": "dessert",
+        "dish": "A cream frozen in liquid nitrogen at the table",
+        "ingredient": "cream",
+        "method": "cryo-freezing"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "precision tasting menu",
+      "sous-vide cut section photograph",
+      "edible balloon",
+      "frozen sphere",
+      "clean black slate plate",
+      "laboratory kitchen",
+      "exact sauce dots",
+      "smoke under a glass dome",
+      "overhead food photograph"
+    ],
+    "negative": [
+      "rustic plate",
+      "heaped portion",
+      "heavy cream sauce",
+      "foraged garnish",
+      "gold rim",
+      "family-style dish"
+    ],
+    "canonical_works": [
+      {
+        "work": "Modernist Cuisine: The Art and Science of Cooking",
+        "maker": "Nathan Myhrvold, Chris Young and Maxime Bilet",
+        "year": 2011
+      },
+      {
+        "work": "Alinea",
+        "maker": "Grant Achatz",
+        "year": 2008
+      },
+      {
+        "work": "Modernist Cuisine at Home",
+        "maker": "Nathan Myhrvold and Maxime Bilet",
+        "year": 2012
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "A dish at Alinea, Chicago",
+      "kind": "image",
+      "credit": "Jonathan Wisner from Frederick Colorado, via Wikimedia Commons",
+      "licence": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dish_at_alinea_restaurant_in_chicago.jpg",
+      "maker": "Alinea",
+      "year": 2013,
+      "file": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Dish_at_alinea_restaurant_in_chicago.jpg"
+    },
+    {
+      "title": "The Modernist Cuisine kitchen at Intellectual Ventures Labs",
+      "kind": "image",
+      "credit": "Steve Jurvetson from Menlo Park, USA, via Wikimedia Commons",
+      "licence": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Modernist_Cuisine_kitchen_deep_in_the_IV_Labs.jpg",
+      "maker": "The Cooking Lab",
+      "year": 2016,
+      "file": "https://upload.wikimedia.org/wikipedia/commons/0/04/The_Modernist_Cuisine_kitchen_deep_in_the_IV_Labs.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "molecular-gastronomy"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The trust that you feel in a cook who knows the exact degree: calm, cold and clear.",
+    "keywords": [
+      "exact",
+      "clinical",
+      "cold",
+      "measured",
+      "theatrical"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "magician"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "modernist cuisine",
+      "sous vide tasting menu",
+      "science-led cooking",
+      "edible balloon",
+      "precision cooking",
+      "cut-section food photograph",
+      "alinea style"
+    ],
+    "use_cases": [
+      "a tasting menu that states the time and the temperature of each dish",
+      "a food photograph of a clean plate with an exact cooked piece",
+      "a recipe book that shows the method and the physics"
+    ],
+    "avoid_when": [
+      "the brief wants rustic, foraged or heaped food",
+      "the brief wants a rich classic sauce",
+      "the brief is street or home food"
+    ],
+    "modifiers": [
+      {
+        "request": "more play, less measurement",
+        "toward": "molecular-gastronomy",
+        "how": "Keep the methods; drop the tables of time and temperature and add surprise, humour and a story."
+      },
+      {
+        "request": "more plants and less meat",
+        "toward": "plant-based-fine-dining",
+        "how": "Replace the meat with vegetables cooked by measurement, and keep the clean plate and the exact sauces."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Modernist Cuisine",
+      "url": "https://en.wikipedia.org/wiki/Modernist_Cuisine"
+    },
+    {
+      "title": "Wikipedia: Alinea (restaurant)",
+      "url": "https://en.wikipedia.org/wiki/Alinea_(restaurant)"
+    },
+    {
+      "title": "Nathan Myhrvold, Chris Young and Maxime Bilet, Modernist Cuisine (The Cooking Lab, 2011)"
+    }
+  ],
+  "permutations": {
+    "course_count": {
+      "default": 14,
+      "min": 8,
+      "max": 20
+    },
+    "negative_space": {
+      "default": 0.6,
+      "min": 0.4,
+      "max": 0.85
+    },
+    "portion_g": {
+      "default": 60,
+      "min": 20,
+      "max": 120
+    },
+    "spice_level": {
+      "default": 0,
+      "min": 0,
+      "max": 2
+    },
+    "fat_share": {
+      "default": 0.25,
+      "min": 0.15,
+      "max": 0.4
+    },
+    "plate_colour": {
+      "default": "#F2F0EB",
+      "options": [
+        "#F2F0EB",
+        "#25282C",
+        "#8D949B",
+        "#BFD8E6"
+      ]
+    }
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "$schema": "../../../schema/domains/cuisine.schema.json",
+  "id": "novoandina-and-nikkei",
+  "domain": "cuisine",
+  "name": "Novoandina and Nikkei cuisine",
+  "aliases": [
+    "Novoandina",
+    "Nikkei cuisine",
+    "Modern Peruvian cuisine",
+    "Cocina novoandina"
+  ],
+  "era_id": "nouvelle-and-new-world",
+  "branch": "haute",
+  "time_period": {
+    "start": 1986,
+    "end": null,
+    "label": "1986–present"
+  },
+  "region": "Lima, Peru, and the Andes",
+  "summary": "A kitchen of Lima that takes the potatoes, grains and chillies of the Andes and the fish of the Pacific, and gives them French and Japanese technique. Gastón Acurio, Virgilio Martínez and Mitsuharu Tsumura made it a world cuisine.",
+  "philosophy": {
+    "core_thesis": "Peru holds the sea, the desert, the mountain and the jungle, and the cooks of Lima join them with the knives of Japan and the sauces of France to make one new national kitchen.",
+    "design_principles": [
+      "Start from the native ingredient: the potato, the maize, the quinoa, the chilli and the fish of the cold sea.",
+      "Cure raw fish for a few minutes in lime juice, and serve it at once with its juice.",
+      "Join the Japanese cut and the Peruvian chilli: a thin slice of fish with soy, lime and aji.",
+      "Use many chilli kinds for fruit and colour as much as for heat.",
+      "Bring the produce of the altitudes into the menu, from the sea to the high Andes.",
+      "Give the cook and the farmer a share of the credit, and help the small producer.",
+      "Keep the plate bright, with sour, hot, sweet and salty tastes in one bite."
+    ],
+    "anti_patterns": [
+      "Fish that is cured for hours until it is dry",
+      "A heavy cream sauce on a ceviche",
+      "A dish with no chilli or acid",
+      "A copy of a European menu with a Peruvian name",
+      "Imported ingredients when a native one is in season",
+      "A flat, one-colour plate"
+    ]
+  },
+  "vectors": {
+    "composition": 3,
+    "transformation": 3,
+    "locality": 4,
+    "richness": 2,
+    "flavour_intensity": 4
+  },
+  "plating": {
+    "composition": "A bright, layered plate: a thin sliced fish in a pool of sour juice, with a small tower or a ring of potato, maize and sauce dots around it.",
+    "plate": "A white or dark ceramic bowl or plate, a stone, a shell or a hand-made dish of clay with a rough surface.",
+    "portion": "Ten to twenty small courses of 30 to 80 g each; a ceviche of 100 to 130 g with its juice.",
+    "height": "Low to medium: a ceviche lies 20 mm in its juice, a causa of potato rises 40 to 60 mm.",
+    "rules": [
+      "Serve a ceviche at once in a cold dish, with its juice, so that the fish stays firm.",
+      "Add a crisp part to the soft fish: fried maize, toasted kernels or thin chips.",
+      "Place the colours of the chillies in small spots of sauce on the plate.",
+      "Use a native vessel of clay, stone or a shell for a dish that comes from the high Andes.",
+      "Set sweet potato or corn on the side of the fish to balance the acid."
+    ]
+  },
+  "pantry": {
+    "primary": [
+      "potato",
+      "maize",
+      "quinoa",
+      "chilli",
+      "lime",
+      "sole",
+      "shellfish"
+    ],
+    "secondary": [
+      "tuna",
+      "beef",
+      "pork",
+      "chicken",
+      "rice",
+      "onion",
+      "garlic",
+      "ginger",
+      "coriander-leaf",
+      "soy-sauce",
+      "kombu",
+      "tropical-fruit",
+      "cocoa",
+      "tomato"
+    ],
+    "avoid": [
+      "cream",
+      "truffle",
+      "foie-gras"
+    ],
+    "rule": "Take the native Peruvian ingredient first; add the Japanese pantry of soy, ginger and kombu in small amounts for depth."
+  },
+  "technique": {
+    "methods": [
+      "acid-curing",
+      "raw-slicing",
+      "wok-cooking",
+      "deep-frying",
+      "grilling",
+      "boiling",
+      "dehydrating",
+      "plated-service"
+    ],
+    "bases": "Tiger's milk made of lime juice, fish juice, chilli and coriander; chilli pastes of aji amarillo and rocoto; and a soy and lime dressing.",
+    "details": "Toasted maize, thin chips of potato and sweet potato, a sauce dot of aji, a leaf of coriander, thin slices of red onion."
+  },
+  "flavour": {
+    "profile": "Bright, sour and hot, with a deep salty and sweet note from soy and from the sweet potato.",
+    "balance": "Lime acid leads; chilli gives heat and fruit; sweet from corn and tropical fruit softens the sour.",
+    "fat": "Light: raw fish, a little oil and a crisp fried part; 15 to 30 per cent of the energy of a course.",
+    "seasoning": "Lime, aji chillies, salt, coriander leaf, ginger, soy sauce and a small amount of sesame."
+  },
+  "palette": {
+    "strategy": "Use the colours of the markets of Lima: the yellow and the orange of the chillies, the purple of maize, the white of the fish and the green of the leaf.",
+    "colours": [
+      {
+        "name": "Fish white",
+        "hex": "#EFEBE0",
+        "role": "fish and plate"
+      },
+      {
+        "name": "Aji yellow",
+        "hex": "#E9A81C",
+        "role": "chilli sauce"
+      },
+      {
+        "name": "Rocoto red",
+        "hex": "#C0392B",
+        "role": "chilli accent"
+      },
+      {
+        "name": "Purple maize",
+        "hex": "#4B2A4F",
+        "role": "maize and onion"
+      },
+      {
+        "name": "Coriander green",
+        "hex": "#5F8F3A",
+        "role": "herbs"
+      },
+      {
+        "name": "Lime green",
+        "hex": "#C6D85A",
+        "role": "lime and juice"
+      },
+      {
+        "name": "Clay brown",
+        "hex": "#8B5A3C",
+        "role": "ceramic and earth"
+      }
+    ]
+  },
+  "service": {
+    "format": "A tasting menu of many small courses by altitude or by theme, and an à la carte list of ceviches and Nikkei dishes.",
+    "courses": "Ten to twenty small courses, with a ceviche and a tiradito early in the meal, a main dish of meat or fish, and a dessert of cocoa or fruit.",
+    "tableware": "Ceramic bowls, clay dishes, stones and shells, with small cups for the tiger's milk.",
+    "setting": "A modern room in Lima with an open kitchen, wood and stone, and a bar for pisco."
+  },
+  "signatures": {
+    "dishes": [
+      {
+        "course": "fish-course",
+        "dish": "Ceviche of sole in tiger's milk with sweet potato and toasted maize",
+        "ingredient": "sole",
+        "method": "acid-curing"
+      },
+      {
+        "course": "hors-doeuvre",
+        "dish": "Tiradito of tuna with soy, lime and aji",
+        "ingredient": "tuna",
+        "method": "raw-slicing"
+      },
+      {
+        "course": "hors-doeuvre",
+        "dish": "Causa of yellow potato with shellfish",
+        "ingredient": "potato",
+        "method": "boiling"
+      },
+      {
+        "course": "main-course",
+        "dish": "Lomo saltado: beef, onion and chilli in a hot wok",
+        "ingredient": "beef",
+        "method": "wok-cooking"
+      },
+      {
+        "course": "tasting-course",
+        "dish": "Native Andean potatoes in an earth crust",
+        "ingredient": "potato",
+        "method": "dehydrating"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "modern Peruvian tasting menu",
+      "ceviche in lime milk",
+      "tiradito with chilli sauce",
+      "yellow chilli sauce dots",
+      "purple maize and sweet potato",
+      "clay bowl",
+      "Pacific fish",
+      "bright market colours",
+      "overhead food photograph"
+    ],
+    "negative": [
+      "cream sauce",
+      "dry overcooked fish",
+      "heavy butter",
+      "white tablecloth formality",
+      "gold rim"
+    ],
+    "canonical_works": [
+      {
+        "work": "Astrid y Gastón (restaurant, Lima)",
+        "maker": "Gastón Acurio and Astrid Gutsche",
+        "year": 1994
+      },
+      {
+        "work": "Central (restaurant, Lima)",
+        "maker": "Virgilio Martínez and Pía León",
+        "year": 2008
+      },
+      {
+        "work": "Maido (restaurant, Lima)",
+        "maker": "Mitsuharu Tsumura",
+        "year": 2009
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Maido, a Nikkei restaurant in Lima",
+      "kind": "image",
+      "credit": "Lindblom, via Wikimedia Commons",
+      "licence": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Maido,_Lima.jpg",
+      "maker": "Maido",
+      "year": 2012,
+      "file": "https://upload.wikimedia.org/wikipedia/commons/6/60/Maido%2C_Lima.jpg"
+    },
+    {
+      "title": "Fish ceviche with sweet potato, maize and toasted kernels, Callao",
+      "kind": "image",
+      "credit": "Jorge G. Mori, via Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Ceviche_de_pescado_(La_Punta,_Callao).jpg",
+      "maker": "Peruvian ceviche house, La Punta",
+      "year": 2007,
+      "file": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Ceviche_de_pescado_%28La_Punta%2C_Callao%29.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "nouvelle-cuisine"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "pacific-rim-fusion"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The shock of a bright sour bite by the sea: cold fish, hot chilli, sweet corn.",
+    "keywords": [
+      "bright",
+      "sour",
+      "hot",
+      "coastal",
+      "colourful"
+    ],
+    "brand_archetypes": [
+      "explorer",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "novoandina",
+      "nikkei cuisine",
+      "peruvian tasting menu",
+      "ceviche",
+      "tiradito",
+      "lima fine dining",
+      "andean ingredients"
+    ],
+    "use_cases": [
+      "a menu of ceviche, tiradito and Peruvian small dishes",
+      "a food photograph of raw fish with chilli and lime",
+      "a tasting menu by altitude of the Andes"
+    ],
+    "avoid_when": [
+      "the brief wants a rich cream sauce",
+      "the brief wants a bland, mild plate",
+      "the brief wants only European produce"
+    ],
+    "modifiers": [
+      {
+        "request": "more Japanese, less Andean",
+        "toward": "pacific-rim-fusion",
+        "how": "Reduce the chilli and the native tubers; raise the soy, the ginger and the sushi cut, and keep the raw fish."
+      },
+      {
+        "request": "more vegetables and no fish",
+        "toward": "plant-based-fine-dining",
+        "how": "Replace the fish with tubers, mushrooms and tofu; keep the lime, the chilli and the toasted maize."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Gastón Acurio",
+      "url": "https://en.wikipedia.org/wiki/Gast%C3%B3n_Acurio"
+    },
+    {
+      "title": "Wikipedia: Nikkei cuisine",
+      "url": "https://en.wikipedia.org/wiki/Nikkei_cuisine"
+    },
+    {
+      "title": "Wikipedia: Peruvian cuisine",
+      "url": "https://en.wikipedia.org/wiki/Peruvian_cuisine"
+    }
+  ],
+  "permutations": {
+    "course_count": {
+      "default": 12,
+      "min": 5,
+      "max": 20
+    },
+    "negative_space": {
+      "default": 0.45,
+      "min": 0.25,
+      "max": 0.7
+    },
+    "portion_g": {
+      "default": 90,
+      "min": 30,
+      "max": 200
+    },
+    "spice_level": {
+      "default": 3,
+      "min": 1,
+      "max": 5
+    },
+    "fat_share": {
+      "default": 0.2,
+      "min": 0.1,
+      "max": 0.35
+    },
+    "plate_colour": {
+      "default": "#EFEBE0",
+      "options": [
+        "#EFEBE0",
+        "#8B5A3C",
+        "#2E2B28",
+        "#4B2A4F"
+      ]
+    }
+  }
+}

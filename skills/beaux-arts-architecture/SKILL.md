@@ -212,7 +212,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`baroque-architecture`](../baroque-architecture/SKILL.md), [`neoclassical-architecture`](../neoclassical-architecture/SKILL.md)
 - **Was rejected by:** [`expressionist-architecture`](../expressionist-architecture/SKILL.md)
-- **Kin in another domain:** [`garland-style-jewellery`](../garland-style-jewellery/SKILL.md)
+- **Kin in another domain:** [`cuisine-classique`](../cuisine-classique/SKILL.md), [`garland-style-jewellery`](../garland-style-jewellery/SKILL.md)
 - **Nearest by vector profile:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md), [`renaissance-architecture`](../renaissance-architecture/SKILL.md)
 
 ## Emotional target

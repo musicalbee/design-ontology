@@ -29707,6 +29707,1516 @@
           ]
         }
       }
+    },
+    {
+      "id": "medieval-court-cuisine",
+      "name": "Medieval court cuisine",
+      "domain": "cuisine",
+      "era": "court-and-banquet",
+      "period": "1300–1500",
+      "thesis": "Make the table show rank: use costly spices, bright colour and many dishes at once, and let each sauce mix sweet, sour and hot.",
+      "summary": "The kitchen of the late medieval court. Cooks grind spices, thicken sauces with bread and colour the dish with saffron. Sweet, sour and hot flavours meet in one sauce. Le Viandier, first written about 1300 and widened by Taillevent, records it.",
+      "path": "skills/medieval-court-cuisine/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "taillevent",
+        "le viandier",
+        "medieval banquet",
+        "medieval feast",
+        "castle feast",
+        "cameline sauce",
+        "blanc mengier",
+        "14th century cooking"
+      ],
+      "use_cases": [
+        "a medieval feast scene in a film or a game",
+        "a menu for a historical banquet",
+        "a food image for a court of 1400"
+      ],
+      "emotion": [
+        "opulent",
+        "heaped",
+        "spiced",
+        "ceremonial",
+        "warm"
+      ],
+      "archetypes": [
+        "ruler",
+        "creator"
+      ],
+      "vectors": {
+        "composition": 2,
+        "transformation": 3,
+        "locality": 2,
+        "richness": 3,
+        "flavour_intensity": 4
+      },
+      "techniques": [
+        "bread-thickened-sauce",
+        "service-a-la-francaise",
+        "sugar-sculpture"
+      ],
+      "media": [
+        "le-viandier"
+      ],
+      "permutations": {
+        "course_count": {
+          "default": 3,
+          "min": 2,
+          "max": 4
+        },
+        "negative_space": {
+          "default": 0.1,
+          "min": 0,
+          "max": 0.25
+        },
+        "portion_g": {
+          "default": 110,
+          "min": 70,
+          "max": 170
+        },
+        "spice_level": {
+          "default": 2,
+          "min": 1,
+          "max": 3
+        },
+        "fat_share": {
+          "default": 0.3,
+          "min": 0.2,
+          "max": 0.45
+        },
+        "plate_colour": {
+          "default": "#8A8D8F",
+          "options": [
+            "#8A8D8F",
+            "#D8C29A",
+            "#6E4B2A"
+          ]
+        }
+      }
+    },
+    {
+      "id": "renaissance-banquet",
+      "name": "Renaissance banquet",
+      "domain": "cuisine",
+      "era": "court-and-banquet",
+      "period": "1500–1650",
+      "thesis": "Show the power of the host with the number, the skill and the beauty of the dishes, and let sugar and pastry take the shape of buildings and beasts.",
+      "summary": "The feast of the Italian court as Bartolomeo Scappi set it down in 1570. A kitchen of many cooks sends out many dishes at once: pies, roasts, candied fruit and sculpture in sugar. The cook uses the fork, the sugar and the spit with great skill.",
+      "path": "skills/renaissance-banquet/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "scappi",
+        "renaissance feast",
+        "renaissance banquet",
+        "italian court banquet",
+        "sugar sculpture",
+        "trionfo di zucchero",
+        "papal banquet",
+        "opera dell'arte del cucinare"
+      ],
+      "use_cases": [
+        "a Renaissance feast scene",
+        "a menu for a historical dinner of the 16th century",
+        "a still life of a banquet table"
+      ],
+      "emotion": [
+        "abundant",
+        "theatrical",
+        "sweet",
+        "ornate",
+        "festive"
+      ],
+      "archetypes": [
+        "ruler",
+        "creator"
+      ],
+      "vectors": {
+        "composition": 3,
+        "transformation": 4,
+        "locality": 2,
+        "richness": 4,
+        "flavour_intensity": 3
+      },
+      "techniques": [
+        "bread-thickened-sauce",
+        "service-a-la-francaise",
+        "sugar-sculpture"
+      ],
+      "media": [
+        "opera-dell-arte-del-cucinare"
+      ],
+      "permutations": {
+        "course_count": {
+          "default": 4,
+          "min": 3,
+          "max": 6
+        },
+        "negative_space": {
+          "default": 0.1,
+          "min": 0,
+          "max": 0.25
+        },
+        "portion_g": {
+          "default": 130,
+          "min": 80,
+          "max": 200
+        },
+        "spice_level": {
+          "default": 2,
+          "min": 1,
+          "max": 3
+        },
+        "fat_share": {
+          "default": 0.35,
+          "min": 0.25,
+          "max": 0.5
+        },
+        "plate_colour": {
+          "default": "#B5B7B9",
+          "options": [
+            "#B5B7B9",
+            "#F4EFE3",
+            "#6E4B2A"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cuisine-francoise",
+      "name": "Cuisine françoise",
+      "domain": "cuisine",
+      "era": "classical-codification",
+      "period": "1651–1800",
+      "thesis": "Cook for the taste of the food itself: build each sauce on a stock and a roux, and use herbs where the medieval kitchen used spice.",
+      "summary": "The French kitchen after La Varenne. Le Cuisinier françois of 1651 sets down the roux, the stock, the bouquet garni and fines herbes. Spice falls to pepper and nutmeg, and butter replaces lard. The flavour of the main food leads.",
+      "path": "skills/cuisine-francoise/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "la varenne",
+        "le cuisinier francois",
+        "louis xiv dinner",
+        "versailles dinner",
+        "french classical cooking 1650",
+        "bouquet garni",
+        "duxelles",
+        "service a la francaise"
+      ],
+      "use_cases": [
+        "a dinner scene at the court of Louis XIV",
+        "a menu for a historical French dinner",
+        "a food image of a 17th century sauce"
+      ],
+      "emotion": [
+        "refined",
+        "ordered",
+        "savoury",
+        "elegant",
+        "balanced"
+      ],
+      "archetypes": [
+        "sage",
+        "ruler"
+      ],
+      "vectors": {
+        "composition": 3,
+        "transformation": 4,
+        "locality": 3,
+        "richness": 4,
+        "flavour_intensity": 2
+      },
+      "techniques": [
+        "roux-and-stock-base",
+        "service-a-la-francaise"
+      ],
+      "media": [
+        "le-cuisinier-francois"
+      ],
+      "permutations": {
+        "course_count": {
+          "default": 3,
+          "min": 3,
+          "max": 4
+        },
+        "negative_space": {
+          "default": 0.1,
+          "min": 0,
+          "max": 0.25
+        },
+        "portion_g": {
+          "default": 150,
+          "min": 100,
+          "max": 220
+        },
+        "spice_level": {
+          "default": 1,
+          "min": 0,
+          "max": 2
+        },
+        "fat_share": {
+          "default": 0.4,
+          "min": 0.3,
+          "max": 0.55
+        },
+        "plate_colour": {
+          "default": "#F7F4EC",
+          "options": [
+            "#F7F4EC",
+            "#BEC0C2",
+            "#E9E4D4"
+          ]
+        }
+      }
+    },
+    {
+      "id": "grande-cuisine",
+      "name": "Grande cuisine",
+      "domain": "cuisine",
+      "era": "grande-and-classique",
+      "period": "1815–1880",
+      "thesis": "Make cooking an art of order and show: a system of sauces on the stove, and architecture of sugar and pastry on the table.",
+      "summary": "The cuisine of the great houses as Marie-Antoine Carême wrote it. Four grand sauces form the base of a system. Pastry and sugar make a pièce montée that looks like a building. Many dishes stand on the table at once.",
+      "path": "skills/grande-cuisine/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "careme",
+        "grande cuisine",
+        "piece montee",
+        "chaud-froid",
+        "vol-au-vent",
+        "grand sauces",
+        "napoleonic banquet",
+        "rothschild dinner"
+      ],
+      "use_cases": [
+        "a banquet scene of the early 19th century",
+        "a menu or a still life of a grand dinner",
+        "a sugar and pastry centrepiece design"
+      ],
+      "emotion": [
+        "monumental",
+        "ordered",
+        "opulent",
+        "ornate",
+        "theatrical"
+      ],
+      "archetypes": [
+        "ruler",
+        "creator"
+      ],
+      "vectors": {
+        "composition": 4,
+        "transformation": 5,
+        "locality": 2,
+        "richness": 5,
+        "flavour_intensity": 2
+      },
+      "techniques": [
+        "mother-sauce-system",
+        "roux-and-stock-base",
+        "service-a-la-francaise",
+        "sugar-sculpture"
+      ],
+      "media": [
+        "le-cuisinier-parisien"
+      ],
+      "permutations": {
+        "course_count": {
+          "default": 6,
+          "min": 4,
+          "max": 10
+        },
+        "negative_space": {
+          "default": 0.1,
+          "min": 0,
+          "max": 0.25
+        },
+        "portion_g": {
+          "default": 160,
+          "min": 100,
+          "max": 240
+        },
+        "spice_level": {
+          "default": 0,
+          "min": 0,
+          "max": 1
+        },
+        "fat_share": {
+          "default": 0.45,
+          "min": 0.3,
+          "max": 0.6
+        },
+        "plate_colour": {
+          "default": "#F7F3EA",
+          "options": [
+            "#F7F3EA",
+            "#FFFFFF",
+            "#C9C9C5"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cuisine-classique",
+      "name": "Cuisine classique",
+      "domain": "cuisine",
+      "era": "grande-and-classique",
+      "period": "1884–1965",
+      "thesis": "Simplify Carême and make the kitchen a system: every dish comes from a small set of bases, cooked by a station that does one task.",
+      "summary": "The kitchen of the grand hotel as Auguste Escoffier set it down. A brigade of stations cooks a menu of courses from a fixed system of stocks and mother sauces, and serves each dish on its own plate. Le Guide culinaire of 1903 holds about 5,000 recipes of the system.",
+      "path": "skills/cuisine-classique/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "escoffier",
+        "classic french cuisine",
+        "haute cuisine 1900",
+        "grand hotel dinner",
+        "mother sauces",
+        "peche melba",
+        "tournedos rossini",
+        "belle epoque menu"
+      ],
+      "use_cases": [
+        "a period dinner scene in a grand hotel",
+        "a menu for a classic French restaurant",
+        "a food photograph of a classic sauced dish"
+      ],
+      "emotion": [
+        "opulent",
+        "ordered",
+        "rich",
+        "formal",
+        "assured"
+      ],
+      "archetypes": [
+        "ruler",
+        "sage"
+      ],
+      "vectors": {
+        "composition": 3,
+        "transformation": 4,
+        "locality": 2,
+        "richness": 5,
+        "flavour_intensity": 2
+      },
+      "techniques": [
+        "kitchen-brigade",
+        "mother-sauce-system",
+        "roux-and-stock-base"
+      ],
+      "media": [
+        "le-cordon-bleu",
+        "savoy-hotel"
+      ],
+      "permutations": {
+        "course_count": {
+          "default": 9,
+          "min": 5,
+          "max": 14
+        },
+        "negative_space": {
+          "default": 0.35,
+          "min": 0.2,
+          "max": 0.5
+        },
+        "portion_g": {
+          "default": 320,
+          "min": 220,
+          "max": 450
+        },
+        "spice_level": {
+          "default": 0,
+          "min": 0,
+          "max": 1
+        },
+        "fat_share": {
+          "default": 0.5,
+          "min": 0.35,
+          "max": 0.65
+        },
+        "plate_colour": {
+          "default": "#F6F3EC",
+          "options": [
+            "#F6F3EC",
+            "#FFFFFF",
+            "#C9C9C5"
+          ]
+        }
+      }
+    },
+    {
+      "id": "haute-regionale",
+      "name": "Haute cuisine régionale",
+      "domain": "cuisine",
+      "era": "regional-and-bourgeois",
+      "period": "1925–1965",
+      "thesis": "Cook the classic dish well with the best produce of the region, on a short menu, and make the restaurant a place of travel.",
+      "summary": "The restaurant of a master in a provincial town. Fernand Point at La Pyramide in Vienne cooks the classic sauce with the butter, cream and produce of his own region. A small kitchen, a short menu and a fine cellar draw guests to the road.",
+      "path": "skills/haute-regionale/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "fernand point",
+        "la pyramide",
+        "vienne restaurant",
+        "bresse chicken",
+        "provincial french restaurant",
+        "three star 1950s",
+        "michelin 1930s",
+        "mere brazier"
+      ],
+      "use_cases": [
+        "a scene in a French provincial restaurant of the 1950s",
+        "a menu for a regional classic dinner",
+        "a food image of a butter and cream dish"
+      ],
+      "emotion": [
+        "warm",
+        "generous",
+        "regional",
+        "assured",
+        "unhurried"
+      ],
+      "archetypes": [
+        "caregiver",
+        "sage"
+      ],
+      "vectors": {
+        "composition": 3,
+        "transformation": 3,
+        "locality": 4,
+        "richness": 5,
+        "flavour_intensity": 2
+      },
+      "techniques": [
+        "regional-sourcing",
+        "roux-and-stock-base"
+      ],
+      "media": [
+        "la-pyramide-vienne"
+      ],
+      "permutations": {
+        "course_count": {
+          "default": 5,
+          "min": 4,
+          "max": 7
+        },
+        "negative_space": {
+          "default": 0.2,
+          "min": 0.1,
+          "max": 0.4
+        },
+        "portion_g": {
+          "default": 300,
+          "min": 220,
+          "max": 420
+        },
+        "spice_level": {
+          "default": 0,
+          "min": 0,
+          "max": 1
+        },
+        "fat_share": {
+          "default": 0.5,
+          "min": 0.35,
+          "max": 0.65
+        },
+        "plate_colour": {
+          "default": "#F6F3EC",
+          "options": [
+            "#F6F3EC",
+            "#FFFFFF",
+            "#C9C9C5"
+          ]
+        }
+      }
+    },
+    {
+      "id": "nouvelle-cuisine",
+      "name": "Nouvelle cuisine",
+      "domain": "cuisine",
+      "era": "nouvelle-and-new-world",
+      "period": "1965–1990",
+      "thesis": "Take the weight out of Escoffier: fresh market produce, short cooking and a sauce without flour let the taste of the ingredient lead.",
+      "summary": "A light French restaurant kitchen. The chef buys fresh produce at the market, cooks fish and vegetables for a short time, makes sauces without flour, and plates each dish in the kitchen. Gault and Millau gave it ten rules in 1973.",
+      "path": "skills/nouvelle-cuisine/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "nouvelle cuisine",
+        "1970s french restaurant",
+        "light french cooking",
+        "plated by the chef",
+        "salmon with sorrel",
+        "gault millau",
+        "bocuse",
+        "troisgros"
+      ],
+      "use_cases": [
+        "a menu for a 1970s French restaurant",
+        "a food photograph of a small plated dish on a large white plate",
+        "a period scene of a chef at the pass"
+      ],
+      "emotion": [
+        "light",
+        "fresh",
+        "precise",
+        "seasonal",
+        "inventive",
+        "clean"
+      ],
+      "archetypes": [
+        "creator",
+        "magician"
+      ],
+      "vectors": {
+        "composition": 4,
+        "transformation": 3,
+        "locality": 3,
+        "richness": 3,
+        "flavour_intensity": 2
+      },
+      "techniques": [
+        "chef-plated-course",
+        "flourless-reduction-sauce",
+        "kitchen-brigade",
+        "market-menu",
+        "regional-sourcing",
+        "sous-vide"
+      ],
+      "media": [
+        "gault-millau-guide"
+      ],
+      "permutations": {
+        "course_count": {
+          "default": 7,
+          "min": 4,
+          "max": 12
+        },
+        "negative_space": {
+          "default": 0.5,
+          "min": 0.35,
+          "max": 0.65
+        },
+        "portion_g": {
+          "default": 110,
+          "min": 70,
+          "max": 160
+        },
+        "spice_level": {
+          "default": 0,
+          "min": 0,
+          "max": 1
+        },
+        "fat_share": {
+          "default": 0.32,
+          "min": 0.2,
+          "max": 0.42
+        },
+        "plate_colour": {
+          "default": "#F7F5F0",
+          "options": [
+            "#F7F5F0",
+            "#FFFFFF",
+            "#E9E6DF"
+          ]
+        }
+      }
+    },
+    {
+      "id": "california-cuisine",
+      "name": "California cuisine",
+      "domain": "cuisine",
+      "era": "nouvelle-and-new-world",
+      "period": "1971–present",
+      "thesis": "The best cooking starts with the best produce: buy ripe food from known growers in season, and then do as little to it as you can.",
+      "summary": "The kitchen of the local farm and the single daily menu. Alice Waters opened Chez Panisse in 1971 and cooked simple French dishes with produce from named growers, in season, with little change to the ingredient.",
+      "path": "skills/california-cuisine/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "california cuisine",
+        "farm to table",
+        "chez panisse",
+        "seasonal local menu",
+        "market menu",
+        "goat cheese salad",
+        "wood fired grill",
+        "alice waters"
+      ],
+      "use_cases": [
+        "a menu for a farm-to-table restaurant",
+        "a food photograph of a ripe salad on a rustic plate",
+        "a seasonal menu with the names of farms"
+      ],
+      "emotion": [
+        "fresh",
+        "ripe",
+        "local",
+        "warm",
+        "simple",
+        "seasonal"
+      ],
+      "archetypes": [
+        "innocent",
+        "caregiver"
+      ],
+      "vectors": {
+        "composition": 2,
+        "transformation": 2,
+        "locality": 5,
+        "richness": 2,
+        "flavour_intensity": 2
+      },
+      "techniques": [
+        "market-menu"
+      ],
+      "media": [
+        "chez-panisse"
+      ],
+      "permutations": {
+        "course_count": {
+          "default": 4,
+          "min": 3,
+          "max": 6
+        },
+        "negative_space": {
+          "default": 0.3,
+          "min": 0.15,
+          "max": 0.45
+        },
+        "portion_g": {
+          "default": 280,
+          "min": 200,
+          "max": 380
+        },
+        "spice_level": {
+          "default": 1,
+          "min": 0,
+          "max": 2
+        },
+        "fat_share": {
+          "default": 0.3,
+          "min": 0.2,
+          "max": 0.4
+        },
+        "plate_colour": {
+          "default": "#F3EEE2",
+          "options": [
+            "#F3EEE2",
+            "#FFFFFF",
+            "#D9D2C3"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cuisine-minceur",
+      "name": "Cuisine minceur",
+      "domain": "cuisine",
+      "era": "nouvelle-and-new-world",
+      "period": "1975–1990",
+      "thesis": "A dish can be low in fat and sugar and still be haute cuisine, if the cook uses exact technique and fresh produce in place of butter and cream.",
+      "summary": "Michel Guérard's light cooking for a spa hotel. Each dish has few calories but the plate of a three-star kitchen: steam instead of butter, fromage blanc and vegetable purée instead of cream and flour, and a small portion.",
+      "path": "skills/cuisine-minceur/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "cuisine minceur",
+        "spa cuisine",
+        "slimming gourmet",
+        "low fat haute cuisine",
+        "light steamed fish",
+        "guerard",
+        "calorie counted menu"
+      ],
+      "use_cases": [
+        "a menu for a spa or wellness hotel",
+        "a food photograph of a light plate with a pale sauce",
+        "a diet menu that still looks like fine dining"
+      ],
+      "emotion": [
+        "light",
+        "clean",
+        "bright",
+        "careful",
+        "healthy"
+      ],
+      "archetypes": [
+        "caregiver",
+        "sage"
+      ],
+      "vectors": {
+        "composition": 4,
+        "transformation": 3,
+        "locality": 3,
+        "richness": 1,
+        "flavour_intensity": 2
+      },
+      "techniques": [
+        "chef-plated-course",
+        "flourless-reduction-sauce"
+      ],
+      "media": [
+        "la-grande-cuisine-minceur",
+        "les-pres-d-eugenie"
+      ],
+      "permutations": {
+        "course_count": {
+          "default": 6,
+          "min": 4,
+          "max": 8
+        },
+        "negative_space": {
+          "default": 0.55,
+          "min": 0.4,
+          "max": 0.65
+        },
+        "portion_g": {
+          "default": 100,
+          "min": 60,
+          "max": 140
+        },
+        "spice_level": {
+          "default": 0,
+          "min": 0,
+          "max": 1
+        },
+        "fat_share": {
+          "default": 0.15,
+          "min": 0.08,
+          "max": 0.25
+        },
+        "plate_colour": {
+          "default": "#F8F6F1",
+          "options": [
+            "#F8F6F1",
+            "#FFFFFF",
+            "#E9ECE4"
+          ]
+        }
+      }
+    },
+    {
+      "id": "naturalist-cuisine",
+      "name": "Naturalist cuisine",
+      "domain": "cuisine",
+      "era": "nouvelle-and-new-world",
+      "period": "1978–present",
+      "thesis": "The land around the kitchen is the pantry and the teacher: the cook walks it, learns each plant in each week, and cooks only what the walk gives.",
+      "summary": "A kitchen that treats the plate as a landscape. The cook picks wild and garden plants on the day, cooks each one at its own pace and shows it whole. The gargouillou of Michel Bras, first made in 1980, holds dozens of plants.",
+      "path": "skills/naturalist-cuisine/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "naturalist cuisine",
+        "gargouillou",
+        "wild herbs tasting menu",
+        "vegetable-led fine dining",
+        "plate as a landscape",
+        "foraged plate",
+        "cuisine of the plateau"
+      ],
+      "use_cases": [
+        "a vegetable-led tasting menu of a country restaurant",
+        "a food photograph of a scattered plate of herbs and flowers",
+        "a menu that follows a walk in the landscape"
+      ],
+      "emotion": [
+        "wild",
+        "green",
+        "gentle",
+        "seasonal",
+        "scattered"
+      ],
+      "archetypes": [
+        "explorer",
+        "sage"
+      ],
+      "vectors": {
+        "composition": 4,
+        "transformation": 2,
+        "locality": 5,
+        "richness": 3,
+        "flavour_intensity": 3
+      },
+      "techniques": [
+        "menu-foraging"
+      ],
+      "media": [
+        "mugaritz",
+        "restaurant-bras"
+      ],
+      "permutations": {
+        "course_count": {
+          "default": 10,
+          "min": 6,
+          "max": 14
+        },
+        "negative_space": {
+          "default": 0.5,
+          "min": 0.3,
+          "max": 0.7
+        },
+        "portion_g": {
+          "default": 70,
+          "min": 30,
+          "max": 120
+        },
+        "spice_level": {
+          "default": 0,
+          "min": 0,
+          "max": 2
+        },
+        "fat_share": {
+          "default": 0.2,
+          "min": 0.1,
+          "max": 0.35
+        },
+        "plate_colour": {
+          "default": "#EEE9DD",
+          "options": [
+            "#EEE9DD",
+            "#D9D2C3",
+            "#6E6A63",
+            "#2E2B28"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pacific-rim-fusion",
+      "name": "Pacific Rim fusion",
+      "domain": "cuisine",
+      "era": "nouvelle-and-new-world",
+      "period": "1983–2005",
+      "thesis": "A chef from one tradition can use the pantry and the flavours of another, if the cook keeps the balance of each dish and the precision of the technique.",
+      "summary": "French technique and Californian produce with the sauces and the fish of Asia. Chinois on Main (1983), Roy's in Honolulu (1988) and Matsuhisa and Nobu from 1987 put soy, ginger, miso and raw fish on a plated menu.",
+      "path": "skills/pacific-rim-fusion/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "pacific rim",
+        "fusion cuisine",
+        "east west fusion",
+        "asian fusion",
+        "nobu",
+        "miso black cod",
+        "wolfgang puck",
+        "hawaii regional cuisine"
+      ],
+      "use_cases": [
+        "a menu for a fusion restaurant of the 1990s",
+        "a food photograph of seared fish with an Asian sauce",
+        "a sushi bar with a French plate"
+      ],
+      "emotion": [
+        "bright",
+        "bold",
+        "sharp",
+        "stylish",
+        "cosmopolitan"
+      ],
+      "archetypes": [
+        "explorer",
+        "magician"
+      ],
+      "vectors": {
+        "composition": 4,
+        "transformation": 3,
+        "locality": 2,
+        "richness": 3,
+        "flavour_intensity": 3
+      },
+      "techniques": [
+        "chef-plated-course",
+        "east-west-pairing"
+      ],
+      "media": [
+        "chinois-on-main"
+      ],
+      "permutations": {
+        "course_count": {
+          "default": 6,
+          "min": 3,
+          "max": 12
+        },
+        "negative_space": {
+          "default": 0.45,
+          "min": 0.3,
+          "max": 0.6
+        },
+        "portion_g": {
+          "default": 200,
+          "min": 100,
+          "max": 300
+        },
+        "spice_level": {
+          "default": 2,
+          "min": 1,
+          "max": 4
+        },
+        "fat_share": {
+          "default": 0.33,
+          "min": 0.2,
+          "max": 0.45
+        },
+        "plate_colour": {
+          "default": "#F6F4EF",
+          "options": [
+            "#F6F4EF",
+            "#FFFFFF",
+            "#262626"
+          ]
+        }
+      }
+    },
+    {
+      "id": "novoandina-and-nikkei",
+      "name": "Novoandina and Nikkei cuisine",
+      "domain": "cuisine",
+      "era": "nouvelle-and-new-world",
+      "period": "1986–present",
+      "thesis": "Peru holds the sea, the desert, the mountain and the jungle, and the cooks of Lima join them with the knives of Japan and the sauces of France to make one new national kitchen.",
+      "summary": "A kitchen of Lima that takes the potatoes, grains and chillies of the Andes and the fish of the Pacific, and gives them French and Japanese technique. Gastón Acurio, Virgilio Martínez and Mitsuharu Tsumura made it a world cuisine.",
+      "path": "skills/novoandina-and-nikkei/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "novoandina",
+        "nikkei cuisine",
+        "peruvian tasting menu",
+        "ceviche",
+        "tiradito",
+        "lima fine dining",
+        "andean ingredients"
+      ],
+      "use_cases": [
+        "a menu of ceviche, tiradito and Peruvian small dishes",
+        "a food photograph of raw fish with chilli and lime",
+        "a tasting menu by altitude of the Andes"
+      ],
+      "emotion": [
+        "bright",
+        "sour",
+        "hot",
+        "coastal",
+        "colourful"
+      ],
+      "archetypes": [
+        "explorer",
+        "creator"
+      ],
+      "vectors": {
+        "composition": 3,
+        "transformation": 3,
+        "locality": 4,
+        "richness": 2,
+        "flavour_intensity": 4
+      },
+      "techniques": [
+        "ceviche-curing"
+      ],
+      "media": [
+        "astrid-y-gaston",
+        "central-lima",
+        "maido"
+      ],
+      "permutations": {
+        "course_count": {
+          "default": 12,
+          "min": 5,
+          "max": 20
+        },
+        "negative_space": {
+          "default": 0.45,
+          "min": 0.25,
+          "max": 0.7
+        },
+        "portion_g": {
+          "default": 90,
+          "min": 30,
+          "max": 200
+        },
+        "spice_level": {
+          "default": 3,
+          "min": 1,
+          "max": 5
+        },
+        "fat_share": {
+          "default": 0.2,
+          "min": 0.1,
+          "max": 0.35
+        },
+        "plate_colour": {
+          "default": "#EFEBE0",
+          "options": [
+            "#EFEBE0",
+            "#8B5A3C",
+            "#2E2B28",
+            "#4B2A4F"
+          ]
+        }
+      }
+    },
+    {
+      "id": "molecular-gastronomy",
+      "name": "Molecular gastronomy",
+      "domain": "cuisine",
+      "era": "modernist-and-global",
+      "period": "1988–2011",
+      "thesis": "Cooks can ask why food changes when it is heated, mixed or frozen, and then use the answer to build new textures, temperatures and surprises.",
+      "summary": "A kitchen that uses the science of food as a tool and a game. Hervé This and Nicholas Kurti named the field in 1988. Ferran Adrià at elBulli and Heston Blumenthal at The Fat Duck made foams, spheres and liquid-nitrogen ice cream.",
+      "path": "skills/molecular-gastronomy/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "molecular gastronomy",
+        "elbulli",
+        "spherification",
+        "siphon foam",
+        "liquid nitrogen dessert",
+        "avant-garde tasting menu",
+        "deconstructed dish"
+      ],
+      "use_cases": [
+        "a tasting menu that plays with texture and temperature",
+        "a food photograph of a sphere, a foam or a frozen dish",
+        "a menu that tells a science story"
+      ],
+      "emotion": [
+        "surprising",
+        "playful",
+        "exact",
+        "cold",
+        "scientific"
+      ],
+      "archetypes": [
+        "magician",
+        "jester"
+      ],
+      "vectors": {
+        "composition": 4,
+        "transformation": 5,
+        "locality": 2,
+        "richness": 2,
+        "flavour_intensity": 3
+      },
+      "techniques": [
+        "siphon-foam",
+        "sous-vide",
+        "spherification"
+      ],
+      "media": [
+        "elbulli",
+        "the-fat-duck"
+      ],
+      "permutations": {
+        "course_count": {
+          "default": 28,
+          "min": 15,
+          "max": 40
+        },
+        "negative_space": {
+          "default": 0.7,
+          "min": 0.5,
+          "max": 0.9
+        },
+        "portion_g": {
+          "default": 25,
+          "min": 5,
+          "max": 80
+        },
+        "spice_level": {
+          "default": 0,
+          "min": 0,
+          "max": 2
+        },
+        "fat_share": {
+          "default": 0.2,
+          "min": 0.1,
+          "max": 0.35
+        },
+        "plate_colour": {
+          "default": "#F3F1EC",
+          "options": [
+            "#F3F1EC",
+            "#4A4F55",
+            "#CFE2E6",
+            "#2E2B28"
+          ]
+        }
+      }
+    },
+    {
+      "id": "bistronomie",
+      "name": "Bistronomie",
+      "domain": "cuisine",
+      "era": "modernist-and-global",
+      "period": "1992–present",
+      "thesis": "Good cooking does not need a palace: a trained chef can serve fine produce and exact technique in a simple room at a fair price.",
+      "summary": "A chef of a palace kitchen cooks at the price of a bistro. Yves Camdeborde opened La Régalade in Paris in 1992 with a fixed menu, honest produce, regional dishes and big portions, in a plain room with no linen and no ceremony.",
+      "path": "skills/bistronomie/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "bistronomie",
+        "neo bistro",
+        "paris bistro",
+        "fixed price menu",
+        "terrine in a jar",
+        "braised cheek",
+        "chef bistro",
+        "camdeborde"
+      ],
+      "use_cases": [
+        "a menu for a Paris neighbourhood bistro",
+        "a food photograph of a braise in a cast-iron pot",
+        "a blackboard menu with a fixed price"
+      ],
+      "emotion": [
+        "generous",
+        "warm",
+        "casual",
+        "honest",
+        "lively",
+        "regional"
+      ],
+      "archetypes": [
+        "everyman",
+        "jester"
+      ],
+      "vectors": {
+        "composition": 2,
+        "transformation": 3,
+        "locality": 4,
+        "richness": 4,
+        "flavour_intensity": 3
+      },
+      "techniques": [
+        "market-menu"
+      ],
+      "media": [
+        "la-regalade"
+      ],
+      "permutations": {
+        "course_count": {
+          "default": 3,
+          "min": 3,
+          "max": 5
+        },
+        "negative_space": {
+          "default": 0.2,
+          "min": 0.1,
+          "max": 0.35
+        },
+        "portion_g": {
+          "default": 420,
+          "min": 300,
+          "max": 550
+        },
+        "spice_level": {
+          "default": 1,
+          "min": 0,
+          "max": 2
+        },
+        "fat_share": {
+          "default": 0.45,
+          "min": 0.35,
+          "max": 0.55
+        },
+        "plate_colour": {
+          "default": "#F1EBDD",
+          "options": [
+            "#F1EBDD",
+            "#FFFFFF",
+            "#2B2B2B"
+          ]
+        }
+      }
+    },
+    {
+      "id": "modernist-cuisine",
+      "name": "Modernist cuisine",
+      "domain": "cuisine",
+      "era": "modernist-and-global",
+      "period": "2011–present",
+      "thesis": "A cook who knows the physics of heat, water and texture can control the result to the degree, the second and the gram, and can then make food that was not possible before.",
+      "summary": "A kitchen that cooks by measurement and shows how it works. The six-volume book Modernist Cuisine of 2011 set out the physics of sous-vide, pressure, gels and freezing. Grant Achatz at Alinea in Chicago turned the method into a tasting menu.",
+      "path": "skills/modernist-cuisine/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "modernist cuisine",
+        "sous vide tasting menu",
+        "science-led cooking",
+        "edible balloon",
+        "precision cooking",
+        "cut-section food photograph",
+        "alinea style"
+      ],
+      "use_cases": [
+        "a tasting menu that states the time and the temperature of each dish",
+        "a food photograph of a clean plate with an exact cooked piece",
+        "a recipe book that shows the method and the physics"
+      ],
+      "emotion": [
+        "exact",
+        "clinical",
+        "cold",
+        "measured",
+        "theatrical"
+      ],
+      "archetypes": [
+        "sage",
+        "magician"
+      ],
+      "vectors": {
+        "composition": 5,
+        "transformation": 5,
+        "locality": 2,
+        "richness": 3,
+        "flavour_intensity": 3
+      },
+      "techniques": [
+        "siphon-foam",
+        "sous-vide",
+        "spherification"
+      ],
+      "media": [
+        "alinea",
+        "modernist-cuisine-book"
+      ],
+      "permutations": {
+        "course_count": {
+          "default": 14,
+          "min": 8,
+          "max": 20
+        },
+        "negative_space": {
+          "default": 0.6,
+          "min": 0.4,
+          "max": 0.85
+        },
+        "portion_g": {
+          "default": 60,
+          "min": 20,
+          "max": 120
+        },
+        "spice_level": {
+          "default": 0,
+          "min": 0,
+          "max": 2
+        },
+        "fat_share": {
+          "default": 0.25,
+          "min": 0.15,
+          "max": 0.4
+        },
+        "plate_colour": {
+          "default": "#F2F0EB",
+          "options": [
+            "#F2F0EB",
+            "#25282C",
+            "#8D949B",
+            "#BFD8E6"
+          ]
+        }
+      }
+    },
+    {
+      "id": "new-nordic",
+      "name": "New Nordic cuisine",
+      "domain": "cuisine",
+      "era": "terroir-and-plant",
+      "period": "2004–present",
+      "thesis": "A kitchen of one place and one season: the cold, the short summer and the long winter of the North set the menu, and the cook preserves the summer for the winter.",
+      "summary": "A tasting-menu kitchen that cooks only what grows, swims or is foraged in the Nordic region, in the season of the day. Twelve chefs signed the Manifesto for the New Nordic Kitchen in 2004. Vinegar, ferments and wild plants replace lemon and olive oil.",
+      "path": "skills/new-nordic/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "new nordic",
+        "noma",
+        "nordic tasting menu",
+        "foraged food",
+        "scandinavian fine dining",
+        "fermentation menu",
+        "redzepi"
+      ],
+      "use_cases": [
+        "a tasting menu of a Nordic restaurant",
+        "a food photograph on dark stoneware",
+        "a menu that uses only local and seasonal produce"
+      ],
+      "emotion": [
+        "wild",
+        "seasonal",
+        "raw",
+        "quiet",
+        "sour"
+      ],
+      "archetypes": [
+        "explorer",
+        "creator"
+      ],
+      "vectors": {
+        "composition": 4,
+        "transformation": 3,
+        "locality": 5,
+        "richness": 2,
+        "flavour_intensity": 3
+      },
+      "techniques": [
+        "lacto-fermentation",
+        "menu-foraging"
+      ],
+      "media": [
+        "noma"
+      ],
+      "permutations": {
+        "course_count": {
+          "default": 20,
+          "min": 12,
+          "max": 40
+        },
+        "negative_space": {
+          "default": 0.6,
+          "min": 0.4,
+          "max": 0.8
+        },
+        "portion_g": {
+          "default": 60,
+          "min": 15,
+          "max": 120
+        },
+        "spice_level": {
+          "default": 0,
+          "min": 0,
+          "max": 1
+        },
+        "fat_share": {
+          "default": 0.25,
+          "min": 0.15,
+          "max": 0.4
+        },
+        "plate_colour": {
+          "default": "#6E6A63",
+          "options": [
+            "#6E6A63",
+            "#2E2B28",
+            "#E9E4DA",
+            "#7C8C94"
+          ]
+        }
+      }
+    },
+    {
+      "id": "plant-based-fine-dining",
+      "name": "Plant-based fine dining",
+      "domain": "cuisine",
+      "era": "terroir-and-plant",
+      "period": "2021–present",
+      "thesis": "The top of the table does not need an animal: with skill, time and ferments, a carrot, a beet or a nut can carry the weight that foie gras and beef once carried.",
+      "summary": "A tasting-menu kitchen that uses no meat, fish, dairy, egg or honey. It gives the luxury of the old menu to vegetables, grains, nuts and ferments. Eleven Madison Park in New York changed to such a menu in 2021 under Daniel Humm.",
+      "path": "skills/plant-based-fine-dining/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "plant-based fine dining",
+        "vegan tasting menu",
+        "plant-based haute cuisine",
+        "carrot tartare",
+        "vegetable-led menu",
+        "no animal products"
+      ],
+      "use_cases": [
+        "a vegan tasting menu of a formal restaurant",
+        "a food photograph of a single vegetable on a large plate",
+        "a menu that keeps luxury but removes animal products"
+      ],
+      "emotion": [
+        "earthy",
+        "calm",
+        "careful",
+        "light",
+        "formal"
+      ],
+      "archetypes": [
+        "caregiver",
+        "creator"
+      ],
+      "vectors": {
+        "composition": 4,
+        "transformation": 4,
+        "locality": 3,
+        "richness": 2,
+        "flavour_intensity": 3
+      },
+      "techniques": [
+        "lacto-fermentation"
+      ],
+      "media": [
+        "eleven-madison-park"
+      ],
+      "permutations": {
+        "course_count": {
+          "default": 10,
+          "min": 6,
+          "max": 16
+        },
+        "negative_space": {
+          "default": 0.55,
+          "min": 0.35,
+          "max": 0.8
+        },
+        "portion_g": {
+          "default": 90,
+          "min": 40,
+          "max": 150
+        },
+        "spice_level": {
+          "default": 0,
+          "min": 0,
+          "max": 2
+        },
+        "fat_share": {
+          "default": 0.25,
+          "min": 0.15,
+          "max": 0.4
+        },
+        "plate_colour": {
+          "default": "#ECEAE4",
+          "options": [
+            "#ECEAE4",
+            "#33312E",
+            "#8D949B",
+            "#D9C8A0"
+          ]
+        }
+      }
     }
   ],
   "techniques": [
@@ -30307,6 +31817,37 @@
       ]
     },
     {
+      "id": "bread-thickened-sauce",
+      "name": "Bread-thickened sauce",
+      "kind": "process",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1300,
+        "circa": true,
+        "where": "Courts of France",
+        "note": "Le Viandier gives bread as the main binder of its sauces, as in the cameline sauce.",
+        "styles": [
+          "medieval-court-cuisine"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 1500,
+          "circa": true,
+          "via": "Italian and French banquet kitchens kept bread as a binder beside the first butter sauces.",
+          "styles": [
+            "renaissance-banquet"
+          ],
+          "lag_years": 200
+        }
+      ],
+      "styles": [
+        "medieval-court-cuisine",
+        "renaissance-banquet"
+      ]
+    },
+    {
       "id": "breeze-block",
       "name": "Breeze block",
       "kind": "material",
@@ -30558,6 +32099,32 @@
       ]
     },
     {
+      "id": "ceviche-curing",
+      "name": "Ceviche curing",
+      "kind": "process",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1820,
+        "circa": true,
+        "where": "Lima, Peru",
+        "note": "The first firm records of the lime cure of fish are of the early nineteenth century in Lima."
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 1994,
+          "via": "Gastón Acurio served ceviche as a fine-dining course at Astrid y Gastón in Lima.",
+          "styles": [
+            "novoandina-and-nikkei"
+          ],
+          "lag_years": 174
+        }
+      ],
+      "styles": [
+        "novoandina-and-nikkei"
+      ]
+    },
+    {
       "id": "checkerboard",
       "name": "Checkerboard",
       "kind": "motif",
@@ -30615,6 +32182,47 @@
         "dopamine-decor",
         "neo-deco-interior",
         "hollywood-regency-interior"
+      ]
+    },
+    {
+      "id": "chef-plated-course",
+      "name": "Chef-plated course",
+      "kind": "skill",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1968,
+        "circa": true,
+        "where": "Roanne and Collonges-au-Mont-d'Or, France",
+        "note": "The chefs of the nouvelle cuisine, among them the Troisgros brothers and Paul Bocuse, put the plating in the kitchen and not at the table.",
+        "styles": [
+          "nouvelle-cuisine"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 1975,
+          "circa": true,
+          "via": "Michel Guérard set small steamed portions on wide plates for the guests of the spa.",
+          "styles": [
+            "cuisine-minceur"
+          ],
+          "lag_years": 7
+        },
+        {
+          "domain": "cuisine",
+          "year": 1983,
+          "via": "Chinois on Main and later Roy's and Nobu plated an Asian main piece in a modern shape on a wide plate.",
+          "styles": [
+            "pacific-rim-fusion"
+          ],
+          "lag_years": 15
+        }
+      ],
+      "styles": [
+        "nouvelle-cuisine",
+        "cuisine-minceur",
+        "pacific-rim-fusion"
       ]
     },
     {
@@ -31661,6 +33269,34 @@
       ]
     },
     {
+      "id": "east-west-pairing",
+      "name": "East-west pairing",
+      "kind": "skill",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1983,
+        "where": "Santa Monica, California",
+        "note": "Wolfgang Puck opened Chinois on Main and cooked French and Californian dishes with Chinese flavours.",
+        "styles": [
+          "pacific-rim-fusion"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 1988,
+          "via": "Roy Yamaguchi opened Roy's in Honolulu and cooked European technique with the produce and the sauces of Asia and the Pacific.",
+          "styles": [
+            "pacific-rim-fusion"
+          ],
+          "lag_years": 5
+        }
+      ],
+      "styles": [
+        "pacific-rim-fusion"
+      ]
+    },
+    {
       "id": "elastic-gusset",
       "name": "Elastic gusset",
       "kind": "material",
@@ -32047,6 +33683,37 @@
         "terminal-tui-web",
         "dark-devtool-ui",
         "brutalist-web"
+      ]
+    },
+    {
+      "id": "flourless-reduction-sauce",
+      "name": "Flourless reduction sauce",
+      "kind": "process",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1962,
+        "circa": true,
+        "where": "Roanne, France",
+        "note": "The Troisgros brothers made salmon with a sorrel sauce that the cook did not thicken with starch.",
+        "styles": [
+          "nouvelle-cuisine"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 1975,
+          "circa": true,
+          "via": "Michel Guérard cut the butter and the cream further and bound his sauces with fromage blanc and vegetable purée.",
+          "styles": [
+            "cuisine-minceur"
+          ],
+          "lag_years": 13
+        }
+      ],
+      "styles": [
+        "nouvelle-cuisine",
+        "cuisine-minceur"
       ]
     },
     {
@@ -32870,6 +34537,70 @@
       ]
     },
     {
+      "id": "kitchen-brigade",
+      "name": "Kitchen brigade",
+      "kind": "process",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1890,
+        "circa": true,
+        "where": "Savoy Hotel, London",
+        "note": "Escoffier organised the hotel kitchen into parties, so that a dish was ready in minutes, not hours."
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 1965,
+          "circa": true,
+          "via": "Nouvelle cuisine kept the stations and gave the plating to the chef at the pass.",
+          "styles": [
+            "nouvelle-cuisine"
+          ],
+          "lag_years": 75
+        }
+      ],
+      "styles": [
+        "cuisine-classique",
+        "nouvelle-cuisine"
+      ]
+    },
+    {
+      "id": "lacto-fermentation",
+      "name": "Lacto-fermentation",
+      "kind": "process",
+      "origin": {
+        "domain": "cuisine",
+        "year": -200,
+        "circa": true,
+        "where": "China",
+        "note": "Salted and soured vegetables were stored in China in the last centuries BCE; the method spread over Asia and Europe."
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 2004,
+          "via": "The cooks of the Nordic kitchen, led by Noma, made ferments of vegetables, fruit and grain a part of the menu.",
+          "styles": [
+            "new-nordic"
+          ],
+          "lag_years": 2204
+        },
+        {
+          "domain": "cuisine",
+          "year": 2021,
+          "via": "The plant-based menu of Eleven Madison Park used ferments in place of meat and dairy for depth of taste.",
+          "styles": [
+            "plant-based-fine-dining"
+          ],
+          "lag_years": 2221
+        }
+      ],
+      "styles": [
+        "new-nordic",
+        "plant-based-fine-dining"
+      ]
+    },
+    {
       "id": "laminated-timber",
       "name": "Laminated timber",
       "kind": "material",
@@ -33577,6 +35308,46 @@
       ]
     },
     {
+      "id": "market-menu",
+      "name": "Market menu",
+      "kind": "process",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1965,
+        "circa": true,
+        "where": "Collonges-au-Mont-d'Or, France",
+        "note": "Paul Bocuse and the chefs of nouvelle cuisine bought produce at the market and built the menu from it.",
+        "styles": [
+          "nouvelle-cuisine"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 1971,
+          "via": "Alice Waters served one set menu at Chez Panisse that changed each day with the produce of local farms.",
+          "styles": [
+            "california-cuisine"
+          ],
+          "lag_years": 6
+        },
+        {
+          "domain": "cuisine",
+          "year": 1992,
+          "via": "Yves Camdeborde wrote a fixed menu on a blackboard at La Régalade and changed it with the market.",
+          "styles": [
+            "bistronomie"
+          ],
+          "lag_years": 27
+        }
+      ],
+      "styles": [
+        "nouvelle-cuisine",
+        "california-cuisine",
+        "bistronomie"
+      ]
+    },
+    {
       "id": "match-cut",
       "name": "Match cut",
       "kind": "montage",
@@ -33649,6 +35420,33 @@
         "technical-shell-alpinism",
         "techwear",
         "gorpcore"
+      ]
+    },
+    {
+      "id": "menu-foraging",
+      "name": "Foraging for the menu",
+      "kind": "skill",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1978,
+        "circa": true,
+        "where": "Laguiole, Aubrac, France",
+        "note": "Michel Bras built a vegetable dish of dozens of wild and garden plants, the gargouillou, from the plateau around his restaurant."
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 2004,
+          "via": "René Redzepi and the forager Roland Rittman took wild plants into the daily menu of Noma.",
+          "styles": [
+            "new-nordic"
+          ],
+          "lag_years": 26
+        }
+      ],
+      "styles": [
+        "naturalist-cuisine",
+        "new-nordic"
       ]
     },
     {
@@ -33828,6 +35626,35 @@
         "metro-ui",
         "rams-functionalism-ui",
         "ulm-braun-functionalism"
+      ]
+    },
+    {
+      "id": "mother-sauce-system",
+      "name": "Mother sauce system",
+      "kind": "process",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1833,
+        "where": "Paris",
+        "note": "Carême set the grand sauces (espagnole, velouté, allemande and béchamel) as the base of his sauce chapters.",
+        "styles": [
+          "grande-cuisine"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 1903,
+          "via": "Escoffier cut the grand sauces to five mother sauces in Le Guide culinaire.",
+          "styles": [
+            "cuisine-classique"
+          ],
+          "lag_years": 70
+        }
+      ],
+      "styles": [
+        "grande-cuisine",
+        "cuisine-classique"
       ]
     },
     {
@@ -34772,6 +36599,37 @@
       ]
     },
     {
+      "id": "regional-sourcing",
+      "name": "Regional sourcing",
+      "kind": "process",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1925,
+        "circa": true,
+        "where": "Vienne, France",
+        "note": "Fernand Point built the menu of La Pyramide on Bresse poultry, crayfish, cream and Rhône wine.",
+        "styles": [
+          "haute-regionale"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 1965,
+          "circa": true,
+          "via": "Pupils of Point, among them Bocuse and the Troisgros brothers, took the market menu into nouvelle cuisine.",
+          "styles": [
+            "nouvelle-cuisine"
+          ],
+          "lag_years": 40
+        }
+      ],
+      "styles": [
+        "haute-regionale",
+        "nouvelle-cuisine"
+      ]
+    },
+    {
       "id": "risograph",
       "name": "Risograph",
       "kind": "technology",
@@ -34868,6 +36726,57 @@
       ],
       "styles": [
         "nordic-modernism-architecture"
+      ]
+    },
+    {
+      "id": "roux-and-stock-base",
+      "name": "Roux and stock base",
+      "kind": "process",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1651,
+        "where": "Paris",
+        "note": "La Varenne printed the roux as a sauce base in place of bread crumbs, and the stock as the base of a sauce and a soup.",
+        "styles": [
+          "cuisine-francoise"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 1815,
+          "via": "Carême built his grand sauces on stocks and a roux.",
+          "styles": [
+            "grande-cuisine"
+          ],
+          "lag_years": 164
+        },
+        {
+          "domain": "cuisine",
+          "year": 1884,
+          "circa": true,
+          "via": "Escoffier kept the roux and the stock in the system of the hotel kitchen.",
+          "styles": [
+            "cuisine-classique"
+          ],
+          "lag_years": 233
+        },
+        {
+          "domain": "cuisine",
+          "year": 1925,
+          "circa": true,
+          "via": "The restaurants of the provinces kept the classic stock and roux sauces.",
+          "styles": [
+            "haute-regionale"
+          ],
+          "lag_years": 274
+        }
+      ],
+      "styles": [
+        "cuisine-francoise",
+        "grande-cuisine",
+        "cuisine-classique",
+        "haute-regionale"
       ]
     },
     {
@@ -35094,6 +37003,57 @@
       ]
     },
     {
+      "id": "service-a-la-francaise",
+      "name": "Service à la française",
+      "kind": "process",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1300,
+        "circa": true,
+        "where": "Courts of France",
+        "note": "Medieval feasts put many dishes on the table at once, in two or three services.",
+        "styles": [
+          "medieval-court-cuisine"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 1500,
+          "circa": true,
+          "via": "Scappi and the banquet cooks of Italy planned each service as a pattern of dishes.",
+          "styles": [
+            "renaissance-banquet"
+          ],
+          "lag_years": 200
+        },
+        {
+          "domain": "cuisine",
+          "year": 1651,
+          "via": "La Varenne wrote his book for a table of services of dishes in a fixed order.",
+          "styles": [
+            "cuisine-francoise"
+          ],
+          "lag_years": 351
+        },
+        {
+          "domain": "cuisine",
+          "year": 1815,
+          "via": "Carême drew table plans for each service and published them.",
+          "styles": [
+            "grande-cuisine"
+          ],
+          "lag_years": 515
+        }
+      ],
+      "styles": [
+        "medieval-court-cuisine",
+        "renaissance-banquet",
+        "cuisine-francoise",
+        "grande-cuisine"
+      ]
+    },
+    {
       "id": "shadow-gap",
       "name": "Shadow gap",
       "kind": "process",
@@ -35281,6 +37241,36 @@
       ]
     },
     {
+      "id": "siphon-foam",
+      "name": "Siphon foam",
+      "kind": "tool",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1994,
+        "circa": false,
+        "where": "Roses, Spain",
+        "note": "Ferran Adrià took the cream siphon of the pastry kitchen to make savoury foams at elBulli.",
+        "styles": [
+          "molecular-gastronomy"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 2011,
+          "via": "Modernist Cuisine gave tested foam recipes, and modernist kitchens used the siphon for sauces and soups.",
+          "styles": [
+            "modernist-cuisine"
+          ],
+          "lag_years": 17
+        }
+      ],
+      "styles": [
+        "molecular-gastronomy",
+        "modernist-cuisine"
+      ]
+    },
+    {
       "id": "sketch-line",
       "name": "Sketch line",
       "kind": "process",
@@ -35427,6 +37417,47 @@
       ]
     },
     {
+      "id": "sous-vide",
+      "name": "Sous vide",
+      "kind": "process",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1974,
+        "circa": false,
+        "where": "Roanne, France",
+        "note": "Georges Pralus cooked foie gras in a sealed bag for the Troisgros kitchen to lose less fat.",
+        "styles": [
+          "nouvelle-cuisine"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 2000,
+          "circa": true,
+          "via": "Chefs of the avant-garde kitchen, such as Heston Blumenthal, took the water bath into the tasting menu.",
+          "styles": [
+            "molecular-gastronomy"
+          ],
+          "lag_years": 26
+        },
+        {
+          "domain": "cuisine",
+          "year": 2011,
+          "via": "The book Modernist Cuisine gave tables of time and temperature for each food.",
+          "styles": [
+            "modernist-cuisine"
+          ],
+          "lag_years": 37
+        }
+      ],
+      "styles": [
+        "nouvelle-cuisine",
+        "molecular-gastronomy",
+        "modernist-cuisine"
+      ]
+    },
+    {
       "id": "speed-lines",
       "name": "Speed lines",
       "kind": "motif",
@@ -35451,6 +37482,36 @@
       ],
       "styles": [
         "streamline-moderne-product"
+      ]
+    },
+    {
+      "id": "spherification",
+      "name": "Spherification",
+      "kind": "process",
+      "origin": {
+        "domain": "cuisine",
+        "year": 2003,
+        "circa": false,
+        "where": "Roses, Spain",
+        "note": "The elBulli kitchen made the alginate sphere a dish in 2003; the gel came from the food industry.",
+        "styles": [
+          "molecular-gastronomy"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 2011,
+          "via": "The book Modernist Cuisine set out the recipes and the times, and Alinea served spheres on the tasting menu.",
+          "styles": [
+            "modernist-cuisine"
+          ],
+          "lag_years": 8
+        }
+      ],
+      "styles": [
+        "molecular-gastronomy",
+        "modernist-cuisine"
       ]
     },
     {
@@ -35613,6 +37674,47 @@
       ],
       "styles": [
         "ai-chat-ui"
+      ]
+    },
+    {
+      "id": "sugar-sculpture",
+      "name": "Sugar sculpture",
+      "kind": "skill",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1400,
+        "circa": true,
+        "where": "Courts of France and England",
+        "note": "Late medieval feasts put an edible figure of sugar or paste, a subtlety, on the table between the services.",
+        "styles": [
+          "medieval-court-cuisine"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 1500,
+          "circa": true,
+          "via": "Venetian and Roman cooks and sugar workers made large sculptures for the banquets of cardinals and popes.",
+          "styles": [
+            "renaissance-banquet"
+          ],
+          "lag_years": 100
+        },
+        {
+          "domain": "cuisine",
+          "year": 1815,
+          "via": "Carême published his designs for the pièce montée in Le Pâtissier pittoresque.",
+          "styles": [
+            "grande-cuisine"
+          ],
+          "lag_years": 415
+        }
+      ],
+      "styles": [
+        "medieval-court-cuisine",
+        "renaissance-banquet",
+        "grande-cuisine"
       ]
     },
     {

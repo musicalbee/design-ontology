@@ -212,7 +212,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`baroque-architecture`](../baroque-architecture/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`gothic-architecture`](../gothic-architecture/SKILL.md)
-- **Kin in another domain:** [`garalde-old-style`](../garalde-old-style/SKILL.md), [`renaissance-painting`](../renaissance-painting/SKILL.md)
+- **Kin in another domain:** [`garalde-old-style`](../garalde-old-style/SKILL.md), [`renaissance-banquet`](../renaissance-banquet/SKILL.md), [`renaissance-painting`](../renaissance-painting/SKILL.md)
 - **Nearest by vector profile:** [`neoclassical-architecture`](../neoclassical-architecture/SKILL.md), [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`beaux-arts-architecture`](../beaux-arts-architecture/SKILL.md)
 
 ## Emotional target
