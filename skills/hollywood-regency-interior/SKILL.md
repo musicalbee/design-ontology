@@ -235,6 +235,37 @@ Reference works:
 | Interiors for film stars in Los Angeles | William Haines | 1935 |
 | Carlyle Hotel interiors | Dorothy Draper | 1930 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Checkerboard (motif)
+
+A grid of squares in two alternate colours, on a floor, in a picture or on a surface. Origin: architecture, Italy, c. 1300.
+
+- Use squares of one size: 300 to 600mm on a floor, or 1/8 to 1/16 of the width of a picture.
+- Lay the grid at 45° to make a small room look wider, or at 0° to show the vanishing point.
+
+### Sunburst (motif)
+
+Rays from a disc or a half disc: a sign of light and of the new, on a facade, a gate, a mirror or a clock. Origin: architecture, Paris, 1925.
+
+- Draw 12 to 36 rays from one centre; alternate long and short rays, or two finishes.
+- Keep the centre disc at 15% to 30% of the full diameter.
+- In a room, use one sunburst as the focal point of one wall.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #F4F1EA | #F4F1EA, #0F6B4F | palette |
+| Accent colour (`accent_colour`) | #E2735E | #E2735E, #C9A246, #111111 | palette, textiles, objects |
+| Ceiling height (`ceiling_height`) | 3 | 2.7–4 m | composition, lighting |
+| Light temperature (`light_temperature`) | 2700 | 2400–3000 K | lighting |
+| Object density (`object_density`) | 0.5 | 0.4–0.65 | objects, furniture |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

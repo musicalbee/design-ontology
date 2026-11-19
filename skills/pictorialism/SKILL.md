@@ -168,11 +168,35 @@ The rules above name these shared principles by id. The definition is the same i
 | `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | brightest mass to deepest shadow in one image (stops): 3–4 flat; 5–8 hard, 8 or more for expressionist |
 | `unity-variety` | Unity and variety | Repeated materials, colours and shapes join the parts into one whole. A small, planned number of deviations keeps the whole alive. | materials or hues that repeat (count): 2 to 4; deliberate deviations (count): 1 to 2 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Optical mixing (process)
+
+Small dots or strokes of pure colour placed side by side, so that the eye mixes them at a distance. Origin: painting, Paris, France, 1886.
+
+- Put dots of pure colour side by side; do not mix them on the palette.
+- Set complementary colours next to each other in the shadows.
+- Keep each dot under 0.5% of the picture width.
+
 ## Media
 
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.
 
 - **Camera Work** (magazine, New York, 1903–1917), published the style. A quarterly of photography that Alfred Stieglitz edited and published, with fine photogravure plates. It argued for photography as a fine art.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Colour temperature (`colour_temperature`) | 6500 | 5500–7500 K | colour_and_grade, light |
+| Contrast (`contrast`) | 0.8 | 0.6–0.9 | colour_and_grade, post_processing |
+| Grain (`grain`) | 25 | 25–50 ISO | process, post_processing |
+| Focal length (`focal_length`) | 45 | 38–60 mm | lens_and_camera, composition |
+| Aspect ratio (`aspect_ratio`) | 4:5 | 4:5, 3:4, 1:1 | composition |
 
 ## Lineage fallbacks
 

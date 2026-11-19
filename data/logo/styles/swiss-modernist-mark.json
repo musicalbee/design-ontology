@@ -205,6 +205,12 @@
       }
     ]
   },
+  "permutations": {
+    "base_colour": {"default": "#EB0000", "options": ["#EB0000", "#000000", "#5F6B73"]},
+    "colour_count": {"default": 1, "min": 1, "max": 2},
+    "stroke_weight": {"default": 15, "min": 12, "max": 20},
+    "container": {"default": "none", "options": ["none", "square", "circle"]}
+  },
   "sources": [
     {
       "title": "Wikipedia: International Typographic Style",

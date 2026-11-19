@@ -315,6 +315,38 @@
       }
     ]
   },
+  "permutations": {
+    "aspect_ratio": {
+      "default": "1.85:1",
+      "options": [
+        "1.37:1",
+        "1.85:1",
+        "2.39:1"
+      ],
+      "note": "Each chapter keeps one ratio."
+    },
+    "frame_rate": {
+      "default": 24,
+      "min": 12,
+      "max": 24,
+      "note": "Stop-motion for a miniature runs at 12 fps."
+    },
+    "average_shot_length": {
+      "default": 4,
+      "min": 3,
+      "max": 5
+    },
+    "colour_temperature": {
+      "default": 5200,
+      "min": 3200,
+      "max": 5600
+    },
+    "grain": {
+      "default": 0.06,
+      "min": 0.05,
+      "max": 0.08
+    }
+  },
   "sources": [
     {
       "title": "Matt Zoller Seitz, The Wes Anderson Collection (Abrams, 2013)"

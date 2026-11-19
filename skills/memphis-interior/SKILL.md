@@ -257,6 +257,18 @@ The salons, schools, magazines, publishers, galleries and platforms that carried
 
 - **Memphis Group** (studio, Milan, 1980–1987), launched the style. A collective of designers round Ettore Sottsass that showed bold laminate furniture and objects. Its first show in 1981 launched the Memphis style.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #F2EFE8 | #F2EFE8, #8DD8B5 | palette |
+| Accent colour (`accent_colour`) | #F4A6C0 | #F4A6C0, #1FB5C8, #F7D02C, #E4322B | palette, textiles, objects |
+| Ceiling height (`ceiling_height`) | 2.8 | 2.5–3.5 m | composition, lighting |
+| Light temperature (`light_temperature`) | 3000 | 2700–4000 K | lighting |
+| Object density (`object_density`) | 0.35 | 0.25–0.5 | objects, furniture |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

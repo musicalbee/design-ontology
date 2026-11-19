@@ -179,6 +179,17 @@ A shadow far longer than its object, cast by a low sun, so that a still scene fe
 - Leave the shadow flat and dark, at 40% to 70% opacity.
 - Show the shadow of something outside the frame, to hint at an unseen presence.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #5B7FA6 | #5B7FA6, #C9A877, #8A4B2E, #2B2B35 | palette |
+| Value contrast (`value_contrast`) | 0.75 | 0.6–0.9 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 0.1 | 0–0.3 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 3:2 | 3:4, 3:2 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

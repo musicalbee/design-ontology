@@ -187,6 +187,18 @@ A joint that stays in view, so that the way of making is part of the look. Origi
 - Peg the joint with a wooden pin of 8 to 12mm; do not hide it with filler or paint.
 - Use one joint type in a room or a building; repeat it at each corner.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 2.8 | 2.5–3.2 m | massing, facade |
+| Structural grid (`structural_grid`) | 5 | 4–6 m | structure |
+| Glazing ratio (`glazing_ratio`) | 22 | 15–30 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 50 | 45–55 deg | massing |
+| Base material (`base_material`) | brick | brick, stone, timber | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

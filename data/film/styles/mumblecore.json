@@ -306,6 +306,38 @@
       }
     ]
   },
+  "permutations": {
+    "aspect_ratio": {
+      "default": "1.85:1",
+      "options": [
+        "1.33:1",
+        "1.85:1"
+      ],
+      "note": "The 16:9 frame maps to 1.85:1, the nearest option of the domain."
+    },
+    "frame_rate": {
+      "default": 24,
+      "min": 24,
+      "max": 30
+    },
+    "average_shot_length": {
+      "default": 12,
+      "min": 8,
+      "max": 20
+    },
+    "colour_temperature": {
+      "default": 4300,
+      "min": 3200,
+      "max": 5600,
+      "note": "Lamps and windows stay mixed."
+    },
+    "grain": {
+      "default": 0.06,
+      "min": 0.03,
+      "max": 0.1,
+      "note": "This is video noise, not added grain."
+    }
+  },
   "sources": [
     {
       "title": "Mumblecore",

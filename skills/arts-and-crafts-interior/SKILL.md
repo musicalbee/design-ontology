@@ -257,6 +257,18 @@ The salons, schools, magazines, publishers, galleries and platforms that carried
 
 - **Kelmscott Press** (publisher, Hammersmith, London, 1891–1898), published the style. A private press that William Morris started to print books by hand in the manner of the early printers. It made the book a model of the Arts and Crafts ideal.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #E2D7BC | #E2D7BC, #6B4A2B, #8E9A73 | palette |
+| Accent colour (`accent_colour`) | #8E3B2E | #8E3B2E, #C2913E, #B5653A | palette, textiles, objects |
+| Ceiling height (`ceiling_height`) | 2.5 | 2.3–2.9 m | composition, lighting |
+| Light temperature (`light_temperature`) | 2400 | 2100–2700 K | lighting |
+| Object density (`object_density`) | 0.6 | 0.45–0.75 | objects, furniture |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

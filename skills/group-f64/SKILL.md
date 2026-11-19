@@ -182,6 +182,18 @@ Lens or camera movements that keep vertical lines parallel and move the plane of
 - Close the lens to f/11 to f/22 for full depth of field.
 - In an editor, use a narrow band of focus and a strong blur outside it to fake a miniature.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Colour temperature (`colour_temperature`) | 5500 | 5000–6000 K | colour_and_grade, light |
+| Contrast (`contrast`) | 1.2 | 1–1.4 | colour_and_grade, post_processing |
+| Grain (`grain`) | 50 | 25–64 ISO | process, post_processing |
+| Focal length (`focal_length`) | 40 | 28–50 mm | lens_and_camera, composition |
+| Aspect ratio (`aspect_ratio`) | 4:5 | 4:5 | composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

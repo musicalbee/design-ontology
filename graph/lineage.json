@@ -6449,6 +6449,30 @@
   ],
   "techniques": [
     {
+      "id": "aerial-drone",
+      "name": "Aerial drone",
+      "kind": "tool",
+      "origin": {
+        "domain": "photography",
+        "year": 2013,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "film",
+          "year": 2021,
+          "circa": false,
+          "lag_years": 8,
+          "styles": [
+            "cinematic-fpv"
+          ]
+        }
+      ],
+      "styles": [
+        "cinematic-fpv"
+      ]
+    },
+    {
       "id": "affine-texture-warp",
       "name": "Affine texture warp",
       "kind": "technology",
@@ -6519,6 +6543,15 @@
           ]
         },
         {
+          "domain": "design",
+          "year": 2000,
+          "circa": false,
+          "lag_years": 121,
+          "styles": [
+            "apple-aqua"
+          ]
+        },
+        {
           "domain": "logo",
           "year": 2001,
           "circa": true,
@@ -6544,6 +6577,15 @@
           "styles": [
             "frutiger-aero"
           ]
+        },
+        {
+          "domain": "design",
+          "year": 2007,
+          "circa": false,
+          "lag_years": 128,
+          "styles": [
+            "skeuomorphism"
+          ]
         }
       ],
       "styles": [
@@ -6553,7 +6595,9 @@
         "y2k-aesthetic",
         "glossy-3d-logo",
         "skeuomorphic-icon",
-        "photorealism"
+        "photorealism",
+        "apple-aqua",
+        "skeuomorphism"
       ]
     },
     {
@@ -6567,6 +6611,15 @@
       },
       "adoptions": [
         {
+          "domain": "architecture",
+          "year": 1419,
+          "circa": false,
+          "lag_years": 1619,
+          "styles": [
+            "renaissance-architecture"
+          ]
+        },
+        {
           "domain": "interior",
           "year": 1720,
           "circa": true,
@@ -6577,11 +6630,29 @@
         },
         {
           "domain": "architecture",
+          "year": 1875,
+          "circa": false,
+          "lag_years": 2075,
+          "styles": [
+            "beaux-arts-architecture"
+          ]
+        },
+        {
+          "domain": "architecture",
           "year": 1978,
           "circa": true,
           "lag_years": 2178,
           "styles": [
             "postmodern-architecture"
+          ]
+        },
+        {
+          "domain": "design",
+          "year": 2015,
+          "circa": true,
+          "lag_years": 2215,
+          "styles": [
+            "bohemian-web"
           ]
         },
         {
@@ -6597,7 +6668,41 @@
       "styles": [
         "georgian-interior",
         "postmodern-architecture",
-        "dopamine-decor"
+        "dopamine-decor",
+        "renaissance-architecture",
+        "beaux-arts-architecture",
+        "bohemian-web"
+      ]
+    },
+    {
+      "id": "backdrop-blur",
+      "name": "Backdrop blur",
+      "kind": "technology",
+      "origin": {
+        "domain": "design",
+        "year": 2013,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "design",
+          "year": 2019,
+          "circa": true,
+          "lag_years": 6,
+          "styles": []
+        },
+        {
+          "domain": "design",
+          "year": 2025,
+          "circa": false,
+          "lag_years": 12,
+          "styles": [
+            "liquid-glass-ui"
+          ]
+        }
+      ],
+      "styles": [
+        "liquid-glass-ui"
       ]
     },
     {
@@ -6632,6 +6737,31 @@
       "styles": [
         "seventh-gen-desaturated",
         "hd-2d-diorama"
+      ]
+    },
+    {
+      "id": "board-marked-concrete",
+      "name": "Board-marked concrete",
+      "kind": "material",
+      "origin": {
+        "domain": "architecture",
+        "year": 1952,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "interior",
+          "year": 2010,
+          "circa": true,
+          "lag_years": 58,
+          "styles": [
+            "industrial-loft-interior"
+          ]
+        }
+      ],
+      "styles": [
+        "brutalist-architecture",
+        "industrial-loft-interior"
       ]
     },
     {
@@ -6744,6 +6874,24 @@
         },
         {
           "domain": "architecture",
+          "year": 1926,
+          "circa": false,
+          "lag_years": 626,
+          "styles": [
+            "bauhaus-architecture"
+          ]
+        },
+        {
+          "domain": "architecture",
+          "year": 1927,
+          "circa": false,
+          "lag_years": 627,
+          "styles": [
+            "international-style-architecture"
+          ]
+        },
+        {
+          "domain": "architecture",
           "year": 1935,
           "circa": false,
           "lag_years": 635,
@@ -6755,7 +6903,9 @@
       "styles": [
         "prairie-school-architecture",
         "bauhaus-interior",
-        "organic-architecture"
+        "organic-architecture",
+        "bauhaus-architecture",
+        "international-style-architecture"
       ]
     },
     {
@@ -6810,6 +6960,15 @@
         },
         {
           "domain": "interior",
+          "year": 1936,
+          "circa": true,
+          "lag_years": 636,
+          "styles": [
+            "hollywood-regency-interior"
+          ]
+        },
+        {
+          "domain": "interior",
           "year": 2020,
           "circa": true,
           "lag_years": 720,
@@ -6822,7 +6981,8 @@
         "renaissance-painting",
         "art-deco-interior",
         "dopamine-decor",
-        "neo-deco-interior"
+        "neo-deco-interior",
+        "hollywood-regency-interior"
       ]
     },
     {
@@ -6842,6 +7002,15 @@
           "lag_years": 100,
           "styles": [
             "baroque-painting"
+          ]
+        },
+        {
+          "domain": "painting",
+          "year": 1766,
+          "circa": false,
+          "lag_years": 266,
+          "styles": [
+            "romanticism-painting"
           ]
         },
         {
@@ -6893,7 +7062,76 @@
         "german-expressionist-cinema",
         "film-noir",
         "film-noir-still",
-        "neon-noir"
+        "neon-noir",
+        "romanticism-painting"
+      ]
+    },
+    {
+      "id": "chinoiserie",
+      "name": "Chinoiserie",
+      "kind": "motif",
+      "origin": {
+        "domain": "interior",
+        "year": 1670,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "painting",
+          "year": 1742,
+          "circa": true,
+          "lag_years": 72,
+          "styles": [
+            "rococo-painting"
+          ]
+        },
+        {
+          "domain": "interior",
+          "year": 2019,
+          "circa": false,
+          "lag_years": 349,
+          "styles": [
+            "grandmillennial-interior"
+          ]
+        }
+      ],
+      "styles": [
+        "rococo-painting",
+        "grandmillennial-interior"
+      ]
+    },
+    {
+      "id": "chintz",
+      "name": "Chintz",
+      "kind": "material",
+      "origin": {
+        "domain": "interior",
+        "year": 1600,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "interior",
+          "year": 1850,
+          "circa": true,
+          "lag_years": 250,
+          "styles": [
+            "victorian-interior"
+          ]
+        },
+        {
+          "domain": "interior",
+          "year": 2019,
+          "circa": false,
+          "lag_years": 419,
+          "styles": [
+            "grandmillennial-interior"
+          ]
+        }
+      ],
+      "styles": [
+        "victorian-interior",
+        "grandmillennial-interior"
       ]
     },
     {
@@ -6942,6 +7180,40 @@
       "styles": [
         "futurism-painting",
         "cubism-painting"
+      ]
+    },
+    {
+      "id": "clay-render",
+      "name": "Clay look",
+      "kind": "process",
+      "origin": {
+        "domain": "film",
+        "year": 1908,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "icon",
+          "year": 2020,
+          "circa": true,
+          "lag_years": 112,
+          "styles": [
+            "clay-3d-icon"
+          ]
+        },
+        {
+          "domain": "design",
+          "year": 2021,
+          "circa": false,
+          "lag_years": 113,
+          "styles": [
+            "claymorphism"
+          ]
+        }
+      ],
+      "styles": [
+        "clay-3d-icon",
+        "claymorphism"
       ]
     },
     {
@@ -7005,6 +7277,15 @@
           "styles": []
         },
         {
+          "domain": "design",
+          "year": 1925,
+          "circa": false,
+          "lag_years": 400,
+          "styles": [
+            "bauhaus"
+          ]
+        },
+        {
           "domain": "typeface",
           "year": 1927,
           "circa": false,
@@ -7049,7 +7330,8 @@
         "geometric-symbol",
         "swiss-modernist-mark",
         "geometric-sans",
-        "flat-logo"
+        "flat-logo",
+        "bauhaus"
       ]
     },
     {
@@ -7095,12 +7377,66 @@
           "styles": [
             "german-expressionist-cinema"
           ]
+        },
+        {
+          "domain": "architecture",
+          "year": 1988,
+          "circa": false,
+          "lag_years": 79,
+          "styles": [
+            "deconstructivist-architecture"
+          ]
         }
       ],
       "styles": [
         "cubism-painting",
         "expressionist-architecture",
-        "german-expressionist-cinema"
+        "german-expressionist-cinema",
+        "deconstructivist-architecture"
+      ]
+    },
+    {
+      "id": "curtain-wall",
+      "name": "Curtain wall",
+      "kind": "technology",
+      "origin": {
+        "domain": "architecture",
+        "year": 1918,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "architecture",
+          "year": 1926,
+          "circa": false,
+          "lag_years": 8,
+          "styles": [
+            "bauhaus-architecture"
+          ]
+        },
+        {
+          "domain": "architecture",
+          "year": 1952,
+          "circa": false,
+          "lag_years": 34,
+          "styles": [
+            "international-style-architecture"
+          ]
+        },
+        {
+          "domain": "architecture",
+          "year": 1975,
+          "circa": false,
+          "lag_years": 57,
+          "styles": [
+            "high-tech-architecture"
+          ]
+        }
+      ],
+      "styles": [
+        "bauhaus-architecture",
+        "international-style-architecture",
+        "high-tech-architecture"
       ]
     },
     {
@@ -7196,6 +7532,123 @@
       ]
     },
     {
+      "id": "digital-colour-grade",
+      "name": "Digital colour grade",
+      "kind": "technology",
+      "origin": {
+        "domain": "film",
+        "year": 2000,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "photography",
+          "year": 2010,
+          "circa": true,
+          "lag_years": 10,
+          "styles": [
+            "cinematic-teal-orange"
+          ]
+        }
+      ],
+      "styles": [
+        "cinematic-teal-orange"
+      ]
+    },
+    {
+      "id": "direct-flash",
+      "name": "Direct flash",
+      "kind": "tool",
+      "origin": {
+        "domain": "photography",
+        "year": 1929,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "photography",
+          "year": 1999,
+          "circa": true,
+          "lag_years": 70,
+          "styles": [
+            "y2k-digicam"
+          ]
+        },
+        {
+          "domain": "photography",
+          "year": 2008,
+          "circa": true,
+          "lag_years": 79,
+          "styles": [
+            "party-flash"
+          ]
+        }
+      ],
+      "styles": [
+        "y2k-digicam",
+        "party-flash"
+      ]
+    },
+    {
+      "id": "drop-cap",
+      "name": "Drop cap",
+      "kind": "motif",
+      "origin": {
+        "domain": "typeface",
+        "year": 1457,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "design",
+          "year": 1880,
+          "circa": true,
+          "lag_years": 423,
+          "styles": [
+            "victorian-web"
+          ]
+        },
+        {
+          "domain": "design",
+          "year": 2021,
+          "circa": true,
+          "lag_years": 564,
+          "styles": [
+            "editorial-serif-revival"
+          ]
+        }
+      ],
+      "styles": [
+        "victorian-web",
+        "editorial-serif-revival"
+      ]
+    },
+    {
+      "id": "dual-soft-shadow",
+      "name": "Dual soft shadow",
+      "kind": "process",
+      "origin": {
+        "domain": "design",
+        "year": 2019,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "design",
+          "year": 2021,
+          "circa": false,
+          "lag_years": 2,
+          "styles": [
+            "claymorphism"
+          ]
+        }
+      ],
+      "styles": [
+        "neumorphism",
+        "claymorphism"
+      ]
+    },
+    {
       "id": "easing",
       "name": "Easing",
       "kind": "animation",
@@ -7275,13 +7728,48 @@
           "styles": [
             "critical-regionalism-architecture"
           ]
+        },
+        {
+          "domain": "interior",
+          "year": 2016,
+          "circa": false,
+          "lag_years": 4516,
+          "styles": [
+            "japandi-interior"
+          ]
         }
       ],
       "styles": [
         "shaker-interior",
         "arts-and-crafts-interior",
         "arts-and-crafts-architecture",
-        "critical-regionalism-architecture"
+        "critical-regionalism-architecture",
+        "japandi-interior"
+      ]
+    },
+    {
+      "id": "exposed-services",
+      "name": "Exposed services",
+      "kind": "process",
+      "origin": {
+        "domain": "architecture",
+        "year": 1977,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "interior",
+          "year": 1990,
+          "circa": true,
+          "lag_years": 13,
+          "styles": [
+            "industrial-loft-interior"
+          ]
+        }
+      ],
+      "styles": [
+        "high-tech-architecture",
+        "industrial-loft-interior"
       ]
     },
     {
@@ -7326,6 +7814,30 @@
       ]
     },
     {
+      "id": "figura-serpentinata",
+      "name": "Figura serpentinata",
+      "kind": "motif",
+      "origin": {
+        "domain": "painting",
+        "year": 1520,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "painting",
+          "year": 1590,
+          "circa": true,
+          "lag_years": 70,
+          "styles": [
+            "mannerism-painting"
+          ]
+        }
+      ],
+      "styles": [
+        "mannerism-painting"
+      ]
+    },
+    {
       "id": "fixed-pitch-grid",
       "name": "Fixed-pitch grid",
       "kind": "process",
@@ -7353,12 +7865,22 @@
             "terminal-tui-web",
             "dark-devtool-ui"
           ]
+        },
+        {
+          "domain": "design",
+          "year": 2014,
+          "circa": true,
+          "lag_years": 140,
+          "styles": [
+            "brutalist-web"
+          ]
         }
       ],
       "styles": [
         "monospace",
         "terminal-tui-web",
-        "dark-devtool-ui"
+        "dark-devtool-ui",
+        "brutalist-web"
       ]
     },
     {
@@ -7371,6 +7893,15 @@
         "circa": true
       },
       "adoptions": [
+        {
+          "domain": "architecture",
+          "year": 1757,
+          "circa": false,
+          "lag_years": 2357,
+          "styles": [
+            "neoclassical-architecture"
+          ]
+        },
         {
           "domain": "interior",
           "year": 1790,
@@ -7405,7 +7936,8 @@
         "georgian-interior",
         "art-deco-interior",
         "quiet-luxury-interior",
-        "neo-deco-interior"
+        "neo-deco-interior",
+        "neoclassical-architecture"
       ]
     },
     {
@@ -7427,11 +7959,31 @@
             "cyberpunk-web",
             "vaporwave"
           ]
+        },
+        {
+          "domain": "film",
+          "year": 2015,
+          "circa": true,
+          "lag_years": 52,
+          "styles": [
+            "camcorder-revival"
+          ]
+        },
+        {
+          "domain": "design",
+          "year": 2020,
+          "circa": true,
+          "lag_years": 57,
+          "styles": [
+            "cybercore-web"
+          ]
         }
       ],
       "styles": [
         "cyberpunk-web",
-        "vaporwave"
+        "vaporwave",
+        "camcorder-revival",
+        "cybercore-web"
       ]
     },
     {
@@ -7568,6 +8120,15 @@
         },
         {
           "domain": "film",
+          "year": 1969,
+          "circa": false,
+          "lag_years": 9,
+          "styles": [
+            "new-hollywood"
+          ]
+        },
+        {
+          "domain": "film",
           "year": 1995,
           "circa": false,
           "lag_years": 35,
@@ -7601,6 +8162,15 @@
           "styles": [
             "phone-cinema"
           ]
+        },
+        {
+          "domain": "film",
+          "year": 2020,
+          "circa": true,
+          "lag_years": 60,
+          "styles": [
+            "camcorder-revival"
+          ]
         }
       ],
       "styles": [
@@ -7609,7 +8179,33 @@
         "dogme-95",
         "found-footage",
         "mumblecore",
-        "phone-cinema"
+        "phone-cinema",
+        "new-hollywood",
+        "camcorder-revival"
+      ]
+    },
+    {
+      "id": "hard-offset-shadow",
+      "name": "Hard offset shadow",
+      "kind": "motif",
+      "origin": {
+        "domain": "typeface",
+        "year": 1815,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "design",
+          "year": 2020,
+          "circa": true,
+          "lag_years": 205,
+          "styles": [
+            "neo-brutalism-ui"
+          ]
+        }
+      ],
+      "styles": [
+        "neo-brutalism-ui"
       ]
     },
     {
@@ -7693,6 +8289,15 @@
       "adoptions": [
         {
           "domain": "film",
+          "year": 1981,
+          "circa": false,
+          "lag_years": 21,
+          "styles": [
+            "music-video"
+          ]
+        },
+        {
+          "domain": "film",
           "year": 2006,
           "circa": true,
           "lag_years": 46,
@@ -7713,7 +8318,8 @@
       "styles": [
         "french-new-wave",
         "creator-vlog",
-        "vertical-short-form"
+        "vertical-short-form",
+        "music-video"
       ]
     },
     {
@@ -7801,6 +8407,15 @@
       "adoptions": [
         {
           "domain": "logo",
+          "year": 1900,
+          "circa": true,
+          "lag_years": 1787,
+          "styles": [
+            "emblem-badge"
+          ]
+        },
+        {
+          "domain": "logo",
           "year": 1970,
           "circa": true,
           "lag_years": 1857,
@@ -7827,7 +8442,8 @@
       ],
       "styles": [
         "minimal-wordmark",
-        "luxury-typography-web"
+        "luxury-typography-web",
+        "emblem-badge"
       ]
     },
     {
@@ -7864,11 +8480,21 @@
           "styles": [
             "coastal-interior"
           ]
+        },
+        {
+          "domain": "design",
+          "year": 2015,
+          "circa": true,
+          "lag_years": 9215,
+          "styles": [
+            "wabi-sabi-web"
+          ]
         }
       ],
       "styles": [
         "critical-regionalism-architecture",
-        "coastal-interior"
+        "coastal-interior",
+        "wabi-sabi-web"
       ]
     },
     {
@@ -8120,6 +8746,40 @@
       ]
     },
     {
+      "id": "mesh-gradient",
+      "name": "Mesh gradient",
+      "kind": "process",
+      "origin": {
+        "domain": "design",
+        "year": 1998,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "design",
+          "year": 2018,
+          "circa": false,
+          "lag_years": 20,
+          "styles": [
+            "aurora-gradient-ui"
+          ]
+        },
+        {
+          "domain": "design",
+          "year": 2021,
+          "circa": false,
+          "lag_years": 23,
+          "styles": [
+            "ethereal-web"
+          ]
+        }
+      ],
+      "styles": [
+        "aurora-gradient-ui",
+        "ethereal-web"
+      ]
+    },
+    {
       "id": "modular-grid",
       "name": "Modular grid",
       "kind": "process",
@@ -8149,6 +8809,15 @@
         },
         {
           "domain": "design",
+          "year": 2010,
+          "circa": false,
+          "lag_years": 52,
+          "styles": [
+            "metro-ui"
+          ]
+        },
+        {
+          "domain": "design",
           "year": 2012,
           "circa": false,
           "lag_years": 54,
@@ -8156,13 +8825,24 @@
             "bento-grid-ui",
             "minimalism-web"
           ]
+        },
+        {
+          "domain": "design",
+          "year": 2012,
+          "circa": true,
+          "lag_years": 54,
+          "styles": [
+            "rams-functionalism-ui"
+          ]
         }
       ],
       "styles": [
         "swiss-international",
         "swiss-modernist-mark",
         "bento-grid-ui",
-        "minimalism-web"
+        "minimalism-web",
+        "metro-ui",
+        "rams-functionalism-ui"
       ]
     },
     {
@@ -8263,6 +8943,87 @@
       ]
     },
     {
+      "id": "neoplastic-grid",
+      "name": "Neoplastic grid",
+      "kind": "motif",
+      "origin": {
+        "domain": "painting",
+        "year": 1917,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "architecture",
+          "year": 1924,
+          "circa": false,
+          "lag_years": 7,
+          "styles": []
+        },
+        {
+          "domain": "design",
+          "year": 2015,
+          "circa": true,
+          "lag_years": 98,
+          "styles": [
+            "de-stijl-web"
+          ]
+        }
+      ],
+      "styles": [
+        "de-stijl-painting",
+        "de-stijl-web"
+      ]
+    },
+    {
+      "id": "optical-mixing",
+      "name": "Optical mixing",
+      "kind": "process",
+      "origin": {
+        "domain": "painting",
+        "year": 1886,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "photography",
+          "year": 1907,
+          "circa": false,
+          "lag_years": 21,
+          "styles": [
+            "pictorialism"
+          ]
+        }
+      ],
+      "styles": [
+        "pointillism",
+        "pictorialism"
+      ]
+    },
+    {
+      "id": "parametric-modelling",
+      "name": "Parametric modelling",
+      "kind": "technology",
+      "origin": {
+        "domain": "architecture",
+        "year": 1992,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "architecture",
+          "year": 2008,
+          "circa": false,
+          "lag_years": 16,
+          "styles": [
+            "parametricism-architecture"
+          ]
+        }
+      ],
+      "styles": [
+        "parametricism-architecture"
+      ]
+    },
+    {
       "id": "perspective-grid",
       "name": "Perspective grid",
       "kind": "process",
@@ -8272,6 +9033,15 @@
         "circa": true
       },
       "adoptions": [
+        {
+          "domain": "film",
+          "year": 1968,
+          "circa": false,
+          "lag_years": 553,
+          "styles": [
+            "planimetric-symmetry"
+          ]
+        },
         {
           "domain": "design",
           "year": 1980,
@@ -8301,7 +9071,8 @@
       "styles": [
         "renaissance-painting",
         "cassette-futurism",
-        "vaporwave"
+        "vaporwave",
+        "planimetric-symmetry"
       ]
     },
     {
@@ -8358,6 +9129,24 @@
           "styles": [
             "surrealism-web"
           ]
+        },
+        {
+          "domain": "design",
+          "year": 2016,
+          "circa": true,
+          "lag_years": 98,
+          "styles": [
+            "anti-design"
+          ]
+        },
+        {
+          "domain": "design",
+          "year": 2018,
+          "circa": true,
+          "lag_years": 100,
+          "styles": [
+            "scrapbook-ui"
+          ]
         }
       ],
       "styles": [
@@ -8366,7 +9155,33 @@
         "punk-zine",
         "cyberdelia",
         "grunge-editorial",
-        "surrealism-web"
+        "surrealism-web",
+        "anti-design",
+        "scrapbook-ui"
+      ]
+    },
+    {
+      "id": "phototypesetting",
+      "name": "Phototypesetting",
+      "kind": "technology",
+      "origin": {
+        "domain": "typeface",
+        "year": 1949,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "typeface",
+          "year": 1957,
+          "circa": false,
+          "lag_years": 8,
+          "styles": [
+            "neo-grotesque-sans"
+          ]
+        }
+      ],
+      "styles": [
+        "neo-grotesque-sans"
       ]
     },
     {
@@ -8470,15 +9285,60 @@
           "styles": [
             "pixel-art-web"
           ]
+        },
+        {
+          "domain": "design",
+          "year": 1999,
+          "circa": true,
+          "lag_years": 36,
+          "styles": [
+            "japanese-dense-web"
+          ]
         }
       ],
       "styles": [
         "pixel-icon",
         "pixel-art-web",
+        "japanese-dense-web",
         "eight-bit-tile",
         "four-shade-handheld",
         "sixteen-bit-sprite",
         "isometric-pixel-world"
+      ]
+    },
+    {
+      "id": "plein-air",
+      "name": "Plein air",
+      "kind": "process",
+      "origin": {
+        "domain": "painting",
+        "year": 1841,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "painting",
+          "year": 1880,
+          "circa": true,
+          "lag_years": 39,
+          "styles": [
+            "nordic-national-romanticism-painting"
+          ]
+        },
+        {
+          "domain": "film",
+          "year": 1945,
+          "circa": false,
+          "lag_years": 104,
+          "styles": [
+            "italian-neorealism"
+          ]
+        }
+      ],
+      "styles": [
+        "realism-painting",
+        "nordic-national-romanticism-painting",
+        "italian-neorealism"
       ]
     },
     {
@@ -8540,6 +9400,51 @@
       ]
     },
     {
+      "id": "primary-shapes",
+      "name": "Primary shapes",
+      "kind": "motif",
+      "origin": {
+        "domain": "painting",
+        "year": 1915,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "design",
+          "year": 1923,
+          "circa": false,
+          "lag_years": 8,
+          "styles": [
+            "bauhaus"
+          ]
+        },
+        {
+          "domain": "design",
+          "year": 1961,
+          "circa": false,
+          "lag_years": 46,
+          "styles": [
+            "japanese-graphic-modernism"
+          ]
+        },
+        {
+          "domain": "design",
+          "year": 1981,
+          "circa": false,
+          "lag_years": 66,
+          "styles": [
+            "memphis-design"
+          ]
+        }
+      ],
+      "styles": [
+        "suprematism",
+        "bauhaus",
+        "japanese-graphic-modernism",
+        "memphis-design"
+      ]
+    },
+    {
       "id": "roman-capital-proportions",
       "name": "Roman capital proportions",
       "kind": "motif",
@@ -8583,6 +9488,30 @@
       ]
     },
     {
+      "id": "roof-light",
+      "name": "Roof light",
+      "kind": "process",
+      "origin": {
+        "domain": "architecture",
+        "year": 125,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "architecture",
+          "year": 1935,
+          "circa": false,
+          "lag_years": 1810,
+          "styles": [
+            "nordic-modernism-architecture"
+          ]
+        }
+      ],
+      "styles": [
+        "nordic-modernism-architecture"
+      ]
+    },
+    {
       "id": "serial-repetition",
       "name": "Serial repetition",
       "kind": "process",
@@ -8592,6 +9521,15 @@
         "circa": false
       },
       "adoptions": [
+        {
+          "domain": "photography",
+          "year": 1928,
+          "circa": false,
+          "lag_years": 37,
+          "styles": [
+            "new-objectivity"
+          ]
+        },
         {
           "domain": "painting",
           "year": 1958,
@@ -8626,7 +9564,8 @@
         "minimalism-painting",
         "duesseldorf-school",
         "new-topographics",
-        "pop-art-painting"
+        "pop-art-painting",
+        "new-objectivity"
       ]
     },
     {
@@ -8721,6 +9660,108 @@
       ]
     },
     {
+      "id": "sketch-line",
+      "name": "Sketch line",
+      "kind": "process",
+      "origin": {
+        "domain": "design",
+        "year": 2008,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "design",
+          "year": 2020,
+          "circa": false,
+          "lag_years": 12,
+          "styles": [
+            "conceptual-sketch-ui"
+          ]
+        }
+      ],
+      "styles": [
+        "conceptual-sketch-ui"
+      ]
+    },
+    {
+      "id": "skeuomorph",
+      "name": "Skeuomorph",
+      "kind": "motif",
+      "origin": {
+        "domain": "architecture",
+        "year": -600,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "icon",
+          "year": 2001,
+          "circa": false,
+          "lag_years": 2601,
+          "styles": [
+            "skeuomorphic-icon"
+          ]
+        },
+        {
+          "domain": "design",
+          "year": 2007,
+          "circa": false,
+          "lag_years": 2607,
+          "styles": [
+            "skeuomorphism"
+          ]
+        }
+      ],
+      "styles": [
+        "skeuomorphic-icon",
+        "skeuomorphism"
+      ]
+    },
+    {
+      "id": "small-format-camera",
+      "name": "35 mm camera",
+      "kind": "technology",
+      "origin": {
+        "domain": "photography",
+        "year": 1925,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "photography",
+          "year": 1932,
+          "circa": false,
+          "lag_years": 7,
+          "styles": [
+            "street-photography"
+          ]
+        },
+        {
+          "domain": "photography",
+          "year": 1936,
+          "circa": false,
+          "lag_years": 11,
+          "styles": [
+            "documentary-photography"
+          ]
+        },
+        {
+          "domain": "photography",
+          "year": 2015,
+          "circa": true,
+          "lag_years": 90,
+          "styles": [
+            "film-grain-revival"
+          ]
+        }
+      ],
+      "styles": [
+        "street-photography",
+        "documentary-photography",
+        "film-grain-revival"
+      ]
+    },
+    {
       "id": "soak-stain",
       "name": "Soak-stain",
       "kind": "process",
@@ -8750,7 +9791,8 @@
         }
       ],
       "styles": [
-        "colour-field-painting"
+        "colour-field-painting",
+        "abstract-expressionism"
       ]
     },
     {
@@ -8795,6 +9837,63 @@
       ]
     },
     {
+      "id": "stained-glass",
+      "name": "Stained glass",
+      "kind": "material",
+      "origin": {
+        "domain": "architecture",
+        "year": 1144,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "interior",
+          "year": 1850,
+          "circa": true,
+          "lag_years": 706,
+          "styles": [
+            "victorian-interior"
+          ]
+        },
+        {
+          "domain": "interior",
+          "year": 1895,
+          "circa": true,
+          "lag_years": 751,
+          "styles": [
+            "art-nouveau-interior"
+          ]
+        }
+      ],
+      "styles": [
+        "gothic-architecture",
+        "victorian-interior",
+        "art-nouveau-interior"
+      ]
+    },
+    {
+      "id": "streaming-text",
+      "name": "Streaming text",
+      "kind": "animation",
+      "origin": {
+        "domain": "design",
+        "year": 2022,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "design",
+          "year": 2023,
+          "circa": false,
+          "lag_years": 1,
+          "styles": []
+        }
+      ],
+      "styles": [
+        "ai-chat-ui"
+      ]
+    },
+    {
       "id": "sunburst",
       "name": "Sunburst",
       "kind": "motif",
@@ -8815,6 +9914,15 @@
         },
         {
           "domain": "interior",
+          "year": 1935,
+          "circa": true,
+          "lag_years": 10,
+          "styles": [
+            "hollywood-regency-interior"
+          ]
+        },
+        {
+          "domain": "interior",
           "year": 1949,
           "circa": false,
           "lag_years": 24,
@@ -8828,7 +9936,8 @@
           "circa": true,
           "lag_years": 32,
           "styles": [
-            "space-age"
+            "space-age",
+            "mid-century-modern"
           ]
         },
         {
@@ -8847,7 +9956,9 @@
         "mid-century-modern-interior",
         "space-age",
         "art-deco-web",
-        "neo-deco-interior"
+        "neo-deco-interior",
+        "hollywood-regency-interior",
+        "mid-century-modern"
       ]
     },
     {
@@ -8879,6 +9990,15 @@
           ]
         },
         {
+          "domain": "design",
+          "year": 1981,
+          "circa": false,
+          "lag_years": 481,
+          "styles": [
+            "memphis-design"
+          ]
+        },
+        {
           "domain": "interior",
           "year": 2016,
           "circa": true,
@@ -8892,7 +10012,33 @@
         "art-deco-architecture",
         "mid-century-modern-interior",
         "dopamine-decor",
-        "memphis-interior"
+        "memphis-interior",
+        "memphis-design"
+      ]
+    },
+    {
+      "id": "three-point-lighting",
+      "name": "Three-point lighting",
+      "kind": "process",
+      "origin": {
+        "domain": "film",
+        "year": 1915,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "photography",
+          "year": 1930,
+          "circa": true,
+          "lag_years": 15,
+          "styles": [
+            "fashion-editorial"
+          ]
+        }
+      ],
+      "styles": [
+        "classical-hollywood",
+        "fashion-editorial"
       ]
     },
     {
@@ -8905,6 +10051,15 @@
         "circa": false
       },
       "adoptions": [
+        {
+          "domain": "photography",
+          "year": 1917,
+          "circa": true,
+          "lag_years": 13,
+          "styles": [
+            "straight-photography"
+          ]
+        },
         {
           "domain": "photography",
           "year": 1932,
@@ -8933,6 +10088,33 @@
           ]
         },
         {
+          "domain": "photography",
+          "year": 1975,
+          "circa": true,
+          "lag_years": 71,
+          "styles": [
+            "new-colour"
+          ]
+        },
+        {
+          "domain": "photography",
+          "year": 2008,
+          "circa": true,
+          "lag_years": 104,
+          "styles": [
+            "food-photography"
+          ]
+        },
+        {
+          "domain": "photography",
+          "year": 2010,
+          "circa": true,
+          "lag_years": 106,
+          "styles": [
+            "scandinavian-interior-photography"
+          ]
+        },
+        {
           "domain": "design",
           "year": 2012,
           "circa": false,
@@ -8952,7 +10134,46 @@
       "styles": [
         "group-f64",
         "architectural-photography",
+        "straight-photography",
+        "new-colour",
+        "food-photography",
+        "scandinavian-interior-photography",
         "hd-2d-diorama"
+      ]
+    },
+    {
+      "id": "trompe-l-oeil",
+      "name": "Trompe-l'oeil",
+      "kind": "process",
+      "origin": {
+        "domain": "painting",
+        "year": 1465,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "painting",
+          "year": 1532,
+          "circa": false,
+          "lag_years": 67,
+          "styles": [
+            "mannerism-painting"
+          ]
+        },
+        {
+          "domain": "architecture",
+          "year": 1685,
+          "circa": true,
+          "lag_years": 220,
+          "styles": [
+            "baroque-architecture"
+          ]
+        }
+      ],
+      "styles": [
+        "renaissance-painting",
+        "mannerism-painting",
+        "baroque-architecture"
       ]
     },
     {
@@ -9014,6 +10235,15 @@
       },
       "adoptions": [
         {
+          "domain": "interior",
+          "year": 1893,
+          "circa": false,
+          "lag_years": 0,
+          "styles": [
+            "art-nouveau-interior"
+          ]
+        },
+        {
           "domain": "design",
           "year": 1894,
           "circa": true,
@@ -9044,11 +10274,44 @@
           "styles": [
             "art-nouveau-architecture"
           ]
+        },
+        {
+          "domain": "design",
+          "year": 1966,
+          "circa": false,
+          "lag_years": 73,
+          "styles": [
+            "psychedelic"
+          ]
         }
       ],
       "styles": [
         "art-nouveau-architecture",
-        "art-nouveau-monogram"
+        "art-nouveau-monogram",
+        "art-nouveau-interior",
+        "psychedelic"
+      ]
+    },
+    {
+      "id": "wire-work",
+      "name": "Wire work",
+      "kind": "process",
+      "origin": {
+        "domain": "film",
+        "year": 1983,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "film",
+          "year": 1999,
+          "circa": false,
+          "lag_years": 16,
+          "styles": []
+        }
+      ],
+      "styles": [
+        "hong-kong-action"
       ]
     },
     {
@@ -9133,12 +10396,22 @@
           "styles": [
             "expressionism-painting"
           ]
+        },
+        {
+          "domain": "painting",
+          "year": 1906,
+          "circa": false,
+          "lag_years": 1038,
+          "styles": [
+            "fauvism"
+          ]
         }
       ],
       "styles": [
         "ukiyo-e",
         "post-impressionism",
-        "expressionism-painting"
+        "expressionism-painting",
+        "fauvism"
       ]
     }
   ],
@@ -9171,7 +10444,9 @@
           "distance": 3
         }
       ],
-      "techniques": []
+      "techniques": [
+        "drop-cap"
+      ]
     },
     "art-nouveau-web": {
       "evolved_from": [],
@@ -9242,7 +10517,9 @@
           "distance": 1
         }
       ],
-      "techniques": []
+      "techniques": [
+        "neoplastic-grid"
+      ]
     },
     "bauhaus": {
       "evolved_from": [],
@@ -9282,7 +10559,10 @@
           "distance": 1.41
         }
       ],
-      "techniques": []
+      "techniques": [
+        "construction-grid",
+        "primary-shapes"
+      ]
     },
     "constructivism-web": {
       "evolved_from": [],
@@ -9394,7 +10674,9 @@
           "distance": 1.41
         }
       ],
-      "techniques": []
+      "techniques": [
+        "sunburst"
+      ]
     },
     "swiss-international": {
       "evolved_from": [
@@ -9486,7 +10768,9 @@
           "distance": 1.41
         }
       ],
-      "techniques": []
+      "techniques": [
+        "primary-shapes"
+      ]
     },
     "rams-functionalism-ui": {
       "evolved_from": [
@@ -9522,7 +10806,9 @@
           "distance": 1.73
         }
       ],
-      "techniques": []
+      "techniques": [
+        "modular-grid"
+      ]
     },
     "pop-art-web": {
       "evolved_from": [
@@ -9628,7 +10914,9 @@
           "distance": 1.41
         }
       ],
-      "techniques": []
+      "techniques": [
+        "whiplash-line"
+      ]
     },
     "cassette-futurism": {
       "evolved_from": [
@@ -9733,7 +11021,10 @@
           "distance": 1.41
         }
       ],
-      "techniques": []
+      "techniques": [
+        "primary-shapes",
+        "terrazzo"
+      ]
     },
     "cyberdelia": {
       "evolved_from": [
@@ -9874,7 +11165,9 @@
           "distance": 1.73
         }
       ],
-      "techniques": []
+      "techniques": [
+        "pixel-grid"
+      ]
     },
     "apple-aqua": {
       "evolved_from": [
@@ -9906,7 +11199,9 @@
           "distance": 1.73
         }
       ],
-      "techniques": []
+      "techniques": [
+        "airbrush"
+      ]
     },
     "frutiger-aero": {
       "evolved_from": [
@@ -9984,7 +11279,10 @@
           "distance": 2
         }
       ],
-      "techniques": []
+      "techniques": [
+        "airbrush",
+        "skeuomorph"
+      ]
     },
     "metro-ui": {
       "evolved_from": [
@@ -10017,7 +11315,9 @@
           "distance": 1.41
         }
       ],
-      "techniques": []
+      "techniques": [
+        "modular-grid"
+      ]
     },
     "pixel-art-web": {
       "evolved_from": [
@@ -10080,7 +11380,9 @@
           "distance": 2.65
         }
       ],
-      "techniques": []
+      "techniques": [
+        "arch"
+      ]
     },
     "flat-design": {
       "evolved_from": [
@@ -10330,7 +11632,9 @@
           "distance": 2
         }
       ],
-      "techniques": []
+      "techniques": [
+        "fixed-pitch-grid"
+      ]
     },
     "luxury-typography-web": {
       "evolved_from": [
@@ -10461,7 +11765,9 @@
           "distance": 1.73
         }
       ],
-      "techniques": []
+      "techniques": [
+        "sketch-line"
+      ]
     },
     "wabi-sabi-web": {
       "evolved_from": [
@@ -10490,7 +11796,9 @@
           "distance": 2.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "limewash"
+      ]
     },
     "anti-design": {
       "evolved_from": [],
@@ -10523,7 +11831,9 @@
           "distance": 1.41
         }
       ],
-      "techniques": []
+      "techniques": [
+        "photomontage"
+      ]
     },
     "dark-devtool-ui": {
       "evolved_from": [
@@ -10701,7 +12011,9 @@
           "distance": 1.41
         }
       ],
-      "techniques": []
+      "techniques": [
+        "mesh-gradient"
+      ]
     },
     "scrapbook-ui": {
       "evolved_from": [
@@ -10734,7 +12046,9 @@
           "distance": 3
         }
       ],
-      "techniques": []
+      "techniques": [
+        "photomontage"
+      ]
     },
     "neumorphism": {
       "evolved_from": [
@@ -10765,7 +12079,9 @@
           "distance": 1.73
         }
       ],
-      "techniques": []
+      "techniques": [
+        "dual-soft-shadow"
+      ]
     },
     "cybercore-web": {
       "evolved_from": [
@@ -10798,7 +12114,9 @@
           "distance": 1.41
         }
       ],
-      "techniques": []
+      "techniques": [
+        "glitch"
+      ]
     },
     "glassmorphism": {
       "evolved_from": [
@@ -10869,7 +12187,9 @@
           "distance": 1.41
         }
       ],
-      "techniques": []
+      "techniques": [
+        "hard-offset-shadow"
+      ]
     },
     "claymorphism": {
       "evolved_from": [
@@ -10901,7 +12221,10 @@
           "distance": 1.73
         }
       ],
-      "techniques": []
+      "techniques": [
+        "clay-render",
+        "dual-soft-shadow"
+      ]
     },
     "editorial-serif-revival": {
       "evolved_from": [
@@ -10933,7 +12256,9 @@
           "distance": 1.73
         }
       ],
-      "techniques": []
+      "techniques": [
+        "drop-cap"
+      ]
     },
     "ethereal-web": {
       "evolved_from": [
@@ -10965,7 +12290,9 @@
           "distance": 1.73
         }
       ],
-      "techniques": []
+      "techniques": [
+        "mesh-gradient"
+      ]
     },
     "ai-chat-ui": {
       "evolved_from": [
@@ -10993,7 +12320,9 @@
           "distance": 1
         }
       ],
-      "techniques": []
+      "techniques": [
+        "streaming-text"
+      ]
     },
     "bento-grid-ui": {
       "evolved_from": [
@@ -11090,7 +12419,9 @@
           "distance": 1.41
         }
       ],
-      "techniques": []
+      "techniques": [
+        "backdrop-blur"
+      ]
     },
     "gothic-architecture": {
       "evolved_from": [],
@@ -11119,7 +12450,9 @@
           "distance": 3.32
         }
       ],
-      "techniques": []
+      "techniques": [
+        "stained-glass"
+      ]
     },
     "renaissance-architecture": {
       "evolved_from": [],
@@ -11149,7 +12482,9 @@
           "distance": 2.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "arch"
+      ]
     },
     "baroque-architecture": {
       "evolved_from": [
@@ -11180,7 +12515,9 @@
           "distance": 2.45
         }
       ],
-      "techniques": []
+      "techniques": [
+        "trompe-l-oeil"
+      ]
     },
     "neoclassical-architecture": {
       "evolved_from": [],
@@ -11212,7 +12549,9 @@
           "distance": 2.45
         }
       ],
-      "techniques": []
+      "techniques": [
+        "fluting"
+      ]
     },
     "arts-and-crafts-architecture": {
       "evolved_from": [
@@ -11271,7 +12610,9 @@
           "distance": 2.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "arch"
+      ]
     },
     "art-nouveau-architecture": {
       "evolved_from": [],
@@ -11429,7 +12770,10 @@
           "distance": 2
         }
       ],
-      "techniques": []
+      "techniques": [
+        "cantilever",
+        "curtain-wall"
+      ]
     },
     "art-deco-architecture": {
       "evolved_from": [
@@ -11515,7 +12859,10 @@
           "distance": 2.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "cantilever",
+        "curtain-wall"
+      ]
     },
     "nordic-modernism-architecture": {
       "evolved_from": [
@@ -11544,7 +12891,9 @@
           "distance": 1.73
         }
       ],
-      "techniques": []
+      "techniques": [
+        "roof-light"
+      ]
     },
     "mid-century-modern-architecture": {
       "evolved_from": [
@@ -11616,7 +12965,9 @@
           "distance": 2.65
         }
       ],
-      "techniques": []
+      "techniques": [
+        "board-marked-concrete"
+      ]
     },
     "adaptive-reuse-architecture": {
       "evolved_from": [],
@@ -11712,7 +13063,10 @@
           "distance": 2.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "curtain-wall",
+        "exposed-services"
+      ]
     },
     "critical-regionalism-architecture": {
       "evolved_from": [
@@ -11778,7 +13132,9 @@
           "distance": 2
         }
       ],
-      "techniques": []
+      "techniques": [
+        "crystal-facet"
+      ]
     },
     "mass-timber-architecture": {
       "evolved_from": [],
@@ -11834,7 +13190,9 @@
           "distance": 2.65
         }
       ],
-      "techniques": []
+      "techniques": [
+        "parametric-modelling"
+      ]
     },
     "georgian-interior": {
       "evolved_from": [],
@@ -11931,7 +13289,10 @@
           "distance": 2.65
         }
       ],
-      "techniques": []
+      "techniques": [
+        "chintz",
+        "stained-glass"
+      ]
     },
     "arts-and-crafts-interior": {
       "evolved_from": [
@@ -12000,7 +13361,10 @@
           "distance": 2.65
         }
       ],
-      "techniques": []
+      "techniques": [
+        "stained-glass",
+        "whiplash-line"
+      ]
     },
     "bauhaus-interior": {
       "evolved_from": [],
@@ -12100,7 +13464,10 @@
           "distance": 2
         }
       ],
-      "techniques": []
+      "techniques": [
+        "checkerboard",
+        "sunburst"
+      ]
     },
     "mid-century-modern-interior": {
       "evolved_from": [
@@ -12212,7 +13579,10 @@
           "distance": 2.45
         }
       ],
-      "techniques": []
+      "techniques": [
+        "board-marked-concrete",
+        "exposed-services"
+      ]
     },
     "memphis-interior": {
       "evolved_from": [],
@@ -12351,7 +13721,9 @@
           "distance": 2
         }
       ],
-      "techniques": []
+      "techniques": [
+        "exposed-joinery"
+      ]
     },
     "grandmillennial-interior": {
       "evolved_from": [
@@ -12382,7 +13754,10 @@
           "distance": 2
         }
       ],
-      "techniques": []
+      "techniques": [
+        "chinoiserie",
+        "chintz"
+      ]
     },
     "neo-deco-interior": {
       "evolved_from": [
@@ -12523,7 +13898,9 @@
           "distance": 3
         }
       ],
-      "techniques": []
+      "techniques": [
+        "optical-mixing"
+      ]
     },
     "straight-photography": {
       "evolved_from": [],
@@ -12563,7 +13940,9 @@
           "distance": 2.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "tilt-shift"
+      ]
     },
     "group-f64": {
       "evolved_from": [
@@ -12630,7 +14009,9 @@
           "distance": 2.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "serial-repetition"
+      ]
     },
     "street-photography": {
       "evolved_from": [
@@ -12668,7 +14049,9 @@
           "distance": 2
         }
       ],
-      "techniques": []
+      "techniques": [
+        "small-format-camera"
+      ]
     },
     "documentary-photography": {
       "evolved_from": [
@@ -12699,7 +14082,9 @@
           "distance": 2
         }
       ],
-      "techniques": []
+      "techniques": [
+        "small-format-camera"
+      ]
     },
     "new-colour": {
       "evolved_from": [
@@ -12733,7 +14118,9 @@
           "distance": 2.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "tilt-shift"
+      ]
     },
     "new-topographics": {
       "evolved_from": [
@@ -12840,7 +14227,9 @@
           "distance": 2
         }
       ],
-      "techniques": []
+      "techniques": [
+        "direct-flash"
+      ]
     },
     "cinematic-teal-orange": {
       "evolved_from": [
@@ -12870,7 +14259,9 @@
           "distance": 1.73
         }
       ],
-      "techniques": []
+      "techniques": [
+        "digital-colour-grade"
+      ]
     },
     "party-flash": {
       "evolved_from": [
@@ -12904,7 +14295,9 @@
           "distance": 2.45
         }
       ],
-      "techniques": []
+      "techniques": [
+        "direct-flash"
+      ]
     },
     "film-grain-revival": {
       "evolved_from": [
@@ -12938,7 +14331,9 @@
           "distance": 2
         }
       ],
-      "techniques": []
+      "techniques": [
+        "small-format-camera"
+      ]
     },
     "ai-hyperreal": {
       "evolved_from": [
@@ -13044,7 +14439,9 @@
           "distance": 2
         }
       ],
-      "techniques": []
+      "techniques": [
+        "three-point-lighting"
+      ]
     },
     "film-noir-still": {
       "evolved_from": [
@@ -13109,7 +14506,9 @@
           "distance": 2
         }
       ],
-      "techniques": []
+      "techniques": [
+        "tilt-shift"
+      ]
     },
     "scandinavian-interior-photography": {
       "evolved_from": [
@@ -13140,7 +14539,9 @@
           "distance": 2.45
         }
       ],
-      "techniques": []
+      "techniques": [
+        "tilt-shift"
+      ]
     },
     "german-expressionist-cinema": {
       "evolved_from": [],
@@ -13249,7 +14650,9 @@
           "distance": 1.73
         }
       ],
-      "techniques": []
+      "techniques": [
+        "three-point-lighting"
+      ]
     },
     "film-noir": {
       "evolved_from": [
@@ -13313,7 +14716,9 @@
           "distance": 2
         }
       ],
-      "techniques": []
+      "techniques": [
+        "plein-air"
+      ]
     },
     "one-take-oner": {
       "evolved_from": [
@@ -13506,7 +14911,9 @@
           "distance": 2.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "handheld-camera"
+      ]
     },
     "music-video": {
       "evolved_from": [],
@@ -13537,7 +14944,9 @@
           "distance": 3
         }
       ],
-      "techniques": []
+      "techniques": [
+        "jump-cut"
+      ]
     },
     "neon-noir": {
       "evolved_from": [
@@ -13596,7 +15005,9 @@
           "distance": 2.45
         }
       ],
-      "techniques": []
+      "techniques": [
+        "wire-work"
+      ]
     },
     "slow-cinema": {
       "evolved_from": [
@@ -13697,7 +15108,9 @@
           "distance": 1.73
         }
       ],
-      "techniques": []
+      "techniques": [
+        "perspective-grid"
+      ]
     },
     "found-footage": {
       "evolved_from": [
@@ -13881,7 +15294,9 @@
           "distance": 2.83
         }
       ],
-      "techniques": []
+      "techniques": [
+        "aerial-drone"
+      ]
     },
     "camcorder-revival": {
       "evolved_from": [],
@@ -13917,7 +15332,10 @@
           "distance": 3.16
         }
       ],
-      "techniques": []
+      "techniques": [
+        "glitch",
+        "handheld-camera"
+      ]
     },
     "renaissance-painting": {
       "evolved_from": [],
@@ -13952,7 +15370,8 @@
       ],
       "techniques": [
         "checkerboard",
-        "perspective-grid"
+        "perspective-grid",
+        "trompe-l-oeil"
       ]
     },
     "mannerism-painting": {
@@ -13978,7 +15397,10 @@
           "distance": 2.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "figura-serpentinata",
+        "trompe-l-oeil"
+      ]
     },
     "baroque-painting": {
       "evolved_from": [
@@ -14076,7 +15498,9 @@
           "distance": 2.24
         }
       ],
-      "techniques": []
+      "techniques": [
+        "chinoiserie"
+      ]
     },
     "romanticism-painting": {
       "evolved_from": [],
@@ -14103,7 +15527,9 @@
           "distance": 2.65
         }
       ],
-      "techniques": []
+      "techniques": [
+        "chiaroscuro"
+      ]
     },
     "realism-painting": {
       "evolved_from": [],
@@ -14135,7 +15561,9 @@
           "distance": 2
         }
       ],
-      "techniques": []
+      "techniques": [
+        "plein-air"
+      ]
     },
     "impressionism": {
       "evolved_from": [
@@ -14203,7 +15631,9 @@
           "distance": 2
         }
       ],
-      "techniques": []
+      "techniques": [
+        "plein-air"
+      ]
     },
     "pointillism": {
       "evolved_from": [
@@ -14230,7 +15660,9 @@
           "distance": 2.65
         }
       ],
-      "techniques": []
+      "techniques": [
+        "optical-mixing"
+      ]
     },
     "post-impressionism": {
       "evolved_from": [
@@ -14346,7 +15778,9 @@
           "distance": 2.45
         }
       ],
-      "techniques": []
+      "techniques": [
+        "woodcut"
+      ]
     },
     "cubism-painting": {
       "evolved_from": [],
@@ -14446,7 +15880,8 @@
         }
       ],
       "techniques": [
-        "diagonal-composition"
+        "diagonal-composition",
+        "primary-shapes"
       ]
     },
     "de-stijl-painting": {
@@ -14485,7 +15920,9 @@
           "distance": 2.83
         }
       ],
-      "techniques": []
+      "techniques": [
+        "neoplastic-grid"
+      ]
     },
     "surrealism-painting": {
       "evolved_from": [],
@@ -14552,7 +15989,9 @@
           "distance": 3.32
         }
       ],
-      "techniques": []
+      "techniques": [
+        "soak-stain"
+      ]
     },
     "colour-field-painting": {
       "evolved_from": [
@@ -14813,7 +16252,9 @@
           "distance": 3.32
         }
       ],
-      "techniques": []
+      "techniques": [
+        "letterspaced-capitals"
+      ]
     },
     "swiss-modernist-mark": {
       "evolved_from": [],
@@ -15095,7 +16536,8 @@
         }
       ],
       "techniques": [
-        "airbrush"
+        "airbrush",
+        "skeuomorph"
       ]
     },
     "flat-icon": {
@@ -15298,7 +16740,9 @@
           "distance": 3.46
         }
       ],
-      "techniques": []
+      "techniques": [
+        "clay-render"
+      ]
     },
     "blackletter": {
       "evolved_from": [],
@@ -15702,7 +17146,9 @@
           "distance": 2.45
         }
       ],
-      "techniques": []
+      "techniques": [
+        "phototypesetting"
+      ]
     },
     "vector-display-arcade": {
       "evolved_from": [],

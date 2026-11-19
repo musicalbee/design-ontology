@@ -215,6 +215,18 @@ A slow pan and zoom across a still image, so that a photograph moves in a film. 
 - Move 5% to 15% of the frame over 4 to 8 seconds on each still.
 - Start or end each move on a face or on the key detail.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Aspect ratio (`aspect_ratio`) | 1.85:1 | 1.85:1 | lens_and_format, composition |
+| Frame rate (`frame_rate`) | 30 | 24–30 fps | capture, camera_and_movement |
+| Average shot length (`average_shot_length`) | 4 | 3–5 s | editing_and_rhythm |
+| Colour temperature (`colour_temperature`) | 5600 | 5000–5800 K | colour_and_grade, light |
+| Grain (`grain`) | 0 | 0–0.03 | colour_and_grade |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

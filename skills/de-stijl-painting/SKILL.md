@@ -161,6 +161,29 @@ The rules above name these shared principles by id. The definition is the same i
 | `hierarchy` | Hierarchy | The elements of a composition rank by importance through size, position, contrast or isolation. The viewer reads them in that order. | levels of rank (count): 2 to 3; size ratio between adjacent levels (ratio): 1.5:1 or more |
 | `colour-distribution` | Colour distribution | Each colour takes a planned share of the visible area: a dominant colour, a secondary colour and an accent. | dominant / secondary / accent share (% of visible surface): 60/30/10 as the default; 70/25/5 calm; 40/35/25 bold; accents (count): 1 to 3 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Neoplastic grid (motif, invented here)
+
+A plane divided by black horizontal and vertical bars into white fields and a few fields of primary colour. Origin: painting, Leiden, Netherlands, 1917.
+
+- Use only horizontal and vertical lines; no curves and no diagonals.
+- Fill one to three fields with red, yellow or blue; leave the rest white or grey.
+- Set the bars at one weight, 1% to 2% of the short side.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #D3202A | #D3202A, #1D3F8C, #F2C300, #151515 | palette |
+| Value contrast (`value_contrast`) | 0.9 | 0.8–1 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 0 | 0–0.1 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 1:1 | 1:1, 4:5 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

@@ -188,6 +188,18 @@ A form broken into flat planes that meet at sharp angles, so that it reads as a 
 - Use one plane size family: 3 to 5 sizes, with no curve.
 - Let the light break on each plane, so that adjacent planes differ in tone by one or two steps.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 4 | 3.2–6 m | massing, facade |
+| Structural grid (`structural_grid`) | 9 | 6–15 m | structure |
+| Glazing ratio (`glazing_ratio`) | 25 | 15–35 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 20 | 0–60 deg | massing |
+| Base material (`base_material`) | brick | brick, concrete, steel | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

@@ -304,6 +304,37 @@
       }
     ]
   },
+  "permutations": {
+    "aspect_ratio": {
+      "default": "1.85:1",
+      "options": [
+        "1.85:1",
+        "2.39:1"
+      ],
+      "note": "The 16:9 frame maps to 1.85:1, the nearest option of the domain."
+    },
+    "frame_rate": {
+      "default": 60,
+      "min": 24,
+      "max": 60,
+      "note": "Capture at 60 fps and conform to 24 or 30 fps."
+    },
+    "average_shot_length": {
+      "default": 30,
+      "min": 6,
+      "max": 60
+    },
+    "colour_temperature": {
+      "default": 5600,
+      "min": 3500,
+      "max": 6500
+    },
+    "grain": {
+      "default": 0,
+      "min": 0,
+      "max": 0.03
+    }
+  },
   "sources": [
     {
       "title": "Wikidata Q22907956: drone racing",

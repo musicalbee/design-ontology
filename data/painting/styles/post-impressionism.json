@@ -109,6 +109,12 @@
       { "request": "wilder colour", "toward": "fauvism", "how": "Keep the contour and the flat patch; set the hue free from nature, enlarge the patch to 30–200mm, and raise every colour to full chroma." }
     ]
   },
+  "permutations": {
+    "key_colour": {"default": "#E9B91E", "options": ["#E9B91E", "#1F3E73", "#2F8F5E", "#CF4129"]},
+    "value_contrast": {"default": 0.6, "min": 0.45, "max": 0.75},
+    "brush_size": {"default": 1.8, "min": 1, "max": 4},
+    "canvas_ratio": {"default": "4:5", "options": ["4:5", "3:4", "3:2"]}
+  },
   "sources": [
     { "title": "Wikidata Q166713 (Post-impressionism)", "url": "https://www.wikidata.org/wiki/Q166713" },
     { "title": "Getty AAT 300021508 (Post-Impressionism)", "url": "https://vocab.getty.edu/page/aat/300021508" },

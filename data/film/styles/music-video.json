@@ -326,6 +326,40 @@
       }
     ]
   },
+  "permutations": {
+    "aspect_ratio": {
+      "default": "1.85:1",
+      "options": [
+        "1.33:1",
+        "1.85:1",
+        "2.39:1",
+        "9:16"
+      ],
+      "note": "The 16:9 frame maps to 1.85:1; 4:3 is for the 1980s and 9:16 for a platform cut."
+    },
+    "frame_rate": {
+      "default": 24,
+      "min": 24,
+      "max": 120,
+      "note": "Slow motion runs at 48 to 120 fps."
+    },
+    "average_shot_length": {
+      "default": 2,
+      "min": 1.5,
+      "max": 3
+    },
+    "colour_temperature": {
+      "default": 3200,
+      "min": 2000,
+      "max": 9000,
+      "note": "Gels from 2000K to 9000K colour the key."
+    },
+    "grain": {
+      "default": 0.1,
+      "min": 0,
+      "max": 0.2
+    }
+  },
   "sources": [
     {
       "title": "Wikidata Q193977: Music video",

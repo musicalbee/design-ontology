@@ -209,6 +209,38 @@
       }
     ]
   },
+  "permutations": {
+    "grid_size": {
+      "default": 24,
+      "min": 16,
+      "max": 32
+    },
+    "stroke_width": {
+      "default": 1,
+      "min": 1,
+      "max": 2,
+      "note": "A line is a run of whole pixels, not a vector stroke."
+    },
+    "corner_radius": {
+      "default": 0,
+      "min": 0,
+      "max": 0,
+      "note": "A corner is a stair of whole pixels, never a curve."
+    },
+    "fill_mode": {
+      "default": "solid",
+      "options": [
+        "solid"
+      ]
+    },
+    "base_colour": {
+      "default": "#111111",
+      "options": [
+        "#111111",
+        "#2A5BD7"
+      ]
+    }
+  },
   "sources": [
     {
       "title": "Susan Kare, icon work for the Apple Macintosh (1984), as described in the Wikipedia article",

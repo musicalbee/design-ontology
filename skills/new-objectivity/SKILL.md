@@ -164,6 +164,31 @@ The rules above name these shared principles by id. The definition is the same i
 | `negative-space` | Negative space | The empty area around and between elements. It is a part of the composition, not a remainder. | empty frame area (% of image): 30–70 |
 | `unity-variety` | Unity and variety | Repeated materials, colours and shapes join the parts into one whole. A small, planned number of deviations keeps the whole alive. | materials or hues that repeat (count): 2 to 4; deliberate deviations (count): 1 to 2 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Serial repetition (process)
+
+One motif or one frame, repeated with small changes in a set of works, so that the viewer reads the change and not the object. Origin: painting, Paris, 1891.
+
+- Fix the motif, the format and the viewpoint; change one variable only, such as the hour, the colour or the stripe width.
+- Make at least 5 works in the set and show them in one row at one height.
+- Keep the spacing between works equal to a fixed unit, such as 10 cm or one panel width.
+- Remove the hand: use a mechanical edge, a stencil or a plain lens.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Colour temperature (`colour_temperature`) | 5500 | 5000–6000 K | colour_and_grade, light |
+| Contrast (`contrast`) | 1.1 | 1–1.25 | colour_and_grade, post_processing |
+| Grain (`grain`) | 25 | 25–50 ISO | process, post_processing |
+| Focal length (`focal_length`) | 50 | 45–90 mm | lens_and_camera, composition |
+| Aspect ratio (`aspect_ratio`) | 3:4 | 3:4, 4:5 | composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

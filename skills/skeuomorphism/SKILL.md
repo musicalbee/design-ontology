@@ -246,6 +246,26 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Airbrush (tool)
+
+A pen-sized spray gun that lays paint in soft, even tones; with masks, it makes hard edges and smooth gradients side by side. Origin: photography, United States, 1879.
+
+- Build tone in 3 to 6 thin passes; each pass adds 20% to 40% of the final density.
+- Cut a hard mask for each edge that must stay sharp; leave the light soft.
+- Put one specular highlight of pure white on each chrome form.
+
+### Skeuomorph (motif)
+
+A detail that copies the material or the form of an older object, though it no longer has that function. Origin: architecture, Greece, c. 600 BCE.
+
+- Copy one material for each surface: leather, felt, wood, paper or brushed metal.
+- Light every surface from one source above, at 90 degrees.
+- Keep the old details that tell the use: stitches, page edges, knobs and screws.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

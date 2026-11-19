@@ -158,6 +158,18 @@ Capital letters with the proportions of Roman stone inscriptions: some letters w
 - Set the stem at about one tenth of the cap height for a classical weight; for signs, increase it by up to half.
 - Cut serifs, or leave them out, but keep the width rules.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Weight (`weight`) | 400 | 400–700 | metrics, setting |
+| Width (`width`) | 100 | 95–105 % | metrics |
+| x-height ratio (`x_height_ratio`) | 0.41 | 0.38–0.45 | metrics, anatomy |
+| Stroke contrast (`stroke_contrast`) | 2.5 | 2–3.5 | anatomy |
+| Tracking (`tracking`) | 0 | 0–0.1 em | setting |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

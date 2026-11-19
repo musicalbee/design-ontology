@@ -241,6 +241,27 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Construction grid (process)
+
+Letters and marks drawn on a fixed grid of squares and circles, so that each glyph in a set has the same size, weight and corner. Origin: typeface, Nuremberg, 1525.
+
+- Fix one live area inside a square canvas; on a 24 unit canvas, keep a 2 unit margin.
+- Define 4 keyline shapes (circle, square, tall and wide rectangle) and fit each glyph to the one that suits it.
+- Cut every angle to 45° or 90°, or to one other fixed angle.
+- Use one stroke weight for the full set, for example 2 units on a 24 unit canvas.
+
+### Primary shapes (motif)
+
+The circle, the square and the triangle in flat colour, used as the whole picture or as a sign. Origin: painting, Petrograd, Russia, 1915.
+
+- Use 1 to 3 shapes at large size; let one shape fill 30% to 60% of the frame.
+- Fill each shape with one flat colour; no gradient and no outline.
+- Put the shapes on a plain ground with 30% or more empty space.
+
 ## Media
 
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.

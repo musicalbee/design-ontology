@@ -170,6 +170,38 @@ Reference works:
 | Villa Savoye, Poissy | Le Corbusier | 1931 |
 | Seagram Building, New York | Ludwig Mies van der Rohe | 1958 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Cantilever (process)
+
+A beam or slab fixed at one end that carries load beyond its support, so that it seems to hang in the air. Origin: architecture, Northern Europe, c. 1300.
+
+- Fix the beam at one end and anchor it with a back span of at least 1 part to every 2 parts of the overhang.
+- Keep the free end thin; a depth of 1/8 to 1/10 of the span suits steel and concrete.
+- Repeat the horizontal line in a run of 2 or 3 projecting planes to give a strong shadow.
+
+### Curtain wall (technology)
+
+A thin outer wall of glass and metal that hangs on the frame of the building and carries no floor load. Origin: architecture, San Francisco, United States, 1918.
+
+- Carry the floors on columns set 1 to 3 m back from the facade line.
+- Hang the glass in a grid of mullions at 1.2 to 1.5 m centres.
+- Keep the glass part of the facade above 60%.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 3.3 | 3–3.8 m | massing, facade |
+| Structural grid (`structural_grid`) | 6 | 4–9 m | structure |
+| Glazing ratio (`glazing_ratio`) | 60 | 30–90 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 0 | 0–2 deg | massing |
+| Base material (`base_material`) | concrete | concrete, steel, glass | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

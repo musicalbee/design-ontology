@@ -311,6 +311,36 @@
       }
     ]
   },
+  "permutations": {
+    "aspect_ratio": {
+      "default": "1.33:1",
+      "options": [
+        "1.33:1",
+        "1.37:1"
+      ]
+    },
+    "frame_rate": {
+      "default": 24,
+      "min": 24,
+      "max": 25
+    },
+    "average_shot_length": {
+      "default": 11,
+      "min": 8,
+      "max": 15
+    },
+    "colour_temperature": {
+      "default": 5600,
+      "min": 3200,
+      "max": 5600,
+      "note": "The crew left the light as found."
+    },
+    "grain": {
+      "default": 0.3,
+      "min": 0.25,
+      "max": 0.35
+    }
+  },
   "sources": [
     {
       "title": "Wikidata Q1092621: Cinéma vérité",

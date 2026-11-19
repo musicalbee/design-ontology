@@ -238,6 +238,38 @@ Reference works:
 | 18 Stafford Terrace | Edward Linley Sambourne | 1875 |
 | The Grammar of Ornament | Owen Jones | 1856 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Chintz (material)
+
+Cotton printed with large flowers and birds, often glazed, used for curtains, covers and walls. Origin: interior, India, c. 1600.
+
+- Use one large floral repeat of 40 to 70 cm for curtains and covers.
+- Combine it with one stripe or check in a colour of the flowers.
+- Repeat the same print on 2 to 3 pieces in the room.
+
+### Stained glass (material)
+
+Pieces of coloured glass held in lead strips, so that a window becomes a picture of coloured light. Origin: architecture, Saint-Denis, France, 1144.
+
+- Cut each piece to one colour; join the pieces with H-section lead 4 to 8 mm wide.
+- Paint the lines of faces and folds in dark grisaille and fire them onto the glass.
+- Use deep blue and red for the field; keep the clear or yellow pieces under 20% of the window.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #2F4A3A | #2F4A3A, #6E1F23 | palette |
+| Accent colour (`accent_colour`) | #5B3050 | #5B3050, #B08D3E, #E7DFC8 | palette, textiles, objects |
+| Ceiling height (`ceiling_height`) | 3.4 | 3–4.2 m | composition, lighting |
+| Light temperature (`light_temperature`) | 2200 | 1900–2700 K | lighting |
+| Object density (`object_density`) | 0.85 | 0.7–1 | objects, furniture |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

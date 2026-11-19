@@ -166,6 +166,30 @@ The rules above name these shared principles by id. The definition is the same i
 | `unity-variety` | Unity and variety | Repeated materials, colours and shapes join the parts into one whole. A small, planned number of deviations keeps the whole alive. | materials or hues that repeat (count): 2 to 4; deliberate deviations (count): 1 to 2 |
 | `focal-point` | Focal point | The one place in a view that the eye finds first and comes back to. A composition has one primary focal point and at most two secondary ones. | focal points in one view (count): 1 primary, 0 to 2 secondary; luminance of the focal point to its surround (ratio): 3:1 to 10:1; position (fraction of width): 0.5 on an axis, or 0.33 / 0.67 on a third |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Woodcut (process)
+
+A print from a block of wood with the white parts cut away; the result is flat colour, hard edges and visible grain. Origin: graphic & ui design, Dunhuang, 868.
+
+- Cut the block along the grain with a knife and a gouge; leave a line of 1mm to 3mm for the black.
+- Use one block for each colour and register them within 1 mm.
+- Print with a flat, opaque ink and leave the grain and the knife marks visible.
+- Keep the shapes flat, with no more than 3 to 6 tones in a print.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #E2412A | #E2412A, #1F9E64, #2547A8, #F08A1C | palette |
+| Value contrast (`value_contrast`) | 0.45 | 0.3–0.6 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 3 | 2–5 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 4:5 | 4:5, 3:4, 3:2 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

@@ -237,6 +237,38 @@
       }
     ]
   },
+  "permutations": {
+    "colour_temperature": {
+      "default": 6500,
+      "min": 5500,
+      "max": 7500
+    },
+    "contrast": {
+      "default": 0.8,
+      "min": 0.6,
+      "max": 0.9
+    },
+    "grain": {
+      "default": 25,
+      "min": 25,
+      "max": 50,
+      "note": "The plates were ISO 10 to 25; the domain floor is 25."
+    },
+    "focal_length": {
+      "default": 45,
+      "min": 38,
+      "max": 60,
+      "note": "This is the 35 mm equivalent of 305 to 406 mm on 8×10 in."
+    },
+    "aspect_ratio": {
+      "default": "4:5",
+      "options": [
+        "4:5",
+        "3:4",
+        "1:1"
+      ]
+    }
+  },
   "sources": [
     {
       "title": "Wikidata Q851869: pictorialism",

@@ -199,6 +199,12 @@
       }
     ]
   },
+  "permutations": {
+    "base_colour": {"default": "#1E1B18", "options": ["#1E1B18", "#A8262B", "#24395E", "#C49A3A"]},
+    "colour_count": {"default": 4, "min": 1, "max": 6, "note": "A chromolithograph can use up to 8 inks; the domain stops at 6."},
+    "stroke_weight": {"default": 5, "min": 1, "max": 6, "note": "Hatch lines are near 0.5%; the main stems are 4 to 6%."},
+    "container": {"default": "badge", "options": ["badge", "circle", "shield"]}
+  },
   "sources": [
     {
       "title": "Wikipedia: Trade Marks Registration Act 1875",

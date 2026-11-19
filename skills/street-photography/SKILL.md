@@ -170,6 +170,30 @@ The rules above name these shared principles by id. The definition is the same i
 | `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | brightest mass to deepest shadow in one image (stops): 3–4 flat; 5–8 hard, 8 or more for expressionist |
 | `rule-of-thirds` | Rule of thirds | Two horizontal and two vertical lines divide the view into nine equal parts. The focal point sits on one of the four crossings, and a horizon sits on one of the two horizontal lines. | focal point position (fraction of width and height): 0.33 or 0.67, tolerance 0.05; horizon position (fraction of height): 0.33 or 0.67 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### 35 mm camera (technology)
+
+A small, quiet camera that takes 36 frames of 24 x 36 mm on cinema film, so that the photographer can work by hand in the street. Origin: photography, Wetzlar, Germany, 1925.
+
+- Use a 28 to 50 mm lens and focus by scale, not through the finder.
+- Shoot at 1/125 to 1/500 s, from the hand.
+- Show the full frame; keep the 2:3 format.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Colour temperature (`colour_temperature`) | 5500 | 4000–6500 K | colour_and_grade, light |
+| Contrast (`contrast`) | 1.3 | 1.15–1.5 | colour_and_grade, post_processing |
+| Grain (`grain`) | 400 | 400–3200 ISO | process, post_processing |
+| Focal length (`focal_length`) | 35 | 28–50 mm | lens_and_camera, composition |
+| Aspect ratio (`aspect_ratio`) | 2:3 | 2:3 | composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

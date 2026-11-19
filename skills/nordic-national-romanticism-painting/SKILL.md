@@ -163,6 +163,29 @@ The rules above name these shared principles by id. The definition is the same i
 | `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
 | `unity-variety` | Unity and variety | Repeated materials, colours and shapes join the parts into one whole. A small, planned number of deviations keeps the whole alive. | materials or hues that repeat (count): 2 to 4; deliberate deviations (count): 1 to 2 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Plein air (process)
+
+Work made outside in front of the subject, in the light of the place and the hour. Origin: painting, France, 1841.
+
+- Work in front of the motif in one session of 1 to 3 hours, before the light moves.
+- Take the colour of shadows from the sky and the ground around them; do not paint them black.
+- Use the light that is there; add no lamp.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #3C6A8C | #3C6A8C, #2F4F3F, #8E2F25, #D5AE56 | palette |
+| Value contrast (`value_contrast`) | 0.6 | 0.45–0.75 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 1.5 | 0.8–2.5 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 16:9 | 2:3, 3:2, 16:9 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

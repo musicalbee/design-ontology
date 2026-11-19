@@ -147,6 +147,18 @@ Every character takes one cell of the same width, so text forms columns without 
 - Align columns with spaces and set tables, code and forms on the cell grid.
 - On a screen, size the layout in cells: 80 columns by 24 rows is the classic terminal.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Weight (`weight`) | 400 | 300–700 | metrics, setting |
+| Width (`width`) | 100 | 95–105 % | metrics |
+| x-height ratio (`x_height_ratio`) | 0.52 | 0.42–0.56 | metrics, anatomy |
+| Stroke contrast (`stroke_contrast`) | 1.15 | 1–1.4 | anatomy |
+| Tracking (`tracking`) | 0 | 0–0 em | setting |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

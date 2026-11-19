@@ -109,6 +109,12 @@
       { "request": "more serious and natural", "toward": "realism-painting", "how": "Drop the pastel and the ornament; use a plain brown ground, ordinary figures at work, and no flirtation." }
     ]
   },
+  "permutations": {
+    "key_colour": {"default": "#EBB7BC", "options": ["#EBB7BC", "#A9C4DE", "#F4EBD8", "#9DB38B"]},
+    "value_contrast": {"default": 0.35, "min": 0.2, "max": 0.5, "note": "Pastel colour on a light ground keeps the value span low to mid."},
+    "brush_size": {"default": 0.8, "min": 0.3, "max": 1.5},
+    "canvas_ratio": {"default": "4:5", "options": ["1:1", "4:5"]}
+  },
   "sources": [
     { "title": "Wikidata Q122960 (Rococo)", "url": "https://www.wikidata.org/wiki/Q122960" },
     { "title": "Getty AAT 300021155 (Rococo)", "url": "https://vocab.getty.edu/page/aat/300021155" },

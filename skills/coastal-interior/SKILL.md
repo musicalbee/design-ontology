@@ -249,6 +249,18 @@ A thin wash of slaked lime that dries to a soft, matt white with a faint cloud o
 - Keep the finish matt; the surface must take light with no sheen.
 - Use pale tints only: white, sand and chalk blue.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #F4F2EC | #F4F2EC, #DCCFB8 | palette |
+| Accent colour (`accent_colour`) | #6F8FA6 | #6F8FA6, #2C3E57 | palette, textiles, objects |
+| Ceiling height (`ceiling_height`) | 2.7 | 2.4–3.2 m | composition, lighting |
+| Light temperature (`light_temperature`) | 2700 | 2400–3000 K | lighting |
+| Object density (`object_density`) | 0.35 | 0.25–0.5 | objects, furniture |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

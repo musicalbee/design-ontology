@@ -219,6 +219,39 @@
       }
     ]
   },
+  "permutations": {
+    "grid_size": {
+      "default": 48,
+      "min": 24,
+      "max": 64
+    },
+    "stroke_width": {
+      "default": 0,
+      "min": 0,
+      "max": 0,
+      "note": "There is no stroke; shapes meet edge to edge."
+    },
+    "corner_radius": {
+      "default": 4,
+      "min": 0,
+      "max": 8
+    },
+    "fill_mode": {
+      "default": "solid",
+      "options": [
+        "solid"
+      ]
+    },
+    "base_colour": {
+      "default": "#3498DB",
+      "options": [
+        "#3498DB",
+        "#E74C3C",
+        "#2ECC71",
+        "#2C3E50"
+      ]
+    }
+  },
   "sources": [
     {
       "title": "Flat design, Wikipedia",

@@ -272,6 +272,13 @@
       }
     ]
   },
+  "permutations": {
+    "storey_height": {"default": 5.5, "min": 4.5, "max": 8},
+    "structural_grid": {"default": 5, "min": 4, "max": 6},
+    "glazing_ratio": {"default": 22, "min": 15, "max": 30},
+    "roof_pitch": {"default": 35, "min": 0, "max": 60, "note": "The range covers a dome on a drum and a mansard roof."},
+    "base_material": {"default": "stone", "options": ["stone", "brick"]}
+  },
   "sources": [
     {
       "title": "Rudolf Wittkower, Art and Architecture in Italy 1600–1750 (Yale University Press, 1958)"

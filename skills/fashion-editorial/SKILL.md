@@ -169,6 +169,30 @@ The rules above name these shared principles by id. The definition is the same i
 | `leading-lines` | Leading lines | Lines in the view, such as edges, rows, beams or paths, point the eye to the focal point. | lines that converge on the focal point (count): 1 to 4; angle from the frame edge (degrees): 15–60 for a diagonal |
 | `colour-distribution` | Colour distribution | Each colour takes a planned share of the visible area: a dominant colour, a secondary colour and an accent. | dominant / secondary / accent share (% of visible surface): 60/30/10 as the default; 70/25/5 calm; 40/35/25 bold; accents (count): 1 to 3 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Three-point lighting (process)
+
+A key light, a fill light and a back light on one subject, so that the face is modelled and stands out from the ground. Origin: film & video, Hollywood, United States, c. 1915.
+
+- Set the key light 30 to 45 degrees off the camera axis and above eye level.
+- Set the fill on the other side at 1/4 to 1/2 of the key.
+- Put the back light behind the subject, so that a thin rim of light separates hair and shoulders from the ground.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Colour temperature (`colour_temperature`) | 5600 | 3200–6000 K | colour_and_grade, light |
+| Contrast (`contrast`) | 1.2 | 1.05–1.4 | colour_and_grade, post_processing |
+| Grain (`grain`) | 100 | 50–400 ISO | process, post_processing |
+| Focal length (`focal_length`) | 85 | 85–135 mm | lens_and_camera, composition |
+| Aspect ratio (`aspect_ratio`) | 4:5 | 4:5, 3:4, 2:3 | composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

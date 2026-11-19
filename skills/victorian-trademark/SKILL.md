@@ -145,6 +145,17 @@ Large display letters routed from end-grain wood instead of cast in metal, so po
 - Draw the faces to be loud at a distance: fat face, slab and condensed grotesque, in one weight per line.
 - Mix several faces and sizes on one bill and centre each line, as the job printers did.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #1E1B18 | #1E1B18, #A8262B, #24395E, #C49A3A | colour |
+| Colour count (`colour_count`) | 4 | 1–6 | colour, reproduction |
+| Stroke weight (`stroke_weight`) | 5 | 1–6 % of mark height | form |
+| Container (`container`) | badge | badge, circle, shield | construction |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

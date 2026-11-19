@@ -252,6 +252,35 @@
       }
     ]
   },
+  "permutations": {
+    "weight": {
+      "default": 600,
+      "min": 500,
+      "max": 800
+    },
+    "width": {
+      "default": 100,
+      "min": 85,
+      "max": 105
+    },
+    "x_height_ratio": {
+      "default": 0.46,
+      "min": 0.4,
+      "max": 0.52
+    },
+    "stroke_contrast": {
+      "default": 5,
+      "min": 3,
+      "max": 10,
+      "note": "The o test misleads here; the value is the stem against the hairline."
+    },
+    "tracking": {
+      "default": 0,
+      "min": 0,
+      "max": 0.15,
+      "note": "Sperrsatz spaces one word by about 0.15 em for emphasis."
+    }
+  },
   "sources": [
     {
       "title": "Blackletter (Wikipedia)",

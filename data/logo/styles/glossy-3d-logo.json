@@ -204,6 +204,12 @@
       }
     ]
   },
+  "permutations": {
+    "base_colour": {"default": "#1E90E8", "options": ["#1E90E8", "#7CC242", "#F7941D"]},
+    "colour_count": {"default": 4, "min": 2, "max": 6},
+    "stroke_weight": {"default": 3, "min": 1, "max": 6, "note": "The mark has no line stroke; the value sets the light rim and the swoosh."},
+    "container": {"default": "circle", "options": ["circle", "square", "badge"]}
+  },
   "sources": [
     {
       "title": "Wikipedia: Web 2.0",

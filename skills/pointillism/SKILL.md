@@ -165,6 +165,29 @@ The rules above name these shared principles by id. The definition is the same i
 | `unity-variety` | Unity and variety | Repeated materials, colours and shapes join the parts into one whole. A small, planned number of deviations keeps the whole alive. | materials or hues that repeat (count): 2 to 4; deliberate deviations (count): 1 to 2 |
 | `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | frame area (% of the view): 10–35; frame planes (count): 1 to 2 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Optical mixing (process, invented here)
+
+Small dots or strokes of pure colour placed side by side, so that the eye mixes them at a distance. Origin: painting, Paris, France, 1886.
+
+- Put dots of pure colour side by side; do not mix them on the palette.
+- Set complementary colours next to each other in the shadows.
+- Keep each dot under 0.5% of the picture width.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #2F58A3 | #2F58A3, #E8832B, #2E8B6E, #F1CC3A | palette |
+| Value contrast (`value_contrast`) | 0.4 | 0.25–0.55 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 0.25 | 0.1–0.5 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 3:2 | 3:2, 16:9 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

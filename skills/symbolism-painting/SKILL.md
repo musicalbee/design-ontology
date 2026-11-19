@@ -179,6 +179,17 @@ A print from a flat stone or plate on which a greasy drawing takes ink and water
 - Use one stone for each colour; 3 to 5 stones give a poster.
 - Keep the soft crayon grain and the dark, velvet black.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #4A3A6B | #4A3A6B, #26335C, #C7A04A, #B88294 | palette |
+| Value contrast (`value_contrast`) | 0.55 | 0.4–0.7 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 0.3 | 0.1–0.6 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 3:4 | 3:4, 2:3 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

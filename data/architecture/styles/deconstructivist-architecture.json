@@ -269,6 +269,13 @@
       }
     ]
   },
+  "permutations": {
+    "storey_height": {"default": 4.5, "min": 3.5, "max": 8},
+    "structural_grid": {"default": 12, "min": 4, "max": 30, "note": "The spans have no regular module."},
+    "glazing_ratio": {"default": 35, "min": 20, "max": 50},
+    "roof_pitch": {"default": 20, "min": 0, "max": 45},
+    "base_material": {"default": "steel", "options": ["steel", "concrete", "glass"]}
+  },
   "sources": [
     {
       "title": "Wikidata Q238255, deconstructivism (CC0)",

@@ -260,6 +260,13 @@
       }
     ]
   },
+  "permutations": {
+    "storey_height": {"default": 3.3, "min": 3, "max": 3.8},
+    "structural_grid": {"default": 6, "min": 4, "max": 9},
+    "glazing_ratio": {"default": 60, "min": 30, "max": 90, "note": "Early white villas have 30 to 40% glass; later curtain walls reach 90%."},
+    "roof_pitch": {"default": 0, "min": 0, "max": 2},
+    "base_material": {"default": "concrete", "options": ["concrete", "steel", "glass"]}
+  },
   "sources": [
     {
       "title": "Henry-Russell Hitchcock and Philip Johnson, The International Style (W. W. Norton, 1932)"

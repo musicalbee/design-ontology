@@ -251,6 +251,18 @@ Thin boards or veneers glued in layers, so that wood forms long spans, bent shap
 - Bend veneers of 1 to 3mm in a mould for furniture; glue 5 to 9 layers.
 - Leave the layered edge in view as a line pattern.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #F6F5F1 | #F6F5F1, #D9D8D3 | palette |
+| Accent colour (`accent_colour`) | #8DA3B4 | #8DA3B4, #9CAF88, #222222 | palette, textiles, objects |
+| Ceiling height (`ceiling_height`) | 2.6 | 2.4–3 m | composition, lighting |
+| Light temperature (`light_temperature`) | 2700 | 2200–3000 K | lighting |
+| Object density (`object_density`) | 0.3 | 0.2–0.4 | objects, furniture |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

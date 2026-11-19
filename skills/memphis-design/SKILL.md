@@ -246,6 +246,26 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Primary shapes (motif)
+
+The circle, the square and the triangle in flat colour, used as the whole picture or as a sign. Origin: painting, Petrograd, Russia, 1915.
+
+- Use 1 to 3 shapes at large size; let one shape fill 30% to 60% of the frame.
+- Fill each shape with one flat colour; no gradient and no outline.
+- Put the shapes on a plain ground with 30% or more empty space.
+
+### Terrazzo (material)
+
+Chips of marble or glass set in a binder and ground flat, so that each chip shows as a cut section. Origin: architecture, Venice, c. 1500.
+
+- Set chips of 5 to 25mm in a binder; the chips cover 40% to 60% of the surface.
+- Use 2 to 4 chip colours on one ground colour.
+- Grind and polish the surface flat, so that the chip edges show as cut sections.
+
 ## Media
 
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.
@@ -260,6 +280,7 @@ Each knob varies the style inside a range where it stays itself. Keep each value
 |---|---|---|---|
 | Base colour (`base_colour`) | #FF5FA2 | #FF5FA2, #00B2A9, #111111 | --color-primary, --color-on-primary, --color-link-on-surface |
 | Accent colour (`accent_colour`) | #00B2A9 | #00B2A9, #FF5FA2 | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 0px 48px 0px 0px | 24–72 px | --border-radius |
 | Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
 | Type scale ratio (`type_scale_ratio`) | 1.5 | 1.414–1.618 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 

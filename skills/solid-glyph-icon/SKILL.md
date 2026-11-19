@@ -142,6 +142,18 @@ A form shown as one solid shape with no inner line, read only from its outer edg
 - Cut inner detail as gaps of at least 1/16 of the shape width, not as lines.
 - Keep the contrast between shape and ground high.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Grid size (`grid_size`) | 24 | 12–24 px | grid |
+| Stroke width (`stroke_width`) | 0 | 0–0 px | stroke |
+| Corner radius (`corner_radius`) | 1.5 | 0–2 px | shape |
+| Fill mode (`fill_mode`) | solid | solid | colour, shape |
+| Base colour (`base_colour`) | #1A1A1A | #1A1A1A, #2563EB | colour |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

@@ -237,6 +237,30 @@ Reference works:
 | Hiroshima armchair | Naoto Fukasawa | 2008 |
 | Karimoku Case Study collection | Norm Architects | 2019 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Exposed joinery (process)
+
+A joint that stays in view, so that the way of making is part of the look. Origin: interior, Giza, c. 2500 BCE.
+
+- Cut the joint in the main wood: a through-tenon of 6 to 12mm shows beyond the face.
+- Peg the joint with a wooden pin of 8 to 12mm; do not hide it with filler or paint.
+- Use one joint type in a room or a building; repeat it at each corner.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #EFEBE3 | #EFEBE3, #CFC6B8 | palette |
+| Accent colour (`accent_colour`) | #A86F4C | #A86F4C, #1C1C1C, #3A3631 | palette, textiles, objects |
+| Ceiling height (`ceiling_height`) | 2.5 | 2.3–2.8 m | composition, lighting |
+| Light temperature (`light_temperature`) | 2700 | 2700–3000 K | lighting |
+| Object density (`object_density`) | 0.15 | 0.05–0.25 | objects, furniture |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

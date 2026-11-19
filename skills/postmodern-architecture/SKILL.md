@@ -193,6 +193,18 @@ Light as a line of coloured gas, with a soft halo that spills onto the dark grou
 - Set the sign on a ground darker than 10% lightness, so that the halo shows.
 - Keep a bright, near-white core inside the line.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 3.6 | 3.2–4.2 m | massing, facade |
+| Structural grid (`structural_grid`) | 8 | 7–9 m | structure |
+| Glazing ratio (`glazing_ratio`) | 30 | 20–40 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 35 | 0–50 deg | massing |
+| Base material (`base_material`) | stone | stone, concrete, brick, steel | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

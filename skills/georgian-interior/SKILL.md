@@ -265,6 +265,18 @@ Parallel grooves (flutes) or ridges (reeds) on a column, a panel, a leg or a she
 - Run the flutes vertical to make a surface look taller.
 - Use one fluted surface in each room as an accent.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #A9B48E | #A9B48E, #EAE4D6, #B7A88A | palette |
+| Accent colour (`accent_colour`) | #B8913A | #B8913A, #5C2E1E | palette, textiles, objects |
+| Ceiling height (`ceiling_height`) | 3.4 | 3–4.2 m | composition, lighting |
+| Light temperature (`light_temperature`) | 2400 | 2000–2700 K | lighting |
+| Object density (`object_density`) | 0.35 | 0.25–0.5 | objects, furniture |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

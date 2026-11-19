@@ -257,6 +257,18 @@ A joint that stays in view, so that the way of making is part of the look. Origi
 - Peg the joint with a wooden pin of 8 to 12mm; do not hide it with filler or paint.
 - Use one joint type in a room or a building; repeat it at each corner.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #F2EEE3 | #F2EEE3, #3F5A73 | palette |
+| Accent colour (`accent_colour`) | #9C4A2F | #9C4A2F, #3F5A73 | palette, textiles, objects |
+| Ceiling height (`ceiling_height`) | 2.7 | 2.4–3.2 m | composition, lighting |
+| Light temperature (`light_temperature`) | 2700 | 2200–3000 K | lighting |
+| Object density (`object_density`) | 0.1 | 0.05–0.2 | objects, furniture |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

@@ -1,0 +1,48 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "three-point-lighting",
+  "name": "Three-point lighting",
+  "aliases": [
+    "Key, fill and back light"
+  ],
+  "kind": "process",
+  "summary": "A key light, a fill light and a back light on one subject, so that the face is modelled and stands out from the ground.",
+  "how": [
+    "Set the key light 30 to 45 degrees off the camera axis and above eye level.",
+    "Set the fill on the other side at 1/4 to 1/2 of the key.",
+    "Put the back light behind the subject, so that a thin rim of light separates hair and shoulders from the ground."
+  ],
+  "origin": {
+    "domain": "film",
+    "year": 1915,
+    "circa": true,
+    "where": "Hollywood, United States",
+    "note": "Hollywood studios light stars with a key, a fill and a back light, and the method becomes the studio standard.",
+    "styles": [
+      "classical-hollywood"
+    ]
+  },
+  "adoptions": [
+    {
+      "domain": "photography",
+      "year": 1930,
+      "circa": true,
+      "via": "George Hurrell and other studio portraitists bring key, fill and back light to portraits for film and fashion magazines.",
+      "styles": [
+        "fashion-editorial"
+      ]
+    }
+  ],
+  "styles": [
+    "classical-hollywood",
+    "fashion-editorial"
+  ],
+  "principles": [
+    "focal-point"
+  ],
+  "sources": [
+    {
+      "title": "Kristin Thompson, David Bordwell and Janet Staiger, The Classical Hollywood Cinema (1985)"
+    }
+  ]
+}

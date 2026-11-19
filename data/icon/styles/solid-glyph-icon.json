@@ -220,6 +220,37 @@
       }
     ]
   },
+  "permutations": {
+    "grid_size": {
+      "default": 24,
+      "min": 12,
+      "max": 24
+    },
+    "stroke_width": {
+      "default": 0,
+      "min": 0,
+      "max": 0,
+      "note": "There is no stroke; the form is the fill."
+    },
+    "corner_radius": {
+      "default": 1.5,
+      "min": 0,
+      "max": 2
+    },
+    "fill_mode": {
+      "default": "solid",
+      "options": [
+        "solid"
+      ]
+    },
+    "base_colour": {
+      "default": "#1A1A1A",
+      "options": [
+        "#1A1A1A",
+        "#2563EB"
+      ]
+    }
+  },
   "sources": [
     {
       "title": "Font Awesome repository",

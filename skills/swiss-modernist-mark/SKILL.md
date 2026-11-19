@@ -138,6 +138,17 @@ A page or screen divided into equal columns and rows; each element fits a cell o
 - Set text on a baseline grid of one line height, and use 1 to 2 type sizes for each level.
 - Scale an image by a whole number of modules.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #EB0000 | #EB0000, #000000, #5F6B73 | colour |
+| Colour count (`colour_count`) | 1 | 1–2 | colour, reproduction |
+| Stroke weight (`stroke_weight`) | 15 | 12–20 % of mark height | form |
+| Container (`container`) | none | none, square, circle | construction |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

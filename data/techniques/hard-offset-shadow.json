@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "hard-offset-shadow",
+  "name": "Hard offset shadow",
+  "aliases": [
+    "Shadow letter",
+    "Drop shadow with no blur"
+  ],
+  "kind": "motif",
+  "summary": "A solid copy of a letter or a box, set behind it and moved down and to the side, with no blur.",
+  "how": [
+    "Move the shadow 4 to 8 px down and to the right, or 5% to 10% of the letter height.",
+    "Fill the shadow with one solid colour, usually black.",
+    "Use no blur and no transparency."
+  ],
+  "origin": {
+    "domain": "typeface",
+    "year": 1815,
+    "circa": true,
+    "where": "London, United Kingdom",
+    "note": "London type founders cast shaded and shadowed display letters for posters and handbills."
+  },
+  "adoptions": [
+    {
+      "domain": "design",
+      "year": 2020,
+      "circa": true,
+      "via": "Neo-brutalist interfaces give each card and button a solid black shadow offset by 4 to 8 px.",
+      "styles": [
+        "neo-brutalism-ui"
+      ]
+    }
+  ],
+  "styles": [
+    "neo-brutalism-ui"
+  ],
+  "sources": [
+    {
+      "title": "Rob Roy Kelly, American Wood Type 1828-1900 (1969)"
+    }
+  ]
+}

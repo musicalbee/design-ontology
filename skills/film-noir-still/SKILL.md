@@ -182,6 +182,18 @@ A hard contrast of light and dark that models form: one strong source, deep shad
 - Set the key light to fill light at a ratio of 8:1 or more for a dramatic mood.
 - Cut hard shapes into the light with blinds, grilles or foliage so that the shadow becomes a pattern.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Colour temperature (`colour_temperature`) | 3200 | 2800–4000 K | colour_and_grade, light |
+| Contrast (`contrast`) | 1.45 | 1.3–1.8 | colour_and_grade, post_processing |
+| Grain (`grain`) | 1600 | 400–3200 ISO | process, post_processing |
+| Focal length (`focal_length`) | 50 | 50–85 mm | lens_and_camera, composition |
+| Aspect ratio (`aspect_ratio`) | 3:4 | 3:4, 4:5, 16:9 | composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

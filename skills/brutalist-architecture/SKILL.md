@@ -171,6 +171,30 @@ Reference works:
 | Barbican Estate, London | Chamberlin, Powell and Bon | 1976 |
 | National Theatre, London | Denys Lasdun | 1976 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Board-marked concrete (material, invented here)
+
+Concrete cast in rough timber forms, so that the grain and the joints of the boards stay on the surface. Origin: architecture, Marseille, France, 1952.
+
+- Use sawn boards 100 to 150 mm wide for the formwork.
+- Leave the surface as it comes from the form: no paint and no plaster.
+- Let the board joints run in one direction on each wall.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 3.6 | 3–4.5 m | massing, facade |
+| Structural grid (`structural_grid`) | 5 | 3–7 m | structure |
+| Glazing ratio (`glazing_ratio`) | 25 | 20–40 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 0 | 0–3 deg | massing |
+| Base material (`base_material`) | concrete | concrete, brick | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

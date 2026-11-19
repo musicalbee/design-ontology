@@ -185,6 +185,18 @@ A long S-shaped line whose curve changes along its length, drawn from a plant st
 - Join letters, frame and plant forms with the same line; leave no straight edge to break the flow.
 - Use few colours, 2 to 4, in muted tones.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 3.6 | 3.2–4.2 m | massing, facade |
+| Structural grid (`structural_grid`) | 4.5 | 3–8 m | structure |
+| Glazing ratio (`glazing_ratio`) | 32 | 25–40 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 45 | 0–60 deg | massing |
+| Base material (`base_material`) | stone | stone, brick, steel | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

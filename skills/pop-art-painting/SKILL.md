@@ -178,6 +178,17 @@ One motif or one frame, repeated with small changes in a set of works, so that t
 - Keep the spacing between works equal to a fixed unit, such as 10 cm or one panel width.
 - Remove the hand: use a mechanical edge, a stencil or a plain lens.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #E3262E | #E3262E, #FFD700, #1E59C8, #F0489B | palette |
+| Value contrast (`value_contrast`) | 0.85 | 0.7–1 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 0 | 0–0.3 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 1:1 | 1:1, 4:5, 3:4 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

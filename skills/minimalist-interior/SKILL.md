@@ -240,6 +240,18 @@ A narrow recessed joint between two surfaces that casts a shadow, so that each s
 - Hold the gap at a constant width along its full length.
 - Use it where new meets old: between a wall and a ceiling, a floor and a skirting, or a new insert and a historic wall.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #F6F6F3 | #F6F6F3, #DCD5C8 | palette |
+| Accent colour (`accent_colour`) | #2B2B2B | #2B2B2B, #A39E96 | palette, textiles, objects |
+| Ceiling height (`ceiling_height`) | 3 | 2.7–4 m | composition, lighting |
+| Light temperature (`light_temperature`) | 3000 | 2700–4000 K | lighting |
+| Object density (`object_density`) | 0.05 | 0–0.15 | objects, furniture |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

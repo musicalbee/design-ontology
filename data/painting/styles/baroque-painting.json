@@ -109,6 +109,12 @@
       { "request": "lighter and looser", "toward": "impressionism", "how": "Keep the visible stroke and the observed light; raise the ground to a light value and move the shadows to cool violet." }
     ]
   },
+  "permutations": {
+    "key_colour": {"default": "#1B1410", "options": ["#1B1410", "#4A3022", "#A3202E", "#3B5B8C"]},
+    "value_contrast": {"default": 0.95, "min": 0.8, "max": 1.0, "note": "Tenebrism needs a near-black shadow against a bright light."},
+    "brush_size": {"default": 1.0, "min": 0.5, "max": 2},
+    "canvas_ratio": {"default": "3:4", "options": ["4:5", "3:4", "3:2"]}
+  },
   "sources": [
     { "title": "Wikidata Q37853 (Baroque)", "url": "https://www.wikidata.org/wiki/Q37853" },
     { "title": "Getty AAT 300021147 (Baroque)", "url": "https://vocab.getty.edu/page/aat/300021147" },

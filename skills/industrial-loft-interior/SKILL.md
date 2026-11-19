@@ -229,6 +229,38 @@ Reference works:
 | The Factory, New York | Andy Warhol | 1964 |
 | Loft Living (book) | Sharon Zukin | 1982 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Board-marked concrete (material)
+
+Concrete cast in rough timber forms, so that the grain and the joints of the boards stay on the surface. Origin: architecture, Marseille, France, 1952.
+
+- Use sawn boards 100 to 150 mm wide for the formwork.
+- Leave the surface as it comes from the form: no paint and no plaster.
+- Let the board joints run in one direction on each wall.
+
+### Exposed services (process)
+
+Ducts, pipes, stairs and cables stay in view on the outside or the ceiling, often colour-coded, so the building shows how it works. Origin: architecture, Paris, France, 1977.
+
+- Leave each duct, pipe and cable tray in view; paint them or leave them raw metal.
+- Give each system one colour: for example blue for air, green for water, yellow for electricity.
+- Keep the floor plate free; put the services on the facade or the ceiling.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #8D8A85 | #8D8A85, #8E4A35 | palette |
+| Accent colour (`accent_colour`) | #B4532A | #B4532A, #9A6A43 | palette, textiles, objects |
+| Ceiling height (`ceiling_height`) | 4 | 3.5–6 m | composition, lighting |
+| Light temperature (`light_temperature`) | 2700 | 2200–3000 K | lighting |
+| Object density (`object_density`) | 0.4 | 0.25–0.55 | objects, furniture |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
