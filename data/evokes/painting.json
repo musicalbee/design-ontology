@@ -1,0 +1,910 @@
+{
+  "$schema": "../../schema/evokes.schema.json",
+  "carrier": "style",
+  "domain": "painting",
+  "edges": {
+    "abstract-expressionism": [
+      {
+        "emotion": "awe",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:monumental"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "being-moved",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:emotional"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:energetic"
+            ]
+          }
+        ]
+      }
+    ],
+    "airbrush-surrealism": [
+      {
+        "emotion": "awe",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:dramatic"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "enchantment",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:dreamlike"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:electric"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:uncanny"
+            ]
+          }
+        ]
+      }
+    ],
+    "baroque-painting": [
+      {
+        "emotion": "awe",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:dramatic",
+              "keyword:solemn"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:intense"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "vitality",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:sensual"
+            ]
+          }
+        ]
+      }
+    ],
+    "colour-field-painting": [
+      {
+        "emotion": "beauty",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:luminous",
+              "keyword:pure"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:contemplative",
+              "keyword:open"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "fascination",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:immersive"
+            ]
+          }
+        ]
+      }
+    ],
+    "cubism-painting": [
+      {
+        "emotion": "confusion",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:fragmented"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "intellectual-challenge",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:analytical"
+            ]
+          }
+        ]
+      }
+    ],
+    "de-stijl-painting": [
+      {
+        "emotion": "beauty",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:pure"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "insight",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:rational"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:balanced"
+            ]
+          }
+        ]
+      }
+    ],
+    "expressionism-painting": [
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:tense",
+              "keyword:anxious"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:urgent"
+            ]
+          }
+        ]
+      }
+    ],
+    "fauvism": [
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:vivid",
+              "keyword:bold",
+              "keyword:saturated"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "strength": 0.3,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:joyful"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "vitality",
+        "strength": 0.3,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:wild"
+            ]
+          }
+        ]
+      }
+    ],
+    "futurism-painting": [
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:fast",
+              "keyword:loud",
+              "keyword:energetic",
+              "keyword:dynamic"
+            ]
+          }
+        ]
+      }
+    ],
+    "impressionism": [
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:airy",
+              "keyword:casual"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "beauty",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:luminous"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:joyful"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "mono-no-aware",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:fleeting"
+            ]
+          }
+        ]
+      }
+    ],
+    "mannerism-painting": [
+      {
+        "emotion": "beauty",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:elegant"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:tense"
+            ]
+          }
+        ]
+      }
+    ],
+    "nordic-national-romanticism-painting": [
+      {
+        "emotion": "awe",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:mythic"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "hygge",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:homely"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:quiet"
+            ]
+          }
+        ]
+      }
+    ],
+    "photorealism": [
+      {
+        "emotion": "humour",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:deadpan"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "interest",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:detailed"
+            ]
+          }
+        ]
+      }
+    ],
+    "pointillism": [
+      {
+        "emotion": "beauty",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:luminous"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "fascination",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:shimmering"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "insight",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:scientific"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:still"
+            ]
+          }
+        ]
+      }
+    ],
+    "pop-art-painting": [
+      {
+        "emotion": "humour",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:playful",
+              "keyword:ironic"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:bold"
+            ]
+          }
+        ]
+      }
+    ],
+    "post-impressionism": [
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:vivid"
+            ]
+          }
+        ]
+      }
+    ],
+    "realism-painting": [
+      {
+        "emotion": "insight",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:unsentimental"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "vitality",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:earthy"
+            ]
+          }
+        ]
+      }
+    ],
+    "renaissance-painting": [
+      {
+        "emotion": "beauty",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:ideal",
+              "keyword:harmonious"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:serene",
+              "keyword:balanced"
+            ]
+          }
+        ]
+      }
+    ],
+    "rococo-painting": [
+      {
+        "emotion": "humour",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:playful",
+              "keyword:frivolous"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "beauty",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:delicate"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "being-moved",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:romantic"
+            ]
+          }
+        ]
+      }
+    ],
+    "romanticism-painting": [
+      {
+        "emotion": "awe",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:sublime",
+              "keyword:vast"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "sadness",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:melancholic"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:stormy"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "being-moved",
+        "strength": 0.3,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:passionate"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "duende",
+        "strength": 0.3,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:passionate"
+            ]
+          }
+        ]
+      }
+    ],
+    "suprematism": [
+      {
+        "emotion": "beauty",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:pure"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "enchantment",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:weightless"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:silent"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "surprise",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:radical"
+            ]
+          }
+        ]
+      }
+    ],
+    "surrealism-painting": [
+      {
+        "emotion": "enchantment",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:dreamlike"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "fascination",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:enigmatic"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "surprise",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:strange"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:uncanny"
+            ]
+          }
+        ]
+      }
+    ],
+    "symbolism-painting": [
+      {
+        "emotion": "awe",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:mystical"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "enchantment",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:dreamlike"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "fascination",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:enigmatic"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:hushed"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "sadness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:melancholic"
+            ]
+          }
+        ]
+      }
+    ],
+    "ukiyo-e": [
+      {
+        "emotion": "beauty",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:elegant"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:rhythmic"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "mono-no-aware",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:fleeting"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

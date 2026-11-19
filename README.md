@@ -3024,6 +3024,15 @@ A style has people behind it. `data/people/` has one file for each person: the y
 
 The facts come from open data (Wikidata, Wikimedia Commons). The bios and milestones are our own words. Portraits are linked, not copied, and each one keeps its credit and its licence. When no open source gives a year of birth, the field is null: we do not guess.
 
+## Emotions
+
+A mood is the first thing a brief asks for and the last thing a style file says clearly. The emotions layer gives each mood one id and links it to the styles that carry it, with evidence.
+
+- [`data/emotions/`](data/emotions/) holds 30 terms. 21 are the subscales of AESTHEMOS, the Aesthetic Emotions Scale (Schindler et al., PLOS ONE 2017): beauty, fascination, being moved, awe, enchantment, nostalgia, joy, humour, vitality, energy, relaxation, surprise, interest, intellectual challenge, insight, ugliness, boredom, confusion, anger, uneasiness, sadness. 9 are culture words that other languages lack: hygge, koselig, wabi-sabi, mono no aware, yūgen, saudade, Sehnsucht, toska, duende.
+- Each term has a point in PAD space (pleasure, arousal, dominance; Mehrabian & Russell 1974), so an agent can move between moods. The PAD values are our own estimates and say so in `pad.source`.
+- [`data/evokes/`](data/evokes/) links styles to emotions, one file for each domain. Each edge has evidence of one kind: `measured` (a study with people), `stated` (an open source says it) or `inferred` (read from our own `emotion.keywords`). The first pass is all `inferred`. A sourced edge replaces it, and `npm run emotions:infer` keeps sourced edges when it runs again.
+- [`graph/emotions.json`](graph/emotions.json) ranks the carriers of each emotion by strength × evidence weight (measured 1, stated 0.7, inferred 0.3).
+
 ## Status
 
 Version 0.1. The schema can still change before 1.0. The seed styles are a first edition: the scores are editorial judgements, and a pull request with a better-argued score is welcome. Open an issue to disagree with a lineage edge. That argument is the purpose of the project.

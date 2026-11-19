@@ -175,3 +175,11 @@ The architecture domain is the worked example.
 ## Change to the schema or the compiler
 
 Open an issue first. A change to the schema changes each style file and each generated skill.
+
+## An emotion edge
+
+1. Find the style in `data/evokes/<domain>.json`. The schema is `schema/evokes.schema.json`.
+2. Add an evidence item to the edge: `{"kind": "stated", "claim": "<our own words>", "source": {"title": "...", "url": "https://..."}}`. Use `measured` only for a study with participants, and give the link to the study.
+3. If the emotion is not on the style yet, add a new edge. Use an id from `data/emotions/`.
+4. Do not delete the `inferred` item. The build ranks an edge by its best evidence.
+5. Run `npm run validate`.
