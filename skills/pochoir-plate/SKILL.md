@@ -183,7 +183,7 @@ Each item below has an open licence or is in the public domain, so you may show 
 - [George Barbier - Gazette du bon ton - Eros](https://commons.wikimedia.org/wiki/File:George_Barbier_-_Gazette_du_bon_ton_-_Eros.jpg) (George Barbier, 1924): image, Public domain. Wikimedia Commons (Museum of Fine Arts, Boston scan)
 - [George Barbier - Gazette du bon ton - Artémis](https://commons.wikimedia.org/wiki/File:George_Barbier_-_Gazette_du_bon_ton_-_Art%C3%A9mis.jpg) (George Barbier, 1924): image, Public domain. Wikimedia Commons (Museum of Fine Arts, Boston scan)
 - [George Barbier - Gazette du bon ton - Symphonie automnale](https://commons.wikimedia.org/wiki/File:George_Barbier_-_Gazette_du_bon_ton_-_Symphonie_automnale.jpg) (George Barbier, 1922): image, Public domain. Wikimedia Commons (Museum of Fine Arts, Boston scan)
-- [Blouse japonais, from Costumes Parisiens MET DP832875](https://commons.wikimedia.org/wiki/File:Blouse_japonais,_from_Costumes_Parisiens_MET_DP832875.jpg): image, CC0. Wikimedia Commons (Met Open Access, CC0)
+- [Blouse japonais, from Costumes Parisiens](https://commons.wikimedia.org/wiki/File:Blouse_japonais,_from_Costumes_Parisiens_MET_DP832875.jpg) (George Barbier, 1913): image, CC0. Wikimedia Commons (Met Open Access, CC0)
 
 ## Sources
 

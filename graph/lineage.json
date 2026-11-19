@@ -3270,7 +3270,7 @@
       "domain": "print",
       "name": "Woodcut relief print",
       "era": "hand-press",
-      "start": 1460,
+      "start": 1400,
       "end": 1600,
       "vectors": {
         "tone_method": 2,
@@ -3285,7 +3285,7 @@
       "domain": "print",
       "name": "Copper engraving",
       "era": "hand-press",
-      "start": 1470,
+      "start": 1430,
       "end": 1800,
       "vectors": {
         "tone_method": 3,
@@ -8528,15 +8528,6 @@
           "styles": []
         },
         {
-          "domain": "print",
-          "year": 1896,
-          "circa": false,
-          "lag_years": 17,
-          "styles": [
-            "ben-day-comic-print"
-          ]
-        },
-        {
           "domain": "painting",
           "year": 1961,
           "circa": false,
@@ -8575,7 +8566,6 @@
         "pop-art-web",
         "punk-zine",
         "duotone-icon",
-        "ben-day-comic-print",
         "pop-screen-print"
       ]
     },
@@ -9688,6 +9678,30 @@
       ]
     },
     {
+      "id": "photocopy",
+      "name": "Photocopy",
+      "kind": "technology",
+      "origin": {
+        "domain": "print",
+        "year": 1959,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "print",
+          "year": 1976,
+          "circa": false,
+          "lag_years": 17,
+          "styles": [
+            "xerox-zine"
+          ]
+        }
+      ],
+      "styles": [
+        "xerox-zine"
+      ]
+    },
+    {
       "id": "photomontage",
       "name": "Photomontage",
       "kind": "montage",
@@ -9722,15 +9736,6 @@
           "lag_years": 58,
           "styles": [
             "punk-zine"
-          ]
-        },
-        {
-          "domain": "print",
-          "year": 1976,
-          "circa": false,
-          "lag_years": 58,
-          "styles": [
-            "xerox-zine"
           ]
         },
         {
@@ -9778,8 +9783,7 @@
         "grunge-editorial",
         "surrealism-web",
         "anti-design",
-        "scrapbook-ui",
-        "xerox-zine"
+        "scrapbook-ui"
       ]
     },
     {
@@ -18712,7 +18716,6 @@
         }
       ],
       "techniques": [
-        "halftone",
         "letterpress"
       ]
     },
@@ -18846,7 +18849,7 @@
         }
       ],
       "techniques": [
-        "photomontage"
+        "photocopy"
       ]
     },
     "risograph-print": {

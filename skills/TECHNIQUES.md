@@ -92,13 +92,12 @@ Fragments of photographs, cut and joined on one sheet, so that the joins make a 
 | 1 | Graphic & UI Design | 1924 | +6 years | Alexander Rodchenko and El Lissitzky use photomontage in Constructivist posters and books. | [`constructivism-web`](./constructivism-web/SKILL.md) |
 | 2 | Film & Video | 1925 | +7 years | Sergei Eisenstein carries the collision of fragments into the cut of Strike and Battleship Potemkin. | [`soviet-montage`](./soviet-montage/SKILL.md) |
 | 3 | Graphic & UI Design | 1976 | +58 years | Punk zines and record sleeves cut up newspapers with scissors and glue. | [`punk-zine`](./punk-zine/SKILL.md) |
-| 4 | Print | 1976 | +58 years | Mark Perry pastes up Sniffin' Glue from typewriter text, felt-tip headings and press photos, and copies it on a photocopier. | [`xerox-zine`](./xerox-zine/SKILL.md) |
-| 5 | Graphic & UI Design | c. 1990 | +72 years | Photoshop makes the cut and the layer digital; early cyberculture prints dense photo-illustration. | [`cyberdelia`](./cyberdelia/SKILL.md) |
-| 6 | Graphic & UI Design | c. 2012 | +94 years | Designers cut photographs of objects and clouds into collage scenes, in the line of the Surrealist collages of Max Ernst. | [`surrealism-web`](./surrealism-web/SKILL.md) |
-| 7 | Graphic & UI Design | c. 2016 | +98 years | Anti-design sites overlap cut images and text blocks across a broken grid. | [`anti-design`](./anti-design/SKILL.md) |
-| 8 | Graphic & UI Design | c. 2018 | +100 years | Scrapbook interfaces lay cut photographs, tape and stickers over each other, as on the page of an album. | [`scrapbook-ui`](./scrapbook-ui/SKILL.md) |
+| 4 | Graphic & UI Design | c. 1990 | +72 years | Photoshop makes the cut and the layer digital; early cyberculture prints dense photo-illustration. | [`cyberdelia`](./cyberdelia/SKILL.md) |
+| 5 | Graphic & UI Design | c. 2012 | +94 years | Designers cut photographs of objects and clouds into collage scenes, in the line of the Surrealist collages of Max Ernst. | [`surrealism-web`](./surrealism-web/SKILL.md) |
+| 6 | Graphic & UI Design | c. 2016 | +98 years | Anti-design sites overlap cut images and text blocks across a broken grid. | [`anti-design`](./anti-design/SKILL.md) |
+| 7 | Graphic & UI Design | c. 2018 | +100 years | Scrapbook interfaces lay cut photographs, tape and stickers over each other, as on the page of an album. | [`scrapbook-ui`](./scrapbook-ui/SKILL.md) |
 
-Used by: [`constructivism-web`](./constructivism-web/SKILL.md), [`soviet-montage`](./soviet-montage/SKILL.md), [`punk-zine`](./punk-zine/SKILL.md), [`cyberdelia`](./cyberdelia/SKILL.md), [`grunge-editorial`](./grunge-editorial/SKILL.md), [`surrealism-web`](./surrealism-web/SKILL.md), [`anti-design`](./anti-design/SKILL.md), [`scrapbook-ui`](./scrapbook-ui/SKILL.md), [`xerox-zine`](./xerox-zine/SKILL.md).
+Used by: [`constructivism-web`](./constructivism-web/SKILL.md), [`soviet-montage`](./soviet-montage/SKILL.md), [`punk-zine`](./punk-zine/SKILL.md), [`cyberdelia`](./cyberdelia/SKILL.md), [`grunge-editorial`](./grunge-editorial/SKILL.md), [`surrealism-web`](./surrealism-web/SKILL.md), [`anti-design`](./anti-design/SKILL.md), [`scrapbook-ui`](./scrapbook-ui/SKILL.md).
 
 - Join 3 to 12 photographic fragments on one ground and keep the cut edges hard and visible.
 - Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.
@@ -862,7 +861,7 @@ An intaglio print from a metal plate whose lines a needle draws through an acid-
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Print | 1513 | — | Basel: Urs Graf makes the first dated etching on an iron plate; armourers used acid to decorate metal before this. | |
+| Origin | Print | 1513 | — | Basel: Urs Graf makes the first dated etching, on an iron plate. Daniel Hopfer etched prints from about 1500, and armourers used acid to decorate metal before that. | |
 | 1 | Painting | c. 1630 | +117 years | Rembrandt etches portraits, scenes and landscapes beside his painting and makes the etching a painter's medium. | [`baroque-painting`](./baroque-painting/SKILL.md) |
 
 Used by: [`etching-print`](./etching-print/SKILL.md), [`baroque-painting`](./baroque-painting/SKILL.md).
@@ -978,13 +977,12 @@ Tone printed as dots of different size or spacing; at a distance the dots merge 
 |---|---|---|---|---|---|
 | Origin | Graphic & UI Design | 1879 | — | New York: Benjamin Day patents a mechanical tint of dots for printers; photographic halftone screens follow in the 1880s. | |
 | 1 | Photography | 1880 | +1 years | The Daily Graphic of New York prints a photograph as a halftone. |  |
-| 2 | Print | 1896 | +17 years | The New York Sunday supplements print The Yellow Kid in colour, with Ben-Day tints laid in on the colour plates. | [`ben-day-comic-print`](./ben-day-comic-print/SKILL.md) |
-| 3 | Painting | 1961 | +82 years | Roy Lichtenstein paints enlarged Ben-Day dots by hand in Look Mickey. |  |
-| 4 | Print | 1962 | +83 years | Andy Warhol has photographs made into halftone screens and pulls them over hand-cut flat colour. | [`pop-screen-print`](./pop-screen-print/SKILL.md) |
-| 5 | Graphic & UI Design | c. 1976 | +97 years | Punk zines photocopy halftones until the dots break up. | [`punk-zine`](./punk-zine/SKILL.md) |
-| 6 | Icons | 2019 | +140 years | Duotone icon sets print each glyph in two tones of one hue, as a two-screen duotone does in print. | [`duotone-icon`](./duotone-icon/SKILL.md) |
+| 2 | Painting | 1961 | +82 years | Roy Lichtenstein paints enlarged Ben-Day dots by hand in Look Mickey. |  |
+| 3 | Print | 1962 | +83 years | Andy Warhol has photographs made into halftone screens and pulls them over hand-cut flat colour. | [`pop-screen-print`](./pop-screen-print/SKILL.md) |
+| 4 | Graphic & UI Design | c. 1976 | +97 years | Punk zines photocopy halftones until the dots break up. | [`punk-zine`](./punk-zine/SKILL.md) |
+| 5 | Icons | 2019 | +140 years | Duotone icon sets print each glyph in two tones of one hue, as a two-screen duotone does in print. | [`duotone-icon`](./duotone-icon/SKILL.md) |
 
-Used by: [`pop-art-web`](./pop-art-web/SKILL.md), [`punk-zine`](./punk-zine/SKILL.md), [`duotone-icon`](./duotone-icon/SKILL.md), [`ben-day-comic-print`](./ben-day-comic-print/SKILL.md), [`pop-screen-print`](./pop-screen-print/SKILL.md).
+Used by: [`pop-art-web`](./pop-art-web/SKILL.md), [`punk-zine`](./punk-zine/SKILL.md), [`duotone-icon`](./duotone-icon/SKILL.md), [`pop-screen-print`](./pop-screen-print/SKILL.md).
 
 - Set the screen at 10 to 30 lines per cm for a print grain, or enlarge the dots to 4 to 8mm for a Pop effect.
 - Turn each colour screen to its own angle: cyan 15°, magenta 75°, yellow 0°, black 45°.
@@ -1100,7 +1098,7 @@ An intaglio tone process: a rocker roughens the whole plate to a black, and the 
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Print | 1642 | — | Amsterdam: Ludwig von Siegen makes a portrait of Amalie Elisabeth of Hanau-Münzenberg in the new tone process. | |
+| Origin | Print | 1642 | — | Amsterdam: Ludwig von Siegen makes a portrait of Amalia Elisabeth, Landgravine of Hesse-Kassel in the new tone process. | |
 | 1 | Print | c. 1770 | +128 years | London engravers such as John Raphael Smith and Valentine Green reproduce the portraits of Reynolds and Gainsborough, and Europe calls it the English manner. | [`mezzotint-print`](./mezzotint-print/SKILL.md) |
 
 Used by: [`mezzotint-print`](./mezzotint-print/SKILL.md).
@@ -1634,7 +1632,7 @@ Colour put on by hand through a set of cut stencils, one for each colour, over a
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Print | 1908 | — | Paris: Paul Iribe's album Les Robes de Paul Poiret is coloured by hand through stencils, and Paris fashion takes up the method. | |
+| Origin | Print | 1908 | — | Paris: Paul Iribe's album Les Robes de Paul Poiret is coloured by hand through stencils, and Paris fashion takes up the method. This is a landmark, not the first use: André Marty and Jean Saudé ran stencil studios in the 1890s. | |
 | 1 | Print | 1912 | +4 years | Lucien Vogel launches the Gazette du Bon Ton, with plates by Barbier, Lepape and Martin coloured in pochoir. | [`pochoir-plate`](./pochoir-plate/SKILL.md) |
 
 Used by: [`pochoir-plate`](./pochoir-plate/SKILL.md).
@@ -1772,6 +1770,24 @@ Used by: [`parametricism-architecture`](./parametricism-architecture/SKILL.md).
 - Keep the curvature continuous between the surfaces.
 
 Sources: Patrik Schumacher, The Autopoiesis of Architecture (2011).
+
+### Photocopy
+
+An office copier makes a print with toner on plain paper from a paste-up, with no plate and no press.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Print | 1959 | — | Rochester, New York: Xerox sells the 914, the first automatic plain-paper office copier. | |
+| 1 | Print | 1976 | +17 years | Mark Perry copies the paste-ups of Sniffin' Glue on an office copier, and punk zines follow. | [`xerox-zine`](./xerox-zine/SKILL.md) |
+
+Used by: [`xerox-zine`](./xerox-zine/SKILL.md).
+
+- Paste up the page from typed text, hand lettering and cut pictures on one sheet.
+- Copy the paste-up; copy the copy to push the contrast and to lose the mid-tones.
+- Accept the toner speckle, the black edges of the cut paper and the grey of the glass.
+- Fold and staple the copies by hand.
+
+Sources: [Wikipedia: Photocopier](https://en.wikipedia.org/wiki/Photocopier); [Wikipedia: Xerox 914](https://en.wikipedia.org/wiki/Xerox_914).
 
 ### Phototypesetting
 

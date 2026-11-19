@@ -185,10 +185,9 @@ Intimacy and atmosphere: the viewer sees the hand of the artist, and the darks f
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [The Hundred Guilder Print](https://www.artic.edu/artworks/13094) (Rembrandt van Rijn, 1643): image, CC0. The Art Institute of Chicago, Public Domain (CC0)
 - [The Hundred Guilder Print](https://www.metmuseum.org/art/collection/search/371732) (Rembrandt (Rembrandt van Rijn), 1648): image, CC0. The Metropolitan Museum of Art, Open Access
-- [The Hanging, plate eleven from The Miseries of War](https://www.artic.edu/artworks/23112) (Jacques Callot, 1633): image, CC0. The Art Institute of Chicago, Public Domain (CC0)
-- [Destruction of a Convent, plate six from The Miseries of War](https://www.artic.edu/artworks/23095) (Jacques Callot, 1633): image, CC0. The Art Institute of Chicago, Public Domain (CC0)
+- [The Hanging, plate 11 from The Miseries and Misfortunes of War](https://www.metmuseum.org/art/collection/search/420819) (Jacques Callot, 1633): image, CC0. The Metropolitan Museum of Art, Open Access
+- [Frontispiece, plate 1 from The Miseries and Misfortunes of War](https://www.metmuseum.org/art/collection/search/420753) (Jacques Callot, 1633): image, CC0. The Metropolitan Museum of Art, Open Access
 
 ## Sources
 

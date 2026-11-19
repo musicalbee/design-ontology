@@ -127,13 +127,14 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
 
-### Photomontage (montage)
+### Photocopy (technology)
 
-Fragments of photographs, cut and joined on one sheet, so that the joins make a statement that no single photograph makes. Origin: graphic & ui design, Berlin, 1918.
+An office copier makes a print with toner on plain paper from a paste-up, with no plate and no press. Origin: print, Rochester, New York, 1959.
 
-- Join 3 to 12 photographic fragments on one ground and keep the cut edges hard and visible.
-- Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.
-- Set type as one more fragment, turned 0° to 30°, in the same stack of layers.
+- Paste up the page from typed text, hand lettering and cut pictures on one sheet.
+- Copy the paste-up; copy the copy to push the contrast and to lose the mid-tones.
+- Accept the toner speckle, the black edges of the cut paper and the grey of the glass.
+- Fold and staple the copies by hand.
 
 ## Media
 
@@ -175,9 +176,9 @@ Raw urgency: the reader feels anger, humour and a voice that nobody edited.
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [A Selection of UK Punk Fanzines](https://commons.wikimedia.org/wiki/File:A_Selection_of_UK_Punk_Fanzines.jpg) (Various UK punk fanzines; photo by Dgnews, 1977): image, CC0. Wikimedia Commons (own work, Dgnews)
-- [SF punk zines at Prelinger Library](https://commons.wikimedia.org/wiki/File:SF_punk_zines_at_Prelinger_Library.jpg) (Various zines; photo by Lindsay Eyink, 1980): image, CC BY 2.0. Wikimedia Commons (Flickr, Lindsay Eyink)
-- [1970s fanzines (21224199545)](https://commons.wikimedia.org/wiki/File:1970s_fanzines_(21224199545).jpg) (Various fanzines; photo by Jake from Manchester, UK, 1975): image, CC BY 2.0. Wikimedia Commons (Jake from Manchester, UK)
+- [A Selection of UK Punk Fanzines](https://commons.wikimedia.org/wiki/File:A_Selection_of_UK_Punk_Fanzines.jpg) (Various UK punk fanzines; photo by Dgnews, 1977): image, CC0. Photograph of the zines, Wikimedia Commons (own work, Dgnews). The licence covers the photograph, not the zines.
+- [SF punk zines at Prelinger Library](https://commons.wikimedia.org/wiki/File:SF_punk_zines_at_Prelinger_Library.jpg) (Various zines; photo by Lindsay Eyink, 1980): image, CC BY 2.0. Photograph of the zines, Wikimedia Commons (Flickr, Lindsay Eyink). The licence covers the photograph, not the zines.
+- [1970s fanzines (21224199545)](https://commons.wikimedia.org/wiki/File:1970s_fanzines_(21224199545).jpg) (Various fanzines; photo by Jake from Manchester, UK, 1975): image, CC BY 2.0. Photograph of the zines, Wikimedia Commons (Jake from Manchester, UK). The licence covers the photograph, not the zines.
 
 ## Sources
 

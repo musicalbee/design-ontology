@@ -140,13 +140,6 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
 
-### Halftone (process)
-
-Tone printed as dots of different size or spacing; at a distance the dots merge into grey or colour. Origin: graphic & ui design, New York, 1879.
-
-- Set the screen at 10 to 30 lines per cm for a print grain, or enlarge the dots to 4 to 8mm for a Pop effect.
-- Turn each colour screen to its own angle: cyan 15°, magenta 75°, yellow 0°, black 45°.
-
 ### Letterpress (process)
 
 Printing from raised metal or wood type and blocks, locked in a forme and pressed into the paper. Origin: typeface, Mainz, 1454.
@@ -196,9 +189,9 @@ Fun and nostalgia: the viewer feels a cheap, bright thrill from a childhood comi
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [PepComicNo71pp35](https://commons.wikimedia.org/wiki/File:PepComicNo71pp35.png) (Joe Edwards, 1949): image, Public domain. Wikimedia Commons (Comic Book Plus scan)
-- [Famous Funnies 90](https://commons.wikimedia.org/wiki/File:Famous_Funnies_90.jpg) (Will Rowland (cover), 1942): image, Public domain. Wikimedia Commons (Comic Book Plus scan)
-- [FamousFunniesNo214](https://commons.wikimedia.org/wiki/File:FamousFunniesNo214.jpg) (Frank Frazetta (cover), 1954): image, Public domain. Wikimedia Commons (Comic Book Plus scan)
+- [PepComicNo71pp35](https://commons.wikimedia.org/wiki/File:PepComicNo71pp35.png) (Joe Edwards, 1949): image, Public domain. Wikimedia Commons (Comic Book Plus scan). Public domain in the US because the copyright was not renewed (PD-US-no-renewal).
+- [Famous Funnies 90](https://commons.wikimedia.org/wiki/File:Famous_Funnies_90.jpg) (Will Rowland (cover), 1942): image, Public domain. Wikimedia Commons (Comic Book Plus scan). Public domain in the US because the copyright was not renewed (PD-US-no-renewal).
+- [FamousFunniesNo214](https://commons.wikimedia.org/wiki/File:FamousFunniesNo214.jpg) (Frank Frazetta (cover), 1954): image, Public domain. Wikimedia Commons (Comic Book Plus scan). Public domain in the US because the copyright was not renewed (PD-US-no-renewal).
 
 ## Sources
 

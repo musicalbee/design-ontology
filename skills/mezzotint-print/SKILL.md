@@ -177,7 +177,7 @@ Each item below has an open licence or is in the public domain, so you may show 
 
 - [The Weird Sisters (Shakespeare, MacBeth, Act 1, Scene 3)](https://www.metmuseum.org/art/collection/search/395662) (John Raphael Smith, 1785): image, CC0. The Metropolitan Museum of Art, Open Access
 - [General Washington](https://www.metmuseum.org/art/collection/search/893955) (Valentine Green, 1781): image, CC0. The Metropolitan Museum of Art, Open Access
-- [Amelia Elizabeth, Landgravine of Hesse](https://www.metmuseum.org/art/collection/search/360392) (Ludwig von Siegen, 1643): image, CC0. The Metropolitan Museum of Art, Open Access
+- [Amelia Elizabeth, Landgravine of Hesse](https://www.metmuseum.org/art/collection/search/360392) (Ludwig von Siegen, 1642): image, CC0. The Metropolitan Museum of Art, Open Access
 
 ## Sources
 

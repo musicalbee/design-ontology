@@ -198,7 +198,6 @@ Each item below has an open licence or is in the public domain, so you may show 
 - [Kelmscott chaucer](https://commons.wikimedia.org/wiki/File:Kelmscott_chaucer.jpg) (William Morris, Kelmscott Press, 1896): image, Public domain. Wikimedia Commons (University of New Hampshire special collections scan)
 - [Houghton Typ 805K.96.275 - Works of Geoffrey Chaucer, 1896 - pg. 483](https://commons.wikimedia.org/wiki/File:Houghton_Typ_805K.96.275_-_Works_of_Geoffrey_Chaucer,_1896_-_pg._483.jpg) (William Morris, Kelmscott Press, 1896): image, Public domain. Wikimedia Commons (Houghton Library, Harvard)
 - [DovesPressBible](https://commons.wikimedia.org/wiki/File:DovesPressBible.jpg) (T. J. Cobden-Sanderson and Emery Walker, Doves Press, 1902): image, Public domain. Wikimedia Commons (Flickr photo of the Doves Press Bible)
-- [The Works of Geoffrey Chaucer Now Newly Imprinted](https://www.artic.edu/artworks/271552) (William Morris, 1896): image, CC0. The Art Institute of Chicago, Public Domain (CC0)
 
 ## Sources
 

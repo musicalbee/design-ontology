@@ -182,7 +182,7 @@ Altered perception: the viewer feels the colours move and is drawn into a puzzle
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [1967 Mantra-Rock Dance Avalon poster](https://commons.wikimedia.org/wiki/File:1967_Mantra-Rock_Dance_Avalon_poster.jpg) (Unknown designer; photographed by Harvey W. Cohen, 1967): image, CC BY-SA 3.0. Wikimedia Commons (Harvey W. Cohen)
+- [1967 Mantra-Rock Dance Avalon poster](https://commons.wikimedia.org/wiki/File:1967_Mantra-Rock_Dance_Avalon_poster.jpg) (Unknown designer; photographed by Harvey W. Cohen, 1967): image, CC BY-SA 3.0. Photograph of the poster by Harvey W. Cohen, Wikimedia Commons. The licence covers the photograph, not the poster.
 
 ## Sources
 

@@ -1,6 +1,6 @@
 ---
 name: engraving-print
-description: "Apply the Copper engraving style (1470s–1800) when specifying, prompting or art-directing a printed piece or its look on screen: a poster, a plate, a book page, a zine, a label or a print-look illustration. Load when the user asks for: engraving, copper engraving, line engraving, banknote engraving, old master print, burin."
+description: "Apply the Copper engraving style (1430s–1800) when specifying, prompting or art-directing a printed piece or its look on screen: a poster, a plate, a book page, a zine, a label or a print-look illustration. Load when the user asks for: engraving, copper engraving, line engraving, banknote engraving, old master print, burin."
 domain: print
 era: hand-press
 triggers:
@@ -26,7 +26,7 @@ vector_profile:
 
 A picture cut into a copper plate with a burin, inked into the grooves and printed under great pressure. Schongauer and Dürer made it an art; Goltzius made the swelling line a show of skill; for three centuries it reproduced paintings and maps.
 
-**Period:** 1470s–1800 · **Era:** Hand press · **Domain:** Print · **Also called:** Line engraving, Burin engraving, Kupferstich, Intaglio engraving
+**Period:** 1430s–1800 · **Era:** Hand press · **Domain:** Print · **Also called:** Line engraving, Burin engraving, Kupferstich, Intaglio engraving
 
 ## When to load this skill
 
@@ -187,7 +187,6 @@ Each item below has an open licence or is in the public domain, so you may show 
 
 - [Melencolia I](https://www.metmuseum.org/art/collection/search/336228) (Albrecht Dürer, 1514): image, CC0. The Metropolitan Museum of Art, Open Access
 - [Ecce Homo, from "The Passion of Christ"](https://www.metmuseum.org/art/collection/search/398213) (Hendrick Goltzius, 1597): image, CC0. The Metropolitan Museum of Art, Open Access
-- [The Standard Bearer, Turned to Left](https://www.artic.edu/artworks/80745) (Hendrick Goltzius, 1587): image, CC0. The Art Institute of Chicago, Public Domain (CC0)
 
 ## Sources
 

@@ -1,6 +1,6 @@
 ---
 name: woodcut-relief-print
-description: "Apply the Woodcut relief print style (1460s–1600s) when specifying, prompting or art-directing a printed piece or its look on screen: a poster, a plate, a book page, a zine, a label or a print-look illustration. Load when the user asks for: woodcut, old woodcut, medieval print, dürer style, nuremberg chronicle, block print illustration."
+description: "Apply the Woodcut relief print style (c.1400–1600s) when specifying, prompting or art-directing a printed piece or its look on screen: a poster, a plate, a book page, a zine, a label or a print-look illustration. Load when the user asks for: woodcut, old woodcut, medieval print, dürer style, nuremberg chronicle, block print illustration."
 domain: print
 era: hand-press
 triggers:
@@ -26,7 +26,7 @@ vector_profile:
 
 A picture cut into the side grain of a plank: the cutter leaves the lines standing and the press prints them black. In Nuremberg, Wolgemut and Dürer made the cut carry tone with parallel and crossed lines, so one block printed with the type of a book.
 
-**Period:** 1460s–1600s · **Era:** Hand press · **Domain:** Print · **Also called:** Woodcut, Holzschnitt, Black-line woodcut, Block book cut
+**Period:** c.1400–1600s · **Era:** Hand press · **Domain:** Print · **Also called:** Woodcut, Holzschnitt, Black-line woodcut, Block book cut
 
 ## When to load this skill
 
@@ -190,7 +190,6 @@ Each item below has an open licence or is in the public domain, so you may show 
 - [Four Horsemen of the Apocalypse, from "The Apocalypse"](https://www.metmuseum.org/art/collection/search/397057) (Albrecht Dürer, 1498): image, CC0. The Metropolitan Museum of Art, Open Access
 - [Saint Michael Fighting the Dragon, from "The Apocalypse"](https://www.metmuseum.org/art/collection/search/360117) (Albrecht Dürer, 1498): image, CC0. The Metropolitan Museum of Art, Open Access
 - [Dance of Death, leaf from "The Nuremberg Chronicle"](https://www.metmuseum.org/art/collection/search/390220) (Michael Wolgemut, 1493): image, CC0. The Metropolitan Museum of Art, Open Access
-- [Image of Death (Imago Mortis), from the Nuremberg Chronicle](https://www.artic.edu/artworks/51535) (Michel Wolgemut, 1488): image, CC0. The Art Institute of Chicago, Public Domain (CC0)
 
 ## Sources
 

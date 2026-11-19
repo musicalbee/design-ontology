@@ -189,7 +189,7 @@ Each item below has an open licence or is in the public domain, so you may show 
 
 - [Broadside warning re John Brown's hanging](https://commons.wikimedia.org/wiki/File:Broadside_warning_re_John_Brown%27s_hanging.jpg) (Unknown printer (broadside), 1859): image, Public domain. Wikimedia Commons (West Virginia Archives and History exhibit scan)
 - [Fugitive Slave Law warning poster, Boston, 1851](https://commons.wikimedia.org/wiki/File:Fugitive_Slave_Law_warning_poster,_Boston_African_American_National_Historic_Site,_1851._(e9414990d8d040e9b4242985516987e1).jpg) (Committee of Vigilance and Safety, Boston (broadside), 1851): image, Public domain. Wikimedia Commons (National Park Service, Boston African American NHS)
-- [The man is not bought! Broadside, Boston, 1854](https://commons.wikimedia.org/wiki/File:The_man_is_not_bought!_He_is_still_in_the_slave_pen_in_the_courthouse!_..._(7645375374).jpg) (Unknown printer (broadside), 1850): image, Public domain. Wikimedia Commons (Boston Public Library)
+- [The man is not bought! Broadside, Boston, 1854](https://commons.wikimedia.org/wiki/File:The_man_is_not_bought!_He_is_still_in_the_slave_pen_in_the_courthouse!_..._(7645375374).jpg) (Unknown printer (broadside), 1854): image, Public domain. Wikimedia Commons (Boston Public Library)
 
 ## Sources
 

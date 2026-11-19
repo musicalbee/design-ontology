@@ -24,7 +24,7 @@ vector_profile:
 
 > A few bright inks, drawn by the artist on stone, can make a sheet on a wall as bright and as alive as a painting.
 
-A large poster drawn in crayon and brush on stones, one stone for each colour. Jules Chéret printed his first colour posters in Paris in 1866 with a few strong inks; Mucha, Toulouse-Lautrec and the Beggarstaffs made the street a gallery.
+A large poster drawn in crayon and brush on stones, one stone for each colour. Jules Chéret opened his own press in Paris in 1866 and printed colour posters with a few strong inks; Mucha, Toulouse-Lautrec and the Beggarstaffs made the street a gallery.
 
 **Period:** 1866–1914 · **Era:** Industrial press · **Domain:** Print · **Also called:** Belle Époque poster, Affiche illustrée, Colour lithograph poster, Chéret poster
 
@@ -145,7 +145,7 @@ A print from a flat stone or plate on which a greasy drawing takes ink and water
 
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.
 
-- **Imprimerie Chaix** (workshop, Paris, 1845–1965), made the style. A Paris printing works that Napoléon Chaix founded. From 1881 it printed the colour posters of Jules Chéret, its artistic director.
+- **Imprimerie Chaix** (workshop, Paris, 1845–1981), made the style. A Paris printing works that Napoléon Chaix founded. From 1881 it printed the colour posters of Jules Chéret, its artistic director. It merged with Desfossé-Néogravure in 1965, and the Saint-Ouen works were sold in 1981.
 
 ## Permutations
 
@@ -182,10 +182,10 @@ Joy and spectacle: the viewer feels the pleasure of the city at night, a café o
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Saxoleine](https://www.artic.edu/artworks/218855) (Jules Chéret, 1893): image, CC0. The Art Institute of Chicago, Public Domain (CC0)
-- [Palais de Glace](https://www.artic.edu/artworks/218856) (Jules Chéret, 1891): image, CC0. The Art Institute of Chicago, Public Domain (CC0)
-- [The Seasons](https://www.artic.edu/artworks/97439) (Alphonse Marie Mucha, 1897): image, CC0. The Art Institute of Chicago, Public Domain (CC0)
-- [La Samaritaine](https://www.artic.edu/artworks/16907) (Alphonse Marie Mucha, 1897): image, CC0. The Art Institute of Chicago, Public Domain (CC0)
+- [Poster for La Vie parisienne](https://commons.wikimedia.org/wiki/File:Jules_Ch%C3%A9ret_-_Poster_for_Jacques_Offenbach%27s_La_Vie_parisienne_(1866).jpg) (Jules Chéret, 1866): image, Public domain. Wikimedia Commons
+- [Poster for Polyeucte](https://commons.wikimedia.org/wiki/File:Poster_for_the_premi%C3%A8re_production_of_Charles_Gounod%27s_Polyeucte_by_Jules_Ch%C3%A9ret.jpg) (Jules Chéret, 1878): image, Public domain. Wikimedia Commons
+- [Advertisement for Job cigarette paper](https://commons.wikimedia.org/wiki/File:Alphonse_Mucha_-_Advertisment_for_Job_cigarettes,_1896.jpg) (Alphonse Mucha, 1896): image, Public domain. Wikimedia Commons
+- [Poster for Gismonda](https://commons.wikimedia.org/wiki/File:Alphonse_Mucha_-_Poster_for_Victorien_Sardou%27s_Gismonda_starring_Sarah_Bernhardt.jpg) (Alphonse Mucha, 1894): image, Public domain. Wikimedia Commons
 
 ## Sources
 
