@@ -5,6 +5,34 @@
   "edges": {
     "american-pocket-watch": [
       {
+        "emotion": "nostalgia",
+        "strength": 0.8,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "A collector says he loves to hold a tangible piece of history and is amazed that a watch made long ago still runs.",
+            "source": {
+              "title": "Pocket watch collector Barry Goldberg, Collectors Weekly",
+              "url": "https://www.collectorsweekly.com/articles/guest-column-an-interview-with-antique-pocket-watch-collector-barry-s-goldberg/"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "fascination",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The same collector says the workmanship of old watches amazed him and drew him in.",
+            "source": {
+              "title": "Pocket watch collector Barry Goldberg, Collectors Weekly",
+              "url": "https://www.collectorsweekly.com/articles/guest-column-an-interview-with-antique-pocket-watch-collector-barry-s-goldberg/"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "insight",
         "strength": 1,
         "evidence": [
@@ -27,11 +55,67 @@
             "basis": [
               "keyword:worn-in"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "A fashion history says the jeans carry an image of American cool, rebellion, authenticity and a revered place in the national wardrobe.",
+            "source": {
+              "title": "Levi's history, Grailed",
+              "url": "https://www.grailed.com/drycleanonly/levis-history"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 0.4,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The same history says film made the jeans the choice of outlaws and outcasts, a symbol of rebellion and freedom.",
+            "source": {
+              "title": "Levi's history, Grailed",
+              "url": "https://www.grailed.com/drycleanonly/levis-history"
+            }
           }
         ]
       }
     ],
     "art-deco-dance-shoe": [
+      {
+        "emotion": "joy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:lively"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "A blog on 1920s evening shoes calls the fashion of the era glamorous and fun, made for clubs and dancing.",
+            "source": {
+              "title": "1920s shoes and their history, American Duchess",
+              "url": "https://blog.americanduchess.com/2022/11/glamorous-1920s-shoes-and-the-history-behind-them.html"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Art Deco stands for luxury, glamour and exuberance, with a burst of colour at its start.",
+            "source": {
+              "title": "Art Deco, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Art_Deco"
+            }
+          }
+        ]
+      },
       {
         "emotion": "beauty",
         "strength": 1,
@@ -55,18 +139,6 @@
             ]
           }
         ]
-      },
-      {
-        "emotion": "joy",
-        "strength": 1,
-        "evidence": [
-          {
-            "kind": "inferred",
-            "basis": [
-              "keyword:lively"
-            ]
-          }
-        ]
       }
     ],
     "art-deco-evening-accessory": [
@@ -79,11 +151,61 @@
             "basis": [
               "keyword:glamorous"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Art Deco stands for luxury and glamour, with rare materials and fine craft that make evening accessories look precious.",
+            "source": {
+              "title": "Art Deco, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Art_Deco"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "fascination",
+        "strength": 0.4,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The article says Art Deco came from a passion for new machines and an explosion of colour.",
+            "source": {
+              "title": "Art Deco, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Art_Deco"
+            }
           }
         ]
       }
     ],
     "art-deco-jewellery": [
+      {
+        "emotion": "joy",
+        "strength": 0.7,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Sotheby's calls the 1920s a beacon of optimism, and says Art Deco jewellery showed glamour and decadence in lavish form.",
+            "source": {
+              "title": "The A-Z of Jewelry: A is for Art Deco, Sotheby's",
+              "url": "https://www.sothebys.com/en/articles/the-a-z-of-jewelry-a-is-for-art-deco"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "fascination",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The same source ties the style to glamour, decadence and modernity, a mood that holds the eye of the viewer.",
+            "source": {
+              "title": "The A-Z of Jewelry: A is for Art Deco, Sotheby's",
+              "url": "https://www.sothebys.com/en/articles/the-a-z-of-jewelry-a-is-for-art-deco"
+            }
+          }
+        ]
+      },
       {
         "emotion": "beauty",
         "strength": 1,
@@ -107,11 +229,33 @@
             "basis": [
               "keyword:elegant"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Sotheby's presents the Cartier Tank, a key Art Deco watch, as an icon of timeless elegance that men and women coveted.",
+            "source": {
+              "title": "The Essential Guide to the Cartier Tank, Sotheby's",
+              "url": "https://www.sothebys.com/en/articles/the-essential-guide-to-the-cartier-tank?locale=en"
+            }
           }
         ]
       }
     ],
     "art-nouveau-jewellery": [
+      {
+        "emotion": "beauty",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The article links the style to sinuous lines, movement, colour and an organic lightness that pleases the eye.",
+            "source": {
+              "title": "Out with the old and in with the nouveau, Sotheby's",
+              "url": "https://www.sothebys.com/en/articles/out-with-the-old-and-in-with-the-nouveau"
+            }
+          }
+        ]
+      },
       {
         "emotion": "vitality",
         "strength": 1,
@@ -139,6 +283,34 @@
       }
     ],
     "arts-and-crafts-jewellery": [
+      {
+        "emotion": "joy",
+        "strength": 0.7,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The movement valued the pleasure that craftsmen took in their work, and Ashbee's guild aimed to give workers satisfaction in craft.",
+            "source": {
+              "title": "Arts and Crafts movement, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Arts_and_Crafts_movement"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "nostalgia",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The movement idealised medieval life, literature and building, which gives its work a nostalgic and romantic character.",
+            "source": {
+              "title": "Arts and Crafts movement, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Arts_and_Crafts_movement"
+            }
+          }
+        ]
+      },
       {
         "emotion": "relaxation",
         "strength": 1,
@@ -175,6 +347,14 @@
               "keyword:light",
               "keyword:soft"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Writers say many women feel discomfort in a bra and feel relief when they take it off, so a soft bandeau offers ease.",
+            "source": {
+              "title": "Brassiere, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Brassi%C3%A8re"
+            }
           }
         ]
       }
@@ -190,6 +370,14 @@
               "keyword:elegant",
               "keyword:glamorous"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The FIT exhibition frames 1930s fashion, bias-cut gowns included, as elegance with languorous lines in a time of crisis.",
+            "source": {
+              "title": "Fashions of the 1930s: The Bias Cut, FIT Museum",
+              "url": "https://exhibitions.fitnyc.edu/fashions-of-the-1930s/bias-cut/"
+            }
           }
         ]
       },
@@ -216,6 +404,28 @@
             "basis": [
               "keyword:playful"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "A review calls the Fiat Multipla joyfully, delightfully weird and endearing, though some viewers find it willfully ugly.",
+            "source": {
+              "title": "Fiat Multipla review, The Autopian",
+              "url": "https://theautopian.com/never-mind-the-looks-feel-the-width-the-1998-fiat-multipla-was-beautiful-on-the-inside"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "ugliness",
+        "strength": 0.8,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The same review says many viewers see the blobby Multipla as one of the ugliest cars, while design fans admire it.",
+            "source": {
+              "title": "Fiat Multipla review, The Autopian",
+              "url": "https://theautopian.com/never-mind-the-looks-feel-the-width-the-1998-fiat-multipla-was-beautiful-on-the-inside"
+            }
           }
         ]
       },
@@ -246,6 +456,20 @@
     ],
     "brass-era-car": [
       {
+        "emotion": "surprise",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "In the 1888 Benz trip, villagers admired the motor car as if it came from the sky, while the driver's mother felt uneasy.",
+            "source": {
+              "title": "Benz Patent-Motorwagen, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Benz_Patent-Motorwagen"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "being-moved",
         "strength": 1,
         "evidence": [
@@ -271,6 +495,20 @@
       }
     ],
     "breguet-classical-watch": [
+      {
+        "emotion": "awe",
+        "strength": 0.7,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "An expert called a newly found Breguet the greatest watch he had seen, and Marie-Antoinette felt fascination for his work.",
+            "source": {
+              "title": "Abraham-Louis Breguet, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Abraham-Louis_Breguet"
+            }
+          }
+        ]
+      },
       {
         "emotion": "beauty",
         "strength": 1,
@@ -318,11 +556,33 @@
             "basis": [
               "keyword:bold"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Sotheby's describes Grima's 1960s jewellery as bold, edgy and exciting, and says it captivated celebrity clients.",
+            "source": {
+              "title": "Andrew Grima's Bold, Edgy Jewelry, Sotheby's",
+              "url": "https://www.sothebys.com/en/articles/andrew-grimas-bold-edgy-jewelry-has-captivated-stars-from-princess-margaret-to-taylor-swift"
+            }
           }
         ]
       }
     ],
     "canvas-court-sneaker": [
+      {
+        "emotion": "nostalgia",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Highsnobiety calls the Chuck Taylor an old friend with nostalgia and warm feelings, tied to school days and youth.",
+            "source": {
+              "title": "Converse Chuck Taylor and youth culture, Highsnobiety",
+              "url": "https://www.highsnobiety.com/p/converse-chuck-taylor-youth-culture"
+            }
+          }
+        ]
+      },
       {
         "emotion": "vitality",
         "strength": 1,
@@ -350,6 +610,20 @@
       }
     ],
     "costume-jewellery": [
+      {
+        "emotion": "beauty",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Wikipedia links retro costume jewellery to glamour, elegance and sophistication, with a Hollywood flair, at an affordable price.",
+            "source": {
+              "title": "Costume jewelry, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Costume_jewelry"
+            }
+          }
+        ]
+      },
       {
         "emotion": "humour",
         "strength": 1,
@@ -398,6 +672,14 @@
             "basis": [
               "keyword:weathered"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "National Geographic says tweed recalls an older, simpler way of life, and presents it as warm cloth tied to national pride.",
+            "source": {
+              "title": "How tweed became a symbol of Scottish culture, National Geographic",
+              "url": "https://www.nationalgeographic.com/travel/article/tweed-weaves-tales-of-scottish-history-and-landscapes"
+            }
           }
         ]
       },
@@ -416,6 +698,34 @@
     ],
     "crinoline-and-bustle-dress": [
       {
+        "emotion": "humour",
+        "strength": 0.8,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says Victorians parodied the crinoline in Punch cartoons and comic photographs, and the mockery also showed male fear.",
+            "source": {
+              "title": "Crinoline, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Crinoline"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "fascination",
+        "strength": 0.4,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Later designers such as McQueen stayed fascinated by the crinoline and used it often in their collections.",
+            "source": {
+              "title": "Crinoline, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Crinoline"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "awe",
         "strength": 1,
         "evidence": [
@@ -430,6 +740,20 @@
     ],
     "designer-logo-underwear": [
       {
+        "emotion": "uneasiness",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Kate Moss said she felt vulnerable and scared during the 1992 Calvin Klein underwear shoot with Mark Wahlberg.",
+            "source": {
+              "title": "Kate Moss on Calvin Klein ad, Fox News",
+              "url": "https://www.foxnews.com/entertainment/kate-moss-says-she-felt-objectified-shirtless-calvin-klein-ad-mark-wahlberg-vulnerable-scared.amp"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "energy",
         "strength": 1,
         "evidence": [
@@ -443,6 +767,20 @@
       }
     ],
     "dive-watch": [
+      {
+        "emotion": "fascination",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Primer says the Submariner mixes licensed danger with refinement, so it feels adventurous, glamorous and quietly desirable.",
+            "source": {
+              "title": "What's the deal with the Rolex Submariner, Primer",
+              "url": "https://www.primermagazine.com/2025/learn/whats-the-deal-with-the-rolex-submariner"
+            }
+          }
+        ]
+      },
       {
         "emotion": "energy",
         "strength": 1,
@@ -470,6 +808,20 @@
     ],
     "early-mountaineering": [
       {
+        "emotion": "awe",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Wikipedia says the 1924 Everest climbers Mallory and Irvine became national heroes, and their fate remains a mystery.",
+            "source": {
+              "title": "1924 British Mount Everest expedition, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/1924_British_Mount_Everest_expedition"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "interest",
         "strength": 1,
         "evidence": [
@@ -494,7 +846,51 @@
         ]
       }
     ],
+    "early-wristwatch": [
+      {
+        "emotion": "fascination",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "A watch history says people clamoured to buy a Santos after Santos-Dumont wore it, and calls the design cutting-edge for its era.",
+            "source": {
+              "title": "The Unlikely Partnership Behind the Cartier Santos, Watchonista",
+              "url": "https://www.watchonista.com/articles/history/strange-true-watch-tales-unlikely-partnership-behind-cartier-santos"
+            }
+          }
+        ]
+      }
+    ],
     "electric-minimal-car": [
+      {
+        "emotion": "beauty",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Tesla's engineering chief called the Model 3 interior simple and economical but elegant, and a reviewer was pleasantly surprised.",
+            "source": {
+              "title": "Tesla Model 3 interior, Electrek",
+              "url": "https://electrek.co/2017/07/31/tesla-model-3-interior/"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 0.4,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Reviewers split on the bare Model 3 cabin: some find it too sparse, and others needed time to get used to it.",
+            "source": {
+              "title": "Tesla Model 3 minimalism, CleanTechnica",
+              "url": "https://cleantechnica.com/2017/08/26/tesla-model-3s-minimalism-vs-buttons-stuff/"
+            }
+          }
+        ]
+      },
       {
         "emotion": "relaxation",
         "strength": 1,
@@ -505,6 +901,22 @@
               "keyword:calm",
               "keyword:quiet"
             ]
+          }
+        ]
+      }
+    ],
+    "electronic-and-digital-watch": [
+      {
+        "emotion": "fascination",
+        "strength": 0.4,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Wikipedia calls the digital watch era a high-technology fad, and the Pulsar drew on a then-futuristic film clock.",
+            "source": {
+              "title": "Digital watch, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Digital_watch"
+            }
           }
         ]
       }
@@ -521,6 +933,14 @@
               "keyword:pale",
               "keyword:airy"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Wikipedia describes empire dresses as light, loose and comfortable, in a more streamlined and less cumbersome form.",
+            "source": {
+              "title": "Empire silhouette, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Empire_silhouette"
+            }
           }
         ]
       },
@@ -538,6 +958,20 @@
       }
     ],
     "english-bespoke-tailoring": [
+      {
+        "emotion": "joy",
+        "strength": 0.4,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "A study found that a bespoke suit raises the wearer's sense of self-worth and success, a quiet pride.",
+            "source": {
+              "title": "Bespoke tailoring, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Bespoke_tailoring"
+            }
+          }
+        ]
+      },
       {
         "emotion": "awe",
         "strength": 1,
@@ -575,6 +1009,22 @@
         ]
       }
     ],
+    "english-welted-dress-shoe": [
+      {
+        "emotion": "fascination",
+        "strength": 0.4,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Writers link Northampton welted shoes to prestige, pride in craft and a lasting attachment to heritage.",
+            "source": {
+              "title": "Made in Northampton, Country & Town House",
+              "url": "https://www.countryandtownhouse.com/style/northampton-shoemaking/"
+            }
+          }
+        ]
+      }
+    ],
     "garconne-flapper-dress": [
       {
         "emotion": "energy",
@@ -585,6 +1035,14 @@
             "basis": [
               "keyword:restless"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The look matched the spontaneous, youthful pulse of jazz and the optimism after the war.",
+            "source": {
+              "title": "1920s in Western fashion, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/1920s_in_Western_fashion"
+            }
           }
         ]
       },
@@ -597,6 +1055,14 @@
             "basis": [
               "keyword:bright"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Flapper dress stood for liberation and carefree release, so the wearer felt free to dance and let go.",
+            "source": {
+              "title": "1920s in Western fashion, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/1920s_in_Western_fashion"
+            }
           }
         ]
       },
@@ -624,6 +1090,14 @@
               "keyword:luminous",
               "keyword:refined"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Garland pieces give an airy, lacelike and graceful impression of delicate beauty.",
+            "source": {
+              "title": "Garland style, Cartier and platinum, DSF Antique Jewelry",
+              "url": "https://dsfantiquejewelry.com/blogs/journal/the-garland-style-cartier-and-the-art-of-platinum"
+            }
           }
         ]
       },
@@ -653,6 +1127,20 @@
       }
     ],
     "georgian-jewellery": [
+      {
+        "emotion": "sadness",
+        "strength": 0.8,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Georgian mourning jewels carried grief and remembrance; a dealer says some pieces break the heart.",
+            "source": {
+              "title": "Georgian mourning jewelry, National Jeweler",
+              "url": "https://nationaljeweler.com/articles/8805-the-history-behind-georgian-mourning-jewelry"
+            }
+          }
+        ]
+      },
       {
         "emotion": "awe",
         "strength": 1,
@@ -692,6 +1180,40 @@
     ],
     "glam-platform-shoe": [
       {
+        "emotion": "fascination",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:glittering"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Glam platforms were flashy and made to draw attention to the wearer.",
+            "source": {
+              "title": "Platform shoe, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Platform_shoe"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Platforms were seen as the party shoe, bright and fun.",
+            "source": {
+              "title": "Platform shoe, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Platform_shoe"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "energy",
         "strength": 1,
         "evidence": [
@@ -700,18 +1222,6 @@
             "basis": [
               "keyword:flamboyant",
               "keyword:bold"
-            ]
-          }
-        ]
-      },
-      {
-        "emotion": "fascination",
-        "strength": 0.5,
-        "evidence": [
-          {
-            "kind": "inferred",
-            "basis": [
-              "keyword:glittering"
             ]
           }
         ]
@@ -730,6 +1240,40 @@
       }
     ],
     "gorpcore": [
+      {
+        "emotion": "relaxation",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:relaxed"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Gorpcore gives the wearer comfort and a feeling of being ready for the elements.",
+            "source": {
+              "title": "Gorpcore, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Gorpcore"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "ugliness",
+        "strength": 0.4,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Early use was ironic, because the outdoor look was seen as deliberately ugly.",
+            "source": {
+              "title": "Gorpcore, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Gorpcore"
+            }
+          }
+        ]
+      },
       {
         "emotion": "humour",
         "strength": 1,
@@ -751,18 +1295,6 @@
             "kind": "inferred",
             "basis": [
               "keyword:colourful"
-            ]
-          }
-        ]
-      },
-      {
-        "emotion": "relaxation",
-        "strength": 0.5,
-        "evidence": [
-          {
-            "kind": "inferred",
-            "basis": [
-              "keyword:relaxed"
             ]
           }
         ]
@@ -791,6 +1323,28 @@
               "keyword:warm",
               "keyword:colourful"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Bohemian dress expressed a free, unconventional spirit and youthful freedom.",
+            "source": {
+              "title": "Bohemian style, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Bohemian_style"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "nostalgia",
+        "strength": 0.4,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Images of the style recall a lost pre-war idyll and are remembered fondly.",
+            "source": {
+              "title": "Bohemian style, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Bohemian_style"
+            }
           }
         ]
       },
@@ -808,6 +1362,20 @@
       }
     ],
     "it-bag": [
+      {
+        "emotion": "fascination",
+        "strength": 0.7,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The It bag caused a craze: buyers waited and even bought fakes to own the must-have bag.",
+            "source": {
+              "title": "It bag, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/It_bag"
+            }
+          }
+        ]
+      },
       {
         "emotion": "beauty",
         "strength": 1,
@@ -847,6 +1415,40 @@
     ],
     "italian-gran-turismo": [
       {
+        "emotion": "energy",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:fast"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The grand tourer promises excitement and driving thrills at speed.",
+            "source": {
+              "title": "Grand tourer, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Grand_tourer"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 0.4,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The same cars give comfort and elegance on long road trips.",
+            "source": {
+              "title": "Grand tourer, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Grand_tourer"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "beauty",
         "strength": 1,
         "evidence": [
@@ -855,18 +1457,6 @@
             "basis": [
               "keyword:elegant",
               "keyword:refined"
-            ]
-          }
-        ]
-      },
-      {
-        "emotion": "energy",
-        "strength": 0.5,
-        "evidence": [
-          {
-            "kind": "inferred",
-            "basis": [
-              "keyword:fast"
             ]
           }
         ]
@@ -884,6 +1474,14 @@
               "keyword:understated",
               "keyword:relaxed"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Ivy style gives a relaxed, unforced mood of casual elegance and carefree ease.",
+            "source": {
+              "title": "A For Effort, Ivy Style",
+              "url": "https://www.ivy-style.com/a-for-effort.html"
+            }
           }
         ]
       },
@@ -901,6 +1499,40 @@
       }
     ],
     "japanese-avant-garde-fashion": [
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:dark"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Some collections caused outrage and unease, and critics used harsh labels for them.",
+            "source": {
+              "title": "Comme des Garcons, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Comme_des_Gar%C3%A7ons"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "surprise",
+        "strength": 0.7,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The Comme des Garcons Destroy collection shocked critics, who named it for a wrecked, disturbing look.",
+            "source": {
+              "title": "Comme des Garcons, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Comme_des_Gar%C3%A7ons"
+            }
+          }
+        ]
+      },
       {
         "emotion": "beauty",
         "strength": 1,
@@ -921,18 +1553,6 @@
             "kind": "inferred",
             "basis": [
               "keyword:intellectual"
-            ]
-          }
-        ]
-      },
-      {
-        "emotion": "uneasiness",
-        "strength": 1,
-        "evidence": [
-          {
-            "kind": "inferred",
-            "basis": [
-              "keyword:dark"
             ]
           }
         ]
@@ -960,11 +1580,33 @@
             "basis": [
               "keyword:refined"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Structured 1950s bags gave a polished, dignified and sophisticated impression.",
+            "source": {
+              "title": "1950s Handbags and Purses, Vintage Dancer",
+              "url": "https://vintagedancer.com/1950s/1950s-handbags-purses-styles/"
+            }
           }
         ]
       }
     ],
     "logomania": [
+      {
+        "emotion": "enchantment",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "A writer says the logo carries status and belonging, and that initials gave designs a kind of magic.",
+            "source": {
+              "title": "The Rise and Fall of Logomania, Mission",
+              "url": "https://missionmag.org/the-rise-and-fall-of-logomania/"
+            }
+          }
+        ]
+      },
       {
         "emotion": "energy",
         "strength": 1,
@@ -981,6 +1623,34 @@
     ],
     "luxury-steel-sports-watch": [
       {
+        "emotion": "surprise",
+        "strength": 0.8,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "At launch in 1972 the public was wary because a luxury watch in steel was unheard of.",
+            "source": {
+              "title": "50 Years of an Icon, Sotheby's",
+              "url": "https://www.sothebys.com/en/articles/50-years-of-an-icon-the-audemars-piguet-royal-oak"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "fascination",
+        "strength": 0.7,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Today the Royal Oak is one of the most desirable watches, and early models are the most coveted.",
+            "source": {
+              "title": "50 Years of an Icon, Sotheby's",
+              "url": "https://www.sothebys.com/en/articles/50-years-of-an-icon-the-audemars-piguet-royal-oak"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "beauty",
         "strength": 1,
         "evidence": [
@@ -994,6 +1664,34 @@
       }
     ],
     "malletier-luggage": [
+      {
+        "emotion": "joy",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "V&A text links Vuitton trunks to the pleasure of travel, honeymoon trips and luxury.",
+            "source": {
+              "title": "Trunks and travelling, V&A",
+              "url": "https://www.vam.ac.uk/articles/trunks-and-travelling"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "fascination",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The trunk was called the height of trunk luxury, stamped with the monogram.",
+            "source": {
+              "title": "Trunks and travelling, V&A",
+              "url": "https://www.vam.ac.uk/articles/trunks-and-travelling"
+            }
+          }
+        ]
+      },
       {
         "emotion": "beauty",
         "strength": 1,
@@ -1009,6 +1707,40 @@
     ],
     "mid-century-eyewear": [
       {
+        "emotion": "beauty",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:glamorous"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Cat-eye frames give an irresistibly feminine and glamorous look.",
+            "source": {
+              "title": "The iconic appeal of the cat eye, Vision Express",
+              "url": "https://www.visionexpress.com/blog/2018/iconic-appeal-cat-eye"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Bold colours and quirky details made the frames a fun accessory.",
+            "source": {
+              "title": "The iconic appeal of the cat eye, Vision Express",
+              "url": "https://www.visionexpress.com/blog/2018/iconic-appeal-cat-eye"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "humour",
         "strength": 1,
         "evidence": [
@@ -1017,18 +1749,6 @@
             "basis": [
               "keyword:witty",
               "keyword:playful"
-            ]
-          }
-        ]
-      },
-      {
-        "emotion": "beauty",
-        "strength": 0.5,
-        "evidence": [
-          {
-            "kind": "inferred",
-            "basis": [
-              "keyword:glamorous"
             ]
           }
         ]
@@ -1056,6 +1776,14 @@
             "basis": [
               "keyword:refined"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The FIT museum describes 1990s minimalism as clean lines, understated colour and quiet luxury.",
+            "source": {
+              "title": "Minimalism and Maximalism, FIT Museum",
+              "url": "https://exhibitions.fitnyc.edu/minimalism-maximalism/1980s-1990s/"
+            }
           }
         ]
       },
@@ -1082,18 +1810,14 @@
             "basis": [
               "keyword:fast"
             ]
-          }
-        ]
-      },
-      {
-        "emotion": "humour",
-        "strength": 1,
-        "evidence": [
+          },
           {
-            "kind": "inferred",
-            "basis": [
-              "keyword:cheeky"
-            ]
+            "kind": "stated",
+            "claim": "Quant wanted clothes in which a woman could run and jump, with the energy of the 1960s.",
+            "source": {
+              "title": "Mary Quant, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Mary_Quant"
+            }
           }
         ]
       },
@@ -1105,6 +1829,26 @@
             "kind": "inferred",
             "basis": [
               "keyword:bright"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Mary Quant called the miniskirt optimistic, exuberant, young and flirty.",
+            "source": {
+              "title": "Miniskirt, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Miniskirt"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "humour",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:cheeky"
             ]
           }
         ]
@@ -1132,6 +1876,14 @@
             "basis": [
               "keyword:comfortable"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The union suit, the briefs' forerunner, began as a comfortable alternative to constricting garments.",
+            "source": {
+              "title": "Union suit, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Union_suit"
+            }
           }
         ]
       }
@@ -1147,6 +1899,14 @@
               "keyword:abstract",
               "keyword:intellectual"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Early wearers of art jewellery were seen as aesthetically aware and intellectually inclined.",
+            "source": {
+              "title": "Art jewelry, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Art_jewelry"
+            }
           }
         ]
       },
@@ -1174,6 +1934,14 @@
               "keyword:loud",
               "keyword:bold"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "People at Ford and on the test track reacted to the first Mustang with open enthusiasm and excitement.",
+            "source": {
+              "title": "Ford Mustang (first generation), Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Ford_Mustang_(first_generation)"
+            }
           }
         ]
       },
@@ -1216,6 +1984,34 @@
     ],
     "new-look": [
       {
+        "emotion": "surprise",
+        "strength": 0.8,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The first Dior collection in 1947 caused a sensation, partly because wartime austerity was still fresh in memory.",
+            "source": {
+              "title": "Christian Dior, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Christian_Dior"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "anger",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Some hemlines startled people, and an anti-Dior club formed in the US to protest the longer skirts.",
+            "source": {
+              "title": "Christian Dior, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Christian_Dior"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "beauty",
         "strength": 1,
         "evidence": [
@@ -1242,6 +2038,20 @@
     ],
     "nordic-functional-outdoor": [
       {
+        "emotion": "joy",
+        "strength": 0.4,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The Fjallraven Classic trek aims to help people enjoy the outdoors in a social and relaxed way, not as a race.",
+            "source": {
+              "title": "Fjällräven, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Fj%C3%A4llr%C3%A4ven"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "relaxation",
         "strength": 1,
         "evidence": [
@@ -1257,6 +2067,20 @@
     ],
     "nylon-foundation-garments": [
       {
+        "emotion": "uneasiness",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Writers and protesters described the bra and girdle of the period as a source of discomfort and a symbol of oppression.",
+            "source": {
+              "title": "Brassière, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Brassi%C3%A8re"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "beauty",
         "strength": 1,
         "evidence": [
@@ -1271,18 +2095,6 @@
     ],
     "performance-running-shoe": [
       {
-        "emotion": "energy",
-        "strength": 1,
-        "evidence": [
-          {
-            "kind": "inferred",
-            "basis": [
-              "keyword:energetic"
-            ]
-          }
-        ]
-      },
-      {
         "emotion": "relaxation",
         "strength": 1,
         "evidence": [
@@ -1290,6 +2102,26 @@
             "kind": "inferred",
             "basis": [
               "keyword:light"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "A leading marathoner called the Cortez very comfortable, and the foam design aimed to soften road shock for the runner.",
+            "source": {
+              "title": "Nike Cortez, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Nike_Cortez"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:energetic"
             ]
           }
         ]
@@ -1309,6 +2141,20 @@
     ],
     "pilot-and-field-watch": [
       {
+        "emotion": "nostalgia",
+        "strength": 0.7,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Modern flieger watches copy an aged dial and a battered case so that the wearer feels the age of an heirloom.",
+            "source": {
+              "title": "What Are Flieger Watches, Gear Patrol",
+              "url": "https://www.gearpatrol.com/watches/a97397/flieger-watches/"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "insight",
         "strength": 1,
         "evidence": [
@@ -1323,18 +2169,6 @@
     ],
     "power-dressing": [
       {
-        "emotion": "awe",
-        "strength": 1,
-        "evidence": [
-          {
-            "kind": "inferred",
-            "basis": [
-              "keyword:authoritative"
-            ]
-          }
-        ]
-      },
-      {
         "emotion": "energy",
         "strength": 1,
         "evidence": [
@@ -1342,6 +2176,26 @@
             "kind": "inferred",
             "basis": [
               "keyword:confident"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Women used power suits to project self-esteem and confidence, and to gain authority and respect at work.",
+            "source": {
+              "title": "Power dressing, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Power_dressing"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "awe",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:authoritative"
             ]
           }
         ]
@@ -1359,6 +2213,28 @@
               "keyword:aggressive",
               "keyword:rebellious"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Punk dress looked raw and angry, and it expressed frustration and resistance to the mainstream.",
+            "source": {
+              "title": "Punk fashion, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Punk_fashion"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Designers chose shocking symbols to alarm and provoke middle-class viewers.",
+            "source": {
+              "title": "Punk fashion, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Punk_fashion"
+            }
           }
         ]
       },
@@ -1377,6 +2253,26 @@
     ],
     "quiet-luxury-fashion": [
       {
+        "emotion": "beauty",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:refined"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The style gives luxury through restraint, with understated elegance and subtle sophistication in place of loud branding.",
+            "source": {
+              "title": "Quiet luxury, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Quiet_luxury"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "relaxation",
         "strength": 1,
         "evidence": [
@@ -1385,18 +2281,6 @@
             "basis": [
               "keyword:understated",
               "keyword:calm"
-            ]
-          }
-        ]
-      },
-      {
-        "emotion": "beauty",
-        "strength": 0.5,
-        "evidence": [
-          {
-            "kind": "inferred",
-            "basis": [
-              "keyword:refined"
             ]
           }
         ]
@@ -1425,6 +2309,14 @@
               "keyword:protective",
               "keyword:soft"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The source describes down as very soft, fluffy and warm, which supports a weak link to physical comfort and rest.",
+            "source": {
+              "title": "Down feather, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Down_feather"
+            }
           }
         ]
       },
@@ -1454,6 +2346,20 @@
       }
     ],
     "racing-chronograph": [
+      {
+        "emotion": "awe",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Writers link the Speedmaster to the first Moon landing, and they present it as part of a great human achievement.",
+            "source": {
+              "title": "The Omega Speedmaster, Gear Patrol",
+              "url": "https://www.gearpatrol.com/?p=893920"
+            }
+          }
+        ]
+      },
       {
         "emotion": "energy",
         "strength": 1,
@@ -1491,6 +2397,14 @@
               "keyword:warm",
               "keyword:festive"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "After the war, the Retro jewellery mood turned bold, bright and light-hearted, with big colourful stones.",
+            "source": {
+              "title": "Larger Than Life Retro Jewelry, Macklowe Gallery",
+              "url": "https://www.macklowegallery.com/blogs/eras/larger-than-life-jewelry-in-the-retro-period-1930s-1950s"
+            }
           }
         ]
       },
@@ -1521,6 +2435,26 @@
     ],
     "retro-revival-car": [
       {
+        "emotion": "nostalgia",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:nostalgic"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The New Beetle echoed the old Beetle with a rounded roof and round lamps, and the public reacted strongly to the concept.",
+            "source": {
+              "title": "Volkswagen New Beetle, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Volkswagen_New_Beetle"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "joy",
         "strength": 1,
         "evidence": [
@@ -1546,18 +2480,6 @@
         ]
       },
       {
-        "emotion": "nostalgia",
-        "strength": 0.5,
-        "evidence": [
-          {
-            "kind": "inferred",
-            "basis": [
-              "keyword:nostalgic"
-            ]
-          }
-        ]
-      },
-      {
         "emotion": "relaxation",
         "strength": 0.5,
         "evidence": [
@@ -1571,6 +2493,20 @@
       }
     ],
     "rococo-court-dress": [
+      {
+        "emotion": "surprise",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The Rococo article says its ornate interiors aimed to surprise the viewer, with a theatrical exuberance that also marked its dress.",
+            "source": {
+              "title": "Rococo, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Rococo"
+            }
+          }
+        ]
+      },
       {
         "emotion": "awe",
         "strength": 1,
@@ -1610,6 +2546,20 @@
     ],
     "shapewear-and-seamless": [
       {
+        "emotion": "uneasiness",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "A UK survey of 2,000 adults found a short confidence boost, but many wearers felt less confident and insecure later.",
+            "source": {
+              "title": "Shapewear and UK body image, Opinium",
+              "url": "https://opinium.com/how-is-the-popularization-of-shapewear-impacting-the-uks-body-image"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "relaxation",
         "strength": 1,
         "evidence": [
@@ -1624,6 +2574,20 @@
     ],
     "smartwatch": [
       {
+        "emotion": "fascination",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Reviewers showed strong desire for the Apple Watch, and one commentator called it extremely cool.",
+            "source": {
+              "title": "Apple Watch, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Apple_Watch"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "joy",
         "strength": 1,
         "evidence": [
@@ -1637,6 +2601,20 @@
       }
     ],
     "sneaker-culture": [
+      {
+        "emotion": "nostalgia",
+        "strength": 0.8,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Collectors feel nostalgia when they get a pair that they wanted as children.",
+            "source": {
+              "title": "Sneaker collecting, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Sneaker_collecting"
+            }
+          }
+        ]
+      },
       {
         "emotion": "energy",
         "strength": 1,
@@ -1663,6 +2641,20 @@
       }
     ],
     "soft-natural-lingerie": [
+      {
+        "emotion": "surprise",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Gernreich made shocking and avant-garde designs, and his No Bra broke with the sculpted bullet shape of the 1950s.",
+            "source": {
+              "title": "Rudi Gernreich, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Rudi_Gernreich"
+            }
+          }
+        ]
+      },
       {
         "emotion": "relaxation",
         "strength": 1,
@@ -1692,6 +2684,20 @@
     ],
     "space-age-couture": [
       {
+        "emotion": "energy",
+        "strength": 0.7,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Courreges clothes carried a futuristic pulse and a youthful, free movement, and the press called 1964 his year.",
+            "source": {
+              "title": "André Courrèges, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Andr%C3%A9_Courr%C3%A8ges"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "joy",
         "strength": 1,
         "evidence": [
@@ -1719,6 +2725,26 @@
     ],
     "stealth-luxury-accessory": [
       {
+        "emotion": "beauty",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:refined"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Stealth luxury signals taste with subtle, expensive pieces, and the article ties the look to discretion and subtle fashion.",
+            "source": {
+              "title": "Quiet luxury, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Quiet_luxury"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "relaxation",
         "strength": 1,
         "evidence": [
@@ -1730,21 +2756,29 @@
             ]
           }
         ]
-      },
+      }
+    ],
+    "stiletto-heel": [
       {
-        "emotion": "beauty",
-        "strength": 0.5,
+        "emotion": "energy",
+        "strength": 0.3,
         "evidence": [
           {
             "kind": "inferred",
             "basis": [
-              "keyword:refined"
+              "keyword:assertive"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "A scholar says the stiletto makes the wearer feel more powerful and ready for anything.",
+            "source": {
+              "title": "Sex, Status and the Stiletto, Western University",
+              "url": "https://news.westernu.ca/2012/09/olson-sex-status-and-the-stiletto/"
+            }
           }
         ]
-      }
-    ],
-    "stiletto-heel": [
+      },
       {
         "emotion": "beauty",
         "strength": 1,
@@ -1755,18 +2789,6 @@
               "keyword:elegant",
               "keyword:poised",
               "keyword:glamorous"
-            ]
-          }
-        ]
-      },
-      {
-        "emotion": "energy",
-        "strength": 0.3,
-        "evidence": [
-          {
-            "kind": "inferred",
-            "basis": [
-              "keyword:assertive"
             ]
           }
         ]
@@ -1783,6 +2805,28 @@
               "keyword:poised",
               "keyword:refined"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The same museum text calls the S-curve shape of this corset visually alluring to the viewer.",
+            "source": {
+              "title": "Straight-front corset, FIT Museum collection",
+              "url": "https://fashionmuseum.fitnyc.edu/objects/54418/corset"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "A fashion museum describes the straight-front corset as highly constricting, so the wearer felt tight pressure and strain.",
+            "source": {
+              "title": "Straight-front corset, FIT Museum collection",
+              "url": "https://fashionmuseum.fitnyc.edu/objects/54418/corset"
+            }
           }
         ]
       }
@@ -1797,6 +2841,14 @@
             "basis": [
               "keyword:fast"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The streamlined shape gave the impression of motion, dynamism and speed, so the car looked fast even when it stood still.",
+            "source": {
+              "title": "Streamline Moderne, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Streamline_Moderne"
+            }
           }
         ]
       },
@@ -1815,6 +2867,26 @@
     ],
     "streetwear": [
       {
+        "emotion": "energy",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:bold"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Limited drops of streetwear build excitement and a buzz in the buyer, and the chase gives a feeling of belonging to a group.",
+            "source": {
+              "title": "Why Do We Love Limited Edition Drops?, Substack",
+              "url": "https://kushaan.substack.com/p/41-why-do-we-love-limited-edition"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "relaxation",
         "strength": 1,
         "evidence": [
@@ -1823,18 +2895,6 @@
             "basis": [
               "keyword:casual",
               "keyword:relaxed"
-            ]
-          }
-        ]
-      },
-      {
-        "emotion": "energy",
-        "strength": 0.5,
-        "evidence": [
-          {
-            "kind": "inferred",
-            "basis": [
-              "keyword:bold"
             ]
           }
         ]
@@ -1862,11 +2922,39 @@
             "basis": [
               "keyword:defiant"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Dr. Martens boots gained an association with violence when right-wing skinheads wore them, so some viewers felt threat and hostility.",
+            "source": {
+              "title": "Dr. Martens, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Dr._Martens"
+            }
           }
         ]
       }
     ],
     "swiss-plastic-pop-watch": [
+      {
+        "emotion": "joy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:colourful"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Swatch sold its plastic watch as an emotional product, and it offered fun, colour and constant novelty to the buyer.",
+            "source": {
+              "title": "Swatch, Faster Than Normal",
+              "url": "https://fasterthannormal.co/businesses/swatch"
+            }
+          }
+        ]
+      },
       {
         "emotion": "energy",
         "strength": 1,
@@ -1887,18 +2975,6 @@
             "kind": "inferred",
             "basis": [
               "keyword:playful"
-            ]
-          }
-        ]
-      },
-      {
-        "emotion": "joy",
-        "strength": 1,
-        "evidence": [
-          {
-            "kind": "inferred",
-            "basis": [
-              "keyword:colourful"
             ]
           }
         ]
@@ -1930,6 +3006,20 @@
     ],
     "tailfin-era-car": [
       {
+        "emotion": "fascination",
+        "strength": 0.7,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Tailfins linked the car to the jets and rockets that held the public imagination, and the fins showed a confident mood of postwar prosperity.",
+            "source": {
+              "title": "Car Tailfins, History.com",
+              "url": "https://www.history.com/articles/car-tailfins-automobiles"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "joy",
         "strength": 1,
         "evidence": [
@@ -1958,6 +3048,26 @@
     ],
     "technical-shell-alpinism": [
       {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:protective"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "A Gore-Tex brand page says alpine shells give climbers a gear they can rely on and the comfort of dry protection.",
+            "source": {
+              "title": "Arc'teryx and Gore-Tex partnership blog",
+              "url": "https://www.gore-tex.com/blog/arcteryx-and-the-gore-tex-brand-a-partnership-built-on-innovation-and-pushing-the-limits"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "energy",
         "strength": 1,
         "evidence": [
@@ -1980,18 +3090,6 @@
             ]
           }
         ]
-      },
-      {
-        "emotion": "relaxation",
-        "strength": 1,
-        "evidence": [
-          {
-            "kind": "inferred",
-            "basis": [
-              "keyword:protective"
-            ]
-          }
-        ]
       }
     ],
     "techwear": [
@@ -2004,11 +3102,57 @@
             "basis": [
               "keyword:dark"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "A fashion media article links techwear with dark city settings of a bleak future, which gives the look an uneasy mood.",
+            "source": {
+              "title": "Highsnobiety on Death Stranding style",
+              "url": "https://highsnobiety.com/p/death-stranding-style"
+            }
+          },
+          {
+            "kind": "stated",
+            "claim": "Acronym founder Errolson Hugh says that people read a dystopian mood in his clothes because the present world feels that way.",
+            "source": {
+              "title": "Errolson Hugh Sees the Future (Yahoo profile)",
+              "url": "https://www.yahoo.com/lifestyle/errolson-hugh-sees-future-120000928.html"
+            }
+          }
+        ]
+      }
+    ],
+    "trench-and-field-military": [
+      {
+        "emotion": "nostalgia",
+        "strength": 0.4,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Early wartime coat adverts used images of the home countryside, so the coat carried a longing for home to the soldier.",
+            "source": {
+              "title": "From the Somme to the Catwalk, The Conversation",
+              "url": "https://theconversation.com/from-the-somme-to-the-catwalk-the-story-of-the-trench-coat-28003"
+            }
           }
         ]
       }
     ],
     "underwear-as-outerwear": [
+      {
+        "emotion": "surprise",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Gaultier's cone bra, worn by Madonna, shocked the public and provoked a scandal, and it also gave a feeling of power.",
+            "source": {
+              "title": "Cone Bra and Corset History, W Magazine",
+              "url": "https://www.wmagazine.com/fashion/cone-bra-corset-trend-history"
+            }
+          }
+        ]
+      },
       {
         "emotion": "beauty",
         "strength": 1,
@@ -2048,6 +3192,20 @@
     ],
     "victorian-boot": [
       {
+        "emotion": "joy",
+        "strength": 0.4,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "A museum essay says a wearer of the buttoned boot may have wanted to lift her hem to show the boot, a light playful pleasure within strict modesty.",
+            "source": {
+              "title": "Side-button boots 1870s, ASU FIDM Museum",
+              "url": "https://asufidmmuseum.asu.edu/learn/articles/side-button-boots-1870s"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "hygge",
         "strength": 1,
         "evidence": [
@@ -2062,6 +3220,20 @@
     ],
     "victorian-corsetry": [
       {
+        "emotion": "uneasiness",
+        "strength": 0.7,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Critics said that corsets constricted the body, and many wearers found them uncomfortable and restrictive.",
+            "source": {
+              "title": "Corset, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Corset"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "wabi-sabi",
         "strength": 1,
         "evidence": [
@@ -2075,6 +3247,20 @@
       }
     ],
     "victorian-millinery": [
+      {
+        "emotion": "sadness",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Victorian widows wore black bonnets and crepe veils as part of long public grief, and critics said the rules added gloom for the bereaved.",
+            "source": {
+              "title": "Mourning customs in Victorian England (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Mourning"
+            }
+          }
+        ]
+      },
       {
         "emotion": "being-moved",
         "strength": 1,
@@ -2102,6 +3288,26 @@
     ],
     "victorian-sentimental-jewellery": [
       {
+        "emotion": "sadness",
+        "strength": 0.3,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:mournful"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Victorian mourning jewellery gave a person a way to express loss and to keep a tangible memory of a dead loved one.",
+            "source": {
+              "title": "Mourning jewellery, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Mourning_jewellery"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "being-moved",
         "strength": 1,
         "evidence": [
@@ -2114,21 +3320,29 @@
             ]
           }
         ]
-      },
+      }
+    ],
+    "vintage-coachbuilt-car": [
       {
-        "emotion": "sadness",
-        "strength": 0.3,
+        "emotion": "beauty",
+        "strength": 1,
         "evidence": [
           {
             "kind": "inferred",
             "basis": [
-              "keyword:mournful"
+              "keyword:poised"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "Designers called the late-1930s coachbuilt coupes elegant and romantic, and one critic praised the maker as a master of curves.",
+            "source": {
+              "title": "Automobile Art, Cigar Aficionado",
+              "url": "https://www.cigaraficionado.com/article/automobile-art-7625"
+            }
           }
         ]
-      }
-    ],
-    "vintage-coachbuilt-car": [
+      },
       {
         "emotion": "awe",
         "strength": 1,
@@ -2140,21 +3354,23 @@
             ]
           }
         ]
-      },
-      {
-        "emotion": "beauty",
-        "strength": 1,
-        "evidence": [
-          {
-            "kind": "inferred",
-            "basis": [
-              "keyword:poised"
-            ]
-          }
-        ]
       }
     ],
     "wedge-design-car": [
+      {
+        "emotion": "surprise",
+        "strength": 0.8,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The name Countach comes from a Piedmontese cry of astonishment, and it expresses amazement or admiration at the daring wedge shape.",
+            "source": {
+              "title": "Lamborghini Countach, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Lamborghini_Countach"
+            }
+          }
+        ]
+      },
       {
         "emotion": "anger",
         "strength": 1,
@@ -2164,6 +3380,22 @@
             "basis": [
               "keyword:aggressive"
             ]
+          }
+        ]
+      }
+    ],
+    "whalebone-stays": [
+      {
+        "emotion": "uneasiness",
+        "strength": 0.6,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "Some 18th-century writers found stays so uncomfortable that they compared them to purgatory.",
+            "source": {
+              "title": "Corset, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Corset"
+            }
           }
         ]
       }
