@@ -252,7 +252,7 @@ Rays from a disc or a half disc: a sign of light and of the new, on a facade, a 
 
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.
 
-- **Awwwards** (platform, web, 2009–now), published the style. A web site that gives awards to web design. Designers post sites there, and its daily picks spread trends of the expressive web.
+- **International Exhibition of Modern Decorative and Industrial Arts** (exhibition, Paris, 1925–1925), launched the style. A world's fair of decorative and industrial arts. Its pavilions and rooms showed the new luxury style that later got the name Art Deco from this show.
 
 ## Permutations
 

@@ -261,7 +261,7 @@ Fragments of photographs, cut and joined on one sheet, so that the joins make a 
 
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.
 
-- **Awwwards** (platform, web, 2009–now), published the style. A web site that gives awards to web design. Designers post sites there, and its daily picks spread trends of the expressive web.
+- **La Révolution surréaliste** (magazine, Paris, 1924–1929), launched the style. The first magazine of the Surrealist group. It printed dreams, automatic writing and Surrealist paintings.
 
 ## Permutations
 

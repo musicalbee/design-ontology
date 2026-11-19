@@ -181,7 +181,7 @@ One motif or one frame, repeated with small changes in a set of works, so that t
 
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.
 
-- **Kurt Wolff Verlag** (publisher, Leipzig and Munich, ?–now), published the style. A German publishing house. It published the photobook "Die Welt ist schön" of Albert Renger-Patzsch, a key book of New Objectivity photography.
+- **Kurt Wolff Verlag** (publisher, Leipzig and Munich, 1913–1940), published the style. A German publishing house. It published the photobook "Die Welt ist schön" of Albert Renger-Patzsch, a key book of New Objectivity photography.
 
 ## Permutations
 

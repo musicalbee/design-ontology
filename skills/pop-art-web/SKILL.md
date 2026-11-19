@@ -250,7 +250,7 @@ Tone printed as dots of different size or spacing; at a distance the dots merge 
 
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.
 
-- **Awwwards** (platform, web, 2009–now), published the style. A web site that gives awards to web design. Designers post sites there, and its daily picks spread trends of the expressive web.
+- **Leo Castelli Gallery** (gallery, New York, 1957–now), exhibited the style. The gallery of the dealer Leo Castelli. It showed Pop Art and then Minimalism.
 
 ## Permutations
 

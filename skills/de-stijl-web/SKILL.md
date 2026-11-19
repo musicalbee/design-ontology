@@ -250,7 +250,7 @@ A plane divided by black horizontal and vertical bars into white fields and a fe
 
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.
 
-- **Awwwards** (platform, web, 2009–now), published the style. A web site that gives awards to web design. Designers post sites there, and its daily picks spread trends of the expressive web.
+- **De Stijl** (magazine, Leiden, 1917–1932), launched the style. The magazine that Theo van Doesburg edited for the De Stijl group. It printed their theory of pure colour and the straight line.
 
 ## Permutations
 

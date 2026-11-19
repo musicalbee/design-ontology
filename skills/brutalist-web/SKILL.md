@@ -246,7 +246,7 @@ Every character takes one cell of the same width, so text forms columns without 
 
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.
 
-- **Brutalist Websites** (platform, web, ?–now), launched the style. A web site that collects raw, unstyled web sites. It gave the name brutalist to this kind of web design.
+- **Brutalist Websites** (platform, web, 2014–now), launched the style. A web site that Pascal Deville started to collect raw, unstyled web sites. It made the name brutalist popular for this kind of web design.
 
 ## Permutations
 

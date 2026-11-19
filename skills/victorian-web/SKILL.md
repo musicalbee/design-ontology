@@ -254,7 +254,7 @@ A large first letter that drops down 2 or more lines of text and marks the start
 
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.
 
-- **Awwwards** (platform, web, 2009–now), published the style. A web site that gives awards to web design. Designers post sites there, and its daily picks spread trends of the expressive web.
+- **Great Exhibition** (exhibition, London, 1851–1851), exhibited the style. The first world's fair, in the Crystal Palace. It showed the ornate manufactured furniture and goods of the Victorian age.
 
 ## Permutations
 

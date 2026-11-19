@@ -260,7 +260,7 @@ Fragments of photographs, cut and joined on one sheet, so that the joins make a 
 
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.
 
-- **Awwwards** (platform, web, 2009–now), published the style. A web site that gives awards to web design. Designers post sites there, and its daily picks spread trends of the expressive web.
+- **LEF** (magazine, Moscow, 1923–1925), launched the style. A journal of the Soviet left front of the arts. Rodchenko made its covers with photomontage, diagonals and heavy type, the vocabulary that constructivist web pages take up.
 
 ## Permutations
 

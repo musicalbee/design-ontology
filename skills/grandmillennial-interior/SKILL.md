@@ -252,7 +252,7 @@ Cotton printed with large flowers and birds, often glazed, used for curtains, co
 
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.
 
-- **House Beautiful** (magazine, New York, 1896–now), launched the style. An American interior design magazine. In 2019 it named the grandmillennial style.
+- **House Beautiful** (magazine, New York, 1896–now), published the style. An American interior design magazine. In 2019 it made the name grandmillennial popular for the young taste for chintz, ruffles and old pieces.
 
 ## Permutations
 

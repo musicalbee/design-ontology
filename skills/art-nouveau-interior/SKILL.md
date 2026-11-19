@@ -263,7 +263,7 @@ A long S-shaped line whose curve changes along its length, drawn from a plant st
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.
 
 - **Exposition Universelle of 1900** (exhibition, Paris, 1900–1900), exhibited the style. A world's fair in Paris at the turn of the century. Art Nouveau buildings, rooms and metro entrances were on show, and the Finnish pavilion had frescoes of national myths.
-- **Maison de l'Art Nouveau** (gallery, Paris, 1895–1922), launched the style. The gallery of the dealer Siegfried Bing. It sold furniture, glass and rooms by new designers, and its name became the name of the style.
+- **Maison de l'Art Nouveau** (gallery, Paris, 1895–1904), launched the style. The gallery of the dealer Siegfried Bing. It sold furniture, glass and rooms by new designers, and its name became the name of the style.
 
 ## Permutations
 

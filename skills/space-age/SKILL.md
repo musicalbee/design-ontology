@@ -261,7 +261,7 @@ Rays from a disc or a half disc: a sign of light and of the new, on a facade, a 
 
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.
 
-- **1964 New York World's Fair** (exhibition, New York, 1964–1964), exhibited the style. A world's fair with the theme of the space age. Its pavilions, rockets and futuristic rides showed the optimism of space-age design.
+- **1964 New York World's Fair** (exhibition, New York, 1964–1965), exhibited the style. A world's fair of two seasons with the theme of the space age. Its pavilions, rockets and futuristic rides showed the optimism of space-age design.
 
 ## Permutations
 

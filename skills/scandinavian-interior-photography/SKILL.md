@@ -175,7 +175,7 @@ Lens or camera movements that keep vertical lines parallel and move the plane of
 
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.
 
-- **Kinfolk** (magazine, Copenhagen, 2011–now), published the style. A slow-living magazine with calm, natural-light photos. Its rooms mix Nordic and Japanese restraint.
+- **Kinfolk** (magazine, Portland, Oregon, 2011–now), published the style. A slow-living magazine with calm, natural-light photos. Its rooms mix Nordic and Japanese restraint.
 
 ## Permutations
 

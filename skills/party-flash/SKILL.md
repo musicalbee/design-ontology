@@ -181,7 +181,7 @@ A flash on the camera that fires straight at the subject, so that faces are brig
 
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.
 
-- **Vice** (magazine, New York, 1994–now), published the style. A youth culture magazine. Its pages were full of direct-flash party and street photos.
+- **Vice** (magazine, Montreal, 1994–now), published the style. A youth culture magazine. Its pages were full of direct-flash party and street photos.
 
 ## Permutations
 

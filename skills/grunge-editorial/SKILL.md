@@ -260,7 +260,6 @@ Fragments of photographs, cut and joined on one sheet, so that the joins make a 
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.
 
 - **Ray Gun** (magazine, Santa Monica, 1992–2000), launched the style. An alternative rock magazine that David Carson art-directed. Its layered, broken type pages defined grunge typography.
-- **The Face** (magazine, London, 1980–2004), published the style. A British magazine of music, fashion and culture. Neville Brody's layouts and type for it changed editorial design in the 1980s.
 
 ## Permutations
 

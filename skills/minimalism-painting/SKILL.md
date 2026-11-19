@@ -182,7 +182,6 @@ One motif or one frame, repeated with small changes in a set of works, so that t
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.
 
 - **Leo Castelli Gallery** (gallery, New York, 1957–now), exhibited the style. The gallery of the dealer Leo Castelli. It showed Pop Art and then Minimalism.
-- **Primary Structures** (exhibition, New York, 1966–1966), exhibited the style. A show of new sculpture at the Jewish Museum. It showed simple, industrial forms and made Minimalism public.
 
 ## Permutations
 

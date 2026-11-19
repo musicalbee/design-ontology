@@ -260,7 +260,7 @@ A print from a flat stone or plate on which a greasy drawing takes ink and water
 
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.
 
-- **Awwwards** (platform, web, 2009–now), published the style. A web site that gives awards to web design. Designers post sites there, and its daily picks spread trends of the expressive web.
+- **Maison de l'Art Nouveau** (gallery, Paris, 1895–1904), launched the style. The gallery of the dealer Siegfried Bing. It sold furniture, glass and rooms by new designers, and its name became the name of the style.
 
 ## Permutations
 
