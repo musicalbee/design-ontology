@@ -1,0 +1,337 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "unboxing-video",
+  "domain": "internet",
+  "name": "Unboxing Video",
+  "aliases": [
+    "Unboxing",
+    "Product reveal",
+    "First look"
+  ],
+  "branch": "creator-streaming",
+  "era_id": "postmodern-early-digital",
+  "time_period": {
+    "start": 2006,
+    "end": null,
+    "label": "2006–now"
+  },
+  "primary_mediums": [
+    "video",
+    "web"
+  ],
+  "summary": "A fixed top-down shot of a table. Two hands open a box and lift out a product, and a voice names each part. The look is plain on purpose, so the object is the star.",
+  "philosophy": {
+    "core_thesis": "The viewer owns the first touch by proxy: show the opening of the box in real time and let the object, not the frame, carry the interest.",
+    "design_principles": [
+      "Fix the camera above the table at 90° and frame the box at 40% to 60% of the picture height.",
+      "Use a plain ground in light grey or white (#F2EFE9) with no pattern and no props.",
+      "Show only two hands, with no face, until the product is out of the box.",
+      "Keep each cut at 4s to 12s; hold a close-up of the product for at least 3s.",
+      "Name each part with a lower-third label of 24px to 32px for 2s at the moment the part appears.",
+      "Show the price or the model name in one chip in the top-right corner for the full clip.",
+      "Light the table from the front at 5600K so that shadows stay soft and the colours stay true."
+    ],
+    "anti_patterns": [
+      "Dark, moody grounds with heavy vignettes",
+      "Quick cuts under 2s that hide the object",
+      "Busy desk props around the box",
+      "Stage lighting with coloured gels",
+      "Dense on-screen text over the product",
+      "Handheld camera shake"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 3,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 4,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A 16:9 frame with a centre stage of 60% width. Lower-third labels sit on a 12-column grid with 24px gutters.",
+    "whitespace_ratio": "35% to 50% of the frame is empty table; the spacing scale is 8, 16, 24 and 48px.",
+    "alignment_rules": "The product stays centred; labels align flush-left at 48px from the frame edge; the price chip aligns top-right.",
+    "container_geometry": "Chips and labels with an 8px radius and a 2px edge; the box and the product stay as real objects with true edges."
+  },
+  "typography": {
+    "classifications": [
+      "geometric sans",
+      "grotesque",
+      "label"
+    ],
+    "font_pairings": [
+      {
+        "display": "Rubik",
+        "body": "Inter",
+        "note": "A friendly, rounded sans for labels with a neutral text face."
+      },
+      {
+        "display": "Archivo Black",
+        "body": "Roboto",
+        "note": "A heavy label face for the model name with a plain body face."
+      },
+      {
+        "display": "Poppins",
+        "body": "Open Sans",
+        "note": "A clean geometric display face for chips and lower-thirds."
+      }
+    ],
+    "tracking": "Display takes 0em; labels take +0.04em in capitals.",
+    "leading": "Display 1.1; body 1.5.",
+    "hierarchy_rules": [
+      "Use two weights: medium (500) and bold (700).",
+      "Use sizes 14, 20, 32 and 56px.",
+      "Set the model name in bold at 56px and each part label at 24px.",
+      "Set the price chip in capitals at 14px."
+    ]
+  },
+  "color": {
+    "palette_structure": "A neutral table with white and cardboard, one orange label colour and one blue tape accent.",
+    "palette": [
+      {
+        "name": "Table Grey",
+        "hex": "#F2EFE9",
+        "role": "background"
+      },
+      {
+        "name": "Box White",
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "name": "Packing Black",
+        "hex": "#1B1B1D",
+        "role": "text"
+      },
+      {
+        "name": "Label Orange",
+        "hex": "#F26B1D",
+        "role": "primary"
+      },
+      {
+        "name": "Tape Blue",
+        "hex": "#1E88E5",
+        "role": "accent"
+      },
+      {
+        "name": "Cardboard",
+        "hex": "#C9A26B",
+        "role": "highlight"
+      }
+    ],
+    "contrast_rules": "Text on the table grey holds at least 14:1; orange carries chips and rules, not body text.",
+    "surface_treatment": "Flat, matte table colour with a soft, 2% grain; no gradient on the ground.",
+    "light_and_shadow": "Soft front light; a 16px blur shadow at 14% black under each object."
+  },
+  "materiality": {
+    "surface_simulation": "A real desk, a cardboard box, shrink film and moulded foam shown as shot, with true material colour.",
+    "border_rules": "A 2px solid edge in black at 12% on chips; no edge on the table.",
+    "blur_and_elevation": "A 16px soft shadow under the box and the labels; no backdrop blur."
+  },
+  "ornamentation_details": {
+    "iconography": "Outline icons at 24px with a 2px stroke for storage, weight and size; round terminals.",
+    "illustration": "No illustration; the real object and the real box are the only picture.",
+    "decorative_elements": [
+      "lower-third label",
+      "price chip",
+      "open box",
+      "two hands",
+      "cardboard flap"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Labels slide in 24px from the left over 200ms and hold for 2s; the cut between parts is a hard cut with no wipe.",
+    "easing": "cubic-bezier(0.2, 0, 0, 1)",
+    "duration_ms": 200,
+    "hover_and_active": "Hover raises a chip by 2px and adds a 16px shadow; active state darkens the fill by 8%."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "apple-aqua"
+    ],
+    "echoes": [
+      "creator-vlog"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels curious and impatient, as if the box were in their own hands.",
+    "keywords": [
+      "curious",
+      "tactile",
+      "plain",
+      "honest",
+      "anticipation"
+    ],
+    "brand_archetypes": [
+      "explorer",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "unboxing",
+      "first look",
+      "product reveal",
+      "open the box",
+      "hands-on video",
+      "new gadget"
+    ],
+    "use_cases": [
+      "product review pages",
+      "e-commerce launch videos",
+      "gadget channel thumbnails",
+      "drop announcements",
+      "packaging previews"
+    ],
+    "avoid_when": [
+      "The product has no physical form.",
+      "The brand needs a cinematic or luxury mood.",
+      "The page needs dense data instead of one object."
+    ],
+    "modifiers": [
+      {
+        "request": "more dramatic",
+        "toward": "clickbait-thumbnail",
+        "how": "Add a shocked face, a red arrow and a 120px headline; keep the product at the centre."
+      },
+      {
+        "request": "calmer",
+        "toward": "asmr-video",
+        "how": "Move the mic close, slow every action to 2x length and remove all labels."
+      },
+      {
+        "request": "more personal",
+        "toward": "lets-play-facecam",
+        "how": "Add a face window of 20% width in the lower-right corner and talk over the product."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 500,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 500,
+      "accent": "weight",
+      "display_tracking": "0em",
+      "display_leading": 1.1,
+      "display_case": "none",
+      "body_leading": 1.5,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "rounded",
+      "pack": {
+        "id": "lucide",
+        "why": "A plain outline family with round terminals fits the neutral labels and chips of a product shot."
+      }
+    },
+    "art": {
+      "recipe": "plain",
+      "pattern": "none",
+      "seed": 6
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "paper",
+      "why": "The ground is the plain, pale table that every unboxing shot starts from."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#F2EFE9",
+      "--color-surface": "#FFFFFF",
+      "--color-text": "#1B1B1D",
+      "--color-muted": "#55555C",
+      "--color-primary": "#F26B1D",
+      "--color-accent": "#1E88E5",
+      "--color-border": "#1B1B1D",
+      "--font-sans": "\"Inter\", \"Roboto\", sans-serif",
+      "--font-display": "\"Rubik\", \"Archivo Black\", sans-serif",
+      "--border-radius": "8px",
+      "--border-width": "2px",
+      "--shadow-elevation": "0 8px 16px rgba(27,27,29,0.14)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.2, 0, 0, 1)",
+      "--duration": "200ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#F2EFE9] text-[#1B1B1D] font-sans antialiased px-4 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-4xl md:text-6xl font-bold leading-[1.1] tracking-normal"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-lg border-2 border-[#1B1B1D]/15 bg-[#FFFFFF] shadow-[0_8px_16px_rgba(27,27,29,0.14)]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-lg bg-[#F26B1D] px-6 py-3 text-sm font-bold text-[#1B1B1D] transition-shadow duration-200 hover:shadow-[0_8px_16px_rgba(27,27,29,0.14)]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-medium uppercase tracking-[0.04em] text-[#55555C]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#F26B1D",
+        "#1E88E5",
+        "#1B1B1D"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#1E88E5",
+        "#F26B1D"
+      ]
+    },
+    "corner_radius": {
+      "min": 4,
+      "max": 16
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.333
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Unboxing",
+      "url": "https://en.wikipedia.org/wiki/Unboxing"
+    },
+    {
+      "title": "Wikipedia: Unbox Therapy",
+      "url": "https://en.wikipedia.org/wiki/Unbox_Therapy"
+    }
+  ]
+}

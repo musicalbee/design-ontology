@@ -214,7 +214,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Moodboard
 
-6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (FLUX.2 [klein] 4B, Apache-2.0, seed 1955, 4 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#bauhaus-interior).
+6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (Z-Image-Turbo, Apache-2.0, seed 1955, 9 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#bauhaus-interior).
 
 ![Room](../../demo/moodboards/interior/bauhaus-interior/room.webp)
 ![Materials](../../demo/moodboards/interior/bauhaus-interior/materials.webp)
@@ -225,7 +225,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Every object is a workshop prototype for the factory: chrome tube, opal glass, black Bakelite and lacquered plywood, with no ornament and one primary colour. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0, material_warmth 0.3, finish_gloss 80, era_blend 0.2, hardware_weight 22, edge_radius 1, metal_tone chrome. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#bauhaus-interior).
+Every object is a workshop prototype for the factory: chrome tube, opal glass, black Bakelite and lacquered plywood, with no ornament and one primary colour. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0, material_warmth 0.3, finish_gloss 80, era_blend 0.2, hardware_weight 22, edge_radius 1, metal_tone chrome. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#bauhaus-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

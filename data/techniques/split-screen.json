@@ -1,0 +1,46 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "split-screen",
+  "name": "Split screen",
+  "aliases": [
+    "Split frame",
+    "Polyvision"
+  ],
+  "kind": "montage",
+  "summary": "Show two or more pictures in one frame at the same time.",
+  "how": [
+    "Divide the frame into equal cells with a 4px gap.",
+    "Use the same aspect ratio in each cell.",
+    "Keep one source of sound for the whole frame.",
+    "Mark who is in each cell with a label."
+  ],
+  "origin": {
+    "domain": "film",
+    "year": 1927,
+    "where": "Paris",
+    "note": "Abel Gance uses a triple screen in Napoléon."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 2018,
+      "via": "TikTok adds Duet: the new clip plays beside an existing clip in one vertical frame.",
+      "styles": [
+        "duet-split-screen"
+      ]
+    }
+  ],
+  "styles": [
+    "duet-split-screen"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Split screen (filmmaking)",
+      "url": "https://en.wikipedia.org/wiki/Split_screen_(filmmaking)"
+    },
+    {
+      "title": "Wikipedia: Napoléon (1927 film)",
+      "url": "https://en.wikipedia.org/wiki/Napoléon_(1927_film)"
+    }
+  ]
+}

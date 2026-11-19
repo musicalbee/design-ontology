@@ -1,0 +1,364 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "space-age",
+  "domain": "internet",
+  "name": "Space Age Design",
+  "aliases": [
+    "Space Race Graphics",
+    "Expo Futurism",
+    "Retro-futurism (1960s)"
+  ],
+  "branch": "web-ui",
+  "era_id": "modernist",
+  "time_period": {
+    "start": 1957,
+    "end": 1972,
+    "label": "1957–1972"
+  },
+  "primary_mediums": [
+    "print",
+    "web"
+  ],
+  "summary": "White rounded forms, orbit rings, starbursts and wide extended type in cobalt, orange and silver. It started with Sputnik and peaked at Expo 67 Montreal and EXPO '70 Osaka, and it shows a confident future of monorails and rockets.",
+  "philosophy": {
+    "core_thesis": "The future is a place that people will visit, and a clean, rounded, machine-made form shows that the trip is safe and near.",
+    "design_principles": [
+      "Build forms from circles and ellipses: a 1 to 3 orbit rings, a sphere or a capsule fills 30 to 60% of the width of the layout.",
+      "Set headlines in an extended sans serif in upper case, with a width of 120% to 150% and tracking of +0.04em to +0.1em.",
+      "Use a palette of one deep blue, one signal orange and silver on a white ground, and keep the orange under 15% of the surface.",
+      "Fill one large field with op-art concentric rings or radial lines, with 8 to 16 repeats at an even step of 12px to 24px.",
+      "Add 1 starburst of 8 to 16 rays as a focal accent, and place it on an upper third line.",
+      "Tilt the main axis of the composition by 8 to 15 degrees so that the layout reads as a path of travel, upward and to the right.",
+      "Round every container with a radius of 24px or a full 999px pill, as in a spacecraft window or a capsule.",
+      "Pair each picture of a machine, such as a rocket, a monorail or a pavilion, with a small technical label of 11px to 12px in upper case."
+    ],
+    "anti_patterns": [
+      "Organic kidney and boomerang shapes with earth tones, which belong to the domestic atomic look",
+      "Condensed or serif display type in place of an extended sans serif",
+      "Neon glow, chrome bevels and scan lines from later retro-futurism",
+      "Grey, dirty or worn surfaces that show a used and cramped future",
+      "Sharp 0px corners on panels and buttons",
+      "Dense body copy set in an extended face",
+      "Astronaut and planet clip art used as a filler"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "dimensionality": 3,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 4
+  },
+  "layout": {
+    "grid_mechanics": "A 12-column grid with 24px gutters and an 8px baseline; the main shape and its orbit rings centre on a column line and may cross the grid by up to 96px.",
+    "whitespace_ratio": "35–50% of the surface stays white; the spacing scale is 8, 16, 24, 48 and 96px.",
+    "alignment_rules": "Headlines sit on a diagonal axis of 8 to 15 degrees; body text is flush left and stays horizontal; labels align to a baseline row at the bottom edge.",
+    "container_geometry": "Cards use a 24px radius, buttons a full 999px pill, and image masks a circle or an ellipse with a 3:2 ratio; no square corners."
+  },
+  "typography": {
+    "classifications": [
+      "extended sans serif",
+      "neo-grotesque sans serif"
+    ],
+    "font_pairings": [
+      {
+        "display": "Michroma",
+        "body": "Inter",
+        "note": "The closest open face to Eurostile and Microgramma; one weight only, so use size and case for hierarchy."
+      },
+      {
+        "display": "Orbitron",
+        "body": "Exo 2",
+        "note": "A more mechanical, squarer voice for rocket and monorail work."
+      },
+      {
+        "display": "Syncopate",
+        "body": "Work Sans",
+        "note": "A wide geometric display face, close to the lettering of Expo posters."
+      }
+    ],
+    "tracking": "Display sizes take +0.04em to +0.1em; body stays at 0; small upper-case labels take +0.12em.",
+    "leading": "Display 1.1; body 1.55; line-heights are multiples of the 8px baseline.",
+    "hierarchy_rules": [
+      "Use weight 400 for display and subheads, because Michroma has one weight; use 400 for body, 600 for strong words and labels.",
+      "Set all display lines and labels in upper case; set body in sentence case.",
+      "Use four sizes, for example 12, 18, 32 and 64px, with a step of 1.6 to 2.",
+      "Keep display lines to 4 words or fewer; extended faces lose legibility in long lines."
+    ]
+  },
+  "color": {
+    "palette_structure": "A white ground, one deep blue for type and shapes, one signal orange for a single accent, and a silver grey for rings and rules.",
+    "palette": [
+      {
+        "name": "Capsule White",
+        "hex": "#F7F9FB",
+        "role": "background"
+      },
+      {
+        "name": "Deep Space Blue",
+        "hex": "#0B2A5B",
+        "role": "text and primary"
+      },
+      {
+        "name": "Rocket Orange",
+        "hex": "#F26B1D",
+        "role": "single accent"
+      },
+      {
+        "name": "Orbit Silver",
+        "hex": "#B9C3CF",
+        "role": "rings and rules"
+      },
+      {
+        "name": "Cobalt",
+        "hex": "#2D5BE3",
+        "role": "secondary shapes"
+      },
+      {
+        "name": "Mist",
+        "hex": "#E6ECF3",
+        "role": "alternate surface"
+      }
+    ],
+    "contrast_rules": "Deep blue on white holds at least 12:1; orange carries large type or solid fields only; white type on deep blue holds at least 12:1.",
+    "surface_treatment": "Flat or near-flat fields; one soft linear gradient from white to Mist at 5% to 10% contrast may suggest a moulded plastic form.",
+    "light_and_shadow": "A single soft light from the upper left: a gloss highlight of 20% white on the top-left of a sphere and a shadow of 0 8px 24px at 12% deep blue."
+  },
+  "materiality": {
+    "surface_simulation": "Moulded white plastic and enamelled metal; surfaces read as smooth and seamless, with no seams, screws or wear.",
+    "border_rules": "Rings and rules in Orbit Silver or deep blue at 1px to 2px; shapes need no outline.",
+    "blur_and_elevation": "One soft shadow of 0 8px 24px at 12% deep blue for raised cards; no hard offset shadows and no glow."
+  },
+  "ornamentation_details": {
+    "iconography": "Solid pictograms with round terminals on a circular tile: rocket, orbit, satellite, monorail, pavilion; stroke of 2px where outlined.",
+    "illustration": "Flat vector or screen-printed forms in 2 to 4 colours: a rocket, a monorail car or a pavilion dome set on a ring or a starburst; op-art concentric fields for the ground.",
+    "decorative_elements": [
+      "orbit rings",
+      "starbursts",
+      "concentric op-art circles",
+      "radial lines",
+      "small crosshair marks",
+      "dotted trajectories",
+      "technical labels"
+    ]
+  },
+  "motion": {
+    "native": false,
+    "transition_physics": "Translation for screen: shapes move on arcs and orbits, with a smooth launch and a soft landing; rings rotate slowly at 8 to 20 degrees a second.",
+    "easing": "cubic-bezier(0.22, 0.8, 0.3, 1)",
+    "duration_ms": 360,
+    "hover_and_active": "Hover lifts a card by 4px and rotates its ring by 15 degrees; active fills the pill with Rocket Orange and sets the label to deep blue."
+  },
+  "lineage": {
+    "evolved_from": [
+      "mid-century-modern"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "psychedelic",
+      "pop-art-web"
+    ],
+    "echoes": [
+      "mid-century-modern-architecture",
+      "high-tech-architecture",
+      "mid-century-modern-interior"
+    ]
+  },
+  "emotion": {
+    "target_response": "Optimism about the near future: the viewer feels that travel, technology and progress are clean, safe and about to arrive.",
+    "keywords": [
+      "optimistic",
+      "futuristic",
+      "clean",
+      "orbital",
+      "confident",
+      "nostalgic"
+    ],
+    "brand_archetypes": [
+      "explorer",
+      "magician",
+      "hero"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "space age",
+      "space race",
+      "sputnik",
+      "expo 67",
+      "expo 70",
+      "retro futurism",
+      "1960s futurism",
+      "orbit",
+      "eurostile",
+      "jetsons",
+      "monorail",
+      "world's fair"
+    ],
+    "use_cases": [
+      "science and technology events",
+      "museum and exhibition posters",
+      "aerospace and travel heritage",
+      "music and podcast covers",
+      "product launches with a playful future theme"
+    ],
+    "avoid_when": [
+      "The brand must feel warm, domestic and handmade; use mid-century modern.",
+      "The brief asks for a dark, gritty or dystopian future.",
+      "The product is a dense data tool that needs a neutral grid."
+    ],
+    "modifiers": [
+      {
+        "request": "warmer and more domestic",
+        "toward": "mid-century-modern",
+        "how": "Swap the blue and silver for mustard, teal and walnut, replace rings with boomerang and kidney shapes, and set headlines in a geometric face; keep the white ground."
+      },
+      {
+        "request": "more trippy",
+        "toward": "psychedelic",
+        "how": "Saturate the concentric rings to magenta, orange and violet, let the lettering warp, and drop the white ground; keep the circular forms."
+      },
+      {
+        "request": "bolder and pop",
+        "toward": "pop-art-web",
+        "how": "Add a 3px black outline to shapes, halftone dots at 8px and primary yellow; keep the extended headline and the tilted axis."
+      },
+      {
+        "request": "more rigorous",
+        "toward": "swiss-international",
+        "how": "Set the radius to 0px, use one neo-grotesque typeface, and align everything to a 12-column grid; keep the single orange accent."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 400,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 600,
+      "accent": "case",
+      "display_tracking": "0.06em",
+      "display_leading": 1.1,
+      "display_case": "uppercase",
+      "body_leading": 1.55,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "circle",
+      "pack": {
+        "id": "ph-fill",
+        "why": "Solid forms with round terminals on a circle tile: the moulded plastic of a capsule window, and metaphors (rocket, planet, satellite) that the era knew."
+      }
+    },
+    "art": {
+      "recipe": "psychedelic",
+      "pattern": "starburst",
+      "seed": 5
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "left",
+      "density": "regular",
+      "tilt_deg": 3
+    },
+    "ground": {
+      "kind": "rays",
+      "why": "Space-age graphics show a launch: rays and orbits that leave one point on the horizon."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#F7F9FB",
+      "--color-surface": "#E6ECF3",
+      "--color-text": "#0B2A5B",
+      "--color-muted": "#4A5B73",
+      "--color-primary": "#0B2A5B",
+      "--color-accent": "#F26B1D",
+      "--color-border": "#B9C3CF",
+      "--font-sans": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
+      "--font-display": "\"Michroma\", \"Eurostile\", \"Microgramma\", \"Helvetica Neue\", sans-serif",
+      "--border-radius": "24px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 8px 24px rgba(11, 42, 91, 0.12)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.22, 0.8, 0.3, 1)",
+      "--duration": "360ms",
+      "--color-highlight": "#2D5BE3",
+      "--grid-columns": "12",
+      "--grid-gutter": "24px",
+      "--tracking-display": "0.06em",
+      "--leading-body": "1.55"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#F7F9FB] text-[#0B2A5B] font-sans antialiased grid grid-cols-12 gap-x-6 px-6 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "col-span-12 md:col-span-9 text-4xl md:text-6xl uppercase leading-[1.1] tracking-[0.06em] -rotate-3"
+      },
+      {
+        "element": "card",
+        "classes": "rounded-3xl border border-[#B9C3CF] bg-[#E6ECF3] p-6 shadow-[0_8px_24px_rgba(11,42,91,0.12)]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-full bg-[#0B2A5B] px-8 py-3 text-xs font-semibold uppercase tracking-[0.12em] text-white transition-transform duration-[360ms] hover:-translate-y-1 hover:bg-[#F26B1D] hover:text-[#0B2A5B]"
+      },
+      {
+        "element": "image mask",
+        "classes": "aspect-square rounded-full object-cover border border-[#B9C3CF]"
+      },
+      {
+        "element": "label",
+        "classes": "text-[11px] font-semibold uppercase tracking-[0.12em] text-[#4A5B73]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#0B2A5B",
+        "#F26B1D"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#F26B1D",
+        "#0B2A5B"
+      ]
+    },
+    "corner_radius": {
+      "min": 12,
+      "max": 36
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.5,
+      "min": 1.414,
+      "max": 1.618
+    }
+  },
+  "sources": [
+    {
+      "title": "Expo 67 Montreal and EXPO '70 Osaka official posters and pavilion graphics"
+    },
+    {
+      "title": "Theo Inglis, Mid-Century Modern Graphic Design (Batsford, 2019)"
+    },
+    {
+      "title": "Design Reviewed: an archive of 20th-century graphic design and print",
+      "url": "https://designreviewed.com"
+    }
+  ]
+}

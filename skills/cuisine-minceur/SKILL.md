@@ -92,6 +92,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Primary:** sole · shellfish · seasonal-greens · root-vegetables · cheese · fine-herbs · lemon · chicken
 - **Secondary:** carrot · asparagus · leek · vinegar · orchard-fruit · berries · honey · egg · wine · ginger · tarragon · salmon
 - **Avoid:** butter · cream · lard · cane-sugar
+- **In europe:** yes
 - **Rule:** Choose lean fish, shellfish, poultry and vegetables; use fromage blanc and herbs as the main sauce makers, and add a little oil or butter only where the dish cannot do without it.
 
 ## Technique
@@ -218,7 +219,6 @@ The calm of a meal that is both a pleasure and a cure: clear, bright and light o
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
 - [Michel Guérard at Eugénie-les-Bains, 2016](https://commons.wikimedia.org/wiki/File:Michel_Gu%C3%A9rard-Eug%C3%A9nie-Les-Bains-_2016_-Photo_-Jean-Louis_Le_Breton.jpg) (Pepelouis, 2016): image, CC BY 4.0. Pepelouis, via Wikimedia Commons
-- [Les Prés d'Eugénie, a building of the spa hotel](https://commons.wikimedia.org/wiki/File:Eug%C3%A9nie-les-Bains_Les_Pr%C3%A9s_d%27Eug%C3%A9nie_dependance.jpg) (Wolfgang Moroder, 2015): image, CC BY-SA 3.0. Wolfgang Moroder, via Wikimedia Commons
 
 ## Sources
 

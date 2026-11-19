@@ -1,12 +1,12 @@
 # Contributing
 
-A contribution is one JSON file in `data/<domain>/styles/`, `data/people/`, `data/techniques/` or `data/orgs/`. The build makes all other files. Each style must pass the six curation rules below. The validator stops the build on each miss.
+A contribution is one JSON file in `data/<domain>/styles/`, `data/people/`, `data/techniques/`, `data/orgs/` or `data/funding/`. The build makes all other files. Each style must pass the six curation rules below. The validator stops the build on each miss.
 
 ## Procedure
 
-1. Copy `data/design/styles/swiss-international.json` to `data/design/styles/<id>.json`.
+1. Copy `data/internet/styles/swiss-international.json` to `data/internet/styles/<id>.json`.
 2. Set `id` to the file name without the extension. The id is kebab-case and unique across all domains.
-3. Fill each field. The schema (`schema/domains/design.schema.json`) describes each one.
+3. Fill each field. The schema (`schema/domains/internet.schema.json`) describes each one.
 4. Make the style pass the six curation rules (see "The six curation rules" below):
    - Name at least one person, with a role, in `data/people/` (see "A new person").
    - Name the 1 to 3 top techniques of the style in `data/techniques/` (see "A technique"). If a technique is there, add the style id to its `styles` and to the adoption of the style's domain.
@@ -141,11 +141,23 @@ One organisation has one record, also when it has two roles (a gallery that was 
 
 1. Write `data/orgs/<id>.json`. The schema is `schema/org.schema.json`. The id is the file name.
 2. Set `founded` and `closed` from an open source. If it is still open, set `closed` to null. Do not guess a year.
-3. In `styles`, name each style that the organisation carried, with its part: `launched`, `shaped`, `exhibited`, `published`, `taught`, `made`, `sold`, `gathered`, `opposed` or `revived`.
+3. In `styles`, name each style that the organisation carried, with its part: `launched`, `shaped`, `exhibited`, `published`, `taught`, `made`, `sold`, `gathered`, `opposed`, `revived` or `funded` (it paid for the work; write the flows in `data/funding/`).
 4. In `people`, name the people in `data/people/` who ran it or worked through it. For a group, use `members` instead: each person with a role (`founder`, `member`, `leader`, `guest`) and the years.
 5. Optional: `statement` (the manifesto, in your own words, with a link), `moves` (dated events, each with a source) and `relations` (`split_from`, `successor_of`, `rival_of`, `member_of`, all ids in `data/orgs/`).
 6. Write the summary in your own words. Give one or two sources.
 7. Run `npm run build`. The compiler adds an "Organisations" section to each style that the organisation names, and writes `graph/orgs.json`.
+
+## A funding flow
+
+A funding flow is one payment or one paid support: who paid whom, when, and for what. The backer is a person in `data/people/` or an organisation in `data/orgs/`. The receiver is a person, an organisation or a style.
+
+1. Write `data/funding/<id>.json`. The schema is `schema/funding.schema.json`. The id is `<from>--<to>`. If one pair has more than one flow, add `-<year>`.
+2. Set `kind`: `commission`, `stipend`, `purchase`, `exhibition`, `dealer-contract`, `publishing`, `residency`, `prize`, `grant`, `state-programme`, `investment`, `acquisition`, `crowdfunding`, `platform-fund` or `employment`.
+3. Set `years` to the start and the end from an open source. If the end is not known, set it to null. If the start is not known, do not write the flow.
+4. If the receiver is a person or an organisation, name the styles that the money helped in `styles`. Send money to a style only when it went to the movement as a whole.
+5. Cite at least one source that states the flow. Give an `amount` only when a source gives it, and set `amount.source` to the index of that source. The `amount.year` is inside `years`.
+6. Set `confidence`: `documented` (a primary record or a scholarly work), `reported` (an encyclopaedia or a press account) or `contested`. A contested flow cites each side.
+7. Run `npm run build`. The build writes `graph/money.json`: the flows, and the flows for each style and each backer.
 
 ## A disagreement with a score or an edge
 

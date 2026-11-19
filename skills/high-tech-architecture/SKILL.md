@@ -195,6 +195,7 @@ Ducts, pipes, stairs and cables stay in view on the outside or the ceiling, ofte
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Hyatt Foundation** (foundation, Chicago, ?–now), funded the style. Sponsor of the Pritzker Architecture Prize. The Pritzker family funds the prize, which it founded in 1979.
 - **Team 4** (studio, London, 1963–1967), made the style. A small architecture practice of Norman Foster, Richard Rogers and two partners. Its factory building at Swindon used light steel and glass in the way of the later high-tech.
 
 ## Permutations

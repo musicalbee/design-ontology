@@ -1,0 +1,352 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "liminal-spaces",
+  "domain": "internet",
+  "name": "Liminal spaces",
+  "aliases": [
+    "Liminal space",
+    "The Backrooms look",
+    "Empty places"
+  ],
+  "branch": "core-subcultures",
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2019,
+    "end": null,
+    "label": "2019–now"
+  },
+  "primary_mediums": [
+    "image",
+    "video",
+    "web"
+  ],
+  "summary": "Empty rooms of transit and routine: office corridors, pools, car parks and malls under flat light, with no people. A 2019 image of yellow rooms started the look, and the Backrooms spread it.",
+  "philosophy": {
+    "core_thesis": "An ordinary place with no people and no purpose feels strange: the viewer meets the unease of a threshold.",
+    "design_principles": [
+      "Set the ground in a damp yellow (#C9B96B) or a dull carpet green with a slight grey cast.",
+      "Shoot or render empty rooms from eye height at 160cm, with a single vanishing point at the centre.",
+      "Light the room with flat fluorescent light and no strong shadow; the white point sits at 4000K to 4500K.",
+      "Add a low-grade capture look: JPEG blocks, a 4:3 crop, a 480p to 720p size, a timestamp in mono at 14px.",
+      "Repeat structure: tiled ceilings of 60cm cells, doors and corridors in rows of 6 or more.",
+      "Keep text rare and plain: a room code, a date or a sign in a default sans at 14px to 18px.",
+      "Leave 50% or more of the frame as empty floor and wall."
+    ],
+    "anti_patterns": [
+      "People and faces in the frame",
+      "Warm, cosy lighting",
+      "Bright saturated colour",
+      "Decorative type and ornament",
+      "Dramatic perspective and camera moves",
+      "Clean, high-resolution gloss"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "dimensionality": 4,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 1
+  },
+  "layout": {
+    "grid_mechanics": "A central one-point perspective: the vanishing point sits at 50% width and 45% height, and rows of lights and doors repeat toward it.",
+    "whitespace_ratio": "50% to 70% of the frame stays empty; the spacing scale is 8, 16, 32 and 64px.",
+    "alignment_rules": "Strict centre axis; the UI text sits in the lower left corner as a caption.",
+    "container_geometry": "Sharp rectangles with no radius; thin 1px frames; a 4:3 viewport with a camcorder-style bar of 24px."
+  },
+  "typography": {
+    "classifications": [
+      "system sans",
+      "monospace",
+      "default sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Libre Franklin",
+        "body": "Courier Prime",
+        "note": "A plain, signage-like sans with a typewriter text face for timestamps."
+      },
+      {
+        "display": "Arimo",
+        "body": "Share Tech Mono",
+        "note": "An open Arial match for door signs, with a technical mono for the clock."
+      },
+      {
+        "display": "Roboto Mono",
+        "body": "Roboto Mono",
+        "note": "One mono face for a security-camera overlay."
+      }
+    ],
+    "tracking": "Display 0.02em; mono 0.05em.",
+    "leading": "Display 1.2; body 1.5.",
+    "hierarchy_rules": [
+      "Use weights 400 and 600.",
+      "Use sizes 14, 16, 24 and 40px.",
+      "Set the room code and the date in mono capitals.",
+      "Set at most 1 heading and 1 caption on a screen."
+    ]
+  },
+  "color": {
+    "palette_structure": "Dull yellow, carpet green and fluorescent white, with a dark grey for the text.",
+    "palette": [
+      {
+        "name": "Wallpaper Yellow",
+        "hex": "#C9B96B",
+        "role": "background"
+      },
+      {
+        "name": "Ceiling White",
+        "hex": "#EDEBDD",
+        "role": "surface"
+      },
+      {
+        "name": "Carpet Olive",
+        "hex": "#6F6A3C",
+        "role": "primary"
+      },
+      {
+        "name": "Pool Teal",
+        "hex": "#6FA8A3",
+        "role": "accent"
+      },
+      {
+        "name": "Corridor Grey",
+        "hex": "#2A2A28",
+        "role": "text"
+      },
+      {
+        "name": "Damp Brown",
+        "hex": "#8A7A4A",
+        "role": "border"
+      },
+      {
+        "name": "Mid Grey",
+        "hex": "#4B4A42",
+        "role": "muted text"
+      }
+    ],
+    "contrast_rules": "Corridor grey on wallpaper yellow holds 6:1; grey on ceiling white holds 12:1; teal carries only the pool and water cues.",
+    "surface_treatment": "Flat, slightly dirty fills with a 3% noise and a 2% vignette; photographs look like a cheap camera.",
+    "light_and_shadow": "Flat overhead light; no hard shadow; a faint hum glow of 8px at 10% near lamps."
+  },
+  "materiality": {
+    "surface_simulation": "Carpet, laminate, vinyl floor, ceiling tile, tiled pool wall and painted concrete.",
+    "border_rules": "A 1px grey line on frames; a 24px bar at the bottom for the timestamp.",
+    "blur_and_elevation": "No blur; layers are separated by a 1px line; JPEG block noise at 6% opacity."
+  },
+  "ornamentation_details": {
+    "iconography": "Plain outline icons at 20px with 1.5px strokes and square caps; arrow and exit signs only.",
+    "illustration": "Empty corridors, stairwells, pools, car parks and mall atriums; no figure and no ornament.",
+    "decorative_elements": [
+      "tiled ceiling grid",
+      "timestamp overlay",
+      "exit sign",
+      "repeated door row",
+      "fluorescent panel"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Very slow: a camera drift of 1% per second toward the vanishing point; cuts have no easing; a lamp flicker of 2 frames each 12s.",
+    "easing": "linear",
+    "duration_ms": 800,
+    "hover_and_active": "Hover shifts the caption by 0px and underlines the link; active state cuts to black for 2 frames."
+  },
+  "lineage": {
+    "evolved_from": [
+      "vaporwave"
+    ],
+    "rebelled_against": [
+      "corporate-memphis"
+    ],
+    "hybridized_with": [
+      "dreamcore"
+    ],
+    "echoes": [
+      "new-topographics",
+      "found-footage",
+      "brutalist-architecture",
+      "low-poly-ps1-revival"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels uneasy, alone and held in a place between two states.",
+    "keywords": [
+      "uncanny",
+      "empty",
+      "nostalgic",
+      "eerie",
+      "still",
+      "anxious"
+    ],
+    "brand_archetypes": [
+      "explorer",
+      "magician"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "liminal spaces",
+      "the backrooms",
+      "empty corridor",
+      "fluorescent light",
+      "uncanny empty",
+      "abandoned mall",
+      "pool rooms",
+      "transit space"
+    ],
+    "use_cases": [
+      "horror and game pages",
+      "music and art releases",
+      "found-footage and film credits",
+      "mood boards for places"
+    ],
+    "avoid_when": [
+      "The brand needs warmth, people or friendly service.",
+      "The page must sell with energy and colour.",
+      "The audience reads long text in a calm setting."
+    ],
+    "modifiers": [
+      {
+        "request": "more dreamy",
+        "toward": "ethereal-web",
+        "how": "Add soft pastel haze, bloom and a pale sky; keep the empty space."
+      },
+      {
+        "request": "more digital",
+        "toward": "cybercore-web",
+        "how": "Add scan lines, a green terminal grid and split colour channels."
+      },
+      {
+        "request": "calmer",
+        "toward": "minimalism-web",
+        "how": "Replace the yellow with white and remove the timestamp and noise."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 600,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 400,
+      "accent": "size",
+      "display_tracking": "0.02em",
+      "display_leading": 1.2,
+      "display_case": "none",
+      "body_leading": 1.5,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "square",
+      "linejoin": "miter",
+      "container": "none",
+      "pack": {
+        "id": "carbon",
+        "why": "A plain technical outline family that looks like signage and system icons."
+      }
+    },
+    "art": {
+      "recipe": "plain",
+      "pattern": "grid",
+      "seed": 23
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "center",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "tiles",
+      "why": "Liminal spaces stand on a grid of ceiling and floor tiles that runs toward one vanishing point."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#C9B96B",
+      "--color-surface": "#EDEBDD",
+      "--color-text": "#2A2A28",
+      "--color-muted": "#4B4A42",
+      "--color-primary": "#6F6A3C",
+      "--color-accent": "#6FA8A3",
+      "--color-border": "#8A7A4A",
+      "--font-sans": "\"Courier Prime\", \"Share Tech Mono\", monospace",
+      "--font-display": "\"Libre Franklin\", \"Arimo\", Arial, sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "linear",
+      "--duration": "800ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#C9B96B] text-[#2A2A28] font-mono antialiased px-6 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "font-[family-name:Libre_Franklin] text-3xl md:text-5xl font-semibold leading-[1.2] tracking-[0.02em]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.5] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border border-[#8A7A4A] bg-[#EDEBDD] p-6"
+      },
+      {
+        "element": "button",
+        "classes": "border border-[#2A2A28] bg-[#6F6A3C] px-5 py-2.5 text-sm text-[#F5F3E6] hover:bg-[#2A2A28]"
+      },
+      {
+        "element": "label",
+        "classes": "font-mono text-sm tracking-[0.05em] text-[#4B4A42]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#6F6A3C",
+        "#6FA8A3",
+        "#2A2A28"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#6FA8A3",
+        "#8A7A4A"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 0
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 16
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.125,
+      "max": 1.414
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Liminal space (aesthetic)",
+      "url": "https://en.wikipedia.org/wiki/Liminal_space_(aesthetic)"
+    },
+    {
+      "title": "Wikipedia: Backrooms",
+      "url": "https://en.wikipedia.org/wiki/Backrooms"
+    }
+  ]
+}

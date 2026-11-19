@@ -1,0 +1,342 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "dreamcore",
+  "domain": "internet",
+  "name": "Dreamcore",
+  "aliases": [
+    "Dream core",
+    "Dream aesthetic"
+  ],
+  "branch": "net-aesthetics",
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2019,
+    "end": null,
+    "label": "2019–now"
+  },
+  "primary_mediums": [
+    "image",
+    "web"
+  ],
+  "summary": "Soft, hazy images of childhood rooms, pastel skies, old toys and stairways, with a faint glow and blurry text. It looks like a half-remembered dream and grew on Tumblr, Reddit and video sites.",
+  "philosophy": {
+    "core_thesis": "Show a memory as a dream does: soft, glowing and slightly wrong, with the details out of focus.",
+    "design_principles": [
+      "Set the ground in pastel gradient from #FBE3F0 to #CFE3FF at 180°.",
+      "Apply a bloom of 12px to 24px on all light areas and lower the contrast by 15% to 25%.",
+      "Use one soft focal image (a room, a toy or a sky) at 50% to 70% of the frame.",
+      "Add one odd detail: a door in a field, a stair with no top or a repeated window.",
+      "Set text in a thin serif or a rounded sans at 14px to 28px, in 60% opacity white or lilac.",
+      "Add grain at 4% to 6% and a vignette of 15%.",
+      "Keep motion slow: loops of 8s to 20s with cross-fades of 1.2s."
+    ],
+    "anti_patterns": [
+      "Hard black voids and red warning text",
+      "Sharp, high-contrast photography",
+      "Dense data labels",
+      "Neon colours",
+      "Hard grid layouts",
+      "Bold, loud display type",
+      "Glossy 3D effects"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 3,
+    "grid_rigidity": 2,
+    "skeuomorphic_realism": 4,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "One image fills the frame; text sits in a single block on a 4-column grid with 32px gutters.",
+    "whitespace_ratio": "30% to 45% of the surface is soft sky or empty wall; the spacing scale is 8, 16, 32 and 64px.",
+    "alignment_rules": "Centred focal image and a small text block at the lower third; the image may drift 12px off centre.",
+    "container_geometry": "Panels with a 24px radius or none; soft, feathered edges of 16px to 32px; circles for light spots."
+  },
+  "typography": {
+    "classifications": [
+      "thin serif",
+      "rounded sans",
+      "handwriting"
+    ],
+    "font_pairings": [
+      {
+        "display": "Cormorant Garamond",
+        "body": "Nunito",
+        "note": "A thin, soft serif display face with a round text face."
+      },
+      {
+        "display": "Playfair Display",
+        "body": "Karla",
+        "note": "A high-contrast serif with a plain sans for text."
+      },
+      {
+        "display": "Caveat",
+        "body": "Quicksand",
+        "note": "A handwriting face for notes, with a round sans text face."
+      }
+    ],
+    "tracking": "Display takes +0.04em; body stays at 0.01em.",
+    "leading": "Display 1.2; body 1.7.",
+    "hierarchy_rules": [
+      "Use two weights: light (300) and regular (400).",
+      "Use sizes 14, 18, 28 and 56px.",
+      "Set text in 60% to 80% opacity.",
+      "Use italic for one line per frame."
+    ]
+  },
+  "color": {
+    "palette_structure": "Pastel pink, sky blue and lilac on a pale ground, with one warm light.",
+    "palette": [
+      {
+        "name": "Dream Haze",
+        "hex": "#FBE3F0",
+        "role": "background"
+      },
+      {
+        "name": "Sky Wash",
+        "hex": "#CFE3FF",
+        "role": "surface"
+      },
+      {
+        "name": "Soft Lilac",
+        "hex": "#B9A5E8",
+        "role": "primary"
+      },
+      {
+        "name": "Warm Glow",
+        "hex": "#FFD9A0",
+        "role": "accent"
+      },
+      {
+        "name": "Faded Ink",
+        "hex": "#4B3F72",
+        "role": "text"
+      },
+      {
+        "name": "Pale Mint",
+        "hex": "#D4F1E4",
+        "role": "second accent"
+      }
+    ],
+    "contrast_rules": "Text in faded ink on dream haze holds at least 7:1; pale tints carry fields and glow, not text.",
+    "surface_treatment": "Soft 2-stop gradients; bloom on lights; grain of 4% to 6%; low contrast.",
+    "light_and_shadow": "A warm glow from one side; no hard shadow; shadows are tinted lilac at 20%."
+  },
+  "materiality": {
+    "surface_simulation": "A faded photograph or a memory through frosted glass.",
+    "border_rules": "No border; feathered edges of 16px to 32px; a 1px white line at 40% on panels.",
+    "blur_and_elevation": "Blur of 8px to 24px on background layers; panels have a 24px soft shadow in lilac at 20%."
+  },
+  "ornamentation_details": {
+    "iconography": "Thin outline icons at 24px with round caps: stars, clouds, a door and a moon.",
+    "illustration": "Pastel rooms, clouds, toys, stairways and old screens, with bloom and a soft colour grade.",
+    "decorative_elements": [
+      "cloud",
+      "star sparkle",
+      "door in a field",
+      "stair",
+      "light bloom"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Slow cross-fades of 1.2s; a drift of 12px over 10s; light spots pulse at 6s per cycle.",
+    "easing": "cubic-bezier(0.45, 0, 0.55, 1)",
+    "duration_ms": 1200,
+    "hover_and_active": "Hover raises the bloom by 8px and the text to full opacity; the active state fades the image by 20%."
+  },
+  "lineage": {
+    "evolved_from": [
+      "vaporwave"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "vaporwave",
+      "frutiger-aero"
+    ],
+    "echoes": [
+      "y2k-digicam"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels gentle nostalgia and a soft, quiet unease, as after a dream.",
+    "keywords": [
+      "dreamy",
+      "nostalgic",
+      "soft",
+      "hazy",
+      "liminal",
+      "gentle"
+    ],
+    "brand_archetypes": [
+      "innocent",
+      "magician",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "dreamcore",
+      "dream aesthetic",
+      "pastel nostalgia",
+      "childhood memory",
+      "hazy dream",
+      "soft glow nostalgia",
+      "dream room"
+    ],
+    "use_cases": [
+      "music and ambient artwork",
+      "wellness and sleep apps with a soft tone",
+      "indie game pages",
+      "photo zines"
+    ],
+    "avoid_when": [
+      "The page needs sharp, fast reading.",
+      "The product is technical or financial.",
+      "The brand needs a loud, high-energy voice."
+    ],
+    "modifiers": [
+      {
+        "request": "creepier",
+        "toward": "weirdcore",
+        "how": "Lower the colour, add a black void and one line of red text."
+      },
+      {
+        "request": "more glossy",
+        "toward": "frutiger-aero",
+        "how": "Add glass bubbles, a sky photo and a green accent."
+      },
+      {
+        "request": "more airy",
+        "toward": "ethereal-web",
+        "how": "Add an aurora gradient, a blur of 40px and a thin sans display face."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 300,
+      "subhead_weight": 300,
+      "body_weight": 300,
+      "strong_weight": 700,
+      "label_weight": 300,
+      "accent": "weight",
+      "display_tracking": "0.04em",
+      "display_leading": 1.2,
+      "display_case": "none",
+      "body_leading": 1.7,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "circle",
+      "pack": {
+        "id": "solar-linear",
+        "why": "Thin, rounded line icons match the light, soft look of a dream image."
+      }
+    },
+    "art": {
+      "recipe": "glass",
+      "pattern": "none",
+      "seed": 19
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "soft",
+      "why": "Dreamcore sits in soft light with no hard edge, so the ground is a haze of overlapping soft gradients."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#FBE3F0",
+      "--color-surface": "#FFFFFF",
+      "--color-text": "#4B3F72",
+      "--color-muted": "#6B5F94",
+      "--color-primary": "#B9A5E8",
+      "--color-accent": "#FFD9A0",
+      "--color-border": "#E5D6F5",
+      "--font-sans": "\"Nunito\", \"Karla\", sans-serif",
+      "--font-display": "\"Cormorant Garamond\", \"Playfair Display\", serif",
+      "--border-radius": "24px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 12px 24px rgba(185, 165, 232, 0.25)",
+      "--backdrop-filter": "blur(12px)",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.45, 0, 0.55, 1)",
+      "--duration": "1200ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#FBE3F0] text-[#4B3F72] font-sans antialiased px-6 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "font-serif text-4xl md:text-6xl font-light leading-[1.2] tracking-[0.04em]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border border-[#E5D6F5] rounded-3xl bg-[#FFFFFF]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-full border border-[#B9A5E8] bg-[#B9A5E8] px-6 py-3 text-sm text-[#2A2050] transition-all duration-[1200ms] hover:shadow-[0_0_24px_#FFD9A0]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs uppercase tracking-widest"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#B9A5E8",
+        "#CFE3FF",
+        "#FFD9A0"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#FFD9A0",
+        "#D4F1E4"
+      ]
+    },
+    "corner_radius": {
+      "min": 8,
+      "max": 32
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.5,
+      "min": 1.25,
+      "max": 1.618
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia, Dreamcore",
+      "url": "https://en.wikipedia.org/wiki/Weirdcore"
+    },
+    {
+      "title": "Wikipedia, Yume Nikki",
+      "url": "https://en.wikipedia.org/wiki/Yume_Nikki"
+    }
+  ]
+}

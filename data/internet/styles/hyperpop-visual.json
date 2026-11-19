@@ -1,0 +1,354 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "hyperpop-visual",
+  "domain": "internet",
+  "name": "Hyperpop Visual",
+  "aliases": [
+    "Hyperpop aesthetic",
+    "Hyperpop"
+  ],
+  "branch": "net-aesthetics",
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2019,
+    "end": null,
+    "label": "2019–now"
+  },
+  "primary_mediums": [
+    "image",
+    "video",
+    "mobile",
+    "web"
+  ],
+  "summary": "Shiny chrome, candy colours, cute 3D shapes, Web 2.0 gloss and crowded collage, with pixel type and stickers. It links the PC Music look to a 2019 playlist and to short-video culture.",
+  "philosophy": {
+    "core_thesis": "Make pop too sweet and too bright: take cute and chrome so far that they look artificial and strange.",
+    "design_principles": [
+      "Set a pastel gradient ground from #FFC8F0 to #BDF0FF at 160°.",
+      "Place one chrome or glossy 3D object at 40% to 60% of the frame, with a hard white highlight.",
+      "Layer 4 to 8 stickers, stars and Web 2.0 buttons at tilts of -20° to 20°.",
+      "Set display text in a bold, round or pixel face at 48px to 120px, with a 2px dark outline.",
+      "Use hot pink (#FF2FB3) and electric blue (#2F6BFF) on at least 20% of the surface.",
+      "Add a gloss band of 40% height on buttons and panels, in white at 40% opacity.",
+      "Cut video edits every 6 to 15 frames with zooms and flash frames."
+    ],
+    "anti_patterns": [
+      "Muted, desaturated palettes",
+      "Minimal, quiet layouts",
+      "Realistic natural materials",
+      "Serious, formal serif type",
+      "Slow, long takes",
+      "Hand-drawn rough texture",
+      "Dark, moody lighting"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 5,
+    "dimensionality": 4,
+    "grid_rigidity": 1,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 5
+  },
+  "layout": {
+    "grid_mechanics": "A free collage on a 6-column base with 8px gutters; objects overlap by 16px to 64px and break the grid.",
+    "whitespace_ratio": "5% to 15% of the surface stays empty; the spacing scale is 4, 8, 16 and 32px.",
+    "alignment_rules": "A centred main object with stickers around it; text tilts by up to 10°.",
+    "container_geometry": "Pill buttons and panels with a 20px radius, glossy edges, stickers with a 4px white border."
+  },
+  "typography": {
+    "classifications": [
+      "rounded display",
+      "pixel",
+      "wide sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Bagel Fat One",
+        "body": "Nunito",
+        "note": "A fat, bubbly display face with a round text face."
+      },
+      {
+        "display": "Pixelify Sans",
+        "body": "DM Sans",
+        "note": "A pixel display face with a plain text face."
+      },
+      {
+        "display": "Climate Crisis",
+        "body": "Space Grotesk",
+        "note": "A heavy display face for a loud title, with a plain sans."
+      }
+    ],
+    "tracking": "Display takes 0 to +0.02em; labels take +0.06em.",
+    "leading": "Display 1.0; body 1.5.",
+    "hierarchy_rules": [
+      "Use two weights: regular (400) and bold (800).",
+      "Use sizes 12, 20, 48 and 96px.",
+      "Set display text with a 2px outline and a drop of 3px.",
+      "Mix 2 type faces in one headline."
+    ]
+  },
+  "color": {
+    "palette_structure": "Candy pink, electric blue and chrome silver on a pastel ground, with one yellow spark.",
+    "palette": [
+      {
+        "name": "Cotton Pink",
+        "hex": "#FFC8F0",
+        "role": "background"
+      },
+      {
+        "name": "Hot Pink",
+        "hex": "#FF2FB3",
+        "role": "primary"
+      },
+      {
+        "name": "Electric Blue",
+        "hex": "#2F6BFF",
+        "role": "accent"
+      },
+      {
+        "name": "Ice Blue",
+        "hex": "#BDF0FF",
+        "role": "surface"
+      },
+      {
+        "name": "Chrome Silver",
+        "hex": "#D8DCE8",
+        "role": "second accent"
+      },
+      {
+        "name": "Spark Yellow",
+        "hex": "#FFF04D",
+        "role": "highlight"
+      },
+      {
+        "name": "Ink Navy",
+        "hex": "#1A1033",
+        "role": "text"
+      }
+    ],
+    "contrast_rules": "Text in ink navy on cotton pink holds at least 12:1; hot pink and blue carry fills and outlines, not long text.",
+    "surface_treatment": "Pastel gradients, chrome with hard highlights, gloss bands and glitter noise at 4%.",
+    "light_and_shadow": "A hard white highlight on every glossy form; a 4px offset shadow in ink navy; no soft blur shadow."
+  },
+  "materiality": {
+    "surface_simulation": "Chrome, candy plastic and early web gloss, rendered in 3D.",
+    "border_rules": "A 2px ink navy outline on text and stickers; a 4px white border on stickers.",
+    "blur_and_elevation": "No blur; a 4px offset shadow in ink navy; glossy bands for depth."
+  },
+  "ornamentation_details": {
+    "iconography": "Solid, round icons at 24px with a 2px outline: hearts, stars, sparkles and Web 2.0 buttons.",
+    "illustration": "3D chrome hearts, bunnies and shapes, sticker clusters, glitter, and cut-out faces on collage.",
+    "decorative_elements": [
+      "chrome heart",
+      "sparkle",
+      "sticker cluster",
+      "gloss band",
+      "pixel star"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Objects bounce with a 120% overshoot over 400ms; stickers pop in with a scale from 0 to 1; edits cut every 6 to 15 frames.",
+    "easing": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+    "duration_ms": 400,
+    "hover_and_active": "Hover scales the sticker to 110% and tilts it by 6°; the active state squashes it to 95%."
+  },
+  "lineage": {
+    "evolved_from": [
+      "y2k-aesthetic",
+      "frutiger-aero"
+    ],
+    "rebelled_against": [
+      "minimalism-web"
+    ],
+    "hybridized_with": [
+      "glitchcore",
+      "vaporwave"
+    ],
+    "echoes": [
+      "music-video",
+      "vertical-short-form"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels a sweet, loud rush that is fun and a little artificial.",
+    "keywords": [
+      "glossy",
+      "sweet",
+      "chaotic",
+      "artificial",
+      "playful",
+      "maximal"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "creator",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "hyperpop",
+      "hyperpop aesthetic",
+      "chrome heart",
+      "candy chrome",
+      "PC Music look",
+      "sticker collage",
+      "glossy maximal"
+    ],
+    "use_cases": [
+      "music releases and artist pages",
+      "fashion and beauty drops for young buyers",
+      "short-video edits",
+      "event posters"
+    ],
+    "avoid_when": [
+      "The brand needs a quiet, trusted tone.",
+      "The page has dense text or tables.",
+      "The audience is formal or conservative."
+    ],
+    "modifiers": [
+      {
+        "request": "more chaos",
+        "toward": "glitchcore",
+        "how": "Use a black ground, split the colour channels and cut the edit faster."
+      },
+      {
+        "request": "more calm",
+        "toward": "dreamcore",
+        "how": "Soften the colours, add bloom and remove the stickers."
+      },
+      {
+        "request": "more classic",
+        "toward": "y2k-aesthetic",
+        "how": "Reduce the layers to 2 or 3, keep the chrome and use a silver and baby blue palette."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 800,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "colour",
+      "display_tracking": "0.01em",
+      "display_leading": 1.0,
+      "display_case": "none",
+      "body_leading": 1.5,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "butt",
+      "linejoin": "miter",
+      "container": "square",
+      "pack": {
+        "id": "mingcute-fill",
+        "why": "Filled, round icons suit the candy, sticker-like forms of the style."
+      }
+    },
+    "art": {
+      "recipe": "memphis",
+      "pattern": "starburst",
+      "seed": 53
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "compact",
+      "tilt_deg": -2
+    },
+    "ground": {
+      "kind": "confetti",
+      "why": "Hyperpop scatters stickers and sparks over a pastel ground, so the ground is confetti."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#FFC8F0",
+      "--color-surface": "#BDF0FF",
+      "--color-text": "#1A1033",
+      "--color-muted": "#4A3D6B",
+      "--color-primary": "#FF2FB3",
+      "--color-accent": "#2F6BFF",
+      "--color-border": "#1A1033",
+      "--font-sans": "\"Nunito\", \"DM Sans\", sans-serif",
+      "--font-display": "\"Bagel Fat One\", \"Pixelify Sans\", sans-serif",
+      "--border-radius": "20px",
+      "--border-width": "2px",
+      "--shadow-elevation": "4px 4px 0 #1A1033",
+      "--backdrop-filter": "none",
+      "--space-unit": "4px",
+      "--ease": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+      "--duration": "400ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#FFC8F0] text-[#1A1033] font-sans antialiased px-6 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-5xl md:text-8xl font-extrabold leading-none text-[#FF2FB3] [text-shadow:3px_3px_0_#1A1033]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border border-[#1A1033] rounded-[20px] bg-[#BDF0FF]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-full border-2 border-[#1A1033] bg-[#FF2FB3] px-6 py-3 text-sm font-bold text-[#1A1033] shadow-[4px_4px_0_#1A1033] transition-transform duration-[400ms] hover:scale-110 hover:-rotate-6"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs uppercase tracking-widest"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#FF2FB3",
+        "#2F6BFF",
+        "#FFF04D"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#2F6BFF",
+        "#FF2FB3",
+        "#FFF04D"
+      ]
+    },
+    "corner_radius": {
+      "min": 8,
+      "max": 40
+    },
+    "grid_step": {
+      "min": 2,
+      "max": 8
+    },
+    "type_scale_ratio": {
+      "default": 1.5,
+      "min": 1.25,
+      "max": 1.618
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia, Hyperpop",
+      "url": "https://en.wikipedia.org/wiki/Hyperpop"
+    },
+    {
+      "title": "Wikipedia, PC Music",
+      "url": "https://en.wikipedia.org/wiki/PC_Music"
+    }
+  ]
+}

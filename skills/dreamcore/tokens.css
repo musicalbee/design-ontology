@@ -1,0 +1,130 @@
+/*
+ * Dreamcore — tokens
+ * Generated from data/internet/styles/dreamcore.json by design-ontology. Do not edit.
+ * Use: put data-style="dreamcore" on <html> or on any container.
+ */
+[data-style="dreamcore"] {
+  --color-bg: #FBE3F0;
+  --color-surface: #FFFFFF;
+  --color-text: #4B3F72;
+  --color-muted: #6B5F94;
+  --color-primary: #B9A5E8;
+  --color-accent: #FFD9A0;
+  --color-border: #E5D6F5;
+  --font-sans: "Nunito", "Karla", sans-serif;
+  --font-display: "Cormorant Garamond", "Playfair Display", serif;
+  --border-radius: 24px;
+  --border-width: 1px;
+  --shadow-elevation: 0 12px 24px rgba(185, 165, 232, 0.25);
+  --backdrop-filter: blur(12px);
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.45, 0, 0.55, 1);
+  --duration: 1200ms;
+  --type-ratio: 1.5;
+  --size-small: 10.67px;
+  --size-h3: 36px;
+  --size-h2: 54px;
+  --size-h1: 81px;
+  --color-on-bg: #4B3F72;
+  --color-on-surface: #4B3F72;
+  --color-on-primary: #000000;
+  --color-on-accent: #4B3F72;
+  --color-muted-on-bg: #6B5F94;
+  --color-muted-on-surface: #6B5F94;
+  --color-link: #4B3F72;
+  --color-link-on-surface: #4B3F72;
+  --display-weight: 300;
+  --subhead-weight: 300;
+  --body-weight: 300;
+  --strong-weight: 700;
+  --label-weight: 300;
+  --display-tracking: 0.04em;
+  --display-leading: 1.2;
+  --display-case: none;
+  --body-leading: 1.7;
+  --body-size: 16px;
+  --icon-stroke: 1.5;
+  --ground: radial-gradient(circle at 80% 46%, var(--color-bg) 0 20vmin, transparent calc(20vmin + 1px)),
+    radial-gradient(circle at calc(80% + 3vmin) calc(46% + 3vmin), color-mix(in oklab, var(--color-on-bg) 16%, transparent) 0 18vmin, transparent 27vmin),
+    radial-gradient(circle at calc(80% - 3vmin) calc(46% - 3vmin), rgba(255,255,255,.85) 0 18vmin, transparent 27vmin),
+    radial-gradient(35% 40% at 96% 92%, color-mix(in oklab, var(--color-accent) 35%, transparent), transparent 70%),
+    radial-gradient(30% 35% at 60% 4%, color-mix(in oklab, var(--color-primary) 22%, transparent), transparent 70%),
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="dreamcore"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="dreamcore"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="dreamcore"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="dreamcore"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="dreamcore"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="dreamcore"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="dreamcore"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="dreamcore"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="dreamcore"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="dreamcore"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="dreamcore"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="dreamcore"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="dreamcore"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="dreamcore"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

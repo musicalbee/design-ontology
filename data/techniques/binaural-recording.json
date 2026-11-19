@@ -1,0 +1,44 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "binaural-recording",
+  "name": "Binaural recording",
+  "aliases": [
+    "Binaural audio",
+    "Dummy-head recording",
+    "3D audio"
+  ],
+  "kind": "technology",
+  "summary": "A recording with two mics set at ear distance, so that a sound seems to move around the head of the listener.",
+  "how": [
+    "Set two mics 17cm apart, or use a head with an ear mic on each side.",
+    "Keep the source within 30cm for a close sound.",
+    "Move an object from left to right slowly.",
+    "Give the listener a pair of headphones."
+  ],
+  "origin": {
+    "domain": "film",
+    "year": 1881,
+    "where": "Paris",
+    "note": "Clement Ader sends stereo telephone sound from the Paris Opera to listeners at the Electrical Exhibition, an early use of two-channel sound."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 2010,
+      "circa": true,
+      "via": "Close-mic video channels use binaural mics to make whispers and taps move between the ears.",
+      "styles": [
+        "asmr-video"
+      ]
+    }
+  ],
+  "styles": [
+    "asmr-video"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Binaural recording",
+      "url": "https://en.wikipedia.org/wiki/Binaural_recording"
+    }
+  ]
+}

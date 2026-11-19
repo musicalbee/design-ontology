@@ -1,0 +1,345 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "bauhaus",
+  "domain": "internet",
+  "name": "Bauhaus",
+  "aliases": [
+    "Bauhaus Typography",
+    "New Typography",
+    "Neue Typographie"
+  ],
+  "branch": "web-ui",
+  "era_id": "modernist",
+  "time_period": {
+    "start": 1919,
+    "end": 1933,
+    "label": "1919–1933"
+  },
+  "primary_mediums": [
+    "print",
+    "web"
+  ],
+  "summary": "Primary-colour geometry, sans-serif lower-case type and strict horizontal and vertical axes with bold diagonals. It came from the Bauhaus school in Weimar, Dessau and Berlin, and it fused craft with industrial production.",
+  "philosophy": {
+    "core_thesis": "Form follows function, and a small kit of circle, square and triangle in three primary colours is enough to make any object for mass production.",
+    "design_principles": [
+      "Reduce every composition to the circle, the square and the triangle, and give each shape one primary colour: red, blue or yellow.",
+      "Organise the page on strong horizontal and vertical axes, and add diagonals at 45 degrees for tension.",
+      "Set type in a geometric sans serif, and use heavy bars of 8px to 24px as structural elements.",
+      "Use lower-case lettering for headlines, as in Herbert Bayer's universal alphabet of 1925.",
+      "Contrast scale hard: set one element at 5 to 10 times the size of the smallest one.",
+      "Use black, white and one primary at a time on a surface, and keep the fields flat and opaque.",
+      "Let every element carry information; remove any element that has only a decorative role."
+    ],
+    "anti_patterns": [
+      "Ornamental flourishes, scrollwork or revival typefaces",
+      "Symmetrical centred layouts with a single axis of balance",
+      "Soft gradients, glows and photorealistic textures",
+      "Pastel or tertiary colours in place of the three primaries",
+      "Rounded decorative containers with a radius above 0px",
+      "Serif body text in Fraktur or Didone styles",
+      "Random rotation of elements at angles other than 0, 45 and 90 degrees"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 2,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "An 8-column grid with 16px gutters and an 8px baseline; blocks align to column edges, and 45-degree diagonals cross at grid intersections.",
+    "whitespace_ratio": "30–50% of the surface stays empty; the spacing scale is 8, 16, 32, 64 and 128px.",
+    "alignment_rules": "Asymmetric balance on strict axes; text lines run flush left or along a 90-degree vertical; headlines may sit on a 45-degree line.",
+    "container_geometry": "Sharp rectangles, perfect circles and right triangles with a 0px radius on rectangles; bars have a 2:1 to 8:1 aspect ratio."
+  },
+  "typography": {
+    "classifications": [
+      "geometric sans serif",
+      "stencil display",
+      "slab sans serif"
+    ],
+    "font_pairings": [
+      {
+        "display": "Josefin Sans",
+        "body": "Jost",
+        "note": "Geometric forms in the manner of Futura and Bayer's Universal."
+      },
+      {
+        "display": "Jost",
+        "body": "Jost",
+        "note": "A single-family setting based on Futura proportions."
+      },
+      {
+        "display": "Bungee",
+        "body": "Work Sans",
+        "note": "A heavy signage face for poster-scale headlines only."
+      }
+    ],
+    "tracking": "Display sizes take 0 to +0.02em; body stays at 0; small upper-case labels take +0.1em.",
+    "leading": "Display 1.0; body 1.5; line-heights are multiples of the 8px baseline.",
+    "hierarchy_rules": [
+      "Use two weights only: regular (400) and bold (700).",
+      "Set headlines in lower case, and set one headline word at 5 times the body size.",
+      "Underline and tie headlines to the layout with rules of 4px to 8px.",
+      "Use red, blue and yellow for emphasis one colour at a time, never together on text."
+    ]
+  },
+  "color": {
+    "palette_structure": "Three primaries plus black and off-white; one primary leads at 15–25% of the surface and the others appear in small blocks.",
+    "palette": [
+      {
+        "name": "Paper",
+        "hex": "#F2EBDD",
+        "role": "background"
+      },
+      {
+        "name": "Bauhaus Black",
+        "hex": "#1A1A1A",
+        "role": "text and bars"
+      },
+      {
+        "name": "Bauhaus Red",
+        "hex": "#D62A1F",
+        "role": "primary accent"
+      },
+      {
+        "name": "Bauhaus Blue",
+        "hex": "#1D4E9E",
+        "role": "secondary accent"
+      },
+      {
+        "name": "Bauhaus Yellow",
+        "hex": "#F2B705",
+        "role": "tertiary accent"
+      }
+    ],
+    "contrast_rules": "Body text holds at least 10:1 against paper; yellow carries only black type, at a ratio of 11:1 or more, and never white type.",
+    "surface_treatment": "Flat matte fields of solid colour with a faint paper tone; no gradient and no transparency.",
+    "light_and_shadow": "None. Depth comes only from overlap of flat shapes and from scale contrast."
+  },
+  "materiality": {
+    "surface_simulation": "Printed paper and enamelled flat colour; the surface imitates uncoated stock and does not simulate relief.",
+    "border_rules": "Solid black rules of 2px to 8px used as structural bars; boxes have either a 4px black outline or no outline.",
+    "blur_and_elevation": "No blur and no elevation; box-shadow is none, and overlap carries all depth."
+  },
+  "ornamentation_details": {
+    "iconography": "Solid geometric pictograms built from circle, square and triangle, with square terminals and no outline stroke.",
+    "illustration": "Photomontage, abstract compositions of primary shapes and high-contrast photography cropped to rectangles.",
+    "decorative_elements": [
+      "thick structural bars",
+      "overlapping circles and squares",
+      "45-degree diagonals",
+      "oversized lower-case letters",
+      "stencil lettering"
+    ]
+  },
+  "motion": {
+    "native": false,
+    "transition_physics": "Translation for screen: rigid shapes slide and rotate in 90-degree steps along their axes with no bounce and no overshoot.",
+    "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "duration_ms": 200,
+    "hover_and_active": "Hover swaps the fill to a primary colour with black text; active adds a 4px black bar under the element; nothing scales or glows."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "swiss-international"
+    ],
+    "echoes": [
+      "bauhaus-architecture",
+      "bauhaus-interior"
+    ]
+  },
+  "emotion": {
+    "target_response": "Energy with discipline: the viewer feels that the object is deliberate, rational and built for use.",
+    "keywords": [
+      "geometric",
+      "functional",
+      "constructive",
+      "primary",
+      "industrial",
+      "pioneering"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "bauhaus",
+      "primary colours",
+      "geometric shapes",
+      "form follows function",
+      "dessau",
+      "herbert bayer",
+      "constructivist poster",
+      "red blue yellow",
+      "futura-style"
+    ],
+    "use_cases": [
+      "posters",
+      "design school sites",
+      "museum and exhibition pages",
+      "architecture studios",
+      "furniture brands"
+    ],
+    "avoid_when": [
+      "The brand must feel luxurious, soft or ornate.",
+      "The product needs long-form reading in dense body text on a coloured field.",
+      "The audience expects photorealistic product rendering."
+    ],
+    "modifiers": [
+      {
+        "request": "more neutral",
+        "toward": "swiss-international",
+        "how": "Drop yellow and blue, keep one red accent under 10% of the surface, and set all text flush left in one neo-grotesque; keep the grid."
+      },
+      {
+        "request": "warmer",
+        "toward": "mid-century-modern",
+        "how": "Swap the primaries for mustard, teal and orange, add organic shapes with a 50% radius; keep the asymmetric axes."
+      },
+      {
+        "request": "bolder",
+        "toward": "neo-brutalism-ui",
+        "how": "Raise the bars to 4px black borders and add a hard 6px offset shadow; keep the flat primaries and the 0px radius."
+      },
+      {
+        "request": "more app-like",
+        "toward": "flat-design",
+        "how": "Turn the bars into 1px dividers, use 4px radius buttons filled with one primary; keep the geometric type and the flat fields."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "size",
+      "display_tracking": "0.02em",
+      "display_leading": 1.0,
+      "display_case": "lowercase",
+      "body_leading": 1.5,
+      "body_size": "17px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "butt",
+      "linejoin": "miter",
+      "container": "circle",
+      "pack": {
+        "id": "material-symbols-sharp",
+        "why": "Solid forms with square corners and no round terminal: the cut-paper geometry of the workshop."
+      }
+    },
+    "art": {
+      "recipe": "bauhaus",
+      "pattern": "diagonal",
+      "seed": 1
+    },
+    "layout": {
+      "hero": "split",
+      "align": "left",
+      "density": "regular",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "primaries",
+      "why": "The workshop kit is circle, square and triangle in the three primaries, with one black bar for direction."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#F2EBDD",
+      "--color-surface": "#FFFFFF",
+      "--color-text": "#1A1A1A",
+      "--color-muted": "#4A4A4A",
+      "--color-primary": "#D62A1F",
+      "--color-accent": "#1D4E9E",
+      "--color-border": "#1A1A1A",
+      "--font-sans": "\"Jost\", \"Futura\", \"Century Gothic\", \"Trebuchet MS\", sans-serif",
+      "--font-display": "\"Josefin Sans\", \"Futura\", \"Century Gothic\", sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "4px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "--duration": "200ms",
+      "--color-highlight": "#F2B705",
+      "--grid-columns": "8",
+      "--grid-gutter": "16px",
+      "--leading-body": "1.5"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#F2EBDD] text-[#1A1A1A] font-sans antialiased grid grid-cols-8 gap-x-4 px-4 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "col-span-8 md:col-span-6 text-6xl md:text-8xl font-bold lowercase leading-none tracking-normal"
+      },
+      {
+        "element": "bar",
+        "classes": "col-span-8 h-4 bg-[#D62A1F] mt-8"
+      },
+      {
+        "element": "card",
+        "classes": "rounded-none border-4 border-[#1A1A1A] bg-white p-6"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border-4 border-[#1A1A1A] bg-[#F2B705] px-6 py-3 text-sm font-bold uppercase tracking-[0.1em] text-[#1A1A1A] transition-colors duration-200 hover:bg-[#D62A1F] hover:text-white"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-bold uppercase tracking-[0.1em] text-[#1D4E9E]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#D62A1F",
+        "#1D4E9E",
+        "#1A1A1A"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#1D4E9E",
+        "#D62A1F"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 0
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.333,
+      "min": 1.25,
+      "max": 1.414
+    }
+  },
+  "sources": [
+    {
+      "title": "Magdalena Droste, Bauhaus 1919–1933 (Taschen, 2019)"
+    },
+    {
+      "title": "Jan Tschichold, Die neue Typographie (Brinkmann & Bose, 1928)"
+    }
+  ]
+}

@@ -9,9 +9,10 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "
 const label = (k) => k.replace(/_/g, " ").replace(/^./, (c) => c.toUpperCase());
 const json = (u) => fetch(u).then((r) => (r.ok ? r.json() : null)).catch(() => null);
 const cache = {};
-let styles = [], at = 0, domain, previews = {};
+let styles = [], at = 0, domain, previews = {}, proofs = {};
 
 document.head.insertAdjacentHTML("beforeend", `<style>
+  .swap { margin-left: 6px; padding: 2px 10px; border: 1px solid #c9c6bd; border-radius: 999px; background: #fff; font: inherit; font-size: 12px; cursor: pointer; }
   *, *::before, *::after { box-sizing: border-box; }
   :root { --chrome: #17171a; --chrome-2: #2a2a30; --chrome-line: #44444c; --chrome-ink: #f4f4f5;
     --paper: #f7f6f2; --ink: #1d1d1f; --muted: #5d5d66; --line: #d9d7d0; --accent: #d6336c; }
@@ -80,6 +81,7 @@ document.body.insertAdjacentHTML("beforeend", `
     <figure><h2>Lineage and principles</h2><div id="lin"></div><div id="prin" style="margin-top:8px"></div></figure>
   </section>
   <section class="facets" id="facets"></section>
+  <section id="uses-box" hidden><h2>In the rooms</h2><p class="meta">The interior styles whose object net takes this style for a category, as the main style or as an alternate.</p><div id="uses"></div></section>
   <section id="ev-box" hidden><h2>Canonical evidence (open licence)</h2><div id="ev"></div></section>
   <p class="meta"><a id="f-data">Style record (JSON)</a> · <a id="f-skill">Skill file</a></p>
 </main>`);
@@ -163,8 +165,9 @@ function showreel(s, p) {
   $("shot-cap").textContent = `Showreel: ${F.length} generated stills, not a real film. One frame for each shot of the shot list, cut at the rhythm of the shot lengths${still.matches ? " (paused: reduced motion)" : ""}. ${credit(p)}`;
 }
 
-function shot(s, found) {
-  const p = previews[s.id];
+// Print: the generated preview first; the press proof drawn by code is a second view of the same style.
+function shot(s, found, asProof = false) {
+  const p = asProof || !previews[s.id] ? proofs[s.id] ?? previews[s.id] : previews[s.id];
   if (reel) { clearTimeout(reel.t); reel = null; }
   $("shot").classList.toggle("set", !!p?.frames);
   $("shot").classList.toggle("tall", !!p && !p.frames && p.height > p.width);
@@ -182,11 +185,38 @@ function shot(s, found) {
       : p.kind === "tile-board"
       ? `Glaze test tiles drawn by code from the clay and glaze rules of the style and the ceramics vocabulary. No image model. Each tile is a body, a glaze and a decoration; the surface is enlarged. History of every body and glaze: glazes.html.`
       : `Generated preview, not a real work. ${p.model} (${p.licence}), seed ${p.seed}, ${p.steps} steps. Subject: ${p.subject}.${p.wordmark ? ` Wordmark "${p.wordmark.brand}"${p.wordmark.fictional ? " (a fictional brand)" : ""} set in ${p.wordmark.font} by ${p.wordmark.maker} (${p.wordmark.licence}).` : ""}`;
+    if (proofs[s.id] && previews[s.id]) {
+      $("shot-cap").insertAdjacentHTML("beforeend", ` <button type="button" class="swap" id="swap">${asProof ? "Show the generated print" : "Show the press proof"}</button>`);
+      $("swap").onclick = () => shot(s, found, !asProof);
+    }
   } else {
     const cols = found.hex.slice(0, 8);
     $("shot").innerHTML = `<div class="ph">${cols.map((c) => `<span style="background:${esc(c.hex)}"></span>`).join("")}</div>`;
     $("shot-cap").textContent = "No preview image yet. The bands are the palette of the style.";
   }
+}
+
+// Industrial design: the object nets of the interior styles that use this style. Each link opens the
+// objects of one room.
+let netsOf = null;
+function uses(s) {
+  $("uses-box").hidden = true;
+  if (DOMAIN !== "industrial") return;
+  netsOf ??= json("../skills/index.json").then((ix) => Promise.all(ix.skills.filter((x) => x.domain === "interior")
+    .map((x) => json(`../data/industrial/nets/${x.id}.json`).then((n) => n && { id: x.id, name: x.name, net: n })))).then((l) => l.filter(Boolean));
+  netsOf.then((list) => {
+    if (styles[at].id !== s.id) return;
+    const rows = list.map((r) => {
+      const main = r.net.categories.filter((c) => c.style === s.id).map((c) => c.category);
+      const alt = r.net.categories.filter((c) => c.alternates.includes(s.id)).map((c) => c.category);
+      return (main.length || alt.length) && { ...r, main, alt };
+    }).filter(Boolean).sort((a, b) => b.main.length - a.main.length);
+    if (!rows.length) return;
+    const cat = (c) => c.replace(/-/g, " ");
+    $("uses").innerHTML = `<table><tr><th>Interior style</th><th>Main style for</th><th>Alternate for</th></tr>${rows.map((r) =>
+      `<tr><td><a href="objects.html#${esc(r.id)}">${esc(r.name)}</a></td><td>${esc(r.main.map(cat).join(", ")) || "–"}</td><td>${esc(r.alt.map(cat).join(", ")) || "–"}</td></tr>`).join("")}</table>`;
+    $("uses-box").hidden = false;
+  });
 }
 
 function show(i) {
@@ -215,6 +245,7 @@ function show(i) {
     $("prin").innerHTML = found.principles.size ? `<small>Composition principles</small><br>${[...found.principles].map((p) => `<a class="tag" href="../data/principles/${esc(p)}.json">${esc(p)}</a>`).join("")}` : "";
     $("facets").innerHTML = domain.facets.filter((f) => f.key !== "prompt_primer" && f.key !== "evidence" && s[f.key] != null)
       .map((f) => `<figure class="facet"><h2>${esc(f.title)}</h2>${view(s[f.key])}</figure>`).join("");
+    uses(s);
     $("ev-box").hidden = !s.evidence?.length;
     $("ev").innerHTML = window.Evidence ? Evidence.html(s.evidence) : "";
     $("f-data").href = `../data/${DOMAIN}/styles/${s.id}.json`;
@@ -230,6 +261,7 @@ const go = (id) => { const i = styles.findIndex((s) => s.id === id); if (i >= 0)
 Promise.all([json(`../domains/${DOMAIN}.json`), json("../skills/index.json"), json(`previews/${DOMAIN}/manifest.json`)]).then(([d, index, man]) => {
   domain = d;
   previews = man?.images || {};
+  proofs = man?.proofs || {};
   styles = index.skills.filter((s) => s.domain === DOMAIN);
   $("chips").innerHTML = styles.map((s) => `<button data-go="${esc(s.id)}" aria-pressed="false">${esc(s.name)}</button>`).join("");
   go(location.hash.slice(1)) || show(0);

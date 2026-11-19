@@ -1,0 +1,330 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "duet-split-screen",
+  "domain": "internet",
+  "name": "Duet Split-Screen",
+  "aliases": [
+    "Duet video",
+    "Side-by-side reaction",
+    "Stitch and duet"
+  ],
+  "branch": "vertical-video",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2018,
+    "end": null,
+    "label": "2018–now"
+  },
+  "primary_mediums": [
+    "video",
+    "mobile"
+  ],
+  "summary": "Two video panels side by side in one vertical frame: the source clip on one half and a new reaction or performance on the other. TikTok added the Duet tool in 2018.",
+  "philosophy": {
+    "core_thesis": "The frame is a conversation: one original clip, one answer, both visible at the same time.",
+    "design_principles": [
+      "Split the 1080 x 1920 px frame into two panels of 540 x 960 px at the centre, or into two halves of 1080 x 960 px.",
+      "Keep a 4 px gap in the page colour between the two panels.",
+      "Play both audio tracks from one timeline and sync the starts to the frame.",
+      "Mark the original creator with a 24 px handle label at the bottom left of its panel.",
+      "Give the reacting panel a 2 px accent border (#FE2C55) so the viewer sees who answers.",
+      "Keep captions in the dead band under the panels at 40 px, 2 lines at most.",
+      "Hold the cut rhythm at 1 cut every 2 s to 3 s on the answer side only."
+    ],
+    "anti_patterns": [
+      "A single full-bleed shot with no second panel",
+      "Overlapping panels that hide faces",
+      "Different aspect ratios in each panel",
+      "Large title cards that cover the clips",
+      "Unlabelled source clips"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 2,
+    "grid_rigidity": 5,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "Two equal video cells on a 2-column grid with a 4 px gutter; one caption band of 240 px below.",
+    "whitespace_ratio": "The panels take 80% of the height; the bands take 20%.",
+    "alignment_rules": "Cells are flush to the edges; the caption is centred under the join.",
+    "container_geometry": "Hard rectangles with 0 radius; a 2 px border on the answer panel; a 24 px pill label."
+  },
+  "typography": {
+    "classifications": [
+      "geometric sans",
+      "grotesque sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Poppins",
+        "body": "Inter",
+        "note": "Bold lower-case-friendly sans for captions."
+      },
+      {
+        "display": "Rubik",
+        "body": "Work Sans",
+        "note": "A slightly rounded sans that stays clear at 24 px."
+      }
+    ],
+    "tracking": "Display 0em; labels 0.02em.",
+    "leading": "Display 1.15; body 1.4.",
+    "hierarchy_rules": [
+      "Use bold (700) for captions and medium (500) for handles.",
+      "Set captions at 40 px and handles at 24 px.",
+      "Put the caption in white with a 2 px black outline.",
+      "Prefix a handle with the @ sign."
+    ]
+  },
+  "color": {
+    "palette_structure": "A black frame with two bright video panels and one hot accent on the answer panel.",
+    "palette": [
+      {
+        "name": "Ink",
+        "hex": "#0D0D0F",
+        "role": "background"
+      },
+      {
+        "name": "Answer Red",
+        "hex": "#FE2C55",
+        "role": "primary"
+      },
+      {
+        "name": "Source Cyan",
+        "hex": "#25F4EE",
+        "role": "accent"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "name": "Ash",
+        "hex": "#A8A8B0",
+        "role": "muted text"
+      },
+      {
+        "name": "Panel Grey",
+        "hex": "#1C1C20",
+        "role": "surface"
+      }
+    ],
+    "contrast_rules": "White on ink gives 19:1; handle labels use dark text on a white pill at 17:1.",
+    "surface_treatment": "Flat ink ground; the video panels carry all the colour.",
+    "light_and_shadow": "Even front light in both clips; no shared shadow across the join."
+  },
+  "materiality": {
+    "surface_simulation": "A phone screen split into two glass panes.",
+    "border_rules": "A 4 px gap and a 2 px accent border on one pane.",
+    "blur_and_elevation": "No blur and no elevation; the join is flat."
+  },
+  "ornamentation_details": {
+    "iconography": "Solid 24 px icons for duet, stitch and sound.",
+    "illustration": "None; the two clips are the picture.",
+    "decorative_elements": [
+      "centre seam",
+      "handle label pill",
+      "accent border",
+      "caption band",
+      "sound icon"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Both clips start on the same frame; the answer panel slides in from the right in 250 ms at the start; the clips loop at 15 s to 60 s.",
+    "easing": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+    "duration_ms": 250,
+    "hover_and_active": "A tap on a panel mutes the other panel and adds a 2 px white border."
+  },
+  "lineage": {
+    "evolved_from": [
+      "lip-sync-dance-short"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "vertical-short-form",
+      "creator-vlog"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels part of a conversation and wants to answer.",
+    "keywords": [
+      "responsive",
+      "social",
+      "playful",
+      "paired",
+      "immediate"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "duet",
+      "split screen",
+      "stitch",
+      "react video",
+      "side by side video",
+      "reaction duet"
+    ],
+    "use_cases": [
+      "reaction clips",
+      "remix and response videos",
+      "comparison clips",
+      "call-and-response challenges"
+    ],
+    "avoid_when": [
+      "The message needs one uninterrupted image.",
+      "The source clip is not public or not licensed.",
+      "The format is landscape."
+    ],
+    "modifiers": [
+      {
+        "request": "single subject",
+        "toward": "pov-short",
+        "how": "Remove the second panel and fill the frame with one first-person shot."
+      },
+      {
+        "request": "more cuts",
+        "toward": "velocity-edit",
+        "how": "Merge both clips into one cut sequence with speed ramps."
+      },
+      {
+        "request": "explain more",
+        "toward": "green-screen-short",
+        "how": "Replace the second panel with a person in front of the source image."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 500,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "colour",
+      "display_tracking": "0em",
+      "display_leading": 1.15,
+      "display_case": "none",
+      "body_leading": 1.4,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "rounded",
+      "pack": {
+        "id": "ph-fill",
+        "why": "A filled rounded family that fits the toolbar icons of a short-video app."
+      }
+    },
+    "art": {
+      "recipe": "flat",
+      "pattern": "grid",
+      "seed": 18
+    },
+    "layout": {
+      "hero": "split",
+      "align": "center",
+      "density": "compact",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "blocks",
+      "why": "The ground is two flat blocks that echo the two panels of the frame."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#0D0D0F",
+      "--color-surface": "#1C1C20",
+      "--color-text": "#FFFFFF",
+      "--color-muted": "#A8A8B0",
+      "--color-primary": "#FE2C55",
+      "--color-accent": "#25F4EE",
+      "--color-border": "#FE2C55",
+      "--font-sans": "\"Work Sans\", \"Inter\", sans-serif",
+      "--font-display": "\"Rubik\", \"Poppins\", sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "2px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "4px",
+      "--ease": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+      "--duration": "250ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#0D0D0F] text-white font-sans antialiased"
+      },
+      {
+        "element": "heading",
+        "classes": "text-3xl font-bold leading-[1.15]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.4] text-[#A8A8B0]"
+      },
+      {
+        "element": "section",
+        "classes": "grid grid-cols-2 gap-1 bg-[#0D0D0F]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border-2 border-[#FE2C55] bg-[#FE2C55] px-5 py-3 text-sm font-bold text-white"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-medium text-[#25F4EE]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#FE2C55",
+        "#25F4EE",
+        "#FFFFFF"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#25F4EE",
+        "#FE2C55"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 8
+    },
+    "grid_step": {
+      "min": 2,
+      "max": 8
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.414
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: TikTok",
+      "url": "https://en.wikipedia.org/wiki/TikTok"
+    },
+    {
+      "title": "Wikipedia: Split screen (video production)",
+      "url": "https://en.wikipedia.org/wiki/Split_screen_(filmmaking)"
+    }
+  ]
+}

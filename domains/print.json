@@ -23,7 +23,7 @@
     { "key": "prompt_primer", "title": "Prompt primer" }
   ],
   "assets": [
-    {"type": "press-proof", "purpose": "A press proof of one fixed landscape, with a colour bar and register marks, drawn in the inks, the screen, the register and the stock of the style.", "made_by": "code", "file": "demo/previews/print/{id}.svg", "manifest": "demo/previews/print/manifest.json", "entry": "images.{id}", "generator": "scripts/render-print-proofs.ts", "canvas": [{"width": 1152, "height": 768}]}
+    {"type": "press-proof", "purpose": "A press proof of one fixed landscape, with a colour bar and register marks, drawn in the inks, the screen, the register and the stock of the style.", "made_by": "code", "file": "demo/previews/print/{id}.svg", "manifest": "demo/previews/print/manifest.json", "entry": "proofs.{id}", "generator": "scripts/render-print-proofs.ts", "canvas": [{"width": 1152, "height": 768}]}
   ],
   "knobs": [
     {"key": "key_ink", "label": "Key ink", "kind": "colour", "description": "The ink of the key plate: the line, the darks and the text.", "drives": ["inks"]},
