@@ -100,7 +100,11 @@
   /* Narrow: the brand and the GitHub link go, and the views across domains move into the dropdown. */
   @media (max-width: 860px) { .do-bar { padding: 0 8px; gap: 6px; } .do-brand, .do-gh, .do-links { display: none; } .do-menu .do-narrow { display: block; }
     .do-menu hr.do-narrow { display: block; } .do-styles { width: auto; flex: 1 1 auto; min-width: 0; } .do-dom .do-label { max-width: 26vw; overflow: hidden; text-overflow: ellipsis; }
-    .do-bar.do-bare .do-links { display: flex; flex: 1 1 auto; min-width: 0; overflow-x: auto; scrollbar-width: none; } }
+    .do-bar.do-bare .do-links { display: flex; flex: 1 1 auto; min-width: 0; overflow-x: auto; scrollbar-width: none; }
+    /* A fade at an edge shows that more links are off-screen on that side. */
+    .do-bar.do-bare .do-links.do-more-r { -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 32px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 32px), transparent); }
+    .do-bar.do-bare .do-links.do-more-l { -webkit-mask-image: linear-gradient(to left, #000 calc(100% - 32px), transparent); mask-image: linear-gradient(to left, #000 calc(100% - 32px), transparent); }
+    .do-bar.do-bare .do-links.do-more-l.do-more-r { -webkit-mask-image: linear-gradient(to right, transparent, #000 32px, #000 calc(100% - 32px), transparent); mask-image: linear-gradient(to right, transparent, #000 32px, #000 calc(100% - 32px), transparent); } }
   @media (prefers-reduced-motion: reduce) { .do-drawer, .do-drawer.open, .do-btn { transition: none; } }`;
   if (!document.querySelector('link[href*="family=Onest"]')) {
     const font = document.createElement("link");
@@ -173,6 +177,19 @@
     dmenu.addEventListener("focusout", (e) => { if (!e.relatedTarget || !e.relatedTarget.closest(".do-dom")) setMenu(false); });
     $("do-close").onclick = () => { setOpen(false); open.focus(); };
 
+    // Mark the edges of the link row that have more links past them, and bring the current page into view.
+    const links = bar.querySelector(".do-links");
+    const edges = () => {
+      const max = links.scrollWidth - links.clientWidth;
+      links.classList.toggle("do-more-l", max > 1 && links.scrollLeft > 1);
+      links.classList.toggle("do-more-r", max > 1 && links.scrollLeft < max - 1);
+    };
+    links.addEventListener("scroll", edges, { passive: true });
+    addEventListener("resize", edges);
+    const here = links.querySelector('[aria-current="page"]');
+    if (here && links.scrollWidth > links.clientWidth) links.scrollLeft = here.offsetLeft - (links.clientWidth - here.offsetWidth) / 2;
+    edges();
+
     // Follow the page: show the controls once it lists styles, and show the current style on the button.
     let seen = false;
     const sync = () => {
@@ -180,6 +197,7 @@
       const on = items.length > 0;
       for (const el of [open, $("prev"), $("next")]) el.hidden = !on;
       bar.classList.toggle("do-bare", !on);
+      requestAnimationFrame(edges);
       if (!on) return;
       const cur = items.findIndex((b) => b.getAttribute("aria-pressed") === "true");
       open.querySelector(".do-cur").textContent = cur >= 0 ? items[cur].textContent : "Styles";

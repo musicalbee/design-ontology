@@ -8,29 +8,30 @@
 <style>
   *, *::before, *::after { box-sizing: border-box; }
   :root {
-    /* Hive light tokens, as in money.html and people.html. One accent (royal) marks the selected term. */
-    --paper: #fff; --ink: #1F1F45; --muted: #50527A; --faint: #9A9FC0; --line: #DEE3F2; --band: #EFF2FB; --accent: #264FCC; --accent-bg: #E8F2FF;
+    /* Site tokens, as in index.html and nav.js: a pale ground with white cards. One accent (royal) marks the selected term. */
+    --ground: #F8F9FD; --paper: #fff; --ink: #1F1F45; --muted: #50527A; --faint: #9A9FC0; --line: #DEE3F2; --band: #EFF2FB; --accent: #264FCC; --accent-bg: #E8F2FF;
     color-scheme: light;
   }
   @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) { --paper: #12132B; --ink: #E6E8F7; --muted: #A9AECF; --faint: #6A6F96; --line: #2C2F55; --band: #1C1E3D; --accent: #7FA0FF; --accent-bg: #1F2A55; color-scheme: dark; }
+    :root:not([data-theme="light"]) { --ground: #0B0C20; --paper: #12132B; --ink: #E6E8F7; --muted: #A9AECF; --faint: #6A6F96; --line: #2C2F55; --band: #1C1E3D; --accent: #7FA0FF; --accent-bg: #1F2A55; color-scheme: dark; }
   }
-  :root[data-theme="dark"] { --paper: #12132B; --ink: #E6E8F7; --muted: #A9AECF; --faint: #6A6F96; --line: #2C2F55; --band: #1C1E3D; --accent: #7FA0FF; --accent-bg: #1F2A55; color-scheme: dark; }
+  :root[data-theme="dark"] { --ground: #0B0C20; --paper: #12132B; --ink: #E6E8F7; --muted: #A9AECF; --faint: #6A6F96; --line: #2C2F55; --band: #1C1E3D; --accent: #7FA0FF; --accent-bg: #1F2A55; color-scheme: dark; }
   html, body { margin: 0; }
-  body { font: 15px/1.5 system-ui, sans-serif; background: var(--paper); color: var(--ink); }
-  main { max-width: 1400px; margin: 0 auto; padding: 24px 16px 64px; display: grid; gap: 28px; grid-template-columns: minmax(0, 1fr); }
-  h1 { margin: 0; font-size: clamp(26px, 4vw, 40px); line-height: 1.1; letter-spacing: -.01em; }
-  h2 { margin: 0 0 4px; font-size: 20px; line-height: 1.2; }
+  body { font: 15px/1.55 "Onest", "Helvetica Neue", Arial, sans-serif; background: var(--ground); color: var(--ink); }
+  main { max-width: 1400px; margin: 0 auto; padding: 24px 16px 64px; display: grid; gap: 20px; grid-template-columns: minmax(0, 1fr); }
+  h1 { margin: 0; font-size: clamp(30px, 4.6vw, 52px); line-height: 1.05; letter-spacing: -.02em; text-wrap: balance; }
+  h2 { margin: 0 0 4px; font-size: clamp(20px, 2vw, 24px); line-height: 1.2; letter-spacing: -.01em; }
   .lede, .note { margin: 6px 0 0; max-width: 75ch; color: var(--muted); }
   .note { font-size: 13px; }
-  section { border-top: 1px solid var(--line); padding-top: 16px; }
+  section { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: clamp(16px, 1.6vw, 24px); }
+  header { padding-top: clamp(8px, 2vw, 24px); }
   #pa { max-width: 640px; } #pd { max-width: 340px; }
   .row > *, section { min-width: 0; }
   #car { min-width: 560px; } #pa { min-width: 500px; } #cu { min-width: 640px; }
   .row { display: grid; gap: 16px; grid-template-columns: 1fr; align-items: start; }
   @media (min-width: 1000px) { .row.pad { grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); } .row.detail { grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); } }
   svg { display: block; width: 100%; height: auto; overflow: visible; }
-  svg text { font: 12px system-ui, sans-serif; fill: var(--ink); }
+  svg text { font: 12px "Onest", "Helvetica Neue", Arial, sans-serif; fill: var(--ink); }
   .tick { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
   .axis { stroke: var(--faint); stroke-width: .6; fill: none; }
   .zero { stroke: var(--line); stroke-width: 1; }
@@ -80,6 +81,12 @@
   .bar.cue { stroke: var(--accent); }
   .bar.weak { stroke-dasharray: 4 3; }
   .cap { stroke: var(--ink); stroke-width: 1; }
+  #cu .mixed { opacity: .45; }
+  .read { display: grid; gap: 16px 28px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); margin: 12px 0 0; }
+  .read h3 { margin: 0 0 4px; font-size: 16px; }
+  .read p { margin: 0 0 6px; font-size: 14px; color: var(--muted); max-width: 60ch; }
+  .read p b { color: var(--ink); font-weight: 600; }
+  .read .src a { color: var(--accent); }
   :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 </style>
 </head>
@@ -90,6 +97,31 @@
     <h1>Emotions across the styles</h1>
     <p class="lede">The layer has 30 terms: 21 from the AESTHEMOS scale and 9 culture-bound words. Each term has a point on three axes: pleasure, arousal and dominance. A style carries a term through an edge. Each edge has evidence of one kind: measured (a study with people), stated (an open source says it) or inferred (read from the keywords of the style). A sourced edge ranks above an inferred one.</p>
   </header>
+
+  <section aria-labelledby="h-read">
+    <h2 id="h-read">How to read this page</h2>
+    <div class="read">
+      <div>
+        <h3>AESTHEMOS</h3>
+        <p>The Aesthetic Emotions Scale. Schindler, Hosoya, Menninghaus and others made it in 2017 to measure the emotions that people feel about art, design, film, music and places. It has 21 subscales, and each subscale is one term on this page.</p>
+        <p>This layer puts the terms in four groups: <b>prototypical</b> (beauty, awe, being moved), <b>epistemic</b> (interest, insight), <b>pleasing</b> (joy, relaxation) and <b>negative</b> (ugliness, boredom, anger). The 9 culture-bound words, such as koselig and saudade, are not in the scale. Each one has its own source.</p>
+        <p class="src">Schindler et al. 2017, PLOS ONE, <a href="https://doi.org/10.1371/journal.pone.0178899">doi:10.1371/journal.pone.0178899</a></p>
+      </div>
+      <div>
+        <h3>PAD: pleasure, arousal, dominance</h3>
+        <p>Three axes for an emotional state. Mehrabian and Russell made the model in 1974 for rooms and surroundings. Each axis goes from −1 to +1:</p>
+        <p><b>Pleasure:</b> unpleasant to pleasant. <b>Arousal:</b> calm and sleepy to excited and alert. <b>Dominance:</b> small and controlled by the place to in control of it.</p>
+        <p>Russell's circumplex (1980) puts the emotions on a circle of pleasure and arousal. Section 1 shows that plane, and a second plot shows dominance. The points are authored estimates, not measured values.</p>
+        <p class="src">Mehrabian and Russell 1974, <i>An Approach to Environmental Psychology</i>, MIT Press · Russell 1980, <a href="https://doi.org/10.1037/h0077714">doi:10.1037/h0077714</a></p>
+      </div>
+      <div>
+        <h3>Munsell value and chroma</h3>
+        <p>Two scales of the Munsell colour system. <b>Value</b> is lightness: 0 is ideal black and 10 is ideal white, in steps that look equal to the eye. <b>Chroma</b> is the strength of the colour: 0 is grey, and strong paint colours reach about 14. The third scale, hue, is not used by a cue on this page.</p>
+        <p>In the cues, a higher value means a lighter colour. Valdez and Mehrabian (1994) found that lighter colours are more pleasant and calmer, and that colours with more chroma are more arousing.</p>
+        <p class="src">Munsell colour system, <a href="https://en.wikipedia.org/wiki/Munsell_color_system">en.wikipedia.org</a> · Valdez and Mehrabian 1994, <i>J. Exp. Psych.: General</i> 123(4)</p>
+      </div>
+    </div>
+  </section>
 
   <section aria-labelledby="h-map">
     <h2 id="h-map">1. Where each term sits</h2>
@@ -118,7 +150,7 @@
 
   <section aria-labelledby="h-scene">
     <h2 id="h-scene">4. Scene numbers for <span id="termName2">—</span></h2>
-    <p class="note">Moments that carry the term, with their light on true scales: colour temperature in kelvin, illuminance in lux on a log scale, and sun elevation in degrees. Then the measured cues: a direct cue names the term, and a PAD cue moves an axis in the same direction as the term's point. The arrow shows the direction of the change. A dashed bar is a weak effect.</p>
+    <p class="note">Moments that carry the term, with their light on true scales: colour temperature in kelvin, illuminance in lux on a log scale, and sun elevation in degrees. Then the measured cues: a direct cue names the term, and a PAD cue moves an axis in the same direction as the term's point. Some cues move two or three axes. If such a cue moves one axis with the term and another axis against it, it is shown faint, under a rule, with the label "mixed" and the axis that goes against the term. The arrow shows the direction of the change. A dashed bar is a weak effect.</p>
     <div class="scroll"><svg id="mo" role="img" aria-label="Light ranges of the moments for the selected term"></svg></div>
     <h3 class="sub">Cues</h3>
     <div class="scroll"><svg id="cu" role="img" aria-label="Cue ranges for the selected term"></svg></div>
@@ -310,17 +342,30 @@ function cues() {
   const t = byId[selected];
   const rows = [];
   for (const c of E.cues_by_emotion[selected] ?? []) rows.push({ ...c, via: "direct" });
-  for (const ax of ["p", "a", "d"]) {
-    const v = t.pad[ax];
-    if (Math.abs(v) < 0.3) continue;
-    for (const c of E.cues_by_emotion[`pad:${ax}`] ?? []) if (Math.sign(v) === c.sign && !rows.some((r) => r.cue === c.cue)) rows.push({ ...c, via: `PAD ${ax.toUpperCase()} ${v > 0 ? "up" : "down"}` });
+  // A PAD cue can move more than one axis. Keep it as a match only if no axis that the term
+  // leans on (|value| >= 0.3) goes the other way; else list it under "mixed".
+  const effects = {};
+  for (const ax of ["p", "a", "d"]) for (const c of E.cues_by_emotion[`pad:${ax}`] ?? []) (effects[c.cue] ??= {})[ax] = c.sign;
+  const lean = Object.fromEntries(["p", "a", "d"].filter((ax) => Math.abs(t.pad[ax]) >= 0.3).map((ax) => [ax, Math.sign(t.pad[ax])]));
+  const word = (ax, s) => `${ax.toUpperCase()} ${s > 0 ? "up" : "down"}`;
+  const mixed = [];
+  for (const ax of Object.keys(lean)) {
+    for (const c of E.cues_by_emotion[`pad:${ax}`] ?? []) {
+      if (lean[ax] !== c.sign || rows.some((r) => r.cue === c.cue) || mixed.some((r) => r.cue === c.cue)) continue;
+      const fx = effects[c.cue], with_ = [], against = [];
+      for (const [k, sg] of Object.entries(fx)) if (lean[k]) (lean[k] === sg ? with_ : against).push(word(k, sg));
+      if (against.length) mixed.push({ ...c, mixed: true, via: `mixed: ${against.join(", ")}` });
+      else rows.push({ ...c, via: `PAD ${with_.join(", ")}` });
+    }
   }
+  rows.push(...mixed);
   const rowH = 26, m = { l: 260, t: 8 }, cw = 300, W = m.l + cw + 300, H = m.t + Math.max(rows.length, 1) * rowH + 4;
   let s = "";
   rows.forEach((c, i) => {
     const y = m.t + i * rowH + rowH / 2, u = UNIT[c.unit];
     const num = u && typeof c.range.from === "number" && typeof c.range.to === "number";
-    s += `<g><title>${esc(c.cue)} · ${esc(c.variable)} · effect ${c.sign > 0 ? "+" : "−"} ${esc(c.size)}${c.weak ? " · weak" : ""}</title>` +
+    if (c.mixed && (i === 0 || !rows[i - 1].mixed)) s += `<line class="zero" x1="0" x2="${W}" y1="${y - rowH / 2}" y2="${y - rowH / 2}"/>`;
+    s += `<g class="${c.mixed ? "mixed" : ""}"><title>${esc(c.cue)} · ${esc(c.variable)} · effect ${c.sign > 0 ? "+" : "−"} ${esc(c.size)}${c.weak ? " · weak" : ""}</title>` +
       `<text x="${m.l - 10}" y="${y + 4}" text-anchor="end">${esc(trim(c.cue.replace(/-/g, " "), 36))}</text><text class="tick" x="0" y="${y + 4}">${esc(c.via)}</text>`;
     if (num) {
       const f = (v) => m.l + Math.max(0, Math.min(1, u.log ? (Math.log10(v) - Math.log10(u.lo)) / (Math.log10(u.hi) - Math.log10(u.lo)) : (v - u.lo) / (u.hi - u.lo))) * cw;
