@@ -246,6 +246,15 @@ Tone printed as dots of different size or spacing; at a distance the dots merge 
 - Set the screen at 10 to 30 lines per cm for a print grain, or enlarge the dots to 4 to 8mm for a Pop effect.
 - Turn each colour screen to its own angle: cyan 15°, magenta 75°, yellow 0°, black 45°.
 
+### Screen printing (process)
+
+Ink pushed through a fine mesh with a squeegee; a stencil on the mesh blocks the parts that do not print. Origin: print, Manchester, 1907.
+
+- Stretch a silk or polyester mesh of 40–120 threads a centimetre on a frame.
+- Make the stencil by hand cut film or by a photo emulsion exposed through a film positive.
+- Pull thick, opaque ink across the screen with a rubber squeegee in one even stroke.
+- Print each colour from its own screen and let each layer dry before the next.
+
 ## Media
 
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.
@@ -274,7 +283,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`mid-century-modern`](../mid-century-modern/SKILL.md)
 - **Mixes well with:** [`japanese-graphic-modernism`](../japanese-graphic-modernism/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md), [`space-age`](../space-age/SKILL.md)
-- **Kin in another domain:** [`airbrush-surrealism`](../airbrush-surrealism/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md)
+- **Kin in another domain:** [`airbrush-surrealism`](../airbrush-surrealism/SKILL.md), [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md), [`pop-screen-print`](../pop-screen-print/SKILL.md)
 - **Nearest by vector profile:** [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
 
 ## Emotional target

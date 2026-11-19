@@ -284,7 +284,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`bohemian-web`](../bohemian-web/SKILL.md), [`cyberdelia`](../cyberdelia/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`swiss-international`](../swiss-international/SKILL.md)
 - **Mixes well with:** [`japanese-graphic-modernism`](../japanese-graphic-modernism/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md), [`space-age`](../space-age/SKILL.md)
-- **Kin in another domain:** [`airbrush-surrealism`](../airbrush-surrealism/SKILL.md), [`giallo`](../giallo/SKILL.md)
+- **Kin in another domain:** [`airbrush-surrealism`](../airbrush-surrealism/SKILL.md), [`giallo`](../giallo/SKILL.md), [`psychedelic-concert-poster`](../psychedelic-concert-poster/SKILL.md)
 - **Nearest by vector profile:** [`memphis-design`](../memphis-design/SKILL.md), [`anti-design`](../anti-design/SKILL.md), [`cyberdelia`](../cyberdelia/SKILL.md)
 
 ## Emotional target

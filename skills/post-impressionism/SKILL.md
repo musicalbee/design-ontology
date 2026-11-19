@@ -204,6 +204,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`impressionism`](../impressionism/SKILL.md)
 - **Led to (go here for a newer version):** [`expressionism-painting`](../expressionism-painting/SKILL.md)
+- **Kin in another domain:** [`chromolithograph-poster`](../chromolithograph-poster/SKILL.md)
 - **Nearest by vector profile:** [`expressionism-painting`](../expressionism-painting/SKILL.md), [`fauvism`](../fauvism/SKILL.md), [`impressionism`](../impressionism/SKILL.md)
 
 ## Emotional target

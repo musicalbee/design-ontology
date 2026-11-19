@@ -1,0 +1,278 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "pochoir-plate",
+  "domain": "print",
+  "name": "Pochoir plate",
+  "aliases": [
+    "Pochoir",
+    "Stencil colouring",
+    "Art Deco fashion plate",
+    "Gazette du Bon Ton style"
+  ],
+  "era_id": "industrial-press",
+  "time_period": {
+    "start": 1908,
+    "end": 1935,
+    "label": "1908–1935"
+  },
+  "region": "Paris",
+  "summary": "A plate coloured by hand through a set of stencils, each one for a colour, in gouache and watercolour on a printed key line. Iribe and Lepape made the Poiret albums in 1908 and 1911; Barbier and the Gazette du Bon Ton made it the look of Art Deco fashion.",
+  "philosophy": {
+    "core_thesis": "A stencil and a brush give a flat, opaque and luminous colour that no press can match.",
+    "design_principles": [
+      "Print a thin key line in black or grey, then put each colour on by hand through its own stencil.",
+      "Use 4–30 flat, opaque colours of gouache, with gold and silver for accents.",
+      "Keep each colour area flat and clean, with a soft edge where the brush meets the stencil.",
+      "Use a slim, elongated figure in a simple pose against a large area of bare paper.",
+      "Let one bright colour (a rose, a jade, a lacquer red) carry the plate.",
+      "Add a decorative pattern only in the dress or the background, never in both."
+    ],
+    "anti_patterns": [
+      "A halftone dot or a gradient",
+      "Thick, dark outlines like a comic",
+      "A full-colour background that leaves no bare paper",
+      "Muddy colours mixed from overprints"
+    ]
+  },
+  "vectors": {
+    "tone_method": 1,
+    "ink_layering": 4,
+    "registration_play": 2,
+    "surface_relief": 1,
+    "hand_trace": 4
+  },
+  "process": {
+    "family": "stencil",
+    "matrix": "A set of stencils cut from zinc, copper or celluloid, one for each colour, and a printed key line.",
+    "press": "No press for the colour: a pochoiriste uses a round brush (pompon) through each stencil.",
+    "image_making": "The artist paints the original; the atelier (Saudé) cuts the stencils and colours each sheet by hand.",
+    "edition": "Some hundreds to a few thousand copies for a magazine or an album."
+  },
+  "inks": {
+    "strategy": "Gouache and watercolour, mixed by eye for each colour, with metallic powders for gold and silver.",
+    "ink_count_min": 4,
+    "ink_count_max": 12,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Key line grey",
+        "hex": "#2A2830",
+        "role": "the printed outline"
+      },
+      {
+        "name": "Rose",
+        "hex": "#D9637A",
+        "role": "the dress and the lips"
+      },
+      {
+        "name": "Jade",
+        "hex": "#3E8C7A",
+        "role": "drapery and leaves"
+      },
+      {
+        "name": "Gold ochre",
+        "hex": "#D9A93F",
+        "role": "accents and light"
+      },
+      {
+        "name": "Lapis",
+        "hex": "#3D5A9E",
+        "role": "the sky and the shadows"
+      }
+    ]
+  },
+  "screening": {
+    "method": "solid",
+    "ruling_lpi": 0,
+    "rule": "Put each colour on flat and opaque; there is no screen and no overprint mix."
+  },
+  "registration": {
+    "tolerance_mm": 0.4,
+    "rule": "Each stencil aligns by eye to the key line; a small gap or overlap shows the hand."
+  },
+  "substrate": {
+    "stock": "A heavy, smooth wove paper (Arches or vellum paper) that holds gouache without cockling.",
+    "weight_gsm_min": 150,
+    "weight_gsm_max": 300,
+    "ground": "#F4EEE2",
+    "finish": "Smooth wove, uncoated, bright white to cream."
+  },
+  "surface": {
+    "impression": "No bite; the gouache sits on the paper as a thin, chalky film.",
+    "sheen": "Matt, velvet colour, with gold that catches the light.",
+    "texture": "Flat colour with a soft brush edge and slight unevenness inside each area."
+  },
+  "artefacts": {
+    "marks": [
+      "soft stencil edge",
+      "small gaps at the key line",
+      "brush texture in flat areas",
+      "metallic gold accents",
+      "a gouache halo at overlaps"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "pochoir fashion plate",
+      "Gazette du Bon Ton",
+      "George Barbier illustration",
+      "Art Deco fashion illustration",
+      "flat opaque gouache",
+      "thin key line",
+      "elongated elegant figure",
+      "jade rose and gold"
+    ],
+    "negative": [
+      "halftone",
+      "gradient",
+      "thick comic outline",
+      "photograph",
+      "3D render"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "George Barbier - Gazette du bon ton - Eros",
+      "kind": "image",
+      "maker": "George Barbier",
+      "year": 1924,
+      "credit": "Wikimedia Commons (Museum of Fine Arts, Boston scan)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:George_Barbier_-_Gazette_du_bon_ton_-_Eros.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/George_Barbier_-_Gazette_du_bon_ton_-_Eros.jpg/960px-George_Barbier_-_Gazette_du_bon_ton_-_Eros.jpg"
+    },
+    {
+      "title": "George Barbier - Gazette du bon ton - Artémis",
+      "kind": "image",
+      "maker": "George Barbier",
+      "year": 1924,
+      "credit": "Wikimedia Commons (Museum of Fine Arts, Boston scan)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:George_Barbier_-_Gazette_du_bon_ton_-_Art%C3%A9mis.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/f/f4/George_Barbier_-_Gazette_du_bon_ton_-_Art%C3%A9mis.jpg"
+    },
+    {
+      "title": "George Barbier - Gazette du bon ton - Symphonie automnale",
+      "kind": "image",
+      "maker": "George Barbier",
+      "year": 1922,
+      "credit": "Wikimedia Commons (Museum of Fine Arts, Boston scan)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:George_Barbier_-_Gazette_du_bon_ton_-_Symphonie_automnale.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/George_Barbier_-_Gazette_du_bon_ton_-_Symphonie_automnale.jpg/960px-George_Barbier_-_Gazette_du_bon_ton_-_Symphonie_automnale.jpg"
+    },
+    {
+      "title": "Blouse japonais, from Costumes Parisiens",
+      "kind": "image",
+      "year": 1913,
+      "credit": "Wikimedia Commons (Met Open Access, CC0)",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Blouse_japonais,_from_Costumes_Parisiens_MET_DP832875.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/5/55/Blouse_japonais%2C_from_Costumes_Parisiens_MET_DP832875.jpg",
+      "maker": "George Barbier"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "chromolithograph-poster"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "art-deco-web",
+      "art-deco-interior",
+      "fauvism"
+    ]
+  },
+  "emotion": {
+    "target_response": "Elegance and luxury: the viewer feels a refined, modern taste of the 1920s.",
+    "keywords": [
+      "elegant",
+      "luxurious",
+      "chic",
+      "jewel-toned",
+      "modern"
+    ],
+    "brand_archetypes": [
+      "lover",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "pochoir",
+      "art deco fashion plate",
+      "gazette du bon ton",
+      "george barbier",
+      "1920s fashion illustration",
+      "stencil coloured print",
+      "jazz age illustration"
+    ],
+    "use_cases": [
+      "fashion and beauty packaging",
+      "luxury invitations",
+      "editorial fashion illustration",
+      "perfume and hotel brands"
+    ],
+    "avoid_when": [
+      "The image needs realistic tone or a photograph.",
+      "The budget forbids a flat, simple drawing style."
+    ],
+    "modifiers": [
+      {
+        "request": "more contemporary",
+        "toward": "risograph-print",
+        "how": "Change the hand stencils for riso drums in 2–3 bright inks with a transparent overprint."
+      },
+      {
+        "request": "more decorative",
+        "toward": "art-deco-web",
+        "how": "Add a frame of chevrons, sunbursts and stepped forms in gold."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#2A2830",
+      "options": [
+        "#2A2830",
+        "#1A1A1A"
+      ]
+    },
+    "paper_colour": {
+      "default": "#F4EEE2",
+      "options": [
+        "#F4EEE2",
+        "#FAF7F0"
+      ]
+    },
+    "ink_count": {
+      "default": 5,
+      "min": 4,
+      "max": 12
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    },
+    "misregistration": {
+      "default": 0.4,
+      "min": 0,
+      "max": 0.8
+    }
+  },
+  "sources": [
+    {
+      "title": "Pochoir (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Pochoir"
+    },
+    {
+      "title": "Gazette du Bon Ton (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Gazette_du_Bon_Ton"
+    },
+    {
+      "title": "Jean Saudé, Traité d'enluminure d'art au pochoir (1925)"
+    }
+  ]
+}

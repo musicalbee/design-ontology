@@ -1,0 +1,277 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "pop-screen-print",
+  "domain": "print",
+  "name": "Pop screen print",
+  "aliases": [
+    "Silkscreen",
+    "Serigraph",
+    "Pop art screen print",
+    "Warhol print"
+  ],
+  "era_id": "studio-press",
+  "time_period": {
+    "start": 1962,
+    "end": 1985,
+    "label": "1962–1985"
+  },
+  "region": "New York and Los Angeles",
+  "summary": "A photograph or a found image pulled through a silk screen in flat, bright inks, often with the black photo layer off register. Warhol made it a studio process in 1962; Corita Kent printed text and colour; the look stands for pop art.",
+  "philosophy": {
+    "core_thesis": "A mechanical image, repeated and coloured by hand in loud inks, makes the familiar new.",
+    "design_principles": [
+      "Start from a found photograph, cut to high contrast or a coarse halftone, in a black ink.",
+      "Put 2–5 flat, opaque, bright colours under the black, cut by hand and a little loose from the photo.",
+      "Let the black layer miss the colour by 2–5 mm, so the hand shows.",
+      "Repeat the same image in a grid with different colour sets.",
+      "Use colours from advertising: hot pink, lemon, turquoise, orange.",
+      "Keep the ink films thick and the edges a little uneven where the squeegee dragged."
+    ],
+    "anti_patterns": [
+      "A soft photographic tone with no contrast",
+      "A muted or natural palette",
+      "Exact register that hides the process",
+      "A painterly brush texture over the whole sheet"
+    ]
+  },
+  "vectors": {
+    "tone_method": 2,
+    "ink_layering": 4,
+    "registration_play": 4,
+    "surface_relief": 2,
+    "hand_trace": 3
+  },
+  "process": {
+    "family": "stencil",
+    "matrix": "A silk or nylon mesh on a wood frame, with a photo stencil for the image and cut stencils for the colours.",
+    "press": "A flat bed with a hinged frame and a rubber squeegee, pulled by hand.",
+    "image_making": "The artist picks the photo and the colours; studio assistants burn the screens and pull the prints.",
+    "edition": "A portfolio of 10 prints in 250 copies, or unique canvases."
+  },
+  "inks": {
+    "strategy": "Thick, opaque screen inks: flat colour areas first, the black photo layer last.",
+    "ink_count_min": 2,
+    "ink_count_max": 8,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Photo black",
+        "hex": "#111111",
+        "role": "the photographic layer"
+      },
+      {
+        "name": "Hot pink",
+        "hex": "#F06BA8",
+        "role": "the face and the ground"
+      },
+      {
+        "name": "Lemon",
+        "hex": "#F8D21C",
+        "role": "the hair and the light"
+      },
+      {
+        "name": "Turquoise",
+        "hex": "#2BB3C0",
+        "role": "the eye shadow and the ground"
+      }
+    ]
+  },
+  "screening": {
+    "method": "halftone",
+    "ruling_lpi": 25,
+    "angles": [
+      45,
+      0,
+      0,
+      0
+    ],
+    "rule": "Use a coarse halftone of 20–40 lines an inch for the photo layer, or cut it to pure black and white."
+  },
+  "registration": {
+    "tolerance_mm": 3.0,
+    "rule": "The photo layer can sit 2–5 mm off the colour; the shift is a feature."
+  },
+  "substrate": {
+    "stock": "A heavy wove paper (Beckett, Arches) or primed canvas.",
+    "weight_gsm_min": 200,
+    "weight_gsm_max": 400,
+    "ground": "#F7F4EC",
+    "finish": "Smooth, bright white or cream, uncoated."
+  },
+  "surface": {
+    "impression": "No bite; the thick ink stands on the surface.",
+    "sheen": "A satin film with a slight gloss in the dark inks.",
+    "texture": "Flat, dense colour with a squeegee drag at the edges and a coarse dot in the photo."
+  },
+  "artefacts": {
+    "marks": [
+      "photo layer off register",
+      "squeegee drag",
+      "ink skips in solid areas",
+      "coarse halftone dots",
+      "repeated grid of the same image",
+      "flat hand-cut colour shapes"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "pop art screen print",
+      "Warhol silkscreen",
+      "flat bright colours",
+      "off-register black photo layer",
+      "hot pink and turquoise",
+      "coarse halftone",
+      "repeated celebrity portrait",
+      "1960s serigraph"
+    ],
+    "negative": [
+      "soft photograph",
+      "muted palette",
+      "painterly",
+      "smooth gradient",
+      "exact register"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "The Drunkard poster",
+      "kind": "image",
+      "maker": "Federal Theatre Project, Works Progress Administration",
+      "year": 1938,
+      "credit": "Wikimedia Commons (Library of Congress)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Drunkard_poster.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/The_Drunkard_poster.jpg/960px-The_Drunkard_poster.jpg"
+    },
+    {
+      "title": "Emperor Jones Poster 1937",
+      "kind": "image",
+      "maker": "Federal Theatre Project, Works Progress Administration",
+      "year": 1937,
+      "credit": "Wikimedia Commons (Library of Congress)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Emperor_Jones_Poster_1937.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Emperor_Jones_Poster_1937.jpg/960px-Emperor_Jones_Poster_1937.jpg"
+    },
+    {
+      "title": "WPA Zoo Poster (Elephant)",
+      "kind": "image",
+      "maker": "Work Projects Administration Poster Collection",
+      "year": 1936,
+      "credit": "Wikimedia Commons (Library of Congress)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:WPA_Zoo_Poster_(Elephant).jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/WPA_Zoo_Poster_%28Elephant%29.jpg/960px-WPA_Zoo_Poster_%28Elephant%29.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "ben-day-comic-print"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "psychedelic-concert-poster"
+    ],
+    "echoes": [
+      "pop-art-painting",
+      "pop-art-web"
+    ]
+  },
+  "emotion": {
+    "target_response": "Glamour with a wink: the viewer sees fame and consumer goods made loud and ironic.",
+    "keywords": [
+      "iconic",
+      "loud",
+      "ironic",
+      "glamorous",
+      "repetitive"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "creator",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "screen print",
+      "silkscreen",
+      "warhol style",
+      "pop art portrait",
+      "serigraph",
+      "off-register print",
+      "pop art print"
+    ],
+    "use_cases": [
+      "posters and gig prints",
+      "album covers",
+      "portrait merchandise",
+      "brand campaigns with irony"
+    ],
+    "avoid_when": [
+      "The subject needs a sober or a respectful treatment.",
+      "The photo has too little contrast to cut."
+    ],
+    "modifiers": [
+      {
+        "request": "more dots",
+        "toward": "ben-day-comic-print",
+        "how": "Use a fixed dot tint on the colours and a firm black line, as in a comic."
+      },
+      {
+        "request": "cheaper and rougher",
+        "toward": "xerox-zine",
+        "how": "Photocopy the photo in black on white paper and paste the text on by hand."
+      },
+      {
+        "request": "softer and transparent",
+        "toward": "risograph-print",
+        "how": "Print 2–3 transparent riso inks with a grain screen; let them mix where they overlap."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#111111",
+      "options": [
+        "#111111",
+        "#1B1B3A"
+      ]
+    },
+    "paper_colour": {
+      "default": "#F7F4EC",
+      "options": [
+        "#F7F4EC",
+        "#FFFFFF"
+      ]
+    },
+    "ink_count": {
+      "default": 4,
+      "min": 2,
+      "max": 8
+    },
+    "screen_ruling": {
+      "default": 25,
+      "min": 15,
+      "max": 45
+    },
+    "misregistration": {
+      "default": 3.0,
+      "min": 1,
+      "max": 4
+    }
+  },
+  "sources": [
+    {
+      "title": "Screen printing (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Screen_printing"
+    },
+    {
+      "title": "Marilyn Diptych (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Marilyn_Diptych"
+    },
+    {
+      "title": "Frayda Feldman and Jörg Schellmann, Andy Warhol Prints: A Catalogue Raisonné (D.A.P., 2003)"
+    }
+  ]
+}

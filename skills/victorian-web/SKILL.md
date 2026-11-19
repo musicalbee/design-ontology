@@ -277,7 +277,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more punk**: move toward [`punk-zine`](../punk-zine/SKILL.md) (Punk Zine). Cut the engravings and set them in black and white with torn edges.
 
 - **Mixes well with:** [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`punk-zine`](../punk-zine/SKILL.md)
-- **Kin in another domain:** [`fat-face-display`](../fat-face-display/SKILL.md), [`slab-serif`](../slab-serif/SKILL.md), [`victorian-trademark`](../victorian-trademark/SKILL.md)
+- **Kin in another domain:** [`fat-face-display`](../fat-face-display/SKILL.md), [`slab-serif`](../slab-serif/SKILL.md), [`victorian-trademark`](../victorian-trademark/SKILL.md), [`wood-type-poster`](../wood-type-poster/SKILL.md)
 - **Nearest by vector profile:** [`skeuomorphism`](../skeuomorphism/SKILL.md), [`blob-world`](../blob-world/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md)
 
 ## Emotional target

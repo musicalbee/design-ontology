@@ -169,6 +169,15 @@ The rules above name these shared principles by id. The definition is the same i
 
 These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
 
+### Screen printing (process)
+
+Ink pushed through a fine mesh with a squeegee; a stencil on the mesh blocks the parts that do not print. Origin: print, Manchester, 1907.
+
+- Stretch a silk or polyester mesh of 40–120 threads a centimetre on a frame.
+- Make the stencil by hand cut film or by a photo emulsion exposed through a film positive.
+- Pull thick, opaque ink across the screen with a rubber squeegee in one even stroke.
+- Print each colour from its own screen and let each layer dry before the next.
+
 ### Serial repetition (process)
 
 One motif or one frame, repeated with small changes in a set of works, so that the viewer reads the change and not the object. Origin: painting, Paris, 1891.
@@ -205,7 +214,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`photorealism`](../photorealism/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`abstract-expressionism`](../abstract-expressionism/SKILL.md)
-- **Kin in another domain:** [`cel-shaded-3d`](../cel-shaded-3d/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md)
+- **Kin in another domain:** [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md), [`cel-shaded-3d`](../cel-shaded-3d/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md), [`pop-screen-print`](../pop-screen-print/SKILL.md)
 - **Nearest by vector profile:** [`mannerism-painting`](../mannerism-painting/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md), [`symbolism-painting`](../symbolism-painting/SKILL.md)
 
 ## Emotional target

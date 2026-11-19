@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Design Ontology: every domain of design, style by style</title>
-<meta name="description" content="Styles in ten domains of design: graphic and UI design, architecture, interiors, photography, film, painting, video games, logos, icons and typefaces. Each domain demo keeps one task and changes the style.">
+<meta name="description" content="Styles in eleven domains of design: graphic and UI design, architecture, interiors, photography, film, painting, video games, logos, icons, typefaces and print. Each domain demo keeps one task and changes the style.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800&display=swap">
@@ -44,13 +44,15 @@
   @media (min-width: 1000px) { .hero .wrap { grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); } }
   .atlas { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); grid-auto-rows: 1fr; gap: 8px; aspect-ratio: 1; }
   .atlas a { position: relative; overflow: hidden; border-radius: 12px; background: var(--subtle); text-decoration: none; min-height: 0; }
-  .atlas a:nth-child(1), .atlas a:nth-child(6) { grid-column: span 2; grid-row: span 2; }
+  /* 11 tiles on 16 cells: one tile of 2 × 2, two tiles of 2 × 1, eight tiles of 1 × 1. */
+  .atlas a:nth-child(1) { grid-column: span 2; grid-row: span 2; }
+  .atlas a:nth-child(6), .atlas a:nth-child(11) { grid-column: span 2; }
   .atlas img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: scale .5s var(--ease), opacity .35s; }
   .atlas img.fit { object-fit: contain; background: #fbf9f4; }
   .atlas a:hover img, .atlas a:focus-visible img { scale: 1.06; }
   .atlas span { position: absolute; left: 6px; bottom: 6px; max-width: calc(100% - 12px); padding: 3px 8px; border-radius: 7px; background: rgb(255 255 255 / .92);
     color: var(--heading); font-size: .75rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .atlas a:nth-child(1) span, .atlas a:nth-child(6) span { font-size: .85rem; left: 10px; bottom: 10px; padding: 4px 10px; }
+  .atlas a:nth-child(1) span { font-size: .85rem; left: 10px; bottom: 10px; padding: 4px 10px; }
   .atlas.swap img { opacity: 0; }
   @media (max-width: 999px) { .atlas { display: flex; aspect-ratio: auto; overflow-x: auto; scrollbar-width: none; margin-inline: calc(-1 * clamp(16px, 4vw, 40px)); padding-inline: clamp(16px, 4vw, 40px); }
     .atlas a { flex: none; width: clamp(140px, 30vw, 200px); aspect-ratio: 4 / 3; } }
@@ -132,7 +134,7 @@
       </div>
       <div class="facts" id="facts" aria-live="polite"></div>
       </div>
-      <nav class="atlas" id="atlas" aria-label="The ten domains"></nav>
+      <nav class="atlas" id="atlas" aria-label="The domains"></nav>
     </div>
   </section>
 
@@ -164,7 +166,7 @@
 </main>
 <footer>
   <div class="wrap">
-    <p>The preview pictures are generated with an open image model (FLUX.2 [klein] 4B, Apache-2.0). They show what a style looks like. They are not real works, real places or real brands. Type specimens are drawn from open fonts.</p>
+    <p>The preview pictures are generated with an open image model (FLUX.2 [klein] 4B, Apache-2.0). They show what a style looks like. They are not real works, real places or real brands. Type specimens are drawn from open fonts, and print proofs are drawn by code from the rules of each process.</p>
   </div>
 </footer>
 
@@ -181,6 +183,7 @@ const DOMAINS = [
   { id: "logo", page: "logo.html", name: "Logos", task: "One fictional coffee brand, set as a lockup in each style." },
   { id: "icon", page: "icon.html", name: "Icons", task: "One sheet of nine icons in each style: grid, stroke, corners and colour count." },
   { id: "typeface", page: "typeface.html", name: "Typefaces", task: "A specimen of each classification, drawn from one open font." },
+  { id: "print", page: "print.html", name: "Print", task: "One landscape, pulled as a press proof in each process: inks, screen, register and stock." },
 ];
 
 const $ = (id) => document.getElementById(id);
@@ -205,7 +208,7 @@ Promise.all([json("../skills/index.json"), ...DOMAINS.map((d) => json(`previews/
   // The styles of a domain that have a preview picture.
   const pool = DOMAINS.map((d, i) => Object.entries(manifests[i]?.images ?? {})
     .filter(([id, r]) => name[id] && r.file)
-    .map(([id, r]) => ({ id, name: name[id], src: `previews/${d.id}/${r.file}`, fit: r.kind === "specimen", n: r.frames?.length || 1, d })));
+    .map(([id, r]) => ({ id, name: name[id], src: `previews/${d.id}/${r.file}`, fit: r.kind === "specimen" || r.kind === "press-proof", n: r.frames?.length || 1, d })));
 
   const count = (id) => skills.filter((s) => s.domain === id).length;
   $("facts").innerHTML = `<span><b>${skills.length}</b>styles</span><span><b>${DOMAINS.length}</b>domains</span>` +

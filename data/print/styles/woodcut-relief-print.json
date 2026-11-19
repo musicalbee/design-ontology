@@ -1,0 +1,258 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "woodcut-relief-print",
+  "domain": "print",
+  "name": "Woodcut relief print",
+  "aliases": [
+    "Woodcut",
+    "Holzschnitt",
+    "Black-line woodcut",
+    "Block book cut"
+  ],
+  "era_id": "hand-press",
+  "time_period": {
+    "start": 1400,
+    "end": 1600,
+    "label": "c.1400–1600s"
+  },
+  "region": "Nuremberg, Basel and the German-speaking lands",
+  "summary": "A picture cut into the side grain of a plank: the cutter leaves the lines standing and the press prints them black. In Nuremberg, Wolgemut and Dürer made the cut carry tone with parallel and crossed lines, so one block printed with the type of a book.",
+  "philosophy": {
+    "core_thesis": "A black line that stands on a block of wood can carry form, light and tone if the cutter swells, tapers and crosses it.",
+    "design_principles": [
+      "Draw every tone as black lines on white paper; the woodcut has no grey ink and no screen.",
+      "Make the lines 0.3–1.0 mm wide and keep at least 0.5 mm of white between them, so the wood does not break.",
+      "Follow the form with the lines: curve the hatching round a body and keep it straight on a wall or the sky.",
+      "Swell a line to darken a tone and taper it to a point where the light comes.",
+      "Cross the lines only in the deepest shadow, and keep the crossing at about 60°.",
+      "Leave large areas of bare paper for light, sky and flesh.",
+      "Give each figure a closed, firm contour line of the same weight as the heaviest hatching."
+    ],
+    "anti_patterns": [
+      "Grey wash or a smooth gradient",
+      "Lines finer than 0.2 mm, which the wood cannot hold",
+      "A halftone dot or a photographic tone",
+      "Even hatching that does not follow the form",
+      "A contour that is thin and broken like a pencil sketch"
+    ]
+  },
+  "vectors": {
+    "tone_method": 2,
+    "ink_layering": 1,
+    "registration_play": 1,
+    "surface_relief": 2,
+    "hand_trace": 4
+  },
+  "process": {
+    "family": "relief",
+    "matrix": "A plank of pear, box or cherry wood, cut on the side grain with a knife and gouges.",
+    "press": "A wooden screw press, the same press that prints the type of the book.",
+    "image_making": "A designer draws on the block; a block cutter (Formschneider) cuts away the wood on both sides of each line.",
+    "edition": "Hundreds to some thousands of impressions; the block wears at the thin lines and cracks along the grain."
+  },
+  "inks": {
+    "strategy": "One black oil ink; colour, if any, is added later by hand with a brush or a stencil.",
+    "ink_count_min": 1,
+    "ink_count_max": 2,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Lamp black",
+        "hex": "#1A1714",
+        "role": "all lines and contours"
+      }
+    ]
+  },
+  "screening": {
+    "method": "line",
+    "ruling_lpi": 40,
+    "angles": [
+      35
+    ],
+    "rule": "Make the tone with parallel lines at about 40 a inch, swelled where the shadow is deeper."
+  },
+  "registration": {
+    "tolerance_mm": 0,
+    "rule": "One block prints all the image, so there is no register; a second block for colour can shift 1–2 mm."
+  },
+  "substrate": {
+    "stock": "Laid rag paper made by hand, with chain lines and a watermark.",
+    "weight_gsm_min": 70,
+    "weight_gsm_max": 120,
+    "ground": "#EFE6D2",
+    "finish": "Laid, with a soft tooth and a light sizing of gelatine."
+  },
+  "surface": {
+    "impression": "A light bite: the lines sink a little into the soft paper and show as a relief on the back.",
+    "sheen": "Matt black, with a small sheen where the ink is thick.",
+    "texture": "Clean black lines with a slight squash of ink at each edge, and the laid lines of the paper."
+  },
+  "artefacts": {
+    "marks": [
+      "ink squash at line edges",
+      "wood-grain streaks in solids",
+      "a crack along the grain",
+      "broken thin lines",
+      "laid and chain lines",
+      "hand colour that misses the line"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "15th-century woodcut",
+      "black-line woodcut",
+      "Nuremberg Chronicle illustration",
+      "Dürer woodcut",
+      "parallel hatching that follows the form",
+      "bold black contour",
+      "laid rag paper",
+      "monochrome relief print"
+    ],
+    "negative": [
+      "grey wash",
+      "halftone dots",
+      "smooth gradient",
+      "photographic tone",
+      "colour fill",
+      "digital vector line"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Four Horsemen of the Apocalypse, from \"The Apocalypse\"",
+      "kind": "image",
+      "maker": "Albrecht Dürer",
+      "year": 1498,
+      "credit": "The Metropolitan Museum of Art, Open Access",
+      "licence": "CC0",
+      "url": "https://www.metmuseum.org/art/collection/search/397057",
+      "file": "https://images.metmuseum.org/CRDImages/dp/web-large/DP816772.jpg"
+    },
+    {
+      "title": "Saint Michael Fighting the Dragon, from \"The Apocalypse\"",
+      "kind": "image",
+      "maker": "Albrecht Dürer",
+      "year": 1498,
+      "credit": "The Metropolitan Museum of Art, Open Access",
+      "licence": "CC0",
+      "url": "https://www.metmuseum.org/art/collection/search/360117",
+      "file": "https://images.metmuseum.org/CRDImages/dp/web-large/DP816923.jpg"
+    },
+    {
+      "title": "Dance of Death, leaf from \"The Nuremberg Chronicle\"",
+      "kind": "image",
+      "maker": "Michael Wolgemut",
+      "year": 1493,
+      "credit": "The Metropolitan Museum of Art, Open Access",
+      "licence": "CC0",
+      "url": "https://www.metmuseum.org/art/collection/search/390220",
+      "file": "https://images.metmuseum.org/CRDImages/dp/web-large/DP880247.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "blackletter",
+      "renaissance-painting"
+    ]
+  },
+  "emotion": {
+    "target_response": "Weight and plain force: the viewer reads a strong, old picture that the hand cut, line by line.",
+    "keywords": [
+      "archaic",
+      "devout",
+      "bold",
+      "graphic",
+      "austere"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "woodcut",
+      "old woodcut",
+      "medieval print",
+      "dürer style",
+      "nuremberg chronicle",
+      "block print illustration",
+      "black-line woodcut",
+      "early printed book illustration"
+    ],
+    "use_cases": [
+      "book and chapter illustration",
+      "heritage labels and beer packs",
+      "editorial images on history",
+      "posters for early music"
+    ],
+    "avoid_when": [
+      "The picture needs soft tone, a portrait likeness or a photographic look.",
+      "The colour must be the main message."
+    ],
+    "modifiers": [
+      {
+        "request": "finer and more silver",
+        "toward": "engraving-print",
+        "how": "Change the cut wood for a cut copper plate: thinner, swelling lines at 80–120 a inch and a plate mark."
+      },
+      {
+        "request": "more expressive",
+        "toward": "expressionism-painting",
+        "how": "Cut wider gouge marks, keep the wood grain, and let large black areas take the tone."
+      },
+      {
+        "request": "in Japanese colour",
+        "toward": "ukiyo-e",
+        "how": "Use one key block for the line and a separate block for each flat colour, printed with water-based ink by hand."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#1A1714",
+      "options": [
+        "#1A1714",
+        "#2A1E16"
+      ]
+    },
+    "paper_colour": {
+      "default": "#EFE6D2",
+      "options": [
+        "#EFE6D2",
+        "#F4EEE0"
+      ]
+    },
+    "ink_count": {
+      "default": 1,
+      "min": 1,
+      "max": 2
+    },
+    "screen_ruling": {
+      "default": 40,
+      "min": 20,
+      "max": 60
+    },
+    "misregistration": {
+      "default": 0,
+      "min": 0,
+      "max": 1
+    }
+  },
+  "sources": [
+    {
+      "title": "Woodcut (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Woodcut"
+    },
+    {
+      "title": "Nuremberg Chronicle (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Nuremberg_Chronicle"
+    },
+    {
+      "title": "Arthur M. Hind, An Introduction to a History of Woodcut (1935)"
+    }
+  ]
+}

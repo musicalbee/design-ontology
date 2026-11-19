@@ -166,6 +166,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`outline-icon`](../outline-icon/SKILL.md), [`solid-glyph-icon`](../solid-glyph-icon/SKILL.md)
 - **Mixes well with:** [`flat-icon`](../flat-icon/SKILL.md)
+- **Kin in another domain:** [`risograph-print`](../risograph-print/SKILL.md)
 - **Nearest by vector profile:** [`material-symbols-icon`](../material-symbols-icon/SKILL.md), [`outline-icon`](../outline-icon/SKILL.md), [`solid-glyph-icon`](../solid-glyph-icon/SKILL.md)
 
 ## Emotional target
