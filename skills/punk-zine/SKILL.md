@@ -279,7 +279,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more digital**: move toward [`grunge-editorial`](../grunge-editorial/SKILL.md) (Grunge Editorial). Add layered textures and distressed type; keep the black and white base.
 - If the user asks for **more bold**: move toward [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md) (Neo-Brutalism UI). Replace the tape with 3px solid borders and hard shadows; keep the loud colour.
 
-- **Led to (go here for a newer version):** [`scrapbook-ui`](../scrapbook-ui/SKILL.md)
+- **Led to (go here for a newer version):** [`demotivational-poster`](../demotivational-poster/SKILL.md), [`scrapbook-ui`](../scrapbook-ui/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`mid-century-modern`](../mid-century-modern/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
 - **Mixes well with:** [`ansi-bbs-art`](../ansi-bbs-art/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`victorian-web`](../victorian-web/SKILL.md)
 - **Kin in another domain:** [`blackletter`](../blackletter/SKILL.md), [`punk-fashion`](../punk-fashion/SKILL.md), [`subculture-workboot`](../subculture-workboot/SKILL.md), [`xerox-zine`](../xerox-zine/SKILL.md)

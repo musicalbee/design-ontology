@@ -1496,21 +1496,6 @@
       }
     },
     {
-      "id": "weirdcore",
-      "domain": "internet",
-      "name": "Weirdcore",
-      "era": "touchscreen",
-      "start": 2020,
-      "end": null,
-      "vectors": {
-        "ornamentation": 2,
-        "dimensionality": 2,
-        "grid_rigidity": 2,
-        "skeuomorphic_realism": 3,
-        "typographic_expressiveness": 4
-      }
-    },
-    {
       "id": "dark-academia",
       "domain": "internet",
       "name": "Dark academia",
@@ -1748,6 +1733,21 @@
         "grid_rigidity": 2,
         "skeuomorphic_realism": 2,
         "typographic_expressiveness": 2
+      }
+    },
+    {
+      "id": "weirdcore",
+      "domain": "internet",
+      "name": "Weirdcore",
+      "era": "contemporary-spatial",
+      "start": 2020,
+      "end": null,
+      "vectors": {
+        "ornamentation": 2,
+        "dimensionality": 2,
+        "grid_rigidity": 2,
+        "skeuomorphic_realism": 3,
+        "typographic_expressiveness": 4
       }
     },
     {
@@ -11273,6 +11273,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "demotivational-poster",
+      "to": "punk-zine",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "designer-logo-underwear",
       "to": "modern-mens-briefs",
       "type": "EVOLVED_FROM"
@@ -11863,6 +11868,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "kaomoji-emoticon",
+      "to": "ansi-bbs-art",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "kidcore",
       "to": "scrapbook-ui",
       "type": "EVOLVED_FROM"
@@ -11920,6 +11930,11 @@
     {
       "from": "liminal-spaces",
       "to": "vaporwave",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "lip-sync-dance-short",
+      "to": "lets-play-facecam",
       "type": "EVOLVED_FROM"
     },
     {
@@ -25912,6 +25927,7 @@
     "punk-zine": {
       "evolved_from": [],
       "evolved_into": [
+        "demotivational-poster",
         "scrapbook-ui"
       ],
       "rebelled_against": [
@@ -25999,6 +26015,7 @@
     "ansi-bbs-art": {
       "evolved_from": [],
       "evolved_into": [
+        "kaomoji-emoticon",
         "net-art-browser"
       ],
       "rebelled_against": [],
@@ -26030,7 +26047,9 @@
       ]
     },
     "kaomoji-emoticon": {
-      "evolved_from": [],
+      "evolved_from": [
+        "ansi-bbs-art"
+      ],
       "evolved_into": [
         "reaction-gif",
         "unicode-emoji"
@@ -26443,7 +26462,9 @@
       ]
     },
     "demotivational-poster": {
-      "evolved_from": [],
+      "evolved_from": [
+        "punk-zine"
+      ],
       "evolved_into": [],
       "rebelled_against": [],
       "provoked": [],
@@ -26848,6 +26869,7 @@
         "unboxing-video"
       ],
       "evolved_into": [
+        "lip-sync-dance-short",
         "livestream-overlay",
         "video-essay"
       ],
@@ -28131,7 +28153,9 @@
       ]
     },
     "lip-sync-dance-short": {
-      "evolved_from": [],
+      "evolved_from": [
+        "lets-play-facecam"
+      ],
       "evolved_into": [
         "duet-split-screen",
         "velocity-edit"
@@ -28671,44 +28695,6 @@
       ],
       "techniques": [
         "photomontage"
-      ]
-    },
-    "weirdcore": {
-      "evolved_from": [
-        "vaporwave"
-      ],
-      "evolved_into": [],
-      "rebelled_against": [
-        "frutiger-aero"
-      ],
-      "provoked": [],
-      "hybridized_with": [
-        "dreamcore",
-        "liminal-spaces",
-        "y2k-aesthetic"
-      ],
-      "echoes": [
-        "camcorder-revival",
-        "low-poly-ps1-revival"
-      ],
-      "subgenre_of": [],
-      "subgenres": [],
-      "nearest_by_vector": [
-        {
-          "id": "glitch-gif",
-          "distance": 1
-        },
-        {
-          "id": "barbiecore",
-          "distance": 1.41
-        },
-        {
-          "id": "grwm-short",
-          "distance": 1.41
-        }
-      ],
-      "techniques": [
-        "lo-fi-found-image"
       ]
     },
     "dark-academia": {
@@ -29309,6 +29295,44 @@
       ],
       "techniques": [
         "speed-ramp"
+      ]
+    },
+    "weirdcore": {
+      "evolved_from": [
+        "vaporwave"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "frutiger-aero"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "dreamcore",
+        "liminal-spaces",
+        "y2k-aesthetic"
+      ],
+      "echoes": [
+        "camcorder-revival",
+        "low-poly-ps1-revival"
+      ],
+      "subgenre_of": [],
+      "subgenres": [],
+      "nearest_by_vector": [
+        {
+          "id": "glitch-gif",
+          "distance": 1
+        },
+        {
+          "id": "barbiecore",
+          "distance": 1.41
+        },
+        {
+          "id": "grwm-short",
+          "distance": 1.41
+        }
+      ],
+      "techniques": [
+        "lo-fi-found-image"
       ]
     },
     "word-caption-clip": {

@@ -2,7 +2,7 @@
 name: weirdcore
 description: "Apply the Weirdcore style (2020–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: weirdcore, oddcore, strangecore, creepycore, uncanny nostalgia, lo-fi eerie."
 domain: internet
-era: touchscreen
+era: contemporary-spatial
 triggers:
   - "weirdcore"
   - "oddcore"
@@ -26,7 +26,7 @@ vector_profile:
 
 Low-quality photos of empty places, red warning text, black voids, faceless shapes and old 3D or web fragments. The mood is a strange dream memory. It grew on Tumblr, Reddit and Twitter.
 
-**Period:** 2020–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Oddcore, Strangecore, Creepycore
+**Period:** 2020–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Oddcore, Strangecore, Creepycore
 
 ## When to load this skill
 

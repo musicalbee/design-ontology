@@ -270,6 +270,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **less dark**: move toward [`minimalism-web`](../minimalism-web/SKILL.md) (Minimalism Web). Use a white ground, a thin black line and a sans-serif title; keep the single picture.
 - If the user asks for **more chaotic**: move toward [`deep-fried-meme`](../deep-fried-meme/SKILL.md) (Deep-fried meme). Recompress the image, saturate it and add loud caption text; drop the frame.
 
+- **Came from (go here for a more orthodox version):** [`punk-zine`](../punk-zine/SKILL.md)
 - **Mixes well with:** [`impact-image-macro`](../impact-image-macro/SKILL.md)
 - **Kin in another domain:** [`xerox-zine`](../xerox-zine/SKILL.md)
 - **Nearest by vector profile:** [`cohesive-feed-grid`](../cohesive-feed-grid/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`clean-girl`](../clean-girl/SKILL.md)

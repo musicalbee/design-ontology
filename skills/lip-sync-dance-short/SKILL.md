@@ -275,6 +275,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more cuts**: move toward [`velocity-edit`](../velocity-edit/SKILL.md) (Velocity Edit). Cut the clip to 6 or more shots and add speed ramps on the beat.
 - If the user asks for **add a partner**: move toward [`duet-split-screen`](../duet-split-screen/SKILL.md) (Duet Split-Screen). Split the frame 50/50 and put the second performer on the right.
 
+- **Came from (go here for a more orthodox version):** [`lets-play-facecam`](../lets-play-facecam/SKILL.md)
 - **Led to (go here for a newer version):** [`duet-split-screen`](../duet-split-screen/SKILL.md), [`velocity-edit`](../velocity-edit/SKILL.md)
 - **Was rejected by:** [`grwm-short`](../grwm-short/SKILL.md)
 - **Kin in another domain:** [`music-video`](../music-video/SKILL.md), [`vertical-short-form`](../vertical-short-form/SKILL.md)

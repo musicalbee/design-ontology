@@ -10965,130 +10965,6 @@
       }
     },
     {
-      "id": "weirdcore",
-      "name": "Weirdcore",
-      "domain": "internet",
-      "branch": "net-aesthetics",
-      "era": "touchscreen",
-      "period": "2020–now",
-      "thesis": "Make a familiar thing wrong in one small way, and let the poor image quality carry the unease.",
-      "summary": "Low-quality photos of empty places, red warning text, black voids, faceless shapes and old 3D or web fragments. The mood is a strange dream memory. It grew on Tumblr, Reddit and Twitter.",
-      "path": "skills/weirdcore/SKILL.md",
-      "tokens": "skills/weirdcore/tokens.css",
-      "pack": "skills/weirdcore/pack/",
-      "visual": {
-        "type": {
-          "display_weight": 400,
-          "subhead_weight": 400,
-          "body_weight": 400,
-          "strong_weight": 700,
-          "label_weight": 400,
-          "accent": "colour",
-          "display_tracking": "0.02em",
-          "display_leading": 1.2,
-          "display_case": "none",
-          "body_leading": 1.5,
-          "body_size": "16px"
-        },
-        "icon": {
-          "mode": "solid",
-          "stroke_width": 2,
-          "linecap": "butt",
-          "linejoin": "miter",
-          "container": "square",
-          "pack": {
-            "id": "pixelarticons",
-            "why": "Pixel icons match the low-resolution, old-computer fragments of the style."
-          }
-        },
-        "art": {
-          "recipe": "grunge",
-          "pattern": "noise",
-          "seed": 31
-        },
-        "layout": {
-          "hero": "poster",
-          "align": "left",
-          "density": "compact",
-          "tilt_deg": 1
-        },
-        "ground": {
-          "kind": "raw",
-          "why": "Weirdcore uses raw, degraded images, so the ground is a flat field with visible noise and no polish."
-        }
-      },
-      "triggers": [
-        "weirdcore",
-        "oddcore",
-        "strangecore",
-        "creepycore",
-        "uncanny nostalgia",
-        "lo-fi eerie",
-        "empty playground",
-        "black void"
-      ],
-      "use_cases": [
-        "horror and indie game pages",
-        "album and zine artwork",
-        "short film posters",
-        "art projects about memory"
-      ],
-      "emotion": [
-        "uncanny",
-        "nostalgic",
-        "eerie",
-        "empty",
-        "lo-fi",
-        "dreamlike"
-      ],
-      "archetypes": [
-        "magician",
-        "outlaw"
-      ],
-      "vectors": {
-        "ornamentation": 2,
-        "dimensionality": 2,
-        "grid_rigidity": 2,
-        "skeuomorphic_realism": 3,
-        "typographic_expressiveness": 4
-      },
-      "techniques": [
-        "lo-fi-found-image"
-      ],
-      "orgs": [
-        "reddit",
-        "tumblr"
-      ],
-      "permutations": {
-        "base_colour": {
-          "options": [
-            "#C9C58A",
-            "#E01B1B",
-            "#D9D4C0"
-          ]
-        },
-        "accent_colour": {
-          "options": [
-            "#E01B1B",
-            "#3B6B66"
-          ]
-        },
-        "corner_radius": {
-          "min": 0,
-          "max": 0
-        },
-        "grid_step": {
-          "min": 2,
-          "max": 8
-        },
-        "type_scale_ratio": {
-          "default": 1.414,
-          "min": 1.25,
-          "max": 1.5
-        }
-      }
-    },
-    {
       "id": "dark-academia",
       "name": "Dark academia",
       "domain": "internet",
@@ -13062,6 +12938,130 @@
         },
         "type_scale_ratio": {
           "default": 1.333,
+          "min": 1.25,
+          "max": 1.5
+        }
+      }
+    },
+    {
+      "id": "weirdcore",
+      "name": "Weirdcore",
+      "domain": "internet",
+      "branch": "net-aesthetics",
+      "era": "contemporary-spatial",
+      "period": "2020–now",
+      "thesis": "Make a familiar thing wrong in one small way, and let the poor image quality carry the unease.",
+      "summary": "Low-quality photos of empty places, red warning text, black voids, faceless shapes and old 3D or web fragments. The mood is a strange dream memory. It grew on Tumblr, Reddit and Twitter.",
+      "path": "skills/weirdcore/SKILL.md",
+      "tokens": "skills/weirdcore/tokens.css",
+      "pack": "skills/weirdcore/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 400,
+          "subhead_weight": 400,
+          "body_weight": 400,
+          "strong_weight": 700,
+          "label_weight": 400,
+          "accent": "colour",
+          "display_tracking": "0.02em",
+          "display_leading": 1.2,
+          "display_case": "none",
+          "body_leading": 1.5,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "solid",
+          "stroke_width": 2,
+          "linecap": "butt",
+          "linejoin": "miter",
+          "container": "square",
+          "pack": {
+            "id": "pixelarticons",
+            "why": "Pixel icons match the low-resolution, old-computer fragments of the style."
+          }
+        },
+        "art": {
+          "recipe": "grunge",
+          "pattern": "noise",
+          "seed": 31
+        },
+        "layout": {
+          "hero": "poster",
+          "align": "left",
+          "density": "compact",
+          "tilt_deg": 1
+        },
+        "ground": {
+          "kind": "raw",
+          "why": "Weirdcore uses raw, degraded images, so the ground is a flat field with visible noise and no polish."
+        }
+      },
+      "triggers": [
+        "weirdcore",
+        "oddcore",
+        "strangecore",
+        "creepycore",
+        "uncanny nostalgia",
+        "lo-fi eerie",
+        "empty playground",
+        "black void"
+      ],
+      "use_cases": [
+        "horror and indie game pages",
+        "album and zine artwork",
+        "short film posters",
+        "art projects about memory"
+      ],
+      "emotion": [
+        "uncanny",
+        "nostalgic",
+        "eerie",
+        "empty",
+        "lo-fi",
+        "dreamlike"
+      ],
+      "archetypes": [
+        "magician",
+        "outlaw"
+      ],
+      "vectors": {
+        "ornamentation": 2,
+        "dimensionality": 2,
+        "grid_rigidity": 2,
+        "skeuomorphic_realism": 3,
+        "typographic_expressiveness": 4
+      },
+      "techniques": [
+        "lo-fi-found-image"
+      ],
+      "orgs": [
+        "reddit",
+        "tumblr"
+      ],
+      "permutations": {
+        "base_colour": {
+          "options": [
+            "#C9C58A",
+            "#E01B1B",
+            "#D9D4C0"
+          ]
+        },
+        "accent_colour": {
+          "options": [
+            "#E01B1B",
+            "#3B6B66"
+          ]
+        },
+        "corner_radius": {
+          "min": 0,
+          "max": 0
+        },
+        "grid_step": {
+          "min": 2,
+          "max": 8
+        },
+        "type_scale_ratio": {
+          "default": 1.414,
           "min": 1.25,
           "max": 1.5
         }
