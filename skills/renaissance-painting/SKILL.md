@@ -214,7 +214,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`baroque-painting`](../baroque-painting/SKILL.md), [`mannerism-painting`](../mannerism-painting/SKILL.md)
 - **Was rejected by:** [`cubism-painting`](../cubism-painting/SKILL.md)
-- **Kin in another domain:** [`garalde-old-style`](../garalde-old-style/SKILL.md), [`georgian-interior`](../georgian-interior/SKILL.md), [`planimetric-symmetry`](../planimetric-symmetry/SKILL.md), [`renaissance-architecture`](../renaissance-architecture/SKILL.md)
+- **Kin in another domain:** [`garalde-old-style`](../garalde-old-style/SKILL.md), [`georgian-interior`](../georgian-interior/SKILL.md), [`planimetric-symmetry`](../planimetric-symmetry/SKILL.md), [`renaissance-architecture`](../renaissance-architecture/SKILL.md), [`woodcut-relief-print`](../woodcut-relief-print/SKILL.md)
 - **Nearest by vector profile:** [`surrealism-painting`](../surrealism-painting/SKILL.md), [`photorealism`](../photorealism/SKILL.md), [`mannerism-painting`](../mannerism-painting/SKILL.md)
 
 ## Emotional target

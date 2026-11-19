@@ -1,0 +1,251 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "xerox-zine",
+  "domain": "print",
+  "name": "Xerox zine",
+  "aliases": [
+    "Photocopy zine",
+    "Punk fanzine",
+    "Cut-and-paste zine",
+    "DIY zine"
+  ],
+  "era_id": "studio-press",
+  "time_period": {
+    "start": 1976,
+    "end": 1995,
+    "label": "1976–1995"
+  },
+  "region": "London, New York and every town with a copy shop",
+  "summary": "A fanzine made with scissors, glue, a typewriter and a photocopier, in black toner on white office paper. Sniffin' Glue started in London in 1976; punk, hardcore and riot grrrl made the copy shop a press anyone could use.",
+  "philosophy": {
+    "core_thesis": "If a copier is the press, anyone can publish, and the rough marks of the copy are proof of independence.",
+    "design_principles": [
+      "Paste up each page by hand from typewriter text, hand lettering, letters cut from magazines and photos.",
+      "Copy in black toner only; push the contrast until the photos are black shapes and the greys drop out.",
+      "Let pieces sit at angles; show the edges of the cut paper and the tape.",
+      "Copy a copy to add grain, toner noise and a black edge round the page.",
+      "Fold A4 or letter sheets in half and staple them at the fold."
+    ],
+    "anti_patterns": [
+      "Clean, aligned typesetting on a grid",
+      "Full colour or a smooth grey tone",
+      "Glossy, coated paper",
+      "A polished logo or a corporate look"
+    ]
+  },
+  "vectors": {
+    "tone_method": 2,
+    "ink_layering": 1,
+    "registration_play": 1,
+    "surface_relief": 1,
+    "hand_trace": 5
+  },
+  "process": {
+    "family": "electrostatic",
+    "matrix": "A paste-up master of cut paper on a sheet; no plate.",
+    "press": "An office photocopier with dry toner, fused by heat.",
+    "image_making": "The editor writes, cuts, pastes and copies, often at night in a copy shop or an office.",
+    "edition": "50–5,000 copies, printed as the money comes."
+  },
+  "inks": {
+    "strategy": "One black toner; colour, if any, from a coloured paper or a marker.",
+    "ink_count_min": 1,
+    "ink_count_max": 2,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Toner black",
+        "hex": "#121212",
+        "role": "all marks"
+      }
+    ]
+  },
+  "screening": {
+    "method": "grain",
+    "ruling_lpi": 50,
+    "rule": "Let the copier turn the greys into a coarse, random toner grain or drop them to white."
+  },
+  "registration": {
+    "tolerance_mm": 0,
+    "rule": "One pass of toner; the paste-up can be crooked, but there is no register."
+  },
+  "substrate": {
+    "stock": "White or coloured office paper, A4 or US letter.",
+    "weight_gsm_min": 70,
+    "weight_gsm_max": 90,
+    "ground": "#F4F2EC",
+    "finish": "Uncoated, smooth, bright white."
+  },
+  "surface": {
+    "impression": "No bite; the toner sits on the surface with a slight gloss.",
+    "sheen": "A faint gloss in the solid blacks of toner.",
+    "texture": "Hard black and white, with toner specks, streaks and the shadows of the cut paper."
+  },
+  "artefacts": {
+    "marks": [
+      "toner specks",
+      "copier streaks",
+      "shadows of paste-up edges",
+      "black page border",
+      "crooked text blocks",
+      "ransom-note lettering",
+      "staples at the fold"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1977 punk fanzine",
+      "photocopied zine page",
+      "cut-and-paste collage",
+      "ransom note letters",
+      "typewriter text",
+      "high-contrast black toner",
+      "xerox texture",
+      "DIY layout"
+    ],
+    "negative": [
+      "colour",
+      "clean grid",
+      "glossy paper",
+      "smooth gradient",
+      "corporate design"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "A Selection of UK Punk Fanzines",
+      "kind": "image",
+      "maker": "Various UK punk fanzines; photo by Dgnews",
+      "year": 1977,
+      "credit": "Photograph of the zines, Wikimedia Commons (own work, Dgnews). The licence covers the photograph, not the zines.",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:A_Selection_of_UK_Punk_Fanzines.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/A_Selection_of_UK_Punk_Fanzines.jpg/960px-A_Selection_of_UK_Punk_Fanzines.jpg"
+    },
+    {
+      "title": "SF punk zines at Prelinger Library",
+      "kind": "image",
+      "maker": "Various zines; photo by Lindsay Eyink",
+      "year": 1980,
+      "credit": "Photograph of the zines, Wikimedia Commons (Flickr, Lindsay Eyink). The licence covers the photograph, not the zines.",
+      "licence": "CC BY 2.0",
+      "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:SF_punk_zines_at_Prelinger_Library.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/c/c6/SF_punk_zines_at_Prelinger_Library.jpg"
+    },
+    {
+      "title": "1970s fanzines (21224199545)",
+      "kind": "image",
+      "maker": "Various fanzines; photo by Jake from Manchester, UK",
+      "year": 1975,
+      "credit": "Photograph of the zines, Wikimedia Commons (Jake from Manchester, UK). The licence covers the photograph, not the zines.",
+      "licence": "CC BY 2.0",
+      "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:1970s_fanzines_(21224199545).jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/1970s_fanzines_%2821224199545%29.jpg/1280px-1970s_fanzines_%2821224199545%29.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "psychedelic-concert-poster"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "punk-zine",
+      "grunge-editorial",
+      "anti-design"
+    ]
+  },
+  "emotion": {
+    "target_response": "Raw urgency: the reader feels anger, humour and a voice that nobody edited.",
+    "keywords": [
+      "raw",
+      "angry",
+      "urgent",
+      "homemade",
+      "rebellious"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "zine",
+      "photocopy look",
+      "xerox texture",
+      "punk fanzine",
+      "cut and paste",
+      "diy print",
+      "ransom note letters"
+    ],
+    "use_cases": [
+      "gig flyers and zines",
+      "record sleeves",
+      "street-wear graphics",
+      "activist posters"
+    ],
+    "avoid_when": [
+      "The brand must look trusted or premium.",
+      "The reader needs long, clear text."
+    ],
+    "modifiers": [
+      {
+        "request": "with colour",
+        "toward": "risograph-print",
+        "how": "Keep the paste-up, but print it on a riso with 2–3 spot inks."
+      },
+      {
+        "request": "for the screen",
+        "toward": "punk-zine",
+        "how": "Use the web style of the punk zine: torn edges, cut-out type and a black and white palette."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#121212",
+      "options": [
+        "#121212"
+      ]
+    },
+    "paper_colour": {
+      "default": "#F4F2EC",
+      "options": [
+        "#F4F2EC",
+        "#F2D9E4",
+        "#F7EFA8"
+      ]
+    },
+    "ink_count": {
+      "default": 1,
+      "min": 1,
+      "max": 2
+    },
+    "screen_ruling": {
+      "default": 50,
+      "min": 30,
+      "max": 85
+    },
+    "misregistration": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    }
+  },
+  "sources": [
+    {
+      "title": "Zine (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Zine"
+    },
+    {
+      "title": "Sniffin' Glue (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Sniffin%27_Glue"
+    },
+    {
+      "title": "Teal Triggs, Fanzines (Thames & Hudson, 2010)"
+    }
+  ]
+}

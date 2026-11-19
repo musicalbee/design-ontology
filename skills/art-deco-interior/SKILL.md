@@ -350,7 +350,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md)
-- **Kin in another domain:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md), [`art-deco-web`](../art-deco-web/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md)
+- **Kin in another domain:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md), [`art-deco-web`](../art-deco-web/SKILL.md), [`pochoir-plate`](../pochoir-plate/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md)
 - **Nearest by vector profile:** [`neo-deco-interior`](../neo-deco-interior/SKILL.md), [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md)
 
 ## Emotional target

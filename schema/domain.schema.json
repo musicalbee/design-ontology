@@ -53,7 +53,7 @@
           "purpose": { "$ref": "core.schema.json#/$defs/sentence", "description": "What the asset is for, in the standard of the domain." },
           "made_by": { "enum": ["model", "code"], "description": "model: an image model renders it from a prompt; the prompt is in the manifest entry. code: a script draws it from the style data; the generator is the prompt." },
           "file": { "type": "string", "pattern": "^[a-z0-9_./{}-]+$", "description": "The path from the repository root. {id} is the style id; {part} is each item of parts." },
-          "parts": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "core.schema.json#/$defs/slug" }, "description": "For an asset of more than one file, for example a moodboard of tiles." },
+          "parts": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "anyOf": [{ "$ref": "core.schema.json#/$defs/slug" }, { "type": "string", "pattern": "^[1-9][0-9]?$" }] }, "description": "For an asset of more than one file: named tiles of a moodboard, or the numbered frames of a set (1, 2, 3)." },
           "manifest": { "type": "string", "pattern": "^[a-z0-9_./-]+\\.json$", "description": "The render record that holds the prompt and the canvas of each file. Required when made_by is model." },
           "entry": { "type": "string", "pattern": "^[a-z0-9_.{}-]+$", "description": "The dotted path of the record in the manifest, for example images.{id}." },
           "generator": { "type": "string", "minLength": 5, "maxLength": 120, "description": "The script that makes the asset." },

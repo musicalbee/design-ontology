@@ -1,4 +1,6 @@
 // One gallery for the image domains (photography, film, painting).
+// A preview with "frames" is a set: a moodboard (photography, one frame for each typical subject of the style)
+// or a showreel (film, one frame for each shot of the shot list, cut at the rhythm of the shot lengths).
 // The page sets <body data-domain="…">. The script reads the domain definition, the skill index
 // and each style record, so new styles show with no page work.
 const DOMAIN = document.body.dataset.domain;
@@ -30,6 +32,22 @@ document.head.insertAdjacentHTML("beforeend", `<style>
   .shot.tall { background: #111; grid-template-rows: minmax(0, 1fr); }
   .shot.tall img { object-fit: contain; }
   .shot .ph { display: flex; }
+  .shot.set { aspect-ratio: auto; background: none; overflow: visible; }
+  .board { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .board figure { padding: 0; border: 0; background: none; }
+  .board img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 6px; display: block; }
+  .board figcaption { margin-top: 4px; }
+  .reel .screen { position: relative; aspect-ratio: 3 / 2; background: #111; border-radius: 6px; overflow: hidden; }
+  .reel .screen img { width: 100%; height: 100%; object-fit: contain; display: block; }
+  .reel .tc { position: absolute; left: 8px; bottom: 8px; font: 12px/1.3 ui-monospace, monospace; color: #fff;
+    background: rgb(0 0 0 / .6); padding: 3px 7px; border-radius: 4px; }
+  .reel .bar { display: flex; gap: 8px; align-items: stretch; margin-top: 8px; }
+  .reel .play { flex: none; width: 44px; border: 1px solid var(--line); border-radius: 6px; background: #fff; cursor: pointer; font-size: 16px; }
+  .reel .strip { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(96px, 1fr); gap: 6px; overflow-x: auto; flex: 1; }
+  .reel .strip button { padding: 0; border: 2px solid transparent; border-radius: 6px; background: #fff; cursor: pointer; text-align: left; font: inherit; }
+  .reel .strip button[aria-current="true"] { border-color: var(--accent); }
+  .reel .strip img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; border-radius: 4px 4px 0 0; }
+  .reel .strip span { display: block; font-size: 11px; line-height: 1.3; padding: 3px 5px; color: var(--muted); }
   .shot .ph span { flex: 1; }
   .vec { font-size: 14px; }
   .sw { display: flex; flex-wrap: wrap; gap: 10px; font-size: 12px; margin-top: 12px; }
@@ -106,13 +124,57 @@ function vivid(hexes) {
   return best;
 }
 
+const src = (f) => `previews/${DOMAIN}/${esc(f.file)}`;
+const credit = (p) => `${p.model} (${p.licence}), seed ${p.seed}, ${p.steps} steps.`;
+let reel = null;
+const still = matchMedia("(prefers-reduced-motion: reduce)");
+
+// A moodboard: the same light, lens and grade on different subjects. That is what makes it a style, not a scene.
+function board(s, p) {
+  $("shot").innerHTML = `<div class="board">${p.frames.map((f) =>
+    `<figure><img src="${src(f)}" alt="${esc(`${s.name}: ${f.label}`)}" loading="lazy"><figcaption>${esc(f.label)}</figcaption></figure>`).join("")}</div>`;
+  $("shot-cap").textContent = `Moodboard: ${p.frames.length} generated frames, not real works. One frame for each typical subject of the style, with the same light, lens and grade words. ${credit(p)}`;
+}
+
+// A showreel: hard cuts through the shot list. Each shot holds for a quarter of its length in the record
+// (700 ms to 4 s), so a slow style cuts slowly and a fast style cuts fast.
+function showreel(s, p) {
+  const F = p.frames, hold = (f) => Math.min(4000, Math.max(700, (f.seconds || 3) * 250));
+  F.forEach((f) => { new Image().src = src(f); });
+  $("shot").innerHTML = `<div class="reel"><div class="screen"><img id="r-img" alt=""><span class="tc" id="r-tc"></span></div>
+    <div class="bar"><button class="play" id="r-play" type="button"></button>
+    <div class="strip">${F.map((f, i) => `<button type="button" data-shot="${i}" aria-label="Shot ${i + 1}: ${esc(f.label)}"><img src="${src(f)}" alt="" data-nozoom="1"><span>${i + 1}. ${esc(f.label)}<br>${esc([f.size, f.lens, f.seconds && f.seconds + " s"].filter(Boolean).join(" · "))}</span></button>`).join("")}</div></div></div>`;
+  const r = reel = { i: 0, playing: !still.matches, t: 0 };
+  const cut = (i) => {
+    clearTimeout(r.t);
+    if (reel !== r) return;
+    r.i = (i + F.length) % F.length;
+    const f = F[r.i];
+    $("r-img").src = src(f);
+    $("r-img").alt = `${s.name}, shot ${r.i + 1}: ${f.label}`;
+    $("r-tc").textContent = `${r.i + 1}/${F.length} · ${[f.size, f.lens, f.movement].filter(Boolean).join(" · ")}`;
+    for (const b of $("shot").querySelectorAll("[data-shot]")) b.setAttribute("aria-current", b.dataset.shot == r.i);
+    if (r.playing) r.t = setTimeout(() => cut(r.i + 1), hold(f));
+  };
+  const mark = () => { $("r-play").textContent = r.playing ? "❚❚" : "▶"; $("r-play").setAttribute("aria-label", r.playing ? "Pause the showreel" : "Play the showreel"); };
+  $("r-play").onclick = () => { r.playing = !r.playing; mark(); cut(r.i); };
+  $("shot").querySelectorAll("[data-shot]").forEach((b) => (b.onclick = () => { r.playing = false; mark(); cut(+b.dataset.shot); }));
+  mark(); cut(0);
+  $("shot-cap").textContent = `Showreel: ${F.length} generated stills, not a real film. One frame for each shot of the shot list, cut at the rhythm of the shot lengths${still.matches ? " (paused: reduced motion)" : ""}. ${credit(p)}`;
+}
+
 function shot(s, found) {
   const p = previews[s.id];
-  $("shot").classList.toggle("tall", !!p && p.height > p.width);
-  if (p) {
+  if (reel) { clearTimeout(reel.t); reel = null; }
+  $("shot").classList.toggle("set", !!p?.frames);
+  $("shot").classList.toggle("tall", !!p && !p.frames && p.height > p.width);
+  if (p?.frames) (p.kind === "reel" ? showreel : board)(s, p);
+  else if (p) {
     $("shot").innerHTML = `<img src="previews/${DOMAIN}/${esc(p.file)}" alt="${esc(`${s.name}: ${p.subject}`)}">`;
     $("shot-cap").textContent = p.kind === "specimen"
       ? `Specimen of ${p.font} (${p.licence}), drawn from the font outlines. No image model.`
+      : p.kind === "press-proof"
+      ? `Press proof drawn by code from the process rules of the style. No image model. Subject: ${p.subject}.`
       : `Generated preview, not a real work. ${p.model} (${p.licence}), seed ${p.seed}, ${p.steps} steps. Subject: ${p.subject}.${p.wordmark ? ` Wordmark "${p.wordmark.brand}"${p.wordmark.fictional ? " (a fictional brand)" : ""} set in ${p.wordmark.font} by ${p.wordmark.maker} (${p.wordmark.licence}).` : ""}`;
   } else {
     const cols = found.hex.slice(0, 8);

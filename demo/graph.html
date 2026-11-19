@@ -49,10 +49,24 @@
   svg.focus .node.on { opacity: 1; }
   svg.focus .node.me circle { fill: var(--accent); r: 6; }
   svg.focus .node.me text { font-weight: 700; fill: var(--accent); }
+  /* Echo reach: styles further away by echoes fade by hop. */
+  svg.focus .node.on.h2, svg.focus .edge.on.h2 { opacity: .8; }
+  svg.focus .node.on.h3, svg.focus .edge.on.h3 { opacity: .6; }
+  svg.focus .node.on.h4, svg.focus .edge.on.h4 { opacity: .45; }
+  svg.focus .node.on.h2 circle, svg.focus .node.on.h3 circle, svg.focus .node.on.h4 circle { fill: var(--accent); }
+  svg.focus .edge.on.far { stroke-dasharray: 1 3; stroke-linecap: round; stroke-width: 1.4; }
+  .hops { display: inline-flex; gap: 4px; align-items: center; }
+  .hops button { font: inherit; font-size: 12px; min-width: 26px; height: 24px; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--ink); cursor: pointer; }
+  .hops button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); font-weight: 650; }
+  aside .faces { display: flex; flex-wrap: wrap; gap: 5px; margin: 2px 0 4px; }
+  aside .fx { margin: 0; }
+  aside .reach li { margin: 2px 0; }
+  aside .reach small { color: var(--muted); }
   .node.hit text { font-weight: 700; fill: var(--accent); }
   .node.hit circle { fill: var(--accent); }
   aside { border-left: 1px solid var(--line); padding: 0 0 0 16px; font-size: 14px; align-self: start; position: sticky; top: 68px; }
   @media (max-width: 1099px) { aside { position: static; border-left: 0; padding: 0; } }
+  @media (min-width: 1100px) { aside { max-height: calc(100vh - 84px); overflow-y: auto; overscroll-behavior: contain; } }
   aside h2 { margin: 0; font-size: 20px; line-height: 1.2; }
   aside .meta { color: var(--muted); font-size: 13px; margin: 2px 0 8px; }
   aside h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 12px 0 4px; font-weight: 650; }
@@ -66,13 +80,14 @@
 <main>
   <header>
     <h1>The lineage graph</h1>
-    <p class="lede">Every style on one time line, with a lane for each domain. Select a style to see all its edges, echoes included. Edges inside a domain show descent, rejection and mixing. Echoes join styles of different domains that share an idea.</p>
+    <p class="lede">Every style on one time line, with a lane for each domain. Select a style to see all its edges, echoes included. Edges inside a domain show descent, rejection and mixing. Echoes join styles of different domains that share an idea. Echo reach follows the echoes for up to four hops, so you can see how far the idea of a style travels, and who carried it.</p>
   </header>
   <div class="controls" id="controls">
     <label><input type="checkbox" data-type="EVOLVED_FROM" checked><svg width="22" height="6" aria-hidden="true"><line class="k EVOLVED_FROM" x1="0" y1="3" x2="22" y2="3"/></svg>Evolved from</label>
     <label><input type="checkbox" data-type="REBELLED_AGAINST" checked><svg width="22" height="6" aria-hidden="true"><line class="k REBELLED_AGAINST" x1="0" y1="3" x2="22" y2="3"/></svg>Rebelled against</label>
     <label><input type="checkbox" data-type="HYBRIDIZED_WITH" checked><svg width="22" height="6" aria-hidden="true"><line class="k HYBRIDIZED_WITH" x1="0" y1="3" x2="22" y2="3"/></svg>Mixed with</label>
     <label><input type="checkbox" data-type="ECHOES"><svg width="22" height="6" aria-hidden="true"><line class="k ECHOES" x1="0" y1="3" x2="22" y2="3"/></svg>Echoes across domains</label>
+    <span class="hops" role="group" aria-label="Echo reach in hops">Echo reach <button type="button" data-hops="1">1</button><button type="button" data-hops="2">2</button><button type="button" data-hops="3">3</button><button type="button" data-hops="4">4</button></span>
     <input type="search" id="q" placeholder="Find a style" aria-label="Find a style">
   </div>
   <div class="layout">
@@ -81,12 +96,15 @@
   </div>
 </main>
 <script>
-const PAGES = { design: "index.html", architecture: "architecture.html", interior: "interior.html", photography: "photography.html", film: "film.html", painting: "painting.html" };
+// Each domain has its demo page at <domain>.html.
+const page = (domain) => `${domain}.html`;
+const HOPS_KEY = "do-graph-hops";
+let hops = (() => { try { return +localStorage.getItem(HOPS_KEY) || 2; } catch { return 2; } })();
 const REL = [["evolved_from", "Evolved from"], ["evolved_into", "Evolved into"], ["rebelled_against", "Rebelled against"], ["provoked", "Provoked"], ["hybridized_with", "Mixed with"], ["echoes", "Echoes"]];
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 const $ = (id) => document.getElementById(id);
 const NS = "http://www.w3.org/2000/svg";
-let G, byId, pos = {}, selected = null;
+let G, byId, pos = {}, selected = null, reach = new Map();
 
 // Time axis: 1200–1850 is compressed, 1850–2030 is wide, because most styles start after 1850.
 const X0 = 150, W_EARLY = 160, W_MAIN = 1250;
@@ -167,12 +185,38 @@ function focus(id) {
   selected = id;
   const svg = $("g");
   svg.classList.toggle("focus", !!id);
-  for (const n of svg.querySelectorAll(".node")) n.classList.remove("on", "me");
-  for (const e of svg.querySelectorAll(".edge")) e.classList.remove("on");
+  for (const n of svg.querySelectorAll(".node")) n.classList.remove("on", "me", "h2", "h3", "h4");
+  for (const e of svg.querySelectorAll(".edge")) e.classList.remove("on", "h2", "h3", "h4", "far");
+  for (const b of document.querySelectorAll(".hops [data-hops]")) b.setAttribute("aria-pressed", +b.dataset.hops === hops);
+  reach = new Map();
   if (!id) { panelEmpty(); return; }
+  // Hop 1: every edge of the style. Hops 2..n: echoes only, each style at its nearest hop.
   const near = new Set([id]);
-  for (const e of svg.querySelectorAll(".edge")) if (e.dataset.from === id || e.dataset.to === id) { e.classList.add("on"); near.add(e.dataset.from); near.add(e.dataset.to); }
-  for (const n of svg.querySelectorAll(".node")) if (near.has(n.dataset.id)) n.classList.add("on");
+  for (const e of svg.querySelectorAll(".edge")) if (e.dataset.from === id || e.dataset.to === id) {
+    e.classList.add("on");
+    const t = e.dataset.from === id ? e.dataset.to : e.dataset.from;
+    near.add(t);
+    if (!reach.has(t)) reach.set(t, { hop: 1, via: id });
+  }
+  const echoes = [...svg.querySelectorAll(".edge.ECHOES")];
+  let front = [...reach.keys()];
+  for (let h = 2; h <= hops; h++) {
+    const next = [];
+    for (const s of front) for (const e of echoes) {
+      if (e.dataset.from !== s && e.dataset.to !== s) continue;
+      const t = e.dataset.from === s ? e.dataset.to : e.dataset.from;
+      if (t === id || reach.has(t)) continue;
+      reach.set(t, { hop: h, via: s });
+      e.classList.add("on", "far", "h" + h);
+      next.push(t);
+    }
+    front = next;
+  }
+  for (const n of svg.querySelectorAll(".node")) {
+    const r = reach.get(n.dataset.id);
+    if (near.has(n.dataset.id) || r) n.classList.add("on");
+    if (r?.hop > 1) n.classList.add("h" + r.hop);
+  }
   svg.querySelector(`.node[data-id="${CSS.escape(id)}"]`)?.classList.add("me");
   panel(id);
   if (location.hash.slice(1) !== id) history.replaceState(null, "", "#" + id);
@@ -185,11 +229,43 @@ function panelEmpty() {
 function panel(id) {
   const n = byId[id], adj = G.adjacency[id] || {};
   const dom = G.domains.find((d) => d.id === n.domain);
-  const list = (ids) => `<ul>${ids.map((t) => `<li><button class="link" data-go="${esc(t)}">${esc(byId[t]?.name ?? t)}</button> <small style="color:var(--muted)">${esc(G.domains.find((d) => d.id === byId[t]?.domain)?.name ?? "")}</small></li>`).join("")}</ul>`;
-  $("panel").innerHTML = `<h2>${esc(n.name)}</h2><p class="meta">${esc(dom?.name)} · ${n.start}–${n.end ?? "now"}</p>` +
-    REL.filter(([k]) => adj[k]?.length).map(([k, t]) => `<h3>${t}</h3>${list(adj[k])}`).join("") +
+  const dn = (sid) => G.domains.find((d) => d.id === byId[sid]?.domain)?.name ?? "";
+  const list = (ids) => `<ul>${ids.map((t) => `<li><button class="link" data-go="${esc(t)}">${esc(byId[t]?.name ?? t)}</button> <small style="color:var(--muted)">${esc(dn(t))}</small></li>`).join("")}</ul>`;
+  // The styles that only the later echo hops reach, by hop.
+  const far = [2, 3, 4].filter((h) => h <= hops).map((h) => [h, [...reach].filter(([, r]) => r.hop === h)]).filter(([, l]) => l.length);
+  const farHtml = far.length ? `<h3>Within ${hops} echo hops</h3><div class="reach">${far.map(([h, l]) => `<p class="meta" style="margin:6px 0 2px">${h} hops · ${l.length} style${l.length === 1 ? "" : "s"}</p><ul>${l
+    .map(([t, r]) => `<li><button class="link" data-go="${esc(t)}">${esc(byId[t].name)}</button> <small>${esc(dn(t))}, via ${esc(byId[r.via]?.name)}</small></li>`).join("")}</ul>`).join("")}</div>`
+    : hops > 1 ? `<h3>Within ${hops} echo hops</h3><p class="meta">The echoes reach no style further than the direct edges.</p>` : "";
+  $("panel").innerHTML = `<h2>${esc(n.name)}</h2><p class="meta">${esc(dom?.name)} · ${n.start}–${n.end ?? "now"}</p><div id="people"></div>` +
+    REL.filter(([k]) => adj[k]?.length).map(([k, t]) => `<h3>${t}</h3>${list(adj[k])}`).join("") + farHtml +
     (adj.techniques?.length ? `<h3>Techniques</h3><ul>${adj.techniques.map((t) => `<li><a href="techniques.html#${esc(t)}">${esc((G.techniques ?? []).find((x) => x.id === t)?.name ?? t)}</a></li>`).join("")}</ul>` : "") +
-    `<h3>Open</h3><ul><li><a href="${PAGES[n.domain]}#${esc(id)}">In the ${esc(dom?.name)} demo</a></li><li><a href="../skills/${esc(id)}/SKILL.md">Skill file</a></li></ul>`;
+    `<h3>Open</h3><ul><li><a href="${page(n.domain)}#${esc(id)}">In the ${esc(dom?.name)} demo</a></li><li><a href="../skills/${esc(id)}/SKILL.md">Skill file</a></li></ul>`;
+  people(id);
+}
+
+// The people of the style, and the people of every style in its reach, by domain. faces.js gives the portraits and the tips.
+function people(id) {
+  const F = window.Faces;
+  // nav.js adds faces.js without waiting for it, so the first focus can come first. Then try again when it loads.
+  if (!F) { document.querySelector('script[src$="faces.js"]')?.addEventListener("load", () => selected === id && people(id), { once: true }); return; }
+  F.ready.then((ok) => {
+    const box = $("people");
+    if (!ok || !box || selected !== id) return;
+    const seen = new Set(F.people(id));
+    const own = [...seen];
+    const byDom = new Map();
+    for (const [t, r] of [...reach].sort((a, b) => a[1].hop - b[1].hop)) {
+      const ppl = F.people(t).filter((p) => !seen.has(p));
+      ppl.forEach((p) => seen.add(p));
+      if (!ppl.length) continue;
+      const d = byId[t].domain;
+      if (!byDom.has(d)) byDom.set(d, []);
+      byDom.get(d).push(...ppl.map((p) => F.avatar(p, { small: true, style: t, via: `${byId[t].name}, ${r.hop === 1 ? "1 hop" : `${r.hop} hops`}` })));
+    }
+    const n = [...byDom.values()].reduce((a, l) => a + l.length, 0);
+    box.innerHTML = `<div class="fx"><h3>People</h3>${own.length ? `<div class="faces">${own.map((p) => F.avatar(p, { style: id })).join("")}</div>` : `<p class="meta">No person on record for this style yet.</p>`}` +
+      (n ? `<h3>People in reach · ${n}</h3>${[...byDom].map(([d, l]) => `<p class="meta" style="margin:6px 0 2px">${esc(G.domains.find((x) => x.id === d)?.name ?? d)}</p><div class="faces">${l.join("")}</div>`).join("")}` : "") + `</div>`;
+  });
 }
 
 fetch("../graph/lineage.json").then((r) => r.json()).then((g) => {
@@ -210,6 +286,13 @@ $("panel").addEventListener("click", (e) => {
   $("g").querySelector(`.node[data-id="${CSS.escape(b.dataset.go)}"]`)?.scrollIntoView({ block: "center", inline: "center", behavior: "smooth" });
 });
 $("controls").addEventListener("change", (e) => { if (e.target.dataset.type) drawEdges(); });
+$("controls").addEventListener("click", (e) => {
+  const b = e.target.closest("[data-hops]");
+  if (!b) return;
+  hops = +b.dataset.hops;
+  try { localStorage.setItem(HOPS_KEY, hops); } catch {}
+  focus(selected);
+});
 $("q").addEventListener("input", (e) => {
   const q = e.target.value.trim().toLowerCase();
   let first = null;

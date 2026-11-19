@@ -118,6 +118,17 @@
       ]
     },
     {
+      "id": "print",
+      "name": "Print",
+      "axes": [
+        "tone_method",
+        "ink_layering",
+        "registration_play",
+        "surface_relief",
+        "hand_trace"
+      ]
+    },
+    {
       "id": "industrial",
       "name": "Industrial design",
       "axes": [
@@ -3266,6 +3277,201 @@
       }
     },
     {
+      "id": "woodcut-relief-print",
+      "domain": "print",
+      "name": "Woodcut relief print",
+      "era": "hand-press",
+      "start": 1400,
+      "end": 1600,
+      "vectors": {
+        "tone_method": 2,
+        "ink_layering": 1,
+        "registration_play": 1,
+        "surface_relief": 2,
+        "hand_trace": 4
+      }
+    },
+    {
+      "id": "engraving-print",
+      "domain": "print",
+      "name": "Copper engraving",
+      "era": "hand-press",
+      "start": 1430,
+      "end": 1800,
+      "vectors": {
+        "tone_method": 3,
+        "ink_layering": 1,
+        "registration_play": 1,
+        "surface_relief": 4,
+        "hand_trace": 3
+      }
+    },
+    {
+      "id": "etching-print",
+      "domain": "print",
+      "name": "Etching",
+      "era": "hand-press",
+      "start": 1513,
+      "end": 1900,
+      "vectors": {
+        "tone_method": 3,
+        "ink_layering": 1,
+        "registration_play": 1,
+        "surface_relief": 4,
+        "hand_trace": 4
+      }
+    },
+    {
+      "id": "mezzotint-print",
+      "domain": "print",
+      "name": "Mezzotint",
+      "era": "hand-press",
+      "start": 1642,
+      "end": 1850,
+      "vectors": {
+        "tone_method": 5,
+        "ink_layering": 1,
+        "registration_play": 1,
+        "surface_relief": 4,
+        "hand_trace": 3
+      }
+    },
+    {
+      "id": "wood-type-poster",
+      "domain": "print",
+      "name": "Wood-type poster",
+      "era": "industrial-press",
+      "start": 1828,
+      "end": 1900,
+      "vectors": {
+        "tone_method": 1,
+        "ink_layering": 2,
+        "registration_play": 3,
+        "surface_relief": 2,
+        "hand_trace": 3
+      }
+    },
+    {
+      "id": "chromolithograph-poster",
+      "domain": "print",
+      "name": "Chromolithograph poster",
+      "era": "industrial-press",
+      "start": 1866,
+      "end": 1914,
+      "vectors": {
+        "tone_method": 3,
+        "ink_layering": 4,
+        "registration_play": 2,
+        "surface_relief": 1,
+        "hand_trace": 4
+      }
+    },
+    {
+      "id": "private-press-book",
+      "domain": "print",
+      "name": "Private-press book",
+      "era": "industrial-press",
+      "start": 1891,
+      "end": 1939,
+      "vectors": {
+        "tone_method": 2,
+        "ink_layering": 2,
+        "registration_play": 1,
+        "surface_relief": 3,
+        "hand_trace": 3
+      }
+    },
+    {
+      "id": "ben-day-comic-print",
+      "domain": "print",
+      "name": "Ben-Day comic print",
+      "era": "industrial-press",
+      "start": 1896,
+      "end": 1975,
+      "vectors": {
+        "tone_method": 2,
+        "ink_layering": 4,
+        "registration_play": 3,
+        "surface_relief": 1,
+        "hand_trace": 2
+      }
+    },
+    {
+      "id": "pochoir-plate",
+      "domain": "print",
+      "name": "Pochoir plate",
+      "era": "industrial-press",
+      "start": 1908,
+      "end": 1935,
+      "vectors": {
+        "tone_method": 1,
+        "ink_layering": 4,
+        "registration_play": 2,
+        "surface_relief": 1,
+        "hand_trace": 4
+      }
+    },
+    {
+      "id": "pop-screen-print",
+      "domain": "print",
+      "name": "Pop screen print",
+      "era": "studio-press",
+      "start": 1962,
+      "end": 1985,
+      "vectors": {
+        "tone_method": 2,
+        "ink_layering": 4,
+        "registration_play": 4,
+        "surface_relief": 2,
+        "hand_trace": 3
+      }
+    },
+    {
+      "id": "psychedelic-concert-poster",
+      "domain": "print",
+      "name": "Psychedelic concert poster",
+      "era": "studio-press",
+      "start": 1966,
+      "end": 1971,
+      "vectors": {
+        "tone_method": 1,
+        "ink_layering": 3,
+        "registration_play": 2,
+        "surface_relief": 1,
+        "hand_trace": 4
+      }
+    },
+    {
+      "id": "xerox-zine",
+      "domain": "print",
+      "name": "Xerox zine",
+      "era": "studio-press",
+      "start": 1976,
+      "end": 1995,
+      "vectors": {
+        "tone_method": 2,
+        "ink_layering": 1,
+        "registration_play": 1,
+        "surface_relief": 1,
+        "hand_trace": 5
+      }
+    },
+    {
+      "id": "risograph-print",
+      "domain": "print",
+      "name": "Risograph print",
+      "era": "digital-press",
+      "start": 1986,
+      "end": null,
+      "vectors": {
+        "tone_method": 3,
+        "ink_layering": 3,
+        "registration_play": 4,
+        "surface_relief": 1,
+        "hand_trace": 2
+      }
+    },
+    {
       "id": "georgian-neoclassical-manufacture",
       "domain": "industrial",
       "name": "Georgian neoclassical manufacture",
@@ -3563,6 +3769,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "anti-design",
+      "to": "xerox-zine",
+      "type": "ECHOES"
+    },
+    {
       "from": "apple-aqua",
       "to": "glossy-3d-logo",
       "type": "ECHOES"
@@ -3649,6 +3860,11 @@
     },
     {
       "from": "art-deco-interior",
+      "to": "pochoir-plate",
+      "type": "ECHOES"
+    },
+    {
+      "from": "art-deco-interior",
       "to": "streamline-moderne-product",
       "type": "ECHOES"
     },
@@ -3670,6 +3886,11 @@
     {
       "from": "art-deco-web",
       "to": "neo-deco-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "art-deco-web",
+      "to": "pochoir-plate",
       "type": "ECHOES"
     },
     {
@@ -3718,6 +3939,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "art-nouveau-interior",
+      "to": "chromolithograph-poster",
+      "type": "ECHOES"
+    },
+    {
       "from": "art-nouveau-monogram",
       "to": "art-nouveau-web",
       "type": "ECHOES"
@@ -3725,6 +3951,16 @@
     {
       "from": "art-nouveau-object",
       "to": "art-nouveau-web",
+      "type": "ECHOES"
+    },
+    {
+      "from": "art-nouveau-web",
+      "to": "chromolithograph-poster",
+      "type": "ECHOES"
+    },
+    {
+      "from": "art-nouveau-web",
+      "to": "psychedelic-concert-poster",
       "type": "ECHOES"
     },
     {
@@ -3740,6 +3976,11 @@
     {
       "from": "arts-and-crafts-architecture",
       "to": "arts-and-crafts-object",
+      "type": "ECHOES"
+    },
+    {
+      "from": "arts-and-crafts-architecture",
+      "to": "private-press-book",
       "type": "ECHOES"
     },
     {
@@ -3763,8 +4004,18 @@
       "type": "ECHOES"
     },
     {
+      "from": "arts-and-crafts-interior",
+      "to": "private-press-book",
+      "type": "ECHOES"
+    },
+    {
       "from": "baroque-architecture",
       "to": "baroque-painting",
+      "type": "ECHOES"
+    },
+    {
+      "from": "baroque-painting",
+      "to": "etching-print",
       "type": "ECHOES"
     },
     {
@@ -3780,6 +4031,11 @@
     {
       "from": "baroque-painting",
       "to": "german-expressionist-cinema",
+      "type": "ECHOES"
+    },
+    {
+      "from": "baroque-painting",
+      "to": "mezzotint-print",
       "type": "ECHOES"
     },
     {
@@ -3853,13 +4109,33 @@
       "type": "ECHOES"
     },
     {
+      "from": "ben-day-comic-print",
+      "to": "pop-art-painting",
+      "type": "ECHOES"
+    },
+    {
+      "from": "ben-day-comic-print",
+      "to": "pop-art-web",
+      "type": "ECHOES"
+    },
+    {
       "from": "blackletter",
       "to": "gothic-architecture",
       "type": "ECHOES"
     },
     {
       "from": "blackletter",
+      "to": "private-press-book",
+      "type": "ECHOES"
+    },
+    {
+      "from": "blackletter",
       "to": "punk-zine",
+      "type": "ECHOES"
+    },
+    {
+      "from": "blackletter",
+      "to": "woodcut-relief-print",
       "type": "ECHOES"
     },
     {
@@ -3973,6 +4249,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "chromolithograph-poster",
+      "to": "post-impressionism",
+      "type": "ECHOES"
+    },
+    {
       "from": "cinematic-teal-orange",
       "to": "neon-noir",
       "type": "ECHOES"
@@ -4030,6 +4311,11 @@
     {
       "from": "contemporary-craft-product",
       "to": "wabi-sabi-web",
+      "type": "ECHOES"
+    },
+    {
+      "from": "corporate-memphis",
+      "to": "risograph-print",
       "type": "ECHOES"
     },
     {
@@ -4099,6 +4385,11 @@
     },
     {
       "from": "didone-serif",
+      "to": "engraving-print",
+      "type": "ECHOES"
+    },
+    {
+      "from": "didone-serif",
       "to": "fashion-editorial",
       "type": "ECHOES"
     },
@@ -4143,6 +4434,16 @@
       "type": "ECHOES"
     },
     {
+      "from": "duotone-icon",
+      "to": "risograph-print",
+      "type": "ECHOES"
+    },
+    {
+      "from": "editorial-serif-revival",
+      "to": "risograph-print",
+      "type": "ECHOES"
+    },
+    {
       "from": "eight-bit-tile",
       "to": "pixel-art-web",
       "type": "ECHOES"
@@ -4160,6 +4461,16 @@
     {
       "from": "emblem-badge",
       "to": "space-age",
+      "type": "ECHOES"
+    },
+    {
+      "from": "engraving-print",
+      "to": "victorian-trademark",
+      "type": "ECHOES"
+    },
+    {
+      "from": "etching-print",
+      "to": "realism-painting",
       "type": "ECHOES"
     },
     {
@@ -4193,8 +4504,18 @@
       "type": "ECHOES"
     },
     {
+      "from": "fat-face-display",
+      "to": "wood-type-poster",
+      "type": "ECHOES"
+    },
+    {
       "from": "fauvism",
       "to": "new-colour",
+      "type": "ECHOES"
+    },
+    {
+      "from": "fauvism",
+      "to": "pochoir-plate",
       "type": "ECHOES"
     },
     {
@@ -4225,6 +4546,11 @@
     {
       "from": "film-noir-still",
       "to": "german-expressionist-cinema",
+      "type": "ECHOES"
+    },
+    {
+      "from": "film-noir-still",
+      "to": "mezzotint-print",
       "type": "ECHOES"
     },
     {
@@ -4319,6 +4645,11 @@
     },
     {
       "from": "garalde-old-style",
+      "to": "private-press-book",
+      "type": "ECHOES"
+    },
+    {
+      "from": "garalde-old-style",
       "to": "renaissance-architecture",
       "type": "ECHOES"
     },
@@ -4390,6 +4721,11 @@
     {
       "from": "grunge-editorial",
       "to": "street-photography",
+      "type": "ECHOES"
+    },
+    {
+      "from": "grunge-editorial",
+      "to": "xerox-zine",
       "type": "ECHOES"
     },
     {
@@ -4794,7 +5130,32 @@
     },
     {
       "from": "pop-art-painting",
+      "to": "pop-screen-print",
+      "type": "ECHOES"
+    },
+    {
+      "from": "pop-art-painting",
       "to": "space-age-pop-product",
+      "type": "ECHOES"
+    },
+    {
+      "from": "pop-art-web",
+      "to": "pop-screen-print",
+      "type": "ECHOES"
+    },
+    {
+      "from": "psychedelic",
+      "to": "psychedelic-concert-poster",
+      "type": "ECHOES"
+    },
+    {
+      "from": "psychedelic-concert-poster",
+      "to": "surrealism-painting",
+      "type": "ECHOES"
+    },
+    {
+      "from": "punk-zine",
+      "to": "xerox-zine",
       "type": "ECHOES"
     },
     {
@@ -4810,6 +5171,11 @@
     {
       "from": "renaissance-architecture",
       "to": "renaissance-painting",
+      "type": "ECHOES"
+    },
+    {
+      "from": "renaissance-painting",
+      "to": "woodcut-relief-print",
       "type": "ECHOES"
     },
     {
@@ -4845,6 +5211,11 @@
     {
       "from": "slab-serif",
       "to": "victorian-web",
+      "type": "ECHOES"
+    },
+    {
+      "from": "slab-serif",
+      "to": "wood-type-poster",
       "type": "ECHOES"
     },
     {
@@ -4905,6 +5276,16 @@
     {
       "from": "victorian-trademark",
       "to": "victorian-web",
+      "type": "ECHOES"
+    },
+    {
+      "from": "victorian-trademark",
+      "to": "wood-type-poster",
+      "type": "ECHOES"
+    },
+    {
+      "from": "victorian-web",
+      "to": "wood-type-poster",
       "type": "ECHOES"
     },
     {
@@ -5025,6 +5406,11 @@
     {
       "from": "beaux-arts-architecture",
       "to": "neoclassical-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "ben-day-comic-print",
+      "to": "chromolithograph-poster",
       "type": "EVOLVED_FROM"
     },
     {
@@ -5195,6 +5581,11 @@
     {
       "from": "emblem-badge",
       "to": "victorian-trademark",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "etching-print",
+      "to": "engraving-print",
       "type": "EVOLVED_FROM"
     },
     {
@@ -5483,6 +5874,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "mezzotint-print",
+      "to": "engraving-print",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "mid-century-modern",
       "to": "bauhaus",
       "type": "EVOLVED_FROM"
@@ -5668,6 +6064,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "pop-screen-print",
+      "to": "ben-day-comic-print",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "post-impressionism",
       "to": "impressionism",
       "type": "EVOLVED_FROM"
@@ -5675,6 +6076,16 @@
     {
       "from": "pre-rendered-backgrounds",
       "to": "sixteen-bit-sprite",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "private-press-book",
+      "to": "woodcut-relief-print",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "psychedelic-concert-poster",
+      "to": "chromolithograph-poster",
       "type": "EVOLVED_FROM"
     },
     {
@@ -5690,6 +6101,11 @@
     {
       "from": "rams-functionalism-ui",
       "to": "swiss-international",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "risograph-print",
+      "to": "xerox-zine",
       "type": "EVOLVED_FROM"
     },
     {
@@ -5860,6 +6276,11 @@
     {
       "from": "wabi-sabi-web",
       "to": "swiss-international",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "wood-type-poster",
+      "to": "woodcut-relief-print",
       "type": "EVOLVED_FROM"
     },
     {
@@ -6043,6 +6464,11 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "chromolithograph-poster",
+      "to": "wood-type-poster",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "cinematic-fpv",
       "to": "vertical-short-form",
       "type": "HYBRIDIZED_WITH"
@@ -6205,6 +6631,16 @@
     {
       "from": "emblem-badge",
       "to": "victorian-trademark",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "engraving-print",
+      "to": "woodcut-relief-print",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "etching-print",
+      "to": "mezzotint-print",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -6475,6 +6911,16 @@
     {
       "from": "pop-art-web",
       "to": "space-age",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "pop-screen-print",
+      "to": "psychedelic-concert-poster",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "pop-screen-print",
+      "to": "risograph-print",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -6953,6 +7399,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "pochoir-plate",
+      "to": "chromolithograph-poster",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "pop-art-painting",
       "to": "abstract-expressionism",
       "type": "REBELLED_AGAINST"
@@ -6965,6 +7416,11 @@
     {
       "from": "postmodern-architecture",
       "to": "international-style-architecture",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "private-press-book",
+      "to": "chromolithograph-poster",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -7095,6 +7551,11 @@
     {
       "from": "wabi-sabi-web",
       "to": "flat-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "xerox-zine",
+      "to": "psychedelic-concert-poster",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -8377,6 +8838,31 @@
       ]
     },
     {
+      "id": "etching",
+      "name": "Etching",
+      "kind": "process",
+      "origin": {
+        "domain": "print",
+        "year": 1513,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "painting",
+          "year": 1630,
+          "circa": true,
+          "lag_years": 117,
+          "styles": [
+            "baroque-painting"
+          ]
+        }
+      ],
+      "styles": [
+        "etching-print",
+        "baroque-painting"
+      ]
+    },
+    {
       "id": "exposed-joinery",
       "name": "Exposed joinery",
       "kind": "process",
@@ -8785,6 +9271,15 @@
           "styles": []
         },
         {
+          "domain": "print",
+          "year": 1962,
+          "circa": false,
+          "lag_years": 83,
+          "styles": [
+            "pop-screen-print"
+          ]
+        },
+        {
           "domain": "design",
           "year": 1976,
           "circa": true,
@@ -8806,7 +9301,8 @@
       "styles": [
         "pop-art-web",
         "punk-zine",
-        "duotone-icon"
+        "duotone-icon",
+        "pop-screen-print"
       ]
     },
     {
@@ -9159,6 +9655,51 @@
       ]
     },
     {
+      "id": "letterpress",
+      "name": "Letterpress",
+      "kind": "process",
+      "origin": {
+        "domain": "typeface",
+        "year": 1454,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "print",
+          "year": 1828,
+          "circa": false,
+          "lag_years": 374,
+          "styles": [
+            "wood-type-poster"
+          ]
+        },
+        {
+          "domain": "print",
+          "year": 1891,
+          "circa": false,
+          "lag_years": 437,
+          "styles": [
+            "private-press-book"
+          ]
+        },
+        {
+          "domain": "print",
+          "year": 1896,
+          "circa": true,
+          "lag_years": 442,
+          "styles": [
+            "ben-day-comic-print"
+          ]
+        }
+      ],
+      "styles": [
+        "blackletter",
+        "wood-type-poster",
+        "private-press-book",
+        "ben-day-comic-print"
+      ]
+    },
+    {
       "id": "letterspaced-capitals",
       "name": "Letterspaced capitals",
       "kind": "motif",
@@ -9271,6 +9812,15 @@
       },
       "adoptions": [
         {
+          "domain": "print",
+          "year": 1470,
+          "circa": true,
+          "lag_years": 40,
+          "styles": [
+            "engraving-print"
+          ]
+        },
+        {
           "domain": "typeface",
           "year": 1741,
           "circa": false,
@@ -9321,7 +9871,8 @@
         "didone-serif",
         "victorian-trademark",
         "formal-script",
-        "fat-face-display"
+        "fat-face-display",
+        "engraving-print"
       ]
     },
     {
@@ -9334,6 +9885,15 @@
         "circa": true
       },
       "adoptions": [
+        {
+          "domain": "print",
+          "year": 1866,
+          "circa": false,
+          "lag_years": 70,
+          "styles": [
+            "chromolithograph-poster"
+          ]
+        },
         {
           "domain": "painting",
           "year": 1879,
@@ -9360,12 +9920,23 @@
           "styles": [
             "expressionism-painting"
           ]
+        },
+        {
+          "domain": "print",
+          "year": 1966,
+          "circa": false,
+          "lag_years": 170,
+          "styles": [
+            "psychedelic-concert-poster"
+          ]
         }
       ],
       "styles": [
         "symbolism-painting",
         "art-nouveau-web",
-        "expressionism-painting"
+        "expressionism-painting",
+        "chromolithograph-poster",
+        "psychedelic-concert-poster"
       ]
     },
     {
@@ -9540,6 +10111,30 @@
       "styles": [
         "aurora-gradient-ui",
         "ethereal-web"
+      ]
+    },
+    {
+      "id": "mezzotint",
+      "name": "Mezzotint",
+      "kind": "process",
+      "origin": {
+        "domain": "print",
+        "year": 1642,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "print",
+          "year": 1770,
+          "circa": true,
+          "lag_years": 128,
+          "styles": [
+            "mezzotint-print"
+          ]
+        }
+      ],
+      "styles": [
+        "mezzotint-print"
       ]
     },
     {
@@ -9849,6 +10444,30 @@
       ]
     },
     {
+      "id": "photocopy",
+      "name": "Photocopy",
+      "kind": "technology",
+      "origin": {
+        "domain": "print",
+        "year": 1959,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "print",
+          "year": 1976,
+          "circa": false,
+          "lag_years": 17,
+          "styles": [
+            "xerox-zine"
+          ]
+        }
+      ],
+      "styles": [
+        "xerox-zine"
+      ]
+    },
+    {
       "id": "photomontage",
       "name": "Photomontage",
       "kind": "montage",
@@ -10115,6 +10734,30 @@
       ]
     },
     {
+      "id": "pochoir",
+      "name": "Pochoir",
+      "kind": "skill",
+      "origin": {
+        "domain": "print",
+        "year": 1908,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "print",
+          "year": 1912,
+          "circa": false,
+          "lag_years": 4,
+          "styles": [
+            "pochoir-plate"
+          ]
+        }
+      ],
+      "styles": [
+        "pochoir-plate"
+      ]
+    },
+    {
       "id": "pointed-pen",
       "name": "Pointed pen",
       "kind": "tool",
@@ -10218,6 +10861,30 @@
       ]
     },
     {
+      "id": "risograph",
+      "name": "Risograph",
+      "kind": "technology",
+      "origin": {
+        "domain": "print",
+        "year": 1986,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "print",
+          "year": 2008,
+          "circa": true,
+          "lag_years": 22,
+          "styles": [
+            "risograph-print"
+          ]
+        }
+      ],
+      "styles": [
+        "risograph-print"
+      ]
+    },
+    {
       "id": "roman-capital-proportions",
       "name": "Roman capital proportions",
       "kind": "motif",
@@ -10282,6 +10949,50 @@
       ],
       "styles": [
         "nordic-modernism-architecture"
+      ]
+    },
+    {
+      "id": "screen-printing",
+      "name": "Screen printing",
+      "kind": "process",
+      "origin": {
+        "domain": "print",
+        "year": 1907,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "print",
+          "year": 1962,
+          "circa": false,
+          "lag_years": 55,
+          "styles": [
+            "pop-screen-print"
+          ]
+        },
+        {
+          "domain": "painting",
+          "year": 1962,
+          "circa": false,
+          "lag_years": 55,
+          "styles": [
+            "pop-art-painting"
+          ]
+        },
+        {
+          "domain": "design",
+          "year": 1965,
+          "circa": true,
+          "lag_years": 58,
+          "styles": [
+            "pop-art-web"
+          ]
+        }
+      ],
+      "styles": [
+        "pop-screen-print",
+        "pop-art-painting",
+        "pop-art-web"
       ]
     },
     {
@@ -11212,13 +11923,23 @@
           "styles": [
             "victorian-trademark"
           ]
+        },
+        {
+          "domain": "print",
+          "year": 1879,
+          "circa": false,
+          "lag_years": 51,
+          "styles": [
+            "wood-type-poster"
+          ]
         }
       ],
       "styles": [
         "fat-face-display",
         "slab-serif",
         "grotesque-sans",
-        "victorian-trademark"
+        "victorian-trademark",
+        "wood-type-poster"
       ]
     },
     {
@@ -11232,12 +11953,30 @@
       },
       "adoptions": [
         {
+          "domain": "print",
+          "year": 1493,
+          "circa": false,
+          "lag_years": 625,
+          "styles": [
+            "woodcut-relief-print"
+          ]
+        },
+        {
           "domain": "painting",
           "year": 1765,
           "circa": false,
           "lag_years": 897,
           "styles": [
             "ukiyo-e"
+          ]
+        },
+        {
+          "domain": "print",
+          "year": 1891,
+          "circa": false,
+          "lag_years": 1023,
+          "styles": [
+            "private-press-book"
           ]
         },
         {
@@ -11272,7 +12011,9 @@
         "ukiyo-e",
         "post-impressionism",
         "expressionism-painting",
-        "fauvism"
+        "fauvism",
+        "woodcut-relief-print",
+        "private-press-book"
       ]
     }
   ],
@@ -11289,7 +12030,8 @@
       "echoes": [
         "fat-face-display",
         "slab-serif",
-        "victorian-trademark"
+        "victorian-trademark",
+        "wood-type-poster"
       ],
       "nearest_by_vector": [
         {
@@ -11329,6 +12071,8 @@
         "art-nouveau-interior",
         "art-nouveau-monogram",
         "art-nouveau-object",
+        "chromolithograph-poster",
+        "psychedelic-concert-poster",
         "symbolism-painting"
       ],
       "nearest_by_vector": [
@@ -11483,7 +12227,8 @@
         "art-deco-interior",
         "art-deco-product",
         "hollywood-regency-interior",
-        "neo-deco-interior"
+        "neo-deco-interior",
+        "pochoir-plate"
       ],
       "nearest_by_vector": [
         {
@@ -11692,7 +12437,9 @@
       ],
       "echoes": [
         "airbrush-surrealism",
-        "pop-art-painting"
+        "ben-day-comic-print",
+        "pop-art-painting",
+        "pop-screen-print"
       ],
       "nearest_by_vector": [
         {
@@ -11709,7 +12456,8 @@
         }
       ],
       "techniques": [
-        "halftone"
+        "halftone",
+        "screen-printing"
       ]
     },
     "space-age": {
@@ -11766,7 +12514,8 @@
       ],
       "echoes": [
         "airbrush-surrealism",
-        "giallo"
+        "giallo",
+        "psychedelic-concert-poster"
       ],
       "nearest_by_vector": [
         {
@@ -11834,7 +12583,8 @@
         "victorian-web"
       ],
       "echoes": [
-        "blackletter"
+        "blackletter",
+        "xerox-zine"
       ],
       "nearest_by_vector": [
         {
@@ -11947,7 +12697,8 @@
         "deconstructivist-architecture",
         "fashion-editorial",
         "party-flash",
-        "street-photography"
+        "street-photography",
+        "xerox-zine"
       ],
       "nearest_by_vector": [
         {
@@ -12687,7 +13438,8 @@
         "neo-brutalism-ui"
       ],
       "echoes": [
-        "deconstructivist-architecture"
+        "deconstructivist-architecture",
+        "xerox-zine"
       ],
       "nearest_by_vector": [
         {
@@ -12799,7 +13551,9 @@
         "claymorphism",
         "memphis-design"
       ],
-      "echoes": [],
+      "echoes": [
+        "risograph-print"
+      ],
       "nearest_by_vector": [
         {
           "id": "japanese-dense-web",
@@ -13113,7 +13867,9 @@
         "luxury-typography-web",
         "minimalism-web"
       ],
-      "echoes": [],
+      "echoes": [
+        "risograph-print"
+      ],
       "nearest_by_vector": [
         {
           "id": "neo-brutalism-ui",
@@ -13438,7 +14194,8 @@
       "hybridized_with": [],
       "echoes": [
         "arts-and-crafts-interior",
-        "arts-and-crafts-object"
+        "arts-and-crafts-object",
+        "private-press-book"
       ],
       "nearest_by_vector": [
         {
@@ -14196,7 +14953,8 @@
         "arts-and-crafts-object",
         "hand-painted-texture",
         "humanist-sans",
-        "nordic-national-romanticism-painting"
+        "nordic-national-romanticism-painting",
+        "private-press-book"
       ],
       "nearest_by_vector": [
         {
@@ -14232,7 +14990,8 @@
         "art-nouveau-architecture",
         "art-nouveau-monogram",
         "art-nouveau-object",
-        "art-nouveau-web"
+        "art-nouveau-web",
+        "chromolithograph-poster"
       ],
       "nearest_by_vector": [
         {
@@ -14305,6 +15064,7 @@
         "art-deco-architecture",
         "art-deco-product",
         "art-deco-web",
+        "pochoir-plate",
         "streamline-moderne-product"
       ],
       "nearest_by_vector": [
@@ -15358,7 +16118,8 @@
         "baroque-painting",
         "cyberpunk-web",
         "film-noir",
-        "german-expressionist-cinema"
+        "german-expressionist-cinema",
+        "mezzotint-print"
       ],
       "nearest_by_vector": [
         {
@@ -16252,7 +17013,8 @@
         "garalde-old-style",
         "georgian-interior",
         "planimetric-symmetry",
-        "renaissance-architecture"
+        "renaissance-architecture",
+        "woodcut-relief-print"
       ],
       "nearest_by_vector": [
         {
@@ -16314,9 +17076,11 @@
       "hybridized_with": [],
       "echoes": [
         "baroque-architecture",
+        "etching-print",
         "film-noir-still",
         "food-photography",
-        "german-expressionist-cinema"
+        "german-expressionist-cinema",
+        "mezzotint-print"
       ],
       "nearest_by_vector": [
         {
@@ -16333,7 +17097,8 @@
         }
       ],
       "techniques": [
-        "chiaroscuro"
+        "chiaroscuro",
+        "etching"
       ]
     },
     "ukiyo-e": {
@@ -16445,6 +17210,7 @@
       ],
       "hybridized_with": [],
       "echoes": [
+        "etching-print",
         "straight-photography"
       ],
       "nearest_by_vector": [
@@ -16574,7 +17340,9 @@
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [],
-      "echoes": [],
+      "echoes": [
+        "chromolithograph-poster"
+      ],
       "nearest_by_vector": [
         {
           "id": "expressionism-painting",
@@ -16662,7 +17430,8 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
-        "new-colour"
+        "new-colour",
+        "pochoir-plate"
       ],
       "nearest_by_vector": [
         {
@@ -16834,6 +17603,7 @@
       "hybridized_with": [],
       "echoes": [
         "impossible-isometric-mobile",
+        "psychedelic-concert-poster",
         "surrealism-web",
         "vaporwave"
       ],
@@ -16931,9 +17701,11 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
+        "ben-day-comic-print",
         "cel-shaded-3d",
         "memphis-design",
         "pop-art-web",
+        "pop-screen-print",
         "space-age-pop-product"
       ],
       "nearest_by_vector": [
@@ -16951,6 +17723,7 @@
         }
       ],
       "techniques": [
+        "screen-printing",
         "serial-repetition"
       ]
     },
@@ -17066,9 +17839,11 @@
         "emblem-badge"
       ],
       "echoes": [
+        "engraving-print",
         "fat-face-display",
         "victorian-interior",
-        "victorian-web"
+        "victorian-web",
+        "wood-type-poster"
       ],
       "nearest_by_vector": [
         {
@@ -17595,7 +18370,9 @@
       "hybridized_with": [
         "flat-icon"
       ],
-      "echoes": [],
+      "echoes": [
+        "risograph-print"
+      ],
       "nearest_by_vector": [
         {
           "id": "material-symbols-icon",
@@ -17655,7 +18432,9 @@
       "hybridized_with": [],
       "echoes": [
         "gothic-architecture",
-        "punk-zine"
+        "private-press-book",
+        "punk-zine",
+        "woodcut-relief-print"
       ],
       "nearest_by_vector": [
         {
@@ -17672,7 +18451,8 @@
         }
       ],
       "techniques": [
-        "broad-nib-pen"
+        "broad-nib-pen",
+        "letterpress"
       ]
     },
     "garalde-old-style": {
@@ -17690,6 +18470,7 @@
       ],
       "hybridized_with": [],
       "echoes": [
+        "private-press-book",
         "renaissance-architecture",
         "renaissance-painting"
       ],
@@ -17793,6 +18574,7 @@
       ],
       "hybridized_with": [],
       "echoes": [
+        "engraving-print",
         "fashion-editorial",
         "neoclassical-architecture"
       ],
@@ -17826,7 +18608,8 @@
       ],
       "echoes": [
         "victorian-trademark",
-        "victorian-web"
+        "victorian-web",
+        "wood-type-poster"
       ],
       "nearest_by_vector": [
         {
@@ -17862,7 +18645,8 @@
       ],
       "echoes": [
         "victorian-interior",
-        "victorian-web"
+        "victorian-web",
+        "wood-type-poster"
       ],
       "nearest_by_vector": [
         {
@@ -18558,6 +19342,441 @@
       ],
       "techniques": [
         "affine-texture-warp"
+      ]
+    },
+    "woodcut-relief-print": {
+      "evolved_from": [],
+      "evolved_into": [
+        "private-press-book",
+        "wood-type-poster"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "engraving-print"
+      ],
+      "echoes": [
+        "blackletter",
+        "renaissance-painting"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "xerox-zine",
+          "distance": 1.41
+        },
+        {
+          "id": "private-press-book",
+          "distance": 1.73
+        },
+        {
+          "id": "etching-print",
+          "distance": 2.24
+        }
+      ],
+      "techniques": [
+        "woodcut"
+      ]
+    },
+    "engraving-print": {
+      "evolved_from": [],
+      "evolved_into": [
+        "etching-print",
+        "mezzotint-print"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "woodcut-relief-print"
+      ],
+      "echoes": [
+        "didone-serif",
+        "victorian-trademark"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "etching-print",
+          "distance": 1
+        },
+        {
+          "id": "private-press-book",
+          "distance": 1.73
+        },
+        {
+          "id": "mezzotint-print",
+          "distance": 2
+        }
+      ],
+      "techniques": [
+        "line-engraving"
+      ]
+    },
+    "etching-print": {
+      "evolved_from": [
+        "engraving-print"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "mezzotint-print"
+      ],
+      "echoes": [
+        "baroque-painting",
+        "realism-painting"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "engraving-print",
+          "distance": 1
+        },
+        {
+          "id": "private-press-book",
+          "distance": 2
+        },
+        {
+          "id": "mezzotint-print",
+          "distance": 2.24
+        }
+      ],
+      "techniques": [
+        "etching"
+      ]
+    },
+    "mezzotint-print": {
+      "evolved_from": [
+        "engraving-print"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "etching-print"
+      ],
+      "echoes": [
+        "baroque-painting",
+        "film-noir-still"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "engraving-print",
+          "distance": 2
+        },
+        {
+          "id": "etching-print",
+          "distance": 2.24
+        },
+        {
+          "id": "private-press-book",
+          "distance": 3.32
+        }
+      ],
+      "techniques": [
+        "mezzotint"
+      ]
+    },
+    "wood-type-poster": {
+      "evolved_from": [
+        "woodcut-relief-print"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "chromolithograph-poster"
+      ],
+      "echoes": [
+        "fat-face-display",
+        "slab-serif",
+        "victorian-trademark",
+        "victorian-web"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "psychedelic-concert-poster",
+          "distance": 2
+        },
+        {
+          "id": "pop-screen-print",
+          "distance": 2.45
+        },
+        {
+          "id": "private-press-book",
+          "distance": 2.45
+        }
+      ],
+      "techniques": [
+        "letterpress",
+        "wood-type"
+      ]
+    },
+    "chromolithograph-poster": {
+      "evolved_from": [],
+      "evolved_into": [
+        "ben-day-comic-print",
+        "psychedelic-concert-poster"
+      ],
+      "rebelled_against": [],
+      "provoked": [
+        "pochoir-plate",
+        "private-press-book"
+      ],
+      "hybridized_with": [
+        "wood-type-poster"
+      ],
+      "echoes": [
+        "art-nouveau-interior",
+        "art-nouveau-web",
+        "post-impressionism"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "pochoir-plate",
+          "distance": 2
+        },
+        {
+          "id": "psychedelic-concert-poster",
+          "distance": 2.24
+        },
+        {
+          "id": "ben-day-comic-print",
+          "distance": 2.45
+        }
+      ],
+      "techniques": [
+        "lithography"
+      ]
+    },
+    "private-press-book": {
+      "evolved_from": [
+        "woodcut-relief-print"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "chromolithograph-poster"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "arts-and-crafts-architecture",
+        "arts-and-crafts-interior",
+        "blackletter",
+        "garalde-old-style"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "engraving-print",
+          "distance": 1.73
+        },
+        {
+          "id": "woodcut-relief-print",
+          "distance": 1.73
+        },
+        {
+          "id": "etching-print",
+          "distance": 2
+        }
+      ],
+      "techniques": [
+        "letterpress",
+        "woodcut"
+      ]
+    },
+    "ben-day-comic-print": {
+      "evolved_from": [
+        "chromolithograph-poster"
+      ],
+      "evolved_into": [
+        "pop-screen-print"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "pop-art-painting",
+        "pop-art-web"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "pop-screen-print",
+          "distance": 1.73
+        },
+        {
+          "id": "risograph-print",
+          "distance": 1.73
+        },
+        {
+          "id": "chromolithograph-poster",
+          "distance": 2.45
+        }
+      ],
+      "techniques": [
+        "letterpress"
+      ]
+    },
+    "pochoir-plate": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "chromolithograph-poster"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "art-deco-interior",
+        "art-deco-web",
+        "fauvism"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "psychedelic-concert-poster",
+          "distance": 1
+        },
+        {
+          "id": "chromolithograph-poster",
+          "distance": 2
+        },
+        {
+          "id": "ben-day-comic-print",
+          "distance": 2.45
+        }
+      ],
+      "techniques": [
+        "pochoir"
+      ]
+    },
+    "pop-screen-print": {
+      "evolved_from": [
+        "ben-day-comic-print"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "psychedelic-concert-poster",
+        "risograph-print"
+      ],
+      "echoes": [
+        "pop-art-painting",
+        "pop-art-web"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "ben-day-comic-print",
+          "distance": 1.73
+        },
+        {
+          "id": "risograph-print",
+          "distance": 2
+        },
+        {
+          "id": "wood-type-poster",
+          "distance": 2.45
+        }
+      ],
+      "techniques": [
+        "halftone",
+        "screen-printing"
+      ]
+    },
+    "psychedelic-concert-poster": {
+      "evolved_from": [
+        "chromolithograph-poster"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [
+        "xerox-zine"
+      ],
+      "hybridized_with": [
+        "pop-screen-print"
+      ],
+      "echoes": [
+        "art-nouveau-web",
+        "psychedelic",
+        "surrealism-painting"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "pochoir-plate",
+          "distance": 1
+        },
+        {
+          "id": "wood-type-poster",
+          "distance": 2
+        },
+        {
+          "id": "chromolithograph-poster",
+          "distance": 2.24
+        }
+      ],
+      "techniques": [
+        "lithography"
+      ]
+    },
+    "xerox-zine": {
+      "evolved_from": [],
+      "evolved_into": [
+        "risograph-print"
+      ],
+      "rebelled_against": [
+        "psychedelic-concert-poster"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "anti-design",
+        "grunge-editorial",
+        "punk-zine"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "woodcut-relief-print",
+          "distance": 1.41
+        },
+        {
+          "id": "psychedelic-concert-poster",
+          "distance": 2.65
+        },
+        {
+          "id": "private-press-book",
+          "distance": 3
+        }
+      ],
+      "techniques": [
+        "photocopy"
+      ]
+    },
+    "risograph-print": {
+      "evolved_from": [
+        "xerox-zine"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "pop-screen-print"
+      ],
+      "echoes": [
+        "corporate-memphis",
+        "duotone-icon",
+        "editorial-serif-revival"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "ben-day-comic-print",
+          "distance": 1.73
+        },
+        {
+          "id": "pop-screen-print",
+          "distance": 2
+        },
+        {
+          "id": "wood-type-poster",
+          "distance": 2.83
+        }
+      ],
+      "techniques": [
+        "risograph"
       ]
     },
     "georgian-neoclassical-manufacture": {

@@ -21,7 +21,7 @@
     { "key": "prompt_primer", "title": "Prompt primer" }
   ],
   "assets": [
-    {"type": "frame", "purpose": "One photograph of a fixed scene in the process and the light of the style.", "made_by": "model", "file": "demo/previews/photography/{id}.webp", "manifest": "demo/previews/photography/manifest.json", "entry": "images.{id}", "generator": "scripts/render-previews.ts", "canvas": [{"width": 1152, "height": 768}, {"width": 768, "height": 1152}]}
+    {"type": "moodboard", "purpose": "Four photographs, one for each typical subject of the style, with the same light, lens and grade.", "made_by": "model", "file": "demo/previews/photography/{id}/{part}.webp", "parts": ["1", "2", "3", "4"], "manifest": "demo/previews/photography/manifest.json", "entry": "images.{id}", "generator": "scripts/render-previews.ts", "canvas": [{"width": 1152, "height": 768}, {"width": 768, "height": 1152}]}
   ],
   "knobs": [
     {"key": "colour_temperature", "label": "Colour temperature", "kind": "integer", "unit": "K", "min": 2000, "max": 10000, "description": "The white balance of the grade.", "drives": ["colour_and_grade", "light"]},

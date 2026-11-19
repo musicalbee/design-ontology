@@ -176,7 +176,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`didone-serif`](../didone-serif/SKILL.md)
 - **Led to (go here for a newer version):** [`monospace`](../monospace/SKILL.md)
 - **Mixes well with:** [`fat-face-display`](../fat-face-display/SKILL.md), [`grotesque-sans`](../grotesque-sans/SKILL.md)
-- **Kin in another domain:** [`victorian-interior`](../victorian-interior/SKILL.md), [`victorian-web`](../victorian-web/SKILL.md)
+- **Kin in another domain:** [`victorian-interior`](../victorian-interior/SKILL.md), [`victorian-web`](../victorian-web/SKILL.md), [`wood-type-poster`](../wood-type-poster/SKILL.md)
 - **Nearest by vector profile:** [`monospace`](../monospace/SKILL.md), [`transitional-serif`](../transitional-serif/SKILL.md), [`grotesque-sans`](../grotesque-sans/SKILL.md)
 
 ## Emotional target

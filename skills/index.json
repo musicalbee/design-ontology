@@ -1335,7 +1335,8 @@
         "typographic_expressiveness": 4
       },
       "techniques": [
-        "halftone"
+        "halftone",
+        "screen-printing"
       ],
       "media": [
         "leo-castelli-gallery"
@@ -14282,7 +14283,8 @@
         "line_dominance": 2
       },
       "techniques": [
-        "chiaroscuro"
+        "chiaroscuro",
+        "etching"
       ],
       "media": [
         "accademia-di-san-luca",
@@ -15887,6 +15889,7 @@
         "line_dominance": 4
       },
       "techniques": [
+        "screen-printing",
         "serial-repetition"
       ],
       "media": [
@@ -17638,7 +17641,8 @@
         "serif_mass": 2
       },
       "techniques": [
-        "broad-nib-pen"
+        "broad-nib-pen",
+        "letterpress"
       ],
       "media": [
         "kelmscott-press"
@@ -19788,6 +19792,1106 @@
           "default": 48,
           "min": 16,
           "max": 64
+        }
+      }
+    },
+    {
+      "id": "woodcut-relief-print",
+      "name": "Woodcut relief print",
+      "domain": "print",
+      "era": "hand-press",
+      "period": "c.1400–1600s",
+      "thesis": "A black line that stands on a block of wood can carry form, light and tone if the cutter swells, tapers and crosses it.",
+      "summary": "A picture cut into the side grain of a plank: the cutter leaves the lines standing and the press prints them black. In Nuremberg, Wolgemut and Dürer made the cut carry tone with parallel and crossed lines, so one block printed with the type of a book.",
+      "path": "skills/woodcut-relief-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "woodcut",
+        "old woodcut",
+        "medieval print",
+        "dürer style",
+        "nuremberg chronicle",
+        "block print illustration",
+        "black-line woodcut",
+        "early printed book illustration"
+      ],
+      "use_cases": [
+        "book and chapter illustration",
+        "heritage labels and beer packs",
+        "editorial images on history",
+        "posters for early music"
+      ],
+      "emotion": [
+        "archaic",
+        "devout",
+        "bold",
+        "graphic",
+        "austere"
+      ],
+      "archetypes": [
+        "sage",
+        "ruler"
+      ],
+      "vectors": {
+        "tone_method": 2,
+        "ink_layering": 1,
+        "registration_play": 1,
+        "surface_relief": 2,
+        "hand_trace": 4
+      },
+      "techniques": [
+        "woodcut"
+      ],
+      "media": [
+        "koberger-printing-house"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#1A1714",
+          "options": [
+            "#1A1714",
+            "#2A1E16"
+          ]
+        },
+        "paper_colour": {
+          "default": "#EFE6D2",
+          "options": [
+            "#EFE6D2",
+            "#F4EEE0"
+          ]
+        },
+        "ink_count": {
+          "default": 1,
+          "min": 1,
+          "max": 2
+        },
+        "screen_ruling": {
+          "default": 40,
+          "min": 20,
+          "max": 60
+        },
+        "misregistration": {
+          "default": 0,
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
+      "id": "engraving-print",
+      "name": "Copper engraving",
+      "domain": "print",
+      "era": "hand-press",
+      "period": "1430s–1800",
+      "thesis": "A burin line that swells and tapers in polished copper gives the finest and most even tone that a hand can make.",
+      "summary": "A picture cut into a copper plate with a burin, inked into the grooves and printed under great pressure. Schongauer and Dürer made it an art; Goltzius made the swelling line a show of skill; for three centuries it reproduced paintings and maps.",
+      "path": "skills/engraving-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "engraving",
+        "copper engraving",
+        "line engraving",
+        "banknote engraving",
+        "old master print",
+        "burin",
+        "cross-hatching illustration",
+        "engraved portrait"
+      ],
+      "use_cases": [
+        "portraits for certificates and banknotes",
+        "maps and scientific plates",
+        "luxury labels",
+        "book frontispieces"
+      ],
+      "emotion": [
+        "precise",
+        "learned",
+        "silvery",
+        "formal",
+        "official"
+      ],
+      "archetypes": [
+        "ruler",
+        "sage"
+      ],
+      "vectors": {
+        "tone_method": 3,
+        "ink_layering": 1,
+        "registration_play": 1,
+        "surface_relief": 4,
+        "hand_trace": 3
+      },
+      "techniques": [
+        "line-engraving"
+      ],
+      "media": [
+        "aux-quatre-vents",
+        "boydell-print-publishing"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#141414",
+          "options": [
+            "#141414",
+            "#2E2018"
+          ]
+        },
+        "paper_colour": {
+          "default": "#F1EAD9",
+          "options": [
+            "#F1EAD9",
+            "#F6F2E8"
+          ]
+        },
+        "ink_count": {
+          "default": 1,
+          "min": 1,
+          "max": 1
+        },
+        "screen_ruling": {
+          "default": 90,
+          "min": 60,
+          "max": 150
+        },
+        "misregistration": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    {
+      "id": "etching-print",
+      "name": "Etching",
+      "domain": "print",
+      "era": "hand-press",
+      "period": "1513–1900",
+      "thesis": "A needle that moves through wax as easily as a pen gives the artist a free line, and the acid gives it depth.",
+      "summary": "The artist draws with a needle through a wax ground on a metal plate, and acid bites the lines. The line is free like a pen line. Callot made it exact; Rembrandt made it dark and alive, with tone from hatching and from ink left on the plate.",
+      "path": "skills/etching-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "etching",
+        "etched illustration",
+        "rembrandt etching",
+        "intaglio",
+        "needle drawing",
+        "old print with cross-hatching",
+        "drypoint",
+        "printmaking look"
+      ],
+      "use_cases": [
+        "book and editorial illustration",
+        "wine and spirits labels",
+        "architecture views",
+        "fine art prints"
+      ],
+      "emotion": [
+        "intimate",
+        "atmospheric",
+        "sketched",
+        "warm",
+        "melancholic"
+      ],
+      "archetypes": [
+        "sage",
+        "creator"
+      ],
+      "vectors": {
+        "tone_method": 3,
+        "ink_layering": 1,
+        "registration_play": 1,
+        "surface_relief": 4,
+        "hand_trace": 4
+      },
+      "techniques": [
+        "etching"
+      ],
+      "media": [
+        "aux-quatre-vents",
+        "clement-de-jonghe-print-shop"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#1E1A16",
+          "options": [
+            "#1E1A16",
+            "#3A2418"
+          ]
+        },
+        "paper_colour": {
+          "default": "#F1EADB",
+          "options": [
+            "#F1EADB",
+            "#EADFC6"
+          ]
+        },
+        "ink_count": {
+          "default": 1,
+          "min": 1,
+          "max": 1
+        },
+        "screen_ruling": {
+          "default": 70,
+          "min": 40,
+          "max": 110
+        },
+        "misregistration": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    {
+      "id": "mezzotint-print",
+      "name": "Mezzotint",
+      "domain": "print",
+      "era": "hand-press",
+      "period": "1642–1850",
+      "thesis": "If the plate starts black, the artist works from dark to light and gets a tone as soft as paint, with no line.",
+      "summary": "The plate is rocked with a toothed tool until it holds a full, velvet black; the engraver scrapes and burnishes the lights out of the dark. Ludwig von Siegen made the first in 1642; London engravers used it to reproduce portraits in oil.",
+      "path": "skills/mezzotint-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "mezzotint",
+        "manière noire",
+        "dark tonal print",
+        "18th-century portrait print",
+        "velvet black print",
+        "candlelit portrait print"
+      ],
+      "use_cases": [
+        "portraits and book covers",
+        "luxury and spirits labels",
+        "editorial images on night or mystery"
+      ],
+      "emotion": [
+        "velvet",
+        "nocturnal",
+        "dignified",
+        "soft",
+        "dramatic"
+      ],
+      "archetypes": [
+        "magician",
+        "ruler"
+      ],
+      "vectors": {
+        "tone_method": 5,
+        "ink_layering": 1,
+        "registration_play": 1,
+        "surface_relief": 4,
+        "hand_trace": 3
+      },
+      "techniques": [
+        "mezzotint"
+      ],
+      "media": [
+        "boydell-print-publishing"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#231C1A",
+          "options": [
+            "#231C1A",
+            "#2E2338"
+          ]
+        },
+        "paper_colour": {
+          "default": "#EEE6D6",
+          "options": [
+            "#EEE6D6",
+            "#F3EEE3"
+          ]
+        },
+        "ink_count": {
+          "default": 1,
+          "min": 1,
+          "max": 3
+        },
+        "screen_ruling": {
+          "default": 120,
+          "min": 90,
+          "max": 160
+        },
+        "misregistration": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    {
+      "id": "wood-type-poster",
+      "name": "Wood-type poster",
+      "domain": "print",
+      "era": "industrial-press",
+      "period": "1828–1900",
+      "thesis": "A poster is a stack of words, and each line takes the largest and boldest type that fits the width.",
+      "summary": "A bill set in large letters cut from end-grain wood, printed on a hand or a job press in one or two flat inks. Darius Wells made the type cheap in 1828; the auction, the circus and the theatre filled walls with stacked lines of fat faces and slabs.",
+      "path": "skills/wood-type-poster/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "wood type poster",
+        "letterpress poster",
+        "broadside",
+        "circus poster",
+        "wanted poster",
+        "show bill",
+        "americana poster",
+        "old west poster"
+      ],
+      "use_cases": [
+        "gig and fair posters",
+        "craft beer and food labels",
+        "menus and signs",
+        "event announcements"
+      ],
+      "emotion": [
+        "loud",
+        "rustic",
+        "honest",
+        "festive",
+        "americana"
+      ],
+      "archetypes": [
+        "everyman",
+        "jester"
+      ],
+      "vectors": {
+        "tone_method": 1,
+        "ink_layering": 2,
+        "registration_play": 3,
+        "surface_relief": 2,
+        "hand_trace": 3
+      },
+      "techniques": [
+        "letterpress",
+        "wood-type"
+      ],
+      "media": [
+        "hatch-show-print"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#1C1A17",
+          "options": [
+            "#1C1A17",
+            "#1F3A6E"
+          ]
+        },
+        "paper_colour": {
+          "default": "#EADFC8",
+          "options": [
+            "#EADFC8",
+            "#F2D64B",
+            "#F4C6C1"
+          ]
+        },
+        "ink_count": {
+          "default": 2,
+          "min": 1,
+          "max": 3
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        },
+        "misregistration": {
+          "default": 1,
+          "min": 0,
+          "max": 2
+        }
+      }
+    },
+    {
+      "id": "chromolithograph-poster",
+      "name": "Chromolithograph poster",
+      "domain": "print",
+      "era": "industrial-press",
+      "period": "1866–1914",
+      "thesis": "A few bright inks, drawn by the artist on stone, can make a sheet on a wall as bright and as alive as a painting.",
+      "summary": "A large poster drawn in crayon and brush on stones, one stone for each colour. Jules Chéret opened his own press in Paris in 1866 and printed colour posters with a few strong inks; Mucha, Toulouse-Lautrec and the Beggarstaffs made the street a gallery.",
+      "path": "skills/chromolithograph-poster/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "belle époque poster",
+        "vintage french poster",
+        "lithograph poster",
+        "chéret",
+        "toulouse-lautrec style",
+        "1890s poster",
+        "cabaret poster",
+        "absinthe poster"
+      ],
+      "use_cases": [
+        "event and theatre posters",
+        "drinks and food packaging",
+        "travel posters",
+        "hospitality brands"
+      ],
+      "emotion": [
+        "festive",
+        "joyful",
+        "theatrical",
+        "bright",
+        "seductive"
+      ],
+      "archetypes": [
+        "lover",
+        "jester",
+        "explorer"
+      ],
+      "vectors": {
+        "tone_method": 3,
+        "ink_layering": 4,
+        "registration_play": 2,
+        "surface_relief": 1,
+        "hand_trace": 4
+      },
+      "techniques": [
+        "lithography"
+      ],
+      "media": [
+        "imprimerie-chaix"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#2B2A3A",
+          "options": [
+            "#2B2A3A",
+            "#2A2A2A"
+          ]
+        },
+        "paper_colour": {
+          "default": "#F2EAD6",
+          "options": [
+            "#F2EAD6",
+            "#F6F1E4"
+          ]
+        },
+        "ink_count": {
+          "default": 4,
+          "min": 3,
+          "max": 8
+        },
+        "screen_ruling": {
+          "default": 60,
+          "min": 40,
+          "max": 90
+        },
+        "misregistration": {
+          "default": 0.6,
+          "min": 0,
+          "max": 1.2
+        }
+      }
+    },
+    {
+      "id": "private-press-book",
+      "name": "Private-press book",
+      "domain": "print",
+      "era": "industrial-press",
+      "period": "1891–1939",
+      "thesis": "A book is one object: the type, the page, the paper, the ink and the ornament are made together and by hand.",
+      "summary": "A book printed by hand on handmade paper, in a heavy type cut for the press, with woodcut borders and initials, in black and red. William Morris started the Kelmscott Press in 1891 against the grey, thin books of the steam press; the Doves Press made the same craft plain.",
+      "path": "skills/private-press-book/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "kelmscott",
+        "william morris book",
+        "fine press",
+        "private press",
+        "arts and crafts book",
+        "illuminated page",
+        "woodcut border",
+        "letterpress book"
+      ],
+      "use_cases": [
+        "limited-edition books",
+        "poetry and literary covers",
+        "certificates and invitations",
+        "heritage brand booklets"
+      ],
+      "emotion": [
+        "crafted",
+        "reverent",
+        "rich",
+        "medieval",
+        "dense"
+      ],
+      "archetypes": [
+        "creator",
+        "sage"
+      ],
+      "vectors": {
+        "tone_method": 2,
+        "ink_layering": 2,
+        "registration_play": 1,
+        "surface_relief": 3,
+        "hand_trace": 3
+      },
+      "techniques": [
+        "letterpress",
+        "woodcut"
+      ],
+      "media": [
+        "doves-press",
+        "kelmscott-press"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#151312",
+          "options": [
+            "#151312"
+          ]
+        },
+        "paper_colour": {
+          "default": "#F2EBDA",
+          "options": [
+            "#F2EBDA",
+            "#F5EFE0"
+          ]
+        },
+        "ink_count": {
+          "default": 2,
+          "min": 1,
+          "max": 2
+        },
+        "screen_ruling": {
+          "default": 50,
+          "min": 40,
+          "max": 70
+        },
+        "misregistration": {
+          "default": 0.2,
+          "min": 0,
+          "max": 0.5
+        }
+      }
+    },
+    {
+      "id": "ben-day-comic-print",
+      "name": "Ben-Day comic print",
+      "domain": "print",
+      "era": "industrial-press",
+      "period": "1896–1975",
+      "thesis": "Four inks, a black line and a few fixed tints of dots can colour a whole world for a cent.",
+      "summary": "A comic or a newspaper picture printed on cheap newsprint in four flat inks, with tints made of fixed dots from Benjamin Day's films. The Sunday supplement of the 1890s and the comic book of the 1930s–1960s made black lines, primary colours and dots a mass look.",
+      "path": "skills/ben-day-comic-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "comic book print",
+        "ben-day dots",
+        "vintage comic",
+        "newsprint comic",
+        "golden age comic",
+        "pulp comic colour",
+        "four colour comic"
+      ],
+      "use_cases": [
+        "posters and merchandise",
+        "editorial illustration",
+        "packaging for snacks and toys",
+        "social media graphics"
+      ],
+      "emotion": [
+        "fun",
+        "bold",
+        "nostalgic",
+        "punchy",
+        "popular"
+      ],
+      "archetypes": [
+        "jester",
+        "hero",
+        "everyman"
+      ],
+      "vectors": {
+        "tone_method": 2,
+        "ink_layering": 4,
+        "registration_play": 3,
+        "surface_relief": 1,
+        "hand_trace": 2
+      },
+      "techniques": [
+        "letterpress"
+      ],
+      "media": [
+        "eastern-color-printing"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#1A1A1A",
+          "options": [
+            "#1A1A1A"
+          ]
+        },
+        "paper_colour": {
+          "default": "#EDE3CC",
+          "options": [
+            "#EDE3CC",
+            "#F2EBD9"
+          ]
+        },
+        "ink_count": {
+          "default": 4,
+          "min": 4,
+          "max": 4
+        },
+        "screen_ruling": {
+          "default": 60,
+          "min": 45,
+          "max": 85
+        },
+        "misregistration": {
+          "default": 1.5,
+          "min": 0.5,
+          "max": 2.5
+        }
+      }
+    },
+    {
+      "id": "pochoir-plate",
+      "name": "Pochoir plate",
+      "domain": "print",
+      "era": "industrial-press",
+      "period": "1908–1935",
+      "thesis": "A stencil and a brush give a flat, opaque and luminous colour that no press can match.",
+      "summary": "A plate coloured by hand through a set of stencils, each one for a colour, in gouache and watercolour on a printed key line. Iribe and Lepape made the Poiret albums in 1908 and 1911; Barbier and the Gazette du Bon Ton made it the look of Art Deco fashion.",
+      "path": "skills/pochoir-plate/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "pochoir",
+        "art deco fashion plate",
+        "gazette du bon ton",
+        "george barbier",
+        "1920s fashion illustration",
+        "stencil coloured print",
+        "jazz age illustration"
+      ],
+      "use_cases": [
+        "fashion and beauty packaging",
+        "luxury invitations",
+        "editorial fashion illustration",
+        "perfume and hotel brands"
+      ],
+      "emotion": [
+        "elegant",
+        "luxurious",
+        "chic",
+        "jewel-toned",
+        "modern"
+      ],
+      "archetypes": [
+        "lover",
+        "ruler"
+      ],
+      "vectors": {
+        "tone_method": 1,
+        "ink_layering": 4,
+        "registration_play": 2,
+        "surface_relief": 1,
+        "hand_trace": 4
+      },
+      "techniques": [
+        "pochoir"
+      ],
+      "media": [
+        "gazette-du-bon-ton"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#2A2830",
+          "options": [
+            "#2A2830",
+            "#1A1A1A"
+          ]
+        },
+        "paper_colour": {
+          "default": "#F4EEE2",
+          "options": [
+            "#F4EEE2",
+            "#FAF7F0"
+          ]
+        },
+        "ink_count": {
+          "default": 5,
+          "min": 4,
+          "max": 12
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        },
+        "misregistration": {
+          "default": 0.4,
+          "min": 0,
+          "max": 0.8
+        }
+      }
+    },
+    {
+      "id": "pop-screen-print",
+      "name": "Pop screen print",
+      "domain": "print",
+      "era": "studio-press",
+      "period": "1962–1985",
+      "thesis": "A mechanical image, repeated and coloured by hand in loud inks, makes the familiar new.",
+      "summary": "A photograph or a found image pulled through a silk screen in flat, bright inks, often with the black photo layer off register. Warhol made it a studio process in 1962; Corita Kent printed text and colour; the look stands for pop art.",
+      "path": "skills/pop-screen-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "screen print",
+        "silkscreen",
+        "warhol style",
+        "pop art portrait",
+        "serigraph",
+        "off-register print",
+        "pop art print"
+      ],
+      "use_cases": [
+        "posters and gig prints",
+        "album covers",
+        "portrait merchandise",
+        "brand campaigns with irony"
+      ],
+      "emotion": [
+        "iconic",
+        "loud",
+        "ironic",
+        "glamorous",
+        "repetitive"
+      ],
+      "archetypes": [
+        "jester",
+        "creator",
+        "outlaw"
+      ],
+      "vectors": {
+        "tone_method": 2,
+        "ink_layering": 4,
+        "registration_play": 4,
+        "surface_relief": 2,
+        "hand_trace": 3
+      },
+      "techniques": [
+        "halftone",
+        "screen-printing"
+      ],
+      "media": [
+        "immaculate-heart-college-art-department",
+        "the-factory"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#111111",
+          "options": [
+            "#111111",
+            "#1B1B3A"
+          ]
+        },
+        "paper_colour": {
+          "default": "#F7F4EC",
+          "options": [
+            "#F7F4EC",
+            "#FFFFFF"
+          ]
+        },
+        "ink_count": {
+          "default": 4,
+          "min": 2,
+          "max": 8
+        },
+        "screen_ruling": {
+          "default": 25,
+          "min": 15,
+          "max": 45
+        },
+        "misregistration": {
+          "default": 3,
+          "min": 1,
+          "max": 4
+        }
+      }
+    },
+    {
+      "id": "psychedelic-concert-poster",
+      "name": "Psychedelic concert poster",
+      "domain": "print",
+      "era": "studio-press",
+      "period": "1966–1971",
+      "thesis": "A poster that makes the viewer stop and decode it brings them into the dance before they read the date.",
+      "summary": "An offset-litho poster for a dance at the Fillmore or the Avalon, with lettering that melts to fill the shape and complementary colours that vibrate. Wes Wilson, Victor Moscoso, Rick Griffin and Mouse and Kelley made the run in 1966–1968.",
+      "path": "skills/psychedelic-concert-poster/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "psychedelic poster",
+        "fillmore poster",
+        "60s concert poster",
+        "hippie poster",
+        "melting lettering",
+        "trippy gig poster",
+        "summer of love"
+      ],
+      "use_cases": [
+        "gig and festival posters",
+        "album covers",
+        "music merchandise",
+        "craft beer labels"
+      ],
+      "emotion": [
+        "trippy",
+        "vibrant",
+        "countercultural",
+        "ornate",
+        "hypnotic"
+      ],
+      "archetypes": [
+        "magician",
+        "outlaw",
+        "explorer"
+      ],
+      "vectors": {
+        "tone_method": 1,
+        "ink_layering": 3,
+        "registration_play": 2,
+        "surface_relief": 1,
+        "hand_trace": 4
+      },
+      "techniques": [
+        "lithography"
+      ],
+      "media": [
+        "family-dog-productions",
+        "the-fillmore"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#4B2A7B",
+          "options": [
+            "#4B2A7B",
+            "#1E3E8C",
+            "#B0124F"
+          ]
+        },
+        "paper_colour": {
+          "default": "#F5EFE3",
+          "options": [
+            "#F5EFE3",
+            "#F7E64A"
+          ]
+        },
+        "ink_count": {
+          "default": 4,
+          "min": 2,
+          "max": 5
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        },
+        "misregistration": {
+          "default": 0.3,
+          "min": 0,
+          "max": 0.6
+        }
+      }
+    },
+    {
+      "id": "xerox-zine",
+      "name": "Xerox zine",
+      "domain": "print",
+      "era": "studio-press",
+      "period": "1976–1995",
+      "thesis": "If a copier is the press, anyone can publish, and the rough marks of the copy are proof of independence.",
+      "summary": "A fanzine made with scissors, glue, a typewriter and a photocopier, in black toner on white office paper. Sniffin' Glue started in London in 1976; punk, hardcore and riot grrrl made the copy shop a press anyone could use.",
+      "path": "skills/xerox-zine/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "zine",
+        "photocopy look",
+        "xerox texture",
+        "punk fanzine",
+        "cut and paste",
+        "diy print",
+        "ransom note letters"
+      ],
+      "use_cases": [
+        "gig flyers and zines",
+        "record sleeves",
+        "street-wear graphics",
+        "activist posters"
+      ],
+      "emotion": [
+        "raw",
+        "angry",
+        "urgent",
+        "homemade",
+        "rebellious"
+      ],
+      "archetypes": [
+        "outlaw",
+        "everyman"
+      ],
+      "vectors": {
+        "tone_method": 2,
+        "ink_layering": 1,
+        "registration_play": 1,
+        "surface_relief": 1,
+        "hand_trace": 5
+      },
+      "techniques": [
+        "photocopy"
+      ],
+      "media": [
+        "sniffin-glue"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#121212",
+          "options": [
+            "#121212"
+          ]
+        },
+        "paper_colour": {
+          "default": "#F4F2EC",
+          "options": [
+            "#F4F2EC",
+            "#F2D9E4",
+            "#F7EFA8"
+          ]
+        },
+        "ink_count": {
+          "default": 1,
+          "min": 1,
+          "max": 2
+        },
+        "screen_ruling": {
+          "default": 50,
+          "min": 30,
+          "max": 85
+        },
+        "misregistration": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    {
+      "id": "risograph-print",
+      "name": "Risograph print",
+      "domain": "print",
+      "era": "digital-press",
+      "period": "1986–present",
+      "thesis": "Bright spot inks that mix where they overlap, with a soft grain and a small shift, give a cheap print the warmth of a hand process.",
+      "summary": "A print from a stencil duplicator: a thermal head cuts a master and the drum pushes soy ink through it, one drum and one bright spot colour for each layer. Riso Kagaku sold it for schools and offices from 1986; from the 2000s, studios made its grain and misregister an art look.",
+      "path": "skills/risograph-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "risograph",
+        "riso",
+        "riso print",
+        "grainy print look",
+        "fluorescent print",
+        "zine illustration",
+        "spot colour print",
+        "misregistered print"
+      ],
+      "use_cases": [
+        "zines and art books",
+        "gig and event posters",
+        "independent brand illustration",
+        "editorial images"
+      ],
+      "emotion": [
+        "playful",
+        "indie",
+        "warm",
+        "grainy",
+        "bright"
+      ],
+      "archetypes": [
+        "creator",
+        "jester",
+        "innocent"
+      ],
+      "vectors": {
+        "tone_method": 3,
+        "ink_layering": 3,
+        "registration_play": 4,
+        "surface_relief": 1,
+        "hand_trace": 2
+      },
+      "techniques": [
+        "risograph"
+      ],
+      "media": [
+        "hato-press",
+        "riso-kagaku-corporation"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#3255A4",
+          "options": [
+            "#3255A4",
+            "#00838A",
+            "#000000"
+          ]
+        },
+        "paper_colour": {
+          "default": "#F7F3EA",
+          "options": [
+            "#F7F3EA",
+            "#FFFFFF",
+            "#F3E9D2"
+          ]
+        },
+        "ink_count": {
+          "default": 3,
+          "min": 1,
+          "max": 4
+        },
+        "screen_ruling": {
+          "default": 85,
+          "min": 50,
+          "max": 110
+        },
+        "misregistration": {
+          "default": 1.5,
+          "min": 0.5,
+          "max": 2.5
         }
       }
     },
@@ -22795,6 +23899,36 @@
       ]
     },
     {
+      "id": "etching",
+      "name": "Etching",
+      "kind": "process",
+      "origin": {
+        "domain": "print",
+        "year": 1513,
+        "where": "Basel",
+        "note": "Urs Graf makes the first dated etching, on an iron plate. Daniel Hopfer etched prints from about 1500, and armourers used acid to decorate metal before that.",
+        "styles": [
+          "etching-print"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "painting",
+          "year": 1630,
+          "circa": true,
+          "via": "Rembrandt etches portraits, scenes and landscapes beside his painting and makes the etching a painter's medium.",
+          "styles": [
+            "baroque-painting"
+          ],
+          "lag_years": 117
+        }
+      ],
+      "styles": [
+        "etching-print",
+        "baroque-painting"
+      ]
+    },
+    {
       "id": "exposed-joinery",
       "name": "Exposed joinery",
       "kind": "process",
@@ -23231,6 +24365,15 @@
           "lag_years": 82
         },
         {
+          "domain": "print",
+          "year": 1962,
+          "via": "Andy Warhol has photographs made into halftone screens and pulls them over hand-cut flat colour.",
+          "styles": [
+            "pop-screen-print"
+          ],
+          "lag_years": 83
+        },
+        {
           "domain": "design",
           "year": 1976,
           "circa": true,
@@ -23253,7 +24396,8 @@
       "styles": [
         "pop-art-web",
         "punk-zine",
-        "duotone-icon"
+        "duotone-icon",
+        "pop-screen-print"
       ]
     },
     {
@@ -23627,6 +24771,56 @@
       ]
     },
     {
+      "id": "letterpress",
+      "name": "Letterpress",
+      "kind": "process",
+      "origin": {
+        "domain": "typeface",
+        "year": 1454,
+        "where": "Mainz",
+        "note": "Johannes Gutenberg prints the 42-line Bible from cast metal type in a screw press.",
+        "styles": [
+          "blackletter"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "print",
+          "year": 1828,
+          "via": "Poster printers set large wood letters in the same press as metal type and print show bills by the hundred.",
+          "styles": [
+            "wood-type-poster"
+          ],
+          "lag_years": 374
+        },
+        {
+          "domain": "print",
+          "year": 1891,
+          "via": "William Morris returns to the hand press, handmade paper and a heavy cast type at the Kelmscott Press.",
+          "styles": [
+            "private-press-book"
+          ],
+          "lag_years": 437
+        },
+        {
+          "domain": "print",
+          "year": 1896,
+          "circa": true,
+          "via": "Newspaper comics print from line plates and type on rotary letterpress, with Ben-Day tints on the colour plates.",
+          "styles": [
+            "ben-day-comic-print"
+          ],
+          "lag_years": 442
+        }
+      ],
+      "styles": [
+        "blackletter",
+        "wood-type-poster",
+        "private-press-book",
+        "ben-day-comic-print"
+      ]
+    },
+    {
       "id": "letterspaced-capitals",
       "name": "Letterspaced capitals",
       "kind": "motif",
@@ -23748,6 +24942,16 @@
       },
       "adoptions": [
         {
+          "domain": "print",
+          "year": 1470,
+          "circa": true,
+          "via": "Martin Schongauer signs his copper engravings with a monogram; Dürer and Goltzius then take the burin line to its limit.",
+          "styles": [
+            "engraving-print"
+          ],
+          "lag_years": 40
+        },
+        {
           "domain": "typeface",
           "year": 1741,
           "via": "George Bickham engraves the copperplate hands of The Universal Penman (1741) on copper.",
@@ -23799,7 +25003,8 @@
         "didone-serif",
         "victorian-trademark",
         "formal-script",
-        "fat-face-display"
+        "fat-face-display",
+        "engraving-print"
       ]
     },
     {
@@ -23814,6 +25019,15 @@
         "note": "Alois Senefelder invents lithography in Bavaria."
       },
       "adoptions": [
+        {
+          "domain": "print",
+          "year": 1866,
+          "via": "Jules Chéret prints his first colour posters on his own presses in Paris, with one stone for each ink.",
+          "styles": [
+            "chromolithograph-poster"
+          ],
+          "lag_years": 70
+        },
         {
           "domain": "painting",
           "year": 1879,
@@ -23840,12 +25054,23 @@
             "expressionism-painting"
           ],
           "lag_years": 99
+        },
+        {
+          "domain": "print",
+          "year": 1966,
+          "via": "San Francisco poster artists have their dance posters printed by offset lithography, the planographic process on a rotary press.",
+          "styles": [
+            "psychedelic-concert-poster"
+          ],
+          "lag_years": 170
         }
       ],
       "styles": [
         "symbolism-painting",
         "art-nouveau-web",
-        "expressionism-painting"
+        "expressionism-painting",
+        "chromolithograph-poster",
+        "psychedelic-concert-poster"
       ]
     },
     {
@@ -24028,6 +25253,35 @@
       "styles": [
         "aurora-gradient-ui",
         "ethereal-web"
+      ]
+    },
+    {
+      "id": "mezzotint",
+      "name": "Mezzotint",
+      "kind": "process",
+      "origin": {
+        "domain": "print",
+        "year": 1642,
+        "where": "Amsterdam",
+        "note": "Ludwig von Siegen makes a portrait of Amalia Elisabeth, Landgravine of Hesse-Kassel in the new tone process.",
+        "styles": [
+          "mezzotint-print"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "print",
+          "year": 1770,
+          "circa": true,
+          "via": "London engravers such as John Raphael Smith and Valentine Green reproduce the portraits of Reynolds and Gainsborough, and Europe calls it the English manner.",
+          "styles": [
+            "mezzotint-print"
+          ],
+          "lag_years": 128
+        }
+      ],
+      "styles": [
+        "mezzotint-print"
       ]
     },
     {
@@ -24355,6 +25609,32 @@
       ]
     },
     {
+      "id": "photocopy",
+      "name": "Photocopy",
+      "kind": "technology",
+      "origin": {
+        "domain": "print",
+        "year": 1959,
+        "where": "Rochester, New York",
+        "note": "Xerox sells the 914, the first automatic plain-paper office copier.",
+        "styles": []
+      },
+      "adoptions": [
+        {
+          "domain": "print",
+          "year": 1976,
+          "via": "Mark Perry copies the paste-ups of Sniffin' Glue on an office copier, and punk zines follow.",
+          "styles": [
+            "xerox-zine"
+          ],
+          "lag_years": 17
+        }
+      ],
+      "styles": [
+        "xerox-zine"
+      ]
+    },
+    {
       "id": "photomontage",
       "name": "Photomontage",
       "kind": "montage",
@@ -24638,6 +25918,34 @@
       ]
     },
     {
+      "id": "pochoir",
+      "name": "Pochoir",
+      "kind": "skill",
+      "origin": {
+        "domain": "print",
+        "year": 1908,
+        "where": "Paris",
+        "note": "Paul Iribe's album Les Robes de Paul Poiret is coloured by hand through stencils, and Paris fashion takes up the method. This is a landmark, not the first use: André Marty and Jean Saudé ran stencil studios in the 1890s.",
+        "styles": [
+          "pochoir-plate"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "print",
+          "year": 1912,
+          "via": "Lucien Vogel launches the Gazette du Bon Ton, with plates by Barbier, Lepape and Martin coloured in pochoir.",
+          "styles": [
+            "pochoir-plate"
+          ],
+          "lag_years": 4
+        }
+      ],
+      "styles": [
+        "pochoir-plate"
+      ]
+    },
+    {
       "id": "pointed-pen",
       "name": "Pointed pen",
       "kind": "tool",
@@ -24750,6 +26058,35 @@
       ]
     },
     {
+      "id": "risograph",
+      "name": "Risograph",
+      "kind": "technology",
+      "origin": {
+        "domain": "print",
+        "year": 1986,
+        "where": "Tokyo",
+        "note": "Riso Kagaku sells the first machine under the Risograph name, for schools, churches and offices.",
+        "styles": [
+          "risograph-print"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "print",
+          "year": 2008,
+          "circa": true,
+          "via": "Art and zine studios buy used duplicators and print books and posters in fluorescent spot inks.",
+          "styles": [
+            "risograph-print"
+          ],
+          "lag_years": 22
+        }
+      ],
+      "styles": [
+        "risograph-print"
+      ]
+    },
+    {
       "id": "roman-capital-proportions",
       "name": "Roman capital proportions",
       "kind": "motif",
@@ -24817,6 +26154,52 @@
       ],
       "styles": [
         "nordic-modernism-architecture"
+      ]
+    },
+    {
+      "id": "screen-printing",
+      "name": "Screen printing",
+      "kind": "process",
+      "origin": {
+        "domain": "print",
+        "year": 1907,
+        "where": "Manchester",
+        "note": "Samuel Simon patents the use of silk as a screen for stencil printing; sign and textile printers take it up."
+      },
+      "adoptions": [
+        {
+          "domain": "print",
+          "year": 1962,
+          "via": "Andy Warhol starts to make photographic silkscreens in his studio and prints portraits in flat, loud colour.",
+          "styles": [
+            "pop-screen-print"
+          ],
+          "lag_years": 55
+        },
+        {
+          "domain": "painting",
+          "year": 1962,
+          "via": "Warhol and Rauschenberg pull photo screens onto painted canvas.",
+          "styles": [
+            "pop-art-painting"
+          ],
+          "lag_years": 55
+        },
+        {
+          "domain": "design",
+          "year": 1965,
+          "circa": true,
+          "via": "Poster studios screen print posters in flat, bright colours for clubs and protests.",
+          "styles": [
+            "pop-art-web"
+          ],
+          "lag_years": 58
+        }
+      ],
+      "styles": [
+        "pop-screen-print",
+        "pop-art-painting",
+        "pop-art-web"
       ]
     },
     {
@@ -25820,13 +27203,23 @@
             "victorian-trademark"
           ],
           "lag_years": 47
+        },
+        {
+          "domain": "print",
+          "year": 1879,
+          "via": "Hatch Show Print opens in Nashville and prints show bills from wood type and cuts for circuses, minstrels and later country music.",
+          "styles": [
+            "wood-type-poster"
+          ],
+          "lag_years": 51
         }
       ],
       "styles": [
         "fat-face-display",
         "slab-serif",
         "grotesque-sans",
-        "victorian-trademark"
+        "victorian-trademark",
+        "wood-type-poster"
       ]
     },
     {
@@ -25841,6 +27234,15 @@
       },
       "adoptions": [
         {
+          "domain": "print",
+          "year": 1493,
+          "via": "Michael Wolgemut and Wilhelm Pleydenwurff design the 1,809 woodcuts of the Nuremberg Chronicle, which Anton Koberger prints with the text.",
+          "styles": [
+            "woodcut-relief-print"
+          ],
+          "lag_years": 625
+        },
+        {
           "domain": "painting",
           "year": 1765,
           "via": "Suzuki Harunobu and his printers make the full-colour nishiki-e print on many blocks.",
@@ -25848,6 +27250,15 @@
             "ukiyo-e"
           ],
           "lag_years": 897
+        },
+        {
+          "domain": "print",
+          "year": 1891,
+          "via": "William Morris draws woodcut borders and initials for the Kelmscott Press, cut by William Harcourt Hooper and others.",
+          "styles": [
+            "private-press-book"
+          ],
+          "lag_years": 1023
         },
         {
           "domain": "painting",
@@ -25882,7 +27293,9 @@
         "ukiyo-e",
         "post-impressionism",
         "expressionism-painting",
-        "fauvism"
+        "fauvism",
+        "woodcut-relief-print",
+        "private-press-book"
       ]
     }
   ]

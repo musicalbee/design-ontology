@@ -1,0 +1,267 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "risograph-print",
+  "domain": "print",
+  "name": "Risograph print",
+  "aliases": [
+    "Riso print",
+    "Risography",
+    "Stencil duplicator print",
+    "Riso zine"
+  ],
+  "era_id": "digital-press",
+  "time_period": {
+    "start": 1986,
+    "end": null,
+    "label": "1986–present"
+  },
+  "region": "Tokyo, then art studios everywhere",
+  "summary": "A print from a stencil duplicator: a thermal head cuts a master and the drum pushes soy ink through it, one drum and one bright spot colour for each layer. Riso Kagaku sold it for schools and offices from 1986; from the 2000s, studios made its grain and misregister an art look.",
+  "philosophy": {
+    "core_thesis": "Bright spot inks that mix where they overlap, with a soft grain and a small shift, give a cheap print the warmth of a hand process.",
+    "design_principles": [
+      "Separate the image into 2–4 spot colours; draw each layer in black as a separate file.",
+      "Use the bright riso inks: fluorescent pink, medium blue, yellow, and others from the drum list.",
+      "Overprint the transparent inks to make the third and fourth colours (pink over yellow gives orange).",
+      "Use a grain screen at 50–110 lines an inch for the tones; avoid large flat solids, which print unevenly.",
+      "Accept a shift of 1–2 mm between the layers; design so that a small gap does not break the image.",
+      "Print on an uncoated, slightly warm paper that takes the soy ink."
+    ],
+    "anti_patterns": [
+      "Process CMYK colour that hides the spot inks",
+      "Large, heavy solids that smear and set off",
+      "Exact register needed for small text in two colours",
+      "Coated or glossy paper"
+    ]
+  },
+  "vectors": {
+    "tone_method": 3,
+    "ink_layering": 3,
+    "registration_play": 4,
+    "surface_relief": 1,
+    "hand_trace": 2
+  },
+  "process": {
+    "family": "stencil",
+    "matrix": "A thermal master cut on the machine, wrapped on a drum of soy ink.",
+    "press": "A Riso digital duplicator, one or two drums at a pass, up to 150 sheets a minute.",
+    "image_making": "The designer separates the layers in software; the printer changes the drum for each colour and feeds the sheets again.",
+    "edition": "50–2,000 copies; above that, offset costs less."
+  },
+  "inks": {
+    "strategy": "Spot colours from the riso drum list, each one transparent, so overprints mix.",
+    "ink_count_min": 1,
+    "ink_count_max": 4,
+    "overprint": "transparent",
+    "colours": [
+      {
+        "name": "Medium blue",
+        "hex": "#3255A4",
+        "role": "the key layer and the darks"
+      },
+      {
+        "name": "Fluorescent pink",
+        "hex": "#FF48B0",
+        "role": "warm accents and orange with yellow"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FFE800",
+        "role": "light and green with blue"
+      }
+    ]
+  },
+  "screening": {
+    "method": "grain",
+    "ruling_lpi": 85,
+    "rule": "Make the tone with the grain (FM) screen of the duplicator or a coarse halftone of 50–110 lines an inch."
+  },
+  "registration": {
+    "tolerance_mm": 1.5,
+    "rule": "Each drum pass can shift 1–2 mm; the misregister is part of the look."
+  },
+  "substrate": {
+    "stock": "An uncoated paper, often recycled, with a soft surface for the soy ink.",
+    "weight_gsm_min": 80,
+    "weight_gsm_max": 200,
+    "ground": "#F7F3EA",
+    "finish": "Uncoated, with a slight tooth; natural white or cream."
+  },
+  "surface": {
+    "impression": "No bite; the ink sinks into the paper.",
+    "sheen": "Matt, with a slight chalky softness; fluorescent inks glow.",
+    "texture": "A soft grain in the tones, uneven solids and roller marks."
+  },
+  "artefacts": {
+    "marks": [
+      "misregister between layers",
+      "grain screen",
+      "uneven solid fill",
+      "roller marks",
+      "ink set-off on the back",
+      "fluorescent glow"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "risograph print",
+      "riso zine",
+      "fluorescent pink and blue",
+      "grainy texture",
+      "transparent overprint",
+      "slight misregistration",
+      "uncoated paper",
+      "spot colour illustration"
+    ],
+    "negative": [
+      "CMYK photo",
+      "glossy",
+      "smooth gradient",
+      "exact register",
+      "digital clean vector"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Garden Party, close",
+      "kind": "image",
+      "maker": "Cetrl",
+      "year": 2022,
+      "credit": "Wikimedia Commons (own work, Cetrl)",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Garden_Party,_close.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Garden_Party%2C_close.jpg/960px-Garden_Party%2C_close.jpg"
+    },
+    {
+      "title": "Garden Party, closeclose",
+      "kind": "image",
+      "maker": "Cetrl",
+      "year": 2022,
+      "credit": "Wikimedia Commons (own work, Cetrl)",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Garden_Party,_closeclose.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Garden_Party%2C_closeclose.jpg/960px-Garden_Party%2C_closeclose.jpg"
+    },
+    {
+      "title": "Carteles en riso",
+      "kind": "image",
+      "maker": "Alequihdez",
+      "year": 2025,
+      "credit": "Wikimedia Commons (own work, Alequihdez)",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Carteles_en_riso.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Carteles_en_riso.jpg/1280px-Carteles_en_riso.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "xerox-zine"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "pop-screen-print"
+    ],
+    "echoes": [
+      "duotone-icon",
+      "editorial-serif-revival",
+      "corporate-memphis"
+    ]
+  },
+  "emotion": {
+    "target_response": "Warm, playful craft: the viewer feels a small studio print, bright and a little imperfect.",
+    "keywords": [
+      "playful",
+      "indie",
+      "warm",
+      "grainy",
+      "bright"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "jester",
+      "innocent"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "risograph",
+      "riso",
+      "riso print",
+      "grainy print look",
+      "fluorescent print",
+      "zine illustration",
+      "spot colour print",
+      "misregistered print"
+    ],
+    "use_cases": [
+      "zines and art books",
+      "gig and event posters",
+      "independent brand illustration",
+      "editorial images"
+    ],
+    "avoid_when": [
+      "The image needs photographic colour.",
+      "The design depends on exact register of small text."
+    ],
+    "modifiers": [
+      {
+        "request": "thicker and bolder",
+        "toward": "pop-screen-print",
+        "how": "Change the riso drum for a hand screen; use opaque inks and a coarse halftone."
+      },
+      {
+        "request": "rougher",
+        "toward": "xerox-zine",
+        "how": "Print in black only on a copier and paste the layout by hand."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#3255A4",
+      "options": [
+        "#3255A4",
+        "#00838A",
+        "#000000"
+      ]
+    },
+    "paper_colour": {
+      "default": "#F7F3EA",
+      "options": [
+        "#F7F3EA",
+        "#FFFFFF",
+        "#F3E9D2"
+      ]
+    },
+    "ink_count": {
+      "default": 3,
+      "min": 1,
+      "max": 4
+    },
+    "screen_ruling": {
+      "default": 85,
+      "min": 50,
+      "max": 110
+    },
+    "misregistration": {
+      "default": 1.5,
+      "min": 0.5,
+      "max": 2.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Risograph (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Risograph"
+    },
+    {
+      "title": "Riso Kagaku, RISO Ink Colours (riso.co.jp)",
+      "url": "https://www.riso.co.jp/english/"
+    },
+    {
+      "title": "Stencil duplicator (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Stencil_duplicator"
+    }
+  ]
+}
