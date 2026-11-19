@@ -190,6 +190,7 @@ Pieces of coloured glass held in lead strips, so that a window becomes a picture
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Abbey of Saint-Denis** (church, Saint-Denis, ?–now), made the style. The abbey that Abbot Suger rebuilt from about 1135. Its choir of 1144 is widely seen as the first Gothic structure.
 - **Veneranda Fabbrica del Duomo di Milano** (church, Milan, 1387–now), made the style. The works office that builds and keeps Milan Cathedral. Its masons and stone workshops made the Gothic cathedral over centuries and still keep it.
 
 ## Permutations

@@ -183,6 +183,7 @@ A shadow far longer than its object, cast by a low sun, so that a still scene fe
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Julien Levy Gallery** (gallery, New York, 1931–1949), funded the style. A New York gallery. In 1932 it held the first show of the official Surrealist group in the city. It showed Dalí from 1933.
 - **La Révolution surréaliste** (magazine, Paris, 1924–1929), published the style. The first magazine of the Surrealist group. It printed dreams, automatic writing and Surrealist paintings.
 
 ## Permutations

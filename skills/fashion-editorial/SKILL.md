@@ -185,6 +185,7 @@ A key light, a fill light and a back light on one subject, so that the face is m
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Condé Nast** (publisher, New York, ?–now), funded the style. US magazine publisher that Condé Montrose Nast built after he bought Vogue in 1909. It hired Edward Steichen in 1923.
 - **Harper's Bazaar** (magazine, New York, 1867–now), published the style. A fashion magazine. It printed the photographs of Richard Avedon and used Didot type for its name.
 - **Vogue** (magazine, New York, 1892–now), published the style. A fashion magazine. It commissions fashion photographs and sets its name in a high-contrast Didone type.
 

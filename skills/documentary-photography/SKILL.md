@@ -184,6 +184,8 @@ A small, quiet camera that takes 36 frames of 24 x 36 mm on cinema film, so that
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **FSA Historical Section photography project** (state programme, United States, 1935–1944), funded the style. US government photography project of 1935 to 1944 under Roy Stryker. It made about 250,000 images of rural poverty.
+- **John Simon Guggenheim Memorial Foundation** (foundation, New York, ?–now), funded the style. US foundation that gives fellowships to artists and scholars. It gave Edward Weston the first photography fellowship in 1937.
 - **Life** (magazine, New York, 1936–2007), published the style. The weekly photo magazine that Henry Luce started in 1936 from an older humour magazine of the same name. It made the photo essay a main form of documentary photography.
 - **Magnum Photos** (studio, Paris and New York, 1947–now), made the style. A cooperative that its photographers own. Its members made documentary and street photography for magazines.
 

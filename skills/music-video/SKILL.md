@@ -215,6 +215,9 @@ A cut inside one continuous shot that removes time and leaves the jump in view. 
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **MTV** (platform, New York, 1981–now), published the style. US cable channel for music video. It began on 1 August 1981 under Warner-Amex Satellite Entertainment.
+- **Warner-Amex Satellite Entertainment** (company, New York, ?–now), funded the style. A joint venture of Warner Communications and American Express. It owned MTV at its start in 1981.
+- **Warner Communications** (company, New York, ?–now), funded the style. US media company. It bought Atari in 1976 for 28 million dollars and co-owned MTV through Warner-Amex.
 - **YouTube** (platform, web, 2005–now), published the style. A web site where people post video. The daily vlog grew here, and it became the main home of the music video.
 
 ## Permutations

@@ -182,6 +182,8 @@ One motif or one frame, repeated with small changes in a set of works, so that t
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **John Simon Guggenheim Memorial Foundation** (foundation, New York, ?–now), funded the style. US foundation that gives fellowships to artists and scholars. It gave Edward Weston the first photography fellowship in 1937.
+- **National Endowment for the Arts** (state programme, Washington, D.C., 1965–now), funded the style. Independent US federal agency created by Congress in 1965. It gave fellowships to photographers.
 - **New Topographics** (exhibition, Rochester, New York, 1975–1976), launched the style. A show of landscape photography at George Eastman House. Its plain views of houses, roads and industry gave a movement its name.
 
 ## Permutations

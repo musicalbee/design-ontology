@@ -168,6 +168,7 @@ A way to stiffen a bodice with thin strips of whalebone, cane or steel set in na
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Hermès** (house, Paris, ?–now), funded the style. French luxury house. It bought 35 percent of the Jean Paul Gaultier label in 1999 and named Gaultier its creative director in 2003.
 - **Jean Paul Gaultier fashion house** (company, Paris, 1982–now), launched the style. The Paris house of Jean Paul Gaultier. The house showed the corset with a cone bra in 1984, and the corset became its mark.
 
 ## Permutations

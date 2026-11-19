@@ -267,6 +267,7 @@ The circle, the square and the triangle in flat colour, used as the whole pictur
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Bauhaus** (school, Weimar, Dessau, Berlin, 1919–1933), taught the style. A school of art, craft and design that joined the workshop to the studio. Its teachers and students set the forms of modern design, interiors and building.
+- **Thuringian state government** (state programme, Weimar, ?–now), funded the style. State government that paid for the Bauhaus in Weimar. In 1924 a new conservative ministry cut the funding in half.
 
 ## Permutations
 

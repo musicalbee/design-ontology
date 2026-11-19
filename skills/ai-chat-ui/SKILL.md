@@ -252,6 +252,8 @@ Text that appears word by word as the system writes it, so the reader can read t
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **ChatGPT** (platform, web, 2022–now), launched the style. A chat assistant from OpenAI. Its single column of messages and its prompt box became the default look of an AI chat interface.
+- **Microsoft** (company, Redmond, ?–now), funded the style. US software company. It bought Mojang in 2014 for 2.5 billion dollars and put billions of dollars into OpenAI from 2019.
+- **OpenAI** (company, San Francisco, ?–now), made the style. US AI company. It released ChatGPT in November 2022. Microsoft is its main investor, with more than 13 billion dollars.
 
 ## Permutations
 

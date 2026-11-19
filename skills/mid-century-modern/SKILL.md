@@ -261,7 +261,9 @@ Rays from a disc or a half disc: a sign of light and of the new, on a facade, a 
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Festival of Britain** (exhibition, London, 1951–1951), exhibited the style. National festival of summer 1951. It gave a platform to the Contemporary style and to Good Design.
 - **Herman Miller** (company, Zeeland, Michigan, 1923–now), made the style. A furniture maker that worked with George Nelson, Charles and Ray Eames and Isamu Noguchi. It made modern furniture for homes and offices.
+- **UK government** (state programme, London, ?–now), funded the style. Government of the United Kingdom. It paid most of the cost of the 1951 Festival of Britain.
 
 ## Permutations
 

@@ -215,6 +215,7 @@ A camera that the operator carries on the body, with no tripod or dolly; the sha
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Government of Canada** (state programme, Ottawa, ?–now), funded the style. Federal government of Canada. It created the National Film Board by the National Film Act of 1939.
 - **National Film Board of Canada** (studio, Montreal, 1939–now), made the style. The public film producer of Canada. Its unit for observational films made early direct cinema with light cameras.
 
 ## Permutations
