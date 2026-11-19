@@ -15,6 +15,7 @@ import { checkIndustrialStyle, checkNet, checkVocabulary, loadNetContext, loadNe
 import { checkFashionStyle, checkFashionVocabulary, loadFashionVocabulary, type FashionStyle } from "./fashion.js";
 import { checkCeramicsStyle, checkCeramicsVocabulary, loadCeramicsVocabulary, type CeramicsStyle } from "./ceramics.js";
 import { checkCuisineStyle, checkCuisineVocabulary, loadCuisineVocabulary, type CuisineStyle } from "./cuisine.js";
+import { loadEmotions, loadEvokes, loadKeywordMap } from "./emotions.js";
 import { ROOT, loadDomains, loadEras, loadFunding, loadOrgs, loadPeople, loadPrinciples, loadStyleFiles, loadTechniques, principleRefs, readJson, type Style } from "./lib.js";
 
 const schemaOnly = process.argv.includes("--schema-only");
@@ -335,6 +336,50 @@ for (const { file, slug, org: m } of orgs) {
       warnings.push(`${file}: move ${mv.year} (${mv.kind}) is outside ${m.founded ?? "?"}–${m.closed ?? "now"}`);
 }
 
+
+// The emotions layer: terms (AESTHEMOS + culture words) and evokes edges with evidence.
+const validateEmotion = ajv.compile(readJson<object>(join(ROOT, "schema", "emotion.schema.json")));
+const validateEvokes = ajv.compile(readJson<object>(join(ROOT, "schema", "evokes.schema.json")));
+const emotions = loadEmotions();
+const emotionIds = new Set(emotions.map((e) => e.slug));
+for (const { file, slug, emotion: e } of emotions) {
+  if (!validateEmotion(e)) {
+    for (const x of validateEmotion.errors ?? []) errors.push(`${file}: ${x.instancePath || "/"} ${x.message}`);
+    continue;
+  }
+  if (e.id !== slug) errors.push(`${file}: id "${e.id}" is not equal to the file name`);
+  if (e.opposite && !emotionIds.has(e.opposite)) errors.push(`${file}: opposite "${e.opposite}" is not in data/emotions/`);
+  for (const n of e.nearest) if (!emotionIds.has(n)) errors.push(`${file}: nearest "${n}" is not in data/emotions/`);
+  if (e.model === "culture" && (!e.culture || !e.nearest.length)) errors.push(`${file}: a culture term needs a language tag and at least one nearest core term`);
+  if (e.model === "aesthemos" && (e.culture || e.nearest.length)) errors.push(`${file}: a core term has no culture and no nearest terms`);
+}
+for (const [k, ids] of Object.entries(loadKeywordMap()))
+  for (const id of ids) if (!emotionIds.has(id)) errors.push(`data/emotions/keyword-map.json: "${k}" → "${id}" is not in data/emotions/`);
+const evokes = loadEvokes();
+let evokesEdges = 0;
+let evokesSourced = 0;
+for (const { file, slug, evokes: f } of evokes) {
+  if (!validateEvokes(f)) {
+    for (const x of validateEvokes.errors ?? []) errors.push(`${file}: ${x.instancePath || "/"} ${x.message}`);
+    continue;
+  }
+  if (f.carrier === "style" && f.domain !== slug) errors.push(`${file}: domain "${f.domain}" is not equal to the file name`);
+  for (const [id, edges] of Object.entries(f.edges)) {
+    if (f.carrier === "style" && !schemaOnly) {
+      const s = byId.get(id);
+      if (!s) errors.push(`${file}: style "${id}" does not exist`);
+      else if (s.domain !== f.domain) errors.push(`${file}: style "${id}" is in "${s.domain}", not in "${f.domain}"`);
+    }
+    if (f.carrier === "technique" && !techniques.some((t) => t.slug === id)) errors.push(`${file}: technique "${id}" is not in data/techniques/`);
+    if (new Set(edges.map((e) => e.emotion)).size !== edges.length) errors.push(`${file}: ${id} names an emotion more than once`);
+    for (const e of edges) {
+      evokesEdges++;
+      if (!emotionIds.has(e.emotion)) errors.push(`${file}: ${id} → emotion "${e.emotion}" is not in data/emotions/`);
+      if (e.evidence.some((x) => x.kind === "measured" && !x.source?.url)) errors.push(`${file}: ${id} → ${e.emotion}: measured evidence needs a link to the study`);
+      if (e.evidence.some((x) => x.kind !== "inferred")) evokesSourced++;
+    }
+  }
+}
 // The money layer: who paid whom, when, for what. Each flow cites a source; an amount names the
 // source that gives it; a flow to a person or an organisation names the styles that the money helped.
 const validateFunding = ajv.compile(readJson<object>(join(ROOT, "schema", "funding.schema.json")));
@@ -394,6 +439,6 @@ for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`error ${e}`);
 console.log(
   `${count} styles in ${domains.length} domains · ${principles.length} principles · ${techniques.length} techniques · ${people.length} people · ${errors.length} errors · ${warnings.length} warnings` +
-    ` · ${orgs.length} orgs · ${funding.length} funding flows · ${nets.length} object nets` + curation + (schemaOnly ? " · schema only" : ""),
+    ` · ${orgs.length} orgs · ${funding.length} funding flows · ${nets.length} object nets · ${emotions.length} emotions · ${evokesEdges} evokes edges (${evokesSourced} sourced)` + curation + (schemaOnly ? " · schema only" : ""),
 );
 process.exit(errors.length ? 1 : 0);
