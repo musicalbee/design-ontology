@@ -342,7 +342,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`shaker-interior`](../shaker-interior/SKILL.md)
 - **Led to (go here for a newer version):** [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`victorian-interior`](../victorian-interior/SKILL.md)
-- **Kin in another domain:** [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md), [`hand-painted-texture`](../hand-painted-texture/SKILL.md), [`humanist-sans`](../humanist-sans/SKILL.md), [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`private-press-book`](../private-press-book/SKILL.md)
+- **Kin in another domain:** [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md), [`arts-and-crafts-jewellery`](../arts-and-crafts-jewellery/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md), [`hand-painted-texture`](../hand-painted-texture/SKILL.md), [`humanist-sans`](../humanist-sans/SKILL.md), [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`private-press-book`](../private-press-book/SKILL.md)
 - **Nearest by vector profile:** [`coastal-interior`](../coastal-interior/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md)
 
 ## Emotional target

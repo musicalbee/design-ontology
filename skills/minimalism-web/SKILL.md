@@ -275,7 +275,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`skeuomorphism`](../skeuomorphism/SKILL.md)
 - **Was rejected by:** [`cyberpunk-web`](../cyberpunk-web/SKILL.md)
 - **Mixes well with:** [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md), [`luxury-typography-web`](../luxury-typography-web/SKILL.md), [`surrealism-web`](../surrealism-web/SKILL.md)
-- **Kin in another domain:** [`minimalist-interior`](../minimalist-interior/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+- **Kin in another domain:** [`minimalist-fashion`](../minimalist-fashion/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
 - **Nearest by vector profile:** [`flat-design`](../flat-design/SKILL.md), [`ai-chat-ui`](../ai-chat-ui/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md)
 
 ## Emotional target

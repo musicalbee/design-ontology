@@ -1,0 +1,345 @@
+{
+  "$schema": "../../../schema/domains/fashion.schema.json",
+  "id": "americana-workwear",
+  "domain": "fashion",
+  "name": "Americana workwear",
+  "aliases": [
+    "American work clothes",
+    "Frontier workwear",
+    "Denim and duck work dress"
+  ],
+  "era_id": "victorian-dress",
+  "branch": "outdoor",
+  "time_period": {
+    "start": 1873,
+    "end": 1955,
+    "label": "1873–1955"
+  },
+  "region": "California, Nevada and the American West",
+  "summary": "The hard-wearing dress of miners, railmen and farmers. An indigo denim overall or a duck canvas coat, with copper rivets at the stress points, built for price and long wear.",
+  "philosophy": {
+    "core_thesis": "Work dress earns its form by use. Each seam, pocket and rivet answers a failure that the worker met, and the garment looks better when it is old.",
+    "design_principles": [
+      "Rivet each stress point: the pocket corners and the base of the fly.",
+      "Weave the cloth heavy: 400 to 600 g per square metre in denim, 500 g or more in duck.",
+      "Double-stitch the felled seams so that no seam opens under load.",
+      "Set the pocket where the hand falls: two on the chest, two at the hip, one for the rule.",
+      "Cut the bib or jacket with room to bend and reach, and size it by use, not by fashion.",
+      "Dye the warp in indigo and leave the weft white, so that the cloth fades along the wear.",
+      "Use brass or copper hardware that does not rust."
+    ],
+    "anti_patterns": [
+      "A thin, soft cloth that tears at the knee",
+      "Decoration that does not serve use",
+      "A tight fit that limits the reach",
+      "Hardware of plated plastic",
+      "A clean, sprayed-on fade that has no wear behind it"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "structure": 3,
+    "luxury": 1,
+    "technicality": 2,
+    "chromatic_intensity": 2
+  },
+  "silhouette": {
+    "shape": "A straight, roomy garment. Bib overalls with a front pocket, a boxy chore coat with large patch pockets, and a straight leg that clears a boot.",
+    "line": "A straight shoulder, a wide sleeve, a short boxy body and a straight, uncut hem.",
+    "fit": "Loose in the seat, the thigh and the arm so that the worker can climb, kneel and lift; the garment shrinks on the first wash.",
+    "proportion": "Jacket to the top of the hip; trouser inseam 80 to 84 cm; roughly 1 to 1 chest to hip.",
+    "rules": [
+      "Place a patch pocket with a bar tack on each side of the chest.",
+      "Cut a straight leg with a rise that lets the wearer bend.",
+      "Fix a metal button or a rivet at each stress point.",
+      "Add a hammer loop and a rule pocket on the trouser.",
+      "Keep the front closed with a row of metal buttons or a bib."
+    ]
+  },
+  "fabrics": {
+    "primary": [
+      "denim",
+      "canvas"
+    ],
+    "secondary": [
+      "corduroy",
+      "flannel",
+      "chino-twill",
+      "khaki-drill",
+      "vegetable-tanned-leather",
+      "copper",
+      "brass"
+    ],
+    "avoid": [
+      "satin",
+      "taffeta",
+      "tulle",
+      "ripstop-nylon",
+      "polar-fleece",
+      "patent-leather"
+    ],
+    "rule": "Choose a heavy cotton twill or plain weave: indigo denim for the trouser and the overall, duck or corduroy for the coat. The cloth must take hard wear and age well."
+  },
+  "construction": {
+    "methods": [
+      "flat-felled double-needle seams",
+      "copper rivet at each pocket corner",
+      "bar tack at each stress point",
+      "indigo-dyed warp, white weft",
+      "heavy cotton duck for the coat",
+      "chain-stitched hems on a loop-stitch machine"
+    ],
+    "closures": "Brass or iron tack buttons, a button fly, and a metal buckle at the back of the waist.",
+    "details": "Pocket rivets of copper, an arcuate stitch on the pocket, a hammer loop, a rule pocket and a leather or paper patch at the waist."
+  },
+  "surface": {
+    "finishes": [
+      "indigo-dyed",
+      "sanforised",
+      "distressed",
+      "matte",
+      "stonewashed"
+    ],
+    "pattern": "Plain indigo, a plain tan duck, and a hickory-style stripe; no print.",
+    "gloss": "Denim and duck at 1–6 GU, dry and flat; wear brings a slight polish at the knee and the seat.",
+    "wear": "Raw denim fades along the creases and the seams, and the shape of the wearer's pocket content shows through; the owner repairs with a patch."
+  },
+  "palette": {
+    "strategy": "One working blue and one earth tone; the colour fades with use, so the first colour is dark.",
+    "colours": [
+      {
+        "name": "Raw indigo",
+        "hex": "#1F2E4A",
+        "role": "denim"
+      },
+      {
+        "name": "Faded indigo",
+        "hex": "#4A6382",
+        "role": "worn denim"
+      },
+      {
+        "name": "Tan duck",
+        "hex": "#B49A6E",
+        "role": "canvas coat"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#A89B72",
+        "role": "trouser"
+      },
+      {
+        "name": "Brass",
+        "hex": "#B08D3E",
+        "role": "hardware"
+      },
+      {
+        "name": "Hickory ticking",
+        "hex": "#4B5A73",
+        "role": "stripe"
+      }
+    ]
+  },
+  "making": {
+    "processes": [
+      "weaving of denim and duck on a loom",
+      "indigo dyeing of the warp",
+      "cutting by the stack",
+      "riveting and bar tacking on a machine",
+      "sewing in a factory line"
+    ],
+    "scale": "Factory made in the thousand from the 1870s, sold by the dozen through general stores and company stores.",
+    "signs": "Copper rivets at the stress points, a double-needle felled seam, a bar tack, and a cloth that fades along the wear."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "work-overalls",
+        "form": "Bib overalls with a chest pocket and a hammer loop",
+        "material": "denim",
+        "finish": "indigo-dyed"
+      },
+      {
+        "object": "chore-coat",
+        "form": "Boxy three-pocket work coat with a turn-down collar",
+        "material": "canvas",
+        "finish": "matte"
+      },
+      {
+        "object": "chore-coat",
+        "form": "Denim work jacket with a pleated front and a button cuff",
+        "material": "denim",
+        "finish": "sanforised"
+      },
+      {
+        "object": "cargo-trousers",
+        "form": "Carpenter trousers with a hammer loop and a rule pocket",
+        "material": "canvas",
+        "finish": "distressed"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "American workwear",
+      "indigo denim overalls",
+      "duck canvas chore coat",
+      "copper rivets",
+      "double-needle felled seam",
+      "bar tack at the pocket",
+      "brass tack buttons",
+      "faded along the creases",
+      "hickory stripe",
+      "dusty railroad yard, daylight",
+      "documentary photograph"
+    ],
+    "negative": [
+      "slim fit",
+      "stretch denim",
+      "neon colour",
+      "logo",
+      "silk",
+      "tailored suit",
+      "sprayed distressing"
+    ],
+    "canonical_works": [
+      {
+        "work": "Riveted work trousers, US patent 139,121",
+        "maker": "Jacob Davis and Levi Strauss",
+        "year": 1873
+      },
+      {
+        "work": "Waist overalls",
+        "maker": "Levi Strauss & Co.",
+        "year": 1873
+      },
+      {
+        "work": "Duck canvas work coat",
+        "maker": "Hamilton Carhartt",
+        "year": 1889
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Denim trousers with label 603",
+      "kind": "image",
+      "credit": "Wikimedia Commons contributors",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Levi's_603_b.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Levi%27s_603_b.jpg/960px-Levi%27s_603_b.jpg"
+    },
+    {
+      "title": "Riveted denim jeans with red tab",
+      "kind": "image",
+      "credit": "Wikimedia Commons contributors",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Levi's_501_jeans_'big_E'_Red_Tab_(2025-12-19)_3.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Levi%27s_501_jeans_%27big_E%27_Red_Tab_%282025-12-19%29_3.jpg/960px-Levi%27s_501_jeans_%27big_E%27_Red_Tab_%282025-12-19%29_3.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "english-bespoke-tailoring"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "industrial-utility-product",
+      "shaker-object"
+    ]
+  },
+  "emotion": {
+    "target_response": "A plain, honest sense of labour and use: the wearer looks capable and unfussy.",
+    "keywords": [
+      "rugged",
+      "honest",
+      "practical",
+      "frontier",
+      "worn-in"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "workwear",
+      "denim overalls",
+      "chore coat",
+      "canvas work jacket",
+      "riveted denim",
+      "raw denim",
+      "americana",
+      "blue collar dress"
+    ],
+    "use_cases": [
+      "a period costume brief for the American West",
+      "a heritage workwear line",
+      "an image prompt for a farm or rail scene",
+      "a study note on the origin of jeans"
+    ],
+    "avoid_when": [
+      "the brief is formal or evening dress",
+      "the brief wants a slim, stretch fit",
+      "the brief is a tech shell"
+    ],
+    "modifiers": [
+      {
+        "request": "more formal, English",
+        "toward": "english-bespoke-tailoring",
+        "how": "Swap the duck for flannel, cut a closer body and add a lined, notched collar."
+      },
+      {
+        "request": "lighter, for the trail",
+        "toward": "early-mountaineering",
+        "how": "Move to a lighter cotton and wool mix, add a windproof outer and a layered kit."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Jeans",
+      "url": "https://en.wikipedia.org/wiki/Jeans"
+    },
+    {
+      "title": "Wikipedia: Levi Strauss & Co.",
+      "url": "https://en.wikipedia.org/wiki/Levi_Strauss_%26_Co."
+    },
+    {
+      "title": "Wikipedia: Workwear",
+      "url": "https://en.wikipedia.org/wiki/Workwear"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.05,
+      "min": 0,
+      "max": 0.3,
+      "note": "Work dress has almost no ornament; the stitch and the rivet are the only marks."
+    },
+    "proportion_scale": {
+      "default": 0.5,
+      "min": 0.2,
+      "max": 0.9
+    },
+    "surface_gloss": {
+      "default": 6,
+      "min": 1,
+      "max": 40
+    },
+    "era_blend": {
+      "default": 0.3,
+      "min": 0,
+      "max": 1
+    },
+    "metal_tone": {
+      "default": "brass",
+      "options": [
+        "brass",
+        "steel",
+        "none"
+      ]
+    }
+  }
+}

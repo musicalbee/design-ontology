@@ -1,0 +1,3277 @@
+{
+  "$schema": "../../schema/fashion-vocabulary.schema.json",
+  "$comment": "The closed vocabulary of the fashion domain. Each fibre, fabric, material and finish gives its origin: the first year with a firm record, the place and, where known, the maker. circa = true marks an estimate. A null origin means that no open source gives a year. Fabrics have family 'textile'.",
+  "branches": [
+    {
+      "id": "costume",
+      "name": "Costume",
+      "order": 1,
+      "scope": "The garments of day and evening dress: suits, coats, dresses, gowns, skirts, shirts, blouses, trousers and knitwear."
+    },
+    {
+      "id": "outdoor",
+      "name": "Outdoor",
+      "order": 2,
+      "scope": "Dress for weather, work, sport and the country: shell jackets, parkas, field and waxed jackets, trench coats, down and fleece."
+    },
+    {
+      "id": "underwear",
+      "name": "Underwear",
+      "order": 3,
+      "scope": "Foundation and intimate garments under the dress: stays, corsets, brassieres, girdles, briefs, slips and stockings."
+    },
+    {
+      "id": "shoes",
+      "name": "Shoes",
+      "order": 4,
+      "scope": "Footwear: dress shoes, boots, court shoes, sandals and sneakers, with their lasts, soles and heels."
+    },
+    {
+      "id": "accessories",
+      "name": "Accessories",
+      "order": 5,
+      "scope": "Bags, luggage, hats, eyewear, neckwear, scarves, gloves and belts."
+    },
+    {
+      "id": "jewellery",
+      "name": "Jewellery",
+      "order": 6,
+      "scope": "Rings, necklaces, brooches, earrings, bracelets, tiaras and cufflinks, in metal, gems, pearls, enamel and paste."
+    },
+    {
+      "id": "watch",
+      "name": "Watches",
+      "order": 7,
+      "scope": "Pocket watches and wristwatches: the case, the dial, the hands, the crystal, the strap and the bracelet."
+    },
+    {
+      "id": "cars",
+      "name": "Cars",
+      "order": 8,
+      "scope": "The car as a fashion object: the body line, the paint, the brightwork, and the trim and upholstery of the cabin."
+    }
+  ],
+  "fibres": [
+    {
+      "id": "flax",
+      "name": "Flax (linen)",
+      "kind": "plant",
+      "origin": {
+        "year": -5000,
+        "circa": true,
+        "place": "Egypt and the Near East"
+      },
+      "note": "Linen cloth from flax is in Egyptian graves of about 5000 BC; dyed wild flax fibres from a cave in Georgia are about 30,000 years old."
+    },
+    {
+      "id": "hemp",
+      "name": "Hemp",
+      "kind": "plant",
+      "origin": {
+        "year": -2800,
+        "circa": true,
+        "place": "China"
+      },
+      "note": "Hemp cloth is in Chinese graves of the third millennium BC; Europe used it for sailcloth, rope and work clothes."
+    },
+    {
+      "id": "cotton",
+      "name": "Cotton",
+      "kind": "plant",
+      "origin": {
+        "year": -5000,
+        "circa": true,
+        "place": "Indus valley"
+      },
+      "note": "Cotton threads at Mehrgarh and cloth at Mohenjo-daro; Peru grew a second species from about 4500 BC."
+    },
+    {
+      "id": "wool",
+      "name": "Wool",
+      "kind": "animal",
+      "origin": {
+        "year": -4000,
+        "circa": true,
+        "place": "Mesopotamia"
+      },
+      "note": "Sheep with a woolly fleece appear in Mesopotamia in the fourth millennium BC; before that, sheep had hair."
+    },
+    {
+      "id": "merino",
+      "name": "Merino wool",
+      "kind": "animal",
+      "origin": {
+        "year": 1300,
+        "circa": true,
+        "place": "Castile, Spain"
+      },
+      "note": "Spain bred the fine merino sheep from about the 14th century and banned its export until the 18th century."
+    },
+    {
+      "id": "silk",
+      "name": "Silk",
+      "kind": "animal",
+      "origin": {
+        "year": -2700,
+        "circa": true,
+        "place": "China"
+      },
+      "note": "China reeled silk from the cocoon of Bombyx mori; Byzantium got silkworms in about AD 552."
+    },
+    {
+      "id": "cashmere",
+      "name": "Cashmere",
+      "kind": "animal",
+      "origin": {
+        "year": 1400,
+        "circa": true,
+        "place": "Kashmir"
+      },
+      "note": "The down of the Changthangi goat, woven into Kashmir shawls; Europe took the shawl as fashion from about 1800."
+    },
+    {
+      "id": "mohair",
+      "name": "Mohair",
+      "kind": "animal",
+      "origin": {
+        "year": 1500,
+        "circa": true,
+        "place": "Anatolia (Ankara)"
+      },
+      "note": "The hair of the Angora goat; it gives a lustrous, springy yarn for suiting and knitwear."
+    },
+    {
+      "id": "camelid",
+      "name": "Alpaca and vicuña",
+      "kind": "animal",
+      "origin": {
+        "year": -800,
+        "circa": true,
+        "place": "Andes (Paracas)"
+      },
+      "note": "Andean weavers used alpaca and vicuña fibre in the Paracas textiles; vicuña is the finest animal fibre in commercial use."
+    },
+    {
+      "id": "viscose",
+      "name": "Viscose rayon",
+      "kind": "regenerated",
+      "origin": {
+        "year": 1892,
+        "circa": false,
+        "place": "London",
+        "by": "Charles Cross, Edward Bevan and Clayton Beadle"
+      },
+      "note": "The first regenerated cellulose fibre made at scale; Chardonnet showed a nitrocellulose 'artificial silk' in 1889."
+    },
+    {
+      "id": "acetate",
+      "name": "Cellulose acetate",
+      "kind": "regenerated",
+      "origin": {
+        "year": 1921,
+        "circa": false,
+        "place": "Derbyshire, England",
+        "by": "Camille and Henri Dreyfus"
+      },
+      "note": "A cellulose fibre with a silk-like drape and lustre, used for linings and evening dress."
+    },
+    {
+      "id": "nylon",
+      "name": "Nylon",
+      "kind": "synthetic",
+      "origin": {
+        "year": 1935,
+        "circa": false,
+        "place": "Wilmington, Delaware",
+        "by": "Wallace Carothers"
+      },
+      "note": "The first fully synthetic fibre; nylon stockings went on sale in 1940, and the war took the fibre for parachutes."
+    },
+    {
+      "id": "polyester",
+      "name": "Polyester",
+      "kind": "synthetic",
+      "origin": {
+        "year": 1941,
+        "circa": false,
+        "place": "Manchester",
+        "by": "John Whinfield and James Dickson"
+      },
+      "note": "A synthetic fibre that holds a crease and a pleat; it became the fibre of easy-care dress in the 1950s and 1960s."
+    },
+    {
+      "id": "acrylic",
+      "name": "Acrylic",
+      "kind": "synthetic",
+      "origin": {
+        "year": 1950,
+        "circa": false,
+        "place": "United States",
+        "by": "DuPont (Orlon)"
+      },
+      "note": "A synthetic fibre with a wool-like hand, used for knitwear and fleece."
+    },
+    {
+      "id": "elastane",
+      "name": "Elastane",
+      "kind": "synthetic",
+      "origin": {
+        "year": 1958,
+        "circa": false,
+        "place": "Waynesboro, Virginia",
+        "by": "Joseph Shivers"
+      },
+      "note": "A polyurethane fibre that stretches to five or more times its length and recovers; it replaced rubber thread in foundation garments."
+    },
+    {
+      "id": "polypropylene",
+      "name": "Polypropylene",
+      "kind": "synthetic",
+      "origin": {
+        "year": 1954,
+        "circa": false,
+        "place": "Milan",
+        "by": "Giulio Natta"
+      },
+      "note": "A light fibre that takes up almost no water; it became the first synthetic base layer in the 1970s."
+    },
+    {
+      "id": "aramid",
+      "name": "Aramid",
+      "kind": "synthetic",
+      "origin": {
+        "year": 1965,
+        "circa": false,
+        "place": "Wilmington, Delaware",
+        "by": "Stephanie Kwolek"
+      },
+      "note": "A heat- and cut-resistant fibre with high strength, used for protective clothing and racing suits."
+    },
+    {
+      "id": "lyocell",
+      "name": "Lyocell",
+      "kind": "regenerated",
+      "origin": {
+        "year": 1972,
+        "circa": false,
+        "place": "United States",
+        "by": "American Enka"
+      },
+      "note": "A cellulose fibre spun from a solvent that the process recovers; it was sold from 1992."
+    },
+    {
+      "id": "uhmwpe",
+      "name": "Ultra-high-molecular-weight polyethylene",
+      "kind": "synthetic",
+      "origin": {
+        "year": 1979,
+        "circa": false,
+        "place": "Netherlands",
+        "by": "DSM"
+      },
+      "note": "A gel-spun fibre with a high strength for its weight, used in light technical packs and shells."
+    }
+  ],
+  "fabrics": [
+    {
+      "id": "linen-cloth",
+      "name": "Linen cloth",
+      "fibres": [
+        "flax"
+      ],
+      "construction": "woven-plain",
+      "origin": {
+        "year": -5000,
+        "circa": true,
+        "place": "Egypt"
+      },
+      "weight_gsm": [
+        100,
+        320
+      ],
+      "note": "The oldest cloth of dress; cool, crisp and quick to crease. Shirts, summer suits and underwear were linen until cotton took over."
+    },
+    {
+      "id": "muslin",
+      "name": "Muslin",
+      "fibres": [
+        "cotton"
+      ],
+      "construction": "woven-plain",
+      "origin": {
+        "year": 1000,
+        "circa": true,
+        "place": "Bengal (Dhaka)"
+      },
+      "weight_gsm": [
+        30,
+        90
+      ],
+      "note": "A fine, open cotton of hand-spun yarn from Dhaka; the name comes from Mosul. It was the cloth of the Empire-line dress after 1795."
+    },
+    {
+      "id": "calico",
+      "name": "Calico",
+      "fibres": [
+        "cotton"
+      ],
+      "construction": "woven-plain",
+      "origin": {
+        "year": 1100,
+        "circa": true,
+        "place": "Calicut, India"
+      },
+      "weight_gsm": [
+        100,
+        200
+      ],
+      "note": "A plain cotton from the Malabar coast; England banned printed calico imports in 1700 and 1721 to protect wool and silk weavers."
+    },
+    {
+      "id": "glazed-chintz",
+      "name": "Glazed chintz",
+      "fibres": [
+        "cotton"
+      ],
+      "construction": "woven-plain",
+      "origin": {
+        "year": 1600,
+        "circa": true,
+        "place": "India"
+      },
+      "weight_gsm": [
+        120,
+        220
+      ],
+      "note": "A printed or painted cotton with a glazed surface; the East India companies brought it to Europe in the 17th century."
+    },
+    {
+      "id": "cambric",
+      "name": "Cambric (batiste)",
+      "fibres": [
+        "flax",
+        "cotton"
+      ],
+      "construction": "woven-plain",
+      "origin": {
+        "year": 1300,
+        "circa": true,
+        "place": "Cambrai"
+      },
+      "weight_gsm": [
+        60,
+        120
+      ],
+      "note": "A fine, dense plain weave for shirts, collars, handkerchiefs and lingerie, named after the town of Cambrai."
+    },
+    {
+      "id": "poplin",
+      "name": "Poplin",
+      "fibres": [
+        "cotton",
+        "silk"
+      ],
+      "construction": "woven-plain",
+      "origin": {
+        "year": 1400,
+        "circa": true,
+        "place": "Avignon"
+      },
+      "weight_gsm": [
+        100,
+        150
+      ],
+      "note": "A plain weave with a fine weft rib; the name may come from 'papeline', the cloth of the papal town of Avignon. The cloth of the dress shirt."
+    },
+    {
+      "id": "oxford-cloth",
+      "name": "Oxford cloth",
+      "fibres": [
+        "cotton"
+      ],
+      "construction": "woven-basket",
+      "origin": {
+        "year": 1850,
+        "circa": true,
+        "place": "Scotland"
+      },
+      "weight_gsm": [
+        120,
+        180
+      ],
+      "note": "A basket weave with a soft hand; Scottish mills named shirtings after universities. The cloth of the button-down shirt."
+    },
+    {
+      "id": "gingham",
+      "name": "Gingham",
+      "fibres": [
+        "cotton"
+      ],
+      "construction": "woven-plain",
+      "origin": {
+        "year": 1750,
+        "circa": true,
+        "place": "Manchester"
+      },
+      "weight_gsm": [
+        100,
+        150
+      ],
+      "note": "A yarn-dyed check in white and one colour; the name comes from a Malay word for striped cloth."
+    },
+    {
+      "id": "seersucker",
+      "name": "Seersucker",
+      "fibres": [
+        "cotton"
+      ],
+      "construction": "woven-plain",
+      "origin": {
+        "year": 1700,
+        "circa": true,
+        "place": "India"
+      },
+      "weight_gsm": [
+        100,
+        170
+      ],
+      "note": "Two warps at different tension make puckered stripes that stand off the skin; the name comes from Persian 'milk and sugar'."
+    },
+    {
+      "id": "canvas",
+      "name": "Canvas and duck",
+      "fibres": [
+        "cotton",
+        "hemp",
+        "flax"
+      ],
+      "construction": "woven-plain",
+      "origin": {
+        "year": 1400,
+        "circa": true,
+        "place": "Europe"
+      },
+      "weight_gsm": [
+        250,
+        700
+      ],
+      "note": "A heavy plain weave for sails, tents, work coats and the upper of the first sneakers."
+    },
+    {
+      "id": "taffeta",
+      "name": "Taffeta",
+      "fibres": [
+        "silk",
+        "acetate",
+        "polyester"
+      ],
+      "construction": "woven-plain",
+      "origin": {
+        "year": 1300,
+        "circa": true,
+        "place": "Persia"
+      },
+      "weight_gsm": [
+        60,
+        120
+      ],
+      "note": "A crisp plain silk that rustles and holds a full skirt; the name comes from Persian 'taftah', twisted."
+    },
+    {
+      "id": "chiffon",
+      "name": "Chiffon",
+      "fibres": [
+        "silk",
+        "polyester"
+      ],
+      "construction": "woven-plain",
+      "origin": {
+        "year": 1850,
+        "circa": true,
+        "place": "France"
+      },
+      "weight_gsm": [
+        20,
+        50
+      ],
+      "note": "A sheer, floating plain weave of highly twisted yarn for overlays, scarves and evening dress."
+    },
+    {
+      "id": "crepe-de-chine",
+      "name": "Crêpe de Chine",
+      "fibres": [
+        "silk"
+      ],
+      "construction": "woven-plain",
+      "origin": {
+        "year": 1880,
+        "circa": true,
+        "place": "Lyon"
+      },
+      "weight_gsm": [
+        50,
+        90
+      ],
+      "note": "A light silk with a pebbled surface from crepe-twisted weft; it drapes well on the bias."
+    },
+    {
+      "id": "denim",
+      "name": "Denim",
+      "fibres": [
+        "cotton"
+      ],
+      "construction": "woven-twill",
+      "origin": {
+        "year": 1600,
+        "circa": true,
+        "place": "Nîmes"
+      },
+      "weight_gsm": [
+        280,
+        600
+      ],
+      "note": "A warp-faced twill with an indigo warp and a white weft; 'serge de Nîmes'. Levi Strauss and Jacob Davis patented the riveted work trouser in 1873."
+    },
+    {
+      "id": "serge",
+      "name": "Serge",
+      "fibres": [
+        "wool"
+      ],
+      "construction": "woven-twill",
+      "origin": {
+        "year": 1500,
+        "circa": true,
+        "place": "Europe"
+      },
+      "weight_gsm": [
+        200,
+        400
+      ],
+      "note": "A balanced twill with a clear diagonal rib, for uniforms, suits and coats."
+    },
+    {
+      "id": "gabardine",
+      "name": "Gabardine",
+      "fibres": [
+        "wool",
+        "cotton"
+      ],
+      "construction": "woven-twill",
+      "origin": {
+        "year": 1879,
+        "circa": false,
+        "place": "Basingstoke, England",
+        "by": "Thomas Burberry"
+      },
+      "weight_gsm": [
+        180,
+        300
+      ],
+      "note": "A steep, tight twill of yarn proofed before the weave; it keeps out rain and lets the body breathe. The cloth of the trench coat."
+    },
+    {
+      "id": "tweed",
+      "name": "Tweed",
+      "fibres": [
+        "wool"
+      ],
+      "construction": "woven-twill",
+      "origin": {
+        "year": 1830,
+        "circa": true,
+        "place": "Scottish Borders"
+      },
+      "weight_gsm": [
+        300,
+        650
+      ],
+      "note": "A rough, thick twill of woollen yarn; the name comes from 'tweel', misread by a London merchant as the River Tweed."
+    },
+    {
+      "id": "harris-tweed",
+      "name": "Harris Tweed",
+      "fibres": [
+        "wool"
+      ],
+      "construction": "woven-twill",
+      "origin": {
+        "year": 1846,
+        "circa": false,
+        "place": "Outer Hebrides",
+        "by": "Lady Catherine Murray, Countess of Dunmore"
+      },
+      "weight_gsm": [
+        450,
+        600
+      ],
+      "note": "Hand-woven at home in the Outer Hebrides; the Orb mark dates from 1909 and an Act of Parliament protects the name since 1993."
+    },
+    {
+      "id": "worsted-suiting",
+      "name": "Worsted suiting",
+      "fibres": [
+        "wool",
+        "merino",
+        "mohair"
+      ],
+      "construction": "woven-twill",
+      "origin": {
+        "year": 1200,
+        "circa": true,
+        "place": "Worstead, Norfolk"
+      },
+      "weight_gsm": [
+        200,
+        350
+      ],
+      "note": "A smooth, firm cloth of combed long-staple yarn, named after the Norfolk village; the cloth of the tailored suit."
+    },
+    {
+      "id": "flannel",
+      "name": "Flannel",
+      "fibres": [
+        "wool",
+        "cotton"
+      ],
+      "construction": "woven-twill",
+      "origin": {
+        "year": 1500,
+        "circa": true,
+        "place": "Wales"
+      },
+      "weight_gsm": [
+        200,
+        400
+      ],
+      "note": "A soft cloth that is napped after the weave; grey wool flannel became the suit and trouser cloth of the 20th century."
+    },
+    {
+      "id": "khaki-drill",
+      "name": "Khaki drill",
+      "fibres": [
+        "cotton"
+      ],
+      "construction": "woven-twill",
+      "origin": {
+        "year": 1846,
+        "circa": false,
+        "place": "Peshawar",
+        "by": "Harry Lumsden"
+      },
+      "weight_gsm": [
+        200,
+        300
+      ],
+      "note": "A cotton twill dyed the colour of dust ('khaki' in Urdu) for the Corps of Guides; armies took it for field dress."
+    },
+    {
+      "id": "chino-twill",
+      "name": "Chino twill",
+      "fibres": [
+        "cotton"
+      ],
+      "construction": "woven-twill",
+      "origin": {
+        "year": 1898,
+        "circa": true,
+        "place": "Philippines"
+      },
+      "weight_gsm": [
+        200,
+        300
+      ],
+      "note": "A light cotton twill of US army trousers in the Philippines; the name comes from the Chinese cloth. It went to the campus after 1945."
+    },
+    {
+      "id": "tartan",
+      "name": "Tartan",
+      "fibres": [
+        "wool"
+      ],
+      "construction": "woven-twill",
+      "origin": {
+        "year": 250,
+        "circa": true,
+        "place": "Falkirk, Scotland"
+      },
+      "weight_gsm": [
+        250,
+        500
+      ],
+      "note": "A twill check of coloured stripes in warp and weft; a check fragment from near Falkirk dates from about AD 250. The Dress Act of 1746 banned it in the Highlands."
+    },
+    {
+      "id": "houndstooth",
+      "name": "Houndstooth",
+      "fibres": [
+        "wool"
+      ],
+      "construction": "woven-twill",
+      "origin": {
+        "year": 1800,
+        "circa": true,
+        "place": "Scottish Lowlands"
+      },
+      "weight_gsm": [
+        250,
+        450
+      ],
+      "note": "A broken check from a 2/2 twill with four dark and four light yarns in warp and weft."
+    },
+    {
+      "id": "satin",
+      "name": "Satin",
+      "fibres": [
+        "silk",
+        "acetate",
+        "polyester"
+      ],
+      "construction": "woven-satin",
+      "origin": {
+        "year": 1100,
+        "circa": true,
+        "place": "Quanzhou (Zaitun), China"
+      },
+      "weight_gsm": [
+        80,
+        150
+      ],
+      "note": "A weave with long floats that gives a smooth, lustrous face; the name may come from Zaitun, the port of export."
+    },
+    {
+      "id": "silk-twill",
+      "name": "Silk twill",
+      "fibres": [
+        "silk"
+      ],
+      "construction": "woven-twill",
+      "origin": {
+        "year": -170,
+        "circa": true,
+        "place": "Changsha, China"
+      },
+      "weight_gsm": [
+        50,
+        90
+      ],
+      "note": "A fine, dense silk twill that takes a sharp print; it is the cloth of the printed square scarf and the necktie. Twill silk is in Chinese graves of the second century BC."
+    },
+    {
+      "id": "damask",
+      "name": "Damask",
+      "fibres": [
+        "silk",
+        "flax",
+        "cotton"
+      ],
+      "construction": "woven-figured",
+      "origin": {
+        "year": 1100,
+        "circa": true,
+        "place": "Damascus"
+      },
+      "weight_gsm": [
+        150,
+        300
+      ],
+      "note": "A reversible figured cloth in which the pattern shows in satin on a ground of the opposite face; named after Damascus."
+    },
+    {
+      "id": "brocade",
+      "name": "Brocade",
+      "fibres": [
+        "silk"
+      ],
+      "construction": "woven-figured",
+      "origin": {
+        "year": 500,
+        "circa": true,
+        "place": "China"
+      },
+      "weight_gsm": [
+        200,
+        400
+      ],
+      "note": "A figured cloth with extra weft, often of metal thread, that floats on the face as a raised pattern; the cloth of court dress."
+    },
+    {
+      "id": "jacquard",
+      "name": "Jacquard figured cloth",
+      "fibres": [
+        "silk",
+        "cotton",
+        "wool"
+      ],
+      "construction": "woven-figured",
+      "origin": {
+        "year": 1804,
+        "circa": false,
+        "place": "Lyon",
+        "by": "Joseph Marie Jacquard"
+      },
+      "weight_gsm": [
+        150,
+        450
+      ],
+      "note": "Cloth from a loom that lifts each warp thread by a punched card; the cards made large figured patterns cheap."
+    },
+    {
+      "id": "velvet",
+      "name": "Velvet",
+      "fibres": [
+        "silk",
+        "cotton",
+        "viscose"
+      ],
+      "construction": "woven-pile",
+      "origin": {
+        "year": 1300,
+        "circa": true,
+        "place": "Italy (Venice, Genoa, Florence)"
+      },
+      "weight_gsm": [
+        200,
+        400
+      ],
+      "note": "A warp-pile cloth with a short dense pile cut from a second warp; Italian cities wove it for courts and the church."
+    },
+    {
+      "id": "corduroy",
+      "name": "Corduroy",
+      "fibres": [
+        "cotton"
+      ],
+      "construction": "woven-pile",
+      "origin": {
+        "year": 1770,
+        "circa": true,
+        "place": "Manchester"
+      },
+      "weight_gsm": [
+        250,
+        450
+      ],
+      "note": "A weft-pile cloth with cut cords ('wales'); the cloth of country trousers and the 1970s jacket."
+    },
+    {
+      "id": "terry",
+      "name": "Terry towelling",
+      "fibres": [
+        "cotton"
+      ],
+      "construction": "woven-pile",
+      "origin": {
+        "year": 1850,
+        "circa": false,
+        "place": "Manchester",
+        "by": "W. M. Christy & Sons"
+      },
+      "weight_gsm": [
+        300,
+        600
+      ],
+      "note": "A loop-pile cloth that Henry Christy saw in Turkey and his mill made by machine; the cloth of robes and sweatbands."
+    },
+    {
+      "id": "jersey",
+      "name": "Jersey",
+      "fibres": [
+        "wool",
+        "cotton",
+        "silk"
+      ],
+      "construction": "weft-knit",
+      "origin": {
+        "year": 1500,
+        "circa": true,
+        "place": "Jersey, Channel Islands"
+      },
+      "weight_gsm": [
+        120,
+        300
+      ],
+      "note": "A plain weft knit from the island knitters; Gabrielle Chanel made wool jersey into women's dress in 1916."
+    },
+    {
+      "id": "frame-knit-hosiery",
+      "name": "Frame-knit hosiery",
+      "fibres": [
+        "silk",
+        "wool",
+        "cotton"
+      ],
+      "construction": "weft-knit",
+      "origin": {
+        "year": 1589,
+        "circa": false,
+        "place": "Calverton, Nottinghamshire",
+        "by": "William Lee"
+      },
+      "weight_gsm": [
+        30,
+        150
+      ],
+      "note": "Stockings from the knitting frame, the first textile machine of the modern kind; Nottingham became the centre of hosiery."
+    },
+    {
+      "id": "fair-isle-knit",
+      "name": "Fair Isle knit",
+      "fibres": [
+        "wool"
+      ],
+      "construction": "weft-knit",
+      "origin": {
+        "year": 1850,
+        "circa": true,
+        "place": "Fair Isle, Shetland"
+      },
+      "weight_gsm": [
+        300,
+        600
+      ],
+      "note": "A stranded knit in two colours each row; the Prince of Wales wore a Fair Isle jumper to golf in 1921."
+    },
+    {
+      "id": "aran-knit",
+      "name": "Aran knit",
+      "fibres": [
+        "wool"
+      ],
+      "construction": "weft-knit",
+      "origin": {
+        "year": 1900,
+        "circa": true,
+        "place": "Aran Islands, Ireland"
+      },
+      "weight_gsm": [
+        450,
+        800
+      ],
+      "note": "A thick cream knit of cables, diamonds and moss stitch; it became a fashion knit in the 1950s."
+    },
+    {
+      "id": "spandex-jersey",
+      "name": "Elastane jersey",
+      "fibres": [
+        "elastane",
+        "nylon",
+        "polyester"
+      ],
+      "construction": "warp-knit",
+      "origin": {
+        "year": 1962,
+        "circa": true,
+        "place": "United States"
+      },
+      "weight_gsm": [
+        120,
+        260
+      ],
+      "note": "A knit with elastane that fits the body with no darts; the cloth of swimwear, leggings and the body."
+    },
+    {
+      "id": "powernet",
+      "name": "Powernet",
+      "fibres": [
+        "elastane",
+        "nylon"
+      ],
+      "construction": "warp-knit",
+      "origin": {
+        "year": 1960,
+        "circa": true,
+        "place": "United States"
+      },
+      "weight_gsm": [
+        100,
+        220
+      ],
+      "note": "A warp-knit elastic mesh for girdles, corsets and shapewear; it holds the body with no bones."
+    },
+    {
+      "id": "nylon-sheer",
+      "name": "Nylon sheer knit",
+      "fibres": [
+        "nylon"
+      ],
+      "construction": "weft-knit",
+      "origin": {
+        "year": 1939,
+        "circa": false,
+        "place": "Wilmington, Delaware",
+        "by": "DuPont"
+      },
+      "weight_gsm": [
+        10,
+        40
+      ],
+      "note": "The sheer knit of the nylon stocking; on its first day of sale in 1940 women bought about four million pairs."
+    },
+    {
+      "id": "needle-lace",
+      "name": "Needle lace",
+      "fibres": [
+        "flax",
+        "silk"
+      ],
+      "construction": "lace",
+      "origin": {
+        "year": 1500,
+        "circa": true,
+        "place": "Venice"
+      },
+      "weight_gsm": [
+        20,
+        120
+      ],
+      "note": "Lace built from buttonhole stitches with a needle; Venetian 'punto in aria' was the lace of the ruff and the collar."
+    },
+    {
+      "id": "bobbin-lace",
+      "name": "Bobbin lace",
+      "fibres": [
+        "flax",
+        "silk"
+      ],
+      "construction": "lace",
+      "origin": {
+        "year": 1550,
+        "circa": true,
+        "place": "Flanders"
+      },
+      "weight_gsm": [
+        20,
+        120
+      ],
+      "note": "Lace plaited from threads on many bobbins over a pattern on a pillow; Flanders and the Low Countries led it."
+    },
+    {
+      "id": "machine-lace",
+      "name": "Leavers lace",
+      "fibres": [
+        "cotton",
+        "silk",
+        "nylon"
+      ],
+      "construction": "lace",
+      "origin": {
+        "year": 1813,
+        "circa": false,
+        "place": "Nottingham",
+        "by": "John Levers"
+      },
+      "weight_gsm": [
+        20,
+        120
+      ],
+      "note": "Machine lace from the Leavers frame; it made lace a cloth of the middle class and of lingerie."
+    },
+    {
+      "id": "tulle",
+      "name": "Tulle (bobbinet)",
+      "fibres": [
+        "silk",
+        "cotton",
+        "nylon"
+      ],
+      "construction": "net",
+      "origin": {
+        "year": 1808,
+        "circa": false,
+        "place": "Loughborough",
+        "by": "John Heathcoat"
+      },
+      "weight_gsm": [
+        10,
+        40
+      ],
+      "note": "A hexagonal net from Heathcoat's bobbinet machine; the cloth of the veil, the petticoat and the tutu."
+    },
+    {
+      "id": "felt",
+      "name": "Felt",
+      "fibres": [
+        "wool"
+      ],
+      "construction": "felt",
+      "origin": {
+        "year": -600,
+        "circa": true,
+        "place": "Altai (Pazyryk)"
+      },
+      "weight_gsm": [
+        200,
+        2000
+      ],
+      "note": "A cloth of matted fibres with no weave; the Pazyryk graves held felt saddle cloths and hangings. The cloth of hats."
+    },
+    {
+      "id": "loden",
+      "name": "Loden",
+      "fibres": [
+        "wool"
+      ],
+      "construction": "felt",
+      "origin": {
+        "year": 1500,
+        "circa": true,
+        "place": "Tyrol"
+      },
+      "weight_gsm": [
+        350,
+        700
+      ],
+      "note": "A fulled and napped wool that sheds rain and wind; the coat cloth of the Alpine countries."
+    },
+    {
+      "id": "oilskin",
+      "name": "Oilskin",
+      "fibres": [
+        "flax",
+        "cotton"
+      ],
+      "construction": "coated",
+      "origin": {
+        "year": 1800,
+        "circa": true,
+        "place": "North Sea coasts"
+      },
+      "weight_gsm": [
+        200,
+        400
+      ],
+      "note": "Cloth soaked in linseed oil for sailors and fishermen; Helly Hansen sold oiled linen in Norway from 1877."
+    },
+    {
+      "id": "mackintosh-cloth",
+      "name": "Rubberised cloth",
+      "fibres": [
+        "cotton"
+      ],
+      "construction": "laminate",
+      "origin": {
+        "year": 1823,
+        "circa": false,
+        "place": "Glasgow",
+        "by": "Charles Macintosh"
+      },
+      "weight_gsm": [
+        250,
+        450
+      ],
+      "note": "Two cotton cloths glued with naphtha-dissolved rubber; the first waterproof coat cloth, and the name of the coat."
+    },
+    {
+      "id": "waxed-cotton",
+      "name": "Waxed cotton",
+      "fibres": [
+        "cotton"
+      ],
+      "construction": "coated",
+      "origin": {
+        "year": 1920,
+        "circa": true,
+        "place": "Scotland"
+      },
+      "weight_gsm": [
+        200,
+        350
+      ],
+      "note": "A dense cotton with a paraffin-wax finish that replaced linseed oil; it does not go stiff in the cold. The cloth of the country jacket."
+    },
+    {
+      "id": "ventile",
+      "name": "Ventile",
+      "fibres": [
+        "cotton"
+      ],
+      "construction": "woven-plain",
+      "origin": {
+        "year": 1943,
+        "circa": false,
+        "place": "Manchester",
+        "by": "Shirley Institute"
+      },
+      "weight_gsm": [
+        160,
+        300
+      ],
+      "note": "A dense weave of long-staple cotton that swells when wet and keeps out water; made for the immersion suits of RAF pilots."
+    },
+    {
+      "id": "ripstop-nylon",
+      "name": "Ripstop nylon",
+      "fibres": [
+        "nylon"
+      ],
+      "construction": "woven-plain",
+      "origin": {
+        "year": 1944,
+        "circa": true,
+        "place": "United States"
+      },
+      "weight_gsm": [
+        30,
+        120
+      ],
+      "note": "A plain weave with a heavier yarn in a grid that stops a tear; made for parachutes, then shells and down jackets."
+    },
+    {
+      "id": "ballistic-nylon",
+      "name": "Ballistic nylon",
+      "fibres": [
+        "nylon"
+      ],
+      "construction": "woven-basket",
+      "origin": {
+        "year": 1943,
+        "circa": true,
+        "place": "United States",
+        "by": "DuPont"
+      },
+      "weight_gsm": [
+        300,
+        600
+      ],
+      "note": "A heavy basket-weave nylon made for flak jackets; it went into luggage, packs and watch straps."
+    },
+    {
+      "id": "nylon-mesh",
+      "name": "Nylon mesh",
+      "fibres": [
+        "nylon"
+      ],
+      "construction": "warp-knit",
+      "weight_gsm": [
+        80,
+        250
+      ],
+      "note": "An open warp-knit nylon that passes air and dries fast; the light upper of the running shoe, in place of leather and canvas."
+    },
+    {
+      "id": "eptfe-laminate",
+      "name": "ePTFE membrane laminate",
+      "fibres": [
+        "nylon",
+        "polyester"
+      ],
+      "construction": "laminate",
+      "origin": {
+        "year": 1969,
+        "circa": false,
+        "place": "Newark, Delaware",
+        "by": "Robert W. Gore"
+      },
+      "weight_gsm": [
+        100,
+        300
+      ],
+      "note": "A cloth laminated to a membrane of stretched PTFE with pores too small for water and large enough for vapour; first sold in garments in 1976."
+    },
+    {
+      "id": "polar-fleece",
+      "name": "Polar fleece",
+      "fibres": [
+        "polyester"
+      ],
+      "construction": "weft-knit",
+      "origin": {
+        "year": 1979,
+        "circa": false,
+        "place": "Lawrence, Massachusetts",
+        "by": "Malden Mills"
+      },
+      "weight_gsm": [
+        150,
+        400
+      ],
+      "note": "A napped polyester knit made with Patagonia as a light, quick-dry replacement for wool pile; sold as Polartec from 1981."
+    },
+    {
+      "id": "neoprene",
+      "name": "Neoprene",
+      "fibres": [
+        "polyester",
+        "nylon"
+      ],
+      "construction": "laminate",
+      "origin": {
+        "year": 1930,
+        "circa": false,
+        "place": "Wilmington, Delaware",
+        "by": "DuPont"
+      },
+      "weight_gsm": [
+        300,
+        1500
+      ],
+      "note": "A foamed chloroprene rubber between knit faces; Hugh Bradner used it for the wetsuit in 1952, and fashion took it in the 2010s."
+    },
+    {
+      "id": "microfibre-suede",
+      "name": "Microfibre suede",
+      "fibres": [
+        "polyester"
+      ],
+      "construction": "nonwoven",
+      "origin": {
+        "year": 1970,
+        "circa": false,
+        "place": "Japan",
+        "by": "Miyoshi Okamoto (Toray)"
+      },
+      "weight_gsm": [
+        200,
+        400
+      ],
+      "note": "A nonwoven of very fine polyester in polyurethane that feels like suede; car cabins use it for seats and wheels."
+    },
+    {
+      "id": "flashspun-polyethylene",
+      "name": "Flash-spun polyethylene",
+      "fibres": [
+        "uhmwpe"
+      ],
+      "construction": "nonwoven",
+      "origin": {
+        "year": 1967,
+        "circa": false,
+        "place": "United States",
+        "by": "DuPont (Tyvek)"
+      },
+      "weight_gsm": [
+        40,
+        110
+      ],
+      "note": "A paper-like sheet of flash-spun fibre; designers use it for jackets and bags that look like envelopes."
+    },
+    {
+      "id": "boiled-wool",
+      "name": "Boiled wool",
+      "fibres": [
+        "wool"
+      ],
+      "construction": "weft-knit",
+      "weight_gsm": [
+        300,
+        600
+      ],
+      "note": "A wool knit that heat, water and rubbing shrink into a dense, felt-like cloth that does not fray; Tyrolean walk jackets were made of it, and Japanese designers of the 1980s used it for sculpted coats."
+    },
+    {
+      "id": "cashmere-knit",
+      "name": "Cashmere knit",
+      "fibres": [
+        "cashmere"
+      ],
+      "construction": "weft-knit",
+      "weight_gsm": [
+        150,
+        400
+      ],
+      "note": "A fine knit of cashmere down, the luxury form of knitwear; the fibre came to Europe in Kashmir shawls, and plain cashmere jumpers became a sign of quiet wealth."
+    },
+    {
+      "id": "poly-cotton-twill",
+      "name": "Poly-cotton twill",
+      "fibres": [
+        "polyester",
+        "cotton"
+      ],
+      "construction": "woven-twill",
+      "origin": {
+        "year": 1968,
+        "circa": true,
+        "place": "Örnsköldsvik, Sweden",
+        "by": "Fjällräven (G-1000)"
+      },
+      "weight_gsm": [
+        250,
+        400
+      ],
+      "note": "A dense twill of about 65 per cent polyester and 35 per cent cotton that takes a wax finish; it was made for the Nordic field jacket and trouser."
+    },
+    {
+      "id": "velour",
+      "name": "Velour",
+      "fibres": [
+        "polyester"
+      ],
+      "construction": "weft-knit",
+      "weight_gsm": [
+        250,
+        450
+      ],
+      "note": "A soft knit with a cut pile. It covered the seats and door panels of many cars in the 1970s and 1980s."
+    },
+    {
+      "id": "recycled-polyester-knit",
+      "name": "Recycled polyester knit",
+      "fibres": [
+        "polyester"
+      ],
+      "construction": "weft-knit",
+      "origin": {
+        "year": 1993,
+        "place": "United States",
+        "by": "Fibre made from recycled plastic bottles"
+      },
+      "weight_gsm": [
+        150,
+        350
+      ],
+      "note": "A knit made of polyester fibre that is spun from used plastic bottles. Car makers use it for seats and door trim."
+    },
+    {
+      "id": "coutil",
+      "name": "Coutil",
+      "fibres": [
+        "cotton"
+      ],
+      "construction": "woven-twill",
+      "weight_gsm": [
+        200,
+        350
+      ],
+      "note": "A dense cotton twill, often in a herringbone weave, that resists the pull of the bones; the standard cloth of corset bodies."
+    },
+    {
+      "id": "nylon-tricot",
+      "name": "Nylon tricot",
+      "fibres": [
+        "nylon"
+      ],
+      "construction": "warp-knit",
+      "weight_gsm": [
+        40,
+        120
+      ],
+      "note": "A fine warp-knit nylon with a smooth face and a run-resistant structure; the cloth of slips, briefs and linings."
+    },
+    {
+      "id": "elastic-webbing",
+      "name": "Elastic webbing",
+      "fibres": [
+        "cotton",
+        "nylon",
+        "elastane"
+      ],
+      "construction": "woven-plain",
+      "origin": {
+        "year": 1820,
+        "circa": false,
+        "place": "London, England",
+        "by": "Thomas Hancock"
+      },
+      "weight_gsm": [
+        120,
+        300
+      ],
+      "note": "A narrow woven band with rubber or elastane core threads; it forms the waistband, the strap and the leg band. Thomas Hancock patented rubber elastic for garments in 1820."
+    },
+    {
+      "id": "nylon-webbing",
+      "name": "Nylon webbing",
+      "fibres": [
+        "nylon"
+      ],
+      "construction": "woven-twill",
+      "origin": {
+        "year": 1973,
+        "circa": false,
+        "place": "United Kingdom",
+        "by": "Ministry of Defence"
+      },
+      "weight_gsm": [
+        200,
+        420
+      ],
+      "note": "A narrow, tough nylon tape. A British army standard of 1973 made it the one-piece watch strap that slides under the watch."
+    }
+  ],
+  "materials": [
+    {
+      "id": "vegetable-tanned-leather",
+      "name": "Vegetable-tanned leather",
+      "family": "leather",
+      "origin": {
+        "year": -3500,
+        "circa": true,
+        "place": "Armenia (Areni-1 cave)"
+      },
+      "note": "Hide tanned with bark tannins; a cowhide shoe from the Areni-1 cave is about 5,500 years old. It darkens and takes a patina."
+    },
+    {
+      "id": "chrome-tanned-leather",
+      "name": "Chrome-tanned leather",
+      "family": "leather",
+      "origin": {
+        "year": 1858,
+        "circa": false,
+        "place": "Germany",
+        "by": "Friedrich Knapp"
+      },
+      "note": "Hide tanned with chromium salts in hours, not months; Augustus Schultz made the process commercial in 1884. Most leather now is chrome tanned."
+    },
+    {
+      "id": "calfskin",
+      "name": "Calfskin",
+      "family": "leather",
+      "note": "Fine, tight-grained leather from calves for dress shoes, gloves and small leather goods."
+    },
+    {
+      "id": "shell-cordovan",
+      "name": "Shell cordovan",
+      "family": "leather",
+      "origin": {
+        "year": 900,
+        "circa": true,
+        "place": "Córdoba"
+      },
+      "note": "Dense leather from the shell under the hide of a horse's rump; the cordwainers of Córdoba gave the trade its name."
+    },
+    {
+      "id": "suede",
+      "name": "Suede",
+      "family": "leather",
+      "origin": {
+        "year": 1800,
+        "circa": true,
+        "place": "Sweden"
+      },
+      "note": "Leather with the flesh side napped; the name comes from 'gants de Suède', Swedish gloves."
+    },
+    {
+      "id": "patent-leather",
+      "name": "Patent leather",
+      "family": "leather",
+      "origin": {
+        "year": 1818,
+        "circa": false,
+        "place": "Newark, New Jersey",
+        "by": "Seth Boyden"
+      },
+      "note": "Leather with a hard, high-gloss lacquer; the shoe of evening dress and the 1960s boot."
+    },
+    {
+      "id": "kidskin",
+      "name": "Kidskin",
+      "family": "leather",
+      "note": "Soft, thin goatskin for gloves, evening shoes and linings."
+    },
+    {
+      "id": "shearling",
+      "name": "Shearling",
+      "family": "leather",
+      "note": "Sheepskin with the wool left on; the bomber jacket, the boot and the coat lining."
+    },
+    {
+      "id": "exotic-skin",
+      "name": "Exotic skin",
+      "family": "leather",
+      "note": "Crocodile, alligator, ostrich and lizard skin; trade in most species is under CITES control since 1975."
+    },
+    {
+      "id": "goose-down",
+      "name": "Goose down",
+      "family": "fill",
+      "origin": {
+        "year": 1936,
+        "circa": false,
+        "place": "Seattle",
+        "by": "Eddie Bauer"
+      },
+      "note": "The under-plumage of geese, in quilted baffles; Eddie Bauer patented the quilted down jacket after a near-fatal fishing trip."
+    },
+    {
+      "id": "synthetic-insulation",
+      "name": "Synthetic insulation",
+      "family": "fill",
+      "origin": {
+        "year": 1979,
+        "circa": false,
+        "place": "St Paul, Minnesota",
+        "by": "3M (Thinsulate)"
+      },
+      "note": "Fine polyester fibre batting that keeps its warmth when wet; it replaced down in wet climates."
+    },
+    {
+      "id": "natural-rubber",
+      "name": "Natural rubber",
+      "family": "rubber",
+      "origin": {
+        "year": -1600,
+        "circa": true,
+        "place": "Mesoamerica"
+      },
+      "note": "Latex from the rubber tree; the Olmec made rubber balls. Raw rubber goes soft in heat and hard in cold."
+    },
+    {
+      "id": "vulcanised-rubber",
+      "name": "Vulcanised rubber",
+      "family": "rubber",
+      "origin": {
+        "year": 1839,
+        "circa": false,
+        "place": "Woburn, Massachusetts",
+        "by": "Charles Goodyear"
+      },
+      "note": "Rubber cured with sulphur so that it stays elastic; it made the galosh, the plimsoll and the sneaker sole."
+    },
+    {
+      "id": "crepe-rubber",
+      "name": "Crepe rubber",
+      "family": "rubber",
+      "origin": {
+        "year": 1920,
+        "circa": true,
+        "place": "Malaya"
+      },
+      "note": "Raw latex rolled into crinkled sheets for a soft, grippy sole; the sole of the desert boot and the creeper."
+    },
+    {
+      "id": "eva-foam",
+      "name": "EVA foam",
+      "family": "polymer",
+      "origin": {
+        "year": 1975,
+        "circa": true,
+        "place": "United States"
+      },
+      "note": "A light foam of ethylene-vinyl acetate for midsoles; it made the cushioned running shoe."
+    },
+    {
+      "id": "pvc-leathercloth",
+      "name": "PVC leathercloth",
+      "family": "polymer",
+      "origin": {
+        "year": 1926,
+        "circa": false,
+        "place": "Akron, Ohio",
+        "by": "Waldo Semon"
+      },
+      "note": "Plasticised PVC on a knit or woven back; the upholstery of the post-war car and the cheap handbag."
+    },
+    {
+      "id": "celluloid",
+      "name": "Celluloid",
+      "family": "polymer",
+      "origin": {
+        "year": 1870,
+        "circa": false,
+        "place": "Newark, New Jersey",
+        "by": "John Wesley Hyatt"
+      },
+      "note": "The first thermoplastic, of nitrocellulose and camphor; it replaced ivory and tortoiseshell in combs, collars and frames."
+    },
+    {
+      "id": "bakelite",
+      "name": "Bakelite",
+      "family": "polymer",
+      "origin": {
+        "year": 1907,
+        "circa": false,
+        "place": "Yonkers, New York",
+        "by": "Leo Baekeland"
+      },
+      "note": "The first fully synthetic plastic, a phenol-formaldehyde resin; cast Bakelite made the colourful bangles of the 1930s."
+    },
+    {
+      "id": "acetate-sheet",
+      "name": "Cellulose acetate sheet",
+      "family": "polymer",
+      "origin": {
+        "year": 1940,
+        "circa": true,
+        "place": "Europe"
+      },
+      "note": "Plastic sheet cut and polished into eyeglass frames, with layers of colour and tortoiseshell patterns."
+    },
+    {
+      "id": "acrylic-glass",
+      "name": "Acrylic glass",
+      "family": "polymer",
+      "origin": {
+        "year": 1933,
+        "circa": false,
+        "place": "Darmstadt",
+        "by": "Otto Röhm"
+      },
+      "note": "A clear, light plastic; watches used it as a crystal that does not shatter, and handbags and jewellery used it in colour."
+    },
+    {
+      "id": "abs-plastic",
+      "name": "ABS plastic",
+      "family": "polymer",
+      "origin": {
+        "year": 1948,
+        "circa": true,
+        "place": "United States"
+      },
+      "note": "A tough, mouldable plastic; one-piece injection-moulded watch cases used it from 1983."
+    },
+    {
+      "id": "fibreglass",
+      "name": "Glass-reinforced plastic",
+      "family": "composite",
+      "origin": {
+        "year": 1936,
+        "circa": true,
+        "place": "Newark, Ohio",
+        "by": "Games Slayter"
+      },
+      "note": "Glass fibre in a resin; car bodies used it from 1953 for small series with curved panels."
+    },
+    {
+      "id": "carbon-fibre",
+      "name": "Carbon fibre",
+      "family": "composite",
+      "origin": {
+        "year": 1963,
+        "circa": false,
+        "place": "Farnborough, England",
+        "by": "Royal Aircraft Establishment"
+      },
+      "note": "Carbon fibre in epoxy; a race car chassis used it in 1981, and watch cases and car trim use the woven look."
+    },
+    {
+      "id": "yellow-gold",
+      "name": "Yellow gold",
+      "family": "metal",
+      "origin": {
+        "year": -4500,
+        "circa": true,
+        "place": "Varna necropolis, Bulgaria"
+      },
+      "note": "Gold in carat alloys, from 9 to 22 carat; the base metal of jewellery and the dress watch case."
+    },
+    {
+      "id": "rose-gold",
+      "name": "Rose gold",
+      "family": "metal",
+      "origin": {
+        "year": 1800,
+        "circa": true,
+        "place": "Russia"
+      },
+      "note": "Gold with copper for a pink tone, called 'Russian gold' in the 19th century; it came back in the 1940s and the 2010s."
+    },
+    {
+      "id": "white-gold",
+      "name": "White gold",
+      "family": "metal",
+      "origin": {
+        "year": 1912,
+        "circa": true,
+        "place": "Germany"
+      },
+      "note": "Gold with palladium or nickel, often plated with rhodium; a cheaper white metal than platinum after 1920."
+    },
+    {
+      "id": "platinum",
+      "name": "Platinum",
+      "family": "metal",
+      "origin": {
+        "year": 1900,
+        "circa": true,
+        "place": "Paris"
+      },
+      "note": "A strong white metal that holds a thin setting; jewellers used it from about 1900 for lace-like settings of diamonds."
+    },
+    {
+      "id": "sterling-silver",
+      "name": "Sterling silver",
+      "family": "metal",
+      "origin": {
+        "year": 1300,
+        "circa": true,
+        "place": "England"
+      },
+      "note": "Silver of 925 parts in 1,000; England fixed the standard and the hallmark under Edward I in 1300."
+    },
+    {
+      "id": "pinchbeck",
+      "name": "Pinchbeck",
+      "family": "metal",
+      "origin": {
+        "year": 1720,
+        "circa": true,
+        "place": "London",
+        "by": "Christopher Pinchbeck"
+      },
+      "note": "A brass of copper and zinc that looks like gold; Georgian watch cases and jewellery used it."
+    },
+    {
+      "id": "brass",
+      "name": "Brass",
+      "family": "metal",
+      "origin": {
+        "year": -2500,
+        "circa": true,
+        "place": "Near East"
+      },
+      "note": "Copper and zinc; buttons, buckles, eyelets, costume jewellery and car fittings."
+    },
+    {
+      "id": "stainless-steel",
+      "name": "Stainless steel",
+      "family": "metal",
+      "origin": {
+        "year": 1913,
+        "circa": false,
+        "place": "Sheffield",
+        "by": "Harry Brearley"
+      },
+      "note": "Steel with chromium that does not rust; the metal of the sports watch case and bracelet."
+    },
+    {
+      "id": "titanium",
+      "name": "Titanium",
+      "family": "metal",
+      "origin": {
+        "year": 1970,
+        "circa": true,
+        "place": "Japan",
+        "by": "Citizen"
+      },
+      "note": "A light, strong metal; the first titanium watch case came in 1970, and jewellery and eyewear followed."
+    },
+    {
+      "id": "chrome-plate",
+      "name": "Chrome plate",
+      "family": "metal",
+      "origin": {
+        "year": 1924,
+        "circa": true,
+        "place": "New York",
+        "by": "Colin Fink"
+      },
+      "note": "A thin bright layer of chromium on steel or brass; it made the brightwork of the car from the late 1920s."
+    },
+    {
+      "id": "aluminium",
+      "name": "Aluminium",
+      "family": "metal",
+      "origin": {
+        "year": 1886,
+        "circa": false,
+        "place": "France and the United States",
+        "by": "Paul Héroult and Charles Martin Hall"
+      },
+      "note": "A light metal, cheap after the electrolytic process of 1886; car bodies, trunks and watch cases use it."
+    },
+    {
+      "id": "pressed-steel",
+      "name": "Pressed steel",
+      "family": "metal",
+      "origin": {
+        "year": 1914,
+        "circa": true,
+        "place": "Philadelphia",
+        "by": "Edward Budd"
+      },
+      "note": "Sheet steel pressed into body panels; the all-steel body replaced wood frames from the 1910s."
+    },
+    {
+      "id": "diamond",
+      "name": "Diamond",
+      "family": "gem",
+      "origin": {
+        "year": -400,
+        "circa": true,
+        "place": "India"
+      },
+      "note": "The hardest gem; Marcel Tolkowsky set the proportions of the round brilliant cut in 1919. The first diamond trade is in India, about 400 BC."
+    },
+    {
+      "id": "coloured-gemstone",
+      "name": "Coloured gemstone",
+      "family": "gem",
+      "note": "Ruby, sapphire, emerald and the semi-precious stones: amethyst, citrine, turquoise, coral, onyx and others."
+    },
+    {
+      "id": "natural-pearl",
+      "name": "Natural pearl",
+      "family": "gem",
+      "origin": {
+        "year": -5500,
+        "circa": true,
+        "place": "Umm al-Quwain, United Arab Emirates"
+      },
+      "note": "A pearl that grew in an oyster with no help; the most costly jewel of the court era."
+    },
+    {
+      "id": "cultured-pearl",
+      "name": "Cultured pearl",
+      "family": "gem",
+      "origin": {
+        "year": 1893,
+        "circa": false,
+        "place": "Mie, Japan",
+        "by": "Mikimoto Kōkichi"
+      },
+      "note": "A pearl grown around a nucleus that a person put in the oyster; it made the pearl necklace a jewel of the middle class."
+    },
+    {
+      "id": "paste",
+      "name": "Paste",
+      "family": "mineral",
+      "origin": {
+        "year": 1724,
+        "circa": true,
+        "place": "Paris",
+        "by": "Georges Frédéric Strass"
+      },
+      "note": "Lead glass cut and foil-backed to look like diamond; Georgian paste was a jewel of its own, not only a copy."
+    },
+    {
+      "id": "jet",
+      "name": "Jet",
+      "family": "mineral",
+      "origin": {
+        "year": 1861,
+        "circa": true,
+        "place": "Whitby"
+      },
+      "note": "A black fossil wood that polishes to a deep shine; Queen Victoria's mourning after 1861 made it the jewel of grief."
+    },
+    {
+      "id": "vitreous-enamel",
+      "name": "Vitreous enamel",
+      "family": "mineral",
+      "origin": {
+        "year": -1200,
+        "circa": true,
+        "place": "Cyprus"
+      },
+      "note": "Glass fused onto metal; the dial of the fine watch and the colour of Art Nouveau and Art Deco jewels."
+    },
+    {
+      "id": "synthetic-sapphire",
+      "name": "Synthetic sapphire",
+      "family": "mineral",
+      "origin": {
+        "year": 1902,
+        "circa": false,
+        "place": "Paris",
+        "by": "Auguste Verneuil"
+      },
+      "note": "Corundum grown by flame fusion; watch crystals use it because it scratches only under diamond."
+    },
+    {
+      "id": "technical-ceramic",
+      "name": "Technical ceramic",
+      "family": "mineral",
+      "origin": {
+        "year": 1986,
+        "circa": true,
+        "place": "Lengnau, Switzerland",
+        "by": "Rado"
+      },
+      "note": "Zirconium oxide sintered hard and polished; it does not scratch and does not fade, and watch cases and bracelets use it."
+    },
+    {
+      "id": "tortoiseshell",
+      "name": "Tortoiseshell",
+      "family": "organic",
+      "origin": {
+        "year": -1500,
+        "circa": true,
+        "place": "Mediterranean"
+      },
+      "note": "The shell of the hawksbill turtle for combs, frames and boxes; CITES ended the trade, and acetate copies the pattern."
+    },
+    {
+      "id": "toquilla-straw",
+      "name": "Toquilla straw",
+      "family": "organic",
+      "origin": {
+        "year": 1630,
+        "circa": true,
+        "place": "Manabi coast, Ecuador"
+      },
+      "note": "Palm-leaf straw from Ecuador, hand-woven into the 'Panama' hat."
+    },
+    {
+      "id": "burr-walnut",
+      "name": "Burr walnut",
+      "family": "wood",
+      "note": "The figured veneer of a walnut burr; the dashboard and door cappings of the luxury car cabin."
+    },
+    {
+      "id": "feather",
+      "name": "Feather",
+      "family": "organic",
+      "note": "Ostrich, egret and other plumes that trimmed the hat; the Victorian trade in plumes and whole birds led to the first bird-protection laws."
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "family": "metal",
+      "origin": {
+        "year": -8000,
+        "circa": true,
+        "place": "Anatolia"
+      },
+      "note": "The first metal that people worked; it gave the rivet at the pocket corner of the 1873 work trouser."
+    },
+    {
+      "id": "cut-steel",
+      "name": "Cut steel",
+      "family": "metal",
+      "origin": {
+        "year": 1700,
+        "circa": true,
+        "place": "Woodstock, England"
+      },
+      "note": "Small steel studs, faceted and riveted to a plate, that catch the light like diamonds; used in jewellery from the 18th century to the 1930s."
+    },
+    {
+      "id": "horn",
+      "name": "Horn",
+      "family": "organic",
+      "note": "Animal horn, heated and pressed or carved; it takes a translucent, amber-like colour and was a main material of Art Nouveau combs and pendants."
+    },
+    {
+      "id": "human-hair",
+      "name": "Human hair",
+      "family": "organic",
+      "origin": {
+        "year": 1650,
+        "circa": true,
+        "place": "England"
+      },
+      "note": "Hair of a loved person, woven or set under glass in mourning and sentimental jewels of the 19th century. Mourning rings with hair are known from the 17th century."
+    },
+    {
+      "id": "conch-shell",
+      "name": "Conch shell",
+      "family": "organic",
+      "origin": {
+        "year": 1500,
+        "circa": true,
+        "place": "Italy"
+      },
+      "note": "The pink and white layers of the conch shell, carved as a cameo; popular in Victorian jewellery. Italian carvers cut shell cameos from the 16th century."
+    },
+    {
+      "id": "glass-pearl",
+      "name": "Glass pearl",
+      "family": "mineral",
+      "origin": {
+        "year": 1656,
+        "circa": true,
+        "place": "Paris, France",
+        "by": "Jaquin"
+      },
+      "note": "A glass bead coated with a pearl-like layer; the base of the long ropes of costume jewellery. By tradition, the rosary maker Jaquin made the first one in 1656."
+    },
+    {
+      "id": "onyx",
+      "name": "Onyx",
+      "family": "mineral",
+      "note": "A banded black or white chalcedony; the black onyx band gave the hard contrast of Art Deco jewellery."
+    },
+    {
+      "id": "rock-crystal",
+      "name": "Rock crystal",
+      "family": "gem",
+      "note": "Clear quartz; it is cut, carved and engraved as a clear stone in jewels of many periods."
+    },
+    {
+      "id": "ash-timber",
+      "name": "Ash timber",
+      "family": "wood",
+      "note": "Pale, straight-grained hardwood that bends well after steaming. Coachbuilders and early car makers cut body frames from it."
+    },
+    {
+      "id": "nickel-plate",
+      "name": "Nickel plate",
+      "family": "metal",
+      "origin": {
+        "year": 1843,
+        "circa": true,
+        "place": "England",
+        "by": "Elkington, Birmingham"
+      },
+      "note": "A thin layer of nickel on steel or brass. It gives a warm, slightly yellow shine and was the bright finish of cars before chrome."
+    },
+    {
+      "id": "polycarbonate",
+      "name": "Polycarbonate",
+      "family": "polymer",
+      "origin": {
+        "year": 1953,
+        "place": "Germany",
+        "by": "Hermann Schnell"
+      },
+      "note": "A clear, tough plastic. It replaced glass in lamp lenses and became a body panel material when moulded in large parts."
+    },
+    {
+      "id": "polyurethane-leatherette",
+      "name": "Polyurethane leatherette",
+      "family": "polymer",
+      "origin": {
+        "year": 1963,
+        "circa": false,
+        "place": "Wilmington, Delaware, USA",
+        "by": "DuPont"
+      },
+      "note": "A fabric with a polyurethane skin that is embossed to look like leather. Car makers use it for seats and trim in place of hide. DuPont launched the polyurethane leather substitute Corfam in 1963."
+    },
+    {
+      "id": "whalebone",
+      "name": "Whalebone (baleen)",
+      "family": "organic",
+      "origin": {
+        "year": 1550,
+        "circa": true,
+        "place": "France and Spain"
+      },
+      "note": "Plates of baleen from whales; thin strips of it stiffened stays and corsets until spring steel and plastic replaced it."
+    },
+    {
+      "id": "spring-steel",
+      "name": "Spring steel",
+      "family": "metal",
+      "origin": {
+        "year": 1400,
+        "circa": true,
+        "place": "Europe"
+      },
+      "note": "Tempered steel in thin flat strips; it gave corsets a bone that bends and returns, and it made the front busk. Steel mainsprings of clocks are known from the 15th century."
+    },
+    {
+      "id": "blued-steel",
+      "name": "Blued steel",
+      "family": "metal",
+      "note": "Steel heated until a thin blue oxide forms on it; watchmakers use it for screws and hands. The blue is a heat colour, not a dye."
+    },
+    {
+      "id": "gold-filled",
+      "name": "Gold-filled metal",
+      "family": "metal",
+      "note": "A layer of gold alloy bonded to a base metal such as brass; the layer is much thicker than gold plate. Cheap pocket watch cases used it."
+    },
+    {
+      "id": "quartz-crystal",
+      "name": "Quartz crystal",
+      "family": "mineral",
+      "origin": {
+        "year": 1927,
+        "circa": false,
+        "place": "New York (Bell Telephone Laboratories)",
+        "by": "Warren Marrison"
+      },
+      "note": "A slice of quartz that vibrates at a fixed rate when a current passes through it. It keeps the time in a quartz clock or watch."
+    },
+    {
+      "id": "fluoroelastomer",
+      "name": "Fluoroelastomer",
+      "family": "rubber",
+      "origin": {
+        "year": 1957,
+        "circa": false,
+        "place": "Wilmington, Delaware, USA",
+        "by": "DuPont"
+      },
+      "note": "A soft synthetic rubber that resists sweat, oil and sunlight. Smartwatch sport bands use it. DuPont launched the fluoroelastomer Viton in 1957."
+    },
+    {
+      "id": "luminous-paint",
+      "name": "Luminous paint",
+      "family": "mineral",
+      "origin": {
+        "year": 1914,
+        "circa": false,
+        "place": "United States",
+        "by": "Sabin von Sochocky"
+      },
+      "note": "Paint that glows in the dark. Radium salts gave the glow until the 1970s, then tritium, and from the middle 1990s strontium aluminate."
+    }
+  ],
+  "finishes": [
+    {
+      "id": "indigo-dyed",
+      "name": "Indigo-dyed",
+      "families": [
+        "textile",
+        "leather"
+      ],
+      "origin": {
+        "year": -4000,
+        "circa": true,
+        "place": "Peru (Huaca Prieta) and India"
+      },
+      "note": "A blue from the indigo plant; it sits on the surface of the yarn and fades with wear, the colour of denim."
+    },
+    {
+      "id": "synthetic-dyed",
+      "name": "Aniline-dyed",
+      "families": [
+        "textile",
+        "leather"
+      ],
+      "origin": {
+        "year": 1856,
+        "circa": false,
+        "place": "London",
+        "by": "William Henry Perkin"
+      },
+      "note": "Coal-tar dyes from Perkin's mauveine; they gave the strong violets, magentas and greens of the 1860s."
+    },
+    {
+      "id": "mercerised",
+      "name": "Mercerised",
+      "families": [
+        "textile"
+      ],
+      "origin": {
+        "year": 1844,
+        "circa": false,
+        "place": "Lancashire",
+        "by": "John Mercer"
+      },
+      "note": "Cotton treated with caustic soda; under tension (Horace Lowe, 1890) it takes a silk-like lustre and a deeper dye."
+    },
+    {
+      "id": "sanforised",
+      "name": "Sanforised",
+      "families": [
+        "textile"
+      ],
+      "origin": {
+        "year": 1930,
+        "circa": false,
+        "place": "Troy, New York",
+        "by": "Sanford Cluett"
+      },
+      "note": "A cloth shrunk in the mill so that a garment keeps its size after a wash; it fixed the size of jeans and shirts."
+    },
+    {
+      "id": "napped",
+      "name": "Napped",
+      "families": [
+        "textile"
+      ],
+      "origin": {
+        "year": 50,
+        "circa": true,
+        "place": "Roman Empire"
+      },
+      "note": "Fibres raised from the surface with teasels or wire; flannel, fleece and the face of suede."
+    },
+    {
+      "id": "fulled",
+      "name": "Fulled",
+      "families": [
+        "textile"
+      ],
+      "note": "Wool cloth beaten and wetted until the fibres mat and the cloth shrinks and thickens; loden and melton."
+    },
+    {
+      "id": "wax-proofed",
+      "name": "Wax-proofed",
+      "families": [
+        "textile",
+        "leather"
+      ],
+      "note": "A paraffin or beeswax dressing that sheds water and darkens with wear; it needs a new dressing each year."
+    },
+    {
+      "id": "water-repellent",
+      "name": "Water-repellent coated",
+      "families": [
+        "textile"
+      ],
+      "origin": {
+        "year": 1956,
+        "circa": true,
+        "place": "St Paul, Minnesota",
+        "by": "3M (Scotchgard)"
+      },
+      "note": "A thin chemical finish that beads water on the face of a shell or a coat; the industry now moves to fluorine-free types."
+    },
+    {
+      "id": "stonewashed",
+      "name": "Stonewashed",
+      "families": [
+        "textile"
+      ],
+      "origin": {
+        "year": 1981,
+        "circa": true,
+        "place": "Italy"
+      },
+      "note": "Garments tumbled with pumice for a soft hand and a pale, uneven indigo; the denim of the 1980s."
+    },
+    {
+      "id": "block-printed",
+      "name": "Block-printed",
+      "families": [
+        "textile"
+      ],
+      "origin": {
+        "year": -170,
+        "circa": true,
+        "place": "Changsha, China"
+      },
+      "note": "Colour pressed on with carved wood blocks, one block for each colour; the method of Indian calico and of the Arts and Crafts."
+    },
+    {
+      "id": "roller-printed",
+      "name": "Roller-printed",
+      "families": [
+        "textile"
+      ],
+      "origin": {
+        "year": 1783,
+        "circa": false,
+        "place": "Lancashire",
+        "by": "Thomas Bell"
+      },
+      "note": "Colour printed from engraved copper rollers at speed; it made printed cotton a cheap fashion."
+    },
+    {
+      "id": "screen-printed",
+      "name": "Screen-printed",
+      "families": [
+        "textile",
+        "polymer"
+      ],
+      "origin": {
+        "year": 1907,
+        "circa": false,
+        "place": "Manchester, England",
+        "by": "Samuel Simon"
+      },
+      "note": "Colour pushed through a stencil on a mesh; the method of the printed T-shirt and the large silk-scarf design. Samuel Simon patented the method in 1907."
+    },
+    {
+      "id": "embroidered",
+      "name": "Embroidered",
+      "families": [
+        "textile",
+        "leather"
+      ],
+      "origin": {
+        "year": -500,
+        "circa": true,
+        "place": "China"
+      },
+      "note": "Pattern stitched into the cloth with a needle, in silk, wool, metal thread or beads."
+    },
+    {
+      "id": "beaded",
+      "name": "Beaded and sequinned",
+      "families": [
+        "textile"
+      ],
+      "origin": {
+        "year": -2500,
+        "circa": true,
+        "place": "Giza, Egypt"
+      },
+      "note": "Beads, sequins and paillettes sewn onto the cloth; the evening dress of the 1920s and of red-carpet couture."
+    },
+    {
+      "id": "quilted",
+      "name": "Quilted",
+      "families": [
+        "textile",
+        "leather"
+      ],
+      "origin": {
+        "year": -3400,
+        "circa": true,
+        "place": "Abydos, Egypt"
+      },
+      "note": "Two layers stitched through a fill in a grid of lines or channels; the down jacket and the chain-strap handbag. An ivory figure of a king in a quilted cloak is from about 3400 BC."
+    },
+    {
+      "id": "heat-set-pleated",
+      "name": "Heat-set pleated",
+      "families": [
+        "textile"
+      ],
+      "origin": {
+        "year": 1907,
+        "circa": false,
+        "place": "Venice",
+        "by": "Mariano Fortuny"
+      },
+      "note": "Pleats fixed with heat in silk or polyester; Fortuny's Delphos gown and the pleated garments of the 1990s."
+    },
+    {
+      "id": "glazed",
+      "name": "Glazed",
+      "families": [
+        "textile"
+      ],
+      "note": "Cloth pressed hot with starch or resin for a shine; the finish of chintz."
+    },
+    {
+      "id": "burnished",
+      "name": "Burnished",
+      "families": [
+        "leather"
+      ],
+      "note": "Leather rubbed with wax and heat until the toe and heel go dark and glossy; the finish of the dress shoe."
+    },
+    {
+      "id": "patent-lacquered",
+      "name": "Patent-lacquered",
+      "families": [
+        "leather",
+        "polymer"
+      ],
+      "origin": {
+        "year": 1818,
+        "circa": false,
+        "place": "Newark, New Jersey, USA",
+        "by": "Seth Boyden"
+      },
+      "note": "A hard lacquer at 80 GU and more; patent shoes, belts and bags. Seth Boyden made the first patent leather in 1818."
+    },
+    {
+      "id": "distressed",
+      "name": "Distressed",
+      "families": [
+        "textile",
+        "leather"
+      ],
+      "note": "Wear made on purpose: abrasion, rips, fades and creases."
+    },
+    {
+      "id": "polished",
+      "name": "Polished",
+      "families": [
+        "metal",
+        "gem",
+        "mineral",
+        "polymer",
+        "wood"
+      ],
+      "note": "A mirror surface at 80 GU and more on metal, gem, plastic or lacquered wood."
+    },
+    {
+      "id": "brushed",
+      "name": "Brushed",
+      "families": [
+        "metal"
+      ],
+      "note": "Fine parallel lines from an abrasive that give a satin sheen; the case flank of a sports watch."
+    },
+    {
+      "id": "guilloche",
+      "name": "Guilloché",
+      "families": [
+        "metal"
+      ],
+      "origin": {
+        "year": 1786,
+        "circa": true,
+        "place": "Paris",
+        "by": "Abraham-Louis Breguet"
+      },
+      "note": "A fine engine-turned pattern cut on a rose engine; the dial of the classical watch."
+    },
+    {
+      "id": "engraved",
+      "name": "Engraved",
+      "families": [
+        "metal"
+      ],
+      "note": "Lines cut by hand with a graver; the case back of a pocket watch and the shank of a ring."
+    },
+    {
+      "id": "enamelled",
+      "name": "Enamelled",
+      "families": [
+        "metal"
+      ],
+      "origin": {
+        "year": -1200,
+        "circa": true,
+        "place": "Cyprus"
+      },
+      "note": "Glass fused into or onto metal: champlevé, cloisonné, plique-à-jour or painted."
+    },
+    {
+      "id": "gilded",
+      "name": "Gilded",
+      "families": [
+        "metal",
+        "leather",
+        "wood"
+      ],
+      "origin": {
+        "year": -2600,
+        "circa": true,
+        "place": "Egypt"
+      },
+      "note": "A thin layer of gold leaf or electroplate on base metal, leather edges or wood."
+    },
+    {
+      "id": "rhodium-plated",
+      "name": "Rhodium-plated",
+      "families": [
+        "metal"
+      ],
+      "note": "A thin bright white layer on white gold or silver that does not tarnish."
+    },
+    {
+      "id": "pvd-coated",
+      "name": "PVD-coated",
+      "families": [
+        "metal"
+      ],
+      "origin": {
+        "year": 1985,
+        "circa": true,
+        "place": "Switzerland"
+      },
+      "note": "A thin hard film by physical vapour deposition, black or coloured, on steel cases and bracelets."
+    },
+    {
+      "id": "faceted",
+      "name": "Faceted",
+      "families": [
+        "gem",
+        "mineral"
+      ],
+      "note": "Flat facets cut to return light; the round brilliant cut has 57 or 58 facets."
+    },
+    {
+      "id": "cabochon",
+      "name": "Cabochon",
+      "families": [
+        "gem",
+        "mineral",
+        "polymer"
+      ],
+      "note": "A smooth domed stone with no facets; the oldest gem cut and the crown of a Cartier watch."
+    },
+    {
+      "id": "gloss-paint",
+      "name": "Gloss paint",
+      "families": [
+        "metal",
+        "composite"
+      ],
+      "note": "Body paint at 80 GU and more, solid or two-tone; the finish of the car body."
+    },
+    {
+      "id": "metallic-paint",
+      "name": "Metallic paint",
+      "families": [
+        "metal",
+        "composite"
+      ],
+      "note": "Body paint with aluminium flake that sparkles in the light."
+    },
+    {
+      "id": "matte",
+      "name": "Matte",
+      "families": [
+        "textile",
+        "leather",
+        "metal",
+        "polymer",
+        "composite"
+      ],
+      "note": "A flat surface under 10 GU: suede, raw cloth, bead-blasted metal or matte paint."
+    },
+    {
+      "id": "woven-leather",
+      "name": "Woven leather",
+      "families": [
+        "leather"
+      ],
+      "origin": {
+        "year": 1975,
+        "circa": true,
+        "place": "Vicenza"
+      },
+      "note": "Thin strips of leather woven by hand into a plain weave; the 'intrecciato' of Italian leather goods."
+    },
+    {
+      "id": "tie-dyed",
+      "name": "Tie-dyed",
+      "families": [
+        "textile"
+      ],
+      "origin": {
+        "year": 600,
+        "circa": true,
+        "place": "India and Peru"
+      },
+      "note": "Cloth that is tied, folded or bound before the dye bath, so that the bound parts resist the dye; Japanese shibori is an old form, and American dress took it up in the 1960s."
+    },
+    {
+      "id": "studded",
+      "name": "Studded",
+      "families": [
+        "textile",
+        "leather"
+      ],
+      "note": "Metal studs or spikes fixed through cloth or leather; the biker jacket carried them, and punk dress made them a mark of the style."
+    },
+    {
+      "id": "coated",
+      "name": "Coated",
+      "families": [
+        "textile",
+        "leather"
+      ],
+      "origin": {
+        "year": 1854,
+        "circa": false,
+        "place": "Paris",
+        "by": "Louis Vuitton"
+      },
+      "note": "A cloth or hide covered in lacquer or resin so that it sheds rain and shows a printed pattern; the grey lacquered canvas of the first flat-topped trunk is an early case."
+    },
+    {
+      "id": "seam-taped",
+      "name": "Seam-taped",
+      "families": [
+        "textile"
+      ],
+      "note": "A heat-sealed strip over each needle line, so that rain cannot pass the stitch holes; the mark of a membrane shell."
+    },
+    {
+      "id": "garment-dyed",
+      "name": "Garment-dyed",
+      "families": [
+        "textile"
+      ],
+      "note": "A garment that is dyed after it is sewn, in a drum; it gives one colour over the cloth, the thread and the tape."
+    },
+    {
+      "id": "foiled",
+      "name": "Foiled",
+      "families": [
+        "gem",
+        "mineral"
+      ],
+      "note": "A thin metal foil behind a stone or a paste to raise its colour and brilliance; common in Georgian jewellery."
+    },
+    {
+      "id": "pierced",
+      "name": "Pierced",
+      "families": [
+        "metal"
+      ],
+      "note": "Openwork cut with a saw; the pierced frame lets light pass and lowers the weight of the metal."
+    },
+    {
+      "id": "carved",
+      "name": "Carved",
+      "families": [
+        "organic",
+        "gem",
+        "mineral",
+        "polymer",
+        "wood"
+      ],
+      "note": "Material cut away by hand or by tool to make a relief, a cameo or a figure."
+    },
+    {
+      "id": "plique-a-jour",
+      "name": "Plique-a-jour",
+      "families": [
+        "metal"
+      ],
+      "origin": {
+        "year": 1400,
+        "circa": true,
+        "place": "France and Italy"
+      },
+      "note": "Enamel set in open cells with no backing, so that light passes through like stained glass."
+    },
+    {
+      "id": "hammered",
+      "name": "Hammered",
+      "families": [
+        "metal"
+      ],
+      "note": "Metal marked with hammer blows; the dents show the hand of the maker and break the light."
+    },
+    {
+      "id": "textured",
+      "name": "Textured",
+      "families": [
+        "metal"
+      ],
+      "note": "A rough, deep surface made by the torch, the cast or the tool, as on rock or bark."
+    },
+    {
+      "id": "oxidised",
+      "name": "Oxidised",
+      "families": [
+        "metal"
+      ],
+      "note": "A dark film made on silver or copper by a chemical bath; it sits in the recesses and shows the relief."
+    },
+    {
+      "id": "milgrained",
+      "name": "Milgrained",
+      "families": [
+        "metal"
+      ],
+      "note": "A row of tiny beads cut along an edge of metal; it gives a fine, lace-like border."
+    },
+    {
+      "id": "electroplated",
+      "name": "Electroplated",
+      "families": [
+        "metal"
+      ],
+      "origin": {
+        "year": 1840,
+        "circa": false,
+        "place": "Birmingham, England",
+        "by": "George Richards Elkington"
+      },
+      "note": "A thin layer of gold, silver or chrome put on a base metal by an electric bath."
+    },
+    {
+      "id": "anodised",
+      "name": "Anodised",
+      "families": [
+        "metal"
+      ],
+      "origin": {
+        "year": 1923,
+        "circa": false,
+        "place": "United Kingdom",
+        "by": "Bengough and Stuart"
+      },
+      "note": "An oxide layer grown on aluminium in an acid bath. It takes dye and gives a hard, matt, coloured surface."
+    },
+    {
+      "id": "moulded",
+      "name": "Moulded",
+      "families": [
+        "rubber",
+        "polymer",
+        "composite"
+      ],
+      "note": "Shaped in a mould under heat or pressure, so that the part leaves the mould with its final form."
+    }
+  ],
+  "objects": [
+    {
+      "id": "suit-jacket",
+      "branch": "costume",
+      "name": "Suit jacket"
+    },
+    {
+      "id": "trousers",
+      "branch": "costume",
+      "name": "Trousers"
+    },
+    {
+      "id": "waistcoat",
+      "branch": "costume",
+      "name": "Waistcoat"
+    },
+    {
+      "id": "shirt",
+      "branch": "costume",
+      "name": "Shirt"
+    },
+    {
+      "id": "blouse",
+      "branch": "costume",
+      "name": "Blouse"
+    },
+    {
+      "id": "dress",
+      "branch": "costume",
+      "name": "Day dress"
+    },
+    {
+      "id": "evening-gown",
+      "branch": "costume",
+      "name": "Evening gown"
+    },
+    {
+      "id": "skirt",
+      "branch": "costume",
+      "name": "Skirt"
+    },
+    {
+      "id": "overcoat",
+      "branch": "costume",
+      "name": "Overcoat"
+    },
+    {
+      "id": "knit-jumper",
+      "branch": "costume",
+      "name": "Jumper or cardigan"
+    },
+    {
+      "id": "t-shirt",
+      "branch": "costume",
+      "name": "T-shirt"
+    },
+    {
+      "id": "hoodie",
+      "branch": "costume",
+      "name": "Hooded sweatshirt"
+    },
+    {
+      "id": "jeans",
+      "branch": "costume",
+      "name": "Jeans"
+    },
+    {
+      "id": "shell-jacket",
+      "branch": "outdoor",
+      "name": "Shell jacket"
+    },
+    {
+      "id": "parka",
+      "branch": "outdoor",
+      "name": "Parka"
+    },
+    {
+      "id": "anorak",
+      "branch": "outdoor",
+      "name": "Anorak"
+    },
+    {
+      "id": "field-jacket",
+      "branch": "outdoor",
+      "name": "Field jacket"
+    },
+    {
+      "id": "trench-coat",
+      "branch": "outdoor",
+      "name": "Trench coat"
+    },
+    {
+      "id": "waxed-jacket",
+      "branch": "outdoor",
+      "name": "Waxed jacket"
+    },
+    {
+      "id": "down-jacket",
+      "branch": "outdoor",
+      "name": "Down jacket"
+    },
+    {
+      "id": "fleece-jacket",
+      "branch": "outdoor",
+      "name": "Fleece jacket"
+    },
+    {
+      "id": "chore-coat",
+      "branch": "outdoor",
+      "name": "Chore coat"
+    },
+    {
+      "id": "sporting-jacket",
+      "branch": "outdoor",
+      "name": "Sporting jacket"
+    },
+    {
+      "id": "cargo-trousers",
+      "branch": "outdoor",
+      "name": "Cargo or field trousers"
+    },
+    {
+      "id": "base-layer",
+      "branch": "outdoor",
+      "name": "Base layer"
+    },
+    {
+      "id": "gilet",
+      "branch": "outdoor",
+      "name": "Gilet"
+    },
+    {
+      "id": "work-overalls",
+      "branch": "outdoor",
+      "name": "Overalls and bib"
+    },
+    {
+      "id": "stays",
+      "branch": "underwear",
+      "name": "Stays"
+    },
+    {
+      "id": "corset",
+      "branch": "underwear",
+      "name": "Corset"
+    },
+    {
+      "id": "brassiere",
+      "branch": "underwear",
+      "name": "Brassiere"
+    },
+    {
+      "id": "girdle",
+      "branch": "underwear",
+      "name": "Girdle"
+    },
+    {
+      "id": "briefs",
+      "branch": "underwear",
+      "name": "Briefs"
+    },
+    {
+      "id": "boxer-shorts",
+      "branch": "underwear",
+      "name": "Boxer shorts"
+    },
+    {
+      "id": "slip",
+      "branch": "underwear",
+      "name": "Slip or chemise"
+    },
+    {
+      "id": "stockings",
+      "branch": "underwear",
+      "name": "Stockings or tights"
+    },
+    {
+      "id": "suspender-belt",
+      "branch": "underwear",
+      "name": "Suspender belt"
+    },
+    {
+      "id": "bodysuit",
+      "branch": "underwear",
+      "name": "Bodysuit"
+    },
+    {
+      "id": "long-johns",
+      "branch": "underwear",
+      "name": "Long johns or union suit"
+    },
+    {
+      "id": "crinoline-cage",
+      "branch": "underwear",
+      "name": "Crinoline or bustle"
+    },
+    {
+      "id": "petticoat",
+      "branch": "underwear",
+      "name": "Petticoat"
+    },
+    {
+      "id": "shapewear",
+      "branch": "underwear",
+      "name": "Shapewear"
+    },
+    {
+      "id": "buckle-shoe",
+      "branch": "shoes",
+      "name": "Buckle shoe"
+    },
+    {
+      "id": "oxford",
+      "branch": "shoes",
+      "name": "Oxford"
+    },
+    {
+      "id": "derby",
+      "branch": "shoes",
+      "name": "Derby"
+    },
+    {
+      "id": "loafer",
+      "branch": "shoes",
+      "name": "Loafer"
+    },
+    {
+      "id": "court-shoe",
+      "branch": "shoes",
+      "name": "Court shoe"
+    },
+    {
+      "id": "ankle-boot",
+      "branch": "shoes",
+      "name": "Ankle boot"
+    },
+    {
+      "id": "tall-boot",
+      "branch": "shoes",
+      "name": "Tall boot"
+    },
+    {
+      "id": "work-boot",
+      "branch": "shoes",
+      "name": "Work boot"
+    },
+    {
+      "id": "sneaker",
+      "branch": "shoes",
+      "name": "Sneaker"
+    },
+    {
+      "id": "sandal",
+      "branch": "shoes",
+      "name": "Sandal"
+    },
+    {
+      "id": "mule",
+      "branch": "shoes",
+      "name": "Mule"
+    },
+    {
+      "id": "platform-shoe",
+      "branch": "shoes",
+      "name": "Platform shoe"
+    },
+    {
+      "id": "dance-shoe",
+      "branch": "shoes",
+      "name": "Dance shoe"
+    },
+    {
+      "id": "handbag",
+      "branch": "accessories",
+      "name": "Handbag"
+    },
+    {
+      "id": "clutch",
+      "branch": "accessories",
+      "name": "Clutch or minaudière"
+    },
+    {
+      "id": "trunk",
+      "branch": "accessories",
+      "name": "Trunk or suitcase"
+    },
+    {
+      "id": "hat",
+      "branch": "accessories",
+      "name": "Hat"
+    },
+    {
+      "id": "cap",
+      "branch": "accessories",
+      "name": "Cap"
+    },
+    {
+      "id": "necktie",
+      "branch": "accessories",
+      "name": "Necktie or bow tie"
+    },
+    {
+      "id": "scarf",
+      "branch": "accessories",
+      "name": "Scarf"
+    },
+    {
+      "id": "gloves",
+      "branch": "accessories",
+      "name": "Gloves"
+    },
+    {
+      "id": "belt",
+      "branch": "accessories",
+      "name": "Belt"
+    },
+    {
+      "id": "eyewear",
+      "branch": "accessories",
+      "name": "Eyewear"
+    },
+    {
+      "id": "umbrella",
+      "branch": "accessories",
+      "name": "Umbrella"
+    },
+    {
+      "id": "wallet",
+      "branch": "accessories",
+      "name": "Wallet or card case"
+    },
+    {
+      "id": "backpack",
+      "branch": "accessories",
+      "name": "Backpack"
+    },
+    {
+      "id": "ring",
+      "branch": "jewellery",
+      "name": "Ring"
+    },
+    {
+      "id": "necklace",
+      "branch": "jewellery",
+      "name": "Necklace"
+    },
+    {
+      "id": "pendant",
+      "branch": "jewellery",
+      "name": "Pendant"
+    },
+    {
+      "id": "brooch",
+      "branch": "jewellery",
+      "name": "Brooch"
+    },
+    {
+      "id": "earrings",
+      "branch": "jewellery",
+      "name": "Earrings"
+    },
+    {
+      "id": "bracelet",
+      "branch": "jewellery",
+      "name": "Bracelet or bangle"
+    },
+    {
+      "id": "tiara",
+      "branch": "jewellery",
+      "name": "Tiara"
+    },
+    {
+      "id": "cufflinks",
+      "branch": "jewellery",
+      "name": "Cufflinks"
+    },
+    {
+      "id": "watch-chain",
+      "branch": "jewellery",
+      "name": "Watch chain or fob"
+    },
+    {
+      "id": "pocket-watch",
+      "branch": "watch",
+      "name": "Pocket watch"
+    },
+    {
+      "id": "dress-watch",
+      "branch": "watch",
+      "name": "Dress watch"
+    },
+    {
+      "id": "diver-watch",
+      "branch": "watch",
+      "name": "Diver's watch"
+    },
+    {
+      "id": "chronograph",
+      "branch": "watch",
+      "name": "Chronograph"
+    },
+    {
+      "id": "pilot-watch",
+      "branch": "watch",
+      "name": "Pilot's watch"
+    },
+    {
+      "id": "field-watch",
+      "branch": "watch",
+      "name": "Field watch"
+    },
+    {
+      "id": "digital-watch",
+      "branch": "watch",
+      "name": "Digital watch"
+    },
+    {
+      "id": "smartwatch",
+      "branch": "watch",
+      "name": "Smartwatch"
+    },
+    {
+      "id": "sports-watch",
+      "branch": "watch",
+      "name": "Sports watch"
+    },
+    {
+      "id": "watch-strap",
+      "branch": "watch",
+      "name": "Watch strap"
+    },
+    {
+      "id": "watch-bracelet",
+      "branch": "watch",
+      "name": "Watch bracelet"
+    },
+    {
+      "id": "saloon",
+      "branch": "cars",
+      "name": "Saloon"
+    },
+    {
+      "id": "coupe",
+      "branch": "cars",
+      "name": "Coupé"
+    },
+    {
+      "id": "roadster",
+      "branch": "cars",
+      "name": "Roadster or tourer"
+    },
+    {
+      "id": "estate",
+      "branch": "cars",
+      "name": "Estate"
+    },
+    {
+      "id": "hatchback",
+      "branch": "cars",
+      "name": "Hatchback"
+    },
+    {
+      "id": "sports-car",
+      "branch": "cars",
+      "name": "Sports car"
+    },
+    {
+      "id": "grand-tourer",
+      "branch": "cars",
+      "name": "Grand tourer"
+    },
+    {
+      "id": "suv",
+      "branch": "cars",
+      "name": "SUV"
+    },
+    {
+      "id": "limousine",
+      "branch": "cars",
+      "name": "Limousine"
+    },
+    {
+      "id": "seat-upholstery",
+      "branch": "cars",
+      "name": "Seat upholstery"
+    },
+    {
+      "id": "dashboard",
+      "branch": "cars",
+      "name": "Dashboard"
+    },
+    {
+      "id": "steering-wheel",
+      "branch": "cars",
+      "name": "Steering wheel"
+    },
+    {
+      "id": "brightwork",
+      "branch": "cars",
+      "name": "Grille, bumpers and trim"
+    },
+    {
+      "id": "wheel",
+      "branch": "cars",
+      "name": "Wheel"
+    },
+    {
+      "id": "leather-jacket",
+      "branch": "costume",
+      "name": "Leather jacket"
+    }
+  ]
+}

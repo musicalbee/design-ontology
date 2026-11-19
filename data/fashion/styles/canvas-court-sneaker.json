@@ -1,0 +1,346 @@
+{
+  "$schema": "../../../schema/domains/fashion.schema.json",
+  "id": "canvas-court-sneaker",
+  "domain": "fashion",
+  "name": "Canvas court sneaker",
+  "aliases": [
+    "Plimsoll",
+    "Canvas high-top",
+    "Gym shoe"
+  ],
+  "era_id": "belle-epoque-and-war",
+  "branch": "shoes",
+  "time_period": {
+    "start": 1917,
+    "end": null,
+    "label": "1917–present"
+  },
+  "region": "Malden, Massachusetts, United States",
+  "summary": "The cotton canvas shoe on a vulcanised rubber sole. It is a white or navy high-top or low-top with a toe cap and a thin foxing strip. It was first made for basketball in 1917.",
+  "philosophy": {
+    "core_thesis": "A court shoe is cheap cloth on a cured rubber sole, so it grips the floor and costs little; its plainness is the style.",
+    "design_principles": [
+      "Cut the upper in cotton canvas of 400 to 600 gsm and stitch it to a rubber foxing strip.",
+      "Cure the sole with the upper in a vulcanising oven, so that the rubber bonds to the canvas.",
+      "Cap the toe in rubber, and set a round ankle patch on the inside of a high-top.",
+      "Use 8 pairs of eyelets with a flat cotton lace.",
+      "Print one small mark on the ankle patch; keep the rest plain.",
+      "Set the sole at 2 to 3 cm, flat, with a diamond or herringbone tread.",
+      "Leave the canvas free of coating, so that it can fade and crease."
+    ],
+    "anti_patterns": [
+      "A padded, cushioned midsole with air units",
+      "A leather and mesh upper",
+      "A thick heel flare",
+      "Large printed logos across the side",
+      "A shiny, patent finish"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "structure": 2,
+    "luxury": 1,
+    "technicality": 2,
+    "chromatic_intensity": 3
+  },
+  "silhouette": {
+    "shape": "A light, low-sided shoe with a flat sole, a rubber toe cap and a round toe.",
+    "line": "A straight line along the foxing strip; the high-top rises to the ankle bone.",
+    "fit": "Loose and flat, held by the lace; the canvas gives and takes the shape of the foot.",
+    "proportion": "Sole 2 to 3 cm; high-top shaft 12 cm above the sole; toe cap one quarter of the shoe length.",
+    "rules": [
+      "Keep the sole flat and white.",
+      "Run the foxing strip round the whole sole.",
+      "Use a toe cap and an ankle patch only.",
+      "Let the canvas crease and darken with wear."
+    ]
+  },
+  "fabrics": {
+    "primary": [
+      "canvas",
+      "vulcanised-rubber"
+    ],
+    "secondary": [
+      "calfskin",
+      "natural-rubber",
+      "suede"
+    ],
+    "avoid": [
+      "eva-foam",
+      "patent-leather",
+      "pvc-leathercloth",
+      "ballistic-nylon"
+    ],
+    "rule": "Use cotton canvas for the upper and cured rubber for the sole, the toe cap and the foxing strip. Use leather for a premium upper only."
+  },
+  "construction": {
+    "methods": [
+      "canvas upper cut and stitched flat",
+      "rubber foxing strip applied to the upper",
+      "vulcanising in an oven",
+      "rubber toe cap bonded on",
+      "herringbone tread moulded in the sole",
+      "metal eyelets set by machine"
+    ],
+    "closures": "A flat cotton lace through eight pairs of metal eyelets.",
+    "details": "A round ankle patch, a toe cap, a foxing strip with a stripe, a vulcanised rubber sole and a cotton lining."
+  },
+  "surface": {
+    "finishes": [
+      "matte",
+      "synthetic-dyed",
+      "screen-printed",
+      "indigo-dyed",
+      "distressed"
+    ],
+    "pattern": "Plain white, black or navy canvas; a screen-printed ankle patch; a single stripe on the foxing.",
+    "gloss": "Canvas at 2–5 GU; the rubber sole at 15–30 GU.",
+    "wear": "The shoe looks right when the canvas is grubby, creased and frayed at the toe cap; a clean pair looks new but not wrong."
+  },
+  "palette": {
+    "strategy": "Optical white, black and navy, with one colour for a team or a season.",
+    "colours": [
+      {
+        "name": "Optical white",
+        "hex": "#F2F0EA",
+        "role": "canvas and sole"
+      },
+      {
+        "name": "Black",
+        "hex": "#1A1A1C",
+        "role": "high-top"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1F2A44",
+        "role": "team colour"
+      },
+      {
+        "name": "Cherry red",
+        "hex": "#B3262E",
+        "role": "team colour"
+      },
+      {
+        "name": "Natural",
+        "hex": "#E8DCC4",
+        "role": "unbleached canvas"
+      },
+      {
+        "name": "Court green",
+        "hex": "#2F6B4F",
+        "role": "team colour"
+      }
+    ]
+  },
+  "making": {
+    "processes": [
+      "cutting and stitching canvas",
+      "moulding rubber sole parts",
+      "bonding by hand",
+      "vulcanising in an oven",
+      "hand inspection"
+    ],
+    "scale": "Factory made, by the million, in a few widths and in one cheap grade.",
+    "signs": "A smooth foxing line, a bonded toe cap, a flat tread and a cotton lace."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "sneaker",
+        "form": "High-top with a canvas upper and an ankle patch",
+        "material": "canvas",
+        "finish": "matte"
+      },
+      {
+        "object": "sneaker",
+        "form": "Low-top with a canvas upper and a toe cap",
+        "material": "canvas",
+        "finish": "synthetic-dyed"
+      },
+      {
+        "object": "sneaker",
+        "form": "Navy canvas shoe with a printed team mark",
+        "material": "canvas",
+        "finish": "screen-printed"
+      },
+      {
+        "object": "sneaker",
+        "form": "Leather low-top court shoe in white calf",
+        "material": "calfskin",
+        "finish": "matte"
+      },
+      {
+        "object": "sneaker",
+        "form": "Faded blue canvas shoe with a worn toe",
+        "material": "canvas",
+        "finish": "distressed"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "canvas high-top sneaker",
+      "white vulcanised rubber sole",
+      "rubber toe cap",
+      "foxing strip",
+      "cotton laces",
+      "round ankle patch",
+      "herringbone tread",
+      "1920s basketball",
+      "off-white canvas",
+      "product photograph, daylight"
+    ],
+    "negative": [
+      "air cushion unit",
+      "chunky platform",
+      "mesh upper",
+      "patent leather",
+      "metallic finish",
+      "oversize logo"
+    ],
+    "canonical_works": [
+      {
+        "work": "All Star basketball shoe",
+        "maker": "Converse Rubber Shoe Company",
+        "year": 1917
+      },
+      {
+        "work": "Chuck Taylor All Star",
+        "maker": "Converse Rubber Shoe Company",
+        "year": 1932
+      },
+      {
+        "work": "Keds Champion",
+        "maker": "United States Rubber Company",
+        "year": 1916
+      },
+      {
+        "work": "Plimsoll",
+        "maker": "Liverpool Rubber Company",
+        "year": 1876
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Converse All-Star Chuck Taylor Shoe (DPLA)",
+      "kind": "image",
+      "maker": "Converse Rubber Shoe Company",
+      "credit": "President (2009-2017 : Obama). Office of the Staff Secretary. Office of Presidential Correspondence.",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Converse_All-Star_Chuck_Taylor_Shoe_-_DPLA_-_215e6f66263950c10d6cb1bf4f7e222e_(page_1).jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Converse_All-Star_Chuck_Taylor_Shoe_-_DPLA_-_215e6f66263950c10d6cb1bf4f7e222e_%28page_1%29.jpg/960px-Converse_All-Star_Chuck_Taylor_Shoe_-_DPLA_-_215e6f66263950c10d6cb1bf4f7e222e_%28page_1%29.jpg"
+    },
+    {
+      "title": "Converse All Star Blue High (4649851894)",
+      "kind": "image",
+      "credit": "Magnus D from London, United Kingdom",
+      "licence": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Converse_All_Star_Blue_High_(4649851894).jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Converse_All_Star_Blue_High_%284649851894%29.jpg/960px-Converse_All_Star_Blue_High_%284649851894%29.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "english-welted-dress-shoe"
+    ],
+    "hybridized_with": [
+      "trench-and-field-military"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "A feeling of ease and youth: a shoe for play that asks for no care.",
+    "keywords": [
+      "casual",
+      "youthful",
+      "plain",
+      "sporty",
+      "democratic"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "canvas sneaker",
+      "high-top",
+      "plimsoll",
+      "gym shoe",
+      "court shoe",
+      "chuck taylor",
+      "vulcanised sole"
+    ],
+    "use_cases": [
+      "a casual wardrobe brief",
+      "a film costume for the 1930s to the 1960s",
+      "a product image prompt for a canvas shoe",
+      "a school or team uniform shoe"
+    ],
+    "avoid_when": [
+      "the brief wants a leather dress shoe",
+      "the brief wants a technical running shoe",
+      "the brief wants a heel"
+    ],
+    "modifiers": [
+      {
+        "request": "more technical, cushioned",
+        "toward": "performance-running-shoe",
+        "how": "Swap the canvas for nylon mesh and the flat sole for a foam midsole with a waffle outsole."
+      },
+      {
+        "request": "more collectable",
+        "toward": "sneaker-culture",
+        "how": "Move to leather, add a bold colour block and a printed brand mark, and raise the sole."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Converse (brand)",
+      "url": "https://en.wikipedia.org/wiki/Converse_(shoe_company)"
+    },
+    {
+      "title": "Wikipedia: Plimsoll shoe",
+      "url": "https://en.wikipedia.org/wiki/Plimsoll_shoe"
+    },
+    {
+      "title": "Wikipedia: Sneakers",
+      "url": "https://en.wikipedia.org/wiki/Sneakers"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.05,
+      "min": 0,
+      "max": 0.3,
+      "note": "A court shoe carries a printed patch and a stripe, and nothing else."
+    },
+    "proportion_scale": {
+      "default": 0.5,
+      "min": 0.4,
+      "max": 0.8
+    },
+    "surface_gloss": {
+      "default": 15,
+      "min": 2,
+      "max": 40
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1
+    },
+    "metal_tone": {
+      "default": "none",
+      "options": [
+        "none",
+        "steel",
+        "brass"
+      ]
+    }
+  }
+}

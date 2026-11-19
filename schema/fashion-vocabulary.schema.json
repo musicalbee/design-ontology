@@ -1,0 +1,385 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-ontology.dev/schema/fashion-vocabulary.schema.json",
+  "title": "Fashion vocabulary",
+  "description": "The closed vocabulary of the fashion domain, with the origin of each fibre, fabric, material and finish. Styles refer to these ids, and the validator checks each reference.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "branches",
+    "fibres",
+    "fabrics",
+    "materials",
+    "finishes",
+    "objects"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "$comment": {
+      "type": "string"
+    },
+    "branches": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "order",
+          "scope"
+        ],
+        "properties": {
+          "id": {
+            "enum": [
+              "costume",
+              "outdoor",
+              "underwear",
+              "shoes",
+              "accessories",
+              "jewellery",
+              "watch",
+              "cars"
+            ]
+          },
+          "name": {
+            "$ref": "core.schema.json#/$defs/shortText"
+          },
+          "order": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 8
+          },
+          "scope": {
+            "$ref": "core.schema.json#/$defs/sentence"
+          }
+        }
+      }
+    },
+    "fibres": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "kind",
+          "origin",
+          "note"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "core.schema.json#/$defs/slug"
+          },
+          "name": {
+            "$ref": "core.schema.json#/$defs/shortText"
+          },
+          "kind": {
+            "enum": [
+              "plant",
+              "animal",
+              "regenerated",
+              "synthetic"
+            ]
+          },
+          "origin": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "place"
+            ],
+            "properties": {
+              "year": {
+                "type": "integer",
+                "minimum": -10000,
+                "maximum": 2100
+              },
+              "circa": {
+                "type": "boolean"
+              },
+              "place": {
+                "$ref": "core.schema.json#/$defs/shortText"
+              },
+              "by": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 120
+              }
+            },
+            "description": "Where and when the item began: the first year with a firm record."
+          },
+          "note": {
+            "type": "string",
+            "minLength": 12,
+            "maxLength": 400
+          }
+        }
+      }
+    },
+    "fabrics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "fibres",
+          "construction",
+          "weight_gsm",
+          "note"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "core.schema.json#/$defs/slug"
+          },
+          "name": {
+            "$ref": "core.schema.json#/$defs/shortText"
+          },
+          "fibres": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "$ref": "core.schema.json#/$defs/slug"
+            }
+          },
+          "construction": {
+            "enum": [
+              "woven-plain",
+              "woven-twill",
+              "woven-satin",
+              "woven-basket",
+              "woven-pile",
+              "woven-figured",
+              "weft-knit",
+              "warp-knit",
+              "lace",
+              "net",
+              "felt",
+              "nonwoven",
+              "coated",
+              "laminate"
+            ]
+          },
+          "origin": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "place"
+            ],
+            "properties": {
+              "year": {
+                "type": "integer",
+                "minimum": -10000,
+                "maximum": 2100
+              },
+              "circa": {
+                "type": "boolean"
+              },
+              "place": {
+                "$ref": "core.schema.json#/$defs/shortText"
+              },
+              "by": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 120
+              }
+            },
+            "description": "Where and when the item began: the first year with a firm record."
+          },
+          "weight_gsm": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {
+              "type": "integer",
+              "minimum": 5,
+              "maximum": 3000
+            }
+          },
+          "note": {
+            "type": "string",
+            "minLength": 12,
+            "maxLength": 400
+          }
+        }
+      }
+    },
+    "materials": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "family",
+          "note"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "core.schema.json#/$defs/slug"
+          },
+          "name": {
+            "$ref": "core.schema.json#/$defs/shortText"
+          },
+          "family": {
+            "enum": [
+              "textile",
+              "leather",
+              "fill",
+              "rubber",
+              "polymer",
+              "composite",
+              "metal",
+              "gem",
+              "mineral",
+              "organic",
+              "wood"
+            ]
+          },
+          "origin": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "place"
+            ],
+            "properties": {
+              "year": {
+                "type": "integer",
+                "minimum": -10000,
+                "maximum": 2100
+              },
+              "circa": {
+                "type": "boolean"
+              },
+              "place": {
+                "$ref": "core.schema.json#/$defs/shortText"
+              },
+              "by": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 120
+              }
+            },
+            "description": "Where and when the item began: the first year with a firm record."
+          },
+          "note": {
+            "type": "string",
+            "minLength": 12,
+            "maxLength": 400
+          }
+        }
+      }
+    },
+    "finishes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "families",
+          "note"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "core.schema.json#/$defs/slug"
+          },
+          "name": {
+            "$ref": "core.schema.json#/$defs/shortText"
+          },
+          "families": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "enum": [
+                "textile",
+                "leather",
+                "fill",
+                "rubber",
+                "polymer",
+                "composite",
+                "metal",
+                "gem",
+                "mineral",
+                "organic",
+                "wood"
+              ]
+            }
+          },
+          "origin": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "place"
+            ],
+            "properties": {
+              "year": {
+                "type": "integer",
+                "minimum": -10000,
+                "maximum": 2100
+              },
+              "circa": {
+                "type": "boolean"
+              },
+              "place": {
+                "$ref": "core.schema.json#/$defs/shortText"
+              },
+              "by": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 120
+              }
+            },
+            "description": "Where and when the item began: the first year with a firm record."
+          },
+          "note": {
+            "type": "string",
+            "minLength": 12,
+            "maxLength": 400
+          }
+        }
+      }
+    },
+    "objects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "branch",
+          "name"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "core.schema.json#/$defs/slug"
+          },
+          "branch": {
+            "enum": [
+              "costume",
+              "outdoor",
+              "underwear",
+              "shoes",
+              "accessories",
+              "jewellery",
+              "watch",
+              "cars"
+            ]
+          },
+          "name": {
+            "$ref": "core.schema.json#/$defs/shortText"
+          }
+        }
+      }
+    }
+  }
+}

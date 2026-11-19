@@ -286,7 +286,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`mid-century-modern`](../mid-century-modern/SKILL.md)
 - **Mixes well with:** [`pop-art-web`](../pop-art-web/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md)
-- **Kin in another domain:** [`airbrush-surrealism`](../airbrush-surrealism/SKILL.md), [`emblem-badge`](../emblem-badge/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`space-age-pop-product`](../space-age-pop-product/SKILL.md)
+- **Kin in another domain:** [`airbrush-surrealism`](../airbrush-surrealism/SKILL.md), [`emblem-badge`](../emblem-badge/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`space-age-couture`](../space-age-couture/SKILL.md), [`space-age-pop-product`](../space-age-pop-product/SKILL.md)
 - **Nearest by vector profile:** [`conceptual-sketch-ui`](../conceptual-sketch-ui/SKILL.md), [`cyberpunk-web`](../cyberpunk-web/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md)
 
 ## Emotional target

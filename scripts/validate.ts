@@ -12,6 +12,7 @@ import { RECIPE_NAMES } from "./pack.js";
 import { GROUND_KINDS } from "./ground.js";
 import { RULES, gate, curate, type Rule } from "./curation.js";
 import { checkIndustrialStyle, checkNet, checkVocabulary, loadNetContext, loadNets, type IndustrialStyle } from "./net.js";
+import { checkFashionStyle, checkFashionVocabulary, loadFashionVocabulary, type FashionStyle } from "./fashion.js";
 import { ROOT, loadDomains, loadEras, loadMedia, loadPeople, loadPrinciples, loadStyleFiles, loadTechniques, principleRefs, readJson, type Style } from "./lib.js";
 
 const schemaOnly = process.argv.includes("--schema-only");
@@ -210,6 +211,21 @@ if (domains.some((d) => d.id === "industrial")) {
       for (const e of checkIndustrialStyle(ctx.L, s as IndustrialStyle)) errors.push(`data/industrial/styles/${s.id}.json: ${e}`);
     for (const { file, slug, net } of nets) for (const e of checkNet(ctx, slug, net)) errors.push(`${file}: ${e}`);
     for (const id of ctx.interiors.keys()) if (!nets.some((n) => n.slug === id)) errors.push(`data/industrial/nets/${id}.json: the interior style "${id}" has no object net`);
+  }
+}
+
+// The fashion vocabulary: one schema, then each fabric, material, finish and object id of each fashion style.
+const validateFashionVocabulary = ajv.compile(readJson<object>(join(ROOT, "schema", "fashion-vocabulary.schema.json")));
+if (domains.some((d) => d.id === "fashion")) {
+  const raw = readJson<unknown>(join(ROOT, "data", "fashion", "vocabulary.json"));
+  if (!validateFashionVocabulary(raw))
+    for (const e of validateFashionVocabulary.errors ?? []) errors.push(`data/fashion/vocabulary.json: ${e.instancePath || "/"} ${e.message}`);
+  else {
+    const v = loadFashionVocabulary();
+    for (const e of checkFashionVocabulary(v)) errors.push(`data/fashion/vocabulary.json: ${e}`);
+    if (!schemaOnly)
+      for (const { style } of loadStyleFiles("fashion"))
+        for (const e of checkFashionStyle(v, style as unknown as FashionStyle)) errors.push(`data/fashion/styles/${style.id}.json: ${e}`);
   }
 }
 

@@ -203,7 +203,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md)
 - **Mixes well with:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
-- **Kin in another domain:** [`shaker-interior`](../shaker-interior/SKILL.md)
+- **Kin in another domain:** [`americana-workwear`](../americana-workwear/SKILL.md), [`shaker-interior`](../shaker-interior/SKILL.md)
 - **Nearest by vector profile:** [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)
 
 ## Emotional target

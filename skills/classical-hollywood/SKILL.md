@@ -238,7 +238,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md)
 - **Led to (go here for a newer version):** [`one-take-oner`](../one-take-oner/SKILL.md)
 - **Was rejected by:** [`film-noir`](../film-noir/SKILL.md), [`italian-neorealism`](../italian-neorealism/SKILL.md), [`mumblecore`](../mumblecore/SKILL.md), [`music-video`](../music-video/SKILL.md), [`new-hollywood`](../new-hollywood/SKILL.md), [`slow-cinema`](../slow-cinema/SKILL.md), [`spaghetti-western`](../spaghetti-western/SKILL.md)
-- **Kin in another domain:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`pre-rendered-backgrounds`](../pre-rendered-backgrounds/SKILL.md)
+- **Kin in another domain:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`bias-cut-glamour`](../bias-cut-glamour/SKILL.md), [`ladylike-handbag`](../ladylike-handbag/SKILL.md), [`pre-rendered-backgrounds`](../pre-rendered-backgrounds/SKILL.md)
 - **Nearest by vector profile:** [`film-noir`](../film-noir/SKILL.md), [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md), [`planimetric-symmetry`](../planimetric-symmetry/SKILL.md)
 
 ## Emotional target

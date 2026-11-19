@@ -185,7 +185,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md)
 - **Mixes well with:** [`psychedelic-concert-poster`](../psychedelic-concert-poster/SKILL.md), [`risograph-print`](../risograph-print/SKILL.md)
-- **Kin in another domain:** [`pop-art-painting`](../pop-art-painting/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md)
+- **Kin in another domain:** [`logomania`](../logomania/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md)
 - **Nearest by vector profile:** [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md), [`risograph-print`](../risograph-print/SKILL.md), [`wood-type-poster`](../wood-type-poster/SKILL.md)
 
 ## Emotional target

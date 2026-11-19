@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>History of fabrics</title>
+<meta name="description" content="Every fibre, cloth, material and finish of the fashion domain on one time line: where and when it began, and the fashion styles that use it.">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  :root { --paper: #f7f6f2; --ink: #1d1d1f; --muted: #5d5d66; --line: #d9d7d0; --accent: #b3261e; }
+  html, body { margin: 0; }
+  body { font: 15px/1.5 system-ui, sans-serif; background: var(--paper); color: var(--ink); }
+  :focus-visible { outline: 3px solid #6aa8ff; outline-offset: 2px; }
+  main { max-width: 1100px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { margin: 0; font-size: clamp(26px, 4vw, 40px); line-height: 1.1; letter-spacing: -.01em; }
+  .lede { margin: 8px 0 0; max-width: 70ch; color: var(--muted); }
+  .tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 20px 0 8px; }
+  .seg { display: flex; flex-wrap: wrap; gap: 4px; padding: 4px; border-radius: 999px; background: #ecebe6; }
+  .seg button { border: 0; background: none; padding: 5px 14px; border-radius: 999px; font: inherit; font-size: 14px; font-weight: 600; color: #3b3b42; cursor: pointer; }
+  .seg button[aria-pressed="true"] { background: #fff; color: var(--ink); box-shadow: 0 1px 2px rgb(0 0 0 / .12); }
+  select { font: inherit; font-size: 14px; padding: 6px 10px; border-radius: 999px; border: 1px solid var(--line); background: #fff; }
+  .count { color: var(--muted); font-size: 13px; margin-left: auto; }
+  section { margin-top: 28px; }
+  section > h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 6px; padding-bottom: 6px; border-bottom: 1px solid var(--ink); }
+  .row { display: grid; grid-template-columns: 96px 1fr; gap: 4px 16px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+  @media (min-width: 860px) { .row { grid-template-columns: 110px minmax(0, 1fr) minmax(0, 340px); } }
+  .yr { font-variant-numeric: tabular-nums; font-weight: 650; }
+  .yr small { display: block; font-weight: 400; color: var(--muted); font-size: 12px; }
+  .what b { font-size: 16px; }
+  .what .k { font-size: 12px; color: var(--muted); }
+  .what p { margin: 2px 0 0; font-size: 14px; max-width: 64ch; }
+  .use { grid-column: 2; display: flex; flex-wrap: wrap; gap: 4px; align-content: start; }
+  @media (min-width: 860px) { .use { grid-column: 3; } }
+  .use .first { width: 100%; font-size: 12px; color: var(--muted); }
+  .tag { display: inline-block; font-size: 12px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--line); background: #fff; color: var(--ink); text-decoration: none; }
+  .tag.p { border-color: var(--ink); font-weight: 600; }
+  .none { font-size: 12px; color: var(--muted); }
+  .key { font-size: 12px; color: var(--muted); margin: 4px 0 0; }
+</style>
+</head>
+<body>
+<script src="nav.js"></script>
+<main>
+  <h1>History of fabrics</h1>
+  <p class="lede">Each fibre, cloth, material and finish that a fashion style names, at the year and the place where the record starts. Under each one: the styles that use it. A bold tag is a primary cloth of that style.</p>
+  <div class="tools">
+    <div class="seg" id="kinds" role="group" aria-label="Kind"></div>
+    <label><span class="sr" hidden>Branch</span><select id="branch" aria-label="Branch"></select></label>
+    <span class="count" id="count"></span>
+  </div>
+  <p class="key">Lag: the years from the origin of a cloth to the first fashion style in this data set that uses it.</p>
+  <div id="out"></div>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+const json = (u) => fetch(u).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+const KINDS = [["all", "All"], ["fibres", "Fibres"], ["fabrics", "Cloths"], ["materials", "Materials"], ["finishes", "Finishes"]];
+const BANDS = [[-1e9, 0, "Before the common era"], [0, 1000, "1 to 999"], [1000, 1500, "1000 to 1499"], [1500, 1750, "1500 to 1749"],
+  [1750, 1850, "1750 to 1849"], [1850, 1900, "1850 to 1899"], [1900, 1940, "1900 to 1939"], [1940, 1970, "1940 to 1969"], [1970, 1e9, "1970 to now"]];
+const year = (o) => (o.year < 0 ? `${-o.year} BC` : String(o.year));
+let kind = "all", branch = "all", items = [];
+
+Promise.all([json("../data/fashion/vocabulary.json"), json("../skills/index.json")]).then(async ([v, ix]) => {
+  const metas = ix.skills.filter((s) => s.domain === "fashion");
+  const styles = (await Promise.all(metas.map((m) => json(`../data/fashion/styles/${m.id}.json`)))).filter(Boolean);
+  // The use of each id: the styles that name it in primary or secondary, and for a fibre, the styles that use a cloth of that fibre.
+  const use = new Map();
+  const add = (id, s, primary) => {
+    const u = use.get(id) ?? new Map();
+    if (!u.has(s.id) || primary) u.set(s.id, { s, primary: primary || u.get(s.id)?.primary });
+    use.set(id, u);
+  };
+  const fibresOf = Object.fromEntries(v.fabrics.map((f) => [f.id, f.fibres || []]));
+  for (const s of styles) {
+    for (const [list, primary] of [[s.fabrics?.primary || [], true], [s.fabrics?.secondary || [], false]])
+      for (const id of list) { add(id, s, primary); for (const fb of fibresOf[id] || []) add(fb, s, false); }
+    for (const id of s.surface?.finishes || []) add(id, s, false);
+  }
+  const kindName = { fibres: "fibre", fabrics: "cloth", materials: "material", finishes: "finish" };
+  for (const k of ["fibres", "fabrics", "materials", "finishes"])
+    for (const e of v[k] || []) {
+      const detail = k === "fibres" ? e.kind : k === "fabrics" ? `${(e.construction || "").replace(/-/g, " ")}${e.weight_gsm ? ` · ${e.weight_gsm[0]}–${e.weight_gsm[1]} g/m²` : ""}`
+        : k === "materials" ? e.family : (e.families || []).join(", ");
+      items.push({ k, e, label: kindName[k], detail, users: [...(use.get(e.id)?.values() ?? [])].sort((a, b) => a.s.time_period.start - b.s.time_period.start) });
+    }
+  items.sort((a, b) => (a.e.origin?.year ?? 1e9) - (b.e.origin?.year ?? 1e9) || a.e.name.localeCompare(b.e.name));
+  $("kinds").innerHTML = KINDS.map(([k, l]) => `<button type="button" data-k="${k}" aria-pressed="${k === kind}">${l}</button>`).join("");
+  $("kinds").onclick = (ev) => { const b = ev.target.closest("[data-k]"); if (!b) return; kind = b.dataset.k; draw(); };
+  $("branch").innerHTML = `<option value="all">All branches</option>` + v.branches.map((b) => `<option value="${esc(b.id)}">${esc(b.name)}</option>`).join("");
+  $("branch").onchange = (ev) => { branch = ev.target.value; draw(); };
+  draw();
+});
+
+function draw() {
+  for (const b of $("kinds").children) b.setAttribute("aria-pressed", String(b.dataset.k === kind));
+  const shown = items.map((it) => ({ ...it, users: it.users.filter((u) => branch === "all" || u.s.branch === branch) }))
+    .filter((it) => (kind === "all" || it.k === kind) && (branch === "all" || it.users.length));
+  $("count").textContent = `${shown.length} entries`;
+  const groups = BANDS.map(([lo, hi, name]) => [name, shown.filter((it) => it.e.origin && it.e.origin.year >= lo && it.e.origin.year < hi)]);
+  groups.push(["Origin not recorded", shown.filter((it) => !it.e.origin)]);
+  $("out").innerHTML = groups.filter(([, g]) => g.length).map(([name, g]) => `<section><h2>${esc(name)}</h2>${g.map(row).join("")}</section>`).join("");
+}
+
+function row({ e, label, detail, users }) {
+  const o = e.origin;
+  const first = users.length ? users[0].s.time_period.start : null;
+  const lag = o && first != null ? `First in a style: ${first}${first >= o.year ? ` (lag ${first - o.year} years)` : ""}` : "";
+  return `<div class="row" id="${esc(e.id)}">
+    <div class="yr">${o ? `${o.circa ? "c. " : ""}${esc(year(o))}` : "—"}<small>${esc(label)}</small></div>
+    <div class="what"><b>${esc(e.name)}</b> <span class="k">${esc(detail || "")}</span>
+      <p>${esc([o?.place, o?.by].filter(Boolean).join(" · "))}${o?.place || o?.by ? ". " : ""}${esc(e.note || "")}</p></div>
+    <div class="use">${lag ? `<span class="first">${esc(lag)}</span>` : ""}${users.length ? users.map((u) =>
+      `<a class="tag${u.primary ? " p" : ""}" href="fashion.html#${esc(u.s.id)}" title="${esc(`${u.s.branch} · ${u.s.time_period.label}`)}">${esc(u.s.name)}</a>`).join("")
+      : `<span class="none">No style in the data set uses it yet.</span>`}</div>
+  </div>`;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,323 @@
+{
+  "$schema": "../../../schema/domains/fashion.schema.json",
+  "id": "designer-logo-underwear",
+  "domain": "fashion",
+  "name": "Designer Logo Underwear",
+  "aliases": [
+    "Branded waistband underwear",
+    "Name-band underwear",
+    "Designer basics"
+  ],
+  "era_id": "power-and-subculture",
+  "branch": "underwear",
+  "time_period": {
+    "start": 1982,
+    "end": 1999,
+    "label": "1982–1999"
+  },
+  "region": "New York, United States",
+  "summary": "Plain cotton underwear with the name of a fashion designer on the waistband. In 1982 a fashion house put its name on a basic brief, and underwear became a branded, advertised object.",
+  "philosophy": {
+    "core_thesis": "A basic garment gains value from its maker's name: the plain brief stays plain, and the label on the band carries the brand.",
+    "design_principles": [
+      "Keep the garment plain: cotton jersey, a clean cut and a flat seam.",
+      "Weave the maker's name in large capitals into the elastic waistband, 3 to 4 cm deep.",
+      "Pick one tone for the band, and set the name in a second tone with high contrast.",
+      "Cut the brief from jersey with 5 per cent elastane for a close fit.",
+      "Sell the garment in a plain pack with the name on it and a clean photograph.",
+      "Extend the same band to boxer shorts, bras and other basics.",
+      "Keep the colour range small: white, grey, black and navy."
+    ],
+    "anti_patterns": [
+      "A loud print that hides the band",
+      "A name too small to read",
+      "Lace, frill or satin",
+      "An unbranded plain waistband",
+      "A rough seam that marks the skin"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "structure": 2,
+    "luxury": 3,
+    "technicality": 2,
+    "chromatic_intensity": 1
+  },
+  "silhouette": {
+    "shape": "A close, plain brief or short boxer, with a wide, visible waistband that carries the name.",
+    "line": "A straight, level band at the hip, and a clean leg line.",
+    "fit": "Close and smooth; the elastane gives a steady hold with no wrinkle.",
+    "proportion": "Band 3 to 4 cm deep; rise 22 to 28 cm for the brief; boxer leg 10 to 15 cm.",
+    "rules": [
+      "Weave the name in capitals along the full band.",
+      "Keep the band one tone and the letters a high-contrast tone.",
+      "Cut the garment in plain jersey with no print.",
+      "Bind the leg with a narrow band of the same jersey.",
+      "Put a small woven label at the back."
+    ]
+  },
+  "fabrics": {
+    "primary": [
+      "jersey",
+      "elastic-webbing",
+      "jacquard"
+    ],
+    "secondary": [
+      "poplin",
+      "spandex-jersey",
+      "cambric",
+      "machine-lace"
+    ],
+    "avoid": [
+      "satin",
+      "taffeta",
+      "coutil",
+      "whalebone"
+    ],
+    "rule": "Use plain combed cotton jersey, and weave the name into a jacquard elastic band."
+  },
+  "construction": {
+    "methods": [
+      "combed cotton jersey with a little elastane",
+      "jacquard elastic woven with the name",
+      "flat seam at the leg and the side",
+      "bound leg opening",
+      "woven label at the back",
+      "boxer in woven poplin with an elastic waist"
+    ],
+    "closures": "No closure: an elastic waistband; the boxer has a button fly.",
+    "details": "The name along the band, a woven label at the back, a small flag at the side seam, and a plain pack."
+  },
+  "surface": {
+    "finishes": [
+      "matte",
+      "mercerised",
+      "sanforised",
+      "screen-printed"
+    ],
+    "pattern": "Plain tone for the body; a woven or printed name on the waistband; a stripe or check only on the woven boxer.",
+    "gloss": "Cotton jersey at 3–8 GU; mercerised cotton at 8–15 GU.",
+    "wear": "The band stays crisp with the name legible after many washes; the colour fades slowly."
+  },
+  "palette": {
+    "strategy": "White, grey, black and navy; the name on the band is the only graphic.",
+    "colours": [
+      {
+        "name": "White",
+        "hex": "#F6F4EF",
+        "role": "brief"
+      },
+      {
+        "name": "Heather grey",
+        "hex": "#B3B3B0",
+        "role": "brief"
+      },
+      {
+        "name": "Black",
+        "hex": "#1C1C1E",
+        "role": "brief and band"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1F2A44",
+        "role": "boxer"
+      },
+      {
+        "name": "Band white",
+        "hex": "#FAFAF7",
+        "role": "name on a dark band"
+      },
+      {
+        "name": "Band grey",
+        "hex": "#5B5B5E",
+        "role": "band"
+      }
+    ]
+  },
+  "making": {
+    "processes": [
+      "cotton jersey knitted in the round",
+      "jacquard elastic woven with the name",
+      "body cut and sewn flat",
+      "band fitted by a machine",
+      "pack and photograph made in the house"
+    ],
+    "scale": "Made by a licensed factory in large lots for a designer house; sold in department stores and in the house shop.",
+    "signs": "A name on the waistband, plain jersey, a flat seam, and a woven label at the back."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "briefs",
+        "form": "Cotton brief with the name woven in the waistband",
+        "material": "jersey",
+        "finish": "mercerised"
+      },
+      {
+        "object": "boxer-shorts",
+        "form": "Woven boxer in poplin with a name band",
+        "material": "poplin",
+        "finish": "sanforised"
+      },
+      {
+        "object": "briefs",
+        "form": "Brief with a jacquard elastic that carries the name in capitals",
+        "material": "jacquard",
+        "finish": "matte"
+      },
+      {
+        "object": "brassiere",
+        "form": "Plain stretch cotton bra with a name band",
+        "material": "spandex-jersey",
+        "finish": "matte"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1980s designer underwear",
+      "name on the waistband",
+      "cotton jersey brief",
+      "plain pack photograph",
+      "white and grey",
+      "jacquard elastic band",
+      "flat packshot on a plain ground",
+      "clean graphic",
+      "minimal basics",
+      "1990s advertisement poster",
+      "black and white photograph"
+    ],
+    "negative": [
+      "lace",
+      "satin",
+      "loud print",
+      "frill",
+      "cartoon",
+      "neon colour"
+    ],
+    "canonical_works": [
+      {
+        "work": "Men's underwear line with a name band",
+        "maker": "Calvin Klein",
+        "year": 1982
+      },
+      {
+        "work": "Times Square underwear poster",
+        "maker": "Calvin Klein",
+        "year": 1982
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Cotton brief with maker name on the waistband, flat scan, 2008",
+      "kind": "image",
+      "credit": "Doommaster1994 (English Wikipedia)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Briefs-FruitoftheLoom-20080226.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Briefs-FruitoftheLoom-20080226.jpg/960px-Briefs-FruitoftheLoom-20080226.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "modern-mens-briefs"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "streetwear"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "A sense of status in a small, plain object: the viewer sees a clean garment and a known name.",
+    "keywords": [
+      "branded",
+      "plain",
+      "clean",
+      "confident",
+      "modern"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "logo underwear",
+      "designer underwear",
+      "name on the waistband",
+      "branded briefs",
+      "1980s underwear",
+      "calvin klein briefs",
+      "waistband logo",
+      "designer basics"
+    ],
+    "use_cases": [
+      "a brand study of 1980s fashion",
+      "a flat product shot of branded basics",
+      "a history of designer licences",
+      "a museum label or object study"
+    ],
+    "avoid_when": [
+      "the brief wants an unbranded, plain garment",
+      "the brief wants lace or lingerie",
+      "the brief wants shapewear"
+    ],
+    "modifiers": [
+      {
+        "request": "plain, no name",
+        "toward": "modern-mens-briefs",
+        "how": "Remove the woven name, keep the cotton jersey and the Y-shaped fly, and use a plain elastic band."
+      },
+      {
+        "request": "worn on the outside",
+        "toward": "underwear-as-outerwear",
+        "how": "Show the band above the trouser line or the skirt, and pair the basics with a jacket or a dress."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Calvin Klein",
+      "url": "https://en.wikipedia.org/wiki/Calvin_Klein"
+    },
+    {
+      "title": "Wikipedia: Calvin Klein (fashion house)",
+      "url": "https://en.wikipedia.org/wiki/Calvin_Klein_(fashion_house)"
+    },
+    {
+      "title": "Wikipedia: Underpants",
+      "url": "https://en.wikipedia.org/wiki/Underpants"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.05,
+      "min": 0,
+      "max": 0.25,
+      "note": "The name on the band is the only ornament."
+    },
+    "proportion_scale": {
+      "default": 0.4,
+      "min": 0.2,
+      "max": 0.7
+    },
+    "surface_gloss": {
+      "default": 5,
+      "min": 3,
+      "max": 15
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1
+    },
+    "metal_tone": {
+      "default": "none",
+      "options": [
+        "none"
+      ]
+    }
+  }
+}

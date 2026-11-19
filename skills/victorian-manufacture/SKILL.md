@@ -203,7 +203,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md)
 - **Led to (go here for a newer version):** [`industrial-utility-product`](../industrial-utility-product/SKILL.md)
 - **Was rejected by:** [`art-nouveau-object`](../art-nouveau-object/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md)
-- **Kin in another domain:** [`victorian-interior`](../victorian-interior/SKILL.md)
+- **Kin in another domain:** [`american-pocket-watch`](../american-pocket-watch/SKILL.md), [`crinoline-and-bustle-dress`](../crinoline-and-bustle-dress/SKILL.md), [`malletier-luggage`](../malletier-luggage/SKILL.md), [`victorian-interior`](../victorian-interior/SKILL.md), [`victorian-millinery`](../victorian-millinery/SKILL.md), [`victorian-sentimental-jewellery`](../victorian-sentimental-jewellery/SKILL.md)
 - **Nearest by vector profile:** [`art-deco-product`](../art-deco-product/SKILL.md), [`memphis-product`](../memphis-product/SKILL.md), [`art-nouveau-object`](../art-nouveau-object/SKILL.md)
 
 ## Emotional target
