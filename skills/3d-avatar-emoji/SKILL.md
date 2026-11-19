@@ -242,9 +242,9 @@ A rendered 3D head that copies the face of the user in real time through a depth
 - Render the head at 60 fps with soft light and a contact shadow.
 - Limit a recorded clip to 10 seconds.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **iMessage** (platform, Cupertino, 2011–now), launched the style. The Apple messaging service. Animoji and Memoji came to it in 2017 and 2018 as face-tracked 3D emoji.
 

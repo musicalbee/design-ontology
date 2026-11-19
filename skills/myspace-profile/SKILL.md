@@ -259,9 +259,9 @@ A small image that repeats in both directions behind a page. It fills any window
 - Keep text in a bright colour on a dark tile, or in a dark colour on a pale tile.
 - Use a fixed position when the page scrolls.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Myspace** (platform, web, 2003–now), launched the style. A social network of profile pages. Users posted flash digicam photos and filled their pages with glitter, gloss and custom code.
 

@@ -177,11 +177,11 @@ Liquid clay is poured into a plaster mould. The plaster takes water from the cla
 - Pour out the rest of the slip.
 - Open the mould when the clay is leather-hard and fettle the seam.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Burslem potteries** (workshop, Burslem, Staffordshire, England, ?–now), made the style. A group of small family potteries in the town of Burslem. They made slip-trailed dishes, jugs and posset pots from the 17th century.
+- **Burslem potteries** (collective, Burslem, Staffordshire, England, ?–now), made the style. A group of small family potteries in the town of Burslem. They made slip-trailed dishes, jugs and posset pots from the 17th century.
 
 ## Permutations
 

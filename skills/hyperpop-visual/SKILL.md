@@ -248,9 +248,9 @@ A colour field built from many points that each hold a colour, so the colours bl
 - Blur the field by 80 to 200 px, so that no edge shows.
 - Put the field behind the content and give the text a solid or near-solid surface.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **SoundCloud** (platform, web, 2007–now), published the style. A site where people post music. The digicore and hyperpop scenes shared tracks and cover art here.
 - **TikTok** (platform, web, 2016–now), published the style. A video app of short vertical clips. Its feed set the form of vertical short-form video and spread the camcorder revival.

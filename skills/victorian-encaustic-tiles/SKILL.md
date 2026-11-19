@@ -172,11 +172,11 @@ Nearly dry clay powder is pressed in a steel die under high pressure to form a t
 - Remove the tile and fire it with no long drying.
 - Keep the size of each tile within 0.5 mm.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Minton** (workshop, Stoke-on-Trent, England, 1793–now), made the style. An English pottery that Thomas Minton started in 1793. Under Herbert Minton it became the leading maker of encaustic floor tiles.
+- **Minton** (company, Stoke-on-Trent, England, 1793–now), made the style. An English pottery that Thomas Minton started in 1793. Under Herbert Minton it became the leading maker of encaustic floor tiles.
 
 ## Permutations
 

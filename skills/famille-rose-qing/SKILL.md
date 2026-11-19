@@ -176,11 +176,11 @@ A soft rose-pink overglaze enamel that colloidal gold makes. Painters mix it wit
 - Mix the pink with white enamel in different ratios to make tints.
 - Paint the tints on the fired glaze and fire again at 760 to 800 °C.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Jingdezhen imperial kilns** (workshop, Jingdezhen, Jiangxi, China, ?–1911), made the style. The kilns at Jingdezhen that made porcelain for the court of the Ming and Qing emperors. Under Yongzheng and Qianlong they made the finest famille rose vases and bowls.
+- **Jingdezhen imperial kilns** (court, Jingdezhen, Jiangxi, China, ?–1911), made the style. The kilns at Jingdezhen that made porcelain for the court of the Ming and Qing emperors. Under Yongzheng and Qianlong they made the finest famille rose vases and bowls.
 
 ## Permutations
 

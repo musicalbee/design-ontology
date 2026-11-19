@@ -248,9 +248,9 @@ A hard contrast of light and dark that models form: one strong source, deep shad
 - Set the key light to fill light at a ratio of 8:1 or more for a dramatic mood.
 - Cut hard shapes into the light with blinds, grilles or foliage so that the shadow becomes a pattern.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **TikTok** (platform, web, 2016–now), published the style. A video app of short vertical clips. Its feed set the form of vertical short-form video and spread the camcorder revival.
 - **Tumblr** (platform, web, 2007–now), launched the style. A microblog site of reblogged images. Vaporwave and other net aesthetics grew in its image feeds.

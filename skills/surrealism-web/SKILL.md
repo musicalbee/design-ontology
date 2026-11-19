@@ -257,9 +257,9 @@ Fragments of photographs, cut and joined on one sheet, so that the joins make a 
 - Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.
 - Set type as one more fragment, turned 0° to 30°, in the same stack of layers.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Behance** (platform, web, 2005–now), published the style. A web site where designers post portfolios of projects. Concept work for interfaces, logos and illustration spreads from it.
 

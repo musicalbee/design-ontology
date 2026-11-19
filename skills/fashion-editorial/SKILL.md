@@ -181,9 +181,9 @@ A key light, a fill light and a back light on one subject, so that the face is m
 - Set the fill on the other side at 1/4 to 1/2 of the key.
 - Put the back light behind the subject, so that a thin rim of light separates hair and shoulders from the ground.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Harper's Bazaar** (magazine, New York, 1867–now), published the style. A fashion magazine. It printed the photographs of Richard Avedon and used Didot type for its name.
 - **Vogue** (magazine, New York, 1892–now), published the style. A fashion magazine. It commissions fashion photographs and sets its name in a high-contrast Didone type.

@@ -248,9 +248,9 @@ A fixed camera above a table that shows only a pair of hands and an object, so t
 - Show hands only; keep the face out of the frame.
 - Hold each step for 4 to 12 seconds.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **YouTube** (platform, web, 2005–now), published the style. A web site where people post video. The daily vlog grew here, and it became the main home of the music video.
 

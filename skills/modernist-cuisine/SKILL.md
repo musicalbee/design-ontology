@@ -185,11 +185,11 @@ A liquid dropped into a calcium bath forms a thin skin of alginate gel; the sphe
 - Lift the sphere out and rinse it in clean water.
 - Serve within 5 minutes, because the gel keeps setting towards the centre.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Alinea** (workshop, Chicago, 2005–now), made the style. A restaurant of Grant Achatz in Chicago that serves a tasting menu of exact modernist methods, with scent, edible balloons and theatrical service.
+- **Alinea** (company, Chicago, 2005–now), made the style. A restaurant of Grant Achatz in Chicago that serves a tasting menu of exact modernist methods, with scent, edible balloons and theatrical service.
 - **Modernist Cuisine** (publisher, Bellevue, Washington, 2011–now), published the style. The six-volume book Modernist Cuisine: The Art and Science of Cooking, written by the team of Nathan Myhrvold at The Cooking Lab, with cut-section photographs.
 
 ## Permutations

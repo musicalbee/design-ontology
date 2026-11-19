@@ -136,9 +136,9 @@ An office copier makes a print with toner on plain paper from a paste-up, with n
 - Accept the toner speckle, the black edges of the cut paper and the grey of the glass.
 - Fold and staple the copies by hand.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Sniffin' Glue** (magazine, London, 1976–1977), published the style. A punk zine that Mark Perry typed, cut and photocopied. Its rough paste-up look became the model for punk print.
 

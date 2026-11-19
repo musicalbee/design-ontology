@@ -171,11 +171,11 @@ A drawing on paper is pricked along its lines and dabbed with a bag of charcoal 
 - Lay the sheet on the surface and dab it with a bag of charcoal or graphite dust.
 - Paint over the dots; the dust burns away in the kiln or wipes off.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **De Porceleyne Fles** (workshop, Delft, Netherlands, 1653–now), made the style. A Delft pottery that started in 1653 and still makes tin-glazed and blue-painted ware. It is the last of the 17th-century Delft potteries.
+- **De Porceleyne Fles** (company, Delft, Netherlands, 1653–now), made the style. A Delft pottery that started in 1653 and still makes tin-glazed and blue-painted ware. It is the last of the 17th-century Delft potteries.
 
 ## Permutations
 

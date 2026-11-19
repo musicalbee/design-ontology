@@ -174,11 +174,11 @@ Coloured glass enamels are painted on a glazed and fired piece. A third firing a
 - Fire it again in a small muffle kiln at 750 to 850 °C.
 - Add gold in a last low firing, when the design needs it.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Meissen manufactory** (workshop, Meissen, Saxony, 1710–now), made the style. The first European maker of hard-paste porcelain. It started in 1710 under Augustus the Strong and made figures after the models of its chief modellers.
+- **Meissen manufactory** (court, Meissen, Saxony, 1710–now), made the style. The first European maker of hard-paste porcelain. It started in 1710 under Augustus the Strong and made figures after the models of its chief modellers.
 
 ## Permutations
 

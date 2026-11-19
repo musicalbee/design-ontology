@@ -242,9 +242,9 @@ A cropped capture of an interface that keeps the frame of the original, so the t
 - Keep the compression of the original; do not sharpen.
 - Keep the interface colours; do not add a frame.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Twitter** (platform, web, 2006–now), published the style. A site of short public posts. Its post card is the frame of the tweet screenshot meme, and many label memes spread here.
 

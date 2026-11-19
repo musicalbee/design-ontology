@@ -244,9 +244,9 @@ A capture mode that takes a photo with the back camera and the front camera in o
 - Record a time stamp and a late mark.
 - Allow no filter or crop.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **BeReal** (platform, web, 2020–now), launched the style. A French photo app that asks users to post one back and one front camera photo within a short window. The post shows a time stamp and a late mark.
 

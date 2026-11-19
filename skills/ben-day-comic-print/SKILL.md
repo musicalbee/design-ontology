@@ -149,9 +149,9 @@ Printing from raised metal or wood type and blocks, locked in a forme and presse
 - Dampen a soft rag paper so that the type bites 0.1–0.3 mm into it.
 - Print each ink from a separate forme or a separate pull, and register them by pins or lays.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Eastern Color Printing** (publisher, Waterbury, Connecticut, 1928–2002), published the style. A colour printer in Connecticut that published Famous Funnies, the first American comic book in the modern form. It printed comics for other publishers until 1973.
 

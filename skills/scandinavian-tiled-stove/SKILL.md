@@ -172,11 +172,11 @@ A stove of fired clay tiles holds a hot fire for an hour and gives out its heat 
 - Burn one hot load of wood in 1 to 2 hours and close the damper.
 - Let the tile mass give out heat for 12 to 24 hours.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Rörstrand** (workshop, Stockholm and Lidköping, Sweden, 1726–now), made the style. A Swedish pottery that started in Stockholm in 1726. From the 1760s it was a leading maker of tiled stoves for Swedish homes.
+- **Rörstrand** (company, Stockholm and Lidköping, Sweden, 1726–now), made the style. A Swedish pottery that started in Stockholm in 1726. From the 1760s it was a leading maker of tiled stoves for Swedish homes.
 
 ## Permutations
 

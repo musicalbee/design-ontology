@@ -163,12 +163,12 @@ A thin coat of glass that is fused to iron or steel at about 800 °C. It makes a
 - Apply a top coat of 0.1 to 0.3 mm in white or a single colour and fire it again.
 - Leave the edges rolled: the enamel chips at a sharp edge and shows the dark metal.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **International Exhibition of Modern Decorative and Industrial Arts** (exhibition, Paris, 1925–1925), exhibited the style. A world's fair of decorative and industrial arts. Its pavilions and rooms showed the new luxury style that later got the name Art Deco from this show.
-- **Van Cleef & Arpels workshop** (workshop, Place Vendôme, Paris, 1906–now), launched the style. The jewellery house that Alfred Van Cleef and Salomon Arpels opened in Paris in 1906. Its workshop made the minaudière, a rigid evening case, in 1933.
+- **Van Cleef & Arpels workshop** (company, Place Vendôme, Paris, 1906–now), launched the style. The jewellery house that Alfred Van Cleef and Salomon Arpels opened in Paris in 1906. Its workshop made the minaudière, a rigid evening case, in 1933.
 
 ## Permutations
 

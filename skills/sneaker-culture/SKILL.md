@@ -159,11 +159,11 @@ A sealed bag of gas in the midsole of a shoe, which gives a spring under the hee
 - Set the bag in the heel of the foam midsole.
 - Show the bag in a window of the midsole.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Nike, Inc.** (workshop, Beaverton, Oregon, United States, 1971–now), launched the style. The sports shoe company that grew out of Blue Ribbon Sports. In 1985 it launched the signed Air Jordan 1.
+- **Nike, Inc.** (company, Beaverton, Oregon, United States, 1971–now), launched the style. The sports shoe company that grew out of Blue Ribbon Sports. In 1985 it launched the signed Air Jordan 1.
 
 ## Permutations
 

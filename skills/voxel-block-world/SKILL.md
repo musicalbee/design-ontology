@@ -171,9 +171,9 @@ A value on a regular 3D grid: the volume version of a pixel. A world of voxels i
 - Keep every surface on the grid; no free rotation.
 - Light each cell by the light level of its neighbours.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **itch.io** (platform, online, 2013–now), sold the style. An open store for independent games, where most PS1-style revival games are published.
 - **Mojang Studios** (studio, Stockholm, 2009–now), made the style. A Swedish studio that makes Minecraft.

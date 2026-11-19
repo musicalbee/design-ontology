@@ -247,9 +247,9 @@ A still image built from a face cut-out, one object, a pointer and 1 to 3 words,
 - Set 1 to 3 words in a heavy face with an 8px outline.
 - Raise saturation by 20% to 40%.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **YouTube** (platform, web, 2005–now), published the style. A web site where people post video. The daily vlog grew here, and it became the main home of the music video.
 

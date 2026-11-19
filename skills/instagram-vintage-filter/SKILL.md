@@ -252,9 +252,9 @@ A saved set of colour and tone changes that a user applies to a photo with one t
 - Show the set as a thumbnail with a short name.
 - Keep one set for all photos when a feed must match.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Instagram** (platform, web, 2010–now), launched the style. A photo and video app. Home and food images spread on it, and it carried trends such as dopamine decor and the film grain look.
 

@@ -177,9 +177,9 @@ Lens or camera movements that keep vertical lines parallel and move the plane of
 - Close the lens to f/11 to f/22 for full depth of field.
 - In an editor, use a narrow band of focus and a strong blur outside it to fake a miniature.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Arts & Architecture** (magazine, Los Angeles, 1929–now), published the style. A California magazine of art and building. Its Case Study House program built and published modern homes, with photos by Julius Shulman.
 

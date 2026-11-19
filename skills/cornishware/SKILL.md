@@ -170,11 +170,11 @@ Liquid clay is poured into a plaster mould. The plaster takes water from the cla
 - Pour out the rest of the slip.
 - Open the mould when the clay is leather-hard and fettle the seam.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **T. G. Green and Co.** (workshop, Church Gresley, Derbyshire, England, 1864–now), made the style. A pottery firm that Thomas Goodwin Green began in 1864 in Boston, Lincolnshire. Its works at Church Gresley made kitchen ware with blue bands from 1924, and the range gained the name Cornishware.
+- **T. G. Green and Co.** (company, Church Gresley, Derbyshire, England, 1864–now), made the style. A pottery firm that Thomas Goodwin Green began in 1864 in Boston, Lincolnshire. Its works at Church Gresley made kitchen ware with blue bands from 1924, and the range gained the name Cornishware.
 
 ## Permutations
 

@@ -245,9 +245,9 @@ A face made of keyboard characters, read sideways in the West and upright in Jap
 - Keep the face on the baseline of the line, with 1 space on each side.
 - Use at most 1 or 2 faces in one message.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **2channel** (platform, web, 1999–now), gathered the style. A large anonymous Japanese message board. Its users spread text faces, and many kaomoji began or grew in its threads.
 

@@ -167,11 +167,11 @@ A dress made of plastic or metal discs that small rings link together, with no c
 - Join each disc to its neighbours with small metal rings, using pliers.
 - Shape the sheet to the body with a few darts of rings, and add a plain lining at the neck and the armhole.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Courrèges couture house** (workshop, Paris, 1961–now), launched the style. The couture house that André Courrèges opened in 1961. It cut and sewed the white A-line dresses and flat boots of the Space Age collection.
+- **Courrèges couture house** (company, Paris, 1961–now), launched the style. The couture house that André Courrèges opened in 1961. It cut and sewed the white A-line dresses and flat boots of the Space Age collection.
 - **Vogue** (magazine, New York, 1892–now), published the style. A fashion magazine. It commissions fashion photographs and sets its name in a high-contrast Didone type.
 
 ## Permutations

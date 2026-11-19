@@ -168,11 +168,11 @@ The chef writes the menu after the visit to the market or the farm, and the dish
 - Write the menu after the purchase, and keep it short.
 - Print or write the menu by hand on the day, and name the farm or the market.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **La Régalade** (workshop, Paris, ?–now), launched the style. A restaurant in the 14th arrondissement of Paris. Yves Camdeborde bought it in 1992 and cooked a fixed menu of bistro dishes there until he sold it.
+- **La Régalade** (company, Paris, ?–now), launched the style. A restaurant in the 14th arrondissement of Paris. Yves Camdeborde bought it in 1992 and cooked a fixed menu of bistro dishes there until he sold it.
 
 ## Permutations
 

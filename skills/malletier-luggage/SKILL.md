@@ -164,11 +164,11 @@ Cotton or linen canvas covered with lacquer, paint or resin, so that it sheds ra
 - Dry each layer, then stove or press the surface to a smooth finish.
 - Print or stripe the pattern before the last coat, so that the coat protects it.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Louis Vuitton trunk-maker's shop** (workshop, Rue Neuve-des-Capucines, Paris, 1854–now), launched the style. The shop that Louis Vuitton opened in Paris in 1854. It sold flat-topped trunks in coated canvas, built in a workshop at Asnières from 1859.
+- **Louis Vuitton trunk-maker's shop** (company, Rue Neuve-des-Capucines, Paris, 1854–now), launched the style. The shop that Louis Vuitton opened in Paris in 1854. It sold flat-topped trunks in coated canvas, built in a workshop at Asnières from 1859.
 
 ## Permutations
 

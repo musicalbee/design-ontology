@@ -187,9 +187,9 @@ One motif or one frame, repeated with small changes in a set of works, so that t
 - Keep the spacing between works equal to a fixed unit, such as 10 cm or one panel width.
 - Remove the hand: use a mechanical edge, a stencil or a plain lens.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Leo Castelli Gallery** (gallery, New York, 1957–now), exhibited the style. The gallery of the dealer Leo Castelli. It showed Pop Art and then Minimalism.
 - **The Factory** (studio, New York, 1964–1987), made the style. The studio of Andy Warhol. Assistants printed silkscreens there, and artists, actors and musicians met there.

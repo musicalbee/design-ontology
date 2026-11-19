@@ -174,11 +174,11 @@ A thick glaze that blisters and runs in the kiln. It leaves a rough, cratered su
 - Fire it so that the layer blisters and runs.
 - Cool the kiln slowly so that the crater surface sets.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Bay Keramik** (workshop, Ransbach-Baumbach, Germany, ?–now), made the style. A pottery of the Westerwald region of West Germany. It made many of the fat lava vases of the 1960s and 1970s.
+- **Bay Keramik** (company, Ransbach-Baumbach, Germany, ?–now), made the style. A pottery of the Westerwald region of West Germany. It made many of the fat lava vases of the 1960s and 1970s.
 
 ## Permutations
 

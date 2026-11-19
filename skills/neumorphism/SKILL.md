@@ -251,9 +251,9 @@ A light shadow on one side and a dark shadow on the other, on a ground of the sa
 - Cast a dark shadow 6 to 12 px to the bottom right and a light shadow at the same distance to the top left.
 - Blur each shadow by 2 times its distance.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Dribbble** (platform, web, 2009–now), published the style. A web site where designers post small shots of interface work. Several interface trends, neumorphism among them, spread from shots that were posted there.
 

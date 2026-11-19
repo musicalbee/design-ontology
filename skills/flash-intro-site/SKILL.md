@@ -248,9 +248,9 @@ A vector shape moves, changes size or fades between two key frames, and the tool
 - Keep the movement to 40px to 120px per scene.
 - Add a sound cue at the end of the move.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Newgrounds** (platform, web, 1995–now), published the style. A web site where users post Flash games and animations. It spread the look of Flash sites.
 

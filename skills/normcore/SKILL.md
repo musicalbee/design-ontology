@@ -245,9 +245,9 @@ A photograph that hides its own styling: the subject faces the camera in flat da
 - Centre the subject and keep a neutral wall or a plain street behind it.
 - Do not apply a filter, a vignette or a grade beyond a white balance.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Instagram** (platform, web, 2010–now), published the style. A photo and video app. Home and food images spread on it, and it carried trends such as dopamine decor and the film grain look.
 

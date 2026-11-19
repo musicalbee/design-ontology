@@ -170,11 +170,11 @@ Lines are cut into leather-hard clay and filled with white or black slip. The gl
 - Scrape the surface flat.
 - Cover with glaze and fire.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Gangjin kilns** (workshop, Gangjin, South Jeolla, Korea, ?–now), made the style. The main kiln sites of Goryeo celadon, in the south-west of Korea. Potters here fired the green ware and inlaid it with white and black slip.
+- **Gangjin kilns** (collective, Gangjin, South Jeolla, Korea, ?–now), made the style. The main kiln sites of Goryeo celadon, in the south-west of Korea. Potters here fired the green ware and inlaid it with white and black slip.
 
 ## Permutations
 

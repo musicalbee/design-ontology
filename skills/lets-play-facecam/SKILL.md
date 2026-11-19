@@ -253,9 +253,9 @@ A small live window of the player's face placed above the main picture, so the v
 - Add a 4px border and a 12px radius.
 - Keep the window clear of the game HUD.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Twitch** (platform, web, 2011–now), published the style. A live video site, first for games. Its stream layouts, with a face window, chat and alert boxes, set the overlay look.
 - **YouTube** (platform, web, 2005–now), published the style. A web site where people post video. The daily vlog grew here, and it became the main home of the music video.

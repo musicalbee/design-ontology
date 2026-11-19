@@ -157,11 +157,11 @@ A woven elastic band with the name of a designer in plain capitals; it turns a b
 - Sew the band to the top of the brief or the short.
 - Let the name show above the waist of the trouser.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Calvin Klein fashion house** (workshop, New York, 1968–now), launched the style. The fashion house that Calvin Klein founded in 1968. In the 1980s its underwear and jeans lines made the name on the waistband a mark of status.
+- **Calvin Klein fashion house** (company, New York, 1968–now), launched the style. The fashion house that Calvin Klein founded in 1968. In the 1980s its underwear and jeans lines made the name on the waistband a mark of status.
 
 ## Permutations
 

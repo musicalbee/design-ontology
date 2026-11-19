@@ -170,11 +170,11 @@ A short, hot firing of one small piece. The potter opens the kiln and pulls the 
 - Fire it alone in a small kiln until the glaze melts, at 800 to 1000 °C.
 - Pull it out with tongs and let it cool in the air.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Raku family kiln** (workshop, Kyoto, Japan, 1580–now), made the style. The workshop of the Raku family in Kyoto. Chōjirō started it about 1580, and each head of the family makes black and red tea bowls to this day.
+- **Raku family kiln** (studio, Kyoto, Japan, 1580–now), made the style. The workshop of the Raku family in Kyoto. Chōjirō started it about 1580, and each head of the family makes black and red tea bowls to this day.
 
 ## Permutations
 

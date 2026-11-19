@@ -244,9 +244,9 @@ A model that learns to turn noise into an image step by step, and makes a new im
 - Expect smooth skin, even light and a glossy, over-detailed finish when the prompt gives no flaw.
 - Add a concrete flaw to the prompt, such as grain, a lens fault or a cluttered ground, to break the sheen.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Craiyon** (platform, web, 2021–now), made the style. A free web page that turns a text prompt into a 3x3 grid of small, soft images. Users shared its grids as memes.
 

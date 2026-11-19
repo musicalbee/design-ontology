@@ -245,9 +245,9 @@ A fault in a signal, kept as an image: torn lines, split colour channels and rep
 - Run the effect in bursts of 2 to 6 frames at 24 fps, and leave the image clean between bursts.
 - Do not apply it to body text.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **SoundCloud** (platform, web, 2007–now), published the style. A site where people post music. The digicore and hyperpop scenes shared tracks and cover art here.
 - **TikTok** (platform, web, 2016–now), published the style. A video app of short vertical clips. Its feed set the form of vertical short-form video and spread the camcorder revival.

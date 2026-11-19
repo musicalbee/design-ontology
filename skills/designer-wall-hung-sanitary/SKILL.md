@@ -173,11 +173,11 @@ A toilet seat with a heater and a hidden nozzle that sprays warm water. A small 
 - Hide the nozzle in a cover and rinse it with clean water before and after each use.
 - Place the controls on the side of the seat or on a wall remote.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Duravit** (workshop, Hornberg, Germany, 1817–now), launched the style. A German maker of sanitary ceramics that began in 1817 in the Black Forest. In 1994 it launched a range that Philippe Starck designed.
+- **Duravit** (company, Hornberg, Germany, 1817–now), launched the style. A German maker of sanitary ceramics that began in 1817 in the Black Forest. In 1994 it launched a range that Philippe Starck designed.
 
 ## Permutations
 

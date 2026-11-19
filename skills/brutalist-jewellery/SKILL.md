@@ -163,11 +163,11 @@ A method that melts a wax model out of a mould and fills the empty space with mo
 - Cover the model with clay and bake it, so that the wax melts out.
 - Pour molten metal into the empty mould and break the mould.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Andrew Grima, jeweller** (workshop, London, ?–now), made the style. The London jewellery house of Andrew Grima. It made heavy, textured gold jewels with rough and uncut stones.
+- **Andrew Grima, jeweller** (company, London, ?–now), made the style. The London jewellery house of Andrew Grima. It made heavy, textured gold jewels with rough and uncut stones.
 
 ## Permutations
 

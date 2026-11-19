@@ -167,11 +167,11 @@ A hollow slab of fine clay with a coloured glaze on the visible face. It clads a
 - Spray the visible face with a coloured glaze and fire it again.
 - Tie the slab to the frame with metal ties and set it with thin joints.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Atlantic Terra Cotta Company** (workshop, New York, ?–now), made the style. A New York works that made glazed architectural terracotta for the towers, shops and cinemas of the 1920s and 1930s.
+- **Atlantic Terra Cotta Company** (company, New York, ?–now), made the style. A New York works that made glazed architectural terracotta for the towers, shops and cinemas of the 1920s and 1930s.
 
 ## Permutations
 

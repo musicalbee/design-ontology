@@ -240,9 +240,9 @@ Change the speed of one clip inside a single shot, from slow motion to fast play
 - Smooth the curve over 6 to 12 frames.
 - Add a 2px zoom or shake on the jump.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **CapCut** (platform, web, 2020–now), made the style. A video-editing app by ByteDance with templates, speed curves and effects for short vertical clips.
 

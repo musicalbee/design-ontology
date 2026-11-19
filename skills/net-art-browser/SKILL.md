@@ -248,9 +248,9 @@ Using the raw look of a browser, with no style sheet, as the surface of a work. 
 - Show a frame, an error or the source as visible content.
 - Add no images, or one stretched GIF.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Rhizome** (platform, New York, 1996–now), published the style. An online platform for new media art. It hosted a mailing list, an archive and the work of net artists.
 

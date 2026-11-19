@@ -256,9 +256,9 @@ Fragments of photographs, cut and joined on one sheet, so that the joins make a 
 - Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.
 - Set type as one more fragment, turned 0° to 30°, in the same stack of layers.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **LEF** (magazine, Moscow, 1923–1925), launched the style. A journal of the Soviet left front of the arts. Rodchenko made its covers with photomontage, diagonals and heavy type, the vocabulary that constructivist web pages take up.
 

@@ -162,11 +162,11 @@ A trial garment in plain calico, fitted and pinned on the client or on a stand b
 - Pin and mark the changes on the body, then take the toile apart and use it as the pattern.
 - Fit again in the real cloth two or three times before the hand finish.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Jil Sander fashion house** (workshop, Hamburg, 1968–now), launched the style. The Hamburg house that Jil Sander began in 1968. It made plain clothes in fine cloth that set the line of 1990s minimalism.
+- **Jil Sander fashion house** (company, Hamburg, 1968–now), launched the style. The Hamburg house that Jil Sander began in 1968. It made plain clothes in fine cloth that set the line of 1990s minimalism.
 - **Vogue** (magazine, New York, 1892–now), published the style. A fashion magazine. It commissions fashion photographs and sets its name in a high-contrast Didone type.
 
 ## Permutations

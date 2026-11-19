@@ -251,9 +251,9 @@ A thin wash of slaked lime that dries to a soft, matt white with a faint cloud o
 - Keep the finish matt; the surface must take light with no sheen.
 - Use pale tints only: white, sand and chalk blue.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Awwwards** (platform, web, 2009–now), published the style. A web site that gives awards to web design. Designers post sites there, and its daily picks spread trends of the expressive web.
 

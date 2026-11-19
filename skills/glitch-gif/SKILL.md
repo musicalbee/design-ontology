@@ -254,9 +254,9 @@ A fault in a signal, kept as an image: torn lines, split colour channels and rep
 - Run the effect in bursts of 2 to 6 frames at 24 fps, and leave the image clean between bursts.
 - Do not apply it to body text.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Tumblr** (platform, web, 2007–now), published the style. A microblog site of reblogged images. Vaporwave and other net aesthetics grew in its image feeds.
 

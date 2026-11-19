@@ -304,9 +304,9 @@ Parallel grooves (flutes) or ridges (reeds) on a column, a panel, a leg or a she
 - Run the flutes vertical to make a surface look taller.
 - Use one fluted surface in each room as an accent.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Architectural Digest** (magazine, Los Angeles, 1920–now), published the style. A magazine of interiors and houses. It published the homes of Hollywood stars and later the soft, curved rooms of new glamour.
 

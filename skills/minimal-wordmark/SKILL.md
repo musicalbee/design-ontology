@@ -128,9 +128,9 @@ Capital letters set with wide space between them, so that a short word reads as 
 - Use roman capitals with strong serifs or a clean geometric sans.
 - Keep the line to one to four words.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Pentagram** (studio, London and New York, 1972–now), made the style. A design studio owned by its partners. It drew many wordmarks for companies and institutions.
 

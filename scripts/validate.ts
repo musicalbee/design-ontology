@@ -15,7 +15,7 @@ import { checkIndustrialStyle, checkNet, checkVocabulary, loadNetContext, loadNe
 import { checkFashionStyle, checkFashionVocabulary, loadFashionVocabulary, type FashionStyle } from "./fashion.js";
 import { checkCeramicsStyle, checkCeramicsVocabulary, loadCeramicsVocabulary, type CeramicsStyle } from "./ceramics.js";
 import { checkCuisineStyle, checkCuisineVocabulary, loadCuisineVocabulary, type CuisineStyle } from "./cuisine.js";
-import { ROOT, loadDomains, loadEras, loadMedia, loadPeople, loadPrinciples, loadStyleFiles, loadTechniques, principleRefs, readJson, type Style } from "./lib.js";
+import { ROOT, loadDomains, loadEras, loadOrgs, loadPeople, loadPrinciples, loadStyleFiles, loadTechniques, principleRefs, readJson, type Style } from "./lib.js";
 
 const schemaOnly = process.argv.includes("--schema-only");
 const errors: string[] = [];
@@ -170,6 +170,18 @@ if (!schemaOnly && errors.length === 0) {
     check("lineage.rebelled_against", l.rebelled_against, "same");
     check("lineage.hybridized_with", l.hybridized_with, "same");
     check("lineage.echoes", l.echoes ?? [], "other");
+    if (l.subgenre_of) {
+      check("lineage.subgenre_of", [l.subgenre_of], "same");
+      // Walk up the parents: a loop of sub-genres has no top.
+      const seen = new Set([style.id]);
+      for (let p = byId.get(l.subgenre_of); p?.lineage.subgenre_of; p = byId.get(p.lineage.subgenre_of)) {
+        if (seen.has(p.id)) { errors.push(`${where}: lineage.subgenre_of makes a loop through "${p.id}"`); break; }
+        seen.add(p.id);
+      }
+      const parent = byId.get(l.subgenre_of);
+      if (parent && parent.time_period.start > style.time_period.start)
+        warnings.push(`${where}: sub-genre starts in ${style.time_period.start}, before its parent "${parent.id}" (${parent.time_period.start})`);
+    }
     check("agent.modifiers.toward", style.agent.modifiers.map((m) => m.toward), "any");
 
     for (const ref of [...l.evolved_from, ...l.rebelled_against]) {
@@ -179,7 +191,7 @@ if (!schemaOnly && errors.length === 0) {
     }
     const overlap = l.evolved_from.filter((r) => l.rebelled_against.includes(r));
     if (overlap.length) warnings.push(`${where}: "${overlap.join(", ")}" is both an ancestor and a target of rebellion`);
-    if (!l.evolved_from.length && !l.rebelled_against.length && !l.hybridized_with.length)
+    if (!l.evolved_from.length && !l.rebelled_against.length && !l.hybridized_with.length && !l.subgenre_of)
       warnings.push(`${where}: no lineage edges in its own domain (root node)`);
 
     // Two styles of one domain with the same vector cannot be told apart by the vector.
@@ -293,13 +305,14 @@ for (const { file, slug, person } of people) {
 }
 
 
-// The media layer: salons, clubs, workshops, magazines, publishers, galleries, auction houses, platforms.
-const validateMedium = ajv.compile(readJson<object>(join(ROOT, "schema", "medium.schema.json")));
-const media = loadMedia();
+// The organisation layer: groups (crews, collectives, councils, studios, companies), channels and backers.
+const validateOrg = ajv.compile(readJson<object>(join(ROOT, "schema", "org.schema.json")));
+const orgs = loadOrgs();
+const orgIds = new Set(orgs.map((o) => o.slug));
 const personIds = new Set(people.map((p) => p.slug));
-for (const { file, slug, medium: m } of media) {
-  if (!validateMedium(m)) {
-    for (const e of validateMedium.errors ?? []) errors.push(`${file}: ${e.instancePath || "/"} ${e.message}`);
+for (const { file, slug, org: m } of orgs) {
+  if (!validateOrg(m)) {
+    for (const e of validateOrg.errors ?? []) errors.push(`${file}: ${e.instancePath || "/"} ${e.message}`);
     continue;
   }
   if (m.id !== slug) errors.push(`${file}: id "${m.id}" is not equal to the file name`);
@@ -307,13 +320,26 @@ for (const { file, slug, medium: m } of media) {
   if (new Set(m.styles.map((s) => s.style)).size !== m.styles.length) errors.push(`${file}: a style is listed more than once`);
   for (const s of m.styles) if (!schemaOnly && !byId.has(s.style)) errors.push(`${file}: style "${s.style}" does not exist`);
   for (const p of m.people ?? []) if (!personIds.has(p)) errors.push(`${file}: person "${p}" is not in data/people/`);
+  for (const x of m.members ?? []) {
+    if (!personIds.has(x.person)) errors.push(`${file}: member "${x.person}" is not in data/people/`);
+    if (x.from != null && x.to != null && x.to < x.from) errors.push(`${file}: member "${x.person}" leaves (${x.to}) before joining (${x.from})`);
+  }
+  if (new Set((m.members ?? []).map((x) => x.person)).size !== (m.members ?? []).length) errors.push(`${file}: a member is listed more than once`);
+  for (const [rel, ids] of Object.entries(m.relations ?? {}))
+    for (const o of ids ?? []) {
+      if (o === m.id) errors.push(`${file}: relations.${rel} refers to itself`);
+      else if (!orgIds.has(o)) errors.push(`${file}: relations.${rel} → "${o}" is not in data/orgs/`);
+    }
+  for (const mv of m.moves ?? [])
+    if ((m.founded !== null && mv.year < m.founded) || (m.closed !== null && mv.kind !== "closure" && mv.year > m.closed))
+      warnings.push(`${file}: move ${mv.year} (${mv.kind}) is outside ${m.founded ?? "?"}–${m.closed ?? "now"}`);
 }
 
 // The curation gate (CONTRIBUTING.md, "The six curation rules"). A miss is an error. The only
 // exception is a style on data/curation-allowlist.json, which can only shrink.
 let curation = "";
 if (!schemaOnly && errors.length === 0) {
-  const layers = { people: people.map((p) => p.person), techniques: techniques.map((t) => t.technique), media: media.map((m) => m.medium) };
+  const layers = { people: people.map((p) => p.person), techniques: techniques.map((t) => t.technique), orgs: orgs.map((m) => m.org) };
   const missesById = new Map<string, Map<Rule, string>>();
   for (const style of byId.values()) {
     const domain = domains.find((d) => d.id === style.domain)!;
@@ -333,6 +359,6 @@ for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`error ${e}`);
 console.log(
   `${count} styles in ${domains.length} domains · ${principles.length} principles · ${techniques.length} techniques · ${people.length} people · ${errors.length} errors · ${warnings.length} warnings` +
-    ` · ${media.length} media · ${nets.length} object nets` + curation + (schemaOnly ? " · schema only" : ""),
+    ` · ${orgs.length} orgs · ${nets.length} object nets` + curation + (schemaOnly ? " · schema only" : ""),
 );
 process.exit(errors.length ? 1 : 0);

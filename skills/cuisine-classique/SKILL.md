@@ -185,12 +185,12 @@ A pair of kitchen bases: a stock made from bones and meat, and a roux of flour a
 - Cook flour in butter over low heat to the colour that the sauce needs.
 - Whisk the stock into the roux and simmer the sauce until it coats a spoon.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Le Cordon Bleu** (school, Paris, 1895–now), taught the style. A cookery school in Paris that taught the classic French kitchen to home cooks and to professionals from abroad.
-- **Savoy Hotel** (workshop, London, 1889–now), launched the style. A London hotel with electric light and its own restaurant kitchen. Escoffier and Ritz ran it from 1890 to 1897.
+- **Savoy Hotel** (company, London, 1889–now), launched the style. A London hotel with electric light and its own restaurant kitchen. Escoffier and Ritz ran it from 1890 to 1897.
 
 ## Permutations
 

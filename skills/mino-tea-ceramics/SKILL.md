@@ -168,11 +168,11 @@ The potter bends a thrown form when the clay is soft, so that the piece leans, t
 - Keep one side higher than the other by 5 to 15 mm.
 - Add a glaze that gathers in the dents.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Mino kilns** (workshop, Mino province (Gifu), Japan, ?–now), made the style. The kilns of the Mino area in central Japan. In the Momoyama period they made Shino, Oribe and Setoguro tea ware in climbing kilns.
+- **Mino kilns** (collective, Mino province (Gifu), Japan, ?–now), made the style. The kilns of the Mino area in central Japan. In the Momoyama period they made Shino, Oribe and Setoguro tea ware in climbing kilns.
 
 ## Permutations
 

@@ -239,9 +239,9 @@ A method that changes a photograph to raise the response of one network layer, s
 - Repeat at 4 to 8 image sizes (octaves) and mix the results back into one image.
 - Feed the output back in and zoom 3% for each frame to make an endless loop.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **GitHub** (platform, web, 2007–now), published the style. A web site where developers host code. Its own dark interface and the editor themes and terminal tools that it hosts set the look of software for engineers.
 

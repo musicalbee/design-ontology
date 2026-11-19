@@ -239,9 +239,9 @@ Lines with a small jitter and a double stroke, so that a drawing on a screen loo
 - Draw each line twice with a small change, as a pencil does.
 - Fill shapes with hatching at 45 degrees, not with flat colour.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **4chan** (platform, web, 2003–now), launched the style. An anonymous image board. In 2019 a post of an empty yellow room on its paranormal board began the Backrooms and the liminal spaces look.
 - **Reddit** (platform, web, 2005–now), published the style. A forum site of topic groups. The groups on Weirdcore and Liminalspace spread the images of empty, strange places.

@@ -164,11 +164,11 @@ A frame of platinum, a metal strong enough to hold stones with thin lines, so th
 - Saw and file the platinum and join the parts with a torch.
 - Set each stone in fine claws and add a milgrained edge.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Cartier jewellery house** (workshop, Paris, 1847–now), made the style. The Paris jeweller that made early wristwatches for men and, from 1917, the Tank. Its shapes carried the wristwatch into Art Deco design.
+- **Cartier jewellery house** (company, Paris, 1847–now), made the style. The Paris jeweller that made early wristwatches for men and, from 1917, the Tank. Its shapes carried the wristwatch into Art Deco design.
 
 ## Permutations
 

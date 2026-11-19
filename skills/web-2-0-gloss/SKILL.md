@@ -253,9 +253,9 @@ A button with a vertical gradient, a white highlight on the top half and a soft 
 - Add a 1px inner highlight at the top edge and a shadow of 0 2px 4px below.
 - Round the corners at 6px to 12px.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **The Iconfactory** (studio, Greensboro, North Carolina, 1996–now), made the style. An icon design studio. It made pixel icons for early desktops and detailed, lit icons for Mac OS X and iOS.
 - **Web 2.0 Conference** (exhibition, San Francisco, 2004–now), gathered the style. A conference of web companies that spread the term Web 2.0 and its ideas of user-made content.

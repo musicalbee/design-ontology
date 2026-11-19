@@ -165,9 +165,9 @@ The weaving of patterns into silk cloth on a draw loom, so that flowers and ribb
 - Weave the ground in satin or taffeta, and float the coloured or gold weft to make the pattern.
 - Press the cloth and cut it with the pattern in scale with the gown.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Galerie des modes et costumes français** (magazine, Paris, France, 1778–1787), published the style. A series of engraved fashion plates of Paris dress, sold in sets to the court and the towns. It shows the Rococo gown and its change to plainer lines.
 

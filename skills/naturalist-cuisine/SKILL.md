@@ -166,12 +166,12 @@ The cook gathers wild plants, flowers, mushrooms and shellfish near the kitchen,
 - Pick only what the kitchen uses that day, and leave the root.
 - Write the menu after the harvest, not before.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Mugaritz** (workshop, Errenteria, Spain, 1998–now), made the style. A restaurant in the hills near San Sebastián and a research kitchen, where Andoni Luis Aduriz joins wild plants with odd texture and play.
-- **Restaurant Bras** (workshop, Laguiole, France, 1978–now), launched the style. The family restaurant of Michel Bras in the Aubrac, where he first made the gargouillou and built the plate as a landscape of plants.
+- **Mugaritz** (company, Errenteria, Spain, 1998–now), made the style. A restaurant in the hills near San Sebastián and a research kitchen, where Andoni Luis Aduriz joins wild plants with odd texture and play.
+- **Restaurant Bras** (company, Laguiole, France, 1978–now), launched the style. The family restaurant of Michel Bras in the Aubrac, where he first made the gargouillou and built the plate as a landscape of plants.
 
 ## Permutations
 

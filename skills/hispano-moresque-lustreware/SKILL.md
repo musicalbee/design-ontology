@@ -169,11 +169,11 @@ A paint with copper and silver salts is brushed on a glazed pot. A second firing
 - Fire the pot again at about 600 °C in a smoky kiln.
 - Wash off the ochre to show the metallic film.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Manises potteries** (workshop, Manises, Valencia, Spain, ?–now), made the style. A town near Valencia where Moorish and then Christian potters made lustre ware. Its dishes went by ship to Italy, France and Burgundy.
+- **Manises potteries** (collective, Manises, Valencia, Spain, ?–now), made the style. A town near Valencia where Moorish and then Christian potters made lustre ware. Its dishes went by ship to Italy, France and Burgundy.
 
 ## Permutations
 

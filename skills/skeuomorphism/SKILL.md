@@ -266,9 +266,9 @@ A detail that copies the material or the form of an older object, though it no l
 - Light every surface from one source above, at 90 degrees.
 - Keep the old details that tell the use: stitches, page edges, knobs and screws.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **App Store** (platform, online, 2008–now), published the style. The store of Apple for iPhone and iPad apps. Apps and their icons follow the platform look of each era, from leather and glass to flat colour and Liquid Glass, and premium mobile games with a clean art style found a large public there.
 

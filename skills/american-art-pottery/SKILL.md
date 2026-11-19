@@ -174,11 +174,11 @@ A thick, dry-looking glaze with a velvet surface. The potter adds alumina or a s
 - Fire it to the full heat and cool it slowly.
 - Wipe the shoulder clean of drips to show the form.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Rookwood Pottery** (workshop, Cincinnati, Ohio, United States, 1880–now), made the style. A pottery in Cincinnati that Maria Longworth Nichols founded in 1880. Its artists painted slip under a clear glaze, and the Standard glaze line made it famous.
+- **Rookwood Pottery** (company, Cincinnati, Ohio, United States, 1880–now), made the style. A pottery in Cincinnati that Maria Longworth Nichols founded in 1880. Its artists painted slip under a clear glaze, and the Standard glaze line made it famous.
 
 ## Permutations
 

@@ -172,9 +172,9 @@ A render model in which each material has measured albedo, roughness and metalne
 - Set roughness and metalness from measured or scanned samples.
 - Light with physical units and a real sky; let light bounce.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Epic Games** (studio, Cary, North Carolina, 1991–now), made the style. An American studio and engine maker: the gritty HD shooters of the 2000s, then physically based Unreal Engine.
 - **Polycount** (platform, online, ?–now), gathered the style. An online forum and wiki for game artists, with much shared practice on hand-painted and PBR texture work.

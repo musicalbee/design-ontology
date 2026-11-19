@@ -177,11 +177,11 @@ The cook sets the sauces, the fish and the seasoning of Asia on a plate with a F
 - Add one or two Asian seasonings to the sauce: soy, ginger, miso or yuzu.
 - Finish with a butter or an oil, and plate it with a clean, modern shape.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Chinois on Main** (workshop, Santa Monica, 1983–now), launched the style. A restaurant in Santa Monica, California, opened by Wolfgang Puck and Barbara Lazaroff. It served French and Californian food with Chinese and Asian flavours.
+- **Chinois on Main** (company, Santa Monica, 1983–now), launched the style. A restaurant in Santa Monica, California, opened by Wolfgang Puck and Barbara Lazaroff. It served French and Californian food with Chinese and Asian flavours.
 
 ## Permutations
 

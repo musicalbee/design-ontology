@@ -167,11 +167,11 @@ A way to knit each part of a garment to shape, and then to join the parts by lin
 - Join the panels by linking stitch to stitch on a linking machine or by hand.
 - Wash and block the piece so that the seams lie flat.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Brunello Cucinelli house** (workshop, Solomeo, 1978–now), made the style. The firm that Brunello Cucinelli began in 1978 with cashmere in colour. It makes fine, logo-free clothes in the village of Solomeo.
+- **Brunello Cucinelli house** (company, Solomeo, 1978–now), made the style. The firm that Brunello Cucinelli began in 1978 with cashmere in colour. It makes fine, logo-free clothes in the village of Solomeo.
 
 ## Permutations
 

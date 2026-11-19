@@ -256,9 +256,9 @@ Drawing with the block and shade characters of the IBM PC character set, in 16 c
 - Limit one cell to one foreground colour from 16 and one background colour from 8.
 - Add a signature in the lower right corner.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **ACiD Productions** (studio, web, 1990–now), published the style. An art group of ANSI artists. It released its work as monthly art packs for bulletin boards.
 

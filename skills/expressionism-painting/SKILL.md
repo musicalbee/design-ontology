@@ -188,12 +188,12 @@ A print from a block of wood with the white parts cut away; the result is flat c
 - Print with a flat, opaque ink and leave the grain and the knife marks visible.
 - Keep the shapes flat, with no more than 3 to 6 tones in a print.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Der Sturm** (magazine, Berlin, 1910–1932), published the style. A magazine and gallery of Herwarth Walden. It published and showed Expressionist art.
-- **Die Brücke** (club, Dresden, 1905–1913), launched the style. A group of young German painters. They printed woodcuts and painted in raw, strong colour, and they started Expressionism.
+- **Die Brücke** (crew, Dresden, 1905–1913), launched the style. A group of young German painters. They printed woodcuts and painted in raw, strong colour, and they started Expressionism.
 
 ## Permutations
 

@@ -247,9 +247,9 @@ A frame that holds only a part of a face, such as the eyes; the cut from a wide 
 - Hold each close-up for 2 to 4 seconds and cut back to the wide view when the look ends.
 - In a painting, scale the head to 2 metres or more and keep the focus even over the full face.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Tumblr** (platform, web, 2007–now), launched the style. A microblog site of reblogged images. Vaporwave and other net aesthetics grew in its image feeds.
 

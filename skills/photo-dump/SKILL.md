@@ -246,9 +246,9 @@ A single post that holds several images or clips that the viewer swipes through.
 - Open with the best item and end with a light one.
 - Let each item keep its own crop.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Instagram** (platform, web, 2010–now), published the style. A photo and video app. Home and food images spread on it, and it carried trends such as dopamine decor and the film grain look.
 

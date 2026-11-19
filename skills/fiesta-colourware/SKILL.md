@@ -170,11 +170,11 @@ A lead glaze that holds uranium oxide fires to a bright orange-red. The red cann
 - Fire in clean air at the glost heat.
 - Check each piece for an even red.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Homer Laughlin China Company** (workshop, Newell, West Virginia, USA, 1871–now), made the style. The American pottery that made Fiesta from 1936. It sold plain, strong earthenware in solid colours as open stock.
+- **Homer Laughlin China Company** (company, Newell, West Virginia, USA, 1871–now), made the style. The American pottery that made Fiesta from 1936. It sold plain, strong earthenware in solid colours as open stock.
 
 ## Permutations
 

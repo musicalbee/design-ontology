@@ -154,9 +154,9 @@ A print from a block of wood with the white parts cut away; the result is flat c
 - Print with a flat, opaque ink and leave the grain and the knife marks visible.
 - Keep the shapes flat, with no more than 3 to 6 tones in a print.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Doves Press** (publisher, Hammersmith, London, 1900–1916), published the style. A private press in Hammersmith that printed in one typeface, the Doves Type. Its best-known book is the Doves Bible of 1902 to 1904.
 - **Kelmscott Press** (publisher, Hammersmith, London, 1891–1898), published the style. A private press that William Morris started to print books by hand in the manner of the early printers. It cut its own gothic types, Troy and Chaucer, after the letters of the first printed books.

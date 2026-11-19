@@ -185,12 +185,12 @@ A liquid dropped into a calcium bath forms a thin skin of alginate gel; the sphe
 - Lift the sphere out and rinse it in clean water.
 - Serve within 5 minutes, because the gel keeps setting towards the centre.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **elBulli** (workshop, Roses, Spain, 1964–2011), launched the style. A restaurant on Cala Montjoi in Catalonia; under Ferran Adrià, its winter research workshop made foams, spheres and the deconstructed dish.
-- **The Fat Duck** (workshop, Bray, England, 1995–now), made the style. A restaurant in a village by the Thames; Heston Blumenthal built long tasting menus with low-temperature cooking, liquid nitrogen and play with memory.
+- **elBulli** (company, Roses, Spain, 1964–2011), launched the style. A restaurant on Cala Montjoi in Catalonia; under Ferran Adrià, its winter research workshop made foams, spheres and the deconstructed dish.
+- **The Fat Duck** (company, Bray, England, 1995–now), made the style. A restaurant in a village by the Thames; Heston Blumenthal built long tasting menus with low-temperature cooking, liquid nitrogen and play with memory.
 
 ## Permutations
 

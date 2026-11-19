@@ -172,9 +172,9 @@ Ink pushed through a fine mesh with a squeegee; a stencil on the mesh blocks the
 - Pull thick, opaque ink across the screen with a rubber squeegee in one even stroke.
 - Print each colour from its own screen and let each layer dry before the next.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Memphis Group** (studio, Milan, 1980–1987), made the style. A collective of designers round Ettore Sottsass that showed bold laminate furniture and objects. Its first show in 1981 launched the Memphis style.
 

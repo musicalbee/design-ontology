@@ -172,11 +172,11 @@ A hand method to build a thin-walled teapot from beaten slabs and strips of zish
 - Scrape the wall smooth with a steel scraper and a bamboo knife.
 - Grind the lid to fit the mouth with no gap.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Yixing kilns** (workshop, Yixing, Jiangsu, China, ?–now), made the style. The dragon kilns and small workshops of the town of Yixing near Lake Tai. They made unglazed zisha teapots from the 16th century and still do.
+- **Yixing kilns** (collective, Yixing, Jiangsu, China, ?–now), made the style. The dragon kilns and small workshops of the town of Yixing near Lake Tai. They made unglazed zisha teapots from the 16th century and still do.
 
 ## Permutations
 

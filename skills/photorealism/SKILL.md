@@ -195,9 +195,9 @@ A grid laid over a subject or a photograph and a matching grid on the canvas; th
 - Paint each square at the same focus, with an even grain over the full surface.
 - Scale up by a fixed ratio, for example 10:1.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **documenta** (salon, Kassel, 1955–now), exhibited the style. A large exhibition of contemporary art every five years. Its 1972 edition showed the American photorealists.
 

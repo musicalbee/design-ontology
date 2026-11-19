@@ -238,9 +238,9 @@ Two lines of white outlined capitals on a photo: a setup on top and a punch line
 - Place one line 5% to 8% from the top and one 5% to 8% from the bottom.
 - Size each line to 80% to 95% of the width.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Twitter** (platform, web, 2006–now), published the style. A site of short public posts. Its post card is the frame of the tweet screenshot meme, and many label memes spread here.
 

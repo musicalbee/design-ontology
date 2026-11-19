@@ -242,9 +242,9 @@ A model that learns to turn noise into an image step by step, and makes a new im
 - Expect smooth skin, even light and a glossy, over-detailed finish when the prompt gives no flaw.
 - Add a concrete flaw to the prompt, such as grain, a lens fault or a cluttered ground, to break the sheen.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Lensa** (platform, mobile, 2018–now), launched the style. A photo editing app. Its Magic Avatars feature, from late 2022, returned packs of stylised portraits of one face.
 

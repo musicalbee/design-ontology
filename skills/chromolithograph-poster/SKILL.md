@@ -141,11 +141,11 @@ A print from a flat stone or plate on which a greasy drawing takes ink and water
 - Use one stone for each colour; 3 to 5 stones give a poster.
 - Keep the soft crayon grain and the dark, velvet black.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Imprimerie Chaix** (workshop, Paris, 1845–1981), made the style. A Paris printing works that Napoléon Chaix founded. From 1881 it printed the colour posters of Jules Chéret, its artistic director. It merged with Desfossé-Néogravure in 1965, and the Saint-Ouen works were sold in 1981.
+- **Imprimerie Chaix** (company, Paris, 1845–1981), made the style. A Paris printing works that Napoléon Chaix founded. From 1881 it printed the colour posters of Jules Chéret, its artistic director. It merged with Desfossé-Néogravure in 1965, and the Saint-Ouen works were sold in 1981.
 
 ## Permutations
 

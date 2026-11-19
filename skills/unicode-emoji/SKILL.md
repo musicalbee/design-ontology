@@ -246,11 +246,11 @@ A picture or a letter built from square cells that are each on or off, or one fl
 - Draw a diagonal as a stair of equal steps, for example 2 cells across for each 1 cell up.
 - Show the image at an integer scale (2x, 3x, 4x) so that no cell blurs.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Unicode Consortium** (club, California, 1991–now), published the style. A non-profit group of software firms that keeps the Unicode text standard. It added emoji to the standard in 2010 and now votes on each new set.
+- **Unicode Consortium** (council, California, 1991–now), published the style. A non-profit group of software firms that keeps the Unicode text standard. It added emoji to the standard in 2010 and now votes on each new set.
 
 ## Permutations
 

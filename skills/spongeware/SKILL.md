@@ -168,11 +168,11 @@ A piece of sea sponge is dipped in ceramic colour and dabbed or stamped on a bis
 - Dab the sponge on the biscuit in rings or in a loose mottle.
 - Leave a band of 1 to 2 cm at the rim clear, then dip the pot in a clear glaze.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Glasgow Pottery (J. and M. P. Bell)** (workshop, Port Dundas, Glasgow, Scotland, 1842–now), made the style. A large Scottish pottery that made cheap sponged and printed earthenware for the home market and for export to North America.
+- **Glasgow Pottery (J. and M. P. Bell)** (company, Port Dundas, Glasgow, Scotland, 1842–now), made the style. A large Scottish pottery that made cheap sponged and printed earthenware for the home market and for export to North America.
 
 ## Permutations
 

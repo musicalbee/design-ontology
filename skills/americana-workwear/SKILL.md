@@ -163,11 +163,11 @@ A small copper rivet set at a point of strain, such as a pocket corner or the ba
 - Punch a hole through both layers of cloth at the end of the seam.
 - Set a copper rivet through the hole and close it with a die.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Levi Strauss and Company** (workshop, San Francisco, California, 1853–now), launched the style. The dry goods house of Levi Strauss. From 1873 its factory made the riveted waist overall in denim and duck under a patent that Strauss shared with Jacob Davis.
+- **Levi Strauss and Company** (company, San Francisco, California, 1853–now), launched the style. The dry goods house of Levi Strauss. From 1873 its factory made the riveted waist overall in denim and duck under a patent that Strauss shared with Jacob Davis.
 
 ## Permutations
 

@@ -171,9 +171,9 @@ A glaze that comes from wood or plant ash. The ash melts with the clay and makes
 - Mix it with clay and feldspar, or use it alone.
 - Pour or dip the glaze and fire to 1250 °C or more.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Japan Folk Crafts Museum** (gallery, Tokyo, 1936–now), exhibited the style. A museum of everyday craft that Yanagi Soetsu founded to show and teach the beauty of plain, hand-made objects. It made the mingei idea known to makers and designers.
 

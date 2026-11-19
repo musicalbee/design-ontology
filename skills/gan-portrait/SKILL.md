@@ -243,9 +243,9 @@ Two networks that compete: one draws images and the other judges them as real or
 - Align the training faces so that the eyes sit at the same height in every image.
 - Expect small faults in teeth, ears, glasses and the background.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **This Person Does Not Exist** (platform, web, 2019–now), published the style. A web page that shows a new generated face on each reload. It made the generated headshot widely known.
 

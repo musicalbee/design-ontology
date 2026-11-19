@@ -180,9 +180,9 @@ A flash on the camera that fires straight at the subject, so that faces are brig
 - Stand 1 to 3 m from the subject; let the background fall 2 to 4 stops darker.
 - Keep the red eye, the shine on skin and the hard shadow behind the subject.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Myspace** (platform, web, 2003–now), published the style. A social network of profile pages. Users posted flash digicam photos and filled their pages with glitter, gloss and custom code.
 

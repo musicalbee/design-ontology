@@ -169,11 +169,11 @@ Coloured glass enamels are painted on a glazed and fired piece. A third firing a
 - Fire it again in a small muffle kiln at 750 to 850 °C.
 - Add gold in a last low firing, when the design needs it.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Omuro kiln** (workshop, Kyoto, Japan, ?–now), made the style. The kiln of Nonomura Ninsei below the temple of Ninna-ji in Kyoto. It made thin, enamelled tea ware for the court and the temples from the 1640s.
+- **Omuro kiln** (studio, Kyoto, Japan, ?–now), made the style. The kiln of Nonomura Ninsei below the temple of Ninna-ji in Kyoto. It made thin, enamelled tea ware for the court and the temples from the 1640s.
 
 ## Permutations
 

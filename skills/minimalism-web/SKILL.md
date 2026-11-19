@@ -245,9 +245,9 @@ A page or screen divided into equal columns and rows; each element fits a cell o
 - Set text on a baseline grid of one line height, and use 1 to 2 type sizes for each level.
 - Scale an image by a whole number of modules.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Awwwards** (platform, web, 2009–now), published the style. A web site that gives awards to web design. Designers post sites there, and its daily picks spread trends of the expressive web.
 

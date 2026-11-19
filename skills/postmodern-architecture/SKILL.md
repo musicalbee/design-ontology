@@ -193,9 +193,9 @@ Light as a line of coloured gas, with a soft halo that spills onto the dark grou
 - Set the sign on a ground darker than 10% lightness, so that the halo shows.
 - Keep a bright, near-white core inside the line.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Venice Biennale of Architecture** (salon, Venice, 1980–now), launched the style. An architecture show that the Venice Biennale holds every two years. Its first edition built a street of postmodern facades, and later editions showed buildings made again from old structures.
 

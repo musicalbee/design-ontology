@@ -169,11 +169,11 @@ Lines are cut into leather-hard clay and filled with white or black slip. The gl
 - Scrape the surface flat.
 - Cover with glaze and fire.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Gyeryongsan kilns** (workshop, Gongju, South Chungcheong, Korea, ?–now), made the style. Kilns at the foot of Mount Gyeryong in central Korea. They are well known for the bold brushed and stamped buncheong ware of the 15th and 16th centuries.
+- **Gyeryongsan kilns** (collective, Gongju, South Chungcheong, Korea, ?–now), made the style. Kilns at the foot of Mount Gyeryong in central Korea. They are well known for the bold brushed and stamped buncheong ware of the 15th and 16th centuries.
 
 ## Permutations
 

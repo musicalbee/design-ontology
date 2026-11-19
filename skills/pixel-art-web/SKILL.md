@@ -251,9 +251,9 @@ A picture or a letter built from square cells that are each on or off, or one fl
 - Draw a diagonal as a stair of equal steps, for example 2 cells across for each 1 cell up.
 - Show the image at an integer scale (2x, 3x, 4x) so that no cell blurs.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **eBoy** (studio, Berlin, 1998–now), made the style. A pixel art studio. It builds large isometric cities from small pixel objects.
 - **GeoCities** (platform, web, 1994–2009), published the style. A free host for personal home pages. Its pages used tiled backgrounds, pixel GIFs, counters and under-construction signs.

@@ -173,11 +173,11 @@ A timekeeper in which a quartz crystal vibrates at a fixed rate, and a circuit c
 - Divide that rate in a circuit down to one pulse each second.
 - Drive a stepping motor or a display with each pulse.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Swatch factory and watch line** (workshop, Switzerland, 1983–now), launched the style. The Swiss watch line that came out on 1 March 1983 in Zurich. It put a plastic quartz watch of few parts on the market as a fashion accessory.
+- **Swatch factory and watch line** (company, Switzerland, 1983–now), launched the style. The Swiss watch line that came out on 1 March 1983 in Zurich. It put a plastic quartz watch of few parts on the market as a fashion accessory.
 
 ## Permutations
 

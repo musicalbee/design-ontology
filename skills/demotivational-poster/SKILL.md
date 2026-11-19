@@ -244,11 +244,11 @@ A photo in a thin white frame on black, with a serif capital title and a small c
 - Set a title in white serif capitals centred under the frame.
 - Add one grey caption line under the title.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Despair, Inc.** (workshop, United States, 1998–now), sold the style. A company that sells black-framed Demotivators posters, the print model of the demotivational poster.
+- **Despair, Inc.** (company, United States, 1998–now), sold the style. A company that sells black-framed Demotivators posters, the print model of the demotivational poster.
 
 ## Permutations
 

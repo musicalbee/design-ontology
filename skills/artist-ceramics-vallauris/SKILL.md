@@ -173,11 +173,11 @@ A potter throws a plain vessel on the wheel and then bends, pinches, cuts and jo
 - Press the belly and add arms or legs of slip.
 - Draw the face with a knife or a brush.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Madoura pottery** (workshop, Vallauris, France, 1938–now), launched the style. A pottery in Vallauris that Suzanne and Georges Ramié ran. Picasso worked there from 1947, and the pottery fired and sold his editions.
+- **Madoura pottery** (company, Vallauris, France, 1938–now), launched the style. A pottery in Vallauris that Suzanne and Georges Ramié ran. Picasso worked there from 1947, and the pottery fired and sold his editions.
 
 ## Permutations
 

@@ -144,9 +144,9 @@ A form shown as one solid shape with no inner line, read only from its outer edg
 - Cut inner detail as gaps of at least 1/16 of the shape width, not as lines.
 - Keep the contrast between shape and ground high.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **The Noun Project** (platform, web, 2010–now), published the style. A web site that collects simple symbols from designers around the world. Its library is a large source of flat and glyph icons.
 

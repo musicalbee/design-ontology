@@ -160,11 +160,11 @@ Beads and sequins are sewn by hand on a cloth, one by one or in a chain, in rows
 - Sew the beads with a hooked needle, or a thread of 3 to 5 beads at a time.
 - Check the rows against the drawing, so that the lines run even to the millimetre.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Fendi house** (workshop, Rome, Italy, 1925–now), launched the style. A Roman house of fur and leather goods, opened in 1925 by Adele and Edoardo Fendi. In 1997 it launched the Baguette bag.
+- **Fendi house** (company, Rome, Italy, 1925–now), launched the style. A Roman house of fur and leather goods, opened in 1925 by Adele and Edoardo Fendi. In 1997 it launched the Baguette bag.
 
 ## Permutations
 

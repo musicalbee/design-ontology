@@ -186,9 +186,9 @@ A beam or slab fixed at one end that carries load beyond its support, so that it
 - Keep the free end thin; a depth of 1/8 to 1/10 of the span suits steel and concrete.
 - Repeat the horizontal line in a run of 2 or 3 projecting planes to give a strong shadow.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Frank Lloyd Wright Home and Studio** (studio, Oak Park, Illinois, ?–now), made the style. The studio of Frank Lloyd Wright in Oak Park. Here he and his assistants drew the Prairie houses and the first works of organic architecture.
 

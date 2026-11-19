@@ -180,9 +180,9 @@ A pen-sized spray gun that lays paint in soft, even tones; with masks, it makes 
 - Cut a hard mask for each edge that must stay sharp; leave the light soft.
 - Put one specular highlight of pure white on each chrome form.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Heavy Metal** (magazine, New York, 1977–now), published the style. A magazine of science fiction and fantasy comics. It printed airbrushed covers and smooth, dream-like painted worlds.
 - **Omni** (magazine, New York, 1978–1997), published the style. A magazine of science and science fiction. Its painted covers showed hardware futures, chrome and airbrushed worlds.

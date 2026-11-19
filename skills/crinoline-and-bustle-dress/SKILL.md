@@ -172,11 +172,11 @@ A trial garment in plain calico, fitted and pinned on the client or on a stand b
 - Pin and mark the changes on the body, then take the toile apart and use it as the pattern.
 - Fit again in the real cloth two or three times before the hand finish.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **House of Worth** (workshop, 7 rue de la Paix, Paris, 1858–1956), launched the style. The Paris couture house of Charles Frederick Worth. It set the shape of the crinoline and the bustle each season and fitted each gown by toile.
+- **House of Worth** (company, 7 rue de la Paix, Paris, 1858–1956), launched the style. The Paris couture house of Charles Frederick Worth. It set the shape of the crinoline and the bustle each season and fitted each gown by toile.
 
 ## Permutations
 

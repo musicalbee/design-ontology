@@ -257,11 +257,11 @@ Rays from a disc or a half disc: a sign of light and of the new, on a facade, a 
 - Keep the centre disc at 15% to 30% of the full diameter.
 - In a room, use one sunburst as the focal point of one wall.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Herman Miller** (workshop, Zeeland, Michigan, 1923–now), made the style. A furniture maker that worked with George Nelson, Charles and Ray Eames and Isamu Noguchi. It made modern furniture for homes and offices.
+- **Herman Miller** (company, Zeeland, Michigan, 1923–now), made the style. A furniture maker that worked with George Nelson, Charles and Ray Eames and Isamu Noguchi. It made modern furniture for homes and offices.
 
 ## Permutations
 

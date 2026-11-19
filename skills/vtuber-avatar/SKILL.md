@@ -246,9 +246,9 @@ A camera tracks the face of a person and moves a drawn or 3D character at the sa
 - Keep the lag under 100ms.
 - Draw the character with flat colour and a clear outline.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **YouTube** (platform, web, 2005–now), published the style. A web site where people post video. The daily vlog grew here, and it became the main home of the music video.
 

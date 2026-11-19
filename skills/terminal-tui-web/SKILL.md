@@ -249,9 +249,9 @@ Every character takes one cell of the same width, so text forms columns without 
 - Align columns with spaces and set tables, code and forms on the cell grid.
 - On a screen, size the layout in cells: 80 columns by 24 rows is the classic terminal.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **GitHub** (platform, web, 2007–now), published the style. A web site where developers host code. Its own dark interface and the editor themes and terminal tools that it hosts set the look of software for engineers.
 

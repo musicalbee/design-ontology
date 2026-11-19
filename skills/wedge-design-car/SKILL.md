@@ -181,11 +181,11 @@ Hot plastic is pushed into a steel mould under high pressure. The part cools, an
 - Press the melt into the closed mould.
 - Cool the part, open the mould and push the part out.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Carrozzeria Bertone** (workshop, Turin, Italy, 1912–2014), made the style. The coachbuilding works that Giovanni Bertone founded in 1912. In the 1960s and 1970s it built the wedge-shaped show cars of Marcello Gandini.
+- **Carrozzeria Bertone** (company, Turin, Italy, 1912–2014), made the style. The coachbuilding works that Giovanni Bertone founded in 1912. In the 1960s and 1970s it built the wedge-shaped show cars of Marcello Gandini.
 
 ## Permutations
 

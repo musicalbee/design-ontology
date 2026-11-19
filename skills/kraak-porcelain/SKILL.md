@@ -168,11 +168,11 @@ Cobalt oxide is painted on the raw or bisque body. A clear glaze covers it, and 
 - Dip the piece in a clear glaze.
 - Fire it once at 1250 to 1300 °C.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Jingdezhen imperial kilns** (workshop, Jingdezhen, Jiangxi, China, ?–1911), made the style. The kilns at Jingdezhen that made porcelain for the court of the Ming and Qing emperors. Under Yongzheng and Qianlong they made the finest famille rose vases and bowls.
+- **Jingdezhen imperial kilns** (court, Jingdezhen, Jiangxi, China, ?–1911), made the style. The kilns at Jingdezhen that made porcelain for the court of the Ming and Qing emperors. Under Yongzheng and Qianlong they made the finest famille rose vases and bowls.
 
 ## Permutations
 

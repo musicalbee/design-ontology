@@ -208,9 +208,9 @@ A camera that the operator carries on the body, with no tripod or dolly; the sha
 - Do not stabilise in post; accept a late refocus and a missed frame as part of the take.
 - Shoot long takes of 30 seconds or more, so that the camera seems to live in the room.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **South by Southwest** (salon, Austin, Texas, 1987–now), launched the style. A festival of music, film and media. Its 2005 film program showed the low-budget talk films that got the name mumblecore.
 

@@ -242,9 +242,9 @@ A pair of networks that learn two faces and then draw one face with the pose and
 - Blend the new face patch into the frame with a feathered mask of 8px to 24px.
 - Mark the result as synthetic in any public use.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Reddit** (platform, web, 2005–now), launched the style. A forum site of topic groups. The groups on Weirdcore and Liminalspace spread the images of empty, strange places.
 

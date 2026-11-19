@@ -252,9 +252,9 @@ Using nested HTML tables, with clear 1px spacer images, to place boxes on a page
 - Use a 1px clear GIF to hold the width of a cell.
 - Split the page into a header row, a link column and a content column.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Yahoo!** (platform, web, 1994–now), launched the style. A link directory that grew into a web portal with search, mail and news on one page.
 

@@ -130,9 +130,9 @@ Capital letters set with wide space between them, so that a short word reads as 
 - Use roman capitals with strong serifs or a clean geometric sans.
 - Keep the line to one to four words.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Behance** (platform, web, 2005–now), published the style. A web site where designers post portfolios of projects. Concept work for interfaces, logos and illustration spreads from it.
 

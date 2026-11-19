@@ -169,9 +169,9 @@ The circle, the square and the triangle in flat colour, used as the whole pictur
 - Fill each shape with one flat colour; no gradient and no outline.
 - Put the shapes on a plain ground with 30% or more empty space.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Bauhaus** (school, Weimar, Dessau, Berlin, 1919–1933), taught the style. A school of art, craft and design that joined the workshop to the studio. Its teachers and students set the forms of modern design, interiors and building.
 

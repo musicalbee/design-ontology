@@ -171,11 +171,11 @@ Liquid clay, called slip, is trailed from a quill or a pipe onto the leather-har
 - Draw lines 2 to 4 mm wide on a pot in a contrast colour.
 - Dip the pot in clear lead glaze and fire it at about 1050 °C.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Burslem potteries** (workshop, Burslem, Staffordshire, England, ?–now), made the style. A group of small family potteries in the town of Burslem. They made slip-trailed dishes, jugs and posset pots from the 17th century.
+- **Burslem potteries** (collective, Burslem, Staffordshire, England, ?–now), made the style. A group of small family potteries in the town of Burslem. They made slip-trailed dishes, jugs and posset pots from the 17th century.
 
 ## Permutations
 

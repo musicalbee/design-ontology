@@ -186,9 +186,9 @@ Painted perspective that continues the real room, so that a flat wall or ceiling
 - Continue the real cornice, columns and arches in paint for 1 to 3 storeys of false height.
 - Paint the sky or the open part with the lightest value; keep the painted frame at the value of the real stone.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Accademia di San Luca** (school, Rome, 1577–now), taught the style. An academy of artists in Rome. It trained painters and architects, and Roman Baroque masters led it.
 

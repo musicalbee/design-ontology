@@ -246,9 +246,9 @@ A grade that lifts the black point to a grey and lowers contrast, so that the ph
 - Tint the shadows toward pink, green or teal by a small amount.
 - Add a grain of 4% to 12%.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Tumblr** (platform, web, 2007–now), published the style. A microblog site of reblogged images. Vaporwave and other net aesthetics grew in its image feeds.
 

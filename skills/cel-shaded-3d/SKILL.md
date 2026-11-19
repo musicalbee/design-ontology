@@ -170,9 +170,9 @@ A render method that maps the light on a 3D surface to 2 or 3 flat tones and dra
 - Draw outlines 1–4 px wide on silhouettes, by an inverted hull or an edge filter.
 - Keep base colours flat; carry the shape with the bands and the lines.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Smilebit** (studio, Tokyo, 2000–2004), launched the style. A Sega studio that made Jet Set Radio, an early cel-shaded 3D game.
 

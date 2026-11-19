@@ -171,11 +171,11 @@ A formed piece of glass is heated in two steps. Fine crystals grow in the glass 
 - Hold the piece at about 750 °C, so that nuclei form.
 - Raise the heat to about 1100 °C, so that the crystals grow and fill the glass.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Corning Glass Works** (workshop, Corning, New York, United States, 1851–now), made the style. An American glass maker. Its research laboratory made the first glass-ceramic in 1953, and the firm sold glass-ceramic cookware from 1958.
+- **Corning Glass Works** (company, Corning, New York, United States, 1851–now), made the style. An American glass maker. Its research laboratory made the first glass-ceramic in 1953, and the firm sold glass-ceramic cookware from 1958.
 
 ## Permutations
 

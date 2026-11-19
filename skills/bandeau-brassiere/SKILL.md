@@ -164,11 +164,11 @@ A garment that holds the bust on its own, apart from the corset below it, so tha
 - Hang the cups from two shoulder straps.
 - Fasten the band at the back with hooks or ties.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Maidenform** (workshop, Bayonne, New Jersey, 1922–now), made the style. A maker of brassières founded in 1922 for the flapper years. It was run by Ida Rosenthal, and in the Second World War it turned its factories to pigeon vests and parachutes.
+- **Maidenform** (company, Bayonne, New Jersey, 1922–now), made the style. A maker of brassières founded in 1922 for the flapper years. It was run by Ida Rosenthal, and in the Second World War it turned its factories to pigeon vests and parachutes.
 
 ## Permutations
 

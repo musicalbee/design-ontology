@@ -183,9 +183,9 @@ A press forms a flat steel sheet into a body panel in one stroke. The panels are
 - Close the press so that the sheet takes the shape of the die.
 - Weld the panels into one shell and grind the seams smooth.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **General Motors Motorama** (exhibition, New York, United States, 1949–1961), exhibited the style. A travelling show of dream cars that General Motors ran from 1949 to 1961. It showed fins, glass roofs and chrome years before production.
 

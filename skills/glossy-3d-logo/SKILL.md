@@ -130,9 +130,9 @@ A pen-sized spray gun that lays paint in soft, even tones; with masks, it makes 
 - Cut a hard mask for each edge that must stay sharp; leave the light soft.
 - Put one specular highlight of pure white on each chrome form.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Smashing Magazine** (magazine, web, 2006–now), published the style. An online magazine for web designers and developers. Its tutorials and free icon sets spread the glossy Web 2.0 look and then the flat look.
 

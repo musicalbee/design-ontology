@@ -172,11 +172,11 @@ A rotating cage that holds the balance and the escapement and turns once each mi
 - Turn the cage once each minute with the fourth wheel.
 - Keep the cage mass under 0.3 g, so that it does not drain the mainspring.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Breguet watchmaking house** (workshop, Paris, 1775–now), made the style. The watchmaking house that Abraham-Louis Breguet opened in Paris in 1775. It made the thin, clear and exact watches of the classical Breguet style.
+- **Breguet watchmaking house** (company, Paris, 1775–now), made the style. The watchmaking house that Abraham-Louis Breguet opened in Paris in 1775. It made the thin, clear and exact watches of the classical Breguet style.
 
 ## Permutations
 

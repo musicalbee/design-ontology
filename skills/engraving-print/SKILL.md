@@ -144,9 +144,9 @@ Lines cut into a metal plate with a burin; thin hairlines and swelling strokes g
 - Build shade with parallel lines or cross hatching, and keep the lines at 30° to 45° to each other.
 - Print on smooth paper so the hairlines stay clean.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Aux Quatre Vents** (publisher, Antwerp, 1548–1601), published the style. Hieronymus Cock and Volcxken Diericx founded this Antwerp print house. It issued more than 1,100 prints by 1570 and split the work into design, engraving and sale.
 - **Boydell print publishing** (publisher, London, 1746–now), published the style. John Boydell started as an engraver in London and became a large print publisher. His firm sold English engravings and mezzotints across Europe.

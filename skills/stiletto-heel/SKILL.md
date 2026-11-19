@@ -157,11 +157,11 @@ A heel with a steel rod inside and a steel shank in the arch. The metal lets a t
 - Rivet a steel shank in the arch of the sole.
 - Cover the heel and set a rubber top piece at the tip.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Roger Vivier shoe house** (workshop, Paris, France, 1937–now), launched the style. The shoe house that Roger Vivier opened in Paris in 1937. It made the thin-heeled court shoes of the 1950s for the couture houses.
+- **Roger Vivier shoe house** (company, Paris, France, 1937–now), launched the style. The shoe house that Roger Vivier opened in Paris in 1937. It made the thin-heeled court shoes of the 1950s for the couture houses.
 
 ## Permutations
 

@@ -167,13 +167,13 @@ Raw fish stays in lime juice with salt and chilli for a few minutes, until the s
 - Leave the fish in the acid for 2 to 4 minutes, no more.
 - Serve at once in a cold bowl with the juice and a sweet or crisp side.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Astrid y Gastón** (workshop, Lima, Peru, 1994–now), launched the style. The restaurant of Gastón Acurio and Astrid Gutsche in Lima, which took Peruvian produce and ceviche into fine dining.
-- **Central** (workshop, Lima, Peru, 2008–now), made the style. The restaurant of Virgilio Martínez in Lima, with a menu that goes by altitude from the sea to the high Andes.
-- **Maido** (workshop, Lima, Peru, 2009–now), made the style. The Nikkei restaurant of Mitsuharu Tsumura in Lima, where Japanese technique meets the chillies, fish and tubers of Peru.
+- **Astrid y Gastón** (company, Lima, Peru, 1994–now), launched the style. The restaurant of Gastón Acurio and Astrid Gutsche in Lima, which took Peruvian produce and ceviche into fine dining.
+- **Central** (company, Lima, Peru, 2008–now), made the style. The restaurant of Virgilio Martínez in Lima, with a menu that goes by altitude from the sea to the high Andes.
+- **Maido** (company, Lima, Peru, 2009–now), made the style. The Nikkei restaurant of Mitsuharu Tsumura in Lima, where Japanese technique meets the chillies, fish and tubers of Peru.
 
 ## Permutations
 

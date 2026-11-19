@@ -243,9 +243,9 @@ A short clip stored as a GIF that repeats without end, in 256 colours and a smal
 - Export at 10 to 15 fps in 256 colours or fewer.
 - Keep the frame at 480px wide or less.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Giphy** (platform, web, 2013–now), gathered the style. A search site and library of looped clips. It turned the GIF into a reply that users pick by mood or tag.
 - **Tumblr** (platform, web, 2007–now), published the style. A microblog site of reblogged images. Vaporwave and other net aesthetics grew in its image feeds.

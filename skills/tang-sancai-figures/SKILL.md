@@ -178,11 +178,11 @@ Lead glazes of different colours are brushed, dripped or splashed on a fired bod
 - Leave the base bare of glaze.
 - Fire again at 800 to 900 °C, so that the glazes run and mix.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Gongxian kilns** (workshop, Gongyi, Henan, China, ?–now), made the style. A group of Tang kilns in Henan that made sancai vessels and tomb figures. The kilns sent glazed horses and camels to the tombs of Luoyang and Chang'an.
+- **Gongxian kilns** (collective, Gongyi, Henan, China, ?–now), made the style. A group of Tang kilns in Henan that made sancai vessels and tomb figures. The kilns sent glazed horses and camels to the tombs of Luoyang and Chang'an.
 
 ## Permutations
 

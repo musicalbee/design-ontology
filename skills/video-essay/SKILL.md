@@ -250,9 +250,9 @@ A slow pan and zoom across a still image, so that a photograph moves in a film. 
 - Move 5% to 15% of the frame over 4 to 8 seconds on each still.
 - Start or end each move on a face or on the key detail.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **YouTube** (platform, web, 2005–now), published the style. A web site where people post video. The daily vlog grew here, and it became the main home of the music video.
 

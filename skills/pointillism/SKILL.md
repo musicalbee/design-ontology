@@ -177,9 +177,9 @@ Small dots or strokes of pure colour placed side by side, so that the eye mixes 
 - Set complementary colours next to each other in the shadows.
 - Keep each dot under 0.5% of the picture width.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Salon des Indépendants** (salon, Paris, 1884–now), exhibited the style. An annual show without a jury. Seurat and Signac showed their dot paintings here, and the Cubists had a room here in 1911.
 

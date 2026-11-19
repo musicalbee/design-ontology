@@ -177,9 +177,9 @@ A small, quiet camera that takes 36 frames of 24 x 36 mm on cinema film, so that
 - Shoot at 1/125 to 1/500 s, from the hand.
 - Show the full frame; keep the 2:3 format.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Instagram** (platform, web, 2010–now), published the style. A photo and video app. Home and food images spread on it, and it carried trends such as dopamine decor and the film grain look.
 - **VSCO** (platform, web, 2011–now), published the style. A photo app with presets that copy film stock. It spread grain and faded colour on phone photos.

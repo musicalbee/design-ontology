@@ -310,9 +310,9 @@ Chips of marble or glass set in a binder and ground flat, so that each chip show
 - Use 2 to 4 chip colours on one ground colour.
 - Grind and polish the surface flat, so that the chip edges show as cut sections.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Memphis Group** (studio, Milan, 1980–1987), launched the style. A collective of designers round Ettore Sottsass that showed bold laminate furniture and objects. Its first show in 1981 launched the Memphis style.
 

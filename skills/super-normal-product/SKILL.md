@@ -171,9 +171,9 @@ A narrow recessed joint between two surfaces that casts a shadow, so that each s
 - Hold the gap at a constant width along its full length.
 - Use it where new meets old: between a wall and a ceiling, a floor and a skirting, or a new insert and a historic wall.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Super Normal exhibition** (exhibition, Tokyo, Japan, 2006–2006), launched the style. A show of everyday objects chosen by Jasper Morrison and Naoto Fukasawa. It set out the idea of the Super Normal object: a plain thing that works well and needs no comment.
 

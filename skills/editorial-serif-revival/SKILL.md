@@ -250,9 +250,9 @@ A large first letter that drops down 2 or more lines of text and marks the start
 - Set the first 3 to 5 words after it in small capitals.
 - Use one drop cap for each article or chapter.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Awwwards** (platform, web, 2009–now), published the style. A web site that gives awards to web design. Designers post sites there, and its daily picks spread trends of the expressive web.
 

@@ -248,9 +248,9 @@ A still life of objects on a flat surface, shot from straight above. Origin: pho
 - Align objects at 0° and 90°, and repeat one accent colour in 3 props.
 - Light the set from a window at the side.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Instagram** (platform, web, 2010–now), published the style. A photo and video app. Home and food images spread on it, and it carried trends such as dopamine decor and the film grain look.
 - **Kinfolk** (magazine, Portland, Oregon, 2011–now), published the style. A slow-living magazine with calm, natural-light photos. Its rooms mix Nordic and Japanese restraint.

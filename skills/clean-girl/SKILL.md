@@ -245,9 +245,9 @@ A key light, a fill light and a back light on one subject, so that the face is m
 - Set the fill on the other side at 1/4 to 1/2 of the key.
 - Put the back light behind the subject, so that a thin rim of light separates hair and shoulders from the ground.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Instagram** (platform, web, 2010–now), published the style. A photo and video app. Home and food images spread on it, and it carried trends such as dopamine decor and the film grain look.
 - **TikTok** (platform, web, 2016–now), launched the style. A video app of short vertical clips. Its feed set the form of vertical short-form video and spread the camcorder revival.

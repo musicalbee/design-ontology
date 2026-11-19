@@ -245,9 +245,9 @@ A low-resolution photo of an ordinary place, scaled up so that the JPEG blocks s
 - Add noise of 5% to 10% and a vignette of 20%.
 - Add one wrong detail, such as a black void or a faceless figure.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Tumblr** (platform, web, 2007–now), published the style. A microblog site of reblogged images. Vaporwave and other net aesthetics grew in its image feeds.
 - **YouTube** (platform, web, 2005–now), published the style. A web site where people post video. The daily vlog grew here, and it became the main home of the music video.

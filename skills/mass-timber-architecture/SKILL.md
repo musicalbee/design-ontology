@@ -188,11 +188,11 @@ Thin boards or veneers glued in layers, so that wood forms long spans, bent shap
 - Bend veneers of 1 to 3mm in a mould for furniture; glue 5 to 9 layers.
 - Leave the layered edge in view as a line pattern.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Stora Enso** (workshop, Helsinki and Stockholm, 1998–now), made the style. A Finnish and Swedish forest company. It makes cross-laminated timber and glued beams for tall wood buildings.
+- **Stora Enso** (company, Helsinki and Stockholm, 1998–now), made the style. A Finnish and Swedish forest company. It makes cross-laminated timber and glued beams for tall wood buildings.
 
 ## Permutations
 

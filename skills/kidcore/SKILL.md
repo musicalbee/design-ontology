@@ -254,9 +254,9 @@ A dense layer of cut-out stickers, each with a white border and a hard shadow, t
 - Rotate each sticker by -6° to +6° and overlap neighbours by 8px to 24px.
 - Fill 60% to 80% of the frame, and keep one sticker larger than the rest as the focus.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Tumblr** (platform, web, 2007–now), published the style. A microblog site of reblogged images. Vaporwave and other net aesthetics grew in its image feeds.
 

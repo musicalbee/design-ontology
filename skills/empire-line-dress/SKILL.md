@@ -163,9 +163,9 @@ A fast chain stitch made with a fine hook on cloth that is stretched tight in a 
 - Pull a loop of thread up through the cloth with the hook, and chain the loops along the pattern.
 - Thread beads on the yarn first, and chain them into the cloth to make a beaded surface.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Journal des Dames et des Modes** (magazine, Paris, France, 1797–1839), published the style. The Paris fashion journal that showed the new high-waisted dress of the Directory and the Empire in hand-coloured plates.
 

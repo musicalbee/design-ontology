@@ -252,9 +252,9 @@ One saturated colour carries the whole frame: clothes, props, walls and type sha
 - Keep one neutral (white) and one small contrast colour (sky blue) under 10% of the frame.
 - Let the hue fill 60% or more of the surface.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **TikTok** (platform, web, 2016–now), published the style. A video app of short vertical clips. Its feed set the form of vertical short-form video and spread the camcorder revival.
 

@@ -171,9 +171,9 @@ A vessel or a figure is built from coils, slabs or pinched lumps of clay, with n
 - Smooth the joins, or leave them as part of the form.
 - Dry the piece slowly, then fire it.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Funk exhibition, Berkeley** (exhibition, Berkeley, California, 1967–1967), exhibited the style. A show of 1967 at the University Art Museum in Berkeley that gave the name Funk to the rude, hand-made work of California artists, with ceramics by Arneson and his circle.
 

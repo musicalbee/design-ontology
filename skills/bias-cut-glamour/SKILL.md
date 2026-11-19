@@ -163,11 +163,11 @@ The cutting of woven cloth at 45 degrees to the threads, so that it stretches, f
 - Drape the shape on a small doll, and mark the seams on the true bias.
 - Hang the cut pieces for a day before the hem is sewn, so that the bias settles.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Vionnet couture house** (workshop, Paris, France, 1912–1939), launched the style. The Paris house of Madeleine Vionnet. Its workroom draped each gown on a small doll and cut it on the bias.
+- **Vionnet couture house** (company, Paris, France, 1912–1939), launched the style. The Paris house of Madeleine Vionnet. Its workroom draped each gown on a small doll and cut it on the bias.
 
 ## Permutations
 

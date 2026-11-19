@@ -164,9 +164,9 @@ The cutting and polishing of jet, a hard black fossil wood, into beads, brooches
 - Carve the block with a knife and a file into the form of the piece.
 - Polish the piece with fine powder until it shines black.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Great Exhibition** (exhibition, London, 1851–1851), exhibited the style. The first world's fair, in the Crystal Palace. It showed the ornate manufactured furniture and goods of the Victorian age.
 

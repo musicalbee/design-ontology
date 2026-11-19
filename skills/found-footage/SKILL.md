@@ -208,9 +208,9 @@ A camera that the operator carries on the body, with no tripod or dolly; the sha
 - Do not stabilise in post; accept a late refocus and a missed frame as part of the take.
 - Shoot long takes of 30 seconds or more, so that the camera seems to live in the room.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Sundance Film Festival** (salon, Park City, Utah, 1978–now), exhibited the style. A festival of independent film. The Blair Witch Project and the iPhone feature Tangerine had their premieres here.
 

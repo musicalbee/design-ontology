@@ -245,9 +245,9 @@ A process that freezes a video except for one masked region, which repeats in a 
 - Mask the moving region with a soft edge of 4px to 12px.
 - Join the loop with a cross-fade of 4 to 8 frames at the loop point.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Tumblr** (platform, web, 2007–now), launched the style. A microblog site of reblogged images. Vaporwave and other net aesthetics grew in its image feeds.
 

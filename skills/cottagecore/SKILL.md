@@ -253,9 +253,9 @@ Work made outside in front of the subject, in the light of the place and the hou
 - Take the colour of shadows from the sky and the ground around them; do not paint them black.
 - Use the light that is there; add no lamp.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **TikTok** (platform, web, 2016–now), published the style. A video app of short vertical clips. Its feed set the form of vertical short-form video and spread the camcorder revival.
 - **Tumblr** (platform, web, 2007–now), launched the style. A microblog site of reblogged images. Vaporwave and other net aesthetics grew in its image feeds.

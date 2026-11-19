@@ -248,9 +248,9 @@ Repeated lossy saving of one image until blocks, banding and colour noise show. 
 - Raise saturation and contrast, then sharpen, between the saves.
 - Stop when the subject is still readable at 25% size.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Reddit** (platform, web, 2005–now), published the style. A forum site of topic groups. The groups on Weirdcore and Liminalspace spread the images of empty, strange places.
 

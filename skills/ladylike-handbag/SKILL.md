@@ -163,11 +163,11 @@ A hand stitch in which one thread with a needle at each end passes twice through
 - Pass the two needles through each hole from opposite sides, and pull each stitch tight.
 - Finish the seam with a double stitch back, and burnish the edge.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Chanel couture house** (workshop, rue Cambon, Paris, 1910–now), launched the style. The Paris house that Gabrielle Chanel opened as a hat shop in 1910. In the 1920s it made the jersey chemise and the short black dress.
+- **Chanel couture house** (company, rue Cambon, Paris, 1910–now), launched the style. The Paris house that Gabrielle Chanel opened as a hat shop in 1910. In the 1920s it made the jersey chemise and the short black dress.
 
 ## Permutations
 

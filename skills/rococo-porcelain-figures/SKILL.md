@@ -173,11 +173,11 @@ A figure is made in many standard parts, such as heads, torsos, arms and props, 
 - Join the parts with slip while the clay is soft.
 - Finish the joins and the face by hand, so that each figure differs.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Meissen manufactory** (workshop, Meissen, Saxony, 1710–now), made the style. The first European maker of hard-paste porcelain. It started in 1710 under Augustus the Strong and made figures after the models of its chief modellers.
+- **Meissen manufactory** (court, Meissen, Saxony, 1710–now), made the style. The first European maker of hard-paste porcelain. It started in 1710 under Augustus the Strong and made figures after the models of its chief modellers.
 
 ## Permutations
 

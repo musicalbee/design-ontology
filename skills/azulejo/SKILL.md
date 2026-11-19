@@ -172,9 +172,9 @@ A line of grease and manganese oxide is drawn round each colour field on an unfi
 - Fill each field with a different glaze.
 - Fire the tile so that the grease burns out and leaves a dark, matt line.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Museu Nacional do Azulejo** (gallery, Lisbon, Portugal, 1965–now), exhibited the style. A national museum of the tile in the former Madre de Deus convent in Lisbon. It shows Portuguese tiles from the late 15th century to the present.
 

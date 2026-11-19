@@ -175,9 +175,9 @@ Work made outside in front of the subject, in the light of the place and the hou
 - Take the colour of shadows from the sky and the ground around them; do not paint them black.
 - Use the light that is there; add no lamp.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Exposition Universelle of 1900** (exhibition, Paris, 1900–1900), exhibited the style. A world's fair in Paris at the turn of the century. Art Nouveau buildings, rooms and metro entrances were on show, and the Finnish pavilion had frescoes of national myths.
 - **Høstutstillingen** (salon, Oslo, ?–now), exhibited the style. The annual autumn art exhibition of Norway. Norwegian painters started it to show their own work, and it carried national romantic painting.

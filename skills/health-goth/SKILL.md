@@ -244,9 +244,9 @@ A 3D render of one blade, mesh shell or ring in black, chrome or matte rubber. T
 - Place it at 40% to 60% of the frame on a black ground.
 - Add one line of small capital text and no other object.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Facebook** (platform, web, 2004–now), gathered the style. A social network. Small image groups on it started Health Goth in 2013.
 

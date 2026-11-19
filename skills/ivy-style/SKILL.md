@@ -165,11 +165,11 @@ A shirt collar whose points button to the body of the shirt, so that the collar 
 - Sew a button on the body of the shirt at the matching place.
 - Cut the collar from soft oxford cloth so that it rolls when it is buttoned.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Brooks Brothers** (workshop, New York, United States, 1818–now), sold the style. An American clothier that sold the unpadded sack jacket and the oxford button-down shirt. Its Madison Avenue store dressed the Ivy League man.
+- **Brooks Brothers** (company, New York, United States, 1818–now), sold the style. An American clothier that sold the unpadded sack jacket and the oxford button-down shirt. Its Madison Avenue store dressed the Ivy League man.
 
 ## Permutations
 

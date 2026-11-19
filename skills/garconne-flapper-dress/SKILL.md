@@ -166,11 +166,11 @@ A fast chain stitch made with a fine hook on cloth that is stretched tight in a 
 - Pull a loop of thread up through the cloth with the hook, and chain the loops along the pattern.
 - Thread beads on the yarn first, and chain them into the cloth to make a beaded surface.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Chanel couture house** (workshop, rue Cambon, Paris, 1910–now), launched the style. The Paris house that Gabrielle Chanel opened as a hat shop in 1910. In the 1920s it made the jersey chemise and the short black dress.
+- **Chanel couture house** (company, rue Cambon, Paris, 1910–now), launched the style. The Paris house that Gabrielle Chanel opened as a hat shop in 1910. In the 1920s it made the jersey chemise and the short black dress.
 - **Vogue** (magazine, New York, 1892–now), published the style. A fashion magazine. It commissions fashion photographs and sets its name in a high-contrast Didone type.
 
 ## Permutations

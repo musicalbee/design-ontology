@@ -129,9 +129,9 @@ Letters and marks drawn on a fixed grid of squares and circles, so that each gly
 - Cut every angle to 45° or 90°, or to one other fixed angle.
 - Use one stroke weight for the full set, for example 2 units on a 24 unit canvas.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Chermayeff & Geismar** (studio, New York, 1957–now), made the style. A New York design studio. It drew simple geometric symbols for banks, networks and museums.
 

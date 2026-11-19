@@ -249,9 +249,9 @@ A pen-sized spray gun that lays paint in soft, even tones; with masks, it makes 
 - Cut a hard mask for each edge that must stay sharp; leave the light soft.
 - Put one specular highlight of pure white on each chrome form.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Macworld Expo** (exhibition, San Francisco, 1985–2014), launched the style. A trade show for the Apple Macintosh. Apple showed new products and systems on its stage, among them the Aqua interface in January 2000.
 

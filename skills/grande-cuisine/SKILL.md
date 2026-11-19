@@ -192,9 +192,9 @@ A table piece that a cook models from sugar paste, marzipan and pastry in the sh
 - Build the frame of the piece from pastry, wire or wood, and fix the sugar parts to it.
 - Set the piece at the centre of the table, and bring it in at the end of a service.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Le Cuisinier parisien** (publisher, Paris, 1828–now), published the style. A cookbook by Carême on the grand sauces, the stocks and the dressing of large dishes for the table of a great house.
 

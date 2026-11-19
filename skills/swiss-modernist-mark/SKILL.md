@@ -138,9 +138,9 @@ A page or screen divided into equal columns and rows; each element fits a cell o
 - Set text on a baseline grid of one line height, and use 1 to 2 type sizes for each level.
 - Scale an image by a whole number of modules.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Ulm School of Design** (school, Ulm, 1953–1968), taught the style. A school of design that taught system, grid and method. Its teachers worked with Braun and with corporate identity programs.
 

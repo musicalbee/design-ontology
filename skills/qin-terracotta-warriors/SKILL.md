@@ -172,11 +172,11 @@ A figure is made in many standard parts, such as heads, torsos, arms and props, 
 - Join the parts with slip while the clay is soft.
 - Finish the joins and the face by hand, so that each figure differs.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Qin imperial tomb workshops** (workshop, Lintong, Shaanxi, China, ?–now), made the style. State workshops near Mount Li that made the clay army for the tomb of the First Emperor. Each master stamped his name on the figures that he made.
+- **Qin imperial tomb workshops** (court, Lintong, Shaanxi, China, ?–now), made the style. State workshops near Mount Li that made the clay army for the tomb of the First Emperor. Each master stamped his name on the figures that he made.
 
 ## Permutations
 

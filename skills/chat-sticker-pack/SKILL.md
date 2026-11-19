@@ -249,9 +249,9 @@ A drawn character with a thick outline, a white cut-out edge and one short word.
 - Make the head 50% of the body height and use 1 to 3 strokes for the mouth.
 - Add 1 to 3 words in rounded type in a corner.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **LINE** (platform, Tokyo, 2011–now), launched the style. A messenger app that launched in 2011. Its sticker shop made drawn characters a main way to reply in a chat.
 

@@ -146,11 +146,11 @@ A print from a block of wood with the white parts cut away; the result is flat c
 - Print with a flat, opaque ink and leave the grain and the knife marks visible.
 - Keep the shapes flat, with no more than 3 to 6 tones in a print.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Koberger printing house** (workshop, Nuremberg, 1470–1504), published the style. Anton Koberger opened the first printing house of Nuremberg and made it the largest publisher in Germany. It printed the Nuremberg Chronicle of 1493, with woodcuts from the Wolgemut workshop.
+- **Koberger printing house** (publisher, Nuremberg, 1470–1504), published the style. Anton Koberger opened the first printing house of Nuremberg and made it the largest publisher in Germany. It printed the Nuremberg Chronicle of 1493, with woodcuts from the Wolgemut workshop.
 
 ## Permutations
 

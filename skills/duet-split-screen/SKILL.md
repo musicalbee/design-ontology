@@ -241,9 +241,9 @@ Show two or more pictures in one frame at the same time. Origin: film & video, P
 - Keep one source of sound for the whole frame.
 - Mark who is in each cell with a label.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **TikTok** (platform, web, 2016–now), published the style. A video app of short vertical clips. Its feed set the form of vertical short-form video and spread the camcorder revival.
 

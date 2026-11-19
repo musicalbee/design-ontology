@@ -168,11 +168,11 @@ A toilet seat with a heater and a hidden nozzle that sprays warm water. A small 
 - Hide the nozzle in a cover and rinse it with clean water before and after each use.
 - Place the controls on the side of the seat or on a wall remote.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Toto** (workshop, Kitakyushu, Japan, 1917–now), launched the style. A Japanese sanitary ware maker that began in 1917 as Toyo Toki. It launched the Washlet, a toilet seat with a warm-water spray, in 1980.
+- **Toto** (company, Kitakyushu, Japan, 1917–now), launched the style. A Japanese sanitary ware maker that began in 1917 as Toyo Toki. It launched the Washlet, a toilet seat with a warm-water spray, in 1980.
 
 ## Permutations
 

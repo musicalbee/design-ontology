@@ -169,9 +169,9 @@ Twisted cord or a cord-wrapped stick is rolled or pressed into the wet clay wall
 - Roll or press it across the wall in rows or bands.
 - Dry the pot and fire it in a bonfire.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Tokyo National Museum** (gallery, Tokyo, Japan, 1872–now), exhibited the style. The oldest national museum of Japan. It holds the flame-style Jōmon vessels, and Okamoto Tarō studied them there before he wrote his essay of 1952.
 

@@ -260,9 +260,9 @@ A cut between two shots whose main forms have the same shape, position or moveme
 - Match the shape, the position and the scale of the main form across the cut within 10% of the frame width.
 - In an interface, move the shared element from its old box to its new box in 250 to 350ms while the rest of the screen fades.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Google Play** (platform, web, 2008–now), published the style. The app store of Android. After 2014 its apps took the cards, colour and shadows of Material Design.
 

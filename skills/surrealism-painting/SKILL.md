@@ -179,9 +179,9 @@ A shadow far longer than its object, cast by a low sun, so that a still scene fe
 - Leave the shadow flat and dark, at 40% to 70% opacity.
 - Show the shadow of something outside the frame, to hint at an unseen presence.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **La Révolution surréaliste** (magazine, Paris, 1924–1929), published the style. The first magazine of the Surrealist group. It printed dreams, automatic writing and Surrealist paintings.
 

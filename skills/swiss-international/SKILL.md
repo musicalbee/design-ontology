@@ -264,9 +264,9 @@ A page or screen divided into equal columns and rows; each element fits a cell o
 - Set text on a baseline grid of one line height, and use 1 to 2 type sizes for each level.
 - Scale an image by a whole number of modules.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Neue Grafik** (magazine, Zürich, 1958–1965), published the style. A trilingual review of graphic design, set on a strict grid, that four Swiss designers edited. It made the case for the International Typographic Style.
 

@@ -239,9 +239,9 @@ Cut-out photos placed on a flat or photo ground at a chosen odd scale. Origin: i
 - Scale it 20% to 400% out of true size.
 - Add 3% to 8% grain over all layers.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Reddit** (platform, web, 2005–now), published the style. A forum site of topic groups. The groups on Weirdcore and Liminalspace spread the images of empty, strange places.
 

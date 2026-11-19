@@ -174,11 +174,11 @@ A small relief is pressed in a mould of fired clay, lifted out and fixed to the 
 - Lift the sprig out with the tip of a knife.
 - Wet the body and press the sprig on it, then fettle the edge.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Etruria Works** (workshop, Etruria, Stoke-on-Trent, England, 1769–now), made the style. The factory and the village that Josiah Wedgwood built in 1769. It made creamware, pearlware and jasperware with division of labour.
+- **Etruria Works** (company, Etruria, Stoke-on-Trent, England, 1769–now), made the style. The factory and the village that Josiah Wedgwood built in 1769. It made creamware, pearlware and jasperware with division of labour.
 
 ## Permutations
 

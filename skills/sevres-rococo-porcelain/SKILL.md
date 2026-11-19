@@ -171,11 +171,11 @@ A soft rose-pink overglaze enamel that colloidal gold makes. Painters mix it wit
 - Mix the pink with white enamel in different ratios to make tints.
 - Paint the tints on the fired glaze and fire again at 760 to 800 °C.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Sèvres manufactory** (workshop, Vincennes and Sèvres, France, 1740–now), made the style. The French royal porcelain works. It started at Vincennes in 1740, moved to Sèvres in 1756 and made unglazed biscuit figures from 1751.
+- **Sèvres manufactory** (court, Vincennes and Sèvres, France, 1740–now), made the style. The French royal porcelain works. It started at Vincennes in 1740, moved to Sèvres in 1756 and made unglazed biscuit figures from 1751.
 
 ## Permutations
 
