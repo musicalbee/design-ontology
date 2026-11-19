@@ -281,7 +281,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more viral**: move toward [`clickbait-thumbnail`](../clickbait-thumbnail/SKILL.md) (Clickbait Thumbnail). Freeze the funniest facecam frame, enlarge the face to 60% of the frame and add a 120px headline.
 
 - **Came from (go here for a more orthodox version):** [`unboxing-video`](../unboxing-video/SKILL.md)
-- **Led to (go here for a newer version):** [`lip-sync-dance-short`](../lip-sync-dance-short/SKILL.md), [`livestream-overlay`](../livestream-overlay/SKILL.md), [`video-essay`](../video-essay/SKILL.md)
+- **Led to (go here for a newer version):** [`livestream-overlay`](../livestream-overlay/SKILL.md), [`video-essay`](../video-essay/SKILL.md)
 - **Mixes well with:** [`clickbait-thumbnail`](../clickbait-thumbnail/SKILL.md), [`pixel-art-web`](../pixel-art-web/SKILL.md)
 - **Kin in another domain:** [`creator-vlog`](../creator-vlog/SKILL.md)
 - **Nearest by vector profile:** [`lip-sync-dance-short`](../lip-sync-dance-short/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md)

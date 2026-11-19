@@ -1505,7 +1505,6 @@ flowchart LR
   istoriato_maiolica --> delftware
   kraak_porcelain --> delftware
   hispano_moresque_lustreware --> della_robbia_relief
-  punk_zine --> demotivational_poster
   modern_mens_briefs --> designer_logo_underwear
   coloured_bathroom_suite --> designer_wall_hung_sanitary
   transitional_serif --> didone_serif
@@ -1637,7 +1636,6 @@ flowchart LR
   victorian_encaustic_tiles --> large_format_porcelain_tiles
   unboxing_video --> lets_play_facecam
   vaporwave --> liminal_spaces
-  lets_play_facecam --> lip_sync_dance_short
   glassmorphism --> liquid_glass_ui
   spatial_visionos --> liquid_glass_ui
   tang_sancai_figures --> liuli_glazed_roof
@@ -2686,6 +2684,8 @@ flowchart LR
   linkStyle 611 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 612 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 613 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 1068 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1069 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1070 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1071 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1072 stroke:#E5484D,stroke-width:1.5px
@@ -2915,8 +2915,6 @@ flowchart LR
   linkStyle 1296 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1297 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1298 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1299 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1300 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 
