@@ -207,7 +207,8 @@ A calm, clear and confident feeling: the viewer sees nothing extra and trusts th
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Calvin Klein minidress, 1991](https://commons.wikimedia.org/wiki/File:Calvin_Klein_minidress,_1991.jpg) (Calvin Klein, 1991): image, CC BY-SA 4.0. Mabalu(photograph), Calvin Klein (dress).
+- [Calvin Klein jersey evening dress, 1996–97](https://commons.wikimedia.org/wiki/File:1996-97_Cavin_Klein_blue_rayon_jersey_evening_dress_01.jpg) (Calvin Klein, 1996): image, CC0. Staff photographer for Rhode Island School of Design Museum of Art
+- [Calvin Klein jersey evening dress, 1996–97 (back)](https://commons.wikimedia.org/wiki/File:1996-97_Cavin_Klein_blue_rayon_jersey_evening_dress_02.jpg) (Calvin Klein, 1996): image, CC0. Staff photographer for Rhode Island School of Design Museum of Art
 
 ## Sources
 

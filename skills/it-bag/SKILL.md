@@ -200,7 +200,7 @@ A sense of desire and of inside knowledge: the viewer wants the bag that everyon
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Handbag (AM 1981.172.2-1).jpg](https://commons.wikimedia.org/wiki/File:Handbag_(AM_1981.172.2-1).jpg): image, CC BY 4.0. Unknown authorUnknown author
+- [Crocodile Birkin bag](https://commons.wikimedia.org/wiki/File:Croc_Birkin_bag.jpg) (Hermès): image, CC BY 3.0. Ohconfucius
 
 ## Sources
 

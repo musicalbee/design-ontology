@@ -150,7 +150,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | Work | Maker | Year |
 |---|---|---|
 | Hindu necklace for Daisy Fellowes | Cartier | 1936 |
-| Mystery-set clip brooch | Van Cleef and Arpels | 1933 |
+| Mystery-set clip brooch | Van Cleef and Arpels | 1935 |
 | Jewels shown at the Exposition Internationale | Raymond Templier | 1925 |
 
 ## Techniques

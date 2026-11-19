@@ -206,7 +206,7 @@ A warm, confident and glamorous feeling: the viewer sees a rich, soft glow at an
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Van Cleef & Arpels, G.36810](https://commons.wikimedia.org/wiki/File:Van_Cleef_%26_Arpels,_G.36810.jpg): image, CC0. Coquin, J., photographe
+- [Van Cleef and Arpels jewellery advertisement, Vogue, 15 November 1943](https://commons.wikimedia.org/wiki/File:Van_Cleef_%26_Arpels_advert_Vogue_Nov_15_1943.jpg) (Van Cleef and Arpels, 1943): image, Public domain. Unknown authorUnknown author
 
 ## Sources
 
