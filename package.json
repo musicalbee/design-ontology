@@ -1,6 +1,6 @@
 {
   "name": "design-ontology",
-  "version": "0.1.60",
+  "version": "0.1.61",
   "description": "A machine-readable ontology of design styles that compiles into agent skills.",
   "private": true,
   "type": "module",
@@ -13,7 +13,7 @@
     "build:graph": "tsx scripts/build-graph.ts",
     "build:skills": "tsx scripts/compile-skills.ts",
     "build": "npm run validate && npm run build:graph && npm run build:skills",
-    "check": "npm run build && git diff --exit-code -- graph skills README.md",
+    "check": "npm test && npm run build && git diff --exit-code -- graph skills README.md",
     "query": "tsx scripts/query.ts",
     "icons": "tsx scripts/fetch-icons.ts",
     "typecheck": "tsc --noEmit",
@@ -25,7 +25,8 @@
     "net": "tsx scripts/net.ts",
     "lockups": "tsx scripts/render-logo-lockups.ts",
     "elevations": "tsx scripts/trace-elevations.ts",
-    "proofs": "tsx scripts/render-print-proofs.ts"
+    "proofs": "tsx scripts/render-print-proofs.ts",
+    "test": "tsx --test scripts/net.test.ts"
   },
   "devDependencies": {
     "@types/node": "^26.6.6",

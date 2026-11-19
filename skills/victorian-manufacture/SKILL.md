@@ -216,9 +216,9 @@ Warm, heavy comfort and a sense of rank: the viewer sees a full, rich and well-f
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Great Exhibition, transept looking south](https://commons.wikimedia.org/wiki/File:Great_Exhibition,_Transept_looking_south,_HF_Talbot,_1851.jpg) (William Henry Fox Talbot, 1851): image, Public domain. William Henry Fox Talbot
-- [Crystal Palace interior](https://commons.wikimedia.org/wiki/File:Crystal_Palace_interior.jpg) (J. McNeven, 1851): image, Public domain. J. McNeven
-- [Interior of the Great Exhibition, 1851](https://commons.wikimedia.org/wiki/File:Interieur_van_de_Great_Exhibition_of_the_Works_of_Industry_of_All_Nations_in_1851_in_het_Crystal_Palace_in_Londen_View_of_Western_Nave_(titel_op_object),_RP-F-F25215-A.jpg): image, CC0. Rijksmuseum
+- [Great Exhibition transept, 1851: the hall, not the objects](https://commons.wikimedia.org/wiki/File:Great_Exhibition,_Transept_looking_south,_HF_Talbot,_1851.jpg) (William Henry Fox Talbot, 1851): image, Public domain. William Henry Fox Talbot
+- [Crystal Palace interior, 1851: the hall, not the objects](https://commons.wikimedia.org/wiki/File:Crystal_Palace_interior.jpg) (J. McNeven, 1851): image, Public domain. J. McNeven
+- [Great Exhibition interior, 1851: the hall, not the objects](https://commons.wikimedia.org/wiki/File:Interieur_van_de_Great_Exhibition_of_the_Works_of_Industry_of_All_Nations_in_1851_in_het_Crystal_Palace_in_Londen_View_of_Western_Nave_(titel_op_object),_RP-F-F25215-A.jpg): image, CC0. Rijksmuseum
 
 ## Sources
 

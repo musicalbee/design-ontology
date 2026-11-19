@@ -216,7 +216,7 @@ Light, hopeful speed: the viewer sees a clean, bright object that belongs to the
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Toaster model T2](https://commons.wikimedia.org/wiki/File:Toaster,_Model_T2,_Calkins_Appliance_Company,_Niles,_Michigan,_1930-1935,_chrome,_bakelite,_aluminum,_cotton_-_Museum_f%C3%BCr_Angewandte_Kunst_K%C3%B6ln_-_Cologne,_Germany_-_DSC09520.jpg) (Calkins Appliance Company, 1932): image, CC0. Daderot
+- [Toaster model T2, c. 1930–35](https://commons.wikimedia.org/wiki/File:Toaster,_Model_T2,_Calkins_Appliance_Company,_Niles,_Michigan,_1930-1935,_chrome,_bakelite,_aluminum,_cotton_-_Museum_f%C3%BCr_Angewandte_Kunst_K%C3%B6ln_-_Cologne,_Germany_-_DSC09520.jpg) (Calkins Appliance Company, 1932): image, CC0. Daderot
 
 ## Sources
 

@@ -153,9 +153,9 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 | Work | Maker | Year |
 |---|---|---|
-| Ball chair | Eero Aarnio | 1963 |
+| Ball chair (design year) | Eero Aarnio | 1963 |
 | Globe chair | Eero Aarnio | 1963 |
-| Panton chair | Verner Panton | 1960 |
+| Panton chair (design year) | Verner Panton | 1960 |
 | Tulip pedestal table | Eero Saarinen | 1956 |
 | Boalum lamp | Livio Castiglioni and Gianfranco Frattini | 1969 |
 
@@ -215,8 +215,8 @@ Playful optimism: the viewer sees a smooth, bright capsule and feels the excitem
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Panton Chair by Verner Panton](https://commons.wikimedia.org/wiki/File:Panton_Chair_by_Verner_Panton.JPG) (Verner Panton, 1960): image, CC0. Tokumeigakarinoaoshima
-- [Ball chair 1968 (JOKAOM14AiD KSS04-1)](https://commons.wikimedia.org/wiki/File:Ball_chair_1968_(JOKAOM14AiD_KSS04-1).tif) (Eero Aarnio, 1963): image, CC BY 4.0. Eero Aarnio
+- [Panton chair by Verner Panton, designed 1960](https://commons.wikimedia.org/wiki/File:Panton_Chair_by_Verner_Panton.JPG) (Verner Panton, 1960): image, CC0. Tokumeigakarinoaoshima
+- [Ball chair, designed 1963, example of 1968](https://commons.wikimedia.org/wiki/File:Ball_chair_1968_(JOKAOM14AiD_KSS04-1).tif) (Eero Aarnio, 1963): image, CC BY 4.0. Eero Aarnio
 - [Globe by Eero Aarnio](https://commons.wikimedia.org/wiki/File:Globe_by_Eero_Aarnio.JPG) (Eero Aarnio, 1963): image, CC0. Tokumeigakarinoaoshima
 
 ## Sources

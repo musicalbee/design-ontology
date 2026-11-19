@@ -8,7 +8,8 @@
  *
  * The resolver takes, for each category, the first of [style, ...alternates] whose permutation
  * ranges hold the knob values. The main style gives the objects that the net names; an alternate
- * gives its own signature object for the category.
+ * gives its own signature object for the category. A period room (era_blend < 0.5) skips each
+ * candidate that starts after the room ends; if no candidate is left, the cell is "none".
  */
 import { fileURLToPath } from "node:url";
 import { join } from "node:path";
@@ -176,8 +177,8 @@ export function checkNet(ctx: NetContext, slug: string, net: Net): string[] {
     const values = cellKnobs(net, cell);
     for (const p of rangeProblems(ctx.domain, main, values)) out.push(`${at}: style "${cell.style}" cannot hold the knobs: ${p}`);
     // A period room takes period objects: at a low era blend, the object style cannot be younger than the room.
-    if (Number(values.era_blend) < 0.5 && main.time_period.start > end)
-      out.push(`${at}: "${cell.style}" starts in ${main.time_period.start}, after the room ends (${end}); raise era_blend to 0.5 or more, or choose an older style`);
+    const late = periodProblem(main, end, values);
+    if (late) out.push(`${at}: ${late}; raise era_blend to 0.5 or more, or choose an older style`);
     const allowed = new Set([...main.materials.primary, ...main.materials.secondary]);
     for (const s of cell.objects) {
       inNet.add(s.object);
@@ -194,20 +195,39 @@ export function checkNet(ctx: NetContext, slug: string, net: Net): string[] {
 
 export interface Resolved { category: Category; style: string; via: "main" | "alternate" | "none"; reason?: string; objects: Surface[] }
 
-/** For each category, the first style that holds the knob values, with its objects. */
+/**
+ * The period-room rule: at an era blend below 0.5 the room takes period objects, so a style that
+ * starts after the room ends cannot furnish it. Returns the problem, or undefined.
+ */
+export function periodProblem(style: Style, roomEnd: number, values: KnobValues): string | undefined {
+  if (Number(values.era_blend) < 0.5 && style.time_period.start > roomEnd)
+    return `period room: "${style.id}" starts in ${style.time_period.start}, after the room ends (${roomEnd})`;
+  return undefined;
+}
+
+/** For each category, the first style that holds the knob values and the period of the room, with its objects. */
 export function resolveNet(ctx: NetContext, net: Net, values: KnobValues = {}): Resolved[] {
+  const end = ctx.interiors.get(net.interior)?.time_period.end ?? 9999;
   return net.categories.map((cell) => {
     const v = { ...cellKnobs(net, cell), ...values };
+    const reasons: string[] = [];
     for (const [i, id] of [cell.style, ...cell.alternates].entries()) {
       const s = ctx.industrial.get(id);
-      if (!s || rangeProblems(ctx.domain, s, v).length) continue;
+      if (!s) {
+        reasons.push(`unknown style "${id}"`);
+        continue;
+      }
+      const ranges = rangeProblems(ctx.domain, s, v);
+      const late = periodProblem(s, end, v);
+      if (i === 0) reasons.push(...ranges);
+      if (late) reasons.push(late);
+      if (ranges.length || late) continue;
       if (i === 0) return { category: cell.category, style: id, via: "main" as const, objects: cell.objects };
       const row = s.signatures.objects.find((r) => r.category === cell.category)!;
       const { category: _c, ...surface } = row;
       return { category: cell.category, style: id, via: "alternate" as const, objects: [surface] };
     }
-    const main = ctx.industrial.get(cell.style);
-    return { category: cell.category, style: cell.style, via: "none" as const, reason: main ? rangeProblems(ctx.domain, main, v).join("; ") : "unknown style", objects: cell.objects };
+    return { category: cell.category, style: cell.style, via: "none" as const, reason: reasons.join("; "), objects: cell.objects };
   });
 }
 
@@ -244,7 +264,7 @@ function cli(): void {
   const L = ctx.L;
   console.log(`${found.net.interior}: ${found.net.thesis}\n`);
   for (const r of resolveNet(ctx, found.net, values)) {
-    const mark = r.via === "main" ? "" : r.via === "alternate" ? " (alternate)" : ` (no style holds the knobs: ${r.reason})`;
+    const mark = r.via === "main" ? "" : r.via === "alternate" ? " (alternate)" : ` (none: ${r.reason})`;
     console.log(`${r.category.padEnd(15)} ${r.style}${mark}`);
     for (const o of r.objects)
       console.log(`  ${L.object.get(o.object)?.name ?? o.object}: ${o.form}; ${L.material.get(o.material)?.name}, ${L.finish.get(o.finish)?.name?.toLowerCase()}, ${L.texture.get(o.texture)?.name?.toLowerCase()}`);

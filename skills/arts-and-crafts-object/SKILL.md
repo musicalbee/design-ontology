@@ -149,8 +149,8 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 | Work | Maker | Year |
 |---|---|---|
-| Sussex chair | Morris, Marshall, Faulkner and Co. | 1865 |
-| Morris adjustable armchair | Morris and Co. | 1866 |
+| Sussex chair, c. 1865–66 | Morris, Marshall, Faulkner and Co. | 1865 |
+| Morris adjustable armchair, c. 1865–66 | Morris, Marshall, Faulkner and Co. | 1866 |
 | Hammered copper kettle | W. A. S. Benson | 1890 |
 | Craftsman settle | Gustav Stickley | 1901 |
 | Cabinet with inlay | Ernest Gimson | 1905 |
@@ -212,9 +212,9 @@ Warm trust in an object that a person made: the viewer sees the marks of the han
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Reclining Morris chair](https://commons.wikimedia.org/wiki/File:Reclining_Morris_Chair_MET_235723.jpg) (Roycroft, 1904): image, CC0. Roycroft
+- [Reclining Morris chair, c. 1903](https://commons.wikimedia.org/wiki/File:Reclining_Morris_Chair_MET_235723.jpg) (Roycroft, 1903): image, CC0. Roycroft
 - [Oak, wood inlay and brass desk](https://commons.wikimedia.org/wiki/File:Oak,_wood_inlay_and_brass_Arts_and_Crafts_desk_by_Harvey_Ellis,_c._1904,_Denver_Art_Museum.JPG) (Harvey Ellis, 1904): image, Public domain. Wmpearl
-- [Dining table, Stoneywell](https://commons.wikimedia.org/wiki/File:Dining_table_by_Sidney_Barnsley,_Stoneywell,_Leicestershire.jpg) (Sidney Barnsley, 1899): image, CC BY-SA 4.0. RobinLeicester
+- [Dining table, Stoneywell, c. 1899](https://commons.wikimedia.org/wiki/File:Dining_table_by_Sidney_Barnsley,_Stoneywell,_Leicestershire.jpg) (Sidney Barnsley, 1899): image, CC BY-SA 4.0. RobinLeicester
 
 ## Sources
 

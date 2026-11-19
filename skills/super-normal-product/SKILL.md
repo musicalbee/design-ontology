@@ -215,8 +215,8 @@ Quiet ease: the viewer feels that the object is right, familiar and without effo
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Jasper morrison per vitra ag, sedia plywood, 1988](https://commons.wikimedia.org/wiki/File:Jasper_morrison_per_vitra_ag,_sedia_plywood,_1988.jpg) (Jasper Morrison, 1988): image, CC BY 3.0. Sailko
-- [Thinking Mans Chair designed by Jasper Morrison](https://commons.wikimedia.org/wiki/File:Thinking_Mans_Chair_designed_by_Jasper_Morrison.jpg) (Jasper Morrison, 1986): image, CC BY-SA 4.0. JT at JMLtd
+- [Plywood chair, 1988: a precursor work, before the 2006 name](https://commons.wikimedia.org/wiki/File:Jasper_morrison_per_vitra_ag,_sedia_plywood,_1988.jpg) (Jasper Morrison, 1988): image, CC BY 3.0. Sailko
+- [Thinking Man's Chair, 1986: a precursor work, before the 2006 name](https://commons.wikimedia.org/wiki/File:Thinking_Mans_Chair_designed_by_Jasper_Morrison.jpg) (Jasper Morrison, 1986): image, CC BY-SA 4.0. JT at JMLtd
 
 ## Sources
 

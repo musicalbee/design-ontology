@@ -217,7 +217,7 @@ Quiet wonder at a handmade object that seems to grow: the viewer follows one lin
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Mushroom night lamp](https://commons.wikimedia.org/wiki/File:Tiffany_Glass_%5E_Decorating_Co._(American,_1892-1900)_-_Mushroom_Night_Lamp_-_2018.288_-_Cleveland_Museum_of_Art.jpg) (Tiffany Glass and Decorating Company, 1895): image, CC0. unknown
+- [Mushroom night lamp, c. 1896–1902](https://commons.wikimedia.org/wiki/File:Tiffany_Glass_%5E_Decorating_Co._(American,_1892-1900)_-_Mushroom_Night_Lamp_-_2018.288_-_Cleveland_Museum_of_Art.jpg) (Tiffany Glass and Decorating Company, 1900): image, CC0. Cleveland Museum of Art
 - [Art glass table lamp](https://commons.wikimedia.org/wiki/File:Lamp-Daum-BMA.jpg) (Daum, 1900): image, CC BY 3.0. Antonin and Auguste Daum
 
 ## Sources

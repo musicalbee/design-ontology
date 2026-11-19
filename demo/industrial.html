@@ -140,22 +140,30 @@ function problems(knob, range, v) {
   return out;
 }
 const rangeProblems = (style, values) => domain.knobs.flatMap((k) => (values[k.key] === undefined ? [] : problems(k, style.permutations?.[k.key], values[k.key])));
+// The period-room rule: at an era blend below 0.5, a style that starts after the room ends cannot furnish it.
+const periodProblem = (style, end, v) => (Number(v.era_blend) < 0.5 && style.time_period.start > end ? `period room: ${style.name} starts in ${style.time_period.start}, after the room ends (${end})` : null);
 function resolve(net, values) {
+  const end = roomEnds[net.interior] ?? 9999;
   return net.categories.map((cell) => {
     const v = { ...net.knobs, ...(cell.knobs ?? {}), ...values };
+    const reasons = [];
     for (const [i, id] of [cell.style, ...cell.alternates].entries()) {
       const s = styles.get(id);
-      if (!s || rangeProblems(s, v).length) continue;
+      if (!s) { reasons.push(`unknown style ${id}`); continue; }
+      const ranges = rangeProblems(s, v);
+      const late = periodProblem(s, end, v);
+      if (i === 0) reasons.push(...ranges);
+      if (late) reasons.push(late);
+      if (ranges.length || late) continue;
       if (i === 0) return { cell, style: id, via: "main", objects: cell.objects };
       const { category: _c, ...row } = s.signatures.objects.find((r) => r.category === cell.category);
       return { cell, style: id, via: "alternate", objects: [row] };
     }
-    const main = styles.get(cell.style);
-    return { cell, style: cell.style, via: "none", reason: main ? rangeProblems(main, v).join("; ") : "unknown style", objects: cell.objects };
+    return { cell, style: cell.style, via: "none", reason: reasons.join("; "), objects: cell.objects };
   });
 }
 
-let domain, voc, V, styles = new Map(), previews = {}, boards = {}, interiors = [], nets = {}, net, values = {}, tile = null;
+let domain, voc, V, roomEnds = {}, styles = new Map(), previews = {}, boards = {}, interiors = [], nets = {}, net, values = {}, tile = null;
 
 const name = (kind, id) => V[kind].get(id)?.name ?? id;
 const surface = (o) => `${name("material", o.material)}, ${name("finish", o.finish).toLowerCase()}, ${name("texture", o.texture).toLowerCase()}`;
@@ -169,7 +177,7 @@ function knobsPanel() {
       ? `<select id="k-${k.key}">${k.options.map((o) => `<option${o === v ? " selected" : ""}>${o}</option>`).join("")}</select>`
       : `<input type="range" id="k-${k.key}" min="${k.min}" max="${k.max}" step="${k.kind === "number" ? 0.05 : 1}" value="${v}">`;
     return `<div class="knob"><label for="k-${k.key}">${esc(k.label)}<output id="o-${k.key}">${esc(v)}${unit}</output></label>${ctl}</div>`;
-  }).join("") + `<button type="button" id="reset">Reset to the net defaults</button><p class="note">The net gives each knob a default. A knob outside the range of a main style moves that category to its first alternate that holds it.</p>`;
+  }).join("") + `<button type="button" id="reset">Reset to the net defaults</button><p class="note">The net gives each knob a default. A knob outside the range of a main style moves that category to its first alternate that holds it. In a period room (era blend below 0.5), a style that starts after the room ends cannot take a category.</p>`;
   for (const k of domain.knobs) {
     $(`k-${k.key}`).addEventListener("input", (e) => {
       values[k.key] = k.kind === "enum" ? e.target.value : Number(e.target.value);
@@ -185,7 +193,7 @@ function cells() {
   $("cells").innerHTML = resolve(net, values).map((r) => {
     const via = r.via === "main" ? `<span class="via"><a href="#s:${esc(r.style)}" data-style="${esc(r.style)}">${esc(sname(r.style))}</a></span>`
       : r.via === "alternate" ? `<span class="via alt">alternate: <a href="#s:${esc(r.style)}" data-style="${esc(r.style)}">${esc(sname(r.style))}</a></span>`
-      : `<span class="via none">no style holds the knobs: ${esc(r.reason)}</span>`;
+      : `<span class="via none">none: ${esc(r.reason)}</span>`;
     const hit = r.objects.some((o) => marked.has(o.object));
     return `<article class="cell${hit ? " hit" : ""}"><header><b>${esc(titleCase(r.cell.category))}</b>${via}</header>` +
       r.objects.map((o) => `<div class="obj${marked.has(o.object) ? " hit" : ""}"><i style="background:${esc(o.colour ?? "transparent")}"></i><span><b>${esc(name("object", o.object))}</b>: ${esc(o.form)}</span><small>${esc(surface(o))}${o.note ? ` · ${esc(o.note)}` : ""}</small></div>`).join("") +
@@ -206,6 +214,7 @@ function tilesPanel() {
 async function showNet(id, push) {
   net = nets[id] ??= await json(`../data/industrial/nets/${id}.json`);
   if (!net) return false;
+  if (!(id in roomEnds)) roomEnds[id] = (await json(`../data/interior/styles/${id}.json`))?.time_period?.end ?? 9999;
   values = {}; tile = null;
   for (const b of $("pills").children) b.setAttribute("aria-pressed", String(b.dataset.id === id));
   for (const b of $("chips").children) b.setAttribute("aria-pressed", String(b.dataset.go === id));

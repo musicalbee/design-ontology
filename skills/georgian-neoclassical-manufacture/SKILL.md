@@ -215,7 +215,7 @@ Calm pleasure in a refined, ordered object: it looks light, clean and sure of it
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Portland vase in jasperware](https://commons.wikimedia.org/wiki/File:Josiah_Wedgwood_-_Portland_Vase_-_1918.823_-_Cleveland_Museum_of_Art.tif) (Josiah Wedgwood, 1790): image, CC0. Josiah Wedgwood
+- [Portland vase in jasperware, c. 1790](https://commons.wikimedia.org/wiki/File:Josiah_Wedgwood_-_Portland_Vase_-_1918.823_-_Cleveland_Museum_of_Art.tif) (Josiah Wedgwood, 1790): image, CC0. Cleveland Museum of Art, 1918.823
 - [Ormolu tea urn](https://commons.wikimedia.org/wiki/File:Ormoluteaurn.JPG): image, CC BY-SA 3.0. Wehwalt
 - [Wedgwood jasperware lustre with ormolu](https://commons.wikimedia.org/wiki/File:Lustre,_Wedgwood,_c._1790,_jasperware_with_London_glass_and_ormolu_perhaps_by_Matthew_Bouton_-_British_Museum_-_DSC00144.jpg) (Josiah Wedgwood, 1790): image, CC0. Daderot
 
