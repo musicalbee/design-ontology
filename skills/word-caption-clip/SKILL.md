@@ -296,7 +296,7 @@ The viewer feels pulled along by the voice and cannot look away from the words.
 ## Sources
 
 - [Wikipedia: Closed captioning](https://en.wikipedia.org/wiki/Closed_captioning)
-- [Wikipedia: Alex Hormozi](https://en.wikipedia.org/wiki/Alex_Hormozi)
+- [Wikipedia: Kinetic typography](https://en.wikipedia.org/wiki/Kinetic_typography)
 
 ---
 

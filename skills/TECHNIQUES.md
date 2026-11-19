@@ -604,7 +604,7 @@ Used by: [`surrealism-painting`](./surrealism-painting/SKILL.md), [`german-expre
 - Leave the shadow flat and dark, at 40% to 70% opacity.
 - Show the shadow of something outside the frame, to hint at an unseen presence.
 
-Sources: [Wikipedia, The Mystery and Melancholy of a Street](https://en.wikipedia.org/wiki/The_Mystery_and_Melancholy_of_a_Street); [Wikipedia, Nosferatu](https://en.wikipedia.org/wiki/Nosferatu).
+Sources: [Wikipedia, The Mystery and Melancholy of a Street](https://en.wikipedia.org/wiki/Mystery_and_Melancholy_of_a_Street); [Wikipedia, Nosferatu](https://en.wikipedia.org/wiki/Nosferatu).
 
 ### Mesh and blade 3D motif
 

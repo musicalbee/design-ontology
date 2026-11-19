@@ -272,8 +272,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more glossy**: move toward [`frutiger-aero`](../frutiger-aero/SKILL.md) (Frutiger Aero). Add glass bubbles, a sky photo and a green accent.
 - If the user asks for **more airy**: move toward [`ethereal-web`](../ethereal-web/SKILL.md) (Ethereal Web). Add an aurora gradient, a blur of 40px and a thin sans display face.
 
-- **Came from (go here for a more orthodox version):** [`weirdcore`](../weirdcore/SKILL.md)
-- **Mixes well with:** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`liminal-spaces`](../liminal-spaces/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
+- **Came from (go here for a more orthodox version):** [`vaporwave`](../vaporwave/SKILL.md)
+- **Mixes well with:** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`liminal-spaces`](../liminal-spaces/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md), [`weirdcore`](../weirdcore/SKILL.md)
 - **Kin in another domain:** [`y2k-digicam`](../y2k-digicam/SKILL.md)
 - **Nearest by vector profile:** [`pov-short`](../pov-short/SKILL.md), [`unboxing-video`](../unboxing-video/SKILL.md), [`green-screen-short`](../green-screen-short/SKILL.md)
 

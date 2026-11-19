@@ -300,7 +300,7 @@ The viewer feels the closeness of a friend's room: personal, loud and a little v
 ## Sources
 
 - [Wikipedia: Myspace](https://en.wikipedia.org/wiki/Myspace)
-- [Wikipedia: Tom Anderson (Internet entrepreneur)](https://en.wikipedia.org/wiki/Tom_Anderson_(Internet_entrepreneur))
+- [Wikipedia: Tom Anderson](https://en.wikipedia.org/wiki/Tom_Anderson)
 - [Know Your Meme: Myspace](https://knowyourmeme.com/memes/sites/myspace)
 
 ---

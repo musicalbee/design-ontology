@@ -271,9 +271,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more digital**: move toward [`cybercore-web`](../cybercore-web/SKILL.md) (Cybercore Web). Add scan lines, a green terminal grid and split colour channels.
 - If the user asks for **calmer**: move toward [`minimalism-web`](../minimalism-web/SKILL.md) (Minimalism Web). Replace the yellow with white and remove the timestamp and noise.
 
-- **Came from (go here for a more orthodox version):** [`vaporwave`](../vaporwave/SKILL.md), [`weirdcore`](../weirdcore/SKILL.md)
+- **Came from (go here for a more orthodox version):** [`vaporwave`](../vaporwave/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`corporate-memphis`](../corporate-memphis/SKILL.md)
-- **Mixes well with:** [`dreamcore`](../dreamcore/SKILL.md)
+- **Mixes well with:** [`dreamcore`](../dreamcore/SKILL.md), [`weirdcore`](../weirdcore/SKILL.md)
 - **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`found-footage`](../found-footage/SKILL.md), [`low-poly-ps1-revival`](../low-poly-ps1-revival/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md)
 - **Nearest by vector profile:** [`neumorphism`](../neumorphism/SKILL.md), [`ethereal-web`](../ethereal-web/SKILL.md), [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md)
 
@@ -285,9 +285,8 @@ The viewer feels uneasy, alone and held in a place between two states.
 
 ## Sources
 
-- [Know Your Meme: Liminal Space](https://knowyourmeme.com/memes/liminal-space)
-- [Wikipedia: Backrooms](https://en.wikipedia.org/wiki/Backrooms)
 - [Wikipedia: Liminal space (aesthetic)](https://en.wikipedia.org/wiki/Liminal_space_(aesthetic))
+- [Wikipedia: Backrooms](https://en.wikipedia.org/wiki/Backrooms)
 
 ---
 

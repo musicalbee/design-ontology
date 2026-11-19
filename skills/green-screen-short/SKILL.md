@@ -22,7 +22,7 @@ vector_profile:
 
 > Put the speaker in front of the evidence: the image is the set, the creator is the commentator.
 
-A person stands in front of a screenshot, a map or a photo that fills the whole vertical frame, and talks about it. The creator cuts out the background with the chroma-key tool of a short-video app, which TikTok added in 2020.
+A person stands in front of a screenshot, a map or a photo that fills the whole vertical frame, and talks about it. The creator cuts out the background with the chroma-key tool of a short-video app.
 
 **Period:** 2020–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Green screen video, TikTok green screen, Chroma-key explainer
 

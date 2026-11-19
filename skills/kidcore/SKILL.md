@@ -294,9 +294,8 @@ The viewer feels playful, nostalgic and free to be silly.
 
 ## Sources
 
-- [Know Your Meme: Kidcore](https://knowyourmeme.com/memes/subcultures/kidcore)
-- [Wikipedia: Aesthetic (internet culture)](https://en.wikipedia.org/wiki/Aesthetic_(Internet_culture))
-- [Aesthetics Wiki: Kidcore](https://aesthetics.fandom.com/wiki/Kidcore)
+- [Wikipedia: Kidcore](https://en.wikipedia.org/wiki/Kidcore)
+- [Wikipedia: Internet aesthetic](https://en.wikipedia.org/wiki/Internet_aesthetic)
 
 ---
 

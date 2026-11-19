@@ -287,7 +287,7 @@ The viewer feels a warm, quick, shared tone in a text line.
 
 - [Wikipedia: Emoji](https://en.wikipedia.org/wiki/Emoji)
 - [Unicode Consortium: Emoji](https://home.unicode.org/emoji/)
-- [Wikipedia: Unicode 6.0](https://en.wikipedia.org/wiki/Unicode_version_history)
+- [Wikipedia: Unicode](https://en.wikipedia.org/wiki/Unicode)
 
 ---
 

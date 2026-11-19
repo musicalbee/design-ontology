@@ -295,7 +295,6 @@ The viewer feels the warmth, the clutter and the sincerity of a personal page.
 ## Sources
 
 - [Wikipedia: GeoCities](https://en.wikipedia.org/wiki/GeoCities)
-- [Wikipedia: Under construction (web)](https://en.wikipedia.org/wiki/Under_construction_(web))
 - [Internet Archive: GeoCities special collection](https://archive.org/web/geocities.php)
 
 ---

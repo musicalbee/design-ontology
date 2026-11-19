@@ -286,7 +286,7 @@ The viewer feels a quick shared reaction, funny and a little raw.
 
 - [Wikipedia: GIF](https://en.wikipedia.org/wiki/GIF)
 - [Wikipedia: Giphy](https://en.wikipedia.org/wiki/Giphy)
-- [Know Your Meme: Reaction GIF](https://knowyourmeme.com/memes/reaction-gifs)
+- [Know Your Meme: Reaction images](https://knowyourmeme.com/memes/reaction-images)
 
 ---
 

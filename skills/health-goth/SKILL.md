@@ -285,7 +285,6 @@ The viewer feels cold, fit and focused, in a calm, controlled way.
 ## Sources
 
 - [Wikipedia, Health goth](https://en.wikipedia.org/wiki/Health_goth)
-- [Know Your Meme, Health Goth](https://knowyourmeme.com/memes/subcultures/health-goth)
 
 ---
 

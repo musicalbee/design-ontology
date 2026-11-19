@@ -1,6 +1,6 @@
 ---
 name: weirdcore
-description: "Apply the Weirdcore style (2018–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: weirdcore, oddcore, strangecore, creepycore, uncanny nostalgia, lo-fi eerie."
+description: "Apply the Weirdcore style (2020–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: weirdcore, oddcore, strangecore, creepycore, uncanny nostalgia, lo-fi eerie."
 domain: internet
 era: touchscreen
 triggers:
@@ -26,7 +26,7 @@ vector_profile:
 
 Low-quality photos of empty places, red warning text, black voids, faceless shapes and old 3D or web fragments. The mood is a strange dream memory. It grew on Tumblr, Reddit and Twitter.
 
-**Period:** 2018–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Oddcore, Strangecore, Creepycore
+**Period:** 2020–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Oddcore, Strangecore, Creepycore
 
 ## When to load this skill
 
@@ -272,9 +272,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more retro**: move toward [`cassette-futurism`](../cassette-futurism/SKILL.md) (Cassette Futurism). Replace the photo with a CRT screen, an amber text line and a hard grid.
 
 - **Came from (go here for a more orthodox version):** [`vaporwave`](../vaporwave/SKILL.md)
-- **Led to (go here for a newer version):** [`dreamcore`](../dreamcore/SKILL.md), [`liminal-spaces`](../liminal-spaces/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`frutiger-aero`](../frutiger-aero/SKILL.md)
-- **Mixes well with:** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
+- **Mixes well with:** [`dreamcore`](../dreamcore/SKILL.md), [`liminal-spaces`](../liminal-spaces/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`low-poly-ps1-revival`](../low-poly-ps1-revival/SKILL.md)
 - **Nearest by vector profile:** [`glitch-gif`](../glitch-gif/SKILL.md), [`barbiecore`](../barbiecore/SKILL.md), [`grwm-short`](../grwm-short/SKILL.md)
 

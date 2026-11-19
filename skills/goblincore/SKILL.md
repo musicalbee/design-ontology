@@ -288,9 +288,8 @@ The viewer feels curious, at home in mess and tender toward small, odd things.
 
 ## Sources
 
-- [Know Your Meme: Goblincore](https://knowyourmeme.com/memes/subcultures/goblincore)
 - [Wikipedia: Goblincore](https://en.wikipedia.org/wiki/Goblincore)
-- [Aesthetics Wiki: Goblincore](https://aesthetics.fandom.com/wiki/Goblincore)
+- [Wikipedia: Internet aesthetic](https://en.wikipedia.org/wiki/Internet_aesthetic)
 
 ---
 

@@ -248,7 +248,7 @@ A capture mode that takes a photo with the back camera and the front camera in o
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **BeReal** (platform, web, 2020–now), launched the style. A French photo app that asks users to post one back and one front camera photo within a short window. The post shows a time stamp and a late mark.
+- **BeReal** (platform, web, 2019–now), launched the style. A French photo app that asks users to post one back and one front camera photo within a short window. The post shows a time stamp and a late mark.
 
 ## Permutations
 

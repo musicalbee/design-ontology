@@ -283,7 +283,6 @@ The viewer feels a faint hollow: it looks nice, and no one made it.
 ## Sources
 
 - [Wikipedia: AI slop](https://en.wikipedia.org/wiki/AI_slop)
-- [Know Your Meme: AI Slop](https://knowyourmeme.com/memes/ai-slop)
 
 ---
 

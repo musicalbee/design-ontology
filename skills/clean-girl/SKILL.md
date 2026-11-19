@@ -288,7 +288,7 @@ The viewer feels calm, tidy and drawn to a polished daily routine.
 
 - [Know Your Meme: Clean Girl Aesthetic](https://knowyourmeme.com/memes/clean-girl-aesthetic)
 - Vogue, The clean girl aesthetic explained (2022)
-- [Wikipedia: Aesthetic (internet culture)](https://en.wikipedia.org/wiki/Aesthetic_(Internet_culture))
+- [Wikipedia: Internet aesthetic](https://en.wikipedia.org/wiki/Internet_aesthetic)
 
 ---
 

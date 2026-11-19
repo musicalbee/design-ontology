@@ -1500,7 +1500,7 @@
       "domain": "internet",
       "name": "Weirdcore",
       "era": "touchscreen",
-      "start": 2018,
+      "start": 2020,
       "end": null,
       "vectors": {
         "ornamentation": 2,
@@ -11319,7 +11319,7 @@
     },
     {
       "from": "dreamcore",
-      "to": "weirdcore",
+      "to": "vaporwave",
       "type": "EVOLVED_FROM"
     },
     {
@@ -11920,11 +11920,6 @@
     {
       "from": "liminal-spaces",
       "to": "vaporwave",
-      "type": "EVOLVED_FROM"
-    },
-    {
-      "from": "liminal-spaces",
-      "to": "weirdcore",
       "type": "EVOLVED_FROM"
     },
     {
@@ -13468,6 +13463,11 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "dreamcore",
+      "to": "weirdcore",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "duesseldorf-school",
       "to": "new-colour",
       "type": "HYBRIDIZED_WITH"
@@ -13845,6 +13845,11 @@
     {
       "from": "lets-play-facecam",
       "to": "pixel-art-web",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "liminal-spaces",
+      "to": "weirdcore",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -27386,6 +27391,7 @@
         "y2k-aesthetic"
       ],
       "evolved_into": [
+        "dreamcore",
         "health-goth",
         "liminal-spaces",
         "surrealism-web",
@@ -28671,15 +28677,14 @@
       "evolved_from": [
         "vaporwave"
       ],
-      "evolved_into": [
-        "dreamcore",
-        "liminal-spaces"
-      ],
+      "evolved_into": [],
       "rebelled_against": [
         "frutiger-aero"
       ],
       "provoked": [],
       "hybridized_with": [
+        "dreamcore",
+        "liminal-spaces",
         "y2k-aesthetic"
       ],
       "echoes": [
@@ -28746,7 +28751,7 @@
     },
     "dreamcore": {
       "evolved_from": [
-        "weirdcore"
+        "vaporwave"
       ],
       "evolved_into": [],
       "rebelled_against": [],
@@ -28754,7 +28759,8 @@
       "hybridized_with": [
         "frutiger-aero",
         "liminal-spaces",
-        "vaporwave"
+        "vaporwave",
+        "weirdcore"
       ],
       "echoes": [
         "y2k-digicam"
@@ -28937,8 +28943,7 @@
     },
     "liminal-spaces": {
       "evolved_from": [
-        "vaporwave",
-        "weirdcore"
+        "vaporwave"
       ],
       "evolved_into": [],
       "rebelled_against": [
@@ -28946,7 +28951,8 @@
       ],
       "provoked": [],
       "hybridized_with": [
-        "dreamcore"
+        "dreamcore",
+        "weirdcore"
       ],
       "echoes": [
         "brutalist-architecture",

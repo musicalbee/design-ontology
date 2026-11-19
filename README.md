@@ -1514,7 +1514,7 @@ flowchart LR
   straight_photography --> documentary_photography
   soviet_montage --> documentary_verite
   memphis_interior --> dopamine_decor
-  weirdcore --> dreamcore
+  vaporwave --> dreamcore
   photo_dump --> dual_camera_snapshot
   new_objectivity --> duesseldorf_school
   new_topographics --> duesseldorf_school
@@ -1635,7 +1635,6 @@ flowchart LR
   victorian_encaustic_tiles --> large_format_porcelain_tiles
   unboxing_video --> lets_play_facecam
   vaporwave --> liminal_spaces
-  weirdcore --> liminal_spaces
   glassmorphism --> liquid_glass_ui
   spatial_visionos --> liquid_glass_ui
   tang_sancai_figures --> liuli_glazed_roof
@@ -2684,6 +2683,7 @@ flowchart LR
   linkStyle 611 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 612 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 613 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 1067 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1068 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1069 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1070 stroke:#E5484D,stroke-width:1.5px
@@ -2914,7 +2914,6 @@ flowchart LR
   linkStyle 1295 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1296 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1297 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1298 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 
