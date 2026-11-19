@@ -181,6 +181,7 @@
     box-shadow: var(--shadow-elevation); -webkit-backdrop-filter: var(--backdrop-filter); backdrop-filter: var(--backdrop-filter); }
   .dressed .card:hover { box-shadow: var(--shadow-elevation); border-color: var(--color-border); translate: 0 -2px; }
   .dressed .tool b .icon { --icon-knock: var(--color-surface); }
+  .dressed .go { color: var(--accent-text, var(--accent)); }   /* beats the pack link rule, which has the same specificity as .go */
   .dressed .wear select { background: var(--color-bg); color: var(--color-on-bg); border: var(--border-width) solid var(--color-border); border-radius: min(var(--border-radius), 10px); }
   .dressed .btn { background: var(--color-surface); color: var(--color-on-surface); border: var(--border-width) solid var(--color-border);
     border-radius: min(var(--border-radius), 999px); box-shadow: var(--shadow-elevation); font-weight: var(--label-weight, 600);
@@ -399,7 +400,7 @@ function tune(a, cs) {
   set("--accent", a); set("--color-accent", a); set("--on-accent", on);
   set("--accent-hover", `color-mix(in oklab, ${a} 84%, ${on})`);
   set("--accent-text", ratio(rgb, bg) >= 3 ? a : "var(--ink)");
-  set("--accent-text-surface", ratio(rgb, surf) >= 3 ? a : "var(--ink)");
+  set("--accent-text-surface", ratio(rgb, surf) >= 3 ? a : "var(--color-on-surface, #1F1F45)");   // resolved on .dress, so name the surface ink, not --ink
   accent = a;
   for (const b of $("w-swatches").children) b.setAttribute("aria-pressed", b.dataset.c === a);
   $("w-color").value = a.toLowerCase();
