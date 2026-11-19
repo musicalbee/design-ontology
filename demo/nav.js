@@ -5,12 +5,13 @@
 // The page fills #chips with <button data-go="<id>" aria-pressed> and handles the clicks, as before.
 // The "Styles" button shows only when #chips has buttons, so a page with no styles shows the bar only.
 (() => {
+  // The domains go in a dropdown. The views across all domains stay in the bar.
   const DOMAINS = [
     ["design.html", "Design"], ["architecture.html", "Architecture"], ["interior.html", "Interior"],
     ["photography.html", "Photography"], ["film.html", "Film and video"], ["painting.html", "Painting"],
     ["logo.html", "Logo"], ["icon.html", "Icons"], ["typeface.html", "Typefaces"], ["print.html", "Print"], ["game.html", "Video games"],
-    ["graph.html", "Lineage graph"], ["techniques.html", "Techniques"], ["people.html", "People"],
   ];
+  const ACROSS = [["graph.html", "Lineage"], ["techniques.html", "Techniques"], ["people.html", "People"]];
   // A sub-page marks its parent domain as current: the moodboards are part of Interior.
   const PARENT = { "moodboard.html": "interior.html" };
   const file = location.pathname.split("/").pop() || "index.html";
@@ -49,11 +50,25 @@
   .do-btn[aria-expanded="true"] .do-n { color: rgb(255 255 255 / .8); }
   .do-step { width: 36px; padding: 0; justify-content: center; font-size: 18px; line-height: 1; }
   .do-styles[hidden], .do-step[hidden] { display: none; }
-  .do-links { display: flex; align-items: center; gap: 2px; margin-left: 12px; overflow-x: auto; scrollbar-width: none; }
+  .do-links { display: flex; align-items: center; gap: 2px; margin-left: auto; }
+  .do-dom { position: relative; flex: none; }
+  .do-dom > .do-btn { padding: 0 12px 0 14px; }
+  .do-dom > .do-btn[aria-expanded="true"] { background: var(--hv-subtle); color: var(--hv-heading); border-color: var(--hv-line-strong); }
+  .do-dom .do-chev { width: 12px; height: 12px; transition: transform .2s var(--hv-ease); }
+  .do-dom > .do-btn[aria-expanded="true"] .do-chev { transform: rotate(180deg); }
+  .do-menu { position: absolute; top: calc(100% + 8px); left: 0; z-index: 1001; min-width: 230px; padding: 6px; display: grid; gap: 1px;
+    background: var(--hv-surface); border: 1px solid var(--hv-line); border-radius: 14px; box-shadow: var(--hv-lift); }
+  .do-menu[hidden] { display: none; }
+  .do-menu a { display: block; padding: 8px 12px; border-radius: 10px; color: var(--hv-ink); text-decoration: none; white-space: nowrap; }
+  .do-menu a:hover { background: var(--hv-subtle); color: var(--hv-heading); }
+  .do-menu a[aria-current="page"] { color: var(--hv-accent); background: var(--hv-muted-bg); font-weight: 600; }
+  .do-menu a[aria-current="page"]::after { content: "✓"; float: right; margin-left: 16px; }
+  .do-menu hr { border: 0; border-top: 1px solid var(--hv-line); margin: 5px 6px; }
+  .do-menu .do-narrow { display: none; }
   .do-links a, .do-gh { color: var(--hv-ink-muted); text-decoration: none; padding: 7px 12px; border-radius: 999px; white-space: nowrap; }
   .do-links a:hover, .do-gh:hover { color: var(--hv-heading); background: var(--hv-subtle); }
   .do-links a[aria-current="page"] { color: var(--hv-accent); background: var(--hv-muted-bg); font-weight: 600; }
-  .do-gh { margin-left: auto; }
+  .do-gh { margin-left: 4px; }
   .do-bar :focus-visible, .do-drawer :focus-visible { outline: 3px solid var(--hv-focus); outline-offset: 3px; }
 
   .do-drawer { position: fixed; z-index: 999; top: 64px; left: 8px; bottom: 8px; width: min(300px, calc(100vw - 16px));
@@ -78,13 +93,12 @@
     color: var(--hv-ink-muted); font-size: 12.5px; }
   .do-foot kbd { font: 11px ui-monospace, SFMono-Regular, Menlo, monospace; padding: 1px 6px; border: 1px solid var(--hv-line-strong);
     border-radius: 6px; background: var(--hv-surface); color: var(--hv-ink); }
-  .do-domains { display: none; padding: 8px; border-bottom: 1px solid var(--hv-line); flex-wrap: wrap; gap: 4px; }
-  .do-domains a { color: var(--hv-ink-muted); text-decoration: none; padding: 5px 10px; border-radius: 999px; }
-  .do-domains a[aria-current="page"] { color: var(--hv-accent); background: var(--hv-muted-bg); font-weight: 600; }
   .do-step { flex: none; }
-  .do-links { min-width: 0; }
-  @media (max-width: 760px) { .do-bar { padding: 0 8px; } .do-styles { width: min(280px, calc(100vw - 190px)); } .do-links { display: none; } .do-domains { display: flex; } .do-brand { display: none; }
-    .do-bar.do-bare .do-links { display: flex; margin-left: 0; } }
+  @media (max-width: 1060px) { .do-styles { width: 220px; } }
+  /* Narrow: the brand and the GitHub link go, and the views across domains move into the dropdown. */
+  @media (max-width: 860px) { .do-bar { padding: 0 8px; gap: 6px; } .do-brand, .do-gh, .do-links { display: none; } .do-menu .do-narrow { display: block; }
+    .do-menu hr.do-narrow { display: block; } .do-styles { width: auto; flex: 1 1 auto; min-width: 0; } .do-dom .do-label { max-width: 26vw; overflow: hidden; text-overflow: ellipsis; }
+    .do-bar.do-bare .do-links { display: flex; } }
   @media (prefers-reduced-motion: reduce) { .do-drawer, .do-drawer.open, .do-btn { transition: none; } }`;
   if (!document.querySelector('link[href*="family=Onest"]')) {
     const font = document.createElement("link");
@@ -95,29 +109,38 @@
   const style = document.createElement("style");
   style.textContent = css;
   document.head.append(style);
-  if (!document.querySelector('script[src$="zoom.js"]')) {
-    const zoom = document.createElement("script");
-    zoom.src = new URL("zoom.js", document.currentScript?.src || location.href).href;
-    document.head.append(zoom);
+  // zoom.js: the image lens. faces.js: the people of each style, and the data for the people views.
+  for (const f of ["zoom.js", "faces.js"]) {
+    if (document.querySelector(`script[src$="${f}"]`)) continue;
+    const s = document.createElement("script");
+    s.src = new URL(f, document.currentScript?.src || location.href).href;
+    document.head.append(s);
   }
 
-  const links = DOMAINS.map(([href, name]) => `<a href="${href}"${href === here ? ' aria-current="page"' : ""}>${name}</a>`).join("");
+  const a = ([href, name], cls = "") => `<a href="${href}"${cls ? ` class="${cls}"` : ""}${href === here ? ' aria-current="page"' : ""}>${name}</a>`;
+  const current = DOMAINS.find(([href]) => href === here);
+  const chev = `<svg class="do-chev" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg>`;
+  const menu = `<div class="do-dom"><button class="do-btn" id="do-dom" aria-expanded="false" aria-controls="do-menu" aria-haspopup="true">` +
+    `<span class="do-label">${current ? current[1] : "Domains"}</span>${chev}</button>` +
+    `<nav class="do-menu" id="do-menu" aria-label="Domains" hidden>${a(["index.html", "All domains"])}<hr>${DOMAINS.map((d) => a(d)).join("")}` +
+    `<hr class="do-narrow">${ACROSS.map((d) => a(d, "do-narrow")).join("")}</nav></div>`;
+  const links = ACROSS.map((d) => a(d)).join("");
   const icon = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><rect x="1.8" y="2.5" width="12.4" height="11" rx="2"/><path d="M6 2.5v11M8.5 6h3.5M8.5 9h2.5"/></svg>`;
   const bar = document.createElement("header");
   bar.className = "do-bar do-bare";
   bar.innerHTML = `<a class="do-brand" href="index.html">Design Ontology</a>` +
+    menu +
     `<button class="do-btn do-styles" id="do-open" aria-expanded="false" aria-controls="do-drawer" hidden>${icon}<span class="do-cur">Styles</span><span class="do-n"></span></button>` +
     `<button class="do-btn do-step" id="prev" aria-label="Previous style" hidden>←</button>` +
     `<button class="do-btn do-step" id="next" aria-label="Next style" hidden>→</button>` +
-    `<nav class="do-links" aria-label="Domains">${links}</nav>` +
+    `<nav class="do-links" aria-label="Across the domains">${links}</nav>` +
     `<a class="do-gh" href="https://github.com/musicalbee/design-ontology">GitHub</a>`;
 
   const drawer = document.createElement("aside");
   drawer.className = "do-drawer";
   drawer.id = "do-drawer";
   drawer.setAttribute("aria-label", "Styles");
-  drawer.innerHTML = `<nav class="do-domains" aria-label="Domains">${links}</nav>` +
-    `<div class="do-head"><input type="search" id="do-q" placeholder="Find a style" aria-label="Find a style"><button class="do-btn do-x" id="do-close" aria-label="Close the style list">✕</button></div>` +
+  drawer.innerHTML = `<div class="do-head"><input type="search" id="do-q" placeholder="Find a style" aria-label="Find a style"><button class="do-btn do-x" id="do-close" aria-label="Close the style list">✕</button></div>` +
     `<div class="do-list" id="chips" role="group" aria-label="Style"></div>` +
     `<div class="do-foot"><kbd>←</kbd> <kbd>→</kbd> step through · <kbd>/</kbd> find · <kbd>Esc</kbd> close</div>`;
 
@@ -132,6 +155,17 @@
       if (on) list.querySelector('[aria-pressed="true"]')?.scrollIntoView({ block: "nearest" });
     };
     open.onclick = () => setOpen(!drawer.classList.contains("open"));
+    const dom = $("do-dom"), dmenu = $("do-menu");
+    const setMenu = (on) => { dmenu.hidden = !on; dom.setAttribute("aria-expanded", on); };
+    dom.onclick = () => { setMenu(dmenu.hidden); if (!dmenu.hidden) dmenu.querySelector('[aria-current="page"], a')?.focus(); };
+    dmenu.addEventListener("keydown", (e) => {
+      const items = [...dmenu.querySelectorAll("a")].filter((x) => x.offsetParent), i = items.indexOf(document.activeElement);
+      if (e.key === "ArrowDown" || e.key === "ArrowUp") { e.preventDefault(); items[(i + (e.key === "ArrowDown" ? 1 : -1) + items.length) % items.length]?.focus(); }
+      if (e.key === "Escape") { e.stopPropagation(); setMenu(false); dom.focus(); }
+      e.stopPropagation();
+    });
+    document.addEventListener("click", (e) => { if (!dmenu.hidden && !e.target.closest(".do-dom")) setMenu(false); });
+    dmenu.addEventListener("focusout", (e) => { if (!e.relatedTarget || !e.relatedTarget.closest(".do-dom")) setMenu(false); });
     $("do-close").onclick = () => { setOpen(false); open.focus(); };
 
     // Follow the page: show the controls once it lists styles, and show the current style on the button.
