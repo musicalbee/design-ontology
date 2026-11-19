@@ -139,6 +139,22 @@
     {
       "id": "dye",
       "name": "Dye"
+    },
+    {
+      "id": "living-plant",
+      "name": "Living plant"
+    },
+    {
+      "id": "woven-figured",
+      "name": "Woven, figured"
+    },
+    {
+      "id": "quilted",
+      "name": "Quilted"
+    },
+    {
+      "id": "rug",
+      "name": "Rug"
     }
   ],
   "materials": [
@@ -296,6 +312,9 @@
         "fashion.fabrics"
       ],
       "summary": "Cloth soaked in linseed oil for sailors and fishermen; Helly Hansen sold oiled linen in Norway from 1877.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "flax",
         "cotton"
@@ -320,6 +339,9 @@
         "fashion.fabrics"
       ],
       "summary": "A dense cotton with a paraffin-wax finish that replaced linseed oil; it does not go stiff in the cold. The cloth of the country jacket.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "cotton"
       ],
@@ -440,8 +462,7 @@
         "wood"
       ],
       "aliases": [
-        "mdf",
-        "lacquered mdf"
+        "mdf"
       ],
       "photo": "a square sample board of medium-density fibreboard",
       "identity": {
@@ -451,6 +472,35 @@
         {
           "title": "Wikipedia: Medium-density fibreboard",
           "url": "https://en.wikipedia.org/wiki/Medium-density_fibreboard"
+        }
+      ]
+    },
+    {
+      "id": "parquet",
+      "name": "Parquet",
+      "family": "engineered-wood",
+      "form": "board",
+      "senses": [],
+      "is_a": [
+        "wood-flooring"
+      ],
+      "made_from": [
+        "wood"
+      ],
+      "aliases": [
+        "parquetry",
+        "herringbone parquet",
+        "parquet floor"
+      ],
+      "photo_applied": "a square sample of herringbone oak parquet",
+      "photo": "a square sample board of parquet",
+      "identity": {
+        "wikidata": "Q838828"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Parquet",
+          "url": "https://en.wikipedia.org/wiki/Parquet"
         }
       ]
     },
@@ -477,6 +527,33 @@
         {
           "title": "Wikipedia: Plywood",
           "url": "https://en.wikipedia.org/wiki/Plywood"
+        }
+      ]
+    },
+    {
+      "id": "wood-flooring",
+      "name": "Wood flooring",
+      "family": "engineered-wood",
+      "form": "board",
+      "senses": [],
+      "made_from": [
+        "wood"
+      ],
+      "aliases": [
+        "plank floor",
+        "wood floor",
+        "engineered wood floor",
+        "engineered oak floor"
+      ],
+      "photo_applied": "a square sample of oak plank flooring",
+      "photo": "a square sample board of wood flooring",
+      "identity": {
+        "wikidata": "Q21141633"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Wood flooring",
+          "url": "https://en.wikipedia.org/wiki/Wood_flooring"
         }
       ]
     },
@@ -1220,6 +1297,9 @@
         "fashion.fabrics"
       ],
       "summary": "Lace plaited from threads on many bobbins over a pattern on a pillow; Flanders and the Low Countries led it.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "flax",
         "silk"
@@ -1244,6 +1324,9 @@
         "fashion.fabrics"
       ],
       "summary": "Machine lace from the Leavers frame; it made lace a cloth of the middle class and of lingerie.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "cotton",
         "silk",
@@ -1269,6 +1352,9 @@
         "fashion.fabrics"
       ],
       "summary": "Lace built from buttonhole stitches with a needle; Venetian 'punto in aria' was the lace of the ruff and the collar.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "flax",
         "silk"
@@ -1293,6 +1379,9 @@
         "fashion.fabrics"
       ],
       "summary": "Two cotton cloths glued with naphtha-dissolved rubber; the first waterproof coat cloth, and the name of the coat.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "cotton"
       ],
@@ -1316,6 +1405,9 @@
         "fashion.materials"
       ],
       "summary": "Raw latex rolled into crinkled sheets for a soft, grippy sole; the sole of the desert boot and the creeper.",
+      "is_a": [
+        "rubber"
+      ],
       "made_from": [
         "natural-rubber"
       ],
@@ -1339,6 +1431,9 @@
         "fashion.materials"
       ],
       "summary": "Latex from the rubber tree; the Olmec made rubber balls. Raw rubber goes soft in heat and hard in cold.",
+      "is_a": [
+        "rubber"
+      ],
       "photo": "a square sample sheet of natural rubber",
       "identity": {
         "wikidata": "Q131877"
@@ -1427,6 +1522,272 @@
       ]
     },
     {
+      "id": "cut-flowers",
+      "name": "Cut flowers",
+      "family": "living-plant",
+      "form": "raw",
+      "senses": [],
+      "is_a": [
+        "living-plant"
+      ],
+      "aliases": [
+        "flowers",
+        "bouquet",
+        "fresh flowers"
+      ],
+      "photo": "cut flowers",
+      "identity": {
+        "wikidata": "Q1576780"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Cut flowers",
+          "url": "https://en.wikipedia.org/wiki/Cut_flowers"
+        }
+      ]
+    },
+    {
+      "id": "fiddle-leaf-fig",
+      "name": "Fiddle-leaf fig",
+      "family": "living-plant",
+      "form": "raw",
+      "senses": [],
+      "is_a": [
+        "house-plant"
+      ],
+      "aliases": [
+        "ficus lyrata"
+      ],
+      "photo": "fiddle-leaf fig",
+      "identity": {
+        "wikidata": "Q1498748"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ficus lyrata",
+          "url": "https://en.wikipedia.org/wiki/Ficus_lyrata"
+        }
+      ]
+    },
+    {
+      "id": "house-plant",
+      "name": "House plant",
+      "family": "living-plant",
+      "form": "raw",
+      "senses": [],
+      "is_a": [
+        "living-plant"
+      ],
+      "aliases": [
+        "houseplant",
+        "house plants",
+        "potted plant",
+        "indoor plant"
+      ],
+      "photo": "house plant",
+      "identity": {
+        "wikidata": "Q203834"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Houseplant",
+          "url": "https://en.wikipedia.org/wiki/Houseplant"
+        }
+      ]
+    },
+    {
+      "id": "ivy",
+      "name": "Ivy",
+      "family": "living-plant",
+      "form": "raw",
+      "senses": [],
+      "is_a": [
+        "house-plant"
+      ],
+      "aliases": [
+        "hedera"
+      ],
+      "photo": "ivy",
+      "identity": {
+        "wikidata": "Q26771"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Hedera",
+          "url": "https://en.wikipedia.org/wiki/Hedera"
+        }
+      ]
+    },
+    {
+      "id": "living-plant",
+      "name": "Living plant",
+      "family": "living-plant",
+      "form": "raw",
+      "senses": [],
+      "aliases": [
+        "living plants",
+        "plants",
+        "greenery"
+      ],
+      "photo": "living plant",
+      "identity": {
+        "wikidata": "Q756"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Plant",
+          "url": "https://en.wikipedia.org/wiki/Plant"
+        }
+      ]
+    },
+    {
+      "id": "monstera",
+      "name": "Monstera",
+      "family": "living-plant",
+      "form": "raw",
+      "senses": [],
+      "is_a": [
+        "house-plant"
+      ],
+      "aliases": [
+        "monstera deliciosa",
+        "swiss cheese plant"
+      ],
+      "photo": "monstera",
+      "identity": {
+        "wikidata": "Q161077"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Monstera deliciosa",
+          "url": "https://en.wikipedia.org/wiki/Monstera_deliciosa"
+        }
+      ]
+    },
+    {
+      "id": "olive-tree",
+      "name": "Olive tree",
+      "family": "living-plant",
+      "form": "raw",
+      "senses": [],
+      "is_a": [
+        "living-plant"
+      ],
+      "aliases": [
+        "potted olive tree"
+      ],
+      "photo": "olive tree",
+      "identity": {
+        "wikidata": "Q1621080"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Olive",
+          "url": "https://en.wikipedia.org/wiki/Olive"
+        }
+      ]
+    },
+    {
+      "id": "ornamental-grass",
+      "name": "Ornamental grass",
+      "family": "living-plant",
+      "form": "raw",
+      "senses": [],
+      "is_a": [
+        "living-plant"
+      ],
+      "aliases": [
+        "ornamental grasses"
+      ],
+      "photo": "ornamental grass",
+      "identity": {
+        "wikidata": "Q938961"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ornamental grass",
+          "url": "https://en.wikipedia.org/wiki/Ornamental_grass"
+        }
+      ]
+    },
+    {
+      "id": "pilea",
+      "name": "Pilea",
+      "family": "living-plant",
+      "form": "raw",
+      "senses": [],
+      "is_a": [
+        "house-plant"
+      ],
+      "aliases": [
+        "pilea peperomioides",
+        "chinese money plant"
+      ],
+      "photo": "pilea",
+      "identity": {
+        "wikidata": "Q311696"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Pilea peperomioides",
+          "url": "https://en.wikipedia.org/wiki/Pilea_peperomioides"
+        }
+      ]
+    },
+    {
+      "id": "pot-herb",
+      "name": "Pot herb",
+      "family": "living-plant",
+      "form": "raw",
+      "senses": [],
+      "is_a": [
+        "living-plant"
+      ],
+      "aliases": [
+        "pot herbs",
+        "potted herbs",
+        "herb pot",
+        "potted basil",
+        "potted mint",
+        "potted chives",
+        "potted thyme"
+      ],
+      "photo": "pot herb",
+      "identity": {
+        "wikidata": "Q207123"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Herb",
+          "url": "https://en.wikipedia.org/wiki/Herb"
+        }
+      ]
+    },
+    {
+      "id": "pothos",
+      "name": "Pothos",
+      "family": "living-plant",
+      "form": "raw",
+      "senses": [],
+      "is_a": [
+        "house-plant"
+      ],
+      "aliases": [
+        "epipremnum",
+        "devil's ivy"
+      ],
+      "photo": "pothos",
+      "identity": {
+        "wikidata": "Q161809"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Epipremnum aureum",
+          "url": "https://en.wikipedia.org/wiki/Epipremnum_aureum"
+        }
+      ]
+    },
+    {
       "id": "nuts-seeds",
       "name": "Nuts and seeds",
       "family": "nut-seed",
@@ -1473,6 +1834,57 @@
       ]
     },
     {
+      "id": "cardboard",
+      "name": "Cardboard",
+      "family": "paper",
+      "form": "board",
+      "senses": [],
+      "made_from": [
+        "paper"
+      ],
+      "aliases": [
+        "printed board",
+        "paperboard",
+        "corrugated board"
+      ],
+      "photo": "a square sample board of cardboard",
+      "identity": {
+        "wikidata": "Q389782"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Cardboard",
+          "url": "https://en.wikipedia.org/wiki/Cardboard"
+        }
+      ]
+    },
+    {
+      "id": "kraft-paper",
+      "name": "Kraft paper",
+      "family": "paper",
+      "form": "sheet",
+      "senses": [],
+      "is_a": [
+        "paper"
+      ],
+      "made_from": [
+        "wood-pulp"
+      ],
+      "aliases": [
+        "kraft"
+      ],
+      "photo": "a square sample sheet of kraft paper",
+      "identity": {
+        "wikidata": "Q1755609"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Kraft paper",
+          "url": "https://en.wikipedia.org/wiki/Kraft_paper"
+        }
+      ]
+    },
+    {
       "id": "paper",
       "name": "Paper",
       "family": "paper",
@@ -1482,8 +1894,7 @@
         "wood-pulp"
       ],
       "aliases": [
-        "paper",
-        "paper cord"
+        "paper"
       ],
       "photo": "a square sample sheet of paper",
       "identity": {
@@ -1493,6 +1904,58 @@
         {
           "title": "Wikipedia: Paper",
           "url": "https://en.wikipedia.org/wiki/Paper"
+        }
+      ]
+    },
+    {
+      "id": "paper-cord",
+      "name": "Paper cord",
+      "family": "paper",
+      "form": "fibre",
+      "senses": [],
+      "made_from": [
+        "paper"
+      ],
+      "aliases": [
+        "danish cord",
+        "paper yarn"
+      ],
+      "photo_applied": "a square sample of a seat woven from paper cord",
+      "photo": "a loose hank of paper cord fibre",
+      "identity": {
+        "wikidata": "Q1081013"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Wicker",
+          "url": "https://en.wikipedia.org/wiki/Wicker"
+        }
+      ]
+    },
+    {
+      "id": "photo-paper",
+      "name": "Photo paper",
+      "family": "paper",
+      "form": "sheet",
+      "senses": [],
+      "is_a": [
+        "paper"
+      ],
+      "made_from": [
+        "paper"
+      ],
+      "aliases": [
+        "photographic paper",
+        "photo print"
+      ],
+      "photo": "a square sample sheet of photo paper",
+      "identity": {
+        "wikidata": "Q912760"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Photographic paper",
+          "url": "https://en.wikipedia.org/wiki/Photographic_paper"
         }
       ]
     },
@@ -1629,6 +2092,28 @@
         {
           "title": "Wikipedia: Rattan",
           "url": "https://en.wikipedia.org/wiki/Rattan"
+        }
+      ]
+    },
+    {
+      "id": "coir",
+      "name": "Coir",
+      "family": "plant-fibre",
+      "form": "fibre",
+      "senses": [],
+      "aliases": [
+        "coconut fibre",
+        "coir mat"
+      ],
+      "photo_applied": "a square sample of a coir door mat",
+      "photo": "a loose hank of coir fibre",
+      "identity": {
+        "wikidata": "Q1029620"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Coir",
+          "url": "https://en.wikipedia.org/wiki/Coir"
         }
       ]
     },
@@ -1850,6 +2335,33 @@
       ]
     },
     {
+      "id": "quilted-cotton",
+      "name": "Quilted cotton",
+      "family": "quilted",
+      "form": "cloth",
+      "senses": [],
+      "is_a": [
+        "textile"
+      ],
+      "made_from": [
+        "cotton"
+      ],
+      "aliases": [
+        "quilted",
+        "quilt"
+      ],
+      "photo": "a folded swatch of quilted cotton",
+      "identity": {
+        "wikidata": "Q1920065"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Quilting",
+          "url": "https://en.wikipedia.org/wiki/Quilting"
+        }
+      ]
+    },
+    {
       "id": "gum-arabic",
       "name": "Gum arabic",
       "family": "resin",
@@ -1884,6 +2396,32 @@
         {
           "title": "Wikipedia: Lacquer",
           "url": "https://en.wikipedia.org/wiki/Lacquer"
+        }
+      ]
+    },
+    {
+      "id": "braided-rug",
+      "name": "Braided rug",
+      "family": "rug",
+      "form": "cloth",
+      "senses": [],
+      "is_a": [
+        "textile"
+      ],
+      "made_from": [
+        "cotton"
+      ],
+      "aliases": [
+        "rag rug"
+      ],
+      "photo": "a folded swatch of braided rug",
+      "identity": {
+        "wikidata": "Q4955655"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Braided rug",
+          "url": "https://en.wikipedia.org/wiki/Braided_rug"
         }
       ]
     },
@@ -2564,6 +3102,34 @@
       ]
     },
     {
+      "id": "fumed-oak",
+      "name": "Fumed oak",
+      "family": "wood",
+      "form": "board",
+      "senses": [],
+      "is_a": [
+        "oak"
+      ],
+      "made_from": [
+        "oak"
+      ],
+      "aliases": [
+        "smoked oak",
+        "smoked oak floor"
+      ],
+      "photo_applied": "a square sample of smoked oak plank floor",
+      "photo": "a square sample board of fumed oak",
+      "identity": {
+        "wikidata": "Q2178602"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ammonia fuming",
+          "url": "https://en.wikipedia.org/wiki/Ammonia_fuming"
+        }
+      ]
+    },
+    {
       "id": "macassar-ebony",
       "name": "Macassar ebony",
       "family": "wood",
@@ -2649,10 +3215,40 @@
       "is_a": [
         "wood"
       ],
+      "photo_applied": "a square sample of oiled oak plank floor",
       "properties": {
         "warmth": 0.85
       },
       "photo": "a square sample board of oak",
+      "identity": {
+        "wikidata": "Q12004"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Oak",
+          "url": "https://en.wikipedia.org/wiki/Oak"
+        }
+      ]
+    },
+    {
+      "id": "oiled-oak",
+      "name": "Oiled oak",
+      "family": "wood",
+      "form": "board",
+      "senses": [],
+      "is_a": [
+        "oak"
+      ],
+      "made_from": [
+        "oak",
+        "wood-oil"
+      ],
+      "aliases": [
+        "oiled oak floor",
+        "oiled oak plank"
+      ],
+      "photo_applied": "a square sample of oiled oak plank floor",
+      "photo": "a square sample board of oiled oak",
       "identity": {
         "wikidata": "Q12004"
       },
@@ -2714,6 +3310,35 @@
       ]
     },
     {
+      "id": "solid-wood",
+      "name": "Solid wood",
+      "family": "wood",
+      "form": "board",
+      "senses": [],
+      "is_a": [
+        "wood"
+      ],
+      "made_from": [
+        "wood"
+      ],
+      "aliases": [
+        "solid timber",
+        "solid oak",
+        "solid ash",
+        "solid walnut"
+      ],
+      "photo": "a square sample board of solid wood",
+      "identity": {
+        "wikidata": "Q354757"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Lumber",
+          "url": "https://en.wikipedia.org/wiki/Lumber"
+        }
+      ]
+    },
+    {
       "id": "teak",
       "name": "Teak",
       "family": "wood",
@@ -2750,10 +3375,8 @@
       "aliases": [
         "timber",
         "rough timber",
-        "painted timber panelling",
         "timber coffering",
         "charred timber cladding",
-        "painted wood",
         "oak and cypress timber",
         "timber (pine, birch)",
         "timber (redwood, cedar, walnut)"
@@ -2766,6 +3389,32 @@
         {
           "title": "Wikipedia: Lumber",
           "url": "https://en.wikipedia.org/wiki/Lumber"
+        }
+      ]
+    },
+    {
+      "id": "timber-decking",
+      "name": "Timber decking",
+      "family": "wood",
+      "form": "board",
+      "senses": [],
+      "made_from": [
+        "wood"
+      ],
+      "aliases": [
+        "decking",
+        "wood decking",
+        "ribbed decking"
+      ],
+      "photo_applied": "a square sample of weathered ribbed timber decking",
+      "photo": "a square sample board of timber decking",
+      "identity": {
+        "wikidata": "Q2637989"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Deck (building)",
+          "url": "https://en.wikipedia.org/wiki/Deck_(building)"
         }
       ]
     },
@@ -2816,6 +3465,36 @@
         {
           "title": "Wikipedia: Walnut",
           "url": "https://en.wikipedia.org/wiki/Walnut"
+        }
+      ]
+    },
+    {
+      "id": "whitened-oak",
+      "name": "Whitened oak",
+      "family": "wood",
+      "form": "board",
+      "senses": [],
+      "is_a": [
+        "oak"
+      ],
+      "made_from": [
+        "oak"
+      ],
+      "aliases": [
+        "white oiled oak",
+        "lye-treated oak",
+        "white-pigmented oak",
+        "limed oak"
+      ],
+      "photo_applied": "a square sample of white-oiled oak plank floor",
+      "photo": "a square sample board of whitened oak",
+      "identity": {
+        "wikidata": "Q2122650"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Lye",
+          "url": "https://en.wikipedia.org/wiki/Lye"
         }
       ]
     },
@@ -2871,6 +3550,9 @@
         "fashion.fabrics"
       ],
       "summary": "A basket weave with a soft hand; Scottish mills named shirtings after universities. The cloth of the button-down shirt.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "cotton"
       ],
@@ -2886,6 +3568,33 @@
       ]
     },
     {
+      "id": "waffle-weave",
+      "name": "Waffle weave",
+      "family": "woven-figured",
+      "form": "cloth",
+      "senses": [],
+      "is_a": [
+        "textile"
+      ],
+      "made_from": [
+        "cotton"
+      ],
+      "aliases": [
+        "waffle",
+        "honeycomb weave"
+      ],
+      "photo": "a folded swatch of waffle weave",
+      "identity": {
+        "wikidata": "Q7959434"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Waffle fabric",
+          "url": "https://en.wikipedia.org/wiki/Waffle_fabric"
+        }
+      ]
+    },
+    {
       "id": "corduroy",
       "name": "Corduroy",
       "family": "woven-pile",
@@ -2894,6 +3603,9 @@
         "fashion.fabrics"
       ],
       "summary": "A weft-pile cloth with cut cords ('wales'); the cloth of country trousers and the 1970s jacket.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "cotton"
       ],
@@ -2917,6 +3629,9 @@
         "fashion.fabrics"
       ],
       "summary": "A loop-pile cloth that Henry Christy saw in Turkey and his mill made by machine; the cloth of robes and sweatbands.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "cotton"
       ],
@@ -2932,6 +3647,34 @@
       ]
     },
     {
+      "id": "book-cloth",
+      "name": "Book cloth",
+      "family": "woven-plain",
+      "form": "cloth",
+      "senses": [],
+      "is_a": [
+        "textile"
+      ],
+      "made_from": [
+        "cotton"
+      ],
+      "aliases": [
+        "bookcloth",
+        "cloth cover",
+        "cloth binding"
+      ],
+      "photo": "a folded swatch of book cloth",
+      "identity": {
+        "wikidata": "Q240471"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Bookbinding",
+          "url": "https://en.wikipedia.org/wiki/Bookbinding"
+        }
+      ]
+    },
+    {
       "id": "calico",
       "name": "Calico",
       "family": "woven-plain",
@@ -2940,6 +3683,9 @@
         "fashion.fabrics"
       ],
       "summary": "A plain cotton from the Malabar coast; England banned printed calico imports in 1700 and 1721 to protect wool and silk weavers.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "cotton"
       ],
@@ -2963,6 +3709,9 @@
         "fashion.fabrics"
       ],
       "summary": "A fine, dense plain weave for shirts, collars, handkerchiefs and lingerie, named after the town of Cambrai.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "flax",
         "cotton"
@@ -2988,6 +3737,9 @@
         "industrial.materials"
       ],
       "summary": "A heavy plain weave for sails, tents, work coats and the upper of the first sneakers.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "cotton",
         "hemp",
@@ -3016,6 +3768,9 @@
         "fashion.fabrics"
       ],
       "summary": "A narrow woven band with rubber or elastane core threads; it forms the waistband, the strap and the leg band. Thomas Hancock patented rubber elastic for garments in 1820.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "cotton",
         "nylon",
@@ -3041,6 +3796,9 @@
         "fashion.fabrics"
       ],
       "summary": "A yarn-dyed check in white and one colour; the name comes from a Malay word for striped cloth.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "cotton"
       ],
@@ -3064,6 +3822,9 @@
         "fashion.fabrics"
       ],
       "summary": "A printed or painted cotton with a glazed surface; the East India companies brought it to Europe in the 17th century.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "cotton"
       ],
@@ -3085,6 +3846,9 @@
       "form": "cloth",
       "senses": [
         "industrial.materials"
+      ],
+      "is_a": [
+        "textile"
       ],
       "made_from": [
         "flax"
@@ -3112,6 +3876,9 @@
         "fashion.fabrics"
       ],
       "summary": "The oldest cloth of dress; cool, crisp and quick to crease. Shirts, summer suits and underwear were linen until cotton took over.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "flax"
       ],
@@ -3135,6 +3902,9 @@
         "fashion.fabrics"
       ],
       "summary": "A fine, open cotton of hand-spun yarn from Dhaka; the name comes from Mosul. It was the cloth of the Empire-line dress after 1795.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "cotton"
       ],
@@ -3150,6 +3920,32 @@
       ]
     },
     {
+      "id": "percale",
+      "name": "Percale",
+      "family": "woven-plain",
+      "form": "cloth",
+      "senses": [],
+      "is_a": [
+        "textile"
+      ],
+      "made_from": [
+        "cotton"
+      ],
+      "aliases": [
+        "cotton percale"
+      ],
+      "photo": "a folded swatch of percale",
+      "identity": {
+        "wikidata": "Q2347903"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Percale",
+          "url": "https://en.wikipedia.org/wiki/Percale"
+        }
+      ]
+    },
+    {
       "id": "poplin",
       "name": "Poplin",
       "family": "woven-plain",
@@ -3158,6 +3954,9 @@
         "fashion.fabrics"
       ],
       "summary": "A plain weave with a fine weft rib; the name may come from 'papeline', the cloth of the papal town of Avignon. The cloth of the dress shirt.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "cotton",
         "silk"
@@ -3182,6 +3981,9 @@
         "fashion.fabrics"
       ],
       "summary": "Two warps at different tension make puckered stripes that stand off the skin; the name comes from Persian 'milk and sugar'.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "cotton"
       ],
@@ -3205,6 +4007,9 @@
         "fashion.fabrics"
       ],
       "summary": "A dense weave of long-staple cotton that swells when wet and keeps out water; made for the immersion suits of RAF pilots.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "cotton"
       ],
@@ -3228,6 +4033,9 @@
         "fashion.fabrics"
       ],
       "summary": "A light cotton twill of US army trousers in the Philippines; the name comes from the Chinese cloth. It went to the campus after 1945.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "cotton"
       ],
@@ -3251,6 +4059,9 @@
         "fashion.fabrics"
       ],
       "summary": "A dense cotton twill, often in a herringbone weave, that resists the pull of the bones; the standard cloth of corset bodies.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "cotton"
       ],
@@ -3274,6 +4085,9 @@
         "fashion.fabrics"
       ],
       "summary": "A warp-faced twill with an indigo warp and a white weft; 'serge de Nîmes'. Levi Strauss and Jacob Davis patented the riveted work trouser in 1873.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "cotton"
       ],
@@ -3297,6 +4111,9 @@
         "fashion.fabrics"
       ],
       "summary": "A cotton twill dyed the colour of dust ('khaki' in Urdu) for the Corps of Guides; armies took it for field dress.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "cotton"
       ],

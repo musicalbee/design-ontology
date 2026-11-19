@@ -39,6 +39,10 @@
     {
       "id": "tile",
       "name": "Tile"
+    },
+    {
+      "id": "ceramic",
+      "name": "Ceramic"
     }
   ],
   "materials": [
@@ -160,6 +164,30 @@
       ]
     },
     {
+      "id": "ceramic",
+      "name": "Ceramic",
+      "family": "ceramic",
+      "form": "body",
+      "senses": [],
+      "made_from": [
+        "clay"
+      ],
+      "aliases": [
+        "ceramics",
+        "ceramic ware"
+      ],
+      "photo": "a small unglazed test cylinder of ceramic clay body",
+      "identity": {
+        "wikidata": "Q45621"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ceramic",
+          "url": "https://en.wikipedia.org/wiki/Ceramic"
+        }
+      ]
+    },
+    {
       "id": "black-basalt",
       "name": "Black basalt",
       "family": "clay-body",
@@ -228,10 +256,11 @@
       "made_from": [
         "clay"
       ],
+      "photo": "a square glazed ceramic tile",
+      "photo_applied": "a square sample of glazed ceramic tiles with grout",
       "properties": {
         "warmth": 0.4
       },
-      "photo": "a small unglazed test cylinder of ceramic tile clay body",
       "identity": {
         "wikidata": "Q468402"
       },
@@ -280,6 +309,9 @@
         "ceramics.bodies"
       ],
       "summary": "A porous body fired below about 1150 °C. Pots from Xianrendong Cave are the oldest known vessels of fired clay.",
+      "is_a": [
+        "ceramic"
+      ],
       "made_from": [
         "clay"
       ],
@@ -602,6 +634,9 @@
         "industrial.materials"
       ],
       "summary": "A white, dense and translucent body of kaolin and porcelain stone, fired at about 1300 °C.",
+      "is_a": [
+        "ceramic"
+      ],
       "made_from": [
         "clay"
       ],
@@ -807,6 +842,9 @@
         "industrial.materials"
       ],
       "summary": "A dense, vitrified body fired at about 1200 to 1300 °C. It holds water without a glaze.",
+      "is_a": [
+        "ceramic"
+      ],
       "made_from": [
         "clay"
       ],
@@ -942,6 +980,35 @@
         {
           "title": "Wikipedia: Vitreous enamel",
           "url": "https://en.wikipedia.org/wiki/Vitreous_enamel"
+        }
+      ]
+    },
+    {
+      "id": "back-painted-glass",
+      "name": "Back-painted glass",
+      "family": "glass",
+      "form": "sheet",
+      "senses": [],
+      "is_a": [
+        "glass"
+      ],
+      "made_from": [
+        "glass",
+        "paint"
+      ],
+      "aliases": [
+        "lacobel",
+        "painted glass splashback"
+      ],
+      "photo_applied": "a square sample of a back-painted glass splashback",
+      "photo": "a square sample sheet of back-painted glass",
+      "identity": {
+        "wikidata": "Q1316673"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Reverse glass painting",
+          "url": "https://en.wikipedia.org/wiki/Reverse_glass_painting"
         }
       ]
     },
@@ -1126,6 +1193,33 @@
         {
           "title": "Wikipedia: Imitation pearl",
           "url": "https://en.wikipedia.org/wiki/Imitation_pearl"
+        }
+      ]
+    },
+    {
+      "id": "laminated-glass",
+      "name": "Laminated glass",
+      "family": "glass",
+      "form": "sheet",
+      "senses": [],
+      "is_a": [
+        "glass"
+      ],
+      "made_from": [
+        "glass"
+      ],
+      "aliases": [
+        "laminated safety glass",
+        "glass balustrade"
+      ],
+      "photo": "a square sample sheet of laminated glass",
+      "identity": {
+        "wikidata": "Q2086307"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Laminated glass",
+          "url": "https://en.wikipedia.org/wiki/Laminated_glass"
         }
       ]
     },
@@ -1315,6 +1409,33 @@
         {
           "title": "Wikipedia: Stained glass",
           "url": "https://en.wikipedia.org/wiki/Stained_glass"
+        }
+      ]
+    },
+    {
+      "id": "tempered-glass",
+      "name": "Tempered glass",
+      "family": "glass",
+      "form": "sheet",
+      "senses": [],
+      "is_a": [
+        "glass"
+      ],
+      "made_from": [
+        "glass"
+      ],
+      "aliases": [
+        "toughened glass",
+        "safety glass"
+      ],
+      "photo": "a square sample sheet of tempered glass",
+      "identity": {
+        "wikidata": "Q1142019"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Tempered glass",
+          "url": "https://en.wikipedia.org/wiki/Tempered_glass"
         }
       ]
     },
@@ -1908,6 +2029,27 @@
       ]
     },
     {
+      "id": "magnet",
+      "name": "Ferrite magnet",
+      "family": "technical-ceramic",
+      "form": "part",
+      "senses": [],
+      "aliases": [
+        "magnets",
+        "fridge magnet"
+      ],
+      "photo": "ferrite magnet",
+      "identity": {
+        "wikidata": "Q5105088"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Ferrite (magnet)",
+          "url": "https://en.wikipedia.org/wiki/Ferrite_(magnet)"
+        }
+      ]
+    },
+    {
       "id": "technical-ceramic",
       "name": "Technical ceramic",
       "family": "technical-ceramic",
@@ -1955,6 +2097,35 @@
       ]
     },
     {
+      "id": "glazed-wall-tile",
+      "name": "Glazed wall tile",
+      "family": "tile",
+      "form": "part",
+      "senses": [],
+      "is_a": [
+        "ceramic-tile"
+      ],
+      "made_from": [
+        "earthenware"
+      ],
+      "aliases": [
+        "wall tile",
+        "glazed tile",
+        "subway tile"
+      ],
+      "photo_applied": "a square sample of glazed white wall tiles with grout",
+      "photo": "glazed wall tile",
+      "identity": {
+        "wikidata": "Q468402"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Tile",
+          "url": "https://en.wikipedia.org/wiki/Tile"
+        }
+      ]
+    },
+    {
       "id": "mosaic",
       "name": "Mosaic tesserae",
       "family": "tile",
@@ -1975,6 +2146,34 @@
         {
           "title": "Wikipedia: Mosaic",
           "url": "https://en.wikipedia.org/wiki/Mosaic"
+        }
+      ]
+    },
+    {
+      "id": "porcelain-floor-tile",
+      "name": "Porcelain floor tile",
+      "family": "tile",
+      "form": "part",
+      "senses": [],
+      "is_a": [
+        "ceramic-tile"
+      ],
+      "made_from": [
+        "porcelain-stoneware"
+      ],
+      "aliases": [
+        "porcelain tile",
+        "floor tile"
+      ],
+      "photo_applied": "a square sample of large porcelain floor tiles",
+      "photo": "porcelain floor tile",
+      "identity": {
+        "wikidata": "Q55654686"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Porcelain tile",
+          "url": "https://en.wikipedia.org/wiki/Porcelain_tile"
         }
       ]
     }

@@ -31,9 +31,149 @@
     {
       "id": "coated-fabric",
       "name": "Coated fabric"
+    },
+    {
+      "id": "textile",
+      "name": "Textile"
+    },
+    {
+      "id": "braid",
+      "name": "Braid"
+    },
+    {
+      "id": "board-product",
+      "name": "Board product"
+    },
+    {
+      "id": "wood-finish",
+      "name": "Wood finish"
     }
   ],
   "materials": [
+    {
+      "id": "acoustic-panel",
+      "name": "Acoustic panel",
+      "family": "board-product",
+      "form": "board",
+      "senses": [],
+      "aliases": [
+        "acoustic ceiling",
+        "acoustic tiles",
+        "acoustic board"
+      ],
+      "photo_applied": "a square sample of a white acoustic ceiling panel",
+      "photo": "a square sample board of acoustic panel",
+      "identity": {
+        "wikidata": "Q96371443"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Acoustic panel",
+          "url": "https://en.wikipedia.org/wiki/Acoustic_panel"
+        }
+      ]
+    },
+    {
+      "id": "mineral-wool-board",
+      "name": "Mineral-fibre board",
+      "family": "board-product",
+      "form": "board",
+      "senses": [],
+      "is_a": [
+        "acoustic-panel"
+      ],
+      "aliases": [
+        "mineral fibre board",
+        "mineral-fibre ceiling tile"
+      ],
+      "photo": "a square sample board of mineral-fibre board",
+      "identity": {
+        "wikidata": "Q611617"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Mineral wool",
+          "url": "https://en.wikipedia.org/wiki/Mineral_wool"
+        }
+      ]
+    },
+    {
+      "id": "plasterboard",
+      "name": "Plasterboard",
+      "family": "board-product",
+      "form": "board",
+      "senses": [],
+      "made_from": [
+        "gypsum",
+        "paper"
+      ],
+      "aliases": [
+        "drywall",
+        "gypsum board",
+        "gypsum wallboard"
+      ],
+      "photo_applied": "a square sample of a painted plasterboard wall",
+      "photo": "a square sample board of plasterboard",
+      "identity": {
+        "wikidata": "Q372852"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Drywall",
+          "url": "https://en.wikipedia.org/wiki/Drywall"
+        }
+      ]
+    },
+    {
+      "id": "wood-wool-board",
+      "name": "Wood-wool panel",
+      "family": "board-product",
+      "form": "board",
+      "senses": [],
+      "is_a": [
+        "acoustic-panel"
+      ],
+      "made_from": [
+        "wood",
+        "cement"
+      ],
+      "aliases": [
+        "wood wool panel",
+        "wood-wool cement board",
+        "heraklith"
+      ],
+      "photo_applied": "a square sample of a wood-wool acoustic panel",
+      "photo": "a square sample board of wood-wool panel",
+      "identity": {
+        "wikidata": "Q1625803"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Wood wool",
+          "url": "https://en.wikipedia.org/wiki/Wood_wool"
+        }
+      ]
+    },
+    {
+      "id": "rope",
+      "name": "Rope",
+      "family": "braid",
+      "form": "fibre",
+      "senses": [],
+      "aliases": [
+        "cord"
+      ],
+      "photo": "a loose hank of rope fibre",
+      "identity": {
+        "wikidata": "Q31029"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Rope",
+          "url": "https://en.wikipedia.org/wiki/Rope"
+        }
+      ]
+    },
     {
       "id": "tensile-fabric",
       "name": "Tensile membrane fabric",
@@ -85,6 +225,31 @@
         {
           "title": "Wikipedia: Concrete",
           "url": "https://en.wikipedia.org/wiki/Concrete"
+        }
+      ]
+    },
+    {
+      "id": "paving-slab",
+      "name": "Concrete paving slab",
+      "family": "concrete",
+      "form": "block",
+      "senses": [],
+      "made_from": [
+        "concrete"
+      ],
+      "aliases": [
+        "paving slabs",
+        "concrete pavers"
+      ],
+      "photo_applied": "a square sample of grey concrete paving slabs",
+      "photo": "a rough block of concrete paving slab",
+      "identity": {
+        "wikidata": "Q3328263"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Pavers (flooring)",
+          "url": "https://en.wikipedia.org/wiki/Pavers_(flooring)"
         }
       ]
     },
@@ -141,6 +306,62 @@
       ]
     },
     {
+      "id": "compact-laminate",
+      "name": "Compact laminate",
+      "family": "laminate",
+      "form": "sheet",
+      "senses": [],
+      "is_a": [
+        "hpl"
+      ],
+      "made_from": [
+        "paper"
+      ],
+      "aliases": [
+        "compact hpl",
+        "solid-core laminate"
+      ],
+      "photo": "a square sample sheet of compact laminate",
+      "identity": {
+        "wikidata": "Q5249625"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Decorative laminate",
+          "url": "https://en.wikipedia.org/wiki/Decorative_laminate"
+        }
+      ]
+    },
+    {
+      "id": "hpl",
+      "name": "High-pressure laminate",
+      "family": "laminate",
+      "form": "sheet",
+      "senses": [],
+      "is_a": [
+        "plastic-laminate"
+      ],
+      "made_from": [
+        "paper"
+      ],
+      "aliases": [
+        "high-pressure laminate",
+        "laminate worktop",
+        "stone-print laminate"
+      ],
+      "photo_applied": "a square sample of a laminate worktop with a stone print",
+      "photo": "a square sample sheet of high-pressure laminate",
+      "identity": {
+        "wikidata": "Q5249625"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Decorative laminate",
+          "url": "https://en.wikipedia.org/wiki/Decorative_laminate"
+        }
+      ]
+    },
+    {
       "id": "linoleum",
       "name": "Linoleum",
       "family": "laminate",
@@ -183,6 +404,30 @@
         {
           "title": "Wikipedia: Decorative laminate",
           "url": "https://en.wikipedia.org/wiki/Decorative_laminate"
+        }
+      ]
+    },
+    {
+      "id": "engineered-stone",
+      "name": "Engineered stone",
+      "family": "mineral-composite",
+      "form": "sheet",
+      "senses": [],
+      "aliases": [
+        "quartz composite",
+        "quartz worktop",
+        "engineered quartz",
+        "agglomerated stone"
+      ],
+      "photo_applied": "a square sample of a white engineered stone worktop",
+      "photo": "a square sample sheet of engineered stone",
+      "identity": {
+        "wikidata": "Q5377800"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Engineered stone",
+          "url": "https://en.wikipedia.org/wiki/Engineered_stone"
         }
       ]
     },
@@ -281,6 +526,34 @@
         {
           "title": "Wikipedia: Terrazzo",
           "url": "https://en.wikipedia.org/wiki/Terrazzo"
+        }
+      ]
+    },
+    {
+      "id": "chalkboard",
+      "name": "Chalkboard paint",
+      "family": "paint",
+      "form": "coating",
+      "senses": [],
+      "is_a": [
+        "painted-surface"
+      ],
+      "made_from": [
+        "paint"
+      ],
+      "aliases": [
+        "chalk board",
+        "blackboard"
+      ],
+      "photo_applied": "a square sample of a matt black chalkboard surface",
+      "photo": "a square sample panel finished with chalkboard paint",
+      "identity": {
+        "wikidata": "Q235585"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Blackboard",
+          "url": "https://en.wikipedia.org/wiki/Blackboard"
         }
       ]
     },
@@ -424,6 +697,7 @@
         "polychrome paint",
         "white paint or gel coat"
       ],
+      "photo_applied": "a square sample board of matt painted wall",
       "photo": "a small glass dish of paint",
       "identity": {
         "wikidata": "Q174219"
@@ -432,6 +706,94 @@
         {
           "title": "Wikipedia: Paint",
           "url": "https://en.wikipedia.org/wiki/Paint"
+        }
+      ]
+    },
+    {
+      "id": "painted-mdf",
+      "name": "Painted MDF",
+      "family": "paint",
+      "form": "board",
+      "senses": [],
+      "is_a": [
+        "painted-surface"
+      ],
+      "made_from": [
+        "mdf",
+        "paint"
+      ],
+      "aliases": [
+        "lacquered mdf",
+        "spray-painted mdf"
+      ],
+      "photo_applied": "a square sample of painted MDF with a satin finish",
+      "photo": "a square sample board of painted mdf",
+      "identity": {
+        "wikidata": "Q642231"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Medium-density fibreboard",
+          "url": "https://en.wikipedia.org/wiki/Medium-density_fibreboard"
+        }
+      ]
+    },
+    {
+      "id": "painted-surface",
+      "name": "Painted surface",
+      "family": "paint",
+      "form": "coating",
+      "senses": [],
+      "made_from": [
+        "paint"
+      ],
+      "aliases": [
+        "painted wall",
+        "matt paint",
+        "satin paint",
+        "gloss paint",
+        "eggshell paint",
+        "painted plaster"
+      ],
+      "photo_applied": "a square sample board of matt painted wall",
+      "photo": "a square sample panel finished with painted surface",
+      "identity": {
+        "wikidata": "Q17097994"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Paint sheen",
+          "url": "https://en.wikipedia.org/wiki/Paint_sheen"
+        }
+      ]
+    },
+    {
+      "id": "painted-wood",
+      "name": "Painted wood",
+      "family": "paint",
+      "form": "board",
+      "senses": [],
+      "is_a": [
+        "painted-surface"
+      ],
+      "made_from": [
+        "wood",
+        "paint"
+      ],
+      "aliases": [
+        "painted timber",
+        "painted wood panelling",
+        "painted timber panelling"
+      ],
+      "photo_applied": "a square sample of painted wood panelling",
+      "photo": "a square sample board of painted wood",
+      "identity": {
+        "wikidata": "Q119172976"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Wood finishing",
+          "url": "https://en.wikipedia.org/wiki/Wood_finishing"
         }
       ]
     },
@@ -572,6 +934,99 @@
         {
           "title": "Wikipedia: Stucco",
           "url": "https://en.wikipedia.org/wiki/Stucco"
+        }
+      ]
+    },
+    {
+      "id": "textile",
+      "name": "Textile",
+      "family": "textile",
+      "form": "cloth",
+      "senses": [],
+      "aliases": [
+        "fabric",
+        "textiles",
+        "cloth",
+        "upholstery fabric"
+      ],
+      "photo": "a folded swatch of textile",
+      "identity": {
+        "wikidata": "Q28823"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Textile",
+          "url": "https://en.wikipedia.org/wiki/Textile"
+        }
+      ]
+    },
+    {
+      "id": "wood-lacquer",
+      "name": "Wood lacquer",
+      "family": "wood-finish",
+      "form": "coating",
+      "senses": [],
+      "aliases": [
+        "matt lacquer",
+        "clear lacquer",
+        "lacquered wood",
+        "nitrocellulose lacquer"
+      ],
+      "photo": "a square sample panel finished with wood lacquer",
+      "identity": {
+        "wikidata": "Q11236878"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Lacquer",
+          "url": "https://en.wikipedia.org/wiki/Lacquer"
+        }
+      ]
+    },
+    {
+      "id": "wood-oil",
+      "name": "Wood oil finish",
+      "family": "wood-finish",
+      "form": "coating",
+      "senses": [],
+      "aliases": [
+        "oiled",
+        "oiled wood",
+        "oil finish",
+        "hardwax oil",
+        "hard wax oil",
+        "tung oil",
+        "linseed oil finish"
+      ],
+      "photo": "a square sample panel finished with wood oil finish",
+      "identity": {
+        "wikidata": "Q119172976"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Wood finishing",
+          "url": "https://en.wikipedia.org/wiki/Wood_finishing"
+        }
+      ]
+    },
+    {
+      "id": "wood-stain",
+      "name": "Wood stain",
+      "family": "wood-finish",
+      "form": "coating",
+      "senses": [],
+      "aliases": [
+        "stained wood",
+        "stain"
+      ],
+      "photo": "a square sample panel finished with wood stain",
+      "identity": {
+        "wikidata": "Q16060211"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Wood stain",
+          "url": "https://en.wikipedia.org/wiki/Wood_stain"
         }
       ]
     }

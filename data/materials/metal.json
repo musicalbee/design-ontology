@@ -58,6 +58,9 @@
         "fashion.materials"
       ],
       "summary": "A yellow alloy of copper and zinc for taps, fittings and frames.",
+      "is_a": [
+        "metal"
+      ],
       "made_from": [
         "copper",
         "zinc"
@@ -81,6 +84,9 @@
       "senses": [
         "industrial.materials"
       ],
+      "is_a": [
+        "metal"
+      ],
       "made_from": [
         "copper",
         "tin"
@@ -96,6 +102,33 @@
         {
           "title": "Wikipedia: Bronze",
           "url": "https://en.wikipedia.org/wiki/Bronze"
+        }
+      ]
+    },
+    {
+      "id": "cast-aluminium",
+      "name": "Cast aluminium",
+      "family": "alloy",
+      "form": "part",
+      "senses": [],
+      "is_a": [
+        "aluminium"
+      ],
+      "made_from": [
+        "aluminium"
+      ],
+      "aliases": [
+        "cast aluminum",
+        "die-cast aluminium"
+      ],
+      "photo": "cast aluminium",
+      "identity": {
+        "wikidata": "Q447725"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Aluminium alloy",
+          "url": "https://en.wikipedia.org/wiki/Aluminium_alloy"
         }
       ]
     },
@@ -159,6 +192,9 @@
         "fashion.materials"
       ],
       "summary": "A brass of copper and zinc that looks like gold; Georgian watch cases and jewellery used it.",
+      "is_a": [
+        "metal"
+      ],
       "made_from": [
         "copper",
         "zinc"
@@ -209,6 +245,9 @@
         "fashion.materials"
       ],
       "summary": "Gold with copper for a pink tone, called 'Russian gold' in the 19th century; it came back in the 1940s and the 2010s.",
+      "is_a": [
+        "metal"
+      ],
       "made_from": [
         "gold",
         "copper"
@@ -280,6 +319,32 @@
       ]
     },
     {
+      "id": "spun-aluminium",
+      "name": "Spun aluminium",
+      "family": "alloy",
+      "form": "part",
+      "senses": [],
+      "is_a": [
+        "aluminium"
+      ],
+      "made_from": [
+        "aluminium"
+      ],
+      "aliases": [
+        "spun aluminum"
+      ],
+      "photo": "spun aluminium",
+      "identity": {
+        "wikidata": "Q1261779"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Metal spinning",
+          "url": "https://en.wikipedia.org/wiki/Metal_spinning"
+        }
+      ]
+    },
+    {
       "id": "stainless-steel",
       "name": "Stainless steel",
       "family": "alloy",
@@ -317,6 +382,9 @@
       "family": "alloy",
       "form": "raw",
       "senses": [],
+      "is_a": [
+        "metal"
+      ],
       "made_from": [
         "iron"
       ],
@@ -350,6 +418,9 @@
         "ceramics.materials"
       ],
       "summary": "The structural frame behind terracotta and faience cladding.",
+      "is_a": [
+        "metal"
+      ],
       "made_from": [
         "mild-steel"
       ],
@@ -373,6 +444,9 @@
         "fashion.materials"
       ],
       "summary": "Silver of 925 parts in 1,000; England fixed the standard and the hallmark under Edward I in 1300.",
+      "is_a": [
+        "metal"
+      ],
       "made_from": [
         "silver",
         "copper"
@@ -427,6 +501,9 @@
         "fashion.materials"
       ],
       "summary": "Gold with palladium or nickel, often plated with rhodium; a cheaper white metal than platinum after 1920.",
+      "is_a": [
+        "metal"
+      ],
       "made_from": [
         "gold",
         "nickel"
@@ -451,6 +528,9 @@
         "fashion.materials"
       ],
       "summary": "Gold in carat alloys, from 9 to 22 carat; the base metal of jewellery and the dress watch case.",
+      "is_a": [
+        "metal"
+      ],
       "made_from": [
         "gold"
       ],
@@ -475,6 +555,9 @@
         "industrial.materials"
       ],
       "summary": "A light metal, cheap after the electrolytic process of 1886; car bodies, trunks and watch cases use it.",
+      "is_a": [
+        "metal"
+      ],
       "properties": {
         "warmth": 0.15
       },
@@ -496,6 +579,9 @@
       "form": "block",
       "senses": [
         "industrial.materials"
+      ],
+      "is_a": [
+        "metal"
       ],
       "made_from": [
         "iron"
@@ -520,6 +606,9 @@
       "family": "element",
       "form": "raw",
       "senses": [],
+      "is_a": [
+        "metal"
+      ],
       "aliases": [
         "chromium"
       ],
@@ -544,6 +633,9 @@
         "industrial.materials"
       ],
       "summary": "The first metal that people worked; it gave the rivet at the pocket corner of the 1873 work trouser.",
+      "is_a": [
+        "metal"
+      ],
       "properties": {
         "warmth": 0.65
       },
@@ -564,6 +656,9 @@
       "family": "element",
       "form": "raw",
       "senses": [],
+      "is_a": [
+        "metal"
+      ],
       "aliases": [
         "gold"
       ],
@@ -584,6 +679,9 @@
       "family": "element",
       "form": "raw",
       "senses": [],
+      "is_a": [
+        "metal"
+      ],
       "aliases": [
         "iron"
       ],
@@ -604,6 +702,9 @@
       "family": "element",
       "form": "sheet",
       "senses": [],
+      "is_a": [
+        "metal"
+      ],
       "aliases": [
         "lead sheeting",
         "lead"
@@ -620,11 +721,35 @@
       ]
     },
     {
+      "id": "metal",
+      "name": "Metal",
+      "family": "element",
+      "form": "raw",
+      "senses": [],
+      "aliases": [
+        "metals",
+        "metalwork"
+      ],
+      "photo": "metal",
+      "identity": {
+        "wikidata": "Q11426"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Metal",
+          "url": "https://en.wikipedia.org/wiki/Metal"
+        }
+      ]
+    },
+    {
       "id": "nickel",
       "name": "Nickel",
       "family": "element",
       "form": "raw",
       "senses": [],
+      "is_a": [
+        "metal"
+      ],
       "aliases": [
         "brushed nickel"
       ],
@@ -648,6 +773,9 @@
         "fashion.materials"
       ],
       "summary": "A strong white metal that holds a thin setting; jewellers used it from about 1900 for lace-like settings of diamonds.",
+      "is_a": [
+        "metal"
+      ],
       "photo": "platinum",
       "identity": {
         "wikidata": "Q880"
@@ -665,6 +793,9 @@
       "family": "element",
       "form": "raw",
       "senses": [],
+      "is_a": [
+        "metal"
+      ],
       "photo": "rhodium",
       "identity": {
         "wikidata": "Q1087"
@@ -685,6 +816,9 @@
         "ceramics.materials"
       ],
       "summary": "A metal for mounts, spouts and rims of precious ware.",
+      "is_a": [
+        "metal"
+      ],
       "photo": "silver",
       "identity": {
         "wikidata": "Q1090"
@@ -702,6 +836,9 @@
       "family": "element",
       "form": "raw",
       "senses": [],
+      "is_a": [
+        "metal"
+      ],
       "aliases": [
         "tin"
       ],
@@ -725,6 +862,9 @@
         "fashion.materials"
       ],
       "summary": "A light, strong metal; the first titanium watch case came in 1970, and jewellery and eyewear followed.",
+      "is_a": [
+        "metal"
+      ],
       "photo": "titanium",
       "identity": {
         "wikidata": "Q716"
@@ -743,6 +883,9 @@
       "form": "raw",
       "senses": [
         "industrial.materials"
+      ],
+      "is_a": [
+        "metal"
       ],
       "made_from": [
         "iron"
@@ -767,6 +910,9 @@
       "family": "element",
       "form": "sheet",
       "senses": [],
+      "is_a": [
+        "metal"
+      ],
       "aliases": [
         "zinc",
         "zinc and titanium sheet"
@@ -789,6 +935,9 @@
       "form": "sheet",
       "senses": [
         "industrial.materials"
+      ],
+      "is_a": [
+        "metal"
       ],
       "made_from": [
         "mild-steel",
@@ -843,6 +992,9 @@
         "fashion.materials"
       ],
       "summary": "A thin bright layer of chromium on steel or brass; it made the brightwork of the car from the late 1920s.",
+      "is_a": [
+        "metal"
+      ],
       "made_from": [
         "chromium"
       ],
@@ -864,6 +1016,9 @@
       "form": "part",
       "senses": [
         "industrial.materials"
+      ],
+      "is_a": [
+        "metal"
       ],
       "made_from": [
         "solid-brass",
@@ -891,6 +1046,9 @@
       "senses": [
         "industrial.materials"
       ],
+      "is_a": [
+        "metal"
+      ],
       "made_from": [
         "mild-steel",
         "chromium"
@@ -910,6 +1068,34 @@
       ]
     },
     {
+      "id": "galvanised-steel",
+      "name": "Galvanised steel",
+      "family": "plated-metal",
+      "form": "sheet",
+      "senses": [],
+      "is_a": [
+        "steel"
+      ],
+      "made_from": [
+        "mild-steel",
+        "zinc"
+      ],
+      "aliases": [
+        "galvanized steel",
+        "hot-dip galvanised steel"
+      ],
+      "photo": "a square sample sheet of galvanised steel",
+      "identity": {
+        "wikidata": "Q690418"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Galvanization",
+          "url": "https://en.wikipedia.org/wiki/Galvanization"
+        }
+      ]
+    },
+    {
       "id": "gold-filled",
       "name": "Gold-filled metal",
       "family": "plated-metal",
@@ -918,6 +1104,9 @@
         "fashion.materials"
       ],
       "summary": "A layer of gold alloy bonded to a base metal such as brass; the layer is much thicker than gold plate. Cheap pocket watch cases used it.",
+      "is_a": [
+        "metal"
+      ],
       "made_from": [
         "gold",
         "solid-brass"
@@ -939,6 +1128,9 @@
       "family": "plated-metal",
       "form": "sheet",
       "senses": [],
+      "is_a": [
+        "metal"
+      ],
       "made_from": [
         "gold"
       ],
@@ -968,6 +1160,9 @@
         "fashion.materials"
       ],
       "summary": "A thin layer of nickel on steel or brass. It gives a warm, slightly yellow shine and was the bright finish of cars before chrome.",
+      "is_a": [
+        "metal"
+      ],
       "made_from": [
         "nickel"
       ],
@@ -989,6 +1184,9 @@
       "form": "part",
       "senses": [
         "industrial.materials"
+      ],
+      "is_a": [
+        "metal"
       ],
       "made_from": [
         "solid-brass",
@@ -1017,6 +1215,9 @@
         "ceramics.materials"
       ],
       "summary": "Fire-gilt bronze mounts that French dealers added to Chinese and Sèvres porcelain in the 18th century.",
+      "is_a": [
+        "metal"
+      ],
       "made_from": [
         "bronze",
         "gold"
@@ -1033,12 +1234,47 @@
       ]
     },
     {
+      "id": "painted-metal",
+      "name": "Painted metal",
+      "family": "plated-metal",
+      "form": "sheet",
+      "senses": [],
+      "is_a": [
+        "metal"
+      ],
+      "made_from": [
+        "mild-steel",
+        "powder-coat"
+      ],
+      "aliases": [
+        "black metal",
+        "powder-coated metal",
+        "powder-coated steel",
+        "coloured metal panels",
+        "black steel frame"
+      ],
+      "photo_applied": "a square sample of matt black powder-coated steel",
+      "photo": "a square sample sheet of painted metal",
+      "identity": {
+        "wikidata": "Q445063"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Powder coating",
+          "url": "https://en.wikipedia.org/wiki/Powder_coating"
+        }
+      ]
+    },
+    {
       "id": "silver-plate",
       "name": "Silver plate",
       "family": "plated-metal",
       "form": "part",
       "senses": [
         "industrial.materials"
+      ],
+      "is_a": [
+        "metal"
       ],
       "made_from": [
         "silver",
@@ -1064,6 +1300,9 @@
       "family": "plated-metal",
       "form": "part",
       "senses": [],
+      "is_a": [
+        "metal"
+      ],
       "made_from": [
         "steel",
         "chromium"

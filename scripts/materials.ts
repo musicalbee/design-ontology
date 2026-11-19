@@ -22,7 +22,7 @@ export interface Material {
   id: string; name: string; family: string; form: string; senses: string[]; summary?: string;
   is_a?: string[]; part_of?: string[]; made_from?: string[]; aliases?: string[]; parts?: string[]; colour?: string[];
   properties?: { hardness_mohs?: [number, number]; density_kg_m3?: [number, number]; melt_c?: [number, number]; fire_c?: [number, number]; warmth?: number; edible?: boolean };
-  photo?: string; note?: string; identity?: { wikidata?: string; aat?: string }; sources: Source[];
+  photo?: string; photo_applied?: string; note?: string; identity?: { wikidata?: string; aat?: string }; sources: Source[];
 }
 export interface MaterialClassFile { class: MaterialClass; name: string; summary: string; families: { id: string; name: string }[]; materials: Material[] }
 export interface Tool { id: string; name: string; summary: string; identity?: { wikidata?: string }; sources: Source[] }
@@ -154,8 +154,8 @@ export function matchText(text: string, alias: Map<string, string>): string[] {
   if (alias.has(t)) return [alias.get(t)!];
   const out: string[] = [];
   for (const part of t.split(/\s*(?:,|;| and | or | on | with | over |\(|\))\s*/).map((x) => x.trim()).filter(Boolean)) {
-    if (NEGATE.test(part)) continue;
     if (alias.has(part)) { out.push(alias.get(part)!); continue; }
+    if (NEGATE.test(part)) continue;
     // Each alias that is a whole-word run anywhere in the part. A longer alias wins over a shorter one
     // that it covers: "laminated veneer lumber" is one material, "copper roofing" → copper.
     const hits: { a: string; from: number; to: number }[] = [];

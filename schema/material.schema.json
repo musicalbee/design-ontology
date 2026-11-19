@@ -71,6 +71,7 @@
           }
         },
         "photo": { "type": "string", "minLength": 3, "maxLength": 200, "description": "The subject words for the studio photo, when the name alone is not clear to an image model." },
+        "photo_applied": { "type": "string", "minLength": 3, "maxLength": 200, "description": "The subject words for a photo of the material in its applied state, as a room renderer needs it: a painted wall, an oiled plank floor." },
         "note": { "$ref": "core.schema.json#/$defs/sentence" },
         "identity": {
           "type": "object", "additionalProperties": false,

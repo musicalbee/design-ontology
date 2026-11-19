@@ -55,9 +55,93 @@
     {
       "id": "paint",
       "name": "Paint"
+    },
+    {
+      "id": "braid",
+      "name": "Braid"
+    },
+    {
+      "id": "woven-pile",
+      "name": "Woven, pile"
     }
   ],
   "materials": [
+    {
+      "id": "braided-cord",
+      "name": "Braided cord",
+      "family": "braid",
+      "form": "fibre",
+      "senses": [],
+      "aliases": [
+        "braided textile cable",
+        "textile cable",
+        "braided cable"
+      ],
+      "photo": "a loose hank of braided cord fibre",
+      "identity": {
+        "wikidata": "Q320809"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Braid",
+          "url": "https://en.wikipedia.org/wiki/Braid"
+        }
+      ]
+    },
+    {
+      "id": "nylon-rope",
+      "name": "Nylon rope",
+      "family": "braid",
+      "form": "fibre",
+      "senses": [],
+      "is_a": [
+        "rope"
+      ],
+      "made_from": [
+        "nylon"
+      ],
+      "aliases": [
+        "climbing rope",
+        "kernmantle rope"
+      ],
+      "photo": "a loose hank of nylon rope fibre",
+      "identity": {
+        "wikidata": "Q17148580"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Kernmantle rope",
+          "url": "https://en.wikipedia.org/wiki/Kernmantle_rope"
+        }
+      ]
+    },
+    {
+      "id": "blackout-cloth",
+      "name": "Blackout cloth",
+      "family": "coated-fabric",
+      "form": "cloth",
+      "senses": [],
+      "is_a": [
+        "textile"
+      ],
+      "made_from": [
+        "polyester"
+      ],
+      "aliases": [
+        "blackout fabric",
+        "blackout lining"
+      ],
+      "photo": "a folded swatch of blackout cloth",
+      "identity": {
+        "wikidata": "Q321046"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Window blind",
+          "url": "https://en.wikipedia.org/wiki/Window_blind"
+        }
+      ]
+    },
     {
       "id": "polyurethane-leatherette",
       "name": "Polyurethane leatherette",
@@ -111,6 +195,9 @@
         "fashion.fabrics"
       ],
       "summary": "A cloth laminated to a membrane of stretched PTFE with pores too small for water and large enough for vapour; first sold in garments in 1976.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "ptfe",
         "nylon",
@@ -136,6 +223,9 @@
         "fashion.fabrics"
       ],
       "summary": "A foamed chloroprene rubber between knit faces; Hugh Bradner used it for the wetsuit in 1952, and fashion took it in the 2010s.",
+      "is_a": [
+        "textile"
+      ],
       "photo": "a folded swatch of neoprene",
       "identity": {
         "wikidata": "Q143937"
@@ -156,6 +246,9 @@
         "fashion.fabrics"
       ],
       "summary": "A paper-like sheet of flash-spun fibre; designers use it for jackets and bags that look like envelopes.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "hdpe"
       ],
@@ -179,6 +272,9 @@
         "fashion.fabrics"
       ],
       "summary": "A nonwoven of very fine polyester in polyurethane that feels like suede; car cabins use it for seats and wheels.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "polyester"
       ],
@@ -584,6 +680,51 @@
       ]
     },
     {
+      "id": "rubber",
+      "name": "Rubber",
+      "family": "rubber",
+      "form": "sheet",
+      "senses": [],
+      "aliases": [
+        "elastomer"
+      ],
+      "photo": "a square sample sheet of rubber",
+      "identity": {
+        "wikidata": "Q252266"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Elastomer",
+          "url": "https://en.wikipedia.org/wiki/Elastomer"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-rubber",
+      "name": "Synthetic rubber",
+      "family": "rubber",
+      "form": "sheet",
+      "senses": [],
+      "is_a": [
+        "rubber"
+      ],
+      "aliases": [
+        "epdm",
+        "silicone rubber",
+        "sbr"
+      ],
+      "photo": "a square sample sheet of synthetic rubber",
+      "identity": {
+        "wikidata": "Q6714735"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Synthetic rubber",
+          "url": "https://en.wikipedia.org/wiki/Synthetic_rubber"
+        }
+      ]
+    },
+    {
       "id": "vulcanised-rubber",
       "name": "Vulcanised rubber",
       "family": "rubber",
@@ -592,6 +733,9 @@
         "fashion.materials"
       ],
       "summary": "Rubber cured with sulphur so that it stays elastic; it made the galosh, the plimsoll and the sneaker sole.",
+      "is_a": [
+        "rubber"
+      ],
       "made_from": [
         "natural-rubber"
       ],
@@ -778,6 +922,33 @@
       ]
     },
     {
+      "id": "chair-mesh",
+      "name": "Elastomeric chair mesh",
+      "family": "warp-knit",
+      "form": "cloth",
+      "senses": [],
+      "is_a": [
+        "textile"
+      ],
+      "made_from": [
+        "polyester"
+      ],
+      "aliases": [
+        "office-chair mesh",
+        "mesh back"
+      ],
+      "photo": "a folded swatch of elastomeric chair mesh",
+      "identity": {
+        "wikidata": "Q24503377"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Mesh",
+          "url": "https://en.wikipedia.org/wiki/Mesh"
+        }
+      ]
+    },
+    {
       "id": "nylon-mesh",
       "name": "Nylon mesh",
       "family": "warp-knit",
@@ -786,6 +957,9 @@
         "fashion.fabrics"
       ],
       "summary": "An open warp-knit nylon that passes air and dries fast; the light upper of the running shoe, in place of leather and canvas.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "nylon"
       ],
@@ -809,6 +983,9 @@
         "fashion.fabrics"
       ],
       "summary": "A fine warp-knit nylon with a smooth face and a run-resistant structure; the cloth of slips, briefs and linings.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "nylon"
       ],
@@ -832,6 +1009,9 @@
         "fashion.fabrics"
       ],
       "summary": "A warp-knit elastic mesh for girdles, corsets and shapewear; it holds the body with no bones.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "elastane",
         "nylon"
@@ -856,6 +1036,9 @@
         "fashion.fabrics"
       ],
       "summary": "A knit with elastane that fits the body with no darts; the cloth of swimwear, leggings and the body.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "elastane",
         "nylon",
@@ -881,6 +1064,9 @@
         "fashion.fabrics"
       ],
       "summary": "The sheer knit of the nylon stocking; on its first day of sale in 1940 women bought about four million pairs.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "nylon"
       ],
@@ -904,6 +1090,9 @@
         "fashion.fabrics"
       ],
       "summary": "A napped polyester knit made with Patagonia as a light, quick-dry replacement for wool pile; sold as Polartec from 1981.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "polyester"
       ],
@@ -927,6 +1116,9 @@
         "fashion.fabrics"
       ],
       "summary": "A knit made of polyester fibre that is spun from used plastic bottles. Car makers use it for seats and door trim.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "polyester"
       ],
@@ -950,6 +1142,9 @@
         "fashion.fabrics"
       ],
       "summary": "A soft knit with a cut pile. It covered the seats and door panels of many cars in the 1970s and 1980s.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "polyester"
       ],
@@ -973,6 +1168,9 @@
         "fashion.fabrics"
       ],
       "summary": "A heavy basket-weave nylon made for flak jackets; it went into luggage, packs and watch straps.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "nylon"
       ],
@@ -988,6 +1186,60 @@
       ]
     },
     {
+      "id": "faux-fur",
+      "name": "Faux fur",
+      "family": "woven-pile",
+      "form": "cloth",
+      "senses": [],
+      "is_a": [
+        "textile"
+      ],
+      "made_from": [
+        "acrylic"
+      ],
+      "aliases": [
+        "fake fur",
+        "fun fur"
+      ],
+      "photo": "a folded swatch of faux fur",
+      "identity": {
+        "wikidata": "Q1041707"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Fake fur",
+          "url": "https://en.wikipedia.org/wiki/Fake_fur"
+        }
+      ]
+    },
+    {
+      "id": "plush",
+      "name": "Plush",
+      "family": "woven-pile",
+      "form": "cloth",
+      "senses": [],
+      "is_a": [
+        "textile"
+      ],
+      "made_from": [
+        "polyester"
+      ],
+      "aliases": [
+        "plush fabric",
+        "minky"
+      ],
+      "photo": "a folded swatch of plush",
+      "identity": {
+        "wikidata": "Q2397733"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Pile (textile)",
+          "url": "https://en.wikipedia.org/wiki/Pile_(textile)"
+        }
+      ]
+    },
+    {
       "id": "ripstop-nylon",
       "name": "Ripstop nylon",
       "family": "woven-plain",
@@ -996,6 +1248,9 @@
         "fashion.fabrics"
       ],
       "summary": "A plain weave with a heavier yarn in a grid that stops a tear; made for parachutes, then shells and down jackets.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "nylon"
       ],
@@ -1011,6 +1266,34 @@
       ]
     },
     {
+      "id": "shell-fabric",
+      "name": "Technical shell fabric",
+      "family": "woven-plain",
+      "form": "cloth",
+      "senses": [],
+      "is_a": [
+        "textile"
+      ],
+      "made_from": [
+        "nylon",
+        "polyester"
+      ],
+      "aliases": [
+        "technical outerwear cloth",
+        "technical fabric"
+      ],
+      "photo": "a folded swatch of technical shell fabric",
+      "identity": {
+        "wikidata": "Q675342"
+      },
+      "sources": [
+        {
+          "title": "Wikipedia: Technical textile",
+          "url": "https://en.wikipedia.org/wiki/Technical_textile"
+        }
+      ]
+    },
+    {
       "id": "nylon-webbing",
       "name": "Nylon webbing",
       "family": "woven-twill",
@@ -1019,6 +1302,9 @@
         "fashion.fabrics"
       ],
       "summary": "A narrow, tough nylon tape. A British army standard of 1973 made it the one-piece watch strap that slides under the watch.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "nylon"
       ],
@@ -1042,6 +1328,9 @@
         "fashion.fabrics"
       ],
       "summary": "A dense twill of about 65 per cent polyester and 35 per cent cotton that takes a wax finish; it was made for the Nordic field jacket and trouser.",
+      "is_a": [
+        "textile"
+      ],
       "made_from": [
         "polyester",
         "cotton"
