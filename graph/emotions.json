@@ -430,6 +430,22 @@
     "anger": [
       {
         "carrier": "style",
+        "id": "punk-fashion",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "subculture-workboot",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
         "id": "new-topographics",
         "domain": "photography",
         "strength": 0.6,
@@ -451,6 +467,14 @@
         "strength": 0.6,
         "evidence": "stated",
         "score": 0.42
+      },
+      {
+        "carrier": "style",
+        "id": "new-look",
+        "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
       },
       {
         "carrier": "style",
@@ -502,24 +526,8 @@
       },
       {
         "carrier": "style",
-        "id": "punk-fashion",
-        "domain": "fashion",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
         "id": "rage-comic",
         "domain": "internet",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
-        "id": "subculture-workboot",
-        "domain": "fashion",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -576,8 +584,24 @@
     "awe": [
       {
         "carrier": "style",
+        "id": "grande-cuisine",
+        "domain": "cuisine",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
         "id": "group-f64",
         "domain": "photography",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "medieval-court-cuisine",
+        "domain": "cuisine",
         "strength": 1,
         "evidence": "stated",
         "score": 0.7
@@ -592,11 +616,51 @@
       },
       {
         "carrier": "style",
+        "id": "breguet-classical-watch",
+        "domain": "fashion",
+        "strength": 0.7,
+        "evidence": "stated",
+        "score": 0.49
+      },
+      {
+        "carrier": "style",
         "id": "cinematic-fpv",
         "domain": "film",
         "strength": 0.6,
         "evidence": "stated",
         "score": 0.42
+      },
+      {
+        "carrier": "style",
+        "id": "racing-chronograph",
+        "domain": "fashion",
+        "strength": 0.6,
+        "evidence": "stated",
+        "score": 0.42
+      },
+      {
+        "carrier": "style",
+        "id": "cuisine-classique",
+        "domain": "cuisine",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
+      },
+      {
+        "carrier": "style",
+        "id": "early-mountaineering",
+        "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
+      },
+      {
+        "carrier": "style",
+        "id": "renaissance-banquet",
+        "domain": "cuisine",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
       },
       {
         "carrier": "style",
@@ -752,14 +816,6 @@
       },
       {
         "carrier": "style",
-        "id": "grande-cuisine",
-        "domain": "cuisine",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
         "id": "hispano-moresque-lustreware",
         "domain": "ceramics",
         "strength": 1,
@@ -786,14 +842,6 @@
         "carrier": "style",
         "id": "liuli-glazed-roof",
         "domain": "ceramics",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
-        "id": "medieval-court-cuisine",
-        "domain": "cuisine",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -912,6 +960,14 @@
       },
       {
         "carrier": "style",
+        "id": "new-nordic",
+        "domain": "cuisine",
+        "strength": 0.4,
+        "evidence": "stated",
+        "score": 0.28
+      },
+      {
+        "carrier": "style",
         "id": "famille-rose-qing",
         "domain": "ceramics",
         "strength": 0.5,
@@ -1018,8 +1074,48 @@
       },
       {
         "carrier": "style",
+        "id": "art-deco-evening-accessory",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "art-deco-watch",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "bias-cut-glamour",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "cuisine-francoise",
+        "domain": "cuisine",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
         "id": "fashion-editorial",
         "domain": "photography",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "garland-style-jewellery",
+        "domain": "fashion",
         "strength": 1,
         "evidence": "stated",
         "score": 0.7
@@ -1034,11 +1130,99 @@
       },
       {
         "carrier": "style",
+        "id": "ladylike-handbag",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "minimalist-fashion",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "straight-front-corset",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "vintage-coachbuilt-car",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "art-nouveau-jewellery",
+        "domain": "fashion",
+        "strength": 0.6,
+        "evidence": "stated",
+        "score": 0.42
+      },
+      {
+        "carrier": "style",
+        "id": "cuisine-classique",
+        "domain": "cuisine",
+        "strength": 0.6,
+        "evidence": "stated",
+        "score": 0.42
+      },
+      {
+        "carrier": "style",
         "id": "new-colour",
         "domain": "photography",
         "strength": 0.6,
         "evidence": "stated",
         "score": 0.42
+      },
+      {
+        "carrier": "style",
+        "id": "costume-jewellery",
+        "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
+      },
+      {
+        "carrier": "style",
+        "id": "electric-minimal-car",
+        "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
+      },
+      {
+        "carrier": "style",
+        "id": "mid-century-eyewear",
+        "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
+      },
+      {
+        "carrier": "style",
+        "id": "quiet-luxury-fashion",
+        "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
+      },
+      {
+        "carrier": "style",
+        "id": "stealth-luxury-accessory",
+        "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
       },
       {
         "carrier": "style",
@@ -1066,14 +1250,6 @@
       },
       {
         "carrier": "style",
-        "id": "art-deco-evening-accessory",
-        "domain": "fashion",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
         "id": "art-deco-faience-facade",
         "domain": "ceramics",
         "strength": 1,
@@ -1092,14 +1268,6 @@
         "carrier": "style",
         "id": "art-deco-product",
         "domain": "industrial",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
-        "id": "art-deco-watch",
-        "domain": "fashion",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -1146,14 +1314,6 @@
       },
       {
         "carrier": "style",
-        "id": "bias-cut-glamour",
-        "domain": "fashion",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
         "id": "breguet-classical-watch",
         "domain": "fashion",
         "strength": 1,
@@ -1180,14 +1340,6 @@
         "carrier": "style",
         "id": "colour-field-painting",
         "domain": "painting",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
-        "id": "cuisine-francoise",
-        "domain": "cuisine",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -1252,14 +1404,6 @@
         "carrier": "style",
         "id": "formal-script",
         "domain": "typeface",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
-        "id": "garland-style-jewellery",
-        "domain": "fashion",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -1418,14 +1562,6 @@
       },
       {
         "carrier": "style",
-        "id": "ladylike-handbag",
-        "domain": "fashion",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
         "id": "longquan-celadon",
         "domain": "ceramics",
         "strength": 1,
@@ -1460,14 +1596,6 @@
         "carrier": "style",
         "id": "mannerism-painting",
         "domain": "painting",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
-        "id": "minimalist-fashion",
-        "domain": "fashion",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -1594,14 +1722,6 @@
       },
       {
         "carrier": "style",
-        "id": "straight-front-corset",
-        "domain": "fashion",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
         "id": "suprematism",
         "domain": "painting",
         "strength": 1,
@@ -1627,14 +1747,6 @@
       {
         "carrier": "style",
         "id": "underwear-as-outerwear",
-        "domain": "fashion",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
-        "id": "vintage-coachbuilt-car",
         "domain": "fashion",
         "strength": 1,
         "evidence": "inferred",
@@ -1738,24 +1850,8 @@
       },
       {
         "carrier": "style",
-        "id": "mid-century-eyewear",
-        "domain": "fashion",
-        "strength": 0.5,
-        "evidence": "inferred",
-        "score": 0.15
-      },
-      {
-        "carrier": "style",
         "id": "organic-architecture",
         "domain": "architecture",
-        "strength": 0.5,
-        "evidence": "inferred",
-        "score": 0.15
-      },
-      {
-        "carrier": "style",
-        "id": "quiet-luxury-fashion",
-        "domain": "fashion",
         "strength": 0.5,
         "evidence": "inferred",
         "score": 0.15
@@ -1780,14 +1876,6 @@
         "carrier": "style",
         "id": "rococo-painting",
         "domain": "painting",
-        "strength": 0.5,
-        "evidence": "inferred",
-        "score": 0.15
-      },
-      {
-        "carrier": "style",
-        "id": "stealth-luxury-accessory",
-        "domain": "fashion",
         "strength": 0.5,
         "evidence": "inferred",
         "score": 0.15
@@ -2452,11 +2540,35 @@
     "enchantment": [
       {
         "carrier": "style",
+        "id": "molecular-gastronomy",
+        "domain": "cuisine",
+        "strength": 0.6,
+        "evidence": "stated",
+        "score": 0.42
+      },
+      {
+        "carrier": "style",
         "id": "pictorialism",
         "domain": "photography",
         "strength": 0.6,
         "evidence": "stated",
         "score": 0.42
+      },
+      {
+        "carrier": "style",
+        "id": "logomania",
+        "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
+      },
+      {
+        "carrier": "style",
+        "id": "plant-based-fine-dining",
+        "domain": "cuisine",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
       },
       {
         "carrier": "style",
@@ -2628,6 +2740,14 @@
       },
       {
         "carrier": "style",
+        "id": "haute-regionale",
+        "domain": "cuisine",
+        "strength": 0.4,
+        "evidence": "stated",
+        "score": 0.28
+      },
+      {
+        "carrier": "style",
         "id": "art-nouveau-ceramics",
         "domain": "ceramics",
         "strength": 0.5,
@@ -2758,6 +2878,14 @@
     "energy": [
       {
         "carrier": "style",
+        "id": "brutalist-jewellery",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
         "id": "cinematic-fpv",
         "domain": "film",
         "strength": 1,
@@ -2774,8 +2902,32 @@
       },
       {
         "carrier": "style",
+        "id": "garconne-flapper-dress",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
         "id": "hong-kong-action",
         "domain": "film",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "mod-and-mini",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "muscle-and-pony-car",
+        "domain": "fashion",
         "strength": 1,
         "evidence": "stated",
         "score": 0.7
@@ -2790,8 +2942,24 @@
       },
       {
         "carrier": "style",
+        "id": "power-dressing",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
         "id": "soviet-montage",
         "domain": "film",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "streamline-car",
+        "domain": "fashion",
         "strength": 1,
         "evidence": "stated",
         "score": 0.7
@@ -2806,11 +2974,43 @@
       },
       {
         "carrier": "style",
+        "id": "space-age-couture",
+        "domain": "fashion",
+        "strength": 0.7,
+        "evidence": "stated",
+        "score": 0.49
+      },
+      {
+        "carrier": "style",
         "id": "group-f64",
         "domain": "photography",
         "strength": 0.6,
         "evidence": "stated",
         "score": 0.42
+      },
+      {
+        "carrier": "style",
+        "id": "art-deco-dance-shoe",
+        "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
+      },
+      {
+        "carrier": "style",
+        "id": "italian-gran-turismo",
+        "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
+      },
+      {
+        "carrier": "style",
+        "id": "streetwear",
+        "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
       },
       {
         "carrier": "style",
@@ -2888,14 +3088,6 @@
         "carrier": "style",
         "id": "ben-day-comic-print",
         "domain": "print",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
-        "id": "brutalist-jewellery",
-        "domain": "fashion",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -3056,14 +3248,6 @@
         "carrier": "style",
         "id": "futurism-painting",
         "domain": "painting",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
-        "id": "garconne-flapper-dress",
-        "domain": "fashion",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -3262,22 +3446,6 @@
       },
       {
         "carrier": "style",
-        "id": "mod-and-mini",
-        "domain": "fashion",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
-        "id": "muscle-and-pony-car",
-        "domain": "fashion",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
         "id": "music-video",
         "domain": "film",
         "strength": 1,
@@ -3366,14 +3534,6 @@
       },
       {
         "carrier": "style",
-        "id": "power-dressing",
-        "domain": "fashion",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
         "id": "psychedelic",
         "domain": "internet",
         "strength": 1,
@@ -3432,14 +3592,6 @@
         "carrier": "style",
         "id": "staffordshire-figures",
         "domain": "ceramics",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
-        "id": "streamline-car",
-        "domain": "fashion",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -3574,10 +3726,26 @@
       },
       {
         "carrier": "style",
+        "id": "americana-workwear",
+        "domain": "fashion",
+        "strength": 0.4,
+        "evidence": "stated",
+        "score": 0.28
+      },
+      {
+        "carrier": "style",
         "id": "babylonian-glazed-brick",
         "domain": "ceramics",
         "strength": 0.7,
         "evidence": "inferred",
+        "score": 0.21
+      },
+      {
+        "carrier": "style",
+        "id": "stiletto-heel",
+        "domain": "fashion",
+        "strength": 0.3,
+        "evidence": "stated",
         "score": 0.21
       },
       {
@@ -3632,14 +3800,6 @@
         "carrier": "style",
         "id": "funk-ceramics",
         "domain": "ceramics",
-        "strength": 0.5,
-        "evidence": "inferred",
-        "score": 0.15
-      },
-      {
-        "carrier": "style",
-        "id": "italian-gran-turismo",
-        "domain": "fashion",
         "strength": 0.5,
         "evidence": "inferred",
         "score": 0.15
@@ -3702,14 +3862,6 @@
       },
       {
         "carrier": "style",
-        "id": "streetwear",
-        "domain": "fashion",
-        "strength": 0.5,
-        "evidence": "inferred",
-        "score": 0.15
-      },
-      {
-        "carrier": "style",
         "id": "unicode-emoji",
         "domain": "internet",
         "strength": 0.5,
@@ -3763,17 +3915,105 @@
         "strength": 0.3,
         "evidence": "inferred",
         "score": 0.09
-      },
-      {
-        "carrier": "style",
-        "id": "stiletto-heel",
-        "domain": "fashion",
-        "strength": 0.3,
-        "evidence": "inferred",
-        "score": 0.09
       }
     ],
     "fascination": [
+      {
+        "carrier": "style",
+        "id": "it-bag",
+        "domain": "fashion",
+        "strength": 0.7,
+        "evidence": "stated",
+        "score": 0.49
+      },
+      {
+        "carrier": "style",
+        "id": "luxury-steel-sports-watch",
+        "domain": "fashion",
+        "strength": 0.7,
+        "evidence": "stated",
+        "score": 0.49
+      },
+      {
+        "carrier": "style",
+        "id": "tailfin-era-car",
+        "domain": "fashion",
+        "strength": 0.7,
+        "evidence": "stated",
+        "score": 0.49
+      },
+      {
+        "carrier": "style",
+        "id": "american-pocket-watch",
+        "domain": "fashion",
+        "strength": 0.6,
+        "evidence": "stated",
+        "score": 0.42
+      },
+      {
+        "carrier": "style",
+        "id": "dive-watch",
+        "domain": "fashion",
+        "strength": 0.6,
+        "evidence": "stated",
+        "score": 0.42
+      },
+      {
+        "carrier": "style",
+        "id": "art-deco-jewellery",
+        "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
+      },
+      {
+        "carrier": "style",
+        "id": "early-wristwatch",
+        "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
+      },
+      {
+        "carrier": "style",
+        "id": "glam-platform-shoe",
+        "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
+      },
+      {
+        "carrier": "style",
+        "id": "grande-cuisine",
+        "domain": "cuisine",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
+      },
+      {
+        "carrier": "style",
+        "id": "malletier-luggage",
+        "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
+      },
+      {
+        "carrier": "style",
+        "id": "pacific-rim-fusion",
+        "domain": "cuisine",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
+      },
+      {
+        "carrier": "style",
+        "id": "smartwatch",
+        "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
+      },
       {
         "carrier": "style",
         "id": "abbasid-lustreware",
@@ -3976,6 +4216,38 @@
       },
       {
         "carrier": "style",
+        "id": "art-deco-evening-accessory",
+        "domain": "fashion",
+        "strength": 0.4,
+        "evidence": "stated",
+        "score": 0.28
+      },
+      {
+        "carrier": "style",
+        "id": "crinoline-and-bustle-dress",
+        "domain": "fashion",
+        "strength": 0.4,
+        "evidence": "stated",
+        "score": 0.28
+      },
+      {
+        "carrier": "style",
+        "id": "electronic-and-digital-watch",
+        "domain": "fashion",
+        "strength": 0.4,
+        "evidence": "stated",
+        "score": 0.28
+      },
+      {
+        "carrier": "style",
+        "id": "english-welted-dress-shoe",
+        "domain": "fashion",
+        "strength": 0.4,
+        "evidence": "stated",
+        "score": 0.28
+      },
+      {
+        "carrier": "style",
         "id": "cinematic-fpv",
         "domain": "film",
         "strength": 0.5,
@@ -3994,14 +4266,6 @@
         "carrier": "style",
         "id": "colour-field-painting",
         "domain": "painting",
-        "strength": 0.5,
-        "evidence": "inferred",
-        "score": 0.15
-      },
-      {
-        "carrier": "style",
-        "id": "glam-platform-shoe",
-        "domain": "fashion",
         "strength": 0.5,
         "evidence": "inferred",
         "score": 0.15
@@ -4050,6 +4314,14 @@
     "humour": [
       {
         "carrier": "style",
+        "id": "biodesign-car",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
         "id": "french-new-wave",
         "domain": "film",
         "strength": 1,
@@ -4071,6 +4343,14 @@
         "strength": 1,
         "evidence": "stated",
         "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "crinoline-and-bustle-dress",
+        "domain": "fashion",
+        "strength": 0.8,
+        "evidence": "stated",
+        "score": 0.56
       },
       {
         "carrier": "style",
@@ -4103,6 +4383,14 @@
         "strength": 0.6,
         "evidence": "stated",
         "score": 0.42
+      },
+      {
+        "carrier": "style",
+        "id": "modernist-cuisine",
+        "domain": "cuisine",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
       },
       {
         "carrier": "style",
@@ -4140,14 +4428,6 @@
         "carrier": "style",
         "id": "barbiecore",
         "domain": "internet",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
-        "id": "biodesign-car",
-        "domain": "fashion",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -5320,6 +5600,14 @@
     "intellectual-challenge": [
       {
         "carrier": "style",
+        "id": "modernist-studio-jewellery",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
         "id": "cubism-painting",
         "domain": "painting",
         "strength": 1,
@@ -5345,14 +5633,6 @@
       {
         "carrier": "style",
         "id": "japanese-avant-garde-fashion",
-        "domain": "fashion",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
-        "id": "modernist-studio-jewellery",
         "domain": "fashion",
         "strength": 1,
         "evidence": "inferred",
@@ -5708,11 +5988,147 @@
     "joy": [
       {
         "carrier": "style",
+        "id": "art-deco-dance-shoe",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "bistronomie",
+        "domain": "cuisine",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "california-cuisine",
+        "domain": "cuisine",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "cuisine-minceur",
+        "domain": "cuisine",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "garconne-flapper-dress",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "hippie-bohemian-dress",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "mod-and-mini",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "novoandina-and-nikkei",
+        "domain": "cuisine",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "retro-cocktail-jewellery",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "swiss-plastic-pop-watch",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "art-deco-jewellery",
+        "domain": "fashion",
+        "strength": 0.7,
+        "evidence": "stated",
+        "score": 0.49
+      },
+      {
+        "carrier": "style",
+        "id": "arts-and-crafts-jewellery",
+        "domain": "fashion",
+        "strength": 0.7,
+        "evidence": "stated",
+        "score": 0.49
+      },
+      {
+        "carrier": "style",
+        "id": "naturalist-cuisine",
+        "domain": "cuisine",
+        "strength": 0.7,
+        "evidence": "stated",
+        "score": 0.49
+      },
+      {
+        "carrier": "style",
+        "id": "nouvelle-cuisine",
+        "domain": "cuisine",
+        "strength": 0.7,
+        "evidence": "stated",
+        "score": 0.49
+      },
+      {
+        "carrier": "style",
         "id": "party-flash",
         "domain": "photography",
         "strength": 0.6,
         "evidence": "stated",
         "score": 0.42
+      },
+      {
+        "carrier": "style",
+        "id": "glam-platform-shoe",
+        "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
+      },
+      {
+        "carrier": "style",
+        "id": "malletier-luggage",
+        "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
+      },
+      {
+        "carrier": "style",
+        "id": "mid-century-eyewear",
+        "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
       },
       {
         "carrier": "style",
@@ -5734,14 +6150,6 @@
         "carrier": "style",
         "id": "apple-aqua",
         "domain": "internet",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
-        "id": "art-deco-dance-shoe",
-        "domain": "fashion",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -5820,24 +6228,8 @@
       },
       {
         "carrier": "style",
-        "id": "bistronomie",
-        "domain": "cuisine",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
         "id": "brass-era-car",
         "domain": "fashion",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
-        "id": "california-cuisine",
-        "domain": "cuisine",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -5902,14 +6294,6 @@
         "carrier": "style",
         "id": "creator-vlog",
         "domain": "film",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
-        "id": "cuisine-minceur",
-        "domain": "cuisine",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -6004,14 +6388,6 @@
       },
       {
         "carrier": "style",
-        "id": "garconne-flapper-dress",
-        "domain": "fashion",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
         "id": "geometric-sans",
         "domain": "typeface",
         "strength": 1,
@@ -6062,14 +6438,6 @@
         "carrier": "style",
         "id": "haute-regionale",
         "domain": "cuisine",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
-        "id": "hippie-bohemian-dress",
-        "domain": "fashion",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -6236,24 +6604,8 @@
       },
       {
         "carrier": "style",
-        "id": "mod-and-mini",
-        "domain": "fashion",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
         "id": "nordic-modernism-architecture",
         "domain": "architecture",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
-        "id": "novoandina-and-nikkei",
-        "domain": "cuisine",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -6286,14 +6638,6 @@
         "carrier": "style",
         "id": "renaissance-banquet",
         "domain": "cuisine",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
-        "id": "retro-cocktail-jewellery",
-        "domain": "fashion",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -6436,14 +6780,6 @@
       },
       {
         "carrier": "style",
-        "id": "swiss-plastic-pop-watch",
-        "domain": "fashion",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
         "id": "tailfin-era-car",
         "domain": "fashion",
         "strength": 1,
@@ -6529,6 +6865,30 @@
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
+      },
+      {
+        "carrier": "style",
+        "id": "english-bespoke-tailoring",
+        "domain": "fashion",
+        "strength": 0.4,
+        "evidence": "stated",
+        "score": 0.28
+      },
+      {
+        "carrier": "style",
+        "id": "nordic-functional-outdoor",
+        "domain": "fashion",
+        "strength": 0.4,
+        "evidence": "stated",
+        "score": 0.28
+      },
+      {
+        "carrier": "style",
+        "id": "victorian-boot",
+        "domain": "fashion",
+        "strength": 0.4,
+        "evidence": "stated",
+        "score": 0.28
       },
       {
         "carrier": "style",
@@ -6865,8 +7225,32 @@
     "nostalgia": [
       {
         "carrier": "style",
+        "id": "americana-workwear",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
         "id": "camcorder-revival",
         "domain": "film",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "canvas-court-sneaker",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "country-sporting-tweed",
+        "domain": "fashion",
         "strength": 1,
         "evidence": "stated",
         "score": 0.7
@@ -6897,6 +7281,30 @@
       },
       {
         "carrier": "style",
+        "id": "american-pocket-watch",
+        "domain": "fashion",
+        "strength": 0.8,
+        "evidence": "stated",
+        "score": 0.56
+      },
+      {
+        "carrier": "style",
+        "id": "sneaker-culture",
+        "domain": "fashion",
+        "strength": 0.8,
+        "evidence": "stated",
+        "score": 0.56
+      },
+      {
+        "carrier": "style",
+        "id": "modernist-cuisine",
+        "domain": "cuisine",
+        "strength": 0.6,
+        "evidence": "stated",
+        "score": 0.42
+      },
+      {
+        "carrier": "style",
         "id": "neon-noir",
         "domain": "film",
         "strength": 0.6,
@@ -6905,16 +7313,24 @@
       },
       {
         "carrier": "style",
-        "id": "adaptive-reuse-architecture",
-        "domain": "architecture",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
+        "id": "arts-and-crafts-jewellery",
+        "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
       },
       {
         "carrier": "style",
-        "id": "americana-workwear",
+        "id": "retro-revival-car",
         "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
+      },
+      {
+        "carrier": "style",
+        "id": "adaptive-reuse-architecture",
+        "domain": "architecture",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -6971,14 +7387,6 @@
         "carrier": "style",
         "id": "cornishware",
         "domain": "ceramics",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
-        "id": "country-sporting-tweed",
-        "domain": "fashion",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -7249,6 +7657,30 @@
       },
       {
         "carrier": "style",
+        "id": "hippie-bohemian-dress",
+        "domain": "fashion",
+        "strength": 0.4,
+        "evidence": "stated",
+        "score": 0.28
+      },
+      {
+        "carrier": "style",
+        "id": "pilot-and-field-watch",
+        "domain": "fashion",
+        "strength": 0.4,
+        "evidence": "stated",
+        "score": 0.28
+      },
+      {
+        "carrier": "style",
+        "id": "trench-and-field-military",
+        "domain": "fashion",
+        "strength": 0.4,
+        "evidence": "stated",
+        "score": 0.28
+      },
+      {
+        "carrier": "style",
         "id": "ben-day-comic-print",
         "domain": "print",
         "strength": 0.5,
@@ -7361,14 +7793,6 @@
       },
       {
         "carrier": "style",
-        "id": "retro-revival-car",
-        "domain": "fashion",
-        "strength": 0.5,
-        "evidence": "inferred",
-        "score": 0.15
-      },
-      {
-        "carrier": "style",
         "id": "swiss-international",
         "domain": "internet",
         "strength": 0.5,
@@ -7411,8 +7835,56 @@
     "relaxation": [
       {
         "carrier": "style",
+        "id": "bandeau-brassiere",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "empire-line-dress",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "ivy-style",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "modern-mens-briefs",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "performance-running-shoe",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
         "id": "pictorialism",
         "domain": "photography",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "quilted-down-outerwear",
+        "domain": "fashion",
         "strength": 1,
         "evidence": "stated",
         "score": 0.7
@@ -7424,6 +7896,22 @@
         "strength": 1,
         "evidence": "stated",
         "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "technical-shell-alpinism",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "gorpcore",
+        "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
       },
       {
         "carrier": "style",
@@ -7485,14 +7973,6 @@
         "carrier": "style",
         "id": "aurora-gradient-ui",
         "domain": "internet",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
-        "id": "bandeau-brassiere",
-        "domain": "fashion",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -7731,14 +8211,6 @@
       },
       {
         "carrier": "style",
-        "id": "empire-line-dress",
-        "domain": "fashion",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
         "id": "english-bespoke-tailoring",
         "domain": "fashion",
         "strength": 1,
@@ -7875,14 +8347,6 @@
       },
       {
         "carrier": "style",
-        "id": "ivy-style",
-        "domain": "fashion",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
         "id": "japandi-interior",
         "domain": "interior",
         "strength": 1,
@@ -7995,14 +8459,6 @@
       },
       {
         "carrier": "style",
-        "id": "modern-mens-briefs",
-        "domain": "fashion",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
         "id": "neoclassical-architecture",
         "domain": "architecture",
         "strength": 1,
@@ -8099,14 +8555,6 @@
       },
       {
         "carrier": "style",
-        "id": "performance-running-shoe",
-        "domain": "fashion",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
         "id": "photo-carousel-slideshow",
         "domain": "internet",
         "strength": 1,
@@ -8165,14 +8613,6 @@
         "carrier": "style",
         "id": "quiet-luxury-interior",
         "domain": "interior",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
-        "id": "quilted-down-outerwear",
-        "domain": "fashion",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -8371,14 +8811,6 @@
       },
       {
         "carrier": "style",
-        "id": "technical-shell-alpinism",
-        "domain": "fashion",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
         "id": "terracotta-rainscreen",
         "domain": "ceramics",
         "strength": 1,
@@ -8451,6 +8883,22 @@
       },
       {
         "carrier": "style",
+        "id": "italian-gran-turismo",
+        "domain": "fashion",
+        "strength": 0.4,
+        "evidence": "stated",
+        "score": 0.28
+      },
+      {
+        "carrier": "style",
+        "id": "bistronomie",
+        "domain": "cuisine",
+        "strength": 0.3,
+        "evidence": "stated",
+        "score": 0.21
+      },
+      {
+        "carrier": "style",
         "id": "bauhaus-architecture",
         "domain": "architecture",
         "strength": 0.5,
@@ -8516,14 +8964,6 @@
       {
         "carrier": "style",
         "id": "garland-style-jewellery",
-        "domain": "fashion",
-        "strength": 0.5,
-        "evidence": "inferred",
-        "score": 0.15
-      },
-      {
-        "carrier": "style",
-        "id": "gorpcore",
         "domain": "fashion",
         "strength": 0.5,
         "evidence": "inferred",
@@ -8683,14 +9123,6 @@
       },
       {
         "carrier": "style",
-        "id": "bistronomie",
-        "domain": "cuisine",
-        "strength": 0.3,
-        "evidence": "inferred",
-        "score": 0.09
-      },
-      {
-        "carrier": "style",
         "id": "ding-white-ware",
         "domain": "ceramics",
         "strength": 0.3,
@@ -8765,6 +9197,14 @@
       },
       {
         "carrier": "style",
+        "id": "georgian-jewellery",
+        "domain": "fashion",
+        "strength": 0.8,
+        "evidence": "stated",
+        "score": 0.56
+      },
+      {
+        "carrier": "style",
         "id": "dogme-95",
         "domain": "film",
         "strength": 0.6,
@@ -8783,6 +9223,14 @@
         "carrier": "style",
         "id": "spaghetti-western",
         "domain": "film",
+        "strength": 0.6,
+        "evidence": "stated",
+        "score": 0.42
+      },
+      {
+        "carrier": "style",
+        "id": "victorian-millinery",
+        "domain": "fashion",
         "strength": 0.6,
         "evidence": "stated",
         "score": 0.42
@@ -8877,6 +9325,14 @@
       },
       {
         "carrier": "style",
+        "id": "victorian-sentimental-jewellery",
+        "domain": "fashion",
+        "strength": 0.3,
+        "evidence": "stated",
+        "score": 0.21
+      },
+      {
+        "carrier": "style",
         "id": "cinematic-teal-orange",
         "domain": "photography",
         "strength": 0.5,
@@ -8930,14 +9386,6 @@
         "strength": 0.3,
         "evidence": "inferred",
         "score": 0.09
-      },
-      {
-        "carrier": "style",
-        "id": "victorian-sentimental-jewellery",
-        "domain": "fashion",
-        "strength": 0.3,
-        "evidence": "inferred",
-        "score": 0.09
       }
     ],
     "saudade": [],
@@ -8945,8 +9393,64 @@
     "surprise": [
       {
         "carrier": "style",
+        "id": "molecular-gastronomy",
+        "domain": "cuisine",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "luxury-steel-sports-watch",
+        "domain": "fashion",
+        "strength": 0.8,
+        "evidence": "stated",
+        "score": 0.56
+      },
+      {
+        "carrier": "style",
+        "id": "new-look",
+        "domain": "fashion",
+        "strength": 0.8,
+        "evidence": "stated",
+        "score": 0.56
+      },
+      {
+        "carrier": "style",
+        "id": "wedge-design-car",
+        "domain": "fashion",
+        "strength": 0.8,
+        "evidence": "stated",
+        "score": 0.56
+      },
+      {
+        "carrier": "style",
+        "id": "japanese-avant-garde-fashion",
+        "domain": "fashion",
+        "strength": 0.7,
+        "evidence": "stated",
+        "score": 0.49
+      },
+      {
+        "carrier": "style",
+        "id": "brass-era-car",
+        "domain": "fashion",
+        "strength": 0.6,
+        "evidence": "stated",
+        "score": 0.42
+      },
+      {
+        "carrier": "style",
         "id": "giallo",
         "domain": "film",
+        "strength": 0.6,
+        "evidence": "stated",
+        "score": 0.42
+      },
+      {
+        "carrier": "style",
+        "id": "soft-natural-lingerie",
+        "domain": "fashion",
         "strength": 0.6,
         "evidence": "stated",
         "score": 0.42
@@ -8958,6 +9462,14 @@
         "strength": 0.6,
         "evidence": "stated",
         "score": 0.42
+      },
+      {
+        "carrier": "style",
+        "id": "rococo-court-dress",
+        "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
       },
       {
         "carrier": "style",
@@ -9003,14 +9515,6 @@
         "carrier": "style",
         "id": "joseon-buncheong",
         "domain": "ceramics",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
-        "id": "molecular-gastronomy",
-        "domain": "cuisine",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -9084,6 +9588,14 @@
       },
       {
         "carrier": "style",
+        "id": "biodesign-car",
+        "domain": "fashion",
+        "strength": 0.8,
+        "evidence": "stated",
+        "score": 0.56
+      },
+      {
+        "carrier": "style",
         "id": "funk-ceramics",
         "domain": "ceramics",
         "strength": 1,
@@ -9148,6 +9660,14 @@
       },
       {
         "carrier": "style",
+        "id": "gorpcore",
+        "domain": "fashion",
+        "strength": 0.4,
+        "evidence": "stated",
+        "score": 0.28
+      },
+      {
+        "carrier": "style",
         "id": "photo-dump",
         "domain": "internet",
         "strength": 0.5,
@@ -9198,6 +9718,14 @@
       },
       {
         "carrier": "style",
+        "id": "japanese-avant-garde-fashion",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
         "id": "neon-noir",
         "domain": "film",
         "strength": 1,
@@ -9219,6 +9747,22 @@
         "strength": 1,
         "evidence": "stated",
         "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "techwear",
+        "domain": "fashion",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "victorian-corsetry",
+        "domain": "fashion",
+        "strength": 0.7,
+        "evidence": "stated",
+        "score": 0.49
       },
       {
         "carrier": "style",
@@ -9254,8 +9798,32 @@
       },
       {
         "carrier": "style",
+        "id": "nylon-foundation-garments",
+        "domain": "fashion",
+        "strength": 0.6,
+        "evidence": "stated",
+        "score": 0.42
+      },
+      {
+        "carrier": "style",
         "id": "phone-cinema",
         "domain": "film",
+        "strength": 0.6,
+        "evidence": "stated",
+        "score": 0.42
+      },
+      {
+        "carrier": "style",
+        "id": "punk-fashion",
+        "domain": "fashion",
+        "strength": 0.6,
+        "evidence": "stated",
+        "score": 0.42
+      },
+      {
+        "carrier": "style",
+        "id": "straight-front-corset",
+        "domain": "fashion",
         "strength": 0.6,
         "evidence": "stated",
         "score": 0.42
@@ -9267,6 +9835,30 @@
         "strength": 0.6,
         "evidence": "stated",
         "score": 0.42
+      },
+      {
+        "carrier": "style",
+        "id": "whalebone-stays",
+        "domain": "fashion",
+        "strength": 0.6,
+        "evidence": "stated",
+        "score": 0.42
+      },
+      {
+        "carrier": "style",
+        "id": "designer-logo-underwear",
+        "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
+      },
+      {
+        "carrier": "style",
+        "id": "shapewear-and-seamless",
+        "domain": "fashion",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
       },
       {
         "carrier": "style",
@@ -9382,14 +9974,6 @@
       },
       {
         "carrier": "style",
-        "id": "japanese-avant-garde-fashion",
-        "domain": "fashion",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
         "id": "jian-tenmoku-ware",
         "domain": "ceramics",
         "strength": 1,
@@ -9462,14 +10046,6 @@
       },
       {
         "carrier": "style",
-        "id": "techwear",
-        "domain": "fashion",
-        "strength": 1,
-        "evidence": "inferred",
-        "score": 0.3
-      },
-      {
-        "carrier": "style",
         "id": "vector-display-arcade",
         "domain": "game",
         "strength": 1,
@@ -9499,6 +10075,22 @@
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
+      },
+      {
+        "carrier": "style",
+        "id": "electric-minimal-car",
+        "domain": "fashion",
+        "strength": 0.4,
+        "evidence": "stated",
+        "score": 0.28
+      },
+      {
+        "carrier": "style",
+        "id": "naturalist-cuisine",
+        "domain": "cuisine",
+        "strength": 0.4,
+        "evidence": "stated",
+        "score": 0.28
       },
       {
         "carrier": "style",
@@ -11963,19 +12555,19 @@
       {
         "emotion": "joy",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       },
       {
         "emotion": "relaxation",
         "strength": 0.3,
-        "evidence": "inferred"
+        "evidence": "stated"
       }
     ],
     "california-cuisine": [
       {
         "emotion": "joy",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       },
       {
         "emotion": "mono-no-aware",
@@ -11988,11 +12580,23 @@
         "evidence": "inferred"
       }
     ],
+    "cuisine-classique": [
+      {
+        "emotion": "awe",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "beauty",
+        "strength": 0.6,
+        "evidence": "stated"
+      }
+    ],
     "cuisine-francoise": [
       {
         "emotion": "beauty",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       },
       {
         "emotion": "relaxation",
@@ -12004,7 +12608,7 @@
       {
         "emotion": "joy",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       },
       {
         "emotion": "relaxation",
@@ -12021,10 +12625,20 @@
       {
         "emotion": "awe",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
+      },
+      {
+        "emotion": "fascination",
+        "strength": 0.5,
+        "evidence": "stated"
       }
     ],
     "haute-regionale": [
+      {
+        "emotion": "enchantment",
+        "strength": 0.4,
+        "evidence": "stated"
+      },
       {
         "emotion": "joy",
         "strength": 1,
@@ -12040,7 +12654,7 @@
       {
         "emotion": "awe",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       },
       {
         "emotion": "joy",
@@ -12050,12 +12664,32 @@
     ],
     "modernist-cuisine": [
       {
+        "emotion": "nostalgia",
+        "strength": 0.6,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "humour",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
+      {
         "emotion": "uneasiness",
         "strength": 1,
         "evidence": "inferred"
       }
     ],
     "molecular-gastronomy": [
+      {
+        "emotion": "surprise",
+        "strength": 1,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "enchantment",
+        "strength": 0.6,
+        "evidence": "stated"
+      },
       {
         "emotion": "humour",
         "strength": 1,
@@ -12067,17 +12701,22 @@
         "evidence": "inferred"
       },
       {
-        "emotion": "surprise",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "uneasiness",
         "strength": 1,
         "evidence": "inferred"
       }
     ],
     "naturalist-cuisine": [
+      {
+        "emotion": "joy",
+        "strength": 0.7,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 0.4,
+        "evidence": "stated"
+      },
       {
         "emotion": "vitality",
         "strength": 1,
@@ -12101,6 +12740,11 @@
     ],
     "new-nordic": [
       {
+        "emotion": "awe",
+        "strength": 0.4,
+        "evidence": "stated"
+      },
+      {
         "emotion": "mono-no-aware",
         "strength": 1,
         "evidence": "inferred"
@@ -12117,6 +12761,11 @@
       }
     ],
     "nouvelle-cuisine": [
+      {
+        "emotion": "joy",
+        "strength": 0.7,
+        "evidence": "stated"
+      },
       {
         "emotion": "mono-no-aware",
         "strength": 1,
@@ -12142,7 +12791,7 @@
       {
         "emotion": "joy",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       },
       {
         "emotion": "relaxation",
@@ -12151,6 +12800,11 @@
       }
     ],
     "pacific-rim-fusion": [
+      {
+        "emotion": "fascination",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
       {
         "emotion": "beauty",
         "strength": 1,
@@ -12169,6 +12823,11 @@
     ],
     "plant-based-fine-dining": [
       {
+        "emotion": "enchantment",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
+      {
         "emotion": "relaxation",
         "strength": 1,
         "evidence": "inferred"
@@ -12181,12 +12840,27 @@
     ],
     "renaissance-banquet": [
       {
+        "emotion": "awe",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
+      {
         "emotion": "joy",
         "strength": 1,
         "evidence": "inferred"
       }
     ],
     "american-pocket-watch": [
+      {
+        "emotion": "nostalgia",
+        "strength": 0.8,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "fascination",
+        "strength": 0.6,
+        "evidence": "stated"
+      },
       {
         "emotion": "insight",
         "strength": 1,
@@ -12197,10 +12871,25 @@
       {
         "emotion": "nostalgia",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
+      },
+      {
+        "emotion": "energy",
+        "strength": 0.4,
+        "evidence": "stated"
       }
     ],
     "art-deco-dance-shoe": [
+      {
+        "emotion": "joy",
+        "strength": 1,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "energy",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
       {
         "emotion": "beauty",
         "strength": 1,
@@ -12210,21 +12899,31 @@
         "emotion": "fascination",
         "strength": 1,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "joy",
-        "strength": 1,
-        "evidence": "inferred"
       }
     ],
     "art-deco-evening-accessory": [
       {
         "emotion": "beauty",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
+      },
+      {
+        "emotion": "fascination",
+        "strength": 0.4,
+        "evidence": "stated"
       }
     ],
     "art-deco-jewellery": [
+      {
+        "emotion": "joy",
+        "strength": 0.7,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "fascination",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
       {
         "emotion": "beauty",
         "strength": 1,
@@ -12235,10 +12934,15 @@
       {
         "emotion": "beauty",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       }
     ],
     "art-nouveau-jewellery": [
+      {
+        "emotion": "beauty",
+        "strength": 0.6,
+        "evidence": "stated"
+      },
       {
         "emotion": "vitality",
         "strength": 1,
@@ -12251,6 +12955,16 @@
       }
     ],
     "arts-and-crafts-jewellery": [
+      {
+        "emotion": "joy",
+        "strength": 0.7,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "nostalgia",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
       {
         "emotion": "relaxation",
         "strength": 1,
@@ -12266,14 +12980,14 @@
       {
         "emotion": "relaxation",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       }
     ],
     "bias-cut-glamour": [
       {
         "emotion": "beauty",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       },
       {
         "emotion": "vitality",
@@ -12285,7 +12999,12 @@
       {
         "emotion": "humour",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
+      },
+      {
+        "emotion": "ugliness",
+        "strength": 0.8,
+        "evidence": "stated"
       },
       {
         "emotion": "joy",
@@ -12300,6 +13019,11 @@
     ],
     "brass-era-car": [
       {
+        "emotion": "surprise",
+        "strength": 0.6,
+        "evidence": "stated"
+      },
+      {
         "emotion": "being-moved",
         "strength": 1,
         "evidence": "inferred"
@@ -12311,6 +13035,11 @@
       }
     ],
     "breguet-classical-watch": [
+      {
+        "emotion": "awe",
+        "strength": 0.7,
+        "evidence": "stated"
+      },
       {
         "emotion": "beauty",
         "strength": 1,
@@ -12331,10 +13060,15 @@
       {
         "emotion": "energy",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       }
     ],
     "canvas-court-sneaker": [
+      {
+        "emotion": "nostalgia",
+        "strength": 1,
+        "evidence": "stated"
+      },
       {
         "emotion": "vitality",
         "strength": 1,
@@ -12347,6 +13081,11 @@
       }
     ],
     "costume-jewellery": [
+      {
+        "emotion": "beauty",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
       {
         "emotion": "humour",
         "strength": 1,
@@ -12367,7 +13106,7 @@
       {
         "emotion": "nostalgia",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       },
       {
         "emotion": "wabi-sabi",
@@ -12377,6 +13116,16 @@
     ],
     "crinoline-and-bustle-dress": [
       {
+        "emotion": "humour",
+        "strength": 0.8,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "fascination",
+        "strength": 0.4,
+        "evidence": "stated"
+      },
+      {
         "emotion": "awe",
         "strength": 1,
         "evidence": "inferred"
@@ -12384,12 +13133,22 @@
     ],
     "designer-logo-underwear": [
       {
+        "emotion": "uneasiness",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
+      {
         "emotion": "energy",
         "strength": 1,
         "evidence": "inferred"
       }
     ],
     "dive-watch": [
+      {
+        "emotion": "fascination",
+        "strength": 0.6,
+        "evidence": "stated"
+      },
       {
         "emotion": "energy",
         "strength": 1,
@@ -12403,6 +13162,11 @@
     ],
     "early-mountaineering": [
       {
+        "emotion": "awe",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
+      {
         "emotion": "interest",
         "strength": 1,
         "evidence": "inferred"
@@ -12413,18 +13177,42 @@
         "evidence": "inferred"
       }
     ],
+    "early-wristwatch": [
+      {
+        "emotion": "fascination",
+        "strength": 0.5,
+        "evidence": "stated"
+      }
+    ],
     "electric-minimal-car": [
+      {
+        "emotion": "beauty",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 0.4,
+        "evidence": "stated"
+      },
       {
         "emotion": "relaxation",
         "strength": 1,
         "evidence": "inferred"
       }
     ],
+    "electronic-and-digital-watch": [
+      {
+        "emotion": "fascination",
+        "strength": 0.4,
+        "evidence": "stated"
+      }
+    ],
     "empire-line-dress": [
       {
         "emotion": "relaxation",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       },
       {
         "emotion": "beauty",
@@ -12433,6 +13221,11 @@
       }
     ],
     "english-bespoke-tailoring": [
+      {
+        "emotion": "joy",
+        "strength": 0.4,
+        "evidence": "stated"
+      },
       {
         "emotion": "awe",
         "strength": 1,
@@ -12449,16 +13242,23 @@
         "evidence": "inferred"
       }
     ],
+    "english-welted-dress-shoe": [
+      {
+        "emotion": "fascination",
+        "strength": 0.4,
+        "evidence": "stated"
+      }
+    ],
     "garconne-flapper-dress": [
       {
         "emotion": "energy",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       },
       {
         "emotion": "joy",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       },
       {
         "emotion": "vitality",
@@ -12470,7 +13270,7 @@
       {
         "emotion": "beauty",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       },
       {
         "emotion": "awe",
@@ -12484,6 +13284,11 @@
       }
     ],
     "georgian-jewellery": [
+      {
+        "emotion": "sadness",
+        "strength": 0.8,
+        "evidence": "stated"
+      },
       {
         "emotion": "awe",
         "strength": 1,
@@ -12502,13 +13307,18 @@
     ],
     "glam-platform-shoe": [
       {
-        "emotion": "energy",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "fascination",
         "strength": 0.5,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "joy",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "energy",
+        "strength": 1,
         "evidence": "inferred"
       },
       {
@@ -12519,17 +13329,22 @@
     ],
     "gorpcore": [
       {
+        "emotion": "relaxation",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "ugliness",
+        "strength": 0.4,
+        "evidence": "stated"
+      },
+      {
         "emotion": "humour",
         "strength": 1,
         "evidence": "inferred"
       },
       {
         "emotion": "joy",
-        "strength": 0.5,
-        "evidence": "inferred"
-      },
-      {
-        "emotion": "relaxation",
         "strength": 0.5,
         "evidence": "inferred"
       },
@@ -12543,7 +13358,12 @@
       {
         "emotion": "joy",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
+      },
+      {
+        "emotion": "nostalgia",
+        "strength": 0.4,
+        "evidence": "stated"
       },
       {
         "emotion": "relaxation",
@@ -12552,6 +13372,11 @@
       }
     ],
     "it-bag": [
+      {
+        "emotion": "fascination",
+        "strength": 0.7,
+        "evidence": "stated"
+      },
       {
         "emotion": "beauty",
         "strength": 1,
@@ -12570,13 +13395,18 @@
     ],
     "italian-gran-turismo": [
       {
-        "emotion": "beauty",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "energy",
         "strength": 0.5,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 0.4,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "beauty",
+        "strength": 1,
         "evidence": "inferred"
       }
     ],
@@ -12584,7 +13414,7 @@
       {
         "emotion": "relaxation",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       },
       {
         "emotion": "nostalgia",
@@ -12594,17 +13424,22 @@
     ],
     "japanese-avant-garde-fashion": [
       {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "surprise",
+        "strength": 0.7,
+        "evidence": "stated"
+      },
+      {
         "emotion": "beauty",
         "strength": 1,
         "evidence": "inferred"
       },
       {
         "emotion": "intellectual-challenge",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
-        "emotion": "uneasiness",
         "strength": 1,
         "evidence": "inferred"
       },
@@ -12618,10 +13453,15 @@
       {
         "emotion": "beauty",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       }
     ],
     "logomania": [
+      {
+        "emotion": "enchantment",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
       {
         "emotion": "energy",
         "strength": 1,
@@ -12630,12 +13470,32 @@
     ],
     "luxury-steel-sports-watch": [
       {
+        "emotion": "surprise",
+        "strength": 0.8,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "fascination",
+        "strength": 0.7,
+        "evidence": "stated"
+      },
+      {
         "emotion": "beauty",
         "strength": 1,
         "evidence": "inferred"
       }
     ],
     "malletier-luggage": [
+      {
+        "emotion": "joy",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "fascination",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
       {
         "emotion": "beauty",
         "strength": 1,
@@ -12644,13 +13504,18 @@
     ],
     "mid-century-eyewear": [
       {
-        "emotion": "humour",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "beauty",
         "strength": 0.5,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "joy",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "humour",
+        "strength": 1,
         "evidence": "inferred"
       },
       {
@@ -12663,7 +13528,7 @@
       {
         "emotion": "beauty",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       },
       {
         "emotion": "relaxation",
@@ -12675,15 +13540,15 @@
       {
         "emotion": "energy",
         "strength": 1,
-        "evidence": "inferred"
-      },
-      {
-        "emotion": "humour",
-        "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       },
       {
         "emotion": "joy",
+        "strength": 1,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "humour",
         "strength": 1,
         "evidence": "inferred"
       },
@@ -12697,14 +13562,14 @@
       {
         "emotion": "relaxation",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       }
     ],
     "modernist-studio-jewellery": [
       {
         "emotion": "intellectual-challenge",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       },
       {
         "emotion": "relaxation",
@@ -12716,7 +13581,7 @@
       {
         "emotion": "energy",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       },
       {
         "emotion": "anger",
@@ -12736,6 +13601,16 @@
     ],
     "new-look": [
       {
+        "emotion": "surprise",
+        "strength": 0.8,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "anger",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
+      {
         "emotion": "beauty",
         "strength": 1,
         "evidence": "inferred"
@@ -12748,12 +13623,22 @@
     ],
     "nordic-functional-outdoor": [
       {
+        "emotion": "joy",
+        "strength": 0.4,
+        "evidence": "stated"
+      },
+      {
         "emotion": "relaxation",
         "strength": 1,
         "evidence": "inferred"
       }
     ],
     "nylon-foundation-garments": [
+      {
+        "emotion": "uneasiness",
+        "strength": 0.6,
+        "evidence": "stated"
+      },
       {
         "emotion": "beauty",
         "strength": 1,
@@ -12762,12 +13647,12 @@
     ],
     "performance-running-shoe": [
       {
-        "emotion": "energy",
+        "emotion": "relaxation",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       },
       {
-        "emotion": "relaxation",
+        "emotion": "energy",
         "strength": 1,
         "evidence": "inferred"
       },
@@ -12779,6 +13664,11 @@
     ],
     "pilot-and-field-watch": [
       {
+        "emotion": "nostalgia",
+        "strength": 0.4,
+        "evidence": "stated"
+      },
+      {
         "emotion": "insight",
         "strength": 1,
         "evidence": "inferred"
@@ -12786,12 +13676,12 @@
     ],
     "power-dressing": [
       {
-        "emotion": "awe",
+        "emotion": "energy",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       },
       {
-        "emotion": "energy",
+        "emotion": "awe",
         "strength": 1,
         "evidence": "inferred"
       }
@@ -12800,7 +13690,12 @@
       {
         "emotion": "anger",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 0.6,
+        "evidence": "stated"
       },
       {
         "emotion": "energy",
@@ -12810,13 +13705,13 @@
     ],
     "quiet-luxury-fashion": [
       {
-        "emotion": "relaxation",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "beauty",
         "strength": 0.5,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
         "evidence": "inferred"
       },
       {
@@ -12829,7 +13724,7 @@
       {
         "emotion": "relaxation",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       },
       {
         "emotion": "hygge",
@@ -12843,6 +13738,11 @@
       }
     ],
     "racing-chronograph": [
+      {
+        "emotion": "awe",
+        "strength": 0.6,
+        "evidence": "stated"
+      },
       {
         "emotion": "energy",
         "strength": 1,
@@ -12858,7 +13758,7 @@
       {
         "emotion": "joy",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       },
       {
         "emotion": "beauty",
@@ -12873,6 +13773,11 @@
     ],
     "retro-revival-car": [
       {
+        "emotion": "nostalgia",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
+      {
         "emotion": "joy",
         "strength": 1,
         "evidence": "inferred"
@@ -12883,17 +13788,17 @@
         "evidence": "inferred"
       },
       {
-        "emotion": "nostalgia",
-        "strength": 0.5,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "relaxation",
         "strength": 0.5,
         "evidence": "inferred"
       }
     ],
     "rococo-court-dress": [
+      {
+        "emotion": "surprise",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
       {
         "emotion": "awe",
         "strength": 1,
@@ -12912,6 +13817,11 @@
     ],
     "shapewear-and-seamless": [
       {
+        "emotion": "uneasiness",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
+      {
         "emotion": "relaxation",
         "strength": 1,
         "evidence": "inferred"
@@ -12919,12 +13829,22 @@
     ],
     "smartwatch": [
       {
+        "emotion": "fascination",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
+      {
         "emotion": "joy",
         "strength": 1,
         "evidence": "inferred"
       }
     ],
     "sneaker-culture": [
+      {
+        "emotion": "nostalgia",
+        "strength": 0.8,
+        "evidence": "stated"
+      },
       {
         "emotion": "energy",
         "strength": 1,
@@ -12938,6 +13858,11 @@
     ],
     "soft-natural-lingerie": [
       {
+        "emotion": "surprise",
+        "strength": 0.6,
+        "evidence": "stated"
+      },
+      {
         "emotion": "relaxation",
         "strength": 1,
         "evidence": "inferred"
@@ -12949,6 +13874,11 @@
       }
     ],
     "space-age-couture": [
+      {
+        "emotion": "energy",
+        "strength": 0.7,
+        "evidence": "stated"
+      },
       {
         "emotion": "joy",
         "strength": 1,
@@ -12962,25 +13892,25 @@
     ],
     "stealth-luxury-accessory": [
       {
-        "emotion": "relaxation",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "beauty",
         "strength": 0.5,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
         "evidence": "inferred"
       }
     ],
     "stiletto-heel": [
       {
-        "emotion": "beauty",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "energy",
         "strength": 0.3,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "beauty",
+        "strength": 1,
         "evidence": "inferred"
       }
     ],
@@ -12988,14 +13918,19 @@
       {
         "emotion": "beauty",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 0.6,
+        "evidence": "stated"
       }
     ],
     "streamline-car": [
       {
         "emotion": "energy",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       },
       {
         "emotion": "joy",
@@ -13005,13 +13940,13 @@
     ],
     "streetwear": [
       {
-        "emotion": "relaxation",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "energy",
         "strength": 0.5,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
         "evidence": "inferred"
       },
       {
@@ -13024,10 +13959,15 @@
       {
         "emotion": "anger",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       }
     ],
     "swiss-plastic-pop-watch": [
+      {
+        "emotion": "joy",
+        "strength": 1,
+        "evidence": "stated"
+      },
       {
         "emotion": "energy",
         "strength": 1,
@@ -13035,11 +13975,6 @@
       },
       {
         "emotion": "humour",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
-        "emotion": "joy",
         "strength": 1,
         "evidence": "inferred"
       },
@@ -13056,6 +13991,11 @@
     ],
     "tailfin-era-car": [
       {
+        "emotion": "fascination",
+        "strength": 0.7,
+        "evidence": "stated"
+      },
+      {
         "emotion": "joy",
         "strength": 1,
         "evidence": "inferred"
@@ -13068,6 +14008,11 @@
     ],
     "technical-shell-alpinism": [
       {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": "stated"
+      },
+      {
         "emotion": "energy",
         "strength": 1,
         "evidence": "inferred"
@@ -13076,18 +14021,20 @@
         "emotion": "joy",
         "strength": 1,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "relaxation",
-        "strength": 1,
-        "evidence": "inferred"
       }
     ],
     "techwear": [
       {
         "emotion": "uneasiness",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
+      }
+    ],
+    "trench-and-field-military": [
+      {
+        "emotion": "nostalgia",
+        "strength": 0.4,
+        "evidence": "stated"
       }
     ],
     "underwear-as-outerwear": [
@@ -13109,6 +14056,11 @@
     ],
     "victorian-boot": [
       {
+        "emotion": "joy",
+        "strength": 0.4,
+        "evidence": "stated"
+      },
+      {
         "emotion": "hygge",
         "strength": 1,
         "evidence": "inferred"
@@ -13116,12 +14068,22 @@
     ],
     "victorian-corsetry": [
       {
+        "emotion": "uneasiness",
+        "strength": 0.7,
+        "evidence": "stated"
+      },
+      {
         "emotion": "wabi-sabi",
         "strength": 1,
         "evidence": "inferred"
       }
     ],
     "victorian-millinery": [
+      {
+        "emotion": "sadness",
+        "strength": 0.6,
+        "evidence": "stated"
+      },
       {
         "emotion": "being-moved",
         "strength": 1,
@@ -13135,33 +14097,45 @@
     ],
     "victorian-sentimental-jewellery": [
       {
-        "emotion": "being-moved",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "sadness",
         "strength": 0.3,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "being-moved",
+        "strength": 1,
         "evidence": "inferred"
       }
     ],
     "vintage-coachbuilt-car": [
       {
-        "emotion": "awe",
+        "emotion": "beauty",
         "strength": 1,
-        "evidence": "inferred"
+        "evidence": "stated"
       },
       {
-        "emotion": "beauty",
+        "emotion": "awe",
         "strength": 1,
         "evidence": "inferred"
       }
     ],
     "wedge-design-car": [
       {
+        "emotion": "surprise",
+        "strength": 0.8,
+        "evidence": "stated"
+      },
+      {
         "emotion": "anger",
         "strength": 1,
         "evidence": "inferred"
+      }
+    ],
+    "whalebone-stays": [
+      {
+        "emotion": "uneasiness",
+        "strength": 0.6,
+        "evidence": "stated"
       }
     ],
     "camcorder-revival": [
