@@ -380,7 +380,7 @@ const RAW = "https://raw.githubusercontent.com/musicalbee/design-ontology/main/"
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const stage = $("stage");
-let packIndex;
+let packIndex, heroShots;
 const ico = (name) => `<svg class="icon"><use href="#${name}"/></svg>`;
 let skills = [], graph = null, axes = [], at = 0, turn = 0;
 const names = () => Object.fromEntries(skills.map((s) => [s.id, s.name]));
@@ -447,10 +447,11 @@ async function show(i) {
   at = (i + skills.length) % skills.length;
   const mine = ++turn;
   const s = skills[at], dir = `../skills/${s.id}/`;
-  const [data, sprite, packs] = await Promise.all([
+  const [data, sprite, packs, shots] = await Promise.all([
     fetch(`../data/${s.domain}/styles/${s.id}.json`).then((r) => r.json()),
     fetch(dir + "pack/icons.svg").then((r) => r.text()),
     (packIndex ??= fetch("../icons/packs/index.json").then((r) => r.json())),
+    (heroShots ??= fetch("previews/design/manifest.json").then((r) => (r.ok ? r.json() : { images: {} })).catch(() => ({ images: {} }))),
     new Promise((ok) => { const l = $("tokens"); l.onload = l.onerror = ok; l.href = dir + "tokens.css"; }),
   ]);
   if (mine !== turn) return;
@@ -472,7 +473,11 @@ async function show(i) {
   // hero and facts
   $("h-name").textContent = s.name; $("h-period").textContent = s.period;
   $("h-thesis").textContent = s.thesis;
-  $("h-plate").src = dir + "pack/hero.svg"; $("h-plate").alt = `Abstract plate in the ${s.name} visual language`;
+  // The hero picture is a render of one coffee still life in the style (scripts/render-previews.ts --domain design).
+  // A style with no render yet keeps the abstract plate of its pack.
+  const shot = shots.images[s.id];
+  $("h-plate").src = shot ? `previews/design/${shot.file}` : dir + "pack/hero.svg";
+  $("h-plate").alt = shot ? `A coffee still life in the ${s.name} visual language` : `Abstract plate in the ${s.name} visual language`;
   $("f-period").textContent = s.period; $("f-era").textContent = `Era: ${s.era.replace(/-/g, " ")}. Born in: ${data.primary_mediums.join(", ")}.`;
   $("f-feels").textContent = data.emotion.keywords.slice(0, 3).join(", ");
   $("f-arch").textContent = `Brand archetypes: ${data.emotion.brand_archetypes.join(", ")}.`;

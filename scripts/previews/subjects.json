@@ -3,12 +3,18 @@
   "domains": {
     "photography": {
       "subject": "a corner of a small-town street with a parked car, plain house fronts with windows and doors, a bare brick wall, and one person who walks past",
-      "suffix": "no shop fronts, no shop signs, no signboards, no posters, no readable text, no logos"
+      "suffix": "no readable text, no signs, no logos, no watermark",
+      "set": "subjects",
+      "frame": "a photograph of",
+      "frames": 4
     },
     "film": {
       "subject": "a still frame from a film: two people talk across a kitchen table at night, with a window behind them",
-      "suffix": "a clean frame with no on-screen text, no captions, no titles, no interface, no logos",
-      "drop": "caption|intertitle|title|subtitle|on-screen|interface|logo"
+      "suffix": "a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+      "drop": "caption|intertitle|title|subtitle|on-screen|interface|logo|stamp",
+      "set": "shots",
+      "frame": "a still frame from a film,",
+      "frames": 5
     },
     "painting": {
       "subject": "a small harbour with fishing boats, a stone quay, a row of houses and one figure on the quay",
@@ -19,7 +25,7 @@
       "suffix": "no readable text, no logos"
     },
     "logo": {
-      "subject": "a logo mark for a fictional coffee roaster: one symbol on a plain ground, centred",
+      "subject": "a logo symbol for a fictional coffee roaster: one coffee bean with one curl of steam that rises from its centre crease, on a plain ground, centred, the symbol alone with wide empty margins",
       "suffix": "symbol only, no letters, no text, no slogan, no real brand",
       "drop": "wordmark|logotype|lettering|monogram|typeface|tagline|slogan"
     },
@@ -32,6 +38,17 @@
       "suffix": "no letters, no text, no labels, no logos",
       "drop": "label|caption|text|letter|typograph|logo|wordmark"
     },
+    "design": {
+      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
+      "suffix": "one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "drop": "letter|lettering|type|typography|text|word|logo|wordmark|headline|interface|button|grid of|layout|drop cap|panel|divider|border|card|frame|link|ascii|numeral|label|rule|html|page|list|caption|quote|heading|monospace|^none\\b"
+    },
+    "architecture-elevation": {
+      "source": "architecture",
+      "subject": "a straight frontal elevation photograph of a freestanding public building on a wide empty city square: the camera stands on the central axis and faces the main facade square on, one-point view, the facade is parallel to the image plane, all verticals and horizontals level, the whole building in the frame with open plain sky above it and at both sides, no neighbouring buildings, nothing at the left and right edges of the image but sky and paving, no trees, no people",
+      "suffix": "architectural elevation photograph, plain overcast sky, no readable text on the facade, no logos",
+      "drop": "two-point|three-quarter|corner view|perspective|angled|tree|people|ceiling|staircase|interior|plan|atrium|lobby"
+    },
     "game": {
       "subject": "a video game screenshot of a small village square at dusk: a two-storey house front with an open door into a lit room with a table and a lamp, a cobbled street, one tree and one small player character in the square",
       "suffix": "a clean game frame with no readable text, no logos, no HUD, no menus, no score, no watermark",
@@ -39,22 +56,15 @@
     }
   },
   "styles": {
-    "film/creator-vlog": {
-      "subject": "a vlog frame: one person holds the camera at arm's length and talks to it in a kitchen at night, a second person sits at the table behind"
-    },
     "film/vertical-short-form": {
-      "subject": "one single uninterrupted vertical phone video frame, not a split screen: one person talks to the camera in a kitchen at night, a second person at the table behind, ring light on the face, no app interface, no timestamps, no music note, no watermark",
       "size": "portrait",
       "drop": "cuts|transition|zoom|loop|hook"
     },
-    "film/cinematic-fpv": {
-      "subject": "an FPV drone shot that dives low past a house toward a lit kitchen window where two people sit at a table, level horizon"
-    },
     "logo/art-nouveau-monogram": {
-      "subject": "a vignette mark for a fictional coffee roaster: one coffee branch with leaves and berries inside a frame of plant stems, on a plain ground, centred"
+      "subject": "an Art Nouveau vignette for a fictional coffee roaster: one coffee bean with one curl of steam in the centre, framed by two symmetric whiplash coffee branches with leaves and berries, on a plain toned paper ground, centred, wide empty margins"
     },
     "logo/minimal-wordmark": {
-      "subject": "a minimal mark for a fictional coffee roaster: one oval coffee bean seen from above, outline drawn in one monoline stroke, with the centre crease as one S-curve line, on a plain ground, centred"
+      "subject": "a minimal symbol for a fictional coffee roaster: one oval coffee bean seen from above, outline drawn in one monoline stroke, with the centre crease as one S-curve line that continues up as one curl of steam, on a plain white ground, centred, wide empty margins"
     },
     "painting/abstract-expressionism": {
       "subject": "an abstract expressionist painting of a harbour at dusk, where the boats, the quay and the houses dissolve into gestural fields of colour and drips"
@@ -72,19 +82,20 @@
       "drop": "cartouche|seal|washi|woodblock|paper|print|margin"
     },
     "logo/flat-logo": {
-      "subject": "a flat logo mark for a fictional coffee roaster: one coffee cup with a rising steam curve, drawn from three flat solid shapes in two colours, on a plain ground, centred, not a grid of squares",
+      "subject": "a flat logo symbol for a fictional coffee roaster: one coffee bean with one curl of steam that rises from the crease, drawn from three flat solid shapes in two colours, on a plain white ground, centred, wide empty margins",
       "drop": "four|squares|app icon|tech"
     },
     "logo/glossy-3d-logo": {
-      "subject": "a glossy 3D logo mark for a fictional coffee roaster: one coffee bean with a shiny bevelled surface and a soft reflection, on a plain ground, centred"
+      "subject": "a glossy 3D logo symbol for a fictional coffee roaster: one coffee bean made of warm brown and amber glass with one curl of steam above it, top gloss highlight, floor reflection, on a plain white ground, centred, wide empty margins",
+      "drop": "orb|blue and lime"
     },
     "logo/victorian-trademark": {
-      "subject": "a Victorian trademark device for a fictional coffee roaster: one pictorial animal emblem inside an oval frame with engraved scroll ornament, on a plain cream ground, centred, the frame and the scrolls are blank with no letters, no words and no banners",
-      "drop": "ribbon|banner|label"
+      "subject": "a Victorian trademark device for a fictional coffee roaster: an engraved coffee branch with beans and leaves and one steaming coffee pot inside one oval frame with engraved scroll ornament, on a plain cream ground, centred, wide empty margins, the frame and the scrolls are blank with no letters and no words, nothing in the corners",
+      "drop": "ribbon|banner|label|corners|animal"
     },
     "logo/geometric-symbol": {
-      "subject": "an abstract geometric symbol for a fictional coffee roaster: one circle cut by one triangle, in two flat colours, warm brown and orange, on a plain ground, centred",
-      "drop": "square|diagonal|deep blue"
+      "subject": "an abstract geometric symbol for a fictional coffee roaster: a coffee bean reduced to one solid circle split by one S-curve of negative space, on a plain white ground, centred, wide empty margins",
+      "drop": "square|diagonal"
     },
     "painting/fauvism": {
       "subject": "a fauvist painting of a small harbour with fishing boats, a stone quay, a row of houses and one figure on the quay, the colour patches cover the whole canvas to all four edges, no white margin, no vignette",
@@ -102,12 +113,48 @@
       "drop": "shop window|urban street"
     },
     "film/camcorder-revival": {
-      "subject": "a still frame from home video: two people talk across a kitchen table at night, with a window behind them, no date stamp, no timecode, no digits",
       "drop": "stamp"
     },
     "film/found-footage": {
-      "subject": "a still frame from a found-footage film: two people talk across a kitchen table at night in torch light, with a dark window behind them, no timestamp, no timecode, no digits",
       "drop": "stamp|forest"
+    },
+    "logo/emblem-badge": {
+      "subject": "a round embroidered badge for a fictional coffee roaster: one coffee bean with one curl of steam in the centre of a closed roundel, the outer ring is plain and blank, on a plain white ground, centred, wide empty margins",
+      "drop": "star"
+    },
+    "logo/swiss-modernist-mark": {
+      "subject": "a Swiss modernist symbol for a fictional coffee roaster: a coffee bean built from two solid half ellipses with one straight gap between them, on a plain white ground, centred, wide empty margins",
+      "drop": "grid"
+    },
+    "design/ai-chat-ui": {
+      "drop": "chip|cursor|input|collapsible|brand mark"
+    },
+    "design/bento-grid-ui": {
+      "drop": "screenshot|number|pill"
+    },
+    "design/dark-devtool-ui": {
+      "drop": "screenshot|key cap|command palette|terminal|code editor"
+    },
+    "design/japanese-dense-web": {
+      "drop": "banner|badge|header bar|price|catalogue|magazine|flyer|thumbnail"
+    },
+    "design/japanese-graphic-modernism": {
+      "drop": "kanji|face"
+    },
+    "design/metro-ui": {
+      "drop": "title|app bar|tile|glyph|signage"
+    },
+    "design/pixel-art-web": {
+      "drop": "health bar|dialogue box|sprite sheet"
+    },
+    "design/spatial-visionos": {
+      "drop": "toolbar|window|ornament|gaze"
+    },
+    "design/terminal-tui-web": {
+      "drop": "key hint|character"
+    },
+    "design/vaporwave": {
+      "drop": "desktop window|graphical desktop"
     }
   }
 }
