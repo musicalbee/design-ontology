@@ -249,6 +249,12 @@ A colour field built from many points that each hold a colour, so the colours bl
 - Blur the field by 80 to 200 px, so that no edge shows.
 - Put the field behind the content and give the text a solid or near-solid surface.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Dribbble** (platform, web, 2009–now), published the style. A web site where designers post small shots of interface work. Several interface trends, neumorphism among them, spread from shots that were posted there.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

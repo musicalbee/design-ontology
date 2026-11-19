@@ -179,6 +179,13 @@ A print from a flat stone or plate on which a greasy drawing takes ink and water
 - Use one stone for each colour; 3 to 5 stones give a poster.
 - Keep the soft crayon grain and the dark, velvet black.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Le Figaro** (magazine, Paris, 1826–now), published the style. A French daily newspaper. It printed the Symbolist manifesto in 1886 and the Futurist manifesto in 1909.
+- **Salon de la Rose + Croix** (salon, Paris, 1892–1897), exhibited the style. A series of six art salons that Joséphin Péladan held. It showed mystic and Symbolist painting.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

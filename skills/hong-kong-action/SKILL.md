@@ -211,6 +211,12 @@ Actors hang on thin steel wires, so that they fly, leap and turn in a fight fast
 - Cut on the peak of each leap; keep each air shot under 2 s.
 - Mix wire shots with ground shots at real speed, so that the flight reads as a skill.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Golden Harvest** (studio, Hong Kong, 1970–now), made the style. A Hong Kong film company. It produced the films of Bruce Lee and Jackie Chan and the Hong Kong action of the 1970s and 1980s.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

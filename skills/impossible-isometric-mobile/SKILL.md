@@ -173,7 +173,7 @@ A drawing with three axes at equal angles and one scale, with no vanishing point
 
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.
 
-- **App Store** (platform, online, 2008–now), sold the style. Apple's store for iPhone and iPad apps, where premium mobile games with a clean art style found a large public.
+- **App Store** (platform, online, 2008–now), sold the style. The store of Apple for iPhone and iPad apps. Apps and their icons follow the platform look of each era, from leather and glass to flat colour and Liquid Glass, and premium mobile games with a clean art style found a large public there.
 - **Edge** (magazine, Bath, England, 1993–now), published the style. A British game magazine with a focus on design and art direction since the first polygon consoles.
 - **ustwo** (studio, London, 2004–now), made the style. A British digital studio whose games team made Monument Valley.
 

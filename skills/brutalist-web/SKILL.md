@@ -242,6 +242,12 @@ Every character takes one cell of the same width, so text forms columns without 
 - Align columns with spaces and set tables, code and forms on the cell grid.
 - On a screen, size the layout in cells: 80 columns by 24 rows is the classic terminal.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Brutalist Websites** (platform, web, 2014–now), launched the style. A web site that Pascal Deville started to collect raw, unstyled web sites. It made the name brutalist popular for this kind of web design.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

@@ -142,6 +142,12 @@ Forms that look modelled in soft clay: round edges, one matte material and soft,
 - Use one matte material with no texture and no specular highlight.
 - Light with one large soft source and a soft contact shadow under the form.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Dribbble** (platform, web, 2009–now), published the style. A web site where designers post small shots of interface work. Several interface trends, neumorphism among them, spread from shots that were posted there.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

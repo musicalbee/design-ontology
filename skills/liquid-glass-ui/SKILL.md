@@ -248,6 +248,12 @@ A translucent layer that blurs what is behind it, so that a panel reads as frost
 - Give the panel a white or black tint of 10% to 40% opacity.
 - Add a 1 px light edge at 20% to 50% opacity to show the edge of the glass.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **App Store** (platform, online, 2008–now), published the style. The store of Apple for iPhone and iPad apps. Apps and their icons follow the platform look of each era, from leather and glass to flat colour and Liquid Glass, and premium mobile games with a clean art style found a large public there.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

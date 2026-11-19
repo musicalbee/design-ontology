@@ -149,6 +149,12 @@ A pen with a flat, square-cut tip held at a fixed angle, so the width of a strok
 - Make the x-height about 4 nib widths in a round book hand and about 5 in textura; a stem is one nib width wide.
 - Let the thin parts fall on the diagonal of the nib angle, so the o has its thinnest points at about 11 and 5 o'clock.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Kelmscott Press** (publisher, Hammersmith, London, 1891–1898), made the style. A private press that William Morris started to print books by hand in the manner of the early printers. It cut its own gothic types, Troy and Chaucer, after the letters of the first printed books.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

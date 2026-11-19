@@ -130,6 +130,12 @@ Capital letters set with wide space between them, so that a short word reads as 
 - Use roman capitals with strong serifs or a clean geometric sans.
 - Keep the line to one to four words.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Behance** (platform, web, 2005–now), published the style. A web site where designers post portfolios of projects. Concept work for interfaces, logos and illustration spreads from it.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

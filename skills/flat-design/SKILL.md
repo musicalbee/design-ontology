@@ -272,6 +272,13 @@ A moving form changes shape but keeps its volume: it stretches along its path at
 - Stretch along the path by 10% to 30% at the highest speed and squash by the same amount on impact.
 - In an interface, use a spring with a damping ratio of 0.6 to 0.8, so that an element overshoots once and settles.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **App Store** (platform, online, 2008–now), published the style. The store of Apple for iPhone and iPad apps. Apps and their icons follow the platform look of each era, from leather and glass to flat colour and Liquid Glass, and premium mobile games with a clean art style found a large public there.
+- **Smashing Magazine** (magazine, web, 2006–now), published the style. An online magazine for web designers and developers. Its tutorials and free icon sets spread the glossy Web 2.0 look and then the flat look.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

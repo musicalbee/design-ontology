@@ -188,6 +188,12 @@ Painted perspective that continues the real room, so that a flat wall or ceiling
 - Continue the real cornice, columns and arches in paint for 1 to 3 storeys of false height.
 - Paint the sky or the open part with the lightest value; keep the painted frame at the value of the real stone.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Guild of Saint Luke** (club, Antwerp, Bruges and other cities, ?–now), gathered the style. The city guild of painters in the Low Countries and elsewhere. A painter had to be a member to sell work and to train apprentices.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

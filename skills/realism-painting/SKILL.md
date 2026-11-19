@@ -177,6 +177,12 @@ Work made outside in front of the subject, in the light of the place and the hou
 - Take the colour of shadows from the sky and the ground around them; do not paint them black.
 - Use the light that is there; add no lamp.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Paris Salon** (salon, Paris, 1667–now), exhibited the style. The official art exhibition of the French Academy. For two centuries a painting had to succeed here to make a name, and each new school fought for its walls.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

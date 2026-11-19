@@ -209,6 +209,13 @@ Work made outside in front of the subject, in the light of the place and the hou
 - Take the colour of shadows from the sky and the ground around them; do not paint them black.
 - Use the light that is there; add no lamp.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Cannes Film Festival** (salon, Cannes, 1946–now), exhibited the style. An annual film festival with a juried competition. It gave prizes to neorealist, New Hollywood, Dogme 95 and slow-cinema films.
+- **Centro Sperimentale di Cinematografia** (school, Rome, 1935–now), taught the style. The national film school of Italy. Several makers and writers of Italian neorealism studied or taught here.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

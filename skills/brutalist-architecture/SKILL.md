@@ -183,6 +183,12 @@ Concrete cast in rough timber forms, so that the grain and the joints of the boa
 - Leave the surface as it comes from the form: no paint and no plaster.
 - Let the board joints run in one direction on each wall.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **The Architectural Review** (magazine, London, 1896–now), published the style. A monthly architecture magazine. In 1955 it printed the essay that named the New Brutalism, and it published the work of the Smithsons.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

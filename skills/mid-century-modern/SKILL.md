@@ -257,6 +257,12 @@ Rays from a disc or a half disc: a sign of light and of the new, on a facade, a 
 - Keep the centre disc at 15% to 30% of the full diameter.
 - In a room, use one sunburst as the focal point of one wall.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Herman Miller** (workshop, Zeeland, Michigan, 1923–now), made the style. A furniture maker that worked with George Nelson, Charles and Ray Eames and Isamu Noguchi. It made modern furniture for homes and offices.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

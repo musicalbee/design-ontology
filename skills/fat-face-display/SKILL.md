@@ -156,6 +156,13 @@ Large display letters routed from end-grain wood instead of cast in metal, so po
 - Draw the faces to be loud at a distance: fat face, slab and condensed grotesque, in one weight per line.
 - Mix several faces and sizes on one bill and centre each line, as the job printers did.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Fann Street Foundry** (workshop, London, 1802–now), made the style. A London type foundry. Robert Thorne cut early fat face types here.
+- **Hamilton Manufacturing Company** (workshop, Two Rivers, Wisconsin, 1880–now), made the style. The largest American maker of wood type. Printers used its heavy slab and fat face letters on posters.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

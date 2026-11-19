@@ -177,6 +177,13 @@ A hard contrast of light and dark that models form: one strong source, deep shad
 - Set the key light to fill light at a ratio of 8:1 or more for a dramatic mood.
 - Cut hard shapes into the light with blinds, grilles or foliage so that the shadow becomes a pattern.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Accademia di San Luca** (school, Rome, 1577–now), gathered the style. An academy of artists in Rome. It trained painters and architects, and Roman Baroque masters led it.
+- **Rubenshuis** (workshop, Antwerp, 1610–1640), made the style. The house and workshop of Peter Paul Rubens. Assistants and pupils painted large altarpieces here from his sketches.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

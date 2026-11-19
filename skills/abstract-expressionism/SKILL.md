@@ -176,6 +176,13 @@ Thin paint is poured on raw, unprimed canvas that lies on the floor; the cloth d
 - Leave 30% to 60% of the cloth bare so that the raw colour is part of the picture.
 - Work at a size of 2 metres or more so that the field is wider than the viewer's sight.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Art of This Century** (gallery, New York, 1942–1947), exhibited the style. The gallery of Peggy Guggenheim. It gave Jackson Pollock his first solo show.
+- **Betty Parsons Gallery** (gallery, New York, 1946–1981), exhibited the style. The gallery of the dealer Betty Parsons. It showed Pollock, Rothko and Newman when few dealers took them.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

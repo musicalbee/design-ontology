@@ -255,7 +255,7 @@ A joint that stays in view, so that the way of making is part of the look. Origi
 
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.
 
-- **Kelmscott Press** (publisher, Hammersmith, London, 1891–1898), published the style. A private press that William Morris started to print books by hand in the manner of the early printers. It made the book a model of the Arts and Crafts ideal.
+- **Morris & Co.** (workshop, London, 1861–1940), made the style. The decorating firm of William Morris. It made and sold wallpaper, textiles, stained glass and furniture for Victorian and Arts and Crafts homes.
 
 ## Permutations
 

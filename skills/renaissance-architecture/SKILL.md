@@ -186,6 +186,12 @@ A curved head over an opening that carries load as compression; inside, a soft f
 - Keep the ratio of height to width of the opening at 1.6:1 to 2:1.
 - In a room, repeat the arch in 2 or 3 places, for example a door, a mirror and a niche, and no more.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Opera di Santa Maria del Fiore** (workshop, Florence, ?–now), made the style. The works office of Florence Cathedral. It ran the competition and the building site for the dome of Brunelleschi.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

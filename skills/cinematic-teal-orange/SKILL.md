@@ -184,6 +184,12 @@ The whole image is scanned to digital, and its colour is set shot by shot with c
 - Keep the saturation of skin under 60%.
 - Use one look-up table for each scene, so that the shots match.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Company 3** (studio, Los Angeles, 1997–now), made the style. A colour grading company that Stefan Sonnenfeld co-founded. Its grades for action films spread the teal and orange look.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

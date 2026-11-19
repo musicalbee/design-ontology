@@ -250,6 +250,12 @@ A large first letter that drops down 2 or more lines of text and marks the start
 - Set the first 3 to 5 words after it in small capitals.
 - Use one drop cap for each article or chapter.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Great Exhibition** (exhibition, London, 1851–1851), exhibited the style. The first world's fair, in the Crystal Palace. It showed the ornate manufactured furniture and goods of the Victorian age.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

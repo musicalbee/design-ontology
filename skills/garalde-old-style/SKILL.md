@@ -158,6 +158,12 @@ Capital letters with the proportions of Roman stone inscriptions: some letters w
 - Set the stem at about one tenth of the cap height for a classical weight; for signs, increase it by up to half.
 - Cut serifs, or leave them out, but keep the width rules.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Aldine Press** (publisher, Venice, 1494–1597), made the style. The press of Aldus Manutius. Its roman type, cut by Francesco Griffo, is the model of the Garalde old-style serif.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

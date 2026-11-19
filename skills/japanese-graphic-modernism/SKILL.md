@@ -256,6 +256,12 @@ The circle, the square and the triangle in flat colour, used as the whole pictur
 - Fill each shape with one flat colour; no gradient and no outline.
 - Put the shapes on a plain ground with 30% or more empty space.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Idea** (magazine, Tokyo, ?–now), published the style. A Japanese magazine of graphic design. It printed the posters and marks of the Japanese modernists next to work from Europe and America.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

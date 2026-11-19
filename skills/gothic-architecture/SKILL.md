@@ -186,6 +186,12 @@ Pieces of coloured glass held in lead strips, so that a window becomes a picture
 - Paint the lines of faces and folds in dark grisaille and fire them onto the glass.
 - Use deep blue and red for the field; keep the clear or yellow pieces under 20% of the window.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Veneranda Fabbrica del Duomo di Milano** (workshop, Milan, 1387–now), made the style. The works office that builds and keeps Milan Cathedral. Its masons and stone workshops made the Gothic cathedral over centuries and still keep it.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

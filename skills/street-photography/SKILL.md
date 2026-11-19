@@ -182,6 +182,13 @@ A small, quiet camera that takes 36 frames of 24 x 36 mm on cinema film, so that
 - Shoot at 1/125 to 1/500 s, from the hand.
 - Show the full frame; keep the 2:3 format.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Magnum Photos** (studio, Paris and New York, 1947–now), made the style. A cooperative that its photographers own. Its members made documentary and street photography for magazines.
+- **New Documents** (exhibition, New York, 1967–1967), exhibited the style. A photography show at the Museum of Modern Art. It showed street photographs by Garry Winogrand, Diane Arbus and Lee Friedlander.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

@@ -191,6 +191,12 @@ Ducts, pipes, stairs and cables stay in view on the outside or the ceiling, ofte
 - Give each system one colour: for example blue for air, green for water, yellow for electricity.
 - Keep the floor plate free; put the services on the facade or the ceiling.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Team 4** (studio, London, 1963–1967), made the style. A small architecture practice of Norman Foster, Richard Rogers and two partners. Its factory building at Swindon used light steel and glass in the way of the later high-tech.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

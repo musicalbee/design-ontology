@@ -177,6 +177,13 @@ European ornament after Chinese and East Asian art: pagodas, figures, birds and 
 - Use blue and white, or gold on black or red lacquer.
 - Put one room or one wall in chinoiserie, not the whole house.
 
+## Media
+
+The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+
+- **Académie royale de peinture et de sculpture** (school, Paris, 1648–1816), taught the style. The royal academy of painting and sculpture in France. It trained the painters of the court and set the rules of taste for the Salon.
+- **Paris Salon** (salon, Paris, 1667–now), exhibited the style. The official art exhibition of the French Academy. For two centuries a painting had to succeed here to make a name, and each new school fought for its walls.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
