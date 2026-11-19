@@ -1,8 +1,8 @@
 ---
 name: goblincore
-description: "Apply the Goblincore style (2020–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: goblincore, moss, mushrooms, frog aesthetic, forest floor, foraging."
+description: "Apply the Goblincore style (2020–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: goblincore, moss, mushrooms, frog aesthetic, forest floor, foraging."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "goblincore"
   - "moss"
@@ -26,7 +26,7 @@ vector_profile:
 
 A look for the small wild and the overlooked: moss, mushrooms, frogs, snail shells, bones, soil, old jars and crumpled earth-tone clothes. It spread on Tumblr and TikTok after 2019.
 
-**Period:** 2020–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Goblin core, Moss and mushroom look
+**Period:** 2020–now · **Era:** Short video and AI · **Domain:** Internet · **Also called:** Goblin core, Moss and mushroom look
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Goblincore, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Goblincore, you MUST:
 
 1. Set the ground in earth tones: moss green (#5C6B3A), bark brown (#4A3626) and clay (#A8744C).
 2. Use toadstool red (#B5382C) and bone (#E6DCC3) as the two spot colours, each under 10% of the surface.

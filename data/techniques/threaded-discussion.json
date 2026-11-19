@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "threaded-discussion",
+  "name": "Threaded discussion",
+  "aliases": [
+    "Reply tree",
+    "Nested comments"
+  ],
+  "kind": "technology",
+  "summary": "Replies are stored as a tree: each reply points to the post that it answers, so a reader can follow one branch of a talk.",
+  "how": [
+    "Give each post an id and give each reply the id of its parent.",
+    "Show the tree with one indent for each level.",
+    "Quote or link the parent post in each reply."
+  ],
+  "origin": {
+    "domain": "internet",
+    "year": 1980,
+    "where": "Durham, North Carolina",
+    "note": "Usenet links each reply to its parent, and newsreaders show the replies as a tree.",
+    "styles": [
+      "usenet-thread"
+    ]
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 2000,
+      "via": "Web forum programs such as phpBB group the replies under one topic.",
+      "styles": [
+        "bulletin-board-forum"
+      ]
+    },
+    {
+      "domain": "internet",
+      "year": 2005,
+      "via": "Reddit nests the comments as a tree and sorts each level by votes.",
+      "styles": [
+        "reddit-thread"
+      ]
+    }
+  ],
+  "styles": [
+    "usenet-thread",
+    "bulletin-board-forum",
+    "reddit-thread"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Conversation threading",
+      "url": "https://en.wikipedia.org/wiki/Conversation_threading"
+    },
+    {
+      "title": "Wikipedia: Usenet",
+      "url": "https://en.wikipedia.org/wiki/Usenet"
+    }
+  ]
+}

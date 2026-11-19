@@ -1,0 +1,322 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "usenet-thread",
+  "domain": "internet",
+  "name": "Usenet Thread",
+  "aliases": [
+    "Newsgroup thread",
+    "Netnews",
+    "Threaded newsreader"
+  ],
+  "branch": "forums-imageboards",
+  "era_id": "terminals-bbs",
+  "time_period": {
+    "start": 1980,
+    "end": 1999,
+    "label": "1980–1999"
+  },
+  "primary_mediums": [
+    "web",
+    "image"
+  ],
+  "summary": "A thread of plain-text posts in a newsgroup, read in a terminal newsreader: a tree of subject lines, quoted lines that start with >, and a signature under each post.",
+  "philosophy": {
+    "core_thesis": "A discussion is a tree of plain-text replies, and each reply quotes the part that it answers.",
+    "design_principles": [
+      "Set all text in one monospace face at one size, 80 characters to a line.",
+      "Show the thread as a tree of subject lines, with 2 spaces of indent for each reply level.",
+      "Start each quoted line with '> ', and add one more '>' for each older level.",
+      "Put a header block on each post: From, Newsgroups, Subject and Date, one field to a line.",
+      "End each post with a signature of at most 4 lines after a line of '-- '.",
+      "Mark the current line in the thread list with reverse video: light text on a dark bar."
+    ],
+    "anti_patterns": [
+      "Proportional type and type sizes for hierarchy",
+      "Images, avatars and icons in the post body",
+      "Colour for meaning other than the cursor bar",
+      "Quotes without the > mark",
+      "Rounded cards and shadows"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "dimensionality": 1,
+    "grid_rigidity": 5,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 1
+  },
+  "layout": {
+    "grid_mechanics": "A character grid of 80 columns by 24 rows; the thread list fills the top half and the post fills the bottom half.",
+    "whitespace_ratio": "20% to 30% of the screen stays empty, mostly at the right end of short lines.",
+    "alignment_rules": "All text aligns left on the character grid; replies indent 2 characters for each level of the tree.",
+    "container_geometry": "No containers; a rule of '-' or '=' characters separates the list and the post."
+  },
+  "typography": {
+    "classifications": [
+      "monospace",
+      "terminal"
+    ],
+    "font_pairings": [
+      {
+        "display": "IBM Plex Mono",
+        "body": "IBM Plex Mono",
+        "note": "One monospace face for all text, as on a terminal."
+      },
+      {
+        "display": "VT323",
+        "body": "Courier Prime",
+        "note": "A terminal face for headers and a typewriter face for the text."
+      }
+    ],
+    "tracking": "Display 0em; body 0em.",
+    "leading": "Display 1.2; body 1.35.",
+    "hierarchy_rules": [
+      "Use one size for all text.",
+      "Show hierarchy with indent, with capitals and with reverse video only.",
+      "Put header field names in bold or in the muted colour."
+    ]
+  },
+  "color": {
+    "palette_structure": "A dark terminal ground with one text colour and one highlight colour; 3 to 4 colours in all.",
+    "palette": [
+      {
+        "name": "Terminal Black",
+        "hex": "#101010",
+        "role": "background"
+      },
+      {
+        "name": "Panel Grey",
+        "hex": "#1C1C1C",
+        "role": "panel"
+      },
+      {
+        "name": "Phosphor White",
+        "hex": "#D8D8D0",
+        "role": "text"
+      },
+      {
+        "name": "Quote Grey",
+        "hex": "#8A8A80",
+        "role": "muted"
+      },
+      {
+        "name": "Amber",
+        "hex": "#FFB000",
+        "role": "highlight"
+      },
+      {
+        "name": "Cursor Green",
+        "hex": "#33FF66",
+        "role": "accent"
+      }
+    ],
+    "contrast_rules": "Light grey on black is 14:1; quoted text in mid grey is 5:1 and stays readable.",
+    "surface_treatment": "A flat dark screen with no texture.",
+    "light_and_shadow": "No light source and no shadow."
+  },
+  "materiality": {
+    "surface_simulation": "A text terminal: glyphs on a flat dark screen.",
+    "border_rules": "Rules made of '-' and '=' characters; no drawn borders.",
+    "blur_and_elevation": "No blur and no elevation."
+  },
+  "ornamentation_details": {
+    "iconography": "No icons; status flags are letters in a column: N for new, R for read, + for a reply.",
+    "illustration": "ASCII art in a signature only, at most 4 lines.",
+    "decorative_elements": [
+      "quote marks >",
+      "signature block",
+      "header fields",
+      "thread tree",
+      "reverse-video bar"
+    ]
+  },
+  "motion": {
+    "native": false,
+    "transition_physics": "The screen redraws at once when the reader moves to the next post; the cursor blinks at 1Hz.",
+    "easing": "cubic-bezier(0, 0, 1, 1)",
+    "duration_ms": 0,
+    "hover_and_active": "The selected line shows in reverse video; there is no hover."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "kaomoji-emoticon"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The reader feels the slow, wordy and serious talk of the early net.",
+    "keywords": [
+      "textual",
+      "threaded",
+      "nerdy",
+      "argumentative",
+      "archival",
+      "plain"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "usenet",
+      "newsgroup",
+      "netnews",
+      "newsreader",
+      "quoted reply",
+      "plain text thread"
+    ],
+    "use_cases": [
+      "developer mailing list and changelog pages",
+      "retro forum themes",
+      "text-first discussion tools",
+      "documentation with Q&A threads"
+    ],
+    "avoid_when": [
+      "The audience expects images and avatars.",
+      "The page must sell a product.",
+      "Readers use small phone screens only."
+    ],
+    "modifiers": [
+      {
+        "request": "add a web forum",
+        "toward": "bulletin-board-forum",
+        "how": "Put the posts in a table with a user column, an avatar and a post count."
+      },
+      {
+        "request": "more art",
+        "toward": "ansi-bbs-art",
+        "how": "Add ANSI colour blocks and a drawn banner at the top."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 700,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "case",
+      "display_tracking": "0em",
+      "display_leading": 1.2,
+      "display_case": "none",
+      "body_leading": 1.35,
+      "body_size": "15px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "square",
+      "linejoin": "miter",
+      "container": "none",
+      "pack": {
+        "id": "pixelarticons",
+        "why": "Square pixel icons fit a character grid."
+      }
+    },
+    "art": {
+      "recipe": "terminal",
+      "pattern": "grid",
+      "seed": 80
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "scanlines",
+      "why": "A terminal screen: dark rows of glyphs with faint scan lines."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#101010",
+      "--color-surface": "#1C1C1C",
+      "--color-text": "#D8D8D0",
+      "--color-muted": "#8A8A80",
+      "--color-primary": "#FFB000",
+      "--color-accent": "#33FF66",
+      "--color-border": "#3A3A36",
+      "--font-sans": "\"IBM Plex Mono\", \"Courier New\", monospace",
+      "--font-display": "\"VT323\", \"IBM Plex Mono\", monospace",
+      "--border-radius": "0px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0, 0, 1, 1)",
+      "--duration": "0ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#101010] text-[#D8D8D0] font-mono px-2 md:px-6"
+      },
+      {
+        "element": "heading",
+        "classes": "text-base font-bold uppercase text-[#FFB000]"
+      },
+      {
+        "element": "body",
+        "classes": "text-[15px] leading-[1.35] max-w-[80ch]"
+      },
+      {
+        "element": "section",
+        "classes": "border-t border-dashed border-[#3A3A36] py-2"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none bg-[#D8D8D0] px-2 text-[#101010] hover:bg-[#FFB000]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs text-[#8A8A80]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#FFB000",
+        "#33FF66",
+        "#D8D8D0"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#33FF66",
+        "#FFB000",
+        "#66CCFF"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 0
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "min": 1.067,
+      "max": 1.2,
+      "default": 1.125
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Usenet",
+      "url": "https://en.wikipedia.org/wiki/Usenet"
+    },
+    {
+      "title": "Wikipedia: Usenet newsgroup",
+      "url": "https://en.wikipedia.org/wiki/Usenet_newsgroup"
+    }
+  ]
+}

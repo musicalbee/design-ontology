@@ -134,7 +134,7 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Lithography (process)
 
-A print from a flat stone or plate on which a greasy drawing takes ink and water repels it; the artist draws as on paper. Origin: internet, Munich, c. 1796.
+A print from a flat stone or plate on which a greasy drawing takes ink and water repels it; the artist draws as on paper. Origin: graphic movements, Munich, c. 1796.
 
 - Draw on the stone with a greasy crayon or a tusche wash; the drawing takes ink and the rest stays wet.
 - Pull the print in a press at a run of 20 to 200 copies for an artist print, or more for a poster.

@@ -1,8 +1,8 @@
 ---
 name: tumblr-soft-grunge
-description: "Apply the Tumblr Soft Grunge style (2012–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: soft grunge, tumblr aesthetic, pale grunge, 2014 tumblr, pastel goth photo, moody pastel."
+description: "Apply the Tumblr Soft Grunge style (2012–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: soft grunge, tumblr aesthetic, pale grunge, 2014 tumblr, pastel goth photo, moody pastel."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "soft grunge"
   - "tumblr aesthetic"
@@ -26,7 +26,7 @@ vector_profile:
 
 A pale, moody photo look from reblog blogs: faded pastel on a dark ground, film grain, light leaks, torn paper edges and small typewriter captions. It is sad and soft, not loud.
 
-**Period:** 2012–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Soft grunge, Tumblr aesthetic, Pale grunge
+**Period:** 2012–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Soft grunge, Tumblr aesthetic, Pale grunge
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Tumblr Soft Grunge, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Tumblr Soft Grunge, you MUST:
 
 1. Set the ground at a dark mauve-grey (#2A2528) and let photos fade to pastel pink (#E6A5B8) and sage (#9FB8A8).
 2. Lift the blacks to 15% grey, lower the saturation to 60% and add a grain of 8% to 12%.

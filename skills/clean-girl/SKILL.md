@@ -1,8 +1,8 @@
 ---
 name: clean-girl
-description: "Apply the Clean girl style (2022–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: clean girl, glazed skin, slick bun, gold hoops, neutral outfit, morning routine."
+description: "Apply the Clean girl style (2022–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: clean girl, glazed skin, slick bun, gold hoops, neutral outfit, morning routine."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "clean girl"
   - "glazed skin"
@@ -26,7 +26,7 @@ vector_profile:
 
 A look of dewy skin, a sleek bun, gold hoops, neutral clothes, white tiles and tidy shelves. It grew on TikTok and Instagram in 2021 and 2022 and sells wellness, skin and routine.
 
-**Period:** 2022–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Clean girl aesthetic, Glazed skin look
+**Period:** 2022–now · **Era:** Short video and AI · **Domain:** Internet · **Also called:** Clean girl aesthetic, Glazed skin look
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Clean girl, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Clean girl, you MUST:
 
 1. Set the ground in warm white (#FAF7F2) with beige (#E9DFD1) and a soft taupe (#9C8B7A) as support.
 2. Use one gold accent (#C8A25B) for hoops, rules and small marks, under 5% of the surface.

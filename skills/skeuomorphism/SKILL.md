@@ -1,8 +1,8 @@
 ---
 name: skeuomorphism
-description: "Apply the Skeuomorphism style (2007–2013) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: skeuomorphic, skeuomorphism, ios 6, real-world textures, leather texture, tactile interface."
+description: "Apply the Skeuomorphism style (2007–2013) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: skeuomorphic, skeuomorphism, ios 6, real-world textures, leather texture, tactile interface."
 domain: internet
-era: touchscreen
+era: web-2-social
 triggers:
   - "skeuomorphic"
   - "skeuomorphism"
@@ -30,7 +30,7 @@ vector_profile:
 
 Interfaces that copy real objects: leather, linen, wood, felt, glass and brushed metal, lit from above with gradients and layered shadows. It has roots in 1980s desktop icons and peaked in iOS 1 to 6, until iOS 7 replaced it in 2013.
 
-**Period:** 2007–2013 · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Skeuomorphic UI, iOS 6 style, Real-object interface
+**Period:** 2007–2013 · **Era:** Web 2.0 and the social web · **Domain:** Internet · **Also called:** Skeuomorphic UI, iOS 6 style, Real-object interface
 
 ## When to load this skill
 
@@ -45,7 +45,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Skeuomorphism, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Skeuomorphism, you MUST:
 
 1. Model each control on a real object with a known use, such as a toggle switch, a notepad, a bookshelf or a dial, and keep its proportions within 10% of the original.
 2. Light every surface from the top with one light source at 90 degrees, so that highlights sit on the top edge and shadows fall down.

@@ -1,8 +1,8 @@
 ---
 name: frutiger-aero
-description: "Apply the Frutiger Aero style (2004–2013) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: frutiger aero, aero, web 2.0, windows vista, aqua, glass buttons."
+description: "Apply the Frutiger Aero style (2004–2013) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: frutiger aero, aero, web 2.0, windows vista, aqua, glass buttons."
 domain: internet
-era: postmodern-early-digital
+era: web-2-social
 triggers:
   - "frutiger aero"
   - "aero"
@@ -29,7 +29,7 @@ vector_profile:
 
 Glossy glass buttons, aqua and grass-green gradients, water, sky and bubble imagery and humanist sans type. It grew from Y2K gloss into the Windows Vista, Mac OS X Aqua and Web 2.0 look of the late 2000s.
 
-**Period:** 2004–2013 · **Era:** Postmodern & Early Digital · **Domain:** Internet · **Also called:** Aero, Web 2.0 Gloss, Vista Aero, Skeuomorphic Nature Tech
+**Period:** 2004–2013 · **Era:** Web 2.0 and the social web · **Domain:** Internet · **Also called:** Aero, Web 2.0 Gloss, Vista Aero, Skeuomorphic Nature Tech
 
 ## When to load this skill
 
@@ -44,7 +44,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Frutiger Aero, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Frutiger Aero, you MUST:
 
 1. Build buttons and panels as glass: a vertical gradient, a white highlight on the upper 50% and a 1px light border.
 2. Use a sky-to-grass or aqua-to-green gradient as the main background, with a lightness range of 45% to 95%.

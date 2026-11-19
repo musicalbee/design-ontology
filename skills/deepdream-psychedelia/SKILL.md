@@ -1,8 +1,8 @@
 ---
 name: deepdream-psychedelia
-description: "Apply the DeepDream Psychedelia style (2015–2017) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: deepdream, inceptionism, neural hallucination, dog faces in clouds, psychedelic AI, puppy slug."
+description: "Apply the DeepDream Psychedelia style (2015–2017) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: deepdream, inceptionism, neural hallucination, dog faces in clouds, psychedelic AI, puppy slug."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "deepdream"
   - "inceptionism"
@@ -24,7 +24,7 @@ vector_profile:
 
 Photographs that a neural network fills with eyes, dog faces, pagodas and swirled fur at every scale. It started in 2015 when Google released the code that made the effect.
 
-**Period:** 2015–2017 · **Era:** Touchscreen · **Domain:** Internet · **Also called:** DeepDream, Inceptionism, Puppy-slug dreams
+**Period:** 2015–2017 · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** DeepDream, Inceptionism, Puppy-slug dreams
 
 ## When to load this skill
 
@@ -39,7 +39,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in DeepDream Psychedelia, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in DeepDream Psychedelia, you MUST:
 
 1. Fill the frame with repeated motifs: eyes, snouts, feathers and arches at 3 to 5 sizes, from 8px to 200px.
 2. Run 4 to 8 octaves of the effect, so that small motifs sit inside large ones.
@@ -265,9 +265,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more recent**: move toward [`diffusion-gloss`](../diffusion-gloss/SKILL.md) (Diffusion Gloss). Replace the motif swirl with one smooth, over-detailed render and add a teal and amber rim light.
 - If the user asks for **more retro**: move toward [`psychedelic`](../psychedelic/SKILL.md) (Psychedelic). Swap the machine motifs for hand-drawn paisley and flower forms with a halftone ground.
 
-- **Came from (go here for a more orthodox version):** [`psychedelic`](../psychedelic/SKILL.md)
 - **Led to (go here for a newer version):** [`deepfake-face-swap`](../deepfake-face-swap/SKILL.md), [`gan-portrait`](../gan-portrait/SKILL.md)
-- **Kin in another domain:** [`psychedelic-concert-poster`](../psychedelic-concert-poster/SKILL.md)
+- **Kin in another domain:** [`psychedelic`](../psychedelic/SKILL.md), [`psychedelic-concert-poster`](../psychedelic-concert-poster/SKILL.md)
 - **Nearest by vector profile:** [`seapunk`](../seapunk/SKILL.md), [`tumblr-soft-grunge`](../tumblr-soft-grunge/SKILL.md), [`ai-avatar-portrait`](../ai-avatar-portrait/SKILL.md)
 
 ## Emotional target

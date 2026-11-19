@@ -1,8 +1,8 @@
 ---
 name: photo-dump
-description: "Apply the Photo Dump style (2020–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: photo dump, carousel dump, camera roll, casual post, blurry photos, flash photos."
+description: "Apply the Photo Dump style (2020–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: photo dump, carousel dump, camera roll, casual post, blurry photos, flash photos."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "photo dump"
   - "carousel dump"
@@ -26,7 +26,7 @@ vector_profile:
 
 A carousel of 6 to 20 casual photos in one post: blurred, flash-lit, off-centre, with a screenshot, a meal and a mirror selfie in a row. It looks careless on purpose.
 
-**Period:** 2020–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Photo carousel dump, Casual carousel, Camera roll post
+**Period:** 2020–now · **Era:** Short video and AI · **Domain:** Internet · **Also called:** Photo carousel dump, Casual carousel, Camera roll post
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Photo Dump, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Photo Dump, you MUST:
 
 1. Post 6 to 20 images in one carousel, up to 10 on the first apps and 20 on later ones.
 2. Mix formats: a 4:5 portrait, a 1:1 square, a screenshot and a short clip, with no shared preset.

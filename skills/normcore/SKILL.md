@@ -1,8 +1,8 @@
 ---
 name: normcore
-description: "Apply the Normcore style (2013–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: normcore, dad jeans, plain basics, anti-fashion, unbranded, white trainers."
+description: "Apply the Normcore style (2013–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: normcore, dad jeans, plain basics, anti-fashion, unbranded, white trainers."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "normcore"
   - "dad jeans"
@@ -26,7 +26,7 @@ vector_profile:
 
 Plain, unbranded clothes and plain pages: grey fleece, white trainers, dad jeans, default fonts and flat daylight snapshots. A trend report named it in 2013, and a magazine story spread it.
 
-**Period:** 2013–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Anti-fashion, Plain basics
+**Period:** 2013–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Anti-fashion, Plain basics
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Normcore, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Normcore, you MUST:
 
 1. Set the page on a light grey (#F2F2F0) or white ground with one denim blue (#35597F) for links and buttons.
 2. Use one neutral sans-serif in two weights, 400 and 600, at sizes 14, 16, 20 and 32px.

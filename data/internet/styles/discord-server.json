@@ -1,0 +1,330 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "discord-server",
+  "domain": "internet",
+  "name": "Discord Server",
+  "aliases": [
+    "Chat server",
+    "Community server"
+  ],
+  "branch": "forums-imageboards",
+  "era_id": "feed-mobile",
+  "time_period": {
+    "start": 2015,
+    "end": null,
+    "label": "2015–"
+  },
+  "primary_mediums": [
+    "web",
+    "mobile"
+  ],
+  "summary": "A dark chat app for a community: a rail of round server icons, a list of text and voice channels, a stream of messages in time order with avatars, and emoji reactions under each message.",
+  "philosophy": {
+    "core_thesis": "A community lives in a room that is always open, and the talk flows in real time instead of in threads.",
+    "design_principles": [
+      "Use three columns: a rail of 72px with round server icons, a channel list of 240px, and the message stream.",
+      "Name text channels with a # and voice channels with a speaker icon.",
+      "Show each message group with a round avatar of 40px, a coloured user name, a time stamp and the text under it.",
+      "Put emoji reactions under a message as small pills with a count.",
+      "Use a dark grey ground with a blue-violet brand colour for the active items.",
+      "Give each role a colour and set the user name in that colour."
+    ],
+    "anti_patterns": [
+      "Light themes with white space",
+      "Threads as the main structure",
+      "Posts with titles and scores",
+      "Serif body text in the chat",
+      "Static pages with no presence"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 2,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "Three fixed columns (72px, 240px, fluid) and an optional member list of 240px at the right.",
+    "whitespace_ratio": "15% to 25% of the screen stays empty; message groups have 16px gaps.",
+    "alignment_rules": "Messages align left beside the avatar; the composer sits at the bottom of the stream.",
+    "container_geometry": "Round server icons that turn to a 16px radius on hover; channel rows and pills with a 4px to 8px radius."
+  },
+  "typography": {
+    "classifications": [
+      "geometric sans",
+      "humanist sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Figtree",
+        "body": "Noto Sans",
+        "note": "Open faces near Whitney and gg sans, the Discord faces."
+      },
+      {
+        "display": "Nunito Sans",
+        "body": "Nunito Sans",
+        "note": "A rounder open sans for a friendlier server."
+      }
+    ],
+    "tracking": "Display 0em; body 0em.",
+    "leading": "Display 1.25; body 1.375.",
+    "hierarchy_rules": [
+      "Use 12px for time stamps, 16px for messages and 20px for the server name.",
+      "Set user names at weight 500 to 600 in the role colour.",
+      "Set channel names in the muted colour, and the active one in white."
+    ]
+  },
+  "color": {
+    "palette_structure": "Three dark greys for the columns, white text and one blue-violet brand colour; role colours for names.",
+    "palette": [
+      {
+        "name": "Rail Black",
+        "hex": "#1E1F22",
+        "role": "background"
+      },
+      {
+        "name": "Channel Grey",
+        "hex": "#2B2D31",
+        "role": "panel"
+      },
+      {
+        "name": "Chat Grey",
+        "hex": "#313338",
+        "role": "panel"
+      },
+      {
+        "name": "Text White",
+        "hex": "#F2F3F5",
+        "role": "text"
+      },
+      {
+        "name": "Muted Grey",
+        "hex": "#949BA4",
+        "role": "muted"
+      },
+      {
+        "name": "Blurple",
+        "hex": "#5865F2",
+        "role": "primary"
+      },
+      {
+        "name": "Online Green",
+        "hex": "#23A55A",
+        "role": "accent"
+      }
+    ],
+    "contrast_rules": "White on the chat grey is 12:1; muted grey on the chat grey is 4.6:1.",
+    "surface_treatment": "Flat dark panels in three steps of grey.",
+    "light_and_shadow": "A soft shadow only on menus and pop-outs."
+  },
+  "materiality": {
+    "surface_simulation": "A flat dark app with soft rounded rows.",
+    "border_rules": "No borders between columns; the steps of grey separate them.",
+    "blur_and_elevation": "No blur; menus float with a soft shadow."
+  },
+  "ornamentation_details": {
+    "iconography": "Filled icons of 20px to 24px: a #, a speaker, a bell, a pin and a members icon.",
+    "illustration": "Round server icons, custom emoji, stickers and an animated mascot on empty states.",
+    "decorative_elements": [
+      "server rail",
+      "channel #",
+      "emoji reaction",
+      "role colour",
+      "presence dot",
+      "typing indicator"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Server icons morph from circle to rounded square on hover; new messages appear at the bottom at once.",
+    "easing": "cubic-bezier(0.2, 0, 0, 1)",
+    "duration_ms": 150,
+    "hover_and_active": "A row tints lighter grey on hover; the active server shows a white pill at the left of the rail."
+  },
+  "lineage": {
+    "evolved_from": [
+      "bulletin-board-forum"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "chat-sticker-pack"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The user feels present in a live room of friends, always open, with the talk moving on.",
+    "keywords": [
+      "live",
+      "communal",
+      "dark",
+      "playful",
+      "gamer",
+      "always-on"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "jester",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "discord",
+      "chat server",
+      "community server",
+      "channels",
+      "emoji reaction",
+      "role colour"
+    ],
+    "use_cases": [
+      "community hubs for games and creators",
+      "chat tools for teams and classes",
+      "live event chat",
+      "dark app themes"
+    ],
+    "avoid_when": [
+      "The content must be found later by search.",
+      "The audience needs a light, calm reading page.",
+      "The talk needs long, ranked answers."
+    ],
+    "modifiers": [
+      {
+        "request": "threaded",
+        "toward": "reddit-thread",
+        "how": "Turn the channel into posts with nested, voted replies."
+      },
+      {
+        "request": "more stickers",
+        "toward": "chat-sticker-pack",
+        "how": "Add large sticker images and animated emoji in the messages."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 700,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "weight",
+      "display_tracking": "0em",
+      "display_leading": 1.25,
+      "display_case": "none",
+      "body_leading": 1.375,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "circle",
+      "pack": {
+        "id": "fluent-filled",
+        "why": "Rounded filled icons match the channel and voice icons of the app."
+      }
+    },
+    "art": {
+      "recipe": "flat",
+      "pattern": "dots",
+      "seed": 2015
+    },
+    "layout": {
+      "hero": "split",
+      "align": "left",
+      "density": "regular",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "soft",
+      "why": "A soft dark ground in steps of grey, with no texture."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#1E1F22",
+      "--color-surface": "#313338",
+      "--color-text": "#F2F3F5",
+      "--color-muted": "#949BA4",
+      "--color-primary": "#5865F2",
+      "--color-accent": "#23A55A",
+      "--color-border": "#3F4147",
+      "--font-sans": "\"Noto Sans\", \"Helvetica Neue\", Arial, sans-serif",
+      "--font-display": "\"Figtree\", \"Noto Sans\", sans-serif",
+      "--border-radius": "8px",
+      "--border-width": "0px",
+      "--shadow-elevation": "0 8px 16px rgba(0, 0, 0, 0.24)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.2, 0, 0, 1)",
+      "--duration": "150ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#313338] text-[#F2F3F5] font-sans"
+      },
+      {
+        "element": "heading",
+        "classes": "text-xl font-bold text-white"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.375]"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-lg bg-[#2B2D31] p-4"
+      },
+      {
+        "element": "button",
+        "classes": "rounded bg-[#5865F2] px-4 py-2 text-sm font-medium text-white hover:bg-[#4752C4]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-semibold uppercase text-[#949BA4]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#5865F2",
+        "#EB459E",
+        "#57F287"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#23A55A",
+        "#FEE75C",
+        "#5865F2"
+      ]
+    },
+    "corner_radius": {
+      "min": 4,
+      "max": 16
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "min": 1.125,
+      "max": 1.25,
+      "default": 1.2
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Discord",
+      "url": "https://en.wikipedia.org/wiki/Discord"
+    },
+    {
+      "title": "Wikipedia: Jason Citron",
+      "url": "https://en.wikipedia.org/wiki/Jason_Citron"
+    }
+  ]
+}

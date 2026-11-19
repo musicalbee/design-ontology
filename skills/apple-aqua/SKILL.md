@@ -1,8 +1,8 @@
 ---
 name: apple-aqua
-description: "Apply the Apple Aqua style (2000–2006) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: aqua, mac os x, gel buttons, pinstripe, glossy buttons, 2000s apple."
+description: "Apply the Apple Aqua style (2000–2006) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: aqua, mac os x, gel buttons, pinstripe, glossy buttons, 2000s apple."
 domain: internet
-era: postmodern-early-digital
+era: web-1
 triggers:
   - "aqua"
   - "mac os x"
@@ -26,7 +26,7 @@ vector_profile:
 
 Translucent blue gel buttons, pinstripe backgrounds, glossy droplets and brushed-metal windows. It came with Mac OS X in 2000 and made the screen look like water and candy.
 
-**Period:** 2000–2006 · **Era:** Postmodern & Early Digital · **Domain:** Internet · **Also called:** Aqua, Mac OS X Aqua, Gel UI
+**Period:** 2000–2006 · **Era:** Web 1.0 · **Domain:** Internet · **Also called:** Aqua, Mac OS X Aqua, Gel UI
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Apple Aqua, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Apple Aqua, you MUST:
 
 1. Make buttons pill-shaped (radius 999px) with a vertical gradient of 2 to 3 stops and a white gloss highlight on the top 45%.
 2. Use a pinstripe background of 2px horizontal lines at 4% opacity on #EDEDED.

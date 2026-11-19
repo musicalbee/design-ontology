@@ -171,6 +171,15 @@ if (!schemaOnly && errors.length === 0) {
     check("lineage.rebelled_against", l.rebelled_against, "same");
     check("lineage.hybridized_with", l.hybridized_with, "same");
     check("lineage.echoes", l.echoes ?? [], "other");
+    // Two families of domains (domains/<id>.json `family`). An echo from one family to the other links a twin
+    // look (Swiss in graphic-movement and in icon, flat in logo and in internet), so it must go both ways.
+    const fam = (d: string) => domains.find((x) => x.id === d)?.family;
+    for (const ref of l.echoes ?? []) {
+      const target = byId.get(ref);
+      if (!target || !fam(style.domain) || !fam(target.domain) || fam(style.domain) === fam(target.domain)) continue;
+      if (!(target.lineage.echoes ?? []).includes(style.id))
+        errors.push(`${where}: lineage.echoes → "${ref}" crosses from the ${fam(style.domain)} family to the ${fam(target.domain)} family, but "${ref}" does not echo "${style.id}". Add the reverse echo.`);
+    }
     if (l.subgenre_of) {
       check("lineage.subgenre_of", [l.subgenre_of], "same");
       // Walk up the parents: a loop of sub-genres has no top.

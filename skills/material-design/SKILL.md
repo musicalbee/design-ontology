@@ -1,8 +1,8 @@
 ---
 name: material-design
-description: "Apply the Material Design style (2014–present) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: material design, material ui, google material, elevation, floating action button, fab."
+description: "Apply the Material Design style (2014–present) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: material design, material ui, google material, elevation, floating action button, fab."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "material design"
   - "material ui"
@@ -29,7 +29,7 @@ vector_profile:
 
 A system of flat coloured surfaces that sit at defined elevations and cast shadows from a top-left key light, with bold colour, an 8dp grid and purposeful motion. Google announced it at I/O in June 2014.
 
-**Period:** 2014–present · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Material, Google Material, Material 2
+**Period:** 2014–present · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Material, Google Material, Material 2
 
 ## When to load this skill
 
@@ -44,7 +44,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Material Design, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Material Design, you MUST:
 
 1. Treat every surface as a sheet of paper of 1dp thickness that never bends, never changes size by stretching and never passes through another surface.
 2. Express hierarchy with elevation in dp: 0 for the page, 1 for cards, 4 for the app bar, 6 for a floating button at rest, 8 for a menu, 16 for a navigation drawer and 24 for a dialog.
@@ -291,7 +291,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Was rejected by:** [`anti-design`](../anti-design/SKILL.md), [`brutalist-web`](../brutalist-web/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`terminal-tui-web`](../terminal-tui-web/SKILL.md)
 - **Mixes well with:** [`skeuomorphism`](../skeuomorphism/SKILL.md)
 - **Kin in another domain:** [`flat-logo`](../flat-logo/SKILL.md), [`material-symbols-icon`](../material-symbols-icon/SKILL.md), [`smartwatch`](../smartwatch/SKILL.md)
-- **Nearest by vector profile:** [`unicode-emoji`](../unicode-emoji/SKILL.md), [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`duet-split-screen`](../duet-split-screen/SKILL.md)
+- **Nearest by vector profile:** [`unicode-emoji`](../unicode-emoji/SKILL.md), [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`bulletin-board-forum`](../bulletin-board-forum/SKILL.md)
 
 ## Emotional target
 

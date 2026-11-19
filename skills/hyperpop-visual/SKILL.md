@@ -1,8 +1,8 @@
 ---
 name: hyperpop-visual
-description: "Apply the Hyperpop Visual style (2019–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: hyperpop, hyperpop aesthetic, chrome heart, candy chrome, PC Music look, sticker collage."
+description: "Apply the Hyperpop Visual style (2019–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: hyperpop, hyperpop aesthetic, chrome heart, candy chrome, PC Music look, sticker collage."
 domain: internet
-era: contemporary-spatial
+era: feed-mobile
 triggers:
   - "hyperpop"
   - "hyperpop aesthetic"
@@ -25,7 +25,7 @@ vector_profile:
 
 Shiny chrome, candy colours, cute 3D shapes, Web 2.0 gloss and crowded collage, with pixel type and stickers. It links the PC Music look to a 2019 playlist and to short-video culture.
 
-**Period:** 2019–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Hyperpop aesthetic, Hyperpop
+**Period:** 2019–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Hyperpop aesthetic, Hyperpop
 
 ## When to load this skill
 
@@ -40,7 +40,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Hyperpop Visual, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Hyperpop Visual, you MUST:
 
 1. Set a pastel gradient ground from #FFC8F0 to #BDF0FF at 160°.
 2. Place one chrome or glossy 3D object at 40% to 60% of the frame, with a hard white highlight.

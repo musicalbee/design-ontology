@@ -1,8 +1,8 @@
 ---
 name: grwm-short
-description: "Apply the Get Ready With Me style (2019–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: grwm, get ready with me, morning routine, makeup routine, outfit video, night out routine."
+description: "Apply the Get Ready With Me style (2019–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: grwm, get ready with me, morning routine, makeup routine, outfit video, night out routine."
 domain: internet
-era: contemporary-spatial
+era: feed-mobile
 triggers:
   - "grwm"
   - "get ready with me"
@@ -24,7 +24,7 @@ vector_profile:
 
 A creator talks to a close phone camera while she or he does make-up or picks an outfit, with soft light, a mirror, jump cuts and a line of captions. The form grew from YouTube make-up tutorials of the 2000s.
 
-**Period:** 2019–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** GRWM, Get ready with me video, Morning routine clip
+**Period:** 2019–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** GRWM, Get ready with me video, Morning routine clip
 
 ## When to load this skill
 
@@ -39,7 +39,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Get Ready With Me, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Get Ready With Me, you MUST:
 
 1. Frame the face and shoulders at 55% to 70% of the frame height, with eyes at 38% from the top.
 2. Light with a ring light or a window at 5600 K to 6500 K.

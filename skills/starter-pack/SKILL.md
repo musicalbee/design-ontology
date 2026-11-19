@@ -1,8 +1,8 @@
 ---
 name: starter-pack
-description: "Apply the Starter pack style (2014–2019) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: starter pack, starter pack meme, identity collage, what you own, kit meme, object grid."
+description: "Apply the Starter pack style (2014–2019) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: starter pack, starter pack meme, identity collage, what you own, kit meme, object grid."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "starter pack"
   - "starter pack meme"
@@ -24,7 +24,7 @@ vector_profile:
 
 A white grid collage that lists the objects, clothes and habits of one type of person around a cut-out figure. It grew from Tumblr and Twitter in 2014 and became a general template for identity jokes.
 
-**Period:** 2014–2019 · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Starter pack meme, Identity collage
+**Period:** 2014–2019 · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Starter pack meme, Identity collage
 
 ## When to load this skill
 
@@ -38,7 +38,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Starter pack, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Starter pack, you MUST:
 
 1. Divide a white canvas of 600px x 750px into a 3 x 3 grid of product cut-outs with 12px gutters.
 2. Place a figure or a name label in the centre cell and put 5 to 8 object photos around it.

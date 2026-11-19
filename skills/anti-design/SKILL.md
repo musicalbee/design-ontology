@@ -1,8 +1,8 @@
 ---
 name: anti-design
-description: "Apply the Anti-Design style (2016–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: anti-design, ugly design, broken grid, chaotic layout, clashing type, experimental web."
+description: "Apply the Anti-Design style (2016–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: anti-design, ugly design, broken grid, chaotic layout, clashing type, experimental web."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "anti-design"
   - "ugly design"
@@ -26,7 +26,7 @@ vector_profile:
 
 Broken grids, clashing type, overlap, odd colour and deliberate roughness. It answers the polish of templated product sites and asks the visitor to notice the design.
 
-**Period:** 2016–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Anti-design web, Ugly design, Broken grid
+**Period:** 2016–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Anti-design web, Ugly design, Broken grid
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Anti-Design, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Anti-Design, you MUST:
 
 1. Break the grid on purpose: shift at least 3 elements by 12px to 80px off any column and overlap 2 or more blocks by 8px to 48px.
 2. Mix at least 3 type families or 4 styles on one page and scale type by a ratio of 3 or more between neighbours.
@@ -243,7 +243,7 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Photomontage (montage)
 
-Fragments of photographs, cut and joined on one sheet, so that the joins make a statement that no single photograph makes. Origin: internet, Berlin, 1918.
+Fragments of photographs, cut and joined on one sheet, so that the joins make a statement that no single photograph makes. Origin: graphic movements, Berlin, 1918.
 
 - Join 3 to 12 photographic fragments on one ground and keep the cut edges hard and visible.
 - Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.
@@ -276,9 +276,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more rawness**: move toward [`brutalist-web`](../brutalist-web/SKILL.md) (Brutalist Web (2014)). Strip to default type and links; keep the overlap.
 - If the user asks for **more order**: move toward [`swiss-international`](../swiss-international/SKILL.md) (Swiss International Style). Snap all elements to a 12-column grid and cut to one typeface.
 
-- **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md), [`material-design`](../material-design/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
+- **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md), [`material-design`](../material-design/SKILL.md)
 - **Mixes well with:** [`brutalist-web`](../brutalist-web/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
-- **Kin in another domain:** [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md), [`xerox-zine`](../xerox-zine/SKILL.md)
+- **Kin in another domain:** [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md), [`xerox-zine`](../xerox-zine/SKILL.md)
 - **Nearest by vector profile:** [`punk-zine`](../punk-zine/SKILL.md), [`deep-fried-meme`](../deep-fried-meme/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md)
 
 ## Emotional target

@@ -11,6 +11,8 @@ export interface Domain {
   /** Old ids of this domain; loaders map them to `id`. */
   former_ids?: string[];
   order: number;
+  /** The family of related domains; the nav groups by it. */
+  family?: "graphic" | "internet";
   name: string;
   schema: string;
   task: string;

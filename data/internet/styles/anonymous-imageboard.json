@@ -1,0 +1,342 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "anonymous-imageboard",
+  "domain": "internet",
+  "name": "Anonymous Imageboard",
+  "aliases": [
+    "Chan board",
+    "4chan board",
+    "Futaba-style board"
+  ],
+  "branch": "forums-imageboards",
+  "era_id": "web-1",
+  "time_period": {
+    "start": 2003,
+    "end": null,
+    "label": "2003–"
+  },
+  "primary_mediums": [
+    "web",
+    "image"
+  ],
+  "summary": "An anonymous board where each thread starts with an image: a pale page, posts with no account, post numbers, green quoted lines and threads that bump to the top and then fall off.",
+  "philosophy": {
+    "core_thesis": "Nobody has a name, so only the post counts; the newest reply keeps a thread alive.",
+    "design_principles": [
+      "Start each thread with an image thumbnail of at most 250px at the left of the first post.",
+      "Sign each post 'Anonymous' with a date and a post number such as No.123456789.",
+      "Set a line that starts with > in green (#789922) as a quote or a story line.",
+      "Link a reply to an earlier post with >>123456789 in the link colour.",
+      "Put replies in boxes of a slightly darker tint than the page, stacked under the first post.",
+      "Show at most 10 pages of threads; a thread with a new reply moves to the top, and the last thread is deleted.",
+      "Use a centred board title at the top, with a short banner image above it."
+    ],
+    "anti_patterns": [
+      "User accounts, avatars and like counts",
+      "Polished brand typography",
+      "Infinite feeds that keep old threads",
+      "Large white space and soft cards",
+      "Algorithmic ranking"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 1,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "One full-width column; each thread is the first post with its image floated left, then reply boxes stacked under it.",
+    "whitespace_ratio": "10% to 20% of the page stays empty; reply boxes have 2px to 4px padding.",
+    "alignment_rules": "Posts align left; the board title and the post form are centred.",
+    "container_geometry": "Reply boxes are rectangles with a 0px radius and a 1px border at the right and bottom only."
+  },
+  "typography": {
+    "classifications": [
+      "system sans",
+      "default serif"
+    ],
+    "font_pairings": [
+      {
+        "display": "Tinos",
+        "body": "Arimo",
+        "note": "A default serif title and an Arial-like text, as on a stock board."
+      },
+      {
+        "display": "Arimo",
+        "body": "Arimo",
+        "note": "One sans for all text, as on the work-safe boards."
+      }
+    ],
+    "tracking": "Display -0.02em; body 0em.",
+    "leading": "Display 1.1; body 1.35.",
+    "hierarchy_rules": [
+      "Use 13px for posts and 28px for the board title.",
+      "Set the subject in bold blue and the name 'Anonymous' in bold green.",
+      "Set post numbers and dates at the post size, with no extra weight."
+    ]
+  },
+  "color": {
+    "palette_structure": "One of two stock themes: a pale peach page with maroon text, or a pale blue page with navy text; green for quotes.",
+    "palette": [
+      {
+        "name": "Peach",
+        "hex": "#FFFFEE",
+        "role": "background"
+      },
+      {
+        "name": "Reply Tan",
+        "hex": "#F0E0D6",
+        "role": "panel"
+      },
+      {
+        "name": "Maroon",
+        "hex": "#800000",
+        "role": "text"
+      },
+      {
+        "name": "Quote Green",
+        "hex": "#789922",
+        "role": "accent"
+      },
+      {
+        "name": "Name Green",
+        "hex": "#117743",
+        "role": "highlight"
+      },
+      {
+        "name": "Subject Blue",
+        "hex": "#0F0C5D",
+        "role": "heading"
+      },
+      {
+        "name": "Title Red",
+        "hex": "#AF0A0F",
+        "role": "title"
+      }
+    ],
+    "contrast_rules": "Maroon on peach is 10:1; quote green on peach is 3.6:1 and stays for short lines only.",
+    "surface_treatment": "Flat tinted boxes with no texture.",
+    "light_and_shadow": "No light source and no shadow."
+  },
+  "materiality": {
+    "surface_simulation": "A plain HTML page with JPEG thumbnails.",
+    "border_rules": "A 1px border at the right and bottom of a reply box (#D9BFB7).",
+    "blur_and_elevation": "No blur and no elevation."
+  },
+  "ornamentation_details": {
+    "iconography": "Almost none: a small sticky pin, a lock and country flags of 16px by 11px on some boards.",
+    "illustration": "The posted images: reaction faces, memes and photos, in thumbnails that expand on click.",
+    "decorative_elements": [
+      "greentext",
+      "post number",
+      "reply link >>",
+      "image thumbnail",
+      "board banner",
+      "Anonymous name"
+    ]
+  },
+  "motion": {
+    "native": false,
+    "transition_physics": "No animation; a clicked thumbnail expands at once to the full image.",
+    "easing": "cubic-bezier(0, 0, 1, 1)",
+    "duration_ms": 0,
+    "hover_and_active": "Hover on a >> link shows the quoted post in a floating box."
+  },
+  "lineage": {
+    "evolved_from": [
+      "bulletin-board-forum"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "impact-image-macro",
+      "rage-comic"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The reader feels the speed, the irony and the danger of a crowd with no names.",
+    "keywords": [
+      "anonymous",
+      "ephemeral",
+      "ironic",
+      "raw",
+      "fast",
+      "chaotic"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "4chan",
+      "imageboard",
+      "chan board",
+      "greentext",
+      "anonymous board",
+      "futaba",
+      ">>"
+    ],
+    "use_cases": [
+      "meme and parody pages",
+      "internet history exhibits",
+      "anonymous feedback boards",
+      "retro image galleries"
+    ],
+    "avoid_when": [
+      "The audience needs trust or safety.",
+      "The brand needs identity and authorship.",
+      "The content must stay archived."
+    ],
+    "modifiers": [
+      {
+        "request": "with accounts",
+        "toward": "bulletin-board-forum",
+        "how": "Add a user column with an avatar, a rank and a post count."
+      },
+      {
+        "request": "more meme",
+        "toward": "impact-image-macro",
+        "how": "Set the posted images as image macros with white Impact captions."
+      },
+      {
+        "request": "with votes",
+        "toward": "reddit-thread",
+        "how": "Add vote arrows and sort the replies by score."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 700,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "colour",
+      "display_tracking": "0em",
+      "display_leading": 1.1,
+      "display_case": "none",
+      "body_leading": 1.35,
+      "body_size": "13px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "butt",
+      "linejoin": "miter",
+      "container": "none",
+      "pack": {
+        "id": "pixelarticons",
+        "why": "Small pixel icons match the 16px pins and flags of a board."
+      }
+    },
+    "art": {
+      "recipe": "plain",
+      "pattern": "none",
+      "seed": 2003
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "raw",
+      "why": "A stock HTML page: a flat tinted ground with nothing on it."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#FFFFEE",
+      "--color-surface": "#F0E0D6",
+      "--color-text": "#800000",
+      "--color-muted": "#789922",
+      "--color-primary": "#0F0C5D",
+      "--color-accent": "#117743",
+      "--color-border": "#D9BFB7",
+      "--font-sans": "\"Arimo\", Arial, Helvetica, sans-serif",
+      "--font-display": "\"Tinos\", \"Times New Roman\", serif",
+      "--border-radius": "0px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "4px",
+      "--ease": "cubic-bezier(0, 0, 1, 1)",
+      "--duration": "0ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#FFFFEE] text-[#800000] font-sans px-2"
+      },
+      {
+        "element": "heading",
+        "classes": "text-[28px] font-bold tracking-[-0.02em] text-[#AF0A0F] text-center font-serif"
+      },
+      {
+        "element": "body",
+        "classes": "text-[13px] leading-[1.35]"
+      },
+      {
+        "element": "section",
+        "classes": "bg-[#F0E0D6] border-r border-b border-[#D9BFB7] p-1"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border border-[#800000] bg-[#F0E0D6] px-2 text-xs text-[#800000] hover:bg-[#FFFFEE]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-bold text-[#117743]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#0F0C5D",
+        "#AF0A0F",
+        "#34345C"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#117743",
+        "#789922",
+        "#AF0A0F"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 0
+    },
+    "grid_step": {
+      "min": 2,
+      "max": 8
+    },
+    "type_scale_ratio": {
+      "min": 1.125,
+      "max": 1.5,
+      "default": 1.333
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Imageboard",
+      "url": "https://en.wikipedia.org/wiki/Imageboard"
+    },
+    {
+      "title": "Wikipedia: 4chan",
+      "url": "https://en.wikipedia.org/wiki/4chan"
+    },
+    {
+      "title": "Wikipedia: Futaba Channel",
+      "url": "https://en.wikipedia.org/wiki/Futaba_Channel"
+    }
+  ]
+}
