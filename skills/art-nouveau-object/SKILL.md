@@ -178,6 +178,7 @@ A long S-shaped line whose curve changes along its length, drawn from a plant st
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Exposition Universelle of 1900** (exhibition, Paris, 1900–1900), exhibited the style. A world's fair in Paris at the turn of the century. Art Nouveau buildings, rooms and metro entrances were on show, and the Finnish pavilion had frescoes of national myths.
+- **Wiener Werkstätte** (company, Vienna, 1903–1932), made the style. Viennese workshop of artists and craftspeople. It began in 1903 with money from Fritz Waerndorfer and closed in 1932.
 
 ## Permutations
 

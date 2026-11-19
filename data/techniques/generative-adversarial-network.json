@@ -1,0 +1,46 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "generative-adversarial-network",
+  "name": "Generative adversarial network",
+  "aliases": [
+    "GAN",
+    "StyleGAN"
+  ],
+  "kind": "technology",
+  "summary": "Two networks that compete: one draws images and the other judges them as real or false, until the drawings pass.",
+  "how": [
+    "Train a generator and a discriminator in turns on a large set of images.",
+    "Sample a latent vector of 512 numbers to draw one image.",
+    "Align the training faces so that the eyes sit at the same height in every image.",
+    "Expect small faults in teeth, ears, glasses and the background."
+  ],
+  "origin": {
+    "domain": "internet",
+    "year": 2014,
+    "where": "Montreal",
+    "note": "Ian Goodfellow and co-authors publish the method in a paper in machine learning."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 2018,
+      "via": "NVIDIA releases StyleGAN; the next year a web page shows one new generated face on each reload.",
+      "styles": [
+        "gan-portrait"
+      ]
+    }
+  ],
+  "styles": [
+    "gan-portrait"
+  ],
+  "sources": [
+    {
+      "title": "Goodfellow et al., Generative Adversarial Networks (2014)",
+      "url": "https://arxiv.org/abs/1406.2661"
+    },
+    {
+      "title": "Wikipedia: StyleGAN",
+      "url": "https://en.wikipedia.org/wiki/StyleGAN"
+    }
+  ]
+}

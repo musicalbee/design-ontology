@@ -5,14 +5,42 @@
   "description": "One domain: its task, its vector axes, its facets, the assets that each style of the domain must have (rule 5 of the curation rules) and the knobs that vary a style (rule 6).",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "order", "name", "schema", "task", "vectors", "facets", "assets", "knobs"],
+  "required": [
+    "id",
+    "order",
+    "name",
+    "schema",
+    "task",
+    "vectors",
+    "facets",
+    "assets",
+    "knobs"
+  ],
   "properties": {
-    "id": { "$ref": "core.schema.json#/$defs/slug" },
-    "order": { "type": "integer", "minimum": 1 },
-    "name": { "$ref": "core.schema.json#/$defs/shortText" },
-    "schema": { "type": "string", "pattern": "^schema/domains/[a-z-]+\\.schema\\.json$" },
-    "task": { "type": "string", "minLength": 5, "maxLength": 200 },
-    "description": { "type": "string", "minLength": 12, "maxLength": 600 },
+    "id": {
+      "$ref": "core.schema.json#/$defs/slug"
+    },
+    "order": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "name": {
+      "$ref": "core.schema.json#/$defs/shortText"
+    },
+    "schema": {
+      "type": "string",
+      "pattern": "^schema/domains/[a-z-]+\\.schema\\.json$"
+    },
+    "task": {
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 200
+    },
+    "description": {
+      "type": "string",
+      "minLength": 12,
+      "maxLength": 600
+    },
     "vectors": {
       "type": "array",
       "minItems": 5,
@@ -20,13 +48,31 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["key", "label", "abbr", "low", "high"],
+        "required": [
+          "key",
+          "label",
+          "abbr",
+          "low",
+          "high"
+        ],
         "properties": {
-          "key": { "type": "string", "pattern": "^[a-z_]+$" },
-          "label": { "$ref": "core.schema.json#/$defs/shortText" },
-          "abbr": { "type": "string", "pattern": "^[A-Z]{2,6}$" },
-          "low": { "$ref": "core.schema.json#/$defs/shortText" },
-          "high": { "$ref": "core.schema.json#/$defs/shortText" }
+          "key": {
+            "type": "string",
+            "pattern": "^[a-z_]+$"
+          },
+          "label": {
+            "$ref": "core.schema.json#/$defs/shortText"
+          },
+          "abbr": {
+            "type": "string",
+            "pattern": "^[A-Z]{2,6}$"
+          },
+          "low": {
+            "$ref": "core.schema.json#/$defs/shortText"
+          },
+          "high": {
+            "$ref": "core.schema.json#/$defs/shortText"
+          }
         }
       }
     },
@@ -36,8 +82,19 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["key", "title"],
-        "properties": { "key": { "type": "string", "pattern": "^[a-z_]+$" }, "title": { "$ref": "core.schema.json#/$defs/shortText" } }
+        "required": [
+          "key",
+          "title"
+        ],
+        "properties": {
+          "key": {
+            "type": "string",
+            "pattern": "^[a-z_]+$"
+          },
+          "title": {
+            "$ref": "core.schema.json#/$defs/shortText"
+          }
+        }
       }
     },
     "assets": {
@@ -47,30 +104,109 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["type", "purpose", "made_by", "file", "generator", "canvas"],
+        "required": [
+          "type",
+          "purpose",
+          "made_by",
+          "file",
+          "generator",
+          "canvas"
+        ],
         "properties": {
-          "type": { "$ref": "core.schema.json#/$defs/slug", "description": "The asset type, for example hero, pattern-tile, icon-sheet, mark-set, specimen." },
-          "purpose": { "$ref": "core.schema.json#/$defs/sentence", "description": "What the asset is for, in the standard of the domain." },
-          "made_by": { "enum": ["model", "code"], "description": "model: an image model renders it from a prompt; the prompt is in the manifest entry. code: a script draws it from the style data; the generator is the prompt." },
-          "file": { "type": "string", "pattern": "^[a-z0-9_./{}-]+$", "description": "The path from the repository root. {id} is the style id; {part} is each item of parts." },
-          "parts": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "anyOf": [{ "$ref": "core.schema.json#/$defs/slug" }, { "type": "string", "pattern": "^[1-9][0-9]?$" }] }, "description": "For an asset of more than one file: named tiles of a moodboard, or the numbered frames of a set (1, 2, 3)." },
-          "manifest": { "type": "string", "pattern": "^[a-z0-9_./-]+\\.json$", "description": "The render record that holds the prompt and the canvas of each file. Required when made_by is model." },
-          "entry": { "type": "string", "pattern": "^[a-z0-9_.{}-]+$", "description": "The dotted path of the record in the manifest, for example images.{id}." },
-          "generator": { "type": "string", "minLength": 5, "maxLength": 120, "description": "The script that makes the asset." },
-          "input": { "type": "string", "pattern": "^[a-z_]+(\\.[a-z_]+)*$", "description": "Only for an asset that `npm run build` makes: the field of the style that the generator reads. The check finds this field, because the file does not exist before the build." },
+          "type": {
+            "$ref": "core.schema.json#/$defs/slug",
+            "description": "The asset type, for example hero, pattern-tile, icon-sheet, mark-set, specimen."
+          },
+          "purpose": {
+            "$ref": "core.schema.json#/$defs/sentence",
+            "description": "What the asset is for, in the standard of the domain."
+          },
+          "made_by": {
+            "enum": [
+              "model",
+              "code"
+            ],
+            "description": "model: an image model renders it from a prompt; the prompt is in the manifest entry. code: a script draws it from the style data; the generator is the prompt."
+          },
+          "file": {
+            "type": "string",
+            "pattern": "^[a-z0-9_./{}-]+$",
+            "description": "The path from the repository root. {id} is the style id; {part} is each item of parts."
+          },
+          "parts": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "anyOf": [
+                {
+                  "$ref": "core.schema.json#/$defs/slug"
+                },
+                {
+                  "type": "string",
+                  "pattern": "^[1-9][0-9]?$"
+                }
+              ]
+            },
+            "description": "For an asset of more than one file: named tiles of a moodboard, or the numbered frames of a set (1, 2, 3)."
+          },
+          "manifest": {
+            "type": "string",
+            "pattern": "^[a-z0-9_./-]+\\.json$",
+            "description": "The render record that holds the prompt and the canvas of each file. Required when made_by is model."
+          },
+          "entry": {
+            "type": "string",
+            "pattern": "^[a-z0-9_.{}-]+$",
+            "description": "The dotted path of the record in the manifest, for example images.{id}."
+          },
+          "generator": {
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 120,
+            "description": "The script that makes the asset."
+          },
+          "input": {
+            "type": "string",
+            "pattern": "^[a-z_]+(\\.[a-z_]+)*$",
+            "description": "Only for an asset that `npm run build` makes: the field of the style that the generator reads. The check finds this field, because the file does not exist before the build."
+          },
           "canvas": {
             "type": "array",
             "description": "The permitted canvas sizes in px. Empty for an asset with no canvas (CSS).",
             "items": {
               "type": "object",
               "additionalProperties": false,
-              "required": ["width", "height"],
-              "properties": { "width": { "type": "integer", "minimum": 8 }, "height": { "type": "integer", "minimum": 8 } }
+              "required": [
+                "width",
+                "height"
+              ],
+              "properties": {
+                "width": {
+                  "type": "integer",
+                  "minimum": 8
+                },
+                "height": {
+                  "type": "integer",
+                  "minimum": 8
+                }
+              }
             }
           }
         },
-        "if": { "properties": { "made_by": { "const": "model" } } },
-        "then": { "required": ["manifest", "entry"] }
+        "if": {
+          "properties": {
+            "made_by": {
+              "const": "model"
+            }
+          }
+        },
+        "then": {
+          "required": [
+            "manifest",
+            "entry"
+          ]
+        }
       }
     },
     "knobs": {
@@ -80,24 +216,112 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["key", "label", "kind", "description", "drives"],
+        "required": [
+          "key",
+          "label",
+          "kind",
+          "description",
+          "drives"
+        ],
         "properties": {
-          "key": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" },
-          "label": { "$ref": "core.schema.json#/$defs/shortText" },
-          "kind": { "enum": ["colour", "length", "number", "integer", "enum"], "description": "colour: a hex value. length: a number in the unit. number and integer: a plain number. enum: one of options." },
-          "unit": { "type": "string", "minLength": 1, "maxLength": 24 },
-          "min": { "type": "number" },
-          "max": { "type": "number" },
-          "options": { "type": "array", "minItems": 2, "uniqueItems": true, "items": { "type": "string" } },
-          "token": { "type": "string", "pattern": "^--[a-z0-9-]+$", "description": "The authored token that holds the default of the knob. If it is set, a style does not repeat the default in permutations." },
-          "description": { "$ref": "core.schema.json#/$defs/sentence" },
-          "drives": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 2 }, "description": "The tokens or the facets of the style guide that the knob changes." }
+          "key": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "label": {
+            "$ref": "core.schema.json#/$defs/shortText"
+          },
+          "kind": {
+            "enum": [
+              "colour",
+              "length",
+              "number",
+              "integer",
+              "enum"
+            ],
+            "description": "colour: a hex value. length: a number in the unit. number and integer: a plain number. enum: one of options."
+          },
+          "unit": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 24
+          },
+          "min": {
+            "type": "number"
+          },
+          "max": {
+            "type": "number"
+          },
+          "options": {
+            "type": "array",
+            "minItems": 2,
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "token": {
+            "type": "string",
+            "pattern": "^--[a-z0-9-]+$",
+            "description": "The authored token that holds the default of the knob. If it is set, a style does not repeat the default in permutations."
+          },
+          "description": {
+            "$ref": "core.schema.json#/$defs/sentence"
+          },
+          "drives": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 2
+            },
+            "description": "The tokens or the facets of the style guide that the knob changes."
+          }
         },
         "allOf": [
-          { "if": { "properties": { "kind": { "const": "enum" } } }, "then": { "required": ["options"] } },
-          { "if": { "properties": { "kind": { "enum": ["length", "number", "integer"] } } }, "then": { "required": ["min", "max"] } }
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "const": "enum"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "options"
+              ]
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "length",
+                    "number",
+                    "integer"
+                  ]
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "min",
+                "max"
+              ]
+            }
+          }
         ]
       }
+    },
+    "former_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "core.schema.json#/$defs/slug"
+      },
+      "description": "Old ids of this domain. Loaders map an old id to this id, so that old links still resolve."
     }
   }
 }

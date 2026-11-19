@@ -190,6 +190,8 @@ Lens or camera movements that keep vertical lines parallel and move the plane of
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Camera Work** (magazine, New York, 1903–1917), published the style. A quarterly of photography that Alfred Stieglitz edited and published, with fine photogravure plates. It argued for photography as a fine art.
+- **John Simon Guggenheim Memorial Foundation** (foundation, New York, ?–now), funded the style. US foundation that gives fellowships to artists and scholars. It gave Edward Weston the first photography fellowship in 1937.
+- **National Park Service** (state programme, United States, ?–now), funded the style. US federal agency. In 1941 it signed a 180-day contract with Ansel Adams for mural-size park photographs.
 
 ## Permutations
 

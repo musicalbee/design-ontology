@@ -1,0 +1,315 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "wojak-feels",
+  "domain": "internet",
+  "name": "Wojak and feels",
+  "aliases": [
+    "Wojak",
+    "Feels guy",
+    "Doomer-bloomer family"
+  ],
+  "branch": "memes",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2010,
+    "end": null,
+    "label": "2010–now"
+  },
+  "primary_mediums": [
+    "image",
+    "web"
+  ],
+  "summary": "A bald, line-drawn face in grey and cream with an exact emotion, set in a flat panel with a caption. It started on imageboards around 2010 and now stands for many roles. This entry covers its neutral drawing form only.",
+  "philosophy": {
+    "core_thesis": "Reduce a mood to one drawn face and a short label, so that a reader sees the feeling at once.",
+    "design_principles": [
+      "Draw the face as a bald outline of 2px black on a flat cream (#F5E6D3) fill, with 5 to 8 facial lines.",
+      "Show one emotion in each panel through the brows, the mouth and a few tear or sweat marks.",
+      "Put the figure on a flat single-colour field, with the head at 40% to 60% of the height.",
+      "Add a label of 1 to 4 words in a plain sans-serif at 20px to 28px, in white or black.",
+      "Arrange comparison panels in 2 columns with a thin 2px divider.",
+      "Keep the lines slightly uneven, as hand-drawn by mouse.",
+      "Use grey and muted tints for the background; reserve one colour for emphasis."
+    ],
+    "anti_patterns": [
+      "Photographic faces",
+      "Polished gradient rendering",
+      "Many colours in one panel",
+      "Decorative frames",
+      "Long paragraphs of text",
+      "Real names or private persons"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "dimensionality": 2,
+    "grid_rigidity": 2,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "A single square panel of 600px x 600px, or two panels side by side with a 2px divider.",
+    "whitespace_ratio": "The figure takes 50% of the panel; the field and label take the rest.",
+    "alignment_rules": "Centred figure; the label sits under the figure at 8% from the bottom.",
+    "container_geometry": "Rectangular panels with a 0px radius; a flat field with no border."
+  },
+  "typography": {
+    "classifications": [
+      "neutral sans",
+      "grotesque"
+    ],
+    "font_pairings": [
+      {
+        "display": "Inter",
+        "body": "Roboto",
+        "note": "A plain neutral sans that stays out of the way of the face."
+      },
+      {
+        "display": "Work Sans",
+        "body": "Open Sans",
+        "note": "A slightly wider sans for labels."
+      }
+    ],
+    "tracking": "Label 0 to +0.02em.",
+    "leading": "Label 1.2; one or two lines.",
+    "hierarchy_rules": [
+      "Use one label size: 24px.",
+      "Use medium weight (500) for the label.",
+      "Use white text on dark fields and black text on light fields."
+    ]
+  },
+  "color": {
+    "palette_structure": "A cream face and black line on one muted field; a second tint for the comparison panel.",
+    "palette": [
+      {
+        "name": "Field Grey",
+        "hex": "#4A4F57",
+        "role": "background"
+      },
+      {
+        "name": "Face Cream",
+        "hex": "#F5E6D3",
+        "role": "figure fill"
+      },
+      {
+        "name": "Line Black",
+        "hex": "#111111",
+        "role": "line"
+      },
+      {
+        "name": "Tint Blue",
+        "hex": "#6E8CA8",
+        "role": "second field"
+      },
+      {
+        "name": "Mood Red",
+        "hex": "#C0392B",
+        "role": "emphasis"
+      }
+    ],
+    "contrast_rules": "White label on field grey gives 8.6:1; black line on cream gives 16:1.",
+    "surface_treatment": "Flat fills with no gradient; a faint 3% grain is allowed.",
+    "light_and_shadow": "No light and no shadow."
+  },
+  "materiality": {
+    "surface_simulation": "A flat digital drawing from a paint program.",
+    "border_rules": "A 2px black outline round the figure; no panel border.",
+    "blur_and_elevation": "No blur and no elevation."
+  },
+  "ornamentation_details": {
+    "iconography": "No icons; tears and sweat marks serve as signs.",
+    "illustration": "A bald head, a hooded or suited body; flat colour; no shading.",
+    "decorative_elements": [
+      "bald line head",
+      "tear mark",
+      "plain label"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Static image. A short loop may swap two faces each 500ms.",
+    "easing": "steps(1, end)",
+    "duration_ms": 500,
+    "hover_and_active": "Hover swaps the face for the next mood."
+  },
+  "lineage": {
+    "evolved_from": [
+      "rage-comic"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels a clear, often sad or wry, mood and a sense of being understood.",
+    "keywords": [
+      "melancholic",
+      "wry",
+      "plain",
+      "relatable",
+      "flat"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "wojak",
+      "feels guy",
+      "npc meme",
+      "doomer",
+      "bloomer",
+      "soyjak",
+      "crying wojak",
+      "mood face"
+    ],
+    "use_cases": [
+      "mood comparisons",
+      "market jokes",
+      "social posts",
+      "group chat images"
+    ],
+    "avoid_when": [
+      "The audience may read the face as a hate sign; use only neutral mood versions.",
+      "The brand needs a polished voice."
+    ],
+    "modifiers": [
+      {
+        "request": "more crude",
+        "toward": "rage-comic",
+        "how": "Draw the face as a round rage face with thick lines and add 2 to 4 panels."
+      },
+      {
+        "request": "more refined",
+        "toward": "minimalism-web",
+        "how": "Reduce the drawing to a 1px outline on white with one label."
+      },
+      {
+        "request": "more surreal",
+        "toward": "surreal-meme",
+        "how": "Place the figure in an odd scene with a strange crop and a calm caption."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 500,
+      "subhead_weight": 500,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 500,
+      "accent": "colour",
+      "display_tracking": "0em",
+      "display_leading": 1.2,
+      "display_case": "none",
+      "body_leading": 1.4,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "iconoir",
+        "why": "A plain hand-feel outline family that keeps the flat drawn tone."
+      }
+    },
+    "art": {
+      "recipe": "flat",
+      "pattern": "none",
+      "seed": 10
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "soft",
+      "why": "A soft flat field keeps one muted colour behind the figure."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#4A4F57",
+      "--color-surface": "#3A3E45",
+      "--color-text": "#FFFFFF",
+      "--color-muted": "#D7DAE0",
+      "--color-primary": "#F5E6D3",
+      "--color-accent": "#C0392B",
+      "--color-border": "#111111",
+      "--font-sans": "\"Inter\", \"Roboto\", sans-serif",
+      "--font-display": "\"Work Sans\", \"Inter\", sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "2px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "steps(1, end)",
+      "--duration": "500ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#4A4F57] text-white font-sans antialiased px-6"
+      },
+      {
+        "element": "heading",
+        "classes": "font-medium text-3xl md:text-5xl leading-[1.2] text-center text-white"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.4] text-[#D7DAE0] max-w-prose"
+      },
+      {
+        "element": "card",
+        "classes": "border-2 border-[#111] bg-[#3A3E45] p-4"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border-2 border-[#111] bg-[#F5E6D3] px-5 py-2 font-medium text-[#111] hover:bg-[#C0392B] hover:text-white"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#F5E6D3",
+        "#6E8CA8"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#C0392B",
+        "#F5E6D3"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 4
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.333
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Wojak",
+      "url": "https://en.wikipedia.org/wiki/Wojak"
+    },
+    {
+      "title": "Know Your Meme: Wojak / Feels Guy"
+    }
+  ]
+}

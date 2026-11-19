@@ -1,0 +1,169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-ontology.dev/schema/funding.schema.json",
+  "title": "Funding",
+  "description": "One flow of money or paid support from a backer (a person or an organisation) to a style, a person or an organisation. Each record cites at least one source. An amount is given only when a source gives it.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "from",
+    "to",
+    "kind",
+    "years",
+    "what",
+    "confidence",
+    "sources"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-{1,2}[a-z0-9]+)*$",
+      "maxLength": 120,
+      "description": "<from>--<to>, with -<year> when one pair has more than one edge."
+    },
+    "from": {
+      "$ref": "#/$defs/end",
+      "description": "The backer."
+    },
+    "to": {
+      "$ref": "#/$defs/end",
+      "description": "Who or what got the money."
+    },
+    "styles": {
+      "$ref": "core.schema.json#/$defs/refList",
+      "description": "The styles that the money helped. Needed when `to` is a person or an organisation."
+    },
+    "kind": {
+      "enum": [
+        "commission",
+        "stipend",
+        "purchase",
+        "exhibition",
+        "dealer-contract",
+        "publishing",
+        "residency",
+        "prize",
+        "grant",
+        "state-programme",
+        "investment",
+        "acquisition",
+        "crowdfunding",
+        "platform-fund",
+        "employment"
+      ],
+      "description": "commission: paid for one work or building. stipend: a regular payment to live and work. purchase: bought works, often in bulk. exhibition: paid for a show. dealer-contract: a dealer paid a monthly sum for the output. publishing: paid to print or release the work. residency: gave a place to live and work. prize: a named award with money. grant: a one-time grant from a foundation or a fund. state-programme: a state paid through a programme or a school. investment: equity in a company. acquisition: bought the company. crowdfunding: many small backers through a platform. platform-fund: a platform paid its creators. employment: a company employed the designer as a policy."
+    },
+    "years": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "description": "[start, end]. end is null for one year or when no source gives it. Never a guess.",
+      "prefixItems": [
+        {
+          "type": "integer",
+          "minimum": -3000,
+          "maximum": 2030
+        },
+        {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": -3000,
+          "maximum": 2030
+        }
+      ],
+      "items": false
+    },
+    "what": {
+      "$ref": "core.schema.json#/$defs/sentence",
+      "description": "What the money paid for."
+    },
+    "amount": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value",
+        "currency",
+        "year",
+        "source"
+      ],
+      "properties": {
+        "value": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "currency": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$|^[a-z-]+$",
+          "description": "ISO 4217 code, or a historic unit in lower case (florin, livre)."
+        },
+        "year": {
+          "type": "integer"
+        },
+        "source": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Index into sources of the source that gives the amount."
+        }
+      }
+    },
+    "confidence": {
+      "enum": [
+        "documented",
+        "reported",
+        "contested"
+      ],
+      "description": "documented: a primary source or a scholarly work. reported: press or a reference work. contested: sources disagree; cite each side."
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "title",
+          "url"
+        ],
+        "properties": {
+          "title": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 200
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https://"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "end": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "id"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "person",
+            "org",
+            "style"
+          ]
+        },
+        "id": {
+          "$ref": "core.schema.json#/$defs/slug"
+        }
+      }
+    }
+  }
+}

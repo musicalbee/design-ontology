@@ -162,7 +162,7 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Modular grid (process)
 
-A page or screen divided into equal columns and rows; each element fits a cell or a block of cells, so that the whole layout repeats one measure. Origin: graphic & ui design, Zurich, c. 1958.
+A page or screen divided into equal columns and rows; each element fits a cell or a block of cells, so that the whole layout repeats one measure. Origin: internet, Zurich, c. 1958.
 
 - Divide the page into 4 to 12 equal columns with a gutter of 1/10 to 1/5 of a column width.
 - Cut the page into rows of the same module height; align each image and text block to the lines.
@@ -175,6 +175,7 @@ The groups, studios, companies, schools, channels and backers that carried this 
 
 - **Braun** (company, Frankfurt, 1921–now), made the style. A German maker of radios, record players and small appliances. Its design team under Dieter Rams made the calm, functional products that later shaped interface design.
 - **Ulm School of Design** (school, Ulm, 1953–1968), taught the style. A school of design that taught system, grid and method. Its teachers worked with Braun and with corporate identity programs.
+- **US High Commission for Germany** (state programme, Germany, ?–now), funded the style. US occupation authority in Germany. Its High Commissioner John McCloy gave one million marks to the Ulm school project.
 
 ## Permutations
 

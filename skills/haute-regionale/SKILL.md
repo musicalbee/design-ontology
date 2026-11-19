@@ -92,6 +92,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Primary:** butter · cream · chicken · shellfish · truffle · foie-gras · wine · egg
 - **Secondary:** veal · beef · lamb · fine-herbs · shallot · tarragon · wild-mushrooms · asparagus · potato · tomato · cheese · wheat · orchard-fruit · nuts-seeds · salmon · game-birds
 - **Avoid:** chilli · soy-sauce · miso · sodium-alginate · liquid-nitrogen · kombu
+- **In europe:** yes
 - **Rule:** Build on butter, cream and produce of the region, and add one luxury (truffle, foie gras or crayfish) to the dish of honour.
 
 ## Technique
@@ -152,7 +153,6 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 | Work | Maker | Year |
 |---|---|---|
 | La Pyramide | Fernand Point | 1924 |
-| Marjolaine | Fernand Point | 1935 |
 | Ma gastronomie | Fernand Point | 1969 |
 
 ## Techniques

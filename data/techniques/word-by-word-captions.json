@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "word-by-word-captions",
+  "name": "Word-by-word captions",
+  "aliases": [
+    "Karaoke captions",
+    "Animated subtitles",
+    "Active-word highlight"
+  ],
+  "kind": "motif",
+  "summary": "Speech shown as 1 to 3 large words at a time, with the word that is spoken now in a bright colour.",
+  "how": [
+    "Show 1 to 3 words at a time at 72px to 110px.",
+    "Time each word to the audio within 2 frames.",
+    "Colour the active word and keep the rest white.",
+    "Add a 6px outline and pop each word in over 6 to 8 frames."
+  ],
+  "origin": {
+    "domain": "internet",
+    "year": 2020,
+    "circa": true,
+    "where": "TikTok",
+    "note": "Short video apps add auto captions, and makers restyle them as large animated words that follow the speech."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 2020,
+      "circa": true,
+      "via": "Short video apps and editing tools add auto captions that makers restyle as animated words.",
+      "styles": [
+        "word-caption-clip"
+      ]
+    }
+  ],
+  "styles": [
+    "word-caption-clip"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Closed captioning",
+      "url": "https://en.wikipedia.org/wiki/Closed_captioning"
+    },
+    {
+      "title": "Wikipedia: TikTok",
+      "url": "https://en.wikipedia.org/wiki/TikTok"
+    }
+  ]
+}

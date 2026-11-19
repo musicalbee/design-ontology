@@ -1,0 +1,340 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "gan-portrait",
+  "domain": "internet",
+  "name": "GAN Portrait",
+  "aliases": [
+    "StyleGAN face",
+    "This person does not exist",
+    "Generated headshot"
+  ],
+  "branch": "ai-native",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2018,
+    "end": null,
+    "label": "2018–now"
+  },
+  "primary_mediums": [
+    "image",
+    "web"
+  ],
+  "summary": "A square headshot of a person who does not exist: the eyes sit at a fixed height, the background is a soft swirl, and small faults show in teeth, ears and glasses. It spread from 2018 with StyleGAN.",
+  "philosophy": {
+    "core_thesis": "A face that nobody owns: the model averages thousands of faces into one believable head, and its faults are the signature.",
+    "design_principles": [
+      "Centre one head at 1024px square with the eye line at 40% from the top and the eyes 30% of the width apart.",
+      "Set a blurred, swirled background of 2 to 3 warm hues at 25% to 40% blur strength.",
+      "Keep the shoulders at the lower 25% of the frame with a soft, plain garment.",
+      "Leave one small fault: a mismatched earring, a teeth blur, or a bright water-drop patch of 40px to 80px.",
+      "Align faces in a 4x4 grid of 256px tiles with a 8px gap to show many generated heads at once.",
+      "Use a plain caption in 14px sans below the tile; add the word generated and the seed number.",
+      "Keep the palette natural: skin tones, brown blur and one cool background tint."
+    ],
+    "anti_patterns": [
+      "Stylised illustration or anime faces",
+      "Strong dramatic lighting",
+      "Full-body or action shots",
+      "Dense overlays and ornament",
+      "Sharp, detailed backgrounds",
+      "Perfect symmetry with no fault"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "dimensionality": 2,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 4,
+    "typographic_expressiveness": 1
+  },
+  "layout": {
+    "grid_mechanics": "A grid of square tiles: 4 columns at 256px with 8px gaps, or one single 1024px tile; the caption sits under the tile.",
+    "whitespace_ratio": "20% to 30% of the page stays empty; the spacing scale is 8, 16, 24 and 48px.",
+    "alignment_rules": "Each face is centred in its tile and the eye lines of all tiles share one height.",
+    "container_geometry": "Square tiles with a 0px radius; caption chips with a 4px radius."
+  },
+  "typography": {
+    "classifications": [
+      "neutral sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Inter",
+        "body": "Inter",
+        "note": "A neutral sans for plain captions and seed numbers."
+      },
+      {
+        "display": "DM Sans",
+        "body": "DM Mono",
+        "note": "A friendly sans with a mono seed line."
+      }
+    ],
+    "tracking": "Display -0.01em; captions +0.02em.",
+    "leading": "Display 1.2; body 1.5.",
+    "hierarchy_rules": [
+      "Use 2 weights: regular (400) and medium (500).",
+      "Use sizes 12, 14, 20 and 32px.",
+      "Set the seed number in mono at 12px.",
+      "Keep headings in sentence case."
+    ]
+  },
+  "color": {
+    "palette_structure": "Natural skin and brown tones with one cool teal tint; the page is a quiet slate.",
+    "palette": [
+      {
+        "name": "Slate Night",
+        "hex": "#1B1F27",
+        "role": "background"
+      },
+      {
+        "name": "Panel Slate",
+        "hex": "#262B35",
+        "role": "surface"
+      },
+      {
+        "name": "Latent Teal",
+        "hex": "#2FB5A9",
+        "role": "primary"
+      },
+      {
+        "name": "Artefact Blue",
+        "hex": "#5A7FD6",
+        "role": "accent"
+      },
+      {
+        "name": "Warm Skin",
+        "hex": "#D9A58A",
+        "role": "image reference"
+      },
+      {
+        "name": "Blur Brown",
+        "hex": "#7A5C4A",
+        "role": "image reference"
+      },
+      {
+        "name": "Paper",
+        "hex": "#EEF0F2",
+        "role": "text"
+      }
+    ],
+    "contrast_rules": "Paper text on slate holds at least 12:1; teal carries links and small marks at 5:1 or more.",
+    "surface_treatment": "Flat slate panels around the tiles; the faces carry soft, smooth skin with no pores below 1px.",
+    "light_and_shadow": "Even, frontal, soft light with no hard shadow; the background glow is a diffuse blur."
+  },
+  "materiality": {
+    "surface_simulation": "A digital studio portrait: smooth skin, soft light and a blurred backdrop.",
+    "border_rules": "No border on tiles; a 1px hairline in #3A4150 between panels.",
+    "blur_and_elevation": "A 25% to 40% blur on the background of each face only; panels are flat."
+  },
+  "ornamentation_details": {
+    "iconography": "Outline icons at 20px with a 1.5px round stroke for refresh and download.",
+    "illustration": "Anonymous headshots with a soft swirl background; no other art.",
+    "decorative_elements": [
+      "fixed eye line",
+      "swirl background",
+      "4x4 tile grid",
+      "seed caption",
+      "water-drop artefact"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Tiles cross-fade to a new face in 400ms; a latent morph between two faces runs 24 frames at 24 fps.",
+    "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "duration_ms": 400,
+    "hover_and_active": "Hover raises the tile by 2px; active shows the seed and the model name."
+  },
+  "lineage": {
+    "evolved_from": [
+      "deepdream-psychedelia"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "deepfake-face-swap"
+    ],
+    "echoes": [
+      "ai-hyperreal"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels calm unease: the face is friendly, and nobody is there.",
+    "keywords": [
+      "smooth",
+      "anonymous",
+      "uncanny",
+      "calm",
+      "synthetic",
+      "generic"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "magician",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "gan portrait",
+      "stylegan",
+      "this person does not exist",
+      "generated face",
+      "synthetic headshot",
+      "fake profile photo"
+    ],
+    "use_cases": [
+      "articles on synthetic media",
+      "placeholder avatars in mock-ups",
+      "design tools that need anonymous faces",
+      "datasets and model-card pages"
+    ],
+    "avoid_when": [
+      "The page must show a real, named person.",
+      "The face could pass as a real identity in a harmful context.",
+      "The content needs bold, graphic character."
+    ],
+    "modifiers": [
+      {
+        "request": "more glossy",
+        "toward": "diffusion-gloss",
+        "how": "Add a cinematic rim light, a teal and amber grade and finer skin detail."
+      },
+      {
+        "request": "more playful",
+        "toward": "ai-avatar-portrait",
+        "how": "Turn the headshot into a stylised avatar with a glow ground and a 4x5 pack grid."
+      },
+      {
+        "request": "show it is fake",
+        "toward": "deepfake-face-swap",
+        "how": "Add a landmark overlay and a SYNTHETIC label chip."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 500,
+      "subhead_weight": 500,
+      "body_weight": 400,
+      "strong_weight": 500,
+      "label_weight": 500,
+      "accent": "weight",
+      "display_tracking": "-0.01em",
+      "display_leading": 1.2,
+      "display_case": "none",
+      "body_leading": 1.5,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "lucide",
+        "why": "A quiet 1.5px line that keeps the faces as the only content."
+      }
+    },
+    "art": {
+      "recipe": "flat",
+      "pattern": "none",
+      "seed": 18
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "soft",
+      "why": "The ground copies the soft, diffuse backdrop that the model draws behind each face."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#1B1F27",
+      "--color-surface": "#262B35",
+      "--color-text": "#EEF0F2",
+      "--color-muted": "#B4BCC8",
+      "--color-primary": "#2FB5A9",
+      "--color-accent": "#5A7FD6",
+      "--color-border": "#3A4150",
+      "--font-sans": "\"Inter\", \"DM Sans\", sans-serif",
+      "--font-display": "\"DM Sans\", \"Inter\", sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "--duration": "400ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#1B1F27] text-[#EEF0F2] font-sans antialiased px-4 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-2xl md:text-4xl font-medium leading-[1.2] tracking-tight"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.5] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border border-[#3A4150] bg-[#262B35]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-sm bg-[#2FB5A9] px-5 py-2.5 text-sm font-medium text-[#1B1F27] transition-transform duration-[400ms] hover:-translate-y-0.5"
+      },
+      {
+        "element": "label",
+        "classes": "font-mono text-xs text-[#B4BCC8]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#2FB5A9",
+        "#1B1F27",
+        "#262B35",
+        "#12151B"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#2FB5A9",
+        "#5A7FD6",
+        "#D9A58A"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 8
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.414
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: StyleGAN",
+      "url": "https://en.wikipedia.org/wiki/StyleGAN"
+    },
+    {
+      "title": "Karras, Laine and Aila, A Style-Based Generator Architecture for Generative Adversarial Networks (2018)",
+      "url": "https://arxiv.org/abs/1812.04948"
+    }
+  ]
+}

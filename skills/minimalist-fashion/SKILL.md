@@ -167,6 +167,7 @@ A trial garment in plain calico, fitted and pinned on the client or on a stand b
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Jil Sander fashion house** (company, Hamburg, 1968–now), launched the style. The Hamburg house that Jil Sander began in 1968. It made plain clothes in fine cloth that set the line of 1990s minimalism.
+- **Prada Group** (company, Milan, ?–now), funded the style. Italian luxury group. It bought the houses of Helmut Lang and Jil Sander in 1999 and half of the Fendi stake that LVMH and Prada took in 1999.
 - **Vogue** (magazine, New York, 1892–now), published the style. A fashion magazine. It commissions fashion photographs and sets its name in a high-contrast Didone type.
 
 ## Permutations
@@ -194,7 +195,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`power-dressing`](../power-dressing/SKILL.md)
 - **Was rejected by:** [`gorpcore`](../gorpcore/SKILL.md)
 - **Mixes well with:** [`japanese-avant-garde-fashion`](../japanese-avant-garde-fashion/SKILL.md)
-- **Kin in another domain:** [`minimalism-painting`](../minimalism-painting/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md)
+- **Kin in another domain:** [`clean-girl`](../clean-girl/SKILL.md), [`minimalism-painting`](../minimalism-painting/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md), [`normcore`](../normcore/SKILL.md)
 - **Nearest by vector profile:** [`early-wristwatch`](../early-wristwatch/SKILL.md), [`english-welted-dress-shoe`](../english-welted-dress-shoe/SKILL.md), [`quiet-luxury-fashion`](../quiet-luxury-fashion/SKILL.md)
 
 ## Emotional target

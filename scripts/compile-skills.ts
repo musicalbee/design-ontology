@@ -160,7 +160,7 @@ function objectNet(style: Style) {
   return {
     thesis: net.thesis,
     knobs: Object.entries(net.knobs).map(([k, v]) => `${k} ${v}`).join(", "),
-    page: `../../demo/industrial.html#${style.id}`,
+    page: `../../demo/objects.html#${style.id}`,
     categories: net.categories.map((c) => ({
       category: titleCase(c.category),
       style: link(c.style),
@@ -471,6 +471,8 @@ write(
         id: s.id,
         name: s.name,
         domain: s.domain,
+        // A branch inside the domain (fashion, ceramics, internet …), when the domain has branches.
+        ...((s as { branch?: string }).branch ? { branch: (s as { branch?: string }).branch } : {}),
         era: s.era_id,
         period: s.time_period.label,
         thesis: s.philosophy.core_thesis,

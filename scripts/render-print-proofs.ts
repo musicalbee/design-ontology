@@ -16,7 +16,8 @@
 //   vectors.hand_trace    a wobble of the edges, from 0 (machine) to the scale of a hand cut
 // A real screen at 150 lpi is too fine to see on a screen, so the screen, the grain and the register are drawn enlarged.
 // The footer of each proof gives the scale.
-// Output: demo/previews/print/<id>.svg and demo/previews/print/manifest.json.
+// Output: demo/previews/print/<id>.svg and the "proofs" key of demo/previews/print/manifest.json. The "images" key
+// holds the generated preview of each style (render-previews.ts --domain print), so the proof is a second view.
 import { writeFileSync, mkdirSync, existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { ROOT, loadStyleFiles } from "./lib.js";
@@ -412,13 +413,16 @@ function proof(s: PrintStyle): string {
 
 mkdirSync(OUT, { recursive: true });
 const manPath = join(OUT, "manifest.json");
-const manifest: { images: Record<string, Entry> } = existsSync(manPath) ? JSON.parse(readFileSync(manPath, "utf8")) : { images: {} };
+const manifest: { images: Record<string, any>; proofs: Record<string, Entry> } = existsSync(manPath) ? JSON.parse(readFileSync(manPath, "utf8")) : { images: {} };
+// Before 2026-11-19 the proofs were the "images". Move them to "proofs".
+manifest.proofs ??= {};
+for (const [id, e] of Object.entries(manifest.images)) if (e.kind === "press-proof") { manifest.proofs[id] = e; delete manifest.images[id]; }
 const all = loadStyleFiles("print").map((f) => f.style as unknown as PrintStyle);
 for (const s of all) {
   if (only && !only.includes(s.id)) continue;
   const svg = proof(s);
   writeFileSync(join(OUT, `${s.id}.svg`), svg);
-  manifest.images[s.id] = {
+  manifest.proofs[s.id] = {
     file: `${s.id}.svg`, kind: "press-proof",
     subject: "a landscape with sky, sun, far hills, a lake, a near hill and a tree, with register marks and a colour bar",
     model: "drawn by scripts/render-print-proofs.ts from the process rules (no image model)",
@@ -426,6 +430,6 @@ for (const s of all) {
   };
   console.log(`${s.id}: ${(svg.length / 1024).toFixed(0)} KB`);
 }
-for (const id of Object.keys(manifest.images)) if (!all.some((s) => s.id === id)) delete manifest.images[id];
-manifest.images = Object.fromEntries(Object.entries(manifest.images).sort(([a], [b]) => a.localeCompare(b)));
+for (const id of Object.keys(manifest.proofs)) if (!all.some((s) => s.id === id)) delete manifest.proofs[id];
+manifest.proofs = Object.fromEntries(Object.entries(manifest.proofs).sort(([a], [b]) => a.localeCompare(b)));
 writeFileSync(manPath, JSON.stringify(manifest, null, 2) + "\n");

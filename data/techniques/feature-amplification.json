@@ -1,0 +1,46 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "feature-amplification",
+  "name": "Feature amplification",
+  "aliases": [
+    "Gradient ascent on a layer",
+    "Inceptionism"
+  ],
+  "kind": "process",
+  "summary": "A method that changes a photograph to raise the response of one network layer, so the network patterns grow out of the image.",
+  "how": [
+    "Pick one layer of a trained image network; a middle layer gives eyes and fur, a high layer gives whole animals.",
+    "Change the pixels of the image by small steps so that the layer response rises.",
+    "Repeat at 4 to 8 image sizes (octaves) and mix the results back into one image.",
+    "Feed the output back in and zoom 3% for each frame to make an endless loop."
+  ],
+  "origin": {
+    "domain": "internet",
+    "year": 2015,
+    "where": "Google",
+    "note": "Alexander Mordvintsev and colleagues post the method and its first images in a Google research blog in June 2015."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 2015,
+      "via": "Google releases the code in July 2015; users post dog-face and eye-filled photographs on web forums and image boards.",
+      "styles": [
+        "deepdream-psychedelia"
+      ]
+    }
+  ],
+  "styles": [
+    "deepdream-psychedelia"
+  ],
+  "sources": [
+    {
+      "title": "Google Research Blog: Inceptionism (2015)",
+      "url": "https://research.google/blog/inceptionism-going-deeper-into-neural-networks/"
+    },
+    {
+      "title": "Wikipedia: DeepDream",
+      "url": "https://en.wikipedia.org/wiki/DeepDream"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "gif-loop",
+  "name": "GIF loop",
+  "aliases": [
+    "Looped GIF",
+    "Animated GIF"
+  ],
+  "kind": "animation",
+  "summary": "A short clip stored as a GIF that repeats without end, in 256 colours and a small frame.",
+  "how": [
+    "Cut the clip to 1 to 4 seconds and join the last frame to the first.",
+    "Export at 10 to 15 fps in 256 colours or fewer.",
+    "Keep the frame at 480px wide or less."
+  ],
+  "origin": {
+    "domain": "internet",
+    "year": 1987,
+    "where": "Columbus",
+    "note": "CompuServe releases the GIF format with support for several frames in one file."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 2009,
+      "circa": true,
+      "via": "Tumblr users and later Giphy cut film and TV clips into short loops and send them as replies.",
+      "styles": [
+        "reaction-gif"
+      ]
+    },
+    {
+      "domain": "internet",
+      "year": 2010,
+      "circa": true,
+      "via": "Net artists run glitch effects inside short loops of 20 to 40 frames.",
+      "styles": [
+        "glitch-gif"
+      ]
+    }
+  ],
+  "styles": [
+    "reaction-gif",
+    "glitch-gif"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: GIF",
+      "url": "https://en.wikipedia.org/wiki/GIF"
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "ansi-bbs-art",
+  "domain": "internet",
+  "name": "ANSI BBS Art",
+  "aliases": [
+    "ANSI art",
+    "BBS art",
+    "Artpack"
+  ],
+  "branch": "early-web",
+  "era_id": "postmodern-early-digital",
+  "time_period": {
+    "start": 1985,
+    "end": 1996,
+    "label": "1985–1996"
+  },
+  "primary_mediums": [
+    "web",
+    "image"
+  ],
+  "summary": "Pictures and menus made of 80-column text blocks in the 16 ANSI colours: shade characters, box lines and wide logos. Dial-up bulletin boards showed them, and art groups released them in monthly packs.",
+  "philosophy": {
+    "core_thesis": "A picture is a grid of characters: every shape must fit an 8 by 16 pixel cell and one of 16 colours.",
+    "design_principles": [
+      "Build the layout on a grid of 80 columns by 25 rows; one cell is 8px wide and 16px high.",
+      "Use only the 16 ANSI colours, on a black ground (#000000), and show 8 colours as the dark set and 8 as the bright set.",
+      "Shade with block characters: light shade ░ at 25%, medium shade ▒ at 50%, dark shade ▓ at 75%, full block █ at 100%.",
+      "Frame menus and windows with double-line box characters ╔ ═ ╗ and keep the frame 1 cell wide.",
+      "Set the signature logo 6 to 10 rows high in a block font, with a 3-stop colour fade from dark blue to cyan to white.",
+      "Put a status bar of 1 row at the foot of the screen, white on blue, with key hints in brackets.",
+      "Blink one cursor block at 530ms; reveal long screens line by line at 1 row per 40ms to imitate a 28.8 kbps modem."
+    ],
+    "anti_patterns": [
+      "Anti-aliased text and smooth gradients",
+      "More than 16 colours on one screen",
+      "Proportional fonts with variable widths",
+      "Rounded corners and soft shadows",
+      "Photographic images",
+      "Free layout that ignores the cell grid"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "dimensionality": 1,
+    "grid_rigidity": 5,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 4
+  },
+  "layout": {
+    "grid_mechanics": "A strict grid of 80 columns by 25 rows with 8px by 16px cells; every element snaps to whole cells.",
+    "whitespace_ratio": "10% to 20% of the cells stay black; the spacing scale is 1 cell, 2 cells and 1 row (8px, 16px).",
+    "alignment_rules": "Menus flush left at column 2; logos centred over the full width of 80 columns.",
+    "container_geometry": "Rectangles of whole cells with a double-line frame; the radius is 0px."
+  },
+  "typography": {
+    "classifications": [
+      "bitmap monospace",
+      "block lettering"
+    ],
+    "font_pairings": [
+      {
+        "display": "VT323",
+        "body": "IBM Plex Mono",
+        "note": "VT323 is an open look-alike of a VGA text screen; IBM Plex Mono carries long reading."
+      },
+      {
+        "display": "Press Start 2P",
+        "body": "VT323",
+        "note": "A wide pixel face for logos with a mono text face."
+      },
+      {
+        "display": "Major Mono Display",
+        "body": "IBM Plex Mono",
+        "note": "A lower-case mono display for a cleaner title."
+      }
+    ],
+    "tracking": "Display 0.04em; body 0em, because every glyph fills one cell.",
+    "leading": "Display 1.0; body 1.25, which gives 16px rows at 16px size.",
+    "hierarchy_rules": [
+      "Use one size, 16px, for all text; make hierarchy with colour and with block logos.",
+      "Use bright white for titles and light grey (#AAAAAA) for body text.",
+      "Set menu keys in bright yellow and menu labels in light grey.",
+      "Use upper case for headings and lower case for body text."
+    ]
+  },
+  "color": {
+    "palette_structure": "Sixteen fixed colours on black: a dark set of 8 and a bright set of 8; use 3 to 4 on one screen.",
+    "palette": [
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "name": "Light Grey",
+        "hex": "#AAAAAA",
+        "role": "text"
+      },
+      {
+        "name": "Blue",
+        "hex": "#0000AA",
+        "role": "window"
+      },
+      {
+        "name": "Cyan",
+        "hex": "#00AAAA",
+        "role": "primary"
+      },
+      {
+        "name": "Bright Cyan",
+        "hex": "#55FFFF",
+        "role": "accent"
+      },
+      {
+        "name": "Bright Magenta",
+        "hex": "#FF55FF",
+        "role": "highlight"
+      },
+      {
+        "name": "Bright Yellow",
+        "hex": "#FFFF55",
+        "role": "key"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "role": "title"
+      }
+    ],
+    "contrast_rules": "Light grey on black is 9:1; white on blue is 12:1; dark blue text on black is not allowed.",
+    "surface_treatment": "Flat colour cells with dither by shade characters; no gradient, only steps.",
+    "light_and_shadow": "No light source; depth comes from a dark shade as a shadow of 1 cell on the right and below."
+  },
+  "materiality": {
+    "surface_simulation": "A text-mode screen on a CRT: each cell is a glyph with a foreground and a background colour.",
+    "border_rules": "A double-line box frame 1 cell wide; a single line for inner panels.",
+    "blur_and_elevation": "No blur; a 1-cell shadow in dark grey (#555555) gives elevation."
+  },
+  "ornamentation_details": {
+    "iconography": "Icons are glyphs in a cell: ☺ ♥ ♦ ♣ ♠ and arrows, 16px, solid, with square ends.",
+    "illustration": "Logos and scenes drawn with ░▒▓█ and half blocks; skulls, dragons, logos and portraits in 2 to 4 colours.",
+    "decorative_elements": [
+      "shade-block gradient",
+      "double-line frame",
+      "block-letter logo",
+      "scroller text",
+      "artist signature"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Screens draw line by line at 25 lines per second; a scroller moves text 1 cell per 80ms; no tweening.",
+    "easing": "cubic-bezier(0, 0, 1, 1)",
+    "duration_ms": 40,
+    "hover_and_active": "Hover inverts the cell: swap the foreground and the background colour; focus shows a blinking block at 530ms."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "punk-zine"
+    ],
+    "echoes": [
+      "pixel-icon"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels the thrill of a secret network and respects the craft of a limit.",
+    "keywords": [
+      "underground",
+      "digital",
+      "blocky",
+      "nostalgic",
+      "hacker",
+      "dial-up"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "creator",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "ansi art",
+      "bbs",
+      "bulletin board",
+      "artscene",
+      "text art",
+      "80 columns",
+      "dial-up",
+      "vga text mode"
+    ],
+    "use_cases": [
+      "retro tech and hacker-culture pages",
+      "game and tool launch screens in text mode",
+      "music and demo scene posters",
+      "developer tool splash screens",
+      "nostalgic event invitations"
+    ],
+    "avoid_when": [
+      "The audience needs accessible long reading on small screens.",
+      "The brand needs a polished, friendly tone.",
+      "The page must show photographs."
+    ],
+    "modifiers": [
+      {
+        "request": "more polish",
+        "toward": "terminal-tui-web",
+        "how": "Keep the cell grid and swap the 16 colours for 2 or 3 hues and a quiet line frame."
+      },
+      {
+        "request": "more colour",
+        "toward": "cyberdelia",
+        "how": "Add loud acid colour fields and warped logos; leave the grid."
+      },
+      {
+        "request": "more web",
+        "toward": "geocities-homepage",
+        "how": "Move to a free page with tiled backgrounds and pixel GIFs."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 400,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 400,
+      "accent": "colour",
+      "display_tracking": "0.04em",
+      "display_leading": 1.0,
+      "display_case": "uppercase",
+      "body_leading": 1.25,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "square",
+      "linejoin": "miter",
+      "container": "none",
+      "pack": {
+        "id": "pixelarticons",
+        "why": "Pixel icons share the square cell of a text-mode screen."
+      }
+    },
+    "art": {
+      "recipe": "terminal",
+      "pattern": "noise",
+      "seed": 85
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "pixel",
+      "why": "The ground is a field of 8 by 16 pixel cells, as on a text-mode screen."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#000000",
+      "--color-surface": "#0000AA",
+      "--color-text": "#AAAAAA",
+      "--color-muted": "#55FFFF",
+      "--color-primary": "#00AAAA",
+      "--color-accent": "#FFFF55",
+      "--color-border": "#AAAAAA",
+      "--font-sans": "\"IBM Plex Mono\", \"VT323\", monospace",
+      "--font-display": "\"VT323\", \"Press Start 2P\", monospace",
+      "--border-radius": "0px",
+      "--border-width": "2px",
+      "--shadow-elevation": "8px 16px 0 #555555",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0, 0, 1, 1)",
+      "--duration": "40ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-black text-[#AAAAAA] font-mono antialiased px-2 md:px-8"
+      },
+      {
+        "element": "heading",
+        "classes": "text-4xl md:text-6xl uppercase tracking-[0.04em] leading-none text-white"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.25] max-w-[80ch]"
+      },
+      {
+        "element": "section",
+        "classes": "border-2 border-double border-[#AAAAAA] bg-[#0000AA] text-white"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none bg-[#00AAAA] px-4 py-2 text-base uppercase text-black hover:bg-[#AAAAAA]"
+      },
+      {
+        "element": "label",
+        "classes": "text-sm uppercase text-[#FFFF55]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#00AAAA",
+        "#AA00AA",
+        "#00AA00",
+        "#AA0000"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#FFFF55",
+        "#55FFFF",
+        "#FF55FF"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 0
+    },
+    "grid_step": {
+      "min": 8,
+      "max": 16
+    },
+    "type_scale_ratio": {
+      "min": 1.067,
+      "max": 1.25,
+      "default": 1.125
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: ANSI art",
+      "url": "https://en.wikipedia.org/wiki/ANSI_art"
+    },
+    {
+      "title": "Wikipedia: Bulletin board system",
+      "url": "https://en.wikipedia.org/wiki/Bulletin_board_system"
+    },
+    {
+      "title": "Wikipedia: ACiD Productions",
+      "url": "https://en.wikipedia.org/wiki/ACiD_Productions"
+    }
+  ]
+}

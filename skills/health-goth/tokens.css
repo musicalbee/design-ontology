@@ -1,0 +1,129 @@
+/*
+ * Health Goth — tokens
+ * Generated from data/internet/styles/health-goth.json by design-ontology. Do not edit.
+ * Use: put data-style="health-goth" on <html> or on any container.
+ */
+[data-style="health-goth"] {
+  --color-bg: #0A0A0C;
+  --color-surface: #1C1D22;
+  --color-text: #F4F4F5;
+  --color-muted: #9CA3AF;
+  --color-primary: #C9D1D9;
+  --color-accent: #B8F2E6;
+  --color-border: #3A3D45;
+  --font-sans: "Inter", "IBM Plex Mono", sans-serif;
+  --font-display: "Michroma", "Syncopate", sans-serif;
+  --border-radius: 0px;
+  --border-width: 1px;
+  --shadow-elevation: none;
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+  --duration: 300ms;
+  --type-ratio: 1.414;
+  --size-small: 11.32px;
+  --size-h3: 31.99px;
+  --size-h2: 45.23px;
+  --size-h1: 63.96px;
+  --color-on-bg: #F4F4F5;
+  --color-on-surface: #F4F4F5;
+  --color-on-primary: #0A0A0C;
+  --color-on-accent: #0A0A0C;
+  --color-muted-on-bg: #9CA3AF;
+  --color-muted-on-surface: #9CA3AF;
+  --color-link: #B8F2E6;
+  --color-link-on-surface: #B8F2E6;
+  --display-weight: 300;
+  --subhead-weight: 300;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 400;
+  --display-tracking: 0.2em;
+  --display-leading: 1.1;
+  --display-case: uppercase;
+  --body-leading: 1.6;
+  --body-size: 16px;
+  --icon-stroke: 1.5;
+  --ground: radial-gradient(circle at 88% 18%, var(--color-accent) 0 2.4vmin, transparent calc(2.4vmin + 1px)),
+    radial-gradient(circle, color-mix(in oklab, var(--color-on-bg) 26%, transparent) 30%, transparent 34%) 82% 62% / 2.2vmin 2.2vmin,
+    linear-gradient(90deg, var(--color-bg) 0 60%, transparent 60%),
+    linear-gradient(to bottom, var(--color-bg) 0 36%, transparent 36% 92%, var(--color-bg) 92%),
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="health-goth"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="health-goth"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="health-goth"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="health-goth"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="health-goth"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="health-goth"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="health-goth"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="health-goth"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="health-goth"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="health-goth"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="health-goth"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="health-goth"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="health-goth"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="health-goth"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "ansi-block-shading",
+  "name": "ANSI block shading",
+  "aliases": [
+    "Shade characters",
+    "Block-character art"
+  ],
+  "kind": "motif",
+  "summary": "Drawing with the block and shade characters of the IBM PC character set, in 16 colours, on an 80 by 25 grid.",
+  "how": [
+    "Draw on a grid of 80 columns by 25 rows, with cells of 8px by 16px.",
+    "Use ░ at 25%, ▒ at 50%, ▓ at 75% and █ at 100% to blend two colours.",
+    "Limit one cell to one foreground colour from 16 and one background colour from 8.",
+    "Add a signature in the lower right corner."
+  ],
+  "origin": {
+    "domain": "internet",
+    "year": 1983,
+    "where": "United States",
+    "note": "MS-DOS 2.0 loaded ANSI.SYS, which let a text screen set colour and cursor position with escape codes."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 1985,
+      "circa": true,
+      "via": "Users of dial-up bulletin boards draw logos and menus with block characters and ANSI colour codes.",
+      "styles": [
+        "ansi-bbs-art"
+      ]
+    }
+  ],
+  "styles": [
+    "ansi-bbs-art"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: ANSI art",
+      "url": "https://en.wikipedia.org/wiki/ANSI_art"
+    },
+    {
+      "title": "Wikipedia: ANSI escape code",
+      "url": "https://en.wikipedia.org/wiki/ANSI_escape_code"
+    }
+  ]
+}

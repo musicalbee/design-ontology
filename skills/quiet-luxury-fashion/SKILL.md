@@ -195,7 +195,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`minimalist-fashion`](../minimalist-fashion/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`logomania`](../logomania/SKILL.md)
 - **Mixes well with:** [`english-bespoke-tailoring`](../english-bespoke-tailoring/SKILL.md), [`stealth-luxury-accessory`](../stealth-luxury-accessory/SKILL.md)
-- **Kin in another domain:** [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md)
+- **Kin in another domain:** [`clean-girl`](../clean-girl/SKILL.md), [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md)
 - **Nearest by vector profile:** [`stealth-luxury-accessory`](../stealth-luxury-accessory/SKILL.md), [`minimalist-fashion`](../minimalist-fashion/SKILL.md), [`english-welted-dress-shoe`](../english-welted-dress-shoe/SKILL.md)
 
 ## Emotional target
