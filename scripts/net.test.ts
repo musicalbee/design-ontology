@@ -1,7 +1,11 @@
 /** Tests of the object-net resolver (scripts/net.ts). Run: npm test */
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { loadNetContext, loadNets, resolveNet } from "./net.js";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
+import { runInNewContext } from "node:vm";
+import { ROOT } from "./lib.js";
+import { loadNetContext, loadNets, resolveNet, type KnobValues } from "./net.js";
 
 const ctx = loadNetContext();
 const nets = loadNets();
@@ -35,4 +39,33 @@ test("the period rule holds in every net for each single knob move", () => {
 test("a modern room still moves to its alternates", () => {
   const cells = resolveNet(ctx, net("japandi-interior"), { finish_gloss: 60 });
   assert.ok(cells.some((c) => c.via === "alternate"));
+});
+
+// The demo page has its own resolver (demo/net-resolve.js), because it runs in the browser.
+// This test runs it next to resolveNet on each net, so the two copies cannot drift apart.
+test("the demo resolver gives the same cells as resolveNet", () => {
+  const sandbox: { NetResolve?: { resolve: (net: unknown, values: KnobValues, opts: unknown) => { cell: { category: string }; style: string; via: string; objects: unknown[] }[] } } = {};
+  runInNewContext(readFileSync(join(ROOT, "demo", "net-resolve.js"), "utf8"), { globalThis: sandbox });
+  const demo = sandbox.NetResolve!;
+  const knobs = ctx.domain.knobs;
+  // Each knob at its limits and quartiles (each option of an enum), alone and in a period room.
+  const moves: KnobValues[] = [{}];
+  for (const k of knobs) {
+    const vs = k.kind === "enum" ? (k.options ?? []) : [0, 0.25, 0.5, 0.75, 1].map((f) => (k.min ?? 0) + f * ((k.max ?? 0) - (k.min ?? 0)));
+    for (const v of vs) {
+      moves.push({ [k.key]: v });
+      if (k.key !== "era_blend") moves.push({ [k.key]: v, era_blend: 0.2 }, { [k.key]: v, era_blend: 0.8 });
+    }
+  }
+  let compared = 0;
+  for (const { slug, net: n } of nets) {
+    const roomEnd = ctx.interiors.get(n.interior)!.time_period.end ?? 9999;
+    for (const values of moves) {
+      const want = resolveNet(ctx, n, values).map((c) => ({ category: c.category, style: c.style, via: c.via, objects: c.objects }));
+      const got = demo.resolve(n, values, { knobs, styles: ctx.industrial, roomEnd }).map((c) => ({ category: c.cell.category, style: c.style, via: c.via, objects: c.objects }));
+      assert.deepEqual(JSON.parse(JSON.stringify(got)), JSON.parse(JSON.stringify(want)), `${slug} ${JSON.stringify(values)}`);
+      compared++;
+    }
+  }
+  assert.ok(compared > 1000, `only ${compared} cases compared`);
 });
