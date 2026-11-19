@@ -1,0 +1,321 @@
+{
+  "$schema": "../../../schema/domains/ceramics.schema.json",
+  "id": "fireclay-butler-sink",
+  "domain": "ceramics",
+  "name": "Fireclay butler sink",
+  "aliases": [
+    "Belfast sink",
+    "London sink",
+    "Fireclay kitchen sink"
+  ],
+  "era_id": "art-pottery",
+  "branch": "sanitary-technical",
+  "time_period": {
+    "start": 1880,
+    "end": null,
+    "label": "1880 to now"
+  },
+  "region": "Britain and Ireland",
+  "summary": "A deep, square, white sink cast in fireclay. Thick walls, a rolled rim and a weir overflow make a sink that takes heat and weight, and it stays in use in kitchens today.",
+  "philosophy": {
+    "core_thesis": "A kitchen sink must be deep, heavy and glazed so hard that a pot, a brush and boiling water do not mark it.",
+    "design_principles": [
+      "Cast the sink in one piece of fireclay, with a wall 20 to 30 mm thick.",
+      "Make the basin 450 to 600 mm deep in front, so that a large pan fits flat.",
+      "Cut a weir overflow, a slot 40 mm wide, at the back of the Belfast type.",
+      "Keep the inner corners rounded with a radius of 25 to 40 mm, so that dirt does not stay.",
+      "Glaze every face in white, and glaze the inside twice for a hard surface.",
+      "Roll the front rim into a bead 30 mm wide, which makes a clean edge.",
+      "Set the sink on two brick piers or cantilever brackets, with a gap of about 20 mm to the wall."
+    ],
+    "anti_patterns": [
+      "A shallow sink with a thin wall",
+      "A sharp inside corner that holds dirt",
+      "A pressed sheet steel bowl in the same shape",
+      "A coloured glaze that hides the white face",
+      "A bright decoration on the front"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "hand_mark": 2,
+    "refinement": 2,
+    "glaze_depth": 1,
+    "chromatic_intensity": 1
+  },
+  "form": {
+    "shape": "A deep rectangular sink in two types: the London sink with a flat rim and the Belfast sink with a weir overflow.",
+    "profile": "Straight, vertical walls and a flat floor with a slight fall to the waste outlet; the front is plain and square.",
+    "foot_and_rim": "A rolled front rim and a flat back with a tap ledge, and a waste hole of 40 to 50 mm in a recess.",
+    "proportion": "Typical size 600 by 460 mm, or 760 by 455 mm, and 250 mm deep; weight 40 to 60 kg.",
+    "rules": [
+      "Make the front thick and plain, with no ornament.",
+      "Slope the floor 1 in 30 to the waste, so that water does not stand.",
+      "Leave a flat shelf at the back for 2 taps or a swan neck tap.",
+      "Keep the colour white or off-white."
+    ]
+  },
+  "bodies": {
+    "primary": [
+      "fireclay"
+    ],
+    "secondary": [
+      "stoneware",
+      "brass",
+      "wood"
+    ],
+    "avoid": [
+      "vitreous-china",
+      "bone-china",
+      "stainless-steel",
+      "plastic"
+    ],
+    "rule": "Use a coarse buff fireclay with grog, which holds a thick cast without warping. The glaze hides the body on the face."
+  },
+  "forming": {
+    "methods": [
+      "slip casting in plaster moulds",
+      "hand fettling of the weir and the waste",
+      "press moulding of thick parts",
+      "dry and sponge the glaze face",
+      "hand spraying of glaze"
+    ],
+    "joins": "The sink is one casting; the taps and the waste are fitted on site with brass parts and a putty seal.",
+    "details": "A glaze-free foot, a coarse buff back, a maker's stamp on the back, and a small thick drip line under the rim."
+  },
+  "glaze": {
+    "glazes": [
+      "sanitary-glaze",
+      "salt-glaze",
+      "clear-feldspathic"
+    ],
+    "decorations": [
+      "undecorated",
+      "relief-moulding"
+    ],
+    "pattern": "No pattern. A moulded maker name or size on the back face is the only mark.",
+    "gloss": "High gloss, about 75 to 90 GU, on the white faces.",
+    "wear": "The glaze crazes at the weir and the corners, and a grey mark of pots appears on the floor of the sink in use."
+  },
+  "palette": {
+    "strategy": "White glaze on the face, buff body on the back and base, and dark brass on the tap.",
+    "colours": [
+      {
+        "name": "Sink white",
+        "hex": "#F3F1EA",
+        "role": "glaze"
+      },
+      {
+        "name": "Cream white",
+        "hex": "#EDE5D0",
+        "role": "old glaze"
+      },
+      {
+        "name": "Buff fireclay",
+        "hex": "#C9AE86",
+        "role": "body at the base"
+      },
+      {
+        "name": "Brass tap",
+        "hex": "#A8843A",
+        "role": "fitting"
+      },
+      {
+        "name": "Pot grey",
+        "hex": "#9A9A96",
+        "role": "wear mark"
+      }
+    ]
+  },
+  "firing": {
+    "kiln": "A coal-fired down-draught kiln, later a gas tunnel kiln, with long and slow cooling.",
+    "atmosphere": "oxidation",
+    "temperature_c": [
+      1200,
+      1300
+    ],
+    "processes": [
+      "cast and dry for days",
+      "spray or dip glaze",
+      "fire once at 1200 to 1300 °C",
+      "cool for 2 days",
+      "grind the base flat",
+      "pack for transport"
+    ],
+    "scale": "A factory makes some hundreds of sinks in a week, and a large kiln takes 20 to 30 at a time.",
+    "signs": "A flat ground base, small stilt marks on the edge, and a thick glaze at the inner corners."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "kitchen-sink",
+        "form": "Belfast sink with a weir overflow and a rolled front",
+        "body": "fireclay",
+        "glaze": "sanitary-glaze",
+        "decoration": "undecorated"
+      },
+      {
+        "object": "kitchen-sink",
+        "form": "London sink with a flat rim and a tap ledge",
+        "body": "fireclay",
+        "glaze": "sanitary-glaze",
+        "decoration": "undecorated"
+      },
+      {
+        "object": "washbasin",
+        "form": "Large scullery basin with a plain front and a waste hole",
+        "body": "fireclay",
+        "glaze": "sanitary-glaze",
+        "decoration": "undecorated"
+      },
+      {
+        "object": "shower-tray",
+        "form": "Square fireclay tray with a low rim and a flat floor",
+        "body": "fireclay",
+        "glaze": "clear-feldspathic",
+        "decoration": "undecorated"
+      },
+      {
+        "object": "bath",
+        "form": "Roll-top fireclay bath with a plain flange",
+        "body": "fireclay",
+        "glaze": "sanitary-glaze",
+        "decoration": "relief-moulding"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "deep white fireclay sink",
+      "weir overflow slot",
+      "rolled square front",
+      "brass swan neck tap",
+      "stone-flagged farmhouse kitchen",
+      "thick glaze, soft crazing",
+      "butler's pantry, daylight"
+    ],
+    "negative": [
+      "stainless steel bowl",
+      "shallow bowl",
+      "coloured glaze",
+      "pattern on the front",
+      "undermount composite"
+    ],
+    "canonical_works": [
+      {
+        "work": "Stoneware sanitary pipes",
+        "maker": "Doulton and Co.",
+        "year": 1846
+      },
+      {
+        "work": "Cast fireclay Belfast sink",
+        "maker": "unknown British maker",
+        "year": 1880
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Fireclay butler sinks, used again as planters",
+      "kind": "image",
+      "credit": "Basher Eyre",
+      "licence": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Butler_sinks_opposite_The_Harrow_-_geograph.org.uk_-_2126640.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/0/05/Butler_sinks_opposite_The_Harrow_-_geograph.org.uk_-_2126640.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "victorian-sanitary-ware"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "industrial-utility-product",
+      "victorian-manufacture"
+    ]
+  },
+  "emotion": {
+    "target_response": "A calm, working weight: the viewer sees a sink that serves a house, and thinks of a scullery and hot water.",
+    "keywords": [
+      "sturdy",
+      "plain",
+      "domestic",
+      "timeless",
+      "working"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "butler sink",
+      "belfast sink",
+      "fireclay sink",
+      "farmhouse sink",
+      "london sink",
+      "scullery sink"
+    ],
+    "use_cases": [
+      "a farmhouse kitchen brief",
+      "a restoration spec for a period house",
+      "a prompt for a still-life scullery"
+    ],
+    "avoid_when": [
+      "the brief wants a thin stainless steel sink",
+      "the brief wants a coloured fitted sink"
+    ],
+    "modifiers": [
+      {
+        "request": "decorated, printed",
+        "toward": "victorian-sanitary-ware",
+        "how": "Add a transfer print and a moulded rim, and change to a lighter earthenware basin."
+      },
+      {
+        "request": "in colour",
+        "toward": "coloured-bathroom-suite",
+        "how": "Spray a coloured gloss glaze on the face and keep the thick cast form."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Sink",
+      "url": "https://en.wikipedia.org/wiki/Sink"
+    },
+    {
+      "title": "Wikipedia: Henry Doulton",
+      "url": "https://en.wikipedia.org/wiki/Henry_Doulton"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.05,
+      "min": 0,
+      "max": 0.2
+    },
+    "glaze_gloss": {
+      "default": 80,
+      "min": 50,
+      "max": 95
+    },
+    "wall_thickness": {
+      "default": 25,
+      "min": 18,
+      "max": 35,
+      "note": "Fireclay is cast thick: a wall of 20 to 30 mm keeps the sink from warping in the kiln."
+    },
+    "hand_mark": {
+      "default": 0.3,
+      "min": 0.1,
+      "max": 0.5
+    },
+    "era_blend": {
+      "default": 0.05,
+      "min": 0,
+      "max": 1
+    }
+  }
+}

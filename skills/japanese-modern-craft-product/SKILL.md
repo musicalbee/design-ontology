@@ -201,7 +201,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)
 - **Led to (go here for a newer version):** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)
 - **Mixes well with:** [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md)
-- **Kin in another domain:** [`japandi-interior`](../japandi-interior/SKILL.md)
+- **Kin in another domain:** [`anglo-oriental-studio-pottery`](../anglo-oriental-studio-pottery/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md), [`mingei-folk-craft`](../mingei-folk-craft/SKILL.md), [`mino-tea-ceramics`](../mino-tea-ceramics/SKILL.md), [`raku-tea-bowl`](../raku-tea-bowl/SKILL.md), [`washlet-toilet`](../washlet-toilet/SKILL.md)
 - **Nearest by vector profile:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
 
 ## Emotional target

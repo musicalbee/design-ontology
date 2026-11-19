@@ -210,6 +210,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`international-style-architecture`](../international-style-architecture/SKILL.md)
+- **Kin in another domain:** [`digital-3d-printed-ceramics`](../digital-3d-printed-ceramics/SKILL.md)
 - **Nearest by vector profile:** [`baroque-architecture`](../baroque-architecture/SKILL.md), [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md)
 
 ## Emotional target

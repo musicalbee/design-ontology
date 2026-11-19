@@ -202,7 +202,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`retro-cocktail-jewellery`](../retro-cocktail-jewellery/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`art-nouveau-jewellery`](../art-nouveau-jewellery/SKILL.md)
 - **Mixes well with:** [`garconne-flapper-dress`](../garconne-flapper-dress/SKILL.md)
-- **Kin in another domain:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`art-deco-interior`](../art-deco-interior/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md)
+- **Kin in another domain:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`art-deco-ceramic-figures`](../art-deco-ceramic-figures/SKILL.md), [`art-deco-interior`](../art-deco-interior/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md)
 - **Nearest by vector profile:** [`wedge-design-car`](../wedge-design-car/SKILL.md), [`art-deco-watch`](../art-deco-watch/SKILL.md), [`space-age-couture`](../space-age-couture/SKILL.md)
 
 ## Emotional target

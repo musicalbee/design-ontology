@@ -458,10 +458,12 @@ The circle, the square and the triangle in flat colour, used as the whole pictur
 |---|---|---|---|---|---|
 | Origin | Painting | 1915 | — | Petrograd, Russia: Kazimir Malevich shows the Black Square and other pure shapes at the 0,10 exhibition. | |
 | 1 | Graphic & UI Design | 1923 | +8 years | Wassily Kandinsky asks Bauhaus students to match the circle, the square and the triangle to blue, red and yellow. | [`bauhaus`](./bauhaus/SKILL.md) |
-| 2 | Graphic & UI Design | 1961 | +46 years | Yusaku Kamekura puts one red circle over gold type on the poster for the Tokyo 1964 Olympic Games. | [`japanese-graphic-modernism`](./japanese-graphic-modernism/SKILL.md) |
-| 3 | Graphic & UI Design | 1981 | +66 years | Memphis Milano sets circles, triangles and squiggles on furniture and prints in loud colour. | [`memphis-design`](./memphis-design/SKILL.md) |
+| 2 | Ceramics | 1923 | +8 years | Malevich and his pupils build a teapot and cups from blocks and cylinders at the State Porcelain Factory. | [`suprematist-porcelain`](./suprematist-porcelain/SKILL.md) |
+| 3 | Ceramics | c. 1930 | +15 years | Designers at the Berlin and Halle porcelain works build services from the circle, the cylinder and the flat disc. | [`bauhaus-modern-tableware`](./bauhaus-modern-tableware/SKILL.md) |
+| 4 | Graphic & UI Design | 1961 | +46 years | Yusaku Kamekura puts one red circle over gold type on the poster for the Tokyo 1964 Olympic Games. | [`japanese-graphic-modernism`](./japanese-graphic-modernism/SKILL.md) |
+| 5 | Graphic & UI Design | 1981 | +66 years | Memphis Milano sets circles, triangles and squiggles on furniture and prints in loud colour. | [`memphis-design`](./memphis-design/SKILL.md) |
 
-Used by: [`suprematism`](./suprematism/SKILL.md), [`bauhaus`](./bauhaus/SKILL.md), [`japanese-graphic-modernism`](./japanese-graphic-modernism/SKILL.md), [`memphis-design`](./memphis-design/SKILL.md).
+Used by: [`suprematism`](./suprematism/SKILL.md), [`bauhaus`](./bauhaus/SKILL.md), [`japanese-graphic-modernism`](./japanese-graphic-modernism/SKILL.md), [`memphis-design`](./memphis-design/SKILL.md), [`bauhaus-modern-tableware`](./bauhaus-modern-tableware/SKILL.md), [`suprematist-porcelain`](./suprematist-porcelain/SKILL.md).
 
 - Use 1 to 3 shapes at large size; let one shape fill 30% to 60% of the frame.
 - Fill each shape with one flat colour; no gradient and no outline.
@@ -554,12 +556,13 @@ Rays from a disc or a half disc: a sign of light and of the new, on a facade, a 
 | Origin | Architecture | 1925 | — | Paris: Rays from a half disc appear on Art Deco facades, gates and lift doors around the Paris exposition of decorative arts in 1925. | |
 | 1 | Industrial design | 1925 | +0 years | Mirrors, clocks, grilles and lamps of the Paris exposition of decorative arts carry rays from a half disc in gilt brass and glass. | [`art-deco-product`](./art-deco-product/SKILL.md) |
 | 2 | Interior | c. 1928 | +3 years | Art Deco furniture, screens and mirrors take the ray motif inside. | [`art-deco-interior`](./art-deco-interior/SKILL.md) |
-| 3 | Interior | c. 1935 | +10 years | Hollywood decorators hang sunburst mirrors and starburst lights in the homes and sets of film stars. | [`hollywood-regency-interior`](./hollywood-regency-interior/SKILL.md) |
-| 4 | Interior | 1949 | +24 years | George Nelson Associates design ray-form wall clocks for Howard Miller; the starburst mirror follows in the 1950s. | [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md) |
-| 5 | Graphic & UI Design | c. 1957 | +32 years | Space Age signs, packaging and posters use starbursts as a sign of the future. | [`space-age`](./space-age/SKILL.md), [`mid-century-modern`](./mid-century-modern/SKILL.md) |
-| 6 | Interior | c. 2015 | +90 years | Neo-deco rooms bring back the fan and the sunburst in brass and glass. | [`neo-deco-interior`](./neo-deco-interior/SKILL.md) |
+| 3 | Ceramics | c. 1929 | +4 years | Clarice Cliff paints rays and bands of flat colour on Bizarre ware. | [`art-deco-tableware`](./art-deco-tableware/SKILL.md) |
+| 4 | Interior | c. 1935 | +10 years | Hollywood decorators hang sunburst mirrors and starburst lights in the homes and sets of film stars. | [`hollywood-regency-interior`](./hollywood-regency-interior/SKILL.md) |
+| 5 | Interior | 1949 | +24 years | George Nelson Associates design ray-form wall clocks for Howard Miller; the starburst mirror follows in the 1950s. | [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md) |
+| 6 | Graphic & UI Design | c. 1957 | +32 years | Space Age signs, packaging and posters use starbursts as a sign of the future. | [`space-age`](./space-age/SKILL.md), [`mid-century-modern`](./mid-century-modern/SKILL.md) |
+| 7 | Interior | c. 2015 | +90 years | Neo-deco rooms bring back the fan and the sunburst in brass and glass. | [`neo-deco-interior`](./neo-deco-interior/SKILL.md) |
 
-Used by: [`art-deco-architecture`](./art-deco-architecture/SKILL.md), [`art-deco-interior`](./art-deco-interior/SKILL.md), [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md), [`space-age`](./space-age/SKILL.md), [`art-deco-web`](./art-deco-web/SKILL.md), [`neo-deco-interior`](./neo-deco-interior/SKILL.md), [`hollywood-regency-interior`](./hollywood-regency-interior/SKILL.md), [`mid-century-modern`](./mid-century-modern/SKILL.md), [`art-deco-product`](./art-deco-product/SKILL.md).
+Used by: [`art-deco-architecture`](./art-deco-architecture/SKILL.md), [`art-deco-interior`](./art-deco-interior/SKILL.md), [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md), [`space-age`](./space-age/SKILL.md), [`art-deco-web`](./art-deco-web/SKILL.md), [`neo-deco-interior`](./neo-deco-interior/SKILL.md), [`hollywood-regency-interior`](./hollywood-regency-interior/SKILL.md), [`mid-century-modern`](./mid-century-modern/SKILL.md), [`art-deco-product`](./art-deco-product/SKILL.md), [`art-deco-tableware`](./art-deco-tableware/SKILL.md).
 
 - Draw 12 to 36 rays from one centre; alternate long and short rays, or two finishes.
 - Keep the centre disc at 15% to 30% of the full diameter.
@@ -593,13 +596,15 @@ A long S-shaped line whose curve changes along its length, drawn from a plant st
 | Origin | Architecture | c. 1893 | — | Brussels: Victor Horta uses curved iron stems on the stair and the ceiling of the Hotel Tassel. | |
 | 1 | Interior | 1893 | +0 years | Victor Horta carries the iron whiplash line into the stair, the floor mosaic and the wall paint of the Hotel Tassel in Brussels. | [`art-nouveau-interior`](./art-nouveau-interior/SKILL.md) |
 | 2 | Graphic & UI Design | c. 1894 | +1 years | Hermann Obrist shows the Cyclamen wall hanging, an embroidery of one long curved stem. |  |
-| 3 | Logo | c. 1896 | +3 years | Jugend and Pan magazines print initials and vignettes in interlaced curved lines. | [`art-nouveau-monogram`](./art-nouveau-monogram/SKILL.md) |
-| 4 | Industrial design | c. 1898 | +5 years | Hector Guimard casts the whiplash line into the railings, handles and stoves of the Castel Béranger. | [`art-nouveau-object`](./art-nouveau-object/SKILL.md) |
-| 5 | Typeface | 1900 | +7 years | Otto Eckmann draws the Eckmann-Schrift with brush-like curved strokes. |  |
-| 6 | Architecture | 1900 | +7 years | Hector Guimard designs the iron entrances of the Paris Metro with plant-like curves. | [`art-nouveau-architecture`](./art-nouveau-architecture/SKILL.md) |
-| 7 | Graphic & UI Design | 1966 | +73 years | San Francisco concert posters of 1966 to 1968 copy Art Nouveau lettering and whiplash curves. | [`psychedelic`](./psychedelic/SKILL.md) |
+| 3 | Ceramics | c. 1895 | +2 years | Tile makers press the S-curve of the plant stem in low relief on hearth tiles and friezes. | [`art-nouveau-tiles`](./art-nouveau-tiles/SKILL.md) |
+| 4 | Logo | c. 1896 | +3 years | Jugend and Pan magazines print initials and vignettes in interlaced curved lines. | [`art-nouveau-monogram`](./art-nouveau-monogram/SKILL.md) |
+| 5 | Industrial design | c. 1898 | +5 years | Hector Guimard casts the whiplash line into the railings, handles and stoves of the Castel Béranger. | [`art-nouveau-object`](./art-nouveau-object/SKILL.md) |
+| 6 | Typeface | 1900 | +7 years | Otto Eckmann draws the Eckmann-Schrift with brush-like curved strokes. |  |
+| 7 | Architecture | 1900 | +7 years | Hector Guimard designs the iron entrances of the Paris Metro with plant-like curves. | [`art-nouveau-architecture`](./art-nouveau-architecture/SKILL.md) |
+| 8 | Ceramics | 1900 | +7 years | Rozenburg of The Hague shows eggshell porcelain with whiplash curves at the Exposition Universelle in Paris, and French potters show flambé vases with plant forms. | [`art-nouveau-ceramics`](./art-nouveau-ceramics/SKILL.md) |
+| 9 | Graphic & UI Design | 1966 | +73 years | San Francisco concert posters of 1966 to 1968 copy Art Nouveau lettering and whiplash curves. | [`psychedelic`](./psychedelic/SKILL.md) |
 
-Used by: [`art-nouveau-architecture`](./art-nouveau-architecture/SKILL.md), [`art-nouveau-monogram`](./art-nouveau-monogram/SKILL.md), [`art-nouveau-interior`](./art-nouveau-interior/SKILL.md), [`psychedelic`](./psychedelic/SKILL.md), [`art-nouveau-object`](./art-nouveau-object/SKILL.md).
+Used by: [`art-nouveau-architecture`](./art-nouveau-architecture/SKILL.md), [`art-nouveau-monogram`](./art-nouveau-monogram/SKILL.md), [`art-nouveau-interior`](./art-nouveau-interior/SKILL.md), [`psychedelic`](./psychedelic/SKILL.md), [`art-nouveau-object`](./art-nouveau-object/SKILL.md), [`art-nouveau-ceramics`](./art-nouveau-ceramics/SKILL.md), [`art-nouveau-tiles`](./art-nouveau-tiles/SKILL.md).
 
 - Draw each line as an S-curve with a radius that changes along its length.
 - Swell the stroke from 1 to 4 units along the curve, as a stem thickens at the base.
@@ -609,6 +614,43 @@ Used by: [`art-nouveau-architecture`](./art-nouveau-architecture/SKILL.md), [`ar
 Sources: Victor Horta, Hotel Tassel, Brussels (1893).
 
 ## Material
+
+### Architectural faience
+
+A hollow slab of fine clay with a coloured glaze on the visible face. It clads a wall with a bright, washable skin.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1880 | — | England: English works make glazed architectural faience for shops, pubs and public buildings. | |
+| 1 | Ceramics | c. 1925 | +45 years | New York and Los Angeles works make glazed slabs in blue-green, cream and gold for Art Deco towers and cinemas. | [`art-deco-faience-facade`](./art-deco-faience-facade/SKILL.md) |
+
+Used by: [`art-deco-faience-facade`](./art-deco-faience-facade/SKILL.md).
+
+- Press or cast the slab hollow, 30 to 60 mm thick, with ribs on the back.
+- Fire the slab to a biscuit at about 1050 °C.
+- Spray the visible face with a coloured glaze and fire it again.
+- Tie the slab to the frame with metal ties and set it with thin joints.
+
+Sources: [Wikipedia: Architectural terracotta](https://en.wikipedia.org/wiki/Architectural_terracotta).
+
+### Ash glazing
+
+A glaze that comes from wood or plant ash. The ash melts with the clay and makes a green, yellow or brown glass.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1500 BCE | — | China (Shang dynasty): Ash falls on pots in a wood-fired kiln and melts into a thin green glaze. | |
+| 1 | Ceramics | c. 1930 | +3430 years | Hamada Shōji settles in Mashiko and mixes ash glazes from local plant ash and rock, and fires them in a wood-fired kiln. | [`mingei-folk-craft`](./mingei-folk-craft/SKILL.md) |
+| 2 | Ceramics | c. 2005 | +3505 years | Studio potters fire wood-ash and shino glazes on stoneware plates that they make with chefs. | [`chef-studio-tableware`](./chef-studio-tableware/SKILL.md) |
+
+Used by: [`mingei-folk-craft`](./mingei-folk-craft/SKILL.md), [`chef-studio-tableware`](./chef-studio-tableware/SKILL.md).
+
+- Burn wood or straw and sieve the ash.
+- Wash the ash to take out the soluble salts.
+- Mix it with clay and feldspar, or use it alone.
+- Pour or dip the glaze and fire to 1250 °C or more.
+
+Sources: [Wikipedia: Ash glaze](https://en.wikipedia.org/wiki/Ceramic_glaze#Ash_glazes); [Wikipedia: Shōji Hamada](https://en.wikipedia.org/wiki/Sh%C5%8Dji_Hamada).
 
 ### Board-marked concrete
 
@@ -626,6 +668,24 @@ Used by: [`brutalist-architecture`](./brutalist-architecture/SKILL.md), [`indust
 - Let the board joints run in one direction on each wall.
 
 Sources: Reyner Banham, The New Brutalism (1966).
+
+### Bone-ash body
+
+A porcelain body that holds calcined bone ash, about 40 to 50 per cent, with china clay and china stone. It fires white and strong at a lower heat.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1748 | — | Bow, London, England: Thomas Frye patents a porcelain with bone ash at the Bow works. | |
+| 1 | Ceramics | c. 1800 | +52 years | Josiah Spode II fixes a bone china recipe that Staffordshire potters then use for tea and dinner services. | [`regency-gilded-bone-china`](./regency-gilded-bone-china/SKILL.md) |
+
+Used by: [`regency-gilded-bone-china`](./regency-gilded-bone-china/SKILL.md).
+
+- Burn animal bone to white ash and grind it fine.
+- Mix the ash with china clay and china stone.
+- Form the ware and fire the biscuit at about 1250 °C.
+- Glaze and fire again at a lower heat.
+
+Sources: [Wikipedia: Bone china](https://en.wikipedia.org/wiki/Bone_china).
 
 ### Breeze block
 
@@ -699,6 +759,43 @@ Used by: [`victorian-boot`](./victorian-boot/SKILL.md).
 
 Sources: [Wikipedia: Boot](https://en.wikipedia.org/wiki/Boot); [Wikipedia: Chelsea boot](https://en.wikipedia.org/wiki/Chelsea_boot).
 
+### Glazed roof tile
+
+A roof tile of fine clay with a coloured lead glaze. The glaze makes the roof bright, hard and watertight, and its colour shows the rank of the building.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 500 | — | China: Chinese builders glaze roof tiles in the first centuries of the imperial age. | |
+| 1 | Ceramics | c. 1420 | +920 years | Imperial kilns near Beijing make yellow, green and blue glazed tile for the roofs of the Forbidden City. | [`liuli-glazed-roof`](./liuli-glazed-roof/SKILL.md) |
+
+Used by: [`liuli-glazed-roof`](./liuli-glazed-roof/SKILL.md).
+
+- Press the tile from a fine, pale clay and fire it to a biscuit at about 1000 °C.
+- Dip or brush the biscuit with a lead glaze that has copper, iron or cobalt in it.
+- Fire the glaze at 900 to 1000 °C.
+- Lay half-round cover tiles over flat pan tiles in a bed of lime mortar.
+
+Sources: [Wikipedia: Glazed tile](https://en.wikipedia.org/wiki/Glazed_tile); [Wikipedia: Forbidden City](https://en.wikipedia.org/wiki/Forbidden_City).
+
+### Gold pink enamel
+
+A soft rose-pink overglaze enamel that colloidal gold makes. Painters mix it with white enamel to make a range of tints from deep rose to white.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1720 | — | Jingdezhen, China: Painters at the imperial kilns start to use an enamel of gold from Europe to make pink and its tints. | |
+| 1 | Ceramics | c. 1720 | +0 years | Painters at Jingdezhen and in the palace workshops paint rose, flesh and petal tints on white porcelain in the Yongzheng and Qianlong years. | [`famille-rose-qing`](./famille-rose-qing/SKILL.md) |
+| 2 | Ceramics | c. 1757 | +37 years | Sèvres painters fire a pink enamel of gold, later called rose Pompadour, on soft-paste porcelain. | [`sevres-rococo-porcelain`](./sevres-rococo-porcelain/SKILL.md) |
+
+Used by: [`famille-rose-qing`](./famille-rose-qing/SKILL.md), [`sevres-rococo-porcelain`](./sevres-rococo-porcelain/SKILL.md).
+
+- Dissolve gold in acid and precipitate it with tin to make a purple powder.
+- Mix the powder with a lead glass frit and grind it to a fine paste.
+- Mix the pink with white enamel in different ratios to make tints.
+- Paint the tints on the fired glaze and fire again at 760 to 800 °C.
+
+Sources: [Wikipedia: Famille rose](https://en.wikipedia.org/wiki/Famille_rose); [Wikipedia: Purple of Cassius](https://en.wikipedia.org/wiki/Purple_of_Cassius).
+
 ### Laminated timber
 
 Thin boards or veneers glued in layers, so that wood forms long spans, bent shapes and large panels.
@@ -739,6 +836,24 @@ Used by: [`nylon-foundation-garments`](./nylon-foundation-garments/SKILL.md).
 
 Sources: [Wikipedia: Lastex](https://en.wikipedia.org/wiki/Lastex).
 
+### Lava glazing
+
+A thick glaze that blisters and runs in the kiln. It leaves a rough, cratered surface like cooled lava, often in two or more colours.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1960 | — | West Germany: Factories in the Westerwald region start to sell vases with a thick, bubbling volcanic glaze. | |
+| 1 | Ceramics | c. 1960 | +0 years | West German factories fire heavy vases in thick, cratered glazes of orange, brown and black. | [`west-german-fat-lava`](./west-german-fat-lava/SKILL.md) |
+
+Used by: [`west-german-fat-lava`](./west-german-fat-lava/SKILL.md).
+
+- Mix a glaze with a high content of frit and a gas-forming additive.
+- Apply it in a layer 2 to 4 mm thick over a base glaze.
+- Fire it so that the layer blisters and runs.
+- Cool the kiln slowly so that the crater surface sets.
+
+Sources: [Wikipedia: West German pottery](https://en.wikipedia.org/wiki/West_German_pottery); [Wikipedia: Ceramic glaze](https://en.wikipedia.org/wiki/Ceramic_glaze).
+
 ### Layered plastic frame
 
 A spectacle frame cut and polished from sheets of celluloid or acetate, often two or more layers of colour glued together before cutting.
@@ -776,6 +891,25 @@ Used by: [`critical-regionalism-architecture`](./critical-regionalism-architectu
 - Use pale tints only: white, sand and chalk blue.
 
 Sources: [Wikipedia, Whitewash](https://en.wikipedia.org/wiki/Whitewash); [Wikipedia, Lime plaster](https://en.wikipedia.org/wiki/Lime_plaster).
+
+### Matt glazing
+
+A thick, dry-looking glaze with a velvet surface. The potter adds alumina or a silica surplus, so that fine crystals make the surface dull.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1898 | — | Boston, United States: The Grueby Faience Company sells vases with a thick matt green glaze and moulded leaves. | |
+| 1 | Ceramics | c. 1898 | +0 years | Grueby and then Rookwood, Newcomb and others sell vases in a velvet matt glaze, with leaf and flower reliefs. | [`american-art-pottery`](./american-art-pottery/SKILL.md) |
+| 2 | Ceramics | c. 1939 | +41 years | The Steubenville Pottery sprays soft matt and satin glazes in grey, sea green and cinnamon on American Modern. | [`organic-modern-tableware`](./organic-modern-tableware/SKILL.md) |
+
+Used by: [`american-art-pottery`](./american-art-pottery/SKILL.md), [`organic-modern-tableware`](./organic-modern-tableware/SKILL.md).
+
+- Add alumina or a surplus of silica to the glaze, so that it does not melt to glass.
+- Apply the glaze thick, 1 to 2 mm, by dipping or by brush.
+- Fire it to the full heat and cool it slowly.
+- Wipe the shoulder clean of drips to show the form.
+
+Sources: [Wikipedia: Grueby Faience Company](https://en.wikipedia.org/wiki/Grueby_Faience_Company); [Wikipedia: American art pottery](https://en.wikipedia.org/wiki/American_art_pottery).
 
 ### Membrane lamination
 
@@ -851,6 +985,42 @@ Used by: [`mod-and-mini`](./mod-and-mini/SKILL.md).
 
 Sources: [Wikipedia: Polyvinyl chloride](https://en.wikipedia.org/wiki/Polyvinyl_chloride); [Wikipedia: Mary Quant](https://en.wikipedia.org/wiki/Mary_Quant).
 
+### Pyrogranite tile
+
+A hard, frost-proof ceramic that the Zsolnay factory made from 1886. It is fired at a very high heat and carries a strong glaze, so that it can face roofs and walls.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | 1886 | — | Pécs, Hungary: The Zsolnay factory develops pyrogranite, a frost-proof body for architectural ceramics. | |
+| 1 | Ceramics | 1893 | +7 years | Ödön Lechner and the Zsolnay factory use pyrogranite tile and relief for the roofs and facades of Budapest. | [`hungarian-secession-ceramics`](./hungarian-secession-ceramics/SKILL.md) |
+
+Used by: [`hungarian-secession-ceramics`](./hungarian-secession-ceramics/SKILL.md).
+
+- Mix a stoneware clay with grog and press it into a mould.
+- Fire the body at 1200 to 1300 °C until it is dense.
+- Apply a coloured glaze and fire it again.
+- Hang the tile on battens or set it in mortar on the wall.
+
+Sources: [Wikipedia: Zsolnay](https://en.wikipedia.org/wiki/Zsolnay).
+
+### Raised bole red
+
+A thick slip of red clay that stands in low relief on the tile and fires to a bright tomato red under a clear glaze. It is the signature colour of Iznik tiles.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1560 | — | Iznik, Anatolia: Iznik potters add a raised red to the palette from about 1560, after the first use on lamps for Süleyman. | |
+| 1 | Ceramics | c. 1560 | +0 years | Iznik potters paint tulips and carnations in raised red on tiles for the mosques of Istanbul. | [`iznik-tiles`](./iznik-tiles/SKILL.md) |
+
+Used by: [`iznik-tiles`](./iznik-tiles/SKILL.md).
+
+- Make a slip of red bole clay, rich in iron.
+- Apply it thick with a brush, so that it stands 0.5 to 1 mm above the white ground.
+- Cover it with a clear glaze and fire it in an oxidising kiln.
+- Use it for flowers, so that red joins blue, turquoise and green.
+
+Sources: [Wikipedia: Iznik pottery](https://en.wikipedia.org/wiki/Iznik_pottery).
+
 ### Rubber vulcanisation
 
 The heating of rubber with sulphur, so that it stays elastic in heat and cold. It made the rubber sole.
@@ -886,6 +1056,42 @@ Used by: [`gothic-architecture`](./gothic-architecture/SKILL.md), [`victorian-in
 
 Sources: Lawrence Lee, George Seddon and Francis Stephens, Stained Glass (1976).
 
+### Stonepaste body
+
+A body of ground quartz, glass frit and a little white clay. It is white and hard, and it takes a thin glaze, but it is not as clear as porcelain.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1000 | — | Egypt, Iraq and Iran: Potters of the Near East make a white quartz body to imitate Chinese porcelain. | |
+| 1 | Ceramics | c. 1480 | +480 years | Iznik potters make dishes and tiles of a white quartz body under a clear alkaline glaze. | [`iznik-pottery`](./iznik-pottery/SKILL.md) |
+
+Used by: [`iznik-pottery`](./iznik-pottery/SKILL.md).
+
+- Grind quartz pebbles to a fine powder.
+- Mix with glass frit and about 10 per cent of white clay.
+- Shape the body on the wheel or in a mould.
+- Glaze and fire at about 1000 °C.
+
+Sources: [Wikipedia: Fritware](https://en.wikipedia.org/wiki/Fritware); [Wikipedia: Iznik pottery](https://en.wikipedia.org/wiki/Iznik_pottery).
+
+### Tenmoku iron glaze
+
+A thick glaze with a high share of iron oxide. In a reduction firing the iron forms streaks, spots and a dark, glassy body.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1000 | — | Jianyang, Fujian, China: Jian potters of the Song dynasty make dark bowls for whisked tea, with streaks and spots that the kiln forms. | |
+| 1 | Ceramics | c. 1000 | +0 years | Jian kilns dip stoneware tea bowls in an iron glaze and fire them in reduction. | [`jian-tenmoku-ware`](./jian-tenmoku-ware/SKILL.md) |
+
+Used by: [`jian-tenmoku-ware`](./jian-tenmoku-ware/SKILL.md).
+
+- Mix a glaze with 5 to 9 per cent of iron oxide.
+- Dip the bowl and wipe the glaze from the foot.
+- Fire in reduction to 1250 to 1320 °C and hold the peak.
+- Cool slowly, so that iron crystals grow in the glaze.
+
+Sources: [Wikipedia: Tenmoku](https://en.wikipedia.org/wiki/Tenmoku); [Wikipedia: Jian ware](https://en.wikipedia.org/wiki/Jian_ware).
+
 ### Terrazzo
 
 Chips of marble or glass set in a binder and ground flat, so that each chip shows as a cut section.
@@ -906,6 +1112,24 @@ Used by: [`art-deco-architecture`](./art-deco-architecture/SKILL.md), [`mid-cent
 - Grind and polish the surface flat, so that the chip edges show as cut sections.
 
 Sources: Getty Art & Architecture Thesaurus, entry: terrazzo.
+
+### Uranium oxide glazing
+
+A lead glaze that holds uranium oxide fires to a bright orange-red. The red cannot be made with the common metal oxides at that heat.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1936 | — | Newell, West Virginia, USA: Homer Laughlin makes the red of Fiesta ware with uranium oxide. | |
+| 1 | Ceramics | c. 1936 | +0 years | Frederick Rhead and Homer Laughlin fire the red Fiesta glaze with uranium oxide. | [`fiesta-colourware`](./fiesta-colourware/SKILL.md) |
+
+Used by: [`fiesta-colourware`](./fiesta-colourware/SKILL.md).
+
+- Mix uranium oxide into a lead glaze.
+- Dip the biscuit piece in the glaze.
+- Fire in clean air at the glost heat.
+- Check each piece for an even red.
+
+Sources: [Wikipedia: Fiesta (dinnerware)](https://en.wikipedia.org/wiki/Fiesta_(dinnerware)).
 
 ### Vitreous enamelling
 
@@ -1005,6 +1229,24 @@ Used by: [`medieval-court-cuisine`](./medieval-court-cuisine/SKILL.md), [`renais
 
 Sources: [Wikipedia: Le Viandier](https://en.wikipedia.org/wiki/Le_Viandier).
 
+### Broken tile mosaic
+
+A mosaic of shards of glazed tile and china set in mortar. A mason can cover a curved surface with it, and the pieces give free, bright colour.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1900 | — | Barcelona, Catalonia: Antoni Gaudí and his team cover the benches and roofs of Park Güell with broken tile. | |
+| 1 | Ceramics | c. 1900 | +0 years | Masons at Park Güell set shards of tile and plate on curved walls, benches and roof ridges. | [`trencadis`](./trencadis/SKILL.md) |
+
+Used by: [`trencadis`](./trencadis/SKILL.md).
+
+- Break glazed tile and china by hand into pieces of 2 to 10 cm.
+- Spread a bed of wet mortar, 2 to 3 cm thick, on the curved surface.
+- Press the shards into the bed with the glaze outward and keep a joint of 3 to 5 mm.
+- Wipe the face clean before the mortar sets.
+
+Sources: [Wikipedia: Trencadís](https://en.wikipedia.org/wiki/Trencad%C3%ADs).
+
 ### Cantilever
 
 A beam or slab fixed at one end that carries load beyond its support, so that it seems to hang in the air.
@@ -1027,6 +1269,42 @@ Used by: [`prairie-school-architecture`](./prairie-school-architecture/SKILL.md)
 - Repeat the horizontal line in a run of 2 or 3 projecting planes to give a strong shadow.
 
 Sources: Wikipedia, Cantilever; [Wikipedia, Fallingwater](https://en.wikipedia.org/wiki/Fallingwater).
+
+### Ceramic rainscreen
+
+A wall skin of hollow clay panels on rails, with an air gap behind. The panels keep rain off the wall, and the air dries it.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1990 | — | Germany: German makers extrude hollow terracotta panels for hung, ventilated facades. | |
+| 1 | Ceramics | c. 1990 | +0 years | Architects use extruded terracotta panels on rails for offices, schools and museums in northern Europe. | [`terracotta-rainscreen`](./terracotta-rainscreen/SKILL.md) |
+
+Used by: [`terracotta-rainscreen`](./terracotta-rainscreen/SKILL.md).
+
+- Extrude the panel hollow in a die, with a wall of 15 to 30 mm.
+- Fire the panel once, with an engobe or a glaze if the design needs it.
+- Hang each panel on a clip and a rail of stainless steel.
+- Keep an air gap of 20 to 50 mm and an open joint of 6 to 10 mm.
+
+Sources: [Wikipedia: Rainscreen](https://en.wikipedia.org/wiki/Rainscreen); [Wikipedia: Architectural terracotta](https://en.wikipedia.org/wiki/Architectural_terracotta).
+
+### Ceramming
+
+A formed piece of glass is heated in two steps. Fine crystals grow in the glass and make it a glass-ceramic that does not break in a heat shock.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | 1953 | — | Corning, New York: S. Donald Stookey finds that a glass left in a furnace at too high a heat does not melt and turns opaque. | |
+| 1 | Ceramics | 1958 | +5 years | Corning turns the process into cookware: pans of white glass-ceramic go from the freezer to a gas flame. | [`glass-ceramic-cookware`](./glass-ceramic-cookware/SKILL.md) |
+
+Used by: [`glass-ceramic-cookware`](./glass-ceramic-cookware/SKILL.md).
+
+- Melt a glass of lithium, aluminium and silica with a nucleating agent such as titanium dioxide.
+- Form the piece as glass and cool it.
+- Hold the piece at about 750 °C, so that nuclei form.
+- Raise the heat to about 1100 °C, so that the crystals grow and fill the glass.
+
+Sources: [Wikipedia: Glass-ceramic](https://en.wikipedia.org/wiki/Glass-ceramic); [Wikipedia: S. Donald Stookey](https://en.wikipedia.org/wiki/S._Donald_Stookey).
 
 ### Ceviche curing
 
@@ -1131,6 +1409,26 @@ Used by: [`clay-3d-icon`](./clay-3d-icon/SKILL.md), [`claymorphism`](./claymorph
 
 Sources: Michael Frierson, Clay Animation: American Highlights 1908 to the Present (1994).
 
+### Cobalt underglaze painting
+
+Cobalt oxide is painted on the raw or bisque body. A clear glaze covers it, and one firing turns the paint a deep blue.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1330 | — | Jingdezhen, Jiangxi, China: Jingdezhen potters make blue-and-white porcelain with imported cobalt. | |
+| 1 | Ceramics | c. 1330 | +0 years | Jingdezhen kilns paint porcelain with cobalt for the Yuan court and the export trade. | [`yuan-ming-blue-and-white`](./yuan-ming-blue-and-white/SKILL.md) |
+| 2 | Ceramics | c. 1480 | +150 years | Iznik potters copy Chinese blue-and-white and paint cobalt on a white stonepaste body. | [`iznik-pottery`](./iznik-pottery/SKILL.md) |
+| 3 | Ceramics | c. 1570 | +240 years | Jingdezhen potters paint panelled dishes in cobalt blue for export to Portugal and, later, the Dutch Republic. | [`kraak-porcelain`](./kraak-porcelain/SKILL.md) |
+
+Used by: [`yuan-ming-blue-and-white`](./yuan-ming-blue-and-white/SKILL.md), [`iznik-pottery`](./iznik-pottery/SKILL.md), [`kraak-porcelain`](./kraak-porcelain/SKILL.md).
+
+- Grind cobalt ore and mix it with water.
+- Paint the design on the dry body with a brush.
+- Dip the piece in a clear glaze.
+- Fire it once at 1250 to 1300 °C.
+
+Sources: [Wikipedia: Blue and white pottery](https://en.wikipedia.org/wiki/Blue_and_white_pottery); [Wikipedia: Cobalt blue](https://en.wikipedia.org/wiki/Cobalt_blue).
+
 ### Coloured gel lighting
 
 A white lamp covered with a sheet of coloured film, so that a set or a face is lit in red, blue or green with no natural cause.
@@ -1191,6 +1489,61 @@ Used by: [`americana-workwear`](./americana-workwear/SKILL.md).
 
 Sources: [Wikipedia: Jeans](https://en.wikipedia.org/wiki/Jeans); [Wikipedia: Rivet](https://en.wikipedia.org/wiki/Rivet).
 
+### Cord marking
+
+Twisted cord or a cord-wrapped stick is rolled or pressed into the wet clay wall. It leaves a dense texture of fine ridges.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 14000 BCE | — | Japanese archipelago: Jōmon potters press cord into the wet wall of the first Japanese pots. | |
+| 1 | Ceramics | c. 14000 BCE | +0 years | Jōmon potters mark the whole wall of a deep pot with cord and name the period after the pattern. | [`jomon-pottery`](./jomon-pottery/SKILL.md) |
+
+Used by: [`jomon-pottery`](./jomon-pottery/SKILL.md).
+
+- Twist two strands of plant fibre into a cord.
+- Wind the cord round a stick or lay it flat on the wet wall.
+- Roll or press it across the wall in rows or bands.
+- Dry the pot and fire it in a bonfire.
+
+Sources: [Wikipedia: Jōmon pottery](https://en.wikipedia.org/wiki/J%C5%8Dmon_pottery); [Wikipedia: Cord-marked pottery](https://en.wikipedia.org/wiki/Cord-marked_pottery).
+
+### Cuerda seca
+
+A line of grease and manganese oxide is drawn round each colour field on an unfired tile, so that the coloured glazes do not run into each other. The line fires to a matt dark edge.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1400 | — | Iran and Spain: Potters in Iran and in Islamic Spain use a resist line to keep glaze colours apart on wall tiles. | |
+| 1 | Ceramics | c. 1500 | +100 years | Seville tile makers use cuerda seca for tile panels with coloured glazes before the painted maiolica tile takes over. | [`azulejo`](./azulejo/SKILL.md) |
+
+Used by: [`azulejo`](./azulejo/SKILL.md).
+
+- Draw the design on the biscuit tile.
+- Trace each outline with a mix of grease and manganese oxide.
+- Fill each field with a different glaze.
+- Fire the tile so that the grease burns out and leaves a dark, matt line.
+
+Sources: [Wikipedia: Cuerda seca](https://en.wikipedia.org/wiki/Cuerda_seca).
+
+### Cut tile mosaic
+
+Glazed tiles of one colour are cut into small shapes, and the shapes are set face down in a plaster bed to form a pattern. The bed holds the pieces after it dries.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1200 | — | Anatolia and Iran: Seljuk builders in Anatolia and Iran cover domes and entrance halls with mosaics of cut, glazed tiles. | |
+| 1 | Ceramics | c. 1200 | +0 years | Seljuk builders cut glazed tiles into turquoise, blue and black pieces for domes, arches and walls in Konya and Iran. | [`islamic-tile-mosaic`](./islamic-tile-mosaic/SKILL.md) |
+| 2 | Ceramics | c. 1300 | +100 years | Marinid builders in Fez and Meknes cut glazed tiles into small stars and polygons for walls and fountains. | [`zellige`](./zellige/SKILL.md) |
+
+Used by: [`islamic-tile-mosaic`](./islamic-tile-mosaic/SKILL.md), [`zellige`](./zellige/SKILL.md).
+
+- Glaze and fire plain tiles in 5 or 6 colours.
+- Cut each tile into pieces with a chisel and a hammer.
+- Lay the pieces face down on a drawn pattern, with joints under 1 mm.
+- Pour a bed of plaster over the back and let it set.
+
+Sources: [Wikipedia: Tile](https://en.wikipedia.org/wiki/Tile); [Wikipedia: Zellige](https://en.wikipedia.org/wiki/Zellige).
+
 ### Dual soft shadow
 
 A light shadow on one side and a dark shadow on the other, on a ground of the same colour, so that a shape seems pressed out of the surface.
@@ -1207,6 +1560,25 @@ Used by: [`neumorphism`](./neumorphism/SKILL.md), [`claymorphism`](./claymorphis
 - Blur each shadow by 2 times its distance.
 
 Sources: Michal Malewicz, Neumorphism in user interfaces (2019).
+
+### Dust pressing
+
+Nearly dry clay powder is pressed in a steel die under high pressure to form a tile in one step. The tile needs little drying and keeps its size.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | 1840 | — | Staffordshire, England: Richard Prosser takes out a patent for pressing tiles from clay dust, and Minton uses it for floor tiles. | |
+| 1 | Ceramics | 1840 | +0 years | Minton and other Staffordshire firms press floor tiles from dust in a steel die, and the tiles have square, even edges. | [`victorian-encaustic-tiles`](./victorian-encaustic-tiles/SKILL.md) |
+| 2 | Ceramics | 1904 | +64 years | New York tile works press small white wall tiles from dust, with bevelled edges and ribs on the back. | [`subway-tile`](./subway-tile/SKILL.md) |
+
+Used by: [`victorian-encaustic-tiles`](./victorian-encaustic-tiles/SKILL.md), [`subway-tile`](./subway-tile/SKILL.md).
+
+- Grind the clay and sieve it to a fine powder with about 6 per cent water.
+- Fill the steel die and press the powder under a screw or hydraulic press.
+- Remove the tile and fire it with no long drying.
+- Keep the size of each tile within 0.5 mm.
+
+Sources: [Wikipedia: Tile](https://en.wikipedia.org/wiki/Tile); [Wikipedia: Minton tiles](https://en.wikipedia.org/wiki/Minton_%26_Co.).
 
 ### Etching
 
@@ -1389,6 +1761,42 @@ Used by: [`wedge-design-car`](./wedge-design-car/SKILL.md).
 
 Sources: [Wikipedia: Fiberglass](https://en.wikipedia.org/wiki/Fiberglass); [Wikipedia: Fibre-reinforced plastic](https://en.wikipedia.org/wiki/Fiber-reinforced_plastic).
 
+### Glaze splashing
+
+Lead glazes of different colours are brushed, dripped or splashed on a fired body. They run together in the second firing and make streaks of amber, green and cream.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 700 | — | Henan and Shaanxi, Tang China: Tang kilns make sancai tomb figures and vessels with running lead glazes in amber, green and cream. | |
+| 1 | Ceramics | c. 700 | +0 years | Kilns at Gongxian and near Chang'an splash three lead glazes on horses, camels and court ladies for tombs. | [`tang-sancai-figures`](./tang-sancai-figures/SKILL.md) |
+
+Used by: [`tang-sancai-figures`](./tang-sancai-figures/SKILL.md).
+
+- Fire the pressed body to about 1050 °C.
+- Brush or drip the coloured lead glazes on the biscuit.
+- Leave the base bare of glaze.
+- Fire again at 800 to 900 °C, so that the glazes run and mix.
+
+Sources: [Wikipedia: Tang sancai](https://en.wikipedia.org/wiki/Tang_sancai); [Wikipedia: Chinese ceramics](https://en.wikipedia.org/wiki/Chinese_ceramics).
+
+### Glazed brick relief
+
+Bricks are pressed in a relief mould, glazed in colour and fired, then laid in numbered courses so that the figures form on the wall.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 604 BCE | — | Babylon, Mesopotamia: Builders of Nebuchadnezzar II face the Ishtar Gate and the Processional Way with moulded and glazed bricks. | |
+| 1 | Ceramics | c. 604 BCE | +0 years | Babylonian builders glaze moulded bricks in blue, white and yellow and set them in rows of lions, bulls and dragons. | [`babylonian-glazed-brick`](./babylonian-glazed-brick/SKILL.md) |
+
+Used by: [`babylonian-glazed-brick`](./babylonian-glazed-brick/SKILL.md).
+
+- Press the brick clay into a wooden mould that carries a part of the relief.
+- Dry the brick and fire it once, then paint the glaze in colour fields.
+- Fire the brick a second time at about 950 °C so that the glaze melts.
+- Number the side of each brick and lay the courses in bitumen or lime mortar.
+
+Sources: [Wikipedia: Glazed brick](https://en.wikipedia.org/wiki/Glazed_brick); [Wikipedia: Ishtar Gate](https://en.wikipedia.org/wiki/Ishtar_Gate).
+
 ### Glitch
 
 A fault in a signal, kept as an image: torn lines, split colour channels and repeated frames.
@@ -1483,6 +1891,25 @@ Used by: [`victorian-millinery`](./victorian-millinery/SKILL.md).
 
 Sources: [Wikipedia: Millinery](https://en.wikipedia.org/wiki/Millinery); [Wikipedia: Felt](https://en.wikipedia.org/wiki/Felt).
 
+### Hollow terracotta block
+
+A building block of clay that has webs inside. A maker presses it in a mould, so that it dries and fires without a crack and weighs little.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1850 | — | England: English makers in Lambeth and Staffordshire start to sell pressed terracotta blocks for buildings. | |
+| 1 | Ceramics | c. 1860 | +10 years | Makers in London and Leeds press hollow terracotta blocks for museums, schools and town halls. | [`victorian-architectural-terracotta`](./victorian-architectural-terracotta/SKILL.md) |
+| 2 | Ceramics | c. 1885 | +35 years | Chicago works make thin, hollow terracotta tile that hangs on the steel frame of a tall building. | [`chicago-school-terracotta`](./chicago-school-terracotta/SKILL.md) |
+
+Used by: [`victorian-architectural-terracotta`](./victorian-architectural-terracotta/SKILL.md), [`chicago-school-terracotta`](./chicago-school-terracotta/SKILL.md).
+
+- Press the clay in a plaster mould to the shape and the relief of the block.
+- Leave the back open and add webs inside, with a wall of 25 to 50 mm.
+- Dry the block slowly, then fire it hard at about 1100 °C.
+- Bed the block in mortar and tie it to the backing wall or the steel frame.
+
+Sources: [Wikipedia: Architectural terracotta](https://en.wikipedia.org/wiki/Architectural_terracotta).
+
 ### Injection moulding
 
 Hot plastic is pushed into a steel mould under high pressure. The part cools, and the mould opens to release it.
@@ -1521,6 +1948,24 @@ Used by: [`american-pocket-watch`](./american-pocket-watch/SKILL.md).
 
 Sources: [Wikipedia: Waltham Watch Company](https://en.wikipedia.org/wiki/Waltham_Watch_Company); [Wikipedia: American system of manufacturing](https://en.wikipedia.org/wiki/American_system_of_manufacturing).
 
+### Inverted firing
+
+A bowl is fired upside down on its rim in a ring of fireclay, so that the wall stays thin and true. The rim has no glaze and takes a metal band.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1000 | — | Hebei, China: Potters at the Ding kilns start to fire bowls upside down on their rims. | |
+| 1 | Ceramics | c. 1000 | +0 years | Ding potters stack thin bowls rim-down in stepped saggar rings and bind the bare rims with metal. | [`ding-white-ware`](./ding-white-ware/SKILL.md) |
+
+Used by: [`ding-white-ware`](./ding-white-ware/SKILL.md).
+
+- Throw a thin bowl and coat it with glaze.
+- Wipe the glaze from the rim.
+- Set the bowl rim-down on a stepped ring of fireclay.
+- Fire the stack, then bind the bare rim with copper or silver.
+
+Sources: [Wikipedia: Ding ware](https://en.wikipedia.org/wiki/Ding_ware).
+
 ### Isometric projection
 
 A drawing with three axes at equal angles and one scale, with no vanishing point, so that sizes can be measured.
@@ -1541,6 +1986,24 @@ Used by: [`corporate-memphis`](./corporate-memphis/SKILL.md), [`bento-grid-ui`](
 - Keep one scale on all three axes and draw no vanishing point.
 
 Sources: William Farish, On Isometrical Perspective (Transactions of the Cambridge Philosophical Society, 1822).
+
+### Joined-hemisphere throwing
+
+Two large bowls are thrown on the wheel and joined at the rim when leather-hard. The seam is smoothed, and the sphere closes at the top with a collar.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1650 | — | Gwangju, Korea: Joseon potters throw large round jars in two halves and join them. | |
+| 1 | Ceramics | c. 1650 | +0 years | Joseon potters make the large white moon jar in two bowls joined at the belly. | [`joseon-moon-jar`](./joseon-moon-jar/SKILL.md) |
+
+Used by: [`joseon-moon-jar`](./joseon-moon-jar/SKILL.md).
+
+- Throw two bowls of the same width on the wheel.
+- Dry both until they are leather-hard.
+- Join the rims with slip and smooth the seam inside and outside.
+- Add a neck and a foot ring, then glaze and fire.
+
+Sources: [Wikipedia: Moon jar](https://en.wikipedia.org/wiki/Moon_jar); [Wikipedia: Joseon white porcelain](https://en.wikipedia.org/wiki/Joseon_white_porcelain).
 
 ### Kitchen brigade
 
@@ -1577,6 +2040,24 @@ Used by: [`new-nordic`](./new-nordic/SKILL.md), [`plant-based-fine-dining`](./pl
 - Chill the ferment when the acid is right, and use the juice as a sauce or a seasoning.
 
 Sources: [Wikipedia: Lactic acid fermentation](https://en.wikipedia.org/wiki/Lactic_acid_fermentation); [Wikipedia: Daniel Humm](https://en.wikipedia.org/wiki/Daniel_Humm).
+
+### Layered glazing
+
+A glaze is put on in several thin coats with a firing or a drying step between them. The layers make a thick, deep and soft surface.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1150 | — | Longquan, Zhejiang, China: Longquan potters build a thick celadon glaze from several coats. | |
+| 1 | Ceramics | c. 1150 | +0 years | Longquan kilns put a thick, jade-like glaze on the body in several coats. | [`longquan-celadon`](./longquan-celadon/SKILL.md) |
+
+Used by: [`longquan-celadon`](./longquan-celadon/SKILL.md).
+
+- Bisque fire the pot.
+- Dip or brush a thin coat of glaze and let it dry.
+- Repeat the coat up to ten times.
+- Fire the pot in reduction, so that the glaze turns green and soft.
+
+Sources: [Wikipedia: Longquan celadon](https://en.wikipedia.org/wiki/Longquan_celadon); [Wikipedia: Celadon](https://en.wikipedia.org/wiki/Celadon).
 
 ### Letterpress
 
@@ -1677,6 +2158,43 @@ Used by: [`brutalist-jewellery`](./brutalist-jewellery/SKILL.md), [`modernist-st
 
 Sources: [Wikipedia: Lost-wax casting](https://en.wikipedia.org/wiki/Lost-wax_casting).
 
+### Lustre firing
+
+A thin film of copper or silver on a glazed pot gives a metallic shine. The potter paints a pigment on the glaze and fires it in smoke at a low heat.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 800 | — | Iraq: Potters of Basra paint metal pigments on tin-glazed pots and fire them in smoke to make a gold sheen. | |
+| 1 | Ceramics | c. 1872 | +1072 years | William De Morgan tests lustre in Chelsea and makes ruby and gold lustre tiles and vases in London. | [`arts-and-crafts-art-pottery`](./arts-and-crafts-art-pottery/SKILL.md) |
+
+Used by: [`arts-and-crafts-art-pottery`](./arts-and-crafts-art-pottery/SKILL.md).
+
+- Mix a copper or silver compound with clay and vinegar to make a paste.
+- Paint the paste on the fired glaze.
+- Fire the pot at 600 to 800 °C and fill the kiln with smoke in the second half.
+- Wash off the clay after the firing to show the metallic film.
+
+Sources: [Wikipedia: Lustreware](https://en.wikipedia.org/wiki/Lustreware); [Wikipedia: William De Morgan](https://en.wikipedia.org/wiki/William_De_Morgan).
+
+### Lustre painting
+
+A paint with copper and silver salts is brushed on a glazed pot. A second firing in a smoky kiln leaves a thin layer of metal with a gold or copper shine.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 800 | — | Basra, Iraq: Abbasid potters make the first lustre on glazed pots. | |
+| 1 | Ceramics | c. 800 | +0 years | Abbasid potters paint bowls and tiles with lustre in brown, gold and olive. | [`abbasid-lustreware`](./abbasid-lustreware/SKILL.md) |
+| 2 | Ceramics | c. 1300 | +500 years | Moorish potters in Malaga and Valencia bring lustre to Spain and make it a trade ware. | [`hispano-moresque-lustreware`](./hispano-moresque-lustreware/SKILL.md) |
+
+Used by: [`abbasid-lustreware`](./abbasid-lustreware/SKILL.md), [`hispano-moresque-lustreware`](./hispano-moresque-lustreware/SKILL.md).
+
+- Fire the pot with a tin glaze and let it cool.
+- Paint the pattern with a mix of copper or silver salts, ochre and vinegar.
+- Fire the pot again at about 600 °C in a smoky kiln.
+- Wash off the ochre to show the metallic film.
+
+Sources: [Wikipedia: Lustreware](https://en.wikipedia.org/wiki/Lustreware); [Wikipedia: Hispano-Moresque ware](https://en.wikipedia.org/wiki/Hispano-Moresque_ware).
+
 ### Market menu
 
 The chef writes the menu after the visit to the market or the farm, and the dishes change each day or each week with what is fresh.
@@ -1730,6 +2248,26 @@ Used by: [`mezzotint-print`](./mezzotint-print/SKILL.md).
 - Print only 50–100 good impressions; the soft grain wears quickly.
 
 Sources: [Wikipedia: Mezzotint](https://en.wikipedia.org/wiki/Mezzotint); [Wikipedia: Ludwig von Siegen](https://en.wikipedia.org/wiki/Ludwig_von_Siegen).
+
+### Modular figure assembly
+
+A figure is made in many standard parts, such as heads, torsos, arms and props, and the parts are joined and finished by hand. One set of moulds gives many different figures.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 221 BCE | — | Lintong, Shaanxi, China: The state workshops of the First Emperor make heads and hands in moulds and join them to hand-built bodies. | |
+| 1 | Ceramics | c. 221 BCE | +0 years | Workshops build the torso by coils, press the head in a two-piece mould and finish each face by hand. | [`qin-terracotta-warriors`](./qin-terracotta-warriors/SKILL.md) |
+| 2 | Ceramics | 1731 | +1952 years | Meissen modellers cast figures in many small piece moulds and join arms, heads and props with slip. | [`rococo-porcelain-figures`](./rococo-porcelain-figures/SKILL.md) |
+| 3 | Ceramics | c. 1751 | +1972 years | Vincennes and Sèvres cast biscuit figures in piece moulds, and cut the seams until they disappear. | [`biscuit-porcelain-figures`](./biscuit-porcelain-figures/SKILL.md) |
+
+Used by: [`biscuit-porcelain-figures`](./biscuit-porcelain-figures/SKILL.md), [`qin-terracotta-warriors`](./qin-terracotta-warriors/SKILL.md), [`rococo-porcelain-figures`](./rococo-porcelain-figures/SKILL.md).
+
+- Model the figure and cut it into parts.
+- Press or cast each part in its own mould.
+- Join the parts with slip while the clay is soft.
+- Finish the joins and the face by hand, so that each figure differs.
+
+Sources: [Wikipedia: Terracotta Army](https://en.wikipedia.org/wiki/Terracotta_Army); [Wikipedia: Biscuit porcelain](https://en.wikipedia.org/wiki/Biscuit_porcelain).
 
 ### Modular grid
 
@@ -1787,6 +2325,28 @@ Used by: [`pointillism`](./pointillism/SKILL.md), [`pictorialism`](./pictorialis
 - Keep each dot under 0.5% of the picture width.
 
 Sources: Michel-Eugène Chevreul, The Principles of Harmony and Contrast of Colours (1839).
+
+### Overglaze enamelling
+
+Coloured glass enamels are painted on a glazed and fired piece. A third firing at a low heat fixes them on the glaze.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1465 | — | Jingdezhen, Jiangxi, China: Jingdezhen potters add the first on-glaze enamel colours to blue-and-white porcelain. | |
+| 1 | Ceramics | c. 1647 | +182 years | Arita potters of the Kakiemon workshop fix a clear red and soft green on a milk-white body. | [`kakiemon-imari-export`](./kakiemon-imari-export/SKILL.md) |
+| 2 | Ceramics | c. 1650 | +185 years | Kyoto potters paint enamel and gold on a pale crackle glaze, as Ninsei did at the Omuro kiln. | [`kyo-yaki-overglaze`](./kyo-yaki-overglaze/SKILL.md) |
+| 3 | Ceramics | c. 1720 | +255 years | Johann Gregorius Höroldt arrives at Meissen and builds a palette of enamel colours for the hard-paste porcelain. | [`meissen-baroque-porcelain`](./meissen-baroque-porcelain/SKILL.md) |
+| 4 | Ceramics | c. 1745 | +280 years | English porcelain factories paint flowers and insects in enamel on soft-paste tea ware. | [`georgian-porcelain-tea-service`](./georgian-porcelain-tea-service/SKILL.md) |
+| 5 | Ceramics | 1923 | +458 years | Painters of the State Porcelain Factory fix flat planes of black and red enamel on white cups. | [`suprematist-porcelain`](./suprematist-porcelain/SKILL.md) |
+
+Used by: [`kakiemon-imari-export`](./kakiemon-imari-export/SKILL.md), [`meissen-baroque-porcelain`](./meissen-baroque-porcelain/SKILL.md), [`kyo-yaki-overglaze`](./kyo-yaki-overglaze/SKILL.md), [`georgian-porcelain-tea-service`](./georgian-porcelain-tea-service/SKILL.md), [`suprematist-porcelain`](./suprematist-porcelain/SKILL.md).
+
+- Fire the piece with a clear glaze.
+- Paint the design with enamels of red, green, yellow and blue.
+- Fire it again in a small muffle kiln at 750 to 850 °C.
+- Add gold in a last low firing, when the design needs it.
+
+Sources: [Wikipedia: Overglaze decoration](https://en.wikipedia.org/wiki/Overglaze_decoration); [Wikipedia: Kakiemon](https://en.wikipedia.org/wiki/Kakiemon).
 
 ### Perspective grid
 
@@ -1886,6 +2446,25 @@ Used by: [`realism-painting`](./realism-painting/SKILL.md), [`nordic-national-ro
 
 Sources: John House, Impressionism: Paint and Politics (2004).
 
+### Pounce transfer
+
+A drawing on paper is pricked along its lines and dabbed with a bag of charcoal dust, so that dots of the design go onto the surface below.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Painting | c. 1400 | — | Florence, Italy: Fresco painters transfer cartoons to wet plaster with pounced dots (spolvero). | |
+| 1 | Ceramics | c. 1620 | +220 years | Delft tile painters pounce one pattern onto many tiles with a pricked sheet, the spons. | [`delft-tiles`](./delft-tiles/SKILL.md) |
+| 2 | Ceramics | c. 1640 | +240 years | Delft painters pounce the same pattern onto many plates and tiles with a pricked sheet, the spons. | [`delftware`](./delftware/SKILL.md) |
+
+Used by: [`delftware`](./delftware/SKILL.md), [`delft-tiles`](./delft-tiles/SKILL.md).
+
+- Draw the design at full size on paper.
+- Prick holes along each line, 2 to 3 mm apart.
+- Lay the sheet on the surface and dab it with a bag of charcoal or graphite dust.
+- Paint over the dots; the dust burns away in the kiln or wipes off.
+
+Sources: [Wikipedia: Pouncing (art)](https://en.wikipedia.org/wiki/Pouncing_(art)).
+
 ### Pre-rendered background
 
 Render a room or a street offline in 3D software, then show it as a fixed image behind a real-time figure or a cursor.
@@ -1903,6 +2482,60 @@ Used by: [`pre-rendered-backgrounds`](./pre-rendered-backgrounds/SKILL.md).
 - Match the figure's light direction to the render.
 
 Sources: [Wikipedia: Pre-rendering](https://en.wikipedia.org/wiki/Pre-rendering); [Wikipedia: Myst](https://en.wikipedia.org/wiki/Myst).
+
+### Press moulding in a bowl mould
+
+Soft clay is pressed into a fired clay mould that carries a design in reverse. The bowl keeps a sharp relief when it comes out of the mould.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 250 BCE | — | Athens, Greece: Potters of Athens make relief bowls in moulds, now called Megarian bowls. | |
+| 1 | Ceramics | c. 30 BCE | +220 years | The workshops of Arretium press stamped bowls in fired moulds and coat them with a red slip. | [`roman-terra-sigillata`](./roman-terra-sigillata/SKILL.md) |
+
+Used by: [`roman-terra-sigillata`](./roman-terra-sigillata/SKILL.md).
+
+- Stamp or carve the design into a bowl-shaped mould of clay.
+- Fire the mould hard.
+- Press soft clay into the mould and let it dry a little.
+- Lift out the bowl, then turn the rim and the foot on the wheel.
+
+Sources: [Wikipedia: Megarian bowl](https://en.wikipedia.org/wiki/Megarian_bowl); [Wikipedia: Arretine ware](https://en.wikipedia.org/wiki/Arretine_ware).
+
+### Raku firing
+
+A short, hot firing of one small piece. The potter opens the kiln and pulls the glowing piece out with tongs.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1580 | — | Kyoto, Japan: Chōjirō fires hand-built bowls one at a time for Sen no Rikyū and pulls them from the hot kiln. | |
+| 1 | Ceramics | c. 1580 | +0 years | The Raku workshop fires each tea bowl alone and pulls it hot from the kiln. | [`raku-tea-bowl`](./raku-tea-bowl/SKILL.md) |
+
+Used by: [`raku-tea-bowl`](./raku-tea-bowl/SKILL.md).
+
+- Bisque fire the hand-built piece to about 800 °C.
+- Dip it in a lead glaze.
+- Fire it alone in a small kiln until the glaze melts, at 800 to 1000 °C.
+- Pull it out with tongs and let it cool in the air.
+
+Sources: [Wikipedia: Raku ware](https://en.wikipedia.org/wiki/Raku_ware).
+
+### Reduction firing
+
+A kiln fires with too little air, so that the flames take oxygen from the glaze and the clay. Iron turns green or black, and copper turns red.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 200 | — | Zhejiang, China: Potters at the Yue kilns fire green-glazed stoneware in a kiln with a smoky, low-air flame. | |
+| 1 | Ceramics | 1920 | +1720 years | Bernard Leach builds a Japanese climbing kiln at St Ives and fires ash and celadon glazes in reduction at 1280 °C. | [`anglo-oriental-studio-pottery`](./anglo-oriental-studio-pottery/SKILL.md) |
+
+Used by: [`anglo-oriental-studio-pottery`](./anglo-oriental-studio-pottery/SKILL.md).
+
+- Close the damper and the air inlets in the high part of the firing.
+- Let the flames fill the kiln with carbon monoxide.
+- Keep the reduction for 1 to 3 hours at about 1000 to 1300 °C.
+- Open the air and cool the kiln slowly.
+
+Sources: [Wikipedia: Kiln](https://en.wikipedia.org/wiki/Kiln); [Wikipedia: Celadon](https://en.wikipedia.org/wiki/Celadon).
 
 ### Regional sourcing
 
@@ -1957,6 +2590,44 @@ Used by: [`cuisine-francoise`](./cuisine-francoise/SKILL.md), [`grande-cuisine`]
 
 Sources: [Wikipedia: François Pierre La Varenne](https://en.wikipedia.org/wiki/Fran%C3%A7ois_Pierre_La_Varenne); [Wikipedia: Roux](https://en.wikipedia.org/wiki/Roux).
 
+### Salt glazing
+
+Rock salt is thrown into a kiln at stoneware heat. The salt vapour reacts with the clay and forms a thin hard glaze with an orange-peel texture.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1400 | — | Rhineland, Germany: Potters of Siegburg and Raeren glaze stoneware with salt in the 15th century. | |
+| 1 | Ceramics | c. 1400 | +0 years | Rhineland potters glaze jugs and jars with salt from about 1400, so that the pots hold liquids without a lead lining. | [`rhenish-salt-glaze-stoneware`](./rhenish-salt-glaze-stoneware/SKILL.md) |
+| 2 | Ceramics | c. 1800 | +400 years | American potters throw salt in the kiln to glaze crocks and jugs, with the same method that the Rhenish potters use. | [`american-stoneware-crock`](./american-stoneware-crock/SKILL.md) |
+
+Used by: [`rhenish-salt-glaze-stoneware`](./rhenish-salt-glaze-stoneware/SKILL.md), [`american-stoneware-crock`](./american-stoneware-crock/SKILL.md).
+
+- Fire the stoneware to 1200 to 1300 °C.
+- Throw 1 to 2 kg of rock salt for each cubic metre through ports in the kiln wall.
+- Seal the ports and let the vapour settle for 20 to 30 minutes.
+- Keep the wall 4 mm or more thick, so that the pot does not crack in the heat shock.
+
+Sources: [Wikipedia: Salt glaze pottery](https://en.wikipedia.org/wiki/Salt_glaze_pottery).
+
+### Sanggam inlay
+
+Lines are cut into leather-hard clay and filled with white or black slip. The glaze then covers the surface, and the pattern shows below it.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1150 | — | Korea (Goryeo): Goryeo potters inlay celadon with white and black slip. | |
+| 1 | Ceramics | c. 1150 | +0 years | Goryeo potters inlay cranes, clouds and flowers in the green celadon. | [`goryeo-celadon`](./goryeo-celadon/SKILL.md) |
+| 2 | Ceramics | c. 1400 | +250 years | Early Joseon potters use the same inlay on grey stoneware under a white slip. | [`joseon-buncheong`](./joseon-buncheong/SKILL.md) |
+
+Used by: [`goryeo-celadon`](./goryeo-celadon/SKILL.md), [`joseon-buncheong`](./joseon-buncheong/SKILL.md).
+
+- Cut or stamp the pattern into the leather-hard clay.
+- Fill the lines with white or dark slip.
+- Scrape the surface flat.
+- Cover with glaze and fire.
+
+Sources: [Wikipedia: Korean celadon](https://en.wikipedia.org/wiki/Korean_celadon); [Wikipedia: Buncheong](https://en.wikipedia.org/wiki/Buncheong).
+
 ### Screen printing
 
 Ink pushed through a fine mesh with a squeegee; a stencil on the mesh blocks the parts that do not print.
@@ -1969,9 +2640,10 @@ Ink pushed through a fine mesh with a squeegee; a stencil on the mesh blocks the
 | 3 | Graphic & UI Design | c. 1965 | +58 years | Poster studios screen print posters in flat, bright colours for clubs and protests. | [`pop-art-web`](./pop-art-web/SKILL.md) |
 | 4 | Fashion | 1976 | +69 years | The King's Road shop screen prints slogans and images on plain cotton T-shirts for the London punk scene. | [`punk-fashion`](./punk-fashion/SKILL.md) |
 | 5 | Fashion | 1980 | +73 years | Surf and skate labels screen print a name or a mark on the chest of a plain T-shirt and sell it in small runs. | [`streetwear`](./streetwear/SKILL.md) |
-| 6 | Fashion | 1985 | +78 years | Dapper Dan prints luxury logos on leather with a silk-screen press and makes jackets and bags of it. | [`logomania`](./logomania/SKILL.md) |
+| 6 | Ceramics | 1981 | +74 years | Memphis designers put bold stripes, dots and speckles on ceramic vessels by screen print and decal, and fire the pattern on the glaze. | [`memphis-postmodern-ceramics`](./memphis-postmodern-ceramics/SKILL.md) |
+| 7 | Fashion | 1985 | +78 years | Dapper Dan prints luxury logos on leather with a silk-screen press and makes jackets and bags of it. | [`logomania`](./logomania/SKILL.md) |
 
-Used by: [`pop-screen-print`](./pop-screen-print/SKILL.md), [`pop-art-painting`](./pop-art-painting/SKILL.md), [`pop-art-web`](./pop-art-web/SKILL.md), [`punk-fashion`](./punk-fashion/SKILL.md), [`streetwear`](./streetwear/SKILL.md), [`logomania`](./logomania/SKILL.md).
+Used by: [`pop-screen-print`](./pop-screen-print/SKILL.md), [`pop-art-painting`](./pop-art-painting/SKILL.md), [`pop-art-web`](./pop-art-web/SKILL.md), [`punk-fashion`](./punk-fashion/SKILL.md), [`streetwear`](./streetwear/SKILL.md), [`logomania`](./logomania/SKILL.md), [`memphis-postmodern-ceramics`](./memphis-postmodern-ceramics/SKILL.md).
 
 - Stretch a silk or polyester mesh of 40–120 threads a centimetre on a frame.
 - Make the stencil by hand cut film or by a photo emulsion exposed through a film positive.
@@ -1988,11 +2660,12 @@ One motif or one frame, repeated with small changes in a set of works, so that t
 |---|---|---|---|---|---|
 | Origin | Painting | 1891 | — | Paris: Claude Monet shows a group of Haystacks canvases, each of one motif in a different light. | |
 | 1 | Photography | 1928 | +37 years | Karl Blossfeldt's book Urformen der Kunst shows plant forms one by one in a uniform series. | [`new-objectivity`](./new-objectivity/SKILL.md) |
-| 2 | Painting | 1958 | +67 years | Frank Stella starts his Black Paintings, in which equal stripes repeat the shape of the canvas. | [`minimalism-painting`](./minimalism-painting/SKILL.md) |
-| 3 | Photography | c. 1959 | +68 years | Bernd and Hilla Becher begin their typologies of water towers, blast furnaces and houses on one fixed frame. | [`duesseldorf-school`](./duesseldorf-school/SKILL.md), [`new-topographics`](./new-topographics/SKILL.md) |
-| 4 | Painting | 1962 | +71 years | Andy Warhol repeats one soup can or one face in a grid of identical canvases. | [`pop-art-painting`](./pop-art-painting/SKILL.md) |
+| 2 | Ceramics | c. 1952 | +61 years | Kaj Franck repeats a few plain shapes as a modular set, so that the buyer builds a service from parts. | [`scandinavian-modern-tableware`](./scandinavian-modern-tableware/SKILL.md) |
+| 3 | Painting | 1958 | +67 years | Frank Stella starts his Black Paintings, in which equal stripes repeat the shape of the canvas. | [`minimalism-painting`](./minimalism-painting/SKILL.md) |
+| 4 | Photography | c. 1959 | +68 years | Bernd and Hilla Becher begin their typologies of water towers, blast furnaces and houses on one fixed frame. | [`duesseldorf-school`](./duesseldorf-school/SKILL.md), [`new-topographics`](./new-topographics/SKILL.md) |
+| 5 | Painting | 1962 | +71 years | Andy Warhol repeats one soup can or one face in a grid of identical canvases. | [`pop-art-painting`](./pop-art-painting/SKILL.md) |
 
-Used by: [`impressionism`](./impressionism/SKILL.md), [`minimalism-painting`](./minimalism-painting/SKILL.md), [`duesseldorf-school`](./duesseldorf-school/SKILL.md), [`new-topographics`](./new-topographics/SKILL.md), [`pop-art-painting`](./pop-art-painting/SKILL.md), [`new-objectivity`](./new-objectivity/SKILL.md).
+Used by: [`impressionism`](./impressionism/SKILL.md), [`minimalism-painting`](./minimalism-painting/SKILL.md), [`duesseldorf-school`](./duesseldorf-school/SKILL.md), [`new-topographics`](./new-topographics/SKILL.md), [`pop-art-painting`](./pop-art-painting/SKILL.md), [`new-objectivity`](./new-objectivity/SKILL.md), [`scandinavian-modern-tableware`](./scandinavian-modern-tableware/SKILL.md).
 
 - Fix the motif, the format and the viewpoint; change one variable only, such as the hour, the colour or the stripe width.
 - Make at least 5 works in the set and show them in one row at one height.
@@ -2094,6 +2767,48 @@ Used by: [`conceptual-sketch-ui`](./conceptual-sketch-ui/SKILL.md).
 
 Sources: Rough.js documentation (2019).
 
+### Slip casting
+
+Liquid clay is poured into a plaster mould. The plaster takes water from the clay and a wall forms on the inside of the mould.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1745 | — | Staffordshire, England: Potters of Staffordshire start to cast earthenware in plaster moulds. | |
+| 1 | Ceramics | c. 1745 | +0 years | Staffordshire potters cast and press earthenware figures in plaster moulds, so that one model gives many figures. | [`staffordshire-figures`](./staffordshire-figures/SKILL.md) |
+| 2 | Ceramics | c. 1845 | +100 years | Parian makers cast figures from a thin slip in plaster moulds and fire them without a glaze. | [`parian-statuary`](./parian-statuary/SKILL.md) |
+| 3 | Ceramics | c. 1880 | +135 years | Sanitary works cast WC pans, basins and cisterns in plaster moulds, so that one model gives many identical pieces. | [`victorian-sanitary-ware`](./victorian-sanitary-ware/SKILL.md) |
+| 4 | Ceramics | c. 1880 | +135 years | Fireclay works cast the sink as one thick piece in a large plaster mould. | [`fireclay-butler-sink`](./fireclay-butler-sink/SKILL.md) |
+| 5 | Ceramics | c. 1924 | +179 years | The works of T. G. Green casts jugs and teapots of Cornishware in plaster moulds and then bands them by hand. | [`cornishware`](./cornishware/SKILL.md) |
+| 6 | Ceramics | c. 1925 | +180 years | Factories cast deco dancers and gazelles in plaster moulds, and paint each one by hand. | [`art-deco-ceramic-figures`](./art-deco-ceramic-figures/SKILL.md) |
+| 7 | Ceramics | 1928 | +183 years | Works cast the basin, the pan and the bath of a set in plaster moulds and spray each with the same coloured glaze. | [`coloured-bathroom-suite`](./coloured-bathroom-suite/SKILL.md) |
+
+Used by: [`art-deco-ceramic-figures`](./art-deco-ceramic-figures/SKILL.md), [`coloured-bathroom-suite`](./coloured-bathroom-suite/SKILL.md), [`cornishware`](./cornishware/SKILL.md), [`fireclay-butler-sink`](./fireclay-butler-sink/SKILL.md), [`parian-statuary`](./parian-statuary/SKILL.md), [`staffordshire-figures`](./staffordshire-figures/SKILL.md), [`victorian-sanitary-ware`](./victorian-sanitary-ware/SKILL.md).
+
+- Make a plaster mould in two or more parts.
+- Pour slip into the mould and wait 10 to 20 minutes for a wall of 3 to 5 mm.
+- Pour out the rest of the slip.
+- Open the mould when the clay is leather-hard and fettle the seam.
+
+Sources: [Wikipedia: Slip casting](https://en.wikipedia.org/wiki/Slip_casting).
+
+### Slip trailing
+
+Liquid clay, called slip, is trailed from a quill or a pipe onto the leather-hard pot in lines and dots. The lines stay raised under the glaze.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1670 | — | Staffordshire, England: Thomas Toft and other Staffordshire potters trail slip pictures on large dishes. | |
+| 1 | Ceramics | c. 1670 | +0 years | Staffordshire potters trail cream slip pictures and names on red earthenware dishes. | [`english-slipware`](./english-slipware/SKILL.md) |
+
+Used by: [`english-slipware`](./english-slipware/SKILL.md).
+
+- Mix slip to the thickness of cream.
+- Fill a pipe or a bag with the slip.
+- Draw lines 2 to 4 mm wide on a pot in a contrast colour.
+- Dip the pot in clear lead glaze and fire it at about 1050 °C.
+
+Sources: [Wikipedia: Slipware](https://en.wikipedia.org/wiki/Slipware).
+
 ### Soak-stain
 
 Thin paint is poured on raw, unprimed canvas that lies on the floor; the cloth drinks the colour and the colour and the weave become one.
@@ -2150,6 +2865,42 @@ Used by: [`molecular-gastronomy`](./molecular-gastronomy/SKILL.md), [`modernist-
 
 Sources: [Wikipedia: Spherification](https://en.wikipedia.org/wiki/Spherification); [Wikipedia: El Bulli](https://en.wikipedia.org/wiki/El_Bulli).
 
+### Sponge stamping
+
+A piece of sea sponge is dipped in ceramic colour and dabbed or stamped on a biscuit pot. The soft print is quick and needs little skill.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1840 | — | Scotland and Staffordshire: Potters sponge colour on cheap earthenware for export to North America. | |
+| 1 | Ceramics | c. 1840 | +0 years | Scottish and Staffordshire potters dab colour with a cut sponge on cheap earthenware for the home and for export. | [`spongeware`](./spongeware/SKILL.md) |
+
+Used by: [`spongeware`](./spongeware/SKILL.md).
+
+- Cut a sponge into a small shape, about 2 to 4 cm wide.
+- Dip the sponge in a stain of one colour.
+- Dab the sponge on the biscuit in rings or in a loose mottle.
+- Leave a band of 1 to 2 cm at the rim clear, then dip the pot in a clear glaze.
+
+Sources: [Wikipedia: Transferware](https://en.wikipedia.org/wiki/Transferware).
+
+### Sprig moulding
+
+A small relief is pressed in a mould of fired clay, lifted out and fixed to the damp body with water. Potters use it to add figures and leaves.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1740 | — | Staffordshire, England: Staffordshire potters press white clay reliefs into moulds and fix them to the body of salt-glazed stoneware. | |
+| 1 | Ceramics | 1775 | +35 years | Wedgwood workers press fine white sprigs of classical figures onto the stained jasper body of urns and vases. | [`jasperware-neoclassical`](./jasperware-neoclassical/SKILL.md) |
+
+Used by: [`jasperware-neoclassical`](./jasperware-neoclassical/SKILL.md).
+
+- Carve the relief in reverse in a small mould of fired clay.
+- Press a thin piece of soft clay into the mould and trim it flat.
+- Lift the sprig out with the tip of a knife.
+- Wet the body and press the sprig on it, then fettle the edge.
+
+Sources: [Wikipedia: Sprigging](https://en.wikipedia.org/wiki/Sprigging); [Wikipedia: Jasperware](https://en.wikipedia.org/wiki/Jasperware).
+
 ### Three-point lighting
 
 A key light, a fill light and a back light on one subject, so that the face is modelled and stands out from the ground.
@@ -2167,6 +2918,43 @@ Used by: [`classical-hollywood`](./classical-hollywood/SKILL.md), [`fashion-edit
 
 Sources: Kristin Thompson, David Bordwell and Janet Staiger, The Classical Hollywood Cinema (1985).
 
+### Three-stage firing
+
+One firing in three stages turns a slip black and leaves the clay red. Air is let in, shut out, and let in again.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 700 BCE | — | Corinth, Greece: Corinthian potters learn to make a black gloss and a red clay in one firing. | |
+| 1 | Ceramics | c. 700 BCE | +0 years | Corinthian and Athenian painters draw black silhouettes in gloss slip, and the three stages fix the black. | [`greek-black-figure`](./greek-black-figure/SKILL.md) |
+| 2 | Ceramics | c. 530 BCE | +170 years | Athenian painters keep the same firing and paint the background black instead of the figure. | [`greek-red-figure`](./greek-red-figure/SKILL.md) |
+
+Used by: [`greek-black-figure`](./greek-black-figure/SKILL.md), [`greek-red-figure`](./greek-red-figure/SKILL.md).
+
+- Fire the pot in an open kiln with air, so that the whole pot turns red.
+- Close the vents and add green wood, so that the whole pot turns black.
+- Open the vents and let the air in again at a lower heat.
+- Take out the pot: the fine slip stays black and the bare clay becomes red.
+
+Sources: [Wikipedia: Black-figure pottery](https://en.wikipedia.org/wiki/Black-figure_pottery); [Wikipedia: Red-figure pottery](https://en.wikipedia.org/wiki/Red-figure_pottery).
+
+### Thrown and assembled form
+
+A potter throws two or more separate parts and joins them at the leather-hard stage. The joined form has a shape that no single throw can make.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1955 | — | London, England: Hans Coper throws parts of a vessel on the wheel and joins them into stems, discs and spades. | |
+| 1 | Ceramics | c. 1955 | +0 years | Hans Coper joins thrown cylinders, discs and bowls into bottles and cup forms in Lucie Rie's studio. | [`british-modernist-studio`](./british-modernist-studio/SKILL.md) |
+
+Used by: [`british-modernist-studio`](./british-modernist-studio/SKILL.md).
+
+- Throw each part separately, a cylinder, a disc or a bowl.
+- Let the parts dry to leather-hard.
+- Join them with slip and press them together.
+- Turn and smooth the join and the foot.
+
+Sources: [Wikipedia: Hans Coper](https://en.wikipedia.org/wiki/Hans_Coper); [Wikipedia: Lucie Rie](https://en.wikipedia.org/wiki/Lucie_Rie).
+
 ### Tie-dye
 
 A way to colour cloth in which parts are tied, folded or bound before the dye bath, so that the bound parts resist the dye.
@@ -2183,6 +2971,44 @@ Used by: [`hippie-bohemian-dress`](./hippie-bohemian-dress/SKILL.md).
 - Rinse, untie and dry the cloth; each piece shows a different pattern.
 
 Sources: [Wikipedia: Tie-dye](https://en.wikipedia.org/wiki/Tie-dye); [Wikipedia: Shibori](https://en.wikipedia.org/wiki/Shibori).
+
+### Tin glazing
+
+A pot is dipped in a glaze with tin oxide in it. The glaze dries to a white, opaque coat on which a potter paints with oxides before the glaze firing.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 800 | — | Basra, Iraq: Abbasid potters add tin oxide to lead glaze to copy white Chinese porcelain. | |
+| 1 | Ceramics | c. 1440 | +640 years | Luca della Robbia covers terracotta sculpture with white tin glaze, so that church reliefs stand in the weather. | [`della-robbia-relief`](./della-robbia-relief/SKILL.md) |
+| 2 | Ceramics | c. 1450 | +650 years | Italian potters paint cobalt labels on the white tin glaze of drug jars made for the shelves of pharmacies. | [`albarello-apothecary-ware`](./albarello-apothecary-ware/SKILL.md) |
+| 3 | Ceramics | c. 1500 | +700 years | Urbino painters brush whole scenes on the raw tin glaze before the firing, so that the colours sink into the glaze. | [`istoriato-maiolica`](./istoriato-maiolica/SKILL.md) |
+
+Used by: [`albarello-apothecary-ware`](./albarello-apothecary-ware/SKILL.md), [`istoriato-maiolica`](./istoriato-maiolica/SKILL.md), [`della-robbia-relief`](./della-robbia-relief/SKILL.md).
+
+- Fire the pot once to a biscuit at about 950 °C.
+- Dip the biscuit in a bath of glaze with 5 to 10 % tin oxide, so that the coat is about 0.5 mm thick.
+- Paint on the dry raw glaze with cobalt, copper, manganese or antimony.
+- Fire the glaze at about 1000 °C, so that the colours sink into the glaze.
+
+Sources: [Wikipedia: Tin-glazed pottery](https://en.wikipedia.org/wiki/Tin-glazed_pottery).
+
+### Transfer printing
+
+A design is engraved on a copper plate, printed on thin paper in a ceramic ink and moved from the paper to the glazed or biscuit piece.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1756 | — | Liverpool and Worcester, England: John Sadler and Guy Green of Liverpool print tiles and Worcester soon prints porcelain. | |
+| 1 | Ceramics | c. 1756 | +0 years | Soft-paste tea ware takes printed landscapes and flower designs in black and blue. | [`georgian-porcelain-tea-service`](./georgian-porcelain-tea-service/SKILL.md) |
+
+Used by: [`georgian-porcelain-tea-service`](./georgian-porcelain-tea-service/SKILL.md).
+
+- Engrave the design on a copper plate.
+- Print it on thin tissue paper in ceramic ink.
+- Press the wet tissue on the piece and rub it down.
+- Wash the paper away and fire the piece to fix the ink.
+
+Sources: [Wikipedia: Transfer printing](https://en.wikipedia.org/wiki/Transfer_printing); [Wikipedia: Worcester porcelain](https://en.wikipedia.org/wiki/Royal_Worcester).
 
 ### Trompe-l'oeil
 
@@ -2218,6 +3044,24 @@ Used by: [`country-sporting-tweed`](./country-sporting-tweed/SKILL.md).
 - Full and finish the cloth in water, so that it shrinks, thickens and sheds rain.
 
 Sources: [Wikipedia: Tweed (cloth)](https://en.wikipedia.org/wiki/Tweed_(cloth)); [Wikipedia: Harris Tweed](https://en.wikipedia.org/wiki/Harris_Tweed).
+
+### Underglaze transfer printing
+
+A pattern is printed from an engraved copper plate on thin paper. The paper is rubbed on to the biscuit ware and the glaze covers the print.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1781 | — | Caughley, Shropshire, England: English potters print cobalt blue patterns under the glaze from engraved plates. | |
+| 1 | Ceramics | c. 1790 | +9 years | Staffordshire potters print the willow pattern in blue on cheap earthenware plates from one copper plate. | [`blue-willow-transferware`](./blue-willow-transferware/SKILL.md) |
+
+Used by: [`blue-willow-transferware`](./blue-willow-transferware/SKILL.md).
+
+- Engrave the design on a copper plate.
+- Fill the lines with cobalt colour and print on tissue paper.
+- Rub the tissue on to the biscuit piece and wash off the paper.
+- Dip in glaze and fire.
+
+Sources: [Wikipedia: Transfer printing](https://en.wikipedia.org/wiki/Transfer_printing_(ceramics)); [Wikipedia: Willow pattern](https://en.wikipedia.org/wiki/Willow_pattern).
 
 ### Waffle sole
 
@@ -2664,6 +3508,24 @@ Used by: [`georgian-jewellery`](./georgian-jewellery/SKILL.md).
 
 Sources: [Wikipedia: Cut steel jewellery](https://en.wikipedia.org/wiki/Cut_steel_jewellery).
 
+### Deliberate distortion
+
+The potter bends a thrown form when the clay is soft, so that the piece leans, the rim is oval and the base is not level.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1600 | — | Mino province (Gifu), Japan: Tea master Furuta Oribe orders bent, square and lopsided tea ware from the Mino kilns. | |
+| 1 | Ceramics | c. 1600 | +0 years | Mino potters press the rims and walls out of true to make each piece look alive. | [`mino-tea-ceramics`](./mino-tea-ceramics/SKILL.md) |
+
+Used by: [`mino-tea-ceramics`](./mino-tea-ceramics/SKILL.md).
+
+- Throw the form with a thick wall.
+- Press or cut the wall when the clay is soft.
+- Keep one side higher than the other by 5 to 15 mm.
+- Add a glaze that gathers in the dents.
+
+Sources: [Wikipedia: Oribe ware](https://en.wikipedia.org/wiki/Oribe_ware).
+
 ### East-west pairing
 
 The cook sets the sauces, the fish and the seasoning of Asia on a plate with a French or Californian method and plating.
@@ -2688,17 +3550,37 @@ A lathe with a cutting tool cuts a regular pattern of fine lines in a flat metal
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Fashion | c. 1600 | — | Europe: Craftsmen cut patterns on a rose engine lathe in wood, ivory and soft metal. | |
-| 1 | Fashion | c. 1780 | +180 years | Breguet cuts engine-turned patterns of lines and waves in the gold or silver dial of a watch. | [`breguet-classical-watch`](./breguet-classical-watch/SKILL.md) |
-| 2 | Fashion | 1917 | +317 years | Deco watch dials of silver and gold carry engine-turned patterns, sometimes under clear enamel. | [`art-deco-watch`](./art-deco-watch/SKILL.md) |
-| 3 | Fashion | 1972 | +372 years | The dial of the Royal Oak carries a grid pattern in the manner of engine turning, called the tapisserie. | [`luxury-steel-sports-watch`](./luxury-steel-sports-watch/SKILL.md) |
+| 1 | Ceramics | c. 1763 | +163 years | Josiah Wedgwood buys a rose engine lathe to cut fine patterns in the leather-hard body of his wares. | [`creamware-neoclassical`](./creamware-neoclassical/SKILL.md) |
+| 2 | Ceramics | c. 1770 | +170 years | Potters turn sharp bands and patterns in slip on the leather-hard pot with a lathe, in the way that a watchmaker or an ornamental turner cuts metal. | [`mocha-banded-ware`](./mocha-banded-ware/SKILL.md) |
+| 3 | Fashion | c. 1780 | +180 years | Breguet cuts engine-turned patterns of lines and waves in the gold or silver dial of a watch. | [`breguet-classical-watch`](./breguet-classical-watch/SKILL.md) |
+| 4 | Fashion | 1917 | +317 years | Deco watch dials of silver and gold carry engine-turned patterns, sometimes under clear enamel. | [`art-deco-watch`](./art-deco-watch/SKILL.md) |
+| 5 | Fashion | 1972 | +372 years | The dial of the Royal Oak carries a grid pattern in the manner of engine turning, called the tapisserie. | [`luxury-steel-sports-watch`](./luxury-steel-sports-watch/SKILL.md) |
 
-Used by: [`breguet-classical-watch`](./breguet-classical-watch/SKILL.md), [`art-deco-watch`](./art-deco-watch/SKILL.md), [`luxury-steel-sports-watch`](./luxury-steel-sports-watch/SKILL.md).
+Used by: [`breguet-classical-watch`](./breguet-classical-watch/SKILL.md), [`art-deco-watch`](./art-deco-watch/SKILL.md), [`luxury-steel-sports-watch`](./luxury-steel-sports-watch/SKILL.md), [`mocha-banded-ware`](./mocha-banded-ware/SKILL.md), [`creamware-neoclassical`](./creamware-neoclassical/SKILL.md).
 
 - Fix the metal blank on the rose engine, and set the cam that gives the pattern.
 - Cut each line at a depth of 0.05 to 0.1 mm, and keep the pitch the same.
 - Polish the cut lines, or fill them with clear enamel.
 
 Sources: [Wikipedia: Guilloché](https://en.wikipedia.org/wiki/Guilloché); [Wikipedia: Engine turning](https://en.wikipedia.org/wiki/Engine_turning).
+
+### Hand building
+
+A vessel or a figure is built from coils, slabs or pinched lumps of clay, with no wheel. The maker joins the parts with slip and keeps the marks of the hand.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 18000 BCE | — | China and Japan: The oldest fired pots, which are more than 10000 years old, are hand-built because the wheel is not yet known. | |
+| 1 | Ceramics | 1961 | +19961 years | Californian sculptors build large glazed figures and objects by hand, and keep thumb marks and cracks as part of the joke. | [`funk-ceramics`](./funk-ceramics/SKILL.md) |
+
+Used by: [`funk-ceramics`](./funk-ceramics/SKILL.md).
+
+- Roll coils or cut slabs of clay.
+- Score the edges and press the parts together with slip.
+- Smooth the joins, or leave them as part of the form.
+- Dry the piece slowly, then fire it.
+
+Sources: [Wikipedia: Pottery](https://en.wikipedia.org/wiki/Pottery).
 
 ### Hand-canvassed tailoring
 
@@ -2877,6 +3759,25 @@ Used by: [`empire-line-dress`](./empire-line-dress/SKILL.md), [`garconne-flapper
 
 Sources: [Wikipedia: Tambour embroidery](https://en.wikipedia.org/wiki/Tambour_embroidery); [Wikipedia: Beadwork](https://en.wikipedia.org/wiki/Beadwork).
 
+### Thrown-form alteration
+
+A potter throws a plain vessel on the wheel and then bends, pinches, cuts and joins it while it is wet, so that the vessel becomes an animal or a figure.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1947 | — | Vallauris, France: Picasso asks the throwers at the Madoura pottery for plain forms and turns them into owls, bulls and women. | |
+| 1 | Ceramics | c. 1947 | +0 years | Picasso alters thrown vases at the Madoura pottery, and the editions copy his altered forms. | [`artist-ceramics-vallauris`](./artist-ceramics-vallauris/SKILL.md) |
+| 2 | Ceramics | 1954 | +7 years | Voulkos and his students cut and tear thrown cylinders, and stack them into large forms. | [`abstract-expressionist-ceramics`](./abstract-expressionist-ceramics/SKILL.md) |
+
+Used by: [`abstract-expressionist-ceramics`](./abstract-expressionist-ceramics/SKILL.md), [`artist-ceramics-vallauris`](./artist-ceramics-vallauris/SKILL.md).
+
+- Throw a bottle, a vase or a jug on the wheel.
+- Close the neck, or pinch out ears and a beak.
+- Press the belly and add arms or legs of slip.
+- Draw the face with a knife or a brush.
+
+Sources: [Wikipedia: Madoura](https://en.wikipedia.org/wiki/Madoura); [Wikipedia: Pablo Picasso](https://en.wikipedia.org/wiki/Pablo_Picasso).
+
 ### Toile fitting
 
 A trial garment in plain calico, fitted and pinned on the client or on a stand before the real cloth is cut.
@@ -2912,6 +3813,24 @@ Used by: [`modern-mens-briefs`](./modern-mens-briefs/SKILL.md).
 - Set an elastic band into the waist.
 
 Sources: [Wikipedia: Jockey International](https://en.wikipedia.org/wiki/Jockey_International); [Wikipedia: Underpants](https://en.wikipedia.org/wiki/Underpants).
+
+### Zisha slab building
+
+A hand method to build a thin-walled teapot from beaten slabs and strips of zisha clay, with no wheel and no mould.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 1500 | — | Yixing, Jiangsu, China: Yixing potters build small unglazed teapots by hand, as steeped tea replaces whisked tea. | |
+| 1 | Ceramics | c. 1500 | +0 years | Yixing potters build every pot by hand from slabs and strips, and stamp it with a seal. | [`yixing-zisha-teapot`](./yixing-zisha-teapot/SKILL.md) |
+
+Used by: [`yixing-zisha-teapot`](./yixing-zisha-teapot/SKILL.md).
+
+- Beat the clay into a flat slab of 2 to 4 mm.
+- Cut a base and a strip for the wall and wrap them round a form.
+- Scrape the wall smooth with a steel scraper and a bamboo knife.
+- Grind the lid to fit the mouth with no gap.
+
+Sources: [Wikipedia: Yixing clay teapot](https://en.wikipedia.org/wiki/Yixing_clay_teapot).
 
 ## Technology
 
@@ -3056,6 +3975,42 @@ Used by: [`racing-chronograph`](./racing-chronograph/SKILL.md).
 
 Sources: [Wikipedia: Chronograph](https://en.wikipedia.org/wiki/Chronograph); [Wikipedia: Omega Speedmaster](https://en.wikipedia.org/wiki/Omega_Speedmaster).
 
+### Clay paste extrusion
+
+A printer pushes soft clay through a nozzle and builds a form in thin layers. A computer file sets the path of the nozzle.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 2010 | — | Netherlands and Belgium: Designers fit clay cylinders to small 3D printers and print vessels in ceramic paste. | |
+| 1 | Ceramics | c. 2014 | +4 years | Designers print vases with visible layer lines and fire them as plain earthenware, stoneware or porcelain. | [`digital-3d-printed-ceramics`](./digital-3d-printed-ceramics/SKILL.md) |
+
+Used by: [`digital-3d-printed-ceramics`](./digital-3d-printed-ceramics/SKILL.md).
+
+- Draw the form in software and slice it into layers of 1 to 2 mm.
+- Load soft clay into the cylinder of the printer.
+- Press the clay through a nozzle of 1 to 4 mm and build the wall layer by layer.
+- Dry the form slowly, glaze it and fire it.
+
+Sources: [Wikipedia: 3D printing](https://en.wikipedia.org/wiki/3D_printing); [Wikipedia: Ceramic](https://en.wikipedia.org/wiki/Ceramic).
+
+### Concealed cistern frame
+
+A steel frame inside the wall holds a flat cistern and two studs. The WC hangs on the studs, and only the bowl and a flush plate show in the room.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Industrial design | c. 1960 | — | Switzerland: Sanitary firms make flat in-wall cisterns, so that the wall can hide the water tank of a WC. | |
+| 1 | Ceramics | c. 1994 | +34 years | Designers use the frame to hang the WC on the wall, so that the bowl floats and the floor stays clear. | [`designer-wall-hung-sanitary`](./designer-wall-hung-sanitary/SKILL.md) |
+
+Used by: [`designer-wall-hung-sanitary`](./designer-wall-hung-sanitary/SKILL.md).
+
+- Fix a steel frame to the floor and the wall, with the studs at 180 or 230 mm centres.
+- Hide a flat cistern of 6 to 9 litres and its pipes in the frame.
+- Hang the bowl on the studs and seal it to the wall with a rubber boot.
+- Cover the frame with a wall and fit a flush plate with 2 buttons.
+
+Sources: [Wikipedia: Flush toilet](https://en.wikipedia.org/wiki/Flush_toilet); [Wikipedia: Duravit](https://en.wikipedia.org/wiki/Duravit).
+
 ### Curtain wall
 
 A thin outer wall of glass and metal that hangs on the frame of the building and carries no floor load.
@@ -3074,6 +4029,24 @@ Used by: [`bauhaus-architecture`](./bauhaus-architecture/SKILL.md), [`internatio
 - Keep the glass part of the facade above 60%.
 
 Sources: Kenneth Frampton, Modern Architecture: A Critical History (1980).
+
+### Digital ceramic printing
+
+An inkjet printer puts ceramic ink onto a tile or a slab, with no contact. The print can show stone, wood or concrete and can change from tile to tile.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | c. 2000 | — | Castellón, Spain, and Sassuolo, Italy: Tile factories change from roller and screen printing to inkjet printing in the early 2000s. | |
+| 1 | Ceramics | c. 2000 | +0 years | Italian and Spanish tile factories print stone and wood images on porcelain stoneware with ceramic inks. | [`large-format-porcelain-tiles`](./large-format-porcelain-tiles/SKILL.md) |
+
+Used by: [`large-format-porcelain-tiles`](./large-format-porcelain-tiles/SKILL.md).
+
+- Make the image at 360 dpi or more.
+- Print with ceramic inks of metal oxides before the glost firing.
+- Vary the image over many tiles, so that no repeat shows.
+- Fire the tile so that the ink fuses to the glaze.
+
+Sources: [Wikipedia: Tile](https://en.wikipedia.org/wiki/Tile); [Wikipedia: Inkjet printing](https://en.wikipedia.org/wiki/Inkjet_printing).
 
 ### Digital colour grade
 
@@ -3323,6 +4296,42 @@ Used by: [`stiletto-heel`](./stiletto-heel/SKILL.md).
 
 Sources: [Wikipedia: Stiletto heel](https://en.wikipedia.org/wiki/Stiletto_heel).
 
+### Suspension disc insulator
+
+A porcelain disc with an iron cap and a steel pin. A string of such discs, each linked to the next, hangs a power line from a tower and grows with the voltage.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Industrial design | c. 1906 | — | United States: Engineers at a US electric company make the first cap-and-pin porcelain disc for a string on high-voltage lines. | |
+| 1 | Ceramics | c. 1906 | +0 years | Porcelain works make the glazed disc of the string, and the string replaces the rigid pin insulator on high-voltage lines. | [`porcelain-insulator`](./porcelain-insulator/SKILL.md) |
+
+Used by: [`porcelain-insulator`](./porcelain-insulator/SKILL.md).
+
+- Fire a porcelain disc about 255 mm across with a deep rain skirt on the lower face.
+- Cement a cast iron cap on top and a steel pin in the hollow of the disc.
+- Link the discs pin to cap in a string, and add one disc for each 10 to 15 kV of line voltage.
+- Test each disc with high voltage before use.
+
+Sources: [Wikipedia: Insulator (electricity)](https://en.wikipedia.org/wiki/Insulator_(electricity)).
+
+### Tiled stove
+
+A stove of fired clay tiles holds a hot fire for an hour and gives out its heat for a day. Long flues inside the stove take heat from the smoke.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | 1767 | — | Stockholm, Sweden: A Council commission of 1767 leads to a new Swedish stove design with narrow flues and a closed damper. | |
+| 1 | Ceramics | 1767 | +0 years | Swedish architects and potteries make tiled stoves with a closed damper for city flats and manors. | [`scandinavian-tiled-stove`](./scandinavian-tiled-stove/SKILL.md) |
+
+Used by: [`scandinavian-tiled-stove`](./scandinavian-tiled-stove/SKILL.md).
+
+- Build a firebox and long inner flues of fireclay.
+- Cover the body with glazed tiles of 20 to 30 cm.
+- Burn one hot load of wood in 1 to 2 hours and close the damper.
+- Let the tile mass give out heat for 12 to 24 hours.
+
+Sources: [Wikipedia: Tiled stove](https://en.wikipedia.org/wiki/Tiled_stove).
+
 ### Tourbillon
 
 A rotating cage that holds the balance and the escapement and turns once each minute, so that gravity acts on the balance in every position.
@@ -3373,6 +4382,25 @@ Used by: [`voxel-block-world`](./voxel-block-world/SKILL.md).
 - Light each cell by the light level of its neighbours.
 
 Sources: [Wikipedia: Voxel](https://en.wikipedia.org/wiki/Voxel); [Wikipedia: Comanche (video game series)](https://en.wikipedia.org/wiki/Comanche_(video_game_series)).
+
+### Warm-water bidet seat
+
+A toilet seat with a heater and a hidden nozzle that sprays warm water. A small pump and a water heater inside the seat replace a separate bidet.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Ceramics | 1980 | — | Japan: Toto launches the Washlet, a toilet seat with a warm-water spray, for the Japanese home. | |
+| 1 | Ceramics | 1980 | +0 years | A Japanese maker fits the seat on a plain vitreous china WC, and the seat carries the water, heat and control. | [`washlet-toilet`](./washlet-toilet/SKILL.md) |
+| 2 | Ceramics | c. 1994 | +14 years | Designer ranges adopt the seat on a wall-hung bowl as an option. | [`designer-wall-hung-sanitary`](./designer-wall-hung-sanitary/SKILL.md) |
+
+Used by: [`washlet-toilet`](./washlet-toilet/SKILL.md), [`designer-wall-hung-sanitary`](./designer-wall-hung-sanitary/SKILL.md).
+
+- Heat the seat to about 36 °C with an electric element.
+- Store a small volume of water and heat it to about 38 °C when needed.
+- Hide the nozzle in a cover and rinse it with clean water before and after each use.
+- Place the controls on the side of the seat or on a wall remote.
+
+Sources: [Wikipedia: Bidet](https://en.wikipedia.org/wiki/Bidet); [Wikipedia: Toto Ltd.](https://en.wikipedia.org/wiki/Toto_Ltd.).
 
 ---
 

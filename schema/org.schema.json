@@ -75,7 +75,7 @@
         "integer",
         "null"
       ],
-      "minimum": 1000,
+      "minimum": -20000,
       "maximum": 2100,
       "description": "The first year. Null when no open source gives it. Do not guess a year."
     },
@@ -84,7 +84,7 @@
         "integer",
         "null"
       ],
-      "minimum": 1000,
+      "minimum": -20000,
       "maximum": 2100,
       "description": "The last year. Null when it is still open, or when no open source gives it."
     },
@@ -160,7 +160,7 @@
               "integer",
               "null"
             ],
-            "minimum": 1000,
+            "minimum": -20000,
             "maximum": 2100
           },
           "to": {
@@ -168,7 +168,7 @@
               "integer",
               "null"
             ],
-            "minimum": 1000,
+            "minimum": -20000,
             "maximum": 2100
           }
         }
@@ -190,7 +190,7 @@
         },
         "year": {
           "type": "integer",
-          "minimum": 1000,
+          "minimum": -20000,
           "maximum": 2100
         },
         "url": {
@@ -213,7 +213,7 @@
         "properties": {
           "year": {
             "type": "integer",
-            "minimum": 1000,
+            "minimum": -20000,
             "maximum": 2100
           },
           "kind": {

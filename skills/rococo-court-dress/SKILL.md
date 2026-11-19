@@ -191,7 +191,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **wider, heavier, Victorian**: move toward [`crinoline-and-bustle-dress`](../crinoline-and-bustle-dress/SKILL.md) (Crinoline and bustle dress). Swap the cane hoops for a steel cage, round the skirt, and use a strong colour.
 
 - **Was rejected by:** [`empire-line-dress`](../empire-line-dress/SKILL.md), [`english-bespoke-tailoring`](../english-bespoke-tailoring/SKILL.md)
-- **Kin in another domain:** [`georgian-interior`](../georgian-interior/SKILL.md), [`rococo-painting`](../rococo-painting/SKILL.md)
+- **Kin in another domain:** [`georgian-interior`](../georgian-interior/SKILL.md), [`rococo-painting`](../rococo-painting/SKILL.md), [`rococo-porcelain-figures`](../rococo-porcelain-figures/SKILL.md), [`sevres-rococo-porcelain`](../sevres-rococo-porcelain/SKILL.md)
 - **Nearest by vector profile:** [`crinoline-and-bustle-dress`](../crinoline-and-bustle-dress/SKILL.md), [`logomania`](../logomania/SKILL.md), [`vintage-coachbuilt-car`](../vintage-coachbuilt-car/SKILL.md)
 
 ## Emotional target

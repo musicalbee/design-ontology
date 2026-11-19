@@ -41,7 +41,7 @@
       "required": ["domain", "year", "where", "note"],
       "properties": {
         "domain": { "$ref": "core.schema.json#/$defs/slug", "description": "A domain id from domains/." },
-        "year": { "type": "integer", "minimum": -10000, "maximum": 2100, "description": "The first year with a firm record. A negative year is BCE." },
+        "year": { "type": "integer", "minimum": -20000, "maximum": 2100, "description": "The first year with a firm record. A negative year is BCE." },
         "circa": { "type": "boolean", "description": "true when the year is an estimate." },
         "where": { "$ref": "core.schema.json#/$defs/shortText" },
         "note": { "$ref": "core.schema.json#/$defs/sentence" },
@@ -58,7 +58,7 @@
         "required": ["domain", "year", "via"],
         "properties": {
           "domain": { "$ref": "core.schema.json#/$defs/slug" },
-          "year": { "type": "integer", "minimum": -10000, "maximum": 2100 },
+          "year": { "type": "integer", "minimum": -20000, "maximum": 2100 },
           "circa": { "type": "boolean" },
           "via": { "$ref": "core.schema.json#/$defs/sentence", "description": "The person, work, tool or medium that carried the technique across." },
           "styles": { "$ref": "core.schema.json#/$defs/refList", "description": "Style ids in this domain that take it up at this step." }

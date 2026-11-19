@@ -129,13 +129,14 @@ console.log(`graph/lineage.json · ${graph.nodes.length} nodes · ${edgeList.len
 // ── People: each life next to the spans of the styles it touched ────────────
 const people = loadPeople()
   .map(({ person: p }) => {
-    const years = p.milestones.map((m) => m.year);
+    // A posthumous milestone (a dig, a museum sale) is not a year of the life, so it does not set the active span.
+    const years = p.milestones.filter((m) => !m.posthumous).map((m) => m.year);
     return {
       id: p.id,
       name: p.name,
       born: p.born,
       died: p.died,
-      // The first and the last dated milestone. The time line uses it when no born year is known.
+      // The first and the last dated milestone of the life. The time line uses it when no born year is known.
       active: years.length ? [Math.min(...years), Math.max(...years)] : null,
       // The lane on the time line: the domain of the first style. Unplaced when there is no style.
       domain: byId.get(p.styles[0]?.style ?? "")?.domain ?? "unplaced",

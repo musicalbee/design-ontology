@@ -1,0 +1,354 @@
+{
+  "$schema": "../../../schema/domains/ceramics.schema.json",
+  "id": "trencadis",
+  "domain": "ceramics",
+  "name": "Trencadís",
+  "aliases": [
+    "Broken tile mosaic",
+    "Pique assiette on architecture",
+    "Shard mosaic"
+  ],
+  "era_id": "art-pottery",
+  "branch": "architectural",
+  "time_period": {
+    "start": 1900,
+    "end": null,
+    "label": "1900 to the present"
+  },
+  "region": "Barcelona, Catalonia",
+  "summary": "A surface of broken tile and china that is set in mortar on a curved wall, bench or roof. Antoni Gaudí and Josep Maria Jujol made it a free, colourful skin for Barcelona buildings.",
+  "philosophy": {
+    "core_thesis": "A broken tile is not waste: a wall of shards takes any curve, and the glaze colour of each piece joins into one bright surface.",
+    "design_principles": [
+      "Break glazed tiles and plates with a hammer into pieces of 2 to 10 cm.",
+      "Set the pieces in a bed of wet mortar on a curved wall, a bench or a chimney.",
+      "Mix many colours in one field; place the pieces at random and keep the pattern loose.",
+      "Add shards of plates, bottle glass and cups, so that a few printed motifs appear.",
+      "Keep the glaze face outward; the sharp edges of the shards stay below the grout line.",
+      "Fill the gaps with a thin mortar joint of 3 to 5 mm and wipe the face clean.",
+      "Use the mosaic on a form that has a curve: a serpentine bench, a lizard, a dome or a chimney."
+    ],
+    "anti_patterns": [
+      "A flat grid of square tiles in one colour",
+      "A regular, printed tile pattern with no breaks",
+      "Smooth, uncut ceramic with no shard edge",
+      "A sharp-edged tile that cuts the hand",
+      "Pieces of one colour that give a plain surface"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 5,
+    "hand_mark": 4,
+    "refinement": 2,
+    "glaze_depth": 4,
+    "chromatic_intensity": 5
+  },
+  "form": {
+    "shape": "Curved benches, ridge ornaments, chimneys, finials, domed roofs, columns and sculptural animals that carry a skin of shards.",
+    "profile": "A soft, flowing curve with no sharp corner; the surface is rough and bright, with small variations of 1 to 3 mm in the height of the shards.",
+    "foot_and_rim": "Edges are rounded with mortar and the shards are cut to follow the curve; the top of a bench ends in a smooth lip.",
+    "proportion": "Shards are 2 to 10 cm across; the mortar bed is 2 to 3 cm thick and the mosaic skin adds 10 to 15 mm to the wall.",
+    "rules": [
+      "Apply the shards on a curve.",
+      "Use free colour in each field.",
+      "Break the tile by hand and keep the pieces large.",
+      "Do not place the shards in rows."
+    ]
+  },
+  "bodies": {
+    "primary": [
+      "earthenware"
+    ],
+    "secondary": [
+      "porcelain",
+      "stoneware",
+      "terracotta",
+      "glass",
+      "concrete"
+    ],
+    "avoid": [
+      "paper-clay",
+      "technical-porcelain",
+      "vitreous-china",
+      "porcelain-stoneware"
+    ],
+    "rule": "Use the waste of tile factories and household china: glazed earthenware first, with porcelain and glass as a bright accent. The mortar base must be strong and curved."
+  },
+  "forming": {
+    "methods": [
+      "breaking glazed tile by hand",
+      "setting shards in wet mortar",
+      "cutting the shards with nippers",
+      "wiping and polishing the surface"
+    ],
+    "joins": "Each shard is pressed into a bed of lime or cement mortar on the wall; the joint is thin and the same colour as the mortar.",
+    "details": "A small chip on the edge of a shard, a part of a printed flower or a letter on a plate, and a thin uneven mortar line."
+  },
+  "glaze": {
+    "glazes": [
+      "lead-glaze",
+      "tin-glaze",
+      "coloured-gloss"
+    ],
+    "decorations": [
+      "tile-mosaic",
+      "underglaze-polychrome",
+      "transfer-print"
+    ],
+    "pattern": "Free fields of broken colour: blue, white, green, yellow and orange, with small parts of plate patterns, and some bright whole discs.",
+    "gloss": "Gloss, about 70 to 95 GU; each shard gives its own sheen, and the whole surface glitters in the sun.",
+    "wear": "The glaze keeps its colour in the sun and rain; a mortar joint may crack, and a loose shard falls off the edge."
+  },
+  "palette": {
+    "strategy": "Many saturated colours in small pieces; each field has a leading colour, for example blue and white on one bench and orange and green on a roof.",
+    "colours": [
+      {
+        "name": "Tile white",
+        "hex": "#F0EDE3",
+        "role": "shard"
+      },
+      {
+        "name": "Cobalt blue",
+        "hex": "#1F4E96",
+        "role": "shard"
+      },
+      {
+        "name": "Leaf green",
+        "hex": "#3C8D5A",
+        "role": "shard"
+      },
+      {
+        "name": "Sun yellow",
+        "hex": "#E3B83B",
+        "role": "shard"
+      },
+      {
+        "name": "Orange",
+        "hex": "#D87530",
+        "role": "shard"
+      },
+      {
+        "name": "Mortar grey",
+        "hex": "#9A968C",
+        "role": "joint"
+      }
+    ]
+  },
+  "firing": {
+    "kiln": "The shards come from many kilns: tile factories fire earthenware tile, and potters fire plate and cup shards at higher heat.",
+    "atmosphere": "oxidation",
+    "temperature_c": [
+      950,
+      1300
+    ],
+    "processes": [
+      "firing of the tile at the factory",
+      "breaking the tile into shards",
+      "setting in mortar",
+      "wiping and curing of the mortar"
+    ],
+    "scale": "The benches and walls of Park Güell run for hundreds of metres; the work used teams of masons and many tonnes of waste tile.",
+    "signs": "Uneven shard edges, a patch of a plate motif, a thin mortar line and a bright, glittering face."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "faience-cladding",
+        "form": "Serpentine bench wall covered in blue, white and yellow shards",
+        "body": "earthenware",
+        "glaze": "lead-glaze",
+        "decoration": "tile-mosaic"
+      },
+      {
+        "object": "chimney-pot",
+        "form": "Chimney top in a twist covered in white and green shards",
+        "body": "earthenware",
+        "glaze": "tin-glaze",
+        "decoration": "tile-mosaic"
+      },
+      {
+        "object": "ridge-ornament",
+        "form": "Dragon-back roof ridge with scales of glazed shards",
+        "body": "earthenware",
+        "glaze": "coloured-gloss",
+        "decoration": "tile-mosaic"
+      },
+      {
+        "object": "finial",
+        "form": "Cross finial with a base covered in shards of plates",
+        "body": "porcelain",
+        "glaze": "coloured-gloss",
+        "decoration": "transfer-print"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "broken tile mosaic on a curved bench",
+      "trencadís surface in blue white and yellow",
+      "serpentine seat with a glittering face",
+      "chimney covered in ceramic shards",
+      "mortar joints between glazed pieces",
+      "Catalan modernista roof ridge",
+      "random colour fields of tile",
+      "pieces of plate patterns in the mosaic",
+      "bright sunlight on glazed shards"
+    ],
+    "negative": [
+      "regular grid tile",
+      "printed pattern",
+      "flat painted wall",
+      "single colour mosaic",
+      "industrial cladding"
+    ],
+    "canonical_works": [
+      {
+        "work": "Serpentine bench, Park Güell",
+        "maker": "Antoni Gaudí and Josep Maria Jujol",
+        "year": 1914
+      },
+      {
+        "work": "Casa Batlló roof",
+        "maker": "Antoni Gaudí",
+        "year": 1906
+      },
+      {
+        "work": "Park Güell entrance pavilions",
+        "maker": "Antoni Gaudí",
+        "year": 1903
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Barcelona Parc Güell el drac.jpg",
+      "kind": "image",
+      "credit": "Isiwal",
+      "licence": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Barcelona_Parc_G%C3%BCell_el_drac.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Barcelona_Parc_G%C3%BCell_el_drac.jpg/960px-Barcelona_Parc_G%C3%BCell_el_drac.jpg"
+    },
+    {
+      "title": "CasaBatllo rooftop chimneys dragon.jpg",
+      "kind": "image",
+      "credit": "Sara Terrones",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:CasaBatllo_rooftop_chimneys_dragon.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/CasaBatllo_rooftop_chimneys_dragon.jpg/960px-CasaBatllo_rooftop_chimneys_dragon.jpg"
+    },
+    {
+      "title": "Park Güell 01.jpg",
+      "kind": "image",
+      "credit": "Bernard Gagnon",
+      "licence": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Park_G%C3%BCell_01.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Park_G%C3%BCell_01.jpg/960px-Park_G%C3%BCell_01.jpg"
+    },
+    {
+      "title": "Casa Batlló chimney.jpg",
+      "kind": "image",
+      "credit": "ZMcCune (WMF)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Casa_Batll%C3%B3_chimney.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Casa_Batll%C3%B3_chimney.jpg/960px-Casa_Batll%C3%B3_chimney.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "zellige",
+      "azulejo"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "art-nouveau-architecture",
+      "organic-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Play and wonder: the viewer sees a wall that glitters like a toy and moves like a wave.",
+    "keywords": [
+      "playful",
+      "glittering",
+      "organic",
+      "joyful",
+      "free"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "trencadis",
+      "broken tile mosaic",
+      "park guell mosaic",
+      "gaudi mosaic",
+      "pique assiette",
+      "shard mosaic wall",
+      "modernista chimney"
+    ],
+    "use_cases": [
+      "a render of a Gaudí-style bench or roof",
+      "a mosaic design from waste tile",
+      "a label for broken ceramic architecture"
+    ],
+    "avoid_when": [
+      "the brief needs a flat, regular tile wall",
+      "the brief needs a clean, minimal surface",
+      "the brief needs a single bright glaze"
+    ],
+    "modifiers": [
+      {
+        "request": "Hungarian roof, regular tile",
+        "toward": "hungarian-secession-ceramics",
+        "how": "Replace the shards by whole roof tiles in a zigzag pattern and add a finial with an eosin glaze."
+      },
+      {
+        "request": "modern flat cladding",
+        "toward": "terracotta-rainscreen",
+        "how": "Remove the shards, use extruded hollow panels with a matt face and keep a straight joint."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Trencadís",
+      "url": "https://en.wikipedia.org/wiki/Trencad%C3%ADs"
+    },
+    {
+      "title": "Wikipedia: Park Güell",
+      "url": "https://en.wikipedia.org/wiki/Park_G%C3%BCell"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.9,
+      "min": 0.6,
+      "max": 1.0,
+      "note": "The mosaic is a free pattern; low ornament breaks the style."
+    },
+    "glaze_gloss": {
+      "default": 85,
+      "min": 60,
+      "max": 98
+    },
+    "wall_thickness": {
+      "default": 15,
+      "min": 8,
+      "max": 25,
+      "note": "The skin adds 10 to 25 mm of shard and mortar to the wall."
+    },
+    "hand_mark": {
+      "default": 0.85,
+      "min": 0.6,
+      "max": 1.0
+    },
+    "era_blend": {
+      "default": 0.25,
+      "min": 0,
+      "max": 1
+    }
+  }
+}

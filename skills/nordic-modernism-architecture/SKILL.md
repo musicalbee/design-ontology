@@ -211,7 +211,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`international-style-architecture`](../international-style-architecture/SKILL.md)
 - **Led to (go here for a newer version):** [`critical-regionalism-architecture`](../critical-regionalism-architecture/SKILL.md)
-- **Kin in another domain:** [`scandinavian-interior`](../scandinavian-interior/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
+- **Kin in another domain:** [`scandinavian-interior`](../scandinavian-interior/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`scandinavian-modern-tableware`](../scandinavian-modern-tableware/SKILL.md)
 - **Nearest by vector profile:** [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md), [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md), [`organic-architecture`](../organic-architecture/SKILL.md)
 
 ## Emotional target

@@ -1,0 +1,316 @@
+{
+  "$schema": "../../../schema/domains/ceramics.schema.json",
+  "id": "art-nouveau-tiles",
+  "domain": "ceramics",
+  "name": "Art Nouveau tiles",
+  "aliases": [
+    "Jugendstil tiles",
+    "Secessionist tiles",
+    "Barbotine tiles",
+    "Moulded Art Nouveau tiles"
+  ],
+  "era_id": "art-pottery",
+  "branch": "tiles",
+  "time_period": {
+    "start": 1895,
+    "end": 1915,
+    "label": "1895–1915"
+  },
+  "region": "Britain, Belgium, France, Germany and Austria",
+  "summary": "Moulded earthenware tiles with a plant line in low relief and a deep, soft glaze. The tile joins a flowing stem, a lily or a woman's hair to a sea-green or plum ground. Factories made them for shop fronts, stairs, hearths and tube stations.",
+  "philosophy": {
+    "core_thesis": "A factory tile can carry the line of a plant, if the mould and the glaze do the drawing.",
+    "design_principles": [
+      "Draw the design as one curved line, thicker at the base and thin at the tip, that flows across 2 to 4 tiles.",
+      "Press the line in low relief of 1 to 3 mm, so that the glaze pools in the hollows.",
+      "Use a matt or satin glaze with a soft break in colour at each edge of the relief.",
+      "Choose muted colours: sea green, plum, ochre, grey blue and cream, with 2 or 3 in one panel.",
+      "Make the tile 6 inches square or a tall panel, and plan a border and a frieze for the same line.",
+      "Use a motif from nature: lily, iris, poppy, peacock feather, or a woman with long hair.",
+      "Apply the colour in thick pools, or draw each line with a trail of slip, so that each colour keeps to its field.",
+      "Set the tiles in hearths, porches, stair risers and shop fronts, where the line leads the eye."
+    ],
+    "anti_patterns": [
+      "A straight geometric grid in the Gothic manner",
+      "A sharp black outline with flat poster colour",
+      "A glossy single-colour glaze with no relief",
+      "A heavy gilt frame around each tile",
+      "A photographic print on a flat tile"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 5,
+    "hand_mark": 3,
+    "refinement": 4,
+    "glaze_depth": 4,
+    "chromatic_intensity": 3
+  },
+  "form": {
+    "shape": "Square wall tiles, tall panels, hearth and fireplace tiles, friezes, and stair risers.",
+    "profile": "A flat tile with a low modelled relief of 1 to 3 mm; the relief edges are soft and rounded.",
+    "foot_and_rim": "The back is ribbed for the mortar; the edge is square and the glaze stops at the arris.",
+    "proportion": "A tile is 6 inches square, or 6 by 12 inches for a frieze; a panel joins 2 to 6 tiles.",
+    "rules": [
+      "Let the main line cross the joint between tiles.",
+      "Keep the relief low so that the tile stacks and the glaze does not run off.",
+      "Fix 3 or 4 glaze colours for a design, and keep each to its area."
+    ]
+  },
+  "bodies": {
+    "primary": [
+      "earthenware"
+    ],
+    "secondary": [],
+    "avoid": [
+      "porcelain",
+      "bone-china",
+      "stoneware"
+    ],
+    "rule": "Use a white or buff earthenware that presses well in a plaster mould and takes a soft glaze. Keep porcelain and stoneware out."
+  },
+  "forming": {
+    "methods": [
+      "pressing the tile from dust in a steel die",
+      "making a plaster master from a drawn design",
+      "pouring a thin trail of slip along the line",
+      "dipping the tile in a coloured glaze",
+      "wiping the high relief by hand"
+    ],
+    "joins": "Tiles are set in cement on a wall or a hearth, and the line is planned across the joint.",
+    "details": "A soft pool of glaze in each hollow, a thin break on each edge of the relief, and a pottery mark on the back."
+  },
+  "glaze": {
+    "glazes": [
+      "matte-glaze",
+      "lead-glaze",
+      "coloured-gloss"
+    ],
+    "decorations": [
+      "relief-moulding",
+      "underglaze-polychrome",
+      "slip-trailing"
+    ],
+    "pattern": "A curved plant line in low relief; one or two soft glaze colours pool in the hollows and break on the high points.",
+    "gloss": "Matt to satin, 10 to 60 GU.",
+    "wear": "The relief edge is the first to wear and shows the pale body; the pools of glaze stay deep for decades."
+  },
+  "palette": {
+    "strategy": "Muted sea and plant tones with one warm accent; the break of the glaze gives the second tone of each colour.",
+    "colours": [
+      {
+        "name": "Sea green",
+        "hex": "#5E8A78",
+        "role": "main glaze"
+      },
+      {
+        "name": "Plum",
+        "hex": "#6D4262",
+        "role": "deep glaze"
+      },
+      {
+        "name": "Ochre",
+        "hex": "#C3962E",
+        "role": "accent"
+      },
+      {
+        "name": "Grey blue",
+        "hex": "#6F8798",
+        "role": "ground"
+      },
+      {
+        "name": "Cream",
+        "hex": "#EDE3C9",
+        "role": "high point"
+      }
+    ]
+  },
+  "firing": {
+    "kiln": "A coal-fired or gas muffle kiln, with the tiles in saggars.",
+    "atmosphere": "oxidation",
+    "temperature_c": [
+      1000,
+      1150
+    ],
+    "processes": [
+      "pressing in a steel die",
+      "biscuit firing at about 1100 °C",
+      "dipping or trailing in glaze",
+      "glaze firing at 1000 to 1050 °C"
+    ],
+    "scale": "Factories pressed tiles by the thousand in a day, and the same line could go into a thousand hearths.",
+    "signs": "Soft pools of glaze, a thin break at the edge of the relief and clean, square edges."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "fireplace-tile",
+        "form": "Hearth tile with a lily stem in low relief under a sea-green glaze",
+        "body": "earthenware",
+        "glaze": "matte-glaze",
+        "decoration": "relief-moulding"
+      },
+      {
+        "object": "wall-tile",
+        "form": "Tile of 6 inches with a peacock feather in two glaze colours",
+        "body": "earthenware",
+        "glaze": "coloured-gloss",
+        "decoration": "underglaze-polychrome"
+      },
+      {
+        "object": "tile-panel",
+        "form": "Panel of 4 tiles with an iris stem that crosses the joints",
+        "body": "earthenware",
+        "glaze": "matte-glaze",
+        "decoration": "relief-moulding"
+      },
+      {
+        "object": "border-tile",
+        "form": "Frieze tile with a poppy line trailed in slip",
+        "body": "earthenware",
+        "glaze": "lead-glaze",
+        "decoration": "slip-trailing"
+      },
+      {
+        "object": "tile-panel",
+        "form": "Tall panel with a woman with flowing hair, in plum and cream",
+        "body": "earthenware",
+        "glaze": "coloured-gloss",
+        "decoration": "underglaze-polychrome"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Art Nouveau moulded tile",
+      "lily stem in low relief",
+      "sea green matt glaze",
+      "plum and cream tile panel",
+      "whiplash plant line",
+      "Jugendstil hearth tile",
+      "pooled glaze in hollows",
+      "still-life museum photograph, soft north light"
+    ],
+    "negative": [
+      "geometric Gothic pattern",
+      "flat poster colour",
+      "glossy single colour",
+      "photographic print",
+      "gilt frame"
+    ],
+    "canonical_works": [
+      {
+        "work": "Tube-lined tile panels with lilies and peacocks",
+        "maker": "Pilkington's Tile and Pottery",
+        "year": 1900
+      },
+      {
+        "work": "Relief-moulded hearth tiles with plant stems",
+        "maker": "Minton Hollins",
+        "year": 1900
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Art Nouveau wall tiles, Bouillon Racine, Paris",
+      "kind": "image",
+      "credit": "Neoclassicism Enthusiast",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Tiles_in_the_Bouillon_Racine_(Paris).jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/2/25/Tiles_in_the_Bouillon_Racine_(Paris).jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "victorian-encaustic-tiles",
+      "art-nouveau-ceramics",
+      "delft-tiles"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "art-nouveau-interior",
+      "art-nouveau-architecture",
+      "art-nouveau-object"
+    ]
+  },
+  "emotion": {
+    "target_response": "A calm, living curve: the viewer feels a garden in the room and a little wonder at the line.",
+    "keywords": [
+      "flowing",
+      "organic",
+      "soft",
+      "dreamy",
+      "fine"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "lover"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "art nouveau tile",
+      "jugendstil tile",
+      "lily relief tile",
+      "moulded hearth tile",
+      "tube lined tile",
+      "secession tile",
+      "plant line tile"
+    ],
+    "use_cases": [
+      "a hearth or porch in the Art Nouveau style",
+      "a shop front or stair in plant relief",
+      "a museum label on a moulded tile"
+    ],
+    "avoid_when": [
+      "the brief needs a strict geometric floor",
+      "the brief needs a plain white wall",
+      "the brief needs a modern large format"
+    ],
+    "modifiers": [
+      {
+        "request": "Plain and hygienic",
+        "toward": "subway-tile",
+        "how": "Remove the relief, use a white gloss glaze, and set the tiles in a brick bond."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Art Nouveau ceramics",
+      "url": "https://en.wikipedia.org/wiki/Art_Nouveau"
+    },
+    {
+      "title": "Wikipedia: Tile",
+      "url": "https://en.wikipedia.org/wiki/Tile"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.8,
+      "min": 0.5,
+      "max": 1.0
+    },
+    "glaze_gloss": {
+      "default": 35,
+      "min": 10,
+      "max": 65
+    },
+    "wall_thickness": {
+      "default": 9,
+      "min": 6,
+      "max": 14
+    },
+    "hand_mark": {
+      "default": 0.4,
+      "min": 0.2,
+      "max": 0.65
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1
+    }
+  }
+}

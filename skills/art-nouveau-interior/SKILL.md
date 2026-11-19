@@ -349,7 +349,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`victorian-interior`](../victorian-interior/SKILL.md)
 - **Was rejected by:** [`art-deco-interior`](../art-deco-interior/SKILL.md)
-- **Kin in another domain:** [`art-nouveau-architecture`](../art-nouveau-architecture/SKILL.md), [`art-nouveau-jewellery`](../art-nouveau-jewellery/SKILL.md), [`art-nouveau-monogram`](../art-nouveau-monogram/SKILL.md), [`art-nouveau-object`](../art-nouveau-object/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`chromolithograph-poster`](../chromolithograph-poster/SKILL.md)
+- **Kin in another domain:** [`art-nouveau-architecture`](../art-nouveau-architecture/SKILL.md), [`art-nouveau-ceramics`](../art-nouveau-ceramics/SKILL.md), [`art-nouveau-jewellery`](../art-nouveau-jewellery/SKILL.md), [`art-nouveau-monogram`](../art-nouveau-monogram/SKILL.md), [`art-nouveau-object`](../art-nouveau-object/SKILL.md), [`art-nouveau-tiles`](../art-nouveau-tiles/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`chromolithograph-poster`](../chromolithograph-poster/SKILL.md)
 - **Nearest by vector profile:** [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md), [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md)
 
 ## Emotional target

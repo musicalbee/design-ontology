@@ -205,7 +205,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`colour-field-painting`](../colour-field-painting/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`de-stijl-painting`](../de-stijl-painting/SKILL.md)
 - **Was rejected by:** [`minimalism-painting`](../minimalism-painting/SKILL.md), [`photorealism`](../photorealism/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md)
-- **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md)
+- **Kin in another domain:** [`abstract-expressionist-ceramics`](../abstract-expressionist-ceramics/SKILL.md), [`brutalist-architecture`](../brutalist-architecture/SKILL.md)
 - **Nearest by vector profile:** [`cubism-painting`](../cubism-painting/SKILL.md), [`fauvism`](../fauvism/SKILL.md), [`post-impressionism`](../post-impressionism/SKILL.md)
 
 ## Emotional target

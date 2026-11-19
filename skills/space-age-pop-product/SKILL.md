@@ -202,7 +202,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)
 - **Led to (go here for a newer version):** [`memphis-product`](../memphis-product/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
-- **Kin in another domain:** [`electronic-and-digital-watch`](../electronic-and-digital-watch/SKILL.md), [`glam-platform-shoe`](../glam-platform-shoe/SKILL.md), [`muscle-and-pony-car`](../muscle-and-pony-car/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md), [`space-age`](../space-age/SKILL.md), [`space-age-couture`](../space-age-couture/SKILL.md), [`tailfin-era-car`](../tailfin-era-car/SKILL.md), [`wedge-design-car`](../wedge-design-car/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
+- **Kin in another domain:** [`electronic-and-digital-watch`](../electronic-and-digital-watch/SKILL.md), [`glam-platform-shoe`](../glam-platform-shoe/SKILL.md), [`muscle-and-pony-car`](../muscle-and-pony-car/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md), [`space-age`](../space-age/SKILL.md), [`space-age-couture`](../space-age-couture/SKILL.md), [`tailfin-era-car`](../tailfin-era-car/SKILL.md), [`wedge-design-car`](../wedge-design-car/SKILL.md), [`west-german-fat-lava`](../west-german-fat-lava/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Nearest by vector profile:** [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md), [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md)
 
 ## Emotional target

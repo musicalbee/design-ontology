@@ -1,0 +1,331 @@
+{
+  "$schema": "../../../schema/domains/ceramics.schema.json",
+  "id": "porcelain-insulator",
+  "domain": "ceramics",
+  "name": "Porcelain insulator",
+  "aliases": [
+    "Electrical porcelain",
+    "Ceramic line insulator",
+    "Telegraph and power insulator"
+  ],
+  "era_id": "industrial-pottery",
+  "branch": "sanitary-technical",
+  "time_period": {
+    "start": 1850,
+    "end": null,
+    "label": "1850 to now"
+  },
+  "region": "Britain, Germany and the United States",
+  "summary": "Glazed porcelain that holds a live wire away from a pole or a tower. The shape follows the electric field and the rain: a stack of skirts, a brown or grey glaze, and a cement joint to a metal cap.",
+  "philosophy": {
+    "core_thesis": "A wire needs a dry, hard, glazed surface between it and the earth, so the clay body is dense and the shape is a stack of rain skirts.",
+    "design_principles": [
+      "Fire a dense body with water absorption below 0.5 %, so that no moisture enters the wall.",
+      "Glaze every outer surface 0.3 to 0.5 mm thick, in brown or light grey, to shed rain and dirt.",
+      "Shape the outer face as 2 to 4 skirts that overhang, so that the inner face stays dry in rain.",
+      "Grow the creepage path with the voltage: about 20 to 25 mm of surface for each kV of line voltage.",
+      "Leave a ring of the glaze off the cement seat and coat it with sand, so that the cement holds.",
+      "Make a suspension disc 146 mm across and 254 mm apart in a string, so that parts fit each other.",
+      "Stamp the maker, the year and the load on the shoulder in raised or incised letters."
+    ],
+    "anti_patterns": [
+      "A thin white pot with a gold line and a floral print",
+      "A porous body that shows a bare, rough surface under the glaze",
+      "A single smooth cylinder with no skirt to break the water film",
+      "Bright colour glaze that hides tracking marks and dirt",
+      "A hand-painted pattern on the skirt"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "hand_mark": 1,
+    "refinement": 3,
+    "glaze_depth": 2,
+    "chromatic_intensity": 2
+  },
+  "form": {
+    "shape": "Bell-shaped pin insulators for a cross-arm, stacked disc units for a string, solid post insulators, and bushings with a stack of skirts.",
+    "profile": "A smooth dome at the top, then 2 to 4 skirts that flare out and curl under, with a deep groove at the neck for the wire.",
+    "foot_and_rim": "A threaded socket or a sanded cement seat at the foot, and a rolled, thick rim on each skirt so that it does not chip.",
+    "proportion": "Pin insulator 100 to 300 mm tall, wall 10 to 25 mm thick; each skirt reaches out 25 to 40 mm past the one above.",
+    "rules": [
+      "Keep the skirt rim thick and round: a thin edge chips in transport.",
+      "Keep the wall the same thickness all round, so that it fires without cracks.",
+      "Put the wire groove at the top or neck, on a clean glaze.",
+      "Leave a sanded, unglazed band where the metal cap is cemented."
+    ]
+  },
+  "bodies": {
+    "primary": [
+      "technical-porcelain",
+      "porcelain"
+    ],
+    "secondary": [
+      "steel-frame",
+      "brass",
+      "stoneware"
+    ],
+    "avoid": [
+      "bone-china",
+      "earthenware",
+      "glass",
+      "plastic"
+    ],
+    "rule": "Use a dense, grey-white technical porcelain of clay, feldspar and quartz or alumina. A fired break must be glassy and show no pores."
+  },
+  "forming": {
+    "methods": [
+      "wet-process throwing and turning on a lathe",
+      "jiggering of disc units",
+      "dry pressing of small parts",
+      "leather-hard turning and joining of units",
+      "cement assembly of cap and pin"
+    ],
+    "joins": "A cast iron cap and a steel pin are cemented to the sanded porcelain; large units join from 2 or 3 fired pieces with cement.",
+    "details": "A stamped mark of the maker on the shoulder, a thin ring where the glaze stops, and three small spur marks on the foot."
+  },
+  "glaze": {
+    "glazes": [
+      "iron-brown-glaze",
+      "clear-feldspathic",
+      "sanitary-glaze",
+      "bare-clay"
+    ],
+    "decorations": [
+      "undecorated",
+      "incised",
+      "relief-moulding"
+    ],
+    "pattern": "No pattern. The only marks are the skirts, the raised ribs, the maker's stamp and the load rating in raised letters.",
+    "gloss": "High gloss, about 80 to 95 GU, on a smooth, hard glaze with no pinholes.",
+    "wear": "Dust and soot dull the glaze in time; the surface stays hard, and a chip shows the white body under a brown glaze."
+  },
+  "palette": {
+    "strategy": "A restrained brown, grey or white glaze with a sanded band of grey, and a dark metal cap.",
+    "colours": [
+      {
+        "name": "Insulator brown",
+        "hex": "#5A3B26",
+        "role": "glaze"
+      },
+      {
+        "name": "Light grey glaze",
+        "hex": "#C9C9C2",
+        "role": "alternative glaze"
+      },
+      {
+        "name": "Porcelain white",
+        "hex": "#EDEBE4",
+        "role": "body at a chip"
+      },
+      {
+        "name": "Sand grey",
+        "hex": "#A59F94",
+        "role": "cement seat"
+      },
+      {
+        "name": "Galvanised grey",
+        "hex": "#7C8084",
+        "role": "cap and pin"
+      }
+    ]
+  },
+  "firing": {
+    "kiln": "A coal-fired round downdraught kiln, later a gas or electric tunnel kiln, with saggars for the large units.",
+    "atmosphere": "oxidation",
+    "temperature_c": [
+      1250,
+      1400
+    ],
+    "processes": [
+      "dry the unit slowly for days",
+      "dip in glaze",
+      "fire in one pass at 1250 to 1400 °C",
+      "sand the cement seat",
+      "assemble the cap and pin with cement",
+      "test with high voltage"
+    ],
+    "scale": "A factory with tunnel kilns; a long string for a 400 kV line holds some 20 to 30 discs.",
+    "signs": "A thin glaze ring at the foot, kiln stilt marks, a maker stamp and a test mark; a small pinhole or a sag shows a reject."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "electrical-insulator",
+        "form": "Pin insulator with 2 skirts and a wire groove at the top",
+        "body": "technical-porcelain",
+        "glaze": "iron-brown-glaze",
+        "decoration": "undecorated"
+      },
+      {
+        "object": "electrical-insulator",
+        "form": "Disc unit for a suspension string with a deep rain skirt",
+        "body": "technical-porcelain",
+        "glaze": "clear-feldspathic",
+        "decoration": "relief-moulding"
+      },
+      {
+        "object": "electrical-insulator",
+        "form": "Post insulator, a column with 6 ribs and a grey glaze",
+        "body": "porcelain",
+        "glaze": "clear-feldspathic",
+        "decoration": "incised"
+      },
+      {
+        "object": "laboratory-ware",
+        "form": "Glazed crucible with a lid for a laboratory furnace",
+        "body": "technical-porcelain",
+        "glaze": "sanitary-glaze",
+        "decoration": "undecorated"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "glazed brown porcelain insulator",
+      "stacked rain skirts on a pole",
+      "cement joint to a galvanised cap",
+      "industrial still-life, hard side light",
+      "dense glassy glaze, high gloss",
+      "stamped maker mark on the shoulder",
+      "power line hardware against a grey sky"
+    ],
+    "negative": [
+      "floral print",
+      "gold line",
+      "thin tea cup shape",
+      "hand-painted pattern",
+      "matte rough clay",
+      "coloured plastic"
+    ],
+    "canonical_works": [
+      {
+        "work": "Stoneware telegraph insulator, Z type",
+        "maker": "C. F. Varley",
+        "year": 1861
+      },
+      {
+        "work": "Stoneware telegraph insulator",
+        "maker": "Doulton and Stiff",
+        "year": 1845
+      },
+      {
+        "work": "Suspension disc insulator",
+        "maker": "Hewlett and Buck",
+        "year": 1906
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Brown glazed porcelain telegraph insulator",
+      "kind": "image",
+      "credit": "Steve Coffman",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Porcelain_telegraph_insulator_marked_SOO.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Porcelain_telegraph_insulator_marked_SOO.jpg/960px-Porcelain_telegraph_insulator_marked_SOO.jpg"
+    },
+    {
+      "title": "Porcelain insulator on an electric fence",
+      "kind": "image",
+      "credit": "Kreuzschnabel",
+      "licence": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Porcelain-insulator.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Porcelain-insulator.jpg/960px-Porcelain-insulator.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "meissen-baroque-porcelain"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "industrial-utility-product",
+      "victorian-manufacture"
+    ]
+  },
+  "emotion": {
+    "target_response": "A plain, hard order: the viewer sees a part that has one job, and thinks of lines on a hill and a dry sky after rain.",
+    "keywords": [
+      "utilitarian",
+      "dense",
+      "exact",
+      "weathered",
+      "anonymous"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "porcelain insulator",
+      "telegraph insulator",
+      "brown glazed insulator",
+      "suspension disc insulator",
+      "electrical porcelain",
+      "high voltage ceramic"
+    ],
+    "use_cases": [
+      "an industrial still-life with power line hardware",
+      "a technical brief for a glazed electrical part",
+      "a collector label for a telegraph insulator"
+    ],
+    "avoid_when": [
+      "the brief wants decorative tableware",
+      "the brief needs a glass or polymer insulator"
+    ],
+    "modifiers": [
+      {
+        "request": "decorative and painted",
+        "toward": "meissen-baroque-porcelain",
+        "how": "Change to a thin white hard-paste body, remove the skirts and add overglaze painting and gilt."
+      },
+      {
+        "request": "for a bathroom",
+        "toward": "victorian-sanitary-ware",
+        "how": "Change to vitreous china with a thick white glaze and cast it in a plaster mould."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Insulator (electricity)",
+      "url": "https://en.wikipedia.org/wiki/Insulator_(electricity)"
+    },
+    {
+      "title": "Wikipedia: Cromwell Fleetwood Varley",
+      "url": "https://en.wikipedia.org/wiki/Cromwell_Fleetwood_Varley"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.05,
+      "min": 0,
+      "max": 0.2
+    },
+    "glaze_gloss": {
+      "default": 88,
+      "min": 70,
+      "max": 98
+    },
+    "wall_thickness": {
+      "default": 14,
+      "min": 8,
+      "max": 25,
+      "note": "Large units for high voltage have thick walls; small pin insulators are thinner."
+    },
+    "hand_mark": {
+      "default": 0.05,
+      "min": 0,
+      "max": 0.3
+    },
+    "era_blend": {
+      "default": 0.1,
+      "min": 0,
+      "max": 1
+    }
+  }
+}
