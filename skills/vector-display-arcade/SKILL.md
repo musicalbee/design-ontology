@@ -77,7 +77,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Geometry & shape
 
-- **Primitive:** A straight line segment between two points on a 1024 by 768 addressable field.
+- **Primitive:** A straight line segment between two points on a 1024 by 1024 addressable field; about 1024 by 768 of it is visible.
 - **Budget:** A few hundred segments for each frame on the whole screen.
 - **Edge rule:** Perfect straight lines with no steps; the ends of lines glow a little brighter.
 - **Proportion:** Abstract: a ship, a rock and a city are all the same order of size.
@@ -183,7 +183,7 @@ Each knob varies the style inside a range where it stays itself. Keep each value
 
 | Knob | Default | Range | Changes |
 |---|---|---|---|
-| Render resolution (`render_resolution`) | 768 | 480–1024 px | surface, geometry |
+| Render resolution (`render_resolution`) | 1024 | 480–1024 px | surface, geometry |
 | Colour depth (`colour_depth`) | 1 | 1–3 bit/px | palette |
 | Camera projection (`camera_projection`) | first-person | first-person, side-view, top-down | projection_and_camera, world_and_space |
 | Shading steps (`shading_steps`) | 1 | 1–2 | lighting, surface |
@@ -196,7 +196,6 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more retro colour**: move toward [`eight-bit-tile`](../eight-bit-tile/SKILL.md) (8-bit tile graphics). Fill the shapes with a small flat palette and move to a tile grid.
 - If the user asks for **more solid**: move toward [`fifth-gen-low-poly`](../fifth-gen-low-poly/SKILL.md) (Fifth-generation low poly). Keep the perspective; fill the wireframes with flat-shaded polygons.
 
-- **Led to (go here for a newer version):** [`eight-bit-tile`](../eight-bit-tile/SKILL.md), [`fifth-gen-low-poly`](../fifth-gen-low-poly/SKILL.md)
 - **Kin in another domain:** [`cassette-futurism`](../cassette-futurism/SKILL.md), [`electronic-and-digital-watch`](../electronic-and-digital-watch/SKILL.md), [`synthwave-web`](../synthwave-web/SKILL.md)
 - **Nearest by vector profile:** [`impossible-isometric-mobile`](../impossible-isometric-mobile/SKILL.md), [`low-poly-ps1-revival`](../low-poly-ps1-revival/SKILL.md), [`isometric-pixel-world`](../isometric-pixel-world/SKILL.md)
 
