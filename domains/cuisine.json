@@ -1,0 +1,122 @@
+{
+  "id": "cuisine",
+  "order": 14,
+  "name": "Cuisine",
+  "schema": "schema/domains/cuisine.schema.json",
+  "task": "specifying, describing or prompting food and its table: a dish, a menu, a plate, a service, a shop counter or a food photograph",
+  "description": "Cuisine styles in eight branches: the haute and restaurant kitchen, codified home traditions, pastry, bread, preservation, street food, the kitchens of diet and belief, and drink. Each style is the rule set of one kitchen in one period: plating, pantry, technique, flavour, palette and service, with three to six signature dishes. A closed vocabulary names each ingredient and each cooking method with the year and the place where it began, and the year that it reached the kitchens of Europe, so that the styles also give a history of ingredients and techniques.",
+  "vectors": [
+    {
+      "key": "composition",
+      "label": "Composition",
+      "abbr": "COMP",
+      "low": "heaped, shared and family-style",
+      "high": "an architectural plate with exact placement and empty space"
+    },
+    {
+      "key": "transformation",
+      "label": "Transformation",
+      "abbr": "TRANS",
+      "low": "raw or plainly cooked, the ingredient as it grew",
+      "high": "technique changes the form, the texture and the temperature"
+    },
+    {
+      "key": "locality",
+      "label": "Locality",
+      "abbr": "LOCAL",
+      "low": "a global pantry of imported goods",
+      "high": "one place and one season, grown or foraged near the kitchen"
+    },
+    {
+      "key": "richness",
+      "label": "Richness",
+      "abbr": "RICH",
+      "low": "broth, acid, raw and steamed",
+      "high": "butter, cream, fat and reduction"
+    },
+    {
+      "key": "flavour_intensity",
+      "label": "Flavour intensity",
+      "abbr": "HEAT",
+      "low": "mild, clean and subtle",
+      "high": "loud spice, chilli, smoke and ferment"
+    }
+  ],
+  "facets": [
+    { "key": "plating", "title": "Plating & composition" },
+    { "key": "pantry", "title": "Pantry" },
+    { "key": "technique", "title": "Technique" },
+    { "key": "flavour", "title": "Flavour" },
+    { "key": "palette", "title": "Palette" },
+    { "key": "service", "title": "Service & table" },
+    { "key": "signatures", "title": "Signature dishes" },
+    { "key": "prompt_primer", "title": "Prompt primer" }
+  ],
+  "assets": [
+    {
+      "type": "plate-plan",
+      "purpose": "A plan of the table of the style drawn by code: the plate seen from above in the plate colour of the style, the ingredients placed by its composition rule, and a time line that puts the origin and the European arrival of each ingredient against the start of the style.",
+      "made_by": "code",
+      "file": "demo/previews/cuisine/{id}.svg",
+      "manifest": "demo/previews/cuisine/manifest.json",
+      "entry": "images.{id}",
+      "generator": "scripts/render-cuisine-plates.ts",
+      "canvas": [{ "width": 1152, "height": 768 }]
+    }
+  ],
+  "knobs": [
+    {
+      "key": "course_count",
+      "label": "Course count",
+      "kind": "integer",
+      "min": 1,
+      "max": 40,
+      "description": "The number of courses or services in one meal: 1 = one plate or one bowl, 40 = a long tasting menu or a banquet.",
+      "drives": ["service", "signatures"]
+    },
+    {
+      "key": "negative_space",
+      "label": "Negative space",
+      "kind": "number",
+      "min": 0,
+      "max": 0.9,
+      "description": "The share of the visible plate surface that stays empty: 0 = the food covers the plate or the dish is shared from one vessel, 0.9 = a small composition on a wide plate.",
+      "drives": ["plating"]
+    },
+    {
+      "key": "portion_g",
+      "label": "Portion",
+      "kind": "integer",
+      "unit": "g",
+      "min": 5,
+      "max": 800,
+      "description": "The mass of food on one plate of the main course, in grams.",
+      "drives": ["plating", "service"]
+    },
+    {
+      "key": "spice_level",
+      "label": "Spice level",
+      "kind": "integer",
+      "min": 0,
+      "max": 5,
+      "description": "The heat of chilli, pepper and mustard in the main dishes: 0 = none, 1 = a trace of pepper, 3 = clearly hot, 5 = the heat is the point of the dish.",
+      "drives": ["flavour", "pantry"]
+    },
+    {
+      "key": "fat_share",
+      "label": "Fat share",
+      "kind": "number",
+      "min": 0,
+      "max": 0.7,
+      "description": "The share of the energy of a main dish that comes from fat: butter, cream, oil and lard.",
+      "drives": ["flavour", "technique", "pantry"]
+    },
+    {
+      "key": "plate_colour",
+      "label": "Plate colour",
+      "kind": "colour",
+      "description": "The colour of the main plate, bowl or board, as a hex value.",
+      "drives": ["plating", "service", "palette"]
+    }
+  ]
+}

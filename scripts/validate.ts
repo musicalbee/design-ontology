@@ -13,6 +13,7 @@ import { GROUND_KINDS } from "./ground.js";
 import { RULES, gate, curate, type Rule } from "./curation.js";
 import { checkIndustrialStyle, checkNet, checkVocabulary, loadNetContext, loadNets, type IndustrialStyle } from "./net.js";
 import { checkFashionStyle, checkFashionVocabulary, loadFashionVocabulary, type FashionStyle } from "./fashion.js";
+import { checkCuisineStyle, checkCuisineVocabulary, loadCuisineVocabulary, type CuisineStyle } from "./cuisine.js";
 import { ROOT, loadDomains, loadEras, loadMedia, loadPeople, loadPrinciples, loadStyleFiles, loadTechniques, principleRefs, readJson, type Style } from "./lib.js";
 
 const schemaOnly = process.argv.includes("--schema-only");
@@ -226,6 +227,21 @@ if (domains.some((d) => d.id === "fashion")) {
     if (!schemaOnly)
       for (const { style } of loadStyleFiles("fashion"))
         for (const e of checkFashionStyle(v, style as unknown as FashionStyle)) errors.push(`data/fashion/styles/${style.id}.json: ${e}`);
+  }
+}
+
+// The cuisine vocabulary: one schema, then each ingredient, method and course id of each cuisine style.
+const validateCuisineVocabulary = ajv.compile(readJson<object>(join(ROOT, "schema", "cuisine-vocabulary.schema.json")));
+if (domains.some((d) => d.id === "cuisine")) {
+  const raw = readJson<unknown>(join(ROOT, "data", "cuisine", "vocabulary.json"));
+  if (!validateCuisineVocabulary(raw))
+    for (const e of validateCuisineVocabulary.errors ?? []) errors.push(`data/cuisine/vocabulary.json: ${e.instancePath || "/"} ${e.message}`);
+  else {
+    const v = loadCuisineVocabulary();
+    for (const e of checkCuisineVocabulary(v)) errors.push(`data/cuisine/vocabulary.json: ${e}`);
+    if (!schemaOnly)
+      for (const { style } of loadStyleFiles("cuisine"))
+        for (const e of checkCuisineStyle(v, style as unknown as CuisineStyle)) errors.push(`data/cuisine/styles/${style.id}.json: ${e}`);
   }
 }
 

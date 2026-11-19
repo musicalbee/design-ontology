@@ -1,0 +1,65 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "service-a-la-francaise",
+  "name": "Service à la française",
+  "aliases": [
+    "Service en confusion",
+    "Service in removes"
+  ],
+  "kind": "process",
+  "summary": "A way to serve a meal: all the dishes of one service stand on the table together, and the guests take from the dishes near them. A new service replaces the old one.",
+  "how": [
+    "Set all the dishes of one service on the table at the same time.",
+    "Place the dishes in a symmetric pattern that a plan on paper shows.",
+    "Clear the whole service at once and set the next service in its place."
+  ],
+  "origin": {
+    "domain": "cuisine",
+    "year": 1300,
+    "circa": true,
+    "where": "Courts of France",
+    "note": "Medieval feasts put many dishes on the table at once, in two or three services.",
+    "styles": [
+      "medieval-court-cuisine"
+    ]
+  },
+  "adoptions": [
+    {
+      "domain": "cuisine",
+      "year": 1500,
+      "circa": true,
+      "via": "Scappi and the banquet cooks of Italy planned each service as a pattern of dishes.",
+      "styles": [
+        "renaissance-banquet"
+      ]
+    },
+    {
+      "domain": "cuisine",
+      "year": 1651,
+      "via": "La Varenne wrote his book for a table of services of dishes in a fixed order.",
+      "styles": [
+        "cuisine-francoise"
+      ]
+    },
+    {
+      "domain": "cuisine",
+      "year": 1815,
+      "via": "Carême drew table plans for each service and published them.",
+      "styles": [
+        "grande-cuisine"
+      ]
+    }
+  ],
+  "styles": [
+    "medieval-court-cuisine",
+    "renaissance-banquet",
+    "cuisine-francoise",
+    "grande-cuisine"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Service à la française",
+      "url": "https://en.wikipedia.org/wiki/Service_%C3%A0_la_fran%C3%A7aise"
+    }
+  ]
+}
