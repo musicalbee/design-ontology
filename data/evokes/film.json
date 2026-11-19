@@ -1,0 +1,802 @@
+{
+  "$schema": "../../schema/evokes.schema.json",
+  "carrier": "style",
+  "domain": "film",
+  "edges": {
+    "camcorder-revival": [
+      {
+        "emotion": "nostalgia",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:nostalgic",
+              "keyword:lo-fi"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "being-moved",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:intimate"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "wabi-sabi",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:imperfect"
+            ]
+          }
+        ]
+      }
+    ],
+    "cinematic-fpv": [
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:exhilarating",
+              "keyword:kinetic"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "awe",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:vertiginous"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "fascination",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:immersive"
+            ]
+          }
+        ]
+      }
+    ],
+    "classical-hollywood": [
+      {
+        "emotion": "beauty",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:glamorous"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "being-moved",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:romantic"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "fascination",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:absorbing"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "insight",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:clear"
+            ]
+          }
+        ]
+      }
+    ],
+    "creator-vlog": [
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:fast"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:warm"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:casual"
+            ]
+          }
+        ]
+      }
+    ],
+    "documentary-verite": [
+      {
+        "emotion": "being-moved",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:intimate"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:urgent"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "surprise",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:unscripted"
+            ]
+          }
+        ]
+      }
+    ],
+    "dogme-95": [
+      {
+        "emotion": "being-moved",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:intimate"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:uncomfortable"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "wabi-sabi",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:unpolished"
+            ]
+          }
+        ]
+      }
+    ],
+    "film-noir": [
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:tense",
+              "keyword:shadowed"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "intellectual-challenge",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:cynical"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "sadness",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:fatalistic"
+            ]
+          }
+        ]
+      }
+    ],
+    "found-footage": [
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:unnerving",
+              "keyword:claustrophobic"
+            ]
+          }
+        ]
+      }
+    ],
+    "french-new-wave": [
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:restless"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "humour",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:witty"
+            ]
+          }
+        ]
+      }
+    ],
+    "german-expressionist-cinema": [
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:uncanny",
+              "keyword:anxious",
+              "keyword:shadowed"
+            ]
+          }
+        ]
+      }
+    ],
+    "giallo": [
+      {
+        "emotion": "awe",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:operatic"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:saturated"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "ugliness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:lurid"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:sinister"
+            ]
+          }
+        ]
+      }
+    ],
+    "hong-kong-action": [
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:kinetic",
+              "keyword:fast"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "awe",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:operatic"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "beauty",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:stylish"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "being-moved",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:heroic"
+            ]
+          }
+        ]
+      }
+    ],
+    "italian-neorealism": [
+      {
+        "emotion": "being-moved",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:humane"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:patient"
+            ]
+          }
+        ]
+      }
+    ],
+    "mumblecore": [
+      {
+        "emotion": "being-moved",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:intimate"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "enchantment",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:drifting"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "interest",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:conversational"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "ugliness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:awkward"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "wabi-sabi",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:unpolished"
+            ]
+          }
+        ]
+      }
+    ],
+    "music-video": [
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:loud",
+              "keyword:rhythmic",
+              "keyword:catchy"
+            ]
+          }
+        ]
+      }
+    ],
+    "neon-noir": [
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:neon"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "sadness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:lonely"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "yugen",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:nocturnal"
+            ]
+          }
+        ]
+      }
+    ],
+    "new-hollywood": [
+      {
+        "emotion": "intellectual-challenge",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:sceptical"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "nostalgia",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:lived-in"
+            ]
+          }
+        ]
+      }
+    ],
+    "one-take-oner": [
+      {
+        "emotion": "fascination",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:immersive"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:tense"
+            ]
+          }
+        ]
+      }
+    ],
+    "phone-cinema": [
+      {
+        "emotion": "being-moved",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:intimate"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:immediate"
+            ]
+          }
+        ]
+      }
+    ],
+    "planimetric-symmetry": [
+      {
+        "emotion": "enchantment",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:whimsical"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "humour",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:deadpan"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "nostalgia",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:nostalgic"
+            ]
+          }
+        ]
+      }
+    ],
+    "slow-cinema": [
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:still",
+              "keyword:patient",
+              "keyword:meditative"
+            ]
+          }
+        ]
+      }
+    ],
+    "soviet-montage": [
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:urgent",
+              "keyword:rhythmic",
+              "keyword:kinetic"
+            ]
+          }
+        ]
+      }
+    ],
+    "spaghetti-western": [
+      {
+        "emotion": "awe",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:operatic"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "nostalgia",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:dusty"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:tense"
+            ]
+          }
+        ]
+      }
+    ],
+    "vertical-short-form": [
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:fast",
+              "keyword:punchy",
+              "keyword:immediate"
+            ]
+          }
+        ]
+      },
+      {
+        "emotion": "humour",
+        "strength": 0.3,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:playful"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
