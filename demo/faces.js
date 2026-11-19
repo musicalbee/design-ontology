@@ -180,8 +180,10 @@
     const stack = doms.flatMap((d) => groups.get(d).flatMap((g) => g.ppl)).filter((p) => byPerson[p]?.photo).slice(0, 4);
     const ownRow = own.length ? `<div class="fx-faces">${own.map((p) => avatar(p, { style: id })).join("")}</div>`
       : `<span class="fx-none">No person on record for this style yet.</span>`;
-    const more = count ? `<button type="button" class="fx-more" aria-expanded="false" aria-controls="fx-wide"><span class="fx-stack" aria-hidden="true">${stack.map((p) => avatar(p, { small: true }).replace("<a ", "<span ").replace(/<\/a>$/, "</span>").replace(/ href="[^"]*"| data-person="[^"]*"/g, "")).join("")}</span>` +
-      `${count} more in related styles · ${doms.length} domain${doms.length === 1 ? "" : "s"}</button>` : "";
+    // The button is always there, so that the reader can widen the reach also when it finds nobody yet.
+    const label = count ? `${count} more in related styles · ${doms.length} domain${doms.length === 1 ? "" : "s"}`
+      : `No people in related styles at ${hops} hop${hops === 1 ? "" : "s"}${hops < 4 ? " · widen the reach" : ""}`;
+    const more = `<button type="button" class="fx-more" aria-expanded="false" aria-controls="fx-wide">${stack.length ? `<span class="fx-stack" aria-hidden="true">${stack.map((p) => avatar(p, { small: true }).replace("<a ", "<span ").replace(/<\/a>$/, "</span>").replace(/ href="[^"]*"| data-person="[^"]*"/g, "")).join("")}</span>` : ""}${label}</button>`;
     const hopBtns = [1, 2, 3, 4].map((h) => `<button type="button" data-hops="${h}" aria-pressed="${h === hops}">${h}</button>`).join("");
     const wide = `<div class="fx-wide" id="fx-wide" hidden><div class="fx-hops"><span>Echo hops</span>${hopBtns}<span>· hop 1 takes every edge, later hops follow echoes across domains.</span></div>` +
       (count ? `<div class="fx-doms">${doms.map((d) => `<div class="fx-dom"><h4>${esc(domName[d] ?? d)}${d === home ? " (this domain)" : ""}</h4>` +
@@ -203,8 +205,7 @@
     const hops = store.get();
     box.innerHTML = block(id, hops).html;
     const btn = box.querySelector(".fx-more"), wide = box.querySelector(".fx-wide");
-    if (btn && open) { wide.hidden = false; btn.setAttribute("aria-expanded", "true"); }
-    if (!btn) { wide.hidden = !open; }
+    if (open) { wide.hidden = false; btn.setAttribute("aria-expanded", "true"); }
     hideTip();
   }
   document.addEventListener("click", (e) => {

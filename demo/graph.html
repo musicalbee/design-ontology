@@ -246,7 +246,8 @@ function panel(id) {
 // The people of the style, and the people of every style in its reach, by domain. faces.js gives the portraits and the tips.
 function people(id) {
   const F = window.Faces;
-  if (!F) return;
+  // nav.js adds faces.js without waiting for it, so the first focus can come first. Then try again when it loads.
+  if (!F) { document.querySelector('script[src$="faces.js"]')?.addEventListener("load", () => selected === id && people(id), { once: true }); return; }
   F.ready.then((ok) => {
     const box = $("people");
     if (!ok || !box || selected !== id) return;
