@@ -13,7 +13,7 @@
     ["photography.html", "Photography"], ["film.html", "Film and video"], ["painting.html", "Painting"],
     ["logo.html", "Logo"], ["icon.html", "Icons"], ["typeface.html", "Typefaces"], ["print.html", "Print"], ["fashion.html", "Fashion"], ["ceramics.html", "Ceramics"], ["cuisine.html", "Cuisine"], ["game.html", "Video games"],
   ];
-  const ACROSS = [["graph.html", "Lineage"], ["techniques.html", "Techniques"], ["people.html", "People"], ["money.html", "Money"], ["emotions.html", "Emotions"]];
+  const ACROSS = [["graph.html", "Lineage"], ["techniques.html", "Techniques"], ["people.html", "People"], ["orgs.html", "Orgs"], ["money.html", "Money"], ["emotions.html", "Emotions"]];
   // A sub-page marks its parent domain as current: the moodboards are part of Interior.
   const PARENT = { "moodboard.html": "interior.html", "objects.html": "interior.html", "fabrics.html": "fashion.html", "glazes.html": "ceramics.html" };
   const file = location.pathname.split("/").pop() || "index.html";
@@ -115,10 +115,10 @@
   const style = document.createElement("style");
   style.textContent = css;
   document.head.append(style);
-  // zoom.js: the image lens. faces.js: the people of each style, and the data for the people views.
+  // zoom.js: the image lens. faces.js: the people of each style. orgs.js: the organisations of each style.
   // ?embed: the page is inside a frame of another demo page, which has the chrome. Keep the elements, hide them.
   const EMBED = new URLSearchParams(location.search).has("embed");
-  for (const f of EMBED ? ["zoom.js"] : ["zoom.js", "faces.js"]) {
+  for (const f of EMBED ? ["zoom.js"] : ["zoom.js", "faces.js", "orgs.js"]) {
     if (document.querySelector(`script[src$="${f}"]`)) continue;
     const s = document.createElement("script");
     s.src = new URL(f, document.currentScript?.src || location.href).href;

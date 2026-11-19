@@ -87,6 +87,34 @@
         "credit": { "type": "string", "minLength": 1, "maxLength": 300 }
       }
     },
+    "orgs": {
+      "type": "array",
+      "description": "The organisations in data/orgs/ that the person founded, ran, worked for, studied at, showed with or paid. Each link has its own source. A link that the organisation already lists in people or members does not need to be here: the build joins both sides.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["org", "role", "source"],
+        "properties": {
+          "org": { "$ref": "core.schema.json#/$defs/slug" },
+          "role": {
+            "enum": ["founder", "owner", "leader", "designer", "staff", "teacher", "student", "member", "author", "exhibitor", "patron", "client", "user"],
+            "description": "founder: started it. owner: bought it or owned it. leader: ran it (a director, a chief executive, a head chef, an editor). designer: designed products for it under contract. staff: worked for it. teacher: taught there. student: studied there. member: was a member of the body. author: wrote the book or the text that it published. exhibitor: showed work there. patron: paid for it or ordered its work. client: bought or wore its work, and so made it known. user: posted work on the platform."
+          },
+          "from": { "type": ["integer", "null"], "minimum": -20000, "maximum": 2030 },
+          "to": { "type": ["integer", "null"], "minimum": -20000, "maximum": 2030 },
+          "source": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["title"],
+            "properties": {
+              "title": { "type": "string", "minLength": 3, "maxLength": 200 },
+              "url": { "type": "string", "pattern": "^https://" }
+            }
+          }
+        }
+      }
+    },
+    "emblem": { "$ref": "core.schema.json#/$defs/emblem" },
     "sources": { "$ref": "core.schema.json#/$defs/sources" },
     "found_in": {
       "type": "array",

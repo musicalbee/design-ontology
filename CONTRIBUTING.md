@@ -115,7 +115,9 @@ The check fails if a file is missing, if its record is missing, if a model asset
    - patron: `patron` (an investor, a collector, a client or a sponsor)
 5. If a milestone is after the year of death, set `"posthumous": true` on it.
 6. Link a portrait on Wikimedia Commons with a free licence, and copy its credit. If there is none, write null.
-7. Run `npm run build`.
+7. Optional: in `orgs`, name each organisation in `data/orgs/` that the person founded, owned, led, worked for, studied at or joined. Give a role (`founder`, `owner`, `leader`, `designer`, `staff`, `teacher`, `student`, `member`, `author`, `exhibitor`, `patron`, `client` or `user`), the years if an open source gives them, and a source for each link. Do not repeat a link that the org already gives in `people` or `members`.
+8. Optional: `emblem`, a symbol of the person (a monogram, a family crest, a seal or a mark). See "Emblems" below.
+9. Run `npm run build`.
 
 ## A technique
 
@@ -145,7 +147,17 @@ One organisation has one record, also when it has two roles (a gallery that was 
 4. In `people`, name the people in `data/people/` who ran it or worked through it. For a group, use `members` instead: each person with a role (`founder`, `member`, `leader`, `guest`) and the years.
 5. Optional: `statement` (the manifesto, in your own words, with a link), `moves` (dated events, each with a source) and `relations` (`split_from`, `successor_of`, `rival_of`, `member_of`, all ids in `data/orgs/`).
 6. Write the summary in your own words. Give one or two sources.
-7. Run `npm run build`. The compiler adds an "Organisations" section to each style that the organisation names, and writes `graph/orgs.json`.
+7. Optional: `emblem`, the logo, the coat of arms or the seal of the organisation. See "Emblems" below.
+8. Run `npm run build`. The compiler adds an "Organisations" section to each style that the organisation names, and writes `graph/orgs.json`.
+
+## Emblems
+
+An emblem is an image on Wikimedia Commons with a free licence: a logo, a coat of arms, a monogram, a seal, a mark or a symbol.
+
+1. Set `kind`, `file` (the Commons file name), `url` (an `upload.wikimedia.org` or `thumb.wikimedia.org` link), `page` (the Commons file page), `licence` and `credit`. Copy the licence and the credit from the file page.
+2. If Commons marks the file as a trademark, set `"trademark": true`. The licence covers the copyright of the image only, not the right to use the mark.
+3. In `source`, give the page that links the emblem to the person or the org (for example the Wikidata item with P154, P94, P1543 or P158).
+4. If no image with a free licence exists, leave the field out.
 
 ## A funding flow
 
