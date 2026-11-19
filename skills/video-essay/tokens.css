@@ -1,0 +1,131 @@
+/*
+ * Video Essay — tokens
+ * Generated from data/internet/styles/video-essay.json by design-ontology. Do not edit.
+ * Use: put data-style="video-essay" on <html> or on any container.
+ */
+[data-style="video-essay"] {
+  --color-bg: #14161A;
+  --color-surface: #20242B;
+  --color-text: #F1EEE7;
+  --color-muted: #B4B9C1;
+  --color-primary: #E0A458;
+  --color-accent: #6C8EAD;
+  --color-border: #3A4049;
+  --font-sans: "Source Sans 3", "Inter", sans-serif;
+  --font-display: "Playfair Display", "Source Serif 4", serif;
+  --border-radius: 2px;
+  --border-width: 1px;
+  --shadow-elevation: 0 12px 24px rgba(0,0,0,0.3);
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration: 400ms;
+  --type-ratio: 1.25;
+  --size-small: 14.4px;
+  --size-h3: 28.13px;
+  --size-h2: 35.16px;
+  --size-h1: 43.95px;
+  --color-on-bg: #F1EEE7;
+  --color-on-surface: #F1EEE7;
+  --color-on-primary: #14161A;
+  --color-on-accent: #14161A;
+  --color-muted-on-bg: #B4B9C1;
+  --color-muted-on-surface: #B4B9C1;
+  --color-link: #6C8EAD;
+  --color-link-on-surface: #6C8EAD;
+  --display-weight: 400;
+  --subhead-weight: 400;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 500;
+  --display-tracking: -0.01em;
+  --display-leading: 1.2;
+  --display-case: none;
+  --body-leading: 1.6;
+  --body-size: 18px;
+  --icon-stroke: 1.5;
+  --ground: linear-gradient(var(--color-primary), var(--color-primary)) 0 0 / 100% 6px no-repeat,
+    linear-gradient(var(--color-accent), var(--color-accent)) 0 8px / 100% 2px no-repeat,
+    linear-gradient(var(--color-accent), var(--color-accent)) 66% 0 / 2px 100% no-repeat,
+    linear-gradient(color-mix(in oklab, var(--color-primary) 8%, transparent), color-mix(in oklab, var(--color-primary) 8%, transparent)) 100% 0 / 34% 100% no-repeat,
+    repeating-linear-gradient(0deg, color-mix(in oklab, var(--color-on-bg) 12%, transparent) 0 1px, transparent 1px 1.6rem),
+    repeating-linear-gradient(90deg, color-mix(in oklab, var(--color-on-bg) 10%, transparent) 0 1px, transparent 1px 25%),
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="video-essay"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="video-essay"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="video-essay"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="video-essay"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="video-essay"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="video-essay"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="video-essay"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="video-essay"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="video-essay"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="video-essay"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="video-essay"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="video-essay"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="video-essay"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="video-essay"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

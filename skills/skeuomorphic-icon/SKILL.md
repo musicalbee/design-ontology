@@ -186,7 +186,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`clay-3d-icon`](../clay-3d-icon/SKILL.md)
 - **Was rejected by:** [`flat-icon`](../flat-icon/SKILL.md), [`outline-icon`](../outline-icon/SKILL.md)
 - **Mixes well with:** [`isometric-icon`](../isometric-icon/SKILL.md)
-- **Kin in another domain:** [`apple-aqua`](../apple-aqua/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`skeuomorphism`](../skeuomorphism/SKILL.md)
+- **Kin in another domain:** [`apple-aqua`](../apple-aqua/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`skeuomorphism`](../skeuomorphism/SKILL.md), [`web-2-0-gloss`](../web-2-0-gloss/SKILL.md)
 - **Nearest by vector profile:** [`clay-3d-icon`](../clay-3d-icon/SKILL.md), [`isometric-icon`](../isometric-icon/SKILL.md), [`flat-icon`](../flat-icon/SKILL.md)
 
 ## Emotional target

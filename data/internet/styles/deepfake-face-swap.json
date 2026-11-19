@@ -1,0 +1,342 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "deepfake-face-swap",
+  "domain": "internet",
+  "name": "Deepfake Face Swap",
+  "aliases": [
+    "Face swap",
+    "Synthetic face video",
+    "Deepfake"
+  ],
+  "branch": "ai-native",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2017,
+    "end": null,
+    "label": "2017–now"
+  },
+  "primary_mediums": [
+    "video",
+    "image",
+    "mobile"
+  ],
+  "summary": "Video in which a face region is replaced by a generated one, with a soft blend seam and a check overlay of landmark dots. The form spread after 2017 through open code and phone apps.",
+  "philosophy": {
+    "core_thesis": "The face in the frame is a layer, and the layer shows its seam: the style marks where a real image ends and a made image starts.",
+    "design_principles": [
+      "Frame one face at 30% to 60% of the frame height, near-frontal, with even light.",
+      "Blend the replaced area with a feathered edge of 8px to 24px; let a faint colour mismatch of 3% to 6% show at the jaw.",
+      "Draw a detection box of 2px in green (#3DDC84) and 68 landmark dots of 4px on the face in the analysis view.",
+      "Show a pair of frames side by side, source on the left and result on the right, with a 2px divider.",
+      "Add a label chip of 12px mono capitals, for example SYNTHETIC, in the top-left corner at 90% opacity.",
+      "Keep the face patch at lower resolution than the rest of the frame, about 60% of the sharpness.",
+      "Cut the clip at 24 fps or 30 fps and let the seam flicker for 2 to 4 frames on a fast turn of the head."
+    ],
+    "anti_patterns": [
+      "Obvious cartoon filters with no real face",
+      "Heavy stylised illustration",
+      "Dark moody grading that hides the seam",
+      "Decorative borders and ornament",
+      "Photoreal result with no label or check overlay",
+      "Large display type over the face"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "dimensionality": 2,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 5,
+    "typographic_expressiveness": 1
+  },
+  "layout": {
+    "grid_mechanics": "A video frame at 16:9 or 9:16 with an overlay layer; the analysis view uses a 2-column split with 16px gutters.",
+    "whitespace_ratio": "0% in the frame; the tool panel keeps 20% to 30% empty with a spacing scale of 4, 8, 16 and 24px.",
+    "alignment_rules": "The face sits on the centre third; labels align flush-left to the frame corner at 16px inset.",
+    "container_geometry": "Frames with a 0px radius; label chips with a 2px radius; detection boxes are plain rectangles."
+  },
+  "typography": {
+    "classifications": [
+      "neutral sans",
+      "monospace"
+    ],
+    "font_pairings": [
+      {
+        "display": "Inter",
+        "body": "Inter",
+        "note": "A neutral sans that stays out of the way of the face."
+      },
+      {
+        "display": "JetBrains Mono",
+        "body": "IBM Plex Sans",
+        "note": "A mono face for the labels and landmark counts."
+      }
+    ],
+    "tracking": "Display 0em; mono labels +0.08em.",
+    "leading": "Display 1.2; body 1.5.",
+    "hierarchy_rules": [
+      "Use 2 weights: regular (400) and semibold (600).",
+      "Use sizes 12, 14, 16 and 24px.",
+      "Set check labels in upper-case mono at 12px.",
+      "Keep text out of the face area."
+    ]
+  },
+  "color": {
+    "palette_structure": "Neutral dark panel colours with one green for tracking marks and one amber for warnings; skin tones come from the footage.",
+    "palette": [
+      {
+        "name": "Panel Black",
+        "hex": "#101418",
+        "role": "background"
+      },
+      {
+        "name": "Panel Grey",
+        "hex": "#1B2128",
+        "role": "surface"
+      },
+      {
+        "name": "Landmark Green",
+        "hex": "#3DDC84",
+        "role": "primary"
+      },
+      {
+        "name": "Box Amber",
+        "hex": "#FFB300",
+        "role": "accent"
+      },
+      {
+        "name": "Skin Tone",
+        "hex": "#C68E6B",
+        "role": "image reference"
+      },
+      {
+        "name": "Seam Grey",
+        "hex": "#8A949E",
+        "role": "muted"
+      },
+      {
+        "name": "Frame White",
+        "hex": "#F2F4F5",
+        "role": "text"
+      }
+    ],
+    "contrast_rules": "White text on the panel holds at least 14:1; green and amber carry marks and borders at 3:1 or more.",
+    "surface_treatment": "Flat dark panels around natural video; no gradient; the video keeps its own grain.",
+    "light_and_shadow": "The light comes from the source footage; the face patch carries a slightly different colour temperature, 200K to 400K off."
+  },
+  "materiality": {
+    "surface_simulation": "Plain video and a software overlay: a camera frame with analysis marks on top.",
+    "border_rules": "2px detection boxes in green and 1px hairlines in seam grey for dividers.",
+    "blur_and_elevation": "A 12px feather on the blend edge only; panels have no shadow."
+  },
+  "ornamentation_details": {
+    "iconography": "Outline icons at 20px with a 1.5px round stroke for play, scan and compare.",
+    "illustration": "No illustration; the content is a generic, anonymous face in a neutral setting.",
+    "decorative_elements": [
+      "detection box",
+      "68 landmark dots",
+      "side-by-side compare",
+      "SYNTHETIC label chip",
+      "seam flicker"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Frames play at 24 fps or 30 fps; the landmark dots follow the head with a lag of 1 to 2 frames and the seam flickers for 2 to 4 frames on a fast turn.",
+    "easing": "linear",
+    "duration_ms": 200,
+    "hover_and_active": "Hover shows the landmark layer at 100% opacity; active toggles source and result."
+  },
+  "lineage": {
+    "evolved_from": [
+      "deepdream-psychedelia"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "reaction-gif"
+    ],
+    "echoes": [
+      "vertical-short-form"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels doubt: the face looks right, and the small seam says that it is not.",
+    "keywords": [
+      "uncanny",
+      "clinical",
+      "synthetic",
+      "doubtful",
+      "precise",
+      "unsettling"
+    ],
+    "brand_archetypes": [
+      "magician",
+      "sage",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "deepfake",
+      "face swap",
+      "synthetic video",
+      "landmark overlay",
+      "face tracking",
+      "media forensics"
+    ],
+    "use_cases": [
+      "media literacy and forensics pages",
+      "explainers about synthetic media",
+      "detection tool interfaces",
+      "film VFX breakdowns"
+    ],
+    "avoid_when": [
+      "A real, named person would be the subject.",
+      "The page could deceive viewers if the SYNTHETIC label is missing.",
+      "The content needs warm, hand-made character."
+    ],
+    "modifiers": [
+      {
+        "request": "more obvious",
+        "toward": "mini-diffusion-meme",
+        "how": "Replace the real footage with a smudged 3x3 grid and a text prompt as the caption."
+      },
+      {
+        "request": "more polished",
+        "toward": "diffusion-gloss",
+        "how": "Make the whole frame a smooth render with an even rim light; keep the label chip."
+      },
+      {
+        "request": "show the seam",
+        "toward": "gan-portrait",
+        "how": "Show a still of a generated face with the eye line fixed at 40% of the frame height and mark the artefacts."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 600,
+      "subhead_weight": 500,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 500,
+      "accent": "colour",
+      "display_tracking": "0em",
+      "display_leading": 1.2,
+      "display_case": "none",
+      "body_leading": 1.5,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "square",
+      "pack": {
+        "id": "lucide",
+        "why": "A thin line family that matches analysis tools and keeps the face visible."
+      }
+    },
+    "art": {
+      "recipe": "terminal",
+      "pattern": "dots",
+      "seed": 17
+    },
+    "layout": {
+      "hero": "split",
+      "align": "left",
+      "density": "regular",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "raw",
+      "why": "The ground is a plain tool panel: the footage is the content and the panel adds only marks."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#101418",
+      "--color-surface": "#1B2128",
+      "--color-text": "#F2F4F5",
+      "--color-muted": "#B3BCC5",
+      "--color-primary": "#3DDC84",
+      "--color-accent": "#FFB300",
+      "--color-border": "#3DDC84",
+      "--font-sans": "\"IBM Plex Sans\", \"Inter\", sans-serif",
+      "--font-display": "\"JetBrains Mono\", \"Inter\", monospace",
+      "--border-radius": "2px",
+      "--border-width": "2px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "linear",
+      "--duration": "200ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#101418] text-[#F2F4F5] font-sans antialiased px-4 md:px-8"
+      },
+      {
+        "element": "heading",
+        "classes": "text-2xl md:text-4xl font-semibold leading-[1.2] font-mono"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.5] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-sm border-2 border-[#3DDC84] bg-[#1B2128]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-sm border-2 border-[#3DDC84] bg-[#3DDC84] px-4 py-2 text-sm font-medium text-[#101418] transition-colors duration-200 hover:bg-[#FFB300]"
+      },
+      {
+        "element": "label",
+        "classes": "font-mono text-xs uppercase tracking-[0.08em] text-[#FFB300]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#3DDC84",
+        "#101418",
+        "#1B2128",
+        "#0A0D10"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#3DDC84",
+        "#FFB300",
+        "#F2F4F5"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 4
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 8
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.414
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Deepfake",
+      "url": "https://en.wikipedia.org/wiki/Deepfake"
+    },
+    {
+      "title": "Thies et al., Face2Face: Real-time Face Capture and Reenactment of RGB Videos (CVPR 2016)",
+      "url": "https://arxiv.org/abs/2007.14808"
+    }
+  ]
+}

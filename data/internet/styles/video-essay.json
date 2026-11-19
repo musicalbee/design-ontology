@@ -1,0 +1,341 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "video-essay",
+  "domain": "internet",
+  "name": "Video Essay",
+  "aliases": [
+    "Essay video",
+    "Long-form commentary",
+    "Analysis video"
+  ],
+  "branch": "creator-streaming",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2014,
+    "end": null,
+    "label": "2014–now"
+  },
+  "primary_mediums": [
+    "video",
+    "web"
+  ],
+  "summary": "A voice reads an argument over film clips, stills, quotes and maps. Clean type, a steady grid, slow zooms and a muted grade give the frame the calm of a printed essay.",
+  "philosophy": {
+    "core_thesis": "Treat the frame as a page of an essay: one claim, one piece of evidence, and a quiet layout that lets the argument lead.",
+    "design_principles": [
+      "Show one piece of evidence in each shot and hold it for 4s to 10s.",
+      "Set the clip in a frame at 80% to 90% of the width with a 24px black margin.",
+      "Put a quote or a title in a serif face at 36px to 48px, flush-left, for at least 4s.",
+      "Add a source line at 14px in the lower-left corner for each clip: title, year and maker.",
+      "Apply a slow zoom of 3% to 6% over the shot, as in the Ken Burns effect.",
+      "Use a muted grade with a charcoal ground (#14161A) and one warm accent (#E0A458).",
+      "Place numbered chapter cards of 2s between sections: a number in 96px and a title in 36px."
+    ],
+    "anti_patterns": [
+      "Loud outlined captions",
+      "Saturated primary colours",
+      "Face cut-outs with arrows",
+      "Cuts under 2s without a reason",
+      "Hard sound hits at each cut",
+      "Decorative frames that compete with the clip"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 2,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A 16:9 frame on a 12-column grid with a 24px black margin; clips take 8 to 10 columns and text takes the rest.",
+    "whitespace_ratio": "25% to 40% of the frame is quiet ground; the spacing scale is 8, 16, 24 and 48px.",
+    "alignment_rules": "Flush-left text on a fixed baseline; clips centre in the frame; source lines align to the lower-left margin.",
+    "container_geometry": "Straight 0px to 2px corners; thin 1px rules between sections; a chapter card with a large number."
+  },
+  "typography": {
+    "classifications": [
+      "transitional serif",
+      "grotesque",
+      "monospace label"
+    ],
+    "font_pairings": [
+      {
+        "display": "Playfair Display",
+        "body": "Inter",
+        "note": "A high-contrast serif for quotes with a neutral text face."
+      },
+      {
+        "display": "Source Serif 4",
+        "body": "Source Sans 3",
+        "note": "A calm serif pair that suits long reading."
+      },
+      {
+        "display": "IBM Plex Serif",
+        "body": "IBM Plex Sans",
+        "note": "An editorial pair with a mono option for source lines."
+      }
+    ],
+    "tracking": "Display takes -0.01em; source lines take +0.06em in capitals.",
+    "leading": "Display 1.2; body 1.6.",
+    "hierarchy_rules": [
+      "Use two weights: regular (400) and bold (700).",
+      "Use sizes 14, 18, 36 and 96px.",
+      "Set quotes in italic at 36px.",
+      "Set chapter numbers in 96px at 40% opacity."
+    ]
+  },
+  "color": {
+    "palette_structure": "Charcoal and paper with one warm amber accent and one cool grey.",
+    "palette": [
+      {
+        "name": "Charcoal",
+        "hex": "#14161A",
+        "role": "background"
+      },
+      {
+        "name": "Slate",
+        "hex": "#20242B",
+        "role": "surface"
+      },
+      {
+        "name": "Paper",
+        "hex": "#F1EEE7",
+        "role": "text"
+      },
+      {
+        "name": "Essay Amber",
+        "hex": "#E0A458",
+        "role": "primary"
+      },
+      {
+        "name": "Archive Blue",
+        "hex": "#6C8EAD",
+        "role": "accent"
+      },
+      {
+        "name": "Ash",
+        "hex": "#9AA0A8",
+        "role": "muted"
+      }
+    ],
+    "contrast_rules": "Paper text on charcoal holds at least 14:1; amber carries rules and chapter marks, not long text.",
+    "surface_treatment": "Flat charcoal ground with a 3% film grain and a 10% vignette; clips keep their own grade.",
+    "light_and_shadow": "No glow; a 1px line at 20% white separates the clip from the ground; a 12px soft shadow under cards."
+  },
+  "materiality": {
+    "surface_simulation": "A dark screening room: archive clips, scanned stills and paper quotes on a flat ground.",
+    "border_rules": "A 1px rule at 20% white between blocks; no border on clips.",
+    "blur_and_elevation": "No blur on text; the ground may blur at 20px behind a still; a 12px soft shadow at 30% black."
+  },
+  "ornamentation_details": {
+    "iconography": "Thin outline icons at 20px with a 1.5px stroke for the source and the chapter; round terminals.",
+    "illustration": "Film stills, archive photographs, maps, screenshots and quotes; one arrow or underline in amber when needed.",
+    "decorative_elements": [
+      "chapter number",
+      "source line",
+      "quote block",
+      "slow zoom",
+      "thin rule"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Slow zooms of 3% to 6% over the full shot; cross-fades of 400ms; text appears with a 300ms fade and stays for at least 4s.",
+    "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "duration_ms": 400,
+    "hover_and_active": "Hover underlines a link in amber; active state dims the text by 10%."
+  },
+  "lineage": {
+    "evolved_from": [
+      "lets-play-facecam"
+    ],
+    "rebelled_against": [
+      "clickbait-thumbnail"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "creator-vlog",
+      "documentary-verite"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels guided by a thoughtful voice and trusts the argument.",
+    "keywords": [
+      "thoughtful",
+      "calm",
+      "editorial",
+      "analytical",
+      "patient"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "video essay",
+      "analysis video",
+      "commentary",
+      "long-form",
+      "documentary style",
+      "explainer essay",
+      "film analysis"
+    ],
+    "use_cases": [
+      "explainer series",
+      "film and game criticism pages",
+      "education channels",
+      "brand documentary pages",
+      "long-form article videos"
+    ],
+    "avoid_when": [
+      "The viewer needs a fast, loud hook.",
+      "The content has no argument or evidence.",
+      "The format is a short vertical clip."
+    ],
+    "modifiers": [
+      {
+        "request": "more energy",
+        "toward": "lets-play-facecam",
+        "how": "Add a facecam window at 20% width, outlined captions and sound hits."
+      },
+      {
+        "request": "more editorial",
+        "toward": "editorial-serif-revival",
+        "how": "Move to a paper ground with large serif headings and a column grid."
+      },
+      {
+        "request": "shorter",
+        "toward": "word-caption-clip",
+        "how": "Cut each claim to 8 seconds and show it as 4-word captions with one highlighted word."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 400,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 500,
+      "accent": "case",
+      "display_tracking": "-0.01em",
+      "display_leading": 1.2,
+      "display_case": "none",
+      "body_leading": 1.6,
+      "body_size": "18px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "lucide",
+        "why": "A thin outline family stays out of the way of quotes and clips."
+      }
+    },
+    "art": {
+      "recipe": "swiss",
+      "pattern": "none",
+      "seed": 52
+    },
+    "layout": {
+      "hero": "split",
+      "align": "left",
+      "density": "regular",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "rules",
+      "why": "The ground is a dark page with thin rules, like the margin of a printed essay."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#14161A",
+      "--color-surface": "#20242B",
+      "--color-text": "#F1EEE7",
+      "--color-muted": "#B4B9C1",
+      "--color-primary": "#E0A458",
+      "--color-accent": "#6C8EAD",
+      "--color-border": "#3A4049",
+      "--font-sans": "\"Source Sans 3\", \"Inter\", sans-serif",
+      "--font-display": "\"Playfair Display\", \"Source Serif 4\", serif",
+      "--border-radius": "2px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 12px 24px rgba(0,0,0,0.3)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "--duration": "400ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#14161A] text-[#F1EEE7] font-sans antialiased px-4 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "font-serif text-3xl md:text-5xl font-normal leading-[1.2] tracking-[-0.01em]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-sm border border-[#3A4049] bg-[#20242B] shadow-[0_12px_24px_rgba(0,0,0,0.3)]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-sm border border-[#E0A458] bg-[#E0A458] px-6 py-3 text-sm font-bold text-[#14161A] transition-colors duration-[400ms] hover:bg-transparent hover:text-[#E0A458]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-medium uppercase tracking-[0.06em] text-[#9AA0A8]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#E0A458",
+        "#6C8EAD",
+        "#F1EEE7"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#6C8EAD",
+        "#E0A458"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 8
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.333
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Video essay",
+      "url": "https://en.wikipedia.org/wiki/Video_essay"
+    },
+    {
+      "title": "Wikipedia: Every Frame a Painting",
+      "url": "https://en.wikipedia.org/wiki/Every_Frame_a_Painting"
+    }
+  ]
+}

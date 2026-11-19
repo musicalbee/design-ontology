@@ -16,6 +16,8 @@ const opt = (k: string) => { const i = args.indexOf(`--${k}`); return i >= 0 ? a
 const only = opt("only")?.split(",");
 const force = args.includes("--force");
 const dry = args.includes("--dry-run");
+// --redo <file.json>: a list of {path} records (a drift scan). The listed tiles render again.
+const redo = new Set<string>(opt("redo") ? JSON.parse(readFileSync(opt("redo")!, "utf8")).map((x: any) => x.path) : []);
 
 const LANDSCAPE = { width: 1152, height: 768 };
 const PORTRAIT = { width: 768, height: 1024 };
@@ -43,7 +45,7 @@ const evening = (s: any) => (s.lighting?.layers ?? []).filter((l: any) => l.laye
 export const TILES: { id: string; label: string; size: typeof SQUARE; prompt: (s: any) => string | undefined }[] = [
   {
     id: "room", label: "Room", size: LANDSCAPE,
-    prompt: (s) => s.implementation?.image_prompt && `${s.implementation.image_prompt}, ${s.implementation.camera ?? ""} verticals parallel, no people`,
+    prompt: (s) => s.implementation?.image_prompt && `${s.implementation.image_prompt}, ${s.implementation.camera ?? ""} verticals parallel, every piece of furniture stands on the floor, an empty unoccupied room`,
   },
   {
     id: "materials", label: "Materials", size: SQUARE,
@@ -51,7 +53,7 @@ export const TILES: { id: string; label: string; size: typeof SQUARE; prompt: (s
   },
   {
     id: "furniture", label: "Furniture", size: PORTRAIT,
-    prompt: (s) => s.furniture && `studio photograph of a ${list(s.furniture.key_pieces, 2).replace(", ", " and a ")}, ${s.furniture.silhouette} on a plain ${colours(s, ["dominant"]) || "pale"} ground, soft shadow, furniture photograph, no caption, no text, no labels`,
+    prompt: (s) => s.furniture && `studio photograph of a single ${list(s.furniture.key_pieces, 1)}, the whole piece seen standing on the floor, ${s.furniture.silhouette} on a plain ${colours(s, ["dominant"]) || "pale"} ground, soft shadow, furniture photograph, no caption, no text, no labels`,
   },
   {
     id: "textiles", label: "Textiles", size: SQUARE,
@@ -82,7 +84,7 @@ const manifestPath = join(root, "manifest.json");
 const manifest = existsSync(manifestPath) ? JSON.parse(readFileSync(manifestPath, "utf8")) : { tiles: TILES.map(({ id, label }) => ({ id, label })), boards: {} };
 
 const todo = styles.flatMap((s) => TILES.map((t) => ({ s, t, prompt: t.prompt(s)?.replace(/\s+/g, " ").replace(/\.\s*,/g, ",").trim() })))
-  .filter(({ s, t, prompt }) => prompt && (force || manifest.boards[s.id]?.[t.id]?.prompt !== prompt));
+  .filter(({ s, t, prompt }) => prompt && (force || redo.has(join(root, s.id, `${t.id}.webp`)) || manifest.boards[s.id]?.[t.id]?.prompt !== prompt));
 if (dry) { for (const { s, t, prompt } of todo) console.log(`${s.id}/${t.id}: ${prompt}`); process.exit(0); }
 if (todo.length) await preflight();
 for (const { s, t, prompt } of todo) {

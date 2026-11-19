@@ -169,7 +169,9 @@ A glass screen with a grid of electrodes that senses the small current that a fi
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Charles River Ventures** (fund, Boston, ?–now), funded the style. US venture firm. It led the Series A round of 15 million dollars of Pebble in 2013.
 - **Kickstarter** (platform, web, 2009–now), sold the style. The crowd-funding site where Pebble sold its first smartwatch to backers in 2012, a year before the big makers entered the market.
+- **Pebble Technology** (company, Palo Alto, ?–now), made the style. Maker of the Pebble smartwatch. Its Kickstarter campaigns in 2012 and 2015 raised 10.3 and 20.3 million dollars.
 
 ## Permutations
 

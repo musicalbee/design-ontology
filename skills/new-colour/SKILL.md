@@ -186,6 +186,8 @@ Lens or camera movements that keep vertical lines parallel and move the plane of
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Aperture** (publisher, New York, 1952–now), published the style. A publisher of photobooks and a magazine. It published colour work of Stephen Shore and other New Colour photographers.
+- **John Simon Guggenheim Memorial Foundation** (foundation, New York, ?–now), funded the style. US foundation that gives fellowships to artists and scholars. It gave Edward Weston the first photography fellowship in 1937.
+- **National Endowment for the Arts** (state programme, Washington, D.C., 1965–now), funded the style. Independent US federal agency created by Congress in 1965. It gave fellowships to photographers.
 
 ## Permutations
 

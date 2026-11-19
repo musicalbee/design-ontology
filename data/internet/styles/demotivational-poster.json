@@ -1,0 +1,313 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "demotivational-poster",
+  "domain": "internet",
+  "name": "Demotivational poster",
+  "aliases": [
+    "Demotivator",
+    "Despair poster"
+  ],
+  "branch": "memes",
+  "era_id": "postmodern-early-digital",
+  "time_period": {
+    "start": 2004,
+    "end": 2012,
+    "label": "2004–2012"
+  },
+  "primary_mediums": [
+    "image",
+    "web"
+  ],
+  "summary": "A black poster with a thin white frame, a photo, a large serif capital title and a small line of sad or dry text. It parodies the office motivational poster and spread on web forums from 2004.",
+  "philosophy": {
+    "core_thesis": "Turn the cheerful office poster into a dry joke: the same frame and layout, with a bleak caption.",
+    "design_principles": [
+      "Fill the canvas with black (#000000) and keep a 6% to 8% margin around the picture.",
+      "Frame the picture with a 2px white line and a 3px gap of black between the picture and the line.",
+      "Set the title in white serif capitals at 56px to 72px, centred, 24px under the frame, with +0.12em tracking.",
+      "Set one line of caption in 18px serif at #C8C8C8, centred, 12px under the title.",
+      "Choose a photograph with one clear subject; desaturate it by 10% to 30% and crop it to 4:3.",
+      "Keep the total ratio near 4:5; the picture takes 66% to 72% of the height.",
+      "Write a title of one word and a caption of one sentence; the caption states a hard fact in a calm voice."
+    ],
+    "anti_patterns": [
+      "Bright coloured backgrounds",
+      "Rounded frames or drop shadows",
+      "Hopeful, sincere captions",
+      "Sans-serif titles",
+      "More than two lines of caption",
+      "Busy collage instead of one subject"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 1,
+    "grid_rigidity": 5,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A single centred column: frame, title, caption, on a canvas of 600px x 750px with a 48px margin.",
+    "whitespace_ratio": "Black fills 100% of the ground; the picture, the title and the caption take 70%, 12% and 6% of the height.",
+    "alignment_rules": "Everything is centred on one axis; the frame is symmetrical.",
+    "container_geometry": "Hard rectangles with a 0px radius; a 2px white outline around the photo."
+  },
+  "typography": {
+    "classifications": [
+      "transitional serif",
+      "capitals"
+    ],
+    "font_pairings": [
+      {
+        "display": "Tinos",
+        "body": "Open Sans",
+        "note": "Tinos has the metrics of Times, the classic face of the form."
+      },
+      {
+        "display": "Libre Baskerville",
+        "body": "Source Sans 3",
+        "note": "A wider serif for a more formal title."
+      }
+    ],
+    "tracking": "Title +0.12em; caption +0.02em.",
+    "leading": "Title 1.1; caption 1.4.",
+    "hierarchy_rules": [
+      "Use one title size (64px) and one caption size (18px).",
+      "Set the title in bold (700) capitals.",
+      "Set the caption in regular (400) sentence case.",
+      "Use white for the title and light grey for the caption."
+    ]
+  },
+  "color": {
+    "palette_structure": "Black ground, white frame and title, grey caption, with a photograph as the only colour.",
+    "palette": [
+      {
+        "name": "Poster Black",
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "name": "Frame White",
+        "hex": "#FFFFFF",
+        "role": "primary"
+      },
+      {
+        "name": "Caption Grey",
+        "hex": "#C8C8C8",
+        "role": "secondary text"
+      },
+      {
+        "name": "Photo Slate",
+        "hex": "#5B6E80",
+        "role": "photo tone"
+      },
+      {
+        "name": "Warning Red",
+        "hex": "#B3261E",
+        "role": "accent"
+      }
+    ],
+    "contrast_rules": "White on black gives 21:1; grey #C8C8C8 on black gives 12:1.",
+    "surface_treatment": "Flat black with no gradient; the photograph carries all tone.",
+    "light_and_shadow": "No shadow; light comes only from the photograph."
+  },
+  "materiality": {
+    "surface_simulation": "A printed office poster on glossy stock, seen as a flat web image.",
+    "border_rules": "A 2px white outline around the photo; no other border.",
+    "blur_and_elevation": "No blur and no elevation; the layout stays flat."
+  },
+  "ornamentation_details": {
+    "iconography": "No icons; a small line of text under the caption may carry a fake company name.",
+    "illustration": "One photograph of a landscape, an animal or a group; a muted tone.",
+    "decorative_elements": [
+      "photo frame",
+      "serif title",
+      "caption line"
+    ]
+  },
+  "motion": {
+    "native": false,
+    "transition_physics": "Static image. A web version fades the caption in after 600ms.",
+    "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "duration_ms": 600,
+    "hover_and_active": "Hover lifts the frame by 2px and brightens the photo by 8%."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "xerox-zine"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer smiles at a calm, bleak joke in a serious frame.",
+    "keywords": [
+      "dry",
+      "ironic",
+      "bleak",
+      "office humour",
+      "deadpan"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "demotivational poster",
+      "demotivator",
+      "despair poster",
+      "black frame poster",
+      "ironic motivational poster",
+      "office joke poster"
+    ],
+    "use_cases": [
+      "internet humour pages",
+      "team culture posts",
+      "satire slides",
+      "forum signature images"
+    ],
+    "avoid_when": [
+      "The message must inspire without irony.",
+      "The reader needs dense information."
+    ],
+    "modifiers": [
+      {
+        "request": "more current",
+        "toward": "impact-image-macro",
+        "how": "Replace the frame and serif title with a full-bleed photo and white outlined capitals at top and bottom."
+      },
+      {
+        "request": "less dark",
+        "toward": "minimalism-web",
+        "how": "Use a white ground, a thin black line and a sans-serif title; keep the single picture."
+      },
+      {
+        "request": "more chaotic",
+        "toward": "deep-fried-meme",
+        "how": "Recompress the image, saturate it and add loud caption text; drop the frame."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 700,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 400,
+      "accent": "case",
+      "display_tracking": "0.12em",
+      "display_leading": 1.1,
+      "display_case": "uppercase",
+      "body_leading": 1.4,
+      "body_size": "18px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1,
+      "linecap": "butt",
+      "linejoin": "miter",
+      "container": "none",
+      "pack": {
+        "id": "lucide",
+        "why": "A thin outline family that stays quiet beside the serif title."
+      }
+    },
+    "art": {
+      "recipe": "plain",
+      "pattern": "none",
+      "seed": 4
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "regular",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "frame",
+      "why": "The ground is black with a thin white frame, as on the poster."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#000000",
+      "--color-surface": "#111111",
+      "--color-text": "#FFFFFF",
+      "--color-muted": "#C8C8C8",
+      "--color-primary": "#FFFFFF",
+      "--color-accent": "#B3261E",
+      "--color-border": "#FFFFFF",
+      "--font-sans": "\"Open Sans\", \"Source Sans 3\", sans-serif",
+      "--font-display": "\"Tinos\", \"Libre Baskerville\", serif",
+      "--border-radius": "0px",
+      "--border-width": "2px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "12px",
+      "--ease": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "--duration": "600ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-black text-white font-sans antialiased px-12 py-12"
+      },
+      {
+        "element": "heading",
+        "classes": "font-serif text-5xl md:text-6xl font-bold uppercase tracking-[0.12em] leading-[1.1] text-center"
+      },
+      {
+        "element": "body",
+        "classes": "text-lg leading-[1.4] text-[#C8C8C8] text-center max-w-prose mx-auto"
+      },
+      {
+        "element": "card",
+        "classes": "border-2 border-white p-3 bg-black"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border-2 border-white bg-black px-6 py-3 text-sm uppercase tracking-[0.12em] text-white hover:bg-white hover:text-black"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#FFFFFF",
+        "#C8C8C8"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#B3261E",
+        "#FFFFFF"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 0
+    },
+    "grid_step": {
+      "min": 8,
+      "max": 16
+    },
+    "type_scale_ratio": {
+      "default": 1.333,
+      "min": 1.25,
+      "max": 1.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Motivational poster",
+      "url": "https://en.wikipedia.org/wiki/Motivational_poster"
+    },
+    {
+      "title": "Know Your Meme: Demotivational Posters"
+    }
+  ]
+}

@@ -206,7 +206,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **darker and more theatrical**: move toward [`baroque-painting`](../baroque-painting/SKILL.md) (Baroque painting). Reduce the glow to one warm light source, deepen the shadows to near black, and drop the chrome; keep the smooth surface and the single focal object.
 - If the user asks for **more painterly**: move toward [`impressionism`](../impressionism/SKILL.md) (Impressionism). Replace the sprayed gradients with visible touches of 5–15mm and let the edges break; keep the colour heat of the sky.
 
-- **Kin in another domain:** [`pop-art-web`](../pop-art-web/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md), [`space-age`](../space-age/SKILL.md), [`surrealism-web`](../surrealism-web/SKILL.md)
+- **Kin in another domain:** [`ai-avatar-portrait`](../ai-avatar-portrait/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md), [`space-age`](../space-age/SKILL.md), [`surrealism-web`](../surrealism-web/SKILL.md)
 - **Nearest by vector profile:** [`photorealism`](../photorealism/SKILL.md), [`mannerism-painting`](../mannerism-painting/SKILL.md), [`surrealism-painting`](../surrealism-painting/SKILL.md)
 
 ## Emotional target

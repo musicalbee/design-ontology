@@ -1,0 +1,348 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "flat-lay-feed",
+  "domain": "internet",
+  "name": "Flat Lay Feed",
+  "aliases": [
+    "Flat lay",
+    "Overhead still life",
+    "Knolling feed"
+  ],
+  "branch": "social-photo",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2014,
+    "end": null,
+    "label": "2014–now"
+  },
+  "primary_mediums": [
+    "image",
+    "mobile"
+  ],
+  "summary": "Objects arranged on a flat surface and shot from straight above: coffee, a notebook, flowers, a phone. Marble or linen fills the ground, light is soft, and props sit in neat clusters with empty space.",
+  "philosophy": {
+    "core_thesis": "A life laid flat on a table: choose objects, set them in order and shoot straight down so that the story reads like a diagram.",
+    "design_principles": [
+      "Shoot at 90° from directly above and fill the square frame with one surface.",
+      "Use a pale ground: white marble (#F6F5F2), light oak or linen, lit by a window at 45° to the side.",
+      "Group 5 to 9 objects in odd numbers and keep 30% to 40% of the frame empty.",
+      "Repeat 1 accent colour, such as blush (#D9A7A0) or eucalyptus (#7C9A8A), in 3 props.",
+      "Align objects to the frame edge or at 90° and 45° angles, and keep 8% to 12% of the frame as a margin.",
+      "Place the hero object at one third of the frame and add a hand or a cup for scale.",
+      "Add a short lower-case caption at 14px and a row of 10 to 20 tags under the photo."
+    ],
+    "anti_patterns": [
+      "Photos from an oblique angle",
+      "Dark, cluttered tables",
+      "Even, centred, symmetric spacing with no focal object",
+      "Hard flash shadows",
+      "Busy patterned grounds",
+      "Many competing accent colours"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 1,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 1
+  },
+  "layout": {
+    "grid_mechanics": "A square frame on a 3 by 3 invisible grid; the hero object sits on a third line and props fill the cells around it.",
+    "whitespace_ratio": "30% to 40% of the frame stays as bare surface; the spacing scale is 8, 16, 32 and 64px.",
+    "alignment_rules": "Objects align on 0° and 90° axes; a 45° diagonal is allowed for one long object.",
+    "container_geometry": "Square photos with a 0px radius; a 1px #E5E2DB line between cards; props overlap by 4% to 8% at most."
+  },
+  "typography": {
+    "classifications": [
+      "serif display",
+      "humanist sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Playfair Display",
+        "body": "Lato",
+        "note": "A high-contrast serif for a title on a spread and a plain humanist body."
+      },
+      {
+        "display": "Cormorant Garamond",
+        "body": "Lato",
+        "note": "A light serif for a quiet caption."
+      },
+      {
+        "display": "Montserrat",
+        "body": "Lato",
+        "note": "A geometric sans for a clean tag row."
+      }
+    ],
+    "tracking": "Display takes +0.02em; the tag row takes +0.06em.",
+    "leading": "Display 1.2; body 1.65.",
+    "hierarchy_rules": [
+      "Use two weights: 400 and 700.",
+      "Use sizes 12, 14, 20 and 32px.",
+      "Set captions in lower case.",
+      "Use italic for a product name."
+    ]
+  },
+  "color": {
+    "palette_structure": "Pale marble white with one blush, one eucalyptus green, oak brown and a dark coffee accent.",
+    "palette": [
+      {
+        "name": "Marble White",
+        "hex": "#F6F5F2",
+        "role": "background"
+      },
+      {
+        "name": "Surface White",
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "name": "Ink",
+        "hex": "#222222",
+        "role": "text"
+      },
+      {
+        "name": "Blush",
+        "hex": "#D9A7A0",
+        "role": "primary"
+      },
+      {
+        "name": "Eucalyptus",
+        "hex": "#7C9A8A",
+        "role": "accent"
+      },
+      {
+        "name": "Oak",
+        "hex": "#B98F63",
+        "role": "prop"
+      },
+      {
+        "name": "Coffee",
+        "hex": "#3B2A21",
+        "role": "prop shadow"
+      }
+    ],
+    "contrast_rules": "Text on white holds at least 14:1; blush and eucalyptus carry props, tags and fills, not small text.",
+    "surface_treatment": "Flat, light fills; photos show marble, linen or oak with a soft grain; no gradient on chrome.",
+    "light_and_shadow": "Soft window light from one side; shadows are long, pale and 20% to 30% opaque; no flash."
+  },
+  "materiality": {
+    "surface_simulation": "A tabletop of marble, linen or oak seen from above.",
+    "border_rules": "A 1px #E5E2DB line between cards; no border on photos.",
+    "blur_and_elevation": "No blur; props cast a soft shadow of 8px to 20px blur at 20% to 30% opacity."
+  },
+  "ornamentation_details": {
+    "iconography": "Fine outline icons at 24px with a 1.5px stroke: heart, bookmark, tag and share.",
+    "illustration": "No drawn art; props such as flowers, a cup, a notebook and sunglasses tell the story.",
+    "decorative_elements": [
+      "marble ground",
+      "linen ground",
+      "coffee cup",
+      "notebook",
+      "flower sprig",
+      "tag row"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Cards fade in at 300ms with a 8px rise; carousel slides move at 350ms; no motion inside the photo.",
+    "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+    "duration_ms": 300,
+    "hover_and_active": "Hover lifts the photo by 2px with a soft shadow; a tap on a tag opens its feed in 250ms."
+  },
+  "lineage": {
+    "evolved_from": [
+      "flat-design"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "vsco-preset-look"
+    ],
+    "echoes": [
+      "food-photography",
+      "scandinavian-interior-photography"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels order, calm and a small wish to own the same pleasant things.",
+    "keywords": [
+      "tidy",
+      "airy",
+      "pretty",
+      "aspirational",
+      "calm",
+      "curated"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "lover",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "flat lay",
+      "flatlay",
+      "overhead shot",
+      "top-down photo",
+      "knolling",
+      "marble background",
+      "coffee and notebook",
+      "brand lifestyle photo"
+    ],
+    "use_cases": [
+      "product and brand lifestyle photos",
+      "food and coffee blogs",
+      "gift guides and unboxing stills",
+      "craft and stationery shops"
+    ],
+    "avoid_when": [
+      "The subject is a person or an event with motion.",
+      "The product is large and cannot sit on a table.",
+      "The brief needs a raw, documentary look."
+    ],
+    "modifiers": [
+      {
+        "request": "more casual",
+        "toward": "photo-dump",
+        "how": "Shoot at oblique angles with a hard flash and keep the clutter."
+      },
+      {
+        "request": "more cohesive",
+        "toward": "cohesive-feed-grid",
+        "how": "Fix one ground and one accent for all frames and lay them in a strict 3-column grid."
+      },
+      {
+        "request": "warmer",
+        "toward": "vsco-preset-look",
+        "how": "Apply a matte warm preset and lift the blacks."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 400,
+      "accent": "weight",
+      "display_tracking": "0.02em",
+      "display_leading": 1.2,
+      "display_case": "none",
+      "body_leading": 1.65,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "iconoir",
+        "why": "A fine, even line family that suits quiet captions and tag rows on pale photos."
+      }
+    },
+    "art": {
+      "recipe": "flat",
+      "pattern": "dots",
+      "seed": 14
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "linen",
+      "why": "The ground is the table: a pale linen or marble surface seen from above."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#F6F5F2",
+      "--color-surface": "#FFFFFF",
+      "--color-text": "#222222",
+      "--color-muted": "#5C5C58",
+      "--color-primary": "#B5766E",
+      "--color-accent": "#5E7F6E",
+      "--color-border": "#E5E2DB",
+      "--font-sans": "\"Lato\", \"Helvetica Neue\", sans-serif",
+      "--font-display": "\"Playfair Display\", \"Cormorant Garamond\", serif",
+      "--border-radius": "0px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 8px 20px rgba(59,42,33,0.12)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "--duration": "300ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#F6F5F2] text-[#222222] font-sans antialiased px-4 md:px-8"
+      },
+      {
+        "element": "heading",
+        "classes": "font-serif text-3xl md:text-5xl font-bold leading-[1.2] tracking-[0.02em]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.65] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border border-[#E5E2DB] bg-white p-6"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none bg-[#B5766E] px-6 py-3 text-sm font-bold text-white transition-shadow duration-[300ms] hover:shadow-[0_8px_20px_rgba(59,42,33,0.12)]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs lowercase tracking-[0.06em] text-[#5C5C58]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#B5766E",
+        "#5E7F6E",
+        "#222222"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#5E7F6E",
+        "#B5766E"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 4
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Instagram",
+      "url": "https://en.wikipedia.org/wiki/Instagram"
+    },
+    {
+      "title": "Wikipedia: Kinfolk (magazine)",
+      "url": "https://en.wikipedia.org/wiki/Kinfolk_(magazine)"
+    }
+  ]
+}

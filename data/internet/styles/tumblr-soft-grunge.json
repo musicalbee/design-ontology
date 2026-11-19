@@ -1,0 +1,349 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "tumblr-soft-grunge",
+  "domain": "internet",
+  "name": "Tumblr Soft Grunge",
+  "aliases": [
+    "Soft grunge",
+    "Tumblr aesthetic",
+    "Pale grunge"
+  ],
+  "branch": "social-photo",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2012,
+    "end": null,
+    "label": "2012–now"
+  },
+  "primary_mediums": [
+    "web",
+    "image"
+  ],
+  "summary": "A pale, moody photo look from reblog blogs: faded pastel on a dark ground, film grain, light leaks, torn paper edges and small typewriter captions. It is sad and soft, not loud.",
+  "philosophy": {
+    "core_thesis": "A feed of reblogged scraps that feels like a teenager's wall: faded, tender and a little broken.",
+    "design_principles": [
+      "Set the ground at a dark mauve-grey (#2A2528) and let photos fade to pastel pink (#E6A5B8) and sage (#9FB8A8).",
+      "Lift the blacks to 15% grey, lower the saturation to 60% and add a grain of 8% to 12%.",
+      "Add a light leak: a warm orange or pink gradient across 20% to 30% of one photo edge at 40% opacity.",
+      "Crop photos to 500px to 540px wide and stack them in one column of the dashboard with 20px gaps.",
+      "Tilt overlaid stickers and tape by 2° to 5° and tear the paper edge at 6px to 10px.",
+      "Set captions in a typewriter face at 13px in lower case with a pale grey (#C7B8BE) colour.",
+      "Overlay a thin quote in a script or a typewriter face over the photo at 70% opacity."
+    ],
+    "anti_patterns": [
+      "Saturated, clean colour",
+      "Sharp, bright, high-key photos",
+      "Tidy aligned rows with no overlap",
+      "Large bold sans-serif headlines",
+      "Glossy gradients and shadows",
+      "Crisp white backgrounds"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "dimensionality": 2,
+    "grid_rigidity": 2,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A single dashboard column of 500px posts with 20px gaps; sticker and tape layers sit over the photo corners.",
+    "whitespace_ratio": "20% to 30% stays empty; the spacing scale is 4, 10, 20 and 40px.",
+    "alignment_rules": "Photos centre in the column; captions sit flush left; stickers tilt off the grid by 2° to 5°.",
+    "container_geometry": "Photos with a 0px to 2px radius and torn paper edges; tape strips of 60px by 20px at 60% opacity."
+  },
+  "typography": {
+    "classifications": [
+      "typewriter",
+      "script",
+      "monospace"
+    ],
+    "font_pairings": [
+      {
+        "display": "Special Elite",
+        "body": "Courier Prime",
+        "note": "A worn typewriter face for captions, with a clean mono body."
+      },
+      {
+        "display": "Amatic SC",
+        "body": "Courier Prime",
+        "note": "A thin hand-drawn capital face for a quote on the photo."
+      },
+      {
+        "display": "Cormorant Garamond",
+        "body": "Courier Prime",
+        "note": "A fine italic serif for a soft, literary quote."
+      }
+    ],
+    "tracking": "Display takes +0.05em; captions take 0.02em.",
+    "leading": "Display 1.2; body 1.6.",
+    "hierarchy_rules": [
+      "Use two weights: 400 and 700.",
+      "Use sizes 12, 14, 20 and 36px.",
+      "Set captions in lower case.",
+      "Set quotes in italic at 70% opacity."
+    ]
+  },
+  "color": {
+    "palette_structure": "A dark plum-grey ground with washed pink, sage and lilac, and one bleached white.",
+    "palette": [
+      {
+        "name": "Charcoal Plum",
+        "hex": "#2A2528",
+        "role": "background"
+      },
+      {
+        "name": "Smoke",
+        "hex": "#3A3236",
+        "role": "surface"
+      },
+      {
+        "name": "Bleached White",
+        "hex": "#F1E8EA",
+        "role": "text"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#E6A5B8",
+        "role": "primary"
+      },
+      {
+        "name": "Faded Sage",
+        "hex": "#9FB8A8",
+        "role": "accent"
+      },
+      {
+        "name": "Washed Lilac",
+        "hex": "#B9A6C9",
+        "role": "second accent"
+      },
+      {
+        "name": "Ash Grey",
+        "hex": "#6B5C63",
+        "role": "border"
+      }
+    ],
+    "contrast_rules": "Text on the plum ground holds at least 10:1; pastel colours carry photo tints, tape and accents.",
+    "surface_treatment": "A flat dark ground with a grain overlay of 6% to 10%; photos carry the faded colour; torn paper layers at 90% opacity.",
+    "light_and_shadow": "Soft light leaks at 40% opacity on photo edges; no hard shadow; a 1px dark edge under tape."
+  },
+  "materiality": {
+    "surface_simulation": "A bedroom wall of printed photos, tape and torn paper.",
+    "border_rules": "A 1px #6B5C63 line on posts; torn edges of 6px to 10px on paper layers.",
+    "blur_and_elevation": "A 2px blur on far stickers; a 6px soft shadow at 25% opacity under tape."
+  },
+  "ornamentation_details": {
+    "iconography": "Thin outline icons at 20px with a 1.5px stroke, in a hand-drawn style: heart, star and moon.",
+    "illustration": "Doodled stars, hearts and crescent moons in white line at 60% opacity; scanned film edges.",
+    "decorative_elements": [
+      "tape strip",
+      "torn paper edge",
+      "light leak",
+      "film grain",
+      "typewriter quote",
+      "hand-drawn star"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Reblogs drop into the dashboard with a 300ms fade and a 12px rise; stickers do not move; a slow 20s drift shifts the light leak by 40px.",
+    "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "duration_ms": 300,
+    "hover_and_active": "Hover raises the photo by 2px and the tape tilt changes by 1°; the like heart fills pink in 200ms."
+  },
+  "lineage": {
+    "evolved_from": [
+      "grunge-editorial"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "instagram-vintage-filter"
+    ],
+    "echoes": [
+      "y2k-digicam"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels a gentle, lonely melancholy and a wish to belong.",
+    "keywords": [
+      "moody",
+      "faded",
+      "tender",
+      "lonely",
+      "pastel",
+      "dreamy"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "lover",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "soft grunge",
+      "tumblr aesthetic",
+      "pale grunge",
+      "2014 tumblr",
+      "pastel goth photo",
+      "moody pastel",
+      "light leak",
+      "reblog"
+    ],
+    "use_cases": [
+      "music and zine pages",
+      "youth fashion lookbooks",
+      "mood board pages",
+      "nostalgia posts about the 2010s web"
+    ],
+    "avoid_when": [
+      "The product needs a bright, trustworthy, corporate tone.",
+      "The text is long and must be easy to read.",
+      "The audience is a young child."
+    ],
+    "modifiers": [
+      {
+        "request": "cleaner",
+        "toward": "vsco-preset-look",
+        "how": "Remove tape, stickers and torn edges; keep the fade and set a quiet matte grade."
+      },
+      {
+        "request": "brighter",
+        "toward": "instagram-vintage-filter",
+        "how": "Switch to a cream ground, add the white print border and warm the fade to amber."
+      },
+      {
+        "request": "rougher",
+        "toward": "grunge-editorial",
+        "how": "Add heavy collage, bold type and a hard photocopy texture."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 400,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 400,
+      "accent": "case",
+      "display_tracking": "0.05em",
+      "display_leading": 1.2,
+      "display_case": "lowercase",
+      "body_leading": 1.6,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "pepicons-print",
+        "why": "A hand-drawn line family that matches doodled stars and hearts on a dark wall."
+      }
+    },
+    "art": {
+      "recipe": "grunge",
+      "pattern": "squiggle",
+      "seed": 7
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "airy",
+      "tilt_deg": -2
+    },
+    "ground": {
+      "kind": "xerox",
+      "why": "The ground is a photocopied scrap wall: grain and uneven ink behind the photos."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#2A2528",
+      "--color-surface": "#3A3236",
+      "--color-text": "#F1E8EA",
+      "--color-muted": "#C7B8BE",
+      "--color-primary": "#E6A5B8",
+      "--color-accent": "#9FB8A8",
+      "--color-border": "#6B5C63",
+      "--font-sans": "\"Courier Prime\", \"Courier New\", monospace",
+      "--font-display": "\"Special Elite\", \"Amatic SC\", serif",
+      "--border-radius": "2px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 6px 12px rgba(0,0,0,0.25)",
+      "--backdrop-filter": "none",
+      "--space-unit": "10px",
+      "--ease": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "--duration": "300ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#2A2528] text-[#F1E8EA] font-mono antialiased px-4 md:px-8"
+      },
+      {
+        "element": "heading",
+        "classes": "text-3xl md:text-5xl lowercase leading-[1.2] tracking-[0.05em] -rotate-1"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border border-[#6B5C63] bg-[#3A3236] p-5 rounded-sm shadow-[0_6px_12px_rgba(0,0,0,0.25)]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-sm border border-[#E6A5B8] bg-[#E6A5B8] px-5 py-2 text-sm lowercase text-[#2A2528] transition-transform duration-[300ms] hover:-translate-y-0.5"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs lowercase tracking-[0.05em] text-[#C7B8BE]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#E6A5B8",
+        "#9FB8A8",
+        "#B9A6C9"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#9FB8A8",
+        "#E6A5B8",
+        "#B9A6C9"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 6
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Tumblr",
+      "url": "https://en.wikipedia.org/wiki/Tumblr"
+    },
+    {
+      "title": "Wikipedia: Soft grunge",
+      "url": "https://en.wikipedia.org/wiki/Soft_grunge"
+    }
+  ]
+}

@@ -213,7 +213,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Moodboard
 
-6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (FLUX.2 [klein] 4B, Apache-2.0, seed 1955, 4 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#japandi-interior).
+6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (Z-Image-Turbo, Apache-2.0, seed 1955, 9 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#japandi-interior).
 
 ![Room](../../demo/moodboards/interior/japandi-interior/room.webp)
 ![Materials](../../demo/moodboards/interior/japandi-interior/materials.webp)
@@ -224,7 +224,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Low oak and ash, lime plaster, washi paper, linen and hand-thrown stoneware make the room. Black steel and charred wood give the one dark accent, and all finishes are matt. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.02, material_warmth 0.8, finish_gloss 5, era_blend 0.6, hardware_weight 10, edge_radius 6, metal_tone black. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#japandi-interior).
+Low oak and ash, lime plaster, washi paper, linen and hand-thrown stoneware make the room. Black steel and charred wood give the one dark accent, and all finishes are matt. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.02, material_warmth 0.8, finish_gloss 5, era_blend 0.6, hardware_weight 10, edge_radius 6, metal_tone black. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#japandi-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

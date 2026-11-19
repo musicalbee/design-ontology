@@ -1,0 +1,346 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "3d-avatar-emoji",
+  "domain": "internet",
+  "name": "3D Avatar Emoji",
+  "aliases": [
+    "Animoji",
+    "Memoji",
+    "Face-tracked emoji",
+    "3D emoji"
+  ],
+  "branch": "gifs-stickers",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2017,
+    "end": null,
+    "label": "2017–now"
+  },
+  "primary_mediums": [
+    "mobile",
+    "video",
+    "image"
+  ],
+  "summary": "A rendered 3D head, an animal or a user cartoon, that copies the face of the user in real time. Apple showed Animoji with the iPhone X in 2017, and Memoji followed in 2018.",
+  "philosophy": {
+    "core_thesis": "The emoji copies the face of the sender: a mask with a voice, not a fixed picture.",
+    "design_principles": [
+      "Render a round head with a 1:1 ratio, a diameter of 120px to 240px, and soft studio light from the top left.",
+      "Use a clay-like surface with a roughness of 0.6 and no visible texture; keep colours flat and bright.",
+      "Make the eyes 12% of the head width, glossy, with one 4px highlight at the top right.",
+      "Copy the face of the user at 60 fps: eyebrows, eyelids, jaw and mouth corners map to the head.",
+      "Cast a soft contact shadow of 24px blur at 18% opacity under the head on a pale violet ground.",
+      "Offer the head in a grid of 4 columns with 16px gutters and a record button of 64px at the base.",
+      "Limit a recorded clip to 10 seconds and export it at 30 fps."
+    ],
+    "anti_patterns": [
+      "Flat 2D faces with no depth",
+      "Realistic skin pores and photographic light",
+      "A fixed pose with no face tracking",
+      "Dark, heavy shadows",
+      "Uncanny, human-like proportions",
+      "Busy backgrounds behind the head"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 5,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "A picker grid of 4 columns with 16px gutters; the live head sits in a 1:1 frame at the top, with the controls at the base.",
+    "whitespace_ratio": "35% to 45% of the surface stays empty; the spacing scale is 8, 16, 24 and 40px.",
+    "alignment_rules": "The head is centred in its frame; controls are centred at the base with a 24px gap.",
+    "container_geometry": "Cards and the record button with a 24px radius or a full circle; the head sits in a circle or a squircle."
+  },
+  "typography": {
+    "classifications": [
+      "rounded geometric sans",
+      "neo-grotesque sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Quicksand",
+        "body": "Inter",
+        "note": "A round geometric face echoes the soft forms of the head."
+      },
+      {
+        "display": "Nunito",
+        "body": "Inter",
+        "note": "A warmer rounded face for a sticker-like pack."
+      }
+    ],
+    "tracking": "Display 0em; body 0em.",
+    "leading": "Display 1.15; body 1.6.",
+    "hierarchy_rules": [
+      "Set the display line at 32px to 48px in 700 weight.",
+      "Keep body text at 16px and labels at 12px in 600 weight.",
+      "Let the head be the largest element on the screen."
+    ]
+  },
+  "color": {
+    "palette_structure": "A pale violet field with one violet and one orange; the head supplies bright, flat colour.",
+    "palette": [
+      {
+        "name": "Lilac Ground",
+        "hex": "#F4F2FF",
+        "role": "background"
+      },
+      {
+        "name": "Card White",
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "name": "Deep Indigo",
+        "hex": "#1B1736",
+        "role": "text"
+      },
+      {
+        "name": "Avatar Violet",
+        "hex": "#7B5CFF",
+        "role": "primary"
+      },
+      {
+        "name": "Avatar Orange",
+        "hex": "#FF9F43",
+        "role": "accent"
+      },
+      {
+        "name": "Dusk",
+        "hex": "#5A5578",
+        "role": "muted text"
+      },
+      {
+        "name": "Mist",
+        "hex": "#D9D3F5",
+        "role": "border"
+      }
+    ],
+    "contrast_rules": "Deep indigo on lilac holds 15:1; violet and orange fill shapes and buttons, with indigo or white text as the contrast needs.",
+    "surface_treatment": "Smooth flat fields; the head carries the depth and the soft light.",
+    "light_and_shadow": "A soft top-left key light and a faint rim light; a contact shadow of 24px blur at 18% opacity."
+  },
+  "materiality": {
+    "surface_simulation": "Soft clay or vinyl: matte, smooth, with a small gloss on the eyes.",
+    "border_rules": "A 1px mist line on cards; no line on the head.",
+    "blur_and_elevation": "A 24px soft shadow at 18% under cards and the head."
+  },
+  "ornamentation_details": {
+    "iconography": "Duotone glyphs at 24px in a circle of 40px.",
+    "illustration": "Rendered heads of animals, robots and user-made people with 3 to 6 accessories.",
+    "decorative_elements": [
+      "rendered head",
+      "contact shadow",
+      "record button",
+      "face-tracking mesh hint",
+      "accessory row"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "The head follows the face at 60 fps with a 40ms lag; a pick swaps the head with a 350ms squash and stretch of 8%.",
+    "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+    "duration_ms": 350,
+    "hover_and_active": "Hover lifts a card by 4px; active scales the head to 0.95 and records."
+  },
+  "lineage": {
+    "evolved_from": [
+      "unicode-emoji"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "chat-sticker-pack"
+    ],
+    "echoes": [
+      "clay-3d-icon"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels playful, personal and a little amused at a mask that copies their face.",
+    "keywords": [
+      "playful",
+      "personal",
+      "soft",
+      "expressive",
+      "tactile",
+      "bright"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "creator",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "animoji",
+      "memoji",
+      "3d emoji",
+      "avatar emoji",
+      "face tracking",
+      "talking head emoji",
+      "3d avatar"
+    ],
+    "use_cases": [
+      "messaging and video call masks",
+      "creator avatars for short video",
+      "friendly onboarding with a talking mascot",
+      "kids and family apps"
+    ],
+    "avoid_when": [
+      "The device has no depth camera or face tracking.",
+      "The brand needs a formal tone.",
+      "The user cannot show the face, for privacy reasons."
+    ],
+    "modifiers": [
+      {
+        "request": "flatter",
+        "toward": "unicode-emoji",
+        "how": "Replace the rendered head with a flat yellow face and drop the contact shadow."
+      },
+      {
+        "request": "more drawn",
+        "toward": "chat-sticker-pack",
+        "how": "Draw a 3px outline, add a white cut-out edge and a short word."
+      },
+      {
+        "request": "more realistic",
+        "toward": "skeuomorphism",
+        "how": "Add textured materials, a harder light and visible depth on every control."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "display_tracking": "0em",
+      "display_leading": 1.15,
+      "display_case": "none",
+      "body_leading": 1.6,
+      "body_size": "16px",
+      "subhead_weight": 600,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 600,
+      "accent": "weight"
+    },
+    "icon": {
+      "mode": "duotone",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "circle",
+      "pack": {
+        "id": "ph-duotone",
+        "why": "A duotone family gives each glyph a soft second tone like the rendered heads."
+      }
+    },
+    "art": {
+      "recipe": "spatial",
+      "pattern": "none",
+      "seed": 77
+    },
+    "layout": {
+      "hero": "split",
+      "align": "center",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "orbs",
+      "why": "A rendered head floats in a soft lit space, so the ground shows blurred, lit spheres."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#F4F2FF",
+      "--color-surface": "#FFFFFF",
+      "--color-text": "#1B1736",
+      "--color-muted": "#5A5578",
+      "--color-primary": "#7B5CFF",
+      "--color-accent": "#FF9F43",
+      "--color-border": "#D9D3F5",
+      "--font-sans": "\"Inter\", \"Nunito\", sans-serif",
+      "--font-display": "\"Quicksand\", \"Nunito\", sans-serif",
+      "--border-radius": "24px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 12px 24px rgba(123,92,255,0.18)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "--duration": "350ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#F4F2FF] text-[#1B1736] font-sans antialiased px-4 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-4xl md:text-6xl font-['Quicksand'] font-bold leading-[1.1]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border-2 border-[#D9D3F5] bg-[#FFFFFF] rounded-3xl shadow-[0_12px_24px_rgba(123,92,255,0.18)]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-3xl border-2 border-[#D9D3F5] bg-[#7B5CFF] px-6 py-3 text-sm font-bold text-[#FFFFFF] transition-transform duration-[350ms] hover:-translate-y-0.5"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs uppercase tracking-widest text-[#7B5CFF]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#7B5CFF",
+        "#F4F2FF",
+        "#FFFFFF",
+        "#1B1736"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#7B5CFF",
+        "#FF9F43"
+      ]
+    },
+    "corner_radius": {
+      "min": 16,
+      "max": 32
+    },
+    "grid_step": {
+      "min": 8,
+      "max": 16
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.414
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Animoji",
+      "url": "https://en.wikipedia.org/wiki/Animoji"
+    },
+    {
+      "title": "Apple Newsroom, iPhone X introduces Animoji (2017)",
+      "url": "https://www.apple.com/newsroom/2017/09/the-future-is-here-iphone-x/"
+    },
+    {
+      "title": "Wikipedia: Memoji",
+      "url": "https://en.wikipedia.org/wiki/Memoji"
+    }
+  ]
+}

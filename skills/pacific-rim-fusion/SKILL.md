@@ -92,6 +92,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Primary:** tuna · salmon · shellfish · soy-sauce · ginger · miso · duck · rice
 - **Secondary:** yuzu · kombu · sea-urchin · chilli · coriander-leaf · lime · garlic · tropical-fruit · butter · cream · cod · seasonal-greens · honey
 - **Avoid:** lard · sodium-alginate · liquid-nitrogen · truffle
+- **In europe:** no — the values here translate a print style for screen
 - **Rule:** Take one main ingredient from the Pacific, add one or two Asian seasonings, and finish with a French butter or a reduction.
 
 ## Technique
@@ -217,8 +218,8 @@ The excitement of a new flavour on a familiar plate: salt, heat and citrus with 
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Yellowtail sashimi with jalapeño](https://commons.wikimedia.org/wiki/File:Yellowtail_sashimi_with_Jalapeno.JPG) (Tzahy Lerner, 2005): image, CC BY-SA 3.0. Tzahy Lerner, via Wikimedia Commons
-- [Tuna sashimi salad with matsuhisa dressing](https://commons.wikimedia.org/wiki/File:Tuna_sashimi_salad_with_matsushiba_dressing.JPG) (Tzahy Lerner, 2005): image, CC BY-SA 3.0. Tzahy Lerner, via Wikimedia Commons
+- [Yellowtail sashimi with jalapeño, a Nobu dish](https://commons.wikimedia.org/wiki/File:Yellowtail_sashimi_with_Jalapeno.JPG) (Tzahy Lerner, 2005): image, CC BY-SA 3.0. Tzahy Lerner, via Wikimedia Commons
+- [Tuna sashimi salad with Matsuhisa dressing, a Nobu dish](https://commons.wikimedia.org/wiki/File:Tuna_sashimi_salad_with_matsushiba_dressing.JPG) (Tzahy Lerner, 2005): image, CC BY-SA 3.0. Tzahy Lerner, via Wikimedia Commons
 
 ## Sources
 

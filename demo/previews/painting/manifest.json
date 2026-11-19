@@ -160,13 +160,20 @@
       "file": "mannerism-painting.webp",
       "subject": "a small harbour with fishing boats, a stone quay, a row of houses and one figure on the quay",
       "prompt": "a small harbour with fishing boats, a stone quay, a row of houses and one figure on the quay, mannerist painting, elongated figures, serpentine pose, crowded composition, acid pink and lemon colour, shot silk drapery, cool enamel skin, raised horizon, figura serpentinata, late renaissance artifice, the painted surface fills the whole image edge to edge, no picture frame, no wall, no gallery, no easel, no signature text",
-      "model": "FLUX.2 [klein] 4B",
+      "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
-      "steps": 4,
+      "base_seed": 1955,
+      "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-18"
+      "generated": "2026-11-19",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
     },
     "minimalism-painting": {
       "file": "minimalism-painting.webp",
@@ -220,13 +227,22 @@
       "file": "post-impressionism.webp",
       "subject": "a small harbour with fishing boats, a stone quay, a row of houses and one figure on the quay",
       "prompt": "a small harbour with fishing boats, a stone quay, a row of houses and one figure on the quay, post-impressionist painting, thick directed brush strokes, tilted table and flattened space, bold dark blue contour, chrome yellow and Prussian blue, complementary colour pair, Cézanne planes, Van Gogh impasto, Gauguin flat colour, close, simple subject, the painted surface fills the whole image edge to edge, no picture frame, no wall, no gallery, no easel, no signature text",
-      "model": "FLUX.2 [klein] 4B",
+      "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
-      "steps": 4,
+      "base_seed": 1955,
+      "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-18"
+      "generated": "2026-11-19",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 4,
+        "ok": false,
+        "defects": [
+          "both large open hands have lumpy, fused fingers that cannot be counted as five separate fingers"
+        ]
+      }
     },
     "realism-painting": {
       "file": "realism-painting.webp",

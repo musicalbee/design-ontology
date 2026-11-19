@@ -1,0 +1,44 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "face-swap-autoencoder",
+  "name": "Face-swap autoencoder",
+  "aliases": [
+    "Deepfake method",
+    "Face reenactment"
+  ],
+  "kind": "technology",
+  "summary": "A pair of networks that learn two faces and then draw one face with the pose and expression of the other, frame by frame.",
+  "how": [
+    "Find and crop the face in each frame, and mark its landmark points.",
+    "Train one encoder and two decoders on many images of the two faces.",
+    "Decode the pose of face A with the decoder of face B.",
+    "Blend the new face patch into the frame with a feathered mask of 8px to 24px.",
+    "Mark the result as synthetic in any public use."
+  ],
+  "origin": {
+    "domain": "internet",
+    "year": 2017,
+    "where": "Reddit",
+    "note": "A user of that name posts the first face-swap clips and then shares the method as code; the name deepfake comes from this user name."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 2018,
+      "circa": true,
+      "via": "Open tools and phone apps put the method in many hands; detection overlays and labels appear next to the clips.",
+      "styles": [
+        "deepfake-face-swap"
+      ]
+    }
+  ],
+  "styles": [
+    "deepfake-face-swap"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Deepfake",
+      "url": "https://en.wikipedia.org/wiki/Deepfake"
+    }
+  ]
+}

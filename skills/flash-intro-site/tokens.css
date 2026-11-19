@@ -1,0 +1,128 @@
+/*
+ * Flash Intro Site — tokens
+ * Generated from data/internet/styles/flash-intro-site.json by design-ontology. Do not edit.
+ * Use: put data-style="flash-intro-site" on <html> or on any container.
+ */
+[data-style="flash-intro-site"] {
+  --color-bg: #111111;
+  --color-surface: #1E1E1E;
+  --color-text: #EEEEEE;
+  --color-muted: #9A9A9A;
+  --color-primary: #FF6600;
+  --color-accent: #33CCFF;
+  --color-border: #444444;
+  --font-sans: "Space Mono", "Silkscreen", monospace;
+  --font-display: "Oswald", "Jost", sans-serif;
+  --border-radius: 0px;
+  --border-width: 1px;
+  --shadow-elevation: 0 0 16px #FF660066;
+  --backdrop-filter: none;
+  --space-unit: 10px;
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration: 600ms;
+  --type-ratio: 1.333;
+  --size-small: 12px;
+  --size-h3: 28.43px;
+  --size-h2: 37.9px;
+  --size-h1: 50.52px;
+  --color-on-bg: #EEEEEE;
+  --color-on-surface: #EEEEEE;
+  --color-on-primary: #111111;
+  --color-on-accent: #111111;
+  --color-muted-on-bg: #9A9A9A;
+  --color-muted-on-surface: #9A9A9A;
+  --color-link: #33CCFF;
+  --color-link-on-surface: #33CCFF;
+  --display-weight: 700;
+  --subhead-weight: 400;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 400;
+  --display-tracking: 0.04em;
+  --display-leading: 1;
+  --display-case: uppercase;
+  --body-leading: 1.5;
+  --body-size: 16px;
+  --icon-stroke: 1;
+  --ground: radial-gradient(70% 60% at 50% 105%, transparent 30%, var(--color-bg) 75%),
+    repeating-conic-gradient(from -90deg at 50% 108%, color-mix(in oklab, var(--color-primary) 34%, transparent) 0 4deg, transparent 4deg 9deg),
+    repeating-radial-gradient(circle at 50% 108%, transparent 0 18vmin, color-mix(in oklab, var(--color-primary) 40%, transparent) 18vmin calc(18vmin + 2px), transparent calc(18vmin + 2px) 24vmin),
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="flash-intro-site"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="flash-intro-site"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="flash-intro-site"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="flash-intro-site"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="flash-intro-site"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="flash-intro-site"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="flash-intro-site"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="flash-intro-site"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="flash-intro-site"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="flash-intro-site"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="flash-intro-site"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="flash-intro-site"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="flash-intro-site"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="flash-intro-site"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

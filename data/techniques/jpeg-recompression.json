@@ -1,0 +1,44 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "jpeg-recompression",
+  "name": "JPEG recompression",
+  "aliases": [
+    "Deep frying",
+    "Generation loss"
+  ],
+  "kind": "technology",
+  "summary": "Repeated lossy saving of one image until blocks, banding and colour noise show.",
+  "how": [
+    "Save the image as JPEG at quality 5 to 15.",
+    "Resize it between 50% and 200% and save again; repeat 3 to 10 times.",
+    "Raise saturation and contrast, then sharpen, between the saves.",
+    "Stop when the subject is still readable at 25% size."
+  ],
+  "origin": {
+    "domain": "internet",
+    "year": 1992,
+    "where": "web",
+    "circa": true,
+    "note": "The JPEG format becomes the usual lossy image format of the web; repeated saves show visible loss."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 2017,
+      "via": "Reddit and Tumblr users recompress pictures on purpose and make the damage the joke.",
+      "styles": [
+        "deep-fried-meme"
+      ],
+      "circa": true
+    }
+  ],
+  "styles": [
+    "deep-fried-meme"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: JPEG",
+      "url": "https://en.wikipedia.org/wiki/JPEG"
+    }
+  ]
+}

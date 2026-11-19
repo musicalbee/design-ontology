@@ -1,0 +1,130 @@
+/*
+ * Clean girl — tokens
+ * Generated from data/internet/styles/clean-girl.json by design-ontology. Do not edit.
+ * Use: put data-style="clean-girl" on <html> or on any container.
+ */
+[data-style="clean-girl"] {
+  --color-bg: #FAF7F2;
+  --color-surface: #FFFFFF;
+  --color-text: #3A332C;
+  --color-muted: #6B6055;
+  --color-primary: #E9DFD1;
+  --color-accent: #C8A25B;
+  --color-border: #E9DFD1;
+  --font-sans: "Jost", "DM Sans", sans-serif;
+  --font-display: "Instrument Serif", "DM Sans", Georgia, serif;
+  --border-radius: 24px;
+  --border-width: 1px;
+  --shadow-elevation: 0 8px 24px rgba(58, 51, 44, 0.06);
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration: 450ms;
+  --type-ratio: 1.25;
+  --size-small: 12.8px;
+  --size-h3: 25px;
+  --size-h2: 31.25px;
+  --size-h1: 39.06px;
+  --color-on-bg: #3A332C;
+  --color-on-surface: #3A332C;
+  --color-on-primary: #3A332C;
+  --color-on-accent: #3A332C;
+  --color-muted-on-bg: #6B6055;
+  --color-muted-on-surface: #6B6055;
+  --color-link: #3A332C;
+  --color-link-on-surface: #3A332C;
+  --display-weight: 500;
+  --subhead-weight: 500;
+  --body-weight: 300;
+  --strong-weight: 500;
+  --label-weight: 500;
+  --display-tracking: -0.01em;
+  --display-leading: 1.1;
+  --display-case: none;
+  --body-leading: 1.6;
+  --body-size: 16px;
+  --icon-stroke: 1.25;
+  --ground: radial-gradient(circle at 80% 46%, var(--color-bg) 0 20vmin, transparent calc(20vmin + 1px)),
+    radial-gradient(circle at calc(80% + 3vmin) calc(46% + 3vmin), color-mix(in oklab, var(--color-on-bg) 16%, transparent) 0 18vmin, transparent 27vmin),
+    radial-gradient(circle at calc(80% - 3vmin) calc(46% - 3vmin), rgba(255,255,255,.85) 0 18vmin, transparent 27vmin),
+    radial-gradient(35% 40% at 96% 92%, color-mix(in oklab, var(--color-accent) 35%, transparent), transparent 70%),
+    radial-gradient(30% 35% at 60% 4%, color-mix(in oklab, var(--color-primary) 22%, transparent), transparent 70%),
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="clean-girl"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="clean-girl"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="clean-girl"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="clean-girl"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="clean-girl"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="clean-girl"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="clean-girl"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="clean-girl"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="clean-girl"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="clean-girl"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="clean-girl"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="clean-girl"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="clean-girl"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="clean-girl"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

@@ -91,6 +91,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Primary:** wild-plants · root-vegetables · shellfish · berries · rye · seasonal-greens · wild-mushrooms · venison
 - **Secondary:** asparagus · cod · oyster · butter · cream · honey · egg · pork · cheese · orchard-fruit · vinegar · game-birds
 - **Avoid:** olive-oil · lemon · tomato · foie-gras
+- **In europe:** yes
 - **Rule:** Take every item from the Nordic region and its season; give acid from vinegar, sorrel, unripe fruit or ferment, not from citrus.
 
 ## Technique
@@ -179,6 +180,7 @@ The cook gathers wild plants, flowers, mushrooms and shellfish near the kitchen,
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Noma** (company, Copenhagen, 2003–now), launched the style. A restaurant in a former warehouse in Copenhagen; its seasonal tasting menu and its fermentation lab set the New Nordic kitchen.
+- **Nordic Council of Ministers** (state programme, Copenhagen, ?–now), funded the style. Body of the Nordic governments. Its food ministers backed New Nordic Cuisine from 2005.
 
 ## Permutations
 

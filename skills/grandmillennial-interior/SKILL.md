@@ -205,7 +205,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Moodboard
 
-6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (FLUX.2 [klein] 4B, Apache-2.0, seed 1955, 4 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#grandmillennial-interior).
+6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (Z-Image-Turbo, Apache-2.0, seed 1955, 9 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#grandmillennial-interior).
 
 ![Room](../../demo/moodboards/interior/grandmillennial-interior/room.webp)
 ![Materials](../../demo/moodboards/interior/grandmillennial-interior/materials.webp)
@@ -216,7 +216,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Printed cotton chintz, polished mahogany, cane, glazed blue-and-white porcelain and polished brass fill the room. Pleated shades, skirts and ruffles keep the forms soft and traditional. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.5, material_warmth 0.65, finish_gloss 40, era_blend 0.4, hardware_weight 14, edge_radius 6, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#grandmillennial-interior).
+Printed cotton chintz, polished mahogany, cane, glazed blue-and-white porcelain and polished brass fill the room. Pleated shades, skirts and ruffles keep the forms soft and traditional. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.5, material_warmth 0.65, finish_gloss 40, era_blend 0.4, hardware_weight 14, edge_radius 6, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#grandmillennial-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|
@@ -330,7 +330,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`georgian-interior`](../georgian-interior/SKILL.md), [`victorian-interior`](../victorian-interior/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`minimalist-interior`](../minimalist-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
-- **Kin in another domain:** [`impressionism`](../impressionism/SKILL.md)
+- **Kin in another domain:** [`cottagecore`](../cottagecore/SKILL.md), [`impressionism`](../impressionism/SKILL.md)
 - **Nearest by vector profile:** [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md), [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md)
 
 ## Emotional target

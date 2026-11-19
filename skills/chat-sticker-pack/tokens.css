@@ -1,0 +1,133 @@
+/*
+ * Chat Sticker Pack — tokens
+ * Generated from data/internet/styles/chat-sticker-pack.json by design-ontology. Do not edit.
+ * Use: put data-style="chat-sticker-pack" on <html> or on any container.
+ */
+[data-style="chat-sticker-pack"] {
+  --color-bg: #F3FBEF;
+  --color-surface: #FFFFFF;
+  --color-text: #1E2A22;
+  --color-muted: #4F6155;
+  --color-primary: #06C755;
+  --color-accent: #FF8A3D;
+  --color-border: #1E2A22;
+  --font-sans: "M PLUS Rounded 1c", "Nunito", sans-serif;
+  --font-display: "Baloo 2", "M PLUS Rounded 1c", sans-serif;
+  --border-radius: 20px;
+  --border-width: 3px;
+  --shadow-elevation: 0 4px 0 #1E2A22;
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration: 250ms;
+  --type-ratio: 1.25;
+  --size-small: 12.8px;
+  --size-h3: 25px;
+  --size-h2: 31.25px;
+  --size-h1: 39.06px;
+  --color-on-bg: #1E2A22;
+  --color-on-surface: #1E2A22;
+  --color-on-primary: #1E2A22;
+  --color-on-accent: #1E2A22;
+  --color-muted-on-bg: #4F6155;
+  --color-muted-on-surface: #4F6155;
+  --color-link: #1E2A22;
+  --color-link-on-surface: #1E2A22;
+  --display-weight: 800;
+  --subhead-weight: 700;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 700;
+  --display-tracking: 0.01em;
+  --display-leading: 1.05;
+  --display-case: none;
+  --body-leading: 1.5;
+  --body-size: 16px;
+  --icon-stroke: 3;
+  --ground: linear-gradient(100deg, var(--color-bg) 30%, transparent 56%),
+    radial-gradient(circle at 66% 22%, var(--color-primary) 0 3.4vmin, transparent calc(3.4vmin + 1px)),
+    radial-gradient(circle at 92% 64%, transparent 0 4vmin, var(--color-accent) 4vmin 5.6vmin, transparent 5.8vmin),
+    linear-gradient(to top right, var(--color-primary) 50%, transparent 51%) 80% 12% / 7vmin 7vmin no-repeat,
+    repeating-linear-gradient(45deg, var(--color-on-bg) 0 3px, transparent 3px 12px) 86% 88% / 14vmin 5vmin no-repeat,
+    radial-gradient(circle at 56% 78%, var(--color-accent) 0 1.8vmin, transparent calc(1.8vmin + 1px)),
+    linear-gradient(var(--color-primary), var(--color-primary)) 97% 36% / 3vmin 12vmin no-repeat,
+    radial-gradient(circle, color-mix(in oklab, var(--color-on-bg) 22%, transparent) 1.6px, transparent 2px) 0 0 / 26px 26px,
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="chat-sticker-pack"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="chat-sticker-pack"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="chat-sticker-pack"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="chat-sticker-pack"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="chat-sticker-pack"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="chat-sticker-pack"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="chat-sticker-pack"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="chat-sticker-pack"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="chat-sticker-pack"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="chat-sticker-pack"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="chat-sticker-pack"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="chat-sticker-pack"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="chat-sticker-pack"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="chat-sticker-pack"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

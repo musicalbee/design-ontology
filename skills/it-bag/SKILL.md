@@ -164,7 +164,9 @@ Beads and sequins are sewn by hand on a cloth, one by one or in a chain, in rows
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **LVMH** (company, Paris, 1987–now), funded the style. French luxury group. Moët Hennessy and Louis Vuitton merged in 1987. Bernard Arnault took control in 1989. It owns Dior and, with Prada, bought Fendi in 1999.
 - **Fendi house** (company, Rome, Italy, 1925–now), launched the style. A Roman house of fur and leather goods, opened in 1925 by Adele and Edoardo Fendi. In 1997 it launched the Baguette bag.
+- **Prada Group** (company, Milan, ?–now), funded the style. Italian luxury group. It bought the houses of Helmut Lang and Jil Sander in 1999 and half of the Fendi stake that LVMH and Prada took in 1999.
 
 ## Permutations
 

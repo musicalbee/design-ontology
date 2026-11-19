@@ -1,0 +1,129 @@
+/*
+ * Let's Play Facecam — tokens
+ * Generated from data/internet/styles/lets-play-facecam.json by design-ontology. Do not edit.
+ * Use: put data-style="lets-play-facecam" on <html> or on any container.
+ */
+[data-style="lets-play-facecam"] {
+  --color-bg: #101014;
+  --color-surface: #1D1D24;
+  --color-text: #FFFFFF;
+  --color-muted: #B8B8C4;
+  --color-primary: #FF2E3B;
+  --color-accent: #22D3EE;
+  --color-border: #22D3EE;
+  --font-sans: "Inter", "Rubik", sans-serif;
+  --font-display: "Anton", "Bangers", sans-serif;
+  --border-radius: 12px;
+  --border-width: 4px;
+  --shadow-elevation: 4px 4px 0 #000000;
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration: 160ms;
+  --type-ratio: 1.5;
+  --size-small: 10.67px;
+  --size-h3: 36px;
+  --size-h2: 54px;
+  --size-h1: 81px;
+  --color-on-bg: #FFFFFF;
+  --color-on-surface: #FFFFFF;
+  --color-on-primary: #101014;
+  --color-on-accent: #101014;
+  --color-muted-on-bg: #B8B8C4;
+  --color-muted-on-surface: #B8B8C4;
+  --color-link: #22D3EE;
+  --color-link-on-surface: #22D3EE;
+  --display-weight: 400;
+  --subhead-weight: 400;
+  --body-weight: 500;
+  --strong-weight: 700;
+  --label-weight: 500;
+  --display-tracking: 0.01em;
+  --display-leading: 1;
+  --display-case: uppercase;
+  --body-leading: 1.4;
+  --body-size: 16px;
+  --icon-stroke: 3;
+  --ground: repeating-linear-gradient(0deg, color-mix(in oklab, var(--color-primary) 7%, transparent) 0 1px, transparent 1px 3px),
+    radial-gradient(120% 90% at 50% 50%, transparent 55%, rgba(0,0,0,.55)),
+    radial-gradient(50% 55% at 72% 40%, color-mix(in oklab, var(--color-primary) 16%, transparent), transparent 70%),
+    radial-gradient(35% 40% at 20% 85%, color-mix(in oklab, var(--color-accent) 10%, transparent), transparent 70%),
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="lets-play-facecam"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="lets-play-facecam"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="lets-play-facecam"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="lets-play-facecam"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="lets-play-facecam"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="lets-play-facecam"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="lets-play-facecam"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="lets-play-facecam"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="lets-play-facecam"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="lets-play-facecam"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="lets-play-facecam"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="lets-play-facecam"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="lets-play-facecam"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="lets-play-facecam"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

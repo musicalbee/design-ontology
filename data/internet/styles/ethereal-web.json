@@ -1,0 +1,344 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "ethereal-web",
+  "domain": "internet",
+  "name": "Ethereal Web",
+  "aliases": [
+    "Ethereal",
+    "Dreamy soft web",
+    "Soft-focus UI"
+  ],
+  "branch": "net-aesthetics",
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2021,
+    "end": null,
+    "label": "2021–now"
+  },
+  "primary_mediums": [
+    "web",
+    "mobile"
+  ],
+  "summary": "Pale, glowing pastels, soft focus, thin serif or light sans type, translucent layers and air. It aims at a calm, dreamlike, weightless mood and reads as light rather than as object.",
+  "philosophy": {
+    "core_thesis": "Lightness is luxury: haze, glow and space make a quiet, weightless world.",
+    "design_principles": [
+      "Set the ground in a pale gradient between 2 or 3 tints (for example #FDF7FF to #EAF4FF) with lightness above 92%.",
+      "Add soft blobs of colour 300px to 700px wide, blurred by 100px to 200px, at 30% to 50% opacity in pastel hues.",
+      "Set headings in a light serif or a thin sans at weight 200 to 300 and size 48px to 96px, with tracking of -0.01em to +0.04em.",
+      "Layer translucent panels: white at 40% to 60%, blur of 16px to 32px, a 1px white border at 60% and a radius of 24px to 40px.",
+      "Use a shadow of 0 20px 60px at 6% to 10% in a tinted colour and never a grey or black shadow above 12%.",
+      "Keep text colour in a soft slate (#4A4A5E) with contrast of at least 4.5:1; avoid pure black.",
+      "Animate slowly: fades and drifts of 8px to 24px over 800ms to 1500ms."
+    ],
+    "anti_patterns": [
+      "Heavy black type",
+      "Saturated primary colours",
+      "Hard borders and hard shadows",
+      "Dense, small data tables",
+      "Fast, snappy motion under 300ms",
+      "Dark, high-contrast grounds",
+      "Sharp square corners"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 4,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 1
+  },
+  "layout": {
+    "grid_mechanics": "A single airy column and wide hero; sections have 120px to 200px vertical gaps; panels float without alignment to a rigid grid.",
+    "whitespace_ratio": "50% to 65% of the surface is empty; the spacing scale is 8, 16, 32, 64 and 128px.",
+    "alignment_rules": "Centred headings; short paragraphs centred or flush left in 480px to 560px measures.",
+    "container_geometry": "Pills and large radii of 24px to 40px; circles; no sharp corners."
+  },
+  "typography": {
+    "classifications": [
+      "light serif",
+      "light sans serif"
+    ],
+    "font_pairings": [
+      {
+        "display": "Cormorant Garamond",
+        "body": "Jost",
+        "note": "A light, elegant serif with high contrast."
+      },
+      {
+        "display": "Fraunces",
+        "body": "Jost",
+        "note": "A soft serif with a gentle, warm voice."
+      },
+      {
+        "display": "Jost",
+        "body": "Jost",
+        "note": "A thin geometric sans for a quiet, modern voice."
+      }
+    ],
+    "tracking": "Display takes +0.02em; labels take +0.08em.",
+    "leading": "Display 1.15; body 1.7.",
+    "hierarchy_rules": [
+      "Use weights 300 for display and 400 for body.",
+      "Use sizes 14, 17, 36 and 80px.",
+      "Set labels in small caps or upper case at 11px to 12px with +0.12em.",
+      "Set italics for emphasis in the serif."
+    ]
+  },
+  "color": {
+    "palette_structure": "Pastel haze: lilac, sky, blush and pearl on white.",
+    "palette": [
+      {
+        "name": "Pearl",
+        "hex": "#FDF7FF",
+        "role": "background"
+      },
+      {
+        "name": "Haze",
+        "hex": "#EAF4FF",
+        "role": "surface"
+      },
+      {
+        "name": "Slate",
+        "hex": "#4A4A5E",
+        "role": "text"
+      },
+      {
+        "name": "Mute",
+        "hex": "#6E6D7E",
+        "role": "secondary text"
+      },
+      {
+        "name": "Lilac",
+        "hex": "#C9B6FF",
+        "role": "primary"
+      },
+      {
+        "name": "Blush",
+        "hex": "#FFC9DE",
+        "role": "accent"
+      }
+    ],
+    "contrast_rules": "Slate on pearl holds 8:1; mute holds at least 4.5:1; pastels fill shapes and never carry text.",
+    "surface_treatment": "Pale gradients with blurred pastel blobs and a grain of 2% to 4%.",
+    "light_and_shadow": "Soft and tinted: 0 20px 60px at 6% to 10%; light comes from above with no hard edge."
+  },
+  "materiality": {
+    "surface_simulation": "Mist, silk and glass in soft light.",
+    "border_rules": "A 1px white line at 60% on panels; no dark border.",
+    "blur_and_elevation": "Blur 16px to 32px; soft tinted shadow; one elevation level."
+  },
+  "ornamentation_details": {
+    "iconography": "Thin 1.25px outline icons with round caps in slate; small stars and sparkles.",
+    "illustration": "Soft-focus photography, clouds, pearl and glass objects, blurred colour fields.",
+    "decorative_elements": [
+      "pastel blob",
+      "frosted panel",
+      "light serif headline",
+      "sparkle"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Slow and floating: elements fade up 8px to 24px over 800ms to 1500ms; blobs drift 20px to 60px over 20s.",
+    "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+    "duration_ms": 1000,
+    "hover_and_active": "Hover lifts a panel 4px and brightens its fill by 10% in 400ms; active state returns it."
+  },
+  "lineage": {
+    "evolved_from": [
+      "glassmorphism",
+      "aurora-gradient-ui"
+    ],
+    "rebelled_against": [
+      "brutalist-web"
+    ],
+    "hybridized_with": [
+      "frutiger-aero",
+      "liquid-glass-ui"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels calm, light and gently lifted out of the day.",
+    "keywords": [
+      "calm",
+      "dreamy",
+      "soft",
+      "luminous",
+      "delicate",
+      "quiet"
+    ],
+    "brand_archetypes": [
+      "innocent",
+      "lover"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "ethereal",
+      "dreamy",
+      "soft focus",
+      "pastel gradient",
+      "airy",
+      "light serif",
+      "angelic",
+      "glow"
+    ],
+    "use_cases": [
+      "wellness, beauty and fragrance brands",
+      "meditation and sleep apps",
+      "fashion and wedding pages",
+      "art and gallery sites",
+      "launch pages for calm products"
+    ],
+    "avoid_when": [
+      "The page needs dense data or many actions.",
+      "The audience needs high contrast.",
+      "The brand is loud, technical or industrial."
+    ],
+    "modifiers": [
+      {
+        "request": "firmer",
+        "toward": "editorial-serif-revival",
+        "how": "Use a paper ground, black ink and hairline rules; keep the light serif."
+      },
+      {
+        "request": "more glass",
+        "toward": "liquid-glass-ui",
+        "how": "Add specular rims and capsule controls over the haze."
+      },
+      {
+        "request": "more raw",
+        "toward": "brutalist-web",
+        "how": "Replace haze with a white ground, black type and plain borders."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 300,
+      "subhead_weight": 300,
+      "body_weight": 400,
+      "strong_weight": 500,
+      "label_weight": 500,
+      "accent": "case",
+      "display_tracking": "0.02em",
+      "display_leading": 1.15,
+      "display_case": "none",
+      "body_leading": 1.7,
+      "body_size": "17px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.25,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "solar-linear",
+        "why": "A thin, round line that stays quiet on a pale, soft ground."
+      }
+    },
+    "art": {
+      "recipe": "glass",
+      "pattern": "none",
+      "seed": 56
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "aurora",
+      "why": "Ethereal pages sit in a pale haze of soft light in pastel colour."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#FDF7FF",
+      "--color-surface": "#FFFFFF",
+      "--color-text": "#4A4A5E",
+      "--color-muted": "#6E6D7E",
+      "--color-primary": "#C9B6FF",
+      "--color-accent": "#FFC9DE",
+      "--color-border": "#E8E0F5",
+      "--font-sans": "\"Jost\", system-ui, sans-serif",
+      "--font-display": "\"Cormorant Garamond\", \"Fraunces\", serif",
+      "--border-radius": "32px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 20px 60px rgba(150,120,220,0.10)",
+      "--backdrop-filter": "blur(24px)",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "--duration": "1000ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-gradient-to-b from-[#FDF7FF] to-[#EAF4FF] text-[#4A4A5E] font-sans antialiased"
+      },
+      {
+        "element": "heading",
+        "classes": "font-light text-5xl md:text-8xl leading-[1.15] tracking-[0.02em] text-center"
+      },
+      {
+        "element": "body",
+        "classes": "text-[17px] leading-[1.7]"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-[32px] border border-white/60 bg-white/50 p-8 backdrop-blur-[24px] shadow-[0_20px_60px_rgba(150,120,220,0.10)]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-full bg-[#C9B6FF] px-8 py-3 text-[#2E2A4A] transition duration-[400ms] hover:-translate-y-1 hover:brightness-105"
+      },
+      {
+        "element": "label",
+        "classes": "text-[11px] uppercase tracking-[0.12em] text-[#6E6D7E]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#C9B6FF",
+        "#FFC9DE",
+        "#4A4A5E"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#FFC9DE",
+        "#C9B6FF"
+      ]
+    },
+    "corner_radius": {
+      "min": 16,
+      "max": 48
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.2,
+      "min": 1.125,
+      "max": 1.25
+    }
+  },
+  "sources": [
+    {
+      "title": "Example: Glossier and Aesop campaign pages (2019–2025)"
+    },
+    {
+      "title": "Example: Calm and Headspace marketing pages (2019–2025)"
+    },
+    {
+      "title": "Example: Rhode and Summer Fridays launch pages (2022–2025)"
+    }
+  ]
+}
