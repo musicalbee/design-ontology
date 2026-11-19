@@ -180,7 +180,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`fat-face-display`](../fat-face-display/SKILL.md), [`slab-serif`](../slab-serif/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`garalde-old-style`](../garalde-old-style/SKILL.md)
 - **Was rejected by:** [`grotesque-sans`](../grotesque-sans/SKILL.md)
-- **Kin in another domain:** [`fashion-editorial`](../fashion-editorial/SKILL.md), [`neoclassical-architecture`](../neoclassical-architecture/SKILL.md)
+- **Kin in another domain:** [`engraving-print`](../engraving-print/SKILL.md), [`fashion-editorial`](../fashion-editorial/SKILL.md), [`neoclassical-architecture`](../neoclassical-architecture/SKILL.md)
 - **Nearest by vector profile:** [`transitional-serif`](../transitional-serif/SKILL.md), [`fat-face-display`](../fat-face-display/SKILL.md), [`formal-script`](../formal-script/SKILL.md)
 
 ## Emotional target

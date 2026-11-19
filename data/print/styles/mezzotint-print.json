@@ -1,0 +1,247 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "mezzotint-print",
+  "domain": "print",
+  "name": "Mezzotint",
+  "aliases": [
+    "Manière noire",
+    "Schabkunst",
+    "Black manner",
+    "English manner"
+  ],
+  "era_id": "hand-press",
+  "time_period": {
+    "start": 1642,
+    "end": 1850,
+    "label": "1642–1850"
+  },
+  "region": "Amsterdam, then London",
+  "summary": "The plate is rocked with a toothed tool until it holds a full, velvet black; the engraver scrapes and burnishes the lights out of the dark. Ludwig von Siegen made the first in 1642; London engravers used it to reproduce portraits in oil.",
+  "philosophy": {
+    "core_thesis": "If the plate starts black, the artist works from dark to light and gets a tone as soft as paint, with no line.",
+    "design_principles": [
+      "Start from a full black: rock the plate in 20–40 directions until every part holds ink.",
+      "Make each light by scraping and burnishing the grain flat; the more the scrape, the lighter the tone.",
+      "Model forms in soft, continuous tone; keep lines only for the finest details.",
+      "Set the subject against a deep, dark ground and bring the lights out of it.",
+      "Keep the darks velvet and slightly warm; avoid a pure white except at the highest lights."
+    ],
+    "anti_patterns": [
+      "A hard outline round the forms",
+      "Visible hatching or a halftone dot",
+      "A white ground with dark forms on it",
+      "Flat areas of colour"
+    ]
+  },
+  "vectors": {
+    "tone_method": 5,
+    "ink_layering": 1,
+    "registration_play": 1,
+    "surface_relief": 4,
+    "hand_trace": 3
+  },
+  "process": {
+    "family": "intaglio",
+    "matrix": "A copper plate, roughened all over with a curved, toothed rocker.",
+    "press": "A roller press with felt blankets.",
+    "image_making": "The engraver rocks the plate, then scrapes and burnishes the lights, and proofs it many times.",
+    "edition": "Only 50–100 good impressions; the soft grain wears quickly, so early proofs are prized."
+  },
+  "inks": {
+    "strategy": "One warm black or brown-black ink; a few prints use colour inks put on the plate by hand (à la poupée).",
+    "ink_count_min": 1,
+    "ink_count_max": 3,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Velvet black",
+        "hex": "#231C1A",
+        "role": "all tone"
+      }
+    ]
+  },
+  "screening": {
+    "method": "grain",
+    "ruling_lpi": 120,
+    "rule": "Make the tone with the rocked grain at about 100–150 dots a inch; the scrape sets the tone."
+  },
+  "registration": {
+    "tolerance_mm": 0,
+    "rule": "One plate prints all the image; there is no register."
+  },
+  "substrate": {
+    "stock": "A soft laid or wove rag paper, dampened.",
+    "weight_gsm_min": 100,
+    "weight_gsm_max": 250,
+    "ground": "#EEE6D6",
+    "finish": "Soft wove with little sizing."
+  },
+  "surface": {
+    "impression": "A plate mark and a soft, velvet ink film in the darks.",
+    "sheen": "Deep, matt black with a slight bloom.",
+    "texture": "A fine grain that the eye reads as continuous tone; under a lens it is a field of small pits."
+  },
+  "artefacts": {
+    "marks": [
+      "velvet black ground",
+      "scraped highlights",
+      "plate mark",
+      "a worn grain in late impressions",
+      "a lettered title below"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "mezzotint",
+      "18th-century mezzotint portrait",
+      "velvet black ground",
+      "soft tonal modelling",
+      "lights scraped out of darkness",
+      "plate mark",
+      "intaglio print",
+      "chiaroscuro"
+    ],
+    "negative": [
+      "lines",
+      "hatching",
+      "colour",
+      "white background",
+      "halftone dots",
+      "flat graphic"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "The Weird Sisters (Shakespeare, MacBeth, Act 1, Scene 3)",
+      "kind": "image",
+      "maker": "John Raphael Smith",
+      "year": 1785,
+      "credit": "The Metropolitan Museum of Art, Open Access",
+      "licence": "CC0",
+      "url": "https://www.metmuseum.org/art/collection/search/395662",
+      "file": "https://images.metmuseum.org/CRDImages/dp/web-large/DP860122.jpg"
+    },
+    {
+      "title": "General Washington",
+      "kind": "image",
+      "maker": "Valentine Green",
+      "year": 1781,
+      "credit": "The Metropolitan Museum of Art, Open Access",
+      "licence": "CC0",
+      "url": "https://www.metmuseum.org/art/collection/search/893955",
+      "file": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-32298-001.jpg"
+    },
+    {
+      "title": "Amelia Elizabeth, Landgravine of Hesse",
+      "kind": "image",
+      "maker": "Ludwig von Siegen",
+      "year": 1643,
+      "credit": "The Metropolitan Museum of Art, Open Access",
+      "licence": "CC0",
+      "url": "https://www.metmuseum.org/art/collection/search/360392",
+      "file": "https://images.metmuseum.org/CRDImages/dp/web-large/DP104270.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "engraving-print"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "etching-print"
+    ],
+    "echoes": [
+      "baroque-painting",
+      "film-noir-still"
+    ]
+  },
+  "emotion": {
+    "target_response": "Hush and depth: the viewer feels a candle-lit room and a face that comes out of the dark.",
+    "keywords": [
+      "velvet",
+      "nocturnal",
+      "dignified",
+      "soft",
+      "dramatic"
+    ],
+    "brand_archetypes": [
+      "magician",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "mezzotint",
+      "manière noire",
+      "dark tonal print",
+      "18th-century portrait print",
+      "velvet black print",
+      "candlelit portrait print"
+    ],
+    "use_cases": [
+      "portraits and book covers",
+      "luxury and spirits labels",
+      "editorial images on night or mystery"
+    ],
+    "avoid_when": [
+      "The image needs line or a bright, high-key mood.",
+      "The output prints on newsprint or on a coarse screen."
+    ],
+    "modifiers": [
+      {
+        "request": "with lines",
+        "toward": "engraving-print",
+        "how": "Build the tone from swelling burin lines on a white plate."
+      },
+      {
+        "request": "as a photograph",
+        "toward": "pictorialism",
+        "how": "Use a soft-focus platinum or gum print with the same deep tone."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#231C1A",
+      "options": [
+        "#231C1A",
+        "#2E2338"
+      ]
+    },
+    "paper_colour": {
+      "default": "#EEE6D6",
+      "options": [
+        "#EEE6D6",
+        "#F3EEE3"
+      ]
+    },
+    "ink_count": {
+      "default": 1,
+      "min": 1,
+      "max": 3
+    },
+    "screen_ruling": {
+      "default": 120,
+      "min": 90,
+      "max": 160
+    },
+    "misregistration": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    }
+  },
+  "sources": [
+    {
+      "title": "Mezzotint (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Mezzotint"
+    },
+    {
+      "title": "Ludwig von Siegen (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ludwig_von_Siegen"
+    },
+    {
+      "title": "Carol Wax, The Mezzotint: History and Technique (Abrams, 1990)"
+    }
+  ]
+}

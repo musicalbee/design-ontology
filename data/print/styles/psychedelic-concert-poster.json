@@ -1,0 +1,248 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "psychedelic-concert-poster",
+  "domain": "print",
+  "name": "Psychedelic concert poster",
+  "aliases": [
+    "San Francisco rock poster",
+    "Fillmore poster",
+    "Avalon poster",
+    "1960s psychedelic poster"
+  ],
+  "era_id": "studio-press",
+  "time_period": {
+    "start": 1966,
+    "end": 1971,
+    "label": "1966–1971"
+  },
+  "region": "San Francisco",
+  "summary": "An offset-litho poster for a dance at the Fillmore or the Avalon, with lettering that melts to fill the shape and complementary colours that vibrate. Wes Wilson, Victor Moscoso, Rick Griffin and Mouse and Kelley made the run in 1966–1968.",
+  "philosophy": {
+    "core_thesis": "A poster that makes the viewer stop and decode it brings them into the dance before they read the date.",
+    "design_principles": [
+      "Make the lettering fill a shape (a figure, a flame, a balloon) until each letter bends to fit.",
+      "Put two complementary colours of equal value side by side, so the edge vibrates.",
+      "Use 2–4 flat offset inks on a coloured or white stock; change the colours from one print run to the next.",
+      "Borrow the line of Art Nouveau, Mucha and the Vienna Secession and push it to excess.",
+      "Hide the date and the venue in the design; the viewer must work to read them.",
+      "Fill all the space; leave no plain ground."
+    ],
+    "anti_patterns": [
+      "Clean, readable sans-serif text",
+      "A grid layout with clear white space",
+      "Colours of different values that do not vibrate",
+      "A photograph as the main image"
+    ]
+  },
+  "vectors": {
+    "tone_method": 1,
+    "ink_layering": 3,
+    "registration_play": 2,
+    "surface_relief": 1,
+    "hand_trace": 4
+  },
+  "process": {
+    "family": "planographic",
+    "matrix": "Offset plates made from hand-cut film or ink drawings, one plate for each colour.",
+    "press": "A sheet-fed offset lithographic press at a commercial print shop.",
+    "image_making": "The artist draws each colour in black on a separate sheet; the printer shoots the art and burns the plates.",
+    "edition": "Some 500–5,000 copies, often reprinted in later runs."
+  },
+  "inks": {
+    "strategy": "Flat, opaque offset inks in clashing complementary pairs; a split fountain can blend two inks across the sheet.",
+    "ink_count_min": 2,
+    "ink_count_max": 5,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Deep violet",
+        "hex": "#4B2A7B",
+        "role": "the lettering and the key line"
+      },
+      {
+        "name": "Day-Glo orange",
+        "hex": "#F47B20",
+        "role": "the ground"
+      },
+      {
+        "name": "Electric green",
+        "hex": "#3FAE49",
+        "role": "the vibrating pair"
+      },
+      {
+        "name": "Hot pink",
+        "hex": "#E94E9A",
+        "role": "accents"
+      }
+    ]
+  },
+  "screening": {
+    "method": "solid",
+    "ruling_lpi": 0,
+    "rule": "Print flat, full ink; the vibration comes from colour contrast, not tone."
+  },
+  "registration": {
+    "tolerance_mm": 0.3,
+    "rule": "Offset register is tight; a split fountain makes a blend instead of a shift."
+  },
+  "substrate": {
+    "stock": "A coated or uncoated poster stock, sometimes a coloured or a fluorescent sheet.",
+    "weight_gsm_min": 100,
+    "weight_gsm_max": 200,
+    "ground": "#F5EFE3",
+    "finish": "Smooth, uncoated or with a satin coat."
+  },
+  "surface": {
+    "impression": "No bite; the ink lies flat.",
+    "sheen": "A slight satin sheen of offset ink.",
+    "texture": "Flat colour with crisp, drawn edges; no grain."
+  },
+  "artefacts": {
+    "marks": [
+      "melting hand lettering",
+      "vibrating complementary edges",
+      "split fountain blend",
+      "pin holes from the wall",
+      "a print-run number in the margin"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1960s psychedelic concert poster",
+      "Fillmore poster",
+      "melting hand-drawn lettering",
+      "vibrating complementary colours",
+      "Art Nouveau revival",
+      "flat offset colour",
+      "Wes Wilson lettering",
+      "orange and violet"
+    ],
+    "negative": [
+      "readable sans-serif",
+      "white space",
+      "photograph",
+      "muted colours",
+      "grid layout"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "1967 Mantra-Rock Dance Avalon poster",
+      "kind": "image",
+      "maker": "Unknown designer; photographed by Harvey W. Cohen",
+      "year": 1967,
+      "credit": "Wikimedia Commons (Harvey W. Cohen)",
+      "licence": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:1967_Mantra-Rock_Dance_Avalon_poster.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/1967_Mantra-Rock_Dance_Avalon_poster.jpg/1280px-1967_Mantra-Rock_Dance_Avalon_poster.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "chromolithograph-poster"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "pop-screen-print"
+    ],
+    "echoes": [
+      "psychedelic",
+      "art-nouveau-web",
+      "surrealism-painting"
+    ]
+  },
+  "emotion": {
+    "target_response": "Altered perception: the viewer feels the colours move and is drawn into a puzzle.",
+    "keywords": [
+      "trippy",
+      "vibrant",
+      "countercultural",
+      "ornate",
+      "hypnotic"
+    ],
+    "brand_archetypes": [
+      "magician",
+      "outlaw",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "psychedelic poster",
+      "fillmore poster",
+      "60s concert poster",
+      "hippie poster",
+      "melting lettering",
+      "trippy gig poster",
+      "summer of love"
+    ],
+    "use_cases": [
+      "gig and festival posters",
+      "album covers",
+      "music merchandise",
+      "craft beer labels"
+    ],
+    "avoid_when": [
+      "The text must be read quickly or by a wide public.",
+      "The brand must look calm."
+    ],
+    "modifiers": [
+      {
+        "request": "more classical",
+        "toward": "chromolithograph-poster",
+        "how": "Drop the vibrating colours; draw a Belle Époque figure in crayon on 4–5 stones."
+      },
+      {
+        "request": "rougher and angrier",
+        "toward": "xerox-zine",
+        "how": "Change the drawn colour for black photocopy and ransom-note letters."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#4B2A7B",
+      "options": [
+        "#4B2A7B",
+        "#1E3E8C",
+        "#B0124F"
+      ]
+    },
+    "paper_colour": {
+      "default": "#F5EFE3",
+      "options": [
+        "#F5EFE3",
+        "#F7E64A"
+      ]
+    },
+    "ink_count": {
+      "default": 4,
+      "min": 2,
+      "max": 5
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    },
+    "misregistration": {
+      "default": 0.3,
+      "min": 0,
+      "max": 0.6
+    }
+  },
+  "sources": [
+    {
+      "title": "Psychedelic art (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Psychedelic_art"
+    },
+    {
+      "title": "Wes Wilson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Wes_Wilson"
+    },
+    {
+      "title": "Paul D. Grushkin, The Art of Rock: Posters from Presley to Punk (Abbeville, 1987)"
+    }
+  ]
+}

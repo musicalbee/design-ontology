@@ -1,0 +1,271 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "private-press-book",
+  "domain": "print",
+  "name": "Private-press book",
+  "aliases": [
+    "Kelmscott style",
+    "Fine press book",
+    "Revival printing",
+    "Arts and Crafts book"
+  ],
+  "era_id": "industrial-press",
+  "time_period": {
+    "start": 1891,
+    "end": 1939,
+    "label": "1891–1939"
+  },
+  "region": "Hammersmith, London, then Germany and the United States",
+  "summary": "A book printed by hand on handmade paper, in a heavy type cut for the press, with woodcut borders and initials, in black and red. William Morris started the Kelmscott Press in 1891 against the grey, thin books of the steam press; the Doves Press made the same craft plain.",
+  "philosophy": {
+    "core_thesis": "A book is one object: the type, the page, the paper, the ink and the ornament are made together and by hand.",
+    "design_principles": [
+      "Set a dense, dark text page in one heavy roman or gothic type, with little space between the words and the lines.",
+      "Use the two pages of an opening as one unit, with margins in the ratio 2:3:4:6 (inner, top, outer, bottom).",
+      "Print in a deep black and use red for the headings, the shoulder notes and the initials.",
+      "Frame the first page with a woodcut border of leaves and flowers, and start each part with a woodcut initial.",
+      "Print on handmade rag paper or vellum, with a clear bite of the type into the sheet.",
+      "Bind in plain vellum or linen; the decoration is inside the book, not on the cover."
+    ],
+    "anti_patterns": [
+      "Thin, grey type on a smooth, coated paper",
+      "Wide spaces between words that make rivers",
+      "A photographic image or a halftone",
+      "Equal margins on all four sides"
+    ]
+  },
+  "vectors": {
+    "tone_method": 2,
+    "ink_layering": 2,
+    "registration_play": 1,
+    "surface_relief": 3,
+    "hand_trace": 3
+  },
+  "process": {
+    "family": "relief",
+    "matrix": "Metal type cast for the press (Golden, Troy, Doves Type) and woodcut blocks for borders and pictures.",
+    "press": "An iron hand press (Albion), worked by two pressmen.",
+    "image_making": "The designer draws the borders and initials; a wood engraver cuts them; the compositors set the text by hand.",
+    "edition": "Some 200–500 paper copies and a few on vellum."
+  },
+  "inks": {
+    "strategy": "A dense black ink that Morris had made to order, and a vermilion for the rubrics.",
+    "ink_count_min": 1,
+    "ink_count_max": 2,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Dense black",
+        "hex": "#151312",
+        "role": "the text and the woodcuts"
+      },
+      {
+        "name": "Rubric red",
+        "hex": "#A8322A",
+        "role": "headings, shoulder notes and initials"
+      }
+    ]
+  },
+  "screening": {
+    "method": "line",
+    "ruling_lpi": 50,
+    "angles": [
+      40
+    ],
+    "rule": "Make the tone only with the white-on-black and black-on-white lines of the woodcut."
+  },
+  "registration": {
+    "tolerance_mm": 0.2,
+    "rule": "The red prints in a second pull; it must sit exactly in its place in the text."
+  },
+  "substrate": {
+    "stock": "Handmade linen paper (Batchelor) with a watermark, or vellum.",
+    "weight_gsm_min": 90,
+    "weight_gsm_max": 160,
+    "ground": "#F2EBDA",
+    "finish": "Laid, with deckle edges, dampened before the print."
+  },
+  "surface": {
+    "impression": "A clear bite of the type and the cuts into the damp paper.",
+    "sheen": "A rich, matt black.",
+    "texture": "A dark, even page of type framed in white, with dense leaf ornament."
+  },
+  "artefacts": {
+    "marks": [
+      "deckle edges",
+      "type bite",
+      "laid lines and watermark",
+      "a red rubric in the text",
+      "woodcut initials",
+      "a colophon with the press mark"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Kelmscott Press page",
+      "William Morris book design",
+      "dense black text block",
+      "woodcut floral border",
+      "red and black printing",
+      "handmade paper with deckle edges",
+      "decorated initial",
+      "Arts and Crafts book"
+    ],
+    "negative": [
+      "photograph",
+      "sans-serif",
+      "wide word spacing",
+      "coated paper",
+      "flat digital colour",
+      "equal margins"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Kelmscott chaucer",
+      "kind": "image",
+      "maker": "William Morris, Kelmscott Press",
+      "year": 1896,
+      "credit": "Wikimedia Commons (University of New Hampshire special collections scan)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Kelmscott_chaucer.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Kelmscott_chaucer.jpg/960px-Kelmscott_chaucer.jpg"
+    },
+    {
+      "title": "Houghton Typ 805K.96.275 - Works of Geoffrey Chaucer, 1896 - pg. 483",
+      "kind": "image",
+      "maker": "William Morris, Kelmscott Press",
+      "year": 1896,
+      "credit": "Wikimedia Commons (Houghton Library, Harvard)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Houghton_Typ_805K.96.275_-_Works_of_Geoffrey_Chaucer,_1896_-_pg._483.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Houghton_Typ_805K.96.275_-_Works_of_Geoffrey_Chaucer%2C_1896_-_pg._483.jpg"
+    },
+    {
+      "title": "DovesPressBible",
+      "kind": "image",
+      "maker": "T. J. Cobden-Sanderson and Emery Walker, Doves Press",
+      "year": 1902,
+      "credit": "Wikimedia Commons (Flickr photo of the Doves Press Bible)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:DovesPressBible.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/5/5f/DovesPressBible.jpg"
+    },
+    {
+      "title": "The Works of Geoffrey Chaucer Now Newly Imprinted",
+      "kind": "image",
+      "maker": "William Morris",
+      "year": 1896,
+      "credit": "The Art Institute of Chicago, Public Domain (CC0)",
+      "licence": "CC0",
+      "url": "https://www.artic.edu/artworks/271552",
+      "file": "https://www.artic.edu/iiif/2/322e5b2e-3a52-5fd5-4c22-bc3788b0e11c/full/843,/0/default.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "woodcut-relief-print"
+    ],
+    "rebelled_against": [
+      "chromolithograph-poster"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "arts-and-crafts-interior",
+      "arts-and-crafts-architecture",
+      "blackletter",
+      "garalde-old-style"
+    ]
+  },
+  "emotion": {
+    "target_response": "Respect for the craft: the reader feels the weight and the care of a book made to last.",
+    "keywords": [
+      "crafted",
+      "reverent",
+      "rich",
+      "medieval",
+      "dense"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "kelmscott",
+      "william morris book",
+      "fine press",
+      "private press",
+      "arts and crafts book",
+      "illuminated page",
+      "woodcut border",
+      "letterpress book"
+    ],
+    "use_cases": [
+      "limited-edition books",
+      "poetry and literary covers",
+      "certificates and invitations",
+      "heritage brand booklets"
+    ],
+    "avoid_when": [
+      "The reader must scan the text fast.",
+      "The book needs photographs."
+    ],
+    "modifiers": [
+      {
+        "request": "plainer",
+        "toward": "garalde-old-style",
+        "how": "Keep the hand press and the paper, but drop the borders and set the text in a light Venetian roman, as the Doves Press did."
+      },
+      {
+        "request": "louder",
+        "toward": "wood-type-poster",
+        "how": "Change the book page for a broadside of stacked display type in black and red."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#151312",
+      "options": [
+        "#151312"
+      ]
+    },
+    "paper_colour": {
+      "default": "#F2EBDA",
+      "options": [
+        "#F2EBDA",
+        "#F5EFE0"
+      ]
+    },
+    "ink_count": {
+      "default": 2,
+      "min": 1,
+      "max": 2
+    },
+    "screen_ruling": {
+      "default": 50,
+      "min": 40,
+      "max": 70
+    },
+    "misregistration": {
+      "default": 0.2,
+      "min": 0,
+      "max": 0.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Kelmscott Press (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Kelmscott_Press"
+    },
+    {
+      "title": "Private press (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Private_press"
+    },
+    {
+      "title": "William S. Peterson, The Kelmscott Press: A History of William Morris's Typographical Adventure (Clarendon, 1991)"
+    }
+  ]
+}

@@ -300,6 +300,27 @@ flowchart LR
     hd_2d_diorama["HD-2D diorama"]
     low_poly_ps1_revival["Low-poly PS1 revival"]
   end
+  subgraph print_hand_press["Print · Hand press · 1400–1800"]
+    woodcut_relief_print["Woodcut relief print"]
+    engraving_print["Copper engraving"]
+    etching_print["Etching"]
+    mezzotint_print["Mezzotint"]
+  end
+  subgraph print_industrial_press["Print · Industrial press · 1800–1945"]
+    wood_type_poster["Wood-type poster"]
+    chromolithograph_poster["Chromolithograph poster"]
+    private_press_book["Private-press book"]
+    ben_day_comic_print["Ben-Day comic print"]
+    pochoir_plate["Pochoir plate"]
+  end
+  subgraph print_studio_press["Print · Studio press · 1945–1995"]
+    pop_screen_print["Pop screen print"]
+    psychedelic_concert_poster["Psychedelic concert poster"]
+    xerox_zine["Xerox zine"]
+  end
+  subgraph print_digital_press["Print · Digital press · 1995–"]
+    risograph_print["Risograph print"]
+  end
   abstract_expressionism <-. echoes .-> brutalist_architecture
   adaptive_reuse_architecture <-. echoes .-> industrial_loft_interior
   ai_hyperreal <-. echoes .-> pbr_photoreal
@@ -308,6 +329,7 @@ flowchart LR
   airbrush_surrealism <-. echoes .-> space_age
   airbrush_surrealism <-. echoes .-> surrealism_web
   anti_design <-. echoes .-> deconstructivist_architecture
+  anti_design <-. echoes .-> xerox_zine
   apple_aqua <-. echoes .-> glossy_3d_logo
   apple_aqua <-. echoes .-> skeuomorphic_icon
   architectural_photography <-. echoes .-> bauhaus_architecture
@@ -322,8 +344,10 @@ flowchart LR
   art_deco_architecture <-. echoes .-> classical_hollywood
   art_deco_architecture <-. echoes .-> neo_deco_interior
   art_deco_interior <-. echoes .-> art_deco_web
+  art_deco_interior <-. echoes .-> pochoir_plate
   art_deco_web <-. echoes .-> hollywood_regency_interior
   art_deco_web <-. echoes .-> neo_deco_interior
+  art_deco_web <-. echoes .-> pochoir_plate
   art_nouveau_architecture <-. echoes .-> art_nouveau_interior
   art_nouveau_architecture <-. echoes .-> art_nouveau_monogram
   art_nouveau_architecture <-. echoes .-> art_nouveau_web
@@ -331,16 +355,23 @@ flowchart LR
   art_nouveau_architecture <-. echoes .-> symbolism_painting
   art_nouveau_interior <-. echoes .-> art_nouveau_monogram
   art_nouveau_interior <-. echoes .-> art_nouveau_web
+  art_nouveau_interior <-. echoes .-> chromolithograph_poster
   art_nouveau_monogram <-. echoes .-> art_nouveau_web
+  art_nouveau_web <-. echoes .-> chromolithograph_poster
+  art_nouveau_web <-. echoes .-> psychedelic_concert_poster
   art_nouveau_web <-. echoes .-> symbolism_painting
   arts_and_crafts_architecture <-. echoes .-> arts_and_crafts_interior
+  arts_and_crafts_architecture <-. echoes .-> private_press_book
   arts_and_crafts_interior <-. echoes .-> hand_painted_texture
   arts_and_crafts_interior <-. echoes .-> humanist_sans
   arts_and_crafts_interior <-. echoes .-> nordic_national_romanticism_painting
+  arts_and_crafts_interior <-. echoes .-> private_press_book
   baroque_architecture <-. echoes .-> baroque_painting
+  baroque_painting <-. echoes .-> etching_print
   baroque_painting <-. echoes .-> film_noir_still
   baroque_painting <-. echoes .-> food_photography
   baroque_painting <-. echoes .-> german_expressionist_cinema
+  baroque_painting <-. echoes .-> mezzotint_print
   bauhaus <-. echoes .-> bauhaus_architecture
   bauhaus <-. echoes .-> bauhaus_interior
   bauhaus <-. echoes .-> de_stijl_painting
@@ -352,8 +383,12 @@ flowchart LR
   bauhaus_architecture <-. echoes .-> new_objectivity
   bauhaus_interior <-. echoes .-> de_stijl_painting
   bauhaus_interior <-. echoes .-> international_style_architecture
+  ben_day_comic_print <-. echoes .-> pop_art_painting
+  ben_day_comic_print <-. echoes .-> pop_art_web
   blackletter <-. echoes .-> gothic_architecture
+  blackletter <-. echoes .-> private_press_book
   blackletter <-. echoes .-> punk_zine
+  blackletter <-. echoes .-> woodcut_relief_print
   brutalist_architecture <-. echoes .-> brutalist_web
   brutalist_architecture <-. echoes .-> constructivism_web
   brutalist_architecture <-. echoes .-> dogme_95
@@ -376,6 +411,7 @@ flowchart LR
   cel_shaded_3d <-. echoes .-> flat_design
   cel_shaded_3d <-. echoes .-> pop_art_painting
   cel_shaded_3d <-. echoes .-> ukiyo_e
+  chromolithograph_poster <-. echoes .-> post_impressionism
   cinematic_teal_orange <-. echoes .-> neon_noir
   cinematic_teal_orange <-. echoes .-> seventh_gen_desaturated
   classical_hollywood <-. echoes .-> pre_rendered_backgrounds
@@ -385,6 +421,7 @@ flowchart LR
   constructivism_web <-. echoes .-> grotesque_sans
   constructivism_web <-. echoes .-> soviet_montage
   constructivism_web <-. echoes .-> suprematism
+  corporate_memphis <-. echoes .-> risograph_print
   cubism_painting <-. echoes .-> deconstructivist_architecture
   cyberdelia <-. echoes .-> party_flash
   cyberpunk_web <-. echoes .-> film_noir_still
@@ -398,6 +435,7 @@ flowchart LR
   de_stijl_web <-. echoes .-> international_style_architecture
   de_stijl_web <-. echoes .-> prairie_school_architecture
   deconstructivist_architecture <-. echoes .-> grunge_editorial
+  didone_serif <-. echoes .-> engraving_print
   didone_serif <-. echoes .-> fashion_editorial
   didone_serif <-. echoes .-> neoclassical_architecture
   documentary_photography <-. echoes .-> dogme_95
@@ -406,23 +444,30 @@ flowchart LR
   dopamine_decor <-. echoes .-> food_photography
   dopamine_decor <-. echoes .-> memphis_design
   duesseldorf_school <-. echoes .-> international_style_architecture
+  duotone_icon <-. echoes .-> risograph_print
+  editorial_serif_revival <-. echoes .-> risograph_print
   eight_bit_tile <-. echoes .-> pixel_art_web
   eight_bit_tile <-. echoes .-> pixel_icon
   emblem_badge <-. echoes .-> mid_century_modern
   emblem_badge <-. echoes .-> space_age
+  engraving_print <-. echoes .-> victorian_trademark
+  etching_print <-. echoes .-> realism_painting
   expressionism_painting <-. echoes .-> german_expressionist_cinema
   expressionist_architecture <-. echoes .-> german_expressionist_cinema
   fashion_editorial <-. echoes .-> grunge_editorial
   fashion_editorial <-. echoes .-> quiet_luxury_interior
   fat_face_display <-. echoes .-> victorian_trademark
   fat_face_display <-. echoes .-> victorian_web
+  fat_face_display <-. echoes .-> wood_type_poster
   fauvism <-. echoes .-> new_colour
+  fauvism <-. echoes .-> pochoir_plate
   fifth_gen_low_poly <-. echoes .-> y2k_aesthetic
   film_grain_revival <-. echoes .-> impressionism
   film_grain_revival <-. echoes .-> low_poly_ps1_revival
   film_noir <-. echoes .-> film_noir_still
   film_noir <-. echoes .-> pre_rendered_backgrounds
   film_noir_still <-. echoes .-> german_expressionist_cinema
+  film_noir_still <-. echoes .-> mezzotint_print
   flat_design <-. echoes .-> flat_icon
   flat_design <-. echoes .-> flat_logo
   flat_design <-. echoes .-> impossible_isometric_mobile
@@ -441,6 +486,7 @@ flowchart LR
   frutiger_aero <-. echoes .-> glossy_3d_logo
   frutiger_aero <-. echoes .-> skeuomorphic_icon
   futurism_painting <-. echoes .-> soviet_montage
+  garalde_old_style <-. echoes .-> private_press_book
   garalde_old_style <-. echoes .-> renaissance_architecture
   garalde_old_style <-. echoes .-> renaissance_painting
   geometric_symbol <-. echoes .-> mid_century_modern
@@ -454,6 +500,7 @@ flowchart LR
   group_f64 <-. echoes .-> international_style_architecture
   grunge_editorial <-. echoes .-> party_flash
   grunge_editorial <-. echoes .-> street_photography
+  grunge_editorial <-. echoes .-> xerox_zine
   hand_painted_texture <-. echoes .-> impressionism
   hd_2d_diorama <-. echoes .-> new_topographics
   hd_2d_diorama <-. echoes .-> planimetric_symmetry
@@ -523,13 +570,20 @@ flowchart LR
   pixel_art_web <-. echoes .-> voxel_block_world
   planimetric_symmetry <-. echoes .-> renaissance_painting
   pop_art_painting <-. echoes .-> pop_art_web
+  pop_art_painting <-. echoes .-> pop_screen_print
+  pop_art_web <-. echoes .-> pop_screen_print
+  psychedelic <-. echoes .-> psychedelic_concert_poster
+  psychedelic_concert_poster <-. echoes .-> surrealism_painting
+  punk_zine <-. echoes .-> xerox_zine
   realism_painting <-. echoes .-> straight_photography
   renaissance_architecture <-. echoes .-> renaissance_painting
+  renaissance_painting <-. echoes .-> woodcut_relief_print
   scandinavian_interior <-. echoes .-> scandinavian_interior_photography
   sixteen_bit_sprite <-. echoes .-> ukiyo_e
   skeuomorphic_icon <-. echoes .-> skeuomorphism
   slab_serif <-. echoes .-> victorian_interior
   slab_serif <-. echoes .-> victorian_web
+  slab_serif <-. echoes .-> wood_type_poster
   solid_glyph_icon <-. echoes .-> swiss_international
   straight_photography <-. echoes .-> swiss_international
   surrealism_painting <-. echoes .-> surrealism_web
@@ -538,6 +592,8 @@ flowchart LR
   synthwave_web <-. echoes .-> vector_display_arcade
   victorian_interior <-. echoes .-> victorian_trademark
   victorian_trademark <-. echoes .-> victorian_web
+  victorian_trademark <-. echoes .-> wood_type_poster
+  victorian_web <-. echoes .-> wood_type_poster
   y2k_aesthetic <-. echoes .-> y2k_digicam
   cubism_painting --> abstract_expressionism
   surrealism_painting --> abstract_expressionism
@@ -557,6 +613,7 @@ flowchart LR
   renaissance_painting --> baroque_painting
   baroque_architecture --> beaux_arts_architecture
   neoclassical_architecture --> beaux_arts_architecture
+  chromolithograph_poster --> ben_day_comic_print
   flat_design --> bento_grid_ui
   swiss_international --> bento_grid_ui
   art_nouveau_web --> bohemian_web
@@ -589,6 +646,7 @@ flowchart LR
   swiss_international --> editorial_serif_revival
   vector_display_arcade --> eight_bit_tile
   victorian_trademark --> emblem_badge
+  engraving_print --> etching_print
   aurora_gradient_ui --> ethereal_web
   glassmorphism --> ethereal_web
   post_impressionism --> expressionism_painting
@@ -643,6 +701,7 @@ flowchart LR
   flat_icon --> material_symbols_icon
   solid_glyph_icon --> material_symbols_icon
   swiss_international --> metro_ui
+  engraving_print --> mezzotint_print
   bauhaus --> mid_century_modern
   international_style_architecture --> mid_century_modern_architecture
   prairie_school_architecture --> mid_century_modern_architecture
@@ -678,11 +737,15 @@ flowchart LR
   y2k_aesthetic --> pixel_art_web
   impressionism --> pointillism
   mid_century_modern --> pop_art_web
+  ben_day_comic_print --> pop_screen_print
   impressionism --> post_impressionism
   sixteen_bit_sprite --> pre_rendered_backgrounds
+  woodcut_relief_print --> private_press_book
+  chromolithograph_poster --> psychedelic_concert_poster
   japandi_interior --> quiet_luxury_interior
   bauhaus --> rams_functionalism_ui
   swiss_international --> rams_functionalism_ui
+  xerox_zine --> risograph_print
   baroque_painting --> rococo_painting
   shaker_interior --> scandinavian_interior
   new_objectivity --> scandinavian_interior_photography
@@ -710,6 +773,7 @@ flowchart LR
   georgian_interior --> victorian_interior
   eight_bit_tile --> voxel_block_world
   swiss_international --> wabi_sabi_web
+  woodcut_relief_print --> wood_type_poster
   new_colour --> y2k_digicam
   abstract_expressionism -. rejects .-> de_stijl_painting
   adaptive_reuse_architecture -. rejects .-> international_style_architecture
@@ -795,9 +859,11 @@ flowchart LR
   parametricism_architecture -. rejects .-> international_style_architecture
   photorealism -. rejects .-> abstract_expressionism
   planimetric_symmetry -. rejects .-> dogme_95
+  pochoir_plate -. rejects .-> chromolithograph_poster
   pop_art_painting -. rejects .-> abstract_expressionism
   postmodern_architecture -. rejects .-> brutalist_architecture
   postmodern_architecture -. rejects .-> international_style_architecture
+  private_press_book -. rejects .-> chromolithograph_poster
   psychedelic -. rejects .-> swiss_international
   punk_zine -. rejects .-> mid_century_modern
   punk_zine -. rejects .-> swiss_international
@@ -819,6 +885,7 @@ flowchart LR
   terminal_tui_web -. rejects .-> material_design
   voxel_block_world -. rejects .-> seventh_gen_desaturated
   wabi_sabi_web -. rejects .-> flat_design
+  xerox_zine -. rejects .-> psychedelic_concert_poster
   y2k_aesthetic -. rejects .-> grunge_editorial
   linkStyle 0 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 1 stroke:#8E8E93,stroke-width:1.5px
@@ -1059,49 +1126,41 @@ flowchart LR
   linkStyle 236 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 237 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 238 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 411 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 412 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 413 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 414 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 415 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 416 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 417 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 418 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 419 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 420 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 421 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 422 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 423 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 424 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 425 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 426 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 427 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 428 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 429 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 430 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 431 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 432 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 433 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 434 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 435 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 436 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 437 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 438 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 439 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 440 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 441 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 442 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 443 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 444 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 445 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 446 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 447 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 448 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 449 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 450 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 451 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 452 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 453 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 239 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 240 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 241 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 242 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 243 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 244 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 245 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 246 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 247 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 248 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 249 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 250 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 251 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 252 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 253 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 254 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 255 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 256 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 257 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 258 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 259 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 260 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 261 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 262 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 263 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 264 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 265 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 266 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 267 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 268 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 269 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 270 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 271 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 272 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 273 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 454 stroke:#E5484D,stroke-width:1.5px
   linkStyle 455 stroke:#E5484D,stroke-width:1.5px
   linkStyle 456 stroke:#E5484D,stroke-width:1.5px
@@ -1168,3 +1227,49 @@ flowchart LR
   linkStyle 517 stroke:#E5484D,stroke-width:1.5px
   linkStyle 518 stroke:#E5484D,stroke-width:1.5px
   linkStyle 519 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 520 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 521 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 522 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 523 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 524 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 525 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 526 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 527 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 528 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 529 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 530 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 531 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 532 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 533 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 534 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 535 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 536 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 537 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 538 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 539 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 540 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 541 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 542 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 543 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 544 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 545 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 546 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 547 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 548 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 549 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 550 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 551 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 552 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 553 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 554 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 555 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 556 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 557 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 558 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 559 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 560 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 561 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 562 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 563 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 564 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 565 stroke:#E5484D,stroke-width:1.5px

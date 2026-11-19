@@ -1,0 +1,262 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "etching-print",
+  "domain": "print",
+  "name": "Etching",
+  "aliases": [
+    "Painter-etching",
+    "Radierung",
+    "Eau-forte",
+    "Hard-ground etching"
+  ],
+  "era_id": "hand-press",
+  "time_period": {
+    "start": 1513,
+    "end": 1900,
+    "label": "1513–1900"
+  },
+  "region": "Southern Germany, then Lorraine, Amsterdam and Venice",
+  "summary": "The artist draws with a needle through a wax ground on a metal plate, and acid bites the lines. The line is free like a pen line. Callot made it exact; Rembrandt made it dark and alive, with tone from hatching and from ink left on the plate.",
+  "philosophy": {
+    "core_thesis": "A needle that moves through wax as easily as a pen gives the artist a free line, and the acid gives it depth.",
+    "design_principles": [
+      "Draw with a free, even line of the needle; the width comes from the time in the acid, not from the pressure of the hand.",
+      "Make the dark parts by more layers of hatching and by a longer bite: stop out the light lines and bite the dark ones again.",
+      "Use hatching in 1–4 directions; let the lines be loose and a little irregular.",
+      "Leave a film of ink on the plate (plate tone) for a soft dark where the image needs atmosphere.",
+      "Keep a wide margin and a clear plate mark.",
+      "Print in a warm black or a brown-black on a cream or a Japanese paper."
+    ],
+    "anti_patterns": [
+      "Mechanical hatching with an equal pitch everywhere",
+      "Lines that swell like a burin line",
+      "Flat colour or a halftone screen",
+      "A hard, black edge round every form"
+    ]
+  },
+  "vectors": {
+    "tone_method": 3,
+    "ink_layering": 1,
+    "registration_play": 1,
+    "surface_relief": 4,
+    "hand_trace": 4
+  },
+  "process": {
+    "family": "intaglio",
+    "matrix": "A copper or iron plate, coated with an acid-resistant ground of wax, resin and asphalt.",
+    "press": "A roller press with felt blankets, as for engraving.",
+    "image_making": "The artist draws through the ground with a needle, bites the plate in acid in stages, cleans it, and proofs it.",
+    "edition": "Some tens to some hundreds; the artist often prints each impression with a different wipe."
+  },
+  "inks": {
+    "strategy": "One warm black or brown-black ink; the artist wipes it with tarlatan and the hand and leaves some on the plate.",
+    "ink_count_min": 1,
+    "ink_count_max": 1,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Warm etching black",
+        "hex": "#1E1A16",
+        "role": "lines and plate tone"
+      }
+    ]
+  },
+  "screening": {
+    "method": "hatch",
+    "ruling_lpi": 70,
+    "angles": [
+      30
+    ],
+    "rule": "Make the tone with 1–4 layers of free hatching at 50–100 a inch and with plate tone."
+  },
+  "registration": {
+    "tolerance_mm": 0,
+    "rule": "One plate prints all the image; there is no register."
+  },
+  "substrate": {
+    "stock": "Laid rag paper, or Japanese gampi and kozo paper for a warm, soft impression.",
+    "weight_gsm_min": 30,
+    "weight_gsm_max": 250,
+    "ground": "#F1EADB",
+    "finish": "Soft, dampened before the print; Japanese papers are smooth and thin."
+  },
+  "surface": {
+    "impression": "A plate mark and lines that stand up a little from the paper.",
+    "sheen": "Matt to a soft gloss; plate tone is matt.",
+    "texture": "A living web of thin lines, with a haze of plate tone in the darks."
+  },
+  "artefacts": {
+    "marks": [
+      "plate mark",
+      "plate tone and wipe marks",
+      "foul biting specks",
+      "lines of several depths",
+      "drypoint burr in the darks",
+      "a signature in the plate"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "etching",
+      "Rembrandt etching",
+      "free needle line",
+      "loose cross-hatching",
+      "plate tone",
+      "plate mark",
+      "warm black ink on cream paper",
+      "intaglio print"
+    ],
+    "negative": [
+      "colour",
+      "halftone",
+      "smooth digital shading",
+      "vector line",
+      "flat graphic shapes"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "The Hundred Guilder Print",
+      "kind": "image",
+      "maker": "Rembrandt van Rijn",
+      "year": 1643,
+      "credit": "The Art Institute of Chicago, Public Domain (CC0)",
+      "licence": "CC0",
+      "url": "https://www.artic.edu/artworks/13094",
+      "file": "https://www.artic.edu/iiif/2/74c66e9c-d6fc-a320-8d94-2f8db06f8d43/full/843,/0/default.jpg"
+    },
+    {
+      "title": "The Hundred Guilder Print",
+      "kind": "image",
+      "maker": "Rembrandt (Rembrandt van Rijn)",
+      "year": 1648,
+      "credit": "The Metropolitan Museum of Art, Open Access",
+      "licence": "CC0",
+      "url": "https://www.metmuseum.org/art/collection/search/371732",
+      "file": "https://images.metmuseum.org/CRDImages/dp/web-large/DP230429.jpg"
+    },
+    {
+      "title": "The Hanging, plate eleven from The Miseries of War",
+      "kind": "image",
+      "maker": "Jacques Callot",
+      "year": 1633,
+      "credit": "The Art Institute of Chicago, Public Domain (CC0)",
+      "licence": "CC0",
+      "url": "https://www.artic.edu/artworks/23112",
+      "file": "https://www.artic.edu/iiif/2/401570a0-3158-2ac7-a257-6528d776780e/full/843,/0/default.jpg"
+    },
+    {
+      "title": "Destruction of a Convent, plate six from The Miseries of War",
+      "kind": "image",
+      "maker": "Jacques Callot",
+      "year": 1633,
+      "credit": "The Art Institute of Chicago, Public Domain (CC0)",
+      "licence": "CC0",
+      "url": "https://www.artic.edu/artworks/23095",
+      "file": "https://www.artic.edu/iiif/2/672be3f7-3da5-a55b-0512-c3433b18fd57/full/843,/0/default.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "engraving-print"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "baroque-painting",
+      "realism-painting"
+    ]
+  },
+  "emotion": {
+    "target_response": "Intimacy and atmosphere: the viewer sees the hand of the artist, and the darks feel deep and quiet.",
+    "keywords": [
+      "intimate",
+      "atmospheric",
+      "sketched",
+      "warm",
+      "melancholic"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "etching",
+      "etched illustration",
+      "rembrandt etching",
+      "intaglio",
+      "needle drawing",
+      "old print with cross-hatching",
+      "drypoint",
+      "printmaking look"
+    ],
+    "use_cases": [
+      "book and editorial illustration",
+      "wine and spirits labels",
+      "architecture views",
+      "fine art prints"
+    ],
+    "avoid_when": [
+      "The picture must read at a small size on a screen.",
+      "The brand needs bright, flat colour."
+    ],
+    "modifiers": [
+      {
+        "request": "more exact",
+        "toward": "engraving-print",
+        "how": "Cut swelling burin lines in systems, with an equal pitch and no plate tone."
+      },
+      {
+        "request": "darker and softer",
+        "toward": "mezzotint-print",
+        "how": "Rock the full plate black and scrape the lights; drop the line."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#1E1A16",
+      "options": [
+        "#1E1A16",
+        "#3A2418"
+      ]
+    },
+    "paper_colour": {
+      "default": "#F1EADB",
+      "options": [
+        "#F1EADB",
+        "#EADFC6"
+      ]
+    },
+    "ink_count": {
+      "default": 1,
+      "min": 1,
+      "max": 1
+    },
+    "screen_ruling": {
+      "default": 70,
+      "min": 40,
+      "max": 110
+    },
+    "misregistration": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    }
+  },
+  "sources": [
+    {
+      "title": "Etching (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Etching"
+    },
+    {
+      "title": "Rembrandt's etchings (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_etchings_by_Rembrandt"
+    },
+    {
+      "title": "Antony Griffiths, Prints and Printmaking (British Museum Press, 1996)"
+    }
+  ]
+}

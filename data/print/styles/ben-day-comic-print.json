@@ -1,0 +1,271 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "ben-day-comic-print",
+  "domain": "print",
+  "name": "Ben-Day comic print",
+  "aliases": [
+    "Ben-Day dots",
+    "Four-colour comic",
+    "Newsprint comic",
+    "Sunday funnies"
+  ],
+  "era_id": "industrial-press",
+  "time_period": {
+    "start": 1896,
+    "end": 1975,
+    "label": "1896–1975"
+  },
+  "region": "New York and the United States",
+  "summary": "A comic or a newspaper picture printed on cheap newsprint in four flat inks, with tints made of fixed dots from Benjamin Day's films. The Sunday supplement of the 1890s and the comic book of the 1930s–1960s made black lines, primary colours and dots a mass look.",
+  "philosophy": {
+    "core_thesis": "Four inks, a black line and a few fixed tints of dots can colour a whole world for a cent.",
+    "design_principles": [
+      "Draw every form with a firm, black brush or pen line; the colour only fills.",
+      "Use only cyan, magenta and yellow at 0, 25, 50 and 100 %, alone or mixed; the colourist has no other tones.",
+      "Make each tint with a regular field of dots of one size, not a photographic screen.",
+      "Put flat primary colour on the main figures and a light dot tint on the background and the skin.",
+      "Accept a misregister of 1–2 mm and a slight spread of the ink on the soft paper.",
+      "Use speech balloons and captions in hand lettering, all capitals."
+    ],
+    "anti_patterns": [
+      "Smooth gradients or soft airbrush",
+      "A photographic halftone with dots of many sizes",
+      "Thin or broken outlines",
+      "A palette of muted or pastel colours"
+    ]
+  },
+  "vectors": {
+    "tone_method": 2,
+    "ink_layering": 4,
+    "registration_play": 3,
+    "surface_relief": 1,
+    "hand_trace": 2
+  },
+  "process": {
+    "family": "relief",
+    "matrix": "Zinc or copper line plates, one for the black and one for each colour, with Ben-Day dot tints laid in by an engraver.",
+    "press": "A rotary letterpress or a web offset press on newsprint rolls.",
+    "image_making": "An artist draws and inks the line; a colourist marks the colours by code; an engraver cuts the plates.",
+    "edition": "Hundreds of thousands to millions of copies."
+  },
+  "inks": {
+    "strategy": "Black for the line and the three primaries in a few fixed tints; the inks are transparent and mix where they overlap.",
+    "ink_count_min": 4,
+    "ink_count_max": 4,
+    "overprint": "transparent",
+    "colours": [
+      {
+        "name": "Line black",
+        "hex": "#1A1A1A",
+        "role": "the line and the lettering"
+      },
+      {
+        "name": "Process cyan",
+        "hex": "#2F9FD8",
+        "role": "sky, cool shadows and costumes"
+      },
+      {
+        "name": "Process magenta",
+        "hex": "#E2366F",
+        "role": "red with yellow, and pinks"
+      },
+      {
+        "name": "Process yellow",
+        "hex": "#F5D22E",
+        "role": "light, skin with magenta, and greens with cyan"
+      }
+    ]
+  },
+  "screening": {
+    "method": "tint",
+    "ruling_lpi": 60,
+    "angles": [
+      45,
+      15,
+      75,
+      0
+    ],
+    "rule": "Make each tint with a fixed dot of 25 or 50 % at about 60 a inch; 100 % is solid."
+  },
+  "registration": {
+    "tolerance_mm": 1.5,
+    "rule": "The colours can shift 1–2 mm from the line; a white or a doubled edge is part of the look."
+  },
+  "substrate": {
+    "stock": "Newsprint from groundwood pulp, which yellows with age.",
+    "weight_gsm_min": 40,
+    "weight_gsm_max": 55,
+    "ground": "#EDE3CC",
+    "finish": "Uncoated, rough and absorbent."
+  },
+  "surface": {
+    "impression": "A slight bite and an ink spread that makes the dots soft.",
+    "sheen": "Matt, with no gloss.",
+    "texture": "Large, regular dots that are visible at reading distance, on a grey-cream paper."
+  },
+  "artefacts": {
+    "marks": [
+      "visible Ben-Day dots",
+      "colour off register from the line",
+      "ink spread on newsprint",
+      "yellowed paper",
+      "show-through from the back",
+      "hand-lettered balloons"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "vintage comic book print",
+      "Ben-Day dots",
+      "four-colour newsprint",
+      "thick black ink line",
+      "primary colours",
+      "misregistered colour",
+      "yellowed paper",
+      "1950s comic panel"
+    ],
+    "negative": [
+      "gradient",
+      "airbrush",
+      "photograph",
+      "thin line",
+      "pastel palette",
+      "digital clean colour"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "PepComicNo71pp35",
+      "kind": "image",
+      "maker": "Joe Edwards",
+      "year": 1949,
+      "credit": "Wikimedia Commons (Comic Book Plus scan)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:PepComicNo71pp35.png",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/PepComicNo71pp35.png/960px-PepComicNo71pp35.png"
+    },
+    {
+      "title": "Famous Funnies 90",
+      "kind": "image",
+      "maker": "Will Rowland (cover)",
+      "year": 1942,
+      "credit": "Wikimedia Commons (Comic Book Plus scan)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Famous_Funnies_90.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/2/29/Famous_Funnies_90.jpg"
+    },
+    {
+      "title": "FamousFunniesNo214",
+      "kind": "image",
+      "maker": "Frank Frazetta (cover)",
+      "year": 1954,
+      "credit": "Wikimedia Commons (Comic Book Plus scan)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:FamousFunniesNo214.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/FamousFunniesNo214.jpg/960px-FamousFunniesNo214.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "chromolithograph-poster"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "pop-art-painting",
+      "pop-art-web"
+    ]
+  },
+  "emotion": {
+    "target_response": "Fun and nostalgia: the viewer feels a cheap, bright thrill from a childhood comic.",
+    "keywords": [
+      "fun",
+      "bold",
+      "nostalgic",
+      "punchy",
+      "popular"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "hero",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "comic book print",
+      "ben-day dots",
+      "vintage comic",
+      "newsprint comic",
+      "golden age comic",
+      "pulp comic colour",
+      "four colour comic"
+    ],
+    "use_cases": [
+      "posters and merchandise",
+      "editorial illustration",
+      "packaging for snacks and toys",
+      "social media graphics"
+    ],
+    "avoid_when": [
+      "The brand must look serious or luxurious.",
+      "The picture needs realistic tone."
+    ],
+    "modifiers": [
+      {
+        "request": "as fine art",
+        "toward": "pop-screen-print",
+        "how": "Enlarge the dots, flatten the colours, and screen print them on heavy paper."
+      },
+      {
+        "request": "as a painting",
+        "toward": "pop-art-painting",
+        "how": "Paint the dots and the line by hand at a large scale, in the manner of Lichtenstein."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#1A1A1A",
+      "options": [
+        "#1A1A1A"
+      ]
+    },
+    "paper_colour": {
+      "default": "#EDE3CC",
+      "options": [
+        "#EDE3CC",
+        "#F2EBD9"
+      ]
+    },
+    "ink_count": {
+      "default": 4,
+      "min": 4,
+      "max": 4
+    },
+    "screen_ruling": {
+      "default": 60,
+      "min": 45,
+      "max": 85
+    },
+    "misregistration": {
+      "default": 1.5,
+      "min": 0.5,
+      "max": 2.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Ben Day process (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ben_Day_process"
+    },
+    {
+      "title": "Comic book (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Comic_book"
+    },
+    {
+      "title": "Benjamin Henry Day Jr. (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Benjamin_Henry_Day_Jr."
+    }
+  ]
+}

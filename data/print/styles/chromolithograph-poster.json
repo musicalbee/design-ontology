@@ -1,0 +1,276 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "chromolithograph-poster",
+  "domain": "print",
+  "name": "Chromolithograph poster",
+  "aliases": [
+    "Belle Époque poster",
+    "Affiche illustrée",
+    "Colour lithograph poster",
+    "Chéret poster"
+  ],
+  "era_id": "industrial-press",
+  "time_period": {
+    "start": 1866,
+    "end": 1914,
+    "label": "1866–1914"
+  },
+  "region": "Paris, then all of Europe and the United States",
+  "summary": "A large poster drawn in crayon and brush on stones, one stone for each colour. Jules Chéret printed his first colour posters in Paris in 1866 with a few strong inks; Mucha, Toulouse-Lautrec and the Beggarstaffs made the street a gallery.",
+  "philosophy": {
+    "core_thesis": "A few bright inks, drawn by the artist on stone, can make a sheet on a wall as bright and as alive as a painting.",
+    "design_principles": [
+      "Use 3–5 inks: a dark key for the drawing, a red, a yellow and a blue, with mixed tones where they overprint.",
+      "Draw the key with a lithographic crayon, so the tone has the grain of the stone.",
+      "Make one large figure, often a woman in motion, fill most of the sheet.",
+      "Put the name of the product or the show in hand-drawn letters at the top or the bottom, in the same inks.",
+      "Use spatter (crachis) and crayon grain for the half tones; keep flat colour for large areas.",
+      "Let the colours shift a little from the key; the eye accepts a small misregister."
+    ],
+    "anti_patterns": [
+      "A photographic halftone screen",
+      "Typeset text in one plain face",
+      "Many small images in a grid",
+      "Dull colours mixed to brown"
+    ]
+  },
+  "vectors": {
+    "tone_method": 3,
+    "ink_layering": 4,
+    "registration_play": 2,
+    "surface_relief": 1,
+    "hand_trace": 4
+  },
+  "process": {
+    "family": "planographic",
+    "matrix": "Bavarian limestone, one stone for each ink, drawn with a greasy crayon and tusche.",
+    "press": "A steam-powered flatbed lithographic press, with sheets up to 2.5 m long printed in parts.",
+    "image_making": "The artist draws the key; a chromiste separates the colours by hand on the other stones from a tracing.",
+    "edition": "Thousands of posters for a campaign, plus small editions on good paper for collectors."
+  },
+  "inks": {
+    "strategy": "A dark key and three or four bright inks; the half tones come from the crayon and from overprints.",
+    "ink_count_min": 3,
+    "ink_count_max": 8,
+    "overprint": "mixed",
+    "colours": [
+      {
+        "name": "Indigo key",
+        "hex": "#2B2A3A",
+        "role": "the drawing and the letters"
+      },
+      {
+        "name": "Vermilion",
+        "hex": "#D2352B",
+        "role": "dresses and the title"
+      },
+      {
+        "name": "Chrome yellow",
+        "hex": "#F2C230",
+        "role": "light, skin and gold"
+      },
+      {
+        "name": "Prussian blue",
+        "hex": "#3B6FB6",
+        "role": "sky and the cool shadows"
+      }
+    ]
+  },
+  "screening": {
+    "method": "grain",
+    "ruling_lpi": 60,
+    "rule": "Make the tone with the grain of the crayon on the stone and with spatter; there is no screen."
+  },
+  "registration": {
+    "tolerance_mm": 0.6,
+    "rule": "Each stone registers to pins; a shift of 0.5–1 mm is common and shows as a light rim."
+  },
+  "substrate": {
+    "stock": "A thin machine-made poster paper; collectors' copies on heavier wove.",
+    "weight_gsm_min": 60,
+    "weight_gsm_max": 150,
+    "ground": "#F2EAD6",
+    "finish": "Uncoated, smooth, with a slight tooth."
+  },
+  "surface": {
+    "impression": "No bite: the ink lies flat on the sheet.",
+    "sheen": "Matt, with a soft sheen in the dark inks.",
+    "texture": "A grain of crayon and spatter in the half tones, with flat areas of strong colour."
+  },
+  "artefacts": {
+    "marks": [
+      "crayon grain",
+      "spatter dots (crachis)",
+      "a light rim from misregister",
+      "overprinted secondary colours",
+      "hand-drawn lettering",
+      "fold lines and paste stains"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Belle Époque poster",
+      "Jules Chéret lithograph",
+      "colour lithograph poster",
+      "crayon grain",
+      "spatter texture",
+      "dancing woman in motion",
+      "hand-drawn title lettering",
+      "red yellow and blue inks"
+    ],
+    "negative": [
+      "photograph",
+      "halftone dots",
+      "digital gradient",
+      "typeset sans-serif",
+      "muted brown palette"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Saxoleine",
+      "kind": "image",
+      "maker": "Jules Chéret",
+      "year": 1893,
+      "credit": "The Art Institute of Chicago, Public Domain (CC0)",
+      "licence": "CC0",
+      "url": "https://www.artic.edu/artworks/218855",
+      "file": "https://www.artic.edu/iiif/2/dc8ddb3e-34bd-fe6e-76ce-47ca75a5a6cb/full/843,/0/default.jpg"
+    },
+    {
+      "title": "Palais de Glace",
+      "kind": "image",
+      "maker": "Jules Chéret",
+      "year": 1891,
+      "credit": "The Art Institute of Chicago, Public Domain (CC0)",
+      "licence": "CC0",
+      "url": "https://www.artic.edu/artworks/218856",
+      "file": "https://www.artic.edu/iiif/2/cc8c005c-1a21-13dd-9a40-795e43c4c5c5/full/843,/0/default.jpg"
+    },
+    {
+      "title": "The Seasons",
+      "kind": "image",
+      "maker": "Alphonse Marie Mucha",
+      "year": 1897,
+      "credit": "The Art Institute of Chicago, Public Domain (CC0)",
+      "licence": "CC0",
+      "url": "https://www.artic.edu/artworks/97439",
+      "file": "https://www.artic.edu/iiif/2/cf64f14a-cc51-9a2d-2d9b-a882b504f222/full/843,/0/default.jpg"
+    },
+    {
+      "title": "La Samaritaine",
+      "kind": "image",
+      "maker": "Alphonse Marie Mucha",
+      "year": 1897,
+      "credit": "The Art Institute of Chicago, Public Domain (CC0)",
+      "licence": "CC0",
+      "url": "https://www.artic.edu/artworks/16907",
+      "file": "https://www.artic.edu/iiif/2/1e5bac6e-a121-8c30-f237-aa46c4fe404f/full/400,/0/default.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "wood-type-poster"
+    ],
+    "echoes": [
+      "art-nouveau-web",
+      "art-nouveau-interior",
+      "post-impressionism"
+    ]
+  },
+  "emotion": {
+    "target_response": "Joy and spectacle: the viewer feels the pleasure of the city at night, a café or a show.",
+    "keywords": [
+      "festive",
+      "joyful",
+      "theatrical",
+      "bright",
+      "seductive"
+    ],
+    "brand_archetypes": [
+      "lover",
+      "jester",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "belle époque poster",
+      "vintage french poster",
+      "lithograph poster",
+      "chéret",
+      "toulouse-lautrec style",
+      "1890s poster",
+      "cabaret poster",
+      "absinthe poster"
+    ],
+    "use_cases": [
+      "event and theatre posters",
+      "drinks and food packaging",
+      "travel posters",
+      "hospitality brands"
+    ],
+    "avoid_when": [
+      "The message needs a photograph or a lot of small text.",
+      "The brand must look sober or technical."
+    ],
+    "modifiers": [
+      {
+        "request": "more decorative",
+        "toward": "art-nouveau-web",
+        "how": "Add a halo and a frame of whiplash lines and flowers round the figure, in the manner of Mucha."
+      },
+      {
+        "request": "flatter and more modern",
+        "toward": "pochoir-plate",
+        "how": "Drop the grain for flat, opaque colours put on through stencils, with a thin key line."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#2B2A3A",
+      "options": [
+        "#2B2A3A",
+        "#2A2A2A"
+      ]
+    },
+    "paper_colour": {
+      "default": "#F2EAD6",
+      "options": [
+        "#F2EAD6",
+        "#F6F1E4"
+      ]
+    },
+    "ink_count": {
+      "default": 4,
+      "min": 3,
+      "max": 8
+    },
+    "screen_ruling": {
+      "default": 60,
+      "min": 40,
+      "max": 90
+    },
+    "misregistration": {
+      "default": 0.6,
+      "min": 0,
+      "max": 1.2
+    }
+  },
+  "sources": [
+    {
+      "title": "Chromolithography (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Chromolithography"
+    },
+    {
+      "title": "Jules Chéret (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jules_Chéret"
+    },
+    {
+      "title": "Ruth E. Iskin, The Poster: Art, Advertising, Design, and Collecting, 1860s–1900s (Dartmouth, 2014)"
+    }
+  ]
+}

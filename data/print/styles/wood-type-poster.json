@@ -1,0 +1,257 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "wood-type-poster",
+  "domain": "print",
+  "name": "Wood-type poster",
+  "aliases": [
+    "Letterpress broadside",
+    "Show bill",
+    "Wood-type broadside",
+    "Circus poster"
+  ],
+  "era_id": "industrial-press",
+  "time_period": {
+    "start": 1828,
+    "end": 1900,
+    "label": "1828–1900"
+  },
+  "region": "The United States and Britain",
+  "summary": "A bill set in large letters cut from end-grain wood, printed on a hand or a job press in one or two flat inks. Darius Wells made the type cheap in 1828; the auction, the circus and the theatre filled walls with stacked lines of fat faces and slabs.",
+  "philosophy": {
+    "core_thesis": "A poster is a stack of words, and each line takes the largest and boldest type that fits the width.",
+    "design_principles": [
+      "Centre each line and set it in the largest type that fills the measure.",
+      "Change the face, the width and the size from line to line; three to six faces on one sheet are normal.",
+      "Put the key word (the act, the date, the price) in the largest line, often in a second ink.",
+      "Print flat ink with no tone: black for the text and one red or blue for the accent.",
+      "Use rules, stars and a stock wood or metal cut as the only images.",
+      "Keep the tight vertical rhythm of the chase: little space between the lines."
+    ],
+    "anti_patterns": [
+      "A photograph or a tone in the image",
+      "One face at one size for all lines",
+      "Left-aligned text with wide margins",
+      "Thin, light type or a script face"
+    ]
+  },
+  "vectors": {
+    "tone_method": 1,
+    "ink_layering": 2,
+    "registration_play": 3,
+    "surface_relief": 2,
+    "hand_trace": 3
+  },
+  "process": {
+    "family": "relief",
+    "matrix": "Letters routed from end-grain maple with a pantograph, locked in a chase with metal rules and cuts.",
+    "press": "A hand press or a platen job press; large sheets on a cylinder press.",
+    "image_making": "A jobbing printer sets the type by eye from the cases in stock, proofs and prints.",
+    "edition": "Hundreds of copies, the run for one event, then the forme is broken up."
+  },
+  "inks": {
+    "strategy": "Black for the body and one bright second ink, each from its own forme or a split fountain.",
+    "ink_count_min": 1,
+    "ink_count_max": 3,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Job black",
+        "hex": "#1C1A17",
+        "role": "most lines"
+      },
+      {
+        "name": "Poster red",
+        "hex": "#C8352E",
+        "role": "the key words and the rules"
+      }
+    ]
+  },
+  "screening": {
+    "method": "solid",
+    "ruling_lpi": 0,
+    "rule": "Print flat, full ink; the only tone is the grain of the worn wood."
+  },
+  "registration": {
+    "tolerance_mm": 1.0,
+    "rule": "The second ink can shift about 1 mm; a red line can sit a little above or below its place."
+  },
+  "substrate": {
+    "stock": "A cheap, thin poster or news stock, often tinted buff, yellow or pink.",
+    "weight_gsm_min": 50,
+    "weight_gsm_max": 100,
+    "ground": "#EADFC8",
+    "finish": "Uncoated, soft, with a visible fibre."
+  },
+  "surface": {
+    "impression": "A light bite and a dark rim of ink round each letter.",
+    "sheen": "Matt, with some gloss in heavy solids.",
+    "texture": "Solid letters with worn edges, specks of missing ink and the grain of the wood in large letters."
+  },
+  "artefacts": {
+    "marks": [
+      "wood-grain streaks in solids",
+      "worn letter edges",
+      "ink squash rim",
+      "uneven inking",
+      "nicks in large type",
+      "second ink a little off register"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "19th-century wood-type poster",
+      "letterpress broadside",
+      "stacked centred lines",
+      "mixed slab and fat-face type",
+      "red and black ink",
+      "worn wood type grain",
+      "circus bill",
+      "buff poster paper"
+    ],
+    "negative": [
+      "photograph",
+      "gradient",
+      "thin type",
+      "script",
+      "modern sans grid layout"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Broadside warning re John Brown's hanging",
+      "kind": "image",
+      "maker": "Unknown printer (broadside)",
+      "year": 1859,
+      "credit": "Wikimedia Commons (West Virginia Archives and History exhibit scan)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Broadside_warning_re_John_Brown%27s_hanging.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Broadside_warning_re_John_Brown%27s_hanging.jpg/960px-Broadside_warning_re_John_Brown%27s_hanging.jpg"
+    },
+    {
+      "title": "Fugitive Slave Law warning poster, Boston, 1851",
+      "kind": "image",
+      "maker": "Committee of Vigilance and Safety, Boston (broadside)",
+      "year": 1851,
+      "credit": "Wikimedia Commons (National Park Service, Boston African American NHS)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Fugitive_Slave_Law_warning_poster,_Boston_African_American_National_Historic_Site,_1851._(e9414990d8d040e9b4242985516987e1).jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Fugitive_Slave_Law_warning_poster%2C_Boston_African_American_National_Historic_Site%2C_1851._%28e9414990d8d040e9b4242985516987e1%29.jpg"
+    },
+    {
+      "title": "The man is not bought! Broadside, Boston, 1854",
+      "kind": "image",
+      "maker": "Unknown printer (broadside)",
+      "year": 1850,
+      "credit": "Wikimedia Commons (Boston Public Library)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:The_man_is_not_bought!_He_is_still_in_the_slave_pen_in_the_courthouse!_..._(7645375374).jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/1/17/The_man_is_not_bought%21_He_is_still_in_the_slave_pen_in_the_courthouse%21_..._%287645375374%29.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "woodcut-relief-print"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "fat-face-display",
+      "slab-serif",
+      "victorian-trademark",
+      "victorian-web"
+    ]
+  },
+  "emotion": {
+    "target_response": "Loud, honest announcement: the viewer reads it from across the street and feels a show is in town.",
+    "keywords": [
+      "loud",
+      "rustic",
+      "honest",
+      "festive",
+      "americana"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "wood type poster",
+      "letterpress poster",
+      "broadside",
+      "circus poster",
+      "wanted poster",
+      "show bill",
+      "americana poster",
+      "old west poster"
+    ],
+    "use_cases": [
+      "gig and fair posters",
+      "craft beer and food labels",
+      "menus and signs",
+      "event announcements"
+    ],
+    "avoid_when": [
+      "The message needs an image, a photograph or long text.",
+      "The brand must look quiet or refined."
+    ],
+    "modifiers": [
+      {
+        "request": "with an image",
+        "toward": "chromolithograph-poster",
+        "how": "Add a full-colour drawn picture in crayon lithography and keep the type at the top and the bottom."
+      },
+      {
+        "request": "as a book page",
+        "toward": "private-press-book",
+        "how": "Change the mixed display faces for one text face, set in black and red on handmade paper."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#1C1A17",
+      "options": [
+        "#1C1A17",
+        "#1F3A6E"
+      ]
+    },
+    "paper_colour": {
+      "default": "#EADFC8",
+      "options": [
+        "#EADFC8",
+        "#F2D64B",
+        "#F4C6C1"
+      ]
+    },
+    "ink_count": {
+      "default": 2,
+      "min": 1,
+      "max": 3
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    },
+    "misregistration": {
+      "default": 1.0,
+      "min": 0,
+      "max": 2
+    }
+  },
+  "sources": [
+    {
+      "title": "Wood type (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Wood_type"
+    },
+    {
+      "title": "Hatch Show Print (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Hatch_Show_Print"
+    },
+    {
+      "title": "Rob Roy Kelly, American Wood Type 1828–1900 (Van Nostrand Reinhold, 1969)"
+    }
+  ]
+}

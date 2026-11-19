@@ -92,12 +92,13 @@ Fragments of photographs, cut and joined on one sheet, so that the joins make a 
 | 1 | Graphic & UI Design | 1924 | +6 years | Alexander Rodchenko and El Lissitzky use photomontage in Constructivist posters and books. | [`constructivism-web`](./constructivism-web/SKILL.md) |
 | 2 | Film & Video | 1925 | +7 years | Sergei Eisenstein carries the collision of fragments into the cut of Strike and Battleship Potemkin. | [`soviet-montage`](./soviet-montage/SKILL.md) |
 | 3 | Graphic & UI Design | 1976 | +58 years | Punk zines and record sleeves cut up newspapers with scissors and glue. | [`punk-zine`](./punk-zine/SKILL.md) |
-| 4 | Graphic & UI Design | c. 1990 | +72 years | Photoshop makes the cut and the layer digital; early cyberculture prints dense photo-illustration. | [`cyberdelia`](./cyberdelia/SKILL.md) |
-| 5 | Graphic & UI Design | c. 2012 | +94 years | Designers cut photographs of objects and clouds into collage scenes, in the line of the Surrealist collages of Max Ernst. | [`surrealism-web`](./surrealism-web/SKILL.md) |
-| 6 | Graphic & UI Design | c. 2016 | +98 years | Anti-design sites overlap cut images and text blocks across a broken grid. | [`anti-design`](./anti-design/SKILL.md) |
-| 7 | Graphic & UI Design | c. 2018 | +100 years | Scrapbook interfaces lay cut photographs, tape and stickers over each other, as on the page of an album. | [`scrapbook-ui`](./scrapbook-ui/SKILL.md) |
+| 4 | Print | 1976 | +58 years | Mark Perry pastes up Sniffin' Glue from typewriter text, felt-tip headings and press photos, and copies it on a photocopier. | [`xerox-zine`](./xerox-zine/SKILL.md) |
+| 5 | Graphic & UI Design | c. 1990 | +72 years | Photoshop makes the cut and the layer digital; early cyberculture prints dense photo-illustration. | [`cyberdelia`](./cyberdelia/SKILL.md) |
+| 6 | Graphic & UI Design | c. 2012 | +94 years | Designers cut photographs of objects and clouds into collage scenes, in the line of the Surrealist collages of Max Ernst. | [`surrealism-web`](./surrealism-web/SKILL.md) |
+| 7 | Graphic & UI Design | c. 2016 | +98 years | Anti-design sites overlap cut images and text blocks across a broken grid. | [`anti-design`](./anti-design/SKILL.md) |
+| 8 | Graphic & UI Design | c. 2018 | +100 years | Scrapbook interfaces lay cut photographs, tape and stickers over each other, as on the page of an album. | [`scrapbook-ui`](./scrapbook-ui/SKILL.md) |
 
-Used by: [`constructivism-web`](./constructivism-web/SKILL.md), [`soviet-montage`](./soviet-montage/SKILL.md), [`punk-zine`](./punk-zine/SKILL.md), [`cyberdelia`](./cyberdelia/SKILL.md), [`grunge-editorial`](./grunge-editorial/SKILL.md), [`surrealism-web`](./surrealism-web/SKILL.md), [`anti-design`](./anti-design/SKILL.md), [`scrapbook-ui`](./scrapbook-ui/SKILL.md).
+Used by: [`constructivism-web`](./constructivism-web/SKILL.md), [`soviet-montage`](./soviet-montage/SKILL.md), [`punk-zine`](./punk-zine/SKILL.md), [`cyberdelia`](./cyberdelia/SKILL.md), [`grunge-editorial`](./grunge-editorial/SKILL.md), [`surrealism-web`](./surrealism-web/SKILL.md), [`anti-design`](./anti-design/SKILL.md), [`scrapbook-ui`](./scrapbook-ui/SKILL.md), [`xerox-zine`](./xerox-zine/SKILL.md).
 
 - Join 3 to 12 photographic fragments on one ground and keep the cut edges hard and visible.
 - Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.
@@ -855,6 +856,24 @@ Used by: [`neumorphism`](./neumorphism/SKILL.md), [`claymorphism`](./claymorphis
 
 Sources: Michal Malewicz, Neumorphism in user interfaces (2019).
 
+### Etching
+
+An intaglio print from a metal plate whose lines a needle draws through an acid-resistant ground and an acid then bites.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Print | 1513 | — | Basel: Urs Graf makes the first dated etching on an iron plate; armourers used acid to decorate metal before this. | |
+| 1 | Painting | c. 1630 | +117 years | Rembrandt etches portraits, scenes and landscapes beside his painting and makes the etching a painter's medium. | [`baroque-painting`](./baroque-painting/SKILL.md) |
+
+Used by: [`etching-print`](./etching-print/SKILL.md), [`baroque-painting`](./baroque-painting/SKILL.md).
+
+- Coat the plate with a ground of wax, resin and asphalt and draw through it with a needle of 0.2–0.5 mm.
+- Bite the plate in acid in stages; stop out the light lines with varnish after 5–10 minutes and bite the dark lines again.
+- Ink the plate, wipe the surface with tarlatan, and leave a film of plate tone where a soft dark is needed.
+- Print on dampened paper on a roller press, so that the plate leaves a mark round the image.
+
+Sources: [Wikipedia: Etching](https://en.wikipedia.org/wiki/Etching); [Wikipedia: Urs Graf](https://en.wikipedia.org/wiki/Urs_Graf).
+
 ### Exposed joinery
 
 A joint that stays in view, so that the way of making is part of the look.
@@ -959,11 +978,13 @@ Tone printed as dots of different size or spacing; at a distance the dots merge 
 |---|---|---|---|---|---|
 | Origin | Graphic & UI Design | 1879 | — | New York: Benjamin Day patents a mechanical tint of dots for printers; photographic halftone screens follow in the 1880s. | |
 | 1 | Photography | 1880 | +1 years | The Daily Graphic of New York prints a photograph as a halftone. |  |
-| 2 | Painting | 1961 | +82 years | Roy Lichtenstein paints enlarged Ben-Day dots by hand in Look Mickey. |  |
-| 3 | Graphic & UI Design | c. 1976 | +97 years | Punk zines photocopy halftones until the dots break up. | [`punk-zine`](./punk-zine/SKILL.md) |
-| 4 | Icons | 2019 | +140 years | Duotone icon sets print each glyph in two tones of one hue, as a two-screen duotone does in print. | [`duotone-icon`](./duotone-icon/SKILL.md) |
+| 2 | Print | 1896 | +17 years | The New York Sunday supplements print The Yellow Kid in colour, with Ben-Day tints laid in on the colour plates. | [`ben-day-comic-print`](./ben-day-comic-print/SKILL.md) |
+| 3 | Painting | 1961 | +82 years | Roy Lichtenstein paints enlarged Ben-Day dots by hand in Look Mickey. |  |
+| 4 | Print | 1962 | +83 years | Andy Warhol has photographs made into halftone screens and pulls them over hand-cut flat colour. | [`pop-screen-print`](./pop-screen-print/SKILL.md) |
+| 5 | Graphic & UI Design | c. 1976 | +97 years | Punk zines photocopy halftones until the dots break up. | [`punk-zine`](./punk-zine/SKILL.md) |
+| 6 | Icons | 2019 | +140 years | Duotone icon sets print each glyph in two tones of one hue, as a two-screen duotone does in print. | [`duotone-icon`](./duotone-icon/SKILL.md) |
 
-Used by: [`pop-art-web`](./pop-art-web/SKILL.md), [`punk-zine`](./punk-zine/SKILL.md), [`duotone-icon`](./duotone-icon/SKILL.md).
+Used by: [`pop-art-web`](./pop-art-web/SKILL.md), [`punk-zine`](./punk-zine/SKILL.md), [`duotone-icon`](./duotone-icon/SKILL.md), [`ben-day-comic-print`](./ben-day-comic-print/SKILL.md), [`pop-screen-print`](./pop-screen-print/SKILL.md).
 
 - Set the screen at 10 to 30 lines per cm for a print grain, or enlarge the dots to 4 to 8mm for a Pop effect.
 - Turn each colour screen to its own angle: cyan 15°, magenta 75°, yellow 0°, black 45°.
@@ -991,6 +1012,26 @@ Used by: [`corporate-memphis`](./corporate-memphis/SKILL.md), [`bento-grid-ui`](
 
 Sources: William Farish, On Isometrical Perspective (Transactions of the Cambridge Philosophical Society, 1822).
 
+### Letterpress
+
+Printing from raised metal or wood type and blocks, locked in a forme and pressed into the paper.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Typeface | 1454 | — | Mainz: Johannes Gutenberg prints the 42-line Bible from cast metal type in a screw press. | |
+| 1 | Print | 1828 | +374 years | Poster printers set large wood letters in the same press as metal type and print show bills by the hundred. | [`wood-type-poster`](./wood-type-poster/SKILL.md) |
+| 2 | Print | 1891 | +437 years | William Morris returns to the hand press, handmade paper and a heavy cast type at the Kelmscott Press. | [`private-press-book`](./private-press-book/SKILL.md) |
+| 3 | Print | c. 1896 | +442 years | Newspaper comics print from line plates and type on rotary letterpress, with Ben-Day tints on the colour plates. | [`ben-day-comic-print`](./ben-day-comic-print/SKILL.md) |
+
+Used by: [`blackletter`](./blackletter/SKILL.md), [`wood-type-poster`](./wood-type-poster/SKILL.md), [`private-press-book`](./private-press-book/SKILL.md), [`ben-day-comic-print`](./ben-day-comic-print/SKILL.md).
+
+- Set the type by hand from a case, letter by letter, and justify each line with spaces in the composing stick.
+- Lock the type, the rules and the blocks in a chase, ink the forme with rollers and press it into the sheet.
+- Dampen a soft rag paper so that the type bites 0.1–0.3 mm into it.
+- Print each ink from a separate forme or a separate pull, and register them by pins or lays.
+
+Sources: [Wikipedia: Letterpress printing](https://en.wikipedia.org/wiki/Letterpress_printing); [Wikipedia: Printing press](https://en.wikipedia.org/wiki/Printing_press).
+
 ### Line engraving
 
 Lines cut into a metal plate with a burin; thin hairlines and swelling strokes give tone, and the print keeps a sharp, even edge.
@@ -998,13 +1039,14 @@ Lines cut into a metal plate with a burin; thin hairlines and swelling strokes g
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Painting | c. 1430 | — | Upper Rhine: Goldsmiths engrave copper plates and print them as pictures; the method then spreads across Europe. | |
-| 1 | Typeface | 1741 | +311 years | George Bickham engraves the copperplate hands of The Universal Penman (1741) on copper. | [`formal-script`](./formal-script/SKILL.md) |
-| 2 | Typeface | 1757 | +327 years | John Baskerville has John Handy cut sharp, high-contrast roman type in Birmingham, and prints it on smooth wove paper. | [`transitional-serif`](./transitional-serif/SKILL.md) |
-| 3 | Typeface | 1784 | +354 years | Firmin Didot cuts roman type with hairline serifs and a vertical stress; Giambattista Bodoni follows in Parma. | [`didone-serif`](./didone-serif/SKILL.md) |
-| 4 | Typeface | c. 1810 | +380 years | Robert Thorne cuts fat faces that push the engraved contrast of the Didones to an extreme. | [`fat-face-display`](./fat-face-display/SKILL.md) |
-| 5 | Logo | 1875 | +445 years | The UK Trade Marks Registration Act starts a register, and firms file engraved vignettes, banners and shaded figures. | [`victorian-trademark`](./victorian-trademark/SKILL.md) |
+| 1 | Print | c. 1470 | +40 years | Martin Schongauer signs his copper engravings with a monogram; Dürer and Goltzius then take the burin line to its limit. | [`engraving-print`](./engraving-print/SKILL.md) |
+| 2 | Typeface | 1741 | +311 years | George Bickham engraves the copperplate hands of The Universal Penman (1741) on copper. | [`formal-script`](./formal-script/SKILL.md) |
+| 3 | Typeface | 1757 | +327 years | John Baskerville has John Handy cut sharp, high-contrast roman type in Birmingham, and prints it on smooth wove paper. | [`transitional-serif`](./transitional-serif/SKILL.md) |
+| 4 | Typeface | 1784 | +354 years | Firmin Didot cuts roman type with hairline serifs and a vertical stress; Giambattista Bodoni follows in Parma. | [`didone-serif`](./didone-serif/SKILL.md) |
+| 5 | Typeface | c. 1810 | +380 years | Robert Thorne cuts fat faces that push the engraved contrast of the Didones to an extreme. | [`fat-face-display`](./fat-face-display/SKILL.md) |
+| 6 | Logo | 1875 | +445 years | The UK Trade Marks Registration Act starts a register, and firms file engraved vignettes, banners and shaded figures. | [`victorian-trademark`](./victorian-trademark/SKILL.md) |
 
-Used by: [`transitional-serif`](./transitional-serif/SKILL.md), [`didone-serif`](./didone-serif/SKILL.md), [`victorian-trademark`](./victorian-trademark/SKILL.md), [`formal-script`](./formal-script/SKILL.md), [`fat-face-display`](./fat-face-display/SKILL.md).
+Used by: [`transitional-serif`](./transitional-serif/SKILL.md), [`didone-serif`](./didone-serif/SKILL.md), [`victorian-trademark`](./victorian-trademark/SKILL.md), [`formal-script`](./formal-script/SKILL.md), [`fat-face-display`](./fat-face-display/SKILL.md), [`engraving-print`](./engraving-print/SKILL.md).
 
 - Cut a hairline of 0.1 to 0.2mm for light areas; swell the line to 0.5mm or more for dark areas.
 - Build shade with parallel lines or cross hatching, and keep the lines at 30° to 45° to each other.
@@ -1019,11 +1061,13 @@ A print from a flat stone or plate on which a greasy drawing takes ink and water
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Graphic & UI Design | c. 1796 | — | Munich: Alois Senefelder invents lithography in Bavaria. | |
-| 1 | Painting | 1879 | +83 years | Odilon Redon publishes the lithographs of Dans le rêve, black dream visions. | [`symbolism-painting`](./symbolism-painting/SKILL.md) |
-| 2 | Graphic & UI Design | 1891 | +95 years | Henri de Toulouse-Lautrec prints the poster Moulin Rouge: La Goulue in colour lithography. | [`art-nouveau-web`](./art-nouveau-web/SKILL.md) |
-| 3 | Painting | 1895 | +99 years | Edvard Munch prints The Scream as a lithograph. | [`expressionism-painting`](./expressionism-painting/SKILL.md) |
+| 1 | Print | 1866 | +70 years | Jules Chéret prints his first colour posters on his own presses in Paris, with one stone for each ink. | [`chromolithograph-poster`](./chromolithograph-poster/SKILL.md) |
+| 2 | Painting | 1879 | +83 years | Odilon Redon publishes the lithographs of Dans le rêve, black dream visions. | [`symbolism-painting`](./symbolism-painting/SKILL.md) |
+| 3 | Graphic & UI Design | 1891 | +95 years | Henri de Toulouse-Lautrec prints the poster Moulin Rouge: La Goulue in colour lithography. | [`art-nouveau-web`](./art-nouveau-web/SKILL.md) |
+| 4 | Painting | 1895 | +99 years | Edvard Munch prints The Scream as a lithograph. | [`expressionism-painting`](./expressionism-painting/SKILL.md) |
+| 5 | Print | 1966 | +170 years | San Francisco poster artists have their dance posters printed by offset lithography, the planographic process on a rotary press. | [`psychedelic-concert-poster`](./psychedelic-concert-poster/SKILL.md) |
 
-Used by: [`symbolism-painting`](./symbolism-painting/SKILL.md), [`art-nouveau-web`](./art-nouveau-web/SKILL.md), [`expressionism-painting`](./expressionism-painting/SKILL.md).
+Used by: [`symbolism-painting`](./symbolism-painting/SKILL.md), [`art-nouveau-web`](./art-nouveau-web/SKILL.md), [`expressionism-painting`](./expressionism-painting/SKILL.md), [`chromolithograph-poster`](./chromolithograph-poster/SKILL.md), [`psychedelic-concert-poster`](./psychedelic-concert-poster/SKILL.md).
 
 - Draw on the stone with a greasy crayon or a tusche wash; the drawing takes ink and the rest stays wet.
 - Pull the print in a press at a run of 20 to 200 copies for an artist print, or more for a poster.
@@ -1049,6 +1093,24 @@ Used by: [`aurora-gradient-ui`](./aurora-gradient-ui/SKILL.md), [`ethereal-web`]
 - Put the field behind the content and give the text a solid or near-solid surface.
 
 Sources: Adobe Illustrator 8 user guide (1998).
+
+### Mezzotint
+
+An intaglio tone process: a rocker roughens the whole plate to a black, and the engraver scrapes and burnishes the lights.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Print | 1642 | — | Amsterdam: Ludwig von Siegen makes a portrait of Amalie Elisabeth of Hanau-Münzenberg in the new tone process. | |
+| 1 | Print | c. 1770 | +128 years | London engravers such as John Raphael Smith and Valentine Green reproduce the portraits of Reynolds and Gainsborough, and Europe calls it the English manner. | [`mezzotint-print`](./mezzotint-print/SKILL.md) |
+
+Used by: [`mezzotint-print`](./mezzotint-print/SKILL.md).
+
+- Rock the plate in 20–40 directions with a curved, toothed rocker until it prints a full, even black.
+- Scrape and burnish the grain flat where the image needs light; a full burnish prints white.
+- Work from dark to light, and check the tone with proofs at each stage.
+- Print only 50–100 good impressions; the soft grain wears quickly.
+
+Sources: [Wikipedia: Mezzotint](https://en.wikipedia.org/wiki/Mezzotint); [Wikipedia: Ludwig von Siegen](https://en.wikipedia.org/wiki/Ludwig_von_Siegen).
 
 ### Modular grid
 
@@ -1186,6 +1248,26 @@ Used by: [`nordic-modernism-architecture`](./nordic-modernism-architecture/SKILL
 - Put the roof light over the place of use: a reading table, a stair or the centre of a hall.
 
 Sources: Richard Weston, Alvar Aalto (1995).
+
+### Screen printing
+
+Ink pushed through a fine mesh with a squeegee; a stencil on the mesh blocks the parts that do not print.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Print | 1907 | — | Manchester: Samuel Simon patents the use of silk as a screen for stencil printing; sign and textile printers take it up. | |
+| 1 | Print | 1962 | +55 years | Andy Warhol starts to make photographic silkscreens in his studio and prints portraits in flat, loud colour. | [`pop-screen-print`](./pop-screen-print/SKILL.md) |
+| 2 | Painting | 1962 | +55 years | Warhol and Rauschenberg pull photo screens onto painted canvas. | [`pop-art-painting`](./pop-art-painting/SKILL.md) |
+| 3 | Graphic & UI Design | c. 1965 | +58 years | Poster studios screen print posters in flat, bright colours for clubs and protests. | [`pop-art-web`](./pop-art-web/SKILL.md) |
+
+Used by: [`pop-screen-print`](./pop-screen-print/SKILL.md), [`pop-art-painting`](./pop-art-painting/SKILL.md), [`pop-art-web`](./pop-art-web/SKILL.md).
+
+- Stretch a silk or polyester mesh of 40–120 threads a centimetre on a frame.
+- Make the stencil by hand cut film or by a photo emulsion exposed through a film positive.
+- Pull thick, opaque ink across the screen with a rubber squeegee in one even stroke.
+- Print each colour from its own screen and let each layer dry before the next.
+
+Sources: [Wikipedia: Screen printing](https://en.wikipedia.org/wiki/Screen_printing); [Wikipedia: Andy Warhol](https://en.wikipedia.org/wiki/Andy_Warhol).
 
 ### Serial repetition
 
@@ -1325,8 +1407,9 @@ Large display letters routed from end-grain wood instead of cast in metal, so po
 | 1 | Typeface | 1828 | +0 years | The first wood type lines are fat faces copied from the London founders. | [`fat-face-display`](./fat-face-display/SKILL.md) |
 | 2 | Typeface | c. 1834 | +6 years | Wood type founders add Egyptian slabs and condensed letters for posters. | [`slab-serif`](./slab-serif/SKILL.md), [`grotesque-sans`](./grotesque-sans/SKILL.md) |
 | 3 | Logo | c. 1875 | +47 years | Trade cards and shop signs set the name of the firm in heavy wood letters. | [`victorian-trademark`](./victorian-trademark/SKILL.md) |
+| 4 | Print | 1879 | +51 years | Hatch Show Print opens in Nashville and prints show bills from wood type and cuts for circuses, minstrels and later country music. | [`wood-type-poster`](./wood-type-poster/SKILL.md) |
 
-Used by: [`fat-face-display`](./fat-face-display/SKILL.md), [`slab-serif`](./slab-serif/SKILL.md), [`grotesque-sans`](./grotesque-sans/SKILL.md), [`victorian-trademark`](./victorian-trademark/SKILL.md).
+Used by: [`fat-face-display`](./fat-face-display/SKILL.md), [`slab-serif`](./slab-serif/SKILL.md), [`grotesque-sans`](./grotesque-sans/SKILL.md), [`victorian-trademark`](./victorian-trademark/SKILL.md), [`wood-type-poster`](./wood-type-poster/SKILL.md).
 
 - Use wood type for letters above about 72 pt, where metal is too heavy and too expensive.
 - Draw the faces to be loud at a distance: fat face, slab and condensed grotesque, in one weight per line.
@@ -1341,12 +1424,14 @@ A print from a block of wood with the white parts cut away; the result is flat c
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Graphic & UI Design | 868 | — | Dunhuang: The Diamond Sutra, printed in China in 868, is the oldest dated printed book made from woodblocks. | |
-| 1 | Painting | 1765 | +897 years | Suzuki Harunobu and his printers make the full-colour nishiki-e print on many blocks. | [`ukiyo-e`](./ukiyo-e/SKILL.md) |
-| 2 | Painting | c. 1894 | +1026 years | Paul Gauguin cuts the woodcuts of the Noa Noa series with flat colour and rough cuts. | [`post-impressionism`](./post-impressionism/SKILL.md) |
-| 3 | Painting | 1905 | +1037 years | Ernst Ludwig Kirchner, Erich Heckel and Karl Schmidt-Rottluff of Die Brücke cut jagged woodcuts in Dresden. | [`expressionism-painting`](./expressionism-painting/SKILL.md) |
-| 4 | Painting | 1906 | +1038 years | André Derain and Maurice de Vlaminck cut woodcuts with flat colour and rough gouge marks. | [`fauvism`](./fauvism/SKILL.md) |
+| 1 | Print | 1493 | +625 years | Michael Wolgemut and Wilhelm Pleydenwurff design the 1,809 woodcuts of the Nuremberg Chronicle, which Anton Koberger prints with the text. | [`woodcut-relief-print`](./woodcut-relief-print/SKILL.md) |
+| 2 | Painting | 1765 | +897 years | Suzuki Harunobu and his printers make the full-colour nishiki-e print on many blocks. | [`ukiyo-e`](./ukiyo-e/SKILL.md) |
+| 3 | Print | 1891 | +1023 years | William Morris draws woodcut borders and initials for the Kelmscott Press, cut by William Harcourt Hooper and others. | [`private-press-book`](./private-press-book/SKILL.md) |
+| 4 | Painting | c. 1894 | +1026 years | Paul Gauguin cuts the woodcuts of the Noa Noa series with flat colour and rough cuts. | [`post-impressionism`](./post-impressionism/SKILL.md) |
+| 5 | Painting | 1905 | +1037 years | Ernst Ludwig Kirchner, Erich Heckel and Karl Schmidt-Rottluff of Die Brücke cut jagged woodcuts in Dresden. | [`expressionism-painting`](./expressionism-painting/SKILL.md) |
+| 6 | Painting | 1906 | +1038 years | André Derain and Maurice de Vlaminck cut woodcuts with flat colour and rough gouge marks. | [`fauvism`](./fauvism/SKILL.md) |
 
-Used by: [`ukiyo-e`](./ukiyo-e/SKILL.md), [`post-impressionism`](./post-impressionism/SKILL.md), [`expressionism-painting`](./expressionism-painting/SKILL.md), [`fauvism`](./fauvism/SKILL.md).
+Used by: [`ukiyo-e`](./ukiyo-e/SKILL.md), [`post-impressionism`](./post-impressionism/SKILL.md), [`expressionism-painting`](./expressionism-painting/SKILL.md), [`fauvism`](./fauvism/SKILL.md), [`woodcut-relief-print`](./woodcut-relief-print/SKILL.md), [`private-press-book`](./private-press-book/SKILL.md).
 
 - Cut the block along the grain with a knife and a gouge; leave a line of 1mm to 3mm for the black.
 - Use one block for each colour and register them within 1 mm.
@@ -1543,6 +1628,24 @@ Used by: [`hand-painted-texture`](./hand-painted-texture/SKILL.md).
 
 Sources: [Wikipedia: World of Warcraft](https://en.wikipedia.org/wiki/World_of_Warcraft); [Wikipedia: Texture mapping](https://en.wikipedia.org/wiki/Texture_mapping).
 
+### Pochoir
+
+Colour put on by hand through a set of cut stencils, one for each colour, over a printed key line.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Print | 1908 | — | Paris: Paul Iribe's album Les Robes de Paul Poiret is coloured by hand through stencils, and Paris fashion takes up the method. | |
+| 1 | Print | 1912 | +4 years | Lucien Vogel launches the Gazette du Bon Ton, with plates by Barbier, Lepape and Martin coloured in pochoir. | [`pochoir-plate`](./pochoir-plate/SKILL.md) |
+
+Used by: [`pochoir-plate`](./pochoir-plate/SKILL.md).
+
+- Cut one stencil from zinc, copper or celluloid for each colour of the original; a plate can need 20–100 stencils.
+- Put on gouache or watercolour with a round brush (pompon) in a dabbing motion, so the edge stays clean.
+- Align each stencil by eye to the printed key line.
+- Mix each colour to match the original and keep it flat and opaque.
+
+Sources: [Wikipedia: Pochoir](https://en.wikipedia.org/wiki/Pochoir); [Wikipedia: Gazette du Bon Ton](https://en.wikipedia.org/wiki/Gazette_du_Bon_Ton).
+
 ## Technology
 
 ### Affine texture warp
@@ -1703,6 +1806,24 @@ Used by: [`pbr-photoreal`](./pbr-photoreal/SKILL.md).
 - Light with physical units and a real sky; let light bounce.
 
 Sources: [Wikipedia: Physically based rendering](https://en.wikipedia.org/wiki/Physically_based_rendering); [Karis, Real Shading in Unreal Engine 4, SIGGRAPH 2013](https://blog.selfshadow.com/publications/s2013-shading-course/).
+
+### Risograph
+
+A digital stencil duplicator: a thermal head cuts a master, and a drum pushes soy ink through it in one spot colour.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Print | 1986 | — | Tokyo: Riso Kagaku sells the first machine under the Risograph name, for schools, churches and offices. | |
+| 1 | Print | c. 2008 | +22 years | Art and zine studios buy used duplicators and print books and posters in fluorescent spot inks. | [`risograph-print`](./risograph-print/SKILL.md) |
+
+Used by: [`risograph-print`](./risograph-print/SKILL.md).
+
+- Separate the design into 1–4 spot colours and give each layer as a greyscale file.
+- Print one drum (one colour) at a pass and feed the sheets again for the next colour.
+- Keep tones on a grain or halftone screen of 50–110 lines an inch; avoid large solids.
+- Use uncoated paper, and let the ink dry before a second pass to stop set-off.
+
+Sources: [Wikipedia: Risograph](https://en.wikipedia.org/wiki/Risograph); [Wikipedia: Stencil duplicator](https://en.wikipedia.org/wiki/Stencil_duplicator).
 
 ### 35 mm camera
 
