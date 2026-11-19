@@ -1002,16 +1002,16 @@
     "beauty": [
       {
         "carrier": "style",
-        "id": "georgian-interior",
-        "domain": "interior",
+        "id": "art-deco-architecture",
+        "domain": "architecture",
         "strength": 1,
-        "evidence": "measured",
-        "score": 1
+        "evidence": "stated",
+        "score": 0.7
       },
       {
         "carrier": "style",
-        "id": "art-deco-architecture",
-        "domain": "architecture",
+        "id": "georgian-interior",
+        "domain": "interior",
         "strength": 1,
         "evidence": "stated",
         "score": 0.7
@@ -1050,30 +1050,6 @@
       },
       {
         "carrier": "style",
-        "id": "beaux-arts-architecture",
-        "domain": "architecture",
-        "strength": 0.5,
-        "evidence": "measured",
-        "score": 0.5
-      },
-      {
-        "carrier": "style",
-        "id": "gothic-architecture",
-        "domain": "architecture",
-        "strength": 0.5,
-        "evidence": "measured",
-        "score": 0.5
-      },
-      {
-        "carrier": "style",
-        "id": "industrial-loft-interior",
-        "domain": "interior",
-        "strength": 0.5,
-        "evidence": "measured",
-        "score": 0.5
-      },
-      {
-        "carrier": "style",
         "id": "parametricism-architecture",
         "domain": "architecture",
         "strength": 0.7,
@@ -1091,14 +1067,6 @@
       {
         "carrier": "style",
         "id": "art-deco-interior",
-        "domain": "interior",
-        "strength": 0.5,
-        "evidence": "stated",
-        "score": 0.35
-      },
-      {
-        "carrier": "style",
-        "id": "arts-and-crafts-interior",
         "domain": "interior",
         "strength": 0.5,
         "evidence": "stated",
@@ -1740,6 +1708,14 @@
         "carrier": "style",
         "id": "flat-lay-feed",
         "domain": "internet",
+        "strength": 0.5,
+        "evidence": "inferred",
+        "score": 0.15
+      },
+      {
+        "carrier": "style",
+        "id": "gothic-architecture",
+        "domain": "architecture",
         "strength": 0.5,
         "evidence": "inferred",
         "score": 0.15
@@ -2782,14 +2758,6 @@
       },
       {
         "carrier": "style",
-        "id": "dopamine-decor",
-        "domain": "interior",
-        "strength": 1,
-        "evidence": "stated",
-        "score": 0.7
-      },
-      {
-        "carrier": "style",
         "id": "high-tech-architecture",
         "domain": "architecture",
         "strength": 1,
@@ -3008,6 +2976,14 @@
         "carrier": "style",
         "id": "documentary-verite",
         "domain": "film",
+        "strength": 1,
+        "evidence": "inferred",
+        "score": 0.3
+      },
+      {
+        "carrier": "style",
+        "id": "dopamine-decor",
+        "domain": "interior",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -4990,22 +4966,6 @@
     "insight": [
       {
         "carrier": "style",
-        "id": "bauhaus-architecture",
-        "domain": "architecture",
-        "strength": 1,
-        "evidence": "stated",
-        "score": 0.7
-      },
-      {
-        "carrier": "style",
-        "id": "bauhaus-interior",
-        "domain": "interior",
-        "strength": 1,
-        "evidence": "stated",
-        "score": 0.7
-      },
-      {
-        "carrier": "style",
         "id": "international-style-architecture",
         "domain": "architecture",
         "strength": 1,
@@ -5024,6 +4984,22 @@
         "carrier": "style",
         "id": "american-pocket-watch",
         "domain": "fashion",
+        "strength": 1,
+        "evidence": "inferred",
+        "score": 0.3
+      },
+      {
+        "carrier": "style",
+        "id": "bauhaus-architecture",
+        "domain": "architecture",
+        "strength": 1,
+        "evidence": "inferred",
+        "score": 0.3
+      },
+      {
+        "carrier": "style",
+        "id": "bauhaus-interior",
+        "domain": "interior",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -5716,14 +5692,6 @@
     "joy": [
       {
         "carrier": "style",
-        "id": "mass-timber-architecture",
-        "domain": "architecture",
-        "strength": 1,
-        "evidence": "measured",
-        "score": 1
-      },
-      {
-        "carrier": "style",
         "id": "arts-and-crafts-architecture",
         "domain": "architecture",
         "strength": 1,
@@ -5748,24 +5716,16 @@
       },
       {
         "carrier": "style",
-        "id": "mid-century-modern-architecture",
-        "domain": "architecture",
-        "strength": 1,
-        "evidence": "stated",
-        "score": 0.7
-      },
-      {
-        "carrier": "style",
-        "id": "mid-century-modern-interior",
-        "domain": "interior",
-        "strength": 1,
-        "evidence": "stated",
-        "score": 0.7
-      },
-      {
-        "carrier": "style",
         "id": "art-deco-interior",
         "domain": "interior",
+        "strength": 0.5,
+        "evidence": "stated",
+        "score": 0.35
+      },
+      {
+        "carrier": "style",
+        "id": "mass-timber-architecture",
+        "domain": "architecture",
         "strength": 0.5,
         "evidence": "stated",
         "score": 0.35
@@ -6222,6 +6182,22 @@
         "carrier": "style",
         "id": "mid-century-modern",
         "domain": "internet",
+        "strength": 1,
+        "evidence": "inferred",
+        "score": 0.3
+      },
+      {
+        "carrier": "style",
+        "id": "mid-century-modern-architecture",
+        "domain": "architecture",
+        "strength": 1,
+        "evidence": "inferred",
+        "score": 0.3
+      },
+      {
+        "carrier": "style",
+        "id": "mid-century-modern-interior",
+        "domain": "interior",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -7428,38 +7404,6 @@
     "relaxation": [
       {
         "carrier": "style",
-        "id": "japandi-interior",
-        "domain": "interior",
-        "strength": 1,
-        "evidence": "measured",
-        "score": 1
-      },
-      {
-        "carrier": "style",
-        "id": "mass-timber-architecture",
-        "domain": "architecture",
-        "strength": 1,
-        "evidence": "measured",
-        "score": 1
-      },
-      {
-        "carrier": "style",
-        "id": "scandinavian-interior",
-        "domain": "interior",
-        "strength": 1,
-        "evidence": "measured",
-        "score": 1
-      },
-      {
-        "carrier": "style",
-        "id": "shaker-interior",
-        "domain": "interior",
-        "strength": 1,
-        "evidence": "measured",
-        "score": 1
-      },
-      {
-        "carrier": "style",
         "id": "coastal-interior",
         "domain": "interior",
         "strength": 1,
@@ -7468,16 +7412,24 @@
       },
       {
         "carrier": "style",
-        "id": "critical-regionalism-architecture",
-        "domain": "architecture",
+        "id": "industrial-loft-interior",
+        "domain": "interior",
         "strength": 1,
         "evidence": "stated",
         "score": 0.7
       },
       {
         "carrier": "style",
-        "id": "industrial-loft-interior",
+        "id": "japandi-interior",
         "domain": "interior",
+        "strength": 1,
+        "evidence": "stated",
+        "score": 0.7
+      },
+      {
+        "carrier": "style",
+        "id": "mass-timber-architecture",
+        "domain": "architecture",
         "strength": 1,
         "evidence": "stated",
         "score": 0.7
@@ -7500,8 +7452,8 @@
       },
       {
         "carrier": "style",
-        "id": "prairie-school-architecture",
-        "domain": "architecture",
+        "id": "scandinavian-interior",
+        "domain": "interior",
         "strength": 1,
         "evidence": "stated",
         "score": 0.7
@@ -7734,6 +7686,14 @@
         "carrier": "style",
         "id": "creator-vlog",
         "domain": "film",
+        "strength": 1,
+        "evidence": "inferred",
+        "score": 0.3
+      },
+      {
+        "carrier": "style",
+        "id": "critical-regionalism-architecture",
+        "domain": "architecture",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -8188,6 +8148,14 @@
       },
       {
         "carrier": "style",
+        "id": "prairie-school-architecture",
+        "domain": "architecture",
+        "strength": 1,
+        "evidence": "inferred",
+        "score": 0.3
+      },
+      {
+        "carrier": "style",
         "id": "qin-terracotta-warriors",
         "domain": "ceramics",
         "strength": 1,
@@ -8278,6 +8246,14 @@
         "carrier": "style",
         "id": "scandinavian-tiled-stove",
         "domain": "ceramics",
+        "strength": 1,
+        "evidence": "inferred",
+        "score": 0.3
+      },
+      {
+        "carrier": "style",
+        "id": "shaker-interior",
+        "domain": "interior",
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
@@ -9497,14 +9473,6 @@
       },
       {
         "carrier": "style",
-        "id": "coastal-interior",
-        "domain": "interior",
-        "strength": 0.7,
-        "evidence": "measured",
-        "score": 0.7
-      },
-      {
-        "carrier": "style",
         "id": "nordic-modernism-architecture",
         "domain": "architecture",
         "strength": 1,
@@ -9526,22 +9494,6 @@
         "strength": 1,
         "evidence": "stated",
         "score": 0.7
-      },
-      {
-        "carrier": "style",
-        "id": "international-style-architecture",
-        "domain": "architecture",
-        "strength": 0.5,
-        "evidence": "measured",
-        "score": 0.5
-      },
-      {
-        "carrier": "style",
-        "id": "mid-century-modern-architecture",
-        "domain": "architecture",
-        "strength": 0.5,
-        "evidence": "measured",
-        "score": 0.5
       },
       {
         "carrier": "style",
@@ -9910,6 +9862,14 @@
         "strength": 1,
         "evidence": "inferred",
         "score": 0.3
+      },
+      {
+        "carrier": "style",
+        "id": "coastal-interior",
+        "domain": "interior",
+        "strength": 0.7,
+        "evidence": "inferred",
+        "score": 0.21
       },
       {
         "carrier": "style",
@@ -10436,7 +10396,7 @@
       {
         "emotion": "insight",
         "strength": 1,
-        "evidence": "stated"
+        "evidence": "inferred"
       },
       {
         "emotion": "relaxation",
@@ -10449,11 +10409,6 @@
         "emotion": "awe",
         "strength": 1,
         "evidence": "stated"
-      },
-      {
-        "emotion": "beauty",
-        "strength": 0.5,
-        "evidence": "measured"
       }
     ],
     "brutalist-architecture": [
@@ -10480,14 +10435,14 @@
     ],
     "critical-regionalism-architecture": [
       {
-        "emotion": "relaxation",
-        "strength": 1,
-        "evidence": "stated"
-      },
-      {
         "emotion": "awe",
         "strength": 0.5,
         "evidence": "stated"
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": "inferred"
       },
       {
         "emotion": "vitality",
@@ -10551,14 +10506,14 @@
         "evidence": "stated"
       },
       {
-        "emotion": "beauty",
-        "strength": 0.5,
-        "evidence": "measured"
-      },
-      {
         "emotion": "enchantment",
         "strength": 0.5,
         "evidence": "stated"
+      },
+      {
+        "emotion": "beauty",
+        "strength": 0.5,
+        "evidence": "inferred"
       },
       {
         "emotion": "fascination",
@@ -10590,11 +10545,6 @@
         "evidence": "stated"
       },
       {
-        "emotion": "vitality",
-        "strength": 0.5,
-        "evidence": "measured"
-      },
-      {
         "emotion": "joy",
         "strength": 1,
         "evidence": "inferred"
@@ -10608,13 +10558,13 @@
     "mass-timber-architecture": [
       {
         "emotion": "joy",
-        "strength": 1,
-        "evidence": "measured"
+        "strength": 0.5,
+        "evidence": "stated"
       },
       {
         "emotion": "relaxation",
         "strength": 1,
-        "evidence": "measured"
+        "evidence": "stated"
       },
       {
         "emotion": "vitality",
@@ -10624,19 +10574,14 @@
     ],
     "mid-century-modern-architecture": [
       {
-        "emotion": "joy",
-        "strength": 1,
-        "evidence": "stated"
-      },
-      {
         "emotion": "hygge",
         "strength": 0.5,
         "evidence": "stated"
       },
       {
-        "emotion": "vitality",
-        "strength": 0.5,
-        "evidence": "measured"
+        "emotion": "joy",
+        "strength": 1,
+        "evidence": "inferred"
       },
       {
         "emotion": "relaxation",
@@ -10741,14 +10686,14 @@
     ],
     "prairie-school-architecture": [
       {
-        "emotion": "relaxation",
+        "emotion": "vitality",
         "strength": 1,
         "evidence": "stated"
       },
       {
-        "emotion": "vitality",
+        "emotion": "relaxation",
         "strength": 1,
-        "evidence": "stated"
+        "evidence": "inferred"
       }
     ],
     "renaissance-architecture": [
@@ -14215,11 +14160,6 @@
         "evidence": "stated"
       },
       {
-        "emotion": "beauty",
-        "strength": 0.5,
-        "evidence": "stated"
-      },
-      {
         "emotion": "nostalgia",
         "strength": 0.5,
         "evidence": "stated"
@@ -14239,7 +14179,7 @@
       {
         "emotion": "insight",
         "strength": 1,
-        "evidence": "stated"
+        "evidence": "inferred"
       }
     ],
     "coastal-interior": [
@@ -14249,22 +14189,17 @@
         "evidence": "stated"
       },
       {
-        "emotion": "vitality",
-        "strength": 0.7,
-        "evidence": "measured"
-      },
-      {
         "emotion": "joy",
         "strength": 0.3,
         "evidence": "stated"
+      },
+      {
+        "emotion": "vitality",
+        "strength": 0.7,
+        "evidence": "inferred"
       }
     ],
     "dopamine-decor": [
-      {
-        "emotion": "energy",
-        "strength": 1,
-        "evidence": "stated"
-      },
       {
         "emotion": "joy",
         "strength": 1,
@@ -14274,6 +14209,11 @@
         "emotion": "humour",
         "strength": 0.5,
         "evidence": "stated"
+      },
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "georgian-interior": [
@@ -14285,7 +14225,7 @@
       {
         "emotion": "beauty",
         "strength": 1,
-        "evidence": "measured"
+        "evidence": "stated"
       },
       {
         "emotion": "relaxation",
@@ -14344,11 +14284,6 @@
         "evidence": "stated"
       },
       {
-        "emotion": "beauty",
-        "strength": 0.5,
-        "evidence": "measured"
-      },
-      {
         "emotion": "energy",
         "strength": 0.5,
         "evidence": "stated"
@@ -14363,7 +14298,7 @@
       {
         "emotion": "relaxation",
         "strength": 1,
-        "evidence": "measured"
+        "evidence": "stated"
       },
       {
         "emotion": "wabi-sabi",
@@ -14400,14 +14335,14 @@
     ],
     "mid-century-modern-interior": [
       {
-        "emotion": "joy",
-        "strength": 1,
-        "evidence": "stated"
-      },
-      {
         "emotion": "hygge",
         "strength": 0.5,
         "evidence": "stated"
+      },
+      {
+        "emotion": "joy",
+        "strength": 1,
+        "evidence": "inferred"
       },
       {
         "emotion": "relaxation",
@@ -14480,7 +14415,7 @@
       {
         "emotion": "relaxation",
         "strength": 1,
-        "evidence": "measured"
+        "evidence": "stated"
       },
       {
         "emotion": "hygge",
@@ -14505,11 +14440,6 @@
     ],
     "shaker-interior": [
       {
-        "emotion": "relaxation",
-        "strength": 1,
-        "evidence": "measured"
-      },
-      {
         "emotion": "beauty",
         "strength": 0.5,
         "evidence": "stated"
@@ -14518,6 +14448,11 @@
         "emotion": "interest",
         "strength": 0.3,
         "evidence": "stated"
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "victorian-interior": [
