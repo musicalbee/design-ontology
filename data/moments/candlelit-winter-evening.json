@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schema/moment.schema.json",
+  "id": "candlelit-winter-evening",
+  "name": "Candlelit winter evening",
+  "kind": "daily",
+  "description": "Candles and low lamps make small pools of warm light, and the dark outside makes the room feel safe.",
+  "emotions": [
+    {
+      "emotion": "hygge",
+      "strength": 1
+    },
+    {
+      "emotion": "koselig",
+      "strength": 1
+    },
+    {
+      "emotion": "relaxation",
+      "strength": 0.8
+    },
+    {
+      "emotion": "joy",
+      "strength": 0.4
+    }
+  ],
+  "time": {
+    "of_day": [
+      "evening",
+      "night"
+    ],
+    "season": [
+      "winter",
+      "autumn"
+    ],
+    "sun_elevation_deg": null
+  },
+  "light": {
+    "cct_k": {
+      "min": 1850,
+      "max": 2400
+    },
+    "lux": {
+      "min": 5,
+      "max": 50
+    },
+    "direction": "low-side",
+    "quality": "soft",
+    "sources": [
+      "candle",
+      "lamp",
+      "fire"
+    ]
+  },
+  "weather": [
+    "indoors"
+  ],
+  "sound": [
+    "crackle of a stove",
+    "low talk",
+    "rain or wind outside"
+  ],
+  "scent": [
+    "candle wax",
+    "wood smoke",
+    "tea"
+  ],
+  "people": {
+    "min": 1,
+    "max": 6,
+    "activity": "talk, read or knit on sofas and a rug"
+  },
+  "carriers": {
+    "styles": [
+      "scandinavian-interior",
+      "japandi-interior"
+    ],
+    "things": [
+      "candles",
+      "sheepskin",
+      "wool blanket",
+      "wood stove"
+    ]
+  },
+  "cues": [
+    "warm-dim-light-positive-affect",
+    "kruithof-cct-illuminance",
+    "prospect-refuge-preference"
+  ],
+  "scene_ref": null,
+  "sources": [
+    {
+      "title": "Wikipedia, Hygge: the Danish and Norwegian word for a cosy, contented mood",
+      "url": "https://en.wikipedia.org/wiki/Hygge"
+    },
+    {
+      "title": "Visit Norway, Kos means having a good time",
+      "url": "https://www.visitnorway.com/typically-norwegian/kos-means-having-a-good-time"
+    },
+    {
+      "title": "Wikipedia, Color temperature: typical values for candle, lamp, daylight and overcast sky",
+      "url": "https://en.wikipedia.org/wiki/Color_temperature"
+    }
+  ]
+}

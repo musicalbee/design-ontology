@@ -1,0 +1,85 @@
+{
+  "$schema": "../../schema/moment.schema.json",
+  "id": "hot-bath-alone",
+  "name": "A hot bath alone (ofuro)",
+  "kind": "ritual",
+  "description": "One person soaks in deep hot water in a wood tub, with low light and no screens.",
+  "emotions": [
+    {
+      "emotion": "relaxation",
+      "strength": 1
+    },
+    {
+      "emotion": "wabi-sabi",
+      "strength": 0.6
+    },
+    {
+      "emotion": "insight",
+      "strength": 0.3
+    }
+  ],
+  "time": {
+    "of_day": [
+      "evening",
+      "night"
+    ],
+    "season": [
+      "any"
+    ],
+    "sun_elevation_deg": null
+  },
+  "light": {
+    "cct_k": {
+      "min": 2400,
+      "max": 3000
+    },
+    "lux": {
+      "min": 10,
+      "max": 100
+    },
+    "direction": "low-side",
+    "quality": "soft",
+    "sources": [
+      "lamp",
+      "candle"
+    ]
+  },
+  "weather": [
+    "indoors"
+  ],
+  "sound": [
+    "water",
+    "silence"
+  ],
+  "scent": [
+    "hinoki wood",
+    "steam"
+  ],
+  "people": {
+    "min": 1,
+    "max": 1,
+    "activity": "soak in hot water"
+  },
+  "carriers": {
+    "styles": [
+      "japandi-interior",
+      "minimalist-interior"
+    ],
+    "things": [
+      "deep wood tub",
+      "stone floor",
+      "small window to a garden"
+    ]
+  },
+  "cues": [
+    "warm-dim-light-positive-affect",
+    "window-view-trees-recovery"
+  ],
+  "scene_ref": null,
+  "sources": [
+    {
+      "title": "Wikipedia, Ofuro: the water is kept hot, at about 38 to 42 degrees Celsius",
+      "url": "https://en.wikipedia.org/wiki/Ofuro"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "../../schema/cue.schema.json",
+  "id": "warm-dim-light-positive-affect",
+  "name": "Warm-white and dim light can raise positive affect",
+  "variable": "colour-temperature",
+  "direction": {
+    "change": "warmer",
+    "unit": "lamp type and lux",
+    "range": {
+      "from": "cool white, 1500 lux",
+      "to": "warm white, 150 lux"
+    },
+    "note": "The studies compared 150 and 1500 lux, and warm-white and cool-white fluorescent lamps."
+  },
+  "effects": [
+    {
+      "target": "pad:p",
+      "sign": 1,
+      "size": "small"
+    },
+    {
+      "target": "relaxation",
+      "sign": 1,
+      "size": "small"
+    }
+  ],
+  "evidence_kind": "measured",
+  "claim": "Under warm-white light people chose more cooperative ways to solve a conflict and gave more time to help, and low light raised ratings of others in one study.",
+  "study": {
+    "participants": null,
+    "setting": "lab"
+  },
+  "caveat": "The authors say that the support for positive affect as the cause is only partial, so treat the cue as weak.",
+  "weak": true,
+  "sources": [
+    {
+      "title": "Baron, Rea and Daniels 1992, Effects of indoor lighting on cognitive tasks and interpersonal behaviors, Motivation and Emotion 16(1)",
+      "url": "https://doi.org/10.1007/BF00996485"
+    }
+  ]
+}

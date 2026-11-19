@@ -1,0 +1,85 @@
+{
+  "$schema": "../../schema/moment.schema.json",
+  "id": "wedding-dinner",
+  "name": "Wedding dinner",
+  "kind": "life-event",
+  "description": "After the vows the guests sit at long tables with speeches, candles and a first dance.",
+  "emotions": [
+    {
+      "emotion": "joy",
+      "strength": 1
+    },
+    {
+      "emotion": "being-moved",
+      "strength": 0.9
+    },
+    {
+      "emotion": "beauty",
+      "strength": 0.6
+    }
+  ],
+  "time": {
+    "of_day": [
+      "evening"
+    ],
+    "season": [
+      "summer",
+      "any"
+    ],
+    "sun_elevation_deg": null
+  },
+  "light": {
+    "cct_k": {
+      "min": 1850,
+      "max": 3000
+    },
+    "lux": {
+      "min": 20,
+      "max": 200
+    },
+    "direction": "top",
+    "quality": "soft",
+    "sources": [
+      "candle",
+      "lamp"
+    ]
+  },
+  "weather": [
+    "indoors",
+    "clear"
+  ],
+  "sound": [
+    "speeches",
+    "glasses",
+    "band",
+    "laughter"
+  ],
+  "scent": [
+    "flowers",
+    "wine"
+  ],
+  "people": {
+    "min": 30,
+    "max": null,
+    "activity": "eat, give speeches, dance"
+  },
+  "carriers": {
+    "styles": [],
+    "things": [
+      "long tables",
+      "flowers",
+      "candles",
+      "string lights"
+    ]
+  },
+  "cues": [
+    "warm-dim-light-positive-affect"
+  ],
+  "scene_ref": null,
+  "sources": [
+    {
+      "title": "Wikipedia, Wedding: most ceremonies share vows, a symbolic gift and a public declaration",
+      "url": "https://en.wikipedia.org/wiki/Wedding"
+    }
+  ]
+}

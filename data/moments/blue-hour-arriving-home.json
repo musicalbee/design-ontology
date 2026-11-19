@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schema/moment.schema.json",
+  "id": "blue-hour-arriving-home",
+  "name": "Arriving home at blue hour",
+  "kind": "daily",
+  "description": "The sky outside is deep blue after sunset, and the warm windows of the house glow against it.",
+  "emotions": [
+    {
+      "emotion": "koselig",
+      "strength": 1
+    },
+    {
+      "emotion": "relaxation",
+      "strength": 0.8
+    },
+    {
+      "emotion": "nostalgia",
+      "strength": 0.5
+    },
+    {
+      "emotion": "beauty",
+      "strength": 0.5
+    }
+  ],
+  "time": {
+    "of_day": [
+      "blue-hour"
+    ],
+    "season": [
+      "autumn",
+      "winter"
+    ],
+    "sun_elevation_deg": {
+      "min": -8,
+      "max": -4
+    }
+  },
+  "light": {
+    "cct_k": {
+      "min": 1850,
+      "max": 2700
+    },
+    "lux": {
+      "min": 3,
+      "max": 50
+    },
+    "direction": "mixed",
+    "quality": "soft",
+    "sources": [
+      "sky",
+      "lamp"
+    ]
+  },
+  "weather": [
+    "clear",
+    "partly-cloudy"
+  ],
+  "sound": [
+    "key in the door",
+    "steps on gravel",
+    "quiet street"
+  ],
+  "scent": [
+    "cold air",
+    "wood smoke"
+  ],
+  "people": {
+    "min": 1,
+    "max": 2,
+    "activity": "come home from work, take off coats"
+  },
+  "carriers": {
+    "styles": [
+      "scandinavian-interior",
+      "nordic-modernism-architecture"
+    ],
+    "things": [
+      "lit window",
+      "front door",
+      "wool coat",
+      "pendant lamp"
+    ]
+  },
+  "cues": [
+    "warm-dim-light-positive-affect",
+    "kruithof-cct-illuminance"
+  ],
+  "scene_ref": null,
+  "sources": [
+    {
+      "title": "Wikipedia, Blue hour: the sun about 4 to 8 degrees below the horizon",
+      "url": "https://en.wikipedia.org/wiki/Blue_hour"
+    },
+    {
+      "title": "Wikipedia, Twilight: civil, nautical and astronomical stages",
+      "url": "https://en.wikipedia.org/wiki/Twilight"
+    },
+    {
+      "title": "Wikipedia, Color temperature: typical values for candle, lamp, daylight and overcast sky",
+      "url": "https://en.wikipedia.org/wiki/Color_temperature"
+    },
+    {
+      "title": "Visit Norway, Kos means having a good time",
+      "url": "https://www.visitnorway.com/typically-norwegian/kos-means-having-a-good-time"
+    }
+  ]
+}

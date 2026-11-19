@@ -1,0 +1,88 @@
+{
+  "$schema": "../../schema/moment.schema.json",
+  "id": "midnight-sun-night",
+  "name": "Midnight sun",
+  "kind": "seasonal",
+  "description": "In June the sun stays above the horizon all night, and the low gold light does not end.",
+  "emotions": [
+    {
+      "emotion": "vitality",
+      "strength": 1
+    },
+    {
+      "emotion": "awe",
+      "strength": 0.6
+    },
+    {
+      "emotion": "energy",
+      "strength": 0.7
+    },
+    {
+      "emotion": "joy",
+      "strength": 0.6
+    }
+  ],
+  "time": {
+    "of_day": [
+      "night"
+    ],
+    "season": [
+      "summer"
+    ],
+    "sun_elevation_deg": {
+      "min": 1,
+      "max": 10
+    }
+  },
+  "light": {
+    "cct_k": {
+      "min": 2500,
+      "max": 4000
+    },
+    "lux": {
+      "min": 400,
+      "max": 10000
+    },
+    "direction": "low-side",
+    "quality": "hard",
+    "sources": [
+      "sun"
+    ]
+  },
+  "weather": [
+    "clear"
+  ],
+  "sound": [
+    "sea birds",
+    "waves",
+    "talk on a terrace"
+  ],
+  "scent": [
+    "sea air"
+  ],
+  "people": {
+    "min": 2,
+    "max": 20,
+    "activity": "stay up, walk, fish or eat outside"
+  },
+  "carriers": {
+    "styles": [
+      "nordic-modernism-architecture"
+    ],
+    "things": [
+      "terrace",
+      "blackout curtains",
+      "boat"
+    ]
+  },
+  "cues": [
+    "bright-light-intensifies-emotion"
+  ],
+  "scene_ref": null,
+  "sources": [
+    {
+      "title": "Wikipedia, Midnight sun: in Tromso the sun stays up from late May to mid-July",
+      "url": "https://en.wikipedia.org/wiki/Midnight_sun"
+    }
+  ]
+}

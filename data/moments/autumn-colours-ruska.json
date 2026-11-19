@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schema/moment.schema.json",
+  "id": "autumn-colours-ruska",
+  "name": "Autumn colours (ruska)",
+  "kind": "seasonal",
+  "description": "Birch and blueberry slopes turn yellow, orange and red for a short time before the first snow.",
+  "emotions": [
+    {
+      "emotion": "beauty",
+      "strength": 1
+    },
+    {
+      "emotion": "mono-no-aware",
+      "strength": 0.7
+    },
+    {
+      "emotion": "nostalgia",
+      "strength": 0.6
+    },
+    {
+      "emotion": "sadness",
+      "strength": 0.3
+    }
+  ],
+  "time": {
+    "of_day": [
+      "afternoon",
+      "golden-hour"
+    ],
+    "season": [
+      "autumn"
+    ],
+    "sun_elevation_deg": {
+      "min": 5,
+      "max": 25
+    }
+  },
+  "light": {
+    "cct_k": {
+      "min": 3500,
+      "max": 5500
+    },
+    "lux": {
+      "min": 1000,
+      "max": 25000
+    },
+    "direction": "low-side",
+    "quality": "mixed",
+    "sources": [
+      "sun",
+      "sky"
+    ]
+  },
+  "weather": [
+    "clear",
+    "partly-cloudy"
+  ],
+  "sound": [
+    "dry leaves",
+    "wind in birches"
+  ],
+  "scent": [
+    "wet leaves",
+    "earth"
+  ],
+  "people": {
+    "min": 1,
+    "max": 6,
+    "activity": "walk, pick berries"
+  },
+  "carriers": {
+    "styles": [],
+    "things": [
+      "birch trees",
+      "wool sweater",
+      "thermos"
+    ]
+  },
+  "cues": [
+    "window-view-trees-recovery",
+    "colour-saturation-arousal"
+  ],
+  "scene_ref": null,
+  "sources": [
+    {
+      "title": "Visit Finland, Best ways to experience fall foliage in Finland: ruska peaks in Lapland in mid-September",
+      "url": "https://visitfinland.com/en/articles/best-ways-to-experience-fall-foliage-in-finland"
+    },
+    {
+      "title": "Wikipedia, Autumn leaf color: how yellow, orange and red leaves form",
+      "url": "https://en.wikipedia.org/wiki/Autumn_leaf_color"
+    }
+  ]
+}

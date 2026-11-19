@@ -2943,7 +2943,7 @@ Render a room or a street offline in 3D software, then show it as a fixed image 
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Video game | 1993 | — | Spokane, Washington: Cyan's Myst shows its island as a set of pre-rendered still views. | |
+| Origin | Video game | 1993 | — | Spokane, Washington (the Cyan studio in 1993): Cyan's Myst shows its island as a set of pre-rendered still views. | |
 | 1 | Video game | 1996 | +3 years | Resident Evil sets polygon figures over pre-rendered rooms on the PlayStation. | [`pre-rendered-backgrounds`](./pre-rendered-backgrounds/SKILL.md) |
 
 Used by: [`pre-rendered-backgrounds`](./pre-rendered-backgrounds/SKILL.md).
