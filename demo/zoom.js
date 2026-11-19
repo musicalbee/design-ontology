@@ -98,6 +98,8 @@
   addEventListener("keydown", (e) => {
     if (!document.querySelector(".dz-full")) return;
     if (e.key === "Escape") { e.stopImmediatePropagation(); e.preventDefault(); close(); }
-    else if (e.key !== "Tab") e.stopImmediatePropagation();
+    // The close button is the only control in the view, so Tab keeps the focus on it (the page behind stays out of reach).
+    else if (e.key === "Tab") { e.preventDefault(); document.querySelector(".dz-full button")?.focus(); }
+    else e.stopImmediatePropagation();
   }, true);
 })();

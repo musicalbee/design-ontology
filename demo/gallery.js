@@ -113,7 +113,7 @@ function shot(s, found) {
     $("shot").innerHTML = `<img src="previews/${DOMAIN}/${esc(p.file)}" alt="${esc(`${s.name}: ${p.subject}`)}">`;
     $("shot-cap").textContent = p.kind === "specimen"
       ? `Specimen of ${p.font} (${p.licence}), drawn from the font outlines. No image model.`
-      : `Generated preview, not a real work. ${p.model} (${p.licence}), seed ${p.seed}, ${p.steps} steps. Subject: ${p.subject}.`;
+      : `Generated preview, not a real work. ${p.model} (${p.licence}), seed ${p.seed}, ${p.steps} steps. Subject: ${p.subject}.${p.wordmark ? ` Wordmark "${p.wordmark.brand}" set in ${p.wordmark.font} by ${p.wordmark.maker} (${p.wordmark.licence}).` : ""}`;
   } else {
     const cols = found.hex.slice(0, 8);
     $("shot").innerHTML = `<div class="ph">${cols.map((c) => `<span style="background:${esc(c.hex)}"></span>`).join("")}</div>`;

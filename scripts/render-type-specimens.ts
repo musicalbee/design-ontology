@@ -9,11 +9,10 @@
 // are paths. A variable font gives its default instance. There is no kerning.
 // Output: demo/previews/typeface/<id>.svg and demo/previews/typeface/manifest.json.
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
-import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { createHash } from "node:crypto";
 import { ROOT, loadStyleFiles } from "./lib.js";
 import { TrueType, measure, pathData } from "./type/truetype.js";
+import { fontBytes } from "./type/fonts.js";
 
 const W = 1152, H = 768, M = 64;
 const INK = "#1b1a17", MUTED = "#5f5b52", GUIDE = "#c9c3b6", PAPER = "#fbf9f4";
@@ -25,18 +24,6 @@ interface Entry { file: string; kind: "specimen"; font: string; subject: string;
 const arg = (name: string) => { const i = process.argv.indexOf(name); return i > 0 ? process.argv[i + 1] : undefined; };
 const only = arg("--only")?.split(",");
 const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-
-async function fontBytes(url: string): Promise<Uint8Array> {
-  const dir = join(tmpdir(), "design-ontology-fonts");
-  mkdirSync(dir, { recursive: true });
-  const path = join(dir, createHash("sha1").update(url).digest("hex").slice(0, 16) + ".ttf");
-  if (existsSync(path)) return readFileSync(path);
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`${url}: HTTP ${res.status}`);
-  const buf = new Uint8Array(await res.arrayBuffer());
-  writeFileSync(path, buf);
-  return buf;
-}
 
 /** One line of text as a path, with its left edge at x and its baseline at y, at a size in px. */
 function line(f: TrueType, text: string, x: number, y: number, size: number): string {
