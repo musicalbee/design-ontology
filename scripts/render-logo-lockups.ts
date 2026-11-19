@@ -138,7 +138,7 @@ for (const [id, set] of Object.entries(SETS)) {
   execFileSync("rsvg-convert", ["-o", out, join(tmp, `${id}.svg`)]);
   execFileSync("cwebp", ["-quiet", "-q", "86", out, "-o", join(DIR, "lockup", `${id}.webp`)]);
   manifest.images[id] = { ...rec, file: `lockup/${id}.webp`, symbol,
-    wordmark: { brand: `${BRAND.name} ${BRAND.line} (fictional)`, font: set.font, maker: set.maker, licence: "OFL-1.1", file: GF + set.file } };
+    wordmark: { brand: `${BRAND.name} ${BRAND.line}`, fictional: true, font: set.font, maker: set.maker, licence: "OFL-1.1", file: GF + set.file } };
   console.log(`${id}: ${set.font}, ink ${ink} on ${hex(ground)}`);
 }
 writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + "\n");

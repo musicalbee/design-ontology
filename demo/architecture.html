@@ -69,7 +69,7 @@
   <div class="toggles" role="group" aria-label="Overlays">
     <label><input type="checkbox" data-ov="axis" checked><span class="sw" style="background:var(--overlay)"></span>Axis and symmetry</label>
     <label><input type="checkbox" data-ov="bays" checked><span class="sw" style="background:var(--bay)"></span>Rhythm module</label>
-    <label><input type="checkbox" data-ov="grid" checked><span class="sw" style="background:var(--grid)"></span>Regulating lines</label>
+    <label id="grid-toggle" hidden><input type="checkbox" data-ov="grid" checked><span class="sw" style="background:var(--grid)"></span>Regulating lines</label>
   </div>
 
   <div class="views" id="views">
@@ -343,15 +343,17 @@ function photo(d, p, k, wwr) {
   const l = p.lines, w = l.right - l.left, h = l.ground - l.cornice;
   const L = (x1, y1, x2, y2, c, a = "") => `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${c}" stroke-width="2.5" ${a}/>`;
   const T = (x, y, t, c, a = "") => `<text x="${x}" y="${y}" fill="${c}" ${a}>${esc(t)}</text>`;
-  let s = `<image href="previews/architecture-elevation/${p.file}" width="${l.width}" height="${l.height}"/>`;
+  $("grid-toggle").hidden = false;
+  let s = `<image href="previews/architecture-elevation/${esc(p.file)}" width="${l.width}" height="${l.height}"/>`;
   s += `<g class="ov-grid">${L(0, l.horizon, l.width, l.horizon, "var(--grid)", 'stroke-dasharray="2 8" opacity=".9"')}${T(l.width - 16, l.horizon - 10, "horizon", "var(--grid)", 'text-anchor="end"')}`;
   s += `<rect x="${l.left}" y="${l.cornice}" width="${w}" height="${h}" fill="none" stroke="var(--grid)" stroke-width="3"/>`;
   s += L(l.left, l.cornice, l.right, l.ground, "var(--grid)", 'stroke-dasharray="14 8" opacity=".8"') + L(l.right, l.cornice, l.left, l.ground, "var(--grid)", 'stroke-dasharray="14 8" opacity=".8"');
   s += l.floors.map((y) => L(l.left, y, l.right, y, "var(--grid)", 'opacity=".85"')).join("");
-  s += T(l.left, l.cornice - 12, `facade ${(w / h).toFixed(2)} : 1 · ${l.floors.length + 1} bands`, "var(--grid)") + `</g>`;
+  s += T(l.left, l.cornice - 12, `facade ${(w / h).toFixed(2)} : 1 · ${l.floors.length + 1} ${l.floors.length ? "bands" : "band"}`, "var(--grid)") + `</g>`;
   s += `<g class="ov-bays">${l.bays.map((x) => L(x, l.cornice, x, l.ground, "var(--bay)", 'opacity=".75"')).join("")}`;
-  s += [l.left, ...l.bays, l.right].map((x) => L(x, l.ground + 6, x, l.ground + 22, "var(--bay)", 'stroke-width="3"')).join("");
-  s += T(l.axis, l.ground + 52, `${l.bays.length + 1} bays · module ${k.rhythm_module_m} m`, "var(--bay)", 'text-anchor="middle"') + `</g>`;
+  s += l.bays.map((x) => L(x, l.ground + 6, x, l.ground + 22, "var(--bay)", 'stroke-width="3"')).join("");
+  // The bay grid is the period of the traced edges, so it is approximate: the page prints no bay count.
+  s += T(l.axis, l.ground + 52, `${l.bays.length ? "traced rhythm · " : ""}module ${k.rhythm_module_m} m`, "var(--bay)", 'text-anchor="middle"') + `</g>`;
   if (k.axis_count >= 1) s += `<g class="ov-axis">${L(l.axis, Math.max(8, l.crown - 30), l.axis, l.ground + 30, "var(--overlay)", 'stroke-width="3" stroke-dasharray="20 8 4 8"')}${T(16, l.height - 18, `${k.symmetry} · ${k.axis_count} ${k.axis_count === 1 ? "axis" : "axes"}`, "var(--overlay)")}</g>`;
   else s += T(16, l.height - 18, `${k.symmetry} · no axis`, "var(--overlay)", 'class="ov-axis"');
   const svg = $("elev");
@@ -372,6 +374,8 @@ function drawing(d, k, wwr) {
   if (k.axis_count >= 1) ov += `<g class="ov-axis"><line x1="${mx}" y1="14" x2="${mx}" y2="${G + 12}" stroke="var(--overlay)" stroke-width="2" stroke-dasharray="10 5 3 5"/><text x="8" y="${H - 8}" fill="var(--overlay)" font-weight="650">${k.symmetry} · ${k.axis_count} ${k.axis_count === 1 ? "axis" : "axes"}</text></g>`;
   else ov += `<text class="ov-axis" x="8" y="${H - 8}" fill="var(--overlay)" font-weight="650">${k.symmetry} · no axis</text>`;
   ov += `<g class="ov-bays">${Array.from({ length: N + 1 }, (_, j) => `<line x1="${X0 + j * BAY}" y1="${G}" x2="${X0 + j * BAY}" y2="${G + 14}" stroke="var(--bay)" stroke-width="2"/>`).join("")}<line x1="${X0}" y1="${G + 7}" x2="${X0 + BW}" y2="${G + 7}" stroke="var(--bay)"/><text x="${X0 + BW / 2}" y="${G + 30}" text-anchor="middle" fill="var(--bay)" font-weight="650">module ${k.rhythm_module_m} m</text></g>`;
+  // The drawing has no regulating lines, so its toggle is hidden.
+  $("grid-toggle").hidden = true;
   const svg = $("elev");
   svg.classList.remove("photo");
   svg.setAttribute("viewBox", `0 0 ${W} ${H}`);

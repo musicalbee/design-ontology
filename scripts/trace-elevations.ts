@@ -9,7 +9,10 @@
 // - left and right: the run of columns around the centre whose roofline (the first row that is not sky) is high;
 // - cornice: the median roofline over the facade; crown: the highest roofline;
 // - ground: the strongest horizontal edge over the facade near the horizon (the foot of the facade);
-// - floors and bays: the peaks of the horizontal and the vertical edge projections inside the facade box.
+// - floors: the peaks of the horizontal edge projection inside the facade box;
+// - bay: the period of the vertical edge projection (its autocorrelation peak). A window or a pilaster has two
+//   edges, so the peaks of the projection are not bays; the period is. When the projection has no clear period,
+//   bay is null and the demo prints no count.
 // The demo draws these lines, the axis and the diagonals of the facade box. All values are in image pixels.
 import { readFileSync, writeFileSync, mkdirSync, rmSync } from "node:fs";
 import { execFileSync } from "node:child_process";
@@ -45,6 +48,21 @@ function peaks(a: number[], gap: number, share: number, max: number): number[] {
   return out.sort((p, q) => p - q);
 }
 const median = (v: number[]) => [...v].sort((a, b) => a - b)[v.length >> 1];
+/** The period of a profile in px: the highest local peak of its autocorrelation, for a period from width/24 to
+ *  width/3. A peak at twice a period that is nearly as high wins, because a window has two edges. Null below 0.2. */
+function period(a: number[], width: number): number | null {
+  const m = a.reduce((s, v) => s + v, 0) / a.length, d = a.map((v) => v - m);
+  const e = d.reduce((s, v) => s + v * v, 0) || 1;
+  const ac = (lag: number) => { let s = 0; for (let i = 0; i + lag < d.length; i++) s += d[i] * d[i + lag]; return s / e * d.length / (d.length - lag); };
+  const lo = Math.max(16, Math.round(width / 24)), hi = Math.round(width / 3);
+  const r = Array.from({ length: hi + 2 }, (_, l) => (l >= lo - 1 ? ac(l) : 0));
+  let best = 0, at = 0;
+  for (let l = lo; l <= hi; l++) if (r[l] > r[l - 1] && r[l] >= r[l + 1] && r[l] > best) { best = r[l]; at = l; }
+  if (best < 0.2) return null;
+  // Two edges for each opening: a peak near 2 × the period that is at least 85 % as strong is the bay.
+  for (let l = Math.round(at * 1.8); l <= Math.min(hi, Math.round(at * 2.2)); l++) if (r[l] >= 0.85 * best && r[l] >= r[l - 1] && r[l] >= r[l + 1]) return l;
+  return at;
+}
 
 function trace(webp: string) {
   const { w, h, g, rgb } = grey(webp);
@@ -74,8 +92,9 @@ function trace(webp: string) {
   const roof = (x: number) => { for (let y = 8; y < horizon; y++) if (far(rgb(x, y), rowSky[y]) > 22 && far(rgb(x, y), rgb(x, y - 6)) > 12) return y; return horizon; };
   const roofs = Array.from({ length: w }, (_, x) => roof(x));
   // The facade: the run of building columns around the centre (gaps of up to 8 px are spires and railings).
-  // A low annex next to the building is not the facade: a column counts when its roofline is near the roofline at the centre.
-  const mid = median(roofs.slice(cx - (w >> 4), cx + (w >> 4)));
+  // A low annex next to the building is not the facade: a column counts when its roofline is near the main roofline.
+  // The main roofline is the median over the middle 40 % of the image, so a tall tower at the centre does not set it.
+  const mid = median(roofs.slice(cx - Math.round(w / 5), cx + Math.round(w / 5)));
   const tall = (x: number) => roofs[x] < Math.min(horizon - 40, mid + 0.35 * (horizon - mid));
   let left = cx, right = cx, gap = 0;
   for (let x = cx; x > 0; x--) { if (tall(x)) { left = x; gap = 0; } else if (++gap > 8) break; }
@@ -96,8 +115,17 @@ function trace(webp: string) {
   const floors = peaks(smooth(fr, 2), 26, 0.45, 6).map((y) => y + cornice).filter((y) => y > cornice + 12 && y < ground - 12);
   const br: number[] = [];
   for (let x = left; x < right; x++) { let s = 0; for (let y = cornice; y < ground; y++) s += gx(x, y); br.push(s); }
-  const bays = peaks(smooth(br, 2), 22, 0.5, 16).map((x) => x + left).filter((x) => x > left + 8 && x < right - 8);
-  return { width: w, height: h, axis: cx, horizon, ground, left, right, cornice, crown, floors, bays };
+  // A grid of fewer than 3 or more than 12 bays is the period of an ornament or of the facade halves, not of the bays.
+  const p0 = period(smooth(br, 2), right - left);
+  const bay = p0 && (right - left) / p0 >= 3 && (right - left) / p0 <= 12 ? p0 : null;
+  // The bay lines: a grid with the bay period, at the phase where the edges are strongest, through the facade box.
+  let bays: number[] = [];
+  if (bay) {
+    let phase = 0, top = -1;
+    for (let f = 0; f < bay; f++) { let v = 0; for (let x = f; x < br.length; x += bay) v += br[x]; if (v > top) { top = v; phase = f; } }
+    for (let x = phase; x < br.length; x += bay) if (x > 8 && x < br.length - 8) bays.push(x + left);
+  }
+  return { width: w, height: h, axis: cx, horizon, ground, left, right, cornice, crown, floors, bay, bays };
 }
 
 const manifestPath = join(DIR, "manifest.json");
