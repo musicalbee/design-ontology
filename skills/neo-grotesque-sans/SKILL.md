@@ -147,12 +147,12 @@ Type set by light through a film negative of each letter onto paper or film, ins
 - Set display sizes with tight spacing; film letters can touch.
 - Draw one master for all sizes; correct the spacing by size.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Haas Type Foundry** (workshop, Münchenstein, ?–1989), made the style. A Swiss type foundry. It released Neue Haas Grotesk in 1957, which became Helvetica.
-- **Linotype** (workshop, Brooklyn and Frankfurt, 1886–now), sold the style. A maker of typesetting machines and type. It sold Helvetica, Frutiger and the formal script Snell Roundhand.
+- **Haas Type Foundry** (company, Münchenstein, ?–1989), made the style. A Swiss type foundry. It released Neue Haas Grotesk in 1957, which became Helvetica.
+- **Linotype** (company, Brooklyn and Frankfurt, 1886–now), sold the style. A maker of typesetting machines and type. It sold Helvetica, Frutiger and the formal script Snell Roundhand.
 
 ## Permutations
 

@@ -190,9 +190,9 @@ A thin outer wall of glass and metal that hangs on the frame of the building and
 - Hang the glass in a grid of mullions at 1.2 to 1.5 m centres.
 - Keep the glass part of the facade above 60%.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Bauhaus** (school, Weimar, Dessau, Berlin, 1919–1933), taught the style. A school of art, craft and design that joined the workshop to the studio. Its teachers and students set the forms of modern design, interiors and building.
 

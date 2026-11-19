@@ -140,12 +140,12 @@ A print from a flat stone or plate on which a greasy drawing takes ink and water
 - Use one stone for each colour; 3 to 5 stones give a poster.
 - Keep the soft crayon grain and the dark, velvet black.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Family Dog Productions** (platform, San Francisco, 1966–now), launched the style. A concert promoter in San Francisco that Chet Helms ran. Its dance concerts from 1966 to 1968 each had a new poster.
-- **The Fillmore** (club, San Francisco, 1954–now), gathered the style. A music hall in San Francisco where Bill Graham started to book shows in 1965. Its weekly concert posters spread the psychedelic poster style.
+- **The Fillmore** (venue, San Francisco, 1954–now), gathered the style. A music hall in San Francisco where Bill Graham started to book shows in 1965. Its weekly concert posters spread the psychedelic poster style.
 
 ## Permutations
 

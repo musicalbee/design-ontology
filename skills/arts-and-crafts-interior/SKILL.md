@@ -314,11 +314,11 @@ A joint that stays in view, so that the way of making is part of the look. Origi
 - Peg the joint with a wooden pin of 8 to 12mm; do not hide it with filler or paint.
 - Use one joint type in a room or a building; repeat it at each corner.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Morris & Co.** (workshop, London, 1861–1940), made the style. The decorating firm of William Morris. It made and sold wallpaper, textiles, stained glass and furniture for Victorian and Arts and Crafts homes.
+- **Morris & Co.** (company, London, 1861–1940), made the style. The decorating firm of William Morris. It made and sold wallpaper, textiles, stained glass and furniture for Victorian and Arts and Crafts homes.
 
 ## Permutations
 

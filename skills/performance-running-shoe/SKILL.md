@@ -167,11 +167,11 @@ A rubber sole moulded in a grid of small studs, which grip the ground and weigh 
 - Bond the sole to a foam midsole.
 - Place the studs in a square grid.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Blue Ribbon Sports** (workshop, Eugene, Oregon, United States, 1964–1971), made the style. The running shoe company of Bill Bowerman and Phil Knight. It sold the first waffle-soled shoes before it took the name Nike.
+- **Blue Ribbon Sports** (company, Eugene, Oregon, United States, 1964–1971), made the style. The running shoe company of Bill Bowerman and Phil Knight. It sold the first waffle-soled shoes before it took the name Nike.
 
 ## Permutations
 

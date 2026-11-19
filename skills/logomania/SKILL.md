@@ -172,12 +172,12 @@ Ink pushed through a fine mesh with a squeegee; a stencil on the mesh blocks the
 - Pull thick, opaque ink across the screen with a rubber squeegee in one even stroke.
 - Print each colour from its own screen and let each layer dry before the next.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Dapper Dan's Boutique** (workshop, 125th Street, Harlem, New York, 1982–1992), made the style. A boutique and workshop in Harlem. It made jackets, bags and other pieces printed with the logos of luxury houses, for musicians and sportsmen.
-- **Louis Vuitton trunk-maker's shop** (workshop, Rue Neuve-des-Capucines, Paris, 1854–now), made the style. The shop that Louis Vuitton opened in Paris in 1854. It sold flat-topped trunks in coated canvas, built in a workshop at Asnières from 1859.
+- **Dapper Dan's Boutique** (company, 125th Street, Harlem, New York, 1982–1992), made the style. A boutique and workshop in Harlem. It made jackets, bags and other pieces printed with the logos of luxury houses, for musicians and sportsmen.
+- **Louis Vuitton trunk-maker's shop** (company, Rue Neuve-des-Capucines, Paris, 1854–now), made the style. The shop that Louis Vuitton opened in Paris in 1854. It sold flat-topped trunks in coated canvas, built in a workshop at Asnières from 1859.
 
 ## Permutations
 

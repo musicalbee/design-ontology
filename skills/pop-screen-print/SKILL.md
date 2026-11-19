@@ -156,9 +156,9 @@ Ink pushed through a fine mesh with a squeegee; a stencil on the mesh blocks the
 - Pull thick, opaque ink across the screen with a rubber squeegee in one even stroke.
 - Print each colour from its own screen and let each layer dry before the next.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Immaculate Heart College art department** (school, Los Angeles, ?–1981), taught the style. The art department of a college in Los Angeles where Corita Kent taught screen printing. The college closed in 1981.
 - **The Factory** (studio, New York, 1964–1987), made the style. The studio of Andy Warhol. Assistants printed silkscreens there, and artists, actors and musicians met there.

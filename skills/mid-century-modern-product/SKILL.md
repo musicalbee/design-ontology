@@ -176,12 +176,12 @@ Thin boards or veneers glued in layers, so that wood forms long spans, bent shap
 - Bend veneers of 1 to 3mm in a mould for furniture; glue 5 to 9 layers.
 - Leave the layered edge in view as a line pattern.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Herman Miller** (workshop, Zeeland, Michigan, 1923–now), made the style. A furniture maker that worked with George Nelson, Charles and Ray Eames and Isamu Noguchi. It made modern furniture for homes and offices.
-- **Knoll** (workshop, New York, 1938–now), made the style. A furniture maker that produced designs by Mies van der Rohe, Eero Saarinen and Marcel Breuer. Its planning unit set the look of the modern office.
+- **Herman Miller** (company, Zeeland, Michigan, 1923–now), made the style. A furniture maker that worked with George Nelson, Charles and Ray Eames and Isamu Noguchi. It made modern furniture for homes and offices.
+- **Knoll** (company, New York, 1938–now), made the style. A furniture maker that produced designs by Mies van der Rohe, Eero Saarinen and Marcel Breuer. Its planning unit set the look of the modern office.
 
 ## Permutations
 

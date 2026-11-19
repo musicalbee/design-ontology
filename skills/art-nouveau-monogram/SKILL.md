@@ -130,9 +130,9 @@ A long S-shaped line whose curve changes along its length, drawn from a plant st
 - Join letters, frame and plant forms with the same line; leave no straight edge to break the flow.
 - Use few colours, 2 to 4, in muted tones.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Jugend** (magazine, Munich, 1896–1940), published the style. An illustrated weekly for art and life. Its covers and title lettering spread the German form of Art Nouveau, which took the name Jugendstil from it.
 - **Ver Sacrum** (magazine, Vienna, 1898–1903), published the style. The magazine of the Vienna Secession. Each issue set text, drawings and the monograms of its artists in a strict square page.

@@ -164,11 +164,11 @@ A thin coat of glass that is fused to iron or steel at about 800 °C. It makes a
 - Apply a top coat of 0.1 to 0.3 mm in white or a single colour and fire it again.
 - Leave the edges rolled: the enamel chips at a sharp edge and shows the dark metal.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Guild of Handicraft** (workshop, London, and then Chipping Campden, 1888–1907), made the style. The craft guild that C. R. Ashbee founded. Its members made silver, enamel and gem jewels by hand and sold them in small runs.
+- **Guild of Handicraft** (company, London, and then Chipping Campden, 1888–1907), made the style. The craft guild that C. R. Ashbee founded. Its members made silver, enamel and gem jewels by hand and sold them in small runs.
 
 ## Permutations
 

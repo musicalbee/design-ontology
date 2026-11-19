@@ -255,9 +255,9 @@ Ink pushed through a fine mesh with a squeegee; a stencil on the mesh blocks the
 - Pull thick, opaque ink across the screen with a rubber squeegee in one even stroke.
 - Print each colour from its own screen and let each layer dry before the next.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Leo Castelli Gallery** (gallery, New York, 1957–now), exhibited the style. The gallery of the dealer Leo Castelli. It showed Pop Art and then Minimalism.
 

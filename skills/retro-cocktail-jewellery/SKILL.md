@@ -164,9 +164,9 @@ A method that sets cut stones on a hidden rail so that no metal shows between th
 - Slide the stones on thin metal rails inside a frame.
 - Close the frame so that no claw or prong shows.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Harper's Bazaar** (magazine, New York, 1867–now), published the style. A fashion magazine. It printed the photographs of Richard Avedon and used Didot type for its name.
 

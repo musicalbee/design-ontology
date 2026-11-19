@@ -164,11 +164,11 @@ A trial garment in plain calico, fitted and pinned on the client or on a stand b
 - Pin and mark the changes on the body, then take the toile apart and use it as the pattern.
 - Fit again in the real cloth two or three times before the hand finish.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Christian Dior couture house** (workshop, 30 avenue Montaigne, Paris, 1946–now), launched the style. The couture house that Christian Dior opened in 1946. Its ateliers cut, fitted and sewed the New Look by hand.
+- **Christian Dior couture house** (company, 30 avenue Montaigne, Paris, 1946–now), launched the style. The couture house that Christian Dior opened in 1946. Its ateliers cut, fitted and sewed the New Look by hand.
 
 ## Permutations
 

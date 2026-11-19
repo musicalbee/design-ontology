@@ -162,11 +162,11 @@ A hand stitch in which one thread with a needle at each end passes twice through
 - Pass the two needles through each hole from opposite sides, and pull each stitch tight.
 - Finish the seam with a double stitch back, and burnish the edge.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **The Row** (workshop, New York, 2006–now), launched the style. A New York house, opened in 2006 by Mary-Kate and Ashley Olsen. It makes plain clothes and leather goods with no logo.
+- **The Row** (company, New York, 2006–now), launched the style. A New York house, opened in 2006 by Mary-Kate and Ashley Olsen. It makes plain clothes and leather goods with no logo.
 
 ## Permutations
 

@@ -176,9 +176,9 @@ One motif or one frame, repeated with small changes in a set of works, so that t
 - Keep the spacing between works equal to a fixed unit, such as 10 cm or one panel width.
 - Remove the hand: use a mechanical edge, a stencil or a plain lens.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Kunstakademie Düsseldorf** (school, Düsseldorf, 1773–now), taught the style. The art academy of Düsseldorf. Bernd and Hilla Becher taught photography here to the students of the Düsseldorf School.
 

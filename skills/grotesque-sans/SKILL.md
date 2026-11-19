@@ -147,11 +147,11 @@ Large display letters routed from end-grain wood instead of cast in metal, so po
 - Draw the faces to be loud at a distance: fat face, slab and condensed grotesque, in one weight per line.
 - Mix several faces and sizes on one bill and centre each line, as the job printers did.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **H. Berthold AG** (workshop, Berlin, 1858–1993), made the style. A German type foundry. It released Akzidenz-Grotesk, the grotesque that Swiss designers later took up.
+- **H. Berthold AG** (company, Berlin, 1858–1993), made the style. A German type foundry. It released Akzidenz-Grotesk, the grotesque that Swiss designers later took up.
 
 ## Permutations
 

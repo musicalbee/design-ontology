@@ -182,9 +182,9 @@ Lens or camera movements that keep vertical lines parallel and move the plane of
 - Close the lens to f/11 to f/22 for full depth of field.
 - In an editor, use a narrow band of focus and a strong blur outside it to fake a miniature.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Group f/64** (exhibition, San Francisco, 1932–1932), launched the style. The first show of Group f/64 at the M. H. de Young Museum. It showed sharp, straight prints against pictorialism.
 

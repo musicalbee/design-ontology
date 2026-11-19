@@ -184,11 +184,11 @@ The circle, the square and the triangle in flat colour, used as the whole pictur
 - Fill each shape with one flat colour; no gradient and no outline.
 - Put the shapes on a plain ground with 30% or more empty space.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **UNOVIS** (club, Vitebsk, 1920–1922), taught the style. A group of artists and students that Kazimir Malevich led. It spread Suprematism into design, print and teaching.
+- **UNOVIS** (crew, Vitebsk, 1920–1922), taught the style. A group of artists and students that Kazimir Malevich led. It spread Suprematism into design, print and teaching.
 
 ## Permutations
 

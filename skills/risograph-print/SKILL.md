@@ -140,12 +140,12 @@ A digital stencil duplicator: a thermal head cuts a master, and a drum pushes so
 - Keep tones on a grain or halftone screen of 50–110 lines an inch; avoid large solids.
 - Use uncoated paper, and let the ink dry before a second pass to stop set-off.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Hato Press** (publisher, London, 2009–now), published the style. A London publisher that prints books and zines on the risograph and teaches the method in workshops.
-- **Riso Kagaku Corporation** (workshop, Tokyo, 1946–now), made the style. The Japanese company that makes the Risograph stencil duplicator. It also made Print Gocco, a small screen-print kit for the home.
+- **Riso Kagaku Corporation** (company, Tokyo, 1946–now), made the style. The Japanese company that makes the Risograph stencil duplicator. It also made Print Gocco, a small screen-print kit for the home.
 
 ## Permutations
 

@@ -209,9 +209,9 @@ A shot that runs for minutes with no visible cut; the camera and the actors carr
 - Move the camera at a steady pace and let the actors enter and leave the frame so that the framing changes by itself.
 - Rehearse each move to a few centimetres, because a mistake at minute eight spoils the full take.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Cannes Film Festival** (salon, Cannes, 1946–now), exhibited the style. An annual film festival with a juried competition. It gave prizes to neorealist, New Hollywood, Dogme 95 and slow-cinema films.
 

@@ -173,13 +173,13 @@ A napped polyester knit that is light, dries fast and keeps its loft when wet; i
 - Raise and shear the loops to form a soft, even nap.
 - Cut the cloth into a jacket with a close collar and a zip.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Instagram** (platform, web, 2010–now), published the style. A photo and video app. Home and food images spread on it, and it carried trends such as dopamine decor and the film grain look.
-- **Patagonia** (workshop, Ventura, California, 1973–now), sold the style. The outdoor clothes firm of Yvon Chouinard. It made pile and fleece jackets from 1979 that later became the core of gorpcore.
-- **W. L. Gore and Associates** (workshop, Newark, Delaware, 1958–now), made the style. The firm of Wilbert and Robert Gore. It made the Gore-Tex membrane and, from 1976, laminated it to cloth for shells.
+- **Patagonia** (company, Ventura, California, 1973–now), sold the style. The outdoor clothes firm of Yvon Chouinard. It made pile and fleece jackets from 1979 that later became the core of gorpcore.
+- **W. L. Gore and Associates** (company, Newark, Delaware, 1958–now), made the style. The firm of Wilbert and Robert Gore. It made the Gore-Tex membrane and, from 1976, laminated it to cloth for shells.
 
 ## Permutations
 

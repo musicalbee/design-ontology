@@ -249,9 +249,9 @@ A moving form changes shape but keeps its volume: it stretches along its path at
 - Stretch along the path by 10% to 30% at the highest speed and squash by the same amount on impact.
 - In an interface, use a spring with a damping ratio of 0.6 to 0.8, so that an element overshoots once and settles.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Behance** (platform, web, 2005–now), published the style. A web site where designers post portfolios of projects. Concept work for interfaces, logos and illustration spreads from it.
 

@@ -163,9 +163,9 @@ A thin layer of chromium is put on steel by electrolysis. The layer gives a hard
 - Put the part in a chromic acid bath and pass a current through it.
 - Buff the part to a mirror finish.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Vogue** (magazine, New York, 1892–now), published the style. A fashion magazine. It commissions fashion photographs and sets its name in a high-contrast Didone type.
 

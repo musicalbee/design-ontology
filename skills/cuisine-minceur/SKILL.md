@@ -176,12 +176,12 @@ A sauce made from the cooking juices and a stock, reduced and finished with a li
 - Add a spoon of cream, a cube of cold butter, or fromage blanc, and whisk it off the heat.
 - Season with lemon, vinegar or herbs at the end, and serve 30 to 50 ml of sauce under the food.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **La Grande Cuisine minceur** (publisher, Paris, 1976–now), published the style. The cookbook of Michel Guérard on slimming haute cuisine, with Alain Coumont, published by Robert Laffont in 1976.
-- **Les Prés d'Eugénie** (workshop, Eugénie-les-Bains, ?–now), launched the style. A spa hotel and restaurant in the Landes. Michel Guérard cooked cuisine minceur here from 1974, and the restaurant held three Michelin stars from 1977.
+- **Les Prés d'Eugénie** (company, Eugénie-les-Bains, ?–now), launched the style. A spa hotel and restaurant in the Landes. Michel Guérard cooked cuisine minceur here from 1974, and the restaurant held three Michelin stars from 1977.
 
 ## Permutations
 

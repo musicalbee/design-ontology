@@ -187,11 +187,11 @@ A joint that stays in view, so that the way of making is part of the look. Origi
 - Peg the joint with a wooden pin of 8 to 12mm; do not hide it with filler or paint.
 - Use one joint type in a room or a building; repeat it at each corner.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Art Workers' Guild** (club, London, 1884–now), gathered the style. A guild of architects, artists and craftsmen. Its members met to join the arts again, and it gave the Arts and Crafts movement a home.
+- **Art Workers' Guild** (collective, London, 1884–now), gathered the style. A guild of architects, artists and craftsmen. Its members met to join the arts again, and it gave the Arts and Crafts movement a home.
 
 ## Permutations
 

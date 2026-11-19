@@ -173,9 +173,9 @@ A thin layer of chromium is put on steel by electrolysis. The layer gives a hard
 - Put the part in a chromic acid bath and pass a current through it.
 - Buff the part to a mirror finish.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Detroit auto show** (salon, Detroit, United States, 1899–now), exhibited the style. The motor show that first opened in Detroit in 1899. In 1994 the Concept One was shown there and began the trend of the revived car.
 

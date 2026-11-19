@@ -309,14 +309,14 @@ Thin boards or veneers glued in layers, so that wood forms long spans, bent shap
 - Bend veneers of 1 to 3mm in a mould for furniture; glue 5 to 9 layers.
 - Leave the layered edge in view as a line pattern.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Artek** (workshop, Helsinki, 1935–now), made the style. A furniture company that Alvar Aalto and three partners started to sell his bent birch furniture.
-- **IKEA** (workshop, Älmhult, 1943–now), made the style. A Swedish furniture company. It sold light, plain, flat-packed furniture to homes around the world.
+- **Artek** (company, Helsinki, 1935–now), made the style. A furniture company that Alvar Aalto and three partners started to sell his bent birch furniture.
+- **IKEA** (company, Älmhult, 1943–now), made the style. A Swedish furniture company. It sold light, plain, flat-packed furniture to homes around the world.
 - **Kinfolk** (magazine, Portland, Oregon, 2011–now), published the style. A slow-living magazine with calm, natural-light photos. Its rooms mix Nordic and Japanese restraint.
-- **Svenskt Tenn** (workshop, Stockholm, 1924–now), sold the style. A Stockholm interior design shop that Estrid Ericson founded. It sold pewter, furniture and prints in a light Swedish style.
+- **Svenskt Tenn** (company, Stockholm, 1924–now), sold the style. A Stockholm interior design shop that Estrid Ericson founded. It sold pewter, furniture and prints in a light Swedish style.
 
 ## Permutations
 

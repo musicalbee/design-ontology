@@ -257,9 +257,9 @@ A pen-sized spray gun that lays paint in soft, even tones; with masks, it makes 
 - Cut a hard mask for each edge that must stay sharp; leave the light soft.
 - Put one specular highlight of pure white on each chrome form.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Consumer Aesthetics Research Institute** (platform, web, ?–now), published the style. An online community that collects and names the looks of consumer goods and media from the 1970s on. It named Y2K and Frutiger Aero as aesthetics.
 - **Myspace** (platform, web, 2003–now), published the style. A social network of profile pages. Users posted flash digicam photos and filled their pages with glitter, gloss and custom code.

@@ -166,11 +166,11 @@ A dial with hands and marks that carry paint that glows in the dark, so that the
 - Apply a layer of at least 0.2 mm, so that the glow lasts the night.
 - Choose tritium or strontium aluminate paint, because radium paint is no longer safe.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Longines watch factory** (workshop, Saint-Imier, 1832–now), made the style. The Swiss watch factory that made the Hour Angle watch of 1931 for pilots, to the design of Weems and Lindbergh.
+- **Longines watch factory** (company, Saint-Imier, 1832–now), made the style. The Swiss watch factory that made the Hour Angle watch of 1931 for pilots, to the design of Weems and Lindbergh.
 
 ## Permutations
 

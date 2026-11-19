@@ -303,9 +303,9 @@ A thin wash of slaked lime that dries to a soft, matt white with a faint cloud o
 - Keep the finish matt; the surface must take light with no sheen.
 - Use pale tints only: white, sand and chalk blue.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Pinterest** (platform, web, 2010–now), published the style. A web site where people pin images to boards. Its boards of rooms, crafts and mood images spread home and craft styles.
 

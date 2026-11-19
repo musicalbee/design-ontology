@@ -169,11 +169,11 @@ A way to colour cloth in which parts are tied, folded or bound before the dye ba
 - Soak the cloth in a dye bath, or apply dye to each section.
 - Rinse, untie and dry the cloth; each piece shows a different pattern.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Thea Porter shop** (workshop, London, ?–now), sold the style. The Soho shop of Thea Porter. It sold caftans and long printed dresses of Middle Eastern cloth to the London scene of the late 1960s.
+- **Thea Porter shop** (company, London, ?–now), sold the style. The Soho shop of Thea Porter. It sold caftans and long printed dresses of Middle Eastern cloth to the London scene of the late 1960s.
 
 ## Permutations
 

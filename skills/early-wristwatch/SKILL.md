@@ -163,11 +163,11 @@ A dial with hands and marks that carry paint that glows in the dark, so that the
 - Apply a layer of at least 0.2 mm, so that the glow lasts the night.
 - Choose tritium or strontium aluminate paint, because radium paint is no longer safe.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Cartier jewellery house** (workshop, Paris, 1847–now), made the style. The Paris jeweller that made early wristwatches for men and, from 1917, the Tank. Its shapes carried the wristwatch into Art Deco design.
+- **Cartier jewellery house** (company, Paris, 1847–now), made the style. The Paris jeweller that made early wristwatches for men and, from 1917, the Tank. Its shapes carried the wristwatch into Art Deco design.
 
 ## Permutations
 

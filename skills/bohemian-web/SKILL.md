@@ -246,9 +246,9 @@ A curved head over an opening that carries load as compression; inside, a soft f
 - Keep the ratio of height to width of the opening at 1.6:1 to 2:1.
 - In a room, repeat the arch in 2 or 3 places, for example a door, a mirror and a niche, and no more.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Pinterest** (platform, web, 2010–now), published the style. A web site where people pin images to boards. Its boards of rooms, crafts and mood images spread home and craft styles.
 

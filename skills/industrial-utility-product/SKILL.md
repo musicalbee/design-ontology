@@ -172,9 +172,9 @@ A thin coat of glass that is fused to iron or steel at about 800 °C. It makes a
 - Apply a top coat of 0.1 to 0.3 mm in white or a single colour and fire it again.
 - Leave the edges rolled: the enamel chips at a sharp edge and shows the dark metal.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Werkbund Exhibition Cologne 1914** (exhibition, Cologne, 1914–1914), exhibited the style. The show of the German Werkbund. It put industrial buildings, machines and factory-made objects next to craft work, and it made the work of the factory a subject of design.
 

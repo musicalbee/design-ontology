@@ -250,9 +250,9 @@ A move speeds up from rest and slows down before it stops, as a real mass does, 
 - Use cubic-bezier(0.4, 0, 0.2, 1) as the standard curve for a move inside the screen.
 - Put more frames at the two ends of a move than in the middle: 2 to 3 times the density.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Dribbble** (platform, web, 2009–now), published the style. A web site where designers post small shots of interface work. Several interface trends, neumorphism among them, spread from shots that were posted there.
 - **Medium** (platform, web, 2012–now), published the style. An online publishing platform. Designers wrote the articles there that named and explained new interface trends, glassmorphism among them.

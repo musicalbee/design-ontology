@@ -170,9 +170,9 @@ A cathode-ray tube whose beam draws straight lines from point to point, not a ra
 - Keep the ground black; only the lines emit light.
 - Use full beam brightness for the player and half for the background.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Atari, Inc.** (studio, Sunnyvale, California, 1972–1984), made the style. The arcade and console company that made the first hit vector-display games.
 

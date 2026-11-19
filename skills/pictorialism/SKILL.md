@@ -180,9 +180,9 @@ Small dots or strokes of pure colour placed side by side, so that the eye mixes 
 - Set complementary colours next to each other in the shadows.
 - Keep each dot under 0.5% of the picture width.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Camera Work** (magazine, New York, 1903–1917), published the style. A quarterly of photography that Alfred Stieglitz edited and published, with fine photogravure plates. It argued for photography as a fine art.
 

@@ -162,11 +162,11 @@ A quilt with a wall of cloth between the two faces of each cell. Loose down stay
 - Blow a measured weight of down into each cell.
 - Close each cell and sew a bar tack at the end of each row.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Eddie Bauer sports shop** (workshop, Seattle, Washington, 1920–now), launched the style. The sports shop that Eddie Bauer opened in Seattle in 1920. In 1936 it sold the first quilted goose-down jacket.
+- **Eddie Bauer sports shop** (company, Seattle, Washington, 1920–now), launched the style. The sports shop that Eddie Bauer opened in Seattle in 1920. In 1936 it sold the first quilted goose-down jacket.
 
 ## Permutations
 

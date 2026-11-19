@@ -209,9 +209,9 @@ Lines that run to one vanishing point on a horizon, so that a flat surface reads
 - Put the horizon at 50% to 65% of the height and draw 12 to 24 lines to one vanishing point.
 - Space the cross lines so that each gap is about 0.8 of the gap in front of it.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Berlin International Film Festival** (salon, Berlin, 1951–now), exhibited the style. An annual film festival with a juried competition. The symmetrical, planimetric film The Grand Budapest Hotel opened it in 2014.
 

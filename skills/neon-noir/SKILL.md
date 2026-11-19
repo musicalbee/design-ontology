@@ -226,9 +226,9 @@ Light as a line of coloured gas, with a soft halo that spills onto the dark grou
 - Set the sign on a ground darker than 10% lightness, so that the halo shows.
 - Keep a bright, near-white core inside the line.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Cannes Film Festival** (salon, Cannes, 1946–now), exhibited the style. An annual film festival with a juried competition. It gave prizes to neorealist, New Hollywood, Dogme 95 and slow-cinema films.
 

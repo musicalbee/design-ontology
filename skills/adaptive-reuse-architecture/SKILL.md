@@ -186,9 +186,9 @@ A narrow recessed joint between two surfaces that casts a shadow, so that each s
 - Hold the gap at a constant width along its full length.
 - Use it where new meets old: between a wall and a ceiling, a floor and a skirting, or a new insert and a historic wall.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Venice Biennale of Architecture** (salon, Venice, 1980–now), exhibited the style. An architecture show that the Venice Biennale holds every two years. Its first edition built a street of postmodern facades, and later editions showed buildings made again from old structures.
 

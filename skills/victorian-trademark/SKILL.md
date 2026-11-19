@@ -145,9 +145,9 @@ Large display letters routed from end-grain wood instead of cast in metal, so po
 - Draw the faces to be loud at a distance: fat face, slab and condensed grotesque, in one weight per line.
 - Mix several faces and sizes on one bill and centre each line, as the job printers did.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **L. Prang & Co.** (publisher, Boston, ?–now), made the style. The colour lithography firm of Louis Prang. It printed trade cards, labels and Christmas cards with pictorial marks in the Victorian taste.
 

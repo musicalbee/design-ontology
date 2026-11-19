@@ -158,9 +158,9 @@ A ring of steel that is pressed into the lacing hole of a corset, so that the co
 - Press a steel ring through the hole and fold the rim over the cloth.
 - Lace a cord through the rings in a cross pattern.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Le Corset: Étude physiologique et pratique** (publisher, Paris, 1900–1900), published the style. The book of 1900 by Inès Gaches-Sarraute. It sets out the health corset with a straight front and argues for it on the grounds of anatomy and hygiene.
 

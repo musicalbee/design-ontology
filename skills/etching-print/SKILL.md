@@ -144,9 +144,9 @@ An intaglio print from a metal plate whose lines a needle draws through an acid-
 - Ink the plate, wipe the surface with tarlatan, and leave a film of plate tone where a soft dark is needed.
 - Print on dampened paper on a roller press, so that the plate leaves a mark round the image.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Aux Quatre Vents** (publisher, Antwerp, 1548–1601), published the style. Hieronymus Cock and Volcxken Diericx founded this Antwerp print house. It issued more than 1,100 prints by 1570 and split the work into design, engraving and sale.
 - **Clement de Jonghe print shop** (publisher, Amsterdam, 1643–1677), sold the style. An Amsterdam print shop that Clement de Jonghe ran from 1643 to 1677. It held more than 60,000 prints and many of the etched plates of Rembrandt.

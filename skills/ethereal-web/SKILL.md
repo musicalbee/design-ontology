@@ -249,9 +249,9 @@ A colour field built from many points that each hold a colour, so the colours bl
 - Blur the field by 80 to 200 px, so that no edge shows.
 - Put the field behind the content and give the text a solid or near-solid surface.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Awwwards** (platform, web, 2009–now), published the style. A web site that gives awards to web design. Designers post sites there, and its daily picks spread trends of the expressive web.
 

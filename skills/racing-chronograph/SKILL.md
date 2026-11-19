@@ -170,11 +170,11 @@ A watch mechanism that starts, stops and resets a timing hand with pushers, apar
 - Drive a central seconds hand and sub dials for minutes and hours from a clutch.
 - Print a tachymeter scale on the bezel to turn a time over a set distance into a speed.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Heuer watch workshop** (workshop, Saint-Imier, 1860–now), made the style. The Swiss workshop that made stopwatches and chronographs for sport and, from the 1960s, the Carrera and the Monaco for drivers.
+- **Heuer watch workshop** (company, Saint-Imier, 1860–now), made the style. The Swiss workshop that made stopwatches and chronographs for sport and, from the 1960s, the Carrera and the Monaco for drivers.
 
 ## Permutations
 

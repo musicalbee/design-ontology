@@ -174,9 +174,9 @@ A way to serve a meal: all the dishes of one service stand on the table together
 - Place the dishes in a symmetric pattern that a plan on paper shows.
 - Clear the whole service at once and set the next service in its place.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Le Cuisinier françois** (publisher, Paris, 1651–now), published the style. A French cookbook by La Varenne. It sets down the roux, the bouquet garni and the stock base, and went through many editions.
 

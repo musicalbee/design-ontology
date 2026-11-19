@@ -166,11 +166,11 @@ A woven or knit cloth that is coated with plasticised PVC, so that it is shiny, 
 - Heat the coated cloth so that the layer fuses and sets with a smooth, shiny face.
 - Cut and weld or tape the seams so that they keep out the water.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Bazaar boutique** (workshop, King's Road, London, 1955–now), launched the style. The shop that Mary Quant and Alexander Plunket Greene opened on the King's Road. It sold short dresses and miniskirts to young Londoners.
+- **Bazaar boutique** (company, King's Road, London, 1955–now), launched the style. The shop that Mary Quant and Alexander Plunket Greene opened on the King's Road. It sold short dresses and miniskirts to young Londoners.
 
 ## Permutations
 

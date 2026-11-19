@@ -178,9 +178,9 @@ One motif or one frame, repeated with small changes in a set of works, so that t
 - Keep the spacing between works equal to a fixed unit, such as 10 cm or one panel width.
 - Remove the hand: use a mechanical edge, a stencil or a plain lens.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **New Topographics** (exhibition, Rochester, New York, 1975–1976), launched the style. A show of landscape photography at George Eastman House. Its plain views of houses, roads and industry gave a movement its name.
 

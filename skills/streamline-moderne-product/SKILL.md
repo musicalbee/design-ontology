@@ -171,9 +171,9 @@ Three or more parallel horizontal bands in chrome or a raised moulding along a r
 - Space the bands 3 to 8mm apart and keep them the same length.
 - Wrap the bands round a curved end, so that they follow the radius of the body.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **1939 New York World's Fair** (exhibition, New York, 1939–1940), exhibited the style. A world's fair of two seasons with the theme The World of Tomorrow. Its pavilions, cars and appliances showed streamlined shells to millions of visitors.
 

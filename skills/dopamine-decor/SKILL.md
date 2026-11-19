@@ -326,9 +326,9 @@ Chips of marble or glass set in a binder and ground flat, so that each chip show
 - Use 2 to 4 chip colours on one ground colour.
 - Grind and polish the surface flat, so that the chip edges show as cut sections.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Instagram** (platform, web, 2010–now), published the style. A photo and video app. Home and food images spread on it, and it carried trends such as dopamine decor and the film grain look.
 

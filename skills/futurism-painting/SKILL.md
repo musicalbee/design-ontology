@@ -178,9 +178,9 @@ A series of photographs, or many exposures on one plate, that split a movement i
 - Show each stage of the movement in a form that overlaps its neighbour by 20% to 50%.
 - In a painting, repeat a limb or a form along the path of the movement.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Lacerba** (magazine, Florence, 1913–1915), published the style. A Florentine review that published the Futurists and their manifestos in loud type.
 - **Le Figaro** (magazine, Paris, 1826–now), launched the style. A French daily newspaper. It printed the Symbolist manifesto in 1886 and the Futurist manifesto in 1909.

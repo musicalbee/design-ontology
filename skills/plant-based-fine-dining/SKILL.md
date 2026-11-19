@@ -164,11 +164,11 @@ Vegetables in a salt brine are soured by lactic bacteria; the acid and the savou
 - Keep the jar at 18 to 22 °C for 3 to 14 days and taste each day.
 - Chill the ferment when the acid is right, and use the juice as a sauce or a seasoning.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Eleven Madison Park** (workshop, New York, 1998–now), launched the style. A restaurant on Madison Square in New York; under Daniel Humm it changed in 2021 to a tasting menu of plant-based food only.
+- **Eleven Madison Park** (company, New York, 1998–now), launched the style. A restaurant on Madison Square in New York; under Daniel Humm it changed in 2021 to a tasting menu of plant-based food only.
 
 ## Permutations
 

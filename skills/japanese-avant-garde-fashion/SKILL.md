@@ -162,11 +162,11 @@ A way to pleat cloth after the garment is cut and sewn, with a heat press, so th
 - Fold the garment into pleats between sheets of paper.
 - Press the folds in a heat press, so that the polyester holds them.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Comme des Garçons** (workshop, Tokyo, 1969–now), launched the style. The label that Rei Kawakubo founded in Tokyo in 1969. Its 1981 Paris show brought the black, loose Japanese line to Europe.
+- **Comme des Garçons** (company, Tokyo, 1969–now), launched the style. The label that Rei Kawakubo founded in Tokyo in 1969. Its 1981 Paris show brought the black, loose Japanese line to Europe.
 
 ## Permutations
 

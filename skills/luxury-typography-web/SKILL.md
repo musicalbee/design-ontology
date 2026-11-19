@@ -252,9 +252,9 @@ Capital letters set with wide space between them, so that a short word reads as 
 - Use roman capitals with strong serifs or a clean geometric sans.
 - Keep the line to one to four words.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Awwwards** (platform, web, 2009–now), published the style. A web site that gives awards to web design. Designers post sites there, and its daily picks spread trends of the expressive web.
 

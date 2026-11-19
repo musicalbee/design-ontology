@@ -163,11 +163,11 @@ A way to sew a strip of leather, the welt, to the upper and the insole rib, and 
 - Fill the gap under the insole with cork.
 - Stitch the outsole to the welt, so that a cobbler can replace it.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **John Lobb bootmaker** (workshop, London, England, 1849–now), made the style. The bespoke bootmaker that John Lobb founded in 1849. It makes welted shoes and boots on a last carved for each client.
+- **John Lobb bootmaker** (company, London, England, 1849–now), made the style. The bespoke bootmaker that John Lobb founded in 1849. It makes welted shoes and boots on a last carved for each client.
 
 ## Permutations
 

@@ -329,11 +329,11 @@ Parallel grooves (flutes) or ridges (reeds) on a column, a panel, a leg or a she
 - Run the flutes vertical to make a surface look taller.
 - Use one fluted surface in each room as an accent.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Gillows of Lancaster and London** (workshop, Lancaster and London, ?–now), made the style. An English furniture maker that started in about 1730. Its mahogany furniture filled Georgian houses.
+- **Gillows of Lancaster and London** (company, Lancaster and London, ?–now), made the style. An English furniture maker that started in about 1730. Its mahogany furniture filled Georgian houses.
 
 ## Permutations
 

@@ -183,9 +183,9 @@ A table piece that a cook models from sugar paste, marzipan and pastry in the sh
 - Build the frame of the piece from pastry, wire or wood, and fix the sugar parts to it.
 - Set the piece at the centre of the table, and bring it in at the end of a service.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Le Viandier** (publisher, Paris, 1300–now), published the style. A French cookbook of recipes for the royal and noble table. The oldest copies date from about 1300, and Taillevent widened the text. It was one of the first printed cookbooks.
 

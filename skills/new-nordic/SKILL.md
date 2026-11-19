@@ -174,11 +174,11 @@ The cook gathers wild plants, flowers, mushrooms and shellfish near the kitchen,
 - Pick only what the kitchen uses that day, and leave the root.
 - Write the menu after the harvest, not before.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Noma** (workshop, Copenhagen, 2003–now), launched the style. A restaurant in a former warehouse in Copenhagen; its seasonal tasting menu and its fermentation lab set the New Nordic kitchen.
+- **Noma** (company, Copenhagen, 2003–now), launched the style. A restaurant in a former warehouse in Copenhagen; its seasonal tasting menu and its fermentation lab set the New Nordic kitchen.
 
 ## Permutations
 

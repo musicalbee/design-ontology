@@ -246,9 +246,9 @@ A plane divided by black horizontal and vertical bars into white fields and a fe
 - Fill one to three fields with red, yellow or blue; leave the rest white or grey.
 - Set the bars at one weight, 1% to 2% of the short side.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **De Stijl** (magazine, Leiden, 1917–1932), launched the style. The magazine that Theo van Doesburg edited for the De Stijl group. It printed their theory of pure colour and the straight line.
 

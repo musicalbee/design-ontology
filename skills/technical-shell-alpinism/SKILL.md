@@ -170,11 +170,11 @@ A napped polyester knit that is light, dries fast and keeps its loft when wet; i
 - Raise and shear the loops to form a soft, even nap.
 - Cut the cloth into a jacket with a close collar and a zip.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **W. L. Gore and Associates** (workshop, Newark, Delaware, 1958–now), launched the style. The firm of Wilbert and Robert Gore. It made the Gore-Tex membrane and, from 1976, laminated it to cloth for shells.
+- **W. L. Gore and Associates** (company, Newark, Delaware, 1958–now), launched the style. The firm of Wilbert and Robert Gore. It made the Gore-Tex membrane and, from 1976, laminated it to cloth for shells.
 
 ## Permutations
 
