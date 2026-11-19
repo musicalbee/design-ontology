@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schema/cue.schema.json",
+  "id": "daylight-windows-wellbeing",
+  "name": "Windows and daylight raise vitality and sleep quality",
+  "variable": "daylight",
+  "direction": {
+    "change": "present",
+    "unit": "office window",
+    "range": {
+      "from": "windowless office",
+      "to": "office with windows"
+    }
+  },
+  "effects": [
+    {
+      "target": "vitality",
+      "sign": 1,
+      "size": "medium"
+    },
+    {
+      "target": "pad:p",
+      "sign": 1,
+      "size": "small"
+    }
+  ],
+  "evidence_kind": "measured",
+  "claim": "Office workers with windows had higher vitality scores and better sleep than workers in windowless offices, and they got more daylight.",
+  "study": {
+    "participants": 49,
+    "setting": "field"
+  },
+  "caveat": "A small pilot that was not random, in one US workplace; it measures health and sleep, with vitality as the nearest emotion term.",
+  "sources": [
+    {
+      "title": "Boubekri et al. 2014, Impact of windows and daylight exposure on overall health and sleep quality of office workers, Journal of Clinical Sleep Medicine 10(6)",
+      "url": "https://doi.org/10.5664/jcsm.3780"
+    }
+  ]
+}

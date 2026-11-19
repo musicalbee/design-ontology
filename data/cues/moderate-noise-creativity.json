@@ -1,0 +1,40 @@
+{
+  "$schema": "../../schema/cue.schema.json",
+  "id": "moderate-noise-creativity",
+  "name": "Moderate background noise helps creative work",
+  "variable": "sound-level",
+  "direction": {
+    "change": "within-band",
+    "unit": "dB",
+    "range": {
+      "from": 50,
+      "to": 70
+    },
+    "note": "Keep the level near 70 dB; at 85 dB the effect turns negative."
+  },
+  "effects": [
+    {
+      "target": "pad:a",
+      "sign": 1,
+      "size": "small"
+    },
+    {
+      "target": "insight",
+      "sign": 1,
+      "size": "small"
+    }
+  ],
+  "evidence_kind": "measured",
+  "claim": "Ambient noise at about 70 dB raised creative performance compared with 50 dB, and 85 dB lowered it.",
+  "study": {
+    "participants": null,
+    "setting": "lab"
+  },
+  "caveat": "It measures creative cognition, not a named emotion; the levels are lab playback, and the benefit stops above 70 dB.",
+  "sources": [
+    {
+      "title": "Mehta, Zhu and Cheema 2012, Is noise always bad? Exploring the effects of ambient noise on creative cognition, Journal of Consumer Research 39(4)",
+      "url": "https://doi.org/10.1086/665048"
+    }
+  ]
+}

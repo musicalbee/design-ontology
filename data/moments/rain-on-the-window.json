@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schema/moment.schema.json",
+  "id": "rain-on-the-window",
+  "name": "Rain on the window in the afternoon",
+  "kind": "daily",
+  "description": "Rain runs down the glass, the light is low and grey, and the room inside feels dry and warm.",
+  "emotions": [
+    {
+      "emotion": "relaxation",
+      "strength": 1
+    },
+    {
+      "emotion": "nostalgia",
+      "strength": 0.6
+    },
+    {
+      "emotion": "sadness",
+      "strength": 0.4
+    },
+    {
+      "emotion": "koselig",
+      "strength": 0.5
+    }
+  ],
+  "time": {
+    "of_day": [
+      "afternoon"
+    ],
+    "season": [
+      "autumn",
+      "spring"
+    ],
+    "sun_elevation_deg": null
+  },
+  "light": {
+    "cct_k": {
+      "min": 5000,
+      "max": 7000
+    },
+    "lux": {
+      "min": 100,
+      "max": 1000
+    },
+    "direction": "diffuse",
+    "quality": "soft",
+    "sources": [
+      "sky",
+      "lamp"
+    ]
+  },
+  "weather": [
+    "rain",
+    "overcast"
+  ],
+  "sound": [
+    "rain on glass",
+    "drip from the gutter"
+  ],
+  "scent": [
+    "petrichor",
+    "wet earth"
+  ],
+  "people": {
+    "min": 1,
+    "max": 2,
+    "activity": "read or nap near the window"
+  },
+  "carriers": {
+    "styles": [
+      "scandinavian-interior",
+      "arts-and-crafts-interior"
+    ],
+    "things": [
+      "rain-streaked glass",
+      "reading chair",
+      "lamp"
+    ]
+  },
+  "cues": [
+    "prospect-refuge-preference"
+  ],
+  "scene_ref": null,
+  "sources": [
+    {
+      "title": "Wikipedia, Petrichor: the earthy smell that rain on dry ground makes",
+      "url": "https://en.wikipedia.org/wiki/Petrichor"
+    },
+    {
+      "title": "Wikipedia, Lux: table of typical illuminance from moonlight to direct sun",
+      "url": "https://en.wikipedia.org/wiki/Lux"
+    }
+  ]
+}

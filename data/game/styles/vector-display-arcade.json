@@ -50,7 +50,7 @@
     "framing": "The whole field of play on one screen, with the player at the bottom or the centre."
   },
   "geometry": {
-    "primitive": "A straight line segment between two points on a 1024 by 768 addressable field.",
+    "primitive": "A straight line segment between two points on a 1024 by 1024 addressable field; about 1024 by 768 of it is visible.",
     "budget": "A few hundred segments for each frame on the whole screen.",
     "edge_rule": "Perfect straight lines with no steps; the ends of lines glow a little brighter.",
     "proportion": "Abstract: a ship, a rock and a city are all the same order of size."
@@ -232,10 +232,10 @@
   },
   "permutations": {
     "render_resolution": {
-      "default": 768,
+      "default": 1024,
       "min": 480,
       "max": 1024,
-      "note": "The addressable field of the beam, not a raster."
+      "note": "The addressable field of the beam (1024 by 1024), not a raster."
     },
     "colour_depth": {
       "default": 1,

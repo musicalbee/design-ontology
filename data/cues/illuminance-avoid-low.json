@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schema/cue.schema.json",
+  "id": "illuminance-avoid-low",
+  "name": "Very low illuminance is unpleasant",
+  "variable": "illuminance",
+  "direction": {
+    "change": "higher",
+    "unit": "lux",
+    "range": {
+      "from": "low",
+      "to": "moderate"
+    }
+  },
+  "effects": [
+    {
+      "target": "pad:p",
+      "sign": 1,
+      "size": "small"
+    },
+    {
+      "target": "uneasiness",
+      "sign": -1,
+      "size": "small"
+    }
+  ],
+  "evidence_kind": "measured",
+  "claim": "A review of credible illuminance and colour-temperature experiments found that the only stable rule for pleasant light is to avoid low illuminance.",
+  "study": {
+    "participants": null,
+    "setting": "meta-analysis"
+  },
+  "caveat": "The review gives no exact threshold in its abstract; a secondary reading puts the line near 300 lux, which is not confirmed.",
+  "sources": [
+    {
+      "title": "Fotios 2017, A revised Kruithof graph based on empirical data, LEUKOS 13(1)",
+      "url": "https://eprints.whiterose.ac.uk/id/eprint/98531"
+    }
+  ]
+}
