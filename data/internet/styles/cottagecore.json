@@ -1,0 +1,364 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "cottagecore",
+  "domain": "internet",
+  "name": "Cottagecore",
+  "aliases": [
+    "Cottage core",
+    "Countryside romance"
+  ],
+  "branch": "core-subcultures",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2018,
+    "end": null,
+    "label": "2018–now"
+  },
+  "primary_mediums": [
+    "image",
+    "web",
+    "mobile",
+    "video"
+  ],
+  "summary": "A dream of rural life: wildflowers, baking, linen, embroidery, hand-drawn herbs and soft window light. It grew on Tumblr in 2018 and reached a wide audience on TikTok in 2020.",
+  "philosophy": {
+    "core_thesis": "Pick the slow, handmade country day as a refuge from the feed that carries it.",
+    "design_principles": [
+      "Set the ground in warm cream (#F6EEDC) with a faint linen or paper grain at 5% opacity.",
+      "Use sage green (#7D9170), dusty rose (#D9A5A0) and butter yellow (#E8C872) as the three accents.",
+      "Pair a soft old-style serif for headings with a clear humanist serif for text; add one script word at 1.5 times the size.",
+      "Frame photographs with rounded corners of 16px to 24px, in soft golden-hour light with a lifted shadow.",
+      "Place hand-drawn botanicals (a stem, a mushroom, a loaf) at 48px to 120px in the margins.",
+      "Show food, flowers and tools laid out by hand: bread on linen, a basket, a jar, a kettle.",
+      "Draw borders as 1px dotted or scalloped lines in sage, and keep buttons as soft rounded pills."
+    ],
+    "anti_patterns": [
+      "Neon, chrome and glossy gradients",
+      "Cold grey office surfaces",
+      "Hard black outlines and sharp corners",
+      "Heavy sans-serif capitals",
+      "City skylines and tech props",
+      "Flat stock-photo smiles"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "dimensionality": 2,
+    "grid_rigidity": 2,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 4
+  },
+  "layout": {
+    "grid_mechanics": "A 12-column grid with 24px gutters; cards sit in 2 or 3 columns and break their rows by 8px to 16px, like items on a shelf.",
+    "whitespace_ratio": "30% to 40% of the surface stays empty; the spacing scale is 8, 16, 24 and 40px.",
+    "alignment_rules": "Centred headings with flush-left body text; photographs tilt by 1° to 2° like pinned prints.",
+    "container_geometry": "Containers with a 20px radius, a 1px dotted sage border and a soft 0 8px 24px shadow at 12% opacity."
+  },
+  "typography": {
+    "classifications": [
+      "old-style serif",
+      "script accent",
+      "humanist serif"
+    ],
+    "font_pairings": [
+      {
+        "display": "Cormorant Garamond",
+        "body": "Lora",
+        "note": "A light, high-contrast serif for headings with a warm text serif."
+      },
+      {
+        "display": "Fraunces",
+        "body": "Crimson Pro",
+        "note": "A soft, wonky serif with a bookish text face."
+      },
+      {
+        "display": "Pinyon Script",
+        "body": "Lora",
+        "note": "A hand script for one accent word, with a text serif."
+      }
+    ],
+    "tracking": "Display 0.01em; body 0; script 0.",
+    "leading": "Display 1.15; body 1.7.",
+    "hierarchy_rules": [
+      "Use weights 400 and 600 for the serif.",
+      "Use sizes 16, 20, 28 and 56px.",
+      "Set one script word in each main heading at 1.5 times the size.",
+      "Set captions in italic at 14px."
+    ]
+  },
+  "color": {
+    "palette_structure": "Cream ground with sage, dusty rose and butter yellow, and a deep forest green for text.",
+    "palette": [
+      {
+        "name": "Cream",
+        "hex": "#F6EEDC",
+        "role": "background"
+      },
+      {
+        "name": "Linen",
+        "hex": "#FBF6EA",
+        "role": "surface"
+      },
+      {
+        "name": "Forest",
+        "hex": "#2F3B2A",
+        "role": "text"
+      },
+      {
+        "name": "Sage",
+        "hex": "#7D9170",
+        "role": "primary"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#D9A5A0",
+        "role": "accent"
+      },
+      {
+        "name": "Butter",
+        "hex": "#E8C872",
+        "role": "highlight"
+      },
+      {
+        "name": "Moss Grey",
+        "hex": "#5B6652",
+        "role": "muted text"
+      },
+      {
+        "name": "Oat",
+        "hex": "#DDD2B8",
+        "role": "border"
+      }
+    ],
+    "contrast_rules": "Forest on cream holds 10:1; muted moss holds 5:1; sage and rose carry fills and rules, not small text.",
+    "surface_treatment": "A warm flat cream with a paper grain; photographs carry a lifted black and a warm tint.",
+    "light_and_shadow": "Soft golden-hour light; shadows are lifted, warm and blurred at 24px, never black."
+  },
+  "materiality": {
+    "surface_simulation": "Linen, gingham, paper, pressed flowers and wooden tables.",
+    "border_rules": "A 1px dotted border in sage; scalloped edges on labels; stitch lines at 2px dashes on tags.",
+    "blur_and_elevation": "A shadow of 0 8px 24px at 12% opacity on cards; no hard shadow and no glass."
+  },
+  "ornamentation_details": {
+    "iconography": "Thin outline icons at 24px with 1.5px strokes and round caps; hand-drawn botanical marks as accents.",
+    "illustration": "Watercolour or ink botanicals, small animals, baskets, loaves and teapots on a cream ground.",
+    "decorative_elements": [
+      "gingham trim",
+      "pressed flower",
+      "scalloped label",
+      "embroidery stitch line",
+      "hand-drawn mushroom"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Slow and soft: elements rise by 12px and fade in over 600ms; petals drift down at 12s per loop.",
+    "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+    "duration_ms": 600,
+    "hover_and_active": "Hover lifts a card by 4px and warms the shadow; active state presses it back by 2px."
+  },
+  "lineage": {
+    "evolved_from": [
+      "bohemian-web",
+      "wabi-sabi-web"
+    ],
+    "rebelled_against": [
+      "flat-design"
+    ],
+    "hybridized_with": [
+      "scrapbook-ui"
+    ],
+    "echoes": [
+      "arts-and-crafts-interior",
+      "mingei-folk-craft",
+      "grandmillennial-interior",
+      "romanticism-painting"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels safe, slow and fond of simple handmade things.",
+    "keywords": [
+      "gentle",
+      "pastoral",
+      "handmade",
+      "nostalgic",
+      "warm",
+      "romantic"
+    ],
+    "brand_archetypes": [
+      "innocent",
+      "caregiver",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "cottagecore",
+      "cottage core",
+      "countryside",
+      "wildflowers",
+      "baking",
+      "gingham",
+      "homesteading",
+      "fairy garden",
+      "linen"
+    ],
+    "use_cases": [
+      "bakery and florist shops",
+      "craft and tea brands",
+      "lifestyle blogs and newsletters",
+      "wedding and event pages"
+    ],
+    "avoid_when": [
+      "The product is technical, industrial or financial.",
+      "The audience needs fast, dense reading.",
+      "The page must look urban or futuristic."
+    ],
+    "modifiers": [
+      {
+        "request": "darker",
+        "toward": "dark-academia",
+        "how": "Swap cream for deep brown and green, add candles and book spines; keep the serif."
+      },
+      {
+        "request": "wilder",
+        "toward": "goblincore",
+        "how": "Replace pastel accents with moss, bark and toadstool red; add mushrooms and bones."
+      },
+      {
+        "request": "cleaner",
+        "toward": "minimalism-web",
+        "how": "Remove the dotted borders and botanicals; keep the cream and one sage accent."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 600,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 400,
+      "accent": "colour",
+      "display_tracking": "0.01em",
+      "display_leading": 1.15,
+      "display_case": "none",
+      "body_leading": 1.7,
+      "body_size": "17px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "circle",
+      "pack": {
+        "id": "pepicons-print",
+        "why": "A hand-drawn print line that suits a handmade country look."
+      }
+    },
+    "art": {
+      "recipe": "midcentury",
+      "pattern": "squiggle",
+      "seed": 18
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "airy",
+      "tilt_deg": 2
+    },
+    "ground": {
+      "kind": "linen",
+      "why": "Cottagecore sits on cream linen and paper, the cloth of a country table."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#F6EEDC",
+      "--color-surface": "#FBF6EA",
+      "--color-text": "#2F3B2A",
+      "--color-muted": "#5B6652",
+      "--color-primary": "#7D9170",
+      "--color-accent": "#D9A5A0",
+      "--color-border": "#DDD2B8",
+      "--font-sans": "\"Lora\", \"Crimson Pro\", Georgia, serif",
+      "--font-display": "\"Cormorant Garamond\", \"Fraunces\", Georgia, serif",
+      "--border-radius": "20px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 8px 24px rgba(47, 59, 42, 0.12)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "--duration": "600ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#F6EEDC] text-[#2F3B2A] font-serif antialiased px-6 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "font-[family-name:Cormorant_Garamond] text-4xl md:text-6xl font-semibold leading-[1.15] text-center"
+      },
+      {
+        "element": "body",
+        "classes": "text-[17px] leading-[1.7] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-[20px] border border-dotted border-[#7D9170] bg-[#FBF6EA] p-8 shadow-[0_8px_24px_rgba(47,59,42,0.12)]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-full bg-[#7D9170] px-7 py-3 text-sm font-semibold text-[#1F2A1C] transition-transform duration-[600ms] hover:-translate-y-1"
+      },
+      {
+        "element": "label",
+        "classes": "text-sm italic text-[#5B6652]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#7D9170",
+        "#D9A5A0",
+        "#E8C872"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#D9A5A0",
+        "#7D9170",
+        "#E8C872"
+      ]
+    },
+    "corner_radius": {
+      "min": 12,
+      "max": 28
+    },
+    "grid_step": {
+      "min": 6,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.414
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Cottagecore",
+      "url": "https://en.wikipedia.org/wiki/Cottagecore"
+    },
+    {
+      "title": "Know Your Meme: Cottagecore",
+      "url": "https://knowyourmeme.com/memes/cottagecore"
+    },
+    {
+      "title": "Vox, Cottagecore explained (2020)"
+    }
+  ]
+}

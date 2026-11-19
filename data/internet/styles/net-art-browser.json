@@ -1,0 +1,350 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "net-art-browser",
+  "domain": "internet",
+  "name": "Net Art Browser",
+  "aliases": [
+    "Browser art",
+    "net.art",
+    "Default HTML art"
+  ],
+  "branch": "early-web",
+  "era_id": "postmodern-early-digital",
+  "time_period": {
+    "start": 1994,
+    "end": 2001,
+    "label": "1994–2001"
+  },
+  "primary_mediums": [
+    "web"
+  ],
+  "summary": "Art made inside the browser from raw HTML: default grey ground, blue links, Times text, broken frames and visible code. The net.art artists of the 1990s used the window as the canvas.",
+  "philosophy": {
+    "core_thesis": "The browser is the material: show its defaults, its errors and its source as the work itself.",
+    "design_principles": [
+      "Keep the browser defaults: Times text at 16px, blue links (#0000EE), visited links (#551A8B) and a margin of 8px.",
+      "Choose one ground: white (#FFFFFF), default grey (#C0C0C0) or black with green text (#00FF00).",
+      "Split the window with nested frames at 1px borders, and let one frame show an error or the raw source.",
+      "Set text as plain lines of 60 to 80 characters; use no images, or use 1 stretched GIF.",
+      "Make links the only navigation; name them with single words or with the URL itself.",
+      "Show the code: print a block of HTML, a status line or an error message as visible content.",
+      "Let colour and size glitch: one line in 72px bold red (#FF0000) among 16px black text."
+    ],
+    "anti_patterns": [
+      "Polished brand identity and logos",
+      "Soft shadows, gradients and rounded cards",
+      "Navigation bars with icons",
+      "Stock photography",
+      "Responsive grid systems",
+      "Custom fonts with fine tracking"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "dimensionality": 1,
+    "grid_rigidity": 2,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A single flowing column that fills the window; frames split it at 50% or 33% with visible 1px borders.",
+    "whitespace_ratio": "60% to 90% of the page is empty ground; the spacing is the browser default of 8px and 16px.",
+    "alignment_rules": "Everything flush left and top; text wraps at the window edge with no max width.",
+    "container_geometry": "Raw rectangles with a 0px radius; frames and tables show their borders at 1px."
+  },
+  "typography": {
+    "classifications": [
+      "default serif",
+      "default sans",
+      "monospace"
+    ],
+    "font_pairings": [
+      {
+        "display": "Tinos",
+        "body": "Tinos",
+        "note": "Tinos is the open look-alike of Times, the default browser face."
+      },
+      {
+        "display": "Arimo",
+        "body": "Courier Prime",
+        "note": "Arimo is the open look-alike of Arial; Courier Prime serves the code and the log lines."
+      },
+      {
+        "display": "Cousine",
+        "body": "Tinos",
+        "note": "A mono display over default text."
+      }
+    ],
+    "tracking": "Display 0em; body 0em; keep the defaults.",
+    "leading": "Display 1.15; body 1.2.",
+    "hierarchy_rules": [
+      "Use 16px for body text and 32px bold for a single heading.",
+      "Use underline and colour for links and nothing else for emphasis.",
+      "Use bold and italic as the only weights.",
+      "Show errors in monospace at 14px."
+    ]
+  },
+  "color": {
+    "palette_structure": "The default web colours: white or grey ground, black text, blue and purple links, one pure accent.",
+    "palette": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "name": "Default Grey",
+        "hex": "#C0C0C0",
+        "role": "frame ground"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "name": "Link Blue",
+        "hex": "#0000EE",
+        "role": "link"
+      },
+      {
+        "name": "Visited Purple",
+        "hex": "#551A8B",
+        "role": "visited link"
+      },
+      {
+        "name": "Error Red",
+        "hex": "#FF0000",
+        "role": "accent"
+      },
+      {
+        "name": "Terminal Green",
+        "hex": "#00FF00",
+        "role": "accent on black"
+      }
+    ],
+    "contrast_rules": "Black on white is 21:1; link blue on white is 8:1; green on black is 15:1; red is for lines of 24px or more.",
+    "surface_treatment": "Flat colour with no gradient; the window background colour is the only surface.",
+    "light_and_shadow": "No light and no shadow; borders are 1px solid lines or the old 2px inset."
+  },
+  "materiality": {
+    "surface_simulation": "The default browser page: no skin, no material.",
+    "border_rules": "A 1px solid black line on frames and tables; a 2px inset line only on form fields.",
+    "blur_and_elevation": "No blur and no elevation."
+  },
+  "ornamentation_details": {
+    "iconography": "No icon set; use text links, the broken-image mark and the 16px favicon default.",
+    "illustration": "No illustration; use the code, a stretched 1px GIF, a table of random numbers or a screenshot of an error dialog.",
+    "decorative_elements": [
+      "visible source code",
+      "broken frame",
+      "default link colours",
+      "error message",
+      "scrolling status bar text"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Pages change with a hard cut on each click; one meta refresh at 5s replaces the page; no easing.",
+    "easing": "cubic-bezier(0, 0, 1, 1)",
+    "duration_ms": 0,
+    "hover_and_active": "Hover shows the default pointer and the link target in the status bar; the active link turns red (#FF0000)."
+  },
+  "lineage": {
+    "evolved_from": [
+      "ansi-bbs-art"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "cyberdelia"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels unsure whether the page is broken or planned, and then sees the idea.",
+    "keywords": [
+      "raw",
+      "conceptual",
+      "glitchy",
+      "ironic",
+      "early-net",
+      "minimal"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "sage",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "net art",
+      "net.art",
+      "default html",
+      "browser art",
+      "raw html",
+      "view source",
+      "1990s web art",
+      "jodi"
+    ],
+    "use_cases": [
+      "art project pages and festival sites",
+      "conceptual portfolios",
+      "critique of web design",
+      "exhibition sites for digital art",
+      "developer humour pages"
+    ],
+    "avoid_when": [
+      "The page must sell a product.",
+      "The audience needs clear and friendly navigation.",
+      "The brand needs trust and polish."
+    ],
+    "modifiers": [
+      {
+        "request": "more homepage",
+        "toward": "geocities-homepage",
+        "how": "Add a tiled background, a counter and an under-construction sign."
+      },
+      {
+        "request": "cleaner",
+        "toward": "minimalism-web",
+        "how": "Keep the empty ground and swap the defaults for one chosen type face."
+      },
+      {
+        "request": "more machine",
+        "toward": "ansi-bbs-art",
+        "how": "Move to a black text grid with 16 ANSI colours."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 700,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 400,
+      "accent": "colour",
+      "display_tracking": "0em",
+      "display_leading": 1.15,
+      "display_case": "none",
+      "body_leading": 1.2,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 2,
+      "linecap": "butt",
+      "linejoin": "miter",
+      "container": "none",
+      "pack": {
+        "id": "pixelarticons",
+        "why": "Plain square pixel marks keep the raw, unstyled feel of default HTML."
+      }
+    },
+    "art": {
+      "recipe": "plain",
+      "pattern": "none",
+      "seed": 94
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "left",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "raw",
+      "why": "The ground is the bare browser window with no pattern."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#FFFFFF",
+      "--color-surface": "#C0C0C0",
+      "--color-text": "#000000",
+      "--color-muted": "#555555",
+      "--color-primary": "#0000EE",
+      "--color-accent": "#FF0000",
+      "--color-border": "#000000",
+      "--font-sans": "\"Tinos\", \"Times New Roman\", serif",
+      "--font-display": "\"Tinos\", \"Times New Roman\", serif",
+      "--border-radius": "0px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0, 0, 1, 1)",
+      "--duration": "0ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-white text-black font-serif px-2"
+      },
+      {
+        "element": "heading",
+        "classes": "text-3xl font-bold leading-tight"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.2]"
+      },
+      {
+        "element": "section",
+        "classes": "border border-black bg-[#C0C0C0]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border border-black bg-[#C0C0C0] px-2 py-0.5 text-base"
+      },
+      {
+        "element": "label",
+        "classes": "text-sm font-mono"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#0000EE",
+        "#000000",
+        "#00FF00"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#FF0000",
+        "#00FF00",
+        "#551A8B"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 0
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 16
+    },
+    "type_scale_ratio": {
+      "min": 1.067,
+      "max": 1.5,
+      "default": 1.25
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Net.art",
+      "url": "https://en.wikipedia.org/wiki/Net.art"
+    },
+    {
+      "title": "Rhizome: net art",
+      "url": "https://rhizome.org/"
+    },
+    {
+      "title": "Wikipedia: Jodi (art collective)",
+      "url": "https://en.wikipedia.org/wiki/Jodi_(art_collective)"
+    }
+  ]
+}

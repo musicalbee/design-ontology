@@ -1,0 +1,339 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "lets-play-facecam",
+  "domain": "internet",
+  "name": "Let's Play Facecam",
+  "aliases": [
+    "Gameplay with facecam",
+    "Reaction cam",
+    "Gamer commentary"
+  ],
+  "branch": "creator-streaming",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2010,
+    "end": null,
+    "label": "2010–now"
+  },
+  "primary_mediums": [
+    "video"
+  ],
+  "summary": "Game footage fills the frame and a small live window of the player's face sits in one corner. The face reacts, and loud captions and zoom cuts push the mood.",
+  "philosophy": {
+    "core_thesis": "The game is the stage and the face is the audience: put the reaction next to the action, and the viewer follows the player, not the game.",
+    "design_principles": [
+      "Fill the frame with game footage and set the facecam window at 18% to 25% of the frame width.",
+      "Place the facecam in a corner at 24px from each edge and keep it there for the full clip.",
+      "Crop the facecam to a rounded box with a 4px border in the accent colour.",
+      "Zoom the face by 110% to 130% for 8 to 12 frames at a scare or a win, then return.",
+      "Add a red or yellow caption of 48px to 72px with a 4px black outline for the key joke.",
+      "Cut every pause over 1.5s and add a short sound hit at each cut.",
+      "Keep the game HUD visible; do not cover the health bar or the map with the facecam."
+    ],
+    "anti_patterns": [
+      "Studio lighting that removes the room",
+      "A facecam that covers the game HUD",
+      "Silent, still footage with no cuts",
+      "Small, thin captions that fade into the game",
+      "A corporate lower-third with a logo bar",
+      "Muted colour grades"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "dimensionality": 2,
+    "grid_rigidity": 2,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 4
+  },
+  "layout": {
+    "grid_mechanics": "A 16:9 frame with two layers: full-bleed game footage and a facecam box of 18% to 25% width at a corner, on a 24px safe margin.",
+    "whitespace_ratio": "Under 5% of the frame is empty; the game and the face use all of it.",
+    "alignment_rules": "The facecam sits at a corner, usually bottom-left or bottom-right; captions centre on the lower third.",
+    "container_geometry": "A facecam box with a 12px radius and a 4px accent border; captions use a 4px outline instead of a box."
+  },
+  "typography": {
+    "classifications": [
+      "bold display",
+      "outlined sans",
+      "impact-style"
+    ],
+    "font_pairings": [
+      {
+        "display": "Anton",
+        "body": "Inter",
+        "note": "Anton is an open look-alike of the Impact face that gamers use for captions."
+      },
+      {
+        "display": "Bangers",
+        "body": "Rubik",
+        "note": "A comic caption face for jokes and sound words."
+      },
+      {
+        "display": "Luckiest Guy",
+        "body": "Nunito",
+        "note": "A thick, round display face for big reactions."
+      }
+    ],
+    "tracking": "Display takes +0.01em; captions take 0em.",
+    "leading": "Display 1.0; body 1.4.",
+    "hierarchy_rules": [
+      "Use one display weight (400) and a body weight of 500.",
+      "Use sizes 18, 32, 56 and 72px.",
+      "Set the main caption in capitals at 56px to 72px with a 4px outline.",
+      "Set the channel name at 24px in the accent colour."
+    ]
+  },
+  "color": {
+    "palette_structure": "A game-neutral dark frame with hot red and warm yellow for captions, and one cyan border for the facecam.",
+    "palette": [
+      {
+        "name": "Screen Black",
+        "hex": "#101014",
+        "role": "background"
+      },
+      {
+        "name": "Panel Grey",
+        "hex": "#1D1D24",
+        "role": "surface"
+      },
+      {
+        "name": "Caption White",
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "name": "Rage Red",
+        "hex": "#FF2E3B",
+        "role": "primary"
+      },
+      {
+        "name": "Cam Cyan",
+        "hex": "#22D3EE",
+        "role": "accent"
+      },
+      {
+        "name": "Score Yellow",
+        "hex": "#FFD60A",
+        "role": "highlight"
+      }
+    ],
+    "contrast_rules": "White text on screen black holds at least 17:1; captions also carry a 4px black outline so that they read on any game scene.",
+    "surface_treatment": "Flat dark panels; the game footage is the only texture.",
+    "light_and_shadow": "No cast shadow; a 4px black outline separates text from the picture, and the facecam keeps a 3px accent glow."
+  },
+  "materiality": {
+    "surface_simulation": "A monitor capture: sharp game pixels and a webcam image with room light and slight compression noise.",
+    "border_rules": "A 4px border in cyan on the facecam; a 4px black outline on caption text.",
+    "blur_and_elevation": "No blur; the facecam sits flat above the game with a 4px hard shadow."
+  },
+  "ornamentation_details": {
+    "iconography": "Solid icons at 24px for sound, subscribe and like; square terminals and a thick 3px edge.",
+    "illustration": "Game footage, a webcam face, arrows and circles in red; sticker faces at 64px for jokes.",
+    "decorative_elements": [
+      "facecam box",
+      "outlined caption",
+      "red arrow",
+      "zoom punch-in",
+      "sound-hit text"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "The facecam punches in by 20% over 120ms at a peak moment; captions pop in at 110% size and settle to 100% over 160ms; each cut lands on a sound hit.",
+    "easing": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+    "duration_ms": 160,
+    "hover_and_active": "Hover lifts a button by 2px with a 4px hard shadow; active state flips the fill to yellow."
+  },
+  "lineage": {
+    "evolved_from": [
+      "unboxing-video"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "pixel-art-web"
+    ],
+    "echoes": [
+      "creator-vlog"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels part of a shared, loud and funny moment with the player.",
+    "keywords": [
+      "loud",
+      "funny",
+      "energetic",
+      "social",
+      "reactive"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "let's play",
+      "facecam",
+      "gameplay video",
+      "reaction cam",
+      "gamer channel",
+      "commentary over gameplay"
+    ],
+    "use_cases": [
+      "game channel intros",
+      "game review pages",
+      "esports clip pages",
+      "creator landing pages",
+      "game launch trailers with a host"
+    ],
+    "avoid_when": [
+      "The audience expects a calm, adult tone.",
+      "The product is not a game or an app demo.",
+      "The face of a person cannot appear."
+    ],
+    "modifiers": [
+      {
+        "request": "more produced",
+        "toward": "livestream-overlay",
+        "how": "Add a full frame with a name bar, alert boxes and a chat panel; keep the facecam."
+      },
+      {
+        "request": "calmer",
+        "toward": "video-essay",
+        "how": "Replace the shouted captions with a steady voice, clean subtitles and a 12% black vignette."
+      },
+      {
+        "request": "more viral",
+        "toward": "clickbait-thumbnail",
+        "how": "Freeze the funniest facecam frame, enlarge the face to 60% of the frame and add a 120px headline."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 400,
+      "subhead_weight": 400,
+      "body_weight": 500,
+      "strong_weight": 700,
+      "label_weight": 500,
+      "accent": "colour",
+      "display_tracking": "0.01em",
+      "display_leading": 1.0,
+      "display_case": "uppercase",
+      "body_leading": 1.4,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 3,
+      "linecap": "square",
+      "linejoin": "miter",
+      "container": "rounded",
+      "pack": {
+        "id": "ph-fill",
+        "why": "A thick, solid family matches the loud, high-contrast captions and the bold game frame."
+      }
+    },
+    "art": {
+      "recipe": "neobrutal",
+      "pattern": "starburst",
+      "seed": 14
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": -2
+    },
+    "ground": {
+      "kind": "scanlines",
+      "why": "The ground is a dark monitor image with fine scanlines, the screen that the game runs on."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#101014",
+      "--color-surface": "#1D1D24",
+      "--color-text": "#FFFFFF",
+      "--color-muted": "#B8B8C4",
+      "--color-primary": "#FF2E3B",
+      "--color-accent": "#22D3EE",
+      "--color-border": "#22D3EE",
+      "--font-sans": "\"Inter\", \"Rubik\", sans-serif",
+      "--font-display": "\"Anton\", \"Bangers\", sans-serif",
+      "--border-radius": "12px",
+      "--border-width": "4px",
+      "--shadow-elevation": "4px 4px 0 #000000",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+      "--duration": "160ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#101014] text-[#FFFFFF] font-sans antialiased px-4 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-5xl md:text-7xl font-normal uppercase leading-none tracking-[0.01em] [text-shadow:0_0_0_#000,_3px_3px_0_#000]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-xl border-4 border-[#22D3EE] bg-[#1D1D24] shadow-[4px_4px_0_#000000]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-xl border-4 border-[#000000] bg-[#FF2E3B] px-6 py-3 text-sm font-bold uppercase text-[#101014] transition-transform duration-[160ms] hover:-translate-y-0.5"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-medium uppercase tracking-[0.1em] text-[#22D3EE]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#FF2E3B",
+        "#22D3EE",
+        "#FFD60A"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#22D3EE",
+        "#FFD60A",
+        "#FF2E3B"
+      ]
+    },
+    "corner_radius": {
+      "min": 4,
+      "max": 16
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.5,
+      "min": 1.333,
+      "max": 1.618
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Let's Play",
+      "url": "https://en.wikipedia.org/wiki/Let%27s_Play"
+    },
+    {
+      "title": "Wikipedia: PewDiePie",
+      "url": "https://en.wikipedia.org/wiki/PewDiePie"
+    }
+  ]
+}

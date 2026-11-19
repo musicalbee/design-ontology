@@ -200,7 +200,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`abstract-expressionist-ceramics`](../abstract-expressionist-ceramics/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`kyo-yaki-overglaze`](../kyo-yaki-overglaze/SKILL.md)
 - **Mixes well with:** [`anglo-oriental-studio-pottery`](../anglo-oriental-studio-pottery/SKILL.md), [`chef-studio-tableware`](../chef-studio-tableware/SKILL.md)
-- **Kin in another domain:** [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md)
+- **Kin in another domain:** [`cottagecore`](../cottagecore/SKILL.md), [`goblincore`](../goblincore/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md)
 - **Nearest by vector profile:** [`american-stoneware-crock`](../american-stoneware-crock/SKILL.md), [`raku-tea-bowl`](../raku-tea-bowl/SKILL.md), [`abstract-expressionist-ceramics`](../abstract-expressionist-ceramics/SKILL.md)
 
 ## Emotional target

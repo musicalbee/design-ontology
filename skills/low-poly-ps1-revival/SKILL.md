@@ -199,7 +199,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`fifth-gen-low-poly`](../fifth-gen-low-poly/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`pbr-photoreal`](../pbr-photoreal/SKILL.md)
-- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`film-grain-revival`](../film-grain-revival/SKILL.md), [`found-footage`](../found-footage/SKILL.md)
+- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`film-grain-revival`](../film-grain-revival/SKILL.md), [`found-footage`](../found-footage/SKILL.md), [`liminal-spaces`](../liminal-spaces/SKILL.md), [`weirdcore`](../weirdcore/SKILL.md)
 - **Nearest by vector profile:** [`fifth-gen-low-poly`](../fifth-gen-low-poly/SKILL.md), [`hd-2d-diorama`](../hd-2d-diorama/SKILL.md), [`vector-display-arcade`](../vector-display-arcade/SKILL.md)
 
 ## Emotional target

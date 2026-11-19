@@ -1,0 +1,40 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "motion-mask-loop",
+  "name": "Motion mask loop",
+  "aliases": [
+    "Cinemagraph masking"
+  ],
+  "kind": "process",
+  "summary": "A process that freezes a video except for one masked region, which repeats in a seamless loop.",
+  "how": [
+    "Shoot on a tripod so that the still region does not drift by more than 1px.",
+    "Mask the moving region with a soft edge of 4px to 12px.",
+    "Join the loop with a cross-fade of 4 to 8 frames at the loop point."
+  ],
+  "origin": {
+    "domain": "internet",
+    "year": 2011,
+    "where": "New York",
+    "note": "Jamie Beck and Kevin Burg publish the first cinemagraphs and use the name."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 2011,
+      "via": "The pair shows cinemagraphs of fashion week on Tumblr; brands and photographers copy the form.",
+      "styles": [
+        "cinemagraph"
+      ]
+    }
+  ],
+  "styles": [
+    "cinemagraph"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Cinemagraph",
+      "url": "https://en.wikipedia.org/wiki/Cinemagraph"
+    }
+  ]
+}

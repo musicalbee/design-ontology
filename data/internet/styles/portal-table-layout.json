@@ -1,0 +1,353 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "portal-table-layout",
+  "domain": "internet",
+  "name": "Portal Table Layout",
+  "aliases": [
+    "Web portal",
+    "Table layout",
+    "Directory page"
+  ],
+  "branch": "early-web",
+  "era_id": "postmodern-early-digital",
+  "time_period": {
+    "start": 1997,
+    "end": 2006,
+    "label": "1997–2006"
+  },
+  "primary_mediums": [
+    "web"
+  ],
+  "summary": "A dense start page in HTML tables: a search box, a link directory, news boxes, banner ads and a blue and orange palette. Web portals of the late 1990s used it to keep a user on one site.",
+  "philosophy": {
+    "core_thesis": "One page holds the whole web: pack every service, link and ad into a clear table of boxes.",
+    "design_principles": [
+      "Build the page with nested HTML tables at 760px to 800px wide, centred, with 1px to 2px cell spacing.",
+      "Place the logo and a search box with a button in a header row of 60px to 80px, over a tab row of 24px.",
+      "Set a link directory in 2 or 3 columns of 11px to 12px text with bold category names.",
+      "Give each box a title bar of 18px to 22px in a light blue band (#99CCFF) with bold dark blue text.",
+      "Add a banner of 468px by 60px at the top and a skyscraper of 120px by 600px on the right.",
+      "Set all links in blue (#0000CC) with underline, and show the visited links in purple.",
+      "Use spacer images and a 1px line in grey (#999999) to hold the cell widths."
+    ],
+    "anti_patterns": [
+      "Large empty areas around content",
+      "One focal image and a short text",
+      "Hidden menus behind icons",
+      "Fluid, responsive layouts",
+      "Light, thin type at large sizes",
+      "Soft shadows and rounded cards"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 1,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 1
+  },
+  "layout": {
+    "grid_mechanics": "A fixed table of 760px to 800px with 2 to 3 columns of 150px, 300px and 150px; cell spacing 2px and cell padding 4px.",
+    "whitespace_ratio": "5% to 10% of the surface is empty; the spacing scale is 2, 4 and 8px.",
+    "alignment_rules": "Text flush left in boxes; the logo and the search centred in the header.",
+    "container_geometry": "Rectangular table cells with a 0px radius and a 1px line; boxes stack with a 4px gap."
+  },
+  "typography": {
+    "classifications": [
+      "humanist sans",
+      "default sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Arimo",
+        "body": "Arimo",
+        "note": "Arimo is an open look-alike of Arial and Helvetica, the portal text face."
+      },
+      {
+        "display": "Noto Sans",
+        "body": "Noto Sans",
+        "note": "A neutral open face that stands in for Verdana at 11px."
+      },
+      {
+        "display": "Open Sans",
+        "body": "Arimo",
+        "note": "A clean display over small text."
+      }
+    ],
+    "tracking": "Display 0em; body 0em.",
+    "leading": "Display 1.2; body 1.3.",
+    "hierarchy_rules": [
+      "Use 11px to 12px for link lists and 14px bold for box titles.",
+      "Use 24px bold for the logo word only.",
+      "Use bold for category names and plain text for items.",
+      "Use blue for links and red for 'new' tags."
+    ]
+  },
+  "color": {
+    "palette_structure": "White ground, one blue, one orange accent and a pale blue band for box titles.",
+    "palette": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "name": "Pale Blue",
+        "hex": "#99CCFF",
+        "role": "title band"
+      },
+      {
+        "name": "Portal Blue",
+        "hex": "#003399",
+        "role": "heading"
+      },
+      {
+        "name": "Link Blue",
+        "hex": "#0000CC",
+        "role": "link"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600",
+        "role": "accent"
+      },
+      {
+        "name": "Light Grey",
+        "hex": "#EEEEEE",
+        "role": "panel"
+      },
+      {
+        "name": "Line Grey",
+        "hex": "#999999",
+        "role": "border"
+      },
+      {
+        "name": "Ink",
+        "hex": "#1A1A1A",
+        "role": "text"
+      }
+    ],
+    "contrast_rules": "Ink on white is 17:1; link blue on white is 11:1; dark blue on pale blue is 7:1.",
+    "surface_treatment": "Flat colour in cells; a thin 1px line and a pale band for headers; no gradient or at most a 2-stop button.",
+    "light_and_shadow": "No light source; one 1px outset on buttons and no drop shadow."
+  },
+  "materiality": {
+    "surface_simulation": "A printed directory page: flat boxes and lines on a white sheet.",
+    "border_rules": "A 1px solid grey line around each box; a 1px outset on buttons.",
+    "blur_and_elevation": "No blur and no elevation."
+  },
+  "ornamentation_details": {
+    "iconography": "Small 16px GIF icons for mail, news and weather; tab shapes with square corners.",
+    "illustration": "Banner ads, a small photo for the lead story and a text logo; almost no decoration.",
+    "decorative_elements": [
+      "tab row",
+      "search box",
+      "link directory",
+      "banner ad",
+      "news box"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Pages load by hard cut; the only motion is a rotating banner that swaps every 10s with no easing.",
+    "easing": "cubic-bezier(0, 0, 1, 1)",
+    "duration_ms": 0,
+    "hover_and_active": "Hover keeps the underline and turns a link to red (#CC0000); the pressed button shows a 1px inset."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "geocities-homepage"
+    ],
+    "hybridized_with": [
+      "y2k-aesthetic"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels in control: everything is on one page, and every box has a purpose.",
+    "keywords": [
+      "dense",
+      "busy",
+      "practical",
+      "corporate",
+      "informational",
+      "early-web"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "sage",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "web portal",
+      "start page",
+      "link directory",
+      "table layout",
+      "late 90s portal",
+      "search portal",
+      "dotcom",
+      "banner ad"
+    ],
+    "use_cases": [
+      "directory and news pages in a retro style",
+      "dotcom-era brand pastiche",
+      "dense link hubs and intranets",
+      "parody of early commercial web",
+      "archive and wiki-style indexes"
+    ],
+    "avoid_when": [
+      "The page needs a single clear action.",
+      "The device is a phone and the reading is quick.",
+      "The brand needs a premium, calm tone."
+    ],
+    "modifiers": [
+      {
+        "request": "more fun",
+        "toward": "geocities-homepage",
+        "how": "Replace the blue table with a tiled background, GIFs and a counter."
+      },
+      {
+        "request": "more gloss",
+        "toward": "web-2-0-gloss",
+        "how": "Round the boxes, add 2-stop gradient titles and a reflection under the logo."
+      },
+      {
+        "request": "calmer",
+        "toward": "minimalism-web",
+        "how": "Keep the search box and remove the link wall and the ads."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 700,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "weight",
+      "display_tracking": "0em",
+      "display_leading": 1.2,
+      "display_case": "none",
+      "body_leading": 1.3,
+      "body_size": "14px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "square",
+      "linejoin": "miter",
+      "container": "none",
+      "pack": {
+        "id": "pixelarticons",
+        "why": "Small square marks match the 16px GIF icons of a portal."
+      }
+    },
+    "art": {
+      "recipe": "corporate",
+      "pattern": "grid",
+      "seed": 97
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "rules",
+      "why": "The ground is white with thin grey rules between table cells."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#FFFFFF",
+      "--color-surface": "#EEEEEE",
+      "--color-text": "#1A1A1A",
+      "--color-muted": "#555555",
+      "--color-primary": "#003399",
+      "--color-accent": "#FF6600",
+      "--color-border": "#999999",
+      "--font-sans": "\"Arimo\", \"Noto Sans\", Arial, sans-serif",
+      "--font-display": "\"Arimo\", \"Open Sans\", Arial, sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "4px",
+      "--ease": "cubic-bezier(0, 0, 1, 1)",
+      "--duration": "0ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-white text-[#1A1A1A] font-sans px-2"
+      },
+      {
+        "element": "heading",
+        "classes": "text-2xl font-bold text-[#003399]"
+      },
+      {
+        "element": "body",
+        "classes": "text-sm leading-[1.3] max-w-[800px]"
+      },
+      {
+        "element": "section",
+        "classes": "border border-[#999999] bg-[#EEEEEE]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border border-[#999999] bg-[#99CCFF] px-3 py-1 text-xs font-bold text-[#003399]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-bold text-[#003399]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#003399",
+        "#0000CC",
+        "#CC0000"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#FF6600",
+        "#99CCFF"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 2
+    },
+    "grid_step": {
+      "min": 2,
+      "max": 8
+    },
+    "type_scale_ratio": {
+      "min": 1.067,
+      "max": 1.25,
+      "default": 1.125
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Web portal",
+      "url": "https://en.wikipedia.org/wiki/Web_portal"
+    },
+    {
+      "title": "Wikipedia: Table (HTML)",
+      "url": "https://en.wikipedia.org/wiki/HTML_table"
+    },
+    {
+      "title": "Wikipedia: Yahoo!",
+      "url": "https://en.wikipedia.org/wiki/Yahoo!"
+    }
+  ]
+}

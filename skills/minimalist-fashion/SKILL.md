@@ -194,7 +194,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`power-dressing`](../power-dressing/SKILL.md)
 - **Was rejected by:** [`gorpcore`](../gorpcore/SKILL.md)
 - **Mixes well with:** [`japanese-avant-garde-fashion`](../japanese-avant-garde-fashion/SKILL.md)
-- **Kin in another domain:** [`minimalism-painting`](../minimalism-painting/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md)
+- **Kin in another domain:** [`clean-girl`](../clean-girl/SKILL.md), [`minimalism-painting`](../minimalism-painting/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md), [`normcore`](../normcore/SKILL.md)
 - **Nearest by vector profile:** [`early-wristwatch`](../early-wristwatch/SKILL.md), [`english-welted-dress-shoe`](../english-welted-dress-shoe/SKILL.md), [`quiet-luxury-fashion`](../quiet-luxury-fashion/SKILL.md)
 
 ## Emotional target

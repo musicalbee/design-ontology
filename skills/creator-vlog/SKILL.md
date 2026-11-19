@@ -242,6 +242,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`vertical-short-form`](../vertical-short-form/SKILL.md)
 - **Mixes well with:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`vertical-short-form`](../vertical-short-form/SKILL.md)
+- **Kin in another domain:** [`duet-split-screen`](../duet-split-screen/SKILL.md), [`green-screen-short`](../green-screen-short/SKILL.md), [`grwm-short`](../grwm-short/SKILL.md), [`lets-play-facecam`](../lets-play-facecam/SKILL.md), [`photo-carousel-slideshow`](../photo-carousel-slideshow/SKILL.md), [`pov-short`](../pov-short/SKILL.md), [`unboxing-video`](../unboxing-video/SKILL.md), [`video-essay`](../video-essay/SKILL.md)
 - **Nearest by vector profile:** [`new-hollywood`](../new-hollywood/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md), [`phone-cinema`](../phone-cinema/SKILL.md)
 
 ## Emotional target

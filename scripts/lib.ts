@@ -8,6 +8,8 @@ export interface VectorAxis { key: string; label: string; abbr: string; low: str
 export interface Facet { key: string; title: string }
 export interface Domain {
   id: string;
+  /** Old ids of this domain; loaders map them to `id`. */
+  former_ids?: string[];
   order: number;
   name: string;
   schema: string;

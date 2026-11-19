@@ -7,7 +7,7 @@
 (() => {
   // The domains go in a dropdown. The views across all domains stay in the bar.
   const DOMAINS = [
-    ["design.html", "Design"], ["architecture.html", "Architecture"], ["interior.html", "Interior"], ["industrial.html", "Industrial design"],
+    ["internet.html", "Internet"], ["architecture.html", "Architecture"], ["interior.html", "Interior"], ["industrial.html", "Industrial design"],
     ["photography.html", "Photography"], ["film.html", "Film and video"], ["painting.html", "Painting"],
     ["logo.html", "Logo"], ["icon.html", "Icons"], ["typeface.html", "Typefaces"], ["print.html", "Print"], ["fashion.html", "Fashion"], ["ceramics.html", "Ceramics"], ["cuisine.html", "Cuisine"], ["game.html", "Video games"],
   ];

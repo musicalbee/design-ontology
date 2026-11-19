@@ -1,0 +1,334 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "lip-sync-dance-short",
+  "domain": "internet",
+  "name": "Lip-Sync Dance Short",
+  "aliases": [
+    "Musical.ly clip",
+    "TikTok dance",
+    "Lip-sync video"
+  ],
+  "branch": "vertical-video",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2016,
+    "end": null,
+    "label": "2016–now"
+  },
+  "primary_mediums": [
+    "video",
+    "mobile"
+  ],
+  "summary": "A vertical clip of one person who mimes a song or does a short dance in front of a phone, with a rotating record disc and a lyric line. It grew from the Musical.ly app in 2014 and moved to TikTok in 2016 and 2018.",
+  "philosophy": {
+    "core_thesis": "One person, one song hook and one move: the clip works when the body and the beat are the only content.",
+    "design_principles": [
+      "Shoot at 1080 x 1920 px with one subject, centred, at 60% to 75% of the frame height.",
+      "Cut the clip to 15 s, with the loop point on a beat so the end meets the start.",
+      "Place a spinning record disc 48 px wide at the bottom right with a 4 s turn.",
+      "Set the lyric line in 44 px bold white caps with a 3 px black outline, at 70% of the frame height.",
+      "Add a pink-to-cyan accent bar of 6 px under the caption and keep it at 100% width.",
+      "Light the face with a ring light: a round catch-light of 20 px in each eye.",
+      "Flash a 4-frame colour pulse (#FE2C55 then #25F4EE) on each strong beat."
+    ],
+    "anti_patterns": [
+      "Long text blocks over the dancer",
+      "Wide 16:9 framing with black bars",
+      "Slow, quiet pacing with no beat",
+      "Horizontal logos in the top corners",
+      "Dark moody grading that hides the face",
+      "A tripod shot with no movement of the body"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "dimensionality": 2,
+    "grid_rigidity": 2,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 4
+  },
+  "layout": {
+    "grid_mechanics": "A single full-bleed vertical frame; one safe zone of 960 x 1340 px; a right rail of 5 icons at 96 px pitch.",
+    "whitespace_ratio": "The subject takes 60% to 75% of the frame; text and icons take under 15%.",
+    "alignment_rules": "The subject sits centred; the caption sits centred; the icon rail aligns to the right edge with a 24 px margin.",
+    "container_geometry": "Round capture frame with 0 radius on the video; circular record disc and 48 px circle buttons."
+  },
+  "typography": {
+    "classifications": [
+      "bold grotesque sans",
+      "rounded sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Poppins",
+        "body": "Inter",
+        "note": "A geometric sans in bold weights for lyric lines, with a neutral body face."
+      },
+      {
+        "display": "Montserrat",
+        "body": "Nunito Sans",
+        "note": "Wide caps for the lyric line."
+      }
+    ],
+    "tracking": "Display 0.01em; body 0em.",
+    "leading": "Display 1.1; body 1.4.",
+    "hierarchy_rules": [
+      "Use bold (700) for lyric lines and regular (400) for the username.",
+      "Set lyric lines at 44 px and the username at 28 px.",
+      "Show at most 2 lines of 22 characters in a caption.",
+      "Put a 3 px black outline around white text."
+    ]
+  },
+  "color": {
+    "palette_structure": "Near-black frame with white text, one hot pink and one cyan edge.",
+    "palette": [
+      {
+        "name": "Ink",
+        "hex": "#121212",
+        "role": "background"
+      },
+      {
+        "name": "Pulse Pink",
+        "hex": "#FE2C55",
+        "role": "primary"
+      },
+      {
+        "name": "Pulse Cyan",
+        "hex": "#25F4EE",
+        "role": "accent"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "name": "Smoke",
+        "hex": "#B3B3B8",
+        "role": "muted text"
+      },
+      {
+        "name": "Panel",
+        "hex": "#1F1F23",
+        "role": "surface"
+      }
+    ],
+    "contrast_rules": "White text on ink gives 18:1; text over video always has a 3 px outline.",
+    "surface_treatment": "Flat colour for the UI; the video fills the ground.",
+    "light_and_shadow": "Hard front light from a ring light; a split red and cyan edge glow on the subject at 2 px to 4 px offset."
+  },
+  "materiality": {
+    "surface_simulation": "A phone screen: glossy video with flat UI overlays.",
+    "border_rules": "No borders on video; 2 px white ring on the record disc.",
+    "blur_and_elevation": "No blur on the video; a 40% black gradient of 240 px at the bottom helps the caption."
+  },
+  "ornamentation_details": {
+    "iconography": "Solid 28 px icons for like, comment, share and sound, with a count under each.",
+    "illustration": "A spinning vinyl disc with a small cover picture; floating music notes.",
+    "decorative_elements": [
+      "spinning record disc",
+      "lyric caption",
+      "right icon rail",
+      "music note",
+      "progress bar"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Loop of 15 s; zoom pulses of 105% on each strong beat; the record disc turns 360° in 4 s.",
+    "easing": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+    "duration_ms": 150,
+    "hover_and_active": "A tap on the heart scales it to 130% in 150 ms and fills it pink."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "vertical-short-form",
+      "music-video"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels the beat and wants to copy the move.",
+    "keywords": [
+      "playful",
+      "rhythmic",
+      "catchy",
+      "bright",
+      "imitable"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "lover"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "lip sync",
+      "lipsync",
+      "dance video",
+      "tiktok dance",
+      "musical.ly",
+      "dance challenge",
+      "trend dance"
+    ],
+    "use_cases": [
+      "music promo clips",
+      "dance challenge pages",
+      "youth app UI mock-ups",
+      "event teasers"
+    ],
+    "avoid_when": [
+      "The audience needs a calm or formal tone.",
+      "The page has dense text.",
+      "The format is landscape."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "grwm-short",
+        "how": "Drop the beat pulse and the colour edge; talk to the camera in a soft room."
+      },
+      {
+        "request": "more cuts",
+        "toward": "velocity-edit",
+        "how": "Cut the clip to 6 or more shots and add speed ramps on the beat."
+      },
+      {
+        "request": "add a partner",
+        "toward": "duet-split-screen",
+        "how": "Split the frame 50/50 and put the second performer on the right."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 500,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "colour",
+      "display_tracking": "0.01em",
+      "display_leading": 1.1,
+      "display_case": "uppercase",
+      "body_leading": 1.4,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "circle",
+      "pack": {
+        "id": "ph-fill",
+        "why": "A filled, rounded icon family that matches the heart and share icons of a short-video rail."
+      }
+    },
+    "art": {
+      "recipe": "y2k",
+      "pattern": "dots",
+      "seed": 16
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "center",
+      "density": "compact",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "confetti",
+      "why": "The ground is a dark frame with confetti-like colour flecks that echo the beat pulses of the dance clips."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#121212",
+      "--color-surface": "#1F1F23",
+      "--color-text": "#FFFFFF",
+      "--color-muted": "#B3B3B8",
+      "--color-primary": "#FE2C55",
+      "--color-accent": "#25F4EE",
+      "--color-border": "#25F4EE",
+      "--font-sans": "\"Inter\", \"Nunito Sans\", sans-serif",
+      "--font-display": "\"Poppins\", \"Montserrat\", sans-serif",
+      "--border-radius": "12px",
+      "--border-width": "2px",
+      "--shadow-elevation": "2px 2px 0 #25F4EE",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+      "--duration": "150ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#121212] text-white font-sans antialiased"
+      },
+      {
+        "element": "heading",
+        "classes": "text-4xl font-bold uppercase leading-[1.1] [text-shadow:0_0_0_#000,2px_2px_0_#000] text-white"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.4] text-[#B3B3B8]"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-xl bg-[#1F1F23] p-4"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-full bg-[#FE2C55] px-6 py-3 text-sm font-bold text-white hover:scale-105 transition-transform duration-150"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs uppercase tracking-wide text-[#25F4EE]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#FE2C55",
+        "#25F4EE",
+        "#FFFFFF"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#25F4EE",
+        "#FE2C55"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 16
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 8
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.414
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: TikTok",
+      "url": "https://en.wikipedia.org/wiki/TikTok"
+    },
+    {
+      "title": "Wikipedia: Musical.ly",
+      "url": "https://en.wikipedia.org/wiki/Musical.ly"
+    },
+    {
+      "title": "Wikipedia: Lip sync",
+      "url": "https://en.wikipedia.org/wiki/Lip_sync"
+    }
+  ]
+}

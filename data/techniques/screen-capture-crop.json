@@ -1,0 +1,44 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "screen-capture-crop",
+  "name": "Screen capture crop",
+  "aliases": [
+    "Screenshot proof",
+    "Post screenshot"
+  ],
+  "kind": "process",
+  "summary": "A cropped capture of an interface that keeps the frame of the original, so the text reads as found, not made.",
+  "how": [
+    "Capture the post card at its native width of 550 to 600px.",
+    "Crop to the card and leave a few pixels of the next item.",
+    "Keep the compression of the original; do not sharpen.",
+    "Keep the interface colours; do not add a frame."
+  ],
+  "origin": {
+    "domain": "internet",
+    "year": 2010,
+    "where": "web",
+    "circa": true,
+    "note": "Users share cropped captures of posts outside their site, as proof of what a person wrote."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 2015,
+      "via": "Humour accounts turn the post screenshot into a main joke form.",
+      "styles": [
+        "tweet-screenshot-meme"
+      ],
+      "circa": true
+    }
+  ],
+  "styles": [
+    "tweet-screenshot-meme"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Internet meme",
+      "url": "https://en.wikipedia.org/wiki/Internet_meme"
+    }
+  ]
+}

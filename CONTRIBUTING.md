@@ -4,9 +4,9 @@ A contribution is one JSON file in `data/<domain>/styles/`, `data/people/`, `dat
 
 ## Procedure
 
-1. Copy `data/design/styles/swiss-international.json` to `data/design/styles/<id>.json`.
+1. Copy `data/internet/styles/swiss-international.json` to `data/internet/styles/<id>.json`.
 2. Set `id` to the file name without the extension. The id is kebab-case and unique across all domains.
-3. Fill each field. The schema (`schema/domains/design.schema.json`) describes each one.
+3. Fill each field. The schema (`schema/domains/internet.schema.json`) describes each one.
 4. Make the style pass the six curation rules (see "The six curation rules" below):
    - Name at least one person, with a role, in `data/people/` (see "A new person").
    - Name the 1 to 3 top techniques of the style in `data/techniques/` (see "A technique"). If a technique is there, add the style id to its `styles` and to the adoption of the style's domain.

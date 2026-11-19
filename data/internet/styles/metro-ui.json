@@ -1,0 +1,337 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "metro-ui",
+  "domain": "internet",
+  "name": "Metro UI",
+  "aliases": [
+    "Windows Phone 7 design",
+    "Modern UI",
+    "Microsoft Design Language"
+  ],
+  "branch": "web-ui",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2010,
+    "end": 2015,
+    "label": "2010–2015"
+  },
+  "primary_mediums": [
+    "mobile",
+    "web"
+  ],
+  "summary": "Flat colour tiles, large light typography, a strict grid and content before chrome. It came from Windows Phone 7 in 2010 and drew on Swiss signage and airport wayfinding.",
+  "philosophy": {
+    "core_thesis": "Content is the interface: remove chrome, use type and motion for hierarchy, and let flat colour tiles carry the brand.",
+    "design_principles": [
+      "Build the home screen from tiles on a 12px grid; use tiles of 1, 2 and 4 units (for example 80px, 168px and 344px).",
+      "Use one solid accent colour per tile from a set of 8 to 12 saturated colours; tile gutters are 8px.",
+      "Set a huge page title in light weight (300) at 40px to 72px, partly cut off by the right edge to signal a pan.",
+      "Use no gradient, no shadow and no gloss; a tile is a flat rectangle with a 0px radius.",
+      "Draw icons as simple white line glyphs inside a 2px circle or on a tile; one stroke width of 2px.",
+      "Align all text flush left to a 12px margin; labels are 14px, lower case.",
+      "Move the content on pan and tile flips: entrance by slide of 40px with a stagger of 40ms per item."
+    ],
+    "anti_patterns": [
+      "Gradients, gloss and bevels",
+      "Rounded corners and drop shadows",
+      "Chrome that competes with content, such as heavy toolbars",
+      "Centred text blocks",
+      "Pastel colours",
+      "Decorative textures",
+      "Skeuomorphic icons"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "dimensionality": 2,
+    "grid_rigidity": 5,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A tile grid of 12px units with 8px gutters; the content column starts at a 12px margin; a panorama runs past the right edge.",
+    "whitespace_ratio": "20% to 30% of the surface stays empty; the spacing scale is 8, 12, 24 and 48px.",
+    "alignment_rules": "Flush left; titles and tiles align to the 12px grid; the right edge is cut off by design.",
+    "container_geometry": "Flat rectangles and squares with a 0px radius; no borders; the colour is the boundary."
+  },
+  "typography": {
+    "classifications": [
+      "humanist sans serif",
+      "light display"
+    ],
+    "font_pairings": [
+      {
+        "display": "Open Sans",
+        "body": "Open Sans",
+        "note": "A Segoe-like humanist that has a light 300 weight for display."
+      },
+      {
+        "display": "Noto Sans",
+        "body": "Noto Sans",
+        "note": "A wide-coverage humanist sans."
+      },
+      {
+        "display": "Source Sans 3",
+        "body": "Source Sans 3",
+        "note": "A light, clear text face."
+      }
+    ],
+    "tracking": "Display takes -0.01em; body stays at 0.",
+    "leading": "Display 1.1; body 1.45.",
+    "hierarchy_rules": [
+      "Use three weights: light (300) for display, regular (400) for body, semibold (600) for labels.",
+      "Use sizes 14, 20, 42 and 72px.",
+      "Set titles in light weight, in lower case.",
+      "Cut the page title by the right edge to hint at more content."
+    ]
+  },
+  "color": {
+    "palette_structure": "Black or white ground with one saturated colour per tile.",
+    "palette": [
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "name": "Cobalt",
+        "hex": "#0050EF",
+        "role": "primary tile"
+      },
+      {
+        "name": "Magenta",
+        "hex": "#D80073",
+        "role": "accent tile"
+      },
+      {
+        "name": "Lime",
+        "hex": "#008A00",
+        "role": "second tile"
+      },
+      {
+        "name": "Orange",
+        "hex": "#CC4A00",
+        "role": "third tile"
+      }
+    ],
+    "contrast_rules": "White on black holds 21:1; white on each tile colour holds at least 4.5:1.",
+    "surface_treatment": "Flat, opaque colour; no gradient or texture.",
+    "light_and_shadow": "None; no light source."
+  },
+  "materiality": {
+    "surface_simulation": "Digital paper and signage: flat colour with no simulated material.",
+    "border_rules": "No borders; a 2px outline appears only for focus.",
+    "blur_and_elevation": "No blur. No elevation. Shadow is none."
+  },
+  "ornamentation_details": {
+    "iconography": "White line glyphs on a 24px field with a 2px stroke, butt caps and mitre joins, inside a 2px circle for app-bar buttons.",
+    "illustration": "Photographs and typography only; no illustration.",
+    "decorative_elements": [
+      "colour tile",
+      "panorama title",
+      "app bar",
+      "circle glyph"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Fluent, directional motion: pages turn and slide in from the side; tiles flip in a 3D turn of 180° over 300ms and items stagger by 40ms.",
+    "easing": "cubic-bezier(0.1, 0.9, 0.2, 1)",
+    "duration_ms": 300,
+    "hover_and_active": "Press tilts a tile by 4° toward the touch point and dims it by 10%; no hover on touch."
+  },
+  "lineage": {
+    "evolved_from": [
+      "swiss-international"
+    ],
+    "rebelled_against": [
+      "skeuomorphism",
+      "frutiger-aero"
+    ],
+    "hybridized_with": [
+      "flat-design"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels clarity, speed and a modern, typographic order.",
+    "keywords": [
+      "clear",
+      "fast",
+      "typographic",
+      "bold",
+      "modern",
+      "flat"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "metro",
+      "windows phone",
+      "modern ui",
+      "live tiles",
+      "tile ui",
+      "microsoft design",
+      "flat tiles",
+      "panorama"
+    ],
+    "use_cases": [
+      "dashboards of tiles",
+      "kiosk and signage apps",
+      "news and feed readers",
+      "retro Microsoft revival",
+      "internal tools with a clear tone"
+    ],
+    "avoid_when": [
+      "The brand must feel warm or luxurious.",
+      "The product needs rich imagery in each card.",
+      "The UI has deep nested navigation."
+    ],
+    "modifiers": [
+      {
+        "request": "more depth",
+        "toward": "material-design",
+        "how": "Add elevation levels and a 2px radius; keep the tile colours."
+      },
+      {
+        "request": "more minimal",
+        "toward": "swiss-international",
+        "how": "Reduce to black and white and one red accent on a 12-column grid."
+      },
+      {
+        "request": "more app-like",
+        "toward": "bento-grid-ui",
+        "how": "Add a 1px border and a 12px radius to the tiles."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 300,
+      "subhead_weight": 300,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 600,
+      "accent": "size",
+      "display_tracking": "-0.01em",
+      "display_leading": 1.1,
+      "display_case": "lowercase",
+      "body_leading": 1.45,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 2,
+      "linecap": "butt",
+      "linejoin": "miter",
+      "container": "circle",
+      "pack": {
+        "id": "lucide",
+        "why": "A plain 2px line glyph with sharp joins that sits well inside a thin circle."
+      }
+    },
+    "art": {
+      "recipe": "swiss",
+      "pattern": "none",
+      "seed": 33
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "tiles",
+      "why": "Metro is a wall of flat live tiles in solid colour on a black field."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#000000",
+      "--color-surface": "#0050EF",
+      "--color-text": "#FFFFFF",
+      "--color-muted": "#C8C8C8",
+      "--color-primary": "#0050EF",
+      "--color-accent": "#D80073",
+      "--color-border": "#FFFFFF",
+      "--font-sans": "\"Open Sans\", \"Segoe UI\", sans-serif",
+      "--font-display": "\"Open Sans\", \"Segoe UI\", sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "0px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "12px",
+      "--ease": "cubic-bezier(0.1, 0.9, 0.2, 1)",
+      "--duration": "300ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-black text-white font-sans antialiased pl-3"
+      },
+      {
+        "element": "heading",
+        "classes": "text-6xl md:text-8xl font-light lowercase leading-[1.1] tracking-[-0.01em] whitespace-nowrap"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.45] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "bg-[#0050EF] p-3"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none bg-[#D80073] px-6 py-3 text-sm font-semibold lowercase text-white transition duration-300 active:brightness-90"
+      },
+      {
+        "element": "label",
+        "classes": "text-sm font-semibold lowercase"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#0050EF",
+        "#D80073",
+        "#FFFFFF"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#D80073",
+        "#0050EF"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 0
+    },
+    "grid_step": {
+      "min": 6,
+      "max": 16
+    },
+    "type_scale_ratio": {
+      "default": 1.333,
+      "min": 1.25,
+      "max": 1.414
+    }
+  },
+  "sources": [
+    {
+      "title": "Microsoft, Design Language: Metro (2010)"
+    }
+  ]
+}

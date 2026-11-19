@@ -1,0 +1,342 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "clickbait-thumbnail",
+  "domain": "internet",
+  "name": "Clickbait Thumbnail",
+  "aliases": [
+    "YouTube thumbnail",
+    "Reaction face thumbnail",
+    "MrBeast-style thumbnail"
+  ],
+  "branch": "creator-streaming",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2012,
+    "end": null,
+    "label": "2012–now"
+  },
+  "primary_mediums": [
+    "image",
+    "video"
+  ],
+  "summary": "A small still that must win a click at 168px wide. It has a huge face with an open mouth, a red arrow or circle, bright colours and 1 to 3 words in a thick outline.",
+  "philosophy": {
+    "core_thesis": "The still has one second to ask a question: show one clear shock, one object and 3 words, and make it readable at the size of a thumb.",
+    "design_principles": [
+      "Make the image 1280x720 and test it at 168px wide before you ship it.",
+      "Fill 40% to 60% of the frame with one face at a strong expression, cut out with a 6px white edge.",
+      "Use at most 3 words in a thick display face of 120px to 200px with a 8px black outline.",
+      "Draw one arrow or circle in red (#FF0000) or yellow (#FFE500) to point at the key object.",
+      "Push saturation by 20% to 40% and add a 12% vignette to the edge.",
+      "Split the frame into 2 halves (before and after, or A and B) with a diagonal line of 8px.",
+      "Keep all text and faces 48px away from the lower-right corner, where the duration badge sits."
+    ],
+    "anti_patterns": [
+      "Calm, subtle colour and soft grading",
+      "Long titles of 6 words or more",
+      "Small faces and wide, empty scenes",
+      "Thin or serif type",
+      "Neutral expressions",
+      "Many small objects with no single focus"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "dimensionality": 3,
+    "grid_rigidity": 1,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 5
+  },
+  "layout": {
+    "grid_mechanics": "A 1280x720 frame split by a rule-of-thirds layout: the face on the left or right third, the object on the other third, the words across the top or bottom.",
+    "whitespace_ratio": "Under 8% of the frame is empty; every area carries a face, an object or a word.",
+    "alignment_rules": "The face is large and off-centre; the arrow runs from the face towards the object; words align to one edge.",
+    "container_geometry": "Cut-out shapes with a 6px white edge; a 0px frame with no radius; circles and arrows as pointers."
+  },
+  "typography": {
+    "classifications": [
+      "impact-style",
+      "bold display",
+      "outlined"
+    ],
+    "font_pairings": [
+      {
+        "display": "Anton",
+        "body": "Montserrat",
+        "note": "Anton is an open look-alike of the Impact face that thumbnails use."
+      },
+      {
+        "display": "Bebas Neue",
+        "body": "Inter",
+        "note": "A tall, capital face for 2-word titles."
+      },
+      {
+        "display": "Luckiest Guy",
+        "body": "Poppins",
+        "note": "A thick, friendly face for jokes and challenge titles."
+      }
+    ],
+    "tracking": "Display takes 0em to +0.02em; text lines stay tight.",
+    "leading": "Display 0.95; body 1.3.",
+    "hierarchy_rules": [
+      "Use one display weight (400 or 900) for all words.",
+      "Use sizes 120, 160 and 200px in the frame and 18px on a page.",
+      "Set the first word in white and the key word in yellow.",
+      "Add an outline of 8px in black to each word."
+    ]
+  },
+  "color": {
+    "palette_structure": "Pure, saturated primaries on a split ground: red, yellow and electric blue, with black outlines and white edges.",
+    "palette": [
+      {
+        "name": "Shock Blue",
+        "hex": "#0A57FF",
+        "role": "background"
+      },
+      {
+        "name": "Card Black",
+        "hex": "#111111",
+        "role": "surface"
+      },
+      {
+        "name": "Outline White",
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "name": "Arrow Red",
+        "hex": "#FF1A1A",
+        "role": "primary"
+      },
+      {
+        "name": "Hook Yellow",
+        "hex": "#FFE500",
+        "role": "accent"
+      },
+      {
+        "name": "Skin Warm",
+        "hex": "#F2B48C",
+        "role": "highlight"
+      }
+    ],
+    "contrast_rules": "White text on the black surface holds at least 18:1; on the blue ground it holds at least 5:1 with an 8px black outline.",
+    "surface_treatment": "A flat colour or a 2-stop gradient, a 12% vignette and a 20% to 40% boost of saturation.",
+    "light_and_shadow": "A white rim light on the cut-out face, a 12px black drop shadow at 60% under words and a soft glow of 20px behind the object."
+  },
+  "materiality": {
+    "surface_simulation": "A compressed digital still: a sharp photo cut-out, a hard edge and a heavy colour boost.",
+    "border_rules": "A 6px white edge on cut-outs and an 8px black outline on text.",
+    "blur_and_elevation": "Hard 12px drop shadows; a 20px glow behind the main object; the ground may blur at 8px."
+  },
+  "ornamentation_details": {
+    "iconography": "Solid arrows, circles and question marks in red or yellow at 80px to 160px; thick strokes of 8px.",
+    "illustration": "A face cut-out, one product or one stunt object, and a bold shape; no clean line art.",
+    "decorative_elements": [
+      "red arrow",
+      "yellow circle",
+      "face cut-out",
+      "versus split",
+      "price or number badge"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "A still has no motion; on a page the card scales to 105% over 150ms on hover and the arrow wobbles by 6° over 600ms.",
+    "easing": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+    "duration_ms": 150,
+    "hover_and_active": "Hover scales the thumbnail to 105% and adds a 4px yellow edge; active state scales to 98%."
+  },
+  "lineage": {
+    "evolved_from": [
+      "pop-art-web"
+    ],
+    "rebelled_against": [
+      "minimalism-web"
+    ],
+    "hybridized_with": [
+      "lets-play-facecam"
+    ],
+    "echoes": [
+      "vertical-short-form"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels a spike of curiosity, shock or doubt and wants to see what happens.",
+    "keywords": [
+      "loud",
+      "shocking",
+      "urgent",
+      "saturated",
+      "competitive"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "thumbnail",
+      "clickbait",
+      "youtube cover",
+      "shocked face",
+      "red arrow",
+      "viral cover",
+      "click-through"
+    ],
+    "use_cases": [
+      "video cover images",
+      "blog and news card images",
+      "ad creatives that need a fast hook",
+      "challenge and contest pages",
+      "social preview cards"
+    ],
+    "avoid_when": [
+      "The brand needs a quiet or trusted tone.",
+      "The content cannot pay off the promise of the image.",
+      "The audience is professional or medical."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "video-essay",
+        "how": "Use one still frame, one title line of 48px and a muted grade with no arrow."
+      },
+      {
+        "request": "more honest",
+        "toward": "unboxing-video",
+        "how": "Show the real product on a plain table with a short label and no face."
+      },
+      {
+        "request": "more text",
+        "toward": "word-caption-clip",
+        "how": "Replace the arrow with a caption of 4 words and a highlighted key word."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 400,
+      "subhead_weight": 400,
+      "body_weight": 500,
+      "strong_weight": 700,
+      "label_weight": 600,
+      "accent": "colour",
+      "display_tracking": "0.01em",
+      "display_leading": 0.95,
+      "display_case": "uppercase",
+      "body_leading": 1.3,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 3,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "circle",
+      "pack": {
+        "id": "ph-fill",
+        "why": "A heavy, solid family matches the thick arrows and circles of a thumbnail."
+      }
+    },
+    "art": {
+      "recipe": "neobrutal",
+      "pattern": "diagonal",
+      "seed": 44
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": -3
+    },
+    "ground": {
+      "kind": "rays",
+      "why": "The ground is a burst of rays behind the face, the oldest way to pull the eye to one point."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#0A57FF",
+      "--color-surface": "#111111",
+      "--color-text": "#FFFFFF",
+      "--color-muted": "#E3ECFF",
+      "--color-primary": "#FF1A1A",
+      "--color-accent": "#FFE500",
+      "--color-border": "#FFFFFF",
+      "--font-sans": "\"Montserrat\", \"Inter\", sans-serif",
+      "--font-display": "\"Anton\", \"Bebas Neue\", sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "6px",
+      "--shadow-elevation": "6px 6px 0 #000000",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+      "--duration": "150ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#0A57FF] text-[#FFFFFF] font-sans antialiased px-4 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-6xl md:text-8xl font-normal uppercase leading-[0.95] tracking-[0.01em] [-webkit-text-stroke:3px_#000] [text-shadow:6px_6px_0_#000]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-none border-[6px] border-white bg-[#111111] shadow-[6px_6px_0_#000000]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border-[6px] border-white bg-[#FF1A1A] px-6 py-3 text-lg font-bold uppercase text-[#FFFFFF] shadow-[6px_6px_0_#000000] transition-transform duration-150 hover:scale-105"
+      },
+      {
+        "element": "label",
+        "classes": "text-sm font-bold uppercase tracking-[0.08em] text-[#FFE500]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#FF1A1A",
+        "#FFE500",
+        "#0A57FF"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#FFE500",
+        "#FF1A1A"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 8
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.5,
+      "min": 1.333,
+      "max": 1.618
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Clickbait",
+      "url": "https://en.wikipedia.org/wiki/Clickbait"
+    },
+    {
+      "title": "Wikipedia: MrBeast",
+      "url": "https://en.wikipedia.org/wiki/MrBeast"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "lo-fi-found-image",
+  "name": "Lo-fi found image",
+  "aliases": [
+    "Degraded photo",
+    "Found-photo look"
+  ],
+  "kind": "process",
+  "summary": "A low-resolution photo of an ordinary place, scaled up so that the JPEG blocks show. It looks like a lost or half-remembered picture.",
+  "how": [
+    "Scale a photo of 320 to 640px up to the full frame with no smoothing.",
+    "Shift the colour by 10% to 20% to yellow-green or magenta.",
+    "Add noise of 5% to 10% and a vignette of 20%.",
+    "Add one wrong detail, such as a black void or a faceless figure."
+  ],
+  "origin": {
+    "domain": "internet",
+    "year": 2018,
+    "where": "online",
+    "note": "Online groups on Weirdcore and Liminalspace collect poor photos of empty rooms and playgrounds."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 2018,
+      "circa": true,
+      "via": "Weirdcore posts use poor photos of empty places, with red text and black voids.",
+      "styles": [
+        "weirdcore"
+      ]
+    },
+    {
+      "domain": "internet",
+      "year": 2019,
+      "circa": true,
+      "via": "Dreamcore images use the same soft, degraded photos, with pastel colour and bloom.",
+      "styles": [
+        "dreamcore"
+      ]
+    }
+  ],
+  "styles": [
+    "weirdcore",
+    "dreamcore"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Weirdcore",
+      "url": "https://en.wikipedia.org/wiki/Weirdcore"
+    },
+    {
+      "title": "Wikipedia: Liminal space",
+      "url": "https://en.wikipedia.org/wiki/Liminal_space"
+    }
+  ]
+}

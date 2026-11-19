@@ -1,0 +1,338 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "livestream-overlay",
+  "domain": "internet",
+  "name": "Livestream Overlay",
+  "aliases": [
+    "Stream overlay",
+    "Twitch layout",
+    "Streamer scene"
+  ],
+  "branch": "creator-streaming",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2011,
+    "end": null,
+    "label": "2011–now"
+  },
+  "primary_mediums": [
+    "video",
+    "web"
+  ],
+  "summary": "A frame around a live game or camera. It has a facecam slot, a chat panel, an alert box and a name bar. Neon edges and animated panels show that the stream is live.",
+  "philosophy": {
+    "core_thesis": "A live show needs a control room on screen: the frame holds every live signal in fixed slots, so the viewer always knows where to look.",
+    "design_principles": [
+      "Divide the 1920x1080 frame into fixed slots: game 1440x810, facecam 360x270, chat 360x540 and a 1920x80 bar.",
+      "Frame each slot with a 2px line in the accent colour and cut corners at 45° for 12px.",
+      "Put a LIVE tag with a pulsing dot of 12px in the top-left corner at all times.",
+      "Set alert boxes at 480x120 with a 300ms slide-in and a 5s hold.",
+      "Show the latest follower, donation and subscriber in small mono labels of 14px to 18px.",
+      "Use a dark ground (#0E0E12) with one neon accent (#9146FF or #00F0A0) and a second colour for alerts only.",
+      "Keep the game slot free of overlays except the alert box and the LIVE tag."
+    ],
+    "anti_patterns": [
+      "Soft, quiet layouts with no slots",
+      "Full-bleed footage with no frame",
+      "Pastel palettes",
+      "Decorative scripts and serif faces",
+      "Static panels with no live signal",
+      "Alert boxes that cover the game centre"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "dimensionality": 2,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A 1920x1080 frame split into slots on a 24px grid: game, facecam, chat and a name bar; gutters are 12px.",
+    "whitespace_ratio": "Under 10% of the frame is empty; slots fill the frame and gaps stay at 12px.",
+    "alignment_rules": "Slots align to the grid; the facecam sits at the frame bottom-left; the chat panel aligns to the right edge.",
+    "container_geometry": "Panels with 45° cut corners of 12px, 2px neon edges and corner ticks of 8px."
+  },
+  "typography": {
+    "classifications": [
+      "techno display",
+      "monospace",
+      "condensed sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Rajdhani",
+        "body": "Roboto Mono",
+        "note": "A squared, techno display face with a mono text face for stats."
+      },
+      {
+        "display": "Oxanium",
+        "body": "JetBrains Mono",
+        "note": "A sharp display face for the name bar with a mono face for chat."
+      },
+      {
+        "display": "Barlow Condensed",
+        "body": "Inter",
+        "note": "A condensed display face that fits long names in a small bar."
+      }
+    ],
+    "tracking": "Display takes +0.08em in capitals; labels take +0.12em.",
+    "leading": "Display 1.1; body 1.4.",
+    "hierarchy_rules": [
+      "Use two weights: medium (500) and bold (700).",
+      "Use sizes 14, 18, 32 and 48px.",
+      "Set the channel name in capitals at 32px in the name bar.",
+      "Set stat labels in mono at 14px."
+    ]
+  },
+  "color": {
+    "palette_structure": "Near-black with a purple or green neon accent and a red live signal.",
+    "palette": [
+      {
+        "name": "Control Black",
+        "hex": "#0E0E12",
+        "role": "background"
+      },
+      {
+        "name": "Panel Slate",
+        "hex": "#1A1A24",
+        "role": "surface"
+      },
+      {
+        "name": "Signal White",
+        "hex": "#F4F4FA",
+        "role": "text"
+      },
+      {
+        "name": "Stream Violet",
+        "hex": "#9146FF",
+        "role": "primary"
+      },
+      {
+        "name": "Alert Mint",
+        "hex": "#00F0A0",
+        "role": "accent"
+      },
+      {
+        "name": "Live Red",
+        "hex": "#FF3B4E",
+        "role": "highlight"
+      }
+    ],
+    "contrast_rules": "Signal white on control black holds at least 17:1; neon colours carry edges, tags and alerts, not body text.",
+    "surface_treatment": "Flat dark panels with a 4% scanline layer and a thin neon edge.",
+    "light_and_shadow": "A neon glow of 6px to 12px around active panels; no cast shadow."
+  },
+  "materiality": {
+    "surface_simulation": "A screen-made control panel: flat dark glass with light edges, no real material.",
+    "border_rules": "A 2px neon line at 100% on active panels and at 40% on idle panels; 45° cut corners.",
+    "blur_and_elevation": "Glow of 6px to 12px on live parts; the chat panel uses a 12px backdrop blur at 60% black."
+  },
+  "ornamentation_details": {
+    "iconography": "Solid icons at 20px for follow, gift and subscribe; square terminals and a 2px edge.",
+    "illustration": "Animated waveforms, rotating frames, particle bursts for alerts; no figurative illustration.",
+    "decorative_elements": [
+      "LIVE tag",
+      "cut-corner panel",
+      "alert box",
+      "chat panel",
+      "corner ticks"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Panels slide in over 300ms; the LIVE dot pulses at 1.2s per loop; alerts enter from the right, hold for 5s and leave over 300ms.",
+    "easing": "cubic-bezier(0.2, 0, 0, 1)",
+    "duration_ms": 300,
+    "hover_and_active": "Hover raises the neon glow from 6px to 12px; active state fills the edge colour for 120ms."
+  },
+  "lineage": {
+    "evolved_from": [
+      "lets-play-facecam"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "pixel-art-web"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels that something is happening now, with a crowd of others.",
+    "keywords": [
+      "live",
+      "busy",
+      "neon",
+      "social",
+      "technical"
+    ],
+    "brand_archetypes": [
+      "explorer",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "livestream",
+      "stream overlay",
+      "twitch",
+      "chat panel",
+      "alert box",
+      "streamer",
+      "go live"
+    ],
+    "use_cases": [
+      "streamer dashboards",
+      "event and tournament pages",
+      "live shopping pages",
+      "webinar frames",
+      "creator landing pages"
+    ],
+    "avoid_when": [
+      "The content is not live or social.",
+      "The audience needs a calm reading page.",
+      "The frame has no room for fixed slots."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "video-essay",
+        "how": "Remove the slots, chat and alerts; keep one clean frame with a 24px lower-third."
+      },
+      {
+        "request": "friendlier",
+        "toward": "vtuber-avatar",
+        "how": "Replace the facecam with an avatar on a pastel panel and round the corners to 24px."
+      },
+      {
+        "request": "more neon",
+        "toward": "cybercore-web",
+        "how": "Add HUD frames, glitch hover and acid-green data labels."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 500,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 500,
+      "accent": "colour",
+      "display_tracking": "0.08em",
+      "display_leading": 1.1,
+      "display_case": "uppercase",
+      "body_leading": 1.4,
+      "body_size": "14px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "square",
+      "linejoin": "miter",
+      "container": "square",
+      "pack": {
+        "id": "mingcute-fill",
+        "why": "A solid family with square terminals fits the cut-corner panels and the small alert marks."
+      }
+    },
+    "art": {
+      "recipe": "terminal",
+      "pattern": "grid",
+      "seed": 33
+    },
+    "layout": {
+      "hero": "split",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "scanlines",
+      "why": "The ground is a dark control screen with scanlines, the room where a live show is run."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#0E0E12",
+      "--color-surface": "#1A1A24",
+      "--color-text": "#F4F4FA",
+      "--color-muted": "#A9A9BD",
+      "--color-primary": "#9146FF",
+      "--color-accent": "#00F0A0",
+      "--color-border": "#9146FF",
+      "--font-sans": "\"Roboto Mono\", \"JetBrains Mono\", monospace",
+      "--font-display": "\"Rajdhani\", \"Oxanium\", sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "2px",
+      "--shadow-elevation": "0 0 12px rgba(145,70,255,0.6)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.2, 0, 0, 1)",
+      "--duration": "300ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#0E0E12] text-[#F4F4FA] font-mono antialiased px-4 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-3xl md:text-5xl font-bold uppercase tracking-[0.08em] leading-[1.1]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-none border-2 border-[#9146FF] bg-[#1A1A24] shadow-[0_0_12px_rgba(145,70,255,0.6)] [clip-path:polygon(12px_0,100%_0,100%_calc(100%-12px),calc(100%-12px)_100%,0_100%,0_12px)]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border-2 border-[#9146FF] bg-[#9146FF] px-6 py-3 text-sm font-bold uppercase tracking-[0.12em] text-[#0E0E12] transition-shadow duration-300 hover:shadow-[0_0_12px_#00F0A0]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs uppercase tracking-[0.12em] text-[#00F0A0]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#9146FF",
+        "#00F0A0",
+        "#FF3B4E"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#00F0A0",
+        "#9146FF"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 4
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.333
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Twitch (service)",
+      "url": "https://en.wikipedia.org/wiki/Twitch_(service)"
+    },
+    {
+      "title": "Wikipedia: Live streaming",
+      "url": "https://en.wikipedia.org/wiki/Live_streaming"
+    }
+  ]
+}

@@ -198,7 +198,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`new-objectivity`](../new-objectivity/SKILL.md)
 - **Mixes well with:** [`architectural-photography`](../architectural-photography/SKILL.md), [`fashion-editorial`](../fashion-editorial/SKILL.md)
-- **Kin in another domain:** [`japandi-interior`](../japandi-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
+- **Kin in another domain:** [`flat-lay-feed`](../flat-lay-feed/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
 - **Nearest by vector profile:** [`architectural-photography`](../architectural-photography/SKILL.md), [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md)
 
 ## Emotional target
