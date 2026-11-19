@@ -456,10 +456,10 @@ flowchart LR
     geometric_sans["Geometric sans"]
     neo_grotesque_sans["Neo-grotesque sans"]
   end
-  subgraph game_arcade_age["Video game · Arcade age · 1971–1983"]
+  subgraph game_arcade_age["Video game · Arcade age · 1971–1985"]
     vector_display_arcade["Vector display arcade"]
   end
-  subgraph game_tile_and_sprite["Video game · Tile and sprite · 1983–1996"]
+  subgraph game_tile_and_sprite["Video game · Tile and sprite · 1983–2002"]
     eight_bit_tile["8-bit tile graphics"]
     isometric_pixel_world["Isometric pixel world"]
     sixteen_bit_sprite["16-bit sprite and parallax"]
@@ -1523,7 +1523,6 @@ flowchart LR
   solid_glyph_icon --> duotone_icon
   country_sporting_tweed --> early_mountaineering
   swiss_international --> editorial_serif_revival
-  vector_display_arcade --> eight_bit_tile
   biodesign_car --> electric_minimal_car
   victorian_trademark --> emblem_badge
   victorian_boot --> english_welted_dress_shoe
@@ -1539,7 +1538,6 @@ flowchart LR
   didone_serif --> fat_face_display
   pointillism --> fauvism
   art_deco_tableware --> fiesta_colourware
-  vector_display_arcade --> fifth_gen_low_poly
   new_colour --> film_grain_revival
   street_photography --> film_grain_revival
   german_expressionist_cinema --> film_noir
@@ -2684,6 +2682,8 @@ flowchart LR
   linkStyle 611 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 612 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 613 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 1066 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1067 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1068 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1069 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1070 stroke:#E5484D,stroke-width:1.5px
@@ -2913,8 +2913,6 @@ flowchart LR
   linkStyle 1294 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1295 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1296 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1297 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1298 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 
