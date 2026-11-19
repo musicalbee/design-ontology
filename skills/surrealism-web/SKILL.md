@@ -261,7 +261,7 @@ Fragments of photographs, cut and joined on one sheet, so that the joins make a 
 
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.
 
-- **La Révolution surréaliste** (magazine, Paris, 1924–1929), launched the style. The first magazine of the Surrealist group. It printed dreams, automatic writing and Surrealist paintings.
+- **Behance** (platform, web, 2005–now), published the style. A web site where designers post portfolios of projects. Concept work for interfaces, logos and illustration spreads from it.
 
 ## Permutations
 
