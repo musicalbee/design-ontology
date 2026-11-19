@@ -1,0 +1,438 @@
+{
+  "$schema": "../../../schema/domains/industrial.schema.json",
+  "id": "ulm-braun-functionalism",
+  "domain": "industrial",
+  "name": "Ulm and Braun functionalism",
+  "aliases": [
+    "Ulm model",
+    "Rams functionalism",
+    "Good design (Ulm school)"
+  ],
+  "era_id": "post-war-modern",
+  "time_period": {
+    "start": 1955,
+    "end": 1995,
+    "label": "1955–1995"
+  },
+  "region": "Ulm and Frankfurt, Germany",
+  "summary": "Systematic household products of the Ulm school and the Braun firm: grey and white cases of aluminium and plastic, built on a grid, with controls that explain the object.",
+  "philosophy": {
+    "core_thesis": "A product is a system: it is as little design as possible, it explains its use, and it fits with its neighbours on a common grid.",
+    "design_principles": [
+      "Build each product on a grid; set all parts to a module of 5 or 10 mm.",
+      "Make the case a plain box with radius 1 to 4 mm, in white, grey or black.",
+      "Put the controls in a clear group, and mark each with a small, grey or white symbol.",
+      "Use aluminium, steel or matte plastic; no surface has a decorative texture.",
+      "Keep colour for one function only: a green, red or yellow key or a mark.",
+      "Make each object part of a family that shares size, grid and colour.",
+      "Draw for long use: choose a form that stays right after 10 years.",
+      "Test the object for use, noise and repair before the form is final."
+    ],
+    "anti_patterns": [
+      "Yearly changes of form that follow fashion",
+      "Fake wood and fake chrome",
+      "Round, soft pod forms and bubble shapes",
+      "Surface pattern and engraved decoration",
+      "Many colours with no function",
+      "Hidden screws that make repair hard"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "hand_finish": 1,
+    "material_warmth": 1,
+    "visual_mass": 3,
+    "chromatic_intensity": 2
+  },
+  "form": {
+    "geometry": "The rectangular box, the cylinder and the flat plane on a square grid; each edge lines up with the next.",
+    "silhouette": "A flat, rectangular block with one clear front; a row of dials and keys inside a grid.",
+    "edges": "A small radius of 1 to 4 mm on a plastic case; a sharp, clean arris on aluminium.",
+    "proportion": "A shelf module is 36 cm wide and 22 or 32 cm deep; a radio body is about 4 times as wide as it is high.",
+    "ornament": "None. The only decoration is the function: a printed scale, a dial ring or a key row.",
+    "rules": [
+      "Every part is placed on a grid of 5 or 10 mm.",
+      "The case is a box or a cylinder with a radius of 1 to 4 mm.",
+      "The body has one main colour: white, light grey, or black.",
+      "Each key or dial has one job and one mark.",
+      "A colour accent covers less than 5% of the front."
+    ]
+  },
+  "materials": {
+    "primary": [
+      "abs-plastic",
+      "aluminium",
+      "stainless-steel",
+      "enamelled-steel",
+      "clear-glass",
+      "polypropylene"
+    ],
+    "secondary": [
+      "birch-plywood",
+      "beech",
+      "walnut",
+      "plastic-laminate",
+      "bakelite",
+      "mild-steel",
+      "chrome-plated-steel",
+      "leather",
+      "wool",
+      "cotton",
+      "porcelain",
+      "vitreous-china",
+      "opal-glass",
+      "frosted-glass",
+      "pvc"
+    ],
+    "avoid": [
+      "solid-brass",
+      "bronze",
+      "copper",
+      "rosewood",
+      "velvet",
+      "rattan",
+      "terracotta"
+    ],
+    "rule": "Plastic and metal make about 80% of the visible surface; wood is a small, plain part in a natural colour."
+  },
+  "finish": {
+    "finishes": [
+      "moulded-matte",
+      "brushed",
+      "matte-powder-coat",
+      "painted-matte",
+      "lacquered",
+      "satin",
+      "clear-gloss",
+      "piece-dyed"
+    ],
+    "textures": [
+      "satin-smooth",
+      "brush-line",
+      "orange-peel",
+      "mirror-smooth",
+      "plain-weave",
+      "fine-grain"
+    ],
+    "gloss": "5–20 GU on plastic and paint; 40–70 GU on brushed metal",
+    "patina": "The style wants a clean, even surface; the object gets old with no mark, and a worn knob or a scratch counts as a fault."
+  },
+  "hardware": {
+    "metal_tone": "stainless",
+    "section": "Rails and rods 8–20 mm; keys and dials of 10–30 mm diameter",
+    "joints": "Screws and clips in a regular row; the case opens for repair and the fixings are visible.",
+    "handles": "A recessed finger grip, a flat bar or a ribbed dial of black plastic.",
+    "switches_and_taps": "A square rocker switch in white plastic; a rotary dial with a white dot and a grey scale."
+  },
+  "palette": {
+    "strategy": "Grey and white as the ground, black for the controls, and one function colour at most: yellow, green or red.",
+    "colours": [
+      {
+        "name": "Braun white",
+        "hex": "#EDECE8",
+        "role": "case, front"
+      },
+      {
+        "name": "Light grey",
+        "hex": "#C4C5C3",
+        "role": "panel, rail"
+      },
+      {
+        "name": "Aluminium",
+        "hex": "#B6B9BC",
+        "role": "rail, front plate"
+      },
+      {
+        "name": "Graphite black",
+        "hex": "#232426",
+        "role": "dial, key, base"
+      },
+      {
+        "name": "Function orange",
+        "hex": "#E85D1E",
+        "role": "small key, mark"
+      },
+      {
+        "name": "Signal green",
+        "hex": "#3E9B5A",
+        "role": "on indicator"
+      }
+    ]
+  },
+  "manufacture": {
+    "processes": [
+      "injection moulding of ABS",
+      "press forming and anodising of aluminium",
+      "stove enamelling of sheet steel",
+      "screen printing of scales and marks",
+      "plywood lamination for stools"
+    ],
+    "scale": "Series of tens of thousands of units from one electrical products firm, with parts shared across a product family.",
+    "signs": "A flush front plate, a printed scale, a ribbed black dial, a joint line at 1 mm and a clip-on grille with fine slots."
+  },
+  "signatures": {
+    "objects": [
+      {
+        "category": "sanitary",
+        "object": "towel-rail",
+        "form": "straight rail on two square brackets",
+        "material": "stainless-steel",
+        "finish": "brushed",
+        "texture": "brush-line"
+      },
+      {
+        "category": "electrics",
+        "object": "light-switch",
+        "form": "square rocker plate in white plastic",
+        "material": "abs-plastic",
+        "finish": "moulded-matte",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "lighting",
+        "object": "task-lamp",
+        "form": "adjustable arm with a cylinder head",
+        "material": "mild-steel",
+        "finish": "matte-powder-coat",
+        "texture": "orange-peel"
+      },
+      {
+        "category": "storage",
+        "object": "shelving",
+        "form": "wall rails and shelves on a grid system",
+        "material": "aluminium",
+        "finish": "brushed",
+        "texture": "brush-line"
+      },
+      {
+        "category": "soft-furniture",
+        "object": "sofa",
+        "form": "modular units with square cushions",
+        "material": "wool",
+        "finish": "piece-dyed",
+        "texture": "plain-weave"
+      },
+      {
+        "category": "tables",
+        "object": "side-table",
+        "form": "box stool and table in plywood",
+        "material": "birch-plywood",
+        "finish": "lacquered",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "kitchen",
+        "object": "kettle",
+        "form": "flat cylinder body with a black handle",
+        "material": "polypropylene",
+        "finish": "moulded-matte",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "decor",
+        "object": "clock",
+        "form": "wall clock with a flat case and a printed dial",
+        "material": "aluminium",
+        "finish": "brushed",
+        "texture": "brush-line"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Braun and Ulm school product design",
+      "white and grey ABS case",
+      "brushed aluminium front plate",
+      "grid of dials and keys",
+      "orange function accent",
+      "universal shelving system",
+      "square rocker switch",
+      "flat cylinder kettle",
+      "clean, even studio light",
+      "technical product photograph"
+    ],
+    "negative": [
+      "organic curves",
+      "fake wood",
+      "ornament",
+      "bright multi-colour",
+      "hidden fixings",
+      "retro styling"
+    ],
+    "canonical_works": [
+      {
+        "work": "Ulm stool",
+        "maker": "Max Bill and Hans Gugelot",
+        "year": 1954
+      },
+      {
+        "work": "SK 4 radio-phonograph",
+        "maker": "Hans Gugelot and Dieter Rams",
+        "year": 1956
+      },
+      {
+        "work": "T3 pocket radio",
+        "maker": "Dieter Rams",
+        "year": 1958
+      },
+      {
+        "work": "606 universal shelving system",
+        "maker": "Dieter Rams",
+        "year": 1960
+      },
+      {
+        "work": "ET 66 calculator",
+        "maker": "Dieter Rams and Dietrich Lubs",
+        "year": 1987
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Phonosuper SK 4",
+      "kind": "image",
+      "maker": "Hans Gugelot and Dieter Rams",
+      "year": 1956,
+      "credit": "Alf van Beem",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:1956_Braun_Phonosuper_SK4_Schneewittchensarg.JPG",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/1956_Braun_Phonosuper_SK4_Schneewittchensarg.JPG/960px-1956_Braun_Phonosuper_SK4_Schneewittchensarg.JPG"
+    },
+    {
+      "title": "Braun SK 4 radio-phonograph",
+      "kind": "image",
+      "maker": "Hans Gugelot and Dieter Rams",
+      "year": 1956,
+      "credit": "Konrad Conrad",
+      "licence": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Braun_SK_4.png",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Braun_SK_4.png/960px-Braun_SK_4.png"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "bauhaus-product"
+    ],
+    "rebelled_against": [
+      "streamline-moderne-product"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "rams-functionalism-ui",
+      "swiss-international"
+    ]
+  },
+  "emotion": {
+    "target_response": "Calm confidence: the object is clear, exact and easy to use, and it does not ask for attention.",
+    "keywords": [
+      "rational",
+      "exact",
+      "quiet",
+      "systematic",
+      "neutral",
+      "durable"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "braun design",
+      "dieter rams",
+      "ulm school",
+      "good design",
+      "universal shelving",
+      "white and grey product",
+      "grid of dials",
+      "german functionalism"
+    ],
+    "use_cases": [
+      "product briefs in the style of a design-led electronics firm",
+      "a clean, grey and white object set for a modernist flat",
+      "interface references drawn from hardware",
+      "a still life of shelf, radio, clock and lamp"
+    ],
+    "avoid_when": [
+      "The brief asks for warmth, a hand finish or natural fibre.",
+      "The brief asks for curves, colour or fun."
+    ],
+    "modifiers": [
+      {
+        "request": "warmer and more natural",
+        "toward": "scandinavian-modern-product",
+        "how": "Swap plastic and aluminium for oiled teak and birch, and use wool and linen for the soft parts."
+      },
+      {
+        "request": "more playful and plastic",
+        "toward": "space-age-pop-product",
+        "how": "Use moulded pods, round forms and saturated colour on whole bodies."
+      },
+      {
+        "request": "quieter and more contemporary",
+        "toward": "super-normal-product",
+        "how": "Keep the plain form and the grid, but drop the function colour and use a soft, matte grey."
+      }
+    ]
+  },
+  "permutations": {
+    "ornament_level": {
+      "default": 0,
+      "min": 0,
+      "max": 0.05,
+      "note": "Only a printed scale or a dial ring is allowed."
+    },
+    "material_warmth": {
+      "default": 0.2,
+      "min": 0.1,
+      "max": 0.5
+    },
+    "finish_gloss": {
+      "default": 25,
+      "min": 3,
+      "max": 70
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1,
+      "note": "A contemporary object may keep the grid and the plain case."
+    },
+    "hardware_weight": {
+      "default": 14,
+      "min": 6,
+      "max": 30
+    },
+    "edge_radius": {
+      "default": 2,
+      "min": 0,
+      "max": 6
+    },
+    "metal_tone": {
+      "default": "stainless",
+      "options": [
+        "stainless",
+        "chrome",
+        "black",
+        "white",
+        "nickel",
+        "none"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Ulm School of Design",
+      "url": "https://en.wikipedia.org/wiki/Ulm_School_of_Design"
+    },
+    {
+      "title": "Wikipedia: Dieter Rams",
+      "url": "https://en.wikipedia.org/wiki/Dieter_Rams"
+    },
+    {
+      "title": "Wikipedia: Braun SK 4",
+      "url": "https://en.wikipedia.org/wiki/Braun_SK_4"
+    }
+  ]
+}

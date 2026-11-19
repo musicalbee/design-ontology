@@ -1,0 +1,435 @@
+{
+  "$schema": "../../../schema/domains/industrial.schema.json",
+  "id": "space-age-pop-product",
+  "domain": "industrial",
+  "name": "Space Age pop product",
+  "aliases": [
+    "Space Age design",
+    "Pop plastic design",
+    "Sixties plastic furniture"
+  ],
+  "era_id": "post-war-modern",
+  "time_period": {
+    "start": 1960,
+    "end": 1975,
+    "label": "1960–1975"
+  },
+  "region": "Italy, Denmark, Finland, France and the United States",
+  "summary": "The objects of the plastic age: chairs, lamps and tubs moulded in one piece from fibreglass, acrylic and ABS, with chrome and bright colour, in rounded forms that look like capsules, eggs and pods.",
+  "philosophy": {
+    "core_thesis": "The new plastics free the form: one mould makes a whole object in one piece, and its colour and curve show a hopeful, fast, technical future.",
+    "design_principles": [
+      "Mould each major body in one piece, so that the object has no visible joint on its main surface.",
+      "Draw each body as a sphere, an egg, a pod or a tube with soft corners of 25 mm radius or more.",
+      "Give each object one saturated colour: orange, red, yellow, white or black, with a gloss finish.",
+      "Use chrome-plated steel for the stem, the base or the frame; keep it bright and thin.",
+      "Cut round holes or slots in a shell where the form needs light, air or a seat.",
+      "Show the object as a sculpture: it stands alone and looks good from every side.",
+      "Make each volume read as a capsule: round windows, round hatches and round buttons."
+    ],
+    "anti_patterns": [
+      "Carved wood and turned legs",
+      "Dark polished hardwood with a patina",
+      "Rectilinear boxes with sharp corners",
+      "Patterned fabric with floral motifs",
+      "Aged brass and wrought iron",
+      "Muted earth tones and natural linen"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "hand_finish": 1,
+    "material_warmth": 1,
+    "visual_mass": 3,
+    "chromatic_intensity": 4
+  },
+  "form": {
+    "geometry": "The sphere, the egg, the capsule, the tube and the pod, with a round hole as the main detail.",
+    "silhouette": "A single smooth mass on a slim chrome stem or a low plinth, with no seam on the outline.",
+    "edges": "Soft edges with a radius of 25 to 40 mm; no sharp corner on a body; the lip of a shell has a radius of 5 to 10 mm.",
+    "proportion": "A pod chair is about 100 cm high and wide; a pendant globe is 30 to 50 cm in diameter; a stem is 3 to 5 cm thick.",
+    "ornament": "None applied. The colour, the gloss and the round cut-outs give the surface its interest.",
+    "rules": [
+      "Each body is one moulded piece with no more than one visible seam.",
+      "Each exterior corner has a radius of 25 mm or more.",
+      "Each object uses one bright colour on 80% or more of its surface.",
+      "Chrome covers less than 25% of the object and it carries the load.",
+      "A round or oval cut-out is the only surface detail."
+    ]
+  },
+  "materials": {
+    "primary": [
+      "fibreglass",
+      "acrylic",
+      "abs-plastic",
+      "polypropylene",
+      "plastic-laminate",
+      "chrome-plated-steel"
+    ],
+    "secondary": [
+      "aluminium",
+      "chrome-plated-brass",
+      "stainless-steel",
+      "opal-glass",
+      "coloured-glass",
+      "wool",
+      "vitreous-china",
+      "mirror-glass",
+      "leather",
+      "enamelled-steel"
+    ],
+    "avoid": [
+      "mahogany",
+      "wrought-iron",
+      "terracotta",
+      "washi-paper",
+      "jute"
+    ],
+    "rule": "Plastic makes about 70% of the visible surface; chrome and glass make most of the rest, and fabric appears only as a thin pad."
+  },
+  "finish": {
+    "finishes": [
+      "moulded-gloss",
+      "polished",
+      "clear-gloss",
+      "lacquered",
+      "gloss-enamel"
+    ],
+    "textures": [
+      "mirror-smooth",
+      "satin-smooth"
+    ],
+    "gloss": "85–98 GU on moulded plastic and chrome; 10–40 GU only on glass and cloth",
+    "patina": "The style wants a new, bright and unmarked surface; a scratch or a yellow tint is a fault."
+  },
+  "hardware": {
+    "metal_tone": "chrome",
+    "section": "Stems and tubes 30–50 mm; a rail or a rod 10–16 mm",
+    "joints": "One-piece mouldings; a chrome plate or a swivel bolt joins the shell to the base.",
+    "handles": "A round hole in the body, a flush disc or a short chrome loop.",
+    "switches_and_taps": "A large round push button or a flat disc rocker in coloured plastic; a chrome lever tap on a smooth cylinder."
+  },
+  "palette": {
+    "strategy": "One saturated pop colour on each large body, with white or black as the second, and chrome as the neutral.",
+    "colours": [
+      {
+        "name": "Capsule white",
+        "hex": "#F4F2EE",
+        "role": "shell, shade, table top"
+      },
+      {
+        "name": "Rocket orange",
+        "hex": "#E8541F",
+        "role": "main accent body"
+      },
+      {
+        "name": "Signal red",
+        "hex": "#C8281E",
+        "role": "seat or pod shell"
+      },
+      {
+        "name": "Lemon yellow",
+        "hex": "#F0C419",
+        "role": "secondary body"
+      },
+      {
+        "name": "Chrome",
+        "hex": "#C8CCD0",
+        "role": "stem, frame, base"
+      }
+    ]
+  },
+  "manufacture": {
+    "processes": [
+      "hand lay-up of fibreglass in a mould",
+      "injection moulding of ABS",
+      "vacuum forming of acrylic",
+      "chrome plating",
+      "spinning of aluminium"
+    ],
+    "scale": "Studio mouldings of a few hundred pieces, then series of many thousand pieces from plastics and furniture firms.",
+    "signs": "A smooth shell without a seam on the face, a thin ridge where a mould halves meet, and a chrome swivel base."
+  },
+  "signatures": {
+    "objects": [
+      {
+        "category": "sanitary",
+        "object": "bathtub",
+        "form": "moulded pod bath on a plinth",
+        "material": "acrylic",
+        "finish": "moulded-gloss",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "electrics",
+        "object": "light-switch",
+        "form": "large round push plate in bright plastic",
+        "material": "abs-plastic",
+        "finish": "moulded-gloss",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "lighting",
+        "object": "pendant-lamp",
+        "form": "perforated spherical shade",
+        "material": "acrylic",
+        "finish": "moulded-gloss",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "storage",
+        "object": "sideboard",
+        "form": "modular boxes on a steel frame",
+        "material": "plastic-laminate",
+        "finish": "moulded-gloss",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "soft-furniture",
+        "object": "armchair",
+        "form": "egg or pod chair",
+        "material": "fibreglass",
+        "finish": "moulded-gloss",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "tables",
+        "object": "dining-table",
+        "form": "pedestal tulip base",
+        "material": "plastic-laminate",
+        "finish": "moulded-gloss",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "kitchen",
+        "object": "kettle",
+        "form": "cylindrical electric jug",
+        "material": "abs-plastic",
+        "finish": "moulded-gloss",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "decor",
+        "object": "plant-pot",
+        "form": "hanging planter in the form of an egg",
+        "material": "fibreglass",
+        "finish": "moulded-gloss",
+        "texture": "mirror-smooth"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1960s Space Age product design",
+      "one-piece moulded fibreglass shell",
+      "glossy saturated orange plastic",
+      "chrome-plated steel swivel base",
+      "egg or pod shaped chair",
+      "round porthole cut-outs",
+      "acrylic spherical pendant lamp",
+      "soft radius corners",
+      "white capsule forms",
+      "optimistic futurist still life",
+      "studio product photograph, bright even light"
+    ],
+    "negative": [
+      "carved wood",
+      "antique brass patina",
+      "floral pattern",
+      "rustic texture",
+      "sharp corners",
+      "muted earth tones"
+    ],
+    "canonical_works": [
+      {
+        "work": "Ball chair",
+        "maker": "Eero Aarnio",
+        "year": 1963
+      },
+      {
+        "work": "Globe chair",
+        "maker": "Eero Aarnio",
+        "year": 1963
+      },
+      {
+        "work": "Panton chair",
+        "maker": "Verner Panton",
+        "year": 1960
+      },
+      {
+        "work": "Tulip pedestal table",
+        "maker": "Eero Saarinen",
+        "year": 1956
+      },
+      {
+        "work": "Boalum lamp",
+        "maker": "Livio Castiglioni and Gianfranco Frattini",
+        "year": 1969
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Panton Chair by Verner Panton",
+      "kind": "image",
+      "maker": "Verner Panton",
+      "year": 1960,
+      "credit": "Tokumeigakarinoaoshima",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Panton_Chair_by_Verner_Panton.JPG",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Panton_Chair_by_Verner_Panton.JPG/960px-Panton_Chair_by_Verner_Panton.JPG"
+    },
+    {
+      "title": "Ball chair 1968 (JOKAOM14AiD KSS04-1)",
+      "kind": "image",
+      "maker": "Eero Aarnio",
+      "year": 1963,
+      "credit": "Eero Aarnio",
+      "licence": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Ball_chair_1968_(JOKAOM14AiD_KSS04-1).tif",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Ball_chair_1968_%28JOKAOM14AiD_KSS04-1%29.tif/lossy-page1-960px-Ball_chair_1968_%28JOKAOM14AiD_KSS04-1%29.tif.jpg"
+    },
+    {
+      "title": "Globe by Eero Aarnio",
+      "kind": "image",
+      "maker": "Eero Aarnio",
+      "year": 1963,
+      "credit": "Tokumeigakarinoaoshima",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Globe_by_Eero_Aarnio.JPG",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Globe_by_Eero_Aarnio.JPG/960px-Globe_by_Eero_Aarnio.JPG"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "mid-century-modern-product"
+    ],
+    "rebelled_against": [
+      "scandinavian-modern-product"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "space-age",
+      "pop-art-painting",
+      "y2k-aesthetic"
+    ]
+  },
+  "emotion": {
+    "target_response": "Playful optimism: the viewer sees a smooth, bright capsule and feels the excitement of a technical future.",
+    "keywords": [
+      "futurist",
+      "playful",
+      "glossy",
+      "optimistic",
+      "sculptural"
+    ],
+    "brand_archetypes": [
+      "explorer",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "space age furniture",
+      "1960s plastic chair",
+      "pod chair",
+      "fibreglass shell",
+      "pop design object",
+      "ball chair",
+      "tulip table",
+      "moulded plastic lamp"
+    ],
+    "use_cases": [
+      "a retro-futurist interior moodboard",
+      "product briefs for plastic furniture reissues",
+      "a still life for a design museum shop",
+      "a prop list for a 1960s film set"
+    ],
+    "avoid_when": [
+      "The room needs warm, hand-made and natural objects.",
+      "The brief asks for a period revival in wood or brass."
+    ],
+    "modifiers": [
+      {
+        "request": "more colour and pattern",
+        "toward": "memphis-product",
+        "how": "Keep the plastic, but split each body into laminate planes with loud patterns and angles."
+      },
+      {
+        "request": "quieter and more rational",
+        "toward": "ulm-braun-functionalism",
+        "how": "Replace the capsule forms with grid-based boxes in matte grey and white plastic."
+      },
+      {
+        "request": "warmer and more natural",
+        "toward": "scandinavian-modern-product",
+        "how": "Swap fibreglass for bent beech and oak, and gloss for oil."
+      }
+    ]
+  },
+  "permutations": {
+    "ornament_level": {
+      "default": 0.1,
+      "min": 0,
+      "max": 0.3
+    },
+    "material_warmth": {
+      "default": 0.2,
+      "min": 0.05,
+      "max": 0.45
+    },
+    "finish_gloss": {
+      "default": 88,
+      "min": 40,
+      "max": 98
+    },
+    "era_blend": {
+      "default": 0.3,
+      "min": 0,
+      "max": 1,
+      "note": "A reissue keeps the style; a new object keeps only the one-piece mould and the colour."
+    },
+    "hardware_weight": {
+      "default": 14,
+      "min": 6,
+      "max": 40
+    },
+    "edge_radius": {
+      "default": 30,
+      "min": 6,
+      "max": 40
+    },
+    "metal_tone": {
+      "default": "chrome",
+      "options": [
+        "chrome",
+        "stainless",
+        "white",
+        "black",
+        "none"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Verner Panton",
+      "url": "https://en.wikipedia.org/wiki/Verner_Panton"
+    },
+    {
+      "title": "Wikipedia: Ball Chair",
+      "url": "https://en.wikipedia.org/wiki/Ball_Chair"
+    },
+    {
+      "title": "Wikipedia: Panton Chair",
+      "url": "https://en.wikipedia.org/wiki/Panton_Chair"
+    },
+    {
+      "title": "Wikipedia: Tulip chair",
+      "url": "https://en.wikipedia.org/wiki/Tulip_chair"
+    },
+    {
+      "title": "Wikipedia: Eero Aarnio",
+      "url": "https://en.wikipedia.org/wiki/Eero_Aarnio"
+    }
+  ]
+}

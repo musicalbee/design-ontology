@@ -1,0 +1,507 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-ontology.dev/schema/domains/industrial.schema.json",
+  "title": "Industrial design style",
+  "description": "One industrial design style as rules for the objects of a home: form, materials, finishes, textures, hardware, palette and manufacture, with one signature object for each object category. Material, finish, texture and object ids come from data/industrial/vocabulary.json; the validator checks each one. Prompts never name a brand or a product: the names appear only in canonical_works and sources.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "domain",
+    "name",
+    "aliases",
+    "era_id",
+    "time_period",
+    "region",
+    "summary",
+    "philosophy",
+    "vectors",
+    "form",
+    "materials",
+    "finish",
+    "hardware",
+    "palette",
+    "manufacture",
+    "signatures",
+    "prompt_primer",
+    "evidence",
+    "lineage",
+    "emotion",
+    "agent",
+    "sources"
+  ],
+  "$defs": {
+    "hex": {
+      "type": "string",
+      "pattern": "^#[0-9A-F]{6}$"
+    },
+    "category": {
+      "enum": [
+        "sanitary",
+        "electrics",
+        "lighting",
+        "storage",
+        "soft-furniture",
+        "tables",
+        "kitchen",
+        "decor"
+      ]
+    }
+  },
+  "properties": {
+    "permutations": {
+      "$ref": "../core.schema.json#/$defs/permutations"
+    },
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "$ref": "../core.schema.json#/$defs/slug"
+    },
+    "domain": {
+      "const": "industrial"
+    },
+    "name": {
+      "$ref": "../core.schema.json#/$defs/shortText"
+    },
+    "aliases": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "../core.schema.json#/$defs/shortText"
+      }
+    },
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [],
+      "properties": {
+        "wikidata": {
+          "type": "string",
+          "pattern": "^Q[0-9]+$"
+        },
+        "aat": {
+          "type": "string",
+          "pattern": "^3[0-9]{8}$"
+        }
+      },
+      "description": "Open identifiers for the style. Store an id only when the record exists and matches the style."
+    },
+    "era_id": {
+      "$ref": "../core.schema.json#/$defs/slug",
+      "description": "An id from data/industrial/eras/."
+    },
+    "time_period": {
+      "$ref": "../core.schema.json#/$defs/time_period"
+    },
+    "region": {
+      "$ref": "../core.schema.json#/$defs/shortText",
+      "description": "Where the style began or is centred."
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 40,
+      "maxLength": 320
+    },
+    "philosophy": {
+      "$ref": "../core.schema.json#/$defs/philosophy"
+    },
+    "vectors": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ornamentation",
+        "hand_finish",
+        "material_warmth",
+        "visual_mass",
+        "chromatic_intensity"
+      ],
+      "properties": {
+        "ornamentation": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = plain surfaces and pure geometry, 5 = applied ornament on every part."
+        },
+        "hand_finish": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = machine-perfect, identical parts, 5 = visible marks of the hand and the tool."
+        },
+        "material_warmth": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = cold metal, glass and plastic, 5 = warm wood, wool, leather and clay."
+        },
+        "visual_mass": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = thin lines and open frames, 5 = heavy, solid, closed volumes."
+        },
+        "chromatic_intensity": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = the natural colour of the material, or white and black, 5 = saturated applied colour."
+        }
+      }
+    },
+    "form": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "geometry",
+        "silhouette",
+        "edges",
+        "proportion",
+        "ornament",
+        "rules"
+      ],
+      "properties": {
+        "geometry": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "The base solids and lines of the objects."
+        },
+        "silhouette": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "The outline of an object seen against a wall."
+        },
+        "edges": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "How edges and corners are made, with a radius in mm."
+        },
+        "proportion": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "The ratios of the parts, as numbers."
+        },
+        "ornament": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "What ornament there is, where it sits and what share of the surface it covers."
+        },
+        "rules": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 8,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/sentence"
+          },
+          "description": "Numbered form rules that a designer can check on a drawing."
+        }
+      },
+      "description": "The geometry of the objects."
+    },
+    "materials": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "primary",
+        "secondary",
+        "avoid",
+        "rule"
+      ],
+      "properties": {
+        "primary": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 8,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/slug"
+          },
+          "description": "Material ids from the vocabulary: the materials that carry the style."
+        },
+        "secondary": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 20,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/slug"
+          },
+          "description": "Material ids from the vocabulary: the materials that support the primary ones."
+        },
+        "avoid": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 8,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/slug"
+          },
+          "description": "Material ids from the vocabulary that break the style."
+        },
+        "rule": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "How the materials meet and in what share."
+        }
+      }
+    },
+    "finish": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "finishes",
+        "textures",
+        "gloss",
+        "patina"
+      ],
+      "properties": {
+        "finishes": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 8,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/slug"
+          },
+          "description": "Finish ids from the vocabulary."
+        },
+        "textures": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 8,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/slug"
+          },
+          "description": "Texture ids from the vocabulary."
+        },
+        "gloss": {
+          "$ref": "../core.schema.json#/$defs/shortText",
+          "description": "The gloss range of the main finish in GU at 60 degrees."
+        },
+        "patina": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "How the surface ages, and whether the style wants it to."
+        }
+      }
+    },
+    "hardware": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "metal_tone",
+        "section",
+        "joints",
+        "handles",
+        "switches_and_taps"
+      ],
+      "properties": {
+        "metal_tone": {
+          "enum": [
+            "chrome",
+            "nickel",
+            "stainless",
+            "brass",
+            "bronze",
+            "copper",
+            "black",
+            "white",
+            "none"
+          ],
+          "description": "The main tone of visible metal."
+        },
+        "section": {
+          "$ref": "../core.schema.json#/$defs/shortText",
+          "description": "The diameter or section of rods, pulls, tubes and tap bodies, in mm."
+        },
+        "joints": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "How parts join: a dovetail, a weld, a screw, a clip, a moulded snap."
+        },
+        "handles": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "The handles, knobs and pulls."
+        },
+        "switches_and_taps": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "The actuators: a toggle, a rocker, a cross head, a lever."
+        }
+      }
+    },
+    "palette": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "strategy",
+        "colours"
+      ],
+      "properties": {
+        "strategy": {
+          "$ref": "../core.schema.json#/$defs/sentence"
+        },
+        "colours": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "hex",
+              "role"
+            ],
+            "properties": {
+              "name": {
+                "$ref": "../core.schema.json#/$defs/shortText"
+              },
+              "hex": {
+                "$ref": "#/$defs/hex"
+              },
+              "role": {
+                "$ref": "../core.schema.json#/$defs/shortText"
+              }
+            }
+          }
+        }
+      }
+    },
+    "manufacture": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "processes",
+        "scale",
+        "signs"
+      ],
+      "properties": {
+        "processes": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 8,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/shortText"
+          }
+        },
+        "scale": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "Who made the objects and in what numbers: a workshop, a factory, a global brand."
+        },
+        "signs": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "The visible marks of the process: a parting line, a weld, a throwing ring, a tool mark."
+        }
+      }
+    },
+    "signatures": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "objects"
+      ],
+      "properties": {
+        "objects": {
+          "type": "array",
+          "minItems": 8,
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "category",
+              "object",
+              "form",
+              "material",
+              "finish",
+              "texture"
+            ],
+            "properties": {
+              "category": {
+                "$ref": "#/$defs/category"
+              },
+              "object": {
+                "$ref": "../core.schema.json#/$defs/slug",
+                "description": "An object id from the vocabulary, in this category."
+              },
+              "form": {
+                "$ref": "../core.schema.json#/$defs/shortText",
+                "description": "One form of the object, from the vocabulary or a closer name."
+              },
+              "material": {
+                "$ref": "../core.schema.json#/$defs/slug"
+              },
+              "finish": {
+                "$ref": "../core.schema.json#/$defs/slug"
+              },
+              "texture": {
+                "$ref": "../core.schema.json#/$defs/slug"
+              }
+            }
+          },
+          "description": "One signature object for each of the eight categories, in the order of the vocabulary."
+        }
+      },
+      "description": "The object that stands for the style in each category of an interior. Object nets use these rows when they choose this style as an alternate."
+    },
+    "prompt_primer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "positive",
+        "negative",
+        "canonical_works"
+      ],
+      "properties": {
+        "positive": {
+          "type": "array",
+          "minItems": 6,
+          "maxItems": 14,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/shortText"
+          }
+        },
+        "negative": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 10,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/shortText"
+          }
+        },
+        "canonical_works": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "work",
+              "maker",
+              "year"
+            ],
+            "properties": {
+              "work": {
+                "$ref": "../core.schema.json#/$defs/shortText"
+              },
+              "maker": {
+                "$ref": "../core.schema.json#/$defs/shortText"
+              },
+              "year": {
+                "type": "integer",
+                "minimum": 1700,
+                "maximum": 2100
+              }
+            }
+          },
+          "description": "Reference objects, for study only. Prompts never name them."
+        }
+      },
+      "description": "Vocabulary for an image prompt or a product brief. It describes form, material and finish, never a brand or a product name."
+    },
+    "evidence": {
+      "$ref": "../core.schema.json#/$defs/evidence",
+      "description": "Open-licence or public-domain images of period objects."
+    },
+    "lineage": {
+      "$ref": "../core.schema.json#/$defs/lineage"
+    },
+    "emotion": {
+      "$ref": "../core.schema.json#/$defs/emotion"
+    },
+    "agent": {
+      "$ref": "../core.schema.json#/$defs/agent"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "$ref": "../core.schema.json#/$defs/sources/items"
+      }
+    }
+  }
+}

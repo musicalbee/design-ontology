@@ -214,6 +214,72 @@ The rules above name these shared principles by id. The definition is the same i
 ![Light](../../demo/moodboards/interior/art-deco-interior/light.webp)
 ![Objects](../../demo/moodboards/interior/art-deco-interior/objects.webp)
 
+## Object net
+
+Every object is a glossy, symmetric solid: black lacquer, macassar ebony, chrome, brass, mirror and frosted glass. Velvet and mohair add a dense pile, and one jade accent repeats. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.45, material_warmth 0.4, finish_gloss 90, era_blend 0.2, hardware_weight 16, edge_radius 2, metal_tone chrome. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#art-deco-interior).
+
+| Category | Object | Form | Material, finish, texture |
+|---|---|---|---|
+| Sanitary ([`art-deco-product`](../art-deco-product/SKILL.md)) | Basin | pedestal basin | Porcelain, vitreous gloss glaze, mirror-smooth (#EFE6D2) |
+|  | Basin tap or mixer | lever on a cone body | Chrome-plated brass, polished, mirror-smooth (#C8CCD0) |
+|  | Bath | freestanding oval | Marble, polished, veined (#EFE6D2) |
+|  | Shower | flush ceiling head | Chrome-plated brass, polished, mirror-smooth (#C8CCD0) |
+|  | Towel rail | ladder rail | Chrome-plated brass, polished, mirror-smooth (#C8CCD0) |
+| Electrics ([`art-deco-product`](../art-deco-product/SKILL.md)) | Light switch | round rotary on a round base | Bakelite, moulded gloss, mirror-smooth (#151414) |
+|  | Socket outlet | round surface socket | Bakelite, moulded gloss, mirror-smooth (#151414) |
+|  | Dimmer and control | large knurled rotary knob | Chrome-plated brass, polished, knurled (#C8CCD0) |
+|  | Visible cable and conduit | flat cable hidden in a channel | Aluminium, polished, mirror-smooth (#C8CCD0) |
+| Lighting ([`art-deco-product`](../art-deco-product/SKILL.md)) | Pendant lamp | tiered chandelier | Frosted glass, acid-etched or sandblasted, etched or frosted (#EFE6D2) |
+|  | Wall sconce | fan or shell in frosted glass | Frosted glass, acid-etched or sandblasted, etched or frosted (#EFE6D2) |
+|  | Table lamp | glass dome on a metal base | Chrome-plated brass, polished, mirror-smooth (#C8CCD0) |
+|  | Curtain track and blind | ceiling-recessed track | Aluminium, brushed, satin-smooth (#C8CCD0) |
+| Storage ([`art-deco-product`](../art-deco-product/SKILL.md)) | Sideboard and cabinet | breakfront with a raised centre | Macassar ebony, french polish, figured grain (#4A2E1F) |
+|  | Chest of drawers | low wide chest on tapered legs | Macassar ebony, french polish, figured grain (#4A2E1F) |
+|  | Wardrobe and tall cabinet | sliding-door wall | Mirror glass, silvered, mirror-smooth (#C8CCD0) |
+|  | Handle, knob and pull | bar pull on two posts | Solid brass, polished, mirror-smooth (#C3A04A) |
+| Soft Furniture ([`art-deco-product`](../art-deco-product/SKILL.md)) | Armchair and lounge chair | club chair | Velvet, lustre pile, cut pile (#EFE6D2) |
+|  | Sofa | tuxedo sofa with flush arms | Velvet, lustre pile, cut pile (#EFE6D2) |
+|  | Ottoman and pouf | leather cube | Leather, aniline dyed, grain leather (#151414) |
+|  | Cushion and throw | square with piping | Mohair, lustre pile, cut pile (#3E7D6B) |
+|  | Bed | upholstered headboard | Velvet, lustre pile, channel-quilted (#EFE6D2) |
+| Tables ([`art-deco-product`](../art-deco-product/SKILL.md)) | Dining table | pedestal tulip base | Macassar ebony, french polish, figured grain (#4A2E1F) |
+|  | Dining chair | upholstered parsons chair | Velvet, piece-dyed, cut pile (#3E7D6B) |
+|  | Low table | round drum in stone | Marble, polished, veined (#EFE6D2) |
+|  | Console table | pier table against a mirror | Macassar ebony, french polish, figured grain (#4A2E1F) |
+|  | Side table | pedestal side table | Marble, polished, veined (#EFE6D2) |
+| Kitchen ([`art-deco-product`](../art-deco-product/SKILL.md)) | Kitchen front | flat slab door | Walnut, high-gloss lacquer, figured grain (#4A2E1F) |
+|  | Worktop and splashback | thick mitred stone slab | Marble, polished, veined (#EFE6D2) |
+|  | Kitchen sink and tap | gooseneck mixer | Solid brass, polished, mirror-smooth (#C3A04A) |
+|  | Cooker hood and range | stainless-steel chimney box | Solid brass, polished, mirror-smooth (#C3A04A) |
+|  | Kettle and small appliances | cylindrical electric jug | Chrome-plated brass, polished, mirror-smooth (#C8CCD0) |
+|  | Tableware and glassware | stacking geometric set | Porcelain, vitreous gloss glaze, mirror-smooth (#EFE6D2) |
+|  | Cutlery | slim modernist | Silver plate, polished, mirror-smooth |
+| Decor ([`art-deco-product`](../art-deco-product/SKILL.md)) | Mirror | sunburst mirror | Mirror glass, silvered, mirror-smooth (#C3A04A) |
+|  | Picture frame | chevron or stepped moulding | Solid brass, polished, mirror-smooth (#C3A04A) |
+|  | Clock | geometric clock | Chrome-plated brass, polished, mirror-smooth (#C8CCD0) |
+|  | Vase | faceted vase | Coloured glass, clear gloss, fluted or reeded (#3E7D6B) |
+|  | Bowl, tray and box | lacquer box | Walnut, high-gloss lacquer, figured grain (#151414) |
+|  | Candle holder and lantern | stacked geometric holder | Solid brass, polished, mirror-smooth (#C3A04A) |
+|  | Rug | geometric hand-tufted rug | Wool, piece-dyed, cut pile (#3E7D6B) |
+
+Alternates for each category:
+- **Sanitary:** [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md), [`memphis-product`](../memphis-product/SKILL.md)
+- **Electrics:** [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)
+- **Lighting:** [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md), [`memphis-product`](../memphis-product/SKILL.md)
+- **Storage:** [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)
+- **Soft Furniture:** [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)
+- **Tables:** [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)
+- **Kitchen:** [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md), [`memphis-product`](../memphis-product/SKILL.md)
+- **Decor:** [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)
+
+The moodboard tiles resolve to these objects:
+- **room:** Mirror, Armchair and lounge chair, Sideboard and cabinet, Wall sconce, Pendant lamp, Curtain track and blind, Low table, Rug
+- **materials:** Sideboard and cabinet, Wardrobe and tall cabinet, Low table, Basin tap or mixer, Handle, knob and pull, Armchair and lounge chair, Wall sconce
+- **furniture:** Armchair and lounge chair, Sideboard and cabinet, Console table, Low table, Dining chair, Sofa
+- **textiles:** Armchair and lounge chair, Sofa, Cushion and throw, Dining chair, Rug, Curtain track and blind
+- **light:** Pendant lamp, Wall sconce, Table lamp, Curtain track and blind
+- **objects:** Mirror, Vase, Bowl, tray and box, Clock, Candle holder and lantern, Picture frame
+
 ## Vocabulary primer
 
 Use these terms in a brief, an image prompt or a 3D scene description.
@@ -284,7 +350,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md)
-- **Kin in another domain:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`art-deco-web`](../art-deco-web/SKILL.md)
+- **Kin in another domain:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md), [`art-deco-web`](../art-deco-web/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md)
 - **Nearest by vector profile:** [`neo-deco-interior`](../neo-deco-interior/SKILL.md), [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md)
 
 ## Emotional target

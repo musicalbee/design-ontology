@@ -343,11 +343,12 @@ Parallel grooves (flutes) or ridges (reeds) on a column, a panel, a leg or a she
 |---|---|---|---|---|---|
 | Origin | Architecture | c. 600 BCE | — | Greece: Greek Doric and Ionic columns carry vertical concave grooves; a Doric shaft has 20 flutes. | |
 | 1 | Architecture | 1764 | +2364 years | Jacques-Germain Soufflot gives the Pantheon in Paris, begun in 1764, a portico of fluted Corinthian columns. | [`neoclassical-architecture`](./neoclassical-architecture/SKILL.md) |
-| 2 | Interior | c. 1790 | +2390 years | Neoclassical and Regency furniture takes fluted and reeded legs and friezes. | [`georgian-interior`](./georgian-interior/SKILL.md) |
-| 3 | Interior | c. 1925 | +2525 years | Art Deco rooms use fluted pilasters, fluted glass and fluted wood panels. | [`art-deco-interior`](./art-deco-interior/SKILL.md) |
-| 4 | Interior | c. 2018 | +2618 years | Reeded glass and fluted wood or stone cover cabinets, islands and walls. | [`quiet-luxury-interior`](./quiet-luxury-interior/SKILL.md), [`neo-deco-interior`](./neo-deco-interior/SKILL.md) |
+| 2 | Industrial design | c. 1775 | +2375 years | Wedgwood and Boulton copy classical urns and columns, and the cabinet makers of the pattern books turn flutes on slim mahogany legs. | [`georgian-neoclassical-manufacture`](./georgian-neoclassical-manufacture/SKILL.md) |
+| 3 | Interior | c. 1790 | +2390 years | Neoclassical and Regency furniture takes fluted and reeded legs and friezes. | [`georgian-interior`](./georgian-interior/SKILL.md) |
+| 4 | Interior | c. 1925 | +2525 years | Art Deco rooms use fluted pilasters, fluted glass and fluted wood panels. | [`art-deco-interior`](./art-deco-interior/SKILL.md) |
+| 5 | Interior | c. 2018 | +2618 years | Reeded glass and fluted wood or stone cover cabinets, islands and walls. | [`quiet-luxury-interior`](./quiet-luxury-interior/SKILL.md), [`neo-deco-interior`](./neo-deco-interior/SKILL.md) |
 
-Used by: [`art-deco-architecture`](./art-deco-architecture/SKILL.md), [`georgian-interior`](./georgian-interior/SKILL.md), [`art-deco-interior`](./art-deco-interior/SKILL.md), [`quiet-luxury-interior`](./quiet-luxury-interior/SKILL.md), [`neo-deco-interior`](./neo-deco-interior/SKILL.md), [`neoclassical-architecture`](./neoclassical-architecture/SKILL.md).
+Used by: [`art-deco-architecture`](./art-deco-architecture/SKILL.md), [`georgian-interior`](./georgian-interior/SKILL.md), [`art-deco-interior`](./art-deco-interior/SKILL.md), [`quiet-luxury-interior`](./quiet-luxury-interior/SKILL.md), [`neo-deco-interior`](./neo-deco-interior/SKILL.md), [`neoclassical-architecture`](./neoclassical-architecture/SKILL.md), [`georgian-neoclassical-manufacture`](./georgian-neoclassical-manufacture/SKILL.md).
 
 - Cut 16 to 24 flutes round a column, or set the grooves at 15 to 40mm centres on a flat panel.
 - Run the flutes vertical to make a surface look taller.
@@ -510,6 +511,23 @@ Used by: [`skeuomorphic-icon`](./skeuomorphic-icon/SKILL.md), [`skeuomorphism`](
 
 Sources: Donald Norman, The Design of Everyday Things (1988).
 
+### Speed lines
+
+Three or more parallel horizontal bands in chrome or a raised moulding along a rounded body, so that a static object seems to move.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Industrial design | c. 1930 | — | United States: Industrial designers apply the bands of aerodynamic trains and cars to radios, toasters and refrigerators. | |
+| 1 | Industrial design | c. 1934 | +4 years | Raymond Loewy and his peers put chrome bands on household appliances and pencil sharpeners. | [`streamline-moderne-product`](./streamline-moderne-product/SKILL.md) |
+
+Used by: [`streamline-moderne-product`](./streamline-moderne-product/SKILL.md).
+
+- Run three to five bands parallel to the long axis of the body.
+- Space the bands 3 to 8mm apart and keep them the same length.
+- Wrap the bands round a curved end, so that they follow the radius of the body.
+
+Sources: [Wikipedia, Streamline Moderne](https://en.wikipedia.org/wiki/Streamline_Moderne).
+
 ### Sunburst
 
 Rays from a disc or a half disc: a sign of light and of the new, on a facade, a gate, a mirror or a clock.
@@ -517,13 +535,14 @@ Rays from a disc or a half disc: a sign of light and of the new, on a facade, a 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Architecture | 1925 | — | Paris: Rays from a half disc appear on Art Deco facades, gates and lift doors around the Paris exposition of decorative arts in 1925. | |
-| 1 | Interior | c. 1928 | +3 years | Art Deco furniture, screens and mirrors take the ray motif inside. | [`art-deco-interior`](./art-deco-interior/SKILL.md) |
-| 2 | Interior | c. 1935 | +10 years | Hollywood decorators hang sunburst mirrors and starburst lights in the homes and sets of film stars. | [`hollywood-regency-interior`](./hollywood-regency-interior/SKILL.md) |
-| 3 | Interior | 1949 | +24 years | George Nelson Associates design ray-form wall clocks for Howard Miller; the starburst mirror follows in the 1950s. | [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md) |
-| 4 | Graphic & UI Design | c. 1957 | +32 years | Space Age signs, packaging and posters use starbursts as a sign of the future. | [`space-age`](./space-age/SKILL.md), [`mid-century-modern`](./mid-century-modern/SKILL.md) |
-| 5 | Interior | c. 2015 | +90 years | Neo-deco rooms bring back the fan and the sunburst in brass and glass. | [`neo-deco-interior`](./neo-deco-interior/SKILL.md) |
+| 1 | Industrial design | 1925 | +0 years | Mirrors, clocks, grilles and lamps of the Paris exposition of decorative arts carry rays from a half disc in gilt brass and glass. | [`art-deco-product`](./art-deco-product/SKILL.md) |
+| 2 | Interior | c. 1928 | +3 years | Art Deco furniture, screens and mirrors take the ray motif inside. | [`art-deco-interior`](./art-deco-interior/SKILL.md) |
+| 3 | Interior | c. 1935 | +10 years | Hollywood decorators hang sunburst mirrors and starburst lights in the homes and sets of film stars. | [`hollywood-regency-interior`](./hollywood-regency-interior/SKILL.md) |
+| 4 | Interior | 1949 | +24 years | George Nelson Associates design ray-form wall clocks for Howard Miller; the starburst mirror follows in the 1950s. | [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md) |
+| 5 | Graphic & UI Design | c. 1957 | +32 years | Space Age signs, packaging and posters use starbursts as a sign of the future. | [`space-age`](./space-age/SKILL.md), [`mid-century-modern`](./mid-century-modern/SKILL.md) |
+| 6 | Interior | c. 2015 | +90 years | Neo-deco rooms bring back the fan and the sunburst in brass and glass. | [`neo-deco-interior`](./neo-deco-interior/SKILL.md) |
 
-Used by: [`art-deco-architecture`](./art-deco-architecture/SKILL.md), [`art-deco-interior`](./art-deco-interior/SKILL.md), [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md), [`space-age`](./space-age/SKILL.md), [`art-deco-web`](./art-deco-web/SKILL.md), [`neo-deco-interior`](./neo-deco-interior/SKILL.md), [`hollywood-regency-interior`](./hollywood-regency-interior/SKILL.md), [`mid-century-modern`](./mid-century-modern/SKILL.md).
+Used by: [`art-deco-architecture`](./art-deco-architecture/SKILL.md), [`art-deco-interior`](./art-deco-interior/SKILL.md), [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md), [`space-age`](./space-age/SKILL.md), [`art-deco-web`](./art-deco-web/SKILL.md), [`neo-deco-interior`](./neo-deco-interior/SKILL.md), [`hollywood-regency-interior`](./hollywood-regency-interior/SKILL.md), [`mid-century-modern`](./mid-century-modern/SKILL.md), [`art-deco-product`](./art-deco-product/SKILL.md).
 
 - Draw 12 to 36 rays from one centre; alternate long and short rays, or two finishes.
 - Keep the centre disc at 15% to 30% of the full diameter.
@@ -541,11 +560,12 @@ A long S-shaped line whose curve changes along its length, drawn from a plant st
 | 1 | Interior | 1893 | +0 years | Victor Horta carries the iron whiplash line into the stair, the floor mosaic and the wall paint of the Hotel Tassel in Brussels. | [`art-nouveau-interior`](./art-nouveau-interior/SKILL.md) |
 | 2 | Graphic & UI Design | c. 1894 | +1 years | Hermann Obrist shows the Cyclamen wall hanging, an embroidery of one long curved stem. |  |
 | 3 | Logo | c. 1896 | +3 years | Jugend and Pan magazines print initials and vignettes in interlaced curved lines. | [`art-nouveau-monogram`](./art-nouveau-monogram/SKILL.md) |
-| 4 | Typeface | 1900 | +7 years | Otto Eckmann draws the Eckmann-Schrift with brush-like curved strokes. |  |
-| 5 | Architecture | 1900 | +7 years | Hector Guimard designs the iron entrances of the Paris Metro with plant-like curves. | [`art-nouveau-architecture`](./art-nouveau-architecture/SKILL.md) |
-| 6 | Graphic & UI Design | 1966 | +73 years | San Francisco concert posters of 1966 to 1968 copy Art Nouveau lettering and whiplash curves. | [`psychedelic`](./psychedelic/SKILL.md) |
+| 4 | Industrial design | c. 1898 | +5 years | Hector Guimard casts the whiplash line into the railings, handles and stoves of the Castel Béranger. | [`art-nouveau-object`](./art-nouveau-object/SKILL.md) |
+| 5 | Typeface | 1900 | +7 years | Otto Eckmann draws the Eckmann-Schrift with brush-like curved strokes. |  |
+| 6 | Architecture | 1900 | +7 years | Hector Guimard designs the iron entrances of the Paris Metro with plant-like curves. | [`art-nouveau-architecture`](./art-nouveau-architecture/SKILL.md) |
+| 7 | Graphic & UI Design | 1966 | +73 years | San Francisco concert posters of 1966 to 1968 copy Art Nouveau lettering and whiplash curves. | [`psychedelic`](./psychedelic/SKILL.md) |
 
-Used by: [`art-nouveau-architecture`](./art-nouveau-architecture/SKILL.md), [`art-nouveau-monogram`](./art-nouveau-monogram/SKILL.md), [`art-nouveau-interior`](./art-nouveau-interior/SKILL.md), [`psychedelic`](./psychedelic/SKILL.md).
+Used by: [`art-nouveau-architecture`](./art-nouveau-architecture/SKILL.md), [`art-nouveau-monogram`](./art-nouveau-monogram/SKILL.md), [`art-nouveau-interior`](./art-nouveau-interior/SKILL.md), [`psychedelic`](./psychedelic/SKILL.md), [`art-nouveau-object`](./art-nouveau-object/SKILL.md).
 
 - Draw each line as an S-curve with a radius that changes along its length.
 - Swell the stroke from 1 to 4 units along the curve, as a stem thickens at the base.
@@ -599,9 +619,10 @@ Cotton printed with large flowers and birds, often glazed, used for curtains, co
 |---|---|---|---|---|---|
 | Origin | Interior | c. 1600 | — | India: Painted and printed Indian cottons reach Europe through the East India Companies. | |
 | 1 | Interior | c. 1850 | +250 years | Victorian parlours cover sofas, curtains and walls in floral chintz. | [`victorian-interior`](./victorian-interior/SKILL.md) |
-| 2 | Interior | 2019 | +419 years | Grandmillennial rooms bring back chintz, skirted tables and floral wallpaper. | [`grandmillennial-interior`](./grandmillennial-interior/SKILL.md) |
+| 2 | Industrial design | c. 1850 | +250 years | Roller-printed cotton in strong floral patterns covers sofas, chairs and curtains in factory-made sets. | [`victorian-manufacture`](./victorian-manufacture/SKILL.md) |
+| 3 | Interior | 2019 | +419 years | Grandmillennial rooms bring back chintz, skirted tables and floral wallpaper. | [`grandmillennial-interior`](./grandmillennial-interior/SKILL.md) |
 
-Used by: [`victorian-interior`](./victorian-interior/SKILL.md), [`grandmillennial-interior`](./grandmillennial-interior/SKILL.md).
+Used by: [`victorian-interior`](./victorian-interior/SKILL.md), [`grandmillennial-interior`](./grandmillennial-interior/SKILL.md), [`victorian-manufacture`](./victorian-manufacture/SKILL.md).
 
 - Use one large floral repeat of 40 to 70 cm for curtains and covers.
 - Combine it with one stripe or check in a colour of the flowers.
@@ -617,11 +638,13 @@ Thin boards or veneers glued in layers, so that wood forms long spans, bent shap
 |---|---|---|---|---|---|
 | Origin | Architecture | 1906 | — | Weimar: Otto Hetzer patents glued laminated timber beams for halls and bridges. | |
 | 1 | Interior | c. 1932 | +26 years | Alvar Aalto designs the Paimio chair with a frame of bent laminated birch. | [`scandinavian-interior`](./scandinavian-interior/SKILL.md) |
-| 2 | Interior | 1946 | +40 years | Charles and Ray Eames put moulded plywood chairs into mass production. | [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md) |
-| 3 | Architecture | c. 1995 | +89 years | Austrian researchers develop cross-laminated timber panels, and builders adopt them for floors and walls. |  |
-| 4 | Architecture | 2009 | +103 years | Waugh Thistleton builds Murray Grove in London, a 9-storey block with a CLT frame. | [`mass-timber-architecture`](./mass-timber-architecture/SKILL.md) |
+| 2 | Industrial design | c. 1932 | +26 years | Alvar Aalto makes the Paimio armchair with a frame of bent laminated birch, and Nordic workshops copy the method. | [`scandinavian-modern-product`](./scandinavian-modern-product/SKILL.md) |
+| 3 | Interior | 1946 | +40 years | Charles and Ray Eames put moulded plywood chairs into mass production. | [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md) |
+| 4 | Industrial design | 1946 | +40 years | Charles and Ray Eames mould plywood into chair shells with compound curves for a large series. | [`mid-century-modern-product`](./mid-century-modern-product/SKILL.md) |
+| 5 | Architecture | c. 1995 | +89 years | Austrian researchers develop cross-laminated timber panels, and builders adopt them for floors and walls. |  |
+| 6 | Architecture | 2009 | +103 years | Waugh Thistleton builds Murray Grove in London, a 9-storey block with a CLT frame. | [`mass-timber-architecture`](./mass-timber-architecture/SKILL.md) |
 
-Used by: [`scandinavian-interior`](./scandinavian-interior/SKILL.md), [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md), [`mass-timber-architecture`](./mass-timber-architecture/SKILL.md).
+Used by: [`scandinavian-interior`](./scandinavian-interior/SKILL.md), [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md), [`mass-timber-architecture`](./mass-timber-architecture/SKILL.md), [`scandinavian-modern-product`](./scandinavian-modern-product/SKILL.md), [`mid-century-modern-product`](./mid-century-modern-product/SKILL.md).
 
 - Glue boards of 20 to 45mm for glulam; set the grain of all layers in one direction.
 - Cross the layers at 90° for a panel (CLT); use 3, 5 or 7 layers.
@@ -699,15 +722,34 @@ Chips of marble or glass set in a binder and ground flat, so that each chip show
 | 1 | Architecture | c. 1925 | +425 years | Poured terrazzo with brass strips paves Art Deco lobbies. | [`art-deco-architecture`](./art-deco-architecture/SKILL.md) |
 | 2 | Interior | c. 1950 | +450 years | Poured terrazzo floors go into mid-century homes, schools and airports. | [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md) |
 | 3 | Graphic & UI Design | 1981 | +481 years | Memphis Milano prints speckled chip patterns on plastic laminates and fabrics. | [`memphis-design`](./memphis-design/SKILL.md) |
-| 4 | Interior | c. 2016 | +516 years | Terrazzo moves from the floor to tables, tiles, lamps and small objects. | [`dopamine-decor`](./dopamine-decor/SKILL.md) |
+| 4 | Industrial design | 1981 | +481 years | Memphis Milano uses terrazzo for table tops and prints terrazzo chips on laminate. | [`memphis-product`](./memphis-product/SKILL.md) |
+| 5 | Interior | c. 2016 | +516 years | Terrazzo moves from the floor to tables, tiles, lamps and small objects. | [`dopamine-decor`](./dopamine-decor/SKILL.md) |
 
-Used by: [`art-deco-architecture`](./art-deco-architecture/SKILL.md), [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md), [`dopamine-decor`](./dopamine-decor/SKILL.md), [`memphis-interior`](./memphis-interior/SKILL.md), [`memphis-design`](./memphis-design/SKILL.md).
+Used by: [`art-deco-architecture`](./art-deco-architecture/SKILL.md), [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md), [`dopamine-decor`](./dopamine-decor/SKILL.md), [`memphis-interior`](./memphis-interior/SKILL.md), [`memphis-design`](./memphis-design/SKILL.md), [`memphis-product`](./memphis-product/SKILL.md).
 
 - Set chips of 5 to 25mm in a binder; the chips cover 40% to 60% of the surface.
 - Use 2 to 4 chip colours on one ground colour.
 - Grind and polish the surface flat, so that the chip edges show as cut sections.
 
 Sources: Getty Art & Architecture Thesaurus, entry: terrazzo.
+
+### Vitreous enamelling
+
+A thin coat of glass that is fused to iron or steel at about 800 °C. It makes a hard, bright, washable surface that resists heat and rust.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Industrial design | c. 1850 | — | Central Europe: Factories coat sheet iron and cast iron with glass powder, and the process makes cheap, washable pots, signs and baths. | |
+| 1 | Industrial design | c. 1910 | +60 years | Factories and workshops fit enamelled steel shades, signs and fittings that are hard, bright and easy to wash. | [`industrial-utility-product`](./industrial-utility-product/SKILL.md) |
+
+Used by: [`industrial-utility-product`](./industrial-utility-product/SKILL.md).
+
+- Clean the metal and coat it with a ground layer of glass powder and water.
+- Fire the part at 760 to 840 °C until the glass melts into one skin.
+- Apply a top coat of 0.1 to 0.3 mm in white or a single colour and fire it again.
+- Leave the edges rolled: the enamel chips at a sharp edge and shows the dark metal.
+
+Sources: [Wikipedia: Vitreous enamel](https://en.wikipedia.org/wiki/Vitreous_enamel).
 
 ## Process
 
@@ -722,9 +764,11 @@ A beam or slab fixed at one end that carries load beyond its support, so that it
 | 2 | Interior | 1926 | +626 years | Mart Stam and then Marcel Breuer bend steel tube into a chair that has no back legs. | [`bauhaus-interior`](./bauhaus-interior/SKILL.md) |
 | 3 | Architecture | 1926 | +626 years | The studio block of the Bauhaus Dessau has a small cantilevered balcony at each studio. | [`bauhaus-architecture`](./bauhaus-architecture/SKILL.md) |
 | 4 | Architecture | 1927 | +627 years | The houses of the Weissenhof Estate in Stuttgart extend slabs past their columns, so that the window band can turn the corner. | [`international-style-architecture`](./international-style-architecture/SKILL.md) |
-| 5 | Architecture | 1935 | +635 years | Wright cantilevers the concrete terraces of Fallingwater over a stream in Pennsylvania. | [`organic-architecture`](./organic-architecture/SKILL.md) |
+| 5 | Industrial design | 1928 | +628 years | Marcel Breuer puts the cantilever chair of bent steel tube into series production. | [`bauhaus-product`](./bauhaus-product/SKILL.md) |
+| 6 | Architecture | 1935 | +635 years | Wright cantilevers the concrete terraces of Fallingwater over a stream in Pennsylvania. | [`organic-architecture`](./organic-architecture/SKILL.md) |
+| 7 | Industrial design | 1960 | +660 years | Verner Panton draws the Panton chair as a cantilever seat in one moulded shell. | [`space-age-pop-product`](./space-age-pop-product/SKILL.md) |
 
-Used by: [`prairie-school-architecture`](./prairie-school-architecture/SKILL.md), [`bauhaus-interior`](./bauhaus-interior/SKILL.md), [`organic-architecture`](./organic-architecture/SKILL.md), [`bauhaus-architecture`](./bauhaus-architecture/SKILL.md), [`international-style-architecture`](./international-style-architecture/SKILL.md).
+Used by: [`prairie-school-architecture`](./prairie-school-architecture/SKILL.md), [`bauhaus-interior`](./bauhaus-interior/SKILL.md), [`organic-architecture`](./organic-architecture/SKILL.md), [`bauhaus-architecture`](./bauhaus-architecture/SKILL.md), [`international-style-architecture`](./international-style-architecture/SKILL.md), [`bauhaus-product`](./bauhaus-product/SKILL.md), [`space-age-pop-product`](./space-age-pop-product/SKILL.md).
 
 - Fix the beam at one end and anchor it with a back span of at least 1 part to every 2 parts of the overhang.
 - Keep the free end thin; a depth of 1/8 to 1/10 of the span suits steel and concrete.
@@ -863,12 +907,16 @@ A joint that stays in view, so that the way of making is part of the look.
 |---|---|---|---|---|---|
 | Origin | Interior | c. 2500 BCE | — | Giza: Egyptian carpenters lock the parts of chairs, beds and chests with mortise-and-tenon joints and leave the joints in view. | |
 | 1 | Interior | c. 1790 | +4290 years | Shaker joiners show dovetails and tenons on plain chests and chairs. | [`shaker-interior`](./shaker-interior/SKILL.md) |
-| 2 | Interior | 1900 | +4400 years | Gustav Stickley sells Craftsman furniture with through-tenons that show on the face. | [`arts-and-crafts-interior`](./arts-and-crafts-interior/SKILL.md) |
-| 3 | Architecture | 1908 | +4408 years | Greene and Greene build the Gamble House in Pasadena with pegged and exposed timber joints. | [`arts-and-crafts-architecture`](./arts-and-crafts-architecture/SKILL.md) |
-| 4 | Architecture | c. 1996 | +4496 years | Peter Zumthor and other critical regionalists keep the joint and the junction as the only ornament. | [`critical-regionalism-architecture`](./critical-regionalism-architecture/SKILL.md) |
-| 5 | Interior | 2016 | +4516 years | Japandi rooms show the joints of oak and ash furniture, as Japanese and Danish joiners do. | [`japandi-interior`](./japandi-interior/SKILL.md) |
+| 2 | Industrial design | c. 1790 | +4290 years | Shaker workshops make chairs, chests and boxes with dovetails and tenons in view. | [`shaker-object`](./shaker-object/SKILL.md) |
+| 3 | Industrial design | c. 1895 | +4395 years | Ernest Gimson and the Barnsley brothers make oak furniture with pegged tenons and plain joints in the Cotswolds. | [`arts-and-crafts-object`](./arts-and-crafts-object/SKILL.md) |
+| 4 | Interior | 1900 | +4400 years | Gustav Stickley sells Craftsman furniture with through-tenons that show on the face. | [`arts-and-crafts-interior`](./arts-and-crafts-interior/SKILL.md) |
+| 5 | Architecture | 1908 | +4408 years | Greene and Greene build the Gamble House in Pasadena with pegged and exposed timber joints. | [`arts-and-crafts-architecture`](./arts-and-crafts-architecture/SKILL.md) |
+| 6 | Industrial design | 1954 | +4454 years | Sori Yanagi joins the two bent plywood shells of the Butterfly stool with one brass rod that stays in view. | [`japanese-modern-craft-product`](./japanese-modern-craft-product/SKILL.md) |
+| 7 | Architecture | c. 1996 | +4496 years | Peter Zumthor and other critical regionalists keep the joint and the junction as the only ornament. | [`critical-regionalism-architecture`](./critical-regionalism-architecture/SKILL.md) |
+| 8 | Industrial design | 2010 | +4510 years | Craft makers leave dovetails and pegs in view on solid oak tables and cabinets. | [`contemporary-craft-product`](./contemporary-craft-product/SKILL.md) |
+| 9 | Interior | 2016 | +4516 years | Japandi rooms show the joints of oak and ash furniture, as Japanese and Danish joiners do. | [`japandi-interior`](./japandi-interior/SKILL.md) |
 
-Used by: [`shaker-interior`](./shaker-interior/SKILL.md), [`arts-and-crafts-interior`](./arts-and-crafts-interior/SKILL.md), [`arts-and-crafts-architecture`](./arts-and-crafts-architecture/SKILL.md), [`critical-regionalism-architecture`](./critical-regionalism-architecture/SKILL.md), [`japandi-interior`](./japandi-interior/SKILL.md).
+Used by: [`shaker-interior`](./shaker-interior/SKILL.md), [`arts-and-crafts-interior`](./arts-and-crafts-interior/SKILL.md), [`arts-and-crafts-architecture`](./arts-and-crafts-architecture/SKILL.md), [`critical-regionalism-architecture`](./critical-regionalism-architecture/SKILL.md), [`japandi-interior`](./japandi-interior/SKILL.md), [`japanese-modern-craft-product`](./japanese-modern-craft-product/SKILL.md), [`contemporary-craft-product`](./contemporary-craft-product/SKILL.md), [`shaker-object`](./shaker-object/SKILL.md), [`arts-and-crafts-object`](./arts-and-crafts-object/SKILL.md).
 
 - Cut the joint in the main wood: a through-tenon of 6 to 12mm shows beyond the face.
 - Peg the joint with a wooden pin of 8 to 12mm; do not hide it with filler or paint.
@@ -1057,13 +1105,14 @@ A page or screen divided into equal columns and rows; each element fits a cell o
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Graphic & UI Design | c. 1958 | — | Zurich: Josef Mueller-Brockmann and the journal Neue Grafik (1958) spread the modular grid for posters and print. | |
-| 1 | Logo | c. 1962 | +4 years | Otl Aicher builds the corporate design of Lufthansa on a fixed grid of marks, type and colour. | [`swiss-modernist-mark`](./swiss-modernist-mark/SKILL.md) |
-| 2 | Graphic & UI Design | 1970 | +12 years | Unimark issues the New York City Transit Graphics Standards Manual, with sign grids for the whole system. | [`swiss-international`](./swiss-international/SKILL.md) |
-| 3 | Graphic & UI Design | 2010 | +52 years | Windows Phone 7 builds its start screen from square and wide live tiles on one grid. | [`metro-ui`](./metro-ui/SKILL.md) |
-| 4 | Graphic & UI Design | 2012 | +54 years | Bootstrap 2.0 ships a 12 column fluid grid for web pages. | [`bento-grid-ui`](./bento-grid-ui/SKILL.md), [`minimalism-web`](./minimalism-web/SKILL.md) |
-| 5 | Graphic & UI Design | c. 2012 | +54 years | Interfaces that follow the Braun products of Dieter Rams put each control in one cell of a strict grid. | [`rams-functionalism-ui`](./rams-functionalism-ui/SKILL.md) |
+| 1 | Industrial design | 1960 | +2 years | Dieter Rams builds the 606 shelving system on a grid of rails that a user extends at will. | [`ulm-braun-functionalism`](./ulm-braun-functionalism/SKILL.md) |
+| 2 | Logo | c. 1962 | +4 years | Otl Aicher builds the corporate design of Lufthansa on a fixed grid of marks, type and colour. | [`swiss-modernist-mark`](./swiss-modernist-mark/SKILL.md) |
+| 3 | Graphic & UI Design | 1970 | +12 years | Unimark issues the New York City Transit Graphics Standards Manual, with sign grids for the whole system. | [`swiss-international`](./swiss-international/SKILL.md) |
+| 4 | Graphic & UI Design | 2010 | +52 years | Windows Phone 7 builds its start screen from square and wide live tiles on one grid. | [`metro-ui`](./metro-ui/SKILL.md) |
+| 5 | Graphic & UI Design | 2012 | +54 years | Bootstrap 2.0 ships a 12 column fluid grid for web pages. | [`bento-grid-ui`](./bento-grid-ui/SKILL.md), [`minimalism-web`](./minimalism-web/SKILL.md) |
+| 6 | Graphic & UI Design | c. 2012 | +54 years | Interfaces that follow the Braun products of Dieter Rams put each control in one cell of a strict grid. | [`rams-functionalism-ui`](./rams-functionalism-ui/SKILL.md) |
 
-Used by: [`swiss-international`](./swiss-international/SKILL.md), [`swiss-modernist-mark`](./swiss-modernist-mark/SKILL.md), [`bento-grid-ui`](./bento-grid-ui/SKILL.md), [`minimalism-web`](./minimalism-web/SKILL.md), [`metro-ui`](./metro-ui/SKILL.md), [`rams-functionalism-ui`](./rams-functionalism-ui/SKILL.md).
+Used by: [`swiss-international`](./swiss-international/SKILL.md), [`swiss-modernist-mark`](./swiss-modernist-mark/SKILL.md), [`bento-grid-ui`](./bento-grid-ui/SKILL.md), [`minimalism-web`](./minimalism-web/SKILL.md), [`metro-ui`](./metro-ui/SKILL.md), [`rams-functionalism-ui`](./rams-functionalism-ui/SKILL.md), [`ulm-braun-functionalism`](./ulm-braun-functionalism/SKILL.md).
 
 - Divide the page into 4 to 12 equal columns with a gutter of 1/10 to 1/5 of a column width.
 - Cut the page into rows of the same module height; align each image and text block to the lines.
@@ -1218,8 +1267,9 @@ A narrow recessed joint between two surfaces that casts a shadow, so that each s
 | 1 | Architecture | 1964 | +6 years | Carlo Scarpa finishes the Castelvecchio in Verona; each new element touches the old fabric along a visible gap. | [`adaptive-reuse-architecture`](./adaptive-reuse-architecture/SKILL.md) |
 | 2 | Interior | c. 1990 | +32 years | John Pawson and Claudio Silvestrin set plaster and doors flush, with recessed joints in place of trim. | [`minimalist-interior`](./minimalist-interior/SKILL.md) |
 | 3 | Architecture | c. 1996 | +38 years | Peter Zumthor and other critical regionalists use the shadow line between materials as their detail. | [`critical-regionalism-architecture`](./critical-regionalism-architecture/SKILL.md) |
+| 4 | Industrial design | 2006 | +48 years | Super Normal products set a narrow recessed gap between the parts of a plain body. | [`super-normal-product`](./super-normal-product/SKILL.md) |
 
-Used by: [`adaptive-reuse-architecture`](./adaptive-reuse-architecture/SKILL.md), [`minimalist-interior`](./minimalist-interior/SKILL.md), [`critical-regionalism-architecture`](./critical-regionalism-architecture/SKILL.md).
+Used by: [`adaptive-reuse-architecture`](./adaptive-reuse-architecture/SKILL.md), [`minimalist-interior`](./minimalist-interior/SKILL.md), [`critical-regionalism-architecture`](./critical-regionalism-architecture/SKILL.md), [`super-normal-product`](./super-normal-product/SKILL.md).
 
 - Cut the gap 10 to 25mm wide and 10 to 20mm deep.
 - Hold the gap at a constant width along its full length.

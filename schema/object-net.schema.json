@@ -1,0 +1,296 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-ontology.dev/schema/object-net.schema.json",
+  "title": "Object net",
+  "description": "The net of objects for one interior style. For each of the eight object categories it names an industrial style and the objects of the category, each with one material, one finish and one texture from data/industrial/vocabulary.json. The moodboard field maps each moodboard tile of the interior style to objects of the net. The validator checks each reference and each knob range.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "interior",
+    "thesis",
+    "knobs",
+    "categories",
+    "moodboard"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "interior": {
+      "$ref": "core.schema.json#/$defs/slug",
+      "description": "The id of the interior style, equal to the file name."
+    },
+    "thesis": {
+      "$ref": "core.schema.json#/$defs/sentence",
+      "description": "The one idea that ties the objects of the room together."
+    },
+    "knobs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ornament_level",
+        "material_warmth",
+        "finish_gloss",
+        "era_blend",
+        "hardware_weight",
+        "edge_radius",
+        "metal_tone"
+      ],
+      "properties": {
+        "ornament_level": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "material_warmth": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "finish_gloss": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "era_blend": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "hardware_weight": {
+          "type": "number",
+          "minimum": 4,
+          "maximum": 40
+        },
+        "edge_radius": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 40
+        },
+        "metal_tone": {
+          "enum": [
+            "chrome",
+            "nickel",
+            "stainless",
+            "brass",
+            "bronze",
+            "copper",
+            "black",
+            "white",
+            "none"
+          ]
+        }
+      },
+      "description": "Values for the seven knobs of domains/industrial.json."
+    },
+    "categories": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "category",
+          "style",
+          "alternates",
+          "objects"
+        ],
+        "properties": {
+          "category": {
+            "enum": [
+              "sanitary",
+              "electrics",
+              "lighting",
+              "storage",
+              "soft-furniture",
+              "tables",
+              "kitchen",
+              "decor"
+            ]
+          },
+          "style": {
+            "$ref": "core.schema.json#/$defs/slug",
+            "description": "The industrial style that rules the category in this room."
+          },
+          "alternates": {
+            "type": "array",
+            "maxItems": 4,
+            "uniqueItems": true,
+            "items": {
+              "$ref": "core.schema.json#/$defs/slug"
+            },
+            "description": "Industrial styles to fall back on, in order, when the knobs leave the range of the main style."
+          },
+          "knobs": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "ornament_level": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "material_warmth": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "finish_gloss": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              },
+              "era_blend": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "hardware_weight": {
+                "type": "number",
+                "minimum": 4,
+                "maximum": 40
+              },
+              "edge_radius": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 40
+              },
+              "metal_tone": {
+                "enum": [
+                  "chrome",
+                  "nickel",
+                  "stainless",
+                  "brass",
+                  "bronze",
+                  "copper",
+                  "black",
+                  "white",
+                  "none"
+                ]
+              }
+            },
+            "description": "Knob values for this category only. Values that are not given come from the net."
+          },
+          "objects": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 7,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "object",
+                "form",
+                "material",
+                "finish",
+                "texture"
+              ],
+              "properties": {
+                "object": {
+                  "$ref": "core.schema.json#/$defs/slug",
+                  "description": "An object id from the vocabulary, in this category."
+                },
+                "form": {
+                  "$ref": "core.schema.json#/$defs/shortText",
+                  "description": "The form of the object."
+                },
+                "material": {
+                  "$ref": "core.schema.json#/$defs/slug"
+                },
+                "finish": {
+                  "$ref": "core.schema.json#/$defs/slug"
+                },
+                "texture": {
+                  "$ref": "core.schema.json#/$defs/slug"
+                },
+                "colour": {
+                  "type": "string",
+                  "pattern": "^#[0-9A-F]{6}$"
+                },
+                "note": {
+                  "$ref": "core.schema.json#/$defs/sentence"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "moodboard": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "room",
+        "materials",
+        "furniture",
+        "textiles",
+        "light",
+        "objects"
+      ],
+      "properties": {
+        "room": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 10,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "core.schema.json#/$defs/slug"
+          },
+          "description": "Object ids of the net that the tile shows."
+        },
+        "materials": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 10,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "core.schema.json#/$defs/slug"
+          },
+          "description": "Object ids of the net that the tile shows."
+        },
+        "furniture": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 10,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "core.schema.json#/$defs/slug"
+          },
+          "description": "Object ids of the net that the tile shows."
+        },
+        "textiles": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 10,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "core.schema.json#/$defs/slug"
+          },
+          "description": "Object ids of the net that the tile shows."
+        },
+        "light": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 10,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "core.schema.json#/$defs/slug"
+          },
+          "description": "Object ids of the net that the tile shows."
+        },
+        "objects": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 10,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "core.schema.json#/$defs/slug"
+          },
+          "description": "Object ids of the net that the tile shows."
+        }
+      },
+      "description": "For each moodboard tile of the interior style (demo/moodboards/interior/manifest.json), the objects of the net that it shows."
+    }
+  }
+}

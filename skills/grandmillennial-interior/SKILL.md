@@ -214,6 +214,61 @@ The rules above name these shared principles by id. The definition is the same i
 ![Light](../../demo/moodboards/interior/grandmillennial-interior/light.webp)
 ![Objects](../../demo/moodboards/interior/grandmillennial-interior/objects.webp)
 
+## Object net
+
+Printed cotton chintz, polished mahogany, cane, glazed blue-and-white porcelain and polished brass fill the room. Pleated shades, skirts and ruffles keep the forms soft and traditional. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.5, material_warmth 0.65, finish_gloss 40, era_blend 0.4, hardware_weight 14, edge_radius 6, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#grandmillennial-interior).
+
+| Category | Object | Form | Material, finish, texture |
+|---|---|---|---|
+| Sanitary ([`victorian-manufacture`](../victorian-manufacture/SKILL.md)) | Bath | roll-top on claw feet | Cast iron, gloss enamel, cast relief ornament (#F3EBDD) |
+|  | Basin | pedestal basin | Porcelain, vitreous gloss glaze, mirror-smooth (#F3EBDD) |
+|  | Basin tap or mixer | cross-head pillar taps | Solid brass, polished, mirror-smooth |
+|  | WC | high-level cistern with pull chain | Fireclay, vitreous gloss glaze, mirror-smooth (#F3EBDD) |
+| Electrics ([`victorian-manufacture`](../victorian-manufacture/SKILL.md)) | Light switch | dolly toggle on a square plate | Porcelain, vitreous gloss glaze, mirror-smooth (#F3EBDD) |
+|  | Socket outlet | flush square plate | Porcelain, vitreous gloss glaze, mirror-smooth (#F3EBDD) |
+|  | Visible cable and conduit | fabric-braided cord in a loop | Cotton, piece-dyed, plain weave (#F3EBDD) |
+| Lighting ([`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md)) | Table lamp | ginger-jar base with a drum shade | Porcelain, vitreous gloss glaze, mirror-smooth (#2F4F8A) |
+|  | Floor lamp | standard lamp with a pleated shade | Silk, piece-dyed, plain weave (#E3A6A4) |
+|  | Curtain pole | thick turned pole with ball finials | Solid brass, polished, mirror-smooth |
+|  | Curtain track and blind | Roman blind | Cotton, printed, plain weave (#E3A6A4) |
+| Storage ([`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md)) | Chest of drawers | bow-front chest on bracket feet | Mahogany, french polish, figured grain (#6B3F2A) |
+|  | Sideboard and cabinet | dresser with an open plate rack | Mahogany, french polish, figured grain (#6B3F2A) |
+|  | Handle, knob and pull | drop pull on a backplate | Solid brass, polished, cast relief ornament |
+| Soft Furniture ([`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)) | Sofa | Chesterfield with rolled arms | Cotton, printed, twill or herringbone (#E3A6A4) |
+|  | Armchair and lounge chair | spindle-back armchair | Cane, natural, undyed, woven cane (#C6A273) |
+|  | Ottoman and pouf | footstool on turned legs | Wool, printed, plain weave (#2F4F8A) |
+|  | Cushion and throw | square with piping | Cotton, printed, twill or herringbone (#7A9A5B) |
+| Tables ([`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md)) | Dining table | extending table with leaves | Mahogany, french polish, figured grain (#6B3F2A) |
+|  | Side table | tripod | Mahogany, french polish, fine close grain (#6B3F2A) |
+|  | Console table | demilune half-round | Mahogany, french polish, figured grain (#6B3F2A) |
+|  | Dining chair | spindle-back Windsor chair | Mahogany, french polish, figured grain (#6B3F2A) |
+| Kitchen ([`victorian-manufacture`](../victorian-manufacture/SKILL.md)) | Kitchen front | Shaker frame-and-panel door | Oak, eggshell paint, fine close grain (#7A9A5B) |
+|  | Kitchen sink and tap | fireclay butler sink with an apron front | Fireclay, vitreous gloss glaze, mirror-smooth (#F3EBDD) |
+|  | Tableware and glassware | patterned transfer-printed plates | Porcelain, vitreous gloss glaze, mirror-smooth (#2F4F8A) |
+|  | Cookware | enamelled cast-iron casserole | Cast iron, gloss enamel, mirror-smooth (#E0745B) |
+| Decor ([`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md)) | Vase | ginger jar | Porcelain, vitreous gloss glaze, crackle glaze (#2F4F8A) |
+|  | Picture frame | gilt swept frame | Mahogany, gilded, fine close grain |
+|  | Mirror | gilt overmantel mirror | Mirror glass, gilded, mirror-smooth |
+|  | Rug | hand-knotted oriental rug | Wool, piece-dyed, knotted pile (#C6A273) |
+
+Alternates for each category:
+- **Sanitary:** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)
+- **Electrics:** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md)
+- **Lighting:** [`victorian-manufacture`](../victorian-manufacture/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)
+- **Storage:** [`victorian-manufacture`](../victorian-manufacture/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)
+- **Soft Furniture:** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`victorian-manufacture`](../victorian-manufacture/SKILL.md)
+- **Tables:** [`victorian-manufacture`](../victorian-manufacture/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)
+- **Kitchen:** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)
+- **Decor:** [`victorian-manufacture`](../victorian-manufacture/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)
+
+The moodboard tiles resolve to these objects:
+- **room:** Sofa, Armchair and lounge chair, Side table, Table lamp, Mirror, Picture frame, Curtain track and blind, Rug, Vase
+- **materials:** Sofa, Armchair and lounge chair, Side table, Table lamp, Cushion and throw, Handle, knob and pull, Curtain pole
+- **furniture:** Sofa, Armchair and lounge chair, Ottoman and pouf, Side table, Chest of drawers, Sideboard and cabinet, Dining chair
+- **textiles:** Sofa, Cushion and throw, Ottoman and pouf, Curtain track and blind, Rug, Curtain pole
+- **light:** Table lamp, Floor lamp, Curtain pole, Curtain track and blind
+- **objects:** Vase, Picture frame, Mirror, Tableware and glassware, Rug
+
 ## Vocabulary primer
 
 Use these terms in a brief, an image prompt or a 3D scene description.

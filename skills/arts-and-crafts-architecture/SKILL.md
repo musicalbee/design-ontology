@@ -214,7 +214,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`gothic-architecture`](../gothic-architecture/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`neoclassical-architecture`](../neoclassical-architecture/SKILL.md)
-- **Kin in another domain:** [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md)
+- **Kin in another domain:** [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)
 - **Nearest by vector profile:** [`organic-architecture`](../organic-architecture/SKILL.md), [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md), [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md)
 
 ## Emotional target

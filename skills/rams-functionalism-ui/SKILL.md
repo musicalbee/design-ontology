@@ -280,7 +280,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`bauhaus`](../bauhaus/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
 - **Led to (go here for a newer version):** [`cassette-futurism`](../cassette-futurism/SKILL.md)
 - **Mixes well with:** [`flat-design`](../flat-design/SKILL.md)
-- **Kin in another domain:** [`international-style-architecture`](../international-style-architecture/SKILL.md), [`minimal-wordmark`](../minimal-wordmark/SKILL.md), [`minimalism-painting`](../minimalism-painting/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md), [`outline-icon`](../outline-icon/SKILL.md)
+- **Kin in another domain:** [`international-style-architecture`](../international-style-architecture/SKILL.md), [`minimal-wordmark`](../minimal-wordmark/SKILL.md), [`minimalism-painting`](../minimalism-painting/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md), [`outline-icon`](../outline-icon/SKILL.md), [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md)
 - **Nearest by vector profile:** [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
 
 ## Emotional target

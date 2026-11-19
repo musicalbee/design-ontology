@@ -223,6 +223,61 @@ The rules above name these shared principles by id. The definition is the same i
 ![Light](../../demo/moodboards/interior/quiet-luxury-interior/light.webp)
 ![Objects](../../demo/moodboards/interior/quiet-luxury-interior/objects.webp)
 
+## Object net
+
+Honed travertine, oiled walnut, bouclé wool and limewash plaster make a tonal room in cream, taupe and chocolate. Brushed brass is the only metal, and no logo shows. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.1, material_warmth 0.8, finish_gloss 10, era_blend 0.8, hardware_weight 14, edge_radius 14, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#quiet-luxury-interior).
+
+| Category | Object | Form | Material, finish, texture |
+|---|---|---|---|
+| Sanitary ([`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)) | Basin | vessel bowl on a counter | Travertine, honed, porous or pitted (#D6CBB8) |
+|  | Basin tap or mixer | wall-mounted spout | Solid brass, brushed, brush lines (#B39A6B) |
+|  | Towel rail | single bar | Solid brass, brushed, brush lines (#B39A6B) |
+|  | Bath accessories | shelf-top vessels | Stoneware, matte glaze, speckled clay (#EFE8DC) |
+| Electrics ([`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)) | Light switch | slim flat-plate rocker | Solid brass, brushed, satin-smooth (#B39A6B) |
+|  | Socket outlet | screwless flat plate | Solid brass, brushed, brush lines (#B39A6B) |
+|  | Dimmer and control | large knurled rotary knob | Solid brass, brushed, knurled (#B39A6B) |
+| Lighting ([`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)) | Table lamp | ginger-jar base with a drum shade | Stoneware, matte glaze, speckled clay (#D6CBB8) |
+|  | Wall sconce | half-cylinder uplighter | Plaster, matte paint, trowelled (#EFE8DC) |
+|  | Floor lamp | arc lamp on a stone base | Travertine, honed, porous or pitted (#D6CBB8) |
+|  | Curtain track and blind | ceiling-recessed track | Linen, piece-dyed, slub weave (#EFE8DC) |
+| Storage ([`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)) | Sideboard and cabinet | box on a recessed plinth | Walnut, oiled, fine close grain (#6B4A33) |
+|  | Wardrobe and tall cabinet | flush built-in wall | Walnut, oiled, fine close grain (#6B4A33) |
+|  | Handle, knob and pull | bar pull on two posts | Solid brass, brushed, brush lines (#B39A6B) |
+| Soft Furniture ([`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)) | Sofa | low modular block sofa | Bouclé, piece-dyed, bouclé loops (#EFE8DC) |
+|  | Armchair and lounge chair | barrel chair | Wool, piece-dyed, twill or herringbone (#A39382) |
+|  | Ottoman and pouf | round pouf | Leather, aniline dyed, grain leather (#4E3B2F) |
+|  | Cushion and throw | knife-edge square | Wool, piece-dyed, twill or herringbone (#D6CBB8) |
+| Tables ([`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)) | Low table | round drum in stone | Travertine, honed, porous or pitted (#D6CBB8) |
+|  | Side table | pedestal side table | Walnut, oiled, fine close grain (#6B4A33) |
+|  | Dining table | round table on a central column | Walnut, oiled, fine close grain (#6B4A33) |
+|  | Dining chair | upholstered parsons chair | Wool, piece-dyed, plain weave (#D6CBB8) |
+| Kitchen ([`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)) | Kitchen front | flat slab door | Walnut, oiled, fine close grain (#6B4A33) |
+|  | Worktop and splashback | thick mitred stone slab | Limestone, honed, veined (#D6CBB8) |
+|  | Cooker hood and range | plastered chimney hood | Plaster, matte paint, trowelled (#EFE8DC) |
+|  | Kitchen sink and tap | gooseneck mixer | Solid brass, brushed, brush lines (#B39A6B) |
+| Decor ([`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)) | Vase | amphora | Travertine, honed, porous or pitted (#D6CBB8) |
+|  | Picture frame | wide flat-profile frame | Walnut, oiled, fine close grain (#6B4A33) |
+|  | Bowl, tray and box | stone dish | Travertine, honed, veined (#D6CBB8) |
+|  | Candle holder and lantern | candlestick pair | Bronze, patinated, cast relief ornament (#6B4A33) |
+
+Alternates for each category:
+- **Sanitary:** [`art-deco-product`](../art-deco-product/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
+- **Electrics:** [`art-deco-product`](../art-deco-product/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)
+- **Lighting:** [`art-deco-product`](../art-deco-product/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
+- **Storage:** [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
+- **Soft Furniture:** [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md)
+- **Tables:** [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md)
+- **Kitchen:** [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)
+- **Decor:** [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md)
+
+The moodboard tiles resolve to these objects:
+- **room:** Sofa, Low table, Armchair and lounge chair, Table lamp, Wall sconce, Picture frame, Curtain track and blind
+- **materials:** Low table, Sideboard and cabinet, Sofa, Light switch, Curtain track and blind, Wall sconce
+- **furniture:** Sofa, Armchair and lounge chair, Low table, Side table, Ottoman and pouf, Dining chair
+- **textiles:** Sofa, Armchair and lounge chair, Cushion and throw, Ottoman and pouf, Curtain track and blind
+- **light:** Table lamp, Wall sconce, Floor lamp, Curtain track and blind
+- **objects:** Vase, Picture frame, Bowl, tray and box, Candle holder and lantern
+
 ## Vocabulary primer
 
 Use these terms in a brief, an image prompt or a 3D scene description.
@@ -277,7 +332,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`japandi-interior`](../japandi-interior/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`dopamine-decor`](../dopamine-decor/SKILL.md)
 - **Mixes well with:** [`neo-deco-interior`](../neo-deco-interior/SKILL.md)
-- **Kin in another domain:** [`fashion-editorial`](../fashion-editorial/SKILL.md), [`luxury-typography-web`](../luxury-typography-web/SKILL.md)
+- **Kin in another domain:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`fashion-editorial`](../fashion-editorial/SKILL.md), [`luxury-typography-web`](../luxury-typography-web/SKILL.md)
 - **Nearest by vector profile:** [`scandinavian-interior`](../scandinavian-interior/SKILL.md), [`georgian-interior`](../georgian-interior/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md)
 
 ## Emotional target

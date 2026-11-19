@@ -1,0 +1,458 @@
+{
+  "$schema": "../../../schema/domains/industrial.schema.json",
+  "id": "scandinavian-modern-product",
+  "domain": "industrial",
+  "name": "Scandinavian modern product",
+  "aliases": [
+    "Danish modern",
+    "Nordic functionalism",
+    "Swedish Grace to Scandinavian modern"
+  ],
+  "era_id": "machine-modern",
+  "time_period": {
+    "start": 1930,
+    "end": 1975,
+    "label": "1930–1975"
+  },
+  "region": "Denmark, Sweden, Finland and Norway",
+  "summary": "Everyday objects of bent birch, teak, oak and wool from the Nordic workshops: low, soft in outline and made for use. Craft joints are kept, and makers sell to ordinary homes.",
+  "philosophy": {
+    "core_thesis": "A good object is a plain tool for a person: it is made of local wood and wool, shaped to the hand and the body, and built to last for decades.",
+    "design_principles": [
+      "Use solid wood or bent plywood in its own colour: birch, beech, oak, ash or teak, with an oiled or soaped surface.",
+      "Round each edge that a hand or an arm touches to a radius of 4 to 15 mm.",
+      "Cut each joint by hand or machine to a fine fit, and show it where it carries load.",
+      "Shape each seat and arm to the body, with a curve in at least one plane.",
+      "Keep ornament to one detail: a grain pattern, a woven seat or a brass part.",
+      "Use wool, linen or leather in undyed or muted colours for the soft parts.",
+      "Make glass lamp shades in 2 or 3 layers so that no bulb is in direct view.",
+      "Draw each object for series production in a small workshop, and offer it at a price that a family can pay."
+    ],
+    "anti_patterns": [
+      "Chrome tube and glossy plastic",
+      "Heavy carved ornament and turned spindles",
+      "Dark stained mahogany",
+      "Hard sharp edges on parts that a person touches",
+      "Saturated primary colours on large surfaces",
+      "Veneer that hides a weak core"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "hand_finish": 4,
+    "material_warmth": 5,
+    "visual_mass": 3,
+    "chromatic_intensity": 2
+  },
+  "form": {
+    "geometry": "Soft rectangles, long curves and tapered legs; the plane of a seat or a top is clear, and each leg is thinner at the foot.",
+    "silhouette": "A low, light outline: a thin top on slim, splayed or tapered legs, with air under the body.",
+    "edges": "Rounded edges with a radius of 4 to 15 mm on all parts that touch the body; a tapered leg ends in a small chamfer.",
+    "proportion": "A dining chair seat is 45 cm high; a sideboard is 70 to 80 cm high and 150 to 200 cm long, on legs of 15 to 25 cm.",
+    "ornament": "Almost none. Detail comes from the grain, the joint, a woven cord seat or a brass sleeve on a leg.",
+    "rules": [
+      "Each leg or arm tapers by 20% to 40% from top to foot.",
+      "Each wood part is solid or laminated wood in one species; the object has at most 2 species.",
+      "A visible joint is a finger joint, a through tenon or a dowel.",
+      "A lamp shade has 2 or 3 layers that hide the light source.",
+      "A coloured part covers less than 15% of the object."
+    ]
+  },
+  "materials": {
+    "primary": [
+      "birch-plywood",
+      "teak",
+      "oak",
+      "beech",
+      "ash",
+      "wool"
+    ],
+    "secondary": [
+      "walnut",
+      "pine",
+      "linen",
+      "cotton",
+      "leather",
+      "cane",
+      "stoneware",
+      "porcelain",
+      "opal-glass",
+      "clear-glass",
+      "solid-brass",
+      "stainless-steel",
+      "aluminium",
+      "enamelled-steel",
+      "silver-plate",
+      "chrome-plated-steel"
+    ],
+    "avoid": [
+      "mahogany",
+      "velvet",
+      "cast-iron",
+      "pvc",
+      "coloured-glass"
+    ],
+    "rule": "Wood and wool make about 70% of the visible surface; metal and glass are small, bright parts."
+  },
+  "finish": {
+    "finishes": [
+      "oiled",
+      "soaped",
+      "lacquered",
+      "natural-fibre",
+      "brushed",
+      "clear-gloss",
+      "matte-glaze",
+      "acid-etched"
+    ],
+    "textures": [
+      "open-grain",
+      "fine-grain",
+      "satin-smooth",
+      "plain-weave",
+      "speckled-clay",
+      "brush-line",
+      "etched"
+    ],
+    "gloss": "3–15 GU on wood; 60–90 GU on glass and metal parts",
+    "patina": "The style welcomes wear: oiled wood darkens, teak turns honey brown, and a worn arm or seat is a sign of use."
+  },
+  "hardware": {
+    "metal_tone": "brass",
+    "section": "Stems and legs of metal 10–16 mm; wooden legs 30–45 mm at the top",
+    "joints": "Finger joints, through tenons and dowels, cut to a fine fit and left in view.",
+    "handles": "A cut-out grip in the door, a turned wood knob of 25 to 35 mm, or a slim brass or leather pull.",
+    "switches_and_taps": "A white or wooden rocker switch; a single-lever tap with a straight steel spout."
+  },
+  "palette": {
+    "strategy": "The colour of the wood and the wool, with white, grey and one muted accent of red, blue or green.",
+    "colours": [
+      {
+        "name": "Birch",
+        "hex": "#E3C99B",
+        "role": "plywood, seat frame"
+      },
+      {
+        "name": "Teak brown",
+        "hex": "#9C6B3E",
+        "role": "sideboard, table top"
+      },
+      {
+        "name": "Oatmeal",
+        "hex": "#D9CDB8",
+        "role": "wool and linen cover"
+      },
+      {
+        "name": "Chalk white",
+        "hex": "#F1EEE6",
+        "role": "opal glass, wall"
+      },
+      {
+        "name": "Slate blue",
+        "hex": "#5B7083",
+        "role": "accent cushion"
+      },
+      {
+        "name": "Brass",
+        "hex": "#B38A3F",
+        "role": "fitting, sleeve"
+      }
+    ]
+  },
+  "manufacture": {
+    "processes": [
+      "steam bending of solid wood",
+      "lamination and moulding of birch veneer",
+      "hand joinery",
+      "oil and soap finishing",
+      "hand weaving of paper cord and wool"
+    ],
+    "scale": "Small series of a few hundred to a few thousand pieces from cabinetmaker workshops and a few furniture firms, many for export.",
+    "signs": "Fine joints, a paper cord seat, a tapered leg, a brass sleeve, and a maker's brand burnt into the wood."
+  },
+  "signatures": {
+    "objects": [
+      {
+        "category": "sanitary",
+        "object": "mixer-tap",
+        "form": "single lever with a straight spout",
+        "material": "stainless-steel",
+        "finish": "brushed",
+        "texture": "brush-line"
+      },
+      {
+        "category": "electrics",
+        "object": "light-switch",
+        "form": "small rocker plate of solid oak",
+        "material": "oak",
+        "finish": "oiled",
+        "texture": "fine-grain"
+      },
+      {
+        "category": "lighting",
+        "object": "pendant-lamp",
+        "form": "three concentric shades of opal glass",
+        "material": "opal-glass",
+        "finish": "acid-etched",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "storage",
+        "object": "sideboard",
+        "form": "long low unit with tambour doors on tapered legs",
+        "material": "teak",
+        "finish": "oiled",
+        "texture": "open-grain"
+      },
+      {
+        "category": "soft-furniture",
+        "object": "armchair",
+        "form": "bent birch frame with a wool seat",
+        "material": "birch-plywood",
+        "finish": "lacquered",
+        "texture": "fine-grain"
+      },
+      {
+        "category": "tables",
+        "object": "dining-chair",
+        "form": "steam-bent frame with a paper cord seat",
+        "material": "ash",
+        "finish": "soaped",
+        "texture": "open-grain"
+      },
+      {
+        "category": "kitchen",
+        "object": "tableware",
+        "form": "bowls and cups of stoneware that stack",
+        "material": "stoneware",
+        "finish": "matte-glaze",
+        "texture": "speckled-clay"
+      },
+      {
+        "category": "decor",
+        "object": "vase",
+        "form": "free-form blown vase",
+        "material": "clear-glass",
+        "finish": "clear-gloss",
+        "texture": "mirror-smooth"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Scandinavian mid-century object design",
+      "bent birch and oiled teak",
+      "tapered legs and rounded edges",
+      "paper cord seat",
+      "wool upholstery in oatmeal",
+      "layered opal glass pendant shade",
+      "fine hand-cut joints",
+      "small brass details",
+      "soft daylight, pale wall",
+      "studio product photograph"
+    ],
+    "negative": [
+      "chrome tube",
+      "glossy plastic",
+      "carved ornament",
+      "dark mahogany",
+      "saturated primary colours",
+      "aged brass patina"
+    ],
+    "canonical_works": [
+      {
+        "work": "Paimio chair",
+        "maker": "Alvar Aalto",
+        "year": 1932
+      },
+      {
+        "work": "PH lamp",
+        "maker": "Poul Henningsen",
+        "year": 1926
+      },
+      {
+        "work": "The Chair (JH501)",
+        "maker": "Hans Wegner",
+        "year": 1949
+      },
+      {
+        "work": "Wishbone chair (CH24)",
+        "maker": "Hans Wegner",
+        "year": 1950
+      },
+      {
+        "work": "Egg chair",
+        "maker": "Arne Jacobsen",
+        "year": 1958
+      },
+      {
+        "work": "Series 7 chair",
+        "maker": "Arne Jacobsen",
+        "year": 1955
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Paimio armchair",
+      "kind": "image",
+      "maker": "Alvar Aalto",
+      "year": 1932,
+      "credit": "14GTR",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Paimio_armchair_by_Alvar_Aalto_01.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Paimio_armchair_by_Alvar_Aalto_01.jpg/960px-Paimio_armchair_by_Alvar_Aalto_01.jpg"
+    },
+    {
+      "title": "Wishbone chair",
+      "kind": "image",
+      "maker": "Hans Wegner",
+      "year": 1950,
+      "credit": "Ew3234",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Leather_Wishbone_Chair.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Leather_Wishbone_Chair.jpg/960px-Leather_Wishbone_Chair.jpg"
+    },
+    {
+      "title": "PH5 pendant lamp",
+      "kind": "image",
+      "maker": "Poul Henningsen",
+      "year": 1958,
+      "credit": "Richard Huber",
+      "licence": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Louis_Poulsen_PH5_Poul_Hennigsen.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Louis_Poulsen_PH5_Poul_Hennigsen.jpg/960px-Louis_Poulsen_PH5_Poul_Hennigsen.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "bauhaus-product",
+      "arts-and-crafts-object"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "shaker-object"
+    ],
+    "echoes": [
+      "scandinavian-interior",
+      "nordic-modernism-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Quiet comfort: the object feels friendly, warm to the hand and made with care for a home.",
+    "keywords": [
+      "warm",
+      "humane",
+      "calm",
+      "honest",
+      "light",
+      "crafted"
+    ],
+    "brand_archetypes": [
+      "caregiver",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "scandinavian furniture",
+      "danish modern",
+      "bent birch chair",
+      "teak sideboard",
+      "paper cord seat",
+      "nordic design object",
+      "wishbone chair",
+      "1950s danish design"
+    ],
+    "use_cases": [
+      "furniture and lamps for a warm modern home",
+      "a hardware and surface schedule for a Nordic flat",
+      "a still life of wood, wool and glass",
+      "product briefs for a reissue of a mid-century classic"
+    ],
+    "avoid_when": [
+      "The brief asks for chrome, glass and a cold, technical room.",
+      "The brief asks for bold colour or ornament."
+    ],
+    "modifiers": [
+      {
+        "request": "colder and more technical",
+        "toward": "ulm-braun-functionalism",
+        "how": "Swap oiled wood for white and grey plastic and brushed aluminium, and put a grid on every front."
+      },
+      {
+        "request": "more colour and plastic",
+        "toward": "mid-century-modern-product",
+        "how": "Keep the slim legs, but use moulded fibreglass shells and bright wool and enamel colours."
+      },
+      {
+        "request": "more craft and handwork",
+        "toward": "japanese-modern-craft-product",
+        "how": "Use bamboo, washi paper and hand-thrown clay, and leave the marks of the hand in view."
+      }
+    ]
+  },
+  "permutations": {
+    "ornament_level": {
+      "default": 0.05,
+      "min": 0,
+      "max": 0.2,
+      "note": "A woven seat or a brass sleeve is the most that the style allows."
+    },
+    "material_warmth": {
+      "default": 0.8,
+      "min": 0.55,
+      "max": 1
+    },
+    "finish_gloss": {
+      "default": 15,
+      "min": 3,
+      "max": 70
+    },
+    "era_blend": {
+      "default": 0.3,
+      "min": 0,
+      "max": 1,
+      "note": "A contemporary object may keep the joint and the taper and change the proportion."
+    },
+    "hardware_weight": {
+      "default": 14,
+      "min": 6,
+      "max": 30
+    },
+    "edge_radius": {
+      "default": 8,
+      "min": 2,
+      "max": 25
+    },
+    "metal_tone": {
+      "default": "brass",
+      "options": [
+        "brass",
+        "stainless",
+        "chrome",
+        "nickel",
+        "black",
+        "none"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Scandinavian design",
+      "url": "https://en.wikipedia.org/wiki/Scandinavian_design"
+    },
+    {
+      "title": "Wikipedia: Danish modern",
+      "url": "https://en.wikipedia.org/wiki/Danish_modern"
+    },
+    {
+      "title": "Wikipedia: Paimio chair",
+      "url": "https://en.wikipedia.org/wiki/Paimio_chair"
+    },
+    {
+      "title": "Wikipedia: PH lamp",
+      "url": "https://en.wikipedia.org/wiki/PH_lamp"
+    }
+  ]
+}

@@ -11,6 +11,7 @@ import { join } from "node:path";
 import { RECIPE_NAMES } from "./pack.js";
 import { GROUND_KINDS } from "./ground.js";
 import { RULES, gate, curate, type Rule } from "./curation.js";
+import { checkIndustrialStyle, checkNet, checkVocabulary, loadNetContext, loadNets, type IndustrialStyle } from "./net.js";
 import { ROOT, loadDomains, loadEras, loadMedia, loadPeople, loadPrinciples, loadStyleFiles, loadTechniques, principleRefs, readJson, type Style } from "./lib.js";
 
 const schemaOnly = process.argv.includes("--schema-only");
@@ -194,6 +195,24 @@ if (!schemaOnly && errors.length === 0) {
   }
 }
 
+// The industrial vocabulary and the object nets: one schema each, then every id, family and knob range.
+const validateVocabulary = ajv.compile(readJson<object>(join(ROOT, "schema", "industrial-vocabulary.schema.json")));
+const validateNet = ajv.compile(readJson<object>(join(ROOT, "schema", "object-net.schema.json")));
+const nets = loadNets();
+if (domains.some((d) => d.id === "industrial")) {
+  const vocabulary = readJson<unknown>(join(ROOT, "data", "industrial", "vocabulary.json"));
+  if (!validateVocabulary(vocabulary)) for (const e of validateVocabulary.errors ?? []) errors.push(`data/industrial/vocabulary.json: ${e.instancePath || "/"} ${e.message}`);
+  for (const { file, net } of nets) if (!validateNet(net)) for (const e of validateNet.errors ?? []) errors.push(`${file}: ${e.instancePath || "/"} ${e.message}`);
+  if (!schemaOnly && errors.length === 0) {
+    const ctx = loadNetContext();
+    errors.push(...checkVocabulary(ctx.L));
+    for (const s of ctx.industrial.values())
+      for (const e of checkIndustrialStyle(ctx.L, s as IndustrialStyle)) errors.push(`data/industrial/styles/${s.id}.json: ${e}`);
+    for (const { file, slug, net } of nets) for (const e of checkNet(ctx, slug, net)) errors.push(`${file}: ${e}`);
+    for (const id of ctx.interiors.keys()) if (!nets.some((n) => n.slug === id)) errors.push(`data/industrial/nets/${id}.json: the interior style "${id}" has no object net`);
+  }
+}
+
 // The people layer: one schema, ids equal to file names, style references that resolve, years in order.
 const validatePerson = ajv.compile(readJson<object>(join(ROOT, "schema", "person.schema.json")));
 const people = loadPeople();
@@ -266,6 +285,6 @@ for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`error ${e}`);
 console.log(
   `${count} styles in ${domains.length} domains · ${principles.length} principles · ${techniques.length} techniques · ${people.length} people · ${errors.length} errors · ${warnings.length} warnings` +
-    ` · ${media.length} media` + curation + (schemaOnly ? " · schema only" : ""),
+    ` · ${media.length} media · ${nets.length} object nets` + curation + (schemaOnly ? " · schema only" : ""),
 );
 process.exit(errors.length ? 1 : 0);

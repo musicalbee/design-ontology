@@ -1,0 +1,428 @@
+{
+  "$schema": "../../../schema/domains/industrial.schema.json",
+  "id": "art-deco-product",
+  "domain": "industrial",
+  "name": "Art Deco product",
+  "aliases": [
+    "Art Deco object",
+    "Style Moderne object",
+    "Jazz Age object"
+  ],
+  "era_id": "machine-modern",
+  "time_period": {
+    "start": 1925,
+    "end": 1940,
+    "label": "1925–1940"
+  },
+  "region": "Paris, London and New York",
+  "summary": "Rich, geometric objects of the jazz age: stepped forms, fans and sunbursts in chrome, ebony, lacquer, mirror and Bakelite, made by hand and by machine for a city luxury.",
+  "philosophy": {
+    "core_thesis": "Luxury can be geometric: a rare material, a precise machine line and a bold pattern make an object that looks rich and modern.",
+    "design_principles": [
+      "Build each form from stepped tiers, a fan, a sunburst or a chevron; repeat it three to five times.",
+      "Use rare, dark wood such as Macassar ebony and rosewood with a high French polish.",
+      "Pair a dark ground with a bright metal: chrome, nickel or gilt brass on ebony, black glass or lacquer.",
+      "Cut glass and mirror in facets; etch or frost glass in a geometric pattern.",
+      "Keep the outline symmetrical about a vertical axis, with a strong base and a stepped top.",
+      "Use Bakelite and other new plastics for knobs and cases, moulded in a sharp, faceted form.",
+      "Set each pattern in a rhythm of 3 to 5 equal parts, and make each surface a mirror or a deep gloss."
+    ],
+    "anti_patterns": [
+      "Soft, curved plant motifs",
+      "Rough, hand-hewn timber and visible tool marks",
+      "Plain white, bare steel with no pattern",
+      "Rattan, wicker and natural fibre",
+      "Faded, distressed surfaces",
+      "Plastic that looks cheap, in a toy colour"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "hand_finish": 3,
+    "material_warmth": 3,
+    "visual_mass": 4,
+    "chromatic_intensity": 3
+  },
+  "form": {
+    "geometry": "Stepped pyramids, fans, sunbursts, chevrons and zigzags, built on a strict symmetrical axis.",
+    "silhouette": "A stepped, symmetrical outline with a wide base and a narrow top, like a skyscraper in small scale.",
+    "edges": "Crisp, faceted edges and bevels with a radius of 0 to 3 mm; a few large rounded corners of 20 to 50 mm on a case.",
+    "proportion": "A sideboard is about 1.8 times wider than high; a table lamp is about 40 cm high, with a base and a shade of equal width.",
+    "ornament": "Geometric inlay, fluting, sunburst and chevron; it covers 15 to 40% of the surface and repeats in 3 to 5 steps.",
+    "rules": [
+      "Each object is symmetrical about one vertical axis.",
+      "A stepped form has 3 to 5 tiers, and each tier is about 60 to 80% of the width of the tier below it.",
+      "A pattern repeats in equal parts: a fan has 5 to 9 rays.",
+      "A dark ground and a bright metal meet at a sharp line.",
+      "Surfaces are polished to a mirror or a deep gloss."
+    ]
+  },
+  "materials": {
+    "primary": [
+      "chrome-plated-brass",
+      "macassar-ebony",
+      "mirror-glass",
+      "bakelite",
+      "rosewood"
+    ],
+    "secondary": [
+      "nickel-plated-brass",
+      "solid-brass",
+      "bronze",
+      "silver-plate",
+      "walnut",
+      "marble",
+      "frosted-glass",
+      "pressed-glass",
+      "opal-glass",
+      "coloured-glass",
+      "velvet",
+      "mohair",
+      "leather",
+      "wool",
+      "porcelain",
+      "aluminium",
+      "clear-glass"
+    ],
+    "avoid": [
+      "pine",
+      "rattan",
+      "wicker",
+      "jute",
+      "terracotta",
+      "concrete",
+      "cork"
+    ],
+    "rule": "Dark wood, glass and metal share the surface in about equal parts; textile is a rich, dense pile."
+  },
+  "finish": {
+    "finishes": [
+      "french-polished",
+      "polished",
+      "silvered",
+      "clear-gloss",
+      "gilded",
+      "acid-etched",
+      "moulded-gloss",
+      "lustre-pile"
+    ],
+    "textures": [
+      "mirror-smooth",
+      "figured-grain",
+      "fluted",
+      "etched",
+      "pressed-pattern",
+      "pile",
+      "cast-relief"
+    ],
+    "gloss": "80–100 GU on wood, lacquer and metal",
+    "patina": "The style wants a new, deep shine; a worn or dull surface loses the effect."
+  },
+  "hardware": {
+    "metal_tone": "chrome",
+    "section": "Rods and stems 10–20 mm, handles 12–25 mm, base discs 60–120 mm",
+    "joints": "Fine, tight joints; a polished metal band or a flush mount hides each seam, and a screw head is flush or covered.",
+    "handles": "A stepped bar, a ring or a faceted knob in chrome, ebony or Bakelite, with a section of 12 to 25 mm.",
+    "switches_and_taps": "A faceted or stepped Bakelite push button; a tap with a ribbed, faceted or stepped lever in chrome."
+  },
+  "palette": {
+    "strategy": "A dark, rich ground with a bright metal and one jewel colour: black, ebony brown, chrome, gold, with jade or ruby.",
+    "colours": [
+      {
+        "name": "Ebony black",
+        "hex": "#1B1713",
+        "role": "wood, lacquer, glass"
+      },
+      {
+        "name": "Chrome",
+        "hex": "#CDD1D4",
+        "role": "metal, trim"
+      },
+      {
+        "name": "Gilt gold",
+        "hex": "#C9A24A",
+        "role": "inlay, gilding"
+      },
+      {
+        "name": "Macassar brown",
+        "hex": "#5A3A26",
+        "role": "veneer"
+      },
+      {
+        "name": "Jade",
+        "hex": "#2F7F67",
+        "role": "glass, lacquer, accent"
+      },
+      {
+        "name": "Ruby",
+        "hex": "#8E1F2D",
+        "role": "upholstery, accent"
+      }
+    ]
+  },
+  "manufacture": {
+    "processes": [
+      "veneer and marquetry",
+      "chrome plating",
+      "mirror silvering and bevelling",
+      "Bakelite compression moulding",
+      "acid etching of glass"
+    ],
+    "scale": "Luxury workshops made single pieces and small series; large firms made the same forms in machine series for the shop and the home.",
+    "signs": "Tight veneer matches in a mirror image, sharp bevels, a chrome band at each edge and a mould parting line that is polished away."
+  },
+  "signatures": {
+    "objects": [
+      {
+        "category": "sanitary",
+        "object": "mixer-tap",
+        "form": "three-hole bridge mixer",
+        "material": "chrome-plated-brass",
+        "finish": "polished",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "electrics",
+        "object": "light-switch",
+        "form": "push button pair",
+        "material": "bakelite",
+        "finish": "moulded-gloss",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "lighting",
+        "object": "wall-sconce",
+        "form": "fan or shell in frosted glass",
+        "material": "frosted-glass",
+        "finish": "acid-etched",
+        "texture": "etched"
+      },
+      {
+        "category": "storage",
+        "object": "sideboard",
+        "form": "breakfront with a raised centre",
+        "material": "macassar-ebony",
+        "finish": "french-polished",
+        "texture": "figured-grain"
+      },
+      {
+        "category": "soft-furniture",
+        "object": "armchair",
+        "form": "club chair",
+        "material": "mohair",
+        "finish": "lustre-pile",
+        "texture": "pile"
+      },
+      {
+        "category": "tables",
+        "object": "coffee-table",
+        "form": "glass top on a sculptural base",
+        "material": "mirror-glass",
+        "finish": "silvered",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "kitchen",
+        "object": "tableware",
+        "form": "cut-crystal glasses",
+        "material": "pressed-glass",
+        "finish": "clear-gloss",
+        "texture": "pressed-pattern"
+      },
+      {
+        "category": "decor",
+        "object": "mirror",
+        "form": "sunburst mirror",
+        "material": "solid-brass",
+        "finish": "gilded",
+        "texture": "cast-relief"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1930s art deco object design",
+      "stepped geometric form and sunburst",
+      "macassar ebony with a high polish",
+      "chrome and black lacquer",
+      "faceted mirror glass",
+      "frosted glass fan sconce",
+      "black Bakelite push button",
+      "jade and gilt accent",
+      "symmetrical outline",
+      "studio product photograph, glossy reflection"
+    ],
+    "negative": [
+      "rustic wood",
+      "plant curves",
+      "distressed surface",
+      "rattan",
+      "plain white minimalism",
+      "toy plastic"
+    ],
+    "canonical_works": [
+      {
+        "work": "Furniture of the Hôtel du Collectionneur",
+        "maker": "Émile-Jacques Ruhlmann",
+        "year": 1925
+      },
+      {
+        "work": "Fontaine de France glass fountain",
+        "maker": "René Lalique",
+        "year": 1925
+      },
+      {
+        "work": "Bibendum chair",
+        "maker": "Eileen Gray",
+        "year": 1926
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Art Deco cocktail set",
+      "kind": "image",
+      "credit": "Artdecodude",
+      "licence": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Art_Deco_Cocktail_Set.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Art_Deco_Cocktail_Set.jpg/960px-Art_Deco_Cocktail_Set.jpg"
+    },
+    {
+      "title": "Art Deco occasional table",
+      "kind": "image",
+      "credit": "Tangerineduel",
+      "licence": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Art_Deco_occasional_table.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Art_Deco_occasional_table.jpg/960px-Art_Deco_occasional_table.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "art-nouveau-object"
+    ],
+    "rebelled_against": [
+      "arts-and-crafts-object"
+    ],
+    "hybridized_with": [
+      "bauhaus-product"
+    ],
+    "echoes": [
+      "art-deco-interior",
+      "art-deco-architecture",
+      "art-deco-web",
+      "neo-deco-interior"
+    ]
+  },
+  "emotion": {
+    "target_response": "Confident glamour: the viewer sees a rich, precise object and feels the pace of the city.",
+    "keywords": [
+      "glamorous",
+      "luxurious",
+      "geometric",
+      "bold",
+      "polished"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "lover"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "art deco lamp",
+      "deco object",
+      "1930s glamour hardware",
+      "ebony and chrome",
+      "sunburst mirror",
+      "stepped form",
+      "gatsby interior",
+      "jazz age"
+    ],
+    "use_cases": [
+      "lighting and hardware for a hotel or a cocktail bar",
+      "a brief for a deco reissue",
+      "a still life with mirror and chrome",
+      "hardware schedules for a period flat"
+    ],
+    "avoid_when": [
+      "The room needs a rustic or a quiet, natural look.",
+      "The brief asks for a matt, raw or recycled finish."
+    ],
+    "modifiers": [
+      {
+        "request": "softer and rounder",
+        "toward": "streamline-moderne-product",
+        "how": "Round each corner, drop the stepped tiers and use long horizontal lines in chrome and aluminium."
+      },
+      {
+        "request": "plainer and colder",
+        "toward": "bauhaus-product",
+        "how": "Remove the pattern and the rare wood; keep chrome, opal glass and plain solids."
+      },
+      {
+        "request": "more colourful and playful",
+        "toward": "memphis-product",
+        "how": "Keep the geometry, but use laminate, pastel and a loud pattern."
+      }
+    ]
+  },
+  "permutations": {
+    "ornament_level": {
+      "default": 0.45,
+      "min": 0.2,
+      "max": 0.8
+    },
+    "material_warmth": {
+      "default": 0.4,
+      "min": 0.15,
+      "max": 0.7
+    },
+    "finish_gloss": {
+      "default": 90,
+      "min": 40,
+      "max": 100
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1,
+      "note": "A contemporary object that quotes the fan, the step and the gloss keeps the style."
+    },
+    "hardware_weight": {
+      "default": 16,
+      "min": 8,
+      "max": 30
+    },
+    "edge_radius": {
+      "default": 2,
+      "min": 0,
+      "max": 25
+    },
+    "metal_tone": {
+      "default": "chrome",
+      "options": [
+        "chrome",
+        "nickel",
+        "brass",
+        "bronze",
+        "black",
+        "stainless",
+        "none"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Art Deco",
+      "url": "https://en.wikipedia.org/wiki/Art_Deco"
+    },
+    {
+      "title": "Wikipedia: Émile-Jacques Ruhlmann",
+      "url": "https://en.wikipedia.org/wiki/%C3%89mile-Jacques_Ruhlmann"
+    },
+    {
+      "title": "Wikipedia: Exposition internationale des arts décoratifs et industriels modernes",
+      "url": "https://en.wikipedia.org/wiki/Exposition_Internationale_des_Arts_D%C3%A9coratifs_et_Industriels_Modernes"
+    }
+  ]
+}

@@ -223,6 +223,69 @@ The rules above name these shared principles by id. The definition is the same i
 ![Light](../../demo/moodboards/interior/arts-and-crafts-interior/light.webp)
 ![Objects](../../demo/moodboards/interior/arts-and-crafts-interior/objects.webp)
 
+## Object net
+
+Every object is made by hand in waxed oak, hammered copper, wrought iron and matt glazed clay. Wool and linen in sage and ochre soften the room, and the marks of the tool stay in view. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.3, material_warmth 0.8, finish_gloss 15, era_blend 0.25, hardware_weight 14, edge_radius 4, metal_tone copper. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#arts-and-crafts-interior).
+
+| Category | Object | Form | Material, finish, texture |
+|---|---|---|---|
+| Sanitary ([`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)) | Basin | pedestal basin | Fireclay, matte glaze, satin-smooth (#E2D7BC) |
+|  | Basin tap or mixer | cross-head pillar taps | Copper, patinated, hammered (#B5653A) |
+|  | Bath | freestanding oval | Copper, patinated, hammered (#B5653A) |
+|  | Towel rail | wall peg row | Oak, oiled, open grain (#6B4A2B) |
+|  | WC | high-level cistern with pull chain | Oak, oiled, fine close grain (#6B4A2B) |
+| Electrics ([`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)) | Light switch | surface switch on a wood block | Oak, oiled, fine close grain (#6B4A2B) |
+|  | Socket outlet | socket set in a skirting rail | Oak, oiled, fine close grain (#6B4A2B) |
+|  | Visible cable and conduit | fabric-braided cord in a loop | Cotton, piece-dyed, plain weave (#8E3B2E) |
+| Lighting ([`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)) | Pendant lamp | bell or schoolhouse shade | Copper, patinated, hammered (#B5653A) |
+|  | Table lamp | lead-glass shade on a cast base | Coloured glass, clear gloss, pressed pattern (#C2913E) |
+|  | Wall sconce | bulkhead in cast metal and glass | Bronze, patinated, cast relief ornament (#B5653A) |
+|  | Curtain pole | cafe rod across the lower sash | Wrought iron, blackened, hammered (#6B4A2B) |
+|  | Curtain track and blind | Roman blind | Linen, natural, undyed, slub weave (#E2D7BC) |
+| Storage ([`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)) | Sideboard and cabinet | dresser with an open plate rack | Oak, waxed, open grain (#6B4A2B) |
+|  | Shelving | plate rack | Oak, waxed, open grain (#6B4A2B) |
+|  | Chest of drawers | tall boy | Oak, waxed, open grain (#6B4A2B) |
+|  | Handle, knob and pull | bar pull on two posts | Copper, patinated, hammered (#B5653A) |
+|  | Hooks and pegs | single cast hook | Wrought iron, blackened, hammered |
+| Soft Furniture ([`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)) | Sofa | inglenook settle | Oak, waxed, open grain (#6B4A2B) |
+|  | Armchair and lounge chair | Morris chair with an adjustable back | Oak, waxed, open grain (#6B4A2B) |
+|  | Ottoman and pouf | leather cube | Leather, aniline dyed, grain leather (#6B4A2B) |
+|  | Cushion and throw | square with piping | Linen, printed, plain weave (#8E3B2E) |
+|  | Bed | spindle headboard | Oak, waxed, open grain (#6B4A2B) |
+| Tables ([`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)) | Dining table | refectory table on turned legs | Oak, waxed, open grain (#6B4A2B) |
+|  | Dining chair | ladder-back chair with a rush seat | Oak, waxed, open grain (#6B4A2B) |
+|  | Side table | stacking stool | Oak, waxed, open grain (#6B4A2B) |
+|  | Desk and work table | writing desk with a gallery | Oak, waxed, open grain (#6B4A2B) |
+| Kitchen ([`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)) | Kitchen front | Shaker frame-and-panel door | Oak, waxed, open grain (#6B4A2B) |
+|  | Worktop and splashback | tiled counter | Ceramic tile, matte glaze, satin-smooth (#C2913E) |
+|  | Kitchen sink and tap | copper farmhouse sink | Copper, patinated, hammered (#B5653A) |
+|  | Cooker hood and range | copper canopy hood | Copper, patinated, hammered (#B5653A) |
+|  | Kettle and small appliances | stovetop whistling kettle | Copper, unlacquered, living, hammered (#B5653A) |
+|  | Tableware and glassware | hand-thrown bowls | Stoneware, matte glaze, speckled clay (#8E9A73) |
+| Decor ([`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)) | Vase | squat studio-pottery jar | Stoneware, matte glaze, speckled clay (#8E9A73) |
+|  | Bowl, tray and box | hammered copper tray | Copper, patinated, hammered (#B5653A) |
+|  | Picture frame | oak float frame | Oak, waxed, open grain (#6B4A2B) |
+|  | Plant pot and planter | fibre basket | Jute, natural, undyed, plaited or wicker weave (#C2913E) |
+|  | Rug | hand-knotted oriental rug | Wool, piece-dyed, knotted pile (#8E9A73) |
+
+Alternates for each category:
+- **Sanitary:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md)
+- **Electrics:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md)
+- **Lighting:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md)
+- **Storage:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md)
+- **Soft Furniture:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md)
+- **Tables:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md)
+- **Kitchen:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md)
+- **Decor:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md)
+
+The moodboard tiles resolve to these objects:
+- **room:** Sofa, Armchair and lounge chair, Dining table, Pendant lamp, Shelving, Curtain pole, Rug, Vase
+- **materials:** Sideboard and cabinet, Bath, Worktop and splashback, Curtain track and blind, Ottoman and pouf, Handle, knob and pull
+- **furniture:** Sofa, Armchair and lounge chair, Dining table, Dining chair, Desk and work table, Sideboard and cabinet
+- **textiles:** Cushion and throw, Rug, Curtain track and blind, Ottoman and pouf, Armchair and lounge chair
+- **light:** Pendant lamp, Table lamp, Wall sconce, Curtain pole
+- **objects:** Vase, Bowl, tray and box, Shelving, Table lamp, Plant pot and planter, Tableware and glassware
+
 ## Vocabulary primer
 
 Use these terms in a brief, an image prompt or a 3D scene description.
@@ -279,7 +342,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`shaker-interior`](../shaker-interior/SKILL.md)
 - **Led to (go here for a newer version):** [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`victorian-interior`](../victorian-interior/SKILL.md)
-- **Kin in another domain:** [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md), [`hand-painted-texture`](../hand-painted-texture/SKILL.md), [`humanist-sans`](../humanist-sans/SKILL.md), [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md)
+- **Kin in another domain:** [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md), [`hand-painted-texture`](../hand-painted-texture/SKILL.md), [`humanist-sans`](../humanist-sans/SKILL.md), [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md)
 - **Nearest by vector profile:** [`coastal-interior`](../coastal-interior/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md)
 
 ## Emotional target

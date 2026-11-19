@@ -1,0 +1,431 @@
+{
+  "$schema": "../../../schema/domains/industrial.schema.json",
+  "id": "super-normal-product",
+  "domain": "industrial",
+  "name": "Super Normal product",
+  "aliases": [
+    "Supernormal design",
+    "Anonymous everyday objects",
+    "Quiet product design"
+  ],
+  "era_id": "contemporary",
+  "time_period": {
+    "start": 2006,
+    "end": null,
+    "label": "2006–present"
+  },
+  "region": "Tokyo, London and northern Europe",
+  "summary": "The anonymous everyday object: a chair, a clock, a kettle or a shelf in matte white plastic, pale wood and steel, drawn so that it looks right and leaves no trace of the designer.",
+  "philosophy": {
+    "core_thesis": "A good object is one that nobody notices: it does its job, it fits the hand and the room, and it needs no explanation or signature.",
+    "design_principles": [
+      "Draw the most usual form of the object; change a proportion by 5 to 10% and no more.",
+      "Use one matte colour on 90% of the surface: white, pale grey or the colour of the wood.",
+      "Round each edge with a radius of 2 to 6 mm so that the hand finds no sharp line.",
+      "Join the parts with a narrow gap of 1 to 2 mm; show no screw head on a main face.",
+      "Use one material for each part: pale wood for the frame, plastic for the shell, steel for the hardware.",
+      "Make the object for a long life: it uses standard parts and it ages without damage.",
+      "Print no logo and no ornament on the face of the object."
+    ],
+    "anti_patterns": [
+      "Sculptural gestures that ask for attention",
+      "Bright pop colours and patterns",
+      "Visible brand marks on the face",
+      "Dark exotic woods and high gloss",
+      "Ornament and applied decoration",
+      "A form that copies a historic style"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "hand_finish": 2,
+    "material_warmth": 3,
+    "visual_mass": 2,
+    "chromatic_intensity": 1
+  },
+  "form": {
+    "geometry": "The plain cylinder, the rounded rectangle and the shallow dome, with small softened edges.",
+    "silhouette": "A familiar outline that fits a type: a chair has four legs and a seat, a kettle has a body and a handle.",
+    "edges": "Soft edges with a radius of 2 to 6 mm; a thin shadow gap of 1 to 2 mm at each joint.",
+    "proportion": "A chair seat is 45 cm high; a clock face is 20 to 30 cm wide; a kettle body is about 12 cm in diameter and 20 cm high.",
+    "ornament": "None. The only mark is a small, quiet detail such as a hanging hole or a small dot of colour.",
+    "rules": [
+      "Each object keeps the standard outline of its type, with a change of 10% or less.",
+      "Each object uses 1 or 2 materials in view.",
+      "Each edge has a radius of 2 mm or more.",
+      "Each joint has a gap of 1 to 2 mm or none.",
+      "A colour other than white, grey or the wood covers less than 5% of the object."
+    ]
+  },
+  "materials": {
+    "primary": [
+      "abs-plastic",
+      "polypropylene",
+      "ash",
+      "beech",
+      "birch-plywood",
+      "cotton"
+    ],
+    "secondary": [
+      "stainless-steel",
+      "aluminium",
+      "porcelain",
+      "vitreous-china",
+      "clear-glass",
+      "frosted-glass",
+      "opal-glass",
+      "borosilicate-glass",
+      "oak",
+      "linen",
+      "wool",
+      "mild-steel",
+      "solid-surface",
+      "stoneware",
+      "canvas",
+      "plastic-laminate"
+    ],
+    "avoid": [
+      "mahogany",
+      "rosewood",
+      "velvet",
+      "silk",
+      "macassar-ebony",
+      "bronze"
+    ],
+    "rule": "Matte plastic and pale wood make about 70% of the visible surface; steel, glass and plain cloth make the rest."
+  },
+  "finish": {
+    "finishes": [
+      "moulded-matte",
+      "oiled",
+      "soaped",
+      "brushed",
+      "painted-matte",
+      "vitreous-glaze",
+      "acid-etched",
+      "piece-dyed"
+    ],
+    "textures": [
+      "satin-smooth",
+      "fine-grain",
+      "brush-line",
+      "plain-weave"
+    ],
+    "gloss": "3–12 GU on plastic and wood; 20–40 GU on brushed steel",
+    "patina": "The style wants a surface that ages without marks: wood takes a soft tone, and plastic and steel stay as they are."
+  },
+  "hardware": {
+    "metal_tone": "stainless",
+    "section": "Rods and handles 8–14 mm; a tap body 25–35 mm",
+    "joints": "Narrow gaps, hidden fixings on main faces, and a few screws on the back or the base.",
+    "handles": "A thin bar, a small round hole or a flat tab cut into the body.",
+    "switches_and_taps": "A flat rocker in matte white; a slim steel lever tap on a plain cylinder."
+  },
+  "palette": {
+    "strategy": "White, pale grey and light wood, with one soft colour at most; no saturated accent.",
+    "colours": [
+      {
+        "name": "Matte white",
+        "hex": "#F2F1ED",
+        "role": "shell, body, wall plate"
+      },
+      {
+        "name": "Pale grey",
+        "hex": "#D9D9D6",
+        "role": "second plastic colour"
+      },
+      {
+        "name": "Ash",
+        "hex": "#D8C7A8",
+        "role": "wood frame"
+      },
+      {
+        "name": "Brushed steel",
+        "hex": "#B7BABD",
+        "role": "tap, rod, hinge"
+      },
+      {
+        "name": "Soft sage",
+        "hex": "#B9C2A8",
+        "role": "rare single accent"
+      }
+    ]
+  },
+  "manufacture": {
+    "processes": [
+      "injection moulding of plastic",
+      "plywood pressing",
+      "CNC machining of solid wood",
+      "steel stamping and brushing",
+      "glaze casting of porcelain"
+    ],
+    "scale": "Series of many thousand pieces from firms that make household goods, with parts that other models also use.",
+    "signs": "A small gate mark under the base, a thin shadow gap at each joint, and a part that fits across several models."
+  },
+  "signatures": {
+    "objects": [
+      {
+        "category": "sanitary",
+        "object": "mixer-tap",
+        "form": "single-lever monobloc",
+        "material": "stainless-steel",
+        "finish": "brushed",
+        "texture": "brush-line"
+      },
+      {
+        "category": "electrics",
+        "object": "light-switch",
+        "form": "flush rocker on a square plate",
+        "material": "abs-plastic",
+        "finish": "moulded-matte",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "lighting",
+        "object": "pendant-lamp",
+        "form": "opal globe",
+        "material": "opal-glass",
+        "finish": "acid-etched",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "storage",
+        "object": "shelving",
+        "form": "open bookcase",
+        "material": "birch-plywood",
+        "finish": "oiled",
+        "texture": "fine-grain"
+      },
+      {
+        "category": "soft-furniture",
+        "object": "sofa",
+        "form": "tight-back sofa on tapered legs",
+        "material": "cotton",
+        "finish": "piece-dyed",
+        "texture": "plain-weave"
+      },
+      {
+        "category": "tables",
+        "object": "dining-chair",
+        "form": "plain stacking chair with a plywood seat",
+        "material": "beech",
+        "finish": "oiled",
+        "texture": "fine-grain"
+      },
+      {
+        "category": "kitchen",
+        "object": "kettle",
+        "form": "cylindrical electric jug",
+        "material": "polypropylene",
+        "finish": "moulded-matte",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "decor",
+        "object": "clock",
+        "form": "minimal dial with no numerals",
+        "material": "abs-plastic",
+        "finish": "moulded-matte",
+        "texture": "satin-smooth"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "contemporary supernormal product design",
+      "anonymous everyday object",
+      "matte white injection moulded plastic",
+      "pale ash or beech wood",
+      "soft 3 mm rounded edges",
+      "thin shadow gap between parts",
+      "no logo",
+      "brushed stainless steel lever",
+      "opal glass globe pendant",
+      "white wall clock with no numerals",
+      "studio product photograph, soft daylight"
+    ],
+    "negative": [
+      "ornament",
+      "glossy pop colour",
+      "pattern",
+      "carved detail",
+      "dark exotic wood",
+      "sculptural gesture"
+    ],
+    "canonical_works": [
+      {
+        "work": "Plywood chair",
+        "maker": "Jasper Morrison",
+        "year": 1988
+      },
+      {
+        "work": "Thinking Man's chair",
+        "maker": "Jasper Morrison",
+        "year": 1986
+      },
+      {
+        "work": "Super Normal exhibition",
+        "maker": "Naoto Fukasawa and Jasper Morrison",
+        "year": 2006
+      },
+      {
+        "work": "Wall-mounted CD player",
+        "maker": "Naoto Fukasawa",
+        "year": 1999
+      },
+      {
+        "work": "Air-Chair",
+        "maker": "Jasper Morrison",
+        "year": 1999
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Jasper morrison per vitra ag, sedia plywood, 1988",
+      "kind": "image",
+      "maker": "Jasper Morrison",
+      "year": 1988,
+      "credit": "Sailko",
+      "licence": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Jasper_morrison_per_vitra_ag,_sedia_plywood,_1988.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Jasper_morrison_per_vitra_ag%2C_sedia_plywood%2C_1988.jpg/960px-Jasper_morrison_per_vitra_ag%2C_sedia_plywood%2C_1988.jpg"
+    },
+    {
+      "title": "Thinking Mans Chair designed by Jasper Morrison",
+      "kind": "image",
+      "maker": "Jasper Morrison",
+      "year": 1986,
+      "credit": "JT at JMLtd",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Thinking_Mans_Chair_designed_by_Jasper_Morrison.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/5/55/Thinking_Mans_Chair_designed_by_Jasper_Morrison.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "ulm-braun-functionalism"
+    ],
+    "rebelled_against": [
+      "memphis-product"
+    ],
+    "hybridized_with": [
+      "scandinavian-modern-product"
+    ],
+    "echoes": [
+      "minimalist-interior",
+      "minimalism-web"
+    ]
+  },
+  "emotion": {
+    "target_response": "Quiet ease: the viewer feels that the object is right, familiar and without effort.",
+    "keywords": [
+      "quiet",
+      "plain",
+      "anonymous",
+      "calm",
+      "familiar"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "super normal",
+      "supernormal design",
+      "anonymous object",
+      "everyday product",
+      "matte white plastic",
+      "pale wood chair",
+      "muji-like",
+      "morrison chair"
+    ],
+    "use_cases": [
+      "a calm flat or office moodboard",
+      "product briefs for household goods",
+      "a clean still life for a catalogue",
+      "hardware schedules for a rental unit"
+    ],
+    "avoid_when": [
+      "The brief asks for a bold statement or a sculptural object.",
+      "The room needs ornament, colour or craft marks."
+    ],
+    "modifiers": [
+      {
+        "request": "warmer and more crafted",
+        "toward": "contemporary-craft-product",
+        "how": "Swap plastic for oak, stoneware and linen, and leave the marks of the hand."
+      },
+      {
+        "request": "more rigorous and technical",
+        "toward": "ulm-braun-functionalism",
+        "how": "Use a grid, a fine grey scale and visible controls."
+      },
+      {
+        "request": "louder and more playful",
+        "toward": "memphis-product",
+        "how": "Add laminate pattern, contrasting colour and stacked solids."
+      }
+    ]
+  },
+  "permutations": {
+    "ornament_level": {
+      "default": 0,
+      "min": 0,
+      "max": 0.05
+    },
+    "material_warmth": {
+      "default": 0.4,
+      "min": 0.2,
+      "max": 0.65
+    },
+    "finish_gloss": {
+      "default": 8,
+      "min": 3,
+      "max": 40
+    },
+    "era_blend": {
+      "default": 0.7,
+      "min": 0,
+      "max": 1,
+      "note": "A contemporary object in this style is the norm; a reissue of a 1980s piece is the faithful case."
+    },
+    "hardware_weight": {
+      "default": 10,
+      "min": 6,
+      "max": 22
+    },
+    "edge_radius": {
+      "default": 4,
+      "min": 2,
+      "max": 12
+    },
+    "metal_tone": {
+      "default": "stainless",
+      "options": [
+        "stainless",
+        "nickel",
+        "chrome",
+        "black",
+        "white",
+        "none"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Jasper Morrison",
+      "url": "https://en.wikipedia.org/wiki/Jasper_Morrison"
+    },
+    {
+      "title": "Wikipedia: Naoto Fukasawa",
+      "url": "https://en.wikipedia.org/wiki/Naoto_Fukasawa"
+    },
+    {
+      "title": "Wikipedia: Minimalism",
+      "url": "https://en.wikipedia.org/wiki/Minimalism"
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "$schema": "../../../schema/domains/industrial.schema.json",
+  "id": "streamline-moderne-product",
+  "domain": "industrial",
+  "name": "Streamline Moderne product",
+  "aliases": [
+    "Streamline design",
+    "Streamlined product design",
+    "Machine-age streamlining"
+  ],
+  "era_id": "machine-modern",
+  "time_period": {
+    "start": 1930,
+    "end": 1955,
+    "label": "1930–1955"
+  },
+  "region": "United States, with Britain and France",
+  "summary": "Smooth, rounded objects that look fast: toasters, radios, lamps and chairs in chrome, aluminium, Bakelite and enamel, with long horizontal lines and speed stripes, made in mass series.",
+  "philosophy": {
+    "core_thesis": "A mass-made object should look as if it moves through air: a smooth shell, round corners and long lines show progress and sell.",
+    "design_principles": [
+      "Round each outside corner with a radius of 20 to 60 mm; no sharp corner shows on the body.",
+      "Draw long horizontal lines: two or three speed stripes, grooves or bands that run the full length of the object.",
+      "Wrap the moving parts in one smooth shell of pressed steel, cast aluminium or moulded Bakelite.",
+      "Use chrome, polished aluminium and white or cream enamel; they reflect the light and look clean.",
+      "Taper the form at the rear in a teardrop, so that the outline cuts the air.",
+      "Hide the joints and the fasteners under the shell; a seam is a single line or a chrome band.",
+      "Design for mass production: one die or one mould makes thousands of the same shell."
+    ],
+    "anti_patterns": [
+      "Carved or applied ornament",
+      "Visible bolts, rivets and raw welds",
+      "Sharp corners and stepped tiers",
+      "Dark, heavy timber and a hand-made look",
+      "Rough, textured or distressed surfaces",
+      "Vertical emphasis with a tall, narrow form"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "hand_finish": 1,
+    "material_warmth": 2,
+    "visual_mass": 3,
+    "chromatic_intensity": 2
+  },
+  "form": {
+    "geometry": "The ellipse, the teardrop, the long cylinder and the rounded box, with horizontal grooves and bands.",
+    "silhouette": "A low, long, rounded outline that is higher at the front and tapers to the rear, like a train, a ship or an aircraft.",
+    "edges": "Large, continuous radii of 20 to 60 mm on all outside corners; a fillet of 5 to 10 mm along each seam.",
+    "proportion": "The length is 1.5 to 3 times the height; a radio case is about 35 cm wide and 20 cm high; a stripe is 5 to 10 mm wide.",
+    "ornament": "Two to five parallel speed stripes, a chrome band or a fin; they cover 5 to 15% of the surface and run along the length.",
+    "rules": [
+      "No outside corner has a radius under 15 mm.",
+      "Each object has 2 to 5 parallel horizontal lines or grooves.",
+      "The body is one smooth shell with no visible fastener.",
+      "The length of the object is at least 1.5 times its height.",
+      "Chrome or polished aluminium covers 20 to 40% of the surface; the rest is enamel, Bakelite or glass."
+    ]
+  },
+  "materials": {
+    "primary": [
+      "chrome-plated-steel",
+      "aluminium",
+      "bakelite",
+      "enamelled-steel",
+      "chrome-plated-brass"
+    ],
+    "secondary": [
+      "stainless-steel",
+      "plastic-laminate",
+      "birch-plywood",
+      "vitreous-china",
+      "porcelain",
+      "opal-glass",
+      "frosted-glass",
+      "mirror-glass",
+      "clear-glass",
+      "wool",
+      "leather",
+      "abs-plastic",
+      "cotton"
+    ],
+    "avoid": [
+      "cast-iron",
+      "wrought-iron",
+      "terracotta",
+      "rattan",
+      "wicker",
+      "rosewood",
+      "mahogany"
+    ],
+    "rule": "Bright metal and enamel make about 60% of the visible surface; Bakelite, laminate and glass are smooth, and textile is plain."
+  },
+  "finish": {
+    "finishes": [
+      "polished",
+      "brushed",
+      "gloss-enamel",
+      "lacquered",
+      "moulded-gloss",
+      "silvered",
+      "piece-dyed"
+    ],
+    "textures": [
+      "mirror-smooth",
+      "satin-smooth",
+      "brush-line",
+      "ribbed",
+      "plain-weave",
+      "twill"
+    ],
+    "gloss": "80–100 GU on chrome and enamel; 40–70 GU on brushed aluminium",
+    "patina": "The style wants a new, smooth shine; a pit, a scratch or a rust spot is out of character."
+  },
+  "hardware": {
+    "metal_tone": "chrome",
+    "section": "Tube 20–32 mm, handles 15–25 mm, trim bands 5–10 mm wide",
+    "joints": "A single chrome band or a flush seam; fasteners are hidden under the shell or under a cap.",
+    "handles": "A round knob or a bar in Bakelite or chrome, set flush with the shell, with a section of 15 to 25 mm.",
+    "switches_and_taps": "A large round Bakelite dial or a lever set in the shell; a tap with a smooth, rounded body and a chrome lever."
+  },
+  "palette": {
+    "strategy": "Clean, light colour with bright metal: cream, white and pale green or blue, with chrome and one red or black stripe.",
+    "colours": [
+      {
+        "name": "Chrome",
+        "hex": "#D0D3D6",
+        "role": "metal, trim, band"
+      },
+      {
+        "name": "Cream enamel",
+        "hex": "#EFE6CC",
+        "role": "shell, body"
+      },
+      {
+        "name": "Streamline green",
+        "hex": "#A9C9B4",
+        "role": "enamel, laminate"
+      },
+      {
+        "name": "Sky blue",
+        "hex": "#9DBBD3",
+        "role": "enamel, glass"
+      },
+      {
+        "name": "Bakelite brown",
+        "hex": "#3D2A22",
+        "role": "dial, case"
+      },
+      {
+        "name": "Stripe red",
+        "hex": "#B5322A",
+        "role": "speed stripe, accent"
+      }
+    ]
+  },
+  "manufacture": {
+    "processes": [
+      "metal pressing in a die",
+      "chrome plating",
+      "Bakelite compression moulding",
+      "aluminium die casting",
+      "vitreous enamel stoving"
+    ],
+    "scale": "Mass series of tens of thousands, made by large firms for the home, the shop and the transport industry.",
+    "signs": "A smooth parting line along a rounded seam, a die-pressed groove, a chrome band at the join and a mould mark on the back."
+  },
+  "signatures": {
+    "objects": [
+      {
+        "category": "sanitary",
+        "object": "bathtub",
+        "form": "boat-shaped tub",
+        "material": "enamelled-steel",
+        "finish": "gloss-enamel",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "electrics",
+        "object": "socket-outlet",
+        "form": "flush square plate",
+        "material": "bakelite",
+        "finish": "moulded-gloss",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "lighting",
+        "object": "floor-lamp",
+        "form": "uplighter bowl on a column",
+        "material": "aluminium",
+        "finish": "brushed",
+        "texture": "brush-line"
+      },
+      {
+        "category": "storage",
+        "object": "sideboard",
+        "form": "box on a recessed plinth",
+        "material": "birch-plywood",
+        "finish": "lacquered",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "soft-furniture",
+        "object": "armchair",
+        "form": "barrel chair",
+        "material": "wool",
+        "finish": "piece-dyed",
+        "texture": "plain-weave"
+      },
+      {
+        "category": "tables",
+        "object": "dining-table",
+        "form": "tapered-leg rectangle",
+        "material": "plastic-laminate",
+        "finish": "moulded-gloss",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "kitchen",
+        "object": "kettle",
+        "form": "streamlined toaster",
+        "material": "chrome-plated-brass",
+        "finish": "polished",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "decor",
+        "object": "mirror",
+        "form": "round frameless mirror",
+        "material": "mirror-glass",
+        "finish": "silvered",
+        "texture": "mirror-smooth"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1930s streamlined product design",
+      "rounded teardrop shell",
+      "long horizontal speed stripes",
+      "chrome and polished aluminium",
+      "cream enamel and brown Bakelite",
+      "large round dial",
+      "boat-shaped and train-like outline",
+      "pale green and sky blue enamel",
+      "studio product photograph, bright reflection"
+    ],
+    "negative": [
+      "ornament",
+      "visible bolts",
+      "sharp corners",
+      "rustic wood",
+      "rough texture",
+      "stepped tiers"
+    ],
+    "canonical_works": [
+      {
+        "work": "Pencil sharpener concept",
+        "maker": "Raymond Loewy",
+        "year": 1933
+      },
+      {
+        "work": "Motor Car Number 8 design",
+        "maker": "Norman Bel Geddes",
+        "year": 1932
+      },
+      {
+        "work": "Radio Nurse",
+        "maker": "Isamu Noguchi",
+        "year": 1937
+      },
+      {
+        "work": "Coldspot refrigerator",
+        "maker": "Raymond Loewy",
+        "year": 1934
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Toaster model T2",
+      "kind": "image",
+      "maker": "Calkins Appliance Company",
+      "year": 1932,
+      "credit": "Daderot",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Toaster,_Model_T2,_Calkins_Appliance_Company,_Niles,_Michigan,_1930-1935,_chrome,_bakelite,_aluminum,_cotton_-_Museum_f%C3%BCr_Angewandte_Kunst_K%C3%B6ln_-_Cologne,_Germany_-_DSC09520.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Toaster%2C_Model_T2%2C_Calkins_Appliance_Company%2C_Niles%2C_Michigan%2C_1930-1935%2C_chrome%2C_bakelite%2C_aluminum%2C_cotton_-_Museum_f%C3%BCr_Angewandte_Kunst_K%C3%B6ln_-_Cologne%2C_Germany_-_DSC09520.jpg/960px-thumbnail.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "art-deco-product"
+    ],
+    "rebelled_against": [
+      "victorian-manufacture"
+    ],
+    "hybridized_with": [
+      "bauhaus-product"
+    ],
+    "echoes": [
+      "art-deco-interior",
+      "art-deco-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Light, hopeful speed: the viewer sees a clean, bright object that belongs to the future.",
+    "keywords": [
+      "fast",
+      "sleek",
+      "optimistic",
+      "clean",
+      "modern"
+    ],
+    "brand_archetypes": [
+      "explorer",
+      "hero"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "streamline moderne",
+      "streamlined toaster",
+      "1930s radio",
+      "teardrop form",
+      "speed stripes",
+      "machine age chrome",
+      "world's fair modern",
+      "bakelite dial"
+    ],
+    "use_cases": [
+      "kitchen objects and lighting for a retro-modern interior",
+      "a brief for a reissued appliance",
+      "a still life of chrome and enamel objects",
+      "hardware schedules for a diner or a station"
+    ],
+    "avoid_when": [
+      "The room needs hand-made, rough or antique objects.",
+      "The brief asks for visible fasteners or raw metal."
+    ],
+    "modifiers": [
+      {
+        "request": "more luxurious and geometric",
+        "toward": "art-deco-product",
+        "how": "Replace the stripes with stepped tiers and a fan, and use ebony, mirror and gilt."
+      },
+      {
+        "request": "plainer and more rational",
+        "toward": "bauhaus-product",
+        "how": "Drop the round shell and the stripes; use plain solids and show the joints."
+      },
+      {
+        "request": "more colourful and playful",
+        "toward": "space-age-pop-product",
+        "how": "Keep the round shell, but use moulded plastic in a saturated colour."
+      }
+    ]
+  },
+  "permutations": {
+    "ornament_level": {
+      "default": 0.15,
+      "min": 0,
+      "max": 0.35
+    },
+    "material_warmth": {
+      "default": 0.25,
+      "min": 0.1,
+      "max": 0.5
+    },
+    "finish_gloss": {
+      "default": 90,
+      "min": 35,
+      "max": 100
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1,
+      "note": "A contemporary object with the same shell, radius and stripe keeps the style."
+    },
+    "hardware_weight": {
+      "default": 22,
+      "min": 10,
+      "max": 32
+    },
+    "edge_radius": {
+      "default": 30,
+      "min": 15,
+      "max": 40
+    },
+    "metal_tone": {
+      "default": "chrome",
+      "options": [
+        "chrome",
+        "nickel",
+        "stainless",
+        "white",
+        "black",
+        "none"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Streamline Moderne",
+      "url": "https://en.wikipedia.org/wiki/Streamline_Moderne"
+    },
+    {
+      "title": "Wikipedia: Raymond Loewy",
+      "url": "https://en.wikipedia.org/wiki/Raymond_Loewy"
+    },
+    {
+      "title": "Wikipedia: 1939 New York World's Fair",
+      "url": "https://en.wikipedia.org/wiki/1939_New_York_World%27s_Fair"
+    }
+  ]
+}
