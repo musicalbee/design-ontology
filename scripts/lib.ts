@@ -161,8 +161,32 @@ export interface Person {
   styles: { style: string; role: PersonRole }[];
   milestones: { year: number; event: string; style?: string; posthumous?: boolean }[];
   photo: { file: string; url: string; page?: string; licence: string; licence_url?: string; credit: string } | null;
+  orgs?: PersonOrg[];
+  emblem?: Emblem;
   sources: { title: string; url?: string }[];
   found_in?: string[];
+}
+
+/** One link from a person to an organisation in data/orgs/, with its own source. */
+export interface PersonOrg {
+  org: string;
+  role: "founder" | "owner" | "leader" | "designer" | "staff" | "teacher" | "student" | "member" | "author" | "exhibitor" | "patron" | "client" | "user";
+  from?: number | null;
+  to?: number | null;
+  source: { title: string; url?: string };
+}
+
+/** A logo, a coat of arms, a monogram, a seal or a mark on Wikimedia Commons, with the record that ties it to the entity. */
+export interface Emblem {
+  kind: "logo" | "coat-of-arms" | "monogram" | "seal" | "mark" | "symbol";
+  file: string;
+  url: string;
+  page: string;
+  licence: string;
+  licence_url?: string;
+  credit: string;
+  trademark?: true;
+  source: { title: string; url: string };
 }
 
 export type PersonRole = "founder" | "key-figure" | "forerunner" | "populariser" | "trend-setter" | "rebel" | "patron" | "artisan";
@@ -196,6 +220,7 @@ export interface Org {
   statement?: { text: string; title?: string; year?: number; url?: string };
   moves?: { year: number; kind: string; text: string; source: { title: string; url?: string } }[];
   relations?: { split_from?: string[]; successor_of?: string[]; rival_of?: string[]; member_of?: string[] };
+  emblem?: Emblem;
   sources: { title: string; url?: string }[];
 }
 

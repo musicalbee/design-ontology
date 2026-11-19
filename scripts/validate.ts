@@ -419,6 +419,17 @@ for (const { file, slug, funding: f } of funding) {
     errors.push(`${file}: amount.year ${amountYear} is outside the years of the flow (${f.years[0]}–${f.years[1] ?? "open"})`);
   backers.add(`${f.from.type}:${f.from.id}`);
 }
+// Person → organisation links: each org resolves, one link for each org, years in order.
+for (const { file, person } of people) {
+  const seen = new Set<string>();
+  for (const l of person.orgs ?? []) {
+    if (!orgIds.has(l.org)) errors.push(`${file}: orgs → "${l.org}" is not in data/orgs/`);
+    if (seen.has(l.org)) errors.push(`${file}: org "${l.org}" is listed more than once`);
+    seen.add(l.org);
+    if (l.from != null && l.to != null && l.to < l.from) errors.push(`${file}: org "${l.org}" ends (${l.to}) before it starts (${l.from})`);
+  }
+}
+
 // A backer org with the part "funded" has at least one flow in data/funding/.
 for (const { file, org: m } of orgs)
   if (m.styles.some((s) => s.part === "funded") && !backers.has(`org:${m.id}`))
