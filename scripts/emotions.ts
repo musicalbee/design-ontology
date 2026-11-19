@@ -39,6 +39,36 @@ export function loadEvokes(): { file: string; slug: string; evokes: EvokesFile }
     .map((f) => ({ file: join("data", "evokes", f), slug: f.replace(/\.json$/, ""), evokes: readJson<EvokesFile>(join(EVOKES_DIR, f)) }));
 }
 
+export type Range = { min: number; max: number };
+export type Cue = {
+  id: string; name: string; variable: string;
+  direction: { change: string; unit: string; range: { from: number | string; to: number | string }; note?: string };
+  effects: { target: string; sign: 1 | -1; size: string }[]; evidence_kind: "measured"; claim: string;
+  study: { participants: number | null; setting: string }; caveat: string; weak?: boolean; sources: { title: string; url: string }[];
+};
+export type Moment = {
+  id: string; name: string; kind: string; description?: string; emotions: { emotion: string; strength: number }[];
+  time: { of_day: string[]; season: string[]; sun_elevation_deg: Range | null };
+  light: { cct_k: Range | null; lux: Range | null; direction: string; quality: string; sources: string[] };
+  weather: string[]; sound: string[]; scent: string[]; people: { min: number; max: number | null; activity: string };
+  carriers: { styles: string[]; techniques?: string[]; things: string[] }; cues: string[];
+  scene_ref: null | { film: string; year: number; director?: string; wikidata: string; minutes: Range; timing: string; description: string };
+  sources: { title: string; url: string }[];
+};
+
+function loadDir<T>(dir: string): { file: string; slug: string; data: T }[] {
+  const abs = join(ROOT, "data", dir);
+  if (!existsSync(abs)) return [];
+  return readdirSync(abs)
+    .filter((f) => f.endsWith(".json"))
+    .sort()
+    .map((f) => ({ file: join("data", dir, f), slug: f.replace(/\.json$/, ""), data: readJson<T>(join(abs, f)) }));
+}
+/** Cues: measured links from a physical variable to an emotion (data/cues/). */
+export const loadCues = () => loadDir<Cue>("cues").map(({ file, slug, data }) => ({ file, slug, cue: data }));
+/** Moments: known situations with light, weather, sound, people and carriers (data/moments/). */
+export const loadMoments = () => loadDir<Moment>("moments").map(({ file, slug, data }) => ({ file, slug, moment: data }));
+
 export const loadKeywordMap = (): Record<string, string[]> =>
   readJson<{ map: Record<string, string[]> }>(join(EMO_DIR, "keyword-map.json")).map;
 

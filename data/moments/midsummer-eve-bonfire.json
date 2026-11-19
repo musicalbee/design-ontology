@@ -1,0 +1,95 @@
+{
+  "$schema": "../../schema/moment.schema.json",
+  "id": "midsummer-eve-bonfire",
+  "name": "Midsummer Eve bonfire (sankthansaften)",
+  "kind": "ritual",
+  "description": "On 23 June people gather by the sea around one big bonfire in a light night that never gets dark.",
+  "emotions": [
+    {
+      "emotion": "joy",
+      "strength": 1
+    },
+    {
+      "emotion": "vitality",
+      "strength": 0.8
+    },
+    {
+      "emotion": "sehnsucht",
+      "strength": 0.4
+    },
+    {
+      "emotion": "awe",
+      "strength": 0.3
+    }
+  ],
+  "time": {
+    "of_day": [
+      "evening",
+      "night"
+    ],
+    "season": [
+      "summer"
+    ],
+    "sun_elevation_deg": {
+      "min": -5,
+      "max": 5
+    }
+  },
+  "light": {
+    "cct_k": {
+      "min": 1900,
+      "max": 4000
+    },
+    "lux": {
+      "min": 10,
+      "max": 1000
+    },
+    "direction": "mixed",
+    "quality": "mixed",
+    "sources": [
+      "fire",
+      "sky",
+      "sun"
+    ]
+  },
+  "weather": [
+    "clear",
+    "partly-cloudy",
+    "wind"
+  ],
+  "sound": [
+    "crackle of the fire",
+    "waves",
+    "songs",
+    "children"
+  ],
+  "scent": [
+    "wood smoke",
+    "sea",
+    "grilled sausages"
+  ],
+  "people": {
+    "min": 10,
+    "max": null,
+    "activity": "gather around the fire on the shore"
+  },
+  "carriers": {
+    "styles": [],
+    "things": [
+      "bonfire",
+      "rocks by the sea",
+      "boats"
+    ]
+  },
+  "cues": [
+    "prospect-refuge-preference",
+    "bright-light-intensifies-emotion"
+  ],
+  "scene_ref": null,
+  "sources": [
+    {
+      "title": "Wikipedia, Midsummer: in Norway the evening of 23 June centres on a large bonfire",
+      "url": "https://en.wikipedia.org/wiki/Midsummer"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schema/cue.schema.json",
+  "id": "nature-view-home-wellbeing",
+  "name": "Nature in the view from home raises well-being",
+  "variable": "view-to-nature",
+  "direction": {
+    "change": "more",
+    "unit": "natural elements in the view",
+    "range": {
+      "from": "built elements only",
+      "to": "trees, grass, gardens"
+    }
+  },
+  "effects": [
+    {
+      "target": "pad:p",
+      "sign": 1,
+      "size": "small"
+    },
+    {
+      "target": "relaxation",
+      "sign": 1,
+      "size": "small"
+    }
+  ],
+  "evidence_kind": "measured",
+  "claim": "Residents whose windows showed natural elements reported more neighbourhood satisfaction and well-being; a view of built elements did not raise well-being.",
+  "study": {
+    "participants": null,
+    "setting": "survey"
+  },
+  "caveat": "Cross-section self-report in six US apartment communities; a correlation, not a cause; the sample size was not seen.",
+  "sources": [
+    {
+      "title": "Kaplan 2001, The nature of the view from home: psychological benefits, Environment and Behavior 33(4)",
+      "url": "https://doi.org/10.1177/00139160121973115"
+    }
+  ]
+}

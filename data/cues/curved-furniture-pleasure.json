@@ -1,0 +1,44 @@
+{
+  "$schema": "../../schema/cue.schema.json",
+  "id": "curved-furniture-pleasure",
+  "name": "Curved furniture gives calm pleasure",
+  "variable": "curvature",
+  "direction": {
+    "change": "more-curved",
+    "unit": "furniture form",
+    "range": {
+      "from": "rectilinear",
+      "to": "curvilinear"
+    }
+  },
+  "effects": [
+    {
+      "target": "pad:p",
+      "sign": 1,
+      "size": "not-reported"
+    },
+    {
+      "target": "relaxation",
+      "sign": 1,
+      "size": "not-reported"
+    },
+    {
+      "target": "pad:a",
+      "sign": -1,
+      "size": "not-reported"
+    }
+  ],
+  "evidence_kind": "measured",
+  "claim": "Rooms with curvilinear furniture gave more pleasure and more calm, relaxed feelings, and a stronger wish to enter, than rooms with rectilinear furniture.",
+  "study": {
+    "participants": 111,
+    "setting": "lab"
+  },
+  "caveat": "Rendered rooms, not real ones; the furniture form can mix with other features of the scene; effect sizes were not seen.",
+  "sources": [
+    {
+      "title": "Dazkir and Read 2012, Furniture forms and their influence on our emotional responses toward interior environments, Environment and Behavior 44(5)",
+      "url": "https://doi.org/10.1177/0013916511402063"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "$schema": "../../schema/moment.schema.json",
+  "id": "fog-in-the-forest",
+  "name": "Morning fog in a forest",
+  "kind": "seasonal",
+  "description": "Fog hides the far trees, so the forest has no end and each sound seems close.",
+  "emotions": [
+    {
+      "emotion": "yugen",
+      "strength": 1
+    },
+    {
+      "emotion": "enchantment",
+      "strength": 0.6
+    },
+    {
+      "emotion": "uneasiness",
+      "strength": 0.5
+    }
+  ],
+  "time": {
+    "of_day": [
+      "dawn",
+      "morning"
+    ],
+    "season": [
+      "autumn",
+      "spring"
+    ],
+    "sun_elevation_deg": {
+      "min": 0,
+      "max": 10
+    }
+  },
+  "light": {
+    "cct_k": {
+      "min": 6000,
+      "max": 7500
+    },
+    "lux": {
+      "min": 100,
+      "max": 1000
+    },
+    "direction": "diffuse",
+    "quality": "soft",
+    "sources": [
+      "sky"
+    ]
+  },
+  "weather": [
+    "fog"
+  ],
+  "sound": [
+    "dripping needles",
+    "a far bird"
+  ],
+  "scent": [
+    "pine",
+    "moss"
+  ],
+  "people": {
+    "min": 0,
+    "max": 2,
+    "activity": "walk on a path"
+  },
+  "carriers": {
+    "styles": [],
+    "things": [
+      "spruce trunks",
+      "moss",
+      "path"
+    ]
+  },
+  "cues": [
+    "prospect-refuge-preference"
+  ],
+  "scene_ref": null,
+  "sources": [
+    {
+      "title": "Wikipedia, Fog: fog lowers the visibility to less than 1 km",
+      "url": "https://en.wikipedia.org/wiki/Fog"
+    },
+    {
+      "title": "Wikipedia, Lux: table of typical illuminance from moonlight to direct sun",
+      "url": "https://en.wikipedia.org/wiki/Lux"
+    }
+  ]
+}

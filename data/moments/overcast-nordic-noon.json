@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schema/moment.schema.json",
+  "id": "overcast-nordic-noon",
+  "name": "Grey noon under a Nordic overcast sky",
+  "kind": "daily",
+  "description": "A flat white sky gives soft light with no shadows, and the room looks calm and a little muted.",
+  "emotions": [
+    {
+      "emotion": "relaxation",
+      "strength": 1
+    },
+    {
+      "emotion": "sadness",
+      "strength": 0.4
+    },
+    {
+      "emotion": "boredom",
+      "strength": 0.3
+    }
+  ],
+  "time": {
+    "of_day": [
+      "midday"
+    ],
+    "season": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "sun_elevation_deg": {
+      "min": 5,
+      "max": 30
+    }
+  },
+  "light": {
+    "cct_k": {
+      "min": 6000,
+      "max": 7000
+    },
+    "lux": {
+      "min": 100,
+      "max": 1000
+    },
+    "direction": "diffuse",
+    "quality": "soft",
+    "sources": [
+      "sky"
+    ]
+  },
+  "weather": [
+    "overcast"
+  ],
+  "sound": [
+    "rain gutter",
+    "quiet room"
+  ],
+  "scent": [
+    "damp wool"
+  ],
+  "people": {
+    "min": 0,
+    "max": 3,
+    "activity": "work at a table by the window"
+  },
+  "carriers": {
+    "styles": [
+      "scandinavian-interior",
+      "minimalist-interior",
+      "japandi-interior"
+    ],
+    "things": [
+      "white walls",
+      "pale wood",
+      "large window"
+    ]
+  },
+  "cues": [
+    "daylight-windows-wellbeing"
+  ],
+  "scene_ref": null,
+  "sources": [
+    {
+      "title": "Wikipedia, Lux: table of typical illuminance from moonlight to direct sun",
+      "url": "https://en.wikipedia.org/wiki/Lux"
+    },
+    {
+      "title": "Wikipedia, Color temperature: typical values for candle, lamp, daylight and overcast sky",
+      "url": "https://en.wikipedia.org/wiki/Color_temperature"
+    }
+  ]
+}

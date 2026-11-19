@@ -5,13 +5,15 @@
 // The page fills #chips with <button data-go="<id>" aria-pressed> and handles the clicks, as before.
 // The "Styles" button shows only when #chips has buttons, so a page with no styles shows the bar only.
 (() => {
+  // The visitor counter: one file, loaded once for each page (metrika.js).
+  document.head.append(Object.assign(document.createElement("script"), { src: new URL("metrika.js", document.currentScript?.src ?? location.href).href, async: true }));
   // The domains go in a dropdown. The views across all domains stay in the bar.
   const DOMAINS = [
     ["internet.html", "Internet"], ["architecture.html", "Architecture"], ["interior.html", "Interior"], ["industrial.html", "Industrial design"],
     ["photography.html", "Photography"], ["film.html", "Film and video"], ["painting.html", "Painting"],
     ["logo.html", "Logo"], ["icon.html", "Icons"], ["typeface.html", "Typefaces"], ["print.html", "Print"], ["fashion.html", "Fashion"], ["ceramics.html", "Ceramics"], ["cuisine.html", "Cuisine"], ["game.html", "Video games"],
   ];
-  const ACROSS = [["graph.html", "Lineage"], ["techniques.html", "Techniques"], ["people.html", "People"], ["money.html", "Money"]];
+  const ACROSS = [["graph.html", "Lineage"], ["techniques.html", "Techniques"], ["people.html", "People"], ["money.html", "Money"], ["emotions.html", "Emotions"]];
   // A sub-page marks its parent domain as current: the moodboards are part of Interior.
   const PARENT = { "moodboard.html": "interior.html", "objects.html": "interior.html", "fabrics.html": "fashion.html", "glazes.html": "ceramics.html" };
   const file = location.pathname.split("/").pop() || "index.html";
@@ -98,7 +100,7 @@
   /* Narrow: the brand and the GitHub link go, and the views across domains move into the dropdown. */
   @media (max-width: 860px) { .do-bar { padding: 0 8px; gap: 6px; } .do-brand, .do-gh, .do-links { display: none; } .do-menu .do-narrow { display: block; }
     .do-menu hr.do-narrow { display: block; } .do-styles { width: auto; flex: 1 1 auto; min-width: 0; } .do-dom .do-label { max-width: 26vw; overflow: hidden; text-overflow: ellipsis; }
-    .do-bar.do-bare .do-links { display: flex; } }
+    .do-bar.do-bare .do-links { display: flex; flex: 1 1 auto; min-width: 0; overflow-x: auto; scrollbar-width: none; } }
   @media (prefers-reduced-motion: reduce) { .do-drawer, .do-drawer.open, .do-btn { transition: none; } }`;
   if (!document.querySelector('link[href*="family=Onest"]')) {
     const font = document.createElement("link");
@@ -110,7 +112,9 @@
   style.textContent = css;
   document.head.append(style);
   // zoom.js: the image lens. faces.js: the people of each style, and the data for the people views.
-  for (const f of ["zoom.js", "faces.js"]) {
+  // ?embed: the page is inside a frame of another demo page, which has the chrome. Keep the elements, hide them.
+  const EMBED = new URLSearchParams(location.search).has("embed");
+  for (const f of EMBED ? ["zoom.js"] : ["zoom.js", "faces.js"]) {
     if (document.querySelector(`script[src$="${f}"]`)) continue;
     const s = document.createElement("script");
     s.src = new URL(f, document.currentScript?.src || location.href).href;
@@ -146,6 +150,7 @@
 
   const mount = () => {
     document.body.prepend(bar, drawer);
+    if (EMBED) bar.style.display = drawer.style.display = "none";
     const $ = (id) => document.getElementById(id);
     const list = $("chips"), open = $("do-open");
     const setOpen = (on, remember = true) => {
