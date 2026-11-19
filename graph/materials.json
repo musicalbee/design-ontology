@@ -837,8 +837,7 @@
    ],
    "aliases": [
     "glulam",
-    "laminated timber",
-    "cross-laminated timber"
+    "laminated timber"
    ],
    "photo": null,
    "identity": {
@@ -848,6 +847,56 @@
     {
      "title": "Wikipedia: Glued laminated timber",
      "url": "https://en.wikipedia.org/wiki/Glued_laminated_timber"
+    }
+   ],
+   "class": "plant"
+  },
+  {
+   "id": "cross-laminated-timber",
+   "name": "Cross-laminated timber",
+   "family": "engineered-wood",
+   "form": "board",
+   "senses": [],
+   "made_from": [
+    "timber"
+   ],
+   "aliases": [
+    "cross-laminated timber",
+    "clt"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q911043"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Cross-laminated timber",
+     "url": "https://en.wikipedia.org/wiki/Cross-laminated_timber"
+    }
+   ],
+   "class": "plant"
+  },
+  {
+   "id": "laminated-veneer-lumber",
+   "name": "Laminated veneer lumber",
+   "family": "engineered-wood",
+   "form": "board",
+   "senses": [],
+   "made_from": [
+    "veneer"
+   ],
+   "aliases": [
+    "laminated veneer lumber",
+    "lvl"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q5791381"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Laminated veneer lumber",
+     "url": "https://en.wikipedia.org/wiki/Laminated_veneer_lumber"
     }
    ],
    "class": "plant"
@@ -9594,7 +9643,7 @@
   {
    "id": "glass-ceramic",
    "name": "Glass-ceramic",
-   "family": "clay-body",
+   "family": "glass",
    "form": "body",
    "senses": [
     "ceramics.bodies"
@@ -12723,6 +12772,29 @@
    "class": "polymer"
   },
   {
+   "id": "synthetic-resin",
+   "name": "Synthetic resin",
+   "family": "plastic",
+   "form": "liquid",
+   "senses": [],
+   "aliases": [
+    "synthetic resin",
+    "epoxy resin",
+    "polyester resin"
+   ],
+   "photo": null,
+   "identity": {
+    "wikidata": "Q1418040"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Synthetic resin",
+     "url": "https://en.wikipedia.org/wiki/Synthetic_resin"
+    }
+   ],
+   "class": "polymer"
+  },
+  {
    "id": "acoustic-panel",
    "name": "Acoustic panel",
    "family": "board-product",
@@ -12965,7 +13037,8 @@
    ],
    "summary": "Glass fibre in a resin; car bodies used it from 1953 for small series with curved panels.",
    "made_from": [
-    "glass"
+    "glass",
+    "synthetic-resin"
    ],
    "aliases": [
     "fiberglass",
@@ -41140,6 +41213,13 @@
   {
    "style": "mass-timber-architecture",
    "domain": "architecture",
+   "material": "cross-laminated-timber",
+   "use": "primary",
+   "via": "materials.primary: \"cross-laminated timber\""
+  },
+  {
+   "style": "mass-timber-architecture",
+   "domain": "architecture",
    "material": "glulam",
    "use": "primary",
    "via": "materials.primary: \"glulam\""
@@ -41147,7 +41227,7 @@
   {
    "style": "mass-timber-architecture",
    "domain": "architecture",
-   "material": "veneer",
+   "material": "laminated-veneer-lumber",
    "use": "primary",
    "via": "materials.primary: \"laminated veneer lumber\""
   },
