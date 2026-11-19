@@ -1,8 +1,8 @@
 ---
 name: green-screen-short
-description: "Apply the Green-Screen Short style (2020–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: green screen, chroma key, commentary video, news explainer, reaction to a screenshot, stand in front of image."
+description: "Apply the Green-Screen Short style (2020–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: green screen, chroma key, commentary video, news explainer, reaction to a screenshot, stand in front of image."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "green screen"
   - "chroma key"
@@ -24,7 +24,7 @@ vector_profile:
 
 A person stands in front of a screenshot, a map or a photo that fills the whole vertical frame, and talks about it. The creator cuts out the background with the chroma-key tool of a short-video app.
 
-**Period:** 2020–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Green screen video, TikTok green screen, Chroma-key explainer
+**Period:** 2020–now · **Era:** Short video and AI · **Domain:** Internet · **Also called:** Green screen video, TikTok green screen, Chroma-key explainer
 
 ## When to load this skill
 
@@ -39,7 +39,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Green-Screen Short, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Green-Screen Short, you MUST:
 
 1. Fill the 1080 x 1920 px frame with the background image; show the speaker from the waist up at 40% to 55% of the height.
 2. Place the speaker at the left or the right third; keep the key area of the image free.

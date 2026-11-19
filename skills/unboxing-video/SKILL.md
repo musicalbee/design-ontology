@@ -1,8 +1,8 @@
 ---
 name: unboxing-video
-description: "Apply the Unboxing Video style (2006–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: unboxing, first look, product reveal, open the box, hands-on video, new gadget."
+description: "Apply the Unboxing Video style (2006–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: unboxing, first look, product reveal, open the box, hands-on video, new gadget."
 domain: internet
-era: postmodern-early-digital
+era: web-2-social
 triggers:
   - "unboxing"
   - "first look"
@@ -24,7 +24,7 @@ vector_profile:
 
 A fixed top-down shot of a table. Two hands open a box and lift out a product, and a voice names each part. The look is plain on purpose, so the object is the star.
 
-**Period:** 2006–now · **Era:** Postmodern & Early Digital · **Domain:** Internet · **Also called:** Unboxing, Product reveal, First look
+**Period:** 2006–now · **Era:** Web 2.0 and the social web · **Domain:** Internet · **Also called:** Unboxing, Product reveal, First look
 
 ## When to load this skill
 
@@ -39,7 +39,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Unboxing Video, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Unboxing Video, you MUST:
 
 1. Fix the camera above the table at 90° and frame the box at 40% to 60% of the picture height.
 2. Use a plain ground in light grey or white (#F2EFE9) with no pattern and no props.

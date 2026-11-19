@@ -1,8 +1,8 @@
 ---
 name: deepfake-face-swap
-description: "Apply the Deepfake Face Swap style (2017–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: deepfake, face swap, synthetic video, landmark overlay, face tracking, media forensics."
+description: "Apply the Deepfake Face Swap style (2017–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: deepfake, face swap, synthetic video, landmark overlay, face tracking, media forensics."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "deepfake"
   - "face swap"
@@ -24,7 +24,7 @@ vector_profile:
 
 Video in which a face region is replaced by a generated one, with a soft blend seam and a check overlay of landmark dots. The form spread after 2017 through open code and phone apps.
 
-**Period:** 2017–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Face swap, Synthetic face video, Deepfake
+**Period:** 2017–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Face swap, Synthetic face video, Deepfake
 
 ## When to load this skill
 
@@ -39,7 +39,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Deepfake Face Swap, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Deepfake Face Swap, you MUST:
 
 1. Frame one face at 30% to 60% of the frame height, near-frontal, with even light.
 2. Blend the replaced area with a feathered edge of 8px to 24px; let a faint colour mismatch of 3% to 6% show at the jaw.

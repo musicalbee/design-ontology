@@ -146,8 +146,8 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
     }
     process.exit(0);
   }
-  if (domain.id !== "internet") {
-    console.error(`The derivation is built for the internet domain only. "${style.id}" is in "${domain.id}"; its knobs are in domains/${domain.id}.json.`);
+  if (!domain.knobs.some((k) => k.token)) {
+    console.error(`The derivation is built for the domains whose knobs set CSS tokens (internet, graphic-movement). "${style.id}" is in "${domain.id}"; its knobs are in domains/${domain.id}.json.`);
     process.exit(1);
   }
   const values = knobDefaults(style, domain);

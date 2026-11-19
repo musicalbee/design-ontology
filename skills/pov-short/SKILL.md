@@ -1,8 +1,8 @@
 ---
 name: pov-short
-description: "Apply the POV Short style (2020–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: pov, point of view video, pov skit, you are the, first person clip, pov:."
+description: "Apply the POV Short style (2020–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: pov, point of view video, pov skit, you are the, first person clip, pov:."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "pov"
   - "point of view video"
@@ -24,7 +24,7 @@ vector_profile:
 
 A short clip that shows a scene as if the viewer is a character: the camera is the viewer's eyes and the actor talks straight to the lens. A text line that starts with "POV:" sets the scene.
 
-**Period:** 2020–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** POV video, POV skit, First-person clip
+**Period:** 2020–now · **Era:** Short video and AI · **Domain:** Internet · **Also called:** POV video, POV skit, First-person clip
 
 ## When to load this skill
 
@@ -39,7 +39,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in POV Short, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in POV Short, you MUST:
 
 1. Start the clip with a title line that begins with "POV:" at 48 px, centred at 18% of the frame height.
 2. Shoot with a phone held at eye level, a wide lens of 24 mm equivalent, and a small, steady shake.

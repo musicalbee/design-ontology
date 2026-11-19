@@ -1,8 +1,8 @@
 ---
 name: lets-play-facecam
-description: "Apply the Let's Play Facecam style (2010–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: let's play, facecam, gameplay video, reaction cam, gamer channel, commentary over gameplay."
+description: "Apply the Let's Play Facecam style (2010–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: let's play, facecam, gameplay video, reaction cam, gamer channel, commentary over gameplay."
 domain: internet
-era: touchscreen
+era: web-2-social
 triggers:
   - "let's play"
   - "facecam"
@@ -24,7 +24,7 @@ vector_profile:
 
 Game footage fills the frame and a small live window of the player's face sits in one corner. The face reacts, and loud captions and zoom cuts push the mood.
 
-**Period:** 2010–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Gameplay with facecam, Reaction cam, Gamer commentary
+**Period:** 2010–now · **Era:** Web 2.0 and the social web · **Domain:** Internet · **Also called:** Gameplay with facecam, Reaction cam, Gamer commentary
 
 ## When to load this skill
 
@@ -39,7 +39,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Let's Play Facecam, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Let's Play Facecam, you MUST:
 
 1. Fill the frame with game footage and set the facecam window at 18% to 25% of the frame width.
 2. Place the facecam in a corner at 24px from each edge and keep it there for the full clip.
@@ -284,7 +284,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`livestream-overlay`](../livestream-overlay/SKILL.md), [`video-essay`](../video-essay/SKILL.md)
 - **Mixes well with:** [`clickbait-thumbnail`](../clickbait-thumbnail/SKILL.md), [`pixel-art-web`](../pixel-art-web/SKILL.md)
 - **Kin in another domain:** [`creator-vlog`](../creator-vlog/SKILL.md)
-- **Nearest by vector profile:** [`lip-sync-dance-short`](../lip-sync-dance-short/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md)
+- **Nearest by vector profile:** [`lip-sync-dance-short`](../lip-sync-dance-short/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`chat-sticker-pack`](../chat-sticker-pack/SKILL.md)
 
 ## Emotional target
 

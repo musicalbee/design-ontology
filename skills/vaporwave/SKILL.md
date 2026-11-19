@@ -1,8 +1,8 @@
 ---
 name: vaporwave
-description: "Apply the Vaporwave style (2012–2016) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: vaporwave, aesthetic, retro 80s, retro 90s, neon sunset, synthwave."
+description: "Apply the Vaporwave style (2012–2016) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: vaporwave, aesthetic, retro 80s, retro 90s, neon sunset, synthwave."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "vaporwave"
   - "aesthetic"
@@ -27,7 +27,7 @@ vector_profile:
 
 Pink and cyan gradients, Greek busts, palm trees, Japanese text, 1990s desktop windows and a sunset grid. It came from online music scenes around 2011 and looks at 1980s and 1990s consumer dreams with irony.
 
-**Period:** 2012–2016 · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Vapourwave, Aesthetic, A E S T H E T I C
+**Period:** 2012–2016 · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Vapourwave, Aesthetic, A E S T H E T I C
 
 ## When to load this skill
 
@@ -42,7 +42,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Vaporwave, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Vaporwave, you MUST:
 
 1. Set a gradient from magenta (#FF71CE) through violet to cyan (#01CDFE) at 135° across the hero.
 2. Draw a perspective grid floor of 2px lines in cyan or pink with a horizon at 55% to 65% of the viewport height.

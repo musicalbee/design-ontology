@@ -1,8 +1,8 @@
 ---
 name: ai-avatar-portrait
-description: "Apply the AI Avatar Portrait style (2022–2024) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: ai avatar, magic avatars, lensa look, avatar pack, stylised selfie, profile picture ai."
+description: "Apply the AI Avatar Portrait style (2022–2024) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: ai avatar, magic avatars, lensa look, avatar pack, stylised selfie, profile picture ai."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "ai avatar"
   - "magic avatars"
@@ -24,7 +24,7 @@ vector_profile:
 
 A set of 20 stylised portraits of one face in many looks: fantasy, anime, space and painting. Phone apps made the form common at the end of 2022.
 
-**Period:** 2022–2024 · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Magic avatars, Avatar pack, Stylised AI selfie
+**Period:** 2022–2024 · **Era:** Short video and AI · **Domain:** Internet · **Also called:** Magic avatars, Avatar pack, Stylised AI selfie
 
 ## When to load this skill
 
@@ -39,7 +39,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in AI Avatar Portrait, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in AI Avatar Portrait, you MUST:
 
 1. Show a pack as a 4x5 grid of 20 square tiles, each 160px with a 6px gap.
 2. Keep the same face in every tile and change the world around it: costume, ground and colour grade.

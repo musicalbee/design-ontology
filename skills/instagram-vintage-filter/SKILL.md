@@ -1,8 +1,8 @@
 ---
 name: instagram-vintage-filter
-description: "Apply the Instagram Vintage Filter style (2010–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: instagram filter, vintage filter, valencia, x-pro, polaroid look, square photo."
+description: "Apply the Instagram Vintage Filter style (2010–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: instagram filter, vintage filter, valencia, x-pro, polaroid look, square photo."
 domain: internet
-era: touchscreen
+era: web-2-social
 triggers:
   - "instagram filter"
   - "vintage filter"
@@ -26,7 +26,7 @@ vector_profile:
 
 A phone photo in a square 1:1 frame with a one-tap filter: warm fade, lifted blacks, a dark vignette and a thick white border. It made a phone snapshot look like an old print.
 
-**Period:** 2010–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Filter look, Valencia and X-Pro II, Square retro photo
+**Period:** 2010–now · **Era:** Web 2.0 and the social web · **Domain:** Internet · **Also called:** Filter look, Valencia and X-Pro II, Square retro photo
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Instagram Vintage Filter, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Instagram Vintage Filter, you MUST:
 
 1. Crop every photo to a 1:1 square and show it at full width, 640px on the first apps.
 2. Fade the blacks to 10% to 15% grey and push the highlights toward amber (#E8B866) at 20% to 30% strength.

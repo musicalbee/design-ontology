@@ -1738,6 +1738,29 @@
       "relations": {}
     },
     {
+      "id": "duke-university",
+      "name": "Duke University",
+      "kind": "school",
+      "founded": 1838,
+      "closed": null,
+      "place": "Durham, North Carolina",
+      "summary": "A university in North Carolina. Two of its graduate students planned Usenet there in 1979.",
+      "wikidata": null,
+      "styles": [
+        {
+          "style": "usenet-thread",
+          "part": "launched"
+        }
+      ],
+      "people": [],
+      "members": [],
+      "affiliates": [],
+      "emblem": null,
+      "statement": null,
+      "moves": [],
+      "relations": {}
+    },
+    {
       "id": "glasgow-pottery",
       "name": "Glasgow Pottery (J. and M. P. Bell)",
       "kind": "company",
@@ -10062,12 +10085,16 @@
       "founded": 1999,
       "closed": null,
       "place": "web",
-      "summary": "A large anonymous Japanese message board. Its users spread text faces, and many kaomoji began or grew in its threads.",
+      "summary": "A large anonymous Japanese text board. Its users spread text faces, and Futaba Channel, the model for 4chan, began in 2001 as a refuge for its users.",
       "wikidata": "Q222909",
       "styles": [
         {
           "style": "kaomoji-emoticon",
           "part": "gathered"
+        },
+        {
+          "style": "anonymous-imageboard",
+          "part": "shaped"
         }
       ],
       "people": [],
@@ -10095,6 +10122,29 @@
         {
           "style": "minimalist-interior",
           "part": "published"
+        }
+      ],
+      "people": [],
+      "members": [],
+      "affiliates": [],
+      "emblem": null,
+      "statement": null,
+      "moves": [],
+      "relations": {}
+    },
+    {
+      "id": "phpbb",
+      "name": "phpBB",
+      "kind": "platform",
+      "founded": 2000,
+      "closed": null,
+      "place": "web",
+      "summary": "A free and open-source forum program, made by a development team. Its default theme, subSilver, gave many later forum themes their look.",
+      "wikidata": null,
+      "styles": [
+        {
+          "style": "bulletin-board-forum",
+          "part": "made"
         }
       ],
       "people": [],
@@ -10226,6 +10276,10 @@
         {
           "style": "wojak-feels",
           "part": "published"
+        },
+        {
+          "style": "anonymous-imageboard",
+          "part": "launched"
         }
       ],
       "people": [],
@@ -10648,6 +10702,10 @@
         {
           "style": "deep-fried-meme",
           "part": "published"
+        },
+        {
+          "style": "reddit-thread",
+          "part": "launched"
         }
       ],
       "people": [],
@@ -12325,6 +12383,29 @@
         "credit": "Xeiia19",
         "trademark": false
       },
+      "statement": null,
+      "moves": [],
+      "relations": {}
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "kind": "platform",
+      "founded": 2015,
+      "closed": null,
+      "place": "web",
+      "summary": "A chat app for communities, with servers, text channels and voice channels.",
+      "wikidata": null,
+      "styles": [
+        {
+          "style": "discord-server",
+          "part": "launched"
+        }
+      ],
+      "people": [],
+      "members": [],
+      "affiliates": [],
+      "emblem": null,
       "statement": null,
       "moves": [],
       "relations": {}
@@ -14989,100 +15070,6 @@
   ],
   "edges": [],
   "by_style": {
-    "victorian-web": [
-      {
-        "org": "great-exhibition",
-        "part": "exhibited"
-      }
-    ],
-    "art-nouveau-web": [
-      {
-        "org": "maison-de-l-art-nouveau",
-        "part": "launched"
-      }
-    ],
-    "de-stijl-web": [
-      {
-        "org": "de-stijl-magazine",
-        "part": "launched"
-      }
-    ],
-    "bauhaus": [
-      {
-        "org": "bauhaus-school",
-        "part": "taught"
-      },
-      {
-        "org": "thuringian-state-government",
-        "part": "funded"
-      }
-    ],
-    "constructivism-web": [
-      {
-        "org": "lef-journal",
-        "part": "launched"
-      }
-    ],
-    "art-deco-web": [
-      {
-        "org": "exposition-arts-decoratifs-1925",
-        "part": "launched"
-      }
-    ],
-    "mid-century-modern": [
-      {
-        "org": "herman-miller",
-        "part": "made"
-      },
-      {
-        "org": "festival-of-britain",
-        "part": "exhibited"
-      },
-      {
-        "org": "uk-government",
-        "part": "funded"
-      }
-    ],
-    "swiss-international": [
-      {
-        "org": "neue-grafik",
-        "part": "published"
-      }
-    ],
-    "japanese-graphic-modernism": [
-      {
-        "org": "idea-magazine",
-        "part": "published"
-      }
-    ],
-    "rams-functionalism-ui": [
-      {
-        "org": "braun",
-        "part": "launched"
-      },
-      {
-        "org": "hfg-ulm",
-        "part": "taught"
-      }
-    ],
-    "pop-art-web": [
-      {
-        "org": "leo-castelli-gallery",
-        "part": "exhibited"
-      }
-    ],
-    "space-age": [
-      {
-        "org": "new-york-worlds-fair-1964",
-        "part": "exhibited"
-      }
-    ],
-    "psychedelic": [
-      {
-        "org": "san-francisco-oracle",
-        "part": "published"
-      }
-    ],
     "cassette-futurism": [
       {
         "org": "heavy-metal-magazine",
@@ -15100,6 +15087,12 @@
       },
       {
         "org": "sniffin-glue",
+        "part": "launched"
+      }
+    ],
+    "usenet-thread": [
+      {
+        "org": "duke-university",
         "part": "launched"
       }
     ],
@@ -15145,6 +15138,12 @@
         "part": "launched"
       }
     ],
+    "bulletin-board-forum": [
+      {
+        "org": "phpbb",
+        "part": "made"
+      }
+    ],
     "portal-table-layout": [
       {
         "org": "yahoo",
@@ -15183,6 +15182,16 @@
         "part": "launched"
       }
     ],
+    "anonymous-imageboard": [
+      {
+        "org": "2channel",
+        "part": "shaped"
+      },
+      {
+        "org": "4chan",
+        "part": "launched"
+      }
+    ],
     "myspace-profile": [
       {
         "org": "myspace",
@@ -15209,6 +15218,12 @@
       {
         "org": "web-2-0-conference",
         "part": "gathered"
+      }
+    ],
+    "reddit-thread": [
+      {
+        "org": "reddit",
+        "part": "launched"
       }
     ],
     "impact-image-macro": [
@@ -15463,6 +15478,12 @@
       {
         "org": "github",
         "part": "published"
+      }
+    ],
+    "discord-server": [
+      {
+        "org": "discord",
+        "part": "launched"
       }
     ],
     "tweet-screenshot-meme": [
@@ -17202,6 +17223,100 @@
       },
       {
         "org": "hato-press",
+        "part": "published"
+      }
+    ],
+    "victorian-web": [
+      {
+        "org": "great-exhibition",
+        "part": "exhibited"
+      }
+    ],
+    "art-nouveau-web": [
+      {
+        "org": "maison-de-l-art-nouveau",
+        "part": "launched"
+      }
+    ],
+    "de-stijl-web": [
+      {
+        "org": "de-stijl-magazine",
+        "part": "launched"
+      }
+    ],
+    "bauhaus": [
+      {
+        "org": "bauhaus-school",
+        "part": "taught"
+      },
+      {
+        "org": "thuringian-state-government",
+        "part": "funded"
+      }
+    ],
+    "constructivism-web": [
+      {
+        "org": "lef-journal",
+        "part": "launched"
+      }
+    ],
+    "art-deco-web": [
+      {
+        "org": "exposition-arts-decoratifs-1925",
+        "part": "launched"
+      }
+    ],
+    "mid-century-modern": [
+      {
+        "org": "herman-miller",
+        "part": "made"
+      },
+      {
+        "org": "festival-of-britain",
+        "part": "exhibited"
+      },
+      {
+        "org": "uk-government",
+        "part": "funded"
+      }
+    ],
+    "swiss-international": [
+      {
+        "org": "neue-grafik",
+        "part": "published"
+      }
+    ],
+    "japanese-graphic-modernism": [
+      {
+        "org": "idea-magazine",
+        "part": "published"
+      }
+    ],
+    "rams-functionalism-ui": [
+      {
+        "org": "braun",
+        "part": "launched"
+      },
+      {
+        "org": "hfg-ulm",
+        "part": "taught"
+      }
+    ],
+    "pop-art-web": [
+      {
+        "org": "leo-castelli-gallery",
+        "part": "exhibited"
+      }
+    ],
+    "space-age": [
+      {
+        "org": "new-york-worlds-fair-1964",
+        "part": "exhibited"
+      }
+    ],
+    "psychedelic": [
+      {
+        "org": "san-francisco-oracle",
         "part": "published"
       }
     ],

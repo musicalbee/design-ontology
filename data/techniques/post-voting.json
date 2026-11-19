@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "post-voting",
+  "name": "Post voting",
+  "aliases": [
+    "Upvote",
+    "Social voting"
+  ],
+  "kind": "technology",
+  "summary": "Readers vote a post up or down, and the score sets the order in which the posts show.",
+  "how": [
+    "Put an up and a down control beside each post.",
+    "Show the net score between the two controls.",
+    "Sort the list by the score, or by the score and the age."
+  ],
+  "origin": {
+    "domain": "internet",
+    "year": 2004,
+    "where": "web",
+    "note": "Digg, launched in 2004, lets its users vote links up (digging) or down (burying). This record dates the technique from Digg."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 2005,
+      "via": "Reddit adds up and down votes on each post and on each comment.",
+      "styles": [
+        "reddit-thread"
+      ]
+    }
+  ],
+  "styles": [
+    "reddit-thread"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Digg",
+      "url": "https://en.wikipedia.org/wiki/Digg"
+    },
+    {
+      "title": "Wikipedia: Reddit",
+      "url": "https://en.wikipedia.org/wiki/Reddit"
+    }
+  ]
+}

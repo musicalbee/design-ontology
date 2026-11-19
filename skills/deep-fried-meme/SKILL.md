@@ -1,8 +1,8 @@
 ---
 name: deep-fried-meme
-description: "Apply the Deep-fried meme style (2017–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: deep fried meme, deep fried, jpeg crunch, fried image, burnt saturation, laugh cry emoji meme."
+description: "Apply the Deep-fried meme style (2017–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: deep fried meme, deep fried, jpeg crunch, fried image, burnt saturation, laugh cry emoji meme."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "deep fried meme"
   - "deep fried"
@@ -25,7 +25,7 @@ vector_profile:
 
 A meme picture pushed through many rounds of saving, sharpening and colour boost until it shows heavy JPEG blocks, burnt reds and yellows, lens flares and glowing emoji. It spread on Reddit and Tumblr in 2017.
 
-**Period:** 2017–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Deep fried, Fried meme, Crunchy meme
+**Period:** 2017–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Deep fried, Fried meme, Crunchy meme
 
 ## When to load this skill
 
@@ -39,7 +39,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Deep-fried meme, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Deep-fried meme, you MUST:
 
 1. Recompress the image to JPEG quality 5 to 15, 3 to 10 times, with a resize of 50% and 200% between rounds.
 2. Raise saturation by 150% to 300% and contrast by 40% to 80% until the reds burn.

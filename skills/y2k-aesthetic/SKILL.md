@@ -1,8 +1,8 @@
 ---
 name: y2k-aesthetic
-description: "Apply the Y2K Aesthetic style (1997–2004) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: y2k, 2000s, millennium, chrome, cyber, dot-com."
+description: "Apply the Y2K Aesthetic style (1997–2004) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: y2k, 2000s, millennium, chrome, cyber, dot-com."
 domain: internet
-era: postmodern-early-digital
+era: web-1
 triggers:
   - "y2k"
   - "2000s"
@@ -30,7 +30,7 @@ vector_profile:
 
 Chrome and translucent plastic, bubble shapes, silver and electric blue, and small pixel and tech type on cold gradients. It came from the dot-com boom and the first iMac in 1998, and it pictured the year 2000 as a clean, shiny future.
 
-**Period:** 1997–2004 · **Era:** Postmodern & Early Digital · **Domain:** Internet · **Also called:** Millennium Futurism, Cyber Y2K, Techno-Optimism 2000, Web 1.5 Chrome
+**Period:** 1997–2004 · **Era:** Web 1.0 · **Domain:** Internet · **Also called:** Millennium Futurism, Cyber Y2K, Techno-Optimism 2000, Web 1.5 Chrome
 
 ## When to load this skill
 
@@ -45,7 +45,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Y2K Aesthetic, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Y2K Aesthetic, you MUST:
 
 1. Fill large areas with vertical or radial gradients that run from a pale tint to a saturated hue, over a 40% to 60% lightness range.
 2. Make buttons and badges as glossy pills with a radius of 999px and a white highlight that covers the upper 45% of the shape.

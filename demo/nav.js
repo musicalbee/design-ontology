@@ -8,11 +8,18 @@
   // The visitor counter: one file, loaded once for each page (metrika.js).
   document.head.append(Object.assign(document.createElement("script"), { src: new URL("metrika.js", document.currentScript?.src ?? location.href).href, async: true }));
   // The domains go in a dropdown. The views across all domains stay in the bar.
-  const DOMAINS = [
-    ["internet.html", "Internet"], ["architecture.html", "Architecture"], ["interior.html", "Interior"], ["industrial.html", "Industrial design"],
-    ["photography.html", "Photography"], ["film.html", "Film and video"], ["painting.html", "Painting"],
-    ["logo.html", "Logo"], ["icon.html", "Icons"], ["typeface.html", "Typefaces"], ["print.html", "Print"], ["fashion.html", "Fashion"], ["ceramics.html", "Ceramics"], ["cuisine.html", "Cuisine"], ["game.html", "Video games"],
+  // Two families of domains (domains/<id>.json `family`) get a heading each: graphic design is the printed
+  // page and the mark, internet is screen culture. The other domains follow with no heading.
+  const FAMILIES = [
+    ["Graphic design", [["graphic-movement.html", "Graphic movements"], ["typeface.html", "Typefaces"], ["logo.html", "Logo"], ["print.html", "Print"]]],
+    ["Internet", [["internet.html", "Internet"], ["icon.html", "Icons"]]],
   ];
+  const OTHER = [
+    ["architecture.html", "Architecture"], ["interior.html", "Interior"], ["industrial.html", "Industrial design"],
+    ["photography.html", "Photography"], ["film.html", "Film and video"], ["painting.html", "Painting"],
+    ["fashion.html", "Fashion"], ["ceramics.html", "Ceramics"], ["cuisine.html", "Cuisine"], ["game.html", "Video games"],
+  ];
+  const DOMAINS = [...FAMILIES.flatMap(([, ds]) => ds), ...OTHER];
   const ACROSS = [["graph.html", "Lineage"], ["techniques.html", "Techniques"], ["people.html", "People"], ["orgs.html", "Orgs"], ["money.html", "Money"], ["emotions.html", "Emotions"]];
   // A sub-page marks its parent domain as current: the moodboards are part of Interior.
   const PARENT = { "moodboard.html": "interior.html", "objects.html": "interior.html", "fabrics.html": "fashion.html", "glazes.html": "ceramics.html" };
@@ -65,6 +72,9 @@
   .do-menu a:hover { background: var(--hv-subtle); color: var(--hv-heading); }
   .do-menu a[aria-current="page"] { color: var(--hv-accent); background: var(--hv-muted-bg); font-weight: 600; }
   .do-menu a[aria-current="page"]::after { content: "✓"; float: right; margin-left: 16px; }
+  .do-menu .do-fam { padding: 8px 12px 2px; color: var(--hv-ink-muted); font-size: 12px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; }
+  .do-menu .do-fam ~ a { padding-left: 20px; }
+  .do-menu hr ~ a { padding-left: 12px; }
   .do-menu hr { border: 0; border-top: 1px solid var(--hv-line); margin: 5px 6px; }
   .do-menu .do-narrow { display: none; }
   .do-links a, .do-gh { color: var(--hv-ink-muted); text-decoration: none; padding: 7px 12px; border-radius: 999px; white-space: nowrap; }
@@ -130,7 +140,7 @@
   const chev = `<svg class="do-chev" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg>`;
   const menu = `<div class="do-dom"><button class="do-btn" id="do-dom" aria-expanded="false" aria-controls="do-menu" aria-haspopup="true">` +
     `<span class="do-label">${current ? current[1] : "Domains"}</span>${chev}</button>` +
-    `<nav class="do-menu" id="do-menu" aria-label="Domains" hidden>${a(["index.html", "All domains"])}<hr>${DOMAINS.map((d) => a(d)).join("")}` +
+    `<nav class="do-menu" id="do-menu" aria-label="Domains" hidden>${a(["index.html", "All domains"])}<hr>${FAMILIES.map(([fam, ds]) => `<span class="do-fam">${fam}</span>${ds.map((d) => a(d)).join("")}`).join("")}<hr>${OTHER.map((d) => a(d)).join("")}` +
     `<hr class="do-narrow">${ACROSS.map((d) => a(d, "do-narrow")).join("")}</nav></div>`;
   const links = ACROSS.map((d) => a(d)).join("");
   const icon = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><rect x="1.8" y="2.5" width="12.4" height="11" rx="2"/><path d="M6 2.5v11M8.5 6h3.5M8.5 9h2.5"/></svg>`;

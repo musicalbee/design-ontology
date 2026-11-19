@@ -1,8 +1,8 @@
 ---
 name: flat-lay-feed
-description: "Apply the Flat Lay Feed style (2014–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: flat lay, flatlay, overhead shot, top-down photo, knolling, marble background."
+description: "Apply the Flat Lay Feed style (2014–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: flat lay, flatlay, overhead shot, top-down photo, knolling, marble background."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "flat lay"
   - "flatlay"
@@ -26,7 +26,7 @@ vector_profile:
 
 Objects arranged on a flat surface and shot from straight above: coffee, a notebook, flowers, a phone. Marble or linen fills the ground, light is soft, and props sit in neat clusters with empty space.
 
-**Period:** 2014–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Flat lay, Overhead still life, Knolling feed
+**Period:** 2014–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Flat lay, Overhead still life, Knolling feed
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Flat Lay Feed, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Flat Lay Feed, you MUST:
 
 1. Shoot at 90° from directly above and fill the square frame with one surface.
 2. Use a pale ground: white marble (#F6F5F2), light oak or linen, lit by a window at 45° to the side.

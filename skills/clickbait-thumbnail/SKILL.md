@@ -1,8 +1,8 @@
 ---
 name: clickbait-thumbnail
-description: "Apply the Clickbait Thumbnail style (2012–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: thumbnail, clickbait, youtube cover, shocked face, red arrow, viral cover."
+description: "Apply the Clickbait Thumbnail style (2012–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: thumbnail, clickbait, youtube cover, shocked face, red arrow, viral cover."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "thumbnail"
   - "clickbait"
@@ -25,7 +25,7 @@ vector_profile:
 
 A small still that must win a click at 168px wide. It has a huge face with an open mouth, a red arrow or circle, bright colours and 1 to 3 words in a thick outline.
 
-**Period:** 2012–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** YouTube thumbnail, Reaction face thumbnail, MrBeast-style thumbnail
+**Period:** 2012–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** YouTube thumbnail, Reaction face thumbnail, MrBeast-style thumbnail
 
 ## When to load this skill
 
@@ -40,7 +40,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Clickbait Thumbnail, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Clickbait Thumbnail, you MUST:
 
 1. Make the image 1280x720 and test it at 168px wide before you ship it.
 2. Fill 40% to 60% of the frame with one face at a strong expression, cut out with a 6px white edge.
@@ -273,12 +273,11 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more honest**: move toward [`unboxing-video`](../unboxing-video/SKILL.md) (Unboxing Video). Show the real product on a plain table with a short label and no face.
 - If the user asks for **more text**: move toward [`word-caption-clip`](../word-caption-clip/SKILL.md) (Word Caption Clip). Replace the arrow with a caption of 4 words and a highlighted key word.
 
-- **Came from (go here for a more orthodox version):** [`pop-art-web`](../pop-art-web/SKILL.md)
 - **Led to (go here for a newer version):** [`word-caption-clip`](../word-caption-clip/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`minimalism-web`](../minimalism-web/SKILL.md)
 - **Was rejected by:** [`video-essay`](../video-essay/SKILL.md)
 - **Mixes well with:** [`lets-play-facecam`](../lets-play-facecam/SKILL.md)
-- **Kin in another domain:** [`vertical-short-form`](../vertical-short-form/SKILL.md)
+- **Kin in another domain:** [`pop-art-web`](../pop-art-web/SKILL.md), [`vertical-short-form`](../vertical-short-form/SKILL.md)
 - **Nearest by vector profile:** [`cyberdelia`](../cyberdelia/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`glitchcore`](../glitchcore/SKILL.md)
 
 ## Emotional target

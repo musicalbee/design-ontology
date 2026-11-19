@@ -1,8 +1,8 @@
 ---
 name: neumorphism
-description: "Apply the Neumorphism style (2019–2021) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: neumorphism, neumorphic, soft ui, extruded, embossed buttons, inset shadows."
+description: "Apply the Neumorphism style (2019–2021) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: neumorphism, neumorphic, soft ui, extruded, embossed buttons, inset shadows."
 domain: internet
-era: contemporary-spatial
+era: feed-mobile
 triggers:
   - "neumorphism"
   - "neumorphic"
@@ -27,7 +27,7 @@ vector_profile:
 
 Monochrome surfaces that look extruded from or pressed into the background, made with a light shadow and a dark shadow on opposite corners. It appeared on Dribbble in late 2019 as a soft answer to flat design.
 
-**Period:** 2019–2021 · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Soft UI, New Skeuomorphism
+**Period:** 2019–2021 · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Soft UI, New Skeuomorphism
 
 ## When to load this skill
 
@@ -42,7 +42,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Neumorphism, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Neumorphism, you MUST:
 
 1. Give the background and every surface the same fill, so that shadows alone define the shape.
 2. Pair two shadows on each raised element: a dark one at 8px 8px 16px and a light one at -8px -8px 16px, with a light source at the top left.

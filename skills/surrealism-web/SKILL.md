@@ -1,8 +1,8 @@
 ---
 name: surrealism-web
-description: "Apply the Surrealism Web style (2016–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: surreal, surrealism, dream, impossible, floating, magritte."
+description: "Apply the Surrealism Web style (2016–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: surreal, surrealism, dream, impossible, floating, magritte."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "surreal"
   - "surrealism"
@@ -26,7 +26,7 @@ vector_profile:
 
 Impossible scenes with plain, calm rendering: floating objects, odd scale, melting forms, clouds in rooms and shadows that disagree. Logic bends while the interface stays usable.
 
-**Period:** 2016–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Surreal web, Dream logic UI, Impossible scenes
+**Period:** 2016–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Surreal web, Dream logic UI, Impossible scenes
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Surrealism Web, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Surrealism Web, you MUST:
 
 1. Build each hero from one impossible scene: an object at the wrong scale, a floating form or a landscape in a room.
 2. Render with soft, even light, long shadows (a 25° to 45° angle) and calm, clean edges; the strange part is what is shown, not how.
@@ -251,7 +251,7 @@ A shadow far longer than its object, cast by a low sun, so that a still scene fe
 
 ### Photomontage (montage)
 
-Fragments of photographs, cut and joined on one sheet, so that the joins make a statement that no single photograph makes. Origin: internet, Berlin, 1918.
+Fragments of photographs, cut and joined on one sheet, so that the joins make a statement that no single photograph makes. Origin: graphic movements, Berlin, 1918.
 
 - Join 3 to 12 photographic fragments on one ground and keep the cut edges hard and visible.
 - Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.

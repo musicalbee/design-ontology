@@ -1,8 +1,8 @@
 ---
 name: pixel-art-web
-description: "Apply the Pixel Art Web style (2010–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: pixel art, 8-bit, 16-bit, retro game, sprite, bitmap."
+description: "Apply the Pixel Art Web style (2010–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: pixel art, 8-bit, 16-bit, retro game, sprite, bitmap."
 domain: internet
-era: touchscreen
+era: web-2-social
 triggers:
   - "pixel art"
   - "8-bit"
@@ -26,7 +26,7 @@ vector_profile:
 
 Blocky sprites, a limited palette, hard pixel edges, bitmap type and game-style panels. It borrows from 8-bit and 16-bit games and makes a page feel like a game screen.
 
-**Period:** 2010–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Pixel UI, 8-bit web, Retro game UI
+**Period:** 2010–now · **Era:** Web 2.0 and the social web · **Domain:** Internet · **Also called:** Pixel UI, 8-bit web, Retro game UI
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Pixel Art Web, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Pixel Art Web, you MUST:
 
 1. Draw art on a base grid of 8px or 16px sprites and scale only by whole numbers (2x, 3x, 4x).
 2. Limit the palette to 8 to 16 colours; use 1 outline colour and no more than 3 tones per material.

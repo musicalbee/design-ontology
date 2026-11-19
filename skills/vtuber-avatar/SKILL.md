@@ -1,8 +1,8 @@
 ---
 name: vtuber-avatar
-description: "Apply the VTuber Avatar style (2016–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: vtuber, virtual youtuber, anime avatar, live2d, virtual idol, character streamer."
+description: "Apply the VTuber Avatar style (2016–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: vtuber, virtual youtuber, anime avatar, live2d, virtual idol, character streamer."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "vtuber"
   - "virtual youtuber"
@@ -25,7 +25,7 @@ vector_profile:
 
 A drawn anime-style character takes the place of the host. A face tracker moves the eyes, mouth and head in real time. Pastel panels, sparkle and cute rounded frames hold the scene.
 
-**Period:** 2016–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Virtual YouTuber, VTuber, Live2D streamer
+**Period:** 2016–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Virtual YouTuber, VTuber, Live2D streamer
 
 ## When to load this skill
 
@@ -40,7 +40,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in VTuber Avatar, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in VTuber Avatar, you MUST:
 
 1. Place the avatar at 40% to 55% of the frame height, centred or at one third of the width.
 2. Track blinks, mouth shapes and head tilt at 30 fps or more, with a lag under 100ms.

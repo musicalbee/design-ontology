@@ -1,8 +1,8 @@
 ---
 name: minimalism-web
-description: "Apply the Minimalism Web style (2012–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: minimal, minimalism, clean, simple, white space, less is more."
+description: "Apply the Minimalism Web style (2012–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: minimal, minimalism, clean, simple, white space, less is more."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "minimal"
   - "minimalism"
@@ -26,7 +26,7 @@ vector_profile:
 
 A page with one idea per screen: few elements, much space, one type family and one accent. Every part must earn its place; what stays is clear, calm and fast.
 
-**Period:** 2012–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Minimal web, Less is more UI, Quiet web
+**Period:** 2012–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Minimal web, Less is more UI, Quiet web
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Minimalism Web, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Minimalism Web, you MUST:
 
 1. Show one idea, one action and one image or none per screen.
 2. Use 60% to 75% of the surface as empty space; the spacing scale is 8, 16, 32, 64 and 128px.
@@ -238,7 +238,7 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Modular grid (process)
 
-A page or screen divided into equal columns and rows; each element fits a cell or a block of cells, so that the whole layout repeats one measure. Origin: internet, Zurich, c. 1958.
+A page or screen divided into equal columns and rows; each element fits a cell or a block of cells, so that the whole layout repeats one measure. Origin: graphic movements, Zurich, c. 1958.
 
 - Divide the page into 4 to 12 equal columns with a gutter of 1/10 to 1/5 of a column width.
 - Cut the page into rows of the same module height; align each image and text block to the lines.
@@ -271,12 +271,12 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more crafted**: move toward [`swiss-international`](../swiss-international/SKILL.md) (Swiss International Style). Add a strict 12-column grid and a bold red accent.
 - If the user asks for **softer**: move toward [`ethereal-web`](../ethereal-web/SKILL.md) (Ethereal Web). Replace the grey by pastel haze and a light serif.
 
-- **Came from (go here for a more orthodox version):** [`flat-design`](../flat-design/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
+- **Came from (go here for a more orthodox version):** [`flat-design`](../flat-design/SKILL.md)
 - **Led to (go here for a newer version):** [`clean-girl`](../clean-girl/SKILL.md), [`normcore`](../normcore/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`skeuomorphism`](../skeuomorphism/SKILL.md)
 - **Was rejected by:** [`clickbait-thumbnail`](../clickbait-thumbnail/SKILL.md), [`cyberpunk-web`](../cyberpunk-web/SKILL.md), [`glitchcore`](../glitchcore/SKILL.md), [`hyperpop-visual`](../hyperpop-visual/SKILL.md)
 - **Mixes well with:** [`cohesive-feed-grid`](../cohesive-feed-grid/SKILL.md), [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md), [`luxury-typography-web`](../luxury-typography-web/SKILL.md), [`surrealism-web`](../surrealism-web/SKILL.md)
-- **Kin in another domain:** [`minimalist-fashion`](../minimalist-fashion/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+- **Kin in another domain:** [`minimalist-fashion`](../minimalist-fashion/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
 - **Nearest by vector profile:** [`flat-design`](../flat-design/SKILL.md), [`ai-chat-ui`](../ai-chat-ui/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md)
 
 ## Emotional target

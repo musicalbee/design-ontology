@@ -1,8 +1,8 @@
 ---
 name: dreamcore
-description: "Apply the Dreamcore style (2019–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: dreamcore, dream aesthetic, pastel nostalgia, childhood memory, hazy dream, soft glow nostalgia."
+description: "Apply the Dreamcore style (2019–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: dreamcore, dream aesthetic, pastel nostalgia, childhood memory, hazy dream, soft glow nostalgia."
 domain: internet
-era: contemporary-spatial
+era: feed-mobile
 triggers:
   - "dreamcore"
   - "dream aesthetic"
@@ -25,7 +25,7 @@ vector_profile:
 
 Soft, hazy images of childhood rooms, pastel skies, old toys and stairways, with a faint glow and blurry text. It looks like a half-remembered dream and grew on Tumblr, Reddit and video sites.
 
-**Period:** 2019–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Dream core, Dream aesthetic
+**Period:** 2019–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Dream core, Dream aesthetic
 
 ## When to load this skill
 
@@ -40,7 +40,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Dreamcore, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Dreamcore, you MUST:
 
 1. Set the ground in pastel gradient from #FBE3F0 to #CFE3FF at 180°.
 2. Apply a bloom of 12px to 24px on all light areas and lower the contrast by 15% to 25%.

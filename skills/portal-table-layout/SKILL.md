@@ -1,8 +1,8 @@
 ---
 name: portal-table-layout
-description: "Apply the Portal Table Layout style (1997–2006) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: web portal, start page, link directory, table layout, late 90s portal, search portal."
+description: "Apply the Portal Table Layout style (1997–2006) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: web portal, start page, link directory, table layout, late 90s portal, search portal."
 domain: internet
-era: postmodern-early-digital
+era: web-1
 triggers:
   - "web portal"
   - "start page"
@@ -26,7 +26,7 @@ vector_profile:
 
 A dense start page in HTML tables: a search box, a link directory, news boxes, banner ads and a blue and orange palette. Web portals of the late 1990s used it to keep a user on one site.
 
-**Period:** 1997–2006 · **Era:** Postmodern & Early Digital · **Domain:** Internet · **Also called:** Web portal, Table layout, Directory page
+**Period:** 1997–2006 · **Era:** Web 1.0 · **Domain:** Internet · **Also called:** Web portal, Table layout, Directory page
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Portal Table Layout, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Portal Table Layout, you MUST:
 
 1. Build the page with nested HTML tables at 760px to 800px wide, centred, with 1px to 2px cell spacing.
 2. Place the logo and a search box with a button in a header row of 60px to 80px, over a tab row of 24px.
@@ -280,8 +280,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`geocities-homepage`](../geocities-homepage/SKILL.md)
 - **Was rejected by:** [`flash-intro-site`](../flash-intro-site/SKILL.md), [`myspace-profile`](../myspace-profile/SKILL.md), [`web-2-0-gloss`](../web-2-0-gloss/SKILL.md)
-- **Mixes well with:** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
-- **Nearest by vector profile:** [`flat-design`](../flat-design/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md), [`normcore`](../normcore/SKILL.md)
+- **Mixes well with:** [`bulletin-board-forum`](../bulletin-board-forum/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
+- **Nearest by vector profile:** [`anonymous-imageboard`](../anonymous-imageboard/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md)
 
 ## Emotional target
 

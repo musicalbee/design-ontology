@@ -1,8 +1,8 @@
 ---
 name: tweet-screenshot-meme
-description: "Apply the Tweet screenshot meme style (2015–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: tweet screenshot, post screenshot, screenshot meme, fake tweet, x post meme, social post card."
+description: "Apply the Tweet screenshot meme style (2015–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: tweet screenshot, post screenshot, screenshot meme, fake tweet, x post meme, social post card."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "tweet screenshot"
   - "post screenshot"
@@ -25,7 +25,7 @@ vector_profile:
 
 A cropped screenshot of a short social post in its own interface: avatar, name, text and a row of counters. The joke lives in the words, and the crop and the interface give it proof and tone.
 
-**Period:** 2015–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Screenshot post meme, Post card joke
+**Period:** 2015–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Screenshot post meme, Post card joke
 
 ## When to load this skill
 
@@ -39,7 +39,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Tweet screenshot meme, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Tweet screenshot meme, you MUST:
 
 1. Crop the screenshot to the post card at a width of 550px to 600px with 16px of side padding.
 2. Show an avatar of 48px (circle), a bold name and a grey handle above the text.
@@ -270,7 +270,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`impact-image-macro`](../impact-image-macro/SKILL.md)
 - **Mixes well with:** [`label-meme`](../label-meme/SKILL.md), [`starter-pack`](../starter-pack/SKILL.md)
-- **Nearest by vector profile:** [`normcore`](../normcore/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md)
+- **Nearest by vector profile:** [`normcore`](../normcore/SKILL.md), [`usenet-thread`](../usenet-thread/SKILL.md), [`duet-split-screen`](../duet-split-screen/SKILL.md)
 
 ## Emotional target
 

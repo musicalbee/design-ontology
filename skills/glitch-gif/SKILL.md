@@ -1,8 +1,8 @@
 ---
 name: glitch-gif
-description: "Apply the Glitch GIF style (2010–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: glitch gif, glitch art, datamosh, rgb split, corrupted, signal error."
+description: "Apply the Glitch GIF style (2010–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: glitch gif, glitch art, datamosh, rgb split, corrupted, signal error."
 domain: internet
-era: touchscreen
+era: web-2-social
 triggers:
   - "glitch gif"
   - "glitch art"
@@ -25,7 +25,7 @@ vector_profile:
 
 A looped clip with torn bands, split colour channels and repeated frames, as if the signal failed. Artists on Tumblr and in net art circles made it common after 2010.
 
-**Period:** 2010–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Datamosh loop, RGB-split GIF, Corrupted loop
+**Period:** 2010–now · **Era:** Web 2.0 and the social web · **Domain:** Internet · **Also called:** Datamosh loop, RGB-split GIF, Corrupted loop
 
 ## When to load this skill
 
@@ -40,7 +40,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Glitch GIF, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Glitch GIF, you MUST:
 
 1. Shift the red channel by 3px to the left and the blue channel by 3px to the right on each glitch frame.
 2. Cut 3 to 8 horizontal bands of 4px to 40px height and move each sideways by 10px to 60px.
