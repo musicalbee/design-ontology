@@ -1,9 +1,9 @@
 // Render one preview image for each style of an image domain with a local ComfyUI server.
 //
-//   npm run previews -- --domain photography [--only new-colour,y2k-digicam] [--force] [--dry-run]
+//   npm run previews -- --domain photography [--only new-colour,y2k-digicam] [--redo drift.json] [--force] [--dry-run]
 //
 // ComfyUI must listen on COMFY_URL (default http://127.0.0.1:8188), for example through an SSH tunnel.
-// Only models with an open licence that allows commercial use go here (FLUX.2 [klein] 4B, Apache 2.0).
+// Only models with an open licence that allows commercial use go here (see MODELS in previews/comfy.ts).
 // Output: demo/previews/<domain>/<id>.webp and demo/previews/<domain>/manifest.json.
 //
 // A domain with "set" in subjects.json gets several frames for each style instead of one picture on a fixed scene:
@@ -22,6 +22,9 @@ const domain = opt("domain");
 const only = opt("only")?.split(",");
 const force = args.includes("--force");
 const dry = args.includes("--dry-run");
+// --redo <file.json>: a list of {path} records (a drift scan). Only the listed images render again, with the
+// current model, the guard words and the vision check. The other images stay as they are.
+const redo = new Set<string>(opt("redo") ? JSON.parse(readFileSync(opt("redo")!, "utf8")).map((x: any) => x.path) : []);
 if (!domain) throw new Error("Give --domain photography|film|painting|interior|architecture|logo|icon|design");
 
 type Override = { subject?: string; size?: keyof typeof SIZES; drop?: string };
@@ -91,7 +94,8 @@ async function renderSet(s: any, fr: Frame[]) {
   for (const [i, f] of fr.entries()) {
     const file = `${s.id}/${i + 1}.webp`;
     const prev = old.find((o) => o.file === file), seed = SEED + i;
-    out.push(!force && prev?.prompt === f.prompt && prev?.seed === seed && existsSync(join(outDir, file)) ? prev
+    const same = prev?.prompt === f.prompt && (prev?.base_seed ?? prev?.seed) === seed && existsSync(join(outDir, file));
+    out.push(!force && same && !redo.has(join(outDir, file)) ? prev
       : { ...f, file, ...(await renderWebp(f.prompt, join(outDir, file), sizeFor(s), `design-ontology/${domain}/${s.id}-${i + 1}`, seed)) });
   }
   const { model, licence, seed, steps, width, height, generated } = out[0];
@@ -107,7 +111,8 @@ async function render(s: any) {
   return { file: `${s.id}.webp`, subject: subjectFor(s), ...rec };
 }
 
-const todo = styles.filter((s) => force || !manifest.images[s.id] || sigOf(manifest.images[s.id]) !== sig(s));
+const redone = (s: any) => [...redo].some((p) => p === join(outDir, `${s.id}.webp`) || p.startsWith(join(outDir, s.id) + "/"));
+const todo = styles.filter((s) => force || redone(s) || !manifest.images[s.id] || sigOf(manifest.images[s.id]) !== sig(s));
 if (dry) { for (const s of todo) console.log(`${s.id}: ${sig(s).split(" | ").join("\n  ")}`); process.exit(0); }
 if (todo.length) await preflight();
 for (const s of todo) {
