@@ -287,7 +287,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
 - **Mixes well with:** [`corporate-memphis`](../corporate-memphis/SKILL.md), [`scrapbook-ui`](../scrapbook-ui/SKILL.md)
 - **Kin in another domain:** [`clay-3d-icon`](../clay-3d-icon/SKILL.md)
-- **Nearest by vector profile:** [`surrealism-web`](../surrealism-web/SKILL.md), [`blob-world`](../blob-world/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md)
+- **Nearest by vector profile:** [`surrealism-web`](../surrealism-web/SKILL.md), [`green-screen-short`](../green-screen-short/SKILL.md), [`seapunk`](../seapunk/SKILL.md)
 
 ## Emotional target
 

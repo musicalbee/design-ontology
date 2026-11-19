@@ -1,0 +1,130 @@
+/*
+ * Goblincore — tokens
+ * Generated from data/internet/styles/goblincore.json by design-ontology. Do not edit.
+ * Use: put data-style="goblincore" on <html> or on any container.
+ */
+[data-style="goblincore"] {
+  --color-bg: #2E2A1E;
+  --color-surface: #4A3626;
+  --color-text: #E6DCC3;
+  --color-muted: #B7B98A;
+  --color-primary: #7A8B4A;
+  --color-accent: #B5382C;
+  --color-border: #6B5A3E;
+  --font-sans: "Alegreya", "Lora", Georgia, serif;
+  --font-display: "IM Fell DW Pica", "Almendra", Georgia, serif;
+  --border-radius: 8px;
+  --border-width: 2px;
+  --shadow-elevation: 0 4px 12px rgba(0, 0, 0, 0.35);
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.3, 0.8, 0.4, 1);
+  --duration: 500ms;
+  --type-ratio: 1.25;
+  --size-small: 13.6px;
+  --size-h3: 26.56px;
+  --size-h2: 33.2px;
+  --size-h1: 41.5px;
+  --color-on-bg: #E6DCC3;
+  --color-on-surface: #E6DCC3;
+  --color-on-primary: #000000;
+  --color-on-accent: #FFFFFF;
+  --color-muted-on-bg: #B7B98A;
+  --color-muted-on-surface: #B7B98A;
+  --color-link: #E6DCC3;
+  --color-link-on-surface: #E6DCC3;
+  --display-weight: 700;
+  --subhead-weight: 400;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 400;
+  --display-tracking: 0.01em;
+  --display-leading: 1.15;
+  --display-case: none;
+  --body-leading: 1.65;
+  --body-size: 17px;
+  --icon-stroke: 2;
+  --ground: linear-gradient(-7deg, transparent 0 42%, color-mix(in oklab, var(--color-accent) 85%, transparent) 42% 58%, transparent 58%) 88% 14% / 42vmin 14vmin no-repeat,
+    linear-gradient(var(--color-on-bg), var(--color-on-bg)) 96% 66% / 28vmin 22vmin no-repeat,
+    radial-gradient(circle, var(--color-on-bg) 30%, transparent 33%) 74% 96% / 9px 9px,
+    linear-gradient(100deg, var(--color-bg) 36%, transparent 64%),
+    url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'220'%20height%3D'220'%3E%3Cfilter%20id%3D'n'%3E%3CfeTurbulence%20type%3D'fractalNoise'%20baseFrequency%3D'.8'%20numOctaves%3D'3'%20stitchTiles%3D'stitch'%2F%3E%3CfeColorMatrix%20values%3D'0%200%200%200%201%200%200%200%200%201%200%200%200%200%201%200.48%200%200%200%200'%2F%3E%3C%2Ffilter%3E%3Crect%20width%3D'100%25'%20height%3D'100%25'%20filter%3D'url(%23n)'%2F%3E%3C%2Fsvg%3E") 0 0 / 220px 220px repeat,
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="goblincore"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="goblincore"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="goblincore"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="goblincore"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="goblincore"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="goblincore"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="goblincore"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="goblincore"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="goblincore"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="goblincore"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="goblincore"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="goblincore"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="goblincore"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="goblincore"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

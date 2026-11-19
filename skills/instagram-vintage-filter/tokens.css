@@ -1,0 +1,135 @@
+/*
+ * Instagram Vintage Filter — tokens
+ * Generated from data/internet/styles/instagram-vintage-filter.json by design-ontology. Do not edit.
+ * Use: put data-style="instagram-vintage-filter" on <html> or on any container.
+ */
+[data-style="instagram-vintage-filter"] {
+  --color-bg: #EFE6D3;
+  --color-surface: #FBF6EA;
+  --color-text: #2B2118;
+  --color-muted: #6B5B4A;
+  --color-primary: #C8782E;
+  --color-accent: #3F6F8E;
+  --color-border: #D9CBB0;
+  --font-sans: "Arimo", "Helvetica Neue", sans-serif;
+  --font-display: "Arimo", "Reenie Beanie", sans-serif;
+  --border-radius: 4px;
+  --border-width: 1px;
+  --shadow-elevation: 0 1px 0 #D9CBB0;
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+  --duration: 240ms;
+  --type-ratio: 1.25;
+  --size-small: 12.8px;
+  --size-h3: 25px;
+  --size-h2: 31.25px;
+  --size-h1: 39.06px;
+  --color-on-bg: #2B2118;
+  --color-on-surface: #2B2118;
+  --color-on-primary: #2B2118;
+  --color-on-accent: #FFFFFF;
+  --color-muted-on-bg: #6B5B4A;
+  --color-muted-on-surface: #6B5B4A;
+  --color-link: #2B2118;
+  --color-link-on-surface: #3F6F8E;
+  --display-weight: 700;
+  --subhead-weight: 400;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 400;
+  --display-tracking: 0.02em;
+  --display-leading: 1.15;
+  --display-case: none;
+  --body-leading: 1.5;
+  --body-size: 16px;
+  --icon-stroke: 2;
+  --ground: linear-gradient(var(--color-primary), var(--color-primary)) 22px 22px / calc(100% - 44px) 2px no-repeat,
+    linear-gradient(var(--color-primary), var(--color-primary)) 22px calc(100% - 22px) / calc(100% - 44px) 2px no-repeat,
+    linear-gradient(var(--color-primary), var(--color-primary)) 22px 22px / 2px calc(100% - 44px) no-repeat,
+    linear-gradient(var(--color-primary), var(--color-primary)) calc(100% - 22px) 22px / 2px calc(100% - 44px) no-repeat,
+    linear-gradient(var(--color-accent), var(--color-accent)) 32px 32px / calc(100% - 64px) 1px no-repeat,
+    linear-gradient(var(--color-accent), var(--color-accent)) 32px calc(100% - 32px) / calc(100% - 64px) 1px no-repeat,
+    linear-gradient(var(--color-accent), var(--color-accent)) 32px 32px / 1px calc(100% - 64px) no-repeat,
+    linear-gradient(var(--color-accent), var(--color-accent)) calc(100% - 32px) 32px / 1px calc(100% - 64px) no-repeat,
+    radial-gradient(60% 70% at 85% 50%, color-mix(in oklab, var(--color-accent) 18%, transparent), transparent 70%),
+    url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'220'%20height%3D'220'%3E%3Cfilter%20id%3D'n'%3E%3CfeTurbulence%20type%3D'fractalNoise'%20baseFrequency%3D'.8'%20numOctaves%3D'3'%20stitchTiles%3D'stitch'%2F%3E%3CfeColorMatrix%20values%3D'0%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200.22%200%200%200%200'%2F%3E%3C%2Ffilter%3E%3Crect%20width%3D'100%25'%20height%3D'100%25'%20filter%3D'url(%23n)'%2F%3E%3C%2Fsvg%3E") 0 0 / 220px 220px repeat,
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="instagram-vintage-filter"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="instagram-vintage-filter"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="instagram-vintage-filter"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="instagram-vintage-filter"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="instagram-vintage-filter"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="instagram-vintage-filter"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="instagram-vintage-filter"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="instagram-vintage-filter"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="instagram-vintage-filter"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="instagram-vintage-filter"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="instagram-vintage-filter"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="instagram-vintage-filter"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="instagram-vintage-filter"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="instagram-vintage-filter"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

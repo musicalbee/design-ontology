@@ -1,0 +1,339 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "unicode-emoji",
+  "domain": "internet",
+  "name": "Unicode Emoji",
+  "aliases": [
+    "Emoji set",
+    "Emoji keyboard",
+    "Emoji glyphs"
+  ],
+  "branch": "gifs-stickers",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2010,
+    "end": null,
+    "label": "2010–now"
+  },
+  "primary_mediums": [
+    "mobile",
+    "web"
+  ],
+  "summary": "A set of small colour pictures that sit in text as characters: yellow faces, hands, food and flags. Japanese phone makers drew the first sets; Unicode 6.0 added them to the standard in 2010.",
+  "philosophy": {
+    "core_thesis": "A picture becomes a character: the same small yellow face can enter any text on any device.",
+    "design_principles": [
+      "Draw each glyph on a square field with a 1:1 ratio and set it at the line height of the text, 1.2em.",
+      "Use a round yellow face (#FFC83D) with a 1px darker rim, two simple eyes and a mouth of one curve.",
+      "Fill shapes with flat colour and one soft highlight; keep the outline to 1px or none.",
+      "Show a skin tone with 5 swatches from #FADCBC to #3D2B1F as a modifier row under a hand glyph.",
+      "Set the glyph in a picker grid of 8 columns with 8px gutters and a tab row of 9 categories.",
+      "Keep the text font neutral and round, so that the glyph is the only colour in the line.",
+      "Let the glyph be 1.0em to 1.2em in text, and 32px to 48px in a picker."
+    ],
+    "anti_patterns": [
+      "Glyphs drawn at a different size from the line",
+      "Photographic emoji with realistic skin and lighting",
+      "Heavy outlines of 3px or more",
+      "Emoji set on a dark gradient that hides the yellow",
+      "Custom emoji with no shared base shape",
+      "Mixed glyph sets from different vendors in one line"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 2,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "A picker grid of 8 columns with 8px gutters and 44px cells; text lines on a 4px baseline.",
+    "whitespace_ratio": "30% to 40% of the surface stays empty; the spacing scale is 4, 8, 16 and 24px.",
+    "alignment_rules": "Glyphs sit on the text baseline; the picker is flush-left with a centred category row.",
+    "container_geometry": "Cards and keys with a 12px radius; the picker cell is a 44px square with an 8px radius."
+  },
+  "typography": {
+    "classifications": [
+      "rounded sans",
+      "colour emoji glyph"
+    ],
+    "font_pairings": [
+      {
+        "display": "Fredoka",
+        "body": "Nunito",
+        "note": "Rounded open faces; glyphs come from Noto Color Emoji (OFL)."
+      },
+      {
+        "display": "Baloo 2",
+        "body": "Nunito Sans",
+        "note": "A warmer display face for a playful page."
+      }
+    ],
+    "tracking": "Display 0em; body 0em.",
+    "leading": "Display 1.15; body 1.6.",
+    "hierarchy_rules": [
+      "Use 1 display size of 32px or more and keep body text at 16px.",
+      "Keep a glyph at 1.2em beside text and at 48px as a hero.",
+      "Set category labels in 12px at 600 weight."
+    ]
+  },
+  "color": {
+    "palette_structure": "White ground with one warm yellow and one blue; the glyphs supply every other colour.",
+    "palette": [
+      {
+        "name": "Page White",
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "name": "Cream Card",
+        "hex": "#FFF6D6",
+        "role": "surface"
+      },
+      {
+        "name": "Ink Blue",
+        "hex": "#1F2430",
+        "role": "text"
+      },
+      {
+        "name": "Face Yellow",
+        "hex": "#FFC83D",
+        "role": "primary"
+      },
+      {
+        "name": "Link Blue",
+        "hex": "#2F6FED",
+        "role": "accent"
+      },
+      {
+        "name": "Slate",
+        "hex": "#5D6472",
+        "role": "muted text"
+      },
+      {
+        "name": "Rim Sand",
+        "hex": "#E3D9B5",
+        "role": "border"
+      }
+    ],
+    "contrast_rules": "Ink on white holds 15:1; yellow is a fill with dark text on it, not a text colour.",
+    "surface_treatment": "Flat white and cream fields; the glyph carries all the colour.",
+    "light_and_shadow": "A soft top-left light inside each glyph; a 6px soft shadow under cards."
+  },
+  "materiality": {
+    "surface_simulation": "Small glossy plastic discs: flat fills with one highlight.",
+    "border_rules": "A 1px rim in sand on cards; none on glyphs.",
+    "blur_and_elevation": "A 6px blur shadow at 12% opacity for pickers and sheets."
+  },
+  "ornamentation_details": {
+    "iconography": "Colour glyphs of 1:1 ratio; faces, hands, food, flags, objects in 9 categories.",
+    "illustration": "The glyph set itself: faces with 2 simple eyes and 1 mouth curve.",
+    "decorative_elements": [
+      "yellow face",
+      "skin tone swatch row",
+      "category tab row",
+      "reaction chip",
+      "glyph grid"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Glyphs pop in with a scale from 0.8 to 1.0 in 200ms; a reaction chip bounces once.",
+    "easing": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+    "duration_ms": 200,
+    "hover_and_active": "Hover scales the glyph to 1.25 in 120ms; active scales to 0.9."
+  },
+  "lineage": {
+    "evolved_from": [
+      "kaomoji-emoticon"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "flat-icon"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels a warm, quick, shared tone in a text line.",
+    "keywords": [
+      "friendly",
+      "warm",
+      "quick",
+      "universal",
+      "playful"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "emoji",
+      "emoji keyboard",
+      "unicode emoji",
+      "smiley",
+      "reaction emoji",
+      "emoji picker"
+    ],
+    "use_cases": [
+      "chat apps and reaction bars",
+      "notification and status labels",
+      "friendly onboarding copy",
+      "poll and survey options"
+    ],
+    "avoid_when": [
+      "The brand needs a strict, formal tone.",
+      "The page needs a custom mascot that no vendor draws.",
+      "The output channel has no colour emoji font."
+    ],
+    "modifiers": [
+      {
+        "request": "more character",
+        "toward": "chat-sticker-pack",
+        "how": "Replace the glyph with a large drawn character of 120px and a hand-lettered word."
+      },
+      {
+        "request": "more 3D",
+        "toward": "3d-avatar-emoji",
+        "how": "Replace the flat face with a rendered head with soft light and a 20px depth shadow."
+      },
+      {
+        "request": "more minimal",
+        "toward": "kaomoji-emoticon",
+        "how": "Replace each glyph with a text face of 3 to 8 characters in one ink colour."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 600,
+      "display_tracking": "0em",
+      "display_leading": 1.15,
+      "display_case": "none",
+      "body_leading": 1.6,
+      "body_size": "16px",
+      "subhead_weight": 500,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 600,
+      "accent": "weight"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "circle",
+      "pack": {
+        "id": "fluent-filled",
+        "why": "A filled, rounded family sits close to the flat colour glyphs of an emoji set."
+      }
+    },
+    "art": {
+      "recipe": "flat",
+      "pattern": "dots",
+      "seed": 22
+    },
+    "layout": {
+      "hero": "split",
+      "align": "left",
+      "density": "regular",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "soft",
+      "why": "An emoji sits on a plain light field, so the yellow and the other glyph colours carry the page."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#FFFFFF",
+      "--color-surface": "#FFF6D6",
+      "--color-text": "#1F2430",
+      "--color-muted": "#5D6472",
+      "--color-primary": "#FFC83D",
+      "--color-accent": "#2F6FED",
+      "--color-border": "#E3D9B5",
+      "--font-sans": "\"Nunito\", \"Noto Color Emoji\", sans-serif",
+      "--font-display": "\"Fredoka\", \"Nunito\", sans-serif",
+      "--border-radius": "12px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 2px 6px rgba(31,36,48,0.12)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+      "--duration": "200ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#FFFFFF] text-[#1F2430] font-sans antialiased px-4 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-4xl md:text-6xl font-['Fredoka'] font-semibold leading-[1.1]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border-2 border-[#E3D9B5] bg-[#FFF6D6] rounded-xl shadow-[0_2px_6px_rgba(31,36,48,0.12)]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-xl border-2 border-[#E3D9B5] bg-[#FFC83D] px-6 py-3 text-sm font-bold text-[#1F2430] transition-transform duration-[200ms] hover:-translate-y-0.5"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs uppercase tracking-widest text-[#FFC83D]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#FFC83D",
+        "#FFFFFF",
+        "#FFF6D6",
+        "#1F2430"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#FFC83D",
+        "#2F6FED"
+      ]
+    },
+    "corner_radius": {
+      "min": 4,
+      "max": 24
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 16
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.333
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Emoji",
+      "url": "https://en.wikipedia.org/wiki/Emoji"
+    },
+    {
+      "title": "Unicode Consortium: Emoji",
+      "url": "https://home.unicode.org/emoji/"
+    },
+    {
+      "title": "Wikipedia: Unicode 6.0",
+      "url": "https://en.wikipedia.org/wiki/Unicode_version_history"
+    }
+  ]
+}

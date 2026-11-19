@@ -1,0 +1,130 @@
+/*
+ * Wojak and feels — tokens
+ * Generated from data/internet/styles/wojak-feels.json by design-ontology. Do not edit.
+ * Use: put data-style="wojak-feels" on <html> or on any container.
+ */
+[data-style="wojak-feels"] {
+  --color-bg: #4A4F57;
+  --color-surface: #3A3E45;
+  --color-text: #FFFFFF;
+  --color-muted: #D7DAE0;
+  --color-primary: #F5E6D3;
+  --color-accent: #C0392B;
+  --color-border: #111111;
+  --font-sans: "Inter", "Roboto", sans-serif;
+  --font-display: "Work Sans", "Inter", sans-serif;
+  --border-radius: 0px;
+  --border-width: 2px;
+  --shadow-elevation: none;
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: steps(1, end);
+  --duration: 500ms;
+  --type-ratio: 1.25;
+  --size-small: 12.8px;
+  --size-h3: 25px;
+  --size-h2: 31.25px;
+  --size-h1: 39.06px;
+  --color-on-bg: #FFFFFF;
+  --color-on-surface: #FFFFFF;
+  --color-on-primary: #4A4F57;
+  --color-on-accent: #FFFFFF;
+  --color-muted-on-bg: #D7DAE0;
+  --color-muted-on-surface: #D7DAE0;
+  --color-link: #F5E6D3;
+  --color-link-on-surface: #F5E6D3;
+  --display-weight: 500;
+  --subhead-weight: 500;
+  --body-weight: 400;
+  --strong-weight: 600;
+  --label-weight: 500;
+  --display-tracking: 0em;
+  --display-leading: 1.2;
+  --display-case: none;
+  --body-leading: 1.4;
+  --body-size: 16px;
+  --icon-stroke: 2;
+  --ground: radial-gradient(circle at 80% 46%, var(--color-bg) 0 20vmin, transparent calc(20vmin + 1px)),
+    radial-gradient(circle at calc(80% + 3vmin) calc(46% + 3vmin), color-mix(in oklab, var(--color-on-bg) 16%, transparent) 0 18vmin, transparent 27vmin),
+    radial-gradient(circle at calc(80% - 3vmin) calc(46% - 3vmin), rgba(255,255,255,.85) 0 18vmin, transparent 27vmin),
+    radial-gradient(35% 40% at 96% 92%, color-mix(in oklab, var(--color-accent) 35%, transparent), transparent 70%),
+    radial-gradient(30% 35% at 60% 4%, color-mix(in oklab, var(--color-primary) 22%, transparent), transparent 70%),
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="wojak-feels"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="wojak-feels"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="wojak-feels"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="wojak-feels"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="wojak-feels"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="wojak-feels"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="wojak-feels"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="wojak-feels"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="wojak-feels"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="wojak-feels"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="wojak-feels"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="wojak-feels"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="wojak-feels"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="wojak-feels"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

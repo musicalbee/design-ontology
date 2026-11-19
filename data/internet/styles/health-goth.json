@@ -1,0 +1,343 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "health-goth",
+  "domain": "internet",
+  "name": "Health Goth",
+  "aliases": [
+    "Healthgoth",
+    "Health goth"
+  ],
+  "branch": "net-aesthetics",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2013,
+    "end": 2016,
+    "label": "2013–2016"
+  },
+  "primary_mediums": [
+    "web",
+    "image"
+  ],
+  "summary": "Black, white and silver, 3D-rendered blades and mesh forms, sportswear and gym signs, with a cold, clean look. It grew from a 2013 online group that mixed goth, sport and net art.",
+  "philosophy": {
+    "core_thesis": "Treat the body and the interface as one clean, dark machine: goth mood, gym function, no decoration that has no use.",
+    "design_principles": [
+      "Set the ground at #0A0A0C and use white (#F4F4F5) as the main ink.",
+      "Render one 3D form (a blade, a mesh or a chrome ring) at 40% to 60% of the frame, with no people.",
+      "Use thin sans type in capitals at +0.2em, in 1 weight (300) for display.",
+      "Add one acid-silver accent (#C9D1D9) on no more than 8% of the surface.",
+      "Set strict 8px modules and align text on a 12-column grid with 24px gutters.",
+      "Add sport labels: a size code, a small cross or a rep count at 11px to 12px.",
+      "Keep the radius at 0px on panels and at 2px on buttons."
+    ],
+    "anti_patterns": [
+      "Warm, cosy palettes",
+      "Playful rounded type",
+      "Floral or lace goth decoration",
+      "Photographs of crowds",
+      "Rainbow gradients",
+      "Hand-drawn texture",
+      "Dense ornament"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 4,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A strict 12-column grid with 24px gutters and an 8px baseline; one object sits in the centre columns.",
+    "whitespace_ratio": "40% to 55% of the surface stays empty; the spacing scale is 8, 16, 32 and 64px.",
+    "alignment_rules": "Flush-left text blocks and a centred 3D object; labels align to the grid edge.",
+    "container_geometry": "Rectangles with a 0px radius and a 1px line; buttons with a 2px radius; thin rings for accents."
+  },
+  "typography": {
+    "classifications": [
+      "wide geometric sans",
+      "condensed sans",
+      "monospace"
+    ],
+    "font_pairings": [
+      {
+        "display": "Michroma",
+        "body": "Inter",
+        "note": "A wide technical display face with a neutral text face."
+      },
+      {
+        "display": "Syncopate",
+        "body": "IBM Plex Mono",
+        "note": "A wide capital face with a mono face for labels."
+      },
+      {
+        "display": "Oswald",
+        "body": "Roboto",
+        "note": "A condensed sans for a sport-label look."
+      }
+    ],
+    "tracking": "Display takes +0.2em; labels take +0.12em; body stays at 0.",
+    "leading": "Display 1.1; body 1.6.",
+    "hierarchy_rules": [
+      "Use two weights: light (300) and bold (700).",
+      "Use sizes 11, 16, 32 and 64px.",
+      "Set all display text and labels in capitals.",
+      "Use one colour for ink and one for accent."
+    ]
+  },
+  "color": {
+    "palette_structure": "Black and white with one cold silver; no saturated hue.",
+    "palette": [
+      {
+        "name": "Void Black",
+        "hex": "#0A0A0C",
+        "role": "background"
+      },
+      {
+        "name": "Bone White",
+        "hex": "#F4F4F5",
+        "role": "text"
+      },
+      {
+        "name": "Cold Silver",
+        "hex": "#C9D1D9",
+        "role": "primary"
+      },
+      {
+        "name": "Graphite",
+        "hex": "#1C1D22",
+        "role": "surface"
+      },
+      {
+        "name": "Steel",
+        "hex": "#6B7280",
+        "role": "muted"
+      },
+      {
+        "name": "Acid Ice",
+        "hex": "#B8F2E6",
+        "role": "accent"
+      }
+    ],
+    "contrast_rules": "Text on void black holds at least 12:1; silver and ice carry lines and one accent, not long text.",
+    "surface_treatment": "Flat black fields; 3D forms with a chrome or matte black skin; a 2% grain.",
+    "light_and_shadow": "A single cold rim light on 3D forms; no coloured glow; no cast shadow on panels."
+  },
+  "materiality": {
+    "surface_simulation": "Chrome, matte rubber and mesh fabric, rendered in 3D.",
+    "border_rules": "A 1px line in graphite (#1C1D22) on panels; a 1px silver line on focus.",
+    "blur_and_elevation": "No blur; elevation is a 1px line change, not a shadow."
+  },
+  "ornamentation_details": {
+    "iconography": "Outline icons at 24px with a 1.5px line and square caps: crosses, arrows, a heart-rate line.",
+    "illustration": "3D renders of blades, mesh shells and rings, with tribal-style line patterns, and no people or clothes.",
+    "decorative_elements": [
+      "3D blade form",
+      "mesh shell",
+      "size code",
+      "thin ring",
+      "cross mark"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "The 3D form turns 360° in 16s; labels fade in over 300ms; panels slide by 8px.",
+    "easing": "cubic-bezier(0.2, 0, 0, 1)",
+    "duration_ms": 300,
+    "hover_and_active": "Hover adds a 1px silver line and moves a label by 4px; the active state inverts black and white."
+  },
+  "lineage": {
+    "evolved_from": [
+      "vaporwave"
+    ],
+    "rebelled_against": [
+      "frutiger-aero"
+    ],
+    "hybridized_with": [
+      "y2k-aesthetic"
+    ],
+    "echoes": [
+      "gorpcore"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels cold, fit and focused, in a calm, controlled way.",
+    "keywords": [
+      "cold",
+      "clean",
+      "athletic",
+      "dark",
+      "technical",
+      "minimal"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "explorer",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "health goth",
+      "healthgoth",
+      "gym goth",
+      "black sportswear",
+      "3D render blade",
+      "dark athletic",
+      "net art goth"
+    ],
+    "use_cases": [
+      "sportswear and streetwear drops",
+      "fitness and wellness brands with a dark tone",
+      "music artwork",
+      "portfolio pages for 3D artists"
+    ],
+    "avoid_when": [
+      "The brand needs a warm or friendly tone.",
+      "The audience expects colour and play.",
+      "The page carries long, dense reading text."
+    ],
+    "modifiers": [
+      {
+        "request": "colder",
+        "toward": "cybercore-web",
+        "how": "Add an acid-green accent, HUD frames and data labels; keep the black ground."
+      },
+      {
+        "request": "softer",
+        "toward": "ethereal-web",
+        "how": "Replace the black with a pale ground, add a soft blur and remove the labels."
+      },
+      {
+        "request": "more retro",
+        "toward": "y2k-aesthetic",
+        "how": "Add chrome type, silver gradients and pixel icons."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 300,
+      "subhead_weight": 300,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 400,
+      "accent": "case",
+      "display_tracking": "0.2em",
+      "display_leading": 1.1,
+      "display_case": "uppercase",
+      "body_leading": 1.6,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "square",
+      "linejoin": "miter",
+      "container": "none",
+      "pack": {
+        "id": "carbon",
+        "why": "A sharp, grid-based enterprise icon set suits the cold, technical, sport-label look."
+      }
+    },
+    "art": {
+      "recipe": "spatial",
+      "pattern": "grid",
+      "seed": 23
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "grille",
+      "why": "Health goth sits on a black field with a fine grille, like a gym floor or a ventilation panel."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#0A0A0C",
+      "--color-surface": "#1C1D22",
+      "--color-text": "#F4F4F5",
+      "--color-muted": "#9CA3AF",
+      "--color-primary": "#C9D1D9",
+      "--color-accent": "#B8F2E6",
+      "--color-border": "#3A3D45",
+      "--font-sans": "\"Inter\", \"IBM Plex Mono\", sans-serif",
+      "--font-display": "\"Michroma\", \"Syncopate\", sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.2, 0, 0, 1)",
+      "--duration": "300ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#0A0A0C] text-[#F4F4F5] font-sans antialiased px-6 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-3xl md:text-6xl font-light uppercase tracking-[0.2em] leading-[1.1]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border border-[#3A3D45] bg-[#1C1D22]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-sm border border-[#C9D1D9] bg-[#C9D1D9] px-6 py-3 text-xs font-bold uppercase tracking-[0.12em] text-[#0A0A0C] transition-colors duration-300 hover:bg-transparent hover:text-[#C9D1D9]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs uppercase tracking-widest"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#C9D1D9",
+        "#F4F4F5",
+        "#B8F2E6"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#B8F2E6",
+        "#C9D1D9"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 4
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 8
+    },
+    "type_scale_ratio": {
+      "default": 1.414,
+      "min": 1.25,
+      "max": 1.618
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia, Health goth",
+      "url": "https://en.wikipedia.org/wiki/Health_goth"
+    },
+    {
+      "title": "Know Your Meme, Health Goth",
+      "url": "https://knowyourmeme.com/memes/subcultures/health-goth"
+    }
+  ]
+}

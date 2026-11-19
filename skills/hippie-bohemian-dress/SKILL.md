@@ -196,7 +196,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`ivy-style`](../ivy-style/SKILL.md), [`mod-and-mini`](../mod-and-mini/SKILL.md)
 - **Was rejected by:** [`power-dressing`](../power-dressing/SKILL.md), [`punk-fashion`](../punk-fashion/SKILL.md)
 - **Mixes well with:** [`glam-platform-shoe`](../glam-platform-shoe/SKILL.md)
-- **Kin in another domain:** [`bohemian-web`](../bohemian-web/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md), [`psychedelic-concert-poster`](../psychedelic-concert-poster/SKILL.md)
+- **Kin in another domain:** [`bohemian-web`](../bohemian-web/SKILL.md), [`goblincore`](../goblincore/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md), [`psychedelic-concert-poster`](../psychedelic-concert-poster/SKILL.md)
 - **Nearest by vector profile:** [`swiss-plastic-pop-watch`](../swiss-plastic-pop-watch/SKILL.md), [`costume-jewellery`](../costume-jewellery/SKILL.md), [`streetwear`](../streetwear/SKILL.md)
 
 ## Emotional target

@@ -1,0 +1,129 @@
+/*
+ * 3D Avatar Emoji — tokens
+ * Generated from data/internet/styles/3d-avatar-emoji.json by design-ontology. Do not edit.
+ * Use: put data-style="3d-avatar-emoji" on <html> or on any container.
+ */
+[data-style="3d-avatar-emoji"] {
+  --color-bg: #F4F2FF;
+  --color-surface: #FFFFFF;
+  --color-text: #1B1736;
+  --color-muted: #5A5578;
+  --color-primary: #7B5CFF;
+  --color-accent: #FF9F43;
+  --color-border: #D9D3F5;
+  --font-sans: "Inter", "Nunito", sans-serif;
+  --font-display: "Quicksand", "Nunito", sans-serif;
+  --border-radius: 24px;
+  --border-width: 1px;
+  --shadow-elevation: 0 12px 24px rgba(123,92,255,0.18);
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration: 350ms;
+  --type-ratio: 1.25;
+  --size-small: 12.8px;
+  --size-h3: 25px;
+  --size-h2: 31.25px;
+  --size-h1: 39.06px;
+  --color-on-bg: #1B1736;
+  --color-on-surface: #1B1736;
+  --color-on-primary: #000000;
+  --color-on-accent: #1B1736;
+  --color-muted-on-bg: #5A5578;
+  --color-muted-on-surface: #5A5578;
+  --color-link: #1B1736;
+  --color-link-on-surface: #1B1736;
+  --display-weight: 700;
+  --subhead-weight: 600;
+  --body-weight: 400;
+  --strong-weight: 600;
+  --label-weight: 600;
+  --display-tracking: 0em;
+  --display-leading: 1.15;
+  --display-case: none;
+  --body-leading: 1.6;
+  --body-size: 16px;
+  --icon-stroke: 2;
+  --ground: radial-gradient(circle at 84% 26%, color-mix(in oklab, var(--color-accent) 92%, transparent) 0 17vmin, transparent calc(17vmin + 1px)),
+    radial-gradient(circle at 62% 86%, color-mix(in oklab, var(--color-primary) 85%, transparent) 0 12vmin, transparent calc(12vmin + 1px)),
+    radial-gradient(circle at 98% 82%, color-mix(in oklab, var(--color-primary) 90%, transparent) 0 22vmin, transparent calc(22vmin + 1px)),
+    radial-gradient(60% 70% at 80% 50%, color-mix(in oklab, var(--color-primary) 30%, transparent), transparent 70%),
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="3d-avatar-emoji"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="3d-avatar-emoji"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="3d-avatar-emoji"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="3d-avatar-emoji"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="3d-avatar-emoji"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="3d-avatar-emoji"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="3d-avatar-emoji"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="3d-avatar-emoji"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="3d-avatar-emoji"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="3d-avatar-emoji"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="3d-avatar-emoji"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="3d-avatar-emoji"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="3d-avatar-emoji"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="3d-avatar-emoji"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

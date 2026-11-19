@@ -211,7 +211,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`new-colour`](../new-colour/SKILL.md)
 - **Led to (go here for a newer version):** [`ai-hyperreal`](../ai-hyperreal/SKILL.md)
-- **Kin in another domain:** [`neon-noir`](../neon-noir/SKILL.md), [`seventh-gen-desaturated`](../seventh-gen-desaturated/SKILL.md)
+- **Kin in another domain:** [`neon-noir`](../neon-noir/SKILL.md), [`seventh-gen-desaturated`](../seventh-gen-desaturated/SKILL.md), [`vsco-preset-look`](../vsco-preset-look/SKILL.md)
 - **Nearest by vector profile:** [`ai-hyperreal`](../ai-hyperreal/SKILL.md), [`fashion-editorial`](../fashion-editorial/SKILL.md), [`food-photography`](../food-photography/SKILL.md)
 
 ## Emotional target

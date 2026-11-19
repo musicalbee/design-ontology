@@ -274,7 +274,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more visual**: move toward [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md) (Aurora Gradient UI). Add a soft gradient ground on the empty state only.
 
 - **Came from (go here for a more orthodox version):** [`flat-design`](../flat-design/SKILL.md)
-- **Mixes well with:** [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md)
+- **Mixes well with:** [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`diffusion-gloss`](../diffusion-gloss/SKILL.md), [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md)
 - **Nearest by vector profile:** [`brutalist-web`](../brutalist-web/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md)
 
 ## Emotional target

@@ -280,7 +280,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`corporate-memphis`](../corporate-memphis/SKILL.md), [`flat-design`](../flat-design/SKILL.md)
 - **Mixes well with:** [`ai-chat-ui`](../ai-chat-ui/SKILL.md), [`luxury-typography-web`](../luxury-typography-web/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md)
 - **Kin in another domain:** [`risograph-print`](../risograph-print/SKILL.md)
-- **Nearest by vector profile:** [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md), [`constructivism-web`](../constructivism-web/SKILL.md)
+- **Nearest by vector profile:** [`rage-comic`](../rage-comic/SKILL.md), [`word-caption-clip`](../word-caption-clip/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
 
 ## Emotional target
 

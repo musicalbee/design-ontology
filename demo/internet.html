@@ -238,6 +238,8 @@
   .install .row { display: flex; flex-wrap: wrap; gap: .75rem; align-items: center; }
   .foot { padding: calc(var(--gap) * 2) 0 calc(var(--gap) * 4); font-size: .9rem; }
   .band { background-size: 80px 80px; height: 80px; border-block: var(--border-width) solid var(--color-border); }
+.do-branch { display: block; width: 100%; margin: .8rem 0 .2rem; font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; opacity: .65; }
+.do-branch:first-child { margin-top: 0; }
 </style>
 <link id="tokens" rel="stylesheet" href="">
 </head>
@@ -478,7 +480,7 @@ async function show(i) {
   const shot = shots.images[s.id];
   $("h-plate").src = shot ? `previews/internet/${shot.file}` : dir + "pack/hero.svg";
   $("h-plate").alt = shot ? `A coffee still life in the ${s.name} visual language` : `Abstract plate in the ${s.name} visual language`;
-  $("f-period").textContent = s.period; $("f-era").textContent = `Era: ${s.era.replace(/-/g, " ")}. Born in: ${data.primary_mediums.join(", ")}.`;
+  $("f-period").textContent = s.period; $("f-era").textContent = `Branch: ${BRANCH_NAME[s.branch] ?? "—"}. Era: ${s.era.replace(/-/g, " ")}. Born in: ${data.primary_mediums.join(", ")}.`;
   $("f-feels").textContent = data.emotion.keywords.slice(0, 3).join(", ");
   $("f-arch").textContent = `Brand archetypes: ${data.emotion.brand_archetypes.join(", ")}.`;
   $("f-uses").textContent = data.agent.use_cases.join(", ") + ".";
@@ -541,15 +543,28 @@ async function show(i) {
   $("n-skill").href = "../" + s.path; $("n-tokens").href = "../" + s.tokens; $("n-data").href = `../data/${s.domain}/styles/${s.id}.json`;
   $("n-copy").textContent = "Copy the command";
 
-  for (const b of $("chips").children) b.setAttribute("aria-pressed", b.dataset.go === s.id);
+  for (const b of $("chips").querySelectorAll("button")) b.setAttribute("aria-pressed", b.dataset.go === s.id);
   $("chips").querySelector('[aria-pressed="true"]')?.scrollIntoView({ block: "nearest" });
   if (location.hash.slice(1) !== s.id) history.replaceState(null, "", "#" + s.id);
 }
 
+// The ten branches of internet culture (domains/internet.json), in the order of the style list.
+const BRANCHES = [["web-ui", "Web and app UI"], ["net-aesthetics", "Net aesthetics"], ["memes", "Memes"], ["vertical-video", "Short vertical video"],
+  ["gifs-stickers", "GIFs, emoji and stickers"], ["creator-streaming", "Creator and streaming"], ["social-photo", "Social photo feeds"],
+  ["core-subcultures", "-core subcultures"], ["early-web", "Net art and the early web"], ["ai-native", "AI-native images"]];
+const BRANCH_NAME = Object.fromEntries(BRANCHES);
 const go = (id) => { const i = skills.findIndex((s) => s.id === id); if (i >= 0) show(i); return i >= 0; };
 Promise.all(["../skills/index.json", "../graph/lineage.json", "../domains/internet.json"].map((u) => fetch(u).then((r) => r.json()))).then(([index, g, domain]) => {
-  skills = index.skills.filter((s) => s.pack); graph = g; axes = domain.vectors;
-  $("chips").innerHTML = skills.map((s) => `<button data-go="${s.id}" aria-pressed="false">${esc(s.name)}</button>`).join("");
+  // Group the styles by branch, in the order of BRANCHES, with a heading for each branch.
+  const rank = (s) => { const i = BRANCHES.findIndex(([b]) => b === s.branch); return i < 0 ? BRANCHES.length : i; };
+  skills = index.skills.filter((s) => s.pack).map((s, i) => [s, i]).sort(([a, i], [b, j]) => rank(a) - rank(b) || i - j).map(([s]) => s);
+  graph = g; axes = domain.vectors;
+  let head = null;
+  $("chips").innerHTML = skills.map((s) => {
+    const h = s.branch !== head ? `<span class="do-branch">${esc(BRANCH_NAME[s.branch] ?? "Other")}</span>` : "";
+    head = s.branch;
+    return h + `<button data-go="${s.id}" aria-pressed="false">${esc(s.name)}</button>`;
+  }).join("");
   go(location.hash.slice(1)) || show(0);
 });
 document.addEventListener("click", (e) => {

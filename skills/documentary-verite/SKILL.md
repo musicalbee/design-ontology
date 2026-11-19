@@ -239,7 +239,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`soviet-montage`](../soviet-montage/SKILL.md)
 - **Led to (go here for a newer version):** [`found-footage`](../found-footage/SKILL.md)
 - **Mixes well with:** [`french-new-wave`](../french-new-wave/SKILL.md), [`mumblecore`](../mumblecore/SKILL.md)
-- **Kin in another domain:** [`street-photography`](../street-photography/SKILL.md)
+- **Kin in another domain:** [`street-photography`](../street-photography/SKILL.md), [`video-essay`](../video-essay/SKILL.md)
 - **Nearest by vector profile:** [`italian-neorealism`](../italian-neorealism/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md), [`found-footage`](../found-footage/SKILL.md)
 
 ## Emotional target

@@ -287,10 +287,11 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more modern**: move toward [`glassmorphism`](../glassmorphism/SKILL.md) (Glassmorphism). Replace the bevels with frosted glass panels of 16px blur; keep the gradient.
 
 - **Came from (go here for a more orthodox version):** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
-- **Led to (go here for a newer version):** [`surrealism-web`](../surrealism-web/SKILL.md), [`synthwave-web`](../synthwave-web/SKILL.md)
-- **Mixes well with:** [`cybercore-web`](../cybercore-web/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`pixel-art-web`](../pixel-art-web/SKILL.md)
+- **Led to (go here for a newer version):** [`health-goth`](../health-goth/SKILL.md), [`liminal-spaces`](../liminal-spaces/SKILL.md), [`surrealism-web`](../surrealism-web/SKILL.md), [`synthwave-web`](../synthwave-web/SKILL.md), [`weirdcore`](../weirdcore/SKILL.md)
+- **Was rejected by:** [`normcore`](../normcore/SKILL.md)
+- **Mixes well with:** [`cybercore-web`](../cybercore-web/SKILL.md), [`dreamcore`](../dreamcore/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`glitchcore`](../glitchcore/SKILL.md), [`hyperpop-visual`](../hyperpop-visual/SKILL.md), [`pixel-art-web`](../pixel-art-web/SKILL.md)
 - **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`surrealism-painting`](../surrealism-painting/SKILL.md)
-- **Nearest by vector profile:** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md)
+- **Nearest by vector profile:** [`cottagecore`](../cottagecore/SKILL.md), [`vtuber-avatar`](../vtuber-avatar/SKILL.md), [`geocities-homepage`](../geocities-homepage/SKILL.md)
 
 ## Emotional target
 

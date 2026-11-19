@@ -287,7 +287,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`flat-design`](../flat-design/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
 - **Mixes well with:** [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
-- **Nearest by vector profile:** [`bauhaus`](../bauhaus/SKILL.md), [`japanese-graphic-modernism`](../japanese-graphic-modernism/SKILL.md), [`metro-ui`](../metro-ui/SKILL.md)
+- **Nearest by vector profile:** [`cohesive-feed-grid`](../cohesive-feed-grid/SKILL.md), [`duet-split-screen`](../duet-split-screen/SKILL.md), [`video-essay`](../video-essay/SKILL.md)
 
 ## Emotional target
 

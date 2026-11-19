@@ -281,11 +281,12 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more digital**: move toward [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md) (Y2K Aesthetic). Replace paper grain with chrome and gloss gradients, and keep the layered type and the mixed faces; use clean vector edges.
 - If the user asks for **more raw**: move toward [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md) (Neo-Brutalism UI). Add 3px black borders and hard offset shadows to the blocks and flatten the texture; keep the overlaps and the mono body.
 
+- **Led to (go here for a newer version):** [`tumblr-soft-grunge`](../tumblr-soft-grunge/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`swiss-international`](../swiss-international/SKILL.md)
 - **Was rejected by:** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Mixes well with:** [`anti-design`](../anti-design/SKILL.md), [`punk-zine`](../punk-zine/SKILL.md), [`scrapbook-ui`](../scrapbook-ui/SKILL.md)
 - **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md), [`fashion-editorial`](../fashion-editorial/SKILL.md), [`party-flash`](../party-flash/SKILL.md), [`street-photography`](../street-photography/SKILL.md), [`xerox-zine`](../xerox-zine/SKILL.md)
-- **Nearest by vector profile:** [`punk-zine`](../punk-zine/SKILL.md), [`anti-design`](../anti-design/SKILL.md), [`cyberdelia`](../cyberdelia/SKILL.md)
+- **Nearest by vector profile:** [`clickbait-thumbnail`](../clickbait-thumbnail/SKILL.md), [`kidcore`](../kidcore/SKILL.md), [`punk-zine`](../punk-zine/SKILL.md)
 
 ## Emotional target
 

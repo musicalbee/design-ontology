@@ -285,9 +285,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`vaporwave`](../vaporwave/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
-- **Mixes well with:** [`ethereal-web`](../ethereal-web/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md)
+- **Mixes well with:** [`ethereal-web`](../ethereal-web/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md), [`surreal-meme`](../surreal-meme/SKILL.md)
 - **Kin in another domain:** [`airbrush-surrealism`](../airbrush-surrealism/SKILL.md), [`surrealism-painting`](../surrealism-painting/SKILL.md)
-- **Nearest by vector profile:** [`claymorphism`](../claymorphism/SKILL.md), [`blob-world`](../blob-world/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md)
+- **Nearest by vector profile:** [`claymorphism`](../claymorphism/SKILL.md), [`green-screen-short`](../green-screen-short/SKILL.md), [`seapunk`](../seapunk/SKILL.md)
 
 ## Emotional target
 

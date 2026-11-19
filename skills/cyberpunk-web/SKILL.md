@@ -286,7 +286,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md)
 - **Mixes well with:** [`cybercore-web`](../cybercore-web/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`synthwave-web`](../synthwave-web/SKILL.md), [`terminal-tui-web`](../terminal-tui-web/SKILL.md)
 - **Kin in another domain:** [`film-noir-still`](../film-noir-still/SKILL.md), [`techwear`](../techwear/SKILL.md)
-- **Nearest by vector profile:** [`conceptual-sketch-ui`](../conceptual-sketch-ui/SKILL.md), [`space-age`](../space-age/SKILL.md), [`constructivism-web`](../constructivism-web/SKILL.md)
+- **Nearest by vector profile:** [`conceptual-sketch-ui`](../conceptual-sketch-ui/SKILL.md), [`space-age`](../space-age/SKILL.md), [`chat-sticker-pack`](../chat-sticker-pack/SKILL.md)
 
 ## Emotional target
 

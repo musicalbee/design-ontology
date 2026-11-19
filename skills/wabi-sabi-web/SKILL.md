@@ -278,9 +278,11 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more warm**: move toward [`bohemian-web`](../bohemian-web/SKILL.md) (Bohemian Web). Add terracotta, arches and a script accent.
 
 - **Came from (go here for a more orthodox version):** [`swiss-international`](../swiss-international/SKILL.md)
+- **Led to (go here for a newer version):** [`cottagecore`](../cottagecore/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
+- **Mixes well with:** [`goblincore`](../goblincore/SKILL.md)
 - **Kin in another domain:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md), [`japanese-avant-garde-fashion`](../japanese-avant-garde-fashion/SKILL.md), [`raku-tea-bowl`](../raku-tea-bowl/SKILL.md)
-- **Nearest by vector profile:** [`ethereal-web`](../ethereal-web/SKILL.md), [`material-design`](../material-design/SKILL.md), [`neumorphism`](../neumorphism/SKILL.md)
+- **Nearest by vector profile:** [`ethereal-web`](../ethereal-web/SKILL.md), [`liminal-spaces`](../liminal-spaces/SKILL.md), [`material-design`](../material-design/SKILL.md)
 
 ## Emotional target
 

@@ -272,8 +272,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more soft**: move toward [`claymorphism`](../claymorphism/SKILL.md) (Claymorphism). Swap paper for soft 3D blobs and 24px radius.
 
 - **Came from (go here for a more orthodox version):** [`corporate-memphis`](../corporate-memphis/SKILL.md), [`punk-zine`](../punk-zine/SKILL.md)
+- **Led to (go here for a newer version):** [`kidcore`](../kidcore/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
-- **Mixes well with:** [`bohemian-web`](../bohemian-web/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md), [`conceptual-sketch-ui`](../conceptual-sketch-ui/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md)
+- **Mixes well with:** [`bohemian-web`](../bohemian-web/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md), [`conceptual-sketch-ui`](../conceptual-sketch-ui/SKILL.md), [`cottagecore`](../cottagecore/SKILL.md), [`goblincore`](../goblincore/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md)
 - **Nearest by vector profile:** [`bohemian-web`](../bohemian-web/SKILL.md), [`cassette-futurism`](../cassette-futurism/SKILL.md), [`conceptual-sketch-ui`](../conceptual-sketch-ui/SKILL.md)
 
 ## Emotional target

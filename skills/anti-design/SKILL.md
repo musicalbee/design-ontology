@@ -279,7 +279,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md), [`material-design`](../material-design/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
 - **Mixes well with:** [`brutalist-web`](../brutalist-web/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
 - **Kin in another domain:** [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md), [`xerox-zine`](../xerox-zine/SKILL.md)
-- **Nearest by vector profile:** [`punk-zine`](../punk-zine/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md)
+- **Nearest by vector profile:** [`punk-zine`](../punk-zine/SKILL.md), [`deep-fried-meme`](../deep-fried-meme/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md)
 
 ## Emotional target
 

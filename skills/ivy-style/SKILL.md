@@ -193,6 +193,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`english-bespoke-tailoring`](../english-bespoke-tailoring/SKILL.md)
 - **Led to (go here for a newer version):** [`mod-and-mini`](../mod-and-mini/SKILL.md), [`streetwear`](../streetwear/SKILL.md)
 - **Was rejected by:** [`hippie-bohemian-dress`](../hippie-bohemian-dress/SKILL.md)
+- **Kin in another domain:** [`dark-academia`](../dark-academia/SKILL.md)
 - **Nearest by vector profile:** [`country-sporting-tweed`](../country-sporting-tweed/SKILL.md), [`bandeau-brassiere`](../bandeau-brassiere/SKILL.md), [`victorian-boot`](../victorian-boot/SKILL.md)
 
 ## Emotional target

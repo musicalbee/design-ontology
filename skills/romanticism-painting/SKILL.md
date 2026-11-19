@@ -204,6 +204,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`rococo-painting`](../rococo-painting/SKILL.md)
 - **Was rejected by:** [`realism-painting`](../realism-painting/SKILL.md)
+- **Kin in another domain:** [`cottagecore`](../cottagecore/SKILL.md), [`dark-academia`](../dark-academia/SKILL.md)
 - **Nearest by vector profile:** [`baroque-painting`](../baroque-painting/SKILL.md), [`impressionism`](../impressionism/SKILL.md), [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md)
 
 ## Emotional target

@@ -1,0 +1,340 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "word-caption-clip",
+  "domain": "internet",
+  "name": "Word Caption Clip",
+  "aliases": [
+    "Karaoke captions",
+    "Hormozi captions",
+    "Animated subtitles"
+  ],
+  "branch": "creator-streaming",
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2020,
+    "end": null,
+    "label": "2020–now"
+  },
+  "primary_mediums": [
+    "video",
+    "mobile"
+  ],
+  "summary": "A talking head in a vertical frame, with the speech shown as huge captions, one to three words at a time. Each word pops in at the beat, and the current word takes a bright colour.",
+  "philosophy": {
+    "core_thesis": "Make every word visible at the moment it is spoken: the caption is the main picture, and the viewer reads and hears the same beat.",
+    "design_principles": [
+      "Set captions at 72px to 110px on a 1080x1920 frame, with 1 to 3 words on screen at a time.",
+      "Place the caption block at 55% to 65% of the frame height, centred, inside a 64px safe margin.",
+      "Colour the spoken word in yellow (#FFE600) or green (#3DFF7A) and keep the other words white.",
+      "Add a 6px black outline or a 4px hard shadow to each word.",
+      "Pop each word in at 90% to 110% scale over 6 to 8 frames at 30 fps.",
+      "Time each word to the audio within 2 frames.",
+      "Use a bold, heavy sans in capitals and one emoji or icon per sentence at most."
+    ],
+    "anti_patterns": [
+      "Full sentences of 12 words on screen",
+      "Thin, serif or script type",
+      "Captions in the lower 15% of the frame, under the app buttons",
+      "Low-contrast captions with no outline",
+      "Subtitles that lag the voice by more than 4 frames",
+      "Many colours in one caption line"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 1,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 5
+  },
+  "layout": {
+    "grid_mechanics": "A 1080x1920 frame: the speaker fills the frame, and the caption block sits on a centred column of 880px at 55% to 65% of the height.",
+    "whitespace_ratio": "The caption block uses 15% of the frame; the speaker keeps the rest.",
+    "alignment_rules": "Captions centre on one axis; one to three words per line; line gap of 8px; no text under the platform buttons.",
+    "container_geometry": "No boxes: text with an outline or a 4px hard shadow; an optional pill of 999px behind one key word."
+  },
+  "typography": {
+    "classifications": [
+      "heavy grotesque",
+      "bold display",
+      "outlined sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Montserrat",
+        "body": "Inter",
+        "note": "Heavy Montserrat (900) is an open look-alike of the black sans that word captions use."
+      },
+      {
+        "display": "Anton",
+        "body": "Roboto",
+        "note": "Anton is an open look-alike of the Impact face for tall, narrow words."
+      },
+      {
+        "display": "Poppins",
+        "body": "DM Sans",
+        "note": "A heavy geometric face with a round, clean text face."
+      }
+    ],
+    "tracking": "Display takes 0em; stacked lines stay tight at 0.",
+    "leading": "Display 1.0; body 1.4.",
+    "hierarchy_rules": [
+      "Use one display weight (900) for all caption words.",
+      "Use sizes 72, 96 and 110px in the frame and 18px on a page.",
+      "Set the active word in the accent colour and all other words in white.",
+      "Set a small emoji at 64px beside the key word."
+    ]
+  },
+  "color": {
+    "palette_structure": "White words on any footage, one yellow or green active colour and a black outline.",
+    "palette": [
+      {
+        "name": "Frame Black",
+        "hex": "#0A0A0A",
+        "role": "background"
+      },
+      {
+        "name": "Footage Grey",
+        "hex": "#1C1C1E",
+        "role": "surface"
+      },
+      {
+        "name": "Word White",
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "name": "Active Yellow",
+        "hex": "#FFE600",
+        "role": "primary"
+      },
+      {
+        "name": "Active Green",
+        "hex": "#3DFF7A",
+        "role": "accent"
+      },
+      {
+        "name": "Outline Black",
+        "hex": "#000000",
+        "role": "border"
+      }
+    ],
+    "contrast_rules": "White words on frame black hold at least 19:1, and the 6px outline keeps them readable on any footage.",
+    "surface_treatment": "Flat colour only; the speaker's footage is the picture, and a 20% black layer under the words lifts the contrast on a bright scene.",
+    "light_and_shadow": "A hard 4px black shadow at 100% under each word; no glow and no blur."
+  },
+  "materiality": {
+    "surface_simulation": "A phone video with live text on top: sharp, flat vector letters over camera footage.",
+    "border_rules": "A 6px black outline on the words; no panel borders.",
+    "blur_and_elevation": "No blur; a 4px hard offset shadow gives lift."
+  },
+  "ornamentation_details": {
+    "iconography": "Solid emoji and icons at 64px beside the key word; thick, round shapes.",
+    "illustration": "The speaker and the words; a progress bar of 6px at the top for long clips.",
+    "decorative_elements": [
+      "active-word highlight",
+      "outlined word",
+      "pop-in scale",
+      "emoji accent",
+      "progress bar"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Each word pops from 90% to 110% to 100% scale over 6 to 8 frames at 30 fps; the active colour moves from word to word on the beat; there is no fade between words.",
+    "easing": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+    "duration_ms": 200,
+    "hover_and_active": "Hover raises a card by 2px and shows a 4px yellow edge; active state fills the text with yellow."
+  },
+  "lineage": {
+    "evolved_from": [
+      "clickbait-thumbnail"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "neo-brutalism-ui"
+    ],
+    "echoes": [
+      "vertical-short-form"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels pulled along by the voice and cannot look away from the words.",
+    "keywords": [
+      "punchy",
+      "fast",
+      "bold",
+      "readable",
+      "urgent"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "hero"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "word captions",
+      "animated subtitles",
+      "karaoke captions",
+      "caption clip",
+      "talking head short",
+      "hormozi captions",
+      "subtitle highlight"
+    ],
+    "use_cases": [
+      "coach and course clips",
+      "podcast highlights",
+      "news and explainer shorts",
+      "app promo reels",
+      "accessibility-first video"
+    ],
+    "avoid_when": [
+      "The clip has no speech.",
+      "The caption block would cover key footage.",
+      "The tone needs a quiet, cinematic mood."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "video-essay",
+        "how": "Move to sentence subtitles at 36px, a serif face and a muted grade."
+      },
+      {
+        "request": "more meme",
+        "toward": "clickbait-thumbnail",
+        "how": "Add a face cut-out, a red arrow and a 120px headline at the frame top."
+      },
+      {
+        "request": "more playful",
+        "toward": "vtuber-avatar",
+        "how": "Replace the speaker with an avatar and use pastel words with a plum outline."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 900,
+      "subhead_weight": 700,
+      "body_weight": 500,
+      "strong_weight": 700,
+      "label_weight": 600,
+      "accent": "colour",
+      "display_tracking": "0em",
+      "display_leading": 1.0,
+      "display_case": "uppercase",
+      "body_leading": 1.4,
+      "body_size": "18px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 3,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "ph-fill",
+        "why": "A heavy, solid family matches the thick caption letters and the emoji accents."
+      }
+    },
+    "art": {
+      "recipe": "neobrutal",
+      "pattern": "none",
+      "seed": 72
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "center",
+      "density": "compact",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "raw",
+      "why": "The ground is raw footage with no decoration, since the words are the only design layer."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#0A0A0A",
+      "--color-surface": "#1C1C1E",
+      "--color-text": "#FFFFFF",
+      "--color-muted": "#C7C7CC",
+      "--color-primary": "#FFE600",
+      "--color-accent": "#3DFF7A",
+      "--color-border": "#000000",
+      "--font-sans": "\"Inter\", \"DM Sans\", sans-serif",
+      "--font-display": "\"Montserrat\", \"Anton\", sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "6px",
+      "--shadow-elevation": "4px 4px 0 #000000",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+      "--duration": "200ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#0A0A0A] text-[#FFFFFF] font-sans antialiased px-4 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-5xl md:text-8xl font-black uppercase leading-none tracking-normal text-center [-webkit-text-stroke:4px_#000] [paint-order:stroke_fill] [text-shadow:4px_4px_0_#000]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-none border-[6px] border-black bg-[#1C1C1E] shadow-[4px_4px_0_#000000]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border-[6px] border-black bg-[#FFE600] px-6 py-3 text-lg font-black uppercase text-[#0A0A0A] shadow-[4px_4px_0_#000000] transition-transform duration-200 hover:-translate-y-0.5"
+      },
+      {
+        "element": "label",
+        "classes": "text-sm font-semibold uppercase tracking-[0.08em] text-[#3DFF7A]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#FFE600",
+        "#3DFF7A",
+        "#FFFFFF"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#3DFF7A",
+        "#FFE600"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 8
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.5,
+      "min": 1.333,
+      "max": 1.618
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Closed captioning",
+      "url": "https://en.wikipedia.org/wiki/Closed_captioning"
+    },
+    {
+      "title": "Wikipedia: Alex Hormozi",
+      "url": "https://en.wikipedia.org/wiki/Alex_Hormozi"
+    }
+  ]
+}

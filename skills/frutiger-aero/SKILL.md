@@ -294,11 +294,11 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more modern glass**: move toward [`glassmorphism`](../glassmorphism/SKILL.md) (Glassmorphism). Raise backdrop blur to 20px, drop the gloss band and the reflections and use 25% white panels on a soft colour field; keep the aqua palette.
 
 - **Came from (go here for a more orthodox version):** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
-- **Led to (go here for a newer version):** [`glassmorphism`](../glassmorphism/SKILL.md)
-- **Was rejected by:** [`metro-ui`](../metro-ui/SKILL.md)
-- **Mixes well with:** [`apple-aqua`](../apple-aqua/SKILL.md), [`ethereal-web`](../ethereal-web/SKILL.md), [`skeuomorphism`](../skeuomorphism/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
+- **Led to (go here for a newer version):** [`glassmorphism`](../glassmorphism/SKILL.md), [`hyperpop-visual`](../hyperpop-visual/SKILL.md)
+- **Was rejected by:** [`health-goth`](../health-goth/SKILL.md), [`metro-ui`](../metro-ui/SKILL.md), [`weirdcore`](../weirdcore/SKILL.md)
+- **Mixes well with:** [`apple-aqua`](../apple-aqua/SKILL.md), [`dreamcore`](../dreamcore/SKILL.md), [`ethereal-web`](../ethereal-web/SKILL.md), [`seapunk`](../seapunk/SKILL.md), [`skeuomorphism`](../skeuomorphism/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md), [`web-2-0-gloss`](../web-2-0-gloss/SKILL.md)
 - **Kin in another domain:** [`glossy-3d-logo`](../glossy-3d-logo/SKILL.md), [`skeuomorphic-icon`](../skeuomorphic-icon/SKILL.md)
-- **Nearest by vector profile:** [`apple-aqua`](../apple-aqua/SKILL.md), [`cassette-futurism`](../cassette-futurism/SKILL.md), [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md)
+- **Nearest by vector profile:** [`apple-aqua`](../apple-aqua/SKILL.md), [`ai-slop`](../ai-slop/SKILL.md), [`cassette-futurism`](../cassette-futurism/SKILL.md)
 
 ## Emotional target
 

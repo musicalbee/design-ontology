@@ -1,0 +1,361 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "myspace-profile",
+  "domain": "internet",
+  "name": "Myspace Profile",
+  "aliases": [
+    "Social profile page",
+    "Custom CSS profile",
+    "Top 8 profile"
+  ],
+  "branch": "early-web",
+  "era_id": "postmodern-early-digital",
+  "time_period": {
+    "start": 2003,
+    "end": 2010,
+    "label": "2003–2010"
+  },
+  "primary_mediums": [
+    "web"
+  ],
+  "summary": "A user profile page that the owner restyled with pasted CSS: a wallpaper, glitter text, a music player, a Top 8 friends grid and a mirror-selfie photo. Myspace made the page a personal stage.",
+  "philosophy": {
+    "core_thesis": "A profile is a bedroom wall: the owner decorates it, and the decoration says who they are.",
+    "design_principles": [
+      "Replace the page ground with a full-bleed wallpaper: a band photo, a pattern or a gradient, fixed at the viewport.",
+      "Make boxes semi-transparent: black at 70% opacity with a 1px border in a bright accent such as #FF3399.",
+      "Place a profile photo of 170px wide at top left, a name line, a mood line and an 'online now' mark.",
+      "Show a Top 8 friends grid of 4 by 2 tiles of 75px by 75px with a name below each tile.",
+      "Add an autoplay music player bar of 24px to 40px and a comment wall of stacked photo and text rows.",
+      "Set text in 10px to 12px Verdana-like type, and set the headings in a decorative colour or glitter image.",
+      "Add a glitter or sparkle GIF as a heading and a blinking cursor trail."
+    ],
+    "anti_patterns": [
+      "A uniform template that every user shares",
+      "Large, quiet type at 18px or more",
+      "Neutral, flat colour with no wallpaper",
+      "A single column with no friends grid",
+      "Muted tones and hidden music",
+      "Locked layout with no custom code"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 5,
+    "dimensionality": 2,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A fixed two-column table of 800px: a left column of 300px for the photo, details and friends, and a right column of 480px for the blog and comments.",
+    "whitespace_ratio": "5% to 15% of the page is empty; the gaps are 4px, 8px and 16px.",
+    "alignment_rules": "Left column items flush left; headings centred in colour bars; the Top 8 grid centred.",
+    "container_geometry": "Boxes with a 0px to 4px radius, a 1px bright border and a 10px to 16px inner padding."
+  },
+  "typography": {
+    "classifications": [
+      "humanist sans",
+      "comic display",
+      "script"
+    ],
+    "font_pairings": [
+      {
+        "display": "Pacifico",
+        "body": "Noto Sans",
+        "note": "Pacifico is a rounded script for names and glitter headings; Noto Sans stands in for Verdana."
+      },
+      {
+        "display": "Comic Neue",
+        "body": "Arimo",
+        "note": "Comic Neue is the open look-alike of Comic Sans MS; Arimo is the Arial look-alike."
+      },
+      {
+        "display": "Permanent Marker",
+        "body": "Noto Sans",
+        "note": "A marker display for emo and punk profiles."
+      }
+    ],
+    "tracking": "Display 0.01em; body 0em.",
+    "leading": "Display 1.2; body 1.4.",
+    "hierarchy_rules": [
+      "Use 11px for body text, 12px bold for box titles and 24px for the name.",
+      "Use one bright colour for headings and white for text.",
+      "Use bold for names and underline for links.",
+      "Show the mood line in italics."
+    ]
+  },
+  "color": {
+    "palette_structure": "A dark or patterned wallpaper, translucent black boxes, one hot accent and the default blue and orange of the template.",
+    "palette": [
+      {
+        "name": "Wallpaper Black",
+        "hex": "#111111",
+        "role": "background"
+      },
+      {
+        "name": "Box Black",
+        "hex": "#1A1A1A",
+        "role": "panel"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "name": "Hot Pink",
+        "hex": "#FF3399",
+        "role": "primary"
+      },
+      {
+        "name": "Electric Blue",
+        "hex": "#3399FF",
+        "role": "accent"
+      },
+      {
+        "name": "Template Blue",
+        "hex": "#6699CC",
+        "role": "title bar"
+      },
+      {
+        "name": "Template Orange",
+        "hex": "#FF9933",
+        "role": "highlight"
+      },
+      {
+        "name": "Glitter Silver",
+        "hex": "#C0C0C0",
+        "role": "border"
+      }
+    ],
+    "contrast_rules": "White on box black is 17:1; hot pink on black is 6:1; keep body text white and use bright colours for headings and borders.",
+    "surface_treatment": "A fixed wallpaper under boxes of black at 60% to 80% opacity; flat colour title bars.",
+    "light_and_shadow": "No light source; a 1px bright border and a 2px glow on the active box; text may carry a 1px black shadow."
+  },
+  "materiality": {
+    "surface_simulation": "A bedroom wall of posters under glass: translucent panels over a printed wallpaper.",
+    "border_rules": "A 1px solid border in an accent colour; a 2px outset on the template boxes.",
+    "blur_and_elevation": "A shadow of 2px black on text; no blur on boxes."
+  },
+  "ornamentation_details": {
+    "iconography": "Small 16px icons for mail, add friend, comment and block; glitter and star GIFs.",
+    "illustration": "Band and selfie photos with a flash, glitter text, heart and skull clip art, and animated sparkle trails.",
+    "decorative_elements": [
+      "wallpaper",
+      "Top 8 grid",
+      "glitter heading",
+      "music player",
+      "comment wall",
+      "mood line"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "GIF sparkles loop at 8 to 12 frames per second; a cursor trail follows the pointer; the music starts at page load; boxes cut in with no easing.",
+    "easing": "cubic-bezier(0, 0, 1, 1)",
+    "duration_ms": 100,
+    "hover_and_active": "Hover turns a link from white to hot pink with underline; a tile in Top 8 gets a 2px accent border."
+  },
+  "lineage": {
+    "evolved_from": [
+      "geocities-homepage"
+    ],
+    "rebelled_against": [
+      "portal-table-layout"
+    ],
+    "hybridized_with": [
+      "y2k-aesthetic"
+    ],
+    "echoes": [
+      "y2k-digicam"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels the closeness of a friend's room: personal, loud and a little vain.",
+    "keywords": [
+      "personal",
+      "social",
+      "glittery",
+      "emo",
+      "customised",
+      "teenage"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "outlaw",
+      "lover"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "myspace",
+      "top 8",
+      "profile page",
+      "custom css profile",
+      "glitter text",
+      "2000s social profile",
+      "music player profile",
+      "scene kid"
+    ],
+    "use_cases": [
+      "nostalgic social and band pages",
+      "fan and community profiles",
+      "retro party and campaign pages",
+      "parody of early social media",
+      "creator link hubs"
+    ],
+    "avoid_when": [
+      "The page needs privacy, safety or calm.",
+      "The text is long and the reader needs ease.",
+      "The brand needs a clean, adult tone."
+    ],
+    "modifiers": [
+      {
+        "request": "cleaner",
+        "toward": "web-2-0-gloss",
+        "how": "Replace the wallpaper with a white ground, rounded boxes and glossy buttons."
+      },
+      {
+        "request": "more retro",
+        "toward": "geocities-homepage",
+        "how": "Replace the translucent boxes with a tiled background and a visitor counter."
+      },
+      {
+        "request": "more minimal",
+        "toward": "minimalism-web",
+        "how": "Keep the photo and the friends grid; remove the wallpaper and the glitter."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 700,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "colour",
+      "display_tracking": "0.01em",
+      "display_leading": 1.2,
+      "display_case": "none",
+      "body_leading": 1.4,
+      "body_size": "14px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "rounded",
+      "pack": {
+        "id": "pepicons-pop",
+        "why": "The pop style of this pack matches the cut-out stickers on a profile."
+      }
+    },
+    "art": {
+      "recipe": "y2k",
+      "pattern": "dots",
+      "seed": 2003
+    },
+    "layout": {
+      "hero": "split",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": -2
+    },
+    "ground": {
+      "kind": "orbs",
+      "why": "The ground is a dark wallpaper with a few bright spots, as on a custom profile."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#111111",
+      "--color-surface": "#1A1A1A",
+      "--color-text": "#FFFFFF",
+      "--color-muted": "#C0C0C0",
+      "--color-primary": "#FF3399",
+      "--color-accent": "#3399FF",
+      "--color-border": "#FF3399",
+      "--font-sans": "\"Noto Sans\", \"Arimo\", Verdana, sans-serif",
+      "--font-display": "\"Pacifico\", \"Comic Neue\", cursive",
+      "--border-radius": "4px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 0 2px #FF3399",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0, 0, 1, 1)",
+      "--duration": "100ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#111111] text-white font-sans text-[12px] px-2 md:px-8"
+      },
+      {
+        "element": "heading",
+        "classes": "text-3xl md:text-5xl font-bold text-[#FF3399] [text-shadow:1px_1px_0_#000]"
+      },
+      {
+        "element": "body",
+        "classes": "text-[12px] leading-[1.4] max-w-[480px]"
+      },
+      {
+        "element": "section",
+        "classes": "border border-[#FF3399] bg-[#1A1A1A]/80 rounded p-3"
+      },
+      {
+        "element": "button",
+        "classes": "rounded border border-[#3399FF] bg-[#FF3399] px-3 py-1 text-[11px] font-bold text-black hover:bg-[#3399FF]"
+      },
+      {
+        "element": "label",
+        "classes": "text-[11px] font-bold text-[#3399FF]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#FF3399",
+        "#3399FF",
+        "#FF9933",
+        "#9933FF"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#3399FF",
+        "#FF9933",
+        "#C0C0C0"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 8
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "min": 1.125,
+      "max": 1.5,
+      "default": 1.25
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Myspace",
+      "url": "https://en.wikipedia.org/wiki/Myspace"
+    },
+    {
+      "title": "Wikipedia: Tom Anderson (Internet entrepreneur)",
+      "url": "https://en.wikipedia.org/wiki/Tom_Anderson_(Internet_entrepreneur)"
+    },
+    {
+      "title": "Know Your Meme: Myspace",
+      "url": "https://knowyourmeme.com/memes/sites/myspace"
+    }
+  ]
+}

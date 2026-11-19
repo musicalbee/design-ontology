@@ -169,7 +169,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`skeuomorphic-icon`](../skeuomorphic-icon/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`flat-icon`](../flat-icon/SKILL.md)
-- **Kin in another domain:** [`claymorphism`](../claymorphism/SKILL.md)
+- **Kin in another domain:** [`3d-avatar-emoji`](../3d-avatar-emoji/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md)
 - **Nearest by vector profile:** [`skeuomorphic-icon`](../skeuomorphic-icon/SKILL.md), [`flat-icon`](../flat-icon/SKILL.md), [`isometric-icon`](../isometric-icon/SKILL.md)
 
 ## Emotional target

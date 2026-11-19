@@ -206,7 +206,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`new-colour`](../new-colour/SKILL.md), [`street-photography`](../street-photography/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`y2k-digicam`](../y2k-digicam/SKILL.md)
 - **Mixes well with:** [`party-flash`](../party-flash/SKILL.md)
-- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`impressionism`](../impressionism/SKILL.md), [`low-poly-ps1-revival`](../low-poly-ps1-revival/SKILL.md)
+- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`impressionism`](../impressionism/SKILL.md), [`instagram-vintage-filter`](../instagram-vintage-filter/SKILL.md), [`low-poly-ps1-revival`](../low-poly-ps1-revival/SKILL.md), [`vsco-preset-look`](../vsco-preset-look/SKILL.md)
 - **Nearest by vector profile:** [`new-colour`](../new-colour/SKILL.md), [`documentary-photography`](../documentary-photography/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
 
 ## Emotional target

@@ -1,0 +1,357 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "clean-girl",
+  "domain": "internet",
+  "name": "Clean girl",
+  "aliases": [
+    "Clean girl aesthetic",
+    "Glazed skin look"
+  ],
+  "branch": "core-subcultures",
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2022,
+    "end": null,
+    "label": "2022–now"
+  },
+  "primary_mediums": [
+    "image",
+    "video",
+    "mobile",
+    "web"
+  ],
+  "summary": "A look of dewy skin, a sleek bun, gold hoops, neutral clothes, white tiles and tidy shelves. It grew on TikTok and Instagram in 2021 and 2022 and sells wellness, skin and routine.",
+  "philosophy": {
+    "core_thesis": "Show effortless order: a polished, neutral surface suggests a calm life, and the routine is the product.",
+    "design_principles": [
+      "Set the ground in warm white (#FAF7F2) with beige (#E9DFD1) and a soft taupe (#9C8B7A) as support.",
+      "Use one gold accent (#C8A25B) for hoops, rules and small marks, under 5% of the surface.",
+      "Pair a clean geometric sans with one fine display serif or italic at 40px to 96px.",
+      "Photograph skin, hands and objects in soft window light with a 3% bloom and a visible sheen on highlights.",
+      "Frame products on white tile, marble or linen, in rows of 3 with 24px gaps; keep a 4:5 crop.",
+      "Show routines as numbered steps: 01 Cleanse, 02 Hydrate, 03 Glow, each in a pill of 999px radius.",
+      "Round all corners at 24px or more and use shadows at 6% opacity only."
+    ],
+    "anti_patterns": [
+      "Heavy makeup and loud colour",
+      "Dark, moody grading",
+      "Busy collage and stickers",
+      "Rough, grungy textures",
+      "Hard shadows and outlines",
+      "Cluttered shelves"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 2,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A 12-column grid with 24px gutters; products and steps sit in rows of 3 on tile modules of 160px.",
+    "whitespace_ratio": "45% to 60% of the surface stays empty; the spacing scale is 8, 16, 24, 40 and 64px.",
+    "alignment_rules": "Centred headings and centred product rows; text sits in short blocks of 3 lines.",
+    "container_geometry": "Cards and pills with a 24px to 999px radius, a 1px beige border and a 0 8px 24px shadow at 6% opacity."
+  },
+  "typography": {
+    "classifications": [
+      "geometric sans",
+      "fine display serif",
+      "italic accent"
+    ],
+    "font_pairings": [
+      {
+        "display": "Instrument Serif",
+        "body": "Jost",
+        "note": "A fine, narrow serif with an italic for one soft headline word, and a geometric sans for text."
+      },
+      {
+        "display": "DM Sans",
+        "body": "DM Sans",
+        "note": "A clean low-contrast geometric sans for labels and routines."
+      },
+      {
+        "display": "Manrope",
+        "body": "Figtree",
+        "note": "A calm, round sans pair for interface text."
+      }
+    ],
+    "tracking": "Display -0.01em; labels 0.08em.",
+    "leading": "Display 1.1; body 1.6.",
+    "hierarchy_rules": [
+      "Use weights 300 and 500 for the sans.",
+      "Use sizes 14, 16, 24 and 72px.",
+      "Set one word of each heading in serif italic.",
+      "Set step numbers in small capitals with 0.08em tracking."
+    ]
+  },
+  "color": {
+    "palette_structure": "Warm whites and beiges with a taupe text and one gold accent.",
+    "palette": [
+      {
+        "name": "Warm White",
+        "hex": "#FAF7F2",
+        "role": "background"
+      },
+      {
+        "name": "Cream Tile",
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "name": "Taupe Ink",
+        "hex": "#3A332C",
+        "role": "text"
+      },
+      {
+        "name": "Soft Taupe",
+        "hex": "#9C8B7A",
+        "role": "border"
+      },
+      {
+        "name": "Gold",
+        "hex": "#C8A25B",
+        "role": "accent"
+      },
+      {
+        "name": "Beige",
+        "hex": "#E9DFD1",
+        "role": "primary"
+      },
+      {
+        "name": "Stone",
+        "hex": "#6B6055",
+        "role": "muted text"
+      }
+    ],
+    "contrast_rules": "Taupe ink on warm white holds 12:1; stone holds 5.5:1; gold and beige carry rules, pills and fills, not small text.",
+    "surface_treatment": "Smooth fills with a faint 2-stop gradient from #FFFFFF to #F2EBDF; a soft sheen on photographs.",
+    "light_and_shadow": "Soft window light; a bloom of 3% on highlights; shadows lifted and blurred at 24px."
+  },
+  "materiality": {
+    "surface_simulation": "White tile, marble, linen, gold wire, serum glass and slick skin.",
+    "border_rules": "A 1px beige line on cards; pills with a 999px radius.",
+    "blur_and_elevation": "A shadow of 0 8px 24px at 6% opacity; no glass and no hard edge."
+  },
+  "ornamentation_details": {
+    "iconography": "Thin outline icons at 24px with 1.25px strokes and round caps; no tile.",
+    "illustration": "Close photographs of skin, hoops, a sleek bun, a glass bottle and a white tiled shelf; no drawn illustration.",
+    "decorative_elements": [
+      "gold hoop",
+      "numbered routine step",
+      "tile module",
+      "dewy highlight",
+      "pill label"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Smooth and soft: elements fade up by 8px over 450ms; a sheen passes over a product at 3s per loop.",
+    "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+    "duration_ms": 450,
+    "hover_and_active": "Hover lifts a card by 3px and sweeps a sheen; active state returns it in 150ms."
+  },
+  "lineage": {
+    "evolved_from": [
+      "normcore",
+      "minimalism-web"
+    ],
+    "rebelled_against": [
+      "goblincore"
+    ],
+    "hybridized_with": [
+      "vsco-preset-look"
+    ],
+    "echoes": [
+      "minimalist-fashion",
+      "minimalist-interior",
+      "quiet-luxury-fashion",
+      "fashion-editorial"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels calm, tidy and drawn to a polished daily routine.",
+    "keywords": [
+      "polished",
+      "calm",
+      "fresh",
+      "tidy",
+      "glowing",
+      "aspirational"
+    ],
+    "brand_archetypes": [
+      "caregiver",
+      "lover",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "clean girl",
+      "glazed skin",
+      "slick bun",
+      "gold hoops",
+      "neutral outfit",
+      "morning routine",
+      "wellness",
+      "skin routine"
+    ],
+    "use_cases": [
+      "skin and beauty brands",
+      "wellness and routine apps",
+      "neutral fashion shops",
+      "lifestyle creators"
+    ],
+    "avoid_when": [
+      "The brand needs rebellion, mess or loud colour.",
+      "The audience reads a dense technical product page.",
+      "The tone must be dark, raw or ironic."
+    ],
+    "modifiers": [
+      {
+        "request": "more plain",
+        "toward": "normcore",
+        "how": "Remove the sheen and gold; use a flat grey ground and a denim blue."
+      },
+      {
+        "request": "more pink",
+        "toward": "barbiecore",
+        "how": "Replace the beige with one hot pink and add glossy plastic highlights."
+      },
+      {
+        "request": "more luxury",
+        "toward": "quiet-luxury-fashion",
+        "how": "Use a deeper taupe palette, wider margins and no routine steps."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 500,
+      "subhead_weight": 500,
+      "body_weight": 300,
+      "strong_weight": 500,
+      "label_weight": 500,
+      "accent": "weight",
+      "display_tracking": "-0.01em",
+      "display_leading": 1.1,
+      "display_case": "none",
+      "body_leading": 1.6,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.25,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "solar-linear",
+        "why": "A very thin line set that matches the soft, light feel of the look."
+      }
+    },
+    "art": {
+      "recipe": "plain",
+      "pattern": "none",
+      "seed": 25
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "soft",
+      "why": "The clean girl look stands on a soft, near-white ground with a faint warm glow, like a bathroom in morning light."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#FAF7F2",
+      "--color-surface": "#FFFFFF",
+      "--color-text": "#3A332C",
+      "--color-muted": "#6B6055",
+      "--color-primary": "#E9DFD1",
+      "--color-accent": "#C8A25B",
+      "--color-border": "#E9DFD1",
+      "--font-sans": "\"Jost\", \"DM Sans\", sans-serif",
+      "--font-display": "\"Instrument Serif\", \"DM Sans\", Georgia, serif",
+      "--border-radius": "24px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 8px 24px rgba(58, 51, 44, 0.06)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "--duration": "450ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#FAF7F2] text-[#3A332C] font-sans font-light antialiased px-6 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "font-[family-name:Instrument_Serif] text-5xl md:text-7xl leading-[1.1] tracking-tight text-center"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-[40rem]"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-3xl border border-[#E9DFD1] bg-white p-8 shadow-[0_8px_24px_rgba(58,51,44,0.06)]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-full bg-[#3A332C] px-7 py-3 text-sm font-medium text-[#FAF7F2] transition-transform duration-[450ms] hover:-translate-y-0.5"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-medium uppercase tracking-[0.08em] text-[#6B6055]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#E9DFD1",
+        "#C8A25B",
+        "#3A332C"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#C8A25B",
+        "#9C8B7A"
+      ]
+    },
+    "corner_radius": {
+      "min": 16,
+      "max": 999
+    },
+    "grid_step": {
+      "min": 8,
+      "max": 16
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Know Your Meme: Clean Girl Aesthetic",
+      "url": "https://knowyourmeme.com/memes/clean-girl-aesthetic"
+    },
+    {
+      "title": "Vogue, The clean girl aesthetic explained (2022)"
+    },
+    {
+      "title": "Wikipedia: Aesthetic (internet culture)",
+      "url": "https://en.wikipedia.org/wiki/Aesthetic_(Internet_culture)"
+    }
+  ]
+}

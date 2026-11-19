@@ -237,6 +237,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`phone-cinema`](../phone-cinema/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`classical-hollywood`](../classical-hollywood/SKILL.md)
 - **Mixes well with:** [`documentary-verite`](../documentary-verite/SKILL.md)
+- **Kin in another domain:** [`photo-dump`](../photo-dump/SKILL.md)
 - **Nearest by vector profile:** [`french-new-wave`](../french-new-wave/SKILL.md), [`documentary-verite`](../documentary-verite/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md)
 
 ## Emotional target

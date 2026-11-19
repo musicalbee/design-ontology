@@ -236,6 +236,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`creator-vlog`](../creator-vlog/SKILL.md)
 - **Mixes well with:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`cinematic-fpv`](../cinematic-fpv/SKILL.md), [`creator-vlog`](../creator-vlog/SKILL.md), [`music-video`](../music-video/SKILL.md), [`phone-cinema`](../phone-cinema/SKILL.md)
+- **Kin in another domain:** [`clickbait-thumbnail`](../clickbait-thumbnail/SKILL.md), [`deepfake-face-swap`](../deepfake-face-swap/SKILL.md), [`dual-camera-snapshot`](../dual-camera-snapshot/SKILL.md), [`duet-split-screen`](../duet-split-screen/SKILL.md), [`glitchcore`](../glitchcore/SKILL.md), [`green-screen-short`](../green-screen-short/SKILL.md), [`grwm-short`](../grwm-short/SKILL.md), [`hyperpop-visual`](../hyperpop-visual/SKILL.md), [`lip-sync-dance-short`](../lip-sync-dance-short/SKILL.md), [`photo-carousel-slideshow`](../photo-carousel-slideshow/SKILL.md), [`pov-short`](../pov-short/SKILL.md), [`reaction-gif`](../reaction-gif/SKILL.md), [`velocity-edit`](../velocity-edit/SKILL.md), [`word-caption-clip`](../word-caption-clip/SKILL.md)
 - **Nearest by vector profile:** [`soviet-montage`](../soviet-montage/SKILL.md), [`phone-cinema`](../phone-cinema/SKILL.md), [`classical-hollywood`](../classical-hollywood/SKILL.md)
 
 ## Emotional target

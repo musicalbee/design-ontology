@@ -281,9 +281,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`scrapbook-ui`](../scrapbook-ui/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`mid-century-modern`](../mid-century-modern/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
-- **Mixes well with:** [`grunge-editorial`](../grunge-editorial/SKILL.md), [`victorian-web`](../victorian-web/SKILL.md)
+- **Mixes well with:** [`ansi-bbs-art`](../ansi-bbs-art/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`victorian-web`](../victorian-web/SKILL.md)
 - **Kin in another domain:** [`blackletter`](../blackletter/SKILL.md), [`punk-fashion`](../punk-fashion/SKILL.md), [`subculture-workboot`](../subculture-workboot/SKILL.md), [`xerox-zine`](../xerox-zine/SKILL.md)
-- **Nearest by vector profile:** [`anti-design`](../anti-design/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md)
+- **Nearest by vector profile:** [`anti-design`](../anti-design/SKILL.md), [`deep-fried-meme`](../deep-fried-meme/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md)
 
 ## Emotional target
 

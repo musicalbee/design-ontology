@@ -176,7 +176,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`chromolithograph-poster`](../chromolithograph-poster/SKILL.md)
 - **Led to (go here for a newer version):** [`pop-screen-print`](../pop-screen-print/SKILL.md)
-- **Kin in another domain:** [`pop-art-painting`](../pop-art-painting/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md)
+- **Kin in another domain:** [`pop-art-painting`](../pop-art-painting/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md), [`rage-comic`](../rage-comic/SKILL.md)
 - **Nearest by vector profile:** [`pop-screen-print`](../pop-screen-print/SKILL.md), [`risograph-print`](../risograph-print/SKILL.md), [`chromolithograph-poster`](../chromolithograph-poster/SKILL.md)
 
 ## Emotional target

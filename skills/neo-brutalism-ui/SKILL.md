@@ -284,9 +284,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`flat-design`](../flat-design/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`corporate-memphis`](../corporate-memphis/SKILL.md), [`material-design`](../material-design/SKILL.md)
-- **Mixes well with:** [`anti-design`](../anti-design/SKILL.md), [`brutalist-web`](../brutalist-web/SKILL.md)
+- **Mixes well with:** [`anti-design`](../anti-design/SKILL.md), [`brutalist-web`](../brutalist-web/SKILL.md), [`word-caption-clip`](../word-caption-clip/SKILL.md)
 - **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md)
-- **Nearest by vector profile:** [`constructivism-web`](../constructivism-web/SKILL.md), [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md)
+- **Nearest by vector profile:** [`chat-sticker-pack`](../chat-sticker-pack/SKILL.md), [`constructivism-web`](../constructivism-web/SKILL.md), [`lets-play-facecam`](../lets-play-facecam/SKILL.md)
 
 ## Emotional target
 

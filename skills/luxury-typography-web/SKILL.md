@@ -282,7 +282,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
 - **Mixes well with:** [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md)
 - **Kin in another domain:** [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md)
-- **Nearest by vector profile:** [`constructivism-web`](../constructivism-web/SKILL.md), [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
+- **Nearest by vector profile:** [`constructivism-web`](../constructivism-web/SKILL.md), [`word-caption-clip`](../word-caption-clip/SKILL.md), [`ansi-bbs-art`](../ansi-bbs-art/SKILL.md)
 
 ## Emotional target
 

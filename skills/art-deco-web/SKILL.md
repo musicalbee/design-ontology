@@ -278,7 +278,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`art-nouveau-web`](../art-nouveau-web/SKILL.md)
 - **Mixes well with:** [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md)
 - **Kin in another domain:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`art-deco-interior`](../art-deco-interior/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md), [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md), [`pochoir-plate`](../pochoir-plate/SKILL.md)
-- **Nearest by vector profile:** [`cybercore-web`](../cybercore-web/SKILL.md), [`pixel-art-web`](../pixel-art-web/SKILL.md), [`synthwave-web`](../synthwave-web/SKILL.md)
+- **Nearest by vector profile:** [`cybercore-web`](../cybercore-web/SKILL.md), [`ansi-bbs-art`](../ansi-bbs-art/SKILL.md), [`livestream-overlay`](../livestream-overlay/SKILL.md)
 
 ## Emotional target
 

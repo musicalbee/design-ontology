@@ -278,9 +278,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **cleaner**: move toward [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md) (Y2K Aesthetic). Switch to silver and baby blue on a light ground with pill shapes; keep one chrome headline.
 
 - **Came from (go here for a more orthodox version):** [`psychedelic`](../psychedelic/SKILL.md)
-- **Mixes well with:** [`cassette-futurism`](../cassette-futurism/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
+- **Led to (go here for a newer version):** [`flash-intro-site`](../flash-intro-site/SKILL.md), [`geocities-homepage`](../geocities-homepage/SKILL.md)
+- **Mixes well with:** [`cassette-futurism`](../cassette-futurism/SKILL.md), [`net-art-browser`](../net-art-browser/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Kin in another domain:** [`party-flash`](../party-flash/SKILL.md)
-- **Nearest by vector profile:** [`grunge-editorial`](../grunge-editorial/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md)
+- **Nearest by vector profile:** [`clickbait-thumbnail`](../clickbait-thumbnail/SKILL.md), [`glitchcore`](../glitchcore/SKILL.md), [`hyperpop-visual`](../hyperpop-visual/SKILL.md)
 
 ## Emotional target
 

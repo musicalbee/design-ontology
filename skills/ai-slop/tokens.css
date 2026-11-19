@@ -1,0 +1,130 @@
+/*
+ * AI Slop — tokens
+ * Generated from data/internet/styles/ai-slop.json by design-ontology. Do not edit.
+ * Use: put data-style="ai-slop" on <html> or on any container.
+ */
+[data-style="ai-slop"] {
+  --color-bg: #F2F3F5;
+  --color-surface: #FFFFFF;
+  --color-text: #1C1E21;
+  --color-muted: #5C6168;
+  --color-primary: #2F6FDB;
+  --color-accent: #E8742A;
+  --color-border: #DADDE1;
+  --font-sans: "Inter", "Roboto", sans-serif;
+  --font-display: "Inter", "Roboto", sans-serif;
+  --border-radius: 8px;
+  --border-width: 1px;
+  --shadow-elevation: 0 1px 3px rgba(0,0,0,0.15);
+  --backdrop-filter: none;
+  --space-unit: 4px;
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+  --duration: 200ms;
+  --type-ratio: 1.2;
+  --size-small: 13.33px;
+  --size-h3: 23.04px;
+  --size-h2: 27.65px;
+  --size-h1: 33.18px;
+  --color-on-bg: #1C1E21;
+  --color-on-surface: #1C1E21;
+  --color-on-primary: #FFFFFF;
+  --color-on-accent: #1C1E21;
+  --color-muted-on-bg: #5C6168;
+  --color-muted-on-surface: #5C6168;
+  --color-link: #1C1E21;
+  --color-link-on-surface: #2F6FDB;
+  --display-weight: 700;
+  --subhead-weight: 600;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 600;
+  --display-tracking: 0em;
+  --display-leading: 1.25;
+  --display-case: none;
+  --body-leading: 1.4;
+  --body-size: 16px;
+  --icon-stroke: 1.75;
+  --ground: radial-gradient(circle at 80% 46%, var(--color-bg) 0 20vmin, transparent calc(20vmin + 1px)),
+    radial-gradient(circle at calc(80% + 3vmin) calc(46% + 3vmin), color-mix(in oklab, var(--color-on-bg) 16%, transparent) 0 18vmin, transparent 27vmin),
+    radial-gradient(circle at calc(80% - 3vmin) calc(46% - 3vmin), rgba(255,255,255,.85) 0 18vmin, transparent 27vmin),
+    radial-gradient(35% 40% at 96% 92%, color-mix(in oklab, var(--color-accent) 35%, transparent), transparent 70%),
+    radial-gradient(30% 35% at 60% 4%, color-mix(in oklab, var(--color-primary) 22%, transparent), transparent 70%),
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="ai-slop"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="ai-slop"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="ai-slop"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="ai-slop"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="ai-slop"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="ai-slop"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="ai-slop"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="ai-slop"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="ai-slop"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="ai-slop"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="ai-slop"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="ai-slop"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="ai-slop"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="ai-slop"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

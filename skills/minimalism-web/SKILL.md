@@ -272,9 +272,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **softer**: move toward [`ethereal-web`](../ethereal-web/SKILL.md) (Ethereal Web). Replace the grey by pastel haze and a light serif.
 
 - **Came from (go here for a more orthodox version):** [`flat-design`](../flat-design/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
+- **Led to (go here for a newer version):** [`clean-girl`](../clean-girl/SKILL.md), [`normcore`](../normcore/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`skeuomorphism`](../skeuomorphism/SKILL.md)
-- **Was rejected by:** [`cyberpunk-web`](../cyberpunk-web/SKILL.md)
-- **Mixes well with:** [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md), [`luxury-typography-web`](../luxury-typography-web/SKILL.md), [`surrealism-web`](../surrealism-web/SKILL.md)
+- **Was rejected by:** [`clickbait-thumbnail`](../clickbait-thumbnail/SKILL.md), [`cyberpunk-web`](../cyberpunk-web/SKILL.md), [`glitchcore`](../glitchcore/SKILL.md), [`hyperpop-visual`](../hyperpop-visual/SKILL.md)
+- **Mixes well with:** [`cohesive-feed-grid`](../cohesive-feed-grid/SKILL.md), [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md), [`luxury-typography-web`](../luxury-typography-web/SKILL.md), [`surrealism-web`](../surrealism-web/SKILL.md)
 - **Kin in another domain:** [`minimalist-fashion`](../minimalist-fashion/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
 - **Nearest by vector profile:** [`flat-design`](../flat-design/SKILL.md), [`ai-chat-ui`](../ai-chat-ui/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md)
 

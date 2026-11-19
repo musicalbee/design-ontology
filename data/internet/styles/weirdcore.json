@@ -1,0 +1,345 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "weirdcore",
+  "domain": "internet",
+  "name": "Weirdcore",
+  "aliases": [
+    "Oddcore",
+    "Strangecore",
+    "Creepycore"
+  ],
+  "branch": "net-aesthetics",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2018,
+    "end": null,
+    "label": "2018–now"
+  },
+  "primary_mediums": [
+    "image",
+    "web"
+  ],
+  "summary": "Low-quality photos of empty places, red warning text, black voids, faceless shapes and old 3D or web fragments. The mood is a strange dream memory. It grew on Tumblr, Reddit and Twitter.",
+  "philosophy": {
+    "core_thesis": "Make a familiar thing wrong in one small way, and let the poor image quality carry the unease.",
+    "design_principles": [
+      "Use a low-resolution photo (320px to 640px wide) scaled up with no smoothing, with JPEG blocks visible.",
+      "Cast the photo with a 10% to 20% colour shift to yellow-green or magenta.",
+      "Place one black rectangle (the void) at 5% to 15% of the frame over a key area.",
+      "Set one line of red (#E01B1B) text of 14px to 24px such as a number or a short phrase.",
+      "Add one wrong detail: a face with no features, a second horizon or a door with no wall.",
+      "Add a date stamp or a plus sign of 12px in a corner.",
+      "Keep the frame off-centre by 8% to 20%."
+    ],
+    "anti_patterns": [
+      "Clean studio lighting",
+      "High-resolution sharp photography",
+      "Cheerful bright palettes",
+      "Symmetrical, polished layouts",
+      "Decorative flourishes",
+      "Smooth vector illustration",
+      "Friendly mascot characters"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 2,
+    "grid_rigidity": 2,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 4
+  },
+  "layout": {
+    "grid_mechanics": "No fixed grid; one image fills the frame and text sits at 3 points at the edges, 16px from the border.",
+    "whitespace_ratio": "10% to 30% of the surface is a black or flat void; the spacing scale is 4, 12 and 24px.",
+    "alignment_rules": "Off-centre image and small text blocks aligned to a corner; a slight tilt of 0.5° to 2° is allowed.",
+    "container_geometry": "Hard rectangles with a 0px radius; black voids; no cards and no shadows."
+  },
+  "typography": {
+    "classifications": [
+      "monospace",
+      "system sans",
+      "serif"
+    ],
+    "font_pairings": [
+      {
+        "display": "VT323",
+        "body": "Space Mono",
+        "note": "A bitmap-like display face with a mono text face."
+      },
+      {
+        "display": "IBM Plex Mono",
+        "body": "IBM Plex Sans",
+        "note": "A plain system look for flat, cold text."
+      },
+      {
+        "display": "Special Elite",
+        "body": "Courier Prime",
+        "note": "A typewriter pair for a document-found look."
+      }
+    ],
+    "tracking": "Display takes +0.02em; small text takes +0.06em.",
+    "leading": "Display 1.2; body 1.5.",
+    "hierarchy_rules": [
+      "Use one weight: regular (400).",
+      "Use sizes 12, 16, 24 and 48px.",
+      "Set warning text in red and everything else in off-white.",
+      "Use at most 3 text elements per frame."
+    ]
+  },
+  "color": {
+    "palette_structure": "Washed yellow-green and grey midtones, with one red and one black.",
+    "palette": [
+      {
+        "name": "Void Black",
+        "hex": "#0B0B0B",
+        "role": "background"
+      },
+      {
+        "name": "Dull Fluorescent",
+        "hex": "#C9C58A",
+        "role": "primary"
+      },
+      {
+        "name": "Wrong Red",
+        "hex": "#E01B1B",
+        "role": "accent"
+      },
+      {
+        "name": "Carpet Teal",
+        "hex": "#3B6B66",
+        "role": "second accent"
+      },
+      {
+        "name": "Old Wall",
+        "hex": "#D9D4C0",
+        "role": "text"
+      },
+      {
+        "name": "Dust Grey",
+        "hex": "#6F6E68",
+        "role": "muted"
+      }
+    ],
+    "contrast_rules": "Text on void black holds at least 10:1; red is for one short line, not for body text.",
+    "surface_treatment": "Flat colour grade, JPEG blocks, 5% to 10% noise, a vignette of 20%.",
+    "light_and_shadow": "Flat flash or ceiling light with no soft falloff; deep black shadows."
+  },
+  "materiality": {
+    "surface_simulation": "A low-quality digital photo, a screenshot or a scan of a screen.",
+    "border_rules": "No border; images end at a hard edge; voids have a 0px edge.",
+    "blur_and_elevation": "No blur by design; a 1px to 2px chroma shift at edges."
+  },
+  "ornamentation_details": {
+    "iconography": "Few icons; a system cursor, an error cross and a small circle at 16px, in a thin line.",
+    "illustration": "Found photos of rooms, playgrounds and shops, with faceless silhouettes, eyes cut from other photos and old 3D fragments.",
+    "decorative_elements": [
+      "black void",
+      "red warning line",
+      "faceless figure",
+      "empty room",
+      "date stamp"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Hard cuts every 1.2s to 3s; a flicker of 2 frames at 12 fps; text appears one letter at a time at 80ms per letter.",
+    "easing": "steps(4, end)",
+    "duration_ms": 120,
+    "hover_and_active": "Hover shows a second hidden line of text; the active state cuts to a negative of the image for 120ms."
+  },
+  "lineage": {
+    "evolved_from": [
+      "vaporwave"
+    ],
+    "rebelled_against": [
+      "frutiger-aero"
+    ],
+    "hybridized_with": [
+      "y2k-aesthetic"
+    ],
+    "echoes": [
+      "camcorder-revival",
+      "low-poly-ps1-revival"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels a quiet unease and a memory of a place that never existed.",
+    "keywords": [
+      "uncanny",
+      "nostalgic",
+      "eerie",
+      "empty",
+      "lo-fi",
+      "dreamlike"
+    ],
+    "brand_archetypes": [
+      "magician",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "weirdcore",
+      "oddcore",
+      "strangecore",
+      "creepycore",
+      "uncanny nostalgia",
+      "lo-fi eerie",
+      "empty playground",
+      "black void"
+    ],
+    "use_cases": [
+      "horror and indie game pages",
+      "album and zine artwork",
+      "short film posters",
+      "art projects about memory"
+    ],
+    "avoid_when": [
+      "The audience expects a reassuring tone.",
+      "The page sells to children or families.",
+      "The text must be fast to scan."
+    ],
+    "modifiers": [
+      {
+        "request": "softer",
+        "toward": "dreamcore",
+        "how": "Replace the red text with pale pastel text and add a soft bloom of 12px."
+      },
+      {
+        "request": "more digital",
+        "toward": "glitchcore",
+        "how": "Add channel splits, repeated frames and high-contrast colour."
+      },
+      {
+        "request": "more retro",
+        "toward": "cassette-futurism",
+        "how": "Replace the photo with a CRT screen, an amber text line and a hard grid."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 400,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 400,
+      "accent": "colour",
+      "display_tracking": "0.02em",
+      "display_leading": 1.2,
+      "display_case": "none",
+      "body_leading": 1.5,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "butt",
+      "linejoin": "miter",
+      "container": "square",
+      "pack": {
+        "id": "pixelarticons",
+        "why": "Pixel icons match the low-resolution, old-computer fragments of the style."
+      }
+    },
+    "art": {
+      "recipe": "grunge",
+      "pattern": "noise",
+      "seed": 31
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": 1
+    },
+    "ground": {
+      "kind": "raw",
+      "why": "Weirdcore uses raw, degraded images, so the ground is a flat field with visible noise and no polish."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#0B0B0B",
+      "--color-surface": "#1A1A18",
+      "--color-text": "#D9D4C0",
+      "--color-muted": "#A8A494",
+      "--color-primary": "#C9C58A",
+      "--color-accent": "#E01B1B",
+      "--color-border": "#6F6E68",
+      "--font-sans": "\"IBM Plex Mono\", \"Space Mono\", monospace",
+      "--font-display": "\"VT323\", \"IBM Plex Mono\", monospace",
+      "--border-radius": "0px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "4px",
+      "--ease": "steps(4, end)",
+      "--duration": "120ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#0B0B0B] text-[#D9D4C0] font-mono antialiased px-6 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-3xl md:text-5xl leading-[1.2] tracking-[0.02em] text-[#E01B1B]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border border-[#6F6E68] bg-[#1A1A18]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border border-[#C9C58A] bg-transparent px-4 py-2 text-sm text-[#C9C58A] hover:bg-[#C9C58A] hover:text-[#0B0B0B]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs uppercase tracking-widest"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#C9C58A",
+        "#E01B1B",
+        "#D9D4C0"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#E01B1B",
+        "#3B6B66"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 0
+    },
+    "grid_step": {
+      "min": 2,
+      "max": 8
+    },
+    "type_scale_ratio": {
+      "default": 1.414,
+      "min": 1.25,
+      "max": 1.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia, Weirdcore",
+      "url": "https://en.wikipedia.org/wiki/Weirdcore"
+    },
+    {
+      "title": "Wikipedia, Yume Nikki",
+      "url": "https://en.wikipedia.org/wiki/Yume_Nikki"
+    }
+  ]
+}

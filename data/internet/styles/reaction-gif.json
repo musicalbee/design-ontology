@@ -1,0 +1,337 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "reaction-gif",
+  "domain": "internet",
+  "name": "Reaction GIF",
+  "aliases": [
+    "Reaction clip",
+    "Captioned GIF loop",
+    "Giphy loop"
+  ],
+  "branch": "gifs-stickers",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2009,
+    "end": null,
+    "label": "2009–now"
+  },
+  "primary_mediums": [
+    "image",
+    "mobile",
+    "web"
+  ],
+  "summary": "A short looped clip from a film, a show or a sport, sent in place of a sentence. The frame is small, grainy and often carries a one-line caption in heavy white capitals.",
+  "philosophy": {
+    "core_thesis": "A looped second of a real face says a feeling faster than a sentence, so the clip is the reply.",
+    "design_principles": [
+      "Loop a clip of 1 to 4 seconds at 10 to 15 fps with a seamless cut from the last frame to the first.",
+      "Export the frame at 480px wide or less in 256 colours, and let dithering and grain stay visible.",
+      "Set a caption in heavy white capitals with a 2px black outline, at 8% to 12% of the frame height.",
+      "Place the caption on the lower third of the frame, centred, with 4% margin from the edge.",
+      "Crop tight on one face or one gesture, so that the subject fills 50% to 70% of the frame.",
+      "Frame the clip in a 1px white outline on a dark card of #22222C when it shows inside a feed.",
+      "Show the search tag, for example #facepalm, in 12px capitals under the clip."
+    ],
+    "anti_patterns": [
+      "Smooth 60 fps video with no dither",
+      "Long clips with a visible cut point",
+      "Thin captions with no outline",
+      "Wide landscape frames with a small subject",
+      "Clean studio gradients behind the clip",
+      "Several captions in one frame"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 2,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 4,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A masonry wall of clips in 2 to 4 columns with 8px gutters; each cell keeps the aspect ratio of its clip.",
+    "whitespace_ratio": "10% to 20% of the surface stays empty; the spacing scale is 4, 8 and 16px.",
+    "alignment_rules": "The caption is centred on the lower third; tags and source lines are flush-left under the clip.",
+    "container_geometry": "Clip cells with a 0px radius and a 2px white edge; a caption box has no fill."
+  },
+  "typography": {
+    "classifications": [
+      "condensed grotesque",
+      "neo-grotesque sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Anton",
+        "body": "Archivo",
+        "note": "Anton is an open look-alike of Impact; it takes the caption role."
+      },
+      {
+        "display": "Oswald",
+        "body": "Inter",
+        "note": "A second open condensed face for captions."
+      }
+    ],
+    "tracking": "Display 0.02em; body 0em.",
+    "leading": "Display 1.05; body 1.5.",
+    "hierarchy_rules": [
+      "Set the caption in 1 size only, in capitals, in white with a black outline of 2px.",
+      "Set tags and source lines in 12px sans at 70% opacity.",
+      "Keep one caption for each clip, of 6 words or fewer."
+    ]
+  },
+  "color": {
+    "palette_structure": "Dark UI ground with white captions and one yellow and one blue highlight; the clip supplies the other colours.",
+    "palette": [
+      {
+        "name": "Feed Black",
+        "hex": "#14141A",
+        "role": "background"
+      },
+      {
+        "name": "Card Grey",
+        "hex": "#22222C",
+        "role": "surface"
+      },
+      {
+        "name": "Caption White",
+        "hex": "#FFFFFF",
+        "role": "caption and text"
+      },
+      {
+        "name": "Search Yellow",
+        "hex": "#FFD60A",
+        "role": "primary"
+      },
+      {
+        "name": "Link Blue",
+        "hex": "#00C2FF",
+        "role": "accent"
+      },
+      {
+        "name": "Dust Grey",
+        "hex": "#B8B8C8",
+        "role": "muted text"
+      }
+    ],
+    "contrast_rules": "Caption white on the dark feed holds 16:1; on a clip, the black outline keeps the caption legible.",
+    "surface_treatment": "Flat dark cards around the clip; the clip itself shows dither and compression grain.",
+    "light_and_shadow": "No UI light; shadow comes only from the film still."
+  },
+  "materiality": {
+    "surface_simulation": "Compressed film or TV footage: 256-colour dither, banding and visible block noise.",
+    "border_rules": "A 2px white edge on a selected clip; no border otherwise.",
+    "blur_and_elevation": "No blur; no elevation."
+  },
+  "ornamentation_details": {
+    "iconography": "Solid glyphs at 24px: heart, share, copy-link, search.",
+    "illustration": "Film and sports stills, shown as loops; no drawn art.",
+    "decorative_elements": [
+      "Impact-style caption",
+      "hashtag chip",
+      "dither grain",
+      "play-loop badge",
+      "masonry wall"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "The clip loops without end at 10 to 15 fps; hover starts the clip, leave pauses it on the first frame.",
+    "easing": "steps(8, end)",
+    "duration_ms": 100,
+    "hover_and_active": "Hover adds a 2px yellow edge; active copies the link and shows a 1s toast."
+  },
+  "lineage": {
+    "evolved_from": [
+      "kaomoji-emoticon"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "vertical-short-form"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels a quick shared reaction, funny and a little raw.",
+    "keywords": [
+      "quick",
+      "funny",
+      "raw",
+      "looped",
+      "grainy",
+      "reactive"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "reaction gif",
+      "gif reply",
+      "giphy",
+      "looped clip",
+      "meme gif",
+      "animated gif",
+      "captioned clip"
+    ],
+    "use_cases": [
+      "chat and comment reply pickers",
+      "social posts and newsletters with a joke",
+      "empty and success states with a human face",
+      "meme walls and tag search pages"
+    ],
+    "avoid_when": [
+      "The audience needs a serious or formal tone.",
+      "The source film has no rights for reuse.",
+      "The page must load fast on a weak network."
+    ],
+    "modifiers": [
+      {
+        "request": "smoother",
+        "toward": "cinemagraph",
+        "how": "Freeze all of the frame except one moving part and export at 24 fps with no caption."
+      },
+      {
+        "request": "more distorted",
+        "toward": "glitch-gif",
+        "how": "Add a 2px to 8px channel split and 3 to 6 frame bursts of torn bands."
+      },
+      {
+        "request": "friendlier",
+        "toward": "chat-sticker-pack",
+        "how": "Replace the film still with a drawn character and a short hand-lettered word."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 400,
+      "display_tracking": "0.02em",
+      "display_leading": 1.05,
+      "display_case": "uppercase",
+      "body_leading": 1.5,
+      "body_size": "16px",
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 500,
+      "accent": "case"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "mingcute-fill",
+        "why": "A solid, rounded family fits the small action glyphs under a clip."
+      }
+    },
+    "art": {
+      "recipe": "grunge",
+      "pattern": "noise",
+      "seed": 34
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "center",
+      "density": "compact",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "halftone",
+      "why": "The dither and compression grain of a looped clip read as a coarse dot field behind the page."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#14141A",
+      "--color-surface": "#22222C",
+      "--color-text": "#FFFFFF",
+      "--color-muted": "#B8B8C8",
+      "--color-primary": "#FFD60A",
+      "--color-accent": "#00C2FF",
+      "--color-border": "#FFFFFF",
+      "--font-sans": "\"Archivo\", \"Inter\", sans-serif",
+      "--font-display": "\"Anton\", \"Oswald\", sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "2px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "steps(8, end)",
+      "--duration": "100ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#14141A] text-[#FFFFFF] font-sans antialiased px-4 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-4xl md:text-6xl font-['Anton'] uppercase tracking-[0.02em] leading-[1.1]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border-2 border-[#FFFFFF] bg-[#22222C] rounded-none"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border-2 border-[#FFFFFF] bg-[#FFD60A] px-6 py-3 text-sm font-bold text-[#14141A] transition-transform duration-[100ms] hover:-translate-y-0.5"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs uppercase tracking-widest text-[#FFD60A]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#FFD60A",
+        "#14141A",
+        "#22222C",
+        "#FFFFFF"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#FFD60A",
+        "#00C2FF"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 8
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 16
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.414
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: GIF",
+      "url": "https://en.wikipedia.org/wiki/GIF"
+    },
+    {
+      "title": "Wikipedia: Giphy",
+      "url": "https://en.wikipedia.org/wiki/Giphy"
+    },
+    {
+      "title": "Know Your Meme: Reaction GIF",
+      "url": "https://knowyourmeme.com/memes/reaction-gifs"
+    }
+  ]
+}

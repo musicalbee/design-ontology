@@ -163,7 +163,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`risograph-print`](../risograph-print/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`psychedelic-concert-poster`](../psychedelic-concert-poster/SKILL.md)
-- **Kin in another domain:** [`anti-design`](../anti-design/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`punk-fashion`](../punk-fashion/SKILL.md), [`punk-zine`](../punk-zine/SKILL.md)
+- **Kin in another domain:** [`anti-design`](../anti-design/SKILL.md), [`deep-fried-meme`](../deep-fried-meme/SKILL.md), [`demotivational-poster`](../demotivational-poster/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`punk-fashion`](../punk-fashion/SKILL.md), [`punk-zine`](../punk-zine/SKILL.md)
 - **Nearest by vector profile:** [`woodcut-relief-print`](../woodcut-relief-print/SKILL.md), [`psychedelic-concert-poster`](../psychedelic-concert-poster/SKILL.md), [`private-press-book`](../private-press-book/SKILL.md)
 
 ## Emotional target

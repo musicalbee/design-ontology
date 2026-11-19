@@ -1,0 +1,65 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "photo-filter-preset",
+  "name": "Photo filter preset",
+  "aliases": [
+    "One-tap filter",
+    "Look preset"
+  ],
+  "kind": "process",
+  "summary": "A saved set of colour and tone changes that a user applies to a photo with one tap.",
+  "how": [
+    "Save the curve, fade, tint, vignette and grain values as one named set.",
+    "Apply the set to a photo at a strength from 0% to 100%.",
+    "Show the set as a thumbnail with a short name.",
+    "Keep one set for all photos when a feed must match."
+  ],
+  "origin": {
+    "domain": "internet",
+    "year": 2009,
+    "where": "United States",
+    "note": "The Hipstamatic phone app applies lens and film looks to a photo with one tap."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 2010,
+      "via": "Instagram adds named filters such as Valencia and X-Pro II to square phone photos.",
+      "styles": [
+        "instagram-vintage-filter"
+      ]
+    },
+    {
+      "domain": "internet",
+      "year": 2013,
+      "via": "VSCO sells film-stock presets with short codes such as A6.",
+      "styles": [
+        "vsco-preset-look"
+      ]
+    },
+    {
+      "domain": "internet",
+      "year": 2016,
+      "circa": true,
+      "via": "Profile owners apply one preset to every photo so that the grid has one tone.",
+      "styles": [
+        "cohesive-feed-grid"
+      ]
+    }
+  ],
+  "styles": [
+    "instagram-vintage-filter",
+    "vsco-preset-look",
+    "cohesive-feed-grid"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Hipstamatic",
+      "url": "https://en.wikipedia.org/wiki/Hipstamatic"
+    },
+    {
+      "title": "Wikipedia: Instagram",
+      "url": "https://en.wikipedia.org/wiki/Instagram"
+    }
+  ]
+}

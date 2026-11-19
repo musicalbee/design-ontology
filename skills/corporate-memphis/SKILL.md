@@ -286,10 +286,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`flat-design`](../flat-design/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md)
 - **Led to (go here for a newer version):** [`scrapbook-ui`](../scrapbook-ui/SKILL.md)
-- **Was rejected by:** [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
+- **Was rejected by:** [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md), [`liminal-spaces`](../liminal-spaces/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
 - **Mixes well with:** [`blob-world`](../blob-world/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md)
 - **Kin in another domain:** [`risograph-print`](../risograph-print/SKILL.md)
-- **Nearest by vector profile:** [`japanese-dense-web`](../japanese-dense-web/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md), [`ai-chat-ui`](../ai-chat-ui/SKILL.md)
+- **Nearest by vector profile:** [`rage-comic`](../rage-comic/SKILL.md), [`japanese-dense-web`](../japanese-dense-web/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md)
 
 ## Emotional target
 

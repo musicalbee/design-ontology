@@ -276,8 +276,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more people**: move toward [`corporate-memphis`](../corporate-memphis/SKILL.md) (Corporate Memphis). Swap blobs for flat figures with long limbs and 3 shape accents; keep the saturated hues.
 
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
-- **Mixes well with:** [`corporate-memphis`](../corporate-memphis/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md)
-- **Nearest by vector profile:** [`claymorphism`](../claymorphism/SKILL.md), [`surrealism-web`](../surrealism-web/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md)
+- **Mixes well with:** [`corporate-memphis`](../corporate-memphis/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md), [`vtuber-avatar`](../vtuber-avatar/SKILL.md)
+- **Nearest by vector profile:** [`seapunk`](../seapunk/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md), [`surrealism-web`](../surrealism-web/SKILL.md)
 
 ## Emotional target
 

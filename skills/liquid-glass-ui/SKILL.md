@@ -277,7 +277,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`glassmorphism`](../glassmorphism/SKILL.md), [`spatial-visionos`](../spatial-visionos/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
 - **Mixes well with:** [`apple-aqua`](../apple-aqua/SKILL.md), [`ethereal-web`](../ethereal-web/SKILL.md)
-- **Nearest by vector profile:** [`glassmorphism`](../glassmorphism/SKILL.md), [`ethereal-web`](../ethereal-web/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md)
+- **Nearest by vector profile:** [`3d-avatar-emoji`](../3d-avatar-emoji/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md), [`ethereal-web`](../ethereal-web/SKILL.md)
 
 ## Emotional target
 

@@ -286,11 +286,11 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more translucent**: move toward [`glassmorphism`](../glassmorphism/SKILL.md) (Glassmorphism). Raise background blur to 16px to 24px, lower panel opacity to 20% to 40% and drop the chrome; keep the cool palette.
 - If the user asks for **less glossy**: move toward [`swiss-international`](../swiss-international/SKILL.md) (Swiss International Style). Use a 12-column grid, one sans serif and one blue accent; keep the small upper-case labels.
 
-- **Led to (go here for a newer version):** [`apple-aqua`](../apple-aqua/SKILL.md), [`cybercore-web`](../cybercore-web/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`pixel-art-web`](../pixel-art-web/SKILL.md), [`synthwave-web`](../synthwave-web/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
+- **Led to (go here for a newer version):** [`apple-aqua`](../apple-aqua/SKILL.md), [`barbiecore`](../barbiecore/SKILL.md), [`cybercore-web`](../cybercore-web/SKILL.md), [`flash-intro-site`](../flash-intro-site/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`glitchcore`](../glitchcore/SKILL.md), [`hyperpop-visual`](../hyperpop-visual/SKILL.md), [`kidcore`](../kidcore/SKILL.md), [`pixel-art-web`](../pixel-art-web/SKILL.md), [`seapunk`](../seapunk/SKILL.md), [`synthwave-web`](../synthwave-web/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`grunge-editorial`](../grunge-editorial/SKILL.md)
-- **Mixes well with:** [`cyberdelia`](../cyberdelia/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md)
+- **Mixes well with:** [`cyberdelia`](../cyberdelia/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md), [`health-goth`](../health-goth/SKILL.md), [`myspace-profile`](../myspace-profile/SKILL.md), [`portal-table-layout`](../portal-table-layout/SKILL.md), [`weirdcore`](../weirdcore/SKILL.md)
 - **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`fifth-gen-low-poly`](../fifth-gen-low-poly/SKILL.md), [`glossy-3d-logo`](../glossy-3d-logo/SKILL.md), [`it-bag`](../it-bag/SKILL.md), [`music-video`](../music-video/SKILL.md), [`party-flash`](../party-flash/SKILL.md), [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
-- **Nearest by vector profile:** [`vaporwave`](../vaporwave/SKILL.md), [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md)
+- **Nearest by vector profile:** [`ai-avatar-portrait`](../ai-avatar-portrait/SKILL.md), [`green-screen-short`](../green-screen-short/SKILL.md), [`seapunk`](../seapunk/SKILL.md)
 
 ## Emotional target
 

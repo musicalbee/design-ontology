@@ -203,7 +203,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`technical-shell-alpinism`](../technical-shell-alpinism/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`minimalist-fashion`](../minimalist-fashion/SKILL.md)
 - **Mixes well with:** [`streetwear`](../streetwear/SKILL.md), [`techwear`](../techwear/SKILL.md)
-- **Kin in another domain:** [`street-photography`](../street-photography/SKILL.md)
+- **Kin in another domain:** [`health-goth`](../health-goth/SKILL.md), [`normcore`](../normcore/SKILL.md), [`street-photography`](../street-photography/SKILL.md)
 - **Nearest by vector profile:** [`technical-shell-alpinism`](../technical-shell-alpinism/SKILL.md), [`performance-running-shoe`](../performance-running-shoe/SKILL.md), [`biodesign-car`](../biodesign-car/SKILL.md)
 
 ## Emotional target

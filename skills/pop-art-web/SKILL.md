@@ -282,9 +282,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more chaotic**: move toward [`memphis-design`](../memphis-design/SKILL.md) (Memphis Design). Add squiggles and confetti patterns and rotate elements by up to 3°.
 
 - **Came from (go here for a more orthodox version):** [`mid-century-modern`](../mid-century-modern/SKILL.md)
-- **Mixes well with:** [`japanese-graphic-modernism`](../japanese-graphic-modernism/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md), [`space-age`](../space-age/SKILL.md)
+- **Led to (go here for a newer version):** [`clickbait-thumbnail`](../clickbait-thumbnail/SKILL.md)
+- **Mixes well with:** [`japanese-graphic-modernism`](../japanese-graphic-modernism/SKILL.md), [`kidcore`](../kidcore/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md), [`space-age`](../space-age/SKILL.md)
 - **Kin in another domain:** [`airbrush-surrealism`](../airbrush-surrealism/SKILL.md), [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md), [`mod-and-mini`](../mod-and-mini/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md), [`pop-screen-print`](../pop-screen-print/SKILL.md)
-- **Nearest by vector profile:** [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
+- **Nearest by vector profile:** [`chat-sticker-pack`](../chat-sticker-pack/SKILL.md), [`lets-play-facecam`](../lets-play-facecam/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md)
 
 ## Emotional target
 

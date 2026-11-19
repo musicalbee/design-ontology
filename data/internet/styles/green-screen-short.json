@@ -1,0 +1,330 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "green-screen-short",
+  "domain": "internet",
+  "name": "Green-Screen Short",
+  "aliases": [
+    "Green screen video",
+    "TikTok green screen",
+    "Chroma-key explainer"
+  ],
+  "branch": "vertical-video",
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2020,
+    "end": null,
+    "label": "2020–now"
+  },
+  "primary_mediums": [
+    "video",
+    "mobile"
+  ],
+  "summary": "A person stands in front of a screenshot, a map or a photo that fills the whole vertical frame, and talks about it. The creator cuts out the background with the chroma-key tool of a short-video app, which TikTok added in 2020.",
+  "philosophy": {
+    "core_thesis": "Put the speaker in front of the evidence: the image is the set, the creator is the commentator.",
+    "design_principles": [
+      "Fill the 1080 x 1920 px frame with the background image; show the speaker from the waist up at 40% to 55% of the height.",
+      "Place the speaker at the left or the right third; keep the key area of the image free.",
+      "Cut out the speaker with a clean mask with a 1 px to 2 px feather.",
+      "Add a 3 px white stroke around the speaker when the background is busy.",
+      "Zoom the image in by 110% to 130% over the clip to guide the eye.",
+      "Mark a key detail with a 6 px red circle or an arrow at 100% opacity.",
+      "Caption the speech in 40 px words at the bottom third."
+    ],
+    "anti_patterns": [
+      "A speaker with a visible green fringe",
+      "A background with no link to the talk",
+      "Tiny screenshot text that nobody can read",
+      "Two speakers who hide the image",
+      "Stock-photo backdrops"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "dimensionality": 3,
+    "grid_rigidity": 2,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "Two layers: a full-bleed backdrop and a cut-out speaker on the left or right third; a caption zone at 70% to 80% of the height.",
+    "whitespace_ratio": "40% to 50% of the backdrop stays visible and free of the speaker.",
+    "alignment_rules": "The speaker sits on a third line; captions are centred; markers align to the object they name.",
+    "container_geometry": "The backdrop has 0 radius; the speaker is a free-form cut-out; markers are circles of 6 px stroke."
+  },
+  "typography": {
+    "classifications": [
+      "grotesque sans",
+      "condensed sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Archivo",
+        "body": "Inter",
+        "note": "A sturdy sans for captions over busy images."
+      },
+      {
+        "display": "Barlow Condensed",
+        "body": "Barlow",
+        "note": "A condensed sans for keyword tags."
+      }
+    ],
+    "tracking": "Display 0em; tags 0.04em.",
+    "leading": "Display 1.1; body 1.35.",
+    "hierarchy_rules": [
+      "Use bold (700) for captions and medium (500) for tags.",
+      "Set captions at 44 px.",
+      "Use a 3 px dark outline on white text so it reads on any image.",
+      "Limit a caption to 5 words per line."
+    ]
+  },
+  "color": {
+    "palette_structure": "The backdrop sets the colour; the UI adds one red marker, white text and black outlines.",
+    "palette": [
+      {
+        "name": "Backdrop Dark",
+        "hex": "#16181D",
+        "role": "background"
+      },
+      {
+        "name": "Marker Red",
+        "hex": "#E5322D",
+        "role": "primary"
+      },
+      {
+        "name": "Key Green",
+        "hex": "#00B140",
+        "role": "accent"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "name": "Mist",
+        "hex": "#B6BBC4",
+        "role": "muted text"
+      },
+      {
+        "name": "Panel",
+        "hex": "#242730",
+        "role": "surface"
+      }
+    ],
+    "contrast_rules": "White text with a 3 px black outline reads on every backdrop; panel text gives 14:1.",
+    "surface_treatment": "Photo or screenshot as a flat plate; no extra surface colour.",
+    "light_and_shadow": "The speaker light matches the backdrop light; a 4 px soft shadow separates the cut-out edge."
+  },
+  "materiality": {
+    "surface_simulation": "A screenshot or photo as a stage set, with a cut-out person in front.",
+    "border_rules": "A 3 px white stroke around the speaker; no borders on the backdrop.",
+    "blur_and_elevation": "A 4 px drop shadow under the cut-out; no blur."
+  },
+  "ornamentation_details": {
+    "iconography": "Outline 24 px icons for pointer, arrow and magnifier.",
+    "illustration": "Red circles, arrows and underlines drawn over the backdrop.",
+    "decorative_elements": [
+      "red circle marker",
+      "arrow",
+      "cut-out speaker",
+      "zoomed screenshot",
+      "keyword tag"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "The backdrop zooms in at 110% to 130% over the clip; markers pop in over 150 ms; the backdrop changes every 5 s to 10 s.",
+    "easing": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+    "duration_ms": 150,
+    "hover_and_active": "A tap on a marker pauses the clip and zooms 150% on the detail."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "duet-split-screen"
+    ],
+    "echoes": [
+      "vertical-short-form",
+      "creator-vlog"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels informed, as if a guide stands inside the story.",
+    "keywords": [
+      "explanatory",
+      "direct",
+      "topical",
+      "engaged",
+      "witty"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "green screen",
+      "chroma key",
+      "commentary video",
+      "news explainer",
+      "reaction to a screenshot",
+      "stand in front of image"
+    ],
+    "use_cases": [
+      "news commentary",
+      "explainer clips",
+      "product walk-throughs on a screenshot",
+      "travel and map talks"
+    ],
+    "avoid_when": [
+      "The backdrop image has no rights clearance.",
+      "The talk needs no image.",
+      "The speaker cannot light the face evenly."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "grwm-short",
+        "how": "Remove the backdrop and talk in a soft room."
+      },
+      {
+        "request": "more cuts",
+        "toward": "velocity-edit",
+        "how": "Cut between 4 backdrops with speed ramps on each change."
+      },
+      {
+        "request": "more still",
+        "toward": "photo-carousel-slideshow",
+        "how": "Replace the video with a series of still slides."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 500,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "colour",
+      "display_tracking": "0em",
+      "display_leading": 1.1,
+      "display_case": "none",
+      "body_leading": 1.4,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "iconoir",
+        "why": "A clean outline family with pointer and arrow shapes."
+      }
+    },
+    "art": {
+      "recipe": "plain",
+      "pattern": "none",
+      "seed": 31
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "left",
+      "density": "regular",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "raw",
+      "why": "The ground is a raw, flat plate, like a screenshot that fills the frame."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#16181D",
+      "--color-surface": "#242730",
+      "--color-text": "#FFFFFF",
+      "--color-muted": "#B6BBC4",
+      "--color-primary": "#E5322D",
+      "--color-accent": "#00B140",
+      "--color-border": "#FFFFFF",
+      "--font-sans": "\"Inter\", \"Barlow\", sans-serif",
+      "--font-display": "\"Archivo\", \"Barlow Condensed\", sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "3px",
+      "--shadow-elevation": "0 4px 4px rgba(0,0,0,0.4)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+      "--duration": "150ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#16181D] text-white font-sans antialiased"
+      },
+      {
+        "element": "heading",
+        "classes": "text-4xl font-bold leading-[1.1] [-webkit-text-stroke:3px_#000] [paint-order:stroke_fill]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.35] text-[#B6BBC4]"
+      },
+      {
+        "element": "section",
+        "classes": "bg-[#242730] p-4"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none bg-[#E5322D] px-6 py-3 text-sm font-bold text-white"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-medium uppercase tracking-[0.04em] text-[#B6BBC4]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#E5322D",
+        "#00B140",
+        "#FFFFFF"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#E5322D",
+        "#00B140"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 8
+    },
+    "grid_step": {
+      "min": 2,
+      "max": 8
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.414
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Chroma key",
+      "url": "https://en.wikipedia.org/wiki/Chroma_key"
+    },
+    {
+      "title": "Wikipedia: TikTok",
+      "url": "https://en.wikipedia.org/wiki/TikTok"
+    }
+  ]
+}

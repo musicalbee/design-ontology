@@ -1,0 +1,320 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "surreal-meme",
+  "domain": "internet",
+  "name": "Surreal meme",
+  "aliases": [
+    "Surreal memes",
+    "Absurdist meme",
+    "Weird meme"
+  ],
+  "branch": "memes",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2016,
+    "end": null,
+    "label": "2016–now"
+  },
+  "primary_mediums": [
+    "image",
+    "web",
+    "mobile"
+  ],
+  "summary": "An image with an odd crop, a strange cut-out or a calm, odd caption that has no clear punch line. It grew from Facebook groups and Reddit in 2016 and often breaks the old image-macro rules on purpose.",
+  "philosophy": {
+    "core_thesis": "Drop the joke structure: let a strange picture and a calm caption make a mood with no answer.",
+    "design_principles": [
+      "Compose 2 to 4 layers: a flat or photographic ground, a cut-out figure and one odd object.",
+      "Use a calm caption of 1 to 6 words in a plain sans-serif at 24px to 36px, off the usual top and bottom positions.",
+      "Place the cut-out with a 1px to 2px visible rough edge, scaled 20% to 400% out of true size.",
+      "Use a limited, odd colour pair: a flat teal (#2E9C9A) and a dull orange (#E08A3C) on grey.",
+      "Add a 3% to 8% grain and one soft glow, with no clean grading.",
+      "Leave 30% to 50% of the canvas empty, so that the odd object has air.",
+      "Repeat one object or name across a series to build a private joke."
+    ],
+    "anti_patterns": [
+      "Clear setup and punch line",
+      "Impact capitals at top and bottom",
+      "Polished photo realism",
+      "Many captions at once",
+      "Clean sticker-style outlines",
+      "Explanations of the joke"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "dimensionality": 3,
+    "grid_rigidity": 1,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A loose, centred or off-centre composition on a canvas of 800px x 800px with no fixed grid.",
+    "whitespace_ratio": "30% to 50% of the surface stays empty; the odd object sits at a third point.",
+    "alignment_rules": "Mixed alignment: the caption sits at a chosen offset of 8% to 20% from the edge.",
+    "container_geometry": "No containers; a hard, rough cut-out silhouette."
+  },
+  "typography": {
+    "classifications": [
+      "neutral sans",
+      "rounded sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Inter",
+        "body": "Roboto Mono",
+        "note": "A neutral sans for a flat caption, with a mono for a second line."
+      },
+      {
+        "display": "Space Grotesk",
+        "body": "DM Sans",
+        "note": "A slightly odd grotesque for a quiet strange tone."
+      }
+    ],
+    "tracking": "Caption 0 to +0.02em.",
+    "leading": "Caption 1.2.",
+    "hierarchy_rules": [
+      "Use one caption size.",
+      "Use regular weight (400) and sentence case.",
+      "Use white or black text; pick by contrast to the ground."
+    ]
+  },
+  "color": {
+    "palette_structure": "Odd flat colours on grey, with one saturated spot colour.",
+    "palette": [
+      {
+        "name": "Dull Teal",
+        "hex": "#2E9C9A",
+        "role": "ground"
+      },
+      {
+        "name": "Dull Orange",
+        "hex": "#E08A3C",
+        "role": "accent"
+      },
+      {
+        "name": "Concrete Grey",
+        "hex": "#8A8F98",
+        "role": "ground"
+      },
+      {
+        "name": "Night",
+        "hex": "#121417",
+        "role": "dark"
+      },
+      {
+        "name": "Off White",
+        "hex": "#F2EFE8",
+        "role": "text"
+      }
+    ],
+    "contrast_rules": "Off white text on night gives 16:1; keep captions on the dark or plain grey zones.",
+    "surface_treatment": "Flat colour with grain; no gradient except one glow.",
+    "light_and_shadow": "A soft glow or a flat cut-out shadow of 4px."
+  },
+  "materiality": {
+    "surface_simulation": "A mixed digital collage of cut-out stock images and 3D renders.",
+    "border_rules": "A 1px to 2px rough edge on cut-outs; no frame.",
+    "blur_and_elevation": "A 4px soft shadow under some cut-outs; light blur of 1px on a layer."
+  },
+  "ornamentation_details": {
+    "iconography": "No icons; one strange object is the mark.",
+    "illustration": "Cut-out stock photos, early 3D renders, simple flat shapes.",
+    "decorative_elements": [
+      "cut-out",
+      "odd scale",
+      "calm caption"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Static or a short loop; an object slides in 600ms and holds.",
+    "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "duration_ms": 600,
+    "hover_and_active": "Hover moves the odd object by 6px."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "impact-image-macro"
+    ],
+    "hybridized_with": [
+      "surrealism-web"
+    ],
+    "echoes": [
+      "surrealism-painting"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels a calm unease and a small laugh with no clear reason.",
+    "keywords": [
+      "absurd",
+      "calm",
+      "odd",
+      "dreamlike",
+      "quiet"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "magician"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "surreal meme",
+      "absurdist meme",
+      "weird meme",
+      "odd image",
+      "meme with no joke",
+      "dream meme",
+      "strange cut-out"
+    ],
+    "use_cases": [
+      "humour accounts",
+      "album art for comic acts",
+      "social posts",
+      "campaign teasers"
+    ],
+    "avoid_when": [
+      "The message must be clear in one second.",
+      "The audience wants a classic joke."
+    ],
+    "modifiers": [
+      {
+        "request": "more classic",
+        "toward": "impact-image-macro",
+        "how": "Add top and bottom captions in white outlined capitals and remove the cut-outs."
+      },
+      {
+        "request": "more rough",
+        "toward": "deep-fried-meme",
+        "how": "Recompress the image, raise saturation by 60% and add glow and flare."
+      },
+      {
+        "request": "more mood",
+        "toward": "dreamcore",
+        "how": "Add a soft haze, a pale yellow tint and a lonely room scene."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 500,
+      "subhead_weight": 500,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 500,
+      "accent": "colour",
+      "display_tracking": "0.01em",
+      "display_leading": 1.2,
+      "display_case": "none",
+      "body_leading": 1.5,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "duotone",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "circle",
+      "pack": {
+        "id": "ph-duotone",
+        "why": "A duotone family that gives a soft, slightly odd tone."
+      }
+    },
+    "art": {
+      "recipe": "psychedelic",
+      "pattern": "noise",
+      "seed": 18
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "center",
+      "density": "airy",
+      "tilt_deg": 2
+    },
+    "ground": {
+      "kind": "orbs",
+      "why": "Soft orbs give a calm odd glow behind a cut-out."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#121417",
+      "--color-surface": "#1E2228",
+      "--color-text": "#F2EFE8",
+      "--color-muted": "#C9CCD2",
+      "--color-primary": "#E08A3C",
+      "--color-accent": "#2E9C9A",
+      "--color-border": "#F2EFE8",
+      "--font-sans": "\"DM Sans\", \"Inter\", sans-serif",
+      "--font-display": "\"Space Grotesk\", \"Inter\", sans-serif",
+      "--border-radius": "2px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 4px 8px rgba(0,0,0,0.35)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "--duration": "600ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#121417] text-[#F2EFE8] font-sans antialiased"
+      },
+      {
+        "element": "heading",
+        "classes": "font-[Space_Grotesk] text-3xl md:text-5xl font-medium leading-[1.2]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.5] max-w-prose"
+      },
+      {
+        "element": "card",
+        "classes": "border border-[#F2EFE8] bg-[#121417] shadow-[0_4px_8px_rgba(0,0,0,0.35)]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-sm border border-[#F2EFE8] bg-[#E08A3C] px-5 py-2 text-[#121417] hover:translate-x-1 transition-transform"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#E08A3C",
+        "#2E9C9A",
+        "#F2EFE8"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#2E9C9A",
+        "#E08A3C"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 8
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.333,
+      "min": 1.2,
+      "max": 1.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Know Your Meme: Surreal Memes"
+    },
+    {
+      "title": "Wikipedia: Internet meme",
+      "url": "https://en.wikipedia.org/wiki/Internet_meme"
+    }
+  ]
+}

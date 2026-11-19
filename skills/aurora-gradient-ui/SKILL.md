@@ -278,7 +278,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`flat-design`](../flat-design/SKILL.md)
 - **Led to (go here for a newer version):** [`ethereal-web`](../ethereal-web/SKILL.md)
 - **Mixes well with:** [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md)
-- **Nearest by vector profile:** [`glassmorphism`](../glassmorphism/SKILL.md), [`material-design`](../material-design/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md)
+- **Nearest by vector profile:** [`ai-avatar-portrait`](../ai-avatar-portrait/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md), [`material-design`](../material-design/SKILL.md)
 
 ## Emotional target
 

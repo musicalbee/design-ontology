@@ -206,7 +206,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`straight-photography`](../straight-photography/SKILL.md)
 - **Mixes well with:** [`fashion-editorial`](../fashion-editorial/SKILL.md)
-- **Kin in another domain:** [`baroque-painting`](../baroque-painting/SKILL.md), [`dopamine-decor`](../dopamine-decor/SKILL.md)
+- **Kin in another domain:** [`baroque-painting`](../baroque-painting/SKILL.md), [`dopamine-decor`](../dopamine-decor/SKILL.md), [`flat-lay-feed`](../flat-lay-feed/SKILL.md)
 - **Nearest by vector profile:** [`ai-hyperreal`](../ai-hyperreal/SKILL.md), [`cinematic-teal-orange`](../cinematic-teal-orange/SKILL.md), [`fashion-editorial`](../fashion-editorial/SKILL.md)
 
 ## Emotional target

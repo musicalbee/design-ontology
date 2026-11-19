@@ -1,0 +1,47 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "face-tracking-avatar",
+  "name": "Face-tracking avatar",
+  "aliases": [
+    "Motion-capture avatar",
+    "Live2D tracking",
+    "VTuber rig"
+  ],
+  "kind": "technology",
+  "summary": "A camera tracks the face of a person and moves a drawn or 3D character at the same time, so the character acts as a live host.",
+  "how": [
+    "Track blinks, mouth shape and head tilt at 30 fps or more.",
+    "Map each value to a layer of the avatar rig.",
+    "Keep the lag under 100ms.",
+    "Draw the character with flat colour and a clear outline."
+  ],
+  "origin": {
+    "domain": "internet",
+    "year": 2016,
+    "where": "Japan",
+    "note": "Kizuna AI uses a tracked 3D avatar as the host of a YouTube channel, and other makers follow the same rig."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 2016,
+      "via": "Virtual YouTubers use tracked anime-style avatars as live hosts.",
+      "styles": [
+        "vtuber-avatar"
+      ]
+    }
+  ],
+  "styles": [
+    "vtuber-avatar"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Virtual YouTuber",
+      "url": "https://en.wikipedia.org/wiki/Virtual_YouTuber"
+    },
+    {
+      "title": "Wikipedia: Kizuna AI",
+      "url": "https://en.wikipedia.org/wiki/Kizuna_AI"
+    }
+  ]
+}
