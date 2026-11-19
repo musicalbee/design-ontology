@@ -11090,6 +11090,11 @@
     ],
     "haute-regionale": [
       {
+        "emotion": "enchantment",
+        "strength": 0.4,
+        "evidence": "stated"
+      },
+      {
         "emotion": "joy",
         "strength": 1,
         "evidence": "inferred"
@@ -11098,11 +11103,6 @@
         "emotion": "relaxation",
         "strength": 0.5,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "enchantment",
-        "strength": 0.4,
-        "evidence": "stated"
       }
     ],
     "medieval-court-cuisine": [
@@ -11119,11 +11119,6 @@
     ],
     "modernist-cuisine": [
       {
-        "emotion": "uneasiness",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "nostalgia",
         "strength": 0.6,
         "evidence": "stated"
@@ -11132,9 +11127,24 @@
         "emotion": "humour",
         "strength": 0.5,
         "evidence": "stated"
+      },
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "molecular-gastronomy": [
+      {
+        "emotion": "surprise",
+        "strength": 1,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "enchantment",
+        "strength": 0.6,
+        "evidence": "stated"
+      },
       {
         "emotion": "humour",
         "strength": 1,
@@ -11146,22 +11156,22 @@
         "evidence": "inferred"
       },
       {
-        "emotion": "surprise",
+        "emotion": "uneasiness",
         "strength": 1,
+        "evidence": "inferred"
+      }
+    ],
+    "naturalist-cuisine": [
+      {
+        "emotion": "joy",
+        "strength": 0.7,
         "evidence": "stated"
       },
       {
         "emotion": "uneasiness",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
-        "emotion": "enchantment",
-        "strength": 0.6,
+        "strength": 0.5,
         "evidence": "stated"
-      }
-    ],
-    "naturalist-cuisine": [
+      },
       {
         "emotion": "vitality",
         "strength": 1,
@@ -11181,19 +11191,14 @@
         "emotion": "relaxation",
         "strength": 0.5,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "joy",
-        "strength": 0.7,
-        "evidence": "stated"
-      },
-      {
-        "emotion": "uneasiness",
-        "strength": 0.5,
-        "evidence": "stated"
       }
     ],
     "new-nordic": [
+      {
+        "emotion": "awe",
+        "strength": 0.4,
+        "evidence": "stated"
+      },
       {
         "emotion": "mono-no-aware",
         "strength": 1,
@@ -11208,14 +11213,14 @@
         "emotion": "vitality",
         "strength": 1,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "awe",
-        "strength": 0.4,
-        "evidence": "stated"
       }
     ],
     "nouvelle-cuisine": [
+      {
+        "emotion": "joy",
+        "strength": 0.7,
+        "evidence": "stated"
+      },
       {
         "emotion": "mono-no-aware",
         "strength": 1,
@@ -11235,11 +11240,6 @@
         "emotion": "vitality",
         "strength": 1,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "joy",
-        "strength": 0.7,
-        "evidence": "stated"
       }
     ],
     "novoandina-and-nikkei": [
@@ -11256,6 +11256,11 @@
     ],
     "pacific-rim-fusion": [
       {
+        "emotion": "fascination",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
+      {
         "emotion": "beauty",
         "strength": 1,
         "evidence": "inferred"
@@ -11269,14 +11274,14 @@
         "emotion": "joy",
         "strength": 1,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "fascination",
-        "strength": 0.5,
-        "evidence": "stated"
       }
     ],
     "plant-based-fine-dining": [
+      {
+        "emotion": "enchantment",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
       {
         "emotion": "relaxation",
         "strength": 1,
@@ -11286,23 +11291,18 @@
         "emotion": "vitality",
         "strength": 0.5,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "enchantment",
-        "strength": 0.5,
-        "evidence": "stated"
       }
     ],
     "renaissance-banquet": [
       {
-        "emotion": "joy",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "awe",
         "strength": 0.5,
         "evidence": "stated"
+      },
+      {
+        "emotion": "joy",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "ai-chat-ui": [
@@ -12220,11 +12220,6 @@
     ],
     "american-pocket-watch": [
       {
-        "emotion": "insight",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "nostalgia",
         "strength": 0.8,
         "evidence": "stated"
@@ -12233,6 +12228,11 @@
         "emotion": "fascination",
         "strength": 0.6,
         "evidence": "stated"
+      },
+      {
+        "emotion": "insight",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "americana-workwear": [
@@ -12249,16 +12249,6 @@
     ],
     "art-deco-dance-shoe": [
       {
-        "emotion": "beauty",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
-        "emotion": "fascination",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "joy",
         "strength": 1,
         "evidence": "stated"
@@ -12267,6 +12257,16 @@
         "emotion": "energy",
         "strength": 0.5,
         "evidence": "stated"
+      },
+      {
+        "emotion": "beauty",
+        "strength": 1,
+        "evidence": "inferred"
+      },
+      {
+        "emotion": "fascination",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "art-deco-evening-accessory": [
@@ -12283,11 +12283,6 @@
     ],
     "art-deco-jewellery": [
       {
-        "emotion": "beauty",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "joy",
         "strength": 0.7,
         "evidence": "stated"
@@ -12296,6 +12291,11 @@
         "emotion": "fascination",
         "strength": 0.5,
         "evidence": "stated"
+      },
+      {
+        "emotion": "beauty",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "art-deco-watch": [
@@ -12307,6 +12307,11 @@
     ],
     "art-nouveau-jewellery": [
       {
+        "emotion": "beauty",
+        "strength": 0.6,
+        "evidence": "stated"
+      },
+      {
         "emotion": "vitality",
         "strength": 1,
         "evidence": "inferred"
@@ -12315,24 +12320,9 @@
         "emotion": "enchantment",
         "strength": 0.5,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "beauty",
-        "strength": 0.6,
-        "evidence": "stated"
       }
     ],
     "arts-and-crafts-jewellery": [
-      {
-        "emotion": "relaxation",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
-        "emotion": "vitality",
-        "strength": 1,
-        "evidence": "inferred"
-      },
       {
         "emotion": "joy",
         "strength": 0.7,
@@ -12342,6 +12332,16 @@
         "emotion": "nostalgia",
         "strength": 0.5,
         "evidence": "stated"
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": "inferred"
+      },
+      {
+        "emotion": "vitality",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "bandeau-brassiere": [
@@ -12370,6 +12370,11 @@
         "evidence": "stated"
       },
       {
+        "emotion": "ugliness",
+        "strength": 0.8,
+        "evidence": "stated"
+      },
+      {
         "emotion": "joy",
         "strength": 1,
         "evidence": "inferred"
@@ -12378,14 +12383,14 @@
         "emotion": "relaxation",
         "strength": 1,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "ugliness",
-        "strength": 0.8,
-        "evidence": "stated"
       }
     ],
     "brass-era-car": [
+      {
+        "emotion": "surprise",
+        "strength": 0.6,
+        "evidence": "stated"
+      },
       {
         "emotion": "being-moved",
         "strength": 1,
@@ -12395,14 +12400,14 @@
         "emotion": "joy",
         "strength": 1,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "surprise",
-        "strength": 0.6,
-        "evidence": "stated"
       }
     ],
     "breguet-classical-watch": [
+      {
+        "emotion": "awe",
+        "strength": 0.7,
+        "evidence": "stated"
+      },
       {
         "emotion": "beauty",
         "strength": 1,
@@ -12417,11 +12422,6 @@
         "emotion": "relaxation",
         "strength": 1,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "awe",
-        "strength": 0.7,
-        "evidence": "stated"
       }
     ],
     "brutalist-jewellery": [
@@ -12433,6 +12433,11 @@
     ],
     "canvas-court-sneaker": [
       {
+        "emotion": "nostalgia",
+        "strength": 1,
+        "evidence": "stated"
+      },
+      {
         "emotion": "vitality",
         "strength": 1,
         "evidence": "inferred"
@@ -12441,14 +12446,14 @@
         "emotion": "relaxation",
         "strength": 0.5,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "nostalgia",
-        "strength": 1,
-        "evidence": "stated"
       }
     ],
     "costume-jewellery": [
+      {
+        "emotion": "beauty",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
       {
         "emotion": "humour",
         "strength": 1,
@@ -12463,11 +12468,6 @@
         "emotion": "joy",
         "strength": 0.5,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "beauty",
-        "strength": 0.5,
-        "evidence": "stated"
       }
     ],
     "country-sporting-tweed": [
@@ -12484,11 +12484,6 @@
     ],
     "crinoline-and-bustle-dress": [
       {
-        "emotion": "awe",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "humour",
         "strength": 0.8,
         "evidence": "stated"
@@ -12497,21 +12492,31 @@
         "emotion": "fascination",
         "strength": 0.4,
         "evidence": "stated"
+      },
+      {
+        "emotion": "awe",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "designer-logo-underwear": [
       {
-        "emotion": "energy",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "uneasiness",
         "strength": 0.5,
         "evidence": "stated"
+      },
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "dive-watch": [
+      {
+        "emotion": "fascination",
+        "strength": 0.6,
+        "evidence": "stated"
+      },
       {
         "emotion": "energy",
         "strength": 1,
@@ -12521,14 +12526,14 @@
         "emotion": "insight",
         "strength": 1,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "fascination",
-        "strength": 0.6,
-        "evidence": "stated"
       }
     ],
     "early-mountaineering": [
+      {
+        "emotion": "awe",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
       {
         "emotion": "interest",
         "strength": 1,
@@ -12538,11 +12543,6 @@
         "emotion": "nostalgia",
         "strength": 1,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "awe",
-        "strength": 0.5,
-        "evidence": "stated"
       }
     ],
     "early-wristwatch": [
@@ -12554,11 +12554,6 @@
     ],
     "electric-minimal-car": [
       {
-        "emotion": "relaxation",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "beauty",
         "strength": 0.5,
         "evidence": "stated"
@@ -12567,6 +12562,11 @@
         "emotion": "uneasiness",
         "strength": 0.4,
         "evidence": "stated"
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "electronic-and-digital-watch": [
@@ -12590,6 +12590,11 @@
     ],
     "english-bespoke-tailoring": [
       {
+        "emotion": "joy",
+        "strength": 0.4,
+        "evidence": "stated"
+      },
+      {
         "emotion": "awe",
         "strength": 1,
         "evidence": "inferred"
@@ -12603,11 +12608,6 @@
         "emotion": "relaxation",
         "strength": 1,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "joy",
-        "strength": 0.4,
-        "evidence": "stated"
       }
     ],
     "english-welted-dress-shoe": [
@@ -12653,6 +12653,11 @@
     ],
     "georgian-jewellery": [
       {
+        "emotion": "sadness",
+        "strength": 0.8,
+        "evidence": "stated"
+      },
+      {
         "emotion": "awe",
         "strength": 1,
         "evidence": "inferred"
@@ -12666,36 +12671,41 @@
         "emotion": "hygge",
         "strength": 1,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "sadness",
-        "strength": 0.8,
-        "evidence": "stated"
       }
     ],
     "glam-platform-shoe": [
-      {
-        "emotion": "energy",
-        "strength": 1,
-        "evidence": "inferred"
-      },
       {
         "emotion": "fascination",
         "strength": 0.5,
         "evidence": "stated"
       },
       {
-        "emotion": "humour",
-        "strength": 0.5,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "joy",
         "strength": 0.5,
         "evidence": "stated"
+      },
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": "inferred"
+      },
+      {
+        "emotion": "humour",
+        "strength": 0.5,
+        "evidence": "inferred"
       }
     ],
     "gorpcore": [
+      {
+        "emotion": "relaxation",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "ugliness",
+        "strength": 0.4,
+        "evidence": "stated"
+      },
       {
         "emotion": "humour",
         "strength": 1,
@@ -12707,19 +12717,9 @@
         "evidence": "inferred"
       },
       {
-        "emotion": "relaxation",
-        "strength": 0.5,
-        "evidence": "stated"
-      },
-      {
         "emotion": "vitality",
         "strength": 0.5,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "ugliness",
-        "strength": 0.4,
-        "evidence": "stated"
       }
     ],
     "hippie-bohemian-dress": [
@@ -12729,17 +12729,22 @@
         "evidence": "stated"
       },
       {
-        "emotion": "relaxation",
-        "strength": 0.5,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "nostalgia",
         "strength": 0.4,
         "evidence": "stated"
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 0.5,
+        "evidence": "inferred"
       }
     ],
     "it-bag": [
+      {
+        "emotion": "fascination",
+        "strength": 0.7,
+        "evidence": "stated"
+      },
       {
         "emotion": "beauty",
         "strength": 1,
@@ -12754,19 +12759,9 @@
         "emotion": "humour",
         "strength": 1,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "fascination",
-        "strength": 0.7,
-        "evidence": "stated"
       }
     ],
     "italian-gran-turismo": [
-      {
-        "emotion": "beauty",
-        "strength": 1,
-        "evidence": "inferred"
-      },
       {
         "emotion": "energy",
         "strength": 0.5,
@@ -12776,6 +12771,11 @@
         "emotion": "relaxation",
         "strength": 0.4,
         "evidence": "stated"
+      },
+      {
+        "emotion": "beauty",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "ivy-style": [
@@ -12792,6 +12792,16 @@
     ],
     "japanese-avant-garde-fashion": [
       {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "surprise",
+        "strength": 0.7,
+        "evidence": "stated"
+      },
+      {
         "emotion": "beauty",
         "strength": 1,
         "evidence": "inferred"
@@ -12802,19 +12812,9 @@
         "evidence": "inferred"
       },
       {
-        "emotion": "uneasiness",
-        "strength": 1,
-        "evidence": "stated"
-      },
-      {
         "emotion": "wabi-sabi",
         "strength": 1,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "surprise",
-        "strength": 0.7,
-        "evidence": "stated"
       }
     ],
     "ladylike-handbag": [
@@ -12826,22 +12826,17 @@
     ],
     "logomania": [
       {
-        "emotion": "energy",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "enchantment",
         "strength": 0.5,
         "evidence": "stated"
+      },
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "luxury-steel-sports-watch": [
-      {
-        "emotion": "beauty",
-        "strength": 1,
-        "evidence": "inferred"
-      },
       {
         "emotion": "surprise",
         "strength": 0.8,
@@ -12851,14 +12846,14 @@
         "emotion": "fascination",
         "strength": 0.7,
         "evidence": "stated"
-      }
-    ],
-    "malletier-luggage": [
+      },
       {
         "emotion": "beauty",
         "strength": 1,
         "evidence": "inferred"
-      },
+      }
+    ],
+    "malletier-luggage": [
       {
         "emotion": "joy",
         "strength": 0.5,
@@ -12868,28 +12863,33 @@
         "emotion": "fascination",
         "strength": 0.5,
         "evidence": "stated"
+      },
+      {
+        "emotion": "beauty",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "mid-century-eyewear": [
-      {
-        "emotion": "humour",
-        "strength": 1,
-        "evidence": "inferred"
-      },
       {
         "emotion": "beauty",
         "strength": 0.5,
         "evidence": "stated"
       },
       {
-        "emotion": "intellectual-challenge",
-        "strength": 0.5,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "joy",
         "strength": 0.5,
         "evidence": "stated"
+      },
+      {
+        "emotion": "humour",
+        "strength": 1,
+        "evidence": "inferred"
+      },
+      {
+        "emotion": "intellectual-challenge",
+        "strength": 0.5,
+        "evidence": "inferred"
       }
     ],
     "minimalist-fashion": [
@@ -12911,14 +12911,14 @@
         "evidence": "stated"
       },
       {
-        "emotion": "humour",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "joy",
         "strength": 1,
         "evidence": "stated"
+      },
+      {
+        "emotion": "humour",
+        "strength": 1,
+        "evidence": "inferred"
       },
       {
         "emotion": "vitality",
@@ -12969,16 +12969,6 @@
     ],
     "new-look": [
       {
-        "emotion": "beauty",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
-        "emotion": "being-moved",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "surprise",
         "strength": 0.8,
         "evidence": "stated"
@@ -12987,42 +12977,52 @@
         "emotion": "anger",
         "strength": 0.5,
         "evidence": "stated"
-      }
-    ],
-    "nordic-functional-outdoor": [
-      {
-        "emotion": "relaxation",
-        "strength": 1,
-        "evidence": "inferred"
       },
-      {
-        "emotion": "joy",
-        "strength": 0.4,
-        "evidence": "stated"
-      }
-    ],
-    "nylon-foundation-garments": [
       {
         "emotion": "beauty",
         "strength": 1,
         "evidence": "inferred"
       },
       {
-        "emotion": "uneasiness",
-        "strength": 0.6,
-        "evidence": "stated"
-      }
-    ],
-    "performance-running-shoe": [
-      {
-        "emotion": "energy",
+        "emotion": "being-moved",
         "strength": 1,
         "evidence": "inferred"
+      }
+    ],
+    "nordic-functional-outdoor": [
+      {
+        "emotion": "joy",
+        "strength": 0.4,
+        "evidence": "stated"
       },
       {
         "emotion": "relaxation",
         "strength": 1,
+        "evidence": "inferred"
+      }
+    ],
+    "nylon-foundation-garments": [
+      {
+        "emotion": "uneasiness",
+        "strength": 0.6,
         "evidence": "stated"
+      },
+      {
+        "emotion": "beauty",
+        "strength": 1,
+        "evidence": "inferred"
+      }
+    ],
+    "performance-running-shoe": [
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": "stated"
+      },
+      {
+        "emotion": "energy",
+        "strength": 1,
+        "evidence": "inferred"
       },
       {
         "emotion": "vitality",
@@ -13032,26 +13032,26 @@
     ],
     "pilot-and-field-watch": [
       {
-        "emotion": "insight",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "nostalgia",
         "strength": 0.7,
         "evidence": "stated"
+      },
+      {
+        "emotion": "insight",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "power-dressing": [
       {
-        "emotion": "awe",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "energy",
         "strength": 1,
         "evidence": "stated"
+      },
+      {
+        "emotion": "awe",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "punk-fashion": [
@@ -13061,26 +13061,26 @@
         "evidence": "stated"
       },
       {
-        "emotion": "energy",
-        "strength": 0.3,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "uneasiness",
         "strength": 0.6,
         "evidence": "stated"
+      },
+      {
+        "emotion": "energy",
+        "strength": 0.3,
+        "evidence": "inferred"
       }
     ],
     "quiet-luxury-fashion": [
       {
-        "emotion": "relaxation",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "beauty",
         "strength": 0.5,
         "evidence": "stated"
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": "inferred"
       },
       {
         "emotion": "nostalgia",
@@ -13107,6 +13107,11 @@
     ],
     "racing-chronograph": [
       {
+        "emotion": "awe",
+        "strength": 0.6,
+        "evidence": "stated"
+      },
+      {
         "emotion": "energy",
         "strength": 1,
         "evidence": "inferred"
@@ -13115,11 +13120,6 @@
         "emotion": "vitality",
         "strength": 0.5,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "awe",
-        "strength": 0.6,
-        "evidence": "stated"
       }
     ],
     "retro-cocktail-jewellery": [
@@ -13141,6 +13141,11 @@
     ],
     "retro-revival-car": [
       {
+        "emotion": "nostalgia",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
+      {
         "emotion": "joy",
         "strength": 1,
         "evidence": "inferred"
@@ -13151,17 +13156,17 @@
         "evidence": "inferred"
       },
       {
-        "emotion": "nostalgia",
-        "strength": 0.5,
-        "evidence": "stated"
-      },
-      {
         "emotion": "relaxation",
         "strength": 0.5,
         "evidence": "inferred"
       }
     ],
     "rococo-court-dress": [
+      {
+        "emotion": "surprise",
+        "strength": 0.5,
+        "evidence": "stated"
+      },
       {
         "emotion": "awe",
         "strength": 1,
@@ -13176,39 +13181,39 @@
         "emotion": "relaxation",
         "strength": 1,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "surprise",
-        "strength": 0.5,
-        "evidence": "stated"
       }
     ],
     "shapewear-and-seamless": [
       {
-        "emotion": "relaxation",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "uneasiness",
         "strength": 0.5,
         "evidence": "stated"
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "smartwatch": [
       {
-        "emotion": "joy",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "fascination",
         "strength": 0.5,
         "evidence": "stated"
+      },
+      {
+        "emotion": "joy",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "sneaker-culture": [
       {
+        "emotion": "nostalgia",
+        "strength": 0.8,
+        "evidence": "stated"
+      },
+      {
         "emotion": "energy",
         "strength": 1,
         "evidence": "inferred"
@@ -13217,14 +13222,14 @@
         "emotion": "vitality",
         "strength": 1,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "nostalgia",
-        "strength": 0.8,
-        "evidence": "stated"
       }
     ],
     "soft-natural-lingerie": [
+      {
+        "emotion": "surprise",
+        "strength": 0.6,
+        "evidence": "stated"
+      },
       {
         "emotion": "relaxation",
         "strength": 1,
@@ -13234,14 +13239,14 @@
         "emotion": "vitality",
         "strength": 1,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "surprise",
-        "strength": 0.6,
-        "evidence": "stated"
       }
     ],
     "space-age-couture": [
+      {
+        "emotion": "energy",
+        "strength": 0.7,
+        "evidence": "stated"
+      },
       {
         "emotion": "joy",
         "strength": 1,
@@ -13251,35 +13256,30 @@
         "emotion": "vitality",
         "strength": 0.5,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "energy",
-        "strength": 0.7,
-        "evidence": "stated"
       }
     ],
     "stealth-luxury-accessory": [
       {
-        "emotion": "relaxation",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "beauty",
         "strength": 0.5,
         "evidence": "stated"
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "stiletto-heel": [
       {
-        "emotion": "beauty",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "energy",
         "strength": 0.3,
         "evidence": "stated"
+      },
+      {
+        "emotion": "beauty",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "straight-front-corset": [
@@ -13308,14 +13308,14 @@
     ],
     "streetwear": [
       {
-        "emotion": "relaxation",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "energy",
         "strength": 0.5,
         "evidence": "stated"
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": "inferred"
       },
       {
         "emotion": "vitality",
@@ -13332,6 +13332,11 @@
     ],
     "swiss-plastic-pop-watch": [
       {
+        "emotion": "joy",
+        "strength": 1,
+        "evidence": "stated"
+      },
+      {
         "emotion": "energy",
         "strength": 1,
         "evidence": "inferred"
@@ -13340,11 +13345,6 @@
         "emotion": "humour",
         "strength": 1,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "joy",
-        "strength": 1,
-        "evidence": "stated"
       },
       {
         "emotion": "ugliness",
@@ -13359,6 +13359,11 @@
     ],
     "tailfin-era-car": [
       {
+        "emotion": "fascination",
+        "strength": 0.7,
+        "evidence": "stated"
+      },
+      {
         "emotion": "joy",
         "strength": 1,
         "evidence": "inferred"
@@ -13367,14 +13372,14 @@
         "emotion": "nostalgia",
         "strength": 0.3,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "fascination",
-        "strength": 0.7,
-        "evidence": "stated"
       }
     ],
     "technical-shell-alpinism": [
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": "stated"
+      },
       {
         "emotion": "energy",
         "strength": 1,
@@ -13384,11 +13389,6 @@
         "emotion": "joy",
         "strength": 1,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "relaxation",
-        "strength": 1,
-        "evidence": "stated"
       }
     ],
     "techwear": [
@@ -13407,6 +13407,11 @@
     ],
     "underwear-as-outerwear": [
       {
+        "emotion": "surprise",
+        "strength": 0.6,
+        "evidence": "stated"
+      },
+      {
         "emotion": "beauty",
         "strength": 1,
         "evidence": "inferred"
@@ -13420,39 +13425,39 @@
         "emotion": "intellectual-challenge",
         "strength": 1,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "surprise",
-        "strength": 0.6,
-        "evidence": "stated"
       }
     ],
     "victorian-boot": [
       {
-        "emotion": "hygge",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "joy",
         "strength": 0.4,
         "evidence": "stated"
+      },
+      {
+        "emotion": "hygge",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "victorian-corsetry": [
       {
-        "emotion": "wabi-sabi",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "uneasiness",
         "strength": 0.7,
         "evidence": "stated"
+      },
+      {
+        "emotion": "wabi-sabi",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "victorian-millinery": [
       {
+        "emotion": "sadness",
+        "strength": 0.6,
+        "evidence": "stated"
+      },
+      {
         "emotion": "being-moved",
         "strength": 1,
         "evidence": "inferred"
@@ -13461,47 +13466,42 @@
         "emotion": "wabi-sabi",
         "strength": 1,
         "evidence": "inferred"
-      },
-      {
-        "emotion": "sadness",
-        "strength": 0.6,
-        "evidence": "stated"
       }
     ],
     "victorian-sentimental-jewellery": [
       {
-        "emotion": "being-moved",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "sadness",
         "strength": 0.3,
         "evidence": "stated"
+      },
+      {
+        "emotion": "being-moved",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "vintage-coachbuilt-car": [
       {
-        "emotion": "awe",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "beauty",
         "strength": 1,
         "evidence": "stated"
+      },
+      {
+        "emotion": "awe",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "wedge-design-car": [
       {
-        "emotion": "anger",
-        "strength": 1,
-        "evidence": "inferred"
-      },
-      {
         "emotion": "surprise",
         "strength": 0.8,
         "evidence": "stated"
+      },
+      {
+        "emotion": "anger",
+        "strength": 1,
+        "evidence": "inferred"
       }
     ],
     "whalebone-stays": [
