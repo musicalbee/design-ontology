@@ -1,8 +1,8 @@
 ---
 name: cohesive-feed-grid
-description: "Apply the Cohesive Feed Grid style (2016–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: cohesive feed, instagram grid, aesthetic feed, curated grid, brand feed, 3-column grid."
+description: "Apply the Cohesive Feed Grid style (2016–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: cohesive feed, instagram grid, aesthetic feed, curated grid, brand feed, 3-column grid."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "cohesive feed"
   - "instagram grid"
@@ -26,7 +26,7 @@ vector_profile:
 
 A profile planned as one board: a 3-column grid of square photos with one preset, one palette and a fixed rhythm of image types. The viewer reads the whole grid before one photo.
 
-**Period:** 2016–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Curated feed, Instagram grid, Aesthetic feed
+**Period:** 2016–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Curated feed, Instagram grid, Aesthetic feed
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Cohesive Feed Grid, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Cohesive Feed Grid, you MUST:
 
 1. Lay photos in 3 columns with 2px gaps, each a 1:1 square of 1080px.
 2. Apply one preset to every photo, so that the average hue stays within 15° across the feed.

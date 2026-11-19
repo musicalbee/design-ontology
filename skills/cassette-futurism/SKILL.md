@@ -1,8 +1,8 @@
 ---
 name: cassette-futurism
-description: "Apply the Cassette Futurism style (1976–1989) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: cassette futurism, retro futurism, crt terminal, amber terminal, 1980s hardware, tape deck."
+description: "Apply the Cassette Futurism style (1976–1989) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: cassette futurism, retro futurism, crt terminal, amber terminal, 1980s hardware, tape deck."
 domain: internet
-era: postmodern-early-digital
+era: terminals-bbs
 triggers:
   - "cassette futurism"
   - "retro futurism"
@@ -27,7 +27,7 @@ vector_profile:
 
 Bulky hardware from a future imagined on tape: CRT monitors, membrane keys, toggle switches and beige casings, with amber or green phosphor text. It draws on Syd Mead's industrial futures and Japanese bubble-era electronics. The look is functional, worn and a little cramped.
 
-**Period:** 1976–1989 · **Era:** Postmodern & Early Digital · **Domain:** Internet · **Also called:** Retro-futurism of the analogue age, Used future, Cassette punk
+**Period:** 1976–1989 · **Era:** Terminals, BBS and Usenet · **Domain:** Internet · **Also called:** Retro-futurism of the analogue age, Used future, Cassette punk
 
 ## When to load this skill
 
@@ -42,7 +42,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Cassette Futurism, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Cassette Futurism, you MUST:
 
 1. Set text in phosphor amber (#FFB000) or green (#33FF66) on a near-black ground (#14130F) with contrast of 9:1 or more.
 2. Build panels as casings in beige (#D8D0B8) or grey (#9A9A8E) with a 4px radius, a 2px dark border and a 1px light top edge.
@@ -275,9 +275,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more neon**: move toward [`vaporwave`](../vaporwave/SKILL.md) (Vaporwave). Replace amber and green with pink and cyan on deep violet; keep the windows and add a perspective grid.
 - If the user asks for **more tactile**: move toward [`skeuomorphism`](../skeuomorphism/SKILL.md) (Skeuomorphism). Add leather and brushed-metal textures and 8px to 16px soft shadows; keep the labelled controls.
 
-- **Came from (go here for a more orthodox version):** [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md)
 - **Mixes well with:** [`cyberdelia`](../cyberdelia/SKILL.md), [`skeuomorphism`](../skeuomorphism/SKILL.md)
-- **Kin in another domain:** [`electronic-and-digital-watch`](../electronic-and-digital-watch/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`vector-display-arcade`](../vector-display-arcade/SKILL.md)
+- **Kin in another domain:** [`electronic-and-digital-watch`](../electronic-and-digital-watch/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`vector-display-arcade`](../vector-display-arcade/SKILL.md)
 - **Nearest by vector profile:** [`apple-aqua`](../apple-aqua/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`skeuomorphism`](../skeuomorphism/SKILL.md)
 
 ## Emotional target

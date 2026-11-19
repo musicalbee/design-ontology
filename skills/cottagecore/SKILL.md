@@ -1,8 +1,8 @@
 ---
 name: cottagecore
-description: "Apply the Cottagecore style (2018–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: cottagecore, cottage core, countryside, wildflowers, baking, gingham."
+description: "Apply the Cottagecore style (2018–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: cottagecore, cottage core, countryside, wildflowers, baking, gingham."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "cottagecore"
   - "cottage core"
@@ -27,7 +27,7 @@ vector_profile:
 
 A dream of rural life: wildflowers, baking, linen, embroidery, hand-drawn herbs and soft window light. It grew on Tumblr in 2018 and reached a wide audience on TikTok in 2020.
 
-**Period:** 2018–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Cottage core, Countryside romance
+**Period:** 2018–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Cottage core, Countryside romance
 
 ## When to load this skill
 
@@ -42,7 +42,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Cottagecore, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Cottagecore, you MUST:
 
 1. Set the ground in warm cream (#F6EEDC) with a faint linen or paper grain at 5% opacity.
 2. Use sage green (#7D9170), dusty rose (#D9A5A0) and butter yellow (#E8C872) as the three accents.

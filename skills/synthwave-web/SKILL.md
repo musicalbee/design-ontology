@@ -1,8 +1,8 @@
 ---
 name: synthwave-web
-description: "Apply the Synthwave Web style (2013–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: synthwave, outrun, retrowave, neon sunset, 80s, perspective grid."
+description: "Apply the Synthwave Web style (2013–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: synthwave, outrun, retrowave, neon sunset, 80s, perspective grid."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "synthwave"
   - "outrun"
@@ -26,7 +26,7 @@ vector_profile:
 
 A neon sunset, a perspective grid, chrome type, pink and cyan on deep violet, and scanlines. It recalls the 1980s as film and games sold it, and it feels like a night drive.
 
-**Period:** 2013–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Outrun, Retrowave, 80s neon web
+**Period:** 2013–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Outrun, Retrowave, 80s neon web
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Synthwave Web, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Synthwave Web, you MUST:
 
 1. Set the ground as a gradient from #12062B at the top to #3A0A5C at the horizon.
 2. Draw a sun of 240px to 480px with a gradient from #FFD319 to #FF2975 and 5 to 8 horizontal cuts that grow from 2px to 10px.
@@ -240,7 +240,7 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Neon glow (material)
 
-Light as a line of coloured gas, with a soft halo that spills onto the dark ground around it. Origin: internet, Paris, 1912.
+Light as a line of coloured gas, with a soft halo that spills onto the dark ground around it. Origin: graphic movements, Paris, 1912.
 
 - Draw the tube as a line of 2 to 6mm in one saturated colour; use no more than 2 colours in one sign.
 - Add a halo of 10 to 40px at 30% to 60% opacity in the same hue.
@@ -277,7 +277,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
 - **Mixes well with:** [`cybercore-web`](../cybercore-web/SKILL.md), [`cyberpunk-web`](../cyberpunk-web/SKILL.md)
 - **Kin in another domain:** [`neon-noir`](../neon-noir/SKILL.md), [`vector-display-arcade`](../vector-display-arcade/SKILL.md)
-- **Nearest by vector profile:** [`cybercore-web`](../cybercore-web/SKILL.md), [`art-deco-web`](../art-deco-web/SKILL.md), [`barbiecore`](../barbiecore/SKILL.md)
+- **Nearest by vector profile:** [`cybercore-web`](../cybercore-web/SKILL.md), [`barbiecore`](../barbiecore/SKILL.md), [`conceptual-sketch-ui`](../conceptual-sketch-ui/SKILL.md)
 
 ## Emotional target
 

@@ -1,8 +1,8 @@
 ---
 name: gan-portrait
-description: "Apply the GAN Portrait style (2018–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: gan portrait, stylegan, this person does not exist, generated face, synthetic headshot, fake profile photo."
+description: "Apply the GAN Portrait style (2018–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: gan portrait, stylegan, this person does not exist, generated face, synthetic headshot, fake profile photo."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "gan portrait"
   - "stylegan"
@@ -24,7 +24,7 @@ vector_profile:
 
 A square headshot of a person who does not exist: the eyes sit at a fixed height, the background is a soft swirl, and small faults show in teeth, ears and glasses. It spread from 2018 with StyleGAN.
 
-**Period:** 2018–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** StyleGAN face, This person does not exist, Generated headshot
+**Period:** 2018–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** StyleGAN face, This person does not exist, Generated headshot
 
 ## When to load this skill
 
@@ -39,7 +39,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in GAN Portrait, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in GAN Portrait, you MUST:
 
 1. Centre one head at 1024px square with the eye line at 40% from the top and the eyes 30% of the width apart.
 2. Set a blurred, swirled background of 2 to 3 warm hues at 25% to 40% blur strength.

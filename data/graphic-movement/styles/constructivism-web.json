@@ -1,0 +1,335 @@
+{
+  "$schema": "../../../schema/domains/graphic-movement.schema.json",
+  "id": "constructivism-web",
+  "domain": "graphic-movement",
+  "name": "Constructivism (web)",
+  "aliases": [
+    "Russian Constructivism",
+    "Agitprop style",
+    "Rodchenko style"
+  ],
+  "era_id": "modernist",
+  "time_period": {
+    "start": 1919,
+    "end": 1935,
+    "label": "1919–1935"
+  },
+  "primary_mediums": [
+    "print",
+    "web"
+  ],
+  "summary": "Diagonal compositions, heavy sans-serif type, photomontage and flat red, black and cream blocks. It came from the Soviet avant-garde and treats the page as a poster that makes a call to action.",
+  "philosophy": {
+    "core_thesis": "The page is a machine for persuasion: every element is a lever, and the diagonal gives it energy.",
+    "design_principles": [
+      "Set the main axis of a hero at an angle of 15° to 30°; rotate type blocks and image blocks together.",
+      "Use three colours only: red (#D62718), black (#111111) and cream (#EDE3CC); red covers 25% to 40% of the surface.",
+      "Build headings from heavy condensed or extended sans-serif capitals at 64px or larger, in 1 to 3 lines.",
+      "Cut photographs into hard shapes (circle, triangle, strip) and place them in monochrome black and red.",
+      "Use thick bars of 12px to 24px and circles as structure; each bar points at the next action.",
+      "Make each page carry one call to action in a red block, at 3 times the size of the body text or larger.",
+      "Overlap at least two elements in each composition by 8px to 40px."
+    ],
+    "anti_patterns": [
+      "Centred symmetric layouts",
+      "Soft gradients, shadows and glass effects",
+      "Pastel palettes or more than 3 colours",
+      "Serif or script display type",
+      "Rounded containers and pill buttons",
+      "Decorative illustration that makes no call to action",
+      "Horizontal-only compositions with no diagonal"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "dimensionality": 2,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 5
+  },
+  "layout": {
+    "grid_mechanics": "A 12-column grid that is rotated for the hero by 15° to 30°; the rest of the page returns to the grid. Bars of 12px to 24px divide the sections.",
+    "whitespace_ratio": "20% to 30% of the surface stays empty; the spacing scale is 8, 16, 32, 64px.",
+    "alignment_rules": "Diagonal or flush-left; headings may run at an angle; body text stays horizontal and flush left.",
+    "container_geometry": "Rectangles, circles and triangles with a 0px radius; thick bars and wedges as dividers."
+  },
+  "typography": {
+    "classifications": [
+      "grotesque sans serif",
+      "extended display capitals"
+    ],
+    "font_pairings": [
+      {
+        "display": "Archivo Black",
+        "body": "Archivo",
+        "note": "A heavy grotesque in the spirit of Rodchenko's posters."
+      },
+      {
+        "display": "Oswald",
+        "body": "Roboto Condensed",
+        "note": "A condensed face for tall headlines."
+      },
+      {
+        "display": "Bebas Neue",
+        "body": "Barlow",
+        "note": "A compact capital face with a clear text partner."
+      }
+    ],
+    "tracking": "Display takes -0.01em to +0.02em; body stays at 0.",
+    "leading": "Display 0.95; body 1.45.",
+    "hierarchy_rules": [
+      "Use two weights: bold (700) for display, regular (400) for body.",
+      "Use sizes 16, 28, 64 and 120px.",
+      "Set all headlines in upper case.",
+      "Set one word of a headline in a red block with cream text."
+    ]
+  },
+  "color": {
+    "palette_structure": "Red, black and cream; red is the energy colour.",
+    "palette": [
+      {
+        "name": "Cream",
+        "hex": "#EDE3CC",
+        "role": "background"
+      },
+      {
+        "name": "Black",
+        "hex": "#111111",
+        "role": "text and bars"
+      },
+      {
+        "name": "Agitprop Red",
+        "hex": "#D62718",
+        "role": "primary and accent"
+      },
+      {
+        "name": "Grey",
+        "hex": "#5C5648",
+        "role": "secondary text"
+      },
+      {
+        "name": "Sand",
+        "hex": "#DDD0B0",
+        "role": "alternate surface"
+      }
+    ],
+    "contrast_rules": "Black on cream holds 15:1; cream on red holds at least 4.5:1 for 24px bold text and larger.",
+    "surface_treatment": "Flat, matt, printed colour blocks with a halftone grain at 6% opacity.",
+    "light_and_shadow": "None; depth comes from overlap and from the angle of the blocks."
+  },
+  "materiality": {
+    "surface_simulation": "Cheap offset print on newsprint; surfaces are flat ink and do not imitate other materials.",
+    "border_rules": "Solid black bars of 4px to 12px; no outline on all four sides of a container.",
+    "blur_and_elevation": "No blur. No elevation. Shadow offset is 0px."
+  },
+  "ornamentation_details": {
+    "iconography": "Solid geometric pictograms (arrow, star, megaphone, gear) with square terminals and no fine detail; place an icon on a red block.",
+    "illustration": "Photomontage in black and red, cropped into circles and wedges; no gradients.",
+    "decorative_elements": [
+      "diagonal bar",
+      "circle",
+      "wedge",
+      "photomontage crop",
+      "megaphone icon"
+    ]
+  },
+  "motion": {
+    "native": false,
+    "transition_physics": "Translation for screen: hard, fast slides along the diagonal axis; no bounce.",
+    "easing": "cubic-bezier(0.7, 0, 0.3, 1)",
+    "duration_ms": 200,
+    "hover_and_active": "Hover swaps the red and black blocks; active state shifts the block by 4px along the diagonal."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "art-nouveau-web"
+    ],
+    "hybridized_with": [
+      "bauhaus",
+      "de-stijl-web"
+    ],
+    "echoes": [
+      "brutalist-architecture",
+      "soviet-montage"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels urgency, energy and a call to join.",
+    "keywords": [
+      "urgent",
+      "militant",
+      "dynamic",
+      "bold",
+      "propagandistic",
+      "industrial"
+    ],
+    "brand_archetypes": [
+      "hero",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "constructivism",
+      "rodchenko",
+      "el lissitzky",
+      "soviet poster",
+      "agitprop",
+      "red and black",
+      "diagonal layout",
+      "propaganda poster"
+    ],
+    "use_cases": [
+      "campaign and activist sites",
+      "event posters and festivals",
+      "music and club promotion",
+      "manifesto pages",
+      "editorial feature openings"
+    ],
+    "avoid_when": [
+      "The audience expects calm, trust and quiet.",
+      "The product is a dense data tool.",
+      "The brand is luxurious or gentle."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "swiss-international",
+        "how": "Return to the strict grid; keep the red accent and drop the angle and the photomontage."
+      },
+      {
+        "request": "more playful",
+        "toward": "memphis-design",
+        "how": "Add pastel fills and squiggle patterns; keep the geometry."
+      },
+      {
+        "request": "more raw",
+        "toward": "neo-brutalism-ui",
+        "how": "Add a 4px black border and a hard offset shadow to each block."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 400,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "colour",
+      "display_tracking": "0em",
+      "display_leading": 0.95,
+      "display_case": "uppercase",
+      "body_leading": 1.45,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "butt",
+      "linejoin": "miter",
+      "container": "square",
+      "pack": {
+        "id": "material-symbols-sharp",
+        "why": "A solid, sharp-cornered family with butt terminals that reads as a stamp on a red block."
+      }
+    },
+    "art": {
+      "recipe": "bauhaus",
+      "pattern": "diagonal",
+      "seed": 23
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": -3
+    },
+    "ground": {
+      "kind": "wedge",
+      "why": "Constructivist posters cut the page with a red wedge and a black diagonal beam."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#EDE3CC",
+      "--color-surface": "#DDD0B0",
+      "--color-text": "#111111",
+      "--color-muted": "#5C5648",
+      "--color-primary": "#D62718",
+      "--color-accent": "#D62718",
+      "--color-border": "#111111",
+      "--font-sans": "\"Archivo\", \"Roboto Condensed\", Arial, sans-serif",
+      "--font-display": "\"Archivo Black\", \"Oswald\", Impact, sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "4px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.7, 0, 0.3, 1)",
+      "--duration": "200ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#EDE3CC] text-[#111111] font-sans antialiased px-6 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-6xl md:text-9xl font-black uppercase leading-[0.95] -rotate-3 text-left"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.45] max-w-xl"
+      },
+      {
+        "element": "section",
+        "classes": "border-t-[12px] border-[#111111] pt-4 mt-16"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none bg-[#D62718] px-8 py-4 text-lg font-bold uppercase text-[#EDE3CC] transition-transform duration-200 hover:bg-[#111111]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-bold uppercase tracking-[0.1em]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#D62718",
+        "#111111"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#D62718",
+        "#111111"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 0
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.618,
+      "min": 1.5,
+      "max": 1.618
+    }
+  },
+  "sources": [
+    {
+      "title": "Alexander Rodchenko, Experiments for the Future (MoMA, 2005)"
+    },
+    {
+      "title": "Christopher Phillips, Photography in the Modern Era (Met, 1989)"
+    }
+  ]
+}

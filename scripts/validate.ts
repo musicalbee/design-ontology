@@ -173,6 +173,15 @@ if (!schemaOnly && errors.length === 0) {
     check("lineage.rebelled_against", l.rebelled_against, "same");
     check("lineage.hybridized_with", l.hybridized_with, "same");
     check("lineage.echoes", l.echoes ?? [], "other");
+    // Two families of domains (domains/<id>.json `family`). An echo from one family to the other links a twin
+    // look (Swiss in graphic-movement and in icon, flat in logo and in internet), so it must go both ways.
+    const fam = (d: string) => domains.find((x) => x.id === d)?.family;
+    for (const ref of l.echoes ?? []) {
+      const target = byId.get(ref);
+      if (!target || !fam(style.domain) || !fam(target.domain) || fam(style.domain) === fam(target.domain)) continue;
+      if (!(target.lineage.echoes ?? []).includes(style.id))
+        errors.push(`${where}: lineage.echoes → "${ref}" crosses from the ${fam(style.domain)} family to the ${fam(target.domain)} family, but "${ref}" does not echo "${style.id}". Add the reverse echo.`);
+    }
     if (l.subgenre_of) {
       check("lineage.subgenre_of", [l.subgenre_of], "same");
       // Walk up the parents: a loop of sub-genres has no top.
@@ -412,6 +421,17 @@ for (const { file, slug, funding: f } of funding) {
     errors.push(`${file}: amount.year ${amountYear} is outside the years of the flow (${f.years[0]}–${f.years[1] ?? "open"})`);
   backers.add(`${f.from.type}:${f.from.id}`);
 }
+// Person → organisation links: each org resolves, one link for each org, years in order.
+for (const { file, person } of people) {
+  const seen = new Set<string>();
+  for (const l of person.orgs ?? []) {
+    if (!orgIds.has(l.org)) errors.push(`${file}: orgs → "${l.org}" is not in data/orgs/`);
+    if (seen.has(l.org)) errors.push(`${file}: org "${l.org}" is listed more than once`);
+    seen.add(l.org);
+    if (l.from != null && l.to != null && l.to < l.from) errors.push(`${file}: org "${l.org}" ends (${l.to}) before it starts (${l.from})`);
+  }
+}
+
 // A backer org with the part "funded" has at least one flow in data/funding/.
 for (const { file, org: m } of orgs)
   if (m.styles.some((s) => s.part === "funded") && !backers.has(`org:${m.id}`))

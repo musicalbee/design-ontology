@@ -1,8 +1,8 @@
 ---
 name: cinemagraph
-description: "Apply the Cinemagraph style (2011–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: cinemagraph, living photo, still with motion, subtle loop, moving photograph, live photo."
+description: "Apply the Cinemagraph style (2011–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: cinemagraph, living photo, still with motion, subtle loop, moving photograph, live photo."
 domain: internet
-era: touchscreen
+era: web-2-social
 triggers:
   - "cinemagraph"
   - "living photo"
@@ -24,7 +24,7 @@ vector_profile:
 
 A still photograph in which one small part moves in a seamless loop: hair in wind, steam from a cup, a blink. Two New York artists named it in 2011 during fashion week.
 
-**Period:** 2011–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Living photograph, Still-motion loop, Photo with one moving part
+**Period:** 2011–now · **Era:** Web 2.0 and the social web · **Domain:** Internet · **Also called:** Living photograph, Still-motion loop, Photo with one moving part
 
 ## When to load this skill
 
@@ -39,7 +39,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Cinemagraph, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Cinemagraph, you MUST:
 
 1. Freeze at least 90% of the frame; let one region of 5% to 15% of the area loop.
 2. Loop the motion for 2 to 5 seconds with a seamless join, at 24 fps or more.

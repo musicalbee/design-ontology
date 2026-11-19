@@ -1,8 +1,8 @@
 ---
 name: lip-sync-dance-short
-description: "Apply the Lip-Sync Dance Short style (2016–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: lip sync, lipsync, dance video, tiktok dance, musical.ly, dance challenge."
+description: "Apply the Lip-Sync Dance Short style (2016–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: lip sync, lipsync, dance video, tiktok dance, musical.ly, dance challenge."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "lip sync"
   - "lipsync"
@@ -25,7 +25,7 @@ vector_profile:
 
 A vertical clip of one person who mimes a song or does a short dance in front of a phone, with a rotating record disc and a lyric line. It grew from the Musical.ly app in 2014 and moved to TikTok in 2016 and 2018.
 
-**Period:** 2016–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Musical.ly clip, TikTok dance, Lip-sync video
+**Period:** 2016–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Musical.ly clip, TikTok dance, Lip-sync video
 
 ## When to load this skill
 
@@ -40,7 +40,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Lip-Sync Dance Short, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Lip-Sync Dance Short, you MUST:
 
 1. Shoot at 1080 x 1920 px with one subject, centred, at 60% to 75% of the frame height.
 2. Cut the clip to 15 s, with the loop point on a beat so the end meets the start.

@@ -1,8 +1,8 @@
 ---
 name: memphis-design
-description: "Apply the Memphis Design style (1981–1988) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: memphis, memphis design, memphis milano, 80s, eighties, sottsass."
+description: "Apply the Memphis Design style (1981–1988) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: memphis, memphis design, memphis milano, 80s, eighties, sottsass."
 domain: internet
-era: postmodern-early-digital
+era: terminals-bbs
 triggers:
   - "memphis"
   - "memphis design"
@@ -29,7 +29,7 @@ vector_profile:
 
 Clashing primary and pastel fields, squiggles, confetti dots and black-and-white pattern on irregular geometric forms. Ettore Sottsass and the Memphis group launched it in Milan in 1981 as a joke against good taste.
 
-**Period:** 1981–1988 · **Era:** Postmodern & Early Digital · **Domain:** Internet · **Also called:** Memphis Group, Memphis Milano, 80s Memphis
+**Period:** 1981–1988 · **Era:** Terminals, BBS and Usenet · **Domain:** Internet · **Also called:** Memphis Group, Memphis Milano, 80s Memphis
 
 ## When to load this skill
 
@@ -44,7 +44,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Memphis Design, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Memphis Design, you MUST:
 
 1. Combine at least four saturated hues on one surface, and put no two neighbouring fields in the same hue.
 2. Build every composition from primitive shapes: circles, triangles, half-circles, arches and 45 degree bars at sizes between 24px and 320px.
@@ -293,10 +293,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more tactile**: move toward [`skeuomorphism`](../skeuomorphism/SKILL.md) (Skeuomorphism). Add a 1px inner highlight and a 12px soft shadow to each block; keep the hues and the primitive shapes.
 
 - **Led to (go here for a newer version):** [`corporate-memphis`](../corporate-memphis/SKILL.md)
-- **Rejects (the opposite pole; do not blend):** [`swiss-international`](../swiss-international/SKILL.md)
-- **Mixes well with:** [`corporate-memphis`](../corporate-memphis/SKILL.md), [`kidcore`](../kidcore/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md)
-- **Kin in another domain:** [`dopamine-decor`](../dopamine-decor/SKILL.md), [`memphis-interior`](../memphis-interior/SKILL.md), [`memphis-postmodern-ceramics`](../memphis-postmodern-ceramics/SKILL.md), [`memphis-product`](../memphis-product/SKILL.md), [`music-video`](../music-video/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md), [`swiss-plastic-pop-watch`](../swiss-plastic-pop-watch/SKILL.md)
-- **Nearest by vector profile:** [`psychedelic`](../psychedelic/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`glitchcore`](../glitchcore/SKILL.md)
+- **Mixes well with:** [`corporate-memphis`](../corporate-memphis/SKILL.md), [`kidcore`](../kidcore/SKILL.md)
+- **Kin in another domain:** [`dopamine-decor`](../dopamine-decor/SKILL.md), [`memphis-interior`](../memphis-interior/SKILL.md), [`memphis-postmodern-ceramics`](../memphis-postmodern-ceramics/SKILL.md), [`memphis-product`](../memphis-product/SKILL.md), [`music-video`](../music-video/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md), [`swiss-plastic-pop-watch`](../swiss-plastic-pop-watch/SKILL.md)
+- **Nearest by vector profile:** [`glitchcore`](../glitchcore/SKILL.md), [`kidcore`](../kidcore/SKILL.md), [`anti-design`](../anti-design/SKILL.md)
 
 ## Emotional target
 

@@ -1,8 +1,8 @@
 ---
 name: flash-intro-site
-description: "Apply the Flash Intro Site style (1998–2010) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: flash site, skip intro, macromedia flash, flash intro, loading bar, pixel nav."
+description: "Apply the Flash Intro Site style (1998–2010) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: flash site, skip intro, macromedia flash, flash intro, loading bar, pixel nav."
 domain: internet
-era: postmodern-early-digital
+era: web-1
 triggers:
   - "flash site"
   - "skip intro"
@@ -26,7 +26,7 @@ vector_profile:
 
 A full-window site built as vector animation: a loading bar, a 'skip intro' link, tiny pixel type, custom cursors, sound and transitions between sections. Macromedia Flash made it possible.
 
-**Period:** 1998–2010 · **Era:** Postmodern & Early Digital · **Domain:** Internet · **Also called:** Skip intro, Flash website, Macromedia Flash site
+**Period:** 1998–2010 · **Era:** Web 1.0 · **Domain:** Internet · **Also called:** Skip intro, Flash website, Macromedia Flash site
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Flash Intro Site, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Flash Intro Site, you MUST:
 
 1. Fill the full window with one stage and centre a fixed area of 800px by 600px or 1000px by 600px.
 2. Open with a loading bar of 1px to 4px and a counter from 0% to 100%, then a 5 to 20 second intro.
@@ -277,7 +277,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`cyberdelia`](../cyberdelia/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`portal-table-layout`](../portal-table-layout/SKILL.md)
 - **Was rejected by:** [`web-2-0-gloss`](../web-2-0-gloss/SKILL.md)
-- **Nearest by vector profile:** [`space-age`](../space-age/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md), [`conceptual-sketch-ui`](../conceptual-sketch-ui/SKILL.md)
+- **Nearest by vector profile:** [`claymorphism`](../claymorphism/SKILL.md), [`conceptual-sketch-ui`](../conceptual-sketch-ui/SKILL.md), [`cyberpunk-web`](../cyberpunk-web/SKILL.md)
 
 ## Emotional target
 

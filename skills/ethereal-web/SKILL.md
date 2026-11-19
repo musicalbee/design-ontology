@@ -1,8 +1,8 @@
 ---
 name: ethereal-web
-description: "Apply the Ethereal Web style (2021–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: ethereal, dreamy, soft focus, pastel gradient, airy, light serif."
+description: "Apply the Ethereal Web style (2021–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: ethereal, dreamy, soft focus, pastel gradient, airy, light serif."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "ethereal"
   - "dreamy"
@@ -26,7 +26,7 @@ vector_profile:
 
 Pale, glowing pastels, soft focus, thin serif or light sans type, translucent layers and air. It aims at a calm, dreamlike, weightless mood and reads as light rather than as object.
 
-**Period:** 2021–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Ethereal, Dreamy soft web, Soft-focus UI
+**Period:** 2021–now · **Era:** Short video and AI · **Domain:** Internet · **Also called:** Ethereal, Dreamy soft web, Soft-focus UI
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Ethereal Web, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Ethereal Web, you MUST:
 
 1. Set the ground in a pale gradient between 2 or 3 tints (for example #FDF7FF to #EAF4FF) with lightness above 92%.
 2. Add soft blobs of colour 300px to 700px wide, blurred by 100px to 200px, at 30% to 50% opacity in pastel hues.

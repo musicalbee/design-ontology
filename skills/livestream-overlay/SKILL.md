@@ -1,8 +1,8 @@
 ---
 name: livestream-overlay
-description: "Apply the Livestream Overlay style (2011–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: livestream, stream overlay, twitch, chat panel, alert box, streamer."
+description: "Apply the Livestream Overlay style (2011–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: livestream, stream overlay, twitch, chat panel, alert box, streamer."
 domain: internet
-era: touchscreen
+era: web-2-social
 triggers:
   - "livestream"
   - "stream overlay"
@@ -25,7 +25,7 @@ vector_profile:
 
 A frame around a live game or camera. It has a facecam slot, a chat panel, an alert box and a name bar. Neon edges and animated panels show that the stream is live.
 
-**Period:** 2011–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Stream overlay, Twitch layout, Streamer scene
+**Period:** 2011–now · **Era:** Web 2.0 and the social web · **Domain:** Internet · **Also called:** Stream overlay, Twitch layout, Streamer scene
 
 ## When to load this skill
 
@@ -40,7 +40,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Livestream Overlay, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Livestream Overlay, you MUST:
 
 1. Divide the 1920x1080 frame into fixed slots: game 1440x810, facecam 360x270, chat 360x540 and a 1920x80 bar.
 2. Frame each slot with a 2px line in the accent colour and cut corners at 45° for 12px.

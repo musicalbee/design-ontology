@@ -1,8 +1,8 @@
 ---
 name: metro-ui
-description: "Apply the Metro UI style (2010–2015) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: metro, windows phone, modern ui, live tiles, tile ui, microsoft design."
+description: "Apply the Metro UI style (2010–2015) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: metro, windows phone, modern ui, live tiles, tile ui, microsoft design."
 domain: internet
-era: touchscreen
+era: web-2-social
 triggers:
   - "metro"
   - "windows phone"
@@ -26,7 +26,7 @@ vector_profile:
 
 Flat colour tiles, large light typography, a strict grid and content before chrome. It came from Windows Phone 7 in 2010 and drew on Swiss signage and airport wayfinding.
 
-**Period:** 2010–2015 · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Windows Phone 7 design, Modern UI, Microsoft Design Language
+**Period:** 2010–2015 · **Era:** Web 2.0 and the social web · **Domain:** Internet · **Also called:** Windows Phone 7 design, Modern UI, Microsoft Design Language
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Metro UI, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Metro UI, you MUST:
 
 1. Build the home screen from tiles on a 12px grid; use tiles of 1, 2 and 4 units (for example 80px, 168px and 344px).
 2. Use one solid accent colour per tile from a set of 8 to 12 saturated colours; tile gutters are 8px.
@@ -243,7 +243,7 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Modular grid (process)
 
-A page or screen divided into equal columns and rows; each element fits a cell or a block of cells, so that the whole layout repeats one measure. Origin: internet, Zurich, c. 1958.
+A page or screen divided into equal columns and rows; each element fits a cell or a block of cells, so that the whole layout repeats one measure. Origin: graphic movements, Zurich, c. 1958.
 
 - Divide the page into 4 to 12 equal columns with a gutter of 1/10 to 1/5 of a column width.
 - Cut the page into rows of the same module height; align each image and text block to the lines.
@@ -276,11 +276,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more minimal**: move toward [`swiss-international`](../swiss-international/SKILL.md) (Swiss International Style). Reduce to black and white and one red accent on a 12-column grid.
 - If the user asks for **more app-like**: move toward [`bento-grid-ui`](../bento-grid-ui/SKILL.md) (Bento Grid UI). Add a 1px border and a 12px radius to the tiles.
 
-- **Came from (go here for a more orthodox version):** [`swiss-international`](../swiss-international/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`skeuomorphism`](../skeuomorphism/SKILL.md)
 - **Mixes well with:** [`flat-design`](../flat-design/SKILL.md)
-- **Kin in another domain:** [`flat-icon`](../flat-icon/SKILL.md), [`flat-logo`](../flat-logo/SKILL.md)
-- **Nearest by vector profile:** [`bauhaus`](../bauhaus/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md)
+- **Kin in another domain:** [`flat-icon`](../flat-icon/SKILL.md), [`flat-logo`](../flat-logo/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
+- **Nearest by vector profile:** [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`kaomoji-emoticon`](../kaomoji-emoticon/SKILL.md)
 
 ## Emotional target
 

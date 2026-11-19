@@ -382,7 +382,7 @@ const RAW = "https://raw.githubusercontent.com/musicalbee/design-ontology/main/"
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const stage = $("stage");
-let packIndex, heroShots;
+let packIndex; const heroShots = {};
 const ico = (name) => `<svg class="icon"><use href="#${name}"/></svg>`;
 let skills = [], graph = null, axes = [], at = 0, turn = 0;
 const names = () => Object.fromEntries(skills.map((s) => [s.id, s.name]));
@@ -453,7 +453,7 @@ async function show(i) {
     fetch(`../data/${s.domain}/styles/${s.id}.json`).then((r) => r.json()),
     fetch(dir + "pack/icons.svg").then((r) => r.text()),
     (packIndex ??= fetch("../icons/packs/index.json").then((r) => r.json())),
-    (heroShots ??= fetch("previews/internet/manifest.json").then((r) => (r.ok ? r.json() : { images: {} })).catch(() => ({ images: {} }))),
+    (heroShots[s.domain] ??= fetch(`previews/${s.domain}/manifest.json`).then((r) => (r.ok ? r.json() : { images: {} })).catch(() => ({ images: {} }))),
     new Promise((ok) => { const l = $("tokens"); l.onload = l.onerror = ok; l.href = dir + "tokens.css"; }),
   ]);
   if (mine !== turn) return;
@@ -475,10 +475,10 @@ async function show(i) {
   // hero and facts
   $("h-name").textContent = s.name; $("h-period").textContent = s.period;
   $("h-thesis").textContent = s.thesis;
-  // The hero picture is a render of one coffee still life in the style (scripts/render-previews.ts --domain internet).
+  // The hero picture is a render of one coffee still life in the style (scripts/render-previews.ts --domain internet, or --domain graphic-movement).
   // A style with no render yet keeps the abstract plate of its pack.
   const shot = shots.images[s.id];
-  $("h-plate").src = shot ? `previews/internet/${shot.file}` : dir + "pack/hero.svg";
+  $("h-plate").src = shot ? `previews/${s.domain}/${shot.file}` : dir + "pack/hero.svg";
   $("h-plate").alt = shot ? `A coffee still life in the ${s.name} visual language` : `Abstract plate in the ${s.name} visual language`;
   $("f-period").textContent = s.period; $("f-era").textContent = `Branch: ${BRANCH_NAME[s.branch] ?? "—"}. Era: ${s.era.replace(/-/g, " ")}. Born in: ${data.primary_mediums.join(", ")}.`;
   $("f-feels").textContent = data.emotion.keywords.slice(0, 3).join(", ");
@@ -550,21 +550,24 @@ async function show(i) {
   if (parent !== window) parent.postMessage({ designOntologyStyle: s.id }, location.origin);
 }
 
-// The ten branches of internet culture (domains/internet.json), in the order of the style list.
+// The eleven branches of internet culture (domains/internet.json), in the order of the style list.
+// The graphic movements from before the web (domains/graphic-movement.json) have no branch; they close the list as one group.
 const BRANCHES = [["web-ui", "Web and app UI"], ["net-aesthetics", "Net aesthetics"], ["memes", "Memes"], ["vertical-video", "Short vertical video"],
   ["gifs-stickers", "GIFs, emoji and stickers"], ["creator-streaming", "Creator and streaming"], ["social-photo", "Social photo feeds"],
-  ["core-subcultures", "-core subcultures"], ["early-web", "Net art and the early web"], ["ai-native", "AI-native images"]];
+  ["core-subcultures", "-core subcultures"], ["early-web", "Net art and the early web"], ["forums-imageboards", "Forums and imageboards"], ["ai-native", "AI-native images"],
+  ["graphic-movement", "Graphic movements before the web"]];
 const BRANCH_NAME = Object.fromEntries(BRANCHES);
 const go = (id) => { const i = skills.findIndex((s) => s.id === id); if (i >= 0) show(i); return i >= 0; };
 Promise.all(["../skills/index.json", "../graph/lineage.json", "../domains/internet.json"].map((u) => fetch(u).then((r) => r.json()))).then(([index, g, domain]) => {
   // Group the styles by branch, in the order of BRANCHES, with a heading for each branch.
-  const rank = (s) => { const i = BRANCHES.findIndex(([b]) => b === s.branch); return i < 0 ? BRANCHES.length : i; };
+  const group = (s) => s.branch ?? s.domain;
+  const rank = (s) => { const i = BRANCHES.findIndex(([b]) => b === group(s)); return i < 0 ? BRANCHES.length : i; };
   skills = index.skills.filter((s) => s.pack).map((s, i) => [s, i]).sort(([a, i], [b, j]) => rank(a) - rank(b) || i - j).map(([s]) => s);
   graph = g; axes = domain.vectors;
   let head = null;
   $("chips").innerHTML = skills.map((s) => {
-    const h = s.branch !== head ? `<span class="do-branch">${esc(BRANCH_NAME[s.branch] ?? "Other")}</span>` : "";
-    head = s.branch;
+    const h = group(s) !== head ? `<span class="do-branch">${esc(BRANCH_NAME[group(s)] ?? "Other")}</span>` : "";
+    head = group(s);
     return h + `<button data-go="${s.id}" aria-pressed="false">${esc(s.name)}</button>`;
   }).join("");
   go(location.hash.slice(1)) || show(0);

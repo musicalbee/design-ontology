@@ -315,6 +315,10 @@
         ]
       }
     },
+    "family": {
+      "enum": ["graphic", "internet"],
+      "description": "The family of related domains. graphic: the printed page and the mark (typeface, logo, print, graphic-movement). internet: screen culture (internet, icon). The nav groups the domains by family; a cross-family lineage.echoes edge must go both ways."
+    },
     "former_ids": {
       "type": "array",
       "uniqueItems": true,

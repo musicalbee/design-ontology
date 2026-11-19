@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "bbcode-markup",
+  "name": "BBCode markup",
+  "aliases": [
+    "Bulletin Board Code"
+  ],
+  "kind": "technology",
+  "summary": "A light markup for forum posts: the poster writes tags in square brackets, and the board changes them into safe HTML.",
+  "how": [
+    "Write the format in square-bracket tags, for example [b]bold[/b] or [quote]...[/quote].",
+    "Let the board change each tag into HTML and remove raw HTML from the post.",
+    "Show a quote of the earlier post in a box with the name of its poster."
+  ],
+  "origin": {
+    "domain": "internet",
+    "year": 1998,
+    "where": "web",
+    "note": "BBCode was first introduced in 1998 as a markup for message boards."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 2014,
+      "circa": true,
+      "via": "phpBB 3.1 has a completely rewritten BBCode system for the posts on its boards.",
+      "styles": [
+        "bulletin-board-forum"
+      ]
+    }
+  ],
+  "styles": [
+    "bulletin-board-forum"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: BBCode",
+      "url": "https://en.wikipedia.org/wiki/BBCode"
+    },
+    {
+      "title": "Wikipedia: phpBB",
+      "url": "https://en.wikipedia.org/wiki/PhpBB"
+    }
+  ]
+}

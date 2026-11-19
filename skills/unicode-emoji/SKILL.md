@@ -1,8 +1,8 @@
 ---
 name: unicode-emoji
-description: "Apply the Unicode Emoji style (2010–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: emoji, emoji keyboard, unicode emoji, smiley, reaction emoji, emoji picker."
+description: "Apply the Unicode Emoji style (2010–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: emoji, emoji keyboard, unicode emoji, smiley, reaction emoji, emoji picker."
 domain: internet
-era: touchscreen
+era: web-2-social
 triggers:
   - "emoji"
   - "emoji keyboard"
@@ -24,7 +24,7 @@ vector_profile:
 
 A set of small colour pictures that sit in text as characters: yellow faces, hands, food and flags. Japanese phone makers drew the first sets; Unicode 6.0 added them to the standard in 2010.
 
-**Period:** 2010–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Emoji set, Emoji keyboard, Emoji glyphs
+**Period:** 2010–now · **Era:** Web 2.0 and the social web · **Domain:** Internet · **Also called:** Emoji set, Emoji keyboard, Emoji glyphs
 
 ## When to load this skill
 
@@ -39,7 +39,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Unicode Emoji, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Unicode Emoji, you MUST:
 
 1. Draw each glyph on a square field with a 1:1 ratio and set it at the line height of the text, 1.2em.
 2. Use a round yellow face (#FFC83D) with a 1px darker rim, two simple eyes and a mouth of one curve.
@@ -275,7 +275,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`kaomoji-emoticon`](../kaomoji-emoticon/SKILL.md)
 - **Led to (go here for a newer version):** [`3d-avatar-emoji`](../3d-avatar-emoji/SKILL.md), [`chat-sticker-pack`](../chat-sticker-pack/SKILL.md)
 - **Kin in another domain:** [`flat-icon`](../flat-icon/SKILL.md)
-- **Nearest by vector profile:** [`duet-split-screen`](../duet-split-screen/SKILL.md), [`material-design`](../material-design/SKILL.md), [`video-essay`](../video-essay/SKILL.md)
+- **Nearest by vector profile:** [`bulletin-board-forum`](../bulletin-board-forum/SKILL.md), [`discord-server`](../discord-server/SKILL.md), [`duet-split-screen`](../duet-split-screen/SKILL.md)
 
 ## Emotional target
 

@@ -1,8 +1,8 @@
 ---
 name: kaomoji-emoticon
-description: "Apply the Kaomoji and Emoticon style (1986–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: emoticon, kaomoji, ascii face, text smiley, (^_^), :-)."
+description: "Apply the Kaomoji and Emoticon style (1986–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: emoticon, kaomoji, ascii face, text smiley, (^_^), :-)."
 domain: internet
-era: postmodern-early-digital
+era: terminals-bbs
 triggers:
   - "emoticon"
   - "kaomoji"
@@ -26,7 +26,7 @@ vector_profile:
 
 A face made of punctuation and letters, set in a line of plain text. It came from 1980s bulletin boards: the sideways :-) in the West and the upright (^_^) in Japan.
 
-**Period:** 1986–now · **Era:** Postmodern & Early Digital · **Domain:** Internet · **Also called:** Text emoticon, Western emoticon, Japanese kaomoji, ASCII face
+**Period:** 1986–now · **Era:** Terminals, BBS and Usenet · **Domain:** Internet · **Also called:** Text emoticon, Western emoticon, Japanese kaomoji, ASCII face
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Kaomoji and Emoticon, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Kaomoji and Emoticon, you MUST:
 
 1. Build each face from 3 to 12 characters of the same monospace font, in one colour and one size.
 2. Set the face on a plain ground of #FFFDF5 with text at #1A1A1A, with no border and no fill.
@@ -249,7 +249,7 @@ A face made of keyboard characters, read sideways in the West and upright in Jap
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **2channel** (platform, web, 1999–now), gathered the style. A large anonymous Japanese message board. Its users spread text faces, and many kaomoji began or grew in its threads.
+- **2channel** (platform, web, 1999–now), gathered the style. A large anonymous Japanese text board. Its users spread text faces, and Futaba Channel, the model for 4chan, began in 2001 as a refuge for its users.
 
 ## Permutations
 

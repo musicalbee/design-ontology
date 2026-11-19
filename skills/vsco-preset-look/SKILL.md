@@ -1,8 +1,8 @@
 ---
 name: vsco-preset-look
-description: "Apply the VSCO Preset Look style (2013–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: vsco, vsco preset, matte photo, film preset, muted tones, a6 preset."
+description: "Apply the VSCO Preset Look style (2013–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: vsco, vsco preset, matte photo, film preset, muted tones, a6 preset."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "vsco"
   - "vsco preset"
@@ -26,7 +26,7 @@ vector_profile:
 
 A quiet photo grade that copies film stock: matte blacks, soft contrast, muted greens and warm skin. A preset code such as A6 or HB2 sets it, and the app chrome stays pale and spare.
 
-**Period:** 2013–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** VSCO filter, Matte film preset, VSCO girl photo
+**Period:** 2013–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** VSCO filter, Matte film preset, VSCO girl photo
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in VSCO Preset Look, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in VSCO Preset Look, you MUST:
 
 1. Lift the black point to 8% to 12% grey and cut contrast by 10% to 20%.
 2. Pull saturation to 80% and shift greens toward teal (hue +10°) and skin toward warm beige.
@@ -286,7 +286,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`instagram-vintage-filter`](../instagram-vintage-filter/SKILL.md)
 - **Mixes well with:** [`clean-girl`](../clean-girl/SKILL.md), [`flat-lay-feed`](../flat-lay-feed/SKILL.md), [`tumblr-soft-grunge`](../tumblr-soft-grunge/SKILL.md)
 - **Kin in another domain:** [`cinematic-teal-orange`](../cinematic-teal-orange/SKILL.md), [`film-grain-revival`](../film-grain-revival/SKILL.md)
-- **Nearest by vector profile:** [`flat-lay-feed`](../flat-lay-feed/SKILL.md), [`grwm-short`](../grwm-short/SKILL.md), [`label-meme`](../label-meme/SKILL.md)
+- **Nearest by vector profile:** [`discord-server`](../discord-server/SKILL.md), [`flat-lay-feed`](../flat-lay-feed/SKILL.md), [`grwm-short`](../grwm-short/SKILL.md)
 
 ## Emotional target
 

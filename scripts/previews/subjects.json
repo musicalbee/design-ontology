@@ -48,6 +48,11 @@
       "suffix": "one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
       "drop": "letter|lettering|type|typography|text|word|logo|wordmark|headline|interface|button|grid of|layout|drop cap|panel|divider|border|card|frame|link|ascii|numeral|label|rule|html|page|list|caption|quote|heading|monospace|^none\\b"
     },
+    "graphic-movement": {
+      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
+      "suffix": "one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "drop": "letter|lettering|type|typography|text|word|logo|wordmark|headline|interface|button|grid of|layout|drop cap|panel|divider|border|card|frame|link|ascii|numeral|label|rule|html|page|list|caption|quote|heading|monospace|^none\\b"
+    },
     "architecture-elevation": {
       "source": "architecture",
       "subject": "a straight frontal elevation photograph of a freestanding public building on a wide empty city square: the camera stands on the central axis and faces the main facade square on, one-point view, the facade is parallel to the image plane, all verticals and horizontals level, the whole building in the frame with open plain sky above it and at both sides, no neighbouring buildings, nothing at the left and right edges of the image but sky and paving, no trees, no people",
@@ -62,6 +67,19 @@
     "print": {
       "subject": "a printed sheet",
       "suffix": "a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper"
+    },
+    "ceramics": {
+      "subject": "a museum photograph of one ceramic piece of this style, standing whole on a plain plinth against a seamless backdrop, the whole piece in the frame and in sharp focus, soft even studio light, a three-quarter view at eye height",
+      "drop": "tasting menu|dish on"
+    },
+    "fashion": {
+      "subject": "a catalogue photograph of the one signature piece of this style alone against a plain seamless studio backdrop, the whole piece in the frame and in sharp focus, soft even light",
+      "drop": "^no logo$|dashboard|car design|\\bhands\\b"
+    },
+    "cuisine": {
+      "subject": "a food photograph of one plated dish of this style on a table, seen from above at a slight angle, the whole plate in the frame and in sharp focus, natural light",
+      "suffix": "no readable text",
+      "drop": "menu board|blackboard|hand-written|manuscript"
     }
   },
   "styles": {
@@ -227,6 +245,65 @@
     },
     "film/documentary-verite": {
       "drop": "burned-out window|flash frame"
+    },
+    "fashion/american-pocket-watch": {
+      "subject": "a catalogue photograph of one open pocket watch lying flat on a plain plinth with its chain coiled beside it, against a seamless studio backdrop, the whole watch in sharp focus, soft even light"
+    },
+    "ceramics/chef-studio-tableware": {
+      "drop": "hand-thrown|finger marks",
+      "scene": "one wheel-thrown stoneware restaurant plate with an uneven soft rim, upright on a small wooden plate stand"
+    },
+    "ceramics/rhenish-salt-glaze-stoneware": {
+      "drop": "face mask jug",
+      "scene": "one round-bellied salt-glazed stoneware jug, a small bearded mask moulded in low relief flat on its neck"
+    },
+    "ceramics/scandinavian-modern-tableware": {
+      "drop": "artist's hand mark",
+      "scene": "a neat stack of five plates with one bowl on top, standing on a wood tray"
+    },
+    "fashion/art-deco-watch": {
+      "drop": "Paris",
+      "subject": "a catalogue photograph of one 1920s rectangular wristwatch lying flat on a plain plinth, its dial plain with Roman numerals only, against a plain seamless studio backdrop, a single centred front view, the whole piece in the frame and in sharp focus, soft even light"
+    },
+    "fashion/brass-era-car": {
+      "drop": "brass lamps",
+      "scene": "two small brass headlamps mounted low on the front of the car"
+    },
+    "fashion/country-sporting-tweed": {
+      "drop": "portrait|misty moor",
+      "subject": "a catalogue photograph of one tweed hacking jacket with plus-fours on a tailor's dress form, against a plain seamless studio backdrop, a single centred front view, the whole piece in the frame and in sharp focus, soft even light"
+    },
+    "fashion/crinoline-and-bustle-dress": {
+      "drop": "1880s bustle dress|portrait|bonnet|gloves|salon",
+      "subject": "a catalogue photograph of one 1860s crinoline gown on a dressmaker's dress form, against a plain seamless studio backdrop, a single centred front view, the whole piece in the frame and in sharp focus, soft even light"
+    },
+    "fashion/empire-line-dress": {
+      "drop": "portrait|interior|shawl",
+      "subject": "a catalogue photograph of one white muslin Regency gown on a dressmaker's dress form, against a plain seamless studio backdrop, a single centred front view, the whole piece in the frame and in sharp focus, soft even light"
+    },
+    "fashion/english-bespoke-tailoring": {
+      "drop": "overcoat|workroom|pick-stitching|chalk",
+      "subject": "a catalogue photograph of one navy bespoke two-piece suit on a tailor's dress form, against a plain seamless studio backdrop, a single centred front view, the whole piece in the frame and in sharp focus, soft even light"
+    },
+    "fashion/garland-style-jewellery": {
+      "drop": "portrait|sautoir|dog collar",
+      "subject": "a catalogue photograph of one Edwardian platinum and diamond tiara on a dark velvet stand, against a plain seamless studio backdrop, a single centred front view, the whole piece in the frame and in sharp focus, soft even light"
+    },
+    "fashion/georgian-jewellery": {
+      "drop": "portrait|earrings|brooch|studs|giardinetto|ribbon",
+      "subject": "a catalogue photograph of one Georgian rivière necklace laid flat on dark velvet, seen from above, the whole necklace in the frame and in sharp focus, soft even light"
+    },
+    "fashion/luxury-steel-sports-watch": {
+      "drop": "hand finished",
+      "subject": "a catalogue photograph of one steel sports watch with its bracelet lying flat on a plain plinth, against a plain seamless studio backdrop, a single centred front view, the whole piece in the frame and in sharp focus, soft even light"
+    },
+    "fashion/mid-century-eyewear": {
+      "drop": "portrait|browline|aviator|panto",
+      "subject": "a catalogue photograph of one pair of 1950s cat-eye glasses lying folded on a plain plinth, against a plain seamless studio backdrop, a single centred front view, the whole piece in the frame and in sharp focus, soft even light"
+    },
+    "fashion/victorian-sentimental-jewellery": {
+      "drop": "dress|locket|cameo|snake|seed pearl|ring|date",
+      "subject": "a catalogue photograph of one Victorian Whitby jet mourning brooch on dark velvet, seen from above, the whole brooch in the frame and in sharp focus, soft even light"
     }
   }
 }

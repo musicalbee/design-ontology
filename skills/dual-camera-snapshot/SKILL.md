@@ -1,8 +1,8 @@
 ---
 name: dual-camera-snapshot
-description: "Apply the Dual Camera Snapshot style (2022–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: bereal, dual camera, front and back camera, selfie inset, no filter, late post."
+description: "Apply the Dual Camera Snapshot style (2022–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: bereal, dual camera, front and back camera, selfie inset, no filter, late post."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "bereal"
   - "dual camera"
@@ -26,7 +26,7 @@ vector_profile:
 
 One post made of two photos from one moment: the back camera fills the frame and the front camera sits in a small inset. A time stamp and a late mark show that it was not planned.
 
-**Period:** 2022–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** BeReal look, Front and back photo, Late photo
+**Period:** 2022–now · **Era:** Short video and AI · **Domain:** Internet · **Also called:** BeReal look, Front and back photo, Late photo
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Dual Camera Snapshot, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Dual Camera Snapshot, you MUST:
 
 1. Take both photos in one 2-second window: the back camera fills the frame and the front camera fills an inset.
 2. Place the inset at the top left, 28% of the frame width, with a 2px white border and a 12px radius.

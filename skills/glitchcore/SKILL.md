@@ -1,8 +1,8 @@
 ---
 name: glitchcore
-description: "Apply the Glitchcore style (2019–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: glitchcore, digicore edit, datamosh, glitch edit, channel split, chaotic maximalism."
+description: "Apply the Glitchcore style (2019–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: glitchcore, digicore edit, datamosh, glitch edit, channel split, chaotic maximalism."
 domain: internet
-era: contemporary-spatial
+era: feed-mobile
 triggers:
   - "glitchcore"
   - "digicore edit"
@@ -25,7 +25,7 @@ vector_profile:
 
 Fast, crowded edits with split colour channels, repeated frames, datamosh, bright flash and old web clutter. It grew with the digicore music scene on SoundCloud, Discord and short-video apps.
 
-**Period:** 2019–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Glitch core, Digicore visuals
+**Period:** 2019–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Glitch core, Digicore visuals
 
 ## When to load this skill
 
@@ -40,7 +40,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Glitchcore, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Glitchcore, you MUST:
 
 1. Split the colour channels by 4px to 12px in opposite directions on all key images.
 2. Cut the edit every 4 to 12 frames at 30 fps and repeat the same frame 2 to 4 times.
@@ -276,7 +276,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`minimalism-web`](../minimalism-web/SKILL.md)
 - **Mixes well with:** [`hyperpop-visual`](../hyperpop-visual/SKILL.md), [`pixel-art-web`](../pixel-art-web/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
 - **Kin in another domain:** [`music-video`](../music-video/SKILL.md), [`vertical-short-form`](../vertical-short-form/SKILL.md)
-- **Nearest by vector profile:** [`cyberdelia`](../cyberdelia/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md), [`clickbait-thumbnail`](../clickbait-thumbnail/SKILL.md)
+- **Nearest by vector profile:** [`cyberdelia`](../cyberdelia/SKILL.md), [`clickbait-thumbnail`](../clickbait-thumbnail/SKILL.md), [`hyperpop-visual`](../hyperpop-visual/SKILL.md)
 
 ## Emotional target
 

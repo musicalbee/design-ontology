@@ -1,8 +1,8 @@
 ---
 name: kidcore
-description: "Apply the Kidcore style (2019–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: kidcore, rainbowcore, nostalgiacore, 90s kid, stickers, toy aesthetic."
+description: "Apply the Kidcore style (2019–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: kidcore, rainbowcore, nostalgiacore, 90s kid, stickers, toy aesthetic."
 domain: internet
-era: contemporary-spatial
+era: feed-mobile
 triggers:
   - "kidcore"
   - "rainbowcore"
@@ -26,7 +26,7 @@ vector_profile:
 
 Primary colours, rainbows, stickers, toys, cartoon animals and 1990s kid-show graphics, stacked in dense collage. It uses the childhood of the 1980s and 1990s as a happy, loud look.
 
-**Period:** 2019–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Kid core, Rainbowcore, Nostalgiacore
+**Period:** 2019–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Kid core, Rainbowcore, Nostalgiacore
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Kidcore, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Kidcore, you MUST:
 
 1. Use saturated primaries: red (#E8352E), blue (#2D5BFF), yellow (#FFD21F) and green (#2DBE60), on a white or pale yellow ground.
 2. Fill 60% to 80% of the frame: stickers, stars, smileys, toys and rainbow arcs overlap by 8px to 24px.
@@ -282,9 +282,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`scrapbook-ui`](../scrapbook-ui/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
-- **Mixes well with:** [`barbiecore`](../barbiecore/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md)
-- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`dopamine-decor`](../dopamine-decor/SKILL.md), [`memphis-interior`](../memphis-interior/SKILL.md), [`memphis-product`](../memphis-product/SKILL.md)
-- **Nearest by vector profile:** [`cyberdelia`](../cyberdelia/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md)
+- **Mixes well with:** [`barbiecore`](../barbiecore/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md)
+- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`dopamine-decor`](../dopamine-decor/SKILL.md), [`memphis-interior`](../memphis-interior/SKILL.md), [`memphis-product`](../memphis-product/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md)
+- **Nearest by vector profile:** [`cyberdelia`](../cyberdelia/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`clickbait-thumbnail`](../clickbait-thumbnail/SKILL.md)
 
 ## Emotional target
 

@@ -16307,64 +16307,16 @@
   }
  ],
  "styles": {
-  "victorian-web": {
-   "name": "Victorian Web",
-   "domain": "internet"
-  },
-  "art-nouveau-web": {
-   "name": "Art Nouveau (web)",
-   "domain": "internet"
-  },
-  "de-stijl-web": {
-   "name": "De Stijl (web)",
-   "domain": "internet"
-  },
-  "bauhaus": {
-   "name": "Bauhaus",
-   "domain": "internet"
-  },
-  "constructivism-web": {
-   "name": "Constructivism (web)",
-   "domain": "internet"
-  },
-  "art-deco-web": {
-   "name": "Art Deco (web)",
-   "domain": "internet"
-  },
-  "mid-century-modern": {
-   "name": "Mid-Century Modern",
-   "domain": "internet"
-  },
-  "swiss-international": {
-   "name": "Swiss International Style",
-   "domain": "internet"
-  },
-  "japanese-graphic-modernism": {
-   "name": "Japanese Graphic Modernism",
-   "domain": "internet"
-  },
-  "rams-functionalism-ui": {
-   "name": "Rams Functionalism (UI)",
-   "domain": "internet"
-  },
-  "pop-art-web": {
-   "name": "Pop Art (web)",
-   "domain": "internet"
-  },
-  "space-age": {
-   "name": "Space Age Design",
-   "domain": "internet"
-  },
-  "psychedelic": {
-   "name": "Psychedelic",
-   "domain": "internet"
-  },
   "cassette-futurism": {
    "name": "Cassette Futurism",
    "domain": "internet"
   },
   "punk-zine": {
    "name": "Punk Zine",
+   "domain": "internet"
+  },
+  "usenet-thread": {
+   "name": "Usenet Thread",
    "domain": "internet"
   },
   "memphis-design": {
@@ -16395,6 +16347,10 @@
    "name": "GeoCities Homepage",
    "domain": "internet"
   },
+  "bulletin-board-forum": {
+   "name": "Bulletin Board Forum",
+   "domain": "internet"
+  },
   "portal-table-layout": {
    "name": "Portal Table Layout",
    "domain": "internet"
@@ -16415,6 +16371,10 @@
    "name": "Apple Aqua",
    "domain": "internet"
   },
+  "anonymous-imageboard": {
+   "name": "Anonymous Imageboard",
+   "domain": "internet"
+  },
   "myspace-profile": {
    "name": "Myspace Profile",
    "domain": "internet"
@@ -16429,6 +16389,10 @@
   },
   "web-2-0-gloss": {
    "name": "Web 2.0 Gloss",
+   "domain": "internet"
+  },
+  "reddit-thread": {
+   "name": "Reddit Thread",
    "domain": "internet"
   },
   "impact-image-macro": {
@@ -16577,6 +16541,10 @@
   },
   "deepdream-psychedelia": {
    "name": "DeepDream Psychedelia",
+   "domain": "internet"
+  },
+  "discord-server": {
+   "name": "Discord Server",
    "domain": "internet"
   },
   "tweet-screenshot-meme": {
@@ -17458,6 +17426,58 @@
   "risograph-print": {
    "name": "Risograph print",
    "domain": "print"
+  },
+  "victorian-web": {
+   "name": "Victorian Web",
+   "domain": "graphic-movement"
+  },
+  "art-nouveau-web": {
+   "name": "Art Nouveau (web)",
+   "domain": "graphic-movement"
+  },
+  "de-stijl-web": {
+   "name": "De Stijl (web)",
+   "domain": "graphic-movement"
+  },
+  "bauhaus": {
+   "name": "Bauhaus",
+   "domain": "graphic-movement"
+  },
+  "constructivism-web": {
+   "name": "Constructivism (web)",
+   "domain": "graphic-movement"
+  },
+  "art-deco-web": {
+   "name": "Art Deco (web)",
+   "domain": "graphic-movement"
+  },
+  "mid-century-modern": {
+   "name": "Mid-Century Modern",
+   "domain": "graphic-movement"
+  },
+  "swiss-international": {
+   "name": "Swiss International Style",
+   "domain": "graphic-movement"
+  },
+  "japanese-graphic-modernism": {
+   "name": "Japanese Graphic Modernism",
+   "domain": "graphic-movement"
+  },
+  "rams-functionalism-ui": {
+   "name": "Rams Functionalism (UI)",
+   "domain": "graphic-movement"
+  },
+  "pop-art-web": {
+   "name": "Pop Art (web)",
+   "domain": "graphic-movement"
+  },
+  "space-age": {
+   "name": "Space Age Design",
+   "domain": "graphic-movement"
+  },
+  "psychedelic": {
+   "name": "Psychedelic",
+   "domain": "graphic-movement"
   },
   "georgian-neoclassical-manufacture": {
    "name": "Georgian neoclassical manufacture",
@@ -45715,6 +45735,11 @@
    "process": "technique:baffle-quilt"
   },
   {
+   "style": "bulletin-board-forum",
+   "domain": "",
+   "process": "technique:bbcode-markup"
+  },
+  {
    "style": "bias-cut-glamour",
    "domain": "",
    "process": "technique:bias-cutting"
@@ -45888,6 +45913,11 @@
    "style": "novoandina-and-nikkei",
    "domain": "",
    "process": "technique:ceviche-curing"
+  },
+  {
+   "style": "discord-server",
+   "domain": "",
+   "process": "technique:chat-channel"
   },
   {
    "style": "renaissance-painting",
@@ -47725,6 +47755,11 @@
    "process": "technique:polar-fleece-knit"
   },
   {
+   "style": "reddit-thread",
+   "domain": "",
+   "process": "technique:post-voting"
+  },
+  {
    "style": "delftware",
    "domain": "",
    "process": "technique:pounce-transfer"
@@ -48398,6 +48433,21 @@
    "style": "kaomoji-emoticon",
    "domain": "",
    "process": "technique:text-emoticon"
+  },
+  {
+   "style": "anonymous-imageboard",
+   "domain": "",
+   "process": "technique:thread-bumping"
+  },
+  {
+   "style": "usenet-thread",
+   "domain": "",
+   "process": "technique:threaded-discussion"
+  },
+  {
+   "style": "reddit-thread",
+   "domain": "",
+   "process": "technique:threaded-discussion"
   },
   {
    "style": "classical-hollywood",

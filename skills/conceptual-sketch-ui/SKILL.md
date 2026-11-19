@@ -1,8 +1,8 @@
 ---
 name: conceptual-sketch-ui
-description: "Apply the Conceptual Sketch UI style (2015–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: sketch, wireframe, hand drawn, notebook, blueprint, annotations."
+description: "Apply the Conceptual Sketch UI style (2015–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: sketch, wireframe, hand drawn, notebook, blueprint, annotations."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "sketch"
   - "wireframe"
@@ -26,7 +26,7 @@ vector_profile:
 
 Pencil and ink lines, rough outlines, margin notes, arrows and annotations on a pale ground. It shows an idea before it is finished, and feels like a designer's notebook.
 
-**Period:** 2015–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Wireframe aesthetic, Sketchbook web, Hand-drawn blueprint
+**Period:** 2015–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Wireframe aesthetic, Sketchbook web, Hand-drawn blueprint
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Conceptual Sketch UI, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Conceptual Sketch UI, you MUST:
 
 1. Draw every shape with a wobbly line: a stroke of 1.5px to 2.5px with a roughness of 1px to 2px and no perfect curve.
 2. Use a paper ground (#FAF8F2) with a grid of 24px at 6% opacity, or a dot grid of 24px.
@@ -275,8 +275,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more formal**: move toward [`flat-design`](../flat-design/SKILL.md) (Flat Design). Replace the sketch lines by solid fills of 2px radius.
 
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
-- **Mixes well with:** [`scrapbook-ui`](../scrapbook-ui/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
-- **Nearest by vector profile:** [`barbiecore`](../barbiecore/SKILL.md), [`cyberpunk-web`](../cyberpunk-web/SKILL.md), [`space-age`](../space-age/SKILL.md)
+- **Mixes well with:** [`scrapbook-ui`](../scrapbook-ui/SKILL.md)
+- **Kin in another domain:** [`swiss-international`](../swiss-international/SKILL.md)
+- **Nearest by vector profile:** [`barbiecore`](../barbiecore/SKILL.md), [`cyberpunk-web`](../cyberpunk-web/SKILL.md), [`flash-intro-site`](../flash-intro-site/SKILL.md)
 
 ## Emotional target
 

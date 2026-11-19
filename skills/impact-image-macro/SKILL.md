@@ -1,8 +1,8 @@
 ---
 name: impact-image-macro
-description: "Apply the Impact image macro style (2006–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: impact meme, image macro, top text bottom text, advice animal, classic meme, meme caption."
+description: "Apply the Impact image macro style (2006–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: impact meme, image macro, top text bottom text, advice animal, classic meme, meme caption."
 domain: internet
-era: postmodern-early-digital
+era: web-2-social
 triggers:
   - "impact meme"
   - "image macro"
@@ -25,7 +25,7 @@ vector_profile:
 
 A square photo or a cartoon with white capital text in a thick black outline at the top and the bottom. The Impact typeface and the format spread on forums and 4chan from 2006.
 
-**Period:** 2006–now · **Era:** Postmodern & Early Digital · **Domain:** Internet · **Also called:** Impact meme, Top-text bottom-text meme, Advice Animal
+**Period:** 2006–now · **Era:** Web 2.0 and the social web · **Domain:** Internet · **Also called:** Impact meme, Top-text bottom-text meme, Advice Animal
 
 ## When to load this skill
 
@@ -39,7 +39,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Impact image macro, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Impact image macro, you MUST:
 
 1. Set text in Impact or an open look-alike (Anton, Oswald 700) in white capitals.
 2. Add a black outline of 3px to 4px per 40px of text, drawn outside the glyph.
@@ -266,7 +266,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`label-meme`](../label-meme/SKILL.md), [`rage-comic`](../rage-comic/SKILL.md), [`starter-pack`](../starter-pack/SKILL.md), [`tweet-screenshot-meme`](../tweet-screenshot-meme/SKILL.md)
 - **Was rejected by:** [`deep-fried-meme`](../deep-fried-meme/SKILL.md), [`surreal-meme`](../surreal-meme/SKILL.md)
-- **Mixes well with:** [`demotivational-poster`](../demotivational-poster/SKILL.md)
+- **Mixes well with:** [`anonymous-imageboard`](../anonymous-imageboard/SKILL.md), [`demotivational-poster`](../demotivational-poster/SKILL.md)
 - **Kin in another domain:** [`pop-art-painting`](../pop-art-painting/SKILL.md)
 - **Nearest by vector profile:** [`clean-girl`](../clean-girl/SKILL.md), [`demotivational-poster`](../demotivational-poster/SKILL.md), [`cohesive-feed-grid`](../cohesive-feed-grid/SKILL.md)
 

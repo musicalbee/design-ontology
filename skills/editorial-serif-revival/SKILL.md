@@ -1,8 +1,8 @@
 ---
 name: editorial-serif-revival
-description: "Apply the Editorial Serif Revival style (2021–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: editorial, serif, magazine, new york times style, fraunces, instrument serif."
+description: "Apply the Editorial Serif Revival style (2021–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: editorial, serif, magazine, new york times style, fraunces, instrument serif."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "editorial"
   - "serif"
@@ -27,7 +27,7 @@ vector_profile:
 
 Large expressive serif headlines, warm off-white paper, a small sans for labels and a restrained palette. It came back as a reaction to the geometric sans-serif default of the SaaS web.
 
-**Period:** 2021–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Serif web, Magazine web, New editorial
+**Period:** 2021–now · **Era:** Short video and AI · **Domain:** Internet · **Also called:** Serif web, Magazine web, New editorial
 
 ## When to load this skill
 
@@ -42,7 +42,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Editorial Serif Revival, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Editorial Serif Revival, you MUST:
 
 1. Set headlines in a high-contrast serif at 56px to 120px with a leading of 0.95 to 1.05 and tracking of -0.02em to -0.04em.
 2. Use a warm off-white ground (#F6F1E7) and near-black ink (#1A1714); one muted accent (terracotta #A64B25 or green) covers less than 8% of the surface.
@@ -276,10 +276,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more raw**: move toward [`brutalist-web`](../brutalist-web/SKILL.md) (Brutalist Web (2014)). Set body in the default serif, remove the paper tone and add 2px rules.
 - If the user asks for **more digital**: move toward [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md) (Dark-Mode Developer Tool). Switch to a near-black ground and add a mono face for labels.
 
-- **Came from (go here for a more orthodox version):** [`swiss-international`](../swiss-international/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`corporate-memphis`](../corporate-memphis/SKILL.md), [`flat-design`](../flat-design/SKILL.md)
 - **Mixes well with:** [`ai-chat-ui`](../ai-chat-ui/SKILL.md), [`luxury-typography-web`](../luxury-typography-web/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md)
-- **Kin in another domain:** [`risograph-print`](../risograph-print/SKILL.md)
+- **Kin in another domain:** [`risograph-print`](../risograph-print/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
 - **Nearest by vector profile:** [`rage-comic`](../rage-comic/SKILL.md), [`word-caption-clip`](../word-caption-clip/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
 
 ## Emotional target

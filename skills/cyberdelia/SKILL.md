@@ -1,8 +1,8 @@
 ---
 name: cyberdelia
-description: "Apply the Cyberdelia style (1988–1996) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: cyberdelia, cyberdelic, cyber psychedelic, rave flyer, fractal, hackers 1995."
+description: "Apply the Cyberdelia style (1988–1996) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: cyberdelia, cyberdelic, cyber psychedelic, rave flyer, fractal, hackers 1995."
 domain: internet
-era: postmodern-early-digital
+era: terminals-bbs
 triggers:
   - "cyberdelia"
   - "cyberdelic"
@@ -27,7 +27,7 @@ vector_profile:
 
 The psychedelic side of early cyberculture. It joins cyberpunk with acid colour: fractals, kaleidoscopes, posterised Photoshop collage, early 3D type and rave flyers. It takes its name from the club in the film Hackers (1995).
 
-**Period:** 1988–1996 · **Era:** Postmodern & Early Digital · **Domain:** Internet · **Also called:** Cyber-psychedelia, Cyberdelic, Rave cyberpunk
+**Period:** 1988–1996 · **Era:** Terminals, BBS and Usenet · **Domain:** Internet · **Also called:** Cyber-psychedelia, Cyberdelic, Rave cyberpunk
 
 ## When to load this skill
 
@@ -42,7 +42,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Cyberdelia, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Cyberdelia, you MUST:
 
 1. Fill the ground with a fractal or kaleidoscope tile that repeats 6 or 8 times around a centre, at 40% to 60% opacity.
 2. Set a palette of 4 acid hues (#FF2BD6, #19F0FF, #B6FF1A, #FF8A00) on a deep violet ground (#12002B).
@@ -245,7 +245,7 @@ A pen-sized spray gun that lays paint in soft, even tones; with masks, it makes 
 
 ### Photomontage (montage)
 
-Fragments of photographs, cut and joined on one sheet, so that the joins make a statement that no single photograph makes. Origin: internet, Berlin, 1918.
+Fragments of photographs, cut and joined on one sheet, so that the joins make a statement that no single photograph makes. Origin: graphic movements, Berlin, 1918.
 
 - Join 3 to 12 photographic fragments on one ground and keep the cut edges hard and visible.
 - Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.
@@ -277,10 +277,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more analogue**: move toward [`psychedelic`](../psychedelic/SKILL.md) (Psychedelic). Replace the posterised digital effects with hand-drawn lettering and warm poster colour; keep the repeated patterns.
 - If the user asks for **cleaner**: move toward [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md) (Y2K Aesthetic). Switch to silver and baby blue on a light ground with pill shapes; keep one chrome headline.
 
-- **Came from (go here for a more orthodox version):** [`psychedelic`](../psychedelic/SKILL.md)
 - **Led to (go here for a newer version):** [`flash-intro-site`](../flash-intro-site/SKILL.md), [`geocities-homepage`](../geocities-homepage/SKILL.md)
 - **Mixes well with:** [`cassette-futurism`](../cassette-futurism/SKILL.md), [`net-art-browser`](../net-art-browser/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
-- **Kin in another domain:** [`party-flash`](../party-flash/SKILL.md)
+- **Kin in another domain:** [`party-flash`](../party-flash/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md)
 - **Nearest by vector profile:** [`clickbait-thumbnail`](../clickbait-thumbnail/SKILL.md), [`glitchcore`](../glitchcore/SKILL.md), [`hyperpop-visual`](../hyperpop-visual/SKILL.md)
 
 ## Emotional target
