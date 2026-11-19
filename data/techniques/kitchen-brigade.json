@@ -1,0 +1,44 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "kitchen-brigade",
+  "name": "Kitchen brigade",
+  "aliases": [
+    "Brigade de cuisine",
+    "Partie system"
+  ],
+  "kind": "process",
+  "summary": "A kitchen split into stations, each with one task and one chief, under a chef de cuisine; a dish passes from station to station like a part on a line.",
+  "how": [
+    "Give each station one task: sauce, roast, fish, vegetables, cold kitchen or pastry.",
+    "Call each order from the pass, and let each station start its part at the call.",
+    "Assemble the plate at the pass, and let the chef check it before it leaves."
+  ],
+  "origin": {
+    "domain": "cuisine",
+    "year": 1890,
+    "circa": true,
+    "where": "Savoy Hotel, London",
+    "note": "Escoffier organised the hotel kitchen into parties, so that a dish was ready in minutes, not hours."
+  },
+  "adoptions": [
+    {
+      "domain": "cuisine",
+      "year": 1965,
+      "circa": true,
+      "via": "Nouvelle cuisine kept the stations and gave the plating to the chef at the pass.",
+      "styles": [
+        "nouvelle-cuisine"
+      ]
+    }
+  ],
+  "styles": [
+    "cuisine-classique",
+    "nouvelle-cuisine"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Brigade de cuisine",
+      "url": "https://en.wikipedia.org/wiki/Brigade_de_cuisine"
+    }
+  ]
+}

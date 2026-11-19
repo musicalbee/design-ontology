@@ -1,0 +1,351 @@
+{
+  "$schema": "../../../schema/domains/cuisine.schema.json",
+  "id": "renaissance-banquet",
+  "domain": "cuisine",
+  "name": "Renaissance banquet",
+  "aliases": [
+    "Scappi cuisine",
+    "Italian court banquet"
+  ],
+  "era_id": "court-and-banquet",
+  "branch": "haute",
+  "time_period": {
+    "start": 1500,
+    "end": 1650,
+    "label": "1500–1650"
+  },
+  "region": "Papal Rome, Venice and the courts of Italy and France",
+  "summary": "The feast of the Italian court as Bartolomeo Scappi set it down in 1570. A kitchen of many cooks sends out many dishes at once: pies, roasts, candied fruit and sculpture in sugar. The cook uses the fork, the sugar and the spit with great skill.",
+  "philosophy": {
+    "core_thesis": "Show the power of the host with the number, the skill and the beauty of the dishes, and let sugar and pastry take the shape of buildings and beasts.",
+    "design_principles": [
+      "Set three or four services of up to 30 dishes each, and set them in a pattern on the table.",
+      "Use sugar in the savoury dish and in the sculpture: marzipan, comfits and candied peel.",
+      "Bake game and meat in a pastry case, and decorate the case with a pattern of dough.",
+      "Roast on the spit with a sauce of citrus juice, and dress a roast bird in its own feathers.",
+      "Carve the roast at the table; a carver trained in the art cuts each bird.",
+      "Lay a fork, a knife and a spoon at the place of each guest, and a clean napkin.",
+      "Keep a clean and ordered kitchen: Scappi draws every tool and every station."
+    ],
+    "anti_patterns": [
+      "A sauce thickened only with bread and heavy spice",
+      "A plain dish without decoration",
+      "A single course on a bare table",
+      "Chilli, potato or maize in a banquet dish",
+      "A sauce of roux and butter in the French style of 1651",
+      "A dish served by hand with no fork"
+    ]
+  },
+  "vectors": {
+    "composition": 3,
+    "transformation": 4,
+    "locality": 2,
+    "richness": 4,
+    "flavour_intensity": 3
+  },
+  "plating": {
+    "composition": "A large platter holds a roast or a pie at its centre, with garnish of citrus, comfits or gilt leaf around it.",
+    "plate": "A silver or majolica platter for the dish and a pewter or silver plate for each guest.",
+    "portion": "Each guest takes a piece of 100 to 160 g and a spoon of sauce from a dish of 20 or more.",
+    "height": "A pie or a sugar piece stands 150 to 400 mm high; a roast bird lies low on its platter.",
+    "rules": [
+      "Set each service as a pattern of dishes that mirrors across the table.",
+      "Gild a pie or a sugar piece with gold leaf for the high table.",
+      "Put a sculpture of sugar at the centre of the table for the dessert service.",
+      "Serve the fruit and the sweet comfits at the end, with the cheese.",
+      "Give each guest a fork and a knife, and wipe the rim of each dish."
+    ]
+  },
+  "pantry": {
+    "primary": [
+      "cane-sugar",
+      "game-birds",
+      "veal",
+      "butter",
+      "cinnamon",
+      "lemon",
+      "truffle",
+      "nuts-seeds"
+    ],
+    "secondary": [
+      "black-pepper",
+      "clove",
+      "nutmeg",
+      "saffron",
+      "ginger",
+      "bitter-orange",
+      "artichoke",
+      "caviar",
+      "oyster",
+      "shellfish",
+      "cheese",
+      "egg",
+      "wheat",
+      "olive-oil",
+      "wine",
+      "vinegar"
+    ],
+    "avoid": [
+      "chilli",
+      "tomato",
+      "potato",
+      "maize",
+      "vanilla",
+      "fine-herbs"
+    ],
+    "rule": "Use sugar, citrus and warm spice with game and veal, and let sugar close the meal."
+  },
+  "technique": {
+    "methods": [
+      "spit-roasting",
+      "larding",
+      "pate-en-croute",
+      "aspic",
+      "boiling",
+      "deep-frying"
+    ],
+    "bases": "A veal or capon broth, a pastry dough of flour, butter and egg, a boiled sugar syrup and an almond paste.",
+    "details": "A larded roast, a pie lid with a pattern of dough, a jelly poured round a cold dish, a fruit candied in syrup, a bird on the spit dressed in feathers."
+  },
+  "flavour": {
+    "profile": "Sweet, sour and warm: sugar and cinnamon with lemon and orange juice, with roast meat and rich pastry.",
+    "balance": "Citrus juice and vinegar lift the sweet sugar and the rich fat; spice is lighter than in the medieval feast.",
+    "fat": "Butter, lard and olive oil give 30 to 45 per cent of the energy of a main dish.",
+    "seasoning": "Salt, pepper, cinnamon and sugar, with a squeeze of lemon or bitter orange on a roast."
+  },
+  "palette": {
+    "strategy": "Use the white of sugar and linen, the gold of pastry and gilt, and the deep red of wine and silver, in a hall lit by many candles.",
+    "colours": [
+      {
+        "name": "Sugar white",
+        "hex": "#F4EFE3",
+        "role": "sugar piece and cloth"
+      },
+      {
+        "name": "Pastry gold",
+        "hex": "#C98B2E",
+        "role": "baked case"
+      },
+      {
+        "name": "Roast bronze",
+        "hex": "#8C5A2B",
+        "role": "roast bird"
+      },
+      {
+        "name": "Gilt leaf",
+        "hex": "#D4AF37",
+        "role": "decoration"
+      },
+      {
+        "name": "Wine crimson",
+        "hex": "#6E1423",
+        "role": "wine and hangings"
+      },
+      {
+        "name": "Silver grey",
+        "hex": "#B5B7B9",
+        "role": "platter"
+      },
+      {
+        "name": "Citron yellow",
+        "hex": "#E5C94A",
+        "role": "candied citrus"
+      }
+    ]
+  },
+  "service": {
+    "format": "Service in removes: many dishes at once in each of three or four services, with a cold service, a hot service and a service of fruit and sugar.",
+    "courses": "Three to four services of 10 to 30 dishes, and at a great feast Scappi lists menus of over 100 dishes.",
+    "tableware": "A silver or majolica platter, a pewter plate, a fork, a knife, a spoon, a glass and a linen napkin.",
+    "setting": "A palace hall or a villa in Rome, with a long table under a canopy, musicians and a carver in the middle."
+  },
+  "signatures": {
+    "dishes": [
+      {
+        "course": "entree",
+        "dish": "Pasticcio of game in a pastry case",
+        "ingredient": "game-birds",
+        "method": "pate-en-croute"
+      },
+      {
+        "course": "roast",
+        "dish": "Pheasant on the spit, dressed in its feathers",
+        "ingredient": "game-birds",
+        "method": "spit-roasting"
+      },
+      {
+        "course": "roast",
+        "dish": "Larded veal on the spit with orange juice",
+        "ingredient": "veal",
+        "method": "larding"
+      },
+      {
+        "course": "banquet-centrepiece",
+        "dish": "Sugar sculpture of a castle with marzipan figures",
+        "ingredient": "cane-sugar",
+        "method": "boiling"
+      },
+      {
+        "course": "petits-fours",
+        "dish": "Candied lemon peel and comfits",
+        "ingredient": "lemon",
+        "method": "boiling"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Renaissance banquet table",
+      "Italian palace hall",
+      "silver platter with game pie",
+      "sugar sculpture centrepiece",
+      "gilded pastry case",
+      "roast pheasant in feathers",
+      "fork and knife at the place",
+      "linen napkin folded in a shape",
+      "candlelight",
+      "candied citrus",
+      "majolica plate",
+      "overhead view of a feast table"
+    ],
+    "negative": [
+      "tomato",
+      "potato",
+      "modern plated dish",
+      "foam",
+      "white tablecloth of a hotel",
+      "neon light",
+      "tweezers garnish"
+    ],
+    "canonical_works": [
+      {
+        "work": "Opera dell'arte del cucinare",
+        "maker": "Bartolomeo Scappi",
+        "year": 1570
+      },
+      {
+        "work": "Banquet of the papal conclave",
+        "maker": "Bartolomeo Scappi",
+        "year": 1549
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Opera di Bartolomeo Scappi: title page of the Venice edition of 1622",
+      "kind": "document",
+      "credit": "Clements Library, University of Michigan, via Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Scappi_Opera.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Scappi_Opera.jpg",
+      "maker": "Bartolomeo Scappi",
+      "year": 1622
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "medieval-court-cuisine"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "renaissance-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Delight and wonder at abundance: a table that is a stage, with the pleasure of skill, sugar and show.",
+    "keywords": [
+      "abundant",
+      "theatrical",
+      "sweet",
+      "ornate",
+      "festive"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "scappi",
+      "renaissance feast",
+      "renaissance banquet",
+      "italian court banquet",
+      "sugar sculpture",
+      "trionfo di zucchero",
+      "papal banquet",
+      "opera dell'arte del cucinare"
+    ],
+    "use_cases": [
+      "a Renaissance feast scene",
+      "a menu for a historical dinner of the 16th century",
+      "a still life of a banquet table"
+    ],
+    "avoid_when": [
+      "the brief wants a New World food",
+      "the brief wants one plate per guest",
+      "the brief wants a lean, plain dish"
+    ],
+    "modifiers": [
+      {
+        "request": "less sugar, more sauce and herbs",
+        "toward": "cuisine-francoise",
+        "how": "Drop the sugar from the roast, cut the spice, add fines herbes and make the sauce with a roux and a stock."
+      },
+      {
+        "request": "darker, with heavy spice and bread sauce",
+        "toward": "medieval-court-cuisine",
+        "how": "Remove the fork, bring back the bread trencher and thicken each sauce with soaked bread and spice."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Bartolomeo Scappi",
+      "url": "https://en.wikipedia.org/wiki/Bartolomeo_Scappi"
+    },
+    {
+      "title": "Wikipedia: Opera dell'arte del cucinare",
+      "url": "https://en.wikipedia.org/wiki/Opera_dell%27arte_del_cucinare"
+    },
+    {
+      "title": "Terence Scully (tr.), The Opera of Bartolomeo Scappi (2008)"
+    }
+  ],
+  "permutations": {
+    "course_count": {
+      "default": 4,
+      "min": 3,
+      "max": 6
+    },
+    "negative_space": {
+      "default": 0.1,
+      "min": 0,
+      "max": 0.25
+    },
+    "portion_g": {
+      "default": 130,
+      "min": 80,
+      "max": 200
+    },
+    "spice_level": {
+      "default": 2,
+      "min": 1,
+      "max": 3
+    },
+    "fat_share": {
+      "default": 0.35,
+      "min": 0.25,
+      "max": 0.5
+    },
+    "plate_colour": {
+      "default": "#B5B7B9",
+      "options": [
+        "#B5B7B9",
+        "#F4EFE3",
+        "#6E4B2A"
+      ]
+    }
+  }
+}

@@ -208,7 +208,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)
 - **Was rejected by:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md)
 - **Mixes well with:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
-- **Kin in another domain:** [`nordic-functional-outdoor`](../nordic-functional-outdoor/SKILL.md), [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md), [`scandinavian-modern-tableware`](../scandinavian-modern-tableware/SKILL.md)
+- **Kin in another domain:** [`new-nordic`](../new-nordic/SKILL.md), [`nordic-functional-outdoor`](../nordic-functional-outdoor/SKILL.md), [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md), [`scandinavian-modern-tableware`](../scandinavian-modern-tableware/SKILL.md)
 - **Nearest by vector profile:** [`shaker-object`](../shaker-object/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md)
 
 ## Emotional target

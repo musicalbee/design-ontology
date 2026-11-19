@@ -160,6 +160,17 @@
         "glaze_depth",
         "chromatic_intensity"
       ]
+    },
+    {
+      "id": "cuisine",
+      "name": "Cuisine",
+      "axes": [
+        "composition",
+        "transformation",
+        "locality",
+        "richness",
+        "flavour_intensity"
+      ]
     }
   ],
   "nodes": [
@@ -6342,6 +6353,261 @@
         "glaze_depth": 2,
         "chromatic_intensity": 2
       }
+    },
+    {
+      "id": "medieval-court-cuisine",
+      "domain": "cuisine",
+      "name": "Medieval court cuisine",
+      "era": "court-and-banquet",
+      "start": 1300,
+      "end": 1500,
+      "vectors": {
+        "composition": 2,
+        "transformation": 3,
+        "locality": 2,
+        "richness": 3,
+        "flavour_intensity": 4
+      }
+    },
+    {
+      "id": "renaissance-banquet",
+      "domain": "cuisine",
+      "name": "Renaissance banquet",
+      "era": "court-and-banquet",
+      "start": 1500,
+      "end": 1650,
+      "vectors": {
+        "composition": 3,
+        "transformation": 4,
+        "locality": 2,
+        "richness": 4,
+        "flavour_intensity": 3
+      }
+    },
+    {
+      "id": "cuisine-francoise",
+      "domain": "cuisine",
+      "name": "Cuisine françoise",
+      "era": "classical-codification",
+      "start": 1651,
+      "end": 1800,
+      "vectors": {
+        "composition": 3,
+        "transformation": 4,
+        "locality": 3,
+        "richness": 4,
+        "flavour_intensity": 2
+      }
+    },
+    {
+      "id": "grande-cuisine",
+      "domain": "cuisine",
+      "name": "Grande cuisine",
+      "era": "grande-and-classique",
+      "start": 1815,
+      "end": 1880,
+      "vectors": {
+        "composition": 4,
+        "transformation": 5,
+        "locality": 2,
+        "richness": 5,
+        "flavour_intensity": 2
+      }
+    },
+    {
+      "id": "cuisine-classique",
+      "domain": "cuisine",
+      "name": "Cuisine classique",
+      "era": "grande-and-classique",
+      "start": 1884,
+      "end": 1965,
+      "vectors": {
+        "composition": 3,
+        "transformation": 4,
+        "locality": 2,
+        "richness": 5,
+        "flavour_intensity": 2
+      }
+    },
+    {
+      "id": "haute-regionale",
+      "domain": "cuisine",
+      "name": "Haute cuisine régionale",
+      "era": "regional-and-bourgeois",
+      "start": 1925,
+      "end": 1965,
+      "vectors": {
+        "composition": 3,
+        "transformation": 3,
+        "locality": 4,
+        "richness": 5,
+        "flavour_intensity": 2
+      }
+    },
+    {
+      "id": "nouvelle-cuisine",
+      "domain": "cuisine",
+      "name": "Nouvelle cuisine",
+      "era": "nouvelle-and-new-world",
+      "start": 1965,
+      "end": 1990,
+      "vectors": {
+        "composition": 4,
+        "transformation": 3,
+        "locality": 3,
+        "richness": 3,
+        "flavour_intensity": 2
+      }
+    },
+    {
+      "id": "california-cuisine",
+      "domain": "cuisine",
+      "name": "California cuisine",
+      "era": "nouvelle-and-new-world",
+      "start": 1971,
+      "end": null,
+      "vectors": {
+        "composition": 2,
+        "transformation": 2,
+        "locality": 5,
+        "richness": 2,
+        "flavour_intensity": 2
+      }
+    },
+    {
+      "id": "cuisine-minceur",
+      "domain": "cuisine",
+      "name": "Cuisine minceur",
+      "era": "nouvelle-and-new-world",
+      "start": 1975,
+      "end": 1990,
+      "vectors": {
+        "composition": 4,
+        "transformation": 3,
+        "locality": 3,
+        "richness": 1,
+        "flavour_intensity": 2
+      }
+    },
+    {
+      "id": "naturalist-cuisine",
+      "domain": "cuisine",
+      "name": "Naturalist cuisine",
+      "era": "nouvelle-and-new-world",
+      "start": 1978,
+      "end": null,
+      "vectors": {
+        "composition": 4,
+        "transformation": 2,
+        "locality": 5,
+        "richness": 3,
+        "flavour_intensity": 3
+      }
+    },
+    {
+      "id": "pacific-rim-fusion",
+      "domain": "cuisine",
+      "name": "Pacific Rim fusion",
+      "era": "nouvelle-and-new-world",
+      "start": 1983,
+      "end": 2005,
+      "vectors": {
+        "composition": 4,
+        "transformation": 3,
+        "locality": 2,
+        "richness": 3,
+        "flavour_intensity": 3
+      }
+    },
+    {
+      "id": "novoandina-and-nikkei",
+      "domain": "cuisine",
+      "name": "Novoandina and Nikkei cuisine",
+      "era": "nouvelle-and-new-world",
+      "start": 1986,
+      "end": null,
+      "vectors": {
+        "composition": 3,
+        "transformation": 3,
+        "locality": 4,
+        "richness": 2,
+        "flavour_intensity": 4
+      }
+    },
+    {
+      "id": "molecular-gastronomy",
+      "domain": "cuisine",
+      "name": "Molecular gastronomy",
+      "era": "modernist-and-global",
+      "start": 1988,
+      "end": 2011,
+      "vectors": {
+        "composition": 4,
+        "transformation": 5,
+        "locality": 2,
+        "richness": 2,
+        "flavour_intensity": 3
+      }
+    },
+    {
+      "id": "bistronomie",
+      "domain": "cuisine",
+      "name": "Bistronomie",
+      "era": "modernist-and-global",
+      "start": 1992,
+      "end": null,
+      "vectors": {
+        "composition": 2,
+        "transformation": 3,
+        "locality": 4,
+        "richness": 4,
+        "flavour_intensity": 3
+      }
+    },
+    {
+      "id": "modernist-cuisine",
+      "domain": "cuisine",
+      "name": "Modernist cuisine",
+      "era": "modernist-and-global",
+      "start": 2011,
+      "end": null,
+      "vectors": {
+        "composition": 5,
+        "transformation": 5,
+        "locality": 2,
+        "richness": 3,
+        "flavour_intensity": 3
+      }
+    },
+    {
+      "id": "new-nordic",
+      "domain": "cuisine",
+      "name": "New Nordic cuisine",
+      "era": "terroir-and-plant",
+      "start": 2004,
+      "end": null,
+      "vectors": {
+        "composition": 4,
+        "transformation": 3,
+        "locality": 5,
+        "richness": 2,
+        "flavour_intensity": 3
+      }
+    },
+    {
+      "id": "plant-based-fine-dining",
+      "domain": "cuisine",
+      "name": "Plant-based fine dining",
+      "era": "terroir-and-plant",
+      "start": 2021,
+      "end": null,
+      "vectors": {
+        "composition": 4,
+        "transformation": 4,
+        "locality": 3,
+        "richness": 2,
+        "flavour_intensity": 3
+      }
     }
   ],
   "edges": [
@@ -6886,6 +7152,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "baroque-architecture",
+      "to": "cuisine-francoise",
+      "type": "ECHOES"
+    },
+    {
       "from": "baroque-painting",
       "to": "etching-print",
       "type": "ECHOES"
@@ -7003,6 +7274,11 @@
     {
       "from": "bauhaus-product",
       "to": "modernist-studio-jewellery",
+      "type": "ECHOES"
+    },
+    {
+      "from": "beaux-arts-architecture",
+      "to": "cuisine-classique",
       "type": "ECHOES"
     },
     {
@@ -7287,6 +7563,11 @@
     },
     {
       "from": "contemporary-craft-product",
+      "to": "new-nordic",
+      "type": "ECHOES"
+    },
+    {
+      "from": "contemporary-craft-product",
       "to": "quiet-luxury-interior",
       "type": "ECHOES"
     },
@@ -7328,6 +7609,11 @@
     {
       "from": "cubism-painting",
       "to": "deconstructivist-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "cuisine-classique",
+      "to": "victorian-interior",
       "type": "ECHOES"
     },
     {
@@ -7872,12 +8158,22 @@
     },
     {
       "from": "gothic-architecture",
+      "to": "medieval-court-cuisine",
+      "type": "ECHOES"
+    },
+    {
+      "from": "gothic-architecture",
       "to": "victorian-architectural-terracotta",
       "type": "ECHOES"
     },
     {
       "from": "gothic-architecture",
       "to": "victorian-encaustic-tiles",
+      "type": "ECHOES"
+    },
+    {
+      "from": "grande-cuisine",
+      "to": "neoclassical-architecture",
       "type": "ECHOES"
     },
     {
@@ -8377,6 +8673,11 @@
     },
     {
       "from": "minimalist-interior",
+      "to": "nouvelle-cuisine",
+      "type": "ECHOES"
+    },
+    {
+      "from": "minimalist-interior",
       "to": "rams-functionalism-ui",
       "type": "ECHOES"
     },
@@ -8433,6 +8734,16 @@
     {
       "from": "new-hollywood",
       "to": "street-photography",
+      "type": "ECHOES"
+    },
+    {
+      "from": "new-nordic",
+      "to": "scandinavian-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "new-nordic",
+      "to": "scandinavian-modern-product",
       "type": "ECHOES"
     },
     {
@@ -8633,6 +8944,11 @@
     {
       "from": "realism-painting",
       "to": "straight-photography",
+      "type": "ECHOES"
+    },
+    {
+      "from": "renaissance-architecture",
+      "to": "renaissance-banquet",
       "type": "ECHOES"
     },
     {
@@ -9196,6 +9512,16 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "bistronomie",
+      "to": "haute-regionale",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "bistronomie",
+      "to": "nouvelle-cuisine",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "blue-willow-transferware",
       "to": "creamware-neoclassical",
       "type": "EVOLVED_FROM"
@@ -9228,6 +9554,11 @@
     {
       "from": "brutalist-jewellery",
       "to": "modernist-studio-jewellery",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "california-cuisine",
+      "to": "nouvelle-cuisine",
       "type": "EVOLVED_FROM"
     },
     {
@@ -9333,6 +9664,21 @@
     {
       "from": "critical-regionalism-architecture",
       "to": "nordic-modernism-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "cuisine-classique",
+      "to": "grande-cuisine",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "cuisine-francoise",
+      "to": "renaissance-banquet",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "cuisine-minceur",
+      "to": "nouvelle-cuisine",
       "type": "EVOLVED_FROM"
     },
     {
@@ -9676,6 +10022,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "grande-cuisine",
+      "to": "cuisine-francoise",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "grandmillennial-interior",
       "to": "georgian-interior",
       "type": "EVOLVED_FROM"
@@ -9698,6 +10049,11 @@
     {
       "from": "hand-painted-texture",
       "to": "fifth-gen-low-poly",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "haute-regionale",
+      "to": "cuisine-classique",
       "type": "EVOLVED_FROM"
     },
     {
@@ -10106,8 +10462,18 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "modernist-cuisine",
+      "to": "molecular-gastronomy",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "modernist-studio-jewellery",
       "to": "arts-and-crafts-jewellery",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "molecular-gastronomy",
+      "to": "nouvelle-cuisine",
       "type": "EVOLVED_FROM"
     },
     {
@@ -10123,6 +10489,11 @@
     {
       "from": "muscle-and-pony-car",
       "to": "italian-gran-turismo",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "naturalist-cuisine",
+      "to": "nouvelle-cuisine",
       "type": "EVOLVED_FROM"
     },
     {
@@ -10166,6 +10537,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "new-nordic",
+      "to": "naturalist-cuisine",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "new-objectivity",
       "to": "straight-photography",
       "type": "EVOLVED_FROM"
@@ -10183,6 +10559,16 @@
     {
       "from": "nordic-modernism-architecture",
       "to": "international-style-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "nouvelle-cuisine",
+      "to": "cuisine-classique",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "novoandina-and-nikkei",
+      "to": "nouvelle-cuisine",
       "type": "EVOLVED_FROM"
     },
     {
@@ -10218,6 +10604,16 @@
     {
       "from": "outline-icon",
       "to": "flat-icon",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "pacific-rim-fusion",
+      "to": "california-cuisine",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "pacific-rim-fusion",
+      "to": "nouvelle-cuisine",
       "type": "EVOLVED_FROM"
     },
     {
@@ -10268,6 +10664,11 @@
     {
       "from": "pixel-art-web",
       "to": "y2k-aesthetic",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "plant-based-fine-dining",
+      "to": "new-nordic",
       "type": "EVOLVED_FROM"
     },
     {
@@ -10358,6 +10759,11 @@
     {
       "from": "regency-gilded-bone-china",
       "to": "sevres-rococo-porcelain",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "renaissance-banquet",
+      "to": "medieval-court-cuisine",
       "type": "EVOLVED_FROM"
     },
     {
@@ -10986,6 +11392,11 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "california-cuisine",
+      "to": "pacific-rim-fusion",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "camcorder-revival",
       "to": "creator-vlog",
       "type": "HYBRIDIZED_WITH"
@@ -11576,6 +11987,11 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "novoandina-and-nikkei",
+      "to": "pacific-rim-fusion",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "one-take-oner",
       "to": "slow-cinema",
       "type": "HYBRIDIZED_WITH"
@@ -11836,6 +12252,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "bistronomie",
+      "to": "cuisine-classique",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "blob-world",
       "to": "flat-design",
       "type": "REBELLED_AGAINST"
@@ -11918,6 +12339,16 @@
     {
       "from": "cubism-painting",
       "to": "renaissance-painting",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "cuisine-francoise",
+      "to": "medieval-court-cuisine",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "cuisine-minceur",
+      "to": "cuisine-classique",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -12296,6 +12727,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "molecular-gastronomy",
+      "to": "cuisine-classique",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "mumblecore",
       "to": "classical-hollywood",
       "type": "REBELLED_AGAINST"
@@ -12308,6 +12744,11 @@
     {
       "from": "music-video",
       "to": "classical-hollywood",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "naturalist-cuisine",
+      "to": "cuisine-classique",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -12343,6 +12784,11 @@
     {
       "from": "new-hollywood",
       "to": "classical-hollywood",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "new-nordic",
+      "to": "molecular-gastronomy",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -12388,6 +12834,11 @@
     {
       "from": "planimetric-symmetry",
       "to": "dogme-95",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "plant-based-fine-dining",
+      "to": "cuisine-classique",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -13326,6 +13777,31 @@
       ]
     },
     {
+      "id": "bread-thickened-sauce",
+      "name": "Bread-thickened sauce",
+      "kind": "process",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1300,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 1500,
+          "circa": true,
+          "lag_years": 200,
+          "styles": [
+            "renaissance-banquet"
+          ]
+        }
+      ],
+      "styles": [
+        "medieval-court-cuisine",
+        "renaissance-banquet"
+      ]
+    },
+    {
       "id": "breeze-block",
       "name": "Breeze block",
       "kind": "material",
@@ -13632,6 +14108,30 @@
       ]
     },
     {
+      "id": "ceviche-curing",
+      "name": "Ceviche curing",
+      "kind": "process",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1820,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 1994,
+          "circa": false,
+          "lag_years": 174,
+          "styles": [
+            "novoandina-and-nikkei"
+          ]
+        }
+      ],
+      "styles": [
+        "novoandina-and-nikkei"
+      ]
+    },
+    {
       "id": "checkerboard",
       "name": "Checkerboard",
       "kind": "motif",
@@ -13684,6 +14184,41 @@
         "dopamine-decor",
         "neo-deco-interior",
         "hollywood-regency-interior"
+      ]
+    },
+    {
+      "id": "chef-plated-course",
+      "name": "Chef-plated course",
+      "kind": "skill",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1968,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 1975,
+          "circa": true,
+          "lag_years": 7,
+          "styles": [
+            "cuisine-minceur"
+          ]
+        },
+        {
+          "domain": "cuisine",
+          "year": 1983,
+          "circa": false,
+          "lag_years": 15,
+          "styles": [
+            "pacific-rim-fusion"
+          ]
+        }
+      ],
+      "styles": [
+        "nouvelle-cuisine",
+        "cuisine-minceur",
+        "pacific-rim-fusion"
       ]
     },
     {
@@ -14932,6 +15467,30 @@
       ]
     },
     {
+      "id": "east-west-pairing",
+      "name": "East-west pairing",
+      "kind": "skill",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1983,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 1988,
+          "circa": false,
+          "lag_years": 5,
+          "styles": [
+            "pacific-rim-fusion"
+          ]
+        }
+      ],
+      "styles": [
+        "pacific-rim-fusion"
+      ]
+    },
+    {
       "id": "elastic-gusset",
       "name": "Elastic gusset",
       "kind": "material",
@@ -15306,6 +15865,31 @@
         "terminal-tui-web",
         "dark-devtool-ui",
         "brutalist-web"
+      ]
+    },
+    {
+      "id": "flourless-reduction-sauce",
+      "name": "Flourless reduction sauce",
+      "kind": "process",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1962,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 1975,
+          "circa": true,
+          "lag_years": 13,
+          "styles": [
+            "cuisine-minceur"
+          ]
+        }
+      ],
+      "styles": [
+        "nouvelle-cuisine",
+        "cuisine-minceur"
       ]
     },
     {
@@ -16292,6 +16876,65 @@
       ]
     },
     {
+      "id": "kitchen-brigade",
+      "name": "Kitchen brigade",
+      "kind": "process",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1890,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 1965,
+          "circa": true,
+          "lag_years": 75,
+          "styles": [
+            "nouvelle-cuisine"
+          ]
+        }
+      ],
+      "styles": [
+        "cuisine-classique",
+        "nouvelle-cuisine"
+      ]
+    },
+    {
+      "id": "lacto-fermentation",
+      "name": "Lacto-fermentation",
+      "kind": "process",
+      "origin": {
+        "domain": "cuisine",
+        "year": -200,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 2004,
+          "circa": false,
+          "lag_years": 2204,
+          "styles": [
+            "new-nordic"
+          ]
+        },
+        {
+          "domain": "cuisine",
+          "year": 2021,
+          "circa": false,
+          "lag_years": 2221,
+          "styles": [
+            "plant-based-fine-dining"
+          ]
+        }
+      ],
+      "styles": [
+        "new-nordic",
+        "plant-based-fine-dining"
+      ]
+    },
+    {
       "id": "laminated-timber",
       "name": "Laminated timber",
       "kind": "material",
@@ -17063,6 +17706,41 @@
       ]
     },
     {
+      "id": "market-menu",
+      "name": "Market menu",
+      "kind": "process",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1965,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 1971,
+          "circa": false,
+          "lag_years": 6,
+          "styles": [
+            "california-cuisine"
+          ]
+        },
+        {
+          "domain": "cuisine",
+          "year": 1992,
+          "circa": false,
+          "lag_years": 27,
+          "styles": [
+            "bistronomie"
+          ]
+        }
+      ],
+      "styles": [
+        "nouvelle-cuisine",
+        "california-cuisine",
+        "bistronomie"
+      ]
+    },
+    {
       "id": "match-cut",
       "name": "Match cut",
       "kind": "montage",
@@ -17163,6 +17841,31 @@
         "technical-shell-alpinism",
         "techwear",
         "gorpcore"
+      ]
+    },
+    {
+      "id": "menu-foraging",
+      "name": "Foraging for the menu",
+      "kind": "skill",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1978,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 2004,
+          "circa": false,
+          "lag_years": 26,
+          "styles": [
+            "new-nordic"
+          ]
+        }
+      ],
+      "styles": [
+        "naturalist-cuisine",
+        "new-nordic"
       ]
     },
     {
@@ -17375,6 +18078,31 @@
         "metro-ui",
         "rams-functionalism-ui",
         "ulm-braun-functionalism"
+      ]
+    },
+    {
+      "id": "mother-sauce-system",
+      "name": "Mother sauce system",
+      "kind": "process",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1833,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 1903,
+          "circa": false,
+          "lag_years": 70,
+          "styles": [
+            "cuisine-classique"
+          ]
+        }
+      ],
+      "styles": [
+        "grande-cuisine",
+        "cuisine-classique"
       ]
     },
     {
@@ -18491,6 +19219,31 @@
       ]
     },
     {
+      "id": "regional-sourcing",
+      "name": "Regional sourcing",
+      "kind": "process",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1925,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 1965,
+          "circa": true,
+          "lag_years": 40,
+          "styles": [
+            "nouvelle-cuisine"
+          ]
+        }
+      ],
+      "styles": [
+        "haute-regionale",
+        "nouvelle-cuisine"
+      ]
+    },
+    {
       "id": "risograph",
       "name": "Risograph",
       "kind": "technology",
@@ -18579,6 +19332,51 @@
       ],
       "styles": [
         "nordic-modernism-architecture"
+      ]
+    },
+    {
+      "id": "roux-and-stock-base",
+      "name": "Roux and stock base",
+      "kind": "process",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1651,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 1815,
+          "circa": false,
+          "lag_years": 164,
+          "styles": [
+            "grande-cuisine"
+          ]
+        },
+        {
+          "domain": "cuisine",
+          "year": 1884,
+          "circa": true,
+          "lag_years": 233,
+          "styles": [
+            "cuisine-classique"
+          ]
+        },
+        {
+          "domain": "cuisine",
+          "year": 1925,
+          "circa": true,
+          "lag_years": 274,
+          "styles": [
+            "haute-regionale"
+          ]
+        }
+      ],
+      "styles": [
+        "cuisine-francoise",
+        "grande-cuisine",
+        "cuisine-classique",
+        "haute-regionale"
       ]
     },
     {
@@ -18883,6 +19681,51 @@
       ]
     },
     {
+      "id": "service-a-la-francaise",
+      "name": "Service à la française",
+      "kind": "process",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1300,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 1500,
+          "circa": true,
+          "lag_years": 200,
+          "styles": [
+            "renaissance-banquet"
+          ]
+        },
+        {
+          "domain": "cuisine",
+          "year": 1651,
+          "circa": false,
+          "lag_years": 351,
+          "styles": [
+            "cuisine-francoise"
+          ]
+        },
+        {
+          "domain": "cuisine",
+          "year": 1815,
+          "circa": false,
+          "lag_years": 515,
+          "styles": [
+            "grande-cuisine"
+          ]
+        }
+      ],
+      "styles": [
+        "medieval-court-cuisine",
+        "renaissance-banquet",
+        "cuisine-francoise",
+        "grande-cuisine"
+      ]
+    },
+    {
       "id": "shadow-gap",
       "name": "Shadow gap",
       "kind": "process",
@@ -19059,6 +19902,31 @@
       "styles": [
         "solid-glyph-icon",
         "flat-icon"
+      ]
+    },
+    {
+      "id": "siphon-foam",
+      "name": "Siphon foam",
+      "kind": "tool",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1994,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 2011,
+          "circa": false,
+          "lag_years": 17,
+          "styles": [
+            "modernist-cuisine"
+          ]
+        }
+      ],
+      "styles": [
+        "molecular-gastronomy",
+        "modernist-cuisine"
       ]
     },
     {
@@ -19306,6 +20174,41 @@
       ]
     },
     {
+      "id": "sous-vide",
+      "name": "Sous vide",
+      "kind": "process",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1974,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 2000,
+          "circa": true,
+          "lag_years": 26,
+          "styles": [
+            "molecular-gastronomy"
+          ]
+        },
+        {
+          "domain": "cuisine",
+          "year": 2011,
+          "circa": false,
+          "lag_years": 37,
+          "styles": [
+            "modernist-cuisine"
+          ]
+        }
+      ],
+      "styles": [
+        "nouvelle-cuisine",
+        "molecular-gastronomy",
+        "modernist-cuisine"
+      ]
+    },
+    {
       "id": "speed-lines",
       "name": "Speed lines",
       "kind": "motif",
@@ -19327,6 +20230,31 @@
       ],
       "styles": [
         "streamline-moderne-product"
+      ]
+    },
+    {
+      "id": "spherification",
+      "name": "Spherification",
+      "kind": "process",
+      "origin": {
+        "domain": "cuisine",
+        "year": 2003,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 2011,
+          "circa": false,
+          "lag_years": 8,
+          "styles": [
+            "modernist-cuisine"
+          ]
+        }
+      ],
+      "styles": [
+        "molecular-gastronomy",
+        "modernist-cuisine"
       ]
     },
     {
@@ -19545,6 +20473,41 @@
       ],
       "styles": [
         "ai-chat-ui"
+      ]
+    },
+    {
+      "id": "sugar-sculpture",
+      "name": "Sugar sculpture",
+      "kind": "skill",
+      "origin": {
+        "domain": "cuisine",
+        "year": 1400,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "cuisine",
+          "year": 1500,
+          "circa": true,
+          "lag_years": 100,
+          "styles": [
+            "renaissance-banquet"
+          ]
+        },
+        {
+          "domain": "cuisine",
+          "year": 1815,
+          "circa": false,
+          "lag_years": 415,
+          "styles": [
+            "grande-cuisine"
+          ]
+        }
+      ],
+      "styles": [
+        "medieval-court-cuisine",
+        "renaissance-banquet",
+        "grande-cuisine"
       ]
     },
     {
@@ -22952,6 +23915,7 @@
       "hybridized_with": [],
       "echoes": [
         "blackletter",
+        "medieval-court-cuisine",
         "victorian-architectural-terracotta",
         "victorian-encaustic-tiles"
       ],
@@ -22986,6 +23950,7 @@
       "echoes": [
         "della-robbia-relief",
         "garalde-old-style",
+        "renaissance-banquet",
         "renaissance-painting"
       ],
       "nearest_by_vector": [
@@ -23020,7 +23985,8 @@
       "hybridized_with": [],
       "echoes": [
         "azulejo",
-        "baroque-painting"
+        "baroque-painting",
+        "cuisine-francoise"
       ],
       "nearest_by_vector": [
         {
@@ -23057,6 +24023,7 @@
         "didone-serif",
         "empire-line-dress",
         "georgian-neoclassical-manufacture",
+        "grande-cuisine",
         "jasperware-neoclassical",
         "parian-statuary",
         "transitional-serif"
@@ -23124,6 +24091,7 @@
       ],
       "hybridized_with": [],
       "echoes": [
+        "cuisine-classique",
         "garland-style-jewellery"
       ],
       "nearest_by_vector": [
@@ -23838,6 +24806,7 @@
       "hybridized_with": [],
       "echoes": [
         "crinoline-and-bustle-dress",
+        "cuisine-classique",
         "pictorialism",
         "slab-serif",
         "victorian-architectural-terracotta",
@@ -24123,6 +25092,7 @@
       "echoes": [
         "humanist-sans",
         "mass-timber-architecture",
+        "new-nordic",
         "nordic-modernism-architecture",
         "nordic-national-romanticism-painting",
         "organic-architecture",
@@ -24275,6 +25245,7 @@
         "minimal-wordmark",
         "minimalism-web",
         "minimalist-fashion",
+        "nouvelle-cuisine",
         "rams-functionalism-ui",
         "super-normal-product"
       ],
@@ -29120,6 +30091,7 @@
         "super-normal-product"
       ],
       "echoes": [
+        "new-nordic",
         "nordic-functional-outdoor",
         "nordic-modernism-architecture",
         "scandinavian-interior",
@@ -29402,6 +30374,7 @@
         "japandi-interior",
         "large-format-porcelain-tiles",
         "modernist-studio-jewellery",
+        "new-nordic",
         "quiet-luxury-interior",
         "wabi-sabi-web"
       ],
@@ -35146,6 +36119,565 @@
       ],
       "techniques": [
         "clay-paste-extrusion"
+      ]
+    },
+    "medieval-court-cuisine": {
+      "evolved_from": [],
+      "evolved_into": [
+        "renaissance-banquet"
+      ],
+      "rebelled_against": [],
+      "provoked": [
+        "cuisine-francoise"
+      ],
+      "hybridized_with": [],
+      "echoes": [
+        "gothic-architecture"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "renaissance-banquet",
+          "distance": 2
+        },
+        {
+          "id": "pacific-rim-fusion",
+          "distance": 2.24
+        },
+        {
+          "id": "bistronomie",
+          "distance": 2.45
+        }
+      ],
+      "techniques": [
+        "bread-thickened-sauce",
+        "service-a-la-francaise",
+        "sugar-sculpture"
+      ]
+    },
+    "renaissance-banquet": {
+      "evolved_from": [
+        "medieval-court-cuisine"
+      ],
+      "evolved_into": [
+        "cuisine-francoise"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "renaissance-architecture"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "cuisine-classique",
+          "distance": 1.41
+        },
+        {
+          "id": "cuisine-francoise",
+          "distance": 1.41
+        },
+        {
+          "id": "pacific-rim-fusion",
+          "distance": 1.73
+        }
+      ],
+      "techniques": [
+        "bread-thickened-sauce",
+        "service-a-la-francaise",
+        "sugar-sculpture"
+      ]
+    },
+    "cuisine-francoise": {
+      "evolved_from": [
+        "renaissance-banquet"
+      ],
+      "evolved_into": [
+        "grande-cuisine"
+      ],
+      "rebelled_against": [
+        "medieval-court-cuisine"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "baroque-architecture"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "cuisine-classique",
+          "distance": 1.41
+        },
+        {
+          "id": "renaissance-banquet",
+          "distance": 1.41
+        },
+        {
+          "id": "haute-regionale",
+          "distance": 1.73
+        }
+      ],
+      "techniques": [
+        "roux-and-stock-base",
+        "service-a-la-francaise"
+      ]
+    },
+    "grande-cuisine": {
+      "evolved_from": [
+        "cuisine-francoise"
+      ],
+      "evolved_into": [
+        "cuisine-classique"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "neoclassical-architecture"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "cuisine-classique",
+          "distance": 1.41
+        },
+        {
+          "id": "cuisine-francoise",
+          "distance": 2
+        },
+        {
+          "id": "renaissance-banquet",
+          "distance": 2
+        }
+      ],
+      "techniques": [
+        "mother-sauce-system",
+        "roux-and-stock-base",
+        "service-a-la-francaise",
+        "sugar-sculpture"
+      ]
+    },
+    "cuisine-classique": {
+      "evolved_from": [
+        "grande-cuisine"
+      ],
+      "evolved_into": [
+        "haute-regionale",
+        "nouvelle-cuisine"
+      ],
+      "rebelled_against": [],
+      "provoked": [
+        "bistronomie",
+        "cuisine-minceur",
+        "molecular-gastronomy",
+        "naturalist-cuisine",
+        "plant-based-fine-dining"
+      ],
+      "hybridized_with": [],
+      "echoes": [
+        "beaux-arts-architecture",
+        "victorian-interior"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "cuisine-francoise",
+          "distance": 1.41
+        },
+        {
+          "id": "grande-cuisine",
+          "distance": 1.41
+        },
+        {
+          "id": "renaissance-banquet",
+          "distance": 1.41
+        }
+      ],
+      "techniques": [
+        "kitchen-brigade",
+        "mother-sauce-system",
+        "roux-and-stock-base"
+      ]
+    },
+    "haute-regionale": {
+      "evolved_from": [
+        "cuisine-classique"
+      ],
+      "evolved_into": [
+        "bistronomie"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "bistronomie",
+          "distance": 1.73
+        },
+        {
+          "id": "cuisine-francoise",
+          "distance": 1.73
+        },
+        {
+          "id": "cuisine-classique",
+          "distance": 2.24
+        }
+      ],
+      "techniques": [
+        "regional-sourcing",
+        "roux-and-stock-base"
+      ]
+    },
+    "nouvelle-cuisine": {
+      "evolved_from": [
+        "cuisine-classique"
+      ],
+      "evolved_into": [
+        "bistronomie",
+        "california-cuisine",
+        "cuisine-minceur",
+        "molecular-gastronomy",
+        "naturalist-cuisine",
+        "novoandina-and-nikkei",
+        "pacific-rim-fusion"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "minimalist-interior"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "pacific-rim-fusion",
+          "distance": 1.41
+        },
+        {
+          "id": "cuisine-francoise",
+          "distance": 1.73
+        },
+        {
+          "id": "plant-based-fine-dining",
+          "distance": 1.73
+        }
+      ],
+      "techniques": [
+        "chef-plated-course",
+        "flourless-reduction-sauce",
+        "kitchen-brigade",
+        "market-menu",
+        "regional-sourcing",
+        "sous-vide"
+      ]
+    },
+    "california-cuisine": {
+      "evolved_from": [
+        "nouvelle-cuisine"
+      ],
+      "evolved_into": [
+        "pacific-rim-fusion"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "pacific-rim-fusion"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "naturalist-cuisine",
+          "distance": 2.45
+        },
+        {
+          "id": "new-nordic",
+          "distance": 2.45
+        },
+        {
+          "id": "bistronomie",
+          "distance": 2.65
+        }
+      ],
+      "techniques": [
+        "market-menu"
+      ]
+    },
+    "cuisine-minceur": {
+      "evolved_from": [
+        "nouvelle-cuisine"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "cuisine-classique"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "plant-based-fine-dining",
+          "distance": 1.73
+        },
+        {
+          "id": "nouvelle-cuisine",
+          "distance": 2
+        },
+        {
+          "id": "new-nordic",
+          "distance": 2.45
+        }
+      ],
+      "techniques": [
+        "chef-plated-course",
+        "flourless-reduction-sauce"
+      ]
+    },
+    "naturalist-cuisine": {
+      "evolved_from": [
+        "nouvelle-cuisine"
+      ],
+      "evolved_into": [
+        "new-nordic"
+      ],
+      "rebelled_against": [
+        "cuisine-classique"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "new-nordic",
+          "distance": 1.41
+        },
+        {
+          "id": "novoandina-and-nikkei",
+          "distance": 2.24
+        },
+        {
+          "id": "california-cuisine",
+          "distance": 2.45
+        }
+      ],
+      "techniques": [
+        "menu-foraging"
+      ]
+    },
+    "pacific-rim-fusion": {
+      "evolved_from": [
+        "california-cuisine",
+        "nouvelle-cuisine"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "california-cuisine",
+        "novoandina-and-nikkei"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "nouvelle-cuisine",
+          "distance": 1.41
+        },
+        {
+          "id": "plant-based-fine-dining",
+          "distance": 1.73
+        },
+        {
+          "id": "renaissance-banquet",
+          "distance": 1.73
+        }
+      ],
+      "techniques": [
+        "chef-plated-course",
+        "east-west-pairing"
+      ]
+    },
+    "novoandina-and-nikkei": {
+      "evolved_from": [
+        "nouvelle-cuisine"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "pacific-rim-fusion"
+      ],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "new-nordic",
+          "distance": 1.73
+        },
+        {
+          "id": "plant-based-fine-dining",
+          "distance": 2
+        },
+        {
+          "id": "naturalist-cuisine",
+          "distance": 2.24
+        }
+      ],
+      "techniques": [
+        "ceviche-curing"
+      ]
+    },
+    "molecular-gastronomy": {
+      "evolved_from": [
+        "nouvelle-cuisine"
+      ],
+      "evolved_into": [
+        "modernist-cuisine"
+      ],
+      "rebelled_against": [
+        "cuisine-classique"
+      ],
+      "provoked": [
+        "new-nordic"
+      ],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "modernist-cuisine",
+          "distance": 1.41
+        },
+        {
+          "id": "plant-based-fine-dining",
+          "distance": 1.41
+        },
+        {
+          "id": "pacific-rim-fusion",
+          "distance": 2.24
+        }
+      ],
+      "techniques": [
+        "siphon-foam",
+        "sous-vide",
+        "spherification"
+      ]
+    },
+    "bistronomie": {
+      "evolved_from": [
+        "haute-regionale",
+        "nouvelle-cuisine"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "cuisine-classique"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "haute-regionale",
+          "distance": 1.73
+        },
+        {
+          "id": "cuisine-francoise",
+          "distance": 2
+        },
+        {
+          "id": "medieval-court-cuisine",
+          "distance": 2.45
+        }
+      ],
+      "techniques": [
+        "market-menu"
+      ]
+    },
+    "modernist-cuisine": {
+      "evolved_from": [
+        "molecular-gastronomy"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "molecular-gastronomy",
+          "distance": 1.41
+        },
+        {
+          "id": "plant-based-fine-dining",
+          "distance": 2
+        },
+        {
+          "id": "pacific-rim-fusion",
+          "distance": 2.24
+        }
+      ],
+      "techniques": [
+        "siphon-foam",
+        "sous-vide",
+        "spherification"
+      ]
+    },
+    "new-nordic": {
+      "evolved_from": [
+        "naturalist-cuisine"
+      ],
+      "evolved_into": [
+        "plant-based-fine-dining"
+      ],
+      "rebelled_against": [
+        "molecular-gastronomy"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "contemporary-craft-product",
+        "scandinavian-interior",
+        "scandinavian-modern-product"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "naturalist-cuisine",
+          "distance": 1.41
+        },
+        {
+          "id": "novoandina-and-nikkei",
+          "distance": 1.73
+        },
+        {
+          "id": "plant-based-fine-dining",
+          "distance": 2.24
+        }
+      ],
+      "techniques": [
+        "lacto-fermentation",
+        "menu-foraging"
+      ]
+    },
+    "plant-based-fine-dining": {
+      "evolved_from": [
+        "new-nordic"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "cuisine-classique"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "nearest_by_vector": [
+        {
+          "id": "molecular-gastronomy",
+          "distance": 1.41
+        },
+        {
+          "id": "cuisine-minceur",
+          "distance": 1.73
+        },
+        {
+          "id": "nouvelle-cuisine",
+          "distance": 1.73
+        }
+      ],
+      "techniques": [
+        "lacto-fermentation"
       ]
     }
   }

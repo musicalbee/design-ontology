@@ -9,7 +9,7 @@
   const DOMAINS = [
     ["design.html", "Design"], ["architecture.html", "Architecture"], ["interior.html", "Interior"], ["industrial.html", "Industrial design"],
     ["photography.html", "Photography"], ["film.html", "Film and video"], ["painting.html", "Painting"],
-    ["logo.html", "Logo"], ["icon.html", "Icons"], ["typeface.html", "Typefaces"], ["print.html", "Print"], ["fashion.html", "Fashion"], ["ceramics.html", "Ceramics"], ["game.html", "Video games"],
+    ["logo.html", "Logo"], ["icon.html", "Icons"], ["typeface.html", "Typefaces"], ["print.html", "Print"], ["fashion.html", "Fashion"], ["ceramics.html", "Ceramics"], ["cuisine.html", "Cuisine"], ["game.html", "Video games"],
   ];
   const ACROSS = [["graph.html", "Lineage"], ["techniques.html", "Techniques"], ["people.html", "People"]];
   // A sub-page marks its parent domain as current: the moodboards are part of Interior.

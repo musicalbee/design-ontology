@@ -1,0 +1,297 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-ontology.dev/schema/cuisine-vocabulary.schema.json",
+  "title": "Cuisine vocabulary",
+  "description": "The closed vocabulary of the cuisine domain, with the origin of each ingredient and method, and its arrival in the kitchens of Europe. Styles refer to these ids, and the validator checks each reference.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "branches",
+    "ingredients",
+    "methods",
+    "courses"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "$comment": {
+      "type": "string"
+    },
+    "branches": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "order",
+          "scope"
+        ],
+        "properties": {
+          "id": {
+            "enum": [
+              "haute",
+              "home",
+              "pastry",
+              "bread",
+              "preservation",
+              "street",
+              "belief",
+              "drink"
+            ]
+          },
+          "name": {
+            "$ref": "core.schema.json#/$defs/shortText"
+          },
+          "order": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 8
+          },
+          "scope": {
+            "$ref": "core.schema.json#/$defs/sentence"
+          }
+        }
+      }
+    },
+    "ingredients": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "family",
+          "origin",
+          "note"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "core.schema.json#/$defs/slug"
+          },
+          "name": {
+            "$ref": "core.schema.json#/$defs/shortText"
+          },
+          "family": {
+            "enum": [
+              "grain",
+              "vegetable",
+              "fruit",
+              "legume",
+              "herb",
+              "spice",
+              "fungus",
+              "nut-seed",
+              "sugar",
+              "dairy",
+              "egg",
+              "meat",
+              "poultry",
+              "game",
+              "fish",
+              "shellfish",
+              "seaweed",
+              "fat-oil",
+              "ferment",
+              "drink",
+              "additive"
+            ]
+          },
+          "origin": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "place"
+            ],
+            "properties": {
+              "year": {
+                "type": "integer",
+                "minimum": -25000,
+                "maximum": 2100
+              },
+              "circa": {
+                "type": "boolean"
+              },
+              "place": {
+                "$ref": "core.schema.json#/$defs/shortText"
+              },
+              "by": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 120
+              }
+            },
+            "description": "Where and when the item began: the first year with a firm record of its use as food or as a kitchen method."
+          },
+          "arrival": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "place"
+            ],
+            "properties": {
+              "year": {
+                "type": "integer",
+                "minimum": -25000,
+                "maximum": 2100
+              },
+              "circa": {
+                "type": "boolean"
+              },
+              "place": {
+                "$ref": "core.schema.json#/$defs/shortText"
+              },
+              "by": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 120
+              }
+            },
+            "description": "For an ingredient or a method that began outside Europe: the first firm record of it in a European kitchen."
+          },
+          "note": {
+            "type": "string",
+            "minLength": 12,
+            "maxLength": 400
+          }
+        }
+      }
+    },
+    "methods": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "family",
+          "origin",
+          "note"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "core.schema.json#/$defs/slug"
+          },
+          "name": {
+            "$ref": "core.schema.json#/$defs/shortText"
+          },
+          "family": {
+            "enum": [
+              "dry-heat",
+              "wet-heat",
+              "fat-heat",
+              "cold",
+              "cut",
+              "emulsion",
+              "preserve",
+              "ferment",
+              "pastry",
+              "transform",
+              "plating"
+            ]
+          },
+          "origin": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "place"
+            ],
+            "properties": {
+              "year": {
+                "type": "integer",
+                "minimum": -25000,
+                "maximum": 2100
+              },
+              "circa": {
+                "type": "boolean"
+              },
+              "place": {
+                "$ref": "core.schema.json#/$defs/shortText"
+              },
+              "by": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 120
+              }
+            },
+            "description": "Where and when the item began: the first year with a firm record of its use as food or as a kitchen method."
+          },
+          "arrival": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "place"
+            ],
+            "properties": {
+              "year": {
+                "type": "integer",
+                "minimum": -25000,
+                "maximum": 2100
+              },
+              "circa": {
+                "type": "boolean"
+              },
+              "place": {
+                "$ref": "core.schema.json#/$defs/shortText"
+              },
+              "by": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 120
+              }
+            },
+            "description": "For an ingredient or a method that began outside Europe: the first firm record of it in a European kitchen."
+          },
+          "note": {
+            "type": "string",
+            "minLength": 12,
+            "maxLength": 400
+          }
+        }
+      }
+    },
+    "courses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "branches"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "core.schema.json#/$defs/slug"
+          },
+          "name": {
+            "$ref": "core.schema.json#/$defs/shortText"
+          },
+          "branches": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "enum": [
+                "haute",
+                "home",
+                "pastry",
+                "bread",
+                "preservation",
+                "street",
+                "belief",
+                "drink"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

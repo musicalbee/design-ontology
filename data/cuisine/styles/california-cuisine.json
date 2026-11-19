@@ -1,0 +1,366 @@
+{
+  "$schema": "../../../schema/domains/cuisine.schema.json",
+  "id": "california-cuisine",
+  "domain": "cuisine",
+  "name": "California cuisine",
+  "aliases": [
+    "Market-driven cuisine",
+    "Farm-to-table"
+  ],
+  "era_id": "nouvelle-and-new-world",
+  "branch": "haute",
+  "time_period": {
+    "start": 1971,
+    "end": null,
+    "label": "1971–present"
+  },
+  "region": "Berkeley and the San Francisco Bay Area",
+  "summary": "The kitchen of the local farm and the single daily menu. Alice Waters opened Chez Panisse in 1971 and cooked simple French dishes with produce from named growers, in season, with little change to the ingredient.",
+  "philosophy": {
+    "core_thesis": "The best cooking starts with the best produce: buy ripe food from known growers in season, and then do as little to it as you can.",
+    "design_principles": [
+      "Build the menu from what the farms bring that week, and write it the same day.",
+      "Offer one set menu each evening, with the same dish for each guest.",
+      "Name the farm, the farmer or the field on the menu.",
+      "Cook over a wood fire or in a wood oven where the dish allows it.",
+      "Keep each dish to three or four parts and keep the cooking simple.",
+      "Serve fruit, salad and vegetables at their ripest, with olive oil and herbs.",
+      "Plate in a rustic way on a plain plate: the food is the decoration.",
+      "Take ideas from the French and Italian country table, and use Californian produce."
+    ],
+    "anti_patterns": [
+      "Out-of-season produce flown in for the menu",
+      "A heavy sauce that hides the ingredient",
+      "A tall tower of food with a decorative garnish",
+      "A long menu with a choice for every guest",
+      "Frozen or canned produce",
+      "A plate with a smear and a foam"
+    ]
+  },
+  "vectors": {
+    "composition": 2,
+    "transformation": 2,
+    "locality": 5,
+    "richness": 2,
+    "flavour_intensity": 2
+  },
+  "plating": {
+    "composition": "The food lies loosely on the plate: a salad in a mound, a piece of fish or meat beside it, a few vegetables in their own colour.",
+    "plate": "A plain white or cream stoneware plate of 250 to 280 mm, or a shallow bowl.",
+    "portion": "A main piece of 120 to 160 g with 150 g of vegetables or salad; the plate is about 70 per cent full.",
+    "height": "The food stands 20 to 50 mm high in a loose mound; the oil or the juice runs on the plate.",
+    "rules": [
+      "Dress a salad at the last moment and leave the leaves whole or torn by hand.",
+      "Set a warm round of goat cheese on the leaves, with a crust of bread crumbs.",
+      "Show the char marks of the wood fire.",
+      "Pour a little olive oil over the dish before it goes out.",
+      "Add a whole herb sprig or a flower, never a trimmed decoration."
+    ]
+  },
+  "pantry": {
+    "primary": [
+      "seasonal-greens",
+      "orchard-fruit",
+      "olive-oil",
+      "cheese",
+      "tomato",
+      "salmon",
+      "wild-mushrooms",
+      "duck"
+    ],
+    "secondary": [
+      "garlic",
+      "fine-herbs",
+      "thyme-bay",
+      "lemon",
+      "bread",
+      "berries",
+      "egg",
+      "pork",
+      "asparagus",
+      "honey",
+      "wine",
+      "grape"
+    ],
+    "avoid": [
+      "sodium-alginate",
+      "liquid-nitrogen",
+      "xanthan-gum",
+      "soy-lecithin"
+    ],
+    "rule": "Use produce of the week from named local growers; use olive oil, herbs and lemon for the dressing, and keep each ingredient whole."
+  },
+  "technique": {
+    "methods": [
+      "wood-fire",
+      "grilling",
+      "oven-roasting",
+      "pate-en-croute",
+      "braising",
+      "knife-work",
+      "reduction"
+    ],
+    "bases": "A pot of good olive oil, a vinaigrette of vinegar and oil, a vegetable or chicken stock, a bowl of garlic and herbs and a loaf of country bread.",
+    "details": "A char mark from the wood grill, a warm goat cheese rolled in crumbs, a sprig of herb, a spoon of olive oil poured over at the pass."
+  },
+  "flavour": {
+    "profile": "Ripe, green and bright: the sweetness of fruit and tomato, the bite of young leaves and the smoke of the wood fire.",
+    "balance": "Acid from vinegar or lemon and oil lift the sweet fruit; salt is moderate, bitter comes from chicory and herbs.",
+    "fat": "Olive oil and a little butter give about 30 per cent of the energy of a main dish.",
+    "seasoning": "Salt in layers during the cooking, herbs fresh at the end, olive oil and lemon over the finished dish."
+  },
+  "palette": {
+    "strategy": "Use the colours of the produce at its ripest on a plain cream or white plate, with the brown of the wood-fire char.",
+    "colours": [
+      {
+        "name": "Cream stoneware",
+        "hex": "#F3EEE2",
+        "role": "plate"
+      },
+      {
+        "name": "Leaf green",
+        "hex": "#6E9A3C",
+        "role": "salad and herbs"
+      },
+      {
+        "name": "Tomato red",
+        "hex": "#C8412B",
+        "role": "tomato"
+      },
+      {
+        "name": "Olive oil gold",
+        "hex": "#C9A227",
+        "role": "oil"
+      },
+      {
+        "name": "Goat cheese white",
+        "hex": "#F5F1E6",
+        "role": "cheese"
+      },
+      {
+        "name": "Plum purple",
+        "hex": "#6B2D5C",
+        "role": "fruit"
+      },
+      {
+        "name": "Char brown",
+        "hex": "#4A3220",
+        "role": "grill"
+      }
+    ]
+  },
+  "service": {
+    "format": "A set menu at a fixed time, served by waiters in the dining room with an open kitchen close by; the café offers a short à la carte menu.",
+    "courses": "Four courses at a dinner: a first course of a salad, a fish or a pâté, a main course of meat, a salad or cheese and a dessert of fruit.",
+    "tableware": "Plain white or cream plates, simple glasses, a bunch of flowers on each table and a paper menu that changes each day.",
+    "setting": "A converted wooden house with a kitchen that the guests can see; the cooks and the waiters know the farms by name."
+  },
+  "signatures": {
+    "dishes": [
+      {
+        "course": "hors-doeuvre",
+        "dish": "Baked goat cheese with garden salad",
+        "ingredient": "cheese",
+        "method": "oven-roasting"
+      },
+      {
+        "course": "hors-doeuvre",
+        "dish": "Pâté en croûte",
+        "ingredient": "pork",
+        "method": "pate-en-croute"
+      },
+      {
+        "course": "main-course",
+        "dish": "Duck with olives",
+        "ingredient": "duck",
+        "method": "braising"
+      },
+      {
+        "course": "fish-course",
+        "dish": "Wood-grilled salmon with herbs",
+        "ingredient": "salmon",
+        "method": "wood-fire"
+      },
+      {
+        "course": "dessert",
+        "dish": "Plum tart",
+        "ingredient": "orchard-fruit",
+        "method": "oven-roasting"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "California market cuisine",
+      "baked goat cheese on mixed garden greens",
+      "wood-grilled fish with char marks",
+      "ripe tomatoes and olive oil",
+      "rustic cream stoneware plate",
+      "a sprig of fresh herb",
+      "hand-written daily menu",
+      "wooden house dining room with open kitchen",
+      "soft afternoon light",
+      "overhead plated dish photograph"
+    ],
+    "negative": [
+      "foam",
+      "smear of sauce",
+      "tower of food",
+      "tweezers garnish",
+      "dark brown demi-glace",
+      "gold-rimmed plate"
+    ],
+    "canonical_works": [
+      {
+        "work": "First menu of Chez Panisse (pâté en croûte, duck with olives, plum tart)",
+        "maker": "Alice Waters",
+        "year": 1971
+      },
+      {
+        "work": "Chez Panisse Menu Cookbook",
+        "maker": "Alice Waters",
+        "year": 1982
+      },
+      {
+        "work": "Baked goat cheese with garden lettuces",
+        "maker": "Alice Waters",
+        "year": 1980
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Chez Panisse, Berkeley",
+      "kind": "image",
+      "maker": "Calton",
+      "year": 2003,
+      "credit": "Calton (assumed author), via Wikimedia Commons",
+      "licence": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:ChezPanisse.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/7/74/ChezPanisse.jpg"
+    },
+    {
+      "title": "Alice Waters in Napa, 2007",
+      "kind": "image",
+      "maker": "David Sifry",
+      "year": 2007,
+      "credit": "David Sifry, via Wikimedia Commons",
+      "licence": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Alice_Waters_at_Viader_Vinyards,_Napa_(cropped).jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Alice_Waters_at_Viader_Vinyards%2C_Napa_%28cropped%29.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "nouvelle-cuisine"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "pacific-rim-fusion"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The ease of a long lunch in a garden: ripe food, warm air and no show.",
+    "keywords": [
+      "fresh",
+      "ripe",
+      "local",
+      "warm",
+      "simple",
+      "seasonal"
+    ],
+    "brand_archetypes": [
+      "innocent",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "california cuisine",
+      "farm to table",
+      "chez panisse",
+      "seasonal local menu",
+      "market menu",
+      "goat cheese salad",
+      "wood fired grill",
+      "alice waters"
+    ],
+    "use_cases": [
+      "a menu for a farm-to-table restaurant",
+      "a food photograph of a ripe salad on a rustic plate",
+      "a seasonal menu with the names of farms"
+    ],
+    "avoid_when": [
+      "the brief wants a heavy classic sauce",
+      "the brief wants a precise architectural plate",
+      "the brief wants spice from a global pantry"
+    ],
+    "modifiers": [
+      {
+        "request": "more Asian, with soy and ginger",
+        "toward": "pacific-rim-fusion",
+        "how": "Keep the market produce and the wood fire; add soy, ginger, miso and sesame to the dressings."
+      },
+      {
+        "request": "more French and formal",
+        "toward": "nouvelle-cuisine",
+        "how": "Plate each dish in the kitchen on a large plate, add a light butter sauce, and cut the garnish."
+      },
+      {
+        "request": "only plants",
+        "toward": "plant-based-fine-dining",
+        "how": "Remove the duck, the pork and the salmon; make each course from vegetables, grains and fruit."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: California cuisine",
+      "url": "https://en.wikipedia.org/wiki/California_cuisine"
+    },
+    {
+      "title": "Wikipedia: Chez Panisse",
+      "url": "https://en.wikipedia.org/wiki/Chez_Panisse"
+    },
+    {
+      "title": "Wikipedia: Alice Waters",
+      "url": "https://en.wikipedia.org/wiki/Alice_Waters"
+    }
+  ],
+  "permutations": {
+    "course_count": {
+      "default": 4,
+      "min": 3,
+      "max": 6
+    },
+    "negative_space": {
+      "default": 0.3,
+      "min": 0.15,
+      "max": 0.45
+    },
+    "portion_g": {
+      "default": 280,
+      "min": 200,
+      "max": 380
+    },
+    "spice_level": {
+      "default": 1,
+      "min": 0,
+      "max": 2
+    },
+    "fat_share": {
+      "default": 0.3,
+      "min": 0.2,
+      "max": 0.4
+    },
+    "plate_colour": {
+      "default": "#F3EEE2",
+      "options": [
+        "#F3EEE2",
+        "#FFFFFF",
+        "#D9D2C3"
+      ]
+    }
+  }
+}

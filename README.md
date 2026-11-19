@@ -674,6 +674,37 @@ flowchart LR
     chef_studio_tableware["Chef studio tableware"]
     digital_3d_printed_ceramics["Digital 3D-printed ceramics"]
   end
+  subgraph cuisine_court_and_banquet["Cuisine · Court and banquet · 1300–1650"]
+    medieval_court_cuisine["Medieval court cuisine"]
+    renaissance_banquet["Renaissance banquet"]
+  end
+  subgraph cuisine_classical_codification["Cuisine · Classical codification · 1650–1800"]
+    cuisine_francoise["Cuisine françoise"]
+  end
+  subgraph cuisine_grande_and_classique["Cuisine · Grande and classique · 1800–1914"]
+    grande_cuisine["Grande cuisine"]
+    cuisine_classique["Cuisine classique"]
+  end
+  subgraph cuisine_regional_and_bourgeois["Cuisine · Regional and bourgeois · 1914–1965"]
+    haute_regionale["Haute cuisine régionale"]
+  end
+  subgraph cuisine_nouvelle_and_new_world["Cuisine · Nouvelle and new world · 1965–1990"]
+    nouvelle_cuisine["Nouvelle cuisine"]
+    california_cuisine["California cuisine"]
+    cuisine_minceur["Cuisine minceur"]
+    naturalist_cuisine["Naturalist cuisine"]
+    pacific_rim_fusion["Pacific Rim fusion"]
+    novoandina_and_nikkei["Novoandina and Nikkei cuisine"]
+  end
+  subgraph cuisine_modernist_and_global["Cuisine · Modernist and global · 1988–2011"]
+    molecular_gastronomy["Molecular gastronomy"]
+    bistronomie["Bistronomie"]
+    modernist_cuisine["Modernist cuisine"]
+  end
+  subgraph cuisine_terroir_and_plant["Cuisine · Terroir and plant · 2004–now"]
+    new_nordic["New Nordic cuisine"]
+    plant_based_fine_dining["Plant-based fine dining"]
+  end
   abstract_expressionism <-. echoes .-> abstract_expressionist_ceramics
   abstract_expressionism <-. echoes .-> brutalist_architecture
   adaptive_reuse_architecture <-. echoes .-> industrial_loft_interior
@@ -782,6 +813,7 @@ flowchart LR
   arts_and_crafts_object <-. echoes .-> country_sporting_tweed
   azulejo <-. echoes .-> baroque_architecture
   baroque_architecture <-. echoes .-> baroque_painting
+  baroque_architecture <-. echoes .-> cuisine_francoise
   baroque_painting <-. echoes .-> etching_print
   baroque_painting <-. echoes .-> film_noir_still
   baroque_painting <-. echoes .-> food_photography
@@ -806,6 +838,7 @@ flowchart LR
   bauhaus_interior <-. echoes .-> international_style_architecture
   bauhaus_modern_tableware <-. echoes .-> bauhaus_product
   bauhaus_product <-. echoes .-> modernist_studio_jewellery
+  beaux_arts_architecture <-. echoes .-> cuisine_classique
   beaux_arts_architecture <-. echoes .-> garland_style_jewellery
   ben_day_comic_print <-. echoes .-> pop_art_painting
   ben_day_comic_print <-. echoes .-> pop_art_web
@@ -862,6 +895,7 @@ flowchart LR
   contemporary_craft_product <-. echoes .-> japandi_interior
   contemporary_craft_product <-. echoes .-> large_format_porcelain_tiles
   contemporary_craft_product <-. echoes .-> modernist_studio_jewellery
+  contemporary_craft_product <-. echoes .-> new_nordic
   contemporary_craft_product <-. echoes .-> quiet_luxury_interior
   contemporary_craft_product <-. echoes .-> wabi_sabi_web
   corporate_memphis <-. echoes .-> risograph_print
@@ -871,6 +905,7 @@ flowchart LR
   crinoline_and_bustle_dress <-. echoes .-> victorian_interior
   crinoline_and_bustle_dress <-. echoes .-> victorian_manufacture
   cubism_painting <-. echoes .-> deconstructivist_architecture
+  cuisine_classique <-. echoes .-> victorian_interior
   cyberdelia <-. echoes .-> party_flash
   cyberpunk_web <-. echoes .-> film_noir_still
   cyberpunk_web <-. echoes .-> techwear
@@ -979,8 +1014,10 @@ flowchart LR
   glossy_3d_logo <-. echoes .-> skeuomorphism
   glossy_3d_logo <-. echoes .-> y2k_aesthetic
   gorpcore <-. echoes .-> street_photography
+  gothic_architecture <-. echoes .-> medieval_court_cuisine
   gothic_architecture <-. echoes .-> victorian_architectural_terracotta
   gothic_architecture <-. echoes .-> victorian_encaustic_tiles
+  grande_cuisine <-. echoes .-> neoclassical_architecture
   grandmillennial_interior <-. echoes .-> impressionism
   group_f64 <-. echoes .-> international_style_architecture
   grunge_editorial <-. echoes .-> party_flash
@@ -1080,6 +1117,7 @@ flowchart LR
   minimalism_web <-. echoes .-> minimalist_interior
   minimalism_web <-. echoes .-> super_normal_product
   minimalist_fashion <-. echoes .-> minimalist_interior
+  minimalist_interior <-. echoes .-> nouvelle_cuisine
   minimalist_interior <-. echoes .-> rams_functionalism_ui
   minimalist_interior <-. echoes .-> super_normal_product
   mod_and_mini <-. echoes .-> pop_art_painting
@@ -1092,6 +1130,8 @@ flowchart LR
   neoclassical_architecture <-. echoes .-> transitional_serif
   neon_noir <-. echoes .-> synthwave_web
   new_hollywood <-. echoes .-> street_photography
+  new_nordic <-. echoes .-> scandinavian_interior
+  new_nordic <-. echoes .-> scandinavian_modern_product
   new_topographics <-. echoes .-> photorealism
   new_topographics <-. echoes .-> planimetric_symmetry
   new_topographics <-. echoes .-> slow_cinema
@@ -1132,6 +1172,7 @@ flowchart LR
   raku_tea_bowl <-. echoes .-> wabi_sabi_web
   rams_functionalism_ui <-. echoes .-> ulm_braun_functionalism
   realism_painting <-. echoes .-> straight_photography
+  renaissance_architecture <-. echoes .-> renaissance_banquet
   renaissance_architecture <-. echoes .-> renaissance_painting
   renaissance_painting <-. echoes .-> woodcut_relief_print
   retro_cocktail_jewellery <-. echoes .-> streamline_moderne_product
@@ -1244,6 +1285,8 @@ flowchart LR
   garconne_flapper_dress --> bias_cut_glamour
   streamline_car --> biodesign_car
   rococo_porcelain_figures --> biscuit_porcelain_figures
+  haute_regionale --> bistronomie
+  nouvelle_cuisine --> bistronomie
   creamware_neoclassical --> blue_willow_transferware
   kraak_porcelain --> blue_willow_transferware
   art_nouveau_web --> bohemian_web
@@ -1251,6 +1294,7 @@ flowchart LR
   art_nouveau_ceramics --> british_modernist_studio
   international_style_architecture --> brutalist_architecture
   modernist_studio_jewellery --> brutalist_jewellery
+  nouvelle_cuisine --> california_cuisine
   rams_functionalism_ui --> cassette_futurism
   fifth_gen_low_poly --> cel_shaded_3d
   scandinavian_modern_tableware --> chef_studio_tableware
@@ -1272,6 +1316,9 @@ flowchart LR
   english_slipware --> creamware_neoclassical
   empire_line_dress --> crinoline_and_bustle_dress
   nordic_modernism_architecture --> critical_regionalism_architecture
+  grande_cuisine --> cuisine_classique
+  renaissance_banquet --> cuisine_francoise
+  nouvelle_cuisine --> cuisine_minceur
   dark_devtool_ui --> cybercore_web
   y2k_aesthetic --> cybercore_web
   psychedelic --> cyberdelia
@@ -1340,11 +1387,13 @@ flowchart LR
   geometric_symbol --> glossy_3d_logo
   technical_shell_alpinism --> gorpcore
   longquan_celadon --> goryeo_celadon
+  cuisine_francoise --> grande_cuisine
   georgian_interior --> grandmillennial_interior
   victorian_interior --> grandmillennial_interior
   greek_black_figure --> greek_red_figure
   straight_photography --> group_f64
   fifth_gen_low_poly --> hand_painted_texture
+  cuisine_classique --> haute_regionale
   sixteen_bit_sprite --> hd_2d_diorama
   international_style_architecture --> high_tech_architecture
   abbasid_lustreware --> hispano_moresque_lustreware
@@ -1426,10 +1475,13 @@ flowchart LR
   english_slipware --> mocha_banded_ware
   english_bespoke_tailoring --> mod_and_mini
   ivy_style --> mod_and_mini
+  molecular_gastronomy --> modernist_cuisine
   arts_and_crafts_jewellery --> modernist_studio_jewellery
+  nouvelle_cuisine --> molecular_gastronomy
   slab_serif --> monospace
   dogme_95 --> mumblecore
   italian_gran_turismo --> muscle_and_pony_car
+  nouvelle_cuisine --> naturalist_cuisine
   flat_design --> neo_brutalism_ui
   art_deco_interior --> neo_deco_interior
   grotesque_sans --> neo_grotesque_sans
@@ -1438,10 +1490,13 @@ flowchart LR
   street_photography --> new_colour
   french_new_wave --> new_hollywood
   crinoline_and_bustle_dress --> new_look
+  naturalist_cuisine --> new_nordic
   straight_photography --> new_objectivity
   straight_photography --> new_topographics
   early_mountaineering --> nordic_functional_outdoor
   international_style_architecture --> nordic_modernism_architecture
+  cuisine_classique --> nouvelle_cuisine
+  nouvelle_cuisine --> novoandina_and_nikkei
   straight_front_corset --> nylon_foundation_garments
   classical_hollywood --> one_take_oner
   art_nouveau_architecture --> organic_architecture
@@ -1449,6 +1504,8 @@ flowchart LR
   art_deco_tableware --> organic_modern_tableware
   bauhaus_modern_tableware --> organic_modern_tableware
   flat_icon --> outline_icon
+  california_cuisine --> pacific_rim_fusion
+  nouvelle_cuisine --> pacific_rim_fusion
   deconstructivist_architecture --> parametricism_architecture
   biscuit_porcelain_figures --> parian_statuary
   y2k_digicam --> party_flash
@@ -1459,6 +1516,7 @@ flowchart LR
   pop_art_painting --> photorealism
   early_wristwatch --> pilot_and_field_watch
   y2k_aesthetic --> pixel_art_web
+  new_nordic --> plant_based_fine_dining
   impressionism --> pointillism
   mid_century_modern --> pop_art_web
   ben_day_comic_print --> pop_screen_print
@@ -1477,6 +1535,7 @@ flowchart LR
   swiss_international --> rams_functionalism_ui
   creamware_neoclassical --> regency_gilded_bone_china
   sevres_rococo_porcelain --> regency_gilded_bone_china
+  medieval_court_cuisine --> renaissance_banquet
   art_deco_jewellery --> retro_cocktail_jewellery
   muscle_and_pony_car --> retro_revival_car
   xerox_zine --> risograph_print
@@ -1590,6 +1649,7 @@ flowchart LR
   bauhaus_modern_tableware -. rejects .-> meissen_baroque_porcelain
   bauhaus_modern_tableware -. rejects .-> regency_gilded_bone_china
   biodesign_car -. rejects .-> wedge_design_car
+  bistronomie -. rejects .-> cuisine_classique
   blob_world -. rejects .-> flat_design
   british_modernist_studio -. rejects .-> anglo_oriental_studio_pottery
   brutalist_jewellery -. rejects .-> retro_cocktail_jewellery
@@ -1607,6 +1667,8 @@ flowchart LR
   critical_regionalism_architecture -. rejects .-> postmodern_architecture
   cubism_painting -. rejects .-> impressionism
   cubism_painting -. rejects .-> renaissance_painting
+  cuisine_francoise -. rejects .-> medieval_court_cuisine
+  cuisine_minceur -. rejects .-> cuisine_classique
   cybercore_web -. rejects .-> flat_design
   cyberpunk_web -. rejects .-> flat_design
   cyberpunk_web -. rejects .-> minimalism_web
@@ -1682,9 +1744,11 @@ flowchart LR
   minimalist_interior -. rejects .-> memphis_interior
   mod_and_mini -. rejects .-> new_look
   modernist_studio_jewellery -. rejects .-> retro_cocktail_jewellery
+  molecular_gastronomy -. rejects .-> cuisine_classique
   mumblecore -. rejects .-> classical_hollywood
   muscle_and_pony_car -. rejects .-> tailfin_era_car
   music_video -. rejects .-> classical_hollywood
+  naturalist_cuisine -. rejects .-> cuisine_classique
   neo_brutalism_ui -. rejects .-> corporate_memphis
   neo_brutalism_ui -. rejects .-> material_design
   neo_deco_interior -. rejects .-> minimalist_interior
@@ -1692,6 +1756,7 @@ flowchart LR
   neoclassical_architecture -. rejects .-> baroque_architecture
   neumorphism -. rejects .-> flat_design
   new_hollywood -. rejects .-> classical_hollywood
+  new_nordic -. rejects .-> molecular_gastronomy
   new_objectivity -. rejects .-> pictorialism
   nylon_foundation_garments -. rejects .-> bandeau_brassiere
   one_take_oner -. rejects .-> soviet_montage
@@ -1701,6 +1766,7 @@ flowchart LR
   parian_statuary -. rejects .-> staffordshire_figures
   photorealism -. rejects .-> abstract_expressionism
   planimetric_symmetry -. rejects .-> dogme_95
+  plant_based_fine_dining -. rejects .-> cuisine_classique
   pochoir_plate -. rejects .-> chromolithograph_poster
   pop_art_painting -. rejects .-> abstract_expressionism
   postmodern_architecture -. rejects .-> brutalist_architecture
@@ -2271,34 +2337,16 @@ flowchart LR
   linkStyle 509 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 510 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 511 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 889 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 890 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 891 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 892 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 893 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 894 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 895 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 896 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 897 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 898 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 899 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 900 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 901 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 902 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 903 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 904 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 905 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 906 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 907 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 908 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 909 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 910 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 911 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 912 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 913 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 914 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 915 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 916 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 512 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 513 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 514 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 515 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 516 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 517 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 518 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 519 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 520 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 521 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 917 stroke:#E5484D,stroke-width:1.5px
   linkStyle 918 stroke:#E5484D,stroke-width:1.5px
   linkStyle 919 stroke:#E5484D,stroke-width:1.5px
@@ -2467,6 +2515,41 @@ flowchart LR
   linkStyle 1082 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1083 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1084 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1085 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1086 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1087 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1088 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1089 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1090 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1091 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1092 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1093 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1094 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1095 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1096 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1097 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1098 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1099 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1100 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1101 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1102 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1103 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1104 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1105 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1106 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1107 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1108 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1109 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1110 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1111 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1112 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1113 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1114 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1115 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1116 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1117 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1118 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1119 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 
