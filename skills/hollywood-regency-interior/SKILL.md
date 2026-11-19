@@ -222,7 +222,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Gloss lacquer, mirror glass, gilt brass and tufted velvet in pairs: every object shines, and every light source doubles in a mirror. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.5, material_warmth 0.45, finish_gloss 88, era_blend 0.3, hardware_weight 18, edge_radius 4, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#hollywood-regency-interior).
+Gloss lacquer, mirror glass, gilt brass and tufted velvet in pairs: every object shines, and every light source doubles in a mirror. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.5, material_warmth 0.45, finish_gloss 88, era_blend 0.3, hardware_weight 18, edge_radius 4, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#hollywood-regency-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

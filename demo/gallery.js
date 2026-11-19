@@ -80,6 +80,7 @@ document.body.insertAdjacentHTML("beforeend", `
     <figure><h2>Lineage and principles</h2><div id="lin"></div><div id="prin" style="margin-top:8px"></div></figure>
   </section>
   <section class="facets" id="facets"></section>
+  <section id="uses-box" hidden><h2>In the rooms</h2><p class="meta">The interior styles whose object net takes this style for a category, as the main style or as an alternate.</p><div id="uses"></div></section>
   <section id="ev-box" hidden><h2>Canonical evidence (open licence)</h2><div id="ev"></div></section>
   <p class="meta"><a id="f-data">Style record (JSON)</a> · <a id="f-skill">Skill file</a></p>
 </main>`);
@@ -183,6 +184,29 @@ function shot(s, found) {
   }
 }
 
+// Industrial design: the object nets of the interior styles that use this style. Each link opens the
+// objects of one room.
+let netsOf = null;
+function uses(s) {
+  $("uses-box").hidden = true;
+  if (DOMAIN !== "industrial") return;
+  netsOf ??= json("../skills/index.json").then((ix) => Promise.all(ix.skills.filter((x) => x.domain === "interior")
+    .map((x) => json(`../data/industrial/nets/${x.id}.json`).then((n) => n && { id: x.id, name: x.name, net: n })))).then((l) => l.filter(Boolean));
+  netsOf.then((list) => {
+    if (styles[at].id !== s.id) return;
+    const rows = list.map((r) => {
+      const main = r.net.categories.filter((c) => c.style === s.id).map((c) => c.category);
+      const alt = r.net.categories.filter((c) => c.alternates.includes(s.id)).map((c) => c.category);
+      return (main.length || alt.length) && { ...r, main, alt };
+    }).filter(Boolean).sort((a, b) => b.main.length - a.main.length);
+    if (!rows.length) return;
+    const cat = (c) => c.replace(/-/g, " ");
+    $("uses").innerHTML = `<table><tr><th>Interior style</th><th>Main style for</th><th>Alternate for</th></tr>${rows.map((r) =>
+      `<tr><td><a href="objects.html#${esc(r.id)}">${esc(r.name)}</a></td><td>${esc(r.main.map(cat).join(", ")) || "–"}</td><td>${esc(r.alt.map(cat).join(", ")) || "–"}</td></tr>`).join("")}</table>`;
+    $("uses-box").hidden = false;
+  });
+}
+
 function show(i) {
   at = (i + styles.length) % styles.length;
   const meta = styles[at];
@@ -209,6 +233,7 @@ function show(i) {
     $("prin").innerHTML = found.principles.size ? `<small>Composition principles</small><br>${[...found.principles].map((p) => `<a class="tag" href="../data/principles/${esc(p)}.json">${esc(p)}</a>`).join("")}` : "";
     $("facets").innerHTML = domain.facets.filter((f) => f.key !== "prompt_primer" && f.key !== "evidence" && s[f.key] != null)
       .map((f) => `<figure class="facet"><h2>${esc(f.title)}</h2>${view(s[f.key])}</figure>`).join("");
+    uses(s);
     $("ev-box").hidden = !s.evidence?.length;
     $("ev").innerHTML = window.Evidence ? Evidence.html(s.evidence) : "";
     $("f-data").href = `../data/${DOMAIN}/styles/${s.id}.json`;

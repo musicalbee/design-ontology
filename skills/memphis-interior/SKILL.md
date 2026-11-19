@@ -225,7 +225,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Printed plastic laminate, terrazzo, coloured glass and enamel in flat pink, turquoise and yellow; every object is a stack of solids with a squiggle or a grid. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.7, material_warmth 0.2, finish_gloss 65, era_blend 0.2, hardware_weight 18, edge_radius 3, metal_tone chrome. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#memphis-interior).
+Printed plastic laminate, terrazzo, coloured glass and enamel in flat pink, turquoise and yellow; every object is a stack of solids with a squiggle or a grid. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.7, material_warmth 0.2, finish_gloss 65, era_blend 0.2, hardware_weight 18, edge_radius 3, metal_tone chrome. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#memphis-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

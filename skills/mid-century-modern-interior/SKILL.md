@@ -225,7 +225,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Low teak and walnut pieces on tapered legs, moulded fibreglass shells, brass fittings and marble, with a few mustard, orange and teal accents on a warm white ground. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.1, material_warmth 0.6, finish_gloss 45, era_blend 0.25, hardware_weight 12, edge_radius 20, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#mid-century-modern-interior).
+Low teak and walnut pieces on tapered legs, moulded fibreglass shells, brass fittings and marble, with a few mustard, orange and teal accents on a warm white ground. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.1, material_warmth 0.6, finish_gloss 45, era_blend 0.25, hardware_weight 12, edge_radius 20, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#mid-century-modern-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

@@ -231,7 +231,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Every object is made in French-polished mahogany, polished brass, white porcelain and honed marble. Silk, gilt and mirror glass give the fine surfaces, and the forms come in symmetric pairs. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.45, material_warmth 0.6, finish_gloss 70, era_blend 0.2, hardware_weight 14, edge_radius 3, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#georgian-interior).
+Every object is made in French-polished mahogany, polished brass, white porcelain and honed marble. Silk, gilt and mirror glass give the fine surfaces, and the forms come in symmetric pairs. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.45, material_warmth 0.6, finish_gloss 70, era_blend 0.2, hardware_weight 14, edge_radius 3, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#georgian-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

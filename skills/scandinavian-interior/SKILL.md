@@ -224,7 +224,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Pale oak, ash and birch with wool and linen, white painted surfaces and thin black metal lines; every object is plain, hand made and matte. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.05, material_warmth 0.85, finish_gloss 12, era_blend 0.35, hardware_weight 14, edge_radius 10, metal_tone black. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#scandinavian-interior).
+Pale oak, ash and birch with wool and linen, white painted surfaces and thin black metal lines; every object is plain, hand made and matte. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.05, material_warmth 0.85, finish_gloss 12, era_blend 0.35, hardware_weight 14, edge_radius 10, metal_tone black. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#scandinavian-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

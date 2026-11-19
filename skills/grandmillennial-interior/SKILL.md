@@ -216,7 +216,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Printed cotton chintz, polished mahogany, cane, glazed blue-and-white porcelain and polished brass fill the room. Pleated shades, skirts and ruffles keep the forms soft and traditional. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.5, material_warmth 0.65, finish_gloss 40, era_blend 0.4, hardware_weight 14, edge_radius 6, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#grandmillennial-interior).
+Printed cotton chintz, polished mahogany, cane, glazed blue-and-white porcelain and polished brass fill the room. Pleated shades, skirts and ruffles keep the forms soft and traditional. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.5, material_warmth 0.65, finish_gloss 40, era_blend 0.4, hardware_weight 14, edge_radius 6, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#grandmillennial-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

@@ -224,7 +224,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-White-washed oak, painted pine boards, slipcovered linen, woven rattan and jute, clear glass and brushed steel make the summer house. One sea blue and navy carry the accents. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.1, material_warmth 0.7, finish_gloss 8, era_blend 0.6, hardware_weight 12, edge_radius 8, metal_tone nickel. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#coastal-interior).
+White-washed oak, painted pine boards, slipcovered linen, woven rattan and jute, clear glass and brushed steel make the summer house. One sea blue and navy carry the accents. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.1, material_warmth 0.7, finish_gloss 8, era_blend 0.6, hardware_weight 12, edge_radius 8, metal_tone nickel. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#coastal-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

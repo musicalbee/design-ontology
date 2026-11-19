@@ -223,7 +223,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Every object grows from a plant or an insect: carved walnut, patinated bronze and amber art glass. Silk and velvet in moss green and mauve follow the same whiplash curve. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.65, material_warmth 0.65, finish_gloss 60, era_blend 0.2, hardware_weight 14, edge_radius 8, metal_tone bronze. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#art-nouveau-interior).
+Every object grows from a plant or an insect: carved walnut, patinated bronze and amber art glass. Silk and velvet in moss green and mauve follow the same whiplash curve. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.65, material_warmth 0.65, finish_gloss 60, era_blend 0.2, hardware_weight 14, edge_radius 8, metal_tone bronze. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#art-nouveau-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

@@ -225,7 +225,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Honed travertine, oiled walnut, bouclé wool and limewash plaster make a tonal room in cream, taupe and chocolate. Brushed brass is the only metal, and no logo shows. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.1, material_warmth 0.8, finish_gloss 10, era_blend 0.8, hardware_weight 14, edge_radius 14, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#quiet-luxury-interior).
+Honed travertine, oiled walnut, bouclé wool and limewash plaster make a tonal room in cream, taupe and chocolate. Brushed brass is the only metal, and no logo shows. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.1, material_warmth 0.8, finish_gloss 10, era_blend 0.8, hardware_weight 14, edge_radius 14, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#quiet-luxury-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

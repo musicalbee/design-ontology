@@ -225,7 +225,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Every object is a workshop prototype for the factory: chrome tube, opal glass, black Bakelite and lacquered plywood, with no ornament and one primary colour. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0, material_warmth 0.3, finish_gloss 80, era_blend 0.2, hardware_weight 22, edge_radius 1, metal_tone chrome. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#bauhaus-interior).
+Every object is a workshop prototype for the factory: chrome tube, opal glass, black Bakelite and lacquered plywood, with no ornament and one primary colour. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0, material_warmth 0.3, finish_gloss 80, era_blend 0.2, hardware_weight 22, edge_radius 1, metal_tone chrome. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#bauhaus-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

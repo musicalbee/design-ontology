@@ -232,7 +232,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Every object is plain local wood: cherry, maple and pine, in a thin oil or milk paint. Black iron and woven cotton tape are the only other materials, and no object has ornament. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0, material_warmth 0.8, finish_gloss 8, era_blend 0.2, hardware_weight 8, edge_radius 2, metal_tone black. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#shaker-interior).
+Every object is plain local wood: cherry, maple and pine, in a thin oil or milk paint. Black iron and woven cotton tape are the only other materials, and no object has ornament. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0, material_warmth 0.8, finish_gloss 8, era_blend 0.2, hardware_weight 8, edge_radius 2, metal_tone black. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#shaker-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

@@ -214,7 +214,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Brushed brass, velvet, fluted walnut, ribbed glass and honed travertine give the 1920s geometry a soft, round form. Terracotta, sage and burgundy stay warm and muted. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.5, material_warmth 0.5, finish_gloss 45, era_blend 0.6, hardware_weight 14, edge_radius 22, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#neo-deco-interior).
+Brushed brass, velvet, fluted walnut, ribbed glass and honed travertine give the 1920s geometry a soft, round form. Terracotta, sage and burgundy stay warm and muted. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.5, material_warmth 0.5, finish_gloss 45, era_blend 0.6, hardware_weight 14, edge_radius 22, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#neo-deco-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

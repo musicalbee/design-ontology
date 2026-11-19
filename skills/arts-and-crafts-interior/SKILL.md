@@ -225,7 +225,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Every object is made by hand in waxed oak, hammered copper, wrought iron and matt glazed clay. Wool and linen in sage and ochre soften the room, and the marks of the tool stay in view. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.3, material_warmth 0.8, finish_gloss 15, era_blend 0.25, hardware_weight 14, edge_radius 4, metal_tone copper. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#arts-and-crafts-interior).
+Every object is made by hand in waxed oak, hammered copper, wrought iron and matt glazed clay. Wool and linen in sage and ochre soften the room, and the marks of the tool stay in view. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.3, material_warmth 0.8, finish_gloss 15, era_blend 0.25, hardware_weight 14, edge_radius 4, metal_tone copper. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#arts-and-crafts-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

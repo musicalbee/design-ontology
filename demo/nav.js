@@ -13,7 +13,7 @@
   ];
   const ACROSS = [["graph.html", "Lineage"], ["techniques.html", "Techniques"], ["people.html", "People"]];
   // A sub-page marks its parent domain as current: the moodboards are part of Interior.
-  const PARENT = { "moodboard.html": "interior.html" };
+  const PARENT = { "moodboard.html": "interior.html", "objects.html": "interior.html" };
   const file = location.pathname.split("/").pop() || "index.html";
   const here = PARENT[file] || file;
   const WIDE = matchMedia("(min-width: 1100px)");

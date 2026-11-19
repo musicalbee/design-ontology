@@ -224,7 +224,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Low oak and ash, lime plaster, washi paper, linen and hand-thrown stoneware make the room. Black steel and charred wood give the one dark accent, and all finishes are matt. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.02, material_warmth 0.8, finish_gloss 5, era_blend 0.6, hardware_weight 10, edge_radius 6, metal_tone black. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#japandi-interior).
+Low oak and ash, lime plaster, washi paper, linen and hand-thrown stoneware make the room. Black steel and charred wood give the one dark accent, and all finishes are matt. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.02, material_warmth 0.8, finish_gloss 5, era_blend 0.6, hardware_weight 10, edge_radius 6, metal_tone black. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#japandi-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

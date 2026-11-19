@@ -160,7 +160,7 @@ function objectNet(style: Style) {
   return {
     thesis: net.thesis,
     knobs: Object.entries(net.knobs).map(([k, v]) => `${k} ${v}`).join(", "),
-    page: `../../demo/industrial.html#${style.id}`,
+    page: `../../demo/objects.html#${style.id}`,
     categories: net.categories.map((c) => ({
       category: titleCase(c.category),
       style: link(c.style),

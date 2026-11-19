@@ -214,7 +214,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-White plaster, honed limestone and pale oak with plain linen; every object is flush, thin and quiet, and one graphite fitting is the only dark mark. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0, material_warmth 0.4, finish_gloss 10, era_blend 0.6, hardware_weight 8, edge_radius 3, metal_tone black. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#minimalist-interior).
+White plaster, honed limestone and pale oak with plain linen; every object is flush, thin and quiet, and one graphite fitting is the only dark mark. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0, material_warmth 0.4, finish_gloss 10, era_blend 0.6, hardware_weight 8, edge_radius 3, metal_tone black. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#minimalist-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

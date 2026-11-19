@@ -216,7 +216,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Every object is a glossy, symmetric solid: black lacquer, macassar ebony, chrome, brass, mirror and frosted glass. Velvet and mohair add a dense pile, and one jade accent repeats. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.45, material_warmth 0.4, finish_gloss 90, era_blend 0.2, hardware_weight 16, edge_radius 2, metal_tone chrome. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#art-deco-interior).
+Every object is a glossy, symmetric solid: black lacquer, macassar ebony, chrome, brass, mirror and frosted glass. Velvet and mohair add a dense pile, and one jade accent repeats. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.45, material_warmth 0.4, finish_gloss 90, era_blend 0.2, hardware_weight 16, edge_radius 2, metal_tone chrome. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#art-deco-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

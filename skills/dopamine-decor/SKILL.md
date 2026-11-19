@@ -224,7 +224,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Velvet, terrazzo, acrylic, coloured glass and lacquered laminate carry six saturated hues. Every form is round and glossy, and each hue repeats in at least three places. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.4, material_warmth 0.3, finish_gloss 80, era_blend 0.7, hardware_weight 20, edge_radius 25, metal_tone chrome. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#dopamine-decor).
+Velvet, terrazzo, acrylic, coloured glass and lacquered laminate carry six saturated hues. Every form is round and glossy, and each hue repeats in at least three places. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.4, material_warmth 0.3, finish_gloss 80, era_blend 0.7, hardware_weight 20, edge_radius 25, metal_tone chrome. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#dopamine-decor).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|

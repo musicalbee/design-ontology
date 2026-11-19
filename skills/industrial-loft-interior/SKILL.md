@@ -216,7 +216,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Object net
 
-Black steel, cast iron, enamel and polished concrete with reclaimed oak and tan leather; every part shows its bolts, welds and work. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0, material_warmth 0.3, finish_gloss 25, era_blend 0.4, hardware_weight 26, edge_radius 4, metal_tone black. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/industrial.html#industrial-loft-interior).
+Black steel, cast iron, enamel and polished concrete with reclaimed oak and tan leather; every part shows its bolts, welds and work. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0, material_warmth 0.3, finish_gloss 25, era_blend 0.4, hardware_weight 26, edge_radius 4, metal_tone black. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#industrial-loft-interior).
 
 | Category | Object | Form | Material, finish, texture |
 |---|---|---|---|
