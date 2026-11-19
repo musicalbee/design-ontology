@@ -175,7 +175,7 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Three-point lighting (process)
 
-A key light, a fill light and a back light on one subject, so that the face is modelled and stands out from the ground. Origin: film & video, Hollywood, United States, c. 1915.
+A key light, a fill light and a back light on one subject, so that the face is modelled and stands out from the ground. Origin: film & video, Hollywood, United States, c. 1920.
 
 - Set the key light 30 to 45 degrees off the camera axis and above eye level.
 - Set the fill on the other side at 1/4 to 1/2 of the key.

@@ -169,7 +169,7 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Plein air (process)
 
-Work made outside in front of the subject, in the light of the place and the hour. Origin: painting, France, 1841.
+Work made outside in front of the subject, in the light of the place and the hour. Origin: painting, Rome and France, c. 1780.
 
 - Work in front of the motif in one session of 1 to 3 hours, before the light moves.
 - Take the colour of shadows from the sky and the ground around them; do not paint them black.
