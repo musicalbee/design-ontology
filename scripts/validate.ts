@@ -15,7 +15,7 @@ import { checkIndustrialStyle, checkNet, checkVocabulary, loadNetContext, loadNe
 import { checkFashionStyle, checkFashionVocabulary, loadFashionVocabulary, type FashionStyle } from "./fashion.js";
 import { checkCeramicsStyle, checkCeramicsVocabulary, loadCeramicsVocabulary, type CeramicsStyle } from "./ceramics.js";
 import { checkCuisineStyle, checkCuisineVocabulary, loadCuisineVocabulary, type CuisineStyle } from "./cuisine.js";
-import { loadEmotions, loadEvokes, loadKeywordMap } from "./emotions.js";
+import { loadCues, loadEmotions, loadEvokes, loadKeywordMap, loadMoments } from "./emotions.js";
 import { ROOT, loadDomains, loadEras, loadFunding, loadOrgs, loadPeople, loadPrinciples, loadStyleFiles, loadTechniques, principleRefs, readJson, type Style } from "./lib.js";
 
 const schemaOnly = process.argv.includes("--schema-only");
@@ -415,6 +415,40 @@ for (const { file, org: m } of orgs)
   if (m.styles.some((s) => s.part === "funded") && !backers.has(`org:${m.id}`))
     warnings.push(`${file}: part "funded" but no flow in data/funding/ starts here`);
 
+// Cues (measured links from a physical variable to an emotion) and moments (known situations).
+const validateCue = ajv.compile(readJson<object>(join(ROOT, "schema", "cue.schema.json")));
+const validateMoment = ajv.compile(readJson<object>(join(ROOT, "schema", "moment.schema.json")));
+const cues = loadCues();
+const cueIds = new Set(cues.map((c) => c.slug));
+for (const { file, slug, cue: c } of cues) {
+  if (!validateCue(c)) {
+    for (const x of validateCue.errors ?? []) errors.push(`${file}: ${x.instancePath || "/"} ${x.message}`);
+    continue;
+  }
+  if (c.id !== slug) errors.push(`${file}: id "${c.id}" is not equal to the file name`);
+  for (const e of c.effects)
+    if (!e.target.startsWith("pad:") && !emotionIds.has(e.target)) errors.push(`${file}: effect target "${e.target}" is not in data/emotions/ and is not a PAD axis`);
+  if (new Set(c.effects.map((e) => e.target)).size !== c.effects.length) errors.push(`${file}: an effect target is listed more than once`);
+}
+const techniqueIds = new Set(techniques.map((t) => t.slug));
+const moments = loadMoments();
+for (const { file, slug, moment: m } of moments) {
+  if (!validateMoment(m)) {
+    for (const x of validateMoment.errors ?? []) errors.push(`${file}: ${x.instancePath || "/"} ${x.message}`);
+    continue;
+  }
+  if (m.id !== slug) errors.push(`${file}: id "${m.id}" is not equal to the file name`);
+  if (new Set(m.emotions.map((e) => e.emotion)).size !== m.emotions.length) errors.push(`${file}: an emotion is listed more than once`);
+  for (const e of m.emotions) if (!emotionIds.has(e.emotion)) errors.push(`${file}: emotion "${e.emotion}" is not in data/emotions/`);
+  if (!m.emotions.some((e) => e.strength === 1)) errors.push(`${file}: the main emotion has strength 1`);
+  for (const s of m.carriers.styles) if (!schemaOnly && !byId.has(s)) errors.push(`${file}: carrier style "${s}" does not exist`);
+  for (const t of m.carriers.techniques ?? []) if (!techniqueIds.has(t)) errors.push(`${file}: carrier technique "${t}" is not in data/techniques/`);
+  for (const c of m.cues) if (!cueIds.has(c)) errors.push(`${file}: cue "${c}" is not in data/cues/`);
+  for (const r of [m.time.sun_elevation_deg, m.light.cct_k, m.light.lux, m.scene_ref?.minutes])
+    if (r && r.min > r.max) errors.push(`${file}: a range has min above max`);
+  if (m.people.max !== null && m.people.max < m.people.min) errors.push(`${file}: people.max is below people.min`);
+}
+
 // The curation gate (CONTRIBUTING.md, "The six curation rules"). A miss is an error. The only
 // exception is a style on data/curation-allowlist.json, which can only shrink.
 let curation = "";
@@ -439,6 +473,6 @@ for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`error ${e}`);
 console.log(
   `${count} styles in ${domains.length} domains · ${principles.length} principles · ${techniques.length} techniques · ${people.length} people · ${errors.length} errors · ${warnings.length} warnings` +
-    ` · ${orgs.length} orgs · ${funding.length} funding flows · ${nets.length} object nets · ${emotions.length} emotions · ${evokesEdges} evokes edges (${evokesSourced} sourced)` + curation + (schemaOnly ? " · schema only" : ""),
+    ` · ${orgs.length} orgs · ${funding.length} funding flows · ${nets.length} object nets · ${emotions.length} emotions · ${evokesEdges} evokes edges (${evokesSourced} sourced) · ${cues.length} cues · ${moments.length} moments` + curation + (schemaOnly ? " · schema only" : ""),
 );
 process.exit(errors.length ? 1 : 0);

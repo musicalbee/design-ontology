@@ -1,0 +1,79 @@
+{
+  "$schema": "../../schema/moment.schema.json",
+  "id": "school-leaving-celebration",
+  "name": "School-leaving celebration (russefeiring)",
+  "kind": "life-event",
+  "description": "Students in red or blue overalls celebrate the end of school for weeks, up to the parade on 17 May.",
+  "emotions": [
+    {
+      "emotion": "energy",
+      "strength": 1
+    },
+    {
+      "emotion": "joy",
+      "strength": 0.9
+    },
+    {
+      "emotion": "humour",
+      "strength": 0.6
+    },
+    {
+      "emotion": "vitality",
+      "strength": 0.7
+    }
+  ],
+  "time": {
+    "of_day": [
+      "night",
+      "any"
+    ],
+    "season": [
+      "spring"
+    ],
+    "sun_elevation_deg": null
+  },
+  "light": {
+    "cct_k": null,
+    "lux": null,
+    "direction": "mixed",
+    "quality": "mixed",
+    "sources": [
+      "sun",
+      "neon",
+      "lamp"
+    ]
+  },
+  "weather": [
+    "clear",
+    "rain"
+  ],
+  "sound": [
+    "loud music",
+    "shouts",
+    "buses"
+  ],
+  "scent": [],
+  "people": {
+    "min": 10,
+    "max": null,
+    "activity": "party, parade, sing"
+  },
+  "carriers": {
+    "styles": [],
+    "things": [
+      "red overalls",
+      "russ caps",
+      "party bus"
+    ]
+  },
+  "cues": [
+    "moderate-noise-creativity"
+  ],
+  "scene_ref": null,
+  "sources": [
+    {
+      "title": "Wikipedia, Russefeiring: Norwegian school leavers celebrate from mid-April to 17 May",
+      "url": "https://en.wikipedia.org/wiki/Russefeiring"
+    }
+  ]
+}

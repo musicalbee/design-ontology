@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-ontology.dev/schema/moment.schema.json",
+  "title": "Moment",
+  "description": "A situation that people know and that carries an emotion: a light of the day, a season, a ritual, a life event or a film scene. Each field is a thing that a 3D scene can set. A film scene is a film id, a minute range and our own description: no stills and no quotes.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "kind", "emotions", "time", "light", "weather", "sound", "scent", "people", "carriers", "cues", "scene_ref", "sources"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": { "$ref": "core.schema.json#/$defs/slug" },
+    "name": { "$ref": "core.schema.json#/$defs/shortText" },
+    "kind": { "enum": ["daily", "seasonal", "ritual", "life-event", "film-scene", "place-type"] },
+    "description": { "$ref": "core.schema.json#/$defs/sentence" },
+    "emotions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["emotion", "strength"],
+        "properties": {
+          "emotion": { "$ref": "core.schema.json#/$defs/slug" },
+          "strength": { "type": "number", "exclusiveMinimum": 0, "maximum": 1, "description": "Relative inside the moment: the main emotion is 1." }
+        }
+      }
+    },
+    "time": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["of_day", "season", "sun_elevation_deg"],
+      "properties": {
+        "of_day": { "type": "array", "uniqueItems": true, "items": { "enum": ["dawn", "morning", "midday", "afternoon", "golden-hour", "blue-hour", "evening", "night", "any"] } },
+        "season": { "type": "array", "uniqueItems": true, "items": { "enum": ["winter", "spring", "summer", "autumn", "any"] } },
+        "sun_elevation_deg": { "oneOf": [{ "$ref": "#/$defs/range" }, { "type": "null" }], "description": "Degrees above (+) or below (-) the horizon. null: indoors or not relevant." }
+      }
+    },
+    "light": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["cct_k", "lux", "direction", "quality", "sources"],
+      "properties": {
+        "cct_k": { "oneOf": [{ "$ref": "#/$defs/range" }, { "type": "null" }], "description": "Correlated colour temperature in kelvin." },
+        "lux": { "oneOf": [{ "$ref": "#/$defs/range" }, { "type": "null" }], "description": "Illuminance at the eye or on the table, in lux." },
+        "direction": { "enum": ["low-side", "high-side", "top", "back", "front", "diffuse", "mixed"] },
+        "quality": { "enum": ["hard", "soft", "mixed"] },
+        "sources": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "enum": ["sun", "sky", "moon", "snow-reflection", "candle", "fire", "lamp", "screen", "neon", "projector", "aurora"] } }
+      }
+    },
+    "weather": { "type": "array", "uniqueItems": true, "items": { "enum": ["clear", "partly-cloudy", "overcast", "fog", "rain", "snow", "wind", "indoors"] } },
+    "sound": { "type": "array", "items": { "$ref": "core.schema.json#/$defs/shortText" } },
+    "scent": { "type": "array", "items": { "$ref": "core.schema.json#/$defs/shortText" } },
+    "people": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["min", "max", "activity"],
+      "properties": {
+        "min": { "type": "integer", "minimum": 0 },
+        "max": { "type": ["integer", "null"], "minimum": 0, "description": "null: a crowd with no upper count." },
+        "activity": { "$ref": "core.schema.json#/$defs/shortText" }
+      }
+    },
+    "carriers": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["styles", "things"],
+      "properties": {
+        "styles": { "type": "array", "uniqueItems": true, "items": { "$ref": "core.schema.json#/$defs/slug" }, "description": "Style ids that exist in data/<domain>/styles/." },
+        "techniques": { "type": "array", "uniqueItems": true, "items": { "$ref": "core.schema.json#/$defs/slug" }, "description": "Technique ids in data/techniques/." },
+        "things": { "type": "array", "uniqueItems": true, "items": { "$ref": "core.schema.json#/$defs/shortText" }, "description": "Objects and materials, in words, until the object layer has ids for them." }
+      }
+    },
+    "cues": { "type": "array", "uniqueItems": true, "items": { "$ref": "core.schema.json#/$defs/slug" }, "description": "Cue ids in data/cues/ that this moment sets." },
+    "scene_ref": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["film", "year", "wikidata", "minutes", "timing", "description"],
+          "properties": {
+            "film": { "$ref": "core.schema.json#/$defs/shortText" },
+            "year": { "type": "integer", "minimum": 1888 },
+            "director": { "$ref": "core.schema.json#/$defs/shortText" },
+            "wikidata": { "type": "string", "pattern": "^Q[0-9]+$" },
+            "minutes": { "$ref": "#/$defs/range" },
+            "timing": { "enum": ["sourced", "estimate"], "description": "sourced: an open text gives the position. estimate: our own reading of the film's runtime and plot order." },
+            "description": { "$ref": "core.schema.json#/$defs/sentence", "description": "What happens and how it looks, in our own words. No quotes from the film." }
+          }
+        }
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["title", "url"],
+        "properties": {
+          "title": { "$ref": "core.schema.json#/$defs/sentence" },
+          "url": { "type": "string", "pattern": "^https?://" }
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "kind": { "const": "film-scene" } } },
+      "then": { "properties": { "scene_ref": { "type": "object" } } },
+      "else": { "properties": { "scene_ref": { "type": "null" } } }
+    }
+  ],
+  "$defs": {
+    "range": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["min", "max"],
+      "properties": { "min": { "type": "number" }, "max": { "type": "number" } }
+    }
+  }
+}

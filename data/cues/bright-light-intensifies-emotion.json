@@ -1,0 +1,34 @@
+{
+  "$schema": "../../schema/cue.schema.json",
+  "id": "bright-light-intensifies-emotion",
+  "name": "Bright light makes emotions stronger",
+  "variable": "illuminance",
+  "direction": {
+    "change": "higher",
+    "unit": "lux",
+    "range": {
+      "from": "dim",
+      "to": "bright"
+    }
+  },
+  "effects": [
+    {
+      "target": "pad:a",
+      "sign": 1,
+      "size": "medium"
+    }
+  ],
+  "evidence_kind": "measured",
+  "claim": "In six studies, brighter room light made people feel warmer and made their emotional reactions stronger, both good and bad.",
+  "study": {
+    "participants": null,
+    "setting": "lab"
+  },
+  "caveat": "Bright light raised the strength of emotion, not its pleasure; the lux values were not seen.",
+  "sources": [
+    {
+      "title": "Xu and Labroo 2014, Incandescent affect: turning on the hot emotional system with bright light, Journal of Consumer Psychology 24(2)",
+      "url": "https://doi.org/10.1016/j.jcps.2013.12.007"
+    }
+  ]
+}

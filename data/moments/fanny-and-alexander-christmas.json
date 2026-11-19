@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schema/moment.schema.json",
+  "id": "fanny-and-alexander-christmas",
+  "name": "Fanny and Alexander: the Christmas Eve party",
+  "kind": "film-scene",
+  "description": "A large family celebrates Christmas Eve in a red, candlelit apartment full of servants, children and food.",
+  "emotions": [
+    {
+      "emotion": "joy",
+      "strength": 1
+    },
+    {
+      "emotion": "nostalgia",
+      "strength": 0.8
+    },
+    {
+      "emotion": "enchantment",
+      "strength": 0.6
+    },
+    {
+      "emotion": "koselig",
+      "strength": 0.7
+    }
+  ],
+  "time": {
+    "of_day": [
+      "evening",
+      "night"
+    ],
+    "season": [
+      "winter"
+    ],
+    "sun_elevation_deg": null
+  },
+  "light": {
+    "cct_k": {
+      "min": 1850,
+      "max": 2400
+    },
+    "lux": {
+      "min": 10,
+      "max": 100
+    },
+    "direction": "low-side",
+    "quality": "soft",
+    "sources": [
+      "candle",
+      "fire"
+    ]
+  },
+  "weather": [
+    "snow",
+    "indoors"
+  ],
+  "sound": [
+    "carols",
+    "chatter",
+    "running children"
+  ],
+  "scent": [],
+  "people": {
+    "min": 20,
+    "max": 40,
+    "activity": "eat, sing, dance through the rooms"
+  },
+  "carriers": {
+    "styles": [
+      "victorian-interior"
+    ],
+    "things": [
+      "red velvet",
+      "candles",
+      "Christmas tree",
+      "tiled stove",
+      "long table"
+    ]
+  },
+  "cues": [
+    "warm-dim-light-positive-affect"
+  ],
+  "scene_ref": {
+    "film": "Fanny and Alexander",
+    "year": 1982,
+    "director": "Ingmar Bergman",
+    "wikidata": "Q165651",
+    "minutes": {
+      "min": 0,
+      "max": 25
+    },
+    "timing": "estimate",
+    "description": "Rooms of red velvet and gold glow with candles, the household dances in a chain through the rooms, and the children watch it all."
+  },
+  "sources": [
+    {
+      "title": "Wikipedia, Fanny and Alexander: the opening Christmas party and its warm, life-affirming tone",
+      "url": "https://en.wikipedia.org/wiki/Fanny_and_Alexander"
+    },
+    {
+      "title": "Wikidata, Fanny and Alexander (Q165651)",
+      "url": "https://www.wikidata.org/wiki/Q165651"
+    }
+  ]
+}

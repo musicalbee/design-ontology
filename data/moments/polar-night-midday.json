@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schema/moment.schema.json",
+  "id": "polar-night-midday",
+  "name": "Polar night at midday (morketid)",
+  "kind": "seasonal",
+  "description": "In the far north the sun does not rise, and at noon there is only a blue twilight for a few hours.",
+  "emotions": [
+    {
+      "emotion": "yugen",
+      "strength": 1
+    },
+    {
+      "emotion": "sadness",
+      "strength": 0.5
+    },
+    {
+      "emotion": "koselig",
+      "strength": 0.7
+    },
+    {
+      "emotion": "awe",
+      "strength": 0.4
+    }
+  ],
+  "time": {
+    "of_day": [
+      "midday",
+      "blue-hour"
+    ],
+    "season": [
+      "winter"
+    ],
+    "sun_elevation_deg": {
+      "min": -6,
+      "max": 0
+    }
+  },
+  "light": {
+    "cct_k": {
+      "min": 8000,
+      "max": 15000
+    },
+    "lux": {
+      "min": 3,
+      "max": 400
+    },
+    "direction": "diffuse",
+    "quality": "soft",
+    "sources": [
+      "sky",
+      "snow-reflection",
+      "lamp",
+      "aurora"
+    ]
+  },
+  "weather": [
+    "clear",
+    "snow",
+    "overcast"
+  ],
+  "sound": [
+    "wind",
+    "quiet town"
+  ],
+  "scent": [
+    "cold air"
+  ],
+  "people": {
+    "min": 0,
+    "max": 10,
+    "activity": "walk to work under street lamps"
+  },
+  "carriers": {
+    "styles": [
+      "nordic-modernism-architecture",
+      "scandinavian-interior"
+    ],
+    "things": [
+      "street lamps",
+      "lit windows",
+      "snow banks"
+    ]
+  },
+  "cues": [
+    "warm-dim-light-positive-affect",
+    "daylight-windows-wellbeing"
+  ],
+  "scene_ref": null,
+  "sources": [
+    {
+      "title": "Wikipedia, Polar night: Tromso has civil polar twilight at midday in December",
+      "url": "https://en.wikipedia.org/wiki/Polar_night"
+    },
+    {
+      "title": "Wikipedia, Twilight: civil, nautical and astronomical stages",
+      "url": "https://en.wikipedia.org/wiki/Twilight"
+    }
+  ]
+}

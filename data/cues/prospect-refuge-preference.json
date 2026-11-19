@@ -1,0 +1,40 @@
+{
+  "$schema": "../../schema/cue.schema.json",
+  "id": "prospect-refuge-preference",
+  "name": "A view out from a sheltered place is preferred",
+  "variable": "prospect-refuge",
+  "direction": {
+    "change": "more",
+    "unit": "prospect (view out) and refuge (shelter)",
+    "range": {
+      "from": "no view, exposed",
+      "to": "wide view from a sheltered edge"
+    }
+  },
+  "effects": [
+    {
+      "target": "pad:p",
+      "sign": 1,
+      "size": "small"
+    },
+    {
+      "target": "relaxation",
+      "sign": 1,
+      "size": "small"
+    }
+  ],
+  "evidence_kind": "measured",
+  "claim": "A meta-analysis of preference studies found support for prospect in urban and interior scenes, and weaker, mixed support for refuge.",
+  "study": {
+    "participants": null,
+    "setting": "meta-analysis"
+  },
+  "caveat": "The authors call the quantitative evidence inconsistent; we did not read the full paper or its study counts.",
+  "weak": true,
+  "sources": [
+    {
+      "title": "Dosen and Ostwald 2016, Evidence for prospect-refuge theory: a meta-analysis of the findings of environmental preference research, City, Territory and Architecture 3",
+      "url": "https://doi.org/10.1186/s40410-016-0033-1"
+    }
+  ]
+}
